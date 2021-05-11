@@ -1,0 +1,250 @@
+---
+title: Diseño de correos electrónicos en Journey Optimizer
+description: Aprenda a diseñar el contenido de sus correos electrónicos
+translation-type: tm+mt
+source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+workflow-type: tm+mt
+source-wordcount: '1482'
+ht-degree: 1%
+
+---
+
+# Diseño del contenido del correo electrónico en la interfaz de usuario {#create-email-content}
+
+![](assets/do-not-localize/badge.png)
+
+Una vez que haya [creado el mensaje](create-message.md), puede empezar a crear el contenido del correo electrónico.
+
+1. En el mensaje recién creado, seleccione **[!UICONTROL Email designer]** en la sección **[!UICONTROL Edit content]** .
+
+   ![](assets/import-html_1.png)
+
+1. En la página de inicio del Diseñador de correo electrónico, elija cómo desea diseñar el correo electrónico desde las siguientes opciones:
+
+   * Seleccione **[!UICONTROL Design from scratch]** para utilizar las capacidades del diseñador de correo electrónico para crear su contenido de correo electrónico.
+
+   * Seleccione **[!UICONTROL Start from template]** para crear el correo electrónico a partir de una lista integrada de plantillas. Tenga en cuenta que no puede crear otras plantillas.
+
+   * Seleccione **[!UICONTROL Code your own]** para introducir o pegar código HTML sin procesar. [Más información](existing-content.md#import-raw-html-code).
+
+   * Seleccione **[!UICONTROL Import HTML]** para importar un archivo HTML o una carpeta .zip. [Más información](existing-content.md#import-html-content-from-file).
+
+   ![](assets/email_designer_25.png)
+
+## Diseño desde cero
+
+Para empezar a crear el contenido del correo electrónico con el diseñador de correo electrónico, siga los pasos a continuación:
+
+1. Después de seleccionar la opción **[!UICONTROL Design from scratch]**, comience a diseñar el contenido del correo electrónico arrastrando y soltando **[!UICONTROL Structure components]** para definir el diseño del correo electrónico.
+
+   ![](assets/email_designer_2.png)
+
+1. Desde la lista desplegable **[!UICONTROL Content components]** puede agregar tantos **[!UICONTROL Content components]** como necesite en el componente de estructura. [Obtenga más información sobre los componentes](content-components.md) de contenido.
+
+   ![](assets/email_designer_3.png)
+
+1. Cada componente se puede personalizar aún más con la sección **[!UICONTROL Component settings]** . Por ejemplo, puede cambiar el estilo del texto, el relleno o el margen del componente. [Obtenga más información sobre los estilos en el Editor](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html) de correo electrónico.
+
+   ![](assets/email_designer_4.png)
+
+1. Desde **[!UICONTROL Assets picker]**, puede añadir directamente al correo electrónico recursos almacenados en **[!UICONTROL Assets library]**. [Obtenga más información sobre la administración de recursos](assets-essentials.md).
+
+   Haga doble clic en la carpeta que contiene los recursos y arrastre y suelte el recurso que desea agregar al correo electrónico.
+
+   ![](assets/email_designer_5.png)
+
+1. Agregue campos de personalización para personalizar el contenido de los datos de perfil. [Obtenga más información sobre la personalización de contenido](personalization/personalize.md).
+
+   ![](assets/email_designer_6.png)
+
+1. En la pestaña **[!UICONTROL Links]** del panel izquierdo, compruebe la lista de todas las direcciones URL del contenido que se rastrearán. Puede modificar sus **[!UICONTROL Tracking Type]**, **[!UICONTROL Label]** y **[!UICONTROL Tags]** si es necesario.
+
+   ![](assets/email_designer_7.png)
+
+1. Si es necesario, puede cambiar al editor de código para personalizar aún más el correo electrónico haciendo clic en **[!UICONTROL Switch to code editor]** en el menú avanzado. Para obtener más información sobre el editor de código, consulte esta [página](existing-content.md#import-raw-html-code).
+
+   >[!NOTE]
+   >
+   >No podrá utilizar el diseñador visual para este correo electrónico después de cambiar al editor de código.
+
+   ![](assets/email_designer_26.png)
+
+1. Haga clic en **[!UICONTROL Preview]** para comprobar la renderización del correo electrónico. Puede elegir la vista de escritorio o la vista móvil.
+
+   ![](assets/email_designer_8.png)
+
+1. Cuando el correo electrónico esté listo, haga clic en **[!UICONTROL Save & Close]**.
+
+El contenido del correo electrónico ahora se puede utilizar en un mensaje. [Obtenga información sobre cómo enviar un mensaje](publish-manage-message.md).
+
+## Defina la estructura de correo electrónico {#defining-the-email-structure}
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components"
+>title="Acerca de los componentes de estructura"
+>abstract="Los componentes de estructura definen el diseño del correo electrónico."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns"
+>title="Definición de columnas de correo electrónico"
+>abstract="El Diseñador de correo electrónico permite definir fácilmente el diseño del correo electrónico definiendo la estructura de columnas."
+
+El Diseñador de correo electrónico le permite definir fácilmente la estructura del correo electrónico. Al agregar y mover elementos estructurales con simples acciones de arrastrar y soltar, puede diseñar la forma de su correo electrónico en cuestión de segundos.
+
+Para editar la estructura de un correo electrónico:
+
+1. Abra un contenido existente o cree un nuevo contenido de correo electrónico.
+1. Acceda a **[!UICONTROL Structure components]** seleccionando el icono **+** a la izquierda.
+1. Arrastre y suelte los componentes de estructura que necesita para dar forma al correo electrónico.
+Una línea azul materializa la ubicación exacta de los componentes de estructura antes de soltarla. Puede soltarlo encima, entre o debajo de cualquier otro componente, pero no dentro.
+
+   >[!NOTE]
+   >
+   >Tenga en cuenta que la pila de columnas no es compatible con todos los programas de correo electrónico. Cuando no se admita, las columnas no se apilarán.
+   >
+   >Una vez colocados en el correo electrónico, no puede mover ni eliminar los componentes a menos que ya haya un componente de contenido o un fragmento colocado en él.
+
+1. Hay disponibles varios componentes de estructura compuestos por una o más columnas.
+
+   Seleccione el componente **[!UICONTROL n:n column]** para definir el número de columnas que elija (entre 3 y 10). También puede definir el ancho de cada columna moviendo las flechas en la parte inferior de cada columna.
+
+   >[!NOTE]
+   >
+   >Cada tamaño de columna no puede ser inferior al 10 % de la anchura total del componente de estructura. No se puede quitar una columna que no esté vacía.
+
+Una vez definida la estructura, puede añadir fragmentos de contenido y componentes al correo electrónico.
+
+## Usar un encabezado previo {#preheader}
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_preheader"
+>title="Uso de un encabezado previo"
+>abstract="El encabezado previo le permite configurar un breve texto de resumen que le ayudará a rastrear y personalizar mejor sus correos electrónicos."
+
+Un encabezado previo es un breve texto de resumen que sigue la línea del asunto cuando se visualiza un correo electrónico desde su cliente de correo electrónico. El encabezado previo puede ayudarle a rastrear y personalizar mejor sus correos electrónicos.
+
+Seleccione el cuadro de edición **[!UICONTROL Preheader]** y añada contenido.
+
+Puede añadir un **[!UICONTROL Content block]**, un **[!UICONTROL Dynamic content]** o un **[!UICONTROL Personalization fields]** en el contenido del encabezado previo.
+
+>[!NOTE]
+>
+>Tenga en cuenta que los encabezados previos no son compatibles con todos los clientes de correo electrónico. Cuando no se admite, el encabezado previo no se muestra.
+
+## Configuración de fondo {#about-backgrounds}
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_backgroundimage"
+>title="Configuración de fondo"
+>abstract="El diseñador de correo electrónico le permite personalizar el color de fondo o la imagen de fondo del contenido. Tenga en cuenta que la imagen de fondo no es compatible con todos los clientes de correo electrónico."
+>additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="Información adicional"
+
+En cuanto a la configuración de fondos con el Diseñador de correo electrónico, Adobe recomienda lo siguiente:
+
+1. Aplique un color de fondo al cuerpo del correo electrónico si lo requiere el diseño.
+1. En la mayoría de los casos, defina los colores de fondo en el nivel de columna.
+1. Intente no utilizar colores de fondo en componentes de imagen o texto, ya que son difíciles de administrar.
+
+A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
+
+* Establezca un **[!UICONTROL Background color]** para todo el correo electrónico. Asegúrese de seleccionar la configuración de cuerpo en el árbol de navegación accesible desde la paleta izquierda.
+
+* Para definir el mismo color de fondo para todos los componentes de estructura, seleccione **[!UICONTROL Viewport background color]**. Esta opción le permite seleccionar una configuración diferente del color de fondo.
+
+* Defina un color de fondo diferente para cada componente de estructura. Seleccione una estructura del árbol de navegación accesible desde la paleta izquierda para aplicar un color de fondo específico solo a esa estructura.
+
+   Asegúrese de no establecer un color de fondo de ventanilla móvil, ya que podría ocultar los colores de fondo de la estructura.
+
+* Establezca un **[!UICONTROL Background image]** para el contenido de un componente de estructura.
+
+   >[!NOTE]
+   >
+   >Algunos programas de correo electrónico no admiten imágenes de fondo. Cuando no se admita, se utilizará el color de fondo de fila. Asegúrese de seleccionar un color de fondo alternativo adecuado en caso de que la imagen no se pueda mostrar.
+
+* Establezca un color de fondo en el nivel de columna.
+
+   >[!NOTE]
+   >
+   >Este es el caso de uso más común. Adobe recomienda configurar los colores de fondo en el nivel de columna, ya que esto permite una mayor flexibilidad al editar todo el contenido del correo electrónico.
+
+   También puede establecer una imagen de fondo en el nivel de columna, pero esto no se suele utilizar.
+
+### Ejemplo: ajustar alineación vertical y margen {#example--adjusting-vertical-alignment-and-padding}
+
+Desea ajustar el margen y la alineación vertical dentro de un componente de estructura compuesto por tres columnas. Para realizar esto, siga los pasos a continuación:
+
+1. Seleccione el componente de estructura directamente en el correo electrónico o utilice el árbol de estructura disponible en la **Paleta** izquierda.
+1. En la **barra de herramientas contextual**, haga clic en **[!UICONTROL Select a column]** y elija la que desea editar. También puede seleccionarlo en el árbol de estructura.
+
+   Los parámetros editables para esa columna se muestran en el panel **[!UICONTROL Settings]** de la derecha.
+
+1. En **[!UICONTROL Vertical alignment]**, seleccione **[!UICONTROL Up]**.
+
+   El componente de contenido se muestra encima de la columna .
+
+1. En **[!UICONTROL Padding]**, defina el relleno superior dentro de la columna. Haga clic en el icono de candado para romper la sincronización con el relleno inferior.
+
+   Defina el relleno izquierdo y derecho para esa columna.
+
+1. Proceda de forma similar para ajustar la alineación y el relleno de las demás columnas.
+
+1. Guarde los cambios.
+
+## Definir un estilo para los vínculos {#about-styling-links}
+
+Puede subrayar un vínculo y seleccionar su color y destino en el Diseñador de correo electrónico.
+
+1. En un componente en el que se inserta un vínculo, seleccione el texto de la etiqueta del vínculo.
+
+1. En la configuración del componente, marque **[!UICONTROL Underline link]** para subrayar el texto de la etiqueta del vínculo.
+
+1. Para seleccionar en qué contexto de navegación se abrirá el enlace, seleccione un **[!UICONTROL Target]**.
+
+1. Para cambiar el color del vínculo, haga clic en **[!UICONTROL Link color]**.
+
+1. Elija el color que necesite.
+
+1. Guarde los cambios.
+
+## Añadir atributos de estilo en línea {#adding-inline-styling-attributes}
+
+En la interfaz del Diseñador de correo electrónico, al seleccionar un elemento y mostrar su configuración en el panel lateral, puede personalizar los atributos en línea y su valor para ese elemento específico.
+
+1. Seleccione un elemento en el contenido.
+1. En el panel lateral, busque la configuración **[!UICONTROL Styles Inline]**.
+
+1. Modifique los valores de los atributos existentes o agregue otros nuevos con el botón **+**. Puede añadir cualquier atributo y valor que sea compatible con CSS.
+
+A continuación, el estilo se aplica al elemento seleccionado. Si los elementos secundarios no tienen atributos de estilo específicos definidos, se hereda el estilo del elemento principal.
+
+
+## Cree la versión de texto de un correo electrónico {#generate-text-version}
+
+Se recomienda crear una versión de texto del cuerpo del correo electrónico, que se utiliza cuando no se puede mostrar contenido HTML.
+
+De forma predeterminada, el Diseñador de correo electrónico crea una versión **[!UICONTROL Plain text]** del correo electrónico, incluidos los campos de personalización. Esta versión se genera y sincroniza automáticamente con la versión HTML del contenido.
+
+Si prefiere usar un contenido diferente para la versión de texto sin formato, siga los pasos a continuación:
+
+1. En el correo electrónico, seleccione la pestaña **[!UICONTROL Plain text]** .
+
+1. Utilice el botón **[!UICONTROL Sync with HTML]** para desactivar la sincronización.
+
+   ![](assets/text_version_1.png)
+
+1. Haga clic en la marca de verificación para confirmar su elección.
+
+   ![](assets/text_version_2.png)
+
+1. A continuación, puede editar la versión de texto sin formato como desee.
+
+>[!CAUTION]
+>
+>* Los cambios realizados en la vista **[!UICONTROL Plain text]** no se reflejan en la vista HTML.
+   >
+   >
+* Si vuelve a habilitar la opción **[!UICONTROL Sync with HTML]** después de actualizar el contenido de texto sin formato, los cambios se perderán y se sustituirán por el contenido de texto generado a partir de la versión HTML.
+
+>
+
+
