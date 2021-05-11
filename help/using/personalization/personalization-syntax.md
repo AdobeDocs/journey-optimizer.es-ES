@@ -2,7 +2,7 @@
 title: Sintaxis de personalización
 description: Aprenda a utilizar la sintaxis de personalización
 translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 568b37f0bbcb663cf7062f26b90d57d89452e862
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 3%
@@ -111,9 +111,9 @@ Esta ruta tiene la siguiente estructura:
 3: ID de actividad
 4 - Ofrezca atributos específicos. Se pueden utilizar los atributos compatibles en función del tipo de oferta. Por ejemplo, para imágenes `deliveryUrl`.
 
-Para obtener más información sobre la API de Decisiones, consulte esta [página](https://experienceleague.corp.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api)
+Para obtener más información sobre la API de Decisiones, consulte esta [página](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api)
 
-Para obtener más información sobre la Representación de ofertas, consulte esta [página](https://experienceleague.corp.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers).
+Para obtener más información sobre la Representación de ofertas, consulte esta [página](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers).
 
 Todas las referencias se validan con el Esquema de ofertas con un mecanismo de validación descrito [aquí](personalization-validation.md).
 
