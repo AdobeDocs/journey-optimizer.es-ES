@@ -1,0 +1,28 @@
+---
+title: Acerca de los segmentos de Adobe Experience Platform
+description: Obtenga información sobre cómo configurar un segmento de Adobe Experience Platform
+translation-type: tm+mt
+source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 2%
+
+---
+
+# Acerca de los segmentos de Adobe Experience Platform {#about-segments}
+
+![](../assets/do-not-localize/badge.png)
+
+Journey Optimizer le permite crear segmentos de Adobe Experience Platform utilizando datos de perfil de cliente en tiempo real directamente desde el menú **[!UICONTROL Segments]** y aprovecharlos en sus recorridos.
+
+Tenga en cuenta que los segmentos también se pueden crear desde el propio servicio de Segmentación. Obtenga más información en la [documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+
+Puede aprovechar los segmentos en los recorridos de diferentes maneras:
+
+* Utilice una actividad de organización **Read segment** para hacer que todas las personas que pertenecen al segmento especificado entren en el recorrido. Los mensajes incluidos en el recorrido se envían a las personas pertenecientes al segmento. Supongamos que tiene un segmento &quot;cliente plata&quot;. Con esta actividad, puede hacer que todos los clientes plata introduzcan un recorrido y envíen una serie de mensajes personalizados.
+
+   Para obtener más información sobre cómo utilizar la actividad **[!UICONTROL Read segment]**, consulte [esta sección](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
+
+* Utilice la actividad de evento **Segment qualification** para que los individuos entren o avancen en un recorrido en función de las entradas y salidas de segmentos de Adobe Experience Platform. Por ejemplo, puede hacer que todos los clientes nuevos de plata introduzcan un recorrido y envíen mensajes. Para obtener más información sobre cómo utilizar esta actividad, consulte [esta sección](../building-journeys/segment-qualification-events.md).
+
+* Cree **condiciones complejas** en sus recorridos con el editor de expresiones simple o avanzado. Obtenga más información en [esta sección](../building-journeys/condition-activity.md#using-a-segment).
