@@ -2,10 +2,10 @@
 title: Introducción a la exportación del catálogo de ofertas
 description: Esta sección enumera todos los campos utilizados en el conjunto de datos exportado para tomar decisiones.
 translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+source-git-commit: 70c172e19d5900c898d4850801468a2e186e682d
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 4%
+source-wordcount: '1483'
+ht-degree: 3%
 
 ---
 
@@ -21,202 +21,245 @@ El lote correcto más reciente del conjunto de datos se muestra a la derecha. La
 >
 >Obtenga información sobre cómo acceder a los conjuntos de datos exportados para cada objeto de la biblioteca de ofertas en [esta sección](../export-catalog/access-dataset.md).
 
-Una decisión (anteriormente conocida como decisión de oferta) se utiliza para controlar el proceso de toma de decisiones. Especifica el filtro aplicado al inventario total para reducir las ofertas por tema o categoría, la ubicación para reducir el inventario a aquellas ofertas que técnicamente caben en el espacio reservado para la oferta y especifica una opción de reserva en caso de que las restricciones combinadas descalifiquen todas las ofertas de personalización disponibles.
-
 Esta es la lista de todos los campos que se pueden utilizar en el conjunto de datos **[!UICONTROL Decision Object Repository - Decisions]** (anteriormente conocido como Repositorio de objetos de decisión - Actividades).
+
+<!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
 
 ## Identificador
 
-Identificador único del registro.
-
-Tipo: cadena
+**Campo:**  _id 
+**Título:** Identificador 
+**Descripción:**  Identificador único del registro.
+**Tipo:** cadena
 
 ## _experiencia
 
+**Campo:** _experience 
+**Type:** object
+
 ### decisioning
+
+**Campo:** 
+**tipo de decisión:** objeto
 
 #### criterios
 
-Define un conjunto de criterios de decisión en los que cada uno contiene un conjunto de restricciones.
+**Campo:** Título de 
+**criterios:** 
+**Descripción de criterios:**  Define un conjunto de criterios de decisión en los que cada uno contiene un conjunto de restricciones.
+**Tipo:** matriz
 
-Tipo: matriz
+* **descripción**
 
-* **Descripción**
+   **Campo:** descripción
+   **Título:** Descripción
+   **Descripción:** Descripción del criterio. Se utiliza para transmitir intenciones legibles sobre cómo o por qué se construyó este criterio y cómo está afectando a la decisión.
+   **Tipo:** cadena
 
-   Descripción del criterio. Se utiliza para transmitir intenciones legibles sobre cómo o por qué se construyó este criterio y cómo está afectando a la decisión.
+* **optionSelection**
 
-   Tipo: cadena
-
-* **Selección de opciones**
-
-   La selección de opciones define la validez/aplicabilidad de las opciones en este contexto.
-
-   Tipo: object
+   **Campo:** optionSelection
+   **Título:** Selección de opciones
+   **Descripción:** La selección de opciones define la validez/aplicabilidad de las opciones en este contexto.
+   **Tipo:** objeto
 
    * **Descripción**
 
-      Descripción de la selección de opciones. Se utiliza para transmitir intenciones legibles sobre cómo o por qué se creó esta selección de opciones y/o qué opción coincidirá.
-
-      Tipo: cadena
+      **Campo:** descripción
+      **Título:** Descripción
+      **Descripción:** Descripción de la selección de opciones. Se utiliza para transmitir intenciones legibles sobre cómo o por qué se creó esta selección de opciones y/o qué opción coincidirá.
+      **Tipo:** cadena
 
    * **Filtro de opciones**
 
-      La referencia a un filtro basado en etiquetas que coincida con las opciones de un inventario mediante sus etiquetas adjuntas. El valor es el URI (@id) de la regla de decisión a la que se hace referencia. Consulte esquema https://ns.adobe.com/experience/decisioning/filter.
-
-      Tipo: cadena
+      **Campo:** filtro
+      **Título: Filtro de opciones** 
+      **Descripción:** La referencia a un filtro basado en etiquetas que coincide con las opciones de un inventario mediante sus etiquetas adjuntas. El valor es el URI (@id) de la regla de decisión a la que se hace referencia. Consulte esquema https://ns.adobe.com/experience/decisioning/filter.
+      **Tipo:** cadena
 
    * **Tipo de restricción de perfil**
 
-      Determina si hay restricciones establecidas actualmente y cómo se expresan las restricciones. Podría ser mediante una consulta de filtro o a través de una o más suscripciones a segmentos.
-
-      Tipo: cadena
+      **Campo:** optionSelectionType
+      **Título:** Tipo de restricción de perfil
+      **Descripción:** Determina si hay restricciones establecidas actualmente y cómo se expresan las restricciones. Puede ser a través de una consulta de filtro o a través de una o más suscripciones a segmentos.
+      **Tipo:** cadena
+      **Valores posibles:** &quot;directList&quot;, &quot;filter&quot;
+      **Valor predeterminado:** &quot;none&quot;
 
    * **Lista de opciones**
 
-      Lista que especifica directamente las opciones sin evaluar una consulta de filtro. Se puede especificar una lista de opciones o una regla de filtro de opciones.
+      **Campo:** opciones
+      **Título:** Lista de opciones
+      **Descripción:** Una lista que especifica directamente las opciones sin evaluar una consulta de filtro. Se puede especificar una lista de opciones o una regla de filtro de opciones.
+      **Tipo:** matriz
 
-      Tipo: matriz
-
-      <!--Missing title under Option List? Desc = An identifier of an decision option entity. The value value refers to an `@id` property of a decision option.-->
+      <!--Missing title under Option List? Desc = An identifier of an decision option entity. The value value refers to an `@id` property of a decision option. Type: string-->
 
 * **ubicaciones**
 
-   La restricción de colocación indica que este criterio solo es aplicable a las ubicaciones enumeradas. Solo se tiene en cuenta la selección de opciones cuando la colocación de destino está en la lista `xdm:placements`. De lo contrario, se omiten todos los criterios de decisión. Cuando la lista &quot;xdm:placements&quot; se omite o se vacía, el criterio se considera para cualquier ubicación de destino. Las ubicaciones enumeradas aquí imponen criterios implícitos para la selección de opciones. Una opción a considerar debe tener una representación para la ubicación de destino.
-
-   Tipo: matriz
+   **Campo:** ubicaciones
+   **Título:** Restricciones de colocación
+   **Descripción:** La restricción de colocación indica que este criterio solo es aplicable a las ubicaciones que aparecen en la lista. Solo se tiene en cuenta la selección de opciones cuando la colocación de destino está en la lista `xdm:placements`. De lo contrario, se omiten todos los criterios de decisión. Cuando la lista &quot;xdm:placements&quot; se omite o se vacía, el criterio se considera para cualquier ubicación de destino. Las ubicaciones enumeradas aquí imponen criterios implícitos para la selección de opciones. Una opción a considerar debe tener una representación para la ubicación de destino.
+   **Tipo:** matriz
 
    * **Identificador de colocación**
 
-   Referencia a una entidad de colocación. El valor es el URI (@id) de la ubicación a la que se hace referencia. Consulte esquema https://ns.adobe.com/experience/decisioning/placement.
+   **Título:** Identificador de colocación
+   **Descripción:** Referencia a una entidad de colocación. El valor es el URI (@id) de la ubicación a la que se hace referencia. Consulte esquema https://ns.adobe.com/experience/decisioning/placement.
+   **Tipo:** cadena
 
-   Tipo: cadena
+* **profileConstraints**
 
-* **Restricción de perfil**
-
-   La restricción de perfil decide si una selección de opciones es apta para esta identidad de perfil en este momento, en este contexto. Si la restricción de perfil no necesita tener en cuenta los valores de cada una de las opciones, es decir, no tiene en cuenta las opciones de la selección de opciones, la restricción de perfil que se evalúa como &quot;false&quot; cancela toda la selección de opciones. Por otro lado, se evalúa una regla de restricción de perfil que toma una opción como parámetro para cada opción de calificación de la selección de opciones.
-
-   Tipo: object
+   **Campo:** profileConstraints
+   **Título:** Restricción de perfil
+   **Descripción:** La restricción de perfil decide si una selección de opciones es apta para esta identidad de perfil en este momento, en este contexto. Si la restricción de perfil no necesita tener en cuenta los valores de cada una de las opciones, es decir, no tiene en cuenta las opciones de la selección de opciones, la restricción de perfil que se evalúa como &quot;false&quot; cancela toda la selección de opciones. Por otro lado, se evalúa una regla de restricción de perfil que toma una opción como parámetro para cada opción de calificación de la selección de opciones.
+   **Tipo:** objeto
 
    * **Descripción**
 
-      Descripción de restricción de perfil. Se utiliza para transmitir intenciones legibles sobre cómo o por qué se construyó esta restricción de perfil y/o qué opción incluirá o excluirá.
-
-      Tipo: cadena
+      **Campo:** descripción
+      **Título:** Descripción
+      **Descripción:** Descripción de la restricción de perfil. Se utiliza para transmitir intenciones legibles sobre cómo o por qué se construyó esta restricción de perfil y/o qué opción incluirá o excluirá.
+      **Tipo:** cadena
 
    * **Regla de elegibilidad**
 
-      Referencia a una regla de decisión que se evalúa como true o false para un perfil determinado u otros objetos XDM contextuales dados. La regla se utiliza para decidir si la opción cumple los requisitos de un perfil determinado. El valor es el URI (@id) de la regla de decisión a la que se hace referencia. Consulte esquema https://ns.adobe.com/experience/decisioning/rule.
-
-      Tipo: cadena
+      **Campo: Regla de** idoneidad
+      **Título: Regla de elegibilidad** 
+      **Descripción:** Referencia a una regla de decisión que se evalúa como verdadera o falsa para un perfil determinado u otros objetos XDM contextuales dados. La regla se utiliza para decidir si la opción cumple los requisitos de un perfil determinado. El valor es el URI (@id) de la regla de decisión a la que se hace referencia. Consulte esquema https://ns.adobe.com/experience/decisioning/rule.
+      **Tipo:** cadena
 
    * **Tipo de restricción de perfil**
 
-      Determina si hay restricciones establecidas actualmente y cómo se expresan las restricciones. Podría ser mediante una regla o a través de una o más suscripciones a segmentos.
-
-      Tipo: cadena
-
-      Valores posibles: &quot;none&quot;, &quot;eligibilityRule&quot;, &quot;anySegments&quot;, &quot;allSegments&quot;, &quot;rules&quot;
-
-      Valor predeterminado: &quot;none&quot;
-
+      **Campo:** profileConstraintType
+      **Título:** Tipo de restricción de perfil
+      **Descripción:** Determina si hay restricciones establecidas actualmente y cómo se expresan las restricciones. Podría ser a través de una regla o a través de una o más suscripciones a segmentos.
+      **Tipo:** cadena
+      **Valores posibles:**
+      * &quot;ninguna&quot;
+      * &quot;eligibilityRule&quot;: &quot;La restricción de perfil se expresa como una regla única que debe evaluarse como verdadera antes de permitir la acción restringida.&quot;
+      * &quot;anySegments&quot;: &quot;La restricción de perfil se expresa como uno o más segmentos y el perfil debe ser miembro de al menos uno de ellos antes de permitir la acción restringida.&quot;
+      * &quot;allSegments&quot;: &quot;La restricción de perfil se expresa como uno o más segmentos y el perfil debe ser miembro de todos ellos antes de permitir la acción restringida.&quot;
+      * &quot;reglas&quot;: &quot;La restricción de perfil se expresa como una serie de reglas diferentes, por ejemplo, idoneidad, aplicabilidad, idoneidad, que todos deben evaluar como true antes de permitir la acción restringida.&quot;
+         **Valor predeterminado:** &quot;none&quot;
    * **Identificadores de segmento**
 
-      Identificadores de los segmentos
-
-      Cadena: matriz
+      **Campo:** segmentIdentities
+      **Título:** Identificadores de segmento
+      **Descripción:** Identificadores de los segmentos.
+      **Tipo:** matriz
 
       * **Identificador**
 
-         Identidad del segmento en el área de nombres relacionada.
-
-         Tipo: cadena
+         **Campo:** _id
+         **Título:** Identificador
+         **Descripción:** Identidad del segmento en el área de nombres relacionada.
+         **Tipo:** cadena
 
       * **Área de nombres**
 
-         El espacio de nombres asociado al atributo `xid`.
-
-         Tipo: object
+         **Campo:** área de nombres
+         **Título:** Área de nombres
+         **Descripción:** El área de nombres asociado al  `xid` atributo.
+         **Tipo:** objeto
+         **Requerido:** &quot;code&quot;
 
          * **Código**
 
-            El código es un identificador legible por humanos para el área de nombres y se puede utilizar para solicitar el id de área de nombres técnica que se utiliza para el procesamiento de gráficos de identidad.
-
-            Tipo: cadena
+            **Campo:** código
+            **Título:** Código
+            **Descripción:** El código es un identificador legible por el ser humano para el espacio de nombres y se puede utilizar para solicitar el id de espacio de nombres técnico que se utiliza para el procesamiento de gráficos de identidad.
+            **Tipo:** cadena
       * **Identificador de experiencia**
 
-         Cuando está presente, este valor representa un identificador de área de nombres cruzada que es único en todos los identificadores de ámbito de área de nombres en todos los espacios de nombres.
+         **Campo:** xid
+         **Título:** Identificador de experiencia
+         **Descripción:** Cuando está presente, este valor representa un identificador de área de nombres cruzada que es único en todos los identificadores de área de nombres en todos los espacios de nombres.
+         **Tipo:** cadena
 
-         Tipo: cadena
 
 
-* **Detalles de clasificación**
+* **clasificación**
 
-   Clasificación (prioridad). Define cómo se determina la \&quot;mejor opción\&quot; teniendo en cuenta el contexto del criterio de decisión. Entre todas las opciones seleccionadas que cumplen las restricciones de perfil, la clasificación decide las opciones superiores (o superiores N) que se proponen.
+   **Campo:** clasificación
+   **Título:** Detalles de clasificación
+   **Descripción:** Clasificación (prioridad). Define cómo se determina la \&quot;mejor opción\&quot; teniendo en cuenta el contexto del criterio de decisión. Entre todas las opciones seleccionadas que cumplen las restricciones de perfil, la clasificación decide las opciones superiores (o superiores N) que se proponen.
+   **Tipo:** objeto
 
-   Tipo: object
+   * **pedido**
 
-   * **Evaluación de pedidos**
-
-      Evaluación de un orden relativo de una o más opciones de decisión. Las opciones con valores de ordinal más altos se seleccionan sobre cualquier opción con valores de ordinal más bajos. Los valores determinados por este método se pueden ordenar, pero no se pueden medir las distancias entre ellos ni se pueden calcular sumas ni productos. La mediana y el modo son las únicas medidas de tendencia central que pueden utilizarse para los datos ordinales.
-
-      Tipo: object
+      **Campo:** orden
+      **Título:** Evaluación de pedidos
+      **Descripción:** Evaluación de un orden relativo de una o más opciones de decisión. Las opciones con valores de ordinal más altos se seleccionan sobre cualquier opción con valores de ordinal más bajos. Los valores determinados por este método se pueden ordenar, pero no se pueden medir las distancias entre ellos ni se pueden calcular sumas ni productos. La mediana y el modo son las únicas medidas de tendencia central que pueden utilizarse para los datos ordinales.
+      **Tipo:** objeto
 
       * **Función de puntuación**
 
-         Referencia a una función que calcula una puntuación numérica para esta opción de decisión. Las opciones de decisión se ordenarán (clasificarán) según esa puntuación. El valor de esta propiedad es el URI (@id) de la función que se va a invocar con la opción on a la vez. Consulte esquema https://ns.adobe.com/experience/decisioning/function.
-
-         Tipo: cadena
+         **Campo: función** 
+         **Título:** Función de puntuación
+         **Descripción:** Referencia a una función que calcula una puntuación numérica para esta opción de decisión. Las opciones de decisión se ordenarán (clasificarán) según esa puntuación. El valor de esta propiedad es el URI (@id) de la función que se va a invocar con la opción on a la vez. Consulte esquema https://ns.adobe.com/experience/decisioning/function.
+         **Tipo:** cadena
 
       * **Tipo de evaluación de pedido**
 
-         Especifica qué mecanismo de evaluación de pedidos se utiliza, prioridad estática de las opciones de decisión, función de puntuación que calcula un valor numérico para cada opción o estrategia de clasificación que recibe una lista para solicitarla.
-
-         Tipo: cadena
+         **Campo:** orderEvaluationType
+         **Título:** Tipo de evaluación de pedido
+         **Descripción:** Especifica qué mecanismo de evaluación de pedidos se utiliza, prioridad estática de las opciones de decisión, función de puntuación que calcula un valor numérico para cada opción o estrategia de clasificación que recibe una lista para solicitarla.
+         **Tipo:** cadena
+         **Valores posibles:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
       * **Estrategia de clasificación**
 
-         Referencia a una estrategia que clasifica una opción de lista de decisiones. Las opciones de decisión se devolverán en una lista ordenada. El valor de esta propiedad es el URI (@id) de la función que se va a invocar con la opción on a la vez. Consulte esquema https://ns.adobe.com/experience/decisioning/rankingStrategy.
-
-         Tipo: cadena
+         **Campo:** rankingStrategy
+         **Título:** Estrategia de clasificación
+         **Descripción:** Referencia a una estrategia que clasifica una lista de opciones de decisión. Las opciones de decisión se devolverán en una lista ordenada. El valor de esta propiedad es el URI (@id) de la función que se va a invocar con la opción on a la vez. Consulte esquema https://ns.adobe.com/experience/decisioning/rankingStrategy.
+         **Tipo:** cadena
    * **Prioridad**
 
-      Prioridad de una única opción de decisión en relación con todas las demás opciones. Las opciones para las que no se ha dado ninguna función de orden se priorizan usando esta propiedad. Las opciones con valores de prioridad más altos se seleccionan antes que las opciones con prioridad más baja. Si dos o más opciones cualificadas comparten el valor de prioridad más alto, se elige uno de forma aleatoria uniforme y se utiliza para la propuesta de decisión.
-
-      Tipo: integer
-
-      Valor mínimo: 0
-
-      Valor predeterminado: 0
+      **Campo:** prioridad
+      **Título:** Prioridad
+      **Descripción:** La prioridad de una opción de una sola decisión en relación con el resto de las opciones. Las opciones para las que no se ha dado ninguna función de orden se priorizan usando esta propiedad. Las opciones con valores de prioridad más altos se seleccionan antes que las opciones con prioridad más baja. Si dos o más opciones cualificadas comparten el valor de prioridad más alto, se elige uno de forma aleatoria uniforme y se utiliza para la propuesta de decisión.
+      **Tipo:** integer
+      **Valor mínimo:** 0
+      **Valor predeterminado:** 0
 
 
 #### Fecha y hora de finalización de la actividad
 
-Fecha de finalización de la decisión y hora de finalización. La propiedad tiene la semántica de la propiedad &#39;endTime&#39; de schema.org definida en http://schema.org/Action.
-
-Tipo: cadena
+**Campo:** FinHora 
+**Título:** Fecha y hora de finalización de la actividad 
+**Descripción:**  Fecha y hora de finalización de la decisión. La propiedad tiene la semántica de la propiedad &#39;endTime&#39; de schema.org definida en http://schema.org/Action.
+**Tipo:** cadena
 
 #### Opción de reserva
 
-La referencia a una opción de reserva que se utiliza al tomar decisiones en el contexto de esta decisión no califica ninguna de las opciones normales (esto suele ocurrir cuando se aplican restricciones duras). El valor es el URI (@id) de la opción de reserva a la que se hace referencia.
-
-Tipo: cadena
+**Campo:** 
+**Título de reserva:** Opción de reserva 
+**Descripción:**  La referencia a una opción de reserva que se utiliza al tomar decisiones en el contexto de esta decisión no califica ninguna de las opciones normales (esto suele ocurrir cuando se aplican restricciones duras). El valor es el URI (@id) de la opción de reserva a la que se hace referencia.
+**Tipo:** cadena
 
 #### Nombre de la actividad
 
-Nombre de decisión que se muestra en varias interfaces de usuario.
-
-Tipo: cadena
+**Campo:** nombre 
+**Título:** Nombre de la actividad 
+**Descripción:**  Nombre de la decisión que se muestra en varias interfaces de usuario.
+**Tipo:** cadena
 
 #### Fecha y hora de inicio de la actividad
 
-Fecha de inicio y hora de finalización de la decisión. La propiedad tiene la semántica de la propiedad &#39;startTime&#39; de schema.org definida en http://schema.org/Action.
-
-Tipo: cadena
+**Campo:** Título de la hora 
+**inicial:** Fecha y hora de inicio de la actividad 
+**Descripción:**  Fecha de inicio y hora de finalización de la decisión. La propiedad tiene la semántica de la propiedad &#39;startTime&#39; de schema.org definida en http://schema.org/Action.
+**Tipo:** cadena
 
 ## _repo
 
+**Campo:** _repo 
+**Tipo:** objeto
+
 ### ETG de actividad
 
-Revisión en la que se encontraba el objeto de decisión cuando se tomó la instantánea.
-
-Tipo: cadena
+**Campo:** Etiqueta 
+**Título:** ETG de actividad 
+**Descripción:**  La revisión en la que se encontraba el objeto de decisión cuando se tomó la instantánea.
+**Tipo:** cadena
