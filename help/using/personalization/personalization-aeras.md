@@ -2,9 +2,9 @@
 title: Contextos de personalización en Journey Optimizer
 description: Descubra en qué contextos puede añadir personalización
 translation-type: tm+mt
-source-git-commit: 568b37f0bbcb663cf7062f26b90d57d89452e862
+source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '397'
 ht-degree: 2%
 
 ---
@@ -65,8 +65,8 @@ En la interfaz del editor de expresiones, se seleccionan, organizan, personaliza
 La parte izquierda de la pantalla muestra un selector de dominio que le permite seleccionar el origen de la personalización.
 
 * **Perfil** : enumera todas las referencias asociadas al esquema de perfil que se describen en la documentación [ del Modelo de datos de ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es)Adobe Experience Platform (XDM).
-* **Pertenencia a segmentos** : enumera todos los segmentos creados en el servicio de segmentación de Adobe Experience Platform. Más información sobre la segmentación disponible [aquí](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)
-* **Ofertas** : enumera todas las ofertas asociadas a una ubicación específica. Seleccione la ubicación e inserte las ofertas en el contenido. Para obtener una documentación completa sobre cómo administrar ofertas, consulte [esta sección](https://experienceleague.adobe.com/docs/customer-journey-management/using/create-messages/deliver-personalized-offers.html?lang=en#about-offer-decisioning)
+* **Pertenencia a segmentos** : enumera todos los segmentos creados en el servicio de segmentación de Adobe Experience Platform. Más información sobre segmentación disponible [aquí](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en).
+* **Ofertas** : enumera todas las ofertas asociadas a una ubicación específica. Seleccione la ubicación e inserte las ofertas en el contenido. Para obtener una documentación completa sobre cómo administrar ofertas, consulte [esta sección](../../using/offers/get-started/starting-offer-decisioning.md).
 
 Al seleccionarla, la referencia se añade en el editor.
 
