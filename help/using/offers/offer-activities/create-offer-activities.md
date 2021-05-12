@@ -2,7 +2,7 @@
 title: Crear decisiones
 description: Aprenda a crear decisiones
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 3%
@@ -13,11 +13,11 @@ ht-degree: 3%
 
 Las decisiones (anteriormente conocidas como actividades de oferta) son contenedores para sus ofertas que aprovecharán el motor de decisión de ofertas para elegir la mejor oferta que se debe entregar, según el destinatario del envío.
 
-![](../assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
+![](../../assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
 Se puede acceder a la lista de decisiones desde la pestaña **[!UICONTROL Offers]** menu / **[!UICONTROL Decisions]** . Los filtros están disponibles para ayudarle a recuperar las decisiones según su estado o las fechas de inicio y finalización.
 
-![](../assets/activities-list.png)
+![](../../assets/activities-list.png)
 
 Antes de crear una decisión, asegúrese de que los componentes siguientes se hayan creado en la Biblioteca de ofertas:
 
@@ -32,21 +32,21 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
 1. Especifique el nombre de la decisión, así como su fecha y hora de inicio y finalización y, a continuación, haga clic en **[!UICONTROL Next]**.
 
-   ![](../assets/activities-name.png)
+   ![](../../assets/activities-name.png)
 
 ## Agregar decisiones {#add-decisions}
 
 1. Arrastre y suelte una ubicación de la lista para agregarla a la decisión y, a continuación, haga clic en **[!UICONTROL Add collection]**.
 
-   ![](../assets/activities-placement.png)
+   ![](../../assets/activities-placement.png)
 
 1. Seleccione la colección que contiene las ofertas que desea tener en cuenta y haga clic en **[!UICONTROL Add]**.
 
-   ![](../assets/activities-collection.png)
+   ![](../../assets/activities-collection.png)
 
 1. Las ofertas seleccionadas se añaden a la ubicación. En este ejemplo, seleccionamos dos ofertas que se mostrarán en una ubicación de tipo JSON con el fin de presentar ofertas en una solución de centro de llamadas.
 
-   ![](../assets/offers-added.png)
+   ![](../../assets/offers-added.png)
 
 1. De forma predeterminada, si varias ofertas son elegibles para esta ubicación, las ofertas con la puntuación de prioridad más alta se entregarán al cliente.
 
@@ -56,23 +56,23 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
    Para restringir la selección de ofertas a los miembros de un segmento de Adobe Experience Platform, seleccione **[!UICONTROL Segments]** y haga clic en **[!UICONTROL Add segments]**.
 
-   ![](../assets/activity_constraint_segment.png)
+   ![](../../assets/activity_constraint_segment.png)
 
    Agregue uno o varios segmentos del panel izquierdo, combínelos con los operadores lógicos **[!UICONTROL And]** / **[!UICONTROL Or]** y haga clic en **[!UICONTROL Select]** para confirmar.
 
    Para obtener más información sobre cómo trabajar con segmentos, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
-   ![](../assets/activity_constraint_segment2.png)
+   ![](../../assets/activity_constraint_segment2.png)
 
    Si desea agregar una restricción de selección para esta ubicación mediante una regla de decisión, seleccione la opción **[!UICONTROL Decision rule]** y, a continuación, arrastre la regla deseada del panel izquierdo al área **[!UICONTROL Decision rule]**. Para obtener más información sobre cómo crear una regla de decisión, consulte [esta sección](../offer-library/creating-decision-rules.md).
 
-   ![](../assets/activity_constraint_rule.png)
+   ![](../../assets/activity_constraint_rule.png)
 
 ## Agregar una oferta de reserva {#add-fallback}
 
 Seleccione la oferta de reserva que se presentará como último recurso a los clientes que no coincidan con las reglas y restricciones de idoneidad de las ofertas y, a continuación, haga clic en **[!UICONTROL Next]**.
 
-![](../assets/add-fallback-offer.png)
+![](../../assets/add-fallback-offer.png)
 
 ## Revise y guarde la decisión {#review}
 
@@ -80,7 +80,7 @@ Si todo está configurado correctamente y su decisión está lista para utilizar
 
 También puede guardar la decisión como borrador para editarla y activarla más adelante.
 
-![](../assets/save-activities.png)
+![](../../assets/save-activities.png)
 
 La decisión se muestra en la lista con los estados **[!UICONTROL Live]** o **[!UICONTROL Draft]**, dependiendo de si lo activó o no en el paso anterior.
 
@@ -91,7 +91,7 @@ Para obtener más información sobre la entrega de ofertas, consulte estas secci
 * [Añadir ofertas personalizadas en mensajes](../../deliver-personalized-offers.md)
 * [Enviar ofertas mediante API](../api-reference/decisions-api/deliver-offers.md)
 
-![](../assets/activities-created.png)
+![](../../assets/activities-created.png)
 
 >[!NOTE]
 >
