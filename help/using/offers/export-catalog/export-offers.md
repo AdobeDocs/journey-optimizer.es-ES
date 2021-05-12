@@ -2,7 +2,7 @@
 title: Conjunto de datos de ofertas personalizadas
 description: Esta sección enumera todos los campos utilizados en el conjunto de datos exportado para ofertas.
 translation-type: tm+mt
-source-git-commit: d96a2b179ce652a119b6008e02b1409666f36402
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '1789'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 Cada vez que se modifica una oferta, se actualiza el conjunto de datos generado automáticamente para ofertas de contenido personalizado.
 
-![](../assets/dataset-offers.png)
+![](../../assets/dataset-offers.png)
 
 El lote correcto más reciente del conjunto de datos se muestra a la derecha. La vista jerárquica del esquema para el conjunto de datos se muestra en el panel izquierdo.
 
