@@ -2,7 +2,7 @@
 title: Sintaxis de personalización
 description: Aprenda a utilizar la sintaxis de personalización
 translation-type: tm+mt
-source-git-commit: 568b37f0bbcb663cf7062f26b90d57d89452e862
+source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 3%
@@ -111,7 +111,7 @@ Esta ruta tiene la siguiente estructura:
 3: ID de actividad
 4 - Ofrezca atributos específicos. Se pueden utilizar los atributos compatibles en función del tipo de oferta. Por ejemplo, para imágenes `deliveryUrl`.
 
-Para obtener más información sobre la API de Decisiones, consulte esta [página](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api)
+Para obtener más información sobre la API de Decisiones, consulte esta [página](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api).
 
 Para obtener más información sobre la Representación de ofertas, consulte esta [página](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers).
 
