@@ -2,7 +2,7 @@
 title: Introducción a los eventos de Administración de decisiones
 description: Obtenga información sobre cómo crear informes de Administración de decisiones en Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 47%
@@ -17,7 +17,7 @@ Esto le permite exportar estos datos para analizarlos en su propio sistema de in
 
 Se puede acceder a los conjuntos de datos que contienen eventos de Administración de decisiones desde el menú **[!UICONTROL Datasets]** de Adobe Experience Platform. Se crea automáticamente un conjunto de datos en el aprovisionamiento para cada una de las instancias.
 
-![](../assets/events-datasets-list.png)
+![](../../assets/events-datasets-list.png)
 
 Estos conjuntos de datos se basan en el esquema **[!UICONTROL ODE DecisionEvents]** , que contiene todos los campos XDM necesarios para enviar información de Administración de decisiones a Adobe Experience Platform.
 
