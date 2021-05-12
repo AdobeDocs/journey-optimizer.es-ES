@@ -2,45 +2,14 @@
 title: Creación de ofertas personalizadas
 description: Aprenda a crear ofertas personalizadas en Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 6%
+source-wordcount: '914'
+ht-degree: 4%
 
 ---
 
 # Creación de ofertas personalizadas {#creating-personalized-offers}
-
->[!CONTEXTUALHELP]
->id="od_offer_constraints"
->title="Acerca de las restricciones de oferta"
->abstract="Con las restricciones, se puede especificar cómo se prioriza la oferta y cómo se presenta al usuario en comparación con otras ofertas."
->additional-url="https://video.tv.adobe.com/v/329375?captions=spa" text="Ver vídeo de demostración"
-
->[!CONTEXTUALHELP]
->id="od_offer_eligibility"
->title="Acerca de la idoneidad de la oferta"
->abstract="En esta sección, puede utilizar reglas de decisión para determinar qué usuarios son elegibles para la oferta."
->additional-url="https://experienceleague.adobe.com/docs/offer-decisioning/using/managing-offers-in-the-offer-library/creating-decision-rules.html" text="Creación de reglas de decisión"
->additional-url="https://video.tv.adobe.com/v/329373?captions=spa" text="Ver vídeo de demostración"
-
->[!CONTEXTUALHELP]
->id="od_offer_priority"
->title="Acerca de la prioridad de las ofertas"
->abstract="En este campo, se puede especificar la configuración de prioridad de la oferta. Priority es un número que se usa para clasificar ofertas que cumplen con todas las restricciones, como elegibilidad, fechas y restricciones."
->additional-url="https://video.tv.adobe.com/v/329375" text="Ver vídeo de demostración"
-
->[!CONTEXTUALHELP]
->id="od_offer_globalcap"
->title="Acerca de la restricción de ofertas"
->abstract="En este campo, se puede especificar cuántas veces se puede presentar la oferta entre todos los usuarios."
->additional-url="https://video.tv.adobe.com/v/329375" text="Ver vídeo de demostración"
-
->[!CONTEXTUALHELP]
->id="od_offer_attributes"
->title="Acerca de los atributos de oferta"
->abstract="Con los atributos de oferta, puede asociar pares de valor clave con la oferta para realizar informes y análisis."
->additional-url="https://video.tv.adobe.com/v/329375" text="Ver vídeo de demostración"
 
 Antes de crear una oferta, asegúrese de que ha creado:
 
@@ -48,11 +17,11 @@ Antes de crear una oferta, asegúrese de que ha creado:
 * Una **regla de decisión** que definirá la condición bajo la cual se presentará la oferta. Consulte [Crear reglas de decisión](../offer-library/creating-decision-rules.md).
 * Una o varias **etiquetas** que desea asociar a la oferta. Consulte [Crear etiquetas](../offer-library/creating-tags.md).
 
-![](../assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
+![](../../assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
 Se puede acceder a la lista de ofertas personalizadas en el menú **[!UICONTROL Offers]** .
 
-![](../assets/offers_list.png)
+![](../../assets/offers_list.png)
 
 ## Cree la oferta {#create-offer}
 
@@ -60,11 +29,11 @@ Para crear una **oferta**, siga estos pasos:
 
 1. Haga clic en **[!UICONTROL Create offer]** y, a continuación, seleccione **[!UICONTROL Personalized offer]**.
 
-   ![](../assets/create_offer.png)
+   ![](../../assets/create_offer.png)
 
 1. Especifique el nombre de la oferta, así como su fecha y hora de inicio y finalización. También puede asociar una o varias etiquetas existentes a la oferta, lo que le permite buscar y organizar la Biblioteca de ofertas con mayor facilidad.
 
-   ![](../assets/offer_details.png)
+   ![](../../assets/offer_details.png)
 
    >[!NOTE]
    >
@@ -80,11 +49,11 @@ Para crear una **oferta**, siga estos pasos:
 
 1. Para cada representación, especifique **[!UICONTROL Channel]** y el **[!UICONTROL Placement]** donde se mostrará la oferta.
 
-   ![](../assets/channel-placement.png)
+   ![](../../assets/channel-placement.png)
 
    El botón **[!UICONTROL Browse]** le permite filtrar las ubicaciones disponibles y filtrarlas según su canal o tipo de contenido.
 
-   ![](../assets/browse-placements.png)
+   ![](../../assets/browse-placements.png)
 
 1. Añada contenido a cada representación procedente de la biblioteca de Adobe Experience Cloud Assets o de una ubicación pública externa.
 
@@ -94,13 +63,13 @@ Para crear una **oferta**, siga estos pasos:
       >
       >El contenido solo se puede arrastrar y soltar desde el Selector de recursos en el panel izquierdo. Solo está disponible el contenido correspondiente al tipo de contenido de la ubicación.
 
-      ![](../assets/offer_drag_content.png)
+      ![](../../assets/offer_drag_content.png)
 
    * Para añadir contenido desde una ubicación pública externa, haga clic en el botón **[!UICONTROL Add content]** y, a continuación, especifique el nombre, la dirección URL y el vínculo de destino del contenido que desea añadir.
 
       Asegúrese de que el contenido que está agregando corresponde al tipo de contenido de la ubicación seleccionada.
 
-      ![](../assets/offer_add_content.png)
+      ![](../../assets/offer_add_content.png)
 
    * También puede insertar contenido de tipo texto. Para ello, haga clic en el botón **[!UICONTROL Add content]** y luego seleccione la opción **[!UICONTROL Custom text]**. En el campo **[!UICONTROL Text]**, escriba el texto que se mostrará en la oferta.
 
@@ -108,7 +77,7 @@ Para crear una **oferta**, siga estos pasos:
       >
       >Esta opción no está disponible para ubicaciones de tipo imagen.
 
-      ![](../assets/offer_text_content.png)
+      ![](../../assets/offer_text_content.png)
 
 ## Agregar reglas y restricciones de idoneidad {#eligibility}
 
@@ -120,11 +89,11 @@ Las reglas y restricciones de idoneidad le permiten definir las condiciones en l
 
    Para obtener más información sobre cómo trabajar con segmentos, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
-   ![](../assets/offer-eligibility-segment.png)
+   ![](../../assets/offer-eligibility-segment.png)
 
    Si desea asociar una regla de decisión específica a la oferta, seleccione **[!UICONTROL By defined decision rule]** y, a continuación, arrastre la regla que desee del panel izquierdo al área **[!UICONTROL Decision rule]**. Para obtener más información sobre cómo crear una regla de decisión, consulte [esta sección](../offer-library/creating-decision-rules.md).
 
-   ![](../assets/offer_rule.png)
+   ![](../../assets/offer_rule.png)
 
 1. Defina el **[!UICONTROL Priority]** de la oferta comparado con otros si el usuario cumple los requisitos para más de una oferta. La prioridad más alta que tendrá una oferta es la que mayor será su prioridad comparada con otras ofertas
 
@@ -136,7 +105,7 @@ Las reglas y restricciones de idoneidad le permiten definir las condiciones en l
    >
    >Si se elimina una entrega por correo electrónico o si la preparación se realiza de nuevo antes de enviarse, el valor de límite de la oferta se actualiza automáticamente.
 
-   ![](../assets/offer_capping.png)
+   ![](../../assets/offer_capping.png)
 
    En el ejemplo anterior:
 
@@ -150,13 +119,13 @@ Una vez definidas las reglas y restricciones de idoneidad, se muestra un resumen
 
 También puede guardar la oferta como borrador para editarla y aprobarla más adelante.
 
-![](../assets/offer_review.png)
+![](../../assets/offer_review.png)
 
 La oferta se muestra en la lista con los estados **[!UICONTROL Live]** o **[!UICONTROL Draft]**, en función de si la aprobó o no en el paso anterior.
 
 Ahora está listo para enviarse a los usuarios. Puede seleccionarlo para mostrar sus propiedades y editarlo o suprimirlo.
 
-![](../assets/offer_created.png)
+![](../../assets/offer_created.png)
 
 Una vez creada una oferta, puede hacer clic en su nombre en la lista para acceder a información detallada y monitorizar todos los cambios realizados en ella mediante la pestaña **[!UICONTROL Change log]** (consulte [Control de cambios en ofertas y decisiones](../get-started/user-interface.md#monitoring-changes)).
 
