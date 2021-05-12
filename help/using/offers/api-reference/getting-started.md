@@ -2,7 +2,7 @@
 title: Primeros pasos
 description: Obtenga información sobre cómo empezar a utilizar la API de biblioteca de ofertas para realizar operaciones clave mediante el motor de gestión de decisiones.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 7%
@@ -13,7 +13,7 @@ ht-degree: 7%
 
 Esta guía para desarrolladores proporciona pasos para ayudarle a empezar a utilizar la API [!DNL Offer Library]. A continuación, la guía proporciona ejemplos de llamadas de API para realizar operaciones clave mediante el motor de gestión de decisiones.
 
-![](../assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
+![](../../assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
 ## Requisitos previos
 
