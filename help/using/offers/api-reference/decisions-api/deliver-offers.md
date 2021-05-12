@@ -2,7 +2,7 @@
 title: Entregar ofertas
 description: La administración de decisiones es una colección de servicios y programas de interfaz de usuario que permiten a los especialistas en marketing crear y ofrecer experiencias de oferta personalizadas para el usuario final en canales y aplicaciones mediante lógica empresarial y reglas de decisión.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 3%
@@ -17,7 +17,7 @@ Puede crear y enviar ofertas realizando una solicitud de POST a la API [!DNL Dec
 
 Este tutorial requiere una comprensión práctica de las API, específicamente con respecto a la gestión de decisiones. Para obtener más información, consulte la [guía para desarrolladores de la API de administración de decisiones](../getting-started.md). Este tutorial también requiere que tenga disponible un ID de ubicación y un valor de ID de decisión únicos. Si no ha adquirido estos valores, consulte los tutoriales para [crear una ubicación](../offers-api/placements/create.md) y [crear una decisión](../activities-api/activities/create.md).
 
-![](../../assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
+![](../../../assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
 ## Encabezados Accept y Content-Type
 
