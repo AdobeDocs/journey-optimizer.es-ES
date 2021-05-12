@@ -2,7 +2,7 @@
 title: Creación de ubicaciones
 description: Obtenga información sobre cómo crear ubicaciones en Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 17%
@@ -13,21 +13,21 @@ ht-degree: 17%
 
 Una ubicación ayuda a garantizar que el contenido de oferta correcto se muestre en la ubicación correcta dentro del mensaje. Al agregar contenido a una oferta, se le pedirá que seleccione una ubicación en la que se pueda mostrar dicho contenido.
 
-![](../assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
+![](../../assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
 En el ejemplo siguiente, hay tres ubicaciones que corresponden a diferentes tipos de contenido (imagen, texto, HTML).
 
-![](../assets/offers_placement_schema.png)
+![](../../assets/offers_placement_schema.png)
 
 Se puede acceder a la lista de ubicaciones desde el menú **[!UICONTROL Components]** . Los filtros están disponibles para ayudarle a recuperar las ubicaciones según un canal o contenido específico.
 
-![](../assets/placements_filter.png)
+![](../../assets/placements_filter.png)
 
 Para crear una ubicación, siga estos pasos:
 
 1. Haga clic en **[!UICONTROL Create placement]**.
 
-   ![](../assets/offers_placement_creation.png)
+   ![](../../assets/offers_placement_creation.png)
 
 1. Defina las propiedades de la ubicación:
 
@@ -36,13 +36,13 @@ Para crear una ubicación, siga estos pasos:
    * **[!UICONTROL Content type]**: Tipo de contenido que se permitirá mostrar en la ubicación: Texto, HTML o vínculo de imagen.
    * **[!UICONTROL Description]**: Descripción de la colocación (opcional).
 
-   ![](../assets/offers_placement_creation_properties.png)
+   ![](../../assets/offers_placement_creation_properties.png)
 
 1. Haga clic en **[!UICONTROL Save]** para confirmar.
 
 1. Una vez creada la ubicación, esta se muestra en la lista de ubicaciones. Puede seleccionarlo para mostrar sus propiedades y editarlo.
 
-   ![](../assets/placement_created.png)
+   ![](../../assets/placement_created.png)
 
 ## Tutorial en vídeo {#video}
 
