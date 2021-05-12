@@ -2,7 +2,7 @@
 title: Introducción a Administración de decisiones
 description: Introducción a Administración de decisiones. Obtenga más información sobre su arquitectura, ofertas y decisiones, así como los casos de uso comunes que le permiten realizar.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 38%
@@ -19,7 +19,7 @@ La capacidad de gestión de decisiones consta de dos componentes principales:
 * La **Biblioteca de ofertas centralizada**, que es la interfaz en la que se crean y administran los diferentes elementos que componen las ofertas, y se definen sus reglas y restricciones.
 * El **Motor de decisión de ofertas** que aprovecha los datos de Adobe Experience Platform y los perfiles del cliente en tiempo real, junto con la biblioteca de ofertas, para seleccionar el momento, los clientes y los canales adecuados a los que se enviarán las ofertas.
 
-![](../assets/architecture.png)
+![](../../assets/architecture.png)
 
 Los beneficios incluyen:
 
@@ -27,7 +27,7 @@ Los beneficios incluyen:
 * Flujos de trabajo mejorados: En lugar de crear varios envíos o campañas, los equipos de marketing pueden mejorar los flujos de trabajo creando un único envío y variar las ofertas en diferentes partes de la plantilla,
 * Controle la cantidad de veces que se muestra una oferta entre campañas y clientes.
 
-![](../assets/do-not-localize/how-to-video.png) [Vea estos ](#tutorial-videos) videotutoriales para obtener más información sobre la gestión de decisiones.
+![](../../assets/do-not-localize/how-to-video.png) [Vea estos ](#tutorial-videos) videotutoriales para obtener más información sobre la gestión de decisiones.
 
 ## Acerca de las ofertas y las decisiones {#offers-offer-activities}
 
@@ -35,7 +35,7 @@ Una **oferta** está formada por contenido, reglas de elegibilidad y restriccion
 
 Se crea mediante la **Biblioteca de ofertas**, que proporciona un catálogo de ofertas central donde puede asociar reglas de elegibilidad y restricciones con varios fragmentos de contenido para crear y publicar ofertas (consulte la [interfaz de usuario de la Biblioteca de ofertas](../get-started/user-interface.md)).
 
-![](../assets/offer_structure.png)
+![](../../assets/offer_structure.png)
 
 Una vez que la Biblioteca de ofertas se haya enriquecido con las ofertas, puede integrar las ofertas en **decisiones** (anteriormente conocidas como &quot;actividades de oferta&quot;).
 
@@ -47,15 +47,15 @@ Las funciones de administración de decisiones y la integración con Adobe Exper
 
 * Muestre ofertas en la página de inicio del sitio web que coincidan con el punto de interés del cliente visitante según los datos de Adobe Experience Platform.
 
-   ![](../assets/website.png)
+   ![](../../assets/website.png)
 
 * Si los clientes se acercan a una de las tiendas, envíeles notificaciones push recordándoles las ofertas disponibles según sus atributos (nivel de lealtad, sexo, compras anteriores...).
 
-   ![](../assets/push_sample.png)
+   ![](../../assets/push_sample.png)
 
 * La administración de decisiones también le ayuda a mejorar la experiencia de sus clientes al ponerse en contacto con su equipo de asistencia. Las API de administración de decisiones le permiten mostrar en el portal de los agentes del centro de llamadas información sobre las mejores ofertas y las ofertas canjeadas del cliente.
 
-   ![](../assets/call-center.png)
+   ![](../../assets/call-center.png)
 
 ## Tutoriales en vídeo {#tutorial-videos}
 
