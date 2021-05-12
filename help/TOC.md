@@ -7,9 +7,9 @@ type: Documentation
 solution: Journey Optimizer
 hide: true
 translation-type: tm+mt
-source-git-commit: 5c3f1e4d916c7259f25208785788d2566b316934
+source-git-commit: 1e4b037a54f3b79270890ae4f2909670b17a5cb6
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '537'
 ht-degree: 50%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 50%
       + [Áreas de personalización](using/personalization/personalization-aeras.md)
       + [Sintaxis de personalización](using/personalization/personalization-syntax.md)
       + [Validación de personalización](using/personalization/personalization-validation.md)
+      + [Caso de uso de personalización](using/personalization/personalization-use-case.md)
       + Lenguaje de plantilla{#functions}
          + [Operadores](using/personalization/functions/operators.md)
          + [Agregación](using/personalization/functions/aggregation.md)
