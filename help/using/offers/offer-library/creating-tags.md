@@ -2,7 +2,7 @@
 title: Creación de etiquetas
 description: Aprenda a crear ofertas en Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 6%
@@ -15,11 +15,11 @@ Asociar etiquetas a las ofertas facilita su organización. Por ejemplo, puede et
 
 Las etiquetas también se pueden usar para agrupar ofertas en colecciones de ofertas. Consulte [Crear colecciones](../offer-library/creating-collections.md).
 
-![](../assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
+![](../../assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
 Se puede acceder a la lista de etiquetas creadas en el menú **[!UICONTROL Components]** .
 
-![](../assets/tags_list.png)
+![](../../assets/tags_list.png)
 
 Para crear una etiqueta, siga estos pasos:
 
@@ -27,11 +27,11 @@ Para crear una etiqueta, siga estos pasos:
 
 1. Especifique el nombre de la etiqueta y haga clic en **[!UICONTROL Save]**.
 
-   ![](../assets/tags_create.png)
+   ![](../../assets/tags_create.png)
 
 1. Una vez creada la etiqueta, se muestra en la lista. Puede seleccionarlo para mostrar sus propiedades y editarlo o suprimirlo.
 
-   ![](../assets/tags_created.png)
+   ![](../../assets/tags_created.png)
 
 ## Tutorial en vídeo {#video}
 
