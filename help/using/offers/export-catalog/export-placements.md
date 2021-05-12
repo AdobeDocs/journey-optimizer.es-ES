@@ -2,9 +2,9 @@
 title: Conjunto de datos de ubicaciones
 description: Esta sección enumera todos los campos utilizados en el conjunto de datos exportado para las ubicaciones.
 translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+source-git-commit: 70c172e19d5900c898d4850801468a2e186e682d
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '350'
 ht-degree: 4%
 
 ---
@@ -21,54 +21,74 @@ El lote correcto más reciente del conjunto de datos se muestra a la derecha. La
 >
 >Obtenga información sobre cómo acceder a los conjuntos de datos exportados para cada objeto de la biblioteca de ofertas en [esta sección](../export-catalog/access-dataset.md).
 
-Una ubicación describe una ubicación o un lugar en un mensaje personalizado. Se utiliza para establecer restricciones técnicas para el contenido que proporciona la decisión de personalización. La ubicación también representa una solicitud para producir ciertos tipos de métricas cuando se produce un evento de experiencia en el que participa esta ubicación. Por ejemplo, la colocación facilita la aparición de una imagen en la que se puede hacer clic personalizada dentro de un correo electrónico que se muestra a un usuario final. La ubicación puede, por ejemplo, solicitar a la experiencia ensamblada que el clic en su imagen se comunique en un evento de experiencia con una métrica https://ns.adobe.com/xdm/data/metrics/web/linkclicks y una referencia a esta ubicación.
-
 Esta es la lista de todos los campos que se pueden utilizar en el conjunto de datos **[!UICONTROL Decision Object Repository - Placements]**.
+
+<!--A placement describes a location or place in a personalized message. It is used to set technical constraints for content that the personalization decision supplies. The placement also represents a request to produce certain types of metrics when an experience event is produced where this placement is involved. For instance, the placement facilitates a personalized clickable image inside an email shown to an end-user. The placement may for instance request from the assembled experience that the click on its image gets reported in an experience event with a metric https://ns.adobe.com/xdm/data/metrics/web/linkclicks and a reference to this placement.-->
 
 ## Identificador
 
-Identificador único del registro.
-
-Tipo: cadena
+**Campo:**  _id 
+**Título:** Identificador 
+**Descripción:**  Identificador único del registro.
+**Tipo:** cadena
 
 ## _experiencia
 
+**Campo:** _experience 
+**Type:** object
+
 ### decisioning
+
+**Campo:** 
+**tipo de decisión:** objeto
 
 #### Identificador de canal de la colocación
 
-Canal en el que se realizó la propuesta. El valor es un URI de canal válido. Consulte https://ns.adobe.com/xdm/channels/channel.
-
-Tipo: cadena
+**Campo:** 
+**Título de ID de canal:** Descripción del identificador de canal de la 
+**ubicación:** El canal en el que se realizó la propuesta. El valor es un URI de canal válido. Consulte https://ns.adobe.com/xdm/channels/channel.
+**Tipo:** cadena
 
 #### Tipo de componente de contenido
 
-Un conjunto enumerado de URI donde cada valor se asigna a un tipo dado al componente de contenido. Algunos consumidores de las representaciones de contenido esperan que el valor @type sea una referencia al esquema que describe propiedades adicionales del componente de contenido.
+**Campo:** componenteTipo 
+**Título:** Tipo de componente de contenido 
+**Descripción:**  Un conjunto enumerado de URI donde cada valor se asigna a un tipo dado al componente de contenido. Algunos consumidores de las representaciones de contenido esperan que el valor @type sea una referencia al esquema que describe propiedades adicionales del componente de contenido.
+**Tipo:** cadena
 
-Tipo: cadena
+#### contentTypes
 
-#### Tipo de medio MIME
+**Campo:** contentTypes 
+**Type:** array
 
-Restricción para el tipo de contenido de los componentes que se espera en esa ubicación. Podría haber más de un tipo de medio posible para un componente, como un formato de imagen diferente.
+* **Tipo de medio MIME**
 
-Tipo: cadena
+   **Título:** Tipo de medio MIME
+   **Descripción:** Una restricción para el tipo de contenido de los componentes que se espera en esa ubicación. Podría haber más de un tipo de medio posible para un componente, como un formato de imagen diferente.
+   **Tipo:** cadena
 
 #### Descripción de colocación
 
-Se utiliza para transmitir intenciones legibles por el usuario sobre cómo se utiliza el contenido dinámico en la entrega general de mensajes. Que un espacio determinado sea un \&quot;banner\&quot; en una página web se transmite a menudo mediante la descripción y no mediante un método formal.
-
-Tipo: cadena
+**Campo:** descripción 
+**Título:** Descripción de la ubicación 
+**Descripción:**  Se utiliza para transmitir intenciones legibles sobre cómo se utiliza el contenido dinámico en la entrega general de mensajes. Que un espacio determinado sea un \&quot;banner\&quot; en una página web se transmite a menudo mediante la descripción y no mediante un método formal.
+**Tipo:** cadena
 
 #### Nombre de colocación
 
-Un nombre asignado para que la ubicación haga referencia a él en interacciones humanas.
-
-Tipo: cadena
+**Campo:** Nombre 
+**Título:** Nombre de ubicación 
+**Descripción:**  Un nombre asignado para la ubicación que hace referencia a él en interacciones humanas.
+**Tipo:** cadena
 
 ## _repo
 
+**Campo:** _repo 
+**Tipo:** objeto
+
 ### Etiqueta ET de colocación
 
-Revisión en la que se encontraba el objeto de opción de decisión cuando se tomó la instantánea.
-
-Tipo: cadena
+**Campo:** Etiqueta 
+**Título:** Ubicación ETag 
+**Descripción:**  La revisión en la que se encontraba el objeto de opción de decisión cuando se tomó la instantánea.
+**Tipo:** cadena
