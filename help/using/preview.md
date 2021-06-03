@@ -1,11 +1,10 @@
 ---
 title: Vista previa de mensajes y envío de pruebas
 description: Obtenga información sobre cómo previsualizar y probar los mensajes
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 2ac0ae0044824beb6e455f5377bc2da4694779be
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 2%
+source-wordcount: '781'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +18,7 @@ Para detectar posibles errores en el contenido del correo electrónico o en la c
 
 >[!CAUTION]
 >
->Debe tener perfiles de prueba disponibles para poder previsualizar los mensajes y enviar pruebas. [Más información](building-journeys/testing-the-journey.md#create-test-profile).
+>Debe tener perfiles de prueba disponibles para poder previsualizar los mensajes y enviar pruebas. Aprenda a crear perfiles de prueba en [esta página](building-journeys/creating-test-profiles.md).
 
 Para probar el contenido del mensaje, debe:
 
@@ -32,7 +31,7 @@ Además, aproveche su cuenta **Litmus** en [!DNL Journey Optimizer] para previsu
 
 ## Seleccionar perfiles de prueba{#select-test-profiles}
 
-Los perfiles de prueba permiten llegar a destinatarios adicionales que no coinciden con los criterios de objetivo definidos.
+Utilice [Test profiles](building-journeys/creating-test-profiles.md) para dirigirse a destinatarios adicionales que no coincidan con los criterios de objetivo definidos.
 
 Para seleccionar perfiles de prueba, siga los pasos a continuación:
 
