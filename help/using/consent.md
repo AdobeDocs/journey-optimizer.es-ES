@@ -1,8 +1,7 @@
 ---
 title: Administrar la exclusión
 description: Obtenga información sobre cómo administrar la exclusión y la privacidad
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 738d72e8f3ba204219086f19252220ff833369cb
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 2%
@@ -126,7 +125,7 @@ Cuerpo de la solicitud:
 }
 ```
 
-<!--The Consent service /-->Adobe Customer Management will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
+<!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
 
 ## Administración de exclusión push {#push-opt-out-management}
 
