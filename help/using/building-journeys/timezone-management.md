@@ -1,8 +1,7 @@
 ---
 title: Administración de husos horarios
 description: Obtenga información sobre la administración de husos horarios
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: bcc9f5c7bdb660462ca412ed2528dab16d610418
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 2%
@@ -32,7 +31,7 @@ La zona horaria también se puede corregir. Borre la zona horaria predefinida y 
 
 Para ello, en **[!UICONTROL Properties]**, seleccione una zona horaria.
 
-![](../assets/journey73.png)
+![](../assets/journey72.png)
 
 ## Uso de perfiles para definir la zona horaria del recorrido {#timezone-from-profiles}
 
@@ -44,7 +43,7 @@ Si el perfil de la persona no contiene una zona horaria, la zona horaria recuper
 
 Para ello, en **[!UICONTROL Properties]**, marque **[!UICONTROL Use Profile timezone in timers and conditions]**.
 
-![](../assets/journey72.png)
+![](../assets/journey73.png)
 
 ## Uso de zonas horarias en expresiones {#timezone-in-expressions}
 
