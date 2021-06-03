@@ -1,10 +1,9 @@
 ---
 title: Biblioteca de funciones
 description: Biblioteca de funciones
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '55'
 ht-degree: 7%
 
 ---
@@ -13,38 +12,38 @@ ht-degree: 7%
 
 ![](../../assets/do-not-localize/badge.png)
 
-## Is null
+## Is null{#isNull}
 
 La función `isNull` determina si no existe una referencia de objeto.
 
 **Formato**
 
 ```sql
-isNull({OBJECT})
+{%= isNull(object) %}
 ```
 
 **Ejemplo**
 
-La siguiente consulta PQL comprueba si la dirección principal de la persona no existe.
+La siguiente operación comprueba si la dirección principal de la persona no existe.
 
 ```sql
-isNull(person.homeAddress)
+{%= isNull(person.homeAddress) %}
 ```
 
-## No es nulo
+## No es nulo{#isNotNull}
 
 La función `isNotNull` determina si existe una referencia de objeto.
 
 **Formato**
 
 ```sql
-isNotNull({OBJECT})
+{%= isNotNull(object) %}
 ```
 
 **Ejemplo**
 
-La siguiente consulta PQL comprueba si existe la dirección principal de la persona.
+La siguiente operación comprueba si existe la dirección principal de la persona.
 
 ```sql
-isNotNull(person.homeAddress)
+{%= isNotNull(person.homeAddress) %}
 ```
