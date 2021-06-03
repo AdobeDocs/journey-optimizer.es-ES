@@ -1,10 +1,9 @@
 ---
 title: Biblioteca de funciones
 description: Biblioteca de funciones
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '155'
 ht-degree: 9%
 
 ---
@@ -13,94 +12,94 @@ ht-degree: 9%
 
 ![](../../assets/do-not-localize/badge.png)
 
-Las funciones de agregación se utilizan para agrupar varios valores dentro de matrices [!DNL Profile Query Language] (PQL) para formar un único valor de resumen.
+Las funciones de agregación se utilizan para agrupar varios valores y formar un único valor de resumen.
 
-## Recuento
+## Recuento{#count}
 
 La función `count` devuelve el número de elementos dentro de la matriz dada.
 
 **Formato**
 
 ```sql
-count({ARRAY})
+{%= count(array) %}
 ```
 
 **Ejemplo**
 
-La siguiente consulta PQL devuelve el número de pedidos de la matriz.
+La siguiente operación devuelve el número de pedidos de la matriz.
 
 ```sql
-count(orders)
+{%= count(orders) %}
 ```
 
-## Sum
+## Sum{#sum}
 
 La función `sum` devuelve la suma de todos los valores seleccionados dentro de la matriz.
 
 **Formato**
 
 ```sql
-sum({ARRAY})
+{%= sum(array) %}
 ```
 
 **Ejemplo**
 
-La siguiente consulta PQL devuelve la suma de todos los precios de los pedidos.
+La siguiente operación devuelve la suma de todos los precios de los pedidos.
 
 ```sql
-sum(orders.order.price)
+{%=sum(orders.order.price)%}
 ```
 
-## Promedio
+## Promedio{#average}
 
 La función `average` devuelve la media aritmética de todos los valores seleccionados dentro de la matriz.
 
 **Formato**
 
 ```sql
-average({ARRAY})
+{%= average(array) %}
 ```
 
 **Ejemplo**
 
-La siguiente consulta PQL devuelve el precio promedio de todos los pedidos.
+La siguiente operación devuelve el precio promedio de todos los pedidos.
 
 ```sql
-average(orders.order.price)
+{%=average(orders.order.price)%}
 ```
 
-## Mínimo
+## Mínimo{#min}
 
 La función `min` devuelve el menor de todos los valores seleccionados dentro de la matriz.
 
 **Formato**
 
 ```sql
-min({ARRAY})
+{%= min(array) %}
 ```
 
 **Ejemplo**
 
-La siguiente consulta PQL devuelve el precio más bajo de todos los pedidos.
+La siguiente operación devuelve el precio más bajo de todos los pedidos.
 
 ```sql
-min(orders.order.price)
+{%=min(orders.order.price)%}
 ```
 
-## Máximo
+## Máximo{#max}
 
 La función `max` devuelve el mayor de todos los valores seleccionados dentro de la matriz.
 
 **Formato**
 
 ```sql
-max({ARRAY})
+{%= max(array) %}
 ```
 
 **Ejemplo**
 
-La siguiente consulta PQL devuelve el precio más alto de todos los pedidos.
+La siguiente operación devuelve el precio más alto de todos los pedidos.
 
 ```sql
-max(orders.order.price)
+{%=max(orders.order.price)%}
 ```
