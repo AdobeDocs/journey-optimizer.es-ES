@@ -1,10 +1,9 @@
 ---
 title: Diseño de un recorrido
 description: Aprenda a diseñar su recorrido
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1404'
 ht-degree: 2%
 
 ---
@@ -75,11 +74,11 @@ Las otras actividades permiten agregar condiciones al recorrido para definir var
 
 **Acciones**
 
-Aquí encontrará la actividad **Message** que le permite incluir un mensaje diseñado en Journey Optimizer. [Descubra más información sobre la actividad Mensaje](journeys-message.md)
+Aquí encontrará la actividad **Message** que le permite incluir un mensaje diseñado en [!DNL Journey Optimizer]. [Descubra más información sobre la actividad Mensaje](journeys-message.md)
 
 También encontrará las acciones personalizadas que ha configurado para enviar mensajes con sistemas de terceros. Obtenga más información en esta [sección](about-journey-activities.md#action-activities).
 
-## El uso de rutas en el lienzo {#paths}
+## Uso de rutas en el lienzo {#paths}
 
 Varias actividades (**[!UICONTROL Condition]**, **[!UICONTROL Action]**) permiten definir una acción de reserva en caso de error o tiempo de espera. En el panel de configuración de actividad, marque la casilla : **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Se agrega otra ruta después de la actividad . La duración del tiempo de espera se define en las propiedades del recorrido (consulte [esta página](../building-journeys/journey-gs.md#change-properties) por un usuario administrador. Por ejemplo, si un correo electrónico tarda demasiado en enviarse o por error, puede decidir enviar un SMS.
 
