@@ -1,10 +1,9 @@
 ---
 title: Informe global de recorrido
 description: Aprenda a utilizar los datos del informe global de recorrido
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -105,7 +104,7 @@ Los widgets **[!UICONTROL Bounce Reasons]** y **[!UICONTROL Bounce categories]**
 
 * **[!UICONTROL Ignored]**: El número total de mensajes temporales, como fuera de la oficina o un error técnico, por ejemplo, si el tipo de remitente es administrador de correo.
 
-Para obtener más información sobre las devoluciones, consulte la página [Administrar listas de supresión](../suppression-lists.md).
+Para obtener más información sobre las devoluciones, consulte la página [Lista de supresión](../suppression-list.md).
 
 El gráfico y la tabla **[!UICONTROL Email - Top Url]** detallan qué direcciones URL del envío son las más visitadas.
 
