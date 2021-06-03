@@ -1,10 +1,9 @@
 ---
 title: Configurar un evento empresarial
 description: Aprenda a crear un evento empresarial
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '817'
 ht-degree: 14%
 
 ---
@@ -34,7 +33,7 @@ Los eventos comerciales pueden ser &quot;un producto vuelve a estar en existenci
 
 Estos son los primeros pasos para configurar un evento empresarial:
 
-1. En el menú de la izquierda, haga clic en el icono **[!UICONTROL Admin]** y, a continuación, haga clic en **[!UICONTROL Events]**. Se muestra la lista de eventos.
+1. En la sección ADMINISTRACIÓN, vaya a **[!UICONTROL Configurations]** y haga clic en **[!UICONTROL Events]**. Se muestra la lista de eventos.
 
    ![](../assets/jo-event1.png)
 
