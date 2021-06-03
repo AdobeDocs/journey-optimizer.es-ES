@@ -1,11 +1,10 @@
 ---
 title: Entregar ofertas
 description: La administración de decisiones es una colección de servicios y programas de interfaz de usuario que permiten a los especialistas en marketing crear y ofrecer experiencias de oferta personalizadas para el usuario final en canales y aplicaciones mediante lógica empresarial y reglas de decisión.
-translation-type: tm+mt
-source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
+source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 3%
+source-wordcount: '945'
+ht-degree: 2%
 
 ---
 
@@ -105,7 +104,7 @@ curl -X POST \
 | `xdm:propositionRequests.xdm:activityId` | Identificador de decisión único. | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
 | `xdm:itemCount` | Número de ofertas que se van a devolver. El número máximo es 30. | `"xdm:itemCount": 2` |
 | `xdm:profiles` | Este objeto contiene información sobre el perfil para el que se solicita la decisión. Para una solicitud de API, contendrá un perfil. |
-| `xdm:profiles.xdm:identityMap` | Este objeto alberga un conjunto de identidades de usuario final basadas en el código de integración del área de nombres de la identidad. El mapa de identidad puede contener más de una identidad de cada área de nombres. Para obtener más información sobre áreas de nombres, consulte [Identity namespace overview](https://docs.adobe.com/content/help/es-ES/experience-platform/identity/namespaces.html). | `Email: [{"xdm:id": "123@abc.com"}]` |
+| `xdm:profiles.xdm:identityMap` | Este objeto alberga un conjunto de identidades de usuario final basadas en el código de integración del área de nombres de la identidad. El mapa de identidad puede contener más de una identidad de cada área de nombres. Para obtener más información sobre áreas de nombres, consulte [Identity namespace overview](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html). | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | ID generado por el cliente que se puede utilizar para identificar de forma exclusiva una solicitud de decisión de perfil. Este ID se repite en la respuesta y no influye en el resultado de la decisión. | `"xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"` |
 | `xdm:allowDuplicatePropositions` | Este objeto define la estructura de control de las reglas de deduplicación. Consiste en una serie de indicadores que indican si se puede proponer la misma opción en una dimensión determinada. Un indicador que se establece en true significa que se permiten duplicados y no se deben eliminar en la categoría indicada por el indicador. Un indicador establecido en false significa que el motor de decisión no debe realizar la misma propuesta en toda la dimensión y, en su lugar, elegir la siguiente mejor opción para una de las subdecisiones. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Si se establece en true, se puede asignar la misma opción a varias decisiones. | `"xdm:acrossActivities": true` |
