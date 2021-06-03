@@ -1,10 +1,9 @@
 ---
 title: Supervisión de la ejecución de los mensajes
 description: Conozca las directrices de monitorización y envío
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '553'
 ht-degree: 28%
 
 ---
@@ -41,7 +40,7 @@ Tenga especial cuidado al solicitar confirmación adicional: un usuario puede te
 
 Para proteger la capacidad de envío, los destinatarios cuyas direcciones están en la lista de supresión se excluyen de forma predeterminada de todos los envíos futuros, ya que el envío a estos contactos podría dañar su reputación de envío.
 
-[Obtenga más información sobre las listas](suppression-lists.md) de supresión.
+[Obtenga más información sobre la lista](suppression-list.md) de supresión.
 
 ## Usar herramientas de monitorización {#monitoring-tools}
 
