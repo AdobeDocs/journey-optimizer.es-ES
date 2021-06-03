@@ -1,11 +1,10 @@
 ---
 title: Introducción
 description: Inicio rápido de Journey Optimizer
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: d2928efec66cd42f86868449d0289a23c78dd7c1
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -13,7 +12,7 @@ ht-degree: 7%
 
 ![](assets/do-not-localize/badge.png)
 
-## Pasos clave para iniciar {#cjm-key-steps}
+## Pasos clave para comenzar {#cjm-key-steps}
 
 Con Journey Optimizer, puede importar contenido existente y diseñar contenido nuevo, personalizar mensajes con datos de perfil del cliente, crear eventos para enviar mensajes de déclencheur, definir segmentos y refinar audiencias, enviar mensajes multicanal y acceder a un conjunto completo de herramientas de informes y monitorización para medir el impacto de sus mensajes y recorridos.
 
@@ -23,9 +22,9 @@ En función de su organización, puede definir varios tipos de usuarios y conced
 
 Antes de empezar a usar Adobe Journey Optimizer, debe:
 
-* **Definir permisos** de usuario: inicie sesión en Journey Optimizer y proporcione acceso a los integrantes del equipo. [Más información](permissions.md)
+* **Definir permisos** de usuario: inicie sesión en Journey Optimizer y proporcione acceso a los integrantes del equipo. [Más información](../using/administration/permissions.md)
 
-* **Configure los canales y la marca**: trabaje con Adobe para definir la configuración de correo electrónico y notificaciones push y crear los ajustes preestablecidos. [Más información](administration.md)
+* **Configure sus canales y ajustes preestablecidos**: trabaje con Adobe para definir la configuración de correo electrónico y notificaciones push y crear los ajustes preestablecidos. [Más información](../using/configuration/message-presets.md)
 
 * **Identifique los datos y cree un esquema y un conjunto de datos**: obtenga los datos en Adobe Experience Platform, cree un área de nombres de identidad y un conjunto de datos habilitado para perfiles, cree segmentos y perfiles de prueba. [Más información](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)
 
