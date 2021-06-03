@@ -1,10 +1,9 @@
 ---
 title: Conjunto de datos de ubicaciones
 description: Esta sección enumera todos los campos utilizados en el conjunto de datos exportado para las ubicaciones.
-translation-type: tm+mt
-source-git-commit: 70c172e19d5900c898d4850801468a2e186e682d
+source-git-commit: 958bf03f3d3c2dd1606daba9dfef1284e2ed5cdd
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '362'
 ht-degree: 4%
 
 ---
@@ -37,26 +36,26 @@ Esta es la lista de todos los campos que se pueden utilizar en el conjunto de da
 **Campo:** _experience 
 **Type:** object
 
-### decisioning
+### _experiencia > decisiones
 
 **Campo:** 
 **tipo de decisión:** objeto
 
-#### Identificador de canal de la colocación
+#### _experience > decisiones > Identificador de canal de la colocación
 
 **Campo:** 
 **Título de ID de canal:** Descripción del identificador de canal de la 
 **ubicación:** El canal en el que se realizó la propuesta. El valor es un URI de canal válido. Consulte https://ns.adobe.com/xdm/channels/channel.
 **Tipo:** cadena
 
-#### Tipo de componente de contenido
+#### _experience > decisioning > Content Component Type
 
 **Campo:** componenteTipo 
 **Título:** Tipo de componente de contenido 
 **Descripción:**  Un conjunto enumerado de URI donde cada valor se asigna a un tipo dado al componente de contenido. Algunos consumidores de las representaciones de contenido esperan que el valor @type sea una referencia al esquema que describe propiedades adicionales del componente de contenido.
 **Tipo:** cadena
 
-#### contentTypes
+#### _experience > decisiones > contentTypes
 
 **Campo:** contentTypes 
 **Type:** array
@@ -67,14 +66,14 @@ Esta es la lista de todos los campos que se pueden utilizar en el conjunto de da
    **Descripción:** Una restricción para el tipo de contenido de los componentes que se espera en esa ubicación. Podría haber más de un tipo de medio posible para un componente, como un formato de imagen diferente.
    **Tipo:** cadena
 
-#### Descripción de colocación
+#### _experience > decisioning > Placement Description
 
 **Campo:** descripción 
 **Título:** Descripción de la ubicación 
 **Descripción:**  Se utiliza para transmitir intenciones legibles sobre cómo se utiliza el contenido dinámico en la entrega general de mensajes. Que un espacio determinado sea un \&quot;banner\&quot; en una página web se transmite a menudo mediante la descripción y no mediante un método formal.
 **Tipo:** cadena
 
-#### Nombre de colocación
+#### _experience > decisiones > Nombre de ubicación
 
 **Campo:** Nombre 
 **Título:** Nombre de ubicación 
@@ -86,7 +85,7 @@ Esta es la lista de todos los campos que se pueden utilizar en el conjunto de da
 **Campo:** _repo 
 **Tipo:** objeto
 
-### Etiqueta ET de colocación
+### _repo > Etiqueta ET de colocación
 
 **Campo:** Etiqueta 
 **Título:** Ubicación ETag 
