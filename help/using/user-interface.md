@@ -1,10 +1,9 @@
 ---
 title: Interfaz de usuario
 description: Interfaz de usuario de Journey Optimizer
-translation-type: tm+mt
-source-git-commit: fb1170c5e16c54ff93411d93020336f8de334ae1
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1446'
 ht-degree: 40%
 
 ---
@@ -31,7 +30,7 @@ Utilice los vínculos de la izquierda para examinar las funciones.
 >
 >Las capacidades disponibles pueden variar según los permisos y el acuerdo de licencia.
 
-A continuación se encuentra la lista completa de entradas en el carril izquierdo y los vínculos a la documentación asociada.
+A continuación se encuentra la lista completa de servicios y funcionalidades disponibles en la navegación izquierda y los vínculos a la documentación asociada.
 
 **Página principal**
 
