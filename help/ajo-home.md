@@ -1,10 +1,9 @@
 ---
 keywords: Journey Optimizer;inicio;temas populares
 title: Documentación del producto de Journey Optimizer
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 5ac2d00f3aa03ac5fe0c07eea20e9de96959c219
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '223'
 ht-degree: 5%
 
 ---
@@ -18,14 +17,15 @@ ht-degree: 5%
 
 ## Novedades?
 
+* [Control de ](using/administration/permissions-overview.md) </br> accesoObtenga información sobre cómo definir y administrar los permisos asignados a los  [!DNL Journey Optimizer] usuarios
+
+* [Funciones ](using/personalization/functions/functions.md) </br> de ayudaAprovechar las funciones de ayuda en el editor de expresiones para personalizar el contenido del mensaje
 
 * [Administración de ](using/offers/get-started/starting-offer-decisioning.md) </br> decisionesCree ofertas y ofrezca la mejor oferta y experiencia a sus clientes
 
 * [Vista previa y prueba de ](using/preview.md) </br> mensajesUtilice perfiles de prueba para obtener una vista previa de los mensajes, enviar pruebas y controlar la representación de correo electrónico
 
-* [Informes ](using/reports/live-report.md) </br> activosDescubra informes en tiempo real de sus recorridos y mensajes
-
-* [Informes globales](using/reports/global-report.md) </br> Obtenga información sobre cómo rastrear y medir la efectividad de sus recorridos y mensajes
+* [Informes en directo ](using/reports/live-report.md) e informes  [globales](using/reports/global-report.md)</br> Discover permite realizar informes para realizar un seguimiento y medir la efectividad de sus recorridos y mensajes
 
 * [Crear ](using/building-journeys/creating-test-profiles.md) </br> perfiles de pruebaCrear perfiles de prueba y utilizarlos para probar mensajes y recorridos
 
