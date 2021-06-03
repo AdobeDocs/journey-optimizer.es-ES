@@ -1,10 +1,9 @@
 ---
 title: Casos de uso de recorridos
 description: Casos de uso de recorridos
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '819'
 ht-degree: 2%
 
 ---
@@ -59,7 +58,7 @@ Debe configurar un evento que se envíe a su recorrido cuando un cliente realice
 
 Para ello, se utiliza un evento basado en reglas. Para obtener más información sobre los eventos, consulte esta [página](../event/about-events.md).
 
-1. En el menú de la izquierda, haga clic en el icono **[!UICONTROL Admin]** y, a continuación, haga clic en **[!UICONTROL Events]**. Haga clic en **[!UICONTROL Add]** para crear un nuevo evento.
+1. En la sección ADMINISTRACIÓN, vaya a **[!UICONTROL Configurations]** y haga clic en **[!UICONTROL Events]**. Haga clic en **[!UICONTROL Add]** para crear un nuevo evento.
 
 1. Introduzca el nombre del evento.
 
