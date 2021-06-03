@@ -2,8 +2,7 @@
 solution: Journey Orchestration
 title: Eventos generales
 description: Aprenda a utilizar eventos generales
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: dafa417ef163fcc3859b01ac6f090f32c5501199
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -38,11 +37,11 @@ Para configurar un tiempo de espera para un evento, siga estos pasos:
 
 En este ejemplo, el recorrido envía una primera notificación push de bienvenida a un cliente. A continuación, envía una notificación push de descuento en la comida solo si el cliente entra en el restaurante en el día siguiente. Por lo tanto, configuramos el evento del restaurante con un tiempo de espera de 1 día:
 
-* Si el evento del restaurante se recibe menos de 1 día después de la notificación push de bienvenida, se envía el mensaje push de descuento por comida.
+* Si el evento del restaurante se recibe menos de 1 día después de la notificación push de bienvenida, se envía la actividad push de descuento por comida.
 * Si no se recibe ningún evento de restaurante en el día siguiente, la persona pasa por la ruta de tiempo de espera.
 
 Tenga en cuenta que si desea configurar un tiempo de espera en varios eventos posicionados después de una actividad **[!UICONTROL Wait]** , debe configurar el tiempo de espera solo en uno de estos eventos.
 
-El tiempo de espera se aplicará a todos los eventos posicionados después de la actividad **[!UICONTROL Wait]**. Si no se recibe ningún evento después del tiempo de espera especificado, las personas fluirán a una sola ruta de tiempo de espera o terminarán su recorrido.
+El tiempo de espera se aplicará a todos los eventos posicionados después de la actividad **[!UICONTROL Wait]**. Si no se recibe ningún evento antes del tiempo de espera especificado, las personas fluirán en una única ruta de tiempo de espera o finalizarán su recorrido.
 
 ![](../assets/event-timeout-group.png)
