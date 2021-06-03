@@ -1,10 +1,9 @@
 ---
 title: Introducción a recorrido
 description: Introducción a recorrido
-translation-type: tm+mt
-source-git-commit: 0b48a0b0793d523021a2e19f86e101bdbab88305
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1465'
 ht-degree: 9%
 
 ---
@@ -39,7 +38,7 @@ Este paso lo realiza el **usuario empresarial**. Aquí es donde crea sus recorri
 
 Estos son los pasos principales para enviar mensajes a través de recorridos:
 
-1. En el menú de la izquierda, haga clic en **[!UICONTROL Journeys]**. Se muestra la lista de recorridos.
+1. En la sección ADMINISTRACIÓN DE RECORRIDOS , haga clic en **[!UICONTROL Journeys]**. Se muestra la lista de recorridos.
 
    ![](../assets/interface-journeys.png)
 
