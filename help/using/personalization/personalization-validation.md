@@ -1,13 +1,13 @@
 ---
 title: Validación de personalización
 description: Obtenga más información sobre validación de personalización y cómo solucionar problemas
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 7e20bef085d0fa6983f9ebd84f8cbc3bee2f4542
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
 
 ---
+
 
 # Validación de personalización {#personalization-validation}
 
