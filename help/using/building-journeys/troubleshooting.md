@@ -1,11 +1,10 @@
 ---
 title: Solución de problemas del recorrido
 description: Obtenga información sobre cómo solucionar errores en recorridos
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 85%
+source-wordcount: '1037'
+ht-degree: 86%
 
 ---
 
@@ -80,7 +79,7 @@ A continuación se presentan algunas cosas para comprobar:
 
 Si los individuos recorren el recorrido correcto, pero no reciben mensajes que deberían recibir, puede comprobar lo siguiente:
 
-* Journey Optimizer ha tenido correctamente en cuenta la solicitud para enviar el mensaje. Un usuario empresarial puede acceder al mensaje que se supone que debe enviarse y comprobar si la hora de la última ejecución corresponde al tiempo de ejecución del recorrido. También puede comprobar las últimas llamadas o eventos API recibidas.
-* Journey Optimizer ha enviado el mensaje correctamente. En los registros de envío del mensaje, puede ver el estado de cada ejecución. Pueden ver si es verde o rojo, y cuál fue el problema. Un usuario empresarial puede acceder a esta pantalla y enviar los registros a un administrador para realizar más investigaciones.
+* [!DNL Journey Optimizer] ha tenido en cuenta correctamente la solicitud para enviar el mensaje. Un usuario empresarial puede acceder al mensaje que se supone que debe enviarse y comprobar si la hora de la última ejecución corresponde al tiempo de ejecución del recorrido. También puede comprobar las últimas llamadas o eventos API recibidas.
+* [!DNL Journey Optimizer] ha enviado correctamente el mensaje. En los registros de envío del mensaje, puede ver el estado de cada ejecución. Pueden ver si es verde o rojo, y cuál fue el problema. Un usuario empresarial puede acceder a esta pantalla y enviar los registros a un administrador para realizar más investigaciones.
 
 En el caso de un mensaje enviado mediante una acción personalizada, lo único que se puede comprobar durante la prueba de recorrido es el hecho de que la llamada del sistema de la acción personalizada produce un error o no. Si la llamada al sistema externo asociada con la acción personalizada no genera un error pero no conduce al envío de un mensaje, algunas investigaciones deben realizarse en el sistema externo.
