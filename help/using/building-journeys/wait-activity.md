@@ -1,8 +1,7 @@
 ---
 title: Actividad de espera
 description: Descubra la actividad de espera
-translation-type: tm+mt
-source-git-commit: a6aa785030d6fd56c4b5ae80d1bc4c5a119511b4
+source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 5%
@@ -35,13 +34,13 @@ Puede definir una condición si desea restringir la espera a una determinada pob
 >
 >En el modo de prueba, el parámetro **[!UICONTROL Wait time in test]** le permite definir el tiempo que durará cada actividad de espera. El valor del tiempo predeterminado es de 10 segundos. Esto garantizará que los resultados de la prueba se obtengan rápidamente. Consulte [esta página](../building-journeys/testing-the-journey.md)
 
-## Duración de espera{#duration}
+## Espera de duración{#duration}
 
 Seleccione la duración de la espera antes de la ejecución de la siguiente actividad.
 
 ![](../assets/journey55.png)
 
-## Fecha fija de espera{#fixed_date}
+## Fecha de espera fija{#fixed_date}
 
 Seleccione la fecha para la ejecución de la siguiente actividad.
 
@@ -60,10 +59,6 @@ Esta opción permite definir una fecha personalizada, por ejemplo, 12 de julio d
 ![](../assets/journey57.png)
 
 <!--## Email send time optimization{#email_send_time_optimization}
-
->[!CAUTION]
->
->The email send time optimization capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
 This type of wait uses a score calculated in Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
 
