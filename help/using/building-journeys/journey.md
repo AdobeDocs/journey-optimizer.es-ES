@@ -1,10 +1,9 @@
 ---
 title: Principio general
 description: Principio general
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 5%
 
 ---
@@ -13,7 +12,7 @@ ht-degree: 5%
 
 ![](../assets/do-not-localize/badge.png)
 
-Los recorridos permiten crear casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos.
+[!DNL Journey Optimizer] permite crear casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos.
 
 Diseñe escenarios avanzados de varios pasos con las siguientes capacidades:
 
@@ -21,6 +20,6 @@ Diseñe escenarios avanzados de varios pasos con las siguientes capacidades:
 
 * Aproveche los **datos contextuales** de eventos, información de Adobe Experience Platform o datos de servicios API de terceros.
 
-* Utilice la **acción integrada** para enviar mensajes diseñados en Journey Optimizer o crear **acciones personalizadas** si utiliza un sistema de terceros para enviar mensajes.
+* Utilice la **acción integrada** para enviar mensajes diseñados en [!DNL Journey Optimizer] o cree **acciones personalizadas** si utiliza un sistema de terceros para enviar mensajes.
 
 * Con el **diseñador de recorridos**, cree sus casos de uso de varios pasos: arrastre y suelte fácilmente un evento de entrada o una actividad de segmento de lectura, añada condiciones y envíe mensajes personalizados.
