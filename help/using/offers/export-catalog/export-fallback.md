@@ -1,10 +1,9 @@
 ---
 title: 'Ofertas de reserva: conjunto de datos'
 description: Esta sección enumera todos los campos utilizados en el conjunto de datos exportado para ofertas de reserva.
-translation-type: tm+mt
-source-git-commit: 70c172e19d5900c898d4850801468a2e186e682d
+source-git-commit: b6364879b2a64ba17f52020f7d27d02459a022b0
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1047'
 ht-degree: 3%
 
 ---
@@ -35,12 +34,12 @@ Esta es la lista de todos los campos que se pueden utilizar en el conjunto de da
 **Campo:** _experience 
 **Type:** object
 
-### decisioning
+### _experiencia > decisiones
 
 **Campo:** 
 **tipo de decisión:** objeto
 
-#### características
+#### _experiencia > decisiones > características
 
 **Campo:** características 
 **Título:** Características de la opción de decisión 
@@ -49,125 +48,124 @@ Esta es la lista de todos los campos que se pueden utilizar en el conjunto de da
 
 <!--Field under Characteristics without title = additionalProperties? Desc = Value of the property. Type: string-->
 
-#### contenido
+#### _experience > decisioning > content
 
 **Campo:** contenido 
 **Título:** Detalles de contenido 
 **Descripción:** Elementos de contenido para procesar el elemento de decisión en diferentes contextos. Una sola opción de decisión puede tener varias variantes de contenido. El contenido es información dirigida a una audiencia para su consumo en una experiencia (digital). El contenido se entrega a través de canales en una ubicación determinada.
 **Tipo:** matriz
 
-* **componentes**
+**_experience > decisioning > content > components**
 
-   **Campo:** componentes
-   **Descripción:** Los componentes del contenido que representan la opción de decisión, incluidas todas las variantes de idioma. Los componentes específicos se encuentran en &quot;dx:format&quot;, &quot;dc:subject&quot; y &quot;dc:language&quot; o en una combinación de ellos. Estos metadatos se utilizan para localizar o representar el contenido asociado a una oferta e integrarlos según el contrato de colocación.
-   **Tipo:** matriz
-   **Requerido:** &quot;_type&quot;, &quot;_dc&quot;  <!--TBC?-->
+**Campo:** componentes 
+**Descripción:** Los componentes del contenido que representan la opción de decisión, incluidas todas sus variantes de idioma. Los componentes específicos se encuentran en &quot;dx:format&quot;, &quot;dc:subject&quot; y &quot;dc:language&quot; o en una combinación de ellos. Estos metadatos se utilizan para localizar o representar el contenido asociado a una oferta e integrarlos según el contrato de colocación.
+**Tipo:** matriz 
+**requerida:** &quot;_type&quot;, &quot;_dc&quot;  <!--TBC?-->
 
-   * **Tipo de componente de contenido**
+* **_experience > decisioning > content > components > Content Component Type**
 
-      **Campo:** _type
-      **Título:** Tipo de componente de contenido
-      **Descripción:** Un conjunto enumerado de URIs donde cada valor se asigna a un tipo dado al componente de contenido. Algunos consumidores de las representaciones de contenido esperan que el valor @type sea una referencia al esquema que describe propiedades adicionales del componente de contenido.
-      **Tipo:** cadena
-
-   * **_dc**
-
-      **Campo:** _dc
-      **Tipo:** objeto
-      **Requerido:** &quot;format&quot;
-
-      * **Formato**
-
-         **Campo:formato** 
-         **Título:** Formato
-         **Descripción:** La manifestación física o digital del recurso. Normalmente, Format debe incluir el tipo de medio del recurso. El formato puede utilizarse para determinar el software, el hardware u otro equipo necesario para visualizar o utilizar el recurso. La práctica recomendada es seleccionar un valor de un vocabulario controlado (por ejemplo, la lista de [Internet Media Types](http://www.iana.org/ asignaciones/tipos de medios/) que define los formatos de medios de equipo).
-         **Tipo:** cadena
-         **Ejemplo:**  &quot;application/vnd.adobe.photoshop&quot;
-
-      * **Idioma**
-
-         **Campo:** idioma
-         **Título:** Idioma
-         **Descripción:** El idioma o los idiomas del recurso. \nLos idiomas se especifican en el código de idioma tal como se define en [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), que forma parte de BCP 47, que se utiliza en otras partes en XDM.
-         **Tipo:** matriz
-         **Ejemplos:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
-   * **_repo**
-
-      **Campo:** _repo
-      **Tipo:** objeto
-
-      * **id**
-
-         **Campo:** id
-         **Descripción:**  Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se usan las API de plataforma para recuperar la representación, el cliente puede esperar que una propiedad adicional \&quot;repo:resolveUrl\&quot; recupere el recurso.
-         **Tipo:** cadena
-         **Ejemplo:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
-
-      * **name**
-
-         **Campo:** nombre
-         **Descripción:** Algunas sugerencias sobre dónde localizar el repositorio que almacena el recurso externo por \&quot;repo:id\&quot;.
-         **Tipo:** cadena
-
-      * **repositoryID**
-
-         **Campo:** repositoryID
-         **Descripción:**  Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se usan las API de plataforma para recuperar la representación, el cliente puede esperar que una propiedad adicional \&quot;repo:resolveUrl\&quot; recupere el recurso.
-         **Tipo:** cadena
-         **Ejemplo:**  &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
-
-      * **resolveURL**
-
-         **Campo:** resolveURL
-         **Descripción:** Un localizador de recursos único opcional para leer el recurso en un repositorio de contenido. Esto facilitará la obtención del recurso sin que el cliente entienda dónde se administra el recurso y qué API llamar. Esto es similar a un vínculo HAL, pero la semántica es más simple y tiene más propósito.
-         **Tipo:** cadena
-         **Ejemplo:**  &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
-   * **content**
-
-      **Campo:** contenido
-      **Descripción:** Campo opcional para incluir contenido directamente. En lugar de hacer referencia al contenido en un repositorio de recursos, el componente puede incluir contenido simple directamente. Este campo no se utiliza para recursos de contenido compuesto, complejo y binario.
-      **Tipo:** cadena
-
-   * **deliveryURL**
-
-      **Campo:** deliveryURL
-      **Descripción:** Un localizador de recursos único opcional para obtener el recurso de una red de entrega de contenido o de un extremo de servicio. Esta URL la utiliza un agente de usuario para acceder al recurso públicamente.
-      **Tipo:** cadena
-      **Ejemplo:**  &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
-
-   * **linkURL**
-
-      **Campo:** linkURL
-      **Descripción:** Un localizador de recursos único opcional para las interacciones del usuario. Esta URL se utiliza para remitir al usuario final a en un agente de usuario y se puede realizar un seguimiento.
-      **Tipo:** cadena
-      **Ejemplo:**  &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
-
-
-
-* **Colocación**
-
-   **Campo:** ubicación
-   **Título:** Ubicación
-   **Descripción:** Colocación para cumplir. El valor es el URI (@id) de la ubicación de la oferta a la que se hace referencia. Consulte esquema https://ns.adobe.com/experience/decisioning/placement.
+   **Campo:** _type
+   **Título:** Tipo de componente de contenido
+   **Descripción:** Un conjunto enumerado de URIs donde cada valor se asigna a un tipo dado al componente de contenido. Algunos consumidores de las representaciones de contenido esperan que el valor @type sea una referencia al esquema que describe propiedades adicionales del componente de contenido.
    **Tipo:** cadena
 
-#### Estado del ciclo vital
+* **_experience > decisioning > content > components > _dc**
+
+   **Campo:** _dc
+   **Tipo:** objeto
+   **Requerido:** &quot;format&quot;
+
+   * **Formato**
+
+      **Campo:formato** 
+      **Título:** Formato
+      **Descripción:** La manifestación física o digital del recurso. Normalmente, Format debe incluir el tipo de medio del recurso. El formato puede utilizarse para determinar el software, el hardware u otro equipo necesario para visualizar o utilizar el recurso. La práctica recomendada es seleccionar un valor de un vocabulario controlado (por ejemplo, la lista de [Internet Media Types](http://www.iana.org/ asignaciones/tipos de medios/) que define los formatos de medios de equipo).
+      **Tipo:** cadena
+      **Ejemplo:**  &quot;application/vnd.adobe.photoshop&quot;
+
+   * **Idioma**
+
+      **Campo:** idioma
+      **Título:** Idioma
+      **Descripción:** El idioma o los idiomas del recurso. \nLos idiomas se especifican en el código de idioma tal como se define en [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), que forma parte de BCP 47, que se utiliza en otras partes en XDM.
+      **Tipo:** matriz
+      **Ejemplos:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
+
+* **_experience > decisioning > content > components > _repo**
+
+   **Campo:** _repo
+   **Tipo:** objeto
+
+   * **id**
+
+      **Campo:** id
+      **Descripción:**  Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se usan las API de plataforma para recuperar la representación, el cliente puede esperar que una propiedad adicional \&quot;repo:resolveUrl\&quot; recupere el recurso.
+      **Tipo:** cadena
+      **Ejemplo:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+
+   * **name**
+
+      **Campo:** nombre
+      **Descripción:** Algunas sugerencias sobre dónde localizar el repositorio que almacena el recurso externo por \&quot;repo:id\&quot;.
+      **Tipo:** cadena
+
+   * **repositoryID**
+
+      **Campo:** repositoryID
+      **Descripción:**  Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se usan las API de plataforma para recuperar la representación, el cliente puede esperar que una propiedad adicional \&quot;repo:resolveUrl\&quot; recupere el recurso.
+      **Tipo:** cadena
+      **Ejemplo:**  &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
+
+   * **resolveURL**
+
+      **Campo:** resolveURL
+      **Descripción:** Un localizador de recursos único opcional para leer el recurso en un repositorio de contenido. Esto facilitará la obtención del recurso sin que el cliente entienda dónde se administra el recurso y qué API llamar. Esto es similar a un vínculo HAL, pero la semántica es más simple y tiene más propósito.
+      **Tipo:** cadena
+      **Ejemplo:**  &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
+
+* **_experience > decisioning > content > components > content**
+
+   **Campo:** contenido
+   **Descripción:** Campo opcional para incluir contenido directamente. En lugar de hacer referencia al contenido en un repositorio de recursos, el componente puede incluir contenido simple directamente. Este campo no se utiliza para recursos de contenido compuesto, complejo y binario.
+   **Tipo:** cadena
+
+* **_experience > decisioning > content > components > deliveryURL**
+
+   **Campo:** deliveryURL
+   **Descripción:** Un localizador de recursos único opcional para obtener el recurso de una red de entrega de contenido o de un extremo de servicio. Esta URL la utiliza un agente de usuario para acceder al recurso públicamente.
+   **Tipo:** cadena
+   **Ejemplo:**  &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+
+* **_experience > decisioning > content > components > linkURL**
+
+   **Campo:** linkURL
+   **Descripción:** Un localizador de recursos único opcional para las interacciones del usuario. Esta URL se utiliza para remitir al usuario final a en un agente de usuario y se puede realizar un seguimiento.
+   **Tipo:** cadena
+   **Ejemplo:**  &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+
+**_experience > decisioning > content > Placement**
+
+**Campo:** 
+**Título de ubicación:** 
+**Descripción de ubicación:** Colocación para cumplir. El valor es el URI (@id) de la ubicación de la oferta a la que se hace referencia. Consulte esquema https://ns.adobe.com/experience/decisioning/placement.
+**Tipo:** cadena
+
+#### _experience > decisiones > Estado del ciclo vital
 
 **Campo:** lifecycleStatus 
 **Título:** Estado del ciclo vital 
 **Descripción:**  El estado del ciclo vital permite que los flujos de trabajo se lleven a cabo con un objeto. El estado puede afectar a los lugares en los que un objeto es visible o se considera relevante. Los cambios de estado los realizan los clientes o servicios que utilizan los objetos.
 **Tipo:** cadena 
-**Valores posibles:** &quot;Borrador&quot;, &quot;Aprobado&quot;, &quot;Activo&quot;, &quot;Completado&quot;, &quot;Archivado&quot; Valor 
-**predeterminado:** &quot;Borrador&quot;
+**Valores posibles:** &quot;Borrador&quot; (predeterminado), &quot;Aprobado&quot;, &quot;Activo&quot;, &quot;Completado&quot;, &quot;Archivado&quot;
 
-#### Nombre de opción de decisión
+#### _experience > decisioning > Nombre de la opción de decisión
 
 **Campo:** nombre 
 **Título:** Nombre de opción de decisión 
 **Descripción:** Nombre de opción que se muestra en varias interfaces de usuario.
 **Tipo:** cadena
 
-#### Etiquetas
+#### _experience > decisiones > etiquetas
 
 **Campo:** etiquetas 
 **Título:** Etiquetas 
@@ -178,7 +176,10 @@ Esta es la lista de todos los campos que se pueden utilizar en el conjunto de da
 
 ## _repo
 
-### Opción de decisión ETag
+**Campo:** _repo 
+**Tipo:** objeto
+
+### _repo > Opción de decisión ETag
 
 **Campo:** Etiqueta 
 **Título:** Opción de decisión ETag 
