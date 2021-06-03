@@ -2,10 +2,9 @@
 solution: Journey Orchestration
 title: Acerca de las acciones
 description: Obtenga información sobre cómo configurar una acción
-translation-type: tm+mt
-source-git-commit: 5c3f1e4d916c7259f25208785788d2566b316934
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '240'
 ht-degree: 73%
 
 ---
@@ -35,6 +34,6 @@ Las acciones están disponibles en la paleta izquierda del recorrido, en la cate
 
 En la lista de **acciones**, puede pulsar c para crear un nuevo recorrido, acción, fuente de datos o evento. Para obtener más información sobre los métodos abreviados, consulte [esta sección](../user-interface.md#cjm-accessibility).
 
-Para ver la lista de acciones o configurar una nueva acción, haga clic en **[!UICONTROL Admin]** / **[!UICONTROL Actions]** en los menús de la izquierda. Se muestra la lista de acciones. Consulte [esta página](../user-interface.md) para obtener más información sobre la interfaz.
+Para ver la lista de acciones o configurar una nueva acción, vaya a **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** en el panel de navegación izquierdo. Se muestra la lista de acciones. Consulte [esta página](../user-interface.md) para obtener más información sobre la interfaz.
 
 ![](../assets/custom1.png)
