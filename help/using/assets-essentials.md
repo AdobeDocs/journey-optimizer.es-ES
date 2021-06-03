@@ -1,11 +1,10 @@
 ---
 title: Adobe Experience Manager Assets Essentials
 description: Introducción a Assets Essentials
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: ba350f4d482238b733594a71441e2d01e536e282
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 4%
+source-wordcount: '379'
+ht-degree: 3%
 
 ---
 
@@ -17,11 +16,13 @@ ht-degree: 4%
 
 [!DNL Adobe Experience Manager Assets Essentials] proporciona un único repositorio centralizado de recursos que puede utilizar para rellenar los mensajes. Se puede acceder directamente desde [!DNL Adobe Journey Optimizer] a través de la sección **[!UICONTROL Assets]**. También puede acceder a los recursos y las carpetas al diseñar un contenido de correo electrónico. [Obtenga más información sobre el diseño](design-emails.md) de correo electrónico.
 
-Necesita permisos específicos para acceder a [!DNL Adobe Experience Manager Assets Essentials]. [Obtenga más información sobre los permisos para Adobe Experience Manager Assets Essentials](permissions.md#assets-permissions).
+Para obtener procedimientos más detallados sobre [!DNL Assets Essentials], consulte [Documentación de Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html).
 
 ## Cargar recursos{#add-asset}
 
-Para cargar archivos en el [!DNL Assets Essentials], primero debe buscar o crear la carpeta en la que se almacenará:
+Para cargar archivos en [!DNL Assets Essentials], primero debe buscar o crear la carpeta en la que se almacenará.
+
+Para obtener más información sobre cómo cargar recursos, consulte [Documentación de Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete-assets.html).
 
 1. En la página de inicio de [!DNL Adobe Journey Optimizer], seleccione la pestaña **[!UICONTROL Assets]** para acceder a [!DNL Assets Essentials].
 
@@ -62,6 +63,8 @@ Las siguientes acciones están disponibles en la barra de herramientas:
 * **[!UICONTROL Delete]** para quitar el recurso de  [!DNL Assets Essentials].
 * **[!UICONTROL Copy]** para copiar/pegar el recurso en otra carpeta.
 * **[!UICONTROL Move]** para mover el recurso a otras carpetas.
+
+Para obtener más información sobre cómo administrar recursos, consulte [Documentación de Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-assets.html).
 
 ## Insertar recursos en mensajes {#use-assets}
 
@@ -104,6 +107,6 @@ Following actions are available in the toolbar:
 
 When using the Media library, each asset is saved in folders or sub-folders. You can choose to share your folders and which level of access to assign.
 
-For more information on how to share access to your folders, refer to this [page](permissions.md#assets-permissions).
+For more information on how to share access to your folders, refer to this page.
 
 -->
