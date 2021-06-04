@@ -1,7 +1,7 @@
 ---
 title: Crear ajustes preestablecidos de mensaje
 description: Obtenga información sobre cómo configurar y supervisar los ajustes preestablecidos de mensajes
-source-git-commit: e76528caa407de9c8794bd2858ffa9bc8673d715
+source-git-commit: 68716d6520848f4825e90106ea1cd76185ae0f87
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
@@ -35,8 +35,7 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
    >[!NOTE]
    >
-   > * Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos y caracteres `_`, `.`, `-`.
-
+   > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos y `_` `.` `-` caracteres.
 
 1. Configure la configuración **email**.
 
@@ -65,7 +64,7 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
    ![](../assets/preset-push.png)
 
-   * Seleccione al menos una plataforma: iOS o Android
+   * Seleccione al menos una plataforma: **iOS** o **Android**
 
    * Seleccione las aplicaciones móviles que desea utilizar para cada plataforma.
 
@@ -77,7 +76,7 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
 1. Una vez creado el ajuste preestablecido de mensaje, aparece en la lista con el estado **[!UICONTROL Processing]**.
 
-   Durante este paso, se realizarán varias comprobaciones para verificar que se ha configurado correctamente. El tiempo de procesamiento es de aproximadamente 48 horas a 72 horas y puede tardar entre 7 y 10 días.
+   Durante este paso, se realizarán varias comprobaciones para verificar que se ha configurado correctamente. El tiempo de procesamiento es de aproximadamente **48h-72h** y puede tardar **7-10 días**.
 
    Estas comprobaciones incluyen pruebas de capacidad de envío que realiza el equipo de entrega de Adobes:
 
