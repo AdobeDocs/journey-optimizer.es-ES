@@ -1,7 +1,7 @@
 ---
 title: Crear ajustes preestablecidos de mensaje
 description: Obtenga información sobre cómo configurar y supervisar los ajustes preestablecidos de mensajes
-source-git-commit: 5490a12f7babc7d615f22f919e58b8eff51cf79c
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
    * Seleccione las aplicaciones móviles que desea utilizar para cada plataforma.
 
-      Para obtener más información sobre cómo configurar el entorno para enviar notificaciones push, consulte [esta sección](../push-configuration.md).
+      Para obtener más información sobre cómo configurar el entorno para enviar notificaciones push, consulte [esta sección](../push-gs.md).
 
 1. Una vez configurados todos los parámetros, haga clic en **[!UICONTROL Submit]** para confirmar. También puede guardar el ajuste preestablecido de mensaje como borrador y reanudar su configuración más adelante.
 
