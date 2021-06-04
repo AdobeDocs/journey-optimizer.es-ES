@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: null
-source-git-commit: e4f69cd209665e7f13a0c21e92453cd5cdce45a1
+source-git-commit: e4c5adf788b1cdf5f0ba1c4be80c387b3da26bd1
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 27%
@@ -47,13 +47,21 @@ Para asignar entornos limitados:
 
 1. Seleccione un **[!UICONTROL Product profile]**.
 
+   ![](../assets/sandbox_1.png)
+
 1. Seleccione la pestaña **[!UICONTROL Permissions]** .
 
-1. Seleccione la capacidad **[!UICONTROL Sandbox access]**.
+1. Seleccione la capacidad **[!UICONTROL Sandboxes]**.
+
+   ![](../assets/sandbox_2.png)
 
 1. En **[!UICONTROL Available Permissions Items]**, haga clic en el icono de signo más (+) para asignar entornos limitados al perfil. [Obtenga más información sobre los entornos limitados](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
 
+   ![](../assets/sandbox_3.png)
+
 1. Si es necesario, en **[!UICONTROL Included Permission Items]**, haga clic en el icono X junto a para eliminar los entornos limitados de acceso a su **[!UICONTROL Product profile]**.
+
+   ![](../assets/sandbox_4.png)
 
 1. Haga clic en **[!UICONTROL Save]**.
 
