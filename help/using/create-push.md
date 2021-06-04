@@ -1,7 +1,7 @@
 ---
 title: Configuración de una notificación push
 description: Obtenga información sobre cómo crear una notificación push en Journey Optimizer
-source-git-commit: 9ea3f4eb7767f9ad4c608d9c28d9ee7ca4bb8e3b
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 10%
@@ -83,7 +83,7 @@ Utilice la sección **[!UICONTROL Custom data]** para añadir pares clave/valor.
 
 ## Datos personalizados
 
-En la sección **[!UICONTROL Custom data]**, puede agregar variables personalizadas a la carga útil, según la configuración de la aplicación móvil. Para obtener más información sobre cómo configurar las notificaciones push en Adobe Experience Platform y Adobe Launch, consulte [esta sección](push-configuration.md)
+En la sección **[!UICONTROL Custom data]**, puede agregar variables personalizadas a la carga útil, según la configuración de la aplicación móvil. Para obtener más información sobre cómo configurar las notificaciones push en Adobe Experience Platform y Adobe Launch, consulte [esta sección](push-gs.md)
 
 ## Opciones avanzadas
 
@@ -109,7 +109,7 @@ Puede configurar **[!UICONTROL Advanced options]** para la notificación push. A
 * [Understand push notification flow](push-gs.md)
 -->
 
-* [Configurar el canal push](push-configuration.md)
+* [Configurar el canal push](push-gs.md)
 * [Crear un nuevo mensaje](create-message.md)
 * [Añadir un mensaje en un recorrido](building-journeys/journeys-message.md)
 
