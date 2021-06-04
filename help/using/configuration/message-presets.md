@@ -1,9 +1,9 @@
 ---
 title: Crear ajustes preestablecidos de mensaje
 description: Obtenga información sobre cómo configurar y supervisar los ajustes preestablecidos de mensajes
-source-git-commit: 68716d6520848f4825e90106ea1cd76185ae0f87
+source-git-commit: 6cabe17f67d0207fc72d3c61498fae0affe5a785
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
    >[!NOTE]
    >
-   > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos y `_` `.` `-` caracteres.
+   > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto`.` y guión `-`.
 
 1. Configure la configuración **email**.
 
@@ -53,7 +53,7 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
       >[!NOTE]
       >
-      > * Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos y caracteres `_`, `.`, `-`.
+      > * Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto`.` y guión `-`.
          > 
          > 
       * Excepto para **Responder a (enviar correo electrónico)**, el dominio de direcciones de correo electrónico debe utilizar el subdominio seleccionado actual.
