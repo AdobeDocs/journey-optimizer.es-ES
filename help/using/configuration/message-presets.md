@@ -1,9 +1,9 @@
 ---
 title: Crear ajustes preestablecidos de mensaje
-description: Descubra cómo crear ajustes preestablecidos de mensajes de correo electrónico y notificaciones push
-source-git-commit: 4353b8f01bb4e47f6f2384e464341c0ee80ecaf2
+description: Obtenga información sobre cómo configurar y supervisar los ajustes preestablecidos de mensajes
+source-git-commit: e76528caa407de9c8794bd2858ffa9bc8673d715
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -11,9 +11,12 @@ ht-degree: 0%
 
 # Crear ajustes preestablecidos de mensaje
 
-Con [!DNL Journey Optimizer], puede configurar ajustes preestablecidos de mensaje que definan todos los parámetros técnicos necesarios para los mensajes de correo electrónico y notificaciones push (tipo de correo electrónico, correo electrónico y nombre del remitente, aplicaciones móviles, etc.).
+Con [!DNL Journey Optimizer], puede configurar ajustes preestablecidos de mensaje que definan todos los parámetros técnicos necesarios para el mensaje de correo electrónico y los mensajes de notificaciones push: tipo de correo electrónico, correo electrónico y nombre del remitente, aplicaciones móviles, etc.
 
-Puede configurar tantos ajustes preestablecidos de mensaje como desee según las diferentes marcas para las que necesite comunicarse.
+>[!CAUTION]
+>
+> La configuración de los ajustes preestablecidos de mensaje está restringida a los administradores de Recorrido. [Más información](../administration/ootb-product-profiles.md#journey-administrator)
+
 
 Una vez configurados los ajustes preestablecidos de mensaje, puede seleccionarlos al crear mensajes desde la lista **[!UICONTROL Presets]**.
 
@@ -25,24 +28,48 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
    ![](../assets/preset-create.png)
 
-1. Proporcione un nombre y una descripción (opcional) para el ajuste preestablecido y, a continuación, especifique los canales que desea configurar.
+1. Introduzca un nombre y una descripción (opcional) para el ajuste preestablecido y, a continuación, seleccione los canales que desea configurar.
 
    ![](../assets/preset-general.png)
 
-1. Configure los ajustes de correo electrónico y notificaciones push:
 
-   Para el canal de correo electrónico, especifique:
+   >[!NOTE]
+   >
+   > * Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos y caracteres `_`, `.`, `-`.
 
-   * El tipo de comunicaciones que se envían con el ajuste preestablecido (mensajes transaccionales o de marketing),
-   * El [subdominio](about-subdomain-delegation.md) que se utilizará para enviar los correos electrónicos,
-   * El [grupo IP](ip-pools.md) que se va a asociar al ajuste preestablecido,
-   * Parámetros de encabezado que se utilizarán para los correos electrónicos enviados con el ajuste preestablecido.
+
+1. Configure la configuración **email**.
 
    ![](../assets/preset-email.png)
 
-   Para el canal de notificaciones push, especifique las aplicaciones móviles de IOS o Android que desea utilizar para sus mensajes. Para obtener más información sobre cómo configurar el entorno para enviar notificaciones push, consulte [esta sección](../push-configuration.md).
+   * Seleccione el tipo de mensaje que se enviará con el ajuste preestablecido: **Transactional** o **Marketing**
+
+      >[!CAUTION]
+      >
+      > **** Los mensajes de transacción se pueden enviar a perfiles que cancelan la suscripción a comunicaciones de marketing. Estos mensajes solo se pueden enviar en contextos específicos, como restablecimiento de contraseña, estado de pedido o notificación de envío, por ejemplo.
+
+   * Seleccione el subdominio que desea utilizar para enviar los correos electrónicos. [Más información](about-subdomain-delegation.md)
+   * Seleccione el grupo de IP que desea asociar al ajuste preestablecido. [Más información](ip-pools.md)
+   * Introduzca los parámetros de encabezado para los correos electrónicos enviados mediante el ajuste preestablecido.
+
+      >[!NOTE]
+      >
+      > * Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos y caracteres `_`, `.`, `-`.
+         > 
+         > 
+      * Excepto para **Responder a (enviar correo electrónico)**, el dominio de direcciones de correo electrónico debe utilizar el subdominio seleccionado actual.
+
+
+
+1. Configure la **notificación push** configuración.
 
    ![](../assets/preset-push.png)
+
+   * Seleccione al menos una plataforma: iOS o Android
+
+   * Seleccione las aplicaciones móviles que desea utilizar para cada plataforma.
+
+      Para obtener más información sobre cómo configurar el entorno para enviar notificaciones push, consulte [esta sección](../push-configuration.md).
 
 1. Una vez configurados todos los parámetros, haga clic en **[!UICONTROL Submit]** para confirmar. También puede guardar el ajuste preestablecido de mensaje como borrador y reanudar su configuración más adelante.
 
@@ -54,13 +81,13 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
    Estas comprobaciones incluyen pruebas de capacidad de envío que realiza el equipo de entrega de Adobes:
 
-   * validación de SPF,
-   * Validación de DKIM,
-   * Validación de registros MX,
-   * Comprobar las listas negras de direcciones IP,
-   * Comprobación de host de Helo,
-   * Verificación del grupo IP,
-   * Registro A/PTR, verificación del subdominio t/m/res.
+   * Validación de SPF
+   * Validación de DKIM
+   * Validación de registros MX
+   * Comprobación de IP inclusión en la lista de bloqueados
+   * Comprobación de host de Helo
+   * Verificación del grupo IP
+   * Registro A/PTR, verificación del subdominio t/m/res
 
 1. Una vez realizadas las comprobaciones correctamente, el ajuste preestablecido de mensaje obtiene el estado **[!UICONTROL Active]**. Está listo para utilizarse para enviar mensajes.
 
@@ -101,3 +128,4 @@ Para editar un ajuste preestablecido de mensaje, primero debe desactivarlo para 
    >[!NOTE]
    >
    >Los ajustes preestablecidos de mensajes desactivados no se pueden eliminar para evitar problemas en los recorridos que utilizan estos ajustes preestablecidos para enviar mensajes.
+
