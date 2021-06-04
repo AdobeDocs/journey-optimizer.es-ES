@@ -6,10 +6,10 @@ user-guide-description: Utilice Journey Optimizer para ofrecer experiencias cone
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: d2f17a273445a92f11eeb8968bd3082295c3aa09
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 43%
+source-wordcount: '627'
+ht-degree: 44%
 
 ---
 
@@ -192,9 +192,8 @@ ht-degree: 43%
    + Configurar mensajes {#configuration}
       + [Configuración técnica](using/administration/administration.md)
       + [Crear ajustes preestablecidos de mensaje](using/configuration/message-presets.md)
-      + Configuración de notificaciones push{#push-config}
-         + [Introducción a la configuración push](using/push-gs.md)
-         + [Configurar el canal push](using/push-configuration.md)
+      + [Configurar el canal push](using/push-configuration.md)
+      + [Configuración de notificaciones push](using/push-gs.md)
       + Configuración de correo electrónico {#email-config}
          + Delegación de subdominios {#delegate-subdomains}
             + [Introducción a la delegación de subdominios](using/configuration/about-subdomain-delegation.md)
