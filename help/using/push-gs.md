@@ -1,11 +1,9 @@
 ---
 title: Introducción a la configuración push
 description: Comprender el flujo de datos y los componentes de las notificaciones push
-hide: true
-hidefromtoc: true
-source-git-commit: a2eee802f82552e56ced00f93e5e4c8a7b3feb7a
+source-git-commit: d2f17a273445a92f11eeb8968bd3082295c3aa09
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -14,59 +12,61 @@ ht-degree: 0%
 
 ![](assets/do-not-localize/badge.png)
 
-Las notificaciones push sirven como canal de comunicación rápida que le permite transmitir mensajes, ofertas u otra información a los usuarios de la aplicación móvil. Normalmente, el usuario final debe incluirse en para recibir notificaciones push; la inclusión suele tener lugar durante el proceso de instalación y los usuarios finales disponen de una forma de administrar las notificaciones si cambian de opinión más adelante. Una ventaja importante de las notificaciones push en la computación móvil es que la tecnología no requiere que se abran aplicaciones específicas en un dispositivo móvil para recibir un mensaje. Esto permite que un smartphone reciba y muestre notificaciones incluso cuando la pantalla del dispositivo está bloqueada y la aplicación móvil está en segundo plano o cerrada.
+Las notificaciones push le ayudan a llegar a sus usuarios de aplicaciones móviles en cualquier momento, especialmente cuando no utilizan activamente su aplicación. Las notificaciones push pueden ayudarle a lograr una variedad de casos de uso, como proporcionar actualizaciones sobre el servicio, solicitar al usuario que tome medidas, avisar al usuario de una nueva oferta, etc. Las plataformas de dispositivo requieren la inclusión antes de que los usuarios finales puedan recibir o ver sus notificaciones. La inclusión del usuario puede recibirse tan pronto como se inicia la aplicación por primera vez después de la instalación o en una sesión o flujo de trabajo posterior, según corresponda. [!DNL Journey Optimizer] admite notificaciones push y le ayuda a enviar notificaciones muy relevantes a tasas de rendimiento líderes en el sector. Las notificaciones push pueden incluir personalización y contexto basado en Recorridos para aprovechar la información de datos que su marca tiene con Adobe Experience Cloud.
 
-**[!DNL Adobe Journey Optimizer]**  le permite enviar mensajes push personalizados, relevantes y que distinguen el tiempo a gran escala. Se puede segmentar un segmento de perfiles de clientes para recibir notificaciones push enriquecidas en sus dispositivos móviles iOS y Android. Estos segmentos se pueden crear en función de eventos de experiencia de usuario pasados o activos, datos de registro de usuarios o una combinación de interacciones de usuarios y datos. Una vez que un recorrido está activo, puede ver informes detallados sobre la cantidad de mensajes enviados, fallidos por el motivo y también información de seguimiento push como el número de usuarios que hicieron clic en ellos.
+Esta página le ayudará a configurar y comprender los servicios y flujos de trabajo clave relacionados con las notificaciones push en [!DNL Journey Optimizer].
 
-Este documento le guiará por un flujo de datos de extremo a extremo básico de las notificaciones push mediante [!DNL Journey Optimizer] y un diagrama de flujo de usuario para explicar cómo cada función cumple sus responsabilidades y colabora para unir el flujo de datos push.
+## Definir notificaciones push con Adobe Journey Optimizer
 
+Para enviar notificaciones push con Adobe Journey Optimizer, debe completar los siguientes pasos:
 
-## Componentes y servicios implicados
+1. Siga la documentación para configurar los [SDK para móviles de Journey Optimizer y Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/beta/adobe-journey-optimizer) de Adobe en la aplicación.
+1. Crear [ajuste preestablecido para el canal de mensajería push](configuration/message-presets.md)
 
-* **Los** proveedores de Cloud Messaging son servicios de terceros que nos permiten enviar notificaciones desde servidores remotos a aplicaciones móviles.
+## Notificaciones push y Adobe de Journey Optimizer
 
-   [!DNL Adobe Journey Optimizer]  admite plataformas Android e iOS y gestiona dos servicios principales de mensajería en la nube:
-   * Firebase Cloud Messaging (FCM): para enviar notificaciones a la aplicación móvil de Android
-   * Servicio de notificaciones push de Apple (APNS): para enviar notificaciones a la aplicación móvil de iOS
-
-* **Aplicación móvil integrada con el** SDK móvil de Adobe, que ayuda a integrar sus aplicaciones móviles con las soluciones de Adobe Experience Cloud. El SDK de Mobile se compone de varias extensiones de solución de Experience Cloud para proporcionar funciones específicas del servicio que representan. Estas extensiones exponen varias API para habilitar el flujo de datos, como registrar el token push o enviar eventos de seguimiento push o cualquier otro evento de experiencia personalizado a Adobe Experience Platform.
-
-* **Adobe Launch**  (o Recopilación de datos) es la nueva generación de funcionalidades de administración de SDK móviles que permite el flujo de datos desde el SDK móvil a  [!DNL Adobe Experience Platform]. Proporciona funciones para registrar extensiones, crear reglas y elementos de datos para enviar datos desde la aplicación móvil a las soluciones de Adobe Experience Cloud. Con respecto al flujo de datos de las notificaciones push, las configuraciones principales necesarias en Launch de Adobe son:
-
-   * Creación de un conjunto de datos para configurar los conjuntos de datos de evento de perfil y experiencia con los que los datos fluyen a experience platform.
-   * Creación de una propiedad móvil del lado del cliente y adición de extensiones. El SDK de Mobile se integra estrechamente con estas extensiones para ofrecer una experiencia de recopilación de datos perfecta.
-   * Registro del identificador del paquete de aplicaciones móviles y las credenciales de la aplicación que ayudarían a identificar y validar de forma exclusiva la coherencia de la aplicación en el momento de enviar la notificación push.
-
-* **El perfil del cliente en tiempo** real es el componente de Adobe Experience Platform que le permite ver una vista holística de cada cliente combinando datos de varios canales, incluidos la web, dispositivos móviles, CRM y terceros. El perfil le permite consolidar los datos de sus clientes en una vista unificada que ofrece una cuenta procesable con marca de tiempo de cada interacción con los clientes. Los datos estáticos que identifican al usuario de la aplicación móvil, como un token push, se almacenan en el perfil del usuario como datos de registro, mientras que las interacciones que el usuario realiza con las notificaciones push se rastrean como datos de eventos de series temporales.
-
-* **[!DNL Adobe Journey Optimizer]** : una vez que haya implementado las integraciones de su aplicación móvil con los componentes mencionados y los perfiles de cliente estén disponibles como perfiles de cliente en tiempo real, puede aprovechar las potentes capacidades de segmentación de audiencia en  [!DNL Adobe Journey Optimizer]  para garantizar una experiencia óptima para cada persona.
-
-
-## Flujo de datos push
-
-Este diagrama muestra un flujo de datos de mensajería push básico y ofrece una vista previa de los distintos productos de Adobe y componentes involucrados en el flujo.
+En el siguiente gráfico se muestran los sistemas y servicios implicados en los flujos de datos asociados, lo que destaca cómo se entregan las notificaciones push desde un punto de vista de servicio integral.
 
 ![](assets/push-flow.png)
 
+1. Registro de su aplicación móvil con marca (Android o iOS) con los servicios de mensajería push APNS y FCM de Google de Apple
+1. Los servicios de mensajería generan un token push, que es un identificador que Journey Optimizer de Adobe utilizará para dirigirse al dispositivo específico con una notificación push.
+1. El token push generado anteriormente se pasa a Adobe Experience Platform y se sincroniza con el perfil del cliente en tiempo real; esto se hace OOTB con un SDK de cliente fácil de integrar
+1. Los mensajes push se crean en Adobe Journey Optimizer, los mensajes push se crean con un ajuste preestablecido de mensaje
+1. Los mensajes push se pueden incluir en el lienzo de organización de Recorrido
+1. Tras la publicación del Recorrido, los perfiles de clientes basados en condiciones de Recorrido están cualificados para recibir notificaciones push, las cargas de mensajería push se personalizan en este paso
+1. Las cargas push personalizadas se reenvían a un servicio de entrega de mensajería push interna
+1. A continuación, este servicio interno valida las credenciales de la aplicación asociada al mensaje y
+1. Envía el mensaje a los servicios de mensajería de Apple y Google para su envío final
+1. Se anotan los comentarios de los servicios de mensajería, se registran errores y éxitos para los informes en los informes de Recorrido Live &amp; Global
+1. Las notificaciones push se envían a los dispositivos del usuario final
+1. Las interacciones de notificaciones push del usuario final se envían como eventos de experiencia desde el cliente del usuario final mediante la integración del SDK
 
-1. El cliente desarrolla una aplicación móvil en Android o iOS que entregaría a sus usuarios. Para utilizar la capacidad push proporcionada por los proveedores push (es decir, APNS por Apple y FCM por Google), la aplicación móvil se registra a sí misma y habilita la capacidad push.
-1. Los proveedores push generan y envían un token push a la aplicación móvil. Un token push es un identificador que los remitentes utilizan para dirigirse a dispositivos específicos con una notificación push.
-1. La aplicación móvil está integrada con el SDK de Adobe Mobile, que expone varias extensiones y API. La extensión Messaging expone una API para registrar el token push en Adobe Experience Platform con el perfil del cliente.
-1. Una vez que la aplicación móvil está lista, se configura en **[!DNL Journey Launch]** `>` **Configuraciones de la aplicación** junto con las credenciales.
-El especialista en marketing ahora crea una notificación push en **[!DNL Adone Journey Optimizer]** `>` **Messages** en la aplicación móvil registrada.
-1. El especialista en marketing organiza un recorrido de cliente que define el flujo de eventos y acciones. Para enviar una notificación push en una fase del recorrido, el especialista en marketing añade una acción de tipo &quot;Mensaje&quot; y la asocia al mensaje creado en el paso anterior.
-1. Siempre que un perfil de cliente reúne los requisitos para recibir la notificación push por cualquier motivo, como en déclencheur de un evento o en la calificación de un segmento, el mensaje se personaliza según el perfil, si corresponde.
-1. El mensaje push personalizado se envía para su procesamiento posterior al servicio de entrega push.
-1. El servicio de envío push valida las credenciales de la aplicación asociada al mensaje.
-1. El mensaje se envía a los proveedores push para su envío a la aplicación móvil con las credenciales y el token push específicos.
-1. Los proveedores de mensajes push envían comentarios sugiriendo si el mensaje se entregó correctamente al proveedor o no. En caso contrario, el mensaje de error relevante forma parte de los comentarios. Estos comentarios se envían a los informes de Adobe para que el cliente los vea en su Recorrido [Live](reports/live-report.md) y [Global Reports](reports/global-report.md).
-1. Mientras tanto, los proveedores push envían de forma asíncrona la notificación push correcta a la aplicación móvil.
-1. A medida que el cliente interactúa con la notificación, las impresiones como clic/apertura se pueden rastrear como **Eventos de experiencia**. La extensión de mensajería expone las API para enviar eventos de seguimiento a Adobe Experience Platform con respecto al perfil del cliente.
+## Funciones de los servicios clave en las notificaciones push
 
-## Flujo de usuario push
+* **Los** proveedores de servicios de notificaciones push son los servicios web de componentes principales que envían notificaciones de servidores remotos a aplicaciones móviles.
 
-Este diagrama muestra los distintos pasos necesarios para configurar los componentes que forman el esqueleto del flujo de datos push. Los elementos de acción se han clasificado según la función que realiza la configuración y el componente que se está configurando. Como puede ver, antes de empezar a enviar notificaciones push con **[!DNL Adobe Journey Optimizer]** , debe asegurarse de que las configuraciones y las integraciones estén implementadas en la aplicación móvil, **[!DNL Adobe Launch]** y **[!DNL Adobe Experience Platform]**.
+   [!DNL Adobe Journey Optimizer]  admite plataformas Android e iOS y, por lo tanto, se integra con lo siguiente:
+   * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) : para enviar notificaciones a la aplicación móvil de Android
+   * [Servicio de notificaciones push de Apple (APNS)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) : para enviar notificaciones a la aplicación móvil iOS
+
+* **Adobe Experience Platform Mobile** SDK, que proporciona API de integración del lado del cliente para sus móviles mediante SDK compatibles con Android y iOS. El SDK proporciona una extensión de Journey Optimizer de Adobe que expone una serie de API específicas para la mensajería push y permite el flujo de datos, como registrar el token push o enviar eventos de seguimiento push o cualquier otro evento de experiencia personalizado a Adobe Experience Platform. El SDK también proporciona otras extensiones que habilitan otras funcionalidades de Adobe Experience Cloud, así como de socios de terceros.
+
+   La integración del SDK también requiere la configuración de servicios de recopilación de datos [Adobe Experience Platform](https://experienceleague.adobe.com/docs/launch/using/home.html) como:
+
+   * Creación de un conjunto de datos para configurar los conjuntos de datos de evento de perfil y experiencia con los que los datos fluyen a Adobe Experience Platform
+   * Creación de una propiedad móvil del lado del cliente y adición de extensiones. El SDK se integra estrechamente con estas extensiones para ofrecer una experiencia de recopilación de datos perfecta.
+   * Registro del identificador del paquete de aplicaciones móviles y las credenciales de la aplicación
+
+* **El perfil del cliente en tiempo real de Adobe Experience Platform**  conserva una vista holística de cada cliente al combinar datos de varios canales, incluidos web, móvil, CRM y terceros. El perfil le permite consolidar los datos de sus clientes en una vista unificada que ofrece una cuenta procesable con marca de tiempo de cada interacción con los clientes. El token push de un usuario de aplicación determinado se almacena en el perfil del usuario como datos de registro, mientras que las interacciones del usuario con las notificaciones push se rastrean como datos de eventos de series temporales. [Obtenga más información sobre el Perfil del cliente en tiempo real de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+
+* **[!DNL Adobe Journey Optimizer]** : una vez que haya implementado las integraciones de su aplicación móvil con los componentes mencionados y sus perfiles de cliente en Adobe Experience Platform, puede crear y orquestar notificaciones push en Adobe Journey Optimizer para interactuar con los usuarios.
+
+## Ajustes técnicos push y flujos de trabajo de practicantes
+
+En el siguiente tutorial se muestran los distintos pasos, de principio a fin, necesarios para configurar los componentes que forman el esqueleto del flujo de datos push. Los elementos de acción se han clasificado según la función que realiza la configuración y el componente que se está configurando.
 
 ![](assets/user-flow.png)
+
 
 Los pasos detallados para configurar el canal push y habilitar las notificaciones push en [!DNL Journey Optimizer] están disponibles en [esta página](push-configuration.md).
