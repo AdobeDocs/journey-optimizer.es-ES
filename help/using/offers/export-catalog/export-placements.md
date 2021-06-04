@@ -1,9 +1,9 @@
 ---
 title: Conjunto de datos de ubicaciones
 description: Esta sección enumera todos los campos utilizados en el conjunto de datos exportado para las ubicaciones.
-source-git-commit: 958bf03f3d3c2dd1606daba9dfef1284e2ed5cdd
+source-git-commit: cd44676a7a0f60ce3e97652ec6459f708557e14c
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '365'
 ht-degree: 4%
 
 ---
@@ -60,11 +60,11 @@ Esta es la lista de todos los campos que se pueden utilizar en el conjunto de da
 **Campo:** contentTypes 
 **Type:** array
 
-* **Tipo de medio MIME**
+**_experience > decisioning > contentTypes > MIME Media Type**
 
-   **Título:** Tipo de medio MIME
-   **Descripción:** Una restricción para el tipo de contenido de los componentes que se espera en esa ubicación. Podría haber más de un tipo de medio posible para un componente, como un formato de imagen diferente.
-   **Tipo:** cadena
+**Título:** Tipo de medio MIME 
+**Descripción:** Restricción para el tipo de medio de los componentes que se espera en esa ubicación. Podría haber más de un tipo de medio posible para un componente, como un formato de imagen diferente.
+**Tipo:** cadena
 
 #### _experience > decisioning > Placement Description
 
