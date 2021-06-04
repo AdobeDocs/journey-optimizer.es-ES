@@ -11,9 +11,9 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: e569e992530df5429ffb96f78ba28b53de0ded81
+source-git-commit: 68716d6520848f4825e90106ea1cd76185ae0f87
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '433'
 ht-degree: 8%
 
 ---
@@ -23,10 +23,9 @@ ht-degree: 8%
 
 La delegación de nombres de dominio es un método que permite al propietario de un nombre de dominio (técnicamente: una zona DNS) para delegar una subdivisión de ella (técnicamente: una zona DNS bajo ella, que puede llamarse subzona) a otra entidad. Básicamente, si un cliente está manejando la zona &quot;example.com&quot;, puede delegar la subzona &quot;marketing.example.com&quot; a Adobe.
 
-Al delegar un subdominio para utilizarlo con Adobe Optimizer, los clientes pueden confiar en el Adobe para mantener la infraestructura DNS necesaria para cumplir los requisitos de entrega estándar del sector para sus dominios de envío de marketing por correo electrónico, a la vez que mantienen y controlan el DNS para sus
-dominios de correo electrónico internos.
+Al delegar un subdominio para utilizarlo con [!DNL Journey Optimizer], los clientes pueden confiar en el Adobe para mantener la infraestructura DNS necesaria para cumplir los requisitos de envío estándar del sector para sus dominios de envío de marketing por correo electrónico, a la vez que continúan manteniendo y controlando DNS para sus dominios de correo electrónico internos.
 
-Journey Optimizer le permite delegar completamente sus subdominios a Adobe. Al hacerlo, Adobe podrá enviar mensajes como un servicio administrado controlando y manteniendo todos los aspectos de DNS necesarios para la entrega, el procesamiento y el seguimiento de campañas de correo electrónico.
+[!DNL Journey Optimizer] le permite delegar completamente los subdominios a Adobes directamente desde la interfaz de producto. Al hacerlo, Adobe podrá enviar mensajes como un servicio administrado controlando y manteniendo todos los aspectos de DNS necesarios para la entrega, el procesamiento y el seguimiento de campañas de correo electrónico.
 
 >[!NOTE]
 >
