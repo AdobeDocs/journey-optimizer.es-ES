@@ -1,7 +1,7 @@
 ---
 title: Crear ajustes preestablecidos de mensaje
 description: Obtenga información sobre cómo configurar y supervisar los ajustes preestablecidos de mensajes
-source-git-commit: 6cabe17f67d0207fc72d3c61498fae0affe5a785
+source-git-commit: 5490a12f7babc7d615f22f919e58b8eff51cf79c
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -18,6 +18,7 @@ Con [!DNL Journey Optimizer], puede configurar ajustes preestablecidos de mensaj
 > La configuración de los ajustes preestablecidos de mensaje está restringida a los administradores de Recorrido. [Más información](../administration/ootb-product-profiles.md#journey-administrator)
 
 
+
 Una vez configurados los ajustes preestablecidos de mensaje, puede seleccionarlos al crear mensajes desde la lista **[!UICONTROL Presets]**.
 
 ## Crear un ajuste preestablecido de mensaje {#create-message-preset}
@@ -27,6 +28,7 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 1. Acceda al menú **[!UICONTROL Channels]** / **[!UICONTROL Message presets]** y haga clic en **[!UICONTROL Create Message preset]**.
 
    ![](../assets/preset-create.png)
+
 
 1. Introduzca un nombre y una descripción (opcional) para el ajuste preestablecido y, a continuación, seleccione los canales que desea configurar.
 
@@ -80,6 +82,7 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
    Estas comprobaciones incluyen pruebas de capacidad de envío que realiza el equipo de entrega de Adobes:
 
+
    * Validación de SPF
    * Validación de DKIM
    * Validación de registros MX
@@ -87,6 +90,7 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
    * Comprobación de host de Helo
    * Verificación del grupo IP
    * Registro A/PTR, verificación del subdominio t/m/res
+
 
 1. Una vez realizadas las comprobaciones correctamente, el ajuste preestablecido de mensaje obtiene el estado **[!UICONTROL Active]**. Está listo para utilizarse para enviar mensajes.
 
