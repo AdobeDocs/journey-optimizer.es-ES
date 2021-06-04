@@ -11,15 +11,20 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: 068ee9c8966e5968a488c12b2a48fa2ba2ab5245
+source-git-commit: e569e992530df5429ffb96f78ba28b53de0ded81
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 11%
+source-wordcount: '432'
+ht-degree: 8%
 
 ---
 
 
 # Delegación de un subdominio
+
+La delegación de nombres de dominio es un método que permite al propietario de un nombre de dominio (técnicamente: una zona DNS) para delegar una subdivisión de ella (técnicamente: una zona DNS bajo ella, que puede llamarse subzona) a otra entidad. Básicamente, si un cliente está manejando la zona &quot;example.com&quot;, puede delegar la subzona &quot;marketing.example.com&quot; a Adobe.
+
+Al delegar un subdominio para utilizarlo con Adobe Optimizer, los clientes pueden confiar en el Adobe para mantener la infraestructura DNS necesaria para cumplir los requisitos de entrega estándar del sector para sus dominios de envío de marketing por correo electrónico, a la vez que mantienen y controlan el DNS para sus
+dominios de correo electrónico internos.
 
 Journey Optimizer le permite delegar completamente sus subdominios a Adobe. Al hacerlo, Adobe podrá enviar mensajes como un servicio administrado controlando y manteniendo todos los aspectos de DNS necesarios para la entrega, el procesamiento y el seguimiento de campañas de correo electrónico.
 
