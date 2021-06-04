@@ -6,7 +6,7 @@ user-guide-description: Utilice Journey Optimizer para ofrecer experiencias cone
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: fc39593802d296c035f1c77f237ae19cc73ce059
+source-git-commit: a4dd0cb3054a0f637068017fe1749a354e4d7e63
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 43%
