@@ -1,10 +1,9 @@
 ---
 title: Informe global
 description: Aprenda a utilizar los datos del informe global
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: c2bbc0335b5f123c1d2b0052edf1b90937011e19
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -12,6 +11,10 @@ ht-degree: 0%
 # Informe global {#global-report}
 
 ![](../assets/do-not-localize/badge.png)
+
+>[!NOTE]
+>
+> Si las consultas personalizadas se realizan a través de API al utilizar el servicio de Consulta, espere un cierto retraso para los informes.
 
 El **[!UICONTROL Global report]** permite medir la efectividad de los recorridos y envíos durante un período de tiempo seleccionado.
 
