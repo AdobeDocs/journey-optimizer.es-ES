@@ -1,10 +1,10 @@
 ---
 title: Interfaz de usuario
 description: Interfaz de usuario de Journey Optimizer
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+source-git-commit: 539551998d311a4860ad01b1bfe37cc2f77f8030
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 40%
+source-wordcount: '1486'
+ht-degree: 38%
 
 ---
 
@@ -94,22 +94,30 @@ El idioma predeterminado de la interfaz está determinado por el idioma preferid
 
 Para cambiar el idioma:
 
-* Haga clic en **Editar preferencias** desde el avatar, en la parte superior derecha.
-* A continuación, haga clic en **Visitar cuenta de Adobe** para acceder a su perfil de Adobe.
-* Seleccione la pestaña **Notifications** en la parte superior y haga clic en **Preferences**.
-* Seleccione el idioma que prefiera y haga clic en **Save**.
+* Haga clic en **Preferencias** desde el avatar, en la parte superior derecha.
+   ![](assets/preferences.png)
+* A continuación, haga clic en el idioma mostrado debajo de su dirección de correo electrónico
+* Seleccione el idioma que prefiera y haga clic en **Save**. Puede seleccionar un segundo idioma en caso de que el componente que esté utilizando no esté localizado en su primer idioma.
+   ![](assets/select-language.png)
 
->[!NOTE]
->
->Debe cerrar la sesión y volver a iniciarla en [!DNL Journey Optimizer] para aplicar los cambios.
+## Buscar
 
-## Buscar y filtrar{#section_lgm_hpz_pgb}
+Utilice la búsqueda de Adobe Experience Cloud en el centro de la barra superior para buscar recursos, recorridos o mensajes en los entornos limitados. Empiece a introducir contenido para mostrar los resultados principales.
 
-En la mayoría de las listas, una barra de búsqueda permite buscar un elemento.
+![](assets/unified-search.png)
 
-Se puede acceder a **[!UICONTROL Filters]** haciendo clic en el icono de filtro en la parte superior izquierda de la lista. El menú de filtro le permite filtrar los elementos mostrados según diferentes criterios. Puede elegir mostrar solo los elementos de un determinado tipo o estado, los que ha creado o los modificados en los últimos 30 días.
+Presione **Enter** para acceder a todos los resultados y filtrar.
 
-En la lista recorrido, además de **[!UICONTROL Creation filters]**, también puede filtrar los recorridos mostrados según su estado y versión (**[!UICONTROL Status and version filters]**). Puede elegir mostrar solo los recorridos que utilizan un evento, un grupo de campos o una acción en particular (**[!UICONTROL Activity filters]** y **[!UICONTROL Data filters]**). El **[!UICONTROL Publication filters]** permite seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar las últimas versiones de los recorridos en directo que se publicaron ayer. [Más información](building-journeys/using-the-journey-designer.md).
+![](assets/search-and-filter.png)
+
+
+## Filtrar listas{#section_lgm_hpz_pgb}
+
+En la mayoría de las listas, una barra de búsqueda le permite buscar un elemento específico y seleccionar criterios de filtrado.
+
+Se puede acceder a los filtros haciendo clic en el icono de filtro en la parte superior izquierda de la lista. El menú de filtro le permite filtrar los elementos mostrados según diferentes criterios. Puede elegir mostrar solo los elementos de un determinado tipo o estado, los que ha creado o los modificados en los últimos 30 días. Las opciones difieren según el contexto.
+
+En la lista de recorridos, puede filtrar los recorridos según su estado y versión desde **[!UICONTROL Status and version filters]**. Puede elegir mostrar solo los recorridos que utilizan un evento, un grupo de campos o una acción específicos de **[!UICONTROL Activity filters]** y **[!UICONTROL Data filters]**. El **[!UICONTROL Publication filters]** permite seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar las últimas versiones de los recorridos en directo que se publicaron ayer. [Más información](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -117,7 +125,7 @@ En la lista recorrido, además de **[!UICONTROL Creation filters]**, también pu
 
 Utilice las columnas **[!UICONTROL Last update]** y **[!UICONTROL Last update by]** para comprobar cuándo se produjo la última actualización de los recorridos y quién lo guardó.
 
-![](assets/journey74.png)
+![](assets/filter-journeys.png)
 
 En los paneles Evento, Fuente de datos y Configuración de acción, el campo **[!UICONTROL Used in]** muestra el número de recorridos que utilizan ese evento, grupo de campos o acción en particular. Puede hacer clic en **[!UICONTROL View journeys]** para mostrar la lista de los recorridos correspondientes.
 
