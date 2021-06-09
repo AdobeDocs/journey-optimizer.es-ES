@@ -1,11 +1,10 @@
 ---
 title: Creación de fórmulas de clasificación
 description: Aprenda a crear fórmulas de clasificación en Adobe Experience Platform.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+source-git-commit: ea8a3644ecef911a14ea087b03d367976f0c898d
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,19 +22,21 @@ Una vez creada una fórmula de clasificación, puede asignarla a una colocación
 
 Para crear una fórmula de clasificación, siga los pasos a continuación:
 
-* Acceda al menú **[!UICONTROL Components]** y seleccione la pestaña **[!UICONTROL Rankings]** .
+1. Acceda al menú **[!UICONTROL Components]** y seleccione la pestaña **[!UICONTROL Rankings]** . Se muestra la lista de clasificaciones creadas anteriormente.
 
-* Haga clic en **[!UICONTROL Create formula]** para crear una nueva fórmula de clasificación.
+   ![](../../assets/rankings-list.png)
+
+1. Haga clic en **[!UICONTROL Create ranking]** para crear una nueva fórmula de clasificación.
 
    ![](../../assets/ranking-create-formula.png)
 
-* Especifique el nombre, la descripción y la fórmula de la fórmula de clasificación.
+1. Especifique el nombre, la descripción y la fórmula de la fórmula de clasificación.
 
    En este ejemplo, deseamos aumentar la prioridad de todas las ofertas con el atributo &quot;hot&quot; si el tiempo real está caliente. Para ello, se pasó el **contextData.weather=hot** en la llamada de decisión.
 
    ![](../../assets/ranking-syntax.png)
 
-* Haga clic en **[!UICONTROL Save]**. Se crea la fórmula de clasificación, puede seleccionarla de la lista para obtener detalles y editarla o eliminarla.
+1. Haga clic en **[!UICONTROL Save]**. Se crea la fórmula de clasificación, puede seleccionarla de la lista para obtener detalles y editarla o eliminarla.
 
    Ahora está listo para utilizarse en una decisión para clasificar ofertas aptas para una ubicación (consulte [Configurar selección de ofertas en decisiones](../offer-activities/configure-offer-selection.md)).
 
