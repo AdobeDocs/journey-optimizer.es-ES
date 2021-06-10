@@ -2,10 +2,9 @@
 solution: Journey Orchestration
 title: Acerca de la configuración de acciones personalizadas
 description: Obtenga información sobre cómo configurar una acción personalizada
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 433d750f7fde36b049bc36be2325627270c154a0
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '578'
 ht-degree: 9%
 
 ---
@@ -70,6 +69,10 @@ Al configurar una acción personalizada, debe definir los siguientes **[!UICONTR
 En la sección **[!UICONTROL Message parameters]** , pegue un ejemplo de la carga útil JSON para enviarla al servicio externo.
 
 ![](../assets/customactionpayloadmessage.png)
+
+>[!NOTE]
+>
+>Los nombres de campo de la carga útil no pueden contener &quot;.&quot; carácter.
 
 Puede definir el tipo de parámetro (p. ej.: string, integer, etc.).
 
