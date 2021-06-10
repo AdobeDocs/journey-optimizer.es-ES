@@ -1,11 +1,10 @@
 ---
 title: Administración de permisos
 description: Obtenga información sobre cómo administrar permisos
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '983'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +16,13 @@ ht-degree: 66%
 
 [!DNL Journey Optimizer] Le permite asignar un conjunto de permisos a los usuarios para definir a qué parte de la interfaz pueden acceder.
 
-Pueden ser administrados por administradores que tengan acceso a la Admin Console. [Obtenga más información sobre Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
+Pueden ser administrados por administradores que tengan acceso a la Admin Console. [Obtenga más información acerca de Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
 
 Para poder acceder a [!DNL Journey Optimizer], un usuario debe cumplir lo siguiente:
 
 * ser parte de un **[!UICONTROL product profile]** de [!DNL Journey Optimizer] asociado a permisos de [!DNL Journey Optimizer].
 
-* Ser parte de un **[!UICONTROL product profile]** de [!DNL Adobe Experience Platform]. No hay ningún permiso obligatorio que tener. El usuario debe tener el permiso **[!UICONTROL profile management]** para poder crear y editar segmentos de plataforma desde la interfaz de [!DNL Journey Optimizer]. [Obtenga más información sobre el control](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#adobe-admin-console) de acceso.
+* Ser parte de un **[!UICONTROL product profile]** de [!DNL Adobe Experience Platform]. No hay ningún permiso obligatorio que tener. El usuario debe tener el permiso **[!UICONTROL profile management]** para poder crear y editar segmentos de plataforma desde la interfaz de [!DNL Journey Optimizer]. [Obtenga más información acerca del control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=es#adobe-admin-console).
 
 En la Admin Console, puede asignar a los usuarios uno de los siguientes perfiles de producto predeterminados:
 
@@ -41,7 +40,7 @@ En la Admin Console, puede asignar a los usuarios uno de los siguientes perfiles
    * Administrar recorridos
    * Publicar recorridos
    * Administrar informes
-   * Leer Eventos, fuentes de datos y acciones
+   * Lea eventos, fuentes de datos y acciones
 
 También puede crear sus propios perfiles de producto si los perfiles predeterminados no son suficientes para administrar a los usuarios.
 Los usuarios siempre deben estar vinculados a un perfil de producto que le permita asignarles permisos de integración específicos como:
@@ -56,13 +55,13 @@ Los usuarios siempre deben estar vinculados a un perfil de producto que le permi
 
 >[!NOTE]
 >
-> La administración de permisos no incluye mensajes: todos los usuarios pueden crear o modificar mensajes.
+> La administración de permisos no incluye mensajes: todos los usuarios pueden crearlos o modificarlos.
 
 ### Creación de un perfil de producto {#create-product-profile}
 
 [!DNL Journey Optimizer] le permite crear sus propios perfiles de productos, y asignar un conjunto de permisos y entornos limitados a los usuarios. Con los perfiles del producto, puede autorizar o denegar el acceso a determinadas funcionalidades u objetos de la interfaz.
 
-Para obtener más información sobre cómo crear y administrar entornos limitados, consulte la documentación de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
+Para obtener más información sobre cómo crear y administrar entornos limitados, consulte la documentación de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es).
 
 Para crear un perfil de producto, y asignar un conjunto de permisos y entornos limitados haga esto:
 
@@ -78,7 +77,7 @@ Para crear un perfil de producto, y asignar un conjunto de permisos y entornos l
 
    ![](assets/do-not-localize/user_management_1.png)
 
-1. Seleccione el nuevo perfil de productos para empezar a administrar permisos. En la pestaña **[!UICONTROL Users]**, agregue usuarios al perfil del producto. [Obtenga información sobre cómo asignar un perfil](permissions.md#assigning-product-profile) de producto.
+1. Seleccione el nuevo perfil de productos para empezar a administrar permisos. En la pestaña **[!UICONTROL Users]**, agregue usuarios al perfil del producto. [Obtenga información sobre cómo asignar un perfil de producto](permissions.md#assigning-product-profile).
 
 1. Lleve a cabo los mismos pasos que se detallan arriba para agregar **[!UICONTROL Admin]** a su perfil de productos.
 
@@ -86,7 +85,7 @@ Para crear un perfil de producto, y asignar un conjunto de permisos y entornos l
 
    ![](assets/do-not-localize/user_management_7.png)
 
-1. En la categoría de permisos, elija qué simulador de pruebas desea asignar al perfil del producto. **[!UICONTROL Sandboxes]** En **[!UICONTROL Available Permissions Items]**, haga clic en el icono de signo más (+) para asignar entornos limitados al perfil. [Obtenga más información sobre los entornos limitados](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
+1. En la categoría de permisos, elija qué simulador de pruebas desea asignar al perfil del producto. **[!UICONTROL Sandboxes]** En **[!UICONTROL Available Permissions Items]**, haga clic en el icono de signo más (+) para asignar entornos limitados al perfil. [Obtenga más información sobre los entornos limitados](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es).
 
    ![](assets/do-not-localize/user_management_8.png)
 
@@ -107,7 +106,7 @@ El perfil del producto se ha creado y configurado. Los usuarios vinculados a est
 Los perfiles de producto se asignan a un conjunto de usuarios que comparten los mismos permisos dentro de la organización.
 La lista de todos los perfiles de productos listos para usar con permisos asignados se encuentra en esta sección.
 
-Para asignar un perfil de producto para que un usuario acceda a las recorridos:
+Para asignar un perfil de producto para que un usuario tenga acceso a los recorridos:
 
 1. En Admin Console, seleccione **[!UICONTROL Journey Orchestration]**.
 
@@ -119,7 +118,7 @@ Para asignar un perfil de producto para que un usuario acceda a las recorridos:
 
 1. Haga clic en **[!UICONTROL Add user]**.
 
-   También puede agregar el nuevo usuario a un grupo de usuarios para ajustar el conjunto compartido de permisos. [Obtenga más información sobre los grupos de usuarios](https://helpx.adobe.com/es/enterprise/using/user-groups.html).
+   También puede agregar el nuevo usuario a un grupo de usuarios para ajustar el conjunto compartido de permisos. [Obtenga más información acerca de los grupos de usuarios](https://helpx.adobe.com/es/enterprise/using/user-groups.html).
 
    ![](assets/do-not-localize/user_management_3.png)
 
@@ -127,27 +126,27 @@ Para asignar un perfil de producto para que un usuario acceda a las recorridos:
 
    ![](assets/do-not-localize/user_management_4.png)
 
-El usuario debe recibir un correo electrónico que le redirija a su instancia .
+El usuario debería recibir entonces un correo electrónico que le redirija a su instancia.
 
 ## Uso de entornos limitados {#sandboxes}
 
 [!DNL Journey Optimizer] le permite particionar la instancia en entornos virtuales separados, llamados entornos limitados.
 Los entornos limitados para pruebas se asignan mediante perfiles de producto en la Admin Console. [Aprenda a asignar entornos limitados](permissions.md#create-product-profile).
 
-[!DNL Journey Optimizer] refleja entornos limitados de Adobe Experience Platform creados para una organización determinada.
-Los entornos limitados de Adobe Experience Platform se pueden crear o restablecer desde la instancia de Adobe Experience Platform. [Obtenga más información en la guía](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) de usuario de Sandbox.
+[!DNL Journey Optimizer] refleja los entornos limitados de Adobe Experience Platform creados para una organización determinada.
+Los entornos limitados de Adobe Experience Platform se pueden crear o restablecer desde la instancia de Adobe Experience Platform. [Obtenga más información en la Guía del usuario de entornos limitados](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es).
 
 Encontrará el control del conmutador de simulador de pruebas en la parte superior izquierda de la pantalla. Para cambiar de un simulador de pruebas a otro, haga clic en el simulador de pruebas activo y seleccione otro simulador de pruebas en la lista desplegable.
 
 ## Acceso al contenido {#content-access}
 
-Para configurar la accesibilidad del contenido, debe asignar una carpeta compartida de contenido a cada uno de los entornos limitados. Puede crear y configurar la carpeta compartida en la pestaña **[!UICONTROL Storage]** que se muestra en [!DNL Admin Console] para los administradores. Si tiene acceso a [!DNL Admin Console] como administrador del sistema, puede crear carpetas compartidas y agregar delegados con un nivel de acceso diferente a las carpetas compartidas.
+Para configurar la accesibilidad del contenido, debe asignar una carpeta compartida de contenido a cada uno de los entornos limitados. Puede crear y configurar la carpeta compartida en la pestaña **[!UICONTROL Storage]** que se muestra en [!DNL Admin Console] para los administradores. Si tiene acceso a [!DNL Admin Console] como administrador del sistema, puede crear carpetas compartidas y añadir delegados con un nivel de acceso diferente a las carpetas compartidas.
 
 ![](assets/do-not-localize/content_access.png)
 
-Tenga en cuenta que para que el contenido se sincronice con el entorno limitado correcto, debe seguir la misma sintaxis que el entorno limitado; por ejemplo, si el entorno limitado se llama desarrollo, la carpeta compartida debe tener el mismo nombre.
+Tenga en cuenta que para que el contenido se sincronice con el entorno limitado correcto, debe seguir la misma sintaxis que este; por ejemplo, si el entorno limitado se llama desarrollo, la carpeta compartida debe tener el mismo nombre.
 
-[Obtenga información sobre cómo administrar carpetas](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html) compartidas.
+[Obtenga información sobre cómo administrar carpetas](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html) compartidas.
 
 ## Permisos de Assets Essentials {#assets-permissions}
 
