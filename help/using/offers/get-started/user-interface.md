@@ -1,11 +1,10 @@
 ---
 title: Interfaz de usuario
-description: Obtenga más información sobre la interfaz de usuario de la biblioteca de ofertas.
-translation-type: tm+mt
+description: Obtenga más información acerca de la interfaz de usuario de la biblioteca de ofertas.
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +18,7 @@ Utilice el menú **[!UICONTROL Offers]** para administrar ofertas personalizadas
 
 * **[!UICONTROL Collections]**: Cree y administre colecciones de ofertas estáticas y dinámicas. Consulte [Acerca de las colecciones de ofertas](../offer-library/creating-collections.md).
 
-* **[!UICONTROL Decisions]**: Cree y administre decisiones para entregar sus ofertas. Consulte [Crear decisiones](../offer-activities/create-offer-activities.md).
+* **[!UICONTROL Decisions]**: Cree y administre decisiones para entregar sus ofertas. Consulte [Creación de decisiones](../offer-activities/create-offer-activities.md).
 
 ![](../../assets/offers_menu.png)
 
@@ -31,15 +30,15 @@ Utilice el menú **[!UICONTROL Components]** para administrar los componentes ne
 
 * **[!UICONTROL Rules]**: Administre las condiciones en las que se presentan las ofertas. Consulte [Creación de una regla de decisión](../offer-library/creating-decision-rules.md).
 
-* **[!UICONTROL Rankings]**: Cree y administre fórmulas de clasificación para determinar qué oferta se debe presentar primero para una ubicación determinada. Consulte [Crear fórmulas de clasificación](../offer-library/create-ranking-formulas.md).
+* **[!UICONTROL Rankings]**: Cree y administre fórmulas de clasificación para determinar qué oferta se debe presentar primero para una ubicación determinada. Consulte [Creación de fórmulas de clasificación](../offer-library/create-ranking-formulas.md).
 
 ![](../../assets/offer_activities.png)
 
-## Buscar y filtrar información
+## Búsqueda y filtrado de información
 
 Utilice la **barra de búsqueda** para encontrar un elemento específico.
 
-**** También se puede acceder a Filterscan haciendo clic en el icono de filtro en la parte superior izquierda de la lista. Permiten filtrar los elementos mostrados según diferentes criterios. Por ejemplo, puede filtrar las ubicaciones que se han creado para el canal de comunicación de correo electrónico y el contenido de tipo de imagen.
+También se puede acceder a **Filtros** haciendo clic en el icono de filtro en la parte superior izquierda de la lista. Permite filtrar los elementos mostrados según diferentes criterios. Por ejemplo, puede filtrar las ubicaciones que se han creado para el canal de comunicación de correo electrónico y el contenido de tipo de imagen.
 
 ![](../../assets/filters.png)
 
@@ -59,11 +58,11 @@ En las distintas listas, seleccione un elemento para mostrar un panel de informa
 
 ![](../../assets/information-pane.png)
 
-Las listas de ofertas y decisiones también permiten realizar acciones masivas en varios elementos. Para ello, seleccione las ofertas o decisiones que desee y, a continuación, seleccione la acción que desee realizar en el panel de información.
+Las listas de ofertas y decisiones de oferta ahora permiten realizar acciones masivas en varios elementos. Para ello, seleccione las ofertas o decisiones que desee y, a continuación, seleccione la acción que desee realizar en el panel de información.
 
 ![](../../assets/bulk-actions.png)
 
-Tenga en cuenta que también puede duplicar una oferta o decisiones existentes para crear una copia con el estado **[!UICONTROL Draft]**. Esto se puede realizar desde el panel de información o desde una oferta o desde la vista detallada de una decisión.
+Tenga en cuenta que también puede duplicar una oferta o decisiones existentes para crear una copia con el estado **[!UICONTROL Draft]**. Esto se puede realizar desde el panel de información, desde una oferta o desde la vista detallada de una decisión.
 
 ![](../../assets/duplicate-offer.png)
 
