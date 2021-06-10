@@ -1,18 +1,24 @@
 ---
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: ht
-source-wordcount: '17'
-ht-degree: 100%
+source-git-commit: 9e97178e45f36745ec6155e163918c1265600890
+workflow-type: tm+mt
+source-wordcount: '45'
+ht-degree: 26%
 
 ---
-# customer-journey-management.en
+# journey-optimizer.en
 
 Documentación del producto de Journey Optimizer
 
-La documentación de Journey Optimizer incluye las siguientes funciones:
+Adobe Journey Optimizer es una aplicación ágil y escalable para crear y ofrecer personalización, conexión y puntualidad
+experiencias del cliente en cualquier aplicación, dispositivo o canal.
 
+Temas:
+
+* Introducción
+* Mensajes
+* Segmentos
 * Recorridos
-* Mensajes, Contenido
-* Ofertas
-* Administración
-
+* Informes
+* offer decisioning / Gestión de decisiones
+* Directrices de configuración
+* Control de acceso
