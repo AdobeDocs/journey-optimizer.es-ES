@@ -6,34 +6,34 @@ user-guide-description: Utilice Journey Optimizer para ofrecer experiencias cone
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
+source-git-commit: b38f24f074671651a54cc4b5a5de9aa48809cb0a
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 44%
+source-wordcount: '635'
+ht-degree: 79%
 
 ---
 
 
-# [!DNL Journey Optimizer]Ayuda {#using}
+# Ayuda de [!DNL Journey Optimizer] {#using}
 
 + [Documentación del producto](ajo-home.md)
 + Introducción{#get-started}
-   + [¿Qué es Journey Optimizer?](using/get-started.md)
-   + [Introducción](using/quick-start.md)
+   + [Qué es Journey Optimizer](using/get-started.md)
+   + [Inicio rápido](using/quick-start.md)
    + [Interfaz de usuario](using/user-interface.md)
    + [Administración de permisos](using/permissions.md)
    + [Problemas conocidos](using/known-issues.md)
 + Mensajes {#create-messages}
    + [Introducción a los mensajes](using/get-started-content.md)
-   + Crear mensajes {#create-message}
-      + [Crear un mensaje](using/create-message.md)
+   + Creación de mensajes {#create-message}
+      + [Creación de un mensaje ](using/create-message.md)
       + [Creación de un correo electrónico](using/create-email.md)
       + [Creación de una notificación push](using/create-push.md)
-   + [Agregar y administrar recursos](using/assets-essentials.md)
+   + [Adición y administración de recursos](using/assets-essentials.md)
    + Diseñador de correo electrónico {#email-designer}
       + [Introducción al diseño de correo electrónico](using/design-emails.md)
-      + [Diseño del contenido del correo electrónico en la interfaz de usuario](using/create-email-content.md)
-      + [Importe o codifique el contenido del correo electrónico](using/existing-content.md)
+      + [Diseño del contenido del correo electrónico en la IU](using/create-email-content.md)
+      + [Importación o codificación del contenido del correo electrónico](using/existing-content.md)
       + [Uso de los componentes de contenido del diseñador de correo electrónico](using/content-components.md)
    + Personalización{#personalization}
       + [Introducción](using/personalization/personalize.md)
@@ -51,25 +51,26 @@ ht-degree: 44%
          + [Asignar funciones](using/personalization/functions/maps.md)
          + [Funciones de objeto](using/personalization/functions/objects.md)
          + [Funciones de cadena](using/personalization/functions/string.md)
-   + [Añadir ofertas personalizadas](using/deliver-personalized-offers.md)
-   + Validar y publicar {#create-message}
-      + [Vista previa y pruebas](using/preview.md)
-      + [Comprobar alertas](using/alerts.md)
-      + [Publicar mensajes](using/publish-manage-message.md)
-   + [Administrar la exclusión](using/consent.md)
-+ Segmentos {#segment}
+   + [Adición de ofertas personalizadas](using/deliver-personalized-offers.md)
+   + Validación y publicación {#create-message}
+      + [Previsualización y pruebas](using/preview.md)
+      + [Comprobación de alertas](using/alerts.md)
+      + [Publicación de mensajes](using/publish-manage-message.md)
+   + [Administración de la exclusión](using/consent.md)
++ Segmentos{#segment}
    + [Acerca de los segmentos](using/segment/about-segments.md)
-   + [Generar segmentos](using/segment/creating-a-segment.md)
+   + [Generación de segmentos](using/segment/creating-a-segment.md)
 + Recorridos {#orchestrate-journeys}
    + Acerca de los recorridos{#about-journeys}
       + [Principio general](using/building-journeys/journey.md)
       + [Limitaciones](using/building-journeys/limitations.md)
       + [Versiones de recorridos](using/building-journeys/journey-versions.md)
       + [Perfiles de prueba](using/building-journeys/creating-test-profiles.md)
-   + Crear un recorrido{#create-journey}
-      + [Introducción a recorrido](using/building-journeys/journey-gs.md)
+      + [Integración con servicios inteligentes](using/building-journeys/ai-services-overview.md)
+   + Creación de un recorrido{#create-journey}
+      + [Introducción a los recorridos](using/building-journeys/journey-gs.md)
       + [Diseño de un recorrido](using/building-journeys/using-the-journey-designer.md)
-      + [Probar el recorrido](using/building-journeys/testing-the-journey.md)
+      + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
       + [Publicación del recorrido](using/building-journeys/publishing-the-journey.md)
       + [Administración de husos horarios](using/building-journeys/timezone-management.md)
       + [Resolución de problemas del recorrido](using/building-journeys/troubleshooting.md)
@@ -81,29 +82,29 @@ ht-degree: 44%
       + [Condición](using/building-journeys/condition-activity.md)
       + [Fin](using/building-journeys/end-activity.md)
       + [Espera](using/building-journeys/wait-activity.md)
-      + [Leer segmento](using/building-journeys/read-segment.md)
+      + [Lectura de segmento](using/building-journeys/read-segment.md)
       + [Mensaje](using/building-journeys/journeys-message.md)
       + [Acciones personalizadas](using/building-journeys/using-custom-actions.md)
-      + [Jump](using/building-journeys/jump.md)
-      + [Actualizar perfil](using/building-journeys/update-profiles.md)
+      + [Salto](using/building-journeys/jump.md)
+      + [Actualización de perfil](using/building-journeys/update-profiles.md)
    + Casos de uso {#journey-use-cases}
       + [Envío de mensajes multicanal](using/building-journeys/journeys-uc.md)
 + Seguimiento y monitorización {#reporting}
    + [Seguimiento de mensajes](using/message-tracking.md)
    + [Monitorización de mensajes](using/message-monitoring.md)
-   + Informe en directo {#live-report}
+   + Informe en vivo {#live-report}
       + [Información general](using/reports/live-report.md)
-      + [informe de recorrido en directo](using/reports/journey-live-report.md)
-      + [Enviar informe activo por correo electrónico](using/reports/email-live-report.md)
-      + [Insertar informe activo](using/reports/push-live-report.md)
+      + [Informe de recorrido en vivo](using/reports/journey-live-report.md)
+      + [Informe en vivo por correo electrónico](using/reports/email-live-report.md)
+      + [Informe en vivo push](using/reports/push-live-report.md)
    + Informe global {#global-report}
       + [Información general](using/reports/global-report.md)
       + [Informe global de recorrido](using/reports/journey-global-report.md)
       + [Informe global de correo electrónico](using/reports/email-global-report.md)
-      + [Insertar informe global](using/reports/push-global-report.md)
+      + [Informe global push](using/reports/push-global-report.md)
    + Informes de recorrido {#reports}
       + [Creación de informes de recorrido](using/reports/sharing-overview.md)
-      + [campos de recorrido](using/reports/sharing-journey-fields.md)
+      + [Campos del recorrido](using/reports/sharing-journey-fields.md)
       + [Campos comunes](using/reports/sharing-common-fields.md)
       + [Campos de ejecución de la acción](using/reports/sharing-execution-fields.md)
       + [Campos de captura de datos](using/reports/sharing-fetch-fields.md)
@@ -116,7 +117,7 @@ ht-degree: 44%
       + [Acerca de la gestión de decisiones](using/offers/get-started/starting-offer-decisioning.md)
       + [Interfaz de usuario](using/offers/get-started/user-interface.md)
       + [Glosario](using/offers/get-started/glossary.md)
-   + Crear y administrar ofertas {#managing-offers-in-the-offer-library}
+   + Creación y administración de ofertas {#managing-offers-in-the-offer-library}
       + [Pasos clave para crear una oferta](using/offers/offer-library/key-steps.md)
       + [Creación de ubicaciones](using/offers/offer-library/creating-placements.md)
       + [Creación de reglas de decisión](using/offers/offer-library/creating-decision-rules.md)
@@ -125,12 +126,12 @@ ht-degree: 44%
       + [Creación de ofertas de reserva](using/offers/offer-library/creating-fallback-offers.md)
       + [Creación de colecciones](using/offers/offer-library/creating-collections.md)
       + [Creación de fórmulas de clasificación](using/offers/offer-library/create-ranking-formulas.md)
-   + Cree y administre decisiones {#create-manage-activities}
-      + [Crear decisiones](using/offers/offer-activities/create-offer-activities.md)
-      + [Configurar la selección de ofertas en decisiones](using/offers/offer-activities/configure-offer-selection.md)
-   + Crear informes de Administración de decisiones {create-reports}
+   + Creación y administración de decisiones {#create-manage-activities}
+      + [Creación de decisiones](using/offers/offer-activities/create-offer-activities.md)
+      + [Configuración de la selección de ofertas en decisiones](using/offers/offer-activities/configure-offer-selection.md)
+   + Creación de informes de Administración de decisiones {create-reports}
       + [Introducción a los eventos de administración de decisiones](using/offers/reports/get-started-events.md)
-      + [Información clave sobre eventos de gestión de decisiones](using/offers/reports/key-information.md)
+      + [Información clave sobre eventos de Administración de decisiones](using/offers/reports/key-information.md)
       + [Campos XDM de eventos de acceso](using/offers/reports/xdm-fields.md)
    + Exportación del catálogo de ofertas {#export-catalog}
       + [Introducción a la exportación del catálogo de ofertas ](using/offers/export-catalog/get-started-export.md)
@@ -140,50 +141,50 @@ ht-degree: 44%
       + [Conjunto de datos de ubicaciones](using/offers/export-catalog/export-placements.md)
       + [Conjunto de datos de reserva](using/offers/export-catalog/export-fallback.md)
    + Referencia de API {#api-reference}
-      + [Primeros pasos](using/offers/api-reference/getting-started.md)
+      + [Introducción](using/offers/api-reference/getting-started.md)
       + Crear y administrar ofertas mediante API {#offers-api}
          + Ubicaciones {#placements}
-            + [Enumerar ubicaciones](using/offers/api-reference/offers-api/placements/placements-list.md)
-            + [Buscar una ubicación](using/offers/api-reference/offers-api/placements/lookup.md)
+            + [Enumeración de ubicaciones](using/offers/api-reference/offers-api/placements/placements-list.md)
+            + [Búsqueda de una ubicación](using/offers/api-reference/offers-api/placements/lookup.md)
             + [Creación de una ubicación](using/offers/api-reference/offers-api/placements/create.md)
-            + [Actualizar una ubicación](using/offers/api-reference/offers-api/placements/update.md)
-            + [Eliminar una ubicación](using/offers/api-reference/offers-api/placements/delete.md)
+            + [Actualización de una ubicación](using/offers/api-reference/offers-api/placements/update.md)
+            + [Eliminación de una ubicación](using/offers/api-reference/offers-api/placements/delete.md)
          + Reglas de decisión {#decision-rules}
-            + [Enumerar reglas de decisión](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
-            + [Buscar una regla de decisión](using/offers/api-reference/offers-api/decision-rules/lookup.md)
-            + [Crear una regla de decisión](using/offers/api-reference/offers-api/decision-rules/create.md)
-            + [Actualizar una regla de decisión](using/offers/api-reference/offers-api/decision-rules/update.md)
-            + [Eliminar una regla de decisión](using/offers/api-reference/offers-api/decision-rules/delete.md)
+            + [Enumeración de reglas de decisión](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
+            + [Búsqueda de una regla de decisión](using/offers/api-reference/offers-api/decision-rules/lookup.md)
+            + [Creación de una regla de decisión](using/offers/api-reference/offers-api/decision-rules/create.md)
+            + [Actualización de una regla de decisión](using/offers/api-reference/offers-api/decision-rules/update.md)
+            + [Eliminación de una regla de decisión](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + Etiquetas {#tags}
-            + [Enumerar etiquetas](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [Buscar una etiqueta](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [Crear una etiqueta](using/offers/api-reference/offers-api/tags/create.md)
-            + [Actualizar una etiqueta](using/offers/api-reference/offers-api/tags/update.md)
-            + [Eliminar una etiqueta](using/offers/api-reference/offers-api/tags/delete.md)
+            + [Enumeración de etiquetas](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [Búsqueda de una etiqueta](using/offers/api-reference/offers-api/tags/lookup.md)
+            + [Creación de una etiqueta](using/offers/api-reference/offers-api/tags/create.md)
+            + [Actualización de una etiqueta](using/offers/api-reference/offers-api/tags/update.md)
+            + [Eliminación de una etiqueta](using/offers/api-reference/offers-api/tags/delete.md)
          + Ofertas personalizadas {#personalized-offers}
-            + [Enumerar ofertas personalizadas](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
-            + [Buscar una oferta personalizada](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
-            + [Crear una oferta personalizada](using/offers/api-reference/offers-api/personalized-offers/create.md)
-            + [Actualizar una oferta personalizada](using/offers/api-reference/offers-api/personalized-offers/update.md)
-            + [Eliminar una oferta personalizada](using/offers/api-reference/offers-api/personalized-offers/delete.md)
+            + [Enumeración de ofertas personalizadas](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
+            + [Búsqueda de una oferta personalizada](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
+            + [Creación de una oferta personalizada](using/offers/api-reference/offers-api/personalized-offers/create.md)
+            + [Actualización de una oferta personalizada](using/offers/api-reference/offers-api/personalized-offers/update.md)
+            + [Eliminación de una oferta personalizada](using/offers/api-reference/offers-api/personalized-offers/delete.md)
          + Colecciones {#collections}
-            + [Enumerar colecciones](using/offers/api-reference/offers-api/collections/collections-list.md)
-            + [Buscar una colección](using/offers/api-reference/offers-api/collections/lookup.md)
-            + [Crear una colección](using/offers/api-reference/offers-api/collections/create.md)
-            + [Actualizar una colección](using/offers/api-reference/offers-api/collections/update.md)
-            + [Eliminar una colección](using/offers/api-reference/offers-api/collections/delete.md)
+            + [Enumeración de colecciones](using/offers/api-reference/offers-api/collections/collections-list.md)
+            + [Búsqueda de una colección](using/offers/api-reference/offers-api/collections/lookup.md)
+            + [Creación de una colección](using/offers/api-reference/offers-api/collections/create.md)
+            + [Actualización de una colección](using/offers/api-reference/offers-api/collections/update.md)
+            + [Eliminación de una colección](using/offers/api-reference/offers-api/collections/delete.md)
          + Ofertas de reserva {#fallback-offers}
-            + [Enumerar ofertas de reserva](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
-            + [Buscar una oferta de reserva](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
-            + [Crear una oferta de reserva](using/offers/api-reference/offers-api/fallback-offers/create.md)
-            + [Actualizar una oferta de reserva](using/offers/api-reference/offers-api/fallback-offers/update.md)
-            + [Eliminar una oferta de reserva](using/offers/api-reference/offers-api/fallback-offers/delete.md)
-      + Crear y administrar decisiones mediante API {#activities-api}
-         + [Enumerar decisiones](using/offers/api-reference/activities-api/activities/activities-list.md)
-         + [Buscar una decisión](using/offers/api-reference/activities-api/activities/lookup.md)
-         + [Crear una decisión](using/offers/api-reference/activities-api/activities/create.md)
-         + [Actualizar una decisión](using/offers/api-reference/activities-api/activities/update.md)
-         + [Eliminar una decisión](using/offers/api-reference/activities-api/activities/delete.md)
+            + [Enumeración de ofertas de reserva](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
+            + [Búsqueda de una oferta de reserva](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
+            + [Creación de una oferta de reserva](using/offers/api-reference/offers-api/fallback-offers/create.md)
+            + [Actualización de una oferta de reserva](using/offers/api-reference/offers-api/fallback-offers/update.md)
+            + [Eliminación de una oferta de reserva](using/offers/api-reference/offers-api/fallback-offers/delete.md)
+      + Creación y administración de actividades mediante API {#activities-api}
+         + [Enumeración de decisiones](using/offers/api-reference/activities-api/activities/activities-list.md)
+         + [Búsqueda de una decisión](using/offers/api-reference/activities-api/activities/lookup.md)
+         + [Creación de una decisión](using/offers/api-reference/activities-api/activities/create.md)
+         + [Actualización de una decisión](using/offers/api-reference/activities-api/activities/update.md)
+         + [Eliminación de una decisión](using/offers/api-reference/activities-api/activities/delete.md)
       + Entrega de ofertas mediante API {#offer-delivery}
          + [API de decisiones](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [SDK web de Adobe Experience Platform](using/offers/api-reference/web-sdk.md)
@@ -208,18 +209,19 @@ ht-degree: 44%
          + [Cambiar la dirección principal del correo electrónico](using/configuration/primary-email-addresses.md)
    + Configuración de recorridos {#configure-journeys}
       + [Acerca de las fuentes de datos, los eventos y las acciones](using/configuration/about-data-sources-events-actions.md)
+      + [Integración con sistemas externos](using/configuration/external-systems.md)
       + Configuración de evento{#events-journeys}
          + [Principio general](using/event/about-events.md)
-         + Configurar un evento unitario {#unitary-events}
+         + Configuración de un evento unitario {#unitary-events}
             + [Introducción a los eventos unitarios](using/event/about-creating.md)
             + [Acerca de los esquemas de ExperienceEvent](using/event/experience-event-schema.md)
-            + [Aprovechar Adobe Analytics](using/event/about-analytics.md)
-         + [Configurar un evento empresarial](using/event/about-creating-business.md)
+            + [Aprovechamiento de Adobe Analytics](using/event/about-analytics.md)
+         + [Configuración de un evento empresarial](using/event/about-creating-business.md)
          + [Pasos adicionales para enviar eventos](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
       + Configuración de la fuente de datos{#data-source-journeys}
          + [Acerca de las fuentes de datos](using/datasource/about-data-sources.md)
          + [Configuración de una fuente de datos](using/datasource/configure-data-sources.md)
-         + [Fuentes de datos de Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
+         + [Fuente de datos de Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
          + [Fuentes de datos externas](using/datasource/external-data-sources.md)
       + Configuración de la acción {#action-journeys}
          + [Acerca de las acciones](using/action/action.md)
