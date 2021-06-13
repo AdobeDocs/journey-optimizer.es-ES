@@ -1,12 +1,12 @@
 ---
-product: experience cloud
+product: Journey Optimizer
 audience: end-user
 user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para ofrecer experiencias conectadas, contextuales y personalizadas a los clientes
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: 48094061c6b36016d443f65cd9a882bc57425fff
+source-git-commit: a73430f57d6e482de08b3e01a8acef081945405b
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 79%
@@ -118,15 +118,15 @@ ht-degree: 79%
       + [Glosario](using/offers/get-started/glossary.md)
    + Creación y administración de ofertas {#managing-offers-in-the-offer-library}
       + [Pasos clave para crear una oferta](using/offers/offer-library/key-steps.md)
-      + [Creación de ubicaciones](using/offers/offer-library/creating-placements.md)
-      + [Creación de reglas de decisión](using/offers/offer-library/creating-decision-rules.md)
-      + [Creación de etiquetas](using/offers/offer-library/creating-tags.md)
-      + [Creación de ofertas personalizadas](using/offers/offer-library/creating-personalized-offers.md)
-      + [Creación de ofertas de reserva](using/offers/offer-library/creating-fallback-offers.md)
-      + [Creación de colecciones](using/offers/offer-library/creating-collections.md)
-      + [Creación de fórmulas de clasificación](using/offers/offer-library/create-ranking-formulas.md)
-   + Creación y administración de decisiones {#create-manage-activities}
-      + [Creación de decisiones](using/offers/offer-activities/create-offer-activities.md)
+      + [Crear ubicaciones](using/offers/offer-library/creating-placements.md)
+      + [Crear reglas de decisión](using/offers/offer-library/creating-decision-rules.md)
+      + [Crear etiquetas](using/offers/offer-library/creating-tags.md)
+      + [Crear ofertas personalizadas](using/offers/offer-library/creating-personalized-offers.md)
+      + [Crear ofertas de reserva](using/offers/offer-library/creating-fallback-offers.md)
+      + [Crear colecciones](using/offers/offer-library/creating-collections.md)
+      + [Crear fórmulas de clasificación](using/offers/offer-library/create-ranking-formulas.md)
+   + Crear y administrar decisiones {#create-manage-activities}
+      + [Crear decisiones](using/offers/offer-activities/create-offer-activities.md)
       + [Configuración de la selección de ofertas en decisiones](using/offers/offer-activities/configure-offer-selection.md)
    + Creación de informes de Administración de decisiones {create-reports}
       + [Introducción a los eventos de administración de decisiones](using/offers/reports/get-started-events.md)
@@ -134,7 +134,7 @@ ht-degree: 79%
       + [Campos XDM de eventos de acceso](using/offers/reports/xdm-fields.md)
    + Exportación del catálogo de ofertas {#export-catalog}
       + [Introducción a la exportación del catálogo de ofertas ](using/offers/export-catalog/get-started-export.md)
-      + [Acceso al catálogo de ofertas exportado](using/offers/export-catalog/access-dataset.md)
+      + [Acceder al catálogo de ofertas exportado](using/offers/export-catalog/access-dataset.md)
       + [Conjunto de datos de ofertas personalizadas](using/offers/export-catalog/export-offers.md)
       + [Conjunto de datos de decisiones](using/offers/export-catalog/export-decisions.md)
       + [Conjunto de datos de ubicaciones](using/offers/export-catalog/export-placements.md)
@@ -143,47 +143,47 @@ ht-degree: 79%
       + [Introducción](using/offers/api-reference/getting-started.md)
       + Crear y administrar ofertas mediante API {#offers-api}
          + Ubicaciones {#placements}
-            + [Enumeración de ubicaciones](using/offers/api-reference/offers-api/placements/placements-list.md)
-            + [Búsqueda de una ubicación](using/offers/api-reference/offers-api/placements/lookup.md)
-            + [Creación de una ubicación](using/offers/api-reference/offers-api/placements/create.md)
-            + [Actualización de una ubicación](using/offers/api-reference/offers-api/placements/update.md)
-            + [Eliminación de una ubicación](using/offers/api-reference/offers-api/placements/delete.md)
+            + [Enumerar ubicaciones](using/offers/api-reference/offers-api/placements/placements-list.md)
+            + [Buscar una ubicación](using/offers/api-reference/offers-api/placements/lookup.md)
+            + [Crear una ubicación](using/offers/api-reference/offers-api/placements/create.md)
+            + [Actualizar una ubicación](using/offers/api-reference/offers-api/placements/update.md)
+            + [Eliminar una ubicación](using/offers/api-reference/offers-api/placements/delete.md)
          + Reglas de decisión {#decision-rules}
-            + [Enumeración de reglas de decisión](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
-            + [Búsqueda de una regla de decisión](using/offers/api-reference/offers-api/decision-rules/lookup.md)
-            + [Creación de una regla de decisión](using/offers/api-reference/offers-api/decision-rules/create.md)
-            + [Actualización de una regla de decisión](using/offers/api-reference/offers-api/decision-rules/update.md)
-            + [Eliminación de una regla de decisión](using/offers/api-reference/offers-api/decision-rules/delete.md)
+            + [Enumerar reglas de decisión](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
+            + [Buscar una regla de decisión](using/offers/api-reference/offers-api/decision-rules/lookup.md)
+            + [Crear una regla de decisión](using/offers/api-reference/offers-api/decision-rules/create.md)
+            + [Actualizar una regla de decisión](using/offers/api-reference/offers-api/decision-rules/update.md)
+            + [Eliminar una regla de decisión](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + Etiquetas {#tags}
-            + [Enumeración de etiquetas](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [Búsqueda de una etiqueta](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [Creación de una etiqueta](using/offers/api-reference/offers-api/tags/create.md)
-            + [Actualización de una etiqueta](using/offers/api-reference/offers-api/tags/update.md)
-            + [Eliminación de una etiqueta](using/offers/api-reference/offers-api/tags/delete.md)
+            + [Enumerar etiquetas](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [Buscar una etiqueta](using/offers/api-reference/offers-api/tags/lookup.md)
+            + [Crear una etiqueta](using/offers/api-reference/offers-api/tags/create.md)
+            + [Actualizar una etiqueta](using/offers/api-reference/offers-api/tags/update.md)
+            + [Eliminar una etiqueta](using/offers/api-reference/offers-api/tags/delete.md)
          + Ofertas personalizadas {#personalized-offers}
-            + [Enumeración de ofertas personalizadas](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
-            + [Búsqueda de una oferta personalizada](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
-            + [Creación de una oferta personalizada](using/offers/api-reference/offers-api/personalized-offers/create.md)
-            + [Actualización de una oferta personalizada](using/offers/api-reference/offers-api/personalized-offers/update.md)
-            + [Eliminación de una oferta personalizada](using/offers/api-reference/offers-api/personalized-offers/delete.md)
+            + [Enumerar ofertas personalizadas](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
+            + [Buscar una oferta personalizada](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
+            + [Crear una oferta personalizada](using/offers/api-reference/offers-api/personalized-offers/create.md)
+            + [Actualizar una oferta personalizada](using/offers/api-reference/offers-api/personalized-offers/update.md)
+            + [Eliminar una oferta personalizada](using/offers/api-reference/offers-api/personalized-offers/delete.md)
          + Colecciones {#collections}
-            + [Enumeración de colecciones](using/offers/api-reference/offers-api/collections/collections-list.md)
-            + [Búsqueda de una colección](using/offers/api-reference/offers-api/collections/lookup.md)
-            + [Creación de una colección](using/offers/api-reference/offers-api/collections/create.md)
-            + [Actualización de una colección](using/offers/api-reference/offers-api/collections/update.md)
-            + [Eliminación de una colección](using/offers/api-reference/offers-api/collections/delete.md)
+            + [Enumerar colecciones](using/offers/api-reference/offers-api/collections/collections-list.md)
+            + [Buscar una colección](using/offers/api-reference/offers-api/collections/lookup.md)
+            + [Crear una colección](using/offers/api-reference/offers-api/collections/create.md)
+            + [Actualizar una colección](using/offers/api-reference/offers-api/collections/update.md)
+            + [Eliminar una colección](using/offers/api-reference/offers-api/collections/delete.md)
          + Ofertas de reserva {#fallback-offers}
-            + [Enumeración de ofertas de reserva](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
-            + [Búsqueda de una oferta de reserva](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
-            + [Creación de una oferta de reserva](using/offers/api-reference/offers-api/fallback-offers/create.md)
-            + [Actualización de una oferta de reserva](using/offers/api-reference/offers-api/fallback-offers/update.md)
-            + [Eliminación de una oferta de reserva](using/offers/api-reference/offers-api/fallback-offers/delete.md)
-      + Creación y administración de actividades mediante API {#activities-api}
-         + [Enumeración de decisiones](using/offers/api-reference/activities-api/activities/activities-list.md)
-         + [Búsqueda de una decisión](using/offers/api-reference/activities-api/activities/lookup.md)
-         + [Creación de una decisión](using/offers/api-reference/activities-api/activities/create.md)
-         + [Actualización de una decisión](using/offers/api-reference/activities-api/activities/update.md)
-         + [Eliminación de una decisión](using/offers/api-reference/activities-api/activities/delete.md)
+            + [Enumerar ofertas de reserva](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
+            + [Buscar una oferta de reserva](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
+            + [Crear una oferta de reserva](using/offers/api-reference/offers-api/fallback-offers/create.md)
+            + [Actualizar una oferta de reserva](using/offers/api-reference/offers-api/fallback-offers/update.md)
+            + [Eliminar una oferta de reserva](using/offers/api-reference/offers-api/fallback-offers/delete.md)
+      + Crear y administrar decisiones mediante API {#activities-api}
+         + [Enumerar decisiones](using/offers/api-reference/activities-api/activities/activities-list.md)
+         + [Buscar una decisión](using/offers/api-reference/activities-api/activities/lookup.md)
+         + [Crear una decisión](using/offers/api-reference/activities-api/activities/create.md)
+         + [Actualizar una decisión](using/offers/api-reference/activities-api/activities/update.md)
+         + [Eliminar una decisión](using/offers/api-reference/activities-api/activities/delete.md)
       + Entrega de ofertas mediante API {#offer-delivery}
          + [API de decisiones](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [SDK web de Adobe Experience Platform](using/offers/api-reference/web-sdk.md)
