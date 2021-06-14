@@ -1,9 +1,13 @@
 ---
 title: Interfaz de usuario
 description: Obtenga más información acerca de la interfaz de usuario de la biblioteca de ofertas.
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '449'
+feature: Ofertas
+topic: Integraciones
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '451'
 ht-degree: 100%
 
 ---
