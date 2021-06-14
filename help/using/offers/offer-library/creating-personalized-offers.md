@@ -1,15 +1,18 @@
 ---
-title: Creación de ofertas personalizadas
+title: Crear ofertas personalizadas
 description: Aprenda a crear ofertas personalizadas en Adobe Experience Platform.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Ofertas
+topic: Integraciones
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '916'
 ht-degree: 4%
 
 ---
 
-# Creación de ofertas personalizadas {#creating-personalized-offers}
+# Crear ofertas personalizadas {#creating-personalized-offers}
 
 Antes de crear una oferta, asegúrese de que ha creado:
 
@@ -39,7 +42,7 @@ Para crear una **oferta**, siga estos pasos:
    >
    >La sección **[!UICONTROL Offer attributes]** permite asociar pares de valor clave con la oferta para fines de informes y análisis.
 
-## Configurar las representaciones de la oferta {#representations}
+## Configuración de las representaciones de la oferta {#representations}
 
 1. Añada una o varias representaciones para la oferta con el botón **[!UICONTROL Add representation]** .
 
@@ -113,7 +116,7 @@ Las reglas y restricciones de idoneidad le permiten definir las condiciones en l
    * La oferta se tendrá en cuenta para los usuarios que coincidan únicamente con la regla de decisión &quot;Clientes de Lealtad Dorada&quot;.
    * La oferta se presenta solo una vez por usuario.
 
-## Revise la oferta {#review}
+## Revisar la oferta {#review}
 
 Una vez definidas las reglas y restricciones de idoneidad, se muestra un resumen de las propiedades de la oferta. Si todo está configurado correctamente y la oferta está lista para presentarse a los usuarios, haga clic en **[!UICONTROL Finish]** y seleccione **[!UICONTROL Save and approve]**.
 
