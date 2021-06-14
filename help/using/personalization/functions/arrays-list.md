@@ -1,9 +1,13 @@
 ---
-title: Biblioteca de funciones
-description: Biblioteca de funciones
-source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
+title: Biblioteca de funciones de matrices
+description: Biblioteca de funciones de matrices
+feature: Personalización
+topic: Personalización
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '497'
 ht-degree: 5%
 
 ---
