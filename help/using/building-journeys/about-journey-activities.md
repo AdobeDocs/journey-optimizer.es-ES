@@ -1,11 +1,14 @@
 ---
 title: Acerca de las actividades de recorrido
 description: Obtenga información sobre las actividades de recorrido
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Recorridos
+topic: Administración de contenido
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 25%
+source-wordcount: '265'
+ht-degree: 31%
 
 ---
 
@@ -36,7 +39,7 @@ En la paleta, en la parte izquierda de la pantalla, están disponibles las sigui
 * [Condición](../building-journeys/condition-activity.md)
 * [Fin](../building-journeys/end-activity.md)
 * [Espera](../building-journeys/wait-activity.md)
-* [Leer segmento](../building-journeys/read-segment.md)
+* [Lectura de segmento](../building-journeys/read-segment.md)
 
 ![](../assets/journey49.png)
 
@@ -46,7 +49,7 @@ Desde la paleta, en el lado izquierdo de la pantalla, debajo de **[!UICONTROL Ev
 
 * [Mensaje](../building-journeys/journeys-message.md)
 * [Acciones personalizadas](../building-journeys/using-custom-actions.md)
-* [Jump](../building-journeys/jump.md)
+* [Salto](../building-journeys/jump.md)
 
 ![](../assets/journey58.png)
 
