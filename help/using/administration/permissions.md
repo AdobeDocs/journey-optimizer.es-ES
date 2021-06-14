@@ -12,10 +12,14 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
-source-git-commit: 24e5588fc0d0a32513c0e77ce9082be697ccad3f
+feature: Grupos de control
+topic: Administración
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 13%
+source-wordcount: '730'
+ht-degree: 17%
 
 ---
 
@@ -61,7 +65,7 @@ Para asignar un **[!UICONTROL Product profile]**:
 
 1. Siga los mismos pasos que se describen arriba para agregar otros usuarios a su **[!UICONTROL Product profile]**. A continuación, haga clic en **[!UICONTROL Save]**.
 
-El usuario debe recibir un correo electrónico que le redirija a su instancia .
+El usuario debería recibir entonces un correo electrónico que le redirija a su instancia.
 
 Para obtener más información sobre la administración de usuarios, consulte la [documentación del Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
 
@@ -109,7 +113,7 @@ Si es necesario, también puede crear un nuevo perfil de producto con permisos e
 
 [!DNL Journey Optimizer] le permite crear sus propios  **[!UICONTROL Product profiles]** y asignar un conjunto de permisos y entornos limitados a los usuarios. Con **[!UICONTROL Product profiles]**, puede autorizar o denegar el acceso a determinadas funcionalidades u objetos de la interfaz.
 
-Para obtener más información sobre cómo crear y administrar entornos limitados, consulte la documentación de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
+Para obtener más información sobre cómo crear y administrar entornos limitados, consulte la documentación de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es).
 
 En este ejemplo, crearemos un perfil de producto denominado **Recorrido de solo lectura** donde concederemos derechos de solo lectura a la función de Recorrido. Los usuarios solo podrán acceder y ver recorridos y no podrán acceder a otras funciones como **[!UICONTROL Decision management]** o **[!UICONTROL Messages]** en [!DNL Journey Optimizer].
 
@@ -149,7 +153,7 @@ Para crear nuestros **Recorridos de solo lectura** **[!UICONTROL product profile
 
    ![](../assets/access_control_13.png)
 
-1. En **[!UICONTROL Available Permissions Items]**, haga clic en el icono de signo más (+) para asignar entornos limitados al perfil. [Obtenga más información sobre los entornos limitados](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
+1. En **[!UICONTROL Available Permissions Items]**, haga clic en el icono de signo más (+) para asignar entornos limitados al perfil. [Obtenga más información sobre los entornos limitados](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es).
 
 1. Cuando termine, haga clic en **[!UICONTROL Save]**.
 
