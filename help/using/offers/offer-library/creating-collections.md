@@ -1,15 +1,18 @@
 ---
-title: Creación de colecciones
+title: Crear colecciones
 description: Aprenda a organizar ofertas mediante colecciones.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Ofertas
+topic: Integraciones
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 3%
+source-wordcount: '293'
+ht-degree: 4%
 
 ---
 
-# Creación de colecciones {#creating-collections}
+# Crear colecciones {#creating-collections}
 
 Las colecciones permiten organizar las ofertas reagrupándolas en categorías de su elección. Por ejemplo, puede crear una colección &quot;deportiva&quot; que contenga únicamente ofertas relacionadas con el deporte.
 
