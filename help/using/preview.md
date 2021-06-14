@@ -1,9 +1,13 @@
 ---
 title: Vista previa de mensajes y envío de pruebas
 description: Obtenga información sobre cómo previsualizar y probar los mensajes
-source-git-commit: 2ac0ae0044824beb6e455f5377bc2da4694779be
+feature: Recorridos
+topic: Administración de contenido
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
