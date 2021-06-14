@@ -1,15 +1,18 @@
 ---
 title: Importar o codificar correos electrónicos
 description: Obtenga información sobre cómo importar contenido de correo electrónico o codificar sus correos electrónicos
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Información general
+topic: Administración de contenido
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 6%
+source-wordcount: '340'
+ht-degree: 10%
 
 ---
 
-# Importe o codifique el contenido del correo electrónico {#existing-content}
+# Importación o codificación del contenido del correo electrónico {#existing-content}
 
 ![](assets/do-not-localize/badge.png)
 
@@ -17,7 +20,7 @@ Journey Optimizer le permite importar contenido HTML existente para diseñar sus
 
 Para codificar contenido HTML o importar contenido existente, siga los pasos a continuación:
 
-1. [Crear un mensaje](create-message.md)
+1. [Creación de un mensaje ](create-message.md)
 
 1. Abra **[!UICONTROL Email Designer]** en la sección **[!UICONTROL Edit Content]**.
 
