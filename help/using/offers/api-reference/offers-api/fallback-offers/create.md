@@ -1,11 +1,14 @@
 ---
 title: Crear una oferta de reserva
 description: Se envía una oferta de reserva a los clientes si no cumplen los requisitos para otras ofertas
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+feature: Ofertas
+topic: Integraciones
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 11%
+source-wordcount: '141'
+ht-degree: 12%
 
 ---
 
