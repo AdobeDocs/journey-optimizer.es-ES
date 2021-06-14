@@ -1,11 +1,14 @@
 ---
 title: Crear decisiones
 description: Aprenda a crear decisiones
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Ofertas
+topic: Integraciones
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 3%
+source-wordcount: '576'
+ht-degree: 4%
 
 ---
 
@@ -74,7 +77,7 @@ Seleccione la oferta de reserva que se presentará como último recurso a los cl
 
 ![](../../assets/add-fallback-offer.png)
 
-## Revise y guarde la decisión {#review}
+## Revisar y guardar la decisión {#review}
 
 Si todo está configurado correctamente y su decisión está lista para utilizarse para presentar ofertas a los clientes, haga clic en **[!UICONTROL Finish]** y seleccione **[!UICONTROL Save and activate]**.
 
