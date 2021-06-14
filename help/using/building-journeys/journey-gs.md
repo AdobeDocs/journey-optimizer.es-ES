@@ -1,14 +1,18 @@
 ---
-title: Introducción a recorrido
-description: Introducción a recorrido
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+title: Introducción a los recorridos
+description: Introducción a los recorridos
+feature: Recorridos
+topic: Administración de contenido
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 9%
+source-wordcount: '1468'
+ht-degree: 10%
 
 ---
 
-# Introducción a recorrido{#jo-quick-start}
+# Introducción a los recorridos{#jo-quick-start}
 
 ![](../assets/do-not-localize/badge.png)
 
