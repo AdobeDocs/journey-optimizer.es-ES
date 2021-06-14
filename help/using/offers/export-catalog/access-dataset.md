@@ -1,15 +1,18 @@
 ---
-title: Acceso al catálogo de ofertas exportado
+title: Acceder al catálogo de ofertas exportado
 description: Obtenga información sobre cómo acceder al catálogo de ofertas en Adobe Experience Platform una vez exportado.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Ofertas
+topic: Integraciones
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 9%
+source-wordcount: '112'
+ht-degree: 10%
 
 ---
 
-# Acceso al catálogo de ofertas exportado {#access-exported-catalog}
+# Acceder al catálogo de ofertas exportado {#access-exported-catalog}
 
 Se puede acceder al catálogo de ofertas exportado desde el menú Adobe Experience Platform **[!UICONTROL Datasets]** . Se crea un conjunto de datos para cada objeto de la biblioteca de ofertas.
 
