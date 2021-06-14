@@ -1,14 +1,18 @@
 ---
-title: Configurar un evento empresarial
+title: Configuración de un evento empresarial
 description: Aprenda a crear un evento empresarial
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+feature: Eventos
+topic: Administración
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 14%
+source-wordcount: '819'
+ht-degree: 15%
 
 ---
 
-# Configurar un evento empresarial {#configure-a-business-event}
+# Configuración de un evento empresarial {#configure-a-business-event}
 
 ![](../assets/do-not-localize/badge.png)
 
