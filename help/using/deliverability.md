@@ -1,10 +1,14 @@
 ---
 title: Supervisión de la ejecución de los mensajes
 description: Conozca las directrices de monitorización y envío
-source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
+feature: Capacidad de entrega
+topic: Administración de contenido
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 28%
+source-wordcount: '556'
+ht-degree: 29%
 
 ---
 
