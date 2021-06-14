@@ -1,9 +1,13 @@
 ---
 title: Administración de la exclusión
 description: Obtenga información sobre cómo administrar la exclusión y la privacidad
-source-git-commit: 738d72e8f3ba204219086f19252220ff833369cb
+feature: Recorridos
+topic: Administración de contenido
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '605'
 ht-degree: 100%
 
 ---
