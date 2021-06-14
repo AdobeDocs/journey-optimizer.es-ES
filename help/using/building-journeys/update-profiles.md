@@ -1,9 +1,13 @@
 ---
 title: Actualización de perfil
 description: Aprenda a utilizar la actividad Actualizar perfil en un recorrido
-source-git-commit: ce9484905b359900096858e46c05aef09efaa760
+feature: Recorridos
+topic: Administración de contenido
+role: User
+level: Intermediate
+source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '463'
 ht-degree: 1%
 
 ---
