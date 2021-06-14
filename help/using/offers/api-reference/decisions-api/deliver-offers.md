@@ -1,9 +1,13 @@
 ---
 title: Entregar ofertas
 description: La administración de decisiones es una colección de servicios y programas de interfaz de usuario que permiten a los especialistas en marketing crear y ofrecer experiencias de oferta personalizadas para el usuario final en canales y aplicaciones mediante lógica empresarial y reglas de decisión.
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: Ofertas
+topic: Integraciones
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '947'
 ht-degree: 2%
 
 ---
