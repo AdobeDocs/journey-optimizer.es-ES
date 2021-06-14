@@ -1,10 +1,14 @@
 ---
-title: Primeros pasos
+title: Introducción
 description: Obtenga información sobre cómo empezar a utilizar la API de biblioteca de ofertas para realizar operaciones clave mediante el motor de gestión de decisiones.
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: Ofertas
+topic: Integraciones
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 4%
+source-wordcount: '601'
+ht-degree: 6%
 
 ---
 
@@ -45,7 +49,7 @@ Un contenedor es un mecanismo de aislamiento para mantener diferentes preocupaci
 
 Un administrador puede agrupar en perfiles entidades principales, recursos y permisos de acceso similares. Esto reduce la carga de administración y es compatible con [Adobe Admin Console](https://adminconsole.adobe.com/). Debe ser administrador de productos de Adobe Experience Platform en su organización para crear perfiles y asignarles usuarios. Es suficiente crear perfiles de producto que coincidan con determinados permisos en un solo paso y, a continuación, añadir usuarios a dichos perfiles. Los perfiles actúan como grupos a los que se han concedido permisos y todos los usuarios reales o técnicos de ese grupo heredan esos permisos.
 
-Dados privilegios de administrador, puede conceder o retirar permisos a los usuarios a través de [Adobe Admin Console](https://adminconsole.adobe.com/). Para obtener más información, consulte la [Información general del control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html).
+Dados privilegios de administrador, puede conceder o retirar permisos a los usuarios a través de [Adobe Admin Console](https://adminconsole.adobe.com/). Para obtener más información, consulte la [Información general del control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=es).
 
 ### Contenedores de lista accesibles para usuarios e integraciones
 
