@@ -1,9 +1,13 @@
 ---
 title: Introducción a la exportación del catálogo de ofertas
 description: Esta sección enumera todos los campos utilizados en el conjunto de datos exportado para tomar decisiones.
-source-git-commit: 95be47fbf6944f7e6a743056b6cc29b45ae291fe
+feature: Ofertas
+topic: Integraciones
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1552'
 ht-degree: 3%
 
 ---
