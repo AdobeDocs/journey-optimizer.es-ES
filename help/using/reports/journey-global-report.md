@@ -1,10 +1,14 @@
 ---
 title: Informe global de recorrido
 description: Aprenda a utilizar los datos del informe global de recorrido
-source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
+feature: Informes
+topic: Administración de contenido
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 0%
+source-wordcount: '936'
+ht-degree: 1%
 
 ---
 
