@@ -1,10 +1,14 @@
 ---
 title: Sintaxis de personalización
 description: Aprenda a utilizar la sintaxis de personalización
-source-git-commit: 5b7f3f58e7376b45993b6a2edc6e96f824fa2f44
+feature: Personalización
+topic: Personalización
+role: Data Engineer
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 4%
+source-wordcount: '561'
+ht-degree: 5%
 
 ---
 
@@ -65,7 +69,7 @@ Los atributos deben definirse en el esquema antes de hacer referencia a ellos en
 {{profile.faxPhone.number}}
 ```
 
-## Segmentos {#perso-segments}
+## Segmentos{#perso-segments}
 
 Aprenda a aprovechar los atributos de perfil en condiciones de [esta sección](functions/helpers.md#if-function).
 
