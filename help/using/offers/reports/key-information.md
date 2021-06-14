@@ -1,11 +1,14 @@
 ---
-title: Información clave sobre eventos de gestión de decisiones
+title: Información clave sobre eventos de Administración de decisiones
 description: Obtenga más información sobre la información clave enviada con cada evento de Administración de decisiones.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Ofertas
+topic: Integraciones
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 75%
+source-wordcount: '135'
+ht-degree: 91%
 
 ---
 
