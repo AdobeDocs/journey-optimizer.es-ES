@@ -1,11 +1,14 @@
 ---
 title: SDK web de Adobe Experience Platform
 description: El SDK web de Adobe Experience Platform le permite recuperar y procesar ofertas personalizadas que haya creado mediante API o la Biblioteca de ofertas.
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+feature: Ofertas
+topic: Integraciones
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 5%
+source-wordcount: '173'
+ht-degree: 6%
 
 ---
 
