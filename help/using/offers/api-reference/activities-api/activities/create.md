@@ -1,11 +1,14 @@
 ---
 title: Crear decisiones
 description: Una decisión contiene la lógica que indica la selección de una oferta.
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+feature: Ofertas
+topic: Integraciones
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 6%
+source-wordcount: '121'
+ht-degree: 12%
 
 ---
 
