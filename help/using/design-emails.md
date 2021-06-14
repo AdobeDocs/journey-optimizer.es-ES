@@ -1,11 +1,14 @@
 ---
-title: Diseñar correos electrónicos
+title: Diseño de correos electrónicos
 description: Aprenda a diseñar sus correos electrónicos
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Información general
+topic: Administración de contenido
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 0%
+source-wordcount: '138'
+ht-degree: 7%
 
 ---
 
