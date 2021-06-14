@@ -1,10 +1,14 @@
 ---
 title: Monitorización de la ejecución de mensajes
 description: Conozca las directrices de monitorización
-source-git-commit: 3f02a5debbc870915175d2802eb30ff567a3c159
+feature: Monitoreo
+topic: Administración de contenido
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 0%
+source-wordcount: '499'
+ht-degree: 1%
 
 ---
 
