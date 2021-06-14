@@ -1,14 +1,18 @@
 ---
 title: Informe global de correo electrónico
 description: Aprenda a utilizar los datos del informe global de correo electrónico
-source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
+feature: Informes
+topic: Administración de contenido
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 0%
+source-wordcount: '449'
+ht-degree: 2%
 
 ---
 
-# Enviar un informe global por correo electrónico {#email-global-report}
+# Informe global de correo electrónico {#email-global-report}
 
 ![](../assets/do-not-localize/badge.png)
 
