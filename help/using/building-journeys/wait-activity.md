@@ -1,10 +1,14 @@
 ---
 title: Actividad de espera
 description: Descubra la actividad de espera
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: Recorridos
+topic: Administración de contenido
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 5%
+source-wordcount: '404'
+ht-degree: 8%
 
 ---
 
@@ -48,7 +52,7 @@ Seleccione la fecha para la ejecución de la siguiente actividad.
 
 ## Espera personalizada{#custom}
 
-Esta opción permite definir una fecha personalizada, por ejemplo, 12 de julio de 2020 a las 17:00, mediante una expresión avanzada basada en un campo procedente de un evento o una fuente de datos. No permite definir una duración personalizada, por ejemplo, 7 días. La expresión en el editor de expresiones debe proporcionar un formato dateTimeOnly . Consulte [esta página](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html). Para obtener más información sobre el formato dateTimeOnly, consulte [esta página](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html).
+Esta opción permite definir una fecha personalizada, por ejemplo, 12 de julio de 2020 a las 17:00, mediante una expresión avanzada basada en un campo procedente de un evento o una fuente de datos. No permite definir una duración personalizada, por ejemplo, 7 días. La expresión en el editor de expresiones debe proporcionar un formato dateTimeOnly . Consulte [esta página](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=es). Para obtener más información sobre el formato dateTimeOnly, consulte [esta página](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html).
 
 >[!NOTE]
 >
