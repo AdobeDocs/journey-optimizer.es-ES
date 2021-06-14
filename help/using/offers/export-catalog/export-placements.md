@@ -1,14 +1,18 @@
 ---
 title: Conjunto de datos de ubicaciones
 description: Esta sección enumera todos los campos utilizados en el conjunto de datos exportado para las ubicaciones.
-source-git-commit: cd44676a7a0f60ce3e97652ec6459f708557e14c
+feature: Ofertas
+topic: Integraciones
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 4%
+source-wordcount: '367'
+ht-degree: 5%
 
 ---
 
-# Conjunto de datos de colocaciones {#placements-dataset}
+# Conjunto de datos de ubicaciones {#placements-dataset}
 
 Cada vez que se modifica una oferta, se actualiza el conjunto de datos generado automáticamente para las ubicaciones.
 
