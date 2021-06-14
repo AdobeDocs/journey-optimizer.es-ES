@@ -1,15 +1,18 @@
 ---
-title: Añadir ofertas personalizadas
+title: Adición de ofertas personalizadas
 description: Aprenda a añadir ofertas personalizadas a los mensajes
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Recorridos
+topic: Administración de contenido
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 0%
+source-wordcount: '265'
+ht-degree: 4%
 
 ---
 
-# Añadir ofertas personalizadas {#deliver-personalized-offers}
+# Adición de ofertas personalizadas {#deliver-personalized-offers}
 
 ![](assets/do-not-localize/badge.png)
 
