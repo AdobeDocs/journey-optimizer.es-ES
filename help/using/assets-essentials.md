@@ -1,10 +1,14 @@
 ---
 title: Adobe Experience Manager Assets Essentials
 description: Introducción a Assets Essentials
-source-git-commit: ba350f4d482238b733594a71441e2d01e536e282
+feature: Información general
+topic: Administración de contenido
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 3%
+source-wordcount: '382'
+ht-degree: 5%
 
 ---
 
@@ -48,7 +52,7 @@ Para obtener más información sobre cómo cargar recursos, consulte [Documentac
 
    ![](assets/media_library_12.png)
 
-## Administrar recursos{#manage-asset}
+## Administración de recursos{#manage-asset}
 
 Puede administrar los recursos disponibles en [!DNL Adobe Experience Manager Assets Essentials]. Haga clic en el recurso para acceder a más opciones.
 
