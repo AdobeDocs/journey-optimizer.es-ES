@@ -1,10 +1,13 @@
 ---
 title: Diseño de correos electrónicos en Journey Optimizer
 description: Aprenda a diseñar el contenido de sus correos electrónicos
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Información general
+topic: Administración de contenido
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1485'
 ht-degree: 1%
 
 ---
@@ -114,7 +117,7 @@ Una línea azul materializa la ubicación exacta de los componentes de estructur
 
 Una vez definida la estructura, puede añadir fragmentos de contenido y componentes al correo electrónico.
 
-## Usar un encabezado previo {#preheader}
+## Uso de un encabezado previo {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
