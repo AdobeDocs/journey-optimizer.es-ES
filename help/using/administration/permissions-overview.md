@@ -12,10 +12,14 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: null
-source-git-commit: e954db290e69ce64a3900e4c52764858214ca439
+feature: Grupos de control
+topic: Administración
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 15%
+source-wordcount: '150'
+ht-degree: 21%
 
 ---
 
@@ -33,6 +37,6 @@ La administración de usuarios en [!DNL Journey Optimizer] se basa en tres conce
 
 * **[!UICONTROL Sandbox]**: Entornos limitados virtuales que dividen instancias en entornos virtuales independientes y aislados. Consulte [Uso de entornos limitados](sandboxes.md)
 
-Cada concepto puede ser administrado por **[!UICONTROL Product administrators]** que tienen acceso a Admin Console. [Obtenga más información sobre Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
+Cada concepto puede ser administrado por **[!UICONTROL Product administrators]** que tienen acceso a Admin Console. [Obtenga más información acerca de Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
 
 ![](../assets/do-not-localize/permissions_2.png)
