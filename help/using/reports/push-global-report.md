@@ -1,15 +1,18 @@
 ---
 title: Informe global de notificaciones push
 description: Aprenda a utilizar los datos del informe global de notificaciones push
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Informes
+topic: Administración de contenido
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 0%
+source-wordcount: '77'
+ht-degree: 7%
 
 ---
 
-# Insertar informe global {#push-global-report}
+# Informe global push {#push-global-report}
 
 ![](../assets/do-not-localize/badge.png)
 
