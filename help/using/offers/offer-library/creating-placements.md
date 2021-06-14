@@ -1,15 +1,18 @@
 ---
-title: Creación de ubicaciones
+title: Crear ubicaciones
 description: Obtenga información sobre cómo crear ubicaciones en Adobe Experience Platform.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Ofertas
+topic: Integraciones
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '217'
 ht-degree: 17%
 
 ---
 
-# Creación de ubicaciones {#creating-placements}
+# Crear ubicaciones {#creating-placements}
 
 Una ubicación ayuda a garantizar que el contenido de oferta correcto se muestre en la ubicación correcta dentro del mensaje. Al agregar contenido a una oferta, se le pedirá que seleccione una ubicación en la que se pueda mostrar dicho contenido.
 
