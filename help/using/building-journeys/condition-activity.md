@@ -1,11 +1,14 @@
 ---
 title: Actividad de condición
 description: Obtenga información sobre la actividad de condición
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Recorridos
+topic: Administración de contenido
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 8%
+source-wordcount: '894'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +25,7 @@ Hay cuatro tipos de condiciones disponibles:
 
 ![](../assets/journey49.png)
 
-## Acerca de la actividad Condición {#about_condition}
+## Acerca de la actividad Condition {#about_condition}
 
 Cuando se utilizan varias condiciones en un recorrido, se pueden definir etiquetas para cada una de ellas a fin de identificarlas con mayor facilidad.
 
@@ -50,7 +53,7 @@ Si utiliza el [Servicio de segmentación de Adobe Experience Platform](https://e
 
 >[!NOTE]
 >
->No puede realizar consultas en series temporales (por ejemplo, una lista de compras o clics anteriores en mensajes) con el editor simple. Para ello, debe utilizar el editor avanzado. Consulte [esta página](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html).
+>No puede realizar consultas en series temporales (por ejemplo, una lista de compras o clics anteriores en mensajes) con el editor simple. Para ello, debe utilizar el editor avanzado. Consulte [esta página](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=es).
 
 Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera para continuar es marcar la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
 
