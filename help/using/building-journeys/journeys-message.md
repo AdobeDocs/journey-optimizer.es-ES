@@ -1,10 +1,14 @@
 ---
 title: Añadir un mensaje en un recorrido
 description: Añadir un mensaje en un recorrido
-source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
+feature: Recorridos
+topic: Administración de contenido
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 4%
+source-wordcount: '263'
+ht-degree: 5%
 
 ---
 
