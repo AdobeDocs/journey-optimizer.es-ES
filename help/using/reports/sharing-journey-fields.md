@@ -1,15 +1,18 @@
 ---
 title: campos del recorrido
 description: campos del recorrido
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Informes
+topic: Administración de contenido
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 22%
+source-wordcount: '70'
+ht-degree: 28%
 
 ---
 
-# Campos de recorrido {#sharing-journey-fields}
+# Campos del recorrido {#sharing-journey-fields}
 
 ![](../assets/do-not-localize/badge.png)
 
