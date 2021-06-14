@@ -1,9 +1,13 @@
 ---
 title: Creación de un perfil de prueba
 description: Obtenga información sobre cómo crear un perfil de prueba
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+feature: Recorridos
+topic: Administración de contenido
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '949'
 ht-degree: 2%
 
 ---
