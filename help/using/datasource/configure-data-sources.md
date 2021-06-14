@@ -1,15 +1,18 @@
 ---
 title: Configuración de una fuente de datos
 description: Obtenga información sobre cómo configurar una fuente de datos
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Fuentes de datos
+topic: Administración
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 7%
+source-wordcount: '684'
+ht-degree: 8%
 
 ---
 
-# Configurar una fuente de datos {#configure-data-source}
+# Configuración de una fuente de datos {#configure-data-source}
 
 ![](../assets/do-not-localize/badge.png)
 
