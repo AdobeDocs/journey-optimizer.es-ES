@@ -1,10 +1,14 @@
 ---
 title: Creación de fórmulas de clasificación
 description: Aprenda a crear fórmulas de clasificación en Adobe Experience Platform.
-source-git-commit: ea8a3644ecef911a14ea087b03d367976f0c898d
+feature: Ofertas
+topic: Integraciones
+role: User
+level: Intermediate
+source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 2%
+source-wordcount: '241'
+ht-degree: 3%
 
 ---
 
