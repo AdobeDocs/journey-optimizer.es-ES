@@ -1,11 +1,14 @@
 ---
 title: Introducción a los eventos de Administración de decisiones
 description: Obtenga información sobre cómo crear informes de Administración de decisiones en Adobe Experience Platform.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Ofertas
+topic: Integraciones
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 47%
+source-wordcount: '174'
+ht-degree: 58%
 
 ---
 
@@ -27,5 +30,5 @@ Estos conjuntos de datos se basan en el esquema **[!UICONTROL ODE DecisionEvents
 
 **Temas relacionados:**
 
-* [Información clave sobre eventos de gestión de decisiones](../reports/key-information.md)
+* [Información clave sobre eventos de Administración de decisiones](../reports/key-information.md)
 * [Campos XDM de eventos de acceso](../reports/xdm-fields.md)
