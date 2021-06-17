@@ -5,16 +5,14 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: da31b4faf476d090a3a45b8c14701c4addd1a02a
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1414'
 ht-degree: 2%
 
 ---
 
 # Diseño de un recorrido
-
-![](../assets/do-not-localize/badge.png)
 
 La interfaz de recorrido permite arrastrar y soltar fácilmente actividades de la paleta en el lienzo. También puede hacer doble clic en una actividad para agregarla al lienzo en el siguiente paso disponible. Cada actividad tiene una función y un lugar específicos en el proceso. Las actividades se secuencian. Cuando finaliza una actividad, el flujo continúa y procesa la siguiente actividad, etc.
 
@@ -40,7 +38,7 @@ El **lienzo** es la zona central del diseñador de recorridos. Es en esta zona d
 
 El **panel de configuración de actividad** aparece al hacer clic en una actividad de la paleta. Rellene los campos obligatorios. Haga clic en el icono **[!UICONTROL Delete]** para eliminar la actividad. Haga clic en **[!UICONTROL Cancel]** para cancelar las modificaciones o en **[!UICONTROL Ok]** para confirmar. Para eliminar actividades, también puede seleccionar una actividad (o varias) y pulsar la tecla de retroceso. Si pulsa la tecla escape, se cerrará el panel de configuración de la actividad.
 
-De forma predeterminada, los campos de solo lectura están ocultos. Para mostrarlos, haga clic en el icono **Show read-only fields** en la parte superior izquierda del panel de configuración de la actividad.
+De forma predeterminada, los campos de solo lectura están ocultos. Para mostrar campos de solo lectura, haga clic en el icono **Mostrar campos de solo lectura** en la parte superior izquierda del panel de configuración de actividad. Esta configuración se aplica a todas las actividades de todos los recorridos.
 
 ![](../assets/journey59bis.png)
 
@@ -58,7 +56,7 @@ Al diseñar el recorrido, la primera pregunta que desea hacer es cómo entrarán
 
 ## Defina los pasos siguientes
 
-Después del primer evento o segmento de lectura, puede combinar las diferentes actividades para crear sus escenarios de canales cruzados de varios pasos. Elija, en la paleta, los pasos que necesite.
+Después del primer evento o del segmento de lectura, puede combinar las diferentes actividades para crear sus escenarios de canales cruzados de varios pasos. Elija, en la paleta, los pasos que necesite.
 
 **Eventos**
 
@@ -68,11 +66,11 @@ Puede agregar **varios eventos** en el recorrido, siempre que utilicen el mismo 
 
 También puede agregar un evento **Reaction** después de un mensaje para reaccionar ante los datos de seguimiento relacionados con el mensaje. Esto le permite, por ejemplo, enviar otro mensaje si el individuo ha abierto el mensaje anterior o ha hecho clic en él. Obtenga más información en esta [sección](reaction-events.md).
 
-La actividad de evento **Segment qualification** permite hacer que las personas entren o avancen en un recorrido en función de las entradas y salidas de segmentos de Adobe Experience Platform. Puede hacer que todos los clientes nuevos de plata introduzcan un recorrido y envíen mensajes personalizados. Obtenga más información en esta [sección](segment-qualification-events.md).
+La actividad de evento **Segment Qualification** permite hacer que las personas entren o avancen en un recorrido en función de las entradas y salidas de segmentos de Adobe Experience Platform. Puede hacer que todos los clientes nuevos de plata introduzcan un recorrido y envíen mensajes personalizados. Obtenga más información en esta [sección](segment-qualification-events.md).
 
 **Organización**
 
-En las actividades de organización, encontrará la actividad **Read segment** que le permite configurar el recorrido para que escuche un segmento de Adobe Experience Platform. [Obtenga más información sobre la actividad](read-segment.md) Leer segmento .
+En las actividades de organización, encontrará la actividad **Read Segment** que le permite configurar el recorrido para que escuche un segmento de Adobe Experience Platform. [Obtenga más información sobre la actividad](read-segment.md) Leer segmento .
 
 Las otras actividades permiten agregar condiciones al recorrido para definir varias rutas, establecer un tiempo de espera antes de ejecutar la siguiente actividad o finalizar el recorrido. Obtenga más información en esta [sección](about-journey-activities.md#orchestration-activities).
 
@@ -92,7 +90,7 @@ Varias actividades (evento, acción, espera) le permiten agregar varias rutas de
 
 Al escuchar un evento, se recomienda no esperar el evento indefinidamente. No es obligatorio, solo es una práctica recomendada. Si desea escuchar uno o varios eventos solo durante un tiempo determinado, colocará uno o varios eventos y una actividad de espera en paralelo. Consulte [esta sección](../building-journeys/general-events.md#events-specific-time).
 
-Para eliminar la ruta, coloque el cursor sobre ella y haga clic en el icono **[!UICONTROL Delete arrow]**.
+Para eliminar la ruta, coloque el cursor sobre ella y haga clic en el icono **[!UICONTROL Delete path]**.
 
 ![](../assets/journey42ter.png)
 
