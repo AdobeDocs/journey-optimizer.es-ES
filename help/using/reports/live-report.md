@@ -5,21 +5,19 @@ feature: Informes
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '227'
 ht-degree: 2%
 
 ---
 
-# Informe activo {#live-report}
+# Introducción a Live Report {#live-report}
 
-![](../assets/do-not-localize/badge.png)
+Utilice **[!UICONTROL Live report]** para medir y visualizar en tiempo real el impacto y el rendimiento de sus recorridos y mensajes en un panel integrado.
+Los datos están disponibles en **[!UICONTROL Live report]** en cuanto se realiza el envío o se ejecuta el recorrido.
 
-El **[!UICONTROL Live report]** le permite medir y visualizar en tiempo real la eficacia de sus recorridos y el rendimiento de sus mensajes con un panel integrado.
-Los datos de sus envíos estarán disponibles en **[!UICONTROL Live report]** en cuanto se ejecute su envío o recorrido.
-
-* Si desea dirigirse a un recorrido o envíos de un recorrido, en el menú **[!UICONTROL Journeys]**, acceda al recorrido y haga clic en el icono **[!UICONTROL Live report]**. A continuación, puede encontrar los informes de Recorrido, correo electrónico y push en directo.
+* Si desea dirigirse a un recorrido o envíos en el contexto de un recorrido, en el menú **[!UICONTROL Journeys]**, acceda al recorrido y haga clic en el icono **[!UICONTROL Live report]**. A continuación, puede encontrar los informes de Recorrido, correo electrónico y push en directo.
 
    ![](../assets/report_journey.png)
 
@@ -27,11 +25,11 @@ Los datos de sus envíos estarán disponibles en **[!UICONTROL Live report]** en
 
    ![](../assets/report_2.png)
 
-## Modificar tablero {#modify-dashboard}
+## Personalizar tablero {#modify-dashboard}
 
 Cada tablero de informes se puede modificar cambiando el tamaño o eliminando las utilidades. Cambiar las utilidades solo afecta al tablero del usuario actual. Otros usuarios verán sus propios tableros o los que estén configurados de forma predeterminada.
 
-1. En el informe activo, haga clic en **[!UICONTROL Modify dashboard]**.
+1. En el informe activo, haga clic en **[!UICONTROL Modify]**.
 
    ![](../assets/report_modify_1.png)
 
