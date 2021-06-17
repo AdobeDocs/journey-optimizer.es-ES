@@ -6,23 +6,21 @@ feature: Acciones
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '588'
 ht-degree: 9%
 
 ---
 
 # Configuración de una acción {#configure-an-action}
 
-![](../assets/do-not-localize/badge.png)
-
 Si utiliza un sistema de terceros para enviar mensajes o si desea que los recorridos envíen llamadas de API a un sistema de terceros, aquí es donde puede configurar su conexión a recorrido. La acción personalizada definida por los usuarios técnicos estará disponible en la paleta izquierda del recorrido, en la categoría **[!UICONTROL Action]** (consulte [esta página](../building-journeys/about-journey-activities.md#action-activities)). A continuación se muestran algunos ejemplos de sistemas a los que puede conectarse con acciones personalizadas: Epsilon, Facebook, Adobe.io, Firebase, etc.
 Las limitaciones se enumeran en [esta página](../building-journeys/limitations.md).
 
 Estos son los pasos principales necesarios para configurar una acción personalizada:
 
-1. En la lista **[!UICONTROL Actions]**, haga clic en **[!UICONTROL Add]** para crear una nueva acción. El panel de configuración de acciones se abre en el lado derecho de la pantalla.
+1. En la sección del menú ADMINISTRACIÓN, seleccione **[!UICONTROL Configurations]**. En la sección **[!UICONTROL Actions]**, haga clic en **[!UICONTROL Manage]**. Haga clic en **[!UICONTROL Create Action]** para crear una nueva acción. El panel de configuración de acciones se abre en el lado derecho de la pantalla.
 
    ![](../assets/custom2.png)
 
@@ -36,7 +34,7 @@ Estos son los pasos principales necesarios para configurar una acción personali
 1. El número de recorridos que utilizan esta acción se muestra en el campo **[!UICONTROL Used in]**. Puede hacer clic en el botón **[!UICONTROL View journeys]** para mostrar la lista de recorridos que utilizan esta acción.
 1. Defina los diferentes parámetros **[!UICONTROL URL Configuration]**. Consulte [esta página](../action/about-custom-action-configuration.md#url-configuration).
 1. Configure la sección **[!UICONTROL Authentication]** . Esta configuración es la misma que para las fuentes de datos.  Consulte [esta sección](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
-1. Defina el **[!UICONTROL Message parameters]**. Consulte [esta página](../action/about-custom-action-configuration.md#define-the-message-parameters).
+1. Defina el **[!UICONTROL Action parameters]**. Consulte [esta página](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Haga clic en **[!UICONTROL Save]**.
 
    La acción personalizada ahora está configurada y lista para utilizarse en sus recorridos. Consulte [esta página](../building-journeys/about-journey-activities.md#action-activities).
@@ -58,7 +56,7 @@ Al configurar una acción personalizada, debe definir los siguientes **[!UICONTR
    >Recomendamos encarecidamente utilizar HTTPS por motivos de seguridad. No permitimos el uso de direcciones de Adobe que no sean públicas ni de direcciones IP.
 
 1. Seleccione la llamada **[!UICONTROL Method]**: puede ser **[!UICONTROL POST]** o **[!UICONTROL PUT]**.
-1. En la sección **[!UICONTROL Headers]** , haga clic en **[!UICONTROL Add a header field]** para definir un nuevo par clave/valor. Corresponden a los encabezados HTTP de la solicitud realizada al servicio externo. Para eliminar pares de clave/valor, coloque el cursor en el campo **[!UICONTROL Headers]** y haga clic en el icono **[!UICONTROL Delete]**.
+1. En la sección **[!UICONTROL Headers]** , haga clic en **[!UICONTROL Add a header field]** para definir un nuevo par clave/valor. Corresponden a los encabezados HTTP de la solicitud realizada al servicio externo. Para eliminar pares de clave/valor, coloque el cursor en el campo del encabezado y haga clic en el icono **[!UICONTROL Delete]**.
 
    **[!UICONTROL Content-Type]** y  **[!UICONTROL Charset]** están configurados de forma predeterminada y no se pueden eliminar ni sobrescribir.
 
@@ -66,11 +64,11 @@ Al configurar una acción personalizada, debe definir los siguientes **[!UICONTR
    >
    >Los encabezados se validan según las siguientes [reglas de análisis](https://tools.ietf.org/html/rfc7230#section-3.2.4).
 
-## Defina los parámetros del mensaje {#define-the-message-parameters}
+## Defina los parámetros de acción {#define-the-message-parameters}
 
 ![](../assets/messageparameterssection.png)
 
-En la sección **[!UICONTROL Message parameters]** , pegue un ejemplo de la carga útil JSON para enviarla al servicio externo.
+En la sección **[!UICONTROL Action parameters]** , pegue un ejemplo de la carga útil JSON para enviarla al servicio externo.
 
 ![](../assets/customactionpayloadmessage.png)
 
