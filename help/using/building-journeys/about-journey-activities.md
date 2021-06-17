@@ -5,16 +5,14 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
 # Acerca de las actividades de recorrido {#about-journey-activities}
-
-![](../assets/do-not-localize/badge.png)
 
 Combine las distintas actividades de evento, orquestación y acción para crear sus escenarios de canal cruzado de varios pasos.
 
@@ -39,7 +37,7 @@ En la paleta, en la parte izquierda de la pantalla, están disponibles las sigui
 * [Condición](../building-journeys/condition-activity.md)
 * [Fin](../building-journeys/end-activity.md)
 * [Espera](../building-journeys/wait-activity.md)
-* [Lectura de segmento](../building-journeys/read-segment.md)
+* [Leer segmento](../building-journeys/read-segment.md)
 
 ![](../assets/journey49.png)
 
