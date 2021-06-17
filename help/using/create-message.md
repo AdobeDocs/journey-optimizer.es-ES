@@ -5,7 +5,7 @@ feature: Información general
 topic: Administración de contenido
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 5%
@@ -13,8 +13,6 @@ ht-degree: 5%
 ---
 
 # Creación de un mensaje {#create-message}
-
-![](assets/do-not-localize/badge.png)
 
 Los mensajes están disponibles en el acceso directo **[!UICONTROL Messages]** del panel de navegación izquierdo. Todos los mensajes se enumeran, ordenados por fecha de publicación (para mensajes publicados) o fecha de creación (para borradores de mensajes).
 
