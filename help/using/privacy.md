@@ -1,9 +1,9 @@
 ---
 title: Privacidad
 description: Descubra cómo administrar la privacidad
-source-git-commit: f73e7ae0a5da002786778065894fab0d6a7b154d
+source-git-commit: b7c3b0e683cb5ae173c2ab979e3558cd0dbf6ee9
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '720'
 ht-degree: 100%
 
 ---
@@ -11,9 +11,7 @@ ht-degree: 100%
 
 # Privacidad {#privacy}
 
-![](assets/do-not-localize/badge.png)
-
-Journey Optimizer es una potente herramienta para procesar grandes cantidades de datos, incluida información personal y datos sensibles.
+[!DNL Journey Optimizer] es una potente herramienta para procesar grandes cantidades de datos, incluida información personal y datos sensibles.
 
 * Los **datos personales** son información que puede identificar directa o indirectamente a un individuo.
 * Los **datos personales confidenciales** son información relacionada con la raza, las opiniones políticas, las creencias religiosas, los antecedentes penales, la información genética, los datos de salud, las preferencias sexuales, la información biométrica, y la afiliación a sindicatos.
