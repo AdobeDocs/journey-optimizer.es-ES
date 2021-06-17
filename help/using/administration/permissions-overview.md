@@ -16,7 +16,7 @@ feature: Grupos de control
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 21%
@@ -24,8 +24,6 @@ ht-degree: 21%
 ---
 
 # Información general sobre la administración de usuarios {#permissions-overview}
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] le permite definir y administrar los permisos asignados a distintos usuarios. Los permisos son un conjunto de derechos y restricciones que autorizan o deniegan el acceso a las funciones y capacidades del producto.
 
