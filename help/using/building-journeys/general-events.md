@@ -6,7 +6,7 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 285942ec51859a4cea888d9974f79f52acf3aabf
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
@@ -15,13 +15,11 @@ ht-degree: 2%
 
 # Eventos generales {#section_ofg_jss_dgb}
 
-![](../assets/do-not-localize/badge.png)
-
 Para este tipo de evento, solo puede añadir una etiqueta y una descripción. El resto de la configuración no se puede editar. Lo realizó el usuario técnico. Consulte [esta página](../event/about-events.md).
 
 ![](../assets/general-events.png)
 
-Cuando se coloca un evento empresarial, se agrega automáticamente una actividad **Read segment**. Para obtener más información sobre los eventos comerciales, consulte [esta sección](../event/about-events.md)
+Cuando se coloca un evento comercial, se agrega automáticamente una actividad **Leer segmento**. Para obtener más información sobre los eventos comerciales, consulte [esta sección](../event/about-events.md)
 
 ## Escucha de eventos durante una hora específica {#events-specific-time}
 
@@ -31,11 +29,11 @@ El recorrido escuchará el evento durante el tiempo especificado en el tiempo de
 
 Para configurar un tiempo de espera para un evento, siga estos pasos:
 
-1. Active la opción **[!UICONTROL Enable the event timeout]** en las propiedades de evento.
+1. Active la opción **[!UICONTROL Define the event timeout]** en las propiedades de evento.
 
 1. Especifique la cantidad de tiempo que el recorrido esperará al evento.
 
-1. Si desea enviar a las personas a una ruta de tiempo de espera cuando no se reciba ningún evento dentro del tiempo de espera especificado, habilite la opción **[!UICONTROL Set the timeout path]**. Si esta opción no está activada, el recorrido finalizará para el individuo una vez que se alcance el tiempo de espera.
+1. Si desea enviar a las personas a una ruta de tiempo de espera cuando no se reciba ningún evento dentro del tiempo de espera especificado, habilite la opción **[!UICONTROL Set a timeout path]**. Si esta opción no está activada, el recorrido finalizará para el individuo una vez que se alcance el tiempo de espera.
 
    ![](../assets/event-timeout.png)
 
