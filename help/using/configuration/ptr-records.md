@@ -15,7 +15,7 @@ feature: Configuración de la aplicación
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Con los registros PTR, los servidores de correo receptores pueden comprobar la a
 
 ## Acceda a los registros PTR de sus subdominios
 
-Una vez delegado un subdominio en Customer Journey Management, se crea automáticamente un registro PTR y se asocia a este subdominio. Puede acceder a él desde el menú **[!UICONTROL Channels]** / **[!UICONTROL PTR records]** .
+Una vez delegado un subdominio en Customer Journey Management, se crea automáticamente un registro PTR y se asocia a este subdominio. Puede acceder a él desde el menú **[!UICONTROL Channels]** `>` **[!UICONTROL PTR records]**.
 
 ![](../assets/ptr-records.png)
 
