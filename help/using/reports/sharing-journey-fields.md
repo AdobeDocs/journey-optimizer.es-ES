@@ -5,18 +5,16 @@ feature: Informes
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '71'
 ht-degree: 28%
 
 ---
 
 # Campos del recorrido {#sharing-journey-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-Esta mezcla se utiliza en el esquema de recorrido (en relación con journeyStepEvent). Contiene los siguientes campos:
+Este grupo de campos se utiliza en el esquema de recorrido (en relación con journeyStepEvent). Contiene los siguientes campos:
 
 ## journeyID
 
