@@ -5,9 +5,9 @@ feature: Información general
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 780f51295459ac7a400e0060c817b49a1f632bff
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '978'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 2%
 >title="Acerca de los componentes de contenido"
 >abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de un correo electrónico."
 
-![](assets/do-not-localize/badge.png)
 
 Al crear el contenido del correo electrónico desde cero, **[!UICONTROL Content components]** le permite personalizar aún más el correo electrónico con componentes sin procesar y vacíos que puede utilizar una vez colocados en un correo electrónico.
 Puede agregar tantos **[!UICONTROL Content components]** como necesite dentro de un **[!UICONTROL Structure component]** que define el diseño del correo electrónico.
@@ -104,8 +103,6 @@ Para hacer que un contenido externo sea compatible con el Diseñador de correo e
 
 1. Copie y pegue el código HTML que desee añadir al correo electrónico y haga clic en **[!UICONTROL Save]**.
 
-   ![](assets/email_designer_24.png)
-
 1. Ahora puede personalizar aún más el HTML cambiando **[!UICONTROL Style]**, **[!UICONTROL Margin]** y **[!UICONTROL Border]** por ejemplo o añadiendo un vínculo para redirigir la audiencia a otro contenido.
 
 ## Imagen {#image}
@@ -116,9 +113,9 @@ Utilice el componente **[!UICONTROL Image]** para insertar un archivo de imagen 
 
    ![](assets/email_designer_9.png)
 
-1. Haga clic en **[!UICONTROL Browse]** para elegir un archivo de imagen del equipo.
+1. Haga clic en **[!UICONTROL Browse]** para elegir un archivo de imagen de sus recursos.
 
-   También puede hacer clic en **[!UICONTROL Asset Picker]** para añadir un recurso al correo electrónico. Para obtener más información sobre Assets, consulte esta [sección](assets-essentials.md).
+   Para obtener más información sobre [!DNL Assets Essentials], consulte [Documentación de Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html).
 
 1. Haga clic en el componente recién agregado para comenzar a configurar el **[!UICONTROL Content Components]** y para tener acceso al **[!UICONTROL Components Settings]** en el panel derecho del diseñador de correo electrónico.
 
