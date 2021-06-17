@@ -5,16 +5,14 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ea005587fdcdf3cb07da5d7cbd6080c12909d458
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '930'
 ht-degree: 10%
 
 ---
 
 # Actividad de condición{#section_e2n_pft_dgb}
-
-![](../assets/do-not-localize/badge.png)
 
 Hay cuatro tipos de condiciones disponibles:
 
@@ -76,6 +74,8 @@ Esto le permite realizar diferentes acciones según la hora del día o el día d
 ## División de porcentaje {#percentage_split}
 
 Esta opción le permite dividir aleatoriamente la audiencia para definir una acción diferente para cada grupo. Defina el número de divisiones y la repartición para cada ruta. El cálculo de la división es estadístico, ya que el sistema no puede anticipar cuántas personas fluirán en esta actividad del recorrido. Como resultado, la división tiene un margen de error muy bajo. Esta función se basa en un mecanismo aleatorio de Java (consulte esta [página](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+
+En el modo de prueba, al alcanzar una división, siempre se elige la rama superior. Puede reorganizar la posición de las ramas divididas si desea que la prueba elija una ruta diferente. Consulte [esta página](../building-journeys/testing-the-journey.md)
 
 >[!NOTE]
 >
