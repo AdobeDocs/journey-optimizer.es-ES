@@ -5,16 +5,14 @@ feature: Fuentes de datos
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '691'
 ht-degree: 8%
 
 ---
 
 # Configuración de una fuente de datos {#configure-data-source}
-
-![](../assets/do-not-localize/badge.png)
 
 Estos son los pasos principales de la configuración de la fuente de datos:
 
@@ -22,9 +20,7 @@ Estos son los pasos principales de la configuración de la fuente de datos:
 >
 >La configuración de la fuente de datos siempre la realiza un **usuario técnico**.
 
-1. Seleccione el menú **[!UICONTROL Admin]** / **[!UICONTROL Data Sources]** .
-
-   Se muestra la lista de las fuentes de datos. Consulte [esta página](../user-interface.md) para obtener más información sobre la interfaz.
+1. En la sección del menú ADMINISTRACIÓN, seleccione **[!UICONTROL Configurations]**. En la sección **[!UICONTROL Data Sources]**, haga clic en **[!UICONTROL Manage]**. Se muestra la lista de las fuentes de datos. Consulte [esta página](../user-interface.md) para obtener más información sobre la interfaz.
 
    ![](../assets/journey18.png)
 
