@@ -5,26 +5,29 @@ feature: Información general
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: d85dfe519ebbbb27693c7283c19cc1d7171c25ba
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 84%
+source-wordcount: '1187'
+ht-degree: 63%
 
 ---
 
 # Interfaz de usuario {#cjm-user-interface}
 
-![](assets/do-not-localize/badge.png)
-
-Esta documentación se actualiza con frecuencia para reflejar los cambios recientes en el producto. Sin embargo, algunas capturas de pantalla pueden diferir ligeramente de la interfaz de usuario que ve.
-
-## Workspace {#cjm-workspace}
-
 Una vez conectado a [Adobe Experience Cloud](http://experience.adobe.com), vaya a [!DNL Journey Optimizer].
 
 >[!NOTE]
 >
->Los conceptos clave al examinar la interfaz de usuario se detallan en la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=es#adobe-experience-platform-ui-guide).
+>* Los conceptos clave al examinar la interfaz de usuario son comunes con Adobe Experience Platform. Consulte la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=es#adobe-experience-platform-ui-guide) para obtener más información.
+   >
+   >
+* Esta documentación se actualiza con frecuencia para reflejar los cambios más recientes en la interfaz de usuario del producto. Sin embargo, algunas capturas de pantalla pueden diferir ligeramente de la interfaz de usuario que ve.
+   >
+   > 
+* Los componentes y las funciones disponibles en la interfaz de usuario dependen de los permisos y del paquete de licencias. Para cualquier pregunta, póngase en contacto con el administrador de éxito del cliente de Adobe.
+
+
+## Navegación izquierda
 
 Utilice los vínculos de la izquierda para examinar las funciones.
 
@@ -84,9 +87,39 @@ La página principal de [!DNL Journey Optimizer] contiene vínculos clave y recu
 
 * **[!UICONTROL Sandboxes]**: Adobe Experience Platform proporciona entornos limitados que dividen una sola instancia en entornos virtuales independientes para ayudarle a desarrollar aplicaciones de experiencia digital y hacer que evolucionen. [Obtenga más información acerca de los entornos limitados en esta documentación](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es)
 
-## Compatibilidad con exploradores e idiomas
+
+## Casos de uso dentro del producto
+
+Aproveche los [!DNL Adobe Journey Optimizer] casos de uso de la página principal y proporcione algunas entradas rápidas para crear un recorrido de cliente.
+
+![](assets/use-cases-home.png)
+
+Los casos de uso disponibles son:
+
+* **Cree perfiles** de prueba para crear perfiles de prueba con la plantilla CSV a fin de probar mensajes y recorridos personalizados. Aprenda a implementar este caso de uso [en esta página](building-journeys/creating-test-profiles.md#use-case-1).
+* **Envíe un mensaje de cumpleaños a los clientes** para que envíen automáticamente un correo electrónico a fin de desear a sus clientes que cumplan años. (próximamente)
+* **Envíe correos electrónicos para incorporar nuevos clientes**, para enviar fácilmente hasta dos correos electrónicos para dar la bienvenida a sus clientes recién registrados. (próximamente)
+* **Envíe mensajes push a la lista importada de clientes** para enviar rápidamente una notificación push a una lista de clientes importados desde un archivo CSV. (próximamente)
+
+Haga clic en **[!UICONTROL View details]** para obtener más información sobre cada caso de uso.
+
+Haga clic en el botón **[!UICONTROL Begin]** para iniciar el caso de uso.
+
+Puede acceder a los casos de uso ejecutados desde el botón **[!UICONTROL View use case library]** .
+
+## Buscar ayuda y asistencia
+
+Acceda a las páginas de ayuda clave de Adobe Journey Optimizer desde la sección inferior de la página principal.
+
+Utilice el icono **Ayuda** para acceder a las páginas de ayuda, ponerse en contacto con el servicio de asistencia técnica y compartir comentarios. Puede buscar artículos de ayuda y vídeos desde el campo de búsqueda .
+
+![](assets/ajo-help.png)
+
+## Navegadores admitidos
 
 La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de forma óptima en la última versión de Google Chrome. Es posible que tenga problemas al utilizar determinadas funciones en versiones anteriores u otros navegadores.
+
+## Preferencias de idioma
 
 Actualmente, la interfaz de usuario está disponible en los siguientes idiomas:
 
@@ -106,7 +139,7 @@ Para cambiar el idioma:
 
 ## Buscar
 
-Utilice la búsqueda de Adobe Experience Cloud en el centro de la barra superior para buscar recursos, recorridos o mensajes en los entornos limitados. Empiece a introducir contenido para mostrar los resultados principales.
+Desde la interfaz de Adobe Journey Optimizer, utilice la búsqueda de Adobe Experience Cloud en el centro de la barra superior para encontrar recursos, recorridos o mensajes en los entornos limitados. Empiece a introducir contenido para mostrar los resultados principales.
 
 ![](assets/unified-search.png)
 
@@ -138,17 +171,3 @@ En los paneles Evento, Fuente de datos y Configuración de acciones, el campo **
 En las diferentes listas, puede realizar acciones básicas por cada elemento. Por ejemplo, puede duplicar o eliminar un elemento.
 
 ![](assets/journey4.png)
-
-## Navegación por los campos de Adobe Experience Platform {#friendly-names-display}
-
-Al definir la [carga útil de evento](event/about-creating.md#define-the-payload-fields), la [carga útil de grupo de campos](datasource/configure-data-sources.md#define-field-groups) y seleccionar los campos en el [editor de expresiones](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=es), se muestra el nombre para mostrar además del nombre del campo. Esta información se recupera de la definición de esquema del modelo de datos de Experience.
-
-Si se proporcionan descriptores como &quot;xdm:alternateDisplayInfo&quot; al configurar esquemas, los nombres descriptivos reemplazarán los nombres para mostrar. Resulta especialmente útil cuando se trabaja con eVars y campos genéricos. Puede configurar descriptores de nombres descriptivos mediante una llamada a API. Para obtener más información, consulte la [Guía para desarrolladores de Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=es).
-
-![](assets/xdm-from-descriptors.png)
-
-Si hay un nombre descriptivo disponible, el campo se mostrará como `<friendly-name>(<name>)`. Si no hay ningún nombre descriptivo disponible, aparecerá el nombre para mostrar, por ejemplo `<display-name>(<name>)`. Si no se define ninguno de ellos, solo se mostrará el nombre técnico del campo `<name>`.
-
->[!NOTE]
->
->Los nombres descriptivos no se recuperan al seleccionar campos de una unión de esquemas.
