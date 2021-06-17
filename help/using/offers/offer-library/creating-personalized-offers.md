@@ -5,7 +5,7 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 4%
@@ -98,7 +98,7 @@ Las reglas y restricciones de idoneidad le permiten definir las condiciones en l
 
    ![](../../assets/offer_rule.png)
 
-1. Defina el **[!UICONTROL Priority]** de la oferta comparado con otros si el usuario cumple los requisitos para más de una oferta. La prioridad más alta que tendrá una oferta es la que mayor será su prioridad comparada con otras ofertas
+1. Defina el **[!UICONTROL Priority]** de la oferta comparado con otros si el usuario cumple los requisitos para más de una oferta. La prioridad más alta que tendrá una oferta es la de que la prioridad más alta se comparará con otras ofertas.
 
 1. Especifique el **[!UICONTROL Capping]** de la oferta, lo que significa el número de veces que la oferta se presentará en total entre todos los usuarios. Si la oferta se ha enviado a todos los usuarios la cantidad de veces que ha especificado en este campo, su entrega se detendrá.
 
