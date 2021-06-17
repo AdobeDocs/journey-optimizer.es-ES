@@ -5,22 +5,20 @@ feature: Informes
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 233b97784843adb26cb37a612feeaf2a8e396f27
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 8%
+source-wordcount: '447'
+ht-degree: 7%
 
 ---
 
 # Creación de informes de recorrido{#design-jo-reports}
 
-![](../assets/do-not-localize/badge.png)
-
 Además de [informes en tiempo real](live-report.md) y [funciones integradas de informes globales](global-report.md), [!DNL Journey Optimizer] puede enviar automáticamente datos de rendimiento del recorrido a Adobe Experience Platform para que se puedan combinar con otros datos con fines de análisis.
 
 >[!NOTE]
 >
->Esta función no está activada de forma predeterminada en todas las instancias recientemente implementadas. La activación se realiza bajo petición.
+>Esta función está activada de forma predeterminada en todas las instancias para eventos de pasos de recorrido. Para los eventos de paso del perfil de recorrido, la activación se realiza previa solicitud. Los esquemas y conjuntos de datos creados durante el aprovisionamiento de esta función no deben cambiarse.
 
 Por ejemplo, ha configurado un recorrido que envía varios correos electrónicos. Esta capacidad le permite combinar datos de [!DNL Journey Optimizer] con datos de evento descendente como cuántas conversiones se produjeron, cuánta participación se produjo en el sitio web o cuántas transacciones se produjeron en la tienda. La información del recorrido se puede combinar con los datos de Adobe Experience Platform, ya sea de otras propiedades digitales o de propiedades sin conexión, para ofrecer una vista más completa del rendimiento.
 
