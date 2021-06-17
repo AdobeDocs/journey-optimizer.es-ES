@@ -5,51 +5,42 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
 # Limitaciones {#journey-limitations}
 
-![](../assets/do-not-localize/badge.png)
-
 Estas son limitaciones relacionadas con el uso de recorridos.
-
-## Limitaciones de la lista de recorridos
-
-* En la lista recorridos, los filtros, las búsquedas y la selección de columnas se restablecen al actualizar la página.
 
 ## Limitaciones generales de acciones
 
 * No hay restricciones de envío. 
-* En caso de error, se realizan sistemáticamente dos reintentos. No se puede ajustar el número de reintentos según el mensaje de error recibido. 
+* En caso de error, se realizan tres reintentos de forma sistemática. No se puede ajustar el número de reintentos según el mensaje de error recibido. 
 * El evento **Reaction** integrado le permite reaccionar ante las acciones integradas (consulte esta [página](../building-journeys/reaction-events.md)). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado. 
-* No hay integración de productos de Adobe Campaign Classic.
 * No puede colocar dos acciones en paralelo, debe agregarlas una tras otra.
 
 ## Limitaciones de las acciones del mensaje
-
-* La actividad **Message** no permite utilizar datos contextuales procedentes del recorrido. La personalización de los mensajes se realiza directamente al diseñar el mensaje en Journey Optimizer.
 
 * Al añadir un mensaje multicanal, se envían dos mensajes.
 
 ## Limitaciones de las versiones de recorrido {#journey-versions-limitations}
 
-* un recorrido que comience con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No se puede iniciar un recorrido con un evento **Segment Qualification**.
-* un recorrido que comience con una actividad **Segment Qualification** en v1 siempre debe comenzar con **Segment Qualification** en versiones posteriores.
-* El segmento y el área de nombres elegidos en **Segment qualification** (primer nodo) no se pueden cambiar en las nuevas versiones.
+* Un recorrido que comience con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No se puede iniciar un recorrido con un evento **Segment Qualification**.
+* Un recorrido que comience con una actividad **Segment Qualification** en v1 siempre debe comenzar con **Segment Qualification** en versiones posteriores.
+* El segmento y el área de nombres elegidos en **Segment Qualification** (primer nodo) no se pueden cambiar en las nuevas versiones.
 * La regla de reentrada debe ser la misma en todas las versiones de recorrido.
-* Un recorrido que comience por un segmento **Leer** no puede comenzar con otro evento en las versiones siguientes.
+* Un recorrido que comience por un **segmento de lectura** no puede comenzar con otro evento en las versiones siguientes.
  
 
 ## Limitaciones de acciones personalizadas
 
 * La dirección URL de acción personalizada no admite parámetros dinámicos. 
 * Solo se admiten métodos de llamada de POST y PUT. 
-* El nombre del parámetro de consulta o del encabezado no debe comenzar por &quot;.&quot; O bien &quot;$&quot;. 
+* El nombre del parámetro de consulta o del encabezado no debe comenzar por &quot;.&quot; o &quot;$&quot;. 
 * No se permiten direcciones IP. 
 * Direcciones de Adobe internas (.adobe). no están permitidos.
  
