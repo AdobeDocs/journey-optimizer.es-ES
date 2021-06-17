@@ -5,16 +5,14 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 4%
+source-wordcount: '520'
+ht-degree: 2%
 
 ---
 
 # Adición de ofertas personalizadas {#deliver-personalized-offers}
-
-![](assets/do-not-localize/badge.png)
 
 ## Acerca de la Administración de decisiones {#about-offer-decisioning}
 
@@ -24,32 +22,84 @@ Por ejemplo, puede agregar una decisión que muestre en el correo electrónico u
 
 Para obtener más información sobre cómo crear y administrar ofertas, consulte [esta sección](offers/get-started/starting-offer-decisioning.md).
 
+Para ver un **ejemplo completo de extremo a extremo** que muestra cómo configurar ofertas, utilícelas en una decisión y aproveche esta decisión en un mensaje de correo electrónico, consulte [esta sección](offers/offers-e2e.md#insert-decision-in-email).
+
+
 ## Inserte una decisión en un correo electrónico {#insert-offers}
+
+>[!CAUTION]
+>
+>Primero debe definir una decisión de oferta. Aprenda a crear decisiones en [esta sección](offers/offer-activities/create-offer-activities.md).
 
 Para insertar una decisión en un mensaje de correo electrónico, siga los pasos a continuación:
 
 1. Cree el correo electrónico y, a continuación, abra el Diseñador de correo electrónico para configurar su contenido.
 
-1. Añada un componente de contenido **[!UICONTROL Offer decision]** (consulte [Uso de componentes de contenido](content-components.md)).
+1. Añada un componente de contenido **[!UICONTROL Offer decision]**.
 
    ![](assets/deliver-offer-component.png)
 
-1. Se añade una pestaña **[!UICONTROL Offer decision]** al componente. Haga clic en **[!UICONTROL Add personalization - Offer decision]** para añadir una actividad de oferta.
+   Aprenda a utilizar componentes de contenido en [esta sección](content-components.md).
+
+1. La ficha **[!UICONTROL Offer decision]** aparece en la paleta derecha. Haga clic en **[!UICONTROL Select Offer decision]**.
 
    ![](assets/deliver-offer-tab.png)
 
-1. Seleccione la colocación correspondiente a las ofertas que desee mostrar.
+1. En la ventana que se muestra, seleccione la colocación correspondiente a las ofertas que desea mostrar.
 
-   Las ubicaciones son contenedores que se utilizan para mostrar las ofertas. En este ejemplo, utilizaremos la ubicación &quot;imagen superior del correo electrónico&quot;. Esta ubicación se ha creado en la Biblioteca de ofertas para mostrar las ofertas de tipo imagen situadas en la parte superior de los mensajes.
+   [](offers/offer-library/creating-placements.md) Las ubicaciones son contenedores que se utilizan para mostrar las ofertas. En este ejemplo, utilizaremos la ubicación &quot;imagen superior del correo electrónico&quot;. Esta ubicación se ha creado en la Biblioteca de ofertas para mostrar las ofertas de tipo imagen situadas en la parte superior de los mensajes.
 
 1. Seleccione la actividad de oferta que desea utilizar en el componente de contenido y haga clic en **[!UICONTROL Add]**.
 
    >[!NOTE]
    >
-   >Tenga en cuenta que solo las decisiones compatibles con la colocación seleccionada se muestran en la lista. En este ejemplo, solo una actividad de oferta coincide con la ubicación &quot;imagen superior del correo electrónico&quot;.
+   >En la lista solo se muestran las decisiones compatibles con la colocación seleccionada. En este ejemplo, solo una actividad de oferta coincide con la ubicación &quot;imagen superior del correo electrónico&quot;.
 
    ![](assets/deliver-offer-placement.png)
 
-1. La actividad de oferta ahora se agrega al componente. Puede obtener una vista previa de las diferentes ofertas que forman parte de la decisión mediante la sección **[!UICONTROL Offers]** o las flechas de los componentes de contenido.
+La actividad de oferta ahora se agrega al componente.
 
-   ![](assets/deliver-offer-preview.png)
+
+## Vista previa de ofertas en un correo electrónico {#preview-offers-in-email}
+
+Puede obtener una vista previa de las diferentes ofertas que forman parte de la decisión añadida al correo electrónico mediante la sección **[!UICONTROL Offers]** o las flechas de los componentes de contenido.
+
+![](assets/deliver-offer-preview.png)
+
+Para mostrar las diferentes ofertas que forman parte de la decisión con un perfil de cliente, siga los pasos a continuación.
+
+1. Haga clic en **[!UICONTROL Preview]**.
+
+   ![](assets/deliver-offer-preview-button.png)
+
+   >[!NOTE]
+   >
+   >Debe tener perfiles de prueba disponibles para poder previsualizar los mensajes. Obtenga información sobre cómo [crear perfiles de prueba](building-journeys/creating-test-profiles.md).
+
+1. Para elegir el espacio de nombres que se utiliza para identificar los perfiles de prueba, seleccione **[!UICONTROL Email]** en el campo **[!UICONTROL Identity namespace]**.
+
+   >[!NOTE]
+   >
+   >En este ejemplo, utilizaremos el espacio de nombres **Email**. Obtenga más información sobre los áreas de nombres de identidad [de Adobe Experience Platform en esta sección](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#getting-started).
+
+1. En la lista de áreas de nombres de identidad, seleccione **[!UICONTROL Email]** y haga clic en **[!UICONTROL Select]**.
+
+1. En el campo **[!UICONTROL Identity value]**, introduzca el valor para identificar el perfil de prueba. En este ejemplo, introduzca la dirección de correo electrónico de un perfil de prueba.
+
+   <!--For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.-->
+
+1. Añada otros perfiles para poder probar distintas variantes del mensaje según los datos del perfil.
+
+   ![](assets/deliver-offer-test-profiles.png)
+
+1. Haga clic en la pestaña **[!UICONTROL Preview]** para probar el mensaje.
+
+1. Seleccione un perfil de prueba. Se muestra la oferta correspondiente al perfil seleccionado (una mujer).
+
+   ![](assets/deliver-offer-test-profile-female-preview.png)
+
+1. Seleccione otros perfiles de prueba para previsualizar el contenido del correo electrónico de cada variante del mensaje. En el contenido del mensaje, ahora se muestra la oferta correspondiente al perfil de prueba seleccionado (ahora un hombre).
+
+   ![](assets/deliver-offer-test-profile-male-preview.png)
+
+Obtenga más información sobre los pasos detallados para comprobar la vista previa del mensaje en [esta sección](#preview-your-messages).
