@@ -5,7 +5,7 @@ feature: Personalización
 topic: Personalización
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 3%
@@ -14,8 +14,6 @@ ht-degree: 3%
 
 
 # Plantillas de idioma y funciones de ayuda {#functionsL}
-
-![](../../assets/do-not-localize/badge.png)
 
 Utilice el lenguaje de plantilla [!DNL Journey Optimizer] para realizar operaciones con los datos, como cálculos, formatos de datos o conversiones, condiciones y manipularlos en el contexto de la personalización. Conozca las directrices de sintaxis de personalización en [esta página](../personalization-syntax.md).
 
