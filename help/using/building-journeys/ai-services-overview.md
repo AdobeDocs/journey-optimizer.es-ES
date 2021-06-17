@@ -6,14 +6,14 @@ feature: Journey Optimizer
 role: Business Practitioner
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: 44680e4421aea2c9c90a8059cf188f34eabaa869
+source-git-commit: b7c3b0e683cb5ae173c2ab979e3558cd0dbf6ee9
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 1%
 
 ---
 
-# Integración con servicios inteligentes {#ai-overview}
+# Integrar con servicios inteligentes {#ai-overview}
 
 La integración con Servicios inteligentes le permite aprovechar la potencia de la inteligencia artificial y el aprendizaje automático en casos de uso de experiencias del cliente. Esto permite que los analistas de marketing configuren predicciones específicas de las necesidades de una empresa mediante configuraciones de nivel empresarial sin necesidad de experiencia en ciencia de datos.
 
