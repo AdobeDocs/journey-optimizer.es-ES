@@ -1,20 +1,18 @@
 ---
-title: informe recorrido cinco
+title: Informe de recorrido en vivo
 description: Aprenda a utilizar los datos del informe de recorrido en directo
 feature: Informes
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 1%
+source-wordcount: '698'
+ht-degree: 2%
 
 ---
 
 # Informe de recorrido en vivo {#journey-live-report}
-
-![](../assets/do-not-localize/badge.png)
 
 Se puede acceder al informe de recorrido en directo directamente desde el recorrido con el botón **[!UICONTROL Live report]** .
 
@@ -64,7 +62,7 @@ Para obtener un informe detallado sobre un envío de correo electrónico especí
 
 ![](../assets/report_email_1.png)
 
-Las utilidades **[!UICONTROL Sending Statistics]** y **[!UICONTROL Sending metrics by Email]** detallan el éxito de su envío:
+La utilidad **[!UICONTROL Email Sending Statistics]** detalla la información principal relativa a su mensaje:
 
 * **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.
 
@@ -72,9 +70,7 @@ Las utilidades **[!UICONTROL Sending Statistics]** y **[!UICONTROL Sending metri
 
 * **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
 
-<!--Hard and bounce - by Email-->
-
-El gráfico **[!UICONTROL Email summary]** detalla la información principal relativa a su mensaje:
+La tabla **[!UICONTROL Sending metrics by Email]** y el gráfico **[!UICONTROL Email Summary]** detallan el éxito del envío:
 
 * **[!UICONTROL Sent]**: Número total de envíos para la entrega.
 
@@ -88,9 +84,13 @@ El gráfico **[!UICONTROL Email summary]** detalla la información principal rel
 
 * **[!UICONTROL Clicks]**: Número de veces que se hizo clic en un contenido en una entrega.
 
+* **[!UICONTROL Unsubscribe]**: Número de clics en el vínculo de baja de suscripción.
+
+* **[!UICONTROL Spam complaints]**: Número de veces que un mensaje se declaró como correo no deseado o no deseado.
+
 ![](../assets/report_email_2.png)
 
-Los widgets **[!UICONTROL Bounce Reasons]** y **[!UICONTROL Bounce categories]** contienen los datos disponibles relacionados con los mensajes devueltos, como:
+Los widgets **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** y **[!UICONTROL Hard and bounce - by Email]** contienen los datos disponibles relacionados con los mensajes devueltos, como:
 
 * **[!UICONTROL Hard bounce]**: El número total de errores permanentes, como una dirección de correo electrónico incorrecta. Esto implica un mensaje de error que indica explícitamente que la dirección no es válida, como Usuario desconocido.
 
