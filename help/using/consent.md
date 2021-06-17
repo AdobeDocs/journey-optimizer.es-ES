@@ -5,10 +5,10 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: ad8648c3fe98caa1d6800ad3664c35c2c6f676f0
+source-git-commit: a1ce789ad78f70bdb2a1387ffb6c60cb40b8b0bb
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 87%
+source-wordcount: '729'
+ht-degree: 85%
 
 ---
 
@@ -131,15 +131,17 @@ Cuerpo de la solicitud:
 
 ## Vínculo de cancelación de suscripción en el encabezado {#unsubscribe-email}
 
-Si el software cliente de correo electrónico de los destinatarios admite la visualización de un vínculo de cancelación de suscripción en el encabezado del correo electrónico, los correos electrónicos enviados con [!DNL Journey Optimizer] incluyen automáticamente este vínculo.
+Si el cliente de correo electrónico de los destinatarios admite la visualización de un vínculo de cancelación de suscripción en el encabezado del correo electrónico, los correos electrónicos enviados con [!DNL Journey Optimizer] incluyen automáticamente este vínculo.
 
 Por ejemplo, el vínculo de cancelación de suscripción se mostrará así en Gmail:
 
 ![](assets/unsubscribe-email.png)
 
-Si un destinatario hace clic en este vínculo, el perfil correspondiente se excluye inmediatamente y esta opción se actualiza en el Experience Platform.
+Según el cliente de correo electrónico, hacer clic en el vínculo de cancelación de suscripción del encabezado tendrá uno de los siguientes impactos:
 
-Hacer clic en el vínculo unsubscribe del encabezado tiene el mismo efecto que hacer clic en el vínculo unsubscribe del contenido del correo electrónico. Obtenga más información sobre la administración de la exclusión en [esta sección](#opt-out-management).
+* El perfil correspondiente se excluye inmediatamente y esta opción se actualiza en Experience Platform. Obtenga más información en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started).
+
+* Tiene el mismo efecto que hacer clic en el vínculo de cancelación de suscripción del contenido del correo electrónico: el destinatario se redirige a una página de aterrizaje, que incluye un botón para confirmar la exclusión. Obtenga más información sobre la administración de la exclusión en [esta sección](#opt-out-management).
 
 ## Administración de exclusión push {#push-opt-out-management}
 
