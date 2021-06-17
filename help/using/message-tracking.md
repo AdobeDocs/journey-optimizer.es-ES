@@ -5,25 +5,92 @@ feature: Monitoreo
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: e27472cc6186cf7cb25fdb93d15720fc837c58bb
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 3%
+source-wordcount: '385'
+ht-degree: 2%
 
 ---
 
 # Seguimiento de mensajes {#tracking}
 
-![](assets/do-not-localize/badge.png)
+Utilice [!DNL Journey Optimizer] para rastrear los mensajes enviados y el comportamiento de sus destinatarios.
 
-Journey Optimizer permite realizar un seguimiento de los mensajes enviados y del comportamiento de los destinatarios.
+## Habilitar el seguimiento {#enable-tracking}
 
-Puede habilitar el seguimiento a nivel de mensaje comprobando las opciones **[!UICONTROL Open Tracking for email]** o **[!UICONTROL Click Tracking for email]** . Esto le permite hacer un seguimiento del comportamiento de sus destinatarios a través de aperturas o clics en vínculos. [Obtenga más información sobre la creación de mensajes](create-message.md).
+Puede habilitar el seguimiento a nivel de mensaje comprobando las opciones **[!UICONTROL Open Tracking for email]** o **[!UICONTROL Click Tracking for email]** al [crear el mensaje](create-message.md).
 
 ![](assets/message-tracking.png)
 
-Al diseñar un mensaje, puede agregar vínculos rastreados al contenido. Además, el Diseñador de correo electrónico le permite administrar las direcciones URL de las que se realizará un seguimiento, como habilitar/deshabilitar el seguimiento o editar el tipo de seguimiento para cada vínculo. [Obtenga más información sobre cómo trabajar con el Diseñador de correo electrónico](create-email-content.md).
+>[!NOTE]
+>
+>Ambas opciones están habilitadas de forma predeterminada.
 
-![](assets/message-tracked-links.png)
+Esto le permite hacer un seguimiento del comportamiento de sus destinatarios a través de:
+* **[!UICONTROL Open Tracking for email]**: Mensajes que se han abierto.
+* **[!UICONTROL Click Tracking for email]**: Haga clic en los vínculos de un correo electrónico.
+
+## Insertar vínculos {#insert-links}
+
+Al diseñar un mensaje, puede agregar vínculos al contenido.
+
+>[!NOTE]
+>
+>Cuando [el seguimiento está habilitado](#enable-tracking), se realiza un seguimiento de todos los vínculos incluidos en el contenido del mensaje.
+
+Para insertar vínculos en el contenido del correo electrónico, siga los pasos a continuación:
+
+1. Seleccione un elemento y haga clic en **[!UICONTROL Insert link]** en la barra de herramientas contextual.
+
+   ![](assets/message-tracking-insert-link.png)
+
+1. Elija el tipo de vínculo que desea crear:
+
+   * **[!UICONTROL External link]**: Inserte un vínculo a una URL externa.
+
+   * **[!UICONTROL Unsubscription link]**: Inserte un vínculo para cancelar la suscripción a la recepción de comunicaciones de su marca. Obtenga más información sobre la administración de la exclusión en [esta sección](consent.md#opt-out-management).
+
+   * **[!UICONTROL Mirror page]**: Inserte un vínculo para mostrar el contenido del correo electrónico en un explorador web.
+
+   ![](assets/message-tracking-links.png)
+
+1. Puede personalizar los vínculos únicamente con una expresión simple. Obtenga más información sobre personalización en [esta sección](personalization/personalization-syntax.md).
+
+1. Guarde los cambios.
+
+1. Una vez creado el vínculo, puede modificarlo desde el panel **[!UICONTROL Component settings]** de la derecha.
+
+   * Haga clic en el icono de lápiz para editar el vínculo.
+   * Puede elegir subrayar el vínculo o no marcando la opción correspondiente.
+
+   ![](assets/message-tracking-link-settings.png)
+
+## Administrar seguimiento {#manage-tracking}
+
+El [Diseñador de correo electrónico](create-email-content.md) le permite administrar las direcciones URL rastreadas, como editar el tipo de seguimiento para cada vínculo.
+
+1. Haga clic en el icono **[!UICONTROL Links]** del panel izquierdo para mostrar la lista de todas las direcciones URL del contenido que se rastreará.
+
+   Esta lista permite tener una vista centralizada y localizar cada URL en el contenido del correo electrónico.
+
+1. Para editar un vínculo, haga clic en el icono de lápiz correspondiente.
+
+   ![](assets/message-tracking-edit-links.png)
+
+1. Puede modificar el **[!UICONTROL Tracking Type]** si es necesario:
+
+
+   ![](assets/message-tracking-edit-a-link.png)
+
+   Para cada URL rastreada, puede establecer el modo de seguimiento en uno de estos valores:
+
+   * **[!UICONTROL Tracked]**: Activa el seguimiento en esta dirección URL.
+   * **[!UICONTROL Opt out]**: Considera esta URL como una URL de exclusión o de baja.
+   * **[!UICONTROL Mirror page]**: Considera que esta URL es una URL de página espejo.
+   * **[!UICONTROL Never]**: Nunca activa el seguimiento de esta dirección URL.  <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 El número de mensajes que se han abierto y el número de vínculos en los que se ha hecho clic se enumeran en la [ficha Ejecuciones](message-monitoring.md).
+
+Los informes sobre aperturas y clics están disponibles en [Email Live report](reports/email-live-report.md) y en [Email Global report](reports/email-global-report.md).
+
+
