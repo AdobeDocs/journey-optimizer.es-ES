@@ -1,20 +1,17 @@
 ---
 title: Inicio de la ejecución del recorrido
 description: Obtenga información sobre cómo iniciar el recorrido y enviar mensajes
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
 
 # Ejecución de recorrido {#message-execution}
 
-![](../assets/do-not-localize/badge.png)
-
-## Probar el recorrido
+## Prueba del recorrido
 
 Puede probar el recorrido con perfiles de prueba. Se recomienda realizar este paso para validar la configuración y los mensajes.
 
@@ -47,11 +44,11 @@ Una vez enviado un mensaje, se puede monitorizar su ejecución mediante varios i
 
 ## Programar mensajes {#schedule-messages}
 
-Los mensajes se pueden programar a través de la actividad **[!UICONTROL Read segment]** en un [recorrido](journey.md). Puede especificar cuándo ingresará el segmento al recorrido. [Obtenga más información sobre la actividad](read-segment.md) Leer segmento .
+Los mensajes se pueden programar a través de la actividad **[!UICONTROL Read Segment]** en un [recorrido](journey.md). Puede especificar cuándo ingresará el segmento al recorrido. [Obtenga más información sobre la actividad](read-segment.md) Leer segmento .
 
 Para realizar esto, siga los pasos a continuación:
 
-1. Edite un recorrido, arrastre y suelte una actividad **[!UICONTROL Read segment]** y comience a configurarla. [Obtenga más información sobre la configuración de la actividad](read-segment.md#configuring-segment-trigger-activity) Leer segmento .
+1. Edite un recorrido, arrastre y suelte una actividad **[!UICONTROL Read Segment]** y comience a configurarla. [Obtenga más información sobre la configuración de la actividad](read-segment.md#configuring-segment-trigger-activity) Leer segmento .
 
 1. Haga clic en el enlace **[!UICONTROL Edit journey schedule]** para acceder a las propiedades del recorrido.
 
