@@ -5,16 +5,14 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ea005587fdcdf3cb07da5d7cbd6080c12909d458
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1620'
 ht-degree: 3%
 
 ---
 
 # Prueba del recorrido{#testing_the_journey}
-
-![](../assets/do-not-localize/badge.png)
 
 Antes de poder probar el recorrido, debe resolver todos los errores si los hay. Consulte [esta sección](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb).
 
@@ -61,6 +59,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 * Al desactivar el modo de prueba, se vacían los recorridos de todas las personas que lo hayan introducido en el pasado o que estén actualmente en él. También borra los informes.
 * Puede habilitar/deshabilitar el modo de prueba tantas veces como sea necesario.
 * No puede modificar el recorrido cuando se activa el modo de prueba. En el modo de prueba, puede publicar directamente el recorrido; no es necesario desactivar el modo de prueba antes.
+* Al llegar a una división, siempre se elige la rama superior. Puede reorganizar la posición de las ramas divididas si desea que la prueba elija una ruta diferente.
 
 ## Activación de eventos {#firing_events}
 
