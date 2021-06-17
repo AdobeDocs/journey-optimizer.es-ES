@@ -5,16 +5,14 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ad8648c3fe98caa1d6800ad3664c35c2c6f676f0
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '691'
+ht-degree: 87%
 
 ---
 
 # Administración de la exclusión {#consent}
-
-![](assets/do-not-localize/badge.png)
 
 Utilice [!DNL Journey Optimizer] para hacer un seguimiento del consentimiento de los destinatarios para fines de comunicación y comprender cómo desean interactuar con su marca administrando sus preferencias y suscripciones. <!--Their preferences and subscriptions are handled through Consent management.-->
 
@@ -130,6 +128,18 @@ Cuerpo de la solicitud:
 ```
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
+
+## Vínculo de cancelación de suscripción en el encabezado {#unsubscribe-email}
+
+Si el software cliente de correo electrónico de los destinatarios admite la visualización de un vínculo de cancelación de suscripción en el encabezado del correo electrónico, los correos electrónicos enviados con [!DNL Journey Optimizer] incluyen automáticamente este vínculo.
+
+Por ejemplo, el vínculo de cancelación de suscripción se mostrará así en Gmail:
+
+![](assets/unsubscribe-email.png)
+
+Si un destinatario hace clic en este vínculo, el perfil correspondiente se excluye inmediatamente y esta opción se actualiza en el Experience Platform.
+
+Hacer clic en el vínculo unsubscribe del encabezado tiene el mismo efecto que hacer clic en el vínculo unsubscribe del contenido del correo electrónico. Obtenga más información sobre la administración de la exclusión en [esta sección](#opt-out-management).
 
 ## Administración de exclusión push {#push-opt-out-management}
 
