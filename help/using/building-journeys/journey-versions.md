@@ -5,7 +5,7 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 4%
@@ -13,8 +13,6 @@ ht-degree: 4%
 ---
 
 # Versiones de recorridos{#concept_ldc_k55_zgb}
-
-![](../assets/do-not-localize/badge.png)
 
 En la lista recorrido, todas las versiones de recorrido se muestran con el número de versión. Consulte [esta página](../building-journeys/using-the-journey-designer.md).
 
