@@ -5,7 +5,7 @@ feature: Información general
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 10%
@@ -13,8 +13,6 @@ ht-degree: 10%
 ---
 
 # Importación o codificación del contenido del correo electrónico {#existing-content}
-
-![](assets/do-not-localize/badge.png)
 
 Journey Optimizer le permite importar contenido HTML existente para diseñar sus correos electrónicos. Este contenido puede ser código HTML sin procesar o contenido de un archivo HTML existente o una carpeta zip.
 
@@ -57,7 +55,6 @@ Utilice el modo **[!UICONTROL Code your own]** para importar HTML sin procesar o
 1. Una vez que el código esté listo, haga clic en **[!UICONTROL Save]** y vuelva a la pantalla de creación de mensajes para finalizar el mensaje.
 
    ![](assets/code-editor-save.png)
-
 
 ## Importar HTML {#import-html-content-from-file}
 
