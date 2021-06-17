@@ -5,16 +5,14 @@ feature: Eventos
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '821'
 ht-degree: 15%
 
 ---
 
 # Configuración de un evento empresarial {#configure-a-business-event}
-
-![](../assets/do-not-localize/badge.png)
 
 A diferencia de los eventos unitarios, los eventos comerciales no están vinculados a un perfil específico. El tipo de ID de evento siempre se basa en reglas. Obtenga más información sobre los eventos empresariales en [esta sección](../event/about-events.md).
 
@@ -37,11 +35,11 @@ Los eventos comerciales pueden ser &quot;un producto vuelve a estar en existenci
 
 Estos son los primeros pasos para configurar un evento empresarial:
 
-1. En la sección ADMINISTRACIÓN, vaya a **[!UICONTROL Configurations]** y haga clic en **[!UICONTROL Events]**. Se muestra la lista de eventos.
+1. En la sección del menú ADMINISTRACIÓN, seleccione **[!UICONTROL Configurations]**. En la sección **[!UICONTROL Events]**, haga clic en **[!UICONTROL Manage]**. Se muestra la lista de eventos.
 
    ![](../assets/jo-event1.png)
 
-1. Haga clic en **[!UICONTROL Add]** para crear un nuevo evento. El panel de configuración de evento se abre en el lado derecho de la pantalla.
+1. Haga clic en **[!UICONTROL Create Event]** para crear un nuevo evento. El panel de configuración de evento se abre en el lado derecho de la pantalla.
 
    ![](../assets/jo-event2.png)
 
@@ -82,7 +80,7 @@ Estos son los primeros pasos para configurar un evento empresarial:
 
 La definición de carga útil permite elegir la información que el sistema espera recibir del evento en el recorrido y la clave para identificar qué persona está asociada al evento. La carga útil se basa en la definición del campo XDM del Experience Cloud. Para obtener más información sobre XDM, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es).
 
-1. Seleccione un esquema XDM de la lista y haga clic en el campo **[!UICONTROL Payload]** o en el icono **[!UICONTROL Edit]**.
+1. Seleccione un esquema XDM de la lista y haga clic en el campo **[!UICONTROL Fields]** o en el icono **[!UICONTROL Edit]**.
 
    ![](../assets/journey8-business.png)
 
@@ -92,11 +90,9 @@ La definición de carga útil permite elegir la información que el sistema espe
 
 1. Seleccione los campos que espera recibir del evento. Estos son los campos que el usuario empresarial aprovechará en el recorrido.
 
-   ![](../assets/journey10-business.png)
-
 1. Cuando haya terminado de seleccionar los campos necesarios, haga clic en **[!UICONTROL Save]** o presione **[!UICONTROL Enter]**.
 
-   El número de campos seleccionados aparece en el campo **[!UICONTROL Payload]**.
+   El número de campos seleccionados aparece en el campo **[!UICONTROL Fields]**.
 
    ![](../assets/journey12-business.png)
 
