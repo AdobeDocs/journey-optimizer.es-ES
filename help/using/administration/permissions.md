@@ -16,7 +16,7 @@ feature: Grupos de control
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f2c280ba3d2148a62eebff421ef6c8c3c0352936
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 17%
@@ -24,8 +24,6 @@ ht-degree: 17%
 ---
 
 # Administración de usuarios y perfiles de producto {#manage-permissions}
-
-![](../assets/do-not-localize/badge.png)
 
 >[!IMPORTANT]
 >
@@ -87,7 +85,7 @@ Tenga en cuenta que si modifica un **[!UICONTROL Product profile]** predetermina
 
 1. Seleccione la pestaña **[!UICONTROL Permissions]** .
 
-   La pestaña **[!UICONTROL Permissions]** muestra la lista de funcionalidades que se aplican al producto ***[!UICONTROL Experience Cloud - Platform powered applications]**.
+   La pestaña **[!UICONTROL Permissions]** muestra la lista de funcionalidades que se aplican al producto **[!UICONTROL Experience Cloud - Platform powered applications]**.
 
    ![](../assets/access_control_5.png)
 
