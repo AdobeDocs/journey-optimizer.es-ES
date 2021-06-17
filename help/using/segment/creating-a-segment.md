@@ -5,7 +5,7 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 6639630c4049e36904ce722759320f276799d8f3
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 6%
@@ -38,10 +38,11 @@ En este ejemplo, crearemos un segmento dirigido a todos los clientes que viven e
 
    En este ejemplo, necesitamos confiar en los campos **Attributes** y **Events** para crear el segmento:
 
-   * **Atributos**: perfiles que viven en Atlanta, San Francisco o Seattle nacidos después de 1980,
-   * **Eventos**: perfiles que abrieron la aplicación de Luma en los últimos 7 días y luego realizaron una compra en un plazo de 2 horas después de abrir la aplicación.
+   * **Atributos**: perfiles que viven en Atlanta, San Francisco o Seattle nacidos después de 1980
 
       ![](../assets/add-attributes.png)
+
+   * **Eventos**: perfiles que abrieron la aplicación de Luma en los últimos 7 días y luego realizaron una compra en un plazo de 2 horas después de abrir la aplicación.
 
       ![](../assets/add-events.png)
 
