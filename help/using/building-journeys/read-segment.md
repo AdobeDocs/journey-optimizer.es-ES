@@ -5,16 +5,14 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 3%
+source-wordcount: '967'
+ht-degree: 4%
 
 ---
 
 # Usar un segmento en un recorrido {#segment-trigger-activity}
-
-![](../assets/do-not-localize/badge.png)
 
 ## Acerca de la actividad Leer segmento {#about-segment-trigger-actvitiy}
 
@@ -25,6 +23,8 @@ Veamos como ejemplo el segmento &quot;Apertura y cierre de compra de la aplicaci
 >[!NOTE]
 >
 >No es posible realizar el déclencheur de un recorrido basado en segmentos en un lapso de tiempo inferior a 1 hora.
+>
+>El complemento de pago de ráfaga permite enviar mensajes push muy rápidamente en grandes volúmenes para recorridos simples que incluyen un segmento de lectura y un mensaje push simple. Para obtener más información, consulte [esta sección](../building-journeys/journey-gs.md#burst)
 
 ### Configure la actividad {#configuring-segment-trigger-activity}
 
@@ -101,7 +101,7 @@ Una vez realizadas las pruebas correctamente, puede publicar el recorrido (consu
 
 ## Segmentación de audiencias en recorridos basados en segmentos
 
-Los recorridos basados en segmentos siempre comienzan con una actividad **Read segment** para recuperar personas que pertenecen a un segmento de Adobe Experience Platform.
+Los recorridos basados en segmentos siempre comienzan con una actividad **Leer segmento** para recuperar personas que pertenecen a un segmento de Adobe Experience Platform.
 
 La audiencia que pertenece al segmento se recupera una vez o de forma regular.
 
