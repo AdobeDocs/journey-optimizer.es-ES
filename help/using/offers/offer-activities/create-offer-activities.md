@@ -5,10 +5,10 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 21476691c6e5c5a2f8c5e36a494206fc9779c9d2
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -24,10 +24,10 @@ Se puede acceder a la lista de decisiones desde la pestaña **[!UICONTROL Offers
 
 Antes de crear una decisión, asegúrese de que los componentes siguientes se hayan creado en la Biblioteca de ofertas:
 
-* [Ubicaciones](../offer-library/creating-placements.md),
-* [Colecciones](../offer-library/creating-collections.md),
-* [Ofertas personalizadas](../offer-library/creating-personalized-offers.md),
-* [Ofertas de reserva](../offer-library/creating-fallback-offers.md).
+* [Ubicaciones](../offer-library/creating-placements.md)
+* [Colecciones](../offer-library/creating-collections.md)
+* [Ofertas personalizadas](../offer-library/creating-personalized-offers.md)
+* [Ofertas de reserva](../offer-library/creating-fallback-offers.md)
 
 ## Cree la decisión {#create-activity}
 
@@ -37,7 +37,7 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
    ![](../../assets/activities-name.png)
 
-## Agregar decisiones {#add-decisions}
+## Agregar ofertas {#add-offers}
 
 1. Arrastre y suelte una ubicación de la lista para agregarla a la decisión y, a continuación, haga clic en **[!UICONTROL Add collection]**.
 
