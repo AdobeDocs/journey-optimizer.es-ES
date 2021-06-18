@@ -5,7 +5,7 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 3%
@@ -13,8 +13,6 @@ ht-degree: 3%
 ---
 
 # Eventos de reacción {#section_dhx_gss_dgb}
-
-![](../assets/do-not-localize/badge.png)
 
 Entre las distintas actividades de evento disponibles en la paleta, se encuentra el evento **[!UICONTROL Reactions]** integrado. Esta actividad le permite reaccionar ante el seguimiento de datos relacionados con un mensaje enviado dentro del mismo recorrido. Capturamos esta información en tiempo real en el momento en que se comparte con Adobe Experience Platform. Para las notificaciones push, puede reaccionar a mensajes en los que se ha hecho clic, enviados o en los que se han producido errores. En el caso de los mensajes SMS, puede reaccionar ante los mensajes enviados o fallidos. En el caso de los correos electrónicos, puede reaccionar ante los mensajes en los que se ha hecho clic, se han enviado, se han abierto o no se han podido realizar.
 
