@@ -5,16 +5,14 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8bcc1721f0d451e386b1fa0c5972c783ced01c7f
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 2%
+source-wordcount: '791'
+ht-degree: 1%
 
 ---
 
 # Eventos de calificación de segmentos {#segment-qualification}
-
-![](../assets/do-not-localize/badge.png)
 
 ## Acerca de los eventos de calificación de segmentos{#about-segment-qualification}
 
@@ -31,7 +29,7 @@ Este tipo de evento se puede posicionar como el primer paso o posterior en el re
 >Si el segmento seleccionado se transmite, las personas que pertenezcan a este segmento potencialmente entrarán en el recorrido en tiempo real. Si el segmento es por lotes, las personas que acaban de cumplir los requisitos para este segmento potencialmente introducirán el recorrido cuando se ejecute el cálculo del segmento en Adobe Experience Platform.
 
 
-1. Despliegue la categoría **[!UICONTROL Events]** y suelte una actividad **[!UICONTROL Segment qualification]** en el lienzo.
+1. Despliegue la categoría **[!UICONTROL Events]** y suelte una actividad **[!UICONTROL Segment Qualification]** en el lienzo.
 
    ![](../assets/segment5.png)
 
@@ -67,11 +65,13 @@ La carga útil contiene la siguiente información de contexto, que puede utiliza
 * la marca de tiempo de la calificación
 * el id de segmento
 
-Al utilizar el editor de expresiones en una condición o acción que sigue a una actividad **[!UICONTROL Segment qualification]**, tiene acceso al nodo **[!UICONTROL SegmentQualification]**. Puede elegir entre **[!UICONTROL Last qualification time]** y **[!UICONTROL status]** (entrar o salir).
+Al utilizar el editor de expresiones en una condición o acción que sigue a una actividad **[!UICONTROL Segment Qualification]**, tiene acceso al nodo **[!UICONTROL SegmentQualification]**. Puede elegir entre **[!UICONTROL Last qualification time]** y **[!UICONTROL status]** (entrar o salir).
 
 Consulte [Actividad de condición](../building-journeys/condition-activity.md#about_condition).
 
 ![](../assets/segment8.png)
+
+Un nuevo recorrido que incluye un evento de calificación de segmentos funciona diez minutos después de publicarlo. Este intervalo de tiempo corresponde al intervalo de actualización de la caché del servicio dedicado. Por lo tanto, debe esperar diez minutos antes de utilizar este recorrido.
 
 ## Prácticas recomendadas {#best-practices-segments}
 
