@@ -5,16 +5,14 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '265'
 ht-degree: 5%
 
 ---
 
 # Añadir un mensaje en un recorrido
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] las funciones de mensajes están integradas, solo tiene que diseñar el contenido y publicar el mensaje. Consulte [esta sección](../get-started-content.md). A continuación, simplemente agregue, en su recorrido, un mensaje push o de correo electrónico diseñado con Journey Optimizer.
 
@@ -22,7 +20,7 @@ Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción 
 
 ## Adición de una actividad de mensaje
 
-1. Como siempre, inicie su recorrido con un evento o una actividad **Read segment**.
+1. Como siempre, inicie su recorrido con un evento o una actividad **Leer segmento**.
 
    ![](../assets/jo-message0.png)
 
@@ -38,7 +36,7 @@ Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción 
 
    ![](../assets/jo-message3.png)
 
-1. Elija un mensaje y haga clic en **Select**. También puede crear un nuevo mensaje directamente desde esta pantalla haciendo clic en **Create new**.
+1. Elija un mensaje y haga clic en **Select**. También puede crear un nuevo mensaje directamente desde esta pantalla haciendo clic en **Create message**.
 
    ![](../assets/jo-message4-ter.png)
 
@@ -48,10 +46,10 @@ Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción 
 
 1. Añada los siguientes pasos a su recorrido.
 
-## Parámetros de canal
+## Parámetros de correo electrónico y parámetros push
 
-Se muestran los parámetros **Channel**. Estos campos son de solo lectura. Esta configuración se realiza al crear el mensaje. Consulte [esta sección](../get-started-content.md).
+Las secciones **[!UICONTROL Email parameters]** y **[!UICONTROL Push parameters]** muestran campos de solo lectura. Normalmente, se realiza esta configuración al crear el mensaje. Consulte [esta sección](../get-started-content.md).
 
 ![](../assets/jo-message4.png)
 
-Puede utilizar el icono **Enable editing field** en el lado derecho del campo para forzar un valor específico. Esto puede resultar útil para realizar pruebas. Por ejemplo, para un correo electrónico, puede añadir su dirección de correo electrónico. Al publicar el recorrido, se le enviará el correo electrónico.
+Para forzar un valor específico, puede utilizar el icono **Enable parameter override** a la derecha del campo. Esta opción puede resultar útil para realizar pruebas. Por ejemplo, para un correo electrónico, puede añadir su dirección de correo electrónico. Después de publicar el recorrido, se le enviará el correo electrónico.
