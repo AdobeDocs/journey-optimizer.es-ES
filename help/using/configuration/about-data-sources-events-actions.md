@@ -16,10 +16,10 @@ feature: Configuración de la aplicación
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 344bcff33895867d650f98b778cdf76c52a4b75e
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 19%
+source-wordcount: '318'
+ht-degree: 60%
 
 ---
 
@@ -42,3 +42,17 @@ En la configuración de eventos, se configuran los eventos esperados en los reco
 ## Acciones
 
 Las funcionalidades de mensajes de Journey Optimizer están incorporadas: solo necesita diseñar el contenido y publicar el mensaje. Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción personalizada. [Más información](../../using/action/action.md)
+
+## Navegación por los campos de Adobe Experience Platform {#friendly-names-display}
+
+Al definir la [carga útil de evento](../event/about-creating.md#define-the-payload-fields), la [carga útil de grupo de campos](../datasource/configure-data-sources.md#define-field-groups) y seleccionar los campos en el [editor de expresiones](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=es), se muestra el nombre para mostrar además del nombre del campo. Esta información se recupera de la definición de esquema del modelo de datos de Experience.
+
+Si se proporcionan descriptores como &quot;xdm:alternateDisplayInfo&quot; al configurar esquemas, los nombres descriptivos reemplazarán los nombres para mostrar. Resulta especialmente útil cuando se trabaja con eVars y campos genéricos. Puede configurar descriptores de nombres descriptivos mediante una llamada a API. Para obtener más información, consulte la [Guía para desarrolladores de Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=es).
+
+![](../assets/xdm-from-descriptors.png)
+
+Si hay un nombre descriptivo disponible, el campo se mostrará como `<friendly-name>(<name>)`. Si no hay ningún nombre descriptivo disponible, aparecerá el nombre para mostrar, por ejemplo `<display-name>(<name>)`. Si no se define ninguno de ellos, solo se mostrará el nombre técnico del campo `<name>`.
+
+>[!NOTE]
+>
+>Los nombres descriptivos no se recuperan al seleccionar campos de una unión de esquemas.
