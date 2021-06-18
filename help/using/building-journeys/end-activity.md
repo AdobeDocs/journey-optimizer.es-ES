@@ -5,7 +5,7 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 15%
@@ -13,8 +13,6 @@ ht-degree: 15%
 ---
 
 # Actividad final{#section_vqp_4ft_dgb}
-
-![](../assets/do-not-localize/badge.png)
 
 La actividad **[!UICONTROL End]** permite marcar el final de cada ruta del recorrido. No es obligatorio, pero se recomienda para la claridad visual. De hecho, si el recorrido tiene varias actividades finales, le recomendamos que agregue una etiqueta a cada extremo para facilitar la lectura de los informes. Consulte [esta página](../reports/live-report.md).
 
