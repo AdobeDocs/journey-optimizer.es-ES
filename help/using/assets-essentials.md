@@ -5,16 +5,14 @@ feature: Información general
 topic: Administración de contenido
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9ad4eeb11094b384f68eeaa9aa4e8fd7fe3e20c0
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 5%
+source-wordcount: '324'
+ht-degree: 3%
 
 ---
 
 # Utilice [!DNL Adobe Experience Manager Assets Essentials]{#experience-manager-assets}
-
-![](assets/do-not-localize/badge.png)
 
 ## Introducción a [!DNL Assets Essentials] {#get-started-assets-essentials}
 
@@ -22,13 +20,13 @@ ht-degree: 5%
 
 Para obtener procedimientos más detallados sobre [!DNL Assets Essentials], consulte [Documentación de Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html).
 
-## Cargar recursos{#add-asset}
+## Cargar e insertar recursos{#add-asset}
 
-Para cargar archivos en [!DNL Assets Essentials], primero debe buscar o crear la carpeta en la que se almacenará.
+Para cargar archivos en [!DNL Assets Essentials], primero debe buscar o crear la carpeta en la que se almacenará. A continuación, podrá insertarlos en el contenido del correo electrónico.
 
 Para obtener más información sobre cómo cargar recursos, consulte [Documentación de Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete-assets.html).
 
-1. En la página de inicio de [!DNL Adobe Journey Optimizer], seleccione la pestaña **[!UICONTROL Assets]** para acceder a [!DNL Assets Essentials].
+1. En la página de inicio de [!DNL Adobe Journey Optimizer], seleccione la pestaña **[!UICONTROL Assets]** en el menú **[!UICONTROL Content management]** para acceder a [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
 
@@ -48,69 +46,24 @@ Para obtener más información sobre cómo cargar recursos, consulte [Documentac
 
 1. Seleccione el archivo que desea cargar. Cuando termine, haga clic en **[!UICONTROL Upload]**.
 
-1. Una vez cargado el recurso, puede administrarlo mediante las diferentes opciones detalladas en esta [sección](#manage-asset). El recurso también se puede seguir editando con el modo **Edit** de [!DNL Assets Essentials]. Para obtener más información, consulte esta [página](#edit-assets).
+   Para obtener más información sobre cómo administrar los recursos, consulte esta [página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en).
+
+1. Una vez cargado el recurso, ahora puede insertar los recursos en uno de los mensajes a través del Diseñador de correo electrónico.
+
+   El recurso también se puede seguir editando con el modo **Edit** de [!DNL Assets Essentials]. [Más información](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html).
 
    ![](assets/media_library_12.png)
 
-## Administración de recursos{#manage-asset}
-
-Puede administrar los recursos disponibles en [!DNL Adobe Experience Manager Assets Essentials]. Haga clic en el recurso para acceder a más opciones.
-
-![](assets/media_library_12.png)
-
-Las siguientes acciones están disponibles en la barra de herramientas:
-
-![](assets/media_library_4.png)
-
-* **[!UICONTROL Details]** para acceder a más detalles sobre los recursos.
-* **[!UICONTROL Download]** para iniciar la descarga local directa.
-* **[!UICONTROL Delete]** para quitar el recurso de  [!DNL Assets Essentials].
-* **[!UICONTROL Copy]** para copiar/pegar el recurso en otra carpeta.
-* **[!UICONTROL Move]** para mover el recurso a otras carpetas.
-
-Para obtener más información sobre cómo administrar recursos, consulte [Documentación de Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-assets.html).
-
-## Insertar recursos en mensajes {#use-assets}
-
-Puede insertar recursos en uno de los mensajes a través del Diseñador de correo electrónico. [Obtenga más información sobre el diseño](design-emails.md) de correo electrónico.
-
-Para insertar un recurso desde [!DNL Adobe Experience Manager Assets Essentials]:
-
-1. En el Diseñador de correo electrónico, seleccione **[!UICONTROL Asset picker]** en el panel izquierdo.
+1. En [!DNL Adobe Journey Optimizer], seleccione **[!UICONTROL Asset picker]** en el panel izquierdo del diseñador de correo electrónico.
 
    ![](assets/media_library_5.png)
 
-1. Seleccione la carpeta de recursos. También puede buscar el recurso o la carpeta en la barra de búsqueda.
+1. Seleccione la carpeta Assets. También puede buscar el recurso o la carpeta en la barra de búsqueda.
 
-1. Arrastre y suelte el recurso en un **[!UICONTROL Structure component]**.
+1. Arrastre y suelte el recurso en el contenido del correo electrónico.
 
    ![](assets/media_library_6.png)
 
-Puede personalizar aún más los recursos, como agregar un vínculo externo o un texto con **[!UICONTROL Components settings]**. [Obtenga más información sobre la configuración de componentes](content-components.md)
+1. Puede personalizar aún más los recursos, como agregar un vínculo externo o un texto con **[!UICONTROL Components settings]**. [Obtenga más información sobre la configuración de componentes](content-components.md)
 
-<!--
-
-## Edit and modify assets {#edit-assets}
-
-Your assets can be edited through the **[!UICONTROL Edit mode]** in [!DNL Assets Essentials]. Through this mode, you can crop, resize and rotate your asset. Click the **[!UICONTROL Edit]** button to access the editing mode of your asset.
-
-![](assets/media_library_10.png)
-
-Following actions are available in the toolbar:
-
-![](assets/media_library_11.png)
-
-* **[!UICONTROL Start crop]** to focus on only the content you want in your asset.
-* **[!UICONTROL Rotate left]** to rotate your asset counter-clockwise by 90 degrees.
-* **[!UICONTROL Rotate right]** to rotate your asset clockwise by 90 degrees.
-* **[!UICONTROL Flip vertically]** to vertically mirror your asset.
-* **[!UICONTROL Flip horizontally]** to horizontally mirror your asset.
-* **[!UICONTROL Launch map]** to insert an image map. For more on this, refer to the [Add image maps](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/image-maps.html?lang=en#using) documentation.
-
-## Share assets {#share-assets}
-
-When using the Media library, each asset is saved in folders or sub-folders. You can choose to share your folders and which level of access to assign.
-
-For more information on how to share access to your folders, refer to this page.
-
--->
+   ![](assets/media_library_13.png)
