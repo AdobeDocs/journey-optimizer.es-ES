@@ -5,18 +5,16 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 62d83f69ebf50f36688e3db956bb3860a468c2d6
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '838'
 ht-degree: 2%
 
 ---
 
-# Caso de uso de recorrido
+# Envío de mensajes multicanal
 
-![](../assets/do-not-localize/badge.png)
-
-Esta sección presenta un caso de uso que combina un segmento de lectura, un evento, eventos de reacción y mensajes push/de correo electrónico.
+Esta sección presenta un caso de uso que combina un segmento de lectura, un evento, eventos de reacción y mensajes de correo electrónico/push.
 
 ![](../assets/jo-uc1.png)
 
@@ -44,7 +42,9 @@ En nuestro recorrido, queremos aprovechar un segmento específico de clientes. T
 
 Para obtener más información sobre los segmentos, consulte esta [página](../segment/about-segments.md).
 
-1. En el menú **[!UICONTROL Segments]**, haga clic en **[!UICONTROL Create segment]**.
+1. En la sección del menú CLIENTE , seleccione **[!UICONTROL Segments]**.
+
+1. Haga clic en el botón **[!UICONTROL Create segment]** situado en la parte superior derecha de la lista de segmentos.
 
 1. En el panel **[!UICONTROL Segment properties]**, introduzca un nombre para el segmento.
 
@@ -54,7 +54,7 @@ Para obtener más información sobre los segmentos, consulte esta [página](../s
 
    ![](../assets/add-attributes.png)
 
-El segmento se ha creado y está listo para utilizarse en el recorrido. Con una actividad **Read segment** , puede hacer que todas las personas que pertenecen al segmento ingresen al recorrido.
+El segmento se ha creado y está listo para utilizarse en el recorrido. Con una actividad **Leer segmento**, puede hacer que todas las personas que pertenecen al segmento ingresen al recorrido.
 
 ### Configuración del evento
 
@@ -62,7 +62,7 @@ Debe configurar un evento que se envíe a su recorrido cuando un cliente realice
 
 Para ello, se utiliza un evento basado en reglas. Para obtener más información sobre los eventos, consulte esta [página](../event/about-events.md).
 
-1. En la sección ADMINISTRACIÓN, vaya a **[!UICONTROL Configurations]** y haga clic en **[!UICONTROL Events]**. Haga clic en **[!UICONTROL Add]** para crear un nuevo evento.
+1. En la sección del menú ADMINISTRACIÓN, seleccione **[!UICONTROL Configurations]** y haga clic en **[!UICONTROL Events]**. Haga clic en **[!UICONTROL Create event]** para crear un nuevo evento.
 
 1. Introduzca el nombre del evento.
 
@@ -72,7 +72,7 @@ Para ello, se utiliza un evento basado en reglas. Para obtener más información
 
 1. En el campo **[!UICONTROL Event ID condition]**, defina la condición utilizada por el sistema para identificar los eventos que producen el déclencheur del recorrido. Por ejemplo, puede agregar un campo `purchaseMessage` y definir la siguiente regla: `purchaseMessage="thank you"`
 
-1. Defina los **[!UICONTROL Namespace]** y **[!UICONTROL Key]**.
+1. Defina los **[!UICONTROL Namespace]** y **[!UICONTROL Profile Identifier]**.
 
 1. Haga clic en **[!UICONTROL Save]**.
 
@@ -94,7 +94,7 @@ Consulte esta [sección](../segment/about-segments.md) para aprender a diseñar 
 
 ## Diseño del recorrido
 
-1. Inicie el recorrido con una actividad **Read segment**. Seleccione el segmento creado anteriormente. Todas las personas que pertenecen al segmento entran en el recorrido.
+1. Inicie el recorrido con una actividad **Read Segment**. Seleccione el segmento creado anteriormente. Todas las personas que pertenecen al segmento entran en el recorrido.
 
    ![](../assets/jo-uc4.png)
 
