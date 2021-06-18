@@ -5,36 +5,29 @@ feature: Configuración de la aplicación
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 0%
+source-wordcount: '808'
+ht-degree: 1%
 
 ---
 
-# Configuración de notificaciones push {#get-started-push}
-
-![](assets/do-not-localize/badge.png)
+# Introducción a la configuración push {#get-started-push}
 
 Las notificaciones push le ayudan a llegar a sus usuarios de aplicaciones móviles en cualquier momento, especialmente cuando no utilizan activamente su aplicación. Las notificaciones push pueden ayudarle a lograr una variedad de casos de uso, como proporcionar actualizaciones sobre el servicio, solicitar al usuario que tome medidas, avisar al usuario de una nueva oferta, etc. Las plataformas de dispositivo requieren la inclusión antes de que los usuarios finales puedan recibir o ver sus notificaciones. La inclusión del usuario puede recibirse tan pronto como se inicia la aplicación por primera vez después de la instalación o en una sesión o flujo de trabajo posterior, según corresponda. [!DNL Journey Optimizer] admite notificaciones push y le ayuda a enviar notificaciones muy relevantes a tasas de rendimiento líderes en el sector. Las notificaciones push pueden incluir personalización y contexto basado en Recorridos para aprovechar la información de datos que su marca tiene con Adobe Experience Cloud.
 
 Esta página le ayudará a configurar y comprender los servicios y flujos de trabajo clave relacionados con las notificaciones push en [!DNL Journey Optimizer].
 
-## Definir notificaciones push con Adobe Journey Optimizer
+Los pasos para configurar el canal push en [!DNL Adobe Journey Optimizer] se detallan en [esta página](push-configuration.md).
 
-Para enviar notificaciones push con Adobe Journey Optimizer, debe completar los siguientes pasos:
-
-1. Siga la documentación para configurar los [SDK para móviles de Journey Optimizer y Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/beta/adobe-journey-optimizer) de Adobe en la aplicación.
-1. Crear [ajuste preestablecido para el canal de mensajería push](configuration/message-presets.md)
-
-## Notificaciones push y Adobe de Journey Optimizer
+## Notificaciones push y Adobe Journey Optimizer
 
 En el siguiente gráfico se muestran los sistemas y servicios implicados en los flujos de datos asociados, lo que destaca cómo se entregan las notificaciones push desde un punto de vista de servicio integral.
 
 ![](assets/push-flow.png)
 
 1. Registro de su aplicación móvil con marca (Android o iOS) con los servicios de mensajería push APNS y FCM de Google de Apple
-1. Los servicios de mensajería generan un token push, que es un identificador que Journey Optimizer de Adobe utilizará para dirigirse al dispositivo específico con una notificación push.
+1. Los servicios de mensajería generan un token push, que es un identificador que Adobe Journey Optimizer utilizará para dirigirse al dispositivo específico con una notificación push.
 1. El token push generado anteriormente se pasa a Adobe Experience Platform y se sincroniza con el perfil del cliente en tiempo real; esto se hace OOTB con un SDK de cliente fácil de integrar
 1. Los mensajes push se crean en Adobe Journey Optimizer, los mensajes push se crean con un ajuste preestablecido de mensaje
 1. Los mensajes push se pueden incluir en el lienzo de organización de Recorrido
@@ -54,9 +47,9 @@ En el siguiente gráfico se muestran los sistemas y servicios implicados en los 
    * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) : para enviar notificaciones a la aplicación móvil de Android
    * [Servicio de notificaciones push de Apple (APNS)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) : para enviar notificaciones a la aplicación móvil iOS
 
-* **Adobe Experience Platform Mobile** SDK, que proporciona API de integración del lado del cliente para sus móviles mediante SDK compatibles con Android y iOS. El SDK proporciona una extensión de Journey Optimizer de Adobe que expone una serie de API específicas para la mensajería push y permite el flujo de datos, como registrar el token push o enviar eventos de seguimiento push o cualquier otro evento de experiencia personalizado a Adobe Experience Platform. El SDK también proporciona otras extensiones que habilitan otras funcionalidades de Adobe Experience Cloud, así como de socios de terceros.
+* **Adobe Experience Platform Mobile** SDK, que proporciona API de integración del lado del cliente para sus móviles mediante SDK compatibles con Android y iOS. El SDK proporciona una extensión de Adobe Journey Optimizer que expone una serie de API específicas para la mensajería push y permite el flujo de datos, como registrar el token push o enviar eventos de seguimiento push o cualquier otro evento de experiencia personalizado a Adobe Experience Platform. El SDK también proporciona otras extensiones que habilitan otras funcionalidades de Adobe Experience Cloud, así como de socios de terceros.
 
-   La integración del SDK también requiere la configuración de servicios de recopilación de datos [Adobe Experience Platform](https://experienceleague.adobe.com/docs/launch/using/home.html) como:
+   La integración del SDK también requiere la configuración de servicios de recopilación de datos [Adobe Experience Platform](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=es) como:
 
    * Creación de un conjunto de datos para configurar los conjuntos de datos de evento de perfil y experiencia con los que los datos fluyen a Adobe Experience Platform
    * Creación de una propiedad móvil del lado del cliente y adición de extensiones. El SDK se integra estrechamente con estas extensiones para ofrecer una experiencia de recopilación de datos perfecta.
@@ -71,4 +64,3 @@ En el siguiente gráfico se muestran los sistemas y servicios implicados en los 
 En el siguiente tutorial se muestran los distintos pasos, de principio a fin, necesarios para configurar los componentes que forman el esqueleto del flujo de datos push. Los elementos de acción se han clasificado según la función que realiza la configuración y el componente que se está configurando.
 
 ![](assets/user-flow.png)
-
