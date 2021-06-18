@@ -5,16 +5,14 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
 
 # Previsualizar y probar los mensajes{#preview-and-proof}
-
-![](assets/do-not-localize/badge.png)
 
 Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo. Si ha insertado [contenido personalizado](personalization/personalize.md), podrá comprobar cómo se muestra este contenido en el mensaje, aprovechando los datos de perfil de prueba.
 
@@ -22,7 +20,10 @@ Para detectar posibles errores en el contenido del correo electrónico o en la c
 
 >[!CAUTION]
 >
->Debe tener perfiles de prueba disponibles para poder previsualizar los mensajes y enviar pruebas. Aprenda a crear perfiles de prueba en [esta página](building-journeys/creating-test-profiles.md).
+>Debe tener perfiles de prueba disponibles para poder previsualizar los mensajes y enviar pruebas.
+>
+>Aprenda a crear perfiles de prueba en [esta página](building-journeys/creating-test-profiles.md).
+
 
 Para probar el contenido del mensaje, debe:
 
@@ -33,13 +34,18 @@ A continuación, podrá [enviar pruebas](#send-proofs) a sus perfiles de prueba.
 
 Además, aproveche su cuenta **Litmus** en [!DNL Journey Optimizer] para previsualizar instantáneamente su **procesamiento de correo electrónico** en clientes de correo electrónico populares. A continuación, puede asegurarse de que el contenido del correo electrónico tenga un aspecto bueno y funcione correctamente en cada bandeja de entrada. Aprenda a desbloquear las vistas previas de correo electrónico de Litmus en [esta sección](#email-rendering)
 
+>[!CAUTION]
+>
+>Al obtener una vista previa de un mensaje o enviar pruebas, solo se muestran los datos de personalización del perfil. La personalización basada en datos de contexto, como la información de evento, solo se puede probar en el contexto de un recorrido. Aprenda a probar la personalización en [este caso de uso](personalization/personalization-use-case.md).
+
+
 ## Seleccionar perfiles de prueba{#select-test-profiles}
 
 Utilice [Test profiles](building-journeys/creating-test-profiles.md) para dirigirse a destinatarios adicionales que no coincidan con los criterios de objetivo definidos.
 
 Para seleccionar perfiles de prueba, siga los pasos a continuación:
 
-1. En la interfaz de mensajes o en el diseñador de correo electrónico, haga clic en el botón **[!UICONTROL Preview]** para acceder a la selección de perfil de prueba.
+1. En la interfaz de mensajes o en el diseñador de correo electrónico, haga clic en el botón **[!UICONTROL Show preview]** para acceder a la selección de perfil de prueba.
 
    ![](assets/email-preview-button.png)
 
@@ -105,7 +111,7 @@ Para una vista previa de notificaciones push:
 
    ![](assets/preview-android.png)
 
-## Envíe pruebas{#send-proofs}
+## Envío de pruebas{#send-proofs}
 
 Una prueba es un mensaje específico que le permite probar un mensaje antes de enviarlo a la audiencia principal. Los destinatarios de la prueba se encargan de aprobar el mensaje: renderización, contenido, configuración de personalización, configuración.
 
@@ -124,6 +130,10 @@ Una vez seleccionados los [perfiles de prueba](#select-test-profiles), puede env
    ![](assets/send-proof-view.png)
 
 Debe enviar pruebas después de cualquier modificación en el contenido del mensaje.
+
+>[!NOTE]
+>
+> En la prueba enviada a los perfiles de prueba, el vínculo a la página espejo no está activo. Solo se activa en los mensajes finales.
 
 ## Procesamiento de correo electrónico{#email-rendering}
 
