@@ -5,7 +5,7 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 8%
@@ -13,8 +13,6 @@ ht-degree: 8%
 ---
 
 # Actividad de espera{#section_rlm_nft_dgb}
-
-![](../assets/do-not-localize/badge.png)
 
 Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar una actividad **[!UICONTROL Wait]**. Le permite definir el momento en el que se ejecutará la siguiente actividad. Hay tres opciones disponibles:
 
