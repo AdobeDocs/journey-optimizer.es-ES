@@ -5,22 +5,20 @@ feature: Eventos
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
 
-# Aprovechamiento de los datos de Adobe Analytics{#analytics-data}
+# Aproveche los datos de Adobe Analytics{#analytics-data}
 
-![](../assets/do-not-localize/badge.png)
+Puede aprovechar todos los datos de evento de comportamiento de Adobe Analytics que ya está capturando y transmitiendo a la plataforma para almacenar en déclencheur los recorridos y automatizar las experiencias para sus clientes.
 
 >[!NOTE]
 >
 >Esta sección solo se aplica para eventos basados en reglas y clientes que necesitan utilizar datos de Adobe Analytics.
-
-Puede aprovechar todos los datos de evento de comportamiento de Adobe Analytics que ya está capturando y transmitiendo a la plataforma para almacenar en déclencheur los recorridos y automatizar las experiencias para sus clientes.
 
 Para que esto funcione, debe activar en Adobe Experience Platform el grupo de informes que desea aprovechar:
 
@@ -34,4 +32,4 @@ Esto habilita el conector de origen de Analytics para ese grupo de informes. Cad
 
 ![](../assets/jo-event9.png)
 
-Para obtener más información sobre el conector de origen de Adobe Analytics, consulte la [documentación]https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) y el [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
+Obtenga más información sobre el conector de origen de Adobe Analytics en [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) y [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
