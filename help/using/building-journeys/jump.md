@@ -5,7 +5,7 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 4%
@@ -13,8 +13,6 @@ ht-degree: 4%
 ---
 
 # Saltar de un recorrido a otro {#jump}
-
-![](../assets/do-not-localize/badge.png)
 
 La actividad **[!UICONTROL Jump]** permite insertar individuos de un recorrido a otro. Esta función le permite:
 
@@ -55,8 +53,8 @@ En el recorrido B, el primer evento se activa internamente, a través de la acti
 
 * La actividad **[!UICONTROL Jump]** solo está disponible en recorridos que utilizan un área de nombres.
 * Solo puede saltar a un recorrido que utilice el mismo espacio de nombres que el recorrido de origen.
-* No puede saltar a un recorrido que comience por un evento **Segment qualification** o **Read segment**.
-* No puede tener una actividad **[!UICONTROL Jump]** y un evento **Segment qualification** o **Read segment** en el mismo recorrido.
+* No puede saltar a un recorrido que comience con un evento **Calificación de segmentos** o **Leer segmento**.
+* No puede tener una actividad **[!UICONTROL Jump]** y un evento **Calificación de segmentos** o **Leer segmento** en el mismo recorrido.
 * Puede incluir tantas actividades **[!UICONTROL Jump]** como necesite en un recorrido. Después de **[!UICONTROL Jump]**, puede agregar cualquier actividad necesaria.
 * Puede tener tantos niveles de salto como sea necesario. Por ejemplo, el Recorrido A salta al recorrido B, que salta al recorrido C, etc.
 * El recorrido de destino también puede incluir tantas actividades **[!UICONTROL Jump]** como sea necesario.
@@ -78,7 +76,7 @@ En el recorrido B, el primer evento se activa internamente, a través de la acti
    ![](../assets/jump2.png)
 
 1. Haga clic dentro del campo **Target recorrido**.
-La lista muestra todas las versiones de recorrido en borrador, activas o en modo de prueba. Los recorridos que utilizan un área de nombres diferente o que comienzan con un evento **Segment qualification** no están disponibles. Los recorridos de destino que podrían crear un patrón de bucle también se filtran.
+La lista muestra todas las versiones de recorrido en borrador, activas o en modo de prueba. Los recorridos que utilizan un área de nombres diferente o que comienzan con un evento **Segment Qualification** no están disponibles. Los recorridos de destino que podrían crear un patrón de bucle también se filtran.
 
    ![](../assets/jump3.png)
 
