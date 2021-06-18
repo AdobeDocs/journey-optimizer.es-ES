@@ -5,16 +5,14 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f2c280ba3d2148a62eebff421ef6c8c3c0352936
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 10%
+source-wordcount: '1703'
+ht-degree: 9%
 
 ---
 
 # Introducción a los recorridos{#jo-quick-start}
-
-![](../assets/do-not-localize/badge.png)
 
 ## Requisitos previos
 
@@ -22,7 +20,7 @@ Para enviar mensajes con recorridos, se requiere la siguiente configuración:
 
 1. **Configurar un evento**: si desea configurar los recorridos de forma unitaria cuando se reciba un evento, debe configurar un evento. Puede definir la información esperada y cómo procesarla. Este paso lo realiza un **usuario técnico**. [Más información](../event/about-events.md).
 
-   ![](../assets/jo-event7.png)
+   ![](../assets/jo-event7bis.png)
 
 1. **Crear un segmento**: el recorrido también puede escuchar segmentos de Adobe Experience Platform para enviar mensajes en lote a un conjunto específico de perfiles. Para ello, debe crear segmentos. [Más información](../segment/about-segments.md).
 
@@ -42,17 +40,17 @@ Este paso lo realiza el **usuario empresarial**. Aquí es donde crea sus recorri
 
 Estos son los pasos principales para enviar mensajes a través de recorridos:
 
-1. En la sección ADMINISTRACIÓN DE RECORRIDOS , haga clic en **[!UICONTROL Journeys]**. Se muestra la lista de recorridos.
+1. En la sección del menú ADMINISTRACIÓN DE RECORRIDOS , haga clic en **[!UICONTROL Journeys]**. Se muestra la lista de recorridos.
 
    ![](../assets/interface-journeys.png)
 
-1. Haga clic en **[!UICONTROL Create]** para crear un nuevo recorrido.
+1. Haga clic en **[!UICONTROL Create Journey]** para crear un nuevo recorrido.
 
 1. Edite las propiedades del recorrido en el panel de configuración que se muestra en el lado derecho. Obtenga más información en esta [sección](journey-gs.md#change-properties).
 
    ![](../assets/jo-properties.png)
 
-1. Para empezar, arrastre y suelte un evento o una actividad **Read segment** de la paleta en el lienzo. Para obtener más información sobre el diseño de recorrido, consulte [esta sección](using-the-journey-designer.md).
+1. Para empezar, arrastre y suelte un evento o una actividad **Leer segmento** de la paleta en el lienzo. Para obtener más información sobre el diseño de recorrido, consulte [esta sección](using-the-journey-designer.md).
 
    ![](../assets/read-segment.png)
 
@@ -82,7 +80,7 @@ El **Copy technical details** permite copiar información técnica sobre el reco
 
 De forma predeterminada, los nuevos recorridos permiten volver a entrar. Puede desmarcar la opción de recorridos de &quot;una toma&quot;, por ejemplo, si desea ofrecer un regalo único cuando una persona entra en una tienda. En ese caso, no desea que el cliente pueda volver a entrar en el recorrido y recibir la oferta de nuevo.
 
-Cuando un recorrido &quot;termina&quot;, tendrá el estado **[!UICONTROL Closed (no entrance)]**. El recorrido dejará de permitir la entrada al recorrido de nuevos individuos. Las personas que ya están en el recorrido terminarán normalmente el recorrido.
+Cuando un recorrido &quot;termina&quot;, tendrá el estado **[!UICONTROL Closed]**. El recorrido dejará de permitir la entrada al recorrido de nuevos individuos. Las personas que ya están en el recorrido terminarán normalmente el recorrido.
 
 Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará al estado **Finalizado**. Consulte esta [sección](../building-journeys/journey-gs.md#global_timeout).
 
@@ -114,6 +112,32 @@ Puede introducir una zona horaria fija o utilizar perfiles de Adobe Experience P
 
 Para obtener más información sobre la administración de huso horario, consulte [esta página](../building-journeys/timezone-management.md).
 
+### Modo de ráfaga {#burst}
+
+El modo ráfaga es un complemento de pago que permite enviar mensajes push muy rápidamente en grandes volúmenes. Se utiliza para recorridos simples que incluyen un segmento de lectura y un mensaje push simple. Burst se utiliza cuando el retraso en la entrega de mensajes es crítico para el negocio, cuando desea enviar una alerta push urgente en teléfonos móviles, por ejemplo una noticia de último minuto para los usuarios que han instalado la aplicación de canal de noticias.
+
+Limitaciones:
+
+* El recorrido debe comenzar con un segmento de lectura. No se permiten eventos.
+* El siguiente paso debe ser un mensaje push. No se permite ninguna otra actividad o paso (excepto la actividad final opcional):
+   * Solo canal push
+   * No se permite ninguna personalización en el mensaje
+   * El mensaje debe ser pequeño (&lt;2 KB)
+
+Nota importante:
+
+Si no se cumple ninguno de los requisitos, el modo de ráfaga no estará disponible en el recorrido.
+
+Para activar el modo Burst , abra el recorrido y haga clic en el icono del lápiz, en la parte superior derecha para acceder a las propiedades del recorrido. A continuación, active la opción **Enable burst mode**.
+
+![](../assets/burst.png)
+
+El modo de ráfaga se desactivará si modifica un recorrido de ráfaga y añade una actividad que no sea compatible con la ráfaga (mensaje, cualquier otra acción, evento, etc.). Se mostrará un mensaje.
+
+![](../assets/burst2.png)
+
+A continuación, pruebe y publique el recorrido de forma normal. Los mensajes del modo de prueba no se envían mediante el modo de explosión.
+
 ## Finalización de un recorrido
 
 Un recorrido puede finalizar para un individuo por dos razones:
@@ -129,7 +153,7 @@ Un recorrido puede cerrarse por los siguientes motivos:
 * Un recorrido basado en segmentos de una toma que ha terminado de ejecutarse.
 * Después de la última aparición de un recorrido basado en segmentos recurrentes.
 
-Cuando se cierra un recorrido (por cualquiera de los motivos anteriores), aparece el estado **[!UICONTROL Closed (no entrance)]**. El recorrido dejará de permitir la entrada al recorrido de nuevos individuos. Las personas que ya están en el recorrido terminarán normalmente el recorrido. Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará al estado **Finalizado**. Consulte esta [sección](../building-journeys/journey-gs.md#global_timeout).
+Cuando se cierra un recorrido (por cualquiera de los motivos anteriores), aparece el estado **[!UICONTROL Closed]**. El recorrido dejará de permitir la entrada al recorrido de nuevos individuos. Las personas que ya están en el recorrido terminarán normalmente el recorrido. Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará al estado **Finalizado**. Consulte esta [sección](../building-journeys/journey-gs.md#global_timeout).
 
 En caso de que necesite detener el progreso de todas las personas en el recorrido, puede detenerlo. Al detener el recorrido, se agotará el tiempo de espera de todas las personas del recorrido.
 
@@ -145,18 +169,18 @@ Las opciones **[!UICONTROL Stop]** y **[!UICONTROL Close to new entrances]** per
 
 Puede cerrar un recorrido manualmente para asegurarse de que los clientes que ya han entrado en el recorrido puedan finalizar su ruta, pero que los nuevos usuarios no puedan entrar en el recorrido.
 
-Cuando se cierra, un recorrido tendrá el estado **[!UICONTROL Closed (no entrance)]**. Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará al estado **Finalizado**. Consulte esta [sección](../building-journeys/journey-gs.md#global_timeout).
+Cuando se cierra, un recorrido tendrá el estado **[!UICONTROL Closed]**. Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará al estado **Finalizado**. Consulte esta [sección](../building-journeys/journey-gs.md#global_timeout).
 
 No se puede reiniciar ni eliminar una versión de recorrido cerrada. Puede crear una nueva versión o duplicarla. Solo se pueden eliminar los recorridos finalizados.
 
-Puede cerrar un recorrido haciendo clic en **[!UICONTROL Close to new entrances]** mientras pasa el ratón por encima de un recorrido en la lista de recorridos.
+Para cerrar un recorrido de la lista de recorridos, haga clic en el botón **[!UICONTROL Ellipsis]** situado a la derecha del nombre del recorrido y seleccione **[!UICONTROL Close to new entrances]**.
 
-![](../assets/do-not-localize/journey-finish-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 También puede:
 
 1. En la lista **[!UICONTROL Journeys]**, haga clic en el recorrido que desee cerrar.
-1. En la parte superior derecha, haga clic en la flecha abajo.
+1. En la parte superior derecha, haga clic en la flecha hacia abajo.
 
    ![](../assets/finish_drop_down_list.png)
 
@@ -171,9 +195,9 @@ No se puede reiniciar una versión de recorrido detenida.
 
 Cuando se detiene, un recorrido tendrá el estado **[!UICONTROL Stopped]**.
 
-Puede detener un recorrido (por ejemplo, si un especialista en marketing se da cuenta de que el recorrido está dirigido a una audiencia incorrecta o si una acción personalizada que supuestamente debe enviar mensajes no funciona correctamente...) haciendo clic en **[!UICONTROL Stop]** mientras pasa el ratón por encima de un recorrido en la lista de recorridos.
+Puede detener un recorrido, por ejemplo, si un especialista en marketing se da cuenta de que el recorrido está dirigido a una audiencia incorrecta o si una acción personalizada que supuestamente debe enviar mensajes no funciona correctamente. Para detener un recorrido de la lista de recorridos, haga clic en el botón **[!UICONTROL Ellipsis]** situado a la derecha del nombre del recorrido y seleccione **[!UICONTROL Stop]**.
 
-![](../assets/do-not-localize/journey-stop-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 También puede:
 
