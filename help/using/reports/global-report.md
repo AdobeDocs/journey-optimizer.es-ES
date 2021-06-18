@@ -5,28 +5,26 @@ feature: Informes
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '242'
 ht-degree: 2%
 
 ---
 
 # Informe global {#global-report}
 
-![](../assets/do-not-localize/badge.png)
-
 >[!NOTE]
 >
 > Si las consultas personalizadas se realizan a través de API al utilizar el servicio de Consulta, espere un cierto retraso para los informes.
 
-El **[!UICONTROL Global report]** permite medir la efectividad de los recorridos y envíos durante un período de tiempo seleccionado.
+Utilice **[!UICONTROL Global report]** para medir el impacto de los recorridos y envíos durante un período de tiempo seleccionado.
 
-* Si desea dirigirse a un recorrido o envíos de un recorrido, en el menú **[!UICONTROL Journeys]**, acceda al recorrido y haga clic en el icono **[!UICONTROL Global report]**. A continuación, puede encontrar el Recorrido, el correo electrónico y la inserción **[!UICONTROL Global report]**.
+* Si desea dirigirse a un recorrido o envíos en el contexto de un recorrido, en el menú **[!UICONTROL Journeys]**, acceda al recorrido y haga clic en el icono **[!UICONTROL Global report]**. A continuación, puede encontrar el Recorrido, el correo electrónico y la inserción **[!UICONTROL Global report]**.
 
 * Si desea segmentar un envío específico, en la pestaña **[!UICONTROL Global view]** de los mensajes, seleccione **[!UICONTROL Executions]** en el menú avanzado del envío seleccionado.**[!UICONTROL Global Report]**
 
-## Modificar tablero {#modify-dashboard}
+## Personalizar tablero {#modify-dashboard}
 
 Cada tablero de informes se puede modificar modificando o eliminando las utilidades o cambiando el lapso de tiempo de destino. Cambiar las utilidades solo afecta al tablero del usuario actual. Otros usuarios verán sus propios tableros o los que estén configurados de forma predeterminada.
 
@@ -36,7 +34,7 @@ Cada tablero de informes se puede modificar modificando o eliminando las utilida
 
    ![](../assets/global_report_6.png)
 
-1. click **[!UICONTROL Modify dashboard]**.
+1. click **[!UICONTROL Modify]**.
 
    ![](../assets/global_report_8.png)
 
