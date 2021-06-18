@@ -6,7 +6,7 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 7eceb7292c127c1b16a564fc19d0fc091808ee35
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 4%
@@ -14,8 +14,6 @@ ht-degree: 4%
 ---
 
 # Publicar sus mensajes {#publish-manage-messages}
-
-![](assets/do-not-localize/badge.png)
 
 ## Publicar un mensaje {#publish-message}
 
@@ -58,4 +56,4 @@ Para actualizar un mensaje publicado:
 
 Tan pronto como se publique la nueva versión, tras la siguiente llamada de API, se generará una nueva ejecución de mensaje. El siguiente perfil entrante recibirá la nueva versión.
 
-<!--For batch messages, the audience/segment being processed in the previous execution will not be affected by the new version. Only the next incoming API call with an audience/segment will generate a new message execution with the new version.-->
+<!--For batch messages, the audience/segment being processed in the previous execution will not be affected by the new version. Only the next incoming API call with an audience/segment will generate a new message execution with the new version. -->
