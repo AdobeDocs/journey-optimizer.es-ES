@@ -5,9 +5,9 @@ feature: Configuración de la aplicación
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 705aa4c238eb1d6d6ce46b68f8690f639124a090
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
@@ -19,8 +19,10 @@ Con [!DNL Journey Optimizer], puede configurar ajustes preestablecidos de mensaj
 
 >[!CAUTION]
 >
-> La configuración de los ajustes preestablecidos de mensaje está restringida a los administradores de Recorrido. [Más información](../administration/ootb-product-profiles.md#journey-administrator)
-
+> * La configuración de los ajustes preestablecidos de mensaje está restringida a los administradores de Recorrido. [Más información](../administration/ootb-product-profiles.md#journey-administrator)
+   >
+   > 
+* Debe realizar pasos de configuración de correo electrónico y push antes de crear ajustes preestablecidos de mensaje.
 
 
 Una vez configurados los ajustes preestablecidos de mensaje, puede seleccionarlos al crear mensajes desde la lista **[!UICONTROL Presets]**.
@@ -33,11 +35,9 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
    ![](../assets/preset-create.png)
 
-
 1. Introduzca un nombre y una descripción (opcional) para el ajuste preestablecido y, a continuación, seleccione los canales que desea configurar.
 
    ![](../assets/preset-general.png)
-
 
    >[!NOTE]
    >
@@ -57,13 +57,27 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
    * Seleccione el grupo de IP que desea asociar al ajuste preestablecido. [Más información](ip-pools.md)
    * Introduzca los parámetros de encabezado para los correos electrónicos enviados mediante el ajuste preestablecido.
 
+      >[!CAUTION]
+      >
+      >Excepto para el campo **Responder a (enviar correo electrónico)**, el dominio de direcciones de correo electrónico debe utilizar el subdominio [delegado ](about-subdomain-delegation.md) seleccionado actualmente.
+
+      * **[!UICONTROL Sender name]**: Nombre del remitente, como el nombre de su marca.
+
+      * **[!UICONTROL Sender email]**: La dirección de correo electrónico que desea utilizar para sus comunicaciones. Por ejemplo, si el subdominio delegado es *marketing.luma.com*, puede utilizar *contact@marketing.luma.com*.
+
+      * **[!UICONTROL Reply to (name)]**: El nombre que se utilizará cuando el destinatario haga clic en el botón  **** Replybutton del software cliente de correo electrónico.
+
+      * **[!UICONTROL Reply to (email)]**: La dirección de correo electrónico que se utilizará cuando el destinatario haga clic en el botón  **** Replybutton del software cliente de correo electrónico. Los correos electrónicos enviados a esta dirección se reenvían a la dirección **[!UICONTROL Reply to (forward email)]** que se proporciona a continuación. Debe utilizar una dirección definida en el subdominio delegado (por ejemplo, *reply@marketing.luma.com*); de lo contrario, se eliminarán los correos electrónicos.
+
+      * **[!UICONTROL Reply to (forward email)]**: Todos los correos electrónicos recibidos por  [!DNL Journey Optimizer] para el subdominio delegado se reenviarán a esta dirección de correo electrónico. Puede especificar cualquier dirección, excepto una dirección de correo electrónico definida en el subdominio delegado. Por ejemplo, si el subdominio delegado es *marketing.luma.com*, se prohíbe cualquier dirección como *abc@marketing.luma.com*.
+
+      * **[!UICONTROL Error email]**: Todos los errores generados por los ISP después de unos días de envío del correo (devoluciones asincrónicas) se reciben en esta dirección.
+
+      ![](../assets/preset-header.png)
+
       >[!NOTE]
       >
-      > * Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto`.` y guión `-`.
-         > 
-         > 
-      * Excepto para **Responder a (enviar correo electrónico)**, el dominio de direcciones de correo electrónico debe utilizar el subdominio seleccionado actual.
-
+      >Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto`.` y guión `-`.
 
 
 1. Configure la **notificación push** configuración.
@@ -86,7 +100,6 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
    Estas comprobaciones incluyen pruebas de capacidad de envío que realiza el equipo de entrega de Adobes:
 
-
    * Validación de SPF
    * Validación de DKIM
    * Validación de registros MX
@@ -94,7 +107,6 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
    * Comprobación de host de Helo
    * Verificación del grupo IP
    * Registro A/PTR, verificación del subdominio t/m/res
-
 
 1. Una vez realizadas las comprobaciones correctamente, el ajuste preestablecido de mensaje obtiene el estado **[!UICONTROL Active]**. Está listo para utilizarse para enviar mensajes.
 
