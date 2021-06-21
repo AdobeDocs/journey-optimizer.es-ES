@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para ofrecer experiencias cone
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a904ee8fdcb5f634e856bf55432836e3649a1abc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '668'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 69%
    + [Introducción a los mensajes](using/get-started-content.md)
    + Creación de mensajes {#create-message}
       + [Creación de un mensaje ](using/create-message.md)
-      + [Creación de un correo electrónico](using/create-email.md)
-      + [Creación de una notificación push](using/create-push.md)
+      + [Crear un correo electrónico](using/create-email.md)
+      + [Crear una notificación push](using/create-push.md)
    + [Adición y administración de recursos](using/assets-essentials.md)
    + Diseñador de correo electrónico {#email-designer}
       + [Introducción al diseño de correo electrónico](using/design-emails.md)
@@ -33,7 +33,7 @@ ht-degree: 69%
       + [Importación o codificación del contenido del correo electrónico](using/existing-content.md)
       + [Uso de los componentes de contenido del diseñador de correo electrónico](using/content-components.md)
    + Personalización{#personalization}
-      + [Introducción con personalización](using/personalization/personalize.md)
+      + [Introducción  a la personalización](using/personalization/personalize.md)
       + [Sintaxis de personalización](using/personalization/personalization-syntax.md)
       + [Validación de personalización](using/personalization/personalization-validation.md)
       + [Caso de uso de personalización](using/personalization/personalization-use-case.md)
@@ -41,10 +41,10 @@ ht-degree: 69%
          + [Lista de funciones de ayuda](using/personalization/functions/functions.md)
          + [Funciones de agregación](using/personalization/functions/aggregation.md)
          + [Funciones aritméticas](using/personalization/functions/arithmetic-functions.md)
-         + [Matrices y funciones de lista](using/personalization/functions/arrays-list.md)
+         + [Funciones de matrices y listas](using/personalization/functions/arrays-list.md)
          + [Funciones booleanas y de comparación](using/personalization/functions/operators.md)
          + [Ayudantes](using/personalization/functions/helpers.md)
-         + [Asignar funciones](using/personalization/functions/maps.md)
+         + [Funciones de asignación](using/personalization/functions/maps.md)
          + [Funciones de objeto](using/personalization/functions/objects.md)
          + [Funciones de cadena](using/personalization/functions/string.md)
    + [Adición de ofertas personalizadas](using/deliver-personalized-offers.md)
@@ -91,15 +91,15 @@ ht-degree: 69%
    + [Seguimiento de mensajes](using/message-tracking.md)
    + [Monitorización de mensajes](using/message-monitoring.md)
    + Informe en vivo {#live-report}
-      + [Acceso al panel de informes en directo](using/reports/live-report.md)
-      + [Informe de recorrido en directo](using/reports/journey-live-report.md)
-      + [Informe de Email Live](using/reports/email-live-report.md)
-      + [Informe Push Live](using/reports/push-live-report.md)
+      + [Acceso al panel de informes activo](using/reports/live-report.md)
+      + [Informe activo de recorrido](using/reports/journey-live-report.md)
+      + [Informe activo de correo electrónico](using/reports/email-live-report.md)
+      + [Informe activo push](using/reports/push-live-report.md)
    + Informe global {#global-report}
-      + [Acceso al tablero de informes globales](using/reports/global-report.md)
-      + [Recorrido Informe global](using/reports/journey-global-report.md)
+      + [Acceso al panel de informes globales](using/reports/global-report.md)
+      + [Informe global de recorrido](using/reports/journey-global-report.md)
       + [Informe global de correo electrónico](using/reports/email-global-report.md)
-      + [Insertar informe global](using/reports/push-global-report.md)
+      + [Informe global push](using/reports/push-global-report.md)
    + Informes de recorrido {#reports}
       + [Creación de informes de recorrido](using/reports/sharing-overview.md)
       + [Campos del recorrido](using/reports/sharing-journey-fields.md)
@@ -111,16 +111,16 @@ ht-degree: 69%
       + [Introducción a la capacidad de entrega](using/deliverability.md)
       + [Lista de supresión](using/suppression-list.md)
 + Administración de decisiones {#offer-decisioniong}
-   + Introducción a Administración de decisiones {#get-started}
-      + [Acerca de la gestión de decisiones](using/offers/get-started/starting-offer-decisioning.md)
+   + Introducción a la Administración de decisiones {#get-started}
+      + [Acerca de la Administración de decisiones](using/offers/get-started/starting-offer-decisioning.md)
       + [Interfaz de usuario](using/offers/get-started/user-interface.md)
       + [Pasos clave para crear y administrar ofertas](using/offers/offer-library/key-steps.md)
-      + [Caso de uso: insertar ofertas en un correo electrónico](using/offers/offers-e2e.md)
+      + [Caso práctico: insertar ofertas en un correo electrónico](using/offers/offers-e2e.md)
    + Crear componentes {#create-components}
       + [Crear ubicaciones](using/offers/offer-library/creating-placements.md)
       + [Crear reglas de decisión](using/offers/offer-library/creating-decision-rules.md)
       + [Crear etiquetas](using/offers/offer-library/creating-tags.md)
-      + [Creación de fórmulas de clasificación](using/offers/offer-library/create-ranking-formulas.md)
+      + [Crear fórmulas de clasificación](using/offers/offer-library/create-ranking-formulas.md)
    + Crear y administrar ofertas {#managing-offers-in-the-offer-library}
       + [Crear ofertas personalizadas](using/offers/offer-library/creating-personalized-offers.md)
       + [Crear ofertas de reserva](using/offers/offer-library/creating-fallback-offers.md)
@@ -129,7 +129,7 @@ ht-degree: 69%
       + [Crear decisiones](using/offers/offer-activities/create-offer-activities.md)
       + [Configuración de la selección de ofertas en decisiones](using/offers/offer-activities/configure-offer-selection.md)
    + Creación de informes de Administración de decisiones {create-reports}
-      + [Introducción a los eventos de administración de decisiones](using/offers/reports/get-started-events.md)
+      + [Introducción a los eventos de Administración de decisiones](using/offers/reports/get-started-events.md)
       + [Información clave sobre eventos de Administración de decisiones](using/offers/reports/key-information.md)
       + [Campos XDM de eventos de acceso](using/offers/reports/xdm-fields.md)
    + Exportación del catálogo de ofertas {#export-catalog}
@@ -187,29 +187,29 @@ ht-degree: 69%
       + Entrega de ofertas mediante API {#offer-delivery}
          + [API de decisiones](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [SDK web de Adobe Experience Platform](using/offers/api-reference/web-sdk.md)
-+ Configuración {#get-started}
++ Configuración{#get-started}
    + [Introducción a la configuración de Journey Optimizer](using/configuration/get-started-configuration.md)
    + Configurar mensajes {#configuration}
       + Configuración de notificaciones push{#push-config}
          + [Introducción a la configuración push](using/push-gs.md)
          + [Configurar el canal de notificaciones push](using/push-configuration.md)
       + Configuración de correo electrónico {#email-config}
-         + Delegación de subdominios {#delegate-subdomains}
+         + Delegar subdominios {#delegate-subdomains}
             + [Introducción a la delegación de subdominios](using/configuration/about-subdomain-delegation.md)
-            + [Delegación de un subdominio](using/configuration/delegate-subdomain.md)
-            + [Acceso a subdominios delegados](using/configuration/access-subdomains.md)
+            + [Delegar un subdominio](using/configuration/delegate-subdomain.md)
+            + [Acceder a subdominios delegados](using/configuration/access-subdomains.md)
             + [Añadir un registro TXT de Google](using/configuration/google-txt.md)
-            + [Acceso a registros PTR](using/configuration/ptr-records.md)
+            + [Acceder a registros PTR](using/configuration/ptr-records.md)
          + [Crear grupos de IP](using/configuration/ip-pools.md)
-         + Supervisión de las direcciones de correo electrónico {#monitor-reputation}
+         + Supervisar las direcciones de correo electrónico {#monitor-reputation}
             + [Administrar lista de supresión](using/configuration/manage-suppression-list.md)
             + [Reintentos](using/configuration/retries.md)
          + [Cambiar la dirección principal del correo electrónico](using/configuration/primary-email-addresses.md)
       + [Crear ajustes preestablecidos de mensaje](using/configuration/message-presets.md)
-   + Configuración de recorridos {#configure-journeys}
+   + Configurar recorridos {#configure-journeys}
       + [Acerca de las fuentes de datos, los eventos y las acciones](using/configuration/about-data-sources-events-actions.md)
       + [Integración con sistemas externos](using/configuration/external-systems.md)
-      + Configuración de evento{#events-journeys}
+      + Configuración de eventos {#events-journeys}
          + [Principio general](using/event/about-events.md)
          + Configuración de un evento unitario {#unitary-events}
             + [Introducción a los eventos unitarios](using/event/about-creating.md)
@@ -229,6 +229,6 @@ ht-degree: 69%
 + Control de acceso {#administration}
    + [Información general sobre el control de acceso](using/administration/permissions-overview.md)
    + [Perfiles de producto integrados](using/administration/ootb-product-profiles.md)
-   + [Administración de usuarios y perfiles de producto](using/administration/permissions.md)
+   + [Administrar usuarios y perfiles de producto](using/administration/permissions.md)
    + [Niveles de permisos](using/administration/high-low-permissions.md)
    + [Administración de entornos limitados](using/administration/sandboxes.md)
