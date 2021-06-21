@@ -5,9 +5,9 @@ feature: Información general
 topic: Administración de contenido
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '480'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ Los mensajes están disponibles en el acceso directo **[!UICONTROL Messages]** d
 
 >[!NOTE]
 >
->Todos los usuarios pueden acceder, crear, editar y publicar mensajes. Obtenga más información sobre los permisos de usuario [en esta sección](../using/administration/permissions.md).
+>Los usuarios pueden acceder, crear, editar o publicar mensajes según su perfil de producto. Obtenga más información sobre los permisos de usuario [en esta sección](../using/administration/permissions.md).
 
 ![](assets/messages-list.png)
 
@@ -60,7 +60,7 @@ Para crear un nuevo mensaje, siga los pasos a continuación:
 
    Ahora puede crear el contenido del mensaje y adaptar la configuración. Encontrará información detallada sobre la configuración del correo electrónico y las notificaciones push en las secciones siguientes:
 
-   * [Creación de un correo electrónico](create-email.md)
+   * [Crear un correo electrónico](create-email.md)
    * [Creación de notificaciones push](create-push.md)
 
    >[!NOTE]
