@@ -6,9 +6,9 @@ topic: Administración de contenido
 role: User
 level: Beginner
 source-git-commit: 72f1a776a65287e5b0db4785cc9278529708aa20
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 81%
 
 * [Crear su primer recorrido](using/building-journeys/journeys-uc.md) </br>Obtenga información sobre cómo crear y ejecutar un recorrido
 
-* [ [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) </br>Configure los pasos clave de Learn para configurar Journey Optimizer
+* [Configuración [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) </br>Conozca los pasos clave para configurar Journey Optimizer
 
-* [Conceder acceso  [!DNL Journey Optimizer]](using/administration/permissions-overview.md) </br> a Obtenga información sobre cómo definir y administrar los permisos asignados a los  [!DNL Journey Optimizer] usuarios
+* [Otorgar acceso [!DNL Journey Optimizer]](using/administration/permissions-overview.md) </br> Aprenda a definir y administrar los permisos asignados a los usuarios de [!DNL Journey Optimizer]
 
 * [Administración de decisiones](using/offers/get-started/starting-offer-decisioning.md) </br> Cree ofertas y proporcione la mejor oferta y experiencia a sus clientes
 
