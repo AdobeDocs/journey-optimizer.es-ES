@@ -1,29 +1,19 @@
 ---
-title: Administración de usuarios y perfiles de producto
+title: Administrar usuarios y perfiles de producto
 description: Obtenga información sobre cómo administrar permisos
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Grupos de control
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: f2c280ba3d2148a62eebff421ef6c8c3c0352936
+source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
-# Administración de usuarios y perfiles de producto {#manage-permissions}
+# Administrar usuarios y perfiles de producto {#manage-permissions}
 
 >[!IMPORTANT]
 >
