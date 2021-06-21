@@ -5,9 +5,9 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: 26cecf08f2032c58458f69ff1f2779e3c2603d18
+source-git-commit: 8dfa7a7700e1bb452ea9cd5e7d0adb6df55de03b
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1320'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ Se requiere la siguiente información:
 2. **Archivo** CSV: Archivo separado por comas que contiene la lista de perfiles de prueba que se van a crear. El caso de uso espera un formato predefinido para el archivo CSV que contiene la lista de perfiles de prueba que se van a crear. Cada fila del archivo debe incluir los siguientes campos en el orden correcto de la siguiente manera:
 
    1. **Id** de persona: Identificador único del perfil de prueba. Los valores de este campo deben reflejar el área de nombres de identidad seleccionada. (Por ejemplo, si **Phone** está seleccionado para el área de nombres de identidad, los valores de este campo deben ser números de teléfono. Del mismo modo, si **Email** está seleccionado, los valores de este campo deben ser correos electrónicos)
-   1. **Correo electrónico**: Probar la dirección de correo electrónico del perfil. (El campo **Person Id** y el campo **Email Address** podrían contener potencialmente los mismos valores si se selecciona **Email** como el área de nombres de identidad)
+   1. **Dirección** de correo electrónico: Probar la dirección de correo electrónico del perfil. (El campo **Person Id** y el campo **Email Address** podrían contener potencialmente los mismos valores si se selecciona **Email** como el área de nombres de identidad)
    1. **Nombre**: Nombre del perfil de prueba.
    1. **Apellidos**: Nombre del perfil de prueba.
    1. **Ciudad**: Prueba del perfil de ciudad de residencia
