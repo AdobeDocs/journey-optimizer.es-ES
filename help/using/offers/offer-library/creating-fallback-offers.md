@@ -5,7 +5,7 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 5%
@@ -46,7 +46,7 @@ Para crear una oferta de reserva, siga estos pasos:
 
    ![](../../assets/fallback_review.png)
 
-1. La oferta de reserva se muestra en la lista con los estados **[!UICONTROL Live]** o **[!UICONTROL Draft]**, dependiendo de si lo aprobó o no en el paso anterior.
+1. La oferta de reserva se muestra en la lista con los estados **[!UICONTROL Live]** o **[!UICONTROL Draft]**, en función de si lo aprobó o no en el paso anterior.
 
    Ahora está listo para enviarse a los clientes. Puede seleccionarlo para mostrar sus propiedades y editarlo. <!-- no suppression? -->
 
