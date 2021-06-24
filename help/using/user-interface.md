@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: d85dfe519ebbbb27693c7283c19cc1d7171c25ba
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 63%
+ht-degree: 76%
 
 ---
 
@@ -37,7 +37,7 @@ Utilice los vínculos de la izquierda para examinar las funciones.
 >
 >Las capacidades disponibles pueden variar según los permisos y el acuerdo de licencia.
 
-A continuación se encuentra la lista completa de servicios y funcionalidades disponibles en la navegación izquierda y los vínculos a la documentación asociada.
+A continuación, hay la lista completa de servicios y capacidades en el menú izquierdo y los vínculos a la documentación asociada.
 
 **Inicio**
 
@@ -143,7 +143,7 @@ Desde la interfaz de Adobe Journey Optimizer, utilice la búsqueda de Adobe Expe
 
 ![](assets/unified-search.png)
 
-Presione **Enter** para acceder a todos los resultados y filtrar.
+Pulse **Entrar** para acceder a todos los resultados y filtrar.
 
 ![](assets/search-and-filter.png)
 
@@ -154,7 +154,7 @@ En la mayoría de las listas, una barra de búsqueda le permite buscar un elemen
 
 Se puede acceder a los filtros haciendo clic en el icono de filtro en la parte superior izquierda de la lista. El menú de filtros permite filtrar los elementos mostrados según diferentes criterios. Puede elegir mostrar únicamente los elementos de un determinado tipo o estado, los que ha creado o los modificados en los últimos 30 días. Las opciones difieren según el contexto.
 
-En la lista de recorridos, puede filtrar los recorridos según su estado y versión desde **[!UICONTROL Status and version filters]**. Puede elegir mostrar solo los recorridos que utilizan un evento, un grupo de campos o una acción específicos de **[!UICONTROL Activity filters]** y **[!UICONTROL Data filters]**. Los **[!UICONTROL Publication filters]** permiten seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar las versiones más recientes de recorridos en directo que se publicaron ayer. [Más información](building-journeys/using-the-journey-designer.md).
+En la lista de recorridos, puede filtrar los recorridos según su estado y versión en **[!UICONTROL Status and version filters]**. Puede elegir mostrar solo los recorridos que utilizan un evento, un grupo de campos o una acción en particular en **[!UICONTROL Activity filters]** y **[!UICONTROL Data filters]**. Los **[!UICONTROL Publication filters]** permiten seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar las versiones más recientes de recorridos en directo que se publicaron ayer. [Más información](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
