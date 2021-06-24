@@ -5,7 +5,7 @@ feature: Informes
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 1%
@@ -26,15 +26,15 @@ La página recorrido **[!UICONTROL Global report]** se mostrará con las siguien
 
 El recorrido **[!UICONTROL Global report]** se divide en distintas utilidades que detallan el éxito y los errores de su recorrido. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte esta [sección](global-report.md#modify-dashboard).
 
-## pestaña recorrido {#journey-global}
+## ficha recorrido {#journey-global}
 
 Desde el recorrido **[!UICONTROL Global report]**, la pestaña **[!UICONTROL Journey]** le ofrece una vista clara de los datos de seguimiento más importantes sobre su recorrido.
 
 ![](../assets/global_report_2.png)
 
-La utilidad **[!UICONTROL Journey`s performance]** permite ver la ruta de los perfiles de destino paso a paso a través del recorrido.
+La utilidad **[!UICONTROL Journey Performance]** permite ver la ruta de los perfiles de destino paso a paso a través del recorrido.
 
-El widget **[!UICONTROL Journey`s statistics]** muestra los siguientes KPI:
+El widget **[!UICONTROL Journey Statistics]** muestra los siguientes KPI:
 
 * **[!UICONTROL Entered profiles]**: Número total de personas que llegaron al evento de entrada del recorrido.
 
@@ -56,7 +56,7 @@ La tabla **[!UICONTROL Top Actions]** contiene los datos disponibles para **[!UI
 
 * **[!UICONTROL Error in action]**: Número total de errores que se han producido para  **[!UICONTROL Actions]**.
 
-## Pestaña Correo electrónico {#email-global}
+## Ficha Correo electrónico {#email-global}
 
 Desde el recorrido **[!UICONTROL Global report]**, la pestaña **[!UICONTROL Email]** detalla la información principal relativa a los envíos de correo electrónico enviados en el recorrido.
 
@@ -124,7 +124,7 @@ El gráfico y la tabla **[!UICONTROL Email - Top Url]** detallan qué direccione
 
 El gráfico y la tabla **[!UICONTROL Email - Top recipient domain]** detallan qué dominios son los más utilizados por los destinatarios para abrir el correo electrónico.
 
-## Pestaña push {#push-global}
+## Ficha Insertar {#push-global}
 
 Desde el recorrido **[!UICONTROL Global report]**, la pestaña **[!UICONTROL Push]** detalla la información principal relativa a los envíos push enviados en el recorrido.
 
