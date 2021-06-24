@@ -5,7 +5,7 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 4%
@@ -26,7 +26,7 @@ Puede crear dos tipos de colecciones:
 
 * **Las** colecciones dinámicas son colecciones de ofertas basadas en etiquetas. Estas colecciones se actualizan automáticamente. Por ejemplo, si se crea una oferta nueva con la etiqueta seleccionada, se añadirá automáticamente a la colección.
 
-* **Las** colecciones estáticas son colecciones creadas seleccionando manualmente ofertas individuales para incluirlas en la colección. La colección solo se puede actualizar si añado más ofertas manualmente.
+* **Las** colecciones estáticas son colecciones creadas seleccionando manualmente ofertas individuales para incluirlas en la colección. La colección solo se puede actualizar añadiendo más ofertas manualmente.
 
 Para crear una colección, siga estos pasos:
 
