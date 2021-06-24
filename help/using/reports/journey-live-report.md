@@ -5,7 +5,7 @@ feature: Informes
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
+source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 2%
@@ -26,15 +26,15 @@ La página recorrido **[!UICONTROL Live report]** se mostrará con las siguiente
 
 El recorrido **[!UICONTROL Live report]** se divide en distintas utilidades que detallan el éxito y los errores de su recorrido. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte esta [sección](live-report.md#modify-dashboard).
 
-## pestaña recorrido {#journey-live}
+## ficha recorrido {#journey-live}
 
 Desde el recorrido **[!UICONTROL Live report]**, la pestaña **[!UICONTROL Journey]** le ofrece una vista clara de los datos de seguimiento más importantes sobre su recorrido.
 
 ![](../assets/report_journey_2.png)
 
-**[!UICONTROL Journey`s performance]** le permite ver la ruta de sus perfiles de destino paso a paso a través de su recorrido.
+**[!UICONTROL Journey Performance]** le permite ver la ruta de sus perfiles de destino paso a paso a través de su recorrido.
 
-El widget **[!UICONTROL Journey`s statistics]** muestra los siguientes KPI:
+El widget **[!UICONTROL Journey Statistics]** muestra los siguientes KPI:
 
 * **[!UICONTROL Entered profiles]**: Número total de personas que llegaron al evento de entrada del recorrido.
 
@@ -54,7 +54,7 @@ Las utilidades **[!UICONTROL Event executed over the last 24 hours]**, **[!UICON
 
 * **[!UICONTROL Error in action]**: Número total de errores que se produjeron en las acciones.
 
-## Pestaña Correo electrónico {#email-live}
+## Ficha Correo electrónico {#email-live}
 
 Desde el recorrido **[!UICONTROL Live report]**, la pestaña **[!UICONTROL Email]** detalla la información principal relativa a los envíos de correo electrónico enviados en el recorrido.
 
@@ -100,7 +100,7 @@ Los widgets **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** 
 
 El gráfico y la tabla **[!UICONTROL Error Reasons]** permiten ver qué error se produjo durante el envío.
 
-## Pestaña push {#push-live}
+## Ficha Insertar {#push-live}
 
 Desde el recorrido **[!UICONTROL Live report]**, la pestaña **[!UICONTROL Push]** detalla la información principal relativa a los envíos push enviados en el recorrido.
 
