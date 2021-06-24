@@ -14,7 +14,7 @@ ht-degree: 52%
 
 # Inicio rápido {#cjm-quick-start}
 
-## Pasos clave para el inicio {#cjm-key-steps}
+## Pasos clave para comenzar {#cjm-key-steps}
 
 Con [!DNL Adobe Journey Optimizer], puede importar contenido de mensaje existente o diseñar un contenido nuevo, personalizar mensajes con datos de perfil del cliente, crear eventos para almacenar en déclencheur mensajes, definir segmentos y refinar audiencias, enviar mensajes multicanal, crear y añadir ofertas, y acceder a un conjunto completo de herramientas de informes y supervisión para medir el impacto de sus mensajes y recorridos de clientes.
 
