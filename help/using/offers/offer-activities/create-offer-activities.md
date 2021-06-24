@@ -5,7 +5,7 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: 21476691c6e5c5a2f8c5e36a494206fc9779c9d2
+source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 5%
@@ -71,7 +71,7 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
    ![](../../assets/activity_constraint_rule.png)
 
-## Agregar una oferta de reserva {#add-fallback}
+## Añadir una oferta de reserva {#add-fallback}
 
 Seleccione la oferta de reserva que se presentará como último recurso a los clientes que no coincidan con las reglas y restricciones de idoneidad de las ofertas y, a continuación, haga clic en **[!UICONTROL Next]**.
 
