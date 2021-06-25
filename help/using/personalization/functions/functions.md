@@ -5,21 +5,25 @@ feature: Personalización
 topic: Personalización
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1181'
 ht-degree: 3%
 
 ---
 
 
-# Plantillas de idioma y funciones de ayuda {#functionsL}
+# Biblioteca de funciones de ayuda{#functionsL}
 
 Utilice el lenguaje de plantilla [!DNL Journey Optimizer] para realizar operaciones con los datos, como cálculos, formatos de datos o conversiones, condiciones y manipularlos en el contexto de la personalización. Conozca las directrices de sintaxis de personalización en [esta página](../personalization-syntax.md).
+
+[!DNL :arrow_forward:] [Descubra cómo usar funciones de ayuda en vídeo](#video)
 
 El lenguaje de plantilla se aprovecha en las funciones de ayuda disponibles en la lista desplegable de personalización del Editor de expresiones, como se muestra a continuación:
 
 ![](../assets/access-helper-functions.png)
+
+
 
 En el Editor de expresiones [!DNL Journey Optimizer], las funciones de ayuda se agrupan en tres categorías: [Funciones](#functions-helper), [Ayuda](#helper-helper) y [Operadores](#operators-helper).
 
@@ -189,7 +193,7 @@ En el Editor de expresiones [!DNL Journey Optimizer], las funciones de ayuda se 
 </table>
 
 
-## Ayuda{#helper-helper}
+## Ayudantes{#helper-helper}
 
 Los colaboradores se detallan en [esta página](helpers.md).
 
@@ -279,3 +283,8 @@ Las funciones de comparación se utilizan para comparar diferentes expresiones y
     </tr>
 </table>
 
+## Vídeo explicativo{#video}
+
+Aprenda a transformar los valores de personalización mediante las funciones de ayuda de personalización y comprenda diferentes casos de uso de las funciones de ayuda.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
