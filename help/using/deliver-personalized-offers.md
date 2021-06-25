@@ -5,9 +5,9 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+source-git-commit: 6fc882827c2ba98af539abf90347483301d48edc
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '529'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,8 @@ Por ejemplo, puede agregar una decisión que muestre en el correo electrónico u
 Para obtener más información sobre cómo crear y administrar ofertas, consulte [esta sección](offers/get-started/starting-offer-decisioning.md).
 
 Para ver un **ejemplo completo de extremo a extremo** que muestra cómo configurar ofertas, utilícelas en una decisión y aproveche esta decisión en un mensaje de correo electrónico, consulte [esta sección](offers/offers-e2e.md#insert-decision-in-email).
+
+[!DNL :arrow_forward:] [Aprenda a añadir ofertas como personalización en este vídeo](#video-offers)
 
 
 ## Insertar una decisión en un correo electrónico {#insert-offers}
@@ -101,3 +103,9 @@ Para mostrar las diferentes ofertas que forman parte de la decisión con un perf
    ![](assets/deliver-offer-test-profile-male-preview.png)
 
 Obtenga más información sobre los pasos detallados para comprobar la vista previa del mensaje en [esta sección](#preview-your-messages).
+
+## Vídeo explicativo{#video-offers}
+
+Aprenda a añadir un componente de offer decisioning a los mensajes en [!DNL Journey Optimizer].
+
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
