@@ -5,18 +5,16 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '507'
 ht-degree: 2%
 
 ---
 
 # Adición de ofertas personalizadas {#deliver-personalized-offers}
 
-## Acerca de la Administración de decisiones {#about-offer-decisioning}
-
-Con [!DNL Journey Optimizer], puede insertar en sus mensajes de correo electrónico decisiones (anteriormente conocidas como actividades de oferta) que aprovecharán el motor de decisión de ofertas para elegir la mejor oferta que se debe entregar a sus clientes.
+En los mensajes de correo electrónico [!DNL Journey Optimizer], puede insertar decisiones (anteriormente conocidas como &quot;actividades de oferta&quot;) que aprovecharán el motor de decisión de oferta para elegir la mejor oferta que se debe entregar a sus clientes.
 
 Por ejemplo, puede agregar una decisión que muestre en el correo electrónico una oferta de descuento especial que variará según el nivel de lealtad del destinatario.
 
@@ -25,11 +23,11 @@ Para obtener más información sobre cómo crear y administrar ofertas, consulte
 Para ver un **ejemplo completo de extremo a extremo** que muestra cómo configurar ofertas, utilícelas en una decisión y aproveche esta decisión en un mensaje de correo electrónico, consulte [esta sección](offers/offers-e2e.md#insert-decision-in-email).
 
 
-## Inserte una decisión en un correo electrónico {#insert-offers}
+## Insertar una decisión en un correo electrónico {#insert-offers}
 
 >[!CAUTION]
 >
->Primero debe definir una decisión de oferta. Aprenda a crear decisiones en [esta sección](offers/offer-activities/create-offer-activities.md).
+>Antes de comenzar, debe [definir una decisión de oferta](offers/offer-activities/create-offer-activities.md).
 
 Para insertar una decisión en un mensaje de correo electrónico, siga los pasos a continuación:
 
