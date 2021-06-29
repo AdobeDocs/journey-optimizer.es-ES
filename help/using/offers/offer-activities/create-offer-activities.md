@@ -5,10 +5,10 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 2388a43928f5ea52bafbc5173f7302d53b2c5857
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 5%
+source-wordcount: '588'
+ht-degree: 4%
 
 ---
 
@@ -37,11 +37,15 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
    ![](../../assets/activities-name.png)
 
-## Agregar ofertas {#add-offers}
+## Agregar ámbitos de decisión {#add-decision-scopes}
 
 1. Arrastre y suelte una ubicación de la lista para agregarla a la decisión y, a continuación, haga clic en **[!UICONTROL Add collection]**.
 
    ![](../../assets/activities-placement.png)
+
+   >[!NOTE]
+   >
+   >La misma ubicación se puede seleccionar varias veces en la decisión.
 
 1. Seleccione la colección que contiene las ofertas que desea tener en cuenta y haga clic en **[!UICONTROL Add]**.
 
