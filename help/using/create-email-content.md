@@ -5,9 +5,9 @@ feature: Información general
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
+source-git-commit: 587dcb4823f57132748c913410a6fc177ccf76f1
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1487'
 ht-degree: 1%
 
 ---
@@ -110,7 +110,7 @@ Para empezar a crear el contenido del correo electrónico con el diseñador de c
 
 El contenido del correo electrónico ahora se puede utilizar en un mensaje. [Obtenga información sobre cómo enviar un mensaje](publish-manage-message.md).
 
-## Cree la versión de texto de un correo electrónico {#generate-text-version}
+## Creación de la versión de texto de un correo electrónico {#generate-text-version}
 
 Se recomienda crear una versión de texto del cuerpo del correo electrónico, que se utiliza cuando no se puede mostrar contenido HTML.
 
@@ -213,38 +213,59 @@ A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
    También puede establecer una imagen de fondo en el nivel de columna, pero esto no se suele utilizar.
 
-## Ajustar la alineación vertical y el relleno {#adjusting-vertical-alignment-and-padding}
+## Ajustar alineación vertical y relleno {#adjusting-vertical-alignment-and-padding}
 
-Desea ajustar el margen y la alineación vertical dentro de un componente de estructura compuesto por tres columnas. Para realizar esto, siga los pasos a continuación:
+En este ejemplo, ajustaremos el relleno y la alineación vertical dentro de un componente de estructura compuesto por tres columnas.
 
-1. Seleccione el componente de estructura directamente en el correo electrónico o utilice el árbol de estructura disponible en la **Paleta** izquierda.
-1. En la **barra de herramientas contextual**, haga clic en **[!UICONTROL Select a column]** y elija la que desea editar. También puede seleccionarlo en el árbol de estructura.
+1. Seleccione el componente de estructura directamente en el correo electrónico o utilice el **[!UICONTROL Navigation tree]** disponible en el menú de la izquierda.
 
-   Los parámetros editables para esa columna se muestran en el panel **[!UICONTROL Settings]** de la derecha.
+   ![](assets/alignment_1.png)
 
-1. En **[!UICONTROL Vertical alignment]**, seleccione **[!UICONTROL Up]**.
+1. En la barra de herramientas, haga clic en **[!UICONTROL Select a column]** y elija el que desea editar. También puede seleccionarlo en el árbol de estructura.
 
-   El componente de contenido se muestra encima de la columna .
+   Los parámetros editables para esa columna se muestran en el menú **[!UICONTROL Column settings]**.
+
+   ![](assets/alignment_2.png)
+
+1. En **[!UICONTROL Vertical alignment]**, seleccione **[!UICONTROL Bottom]**.
+
+   El componente de contenido se desplaza a la parte inferior de la columna.
+
+   ![](assets/alignment_3.png)
 
 1. En **[!UICONTROL Padding]**, defina el relleno superior dentro de la columna. Haga clic en el icono de candado para romper la sincronización con el relleno inferior.
 
    Defina el relleno izquierdo y derecho para esa columna.
 
+   ![](assets/alignment_4.png)
+
 1. Proceda de forma similar para ajustar la alineación y el relleno de las demás columnas.
 
 1. Guarde los cambios.
 
-## Definir un estilo para los vínculos {#about-styling-links}
+## Definición de un estilo para los vínculos {#about-styling-links}
 
 Puede subrayar un vínculo y seleccionar su color y destino en el Diseñador de correo electrónico.
 
-1. En un componente en el que se inserta un vínculo, seleccione el texto de la etiqueta del vínculo.
+1. En un Texto **[!UICONTROL Content component]** donde se inserta un vínculo, seleccione el vínculo.
 
-1. En la configuración del componente, marque **[!UICONTROL Underline link]** para subrayar el texto de la etiqueta del vínculo.
+1. En el menú **[!UICONTROL Component settings]**, marque **[!UICONTROL Underline link]** para subrayar el texto de la etiqueta del vínculo.
 
-1. Para seleccionar en qué contexto de navegación se abrirá el enlace, seleccione un **[!UICONTROL Target]**.
+   ![](assets/link_1.png)
+
+1. Elija cómo se redirigirá la audiencia con la lista desplegable **[!UICONTROL Target]**:
+
+   * **[!UICONTROL None]**: abre el vínculo en el mismo marco en el que se hizo clic (predeterminado).
+   * **[!UICONTROL Blank]**: abre el vínculo en una nueva ventana o pestaña.
+   * **[!UICONTROL Self]**: abre el vínculo en el mismo marco en el que se hizo clic.
+   * **[!UICONTROL Parent]**: abre el vínculo en el marco principal.
+   * **[!UICONTROL Top]**: abre el vínculo en todo el cuerpo de la ventana.
+
+   ![](assets/link_2.png)
 
 1. Para cambiar el color del vínculo, haga clic en **[!UICONTROL Link color]**.
+
+   ![](assets/link_3.png)
 
 1. Elija el color que necesite.
 
