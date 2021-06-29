@@ -5,7 +5,7 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: 6fc882827c2ba98af539abf90347483301d48edc
+source-git-commit: f76f9c39b460bc3d70ba3258764d35583cd5fd77
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 2%
@@ -22,8 +22,7 @@ Para obtener más información sobre cómo crear y administrar ofertas, consulte
 
 Para ver un **ejemplo completo de extremo a extremo** que muestra cómo configurar ofertas, utilícelas en una decisión y aproveche esta decisión en un mensaje de correo electrónico, consulte [esta sección](offers/offers-e2e.md#insert-decision-in-email).
 
-[!DNL :arrow_forward:] [Aprenda a añadir ofertas como personalización en este vídeo](#video-offers)
-
+![](assets/do-not-localize/how-to-video.png) [Aprenda a añadir ofertas como personalización en este vídeo](#video-offers)
 
 ## Insertar una decisión en un correo electrónico {#insert-offers}
 
