@@ -5,10 +5,10 @@ feature: Información general
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: d85dfe519ebbbb27693c7283c19cc1d7171c25ba
+source-git-commit: b495c96474e41d5b31cb3268434dbe36cfe13ec0
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 76%
+source-wordcount: '1193'
+ht-degree: 74%
 
 ---
 
@@ -154,7 +154,7 @@ En la mayoría de las listas, una barra de búsqueda le permite buscar un elemen
 
 Se puede acceder a los filtros haciendo clic en el icono de filtro en la parte superior izquierda de la lista. El menú de filtros permite filtrar los elementos mostrados según diferentes criterios. Puede elegir mostrar únicamente los elementos de un determinado tipo o estado, los que ha creado o los modificados en los últimos 30 días. Las opciones difieren según el contexto.
 
-En la lista de recorridos, puede filtrar los recorridos según su estado y versión en **[!UICONTROL Status and version filters]**. Puede elegir mostrar solo los recorridos que utilizan un evento, un grupo de campos o una acción en particular en **[!UICONTROL Activity filters]** y **[!UICONTROL Data filters]**. Los **[!UICONTROL Publication filters]** permiten seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar las versiones más recientes de recorridos en directo que se publicaron ayer. [Más información](building-journeys/using-the-journey-designer.md).
+En la lista de recorridos, puede filtrar los recorridos según su estado, tipo y versión desde **[!UICONTROL Status and version filters]**. El tipo puede ser: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** o **[!UICONTROL Burst]**. Puede elegir mostrar solo los recorridos que utilizan un evento, un grupo de campos o una acción en particular en **[!UICONTROL Activity filters]** y **[!UICONTROL Data filters]**. Los **[!UICONTROL Publication filters]** permiten seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar las versiones más recientes de recorridos en directo que se publicaron ayer. [Más información](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
