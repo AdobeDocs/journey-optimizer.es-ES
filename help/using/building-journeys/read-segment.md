@@ -5,14 +5,14 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+source-git-commit: 2e85e966dcff87717ce4a5f426f9e66526dab7c4
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '921'
 ht-degree: 4%
 
 ---
 
-# Usar un segmento en un recorrido {#segment-trigger-activity}
+# Uso de segmentos en un recorrido {#segment-trigger-activity}
 
 ## Acerca de la actividad Leer segmento {#about-segment-trigger-actvitiy}
 
@@ -21,8 +21,6 @@ La actividad Leer segmento le permite hacer que todas las personas que pertenece
 Veamos como ejemplo el segmento &quot;Apertura y cierre de compra de la aplicación de Luma&quot; creado en el caso de uso [Segmentos de compilación](../segment/about-segments.md). Con la actividad Leer segmento , puede hacer que todas las personas que pertenecen a este segmento ingresen a un recorrido y hacer que fluyan a recorridos personalizados que aprovechen todas las funcionalidades de recorrido: condiciones, temporizadores, eventos, acciones.
 
 >[!NOTE]
->
->No es posible realizar el déclencheur de un recorrido basado en segmentos en un lapso de tiempo inferior a 1 hora.
 >
 >El complemento de pago de ráfaga permite enviar mensajes push muy rápidamente en grandes volúmenes para recorridos simples que incluyen un segmento de lectura y un mensaje push simple. Para obtener más información, consulte [esta sección](../building-journeys/journey-gs.md#burst)
 
@@ -62,7 +60,7 @@ Los pasos para configurar la actividad Leer segmento son los siguientes:
 
    ![](../assets/read-segment-schedule.png)
 
-   De forma predeterminada, los segmentos introducen el recorrido **[!UICONTROL As soon as possible]**, es decir, 1 hora después de publicar el recorrido. Si desea que el segmento introduzca el recorrido en una fecha u hora específica o de forma recurrente, seleccione el valor que desee en la lista.
+   De forma predeterminada, los segmentos introducen el recorrido **[!UICONTROL As soon as possible]**. Si desea que el segmento introduzca el recorrido en una fecha u hora específica o de forma recurrente, seleccione el valor que desee en la lista.
 
    >[!NOTE]
    >
@@ -93,8 +91,6 @@ Una vez que se está ejecutando la prueba, el botón **[!UICONTROL Show logs]** 
 Una vez realizadas las pruebas correctamente, puede publicar el recorrido (consulte [Publicación del recorrido](publishing-the-journey.md)). Las personas que pertenezcan al segmento introducirán el recorrido en la fecha y hora especificadas en la sección **[!UICONTROL Scheduler]** de propiedades del recorrido.
 
 >[!NOTE]
->
->Cuando se ejecuta un recorrido basado en segmentos que no es recurrente (&quot;comenzando lo antes posible&quot; o &quot;una vez&quot;), su estado se cambia automáticamente a &quot;cerrado&quot;.
 >
 >Para los recorridos recurrentes basados en segmentos, el recorrido se cerrará automáticamente una vez que se ejecute su última incidencia. Si no se ha especificado ninguna fecha y hora de finalización, deberá cerrar el recorrido manualmente a las nuevas entradas para finalizarlo.
 
