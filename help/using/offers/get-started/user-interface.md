@@ -5,10 +5,10 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -72,7 +72,7 @@ Tenga en cuenta que también puede duplicar una oferta o decisiones existentes p
 
 ## Registros de cambios de ofertas y decisiones {#changes-logs}
 
-La biblioteca de ofertas permite ver todos los cambios realizados en una oferta o una decisión. Para ello, abra la oferta o decisión haciendo clic en su nombre en la lista y, a continuación, seleccione la pestaña **[!UICONTROL Change log]**.
+La biblioteca de ofertas permite visualizar todos los cambios realizados en una oferta o una decisión. Para ello, abra la oferta o decisión haciendo clic en su nombre en la lista y, a continuación, seleccione la pestaña **[!UICONTROL Change log]**.
 
 Todos los cambios realizados se muestran en esta pantalla, así como el nombre del usuario que realizó los cambios.
 
