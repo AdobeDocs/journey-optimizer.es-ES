@@ -5,9 +5,9 @@ feature: Configuración de la aplicación
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: 705aa4c238eb1d6d6ce46b68f8690f639124a090
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '880'
 ht-degree: 1%
 
 ---
@@ -26,6 +26,8 @@ Con [!DNL Journey Optimizer], puede configurar ajustes preestablecidos de mensaj
 
 
 Una vez configurados los ajustes preestablecidos de mensaje, puede seleccionarlos al crear mensajes desde la lista **[!UICONTROL Presets]**.
+
+![](../assets/do-not-localize/how-to-video.png) [Aprenda a crear y utilizar ajustes preestablecidos de correo electrónico en este vídeo](#video-presets)
 
 ## Crear un ajuste preestablecido de mensaje {#create-message-preset}
 
@@ -148,3 +150,8 @@ Para editar un ajuste preestablecido de mensaje, primero debe desactivarlo para 
    >
    >Los ajustes preestablecidos de mensajes desactivados no se pueden eliminar para evitar problemas en los recorridos que utilizan estos ajustes preestablecidos para enviar mensajes.
 
+## Vídeo explicativo{#video-presets}
+
+Obtenga información sobre cómo crear ajustes preestablecidos de mensaje, cómo utilizarlos y cómo delegar un subdominio y crear un grupo de IP.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
