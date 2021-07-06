@@ -1,14 +1,14 @@
 ---
-title: Introducción
+title: Primeros pasos
 description: Obtenga información sobre cómo empezar a utilizar la API de biblioteca de ofertas para realizar operaciones clave mediante el motor de gestión de decisiones.
 feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 6%
 
 Esta guía para desarrolladores proporciona pasos para ayudarle a empezar a utilizar la API [!DNL Offer Library]. A continuación, la guía proporciona ejemplos de llamadas de API para realizar operaciones clave mediante el motor de gestión de decisiones.
 
-![](../../assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
+➡️ [Descubra esta función en vídeo](#video)
 
 ## Requisitos previos
 
 Esta guía requiere conocer los siguientes componentes de Adobe Experience Platform:
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es): El marco estandarizado mediante el cual se  [!DNL Experience Platform] organizan los datos de experiencia del cliente.
-   * [Aspectos básicos de la composición](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) del esquema: Obtenga información sobre los componentes básicos de los esquemas XDM.
+   * [Aspectos básicos de la composición](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es) del esquema: Obtenga información sobre los componentes básicos de los esquemas XDM.
 * [Administración de decisiones](../../../using/offers/get-started/starting-offer-decisioning.md): Explica los conceptos y componentes utilizados para Experience Decisioning en general y el Offer decisioning en particular. Ilustra las estrategias utilizadas para elegir la mejor opción para presentar durante la experiencia del cliente.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html): PQL es un lenguaje potente para escribir expresiones en instancias XDM. PQL se utiliza para definir las reglas de decisión.
 
