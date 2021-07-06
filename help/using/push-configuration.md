@@ -5,9 +5,9 @@ feature: Configuración de la aplicación
 topic: Push
 role: Administrator
 level: Intermediate
-source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1454'
 ht-degree: 5%
 
 ---
@@ -31,11 +31,11 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### Configuración de permisos
 
-Antes de crear una aplicación móvil, primero debe asegurarse de que tiene o asigna los permisos de usuario correctos en **Adobe Experience Platform Launch**. Obtenga más información en [Documentación de Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html).
+Antes de crear una aplicación móvil, primero debe asegurarse de que tiene o asigna los permisos de usuario correctos en **Adobe Experience Platform Launch**. Obtenga más información en [Documentación de Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
 >
->La configuración push debe realizarla un usuario experto. Según el modelo de implementación y las personas implicadas en esta implementación, es posible que deba asignar el conjunto completo de permisos a un único perfil de producto o compartir permisos entre el desarrollador de la aplicación y el administrador de **Adobe Journey Optimizer**. Obtenga más información sobre los permisos de **Adobe Experience Platform Launch** en [esta documentación](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#platform-launch-permissions)
+>La configuración push debe realizarla un usuario experto. Según el modelo de implementación y las personas implicadas en esta implementación, es posible que deba asignar el conjunto completo de permisos a un único perfil de producto o compartir permisos entre el desarrollador de la aplicación y el administrador de **Adobe Journey Optimizer**. Obtenga más información sobre los permisos de **Adobe Experience Platform Launch** en [esta documentación](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#platform-launch-permissions){target=&quot;_blank&quot;}.
 
 <!--ou need to your have access to perform following roles :
 
@@ -52,7 +52,7 @@ Para asignar los derechos **Property** y **Company**, siga los pasos a continuac
 
    ![](assets/push_product_1.png)
 
-1. Seleccione un **[!UICONTROL Product Profile]** existente o cree uno nuevo con el botón **[!UICONTROL New profile]**. Obtenga información sobre cómo crear un **[!UICONTROL New profile]** nuevo en la [Documentación de la consola de administración](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui).
+1. Seleccione un **[!UICONTROL Product Profile]** existente o cree uno nuevo con el botón **[!UICONTROL New profile]**. Obtenga información sobre cómo crear un nuevo **[!UICONTROL New profile]** en la [documentación de Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target=&quot;_blank&quot;}.
 
 1. En la pestaña **[!UICONTROL Permissions]**, seleccione **[!UICONTROL Property rights]**.
 
@@ -108,14 +108,14 @@ La configuración técnica implica una estrecha colaboración entre el desarroll
 
 Siga los pasos de implementación detallados en los vínculos siguientes:
 
-* Para **Apple iOS**: Obtenga información sobre cómo registrar la aplicación con APNS en [Documentación de Apple](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)
-* Para **Google Android**: Obtenga información sobre cómo configurar una aplicación cliente de Firebase Cloud Messaging en Android en [Documentación de Google](https://firebase.google.com/docs/cloud-messaging/android/client)
+* Para **Apple iOS**: Obtenga información sobre cómo registrar la aplicación con APNS en [Apple Documentation](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target=&quot;_blank&quot;}
+* Para **Google Android**: Obtenga información sobre cómo configurar una aplicación cliente de Firebase Cloud Messaging en Android en [Documentación de Google](https://firebase.google.com/docs/cloud-messaging/android/client){target=&quot;_blank&quot;}
 
 ### Integración de la aplicación móvil con el SDK de Adobe Experience Platform
 
-El SDK de Adobe Experience Platform Mobile proporciona API de integración del lado del cliente para sus móviles mediante SDK compatibles con Android y iOS. Siga la [documentación del SDK de Adobe Experience Platform Mobile](https://aep-sdks.gitbook.io/docs/getting-started/overview) para configurar los SDK de Adobe Experience Platform Mobile en la aplicación.
+El SDK de Adobe Experience Platform Mobile proporciona API de integración del lado del cliente para sus móviles mediante SDK compatibles con Android y iOS. Siga la [documentación del SDK de Adobe Experience Platform Mobile](https://aep-sdks.gitbook.io/docs/getting-started/overview){target=&quot;_blank&quot;} para configurar los SDK de Adobe Experience Platform Mobile en la aplicación.
 
-Al final de esto, también debería haber creado y configurado una propiedad móvil en Adobe Experience Platform Launch. Generalmente creará una propiedad móvil para cada aplicación móvil que desee administrar. Obtenga información sobre cómo crear y configurar una propiedad móvil en [Adobe Experience Platform Launch documentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
+Al final de esto, también debería haber creado y configurado una propiedad móvil en Adobe Experience Platform Launch. Generalmente creará una propiedad móvil para cada aplicación móvil que desee administrar. Obtenga información sobre cómo crear y configurar una propiedad móvil en [Adobe Experience Platform Launch documentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target=&quot;_blank&quot;}.
 
 
 ## Paso 1: Añadir las credenciales push de la aplicación en Adobe Experience Platform Launch {#push-credentials-launch}
@@ -138,7 +138,7 @@ El registro de credenciales push de la aplicación móvil es necesario para auto
 
       1. Proporcione el **[!UICONTROL App ID (Android package name)]**: normalmente, el nombre del paquete es el id de la aplicación en el archivo `build.gradle`.
 
-      1. Arrastre y suelte las credenciales push de FCM. Para obtener más información sobre cómo obtener las credenciales push, consulte [Documentación de Google](https://firebase.google.com/docs/admin/setup#initialize-sdk).
+      1. Arrastre y suelte las credenciales push de FCM. Para obtener más información sobre cómo obtener las credenciales push, consulte [Documentación de Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target=&quot;_blank&quot;}.
    * **Para iOS**
 
       ![](assets/add-app-config-ios.png)
@@ -176,7 +176,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 La **extensión de Adobe Journey Optimizer** para los SDK móviles de Adobe Experience Platform alimenta las notificaciones push para sus aplicaciones móviles y le ayuda a recopilar los tokens push del usuario y a administrar la medición de interacciones con los servicios de Adobe Experience Platform.
 
-Obtenga información sobre cómo configurar la extensión de Journey Optimizer en [Documentación del SDK de Adobe Experience Platform Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
+Obtenga información sobre cómo configurar la extensión de Journey Optimizer en [Documentación del SDK móvil de Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer){target=&quot;_blank&quot;}.
 
 
 <!-- 
@@ -253,7 +253,7 @@ Después de configurar la aplicación móvil tanto en Adobe Experience Platform 
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-Para que este recorrido funcione, debe crear un esquema XDM. Para obtener más información, consulte [Documentación de XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#schemas-and-data-ingestion).
+Para que este recorrido funcione, debe crear un esquema XDM. Para obtener más información, consulte [Documentación XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#schemas-and-data-ingestion){target=&quot;_blank&quot;}.
 
 1. En el menú de la izquierda, vaya a **[!UICONTROL Schemas]**.
 
@@ -263,7 +263,7 @@ Para que este recorrido funcione, debe crear un esquema XDM. Para obtener más i
 
 1. Seleccione **[!UICONTROL Create a new field group]**.
 
-1. Introduzca un **[!UICONTROL Display Name]** y un **[!UICONTROL Description]**. Haga clic en **[!UICONTROL Add field groups]** cuando termine. Para obtener más información sobre cómo crear grupos de campos, consulte [Documentación del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es).
+1. Introduzca un **[!UICONTROL Display Name]** y un **[!UICONTROL Description]**. Haga clic en **[!UICONTROL Add field groups]** cuando termine. Para obtener más información sobre cómo crear grupos de campos, consulte [Documentación del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es){target=&quot;_blank&quot;}.
 
 
    ![](assets/test_push_4.png)
