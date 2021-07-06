@@ -5,16 +5,16 @@ feature: Configuración de la aplicación
 topic: Push
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1432'
 ht-degree: 5%
 
 ---
 
 # Configurar el canal de notificaciones push {#push-notification-configuration}
 
-[!DNL Journey Optimizer] le permite crear sus recorridos y enviar mensajes a la audiencia de destino. Antes de comenzar a enviar notificaciones push con [!DNL Journey Optimizer], debe asegurarse de que las configuraciones e integraciones estén implementadas en la aplicación móvil y en [!DNL Adobe Experience Platform] y [!DNL Adobe Experience Platform Launch]. Para comprender el flujo de datos de las notificaciones push en el optimizador de Recorrido de Adobe, consulte [esta página](push-gs.md).
+[!DNL Journey Optimizer] le permite crear sus recorridos y enviar mensajes a la audiencia de destino. Antes de comenzar a enviar notificaciones push con [!DNL Journey Optimizer], debe asegurarse de que las configuraciones e integraciones estén implementadas en la aplicación móvil y en [!DNL Adobe Experience Platform] y [!DNL Adobe Experience Platform Launch]. Para entender el flujo de datos de las notificaciones push en [!DNL Adobe Journey Optimizer], consulte [esta página](push-gs.md).
 
 ## Antes de empezar
 
@@ -118,7 +118,7 @@ El SDK de Adobe Experience Platform Mobile proporciona API de integración del l
 Al final de esto, también debería haber creado y configurado una propiedad móvil en Adobe Experience Platform Launch. Generalmente creará una propiedad móvil para cada aplicación móvil que desee administrar. Obtenga información sobre cómo crear y configurar una propiedad móvil en [Adobe Experience Platform Launch documentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
 
 
-## Paso 1: Añada sus credenciales push de aplicación en Adobe Experience Platform Launch {#push-credentials-launch}
+## Paso 1: Añadir las credenciales push de la aplicación en Adobe Experience Platform Launch {#push-credentials-launch}
 
 Después de conceder los permisos de usuario correctos, debe agregar las credenciales push de la aplicación móvil en [!DNL Adobe Experience Platform Launch].
 
@@ -245,7 +245,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 -->
 
-## Paso 3: Pruebe la aplicación móvil con un evento {#mobile-app-test}
+## Paso 3: Probar la aplicación móvil con un evento {#mobile-app-test}
 
 Después de configurar la aplicación móvil tanto en Adobe Experience Platform como en Adobe Launch, ahora puede probarla antes de enviar notificaciones push a sus perfiles. En este caso de uso, crearemos un recorrido para dirigirnos a nuestra aplicación móvil y estableceremos un evento que déclencheur la notificación push.
 
