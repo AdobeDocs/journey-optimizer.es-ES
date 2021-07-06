@@ -5,10 +5,10 @@ feature: Información general
 topic: Administración de contenido
 role: User
 level: Beginner
-source-git-commit: 4b65425389c64c867919746beede5456a6a08abd
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 46%
+ht-degree: 42%
 
 ---
 
@@ -57,4 +57,4 @@ Consulte las secciones siguientes para configurar el primer recorrido y enviar m
 
 * **Crear recorridos**: Envíe mensajes, aproveche datos contextuales, perfeccione audiencias, diseñe y ejecute casos de uso de varios pasos. [Más información](building-journeys/journey.md)
 
-* **Monitorizar mensajes y recorridos**: Controle la ejecución del mensaje, y compruebe informes de mensajes y recorridos, y métricas de envío de seguimiento. [Más información](message-monitoring.md)
+* **Monitorizar mensajes y recorridos**: controlar la ejecución del mensaje, comprobar los informes de mensajes y recorridos, seguimiento de las métricas de envío. [Más información](message-monitoring.md)
