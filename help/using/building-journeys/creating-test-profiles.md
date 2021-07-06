@@ -5,14 +5,14 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: 8dfa7a7700e1bb452ea9cd5e7d0adb6df55de03b
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1328'
 ht-degree: 1%
 
 ---
 
-# Crear perfiles de prueba {#create-test-profiles}
+# Creación de perfiles de prueba {#create-test-profiles}
 
 Los perfiles de prueba son obligatorios al utilizar el modo de prueba Para aprender a utilizar el [modo de prueba](../building-journeys/testing-the-journey.md) en un recorrido y para [obtener una vista previa y probar los mensajes](../preview.md).
 
@@ -22,9 +22,9 @@ A continuación se describen los métodos disponibles para crear perfiles de pru
 
 * Puede crear un perfil de prueba cargando un [archivo csv](#create-test-profiles-csv) o utilizando [llamadas API](#create-test-profiles-api). Además de estos dos métodos, Adobe Journey Optimizer viene con un [caso de uso específico del producto](#use-case-1) para facilitar la creación de perfiles de prueba.
 
-* También puede cargar un archivo json en un conjunto de datos. Para obtener más información, consulte la [Documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset).
+* También puede cargar un archivo json en un conjunto de datos. Para obtener más información, consulte la [Documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target=&quot;_blank&quot;}.
 
-Tenga en cuenta que la creación de un perfil de prueba es similar a la creación de perfiles normales en Adobe Experience Platform. Para obtener más información, consulte la [Documentación del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Tenga en cuenta que la creación de un perfil de prueba es similar a la creación de perfiles normales en Adobe Experience Platform. Para obtener más información, consulte la [Documentación del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
 ## Requisitos previos {#test-profile-prerequisites}
 
@@ -59,7 +59,7 @@ Una vez finalizado, haga clic en  **[!UICONTROL Add field groups]**: la lista de
 
 >[!NOTE]
 >
->Para obtener más información sobre la creación de esquemas, consulte la [documentación de XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites).
+>Para obtener más información sobre la creación de esquemas, consulte la [documentación de XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target=&quot;_blank&quot;}.
 
 A continuación, debe **crear el conjunto de datos** en el que se importarán los perfiles. Siga estos pasos:
 
@@ -76,9 +76,9 @@ A continuación, debe **crear el conjunto de datos** en el que se importarán lo
 
 >[!NOTE]
 >
-> Para obtener más información sobre la creación de conjuntos de datos, consulte la [documentación del Servicio de catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started).
+> Para obtener más información sobre la creación de conjuntos de datos, consulte la [Documentación del servicio de catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
-## Caso de uso del producto{#use-case-1}
+## Caso de uso dentro del producto{#use-case-1}
 
 Desde la página de inicio de Adobe Journey Optimizer, puede aprovechar los perfiles de prueba en el caso de uso del producto. Este caso de uso facilita la creación de perfiles de prueba utilizados para probar recorridos antes de la publicación.
 
@@ -88,7 +88,7 @@ Haga clic en el botón **[!UICONTROL Begin]** para iniciar el caso de uso.
 
 Se requiere la siguiente información:
 
-1. **Área de nombres de identidad**: El espacio de  [nombres de ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) identidad utilizado para identificar de forma exclusiva los perfiles de prueba. Por ejemplo, si se utiliza correo electrónico para identificar los perfiles de prueba, se debe seleccionar el área de nombres de identidad **Email**. Si el identificador único es el número de teléfono, se debe seleccionar el área de nombres de identidad **Phone**.
+1. **Área de nombres de identidad**: El espacio de  [nombres de ](../get-started-identity.md) identidad utilizado para identificar de forma exclusiva los perfiles de prueba. Por ejemplo, si se utiliza correo electrónico para identificar los perfiles de prueba, se debe seleccionar el área de nombres de identidad **Email**. Si el identificador único es el número de teléfono, se debe seleccionar el área de nombres de identidad **Phone**.
 
 2. **Archivo** CSV: Archivo separado por comas que contiene la lista de perfiles de prueba que se van a crear. El caso de uso espera un formato predefinido para el archivo CSV que contiene la lista de perfiles de prueba que se van a crear. Cada fila del archivo debe incluir los siguientes campos en el orden correcto de la siguiente manera:
 
@@ -106,7 +106,7 @@ Después de seleccionar el área de nombres de identidad y proporcionar el archi
 >
 >Los perfiles de prueba pueden anular los perfiles existentes. Antes de ejecutar el caso de uso, asegúrese de que el CSV contenga únicamente perfiles de prueba y de que se ejecute con el simulador de pruebas correcto.
 
-## Convertir un perfil en un perfil de prueba{#turning-profile-into-test}
+## Conversión de un perfil en un perfil de prueba{#turning-profile-into-test}
 
 Puede convertir un perfil existente en un perfil de prueba: puede actualizar los atributos de perfiles del mismo modo que cuando crea un perfil.
 
@@ -143,7 +143,7 @@ El recorrido estará compuesto por una actividad **[!UICONTROL Read Segment]** y
    >
    > Para obtener más información sobre la actividad **[!UICONTROL Update Profile]**, consulte [esta sección](../building-journeys/update-profiles.md).
 
-## Crear un perfil de prueba con un archivo csv{#create-test-profiles-csv}
+## Creación de un perfil de prueba mediante un archivo csv{#create-test-profiles-csv}
 
 En Adobe Experience Platform, puede crear perfiles cargando un archivo csv que contenga los distintos campos de perfil en el conjunto de datos. Este es el método más sencillo.
 
@@ -171,11 +171,11 @@ En Adobe Experience Platform, puede crear perfiles cargando un archivo csv que c
 Se añaden los perfiles de prueba, que ahora se pueden utilizar al probar un recorrido. Consulte [esta sección](../building-journeys/testing-the-journey.md).
 >[!NOTE]
 >
-> Para obtener más información sobre las importaciones de csv, consulte la [Documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials).
+> Para obtener más información sobre las importaciones de csv, consulte la [Documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target=&quot;_blank&quot;}.
 
-## Crear perfiles de prueba mediante llamadas a API{#create-test-profiles-api}
+## Creación de perfiles de prueba mediante llamadas a API{#create-test-profiles-api}
 
-También puede crear perfiles de prueba mediante llamadas a la API. Obtenga más información en esta [página](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+También puede crear perfiles de prueba mediante llamadas a la API. Obtenga más información en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
 Debe utilizar un esquema de perfil que contenga el grupo de campos &quot;Detalles de prueba de perfil&quot;. El indicador testProfile forma parte de este grupo de campos.
 Al crear un perfil, asegúrese de pasar el valor: testProfile = true.
