@@ -5,9 +5,9 @@ feature: Eventos
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '825'
 ht-degree: 15%
 
 ---
@@ -76,9 +76,9 @@ Estos son los primeros pasos para configurar un evento empresarial:
 
    El evento está ahora configurado y listo para añadirse a un recorrido. Se requieren pasos de configuración adicionales para recibir eventos. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).
 
-## Defina los campos de carga útil {#define-the-payload-fields}
+## Definición de los campos de carga útil {#define-the-payload-fields}
 
-La definición de carga útil permite elegir la información que el sistema espera recibir del evento en el recorrido y la clave para identificar qué persona está asociada al evento. La carga útil se basa en la definición del campo XDM del Experience Cloud. Para obtener más información sobre XDM, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es).
+La definición de carga útil permite elegir la información que el sistema espera recibir del evento en el recorrido y la clave para identificar qué persona está asociada al evento. La carga útil se basa en la definición del campo XDM del Experience Cloud. Para obtener más información sobre XDM, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target=&quot;_blank&quot;}.
 
 1. Seleccione un esquema XDM de la lista y haga clic en el campo **[!UICONTROL Fields]** o en el icono **[!UICONTROL Edit]**.
 
