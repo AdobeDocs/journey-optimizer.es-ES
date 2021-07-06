@@ -5,9 +5,9 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
+source-git-commit: ff36b68efa639870b68997fca86ee1be24e2cc79
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,6 @@ Para detectar posibles errores en el contenido del correo electrónico o en la c
 >
 >Aprenda a crear perfiles de prueba en [esta página](building-journeys/creating-test-profiles.md).
 
-
 Para probar el contenido del mensaje, debe:
 
 * [seleccionar perfiles de prueba](#select-test-profiles)
@@ -38,6 +37,7 @@ Además, aproveche su cuenta **Litmus** en [!DNL Journey Optimizer] para previsu
 >
 >Al obtener una vista previa de un mensaje o enviar pruebas, solo se muestran los datos de personalización del perfil. La personalización basada en datos de contexto, como la información de evento, solo se puede probar en el contexto de un recorrido. Aprenda a probar la personalización en [este caso de uso](personalization/personalization-use-case.md).
 
+![](assets/do-not-localize/how-to-video.png) [Aprenda a previsualizar, probar y publicar su correo electrónico en este vídeo](#video-preview)
 
 ## Seleccionar perfiles de prueba{#select-test-profiles}
 
@@ -111,7 +111,7 @@ Para una vista previa de notificaciones push:
 
    ![](assets/preview-android.png)
 
-## Envío de pruebas{#send-proofs}
+## Envíe pruebas{#send-proofs}
 
 Una prueba es un mensaje específico que le permite probar un mensaje antes de enviarlo a la audiencia principal. Los destinatarios de la prueba se encargan de aprobar el mensaje: renderización, contenido, configuración de personalización, configuración.
 
@@ -166,3 +166,8 @@ A continuación, siga los pasos a continuación:
 >
 >Al conectar su cuenta **Litmus** con [!DNL Journey Optimizer], acepta que los mensajes de prueba se envíen a Litmus: una vez enviados, estos correos electrónicos ya no se administran mediante Adobe. Como consecuencia, la política de retención de datos de Litmus por correo electrónico se aplica a estos correos electrónicos, incluidos los datos de personalización que pueden incluirse en estos mensajes de prueba.
 
+## Vídeo explicativo{#video-preview}
+
+Obtenga información sobre cómo probar el procesamiento de correos electrónicos en varias bandejas de entrada, cómo previsualizar los correos electrónicos personalizados con perfiles de prueba, enviar pruebas y publicar el correo electrónico.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
