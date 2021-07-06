@@ -5,14 +5,14 @@ feature: Eventos
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 1%
+source-wordcount: '192'
+ht-degree: 9%
 
 ---
 
-# Aproveche los datos de Adobe Analytics{#analytics-data}
+# Aprovechar los datos de Adobe Analytics{#analytics-data}
 
 Puede aprovechar todos los datos de evento de comportamiento de Adobe Analytics que ya está capturando y transmitiendo a la plataforma para almacenar en déclencheur los recorridos y automatizar las experiencias para sus clientes.
 
@@ -32,4 +32,4 @@ Esto habilita el conector de origen de Analytics para ese grupo de informes. Cad
 
 ![](../assets/jo-event9.png)
 
-Obtenga más información sobre el conector de origen de Adobe Analytics en [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) y [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
+Obtenga más información sobre el conector de origen de Adobe Analytics en [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es){target=&quot;_blank&quot;} y [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es){target=&quot;_blank&quot;}.
