@@ -5,9 +5,9 @@ feature: Informes
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ El correo electrónico **[!UICONTROL Global report]** se divide en distintas uti
 
 * **[!UICONTROL Click Rate]**: Porcentaje de clics en una entrega.
 
-* **[!UICONTROL Spam Complaint Rate]**: Porcentaje de correos electrónicos marcados como correo no deseado por los destinatarios comparados con los mensajes enviados. Para obtener más información sobre las quejas, consulte esta [página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability).
+* **[!UICONTROL Spam Complaint Rate]**: Porcentaje de correos electrónicos marcados como correo no deseado por los destinatarios comparados con los mensajes enviados. Para obtener más información sobre las quejas, consulte la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}.
 
 * **[!UICONTROL Unsubscribe Rate]**: Porcentaje de bajas únicas en comparación con el número de mensajes enviados. Este indicador no se basa en el número de clics en el vínculo de baja de suscripción, sino en el número de bajas de suscripción iniciadas por los destinatarios. Obtenga más información sobre las bajas de suscripción en esta [página](../consent.md).
 
