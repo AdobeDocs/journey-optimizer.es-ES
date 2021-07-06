@@ -6,10 +6,10 @@ feature: Grupos de control
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 18%
+source-wordcount: '726'
+ht-degree: 15%
 
 ---
 
@@ -101,7 +101,7 @@ Si es necesario, también puede crear un nuevo perfil de producto con permisos e
 
 [!DNL Journey Optimizer] le permite crear sus propios  **[!UICONTROL Product profiles]** y asignar un conjunto de permisos y entornos limitados a los usuarios. Con **[!UICONTROL Product profiles]**, puede autorizar o denegar el acceso a determinadas funcionalidades u objetos de la interfaz.
 
-Para obtener más información sobre cómo crear y administrar entornos limitados, consulte la documentación de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es).
+Para obtener más información sobre cómo crear y administrar entornos limitados, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es){target=&quot;_blank&quot;}.
 
 En este ejemplo, crearemos un perfil de producto denominado **Recorrido de solo lectura** donde concederemos derechos de solo lectura a la función de Recorrido. Los usuarios solo podrán acceder y ver recorridos y no podrán acceder a otras funciones como **[!UICONTROL Decision management]** o **[!UICONTROL Messages]** en [!DNL Journey Optimizer].
 
@@ -141,7 +141,7 @@ Para crear nuestros **Recorridos de solo lectura** **[!UICONTROL product profile
 
    ![](../assets/access_control_13.png)
 
-1. En **[!UICONTROL Available Permissions Items]**, haga clic en el icono de signo más (+) para asignar entornos limitados al perfil. [Obtenga más información sobre los entornos limitados](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es).
+1. En **[!UICONTROL Available Permissions Items]**, haga clic en el icono de signo más (+) para asignar entornos limitados al perfil. [Obtenga más información sobre los entornos limitados](sandboxes.md).
 
 1. Cuando termine, haga clic en **[!UICONTROL Save]**.
 
