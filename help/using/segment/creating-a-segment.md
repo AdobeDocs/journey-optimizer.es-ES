@@ -5,10 +5,10 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: 6639630c4049e36904ce722759320f276799d8f3
+source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 6%
+source-wordcount: '300'
+ht-degree: 7%
 
 ---
 
@@ -53,3 +53,7 @@ En este ejemplo, crearemos un segmento dirigido a todos los clientes que viven e
 1. Una vez que el segmento esté listo, haga clic en **[!UICONTROL Save]**. Se muestra en la lista de segmentos de Adobe Experience Platform. Tenga en cuenta que hay una barra de búsqueda disponible para ayudarle a buscar un segmento específico en la lista.
 
 El segmento ahora se puede usar en sus recorridos. Para obtener más información, consulte [esta sección](../segment/about-segments.md).
+
+## Tutorial en vídeo{#create-segment-video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)
