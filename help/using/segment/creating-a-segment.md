@@ -5,10 +5,10 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 7%
+source-wordcount: '304'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ En este ejemplo, crearemos un segmento dirigido a todos los clientes que viven e
 
    ![](../assets/create-segment.png)
 
-   La pantalla de definición del segmento le permite configurar todos los campos obligatorios para definir el segmento. Obtenga información sobre cómo configurar segmentos en la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   La pantalla de definición del segmento le permite configurar todos los campos obligatorios para definir el segmento. Aprenda a configurar segmentos en la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target=&quot;_blank&quot;}.
 
    ![](../assets/segment-builder.png)
 
@@ -32,7 +32,7 @@ En este ejemplo, crearemos un segmento dirigido a todos los clientes que viven e
 
    >[!NOTE]
    >
-   >Tenga en cuenta que los campos disponibles en el panel izquierdo varían en función de cómo se hayan configurado los esquemas **XDM Individual Profile** y **XDM ExperienceEvent** para su organización.  Obtenga más información en la documentación del [Modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es).
+   >Tenga en cuenta que los campos disponibles en el panel izquierdo varían en función de cómo se hayan configurado los esquemas **XDM Individual Profile** y **XDM ExperienceEvent** para su organización.  Obtenga más información en la documentación del [Modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target=&quot;_blank&quot;}.
 
    ![](../assets/drag-fields.png)
 
