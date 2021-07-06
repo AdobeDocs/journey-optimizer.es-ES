@@ -5,14 +5,14 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: a6a421fc23f4564bb24061c019c9418b491e7eee
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 4%
 
 ---
 
-# Caso de uso: Configure ofertas personalizadas para utilizarlas en un correo electrónico {#configure-add-personalized-offers-email}
+# Caso de uso: Configurar ofertas personalizadas para utilizarlas en un correo electrónico {#configure-add-personalized-offers-email}
 
 Esta sección presenta un ejemplo completo de cómo configurar ofertas y utilizarlas en un mensaje de correo electrónico, en función de una decisión que haya creado anteriormente.
 
@@ -58,7 +58,7 @@ El proceso general de gestión de decisiones para utilizar ofertas en un correo 
 
 ![](../assets/offers-e2e-process.png)
 
-## Defina los componentes {#define-components}
+## Definir los componentes {#define-components}
 
 Antes de comenzar a crear ofertas, debe definir varios componentes que utilizará en las ofertas.
 
@@ -131,7 +131,7 @@ Ahora puede crear y configurar sus ofertas. En este ejemplo, creará cuatro ofer
 
    ![](../assets/offers-e2e-representations.png)
 
-1. En la sección **[!UICONTROL Offer eligiblity]** , seleccione **[!UICONTROL By defined decision rule]** y arrastre y suelte la regla que desee.
+1. En la sección **[!UICONTROL Offer eligibility]** , seleccione **[!UICONTROL By defined decision rule]** y arrastre y suelte la regla que desee.
 
    ![](../assets/offers-e2e-eligibility.png)
 
@@ -186,7 +186,7 @@ Al configurar la decisión, debe añadir las ofertas personalizadas como parte d
 
 Los pasos detallados para crear una colección se describen en [esta sección](../../using/offers/offer-library/creating-collections.md).
 
-## Configure la decisión {#configure-decision}
+## Configurar la decisión {#configure-decision}
 
 Ahora debe crear una decisión que combine ubicaciones con las ofertas personalizadas y la oferta de reserva que acaba de crear.
 
@@ -204,7 +204,7 @@ Para crear y configurar una decisión de oferta, siga los pasos principales a co
 
    ![](../assets/offers-e2e-decision-collection.png)
 
-1. Si definió una clasificación al [crear los componentes](#define-components), puede asignarla a una ubicación en la decisión. Si varias ofertas son elegibles para presentarse en esta ubicación, la decisión utilizará esta fórmula para calcular qué oferta enviar primero.
+1. Si definió una clasificación al [crear los componentes](#define-components), puede asignarla a una ubicación en la decisión. Si se pueden presentar varias ofertas en esta ubicación, la decisión utilizará esta fórmula para calcular qué oferta enviar primero.
 
    Los pasos detallados para asignar una fórmula de clasificación a una ubicación se describen en [esta sección](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula).
 
