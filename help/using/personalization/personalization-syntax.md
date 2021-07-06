@@ -5,10 +5,10 @@ feature: Personalización
 topic: Personalización
 role: Data Engineer
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 5%
+source-wordcount: '563'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ Ejemplo de expresión simple:
 donde:
 
 * `profile` es un área de nombres.
-* `person.name` es un token compuesto por atributos. La estructura de atributos se define en un esquema Adobe Experience Platform XDM. [Más información](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es).
+* `person.name` es un token compuesto por atributos. La estructura de atributos se define en un esquema Adobe Experience Platform XDM. [Más información](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target=&quot;_blank&quot;}.
 
 ## Reglas generales de sintaxis
 
@@ -45,7 +45,7 @@ En Handlebars, los valores devueltos por {{expression}} son **HTML-escaped**. Si
 
 ## Perfil
 
-Este espacio de nombres le permite hacer referencia a todos los atributos definidos en el esquema de perfil descrito en la documentación del [Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+Este espacio de nombres le permite hacer referencia a todos los atributos definidos en el esquema de perfil descrito en la documentación del [Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
 
 Los atributos deben definirse en el esquema antes de hacer referencia a ellos en un bloque personalizado [!DNL Journey Optimizer].
 
