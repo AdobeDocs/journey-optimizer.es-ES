@@ -15,7 +15,7 @@ feature: Configuración de la aplicación
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 6%
@@ -34,7 +34,7 @@ Con [!DNL Journey Optimizer], puede supervisar todas las direcciones de correo e
 
 Estas direcciones de correo electrónico se recopilan automáticamente en la **lista de supresión** de Journey Optimizer. Obtenga más información en [esta sección](../suppression-list.md).
 
-## Acceda a la lista de supresión {#access-suppression-list}
+## Acceso a la lista de supresión {#access-suppression-list}
 
 Para acceder a la lista detallada de direcciones de correo electrónico excluidas, abra el menú **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** y haga clic en el enlace **[!UICONTROL View suppression lists]**.
 
