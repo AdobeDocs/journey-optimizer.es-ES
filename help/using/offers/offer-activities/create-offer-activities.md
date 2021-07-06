@@ -5,10 +5,10 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 4%
+source-wordcount: '576'
+ht-degree: 5%
 
 ---
 
@@ -67,7 +67,7 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
    Agregue uno o varios segmentos del panel izquierdo, combínelos con los operadores lógicos **[!UICONTROL And]** / **[!UICONTROL Or]** y haga clic en **[!UICONTROL Select]** para confirmar.
 
-   Para obtener más información sobre cómo trabajar con segmentos, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+   Para obtener más información sobre cómo trabajar con segmentos, consulte [esta página](../../segment/about-segments.md).
 
    ![](../../assets/activity_constraint_segment2.png)
 
@@ -102,7 +102,7 @@ Para obtener más información sobre la entrega de ofertas, consulte estas secci
 
 >[!NOTE]
 >
->Una vez que se ha creado una decisión, puede hacer clic en su nombre en la lista para acceder a información detallada y visualizar todos los cambios realizados en ella mediante la pestaña **[!UICONTROL Change log]** (consulte [Registro de cambios de ofertas y decisiones](../get-started/user-interface.md#changes-log)).
+>Una vez que se ha creado una decisión, puede hacer clic en su nombre en la lista para acceder a información detallada y visualizar todos los cambios realizados en ella mediante la pestaña **[!UICONTROL Change log]**. [Más información](../get-started/user-interface.md#changes-log).
 
 ## Tutorial en vídeo {#video}
 
