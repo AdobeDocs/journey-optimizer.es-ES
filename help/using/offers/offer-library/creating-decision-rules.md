@@ -5,7 +5,7 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 15%
@@ -18,7 +18,7 @@ Puede crear reglas de decisión de oferta basadas en los datos disponibles en Ad
 
 Por ejemplo, puede especificar que solo desea que se muestre una “Oferta de ropa de invierno femenina” cuando (Sexo = &#39;Mujer&#39;) y (Región = &#39;Noreste&#39;).
 
-![](../../assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
+➡️ [Descubra esta función en vídeo](#video)
 
 Se puede acceder a la lista de reglas de decisión creadas en el menú **[!UICONTROL Components]** .
 
