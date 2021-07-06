@@ -5,7 +5,7 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 7%
@@ -18,7 +18,7 @@ Asociar etiquetas a las ofertas facilita su organización. Por ejemplo, puede et
 
 Las etiquetas también se pueden usar para agrupar ofertas en colecciones de ofertas. Consulte [Crear colecciones](../offer-library/creating-collections.md).
 
-![](../../assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
+➡️ [Descubra esta función en vídeo](#video)
 
 Se puede acceder a la lista de etiquetas creadas en el menú **[!UICONTROL Components]** .
 
