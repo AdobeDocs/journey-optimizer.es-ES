@@ -5,7 +5,7 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Las decisiones (anteriormente conocidas como actividades de oferta) son contenedores para sus ofertas que aprovecharán el motor de decisión de ofertas para elegir la mejor oferta que se debe entregar, según el destinatario del envío.
 
-![](../../assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
+➡️ [Descubra esta función en vídeo](#video)
 
 Se puede acceder a la lista de decisiones desde la pestaña **[!UICONTROL Offers]** menu / **[!UICONTROL Decisions]** . Los filtros están disponibles para ayudarle a recuperar las decisiones según su estado o las fechas de inicio y finalización.
 
