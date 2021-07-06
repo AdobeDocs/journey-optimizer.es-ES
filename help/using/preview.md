@@ -5,9 +5,9 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: ff36b68efa639870b68997fca86ee1be24e2cc79
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Para seleccionar perfiles de prueba, siga los pasos a continuación:
 
    ![](assets/previewselect-namespace.png)
 
-   Obtenga más información sobre los áreas de nombres de identidad [de Adobe Experience Platform en esta sección](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#getting-started).
+   Obtenga más información sobre los espacios de nombres de identidad [de Adobe Experience Platform en esta sección](get-started-identity.md){target=&quot;_blank&quot;}.
 
    En el siguiente ejemplo, utilizaremos el espacio de nombres **Email**.
 
