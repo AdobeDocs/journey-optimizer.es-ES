@@ -5,10 +5,10 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 3%
+source-wordcount: '382'
+ht-degree: 2%
 
 ---
 
@@ -27,3 +27,18 @@ Puede aprovechar los segmentos en los recorridos de diferentes maneras:
 * Utilice la actividad de evento **Segment qualification** para que los individuos entren o avancen en un recorrido en función de las entradas y salidas de segmentos de Adobe Experience Platform. Por ejemplo, puede hacer que todos los clientes nuevos de plata introduzcan un recorrido y envíen mensajes. Para obtener más información sobre cómo utilizar esta actividad, consulte [esta sección](../building-journeys/segment-qualification-events.md).
 
 * Cree **condiciones complejas** en sus recorridos con el editor de expresiones simple o avanzado. Obtenga más información en [esta sección](../building-journeys/condition-activity.md#using-a-segment).
+
+## Método de evaluación en Adobe Journey Optimizer {#evaluation-method-in-journey-optimizer}
+
+En Adobe Journey Optimizer, las audiencias se generan a partir de definiciones de segmentos mediante uno de estos métodos de evaluación:
+
+* Segmentación por transmisión: la lista de audiencia del segmento se mantiene actualizada en tiempo real mientras los nuevos datos fluyen al sistema.
+* Segmentación por lotes: la lista de audiencia del segmento se actualiza cada hora, según los datos que hayan llegado en la hora anterior.
+
+El sistema determina la segmentación por lotes y la segmentación de flujo continuo para cada definición de segmento, en función de la complejidad y el coste de la evaluación de la regla de segmento.
+
+Puede ver el método de evaluación para cada segmento en la columna **[!UICONTROL Evaluation method]** de la lista de segmentos.
+
+Después de haber definido un segmento por primera vez, los perfiles se añaden a la audiencia cuando cumplen los requisitos.
+
+Rellenar la audiencia a partir de datos anteriores puede tardar hasta 24 horas. Una vez que la audiencia se ha rellenado, se mantiene actualizada de forma continua y siempre está lista para la segmentación.
