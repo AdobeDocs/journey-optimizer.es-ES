@@ -5,10 +5,10 @@ feature: Información general
 topic: Administración de contenido
 role: User
 level: Beginner
-source-git-commit: 6783aaec0d050074624b9aa8219252ebf7618088
+source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 21%
+source-wordcount: '688'
+ht-degree: 23%
 
 ---
 
@@ -25,6 +25,9 @@ ht-degree: 21%
 
 [!DNL Adobe Journey Optimizer] se basa de forma nativa en  [!DNL Adobe Experience Platform] y combina un perfil de cliente unificado y en tiempo real, un marco de trabajo abierto con prioridad API, offer decisioning centralizado, inteligencia artificial (IA) y aprendizaje automático (ML) para la personalización y la optimización. Journey Optimizer permite que las marcas determinen de forma inteligente la siguiente mejor interacción con la escala, la velocidad y la flexibilidad en todo el recorrido del cliente. Con [!DNL Adobe Journey Optimizer], las empresas pueden crear y entregar, dentro de la misma aplicación, campañas de marketing programadas (como promociones semanales para una tienda minorista) y comunicaciones individuales personalizadas (como una notificación push para un artículo que un cliente de una aplicación de fidelidad podría haber visto antes sin existencias).
 
+➡️ [Discover Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target=&quot;_blank&quot;} (vídeo)
+
+
 ## Casos de uso
 
 * Los especialistas en marketing pueden utilizar [!DNL Adobe Journey Optimizer] para enviar comunicaciones individualizadas y comunicaciones por lotes basadas en audiencias. Por ejemplo: una tienda de ropa suele enviar estudios posteriores a la compra a todos los clientes que han comprado productos en la última semana. Debido al clima de inclemencia, algunos envíos experimentaron retrasos. Al ver qué clientes no han recibido sus envíos, la tienda de ropa puede excluirlos del envío de satisfacción del cliente programado y, en su lugar, enviar un correo electrónico personalizado pidiendo disculpas por el retraso y ofreciendo un código de descuento con recomendaciones de productos basadas en las compras anteriores del cliente.
@@ -35,7 +38,8 @@ ht-degree: 21%
 
 ## Funcionalidades clave
 
-[!DNL Adobe Journey Optimizer] es una aplicación ágil y escalable para crear y ofrecer experiencias de cliente personalizadas, conectadas y oportunas en cualquier aplicación, dispositivo o canal.
+[!DNL Adobe Journey Optimizer] es una aplicación ágil y escalable para crear y ofrecer experiencias del cliente personalizadas, conectadas y puntuales
+en cualquier aplicación, dispositivo o canal.
 
 ![](assets/ajo-capabilities.png)
 
@@ -46,6 +50,13 @@ Las funciones clave incluyen:
 * **Organización y ejecución modernas**  omnicanal: un lienzo único en el que armonizar y optimizar el recorrido del cliente para la participación del cliente y el alcance de marketing 1:1 para ayudar a las marcas a proporcionar más valor a lo largo del ciclo de vida del cliente. Los recorridos de cliente diseñados en [!DNL Adobe Journey Optimizer] pueden ser dinámicos y estar basados en eventos para ayudar a las marcas a reaccionar a las señales en tiempo real, así como a conectar esas interacciones con campañas programadas, de modo que se puedan tomar las decisiones correctas sobre qué comunicaciones enviar a un cliente, cuándo y a través de qué canales.
 
 * **Intelligent Decisioning &amp; Personalization** : las marcas pueden aplicar decisiones centralizadas e incorporar inteligencia artificial y aprendizaje automático para obtener perspectivas predictivas a través de la experiencia del cliente, lo que facilita la automatización de decisiones y la optimización de la experiencia a escala. El offer decisioning alimenta las ofertas centralizadas entre canales a escala a través de [!DNL Adobe Journey Optimizer].
+
+## Arquitectura
+
+Comprenda la arquitectura básica de [!DNL Adobe Journey Optimizer], los puntos de integración y la relación de [!DNL Journey Optimizer] con otras aplicaciones de Adobe.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334205?quality=12)
+
 
 >[!NOTE]
 >
