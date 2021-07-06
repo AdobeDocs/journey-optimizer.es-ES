@@ -5,7 +5,7 @@ feature: Personalización
 topic: Personalización
 role: Data Engineer
 level: Intermediate
-source-git-commit: 74662ee07422d507889788a790547c774b65f944
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 5%
@@ -116,12 +116,12 @@ Todas las referencias se validan con Esquema de ofertas con un mecanismo de vali
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
-## Ayuda{#helpers-all}
+## Ayudantes{#helpers-all}
 
 Un asistente de Handlebars es un identificador simple que puede ir seguido de parámetros.
 Cada parámetro es una expresión Handlebars. Se puede acceder a estos asistentes desde cualquier contexto en una plantilla.
 
-Estos ayudantes de bloque se identifican con un # antes del nombre del ayudante y requieren un / de cierre coincidente, del mismo nombre.
+Estos ayudantes de bloque se identifican con un # que precede al nombre del ayudante y requieren un / de cierre coincidente, del mismo nombre.
 Los bloques son expresiones que tienen una apertura de bloque ({{# }}) y un cierre ({{/}}).
 
 
