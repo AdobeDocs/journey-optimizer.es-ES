@@ -5,9 +5,9 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2005'
 ht-degree: 3%
 
 ---
@@ -125,7 +125,7 @@ Esta es la lista de todos los campos que se pueden utilizar en el conjunto de da
       **Campo:** id
       **Descripción:**  Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se usan las API de plataforma para recuperar la representación, el cliente puede esperar que una propiedad adicional \&quot;repo:resolveUrl\&quot; recupere el recurso.
       **Tipo:** cadena
-      **Ejemplo:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+      **Ejemplo:** &quot;:aaid:urnsc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
@@ -193,7 +193,7 @@ Esta es la lista de todos los campos que se pueden utilizar en el conjunto de da
 
 **Campo:** profileConstraints 
 **Título:** Detalles de restricción de perfil 
-**Descripción:**  Las restricciones de perfil deciden si una opción es apta para esta identidad de perfil, en este momento, en este contexto. Si la restricción de perfil no necesita tener en cuenta los valores de cada una de las opciones, es decir, no tiene en cuenta las opciones de la selección de opciones, la restricción de perfil que se evalúa como &quot;false&quot; cancela toda la selección de opciones. Por otro lado, se evalúa una regla de restricción de perfil que toma una opción como parámetro para cada opción de calificación de la selección de opciones.
+**Descripción:**  Las restricciones de perfil deciden si una opción es apta para esta identidad de perfil, en este momento, en este contexto. Si la restricción de perfil no necesita tener en cuenta los valores de cada una de las opciones, es decir, no tiene en cuenta las opciones de la selección de opciones, la restricción de perfil que se evalúa como &quot;false&quot; cancela toda la selección de opciones. Por otro lado, se evalúa una regla de restricción de perfil que toma una opción como parámetro para cada opción correspondiente de la selección de opciones.
 **Tipo:** objeto
 
 **_experience > decisiones > profileConstraints > Descripción**
@@ -299,7 +299,7 @@ Esta es la lista de todos los campos que se pueden utilizar en el conjunto de da
 
 **Campo:** prioridad 
 **Título:** Prioridad 
-**Descripción:** La prioridad de una opción de decisión única en relación con el resto de opciones. Las opciones para las que no se ha dado ninguna función de orden se priorizan usando esta propiedad. Las opciones con valores de prioridad más altos se seleccionan antes que las opciones con prioridad más baja. Si dos o más opciones cualificadas comparten el valor de prioridad más alto, se elige uno de forma aleatoria uniforme y se utiliza para la propuesta de decisión.
+**Descripción:** La prioridad de una opción de decisión única en relación con el resto de opciones. Las opciones para las que no se proporciona ninguna función de pedido se priorizan usando esta propiedad. Las opciones con valores de prioridad más altos se seleccionan antes que las opciones con prioridad más baja. Si dos o más opciones cualificadas comparten el valor de prioridad más alto, se elige uno de forma aleatoria uniforme y se utiliza para la propuesta de decisión.
 **Tipo:** entero 
 **Valor mínimo:** 0 
 **Valor predeterminado:** 0
