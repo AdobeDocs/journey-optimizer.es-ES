@@ -1,5 +1,5 @@
 ---
-title: Delegación de subdominios
+title: Delegar subdominios
 description: Obtenga información sobre cómo delegar subdominios
 page-status-flag: never-activated
 uuid: null
@@ -15,15 +15,15 @@ feature: Configuración de la aplicación
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 9%
+source-wordcount: '455'
+ht-degree: 10%
 
 ---
 
 
-# Delegación de un subdominio
+# Delegar un subdominio
 
 La delegación de nombres de dominio es un método que permite al propietario de un nombre de dominio (técnicamente: una zona DNS) para delegar una subdivisión de ella (técnicamente: una zona DNS bajo ella, que puede llamarse subzona) a otra entidad. Básicamente, si un cliente está manejando la zona &quot;example.com&quot;, puede delegar la subzona &quot;marketing.example.com&quot; a Adobe.
 
@@ -46,6 +46,10 @@ Para delegar un nuevo subdominio, siga los pasos a continuación:
 1. Especifique el nombre del subdominio que desea delegar.
 
    ![](../assets/subdomain-name.png)
+
+   >[!CAUTION]
+   >
+   >Asegúrese de que ha introducido un subdominio válido, como marketing.company.com. No se permite delegar un subdominio no válido al Adobe.
 
 1. Se muestra la lista de registros que se van a colocar en los servidores DNS. Copie estos registros, uno por uno o descargando un archivo CSV, y luego vaya a la solución de alojamiento de dominios para generar los registros DNS coincidentes.
 
@@ -73,7 +77,7 @@ Para delegar un nuevo subdominio, siga los pasos a continuación:
 
    ![](../assets/subdomain-processing.png)
 
-1. Una vez realizadas las comprobaciones correctamente, el subdominio obtiene el estado **[!UICONTROL Success]**. Está listo para utilizarse para enviar mensajes.
+1. Una vez realizadas las comprobaciones correctamente, el subdominio recibe el estado **[!UICONTROL Success]**. Está listo para utilizarse para enviar mensajes.
 
    <!-- later on, users will be notified in Pulse -->
 
