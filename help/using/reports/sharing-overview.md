@@ -5,9 +5,9 @@ feature: Informes
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 7%
 
 ---
@@ -58,4 +58,4 @@ Las listas de campos XDM pasados a Adobe Experience Platform se detallan aquí:
 * [Campos de identidad de eventos de journeySteps](../reports/sharing-identity-fields.md)
 * [campos del recorrido](../reports/sharing-journey-fields.md)
 
-Para obtener más información sobre los informes de eventos de paso a Adobe Experience Platform, vea este [tutorial en vídeo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html).
+Para obtener más información sobre los eventos de paso que generan informes a Adobe Experience Platform, vea este [tutorial en vídeo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target=&quot;_blank&quot;}.
