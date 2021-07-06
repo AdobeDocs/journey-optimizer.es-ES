@@ -5,14 +5,14 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1047'
 ht-degree: 3%
 
 ---
 
-# El conjunto de datos de ofertas de reserva {#fallback-dataset}
+# Ofertas de reserva: conjunto de datos {#fallback-dataset}
 
 Cada vez que se modifica una oferta, se actualiza el conjunto de datos generado automáticamente para ofertas de reserva.
 
@@ -105,7 +105,7 @@ Esta es la lista de todos los campos que se pueden utilizar en el conjunto de da
       **Campo:** id
       **Descripción:**  Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se usan las API de plataforma para recuperar la representación, el cliente puede esperar que una propiedad adicional \&quot;repo:resolveUrl\&quot; recupere el recurso.
       **Tipo:** cadena
-      **Ejemplo:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+      **Ejemplo:** &quot;:aaid:urnsc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
