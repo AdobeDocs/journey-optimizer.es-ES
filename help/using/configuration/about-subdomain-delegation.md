@@ -1,5 +1,5 @@
 ---
-title: Delegación de subdominios
+title: Delegar subdominios
 description: Obtenga información sobre cómo delegar subdominios
 internal: n
 snippet: y
@@ -7,7 +7,7 @@ feature: Configuración de la aplicación
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 27%
@@ -35,5 +35,5 @@ Aunque estos requisitos se administran a través de componentes alojados tanto p
 **Más información**
 
 * Obtenga información sobre cómo [delegar sus subdominios](delegate-subdomain.md) directamente desde la interfaz
-* Obtenga información sobre cómo [añadir registros TXT de Google](google-txt.md) a los subdominios para garantizar el envío correcto de correos electrónicos a direcciones de Gmail
+* Obtenga información sobre cómo [añadir registros TXT de Google](google-txt.md) a los subdominios para garantizar el envío correcto de correos electrónicos a las direcciones de Gmail
 * Obtenga información sobre cómo [acceder a los registros PTR](ptr-records.md) generados para los subdominios, lo que permite que los servidores de correo los verifiquen
