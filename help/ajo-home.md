@@ -5,7 +5,7 @@ feature: Información general
 topic: Administración de contenido
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: 23120835969006b3c8004b8cd89c4a9ab976760a
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 38%
@@ -67,16 +67,24 @@ ht-degree: 38%
     <p>
     <p>
     <div>
+    <li>
       <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html">Descripción del producto de Adobe Journey Optimizer</a>
+    </li>
     </div>
     <div>
+    <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es">Documentación de Adobe Experience Platform</a>
+    </li>
     </div>
       <div>
+      <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=es">Información general sobre el acceso a Adobe Experience Platform</a>
+    </li>
     </div>
       <div>
+      <li>
       <a href="https://www.adobe.com/es/experience-platform/documentation-and-developer-resources.html">Recursos para desarrolladores de Adobe Experience Platform</a>
+    </li>
     </div>
   </td>
    <td>
