@@ -5,14 +5,14 @@ feature: Información general
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: 780f51295459ac7a400e0060c817b49a1f632bff
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '980'
 ht-degree: 2%
 
 ---
 
-# Utilice los componentes de contenido del Diseñador de correo electrónico {#content-components}
+# Uso de los componentes de contenido del Diseñador de correo electrónico {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
@@ -115,7 +115,7 @@ Utilice el componente **[!UICONTROL Image]** para insertar un archivo de imagen 
 
 1. Haga clic en **[!UICONTROL Browse]** para elegir un archivo de imagen de sus recursos.
 
-   Para obtener más información sobre [!DNL Assets Essentials], consulte [Documentación de Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html).
+   Para obtener más información sobre [!DNL Assets Essentials], consulte [Documentación de Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
 
 1. Haga clic en el componente recién agregado para comenzar a configurar el **[!UICONTROL Content Components]** y para tener acceso al **[!UICONTROL Components Settings]** en el panel derecho del diseñador de correo electrónico.
 
