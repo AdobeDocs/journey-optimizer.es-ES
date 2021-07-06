@@ -7,9 +7,9 @@ feature: Journey Optimizer
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1033'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Una regla de límite es específica para un punto final, pero global para todos 
 
 Por ejemplo, supongamos que ha definido una regla de límite de 100 llamadas por segundo para el sistema externo. Una acción personalizada llama al sistema en 10 recorridos diferentes. Si un recorrido recibe 200 llamadas por segundo, utilizará las 100 ranuras disponibles y descartará las 100 ranuras restantes. Como la velocidad máxima se ha superado, los otros 9 recorridos no tendrán ninguna ranura. Esta granularidad ayuda a proteger el sistema externo de sobrecargas y caídas.
 
-Para obtener más información sobre la API de restricción y cómo configurarlas, consulte [esta página](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html).
+Para obtener más información sobre la API de restricción y cómo configurarlas, consulte la [documentación del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}.
 
 ## Tiempo de espera y reintentos{#timeout}
 
@@ -72,7 +72,7 @@ Veamos un ejemplo para un tiempo de espera de 5 segundos.
 
 **¿Cómo puedo configurar una regla de límite? ¿Hay una regla de límite predeterminada?**
 
-De forma predeterminada, no hay ninguna regla de restricción. Las reglas de restricción se definen a nivel de entorno limitado para un punto final específico (la URL denominada) mediante la API de restricción. Consulte [esta sección](../configuration/external-systems.md#capping) y [esta página](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html).
+De forma predeterminada, no hay ninguna regla de restricción. Las reglas de restricción se definen a nivel de entorno limitado para un punto final específico (la URL denominada) mediante la API de restricción. Consulte [esta sección](../configuration/external-systems.md#capping) y [documentación del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}.
 
 **¿Cuántos reintentos se realizan? ¿Puedo cambiar el número de reintentos o definir un periodo de espera mínimo entre los reintentos?**
 
