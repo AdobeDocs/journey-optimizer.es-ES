@@ -5,9 +5,9 @@ feature: Eventos
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '296'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Para configurar los eventos que se enviarán a **[!UICONTROL Streaming Ingestion APIs]** y que se utilizarán en [!DNL Journey Optimizer], debe seguir estos pasos:
 
-1. Obtenga la URL de entrada de las API de Adobe Experience Platform. Obtenga más información en [Resumen de las API de ingesta de transmisión](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html).
+1. Obtenga la URL de entrada de las API de Adobe Experience Platform. Obtenga más información en [Descripción general de las API de ingesta de transmisión](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target=&quot;_blank&quot;}.
 1. Copie la carga útil de la previsualización de carga útil en el menú **[!UICONTROL Event]** . Obtenga más información en [esta página](../event/about-creating.md#define-the-payload-fields).
 
 A continuación, debe configurar el sistema de datos que envía eventos a las API de ingesta de transmisión mediante la carga útil que ha copiado:
@@ -84,6 +84,6 @@ Este es un ejemplo de un evento de API de ingesta de transmisión:
 }
 ```
 
-Para facilitar la identificación del lugar en el que pegar la parte &quot;datos&quot;, puede utilizar una herramienta de visualización JSON como [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
+Para facilitar la identificación del lugar donde pegar la parte &quot;datos&quot;, puede utilizar una herramienta de visualización JSON como [JSON formatter](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;}.
 
-Para solucionar los problemas de las API de ingesta de transmisión, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html).
+Para solucionar los problemas de las API de ingesta de transmisión, consulte la [documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}.
