@@ -5,10 +5,10 @@ feature: Ofertas
 topic: Integraciones
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ Puede crear y enviar ofertas realizando una solicitud de POST a la API [!DNL Dec
 
 Este tutorial requiere una comprensión práctica de las API, específicamente con respecto a la gestión de decisiones. Para obtener más información, consulte la [guía para desarrolladores de la API de administración de decisiones](../getting-started.md). Este tutorial también requiere que tenga disponible un ID de ubicación y un valor de ID de decisión únicos. Si no ha adquirido estos valores, consulte los tutoriales para [crear una ubicación](../offers-api/placements/create.md) y [crear una decisión](../activities-api/activities/create.md).
 
-![](../../../assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
+➡️  [Descubra esta función en vídeo](#video)
 
 ## Encabezados Accept y Content-Type
 
@@ -108,7 +108,7 @@ curl -X POST \
 | `xdm:propositionRequests.xdm:activityId` | Identificador de decisión único. | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
 | `xdm:itemCount` | Número de ofertas que se van a devolver. El número máximo es 30. | `"xdm:itemCount": 2` |
 | `xdm:profiles` | Este objeto contiene información sobre el perfil para el que se solicita la decisión. Para una solicitud de API, contendrá un perfil. |
-| `xdm:profiles.xdm:identityMap` | Este objeto alberga un conjunto de identidades de usuario final basadas en el código de integración del área de nombres de la identidad. El mapa de identidad puede contener más de una identidad de cada área de nombres. Para obtener más información sobre áreas de nombres, consulte [Identity namespace overview](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html). | `Email: [{"xdm:id": "123@abc.com"}]` |
+| `xdm:profiles.xdm:identityMap` | Este objeto alberga un conjunto de identidades de usuario final basadas en el código de integración del área de nombres de la identidad. El mapa de identidad puede contener más de una identidad de cada área de nombres. Para obtener más información sobre áreas de nombres, consulte [Identity namespace overview](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es). | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | ID generado por el cliente que se puede utilizar para identificar de forma exclusiva una solicitud de decisión de perfil. Este ID se repite en la respuesta y no influye en el resultado de la decisión. | `"xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"` |
 | `xdm:allowDuplicatePropositions` | Este objeto define la estructura de control de las reglas de deduplicación. Consiste en una serie de indicadores que indican si se puede proponer la misma opción en una dimensión determinada. Un indicador que se establece en true significa que se permiten duplicados y no se deben eliminar en la categoría indicada por el indicador. Un indicador establecido en false significa que el motor de decisión no debe realizar la misma propuesta en toda la dimensión y, en su lugar, elegir la siguiente mejor opción para una de las subdecisiones. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Si se establece en true, se puede asignar la misma opción a varias decisiones. | `"xdm:acrossActivities": true` |
@@ -188,7 +188,7 @@ Una respuesta correcta devuelve información sobre la propuesta, incluida su `xd
 | `xdm:propositions.xdm:content` | Formato del contenido de respuesta. | El contenido de respuesta puede ser: `text`, `html block` o `image link` |
 | `xdm:score` | La puntuación de una opción que se calcula como resultado de una función de clasificación asociada con la opción o la decisión. La API devolverá este campo si una función de clasificación participa en la determinación de la puntuación de una oferta durante la clasificación. | `"xdm:score": 45.65` |
 | `xdm:propositions.xdm:fallback` | Este objeto contiene una sola oferta de reserva, incluido su identificador único. | `"xdm:id": "xcore:fallback:ccc0222"` |
-| `xdm:propositions.xdm:fallback.dc:format` | La manifestación física o digital del recurso. Normalmente, el formato debe incluir el tipo de medio del recurso. El formato puede utilizarse para determinar el software, el hardware u otro equipo necesario para visualizar o utilizar el recurso. Se recomienda seleccionar un valor de un vocabulario controlado, por ejemplo, la lista de [Internet Media Types](http://www.iana.org/assignments/media-types/) que define los formatos multimedia del equipo. | `"dc:format": "image/png"` O bien `"image/jpeg"` |
+| `xdm:propositions.xdm:fallback.dc:format` | La manifestación física o digital del recurso. Normalmente, el formato debe incluir el tipo de medio del recurso. El formato puede utilizarse para determinar el software, el hardware u otro equipo necesario para visualizar o utilizar el recurso. Se recomienda seleccionar un valor de un vocabulario controlado, por ejemplo, la lista de [Internet Media Types](http://www.iana.org/assignments/media-types/) que define los formatos multimedia del equipo. | `"dc:format": "image/png"` o `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | Una URL opcional para leer el recurso desde un extremo de red o servicio de entrega de contenido. Esta URL se utiliza para acceder al recurso públicamente desde un agente de usuario. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | Hora a la que se creó el mensaje de respuesta de decisión. Esto se representa como hora de época. | `"ode:createDate": 1566497582038` |
 
