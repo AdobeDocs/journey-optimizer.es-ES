@@ -5,7 +5,7 @@ feature: Informes
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: 233b97784843adb26cb37a612feeaf2a8e396f27
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 7%
@@ -52,10 +52,10 @@ Se pasan los siguientes conjuntos de datos:
 
 Las listas de campos XDM pasados a Adobe Experience Platform se detallan aquí:
 
-* [Campos comunes de los eventos de los journeyStep](../reports/sharing-common-fields.md)
-* [Campos de ejecución de la acción eventos de los journeyStep](../reports/sharing-execution-fields.md)
-* [Campos de captura de datos de eventos del journeyStep](../reports/sharing-fetch-fields.md)
-* [Campos de identidad de los eventos de los journeyStep](../reports/sharing-identity-fields.md)
+* [Campos comunes de los eventos de journeySteps](../reports/sharing-common-fields.md)
+* [Campos de ejecución de la acción de eventos de journeySteps](../reports/sharing-execution-fields.md)
+* [Campos de captura de datos de eventos de journeySteps](../reports/sharing-fetch-fields.md)
+* [Campos de identidad de eventos de journeySteps](../reports/sharing-identity-fields.md)
 * [campos del recorrido](../reports/sharing-journey-fields.md)
 
 Para obtener más información sobre los informes de eventos de paso a Adobe Experience Platform, vea este [tutorial en vídeo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html).
