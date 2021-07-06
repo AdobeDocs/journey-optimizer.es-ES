@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para ofrecer experiencias conectadas, contextuales y personalizadas a los clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3f0fe5079b32103aec6160f22900c14db7b0d304
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 97%
+source-wordcount: '691'
+ht-degree: 96%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 97%
    + [Adición de ofertas personalizadas](using/deliver-personalized-offers.md)
 + Segmentos, perfiles e identidad{#segment}
    + Segmentos {#segments}
-      + [Acerca de los segmentos](using/segment/about-segments.md)
+      + [Introducción a los segmentos](using/segment/about-segments.md)
       + [Generación de segmentos](using/segment/creating-a-segment.md)
    + [Perfiles](using/get-started-profiles.md)
    + [Identidad](using/get-started-identity.md)
