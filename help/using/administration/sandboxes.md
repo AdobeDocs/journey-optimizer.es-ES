@@ -1,25 +1,14 @@
 ---
 title: Administración de entornos limitados
 description: Obtenga información sobre cómo administrar entornos limitados
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
-exl-id: null
 feature: Grupos de control
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 2c4a86f7beb10d1ce35e8fb5600a979164038e5f
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 75%
+ht-degree: 76%
 
 ---
 
