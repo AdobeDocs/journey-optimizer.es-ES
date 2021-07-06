@@ -6,22 +6,22 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: 7eceb7292c127c1b16a564fc19d0fc091808ee35
+source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 4%
 
 ---
 
-# Publicar sus mensajes {#publish-manage-messages}
+# Publicación de mensajes {#publish-manage-messages}
 
-## Publicar un mensaje {#publish-message}
+## Publicación de un mensaje {#publish-message}
 
 Una vez creado el mensaje, puede publicarlo para que esté disponible para la ejecución.
 
 >[!CAUTION]
 >
->Antes de publicar, compruebe y resuelva las alertas. [Más información](alerts.md).
+>Antes de publicar, compruebe y resuelva las alertas. [Más información](alerts.md)
 
 ![](assets/publish-message.png)
 
