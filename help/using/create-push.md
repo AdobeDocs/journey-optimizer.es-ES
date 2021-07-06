@@ -5,14 +5,14 @@ feature: Información general
 topic: Administración de contenido
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 12%
 
 ---
 
-# Creación de una notificación push {#create-push-notification}
+# Crear una notificación push {#create-push-notification}
 
 Una vez que [haya creado un mensaje](create-message.md), haga clic en la pestaña **[!UICONTROL Push Notification]** para definir la configuración y el contenido de la notificación push.
 
@@ -30,7 +30,7 @@ Para componer el mensaje, haga clic en los campos **[!UICONTROL Title]** y **[!U
 
 Utilice la sección de vista previa del dispositivo para visualizar cómo se muestra la notificación push en los dispositivos iOS y Android.
 
-## Comportamiento del clic {#on-click-behavior}
+## Comportamiento al hacer clic {#on-click-behavior}
 
 Seleccione el comportamiento cuando un destinatario haga clic en el cuerpo de la notificación push.
 
