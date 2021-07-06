@@ -5,7 +5,7 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 3%
@@ -84,7 +84,7 @@ Esta es la lista de todos los campos que se pueden utilizar en el conjunto de da
 
    **Campo:** optionSelectionType
    **Título:** Tipo de restricción de perfil
-   **Descripción:** Determina si hay restricciones establecidas actualmente y cómo se expresan las restricciones. Puede ser a través de una consulta de filtro o a través de una o más suscripciones a segmentos.
+   **Descripción:** Determina si hay restricciones establecidas actualmente y cómo se expresan. Puede ser a través de una consulta de filtro o a través de una o más suscripciones a segmentos.
    **Tipo:** cadena
    **Valores posibles:** &quot;none&quot; (predeterminado), &quot;directList&quot;, &quot;filter&quot;
 
@@ -114,7 +114,7 @@ Esta es la lista de todos los campos que se pueden utilizar en el conjunto de da
 
 **Campo:** profileConstraints 
 **Título:** Restricción de perfil 
-**Descripción:**  La restricción de perfil decide si una selección de opciones es elegible para esta identidad de perfil en este momento, en este contexto. Si la restricción de perfil no necesita tener en cuenta los valores de cada una de las opciones, es decir, no tiene en cuenta las opciones de la selección de opciones, la restricción de perfil que se evalúa como &quot;false&quot; cancela toda la selección de opciones. Por otro lado, se evalúa una regla de restricción de perfil que toma una opción como parámetro para cada opción de calificación de la selección de opciones.
+**Descripción:**  La restricción de perfil decide si una selección de opciones es elegible para esta identidad de perfil en este momento, en este contexto. Si la restricción de perfil no necesita tener en cuenta los valores de cada una de las opciones, es decir, no tiene en cuenta las opciones de la selección de opciones, la restricción de perfil que se evalúa como &quot;false&quot; cancela toda la selección de opciones. Por otro lado, se evalúa una regla de restricción de perfil que toma una opción como parámetro para cada opción correspondiente de la selección de opciones.
 **Tipo:** objeto
 
 * **_experience > decisiones > criterios > profileConstraints > Descripción**
@@ -135,7 +135,7 @@ Esta es la lista de todos los campos que se pueden utilizar en el conjunto de da
 
    **Campo:** profileConstraintType
    **Título:** Tipo de restricción de perfil
-   **Descripción:** Determina si hay restricciones establecidas actualmente y cómo se expresan las restricciones. Podría ser a través de una regla o a través de una o más suscripciones a segmentos.
+   **Descripción:** Determina si hay restricciones establecidas actualmente y cómo se expresan. Podría ser a través de una regla o a través de una o más suscripciones a segmentos.
    **Tipo:** cadena
    **Valores posibles:**
    * &quot;none&quot; (predeterminado)
@@ -220,7 +220,7 @@ Esta es la lista de todos los campos que se pueden utilizar en el conjunto de da
 
    **Campo:** prioridad
    **Título:** Prioridad
-   **Descripción:** La prioridad de una opción de una sola decisión en relación con el resto de las opciones. Las opciones para las que no se ha dado ninguna función de orden se priorizan usando esta propiedad. Las opciones con valores de prioridad más altos se seleccionan antes que las opciones con prioridad más baja. Si dos o más opciones cualificadas comparten el valor de prioridad más alto, se elige uno de forma aleatoria uniforme y se utiliza para la propuesta de decisión.
+   **Descripción:** La prioridad de una opción de una sola decisión en relación con el resto de las opciones. Las opciones para las que no se proporciona ninguna función de pedido se priorizan usando esta propiedad. Las opciones con valores de prioridad más altos se seleccionan antes que las opciones con prioridad más baja. Si dos o más opciones cualificadas comparten el valor de prioridad más alto, se elige uno de forma aleatoria uniforme y se utiliza para la propuesta de decisión.
    **Tipo:** integer
    **Valor mínimo:** 0
    **Valor predeterminado:** 0
