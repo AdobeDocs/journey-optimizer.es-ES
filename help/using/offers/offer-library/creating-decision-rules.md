@@ -5,10 +5,10 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 15%
+source-wordcount: '244'
+ht-degree: 17%
 
 ---
 
@@ -32,7 +32,7 @@ Para crear una regla de decisión, siga estos pasos:
 
 1. Asigne un nombre a la regla, proporcione una descripción y, a continuación, configure la regla según sus necesidades.
 
-   Para ello, el **Generador de segmentos** de Adobe Experience Platform está disponible para ayudarle a crear las condiciones de la regla. Para obtener más información sobre cómo utilizarla, consulte la [documentación dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+   Para ello, el **Generador de segmentos** está disponible para ayudarle a crear las condiciones de la regla. [Más información](../../segment/about-segments.md)
 
    En este ejemplo, la regla se dirigirá a los clientes que tengan el nivel de lealtad &quot;Oro&quot;.
 
