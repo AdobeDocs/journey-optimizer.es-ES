@@ -5,9 +5,9 @@ feature: Información general
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1493'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Para empezar a crear el contenido del correo electrónico con el diseñador de c
 
    ![](assets/email_designer_3.png)
 
-1. Cada componente se puede personalizar aún más con la sección **[!UICONTROL Component settings]** . Por ejemplo, puede cambiar el estilo del texto, el relleno o el margen del componente. [Obtenga más información sobre los estilos en el Editor](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html) de correo electrónico.
+1. Cada componente se puede personalizar aún más con la sección **[!UICONTROL Component settings]** . Por ejemplo, puede cambiar el estilo del texto, el relleno o el margen del componente. Obtenga más información sobre los estilos en el Editor de correo electrónico en [Adobe Campaign documentation](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html){target=&quot;_blank&quot;}.
 
    ![](assets/email_designer_4.png)
 
