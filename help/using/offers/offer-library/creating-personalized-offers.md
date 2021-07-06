@@ -5,7 +5,7 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 4%
@@ -20,7 +20,7 @@ Antes de crear una oferta, asegúrese de que ha creado:
 * Una **regla de decisión** que definirá la condición bajo la cual se presentará la oferta. Consulte [Crear reglas de decisión](../offer-library/creating-decision-rules.md).
 * Una o varias **etiquetas** que desea asociar a la oferta. Consulte [Crear etiquetas](../offer-library/creating-tags.md).
 
-![](../../assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
+➡️ [Descubra esta función en vídeo](#video)
 
 Se puede acceder a la lista de ofertas personalizadas en el menú **[!UICONTROL Offers]** .
 
