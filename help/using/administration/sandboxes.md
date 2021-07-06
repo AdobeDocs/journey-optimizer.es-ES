@@ -5,10 +5,10 @@ feature: Grupos de control
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: 2c4a86f7beb10d1ce35e8fb5600a979164038e5f
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 76%
+source-wordcount: '335'
+ht-degree: 69%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 76%
 Los entornos limitados para pruebas se asignan mediante perfiles de producto en la Admin Console. [Aprenda a asignar entornos limitados](permissions.md#create-product-profile).
 
 [!DNL Journey Optimizer] refleja los entornos limitados de Adobe Experience Platform creados para una organización determinada.
-Los entornos limitados de Adobe Experience Platform se pueden crear o restablecer desde la instancia de Adobe Experience Platform. [Obtenga más información en la Guía del usuario de entornos limitados](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es).
+Los entornos limitados de Adobe Experience Platform se pueden crear o restablecer desde la instancia de Adobe Experience Platform. [Obtenga más información en la guía de usuario de Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es){target=&quot;_blank&quot;}.
 
 Encontrará el control del conmutador de simulador de pruebas en la parte superior izquierda de la pantalla. Para cambiar de un simulador de pruebas a otro, haga clic en el simulador de pruebas activo y seleccione otro simulador de pruebas en la lista desplegable.
 
@@ -28,7 +28,7 @@ Encontrará el control del conmutador de simulador de pruebas en la parte superi
 
 >[!IMPORTANT]
 >
-> La administración de entornos limitados solo puede realizarla un administrador **[!UICONTROL Product]** o **[!UICONTROL System]**. Para obtener más información, consulte la [Documentación de la consola de administración](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html).
+> La administración de entornos limitados solo puede realizarla un administrador **[!UICONTROL Product]** o **[!UICONTROL System]**. Para obtener más información, consulte la [Documentación de la consola de administración](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target=&quot;_blank&quot;}.
 
 Puede optar por asignar diferentes entornos limitados a la configuración predeterminada o personalizada **[!UICONTROL Product profiles]**.
 
@@ -46,7 +46,7 @@ Para asignar entornos limitados:
 
    ![](../assets/sandbox_2.png)
 
-1. En **[!UICONTROL Available Permissions Items]**, haga clic en el icono de signo más (+) para asignar entornos limitados al perfil. [Obtenga más información sobre los entornos limitados](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es).
+1. En **[!UICONTROL Available Permissions Items]**, haga clic en el icono de signo más (+) para asignar entornos limitados al perfil. [Obtenga más información sobre los entornos limitados](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es){target=&quot;_blank&quot;}.
 
    ![](../assets/sandbox_3.png)
 
@@ -64,4 +64,4 @@ Para configurar la accesibilidad del contenido, debe asignar una carpeta compart
 
 Tenga en cuenta que para que el contenido se sincronice con el entorno limitado correcto, debe seguir la misma sintaxis que este; por ejemplo, si el entorno limitado se llama desarrollo, la carpeta compartida debe tener el mismo nombre.
 
-[Obtenga información sobre cómo administrar carpetas](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html) compartidas.
+[Obtenga información sobre cómo administrar carpetas compartidas](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target=&quot;_blank&quot;}.
