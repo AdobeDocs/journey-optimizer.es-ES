@@ -5,7 +5,7 @@ feature: Información general
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b495c96474e41d5b31cb3268434dbe36cfe13ec0
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 74%
@@ -98,7 +98,7 @@ Los casos de uso disponibles son:
 
 * **Cree perfiles** de prueba para crear perfiles de prueba con la plantilla CSV a fin de probar mensajes y recorridos personalizados. Aprenda a implementar este caso de uso [en esta página](building-journeys/creating-test-profiles.md#use-case-1).
 * **Envíe un mensaje de cumpleaños a los clientes** para que envíen automáticamente un correo electrónico a fin de desear a sus clientes que cumplan años. (próximamente)
-* **Envíe correos electrónicos para incorporar nuevos clientes**, para enviar fácilmente hasta dos correos electrónicos para dar la bienvenida a sus clientes recién registrados. (próximamente)
+* **Envíe correos electrónicos a nuevos clientes** para que envíen fácilmente hasta dos correos electrónicos para dar la bienvenida a sus clientes recién registrados. (próximamente)
 * **Envíe mensajes push a la lista importada de clientes** para enviar rápidamente una notificación push a una lista de clientes importados desde un archivo CSV. (próximamente)
 
 Haga clic en **[!UICONTROL View details]** para obtener más información sobre cada caso de uso.
