@@ -5,7 +5,7 @@ feature: Eventos
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1656'
 ht-degree: 14%
@@ -71,7 +71,7 @@ Estos son los primeros pasos para configurar un nuevo evento:
 
    El evento está ahora configurado y listo para añadirse a un recorrido. Se requieren pasos de configuración adicionales para recibir eventos. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).
 
-## Defina los campos de carga útil {#define-the-payload-fields}
+## Definición de los campos de carga útil {#define-the-payload-fields}
 
 La definición de carga útil permite elegir la información que el sistema espera recibir del evento en el recorrido y la clave para identificar qué persona está asociada al evento. La carga útil se basa en la definición del campo XDM del Experience Cloud. Para obtener más información sobre XDM, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es).
 
@@ -99,7 +99,7 @@ La definición de carga útil permite elegir la información que el sistema espe
 
    ![](../assets/journey12.png)
 
-## Seleccione el espacio de nombres {#select-the-namespace}
+## Seleccione el área de nombres {#select-the-namespace}
 
 El espacio de nombres permite definir el tipo de clave utilizada para identificar a la persona asociada al evento. Su configuración es opcional. Es necesario si desea recuperar, en sus recorridos, información adicional proveniente del [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html). La definición del área de nombres no es necesaria si solo utiliza datos procedentes de un sistema de terceros a través de una fuente de datos personalizada.
 
@@ -118,7 +118,7 @@ Seleccione un área de nombres en la lista desplegable.
 
 Solo se permite un espacio de nombres por recorrido. Si utiliza varios eventos en el mismo recorrido, deben utilizar el mismo espacio de nombres. Consulte [esta página](../building-journeys/journey.md).
 
-## Defina el identificador de perfil {#define-the-event-key}
+## Definición del identificador de perfil {#define-the-event-key}
 
 La clave es el campo o la combinación de campos que forma parte de los datos de carga útil del evento y que permite al sistema identificar a la persona asociada al evento. La clave puede ser, por ejemplo, el ID de Experience Cloud, un ID de CRM o una dirección de correo electrónico.
 
