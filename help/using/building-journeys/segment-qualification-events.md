@@ -5,9 +5,9 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '799'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Este tipo de evento se puede posicionar como el primer paso o posterior en el re
 
    >[!NOTE]
    >
-   >Tenga en cuenta que **[!UICONTROL Enter]** y **[!UICONTROL Exit]** corresponden a los estados de participación de segmentos **Realizados** y **Salidas** de Adobe Experience Platform. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+   >Tenga en cuenta que **[!UICONTROL Enter]** y **[!UICONTROL Exit]** corresponden a los estados de participación de segmentos **Realizados** y **Salidas** de Adobe Experience Platform. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target=&quot;_blank&quot;}.
 
 1. Seleccione un espacio de nombres. Esto solo es necesario si el evento se coloca como el primer paso del recorrido.
 
@@ -89,7 +89,7 @@ Además, si el segmento por lotes se crea recientemente y se utiliza inmediatame
 
 Al utilizar la calificación de segmentos para segmentos transmitidos, existe menos riesgo de obtener grandes picos de entradas y salidas debido a la evaluación continua del segmento. Sin embargo, si la definición del segmento conduce a que un gran volumen de clientes se califique al mismo tiempo, también podría haber un pico.
 
-Para obtener más información sobre la segmentación de flujo continuo, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
+Para obtener más información sobre la segmentación de flujo continuo, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### Cómo evitar sobrecargas{#overloads-speed-segment-qualification}
 
@@ -99,7 +99,7 @@ No utilice, en una actividad **[!UICONTROL Segment Qualification]**, un segmento
 
 ![](../assets/segment-error.png)
 
-Establezca una regla de límite para las fuentes de datos y las acciones utilizadas en los recorridos para evitar sobrecargarlos (consulte esta [sección](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html)). Tenga en cuenta que la regla de restricción no tiene reintento. Si necesita volver a intentarlo, debe utilizar una ruta alternativa en el recorrido marcando la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]** en condiciones o acciones.
+Establezca una regla de límite para las fuentes de datos y las acciones utilizadas en los recorridos para evitar sobrecargarlos. Obtenga más información en [documentación del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}. Tenga en cuenta que la regla de restricción no tiene reintento. Si necesita volver a intentarlo, debe utilizar una ruta alternativa en el recorrido marcando la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]** en condiciones o acciones.
 
 Antes de usar el segmento en un recorrido de producción, evalúe siempre primero el volumen de personas que cumplen los requisitos para este segmento todos los días. Para ello, puede marcar el menú **[!UICONTROL Segments]**, abrir el segmento y ver el gráfico **[!UICONTROL Profiles over time]**.
 
