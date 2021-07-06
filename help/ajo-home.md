@@ -5,14 +5,14 @@ feature: Información general
 topic: Administración de contenido
 role: User
 level: Beginner
-source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
+source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 51%
+source-wordcount: '196'
+ht-degree: 38%
 
 ---
 
-# Documentación de Adobe Journey Optimizer {#cjm-documentation}
+# Documentación de Adobe [!DNL Journey Optimizer] {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.png)
 
@@ -26,7 +26,7 @@ ht-degree: 51%
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">¿Qué es Journey Optimizer?</a>
+      <a href="using/get-started.md">¿Qué es [!DNL Journey Optimizer]?</a>
     </div>
     <p>Descubra las funciones principales y cómo empezar
     <p>
@@ -67,6 +67,9 @@ ht-degree: 51%
     <p>
     <p>
     <div>
+      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html">Descripción del producto de Adobe Journey Optimizer</a>
+    </div>
+    <div>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es">Documentación de Adobe Experience Platform</a>
     </div>
       <div>
@@ -105,13 +108,13 @@ ht-degree: 51%
     <p>
     <p>ADMINISTRACIÓN DE DATOS</p>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es">Esquemas</a>
+      <a href="using/get-started-schemas.md">Esquemas</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es">Conjuntos de datos</a>
+      <a href="using/get-started-datasets.md">Conjuntos de datos</a>
     </li>
         <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=es">Consultas</a>
+      <a href="using/get-started-queries.md">Consultas</a>
     </li>
      <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=es">Monitoreo</a>
@@ -119,7 +122,7 @@ ht-degree: 51%
     <p>
     <p>CONEXIONES</p>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es">Fuentes</a>
+      <a href="using/get-started-sources.md">Fuentes</a>
     </li>
     <p>
     <p>CLIENTE</p>
@@ -127,10 +130,10 @@ ht-degree: 51%
       <a href="using/segment/about-segments.md">Segmentos</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es">Perfiles</a>
+      <a href="using/get-started-profiles.md">Perfiles</a>
     </li>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces">Identidad</a>
+      <a href="using/get-started-identity.md">Identidad</a>
     </li>
     <p>
     <p>ADMINISTRACIÓN</p>
