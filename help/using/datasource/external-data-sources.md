@@ -5,10 +5,10 @@ feature: Fuentes de datos
 topic: Administración
 role: Administrator
 level: Intermediate
-source-git-commit: c67ed928e048dc163cc58430f7a02475f9a32eb0
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 99%
+source-wordcount: '1288'
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,7 @@ Para el conjunto de parámetros &quot;long/lat&quot;, creamos un grupo de campos
 * **[!UICONTROL Used in]**: muestra el número de recorridos que utilizan un grupo de campos. Puede hacer clic en el icono **[!UICONTROL View journeys]** para mostrar la lista de recorridos mediante este grupo de campos.
 * **[!UICONTROL Method]**: seleccione el método POST o GET. En nuestro caso, seleccionamos el método GET.
 * **[!UICONTROL Cache duration]**: en nuestro caso, queremos que el clima se almacene en caché durante 10 minutos.
-* **[!UICONTROL Dynamic Values]**: introduzca los diferentes parámetros separados por coma, &quot;long,lat&quot; en nuestro ejemplo. Dado que los valores de parámetro dependen del contexto de ejecución, se definirán en los recorridos. Consulte [esta página](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=es).
+* **[!UICONTROL Dynamic Values]**: introduzca los diferentes parámetros separados por coma, &quot;long,lat&quot; en nuestro ejemplo. Dado que los valores de parámetro dependen del contexto de ejecución, se definirán en los recorridos. Consulte [documentación del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=es){target=&quot;_blank&quot;}.
 * **[!UICONTROL Response Payload]**: haga clic dentro de **[!UICONTROL Payload]** y pegue un ejemplo de la carga útil devuelta por la llamada. Para nuestro ejemplo, hemos utilizado una carga útil encontrada en un sitio web de la API meteorológica. Compruebe que los tipos de campo son correctos. Cada vez que se llama a la API, el sistema recupera todos los campos incluidos en el ejemplo de carga útil. Tenga en cuenta que puede hacer clic en **[!UICONTROL Paste a new payload]** si desea cambiar la carga útil que se mueve actualmente.
 * **[!UICONTROL Sent Payload]**: este campo no aparece en nuestro ejemplo. Solo está disponible si selecciona el método POST. Pegue la carga útil que se enviará al sistema de terceros.
 
