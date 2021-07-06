@@ -5,7 +5,7 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: c6f4369c98b28afe1c607996e3f993dbfe09f63e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 9%
@@ -86,7 +86,7 @@ Cuando un recorrido &quot;termina&quot;, tendrá el estado **[!UICONTROL Closed]
 
 Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará al estado **Finalizado**. Consulte esta [sección](../building-journeys/journey-gs.md#global_timeout).
 
-### Tiempo de espera y error en actividades de recorrido {#timeout_and_error}
+### Tiempo de espera y error en las actividades de recorrido {#timeout_and_error}
 
 Al editar una acción o actividad de condición, puede definir una ruta alternativa en caso de error o de tiempo de espera. Si el procesamiento de la actividad que interroga a un sistema de terceros supera la duración de tiempo de espera definida en las propiedades del recorrido (campo **[!UICONTROL Timeout and  error]**), se elegirá la segunda ruta para realizar una posible acción de reserva.
 
