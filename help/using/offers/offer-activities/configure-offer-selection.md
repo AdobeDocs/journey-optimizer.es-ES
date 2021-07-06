@@ -5,16 +5,16 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 7%
 
 ---
 
-# Configuración de la selección de ofertas en decisiones {#offers-selection-in-activities}
+# Configurar selección de ofertas en decisiones {#offers-selection-in-activities}
 
-## Acerca de la prioridad de ofertas {#about-offers-priority}
+## Acerca de la prioridad de las ofertas {#about-offers-priority}
 
 De forma predeterminada, cuando varias ofertas son elegibles para una ubicación determinada en una decisión (anteriormente conocida como actividad de oferta), las ofertas con la **prioridad** más alta se entregarán primero a los clientes. Las puntuaciones de prioridad de las ofertas se asignan al crear una oferta (consulte [Crear una oferta personalizada](../offer-library/creating-personalized-offers.md)).
 
@@ -44,4 +44,4 @@ Una vez creada una fórmula de clasificación, puede asignarla a una colocación
 
 La fórmula de clasificación ahora está asociada a la ubicación.
 
-Si varias ofertas son elegibles para presentarse en esta ubicación, la decisión utilizará la fórmula de clasificación para calcular qué oferta enviar primero.
+Si se pueden presentar varias ofertas en esta ubicación, la decisión utilizará la fórmula de la fórmula de clasificación para calcular qué oferta enviar primero.
