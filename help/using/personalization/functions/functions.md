@@ -5,7 +5,7 @@ feature: Personalización
 topic: Personalización
 role: Data Engineer
 level: Experienced
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 3%
@@ -75,7 +75,7 @@ En el Editor de expresiones [!DNL Journey Optimizer], las funciones de ayuda se 
         <td><a href="aggregation.md#max">Máximo</a></td><td>Esta función devuelve el mayor de todos los valores seleccionados dentro de una matriz</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">Superconjunto de</a></td><td>Esta función termina si una matriz específica (matriz A) es un superconjunto de otra matriz (matriz B), es decir, si la matriz A contiene todos los elementos de la matriz B</td>
+    <td><a href="arrays-list.md#superset">Superconjunto de</a></td><td>Esta función determina si una matriz específica (matriz A) es un superconjunto de otra matriz (matriz B), es decir, si la matriz A contiene todos los elementos de la matriz B</td>
     </tr>
 </table>
 
