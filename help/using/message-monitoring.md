@@ -5,10 +5,10 @@ feature: Monitoreo
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 1%
+source-wordcount: '507'
+ht-degree: 0%
 
 ---
 
@@ -87,6 +87,6 @@ Para cada ejecución de mensaje, se muestran varios indicadores:
 
 * **[!UICONTROL Errors]**: Número de mensajes que no se pueden enviar debido a un error técnico.
 
-* **[!UICONTROL Spam complaints]**: Número de mensajes marcados como correo no deseado por los destinatarios. [Obtenga más información sobre las quejas](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability).
+* **[!UICONTROL Spam complaints]**: Número de mensajes marcados como correo no deseado por los destinatarios. Obtenga más información sobre las quejas en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}.
 
 Al hacer clic en cada hipervínculo, se abrirá la vista de resumen del mensaje correspondiente. [Obtenga más información sobre los mensajes](create-message.md).
