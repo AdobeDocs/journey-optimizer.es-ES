@@ -5,9 +5,9 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '903'
 ht-degree: 4%
 
 ---
@@ -90,7 +90,7 @@ Las reglas y restricciones de idoneidad le permiten definir las condiciones en l
 
    Puede limitar la presentación de la oferta a los miembros de uno o varios segmentos de Adobe Experience Platform. Para ello, active la opción **[!UICONTROL Visitors who fall into one or multiple segments]**, luego agregue uno o varios segmentos del panel izquierdo y combínelos utilizando los operadores lógicos **[!UICONTROL And]** / **[!UICONTROL Or]**.
 
-   Para obtener más información sobre cómo trabajar con segmentos, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+   Para obtener más información sobre cómo trabajar con segmentos, consulte [esta página](../../segment/about-segments.md).
 
    ![](../../assets/offer-eligibility-segment.png)
 
@@ -130,7 +130,7 @@ Ahora está listo para enviarse a los usuarios. Puede seleccionarlo para mostrar
 
 ![](../../assets/offer_created.png)
 
-Una vez creada una oferta, puede hacer clic en su nombre en la lista para acceder a información detallada y monitorizar todos los cambios realizados en ella mediante la pestaña **[!UICONTROL Change log]** (consulte [Control de cambios en ofertas y decisiones](../get-started/user-interface.md#monitoring-changes)).
+Una vez creada una oferta, puede hacer clic en su nombre en la lista para acceder a información detallada y monitorizar todos los cambios realizados en ella mediante la pestaña **[!UICONTROL Change log]**. [Más información](../get-started/user-interface.md#monitoring-changes).
 
 ## Tutorial en vídeo {#video}
 
