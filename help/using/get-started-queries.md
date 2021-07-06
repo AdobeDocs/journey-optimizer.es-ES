@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo crear consultas en Adobe Journey O
 feature: Esquemas
 role: User
 level: Beginner
-source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
@@ -24,5 +24,5 @@ Aprenda a utilizar el Editor de consultas en [esta documentación](https://exper
 
 **Consulte también**
 
-* [Documentación del servicio de consulta](https://experienceleague-review.corp.adobe.com/docs/experience-platform/query/home.html){target=&quot;_blank&quot;}
-* [Vídeo de información general del servicio de consulta](https://experienceleague-review.corp.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target=&quot;_blank&quot;}
+* [Documentación del servicio de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es){target=&quot;_blank&quot;}
+* [Vídeo de información general del servicio de consulta](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=es){target=&quot;_blank&quot;}
