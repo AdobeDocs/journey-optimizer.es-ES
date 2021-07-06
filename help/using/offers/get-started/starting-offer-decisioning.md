@@ -5,7 +5,7 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Beginner
-source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 97%
@@ -13,7 +13,7 @@ ht-degree: 97%
 ---
 
 
-# Acerca de la Administración de decisiones {#about-offer-decision}
+# Acerca de Administración de decisiones {#about-offer-decision}
 
 Utilice [!DNL Journey Optimizer] para ofrecer la mejor oferta y experiencia a sus clientes en todos los puntos de contacto y en el momento adecuado. Una vez diseñadas, las audiencias se segmentarán con ofertas personalizadas.
 
@@ -30,7 +30,7 @@ Los beneficios incluyen:
 * Flujos de trabajo mejorados: En lugar de crear varios envíos o campañas, los equipos de marketing pueden mejorar los flujos de trabajo creando un único envío y variar las ofertas en diferentes partes de la plantilla,
 * Controle la cantidad de veces que se muestra una oferta entre campañas y clientes.
 
-![](../../assets/do-not-localize/how-to-video.png) [Vea estos tutoriales en vídeo](#tutorial-videos) para obtener más información sobre Administración de decisiones.
+➡️ [Vea estos tutoriales en vídeo](#tutorial-videos) para obtener más información sobre Administración de decisiones.
 
 ## Acerca de las ofertas y las decisiones {#offers-offer-activities}
 
@@ -98,7 +98,7 @@ A continuación se muestra la lista de los conceptos principales con los que tra
 >
 >Estos vídeos se aplican al servicio de aplicaciones de Offer Decisioning creado en Adobe Experience Platform y no son específicos de [!DNL Adobe Journey Optimizer]. Sin embargo, proporciona una guía genérica para utilizar Administración de decisiones en el contexto de [!DNL Journey Optimizer].
 
-### ¿Qué es Administración de decisiones? {#what-is-offer-decisioning}
+### ¿Qué es Administración de decisiones?  {#what-is-offer-decisioning}
 
 El siguiente vídeo proporciona una introducción a las funciones clave, arquitectura y casos de uso de Administración de decisiones:
 
