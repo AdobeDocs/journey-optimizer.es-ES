@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '737'
-ht-degree: 79%
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ Obtenga más información sobre la administración de privacidad y las regulacio
 * Recipients expect the brand to offer preference centre capability that controls how brand should engage with them (example: channel of communication, invasive and non-invasive tracking etc). This helps to fulfil regulatory obligations and also facilitates quality engagement with recipient. 
 * The third category is the capability to offer subscription to recipients (newsletter, etc)-->
 
-## Administración de la exclusión {#opt-out-management}
+## Administración de exclusiones {#opt-out-management}
 
 Proporcionar a los destinatarios la capacidad de cancelar su suscripción a la recepción de comunicaciones de una marca es un requisito legal. Obtenga más información sobre la legislación aplicable en la [documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=es#regulations){target=&quot;_blank&quot;}.
 
@@ -141,9 +141,9 @@ Según el cliente de correo electrónico, hacer clic en el vínculo de cancelaci
 
 * El perfil correspondiente se excluye inmediatamente y esta opción se actualiza en Experience Platform. Obtenga más información en la [documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started){target=&quot;_blank&quot;}.
 
-* Tiene el mismo efecto que hacer clic en el vínculo de cancelación de suscripción del contenido del correo electrónico: el destinatario se redirige a una página de aterrizaje, que incluye un botón para confirmar la exclusión. Obtenga más información sobre la administración de la exclusión en [esta sección](#opt-out-management).
+* Tiene el mismo efecto que hacer clic en el vínculo de cancelación de la suscripción del contenido del correo electrónico: se redirige al destinatario a una página de aterrizaje, que incluye un botón para confirmar la exclusión. Obtenga más información sobre la administración de exclusiones en [esta sección](#opt-out-management).
 
-## Administración de exclusión push {#push-opt-out-management}
+## Administración de exclusiones push {#push-opt-out-management}
 
 Los destinatarios push pueden cancelar la suscripción a través de sus propios dispositivos.
 
