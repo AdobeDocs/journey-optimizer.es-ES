@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Las funciones y la integración de Administración de decisiones con Adobe Exper
 
 ## Glosario {#glossary}
 
-A continuación se muestra la lista de los conceptos principales con los que trabajará al utilizar la gestión de decisiones.
+A continuación, se muestra la lista de los conceptos principales con los que trabajará al utilizar la gestión de decisiones.
 
 * **Límite** o **Restricción de frecuencia**: el límite se utiliza como restricción para definir cuántas veces se presenta una oferta. Existen dos tipos de límite: la cantidad de veces que se puede proponer una oferta en la audiencia de destinatario combinada, también conocida como &quot;Límites totales&quot; y la cantidad de veces que se puede proponer una oferta al mismo usuario final, también conocida como &quot;Límite de perfil&quot;.
 
@@ -98,14 +98,14 @@ A continuación se muestra la lista de los conceptos principales con los que tra
 >
 >Estos vídeos se aplican al servicio de aplicaciones de Offer Decisioning creado en Adobe Experience Platform y no son específicos de [!DNL Adobe Journey Optimizer]. Sin embargo, proporciona una guía genérica para utilizar Administración de decisiones en el contexto de [!DNL Journey Optimizer].
 
-### ¿Qué es Administración de decisiones?  {#what-is-offer-decisioning}
+### ¿Qué es Administración de decisiones? {#what-is-offer-decisioning}
 
-El siguiente vídeo proporciona una introducción a las funciones clave, arquitectura y casos de uso de Administración de decisiones:
+El siguiente vídeo proporciona una introducción a las funciones clave, la arquitectura y los casos de uso de Administración de decisiones:
 
 >[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Definición y administración de ofertas {#use-offer-decisioning}
 
-El siguiente vídeo muestra cómo utilizar Administración de decisiones para definir y administrar sus ofertas y aprovechar los datos de clientes en tiempo real.
+El siguiente vídeo muestra cómo utilizar Administración de decisiones para definir y administrar sus ofertas, así como para aprovechar los datos de clientes en tiempo real.
 
 >[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
