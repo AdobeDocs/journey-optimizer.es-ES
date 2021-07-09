@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '1211'
-ht-degree: 74%
+ht-degree: 93%
 
 ---
 
@@ -18,13 +18,13 @@ Una vez conectado a [Adobe Experience Cloud](http://experience.adobe.com), vaya 
 
 >[!NOTE]
 >
->* Los conceptos clave al examinar la interfaz de usuario son comunes con Adobe Experience Platform. Consulte la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=es#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} para obtener más información.
+>* Los conceptos clave al examinar la interfaz de usuario son habituales en Adobe Experience Platform. Consulte la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=es#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} para obtener más información.
    >
    >
-* Esta documentación se actualiza con frecuencia para reflejar los cambios más recientes en la interfaz de usuario del producto. Sin embargo, algunas capturas de pantalla pueden diferir ligeramente de la interfaz de usuario que ve.
+* Esta documentación se actualiza con frecuencia para reflejar los cambios recientes en la interfaz de usuario del producto. Sin embargo, algunas capturas de pantalla pueden diferir ligeramente de la interfaz de usuario que ve.
    >
    > 
-* Los componentes y las funciones disponibles en la interfaz de usuario dependen de los permisos y del paquete de licencias. Para cualquier pregunta, póngase en contacto con el administrador de éxito del cliente de Adobe.
+* Los componentes y las funciones disponibles en la IU dependen de los permisos y del paquete de licencias. Para cualquier pregunta, póngase en contacto con el administrador de éxito del cliente de Adobe.
 
 
 ## Navegación izquierda
@@ -90,28 +90,28 @@ La página principal de [!DNL Journey Optimizer] contiene vínculos clave y recu
 
 ## Casos de uso dentro del producto
 
-Aproveche los [!DNL Adobe Journey Optimizer] casos de uso de la página principal y proporcione algunas entradas rápidas para crear un recorrido de cliente.
+Aproveche los casos de uso de [!DNL Adobe Journey Optimizer] de la página de inicio y proporcione información rápida para crear un recorrido del cliente.
 
 ![](assets/use-cases-home.png)
 
 Los casos de uso disponibles son:
 
-* **Cree perfiles** de prueba para crear perfiles de prueba con la plantilla CSV a fin de probar mensajes y recorridos personalizados. Aprenda a implementar este caso de uso [en esta página](building-journeys/creating-test-profiles.md#use-case-1).
-* **Envíe un mensaje de cumpleaños a los clientes** para que envíen automáticamente un correo electrónico a fin de desear a sus clientes que cumplan años. (próximamente)
+* **Cree perfiles de prueba**, para crear perfiles de prueba con la plantilla CSV a fin de probar mensajes y recorridos personalizados. Aprenda a implementar este caso de uso [en esta página](building-journeys/creating-test-profiles.md#use-case-1).
+* **Envíe un mensaje de cumpleaños a los clientes** para que envíen automáticamente un correo electrónico a fin de felicitar a sus clientes. (próximamente)
 * **Envíe correos electrónicos a nuevos clientes** para que envíen fácilmente hasta dos correos electrónicos para dar la bienvenida a sus clientes recién registrados. (próximamente)
 * **Envíe mensajes push a la lista importada de clientes** para enviar rápidamente una notificación push a una lista de clientes importados desde un archivo CSV. (próximamente)
 
-Haga clic en **[!UICONTROL View details]** para obtener más información sobre cada caso de uso.
+Haga clic en **[!UICONTROL View details]** para obtener más información acerca de cada caso de uso.
 
 Haga clic en el botón **[!UICONTROL Begin]** para iniciar el caso de uso.
 
-Puede acceder a los casos de uso ejecutados desde el botón **[!UICONTROL View use case library]** .
+Puede acceder a los casos de uso ejecutados desde el botón **[!UICONTROL View use case library]**.
 
 ## Buscar ayuda y asistencia
 
-Acceda a las páginas de ayuda clave de Adobe Journey Optimizer desde la sección inferior de la página principal.
+Acceda a las páginas de ayuda clave de Adobe Journey Optimizer desde la sección inferior de la página de inicio.
 
-Utilice el icono **Ayuda** para acceder a las páginas de ayuda, ponerse en contacto con el servicio de asistencia técnica y compartir comentarios. Puede buscar artículos de ayuda y vídeos desde el campo de búsqueda .
+Utilice el icono **Ayuda** para acceder a las páginas de ayuda, ponerse en contacto con el servicio de asistencia técnica y compartir comentarios. Puede buscar artículos de ayuda y vídeos en el campo de búsqueda.
 
 ![](assets/ajo-help.png)
 
