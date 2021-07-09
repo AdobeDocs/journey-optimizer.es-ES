@@ -1,5 +1,5 @@
 ---
-title: 'Privacidad in [!DNL Journey Optimizer] '
+title: 'Privacidad en [!DNL Journey Optimizer] '
 description: Descubra cómo administrar la privacidad
 topic: Privacidad
 role: User
@@ -7,7 +7,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 78%
+ht-degree: 86%
 
 ---
 
