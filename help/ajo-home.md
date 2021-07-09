@@ -9,7 +9,7 @@ level: Beginner
 source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 37%
+ht-degree: 39%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 37%
     <p>Aprenda a añadir mensajes push y de correo electrónico en los recorridos del cliente
     <p>
     <div>
-    <a href="using/building-journeys/journeys-uc.md">Crear su primer recorrido</a>
+    <a href="using/building-journeys/journeys-uc.md">Creación de su primer recorrido</a>
     </div>
     <p>Obtenga información sobre cómo crear y ejecutar un recorrido
     <p>
