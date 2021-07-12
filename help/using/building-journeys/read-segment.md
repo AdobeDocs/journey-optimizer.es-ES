@@ -5,10 +5,10 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 4%
+source-wordcount: '952'
+ht-degree: 5%
 
 ---
 
@@ -55,6 +55,8 @@ Los pasos para configurar la actividad Leer segmento son los siguientes:
    >[!NOTE]
    >
    >Las personas que pertenecen a un segmento que no tiene la identidad seleccionada (área de nombres) entre sus distintas identidades no pueden entrar en el recorrido.
+
+1. En el campo **[!UICONTROL Throttling rate]** , defina el rendimiento de la actividad Leer segmento . Este valor se almacena en la carga útil de la versión de recorrido. El valor predeterminado es 17.000 y debe estar entre 500 y 17.000.
 
 1. La actividad **[!UICONTROL Read Segment]** le permite especificar la hora a la que el segmento ingresará al recorrido. Para ello, haga clic en el enlace **[!UICONTROL Edit journey schedule]** para acceder a las propiedades del recorrido y, a continuación, configure el campo **[!UICONTROL Scheduler type]**.
 
