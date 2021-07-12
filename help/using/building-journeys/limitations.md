@@ -5,9 +5,9 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
+source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Estas son limitaciones relacionadas con el uso de recorridos.
 
 * Las fuentes de datos externas se pueden aprovechar dentro de un recorrido de clientes para buscar datos externos en tiempo real. Estas fuentes deben utilizarse mediante la API de REST, admiten JSON y pueden gestionar el volumen de solicitudes.
 
-## Recorridos que comienzan al mismo tiempo que una creación de perfil {#journeys-limitation-profile-creation}
+## Recorridos que comienzan al mismo tiempo que la creación de perfiles {#journeys-limitation-profile-creation}
 
 Hay un retraso asociado a la creación/actualización de perfiles basado en API en Adobe Experience Platform. El objetivo de nivel de servicio (SLT) en términos de latencia es &lt; 1 min desde la ingesta hasta el perfil unificado para el percentil 95 de las solicitudes, a un volumen de 20 000 solicitudes por segundo (RPS).
 
@@ -68,5 +68,4 @@ Puede elegir entre una de estas dos soluciones:
 
 ## Leer limitaciones de segmentos
 
-* No es posible realizar el déclencheur de un recorrido basado en segmentos en un lapso de tiempo inferior a 1 hora.
 * Los segmentos transmitidos siempre están actualizados, pero los segmentos por lotes no se calcularán en el momento de la recuperación. Solo se evalúan diariamente a la hora diaria de evaluar el lote.
