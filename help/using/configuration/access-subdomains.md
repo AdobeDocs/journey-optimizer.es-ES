@@ -1,5 +1,5 @@
 ---
-title: Delegación de subdominios
+title: Delegar subdominios
 description: Obtenga información sobre cómo delegar subdominios
 page-status-flag: never-activated
 uuid: null
@@ -13,17 +13,17 @@ internal: n
 snippet: y
 feature: Configuración de la aplicación
 topic: Administración
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: f4b36903b7b961dd20442acaf446e2ce99cc2b31
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
 
-# Acceso a subdominios delegados
+# Acceder a subdominios delegados
 
 Todos los subdominios delegados se muestran en el menú **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]**. Los filtros están disponibles para ayudarle a refinar la lista (fecha de delegación, usuario o estado).
 
