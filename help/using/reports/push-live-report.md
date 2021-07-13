@@ -5,7 +5,7 @@ feature: Informes
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 2%
@@ -22,6 +22,8 @@ En la pestaña **[!UICONTROL Executions]** del menú **[!UICONTROL Messages]**, 
 
 El push **[!UICONTROL Live report]** se divide en diferentes utilidades que detallan el éxito y los errores del envío. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte esta [sección](live-report.md#modify-dashboard).
 
+![](../assets/live_report_3.png)
+
 **[!UICONTROL Push notification performance]** y las  **[!UICONTROL Push notification summary]** utilidades detallan la información principal relativa al mensaje con gráficos y KPI:
 
 * **[!UICONTROL Sent]**: Número total de envíos para la entrega.
@@ -37,6 +39,8 @@ El push **[!UICONTROL Live report]** se divide en diferentes utilidades que deta
 * **[!UICONTROL Actions]**: Número total de acciones realizadas en la notificación push entregada, por ejemplo, hacer clic en un botón o rechazar una solicitud.
 
 * **[!UICONTROL Engagements]**: Número total de aperturas y acciones para esta notificación push, es decir, si el perfil abrió la notificación push o si se hizo clic en un botón.
+
+![](../assets/live_report_4.png)
 
 Los gráficos y tablas **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** y **[!UICONTROL Breakdown by platform]** detallan el éxito de la notificación push en función del sistema operativo.
 
