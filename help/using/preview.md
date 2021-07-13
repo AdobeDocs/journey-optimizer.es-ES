@@ -5,10 +5,10 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ef1d19d6abfccf3455f94b454c9c863396159161
 workflow-type: tm+mt
 source-wordcount: '880'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -37,7 +37,7 @@ Además, aproveche su cuenta **Litmus** en [!DNL Journey Optimizer] para previsu
 >
 >Al obtener una vista previa de un mensaje o enviar pruebas, solo se muestran los datos de personalización del perfil. La personalización basada en datos de contexto, como la información de evento, solo se puede probar en el contexto de un recorrido. Aprenda a probar la personalización en [este caso de uso](personalization/personalization-use-case.md).
 
-![](assets/do-not-localize/how-to-video.png) [Aprenda a previsualizar, probar y publicar su correo electrónico en este vídeo](#video-preview)
+➡️ [Obtenga información sobre cómo previsualizar, probar y publicar su correo electrónico en este vídeo](#video-preview)
 
 ## Seleccionar perfiles de prueba{#select-test-profiles}
 
@@ -168,6 +168,6 @@ A continuación, siga los pasos a continuación:
 
 ## Vídeo explicativo{#video-preview}
 
-Obtenga información sobre cómo probar el procesamiento de correos electrónicos en varias bandejas de entrada, cómo previsualizar los correos electrónicos personalizados con perfiles de prueba, enviar pruebas y publicar el correo electrónico.
+Obtenga información sobre cómo probar el procesamiento de correos electrónicos en varias bandejas de entrada, previsualizar los correos electrónicos personalizados con perfiles de prueba, enviar pruebas y publicar correos electrónicos.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
