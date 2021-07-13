@@ -6,7 +6,7 @@ feature: Grupos de control
 topic: Administración
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 15%
@@ -39,17 +39,17 @@ Para asignar un **[!UICONTROL Product profile]**:
 
 1. Seleccione un **[!UICONTROL Product profile]**.
 
-   ![](../assets/access_control_2.png)
+   ![](../assets/do-not-localize/access_control_2.png)
 
 1. En la pestaña **[!UICONTROL Users]**, haga clic en **[!UICONTROL Add user]**.
 
-   ![](../assets/access_control_3.png)
+   ![](../assets/do-not-localize/access_control_3.png)
 
 1. Escriba el nombre o la dirección de correo electrónico del usuario y seleccione el usuario.
 
    Si el usuario no se ha creado anteriormente en [!DNL Admin Console], consulte la [documentación de Agregar usuarios](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
-   ![](../assets/access_control_4.png)
+   ![](../assets/do-not-localize/access_control_4.png)
 
 1. Siga los mismos pasos que se describen arriba para agregar otros usuarios a su **[!UICONTROL Product profile]**. A continuación, haga clic en **[!UICONTROL Save]**.
 
@@ -59,7 +59,7 @@ Para obtener más información sobre la administración de usuarios, consulte la
 
 Al acceder a la instancia, el usuario verá una vista específica en función de los permisos asignados en **[!UICONTROL Product profile]**. Si el usuario no tiene el acceso correcto a una función, aparecerá la siguiente pantalla.
 
-![](../assets/access_control_1.png)
+![](../assets/do-not-localize/access_control_1.png)
 
 ## Edición de un perfil de producto existente {#edit-product-profile}
 
@@ -77,23 +77,23 @@ Tenga en cuenta que si modifica un **[!UICONTROL Product profile]** predetermina
 
    La pestaña **[!UICONTROL Permissions]** muestra la lista de funcionalidades que se aplican al producto **[!UICONTROL Experience Cloud - Platform powered applications]**.
 
-   ![](../assets/access_control_5.png)
+   ![](../assets/do-not-localize/access_control_5.png)
 
 1. Seleccione la capacidad **[!UICONTROL Messages]**.
 
-   ![](../assets/access_control_6.png)
+   ![](../assets/do-not-localize/access_control_6.png)
 
 1. En la lista **[!UICONTROL Available Permission Items]**, seleccione los permisos que desea asignar a su **[!UICONTROL Product profile]** haciendo clic en el icono de signo más (+).
 
    Aquí, agregamos el permiso **[!UICONTROL Publish messages]**.
 
-   ![](../assets/access_control_7.png)
+   ![](../assets/do-not-localize/access_control_7.png)
 
 1. Si es necesario, en **[!UICONTROL Included Permission Items]** haga clic en el icono X para eliminar los permisos del perfil del producto.
 
 1. Cuando termine, haga clic en **[!UICONTROL Save]**.
 
-   ![](../assets/access_control_8.png)
+   ![](../assets/do-not-localize/access_control_8.png)
 
 Si es necesario, también puede crear un nuevo perfil de producto con permisos específicos. Para obtener más información, consulte [Creación de un perfil de producto](#create-product-profile).
 
@@ -113,11 +113,11 @@ Para crear nuestros **Recorridos de solo lectura** **[!UICONTROL product profile
 
 1. Haga clic en **[!UICONTROL New Profile]**.
 
-   ![](../assets/access_control_9.png)
+   ![](../assets/do-not-localize/access_control_9.png)
 
 1. Agregue **[!UICONTROL Product Profile Name]**, **[!UICONTROL Display Name]** y **[!UICONTROL Description]** para su nuevo **[!UICONTROL product profiles]**.
 
-   ![](../assets/access_control_10.png)
+   ![](../assets/do-not-localize/access_control_10.png)
 
 1. En la categoría **[!UICONTROL Notifications]**, elija si se notificará por correo electrónico a los usuarios cuando se agreguen o eliminen de este perfil de productos.
 
@@ -129,17 +129,17 @@ Para crear nuestros **Recorridos de solo lectura** **[!UICONTROL product profile
 
    Aquí seleccionamos la capacidad **[!UICONTROL Journeys]**.
 
-   ![](../assets/access_control_11.png)
+   ![](../assets/do-not-localize/access_control_11.png)
 
 1. En la lista **[!UICONTROL Available Permission Items]**, seleccione los permisos que desea asignar a su **[!UICONTROL Product profile]** haciendo clic en el icono de signo más (+).
 
    Aquí seleccionamos **[!UICONTROL View journeys]** y **[!UICONTROL View journeys event, data sources, actions]**.
 
-   ![](../assets/access_control_12.png)
+   ![](../assets/do-not-localize/access_control_12.png)
 
 1. Seleccione la capacidad **[!UICONTROL Sandbox access]** para elegir qué simulador de pruebas desea asignar a su **[!UICONTROL Product profile]**.
 
-   ![](../assets/access_control_13.png)
+   ![](../assets/do-not-localize/access_control_13.png)
 
 1. En **[!UICONTROL Available Permissions Items]**, haga clic en el icono de signo más (+) para asignar entornos limitados al perfil. [Obtenga más información sobre los entornos limitados](sandboxes.md).
 
