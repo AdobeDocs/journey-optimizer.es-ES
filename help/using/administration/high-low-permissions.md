@@ -14,9 +14,9 @@ snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Grupos de control
 topic: Administración
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Se pueden dividir en dos tipos:
 
 Por ejemplo, al perfil de producto **[!UICONTROL Journey administrator]** se le asigna el permiso **[!UICONTROL Manage journeys]**. A partir de este permiso, se obtienen los permisos de bajo nivel que permiten al administrador de Recorrido escribir, leer y eliminar recorridos.
 
-## Capacidad de recorrido {#journey-capability}
+## Recorrido {#journey-capability}
 
 ### Permiso Administrar recorridos {#manage-journeys}
 
@@ -58,7 +58,7 @@ Incluye los siguientes permisos de bajo nivel:
    * datasets.read
    * schemas.read
 
-### Permiso de publicación de recorridos {#publish-journeys}
+### Permiso Publicar recorridos {#publish-journeys}
 
 El permiso **[!UICONTROL Publish journeys]** de alto nivel permite a los usuarios publicar recorridos.
 
@@ -118,7 +118,7 @@ Incluye los siguientes permisos de bajo nivel:
    * datasets.read
    * identity_namespace.read
 
-### Ver el permiso del informe de recorrido {#view-journeys-report}
+### Ver permiso del informe recorridos {#view-journeys-report}
 
 El permiso **[!UICONTROL View journeys report]** de alto nivel permite a los usuarios crear informes de recorrido de solo lectura.
 
@@ -188,7 +188,7 @@ Incluye los siguientes permisos de bajo nivel:
    * schemas.read
    * datasets.read
 
-### Ver permiso de mensajes {#view-messages}
+### Ver permisos de mensajes {#view-messages}
 
 El permiso **[!UICONTROL View messages]** de alto nivel permite a los usuarios leer solo mensajes.
 
@@ -216,7 +216,7 @@ Incluye los siguientes permisos de bajo nivel:
    * queries.delete
    * journey.read
 
-## Capacidad de administración de decisiones {#decisions-permissions}
+## Capacidad de gestión de decisiones {#decisions-permissions}
 
 ### Permiso Administrar decisiones {#manage-decisioning}
 
@@ -263,7 +263,7 @@ Incluye los siguientes permisos de bajo nivel:
    * datasets.write
    * datasets.delete
 
-### Publicar ofertas permiso de decisión {#publish-decisions}
+### Publicar ofertas, permiso de decisión {#publish-decisions}
 
 El permiso **[!UICONTROL Publish offers decisioning]** de alto nivel permite a los usuarios acceder a las actividades de oferta de aprobación o desaprobación.
 
@@ -285,7 +285,7 @@ Incluye los siguientes permisos de bajo nivel:
    * datasets.read
    * profiles.read
 
-### Permiso Administrar estrategias de clasificación {#manage-decisions}
+### Administrar permisos de estrategias de clasificación {#manage-decisions}
 
 El permiso **[!UICONTROL Manage ranking strategies]** de alto nivel permite a los usuarios leer, crear, editar y eliminar informes de mensajes personalizados y utilizar funciones de acción.
 
@@ -301,7 +301,7 @@ Incluye los siguientes permisos de bajo nivel:
 
 ## Capacidad de administración {#administration-permissions}
 
-### Administrar permiso de delegación de subdominios {#manage-subdomain}
+### Permiso de delegación de subdominios {#manage-subdomain}
 
 El permiso **[!UICONTROL Manage subdomains delegation]** de alto nivel permite a los usuarios crear, editar y eliminar la delegación de subdominios (incluido el grupo de IP).
 
@@ -318,7 +318,7 @@ El permiso **[!UICONTROL View PTR records]** de alto nivel permite a los usuario
 * PTR_records.read
 * subdominios_delegation.read
 
-### Administrar permisos de grupos de IP {#manage-ip-pools}
+### Permiso Administrar grupos de IP {#manage-ip-pools}
 
 El permiso **[!UICONTROL Manage IP pools]** de alto nivel permite a los usuarios crear, editar y eliminar la definición de afinidad.
 
@@ -328,7 +328,7 @@ Incluye los siguientes permisos de bajo nivel:
 * IP_pools.write
 * IP_pools.delete
 
-### Permiso Administrar configuración general de mensajes {#manage-message-settings}
+### Administrar mensajes, permiso de configuración general {#manage-message-settings}
 
 El permiso **[!UICONTROL Manage messages general settings]** de alto nivel permite a los usuarios crear, editar y eliminar la configuración global en el nivel de entorno limitado.
 
@@ -342,7 +342,7 @@ Incluye los siguientes permisos de bajo nivel:
 * Específico de Adobe Experience Platform:
    * schemas.read
 
-### Ver mensajes permiso de configuración general {#view-message-settings}
+### Ver mensajes, permiso de configuración general {#view-message-settings}
 
 El permiso **[!UICONTROL View messages general settings]** de alto nivel permite a los usuarios ver los mensajes en la configuración general, como las reglas de supresión o la dirección de ejecución.
 
@@ -353,7 +353,7 @@ Incluye los siguientes permisos de bajo nivel:
 * Específico de Adobe Experience Platform:
    * schemas.read
 
-### Administrar mensajes preestablecidos permiso {#manage-message-presets}
+### Permiso Administrar ajustes preestablecidos de mensajes {#manage-message-presets}
 
 El permiso **[!UICONTROL Manage messages presets]** de alto nivel permite a los usuarios crear, editar y eliminar ajustes preestablecidos de mensaje en todos los canales a nivel de entorno limitado.
 
@@ -367,7 +367,7 @@ Incluye los siguientes permisos de bajo nivel:
    * IP_pools.read
    * mobile_setting.read (de Adobe Experience Platform Launch)
 
-### Ver permisos de mensajes preestablecidos {#view-message-presets}
+### Ver permisos preestablecidos de mensajes {#view-message-presets}
 
 El permiso **[!UICONTROL View messages presets]** de alto nivel permite a los usuarios ver los ajustes preestablecidos de mensaje para saber qué mensajes utilizar al crear un mensaje.
 
@@ -388,7 +388,7 @@ Incluye los siguientes permisos de bajo nivel:
 * suppression_rules.write
 * suppression_rules.delete
 
-### Ver permiso de lista de supresión {#view-suppresion-list}
+### Ver permiso de la lista de supresión {#view-suppresion-list}
 
 El permiso **[!UICONTROL View suppression list]** de alto nivel permite a los usuarios ver las configuraciones de los mensajes, incluidos los ajustes preestablecidos de mensajes y la configuración general de mensajes.
 
@@ -400,7 +400,7 @@ Incluye los siguientes permisos de bajo nivel:
    * profiles.read
    * datasets.read
 
-### Exportar permiso de lista de supresión {#export-suppression-list}
+### Permiso de la lista de supresión de exportación {#export-suppression-list}
 
 El permiso **[!UICONTROL Export suppression list]** de alto nivel permite a los usuarios configurar los mensajes, incluidos los ajustes preestablecidos de mensaje y la configuración general de mensajes.
 
