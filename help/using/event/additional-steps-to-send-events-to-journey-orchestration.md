@@ -3,9 +3,9 @@ title: Pasos adicionales para enviar eventos a un recorrido
 description: Conozca los pasos adicionales para enviar eventos a un recorrido
 feature: Eventos
 topic: Administración
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 4%
