@@ -13,9 +13,9 @@ internal: n
 snippet: y
 feature: Configuración de la aplicación
 topic: Administración
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 2%
@@ -39,7 +39,7 @@ Puede modificar el umbral de límite mediante el botón **[!UICONTROL Edit]** de
 
 ![](../assets/retries-edition.png)
 
-## Duración del reintento de mensaje {#retry-duration}
+## Duración del reintento del mensaje {#retry-duration}
 
 Los reintentos se realizarán durante **3,5 días** desde el momento en que se agregó el mensaje a la cola de correo electrónico.
 
