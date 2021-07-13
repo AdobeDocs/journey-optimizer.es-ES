@@ -5,7 +5,7 @@ feature: Configuración de la aplicación
 topic: Administración
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 1%
@@ -27,7 +27,7 @@ Con [!DNL Journey Optimizer], puede configurar ajustes preestablecidos de mensaj
 
 Una vez configurados los ajustes preestablecidos de mensaje, puede seleccionarlos al crear mensajes desde la lista **[!UICONTROL Presets]**.
 
-![](../assets/do-not-localize/how-to-video.png) [Aprenda a crear y utilizar ajustes preestablecidos de correo electrónico en este vídeo](#video-presets)
+➡️ [Aprenda a crear y utilizar ajustes preestablecidos de correo electrónico en este vídeo](#video-presets)
 
 ## Crear un ajuste preestablecido de mensaje {#create-message-preset}
 
