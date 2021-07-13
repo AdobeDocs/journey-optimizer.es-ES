@@ -3,9 +3,9 @@ title: Configuración de notificaciones push
 description: Aprenda a configurar su entorno para enviar notificaciones push con Journey Optimizer
 feature: Configuración de la aplicación
 topic: Push
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 5%
@@ -35,7 +35,7 @@ Antes de crear una aplicación móvil, primero debe asegurarse de que tiene o as
 
 >[!CAUTION]
 >
->La configuración push debe realizarla un usuario experto. Según el modelo de implementación y las personas implicadas en esta implementación, es posible que deba asignar el conjunto completo de permisos a un único perfil de producto o compartir permisos entre el desarrollador de la aplicación y el administrador de **Adobe Journey Optimizer**. Obtenga más información sobre los permisos de **Adobe Experience Platform Launch** en [esta documentación](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#platform-launch-permissions){target=&quot;_blank&quot;}.
+>La configuración push debe realizarla un usuario experto. Según el modelo de implementación y las personas implicadas en esta implementación, es posible que tenga que asignar el conjunto completo de permisos a un único perfil de producto o compartir permisos entre el desarrollador de la aplicación y el administrador de **Adobe Journey Optimizer**. Obtenga más información sobre los permisos de **Adobe Experience Platform Launch** en [esta documentación](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#platform-launch-permissions){target=&quot;_blank&quot;}.
 
 <!--ou need to your have access to perform following roles :
 
