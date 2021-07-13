@@ -4,9 +4,9 @@ title: Acerca de la configuración de acciones personalizadas
 description: Obtenga información sobre cómo configurar una acción personalizada
 feature: Acciones
 topic: Administración
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 9%
@@ -64,7 +64,7 @@ Al configurar una acción personalizada, debe definir los siguientes **[!UICONTR
    >
    >Los encabezados se validan según las siguientes [reglas de análisis](https://tools.ietf.org/html/rfc7230#section-3.2.4).
 
-## Defina los parámetros de acción {#define-the-message-parameters}
+## Definir los parámetros de acción {#define-the-message-parameters}
 
 ![](../assets/messageparameterssection.png)
 
