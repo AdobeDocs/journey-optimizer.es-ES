@@ -3,17 +3,17 @@ title: Envío de un mensaje mediante Campaign v7/v8
 description: Obtenga información sobre cómo enviar un mensaje mediante Campaign v7/v8
 feature: Acciones
 topic: Administración
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 9ca747c4f46fd7eb24dbbf12350d7bbe409b1617
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
 
-# Enviar un mensaje con Campaign v7/v8 {#campaign-classic-use-case}
+# Envío de un mensaje mediante Campaign v7/v8 {#campaign-classic-use-case}
 
 Este caso de uso presenta todos los pasos necesarios para enviar un correo electrónico mediante la integración con Adobe Campaign Classic v7 y Adobe Campaign v8.
 
