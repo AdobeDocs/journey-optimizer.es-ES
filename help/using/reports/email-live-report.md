@@ -5,7 +5,7 @@ feature: Informes
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 2%
@@ -21,6 +21,8 @@ En la pestaña **[!UICONTROL Executions]** del menú **[!UICONTROL Messages]**, 
 ![](../assets/live_report.png)
 
 El correo electrónico **[!UICONTROL Live report]** se divide en distintas utilidades que detallan el éxito y los errores del envío. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte esta [sección](live-report.md#modify-dashboard).
+
+![](../assets/live_report_5.png)
 
 **[!UICONTROL Email performance]** y las  **[!UICONTROL Email summary]** utilidades detallan la información principal relativa al mensaje con un gráfico y KPI:
 
@@ -43,6 +45,8 @@ El gráfico **[!UICONTROL Sending Statistics]** detalla el éxito de su envío:
 * **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados.
 
 * **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
+
+![](../assets/live_report_6.png)
 
 El gráfico y la tabla **[!UICONTROL Error Reasons]** permiten ver qué error se produjo durante el envío.
 
