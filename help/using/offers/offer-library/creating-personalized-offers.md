@@ -5,10 +5,10 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 4%
+source-wordcount: '1161'
+ht-degree: 3%
 
 ---
 
@@ -98,6 +98,10 @@ Las reglas y restricciones de idoneidad le permiten definir las condiciones en l
 
    ![](../../assets/offer_rule.png)
 
+   >[!CAUTION]
+   >
+   >Actualmente, las ofertas basadas en eventos no son compatibles con [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, no podrá aprovecharla en una oferta.
+
 1. Defina el **[!UICONTROL Priority]** de la oferta comparado con otros si el usuario cumple los requisitos para más de una oferta. Cuanto mayor sea la prioridad de una oferta, mayor será su prioridad en comparación con otras ofertas.
 
 1. Especifique el **[!UICONTROL Capping]** de la oferta, lo que significa el número de veces que la oferta se presentará en total entre todos los usuarios. Si la oferta se ha enviado a todos los usuarios la cantidad de veces que ha especificado en este campo, su entrega se detendrá.
@@ -118,19 +122,68 @@ Las reglas y restricciones de idoneidad le permiten definir las condiciones en l
 
 ## Revisar la oferta {#review}
 
-Una vez definidas las reglas y restricciones de idoneidad, se muestra un resumen de las propiedades de la oferta. Si todo está configurado correctamente y la oferta está lista para presentarse a los usuarios, haga clic en **[!UICONTROL Finish]** y seleccione **[!UICONTROL Save and approve]**.
+Una vez definidas las reglas y restricciones de idoneidad, se muestra un resumen de las propiedades de la oferta.
 
-También puede guardar la oferta como borrador para editarla y aprobarla más adelante.
+1. Asegúrese de que todo esté configurado correctamente.
 
-![](../../assets/offer_review.png)
+1. Cuando la oferta esté lista para ser presentada a los usuarios, haga clic en **[!UICONTROL Finish]**.
 
-La oferta se muestra en la lista con los estados **[!UICONTROL Live]** o **[!UICONTROL Draft]**, en función de si la aprobó o no en el paso anterior.
+1. Seleccione **[!UICONTROL Save and approve]**.
 
-Ahora está listo para enviarse a los usuarios. Puede seleccionarlo para mostrar sus propiedades y editarlo o suprimirlo.
+   ![](../../assets/offer_review.png)
+
+   También puede guardar la oferta como borrador para editarla y aprobarla más adelante.
+
+La oferta se muestra en la lista con los estados **[!UICONTROL Approved]** o **[!UICONTROL Draft]**, en función de si la aprobó o no en el paso anterior.
+
+Ahora está listo para enviarse a los usuarios.
 
 ![](../../assets/offer_created.png)
 
-Una vez creada una oferta, puede hacer clic en su nombre en la lista para acceder a información detallada y monitorizar todos los cambios realizados en ella mediante la pestaña **[!UICONTROL Change log]**. [Más información](../get-started/user-interface.md#monitoring-changes).
+## Lista de ofertas {#offer-list}
+
+En la lista de ofertas, puede seleccionar la oferta para mostrar sus propiedades. También puede editarlo, cambiar su estado (**Borrador**, **Aprobado**, **Archivado**), duplicar la oferta o eliminarla.
+
+![](../../assets/offer_created.png)
+
+Seleccione el botón **[!UICONTROL Edit]** para volver al modo de edición de la oferta, donde puede modificar los [detalles](#create-offer), [representaciones](#representations) de la oferta, así como editar las [reglas de idoneidad y restricciones](#eligibility).
+
+Seleccione una oferta aprobada y haga clic en **[!UICONTROL Undo approve]** para volver a establecer el estado de la oferta en **[!UICONTROL Draft]**.
+
+Para volver a establecer el estado en **[!UICONTROL Approved]**, seleccione el botón correspondiente que se muestra ahora.
+
+![](../../assets/offer_approve.png)
+
+El botón **[!UICONTROL More actions]** habilita las acciones descritas a continuación.
+
+![](../../assets/offer_more-actions.png)
+
+* **[!UICONTROL Duplicate]**: crea una oferta con las mismas propiedades, representaciones, reglas de idoneidad y restricciones. De forma predeterminada, la nueva oferta tiene el estado **[!UICONTROL Draft]**.
+* **[!UICONTROL Delete]**: elimina la oferta de la lista.
+
+   >[!CAUTION]
+   >
+   >La oferta y su contenido ya no serán accesibles. Esta acción no se puede deshacer.
+   >
+   >Si la oferta se utiliza en una recopilación o una decisión, no se puede eliminar. Primero debe eliminar la oferta de cualquier objeto.
+
+* **[!UICONTROL Archive]**: establece el estado de la oferta en  **[!UICONTROL Archived]**. La oferta sigue estando disponible en la lista, pero no puede volver a establecer su estado en **[!UICONTROL Draft]** o **[!UICONTROL Approved]**. Solo puede duplicarlo o eliminarlo.
+
+También puede eliminar o cambiar el estado de varias ofertas al mismo tiempo seleccionando las casillas de verificación correspondientes.
+
+![](../../assets/offer_multiple-selection.png)
+
+Si desea cambiar el estado de varias ofertas con estados diferentes, solo se cambiarán los estados relevantes.
+
+![](../../assets/offer_change-status.png)
+
+Una vez creada una oferta, puede hacer clic en su nombre desde la lista.
+
+![](../../assets/offer_click-name.png)
+
+Esto le permite acceder a información detallada de esa oferta. Seleccione la pestaña **[!UICONTROL Change log]** para [supervisar todos los cambios](../get-started/user-interface.md#monitoring-changes) que se han realizado en la oferta.
+
+![](../../assets/offer_information.png)
 
 ## Tutorial en vídeo {#video}
 
