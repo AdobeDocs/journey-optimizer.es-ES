@@ -1,10 +1,10 @@
 ---
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
-source-git-commit: 6c69bbb06de57c62d8894b451d9dab9b318c8ebc
+source-git-commit: 3d0404651ebd39b29cf3fc64152359e1b5b479f5
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 17%
+source-wordcount: '253'
+ht-degree: 15%
 
 ---
 
@@ -29,6 +29,9 @@ Esta página lista todas las actualizaciones de documentación de [!DNL Journey 
 * En el caso de los recorridos activos, la pantalla de propiedades de recorrido ahora muestra la fecha de publicación y el nombre del usuario que publicó el recorrido. [Más información](building-journeys/journey-gs.md#change-properties)
 * En la pantalla de la lista de recorridos, se ha añadido el filtro de tipo de recorrido. [Más información](user-interface.md#section_lgm_hpz_pgb)
 * Se han actualizado las limitaciones de Recorrido. [Más información](building-journeys/limitations.md)
-* El parámetro [!UICONTROL Throttling rate] ha estado en la actividad Leer segmento . [Más información](building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* Se ha actualizado la sección Configurar selección de ofertas en la sección de decisiones. [Más información](offers/offer-activities/configure-offer-selection.md)
+* El parámetro [!UICONTROL Throttling rate] se ha agregado en la actividad Leer segmento . [Más información](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Se ha actualizado la sección &quot;Configurar la selección de ofertas en decisiones&quot;. [Más información](offers/offer-activities/configure-offer-selection.md)
+* Se ha añadido una advertencia para indicar que las ofertas basadas en eventos no son compatibles actualmente. [Más información](offers/offer-library/creating-personalized-offers.md#eligibility)
+* Se ha documentado la nueva pestaña [!UICONTROL Overview] de Administración de decisiones. [Más información](offers/get-started/user-interface.md#overview)
+* Se han añadido nuevas secciones para describir las acciones disponibles en las listas de ofertas y decisiones: [Lista de ofertas](offers/offer-library/creating-personalized-offers.md#offer-list) y [Lista de decisiones](offers/offer-activities/create-offer-activities.md#decision-list).
  
