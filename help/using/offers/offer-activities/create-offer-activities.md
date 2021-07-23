@@ -5,10 +5,10 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 5%
+source-wordcount: '814'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
 ## Cree la decisión {#create-activity}
 
-1. Acceda a la lista de decisiones y haga clic en **[!UICONTROL Create activity]**.
+1. Acceda a la lista de decisiones y haga clic en **[!UICONTROL Create decision]**.
 
 1. Especifique el nombre de la decisión, así como su fecha y hora de inicio y finalización y, a continuación, haga clic en **[!UICONTROL Next]**.
 
@@ -83,26 +83,67 @@ Seleccione la oferta de reserva que se presentará como último recurso a los cl
 
 ## Revisar y guardar la decisión {#review}
 
-Si todo está configurado correctamente y su decisión está lista para utilizarse para presentar ofertas a los clientes, haga clic en **[!UICONTROL Finish]** y seleccione **[!UICONTROL Save and activate]**.
+Si todo está configurado correctamente, se muestra un resumen de las propiedades de decisión.
 
-También puede guardar la decisión como borrador para editarla y activarla más adelante.
+1. Asegúrese de que la decisión esté lista para utilizarse para presentar ofertas a los clientes.
+1. Haga clic en **[!UICONTROL Finish]**.
+1. A continuación, seleccione **[!UICONTROL Save and activate]**.
 
-![](../../assets/save-activities.png)
+   ![](../../assets/save-activities.png)
+
+   También puede guardar la decisión como borrador para editarla y activarla más adelante.
 
 La decisión se muestra en la lista con los estados **[!UICONTROL Live]** o **[!UICONTROL Draft]**, dependiendo de si lo activó o no en el paso anterior.
 
-Ahora está listo para utilizarse para ofrecer ofertas a los clientes. Puede seleccionarlo para mostrar sus propiedades y editarlo o suprimirlo.
+Ahora está listo para utilizarse para ofrecer ofertas a los clientes.
 
-Para obtener más información sobre la entrega de ofertas, consulte estas secciones:
+## Lista de decisiones {#decision-list}
 
-* [Añadir ofertas personalizadas en mensajes](../../deliver-personalized-offers.md)
-* [Enviar ofertas mediante API](../api-reference/decisions-api/deliver-offers.md)
+En la lista de decisión, puede seleccionar la decisión para mostrar sus propiedades. Desde allí también puede editarlo, cambiar su estado (**Borrador**, **Activo**, **Completado**, **Archivado**), duplicar la decisión o eliminarla.
 
-![](../../assets/activities-created.png)
+![](../../assets/decision_created.png)
 
->[!NOTE]
->
->Una vez que se ha creado una decisión, puede hacer clic en su nombre en la lista para acceder a información detallada y visualizar todos los cambios realizados en ella mediante la pestaña **[!UICONTROL Change log]**. [Más información](../get-started/user-interface.md#changes-log).
+Seleccione el botón **[!UICONTROL Edit]** para volver al modo de edición de decisión, donde puede modificar los [detalles](#create-activity), [ámbitos de decisión](#add-decision-scopes) y [oferta de reserva](#add-fallback) de la decisión.
+
+Seleccione una decisión activa y haga clic en **[!UICONTROL Deactivate]** para volver a establecer el estado de la decisión en **[!UICONTROL Draft]**.
+
+Para volver a establecer el estado en **[!UICONTROL Live]**, seleccione el botón **[!UICONTROL Activate]** que se muestra ahora.
+
+![](../../assets/decision_activate.png)
+
+El botón **[!UICONTROL More actions]** habilita las acciones descritas a continuación.
+
+![](../../assets/decision_more-actions.png)
+
+* **[!UICONTROL Complete]**: establece el estado de la decisión en  **[!UICONTROL Complete]**, lo que significa que ya no se puede llamar a la decisión. Esta acción solo está disponible para decisiones activadas. La decisión sigue estando disponible en la lista, pero no puede volver a establecerse en **[!UICONTROL Draft]** o **[!UICONTROL Approved]**. Solo puede duplicarlo, eliminarlo o archivarlo.
+
+* **[!UICONTROL Duplicate]**: crea una decisión con las mismas propiedades, ámbitos de decisión y oferta de reserva. De forma predeterminada, la nueva decisión tiene el estado **[!UICONTROL Draft]**.
+
+* **[!UICONTROL Delete]**: elimina la decisión de la lista.
+
+   >[!CAUTION]
+   >
+   >La decisión y su contenido ya no serán accesibles. Esta acción no se puede deshacer.
+   >
+   >Si la decisión se utiliza en otro objeto, no se puede eliminar.
+
+* **[!UICONTROL Archive]**: establece el estado de decisión en  **[!UICONTROL Archived]**. La decisión sigue estando disponible en la lista, pero no puede volver a establecerse en **[!UICONTROL Draft]** o **[!UICONTROL Approved]**. Solo puede duplicarlo o eliminarlo.
+
+También puede eliminar o cambiar el estado de varias decisiones al mismo tiempo seleccionando las casillas de verificación correspondientes.
+
+![](../../assets/decision_multiple-selection.png)
+
+Si desea cambiar el estado de varias decisiones con estados diferentes, solo se cambiarán los estados relevantes.
+
+![](../../assets/decision_change-status.png)
+
+Una vez creada la decisión, puede hacer clic en su nombre desde la lista.
+
+![](../../assets/decision_click-name.png)
+
+Esto le permite acceder a información detallada para esa decisión. Seleccione la pestaña **[!UICONTROL Change log]** para [supervisar todos los cambios](../get-started/user-interface.md#changes-log) que se han realizado en la decisión.
+
+![](../../assets/decision_information.png)
 
 ## Tutorial en vídeo {#video}
 
