@@ -15,10 +15,10 @@ feature: Configuración de la aplicación
 topic: Administración
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 29ebb0d8ba228ee8bf430d29f92cc30a9edac69a
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 10%
+source-wordcount: '472'
+ht-degree: 9%
 
 ---
 
@@ -49,7 +49,9 @@ Para delegar un nuevo subdominio, siga los pasos a continuación:
 
    >[!CAUTION]
    >
-   >Asegúrese de que ha introducido un subdominio válido, como marketing.company.com. No se permite delegar un subdominio no válido al Adobe.
+   >No se permite delegar un subdominio no válido al Adobe. Asegúrese de introducir un subdominio válido que sea propiedad de su organización, como marketing.yourcompany.com.
+   >
+   >Tenga en cuenta que los subdominios de varios niveles, como email.marketing.yourcompany.com , no son compatibles actualmente.
 
 1. Se muestra la lista de registros que se van a colocar en los servidores DNS. Copie estos registros, uno por uno o descargando un archivo CSV, y luego vaya a la solución de alojamiento de dominios para generar los registros DNS coincidentes.
 
