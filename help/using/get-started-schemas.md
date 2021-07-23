@@ -4,9 +4,9 @@ description: Aprenda a utilizar los esquemas de Adobe Experience Platform en Ado
 feature: Esquemas
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '319'
 ht-degree: 7%
 
 ---
@@ -17,7 +17,7 @@ Los esquemas son la forma estándar de describir los datos en Experience Platfor
 
 ➡️ [Obtenga información sobre cómo crear y configurar un esquema](#video-schema) (vídeo)
 
-Un esquema es un conjunto de reglas que representan y validan la estructura y el formato de los datos. En un nivel superior, los esquemas proporcionan una definición abstracta de un objeto real (como una persona) y describen qué datos deben incluirse en cada instancia de ese objeto (como nombre, apellido, cumpleaños, etc.).
+Un esquema es un conjunto de reglas que representan y validan la estructura y el formato de los datos. En un nivel superior, los esquemas proporcionan una definición abstracta de un objeto real (como una persona) y describen qué datos se deben incluir en cada instancia de ese objeto (como nombre, apellido, cumpleaños, etc.).
 
 Aprenda a crear esquemas en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es){target=&quot;_blank&quot;}
 
@@ -25,7 +25,7 @@ El espacio de trabajo **Esquemas** de la interfaz de usuario [!DNL Adobe Journey
 
 ![](assets/schemas-home.png)
 
-Aprenda a utilizar la interfaz de usuario de Esquemas en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en){target=&quot;_blank&quot;}
+Aprenda a utilizar la interfaz de usuario de Esquemas en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot;}
 
 La documentación paso a paso para crear un esquema con el Editor de esquemas está disponible en [esta página](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es){target=&quot;_blank&quot;}
 
