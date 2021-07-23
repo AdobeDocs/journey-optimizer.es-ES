@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo utilizar conjuntos de datos de Ado
 feature: Conjuntos de datos
 role: User
 level: Beginner
-source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 15%
+source-wordcount: '259'
+ht-degree: 27%
 
 ---
 
@@ -32,13 +32,13 @@ La documentación paso a paso para asignar un archivo CSV a un esquema XDM está
 
 ## Vídeo explicativo{#video-dataset}
 
-Obtenga información sobre cómo crear un conjunto de datos, asignarlo a un esquema, agregarle datos y confirmar que se han introducido los datos.
+Obtenga información sobre cómo crear un conjunto de datos, asignarlo a un esquema, añadirle datos y confirmar que estos se han introducido.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 **Consulte también**
 
 * [Crear un esquema, un conjunto de datos e introducir datos para añadir perfiles de prueba en Journey Optimizer](building-journeys/creating-test-profiles.md)
-* [Resumen de ingesta de transmisión](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target=&quot;_blank&quot;}
-* [Ingesta de datos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=en){target=&quot;_blank&quot;}
+* [Resumen de ingesta de transmisión](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es){target=&quot;_blank&quot;}
+* [Ingesta de datos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;}
 
