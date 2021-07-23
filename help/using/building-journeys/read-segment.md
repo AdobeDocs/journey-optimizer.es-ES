@@ -5,9 +5,9 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '950'
 ht-degree: 5%
 
 ---
@@ -40,7 +40,7 @@ Los pasos para configurar la actividad Leer segmento son los siguientes:
 
    >[!NOTE]
    >
-   >Solo las personas con los estados de participación de segmentos **Realized** y **Existing** entrarán en el recorrido. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target=&quot;_blank&quot;}.
+   >Solo las personas con los estados de participación de segmentos **Realized** y **Existing** entrarán en el recorrido. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
    ![](../assets/read-segment-selection.png)
 
