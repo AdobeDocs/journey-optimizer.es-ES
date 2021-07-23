@@ -5,9 +5,9 @@ feature: Información general
 topic: Administración de contenido
 role: User
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '381'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ Para obtener más información sobre cómo cargar recursos, consulte [Documentac
 
 1. Seleccione el archivo que desea cargar. Cuando termine, haga clic en **[!UICONTROL Upload]**.
 
-   Para obtener más información sobre cómo administrar los recursos, consulte esta [página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en).
+   Para obtener más información sobre cómo administrar los recursos, consulte esta [página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
 1. Una vez cargado el recurso, ahora puede insertar los recursos en uno de los mensajes a través del Diseñador de correo electrónico.
 
