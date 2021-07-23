@@ -5,10 +5,10 @@ feature: Ofertas
 topic: Integraciones
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: dc3a5aacbd4b9bb20c384e0b057241f3080f09fa
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 17%
+source-wordcount: '284'
+ht-degree: 15%
 
 ---
 
@@ -47,6 +47,10 @@ Para crear una regla de decisión, siga estos pasos:
 1. Una vez creada la regla, esta se muestra en la lista de reglas. Puede seleccionarlo para mostrar sus propiedades y editarlo o eliminarlo.
 
    ![](../../assets/rule_created.png)
+
+>[!CAUTION]
+>
+>Actualmente, las ofertas basadas en eventos no son compatibles con [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, no podrá aprovecharla en una oferta.
 
 ## Tutorial en vídeo {#video}
 
