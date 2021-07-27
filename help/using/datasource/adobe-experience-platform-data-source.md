@@ -5,16 +5,16 @@ feature: Fuentes de datos
 topic: Administración
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 10%
+source-wordcount: '353'
+ht-degree: 11%
 
 ---
 
 # Fuente de datos de Adobe Experience Platform {#concept_zrb_nqt_52b}
 
-La fuente de datos de Adobe Experience Platform define la conexión con el servicio Perfil del cliente en tiempo real. Esta fuente de datos está integrada y preconfigurada. No se puede eliminar. Esta fuente de datos está diseñada para recuperar y utilizar datos del servicio Perfil del cliente en tiempo real (por ejemplo, comprobar si la persona que ha introducido un recorrido es una mujer). Permite utilizar datos de perfil y datos de eventos de experiencia. Para obtener más información sobre el servicio de Perfil del cliente en tiempo real, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
+La fuente de datos de Adobe Experience Platform define la conexión con el servicio Perfil del cliente en tiempo real. Esta fuente de datos está integrada y preconfigurada. No se puede eliminar. Esta fuente de datos está diseñada para recuperar y utilizar datos del servicio Perfil del cliente en tiempo real (por ejemplo, comprobar si la persona que ha introducido un recorrido es una mujer). Permite utilizar datos de perfil y datos de eventos de experiencia. Para obtener más información sobre el servicio de Perfil del cliente en tiempo real, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es){target=&quot;_blank&quot;}.
 
 >[!NOTE]
 >
@@ -38,7 +38,6 @@ Estos son los pasos principales para agregar grupos de campos al origen de datos
 
 1. Seleccione un esquema en la lista desplegable **[!UICONTROL Schema]**. Este campo enumera los esquemas de perfil y eventos de experiencia disponibles en Adobe Experience Platform. La creación del esquema no se realiza en [!DNL Journey Optimizer]. Se realiza en Adobe Experience Platform.
 1. Seleccione los campos que desee utilizar.
-1. Defina la duración de la caché.
 1. Haga clic en **[!UICONTROL Save]**.
 
 Cuando coloque el cursor en el nombre de un grupo de campos, verá dos iconos a la derecha. Permiten eliminar y duplicar el grupo de campos. Tenga en cuenta que el icono **[!UICONTROL Delete]** solo está disponible si el grupo de campos no se utiliza en ningún recorrido activo o borrador (información que se muestra en el campo **[!UICONTROL Used in]** ).
