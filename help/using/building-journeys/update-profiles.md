@@ -5,9 +5,9 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '429'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,6 @@ La actividad de acción **[!UICONTROL Update Profile]** le permite actualizar un
 * No puede utilizar la acción **Actualizar perfil** para generar eventos de experiencia, por ejemplo una compra.
 * Al igual que cualquier otra acción, puede definir una ruta alternativa en caso de error o de tiempo de espera y no puede colocar dos acciones en paralelo.
 * La solicitud de actualización enviada a Platform será rápida, pero no inmediata/en un segundo. Se tardará normalmente unos segundos, pero a veces más sin garantía. Como resultado, por ejemplo, si una acción utiliza el &quot;campo 1&quot; actualizado por una acción Actualizar perfil colocada justo antes, no debería esperar que el &quot;campo 1&quot; se actualice en la acción .
-* Las fuentes de datos tienen una noción de duración de la caché, a nivel de grupo de campos. Si espera aprovechar, en un recorrido, un campo de perfil actualizado recientemente, asegúrese de definir una duración de caché muy corta.
 
 ## Uso del modo de prueba {#using-the-test-mode}
 
