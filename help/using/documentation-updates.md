@@ -1,10 +1,10 @@
 ---
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
-source-git-commit: 3d0404651ebd39b29cf3fc64152359e1b5b479f5
+source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 15%
+source-wordcount: '186'
+ht-degree: 17%
 
 ---
 
@@ -24,14 +24,9 @@ Esta página lista todas las actualizaciones de documentación de [!DNL Journey 
 * Se ha añadido una subsección en las páginas espejo. [Más información](message-tracking.md#mirror-page)
 * Se ha cambiado el nombre de &quot;actividades de oferta&quot; por &quot;decisiones&quot; y &quot;decisiones&quot; por &quot;ámbitos de decisión&quot; en la documentación y las pantallas. [Más información](offers/get-started/starting-offer-decisioning.md)
 * Nuevo caso de uso: [personalizar un mensaje con funciones de ayuda](personalization/personalization-use-case-helper-functions.md)
-* Para las fuentes de datos externas, ahora se define automáticamente una regla de límite de 15 llamadas por segundo. [Más información](configuration/external-systems.md#capping)
 * La documentación Leer segmento se ha actualizado para reflejar los impactos materializados en el segmento. [Más información](building-journeys/read-segment.md)
-* En el caso de los recorridos activos, la pantalla de propiedades de recorrido ahora muestra la fecha de publicación y el nombre del usuario que publicó el recorrido. [Más información](building-journeys/journey-gs.md#change-properties)
-* En la pantalla de la lista de recorridos, se ha añadido el filtro de tipo de recorrido. [Más información](user-interface.md#section_lgm_hpz_pgb)
 * Se han actualizado las limitaciones de Recorrido. [Más información](building-journeys/limitations.md)
-* El parámetro [!UICONTROL Throttling rate] se ha agregado en la actividad Leer segmento . [Más información](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Se ha actualizado la sección &quot;Configurar la selección de ofertas en decisiones&quot;. [Más información](offers/offer-activities/configure-offer-selection.md)
 * Se ha añadido una advertencia para indicar que las ofertas basadas en eventos no son compatibles actualmente. [Más información](offers/offer-library/creating-personalized-offers.md#eligibility)
 * Se ha documentado la nueva pestaña [!UICONTROL Overview] de Administración de decisiones. [Más información](offers/get-started/user-interface.md#overview)
 * Se han añadido nuevas secciones para describir las acciones disponibles en las listas de ofertas y decisiones: [Lista de ofertas](offers/offer-library/creating-personalized-offers.md#offer-list) y [Lista de decisiones](offers/offer-activities/create-offer-activities.md#decision-list).
- 
