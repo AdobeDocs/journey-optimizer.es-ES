@@ -5,10 +5,10 @@ feature: Fuentes de datos
 topic: Administración
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: d69779418d50fdc4b75cc777b27a62392d1634a0
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 74%
+source-wordcount: '291'
+ht-degree: 72%
 
 ---
 
@@ -34,5 +34,9 @@ Existen dos tipos de fuentes de datos:
 * Las fuentes de datos externas que permiten definir una conexión con sistemas externos. Estos son los que puede crear. Consulte [esta página](../datasource/external-data-sources.md).
 
 Para cada fuente de datos, se define la información que se recuperará mediante grupos de campos. Los grupos de campos son conjuntos de campos que se pueden recuperar desde una fuente de datos. Consulte [esta página](../datasource/configure-data-sources.md#define-field-groups).
+
+>[!NOTE]
+>
+>Ahora se admiten relaciones de esquema para orígenes de datos.
 
 Para obtener más información sobre cómo configurar una fuente de datos de Adobe Experience Platform y una fuente de datos externa, y cómo buscar y utilizar datos en un recorrido, vea este [tutorial en vídeo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target=&quot;_blank&quot;}.
