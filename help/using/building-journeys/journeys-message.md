@@ -1,24 +1,24 @@
 ---
-title: Añadir un mensaje en un recorrido
-description: Añadir un mensaje en un recorrido
+title: Adición de un mensaje en un recorrido
+description: Adición de un mensaje en un recorrido
 feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
+source-git-commit: 7937c3b7c9247868a7a506991850537493a76cf1
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
-# Añadir un mensaje en un recorrido
+# Adición de un mensaje en un recorrido
 
 [!DNL Journey Optimizer] las funciones de mensajes están integradas, solo tiene que diseñar el contenido y publicar el mensaje. Consulte [esta sección](../get-started-content.md). A continuación, simplemente agregue, en su recorrido, un mensaje push o de correo electrónico diseñado con Journey Optimizer.
 
 Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción personalizada. Obtenga más información en esta [sección](../action/action.md).
 
-## Adición de una actividad de mensaje
+## Añadir una actividad Message
 
 1. Como siempre, inicie su recorrido con un evento o una actividad **Leer segmento**.
 
