@@ -5,9 +5,9 @@ feature: Fuentes de datos
 topic: Administración
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: e6d8d8ee637008a886ca308b5b0d9d53d90b11ce
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1276'
 ht-degree: 98%
 
 ---
@@ -54,7 +54,6 @@ Estos son los pasos principales para crear y configurar una nueva fuente de dato
 
 1. Configure la autenticación según la configuración del servicio externo: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** o **[!UICONTROL API key]**. Para obtener más información sobre el modo de autenticación personalizada, consulte [esta sección](../datasource/external-data-sources.md#section_wjp_nl5_nhb). En nuestro ejemplo, elegimos:
 
-
    * **[!UICONTROL Type]**: &quot;clave de API&quot;
    * **[!UICONTROL Name]**: &quot;appid&quot; (el nombre del parámetro de clave de API)
    * **[!UICONTROL Value]**: &quot;1234&quot; (el valor de nuestra clave de API)
@@ -68,7 +67,6 @@ Para el conjunto de parámetros &quot;long/lat&quot;, creamos un grupo de campos
 
 * **[!UICONTROL Used in]**: muestra el número de recorridos que utilizan un grupo de campos. Puede hacer clic en el icono **[!UICONTROL View journeys]** para mostrar la lista de recorridos mediante este grupo de campos.
 * **[!UICONTROL Method]**: seleccione el método POST o GET. En nuestro caso, seleccionamos el método GET.
-* **[!UICONTROL Cache duration]**: en nuestro caso, queremos que el clima se almacene en caché durante 10 minutos.
 * **[!UICONTROL Dynamic Values]**: introduzca los diferentes parámetros separados por coma, &quot;long,lat&quot; en nuestro ejemplo. Dado que los valores de parámetro dependen del contexto de ejecución, se definirán en los recorridos. Consulte [documentación del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=es){target=&quot;_blank&quot;}.
 * **[!UICONTROL Response Payload]**: haga clic dentro de **[!UICONTROL Payload]** y pegue un ejemplo de la carga útil devuelta por la llamada. Para nuestro ejemplo, hemos utilizado una carga útil encontrada en un sitio web de la API meteorológica. Compruebe que los tipos de campo son correctos. Cada vez que se llama a la API, el sistema recupera todos los campos incluidos en el ejemplo de carga útil. Tenga en cuenta que puede hacer clic en **[!UICONTROL Paste a new payload]** si desea cambiar la carga útil que se mueve actualmente.
 * **[!UICONTROL Sent Payload]**: este campo no aparece en nuestro ejemplo. Solo está disponible si selecciona el método POST. Pegue la carga útil que se enviará al sistema de terceros.
