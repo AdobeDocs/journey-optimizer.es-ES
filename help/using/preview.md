@@ -5,9 +5,9 @@ feature: Recorridos
 topic: Administración de contenido
 role: User
 level: Intermediate
-source-git-commit: ef1d19d6abfccf3455f94b454c9c863396159161
+source-git-commit: b1a0d17a2f36b55b8ef692fa9056989a3884c2a8
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '935'
 ht-degree: 4%
 
 ---
@@ -121,7 +121,13 @@ Una vez seleccionados los [perfiles de prueba](#select-test-profiles), puede env
 
    ![](assets/send-proof-button.png)
 
-1. Seleccione los perfiles de prueba que recibirán la prueba y haga clic en **[!UICONTROL Send proof]**. Puede añadir un prefijo a la línea de asunto de la prueba si es necesario.
+1. En la ventana **[!UICONTROL Send proof]**, además de los perfiles de prueba, escriba el correo electrónico del destinatario y haga clic en **[!UICONTROL Add]** para enviarlo a usted mismo o a los miembros de sus organizaciones.
+
+   Tenga en cuenta que puede añadir hasta 10 destinatarios para la entrega de prueba.
+
+   ![](assets/send-proof-button_2.png)
+
+1. A continuación, seleccione los perfiles de prueba que recibirán la prueba y haga clic en **[!UICONTROL Send proof]**. Puede añadir un prefijo a la línea de asunto de la prueba si es necesario. Solo caracteres alfanuméricos y caracteres especiales, por ejemplo, . - _ ( ) [ ], se permiten como prefijo a la línea de asunto.
 
    ![](assets/send-proof-select.png)
 
