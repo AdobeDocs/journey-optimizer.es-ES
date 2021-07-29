@@ -1,9 +1,9 @@
 ---
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
-source-git-commit: cd38b6ec9be0417f5c65e37805c0e7b072d1cb96
+source-git-commit: c9fa07efd03e84bf38fb1d67fabba4b6066c4179
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '373'
 ht-degree: 16%
 
 ---
@@ -50,21 +50,22 @@ Esta página lista todas las nuevas funciones y mejoras de [!DNL Journey Optimiz
 
 ### Mejoras
 
-* **Journeys**
-   * La tasa de regulación general de todos los segmentos de lectura que se ejecutan simultáneamente en el mismo entorno limitado está limitada a 17.000 mensajes por segundo. [Más información](building-journeys/read-segment.md#configuring-segment-trigger-activity)
-   * El campo **Cache duration** se ha eliminado del panel de configuración del origen de datos. [Más información](datasource/about-data-sources.md)
-   * Para las fuentes de datos externas, ahora se define automáticamente una regla de límite de 15 llamadas por segundo. [Más información](configuration/external-systems.md#capping)
-   * En el caso de los recorridos activos, la pantalla de propiedades de recorrido ahora muestra la fecha de publicación y el nombre del usuario que publicó el recorrido. [Más información](building-journeys/journey-gs.md#change-properties)
-   * En la pantalla de la lista de recorridos, se ha añadido el filtro de tipo de recorrido. [Más información](user-interface.md#section_lgm_hpz_pgb)
-   * El parámetro **[!UICONTROL Throttling rate]** se ha agregado en la actividad Leer segmento . [Más información](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+**Journeys**
 
-* **Vista previa y prueba**
-   * La identidad y el área de nombres ahora están visibles en la pantalla **[!UICONTROL Preview]**. [Más información](preview.md#preview-your-messages)
-   * El número de correos electrónicos de prueba para pruebas ahora está restringido a 10.
-   * Los caracteres permitidos para el **Subject line prefix** en las pruebas ahora están limitados. [Más información](preview.md#send-proofs)
+* La tasa de regulación general de todos los segmentos de lectura que se ejecutan simultáneamente en el mismo entorno limitado está limitada a 17.000 mensajes por segundo. [Más información](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* El campo **Cache duration** se ha eliminado del panel de configuración del origen de datos. [Más información](datasource/about-data-sources.md)
+* Para las fuentes de datos externas, ahora se define automáticamente una regla de límite de 15 llamadas por segundo. [Más información](configuration/external-systems.md#capping)
+* En el caso de los recorridos activos, la pantalla de propiedades de recorrido ahora muestra la fecha de publicación y el nombre del usuario que publicó el recorrido. [Más información](building-journeys/journey-gs.md#change-properties)
+* En la pantalla de la lista de recorridos, se ha añadido el filtro de tipo de recorrido. [Más información](user-interface.md#section_lgm_hpz_pgb)
+* El parámetro **[!UICONTROL Throttling rate]** se ha agregado en la actividad Leer segmento . [Más información](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-* **Editor de expresiones de personalización**
-   * Se ha cambiado el nombre de la lista desplegable de ayuda y se ha reorganizado.
+**Vista previa y prueba de mensajes**
+* La identidad y el área de nombres ahora están visibles en la pantalla **[!UICONTROL Preview]**. [Más información](preview.md#preview-your-messages)
+* El número de correos electrónicos de prueba para pruebas ahora está restringido a 10.
+* Los caracteres permitidos para el **Subject line prefix** en las pruebas ahora están limitados. [Más información](preview.md#send-proofs)
+
+**Editor de expresiones de personalización**
+* Se ha cambiado el nombre de la lista desplegable de ayuda y se ha reorganizado.
 
 ### Correcciones
 
