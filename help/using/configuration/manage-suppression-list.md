@@ -15,10 +15,10 @@ feature: Configuración de la aplicación
 topic: Administración
 role: Admin
 level: Intermediate
-source-git-commit: 83d0cbdb7524f0317bd576ed7c689f9933bb658f
+source-git-commit: 661d43d3a39fcead068562dc6fb567bdc4027432
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -76,7 +76,7 @@ Para cada dirección de correo electrónico de la lista, también puede comproba
 Los posibles motivos de un error de entrega son:
 
 | Motivo | Descripción | Categoría de supresión |
----------|----------|--------- |
+| --- | --- | --- |
 | **[!UICONTROL Undetermined]** | No se pudo identificar el motivo de rechazo recibido del dominio destinatario Agente de transferencia de mensajes (MTA). | Ignorado |
 | **[!UICONTROL Invalid Recipient]** | El destinatario no es válido o no existe. | Grave |
 | **[!UICONTROL Soft Bounce]** | El mensaje rebotó por un motivo distinto a los errores leves enumerados en esta tabla, como al enviar la velocidad permitida recomendada por un ISP. | Leve |
