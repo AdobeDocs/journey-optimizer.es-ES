@@ -1,17 +1,17 @@
 ---
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
-source-git-commit: c9fa07efd03e84bf38fb1d67fabba4b6066c4179
+source-git-commit: a1800c333bfbee178682d773c729aad7e23d86d0
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 16%
+source-wordcount: '394'
+ht-degree: 15%
 
 ---
 
 
 # Notas de la versión {#release-notes}
 
-Esta página lista todas las nuevas funciones y mejoras de [!DNL Journey Optimizer]. También puede consultar las últimas [Actualizaciones de documentación](documentation-updates.md).
+En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journey Optimizer]. También puede consultar las últimas [Actualizaciones de documentación](documentation-updates.md).
 
 ## Versión de julio de 2021 {#july-2021-release}
 
@@ -60,11 +60,13 @@ Esta página lista todas las nuevas funciones y mejoras de [!DNL Journey Optimiz
 * El parámetro **[!UICONTROL Throttling rate]** se ha agregado en la actividad Leer segmento . [Más información](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **Vista previa y prueba de mensajes**
+
 * La identidad y el área de nombres ahora están visibles en la pantalla **[!UICONTROL Preview]**. [Más información](preview.md#preview-your-messages)
 * El número de correos electrónicos de prueba para pruebas ahora está restringido a 10.
 * Los caracteres permitidos para el **Subject line prefix** en las pruebas ahora están limitados. [Más información](preview.md#send-proofs)
 
 **Editor de expresiones de personalización**
+
 * Se ha cambiado el nombre de la lista desplegable de ayuda y se ha reorganizado.
 
 ### Correcciones
@@ -74,3 +76,5 @@ Esta página lista todas las nuevas funciones y mejoras de [!DNL Journey Optimiz
 * Se ha corregido un problema por el que faltaba información de IP en la pantalla Registros de PTR .
 * Ya está implementada la localización en el carril de la oferta dentro del Editor de expresiones.
 * Se ha corregido un espaciado incorrecto en las ventanas emergentes de información.
+* Se ha corregido un problema en el Diseñador de correo electrónico al cargar un archivo HTML en el que la hoja de estilo interna con propiedad `background-image` no era compatible.
+
