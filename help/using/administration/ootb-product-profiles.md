@@ -16,7 +16,7 @@ feature: Grupos de control
 topic: Administración
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 4037e90926a19175c1508b78faf2c9167c682458
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 8%
@@ -103,4 +103,4 @@ Este perfil de productos incluye los siguientes permisos:
 
 | Capacidad | Permisos|
 |-|-|
-|Gestión de decisiones | <ul><li>**Administrar decisiones**: leer, crear, editar y eliminar entidades de decisión.</li><li>**Ver decisiones**: acceso de solo lectura a entidades de decisión.</li><li>**Administrar estrategias** de clasificación: leer, crear, editar y eliminar informes de mensajes personalizados y utilizar funciones de acción.</li><li>**Publicar decisiones**: aprobar o desaprobar actividades de toma de decisiones.</li></ul>|
+|Gestión de decisiones | <ul><li>**Administrar decisiones**: leer, crear, editar y eliminar entidades de decisión.</li><li>**Ver decisiones**: acceso de solo lectura a entidades de decisión.</li><li>**Administrar estrategias** de clasificación: leer, crear, editar y eliminar informes de mensajes personalizados y utilizar funciones de acción.</li><li>**Publicar decisiones**: activar o desactivar actividades de decisiones.</li></ul>|
