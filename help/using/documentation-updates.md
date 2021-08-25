@@ -1,7 +1,7 @@
 ---
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
-source-git-commit: 932a95691e80267a581072b3fa0b81ad108117a3
+source-git-commit: a80f9675741aeefa51857cf9fd47c5e7441229cd
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 14%
@@ -25,7 +25,7 @@ Esta página lista todas las actualizaciones de documentación de [!DNL Journey 
 * Se ha añadido una nueva sección para describir cómo recuperar direcciones de correo electrónico o dominios que se excluyeron de un envío porque no estaban en la lista de permitidos. [Más información](allow-list.md#reporting)
 * Se ha actualizado la sección Habilitar la lista de permitidos . [Más información](allow-list.md#enable-allow-list)
 * Se ha actualizado la sección Monitorizar ajustes preestablecidos de mensaje con los posibles motivos de error de creación preestablecidos y detalles sobre dichos errores. [Más información](configuration/message-presets.md#monitor-message-presets)
-* Se ha actualizado la sección Periodo de tiempo de reintento y se le ha cambiado el nombre para reflejar el hecho de que ahora puede ajustar la configuración de reintentos de correo electrónico en los ajustes preestablecidos de mensaje. [Más información](configuration/retries.md)
+* Se ha actualizado la sección Periodo de tiempo de reintento y se le ha cambiado el nombre para reflejar el hecho de que ahora puede ajustar la configuración de reintentos de correo electrónico en los ajustes preestablecidos de mensaje. [Más información](configuration/retries.md#retry-duration)
 * Se ha añadido una nueva sección para describir cómo insertar un vínculo de exclusión de un clic en el contenido del correo electrónico. [Más información](message-tracking.md#one-click-opt-out-link)
 <!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
 
