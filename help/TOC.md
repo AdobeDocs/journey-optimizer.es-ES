@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para ofrecer experiencias conectadas, contextuales y personalizadas a los clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4d3352184aac7fe19096c21650982e29506f2bff
+source-git-commit: 72f5ef1366fda47ae4341284a9aba8f0981cb6b0
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '698'
 ht-degree: 95%
 
 ---
@@ -89,7 +89,6 @@ ht-degree: 95%
       + [Espera](using/building-journeys/wait-activity.md)
       + [Lectura de segmento](using/building-journeys/read-segment.md)
       + [Mensaje](using/building-journeys/journeys-message.md)
-      + [Prueba de mensaje](using/building-journeys/journeys-message-test.md)
       + [Acciones personalizadas](using/building-journeys/using-custom-actions.md)
       + [Acciones de Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
       + [Salto](using/building-journeys/jump.md)
