@@ -11,23 +11,27 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-feature: Configuración de la aplicación
-topic: Administración
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 79c3c47eb6978f377bf4dc49f787e9a509aa3f61
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 2%
+source-wordcount: '313'
+ht-degree: 0%
 
 ---
 
 
 # Reintentos {#retries}
 
-Cuando un mensaje falla debido a un error temporal **Soft bounce** o **Ignored**, se realizan varios reintentos. Cada error aumenta un contador de errores. Cuando este contador alcanza el umbral de límite, la dirección se agrega a la lista de supresión.
+Cuando un mensaje de correo electrónico falla debido a un error temporal **Soft bounce** o **Ignored**, se realizan varios reintentos. Cada error aumenta un contador de errores. Cuando este contador alcanza el umbral de límite, la dirección se agrega a la lista de supresión.
 
-En la configuración predeterminada<!--so can you edit this setting or not?? contradictory information was given-->, el umbral se establece en tres errores:
+>[!NOTE]
+>
+>Obtenga más información sobre los tipos de errores en la sección [Tipos de errores de envío](../suppression-list.md#delivery-failures).
+
+En la configuración predeterminada, el umbral se establece en tres errores:
 
 * Para la misma entrega, en el tercer error encontrado, la dirección se suprime.
 
@@ -35,14 +39,26 @@ En la configuración predeterminada<!--so can you edit this setting or not?? con
 
 Si una entrega se realiza correctamente después de un reintento, el contador de errores de la dirección se reinicia.
 
-Puede modificar el umbral de límite mediante el botón **[!UICONTROL Edit]** del menú **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]**.<!--currently you can edit this in staging // now I see in UI: Suppression rule > Bounce days??? > 4-->
+Puede modificar el umbral de límite mediante el botón **[!UICONTROL Edit]** del menú **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]**.
 
 ![](../assets/retries-edition.png)
 
-## Duración del reintento del mensaje {#retry-duration}
+<!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
 
-Los reintentos se realizarán durante **3,5 días** desde el momento en que se agregó el mensaje a la cola de correo electrónico.
+## Período de tiempo de reintento {#retry-duration}
 
-El retardo mínimo entre reintentos y el número máximo de reintentos que se van a realizar es <!--managed by the Enhanced MTA,--> en función del rendimiento histórico y actual de una IP en un dominio determinado.
+El **periodo de tiempo de reintento** es el periodo en el que se reintentará cualquier mensaje de correo electrónico de la entrega que haya encontrado un error temporal o una devolución del mensaje.
 
-Después de 3,5 días, cualquier mensaje de la cola de reintentos se eliminará de la cola y se enviará de nuevo como una devolución.<!--???-->
+De forma predeterminada, los reintentos se realizan durante **3,5 días** (o **84 horas**) desde el momento en que se agregó el mensaje a la cola de correo electrónico.
+
+Sin embargo, para asegurarse de que los intentos de reintento ya no se realicen cuando ya no se necesiten, puede cambiar esta configuración según sus necesidades al crear o editar un [ajuste preestablecido de mensaje](message-presets.md) que se aplique al canal de correo electrónico.
+
+Por ejemplo, puede establecer el periodo de reintento en 24 horas para un correo electrónico transaccional relacionado con el restablecimiento de contraseña y que contenga un vínculo válido solo para un día. Del mismo modo, para una venta a medianoche, es posible que desee definir un periodo de reintento de 6 horas.
+
+>[!NOTE]
+>
+>El periodo de reintento no puede exceder las 84 horas. El periodo de reintento mínimo es de 6 horas para los correos electrónicos de marketing y 10 minutos para los correos electrónicos transaccionales.
+
+Aprenda a ajustar los parámetros de reintento de correo electrónico al crear un ajuste preestablecido de mensaje en [esta sección](message-presets.md#create-message-preset).
+
+<!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
