@@ -1,14 +1,14 @@
 ---
 title: Interfaz de usuario
 description: Interfaz de usuario de Journey Optimizer
-feature: Información general
-topic: Administración de contenido
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 91%
+source-wordcount: '1457'
+ht-degree: 68%
 
 ---
 
@@ -19,12 +19,10 @@ Una vez conectado a [Adobe Experience Cloud](http://experience.adobe.com), vaya 
 >[!NOTE]
 >
 >* Los conceptos clave al examinar la interfaz de usuario son habituales en Adobe Experience Platform. Consulte la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} para obtener más información.
-   >
-   >
-* Esta documentación se actualiza con frecuencia para reflejar los cambios recientes en la interfaz de usuario del producto. Sin embargo, algunas capturas de pantalla pueden diferir ligeramente de la interfaz de usuario que ve.
-   >
-   > 
-* Los componentes y las funciones disponibles en la IU dependen de los permisos y del paquete de licencias. Para cualquier pregunta, póngase en contacto con el administrador de éxito del cliente de Adobe.
+>
+>* Esta documentación se actualiza con frecuencia para reflejar los cambios recientes en la interfaz de usuario del producto. Sin embargo, algunas capturas de pantalla pueden diferir ligeramente de la interfaz de usuario que ve.
+>
+> * Los componentes y las funciones disponibles en la IU dependen de los permisos y del paquete de licencias. Para cualquier pregunta, póngase en contacto con el administrador de éxito del cliente de Adobe.
 
 
 ## Navegación izquierda
@@ -87,6 +85,9 @@ La página principal de [!DNL Journey Optimizer] contiene vínculos clave y recu
 
 * **[!UICONTROL Sandboxes]**: Adobe Experience Platform proporciona entornos limitados que dividen una sola instancia en entornos virtuales independientes para ayudarle a desarrollar aplicaciones de experiencia digital y hacer que evolucionen. [Más información](administration/sandboxes.md)
 
+<!--
+* **[!UICONTROL Alerts]** - The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
+-->
 
 ## Casos de uso dentro del producto
 
@@ -106,6 +107,139 @@ Haga clic en **[!UICONTROL View details]** para obtener más información acerca
 Haga clic en el botón **[!UICONTROL Begin]** para iniciar el caso de uso.
 
 Puede acceder a los casos de uso ejecutados desde el botón **[!UICONTROL View use case library]**.
+
+## Accesibilidad{#accessibility}
+
+Adobe Experience Platform proporciona las funciones de accesibilidad de Adobe Journey Optimizer:
+
+* Accesibilidad del teclado
+* Contraste de color
+* Validación de campos obligatorios
+
+[Obtenga más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} en la documentación de Adobe Experience Platform.
+
+Puede utilizar estos métodos abreviados del teclado comunes en Adobe Journey Optimizer:
+
+| Acción | Acceso directo |
+| --- | --- |
+| Desplazamiento entre elementos, secciones y grupos de menús de la interfaz de usuario | Tabulación |
+| Retroceder entre elementos, secciones y grupos de menús de la interfaz de usuario | Mayús + Tab |
+| Desplazarse dentro de las secciones para definir el enfoque en elementos individuales | Flecha |
+| Seleccionar o borrar un elemento que esté enfocado | Entrar o barra espaciadora |
+| Cancelar una selección, contraer un panel o cerrar un cuadro de diálogo | Esc |
+
+[Obtenga más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} en la documentación de Adobe Experience Platform.
+
+Puede utilizar estos métodos abreviados en partes específicas de Journey Optimizer:
+
+<table>
+  <thead>
+    <tr>
+      <th>Elemento de interfaz</th>
+      <th>Acción</th>
+      <th>Acceso directo</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Lista de recorridos, acciones, fuentes de datos o eventos</td>
+    <td>Crear un recorrido, una acción, una fuente de datos o un evento</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">lienzo de recorrido en estado de borrador</td>
+    <td>Añada una actividad de la paleta izquierda en la primera posición disponible, de arriba a abajo</td>
+    <td>Haga doble clic en la actividad</td>
+  </tr>
+  <tr>
+    <td>Seleccionar todas las actividades</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+  </tr>
+  <tr>
+    <td>Eliminar las actividades seleccionadas</td>
+    <td>Eliminar o Retroceso, a continuación, Intro para confirmar la eliminación</td>
+  </tr>
+  <tr>
+  <td rowspan="3">
+
+Panel de configuración de estos elementos:
+
+<ul>
+  <li>Actividad en un recorrido</li>
+  <li>Evento</li>
+  <li>Fuente de datos</li>
+  <li>Acción</li>
+</ul>
+
+</td>
+    <td>Mover al campo siguiente que se va a configurar</td>
+    <td>Tabulación</td>
+  </tr>
+  <tr>
+    <td>Guarde los cambios y cierre el panel de configuración</td>
+    <td>Entrar</td>
+  </tr>
+  <tr>
+    <td>Descartar cambios y cerrar el panel de configuración</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Recorrido en modo de prueba</td>
+    <td>Habilitar o deshabilitar el modo de prueba</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>Déclencheur de un evento en un recorrido basado en eventos</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
+
+Déclencheur de un evento en un recorrido basado en segmentos para el que la opción **[!UICONTROL Single profile at a time]** está activada
+
+</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>Mostrar los registros de prueba</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>Campo de texto</td>
+    <td>Seleccionar todo el texto del campo seleccionado</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Ventana emergente</td>
+    <td>Guarde los cambios o confirme la acción</td>
+    <td>Entrar</td>
+  </tr>
+  <tr>
+    <td>Cierre la ventana</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td>Editor de expresiones simples</td>
+    <td>Seleccionar y añadir un campo</td>
+    <td>Hacer doble clic en un campo</td>
+  </tr>
+  <tr>
+    <td>Navegación por campos XDM</td>
+    <td>Seleccionar todos los campos de un nodo</td>
+    <td>Seleccione el nodo principal</td>
+  </tr>
+  <tr>
+    <td>Vista previa de carga útil</td>
+    <td>Seleccione la carga útil</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+  </tr>
+</table>
 
 ## Buscar ayuda y asistencia
 
@@ -137,16 +271,17 @@ Para cambiar el idioma:
 * Seleccione el idioma que prefiera y haga clic en **Guardar**. Puede seleccionar un segundo idioma en caso de que el componente que esté utilizando no esté localizado en su primer idioma.
    ![](assets/select-language.png)
 
-## Buscar
+## Buscar{#unified-search}
 
-Desde la interfaz de Adobe Journey Optimizer, utilice la búsqueda de Adobe Experience Cloud en el centro de la barra superior para encontrar recursos, recorridos o mensajes en los entornos limitados. Empiece a introducir contenido para mostrar los resultados principales.
+Desde cualquier lugar de la interfaz de Adobe Journey Optimizer, utilice la función de búsqueda de Adobe Experience Cloud unificado en el centro de la barra superior para encontrar recursos, recorridos, conjuntos de datos, mensajes y mucho más en los entornos limitados.
+
+Empiece a introducir contenido para mostrar los resultados principales. Los artículos de ayuda sobre las palabras clave introducidas también se muestran en los resultados.
 
 ![](assets/unified-search.png)
 
-Pulse **Entrar** para acceder a todos los resultados y filtrar.
+Pulse **Enter** para acceder a todos los resultados y filtrar por objeto empresarial.
 
 ![](assets/search-and-filter.png)
-
 
 ## Filtrar listas{#section_lgm_hpz_pgb}
 
