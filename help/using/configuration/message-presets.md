@@ -1,13 +1,13 @@
 ---
 title: Crear ajustes preestablecidos de mensaje
 description: Obtenga información sobre cómo configurar y supervisar los ajustes preestablecidos de mensajes
-feature: Configuración de la aplicación
-topic: Administración
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
+source-git-commit: f52f73b1d7f2ad5a7ebd2e8b23b7c68c4dc99212
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '1206'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,8 @@ Con [!DNL Journey Optimizer], puede configurar ajustes preestablecidos de mensaj
 >[!CAUTION]
 >
 > * La configuración de los ajustes preestablecidos de mensaje está restringida a los administradores de Recorrido. [Más información](../administration/ootb-product-profiles.md#journey-administrator)
-   >
-   > 
-* Debe realizar pasos de configuración de correo electrónico y push antes de crear ajustes preestablecidos de mensaje.
+>
+> * Debe realizar pasos de configuración de correo electrónico y push antes de crear ajustes preestablecidos de mensaje.
 
 
 Una vez configurados los ajustes preestablecidos de mensaje, puede seleccionarlos al crear mensajes desde la lista **[!UICONTROL Presets]**.
@@ -57,7 +56,7 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
    * Seleccione el subdominio que desea utilizar para enviar los correos electrónicos. [Más información](about-subdomain-delegation.md)
    * Seleccione el grupo de IP que desea asociar al ajuste preestablecido. [Más información](ip-pools.md)
-   * Introduzca los parámetros de encabezado para los correos electrónicos enviados mediante el ajuste preestablecido.
+   * Introduzca los parámetros de encabezado para los correos electrónicos enviados mediante ese ajuste preestablecido.
 
       >[!CAUTION]
       >
@@ -81,8 +80,17 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
       >
       >Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto`.` y guión `-`.
 
+   * Configure los **parámetros de reintento de correo electrónico**. De forma predeterminada, el [periodo de reintento](retries.md#retry-duration) está establecido en 84 horas, pero puede ajustar esta configuración para adaptarla mejor a sus necesidades.
 
-1. Configure la **notificación push** configuración.
+      ![](../assets/preset-retry-paramaters.png)
+
+      Debe introducir un valor entero (en horas o minutos) dentro del siguiente intervalo:
+      * Para el tipo de correo electrónico de marketing, el periodo mínimo de reintentos es de 6 horas.
+      * Para el tipo de correo electrónico transaccional, el periodo mínimo de reintentos es de 10 minutos.
+      * Para ambos tipos de correo electrónico, el periodo de reintento máximo es de 84 horas (o 5040 minutos).
+
+
+1. Configure las opciones de **notificación push**.
 
    ![](../assets/preset-push.png)
 
@@ -110,13 +118,17 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
    * Verificación del grupo IP
    * Registro A/PTR, verificación del subdominio t/m/res
 
+   >[!NOTE]
+   >
+   >Si las comprobaciones no son correctas, obtenga más información sobre los posibles motivos del error en [esta sección](#monitor-message-presets).
+
 1. Una vez realizadas las comprobaciones correctamente, el ajuste preestablecido de mensaje obtiene el estado **[!UICONTROL Active]**. Está listo para utilizarse para enviar mensajes.
 
    <!-- later on, users will be notified in Pulse -->
 
    ![](../assets/preset-active.png)
 
-## Monitorización de mensajes preestablecidos
+## Monitorización de mensajes preestablecidos {#monitor-message-presets}
 
 Todos los ajustes preestablecidos de mensajes se muestran en el menú **[!UICONTROL Channels]** / **[!UICONTROL Message presets]**. Los filtros están disponibles para ayudarle a navegar por la lista (tipo de canal, usuario, estado).
 
@@ -129,6 +141,24 @@ Los ajustes preestablecidos de mensaje pueden tener los siguientes estados:
 * **[!UICONTROL Active]**: El ajuste preestablecido de mensaje se ha verificado y se puede seleccionar para crear mensajes.
 * **[!UICONTROL Failed]**: Se han producido errores en una o varias comprobaciones durante la verificación del ajuste preestablecido de mensaje.
 * **[!UICONTROL De-activated]**: El ajuste preestablecido de mensaje se desactiva. No se puede usar para crear nuevos mensajes.
+
+En caso de que falle la creación de un ajuste preestablecido de mensaje, a continuación se describen los detalles de cada posible motivo de error.
+
+Si se produce uno de estos errores, póngase en contacto con el [equipo de asistencia al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html?lang=es/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} para obtener ayuda.
+
+* **Error** de validación de SPF: SPF (Marco de Política del Remitente) es un protocolo de autenticación por correo electrónico que permite especificar direcciones IP autorizadas que pueden enviar correos electrónicos desde un subdominio determinado.
+El error de validación de SPF significa que las direcciones IP del registro de SPF no coinciden con las direcciones IP utilizadas para enviar correos electrónicos a los proveedores de buzones de correo.
+
+* **Error** en la validación de DKIM: DKIM permite que el servidor destinatario verifique que el mensaje recibido lo haya enviado el remitente original del dominio asociado y que el contenido del mensaje original no se haya modificado en su camino.
+El error de validación de DKIM significa que los servidores de correo receptores no pueden verificar la autenticidad del contenido del mensaje y su asociación con el dominio de envío.
+
+* **Error** en la validación del registro MX: El error de validación del registro MX significa que los servidores de correo responsables de aceptar correos electrónicos entrantes en nombre de un subdominio determinado no están correctamente configurados.
+
+* **Error** en las configuraciones de envío: El error en las configuraciones de capacidad de envío puede deberse a cualquiera de los siguientes motivos:
+   * Inclusión en la lista de bloqueados de las IP asignadas
+   * Nombre `helo` no válido
+   * Correos electrónicos que se envían desde direcciones IP distintas de las especificadas en el grupo IP del ajuste preestablecido correspondiente
+   * No se pueden enviar correos electrónicos a las bandejas de entrada de los principales ISP, como Gmail y Yahoo
 
 ## Editar ajustes preestablecidos de mensaje
 
