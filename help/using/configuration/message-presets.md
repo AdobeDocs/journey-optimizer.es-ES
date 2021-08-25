@@ -5,7 +5,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: f52f73b1d7f2ad5a7ebd2e8b23b7c68c4dc99212
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 1%
@@ -146,11 +146,9 @@ En caso de que falle la creación de un ajuste preestablecido de mensaje, a cont
 
 Si se produce uno de estos errores, póngase en contacto con el [equipo de asistencia al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html?lang=es/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} para obtener ayuda.
 
-* **Error** de validación de SPF: SPF (Marco de Política del Remitente) es un protocolo de autenticación por correo electrónico que permite especificar direcciones IP autorizadas que pueden enviar correos electrónicos desde un subdominio determinado.
-El error de validación de SPF significa que las direcciones IP del registro de SPF no coinciden con las direcciones IP utilizadas para enviar correos electrónicos a los proveedores de buzones de correo.
+* **Error** de validación de SPF: SPF (Marco de Política del Remitente) es un protocolo de autenticación por correo electrónico que permite especificar direcciones IP autorizadas que pueden enviar correos electrónicos desde un subdominio determinado. El error de validación de SPF significa que las direcciones IP del registro de SPF no coinciden con las direcciones IP utilizadas para enviar correos electrónicos a los proveedores de buzones de correo.
 
-* **Error** en la validación de DKIM: DKIM permite que el servidor destinatario verifique que el mensaje recibido lo haya enviado el remitente original del dominio asociado y que el contenido del mensaje original no se haya modificado en su camino.
-El error de validación de DKIM significa que los servidores de correo receptores no pueden verificar la autenticidad del contenido del mensaje y su asociación con el dominio de envío.
+* **Error** en la validación de DKIM: DKIM permite que el servidor destinatario verifique que el mensaje recibido lo haya enviado el remitente original del dominio asociado y que el contenido del mensaje original no se haya modificado en su camino. El error de validación de DKIM significa que los servidores de correo receptores no pueden verificar la autenticidad del contenido del mensaje y su asociación con el dominio de envío.
 
 * **Error** en la validación del registro MX: El error de validación del registro MX significa que los servidores de correo responsables de aceptar correos electrónicos entrantes en nombre de un subdominio determinado no están correctamente configurados.
 
