@@ -5,9 +5,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: c54e4443c0a8b6c2e427fa007adf5d800b2ba3b5
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '397'
 ht-degree: 1%
 
 ---
@@ -62,4 +62,4 @@ Los widgets **[!UICONTROL Bounce Reasons]** y **[!UICONTROL Bounce categories]**
 >
 >Los perfiles con estado **[!UICONTROL Suppressed]** o **[!UICONTROL Not allowed]** se excluyen durante el proceso de envío de mensajes. Por lo tanto, mientras que los **informes de Recorrido** mostrarán estos perfiles como si se hubieran movido a través del recorrido ([Leer segmento](../building-journeys/read-segment.md) y [Mensaje](../building-journeys/journeys-message.md)), los **Informes de correo electrónico** no los incluirán en las métricas **[!UICONTROL Sent]** ya que se filtrarán antes de enviarlos por correo electrónico.
 >
->Obtenga más información sobre la [lista de supresión](../suppression-list.md) y la [Lista de permitidos](../allow-list.md). Para averiguar el motivo de todos los casos de exclusión, puede utilizar el [Servicio de consulta de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html).
+>Obtenga más información sobre la [lista de supresión](../suppression-list.md) y la [Lista de permitidos](../allow-list.md). Para averiguar el motivo de todos los casos de exclusión, puede utilizar el [Servicio de consulta de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
