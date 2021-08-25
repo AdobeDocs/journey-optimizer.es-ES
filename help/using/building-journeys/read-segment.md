@@ -1,14 +1,14 @@
 ---
 title: Uso de segmentos en un recorrido
 description: Aprenda a utilizar un segmento en un recorrido
-feature: Recorridos
-topic: Administración de contenido
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
+source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 5%
+source-wordcount: '997'
+ht-degree: 4%
 
 ---
 
@@ -62,7 +62,7 @@ Los pasos para configurar la actividad Leer segmento son los siguientes:
 
    >[!NOTE]
    >
-   >La tasa de regulación global por simulador de pruebas se establece en 17 000 mensajes por segundo. Por lo tanto, la tasa de regulación de todos los segmentos de lectura que se ejecutan simultáneamente en el mismo entorno limitado suman como máximo 17 000 mensajes por segundo. No puede modificar este límite.
+   >La tasa de regulación global por simulador de pruebas se establece en 20 000 mensajes por segundo. Por lo tanto, la tasa de regulación de todos los segmentos de lectura que se ejecutan simultáneamente en el mismo simulador de pruebas suman como máximo 20 000 mensajes por segundo. No puede modificar este límite.
 
 1. La actividad **[!UICONTROL Read Segment]** le permite especificar la hora a la que el segmento ingresará al recorrido. Para ello, haga clic en el enlace **[!UICONTROL Edit journey schedule]** para acceder a las propiedades del recorrido y, a continuación, configure el campo **[!UICONTROL Scheduler type]**.
 
