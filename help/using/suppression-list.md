@@ -1,14 +1,14 @@
 ---
 title: Lista de supresión
 description: Aprenda qué es la lista de supresión, su propósito y qué se incluye en ella.
-feature: Capacidad de entrega
-topic: Administración de contenido
+feature: Deliverability
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: ea2bb0c2956781138a0c7f2d0babfd91070dd351
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 4%
+source-wordcount: '697'
+ht-degree: 2%
 
 ---
 
@@ -36,9 +36,11 @@ Las direcciones de correo electrónico se añaden a la lista de supresión de la
 
 * Todas las **rechazos graves** y **quejas por correo no deseado** envían automáticamente las direcciones de correo electrónico correspondientes a la lista de supresión tras una sola incidencia.
 
-* **Los** rechazos leves y los  **** ignorantes temporales no envían inmediatamente una dirección de correo electrónico a la lista de supresión, sino que se suman a un contador de errores. A continuación, se realizan varios reintentos y, cuando el contador de errores alcanza el umbral, la dirección se añade a la lista de supresión. Obtenga más información sobre [reintentos](configuration/retries.md).
+* **Los** <!--and temporary **ignored** errors--> rechazos leves no envían inmediatamente una dirección de correo electrónico a la lista de supresión, sino que se suman a un contador de errores. A continuación, se realizan varios [reintentos](configuration/retries.md) y, cuando el contador de errores alcanza el umbral, la dirección se agrega a la lista de supresión.
 
-<!--You can also manually add an address to the suppression list. Manual category will be available when ability to manually add an address to the suppression list (via API) is released.-->
+* También puede [**manualmente** agregar una dirección o un dominio](configuration/manage-suppression-list.md#add-addresses-and-domains) a la lista de supresión.
+
+Obtenga más información sobre los rechazos graves y los rechazos leves en [esta sección](#delivery-failures).
 
 >[!NOTE]
 >
@@ -49,17 +51,23 @@ Para cada dirección, el motivo básico de la supresión y la categoría de supr
 
 <!--Once a message is sent, the message logs allow you to view the delivery status for each recipient and the associated failure type and reason. [Learn more about monitoring message execution](monitoring.md). NO ACCESS TO LOGS YET-->
 
-### Errores de envío {#delivery-failures}
+>[!NOTE]
+>
+>Los perfiles con estado **[!UICONTROL Suppressed]** se excluyen durante el proceso de envío de mensajes. Por lo tanto, mientras que los **informes de Recorrido** mostrarán estos perfiles como si se hubieran movido a través del recorrido ([Leer segmento](building-journeys/read-segment.md) y [Mensaje](building-journeys/journeys-message.md)), los **Informes de correo electrónico** no los incluirán en las métricas **[!UICONTROL Sent]** ya que se filtrarán antes de enviarlos por correo electrónico.
+>
+>Obtenga más información sobre [Live Report](reports/live-report.md) y [Global Report](reports/global-report.md). Para averiguar el motivo de todos los casos de exclusión, puede utilizar el [Servicio de consulta de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html).
 
-Existen tres tipos de errores cuando falla una entrega:
+### Errores de entrega {#delivery-failures}
 
-* **Rechazo** duro. Un rechazo grave indica una dirección de correo electrónico no válida (es decir, una dirección de correo electrónico que no existe). Esto implica un mensaje de rechazo del servidor de correo electrónico receptor que indica explícitamente que la dirección no es válida, como &quot;usuario desconocido&quot;.
+Existen dos tipos de errores cuando falla una entrega:
+
+* **Rechazo** duro. Un rechazo grave indica una dirección de correo electrónico no válida (es decir, una dirección de correo electrónico que no existe). Esto implica un mensaje de rechazo del servidor de correo electrónico receptor que indica explícitamente que la dirección no es válida.
 * **Rechazo suave**. Se trata de una devolución temporal de correo electrónico que se produjo para una dirección de correo electrónico válida.
-* **Ignorado**. Se trata de una devolución de correo electrónico que se produjo para una dirección de correo electrónico válida pero que se sabe que es temporal, como un intento de conexión fallido, un problema temporal relacionado con el correo no deseado (reputación de correo electrónico) o un problema técnico temporal.<!--does it exist in CJM?-->
+<!--* **Ignored**. This is an email bounce that occurred for a valid email address but is known to be temporary, such as a failed connection attempt, a temporary Spam-related issue (email reputation), or a temporary technical issue.-->
 
 Un **rechazo grave** agrega automáticamente la dirección de correo electrónico a la lista de supresión.
 
-Un **rechazo leve** o un error **ignorado** que ocurre demasiadas veces también envía la dirección de correo electrónico a la lista de supresión después de varios reintentos. [Más información sobre los reintentos](configuration/retries.md)
+Un **rechazo suave** <!--or an **ignored** error--> que ocurre demasiadas veces también envía la dirección de correo electrónico a la lista de supresión después de varios reintentos. [Más información sobre los reintentos](configuration/retries.md)
 
 Si continúa enviando direcciones a estas, puede afectar a las tasas de envío, ya que indica a los ISP que puede que no siga las prácticas recomendadas de mantenimiento de la lista de direcciones de correo electrónico y, por lo tanto, puede que no sea un remitente fiable.
 
