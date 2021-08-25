@@ -1,9 +1,9 @@
 ---
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
-source-git-commit: ff48c78cfa5c48f32073e9df1f126504e291ab5a
+source-git-commit: 77d392cc09bd0923faf3d27e951a17cd702d257c
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '964'
 ht-degree: 11%
 
 ---
@@ -124,7 +124,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 **Personalización**
 
-* **Editor de expresiones** : ahora puede añadir fácilmente un valor alternativo al definir la personalización: cuando el campo de personalización está vacío para un perfil, se muestra el valor de reserva. [Más información](documentation-updates.md)
+<!--* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
 
 **Configuración de correo electrónico**
 
