@@ -1,14 +1,14 @@
 ---
 title: Administración de la exclusión
 description: Obtenga información sobre cómo administrar la exclusión y la privacidad
-feature: Recorridos
-topic: Administración de contenido
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8798d73ace981c44ef896ac6983b50a14286eb57
+source-git-commit: cdc0909a296799c5c60e854474a23750cf7b1b2f
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 90%
+source-wordcount: '814'
+ht-degree: 80%
 
 ---
 
@@ -36,6 +36,8 @@ Proporcionar a los destinatarios la capacidad de cancelar su suscripción a la r
 Por lo tanto, siempre debe incluir un **enlace para cancelar la suscripción** en cada correo electrónico enviado a los destinatarios:
 * Al hacer clic en este vínculo, los destinatarios se dirigen a una página de aterrizaje que incluye un botón para confirmar la exclusión.
 * Al hacer clic en el botón de exclusión, se realiza una llamada de Adobe I/O para actualizar los datos de perfil con esta información. [Obtenga más información relacionada](#consent-service-api).
+
+### Añadir un vínculo de cancelación de suscripción {#add-unsubscribe-link}
 
 Para añadir un vínculo para cancelar la suscripción, siga los pasos a continuación:
 
@@ -87,7 +89,7 @@ En la pestaña **[!UICONTROL Attributes]**, puede ver que el valor de **[!UICONT
 
 <!--The opt-out URL is resolved upon each recipient receiving the message. It is then personalized with the relevant encrypted parameters (profile ID, profile name, journey ID, sandbox ID, and message execution ID).-->
 
-## Llamada de API de exclusión {#opt-out-api}
+### Llamada de API de exclusión {#opt-out-api}
 
 Una vez que el destinatario ha optado por darse de baja haciendo clic en el vínculo para cancelar la suscripción, se llama a una API de Adobe I/O <!--Consent service API to capture the encrypted data and--> para actualizar la preferencia del perfil correspondiente.
 
@@ -129,6 +131,14 @@ Cuerpo de la solicitud:
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice.
 <!--and provide an answer back to the landing page.-->
+
+## Opción de exclusión de un clic {#one-click-opt-out}
+
+A medida que muchos clientes buscan un proceso más sencillo para darse de baja, también puede añadir un vínculo de exclusión de un solo clic en el contenido del correo electrónico. Este vínculo permite a los destinatarios cancelar rápidamente la suscripción a sus comunicaciones, sin ser redirigidos a una página de aterrizaje en la que tengan que confirmar la exclusión.
+
+Aprenda a añadir un vínculo de no participación al contenido del mensaje en [esta sección](message-tracking.md#one-click-opt-out-link).
+
+Una vez que el mensaje se envía a través de un [recorrido](building-journeys/journey.md), si un destinatario hace clic en el vínculo de exclusión, se le excluye inmediatamente.
 
 ## Vínculo de cancelación de suscripción en el encabezado {#unsubscribe-email}
 
