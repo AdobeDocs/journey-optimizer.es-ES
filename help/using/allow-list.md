@@ -5,9 +5,9 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 2edb3535c50f83d18ce4d6429a6d76f44b694ac6
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '560'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ Cuando la lista de permitidos es **no está vacía**, se aplica la lógica de li
 
 ## Informes de exclusión {#reporting}
 
-Cuando esta función está habilitada en un simulador para pruebas que no sean de producción, puede recuperar direcciones de correo electrónico o dominios que se excluyeron de un envío porque no estaban en la lista de permitidos. Para ello, puede utilizar el [servicio de consulta de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) para realizar las llamadas de API que se indican a continuación.
+Cuando esta función está habilitada en un simulador para pruebas que no sean de producción, puede recuperar direcciones de correo electrónico o dominios que se excluyeron de un envío porque no estaban en la lista de permitidos. Para ello, puede utilizar el [servicio de consulta de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;} para realizar las llamadas de API que se indican a continuación.
 
 Para obtener el **número de correos electrónicos** que no se enviaron porque los destinatarios no estaban en la lista de permitidos, utilice la siguiente consulta:
 
