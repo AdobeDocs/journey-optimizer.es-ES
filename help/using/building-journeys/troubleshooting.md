@@ -1,14 +1,14 @@
 ---
 title: Solución de problemas del recorrido
 description: Obtenga información sobre cómo solucionar errores en recorridos
-feature: Recorridos
-topic: Administración de contenido
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 85%
+source-wordcount: '1040'
+ht-degree: 84%
 
 ---
 
@@ -61,7 +61,7 @@ A continuación se indican algunas cosas que el administrador debe comprobar:
 * ¿Su carga útil de evento contiene un ID de evento?
 * ¿Ha marcado la dirección URL correcta?
 * ¿Ha seguido la estructura de carga útil de las API de inserción de flujo, utilizando la previsualización de estructura de carga útil del panel de configuración de evento? Consulte [esta página](../event/about-creating.md#preview-the-payload).
-* ¿Utilizó los pares clave/valor correctos en el encabezado del evento?
+* ¿Utilizó los pares clave-valor correctos en el encabezado del evento?
 
    ```
    X-gw-ims-org-id - your ORGID
