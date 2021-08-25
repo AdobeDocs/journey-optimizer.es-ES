@@ -1,13 +1,14 @@
 ---
 title: Introducción a la configuración push
 description: Comprender el flujo de datos y los componentes de las notificaciones push
-feature: Configuración de aplicación, push
+topic: Mobile
+feature: Push
 role: Admin
 level: Intermediate
-source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
+source-git-commit: 10453c86768b2dbe8bc7956cd409da238895d8ab
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '794'
+ht-degree: 2%
 
 ---
 
@@ -48,7 +49,7 @@ En el siguiente gráfico se muestran los sistemas y servicios implicados en los 
 
 * **Adobe Experience Platform Mobile** SDK, que proporciona API de integración del lado del cliente para sus móviles mediante SDK compatibles con Android y iOS. El SDK proporciona una extensión [!DNL Adobe Journey Optimizer] que expone una variedad de API específicas para la mensajería push y permite el flujo de datos, como registrar el token push o enviar eventos de seguimiento push o cualquier otro evento de experiencia personalizado a Adobe Experience Platform. El SDK también proporciona otras extensiones que habilitan otras funcionalidades de Adobe Experience Cloud, así como de socios de terceros.
 
-   La integración del SDK también requiere la configuración de servicios de [Recopilación de datos](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=es){target=&quot;_blank&quot;} de Adobe Experience Platform, como:
+   La integración del SDK también requiere la configuración de servicios de [Recopilación de datos](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html){target=&quot;_blank&quot;} de Adobe Experience Platform, como:
 
    * Creación de un conjunto de datos para configurar los conjuntos de datos de evento de perfil y experiencia con los que los datos fluyen a Adobe Experience Platform
    * Creación de una propiedad móvil del lado del cliente y adición de extensiones. El SDK se integra estrechamente con estas extensiones para ofrecer una experiencia de recopilación de datos perfecta.
