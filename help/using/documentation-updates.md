@@ -1,10 +1,10 @@
 ---
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
-source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
+source-git-commit: 50c3dfe4f756e7c6e8f210dc9d3f615965c3a053
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 17%
+source-wordcount: '406'
+ht-degree: 14%
 
 ---
 
@@ -13,8 +13,26 @@ ht-degree: 17%
 
 Esta página lista todas las actualizaciones de documentación de [!DNL Journey Optimizer].
 
+## Agosto de 2021
+
+* Todas las nuevas funciones y mejoras incluidas en la versión del [!DNL Journey Optimizer] 21 de agosto se han detallado en la documentación. [Más información](release-notes.md)
+* Se han actualizado los permisos de administración de decisiones. [Más información](administration/ootb-product-profiles.md)
+* Capturas de pantalla de Diseñador de correo electrónico actualizadas con la IU más reciente.
+* Se ha actualizado el procedimiento de configuración para acciones personalizadas con rutas URL dinámicas y encabezados dinámicos. [Más información](action/about-custom-action-configuration.md#url-configuration)
+* Se ha añadido una sección sobre las funciones de accesibilidad y los métodos abreviados de teclado. [Más información](user-interface.md#accessibility)
+* Se ha añadido una sección sobre métodos de evaluación de segmentos. [Más información](segment/about-segments.md#evaluation-method-in-journey-optimizer)
+* Se han agregado notas a las secciones Lista de supresión, Lista de permitidos y Correo electrónico global/activo para especificar que los perfiles con estados Suprimido y No permitido se excluyen de las métricas Informe de correo electrónico enviado . [Más información](reports/email-global-report.md)
+* Se ha añadido una nueva sección para describir cómo recuperar direcciones de correo electrónico o dominios que se excluyeron de un envío porque no estaban en la lista de permitidos. [Más información](allow-list.md#reporting)
+* Se ha actualizado la sección Habilitar la lista de permitidos . [Más información](allow-list.md#enable-allow-list)
+* Se ha actualizado la sección Monitorizar ajustes preestablecidos de mensaje con los posibles motivos de error de creación preestablecidos y detalles sobre dichos errores. [Más información](configuration/message-presets.md#monitor-message-presets)
+* Se ha actualizado la sección Periodo de tiempo de reintento y se le ha cambiado el nombre para reflejar el hecho de que ahora puede ajustar la configuración de reintentos de correo electrónico en los ajustes preestablecidos de mensaje. [Más información](configuration/retries.md)
+* Se ha añadido una nueva sección para describir cómo insertar un vínculo de exclusión de un clic en el contenido del correo electrónico. [Más información](message-tracking.md#one-click-opt-out-link)
+<!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+
+
 ## Julio de 2021
 
+* Todas las nuevas funciones y mejoras incluidas en la versión del [!DNL Journey Optimizer] 21 de julio se han detallado en la documentación. [Más información](release-notes.md)
 * Se han agregado vínculos directos a la documentación de servicios de Experience Platform en la página de inicio y la tabla de contenido de [!DNL Journey Optimizer]
 * Nuevas páginas de aterrizaje para servicios de Experience Platform disponibles en [!DNL Journey Optimizer]
 * Se agregaron vínculos a la descripción del producto [!DNL Journey Optimizer] en la página principal
