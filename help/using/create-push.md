@@ -1,14 +1,14 @@
 ---
 title: Configuración de una notificación push
 description: Obtenga información sobre cómo crear una notificación push en Journey Optimizer
-feature: Información general
-topic: Administración de contenido
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 12%
+source-wordcount: '1192'
+ht-degree: 13%
 
 ---
 
@@ -82,7 +82,7 @@ Una notificación push silenciosa (o notificación en segundo plano) es una inst
 
 Seleccione la opción **[!UICONTROL Silent Notification]** para notificar a la aplicación de forma silenciosa: en este caso, la notificación se transfiere directamente a la solicitud. No se muestra ninguna alerta en la pantalla del dispositivo.
 
-Utilice la sección **[!UICONTROL Custom data]** para añadir pares clave/valor.
+Utilice la sección **[!UICONTROL Custom data]** para agregar pares clave-valor.
 
 ## Datos personalizados
 
@@ -113,5 +113,5 @@ Puede configurar **[!UICONTROL Advanced options]** para la notificación push. A
 
 * [Configurar el canal push](push-gs.md)
 * [Crear un nuevo mensaje](create-message.md)
-* [Añadir un mensaje en un recorrido](building-journeys/journeys-message.md)
+* [Adición de un mensaje en un recorrido](building-journeys/journeys-message.md)
 
