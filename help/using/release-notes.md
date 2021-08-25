@@ -1,9 +1,9 @@
 ---
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
-source-git-commit: 77d392cc09bd0923faf3d27e951a17cd702d257c
+source-git-commit: cd077b6f1fd5c81955aec2475dfd8b52aeb23422
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '963'
 ht-degree: 11%
 
 ---
@@ -79,7 +79,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <tr>
 <td>
 <p>Ahora puede definir el periodo de reintento por ajuste preestablecido para garantizar que los intentos de reintento ya no se realicen cuando ya no se necesiten. Por ejemplo, puede establecer el periodo de reintento en 24 horas para un mensaje transaccional de restablecimiento de contraseña que contenga un vínculo válido solo para un día. Tenga en cuenta que la configuración de reintentos solo se aplica al canal de correo electrónico.</p>
-<p>Para obtener más información, consulte la <a href="configuration/retries.md">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="configuration/retries.md#retry-duration">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -122,9 +122,9 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 * **Fondo** : las imágenes de fondo ahora se admiten en la vista previa en vivo. [Más información](preview.md)
 * **Vínculo de no participación de un clic** : Puede insertar un nuevo tipo de vínculo en el contenido del correo electrónico: el  **desenlace de** exclusión permite a los usuarios cancelar la suscripción para recibir sus comunicaciones con solo un clic, sin ser redirigido a una página de aterrizaje para confirmar la exclusión. [Más información](message-tracking.md#one-click-opt-out-link)
 
-**Personalización**
+<!--**Personalization**
 
-<!--* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
+* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
 
 **Configuración de correo electrónico**
 
