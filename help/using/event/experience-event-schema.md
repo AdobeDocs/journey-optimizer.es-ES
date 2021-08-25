@@ -1,13 +1,13 @@
 ---
 title: Esquemas de ExperienceEvent para eventos de recorrido
 description: Obtenga información sobre los esquemas de ExperienceEvent para eventos de recorrido
-feature: Esquemas
-topic: Administración
+feature: Schemas
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e965372e3640b92f672bf03098c8e4fb487dfc7d
+source-git-commit: 96615a580b2211ea94522e94ba867a309e127ae3
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -72,14 +72,14 @@ Este es el esquema de compra con la relación definida en el campo ID del produc
 
 En Journey Optimizer, puede aprovechar todos los campos de las tablas vinculadas:
 
-* al configurar un evento unitario, [Más información](../event/experience-event-schema.md#unitary_event_configuration)
+* al configurar un evento empresarial o unitario, [Más información](../event/experience-event-schema.md#unitary_event_configuration)
 * cuando se usan condiciones en un recorrido, [Más información](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * en la personalización de mensajes, [Más información](../event/experience-event-schema.md#message_personalization)
 * en la personalización de acciones personalizadas, [Más información](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
-### Configuración de eventos unitarios{#unitary_event_configuration}
+### Configuración de eventos{#unitary_event_configuration}
 
-Los campos de esquema vinculados están disponibles en la configuración de evento unitario:
+Los campos de esquema vinculados están disponibles en la configuración unitaria y de evento empresarial:
 
 * al navegar por los campos de esquema de evento en la pantalla de configuración de evento.
 * al definir una condición para eventos generados por el sistema.
@@ -90,7 +90,6 @@ Los campos vinculados no están disponibles:
 
 * en la fórmula de clave de evento
 * en la condición de id de evento (eventos basados en reglas)
-* en eventos empresariales (próximamente)
 
 Para aprender a configurar un evento unitario, consulte esta [página](../event/about-creating.md).
 
