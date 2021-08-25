@@ -1,14 +1,14 @@
 ---
 title: 'Fuentes de datos externas '
 description: Obtenga información sobre cómo configurar fuentes de datos externas
-feature: Fuentes de datos
-topic: Administración
+feature: Data Sources
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e6d8d8ee637008a886ca308b5b0d9d53d90b11ce
+source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 98%
+source-wordcount: '1269'
+ht-degree: 92%
 
 ---
 
@@ -114,10 +114,10 @@ Definición del extremo al que se va a llamar para generar el token de acceso:
 
 * extremo: dirección URL que se utilizará para generar el extremo
 * método de la petición HTTP en el extremo (GET o POST)
-* encabezados: pares clave/de valor que se insertarán como encabezados en esta llamada, si es necesario
-* cuerpo: describe el cuerpo de la llamada si el método es POST. Apoyamos una estructura de cuerpo limitada, definida en bodyParams (pares clave/de valor). bodyType describe el formato y la codificación del cuerpo en la llamada:
-   * &#39;form&#39;: lo que significa que el tipo de contenido será application/x-www-form-urlencoded (charset UTF-8) y que los pares clave/valor se serializarán tal cual: key1=value1&amp;key2=value2&amp;...
-   * &#39;json&#39;: lo que significa que el tipo de contenido será application/json (charset UTF-8) y que los pares de valor clave se serializarán como un objeto json tal y como está: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+* encabezados: pares de clave-valor que se insertarán como encabezados en esta llamada si es necesario
+* cuerpo: describe el cuerpo de la llamada si el método es POST. Apoyamos una estructura de cuerpo limitada, definida en bodyParams (pares clave-valor). bodyType describe el formato y la codificación del cuerpo en la llamada:
+   * &#39;formulario&#39;: lo que significa que el tipo de contenido será application/x-www-form-urlencoded (charset UTF-8) y que los pares clave-valor se serializarán tal cual: key1=value1&amp;key2=value2&amp;...
+   * &#39;json&#39;: lo que significa que el tipo de contenido será application/json (charset UTF-8) y que los pares clave-valor se serializarán como un objeto json tal y como está: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 Definición de la forma en que se debe insertar el token de acceso en la petición HTTP de la acción:
 
