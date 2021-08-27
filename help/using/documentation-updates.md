@@ -1,10 +1,10 @@
 ---
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
-source-git-commit: a80f9675741aeefa51857cf9fd47c5e7441229cd
+source-git-commit: 7742f2eb199fe0fbb57fa95e22bb464f8cd5c663
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 14%
+source-wordcount: '425'
+ht-degree: 13%
 
 ---
 
@@ -27,6 +27,8 @@ Esta página lista todas las actualizaciones de documentación de [!DNL Journey 
 * Se ha actualizado la sección Monitorizar ajustes preestablecidos de mensaje con los posibles motivos de error de creación preestablecidos y detalles sobre dichos errores. [Más información](configuration/message-presets.md#monitor-message-presets)
 * Se ha actualizado la sección Periodo de tiempo de reintento y se le ha cambiado el nombre para reflejar el hecho de que ahora puede ajustar la configuración de reintentos de correo electrónico en los ajustes preestablecidos de mensaje. [Más información](configuration/retries.md#retry-duration)
 * Se ha añadido una nueva sección para describir cómo insertar un vínculo de exclusión de un clic en el contenido del correo electrónico. [Más información](message-tracking.md#one-click-opt-out-link)
+* Se ha actualizado la sección Delegar un subdominio con información más detallada sobre el proceso de validación realizado por el Adobe. [Más información](configuration/delegate-subdomain.md#subdomain-validation)
+
 <!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
 
 
