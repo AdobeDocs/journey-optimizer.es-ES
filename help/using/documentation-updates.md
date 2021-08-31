@@ -1,9 +1,9 @@
 ---
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
-source-git-commit: 7742f2eb199fe0fbb57fa95e22bb464f8cd5c663
+source-git-commit: 61c6f63d8a61b3cdc0f08f7c9b2323cc4710eb88
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '455'
 ht-degree: 13%
 
 ---
@@ -28,8 +28,8 @@ Esta página lista todas las actualizaciones de documentación de [!DNL Journey 
 * Se ha actualizado la sección Periodo de tiempo de reintento y se le ha cambiado el nombre para reflejar el hecho de que ahora puede ajustar la configuración de reintentos de correo electrónico en los ajustes preestablecidos de mensaje. [Más información](configuration/retries.md#retry-duration)
 * Se ha añadido una nueva sección para describir cómo insertar un vínculo de exclusión de un clic en el contenido del correo electrónico. [Más información](message-tracking.md#one-click-opt-out-link)
 * Se ha actualizado la sección Delegar un subdominio con información más detallada sobre el proceso de validación realizado por el Adobe. [Más información](configuration/delegate-subdomain.md#subdomain-validation)
-
-<!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+* Se ha añadido una sección para describir cómo agregar manualmente direcciones de correo electrónico y dominios a la lista de supresión. [Más información](configuration/manage-suppression-list.md#add-addresses-and-domains)
+* Se han actualizado las secciones [Acceso a la lista de supresión](configuration/manage-suppression-list.md#access-suppression-list) y [Reintentos](configuration/retries.md) para reflejar la nueva interfaz de usuario.
 
 
 ## Julio de 2021
@@ -44,9 +44,9 @@ Esta página lista todas las actualizaciones de documentación de [!DNL Journey 
 * Se ha añadido una subsección en las páginas espejo. [Más información](message-tracking.md#mirror-page)
 * Se ha cambiado el nombre de &quot;actividades de oferta&quot; por &quot;decisiones&quot; y &quot;decisiones&quot; por &quot;ámbitos de decisión&quot; en la documentación y las pantallas. [Más información](offers/get-started/starting-offer-decisioning.md)
 * Nuevo caso de uso: [personalizar un mensaje con funciones de ayuda](personalization/personalization-use-case-helper-functions.md)
-* La documentación Leer segmento se ha actualizado para reflejar los impactos materializados en el segmento. [Más información](building-journeys/read-segment.md)
+* Se ha actualizado la documentación Leer segmento para reflejar los impactos materializados en el segmento. [Más información](building-journeys/read-segment.md)
 * Se han actualizado las limitaciones de Recorrido. [Más información](building-journeys/limitations.md)
-* Se ha actualizado la sección &quot;Configurar la selección de ofertas en decisiones&quot;. [Más información](offers/offer-activities/configure-offer-selection.md)
+* Se ha actualizado la sección Configurar ofertas en la sección de decisiones. [Más información](offers/offer-activities/configure-offer-selection.md)
 * Se ha añadido una advertencia para indicar que las ofertas basadas en eventos no son compatibles actualmente. [Más información](offers/offer-library/creating-personalized-offers.md#eligibility)
-* Se ha documentado la nueva pestaña [!UICONTROL Overview] de Administración de decisiones. [Más información](offers/get-started/user-interface.md#overview)
+* Se ha documentado la nueva pestaña **[!UICONTROL Overview]** de Administración de decisiones. [Más información](offers/get-started/user-interface.md#overview)
 * Se han añadido nuevas secciones para describir las acciones disponibles en las listas de ofertas y decisiones: [Lista de ofertas](offers/offer-library/creating-personalized-offers.md#offer-list) y [Lista de decisiones](offers/offer-activities/create-offer-activities.md#decision-list).
