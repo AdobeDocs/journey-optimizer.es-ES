@@ -1,13 +1,13 @@
 ---
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
-source-git-commit: 1c299ec022a3985c2e9b164bc57d36948f0941d5
+exl-id: 06fa956a-b500-416e-9d42-b683c328e837
+source-git-commit: 3ca2d7a8a3a55cd7caad86d72a2ac2fa9f5b315c
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1071'
 ht-degree: 11%
 
 ---
-
 
 # Notas de la versión {#release-notes}
 
@@ -140,9 +140,9 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 * **Fondo** : las imágenes de fondo ahora se admiten en la vista previa en vivo. [Más información](preview.md)
 * **Vínculo de no participación de un clic** : Puede insertar un nuevo tipo de vínculo en el contenido del correo electrónico: el  **desenlace de** exclusión permite a los usuarios cancelar la suscripción para recibir sus comunicaciones con solo un clic, sin ser redirigido a una página de aterrizaje para confirmar la exclusión. [Más información](message-tracking.md#one-click-opt-out-link)
 
-<!--**Personalization**
+**Personalización**
 
-* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
+* **Editor de expresiones** : ahora puede añadir fácilmente un valor alternativo al definir la personalización: cuando el campo de personalización está vacío para un perfil, se muestra el valor de reserva. [Más información](personalization/functions/helpers.md)
 
 **Configuración de correo electrónico**
 
@@ -225,4 +225,3 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 * Ya está implementada la localización en el carril de la oferta dentro del Editor de expresiones.
 * Se ha corregido un espaciado incorrecto en las ventanas emergentes de información.
 * Se ha corregido un problema en el Diseñador de correo electrónico al cargar un archivo HTML en el que la hoja de estilo interna con propiedad `background-image` no era compatible.
-
