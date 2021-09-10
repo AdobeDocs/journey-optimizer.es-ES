@@ -1,13 +1,13 @@
 ---
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
-source-git-commit: 61c6f63d8a61b3cdc0f08f7c9b2323cc4710eb88
+exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
+source-git-commit: 04945572fc027fd063a1f52638205f39086767cf
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 13%
+source-wordcount: '472'
+ht-degree: 17%
 
 ---
-
 
 # Últimas actualizaciones en esta documentación
 
@@ -20,7 +20,7 @@ Esta página lista todas las actualizaciones de documentación de [!DNL Journey 
 * Capturas de pantalla de Diseñador de correo electrónico actualizadas con la IU más reciente.
 * Se ha actualizado el procedimiento de configuración para acciones personalizadas con rutas URL dinámicas y encabezados dinámicos. [Más información](action/about-custom-action-configuration.md#url-configuration)
 * Se ha añadido una sección sobre las funciones de accesibilidad y los métodos abreviados de teclado. [Más información](user-interface.md#accessibility)
-* Se ha añadido una sección sobre métodos de evaluación de segmentos. [Más información](segment/about-segments.md#evaluation-method-in-journey-optimizer)
+* Se ha añadido una sección acerca de métodos de evaluación de segmentos. [Más información](segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * Se han agregado notas a las secciones Lista de supresión, Lista de permitidos y Correo electrónico global/activo para especificar que los perfiles con estados Suprimido y No permitido se excluyen de las métricas Informe de correo electrónico enviado . [Más información](reports/email-global-report.md)
 * Se ha añadido una nueva sección para describir cómo recuperar direcciones de correo electrónico o dominios que se excluyeron de un envío porque no estaban en la lista de permitidos. [Más información](allow-list.md#reporting)
 * Se ha actualizado la sección Habilitar la lista de permitidos . [Más información](allow-list.md#enable-allow-list)
@@ -30,6 +30,7 @@ Esta página lista todas las actualizaciones de documentación de [!DNL Journey 
 * Se ha actualizado la sección Delegar un subdominio con información más detallada sobre el proceso de validación realizado por el Adobe. [Más información](configuration/delegate-subdomain.md#subdomain-validation)
 * Se ha añadido una sección para describir cómo agregar manualmente direcciones de correo electrónico y dominios a la lista de supresión. [Más información](configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Se han actualizado las secciones [Acceso a la lista de supresión](configuration/manage-suppression-list.md#access-suppression-list) y [Reintentos](configuration/retries.md) para reflejar la nueva interfaz de usuario.
+* Se ha documentado el nuevo flujo para añadir y configurar representaciones al crear una oferta. [Más información](offers/offer-library/creating-personalized-offers.md#representations)
 
 
 ## Julio de 2021

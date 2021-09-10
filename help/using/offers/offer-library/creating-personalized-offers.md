@@ -5,9 +5,10 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
+exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
+source-git-commit: 024a450724aecfde0eab7ab97421052a0aa99f2e
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1278'
 ht-degree: 3%
 
 ---
@@ -44,43 +45,67 @@ Para crear una **oferta**, siga estos pasos:
 
 ## Configuración de las representaciones de la oferta {#representations}
 
-1. Añada una o varias representaciones para la oferta con el botón **[!UICONTROL Add representation]** .
+Una oferta se puede mostrar en diferentes lugares de un mensaje: en un banner superior con una imagen, como texto en un párrafo, como un bloque HTML, etc. Cuantas más representaciones tenga una oferta, más oportunidades habrá de utilizar la oferta en diferentes contextos de ubicación.
 
-   >[!NOTE]
-   >
-   >Una oferta se puede mostrar en diferentes lugares de un mensaje: en un banner superior con una imagen, como texto en un párrafo, como un bloque html, etc. Cuantas más representaciones tenga una oferta, más oportunidades habrá de utilizar la oferta en diferentes contextos de ubicación.
+Para añadir una o varias representaciones a la oferta y configurarlas, siga los pasos a continuación.
 
-1. Para cada representación, especifique **[!UICONTROL Channel]** y el **[!UICONTROL Placement]** donde se mostrará la oferta.
+1. Para la primera representación, comience por seleccionar el **[!UICONTROL Channel]** que se utilizará.
 
    ![](../../assets/channel-placement.png)
 
-   El botón **[!UICONTROL Browse]** le permite filtrar las ubicaciones disponibles y filtrarlas según su canal o tipo de contenido.
+   En la lista desplegable **[!UICONTROL Placement]** solo se muestran las ubicaciones disponibles para el canal seleccionado.
+
+1. Seleccione una colocación de la lista o utilice el botón situado junto a la lista desplegable **[!UICONTROL Placement]** para examinar todas las ubicaciones.
+
+   ![](../../assets/browse-button-placements.png)
+
+   Aquí todavía puede filtrar las ubicaciones según su canal o tipo de contenido. Elija una ubicación y haga clic en **[!UICONTROL Select]**.
 
    ![](../../assets/browse-placements.png)
 
-1. Añada contenido a cada representación procedente de la biblioteca de Adobe Experience Cloud Assets o de una ubicación pública externa.
+1. Añada contenido a su representación.
 
-   * Para agregar contenido de la biblioteca de Adobe Experience Cloud Assets, arrástrelo y suéltelo desde el panel izquierdo al área de representación y, a continuación, especifique la dirección URL que desea asociar al contenido en el campo **[!UICONTROL Destination link]**.
+   >[!NOTE]
+   >
+   >Solo está disponible el contenido correspondiente al tipo de contenido de la ubicación.
+
+   * Si la ubicación seleccionada es de tipo imagen, puede añadir contenido proveniente de la biblioteca de recursos de Adobe Experience Cloud, un repositorio centralizado de recursos proporcionado por [!DNL Adobe Experience Manager Assets Essentials].
 
       >[!NOTE]
       >
-      >El contenido solo se puede arrastrar y soltar desde el Selector de recursos en el panel izquierdo. Solo está disponible el contenido correspondiente al tipo de contenido de la ubicación.
+      > Para trabajar con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}, debe implementar [!DNL Assets Essentials] en su organización y asegurarse de que los usuarios forman parte de los **Usuarios de consumidores de Assets Essentials** o **Usuarios de Assets Essentials** perfiles de producto. Obtenga más información sobre [esta página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
-      ![](../../assets/offer_drag_content.png)
+      Elija la opción **[!UICONTROL Asset library]** y seleccione **[!UICONTROL Browse]**.
 
-   * Para añadir contenido desde una ubicación pública externa, haga clic en el botón **[!UICONTROL Add content]** y, a continuación, especifique el nombre, la dirección URL y el vínculo de destino del contenido que desea añadir.
+      ![](../../assets/offer-browse-asset-library.png)
 
-      Asegúrese de que el contenido que está agregando corresponde al tipo de contenido de la ubicación seleccionada.
+      Examine los recursos para seleccionar la imagen que desee y haga clic en **[!UICONTROL Select]**.
 
-      ![](../../assets/offer_add_content.png)
+      ![](../../assets/offer-select-asset.png)
 
-   * También puede insertar contenido de tipo texto. Para ello, haga clic en el botón **[!UICONTROL Add content]** y luego seleccione la opción **[!UICONTROL Custom text]**. En el campo **[!UICONTROL Text]**, escriba el texto que se mostrará en la oferta.
+   * Para añadir contenido desde una ubicación pública externa, seleccione **[!UICONTROL URL]** e introduzca la dirección URL del contenido que desea añadir.
+
+      ![](../../assets/offer-content-url.png)
+
+   * También puede insertar contenido de tipo texto al seleccionar una ubicación compatible. Seleccione la opción **[!UICONTROL Custom]** y escriba el texto que aparecerá en la oferta.
+
+      ![](../../assets/offer-text-content.png)
 
       >[!NOTE]
       >
       >Esta opción no está disponible para ubicaciones de tipo imagen.
 
-      ![](../../assets/offer_text_content.png)
+1. Cuando agrega contenido, como una imagen o URL, puede especificar un **[!UICONTROL Destination link]**: los usuarios que hacen clic en la oferta se dirigen a la página correspondiente.
+
+   ![](../../assets/offer-destination-link.png)
+
+1. Finalmente, seleccione el idioma que desee para ayudar a identificar y administrar lo que se mostrará a los usuarios.
+
+1. Para añadir otra representación, utilice el botón **[!UICONTROL Add representation]** y añada tantas representaciones como sea necesario.
+
+   ![](../../assets/offer-add-representation.png)
+
+1. Una vez agregadas todas las representaciones, seleccione **[!UICONTROL Next]**.
 
 ## Agregar reglas y restricciones de idoneidad {#eligibility}
 
