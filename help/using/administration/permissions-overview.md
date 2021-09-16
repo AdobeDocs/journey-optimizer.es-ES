@@ -1,25 +1,14 @@
 ---
 title: Información general sobre la administración de usuarios
 description: Obtenga información sobre los permisos
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
-exl-id: null
-feature: Grupos de control
-topic: Administración
+feature: Control Groups
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 21%
+source-wordcount: '147'
+ht-degree: 19%
 
 ---
 
