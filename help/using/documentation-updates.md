@@ -2,7 +2,7 @@
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 04945572fc027fd063a1f52638205f39086767cf
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 17%
@@ -46,7 +46,7 @@ Esta página lista todas las actualizaciones de documentación de [!DNL Journey 
 * Se ha cambiado el nombre de &quot;actividades de oferta&quot; por &quot;decisiones&quot; y &quot;decisiones&quot; por &quot;ámbitos de decisión&quot; en la documentación y las pantallas. [Más información](offers/get-started/starting-offer-decisioning.md)
 * Nuevo caso de uso: [personalizar un mensaje con funciones de ayuda](personalization/personalization-use-case-helper-functions.md)
 * Se ha actualizado la documentación Leer segmento para reflejar los impactos materializados en el segmento. [Más información](building-journeys/read-segment.md)
-* Se han actualizado las limitaciones de Recorrido. [Más información](building-journeys/limitations.md)
+* Se han actualizado las limitaciones de Recorrido. [Más información](limitations.md)
 * Se ha actualizado la sección Configurar ofertas en la sección de decisiones. [Más información](offers/offer-activities/configure-offer-selection.md)
 * Se ha añadido una advertencia para indicar que las ofertas basadas en eventos no son compatibles actualmente. [Más información](offers/offer-library/creating-personalized-offers.md#eligibility)
 * Se ha documentado la nueva pestaña **[!UICONTROL Overview]** de Administración de decisiones. [Más información](offers/get-started/user-interface.md#overview)

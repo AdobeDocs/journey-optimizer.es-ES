@@ -5,10 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
+exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 68%
+source-wordcount: '1459'
+ht-degree: 66%
 
 ---
 
@@ -22,7 +23,7 @@ Una vez conectado a [Adobe Experience Cloud](http://experience.adobe.com), vaya 
 >
 >* Esta documentación se actualiza con frecuencia para reflejar los cambios recientes en la interfaz de usuario del producto. Sin embargo, algunas capturas de pantalla pueden diferir ligeramente de la interfaz de usuario que ve.
 >
-> * Los componentes y las funciones disponibles en la IU dependen de los permisos y del paquete de licencias. Para cualquier pregunta, póngase en contacto con el administrador de éxito del cliente de Adobe.
+>* Los componentes y las capacidades disponibles en la interfaz de usuario dependen de los [permisos](administration/permissions.md) y del [paquete de licencias](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Para cualquier pregunta, póngase en contacto con el administrador de éxito del cliente de Adobe.
 
 
 ## Navegación izquierda
@@ -110,7 +111,7 @@ Puede acceder a los casos de uso ejecutados desde el botón **[!UICONTROL View u
 
 ## Accesibilidad{#accessibility}
 
-Adobe Experience Platform proporciona las funciones de accesibilidad de Adobe Journey Optimizer:
+Las funciones de accesibilidad de [!DNL Adobe Journey Optimizer] se heredan de Adobe Experience Platform:
 
 * Accesibilidad del teclado
 * Contraste de color
@@ -118,7 +119,7 @@ Adobe Experience Platform proporciona las funciones de accesibilidad de Adobe Jo
 
 [Obtenga más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} en la documentación de Adobe Experience Platform.
 
-Puede utilizar estos métodos abreviados del teclado comunes en Adobe Journey Optimizer:
+Puede utilizar estos métodos abreviados del teclado comunes en [!DNL Journey Optimizer]:
 
 | Acción | Acceso directo |
 | --- | --- |

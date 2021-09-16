@@ -1,14 +1,15 @@
 ---
 title: Versiones de recorridos
 description: Obtenga información sobre las versiones de recorrido
-feature: Recorridos
-topic: Administración de contenido
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 4%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +25,7 @@ Si necesita modificar a un recorrido activo, debe crear una nueva versión del r
 
 >[!NOTE]
 >
->Para obtener más información sobre las limitaciones de las versiones de recorrido, consulte [esta página](../building-journeys/limitations.md#journey-versions-limitations)
+>Para obtener más información sobre las limitaciones de las versiones de recorrido, consulte [esta página](../limitations.md#journey-versions-limitations)
 
 1. Abra la última versión de su recorrido activo, haga clic en **[!UICONTROL Create a new version]** y confirme.
 
