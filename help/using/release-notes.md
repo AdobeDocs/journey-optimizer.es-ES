@@ -2,10 +2,10 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 740d76fccf966d027c63ddc72241d91cb6c8928b
+source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 11%
+source-wordcount: '1171'
+ht-degree: 19%
 
 ---
 
@@ -52,23 +52,23 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 </tbody>
 </table>
 
-<!--
+
 <table>
 <thead>
 <tr>
-<th><strong>Personalized URLs</strong><br/></th>
+<th><strong>Direcciones URL personalizadas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Personalized URLs take recipients to specific pages of a website, or to a personalized microsite, depending on the profile attributes. In Adobe Journey Optimizer, you can now add personalization to URLs in your message content. URL personalization can be applied to text and images, and use profile data or contextual data.</p>
-<p>For more information, refer to the <a href="documentation-updates.md">detailed documentation</a>.</p>
+<p>Las direcciones URL personalizadas llevan a los destinatarios a páginas específicas de un sitio web o a un micrositio personalizado, según los atributos del perfil. En Adobe Journey Optimizer, ahora puede añadir personalización a las direcciones URL en el contenido del mensaje. La personalización de URL se puede aplicar a texto e imágenes, y utilizar datos de perfil o datos contextuales.</p>
+<p>Para obtener más información, consulte la <a href="personalization/personalization-syntax.md#perso-urls">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
+
 
 <table>
 <thead>
@@ -79,7 +79,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <tbody>
 <tr>
 <td>
-<p>Ahora puede definir el periodo de reintento por ajuste preestablecido para garantizar que los intentos de reintento ya no se realicen cuando ya no se necesiten. Por ejemplo, puede establecer el periodo de reintento en 24 horas para un mensaje transaccional de restablecimiento de contraseña que contenga un vínculo válido solo para un día. Tenga en cuenta que la configuración de reintentos solo se aplica al canal de correo electrónico.</p>
+<p>Ahora puede definir el período de reintento por ajuste preestablecido para garantizar que los intentos de reintentar no se realicen más cuando ya no sean necesarios. Por ejemplo, puede establecer el periodo de reintento en 24 horas para un mensaje transaccional de restablecimiento de contraseña que contenga un vínculo válido solo para un día. Tenga en cuenta que la configuración de reintentos solo se aplica al canal de correo electrónico.</p>
 <p>Para obtener más información, consulte la <a href="configuration/retries.md#retry-duration">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -95,7 +95,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <tbody>
 <tr>
 <td>
-<p>La adición de direcciones de correo electrónico y dominios a la lista de supresión ya está disponible en la interfaz de usuario, una a una, ya sea en modo masivo a través de una carga de archivo CSV.</p>
+<p>La adición de direcciones de correo electrónico y dominios a la lista de supresión ya está disponible en la interfaz de usuario, ya sea una por una, o en modo masivo a través de la carga de un archivo CSV.</p>
 <p>Para obtener más información, consulte la <a href="configuration/manage-suppression-list.md#add-addresses-and-domains">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -126,7 +126,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 **Recorridos**
 
-* **Encabezados dinámicos** : ahora puede pasar datos dinámicos en parámetros de encabezado HTTP. Estos parámetros los pueden utilizar los sistemas de integración que reciben las llamadas HTTP de acción de recorrido, por ejemplo, la marca de tiempo o el ID de seguimiento. [Más información](action/about-custom-action-configuration.md#url-configuration)
+* **Encabezados dinámicos** : ahora puede pasar datos dinámicos en parámetros de encabezado HTTP. Estos parámetros los pueden utilizar los sistemas de integración que reciben las llamadas HTTP de acción del recorrido, por ejemplo, la marca de tiempo o el ID de seguimiento. [Más información](action/about-custom-action-configuration.md#url-configuration)
 * **Rutas URL dinámicas** : ahora puede configurar rutas URL dinámicas para acciones personalizadas. [Más información](action/about-custom-action-configuration.md#url-configuration)
 * La tasa de regulación general de los segmentos leídos ha cambiado de 17.000 a 20.000 mensajes por segundo. [Más información](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 

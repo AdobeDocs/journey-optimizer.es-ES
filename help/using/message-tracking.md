@@ -5,7 +5,8 @@ feature: Monitoring
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6ff5d093bac20248106be1f4478102c29703cb1d
+exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
+source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 4%
@@ -56,7 +57,7 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
    ![](assets/message-tracking-links.png)
 
-1. Puede personalizar los vínculos. Obtenga más información sobre las direcciones URL personalizadas en [esta sección](personalization/personalization-syntax.md).
+1. Puede personalizar los vínculos. Obtenga más información sobre las direcciones URL personalizadas en [esta sección](personalization/personalization-syntax.md#perso-urls).
 
 1. Guarde los cambios.
 
@@ -142,5 +143,3 @@ El [Diseñador de correo electrónico](create-email-content.md) le permite admin
 El número de mensajes que se han abierto y el número de vínculos en los que se ha hecho clic se enumeran en la [ficha Ejecuciones](message-monitoring.md).
 
 Los informes sobre aperturas y clics están disponibles en [Email Live report](reports/email-live-report.md) y en [Email Global report](reports/email-global-report.md).
-
-
