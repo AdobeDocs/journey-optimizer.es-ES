@@ -1,13 +1,14 @@
 ---
 title: Monitorización de la ejecución de mensajes
 description: Conozca las directrices de monitorización
-feature: Monitoreo
-topic: Administración de contenido
+feature: Monitoring
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
+source-git-commit: fa808a6d95468c40b9fbafb4cc8cc1cd74b1d00a
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -67,7 +68,7 @@ Para cada ejecución de mensaje, se muestran varios indicadores:
 
 * **[!UICONTROL Start date]**: Fecha y hora en que se ejecutó el mensaje desde el recorrido.
 
-   <!--Targeted: Number of targeted profiles for each message execution. To come?-->
+* **[!UICONTROL Targeted]**: Número de perfiles de destino para cada ejecución de mensaje.
 
 * **[!UICONTROL Excluded]**: Número de perfiles que se han excluido del objetivo inicial debido a reglas de exclusión.
 

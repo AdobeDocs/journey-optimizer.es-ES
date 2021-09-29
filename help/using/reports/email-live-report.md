@@ -5,10 +5,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
+source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 1%
+source-wordcount: '437'
+ht-degree: 2%
 
 ---
 
@@ -26,19 +27,27 @@ El correo electrónico **[!UICONTROL Live report]** se divide en distintas utili
 
 **[!UICONTROL Email performance]** y las  **[!UICONTROL Email summary]** utilidades detallan la información principal relativa al mensaje con un gráfico y KPI:
 
+* **[!UICONTROL Targeted]**: Número de perfiles de usuario que se califican como perfiles de destinatario para este envío.
+
 * **[!UICONTROL Sent]**: Número total de envíos para la entrega.
 
 * **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.
-
-* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados.
-
-* **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
 
 * **[!UICONTROL Opens]**: Número de veces que se abrió un mensaje en una entrega.
 
 * **[!UICONTROL Clicks]**: Número de veces que se hizo clic en un contenido en una entrega.
 
-El gráfico **[!UICONTROL Sending Statistics]** detalla el éxito de su envío:
+* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados.
+
+* **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
+
+* **[!UICONTROL Spam complaints]**: Número de mensajes clasificados como correo no deseado.
+
+* **[!UICONTROL Unsubscriptions]**: Número de clics en el vínculo de baja de suscripción.
+
+* **[!UICONTROL Excluded]**: Número de perfiles de usuario, excluidos de los perfiles de destino, que no recibieron el mensaje.
+
+La utilidad **[!UICONTROL Sending Statistics]** detalla el éxito del envío:
 
 * **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.
 

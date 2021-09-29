@@ -1,13 +1,14 @@
 ---
 title: Crear decisiones
 description: Aprenda a crear decisiones
-feature: Ofertas
-topic: Integraciones
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
+exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
+source-git-commit: 89e0223ebbf5015b61b55da693e0c6401307ce9f
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '1015'
 ht-degree: 3%
 
 ---
@@ -18,7 +19,7 @@ Las decisiones (anteriormente conocidas como actividades de oferta) son contened
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-Se puede acceder a la lista de decisiones desde la pestaña **[!UICONTROL Offers]** menu / **[!UICONTROL Decisions]** . Los filtros están disponibles para ayudarle a recuperar las decisiones según su estado o las fechas de inicio y finalización.
+Se puede acceder a la lista de decisiones desde la pestaña **[!UICONTROL Offers]** menu > **[!UICONTROL Decisions]** . Los filtros están disponibles para ayudarle a recuperar las decisiones según su estado o las fechas de inicio y finalización.
 
 ![](../../assets/activities-list.png)
 
@@ -33,7 +34,9 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
 1. Acceda a la lista de decisiones y haga clic en **[!UICONTROL Create decision]**.
 
-1. Especifique el nombre de la decisión, así como su fecha y hora de inicio y finalización y, a continuación, haga clic en **[!UICONTROL Next]**.
+1. Especifique el nombre de la decisión.
+
+1. Defina una fecha y hora de inicio y finalización y haga clic en **[!UICONTROL Next]**.
 
    ![](../../assets/activities-name.png)
 
@@ -51,29 +54,53 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
    ![](../../assets/activities-collection.png)
 
-1. Las ofertas seleccionadas se añaden a la ubicación. En este ejemplo, seleccionamos dos ofertas que se mostrarán en una ubicación de tipo JSON con el fin de presentar ofertas en una solución de centro de llamadas.
+1. Las ofertas seleccionadas se añaden a la ubicación.
+
+   En este ejemplo, seleccionamos dos ofertas que se mostrarán en una ubicación de tipo JSON con el fin de presentar ofertas en una solución de centro de llamadas.
 
    ![](../../assets/offers-added.png)
 
 1. De forma predeterminada, si varias ofertas son elegibles para esta ubicación, las ofertas con la puntuación de prioridad más alta se entregarán al cliente.
 
-   Si desea utilizar una fórmula específica para elegir qué oferta apta para entregar, seleccione una fórmula de clasificación en la lista desplegable **[!UICONTROL Rank offers by]**. Para obtener más información, consulte [esta sección](../offer-activities/configure-offer-selection.md).
+   Si desea utilizar una fórmula específica o una estrategia de clasificación para elegir qué oferta apta para publicar, seleccione una fórmula de clasificación en la lista desplegable **[!UICONTROL Rank offers by]**. Para obtener más información, consulte [esta sección](../offer-activities/configure-offer-selection.md).
 
-1. El campo **[!UICONTROL Constraint]** restringe la selección de ofertas para esta ubicación. Esta restricción se puede aplicar utilizando una regla de decisión o uno o varios segmentos de Adobe Experience Platform.
+1. El campo **[!UICONTROL Constraint]** restringe la selección de ofertas para esta ubicación. Esta restricción se puede aplicar utilizando una **regla de decisión**, o uno o varios **segmentos de Adobe Experience Platform**. Ambas se detallan en [esta sección](#segments-vs-decision-rules).
 
-   Para restringir la selección de ofertas a los miembros de un segmento de Adobe Experience Platform, seleccione **[!UICONTROL Segments]** y haga clic en **[!UICONTROL Add segments]**.
+   * Para restringir la selección de ofertas a los miembros de un segmento de Adobe Experience Platform, seleccione **[!UICONTROL Segments]** y haga clic en **[!UICONTROL Add segments]**.
 
-   ![](../../assets/activity_constraint_segment.png)
+      ![](../../assets/activity_constraint_segment.png)
 
-   Agregue uno o varios segmentos del panel izquierdo, combínelos con los operadores lógicos **[!UICONTROL And]** / **[!UICONTROL Or]** y haga clic en **[!UICONTROL Select]** para confirmar.
+      Agregue uno o varios segmentos del panel izquierdo, combínelos con los operadores lógicos **[!UICONTROL And]** / **[!UICONTROL Or]** y haga clic en **[!UICONTROL Select]** para confirmar.
 
-   Para obtener más información sobre cómo trabajar con segmentos, consulte [esta página](../../segment/about-segments.md).
+      ![](../../assets/activity_constraint_segment2.png)
 
-   ![](../../assets/activity_constraint_segment2.png)
+      Obtenga más información sobre cómo trabajar con segmentos en [esta sección](../../segment/about-segments.md).
 
-   Si desea agregar una restricción de selección para esta ubicación mediante una regla de decisión, seleccione la opción **[!UICONTROL Decision rule]** y, a continuación, arrastre la regla deseada del panel izquierdo al área **[!UICONTROL Decision rule]**. Para obtener más información sobre cómo crear una regla de decisión, consulte [esta sección](../offer-library/creating-decision-rules.md).
+   * Si desea agregar una restricción de selección para esta ubicación mediante una regla de decisión, seleccione la opción **[!UICONTROL Decision rule]** y, a continuación, arrastre la regla deseada del panel izquierdo al área **[!UICONTROL Decision rule]**.
 
-   ![](../../assets/activity_constraint_rule.png)
+      ![](../../assets/activity_constraint_rule.png)
+
+      Obtenga más información sobre cómo crear una regla de decisión en [esta sección](../offer-library/creating-decision-rules.md).
+
+### Uso de segmentos frente a reglas de decisión {#segments-vs-decision-rules}
+
+<!--to move to create-offers?-->
+
+Para aplicar una restricción, puede restringir la selección de ofertas a los miembros de uno o varios **segmentos de Adobe Experience Platform**, o puede utilizar una **regla de decisión**, ambas soluciones correspondientes a diferentes usos.
+
+Básicamente, el resultado de un segmento es una lista de perfiles, mientras que una regla de decisión es una función ejecutada bajo demanda contra un solo perfil durante el proceso de toma de decisiones. A continuación se detalla la diferencia entre estos dos usos.
+
+* **Segmentos**
+
+   Por un lado, los segmentos son un grupo de perfiles de Adobe Experience Platform que coinciden con una lógica determinada basada en atributos de perfil y eventos de experiencia. Sin embargo, Administración de ofertas no vuelve a calcular el segmento, el cual puede no estar actualizado al presentar la oferta.
+
+   Obtenga más información sobre los segmentos en [esta sección](../../segment/about-segments.md).
+
+* **Reglas de decisión**
+
+   Por otro lado, una regla de decisión se basa en los datos disponibles en Adobe Experience Platform y determina a quién se puede mostrar una oferta. Una vez seleccionada en una oferta o una decisión para una ubicación determinada, la regla se ejecuta cada vez que se toma una decisión, lo que garantiza que cada perfil obtenga la oferta más reciente y la mejor.
+
+   Obtenga más información sobre las reglas de decisión en [esta sección](../offer-library/creating-decision-rules.md).
 
 ## Añadir una oferta de reserva {#add-fallback}
 

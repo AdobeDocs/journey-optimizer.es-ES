@@ -1,14 +1,15 @@
 ---
-title: 'Fuentes de datos externas '
+title: Fuentes de datos externas
 description: Obtenga información sobre cómo configurar fuentes de datos externas
 feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
+exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
+source-git-commit: 54d93df232b38608d3d02e837cea82e8965559e0
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 92%
+source-wordcount: '1324'
+ht-degree: 88%
 
 ---
 
@@ -181,3 +182,7 @@ Puede cambiar la duración de caché del token para una fuente de datos de auten
              { "duration":5, "timeUnit":"seconds" }
     }
 ```
+
+>[!NOTE]
+>
+>La duración de la caché ayuda a evitar demasiadas llamadas a los extremos de autenticación. La retención de tokens de autenticación se almacena en caché en los servicios, no hay persistencia. Si se reinicia un servicio, comienza con una caché limpia. La duración de la caché de forma predeterminada es de 1 hora. En la carga útil de acción personalizada, se puede adaptar especificando otra duración de retención.

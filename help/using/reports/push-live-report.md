@@ -1,14 +1,15 @@
 ---
 title: Informe activo de notificaciones push
 description: Aprenda a utilizar los datos del informe de notificaciones push en directo
-feature: Informes
-topic: Administración de contenido
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
+exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
+source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 2%
+source-wordcount: '336'
+ht-degree: 0%
 
 ---
 
@@ -39,6 +40,22 @@ El push **[!UICONTROL Live report]** se divide en diferentes utilidades que deta
 * **[!UICONTROL Actions]**: Número total de acciones realizadas en la notificación push entregada, por ejemplo, hacer clic en un botón o rechazar una solicitud.
 
 * **[!UICONTROL Engagements]**: Número total de aperturas y acciones para esta notificación push, es decir, si el perfil abrió la notificación push o si se hizo clic en un botón.
+
+La tabla **[!UICONTROL Sending metrics - by push]** detalla el éxito de su envío:
+
+* **[!UICONTROL Targeted]**: Número de perfiles de usuario que se califican como perfiles de destinatario para este envío.
+
+* **[!UICONTROL Excluded]**: Número de perfiles de usuario, excluidos de los perfiles de destino, que no recibieron el mensaje.
+
+* **[!UICONTROL Sent]**: Número total de envíos para la entrega.
+
+* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.
+
+* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados.
+
+* **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
+
+* **[!UICONTROL Opens]**: Número de veces que se abrió un mensaje en una entrega.
 
 ![](../assets/live_report_4.png)
 

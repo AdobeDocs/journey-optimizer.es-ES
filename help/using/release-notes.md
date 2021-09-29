@@ -2,9 +2,9 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
+source-git-commit: 8f9c7ef2388624432a1601da0ce9502b3e68b58b
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1490'
 ht-degree: 19%
 
 ---
@@ -13,6 +13,78 @@ ht-degree: 19%
 
 En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journey Optimizer]. También puede consultar las últimas [Actualizaciones de documentación](documentation-updates.md).
 
+
+
+## Versión de septiembre de 2021 {#september-2021-release}
+
+### Nuevas funciones
+
+<table>
+<thead>
+<tr>
+
+<th><strong>Informes: mejor perspectiva para la audiencia de destino</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Hay una nueva métrica disponible en los informes: la audiencia de destino de los mensajes push y de correo electrónico es visible en los informes en directo y globales.</p>
+<p>Una nueva columna de la lista de ejecución de mensajes muestra el número de perfiles objetivo para cada ejecución de mensaje. </p>
+<p>Para obtener más información, consulte la <a href="message-monitoring.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+
+<th><strong>Pasar listas de datos dinámicamente mediante acciones personalizadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede pasar colecciones o una lista de datos en los parámetros de acción personalizados que se rellenarán dinámicamente durante la ejecución. Se admiten dos tipos de colecciones: colecciones simples y colecciones de objetos. Las acciones personalizadas creadas anteriormente seguirán funcionando. </p>
+<p>Para obtener más información sobre las colecciones, consulte la <a href="building-journeys/collections.md">documentación detallada</a>. </p>
+<p>Las funciones de filtro e intersección se han agregado a la lista de funciones disponibles en el editor de expresiones avanzadas. Esto ofrece más posibilidades para filtrar y comparar colecciones.</p>
+<p>Consulte la documentación sobre las funciones <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> y <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html">intersection</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Decision Management - Personalize your offers</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now personalize content added to your offers' representations using the expression editor.</p>
+<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+### Mejoras
+
+**Recorridos**
+
+* Los esquemas y conjuntos de datos generados por el sistema que se han creado durante el aprovisionamiento para eventos de paso ahora están en modo de solo lectura, lo que protege contra cualquier modificación involuntaria de esquemas críticos. [Más información](reports/sharing-overview.md)
+* etiquete claramente la actividad **Wait** con una etiqueta que se mostrará en el lienzo. La etiqueta también se utiliza en los registros de modo de informes y prueba para identificar claramente lo que está haciendo. [Más información](building-journeys/about-journey-activities.md#best-practices)
+* Encuentre sus eventos y acciones más rápido filtrando elementos en las categorías **Events** y **Action** mediante la búsqueda. Las actividades de organización ya no se filtran. [Más información](building-journeys/using-the-journey-designer.md)
+* Al definir una condición de ID de evento en un evento comercial o basado en reglas, el operador &quot;contiene&quot; ya está disponible para tipos de cadena de campos. [Más información](event/about-creating.md)
+
+**Configuración de correo electrónico**
+
+* Cuando se ha asociado un grupo de IP con un ajuste preestablecido de mensaje, ahora puede editarlo; la actualización es asíncrona. También puede comprobar el estado de actualización de cada grupo de IP. [Más información](configuration/ip-pools.md#edit-ip-pool)
 
 ## Versión de agosto de 2021 {#august-2021-release}
 

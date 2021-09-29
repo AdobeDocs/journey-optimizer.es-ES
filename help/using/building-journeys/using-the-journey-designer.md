@@ -1,13 +1,14 @@
 ---
 title: Diseño de un recorrido
 description: Aprenda a diseñar su recorrido
-feature: Recorridos
-topic: Administración de contenido
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: da31b4faf476d090a3a45b8c14701c4addd1a02a
+exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
+source-git-commit: e9da4ec95a82d53e6fcf2cb99fb6215b0c325f08
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1417'
 ht-degree: 2%
 
 ---
@@ -30,7 +31,7 @@ El icono **[!UICONTROL Filter items]** en la esquina superior izquierda permite 
 
 * **Mostrar solo los elementos** recientes: este filtro le permite mostrar solo los últimos cinco eventos y acciones utilizados, además de los predeterminados. Esto es específico de cada usuario. De forma predeterminada, se muestran todos los elementos.
 
-También puede utilizar el campo **[!UICONTROL Search]** .
+También puede utilizar el campo **[!UICONTROL Search]** . Solo se filtran eventos y acciones.
 
 El **lienzo** es la zona central del diseñador de recorridos. Es en esta zona donde puede soltar sus actividades y configurarlas. Haga clic en una actividad del lienzo para configurarla. Se abre el panel de configuración de actividad en el lado derecho.
 

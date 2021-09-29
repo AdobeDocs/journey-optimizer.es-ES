@@ -1,14 +1,15 @@
 ---
 title: Información general sobre el uso compartido de los pasos del recorrido
 description: Información general sobre el uso compartido de los pasos del recorrido
-feature: Informes
-topic: Administración de contenido
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
+source-git-commit: 7e4b5342fc57029517ae4d6a6c1e8e03e0dc0c3b
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 7%
+source-wordcount: '459'
+ht-degree: 6%
 
 ---
 
@@ -18,7 +19,7 @@ Además de [informes en tiempo real](live-report.md) y [funciones integradas de 
 
 >[!NOTE]
 >
->Esta función está activada de forma predeterminada en todas las instancias para eventos de pasos de recorrido. Para los eventos de paso del perfil de recorrido, la activación se realiza previa solicitud. Los esquemas y conjuntos de datos creados durante el aprovisionamiento de esta función no deben cambiarse.
+>Esta función está activada de forma predeterminada en todas las instancias para eventos de pasos de recorrido. Para los eventos de paso del perfil de recorrido, la activación se realiza previa solicitud. No se pueden modificar ni actualizar los esquemas y conjuntos de datos que se han creado durante el aprovisionamiento de eventos de paso. De forma predeterminada, estos esquemas y conjuntos de datos están en modo de solo lectura.
 
 Por ejemplo, ha configurado un recorrido que envía varios correos electrónicos. Esta capacidad le permite combinar datos de [!DNL Journey Optimizer] con datos de evento descendente como cuántas conversiones se produjeron, cuánta participación se produjo en el sitio web o cuántas transacciones se produjeron en la tienda. La información del recorrido se puede combinar con los datos de Adobe Experience Platform, ya sea de otras propiedades digitales o de propiedades sin conexión, para ofrecer una vista más completa del rendimiento.
 

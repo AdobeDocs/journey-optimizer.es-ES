@@ -1,14 +1,15 @@
 ---
 title: Personalización del contenido en Journey Optimizer
 description: Introducción a la personalización
-feature: Personalización
-topic: Personalización
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Beginner
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
+source-git-commit: c68aa48c7762b6d2d96a7c921025104247ceffa3
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 19%
+source-wordcount: '691'
+ht-degree: 18%
 
 ---
 
@@ -62,7 +63,6 @@ En ambos casos, se accede al editor de personalización.
 
 ![](assets/perso_ee.png)
 
-
 ### Personalización de las notificaciones push
 
 También puede personalizar sus **Push notifications** en los campos siguientes:
@@ -77,7 +77,13 @@ También puede personalizar sus **Push notifications** en los campos siguientes:
 
 Obtenga más información sobre la configuración de notificaciones push en [esta sección](../push-gs.md).
 
-## Uso del Editor de expresiones
+### Personalización de las ofertas {#personalize-offers}
+
+También puede acceder al editor de personalización cuando añada contenido de tipo texto a las representaciones de sus ofertas.
+
+Obtenga más información sobre la administración de contenido con Administración de decisiones en [esta sección](../offers/offer-library/creating-personalized-offers.md#custom-text).
+
+## Uso del Editor de expresiones {#use-expression-editor}
 
 El editor de expresiones es la parte central de la personalización en [!DNL Journey Optimizer].
 

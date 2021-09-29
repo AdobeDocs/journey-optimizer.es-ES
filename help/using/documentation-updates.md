@@ -2,10 +2,10 @@
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
+source-git-commit: d6228aade93bc9fa2b5f2ad2b76db5e193208242
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 18%
+source-wordcount: '711'
+ht-degree: 17%
 
 ---
 
@@ -15,8 +15,33 @@ Esta página lista todas las actualizaciones de documentación de [!DNL Journey 
 
 ## Septiembre de 2021
 
+* Se han actualizado las siguientes páginas de funciones: [sethours](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/date/functionsethours.html), [getListItem](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiongetlistitem.html), [inSegment](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/adobe-experience-platform/functioninsegment.html)
+
+* Se han añadido las siguientes funciones: [filtro](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html), [intersección](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html), [toDateOnly](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/conversion/functiontodateonly.html)
+
+* El tipo de fecha dateOnly se ha agregado en la documentación del editor de expresiones. [Más información](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=en)
+
+* Se agregaron detalles sobre la duración de la caché de acciones personalizada. [Más información](datasource/external-data-sources.md#section_wjp_nl5_nhb)
+
+* Se ha añadido información sobre los puertos predeterminados de acciones personalizadas. [Más información](action/about-custom-action-configuration.md#url-configuration)
+
+* Se ha agregado información sobre varios casos de uso de eventos comerciales. [Más información](event/about-creating-business.md#multiple-business-events)
+
+* Se han añadido ejemplos de uso común para consultar eventos de pasos de Recorrido en Data Lake. [Más información](reports/query-examples.md)
+
 * Se ha añadido una nueva página **Limitations**. [Más información](limitations.md)
+
 * Se ha mejorado la página **Inicio rápido** con pasos para diferentes personas. [Más información](quick-start.md)
+
+   <!--* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)-->
+
+* Ahora, todas las funciones de Administración de decisiones descritas en la sección dedicada también se aplican a los usuarios de Adobe Experience Platform que aprovechan el servicio de aplicaciones de Offer decisioning. [Más información](offers/get-started/starting-offer-decisioning.md)
+
+* Se ha añadido una subsección para aclarar las diferencias entre el uso de segmentos y las reglas de decisión al aplicar una restricción para restringir la selección de ofertas para una ubicación determinada. [Más información](offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
+
+* Se han añadido ejemplos específicos de fórmula de clasificación para ilustrar algunos casos de uso en la vida real. [Más información](offers/offer-library/create-ranking-formulas.md#ranking-formula-examples)
+
+* Se ha añadido una subsección sobre cómo editar grupos de IP. [Más información](configuration/ip-pools.md#edit-ip-pool)
 
 ## Agosto de 2021
 

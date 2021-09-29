@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: 6907946a75904d601ca1f70c61b72fd92803db84
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '806'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,10 @@ ht-degree: 6%
 # Configuración de una acción {#configure-an-action}
 
 Si utiliza un sistema de terceros para enviar mensajes o si desea que los recorridos envíen llamadas de API a un sistema de terceros, aquí es donde puede configurar su conexión a recorrido. La acción personalizada definida por los usuarios técnicos estará disponible en la paleta izquierda del recorrido, en la categoría **[!UICONTROL Action]** (consulte [esta página](../building-journeys/about-journey-activities.md#action-activities)). A continuación se muestran algunos ejemplos de sistemas a los que puede conectarse con acciones personalizadas: Epsilon, Facebook, Adobe.io, Firebase, etc.
+
 Las limitaciones se enumeran en [esta página](../limitations.md).
+
+Puede pasar colecciones dinámicamente mediante acciones personalizadas. Consulte este [caso de uso](../limitations.md).
 
 Estos son los pasos principales necesarios para configurar una acción personalizada:
 
@@ -56,12 +59,14 @@ Al configurar una acción personalizada, debe definir los siguientes **[!UICONTR
 
    * Si la dirección URL incluye una ruta dinámica, introduzca únicamente la parte estática de la dirección URL, es decir, el esquema, el host, el puerto y, opcionalmente, una parte estática de la ruta.
 
-      Ejemplo: `https://xxx.yyy.com:8080/somethingstatic/`
+      Ejemplo: `https://xxx.yyy.com/somethingstatic/`
 
       Al agregar la acción personalizada a un recorrido, especificará la ruta dinámica de la dirección URL. [Más información](../building-journeys/using-custom-actions.md).
    >[!NOTE]
    >
    >Por motivos de seguridad, recomendamos encarecidamente que utilice el esquema HTTPS para la dirección URL. No permitimos el uso de direcciones de Adobe que no sean públicas ni de direcciones IP.
+   >
+   >Solo se permiten los puertos predeterminados al definir una acción personalizada: 80 para http y 443 para https.
 
 1. Seleccione la llamada **[!UICONTROL Method]**: puede ser **[!UICONTROL POST]** o **[!UICONTROL PUT]**.
 1. En la sección **[!UICONTROL Headers]** , defina los encabezados HTTP del mensaje de solicitud que se enviará al servicio externo:
@@ -106,3 +111,4 @@ También tendrá la opción de especificar si un parámetro es una constante o u
 * Variable significa que el valor del parámetro variará. El especialista en marketing que utilice esta acción personalizada en un recorrido podrá pasar el valor que desee o especificar dónde recuperar el valor para este parámetro (por ejemplo, desde el evento, desde Adobe Experience Platform, etc.). En ese caso, el campo a la derecha de la constante o variable de alternancia es la etiqueta que el especialista en marketing verá en el recorrido para asignar un nombre a este parámetro.
 
 ![](../assets/customactionpayloadmessage2.png)
+

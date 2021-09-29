@@ -1,14 +1,15 @@
 ---
 title: Vista previa de mensajes y envío de pruebas
 description: Obtenga información sobre cómo previsualizar y probar los mensajes
-feature: Recorridos
-topic: Administración de contenido
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b1a0d17a2f36b55b8ef692fa9056989a3884c2a8
+exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
+source-git-commit: 5c4aca7666987ed188e69f3b5772950c0bf96488
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 4%
+source-wordcount: '932'
+ht-degree: 3%
 
 ---
 
@@ -97,7 +98,7 @@ Una vez seleccionados los [perfiles de prueba](#select-test-profiles), puede obt
 
 Para una vista previa de notificaciones push:
 
-1. Cambie al canal **[!UICONTROL Push]** desde la lista desplegable **[!UICONTROL Channels]** situada en la parte superior izquierda de la pantalla **[!UICONTROL Preview]**.
+1. Cambie al canal **[!UICONTROL Push]** desde la lista desplegable **[!UICONTROL Channels]** situada en la parte superior derecha de la pantalla **[!UICONTROL Preview]**.
 
    ![](assets/preview-select-channel.png)
 
