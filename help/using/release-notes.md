@@ -2,10 +2,10 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8f9c7ef2388624432a1601da0ce9502b3e68b58b
+source-git-commit: bb52c8e92621815c61528558aca6fbc326230e00
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 19%
+source-wordcount: '1526'
+ht-degree: 18%
 
 ---
 
@@ -28,7 +28,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <tbody>
 <tr>
 <td>
-<p>Hay una nueva métrica disponible en los informes: la audiencia de destino de los mensajes push y de correo electrónico es visible en los informes en directo y globales.</p>
+<p>Las nuevas métricas están disponibles en los informes: Los mensajes push y de destino Excluidos para correo electrónico son visibles tanto en los informes activos como en los globales. </br> Para tener acceso a las métricas más recientes, tenga en cuenta que tendrá que restablecer los diferentes paneles de informes para cada canal y tipo de informe. Para obtener más información sobre la personalización del tablero, consulte la <a href="reports/live-report.md">documentación detallada.</a></p>
 <p>Una nueva columna de la lista de ejecución de mensajes muestra el número de perfiles objetivo para cada ejecución de mensaje. </p>
 <p>Para obtener más información, consulte la <a href="message-monitoring.md">documentación detallada</a>.</p>
 </td>
