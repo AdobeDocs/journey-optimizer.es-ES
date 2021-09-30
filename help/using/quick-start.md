@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: f2ca9df4ff3441bd85e07b618f2f0559106db9c5
+source-git-commit: 9c1edc8d79c58fcf4f2048b9fe81cd31ea621777
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '519'
 ht-degree: 35%
 
 ---
@@ -30,11 +30,9 @@ A continuación, podrá asignar miembros del equipo a perfiles de producto y **c
 
 Obtenga más información en las páginas siguientes:
 
-* **Introducción a perfiles y permisos de productos**
-
 * **Establezca los** permisos de usuario y proporcione acceso a los integrantes del equipo. [Más información](../using/administration/permissions.md)
 
-* **Implemente[!DNL Adobe Experience Manager Assets Essentials]** para administrar recursos e imágenes en los mensajes: los usuarios que necesitan acceder a  [!DNL Assets Essentials] deben formar parte de los perfiles de producto  **Usuarios consumidores de** Assets Essentials y Usuarios de  **Assets Essentials** . [Más información](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}
+* **Implemente[!DNL Adobe Experience Manager Assets Essentials]** para administrar recursos e imágenes en los mensajes: los usuarios que necesitan acceder a  [!DNL Assets Essentials] deben formar parte de los perfiles de producto  **Usuarios consumidores de** Assets Essentials y Usuarios de  **Assets Essentials** . [Más información en la documentación](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) de Assets Essentials{target=&quot;_blank&quot;}
 
 * **Configure los** canales y defina los ajustes de correo electrónico y notificaciones push. [Más información](../using/configuration/get-started-configuration.md)
 
@@ -47,7 +45,7 @@ Obtenga más información en las páginas siguientes:
 
 Como administrador de datos, debe **identificar los datos y crear un esquema y conjunto de datos** para introducir los datos en Adobe Experience Platform.
 
-Los pasos para crear un área de nombres de identidad y un conjunto de datos habilitado para perfiles, y crear segmentos y perfiles de prueba se detallan en las secciones siguientes:
+Los pasos para crear un área de nombres de identidad y un conjunto de datos habilitado para perfiles, crear segmentos y perfiles de prueba se detallan en las secciones siguientes:
 
 * Obtenga información sobre cómo obtener una vista previa y crear un **conjunto de datos** en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es){target=&quot;_blank&quot;}
 
@@ -63,7 +61,7 @@ Además, para poder enviar mensajes en recorridos, debe configurar **[!UICONTROL
 
 ## Creación de mensajes, ofertas y recorridos
 
-Como practicante de Recorrido, consulte las secciones siguientes para configurar su primer recorrido, añadir ofertas, recursos y enviar mensajes:
+Como Recorrido practicante, consulte las secciones siguientes para configurar su primer recorrido, añadir ofertas y recursos y enviar mensajes:
 
 * **Crear mensajes**: Acceda a mensajes, diseñe o cargue contenido push y de correo electrónico, añada mensajes de personalización y previsualización. [Más información](create-message.md)
 
