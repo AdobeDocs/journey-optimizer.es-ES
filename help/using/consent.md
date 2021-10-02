@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: cdc0909a296799c5c60e854474a23750cf7b1b2f
+exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '815'
 ht-degree: 80%
 
 ---
@@ -138,7 +139,7 @@ A medida que muchos clientes buscan un proceso más sencillo para darse de baja,
 
 Aprenda a añadir un vínculo de no participación al contenido del mensaje en [esta sección](message-tracking.md#one-click-opt-out-link).
 
-Una vez que el mensaje se envía a través de un [recorrido](building-journeys/journey.md), si un destinatario hace clic en el vínculo de exclusión, se le excluye inmediatamente.
+Una vez que el mensaje se envía a través de un [recorrido](building-journeys/journey.md), si un destinatario hace clic en el vínculo de exclusión, su perfil se excluye inmediatamente.
 
 ## Vínculo de cancelación de suscripción en el encabezado {#unsubscribe-email}
 

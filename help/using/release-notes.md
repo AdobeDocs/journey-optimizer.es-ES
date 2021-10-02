@@ -2,7 +2,7 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bb52c8e92621815c61528558aca6fbc326230e00
+source-git-commit: 7c02f27f0160aea2c2f55c7dc5a8e7c3de3ac159
 workflow-type: tm+mt
 source-wordcount: '1526'
 ht-degree: 18%
@@ -49,7 +49,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <p>Ahora puede pasar colecciones o una lista de datos en los parámetros de acción personalizados que se rellenarán dinámicamente durante la ejecución. Se admiten dos tipos de colecciones: colecciones simples y colecciones de objetos. Las acciones personalizadas creadas anteriormente seguirán funcionando. </p>
 <p>Para obtener más información sobre las colecciones, consulte la <a href="building-journeys/collections.md">documentación detallada</a>. </p>
 <p>Las funciones de filtro e intersección se han agregado a la lista de funciones disponibles en el editor de expresiones avanzadas. Esto ofrece más posibilidades para filtrar y comparar colecciones.</p>
-<p>Consulte la documentación sobre las funciones <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> y <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html">intersection</a>.</p>
+<p>Consulte la documentación sobre las funciones <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> y <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">intersection</a>.</p>
 </td>
 </tr>
 </tbody>

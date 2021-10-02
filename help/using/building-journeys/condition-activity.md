@@ -1,13 +1,14 @@
 ---
 title: Actividad de condición
 description: Obtenga información sobre la actividad de condición
-feature: Recorridos
-topic: Administración de contenido
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '939'
 ht-degree: 10%
 
 ---
@@ -33,7 +34,7 @@ Haga clic en **[!UICONTROL Add a path]** si desea definir varias condiciones. Pa
 
 Tenga en cuenta que el diseño de los recorridos tiene un impacto funcional. Cuando se definen varias rutas después de una condición, solo se ejecuta la primera ruta elegible. Significa que puede variar la priorización de las rutas colocándolas encima o debajo de las otras.
 
-Por ejemplo, tomemos el ejemplo de la condición de una primera ruta &quot;La persona es un VIP&quot; y la condición de una segunda ruta &quot;La persona es un hombre&quot;. Si una persona que cumple ambas condiciones (un hombre que es VIP) supera este paso, la primera ruta se elegirá incluso si también es elegible para la segunda, ya que la primera ruta es &quot;superior&quot;. Para cambiar esta prioridad, mueva las actividades en otro orden vertical.
+Por ejemplo, tomemos el ejemplo de la condición de una primera ruta &quot;La persona es un VIP&quot; y la condición de una segunda ruta &quot;La persona es un hombre&quot;. Si una persona que cumple ambas condiciones (un hombre que es un VIP) supera este paso, se elegirá la primera ruta aunque esta persona también sea elegible para la segunda, ya que la primera ruta es &quot;superior&quot;. Para cambiar esta prioridad, mueva las actividades en otro orden vertical.
 
 ![](../assets/journey48.png)
 
