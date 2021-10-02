@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
+exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
+source-git-commit: 138adc4b548e5d8ba744037db2d35150b6876867
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '996'
 ht-degree: 4%
 
 ---
@@ -118,7 +119,7 @@ Puede utilizar condiciones para realizar la segmentación mediante la actividad 
 La segmentación puede basarse en:
 
 * datos de origen de datos
-* el contexto de los eventos que forman parte de los datos de recorrido, por ejemplo: ¿hizo una persona clic en el mensaje que recibió hace una hora?
+* el contexto de los eventos que forman parte de los datos de recorrido, por ejemplo: ¿hizo una persona clic en el mensaje recibido hace una hora?
 * una fecha, por ejemplo: ¿estamos en junio cuando una persona pasa por el recorrido?
 * una hora, por ejemplo: ¿es la mañana en la zona horaria de la persona?
 * un algoritmo que divide la audiencia que fluye en el recorrido en función de un porcentaje, por ejemplo: 90 % - 10 % para excluir un grupo de control
