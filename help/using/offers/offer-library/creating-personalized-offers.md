@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 41f43f6e702dbadfcd28d14154895a65ec15ed65
+source-git-commit: 86fc6d9df06b975539652cc44ec41fd8c8318404
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1328'
 ht-degree: 4%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 4%
 Antes de crear una oferta, asegúrese de que ha creado:
 
 * Una **ubicación** en la que se mostrará la oferta. Consulte [Crear ubicaciones](../offer-library/creating-placements.md)
-* Una **regla de decisión** que definirá la condición bajo la cual se presentará la oferta. Consulte [Crear reglas de decisión](../offer-library/creating-decision-rules.md).
-* Una o varias **etiquetas** que desea asociar a la oferta. Consulte [Crear etiquetas](../offer-library/creating-tags.md).
+* Si desea agregar una condición de elegibilidad: una **regla de decisión** que definirá la condición bajo la cual se presentará la oferta. Consulte [Crear reglas de decisión](../offer-library/creating-decision-rules.md).
+* Una o varias **etiquetas** que puede que desee asociar a la oferta. Consulte [Crear etiquetas](../offer-library/creating-tags.md).
 
 ➡️ [Descubra esta función en vídeo](#video)
 
@@ -45,7 +45,7 @@ Para crear una **oferta**, siga estos pasos:
 
 ## Configuración de las representaciones de la oferta {#representations}
 
-Una oferta se puede mostrar en diferentes lugares de un mensaje: en un banner superior con una imagen, como texto en un párrafo, como un bloque HTML, etc. Cuantas más representaciones tenga una oferta, más oportunidades habrá de utilizar la oferta en diferentes contextos de ubicación.
+Una oferta se puede mostrar en diferentes lugares de un mensaje: en un banner superior con una imagen, como texto en un párrafo, como bloque de HTML, etc. Cuantas más representaciones tenga una oferta, más oportunidades habrá de utilizar la oferta en diferentes contextos de ubicación.
 
 Para añadir una o varias representaciones a la oferta y configurarlas, siga los pasos a continuación.
 
