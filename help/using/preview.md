@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 5c4aca7666987ed188e69f3b5772950c0bf96488
+source-git-commit: c0c397818020126b175eeb8f75f3cfd56029a2f6
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '976'
 ht-degree: 3%
 
 ---
@@ -122,13 +122,19 @@ Una vez seleccionados los [perfiles de prueba](#select-test-profiles), puede env
 
    ![](assets/send-proof-button.png)
 
-1. En la ventana **[!UICONTROL Send proof]**, además de los perfiles de prueba, escriba el correo electrónico del destinatario y haga clic en **[!UICONTROL Add]** para enviarlo a usted mismo o a los miembros de sus organizaciones.
+1. En la ventana **[!UICONTROL Send proof]** , escriba el correo electrónico del destinatario y haga clic en **[!UICONTROL Add]** para enviarlo a usted mismo o a los miembros de sus organizaciones.
 
-   Tenga en cuenta que puede añadir hasta 10 destinatarios para la entrega de prueba.
+   Tenga en cuenta que puede añadir hasta diez destinatarios para la entrega de prueba.
 
    ![](assets/send-proof-button_2.png)
 
-1. A continuación, seleccione los perfiles de prueba que recibirán la prueba y haga clic en **[!UICONTROL Send proof]**. Puede añadir un prefijo a la línea de asunto de la prueba si es necesario. Solo caracteres alfanuméricos y caracteres especiales, por ejemplo, . - _ ( ) [ ], se permiten como prefijo a la línea de asunto.
+1. A continuación, seleccione los **Test profiles** que se utilizarán para personalizar el contenido del mensaje.
+
+   Cada destinatario de la prueba recibe tantos mensajes como el número de perfiles de prueba seleccionados. Por ejemplo, si ha añadido cinco correos electrónicos de destinatario y ha seleccionado diez perfiles de prueba, enviará cincuenta mensajes de prueba y cada destinatario recibirá diez de ellos.
+
+1. Puede añadir un prefijo a la línea de asunto de la prueba si es necesario. Solo caracteres alfanuméricos y caracteres especiales, por ejemplo, . - _ ( ) [ ], se permiten como prefijo a la línea de asunto.
+
+1. Haga clic en **[!UICONTROL Send proof]**.
 
    ![](assets/send-proof-select.png)
 
@@ -136,11 +142,11 @@ Una vez seleccionados los [perfiles de prueba](#select-test-profiles), puede env
 
    ![](assets/send-proof-view.png)
 
-Debe enviar pruebas después de cualquier modificación en el contenido del mensaje.
+Se recomienda enviar pruebas después de cada modificación al contenido del mensaje.
 
 >[!NOTE]
 >
-> En la prueba enviada a los perfiles de prueba, el vínculo a la página espejo no está activo. Solo se activa en los mensajes finales.
+>En la prueba enviada a los perfiles de prueba, el vínculo a la página espejo no está activo. Solo se activa en los mensajes finales.
 
 ## Procesamiento de correo electrónico{#email-rendering}
 
