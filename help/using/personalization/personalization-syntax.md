@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 1cf3475d7b2b990db4b2217bb03a47b76692142c
+source-git-commit: 676f81e1cb41ea65a1dd0444424b331ce54da786
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 4%
@@ -15,10 +15,10 @@ ht-degree: 4%
 
 # Sintaxis de personalización {#personalization-syntax}
 
-La personalización en [!DNL Journey Optimizer] se basa en la sintaxis de plantilla denominada Handlebars.
+Personalización en [!DNL Journey Optimizer] se basa en la sintaxis de plantilla denominada Handlebars.
 Para obtener una descripción completa de la sintaxis de Handlebars, consulte [Documentación de HandlebarsJS](https://handlebarsjs.com/).
 
-Utiliza una plantilla y un objeto de entrada para generar HTML u otros formatos de texto. Las plantillas de Handlebars tienen el aspecto de texto normal con expresiones de Handlebars incrustadas.
+Utiliza una plantilla y un objeto de entrada para generar un HTML u otros formatos de texto. Las plantillas de Handlebars tienen el aspecto de texto normal con expresiones de Handlebars incrustadas.
 
 Ejemplo de expresión simple:
 
@@ -39,15 +39,15 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 La sintaxis distingue entre mayúsculas y minúsculas.
 
-Las palabras **true**, **false**, **null** y **undefined** solo están permitidas en la primera parte de una expresión de ruta.
+Las palabras **true**, **false**, **null** y **undefined** solo se permiten en la primera parte de una expresión de ruta.
 
-En Handlebars, los valores devueltos por {{expression}} son **HTML-escaped**. Si la expresión contiene `&`, la salida de escape HTML devuelta se genera como `&amp;`. Si no desea que Handlebars escape un valor, utilice el &quot;triple stash&quot;.
+En Handlebars, los valores devueltos por {{expression}} son **HTML escapado**. Si la expresión contiene `&`, la salida de escape del HTML que se devuelve se genera como `&amp;`. Si no desea que Handlebars escape un valor, utilice el &quot;triple stash&quot;.
 
 ## Perfil
 
-Este espacio de nombres le permite hacer referencia a todos los atributos definidos en el esquema de perfil descrito en la documentación del [Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+Este espacio de nombres le permite hacer referencia a todos los atributos definidos en el esquema de perfil descrito en [Documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
 
-Los atributos deben definirse en el esquema antes de hacer referencia a ellos en un bloque personalizado [!DNL Journey Optimizer].
+Los atributos deben definirse en el esquema antes de hacer referencia a ellos en un [!DNL Journey Optimizer] bloque personalizado.
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ Los atributos deben definirse en el esquema antes de hacer referencia a ellos en
 Aprenda a aprovechar los atributos de perfil en condiciones de [esta sección](functions/helpers.md#if-function).
 
 >[!NOTE]
->Para obtener más información sobre el servicio de segmentación y segmentación, consulte [esta sección](../segment/about-segments.md).
+>Para obtener más información sobre segmentación y servicio de segmentación, consulte [esta sección](../segment/about-segments.md).
 
 ## Ofertas
 
@@ -89,12 +89,12 @@ dónde:
 
 * `offers` identifica la expresión de ruta que pertenece al espacio de nombres de la oferta
 * `Type`  determina el tipo de representación de la oferta. Los valores posibles son: `image`, `html` y `text`
-* `Placement Id` y  `Activity Id` son identificadores de ubicación y actividad
+* `Placement Id` y `Activity Id` son identificadores de ubicación y actividad
 * `Attributes` son atributos específicos de oferta que dependen del tipo de oferta. Ejemplo: `deliveryUrl` para imágenes
 
 Para obtener más información sobre la API de decisiones y sobre la representación de ofertas, consulte [esta página](../../using/offers/api-reference/decisions-api/deliver-offers.md)
 
-Todas las referencias se validan con Esquema de ofertas con un mecanismo de validación descrito en [esta página](personalization-validation.md)
+Todas las referencias se validan con el esquema de ofertas con un mecanismo de validación descrito en [esta página](personalization-validation.md)
 
 **Referencias de muestra:**
 
@@ -110,7 +110,7 @@ Todas las referencias se validan con Esquema de ofertas con un mecanismo de vali
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* Contenido HTML de la oferta procedente del motor de toma de decisiones:
+* contenido del HTML de la oferta procedente del motor de toma de decisiones:
 
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
@@ -121,7 +121,7 @@ Un asistente de Handlebars es un identificador simple que puede ir seguido de pa
 Cada parámetro es una expresión Handlebars. Se puede acceder a estos asistentes desde cualquier contexto en una plantilla.
 
 Estos ayudantes de bloque se identifican con un # que precede al nombre del ayudante y requieren un / de cierre coincidente, del mismo nombre.
-Los bloques son expresiones que tienen una apertura de bloque ({{# }}) y un cierre ({{/}}).
+Los bloques son expresiones que tienen una apertura de bloque ({{# }}) y cierre ({/}}).
 
 
 >[!NOTE]
@@ -141,13 +141,13 @@ Los bloques son expresiones que tienen una apertura de bloque ({{# }}) y un cier
 
 >[!CAUTION]
 >
->El uso de la variable **xEvent** no está disponible en las expresiones de personalización. Cualquier referencia a xEvent producirá errores de validación.
+>El uso de **xEvent** no está disponible en expresiones de personalización. Cualquier referencia a xEvent producirá errores de validación.
 
 ## Personalización de URL{#perso-urls}
 
-Journey Orchestration le permite personalizar una o varias direcciones URL en el mensaje al agregarles campos de personalización. Para ello:
+Journey Optimizer le permite personalizar una o varias direcciones URL en el mensaje al agregarles campos de personalización. Para ello:
 
-* Cree un vínculo en el contenido de correo electrónico o push. Para obtener más información sobre la creación de vínculos, consulte [esta página](../message-tracking.md#insert-links)).
+* Cree un vínculo en el contenido de correo electrónico o push. Para obtener más información sobre la creación de vínculos, consulte [esta página](../message-tracking.md#insert-links).
 * Haga clic en el icono de personalización. Este icono está disponible para estos tipos específicos de vínculos: **Vínculo externo**, **Vínculo de baja** y **Exclusión**.
 
 ![](assets/perso-url.png)
@@ -156,7 +156,7 @@ Journey Orchestration le permite personalizar una o varias direcciones URL en el
 >
 >En el editor de expresiones, al editar una URL personalizada, las funciones de ayuda y la pertenencia a segmentos se desactivan por motivos de seguridad.
 
-** URL personalizadas de ejemplo **
+**URL personalizadas de ejemplo**
 
 * `https://www.adobe.com/users/{{profile.person.name.lastName}}`
 * `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
