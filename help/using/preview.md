@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: c0c397818020126b175eeb8f75f3cfd56029a2f6
+source-git-commit: a9e65986c3ccd0dc54a54bc5f349f5c9c87c5039
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1023'
 ht-degree: 3%
 
 ---
@@ -30,19 +30,28 @@ Para probar el contenido del mensaje, debe:
 * [seleccionar perfiles de prueba](#select-test-profiles)
 * [comprobar la vista previa del mensaje](#preview-your-messages)
 
-A continuación, podrá [enviar pruebas](#send-proofs) a sus perfiles de prueba.
+Entonces podrá [enviar pruebas](#send-proofs) a los perfiles de prueba.
 
-Además, aproveche su cuenta **Litmus** en [!DNL Journey Optimizer] para previsualizar instantáneamente su **procesamiento de correo electrónico** en clientes de correo electrónico populares. A continuación, puede asegurarse de que el contenido del correo electrónico tenga un aspecto bueno y funcione correctamente en cada bandeja de entrada. Aprenda a desbloquear las vistas previas de correo electrónico de Litmus en [esta sección](#email-rendering)
+Además, aproveche el **Litmus** account en [!DNL Journey Optimizer] para previsualizar instantáneamente su **procesamiento de correo electrónico** en clientes de correo electrónico populares. A continuación, puede asegurarse de que el contenido del correo electrónico tenga un aspecto bueno y funcione correctamente en cada bandeja de entrada. Obtenga información sobre cómo desbloquear las vistas previas de correo electrónico de Litmus en [esta sección](#email-rendering)
 
 >[!CAUTION]
 >
->Al obtener una vista previa de un mensaje o enviar pruebas, solo se muestran los datos de personalización del perfil. La personalización basada en datos de contexto, como la información de evento, solo se puede probar en el contexto de un recorrido. Aprenda a probar la personalización en [este caso de uso](personalization/personalization-use-case.md).
+>Al obtener una vista previa de un mensaje o enviar pruebas, solo se muestran los datos de personalización del perfil. La personalización basada en datos de contexto, como la información de evento, solo se puede probar en el contexto de un recorrido. Obtenga información sobre cómo probar la personalización en [este caso de uso](personalization/personalization-use-case.md).
 
-➡️ [Obtenga información sobre cómo previsualizar, probar y publicar su correo electrónico en este vídeo](#video-preview)
+➡️ [Aprenda a previsualizar, probar y publicar su correo electrónico en este vídeo](#video-preview)
 
 ## Seleccionar perfiles de prueba{#select-test-profiles}
 
-Utilice [Test profiles](building-journeys/creating-test-profiles.md) para dirigirse a destinatarios adicionales que no coincidan con los criterios de objetivo definidos.
+>[!CONTEXTUALHELP]
+>id="ac_preview_testprofiles"
+>title="Previsualizar y probar los mensajes"
+>abstract="Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#email-rendering" text="Procesamiento de correo electrónico"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#preview-your-messages" text="Vista previa"
+
+
+
+Uso [Perfiles de prueba](building-journeys/creating-test-profiles.md) para dirigirse a destinatarios adicionales que no coincidan con los criterios de objetivo definidos.
 
 Para seleccionar perfiles de prueba, siga los pasos a continuación:
 
@@ -50,13 +59,13 @@ Para seleccionar perfiles de prueba, siga los pasos a continuación:
 
    ![](assets/email-preview-button.png)
 
-1. Seleccione el espacio de nombres que se utilizará para identificar los perfiles de prueba haciendo clic en el icono de selección **[!UICONTROL Identity namespace]** .
+1. Seleccione el espacio de nombres que se utilizará para identificar los perfiles de prueba haciendo clic en el botón **[!UICONTROL Identity namespace]** icono de selección.
 
    ![](assets/previewselect-namespace.png)
 
-   Obtenga más información sobre los espacios de nombres de identidad [de Adobe Experience Platform en esta sección](get-started-identity.md){target=&quot;_blank&quot;}.
+   Obtenga más información sobre las áreas de nombres de identidad de Adobe Experience Platform [en esta sección](get-started-identity.md){target=&quot;_blank&quot;}.
 
-   En el siguiente ejemplo, utilizaremos el espacio de nombres **Email**.
+   En el ejemplo siguiente, utilizaremos la variable **Correo electrónico** espacio de nombres.
 
 1. Utilice el campo de búsqueda para encontrar el área de nombres, selecciónela y haga clic en **[!UICONTROL Select]**
 
@@ -74,15 +83,15 @@ Para seleccionar perfiles de prueba, siga los pasos a continuación:
 
 ## Vista previa de mensajes{#preview-your-messages}
 
-Una vez seleccionados los [perfiles de prueba](#select-test-profiles), puede obtener una vista previa de los mensajes y comprobar el contenido.
+Una vez [perfiles de prueba](#select-test-profiles) están seleccionados, puede obtener una vista previa de los mensajes y comprobar el contenido.
 
-1. Haga clic en la pestaña **[!UICONTROL Preview]** para probar el mensaje.
+1. Haga clic en el **[!UICONTROL Preview]** para probar el mensaje.
 
 1. Seleccione un perfil de prueba. Puede comprobar los valores disponibles en las columnas. Utilice las flechas derecha/izquierda para examinar los datos.
 
    ![](assets/preview-tab-select-profile.png)
 
-1. Haga clic en el icono **[!UICONTROL Select data]** situado encima de la lista para añadir o quitar columnas.
+1. Haga clic en el **[!UICONTROL Select data]** sobre la lista para añadir o quitar columnas.
 
    ![](assets/preview-select-data.png)
 
@@ -98,7 +107,7 @@ Una vez seleccionados los [perfiles de prueba](#select-test-profiles), puede obt
 
 Para una vista previa de notificaciones push:
 
-1. Cambie al canal **[!UICONTROL Push]** desde la lista desplegable **[!UICONTROL Channels]** situada en la parte superior derecha de la pantalla **[!UICONTROL Preview]**.
+1. Cambie a la **[!UICONTROL Push]** desde el **[!UICONTROL Channels]** lista desplegable en la parte superior derecha del **[!UICONTROL Preview]** en el Navegador.
 
    ![](assets/preview-select-channel.png)
 
@@ -116,19 +125,19 @@ Para una vista previa de notificaciones push:
 
 Una prueba es un mensaje específico que le permite probar un mensaje antes de enviarlo a la audiencia principal. Los destinatarios de la prueba se encargan de aprobar el mensaje: renderización, contenido, configuración de personalización, configuración.
 
-Una vez seleccionados los [perfiles de prueba](#select-test-profiles), puede enviar pruebas.
+Una vez [perfiles de prueba](#select-test-profiles) , puede enviar pruebas.
 
-1. En la pantalla **[!UICONTROL Preview]**, haga clic en el botón **[!UICONTROL Send proof]**.
+1. En el **[!UICONTROL Preview]** , haga clic en **[!UICONTROL Send proof]** botón.
 
    ![](assets/send-proof-button.png)
 
-1. En la ventana **[!UICONTROL Send proof]** , escriba el correo electrónico del destinatario y haga clic en **[!UICONTROL Add]** para enviarlo a usted mismo o a los miembros de sus organizaciones.
+1. En el **[!UICONTROL Send proof]** , escriba el correo electrónico del destinatario y haga clic en **[!UICONTROL Add]** para enviarla a usted o a los miembros de su organización.
 
    Tenga en cuenta que puede añadir hasta diez destinatarios para la entrega de prueba.
 
    ![](assets/send-proof-button_2.png)
 
-1. A continuación, seleccione los **Test profiles** que se utilizarán para personalizar el contenido del mensaje.
+1. A continuación, seleccione la **Perfiles de prueba** que se utilizará para personalizar el contenido del mensaje.
 
    Cada destinatario de la prueba recibe tantos mensajes como el número de perfiles de prueba seleccionados. Por ejemplo, si ha añadido cinco correos electrónicos de destinatario y ha seleccionado diez perfiles de prueba, enviará cincuenta mensajes de prueba y cada destinatario recibirá diez de ellos.
 
@@ -138,7 +147,7 @@ Una vez seleccionados los [perfiles de prueba](#select-test-profiles), puede env
 
    ![](assets/send-proof-select.png)
 
-1. Vuelva a la pantalla **[!UICONTROL Preview]**, haga clic en el botón **[!UICONTROL View proofs]** para comprobar el estado.
+1. Atrás en el  **[!UICONTROL Preview]** , haga clic en  **[!UICONTROL View proofs]** para comprobar el estado.
 
    ![](assets/send-proof-view.png)
 
@@ -150,7 +159,7 @@ Se recomienda enviar pruebas después de cada modificación al contenido del men
 
 ## Procesamiento de correo electrónico{#email-rendering}
 
-Puede aprovechar su cuenta **Litmus** en [!DNL Journey Optimizer] para previsualizar instantáneamente su **procesamiento de correo electrónico** en los clientes de correo electrónico más populares.
+Puede aprovechar el **Litmus** account en [!DNL Journey Optimizer] para previsualizar instantáneamente su **procesamiento de correo electrónico** en clientes de correo electrónico populares.
 
 Para acceder a las funciones de procesamiento de correo electrónico, debe:
 
@@ -159,7 +168,7 @@ Para acceder a las funciones de procesamiento de correo electrónico, debe:
 
 A continuación, siga los pasos a continuación:
 
-1. En el Diseñador de correo electrónico, haga clic en el botón **[!UICONTROL Preview]** y seleccione la pestaña **[!UICONTROL Email rendering]**.
+1. En el Diseñador de correo electrónico, haga clic en la **[!UICONTROL Preview]** y seleccione **[!UICONTROL Email rendering]** pestaña .
 
 1. Haga clic en **Conecte su cuenta de Litmus** en la sección superior derecha.
 
@@ -169,7 +178,7 @@ A continuación, siga los pasos a continuación:
 
    ![](assets/email-rendering-credentials.png)
 
-1. Haga clic en el botón **Run test** para generar vistas previas por correo electrónico.
+1. Haga clic en el **Ejecutar prueba** para generar vistas previas de correo electrónico.
 
 1. Compruebe el contenido del correo electrónico en los clientes populares de escritorio, móviles y basados en la web.
 
@@ -177,7 +186,7 @@ A continuación, siga los pasos a continuación:
 
 >[!CAUTION]
 >
->Al conectar su cuenta **Litmus** con [!DNL Journey Optimizer], acepta que los mensajes de prueba se envíen a Litmus: una vez enviados, estos correos electrónicos ya no se administran mediante Adobe. Como consecuencia, la política de retención de datos de Litmus por correo electrónico se aplica a estos correos electrónicos, incluidos los datos de personalización que pueden incluirse en estos mensajes de prueba.
+>Al conectar el **Litmus** cuenta con [!DNL Journey Optimizer], acepta que los mensajes de prueba se envíen a Litmus: una vez enviados, estos correos electrónicos ya no se administran mediante Adobe. Como consecuencia, la política de retención de datos de Litmus por correo electrónico se aplica a estos correos electrónicos, incluidos los datos de personalización que pueden incluirse en estos mensajes de prueba.
 
 ## Vídeo explicativo{#video-preview}
 
