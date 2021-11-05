@@ -1,21 +1,21 @@
 ---
-title: Biblioteca de funciones de ayuda
+title: Introducción a las funciones de ayuda
 description: Biblioteca de funciones de Journey Optimizer Helper
-feature: Personalización
-topic: Personalización
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
+source-git-commit: 94dcf91e98ef343eed4c69a7251427809eece236
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 3%
+source-wordcount: '1344'
+ht-degree: 4%
 
 ---
 
+# Introducción a las funciones de ayuda{#functionsL}
 
-# Biblioteca de funciones de ayuda{#functionsL}
-
-Utilice el lenguaje de plantilla [!DNL Journey Optimizer] para realizar operaciones con los datos, como cálculos, formatos de datos o conversiones, condiciones y manipularlos en el contexto de la personalización. Conozca las directrices de sintaxis de personalización en [esta página](../personalization-syntax.md).
+Uso [!DNL Journey Optimizer] crear plantillas de idioma para realizar operaciones con datos, como cálculos, formato de datos o conversiones, condiciones y manipularlas en el contexto de la personalización. Conozca las directrices de sintaxis de personalización en [esta página](../personalization-syntax.md).
 
 ➡️ [Descubra cómo utilizar las funciones de ayuda](#video) (vídeo)
 
@@ -23,13 +23,17 @@ El lenguaje de plantilla se aprovecha en las funciones de ayuda disponibles en l
 
 ![](../assets/access-helper-functions.png)
 
+En el [!DNL Journey Optimizer] El Editor de expresiones, las funciones de ayuda se agrupan en tres categorías: [Funciones](#functions-helper), [Ayudantes](#helper-helper) y [Operadores](#operators-helper).
 
+Seleccione una categoría para acceder a las subcategorías y funciones.
 
-En el Editor de expresiones [!DNL Journey Optimizer], las funciones de ayuda se agrupan en tres categorías: [Funciones](#functions-helper), [Ayuda](#helper-helper) y [Operadores](#operators-helper).
+Para acceder a las subcategorías, haga clic en el botón `>` icono. Para seleccionar una función, haga clic en el botón `+` icono: la función se añade automáticamente a la pantalla de personalización.
+
+Haga clic en el `...` para ver la descripción de la función y agregarla a sus favoritos. [Más información](../personalize.md#fav)
 
 ## Funciones{#functions-helper}
 
-**Funciones de matriz**
+### Funciones de matriz
 
 <table>
     <tr>
@@ -79,8 +83,43 @@ En el Editor de expresiones [!DNL Journey Optimizer], las funciones de ayuda se 
     </tr>
 </table>
 
+### Funciones de fecha y hora{#date-functions}
 
-**Funciones de mapa**
+<table>
+    <tr>
+        <td><a href="dates.md#age">Edad</a></td><td>Esta función recupera la edad de una fecha determinada</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#current">Tiempo actual en milisegundos</a></td><td>Esta función recupera la hora actual en milisegundos de epoch</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#date-diff">Diferencia de fechas</a></td><td>Esta función recupera la diferencia entre dos fechas en número de días</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-week">Día de la semana</a></td><td>Esta función recupera el día de la semana</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-year">Día del año</a></td><td>Esta función recupera el día del año</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#format-date">Formato de fecha</a></td><td>Esta función da formato a un valor de fecha y hora</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-days">Días establecidos</a></td><td>Esta función establece el día del mes para la fecha y hora dadas</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-hours">Días establecidos</a></td><td>Esta función establece la hora de la fecha y la hora</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#to-utc">A UTC</a></td><td>Esta función convierte una fecha y hora a UTC</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#week-of-year">Semana del año</a></td><td>Esta función devuelve la semana del año</td>
+    </tr>
+</table>
+</table>
+
+### Funciones de mapa
 
 <table>
     <tr>
@@ -105,7 +144,7 @@ En el Editor de expresiones [!DNL Journey Optimizer], las funciones de ayuda se 
     </tr>
 </table>
 
-**Funciones de cadena**
+### Funciones de cadena
 
 <table>
     <tr>
@@ -167,7 +206,7 @@ En el Editor de expresiones [!DNL Journey Optimizer], las funciones de ayuda se 
         <td><a href="string.md#regexGroup">Grupo de expresiones regulares</a></td><td>Esta función se utiliza para extraer información específica, en función de la expresión regular proporcionada</td>
     </tr>
     <tr>
-        <td><a href="string.md#replace">Replace</a></td><td>Esta función sustituye una subcadena determinada de una cadena por otra subcadena</td>
+        <td><a href="string.md#replace">Reemplazar</a></td><td>Esta función sustituye una subcadena determinada de una cadena por otra subcadena</td>
     </tr>
     <tr>
         <td><a href="string.md#replaceAll">Reemplazar todo</a></td><td>Esta función reemplaza todas las subcadenas de un texto que coincida con el "destino" por la cadena de sustitución del literal especificado</td>
@@ -195,7 +234,7 @@ En el Editor de expresiones [!DNL Journey Optimizer], las funciones de ayuda se 
 
 ## Ayudantes{#helper-helper}
 
-Los colaboradores se detallan en [esta página](helpers.md).
+Los ayudantes se detallan en [esta página](helpers.md).
 
 
 <table>

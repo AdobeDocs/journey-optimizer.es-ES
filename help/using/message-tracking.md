@@ -6,20 +6,20 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: c6db89093e1ec5b7d9fe084cec58b8b7664c6ab2
 workflow-type: tm+mt
 source-wordcount: '791'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 # Adición de vínculos y seguimiento de mensajes {#tracking}
 
-Utilice [!DNL Journey Optimizer] para añadir vínculos al contenido y rastrear los mensajes enviados para controlar el comportamiento de los destinatarios.
+Uso [!DNL Journey Optimizer] para añadir vínculos al contenido y realizar un seguimiento de los mensajes enviados para controlar el comportamiento de los destinatarios.
 
 ## Habilitar el seguimiento {#enable-tracking}
 
-Puede habilitar el seguimiento a nivel de mensaje de correo electrónico comprobando las opciones **[!UICONTROL Open Tracking for email]** o **[!UICONTROL Click Tracking for email]** al [crear su mensaje](create-message.md).
+Puede habilitar el seguimiento a nivel de mensaje de correo electrónico comprobando la variable **[!UICONTROL Open Tracking for email]** y/o **[!UICONTROL Click Tracking for email]** opciones [crear el mensaje](create-message.md).
 
 ![](assets/message-tracking.png)
 
@@ -28,20 +28,21 @@ Puede habilitar el seguimiento a nivel de mensaje de correo electrónico comprob
 >Ambas opciones están habilitadas de forma predeterminada.
 
 Esto le permite hacer un seguimiento del comportamiento de sus destinatarios a través de:
+
 * **[!UICONTROL Open Tracking for email]**: Mensajes que se han abierto.
 * **[!UICONTROL Click Tracking for email]**: Haga clic en los vínculos de un correo electrónico.
 
-## Insertar vínculos {#insert-links}
+## Insert links {#insert-links}
 
 Al diseñar un mensaje, puede agregar vínculos al contenido.
 
 >[!NOTE]
 >
->Cuando [el seguimiento está habilitado](#enable-tracking), se realiza un seguimiento de todos los vínculos incluidos en el contenido del mensaje.
+>When [el seguimiento está habilitado](#enable-tracking), se rastrearán todos los vínculos incluidos en el contenido del mensaje.
 
 Para insertar vínculos en el contenido del correo electrónico, siga los pasos a continuación:
 
-1. Seleccione un elemento y haga clic en **[!UICONTROL Insert link]** en la barra de herramientas contextual.
+1. Seleccione un elemento y haga clic en **[!UICONTROL Insert link]** de la barra de herramientas contextual.
 
    ![](assets/message-tracking-insert-link.png)
 
@@ -61,7 +62,7 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
 1. Guarde los cambios.
 
-1. Una vez creado el vínculo, puede modificarlo desde el panel **[!UICONTROL Component settings]** de la derecha.
+1. Una vez creado el vínculo, puede modificarlo desde el **[!UICONTROL Component settings]** a la derecha.
 
    * Haga clic en el icono de lápiz para editar el vínculo.
    * Puede elegir subrayar el vínculo o no marcando la opción correspondiente.
@@ -72,7 +73,7 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
 La página espejo es una página HTML accesible en línea mediante un navegador web. Su contenido es idéntico al del correo electrónico.
 
-Para añadir un vínculo a una página espejo en el correo electrónico, [inserte un vínculo](#insert-links) y seleccione **[!UICONTROL Mirror page]** como tipo de vínculo.
+Para añadir un vínculo a una página espejo en el correo electrónico, [insertar un vínculo](#insert-links) y seleccione **[!UICONTROL Mirror page]** como tipo de vínculo.
 
 ![](assets/message-tracking-mirror-page.png)
 
@@ -86,25 +87,25 @@ Una vez enviado el correo electrónico, cuando los destinatarios hacen clic en e
 
 >[!NOTE]
 >
->En la [prueba](preview.md#send-proofs) enviada a los perfiles de prueba, el vínculo a la página espejo no está activo. Solo se activa en los mensajes finales.
+>En el [prueba](preview.md#send-proofs) enviado a los perfiles de prueba, el vínculo a la página espejo no está activo. Solo se activa en los mensajes finales.
 
 El período de retención de una página espejo es de 60 días. Después de ese retraso, la página espejo ya no estará disponible.
 
 ## Vínculo de no participación de un clic {#one-click-opt-out-link}
 
-Para permitir que los destinatarios cancelen rápidamente la suscripción a la recepción de comunicaciones de su marca, puede insertar un vínculo de exclusión de un solo clic en el contenido del correo electrónico. Esta capacidad evita que los usuarios se redirijan a una página de aterrizaje donde necesitan confirmar su elección, lo que acelera el proceso de cancelación de suscripción.
+To enable your recipients to quickly unsubscribe from receiving communications from your brand, you can insert a one-click opt-out link into your email content. Esta capacidad evita que los usuarios se redirijan a una página de aterrizaje donde necesitan confirmar su elección, lo que acelera el proceso de cancelación de suscripción.
 
 Para añadir un vínculo de no participación en el correo electrónico, siga los pasos a continuación.
 
-1. [Inserte un ](#insert-links) vínculo y seleccione  **[!UICONTROL Opt-out]** como tipo de vínculo.
+1. [Insert a link](#insert-links) and select **[!UICONTROL Opt-out]** as the type of link.
 
    ![](assets/message-tracking-opt-out.png)
 
-1. Seleccione cómo desea aplicar la exclusión: en el nivel de canal, identidad o suscripción.
+1. Select how you want to apply the opting out: at the channel, identity, or subscription level.
 
    ![](assets/message-tracking-opt-out-level.png)
 
-   * **[!UICONTROL Channel]**: La exclusión se aplica a mensajes futuros enviados al destinatario del perfil (es decir, la dirección de correo electrónico) para el canal actual. Si hay varios objetivos asociados a un perfil, la exclusión se aplica a todos los destinos (es decir, direcciones de correo electrónico) del perfil de ese canal.
+   * **[!UICONTROL Channel]**: The opt-out applies to future messages sent to the profile&#39;s target (i.e. email address) for the current channel. Si hay varios objetivos asociados a un perfil, la exclusión se aplica a todos los destinos (es decir, direcciones de correo electrónico) del perfil de ese canal.
    * **[!UICONTROL Identity]**: La exclusión se aplica a los mensajes futuros enviados al destinatario específico (es decir, la dirección de correo electrónico) que se estén utilizando para el mensaje actual.
    * **[!UICONTROL Subscription]**: La exclusión se aplica a mensajes futuros asociados a una lista de suscripción específica. Esta opción solo se puede seleccionar si el mensaje actual está asociado con una lista de suscripción.
 
@@ -112,7 +113,7 @@ Para añadir un vínculo de no participación en el correo electrónico, siga lo
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
-   Puede personalizar los vínculos. Obtenga más información sobre las direcciones URL personalizadas en [esta sección](personalization/personalization-syntax.md).
+   Puede personalizar los vínculos. Learn more on personalized URLs in [this section](personalization/personalization-syntax.md).
 
 1. Guarde los cambios.
 
@@ -120,17 +121,17 @@ Una vez enviado el mensaje, si los destinatarios hacen clic en el vínculo de ex
 
 ## Administrar seguimiento {#manage-tracking}
 
-El [Diseñador de correo electrónico](create-email-content.md) le permite administrar las direcciones URL rastreadas, como editar el tipo de seguimiento para cada vínculo.
+La variable [Diseñador de correo electrónico](create-email-content.md) le permite administrar las direcciones URL rastreadas, como editar el tipo de seguimiento para cada vínculo.
 
-1. Haga clic en el icono **[!UICONTROL Links]** del panel izquierdo para mostrar la lista de todas las direcciones URL del contenido que se rastreará.
+1. Haga clic en el **[!UICONTROL Links]** del panel izquierdo para mostrar la lista de todas las direcciones URL del contenido de las que se realizará un seguimiento.
 
    Esta lista permite tener una vista centralizada y localizar cada URL en el contenido del correo electrónico.
 
-1. Para editar un vínculo, haga clic en el icono de lápiz correspondiente.
+1. To edit a link, click the corresponding pencil icon.
 
    ![](assets/message-tracking-edit-links.png)
 
-1. Puede modificar el **[!UICONTROL Tracking Type]** si es necesario:
+1. You can modify the **[!UICONTROL Tracking Type]** if needed:
 
 
    ![](assets/message-tracking-edit-a-link.png)
@@ -140,8 +141,8 @@ El [Diseñador de correo electrónico](create-email-content.md) le permite admin
    * **[!UICONTROL Tracked]**: Activa el seguimiento en esta dirección URL.
    * **[!UICONTROL Opt out]**: Considera esta URL como una URL de exclusión o de baja.
    * **[!UICONTROL Mirror page]**: Considera que esta URL es una URL de página espejo.
-   * **[!UICONTROL Never]**: Nunca activa el seguimiento de esta dirección URL.  <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL Never]**: Nunca activa el seguimiento de esta dirección URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-El número de mensajes que se han abierto y el número de vínculos en los que se ha hecho clic se enumeran en la [ficha Ejecuciones](message-monitoring.md).
+El número de mensajes que se han abierto y el número de vínculos en los que se ha hecho clic se enumeran en la variable [Ficha Ejecuciones](message-monitoring.md).
 
-Los informes sobre aperturas y clics están disponibles en [Email Live report](reports/email-live-report.md) y en [Email Global report](reports/email-global-report.md).
+Los informes de aperturas y clics están disponibles en la [Informe de Email Live](reports/email-live-report.md) y en el [Informe global de correo electrónico](reports/email-global-report.md).

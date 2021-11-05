@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 3c21d797c85c2dabbec77f109b160fbd77170da5
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 80%
+ht-degree: 79%
 
 ---
 
@@ -24,7 +24,7 @@ Las regulaciones como el RGPD establecen que debe cumplir con requisitos especí
 * El incumplimiento de estas regulaciones conlleva riesgos legales para su marca.
 * Le ayuda a evitar enviar comunicaciones no solicitadas a sus destinatarios, lo que podría hacer que marquen sus mensajes como correo no deseado y dañar su reputación.
 
-Obtenga más información sobre la administración de privacidad y las regulaciones aplicables en la [documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es-ES){target=&quot;_blank&quot;}.
+Obtenga más información sobre la administración de la privacidad y las normas aplicables en la [documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es-ES){target=&quot;_blank&quot;}.
 
 <!--* Recipients should be able to opt-in/opt-out from receiving electronic communication through one or more channel
 * Recipients expect the brand to offer preference centre capability that controls how brand should engage with them (example: channel of communication, invasive and non-invasive tracking etc). This helps to fulfil regulatory obligations and also facilitates quality engagement with recipient. 
@@ -35,6 +35,7 @@ Obtenga más información sobre la administración de privacidad y las regulacio
 Proporcionar a los destinatarios la capacidad de cancelar su suscripción a la recepción de comunicaciones de una marca es un requisito legal. Obtenga más información sobre la legislación aplicable en la [documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target=&quot;_blank&quot;}.
 
 Por lo tanto, siempre debe incluir un **enlace para cancelar la suscripción** en cada correo electrónico enviado a los destinatarios:
+
 * Al hacer clic en este vínculo, los destinatarios se dirigen a una página de aterrizaje que incluye un botón para confirmar la exclusión.
 * Al hacer clic en el botón de exclusión, se realiza una llamada de Adobe I/O para actualizar los datos de perfil con esta información. [Obtenga más información relacionada](#consent-service-api).
 
@@ -56,7 +57,7 @@ Para añadir un vínculo para cancelar la suscripción, siga los pasos a continu
 
    ![](assets/opt-out-link-type.png)
 
-1. En el marco **[!UICONTROL Unsubscription page URL]**, copie el vínculo a la página de aterrizaje.
+1. En el **[!UICONTROL Link]** pegue el vínculo en la página de aterrizaje.
 
    ![](assets/opt-out-link-url.png)
 
@@ -99,6 +100,7 @@ Esta llamada del POST de Adobe I/O es la siguiente:
 Punto final: cjm.adobe.io/imp/consent/preferences
 
 Parámetros de consulta:
+
 * **params**: contiene la carga útil cifrada
 * **sig**: firma <!--which signature?-->
 * **pid**: ID de perfil cifrado
@@ -110,6 +112,7 @@ Estos parámetros están disponibles en el vínculo para cancelar la suscripció
 <!--QUESTION: How do you get the URL built for each recipient? Do you have to wait until each targeted recipient receives the unsubscribe link or can you deduce it in advance? Is it done automatically upon the API call or do you have to do something manually for each profile? In other words will the LP automatically include the 3 parameters or do you have to insert something manually? Still not completely clear-->
 
 Requisitos de encabezado:
+
 * x-api-key
 * x-gw-ims-org-id
 * x-sandbox-name
@@ -139,7 +142,7 @@ A medida que muchos clientes buscan un proceso más sencillo para darse de baja,
 
 Aprenda a añadir un vínculo de no participación al contenido del mensaje en [esta sección](message-tracking.md#one-click-opt-out-link).
 
-Una vez que el mensaje se envía a través de un [recorrido](building-journeys/journey.md), si un destinatario hace clic en el vínculo de exclusión, su perfil se excluye inmediatamente.
+Una vez que el mensaje se envía a través de una [recorrido](building-journeys/journey.md), si un destinatario hace clic en el vínculo de exclusión, su perfil se excluye inmediatamente.
 
 ## Vínculo de cancelación de suscripción en el encabezado {#unsubscribe-email}
 

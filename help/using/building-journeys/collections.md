@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Transmitir colecciones de forma dinámica mediante acciones personalizadas
 description: Envío de un mensaje mediante Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 61ec1d33ab500837bc0a58961f1abf5fc436e487
+source-git-commit: 0ab4cbed213a00d31861406f554e3e43e4591e57
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '442'
 ht-degree: 4%
 
 ---
@@ -52,23 +52,6 @@ Puede pasar una colección en parámetros de acción personalizados que se relle
    ```
 
 ## Limitaciones {#limitations}
-
-* No se admiten matrices de objetos que contengan subobjetos. Por ejemplo:
-
-   ```
-   {
-   "products":[
-     {
-        "id":"productA",
-        "name":"A",
-        "details": {
-        "color":"blue"
-        },
-        "price":20.0
-     }
-    ]
-   }
-   ```
 
 * En este momento no se admiten matrices anidadas de objetos dentro de una matriz de objetos. Por ejemplo:
 
@@ -118,7 +101,7 @@ Se puede ver que &quot;productos&quot; es una matriz de dos objetos. Debe tener 
 
 1. Cree su acción personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-1. En la sección **[!UICONTROL Action parameters]** , pegue el ejemplo de JSON. La estructura mostrada es estática: al pegar la carga útil, todos los campos se definen como constantes.
+1. En el **[!UICONTROL Action parameters]** , pegue el ejemplo de JSON. La estructura mostrada es estática: al pegar la carga útil, todos los campos se definen como constantes.
 
    ![](../assets/uc-collection-1.png)
 
@@ -140,7 +123,7 @@ Se puede ver que &quot;productos&quot; es una matriz de dos objetos. Debe tener 
 
 1. Cree el recorrido y añada la acción personalizada que ha creado. Consulte [esta página](../building-journeys/using-custom-actions.md).
 
-1. En la sección **[!UICONTROL Action parameters]**, defina el parámetro de matriz (&quot;productos&quot; en nuestro ejemplo) mediante el editor de expresiones avanzadas.
+1. En el **[!UICONTROL Action parameters]** , defina el parámetro de matriz (&quot;products&quot; en nuestro ejemplo) utilizando el editor de expresiones avanzadas.
 
    ![](../assets/uc-collection-3.png)
 
@@ -148,7 +131,7 @@ Se puede ver que &quot;productos&quot; es una matriz de dos objetos. Debe tener 
 
    ![](../assets/uc-collection-4.png)
 
-Para el campo de matriz, también puede utilizar el editor de expresiones avanzadas para realizar la manipulación de datos. En el siguiente ejemplo, se utilizan las funciones [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html) y [intersection](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html):
+Para el campo de matriz, también puede utilizar el editor de expresiones avanzadas para realizar la manipulación de datos. En el siguiente ejemplo, utilizamos la variable [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html) y [intersección](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html) funciones:
 
 ![](../assets/uc-collection-5.png)
 

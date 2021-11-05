@@ -6,14 +6,15 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
+exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
+source-git-commit: 1a55138dde7481a54141b3d3dd446e410c40c44c
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 37%
+source-wordcount: '202'
+ht-degree: 40%
 
 ---
 
-# Documentación de Adobe [!DNL Journey Optimizer] {#cjm-documentation}
+# Adobe [!DNL Journey Optimizer] Documentación {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
 
@@ -29,18 +30,25 @@ ht-degree: 37%
     <div>
       <a href="using/get-started.md">¿Qué es [!DNL Journey Optimizer]?</a>
     </div>
-    <p>Descubra las funciones principales y cómo empezar
+    <p>Descubra las características clave y los casos de uso
     <p>
     <div>
       <a href="using/release-notes.md">Notas de la versión</a>
     </div>
-    <p>Descubra las nuevas funciones, las últimas mejoras y correcciones
+    <p>Nuevas funciones, últimas mejoras y correcciones
+   <p>
+    <div>
+      <a href="using/quick-start.md">Guía de inicio rápido</a>
+    </div>
+    <p>
+    Obtenga información sobre cómo empezar como administrador, ingeniero de datos o profesional del Recorrido
+    <p>
     <p>
     <div>
       <a href="using/design-emails.md">Diseño de contenido de correo electrónico</a>
     </div>
     <p>
-    Diseñar un correo electrónico nuevo o importar un contenido HTML existente
+    Diseñar un correo electrónico nuevo o importar un contenido de HTML existente
     <p>
     <div>
       <a href="using/building-journeys/journeys-message.md">Entrega de mensajes</a>
@@ -58,9 +66,9 @@ ht-degree: 37%
     <p>Conozca los pasos clave para configurar [!DNL Journey Optimizer]
     <p>
     <div>
-    <a href="using/administration/permissions-overview.md">Conceder acceso a [!DNL Journey Optimizer]</a>
+    <a href="using/administration/permissions-overview.md">Concesión de acceso a [!DNL Journey Optimizer]</a>
     </div>
-    <p>Obtenga información sobre cómo definir y administrar los permisos asignados a usuarios de [!DNL Journey Optimizer]
+    <p>Defina y administre los permisos asignados a [!DNL Journey Optimizer] usuarios
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">Administración de decisiones</a>
@@ -79,7 +87,7 @@ ht-degree: 37%
     </div>
     <div>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es" target="_blank">Documentación de Adobe Experience Platform</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es" target="_blank">Documentación de Adobe Experience Platform </a>
     </li>
     </div>
       <div>

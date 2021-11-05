@@ -1,31 +1,32 @@
 ---
-title: Creación de un correo electrónico
+title: Crear un correo electrónico
 description: Obtenga información sobre cómo crear un correo electrónico en Journey Optimizer
-feature: Información general
-topic: Administración de contenido
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 80cd004d17dbbbe87fa5b15fc1bdc659fdc4e66f
+exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
+source-git-commit: 54b5a2c09ae9d7fd18f9b6a7d0053d78ae3e50b0
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 7%
+source-wordcount: '140'
+ht-degree: 4%
 
 ---
 
-# Creación de un correo electrónico {#configure-email}
+# Crear un correo electrónico {#configure-email}
 
-Una vez que [haya creado un mensaje](create-message.md), utilice la pestaña **[!UICONTROL Email]** para definir la configuración y el contenido del canal de correo electrónico.
+Una vez que [crear un mensaje](create-message.md), use el **[!UICONTROL Email]** para definir la configuración y el contenido del canal de correo electrónico.
 
 ![](assets/emails-configuration.png)
 
 >[!NOTE]
 >
->Los **[!UICONTROL From email]** y **[!UICONTROL From name]** son de solo lectura y están determinados por el **[!UICONTROL Preset]** que se ha seleccionado al [crear el mensaje](create-message.md).
+>La variable **[!UICONTROL From email]** y **[!UICONTROL From name]** son de solo lectura y están determinados por la variable **[!UICONTROL Preset]** que se haya seleccionado al [creación del mensaje](create-message.md).
 
 Los pasos para configurar un correo electrónico son los siguientes:
 
-1. Especifique los **[!UICONTROL Email subject]**. Para ello, haga clic en el botón de la derecha para abrir el editor de expresiones y componer el asunto del correo electrónico. Aprenda a añadir personalización en [esta sección](personalization/personalize.md)
+1. Especifique el asunto del correo electrónico en la **[!UICONTROL Subject line]** campo . Para ello, haga clic en el botón de la derecha para abrir el editor de expresiones y componer el asunto del correo electrónico. Aprenda a añadir personalización en [esta sección](personalization/personalize.md)
 
-1. Haga clic en el botón **[!UICONTROL Email Designer]** para diseñar su correo electrónico. Aprenda a diseñar correos electrónicos en [esta sección](design-emails.md).
+1. Haga clic en el **[!UICONTROL Email Designer]** para diseñar el correo electrónico. Aprenda a diseñar correos electrónicos en [esta sección](design-emails.md).
 
-1. Si desea rastrear el comportamiento de sus destinatarios a través de aperturas o clics en vínculos, asegúrese de que las opciones **[!UICONTROL Open Tracking for email]** y **[!UICONTROL Click Tracking for email]** estén habilitadas. Obtenga más información sobre el seguimiento en [esta sección](message-tracking.md).
+1. Si desea rastrear el comportamiento de sus destinatarios a través de aperturas o clics en vínculos, asegúrese de que la variable **[!UICONTROL Open Tracking for email]** y **[!UICONTROL Click Tracking for email]** están activadas. Obtenga más información sobre el seguimiento en [esta sección](message-tracking.md).
