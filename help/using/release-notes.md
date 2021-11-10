@@ -2,7 +2,7 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6cfd56d22cc18c044818dc73fc265ce5e882d36c
+source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
 workflow-type: tm+mt
 source-wordcount: '1996'
 ht-degree: 16%
@@ -74,7 +74,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <tr>
 <td>
 <p>Ahora puede personalizar el contenido de sus ofertas utilizando los atributos y segmentos de perfil de Adobe Experience Platform, utilizando el mismo componente de editor de expresiones que se encuentra en la interfaz de usuario de Journey Optimizer. </p>
-<p>Para obtener más información, consulte la <a href="offers/offer-library/creating-personalized-offers.md#content">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="offers/offer-library/creating-personalized-offers.md#custom-text">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -385,7 +385,7 @@ Consulte también [Notas de la versión de octubre de Adobe Experience Platform]
 ### Correcciones
 
 * Se ha corregido un problema que hacía que se enviaran mensajes duplicados para la entrega por lotes de correo electrónico.
-* Los eventos ahora se generan de forma acorde cuando el envío de correo electrónico no se realiza una vez finalizado el periodo de reintento.
+* Los eventos ahora se generan según corresponda cuando el envío de correo electrónico no se realiza una vez que ha finalizado el periodo de reintento.
 * Se ha corregido un problema por el que faltaba información de IP en la pantalla Registros de PTR .
 * Ya está implementada la localización en el carril de la oferta dentro del Editor de expresiones.
 * Se ha corregido un espaciado incorrecto en las ventanas emergentes de información.

@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para ofrecer experiencias conectadas, contextuales y personalizadas a los clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 699ebab2051d9ddfde20713a462490f11f9f7f1b
+source-git-commit: d575862cf7b6803e75b80ce6d1ff714ba319341b
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 89%
+source-wordcount: '758'
+ht-degree: 88%
 
 ---
 
@@ -225,7 +225,7 @@ ht-degree: 89%
             + [Delegar un subdominio](using/configuration/delegate-subdomain.md)
             + [Acceder a subdominios delegados](using/configuration/access-subdomains.md)
             + [Añadir un registro TXT de Google](using/configuration/google-txt.md)
-            + [Acceder a registros PTR](using/configuration/ptr-records.md)
+            + [Acceso y edición de registros PTR](using/configuration/ptr-records.md)
          + [Crear grupos de IP](using/configuration/ip-pools.md)
          + Supervisar las direcciones de correo electrónico {#monitor-reputation}
             + [Administrar lista de supresión](using/configuration/manage-suppression-list.md)

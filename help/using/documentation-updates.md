@@ -2,10 +2,10 @@
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 07382bdf4a9a7a75a5654cf81795c6c8e304360a
+source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 24%
+source-wordcount: '834'
+ht-degree: 23%
 
 ---
 
@@ -25,8 +25,7 @@ Esta página lista todas las actualizaciones de documentación de [!DNL Journey 
 * Nuevas limitaciones agregadas a la variable **Guía para desarrolladores de API de administración de decisiones** restricciones de oferta no admitidas con dispositivos móviles [!DNL Experience Edge] flujos de trabajo. [Más información](offers/api-reference/offers-api/personalized-offers/create.md#limitations)
 * Nuevo **Creación de simulaciones** para obtener más información. [Más información](offers/offer-activities/simulation.md)
 * Actualizado **Agregar ámbitos de decisión** para obtener más información. [Más información](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
-* Actualizado **Definir contenido para las representaciones** para obtener más información. [Más información](offers/offer-library/creating-personalized-offers.md#content)
-* Se ha añadido una nueva sección sobre cómo definir y personalizar el contenido para las representaciones de las ofertas. [Más información](offers/offer-library/creating-personalized-offers.md#content)
+* Actualizado **Definir contenido para las representaciones** , incluida una nueva [subsección](offers/offer-library/creating-personalized-offers.md#custom-text) sobre cómo definir y personalizar texto personalizado. [Más información](offers/offer-library/creating-personalized-offers.md#content)
 
 ## Septiembre de 2021
 

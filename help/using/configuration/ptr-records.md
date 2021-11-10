@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 1e62715f35b50bba639657a1bef37aa61922c715
+source-git-commit: 3f83ef8074fd52ab611117282015f60e2e57b61d
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Puede modificar un registro PTR para editar el subdominio asociado con una direc
    >
    >No se puede modificar la variable **[!UICONTROL IP]** y **[!UICONTROL PTR record]** campos.
 
-1. Haga clic en **[!UICONTROL SAve]** para confirmar los cambios.
+1. Haga clic en **[!UICONTROL Save]** para confirmar los cambios.
 
 Un **[!UICONTROL Updating]** aparece junto al nombre del registro PTR en la lista.
 

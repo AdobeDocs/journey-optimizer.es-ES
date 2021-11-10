@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 2e91fc884ea6e83a2590c5beca7840a6fc4c9b78
+source-git-commit: 18383a5a27aaf54cc859bdb66386648fe5fe2c41
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1682'
 ht-degree: 1%
 
 ---
@@ -192,6 +192,10 @@ Para editar un ajuste preestablecido de mensaje, siga los pasos a continuación.
 
 Una vez enviados los cambios, el ajuste preestablecido de mensaje atravesará un ciclo de validación similar al que se haya aplicado cuando [creación de un ajuste preestablecido](#create-message-preset).
 
+>[!NOTE]
+>
+>Si solo edita la variable **[!UICONTROL Description]**, **[!UICONTROL Email type]** y/o **[!UICONTROL Email retry parameters]** , la actualización es instantánea.
+
 Para los mensajes preestablecidos que tienen la variable **[!UICONTROL Active]** , puede comprobar los detalles de la actualización. Para ello:
 
 * Haga clic en el **[!UICONTROL Recent update]** que se muestra junto al nombre del ajuste preestablecido activo.
@@ -214,13 +218,17 @@ Una actualización de ajustes preestablecidos de mensajes puede tener los siguie
 * **[!UICONTROL Success]**: El ajuste preestablecido de mensaje actualizado se ha verificado y se puede seleccionar para crear mensajes.
 * **[!UICONTROL Failed]**: Se han producido errores en una o varias comprobaciones durante la verificación de la actualización del ajuste preestablecido de mensajes.
 
-**Procesamiento**
+Cada estado se detalla a continuación.
 
-Se realizarán varias comprobaciones de la capacidad de envío para verificar que el ajuste preestablecido se haya actualizado correctamente. El tiempo de procesamiento ronda **48 h-72 h** y puede tardar hasta **7 a 10 días hábiles**. Obtenga más información sobre las comprobaciones realizadas durante el ciclo de validación en [esta sección](#create-message-preset).
+### Procesamiento
+
+Se realizarán varias comprobaciones de la capacidad de envío para verificar que el ajuste preestablecido se haya actualizado correctamente.
 
 >[!NOTE]
 >
->No se puede modificar un mensaje preestablecido mientras la actualización está en curso. Puede seguir haciendo clic en su nombre, pero todos los campos están atenuados. Los cambios no se reflejarán hasta que la actualización se realice correctamente.
+>Si solo edita la variable **[!UICONTROL Description]**, **[!UICONTROL Email type]** y/o **[!UICONTROL Email retry parameters]** , la actualización es instantánea.
+
+El tiempo de procesamiento ronda **48 h-72 h** y puede tardar hasta **7 a 10 días hábiles**. Obtenga más información sobre las comprobaciones realizadas durante el ciclo de validación en [esta sección](#create-message-preset).
 
 Si edita un ajuste preestablecido que ya estaba activo:
 
@@ -230,7 +238,11 @@ Si edita un ajuste preestablecido que ya estaba activo:
 
 * Durante el proceso de validación, los mensajes configurados con este ajuste preestablecido siguen utilizando la versión anterior del ajuste preestablecido.
 
-**Correcto**
+>[!NOTE]
+>
+>No se puede modificar un mensaje preestablecido mientras la actualización está en curso. Puede seguir haciendo clic en su nombre, pero todos los campos están atenuados. Los cambios no se reflejarán hasta que la actualización se realice correctamente.
+
+### Correcto
 
 Una vez que el proceso de validación se ha realizado correctamente, la nueva versión del ajuste preestablecido se utilizará automáticamente en todos los mensajes que utilicen este ajuste preestablecido. Sin embargo, es posible que tenga que esperar:
 * unos minutos antes de que los mensajes unitarios lo consuman,
@@ -238,16 +250,16 @@ Una vez que el proceso de validación se ha realizado correctamente, la nueva ve
 
 <!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
 
-**Fallido**
+### Fallido
 
 Si el proceso de validación falla, se utilizará la versión anterior del ajuste preestablecido.
 
-Los tipos de error de actualización posibles son los siguientes:
-* **Error de autorización**: el token al portador no es válido o no está autorizado.
-* **Modificación ilegal**: se realizó una edición en uno o varios campos no permitidos.
-* **Error en la precondición**: algunos campos solo pueden tener valores específicos, lo que no se ha respetado.
+<!--The possible update error types are as follows:
+* **Authorization error**: the bearer token is invalid or not authorized.
+* **Illegal modification**: an edit was performed on one or more non-allowed fields.
+* **Precondition failed**: some fields can only have specific values and this has not been honored.-->
 
-<!--Learn more on the possible failure reasons in [this section](#monitor-message-presets).-->
+Obtenga más información sobre los posibles motivos de error en [esta sección](#monitor-message-presets).
 
 Cuando falla la actualización, el ajuste preestablecido se vuelve editable de nuevo. Puede hacer clic en su nombre y actualizar la configuración que debe corregirse.
 
