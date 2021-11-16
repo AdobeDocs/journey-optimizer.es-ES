@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
+source-git-commit: 1eb7e547019446ea946f7475730b01368f6a15eb
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 66%
@@ -15,11 +15,11 @@ ht-degree: 66%
 
 # Interfaz de usuario {#cjm-user-interface}
 
-Una vez conectado a [Adobe Experience Cloud](http://experience.adobe.com), vaya a [!DNL Journey Optimizer].
+Conectar a [Adobe Experience Cloud](http://experience.adobe.com) y busque [!DNL Journey Optimizer].
 
-Los conceptos clave al examinar la interfaz de usuario son habituales en Adobe Experience Platform. Consulte la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} para obtener más información.
+Los conceptos clave al examinar la interfaz de usuario son habituales en Adobe Experience Platform. Consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} para obtener más información.
 
-Los componentes y las capacidades disponibles en la interfaz de usuario dependen de los [permisos](administration/permissions.md) y del [paquete de licencias](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Para cualquier pregunta, póngase en contacto con el administrador de éxito del cliente de Adobe.
+Los componentes y las capacidades disponibles en la interfaz de usuario dependen de su [permissions](administration/permissions.md) y [paquete de licencias](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Para cualquier pregunta, póngase en contacto con el administrador de éxito del cliente de Adobe.
 
 >[!NOTE]
 >
@@ -98,9 +98,9 @@ Aproveche los casos de uso de [!DNL Adobe Journey Optimizer] de la página de in
 
 Los casos de uso disponibles son:
 
-* **Cree perfiles de prueba**, para crear perfiles de prueba con la plantilla CSV a fin de probar mensajes y recorridos personalizados. Aprenda a implementar este caso de uso [en esta página](building-journeys/creating-test-profiles.md#use-case-1).
+* **Cree perfiles de prueba**, para crear perfiles de prueba con la plantilla CSV a fin de probar mensajes y recorridos personalizados. Obtenga información sobre cómo implementar este caso de uso [en esta página](building-journeys/creating-test-profiles.md#use-case-1).
 * **Envíe un mensaje de cumpleaños a los clientes** para que envíen automáticamente un correo electrónico a fin de felicitar a sus clientes. (próximamente)
-* **Envíe correos electrónicos a nuevos clientes** para que envíen fácilmente hasta dos correos electrónicos para dar la bienvenida a sus clientes recién registrados. (próximamente)
+* **Enviar correos electrónicos a nuevos clientes incorporados**, para enviar fácilmente hasta dos correos electrónicos para dar la bienvenida a sus clientes recién registrados. (próximamente)
 * **Envíe mensajes push a la lista importada de clientes** para enviar rápidamente una notificación push a una lista de clientes importados desde un archivo CSV. (próximamente)
 
 Haga clic en **[!UICONTROL View details]** para obtener más información acerca de cada caso de uso.
@@ -117,7 +117,7 @@ Las funciones de accesibilidad de [!DNL Adobe Journey Optimizer] se heredan de A
 * Contraste de color
 * Validación de campos obligatorios
 
-[Obtenga más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} en la documentación de Adobe Experience Platform.
+[Más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} en la documentación de Adobe Experience Platform.
 
 Puede utilizar estos métodos abreviados del teclado comunes en [!DNL Journey Optimizer]:
 
@@ -129,7 +129,7 @@ Puede utilizar estos métodos abreviados del teclado comunes en [!DNL Journey Op
 | Seleccionar o borrar un elemento que esté enfocado | Entrar o barra espaciadora |
 | Cancelar una selección, contraer un panel o cerrar un cuadro de diálogo | Esc |
 
-[Obtenga más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} en la documentación de Adobe Experience Platform.
+[Más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} en la documentación de Adobe Experience Platform.
 
 Puede utilizar estos métodos abreviados en partes específicas de Journey Optimizer:
 
@@ -195,7 +195,7 @@ Panel de configuración de estos elementos:
   <tr>
     <td>
 
-Déclencheur de un evento en un recorrido basado en segmentos para el que la opción **[!UICONTROL Single profile at a time]** está activada
+Déclencheur de un evento en un recorrido basado en segmentos para el cual la variable **[!UICONTROL Single profile at a time]** está activada
 
 </td>
     <td>P</td>
@@ -280,7 +280,7 @@ Empiece a introducir contenido para mostrar los resultados principales. Los art�
 
 ![](assets/unified-search.png)
 
-Pulse **Enter** para acceder a todos los resultados y filtrar por objeto empresarial.
+Press **Entrar** para acceder a todos los resultados y filtrar por objeto empresarial.
 
 ![](assets/search-and-filter.png)
 
@@ -290,7 +290,7 @@ En la mayoría de las listas, una barra de búsqueda le permite buscar un elemen
 
 Se puede acceder a los filtros haciendo clic en el icono de filtro en la parte superior izquierda de la lista. El menú de filtros permite filtrar los elementos mostrados según diferentes criterios. Puede elegir mostrar únicamente los elementos de un determinado tipo o estado, los que ha creado o los modificados en los últimos 30 días. Las opciones difieren según el contexto.
 
-En la lista de recorridos, puede filtrar los recorridos según su estado, tipo y versión desde **[!UICONTROL Status and version filters]**. El tipo puede ser: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** o **[!UICONTROL Burst]**. Puede elegir mostrar solo los recorridos que utilizan un evento, un grupo de campos o una acción en particular en **[!UICONTROL Activity filters]** y **[!UICONTROL Data filters]**. Los **[!UICONTROL Publication filters]** permiten seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar las versiones más recientes de recorridos en directo que se publicaron ayer. [Más información](building-journeys/using-the-journey-designer.md).
+En la lista de recorridos, puede filtrar los recorridos según su estado, tipo y versión desde el **[!UICONTROL Status and version filters]**. El tipo puede ser: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** o **[!UICONTROL Burst]**. Puede elegir mostrar solo los recorridos que utilizan un evento, un grupo de campos o una acción en particular en **[!UICONTROL Activity filters]** y **[!UICONTROL Data filters]**. Los **[!UICONTROL Publication filters]** permiten seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar las versiones más recientes de recorridos en directo que se publicaron ayer. [Más información](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
