@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Transmitir colecciones de forma dinámica mediante acciones personalizadas
 description: Envío de un mensaje mediante Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 0ab4cbed213a00d31861406f554e3e43e4591e57
+source-git-commit: 4b7cfedbc5f2c724e28e5e6e0ab7e0d2f40dccac
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '424'
 ht-degree: 4%
 
 ---
@@ -131,7 +131,7 @@ Se puede ver que &quot;productos&quot; es una matriz de dos objetos. Debe tener 
 
    ![](../assets/uc-collection-4.png)
 
-Para el campo de matriz, también puede utilizar el editor de expresiones avanzadas para realizar la manipulación de datos. En el siguiente ejemplo, utilizamos la variable [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html) y [intersección](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html) funciones:
+Para el campo de matriz, también puede utilizar el editor de expresiones avanzadas para realizar la manipulación de datos. En el siguiente ejemplo, utilizamos la variable [filter](functions/functionfilter.md) y [intersección](functions/functionintersect.md) funciones:
 
 ![](../assets/uc-collection-5.png)
 

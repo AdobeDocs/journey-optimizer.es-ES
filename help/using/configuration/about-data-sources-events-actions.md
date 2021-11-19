@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 49%
+source-wordcount: '310'
+ht-degree: 56%
 
 ---
 
@@ -35,9 +35,9 @@ Las funcionalidades de mensajes de Journey Optimizer están incorporadas: solo n
 
 ## Navegación por los campos de Adobe Experience Platform {#friendly-names-display}
 
-Al definir [carga útil de evento](../event/about-creating.md#define-the-payload-fields), [carga útil de grupo de campos](../datasource/configure-data-sources.md#define-field-groups) y seleccionar campos en el [editor de expresiones](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=es){target=&quot;_blank&quot;}, se muestra el nombre para mostrar además del nombre del campo. Esta información se recupera de la definición de esquema del modelo de datos de Experience.
+Al definir la [carga útil de evento](../event/about-creating.md#define-the-payload-fields), la [carga útil de grupo de campos](../datasource/configure-data-sources.md#define-field-groups) y seleccionar los campos en el [editor de expresiones](../building-journeys/expression/expressionadvanced.md), se muestra el nombre para mostrar además del nombre del campo. Esta información se recupera de la definición de esquema del modelo de datos de Experience.
 
-Si se proporcionan descriptores como &quot;xdm:alternateDisplayInfo&quot; al configurar esquemas, los nombres descriptivos reemplazarán los nombres para mostrar. Resulta especialmente útil cuando se trabaja con eVars y campos genéricos. Puede configurar descriptores de nombres descriptivos mediante una llamada a API. Para obtener más información, consulte la [guía para desarrolladores del Registro de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=es){target=&quot;_blank&quot;}.
+Si se proporcionan descriptores como &quot;xdm:alternateDisplayInfo&quot; al configurar esquemas, los nombres descriptivos reemplazarán los nombres para mostrar. Resulta especialmente útil cuando se trabaja con eVars y campos genéricos. Puede configurar descriptores de nombres descriptivos mediante una llamada a API. Para obtener más información, consulte la [Guía para desarrolladores de Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=es){target=&quot;_blank&quot;}.
 
 ![](../assets/xdm-from-descriptors.png)
 

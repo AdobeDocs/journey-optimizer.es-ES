@@ -1,0 +1,54 @@
+---
+product: adobe campaign
+title: toInteger
+description: Obtenga información sobre la función toInteger
+feature: Journeys
+role: Data Engineer
+level: Experienced
+source-git-commit: 23f4e8224ea5b00e8132b6a3f3e32f73b0cc993f
+workflow-type: tm+mt
+source-wordcount: '70'
+ht-degree: 14%
+
+---
+
+# toInteger {#toInteger}
+
+Convierte un valor de argumento en un entero.
+
+## Categoría
+
+Conversión
+
+## Sintaxis de función
+
+`toInteger(<parameter>)`
+
+## Parámetros
+
+| Parámetro | Descripción |
+|--- |--- |
+| string | convierte el valor de cadena en un entero |
+| dateTime | convierte la fecha en el número de milisegundos (epoch miliseconds) |
+| decimal | se convierte en entero eliminando la parte decimal (ejemplo: 1,5 se convierte en 1) |
+| Booleano | convierte el valor booleano en 1 si es verdadero, 0 si es falso |
+
+## Firmas y tipo devuelto
+
+`toInteger(<dateTime>)`
+
+`toInteger(<decimal>)`
+
+`toInteger(<integer>)`
+
+`toInteger(<string>)`
+
+`toInteger(<boolean>)`
+
+Devuelve un entero.
+
+## Ejemplos
+
+`toInteger("4")`
+
+Devuelve 4.

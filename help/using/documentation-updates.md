@@ -2,10 +2,10 @@
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
+source-git-commit: 01313f84dc9d5260388574b3e1eb7e4a7df14d0e
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 23%
+source-wordcount: '770'
+ht-degree: 25%
 
 ---
 
@@ -29,11 +29,11 @@ Esta página lista todas las actualizaciones de documentación de [!DNL Journey 
 
 ## Septiembre de 2021
 
-* Se han actualizado las siguientes páginas de funciones: [sethours](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/date/functionsethours.html), [getListItem](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiongetlistitem.html), [inSegment](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/adobe-experience-platform/functioninsegment.html)
+* Se han actualizado las siguientes páginas de funciones: [sethours](building-journeys/functions/functionsethours.md), [getListItem](building-journeys/functions/functiongetlistitem.md), [inSegment](building-journeys/functions/functioninsegment.md)
 
-* Se han añadido las siguientes funciones: [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html), [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html), [toDateOnly](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/conversion/functiontodateonly.html)
+* Se han añadido las siguientes funciones: [filter](building-journeys/functions/functionfilter.md), [intersect](building-journeys/functions/functionintersect.md), [toDateOnly](building-journeys/functions/functiontodateonly.md)
 
-* El tipo de fecha dateOnly se ha añadido a la documentación del editor de expresiones. [Más información](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=en)
+* El tipo de fecha dateOnly se ha añadido a la documentación del editor de expresiones. [Más información](building-journeys/expression/data-types.md)
 
 * Se han añadido detalles sobre la duración de la caché de acciones personalizada. [Más información](datasource/external-data-sources.md#section_wjp_nl5_nhb)
 

@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 59ee283f50850e160e7a6506c1f0deab1976f20c
+exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
+source-git-commit: 662158884291d90b6092c0aa70f41f27535f3637
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 4%
+source-wordcount: '277'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +33,7 @@ Para configurar este recorrido, siga estos pasos:
 
       Para poder modificar la dirección de correo electrónico, debe haber publicado previamente el mensaje.
 
-   1. En el editor de expresiones, introduzca la expresión para recuperar las direcciones de correo electrónico de los suscriptores. [Más información](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=es){target=&quot;_blank&quot;}.
+   1. En el editor de expresiones, introduzca la expresión para recuperar las direcciones de correo electrónico de los suscriptores. [Más información](expression/expressionadvanced.md).
 
       Este ejemplo muestra una expresión que incluye referencias a campos de asignación:
 
@@ -49,7 +50,7 @@ Para configurar este recorrido, siga estos pasos:
 
       En este ejemplo, la lista de suscripción tiene el nombre `daily-email`. Las direcciones de correo electrónico se definen como claves en la variable `subscribers` , que está vinculado al mapa de lista de suscripción.
 
-      Más información sobre [referencias a campos](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/field-references.html) en expresiones.
+      Más información sobre [referencias a campos](expression/field-references.md) en expresiones.
 
       ![](../assets/message-to-subscribers-uc-2.png)
 
@@ -58,7 +59,3 @@ Para configurar este recorrido, siga estos pasos:
    ![](../assets/message-to-subscribers-uc-3.png)
 
 1. Finalice el recorrido con un **[!UICONTROL End]** actividad.
-
-
-
-

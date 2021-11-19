@@ -1,27 +1,27 @@
 ---
-title: Caso de uso personalizado&dos puntos; notificación del estado de pedido
+title: Caso de uso personalizado y dos puntos; notificación del estado de pedido
 description: Obtenga información sobre cómo personalizar un mensaje con perfil, decisión de oferta e información de contexto
-feature: Personalización
-topic: Personalización
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '611'
 ht-degree: 2%
 
 ---
-
 
 # Caso de uso de personalización: notificación del estado de pedido {#personalization-use-case}
 
 En este caso de uso, verá cómo utilizar varios tipos de personalización en un único mensaje de notificación push. Se utilizan tres tipos de personalización:
 
 * **Perfil**: personalización de mensajes basada en un campo de perfil
-* **Decisión** de oferta: personalización basada en variables de offer decisioning
+* **Decisión de oferta**: personalización basada en variables de offer decisioning
 * **Contexto**: personalización basada en datos contextuales del recorrido
 
-El objetivo de este ejemplo es insertar un evento en [!DNL Journey Optimizer] cada vez que se actualiza un pedido de cliente. A continuación, se envía una notificación push al cliente con información sobre el pedido y una oferta personalizada.
+El objetivo de este ejemplo es impulsar un evento a [!DNL Journey Optimizer] cada vez que se actualiza un pedido de cliente. A continuación, se envía una notificación push al cliente con información sobre el pedido y una oferta personalizada.
 
 Para este caso de uso, se necesitan los siguientes requisitos previos:
 
@@ -31,15 +31,15 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 
 ## Paso 1: Añadir personalización en el perfil
 
-1. Haga clic en el menú **[!UICONTROL Message]** y seleccione el mensaje.
+1. Haga clic en el **[!UICONTROL Message]** y seleccione el mensaje.
 
    ![](assets/perso-uc.png)
 
-1. Haga clic en el campo **Title**.
+1. Haga clic en el **Título** campo .
 
    ![](assets/perso-uc2.png)
 
-1. Escriba el asunto y añada la personalización del perfil. Utilice la barra de búsqueda para encontrar el campo de nombre del perfil. En el texto del asunto, coloque el cursor donde desee insertar el campo de personalización y haga clic en el icono **+**. Haga clic en **Guardar**.
+1. Escriba el asunto y añada la personalización del perfil. Utilice la barra de búsqueda para encontrar el campo de nombre del perfil. En el texto del asunto, coloque el cursor donde desee insertar el campo de personalización y haga clic en el **+** icono. Haga clic en **Guardar**.
 
    ![](assets/perso-uc3.png)
 
@@ -49,15 +49,15 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 
 ## Paso 2: Creación del recorrido
 
-1. Haga clic en el menú **[!UICONTROL Journeys]** y cree un nuevo recorrido.
+1. Haga clic en el **[!UICONTROL Journeys]** y cree un nuevo recorrido.
 
    ![](assets/perso-uc4.png)
 
-1. Añada el evento de entrada, una actividad **Message** y una actividad **End**.
+1. Añada el evento de entrada, un **Mensaje** y **Fin** actividad.
 
    ![](assets/perso-uc5.png)
 
-1. En la actividad **Message** , seleccione el mensaje creado anteriormente. Haga clic en **Ok**.
+1. En el **Mensaje** seleccione el mensaje creado anteriormente. Haga clic en **Ok**.
 
    ![](assets/perso-uc6.png)
 
@@ -71,34 +71,34 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 
 ## Paso 3: Añadir personalización en datos contextuales
 
-1. En la actividad **Message** , haga clic en el icono **Open the message**. El mensaje se abre en una pestaña nueva.
+1. En el **Mensaje** haga clic en la **Abrir el mensaje** icono. El mensaje se abre en una pestaña nueva.
 
    ![](assets/perso-uc8.png)
 
-1. Haga clic en el campo **Title**.
+1. Haga clic en el **Título** campo .
 
    ![](assets/perso-uc9.png)
 
-1. Seleccione la categoría **Contexto**. Este elemento solo está disponible si un recorrido ha pasado datos contextuales al mensaje. Haga clic en **Journey Orchestration**. Aparece la siguiente información contextual:
+1. Seleccione el **Contexto** categoría. Este elemento solo está disponible si un recorrido ha pasado datos contextuales al mensaje. Haga clic en **Journey Orchestration**. Aparece la siguiente información contextual:
 
-   * **Eventos**: esta categoría reagrupa todos los campos de los eventos colocados antes de la actividad  **** Mensaje en el recorrido.
-   * **Propiedades** del recorrido: los campos técnicos relacionados con el recorrido de un perfil determinado, por ejemplo, el ID de recorrido o los errores específicos encontrados. Obtenga más información en [documentación del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html#building-advanced-conditions-journeys){target=&quot;_blank&quot;}.
+   * **Eventos**: esta categoría reagrupa todos los campos de los eventos colocados antes del **Mensaje** actividad en el recorrido.
+   * **Propiedades del recorrido**: los campos técnicos relacionados con el recorrido de un perfil determinado, por ejemplo, el ID de recorrido o los errores específicos encontrados. Obtenga más información en [documentación del Journey Orchestration](../building-journeys/expression/journey-properties.md).
 
    ![](assets/perso-uc10.png)
 
-1. Expanda el elemento **Events** y busque el campo de número de pedido relacionado con el evento. También puede utilizar el cuadro de búsqueda. Haga clic en el icono **+** para insertar el campo de personalización en el texto del asunto. Haga clic en **Guardar**.
+1. Expanda el **Eventos** y busque el campo de número de pedido relacionado con el evento. También puede utilizar el cuadro de búsqueda. Haga clic en el **+** para insertar el campo personalizado en el texto del asunto. Haga clic en **Guardar**.
 
    ![](assets/perso-uc11.png)
 
-1. A continuación, haga clic en el campo **Body**.
+1. A continuación, haga clic en el botón **Cuerpo** campo .
 
    ![](assets/perso-uc12.png)
 
-1. Escriba el mensaje e inserte, desde la categoría **Contexto**, el nombre del elemento de pedido y el progreso del pedido.
+1. Escriba el mensaje e inserte, desde el **Contexto** , el nombre del elemento de pedido y el progreso del pedido.
 
    ![](assets/perso-uc13.png)
 
-1. En la lista desplegable, seleccione **Offer decision** para insertar una variable de offer decisioning. Seleccione la colocación y haga clic en el icono **+** situado junto a la decisión (anteriormente conocida como &quot;actividad de oferta&quot;) para añadirla al cuerpo.
+1. En la lista desplegable , seleccione **Decisión de oferta** para insertar una variable de offer decisioning. Seleccione la colocación y haga clic en el botón **+** junto a la decisión (anteriormente conocida como &quot;actividad de oferta&quot;) de añadirla al cuerpo.
 
    ![](assets/perso-uc14.png)
 
@@ -112,7 +112,7 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 
 ## Paso 4: Prueba y publicación del recorrido
 
-1. Vuelva a abrir el recorrido. Si el recorrido ya está abierto, asegúrese de actualizar la página. Ahora que el mensaje está publicado, puede ver que no hay error en el recorrido. Haga clic en el botón **Test** y, a continuación, haga clic en **Déclencheur de un evento**.
+1. Vuelva a abrir el recorrido. Si el recorrido ya está abierto, asegúrese de actualizar la página. Ahora que el mensaje está publicado, puede ver que no hay error en el recorrido. Haga clic en el **Prueba** y haga clic en **Déclencheur de un evento**.
 
    ![](assets/perso-uc17.png)
 
@@ -125,4 +125,3 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
    ![](assets/perso-uc19.png)
 
 1. Compruebe que no haya error y publique el recorrido.
-

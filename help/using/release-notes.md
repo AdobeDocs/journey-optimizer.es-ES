@@ -2,9 +2,9 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
+source-git-commit: 01313f84dc9d5260388574b3e1eb7e4a7df14d0e
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '1978'
 ht-degree: 16%
 
 ---
@@ -25,7 +25,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <tr>
 <td>
 <p>You can now trigger a journey targeting a subscription list. To perform this: add a Read segment activity followed by a message, and in the message email settings, define an expression that will fetch the subscriber email address from the profile, for the targeted subscription list. The expression editor has been enhanced to allow you to to select the first entry key of a map.</p>
-<p>Learn more in the <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">detailed documentation</a>.</p>>
+<p>Learn more in the <a href="building-journeys/functions/functionfilter.md">detailed documentation</a>.</p>>
 </td>
 </tr>
 </tbody>
@@ -155,7 +155,7 @@ Consulte también [Notas de la versión de octubre de Adobe Experience Platform]
 <p>Ahora puede pasar colecciones o una lista de datos en los parámetros de acción personalizados que se rellenarán dinámicamente durante la ejecución. Se admiten dos tipos de colecciones: colecciones simples y colecciones de objetos. Las acciones personalizadas creadas anteriormente seguirán funcionando. </p>
 <p>Para obtener más información sobre las colecciones, consulte <a href="building-journeys/collections.md">documentación detallada</a>. </p>
 <p>Las funciones de filtro e intersección se han agregado a la lista de funciones disponibles en el editor de expresiones avanzadas. Esto ofrece más posibilidades para filtrar y comparar colecciones.</p>
-<p>Consulte la documentación de <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> y <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">intersección</a> funciones.</p>
+<p>Consulte la documentación de <a href="building-journeys/functions/functionfilter.md">filter</a> y <a href="building-journeys/functions/functionintersect.md">intersección</a> funciones.</p>
 </td>
 </tr>
 </tbody>
