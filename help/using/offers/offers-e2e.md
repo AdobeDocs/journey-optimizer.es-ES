@@ -45,7 +45,7 @@ A continuación se enumeran los pasos clave para configurar ofertas, incluirlas 
 
    * Crear una decisión
    * Seleccione las ubicaciones que ha creado
-   * Para cada ubicación, seleccione la colección
+   * For each placement, select the collection
    * Para cada ubicación, seleccione una clasificación (opcional)
    * Seleccione la reserva
 
@@ -61,11 +61,11 @@ El proceso general de gestión de decisiones para utilizar ofertas en un correo 
 
 ## Definir los componentes {#define-components}
 
-Antes de comenzar a crear ofertas, debe definir varios componentes que utilizará en las ofertas.
+Before starting to create offers, you must define several components that you will use in your offers.
 
-You will find them under the **[!UICONTROL Decision Management]** > **[!UICONTROL Components menu]**.
+Los encontrará en la sección **[!UICONTROL Decision Management]** > **[!UICONTROL Components menu]**.
 
-1. Start by creating **placements** for your offers.
+1. Comience creando **ubicaciones** para sus ofertas.
 
    Se utilizan estas ubicaciones para definir dónde aparecerá la oferta resultante al definir la decisión de la oferta.
 
@@ -77,7 +77,7 @@ You will find them under the **[!UICONTROL Decision Management]** > **[!UICONTRO
 
    ![](../assets/offers-e2e-placements.png)
 
-   The detailed steps to create placements are described in [this section](../../using/offers/offer-library/creating-placements.md).
+   Los pasos detallados para crear ubicaciones se describen en [esta sección](../../using/offers/offer-library/creating-placements.md).
 
 1. Crear **reglas de decisión**.
 
@@ -112,11 +112,11 @@ You will find them under the **[!UICONTROL Decision Management]** > **[!UICONTRO
 
 ## Configurar ofertas {#configure-offers}
 
-Ahora puede crear y configurar sus ofertas. In this example, you will create four offers that you want to display according to each specific profile.
+Ahora puede crear y configurar sus ofertas. En este ejemplo, creará cuatro ofertas que desea mostrar según cada perfil específico.
 
 1. Crear una oferta. Obtenga más información en [esta sección](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
 
-1. In this offer, create three representations. Cada representación debe ser una combinación de una colocación que haya creado anteriormente y un recurso:
+1. En esta oferta, cree tres representaciones. Cada representación debe ser una combinación de una colocación que haya creado anteriormente y un recurso:
 
    * Uno correspondiente a la variable *Web - Imagen* placement
    * Uno correspondiente a la variable *Correo electrónico: imagen* placement
@@ -163,7 +163,7 @@ Los pasos detallados para crear y configurar ofertas se describen en [esta secci
 
    * Uno correspondiente a la variable *Web - Imagen* placement
    * Uno correspondiente a la variable *Correo electrónico: imagen* placement
-   * Uno correspondiente a la variable *No digital: texto* placement
+   * One corresponding to the *Non-digital - Text* placement
 
    ![](../assets/offers-e2e-fallback-representations.png)
 
@@ -171,7 +171,7 @@ Los pasos detallados para crear y configurar ofertas se describen en [esta secci
 
 ![](../assets/offers-e2e-fallback.png)
 
-La oferta de reserva ya está lista para utilizarse en una decisión.
+Your fallback offer is now ready to be used in a decision.
 
 Los pasos detallados para crear y configurar una oferta de reserva se describen en [esta sección](../../using/offers/offer-library/creating-fallback-offers.md).
 
@@ -181,19 +181,19 @@ Al configurar la decisión, debe añadir las ofertas personalizadas como parte d
 
 1. Para acelerar el proceso de decisión, cree una colección dinámica.
 
-1. Utilice la variable *Yoga* para seleccionar las cuatro ofertas personalizadas que ha creado anteriormente.
+1. Use the *Yoga* tag to select the four personalized offers you created earlier.
 
    ![](../assets/offers-e2e-collection-using-tag.png)
 
-Los pasos detallados para crear una colección se describen en [esta sección](../../using/offers/offer-library/creating-collections.md).
+The detailed steps to create a collection are described in [this section](../../using/offers/offer-library/creating-collections.md).
 
 ## Configurar la decisión {#configure-decision}
 
-Ahora debe crear una decisión que combine ubicaciones con las ofertas personalizadas y la oferta de reserva que acaba de crear.
+Now you must create a decision that will combine placements with the personalized offers and the fallback offer you just created.
 
-This combination will be used by the Offer Decisioning engine to find the best offer for a specific profile: in this example, it will be based on the priority and decision rule you assigned to each offer.
+El motor de Offer decisioning utilizará esta combinación para encontrar la mejor oferta para un perfil específico: en este ejemplo, se basa en la regla de prioridad y decisión que asignó a cada oferta.
 
-To create and configure an offer decision, follow the main steps below:
+Para crear y configurar una decisión de oferta, siga los pasos principales a continuación:
 
 1. Crear una decisión. Obtenga más información en [esta sección](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
 
@@ -201,7 +201,7 @@ To create and configure an offer decision, follow the main steps below:
 
    ![](../assets/offers-e2e-decision-placements.png)
 
-1. For each placement, add the collection you created.
+1. Para cada ubicación, agregue la colección que ha creado.
 
    ![](../assets/offers-e2e-decision-collection.png)
 
@@ -221,15 +221,15 @@ Su decisión ya está lista para utilizarse para ofrecer ofertas optimizadas y p
 
 Los pasos detallados para crear y configurar una decisión se describen en [esta sección](../../using/offers/offer-activities/create-offer-activities.md).
 
-## Inserte la decisión en un correo electrónico {#insert-decision-in-email}
+## Insert the decision in an email {#insert-decision-in-email}
 
 Ahora que su decisión está activa, puede insertarla en un mensaje de correo electrónico. Para ello, siga los pasos a continuación:
 
-1. Cree su correo electrónico y, a continuación, abra el [Diseñador de correo electrónico](../../using/design-emails.md) para configurar su contenido.
+1. Create your email, then open the [Email Designer](../../using/design-emails.md) to configure its content.
 
-1. Añada un componente de estructura de la paleta izquierda.
+1. Add a structure component from the left palette.
 
-1. Agregue un **[!UICONTROL Offer decision]** componente de contenido. Learn how to use content components in [this section](../../using/content-components.md).
+1. Agregue un **[!UICONTROL Offer decision]** componente de contenido. Aprenda a utilizar los componentes de contenido en [esta sección](../../using/content-components.md).
 
    ![](../assets/offers-e2e-decision-component.png)
 
@@ -237,9 +237,9 @@ Ahora que su decisión está activa, puede insertarla en un mensaje de correo el
 
    ![](../assets/offers-e2e-select-offer-decision.png)
 
-1. Select the placement corresponding to the offers that you want to display from the **[!UICONTROL Placements]** dropdown list.
+1. Seleccione la colocación correspondiente a las ofertas que desee mostrar en el **[!UICONTROL Placements]** lista desplegable.
 
-   En este caso, a partir de las ubicaciones que creó anteriormente como parte de este ejemplo, solo la variable **Correo electrónico: imagen** la ubicación está disponible ya que desea utilizar la decisión en un mensaje de correo electrónico. Learn more on [creating placements](../../using/offers/offer-library/creating-placements.md).
+   En este caso, a partir de las ubicaciones que creó anteriormente como parte de este ejemplo, solo la variable **Correo electrónico: imagen** la ubicación está disponible ya que desea utilizar la decisión en un mensaje de correo electrónico. Más información sobre [creación de ubicaciones](../../using/offers/offer-library/creating-placements.md).
 
    ![](../assets/offers-e2e-select-placement-in-decision.png)
 
@@ -249,7 +249,7 @@ Ahora que su decisión está activa, puede insertarla en un mensaje de correo el
 
    >[!NOTE]
    >
-   >Only decisions that are compatible with the selected placement display in the list.
+   >En la lista solo se muestran las decisiones compatibles con la colocación seleccionada.
 
 Ahora puede ver todas las ofertas personalizadas y la oferta de reserva visualizada en el Diseñador de correo electrónico.
 

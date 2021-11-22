@@ -1,18 +1,19 @@
 ---
-title: Campos de ejecución de la acción eventos de los journeyStep
-description: Campos de ejecución de la acción eventos de los journeyStep
-feature: Informes
-topic: Administración de contenido
+title: Campos de ejecución de la acción de eventos de journeySteps
+description: Campos de ejecución de la acción de eventos de journeySteps
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 14%
+source-wordcount: '321'
+ht-degree: 13%
 
 ---
 
-# Campos de ejecución de la acción eventos de los journeyStep {#sharing-execution-fields}
+# Campos de ejecución de la acción de eventos de journeySteps {#sharing-execution-fields}
 
 Este grupo de campos se compartirá mediante journeyStepEvent y journeyStepProfileEvent.
 
@@ -68,7 +69,7 @@ Tipo: cadena
 
 ## actionExecutionOriginError
 
-Puede producirse un tiempo de espera, en dos casos:
+Se puede producir un tiempo de espera, en dos casos:
 
 * en el primer intento se ejecuta una acción. En este caso, la ejecución no ha finalizado, por lo que no hay ningún error subyacente
 * en un reintento: en este caso, actionExecOrigError/actionExecOrigErrorCode describe el error encontrado en el intento antes del reintento.

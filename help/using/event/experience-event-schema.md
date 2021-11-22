@@ -5,26 +5,27 @@ feature: Schemas
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 96615a580b2211ea94522e94ba867a309e127ae3
+exl-id: f19749c4-d683-4db6-bede-9360b9610eef
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Esquemas de ExperienceEvent para eventos [!DNL Journey Optimizer]
+# Esquemas de ExperienceEvent para [!DNL Journey Optimizer] Eventos
 
 [!DNL Journey Optimizer] los eventos son eventos de experiencia XDM que se envían a Adobe Experience Platform mediante la ingesta de flujo.
 
-Por lo tanto, un requisito previo importante para configurar eventos para [!DNL Journey Optimizer] es que esté familiarizado con el Modelo de datos de experiencia de Adobe Experience Platform (o XDM) y con cómo componer esquemas de eventos de experiencia XDM, así como con cómo transmitir datos con formato XDM a Adobe Experience Platform.
+Como tal, un requisito previo importante para configurar eventos para [!DNL Journey Optimizer] es que está familiarizado con el Modelo de datos de experiencia (o XDM) de Adobe Experience Platform y con cómo componer esquemas de eventos de experiencia XDM, así como con cómo transmitir datos con formato XDM a Adobe Experience Platform.
 
-## Requisitos de esquema para eventos [!DNL Journey Optimizer]
+## Requisitos de esquema para [!DNL Journey Optimizer] Eventos
 
-El primer paso para configurar un evento para [!DNL Journey Optimizer] es asegurarse de que tiene un esquema XDM definido para representar el evento y un conjunto de datos creado para registrar instancias del evento en Adobe Experience Platform. Tener un conjunto de datos para sus eventos no es estrictamente necesario, pero enviar los eventos a un conjunto de datos específico le permitirá mantener el historial de eventos de los usuarios para futuras referencias y análisis, por lo que siempre es una buena idea. Si aún no tiene un esquema y un conjunto de datos adecuados para el evento, ambas tareas se pueden realizar en la interfaz web de Adobe Experience Platform.
+El primer paso para configurar un evento para [!DNL Journey Optimizer] es para asegurarse de que tiene un esquema XDM definido para representar el evento y un conjunto de datos creado para registrar instancias del evento en Adobe Experience Platform. Tener un conjunto de datos para sus eventos no es estrictamente necesario, pero enviar los eventos a un conjunto de datos específico le permitirá mantener el historial de eventos de los usuarios para futuras referencias y análisis, por lo que siempre es una buena idea. Si aún no tiene un esquema y un conjunto de datos adecuados para el evento, ambas tareas se pueden realizar en la interfaz web de Adobe Experience Platform.
 
 ![](../assets/schema1.png)
 
-Cualquier esquema XDM que se utilice para eventos [!DNL Journey Optimizer] debe cumplir los siguientes requisitos:
+Cualquier esquema XDM que se utilice para [!DNL Journey Optimizer] los eventos deben cumplir los siguientes requisitos:
 
 * El esquema debe pertenecer a la clase XDM ExperienceEvent .
 
@@ -50,7 +51,7 @@ Cualquier esquema XDM que se utilice para eventos [!DNL Journey Optimizer] debe 
 
    ![](../assets/schema8.png)
 
-## Aprovechar las relaciones de esquema{#leverage_schema_relationships}
+## Aprovechamiento de las relaciones de esquema{#leverage_schema_relationships}
 
 Adobe Experience Platform le permite definir relaciones entre esquemas para utilizar un conjunto de datos como una tabla de búsqueda para otro.
 
@@ -73,9 +74,9 @@ Este es el esquema de compra con la relación definida en el campo ID del produc
 En Journey Optimizer, puede aprovechar todos los campos de las tablas vinculadas:
 
 * al configurar un evento empresarial o unitario, [Más información](../event/experience-event-schema.md#unitary_event_configuration)
-* cuando se usan condiciones en un recorrido, [Más información](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* cuando se utilizan condiciones en un recorrido, [Más información](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * en la personalización de mensajes, [Más información](../event/experience-event-schema.md#message_personalization)
-* en la personalización de acciones personalizadas, [Más información](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* en personalización de acciones personalizadas, [Más información](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
 ### Configuración de eventos{#unitary_event_configuration}
 

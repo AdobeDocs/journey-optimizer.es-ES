@@ -15,14 +15,14 @@ ht-degree: 2%
 
 # Limitaciones {#limitations}
 
-Los derechos, limitaciones de producto y protecciones de rendimiento se enumeran en la [ página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
+Los derechos, limitaciones de productos y protecciones de rendimiento se enumeran en[ Página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
 
-A continuación encontrará limitaciones adicionales al utilizar [!DNL Adobe Journey Optimizer].
+A continuación se indican algunas limitaciones adicionales al usar [!DNL Adobe Journey Optimizer].
 
 ## Limitaciones en los mensajes
 
 * No se pueden añadir archivos adjuntos a un correo electrónico con [!DNL Journey Optimizer].
-* El correo electrónico CCO no es compatible con [!DNL Journey Optimizer].
+* El CCO de correo electrónico no es compatible con [!DNL Journey Optimizer].
 
 ## Limitaciones en los recorridos
 
@@ -30,7 +30,7 @@ A continuación encontrará limitaciones adicionales al utilizar [!DNL Adobe Jou
 
 * No hay restricciones de envío. 
 * En caso de error, se realizan tres reintentos de forma sistemática. No se puede ajustar el número de reintentos según el mensaje de error recibido. 
-* El evento integrado **Reaction** le permite reaccionar ante las acciones integradas. Obtenga más información en [esta página](building-journeys/reaction-events.md). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado. 
+* El **Reacción** le permite reaccionar a las acciones integradas. Obtenga más información en [esta página](building-journeys/reaction-events.md). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado. 
 * No puede colocar dos acciones en paralelo, debe agregarlas una tras otra.
 
 ### Acción de mensaje
@@ -39,11 +39,11 @@ A continuación encontrará limitaciones adicionales al utilizar [!DNL Adobe Jou
 
 ### Versiones de recorridos {#journey-versions-limitations}
 
-* Un recorrido que comience con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No se puede iniciar un recorrido con un evento **Segment Qualification**.
-* Un recorrido que comience con una actividad **Segment Qualification** en v1 siempre debe comenzar con **Segment Qualification** en versiones posteriores.
-* El segmento y el área de nombres elegidos en **Segment Qualification** (primer nodo) no se pueden cambiar en las nuevas versiones.
+* Un recorrido que comience con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No se puede iniciar un recorrido con un **Clasificación del segmento** evento.
+* Un recorrido que comience por un **Clasificación del segmento** la actividad en v1 siempre debe comenzar con un **Clasificación del segmento** en versiones posteriores.
+* El segmento y el área de nombres elegidos en **Clasificación del segmento** (primer nodo) no se puede cambiar en las versiones nuevas.
 * La regla de reentrada debe ser la misma en todas las versiones de recorrido.
-* Un recorrido que comience por un **segmento de lectura** no puede comenzar con otro evento en las versiones siguientes.
+* Un recorrido que comience por un **Leer segmento** no puede comenzar con otro evento en las versiones siguientes.
  
 
 ### Acciones personalizadas

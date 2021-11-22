@@ -1,20 +1,21 @@
 ---
 title: Buscar una regla de decisión
 description: Las reglas de decisión son restricciones agregadas a una oferta personalizada y aplicadas a un perfil para determinar la idoneidad.
-feature: Ofertas
-topic: Integraciones
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '170'
 ht-degree: 4%
 
 ---
 
 # Buscar reglas de decisión
 
-Puede buscar una regla de decisión específica realizando una solicitud de GET a la API [!DNL Offer Library] que incluya la regla de decisión `@id` o el nombre de la regla de decisión en la ruta de solicitud.
+Puede consultar una regla de decisión específica realizando una solicitud de GET al [!DNL Offer Library] API que incluye la regla de decisión `@id` o el nombre de la regla de decisión en la ruta de solicitud.
 
 **Formato de API**
 
@@ -27,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Contenedor donde se encuentran las reglas de decisión. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ELIGIBILITY_RULE}` | Define el esquema asociado a las reglas de decisión. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
-| `id` | Una cadena que se utiliza para coincidir con la propiedad `@id` de las entidades. La cadena coincide exactamente. El parámetro s `id` y `name` no se puede usar juntos. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| `name` | Una cadena que se utiliza para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se pueden usar juntos | `Sales rule` |
+| `id` | Una cadena que se usa para hacer coincidir con la variable `@id` propiedad de las entidades. La cadena coincide exactamente. El parámetro es `id` y `name` no se puede usar juntos. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
+| `name` | Cadena que se utiliza para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se puede usar juntos | `Sales rule` |
 
 **Solicitud**
 
@@ -44,7 +45,7 @@ curl -X GET \
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles de la regla de decisión específica que ha buscado, incluida la información sobre su ID de contenedor, ID de instancia y regla de decisión única `@id`.
+Una respuesta correcta devuelve los detalles de la regla de decisión específica que buscó, incluida la información sobre su ID de contenedor, ID de instancia y, regla de decisión única `@id`.
 
 ```json
 {

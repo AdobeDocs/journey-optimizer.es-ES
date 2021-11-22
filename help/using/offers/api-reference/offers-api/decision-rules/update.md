@@ -1,26 +1,27 @@
 ---
 title: Actualizar las reglas de decisión
 description: Las reglas de decisión son restricciones agregadas a una oferta personalizada y aplicadas a un perfil para determinar la idoneidad.
-feature: Ofertas
-topic: Integraciones
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '174'
 ht-degree: 9%
 
 ---
 
 # Actualizar una regla de decisión
 
-Puede modificar o actualizar las reglas de decisión en el contenedor realizando una solicitud de PATCH a la API [!DNL Offer Library] .
+Puede modificar o actualizar las reglas de decisión en el contenedor realizando una solicitud de PATCH al [!DNL Offer Library] API.
 
-Para obtener más información sobre JSON Patch, incluidas las operaciones disponibles, consulte la documentación oficial de [JSON Patch](http://jsonpatch.com/).
+Para obtener más información sobre JSON Patch, incluidas las operaciones disponibles, consulte la [Documentación de parches JSON](http://jsonpatch.com/).
 
 ## Encabezados Accept y Content-Type
 
-La tabla siguiente muestra los valores válidos que comprenden los campos *Content-Type* y *Accept* en el encabezado de la solicitud:
+La tabla siguiente muestra los valores válidos que comprenden el *Content-Type* y *Accept* campos en el encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -61,7 +62,7 @@ curl -X PATCH \
 
 | Parámetro | Descripción |
 | --------- | ----------- |
-| `op` | La llamada de operación utilizada para definir la acción necesaria para actualizar la conexión. Las operaciones incluyen: `add`, `replace` y `remove`. |
+| `op` | La llamada de operación utilizada para definir la acción necesaria para actualizar la conexión. Las operaciones incluyen: `add`, `replace`y `remove`. |
 | `path` | Ruta del parámetro que se va a actualizar. |
 | `value` | El nuevo valor con el que desea actualizar el parámetro. |
 

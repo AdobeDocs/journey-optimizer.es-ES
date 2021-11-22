@@ -1,24 +1,25 @@
 ---
-title: Crear etiquetas
+title: Creación de etiquetas
 description: Las etiquetas permiten organizar y ordenar mejor las ofertas.
-feature: Ofertas
-topic: Integraciones
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 11%
 
 ---
 
 # Crear una etiqueta
 
-Puede crear una etiqueta realizando una solicitud de POST a la API [!DNL Offer Library] y proporcionando al mismo tiempo su ID de contenedor.
+Puede crear una etiqueta realizando una solicitud de POST al [!DNL Offer Library] al proporcionar su ID de contenedor.
 
 ## Encabezados Accept y Content-Type
 
-La tabla siguiente muestra los valores válidos que comprenden los campos *Content-Type* y *Accept* en el encabezado de la solicitud:
+La tabla siguiente muestra los valores válidos que comprenden el *Content-Type* y *Accept* campos en el encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -54,7 +55,7 @@ curl -X POST \
 
 **Respuesta**
 
-Una respuesta correcta devuelve información sobre la etiqueta recién creada, incluido su ID de instancia única y su ubicación `@id`. Puede utilizar el ID de instancia en pasos posteriores para actualizar o eliminar la etiqueta. Puede utilizar su etiqueta única `@id` en tutoriales posteriores para crear colecciones y ofertas personalizadas.
+Una respuesta correcta devuelve información sobre la etiqueta recién creada, incluido su ID de instancia única y su ubicación `@id`. Puede utilizar el ID de instancia en pasos posteriores para actualizar o eliminar la etiqueta. Puede usar su etiqueta única `@id` en tutoriales posteriores para crear colecciones y ofertas personalizadas.
 
 ```json
 {

@@ -1,18 +1,19 @@
 ---
-title: Crear ubicaciones
+title: Creación de ubicaciones
 description: Obtenga información sobre cómo crear ubicaciones en Adobe Experience Platform.
-feature: Ofertas
-topic: Integraciones
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '215'
 ht-degree: 17%
 
 ---
 
-# Crear ubicaciones {#creating-placements}
+# Creación de ubicaciones {#creating-placements}
 
 Una ubicación ayuda a garantizar que el contenido de oferta correcto se muestre en la ubicación correcta dentro del mensaje. Al agregar contenido a una oferta, se le pedirá que seleccione una ubicación en la que se pueda mostrar dicho contenido.
 
@@ -22,7 +23,7 @@ En el ejemplo siguiente, hay tres ubicaciones que corresponden a diferentes tipo
 
 ![](../../assets/offers_placement_schema.png)
 
-Se puede acceder a la lista de ubicaciones desde el menú **[!UICONTROL Components]** . Los filtros están disponibles para ayudarle a recuperar las ubicaciones según un canal o contenido específico.
+Se puede acceder a la lista de ubicaciones desde la **[!UICONTROL Components]** para abrir el Navegador. Los filtros están disponibles para ayudarle a recuperar las ubicaciones según un canal o contenido específico.
 
 ![](../../assets/placements_filter.png)
 

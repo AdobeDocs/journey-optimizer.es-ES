@@ -1,18 +1,19 @@
 ---
-title: Campos de captura de datos de eventos del journeyStep
-description: Campos de captura de datos de eventos del journeyStep
-feature: Informes
-topic: Administración de contenido
+title: Campos de captura de datos de eventos de journeySteps
+description: Campos de captura de datos de eventos de journeySteps
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 8%
+source-wordcount: '371'
+ht-degree: 7%
 
 ---
 
-# Campos de captura de datos de eventos del journeyStep {#sharing-fetch-fields}
+# Campos de captura de datos de eventos de journeySteps {#sharing-fetch-fields}
 
 Este grupo de campos se compartirá mediante journeyStepEvent y journeyStepProfileEvent.
 
@@ -54,7 +55,7 @@ Tipo: cadena
 
 ## fetchOriginError
 
-Puede producirse un tiempo de espera, en dos casos:
+Se puede producir un tiempo de espera, en dos casos:
 
 * en el primer intento, se ejecuta la acción . En este caso, la ejecución no ha finalizado, por lo que no hay ningún error subyacente
 * en un reintento: en este caso, actionExecOrigError/actionExecOrigErrorCode describe el error encontrado en el intento antes del reintento.

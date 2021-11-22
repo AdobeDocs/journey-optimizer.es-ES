@@ -77,7 +77,7 @@ El modelo de optimización del tiempo de envío incorpora los datos de Adobe Jou
 * El mejor día de la semana para maximizar la participación
 * La mejor hora del mejor día de la semana para maximizar la participación
 
-El modelo varía si se habla de puntuación o de entrenamiento. Training is conducted weekly initially and then quarterly. Scoring is weekly initially and then monthly.
+El modelo varía si se habla de puntuación o de entrenamiento. La formación se imparte semanalmente y posteriormente trimestralmente. La puntuación es semanal inicialmente y, a continuación, mensual.
 
 * Formación: el desarrollo del algoritmo utilizado para obtener la puntuación.
 * Puntuación: la aplicación de una puntuación a perfiles individuales en función del modelo entrenado

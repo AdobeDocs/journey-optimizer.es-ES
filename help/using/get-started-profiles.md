@@ -1,33 +1,34 @@
 ---
 title: Introducción a los perfiles en Journey Optimizer
 description: Obtenga información sobre cómo crear y administrar perfiles en Adobe Journey Optimizer
-feature: Perfiles
+feature: Profiles
 role: User
 level: Beginner
-source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
+exl-id: be3936e4-8185-4031-9daf-95eea58077d0
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 6%
+source-wordcount: '246'
+ht-degree: 8%
 
 ---
 
 # Introducción a los perfiles {#profiles-gs}
 
-Aproveche el Perfil del cliente en tiempo real en [!DNL Adobe Journey Optimizer] para ver una vista holística de cada cliente al combinar datos de varios canales, incluidos en línea, sin conexión, CRM y de terceros. **** Los perfiles le permiten consolidar los datos de sus clientes en una vista unificada que ofrece una cuenta procesable y con marca de tiempo de cada interacción con los clientes.
+Leverage Real-time Customer Profile in [!DNL Adobe Journey Optimizer] to see a holistic view of each individual customer by combining data from multiple channels, including online, offline, CRM, and third party. **Profiles** allows you to consolidate your customer data into a unified view offering an actionable, timestamped account of every customer interaction.
 
 >[!NOTE]
 >
->Si su organización es nueva en [!DNL Adobe Journey Optimizer] y aún no tiene conjuntos de datos de perfil activos o políticas de combinación creadas, el panel **Perfiles** no es visible. En su lugar, la pestaña **Información general** muestra vínculos a la documentación de Adobe Experience Platform para ayudarle a empezar con el Perfil del cliente en tiempo real.
+>Si su organización es nueva en [!DNL Adobe Journey Optimizer] y aún no tiene conjuntos de datos de perfil activos o políticas de combinación creadas, la variable **Perfiles** tablero no está visible. Instead, the **Overview** tab displays links to Adobe Experience Platform documentation to help you get started with Real-time Customer Profile.
 
 ![](assets/profiles-home.png)
 
-Para obtener información sobre cómo acceder y trabajar con el **Panel de perfil** e información detallada sobre las métricas mostradas en el panel, consulte [esta sección](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es){target=&quot;_blank&quot;}.
+To learn how to access and work with the **Profile dashboard** and detailed information regarding the metrics displayed in the dashboard, refer to [this section](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es){target=&quot;_blank&quot;}.
 
-Puede unir fragmentos de datos de varias fuentes y combinarlos para ver una vista completa de cada uno de sus clientes. Al unir estos datos, las políticas de combinación son las reglas utilizadas para determinar cómo se priorizarán los datos y qué datos se combinarán para crear la vista unificada.
+You can bring data fragments together from multiple sources and combine them in order to see a complete view of each of your individual customers. Al unir estos datos, las políticas de combinación son las reglas utilizadas para determinar cómo se priorizarán los datos y qué datos se combinarán para crear la vista unificada.
 
-Obtenga más información sobre **Políticas de combinación** en esta [documentación](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target=&quot;_blank&quot;}.
+Más información sobre **Combinar directivas** en este [documentación](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target=&quot;_blank&quot;}.
 
 **Consulte también**
 
-* [Documentación del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es){target=&quot;_blank&quot;}
-* [Vídeo de información general del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}
+* [Real-time Customer Profile documentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es){target=&quot;_blank&quot;}
+* [Real-time Customer Profile overview video](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target=&quot;_blank&quot;}

@@ -1,14 +1,15 @@
 ---
 title: Biblioteca de funciones de agregación
 description: Biblioteca de funciones de agregación
-feature: Personalización
-topic: Personalización
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 10%
+source-wordcount: '157'
+ht-degree: 9%
 
 ---
 
@@ -18,7 +19,7 @@ Las funciones de agregación se utilizan para agrupar varios valores y formar un
 
 ## Recuento{#count}
 
-La función `count` devuelve el número de elementos dentro de la matriz dada.
+La variable `count` devuelve el número de elementos dentro de la matriz dada.
 
 **Formato**
 
@@ -36,7 +37,7 @@ La siguiente operación devuelve el número de pedidos de la matriz.
 
 ## Sum{#sum}
 
-La función `sum` devuelve la suma de todos los valores seleccionados dentro de la matriz.
+La variable `sum` devuelve la suma de todos los valores seleccionados dentro de la matriz.
 
 **Formato**
 
@@ -54,7 +55,7 @@ La siguiente operación devuelve la suma de todos los precios de los pedidos.
 
 ## Promedio{#average}
 
-La función `average` devuelve la media aritmética de todos los valores seleccionados dentro de la matriz.
+La variable `average` devuelve la media aritmética de todos los valores seleccionados dentro de la matriz.
 
 **Formato**
 
@@ -72,7 +73,7 @@ La siguiente operación devuelve el precio promedio de todos los pedidos.
 
 ## Mínimo{#min}
 
-La función `min` devuelve el menor de todos los valores seleccionados dentro de la matriz.
+La variable `min` devuelve el menor de todos los valores seleccionados dentro de la matriz.
 
 **Formato**
 
@@ -90,7 +91,7 @@ La siguiente operación devuelve el precio más bajo de todos los pedidos.
 
 ## Máximo{#max}
 
-La función `max` devuelve el mayor de todos los valores seleccionados dentro de la matriz.
+La variable `max` devuelve el mayor de todos los valores seleccionados dentro de la matriz.
 
 **Formato**
 

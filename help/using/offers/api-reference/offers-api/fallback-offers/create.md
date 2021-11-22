@@ -1,24 +1,25 @@
 ---
 title: Crear una oferta de reserva
 description: Se envía una oferta de reserva a los clientes si no cumplen los requisitos para otras ofertas
-feature: Ofertas
-topic: Integraciones
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '139'
 ht-degree: 12%
 
 ---
 
 # Crear una oferta de reserva
 
-Puede crear una oferta de reserva realizando una solicitud de POST a la API [!DNL Offer Library], mientras proporciona el ID de contenedor.
+Puede crear una oferta de reserva realizando una solicitud de POST al [!DNL Offer Library] al proporcionar su ID de contenedor.
 
 ## Encabezados Accept y Content-Type
 
-La tabla siguiente muestra los valores válidos que comprenden los campos *Content-Type* y *Accept* en el encabezado de la solicitud:
+La tabla siguiente muestra los valores válidos que comprenden el *Content-Type* y *Accept* campos en el encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -70,7 +71,7 @@ curl -X POST \
 
 **Respuesta**
 
-Una respuesta correcta devuelve información sobre la oferta de reserva recién creada, incluido su ID de instancia única y su ubicación `@id`. Puede utilizar el ID de instancia en pasos posteriores para actualizar o eliminar la oferta de reserva. Puede utilizar su oferta de reserva única `@id` en un tutorial posterior para crear una decisión.
+Una respuesta correcta devuelve información sobre la oferta de reserva recién creada, incluida su ID de instancia única y su ubicación `@id`. Puede utilizar el ID de instancia en pasos posteriores para actualizar o eliminar la oferta de reserva. Puede utilizar su oferta de reserva única `@id` en un tutorial posterior para crear una decisión.
 
 
 ```json

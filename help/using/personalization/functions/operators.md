@@ -1,14 +1,15 @@
 ---
 title: Biblioteca de funciones de operadores
 description: Biblioteca de funciones de operadores
-feature: Personalización
-topic: Personalización
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 12%
+source-wordcount: '302'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +21,7 @@ Las funciones booleanas se utilizan para realizar lógicas booleanas en distinto
 
 ### Y{#and}
 
-La función `and` se utiliza para crear una conjunción lógica.
+La variable `and` para crear una conjunción lógica.
 
 **Formato**
 
@@ -38,7 +39,7 @@ La siguiente operación devolverá a todas las personas con el país de origen c
 
 ### O{#or}
 
-La función `or` se utiliza para crear una disyunción lógica.
+La variable `or` para crear una disyunción lógica.
 
 **Formato**
 
@@ -85,7 +86,7 @@ Las funciones de comparación se utilizan para comparar diferentes expresiones y
 
 ### Es igual a{#equals}
 
-La función `=` (es igual que) comprueba si un valor o expresión es igual a otro valor o expresión.
+La variable `=` (es igual que) comprueba si un valor o expresión es igual a otro valor o expresión.
 
 **Formato**
 
@@ -103,7 +104,7 @@ La siguiente operación comprueba si el país de dirección es Francia.
 
 ### Distinto a{#notequal}
 
-La función `!=` (no igual) comprueba si un valor o expresión es **no** igual a otro valor o expresión.
+La variable `!=` función (no igual) comprueba si hay un valor o expresión **not** igual a otro valor o expresión.
 
 **Formato**
 
@@ -121,7 +122,7 @@ La siguiente operación comprueba si el país de la dirección principal no es F
 
 ### Greater than{#greaterthan}
 
-La función `>` (buena que) se utiliza para comprobar si el primer valor es bueno que el segundo valor.
+La variable `>` (bueno que) se utiliza para comprobar si el primer valor es bueno que el segundo valor.
 
 **Formato**
 
@@ -137,9 +138,9 @@ La siguiente operación define a las personas nacidas estrictamente después de 
 {%= profile.person.birthYear > 1970 %}
 ```
 
-### Greater than or equal to{#greaterthanorequal}
+### Mayor o igual que{#greaterthanorequal}
 
-La función `>=` (buena o igual que) se utiliza para comprobar si el primer valor es bueno o igual al segundo valor.
+La variable `>=` (buena o igual que) se utiliza para comprobar si el primer valor es bueno o igual al segundo valor.
 
 **Formato**
 
@@ -155,9 +156,9 @@ La siguiente operación define a las personas nacidas en 1970 o después de 1970
 {%= profile.person.birthYear >= 1970 %}
 ```
 
-### Less than{#lessthan}
+### Menos de{#lessthan}
 
-La función de comparación `<` (menor que) se utiliza para comprobar si el primer valor es menor que el segundo valor.
+La variable `<` (menor que) para comprobar si el primer valor es menor que el segundo valor.
 
 **Formato**
 
@@ -175,7 +176,7 @@ La siguiente operación define a las personas nacidas antes de 2000.
 
 ### Less than or equal to{#lessthanorequal}
 
-La función de comparación `<=` (menor o igual que) se utiliza para comprobar si el primer valor es menor o igual que el segundo valor.
+La variable `<=` (menor o igual que) se utiliza la función de comparación para comprobar si el primer valor es menor o igual que el segundo valor.
 
 **Formato**
 
@@ -192,4 +193,3 @@ La siguiente operación define a las personas nacidas en 2000 o antes.
 ```
 
 **Operaciones con números**
-

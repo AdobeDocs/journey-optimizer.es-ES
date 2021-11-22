@@ -1,26 +1,27 @@
 ---
 title: Actualizar etiquetas
 description: Las etiquetas permiten organizar y ordenar mejor las ofertas.
-feature: Ofertas
-topic: Integraciones
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '161'
 ht-degree: 9%
 
 ---
 
 # Actualizar una etiqueta
 
-Puede modificar o actualizar una etiqueta en el contenedor realizando una solicitud de PATCH a la API [!DNL Offer Library] .
+Puede modificar o actualizar una etiqueta del contenedor realizando una solicitud de PATCH al [!DNL Offer Library] API.
 
-Para obtener más información sobre JSON Patch, incluidas las operaciones disponibles, consulte la documentación oficial de [JSON Patch](http://jsonpatch.com/).
+Para obtener más información sobre JSON Patch, incluidas las operaciones disponibles, consulte la [Documentación de parches JSON](http://jsonpatch.com/).
 
 ## Encabezados Accept y Content-Type
 
-La tabla siguiente muestra los valores válidos que comprenden los campos *Content-Type* y *Accept* en el encabezado de la solicitud:
+La tabla siguiente muestra los valores válidos que comprenden el *Content-Type* y *Accept* campos en el encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -61,13 +62,13 @@ curl -X PATCH \
 
 | Parámetro | Descripción |
 | --------- | ----------- |
-| `op` | La llamada de operación utilizada para definir la acción necesaria para actualizar la conexión. Las operaciones incluyen: `add`, `replace` y `remove`. |
+| `op` | La llamada de operación utilizada para definir la acción necesaria para actualizar la conexión. Las operaciones incluyen: `add`, `replace`y `remove`. |
 | `path` | Ruta del parámetro que se va a actualizar. |
 | `value` | El nuevo valor con el que desea actualizar el parámetro. |
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles actualizados de la etiqueta, incluido su ID de instancia única y la etiqueta `@id`.
+Una respuesta correcta devuelve los detalles actualizados de la etiqueta, incluyendo su ID de instancia única y su etiqueta `@id`.
 
 ```json
 {

@@ -1,14 +1,15 @@
 ---
 title: Acerca de los datos de Adobe Analytics
 description: Aprenda a aprovechar los datos de Adobe Analytics
-feature: Eventos
-topic: Administración
+feature: Events
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 9%
+source-wordcount: '190'
+ht-degree: 8%
 
 ---
 
@@ -22,9 +23,9 @@ Puede aprovechar todos los datos de evento de comportamiento de Adobe Analytics 
 
 Para que esto funcione, debe activar en Adobe Experience Platform el grupo de informes que desea aprovechar:
 
-1. En Adobe Experience Platform, seleccione **[!UICONTROL Sources]** y luego **[!UICONTROL Add data]** en la sección Adobe Analytics . Se muestra la lista de grupos de informes de Adobe Analytics disponibles.
+1. En Adobe Experience Platform, seleccione **[!UICONTROL Sources]** then **[!UICONTROL Add data]** en la sección Adobe Analytics . Se muestra la lista de los grupos de informes de Adobe Analytics disponibles.
 
-1. Elija el grupo de informes que desea habilitar, haga clic en **[!UICONTROL Next]** y haga clic en **[!UICONTROL Finish]**.
+1. Elija el grupo de informes que desea habilitar y haga clic en **[!UICONTROL Next]** y haga clic en **[!UICONTROL Finish]**.
 
 1. Comparta el ID de datos de origen con el punto de contacto del programa Beta.
 
@@ -32,4 +33,4 @@ Esto habilita el conector de origen de Analytics para ese grupo de informes. Cad
 
 ![](../assets/jo-event9.png)
 
-Obtenga más información sobre el conector de origen de Adobe Analytics en [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es){target=&quot;_blank&quot;} y [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es){target=&quot;_blank&quot;}.
+Obtenga más información sobre el conector de origen de Adobe Analytics en  [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es){target=&quot;_blank&quot;} y [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es){target=&quot;_blank&quot;}.

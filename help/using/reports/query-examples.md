@@ -21,7 +21,7 @@ En esta sección se enumeran varios ejemplos utilizados habitualmente para consu
 
 ### Lista de cada error encontrado en los recorridos
 
-Esta consulta le permite enumerar cada error encontrado en recorridos al ejecutar un mensaje o una acción.
+Esta consulta le permite enumerar cada error encontrado en recorridos mientras ejecuta un mensaje o una acción.
 
 _Consulta del lago de datos_
 

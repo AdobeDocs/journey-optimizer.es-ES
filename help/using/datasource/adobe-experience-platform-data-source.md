@@ -1,20 +1,21 @@
 ---
-title: 'Fuente de datos de Adobe Experience Platform '
+title: Fuente de datos de Adobe Experience Platform
 description: Obtenga información sobre cómo configurar la fuente de datos de Adobe Experience Platform
-feature: Fuentes de datos
-topic: Administración
+feature: Data Sources
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
+exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '350'
 ht-degree: 11%
 
 ---
 
 # Fuente de datos de Adobe Experience Platform {#concept_zrb_nqt_52b}
 
-La fuente de datos de Adobe Experience Platform define la conexión con el servicio Perfil del cliente en tiempo real. Esta fuente de datos está integrada y preconfigurada. No se puede eliminar. Esta fuente de datos está diseñada para recuperar y utilizar datos del servicio Perfil del cliente en tiempo real (por ejemplo, comprobar si la persona que ha introducido un recorrido es una mujer). Permite utilizar datos de perfil y datos de eventos de experiencia. Para obtener más información sobre el servicio de Perfil del cliente en tiempo real, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es){target=&quot;_blank&quot;}.
+La fuente de datos de Adobe Experience Platform define la conexión con el servicio Perfil del cliente en tiempo real. Esta fuente de datos está integrada y preconfigurada. No se puede eliminar. Esta fuente de datos está diseñada para recuperar y utilizar datos del servicio Perfil del cliente en tiempo real (por ejemplo, comprobar si la persona que ha introducido un recorrido es una mujer). Permite utilizar datos de perfil y datos de eventos de experiencia. Para obtener más información sobre el servicio Perfil del cliente en tiempo real, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target=&quot;_blank&quot;}.
 
 >[!NOTE]
 >
@@ -32,12 +33,12 @@ Estos son los pasos principales para agregar grupos de campos al origen de datos
 
    ![](../assets/journey23.png)
 
-1. Haga clic en **[!UICONTROL Add a New Field Group]** para definir una nueva serie de campos que desea recuperar. Consulte [esta página](../datasource/configure-data-sources.md#define-field-groups).
+1. Haga clic en **[!UICONTROL Add a New Field Group]** para definir una nueva serie de campos que se recuperarán. Consulte [esta página](../datasource/configure-data-sources.md#define-field-groups).
 
    ![](../assets/journey24.png)
 
-1. Seleccione un esquema en la lista desplegable **[!UICONTROL Schema]**. Este campo enumera los esquemas de perfil y eventos de experiencia disponibles en Adobe Experience Platform. La creación del esquema no se realiza en [!DNL Journey Optimizer]. Se realiza en Adobe Experience Platform.
+1. Seleccione un esquema del **[!UICONTROL Schema]** lista desplegable. Este campo enumera los esquemas de perfil y eventos de experiencia disponibles en Adobe Experience Platform. La creación del esquema no se realiza en [!DNL Journey Optimizer]. Se realiza en Adobe Experience Platform.
 1. Seleccione los campos que desee utilizar.
 1. Haga clic en **[!UICONTROL Save]**.
 
-Cuando coloque el cursor en el nombre de un grupo de campos, verá dos iconos a la derecha. Permiten eliminar y duplicar el grupo de campos. Tenga en cuenta que el icono **[!UICONTROL Delete]** solo está disponible si el grupo de campos no se utiliza en ningún recorrido activo o borrador (información que se muestra en el campo **[!UICONTROL Used in]** ).
+Cuando coloque el cursor en el nombre de un grupo de campos, verá dos iconos a la derecha. Permiten eliminar y duplicar el grupo de campos. Tenga en cuenta que **[!UICONTROL Delete]** solo está disponible si el grupo de campos no se utiliza en ningún recorrido activo o borrador (la información se muestra en la **[!UICONTROL Used in]** ).

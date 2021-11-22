@@ -70,7 +70,7 @@ Para añadir una o varias representaciones a la oferta y configurarlas, siga los
 
 1. Añada contenido a su representación. Obtenga información sobre cómo [esta sección](#content).
 
-1. Al agregar contenido, como una imagen o una dirección URL, puede especificar un **[!UICONTROL Destination link]**: los usuarios que hacen clic en la oferta se dirigen a la página correspondiente.
+1. Al añadir contenido, como una imagen o una dirección URL, puede especificar un **[!UICONTROL Destination link]**: los usuarios que hacen clic en la oferta se dirigen a la página correspondiente.
 
    ![](../../assets/offer-destination-link.png)
 

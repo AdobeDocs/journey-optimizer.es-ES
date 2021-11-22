@@ -1,13 +1,14 @@
 ---
 title: Biblioteca de funciones de cadena
 description: Biblioteca de funciones de cadena
-feature: Personalización
-topic: Personalización
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1199'
 ht-degree: 7%
 
 ---
@@ -18,7 +19,7 @@ Aprenda a utilizar funciones de cadena en el Editor de expresiones.
 
 ## Camello {#camelCase}
 
-La función `camelCase` pone en mayúsculas la primera letra de cada palabra de una cadena.
+La variable `camelCase` pone en mayúscula la primera letra de cada palabra de una cadena.
 
 **Formato**
 
@@ -36,7 +37,7 @@ La siguiente función pone en mayúscula la primera letra de la palabra en la di
 
 ## Concat {#concate}
 
-La función `concat` combina dos cadenas en una.
+La variable `concat` combina dos cadenas en una.
 
 **Formato**
 
@@ -54,7 +55,7 @@ La siguiente función combinará ciudad y país del perfil en una sola cadena.
 
 ## Contains {#contains}
 
-La función `contains` se utiliza para determinar si una cadena contiene una subcadena especificada.
+La variable `contains` para determinar si una cadena contiene una subcadena especificada.
 
 **Formato**
 
@@ -84,7 +85,7 @@ La función `contains` se utiliza para determinar si una cadena contiene una sub
 
 ## No contiene{#doesNotContain}
 
-La función `doesNotContain` se utiliza para determinar si una cadena no contiene una subcadena especificada.
+La variable `doesNotContain` para determinar si una cadena no contiene una subcadena especificada.
 
 **Formato**
 
@@ -109,7 +110,7 @@ La siguiente consulta determina, con distinción de mayúsculas y minúsculas, s
 
 ## No termina con{#doesNotEndWith}
 
-La función `doesNotEndWith` se utiliza para determinar si una cadena no termina con una subcadena especificada.
+La variable `doesNotEndWith` se utiliza para determinar si una cadena no termina con una subcadena especificada.
 
 **Formato**
 
@@ -133,7 +134,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Does not start with{#doesNotStartWith}
 
-La función `doesNotStartWith` se utiliza para determinar si una cadena no comienza con una subcadena especificada.
+La variable `doesNotStartWith` para determinar si una cadena no comienza con una subcadena especificada.
 
 **Formato**
 
@@ -157,7 +158,7 @@ La siguiente consulta determina, con distinción de mayúsculas y minúsculas, s
 
 ## Codificar 64{#encode64}
 
-La función `encode64` se utiliza para codificar una cadena para conservar la información personal (PI) si se va a incluir, por ejemplo, en una dirección URL.
+La variable `encode64` se utiliza para codificar una cadena para conservar la información personal (PI) si se va a incluir, por ejemplo, en una dirección URL.
 
 **Formato**
 
@@ -167,7 +168,7 @@ La función `encode64` se utiliza para codificar una cadena para conservar la in
 
 ## Finaliza con{#endsWith}
 
-La función `endsWith` se utiliza para determinar si una cadena termina con una subcadena especificada.
+La variable `endsWith` para determinar si una cadena termina con una subcadena especificada.
 
 **Formato**
 
@@ -192,7 +193,7 @@ La siguiente consulta determina, con distinción de mayúsculas y minúsculas, s
 
 ## Es igual a{#equals}
 
-La función `equals` se utiliza para determinar si una cadena es igual a la cadena especificada, con distinción entre mayúsculas y minúsculas.
+La variable `equals` se utiliza para determinar si una cadena es igual a la cadena especificada, con distinción entre mayúsculas y minúsculas.
 
 **Formato**
 
@@ -215,7 +216,7 @@ La siguiente consulta determina, con distinción de mayúsculas y minúsculas, s
 
 ## Es igual a omitir mayúsculas y minúsculas{#equalsIgnoreCase}
 
-La función `equalsIgnoreCase` se utiliza para determinar si una cadena es igual a la cadena especificada, sin distinción de mayúsculas y minúsculas.
+La variable `equalsIgnoreCase` para determinar si una cadena es igual a la cadena especificada, sin distinción de mayúsculas y minúsculas.
 
 **Formato**
 
@@ -238,7 +239,7 @@ La siguiente consulta determina, sin distinción de mayúsculas y minúsculas, s
 
 ## Extraer dominio de correo electrónico {#extractEmailDomain}
 
-La función `extractEmailDomain` se utiliza para extraer el dominio de una dirección de correo electrónico.
+La variable `extractEmailDomain` se utiliza para extraer el dominio de una dirección de correo electrónico.
 
 **Formato**
 
@@ -256,7 +257,7 @@ La siguiente consulta extrae el dominio de correo electrónico de la dirección 
 
 ## Is empty {#isEmpty}
 
-La función `isEmpty` se utiliza para determinar si una cadena está vacía.
+La variable `isEmpty` para determinar si una cadena está vacía.
 
 **Formato**
 
@@ -274,7 +275,7 @@ La siguiente función devuelve &#39;true&#39; si el número de teléfono móvil 
 
 ## Guarnecido izquierdo {#leftTrim}
 
-La función `leftTrim` se utiliza para eliminar los espacios en blanco del principio de una cadena.
+La variable `leftTrim` se utiliza para eliminar los espacios en blanco del principio de una cadena.
 
 **Formato**
 
@@ -284,7 +285,7 @@ La función `leftTrim` se utiliza para eliminar los espacios en blanco del princ
 
 ## Length {#length}
 
-La función `length` se utiliza para obtener el número de caracteres de una cadena o una expresión.
+La variable `length` se utiliza para obtener el número de caracteres de una cadena o una expresión.
 
 **Formato**
 
@@ -302,7 +303,7 @@ La siguiente función devuelve la longitud del nombre de ciudad del perfil.
 
 ## Like{#like}
 
-La función `like` se utiliza para determinar si una cadena coincide con un patrón especificado.
+La variable `like` para determinar si una cadena coincide con un patrón especificado.
 
 **Formato**
 
@@ -325,7 +326,7 @@ La siguiente consulta recupera todas las ciudades donde viven los perfiles que c
 
 ## Lower Case{#lower}
 
-La función `lowerCase` convierte una cadena en letras minúsculas.
+La variable `lowerCase` convierte una cadena en minúsculas.
 
 **Sintaxis**
 
@@ -343,7 +344,7 @@ Esta función convierte el nombre del perfil en letras minúsculas.
 
 ## Coincide{#matches}
 
-La función `matches` se utiliza para determinar si una cadena coincide con una expresión regular específica. Consulte [este documento](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) para obtener más información sobre los patrones coincidentes en las expresiones regulares.
+La variable `matches` para determinar si una cadena coincide con una expresión regular específica. Consulte [este documento](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) para obtener más información sobre patrones coincidentes en expresiones regulares.
 
 **Formato**
 
@@ -361,7 +362,7 @@ La siguiente consulta determina, sin distinción de mayúsculas y minúsculas, s
 
 ## Not equal to{#notEqualTo}
 
-La función `notEqualTo` se utiliza para determinar si una cadena no es igual a la cadena especificada.
+La variable `notEqualTo` para determinar si una cadena no es igual a la cadena especificada.
 
 **Formato**
 
@@ -384,7 +385,7 @@ La siguiente consulta determina, con distinción de mayúsculas y minúsculas, s
 
 ## Grupo de expresiones regulares{#regexGroup}
 
-La función `Group` se utiliza para extraer información específica, según la expresión regular proporcionada.
+La variable `Group` se utiliza para extraer información específica, según la expresión regular proporcionada.
 
 **Formato**
 
@@ -406,9 +407,9 @@ La siguiente consulta se utiliza para extraer el nombre de dominio de una direcc
 {%= regexGroup(emailAddress,"@(\w+)", 1) %}
 ```
 
-## Replace {#replace}
+## Reemplazar {#replace}
 
-La función `replace` se utiliza para reemplazar una subcadena determinada de una cadena por otra subcadena.
+La variable `replace` se utiliza para reemplazar una subcadena determinada de una cadena por otra subcadena.
 
 **Formato**
 
@@ -427,7 +428,7 @@ La siguiente función .
 
 ## Reemplazar todo{#replaceAll}
 
-La función `replaceAll` se utiliza para reemplazar todas las subcadenas de un texto que coincida con el &quot;destino&quot; por la cadena de sustitución del literal especificada. La sustitución procede desde el principio de la cadena hasta el final, por ejemplo, reemplazar &quot;aa&quot; por &quot;b&quot; en la cadena &quot;aaa&quot; resultará en &quot;ba&quot; en lugar de &quot;ab&quot;.
+La variable `replaceAll` se utiliza para reemplazar todas las subcadenas de un texto que coincida con el &quot;destino&quot; por la cadena de sustitución literal especificada. La sustitución procede desde el principio de la cadena hasta el final, por ejemplo, reemplazar &quot;aa&quot; por &quot;b&quot; en la cadena &quot;aaa&quot; resultará en &quot;ba&quot; en lugar de &quot;ab&quot;.
 
 **Formato**
 
@@ -438,7 +439,7 @@ La función `replaceAll` se utiliza para reemplazar todas las subcadenas de un t
 
 ## Guarnecido derecho {#rightTrim}
 
-La función `rightTrim` se utiliza elimina los espacios en blanco del final de una cadena.
+La variable `rightTrim` se utiliza para eliminar los espacios en blanco del final de una cadena.
 
 
 **Formato**
@@ -449,7 +450,7 @@ La función `rightTrim` se utiliza elimina los espacios en blanco del final de u
 
 ## Split {#split}
 
-La función `split` se utiliza para dividir una cadena por un carácter determinado.
+La variable `split` se utiliza para dividir una cadena por un carácter determinado.
 
 **Formato**
 
@@ -470,7 +471,7 @@ The following function .
 
 ## Comienza con{#startsWith}
 
-La función `startsWith` se utiliza para determinar si una cadena comienza con una subcadena especificada.
+La variable `startsWith` se utiliza para determinar si una cadena comienza con una subcadena especificada.
 
 **Formato**
 
@@ -494,7 +495,7 @@ La siguiente consulta determina, con distinción de mayúsculas y minúsculas, s
 
 ## Caso de título{#titleCase}
 
-La función **titleCase** se utiliza para poner en mayúsculas las primeras letras de cada palabra de una cadena.
+La variable **titleCase** se utiliza para poner en mayúsculas las primeras letras de cada palabra de una cadena.
 
 **Sintaxis**
 
@@ -512,7 +513,7 @@ Si la persona vive en Washington High Street, esta función regresará a Washing
 
 ## Recortar{#trim}
 
-La función **trim** elimina todos los espacios en blanco del principio y del final de una cadena.
+La variable **trim** elimina todos los espacios en blanco del principio y del final de una cadena.
 
 **Sintaxis**
 
@@ -522,7 +523,7 @@ La función **trim** elimina todos los espacios en blanco del principio y del fi
 
 ## Mayúsculas{#upper}
 
-La función **upperCase** convierte una cadena en mayúsculas.
+La variable **upperCase** convierte una cadena en mayúsculas.
 
 **Sintaxis**
 

@@ -1,14 +1,15 @@
 ---
 title: Biblioteca de funciones Mapas
 description: Biblioteca de funciones Mapas
-feature: Personalización
-topic: Personalización
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: e3b7e80b72e6be71d5b38cd5507d20ad2e8ca8d4
+exl-id: de6a8da2-55cf-4105-ba93-40c556732626
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 9%
+source-wordcount: '102'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +19,7 @@ Utilice las funciones de mapa en la personalización para facilitar la interacci
 
 ## Obtenga{#get}
 
-La función `get` se utiliza para recuperar el valor de un mapa para una clave determinada.
+La variable `get` se utiliza para recuperar el valor de un mapa para una clave determinada.
 
 **Formato**
 
@@ -36,7 +37,7 @@ La siguiente operación obtiene el valor del mapa de identidad para la clave `ex
 
 ## Claves{#keys}
 
-La función `keys` se utiliza para recuperar todas las claves de un mapa determinado.
+La variable `keys` se utiliza para recuperar todas las claves de un mapa determinado.
 
 **Formato**
 
@@ -54,7 +55,7 @@ La siguiente operación obtiene todas las claves del mapa `identityMap`.
 
 ## Valores{#values}
 
-La función `values` se utiliza para recuperar todos los valores de un mapa determinado.
+La variable `values` se utiliza para recuperar todos los valores de un mapa determinado.
 
 **Formato**
 

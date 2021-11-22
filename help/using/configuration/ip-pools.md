@@ -37,7 +37,7 @@ Por ejemplo, una práctica recomendada es tener un grupo de IP para los mensajes
 
 Para crear un grupo de IP, siga estos pasos:
 
-1. Acceda al menú **[!UICONTROL Channels]** / **[!UICONTROL IP pools]** y haga clic en **[!UICONTROL Create IP Pool]**.
+1. Acceda a la **[!UICONTROL Channels]** / **[!UICONTROL IP pools]** a continuación, haga clic en **[!UICONTROL Create IP Pool]**.
 
    ![](../assets/ip-pool-create.png)
 
@@ -81,10 +81,10 @@ Para editar un grupo de IP:
 >
 >El nombre del grupo de IP no se puede editar. Si desea modificarlo, debe eliminar el grupo de IP y crear otro con el nombre de su elección.
 
-La actualización es efectiva de forma inmediata o asincrónica, dependiendo de si el grupo de IP está asociado a un [ajuste preestablecido de mensaje](message-presets.md) o no:
+La actualización es efectiva de forma inmediata o asincrónica, según el grupo de IP asociado a un [ajuste preestablecido de mensaje](message-presets.md) o no:
 
-* Si el grupo de IP está **not** seleccionado en un ajuste preestablecido de mensaje, la actualización es instantánea (estado **[!UICONTROL Success]**).
-* Si el grupo de IP **está** seleccionado en un ajuste preestablecido de mensaje, la actualización puede tardar entre 7 y 10 días hábiles (**[!UICONTROL Processing]** estado).
+* Si el grupo de IP es **not** seleccionada en un ajuste preestablecido de mensaje, la actualización es instantánea (**[!UICONTROL Success]** ).
+* Si el grupo IP **es** seleccionada en un ajuste preestablecido de mensaje, la actualización puede tardar entre 7 y 10 días hábiles (**[!UICONTROL Processing]** ).
 
 <!--If a message preset has been associated with the IP pool, you first need to remove it before editing the IP pool. Once the your modifications have been done, you can associate the message preset again.-->
 
@@ -99,5 +99,5 @@ Para comprobar el estado de actualización del grupo de IP, haga clic en el bot�
 >* hasta el siguiente lote para que el grupo de IP sea efectivo en los mensajes por lotes.
 
 
-También puede utilizar el botón **[!UICONTROL Delete]** para eliminar un grupo de IP. Tenga en cuenta que no puede eliminar un grupo de IP asociado a un ajuste preestablecido de mensaje.
+También puede usar la variable **[!UICONTROL Delete]** para eliminar un grupo de IP. Tenga en cuenta que no puede eliminar un grupo de IP asociado a un ajuste preestablecido de mensaje.
 

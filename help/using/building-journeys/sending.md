@@ -9,7 +9,7 @@ ht-degree: 8%
 ---
 
 
-# Ejecución de recorrido {#message-execution}
+# ejecución del recorrido {#message-execution}
 
 ## Prueba del recorrido
 
@@ -34,35 +34,35 @@ Una vez publicado, puede monitorizar su recorrido con las herramientas de inform
 
 ## Entrega de mensajes {#send-messages}
 
-Cuando el mensaje tiene un contenido definido y se publica, está listo para enviarse a través de un [recorrido](journey.md).
+Cuando el mensaje tiene un contenido definido y publicado, está listo para enviarse a través de un [recorrido](journey.md).
 
 >[!NOTE]
 >
 >Puede añadir un mensaje que aún esté en modo borrador a un recorrido, pero asegúrese de que el mensaje se publica antes de publicar el recorrido.
 
-Una vez enviado un mensaje, se puede monitorizar su ejecución mediante varios indicadores. [Obtenga más información sobre la supervisión de la ejecución](../message-monitoring.md) de mensajes.
+Una vez enviado un mensaje, puede monitorizar su ejecución a través de varios indicadores. [Obtenga más información sobre la monitorización de la ejecución de mensajes](../message-monitoring.md).
 
 ## Programar mensajes {#schedule-messages}
 
-Los mensajes se pueden programar a través de la actividad **[!UICONTROL Read Segment]** en un [recorrido](journey.md). Puede especificar cuándo ingresará el segmento al recorrido. [Obtenga más información sobre la actividad](read-segment.md) Leer segmento .
+Los mensajes se pueden programar mediante el **[!UICONTROL Read Segment]** actividad en un [recorrido](journey.md). Puede especificar cuándo ingresará el segmento al recorrido. [Descubra más información sobre la actividad Leer segmento](read-segment.md).
 
 Para realizar esto, siga los pasos a continuación:
 
-1. Edite un recorrido, arrastre y suelte una actividad **[!UICONTROL Read Segment]** y comience a configurarla. [Obtenga más información sobre la configuración de la actividad](read-segment.md#configuring-segment-trigger-activity) Leer segmento .
+1. Editar un recorrido, arrastrar y soltar un **[!UICONTROL Read Segment]** y comience a configurarla. [Descubra más información sobre la configuración de la actividad Leer segmento](read-segment.md#configuring-segment-trigger-activity).
 
-1. Haga clic en el enlace **[!UICONTROL Edit journey schedule]** para acceder a las propiedades del recorrido.
+1. Haga clic en el **[!UICONTROL Edit journey schedule]** para acceder a las propiedades del recorrido.
 
    ![](../assets/message-read-segment-schedule.png)
 
-1. Configure el campo **[!UICONTROL Scheduler type]**: seleccione el valor que desee en la lista para que el segmento introduzca el recorrido en una fecha u hora específica o de forma recurrente.
+1. Configure las variables **[!UICONTROL Scheduler type]** campo: seleccione el valor que desee en la lista para que el segmento introduzca el recorrido en una fecha u hora específica o de forma recurrente.
 
    >[!NOTE]
    >
-   >La sección **[!UICONTROL Schedule]** solo está disponible cuando se ha colocado una actividad **[!UICONTROL Read Segment]** en el lienzo.
+   >La variable **[!UICONTROL Schedule]** solo está disponible cuando **[!UICONTROL Read Segment]** se ha colocado la actividad en el lienzo.
 
    ![](../assets/message-read-segment-scheduler.png)
 
-1. Si selecciona **[!UICONTROL Once]**, defina una fecha y hora específicas en la que el segmento ingresará al recorrido.
+1. Si selecciona **[!UICONTROL Once]**, defina una fecha y hora específicas en las que el segmento ingresará al recorrido.
 
    ![](../assets/message-read-segment-scheduler-once.png)
 
@@ -72,7 +72,7 @@ Para realizar esto, siga los pasos a continuación:
 
    >[!NOTE]
    >
-   >De forma predeterminada, los segmentos introducen el recorrido **[!UICONTROL As soon as possible]**, es decir, 1 hora después de publicar el recorrido.
+   >De forma predeterminada, los segmentos entran en el recorrido **[!UICONTROL As soon as possible]**, es decir, 1 hora después de publicar el recorrido.
 
 1. Haga clic en **[!UICONTROL OK]** para guardar los cambios.
 

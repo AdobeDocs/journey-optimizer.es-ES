@@ -1,14 +1,15 @@
 ---
 title: Alertas en mensajes
 description: Obtenga información sobre cómo comprobar la validación del contenido del mensaje y solucionar problemas
-feature: Recorridos
-topic: Administración de contenido
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 1%
+source-wordcount: '400'
+ht-degree: 0%
 
 ---
 
@@ -28,15 +29,15 @@ Las alertas se muestran en la parte superior derecha de la pantalla, como se mue
 
 Pueden producirse dos tipos de alertas:
 
-* **** Las advertencias se refieren a recomendaciones y prácticas recomendadas. Por ejemplo, se mostrará un mensaje si falta el vínculo de no participación.
+* **Advertencias** consulte recomendaciones y prácticas recomendadas. Por ejemplo, se mostrará un mensaje si falta el vínculo de no participación.
 
-* **** Los errores le impiden publicar el mensaje mientras no se hayan resuelto. Por ejemplo, un mensaje le avisará de que falta la línea de asunto.
+* **Errores** impida la publicación del mensaje mientras no se resuelvan. Por ejemplo, un mensaje le avisará de que falta la línea de asunto.
 
-Todas las advertencias y errores posibles se detallan [a continuación](#alerts-and-warnings).
+Se detallan todas las advertencias y errores posibles [below](#alerts-and-warnings).
 
 >[!CAUTION]
 >
-> Debe resolver todas las alertas **error** antes de la publicación.
+> Debe resolver todo **error** alertas antes de la publicación.
 
 ## Lista de advertencias y errores {#alerts-and-warnings}
 
@@ -44,17 +45,17 @@ La configuración y los elementos comprobados por el sistema se enumeran a conti
 
 **Advertencias**:
 
-* **[!UICONTROL Opt out link not present in the email body]**: añadir un vínculo de baja en el cuerpo del correo electrónico es una práctica recomendada. Aprenda a configurarlo en [esta sección](consent.md).
+* **[!UICONTROL Opt out link not present in the email body]**: añadir un vínculo de baja en el cuerpo del correo electrónico es una práctica recomendada. Obtenga información sobre cómo configurarlo en [esta sección](consent.md).
 
-* **[!UICONTROL Text version of html is empty]**: no olvide definir una versión de texto del cuerpo del correo electrónico, ya que se utilizará cuando no se pueda mostrar contenido HTML. Aprenda a crear la versión de texto en [esta sección](create-email-content.md#generate-text-version).
+* **[!UICONTROL Text version of html is empty]**: no olvide definir una versión de texto del cuerpo del correo electrónico, ya que se utilizará cuando no se pueda mostrar el contenido del HTML. Aprenda a crear la versión de texto en [esta sección](create-email-content.md#generate-text-version).
 
-* **[!UICONTROL Empty link is present in email body]**: compruebe que todos los vínculos del correo electrónico sean correctos. Aprenda a administrar contenido y vínculos en [esta sección](create-email-content.md).
+* **[!UICONTROL Empty link is present in email body]**: compruebe que todos los vínculos del correo electrónico sean correctos. Obtenga información sobre cómo administrar contenido y vínculos en [esta sección](create-email-content.md).
 
-* **[!UICONTROL Email size has exceeded the limit of 100KB]**: para una entrega óptima, asegúrese de que el tamaño del correo electrónico no supere los 100 KB. Aprenda a editar el contenido del correo electrónico en [esta sección](create-email-content.md).
+* **[!UICONTROL Email size has exceeded the limit of 100KB]**: para una entrega óptima, asegúrese de que el tamaño del correo electrónico no supere los 100 KB. Obtenga información sobre cómo editar contenido de correo electrónico en [esta sección](create-email-content.md).
 
 **Errores**:
 
-* **[!UICONTROL Subject Line Not Present]**: la línea de asunto del correo electrónico es obligatoria. Aprenda a definirlo y personalizarlo en [esta sección](create-email.md).
+* **[!UICONTROL Subject Line Not Present]**: la línea de asunto del correo electrónico es obligatoria. Obtenga información sobre cómo definirlo y personalizarlo en [esta sección](create-email.md).
 
    <!--HTML is empty when Amp HTML is present-->
 
@@ -68,7 +69,7 @@ La configuración y los elementos comprobados por el sistema se enumeran a conti
 
 >[!CAUTION]
 >
-> Para poder publicar el mensaje, debe resolver todas las alertas **error**.
+> Para poder publicar el mensaje, debe resolver todos los **error** alertas.
 
 <!--Other issues can stop publication such as:
 * The push notification title is empty-->

@@ -1,14 +1,15 @@
 ---
 title: Acciones de Adobe Campaign v7/v8
 description: Obtenga información sobre las acciones de Adobe Campaign v7/v8
-feature: Acciones
-topic: Administración
+feature: Actions
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 12%
+source-wordcount: '163'
+ht-degree: 11%
 
 ---
 
@@ -20,10 +21,10 @@ La conexión entre las instancias de Journey Optimizer y Campaign se configura p
 
 Para que esto funcione, debe configurar una acción dedicada. Consulte esta [sección](../action/acc-action.md).
 
-En esta [sección](../building-journeys/campaign-classic-use-case.md) se presenta un caso de uso completo.
+En este ejemplo se presenta un caso de uso completo [sección](../building-journeys/campaign-classic-use-case.md).
 
 1. Diseñe el recorrido, empezando por un evento . Consulte esta [sección](../building-journeys/journey.md).
-1. En la sección **Action** de la paleta, seleccione una acción de Campaign y agréguela al recorrido.
-1. En **Action parameters**, se muestran todos los campos esperados en la carga útil del mensaje. Debe asignar cada uno de estos campos al campo que desee utilizar, ya sea desde el evento o desde el origen de datos. Esto es similar a las acciones personalizadas. Consulte esta [sección](../building-journeys/using-custom-actions.md).
+1. En el **Acción** de la paleta, seleccione una acción de Campaña y agréguela al recorrido.
+1. En el **Parámetros de acción**, se muestran todos los campos esperados en la carga útil del mensaje. Debe asignar cada uno de estos campos al campo que desee utilizar, ya sea desde el evento o desde el origen de datos. Esto es similar a las acciones personalizadas. Consulte esta [sección](../building-journeys/using-custom-actions.md).
 
 ![](../assets/accintegration2.png)

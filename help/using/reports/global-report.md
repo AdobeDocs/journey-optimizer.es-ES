@@ -1,14 +1,15 @@
 ---
 title: Informe global
 description: Aprenda a utilizar los datos del informe global
-feature: Informes
-topic: Administración de contenido
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 2%
+source-wordcount: '239'
+ht-degree: 1%
 
 ---
 
@@ -18,19 +19,19 @@ ht-degree: 2%
 >
 > Si las consultas personalizadas se realizan a través de API al utilizar el servicio de Consulta, espere un cierto retraso para los informes.
 
-Utilice **[!UICONTROL Global report]** para medir el impacto de los recorridos y envíos durante un período de tiempo seleccionado.
+Utilice la variable **[!UICONTROL Global report]** para medir el impacto de los recorridos y envíos durante un período de tiempo seleccionado.
 
-* Si desea dirigirse a un recorrido o envíos en el contexto de un recorrido, en el menú **[!UICONTROL Journeys]**, acceda al recorrido y haga clic en el icono **[!UICONTROL Global report]**. A continuación, puede encontrar el Recorrido, el correo electrónico y la inserción **[!UICONTROL Global report]**.
+* Si desea dirigirse a un recorrido o envíos en el contexto de un recorrido, desde el **[!UICONTROL Journeys]** , acceda al recorrido y haga clic en el botón **[!UICONTROL Global report]** icono. A continuación, puede encontrar el Recorrido, el correo electrónico y la inserción **[!UICONTROL Global report]**.
 
-* Si desea segmentar un envío específico, en la pestaña **[!UICONTROL Global view]** de los mensajes, seleccione **[!UICONTROL Executions]** en el menú avanzado del envío seleccionado.**[!UICONTROL Global Report]**
+* Si desea segmentar un envío específico, en la **[!UICONTROL Global view]** del **[!UICONTROL Executions]** de los mensajes, seleccione **[!UICONTROL Global Report]** en el menú avanzado de la entrega seleccionada.
 
 ## Personalizar tablero {#modify-dashboard}
 
 Cada tablero de informes se puede modificar modificando o eliminando las utilidades o cambiando el lapso de tiempo de destino. Cambiar las utilidades solo afecta al tablero del usuario actual. Otros usuarios verán sus propios tableros o los que estén configurados de forma predeterminada.
 
-1. En el tablero **[!UICONTROL Global report]**, haga clic en el botón planificador.
+1. Desde su **[!UICONTROL Global report]** tablero, haga clic en el botón planificador.
 
-1. Seleccione las fechas de inicio y finalización. Puede ajustar aún más los informes seleccionando **[!UICONTROL Start time]** y **[!UICONTROL End time]**.
+1. Seleccione las fechas de inicio y finalización. Puede ajustar aún más los informes seleccionando una **[!UICONTROL Start time]** y **[!UICONTROL End time]**.
 
    ![](../assets/global_report_6.png)
 
@@ -48,4 +49,4 @@ Cada tablero de informes se puede modificar modificando o eliminando las utilida
 
 1. Una vez que esté satisfecho con el orden de visualización y el tamaño de sus widgets, haga clic en **[!UICONTROL Save]**.
 
-El tablero se ha guardado. Los diferentes cambios se volverán a aplicar para un uso posterior de los informes globales. Si es necesario, utilice la opción **[!UICONTROL Reset]** para restaurar el orden predeterminado de las utilidades y utilidades.
+El tablero se ha guardado. Los diferentes cambios se volverán a aplicar para un uso posterior de los informes globales. Si es necesario, use la variable **[!UICONTROL Reset]** para restaurar el orden predeterminado de las utilidades y utilidades.

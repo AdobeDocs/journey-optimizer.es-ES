@@ -19,27 +19,27 @@ La interfaz de recorrido permite arrastrar y soltar fácilmente actividades de l
 
 ## Introducción al diseño de recorrido
 
-La **paleta** se encuentra en el lado izquierdo de la pantalla. Todas las actividades disponibles se clasifican en varias categorías: **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** y **[!UICONTROL Actions]**. Puede expandir/contraer las diferentes categorías haciendo clic en su nombre. Para utilizar una actividad en el recorrido, arrástrela desde la paleta y suéltela en el lienzo.
+La variable **paleta** en el lado izquierdo de la pantalla. Todas las actividades disponibles se clasifican en varias categorías: **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** y **[!UICONTROL Actions]**. Puede expandir/contraer las diferentes categorías haciendo clic en su nombre. Para utilizar una actividad en el recorrido, arrástrela desde la paleta y suéltela en el lienzo.
 
 Al iniciar un nuevo recorrido, los elementos que no se pueden soltar en el lienzo como primer paso se ocultan. Esto se refiere a todas las acciones, la actividad de la condición, la espera y la reacción.
 
 ![](../assets/journey38.png)
 
-El icono **[!UICONTROL Filter items]** en la esquina superior izquierda permite mostrar los siguientes filtros:
+La variable **[!UICONTROL Filter items]** en la esquina superior izquierda permite mostrar los siguientes filtros:
 
-* **Mostrar solo los elementos** disponibles: oculte o muestre elementos no disponibles en la paleta, por ejemplo, los eventos que utilizan un área de nombres diferente a la utilizada en el recorrido. De forma predeterminada, los elementos no disponibles están ocultos. Si elige mostrarlos, aparecerán atenuados.
+* **Mostrar solo los elementos disponibles**: oculte o muestre elementos no disponibles en la paleta, por ejemplo, los eventos que utilizan un área de nombres diferente a la utilizada en el recorrido. De forma predeterminada, los elementos no disponibles están ocultos. Si elige mostrarlos, aparecerán atenuados.
 
-* **Mostrar solo los elementos** recientes: este filtro le permite mostrar solo los últimos cinco eventos y acciones utilizados, además de los predeterminados. Esto es específico de cada usuario. De forma predeterminada, se muestran todos los elementos.
+* **Mostrar solo los elementos recientes**: este filtro le permite mostrar solo los últimos cinco eventos y acciones utilizados, además de los predeterminados. Esto es específico de cada usuario. De forma predeterminada, se muestran todos los elementos.
 
-También puede utilizar el campo **[!UICONTROL Search]** . Solo se filtran eventos y acciones.
+También puede usar la variable **[!UICONTROL Search]** campo . Solo se filtran eventos y acciones.
 
-El **lienzo** es la zona central del diseñador de recorridos. Es en esta zona donde puede soltar sus actividades y configurarlas. Haga clic en una actividad del lienzo para configurarla. Se abre el panel de configuración de actividad en el lado derecho.
+La variable **lienzo** es la zona central del diseñador de recorridos. Es en esta zona donde puede soltar sus actividades y configurarlas. Haga clic en una actividad del lienzo para configurarla. Se abre el panel de configuración de actividad en el lado derecho.
 
 ![](../assets/journey39.png)
 
-El **panel de configuración de actividad** aparece al hacer clic en una actividad de la paleta. Rellene los campos obligatorios. Haga clic en el icono **[!UICONTROL Delete]** para eliminar la actividad. Haga clic en **[!UICONTROL Cancel]** para cancelar las modificaciones o en **[!UICONTROL Ok]** para confirmar. Para eliminar actividades, también puede seleccionar una actividad (o varias) y pulsar la tecla de retroceso. Si pulsa la tecla escape, se cerrará el panel de configuración de la actividad.
+La variable **panel de configuración de actividades** aparece al hacer clic en una actividad de la paleta. Rellene los campos obligatorios. Haga clic en el **[!UICONTROL Delete]** para eliminar la actividad. Haga clic en **[!UICONTROL Cancel]** para cancelar las modificaciones o **[!UICONTROL Ok]** para confirmar. Para eliminar actividades, también puede seleccionar una actividad (o varias) y pulsar la tecla de retroceso. Si pulsa la tecla escape, se cerrará el panel de configuración de la actividad.
 
-De forma predeterminada, los campos de solo lectura están ocultos. Para mostrar campos de solo lectura, haga clic en el icono **Mostrar campos de solo lectura** en la parte superior izquierda del panel de configuración de actividad. Esta configuración se aplica a todas las actividades de todos los recorridos.
+De forma predeterminada, los campos de solo lectura están ocultos. Para mostrar campos de solo lectura, haga clic en el botón **Mostrar campos de solo lectura** en la parte superior izquierda del panel de configuración de actividad. Esta configuración se aplica a todas las actividades de todos los recorridos.
 
 ![](../assets/journey59bis.png)
 
@@ -51,9 +51,9 @@ Según el estado del recorrido, puede realizar diferentes acciones en el recorri
 
 Al diseñar el recorrido, la primera pregunta que desea hacer es cómo entrarán los perfiles en el recorrido. Hay dos posibilidades:
 
-**Comience con un evento**: cuando un recorrido está configurado para escuchar eventos, las personas entran en el recorrido  **** unitarilyin real. Los mensajes incluidos en el recorrido se envían a la persona que actualmente fluye al recorrido. [Más información sobre los eventos](../event/about-events.md)
+**Iniciar con un evento**: cuando un recorrido está configurado para escuchar eventos, las personas entran en el recorrido **unitary** en tiempo real. Los mensajes incluidos en el recorrido se envían a la persona que actualmente fluye al recorrido. [Más información sobre los eventos](../event/about-events.md)
 
-**Comience con un segmento** de lectura: puede configurar el recorrido para que escuche los segmentos de Adobe Experience Platform. En este caso, todas las personas que pertenecen al segmento especificado entran en el recorrido. Los mensajes incluidos en el recorrido se envían a las personas pertenecientes al segmento. [Obtenga más información sobre la lectura de segmentos](read-segment.md).
+**Comenzar con un segmento de lectura**: puede configurar el recorrido para que escuche los segmentos de Adobe Experience Platform. En este caso, todas las personas que pertenecen al segmento especificado entran en el recorrido. Los mensajes incluidos en el recorrido se envían a las personas pertenecientes al segmento. [Obtenga más información sobre la lectura de segmentos](read-segment.md).
 
 ## Defina los pasos siguientes
 
@@ -63,27 +63,27 @@ Después del primer evento o del segmento de lectura, puede combinar las diferen
 
 Cuando inicie el recorrido con un evento , el recorrido se activará cuando se reciba el evento. La persona seguirá, individualmente, los siguientes pasos definidos en su recorrido.
 
-Puede agregar **varios eventos** en el recorrido, siempre que utilicen el mismo espacio de nombres. Los eventos se configuran de antemano. [Más información sobre los eventos](about-journey-activities.md#event-activities)
+Puede añadir **varios eventos** en el recorrido, siempre que utilicen el mismo espacio de nombres. Los eventos se configuran de antemano. [Más información sobre los eventos](about-journey-activities.md#event-activities)
 
-También puede agregar un evento **Reaction** después de un mensaje para reaccionar ante los datos de seguimiento relacionados con el mensaje. Esto le permite, por ejemplo, enviar otro mensaje si el individuo ha abierto el mensaje anterior o ha hecho clic en él. Obtenga más información en esta [sección](reaction-events.md).
+También puede agregar un **Reacción** después de un mensaje para reaccionar ante los datos de seguimiento relacionados con el mensaje. Esto le permite, por ejemplo, enviar otro mensaje si el individuo ha abierto el mensaje anterior o ha hecho clic en él. Obtenga más información en esta [sección](reaction-events.md).
 
-La actividad de evento **Segment Qualification** permite hacer que las personas entren o avancen en un recorrido en función de las entradas y salidas de segmentos de Adobe Experience Platform. Puede hacer que todos los clientes nuevos de plata introduzcan un recorrido y envíen mensajes personalizados. Obtenga más información en esta [sección](segment-qualification-events.md).
+La variable **Clasificación del segmento** la actividad de evento le permite hacer que las personas entren o avancen en un recorrido en función de las entradas y salidas de segmentos de Adobe Experience Platform. Puede hacer que todos los clientes nuevos de plata introduzcan un recorrido y envíen mensajes personalizados. Obtenga más información en esta [sección](segment-qualification-events.md).
 
 **Organización**
 
-En las actividades de organización, encontrará la actividad **Read Segment** que le permite configurar el recorrido para que escuche un segmento de Adobe Experience Platform. [Obtenga más información sobre la actividad](read-segment.md) Leer segmento .
+En las actividades de organización, encontrará la variable **Leer segmento** actividad que le permite configurar su recorrido para que escuche un segmento de Adobe Experience Platform. [Descubra más información sobre la actividad Leer segmento](read-segment.md).
 
 Las otras actividades permiten agregar condiciones al recorrido para definir varias rutas, establecer un tiempo de espera antes de ejecutar la siguiente actividad o finalizar el recorrido. Obtenga más información en esta [sección](about-journey-activities.md#orchestration-activities).
 
 **Acciones**
 
-Aquí encontrará la actividad **Message** que le permite incluir un mensaje diseñado en [!DNL Journey Optimizer]. [Descubra más información sobre la actividad Mensaje](journeys-message.md)
+Aquí encontrarás el **Mensaje** actividad que le permite incluir un mensaje diseñado en [!DNL Journey Optimizer]. [Descubra más información sobre la actividad Mensaje](journeys-message.md)
 
 También encontrará las acciones personalizadas que ha configurado para enviar mensajes con sistemas de terceros. Obtenga más información en esta [sección](about-journey-activities.md#action-activities).
 
 ## Uso de rutas en el lienzo {#paths}
 
-Varias actividades (**[!UICONTROL Condition]**, **[!UICONTROL Action]**) permiten definir una acción de reserva en caso de error o tiempo de espera. En el panel de configuración de actividad, marque la casilla : **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Se agrega otra ruta después de la actividad . La duración del tiempo de espera se define en las propiedades del recorrido (consulte [esta página](../building-journeys/journey-gs.md#change-properties) por un usuario administrador. Por ejemplo, si un correo electrónico tarda demasiado en enviarse o por error, puede decidir enviar un SMS.
+Varias actividades (**[!UICONTROL Condition]**, **[!UICONTROL Action]** actividades) le permiten definir una acción de reserva en caso de error o tiempo de espera. En el panel de configuración de actividad, marque la casilla : **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Se agrega otra ruta después de la actividad . La duración del tiempo de espera se define en las propiedades del recorrido (consulte [esta página](../building-journeys/journey-gs.md#change-properties) por un usuario administrador. Por ejemplo, si un correo electrónico tarda demasiado en enviarse o por error, puede decidir enviar un SMS.
 
 ![](../assets/journey42.png)
 
@@ -91,7 +91,7 @@ Varias actividades (evento, acción, espera) le permiten agregar varias rutas de
 
 Al escuchar un evento, se recomienda no esperar el evento indefinidamente. No es obligatorio, solo es una práctica recomendada. Si desea escuchar uno o varios eventos solo durante un tiempo determinado, colocará uno o varios eventos y una actividad de espera en paralelo. Consulte [esta sección](../building-journeys/general-events.md#events-specific-time).
 
-Para eliminar la ruta, coloque el cursor sobre ella y haga clic en el icono **[!UICONTROL Delete path]**.
+Para eliminar la ruta, coloque el cursor sobre ella y haga clic en el botón **[!UICONTROL Delete path]** icono.
 
 ![](../assets/journey42ter.png)
 
@@ -115,10 +115,10 @@ Puede copiar una o varias actividades de un recorrido y pegarlas en el mismo rec
 Estos son los pasos para copiar/pegar actividades:
 
 1. Abra un recorrido.
-1. Para seleccionar las actividades que desea copiar, mueva el ratón mientras hace clic. También puede hacer clic en cada actividad mientras pulsa la tecla **Ctrl/Comando**. Utilice **Ctrl/Comando + A** si desea seleccionar todas las actividades.
+1. Para seleccionar las actividades que desea copiar, mueva el ratón mientras hace clic. También puede hacer clic en cada actividad mientras presiona el botón **Ctrl/Comando** clave. Uso **Ctrl/Comando + A** si desea seleccionar todas las actividades.
    ![](../assets/copy-paste1.png)
-1. Pulse **Ctrl/Comando + C**.
-Si solo desea copiar una actividad, puede hacer clic en ella y utilizar el icono **Copiar** en la parte superior izquierda del panel de configuración de la actividad.
+1. Press **Ctrl/Comando + C**.
+Si solo desea copiar una actividad, puede hacer clic en ella y usar la variable **Copiar** en la parte superior izquierda del panel de configuración de actividad.
    ![](../assets/copy-paste2.png)
-1. En cualquier recorrido, pulse **Ctrl/Comando + V** para pegar las actividades sin vincularlas a un nodo existente. Las actividades pegadas se colocan en el mismo orden. Después de pegarlas, las actividades permanecen seleccionadas para que pueda moverlas fácilmente. También puede colocar el cursor en un marcador de posición vacío y pulsar **Ctrl/Comando + V**. Las actividades pasadas se vincularán al nodo .
+1. En cualquier recorrido, presione **Ctrl/Comando + V** para pegar las actividades sin vincularlas a un nodo existente. Las actividades pegadas se colocan en el mismo orden. Después de pegarlas, las actividades permanecen seleccionadas para que pueda moverlas fácilmente. También puede colocar el cursor en un marcador de posición vacío y pulsar **Ctrl/Comando + V**. Las actividades pasadas se vincularán al nodo .
    ![](../assets/copy-paste3.png)

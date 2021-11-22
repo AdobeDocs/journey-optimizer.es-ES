@@ -1,13 +1,14 @@
 ---
 title: Limitaciones de recorrido
 description: Obtenga más información sobre las limitaciones de Recorrido
-feature: Recorridos
-topic: Administración de contenido
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
+exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Estas son limitaciones relacionadas con el uso de recorridos.
 
 * No hay restricciones de envío. 
 * En caso de error, se realizan tres reintentos de forma sistemática. No se puede ajustar el número de reintentos según el mensaje de error recibido. 
-* El evento **Reaction** integrado le permite reaccionar ante las acciones integradas (consulte esta [página](../building-journeys/reaction-events.md)). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado. 
+* El **Reacción** le permite reaccionar a las acciones integradas (consulte esta [página](../building-journeys/reaction-events.md)). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado. 
 * No puede colocar dos acciones en paralelo, debe agregarlas una tras otra.
 
 ## Limitaciones de las acciones del mensaje
@@ -29,11 +30,11 @@ Estas son limitaciones relacionadas con el uso de recorridos.
 
 ## Limitaciones de las versiones de recorrido {#journey-versions-limitations}
 
-* Un recorrido que comience con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No se puede iniciar un recorrido con un evento **Segment Qualification**.
-* Un recorrido que comience con una actividad **Segment Qualification** en v1 siempre debe comenzar con **Segment Qualification** en versiones posteriores.
-* El segmento y el área de nombres elegidos en **Segment Qualification** (primer nodo) no se pueden cambiar en las nuevas versiones.
+* Un recorrido que comience con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No se puede iniciar un recorrido con un **Clasificación del segmento** evento.
+* Un recorrido que comience por un **Clasificación del segmento** la actividad en v1 siempre debe comenzar con un **Clasificación del segmento** en versiones posteriores.
+* El segmento y el área de nombres elegidos en **Clasificación del segmento** (primer nodo) no se puede cambiar en las versiones nuevas.
 * La regla de reentrada debe ser la misma en todas las versiones de recorrido.
-* Un recorrido que comience por un **segmento de lectura** no puede comenzar con otro evento en las versiones siguientes.
+* Un recorrido que comience por un **Leer segmento** no puede comenzar con otro evento en las versiones siguientes.
  
 
 ## Limitaciones de acciones personalizadas

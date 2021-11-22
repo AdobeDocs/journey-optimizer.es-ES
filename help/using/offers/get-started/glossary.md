@@ -1,13 +1,13 @@
 ---
 title: Glosario de ofertas
 description: Glosario de ofertas
-feature: Ofertas
-topic: Integraciones
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
-workflow-type: ht
-source-wordcount: '316'
+workflow-type: tm+mt
+source-wordcount: '314'
 ht-degree: 100%
 
 ---

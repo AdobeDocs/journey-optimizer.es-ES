@@ -1,20 +1,21 @@
 ---
 title: Eliminar etiquetas
 description: Las etiquetas permiten organizar y ordenar mejor las ofertas.
-feature: Ofertas
-topic: Integraciones
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '143'
 ht-degree: 6%
 
 ---
 
 # Eliminar una etiqueta
 
-Ocasionalmente puede ser necesario eliminar (DELETE) una etiqueta. Solo se pueden eliminar las etiquetas que cree en el contenedor de inquilino. Para ello, realiza una solicitud de DELETE a la API [!DNL Offer Library] utilizando el $id de la etiqueta que desea eliminar.
+Ocasionalmente puede ser necesario eliminar (DELETE) una etiqueta. Solo se pueden eliminar las etiquetas que cree en el contenedor de inquilino. Para ello, realiza una solicitud de DELETE al [!DNL Offer Library] API con el $id de la etiqueta que desea eliminar.
 
 **Formato de API**
 

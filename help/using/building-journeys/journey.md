@@ -1,14 +1,15 @@
 ---
 title: Principio general
 description: Principio general
-feature: Recorridos
-topic: Administración de contenido
+feature: Journeys
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 7%
+source-wordcount: '115'
+ht-degree: 5%
 
 ---
 
@@ -18,10 +19,10 @@ ht-degree: 7%
 
 Diseñe escenarios avanzados de varios pasos con las siguientes capacidades:
 
-* Envíe **mensajes unitarios** en tiempo real activados cuando se reciba un evento o **en lote** mediante segmentos de Adobe Experience Platform.
+* Enviar en tiempo real **mensajes unitarios** se activa cuando se recibe un evento, o **en lote** uso de segmentos de Adobe Experience Platform.
 
-* Aproveche los **datos contextuales** de eventos, información de Adobe Experience Platform o datos de servicios API de terceros.
+* Aprovechar **datos contextuales** desde eventos, información de Adobe Experience Platform o datos de servicios API de terceros.
 
-* Utilice la **acción integrada** para enviar mensajes diseñados en [!DNL Journey Optimizer] o cree **acciones personalizadas** si utiliza un sistema de terceros para enviar mensajes.
+* Utilice la variable **acción integrada** para enviar mensajes diseñados en [!DNL Journey Optimizer] o crear **acciones personalizadas** si utiliza un sistema de terceros para enviar mensajes.
 
-* Con el **diseñador de recorridos**, cree sus casos de uso de varios pasos: arrastre y suelte fácilmente un evento de entrada o una actividad de segmento de lectura, añada condiciones y envíe mensajes personalizados.
+* Con la variable **diseñador de recorridos**, cree sus casos de uso de varios pasos: arrastre y suelte fácilmente un evento de entrada o una actividad de segmento de lectura, añada condiciones y envíe mensajes personalizados.

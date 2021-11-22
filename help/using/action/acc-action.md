@@ -1,13 +1,14 @@
 ---
 title: Integración con Adobe Campaign v7/v8
 description: Aprenda a integrar con Adobe Campaign v7/v8
-feature: Acciones
-topic: Administración
+feature: Actions
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '448'
 ht-degree: 7%
 
 ---
@@ -18,7 +19,7 @@ Esta integración está disponible para Adobe Campaign Classic v7 a partir de la
 
 La conexión entre las instancias de Journey Optimizer y Campaign se configura por Adobe en el momento del aprovisionamiento.
 
-En esta [sección](../building-journeys/campaign-classic-use-case.md) se presenta un caso de uso completo.
+En este ejemplo se presenta un caso de uso completo [sección](../building-journeys/campaign-classic-use-case.md).
 
 Para cada acción configurada, hay una actividad de acción disponible en la paleta Diseñador de recorridos. Consulte esta [sección](../building-journeys/using-adobe-campaign-classic.md).
 
@@ -36,7 +37,7 @@ Para cada acción configurada, hay una actividad de acción disponible en la pal
 
 ## Requisitos previos
 
-En Campaign, debe crear y publicar un mensaje transaccional y su evento asociado. Consulte la [documentación de Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}.
+En Campaign, debe crear y publicar un mensaje transaccional y su evento asociado. Consulte la [Documentación de Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}.
 
 Puede crear la carga útil JSON correspondiente a cada mensaje siguiendo el patrón a continuación. A continuación, pegue esta carga útil al configurar la acción en el Journey Orchestration (consulte a continuación)
 
@@ -63,11 +64,9 @@ En Journey Optimizer, debe configurar una acción por cada mensaje transaccional
 
 1. Cree una nueva acción. Consulte esta [sección](../action/action.md).
 1. Introduzca un nombre y una descripción.
-1. En el campo **Action type**, seleccione **Adobe Campaign Classic**.
-1. Haga clic en el campo **Payload** y pegue un ejemplo de la carga útil JSON correspondiente al mensaje de Campaign. Póngase en contacto con el Adobe para obtener esta carga útil.
+1. En el **Tipo de acción** campo, seleccione **Adobe Campaign Classic**.
+1. Haga clic en el **Carga útil** y pegue un ejemplo de la carga útil JSON correspondiente al mensaje de Campaign. Póngase en contacto con el Adobe para obtener esta carga útil.
 1. Ajuste los distintos campos para que sean estáticos o variables en función de si desea asignarlos en el lienzo de Recorrido. Ciertos campos, como los parámetros de canal para la dirección de correo electrónico y los campos de personalización (ctx), probablemente desee definirlos como variables para la asignación en el contexto del recorrido.
 1. Haga clic en **Guardar**.
 
 ![](../assets/accintegration1.png)
-
-

@@ -5,7 +5,8 @@ description: Obtenga información sobre los tipos de datos en las funciones de a
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 0c4940472be7c157f319ceefc5e7eed7287d39c3
+exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
+source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 2%

@@ -19,7 +19,7 @@ Utilice [!DNL Journey Optimizer] para ofrecer la mejor oferta y experiencia a su
 
 >[!NOTE]
 >
->Si es un usuario de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target=&quot;_blank&quot;} que aprovecha el servicio de aplicación **Offer decisioning**, también se le aplicarán todas las funciones de Administración de decisiones que se describen en esta sección.
+>Si es [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target=&quot;_blank&quot;} usuario que aprovecha el **offer decisioning** servicio de aplicación, se le aplicarán todas las funciones de Administración de decisiones descritas en esta sección.
 
 La capacidad Administración de decisiones consta de dos componentes principales:
 
@@ -66,9 +66,9 @@ Las funciones y la integración de Administración de decisiones con Adobe Exper
 
 ## Concesión de acceso a Administración de decisiones {#granting-acess-to-decision-management}
 
-Los permisos para acceder y utilizar las funciones de offer decisioning se administran mediante [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+Los permisos para acceder y utilizar las funcionalidades de offer decisioning se administran mediante la variable [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
 
-Para conceder acceso a la funcionalidad de Administración de decisiones, debe crear un **[!UICONTROL Product profile]** y asignar los permisos correspondientes a los usuarios. Obtenga más información sobre la administración de usuarios y permisos [!DNL Journey Optimizer] en [esta sección](../../administration/permissions.md).
+Para conceder acceso a la funcionalidad de Administración de decisiones, debe crear una **[!UICONTROL Product profile]** y asigne los permisos correspondientes a sus usuarios. Más información sobre la administración [!DNL Journey Optimizer] usuarios y permisos en [esta sección](../../administration/permissions.md).
 
 Los permisos específicos de Administración de decisiones se enumeran en [esta sección](../../administration/high-low-permissions.md#decisions-permissions).
 
@@ -107,7 +107,7 @@ A continuación, se muestra la lista de los conceptos principales con los que tr
 
 >[!NOTE]
 >
->Estos vídeos se aplican al servicio de aplicaciones de Offer Decisioning creado en Adobe Experience Platform y no son específicos de [!DNL Adobe Journey Optimizer]. Sin embargo, proporcionan directrices genéricas para utilizar la Administración de decisiones en el contexto de [!DNL Journey Optimizer].
+>Estos vídeos se aplican al servicio de aplicaciones de Offer Decisioning creado en Adobe Experience Platform y no son específicos de [!DNL Adobe Journey Optimizer]. No obstante, proporcionan directrices genéricas para utilizar la gestión de decisiones en el contexto de [!DNL Journey Optimizer].
 
 ### ¿Qué es Administración de decisiones? {#what-is-offer-decisioning}
 

@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## Valor de reserva predeterminado{#default-value}
 
-El asistente `Default Fallback Value` se utiliza para devolver un valor de reserva predeterminado si un atributo está vacío o es nulo. Este mecanismo funciona para los atributos de perfil y los eventos de Recorrido.
+La variable `Default Fallback Value` helper se utiliza para devolver un valor de reserva predeterminado si un atributo está vacío o es nulo. Este mecanismo funciona para los atributos de perfil y los eventos de Recorrido.
 
 **Sintaxis**
 
@@ -25,11 +25,11 @@ El asistente `Default Fallback Value` se utiliza para devolver un valor de reser
 Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
 ```
 
-En este ejemplo, se muestra el valor `there` si el atributo `firstName` de este perfil está vacío o es nulo.
+En este ejemplo, el valor `there` se muestra si la variable `firstName` el atributo de este perfil está vacío o es nulo.
 
 ## Condiciones{#if-function}
 
-El asistente `if` se utiliza para definir un bloque condicional.
+La variable `if` helper se utiliza para definir un bloque condicional.
 Si la evaluación de la expresión devuelve el valor &quot;True&quot;, el bloque se procesa; de lo contrario, se omite.
 
 **Sintaxis**
@@ -39,8 +39,8 @@ Si la evaluación de la expresión devuelve el valor &quot;True&quot;, el bloque
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-Después del asistente `if`, puede introducir una instrucción `else` para especificar un bloque de código que se ejecutará si la misma condición es falsa.
-La sentencia `elseif` especificará una nueva condición para comprobar si la primera sentencia devuelve el valor &quot;False&quot;.
+A continuación se muestra la `if` ayuda, puede introducir un `else` para especificar un bloque de código que se va a ejecutar, si la misma condición es falsa.
+La variable `elseif` especificará una nueva condición para comprobar si la primera sentencia devuelve el valor &quot;False&quot;.
 
 
 **Formato**
@@ -121,7 +121,7 @@ La sentencia `elseif` especificará una nueva condición para comprobar si la pr
 
 ## Except{#unless}
 
-El asistente `unless` se utiliza para definir un bloque condicional. Por oposición al asistente `if`, si la evaluación de la expresión devuelve false, se procesa el bloque.
+La variable `unless` helper se utiliza para definir un bloque condicional. Por oposición a la `if`  ayuda, si la evaluación de la expresión devuelve false, se procesa el bloque .
 
 **Sintaxis**
 
@@ -143,9 +143,8 @@ Some edu specific content Content
 
 ## Cada{#each}
 
-El asistente `each` se utiliza para iterar en una matriz.
-La sintaxis del asistente es ```{{#each ArrayName}}``` YourContent {{/each}}
-Podemos hacer referencia a los elementos individuales de la matriz utilizando la palabra clave **this** dentro del bloque . El índice del elemento de la matriz se puede representar utilizando {{@index}}.
+La variable `each` ayuda se utiliza para iterar en una matriz.
+La sintaxis del asistente es ```{{#each ArrayName}}``` YourContent {{/each}} Podemos hacer referencia a elementos de matriz individuales usando la palabra clave **this** dentro del bloque. El índice del elemento de la matriz se puede representar utilizando {{@index}}.
 
 **Sintaxis**
 
@@ -177,7 +176,7 @@ Representar una lista de productos que este usuario tiene en el carro de compras
 
 ## con{#with}
 
-El asistente `with` se utiliza para cambiar el token de evaluación de la plantilla-parte.
+La variable `with` ayuda se utiliza para cambiar el token de evaluación de template-part.
 
 **Sintaxis**
 
@@ -187,7 +186,7 @@ El asistente `with` se utiliza para cambiar el token de evaluación de la planti
 {{/with}}
 ```
 
-El asistente `with` también es útil para definir una variable de acceso directo.
+La variable `with` ayuda es útil para definir también una variable de acceso directo.
 
 **Ejemplo**
 
@@ -202,7 +201,7 @@ Se utiliza con para alinear nombres de variables largos con nombres de variables
 
 ## Let{#let}
 
-La función `let` permite almacenar una expresión como variable para usarla más adelante en una consulta.
+La variable `let` permite almacenar una expresión como variable para usarla más adelante en una consulta.
 
 **Sintaxis**
 

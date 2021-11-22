@@ -1,20 +1,21 @@
 ---
 title: Enumerar decisiones
 description: Una decisión contiene la lógica que indica la selección de una oferta.
-feature: Ofertas
-topic: Integraciones
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '155'
 ht-degree: 5%
 
 ---
 
 # Buscar una decisión
 
-Puede buscar decisiones específicas (anteriormente conocidas como actividades de oferta) realizando una solicitud de GET a la API [!DNL Offer Library] que incluye las decisiones `@id` o el nombre de la decisión en la ruta de solicitud.
+Puede buscar decisiones específicas (anteriormente conocidas como actividades de oferta) realizando una solicitud de GET al [!DNL Offer Library] API que incluye las decisiones `@id` o el nombre de la decisión en la ruta de solicitud.
 
 **Formato de API**
 
@@ -27,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Contenedor donde se encuentran las decisiones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ACTIVITIES}` | Define el esquema asociado a las decisiones. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
-| `id` | Una cadena que se utiliza para coincidir con la propiedad `@id` de las entidades. La cadena coincide exactamente. Los parámetros `id` y `name` no se pueden usar juntos. | `xcore:offer-activity:124527ab00b2ebbc` |
-| `name` | Una cadena que se utiliza para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. El parámetro &quot;id&quot; y &quot;name&quot; no se puede usar juntos | `LBAR` |
+| `id` | Una cadena que se usa para hacer coincidir con la variable `@id` propiedad de las entidades. La cadena coincide exactamente. Los parámetros `id` y `name` no se puede usar juntos. | `xcore:offer-activity:124527ab00b2ebbc` |
+| `name` | Cadena que se utiliza para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. El parámetro &quot;id&quot; y &quot;name&quot; no se puede usar juntos | `LBAR` |
 
 **Solicitud**
 

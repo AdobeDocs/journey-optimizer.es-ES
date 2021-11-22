@@ -1,18 +1,19 @@
 ---
-title: Crear etiquetas
+title: Creación de etiquetas
 description: Aprenda a crear ofertas en Adobe Experience Platform.
-feature: Ofertas
-topic: Integraciones
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 7%
+source-wordcount: '162'
+ht-degree: 6%
 
 ---
 
-# Crear etiquetas {#creating-tags}
+# Creación de etiquetas {#creating-tags}
 
 Asociar etiquetas a las ofertas facilita su organización. Por ejemplo, puede etiquetar las ofertas del Black Friday con la etiqueta &quot;Black Friday&quot;. A continuación, puede utilizar la funcionalidad de búsqueda de la Biblioteca de ofertas para localizar fácilmente todas las ofertas con esa etiqueta.
 
@@ -20,13 +21,13 @@ Las etiquetas también se pueden usar para agrupar ofertas en colecciones de ofe
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-Se puede acceder a la lista de etiquetas creadas en el menú **[!UICONTROL Components]** .
+Se puede acceder a la lista de etiquetas creadas en la **[!UICONTROL Components]** para abrir el Navegador.
 
 ![](../../assets/tags_list.png)
 
 Para crear una etiqueta, siga estos pasos:
 
-1. Vaya a la pestaña **[!UICONTROL Tags]** y haga clic en **[!UICONTROL Create tag]**.
+1. Vaya a la **[!UICONTROL Tags]** a continuación, haga clic en **[!UICONTROL Create tag]**.
 
 1. Especifique el nombre de la etiqueta y haga clic en **[!UICONTROL Save]**.
 

@@ -1,14 +1,15 @@
 ---
 title: Crear reglas de decisión
 description: Aprenda a crear reglas de decisión en Adobe Experience Platform.
-feature: Ofertas
-topic: Integraciones
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: dc3a5aacbd4b9bb20c384e0b057241f3080f09fa
+exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 15%
+source-wordcount: '282'
+ht-degree: 14%
 
 ---
 
@@ -20,13 +21,13 @@ Por ejemplo, puede especificar que solo desea que se muestre una “Oferta de ro
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-Se puede acceder a la lista de reglas de decisión creadas en el menú **[!UICONTROL Components]** .
+Se puede acceder a la lista de reglas de decisión creadas en la **[!UICONTROL Components]** para abrir el Navegador.
 
 ![](../../assets/decision_rules_list.png)
 
 Para crear una regla de decisión, siga estos pasos:
 
-1. Vaya a la pestaña **[!UICONTROL Rules]** y haga clic en **[!UICONTROL Create rule]**.
+1. Vaya a la **[!UICONTROL Rules]** a continuación, haga clic en **[!UICONTROL Create rule]**.
 
    ![](../../assets/offers_decision_rule_creation.png)
 
@@ -40,7 +41,7 @@ Para crear una regla de decisión, siga estos pasos:
 
    >[!NOTE]
    >
-   >El Generador de segmentos proporcionado para crear reglas de decisión presenta algunas particularidades en comparación con la utilizada con el servicio **[!UICONTROL Audience Destinations]**. Por ejemplo, la pestaña **[!UICONTROL Segments]** no está disponible para su uso. Sin embargo, el proceso global descrito en la documentación del Generador de segmentos sigue siendo válido para generar reglas de decisiones de ofertas.
+   >El Generador de segmentos proporcionado para crear reglas de decisión presenta algunas características específicas en comparación con la que se usa con la variable **[!UICONTROL Audience Destinations]** servicio. Por ejemplo, la variable **[!UICONTROL Segments]** no está disponible para usar. Sin embargo, el proceso global descrito en la documentación del Generador de segmentos sigue siendo válido para generar reglas de decisiones de ofertas.
 
 1. Haga clic en **[!UICONTROL Save]** para confirmar.
 
@@ -50,7 +51,7 @@ Para crear una regla de decisión, siga estos pasos:
 
 >[!CAUTION]
 >
->Actualmente, las ofertas basadas en eventos no son compatibles con [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, no podrá aprovecharla en una oferta.
+>Actualmente, las ofertas basadas en eventos no son compatibles con [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, no podrá aprovecharlo en una oferta.
 
 ## Tutorial en vídeo {#video}
 

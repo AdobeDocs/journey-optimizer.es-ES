@@ -1,17 +1,17 @@
 ---
 title: Envío de un mensaje mediante Campaign v7/v8
 description: Obtenga información sobre cómo enviar un mensaje mediante Campaign v7/v8
-feature: Acciones
-topic: Administración
+feature: Actions
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 5%
+source-wordcount: '397'
+ht-degree: 4%
 
 ---
-
 
 # Envío de un mensaje mediante Campaign v7/v8 {#campaign-classic-use-case}
 
@@ -30,13 +30,13 @@ La instancia de Campaign debe aprovisionarse para esta integración. La función
 
 1. Inicie sesión en la instancia de control de Campaign.
 
-1. En **Administration** > **Platform** > **Enumerations**, seleccione la enumeración **Event type** (eventType). Cree un nuevo tipo de evento (&quot;recorrido-evento&quot;, en nuestro ejemplo). Deberá utilizar el nombre interno del tipo de evento al escribir el archivo JSON más adelante.
+1. En **Administración** > **Plataforma** > **Enumeraciones**, seleccione **Tipo de evento** enumeración (eventType). Cree un nuevo tipo de evento (&quot;recorrido-evento&quot;, en nuestro ejemplo). Deberá utilizar el nombre interno del tipo de evento al escribir el archivo JSON más adelante.
 
    ![](../assets/accintegration-uc-1.png)
 
 1. Desconecte y vuelva a conectar con la instancia para que la creación sea efectiva.
 
-1. En **Message Center** > **Transactional message templates**, cree una nueva plantilla de correo electrónico basada en el tipo de evento creado anteriormente.
+1. En **Centro de mensajes** > **Plantillas de mensajes transaccionales**, cree una nueva plantilla de correo electrónico basada en el tipo de evento creado anteriormente.
 
    ![](../assets/accintegration-uc-2.png)
 
@@ -72,15 +72,15 @@ La instancia de Campaign debe aprovisionarse para esta integración. La función
 
    ![](../assets/accintegration-uc-5.png)
 
-1. A continuación, debe crear, en Journey Optimizer, una acción correspondiente a la plantilla de campaña. En la lista desplegable **Action type**, seleccione **Adobe Campaign Classic**.
+1. A continuación, debe crear, en Journey Optimizer, una acción correspondiente a la plantilla de campaña. En el **Tipo de acción** desplegable, seleccione **Adobe Campaign Classic**.
 
    ![](../assets/accintegration-uc-6.png)
 
-1. Haga clic en **Payload field** y pegue el JSON creado anteriormente.
+1. Haga clic en el **Campo de carga útil** y pegue el JSON creado anteriormente.
 
    ![](../assets/accintegration-uc-7.png)
 
-1. Para la dirección de correo electrónico y los dos campos de personalización, cambie **Constant** a **Variable**.
+1. Para la dirección de correo electrónico y los dos campos de personalización, cambie **Constante** a **Variable**.
 
    ![](../assets/accintegration-uc-8.png)
 
@@ -92,7 +92,7 @@ La instancia de Campaign debe aprovisionarse para esta integración. La función
 
    ![](../assets/accintegration-uc-10.png)
 
-1. Agregue una actividad **End** y pruebe el recorrido.
+1. Agregue un **Fin** y pruebe el recorrido.
 
    ![](../assets/accintegration-uc-11.png)
 

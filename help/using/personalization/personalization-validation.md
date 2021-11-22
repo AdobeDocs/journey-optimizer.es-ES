@@ -1,33 +1,31 @@
 ---
 title: Validación de personalización
 description: Obtenga más información sobre validación de personalización y cómo solucionar problemas
-feature: Personalización
-topic: Personalización
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '322'
 ht-degree: 2%
 
 ---
-
 
 # Validación de personalización {#personalization-validation}
 
 ## Mecanismos de validación
 
-En la pantalla **Expression Editor**, utilice el botón **Validate** para comprobar la sintaxis de personalización.
+En el **Editor de expresiones** , utilice el **Validar** para comprobar la sintaxis de personalización.
 
 >[!NOTE]
-> La validación se ejecuta automáticamente al hacer clic en el botón **Add** para cerrar la ventana del editor.
-
+> La validación se ejecuta automáticamente al hacer clic en el **Agregar** para cerrar la ventana del editor.
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > Si la sintaxis de personalización no es válida, no se puede cerrar la ventana del editor de expresiones.
-
 
 ## Errores comunes
 
@@ -41,11 +39,11 @@ En este caso **firstName1** no se define como atributo en el esquema de perfil:
 {{profile.person.name.firstName1}}
 ```
 
-* **El tipo no coincide con la variable &quot;XYZ&quot;. Matriz esperada. Se encontró una cadena.**
+* **El tipo no coincide con la variable &quot;XYZ&quot;. Matriz esperada. Se ha encontrado una cadena.**
 
 Cuando se intenta iterar sobre una cadena en lugar de una matriz:
 
-En este caso, **product** no es una matriz:
+En este caso **producto** no es una matriz:
 
 ```
 {{each profile.person.name.firstName as |product|}}
@@ -88,7 +86,7 @@ La validación se realiza durante la publicación del mensaje o durante la valid
  </thead> 
  <tbody> 
   <tr> 
-   <td>No se encuentra el recurso con id placementID y el tipo OfferPlacement <br/>
+   <td>No se encontró el recurso con id placementID y el tipo OfferPlacement <br/>
 No se encontró el recurso con id activityID y el tipo OfferActivity<br/></td> 
    <td>Compruebe si ActivityID o PlacementID están disponibles</td> 
   </tr> 
@@ -112,9 +110,8 @@ No se encontró el recurso con id activityID y el tipo OfferActivity<br/></td>
    <td>El atributo de oferta de atributo de oferta no es válido.</td> 
    <td>Compruebe si el atributo de oferta al que se hace referencia en la oferta es válido. A continuación se muestran los atributos válidos: <br/>
 Imagen: deliveryURL, linkURL<br/>
-Texto: content<br/>
+Texto: contenido<br/>
 HTML: contenido<br/></td> 
   </tr> 
  </tbody> 
 </table>
-

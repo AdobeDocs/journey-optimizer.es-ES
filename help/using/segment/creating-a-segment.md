@@ -1,14 +1,15 @@
 ---
 title: Generar un segmento
 description: Aprenda a crear segmentos
-feature: Recorridos
-topic: Administración de contenido
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 6%
+source-wordcount: '301'
+ht-degree: 5%
 
 ---
 
@@ -16,15 +17,15 @@ ht-degree: 6%
 
 En este ejemplo, crearemos un segmento dirigido a todos los clientes que viven en Atlanta, San Francisco o Seattle y que nacieron después de 1980. Todos estos clientes deberían haber abierto la aplicación de Luma en los últimos 7 días y luego realizar una compra en un plazo de 2 horas después de abrir la aplicación.
 
-1. Acceda al menú **[!UICONTROL Segments]** y haga clic en el botón **[!UICONTROL Create segment]**.
+1. Acceda a la **[!UICONTROL Segments]** a continuación, haga clic en el **[!UICONTROL Create segment]** botón.
 
    ![](../assets/create-segment.png)
 
-   La pantalla de definición del segmento le permite configurar todos los campos obligatorios para definir el segmento. Aprenda a configurar segmentos en la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target=&quot;_blank&quot;}.
+   La pantalla de definición del segmento le permite configurar todos los campos obligatorios para definir el segmento. Obtenga información sobre cómo configurar segmentos en la variable [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target=&quot;_blank&quot;}.
 
    ![](../assets/segment-builder.png)
 
-1. En el panel **[!UICONTROL Segment properties]**, proporcione un nombre y una descripción (opcional) para el segmento.
+1. En el **[!UICONTROL Segment properties]** , proporcione un nombre y una descripción (opcional) para el segmento.
 
    ![](../assets/segment-properties.png)
 
@@ -32,11 +33,11 @@ En este ejemplo, crearemos un segmento dirigido a todos los clientes que viven e
 
    >[!NOTE]
    >
-   >Tenga en cuenta que los campos disponibles en el panel izquierdo varían en función de cómo se hayan configurado los esquemas **XDM Individual Profile** y **XDM ExperienceEvent** para su organización.  Obtenga más información en la documentación del [Modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target=&quot;_blank&quot;}.
+   >Tenga en cuenta que los campos disponibles en el panel izquierdo varían en función de cómo **Perfil individual XDM** y **XDM ExperienceEvent** se han configurado esquemas para su organización.  Obtenga más información en la [Documentación del Modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target=&quot;_blank&quot;}.
 
    ![](../assets/drag-fields.png)
 
-   En este ejemplo, necesitamos confiar en los campos **Attributes** y **Events** para crear el segmento:
+   En este ejemplo, necesitamos confiar en **Atributos** y **Eventos** campos para crear el segmento:
 
    * **Atributos**: perfiles que viven en Atlanta, San Francisco o Seattle nacidos después de 1980
 
@@ -46,7 +47,7 @@ En este ejemplo, crearemos un segmento dirigido a todos los clientes que viven e
 
       ![](../assets/add-events.png)
 
-1. A medida que agrega y configura nuevos campos en el espacio de trabajo, el panel **[!UICONTROL Segment Properties]** se actualiza automáticamente con información sobre los perfiles estimados que pertenecen al segmento.
+1. Al añadir y configurar nuevos campos en el espacio de trabajo, la variable **[!UICONTROL Segment Properties]** se actualiza automáticamente con información sobre los perfiles estimados que pertenecen al segmento.
 
    ![](../assets/segment-estimate.png)
 

@@ -1,18 +1,19 @@
 ---
-title: Campos de identidad de los eventos de los journeyStep
-description: Campos de identidad de los eventos de los journeyStep
-feature: Informes
-topic: Administración de contenido
+title: Campos de identidad de eventos de journeySteps
+description: Campos de identidad de eventos de journeySteps
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+exl-id: c447fcf0-51ec-4d88-8b2d-f15db076bfbc
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 30%
+source-wordcount: '60'
+ht-degree: 26%
 
 ---
 
-# Campos de identidad de los eventos de los journeyStep {#sharing-identity-fields}
+# Campos de identidad de eventos de journeySteps {#sharing-identity-fields}
 
 Este grupo de campos es específico de journeyStepEvent: este evento está relacionado con el recorrido y no tiene el mapa de identidad, que describe la identidad del perfil, si la hay.
 

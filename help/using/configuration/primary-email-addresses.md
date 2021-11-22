@@ -11,17 +11,17 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-feature: Configuración de la aplicación
-topic: Administración
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 7%
+source-wordcount: '116'
+ht-degree: 5%
 
 ---
-
 
 # Cambiar las direcciones de correo electrónico principales
 
@@ -29,7 +29,7 @@ Al segmentar un perfil, es posible que haya varias direcciones de correo electr�
 
 Con Journey Optimizer, puede determinar qué dirección de correo electrónico utilizar desde el servicio de perfil y priorizar cuándo hay varias direcciones disponibles. Para ello, siga estos pasos:
 
-1. Acceda al menú **[!UICONTROL Channels]** `>` **[!UICONTROL General]** .
+1. Acceda a la  **[!UICONTROL Channels]** `>` **[!UICONTROL General]** para abrir el Navegador.
 1. El campo que se utiliza actualmente de forma predeterminada para determinar las direcciones de correo electrónico de los perfiles se muestra en esta pantalla. Haga clic en **[!UICONTROL Edit]** para cambiarlo.
 
    ![](../assets/primary-address.png)

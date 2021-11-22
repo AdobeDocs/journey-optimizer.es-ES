@@ -1,13 +1,14 @@
 ---
 title: Journey Optimizer
 description: Introducción a Journey Optimizer
-feature: Información general
-topic: Administración de contenido
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '685'
 ht-degree: 95%
 
 ---
@@ -52,7 +53,7 @@ Las funcionalidades clave incluyen:
 
 ## Arquitectura
 
-Comprenda la arquitectura básica de [!DNL Adobe Journey Optimizer], los puntos de integración y la relación de [!DNL Journey Optimizer] con otras aplicaciones de Adobe.
+Comprender la arquitectura básica de [!DNL Adobe Journey Optimizer], los puntos de integración y la relación de [!DNL Journey Optimizer] con otras aplicaciones de Adobe.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334205?quality=12)
 

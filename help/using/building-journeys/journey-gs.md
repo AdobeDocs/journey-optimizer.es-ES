@@ -1,13 +1,14 @@
 ---
 title: Introducción a los recorridos
 description: Introducción a los recorridos
-feature: Recorridos
-topic: Administración de contenido
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1721'
 ht-degree: 9%
 
 ---
@@ -22,11 +23,11 @@ Para enviar mensajes con recorridos, se requiere la siguiente configuración:
 
    ![](../assets/jo-event7bis.png)
 
-1. **Crear un segmento**: el recorrido también puede escuchar segmentos de Adobe Experience Platform para enviar mensajes en lote a un conjunto específico de perfiles. Para ello, debe crear segmentos. [Más información](../segment/about-segments.md).
+1. **Creación de segmentos**: el recorrido también puede escuchar segmentos de Adobe Experience Platform para enviar mensajes en lote a un conjunto específico de perfiles. Para ello, debe crear segmentos. [Más información](../segment/about-segments.md).
 
    ![](../assets/segment2.png)
 
-1. **Configure la fuente** de datos: puede definir una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos, por ejemplo en las condiciones. También se configura una fuente de datos integrada de Adobe Experience Platform en el momento del aprovisionamiento. Este paso no es necesario si solo se aprovechan los datos de los eventos durante el recorrido. Este paso lo realiza un **usuario técnico**. [Más información](../datasource/about-data-sources.md)
+1. **Configuración de la fuente de datos**: puede definir una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos, por ejemplo en las condiciones. También se configura una fuente de datos integrada de Adobe Experience Platform en el momento del aprovisionamiento. Este paso no es necesario si solo se aprovechan los datos de los eventos durante el recorrido. Este paso lo realiza un **usuario técnico**. [Más información](../datasource/about-data-sources.md)
 
    ![](../assets/jo-datasource.png)
 
@@ -50,7 +51,7 @@ Estos son los pasos principales para enviar mensajes a través de recorridos:
 
    ![](../assets/jo-properties.png)
 
-1. Para empezar, arrastre y suelte un evento o una actividad **Leer segmento** de la paleta en el lienzo. Para obtener más información sobre el diseño de recorrido, consulte [esta sección](using-the-journey-designer.md).
+1. Para empezar, arrastre y suelte un evento o un **Leer segmento** actividad desde la paleta al lienzo. Para obtener más información sobre el diseño de recorrido, consulte [esta sección](using-the-journey-designer.md).
 
    ![](../assets/read-segment.png)
 
@@ -74,7 +75,7 @@ Puede cambiar el nombre del recorrido, añadir una descripción, permitir la ree
 
 Para los recorridos en directo, esta pantalla muestra la fecha de publicación y el nombre del usuario que publicó el recorrido.
 
-El **Copy technical details** permite copiar información técnica sobre el recorrido que el equipo de asistencia puede utilizar para solucionar problemas. Se copia la siguiente información: UID de JourneyVersion, OrgID, orgName, sandboxName, lastDedeployBy, lastDedeployAt.
+La variable **Copiar detalles técnicos** le permite copiar información técnica sobre el recorrido que el equipo de asistencia puede utilizar para solucionar problemas. Se copia la siguiente información: UID de JourneyVersion, OrgID, orgName, sandboxName, lastDedeployBy, lastDedeployAt.
 
 ![](../assets/journey32.png)
 
@@ -84,21 +85,21 @@ De forma predeterminada, los nuevos recorridos permiten volver a entrar. Puede d
 
 Cuando un recorrido &quot;termina&quot;, tendrá el estado **[!UICONTROL Closed]**. El recorrido dejará de permitir la entrada al recorrido de nuevos individuos. Las personas que ya están en el recorrido terminarán normalmente el recorrido.
 
-Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará al estado **Finalizado**. Consulte esta [sección](../building-journeys/journey-gs.md#global_timeout).
+Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará a la variable **Finalizado** estado. Consulte esta [sección](../building-journeys/journey-gs.md#global_timeout).
 
 ### Tiempo de espera y error en las actividades de recorrido {#timeout_and_error}
 
-Al editar una acción o actividad de condición, puede definir una ruta alternativa en caso de error o de tiempo de espera. Si el procesamiento de la actividad que interroga a un sistema de terceros supera la duración de tiempo de espera definida en las propiedades del recorrido (campo **[!UICONTROL Timeout and  error]**), se elegirá la segunda ruta para realizar una posible acción de reserva.
+Al editar una acción o actividad de condición, puede definir una ruta alternativa en caso de error o de tiempo de espera. Si el procesamiento de la actividad que interroga a un sistema de terceros supera el tiempo de espera definido en las propiedades del recorrido (**[!UICONTROL Timeout and  error]** ), se elige la segunda ruta para realizar una posible acción de reserva.
 
 Los valores autorizados están entre 1 y 30 segundos.
 
-Se recomienda definir un valor **[!UICONTROL Timeout and error]** muy corto si el recorrido distingue entre tiempo (por ejemplo: reaccionar a la ubicación en tiempo real de una persona) porque no puede retrasar la acción durante más de unos segundos. Si el recorrido es menos sensible al tiempo, puede utilizar un valor más largo para dar más tiempo al sistema llamado para enviar una respuesta válida.
+Le recomendamos que defina una **[!UICONTROL Timeout and error]** si el recorrido distingue entre horas (ejemplo: reaccionar a la ubicación en tiempo real de una persona) porque no puede retrasar la acción durante más de unos segundos. Si el recorrido es menos sensible al tiempo, puede utilizar un valor más largo para dar más tiempo al sistema llamado para enviar una respuesta válida.
 
-Recorrido también utiliza un tiempo de espera global. Consulte la [siguiente sección](#global_timeout).
+Recorrido también utiliza un tiempo de espera global. Consulte la [sección siguiente](#global_timeout).
 
 ### Tiempo de espera de recorrido global {#global_timeout}
 
-Además del [timeout](#timeout_and_error) utilizado en las actividades de recorrido, también existe un tiempo de espera de recorrido global que no se muestra en la interfaz y que no se puede cambiar. Este tiempo de espera detendrá el progreso de las personas en el recorrido 30 días después de su entrada. Esto significa que el recorrido de una persona no puede durar más de 30 días. Después del tiempo de espera de 30 días, se eliminan los datos del individuo. Las personas que sigan fluyendo en el recorrido al final del tiempo de espera se detendrán y se tendrán en cuenta como errores en los informes.
+Además del [timeout](#timeout_and_error) utilizado en actividades de recorrido, también existe un tiempo de espera de recorrido global que no se muestra en la interfaz y que no se puede cambiar. Este tiempo de espera detendrá el progreso de las personas en el recorrido 30 días después de su entrada. Esto significa que el recorrido de una persona no puede durar más de 30 días. Después del tiempo de espera de 30 días, se eliminan los datos del individuo. Las personas que sigan fluyendo en el recorrido al final del tiempo de espera se detendrán y se tendrán en cuenta como errores en los informes.
 
 >[!NOTE]
 >
@@ -130,7 +131,7 @@ Nota importante:
 
 Si no se cumple ninguno de los requisitos, el modo de ráfaga no estará disponible en el recorrido.
 
-Para activar el modo Burst , abra el recorrido y haga clic en el icono del lápiz, en la parte superior derecha para acceder a las propiedades del recorrido. A continuación, active la opción **Enable burst mode**.
+Para activar el modo Burst , abra el recorrido y haga clic en el icono del lápiz, en la parte superior derecha para acceder a las propiedades del recorrido. A continuación, active la variable **Habilitar modo de ráfaga** alternar.
 
 ![](../assets/burst.png)
 
@@ -151,17 +152,17 @@ La persona puede volver a entrar en el recorrido si se permite la reentrada. Con
 
 Un recorrido puede cerrarse por los siguientes motivos:
 
-* El recorrido se cierra manualmente mediante el botón **[!UICONTROL Close to new entrances]**.
+* El recorrido se cierra manualmente mediante la variable **[!UICONTROL Close to new entrances]** botón.
 * Un recorrido basado en segmentos de una toma que ha terminado de ejecutarse.
 * Después de la última aparición de un recorrido basado en segmentos recurrentes.
 
-Cuando se cierra un recorrido (por cualquiera de los motivos anteriores), aparece el estado **[!UICONTROL Closed]**. El recorrido dejará de permitir la entrada al recorrido de nuevos individuos. Las personas que ya están en el recorrido terminarán normalmente el recorrido. Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará al estado **Finalizado**. Consulte esta [sección](../building-journeys/journey-gs.md#global_timeout).
+Cuando se cierra un recorrido (por cualquiera de los motivos anteriores), aparece el estado **[!UICONTROL Closed]**. El recorrido dejará de permitir la entrada al recorrido de nuevos individuos. Las personas que ya están en el recorrido terminarán normalmente el recorrido. Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará a la variable **Finalizado** estado. Consulte esta [sección](../building-journeys/journey-gs.md#global_timeout).
 
 En caso de que necesite detener el progreso de todas las personas en el recorrido, puede detenerlo. Al detener el recorrido, se agotará el tiempo de espera de todas las personas del recorrido.
 
 Así se cierra o se detiene un recorrido manualmente:
 
-Las opciones **[!UICONTROL Stop]** y **[!UICONTROL Close to new entrances]** permiten finalizar los recorridos **live**. Cerrar un recorrido implica **que la llegada de nuevos clientes al recorrido está bloqueada** y que los clientes que ya ingresaron al recorrido pueden experimentarla hasta el final. Esta es la forma más recomendada de poner fin a un recorrido, ya que ofrece la mejor experiencia para los clientes. Detener un recorrido implica que a las personas que ya entraron en un recorrido se les detiene en su progreso. Básicamente el recorrido está apagado.
+La variable **[!UICONTROL Stop]** y **[!UICONTROL Close to new entrances]** las opciones permiten finalizar **live** recorridos. El cierre de un recorrido implica **que la llegada de nuevos clientes al recorrido está bloqueada** y que los clientes que ya han entrado en el recorrido pueden experimentarlo hasta el final. Esta es la forma más recomendada de poner fin a un recorrido, ya que ofrece la mejor experiencia para los clientes. Detener un recorrido implica que a las personas que ya entraron en un recorrido se les detiene en su progreso. Básicamente el recorrido está apagado.
 
 >[!NOTE]
 >
@@ -171,17 +172,17 @@ Las opciones **[!UICONTROL Stop]** y **[!UICONTROL Close to new entrances]** per
 
 Puede cerrar un recorrido manualmente para asegurarse de que los clientes que ya han entrado en el recorrido puedan finalizar su ruta, pero que los nuevos usuarios no puedan entrar en el recorrido.
 
-Cuando se cierra, un recorrido tendrá el estado **[!UICONTROL Closed]**. Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará al estado **Finalizado**. Consulte esta [sección](../building-journeys/journey-gs.md#global_timeout).
+Cuando se cierre, un recorrido tendrá el estado **[!UICONTROL Closed]**. Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará a la variable **Finalizado** estado. Consulte esta [sección](../building-journeys/journey-gs.md#global_timeout).
 
 No se puede reiniciar ni eliminar una versión de recorrido cerrada. Puede crear una nueva versión o duplicarla. Solo se pueden eliminar los recorridos finalizados.
 
-Para cerrar un recorrido de la lista de recorridos, haga clic en el botón **[!UICONTROL Ellipsis]** situado a la derecha del nombre del recorrido y seleccione **[!UICONTROL Close to new entrances]**.
+Para cerrar un recorrido de la lista de recorridos, haga clic en el botón **[!UICONTROL Ellipsis]** botón situado a la derecha del nombre del recorrido y seleccione **[!UICONTROL Close to new entrances]**.
 
 ![](../assets/journey-finish-quick-action.png)
 
 También puede:
 
-1. En la lista **[!UICONTROL Journeys]**, haga clic en el recorrido que desee cerrar.
+1. En el **[!UICONTROL Journeys]** , haga clic en el recorrido que desee cerrar.
 1. En la parte superior derecha, haga clic en la flecha hacia abajo.
 
    ![](../assets/finish_drop_down_list.png)
@@ -197,13 +198,13 @@ No se puede reiniciar una versión de recorrido detenida.
 
 Cuando se detiene, un recorrido tendrá el estado **[!UICONTROL Stopped]**.
 
-Puede detener un recorrido, por ejemplo, si un especialista en marketing se da cuenta de que el recorrido está dirigido a una audiencia incorrecta o si una acción personalizada que supuestamente debe enviar mensajes no funciona correctamente. Para detener un recorrido de la lista de recorridos, haga clic en el botón **[!UICONTROL Ellipsis]** situado a la derecha del nombre del recorrido y seleccione **[!UICONTROL Stop]**.
+Puede detener un recorrido, por ejemplo, si un especialista en marketing se da cuenta de que el recorrido está dirigido a una audiencia incorrecta o si una acción personalizada que supuestamente debe enviar mensajes no funciona correctamente. Para detener un recorrido de la lista de recorridos, haga clic en el botón **[!UICONTROL Ellipsis]** botón situado a la derecha del nombre del recorrido y seleccione **[!UICONTROL Stop]**.
 
 ![](../assets/journey-finish-quick-action.png)
 
 También puede:
 
-1. En la lista **[!UICONTROL Journeys]**, haga clic en el recorrido que desee detener.
+1. En el **[!UICONTROL Journeys]** , haga clic en el recorrido que desee detener.
 1. En la parte superior derecha, haga clic en la flecha abajo.
 
 ![](../assets/finish_drop_down_list.png)

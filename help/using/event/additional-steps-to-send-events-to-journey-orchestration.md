@@ -1,29 +1,30 @@
 ---
 title: Pasos adicionales para enviar eventos a un recorrido
 description: Conozca los pasos adicionales para enviar eventos a un recorrido
-feature: Eventos
-topic: Administración
+feature: Events
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: e0144151-6c54-4656-9650-b544d8e7be16
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 4%
+source-wordcount: '294'
+ht-degree: 5%
 
 ---
 
 # Pasos adicionales para enviar eventos {#concept_xrz_n1q_y2b}
 
-Para configurar los eventos que se enviarán a **[!UICONTROL Streaming Ingestion APIs]** y que se utilizarán en [!DNL Journey Optimizer], debe seguir estos pasos:
+Para configurar los eventos que se enviarán a **[!UICONTROL Streaming Ingestion APIs]** y a utilizar en [!DNL Journey Optimizer], debe seguir estos pasos:
 
-1. Obtenga la URL de entrada de las API de Adobe Experience Platform. Obtenga más información en [Descripción general de las API de ingesta de transmisión](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target=&quot;_blank&quot;}.
-1. Copie la carga útil de la previsualización de carga útil en el menú **[!UICONTROL Event]** . Obtenga más información en [esta página](../event/about-creating.md#define-the-payload-fields).
+1. Obtenga la URL de entrada de las API de Adobe Experience Platform. Obtenga más información en [Resumen de las API de ingesta de flujos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es){target=&quot;_blank&quot;}.
+1. Copie la carga útil de la previsualización de carga útil en el **[!UICONTROL Event]** para abrir el Navegador. Obtenga más información en [esta página](../event/about-creating.md#define-the-payload-fields).
 
 A continuación, debe configurar el sistema de datos que envía eventos a las API de ingesta de transmisión mediante la carga útil que ha copiado:
 
 1. Configure una llamada de API de POST en la URL de las API de ingesta de transmisión (denominada entrada).
-1. Utilice la carga útil que ha copiado de [!DNL Journey Optimizer] en el cuerpo (&quot;sección de datos&quot;) de la llamada de API a las API de ingesta de transmisión. Consulte a continuación un ejemplo
-1. Determine dónde obtener todas las variables presentes en la carga útil. Ejemplo: si se supone que el evento transmite la dirección, la carga útil pegada mostrará &quot;address&quot; (dirección): &quot;cadena&quot;. &quot;cadena&quot; debe reemplazarse por la variable que rellena automáticamente el valor correcto, el correo electrónico de la persona a la que enviar un mensaje. Tenga en cuenta que en la vista previa de carga útil, en la sección **[!UICONTROL Header]**, rellenamos automáticamente muchos valores que se espera que faciliten su trabajo.
+1. Utilice la carga útil copiada de [!DNL Journey Optimizer] en el cuerpo (&quot;sección de datos&quot;) de la llamada de API a las API de ingesta de transmisión. Consulte a continuación un ejemplo
+1. Determine dónde obtener todas las variables presentes en la carga útil. Ejemplo: si se supone que el evento transmite la dirección, la carga útil pegada mostrará &quot;address&quot; (dirección): &quot;cadena&quot;. &quot;cadena&quot; debe reemplazarse por la variable que rellena automáticamente el valor correcto, el correo electrónico de la persona a la que enviar un mensaje. Tenga en cuenta que, en la vista previa de carga útil, en la variable **[!UICONTROL Header]** , rellenamos automáticamente muchos valores que se espera que faciliten su trabajo.
 1. Seleccione &quot;application/json&quot; como tipo de cuerpo.
 1. Pase su ID de organización de IMS en el encabezado utilizando la clave &quot;x-gw-ims-org-id&quot;. Para el valor, utilice su ID de organización de IMS (&quot;XXX@AdobeOrg&quot;).
 
@@ -84,6 +85,6 @@ Este es un ejemplo de un evento de API de ingesta de transmisión:
 }
 ```
 
-Para facilitar la identificación del lugar donde pegar la parte &quot;datos&quot;, puede utilizar una herramienta de visualización JSON como [JSON formatter](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;}.
+Para facilitar la identificación del lugar en el que pegar la parte de &quot;datos&quot;, puede utilizar una herramienta de visualización JSON como [Formato JSON](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;}.
 
-Para solucionar los problemas de las API de ingesta de transmisión, consulte la [documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}.
+Para solucionar problemas de las API de ingesta de flujos, consulte [documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}.

@@ -1,20 +1,21 @@
 ---
 title: 'Creación de un mensaje '
 description: Aprenda a crear un mensaje
-feature: Información general
-topic: Administración de contenido
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 5%
+source-wordcount: '477'
+ht-degree: 4%
 
 ---
 
-# Creación de un mensaje {#create-message}
+# Creación de un mensaje  {#create-message}
 
-Los mensajes están disponibles en el acceso directo **[!UICONTROL Messages]** del panel de navegación izquierdo. Todos los mensajes se enumeran, ordenados por fecha de publicación (para mensajes publicados) o fecha de creación (para borradores de mensajes).
+Los mensajes están disponibles en el **[!UICONTROL Messages]** en el panel de navegación izquierdo. Todos los mensajes se enumeran, ordenados por fecha de publicación (para mensajes publicados) o fecha de creación (para borradores de mensajes).
 
 >[!NOTE]
 >
@@ -22,7 +23,7 @@ Los mensajes están disponibles en el acceso directo **[!UICONTROL Messages]** d
 
 ![](assets/messages-list.png)
 
-Utilice la opción **[!UICONTROL Show recents]** para añadir vínculos directos a los mensajes a los que ha accedido en los últimos 5 días.
+Utilice la variable **[!UICONTROL Show recents]** alterne para añadir vínculos directos a los mensajes a los que ha accedido en los últimos 5 días.
 
 ![](assets/show-recent-messages.png)
 
@@ -40,21 +41,21 @@ Para crear un nuevo mensaje, siga los pasos a continuación:
 
    ![](assets/create-message-properties.png)
 
-   * Introduzca un **[!UICONTROL Title]** (obligatorio) y un **[!UICONTROL Description]**.
+   * Escriba un **[!UICONTROL Title]** (obligatorio) y **[!UICONTROL Description]**.
 
-   * Seleccione el **[!UICONTROL Preset]** que se utilizará para el mensaje.
+   * Seleccione el **[!UICONTROL Preset]** para usar en el mensaje.
 
       Los ajustes preestablecidos incluyen todos los parámetros necesarios para enviar un correo electrónico o una notificación push según la marca. [Obtenga más información sobre los ajustes preestablecidos](../using/configuration/message-presets.md).
 
    * Seleccione los canales que desee utilizar para ese mensaje: Notificación por correo electrónico o push . Debe seleccionar al menos un canal para poder crear el mensaje.
-   Tenga en cuenta que puede acceder y modificar el título, la descripción y el ajuste preestablecido del mensaje en cualquier momento mediante el botón **[!UICONTROL Properties]** de la interfaz de mensajes.
+   Tenga en cuenta que puede acceder al título, la descripción y el ajuste preestablecido del mensaje y modificarlos en cualquier momento mediante la función **[!UICONTROL Properties]** en la interfaz de mensajes.
 
    ![](assets/message-properties.png)
 
 
-1. Haga clic en **[!UICONTROL Create]** para confirmar la creación del mensaje. El mensaje se añade en la lista de mensajes, en el estado **[!UICONTROL Draft]** .
+1. Haga clic en **[!UICONTROL Create]** para confirmar la creación del mensaje. El mensaje se añade en la lista de mensajes, en la **[!UICONTROL Draft]** estado.
 
-   Hay una pestaña disponible para cada canal seleccionado. Utilice estas pestañas para configurar el contenido de cada canal. Puede quitar una pestaña seleccionándola y haciendo clic en el botón **[!UICONTROL Delete channel]** de la derecha.
+   Hay una pestaña disponible para cada canal seleccionado. Utilice estas pestañas para configurar el contenido de cada canal. Puede quitar una pestaña seleccionándola y haciendo clic en el botón **[!UICONTROL Delete channel]** a la derecha.
 
    ![](assets/create-messages-content.png)
 
@@ -74,11 +75,11 @@ Para crear un nuevo mensaje, siga los pasos a continuación:
 
 1. Compruebe las alertas en la sección superior del editor.  Algunas son simples advertencias, pero otras pueden impedir que publique el mensaje. Obtenga más información en [esta sección](alerts.md).
 
-1. Ahora puede publicar el mensaje haciendo clic en el botón **[!UICONTROL Publish]** o mantenerlo como borrador y publicarlo más adelante. Para obtener más información sobre cómo publicar mensajes, consulte [esta sección](publish-manage-message.md).
+1. Ahora puede publicar el mensaje haciendo clic en el botón **[!UICONTROL Publish]** o manténgalo como borrador y publíquelo más adelante. Para obtener más información sobre cómo publicar mensajes, consulte [esta sección](publish-manage-message.md).
 
 ## Duplicar un mensaje
 
-Para crear un mensaje a partir de uno existente, utilice el botón **[!UICONTROL Duplicate]** de la interfaz de mensajes. Todos los ajustes y configuraciones se copiarán en el nuevo mensaje
+Para crear un mensaje a partir de uno existente, use el **[!UICONTROL Duplicate]** de la interfaz de mensajes. Todos los ajustes y configuraciones se copiarán en el nuevo mensaje
 
 ![](assets/message-duplicate.png)
 

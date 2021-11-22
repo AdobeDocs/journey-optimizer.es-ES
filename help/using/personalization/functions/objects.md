@@ -1,14 +1,15 @@
 ---
 title: Biblioteca de funciones de objetos
 description: Biblioteca de funciones de objetos
-feature: Personalización
-topic: Personalización
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 6ce70e32-aac3-4a2c-bfeb-c370521853ca
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 10%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 10%
 
 ## Is null{#isNull}
 
-La función `isNull` determina si no existe una referencia de objeto.
+La variable `isNull` determina si no existe una referencia de objeto.
 
 **Formato**
 
@@ -34,7 +35,7 @@ La siguiente operación comprueba si la dirección principal de la persona no ex
 
 ## No es nulo{#isNotNull}
 
-La función `isNotNull` determina si existe una referencia de objeto.
+La variable `isNotNull` determina si existe una referencia de objeto.
 
 **Formato**
 

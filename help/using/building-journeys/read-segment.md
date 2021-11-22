@@ -19,7 +19,7 @@ ht-degree: 4%
 
 La actividad Leer segmento le permite hacer que todas las personas que pertenecen a un segmento de Adobe Experience Platform participen en un recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular.
 
-Veamos como ejemplo el segmento &quot;Apertura y cierre de compra de la aplicación de Luma&quot; creado en el caso de uso [Segmentos de compilación](../segment/about-segments.md). Con la actividad Leer segmento , puede hacer que todas las personas que pertenecen a este segmento ingresen a un recorrido y hacer que fluyan a recorridos personalizados que aprovechen todas las funcionalidades de recorrido: condiciones, temporizadores, eventos, acciones.
+Veamos como ejemplo el segmento &quot;Apertura y cierre de compra de la aplicación de Luma&quot; creado en la [Generar segmentos](../segment/about-segments.md) caso de uso. Con la actividad Leer segmento , puede hacer que todas las personas que pertenecen a este segmento ingresen a un recorrido y hacer que fluyan a recorridos personalizados que aprovechen todas las funcionalidades de recorrido: condiciones, temporizadores, eventos, acciones.
 
 >[!NOTE]
 >
@@ -29,35 +29,35 @@ Veamos como ejemplo el segmento &quot;Apertura y cierre de compra de la aplicaci
 
 Los pasos para configurar la actividad Leer segmento son los siguientes:
 
-1. Despliegue la categoría **[!UICONTROL Orchestration]** y suelte una actividad **[!UICONTROL Read Segment]** en el lienzo.
+1. Despliegue el **[!UICONTROL Orchestration]** categoría y suelte a **[!UICONTROL Read Segment]** actividad en el lienzo.
 
    La actividad debe colocarse como el primer paso de un recorrido.
 
 1. Agregue un **[!UICONTROL Label]** a la actividad (opcional).
 
-1. En el campo **[!UICONTROL Segment]**, seleccione el segmento de Adobe Experience Platform que ingresará al recorrido y haga clic en **[!UICONTROL Save]**.
+1. En el **[!UICONTROL Segment]** , seleccione el segmento de Adobe Experience Platform que entrará en el recorrido y, a continuación, haga clic en **[!UICONTROL Save]**.
 
    Tenga en cuenta que puede personalizar las columnas mostradas en la lista y ordenarlas.
 
    >[!NOTE]
    >
-   >Solo las personas con los estados de participación de segmentos **Realized** y **Existing** entrarán en el recorrido. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
+   >Solo las personas con la variable **Realizado** y **Existente** los estados de participación de segmentos entrarán en el recorrido. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
    ![](../assets/read-segment-selection.png)
 
-   Una vez agregado el segmento, el botón **[!UICONTROL Copy]** le permite copiar su nombre y su ID:
+   Una vez agregado el segmento, la variable **[!UICONTROL Copy]** permite copiar su nombre y su ID:
 
    `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](../assets/read-segment-copy.png)
 
-1. En el campo **[!UICONTROL Namespace]**, elija el área de nombres que desea utilizar para identificar a las personas. [Obtenga más información sobre áreas de nombres](../event/about-creating.md#select-the-namespace).
+1. En el **[!UICONTROL Namespace]** , elija el área de nombres que desea utilizar para identificar a las personas. [Más información sobre áreas de nombres](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >
    >Las personas que pertenecen a un segmento que no tiene la identidad seleccionada (área de nombres) entre sus distintas identidades no pueden entrar en el recorrido.
 
-1. Establezca el campo **[!UICONTROL Throttling rate]** en el límite de rendimiento de la actividad de segmento de lectura.
+1. Configure las variables **[!UICONTROL Throttling rate]** al límite de rendimiento de la actividad de segmento de lectura.
 
    Este valor se almacena en la carga útil de la versión de recorrido. El valor predeterminado es 17 000 mensajes por segundo. Puede modificar este valor de 500 a 17 000 mensajes por segundo.
 
@@ -65,29 +65,29 @@ Los pasos para configurar la actividad Leer segmento son los siguientes:
    >
    >La tasa de regulación global por simulador de pruebas se establece en 20 000 mensajes por segundo. Por lo tanto, la tasa de regulación de todos los segmentos de lectura que se ejecutan simultáneamente en el mismo simulador de pruebas suman como máximo 20 000 mensajes por segundo. No puede modificar este límite.
 
-1. La actividad **[!UICONTROL Read Segment]** le permite especificar la hora a la que el segmento ingresará al recorrido. Para ello, haga clic en el enlace **[!UICONTROL Edit journey schedule]** para acceder a las propiedades del recorrido y, a continuación, configure el campo **[!UICONTROL Scheduler type]**.
+1. La variable **[!UICONTROL Read Segment]** actividad le permite especificar la hora a la que el segmento ingresará en el recorrido. Para ello, haga clic en el botón **[!UICONTROL Edit journey schedule]** para acceder a las propiedades del recorrido y, a continuación, configure el **[!UICONTROL Scheduler type]** campo .
 
    ![](../assets/read-segment-schedule.png)
 
-   De forma predeterminada, los segmentos introducen el recorrido **[!UICONTROL As soon as possible]**. Si desea que el segmento introduzca el recorrido en una fecha u hora específica o de forma recurrente, seleccione el valor que desee en la lista.
+   De forma predeterminada, los segmentos entran en el recorrido **[!UICONTROL As soon as possible]**. Si desea que el segmento introduzca el recorrido en una fecha u hora específica o de forma recurrente, seleccione el valor que desee en la lista.
 
    >[!NOTE]
    >
-   >Tenga en cuenta que la sección **[!UICONTROL Schedule]** solo está disponible cuando se ha colocado una actividad **[!UICONTROL Read Segment]** en el lienzo.
+   >Tenga en cuenta que **[!UICONTROL Schedule]** solo está disponible cuando **[!UICONTROL Read Segment]** la actividad se ha soltado en el lienzo.
 
    ![](../assets/read-segment-schedule-list.png)
 
 ### Prueba y publicación del recorrido {#testing-publishing}
 
-La actividad **[!UICONTROL Read Segment]** le permite probar el recorrido en un perfil unitario o en 100 perfiles de prueba aleatorios seleccionados entre los perfiles cualificados para el segmento.
+La variable **[!UICONTROL Read Segment]** actividad le permite probar el recorrido en un perfil unitario o en 100 perfiles de prueba aleatorios seleccionados entre los perfiles cualificados para el segmento.
 
 Para ello, active el modo de prueba y, a continuación, seleccione la opción que desee en el panel izquierdo.
 
 ![](../assets/read-segment-test-mode.png)
 
-A continuación, puede configurar y ejecutar el modo de prueba como de costumbre. [Aprenda a probar un recorrido](testing-the-journey.md).
+A continuación, puede configurar y ejecutar el modo de prueba como de costumbre. [Obtenga información sobre cómo probar un recorrido](testing-the-journey.md).
 
-Una vez que se está ejecutando la prueba, el botón **[!UICONTROL Show logs]** le permite ver los resultados de la prueba según la opción de prueba seleccionada:
+Una vez ejecutada la prueba, la variable **[!UICONTROL Show logs]** permite ver los resultados de la prueba según la opción de prueba seleccionada:
 
 * **[!UICONTROL Single profile at a time]**: los registros de prueba muestran la misma información que al utilizar el modo de prueba unitaria. Para obtener más información, consulte [esta sección](testing-the-journey.md#viewing_logs)
 
@@ -97,7 +97,7 @@ Una vez que se está ejecutando la prueba, el botón **[!UICONTROL Show logs]** 
 
    ![](../assets/read-segment-log.png)
 
-Una vez realizadas las pruebas correctamente, puede publicar el recorrido (consulte [Publicación del recorrido](publishing-the-journey.md)). Las personas que pertenezcan al segmento introducirán el recorrido en la fecha y hora especificadas en la sección **[!UICONTROL Scheduler]** de propiedades del recorrido.
+Una vez realizadas las pruebas correctamente, puede publicar el recorrido (consulte [Publicación del recorrido](publishing-the-journey.md)). Las personas que pertenezcan al segmento introducirán el recorrido en la fecha y hora especificadas en las propiedades del recorrido **[!UICONTROL Scheduler]** para obtener más información.
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ Una vez realizadas las pruebas correctamente, puede publicar el recorrido (consu
 
 ## Segmentación de audiencias en recorridos basados en segmentos
 
-Los recorridos basados en segmentos siempre comienzan con una actividad **Leer segmento** para recuperar personas que pertenecen a un segmento de Adobe Experience Platform.
+Los recorridos basados en segmentos siempre comienzan con un **Leer segmento** actividad para recuperar personas que pertenecen a un segmento de Adobe Experience Platform.
 
 La audiencia que pertenece al segmento se recupera una vez o de forma regular.
 
@@ -114,7 +114,7 @@ Después de entrar en el recorrido, puede crear casos de uso de orquestación de
 
 **Segmentación**
 
-Puede utilizar condiciones para realizar la segmentación mediante la actividad **Condition**. Por ejemplo, puede hacer que VIP personas tomen una ruta en particular y que no VIP flujo en otra ruta.
+Puede utilizar condiciones para realizar segmentaciones utilizando la variable **Condición** actividad. Por ejemplo, puede hacer que VIP personas tomen una ruta en particular y que no VIP flujo en otra ruta.
 
 La segmentación puede basarse en:
 
@@ -128,7 +128,7 @@ La segmentación puede basarse en:
 
 **Exclusión**
 
-La misma actividad **Condition** utilizada para la segmentación (ver arriba) también le permite excluir parte de la población. Por ejemplo, puede excluir VIP personas haciendo que fluyan a una rama con un paso final justo después.
+Igual **Condición** actividad utilizada para la segmentación (consulte más arriba) también le permite excluir parte de la población. Por ejemplo, puede excluir VIP personas haciendo que fluyan a una rama con un paso final justo después.
 
 Esta exclusión podría ocurrir justo después de la recuperación de segmentos, con fines de recuento de población o a lo largo de un recorrido de varios pasos.
 

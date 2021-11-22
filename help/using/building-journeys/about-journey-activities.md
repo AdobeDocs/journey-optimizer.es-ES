@@ -1,14 +1,15 @@
 ---
 title: Acerca de las actividades de recorrido
 description: Obtenga información sobre las actividades de recorrido
-feature: Recorridos
-topic: Administración de contenido
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 30%
+source-wordcount: '262'
+ht-degree: 29%
 
 ---
 
@@ -43,7 +44,7 @@ En la paleta, en la parte izquierda de la pantalla, están disponibles las sigui
 
 ## Actividades de acción {#action-activities}
 
-Desde la paleta, en el lado izquierdo de la pantalla, debajo de **[!UICONTROL Events]** y **[!UICONTROL Orchestration]**, se encuentra la categoría **[!UICONTROL Actions]**. Las siguientes actividades de acción están disponibles:
+Desde la paleta, en la parte izquierda de la pantalla, debajo **[!UICONTROL Events]** y **[!UICONTROL Orchestration]**, encontrará la variable **[!UICONTROL Actions]** categoría. Las siguientes actividades de acción están disponibles:
 
 * [Mensaje](../building-journeys/journeys-message.md)
 * [Acciones personalizadas](../building-journeys/using-custom-actions.md)
@@ -57,7 +58,7 @@ Si ha configurado acciones personalizadas, estas aparecerán aquí (consulte [es
 
 ## Prácticas recomendadas {#best-practices}
 
-La mayoría de las actividades le permiten definir un **[!UICONTROL Label]**. Esto agrega un sufijo al nombre que aparecerá debajo de la actividad en el lienzo. Esto resulta útil si utiliza la misma actividad varias veces en el recorrido y desea identificarlos más fácilmente. También facilitará la depuración en caso de errores y facilitará la lectura de los informes. También puede agregar un **[!UICONTROL Description]** opcional.
+La mayoría de las actividades le permiten definir un **[!UICONTROL Label]**. Esto agrega un sufijo al nombre que aparecerá debajo de la actividad en el lienzo. Esto resulta útil si utiliza la misma actividad varias veces en el recorrido y desea identificarlos más fácilmente. También facilitará la depuración en caso de errores y facilitará la lectura de los informes. También puede añadir una **[!UICONTROL Description]**.
 
 ![](../assets/journey59bis.png)
 

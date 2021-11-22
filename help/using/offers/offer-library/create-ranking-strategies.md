@@ -26,7 +26,7 @@ ht-degree: 6%
 
 Esta función le permite crear diferentes **estrategias de clasificación** en función de sus objetivos comerciales. Utilizando estas diferentes estrategias basadas en objetivos en una decisión (anteriormente conocida como actividad de oferta), el sistema de modelos entrenado le ayudará a comprender cómo las diferentes estrategias de clasificación afectan a sus objetivos.
 
-Por ejemplo, puede seleccionar una estrategia de clasificación para el canal de correo electrónico y otra para el canal push. Para cada canal, el sistema de modelos entrenado utilizará múltiples puntos de datos para determinar qué oferta debe presentarse primero para una ubicación determinada, en lugar de tener en cuenta las puntuaciones de prioridad de las ofertas o una fórmula de [clasificación](create-ranking-formulas.md).
+Por ejemplo, puede seleccionar una estrategia de clasificación para el canal de correo electrónico y otra para el canal push. Para cada canal, el sistema de modelos entrenado utilizará múltiples puntos de datos para determinar qué oferta debe presentarse primero para una ubicación determinada, en lugar de tener en cuenta las puntuaciones de prioridad de las ofertas o una [fórmula de clasificación](create-ranking-formulas.md).
 
 <!--This feature is not enabled by default. To be able to use it, reach out to your Adobe contact.-->
 
@@ -36,7 +36,7 @@ Una vez creada una estrategia de clasificación, asígnela a una colocación en 
 
 Para crear una estrategia de clasificación, siga los pasos a continuación:
 
-1. Acceda al menú **[!UICONTROL Components]** y seleccione la pestaña **[!UICONTROL AI rankings]** .
+1. Acceda a la **[!UICONTROL Components]** y, a continuación, seleccione **[!UICONTROL AI rankings]** pestaña .
 
    ![](../../assets/ai-ranking-list.png)
 
@@ -50,7 +50,7 @@ Para crear una estrategia de clasificación, siga los pasos a continuación:
 
    * **[!UICONTROL Name]**: Nombre único que debe proporcionar.
 
-   * **[!UICONTROL Model type]**: Actualmente, el único tipo de modelo admitido es  **[!UICONTROL Auto-optimization]**.<!--More will be supported in the future so the drop-down list will be enabled.-->
+   * **[!UICONTROL Model type]**: Actualmente, el único tipo de modelo admitido es **[!UICONTROL Auto-optimization]**.<!--More will be supported in the future so the drop-down list will be enabled.-->
 
    * **[!UICONTROL Optimization metric]**
 
@@ -66,13 +66,13 @@ Para crear una estrategia de clasificación, siga los pasos a continuación:
 
       Todos los eventos de impresión o de conversión seleccionados se capturarán automáticamente mediante el SDK web o el SDK móvil que se haya proporcionado. Obtenga más información sobre esto en [Información general del SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es).
 
-   * **[!UICONTROL Dataset ID]**: Para la conversión, debe proporcionar un conjunto de datos donde se recopilen los eventos seleccionándolo en la lista desplegable. Aprenda a crear este conjunto de datos en [esta sección](#create-dataset). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
+   * **[!UICONTROL Dataset ID]**: Para la conversión, debe proporcionar un conjunto de datos donde se recopilen los eventos seleccionándolo en la lista desplegable. Obtenga información sobre cómo crear este conjunto de datos en [esta sección](#create-dataset). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
    ![](../../assets/ai-ranking-dataset-id.png)
 
    >[!CAUTION]
    >
-   >En la lista desplegable solo se muestran los conjuntos de datos creados a partir de esquemas asociados con el grupo de campos **[!UICONTROL Experience Event - Proposition Interactions]** (anteriormente conocido como mezcla).
+   >Solo los conjuntos de datos creados a partir de esquemas asociados con la variable **[!UICONTROL Experience Event - Proposition Interactions]** el grupo de campos (anteriormente conocido como mezcla) se muestra en la lista desplegable.
 
 1. Guarde y active la estrategia de clasificación.
 
@@ -84,26 +84,26 @@ Ahora está listo para utilizarse en una decisión para clasificar ofertas aptas
 
 Debe crear un conjunto de datos donde se recopilen los eventos de conversión. Comience creando el esquema que se utilizará en el conjunto de datos:
 
-1. En el menú **[!UICONTROL Data Management]**, seleccione **[!UICONTROL Schema]**, vaya a la pestaña **[!UICONTROL Browse]** y haga clic en **[!UICONTROL Create schema]**.
+1. En el **[!UICONTROL Data Management]** seleccione **[!UICONTROL Schema]**, vaya a la **[!UICONTROL Browse]** y haga clic en **[!UICONTROL Create schema]**.
 
    ![](../../assets/ai-ranking-create-schema.png)
 
-1. Seleccione **[!UICONTROL XDM ExperienceEvent]**.
+1. Choose **[!UICONTROL XDM ExperienceEvent]**.
 
    ![](../../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
-   >    Obtenga más información sobre los esquemas y grupos de campos XDM en la [documentación de información general del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es).
+   >    Obtenga más información sobre los esquemas XDM y los grupos de campos en la [Documentación de información general del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es).
 
 
-1. En el campo **[!UICONTROL Search]**, escriba &quot;interacción de propuesta&quot; y seleccione el grupo de campos **[!UICONTROL Experience Event - Proposition Interactions]**.
+1. En el **[!UICONTROL Search]** , escriba &quot;interacción de propuesta&quot; y seleccione la **[!UICONTROL Experience Event - Proposition Interactions]** grupo de campos.
 
    ![](../../assets/ai-ranking-proposition-interactions.png)
 
    >[!CAUTION]
    >
-   >    El esquema que se utilizará en el conjunto de datos debe tener asociado el grupo de campos **[!UICONTROL Experience Event - Proposition Interactions]** . De lo contrario, no podrá utilizarlo en su estrategia de clasificación.
+   >    El esquema que se utilizará en el conjunto de datos debe tener la variable **[!UICONTROL Experience Event - Proposition Interactions]** grupo de campos asociado a él. De lo contrario, no podrá utilizarlo en su estrategia de clasificación.
 
 1. Haga clic en **[!UICONTROL Add field groups]**.
 
@@ -117,11 +117,11 @@ Debe crear un conjunto de datos donde se recopilen los eventos de conversión. C
 
 >[!NOTE]
 >
->    Obtenga más información sobre la creación de esquemas en [Conceptos básicos de la composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas).
+>    Obtenga más información sobre la creación de esquemas en [Aspectos básicos de la composición del esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas).
 
 Ya está listo para crear un conjunto de datos con este esquema. Para realizar esto, siga los pasos a continuación:
 
-1. En el menú **[!UICONTROL Data Management]**, seleccione **[!UICONTROL Datasets]**, vaya a la pestaña **[!UICONTROL Browse]** y haga clic en **[!UICONTROL Create dataset]**.
+1. En el **[!UICONTROL Data Management]** seleccione **[!UICONTROL Datasets]**, vaya a la **[!UICONTROL Browse]** y haga clic en **[!UICONTROL Create dataset]**.
 
    ![](../../assets/ai-ranking-create-dataset.png)
 
@@ -135,11 +135,11 @@ Ya está listo para crear un conjunto de datos con este esquema. Para realizar e
 
 1. Haga clic en **[!UICONTROL Next]**.
 
-1. Proporcione un nombre único para el conjunto de datos en el campo **[!UICONTROL Name]** y haga clic en **[!UICONTROL Finish]**.
+1. Proporcione un nombre único para el conjunto de datos en la variable **[!UICONTROL Name]** y haga clic en **[!UICONTROL Finish]**.
 
    ![](../../assets/ai-ranking-dataset-name.png)
 
-El conjunto de datos ya está listo para seleccionarse para recopilar eventos de conversión al [crear una estrategia de clasificación](#create-ranking-strategy).
+El conjunto de datos ya está listo para seleccionarse para recopilar eventos de conversión al [creación de una estrategia de clasificación](#create-ranking-strategy).
 
 <!--## Using a ranking strategy {#using-ranking}
 

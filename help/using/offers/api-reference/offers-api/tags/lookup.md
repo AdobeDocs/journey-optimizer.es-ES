@@ -1,20 +1,21 @@
 ---
 title: Buscar una etiqueta
 description: Las etiquetas permiten organizar y ordenar mejor las ofertas.
-feature: Ofertas
-topic: Integraciones
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '149'
 ht-degree: 4%
 
 ---
 
 # Buscar una etiqueta
 
-Puede buscar etiquetas específicas realizando una solicitud de GET a la API [!DNL Offer Library] que incluye la etiqueta `@id` o el nombre de la etiqueta en la ruta de solicitud.
+Puede buscar etiquetas específicas realizando una solicitud de GET al [!DNL Offer Library] API que incluye la etiqueta `@id` o el nombre de la etiqueta en la ruta de solicitud.
 
 **Formato de API**
 
@@ -27,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Contenedor donde se encuentran las etiquetas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_TAG}` | Define el esquema asociado a las etiquetas. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
-| `id` | Una cadena que se utiliza para coincidir con la propiedad `@id` de las entidades. La cadena coincide exactamente. Los parámetros `id` y `name` no se pueden usar juntos. | `xcore:tag:124e147572cd7866` |
-| `name` | Una cadena que se utiliza para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se pueden usar juntos | `Holiday sales and promotions` |
+| `id` | Una cadena que se usa para hacer coincidir con la variable `@id` propiedad de las entidades. La cadena coincide exactamente. Los parámetros `id` y `name` no se puede usar juntos. | `xcore:tag:124e147572cd7866` |
+| `name` | Cadena que se utiliza para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se puede usar juntos | `Holiday sales and promotions` |
 
 **Solicitud**
 

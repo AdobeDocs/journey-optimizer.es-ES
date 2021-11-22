@@ -1,24 +1,25 @@
 ---
-title: Crear ofertas de reserva
+title: Creación de ofertas de reserva
 description: Aprenda a crear ofertas en Adobe Experience Platform.
-feature: Ofertas
-topic: Integraciones
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 5%
+source-wordcount: '281'
+ht-degree: 4%
 
 ---
 
-# Crear ofertas de reserva {#creating-fallback-offers}
+# Creación de ofertas de reserva {#creating-fallback-offers}
 
 La oferta de reserva se envía a los clientes si no cumplen los requisitos para otras ofertas. Los pasos para crear una oferta de reserva consisten en crear una o varias representaciones, como al crear una oferta.
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-Se puede acceder a la lista de ofertas de reserva desde el menú **[!UICONTROL Offers]** .
+Se puede acceder a la lista de ofertas de reserva en la **[!UICONTROL Offers]** para abrir el Navegador.
 
 ![](../../assets/offers_list.png)
 
@@ -36,17 +37,17 @@ Para crear una oferta de reserva, siga estos pasos:
 
    ![](../../assets/fallback_details.png)
 
-1. Cree una o varias representaciones para la oferta de reserva. Para ello, arrastre y suelte las ubicaciones desde el panel izquierdo, como cuando crea una oferta personalizada. Consulte [Crear ofertas personalizadas](../offer-library/creating-personalized-offers.md).
+1. Cree una o varias representaciones para la oferta de reserva. Para ello, arrastre y suelte las ubicaciones desde el panel izquierdo, como cuando crea una oferta personalizada. Consulte [Creación de ofertas personalizadas](../offer-library/creating-personalized-offers.md).
 
    ![](../../assets/fallback_content.png)
 
-1. Una vez añadidas las representaciones de la oferta de reserva, se muestra un resumen. Si todo está configurado correctamente y la oferta de reserva está lista para presentarse a los clientes, haga clic en **[!UICONTROL Finish]** y seleccione **[!UICONTROL Save and approve]**.
+1. Una vez añadidas las representaciones de la oferta de reserva, se muestra un resumen. Si todo está configurado correctamente y la oferta de reserva está lista para presentarse a los clientes, haga clic en **[!UICONTROL Finish]** y, a continuación, seleccione **[!UICONTROL Save and approve]**.
 
    También puede guardar la oferta de reserva como borrador para editarla y aprobarla más adelante.
 
    ![](../../assets/fallback_review.png)
 
-1. La oferta de reserva se muestra en la lista con los estados **[!UICONTROL Live]** o **[!UICONTROL Draft]**, en función de si lo aprobó o no en el paso anterior.
+1. La oferta de reserva se muestra en la lista con la variable **[!UICONTROL Live]** o **[!UICONTROL Draft]** , dependiendo de si lo aprobó o no en el paso anterior.
 
    Ahora está listo para enviarse a los clientes. Puede seleccionarlo para mostrar sus propiedades y editarlo. <!-- no suppression? -->
 

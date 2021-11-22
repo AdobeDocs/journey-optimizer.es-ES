@@ -1,13 +1,14 @@
 ---
 title: Biblioteca de funciones aritméticas
 description: Biblioteca de funciones aritméticas
-feature: Personalización
-topic: Personalización
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 21ef8f50-8389-4675-a8e5-0438a3eee592
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 7%
 
 ---
@@ -18,7 +19,7 @@ Las funciones aritméticas se utilizan para realizar cálculos básicos de los v
 
 ## Add{#add}
 
-La función `+` (suma) se utiliza para encontrar la suma de dos expresiones de argumento.
+La variable `+` (suma) se utiliza para encontrar la suma de dos expresiones de argumento.
 
 **Formato**
 
@@ -36,7 +37,7 @@ La operación siguiente resume el precio de dos productos diferentes.
 
 ## Multiplicar{#multiply}
 
-La función `*` (multiplicación) se utiliza para encontrar el producto de dos expresiones de argumento.
+La variable `*` (multiplicación) se utiliza para encontrar el producto de dos expresiones de argumento.
 
 **Formato**
 
@@ -54,7 +55,7 @@ La siguiente operación encuentra el producto del inventario y el precio de un p
 
 ## Sustraer{#substract}
 
-La función `-` (resta) se utiliza para encontrar la diferencia de dos expresiones de argumento.
+La variable `-` (subtraction) se utiliza para encontrar la diferencia de dos expresiones de argumento.
 
 **Formato**
 
@@ -72,7 +73,7 @@ La siguiente operación encuentra la diferencia de precio entre dos productos di
 
 ## Dividir{#divide}
 
-La función `/` (división) se utiliza para encontrar el cociente de dos expresiones de argumento.
+La variable `/` (división) se utiliza para encontrar el cociente de dos expresiones de argumento.
 
 **Formato**
 
@@ -90,7 +91,7 @@ La siguiente operación encuentra el cociente entre el total de productos vendid
 
 ## Remainte{#remainder}
 
-La función `%` (módulo/resto) se utiliza para encontrar el resto después de dividir las dos expresiones de argumento.
+La variable `%` (módulo/resto) se utiliza para encontrar el resto después de dividir las dos expresiones de argumento.
 
 **Formato**
 

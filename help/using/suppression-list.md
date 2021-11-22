@@ -5,7 +5,8 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 2%
@@ -16,7 +17,7 @@ ht-degree: 2%
 
 Una lista de supresión consiste en direcciones de correo electrónico que desea excluir de los envíos, ya que el envío a estos contactos podría dañar la reputación del envío y las tasas de envío.
 
-La lista de supresión [!DNL Journey Optimizer] se administra en su propio nivel de entorno.
+La variable [!DNL Journey Optimizer] la lista de supresión se administra en su propio nivel de entorno.
 
 Recopila direcciones de correo electrónico y dominios que se suprimen en todos los correos en un único entorno de cliente, lo que significa que son específicos de un ID de organización de IMS asociado a un ID de simulador de pruebas.
 
@@ -34,17 +35,17 @@ Los destinatarios cuyas direcciones de correo electrónico se supriman se excluy
 
 Las direcciones de correo electrónico se añaden a la lista de supresión de la siguiente manera:
 
-* Todas las **rechazos graves** y **quejas por correo no deseado** envían automáticamente las direcciones de correo electrónico correspondientes a la lista de supresión tras una sola incidencia.
+* Todo **rechazos graves** y **quejas por correo no deseado** envíe automáticamente las direcciones de correo electrónico correspondientes a la lista de supresión después de una sola incidencia.
 
-* **Los** <!--and temporary **ignored** errors--> rechazos leves no envían inmediatamente una dirección de correo electrónico a la lista de supresión, sino que se suman a un contador de errores. A continuación, se realizan varios [reintentos](configuration/retries.md) y, cuando el contador de errores alcanza el umbral, la dirección se agrega a la lista de supresión.
+* **Rechazos leves** <!--and temporary **ignored** errors--> no envíe inmediatamente una dirección de correo electrónico a la lista de supresión, sino que se sumará a un contador de errores. Varios [reintentos](configuration/retries.md) a continuación, se realizan y, cuando el contador de errores alcanza el umbral, la dirección se agrega a la lista de supresión.
 
-* También puede [**manualmente** agregar una dirección o un dominio](configuration/manage-suppression-list.md#add-addresses-and-domains) a la lista de supresión.
+* También puede [**manualmente** añadir una dirección o un dominio](configuration/manage-suppression-list.md#add-addresses-and-domains) a la lista de supresión.
 
 Obtenga más información sobre los rechazos graves y los rechazos leves en [esta sección](#delivery-failures).
 
 >[!NOTE]
 >
->Las direcciones de los usuarios cancelados de suscripción no se pueden enviar a la lista de supresión ya que no reciben correos electrónicos de [!DNL Journey Optimizer]. Su elección se gestiona a nivel de Experience Platform. Obtenga más información sobre [exclusión](../using/consent.md).
+>Las direcciones de los usuarios que han dejado de suscribirse no se pueden enviar a la lista de supresión, ya que no reciben correos electrónicos de [!DNL Journey Optimizer]. Su elección se gestiona a nivel de Experience Platform. Más información sobre [exclusión](../using/consent.md).
 <!--Email addresses of recipients who **unsubscribe** from your sendings are NOT sent to the suppression list. Confirmed by eng.: "Subscribe and Unsubscribe are handled by the Consent/Subscription service. A user that opts out will not make it to the suppression list – we won’t send them emails."-->
 
 Para cada dirección, el motivo básico de la supresión y la categoría de supresión (suave, dura, etc.) se muestran en la lista de supresión. Obtenga más información sobre el acceso y la administración de la lista de supresión en [esta sección](configuration/manage-suppression-list.md).
@@ -53,21 +54,21 @@ Para cada dirección, el motivo básico de la supresión y la categoría de supr
 
 >[!NOTE]
 >
->Los perfiles con estado **[!UICONTROL Suppressed]** se excluyen durante el proceso de envío de mensajes. Por lo tanto, mientras que los **informes de Recorrido** mostrarán estos perfiles como si se hubieran movido a través del recorrido ([Leer segmento](building-journeys/read-segment.md) y [Mensaje](building-journeys/journeys-message.md)), los **Informes de correo electrónico** no los incluirán en las métricas **[!UICONTROL Sent]** ya que se filtrarán antes de enviarlos por correo electrónico.
+>Los perfiles con **[!UICONTROL Suppressed]** se excluyen durante el proceso de envío de mensajes. Por lo tanto, mientras que la variable **Informes de recorrido** mostrará estos perfiles como si se hubieran movido a través del recorrido ([Leer segmento](building-journeys/read-segment.md) y [Mensaje](building-journeys/journeys-message.md) actividades), **Informes de correo electrónico** no los incluirá en la variable **[!UICONTROL Sent]** las métricas tal y como están filtradas antes del envío por correo electrónico.
 >
->Obtenga más información sobre [Live Report](reports/live-report.md) y [Global Report](reports/global-report.md). Para averiguar el motivo de todos los casos de exclusión, puede utilizar el [Servicio de consulta de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
+>Obtenga más información sobre [Informe Activo](reports/live-report.md) y [Informe global](reports/global-report.md). Para averiguar el motivo de todos los casos de exclusión, puede usar la variable [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
 
 ### Errores de entrega {#delivery-failures}
 
 Existen dos tipos de errores cuando falla una entrega:
 
-* **Rechazo** duro. Un rechazo grave indica una dirección de correo electrónico no válida (es decir, una dirección de correo electrónico que no existe). Esto implica un mensaje de rechazo del servidor de correo electrónico receptor que indica explícitamente que la dirección no es válida.
+* **Rechazo grave**. Un rechazo grave indica una dirección de correo electrónico no válida (es decir, una dirección de correo electrónico que no existe). Esto implica un mensaje de rechazo del servidor de correo electrónico receptor que indica explícitamente que la dirección no es válida.
 * **Rechazo suave**. Se trata de una devolución temporal de correo electrónico que se produjo para una dirección de correo electrónico válida.
 <!--* **Ignored**. This is an email bounce that occurred for a valid email address but is known to be temporary, such as a failed connection attempt, a temporary Spam-related issue (email reputation), or a temporary technical issue.-->
 
-Un **rechazo grave** agrega automáticamente la dirección de correo electrónico a la lista de supresión.
+A **devolución fuerte** agrega automáticamente la dirección de correo electrónico a la lista de supresión.
 
-Un **rechazo suave** <!--or an **ignored** error--> que ocurre demasiadas veces también envía la dirección de correo electrónico a la lista de supresión después de varios reintentos. [Más información sobre los reintentos](configuration/retries.md)
+A **devolución suave** <!--or an **ignored** error--> que ocurre demasiadas veces también envía la dirección de correo electrónico a la lista de supresión después de varios reintentos. [Más información sobre los reintentos](configuration/retries.md)
 
 Si continúa enviando direcciones a estas, puede afectar a las tasas de envío, ya que indica a los ISP que puede que no siga las prácticas recomendadas de mantenimiento de la lista de direcciones de correo electrónico y, por lo tanto, puede que no sea un remitente fiable.
 

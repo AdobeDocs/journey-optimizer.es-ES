@@ -1,6 +1,6 @@
 ---
 title: Administrar la lista de supresión
-description: 'Obtenga información sobre cómo acceder y administrar la lista de supresión de Journey Optimizer '
+description: Obtenga información sobre cómo acceder y administrar la lista de supresión de Journey Optimizer
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -15,23 +15,23 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 260513cd966ab8e579fa0af0fec0376110d0b53f
+exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 3%
 
 ---
 
-
 # Administrar la lista de supresión {#manage-suppression-list}
 
-Con [!DNL Journey Optimizer], puede supervisar todas las direcciones de correo electrónico que se excluyen automáticamente del envío en un recorrido, como:
+con [!DNL Journey Optimizer], puede supervisar todas las direcciones de correo electrónico que se excluyen automáticamente del envío de un recorrido, como:
 
 * Direcciones que no son válidas (rechazos graves).
 * Direcciones que devuelven mensajes de forma uniforme y que podrían afectar negativamente a la reputación del correo electrónico si continúa incluyéndolas en los envíos.
 * Destinatarios que emiten una queja de correo no deseado de algún tipo contra uno de sus mensajes de correo electrónico.
 
-Estas direcciones de correo electrónico se recopilan automáticamente en la **lista de supresión** de Journey Optimizer. Obtenga más información sobre el concepto y uso de la lista de supresión en [esta sección](../suppression-list.md).
+Estas direcciones de correo electrónico se recopilan automáticamente en Journey Optimizer **lista de supresión**. Obtenga más información sobre el concepto de la lista de supresión y su uso en [esta sección](../suppression-list.md).
 
 ## Acceso a la lista de supresión {#access-suppression-list}
 
@@ -39,7 +39,7 @@ Para acceder a la lista detallada de direcciones de correo electrónico excluida
 
 >[!CAUTION]
 >
->Los permisos para ver, exportar y administrar la lista de supresión están restringidos a [Administradores de Recorrido](../administration/ootb-product-profiles.md#journey-administrator). Obtenga más información sobre la administración de los derechos de acceso de los usuarios [!DNL Journey Optimizer] en [esta sección](../administration/permissions-overview.md).
+>Los permisos para ver, exportar y administrar la lista de supresión están restringidos a [Administradores de recorrido](../administration/ootb-product-profiles.md#journey-administrator). Más información sobre la administración [!DNL Journey Optimizer] derechos de acceso de los usuarios en [esta sección](../administration/permissions-overview.md).
 
 <!--![](../assets/suppression-list-link.png)
 
@@ -53,15 +53,15 @@ Los filtros están disponibles para ayudarle a navegar por la lista.
 
 ![](../assets/suppression-list-filters.png)
 
-Puede filtrar por **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]** o **[!UICONTROL Reason]**. Seleccione las opciones que desee para cada criterio. Una vez seleccionados, puede borrar cada filtro o todos los filtros mostrados en la parte superior de la lista.
+Puede filtrar por la variable **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]** o **[!UICONTROL Reason]**. Seleccione las opciones que desee para cada criterio. Una vez seleccionados, puede borrar cada filtro o todos los filtros mostrados en la parte superior de la lista.
 
 ![](../assets/suppression-list-filtering-example.png)
 
-Si agrega manualmente una dirección de correo electrónico o un dominio por error, el botón **[!UICONTROL Delete]** le permite eliminar esa entrada.
+Si agrega manualmente una dirección de correo electrónico o un dominio por error, la variable **[!UICONTROL Delete]** permite eliminar esa entrada.
 
 >[!CAUTION]
 >
->Nunca utilice el botón **[!UICONTROL Delete]** para eliminar direcciones de correo electrónico o dominios eliminados.
+>No use nunca el **[!UICONTROL Delete]** para eliminar direcciones de correo electrónico o dominios suprimidos.
 
 ![](../assets/suppression-list-delete.png)
 
@@ -71,15 +71,15 @@ Al eliminar una dirección de correo electrónico o un dominio de la lista de su
 >
 >Tenga especial cuidado al considerar la eliminación de cualquier dirección de correo electrónico o dominio. En caso de duda, póngase en contacto con un experto en entregas.
 
-Desde la vista **[!UICONTROL Suppression list]** también puede editar las reglas de supresión. [Más información](retries.md)
+En el **[!UICONTROL Suppression list]** , también puede editar las reglas de supresión. [Más información](retries.md)
 
-Para exportar la lista de supresión como archivo CSV, seleccione el botón **[!UICONTROL Download CSV]**.
+Para exportar la lista de supresión como archivo CSV, seleccione la opción **[!UICONTROL Download CSV]** botón.
 
 ![](../assets/suppression-list-download-csv.png)
 
 ## Categorías y motivos de supresión {#suppression-categories-and-reasons}
 
-Cuando no se puede enviar un mensaje a una dirección de correo electrónico, [!DNL Journey Optimizer] determina por qué ha fallado el envío y lo asocia con **[!UICONTROL Suppression category]**.
+Cuando un mensaje no se puede enviar a una dirección de correo electrónico, [!DNL Journey Optimizer] determina por qué se ha producido un error en la entrega y lo asocia con un **[!UICONTROL Suppression category]**.
 
 Las categorías de supresión son las siguientes:
 
@@ -87,7 +87,7 @@ Las categorías de supresión son las siguientes:
 
    >[!NOTE]
    >
-   >Cuando el error es el resultado de una queja por correo no deseado, también cae en la categoría **Hard**. La dirección de correo electrónico del destinatario que emitió la queja se envía inmediatamente a la lista de supresión.
+   >Cuando el error es el resultado de una queja por correo no deseado, también cae en el **Grave** categoría. La dirección de correo electrónico del destinatario que emitió la queja se envía inmediatamente a la lista de supresión.
 
 * **Leve**: Los errores leves envían una dirección a la lista de supresión una vez que el contador de errores alcanza el umbral de límite. [Más información sobre los reintentos](retries.md)
 
@@ -101,9 +101,9 @@ Las categorías de supresión son las siguientes:
 
 >[!NOTE]
 >
->Obtenga más información sobre los rechazos leves y los rechazos graves en la sección [Tipos de errores de envío](../suppression-list.md#delivery-failures).
+>Obtenga más información sobre los rechazos leves y los rechazos graves en la [Tipos de errores de entrega](../suppression-list.md#delivery-failures) para obtener más información.
 
-Para cada dirección de correo electrónico de la lista, también puede comprobar el **[!UICONTROL Type]** (correo electrónico o dominio), **[!UICONTROL Reason]** para excluirlo, quién lo agregó y la fecha y hora en que se agregó a la lista de supresión.
+Para cada dirección de correo electrónico de la lista, también puede comprobar la variable **[!UICONTROL Type]** (correo electrónico o dominio), **[!UICONTROL Reason]** para excluirlo, quién lo agregó y la fecha y hora en que se agregó a la lista de supresión.
 
 ![](../assets/suppression-list.png)
 
@@ -121,7 +121,7 @@ Los posibles motivos de un error de entrega son:
 
 >[!NOTE]
 >
->Los usuarios cancelados de suscripción no reciben correos electrónicos de [!DNL Journey Optimizer], por lo que sus direcciones de correo electrónico no se pueden enviar a la lista de supresión. Su elección se gestiona a nivel de Experience Platform. [Más información sobre la exclusión](../consent.md)
+>Los usuarios cancelados de suscripción no reciben correos electrónicos de [!DNL Journey Optimizer], por lo tanto, sus direcciones de correo electrónico no se pueden enviar a la lista de supresión. Su elección se gestiona a nivel de Experience Platform. [Más información sobre la exclusión](../consent.md)
 
 <!--
 Removed from the table provided by SparkPost/Momentum:
@@ -147,11 +147,11 @@ Removed from the table provided by SparkPost/Momentum:
 
 Cuando un mensaje no se puede enviar a una dirección de correo electrónico, esta dirección se agrega automáticamente a la lista de supresión en función de la regla de supresión definida o del recuento de devoluciones.
 
-Sin embargo, también puede rellenar manualmente la lista de supresión [!DNL Journey Optimizer] para excluir de la entrega direcciones de correo electrónico o dominios específicos.
+Sin embargo, también puede rellenar manualmente la variable [!DNL Journey Optimizer] lista de supresión para excluir de la entrega direcciones de correo electrónico o dominios específicos.
 
-Puede agregar direcciones de correo electrónico o dominios [uno a la vez](#add-one-address-or-domain) o [en modo masivo](#upload-csv-file) mediante una carga de archivo CSV.
+Puede añadir direcciones de correo electrónico o dominios [de una en una](#add-one-address-or-domain)o [en modo masivo](#upload-csv-file) mediante la carga de un archivo CSV.
 
-Para ello, seleccione el botón **[!UICONTROL Add email or domain]** y, a continuación, siga uno de los métodos que se indican a continuación.
+Para ello, seleccione la **[!UICONTROL Add email or domain]** , siga uno de los métodos que se describen a continuación.
 
 ![](../assets/suppression-list-add-email.png)
 
@@ -186,7 +186,7 @@ Para ello, seleccione el botón **[!UICONTROL Add email or domain]** y, a contin
    EMAIL,abc@somedomain.com,Comment
    DOMAIN,somedomain.com,Comment
    ```
-   También puede descargar esta plantilla desde la vista principal **[!UICONTROL Suppression list]** .
+   También puede descargar esta plantilla desde el **[!UICONTROL Suppression list]** vista principal.
 
    >[!CAUTION]
    >
@@ -206,7 +206,7 @@ Para ello, seleccione el botón **[!UICONTROL Add email or domain]** y, a contin
 
 Puede comprobar la lista de los archivos CSV más recientes que ha cargado.
 
-Para ello, en la vista **[!UICONTROL Suppression list]**, haga clic en el botón **[!UICONTROL Recent uploads]**.
+Para ello, en la sección **[!UICONTROL Suppression list]** haga clic en la **[!UICONTROL Recent uploads]** botón.
 
 ![](../assets/suppression-list-recent-uploads-button.png)
 
@@ -227,6 +227,3 @@ Domain,example,MANUAL,Invalid format for value: example
 Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
-
-
-

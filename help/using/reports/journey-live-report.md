@@ -45,7 +45,7 @@ La variable **[!UICONTROL Journey Statistics]** muestra los siguientes KPI:
 
 ![](../assets/report_journey_3.png)
 
-La variable **[!UICONTROL Event executed over the last 24 hours]** y **[!UICONTROL Events]** las utilidades permiten ver cuál de los eventos se ejecutó correctamente mediante el número de resumen, el gráfico y la tabla.
+La variable **[!UICONTROL Event executed over the last 24 hours]** y **[!UICONTROL Events]** las utilidades permiten ver cuál de sus eventos se ejecutó correctamente mediante el número de resumen, el gráfico y la tabla.
 
 ![](../assets/report_journey_4.png)
 

@@ -1,13 +1,14 @@
 ---
 title: Entregar ofertas
 description: La administración de decisiones es una colección de servicios y programas de interfaz de usuario que permiten a los especialistas en marketing crear y ofrecer experiencias de oferta personalizadas para el usuario final en canales y aplicaciones mediante lógica empresarial y reglas de decisión.
-feature: Ofertas
-topic: Integraciones
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '937'
 ht-degree: 2%
 
 ---
@@ -16,15 +17,15 @@ ht-degree: 2%
 
 Con Administración de decisiones, puede crear y ofrecer experiencias de oferta personalizadas para el usuario final en todos los canales y aplicaciones mediante la lógica empresarial y las reglas de decisión. Una oferta es un mensaje de marketing que puede tener reglas asociadas que especifican quién puede ver la oferta.
 
-Puede crear y enviar ofertas realizando una solicitud de POST a la API [!DNL Decisions].
+Puede crear y enviar ofertas realizando una solicitud de POST al [!DNL Decisions] API.
 
-Este tutorial requiere una comprensión práctica de las API, específicamente con respecto a la gestión de decisiones. Para obtener más información, consulte la [guía para desarrolladores de la API de administración de decisiones](../getting-started.md). Este tutorial también requiere que tenga disponible un ID de ubicación y un valor de ID de decisión únicos. Si no ha adquirido estos valores, consulte los tutoriales para [crear una ubicación](../offers-api/placements/create.md) y [crear una decisión](../activities-api/activities/create.md).
+Este tutorial requiere una comprensión práctica de las API, específicamente con respecto a la gestión de decisiones. Para obtener más información, consulte la [Guía para desarrolladores de API de administración de decisiones](../getting-started.md). Este tutorial también requiere que tenga disponible un ID de ubicación y un valor de ID de decisión únicos. Si no ha adquirido estos valores, consulte los tutoriales de [creación de una ubicación](../offers-api/placements/create.md) y [creación de una decisión](../activities-api/activities/create.md).
 
 ➡️  [Descubra esta función en vídeo](#video)
 
 ## Encabezados Accept y Content-Type
 
-La tabla siguiente muestra los valores válidos que comprenden los campos *Content-Type* y *Accept* en el encabezado de la solicitud:
+La tabla siguiente muestra los valores válidos que comprenden el *Content-Type* y *Accept* campos en el encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -115,15 +116,15 @@ curl -X POST \
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | Si se establece en true, se puede asignar la misma opción a varias ubicaciones. | `"xdm:acrossPlacements": true` |
 | `xdm:mergePolicy.xdm:id` | Identifica la directiva de combinación por la que se rigen los datos devueltos por el servicio de acceso a perfiles. Si no se especifica una en la solicitud, Administración de decisiones no pasará ningún servicio de acceso a perfiles, de lo contrario pasará el id proporcionado por el llamador. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | Conjunto de indicadores que da formato al contenido de respuesta. |
-| `xdm:responseFormat.xdm:includeContent` | Un valor booleano que, si se establece en `true`, incluye contenido en la respuesta. | `"xdm:includeContent": true` |
-| `xdm:responseFormat.xdm:includeMetadata` | Un objeto que se utiliza para especificar qué metadatos adicionales se devuelven. Si esta propiedad no está incluida, se devuelven `xdm:id` y `repo:etag` de forma predeterminada. | `name` |
+| `xdm:responseFormat.xdm:includeContent` | Un valor booleano que, si se configura como `true`, incluye contenido en la respuesta. | `"xdm:includeContent": true` |
+| `xdm:responseFormat.xdm:includeMetadata` | Un objeto que se utiliza para especificar qué metadatos adicionales se devuelven. Si esta propiedad no está incluida, entonces `xdm:id` y `repo:etag` de forma predeterminada. | `name` |
 | `xdm:responseFormat.xdm:activity` | Este indicador identifica la información de metadatos específica devuelta para `xdm:activity`. | `name` |
 | `xdm:responseFormat.xdm:option` | Este indicador identifica la información de metadatos específica devuelta para `xdm:option`. | `name`, `characteristics` |
 | `xdm:responseFormat.xdm:placement` | Este indicador identifica la información de metadatos específica devuelta para `xdm:placement`. | `name`, `channel`, `componentType` |
 
 **Respuesta**
 
-Una respuesta correcta devuelve información sobre la propuesta, incluida su `xdm:propositionId` única.
+Una respuesta correcta devuelve información sobre la propuesta, incluyendo su variable única `xdm:propositionId`.
 
 ```json
 {
@@ -180,15 +181,15 @@ Una respuesta correcta devuelve información sobre la propuesta, incluida su `xd
 | Propiedad | Descripción | Ejemplo |
 | -------- | ----------- | ------- |
 | `xdm:propositionId` | Identificador único de la entidad de propuesta asociada con un evento de decisión XDM. | `"xdm:propositionId": "5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8"` |
-| `xdm:propositions` | Este objeto contiene una única propuesta de decisión. Se pueden devolver varias opciones para la decisión. Si no se encuentran opciones, se devuelve la oferta de reserva de la decisión. Las propuestas de decisión única siempre incluyen una propiedad `options` o una propiedad `fallback`. Cuando está presente, la propiedad `options` no puede estar vacía. |
+| `xdm:propositions` | Este objeto contiene una única propuesta de decisión. Se pueden devolver varias opciones para la decisión. Si no se encuentran opciones, se devuelve la oferta de reserva de la decisión. Las propuestas de decisión única siempre incluyen una `options` propiedad o `fallback` propiedad. Si está presente, la variable `options` no puede estar vacía. |
 | `xdm:propositions.xdm:activity` | Este objeto contiene el identificador único para una decisión. | `"xdm:id": "xcore:activity:ffed0123"` |
 | `xdm:propositions.xdm:placement` | Este objeto contiene el identificador único de una ubicación de oferta. | `"xdm:id": "xcore:placement:ffed0456"` |
 | `xdm:propositions.xdm:options` | Este objeto contiene una sola opción, incluido su identificador único. Si está presente, el objeto no puede estar vacío. | `xdm:id": "xcore:personalized-option:ccc0111` |
 | `xdm:propositions.xdm:options.@type` | Define el tipo del componente. `@type` actúa como contrato de procesamiento para el cliente. Cuando se ensambla la experiencia, el compositor buscará los componentes que tengan un tipo específico. | `https://ns.adobe.com/experience/offer-management/content-component-imagelink` |
-| `xdm:propositions.xdm:content` | Formato del contenido de respuesta. | El contenido de respuesta puede ser: `text`, `html block` o `image link` |
+| `xdm:propositions.xdm:content` | Formato del contenido de respuesta. | El contenido de respuesta puede ser: `text`, `html block`o `image link` |
 | `xdm:score` | La puntuación de una opción que se calcula como resultado de una función de clasificación asociada con la opción o la decisión. La API devolverá este campo si una función de clasificación participa en la determinación de la puntuación de una oferta durante la clasificación. | `"xdm:score": 45.65` |
 | `xdm:propositions.xdm:fallback` | Este objeto contiene una sola oferta de reserva, incluido su identificador único. | `"xdm:id": "xcore:fallback:ccc0222"` |
-| `xdm:propositions.xdm:fallback.dc:format` | La manifestación física o digital del recurso. Normalmente, el formato debe incluir el tipo de medio del recurso. El formato puede utilizarse para determinar el software, el hardware u otro equipo necesario para visualizar o utilizar el recurso. Se recomienda seleccionar un valor de un vocabulario controlado, por ejemplo, la lista de [Internet Media Types](http://www.iana.org/assignments/media-types/) que define los formatos multimedia del equipo. | `"dc:format": "image/png"` o `"image/jpeg"` |
+| `xdm:propositions.xdm:fallback.dc:format` | La manifestación física o digital del recurso. Normalmente, el formato debe incluir el tipo de medio del recurso. El formato puede utilizarse para determinar el software, el hardware u otro equipo necesario para visualizar o utilizar el recurso. Se recomienda seleccionar un valor de un vocabulario controlado, por ejemplo, la lista de [Tipos de medios de Internet](http://www.iana.org/assignments/media-types/) definición de formatos multimedia del equipo. | `"dc:format": "image/png"` o `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | Una URL opcional para leer el recurso desde un extremo de red o servicio de entrega de contenido. Esta URL se utiliza para acceder al recurso públicamente desde un agente de usuario. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | Hora a la que se creó el mensaje de respuesta de decisión. Esto se representa como hora de época. | `"ode:createDate": 1566497582038` |
 
@@ -204,4 +205,4 @@ El siguiente vídeo pretende contribuir a su comprensión de los componentes de 
 
 ## Pasos siguientes
 
-Al seguir esta guía de API, ha creado y enviado ofertas utilizando la API [!DNL Decisions]. Para obtener más información, consulte la [información general sobre Administración de decisiones](../../../offers/get-started/starting-offer-decisioning.md).
+Al seguir esta guía de API, ha creado y enviado ofertas utilizando la variable [!DNL Decisions] API. Para obtener más información, consulte la [información general sobre la gestión de decisiones](../../../offers/get-started/starting-offer-decisioning.md).

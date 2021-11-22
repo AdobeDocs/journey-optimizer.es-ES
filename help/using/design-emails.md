@@ -1,14 +1,15 @@
 ---
 title: Diseño de correos electrónicos
 description: Aprenda a diseñar sus correos electrónicos
-feature: Información general
-topic: Administración de contenido
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 7%
+source-wordcount: '135'
+ht-degree: 5%
 
 ---
 
@@ -16,13 +17,13 @@ ht-degree: 7%
 
 Al crear contenido de correo electrónico con [!DNL Journey Optimizer], puede:
 
-* **Diseñe su correo electrónico desde** cero a través de la interfaz del diseñador de correo electrónico y aproveche las imágenes de  [Adobe Experience Manager Assets Essentials](assets-essentials.md). Aprenda a diseñar su contenido de correo electrónico o a utilizar plantillas integradas [en esta sección](create-email-content.md).
+* **Diseñe su correo electrónico desde cero** a través de la interfaz del diseñador de correo electrónico y aproveche las imágenes de [Adobe Experience Manager Assets Essentials](assets-essentials.md). Aprenda a diseñar su contenido de correo electrónico o a utilizar plantillas integradas [en esta sección](create-email-content.md).
 
-* **Codifique o pegue** HTML sin procesar directamente en el diseñador de correo electrónico. Aprenda a codificar su propio contenido [en esta sección](existing-content.md#import-raw-html-code).
+* **HTML sin procesar de código o pegado** directamente en el diseñador de correo electrónico. Aprenda a codificar su propio contenido [en esta sección](existing-content.md#import-raw-html-code).
 
-* **Importe contenido HTML existente** desde un archivo o una carpeta .zip. Obtenga información sobre cómo importar contenido de correo electrónico [en esta sección](existing-content.md#import-html-content-from-file).
+* **Importar contenido de HTML existente** desde un archivo o una carpeta .zip. Obtenga información sobre cómo importar contenido de correo electrónico [en esta sección](existing-content.md#import-html-content-from-file).
 
-Todas estas funciones están disponibles al acceder al Diseñador de correo electrónico desde la pantalla de creación de mensajes. [Obtenga más información sobre la creación](create-message.md) de mensajes.
+Todas estas funciones están disponibles al acceder al Diseñador de correo electrónico desde la pantalla de creación de mensajes. [Más información sobre la creación de mensajes](create-message.md).
 
 ![](assets/content-editors.png)
 

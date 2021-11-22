@@ -1,24 +1,25 @@
 ---
 title: Biblioteca de funciones de matrices
 description: Biblioteca de funciones de matrices
-feature: Personalización
-topic: Personalización
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '495'
 ht-degree: 5%
 
 ---
 
-# Matrices y funciones de lista {#arrays}
+# Funciones de matrices y listas {#arrays}
 
 Utilice estas funciones para facilitar la interacción con matrices, listas y cadenas.
 
 ## Distinct{#distinct}
 
-La función `distinct` se utiliza para obtener valores de una matriz o lista con valores duplicados eliminados.
+La variable `distinct` se utiliza para obtener valores de una matriz o lista con valores duplicados eliminados.
 
 **Formato**
 
@@ -36,7 +37,7 @@ La siguiente operación especifica las personas que han realizado pedidos en má
 
 ## Primer elemento{#head}
 
-La función `head` se utiliza para devolver el primer elemento de la matriz o lista.
+La variable `head` se utiliza para devolver el primer elemento de la matriz o lista.
 
 **Formato**
 
@@ -46,15 +47,15 @@ La función `head` se utiliza para devolver el primer elemento de la matriz o li
 
 **Ejemplo**
 
-La siguiente operación devuelve el primero de los cinco pedidos principales con el precio más alto. Puede encontrar más información sobre la función `topN` en la sección [first `n` en array](#first-n).
+La siguiente operación devuelve el primero de los cinco pedidos principales con el precio más alto. Más información sobre `topN` se puede encontrar en la variable [first `n` en matriz](#first-n) para obtener más información.
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## Primera `n` en la matriz {#first-n}
+## First `n` en matriz {#first-n}
 
-La función `topN` se utiliza para devolver los primeros `N` elementos de una matriz, cuando se ordenan en orden ascendente según la expresión numérica dada.
+La variable `topN` se utiliza para devolver la primera función `N` elementos de una matriz, cuando se ordenan en orden ascendente según la expresión numérica dada.
 
 **Formato**
 
@@ -78,7 +79,7 @@ La siguiente operación devuelve los cinco pedidos principales con el precio má
 
 ## En{#in}
 
-La función `in` se utiliza para determinar si un elemento es miembro de una matriz o lista.
+La variable `in` para determinar si un elemento es miembro de una matriz o lista.
 
 **Formato**
 
@@ -96,7 +97,7 @@ La siguiente operación define las personas con cumpleaños en marzo, junio o se
 
 ## Incluye{#includes}
 
-La función `includes` se utiliza para determinar si una matriz o lista contiene un elemento determinado.
+La variable `includes` para determinar si una matriz o lista contiene un elemento determinado.
 
 **Formato**
 
@@ -114,7 +115,7 @@ La siguiente operación define a las personas cuyo color favorito incluye el roj
 
 ## Intersecciones{#intersects}
 
-La función `intersects` se utiliza para determinar si dos matrices o listas tienen al menos un miembro común.
+La variable `intersects` se utiliza para determinar si dos matrices o listas tienen al menos un miembro común.
 
 **Formato**
 
@@ -150,9 +151,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## Última `n` en la matriz{#last-n}
+## Última `n` en matriz{#last-n}
 
-La función `bottomN` se utiliza para devolver los últimos `N` elementos de una matriz, cuando se ordenan en orden ascendente según la expresión numérica dada.
+La variable `bottomN` se utiliza para devolver el último `N` elementos de una matriz, cuando se ordenan en orden ascendente según la expresión numérica dada.
 
 **Formato**
 
@@ -177,11 +178,11 @@ La siguiente operación devuelve los cinco pedidos principales con el precio má
 
 ## Not in{#notin}
 
-La función `notIn` se utiliza para determinar si un elemento no es miembro de una matriz o lista.
+La variable `notIn` para determinar si un elemento no es miembro de una matriz o lista.
 
 >[!NOTE]
 >
->La función `notIn` *también* garantiza que ninguno de los valores sea igual a nulo. Por lo tanto, los resultados no son una negación exacta de la función `in`.
+>La variable `notIn` function *also* garantiza que ninguno de los dos valores sea igual a nulo. Por lo tanto, los resultados no son una negación exacta del `in` función.
 
 **Formato**
 
@@ -200,7 +201,7 @@ La siguiente operación define las personas con cumpleaños que no están en mar
 
 ## Subconjunto de{#subset}
 
-La función `subsetOf` se utiliza para determinar si una matriz específica (matriz A) es un subconjunto de otra matriz (matriz B). En otras palabras, que todos los elementos de la matriz A son elementos de la matriz B.
+La variable `subsetOf` para determinar si una matriz específica (matriz A) es un subconjunto de otra matriz (matriz B). En otras palabras, que todos los elementos de la matriz A son elementos de la matriz B.
 
 **Formato**
 
@@ -218,7 +219,7 @@ La siguiente operación define a las personas que han visitado todas sus ciudade
 
 ## Superconjunto de{#superset}
 
-La función `supersetOf` se utiliza para determinar si una matriz específica (matriz A) es un superconjunto de otra matriz (matriz B). En otras palabras, la matriz A contiene todos los elementos de la matriz B.
+La variable `supersetOf` para determinar si una matriz específica (matriz A) es un superconjunto de otra matriz (matriz B). En otras palabras, la matriz A contiene todos los elementos de la matriz B.
 
 **Formato**
 
@@ -233,10 +234,3 @@ La siguiente operación define a las personas que han comido sushi y pizza al me
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}
 ```
-
-
-
-
-
-
-
