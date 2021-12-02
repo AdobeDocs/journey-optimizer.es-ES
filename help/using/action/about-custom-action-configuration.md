@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 2c27942ece935c715ed2dea4d998705224a75089
+source-git-commit: 9e6e4f30e2f0301157901ea211f984ebcfb99bc4
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 6%
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 # Configuración de una acción {#configure-an-action}
 
-Si utiliza un sistema de terceros para enviar mensajes o si desea que los recorridos envíen llamadas de API a un sistema de terceros, aquí es donde puede configurar su conexión a recorrido. La acción personalizada definida por los usuarios técnicos estará disponible en la paleta izquierda del recorrido, en la **[!UICONTROL Action]** categoría (consulte [esta página](../building-journeys/about-journey-activities.md#action-activities). A continuación se muestran algunos ejemplos de sistemas a los que puede conectarse con acciones personalizadas: Epsilon, Facebook, Adobe.io, Firebase, etc.
+Si utiliza un sistema de terceros para enviar mensajes o si desea que los recorridos envíen llamadas de API a un sistema de terceros, aquí es donde puede configurar su conexión a recorrido. La acción personalizada definida por los usuarios técnicos estará disponible en la paleta izquierda del recorrido, en la **[!UICONTROL Action]** categoría (consulte [esta página](../building-journeys/about-journey-activities.md#action-activities). A continuación se muestran algunos ejemplos de sistemas a los que puede conectarse con acciones personalizadas: Epsilon, Slack, Adobe.io, Firebase, etc.
 
 Las limitaciones se enumeran en [esta página](../limitations.md).
 

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 18383a5a27aaf54cc859bdb66386648fe5fe2c41
+source-git-commit: 203f8545200d4a6c20a748807e20ba7aba1ab5f3
 workflow-type: tm+mt
-source-wordcount: '1682'
+source-wordcount: '1684'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
    Durante este paso, se realizarán varias comprobaciones para verificar que se ha configurado correctamente. El tiempo de procesamiento ronda **48 h-72 h** y puede tardar hasta **7 a 10 días hábiles**.
 
-   Estas comprobaciones incluyen pruebas de capacidad de envío que realiza el equipo de entrega de Adobes:
+   Estas comprobaciones incluyen las pruebas técnicas y de configuración que realiza el equipo de Adobe:
 
    * Validación de SPF
    * Validación de DKIM

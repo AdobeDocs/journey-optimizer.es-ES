@@ -1,19 +1,19 @@
 ---
-product: adobe campaign
-title: Generalidades
-description: Obtenga información sobre las generalidades de expresión avanzadas
+product: Journey Optimizer
+title: Sintaxis
+description: Obtenga información sobre el editor de expresiones avanzadas
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: eecf878334b22f82d75fdf7b7240475d695414d7
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '218'
 ht-degree: 5%
 
 ---
 
-# Generalidades {#concept_rcy_qj5_dgb}
+# Sintaxis del editor de expresiones avanzadas {#syntax}
 
 ## Paréntesis y prioridad de expresión{#section_edf_fks_bgb}
 
