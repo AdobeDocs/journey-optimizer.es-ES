@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: f0e34e040dd0e0ba2fa8293f4290ab55e1781426
+source-git-commit: 36c9b672e9e183cd0aac58582ddd54ccdebd84f7
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '437'
 ht-degree: 2%
 
 ---
@@ -67,20 +67,21 @@ La variable **[!UICONTROL Bounce Reasons]** y **[!UICONTROL Bounce categories]**
 
 * **[!UICONTROL Ignored]**: El número total de mensajes temporales, como fuera de la oficina o un error técnico, por ejemplo, si el tipo de remitente es administrador de correo.
 
+<!--
 ![](../assets/live_report_8.png)
 
 >[!NOTE]
 >
->Las métricas y las utilidades de Ofertas solo están disponibles si se ha insertado una decisión en un mensaje de correo electrónico. Para obtener más información sobre la gestión de decisiones, consulte esta [página](../offers/get-started/starting-offer-decisioning.md).
+>The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
 
-La variable **[!UICONTROL Offers statistic]** y **[!UICONTROL Offers statistics]** a lo largo del tiempo, los widgets miden el éxito y el impacto de su oferta en la audiencia de destino. Detalla la información principal relativa al mensaje con KPI:
+The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
 
-* **[!UICONTROL Offer sent]**: Número total de envíos para la oferta.
+* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
 
-* **[!UICONTROL Offer impression]**: Número de veces que la oferta se abrió en una entrega.
+* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
 
-* **[!UICONTROL Offer clicks]**: Número de veces que se hizo clic en una oferta en una entrega.
-
+* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
+-->
 >[!NOTE]
 >
 >Los perfiles con **[!UICONTROL Suppressed]** o **[!UICONTROL Not allowed]** se excluyen durante el proceso de envío de mensajes. Por lo tanto, mientras que la variable **Informes de recorrido** mostrará estos perfiles como si se hubieran movido a través del recorrido ([Leer segmento](../building-journeys/read-segment.md) y [Mensaje](../building-journeys/journeys-message.md) actividades), **Informes de correo electrónico** no los incluirá en la variable **[!UICONTROL Sent]** las métricas tal y como están filtradas antes del envío por correo electrónico.
