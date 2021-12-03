@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c6db89093e1ec5b7d9fe084cec58b8b7664c6ab2
+source-git-commit: 2879f460d4be4b570e47227b32fa3f979984cbbf
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '803'
 ht-degree: 5%
 
 ---
@@ -49,6 +49,8 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 1. Elija el tipo de vínculo que desea crear:
 
    * **[!UICONTROL External link]**: Inserte un vínculo a una URL externa.
+
+   * **[!UICONTROL Landing page]**: Inserte un vínculo a una página de aterrizaje. Obtenga más información en [esta sección](landing-pages/get-started-lp.md)
 
    * **[!UICONTROL Unsubscription link]**: Inserte un vínculo para cancelar la suscripción a la recepción de comunicaciones de su marca. Obtenga más información sobre la administración de exclusiones en [esta sección](consent.md#opt-out-management).
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 9facba9d5dd804e51aad969ef83a964f64e63033
+source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 78%
+source-wordcount: '814'
+ht-degree: 77%
 
 ---
 
@@ -44,7 +44,9 @@ Por lo tanto, siempre debe incluir un **enlace para cancelar la suscripción** e
 Para añadir un vínculo para cancelar la suscripción, siga los pasos a continuación:
 
 1. Cree la página de aterrizaje de baja.
-1. Aloje la página de aterrizaje en el sistema de terceros que prefiera.
+
+1. Alojarlo en el sistema de terceros que elija.
+
 1. [Cree un mensaje](../../help/using/create-message.md) en [!DNL Journey Optimizer].
 
    <!--The link to your landing page should contain a static URL and the profile ID.-->
