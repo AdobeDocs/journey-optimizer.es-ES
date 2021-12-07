@@ -7,16 +7,17 @@ role: User
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 4d564ff89a8cb6c6d76161f2e6cedf39d33e70a0
+exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
+source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
 
 # Diseño del contenido de la página de aterrizaje {#design-lp-content}
 
-Para empezar a crear contenido desde el aterrizaje [página principal](create-lp.md#configure-primary-page) o [subpágina](create-lp.md#configure-subpages), pase el ratón sobre el contenido de la página principal y haga clic en **[!UICONTROL Open Designer]** o haga clic en el botón correspondiente de la paleta derecha.
+Para empezar a crear contenido para el aterrizaje [página principal](create-lp.md#configure-primary-page) o [subpágina](create-lp.md#configure-subpages), pase el ratón sobre el contenido de la página principal y haga clic en **[!UICONTROL Open Designer]**. También puede hacer clic en el botón correspondiente desde la paleta derecha.
 
 ![](../assets/lp_open-designer.png)
 
@@ -30,9 +31,11 @@ Desde allí puede:
 
 >[!NOTE]
 >
->El diseñador de contenido de páginas de aterrizaje es similar al diseñador de correo electrónico. Obtenga más información sobre el diseño de contenido con [!DNL Journey Optimizer] [here](../design-emails.md).
+>El diseñador de contenido de páginas de aterrizaje es similar al diseñador de correo electrónico. Más información sobre [diseño de contenido con [!DNL Journey Optimizer]](../design-emails.md).
 
-Para definir contenido específico de una página de aterrizaje, siga los pasos a continuación.
+## Definición del contenido específico de una página de aterrizaje {#define-lp-specific-content}
+
+Para definir contenido específico que permita a los usuarios seleccionar y enviar sus opciones desde la página de aterrizaje, siga los pasos a continuación.
 
 1. Arrastre y suelte el elemento específico de la página de aterrizaje **[!UICONTROL Form]** de la paleta izquierda al espacio de trabajo principal.
 
@@ -46,6 +49,10 @@ Para definir contenido específico de una página de aterrizaje, siga los pasos 
 
    ![](../assets/lp_designer-form-content-options.png)
 
+   >[!NOTE]
+   >
+   >Cambie a la **[!UICONTROL Form style]** para editar los estilos del contenido del componente del formulario en cualquier momento. [Más información](#define-lp-styles)
+
 1. En el **[!UICONTROL Checkbox 1]** , puede editar la etiqueta correspondiente a esta casilla de verificación.
 
 1. Defina si esta casilla de verificación debe incluir o excluir usuarios: ¿aceptan recibir comunicaciones o piden que no se les contacte más?
@@ -56,19 +63,19 @@ Para definir contenido específico de una página de aterrizaje, siga los pasos 
 
    ![](../assets/lp_designer-form-update-options.png)
 
-   * **[!UICONTROL Subscription list]**: Debe seleccionar la lista de suscripción que se actualizará si el perfil selecciona esta casilla de verificación. Obtenga más información sobre las listas de suscripción en [esta sección](subscription-list.md).
+   * **[!UICONTROL Subscription list]**: Debe seleccionar la lista de suscripción que se actualizará si el perfil selecciona esta casilla de verificación. Más información sobre [listas de suscripción](subscription-list.md).
 
       ![](../assets/lp_designer-form-subs-list.png)
 
    * **[!UICONTROL Channel (email)]**: La inclusión o exclusión se aplica a todo el canal. Por ejemplo, si un perfil que decide excluirse tiene dos direcciones de correo electrónico, ambas se excluirán de todas las comunicaciones.
 
-   * **[!UICONTROL Email entity]**: La opción de inclusión o exclusión solo se aplica a la dirección de correo electrónico que se utilizó para acceder a la página de aterrizaje. Por ejemplo, si un perfil tiene dos direcciones de correo electrónico, solo el que se utilizó para la inclusión recibirá comunicaciones de su marca.
+   * **[!UICONTROL Email identity]**: La opción de inclusión o exclusión solo se aplica a la dirección de correo electrónico que se utilizó para acceder a la página de aterrizaje. Por ejemplo, si un perfil tiene dos direcciones de correo electrónico, solo el que se utilizó para la inclusión recibirá comunicaciones de su marca.
 
 1. Haga clic en **[!UICONTROL Add field]** > **[!UICONTROL Checkbox]** para agregar otra casilla de verificación. Repita los pasos anteriores para definir sus propiedades.
 
    ![](../assets/lp_designer-form-checkbox-2.png)
 
-1. Haga clic en **[!UICONTROL Call to action]** para expandir la sección correspondiente. Permite definir el comportamiento del botón en la variable **[!UICONTROL Form]** componente.
+1. Una vez agregadas todas las casillas de verificación deseadas, haga clic en **[!UICONTROL Call to action]** para expandir la sección correspondiente. Permite definir el comportamiento del botón en la variable **[!UICONTROL Form]** componente.
 
    ![](../assets/lp_designer-form-call-to-action.png)
 
@@ -83,11 +90,11 @@ Para definir contenido específico de una página de aterrizaje, siga los pasos 
 1. Defina lo que sucederá al hacer clic en el botón en caso de que se produzca un error:
 
    * **[!UICONTROL Redirect URL]**: Introduzca la dirección URL de la página a la que se redirigirá a los usuarios.
-   * **[!UICONTROL Error text]**: Escriba el texto del error que se mostrará. Puede obtener una vista previa del texto del error seleccionando la casilla correspondiente.
-
-      ![](../assets/lp_designer-form-error-preview.png)
+   * **[!UICONTROL Error text]**: Escriba el texto del error que se mostrará. Puede obtener una vista previa del texto del error al definir la variable [estilos de formulario](#define-lp-styles).
 
    * **[!UICONTROL Link to a subpage]**: Configure un [subpágina](create-lp.md#configure-subpages) y selecciónela en la lista desplegable que se muestra.
+
+   ![](../assets/lp_designer-form-error.png)
 
 1. Si desea realizar más actualizaciones al enviar el formulario, seleccione **[!UICONTROL Opt in]** o **[!UICONTROL Opt out]** y defina si desea actualizar una lista de suscripción, el canal o solo la dirección de correo electrónico utilizada.
 
@@ -99,4 +106,29 @@ Para definir contenido específico de una página de aterrizaje, siga los pasos 
 
 <!--Will the name Email Designer be kept if you can also design LP with the same tool? > To modify in Messages section > content designer or Designer-->
 
+## Definir estilos de formulario de una página de aterrizaje {#define-lp-styles}
+
+1. Para modificar los estilos del contenido del componente del formulario, cambie en cualquier momento a la función **[!UICONTROL Form style]** pestaña .
+
+   ![](../assets/lp_designer-form-style.png)
+
+1. Expanda el **[!UICONTROL Checkboxes]** para definir el aspecto de las casillas de verificación y el texto correspondiente. Por ejemplo, puede ajustar la familia o el tamaño de la fuente y el color del borde de la casilla de verificación.
+
+   ![](../assets/lp_designer-form-style-checkboxes.png)
+
+1. Expanda el **[!UICONTROL Buttons]** para modificar el aspecto del botón en el formulario de componentes. Por ejemplo, puede añadir un borde, editar el color de la etiqueta al pasar el ratón por encima o ajustar la alineación del botón.
+
+   ![](../assets/lp_designer-form-style-buttons.png)
+
+   Puede obtener una vista previa de algunos ajustes, como el color de la etiqueta del botón al pasar el ratón por encima del ratón **[!UICONTROL Preview]** botón. Obtenga más información sobre la prueba de páginas de aterrizaje [here](create-lp.md#test).
+
+   ![](../assets/lp_designer-form-style-buttons-preview.png)
+
+1. Expanda el **[!UICONTROL Form layout]** para editar los ajustes del diseño, como el color de fondo, el relleno o el margen.
+
+   ![](../assets/lp_designer-form-style-layout.png)
+
+1. Expanda el **[!UICONTROL Form error]** para ajustar la visualización del mensaje de error que se muestra en caso de que se produzca un problema. Marque la opción correspondiente para obtener una vista previa del texto del error en el formulario.
+
+   ![](../assets/lp_designer-form-error-preview.png)
 
