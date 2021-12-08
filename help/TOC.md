@@ -190,10 +190,9 @@ ht-degree: 87%
       + [Envío de un mensaje mediante Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
       + [Transmitir colecciones de forma dinámica mediante acciones personalizadas](using/building-journeys/collections.md)
       + [Enviar un mensaje a los suscriptores](using/building-journeys/message-to-subscribers-uc.md)
-
       <!--
-    + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-    -->
+      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+      -->
 + Seguimiento y monitorización {#reporting}
    + [Monitorización de mensajes](using/message-monitoring.md)
    + Informe en vivo {#live-report}
