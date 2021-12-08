@@ -7,16 +7,17 @@ role: User
 level: Intermediate
 hidefromtoc: true
 hide: true
-source-git-commit: 459bf9451ca86350713cf7f6d6977284b6d2eaf2
+exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
+source-git-commit: 8ec1420c29b2dd796441e2c08512b6378adb3fb1
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Informe de página de aterrizaje {#lp-report}
 
-El informe de suscripción muestra detalles sobre el impacto de las páginas de aterrizaje. Hay dos tipos de informes disponibles:
+El informe de página de aterrizaje muestra detalles sobre el impacto de las páginas de aterrizaje. Hay dos tipos de informes disponibles:
 
 * La variable **[!UICONTROL Live report]** para medir y visualizar el éxito de las páginas de aterrizaje solo en las últimas 24 horas.
 
