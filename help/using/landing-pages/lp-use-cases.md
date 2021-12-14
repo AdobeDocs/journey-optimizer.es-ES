@@ -8,9 +8,9 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 1db755ef3037ca743d86e229ab308e051bae8994
+source-git-commit: 847873b39476e3bd932f420a70c9dcac46de84f5
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '843'
 ht-degree: 15%
 
 ---
@@ -123,7 +123,7 @@ Para permitir que los destinatarios de un correo electrónico cancelen la suscri
 
    >[!NOTE]
    >
-   >Asegúrese de hacer referencia a la subpágina en la **[!UICONTROL Form]** del componente **[!UICONTROL Call to action]** de la página principal. [Más información](design-lp.md)
+   >Asegúrese de hacer referencia a la subpágina en el informe **[!UICONTROL Call to action]** de la sección **[!UICONTROL Form]** componente. [Más información](design-lp.md)
 
 1. Una vez configurado y definido el contenido de sus páginas, [publicar](create-lp.md#publish) la página de aterrizaje.
 
@@ -147,7 +147,7 @@ Para permitir que los destinatarios de un correo electrónico cancelen la suscri
 
    ![](../assets/lp_opt-out-submit-form.png)
 
-1. En la página de aterrizaje, si el destinatario marca la casilla y envía el formulario:
+   Si el destinatario marca la casilla y envía el formulario:
 
    * El destinatario excluido se redirige a la pantalla del mensaje de confirmación.
 
