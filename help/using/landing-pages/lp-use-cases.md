@@ -8,10 +8,10 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: 1db755ef3037ca743d86e229ab308e051bae8994
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 19%
+source-wordcount: '847'
+ht-degree: 15%
 
 ---
 
@@ -105,39 +105,53 @@ Por lo tanto, siempre debe incluir un **enlace para cancelar la suscripción** e
 
 ### Configuración de la exclusión {#configure-opt-out}
 
-Para permitir que los destinatarios de un mensaje cancelen la suscripción de sus comunicaciones a través de una página de aterrizaje, siga los pasos a continuación.
+Para permitir que los destinatarios de un correo electrónico cancelen la suscripción de sus comunicaciones a través de una página de aterrizaje, siga los pasos a continuación.
 
-1. Cree su [página de aterrizaje](create-lp.md). Uso del específico de la página de aterrizaje **[!UICONTROL Form]** , defina un **[!UICONTROL Opt-out]** y elija actualizar **[!UICONTROL Channel (email)]**: el perfil que marca la casilla de exclusión de la página de aterrizaje se excluirá de todas las comunicaciones. [Más información](design-lp.md)
+1. Cree la página de aterrizaje. [Más información](create-lp.md)
+
+1. Defina la página principal. [Más información](create-lp.md#configure-primary-page)
+
+1. [Diseño](design-lp.md) el contenido de la página principal: usar el específico de la página de aterrizaje **[!UICONTROL Form]** , defina un **[!UICONTROL Opt-out]** y elija actualizar **[!UICONTROL Channel (email)]**: el perfil que marca la casilla de exclusión de la página de aterrizaje se excluirá de todas las comunicaciones.
+
+   ![](../assets/lp_opt-out-primary-lp.png)
 
    <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
 
-1. [Cree un mensaje](../create-message.md) en [!DNL Journey Optimizer].
+1. Añadir una confirmación [subpágina](create-lp.md#configure-subpages) que se mostrará a los usuarios que envíen el formulario.
+
+   ![](../assets/lp_opt-out-subpage.png)
+
+   >[!NOTE]
+   >
+   >Asegúrese de hacer referencia a la subpágina en la **[!UICONTROL Form]** del componente **[!UICONTROL Call to action]** de la página principal. [Más información](design-lp.md)
+
+1. Una vez configurado y definido el contenido de sus páginas, [publicar](create-lp.md#publish) la página de aterrizaje.
+
+   ![](../assets/lp_opt-out-publish.png)
+
+1. [Creación de un mensaje de correo electrónico](../create-message.md) en [!DNL Journey Optimizer].
 
 1. Seleccione texto en el contenido y [insertar un vínculo](../message-tracking.md#insert-links) con la barra de herramientas contextual. También puede utilizar un vínculo en un botón.
 
    ![](../assets/lp_opt-out-insert-link.png)
 
-1. Seleccione **[!UICONTROL Landing page]** en la lista desplegable **[!UICONTROL Link type]**.
-
-1. Seleccione el [página de aterrizaje](create-lp.md#configure-primary-page) que ha creado para la exclusión.
+1. Select **[!UICONTROL Landing page]** de la variable **[!UICONTROL Link type]** y seleccione la [página de aterrizaje](create-lp.md#configure-primary-page) que ha creado para la exclusión.
 
    ![](../assets/lp_opt-out-landing-page.png)
 
-1. Haga clic en **[!UICONTROL Save]**.
-
 1. Guarde el contenido y [publique el mensaje](../publish-manage-message.md).
 
-1. Envíe su mensaje a través de un [recorrido](../building-journeys/journey.md).
+1. Envíe su mensaje a través de un recorrido. [Más información](../building-journeys/journey.md).
 
-1. Una vez recibido el mensaje, si el destinatario hace clic en el vínculo para cancelar la suscripción, se muestra la página de aterrizaje.
+1. Una vez recibido el mensaje, si un destinatario hace clic en el vínculo unsubscribe del correo electrónico, se muestra la página de aterrizaje.
 
-   <!--![](../assets/lp_opt-out-lp-example.png)-->
+   ![](../assets/lp_opt-out-submit-form.png)
 
-1. Si el destinatario hace clic en el vínculo de exclusión de la página de aterrizaje, los datos del perfil se actualizan y no reciben comunicaciones de la marca a menos que se vuelvan a suscribir.
+1. En la página de aterrizaje, si el destinatario marca la casilla y envía el formulario:
 
-   <!--The opted-out recipient is then redirected to a confirmation message screen indicating that opting out was successful.-->
+   * El destinatario excluido se redirige a la pantalla del mensaje de confirmación.
 
-   <!--![](../assets/lp_opt-out-confirmation-example.png)-->
+   * Los datos de perfil se actualizan y no reciben comunicaciones de su marca a menos que se vuelvan a suscribir.
 
 Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y acceda al perfil seleccionando un área de nombres de identidad y un valor de identidad correspondiente. Obtenga más información en la [documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
