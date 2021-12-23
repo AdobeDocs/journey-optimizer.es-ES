@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para ofrecer experiencias cone
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 0c0110b24ccc9a5311d35d786f526319056c1c1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '890'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -188,11 +188,12 @@ ht-degree: 87%
    + Casos de uso {#journey-use-cases}
       + [Envío de mensajes multicanal](using/building-journeys/journeys-uc.md)
       + [Envío de un mensaje mediante Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
-      + [Transmitir colecciones de forma dinámica mediante acciones personalizadas](using/building-journeys/collections.md)
-      + [Enviar un mensaje a los suscriptores](using/building-journeys/message-to-subscribers-uc.md)
+      + [Paso de colecciones de forma dinámica mediante acciones personalizadas](using/building-journeys/collections.md)
+      + [Envío de un mensaje a los suscriptores](using/building-journeys/message-to-subscribers-uc.md)
+
       <!--
-      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-      -->
+    + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+    -->
 + Seguimiento y monitorización {#reporting}
    + [Monitorización de mensajes](using/message-monitoring.md)
    + Informe en vivo {#live-report}
@@ -220,14 +221,14 @@ ht-degree: 87%
       + [Introducción a la capacidad de entrega](using/deliverability.md)
       + [Lista de supresión](using/suppression-list.md)
       + [Lista de permitidos](using/allow-list.md)
-+ Páginas de aterrizaje {#landing-pages}
-   + [Introducción a las páginas de aterrizaje](using/landing-pages/get-started-lp.md)
-   + [Creación de una página de aterrizaje](using/landing-pages/create-lp.md)
-   + [Diseño de una página de aterrizaje](using/landing-pages/design-lp.md)
-   + [Crear una lista de suscripción](using/landing-pages/subscription-list.md)
++ Páginas de destino {#landing-pages}
+   + [Introducción a las páginas de destino](using/landing-pages/get-started-lp.md)
+   + [Creación de una página de destino](using/landing-pages/create-lp.md)
+   + [Diseño de una página de destino](using/landing-pages/design-lp.md)
+   + [Creación de una lista de suscripción](using/landing-pages/subscription-list.md)
    + [Casos de uso](using/landing-pages/lp-use-cases.md)
    + Informes {#lp-reporting}
-      + [Informes de página de aterrizaje](using/landing-pages/lp-report.md)
+      + [Informes de página de destino](using/landing-pages/lp-report.md)
       + [Informes de la lista de suscripciones](using/landing-pages/subscription-report.md)
 + Administración de decisiones {#offer-decisioniong}
    + Introducción a la Administración de decisiones {#get-started}
@@ -249,7 +250,7 @@ ht-degree: 87%
       + [Crear decisiones](using/offers/offer-activities/create-offer-activities.md)
       + [Configurar selección de ofertas en decisiones](using/offers/offer-activities/configure-offer-selection.md)
       + [Creación de simulaciones](using/offers/offer-activities/simulation.md)
-   + Creación de informes de gestión de decisiones {#create-reports}
+   + Creación de informes de Administración de decisiones {#create-reports}
       + [Introducción a los eventos de Administración de decisiones](using/offers/reports/get-started-events.md)
       + [Información clave sobre eventos de Administración de decisiones](using/offers/reports/key-information.md)
       + [Campos XDM de eventos de acceso](using/offers/reports/xdm-fields.md)
@@ -330,7 +331,7 @@ ht-degree: 87%
             + [Administrar lista de supresión](using/configuration/manage-suppression-list.md)
             + [Reintentos](using/configuration/retries.md)
          + [Cambiar la dirección principal del correo electrónico](using/configuration/primary-email-addresses.md)
-      + [Configuración de canal de SMS](using/configuration/sms-configuration.md)
+      + [Configuración del canal de SMS](using/configuration/sms-configuration.md)
       + [Crear ajustes preestablecidos de mensaje](using/configuration/message-presets.md)
    + Configurar recorridos {#configure-journeys}
       + [Acerca de las fuentes de datos, los eventos y las acciones](using/configuration/about-data-sources-events-actions.md)
