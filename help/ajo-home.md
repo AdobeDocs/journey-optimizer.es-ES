@@ -8,13 +8,13 @@ role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 1a55138dde7481a54141b3d3dd446e410c40c44c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '202'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
-# Adobe [!DNL Journey Optimizer] Documentación {#cjm-documentation}
+# Documentación de Adobe [!DNL Journey Optimizer] {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
 
@@ -45,35 +45,35 @@ ht-degree: 40%
     <p>
     <p>
     <div>
-      <a href="using/design-emails.md">Diseño de contenido de correo electrónico</a>
+      <a href="using/design-emails.md">Diseñe el contenido de un correo electrónico</a>
     </div>
     <p>
-    Diseñar un correo electrónico nuevo o importar un contenido de HTML existente
+    Diseñe el contenido de un correo electrónico nuevo o importe contenido de una HTML existente
     <p>
     <div>
-      <a href="using/building-journeys/journeys-message.md">Entrega de mensajes</a>
+      <a href="using/building-journeys/journeys-message.md">Envío de mensajes</a>
     </div>
-    <p>Aprenda a añadir mensajes push y de correo electrónico en los recorridos del cliente
+    <p>Obtenga información sobre cómo añadir mensajes push y de correo electrónico en los recorridos del cliente
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">Creación de su primer recorrido</a>
     </div>
-    <p>Obtenga información sobre cómo crear y ejecutar un recorrido
+    <p>Aprenda a construir y ejecutar un recorrido
     <p>
     <div>
-    <a href="using/configuration/get-started-configuration.md">Configurar [!DNL Journey Optimizer]</a>
+    <a href="using/configuration/get-started-configuration.md">Configuración de [!DNL Journey Optimizer]</a>
     </div>
     <p>Conozca los pasos clave para configurar [!DNL Journey Optimizer]
     <p>
     <div>
     <a href="using/administration/permissions-overview.md">Concesión de acceso a [!DNL Journey Optimizer]</a>
     </div>
-    <p>Defina y administre los permisos asignados a [!DNL Journey Optimizer] usuarios
+    <p>Defina y administre los permisos asignados a usuarios de [!DNL Journey Optimizer]
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">Administración de decisiones</a>
     </div>
-    <p>Cree ofertas y ofrezca la mejor oferta y experiencia a sus clientes
+    <p>Cree ofertas; proporcione la mejor oferta y experiencia a sus clientes
     <p>
     <p>
     <div><strong>Recursos adicionales</strong>
@@ -82,7 +82,7 @@ ht-degree: 40%
     <p>
     <div>
     <li>
-      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descripción del producto de Adobe Journey Optimizer</a>
+      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=es" target="_blank">Descripción del producto de Adobe Journey Optimizer</a>
     </li>
     </div>
     <div>
@@ -107,7 +107,7 @@ ht-degree: 40%
     <p>
     <em></em>
     <p>
-    <p>ADMINISTRACIÓN DE recorridos</p>
+    <p>ADMINISTRACIÓN DE RECORRIDOS</p>
     <li>
       <a href="using/building-journeys/journey-gs.md">Recorridos</a>
     </li>
@@ -125,7 +125,7 @@ ht-degree: 40%
     <p>
     <p>ADMINISTRACIÓN DE CONTENIDO</p>
     <li>
-      <a href="using/assets-essentials.md">Assets</a>
+      <a href="using/assets-essentials.md">Recursos</a>
     </li>
     <p>
     <p>ADMINISTRACIÓN DE DATOS</p>
@@ -139,7 +139,7 @@ ht-degree: 40%
       <a href="using/get-started-queries.md">Consultas</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=es" target="_blank">Monitoreo</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=es" target="_blank">Monitorización</a>
     </li>
     <p>
     <p>CONEXIONES</p>
@@ -166,7 +166,7 @@ ht-degree: 40%
       <a href="using/configuration/get-started-configuration.md">Canales</a>
     </li>
      <li>
-      <a href="using/administration/sandboxes.md">Entornos aislados</a>
+      <a href="using/administration/sandboxes.md">Zonas protegidas</a>
     </li>
   </td>
 </tr>
