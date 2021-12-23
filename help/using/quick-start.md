@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 67ec0951a06bf8c7806f6c8b996cce26e3eddfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Con [!DNL Adobe Journey Optimizer], puede importar contenido existente y diseña
 
 En función de su organización, puede definir varios tipos de usuarios y concederles acceso a determinadas capacidades dependiendo de sus permisos.
 
-Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas específicas? ¿Administrador de la instancia de su empresa? Tome su propio camino para llegar a sus objetivos más rápido!
+Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas específicas? ¿Administrador de la instancia de su empresa? Elija su propio camino para llegar a sus objetivos más rápido.
 
 Para conocer y descubrir el poder de Adobe Journey Optimizer con instrucciones paso a paso, seleccione su perfil.
 
@@ -31,7 +31,7 @@ Para conocer y descubrir el poder de Adobe Journey Optimizer con instrucciones p
     </a>
     <div>
     <a href="path/administrator.md">Soy administrador</a>
-     <p>Preparar el entorno, conceder acceso, configurar configuración
+     <p>Preparar el entorno, conceder acceso, configurar ajustes
     <p>
     </div>
     <br>
@@ -49,7 +49,7 @@ Para conocer y descubrir el poder de Adobe Journey Optimizer con instrucciones p
   </td>
   <td valign="bottom">
       <a href="path/marketer.md">
-       <img alt="Especialista en marketing" src="../using/assets/do-not-localize/user-3.png" />
+       <img alt="Experto en marketing" src="../using/assets/do-not-localize/user-3.png" />
        </a>
     <div><a href="path/marketer.md">Soy experto en marketing</a>
      <p>Diseñar mensajes, añadir ofertas, recursos y crear recorridos de cliente
