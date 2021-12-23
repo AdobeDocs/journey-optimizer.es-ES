@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Las regulaciones como el RGPD establecen que debe cumplir con requisitos especí
 * El incumplimiento de estas regulaciones conlleva riesgos legales para su marca.
 * Le ayuda a evitar enviar comunicaciones no solicitadas a sus destinatarios, lo que podría hacer que marquen sus mensajes como correo no deseado y dañar su reputación.
 
-Obtenga más información sobre la administración de la privacidad y las normas aplicables en la [documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es-ES){target=&quot;_blank&quot;}.
+Obtenga más información sobre la administración de la privacidad y las regulaciones aplicables en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es){target=&quot;_blank&quot;}.
 
 <!--* Recipients should be able to opt-in/opt-out from receiving electronic communication through one or more channel
 * Recipients expect the brand to offer preference centre capability that controls how brand should engage with them (example: channel of communication, invasive and non-invasive tracking etc). This helps to fulfil regulatory obligations and also facilitates quality engagement with recipient. 
@@ -32,20 +32,20 @@ Obtenga más información sobre la administración de la privacidad y las normas
 
 ## Administración de exclusiones {#opt-out-management}
 
-Proporcionar a los destinatarios la capacidad de cancelar su suscripción a la recepción de comunicaciones de una marca es un requisito legal. Obtenga más información sobre la legislación aplicable en la [documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target=&quot;_blank&quot;}.
+Proporcionar a los destinatarios la capacidad de cancelar la suscripción a la recepción de comunicaciones de una marca es un requisito legal. Obtenga más información acerca de la legislación aplicable en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=es#regulations){target=&quot;_blank&quot;}.
 
 Por lo tanto, siempre debe incluir un **enlace para cancelar la suscripción** en cada correo electrónico enviado a los destinatarios:
 
 * Al hacer clic en este vínculo, los destinatarios se dirigen a una página de aterrizaje que incluye un botón para confirmar la exclusión.
 * Al hacer clic en el botón de exclusión, se realiza una llamada de Adobe I/O para actualizar los datos de perfil con esta información. [Obtenga más información relacionada](#consent-service-api).
 
-### Añadir un vínculo de cancelación de suscripción {#add-unsubscribe-link}
+### Adición de un vínculo de no participación {#add-unsubscribe-link}
 
 Para añadir un vínculo para cancelar la suscripción, siga los pasos a continuación:
 
 1. Cree la página de aterrizaje de baja.
 
-1. Alojarlo en el sistema de terceros que elija.
+1. Alójelo en el sistema de terceros que elija.
 
 1. [Cree un mensaje](../../help/using/create-message.md) en [!DNL Journey Optimizer].
 
@@ -59,7 +59,7 @@ Para añadir un vínculo para cancelar la suscripción, siga los pasos a continu
 
    ![](assets/opt-out-link-type.png)
 
-1. En el **[!UICONTROL Link]** pegue el vínculo en la página de aterrizaje.
+1. En el campo **[!UICONTROL Link]**, copie el vínculo a la página de aterrizaje.
 
    ![](assets/opt-out-link-url.png)
 
@@ -85,7 +85,7 @@ Para añadir un vínculo para cancelar la suscripción, siga los pasos a continu
 
    Como resultado, este usuario no recibirá comunicaciones de su marca a menos que se vuelva a suscribir.
 
-Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y acceda al perfil seleccionando un área de nombres de identidad y un valor de identidad correspondiente. Obtenga más información en la [documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y acceda al perfil seleccionando un área de nombres de identidad y un valor de identidad correspondiente. Obtenga más información en la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target=&quot;_blank&quot;}.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -99,7 +99,7 @@ Una vez que el destinatario ha optado por darse de baja haciendo clic en el vín
 
 Esta llamada del POST de Adobe I/O es la siguiente:
 
-Punto final: platform.adobe.io/journey/imp/consent/preferences
+Extremo: platform.adobe.io/journey/imp/consent/preferences
 <!--This is the new AEP specific AEP for consent instead of the AJO consent API that was previously used: cjm.adobe.io/imp/consent/preferences-->
 
 Parámetros de consulta:
@@ -139,13 +139,13 @@ Cuerpo de la solicitud:
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice.
 <!--and provide an answer back to the landing page.-->
 
-## Opción de exclusión de un clic {#one-click-opt-out}
+## Opción de exclusión en un clic {#one-click-opt-out}
 
-A medida que muchos clientes buscan un proceso más sencillo para darse de baja, también puede añadir un vínculo de exclusión de un solo clic en el contenido del correo electrónico. Este vínculo permite a los destinatarios cancelar rápidamente la suscripción a sus comunicaciones, sin ser redirigidos a una página de aterrizaje en la que tengan que confirmar la exclusión.
+Dado que muchos clientes buscan un proceso más sencillo para cancelar la suscripción, también puede añadir un vínculo de no participación en un solo clic al contenido del correo electrónico. Este vínculo permite a los destinatarios cancelar rápidamente la suscripción a sus comunicaciones, sin que se les redirija a una página de aterrizaje en la que tengan que confirmar la exclusión.
 
 Aprenda a añadir un vínculo de no participación al contenido del mensaje en [esta sección](message-tracking.md#one-click-opt-out-link).
 
-Una vez que el mensaje se envía a través de una [recorrido](building-journeys/journey.md), si un destinatario hace clic en el vínculo de exclusión, su perfil se excluye inmediatamente.
+Una vez que el mensaje se envía a través de un [recorrido](building-journeys/journey.md), si un destinatario hace clic en el vínculo de no participación, su perfil se excluye inmediatamente.
 
 ## Vínculo de cancelación de suscripción en el encabezado {#unsubscribe-email}
 
@@ -157,7 +157,7 @@ Por ejemplo, el vínculo de cancelación de suscripción se mostrará así en Gm
 
 Según el cliente de correo electrónico, hacer clic en el vínculo de cancelación de suscripción del encabezado tendrá uno de los siguientes impactos:
 
-* El perfil correspondiente se excluye inmediatamente y esta opción se actualiza en Experience Platform. Obtenga más información en la [documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+* El perfil correspondiente se excluye inmediatamente y esta opción se actualiza en Experience Platform. Obtenga más información en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target=&quot;_blank&quot;}.
 
 * Tiene el mismo efecto que hacer clic en el vínculo de cancelación de la suscripción del contenido del correo electrónico: se redirige al destinatario a una página de aterrizaje, que incluye un botón para confirmar la exclusión. Obtenga más información sobre la administración de exclusiones en [esta sección](#opt-out-management).
 
