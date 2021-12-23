@@ -5,9 +5,9 @@ topic: Privacy
 role: User
 level: Intermediate
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '772'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Los datos personales y confidenciales deben gestionarse cuidadosamente. Siga los
 
 * Use siempre la información personal de forma responsable y ética.
 
-* Absténgase de enviar mensajes no solicitados (“correo no deseado”). Adobe cree firmemente en los principios del marketing autorizado para fomentar el valor y la lealtad de los clientes y, por lo tanto, prohíbe estrictamente el uso de [!DNL Adobe Journey Optimizer] al enviar mensajes no solicitados.
+* Absténgase de enviar mensajes no solicitados (“correo no deseado”). Adobe cree firmemente en los principios del marketing autorizado para fomentar la lealtad y el valor de duración del cliente; por lo tanto, prohíbe estrictamente el uso de [!DNL Adobe Journey Optimizer] para enviar mensajes no solicitados.
 
 [!DNL Journey Optimizer] permite administrar los derechos asignados a los usuarios mediante diferentes perfiles de producto creados previamente o personalizados. Esto le permite administrar qué persona de su compañía puede acceder, modificar o exportar diferentes tipos de datos. Obtenga información sobre cómo administrar permisos de usuario en [esta página](administration/permissions.md).
 
@@ -54,7 +54,7 @@ Para gestionar correctamente la privacidad y administrar los datos personales, d
 
 [!DNL Journey Optimizer] hereda la mayoría de los cambios realizados en el conjunto de datos de Adobe Experience Platform.
 
-Por lo tanto, las solicitudes de privacidad (derecho de acceso y derecho al olvido) se administran mediante Experience Platform. Debe enviar las solicitudes mediante [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es-ES){target=&quot;_blank&quot;} y seleccione **Perfil** y **Lago de datos AEP** de la lista de productos cuando [crear su solicitud de privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target=&quot;_blank&quot;}. <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).-->
+Por lo tanto, las solicitudes de privacidad (derecho de acceso y derecho al olvido) se administran mediante Experience Platform. Debe enviar sus solicitudes utilizando [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es){target=&quot;_blank&quot;} y seleccionar **Perfil** y **Lago de datos de AEP** en la lista de productos al [crear su solicitud de privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es#request-builder){target=&quot;_blank&quot;}. <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).-->
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Por lo tanto, las solicitudes de privacidad (derecho de acceso y derecho al olvi
 
 ## Privacidad de Adobe Experience Cloud {#experience-cloud-privacy}
 
-[!DNL Journey Optimizer] forma parte de las soluciones de Adobe Experience Cloud. La forma en que se gestiona la privacidad obedece a los principios generales de Adobe Experience Cloud. Obtenga más información sobre la privacidad de Adobe Experience Cloud en [esta página](https://www.adobe.com/es/privacy/marketing-cloud.html).
+[!DNL Journey Optimizer] forma parte de las soluciones de Adobe Experience Cloud. La forma en que se gestiona la privacidad obedece a los principios generales de Adobe Experience Cloud. Obtenga más información acerca de la privacidad de Adobe Experience Cloud en [esta página](https://www.adobe.com/es/privacy/marketing-cloud.html).
 
 Como compañía que utiliza las soluciones de Adobe Experience Cloud, puede elegir qué información desea recopilar y enviar a su cuenta de Adobe Experience Cloud. Algunos ejemplos de los tipos de información que se pueden recopilar son la actividad de navegación web, las direcciones IP, la información de ubicación de dispositivos móviles, las tasas de éxito de una campaña, los artículos comprados o colocados en el carro de compras, etc. Para obtener más información sobre esto, consulte la [Política de privacidad de Adobe](https://www.adobe.com/es/privacy/policy.html).
 
@@ -73,6 +73,6 @@ Adobe le pide que proporcione políticas de privacidad a sus clientes que descri
 
 >[!NOTE]
 >
->Como todos los productos de Adobe, [!DNL Adobe Journey Optimizer] los usuarios pueden optar por compartir información recopilada sobre ellos a través de aplicaciones y sitios web. Obtenga más información en las [Preguntas frecuentes sobre la información de uso de Adobe Experience Cloud](https://www.adobe.com/es/privacy/experience-cloud-usage-info-faq.html).
+>Al igual que con todos los productos de Adobe, los usuarios de [!DNL Adobe Journey Optimizer] pueden optar por compartir información recopilada acerca de ellos a través de aplicaciones y sitios web. Obtenga más información en las [Preguntas frecuentes sobre la información de uso de Adobe Experience Cloud](https://www.adobe.com/es/privacy/experience-cloud-usage-info-faq.html).
 
 <!--Because Journey Optimizer integrates with Adobe Experience Platform, where audiences are transferred from one system to another, you need to pay extra care to personal data protection.-->
