@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 4b7cfedbc5f2c724e28e5e6e0ab7e0d2f40dccac
+source-git-commit: 168579f8f560756282cb8ae8cb82a10e1227af02
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '366'
+ht-degree: 3%
 
 ---
 
@@ -19,11 +19,10 @@ ht-degree: 1%
 
 [!DNL Adobe Experience Manager Assets Essentials] proporciona un único repositorio centralizado de recursos que puede utilizar para rellenar los mensajes. Se puede acceder directamente desde [!DNL Adobe Journey Optimizer] a través de **[!UICONTROL Assets]** para obtener más información. También puede acceder a los recursos y las carpetas al diseñar un contenido de correo electrónico. [Más información sobre el diseño de correo electrónico](design-emails.md).
 
->[!NOTE]
->
-> Para trabajar con [!DNL Adobe Experience Manager Assets Essentials], deberá implementar [!DNL Assets Essentials] para su organización y asegúrese de que los usuarios que necesitan acceso a [!DNL Assets Essentials], forman parte del **Usuarios consumidores de Assets Essentials** o/y **Usuarios de Assets Essentials** Perfiles de producto. <br> Para obtener más información, consulte [página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
+Antes de usar [!DNL Adobe Experience Manager Assets Essentials], debe agregar usuarios al **Usuarios consumidores de Assets Essentials** o/y **Usuarios de Assets Essentials** Perfiles de producto. [Más información en la documentación de Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
-Para procedimientos más detallados sobre [!DNL Assets Essentials], consulte [Documentación de Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
+>[!NOTE]
+>Para los productos de Journey Optimizer obtenidos antes del 6 de enero de 2022, debe implementar [!DNL Adobe Experience Manager Assets Essentials] para su organización. Obtenga más información en la [Implementación de Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)sección {target=&quot;_blank&quot;}.
 
 ## Cargar e insertar recursos{#add-asset}
 
