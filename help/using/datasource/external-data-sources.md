@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: bcc77934464b6211cbb03e8830b456ecc157cb80
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 88%
@@ -185,4 +185,4 @@ Puede cambiar la duración de caché del token para una fuente de datos de auten
 
 >[!NOTE]
 >
->La duración de la caché ayuda a evitar demasiadas llamadas a los extremos de autenticación. La retención de tokens de autenticación se almacena en caché en los servicios, no hay persistencia. Si se reinicia un servicio, comienza con una caché limpia. La duración de la caché de forma predeterminada es de 1 hora. En la carga útil de acción personalizada, se puede adaptar especificando otra duración de retención.
+>La duración de la caché ayuda a evitar demasiadas llamadas a los extremos de autenticación. La retención de tokens de autenticación se almacena en caché en los servicios, no hay persistencia. Si se reinicia un servicio, comienza con una caché limpia. La duración de la caché de forma predeterminada es de 1 hora. En la carga de autenticación personalizada, se puede adaptar especificando otra duración de retención.
