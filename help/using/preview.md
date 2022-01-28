@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 9ef56c69e875c68bfbd9f08348bb45387f4bb32c
+source-git-commit: ac60e5a3bdf2369d7a5c83dbf9dcdb97580af9f4
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 3%
@@ -48,8 +48,6 @@ Además, aproveche el **Litmus** account en [!DNL Journey Optimizer] para previs
 >abstract="Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#email-rendering" text="Procesamiento de correo electrónico"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#preview-your-messages" text="Vista previa"
-
-
 
 Uso [Perfiles de prueba](building-journeys/creating-test-profiles.md) para dirigirse a destinatarios adicionales que no coincidan con los criterios de objetivo definidos.
 

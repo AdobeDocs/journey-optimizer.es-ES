@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 8cb36038b2aeddd1662dcb7c84b36d9bc1265982
+source-git-commit: 803fd15149391c069a50244bf29d7013bc6b00e2
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1343'
 ht-degree: 5%
 
 ---
@@ -45,7 +45,7 @@ A continuación se enumeran los pasos clave para configurar ofertas, incluirlas 
 
    * Crear una decisión
    * Seleccione las ubicaciones que ha creado
-   * For each placement, select the collection
+   * Para cada ubicación, seleccione la colección
    * Para cada ubicación, seleccione una clasificación (opcional)
    * Seleccione la reserva
 
@@ -61,7 +61,7 @@ El proceso general de gestión de decisiones para utilizar ofertas en un correo 
 
 ## Definir los componentes {#define-components}
 
-Before starting to create offers, you must define several components that you will use in your offers.
+Antes de comenzar a crear ofertas, debe definir varios componentes que utilizará en las ofertas.
 
 Los encontrará en la sección **[!UICONTROL Decision Management]** > **[!UICONTROL Components menu]**.
 
@@ -163,7 +163,7 @@ Los pasos detallados para crear y configurar ofertas se describen en [esta secci
 
    * Uno correspondiente a la variable *Web - Imagen* placement
    * Uno correspondiente a la variable *Correo electrónico: imagen* placement
-   * One corresponding to the *Non-digital - Text* placement
+   * Uno correspondiente a la variable *No digital: texto* placement
 
    ![](../assets/offers-e2e-fallback-representations.png)
 
@@ -171,7 +171,7 @@ Los pasos detallados para crear y configurar ofertas se describen en [esta secci
 
 ![](../assets/offers-e2e-fallback.png)
 
-Your fallback offer is now ready to be used in a decision.
+La oferta de reserva ya está lista para utilizarse en una decisión.
 
 Los pasos detallados para crear y configurar una oferta de reserva se describen en [esta sección](../../using/offers/offer-library/creating-fallback-offers.md).
 
@@ -181,15 +181,15 @@ Al configurar la decisión, debe añadir las ofertas personalizadas como parte d
 
 1. Para acelerar el proceso de decisión, cree una colección dinámica.
 
-1. Use the *Yoga* tag to select the four personalized offers you created earlier.
+1. Utilice la variable *Yoga* para seleccionar las cuatro ofertas personalizadas que ha creado anteriormente.
 
    ![](../assets/offers-e2e-collection-using-tag.png)
 
-The detailed steps to create a collection are described in [this section](../../using/offers/offer-library/creating-collections.md).
+Los pasos detallados para crear una colección se describen en [esta sección](../../using/offers/offer-library/creating-collections.md).
 
 ## Configurar la decisión {#configure-decision}
 
-Now you must create a decision that will combine placements with the personalized offers and the fallback offer you just created.
+Ahora debe crear una decisión que combine ubicaciones con las ofertas personalizadas y la oferta de reserva que acaba de crear.
 
 El motor de Offer decisioning utilizará esta combinación para encontrar la mejor oferta para un perfil específico: en este ejemplo, se basa en la regla de prioridad y decisión que asignó a cada oferta.
 
@@ -221,13 +221,13 @@ Su decisión ya está lista para utilizarse para ofrecer ofertas optimizadas y p
 
 Los pasos detallados para crear y configurar una decisión se describen en [esta sección](../../using/offers/offer-activities/create-offer-activities.md).
 
-## Insert the decision in an email {#insert-decision-in-email}
+## Inserte la decisión en un correo electrónico {#insert-decision-in-email}
 
 Ahora que su decisión está activa, puede insertarla en un mensaje de correo electrónico. Para ello, siga los pasos a continuación:
 
-1. Create your email, then open the [Email Designer](../../using/design-emails.md) to configure its content.
+1. Cree su correo electrónico y, a continuación, abra el [Diseñador de correo electrónico](../../using/design-emails.md) para configurar su contenido.
 
-1. Add a structure component from the left palette.
+1. Añada un componente de estructura de la paleta izquierda.
 
 1. Agregue un **[!UICONTROL Offer decision]** componente de contenido. Aprenda a utilizar los componentes de contenido en [esta sección](../../using/content-components.md).
 
@@ -258,6 +258,10 @@ Ahora puede ver todas las ofertas personalizadas y la oferta de reserva visualiz
 Utilice la variable **[!UICONTROL Offers]** o las flechas de los componentes de contenido (flechas derecha e izquierda) para examinar los datos. También puede mostrar las diferentes ofertas que forman parte de la decisión con un perfil de cliente. Obtenga más información en [esta sección](../../using/deliver-personalized-offers.md#preview-offers-in-email).
 
 Después de guardar los cambios y una vez publicado el mensaje, las ofertas están listas para mostrarse a los perfiles relevantes al enviar el mensaje como parte de un recorrido.
+
+>[!NOTE]
+>
+>Cuando actualiza una oferta, una oferta de reserva, una recopilación de ofertas o una decisión de oferta a la que se hace referencia directa o indirectamente en una [publicado](../../using/publish-manage-message.md) , las actualizaciones ahora se reflejan automáticamente en el mensaje correspondiente, sin necesidad de volver a publicarlo.
 
 **Temas relacionados:**
 

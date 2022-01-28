@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: ffd92f3e4ddaa3d31ea0f39e876958262a058a85
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 2%
@@ -195,7 +195,7 @@ El resultado es &quot;token_1&quot;.
 Esta expresión devuelve el último token de notificación push asociado a aplicaciones móviles para las que la versión es 1.0.
 
 ```json
-@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}
+@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last(currentEventField.application.version == "1.0").token}
 ```
 
 El resultado es &quot;token_2&quot;.

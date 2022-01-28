@@ -6,7 +6,7 @@ feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
+source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 15%
@@ -103,7 +103,7 @@ Si es necesario, también puede crear un nuevo perfil de producto con permisos e
 
 Para obtener más información sobre cómo crear y administrar entornos limitados, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es){target=&quot;_blank&quot;}.
 
-En este ejemplo, crearemos un perfil de producto denominado **Recorridos de solo lectura** donde se otorgarán derechos de solo lectura a la función de Recorrido. Los usuarios solo podrán acceder y ver recorridos y no podrán acceder a otras funciones como **[!UICONTROL Decision management]** o **[!UICONTROL Messages]** en [!DNL Journey Optimizer].
+En este ejemplo, crearemos un perfil de producto denominado **Recorridos de solo lectura** donde se otorgarán derechos de solo lectura a la función de Recorrido. Los usuarios solo podrán acceder y ver recorridos y no podrán acceder a otras funciones como **[!DNL  Decision management]** o **[!DNL Messages]** en [!DNL Journey Optimizer].
 
 Para crear **Recorridos de solo lectura** **[!UICONTROL product profiles]**:
 
@@ -125,7 +125,7 @@ Para crear **Recorridos de solo lectura** **[!UICONTROL product profiles]**:
 
 1. Para agregar permisos para que los usuarios tengan acceso a diferentes funciones, seleccione la opción **[!UICONTROL Permissions]** pestaña .
 
-1. Seleccione entre las distintas funciones, como **[!UICONTROL Messages]**, **[!UICONTROL Segments]** o **[!UICONTROL Decision management]** disponible en [!DNL Journey Optimizer] en el menú de la izquierda.
+1. Seleccione entre las distintas funciones, como **[!DNL Messages]**, **[!DNL Segments]** o **[!DNL Decision management]** disponible en [!DNL Journey Optimizer] en el menú de la izquierda.
 
    Aquí seleccionamos el **[!UICONTROL Journeys]** capacidad.
 
@@ -133,7 +133,7 @@ Para crear **Recorridos de solo lectura** **[!UICONTROL product profiles]**:
 
 1. En el **[!UICONTROL Available Permission Items]** seleccione los permisos que desea asignar a su **[!UICONTROL Product profile]** haciendo clic en el icono de signo más (+).
 
-   Aquí seleccionamos **[!UICONTROL View journeys]** y **[!UICONTROL View journeys event, data sources, actions]**.
+   Aquí seleccionamos **[!DNL View journeys]** y **[!DNL View journeys event, data sources, actions]**.
 
    ![](../assets/do-not-localize/access_control_12.png)
 

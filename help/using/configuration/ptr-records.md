@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 6c200f4a162ea1a3763b353b01ce5fef74ed8462
+source-git-commit: cbb9aa1df7efd60407f4538edf519d96780c4961
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -40,25 +40,52 @@ Puede abrir un registro PTR de la lista para mostrar el nombre de subdominio y l
 
 Puede modificar un registro PTR para editar el subdominio asociado con una dirección IP.
 
->[!CAUTION]
+>[!NOTE]
 >
->No se puede modificar un registro PTR asociado a un subdominio delegado a Adobe mediante la función [método CNAME](delegate-subdomain.md#cname-subdomain-delegation).
+>No se puede modificar la variable **[!UICONTROL IP]** y **[!UICONTROL PTR record]** campos.
+
+### Subdominios completamente delegados
+
+Para editar un registro PTR con un subdominio que sea [completamente delegado](delegate-subdomain.md#full-subdomain-delegation) para realizar el Adobe, siga los pasos a continuación.
 
 1. En la lista, haga clic en un nombre de registro PTR para abrirlo.
 
    ![](../assets/ptr-record-select.png)
 
-1. Edite el subdominio como desee.
+1. Seleccionar un subdominio [completamente delegado](delegate-subdomain.md#full-subdomain-delegation) a Adobe de la lista.
 
    ![](../assets/ptr-record-subdomain.png)
 
+1. Haga clic en **[!UICONTROL Save]** para confirmar los cambios.
+
+### Subdominios delegados mediante el método CNAME {#edit-ptr-subdomains-cname}
+
+Para editar un registro PTR con un subdominio delegado a Adobe mediante la variable [método CNAME](delegate-subdomain.md#cname-subdomain-delegation), siga los pasos a continuación.
+
+1. En la lista, haga clic en un nombre de registro PTR para abrirlo.
+
+   ![](../assets/ptr-record-select-cname.png)
+
+1. Seleccione un subdominio delegado a Adobe mediante la variable [método CNAME](delegate-subdomain.md#cname-subdomain-delegation) de la lista.
+
+   ![](../assets/ptr-record-subdomain-cname.png)
+
+1. Debe crear un nuevo registro DNS de reenvío en la plataforma de alojamiento. Para ello, copie el registro generado por el Adobe. Una vez finalizado, marque la casilla &quot;Confirmo...&quot;.
+
+   ![](../assets/ptr-record-subdomain-confirm.png)
+
    >[!NOTE]
    >
-   >No se puede modificar la variable **[!UICONTROL IP]** y **[!UICONTROL PTR record]** campos.
+   >Si recibe este mensaje: &quot;Primero cree el DNS de reenvío y vuelva a intentarlo&quot;, siga los pasos a continuación:
+   >   * Compruebe en el proveedor de DNS si el registro DNS de reenvío se creó correctamente.
+   >   * Es posible que los registros de todo el DNS no se sincronicen inmediatamente. Espere unos minutos e inténtelo de nuevo.
+
 
 1. Haga clic en **[!UICONTROL Save]** para confirmar los cambios.
 
-Un **[!UICONTROL Updating]** aparece junto al nombre del registro PTR en la lista.
+## Comprobar detalles de actualización de registros PTR
+
+A **[!UICONTROL Processing]** aparece junto al nombre del registro PTR en la lista.
 
 ![](../assets/ptr-record-updating.png)
 
@@ -70,13 +97,13 @@ Puede ver información como el estado de actualización y los cambios solicitado
 
 ![](../assets/ptr-record-updates.png)
 
-## Actualizar estados
+## Estados de actualización de registros PTR
 
 Una actualización de registro PTR puede tener los siguientes estados:
 
-* **[!UICONTROL Processing]**: Se ha enviado la actualización del registro PTR, que está en proceso de verificación.
-* **[!UICONTROL Success]**: El registro PTR actualizado se ha verificado y el nuevo subdominio ahora está asociado con la dirección IP.
-* **[!UICONTROL Failed]**: Una o varias comprobaciones han fallado durante la verificación de actualización de registros PTR.
+* ![](../assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**: Se ha enviado la actualización del registro PTR, que está en proceso de verificación.
+* ![](../assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: El registro PTR actualizado se ha verificado y el nuevo subdominio ahora está asociado con la dirección IP.
+* ![](../assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: Una o varias comprobaciones han fallado durante la verificación de actualización de registros PTR.
 
 ### Procesamiento
 

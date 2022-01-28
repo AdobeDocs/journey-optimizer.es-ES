@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 4d5e4f4295997083eb257290043b014acdcd971a
+source-git-commit: 99bbe96fb4e6e001c4eaba38ff445afb847670eb
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 28%
+source-wordcount: '654'
+ht-degree: 25%
 
 ---
 
@@ -78,10 +78,8 @@ Para mejorar la tasa de entrega y asegurarse de que los correos electrónicos ll
 
 [Obtenga más información sobre el diseño de contenido de correo electrónico](design-emails.md).
 
-<!--
-## Establish your reputation as a sender
+## Establezca su reputación como remitente
 
-If you recently moved to another email service provider, IP address, or email domain or subdomain, you need to establish your reputation as a sender. Otherwise, your deliveries might be blocked or moved to the spam folder of the recipients' mailbox.
+Si se ha trasladado recientemente a otro proveedor de servicios de correo electrónico, dirección IP, dominio o subdominio de correo electrónico, debe establecer su reputación de remitente. De lo contrario, los envíos podrían bloquearse o moverse a la carpeta de correo no deseado del buzón de los destinatarios.
 
-To warm up your IP, you can gradually ramp up the number of your deliveries. See this [use case](building-journeys/ramp-up-deliveries-uc.md).
--->
+Para calentar su IP, puede aumentar gradualmente el número de envíos. Consulte esta [caso de uso](building-journeys/ramp-up-deliveries-uc.md).

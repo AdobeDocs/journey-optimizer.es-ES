@@ -2,10 +2,10 @@
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4fc7271c96ffe87fe9b22a9d8bf93843468b2e79
-workflow-type: ht
-source-wordcount: '794'
-ht-degree: 100%
+source-git-commit: 74d6235042c7a94462cb4838186ca5d785d0764e
+workflow-type: tm+mt
+source-wordcount: '864'
+ht-degree: 92%
 
 ---
 
@@ -13,11 +13,18 @@ ht-degree: 100%
 
 Esta página enumera todas las actualizaciones de documentación de [!DNL Journey Optimizer].
 
+## Enero de 2022
+
+* Todas las nuevas funciones y mejoras incluidas [!DNL Journey Optimizer] La versión del 22 de enero se ha detallado en la documentación. [Más información](release-notes.md)
+
+* La sección Clasificación de AI de Offer decisioning se ha actualizado con una descripción más detallada del modelo de optimización automática. [Más información](offers/offer-library/create-ranking-strategies.md#auto-optimization)
+
+* Se ha añadido una nueva sección sobre los requisitos de esquema necesarios para poder enviar en tipos de evento al utilizar una estrategia de clasificación. [Más información](offers/offer-library/create-ranking-strategies.md#schema-requirements)
 
 ## Noviembre de 2021
 
 * Ya está disponible una descripción completa del editor de expresiones avanzadas utilizado en los recorridos. [Más información](building-journeys/expression/expressionadvanced.md)
-* Nuevo método de delegación de subdominios CNAME. [Más información](configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* Se ha añadido una nueva sección sobre el método de delegación de subdominios CNAME. [Más información](configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 ## Octubre de 2021
 

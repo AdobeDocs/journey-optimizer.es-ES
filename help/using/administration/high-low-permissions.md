@@ -16,9 +16,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: da885bd5e29ff3454fef1c6b362f0e646fe8c39a
+source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,17 @@ ht-degree: 0%
 Cada perfil de producto está compuesto por permisos que permiten a los usuarios acceder a las diferentes funciones.
 Se pueden dividir en dos tipos:
 
-* **Permiso de alto nivel**: representa los diferentes permisos que se pueden asignar a **[!UICONTROL Product profile]** en el [!DNL Admin console], como **[!UICONTROL Publish journeys]** y **[!UICONTROL Manage subdomains delegation]**. Los permisos de alto nivel comprenden permisos de bajo nivel.
+* **Permiso de alto nivel**: representa los diferentes permisos que se pueden asignar a **[!UICONTROL Product profile]** en el [!DNL Admin console], como **[!DNL Publish journeys]** y **[!DNL Manage subdomains delegation]**. Los permisos de alto nivel comprenden permisos de bajo nivel.
 
 * **Permiso de bajo nivel**: representa los diferentes permisos que provienen del permiso de alto nivel.
 
-Por ejemplo, la variable **[!UICONTROL Journey administrator]** al perfil de producto se le asigna la variable **[!UICONTROL Manage journeys]** permiso. A partir de este permiso, se obtienen los permisos de bajo nivel que permiten al administrador de Recorrido escribir, leer y eliminar recorridos.
+Por ejemplo, la variable **[!DNL Journey administrator]** al perfil de producto se le asigna la variable **[!DNL Manage journeys]** permiso. A partir de este permiso, se obtienen los permisos de bajo nivel que permiten al administrador de Recorrido escribir, leer y eliminar recorridos.
 
 ## Recorrido {#journey-capability}
 
-### Permiso Administrar recorridos {#manage-journeys}
+### [!DNL Manage journeys] permiso {#manage-journeys}
 
-La variable **[!UICONTROL Manage journeys]** los permisos de alto nivel permiten a los usuarios crear Recorridos nuevos, editar o eliminar los existentes, así como acceder a los objetos que se utilizan en el lienzo de recorrido para crear el flujo de recorrido.
+La variable **[!DNL Manage journeys]** los permisos de alto nivel permiten a los usuarios crear Recorridos nuevos, editar o eliminar los existentes, así como acceder a los objetos que se utilizan en el lienzo de recorrido para crear el flujo de recorrido.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -58,9 +58,9 @@ Incluye los siguientes permisos de bajo nivel:
    * datasets.read
    * schemas.read
 
-### Permiso Publicar recorridos {#publish-journeys}
+### [!DNL Publish journeys] permiso {#publish-journeys}
 
-La variable **[!UICONTROL Publish journeys]** permiso de alto nivel permite a los usuarios publicar recorridos.
+La variable **[!DNL Publish journeys]** permiso de alto nivel permite a los usuarios publicar recorridos.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -68,9 +68,9 @@ Incluye los siguientes permisos de bajo nivel:
    * journeys.publish
    * journeys.read
 
-### Ver permiso de recorridos {#view-journeys}
+### [!DNL View journeys] permiso {#view-journeys}
 
-La variable **[!UICONTROL View journeys]** los permisos de alto nivel permiten a los usuarios examinar y ver recorridos.
+La variable **[!DNL View journeys]** los permisos de alto nivel permiten a los usuarios examinar y ver recorridos.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -81,9 +81,9 @@ Incluye los siguientes permisos de bajo nivel:
    * segments.read
    * profiles.read
 
-### Administrar eventos de recorrido, fuentes de datos y permisos de acciones {#manage-journeys-events}
+### [!DNL Manage journeys events, data sources and actions] permiso {#manage-journeys-events}
 
-La variable **[!UICONTROL Manage journeys events, data sources and actions]** los permisos de alto nivel permiten a los usuarios configurar configuraciones de datos y eventos.
+La variable **[!DNL Manage journeys events, data sources and actions]** los permisos de alto nivel permiten a los usuarios configurar configuraciones de datos y eventos.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -97,14 +97,15 @@ Incluye los siguientes permisos de bajo nivel:
    * recorrido_actions.read
    * recorrido_actions.write
    * recorrido_actions.delete
+
 * Específico de Adobe Experience Platform:
    * schemas.read
    * datasets.read
    * identity_namespace.read
 
-### Ver eventos de recorridos, fuentes de datos y permisos de acciones {#view-journeys-event}
+### [!DNL View journeys events, data sources and actions] permiso {#view-journeys-event}
 
-La variable **[!UICONTROL View journeys events, data sources and actions]** permiso de alto nivel permite a los usuarios utilizar eventos y datos en el flujo de recorrido.
+La variable **[!DNL View journeys events, data sources and actions]** permiso de alto nivel permite a los usuarios utilizar eventos y datos en el flujo de recorrido.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -118,9 +119,9 @@ Incluye los siguientes permisos de bajo nivel:
    * datasets.read
    * identity_namespace.read
 
-### Ver permiso del informe recorridos {#view-journeys-report}
+### [!DNL View journeys report] permiso {#view-journeys-report}
 
-La variable **[!UICONTROL View journeys report]** permiso de alto nivel permite a los usuarios crear informes de recorrido de solo lectura.
+La variable **[!DNL View journeys report]** permiso de alto nivel permite a los usuarios crear informes de recorrido de solo lectura.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -136,9 +137,9 @@ Incluye los siguientes permisos de bajo nivel:
 
 ## Capacidad del mensaje {#message-capability}
 
-### Permiso Administrar mensajes {#manage-messages}
+### [!DNL Manage messages] permiso {#manage-messages}
 
-La variable **[!UICONTROL Manage messages]** permiso de alto nivel permite a los usuarios crear, editar o eliminar mensajes.
+La variable **[!DNL Manage messages]** permiso de alto nivel permite a los usuarios crear, editar o eliminar mensajes.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -152,9 +153,9 @@ Incluye los siguientes permisos de bajo nivel:
    * segments.read
    * schemas.read
 
-### Administrar permisos de vista previa y prueba de mensajes {#mange-messages-preview}
+### [!DNL Manage messages preview and test] permiso {#mange-messages-preview}
 
-La variable **[!UICONTROL Manage messages preview and test]** permiso de alto nivel permite a los usuarios previsualizar mensajes personalizados.
+La variable **[!DNL Manage messages preview and test]** permiso de alto nivel permite a los usuarios previsualizar mensajes personalizados.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -174,9 +175,9 @@ Incluye los siguientes permisos de bajo nivel:
    * queries.write
    * merge_policy.read
 
-### Permiso de publicación de mensajes {#publish-messages}
+### [!DNL Publish messages] permiso {#publish-messages}
 
-La variable **[!UICONTROL Publish messages]** permiso de alto nivel permite a los usuarios publicar mensajes.
+La variable **[!DNL Publish messages]** permiso de alto nivel permite a los usuarios publicar mensajes.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -188,9 +189,9 @@ Incluye los siguientes permisos de bajo nivel:
    * schemas.read
    * datasets.read
 
-### Ver permisos de mensajes {#view-messages}
+### [!DNL View messages] permiso {#view-messages}
 
-La variable **[!UICONTROL View messages]** permiso de alto nivel permite a los usuarios leer solo mensajes.
+La variable **[!DNL View messages]** permiso de alto nivel permite a los usuarios leer solo mensajes.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -202,9 +203,9 @@ Incluye los siguientes permisos de bajo nivel:
    * schemas.read
    * segments.read
 
-### Ver permisos del informe de mensajes {#view-message-reports}
+### [!DNL View messages report] permiso {#view-message-reports}
 
-La variable **[!UICONTROL View messages report]** permiso de alto nivel permite a los usuarios enviar informes push y de correo electrónico de solo lectura.
+La variable **[!DNL View messages report]** permiso de alto nivel permite a los usuarios enviar informes push y de correo electrónico de solo lectura.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -218,9 +219,9 @@ Incluye los siguientes permisos de bajo nivel:
 
 ## Capacidad de gestión de decisiones {#decisions-permissions}
 
-### Permiso Administrar decisiones {#manage-decisioning}
+### [!DNL Manage decisions] permiso {#manage-decisioning}
 
-La variable **[!UICONTROL Manage decisions]** el permiso de alto nivel permite a los usuarios crear nuevos y editar/eliminar **[!UICONTROL Activity entities]**, así como administrar los objetos que se utilizan en esas actividades para tomar las decisiones.
+La variable **[!DNL Manage decisions]** el permiso de alto nivel permite a los usuarios crear nuevos y editar/eliminar **[!DNL Activity entities]**, así como administrar los objetos que se utilizan en esas actividades para tomar las decisiones.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -244,9 +245,9 @@ Incluye los siguientes permisos de bajo nivel:
    * profile.read
    * segments.read
 
-### Ver permisos de decisiones {#view-decisions}
+### [!DNL View decisions] permiso {#view-decisions}
 
-La variable **[!UICONTROL View decisions]** los permisos de alto nivel permiten a los usuarios utilizar una actividad existente y objetos empresariales relacionados para tomar las decisiones.
+La variable **[!DNL View decisions]** los permisos de alto nivel permiten a los usuarios utilizar una actividad existente y objetos empresariales relacionados para tomar las decisiones.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -263,9 +264,9 @@ Incluye los siguientes permisos de bajo nivel:
    * datasets.write
    * datasets.delete
 
-### Publicar ofertas, permiso de decisión {#publish-decisions}
+### [!DNL Publish offers decisioning] permiso {#publish-decisions}
 
-La variable **[!UICONTROL Publish offers decisioning]** permiso de alto nivel permite a los usuarios acceder a para aprobar o desaprobar actividades de oferta.
+La variable **[!DNL Publish offers decisioning]** permiso de alto nivel permite a los usuarios acceder a para aprobar o desaprobar actividades de oferta.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -285,9 +286,9 @@ Incluye los siguientes permisos de bajo nivel:
    * datasets.read
    * profiles.read
 
-### Administrar permisos de estrategias de clasificación {#manage-decisions}
+### [!DNL Manage ranking strategies] permiso {#manage-decisions}
 
-La variable **[!UICONTROL Manage ranking strategies]** los permisos de alto nivel permiten a los usuarios leer, crear, editar y eliminar informes de mensajes personalizados, así como utilizar funciones de acción.
+La variable **[!DNL Manage ranking strategies]** los permisos de alto nivel permiten a los usuarios leer, crear, editar y eliminar informes de mensajes personalizados, así como utilizar funciones de acción.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -301,9 +302,9 @@ Incluye los siguientes permisos de bajo nivel:
 
 ## Capacidad de administración {#administration-permissions}
 
-### Permiso de delegación de subdominios {#manage-subdomain}
+### [!DNL Manage subdomains delegation] permiso {#manage-subdomain}
 
-La variable **[!UICONTROL Manage subdomains delegation]** los permisos de alto nivel permiten a los usuarios crear, editar y eliminar delegaciones de subdominios (incluido el grupo de IP).
+La variable **[!DNL Manage subdomains delegation]** los permisos de alto nivel permiten a los usuarios crear, editar y eliminar delegaciones de subdominios (incluido el grupo de IP).
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -311,18 +312,28 @@ Incluye los siguientes permisos de bajo nivel:
 * subdominios_delegación.write
 * subdominios_delegación.delete
 
-### Ver permiso de registros PTR {#view-ptr}
+### [!DNL Manage PTR records] permiso {#manage-ptr}
 
-La variable **[!UICONTROL View PTR records]** el permiso de alto nivel permite a los usuarios ver los registros PTR que se han configurado en función del subdominio.
+La variable **[!DNL Manage PTR records]** los permisos de alto nivel permiten a los usuarios leer, crear, editar y eliminar registros PTR que se hayan configurado en función del subdominio.
+
+Incluye los siguientes permisos de bajo nivel:
+
+* PTR_records.read
+* PTR_records.write
+* subdominios_delegation.read
+
+### [!DNL View PTR records] permiso {#view-ptr}
+
+La variable **[!DNL View PTR records]** el permiso de alto nivel permite a los usuarios ver los registros PTR que se han configurado en función del subdominio.
 
 Incluye los siguientes permisos de bajo nivel:
 
 * PTR_records.read
 * subdominios_delegation.read
 
-### Permiso Administrar grupos de IP {#manage-ip-pools}
+### [!DNL Manage IP pools] permiso {#manage-ip-pools}
 
-La variable **[!UICONTROL Manage IP pools]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar la definición de afinidad.
+La variable **[!DNL Manage IP pools]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar la definición de afinidad.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -330,9 +341,9 @@ Incluye los siguientes permisos de bajo nivel:
 * IP_pools.write
 * IP_pools.delete
 
-### Administrar mensajes, permiso de configuración general {#manage-message-settings}
+### [!DNL Manage messages general settings] permiso {#manage-message-settings}
 
-La variable **[!UICONTROL Manage messages general settings]** los permisos de alto nivel permiten a los usuarios crear, editar y eliminar la configuración global en el nivel de entorno limitado.
+La variable **[!DNL Manage messages general settings]** los permisos de alto nivel permiten a los usuarios crear, editar y eliminar la configuración global en el nivel de entorno limitado.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -343,9 +354,9 @@ Incluye los siguientes permisos de bajo nivel:
 * Específico de Adobe Experience Platform:
    * schemas.read
 
-### Ver mensajes, permiso de configuración general {#view-message-settings}
+### [!DNL View messages general settings] permiso {#view-message-settings}
 
-La variable **[!UICONTROL View messages general settings]** el permiso de alto nivel permite a los usuarios ver los mensajes en la configuración general, como la dirección de ejecución.
+La variable **[!DNL View messages general settings]** el permiso de alto nivel permite a los usuarios ver los mensajes en la configuración general, como la dirección de ejecución.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -354,9 +365,9 @@ Incluye los siguientes permisos de bajo nivel:
 * Específico de Adobe Experience Platform:
    * schemas.read
 
-### Permiso Administrar ajustes preestablecidos de mensajes {#manage-message-presets}
+### [!DNL Manage messages presets] permiso {#manage-message-presets}
 
-La variable **[!UICONTROL Manage messages presets]** los permisos de alto nivel permiten a los usuarios crear, editar y eliminar ajustes preestablecidos de mensaje en todos los canales a nivel de entorno limitado.
+La variable **[!DNL Manage messages presets]** los permisos de alto nivel permiten a los usuarios crear, editar y eliminar ajustes preestablecidos de mensaje en todos los canales a nivel de entorno limitado.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -368,20 +379,20 @@ Incluye los siguientes permisos de bajo nivel:
    * IP_pools.read
    * mobile_setting.read (de Adobe Experience Platform Launch)
 
-### Ver permisos preestablecidos de mensajes {#view-message-presets}
+### [!DNL View messages presets] permiso {#view-message-presets}
 
-La variable **[!UICONTROL View messages presets]** los permisos de alto nivel permiten a los usuarios ver los ajustes preestablecidos de mensaje para saber qué mensajes utilizar al crear un mensaje.
+La variable **[!DNL View messages presets]** los permisos de alto nivel permiten a los usuarios ver los ajustes preestablecidos de mensaje para saber qué mensajes utilizar al crear un mensaje.
 
 Incluye los siguientes permisos de bajo nivel:
 
 * messages_presets.read
 * subdominios_delegation.read
 * IP_pools.read
-* mobile_setting.read (de Adobe Experience Platform Launch)
+* mobile_setting.read (de la recopilación de datos de Adobe Experience Platform)
 
-### Administrar permiso de supresión {#manage-suppression}
+### [!DNL Manage suppression] permiso {#manage-suppression}
 
-La variable **[!UICONTROL Manage suppression]** el permiso de alto nivel permite a los usuarios definir el número de devoluciones antes de agregar una dirección de correo electrónico a la lista de supresión, así como agregar y eliminar entradas a/desde la lista de supresión.
+La variable **[!DNL Manage suppression]** el permiso de alto nivel permite a los usuarios definir el número de devoluciones antes de agregar una dirección de correo electrónico a la lista de supresión, así como agregar y eliminar entradas a/desde la lista de supresión.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -391,26 +402,28 @@ Incluye los siguientes permisos de bajo nivel:
 * suppression_list.write
 * suppression_list.delete
 
-### Ver permiso de la lista de supresión {#view-suppresion-list}
+### [!DNL View suppression list] permiso {#view-suppression-list}
 
-La variable **[!UICONTROL View suppression list]** permiso de alto nivel permite a los usuarios ver el contenido y la configuración de la lista de supresión.
+La variable **[!DNL View suppression list]** permiso de alto nivel permite a los usuarios ver el contenido y la configuración de la lista de supresión.
 
 Incluye los siguientes permisos de bajo nivel:
 
 * Específico de Journey Optimizer:
    * suppression_list.view
+
 * Específico de Adobe Experience Platform:
    * profiles.read
    * datasets.read
 
-### Permiso de la lista de supresión de exportación {#export-suppression-list}
+### [!DNL Export suppression list] permiso {#export-suppression-list}
 
-La variable **[!UICONTROL Export suppression list]** permiso de alto nivel permite a los usuarios descargar la lista de supresión como archivo CSV.
+La variable **[!DNL Export suppression list]** permiso de alto nivel permite a los usuarios descargar la lista de supresión como archivo CSV.
 
 Incluye los siguientes permisos de bajo nivel:
 
 * Específico de Journey Optimizer:
    * suppression_list.export
+
 * Específico de Adobe Experience Platform:
    * profiles.read
    * datasets.read

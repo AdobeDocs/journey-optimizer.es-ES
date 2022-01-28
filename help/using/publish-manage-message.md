@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: ca4c2d916a2ebde643656b4573e34d6bb64053fa
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 3%
+source-wordcount: '258'
+ht-degree: 2%
 
 ---
 
@@ -29,6 +29,10 @@ Una vez creado el mensaje, puede publicarlo para que esté disponible para la ej
 Una vez publicado el mensaje, se añade a la lista de mensajes con la variable **[!UICONTROL Published]** estado.
 
 Ahora está listo para ser activado por uno o más [recorridos](building-journeys/journey.md).
+
+>[!NOTE]
+>
+>Al actualizar una oferta, una oferta de reserva, una recopilación de ofertas o una decisión de oferta a la que se hace referencia directa o indirectamente en un mensaje publicado, las actualizaciones ahora se reflejan automáticamente en el mensaje correspondiente, sin necesidad de volver a publicarlas. [Más información sobre las ofertas](offers/get-started/starting-offer-decisioning.md)
 
 ## Actualizar un mensaje de solo lectura {#modify-message}
 

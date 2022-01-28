@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 138adc4b548e5d8ba744037db2d35150b6876867
+source-git-commit: 1abea49a0dce8d5866662235b243a3b82fb50c7b
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '1036'
 ht-degree: 4%
 
 ---
@@ -77,6 +77,27 @@ Los pasos para configurar la actividad Leer segmento son los siguientes:
 
    ![](../assets/read-segment-schedule-list.png)
 
+   La variable **Lectura incremental** permite dirigirse únicamente a las personas que han introducido el segmento desde la última ejecución del recorrido. La primera ejecución siempre se dirige a todos los miembros del segmento. Esta opción solo está disponible para los **Leer segmento** actividades.
+
+<!--
+
+### Segment filters {#segment-filters}
+
+[!CONTEXTUALHELP]
+>id="jo_segment_filters"
+>title="About segment filters"
+>abstract="You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week."
+
+You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week. Only the new VIP customers will be targeted. All the customers who were already part of the VIP segment before will be excluded.
+
+To activate this mode, click the **Segment Filters** toggle. Two fields are displayed:
+
+**Segment membership**: choose whether you want to listen to segment entrances or exits. 
+
+**Lookback window**: define when you want to start to listen to entrances or exits. This lookback window is expressed in hours, starting from the moment the journey is triggered.  If you set this duration to 0, the journey will target all members of the segment. For recurring journeys, it will take into account all entrances/exits since the last time the journey was triggered.
+
+-->
+
 ### Prueba y publicación del recorrido {#testing-publishing}
 
 La variable **[!UICONTROL Read Segment]** actividad le permite probar el recorrido en un perfil unitario o en 100 perfiles de prueba aleatorios seleccionados entre los perfiles cualificados para el segmento.
@@ -102,7 +123,6 @@ Una vez realizadas las pruebas correctamente, puede publicar el recorrido (consu
 >[!NOTE]
 >
 >Para los recorridos recurrentes basados en segmentos, el recorrido se cerrará automáticamente una vez que se ejecute su última incidencia. Si no se ha especificado ninguna fecha y hora de finalización, deberá cerrar el recorrido manualmente a las nuevas entradas para finalizarlo.
-
 
 ## Segmentación de audiencias en recorridos basados en segmentos
 
