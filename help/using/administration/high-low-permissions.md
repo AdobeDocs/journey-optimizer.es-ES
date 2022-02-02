@@ -16,9 +16,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
+source-git-commit: e5aa7fbce348c9da00b3f5c8624237c76128a61b
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -314,7 +314,7 @@ Incluye los siguientes permisos de bajo nivel:
 
 ### [!DNL Manage PTR records] permiso {#manage-ptr}
 
-La variable **[!DNL Manage PTR records]** los permisos de alto nivel permiten a los usuarios leer, crear, editar y eliminar registros PTR que se hayan configurado en función del subdominio.
+La variable **[!DNL Manage PTR records]** los permisos de alto nivel permiten a los usuarios leer y editar registros PTR que se han configurado en función del subdominio.
 
 Incluye los siguientes permisos de bajo nivel:
 
