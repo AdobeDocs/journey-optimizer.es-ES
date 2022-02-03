@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 695eec156c7d159d2ab10a6aeb27a35108d704c0
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 3%
@@ -109,3 +109,4 @@ Obtenga más información sobre los pasos detallados para comprobar la vista pre
 Aprenda a añadir un componente de Offer Decisioning a los mensajes en [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
+
