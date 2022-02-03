@@ -9,7 +9,7 @@ solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -17,7 +17,7 @@ ht-degree: 9%
 ---
 
 
-# Introducción a [!DNL Journey Optimizer] configuración
+# Introducción a [!DNL Journey Optimizer] configuración {#start-optimizer-configuration}
 
 Al acceder [!DNL Journey Optimizer] por primera vez, se le aprovisiona un simulador para pruebas de producción y se le asigna un determinado número de direcciones IP en función de su contrato.
 

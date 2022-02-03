@@ -2,14 +2,14 @@
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 01a18d6a54775eb2cd0bfda5080e4007b80727de
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 90%
 
 ---
 
-# Últimas actualizaciones de esta documentación
+# Últimas actualizaciones de esta documentación {#latest-updates}
 
 Esta página enumera todas las actualizaciones de documentación de [!DNL Journey Optimizer].
 

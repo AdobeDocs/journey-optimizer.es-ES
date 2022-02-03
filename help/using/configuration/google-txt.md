@@ -16,14 +16,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 1d7f661dc0a89e4754a76ecf2cdce1e43a5275ec
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 29%
 
 ---
 
-# Añadir un registro TXT de Google a un subdominio
+# Añadir un registro TXT de Google a un subdominio {#google-txt-record}
 
 Los registros TXT son un tipo de registros DNS que se utilizan para proporcionar información de texto sobre un dominio y que pueden leer fuentes externas.
 

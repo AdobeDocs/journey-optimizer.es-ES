@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para ofrecer experiencias conectadas, contextuales y personalizadas a los clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8ecf4f1af725a34e94bb5407f9e0369841c33206
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 98%
@@ -28,7 +28,7 @@ ht-degree: 98%
       + [Introducción como desarrollador](using/path/developer.md)
    + [Interfaz de usuario](using/user-interface.md)
    + [Limitaciones](using/limitations.md)
-+ Mensajes {#create-messages}
++ Mensajes {#messages}
    + [Introducción a los mensajes](using/get-started-content.md)
    + Creación de mensajes {#create-message}
       + [Creación de un mensaje ](using/create-message.md)
@@ -43,7 +43,7 @@ ht-degree: 98%
       + [Importación o codificación del contenido del correo electrónico](using/existing-content.md)
       + [Uso de los componentes de contenido del diseñador de correo electrónico](using/content-components.md)
    + [Adición de vínculos y seguimiento de mensajes](using/message-tracking.md)
-   + Validación y publicación {#create-message}
+   + Validación y publicación {#validate}
       + [Previsualización y pruebas](using/preview.md)
       + [Comprobación de alertas](using/alerts.md)
       + [Publicación de mensajes](using/publish-manage-message.md)
@@ -233,7 +233,7 @@ ht-degree: 98%
       + [Informes de página de destino](using/landing-pages/lp-report.md)
       + [Informes de la lista de suscripciones](using/landing-pages/subscription-report.md)
 + Administración de decisiones {#offer-decisioniong}
-   + Introducción a la Administración de decisiones {#get-started}
+   + Introducción a la Administración de decisiones {#get-started-decision}
       + [Acerca de la Administración de decisiones](using/offers/get-started/starting-offer-decisioning.md)
       + [Interfaz de usuario](using/offers/get-started/user-interface.md)
       + [Pasos clave para crear y administrar ofertas](using/offers/offer-library/key-steps.md)
@@ -315,13 +315,13 @@ ht-degree: 98%
    + [Esquemas](using/get-started-schemas.md)
    + [Conjuntos de datos](using/get-started-datasets.md)
    + [Consultas](using/get-started-queries.md)
-+ Configuración{#get-started}
++ Configuración{#configuration}
    + [Introducción a la configuración de Journey Optimizer](using/configuration/get-started-configuration.md)
-   + Configurar mensajes {#configuration}
+   + Configurar mensajes {#configuration-message}
       + Configuración de notificaciones push{#push-config}
          + [Introducción a la configuración push](using/push-gs.md)
          + [Configurar el canal de notificaciones push](using/push-configuration.md)
-      + Configuración de correo electrónico {#email-config}
+      + Configuración de correo electrónico {#email-configuration}
          + Delegar subdominios {#delegate-subdomains}
             + [Introducción a la delegación de subdominios](using/configuration/about-subdomain-delegation.md)
             + [Delegar un subdominio](using/configuration/delegate-subdomain.md)
@@ -356,7 +356,7 @@ ht-degree: 98%
          + [Configuración de una acción](using/action/about-custom-action-configuration.md)
          + [Integración con Adobe Campaign v7/v8](using/action/acc-action.md)
    + [Fuentes](using/get-started-sources.md)
-+ Control de acceso {#administration}
++ Control de acceso {#access-control}
    + [Información general sobre el control de acceso](using/administration/permissions-overview.md)
    + [Perfiles de producto integrados](using/administration/ootb-product-profiles.md)
    + [Administrar usuarios y perfiles de producto](using/administration/permissions.md)

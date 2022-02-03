@@ -8,14 +8,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 203f8545200d4a6c20a748807e20ba7aba1ab5f3
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 36%
 
 ---
 
-# Delegación de subdominios en [!DNL Journey Optimizer]
+# Delegación de subdominios en [!DNL Journey Optimizer] {#subdomain-delegation}
 
 La creación de un subdominio para campañas de correo electrónico permite a las marcas aislar distintos tipos de tráfico (marketing frente a empresa, por ejemplo) en grupos de IP específicos y con dominios específicos, lo que acelera el proceso de calentamiento de IP y mejora la capacidad de envío en general. Si comparte un dominio y este se bloquea o añade a la lista de bloqueados, podría afectar a la entrega de correo empresarial. Sin embargo, los problemas de reputación o los bloques de un dominio específico de las comunicaciones de marketing por correo electrónico solo afectarán a ese flujo de correo electrónico. El uso del dominio principal como remitente o dirección &quot;De&quot; para varios flujos de correo también podría dañar la autenticación por correo electrónico, lo que bloquearía los mensajes o colocarlos en la carpeta de correo no deseado.
 
