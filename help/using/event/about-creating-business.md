@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: b3b9e02bc6ade7c7841181af4f75c99b57a3108d
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 12%
@@ -25,7 +25,7 @@ Los eventos comerciales pueden ser &quot;un producto vuelve a estar en existenci
 >
 >También puede ver el caso de uso de evento empresarial [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
 
-## Notas importantes
+## Notas importantes {#important-notes}
 
 * Solo están disponibles los esquemas de series temporales. Los esquemas de eventos de experiencia, eventos de decisión y eventos de paso de Recorrido no están disponibles. El esquema de evento debe contener una identidad principal. Los campos siguientes deben definirse según sea necesario: `_id` y `timestamp`
 * Los eventos comerciales solo se pueden eliminar como el primer paso de un recorrido.
@@ -36,7 +36,7 @@ Los eventos comerciales pueden ser &quot;un producto vuelve a estar en existenci
 * Al probar un evento comercial, debe pasar los parámetros de evento y el identificador del perfil de prueba que va a introducir el recorrido en la prueba. Además, al probar un recorrido basado en eventos empresariales, solo puede almacenar en déclencheur la entrada de perfil único. Consulte [esta sección](../building-journeys/testing-the-journey.md#test-business). En el modo de prueba, no hay ningún modo &quot;Vista de código&quot; disponible.
 * ¿Qué les sucede a las personas que están actualmente en el recorrido si llega un nuevo evento de negocios? Se comporta de la misma manera que cuando las personas siguen en un recorrido recurrente cuando ocurre una nueva recurrencia. Su camino ha terminado. Como resultado, los especialistas en marketing deben prestar atención para evitar generar recorridos demasiado largos si esperan eventos comerciales frecuentes.
 
-## Varios eventos comerciales
+## Varios eventos comerciales {#multiple-business-events}
 
 Estas son algunas notas importantes que se aplican cuando se reciben varios eventos comerciales seguidos.
 
@@ -48,7 +48,7 @@ Los eventos comerciales siguen las reglas de reentrada de la misma manera que pa
 
 En el caso de los eventos empresariales sin conexión, para un recorrido determinado, los datos impulsados por el primer trabajo de evento se reutilizan durante un periodo de tiempo de 1 hora. No hay protección para los recorridos programados. Obtenga más información sobre los segmentos en la [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
-## Introducción a los eventos empresariales
+## Introducción a los eventos empresariales {#gs-business-events}
 
 Estos son los primeros pasos para configurar un evento empresarial:
 

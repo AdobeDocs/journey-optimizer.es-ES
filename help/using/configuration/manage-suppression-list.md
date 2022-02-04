@@ -1,22 +1,12 @@
 ---
 title: Administrar la lista de supresión
 description: Obtenga información sobre cómo acceder y administrar la lista de supresión de Journey Optimizer
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 3%
@@ -31,7 +21,7 @@ con [!DNL Journey Optimizer], puede supervisar todas las direcciones de correo e
 * Direcciones que devuelven mensajes de forma uniforme y que podrían afectar negativamente a la reputación del correo electrónico si continúa incluyéndolas en los envíos.
 * Destinatarios que emiten una queja de correo no deseado de algún tipo contra uno de sus mensajes de correo electrónico.
 
-Estas direcciones de correo electrónico se recopilan automáticamente en Journey Optimizer **lista de supresión**. Obtenga más información sobre el concepto de la lista de supresión y su uso en [esta sección](../suppression-list.md).
+Estas direcciones de correo electrónico se recopilan automáticamente en Journey Optimizer **lista de supresión**. Obtenga más información sobre el concepto de la lista de supresión y su uso en [esta sección](../messages/suppression-list.md).
 
 ## Acceso a la lista de supresión {#access-suppression-list}
 
@@ -41,15 +31,9 @@ Para acceder a la lista detallada de direcciones de correo electrónico excluida
 >
 >Los permisos para ver, exportar y administrar la lista de supresión están restringidos a [Administradores de recorrido](../administration/ootb-product-profiles.md#journey-administrator). Más información sobre la administración [!DNL Journey Optimizer] derechos de acceso de los usuarios en [esta sección](../administration/permissions-overview.md).
 
-<!--![](../assets/suppression-list-link.png)
-
-You can also display the suppression list content using the **[!UICONTROL View suppression list]** link through the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, but this view does not allow you to edit the list.-->
-
 ![](../assets/suppression-list-access.png)
 
 Los filtros están disponibles para ayudarle a navegar por la lista.
-
-<!--![](../assets/suppression-list-filters-temp.png)-->
 
 ![](../assets/suppression-list-filters.png)
 
@@ -65,7 +49,7 @@ Si agrega manualmente una dirección de correo electrónico o un dominio por err
 
 ![](../assets/suppression-list-delete.png)
 
-Al eliminar una dirección de correo electrónico o un dominio de la lista de supresión, se inicia de nuevo la entrega a esta dirección o dominio. Por lo tanto, esto puede tener un impacto grave en la capacidad de envío y la reputación de la IP, lo que eventualmente podría provocar que se bloqueara su dirección IP o dominio de envío. Obtenga más información sobre la importancia de mantener una lista de supresión en [esta sección](../suppression-list.md).
+Al eliminar una dirección de correo electrónico o un dominio de la lista de supresión, se inicia de nuevo la entrega a esta dirección o dominio. Por lo tanto, esto puede tener un impacto grave en la capacidad de envío y la reputación de la IP, lo que eventualmente podría provocar que se bloqueara su dirección IP o dominio de envío. Obtenga más información sobre la importancia de mantener una lista de supresión en [esta sección](../messages/suppression-list.md).
 
 >[!NOTE]
 >
@@ -91,17 +75,11 @@ Las categorías de supresión son las siguientes:
 
 * **Leve**: Los errores leves envían una dirección a la lista de supresión una vez que el contador de errores alcanza el umbral de límite. [Más información sobre los reintentos](retries.md)
 
-   <!--
-    **Ignored**:
-    * When the error occurred for a valid email address but is known to be temporary, such as a failed connection attempt or a temporary technical issue, the email address is added to the suppression list once the error counter reaches the limit threshold. [Learn more on retries](retries.md).
-    * When the error is the result of a spam complaint, the email address of the recipient who issued the complaint is immediately sent to the suppression list.
-    -->
-
 * **Manual**: También puede añadir manualmente una dirección de correo electrónico o un dominio a la lista de supresión. [Más información](#add-addresses-and-domains)
 
 >[!NOTE]
 >
->Obtenga más información sobre los rechazos leves y los rechazos graves en la [Tipos de errores de entrega](../suppression-list.md#delivery-failures) para obtener más información.
+>Obtenga más información sobre los rechazos leves y los rechazos graves en la [Tipos de errores de entrega](../messages/suppression-list.md#delivery-failures) para obtener más información.
 
 Para cada dirección de correo electrónico de la lista, también puede comprobar la variable **[!UICONTROL Type]** (correo electrónico o dominio), **[!UICONTROL Reason]** para excluirlo, quién lo agregó y la fecha y hora en que se agregó a la lista de supresión.
 
@@ -121,27 +99,7 @@ Los posibles motivos de un error de entrega son:
 
 >[!NOTE]
 >
->Los usuarios cancelados de suscripción no reciben correos electrónicos de [!DNL Journey Optimizer], por lo tanto, sus direcciones de correo electrónico no se pueden enviar a la lista de supresión. Su elección se gestiona a nivel de Experience Platform. [Más información sobre la exclusión](../consent.md)
-
-<!--
-Removed from the table provided by SparkPost/Momentum:
-| **[!UICONTROL Undetermined]** | The bounce reason received from the recipient domain Message Transfer Agent (MTA) could not be identified. | Ignored |
-| **[!UICONTROL Too Large]** | The message bounced because it was too large for the recipient. [Retries](retries.md) will be performed: you can edit the message size and re-inject it for delivery. | Ignored |
-| **[!UICONTROL Timeout]** | The message timed out, meaning it soft bounced and reached the message retry limit (3.5 days). | Ignored |
-| **[!UICONTROL Admin Failure]** | The message was failed according to the policies configured by the sending system administrator. ///For example, if emails are blackholed at the global, domain or binding level using the "blackhole" directive, this bounce code is used. | Ignored |
-| **[!UICONTROL Generic Bounce: No RCPT]** | No recipient could be determined for the message. | Ignored |
-| **[!UICONTROL Generic Bounce]** | The message failed for unspecified reasons. | Ignored |
-| **[!UICONTROL Mail Block]** | The message was blocked by the receiver (i.e. recipient MTA). | Ignored |
-| **[!UICONTROL Spam Block]** | The message was blocked by the receiver as coming from a known spam source. It could be a sending IP block for example. | Ignored |
-| **[!UICONTROL Spam Content]** | The message content was blocked by the receiver (recipient MTA) as spam. | Ignored |
-| **[!UICONTROL Prohibited Attachment]** | The message was blocked by the receiver because it contained an attachment. | Ignored |
-| **[!UICONTROL Auto-Reply]** | The message is an auto-reply/vacation mail. | Ignored |
-| **[!UICONTROL Transient Failure]** | Message transmission has been temporarily delayed. | Ignored |
-| **[!UICONTROL Subscribe]** | The message is a subscribe request. | Ignored |
-| **[!UICONTROL Unsubscribe]** | The message is an unsubscribe request. | Hard |
--->
-
-<!--Note to add eventually: If a user is subscribed and [!DNL Journey Optimizer] fails to send emails to their subscribed email address, they will get added to the suppression list.-->
+>Los usuarios cancelados de suscripción no reciben correos electrónicos de [!DNL Journey Optimizer], por lo tanto, sus direcciones de correo electrónico no se pueden enviar a la lista de supresión. Su elección se gestiona a nivel de Experience Platform. [Más información sobre la exclusión](../messages/consent.md)
 
 ## Adición manual de direcciones y dominios {#add-addresses-and-domains}
 

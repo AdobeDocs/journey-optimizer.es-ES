@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # Creación de perfiles de prueba {#create-test-profiles}
 
-Los perfiles de prueba son obligatorios al utilizar el modo de prueba Para aprender a utilizar el [modo de prueba](../building-journeys/testing-the-journey.md) en un recorrido y para [obtener una vista previa y probar los mensajes](../preview.md).
+Los perfiles de prueba son obligatorios al utilizar el modo de prueba Para aprender a utilizar el [modo de prueba](../building-journeys/testing-the-journey.md) en un recorrido y para [obtener una vista previa y probar los mensajes](../messages/preview.md).
 
 A continuación se describen los métodos disponibles para crear perfiles de prueba:
 
@@ -88,7 +88,7 @@ Haga clic en el botón **[!UICONTROL Begin]** para iniciar el caso de uso.
 
 Se requiere la siguiente información:
 
-1. **Área de nombres de identidad**: La variable [área de nombres de identidad](../get-started-identity.md) se utiliza para identificar de forma exclusiva los perfiles de prueba. Por ejemplo, si el correo electrónico se utiliza para identificar los perfiles de prueba, el área de nombres de identidad **Correo electrónico** debe estar seleccionado. Si el identificador único es el número de teléfono, el área de nombres de identidad **Teléfono** debe estar seleccionado.
+1. **Área de nombres de identidad**: La variable [área de nombres de identidad](../start/get-started-identity.md) se utiliza para identificar de forma exclusiva los perfiles de prueba. Por ejemplo, si el correo electrónico se utiliza para identificar los perfiles de prueba, el área de nombres de identidad **Correo electrónico** debe estar seleccionado. Si el identificador único es el número de teléfono, el área de nombres de identidad **Teléfono** debe estar seleccionado.
 
 2. **Archivo CSV**: Archivo separado por comas que contiene la lista de perfiles de prueba que se van a crear. El caso de uso espera un formato predefinido para el archivo CSV que contiene la lista de perfiles de prueba que se van a crear. Cada fila del archivo debe incluir los siguientes campos en el orden correcto de la siguiente manera:
 

@@ -1,14 +1,14 @@
 ---
 title: Caso de uso personalizado y dos puntos; correo electrónico de abandono del carro de compras
-description: Aprenda a personalizar un mensaje mediante las funciones de ayuda.
+description: Aprenda a personalizar el cuerpo de un mensaje de correo electrónico a través de un caso de uso.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 67902b30bb24cad8d08d5bd6d83428885f4987b5
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1019'
 ht-degree: 4%
 
 ---
@@ -26,8 +26,8 @@ Utilizará estos tipos de funciones de ayuda:
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 Antes de comenzar, asegúrese de que sabe cómo configurar estos elementos:
-* Un mensaje de correo electrónico. [Más información](../create-message.md)
-* El cuerpo de un correo electrónico. [Más información](../create-email-content.md).
+* Un mensaje de correo electrónico. [Más información](../messages/create-message.md)
+* El cuerpo de un correo electrónico. [Más información](../messages/create-email-content.md).
 * Un evento unitario. [Más información](../event/about-events.md).
 * Recorrido que comienza con un evento. [Más información](../building-journeys/using-the-journey-designer.md).
 
@@ -324,15 +324,15 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 1. Compruebe que no haya error y, a continuación, publique el recorrido.
 
 
-## Temas relacionados
+## Temas relacionados {#related-topics}
 
-### Funciones de Handlebars
+### Funciones de Handlebars {#handlebars}
 
 * [Ayudantes](functions/helpers.md)
 
 * [Funciones de cadena](functions/string.md)
 
-### Casos de uso
+### Casos de uso {#use-case}
 
 * [Personalización con información de perfil, contexto y oferta](personalization-use-case.md)
 

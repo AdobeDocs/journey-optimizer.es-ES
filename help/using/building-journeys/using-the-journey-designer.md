@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: e9da4ec95a82d53e6fcf2cb99fb6215b0c325f08
+source-git-commit: 4e52be8fb4a6b996d20cc831247b7e4f6d333840
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 2%
 
 ---
 
-# Diseño de un recorrido
+# Diseño de un recorrido {#design-your-journey}
 
 La interfaz de recorrido permite arrastrar y soltar fácilmente actividades de la paleta en el lienzo. También puede hacer doble clic en una actividad para agregarla al lienzo en el siguiente paso disponible. Cada actividad tiene una función y un lugar específicos en el proceso. Las actividades se secuencian. Cuando finaliza una actividad, el flujo continúa y procesa la siguiente actividad, etc.
 

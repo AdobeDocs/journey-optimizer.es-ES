@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 2%
 
 ---
 
-# Enviar ofertas mediante la API de decisiones
+# Enviar ofertas mediante la API de decisiones {#deliver-offers-using-decisions-api}
 
 Con Administración de decisiones, puede crear y ofrecer experiencias de oferta personalizadas para el usuario final en todos los canales y aplicaciones mediante la lógica empresarial y las reglas de decisión. Una oferta es un mensaje de marketing que puede tener reglas asociadas que especifican quién puede ver la oferta.
 
@@ -23,7 +23,7 @@ Este tutorial requiere una comprensión práctica de las API, específicamente c
 
 ➡️  [Descubra esta función en vídeo](#video)
 
-## Encabezados Accept y Content-Type
+## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
 La tabla siguiente muestra los valores válidos que comprenden el *Content-Type* y *Accept* campos en el encabezado de la solicitud:
 
@@ -109,7 +109,7 @@ curl -X POST \
 | `xdm:propositionRequests.xdm:activityId` | Identificador de decisión único. | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
 | `xdm:itemCount` | Número de ofertas que se van a devolver. El número máximo es 30. | `"xdm:itemCount": 2` |
 | `xdm:profiles` | Este objeto contiene información sobre el perfil para el que se solicita la decisión. Para una solicitud de API, contendrá un perfil. |
-| `xdm:profiles.xdm:identityMap` | Este objeto alberga un conjunto de identidades de usuario final basadas en el código de integración del área de nombres de la identidad. El mapa de identidad puede contener más de una identidad de cada área de nombres. Para obtener más información sobre áreas de nombres, consulte [esta página](../../../get-started-identity.md). | `Email: [{"xdm:id": "123@abc.com"}]` |
+| `xdm:profiles.xdm:identityMap` | Este objeto alberga un conjunto de identidades de usuario final basadas en el código de integración del área de nombres de la identidad. El mapa de identidad puede contener más de una identidad de cada área de nombres. Para obtener más información sobre áreas de nombres, consulte [esta página](../../../start/get-started-identity.md). | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | ID generado por el cliente que se puede utilizar para identificar de forma exclusiva una solicitud de decisión de perfil. Este ID se repite en la respuesta y no influye en el resultado de la decisión. | `"xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"` |
 | `xdm:allowDuplicatePropositions` | Este objeto define la estructura de control de las reglas de deduplicación. Consiste en una serie de indicadores que indican si se puede proponer la misma opción en una dimensión determinada. Un indicador que se establece en true significa que se permiten duplicados y no se deben eliminar en la categoría indicada por el indicador. Un indicador establecido en false significa que el motor de decisión no debe realizar la misma propuesta en toda la dimensión y, en su lugar, elegir la siguiente mejor opción para una de las subdecisiones. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Si se establece en true, se puede asignar la misma opción a varias decisiones. | `"xdm:acrossActivities": true` |
@@ -203,6 +203,6 @@ El siguiente vídeo pretende contribuir a su comprensión de los componentes de 
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
 
-## Pasos siguientes
+## Pasos siguientes {#next-steps}
 
 Al seguir esta guía de API, ha creado y enviado ofertas utilizando la variable [!DNL Decisions] API. Para obtener más información, consulte la [información general sobre la gestión de decisiones](../../../offers/get-started/starting-offer-decisioning.md).

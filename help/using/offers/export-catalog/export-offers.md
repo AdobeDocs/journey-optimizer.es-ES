@@ -1,12 +1,12 @@
 ---
 title: Conjunto de datos de ofertas personalizadas
-description: Esta sección enumera todos los campos utilizados en el conjunto de datos exportado para ofertas.
+description: Esta sección enumera todos los campos utilizados en el conjunto de datos exportado para ofertas
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 3%
@@ -29,14 +29,14 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
-## Identificador
+## Identificador {#identifier}
 
 **Campo:** _id
 **Título:** Identificador
 **Descripción:** Identificador único del registro.
 **Tipo:** cadena
 
-## _experiencia
+## _experiencia {#experience}
 
 **Campo:** _experience
 **Tipo:** object
@@ -48,9 +48,9 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 
 #### _experience > decisiones > calendarConstraints
 
-**Field:** calendarConstraints
-**Title:** Calendar Constraint Details
-**Description:** Calendar constraints decide if a decision option is valid given a date range. Fuera de ese intervalo de fechas, no se puede proponer la opción .
+**Campo:** calendarConstraints
+**Título:** Detalles de restricción de calendario
+**Descripción:** Las restricciones del calendario deciden si una opción de decisión es válida en un intervalo de fechas. Fuera de ese intervalo de fechas, no se puede proponer la opción .
 **Tipo:** object
 
 * **Fecha y hora de finalización**
@@ -105,7 +105,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 
       **Campo:** format
       **Título:** Formato
-      **Descripción:** La manifestación física o digital del recurso. Normalmente, Format debe incluir el tipo de medio del recurso. Format may be used to determine the software, hardware or other equipment needed to display or operate the resource. Una práctica recomendada es seleccionar un valor de un vocabulario controlado (por ejemplo, la lista de [Tipos de medios de Internet](http://www.iana.org/assignments/media-types/) definición de formatos multimedia del equipo).
+      **Descripción:** La manifestación física o digital del recurso. Normalmente, Format debe incluir el tipo de medio del recurso. El formato puede utilizarse para determinar el software, el hardware u otro equipo necesario para visualizar o utilizar el recurso. Una práctica recomendada es seleccionar un valor de un vocabulario controlado (por ejemplo, la lista de [Tipos de medios de Internet](http://www.iana.org/assignments/media-types/) definición de formatos multimedia del equipo).
       **Tipo:** cadena
       **Ejemplo:** &quot;application/vnd.adobe.photoshop&quot;
 
@@ -163,8 +163,8 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 
 * **_experience > decisioning > content > components > linkURL**
 
-   **Field:** linkURL
-   **Description:** An optional unique resource locator for user interactions. This URL is used to refer the end user to in a user agent and can be tracked.
+   **Campo:** linkURL
+   **Descripción:** Un localizador de recursos único opcional para interacciones del usuario. Esta URL se utiliza para remitir al usuario final a en un agente de usuario y se puede realizar un seguimiento.
    **Tipo:** cadena
    **Ejemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
@@ -190,11 +190,11 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 **Descripción:** Nombre de opción que se muestra en varias interfaces de usuario.
 **Tipo:** cadena
 
-#### _experience > decisioning > profileConstraints
+#### _experience > decisiones > profileConstraints
 
-**Field:** profileConstraints
-**Title:** Profile Constraint Details
-**Description:** The profile constraints decide if an option is eligible for this profile identity, at this moment, in this context. Si la restricción de perfil no necesita tener en cuenta los valores de cada una de las opciones, es decir, no tiene en cuenta las opciones de la selección de opciones, la restricción de perfil que se evalúa como &quot;false&quot; cancela toda la selección de opciones. Por otro lado, se evalúa una regla de restricción de perfil que toma una opción como parámetro para cada opción correspondiente de la selección de opciones.
+**Campo:** profileConstraints
+**Título:** Detalles de restricción de perfil
+**Descripción:** Las restricciones de perfil deciden si una opción es apta para esta identidad de perfil, en este momento, en este contexto. Si la restricción de perfil no necesita tener en cuenta los valores de cada una de las opciones, es decir, no tiene en cuenta las opciones de la selección de opciones, la restricción de perfil que se evalúa como &quot;false&quot; cancela toda la selección de opciones. Por otro lado, se evalúa una regla de restricción de perfil que toma una opción como parámetro para cada opción correspondiente de la selección de opciones.
 **Tipo:** object
 
 **_experience > decisiones > profileConstraints > Descripción**
@@ -206,9 +206,9 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 
 **_experience > decisiones > profileConstraints > Regla de elegibilidad**
 
-**Field:** eligibilityRule
-**Title:** Eligibility Rule
-**Description:** A reference to a decision rule that evaluates to true or false for a given profile and/or other given contextual XDM objects. The rule is used to decide if the option qualifies for a given profile. El valor es el URI (@id) de la regla de decisión a la que se hace referencia. See schema https://ns.adobe.com/experience/decisioning/rule.
+**Campo:** eligibilityRule
+**Título:** Regla de elegibilidad
+**Descripción:** Referencia a una regla de decisión que se evalúa como true o false para un perfil determinado u otros objetos XDM contextuales dados. La regla se utiliza para decidir si la opción cumple los requisitos de un perfil determinado. El valor es el URI (@id) de la regla de decisión a la que se hace referencia. Consulte esquema https://ns.adobe.com/experience/decisioning/rule.
 **Tipo:** cadena
 
 **_experience > decisioning > profileConstraints > Tipo de restricción de perfil**
@@ -233,8 +233,8 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 
 * **Identificador**
 
-   **Field:** _id
-   **Title:** Identifier
+   **Campo:** _id
+   **Título:** Identificador
    **Descripción:** Identidad del segmento en el área de nombres relacionada.
    **Tipo:** cadena
 
@@ -265,20 +265,20 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 **Campo:** clasificación
 **Título:** Detalles de clasificación
 **Descripción:** Clasificación (prioridad). Define lo que se considera la \&quot;mejor acción\&quot; dado el contexto del criterio de decisión. Entre todas las opciones seleccionadas que cumplan la restricción de elegibilidad, el orden de clasificación decidirá las opciones superiores (o superiores N) que se propongan.
-**Type:** object
+**Tipo:** object
 
 **_experience > decisioning > ranking > Evaluación de pedidos**
 
 **Campo:** pedido
 **Título:** Evaluación de pedidos
-**Descripción:** Evaluación de un orden relativo de una o más opciones de decisión. Options with higher ordinal values are selected over any options with lower ordinal values. Los valores determinados por este método se pueden ordenar, pero no se pueden medir las distancias entre ellos ni se pueden calcular sumas ni productos. The median and the mode are the only measures of central tendency that can be used for ordinal data.
-**Type:** object
+**Descripción:** Evaluación de un orden relativo de una o más opciones de decisión. Las opciones con valores de ordinal más altos se seleccionan sobre cualquier opción con valores de ordinal más bajos. Los valores determinados por este método se pueden ordenar, pero no se pueden medir las distancias entre ellos ni se pueden calcular sumas ni productos. La mediana y el modo son las únicas medidas de tendencia central que pueden utilizarse para los datos ordinales.
+**Tipo:** object
 
-* **Scoring Function**
+* **Función de puntuación**
 
-   **Field:** function
+   **Campo:** function
    **Título:** Función de puntuación
-   **Descripción:** Referencia a una función que calcula una puntuación numérica para esta opción de decisión. Decision options will then be ordered (ranked) by that score. El valor de esta propiedad es el URI (@id) de la función que se va a invocar con la opción on a la vez. See schema https://ns.adobe.com/experience/decisioning/function.
+   **Descripción:** Referencia a una función que calcula una puntuación numérica para esta opción de decisión. Las opciones de decisión se ordenarán (clasificarán) según esa puntuación. El valor de esta propiedad es el URI (@id) de la función que se va a invocar con la opción on a la vez. Consulte esquema https://ns.adobe.com/experience/decisioning/function.
    **Tipo:** cadena
 
 * **Tipo de evaluación de pedido**
@@ -300,7 +300,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 
 **Campo:** priority
 **Título:** Prioridad
-**Descripción:** Prioridad de una única opción de decisión en relación con todas las demás opciones. Las opciones para las que no se proporciona ninguna función de pedido se priorizan usando esta propiedad. Las opciones con valores de prioridad más altos se seleccionan antes que las opciones con prioridad más baja. If two or more qualifying options share the highest priority value, one is chosen at uniform random and used for the decision proposition.
+**Descripción:** Prioridad de una única opción de decisión en relación con todas las demás opciones. Las opciones para las que no se proporciona ninguna función de pedido se priorizan usando esta propiedad. Las opciones con valores de prioridad más altos se seleccionan antes que las opciones con prioridad más baja. Si dos o más opciones cualificadas comparten el valor de prioridad más alto, se elige uno de forma aleatoria uniforme y se utiliza para la propuesta de decisión.
 **Tipo:** integer
 **Valor mínimo:** 0
 **Valor predeterminado:** 0
@@ -314,14 +314,14 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo
+## _repo {#repo}
 
 **Campo:** _repo
 **Tipo:** object
 
 ### _repo > Opción de decisión ETag
 
-**Field:** etag
-**Title:** Decision Option ETag
-**Description:** The revision that the decision option object was at when the snapshot was taken.
+**Campo:** etiqueta
+**Título:** Opción de decisión ETag
+**Descripción:** Revisión en la que se encontraba el objeto de opción de decisión cuando se tomó la instantánea.
 **Tipo:** cadena

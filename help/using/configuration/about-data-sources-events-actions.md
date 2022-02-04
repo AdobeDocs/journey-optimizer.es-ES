@@ -1,14 +1,14 @@
 ---
-title: Administración y configuración
-description: Conozca las directrices de administración y configuración
+title: Configurar recorridos
+description: Obtenga información sobre cómo configurar fuentes de datos, eventos y acciones.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '313'
 ht-degree: 56%
 
 ---
@@ -19,17 +19,17 @@ Para enviar mensajes con recorridos, debe configurar **[!UICONTROL Data Sources]
 
 ![](../assets/admin-menu.png)
 
-## Fuentes de datos
+## Fuentes de datos {#data-sources}
 
 La configuración de la fuente de datos permite definir una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos. [Más información](../../using/datasource/about-data-sources.md)
 
-## Eventos
+## Eventos {#events}
 
 Los eventos le permiten almacenar en déclencheur sus recorridos de forma unitaria para enviar mensajes, en tiempo real, al individuo que entra en el recorrido.
 
 En la configuración de eventos, se configuran los eventos esperados en los recorridos. Los datos entrantes de los eventos se normalizan siguiendo el modelo de datos de Adobe Experience (XDM). Los eventos provienen de las API de ingesta de transmisión para eventos autenticados y no autenticados (como eventos del SDK de Adobe Mobile). [Más información](../../using/event/about-events.md)
 
-## Acciones
+## Acciones {#actions}
 
 Las funcionalidades de mensajes de Journey Optimizer están incorporadas: solo necesita diseñar el contenido y publicar el mensaje. Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción personalizada. [Más información](../../using/action/action.md)
 

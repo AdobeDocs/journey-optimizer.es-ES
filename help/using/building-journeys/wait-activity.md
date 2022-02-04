@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 5%
 
 ---
 
-# Actividad de espera{#section_rlm_nft_dgb}
+# Actividad de espera{#wait-activity}
 
 Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar un **[!UICONTROL Wait]** actividad. Le permite definir el momento en el que se ejecutará la siguiente actividad. Hay tres opciones disponibles:
 

@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: dc05d88773dc148dc0e5387953f49c4d03b1888f
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# Adición de un mensaje en un recorrido
+# Adición de un mensaje en un recorrido{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] las funciones de mensajes están integradas, solo tiene que diseñar el contenido y publicar el mensaje. Consulte [esta sección](../get-started-content.md). A continuación, simplemente agregue, en su recorrido, un mensaje push o de correo electrónico diseñado con Journey Optimizer.
+[!DNL Journey Optimizer] las funciones de mensajes están integradas, solo tiene que diseñar el contenido y publicar el mensaje. Consulte [esta sección](../messages/get-started-content.md). A continuación, simplemente agregue, en su recorrido, un mensaje push o de correo electrónico diseñado con Journey Optimizer.
 
 Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción personalizada. Obtenga más información en esta [sección](../action/action.md).
 
@@ -49,7 +49,7 @@ Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción 
 
 ## Parámetros de correo electrónico y parámetros push
 
-La variable **[!UICONTROL Email parameters]** y **[!UICONTROL Push parameters]** las secciones muestran campos de solo lectura. Normalmente, se realiza esta configuración al crear el mensaje. Consulte [esta sección](../get-started-content.md).
+La variable **[!UICONTROL Email parameters]** y **[!UICONTROL Push parameters]** las secciones muestran campos de solo lectura. Normalmente, se realiza esta configuración al crear el mensaje. Consulte [esta sección](../messages/get-started-content.md).
 
 ![](../assets/jo-message4.png)
 

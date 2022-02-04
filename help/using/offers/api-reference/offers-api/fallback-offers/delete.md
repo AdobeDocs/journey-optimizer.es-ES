@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 9%
 
 ---
 
-# Eliminar una oferta de reserva
+# Eliminar una oferta de reserva {#delete-fallback-offer}
 
 En ocasiones puede ser necesario eliminar (DELETE) una oferta de reserva. Solo se pueden eliminar las ofertas de reserva que cree en el contenedor de inquilino. Para ello, realiza una solicitud de DELETE al [!DNL Offer Library] API que utiliza el $id de la oferta de reserva que desea eliminar.
 

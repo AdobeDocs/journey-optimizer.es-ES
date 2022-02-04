@@ -1,15 +1,15 @@
 ---
-title: Sintaxis de personalización
+title: Contextos de personalización
 description: 'Obtenga más información sobre las formas de personalizar el contenido y la visualización de los mensajes. '
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 67902b30bb24cad8d08d5bd6d83428885f4987b5
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ En todos los campos con el icono del editor, puede abrir el editor de personaliz
 
 ![](assets/perso_icon.png)
 
-## Personalización de los correos electrónicos
+## Personalización de los correos electrónicos {#personalize-emails}
 
 Al crear un correo electrónico, puede añadir personalización en la variable **[!UICONTROL Subject line]** del mensaje.
 
@@ -29,7 +29,7 @@ Al crear un correo electrónico, puede añadir personalización en la variable *
 
 En el Diseñador de correo electrónico, puede personalizar el contenido:
 
-* En el **message**: haga clic dentro de un bloque de texto y haga clic en el botón **Personalizar** en la barra de herramientas contextual y seleccione **Insertar personalización** campo . Para obtener más información sobre la interfaz del Diseñador de correo electrónico, consulte esta [sección](../design-emails.md).
+* En el **message**: haga clic dentro de un bloque de texto y haga clic en el botón **Personalizar** en la barra de herramientas contextual y seleccione **Insertar personalización** campo . Para obtener más información sobre la interfaz del Diseñador de correo electrónico, consulte esta [sección](../messages/design-emails.md).
 
    ![](assets/perso_insert.png)
 
@@ -41,7 +41,7 @@ En ambos casos, se accede al editor de personalización.
 
 ![](assets/perso_ee.png)
 
-## Personalización de las notificaciones push
+## Personalización de las notificaciones push {#personalize-push}
 
 También puede personalizar su **Notificaciones push** en los campos siguientes:
 
@@ -53,7 +53,7 @@ También puede personalizar su **Notificaciones push** en los campos siguientes:
 
 ![](assets/perso_push.png)
 
-Obtenga más información sobre la configuración de notificaciones push en [esta sección](../push-gs.md).
+Obtenga más información sobre la configuración de notificaciones push en [esta sección](../messages/push-gs.md).
 
 ## Personalización de las ofertas {#personalize-offers}
 

@@ -6,20 +6,20 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 701b8a46b5f22c31bee479ddfb63f8e399cee4a1
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 10%
 
 ---
 
-# Crear una oferta personalizada
+# Crear una oferta personalizada {#create-personalized-offer}
 
 Una oferta personalizada es un mensaje de marketing personalizable basado en reglas y restricciones de idoneidad.
 
 Puede crear una oferta personalizada realizando una solicitud de POST al [!DNL Offer Library] al proporcionar su ID de contenedor.
 
-## Encabezados Accept y Content-Type
+## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
 La tabla siguiente muestra los valores válidos que comprenden el *Content-Type* y *Accept* campos en el encabezado de la solicitud:
 

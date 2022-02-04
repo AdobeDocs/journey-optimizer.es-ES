@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 85%
 
 ---
 
-# Acerca del editor de expresiones avanzadas {#concept_uyj_trt_52b}
+# Acerca del editor de expresiones avanzadas {#about-the-advanced-expression-editor}
 
 Utilice el editor de expresiones avanzadas para crear expresiones avanzadas en varias pantallas de la interfaz. Por ejemplo, se pueden crear expresiones al configurar y utilizar recorridos y al definir una condición de fuente de datos.
 También está disponible cada vez que necesite definir parámetros de acción que requieran manipulaciones de datos específicas. Puede aprovechar los datos procedentes de los eventos o la información adicional recuperada del origen de datos. En un viaje, la lista mostrada de los campos de evento es contextual y varía según los eventos agregados en el recorrido.
@@ -38,7 +38,7 @@ Cuando sea posible, puede cambiar entre los dos modos con el botón **[!UICONTRO
 >
 >Los parámetros de acción se pueden definir seleccionando campos o mediante el editor de expresiones avanzadas. Devuelven un tipo de datos específico según su expresión.
 
-## Acceso al editor de expresiones avanzadas {#section_fdz_4nj_cjb}
+## Acceso al editor de expresiones avanzadas {#accessing-the-advanced-expression-editor}
 
 Puede acceder al editor de expresiones avanzadas de diferentes maneras:
 
@@ -49,7 +49,7 @@ Puede acceder al editor de expresiones avanzadas de diferentes maneras:
 * Al crear un temporizador personalizado, se mostrará directamente el editor avanzado.
 * Cuando asigne un parámetro de acción, haga clic en **[!UICONTROL Advanced mode]**.
 
-## Descubrimiento de la interfaz{#section_otq_tnj_cjb}
+## Descubrimiento de la interfaz{#discovering-the-interface}
 
 Esta pantalla le permite escribir manualmente su expresión.
 

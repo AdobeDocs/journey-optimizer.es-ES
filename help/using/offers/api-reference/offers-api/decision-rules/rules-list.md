@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 5%
 
 ---
 
-# Enumerar reglas de decisión
+# Enumerar reglas de decisión {#list-decision-rules}
 
 Las reglas de decisión son restricciones agregadas a una oferta personalizada y aplicadas a un perfil para determinar la idoneidad. Puede ver una lista de las reglas de decisión existentes dentro de un contenedor realizando una única solicitud de GET al [!DNL Offer Library] API.
 
@@ -30,11 +30,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | `{SCHEMA_ELIGIBILITY_RULE}` | Define el esquema asociado a las reglas de decisión. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
 | `{QUERY_PARAMS}` | Parámetros de consulta opcionales para filtrar los resultados por. | `limit=1` |
 
-## Uso de parámetros de consulta
+## Uso de parámetros de consulta {#using-query-parameters}
 
 Puede utilizar parámetros de consulta para filtrar los resultados y la página cuando enumere recursos.
 
-### Paginación
+### Paginación {#paging}
 
 Los parámetros de consulta más comunes para la paginación incluyen:
 

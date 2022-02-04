@@ -1,19 +1,19 @@
 ---
 title: Introducción a Administración de decisiones
-description: Introducción a Administración de decisiones. Obtenga más información acerca de su arquitectura, ofertas y decisiones, así como los casos de uso comunes que le permite realizar.
+description: Introducción a Administración de decisiones. Obtenga más información acerca de su arquitectura, ofertas y decisiones, así como los casos de uso comunes que le permite realizar
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 88%
 
 ---
 
-# Acerca de Administración de decisiones {#about-offer-decision}
+# Acerca de Administración de decisiones {#about-decision-management}
 
 Utilice [!DNL Journey Optimizer] para ofrecer la mejor oferta y experiencia a sus clientes en todos los puntos de contacto y en el momento adecuado. Una vez diseñadas, las audiencias se segmentarán con ofertas personalizadas.
 
@@ -36,7 +36,7 @@ Los beneficios incluyen:
 
 ➡️ [Vea estos tutoriales en vídeo](#tutorial-videos) para obtener más información sobre Administración de decisiones.
 
-## Acerca de las ofertas y las decisiones {#offers-offer-activities}
+## Acerca de las ofertas y las decisiones {#about-offers-and-decisions}
 
 Una **oferta** está formada por contenido, reglas de elegibilidad y restricciones que definen las condiciones en las que se presenta a sus clientes.
 
@@ -48,7 +48,7 @@ Una vez que la Biblioteca de ofertas se haya enriquecido con ofertas, puede inte
 
 Las decisiones son contenedores para sus ofertas que aprovecharán el motor de decisión de ofertas para elegir la mejor y ofrecerla según el objetivo de la entrega.
 
-## Casos de uso comunes
+## Casos de uso comunes {#common-use-cases}
 
 Las funciones y la integración de Administración de decisiones con Adobe Experience Platform le permiten cubrir numerosos casos de uso para ayudarle a aumentar la participación y la conversión de los clientes.
 

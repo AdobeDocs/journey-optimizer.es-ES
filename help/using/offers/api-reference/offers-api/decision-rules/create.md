@@ -6,18 +6,18 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 12%
 
 ---
 
-# Crear una regla de decisión
+# Crear una regla de decisión {#create-decision-rule}
 
 Las reglas de decisión son restricciones agregadas a una oferta personalizada y aplicadas a un perfil para determinar la idoneidad.
 
-## Encabezados Accept y Content-Type
+## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
 La tabla siguiente muestra los valores válidos que comprenden el *Content-Type* y *Accept* campos en el encabezado de la solicitud:
 

@@ -8,7 +8,7 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 19%
@@ -32,7 +32,7 @@ Uno de los casos de uso más comunes consiste en invitar a sus clientes a [suscr
 
 Por ejemplo, supongamos que organiza un evento el mes que viene y desea iniciar una campaña de registro de eventos<!--to keep your customers that are interested updated on that event-->. Para ello, se envía un correo electrónico que incluye un vínculo a una página de aterrizaje que permite a los destinatarios registrarse en este evento. Los usuarios que se registren se agregarán a la lista de suscripción que haya creado con este fin.
 
-### Configurar página de aterrizaje
+### Configurar página de aterrizaje {#set-up-lp}
 
 1. Cree la lista de suscripción del registro de eventos, que almacenará los usuarios registrados. Obtenga información sobre cómo crear una lista de suscripción [here](subscription-list.md#define-subscription-list).
 
@@ -52,13 +52,13 @@ Por ejemplo, supongamos que organiza un evento el mes que viene y desea iniciar 
 
 1. [Publicación](create-lp.md#publish) la página de aterrizaje.
 
-1. [Creación de un mensaje de correo electrónico](../create-message.md) para anunciar que el registro está abierto para su evento.
+1. [Creación de un mensaje de correo electrónico](../messages/create-message.md) para anunciar que el registro está abierto para su evento.
 
-1. [Inserción de un vínculo](../message-tracking.md#insert-links) en el contenido del mensaje. Select **[!UICONTROL Landing page]** como el **[!UICONTROL Link type]** y seleccione [página de aterrizaje](create-lp.md#configure-primary-page) que ha creado para el registro.
+1. [Inserción de un vínculo](../messages/message-tracking.md#insert-links) en el contenido del mensaje. Select **[!UICONTROL Landing page]** como el **[!UICONTROL Link type]** y seleccione [página de aterrizaje](create-lp.md#configure-primary-page) que ha creado para el registro.
 
    ![](../assets/lp_subscription-uc-link.png)
 
-1. Guarde el contenido y [publique el mensaje](../publish-manage-message.md).
+1. Guarde el contenido y [publique el mensaje](../messages/publish-manage-message.md).
 
 1. Envíe su mensaje a través de un [recorrido](../building-journeys/journey.md) para dirigir el tráfico a la página de aterrizaje de registro.
 
@@ -92,7 +92,7 @@ Todos los usuarios que se hayan registrado para el evento recibirán el correo e
 
 Para permitir que sus destinatarios cancelen la suscripción a sus comunicaciones, puede incluir un vínculo a una página de aterrizaje de exclusión en sus correos electrónicos.
 
-Obtenga más información sobre la administración del consentimiento de los destinatarios y por qué esto es importante en [esta sección](../consent.md).
+Obtenga más información sobre la administración del consentimiento de los destinatarios y por qué esto es importante en [esta sección](../messages/consent.md).
 
 ### Administración de exclusiones {#opt-out-management}
 
@@ -129,9 +129,9 @@ Para permitir que los destinatarios de un correo electrónico cancelen la suscri
 
    ![](../assets/lp_opt-out-publish.png)
 
-1. [Creación de un mensaje de correo electrónico](../create-message.md) en [!DNL Journey Optimizer].
+1. [Creación de un mensaje de correo electrónico](../messages/create-message.md) en [!DNL Journey Optimizer].
 
-1. Seleccione texto en el contenido y [insertar un vínculo](../message-tracking.md#insert-links) con la barra de herramientas contextual. También puede utilizar un vínculo en un botón.
+1. Seleccione texto en el contenido y [insertar un vínculo](../messages/message-tracking.md#insert-links) con la barra de herramientas contextual. También puede utilizar un vínculo en un botón.
 
    ![](../assets/lp_opt-out-insert-link.png)
 
@@ -139,7 +139,7 @@ Para permitir que los destinatarios de un correo electrónico cancelen la suscri
 
    ![](../assets/lp_opt-out-landing-page.png)
 
-1. Guarde el contenido y [publique el mensaje](../publish-manage-message.md).
+1. Guarde el contenido y [publique el mensaje](../messages/publish-manage-message.md).
 
 1. Envíe su mensaje a través de un recorrido. [Más información](../building-journeys/journey.md).
 
@@ -167,9 +167,9 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **One-click opt-out**
 
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../message-tracking.md#one-click-opt-out-link)
+    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../messages/message-tracking.md#one-click-opt-out-link)
 
 * **Unsubscribe link in header**
 
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../consent.md#unsubscribe-email)
+    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-email)
 -->

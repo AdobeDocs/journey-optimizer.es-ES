@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 84%
+source-wordcount: '1041'
+ht-degree: 81%
 
 ---
 
-# Resolución de problemas{#concept_nlv_bcv_2fb}
+# Resolución de problemas del recorrido{#troubleshooting}
 
 En esta sección, encontrará cómo solucionar problemas de recorridos antes de realizar pruebas o publicar. Todas las comprobaciones que se indican a continuación se pueden realizar cuando el recorrido está en modo de prueba o cuando el recorrido está activo. La recomendación es realizar todas las comprobaciones siguientes en el modo de prueba y luego proceder a la publicación. Consulte [esta página](../building-journeys/testing-the-journey.md).
 
-## Comprobación de errores antes de probar{#section_h3q_kqk_fhb}
+## Comprobar errores antes de probar{#checking-for-errors-before-testing}
 
 Antes de probar y publicar el recorrido, compruebe que todas las actividades estén correctamente configuradas. No puede realizar pruebas ni publicaciones si el sistema sigue detectando errores.
 
@@ -41,7 +41,7 @@ Los errores y las advertencias que son globales para el recorrido aparecen prime
 
 Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera para continuar es marcar la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
 
-## Comprobación de que los eventos se envían correctamente{#section_rqz_11t_dgb}
+## Compruebe que los eventos se envíen correctamente{#checking-that-events-are-properly-sent}
 
 El punto de partida de un recorrido es siempre un evento. Puede hacer pruebas con herramientas como Postman.
 
@@ -49,7 +49,7 @@ Puede comprobar si la llamada API que envía a través de estas herramientas se 
 
 Los eventos no se insertan directamente del origen a los recorridos. De hecho, los recorridos dependen de las API de ingesta de transmisión de Adobe Experience Platform. Como resultado, en caso de problemas relacionados con eventos, puede hacer referencia a [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;} para la solución de problemas de las API de ingesta de transmisión.
 
-## Comprobación de si las personas entran en el recorrido{#section_x4v_zzs_dgb}
+## Comprobar si las personas entran en el recorrido{#checking-if-people-enter-the-journey}
 
 Los informes de recorrido miden las entradas de la gente en un recorrido en tiempo real.
 
@@ -69,7 +69,7 @@ A continuación se indican algunas cosas que el administrador debe comprobar:
    Content-type - application/json
    ```
 
-## Comprobación de cómo navegan las personas a través del recorrido {#section_l5y_yzs_dgb}
+## Comprobar cómo navegan las personas a través del recorrido{#checking-how-people-navigate-through-the-journey}
 
 Los informes de recorrido miden el progreso de las personas dentro de un recorrido. Es fácil identificar dónde y por qué detuvieron a una persona.
 
@@ -78,7 +78,7 @@ A continuación se presentan algunas cosas para comprobar:
 * ¿Se debe a una condición que excluye a la persona? Por ejemplo, la condición es &quot;género = hombre&quot; y la persona es mujer. Esta comprobación puede realizarla un usuario empresarial si la condición no es demasiado compleja.
 * ¿Se debe a que una llamada a una fuente de datos no responde? Cuando el recorrido está en prueba, esta información se puede ver en los registros del modo de prueba. Cuando el recorrido está activo, un administrador puede probar las llamadas directas a la fuente de datos y comprobar la respuesta recibida. Un administrador también puede realizar el duplicado del recorrido y probarlo.
 
-## Comprobación de que los mensajes se envían correctamente{#section_qb1_yzs_dgb}
+## Comprobar que los mensajes se envíen correctamente{#checking-that-messages-are-sent-successfully}
 
 Si los individuos recorren el recorrido correcto, pero no reciben mensajes que deberían recibir, puede comprobar lo siguiente:
 

@@ -1,22 +1,12 @@
 ---
 title: Reintentos
 description: Descubra cómo se realizan los reintentos antes de enviar una dirección a la lista de supresión
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 2%
@@ -29,7 +19,7 @@ Cuando un mensaje de correo electrónico falla debido a una **Rechazo suave** , 
 
 >[!NOTE]
 >
->Obtenga más información sobre los tipos de errores en la [Tipos de errores de entrega](../suppression-list.md#delivery-failures) para obtener más información.
+>Obtenga más información sobre los tipos de errores en la [Tipos de errores de entrega](../messages/suppression-list.md#delivery-failures) para obtener más información.
 
 En la configuración predeterminada, el umbral se establece en 5 errores.
 
@@ -55,11 +45,7 @@ Si el valor predeterminado de 5 no se adapta a sus necesidades, puede modificar 
 
    >[!CAUTION]
    >
-   >Cualquier valor superior a 10 puede causar problemas de reputación de envío, así como restricciones de IP o inclusión en la lista de bloqueados por parte de los ISP. [Más información sobre la capacidad de entrega](../deliverability.md)
-
-<!--![](../assets/retries-edition.png)-->
-
-<!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
+   >Cualquier valor superior a 10 puede causar problemas de reputación de envío, así como restricciones de IP o inclusión en la lista de bloqueados por parte de los ISP. [Más información sobre la capacidad de entrega](../messages/deliverability.md)
 
 ## Período de tiempo de reintento {#retry-duration}
 
@@ -77,6 +63,3 @@ Por ejemplo, puede establecer el periodo de reintento en 24 horas para un correo
 
 Obtenga información sobre cómo ajustar los parámetros de reintento de correo electrónico al crear un ajuste preestablecido de mensaje en [esta sección](message-presets.md#create-message-preset).
 
-<!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
-
-<!--Once a message has been in the retry queue for a maximum of 3.5 days and has failed to deliver, it will time out and its status will be updated to Failed??-->

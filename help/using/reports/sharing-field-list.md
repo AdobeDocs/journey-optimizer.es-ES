@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -22,13 +22,13 @@ Los campos de evento de paso se organizan por categoría.
 * Campos de perfil
 * Campos de evento de servicio
 
-## debugInfo
+## debugInfo {#debuginfo-field}
 
 | Nombre del campo | Tipo | Descripción |
 |---|---|------------|
 | requestId | Cadena | Id de solicitud utilizado por el Journey Orchestration para rastrear el flujo de una solicitud. |
 
-## recorrido
+## recorrido {#journey-field}
 
 Este grupo de campos se utiliza en el esquema de recorrido (en relación con journeyStepEvent). Contiene los siguientes campos:
 
@@ -40,7 +40,7 @@ Este grupo de campos se utiliza en el esquema de recorrido (en relación con jou
 | descripción | Cadena | Descripción del recorrido |
 | version | Cadena | versión, representada como `major`.`minor` |
 
-## perfil
+## perfil {#profile-field}
 
 Este grupo de campos es específico de journeyStepEvent: este evento está relacionado con recorrido y no tiene el mapa de identidad, que describe la identidad del perfil, si la hay.
 
@@ -51,7 +51,7 @@ Para journeyStepEvent, también se deben añadir campos relacionados con la iden
 | ID | Cadena | El identificador de perfil identifica el perfil enviado/utilizado en un recorrido. Por ejemplo: foo@adobe.com. |
 | namespace | Cadena | Este campo describe el área de nombres a la que hace referencia el perfil utilizado en el Recorrido. Por ejemplo: Correo electrónico, ECID |
 
-## serviceEvents
+## serviceEvents {#servicevents-field}
 
 Esta mezcla contiene todos los campos correspondientes a un trabajo de exportación de perfil.
 
@@ -66,6 +66,6 @@ Esta mezcla contiene todos los campos correspondientes a un trabajo de exportaci
 | eventType | Cadena | El tipo de evento que indica si se trata de un evento de error de un evento de información: Información, error |
 | eventCode | Cadena | El código de error que indica el motivo del eventoType correspondiente |
 
-## stepEvents
+## stepEvents {#stepevents-field}
 
 Esta categoría contiene los campos de evento de paso originales. Consulte esta [sección](../reports/sharing-legacy-fields.md).

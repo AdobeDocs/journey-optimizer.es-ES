@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: 4e52be8fb4a6b996d20cc831247b7e4f6d333840
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
-# Funciones {#concept_p1r_qj5_dgb}
+# Funciones {#functions}
 
 Una función puede tener firmas diferentes (un conjunto diferente de parámetros ordenados). Una firma de función puede tener expresiones 0-N como parámetros ordenados.
 
@@ -45,20 +45,20 @@ Esta es la lista de funciones compatibles.
 | Conversión | [toDuration](../functions/functiontoduration.md) |
 | Conversión | [toInteger](../functions/functiontointeger.md) |
 | Conversión | [toString](../functions/functiontostring.md) |
-| Fecha  | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
-| Fecha  | [inLastDays](../functions/functioninlastdays.md) |
-| Fecha  | [inLastHours](../functions/functioninlasthours.md) |
-| Fecha  | [inLastMonths](../functions/functioninlastmonths.md) |
-| Fecha  | [inLastYears](../functions/functioninlastyears.md) |
-| Fecha  | [inNextDays](../functions/functioninnextdays.md) |
-| Fecha  | [inNextHours](../functions/functioninnexthours.md) |
-| Fecha  | [inNextMonths](../functions/functioninnextmonths.md) |
-| Fecha  | [inNextYears](../functions/functioninnextyears.md) |
-| Fecha  | [now](../functions/functionnow.md) |
-| Fecha  | [nowWithDelta](../functions/functionnowwithdelta.md) |
-| Fecha  | [setHours](../functions/functionsethours.md) |
-| Fecha  | [setDays](../functions/functionsetdays.md) |
-| Fecha  | [updateTimeZone](../functions/functionupdatetimezone.md) |
+| Fecha | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
+| Fecha | [inLastDays](../functions/functioninlastdays.md) |
+| Fecha | [inLastHours](../functions/functioninlasthours.md) |
+| Fecha | [inLastMonths](../functions/functioninlastmonths.md) |
+| Fecha | [inLastYears](../functions/functioninlastyears.md) |
+| Fecha | [inNextDays](../functions/functioninnextdays.md) |
+| Fecha | [inNextHours](../functions/functioninnexthours.md) |
+| Fecha | [inNextMonths](../functions/functioninnextmonths.md) |
+| Fecha | [inNextYears](../functions/functioninnextyears.md) |
+| Fecha | [now](../functions/functionnow.md) |
+| Fecha | [nowWithDelta](../functions/functionnowwithdelta.md) |
+| Fecha | [setHours](../functions/functionsethours.md) |
+| Fecha | [setDays](../functions/functionsetdays.md) |
+| Fecha | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | Lista | [distinct](../functions/functiondistinct.md) |
 | Lista | [distinctWithNull](../functions/functiondistinctwithnull.md) |
 | Lista | [filter](../functions/functionfilter.md) |

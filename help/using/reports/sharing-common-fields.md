@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 9%
@@ -21,7 +21,7 @@ Estos son los campos XDM comunes que [!DNL Journey Optimizer] envía a Adobe Exp
 
 Algunos de estos campos solo están disponibles en patrones de procesamiento específicos (ejecución de acciones, recuperación de datos, etc.) para limitar el tamaño de los eventos.
 
-## entrada
+## entrada {#entrance-field}
 
 Indica si el usuario ha introducido el recorrido. Si no está presente, supongamos que el valor es falso.
 
@@ -29,7 +29,7 @@ Tipo: booleano
 
 Valores: true/false
 
-## reentrada
+## reentrada {#reentrance-field}
 
 Indica si el usuario ha vuelto a entrar en el recorrido con la misma instancia. Si no está presente, supongamos que el valor es falso.
 
@@ -37,37 +37,37 @@ Tipo: booleano
 
 Valores: true/false
 
-## instanceEnded
+## instanceEnded {#instance-ended-field}
 
 Indica si la instancia ha finalizado (con éxito o no).
 
 Tipo: booleano
 
-## eventID
+## eventID {#eventid-field}
 
 ID de evento en procesamiento, para el procesamiento de pasos. Si el evento es externo, el valor es eventId. Si el evento es interno, el valor es el eventId interno (como scheduledNotificationReceived, executeAction, etc.).
 
 Tipo: cadena
 
-## nodeID
+## nodeID {#nodeid-field}
 
 ID de nodo de cliente (desde el lienzo).
 
 Tipo: cadena
 
-## stepID
+## stepID {#stepdid-field}
 
 ID único del paso que se está procesando actualmente.
 
 Tipo: cadena
 
-## stepName
+## stepName {#stepname-field}
 
 Nombre del paso que se está procesando actualmente.
 
 Tipo: cadena
 
-## stepType
+## stepType {#steptype-field}
 
 Tipo del paso.
 
@@ -80,7 +80,7 @@ Valores posibles:
 * Planificador
 * Temporizador
 
-## stepStatus
+## stepStatus {#stepstatus-field}
 
 Estado del paso, que representa el estado del paso, cuándo se ha completado su procesamiento (y el evento de paso se ha activado).
 
@@ -95,79 +95,79 @@ El estado puede ser:
 * tiempo de espera: el paso ha fallado en un error de tiempo de espera, producido durante una acción o enriquecimiento.
 * instanceTimedout: el paso ha detenido su procesamiento, ya que la instancia ha alcanzado su tiempo de espera.
 
-## journeyID
+## journeyID {#journeyid-field}
 
 ID del recorrido.
 
 Tipo: cadena
 
-## journeyVersionID
+## journeyVersionID {#journeyversionid-field}
 
 ID de la versión de recorrido. Este id representa la referencia de identidad al recorrido, en el caso de journeyStepEvent.
 
 Tipo: cadena
 
-## journeyVersionName
+## journeyVersionName {#journeyversionname-field}
 
 Nombre de la versión de recorrido.
 
 Tipo: cadena
 
-## journeyVersion
+## journeyVersion {#journeyversion-field}
 
 Versión de la versión de recorrido.
 
 Tipo: cadena
 
-## instanceID
+## instanceID {#instanceid-field}
 
 ID interno de la instancia de recorrido.
 
 Tipo: cadena
 
-## externalKey
+## externalKey {#externalkey-field}
 
 Clave externa extraída del evento para procesarla.
 
 Tipo: cadena
 
-## parentStepID
+## parentStepID {#parenstepid-field}
 
 ID de paso del paso principal del paso procesado actual en la instancia.
 
 Tipo: cadena
 
-## parentStepName
+## parentStepName {#parentstepname-field}
 
 Nombre del paso principal del paso actual.
 
 Tipo: cadena
 
-## parentTransitionID
+## parentTransitionID {#parenttransitionid-field}
 
 Id de la transición que ha llevado la instancia al paso procesado.
 
 Tipo: cadena
 
-## parentTransitionName
+## parentTransitionName {#parenttransitionname-field}
 
 Nombre de la transición que ha llevado la instancia al paso procesado.
 
 Tipo: cadena
 
-## inTest
+## inTest {#intest-field}
 
 Se indica si este recorrido está en modo de prueba o no.
 
 Tipo: booleano
 
-## processingTime
+## processingTime {#processingtime-field}
 
 Cantidad total de tiempo en milisegundos desde la entrada del paso de la instancia hasta el final del procesamiento.
 
 Tipo: long
 
-## instanceType
+## instanceType {#instancetype-field}
 
 Indica el tipo de instancia, si es por lotes o unitarios.
 
@@ -175,31 +175,31 @@ Tipo: cadena
 
 Valores: lote/unidad
 
-## recurrenceIndex
+## recurrenceIndex {#recurrenceindex-field}
 
 Índice de la periodicidad si el recorrido es por lotes y recurrente (la primera ejecución tiene el índice de recurrencia = 1).
 
 Tipo: long
 
-## isBatchToUnitary
+## isBatchToUnitary {#isbatchtounitary-field}
 
 Indica si esta instancia unitaria se ha activado desde una instancia por lotes.
 
 Tipo: booleano
 
-## batchExternalKey
+## batchExternalKey {#batchexternalkey-field}
 
 Clave externa para el evento por lotes.
 
 Tipo: cadena
 
-## batchInstanceID
+## batchInstanceID {#batchinstanceid-field}
 
 es el ID de instancia por lotes.
 
 Tipo: cadena
 
-## batchUnitaryBranchID
+## batchUnitaryBranchID {#batchunitarybranchid-field}
 
 si la instancia se ha activado desde una instancia de lote, ID de rama unitaria.
 

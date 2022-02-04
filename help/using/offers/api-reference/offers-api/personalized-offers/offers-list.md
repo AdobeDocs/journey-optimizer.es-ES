@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 6%
 
 ---
 
-# Enumerar ofertas personalizadas
+# Enumerar ofertas personalizadas {#list-personalized-offers}
 
 Una oferta personalizada es un mensaje de marketing personalizable basado en reglas y restricciones de idoneidad.
 
@@ -44,11 +44,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Uso de parámetros de consulta
+## Uso de parámetros de consulta {#using-query-parameters}
 
 Puede utilizar parámetros de consulta para filtrar los resultados y la página cuando enumere recursos.
 
-### Paginación
+### Paginación {#paging}
 
 Los parámetros de consulta más comunes para la paginación incluyen:
 

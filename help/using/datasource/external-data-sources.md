@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: bcc77934464b6211cbb03e8830b456ecc157cb80
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 88%
 
 ---
 
-# Fuentes de datos externas {#concept_t2s_kqt_52b}
+# Fuentes de datos externas {#external-data-sources}
 
 Las fuentes de datos externas permiten definir una conexión a sistemas de terceros, por ejemplo, si utiliza un sistema de reserva de hoteles para comprobar si la persona ha registrado una habitación. A diferencia de la fuente de datos integrada de Adobe Experience Platform, puede crear tantas fuentes de datos externas como necesite.
 
@@ -53,7 +53,7 @@ Estos son los pasos principales para crear y configurar una nueva fuente de dato
 
    ![](../assets/journey27.png)
 
-1. Configure la autenticación según la configuración del servicio externo: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** o **[!UICONTROL API key]**. Para obtener más información sobre el modo de autenticación personalizada, consulte [esta sección](../datasource/external-data-sources.md#section_wjp_nl5_nhb). En nuestro ejemplo, elegimos:
+1. Configure la autenticación según la configuración del servicio externo: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** o **[!UICONTROL API key]**. Para obtener más información sobre el modo de autenticación personalizada, consulte [esta sección](../datasource/external-data-sources.md#custom-authentication-mode). En nuestro ejemplo, elegimos:
 
    * **[!UICONTROL Type]**: &quot;clave de API&quot;
    * **[!UICONTROL Name]**: &quot;appid&quot; (el nombre del parámetro de clave de API)
@@ -87,7 +87,7 @@ Haga clic en **[!UICONTROL Save]**.
 
 La fuente de datos ahora está configurada y lista para utilizarse en sus recorridos, por ejemplo en sus condiciones o para personalizar un correo electrónico. Si la temperatura es superior a 30 °C, puede decidir enviar una comunicación específica.
 
-## Modo de autenticación personalizado{#section_wjp_nl5_nhb}
+## Modo de autenticación personalizado{#custom-authentication-mode}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"

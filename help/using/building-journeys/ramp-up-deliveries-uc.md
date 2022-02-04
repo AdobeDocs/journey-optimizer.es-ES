@@ -5,19 +5,19 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 980aedcd0fb4dba161dc0041a77e0f8d06d6fe68
+exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 3%
 
 ---
 
-
-# Caso de uso: ampliar las entregas
+# Caso de uso: ampliar las entregas{#use-case-ramp-up-your-deliveries}
 
 Si se ha trasladado recientemente a otro proveedor de servicios de correo electrónico, dirección IP, dominio o subdominio de correo electrónico, debe establecer su reputación de remitente. De lo contrario, los envíos podrían bloquearse o moverse a la carpeta de correo no deseado del buzón de los destinatarios. Aprenda a aumentar su reputación de correo electrónico con el calentamiento de IP en la [Guía de prácticas recomendadas sobre la capacidad de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target=&quot;_blank&quot;}.
 
-Para calentar su IP, puede aumentar gradualmente el número de envíos. Más información sobre [optimización de la capacidad de entrega en Journey Optimizer](../deliverability.md).
+Para calentar su IP, puede aumentar gradualmente el número de envíos. Más información sobre [optimización de la capacidad de entrega en Journey Optimizer](../messages/deliverability.md).
 
 El propósito de este caso de uso es crear un recorrido para aumentar los envíos de correo electrónico. Para configurar este recorrido, siga estos pasos:
 
@@ -44,8 +44,3 @@ El propósito de este caso de uso es crear un recorrido para aumentar los envío
 1. Complete el recorrido con las actividades de su elección.
 
 Una vez que su IP se haya calentado, puede eliminar esta condición.
-
-
-
-
-

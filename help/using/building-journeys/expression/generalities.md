@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: eecf878334b22f82d75fdf7b7240475d695414d7
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 5%
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # Sintaxis del editor de expresiones avanzadas {#syntax}
 
-## Paréntesis y prioridad de expresión{#section_edf_fks_bgb}
+## Paréntesis y prioridad de expresión{#parentheses-and-expression-priority}
 
 Los paréntesis se pueden utilizar para que una expresión compleja sea más legible. _(&lt;expression>)_ es el equivalente de _&lt;expression>_. Los paréntesis también se pueden utilizar para definir el orden de evaluación y la asociatividad.
 
@@ -28,7 +28,7 @@ Las expresiones se evalúan de izquierda a derecha. Se debe aplicar la asociativ
 | `4 + 2 * 10` | <ul><li>&#39;*&#39; tiene prioridad sobre &#39;+&#39;: 2 * 10 se evalúa → 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>Los paréntesis cambian la prioridad: (4 + 2) se evalúa → 6</li><li> 6 * 10 → 60</li></ul> |
 
-## Distinción entre mayúsculas y minúsculas{#section_lrb_xh5_dgb}
+## Distinción entre mayúsculas y minúsculas{#case-sensitivity}
 
 Estas son las distintas reglas de distinción entre mayúsculas y minúsculas:
 
@@ -36,7 +36,7 @@ Estas son las distintas reglas de distinción entre mayúsculas y minúsculas:
 * Todos los nombres de funciones distinguen entre mayúsculas y minúsculas. Por ejemplo, _inSegment()_ es válido mientras que la función _INSEGMENT()_ no.
 * Las referencias de campo y los valores constantes distinguen entre mayúsculas y minúsculas: no son elementos integrados del idioma (a diferencia de los operadores y funciones), los crea el usuario final.
 
-## Tipo de expresión devuelto{#section_gyc_435_53b}
+## Tipo de expresión devuelto{#returned-expression-type}
 
 Según el contexto de uso, el editor de expresiones puede devolver valores diferentes.
 

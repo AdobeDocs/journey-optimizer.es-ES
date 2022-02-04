@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 4%
 
 ---
 
-# Buscar reglas de decisión
+# Buscar una regla de decisión {#lookup-decision-rule}
 
 Puede consultar una regla de decisión específica realizando una solicitud de GET al [!DNL Offer Library] API que incluye la regla de decisión `@id` o el nombre de la regla de decisión en la ruta de solicitud.
 

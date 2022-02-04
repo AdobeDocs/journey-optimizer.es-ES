@@ -1,12 +1,12 @@
 ---
 title: Introducción a la exportación del catálogo de ofertas
-description: Esta sección enumera todos los campos utilizados en el conjunto de datos exportado para tomar decisiones.
+description: Esta sección enumera todos los campos utilizados en el conjunto de datos exportado para tomar decisiones
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 3%
@@ -29,14 +29,14 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
 
-## Identificador
+## Identificador {#identifier}
 
 **Campo:** _id
 **Título:** Identificador
 **Descripción:** Identificador único del registro.
 **Tipo:** cadena
 
-## _experiencia
+## _experiencia {#experience}
 
 **Campo:** _experience
 **Tipo:** object
@@ -254,7 +254,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 **Descripción:** La decisión (anteriormente conocida como actividad) es la fecha de inicio y la hora de finalización. La propiedad tiene la semántica de la propiedad &#39;startTime&#39; de schema.org definida en http://schema.org/Action.
 **Tipo:** cadena
 
-## _repo
+## _repo {#repo}
 
 **Campo:** _repo
 **Tipo:** object

@@ -6,18 +6,18 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 12%
 
 ---
 
-# Crear una oferta de reserva
+# Crear una oferta de reserva {#create-fallback-offer}
 
 Puede crear una oferta de reserva realizando una solicitud de POST al [!DNL Offer Library] al proporcionar su ID de contenedor.
 
-## Encabezados Accept y Content-Type
+## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
 La tabla siguiente muestra los valores válidos que comprenden el *Content-Type* y *Accept* campos en el encabezado de la solicitud:
 

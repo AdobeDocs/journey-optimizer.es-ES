@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 13%
@@ -19,37 +19,37 @@ Este grupo de campos se compartirá mediante journeyStepEvent y journeyStepProfi
 
 Si el paso tiene que procesarse una acción, esos campos se añaden a la carga útil de evento.
 
-## actionID
+## actionID {#actionid-field}
 
 ID de la acción que se está ejecutando.
 
 Tipo: cadena
 
-## actionName
+## actionName {#actionname-field}
 
 Nombre de la acción. Si no se ha establecido ningún nombre, se tomará el valor stepName.
 
 Tipo: cadena
 
-## actionType
+## actionType {#actionType-field}
 
 Tipo de acción.
 
 Tipo: cadena
 
-## actionParameterized
+## actionParameterized {#actionparameterized-field}
 
 Indica si la acción está parametrizada o no.
 
 Tipo: booleano
 
-## actionExecutionTime
+## actionExecutionTime {#actionexecutiontime-field}
 
 Cantidad de tiempo (en milisegundos) que se tarda en ejecutar una acción actual.
 
 Tipo: long
 
-## actionExecutionError
+## actionExecutionError {#actionexecutionerror-field}
 
 Tipo de error que se produce cuando se llama a la acción.
 
@@ -61,13 +61,13 @@ Valores:
 * timeout
 * error
 
-## actionExecutionErrorCode
+## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 
 Código de error de ejecución de acción. Presente si el error tiene un código, como uno HTTP.
 
 Tipo: cadena
 
-## actionExecutionOriginError
+## actionExecutionOriginError {#actionexecutionoriginerror-field}
 
 Se puede producir un tiempo de espera, en dos casos:
 
@@ -89,13 +89,13 @@ Por ejemplo, se envía un correo electrónico y se devuelve un error HTTP 500 en
 
 Tipo: cadena
 
-## actionExecutionOriginCode
+## actionExecutionOriginCode {#actionexecutionorigincode-field}
 
 Código de error de actionExecOrigError.
 
 Tipo: cadena
 
-## actionBusinessType
+## actionBusinessType {#actionbusinesstype-field}
 
 Indica el tipo de acción.
 
@@ -111,25 +111,25 @@ Valores:
 
 Tipo: cadena
 
-## deliveryJobID
+## deliveryJobID {#deliveryjobid-field}
 
 Esto describe el Id. de trabajo de entrega para el Recorrido por lotes.
 
 Tipo: cadena
 
-## batchDeliveryID
+## batchDeliveryID {#batchdeliveryid-field}
 
 Esto describe el ID de entrega del Recorrido por lotes.
 
 Tipo: cadena
 
-## fromSegmentTrigger
+## fromSegmentTrigger {#fromsegmenttrigger-field}
 
 Esto indica si el Recorrido de lotes se activa desde el segmento de audiencia.
 
 Tipo: booleano
 
-## actionSchedulerCount
+## actionSchedulerCount {#actionschedulercount-field}
 
 Recuento de solicitudes de notificación del planificador enviadas al servicio del planificador durante el procesamiento de pasos.
 

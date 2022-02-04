@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 6%
 
 ---
 
-# Eliminar una decisión
+# Eliminar una decisión {#delete-decision}
 
 Ocasionalmente puede ser necesario eliminar (DELETE) una decisión (anteriormente conocida como actividad de oferta). Solo se pueden eliminar las decisiones que se creen en el contenedor de inquilino. Para ello, realiza una solicitud de DELETE al [!DNL Offer Library] API que utiliza el $id de la oferta de reserva que desea eliminar.
 

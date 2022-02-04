@@ -1,5 +1,5 @@
 ---
-title: Diseño de una página de aterrizaje
+title: Diseño de una página de destino
 description: Aprenda a diseñar el contenido de una página de aterrizaje en Journey Optimizer
 feature: Landing Pages
 topic: Content Management
@@ -8,10 +8,10 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '720'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -23,15 +23,15 @@ Para empezar a crear contenido para el aterrizaje [página principal](create-lp.
 
 Desde allí puede:
 
-* **Diseño de la página de aterrizaje desde cero** a través de la interfaz del diseñador de contenido y aproveche las imágenes de [Adobe Experience Manager Assets Essentials](../assets-essentials.md). Aprenda a diseñar su contenido o a utilizar plantillas integradas [en esta sección](../create-email-content.md).
+* **Diseño de la página de aterrizaje desde cero** a través de la interfaz del diseñador de contenido y aproveche las imágenes de [Adobe Experience Manager Assets Essentials](../messages/assets-essentials.md). Aprenda a diseñar su contenido o a utilizar plantillas integradas [en esta sección](../messages/create-email-content.md).
 
-* **HTML sin procesar de código o pegado** directamente en el diseñador de contenido. Aprenda a codificar su propio contenido [en esta sección](../existing-content.md#import-raw-html-code).
+* **HTML sin procesar de código o pegado** directamente en el diseñador de contenido. Aprenda a codificar su propio contenido [en esta sección](../messages/existing-content.md#import-raw-html-code).
 
-* **Importar contenido de HTML existente** desde un archivo o una carpeta .zip. Obtenga información sobre cómo importar contenido [en esta sección](../existing-content.md#import-html-content-from-file).
+* **Importar contenido de HTML existente** desde un archivo o una carpeta .zip. Obtenga información sobre cómo importar contenido [en esta sección](../messages/existing-content.md#import-html-content-from-file).
 
 >[!NOTE]
 >
->El diseñador de contenido de páginas de aterrizaje es similar al diseñador de correo electrónico. Más información sobre [diseño de contenido con [!DNL Journey Optimizer]](../design-emails.md).
+>El diseñador de contenido de páginas de aterrizaje es similar al diseñador de correo electrónico. Más información sobre [diseño de contenido con [!DNL Journey Optimizer]](../messages/design-emails.md).
 
 ## Definición del contenido específico de una página de aterrizaje {#define-lp-specific-content}
 
@@ -120,7 +120,7 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 
    ![](../assets/lp_designer-form-style-buttons.png)
 
-   Puede obtener una vista previa de algunos ajustes, como el color de la etiqueta del botón al pasar el ratón por encima del ratón **[!UICONTROL Preview]** botón. Obtenga más información sobre la prueba de páginas de aterrizaje [here](create-lp.md#test).
+   Puede obtener una vista previa de algunos ajustes, como el color de la etiqueta del botón al pasar el ratón por encima del ratón **[!UICONTROL Preview]** botón. Obtenga más información sobre la prueba de páginas de aterrizaje [here](create-lp.md#test-landing-page).
 
    ![](../assets/lp_designer-form-style-buttons-preview.png)
 

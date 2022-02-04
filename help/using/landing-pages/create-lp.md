@@ -1,5 +1,5 @@
 ---
-title: Creación de una página de aterrizaje
+title: Creación de una página de destino
 description: Obtenga información sobre cómo configurar y publicar una página de aterrizaje en Journey Optimizer
 feature: Landing Pages
 topic: Content Management
@@ -8,7 +8,7 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 4%
@@ -21,7 +21,7 @@ ht-degree: 4%
 >
 >Actualmente, el uso de páginas de aterrizaje está disponible en acceso anticipado solo para usuarios seleccionados. Si desea aprovechar esta función, póngase en contacto con el administrador de cuentas de Adobe.
 
-## Acceso a las páginas de aterrizaje
+## Acceso a las páginas de aterrizaje {#access-landing-pages}
 
 Para acceder a la lista de páginas de aterrizaje, seleccione **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** en el menú de la izquierda.
 
@@ -31,7 +31,7 @@ La variable **[!UICONTROL Landing Pages]** muestra todos los elementos creados. 
 
 ![](../assets/lp_access-list-filter.png)
 
-## Creación de una página de aterrizaje
+## Creación de una página de destino {#create-landing-page}
 
 Los pasos para crear una página de aterrizaje son los siguientes:
 
@@ -61,7 +61,7 @@ Los pasos para crear una página de aterrizaje son los siguientes:
 
    ![](../assets/lp_add-subpage.png)
 
-Una vez que haya configurado y diseñado el [página principal](#configure-primary-page)y [subpáginas](#configure-subpages) si hay alguno, puede [prueba](#test) y [publicar](#publish) su página de aterrizaje.
+Una vez que haya configurado y diseñado el [página principal](#configure-primary-page)y [subpáginas](#configure-subpages) si hay alguno, puede [prueba](#test-landing-page) y [publicar](#publish-landing-page) su página de aterrizaje.
 
 ## Configuración de la página principal {#configure-primary-page}
 
@@ -121,7 +121,7 @@ Para definir la configuración de la subpágina, siga los pasos a continuación.
 
 ![](../assets/lp_subpage-settings.png)
 
-## Prueba de la página de aterrizaje {#test}
+## Prueba de la página de aterrizaje {#test-landing-page}
 
 Una vez que se hayan definido la configuración y el contenido de la página de aterrizaje, puede utilizar perfiles de prueba para previsualizarlos. Si ha insertado [contenido personalizado](../personalization/personalize.md), podrá comprobar cómo se muestra este contenido en la página de aterrizaje, aprovechando los datos de perfil de prueba.
 
@@ -141,7 +141,7 @@ Una vez que se hayan definido la configuración y el contenido de la página de 
 
    ![](../assets/lp_test-profiles.png)
 
-   Los pasos para seleccionar perfiles de prueba son los mismos que al probar un mensaje. Se detallan en [esta sección](../preview.md#select-test-profiles).
+   Los pasos para seleccionar perfiles de prueba son los mismos que al probar un mensaje. Se detallan en [esta sección](../messages/preview.md#select-test-profiles).
 
 1. Seleccione el **[!UICONTROL Preview]** y haga clic en **[!UICONTROL Open preview]** para probar la página de aterrizaje.
 
@@ -153,7 +153,7 @@ Una vez que se hayan definido la configuración y el contenido de la página de 
 
 1. Seleccione otros perfiles de prueba para previsualizar la renderización de cada variante de la página de aterrizaje.
 
-## Comprobación de alertas {#alerts}
+## Comprobación de alertas {#check-alerts}
 
 Mientras crea la página de aterrizaje, las alertas le avisan cuando necesita realizar acciones importantes antes de publicarla.
 
@@ -192,7 +192,7 @@ Pueden producirse dos tipos de alertas:
 > To be able to publish your message, you need to resolve all **error** alerts.
 -->
 
-## Publicación de la página de aterrizaje {#publish}
+## Publicación de la página de aterrizaje {#publish-landing-page}
 
 Una vez que la página de aterrizaje esté lista, puede publicarla para que esté disponible para su uso en un mensaje.
 
@@ -200,11 +200,11 @@ Una vez que la página de aterrizaje esté lista, puede publicarla para que est�
 
 >[!CAUTION]
 >
->Antes de publicar, compruebe y resuelva las alertas. [Más información](#alerts)
+>Antes de publicar, compruebe y resuelva las alertas. [Más información](#check-alerts)
 
 Una vez publicada la página de aterrizaje, se añade a la lista de páginas de aterrizaje con la variable **[!UICONTROL Published]** estado.
 
-Ahora está activo y listo para utilizarse en un [!DNL Journey Optimizer] [message](../create-message.md) que se enviará a través de un [recorrido](../building-journeys/journey.md).
+Ahora está activo y listo para utilizarse en un [!DNL Journey Optimizer] [message](../messages/create-message.md) que se enviará a través de un [recorrido](../building-journeys/journey.md).
 
 >[!NOTE]
 >

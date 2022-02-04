@@ -1,13 +1,12 @@
 ---
 title: Registros de PTR
 description: Obtenga información sobre cómo administrar registros PTR
-audience: administrators
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -16,13 +15,13 @@ ht-degree: 0%
 
 # Registros de PTR {#ptr-records}
 
-## Acerca de los registros PTR
+## Acerca de los registros PTR {#about-ptr-records}
 
 Un registro de puntero (PTR) es un tipo de registro DNS (Sistema de nombres de dominio) que proporciona el nombre de dominio vinculado a una dirección IP.
 
 Con los registros PTR, los servidores de correo receptores pueden comprobar la autenticidad de los servidores de correo electrónico al identificar si sus direcciones IP corresponden a los nombres con los que se conectan los servidores.
 
-## Acceda a los registros PTR de sus subdominios
+## Acceda a los registros PTR de sus subdominios {#access-ptr-records}
 
 Una vez [se delega un subdominio](delegate-subdomain.md) en Adobe Journey Optimizer, se crea automáticamente un registro PTR y se asocia a este subdominio. Puede acceder a él desde la **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** para abrir el Navegador.
 
@@ -44,7 +43,7 @@ Puede modificar un registro PTR para editar el subdominio asociado con una direc
 >
 >No se puede modificar la variable **[!UICONTROL IP]** y **[!UICONTROL PTR record]** campos.
 
-### Subdominios completamente delegados
+### Subdominios completamente delegados {#fully-delegated-subdomains}
 
 Para editar un registro PTR con un subdominio que sea [completamente delegado](delegate-subdomain.md#full-subdomain-delegation) para realizar el Adobe, siga los pasos a continuación.
 
@@ -83,7 +82,7 @@ Para editar un registro PTR con un subdominio delegado a Adobe mediante la varia
 
 1. Haga clic en **[!UICONTROL Save]** para confirmar los cambios.
 
-## Comprobar detalles de actualización de registros PTR
+## Comprobar detalles de actualización de registros PTR {#check-ptr-record-update}
 
 A **[!UICONTROL Processing]** aparece junto al nombre del registro PTR en la lista.
 
@@ -97,7 +96,7 @@ Puede ver información como el estado de actualización y los cambios solicitado
 
 ![](../assets/ptr-record-updates.png)
 
-## Estados de actualización de registros PTR
+## Estados de actualización de registros PTR {#ptr-record-update-statuses}
 
 Una actualización de registro PTR puede tener los siguientes estados:
 
@@ -105,9 +104,9 @@ Una actualización de registro PTR puede tener los siguientes estados:
 * ![](../assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: El registro PTR actualizado se ha verificado y el nuevo subdominio ahora está asociado con la dirección IP.
 * ![](../assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: Una o varias comprobaciones han fallado durante la verificación de actualización de registros PTR.
 
-### Procesamiento
+### Procesamiento {#processing}
 
-Se realizarán varias comprobaciones de la capacidad de envío para verificar que el nuevo subdominio que se va a asociar a la dirección IP sea válido. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**. Learn more on the checks performed during the validation cycle in [this section](#create-message-preset).-->
+Se realizarán varias comprobaciones de la capacidad de envío para verificar que el nuevo subdominio que se va a asociar a la dirección IP sea válido. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**.-->
 
 >[!NOTE]
 >
@@ -115,11 +114,11 @@ Se realizarán varias comprobaciones de la capacidad de envío para verificar qu
 
 Durante el proceso de validación, el antiguo subdominio sigue estando asociado a la dirección IP.
 
-### Correcto
+### Correcto {#success}
 
 Una vez que el proceso de validación se ha realizado correctamente, el nuevo subdominio se asocia automáticamente a la dirección IP.
 
-### Fallido
+### Fallido {#failes}
 
 Si falla el proceso de validación, se muestra el registro PTR más antiguo. El subdominio válido que anteriormente estaba asociado con la dirección IP permanece sin cambios.
 

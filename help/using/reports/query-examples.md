@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: e1d0afb70af4ab31db56f90c189c085ba8d1eb7c
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 4%
@@ -17,9 +17,9 @@ ht-degree: 4%
 
 En esta sección se enumeran varios ejemplos utilizados habitualmente para consultar los eventos de los pasos de Recorrido en Data Lake.
 
-## Errores de mensaje/acción
+## Errores de mensaje/acción {#message-action-errors}
 
-### Lista de cada error encontrado en los recorridos
+### Lista de cada error encontrado en los recorridos {#error-list-journey}
 
 Esta consulta le permite enumerar cada error encontrado en recorridos mientras ejecuta un mensaje o una acción.
 
@@ -45,9 +45,9 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 Esta consulta devuelve todos los errores que se han producido al ejecutar una acción en un recorrido, junto con el recuento de cuántas veces se ha producido.
 
-## Consultas basadas en perfiles
+## Consultas basadas en perfiles {#profile-based-queries}
 
-### Buscar si un perfil entró en un Recorrido específico
+### Buscar si un perfil entró en un Recorrido específico {#profile-entered-journey}
 
 _Consulta del lago de datos_
 
@@ -69,7 +69,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 El resultado debe ser bueno a 0. Esta consulta devuelve el número exacto de veces que un perfil ha introducido un recorrido.
 
-### Buscar si se envió un perfil a un mensaje específico
+### Buscar si se envió un perfil a un mensaje específico {#profile-specific-message}
 
 **Método 1:** si el nombre del mensaje no es único en el recorrido (se utiliza en varios lugares).
 
@@ -119,7 +119,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 La consulta devuelve la lista de todos los mensajes junto con su recuento invocado para el perfil seleccionado.
 
-## Buscar todos los mensajes que un perfil ha recibido en los últimos 30 días
+## Buscar todos los mensajes que un perfil ha recibido en los últimos 30 días {#message-received-30-days}
 
 _Consulta del lago de datos_
 
@@ -145,7 +145,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 La consulta devuelve la lista de todos los mensajes junto con su recuento invocado para el perfil seleccionado.
 
-### Buscar todos los recorridos que un perfil ha introducido en los últimos 30 días
+### Buscar todos los recorridos que un perfil ha introducido en los últimos 30 días {#profile-entered-30-days}
 
 _Consulta del lago de datos_
 
@@ -169,7 +169,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 La consulta devuelve la lista de todos los nombres de recorrido junto con el número de veces que el perfil consultado ingresó al recorrido.
 
-### Número de perfiles que cumplen los requisitos para un recorrido diariamente
+### Número de perfiles que cumplen los requisitos para un recorrido diariamente {#profile-qualified}
 
 _Consulta del lago de datos_
 
@@ -193,9 +193,9 @@ ORDER BY DATE(timestamp) desc
 
 La consulta devuelve, durante el periodo definido, el número de perfiles que ingresaron al recorrido cada día. Si un perfil introducido mediante varias identidades, se contará dos veces. Si la reentrada está habilitada, el recuento de perfiles puede duplicarse en diferentes días si se vuelve a introducir el recorrido en un día diferente.
 
-## Consultas basadas en recorridos
+## Consultas basadas en recorridos {#journey-based-queries}
 
-### Número de recorridos activos diarios
+### Número de recorridos activos diarios {#daily-active-journeys}
 
 _Consulta del lago de datos_
 

@@ -6,20 +6,20 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 6%
 
 ---
 
-# Guía para desarrolladores de API de administración de decisiones
+# Guía para desarrolladores de API de administración de decisiones {#decision-management-api-developer-guide}
 
 Esta guía para desarrolladores proporciona los pasos para ayudarle a empezar a usar el [!DNL Offer Library] API. A continuación, la guía proporciona ejemplos de llamadas de API para realizar operaciones clave mediante el motor de gestión de decisiones.
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-## Requisitos previos
+## Requisitos previos {#prerequisites}
 
 Esta guía requiere conocer los siguientes componentes de Adobe Experience Platform:
 
@@ -28,11 +28,11 @@ Esta guía requiere conocer los siguientes componentes de Adobe Experience Platf
 * [Administración de decisiones](../../../using/offers/get-started/starting-offer-decisioning.md): Explica los conceptos y componentes utilizados para Experience Decisioning en general y el Offer decisioning en particular. Ilustra las estrategias utilizadas para elegir la mejor opción para presentar durante la experiencia del cliente.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target=&quot;_blank&quot;}: PQL es un lenguaje potente para escribir expresiones en instancias XDM. PQL se utiliza para definir las reglas de decisión.
 
-## Leer llamadas de API de ejemplo
+## Leer llamadas de API de ejemplo {#reading-sample-api-calls}
 
 Esta guía proporciona ejemplos de llamadas a la API para demostrar cómo dar formato a las solicitudes. Estas incluyen rutas de acceso, encabezados necesarios y cargas de solicitud con el formato correcto. También se proporciona el JSON de muestra devuelto en las respuestas de API. Para obtener información sobre las convenciones utilizadas en la documentación para las llamadas de API de ejemplo, consulte la sección sobre [cómo leer llamadas de API de ejemplo](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target=&quot;_blank&quot;} en la sección [!DNL Experience Platform] guía de solución de problemas.
 
-## Recopilar valores para encabezados necesarios
+## Recopilar valores para encabezados necesarios {#gather-values-for-required-headers}
 
 Para realizar llamadas a [!DNL Platform] API, primero debe completar la variable [tutorial de autenticación](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target=&quot;_blank&quot;}. Al completar el tutorial de autenticación, se proporcionan los valores para cada uno de los encabezados necesarios en todos los [!DNL Experience Platform] Llamadas de API, como se muestra a continuación:
 
@@ -44,7 +44,7 @@ Todas las solicitudes que contienen una carga útil (POST, PUT, PATCH) requieren
 
 * `Content-Type: application/json`
 
-## Administrar el acceso a un contenedor
+## Administrar el acceso a un contenedor {#manage-access-to-container}
 
 Un contenedor es un mecanismo de aislamiento para mantener diferentes preocupaciones. El ID de contenedor es el primer elemento de ruta para todas las API de repositorio. Todos los objetos de decisión residen dentro de un contenedor.
 
@@ -52,7 +52,7 @@ Un administrador puede agrupar en perfiles entidades principales, recursos y per
 
 Dados privilegios de administrador, puede conceder o retirar permisos a los usuarios a través del [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Para obtener más información, consulte la [Información general sobre el control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=es){target=&quot;_blank&quot;}.
 
-### Contenedores de lista accesibles para usuarios e integraciones
+### Contenedores de lista accesibles para usuarios e integraciones {#list-containers-accessible-to-users-and-integrations}
 
 **Formato de API**
 
@@ -124,7 +124,7 @@ Una respuesta correcta devuelve información sobre los contenedores de administr
 }
 ```
 
-## Pasos siguientes
+## Pasos siguientes {#next-steps}
 
 Este documento abarcaba los conocimientos previos necesarios para realizar llamadas al [!DNL Offer Library] , incluida la adquisición del ID de contenedor. Ahora puede continuar con las llamadas de ejemplo que se proporcionan en esta guía para desarrolladores y seguir junto con sus instrucciones.
 

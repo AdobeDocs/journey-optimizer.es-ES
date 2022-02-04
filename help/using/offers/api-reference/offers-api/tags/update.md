@@ -6,20 +6,20 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 9%
 
 ---
 
-# Actualizar una etiqueta
+# Actualizar una etiqueta {#update-tag}
 
 Puede modificar o actualizar una etiqueta del contenedor realizando una solicitud de PATCH al [!DNL Offer Library] API.
 
 Para obtener más información sobre JSON Patch, incluidas las operaciones disponibles, consulte la [Documentación de parches JSON](http://jsonpatch.com/).
 
-## Encabezados Accept y Content-Type
+## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
 La tabla siguiente muestra los valores válidos que comprenden el *Content-Type* y *Accept* campos en el encabezado de la solicitud:
 

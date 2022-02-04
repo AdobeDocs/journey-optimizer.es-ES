@@ -6,14 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 39b52f39ec19c185d2cd95634a60e37f62a66f83
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 1%
 
 ---
 
-# Creación de simulaciones
+# Creación de simulaciones {#create-simulations}
 
 ## Acerca de la simulación
 
@@ -47,7 +47,7 @@ Primero debe seleccionar los perfiles de prueba que va a utilizar para la simula
 
    >[!NOTE]
    >
-   >Un área de nombres de identidad define el contexto de un identificador, como una dirección de correo electrónico o un ID de CRM. Obtenga más información sobre las áreas de nombres de identidad de Adobe Experience Platform [en esta sección](../../get-started-identity.md){target=&quot;_blank&quot;}.
+   >Un área de nombres de identidad define el contexto de un identificador, como una dirección de correo electrónico o un ID de CRM. Obtenga más información sobre las áreas de nombres de identidad de Adobe Experience Platform [en esta sección](../../start/get-started-identity.md){target=&quot;_blank&quot;}.
 
 1. Introduzca el valor de identidad y haga clic en **[!UICONTROL View]** para enumerar los perfiles disponibles.
 
@@ -63,7 +63,7 @@ Primero debe seleccionar los perfiles de prueba que va a utilizar para la simula
 
 1. Puede hacer clic en el botón **[!UICONTROL Profile details]** vínculo para mostrar los datos de perfil seleccionados.
 
-<!--Learn more on [selecting test profiles](preview.md#select-test-profiles)-->
+<!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
 ## Agregar ámbitos de decisión
 

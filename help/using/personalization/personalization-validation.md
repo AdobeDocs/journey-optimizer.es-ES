@@ -1,12 +1,12 @@
 ---
 title: Validación de personalización
-description: Obtenga más información sobre validación de personalización y cómo solucionar problemas
+description: Obtenga más información sobre validación de personalización y cómo solucionar problemas.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Validación de personalización {#personalization-validation}
 
-## Mecanismos de validación
+## Mecanismos de validación {#validation-mechanisms}
 
 En el **Editor de expresiones** , utilice el **Validar** para comprobar la sintaxis de personalización.
 
@@ -27,7 +27,7 @@ En el **Editor de expresiones** , utilice el **Validar** para comprobar la sinta
 >[!IMPORTANT]
 > Si la sintaxis de personalización no es válida, no se puede cerrar la ventana del editor de expresiones.
 
-## Errores comunes
+## Errores comunes {#common-errors}
 
 * **Ruta &quot;XYZ&quot; no encontrada**
 
@@ -67,7 +67,7 @@ Las expresiones de Handlebars están rodeadas de **{{expression}}**
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-## Errores específicos relacionados con las ofertas
+## Errores específicos relacionados con las ofertas {#specific-errors}
 
 Los errores relacionados con la integración de ofertas en un mensaje de correo electrónico o push tienen el siguiente patrón:
 

@@ -1,19 +1,19 @@
 ---
 title: Crear reglas de decisión
-description: Aprenda a crear reglas de decisión en Adobe Experience Platform.
+description: Aprenda a crear reglas de decisión para definir a quién se pueden mostrar las ofertas
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '286'
 ht-degree: 14%
 
 ---
 
-# Crear reglas de decisión {#creating-decision-rules}
+# Crear reglas de decisión {#create-decision-rules}
 
 Puede crear reglas de decisión de oferta basadas en los datos disponibles en Adobe Experience Platform. Las reglas de decisión determinan a quién se puede mostrar una oferta.
 

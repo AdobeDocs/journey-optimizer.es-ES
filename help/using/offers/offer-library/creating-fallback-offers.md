@@ -1,19 +1,18 @@
 ---
 title: Creación de ofertas de reserva
-description: Aprenda a crear ofertas en Adobe Experience Platform.
-feature: Offers
+description: Aprenda a crear ofertas de reserva para que se muestren a los clientes que no cumplen los requisitos para ninguna oferta
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '289'
 ht-degree: 4%
 
 ---
 
-# Creación de ofertas de reserva {#creating-fallback-offers}
+# Creación de ofertas de reserva {#create-fallback-offers}
 
 La oferta de reserva se envía a los clientes si no cumplen los requisitos para otras ofertas. Los pasos para crear una oferta de reserva consisten en crear una o varias representaciones, como al crear una oferta.
 

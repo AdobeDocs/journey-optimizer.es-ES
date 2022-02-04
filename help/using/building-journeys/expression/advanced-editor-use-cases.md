@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: eaa2cbad00fbbfade7ba98cf830f945e032f03d1
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 2%
 
 ---
 
-# Ejemplos de expresiones avanzadas
+# Ejemplos de expresiones avanzadas{#advanced-expression-examples}
 
 El editor de expresiones avanzadas se puede utilizar para crear condiciones que le permitan filtrar usuarios en sus recorridos. Estas condiciones le permiten dirigirse a los usuarios en cuanto a hora, fecha, ubicación, duración o acciones como la compra o el abandono de carros, de modo que se puedan redirigir en el recorrido.
 

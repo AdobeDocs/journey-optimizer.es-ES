@@ -1,5 +1,5 @@
 ---
-title: Crear una lista de suscripción
+title: Creación de una lista de suscripción
 description: Obtenga información sobre cómo configurar una lista de suscripción en Journey Optimizer
 feature: Landing Pages
 topic: Content Management
@@ -8,16 +8,16 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: 4609b071e6011bb2c28156b9638f40b7d6f29249
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # Listas de suscripciones {#create-subscription-list}
 
-## ¿Qué es una lista de suscripción?
+## ¿Qué es una lista de suscripción? {#subscription-list-definition}
 
 Un servicio de suscripción se refiere a los bienes y servicios de marketing proporcionados a los clientes que han elegido recibir comunicaciones sobre un asunto específico, evento, interés, etc. de forma continua. En [!DNL Journey Optimizer], estos clientes seleccionados se agrupan en una lista de suscripción.
 

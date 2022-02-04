@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 803fd15149391c069a50244bf29d7013bc6b00e2
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 5%
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 Esta sección presenta un ejemplo completo de cómo configurar ofertas y utilizarlas en un mensaje de correo electrónico, en función de una decisión que haya creado anteriormente.
 
-## Pasos principales
+## Pasos principales {#main-steps}
 
 A continuación se enumeran los pasos clave para configurar ofertas, incluirlas en una decisión y aprovechar esta decisión en un correo electrónico:
 
@@ -225,11 +225,11 @@ Los pasos detallados para crear y configurar una decisión se describen en [esta
 
 Ahora que su decisión está activa, puede insertarla en un mensaje de correo electrónico. Para ello, siga los pasos a continuación:
 
-1. Cree su correo electrónico y, a continuación, abra el [Diseñador de correo electrónico](../../using/design-emails.md) para configurar su contenido.
+1. Cree su correo electrónico y, a continuación, abra el [Diseñador de correo electrónico](../../using/messages/design-emails.md) para configurar su contenido.
 
 1. Añada un componente de estructura de la paleta izquierda.
 
-1. Agregue un **[!UICONTROL Offer decision]** componente de contenido. Aprenda a utilizar los componentes de contenido en [esta sección](../../using/content-components.md).
+1. Agregue un **[!UICONTROL Offer decision]** componente de contenido. Aprenda a utilizar los componentes de contenido en [esta sección](../../using/messages/content-components.md).
 
    ![](../assets/offers-e2e-decision-component.png)
 
@@ -255,19 +255,19 @@ Ahora puede ver todas las ofertas personalizadas y la oferta de reserva visualiz
 
 ![](../assets/offers-e2e-offers-displayed.png)
 
-Utilice la variable **[!UICONTROL Offers]** o las flechas de los componentes de contenido (flechas derecha e izquierda) para examinar los datos. También puede mostrar las diferentes ofertas que forman parte de la decisión con un perfil de cliente. Obtenga más información en [esta sección](../../using/deliver-personalized-offers.md#preview-offers-in-email).
+Utilice la variable **[!UICONTROL Offers]** o las flechas de los componentes de contenido (flechas derecha e izquierda) para examinar los datos. También puede mostrar las diferentes ofertas que forman parte de la decisión con un perfil de cliente. Obtenga más información en [esta sección](../../using/messages/deliver-personalized-offers.md#preview-offers-in-email).
 
 Después de guardar los cambios y una vez publicado el mensaje, las ofertas están listas para mostrarse a los perfiles relevantes al enviar el mensaje como parte de un recorrido.
 
 >[!NOTE]
 >
->Cuando actualiza una oferta, una oferta de reserva, una recopilación de ofertas o una decisión de oferta a la que se hace referencia directa o indirectamente en una [publicado](../../using/publish-manage-message.md) , las actualizaciones ahora se reflejan automáticamente en el mensaje correspondiente, sin necesidad de volver a publicarlo.
+>Cuando actualiza una oferta, una oferta de reserva, una recopilación de ofertas o una decisión de oferta a la que se hace referencia directa o indirectamente en una [publicado](../../using/messages/publish-manage-message.md) , las actualizaciones ahora se reflejan automáticamente en el mensaje correspondiente, sin necesidad de volver a publicarlo.
 
 **Temas relacionados:**
 
-* Obtenga información sobre cómo comprobar la vista previa del mensaje en [esta sección](../../using/preview.md#preview-your-messages).
+* Obtenga información sobre cómo comprobar la vista previa del mensaje en [esta sección](../../using/messages/preview.md#preview-your-messages).
 
-* Obtenga información sobre cómo publicar mensajes en [esta sección](../../using/publish-manage-message.md).
+* Obtenga información sobre cómo publicar mensajes en [esta sección](../../using/messages/publish-manage-message.md).
 
 * Obtenga información sobre cómo activan los mensajes uno o varios recorridos en [esta sección](../building-journeys/journey.md).
 

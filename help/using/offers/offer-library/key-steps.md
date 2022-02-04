@@ -1,19 +1,19 @@
 ---
 title: Pasos clave para crear una oferta
-description: Descubra los pasos clave necesarios para crear una oferta.
+description: Descubra los pasos clave necesarios para crear una oferta
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 14%
 
 ---
 
-# Pasos clave para crear y administrar ofertas {#key-steps}
+# Pasos clave para crear y administrar ofertas {#key-steps-to-manage-offers}
 
 A continuación se presentan los pasos principales para crear, configurar y administrar ofertas, así como para utilizarlas en una decisión.
 
@@ -21,7 +21,7 @@ A continuación se presentan los pasos principales para crear, configurar y admi
 
 Para ver un ejemplo completo de extremo a extremo que muestre cómo configurar ofertas, utilícelas en una decisión y aproveche esta decisión en un mensaje de correo electrónico, consulte [esta página](../offers-e2e.md).
 
-## Crear componentes
+## Crear componentes {#create-components}
 
 Antes de comenzar a crear ofertas, debe definir varios componentes que utilizará en las ofertas.
 
@@ -41,7 +41,7 @@ Antes de comenzar a crear ofertas, debe definir varios componentes que utilizar�
 <td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../offer-library/create-ranking-formulas.md">Crear fórmulas de clasificación</a></p></td>
 </table>
 
-## Crear y administrar ofertas
+## Crear y administrar ofertas {#create-and-manage-offers}
 
 1. **Crear ofertas** y configure su contenido y propiedades.
 
@@ -56,7 +56,7 @@ Antes de comenzar a crear ofertas, debe definir varios componentes que utilizar�
 <td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">Crear colecciones</a></p></td></tr>
 </table>
 
-## Crear y configurar decisiones
+## Crear y configurar decisiones {#create-and-configure-decisions}
 
 1. **Crear una decisión** que combinará ubicaciones con ofertas personalizadas y ofertas de reserva. El motor de Offer decisioning utilizará esta combinación para encontrar la mejor oferta para un perfil específico.
 

@@ -1,19 +1,19 @@
 ---
 title: Creación de etiquetas
-description: Aprenda a crear ofertas en Adobe Experience Platform.
+description: Aprenda a crear etiquetas para sus ofertas
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '161'
 ht-degree: 6%
 
 ---
 
-# Creación de etiquetas {#creating-tags}
+# Creación de etiquetas {#create-tags}
 
 Asociar etiquetas a las ofertas facilita su organización. Por ejemplo, puede etiquetar las ofertas del Black Friday con la etiqueta &quot;Black Friday&quot;. A continuación, puede utilizar la funcionalidad de búsqueda de la Biblioteca de ofertas para localizar fácilmente todas las ofertas con esa etiqueta.
 

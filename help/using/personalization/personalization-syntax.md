@@ -1,11 +1,12 @@
 ---
 title: Sintaxis de personalización
-description: Aprenda a utilizar la sintaxis de personalización
+description: Aprenda a utilizar la sintaxis de personalización.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 50e12a28ed9f94133a9810a460172d34ad3a4593
+exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 5%
@@ -28,7 +29,7 @@ dónde:
 * `profile` es un área de nombres.
 * `person.name` es un token compuesto por atributos. La estructura de atributos se define en un esquema Adobe Experience Platform XDM. [Más información](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target=&quot;_blank&quot;}.
 
-## Reglas generales de sintaxis
+## Reglas generales de sintaxis {#general-rules}
 
 Los identificadores pueden ser cualquier carácter Unicode excepto los siguientes:
 
@@ -75,7 +76,7 @@ Aprenda a aprovechar los atributos de perfil en condiciones de [esta sección](f
 >[!NOTE]
 >Para obtener más información sobre segmentación y servicio de segmentación, consulte [esta sección](../segment/about-segments.md).
 
-## Ofertas
+## Ofertas {#offers-syntax}
 
 Este espacio de nombres le permite hacer referencia a las decisiones de ofertas existentes.
 Para hacer referencia a una oferta, debe declarar una ruta con la información diferente que define una oferta.
@@ -127,7 +128,7 @@ Los bloques son expresiones que tienen una apertura de bloque ({{# }}) y cierre 
 >
 >Las funciones de ayuda se detallan en [esta sección](functions/helpers.md).
 
-## Tipos literales
+## Tipos literales {#literal-types}
 
 [!DNL Adobe Journey Optimizer] admite los siguientes tipos de literales:
 
@@ -146,7 +147,7 @@ Los bloques son expresiones que tienen una apertura de bloque ({{# }}) y cierre 
 
 Journey Optimizer le permite personalizar una o varias direcciones URL en el mensaje al agregarles campos de personalización. Para ello:
 
-* Cree un vínculo en el contenido de correo electrónico o push. Para obtener más información sobre la creación de vínculos, consulte [esta página](../message-tracking.md#insert-links).
+* Cree un vínculo en el contenido de correo electrónico o push. Para obtener más información sobre la creación de vínculos, consulte [esta página](../messages/message-tracking.md#insert-links).
 * Haga clic en el icono de personalización. Este icono está disponible para estos tipos específicos de vínculos: **Vínculo externo**, **Vínculo de baja** y **Exclusión**.
 
 ![](assets/perso-url.png)

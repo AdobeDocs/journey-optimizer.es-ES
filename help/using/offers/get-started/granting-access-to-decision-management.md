@@ -1,13 +1,12 @@
 ---
-product: experience platform
-solution: Experience Platform
 title: Conceder acceso a Offer Decisioning
-description: Obtenga información sobre cómo administrar los permisos de los usuarios para el servicio de Offer Decisioning a través de Adobe Admin Console.
-feature: Collections
+description: Obtenga información sobre cómo administrar los permisos de los usuarios para el servicio de Offer Decisioning a través de Adobe Admin Console
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2a2fece9-1ad5-498e-b0ee-5bb0b73a2cd5
-source-git-commit: 43fb98a08555e6b889ad537e79dba78286dafeb9
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 7%

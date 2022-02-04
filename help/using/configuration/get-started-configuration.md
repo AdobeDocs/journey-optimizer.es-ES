@@ -1,17 +1,14 @@
 ---
-title: Ajustes y directrices de configuración de Journey Optimizer
-description: Conozca las directrices de configuración de mensajes y recorridos
-audience: administrators
-content-type: reference
+title: Introducción a [!DNL Journey Optimizer] configuración
+description: Más información sobre [!DNL Journey Optimizer] configuración
 role: Admin
 level: Intermediate
-solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '328'
 ht-degree: 9%
 
 ---
@@ -25,7 +22,7 @@ Para poder crear sus recorridos y enviar mensajes, debe seguir estos pasos de co
 
 1. **Configuración de mensajes y canales**: definir ajustes preestablecidos, adaptar y personalizar los mensajes push y de correo electrónico
 
-   * Defina la configuración de las notificaciones push en ambas [!DNL Adobe Experience Platform] y [!DNL Adobe Experience Platform Launch]. [Más información](../push-gs.md)
+   * Defina la configuración de las notificaciones push en ambas [!DNL Adobe Experience Platform] y [!DNL Adobe Experience Platform Launch]. [Más información](../messages/push-gs.md)
 
    * Cree ajustes preestablecidos de mensaje para configurar todos los parámetros técnicos necesarios para los mensajes de correo electrónico y notificaciones push. [Más información](message-presets.md)
 
@@ -34,7 +31,7 @@ Para poder crear sus recorridos y enviar mensajes, debe seguir estos pasos de co
    * Administre el número de días durante los cuales se realizan los reintentos antes de enviar direcciones de correo electrónico a la lista de supresión. [Más información](manage-suppression-list.md)
 
    <!--
-    * Understand push notification flow. [Learn more](../push-gs.md)
+    * Understand push notification flow. [Learn more](../messages/push-gs.md)
     -->
 
 1. **Delegación de subdominios**: para cualquier nuevo subdominio que se vaya a utilizar en Journey Optimizer, el primer paso será delegarlo. [Más información](about-subdomain-delegation.md)

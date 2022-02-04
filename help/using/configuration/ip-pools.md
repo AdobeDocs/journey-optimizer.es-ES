@@ -1,29 +1,19 @@
 ---
 title: Crear grupos de IP
 description: '"Aprenda a administrar ip-pools"'
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 7d7c1b72530d99b8cceb1067f2576ad66c0052a6
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 1%
 
 ---
 
-# Crear grupos de IP
+# Crear grupos de IP {#create-ip-pools}
 
 ## Acerca de los grupos de IP {#about-ip-pools}
 
@@ -85,8 +75,6 @@ La actualización es efectiva de forma inmediata o asincrónica, según el grupo
 
 * Si el grupo de IP es **not** seleccionada en un ajuste preestablecido de mensaje, la actualización es instantánea (**[!UICONTROL Success]** ).
 * Si el grupo IP **es** seleccionada en un ajuste preestablecido de mensaje, la actualización puede tardar entre 7 y 10 días hábiles (**[!UICONTROL Processing]** ).
-
-<!--If a message preset has been associated with the IP pool, you first need to remove it before editing the IP pool. Once the your modifications have been done, you can associate the message preset again.-->
 
 Para comprobar el estado de actualización del grupo de IP, haga clic en el botón **[!UICONTROL More actions]** y seleccione **[!UICONTROL Recent updates]**.
 

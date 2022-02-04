@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 4%
 
 ---
 
-# Enumerar etiquetas
+# Enumerar etiquetas {#list-tags}
 
 Las etiquetas permiten organizar y ordenar mejor las ofertas. Por ejemplo, puede etiquetar las ofertas del Black Friday con la etiqueta &quot;Black Friday&quot;. A continuación, puede utilizar la funcionalidad de búsqueda de la Biblioteca de ofertas para localizar fácilmente todas las ofertas con esa etiqueta.
 
@@ -46,11 +46,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Uso de parámetros de consulta
+## Uso de parámetros de consulta {#using-query-parameters}
 
 Puede utilizar parámetros de consulta para filtrar los resultados y la página cuando enumere recursos.
 
-### Paginación
+### Paginación {#paging}
 
 Los parámetros de consulta más comunes para la paginación incluyen:
 

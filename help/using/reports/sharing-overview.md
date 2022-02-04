@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 4e3239a073f23505c79e98943d1f8bf6b7a8d363
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 4%
 
 ---
 
-# Creación de informes de recorrido{#design-jo-reports}
+# Creación de informes de recorrido {#design-jo-reports}
 
 Además de [informes en tiempo real](live-report.md) y integrados [capacidades globales de creación de informes](global-report.md), [!DNL Journey Optimizer] puede enviar automáticamente datos de rendimiento del recorrido a Adobe Experience Platform para que se puedan combinar con otros datos con fines de análisis.
 
@@ -58,7 +58,7 @@ Las listas de campos XDM pasados a Adobe Experience Platform se detallan aquí:
 
 Para obtener más información sobre los eventos de paso que generan informes a Adobe Experience Platform, consulte esta [videotutorial](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target=&quot;_blank&quot;}.
 
-## Integración con Customer Recorrido Analytics{#integration-cja}
+## Integración con Customer Recorrido Analytics {#integration-cja}
 
 Los eventos de paso de Journey Optimizer se pueden vincular a otros conjuntos de datos en [Customer Journey Analytics de Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es). Este es el flujo de trabajo general:
 

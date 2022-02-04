@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: aef6ac3f153e5d42f9557afef1e9f1b310d3fa12
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 1%
@@ -117,7 +117,7 @@ La variable **[!UICONTROL Bounce Reasons]** y **[!UICONTROL Bounce categories]**
 
 * **[!UICONTROL Ignored]**: El número total de mensajes temporales, como fuera de la oficina o un error técnico, por ejemplo, si el tipo de remitente es administrador de correo.
 
-Para obtener más información sobre las devoluciones, consulte la sección [Lista de supresión](../suppression-list.md) página.
+Para obtener más información sobre las devoluciones, consulte la sección [Lista de supresión](../messages/suppression-list.md) página.
 
 ![](../assets/global_report_16.png)
 

@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
 
 ---
 
-# Versiones de recorridos{#concept_ldc_k55_zgb}
+# Versiones de recorridos{#journey-versions}
 
 En la lista recorrido, todas las versiones de recorrido se muestran con el número de versión. Consulte [esta página](../building-journeys/using-the-journey-designer.md).
 
@@ -25,7 +25,7 @@ Si necesita modificar a un recorrido activo, debe crear una nueva versión del r
 
 >[!NOTE]
 >
->Para obtener más información sobre las limitaciones de las versiones de recorrido, consulte [esta página](../limitations.md#journey-versions-limitations)
+>Para obtener más información sobre las limitaciones de las versiones de recorrido, consulte [esta página](../start/limitations.md#journey-versions-limitations)
 
 1. Abra la última versión de su recorrido en directo y haga clic en **[!UICONTROL Create a new version]** y confirme.
 

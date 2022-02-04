@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 3%
+source-wordcount: '381'
+ht-degree: 2%
 
 ---
 
-# Acerca de los segmentos de Adobe Experience Platform {#about-segments}
+# Introducción a los segmentos de Adobe Experience Platform {#about-segments}
 
 [!DNL Journey Optimizer]  le permite crear segmentos de Adobe Experience Platform utilizando datos de perfil de cliente en tiempo real directamente desde el **[!UICONTROL Segments]** y aprovecharlos en sus recorridos.
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 7%
@@ -19,13 +19,13 @@ Este grupo de campos se compartirá mediante journeyStepEvent y journeyStepProfi
 
 Durante el procesamiento de un paso, es posible que no se recuperen datos en grupos de campos.
 
-## fetchTotalTime
+## fetchTotalTime {#fetchtotaltime-field}
 
 Cantidad total de tiempo empleado en la recuperación de datos en millones durante el procesamiento del paso.
 
 Tipo: long
 
-## fetchTypeInError
+## fetchTypeInError {#fetchtypeinerror-field}
 
 Define si la recuperación por error se realiza en Adobe Experience Platform o en una fuente de datos personalizada.
 
@@ -35,7 +35,7 @@ Valores:
 * aep
 * custom
 
-## fetchError
+## fetchError {#fetcherror-field}
 
 Tipo de error que se produce cuando se procesa la captura de datos.
 
@@ -47,13 +47,13 @@ Valores:
 * timedout
 * error
 
-## fetchErrorCode
+## fetchErrorCode {#fetcherrorcode-field}
 
 Código de error de recuperación. Presente si el error tiene un código, como uno HTTP. Por ejemplo, si actionExecError es http, el código 404 representa el error HTTP 404.
 
 Tipo: cadena
 
-## fetchOriginError
+## fetchOriginError {#fetchoriginerror-field}
 
 Se puede producir un tiempo de espera, en dos casos:
 
@@ -73,37 +73,37 @@ Por ejemplo, se están recuperando datos del servicio de perfil unificado y se d
 
 Tipo: cadena
 
-## fetchOriginErrorCode
+## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
 El código de error proporcionado por el sistema [!DNL Journey Orchestration] está consultando. Por ejemplo, puede ser 404, 500, etc.
 
 Tipo: cadena
 
-## fetchCount
+## fetchCount {#fetchcount-field}
 
 Cuántas veces se recuperan los datos, independientemente del tipo de origen.
 
 Tipo: long
 
-## fetchPlatformTotalTime
+## fetchPlatformTotalTime {#fetchplatformtotaltime-field}
 
 Cantidad total de tiempo que se tardó en recuperar los datos de Adobe Experience Platform en millones. Comentario: esta cantidad de tiempo se calcula desde el momento en que el motor envía el evento de enriquecimiento al servicio de enriquecimiento y recibe la respuesta.
 
 Tipo: long
 
-## fetchPlatformCount
+## fetchPlatformCount {#fetchplatformcount-field}
 
 Cuántas veces se recuperan los datos de Adobe Experience Platform.
 
 Tipo: long
 
-## fetchCustomTotalTime
+## fetchCustomTotalTime {#fetchcustomtotaltime-field}
 
 Cantidad de tiempo para recuperar los datos personalizados en milisegundos. Comentario: esta cantidad de tiempo se calcula desde el momento en que el motor envía el evento de enriquecimiento al servicio de enriquecimiento y recibe la respuesta
 
 Tipo: long
 
-## fetchCustomCount
+## fetchCustomCount {#fetchcustomcount-field}
 
 Cuántas veces se obtienen los datos personalizados de sistemas externos.
 

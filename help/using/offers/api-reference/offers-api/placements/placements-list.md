@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 12%
 
 ---
 
-# Enumerar ubicaciones
+# Enumerar ubicaciones {#list-placements}
 
 Las ubicaciones son contenedores que se utilizan para mostrar las ofertas. Una ubicación ayuda a garantizar que el contenido de oferta correcto se muestre en la ubicación correcta dentro del mensaje. Al agregar contenido a una oferta, se le pedirá que seleccione una ubicación en la que se pueda mostrar dicho contenido.
 
@@ -32,11 +32,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | `SCHEMA_PLACEMENT}` | Define el esquema asociado a las ubicaciones. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
 | `{QUERY_PARAMS}` | Parámetros de consulta opcionales para filtrar los resultados por. | `limit=2` |
 
-## Uso de parámetros de consulta
+## Uso de parámetros de consulta {#using-query-parameters}
 
 Puede utilizar parámetros de consulta para filtrar los resultados y la página cuando enumere recursos.
 
-### Paginación
+### Paginación {#paging}
 
 Los parámetros de consulta más comunes para la paginación incluyen:
 

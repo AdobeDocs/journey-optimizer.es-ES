@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 2c27942ece935c715ed2dea4d998705224a75089
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
 source-wordcount: '1597'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # Prueba del recorrido{#testing_the_journey}
 
-Antes de poder probar el recorrido, debe resolver todos los errores si los hay. Consulte [esta sección](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb).
+Antes de poder probar el recorrido, debe resolver todos los errores si los hay. Consulte [esta sección](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
 Puede probar el recorrido antes de su publicación mediante perfiles de prueba. Esto le permite analizar el flujo de las personas en el recorrido y solucionar los problemas antes de la publicación.
 
@@ -23,7 +23,7 @@ Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba.
 
 Para utilizar el modo de prueba, siga estos pasos:
 
-1. Antes de probar el recorrido, compruebe que sea válido y que no haya ningún error. No podrá iniciar una prueba de un recorrido con errores. Consulte [esta sección](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb). Se muestra un símbolo de advertencia cuando hay errores.
+1. Antes de probar el recorrido, compruebe que sea válido y que no haya ningún error. No podrá iniciar una prueba de un recorrido con errores. Consulte [esta sección](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). Se muestra un símbolo de advertencia cuando hay errores.
 
 1. Para activar el modo de prueba, haga clic en el botón **[!UICONTROL Test]** alternar, situado en la esquina superior derecha.
 

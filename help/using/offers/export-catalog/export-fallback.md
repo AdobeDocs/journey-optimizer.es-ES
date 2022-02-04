@@ -1,12 +1,12 @@
 ---
 title: 'Ofertas de reserva: conjunto de datos'
-description: Esta sección enumera todos los campos utilizados en el conjunto de datos exportado para ofertas de reserva.
+description: Esta sección enumera todos los campos utilizados en el conjunto de datos exportado para ofertas de reserva
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 3%
@@ -27,14 +27,14 @@ El lote correcto más reciente del conjunto de datos se muestra a la derecha. La
 
 Esta es la lista de todos los campos que se pueden utilizar en la variable **[!UICONTROL Decision Object Repository - Fallback Offers]** conjunto de datos.
 
-## Identificador
+## Identificador {#identifier}
 
 **Campo:** _id
 **Título:** Identificador
 **Descripción:** Identificador único del registro.
 **Tipo:** cadena
 
-## _experiencia
+## _experiencia {#experience}
 
 **Campo:** _experience
 **Tipo:** object
@@ -179,7 +179,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo
+## _repo {#repo}
 
 **Campo:** _repo
 **Tipo:** object
