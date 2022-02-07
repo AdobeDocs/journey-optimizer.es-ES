@@ -9,7 +9,7 @@ exl-id: 1bf4662e-55d0-4631-af93-1430ec7ed7e2
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '53'
-ht-degree: 7%
+ht-degree: 11%
 
 ---
 
@@ -19,7 +19,7 @@ Devuelve una nueva hora de fecha, con una nueva zona horaria en el mismo instant
 
 ## Categoría
 
-Fecha 
+Fecha
 
 ## Sintaxis de función
 

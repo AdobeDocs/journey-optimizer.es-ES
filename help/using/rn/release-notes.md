@@ -5,13 +5,13 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '2379'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Notas de la versión {#release-notes}
 
-En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journey Optimizer]. También puede consultar la [últimas actualizaciones de la documentación](documentation-updates.md) para obtener más cambios.
+En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journey Optimizer]. También puede consultar la página de las [últimas actualizaciones de la documentación](documentation-updates.md) para ver más cambios.
 
 
 ## Lanzamiento de enero de 2022 {#january-2022-release}
@@ -21,14 +21,14 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <table>
 <thead>
 <tr>
-<th><strong>Recorridos : optimice la ampliación de su IP con las condiciones del límite del perfil</strong><br/></th>
+<th><strong>Recorridos: optimice la ampliación de su IP con las condiciones del límite del perfil</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Al configurar un <strong>Condición</strong> en un recorrido, ahora puede definir un límite de perfil. Este nuevo tipo de condición le permite establecer un número máximo de perfiles para una ruta de recorrido. Cuando se alcanza este límite, los perfiles que se introducen toman una ruta alternativa. Esto le permite aumentar el volumen de los envíos (aumento de IP). Por ejemplo, puede que desee ampliar las entregas en un dominio dividiendo la ejecución: enviar 1000 mensajes el día 1, 2000 el día 2, etc.</p>
-<p>Para obtener más información, consulte <a href="../building-journeys/condition-activity.md#profile_cap">documentación detallada</a> y relacionados <a href="../building-journeys/ramp-up-deliveries-uc.md">ejemplo de uso</a>.</p>
+<p>Al configurar una actividad de <strong>Condición</strong> en un recorrido, ahora puede definir un límite de perfil. Este nuevo tipo de condición le permite establecer un número máximo de perfiles para una ruta de recorrido. Cuando se alcanza este límite, los perfiles que se introducen toman una ruta alternativa. Esto le permite aumentar el volumen de los envíos (aumento de IP). Por ejemplo, puede que desee ampliar las entregas en un dominio dividiendo la ejecución: enviar 1000 mensajes el día 1, 2000 el día 2, etc.</p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/condition-activity.md#profile_cap">documentación detallada</a> y el <a href="../building-journeys/ramp-up-deliveries-uc.md">ejemplo de uso</a> relacionado.</p>
 </td>
 </tr>
 </tbody>
@@ -43,7 +43,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <tbody>
 <tr>
 <td>
-<p>La variable <strong>Lectura incremental</strong> se ha añadido a <strong>Leer segmento</strong> actividades. Esta opción le permite dirigirse únicamente a las personas que ingresaron al segmento desde la última ejecución del recorrido. La primera ejecución siempre se dirige a todos los miembros del segmento.</p>
+<p>La opción <strong>Lectura incremental</strong> se ha añadido a las actividades <strong>Leer segmento</strong> recurrentes. Esta opción le permite dirigirse únicamente a las personas que ingresaron al segmento desde la última ejecución del recorrido. La primera ejecución siempre se dirige a todos los miembros del segmento.</p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">documentación detallada</a>.
 </td>
 </tr>
@@ -54,12 +54,12 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 **Recorridos**
 
-* Los eventos de paso de Journey Optimizer ahora se pueden vincular a otros conjuntos de datos en [Customer Journey Analytics de Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es). La variable **profileID** , en el esquema integrado de Evento de paso de Recorrido, ahora se define como un campo de identidad. [Más información](../reports/sharing-overview.md#integration-cja)
+* Los eventos de paso de Journey Optimizer ahora se pueden vincular a otros conjuntos de datos en [Customer Journey Analytics de Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es). El campo **profileID**, en el esquema integrado de Evento de paso de recorrido, ahora se define como un campo de identidad. [Más información](../reports/sharing-overview.md#integration-cja)
 
 
 **Offer Decisioning**
 
-* Al actualizar una oferta, una oferta de reserva, una recopilación de ofertas o una decisión de oferta a la que se hace referencia directa o indirectamente en un mensaje publicado, las actualizaciones ahora se reflejan automáticamente en el mensaje correspondiente, sin necesidad de volver a publicarlas. [Más información](../offers/offers-e2e.md#insert-decision-in-email)
+* Al actualizar una oferta, una oferta de reserva, una colección de ofertas o una decisión de oferta a la que se hace referencia directa o indirectamente en un mensaje publicado, las actualizaciones ahora se reflejan automáticamente en el mensaje correspondiente, sin necesidad de volver a publicarlas. [Más información](../offers/offers-e2e.md#insert-decision-in-email)
 
 **Administración**
 
@@ -67,7 +67,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 **Personalización**
 
-* **Agregar a favoritos** - Para ayudar a mejorar la eficacia al trabajar con la personalización, hemos introducido el concepto de guardar favoritos. Añadir atributos diferentes al menú de favoritos permite acceder rápidamente a los elementos más utilizados. [Más información](../personalization/personalize.md#fav)
+* **Agregar a favoritos**: para ayudar a mejorar la eficacia al trabajar con la personalización, hemos introducido el concepto de guardado de favoritos. Añadir atributos diferentes al menú de favoritos permite acceder rápidamente a los elementos más utilizados. [Más información](../personalization/personalize.md#fav)
 
 ## Versión de noviembre de 2021 {#november-2021-release}
 
@@ -91,7 +91,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 ## Versión de octubre de 2021 {#oct-2021-release}
 
-### Nuevas funciones
+### Nuevas funcionalidades
 
 <table>
 <thead>

@@ -1,6 +1,6 @@
 ---
 title: Creación de un perfil de prueba
-description: Obtenga información sobre cómo crear un perfil de prueba
+description: Aprenda a crear un perfil de prueba
 feature: Journeys
 topic: Content Management
 role: User

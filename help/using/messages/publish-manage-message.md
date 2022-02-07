@@ -9,7 +9,7 @@ exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
 source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 2%
+ht-degree: 17%
 
 ---
 
@@ -31,7 +31,7 @@ Ahora está listo para ser activado por uno o más [recorridos](../building-jour
 
 >[!NOTE]
 >
->Al actualizar una oferta, una oferta de reserva, una recopilación de ofertas o una decisión de oferta a la que se hace referencia directa o indirectamente en un mensaje publicado, las actualizaciones ahora se reflejan automáticamente en el mensaje correspondiente, sin necesidad de volver a publicarlas. [Más información sobre las ofertas](../offers/get-started/starting-offer-decisioning.md)
+>Al actualizar una oferta, una oferta de reserva, una colección de ofertas o una decisión de oferta a la que se hace referencia directa o indirectamente en un mensaje publicado, las actualizaciones ahora se reflejan automáticamente en el mensaje correspondiente, sin necesidad de volver a publicarlas. [Más información sobre las ofertas](../offers/get-started/starting-offer-decisioning.md)
 
 ## Actualizar un mensaje de solo lectura {#modify-message}
 

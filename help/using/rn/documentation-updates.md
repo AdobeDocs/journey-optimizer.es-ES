@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
 source-wordcount: '875'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -16,11 +16,11 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Enero de 2022 {#january-2022}
 
-* Todas las nuevas funciones y mejoras incluidas [!DNL Journey Optimizer] La versión del 22 de enero se ha detallado en la documentación. [Más información](release-notes.md)
+* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de enero de 2022 se han incluido en la documentación. [Más información](release-notes.md)
 
-* La sección Clasificación de AI de Offer decisioning se ha actualizado con una descripción más detallada del modelo de optimización automática. [Más información](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
+* La sección de clasificación de AI de Offer decisioning se ha actualizado con una descripción más detallada del modelo de optimización automática. [Más información](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
 
-* Se ha añadido una nueva sección sobre los requisitos de esquema necesarios para poder enviar en tipos de evento al utilizar una estrategia de clasificación. [Más información](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
+* Se ha añadido una nueva sección sobre los requisitos de esquema necesarios para poder enviar tipos de evento al utilizar una estrategia de clasificación. [Más información](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
 
 * La sección relacionada con [!DNL Journey Optimizer] las funcionalidades de personalización se han reorganizado para mejorar la legibilidad. [Más información](../personalization/personalize.md)
 
