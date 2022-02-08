@@ -1,21 +1,21 @@
 ---
 title: Creación de simulaciones
-description: Aprenda a crear simulaciones
+description: Aprenda a simular qué ofertas se enviarán para una ubicación determinada para validar su lógica de decisión
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 60ccb9b918284b3fcb62101bc94bf64d2272e8e2
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '739'
 ht-degree: 1%
 
 ---
 
 # Creación de simulaciones {#create-simulations}
 
-## Acerca de la simulación
+## Acerca de la simulación {#about-simulation}
 
 Para validar la lógica de decisiones, puede simular qué ofertas se enviarán a un perfil de prueba para una ubicación determinada.
 
@@ -35,7 +35,7 @@ Para acceder a esta función, seleccione la opción **[!UICONTROL Simulation]** 
 ➡️ [Discover this feature in video](#video)
 -->
 
-## Seleccionar perfiles de prueba
+## Seleccionar perfiles de prueba {#select-test-profiles}
 
 Primero debe seleccionar los perfiles de prueba que va a utilizar para la simulación.
 
@@ -61,11 +61,15 @@ Primero debe seleccionar los perfiles de prueba que va a utilizar para la simula
 
    ![](../../assets/offers_simulation-saved-profiles.png)
 
+   >[!NOTE]
+   >
+   >Los perfiles seleccionados permanecerán enumerados como perfiles de prueba en la variable **[!UICONTROL Simulation]** de sesión en sesión hasta que se eliminen utilizando **[!UICONTROL Manage profile]**.
+
 1. Puede hacer clic en el botón **[!UICONTROL Profile details]** vínculo para mostrar los datos de perfil seleccionados.
 
 <!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
-## Agregar ámbitos de decisión
+## Agregar ámbitos de decisión {#add-decision-scopes}
 
 Ahora, seleccione las decisiones de oferta que desee simular en los perfiles de prueba.
 
@@ -103,39 +107,38 @@ Ahora, seleccione las decisiones de oferta que desee simular en los perfiles de 
    >[!NOTE]
    >
    >Aunque defina varios ámbitos de decisión, solo se simula una solicitud de API.
+
+## Definición de la configuración de simulación {#define-simulation-settings}
+
+Para editar la configuración predeterminada de las simulaciones, siga los pasos a continuación.
+
+1. Haga clic en **[!UICONTROL Settings]**.
+
+   ![](../../assets/offers_simulation-settings.png)
+
+1. En el **[!UICONTROL Deduplication]** , puede elegir permitir ofertas duplicadas entre decisiones o ubicaciones. Significa que se puede asignar la misma oferta a varias decisiones/ubicaciones.
+
+   ![](../../assets/offers_simulation-settings-deduplication.png)
+
+   >[!NOTE]
    >
-   >De forma predeterminada, todos los indicadores de deduplicación están habilitados para la simulación, lo que significa que el motor de decisión permite duplicados y, por lo tanto, puede realizar la misma propuesta en múltiples decisiones/colocaciones. Obtenga más información sobre [!DNL Decisions] Propiedades de solicitud de API en [esta sección](../api-reference/decisions-api/deliver-offers.md).<!--Deduplication note TO REMOVE WHEN SIMULATIONS V2 is on PROD-->
+   >De forma predeterminada, todos los indicadores de deduplicación están habilitados para la simulación, lo que significa que el motor de decisión permite duplicados y, por lo tanto, puede realizar la misma propuesta en múltiples decisiones/colocaciones. Obtenga más información sobre [!DNL Decisions] Propiedades de solicitud de API en [esta sección](../api-reference/decisions-api/deliver-offers.md).
 
-<!--SIMULATIONS V2
+1. En el **[!UICONTROL Response format]** , puede elegir incluir metadatos en la vista de código. Marque la opción correspondiente y seleccione los metadatos que desee. Se muestran en las cargas útiles de solicitud y respuesta al seleccionar **[!UICONTROL View code]**. Obtenga más información en la [Ver resultados de simulación](#simulation-results) para obtener más información.
 
-## Define simulation settings {#define-simulation-settings}
+   ![](../../assets/offers_simulation-settings-response-format.png)
 
-To edit the default settings for your simulations, follow the steps below.
+   >[!NOTE]
+   >
+   >Al activar la opción, se seleccionan todos los elementos de forma predeterminada.
 
-1. Click **[!UICONTROL Settings]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
-    ![](../../assets/offers_simulation-settings.png)
+>[!NOTE]
+>
+>Actualmente, para los datos de simulación solo puede utilizar la variable **[!UICONTROL Hub]** API.
 
-1. In the **[!UICONTROL Deduplication]** section, you can choose to allow duplicate offers accross decisions and/or placements. It means that multiple decisions/placements may get assigned the same offer.
-
-    ![](../../assets/offers_simulation-settings-deduplication.png)
-
-    >[!NOTE]
-    >
-    >By default, all Deduplication flags are enabled for simulation, which means that the decision engine allows duplicates and thus can make the same proposition accross multiple decisions/placements. Learn more on the [!DNL Decisions] API request properties in [this section](../api-reference/decisions-api/deliver-offers.md).
-
-1. In the **[!UICONTROL Response format]** section, you can choose to include metadata in the code view. Check the corresponding option, and select the metadata of your choice. They will be displayed in the request and response payloads when selecting **[!UICONTROL View code]**. Learn more in the [View simulation results](#simulation-results) section.
-
-    ![](../../assets/offers_simulation-settings-response-format.png)
-
-    >[!NOTE]
-    >
-    >When turning on the option, all items are selected by default.
-
-1. Click **[!UICONTROL Save]**.-->
-
-<!--NOT FOR SIMULATIONS V2
-
+<!--
 In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
 Hub and Edge are two different end points for simulation data.
 
@@ -143,7 +146,7 @@ In the **[!UICONTROL Context data]** section, you can add as many elements as ne
 
     >[!NOTE]
     >
-    >This section is hidden if you select Edge API in the section above. Hub allows the use of Context Data, Edge does not.
+    >This section is hidden if you select Edge API in the section above. Hub allows the use of Context data, Edge does not.
 
 Context data allows the user to add contextual data that could affect the simulation score.
 For instance, let's say the customer has an offer for a discount on ice cream. In the rules for that offer, it can have logic that would rank it higher when the temperature is above 80 degrees. In simulation, the user could add context data: temperature=65 and that offer would rank lower, of they could add temperature=95 and that would rank higher.
@@ -163,9 +166,7 @@ Una vez agregado el ámbito de decisión y seleccionado un perfil de prueba, pue
 
    ![](../../assets/offers_simulation-offer-details.png)
 
-   <!--
-    SIMULATIONS V2
-    1. Click **[!UICONTROL View code]** to display the request and response payloads. [Learn more](#view-code)-->
+1. Haga clic en **[!UICONTROL View code]** para mostrar las cargas útiles de solicitud y respuesta. [Más información](#view-code)
 
 1. Seleccione otro perfil de la lista para mostrar los resultados de las decisiones de oferta para un perfil de prueba diferente.
 
@@ -175,62 +176,27 @@ Una vez agregado el ámbito de decisión y seleccionado un perfil de prueba, pue
 >
 >Cada vez que cambia perfiles o actualiza los ámbitos de decisión, debe actualizar los resultados utilizando la variable **[!UICONTROL View results]** botón.
 
-<!--
-SIMULATIONS V2
+## Ver código {#view-code}
 
-## View code {#view-code}
+1. Utilice la variable **[!UICONTROL View code]** para mostrar las cargas útiles de solicitud y respuesta.
 
-To use the request payload outside of [!DNL Journey Optimizer] - for troubleshooting purpose for example, you can copy it by clicking the corresponding button on top of the code view.
-    
->[!NOTE]
->
->You cannot copy the response payload.
+   ![](../../assets/offers_simulation-view-code.png)
 
-Below is an example of code view:
+   La vista de código muestra la información de desarrollador para el usuario actual. De forma predeterminada, la variable **[!UICONTROL Response payload]** se muestra.
 
-    ```
-    curl -X POST \
-    'https://platform.adobe.io/data/core/ode/{CONTAINER_ID}/decisions' \
-    -H 'Accept: application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"' \
-    -H 'Content-Type: application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"' \
-    -H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsIng1dSI6Imltc19uYTEtc3RnMS1rZXktMS5jZXIifQ.eyJpZCI6IjE2NDMxMzg3NDMxODlfOTIzY2ZjZjgtOWVkYy00MjE1LWJjODgtYmEyYTY2ZGIyYmMyX3VlMSIsInR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJjbGllbnRfaWQiOiJhY3BfdWlfcGxhdGZvcm0iLCJ1c2VyX2lkIjoiNDhENTc0N0E2MDc3NkRERTBBNDk0MDFEQEFkb2JlSUQiLCJzdGF0ZSI6IntcInNlc3Npb25cIjpcImh0dHBzOi8vaW1zLW5hMS1zdGcxLmFkb2JlbG9naW4uY29tL2ltcy9zZXNzaW9uL3YxL1l6azNNakE0TXpNdFpXVTVaUzAwTVdOaExUZ3pNamd0TmpFM1pqZ3lOak5qTmpSakxTMDBPRVExTnpRM1FUWXdOemMyUkVSRk1FRTBPVFF3TVVSQVFXUnZZbVZKUkFcIn0iLCJhcyI6Imltcy1uYTEtc3RnMSIsImFhX2lkIjoiNDhENTc0N0E2MDc3NkRERTBBNDk0MDFEQEFkb2JlSUQiLCJjdHAiOjAsImZnIjoiV0VQQTNUSUY0UjRaQTZEWlBDUk1BMklBQ1U9PT09PT0iLCJzaWQiOiIxNjQzMDYwMDg0NzI2XzYzNGJkNDEzLWMwYTktNDA0NS1iNTM3LWRmMzgzYzU5ZGIxY191ZTEiLCJydGlkIjoiMTY0MzEzODc0MzE4OV9lYWMxOWY5Yi00ZjhhLTQ1NWMtOWVmMi1mNjYwNmQ0ODY4N2ZfdWUxIiwibW9pIjoiYmVjOTQzYzIiLCJwYmEiOiIiLCJvYyI6InJlbmdhKm5hMXItc3RnMSoxN2U5MmIzNzYzNCo2MEJEVjBGUlhOMFlRMkdHSkRON0E5Tk1HOCIsInJ0ZWEiOiIxNjQ0MzQ4MzQzMTg5IiwiZXhwaXJlc19pbiI6Ijg2NDAwMDAwIiwic2NvcGUiOiJvcGVuaWQsc2Vzc2lvbixyZWFkX29yZ2FuaXphdGlvbnMsYWRkaXRpb25hbF9pbmZvLnByb2plY3RlZFByb2R1Y3RDb250ZXh0LGFkZGl0aW9uYWxfaW5mby5yb2xlcyxhdWRpZW5jZW1hbmFnZXJfYXBpLEFkb2JlSUQiLCJjcmVhdGVkX2F0IjoiMTY0MzEzODc0MzE4OSJ9.TgZ998KHA4Zeoyq7b_NbPv8aPHb2cs9GgP3uJKrTbzosylKKRYqLpj_8HkloI-bFVQFCBCOWbCwtJtkcRIvFlQFruTr5bpMatPV8izEUVutO6smkYBFoGFYyEGuN5Xe97uOJZEHzFSWguGZtgttSrNhXr-j0hFloofjXDJXPB_911dzXALp5s15sd3HLH9XWTwwlqF_a5SMNDXaSj1800RxsB9bJ8_YL0x4pqQwjYJxRGMhiy7Y9IOpwogSBEiqCQitlKYgaO7yaJzFwhfyisnqM7_MWX2ETn-kGFEOoBHxXDTx9P2OPojzb8ChWQgmGf7Expyvtc1ke3nJkppzrxg' \
-    -H 'x-api-key: {API_KEY}' \
-    -H 'x-gw-ims-org-id: 5D1328435BF324E90A49402A@AdobeOrg' \
-    -H 'x-sandbox-name: prod' \
-    -D '{
-      "xdm:propositionRequests": [
-            {
-                  "xdm:placementId": "xcore:offer-placement:1416f4109d9d292c",
-                  "xdm:activityId": "xcore:offer-activity:1416f4aad9fd99d7",
-                  "xdm:itemCount": 2
-            }
-      ],
-      "xdm:profiles": [
-            {
-                  "xdm:identityMap": {
-                        "email": [
-                              {
-                                    "xdm:id": "poyfair@adobe.com"
-                              }
-                        ]
-                  }
-            }
-      ],
-      "xdm:allowDuplicatePropositions": {
-            "xdm:acrossActivities": true,
-            "xdm:acrossPlacements": true
-      },
-      "xdm:responseFormat": {
-            "xdm:includeMetadata": {
-                  "xdm:activity": [],
-                  "xdm:option": [],
-                  "xdm:placement": []
-            }
-      }
-    }'
-    ```
+   ![](../../assets/offers_simulation-request-payload.png)
 
->[!NOTE]
->
->When copying the request payload into your own code, make sure you replace CONTAINER_ID and API_KEY with your own values.-->
+1. Haga clic en **[!UICONTROL Response payload]** o **[!UICONTROL Request payload]** para desplazarse entre las dos pestañas.
+
+   ![](../../assets/offers_simulation-response-payload.png)
+
+1. Para utilizar la carga útil de la solicitud fuera de [!DNL Journey Optimizer] - para solucionar problemas, por ejemplo, cópielo utilizando la variable **[!UICONTROL Copy to clipboard]** en la parte superior de la vista de código.
+
+   ![](../../assets/offers_simulation-copy-payload.png)
+
+   <!--You cannot copy the response payload. ACTUALLY YES YOU CAN > to confirm with PM/dev? -->
+
+   >[!NOTE]
+   >
+   >Al copiar las cargas de solicitud o respuesta en su propio código, asegúrese de reemplazar {USER_TOKEN} y {API_KEY} con valores válidos. Obtenga información sobre cómo recuperar estos valores en la variable [API de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html)documentación de {target=&quot;_blank&quot;}.
 

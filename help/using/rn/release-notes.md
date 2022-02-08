@@ -2,10 +2,10 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: 1316d7564a26db3e5be30a1b35e97e4fd15decd1
 workflow-type: tm+mt
-source-wordcount: '2379'
-ht-degree: 100%
+source-wordcount: '2416'
+ht-degree: 98%
 
 ---
 
@@ -56,10 +56,11 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 * Los eventos de paso de Journey Optimizer ahora se pueden vincular a otros conjuntos de datos en [Customer Journey Analytics de Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es). El campo **profileID**, en el esquema integrado de Evento de paso de recorrido, ahora se define como un campo de identidad. [Más información](../reports/sharing-overview.md#integration-cja)
 
-
 **Offer Decisioning**
 
 * Al actualizar una oferta, una oferta de reserva, una colección de ofertas o una decisión de oferta a la que se hace referencia directa o indirectamente en un mensaje publicado, las actualizaciones ahora se reflejan automáticamente en el mensaje correspondiente, sin necesidad de volver a publicarlas. [Más información](../offers/offers-e2e.md#insert-decision-in-email)
+
+* Al simular qué ofertas se enviarán para un perfil de prueba determinado, ahora puede modificar los ajustes de simulación predeterminados y ver el código correspondiente a las simulaciones que se pueden utilizar para solucionar problemas. [Más información](../offers/offer-activities/simulation.md#define-simulation-settings)
 
 **Administración**
 
