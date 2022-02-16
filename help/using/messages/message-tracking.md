@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: fc6ec2c916f6fbf3d6c6728b5a50ae7e54d9b42f
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 5%
+source-wordcount: '577'
+ht-degree: 7%
 
 ---
 
@@ -52,11 +52,13 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
    * **[!UICONTROL Landing page]**: Inserte un vínculo a una página de aterrizaje. Obtenga más información en [esta sección](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL Unsubscription link]**: Inserte un vínculo para cancelar la suscripción a la recepción de comunicaciones de su marca. Obtenga más información sobre la administración de exclusiones en [esta sección](consent.md#opt-out-management).
+   * **[!UICONTROL One click Opt-out]**: Inserte un vínculo para permitir a los usuarios cancelar rápidamente la suscripción a sus comunicaciones sin necesidad de confirmar la exclusión. Obtenga más información en [esta sección](consent.md#one-click-opt-out).
+
+   * **[!UICONTROL External Opt-in/Subscription]**: Inserte un vínculo para aceptar la recepción de comunicaciones de su marca.
+
+   * **[!UICONTROL External Opt-out/Unsubscription]**: Inserte un vínculo para cancelar la suscripción a la recepción de comunicaciones de su marca. Obtenga más información sobre la administración de exclusiones en [esta sección](consent.md#opt-out-management).
 
    * **[!UICONTROL Mirror page]**: Inserte un vínculo para mostrar el contenido del correo electrónico en un explorador web. Obtenga más información en [esta sección](#mirror-page).
-
-   * **[!UICONTROL Opt-out]**: Inserte un vínculo para permitir a los usuarios cancelar rápidamente la suscripción a sus comunicaciones sin necesidad de confirmar la exclusión. Obtenga más información en [esta sección](#one-click-opt-out-link).
 
    ![](assets/message-tracking-links.png)
 
@@ -66,7 +68,7 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
 1. Una vez creado el vínculo, puede modificarlo desde el **[!UICONTROL Component settings]** a la derecha.
 
-   * Haga clic en el icono de lápiz para editar el vínculo.
+   * Puede editar el vínculo y cambiar su tipo.
    * Puede elegir subrayar el vínculo o no marcando la opción correspondiente.
 
    ![](assets/message-tracking-link-settings.png)
@@ -93,34 +95,6 @@ Una vez enviado el correo electrónico, cuando los destinatarios hacen clic en e
 
 El período de retención de una página espejo es de 60 días. Después de ese retraso, la página espejo ya no estará disponible.
 
-## Vínculo de no participación de un clic {#one-click-opt-out-link}
-
-Para permitir que los destinatarios cancelen rápidamente la suscripción a la recepción de comunicaciones de su marca, puede insertar un vínculo de exclusión de un solo clic en el contenido del correo electrónico. Esta capacidad evita que los usuarios se redirijan a una página de aterrizaje donde necesitan confirmar su elección, lo que acelera el proceso de cancelación de suscripción.
-
-Para añadir un vínculo de no participación en el correo electrónico, siga los pasos a continuación.
-
-1. [Inserción de un vínculo](#insert-links) y seleccione **[!UICONTROL Opt-out]** como tipo de vínculo.
-
-   ![](assets/message-tracking-opt-out.png)
-
-1. Seleccione cómo desea aplicar la exclusión: en el nivel de canal, identidad o suscripción.
-
-   ![](assets/message-tracking-opt-out-level.png)
-
-   * **[!UICONTROL Channel]**: La exclusión se aplica a mensajes futuros enviados al destinatario del perfil (es decir, la dirección de correo electrónico) para el canal actual. Si hay varios objetivos asociados a un perfil, la exclusión se aplica a todos los destinos (es decir, direcciones de correo electrónico) del perfil de ese canal.
-   * **[!UICONTROL Identity]**: La exclusión se aplica a los mensajes futuros enviados al destinatario específico (es decir, la dirección de correo electrónico) que se estén utilizando para el mensaje actual.
-   * **[!UICONTROL Subscription]**: La exclusión se aplica a mensajes futuros asociados a una lista de suscripción específica. Esta opción solo se puede seleccionar si el mensaje actual está asociado con una lista de suscripción.
-
-1. Introduzca la dirección URL de la página de aterrizaje a la que se redirigirá al usuario una vez cancelada la suscripción. Esta página solo está aquí para confirmar que la exclusión se ha realizado correctamente.
-
-   ![](assets/message-tracking-opt-out-confirmation.png)
-
-   Puede personalizar los vínculos. Obtenga más información sobre las direcciones URL personalizadas en [esta sección](../personalization/personalization-syntax.md).
-
-1. Guarde los cambios.
-
-Una vez enviado el mensaje, si los destinatarios hacen clic en el vínculo de exclusión, se excluyen inmediatamente.
-
 ## Administrar seguimiento {#manage-tracking}
 
 La variable [Diseñador de correo electrónico](create-email-content.md) le permite administrar las direcciones URL rastreadas, como editar el tipo de seguimiento para cada vínculo.
@@ -134,7 +108,6 @@ La variable [Diseñador de correo electrónico](create-email-content.md) le perm
    ![](assets/message-tracking-edit-links.png)
 
 1. Puede modificar el **[!UICONTROL Tracking Type]** si es necesario:
-
 
    ![](assets/message-tracking-edit-a-link.png)
 

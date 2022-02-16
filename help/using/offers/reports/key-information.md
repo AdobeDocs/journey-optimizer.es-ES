@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 07be59e8-e994-4854-8089-25614d005dbe
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 90%
+source-wordcount: '128'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ Cada evento que se envía cuando se toma una decisión contiene cuatro puntos de
 * **[!UICONTROL Fallback]**: Nombre e ID de la oferta de reserva si no se ha seleccionado ninguna oferta personalizada,
 * **[!UICONTROL Placement]**: Nombre, ID y canal de la ubicación utilizada para entregar la oferta,
 * **[!UICONTROL Selections]**: Nombre e ID de la oferta seleccionada para el perfil,
-* **[!UICONTROL Activity]**: Nombre e ID de la decisión (anteriormente conocida como actividad de oferta).
+* **[!UICONTROL Activity]**: Nombre e ID de la decisión.
 
 Además, también puede aprovechar los campos **[!UICONTROL identityMap]** y **[!UICONTROL Timestamp]** para recuperar información sobre el perfil y la hora a la que se entregó la oferta.
 

@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
-source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '251'
 ht-degree: 5%
 
 ---
 
 # Enumerar decisiones {#list-decisions}
 
-Una decisión (anteriormente conocida como actividad de oferta) contiene la lógica que indica la selección de una oferta.
+Una decisión contiene la lógica que indica la selección de una oferta.
 
 Puede ver una lista de todas las decisiones dentro de un contenedor realizando una única solicitud de GET al [!DNL Offer Library] API.
 

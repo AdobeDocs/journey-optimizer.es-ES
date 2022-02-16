@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a5c104539cae37197e0caa43cefcfed2bee23737
+source-git-commit: 4a0b1ee220cc05e4dfc10724554b39bdfd0b6678
 workflow-type: tm+mt
-source-wordcount: '1684'
-ht-degree: 1%
+source-wordcount: '1694'
+ht-degree: 2%
 
 ---
 
@@ -44,76 +44,11 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
    >
    > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar guiones bajos `_`, punto`.` Guión `-` caracteres.
 
-1. Configure las variables **email** configuración.
+1. Configure las variables **email** configuración. [Más información](#configure-email-settings)
 
-   ![](../assets/preset-email.png)
+1. Configure las variables **notificación push** configuración. [Más información](#configure-push-settings)
 
-   * Seleccione el tipo de mensaje que se enviará con el ajuste preestablecido: **Transaccional** o **Marketing**
-
-      >[!CAUTION]
-      >
-      > **Transaccional** se pueden enviar mensajes a perfiles que cancelen la suscripción a comunicaciones de marketing. Estos mensajes solo se pueden enviar en contextos específicos, como restablecimiento de contraseña, estado de pedido o notificación de envío, por ejemplo.
-
-   * Seleccione el subdominio que desea utilizar para enviar los correos electrónicos. [Más información](about-subdomain-delegation.md)
-   * Seleccione el grupo de IP que desea asociar al ajuste preestablecido. [Más información](ip-pools.md)
-   * Introduzca los parámetros de encabezado para los correos electrónicos enviados mediante ese ajuste preestablecido.
-
-      >[!CAUTION]
-      >
-      >Las direcciones de correo electrónico deben utilizar la selección actual [subdominio delegado](about-subdomain-delegation.md).
-
-      * **[!UICONTROL Sender name]**: El nombre del remitente, como el nombre de su marca.
-
-      * **[!UICONTROL Sender email]**: La dirección de correo electrónico que desea utilizar para sus comunicaciones. Por ejemplo, si el subdominio delegado es *marketing.luma.com*, puede usar *contact@marketing.luma.com*.
-
-      * **[!UICONTROL Reply to (name)]**: El nombre que se utilizará cuando el destinatario haga clic en la variable **Responder** en el software cliente de correo electrónico.
-
-      * **[!UICONTROL Reply to (email)]**: La dirección de correo electrónico que se utilizará cuando el destinatario haga clic en el **Responder** en el software cliente de correo electrónico. Debe utilizar una dirección definida en el subdominio delegado (por ejemplo, *reply@marketing.luma.com*), de lo contrario, se enviarán los correos electrónicos.
-
-      * **[!UICONTROL Error email]**: Todos los errores generados por los ISP después de unos días de envío del correo (devoluciones asincrónicas) se reciben en esta dirección.
-      >[!NOTE]
-      >
-      >A partir de la versión de octubre de 2021, ya no es posible definir una dirección de correo electrónico de reenvío desde el [!DNL Journey Optimizer] interfaz de usuario. Si desea que se reciban todos los correos electrónicos de [!DNL Journey Optimizer] para que el subdominio delegado se reenvíe a una dirección de correo electrónico específica, póngase en contacto con el [Equipo de asistencia al servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
-
-      ![](../assets/preset-header.png)
-
-      >[!NOTE]
-      >
-      >Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar guiones bajos `_`, punto`.` Guión `-` caracteres.
-
-   * Configure las variables **parámetros de reintentos de correo electrónico**. De forma predeterminada, la variable [periodo de tiempo de reintento](retries.md#retry-duration) está configurada a 84 horas, pero puede ajustar esta configuración para adaptarla mejor a sus necesidades.
-
-      ![](../assets/preset-retry-paramaters.png)
-
-      Debe introducir un valor entero (en horas o minutos) dentro del siguiente intervalo:
-      * Para el tipo de correo electrónico de marketing, el periodo mínimo de reintentos es de 6 horas.
-      * Para el tipo de correo electrónico transaccional, el periodo mínimo de reintentos es de 10 minutos.
-      * Para ambos tipos de correo electrónico, el periodo de reintento máximo es de 84 horas (o 5040 minutos).
-
-
-1. Configure las variables **notificación push** configuración.
-
-   ![](../assets/preset-push.png)
-
-   * Seleccione al menos una plataforma: **iOS** y/o **Android**
-
-   * Seleccione las aplicaciones móviles que desea utilizar para cada plataforma.
-
-      Para obtener más información sobre cómo configurar el entorno para enviar notificaciones push, consulte [esta sección](../messages/push-gs.md).
-
-<!--
-1. Configure the **SMS** settings.
-
-     ![](../assets/preset-sms.png)
-
-    * Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**
-    
-    * Select the **[!UICONTROL SMS configuration]** to associate with the preset.
-        
-      For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
-
-    * Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
--->
+   <!--Configure SMS settings. [Learn more](#configure-sms-settings) -->
 
 1. Una vez configurados todos los parámetros, haga clic en **[!UICONTROL Submit]** para confirmar. También puede guardar el ajuste preestablecido de mensaje como borrador y reanudar su configuración más adelante.
 
@@ -140,6 +75,78 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 1. Una vez realizadas las comprobaciones correctamente, el ajuste preestablecido de mensaje obtiene el valor **[!UICONTROL Active]** estado. Está listo para utilizarse para enviar mensajes.
 
    ![](../assets/preset-active.png)
+
+## Configuración de correo electrónico {#configure-email-settings}
+
+![](../assets/preset-email.png)
+
+1. Seleccione el tipo de mensaje que se enviará con el ajuste preestablecido: **Transaccional** o **Marketing**.
+
+   >[!CAUTION]
+   >
+   > **Transaccional** se pueden enviar mensajes a perfiles que cancelen la suscripción a comunicaciones de marketing. Estos mensajes solo se pueden enviar en contextos específicos, como restablecimiento de contraseña, estado de pedido o notificación de envío, por ejemplo.
+
+1. Seleccione el subdominio que desea utilizar para enviar los correos electrónicos. [Más información](about-subdomain-delegation.md)
+
+1. Seleccione el grupo de IP que desea asociar al ajuste preestablecido. [Más información](ip-pools.md)
+
+1. Introduzca los parámetros de encabezado para los correos electrónicos enviados mediante ese ajuste preestablecido.
+
+   >[!CAUTION]
+   >
+   >Las direcciones de correo electrónico deben utilizar la selección actual [subdominio delegado](about-subdomain-delegation.md).
+
+   * **[!UICONTROL Sender name]**: El nombre del remitente, como el nombre de su marca.
+
+   * **[!UICONTROL Sender email]**: La dirección de correo electrónico que desea utilizar para sus comunicaciones. Por ejemplo, si el subdominio delegado es *marketing.luma.com*, puede usar *contact@marketing.luma.com*.
+
+   * **[!UICONTROL Reply to (name)]**: El nombre que se utilizará cuando el destinatario haga clic en la variable **Responder** en el software cliente de correo electrónico.
+
+   * **[!UICONTROL Reply to (email)]**: La dirección de correo electrónico que se utilizará cuando el destinatario haga clic en el **Responder** en el software cliente de correo electrónico. Debe utilizar una dirección definida en el subdominio delegado (por ejemplo, *reply@marketing.luma.com*), de lo contrario, se enviarán los correos electrónicos.
+
+   * **[!UICONTROL Error email]**: Todos los errores generados por los ISP después de unos días de envío del correo (devoluciones asincrónicas) se reciben en esta dirección.
+   >[!NOTE]
+   >
+   >A partir de la versión de octubre de 2021, ya no es posible definir una dirección de correo electrónico de reenvío desde el [!DNL Journey Optimizer] interfaz de usuario. Si desea que se reciban todos los correos electrónicos de [!DNL Journey Optimizer] para que el subdominio delegado se reenvíe a una dirección de correo electrónico específica, póngase en contacto con el [Equipo de asistencia al servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+
+   ![](../assets/preset-header.png)
+
+   >[!NOTE]
+   >
+   >Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar guiones bajos `_`, punto`.` Guión `-` caracteres.
+
+1. Configure las variables **parámetros de reintentos de correo electrónico**. De forma predeterminada, la variable [periodo de tiempo de reintento](retries.md#retry-duration) está configurada a 84 horas, pero puede ajustar esta configuración para adaptarla mejor a sus necesidades.
+
+   ![](../assets/preset-retry-paramaters.png)
+
+   Debe introducir un valor entero (en horas o minutos) dentro del siguiente intervalo:
+   * Para el tipo de correo electrónico de marketing, el periodo mínimo de reintentos es de 6 horas.
+   * Para el tipo de correo electrónico transaccional, el periodo mínimo de reintentos es de 10 minutos.
+   * Para ambos tipos de correo electrónico, el periodo de reintento máximo es de 84 horas (o 5040 minutos).
+
+## Configuración de push {#configure-push-settings}
+
+1. Seleccione al menos una plataforma: **iOS** y/o **Android**.
+
+1. Seleccione las aplicaciones móviles que desea utilizar para cada plataforma.
+
+![](../assets/preset-push.png)
+
+Para obtener más información sobre cómo configurar el entorno para enviar notificaciones push, consulte [esta sección](../messages/push-gs.md).
+
+<!--
+## Configure SMS settings {#configure-sms-settings}
+
+1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
+
+    ![](../assets/preset-sms.png)
+    
+1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
+        
+    For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
+
+1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
+-->
 
 ## Monitorización de mensajes preestablecidos {#monitor-message-presets}
 

@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 77d7694524eaca447f0cf4e19881f1688fc4e789
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '463'
 ht-degree: 5%
 
 ---
 
 # Configurar selección de ofertas en decisiones {#offers-selection-in-decisions}
 
-Si varias ofertas son elegibles para una ubicación determinada, puede elegir el método que seleccionará la mejor oferta para cada perfil al configurar una decisión (anteriormente conocida como actividad de oferta). Puede clasificar las ofertas mediante:
+Si varias ofertas son elegibles para una ubicación determinada, puede elegir el método que seleccionará la mejor oferta para cada perfil al configurar una decisión. Puede clasificar las ofertas mediante:
 * Prioridad de la oferta
 * Fórmula de clasificación
 * [Clasificación de IA](#use-ranking-strategy) (en acceso anticipado solo para usuarios seleccionados)
@@ -24,7 +24,7 @@ Si varias ofertas son elegibles para una ubicación determinada, puede elegir el
 
 ## Prioridad de la oferta {#offer-priority}
 
-De forma predeterminada, cuando varias ofertas son elegibles para una ubicación determinada en una decisión (anteriormente conocida como actividad de oferta), las ofertas con la mayor **priority** se entregará primero a los clientes.
+De forma predeterminada, cuando varias ofertas son elegibles para una ubicación determinada en una decisión, las ofertas con la mayor **priority** se entregará primero a los clientes.
 
 ![](../../assets/offer-priority.png)
 
@@ -38,7 +38,7 @@ Por ejemplo, puede aumentar la prioridad de todas las ofertas en las que la fech
 
 Obtenga información sobre cómo crear una fórmula de clasificación en [esta sección](../offer-library/create-ranking-formulas.md).
 
-Una vez creada una fórmula de clasificación, puede asignarla a una colocación en una decisión (anteriormente conocida como actividad de oferta). Para realizar esto, siga los pasos a continuación:
+Una vez creada una fórmula de clasificación, puede asignarla a una colocación en una decisión. Para realizar esto, siga los pasos a continuación:
 
 1. Cree una decisión o edite una existente. Consulte [Creación de decisiones](../offer-activities/create-offer-activities.md).
 
@@ -60,13 +60,15 @@ Si se pueden presentar varias ofertas en esta ubicación, la decisión utilizar�
 
 ## Clasificación de IA {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can also use an trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../offer-library/create-ranking-strategies.md).
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+
+También puede utilizar un sistema de modelos entrenado que clasifique automáticamente las ofertas para mostrarlas en un perfil determinado seleccionando una estrategia de clasificación. Aprenda a crear una estrategia de clasificación en [esta sección](../offer-library/create-ranking-strategies.md).
 
 >[!CAUTION]
 >
 >El uso de la clasificación AI está disponible actualmente en el acceso anticipado solo para usuarios seleccionados.
 
-Una vez creada una estrategia de clasificación, puede asignarla a una colocación en una decisión (anteriormente conocida como actividad de oferta). Para ello, siga los pasos a continuación:
+Una vez creada una estrategia de clasificación, puede asignarla a una colocación en una decisión. Para ello, siga los pasos a continuación:
 
 1. Cree una decisión o edite una existente. Consulte [Creación de decisiones](../offer-activities/create-offer-activities.md).
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+source-git-commit: bdb7b6373cb9f5a64a74a8503f46adb3fd226f77
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 10%
 
 ---
@@ -104,4 +104,4 @@ Una respuesta correcta devuelve información sobre la oferta personalizada reci�
 
 ## Limitaciones {#limitations}
 
-Algunas restricciones de oferta actualmente no son compatibles con el dispositivo móvil [!DNL Experience Edge] flujos de trabajo, por ejemplo `Capping`. La variable `Capping` valor de campo especifica el número de veces que se puede presentar una oferta en todos los usuarios. Para obtener más información, consulte [Documentación de reglas y restricciones de idoneidad para la oferta](../../../offer-library/creating-personalized-offers.md).
+Actualmente, las representaciones de ofertas y algunas restricciones de ofertas no son compatibles con el dispositivo móvil [!DNL Experience Edge] flujos de trabajo, por ejemplo `Capping`. La variable `Capping` valor de campo especifica el número de veces que se puede presentar una oferta en todos los usuarios. Para obtener más información, consulte [Documentación de reglas y restricciones de idoneidad para la oferta](../../../offer-library/creating-personalized-offers.md).

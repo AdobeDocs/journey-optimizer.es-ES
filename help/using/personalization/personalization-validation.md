@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '317'
 ht-degree: 2%
 
 ---
@@ -99,7 +99,7 @@ No se encontró el recurso con id activityID y el tipo OfferActivity<br/></td>
    <td>Las ofertas de imágenes (todas personalizadas y de reserva asociadas con el par de decisión y ubicación) deben tener la URL pública rellenada (deliveryURL no debe estar vacía).</td> 
   </tr> 
   <tr> 
-   <td>La decisión (anteriormente conocida como actividad de oferta) contiene atributos que no son de perfil.</td> 
+   <td>La decisión contiene atributos que no son de perfil.</td> 
    <td>El uso del modelo de ofertas debe contener únicamente los atributos de perfil.</td> 
   </tr> 
   <tr> 
