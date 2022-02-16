@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 750542adf2c8d468b34cc0d0f61c87afc9cd001f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 87%
     </div>
     <div>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/journey-optimizer/assets/AJO-FAQ.pdf" target="_blank">Preguntas frecuentes sobre Adobe Journey Optimizer</a> (PDF)
+      <a href="https://experienceleague.adobe.com/docs/journey-optimizer/assets/AJO-FAQ.pdf" target="_blank">Preguntas frecuentes acerca de Adobe Journey Optimizer</a> (PDF)
     </li>
     </div>
     <div>
