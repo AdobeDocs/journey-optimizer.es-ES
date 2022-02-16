@@ -1,15 +1,15 @@
 ---
 title: Interfaz de usuario
-description: Más información sobre la interfaz de usuario de Journey Optimizer
+description: Más información acerca de la interfaz de usuario de Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1464'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ La página principal de [!DNL Journey Optimizer] contiene vínculos clave y recu
 
 **[!UICONTROL ADMINISTRATION]**
 
-* **[!UICONTROL Journey Administration]** - Utilice este menú para configurar [events]../event/about-events.md), [fuentes de datos](../datasource/about-data-sources.md) y [acciones](../action/action.md) para usar en sus recorridos.
+* **[!UICONTROL Journey Administration]**: utilice este menú para configurar [eventos]../event/about-events.md), [fuentes de datos](../datasource/about-data-sources.md) y [acciones](../action/action.md) que se utilizarán en los recorridos.
 
 * **[!UICONTROL Sandboxes]**: Adobe Experience Platform proporciona entornos limitados que dividen una sola instancia en entornos virtuales independientes para ayudarle a desarrollar aplicaciones de experiencia digital y hacer que evolucionen. [Más información](../administration/sandboxes.md)
 
