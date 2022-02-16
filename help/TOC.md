@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9db2ec80a23add5d5d01affaf1a7e7772952d487
 workflow-type: tm+mt
 source-wordcount: '911'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,9 +53,9 @@ ht-degree: 98%
    + [Contextos de personalización](using/personalization/personalization-contexts.md)
    + Expresiones de compilación {#build-expressions}
       + [Sintaxis de personalización](using/personalization/personalization-syntax.md)
-      + Trabajar con el Editor de expresiones {#expression-editor}
+      + Trabajo con el Editor de expresiones {#expression-editor}
          + [Acerca del Editor de expresiones](using/personalization/personalization-build-expressions.md)
-         + [Añadir atributos a favoritos](using/personalization/personalization-favorites.md)
+         + [Adición de atributos a favoritos](using/personalization/personalization-favorites.md)
          + [Validación de personalización](using/personalization/personalization-validation.md)
       + Funciones de ayuda{#functions}
          + [Introducción a las funciones de ayuda](using/personalization/functions/functions.md)
