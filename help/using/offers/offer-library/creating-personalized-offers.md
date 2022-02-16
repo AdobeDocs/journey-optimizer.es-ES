@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 83bb29b7026c90560ffdb961b03944d8f94c8a8c
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 4%
+source-wordcount: '1491'
+ht-degree: 5%
 
 ---
 
@@ -28,6 +28,12 @@ Se puede acceder a la lista de ofertas personalizadas en la **[!UICONTROL Offers
 ![](../../assets/offers_list.png)
 
 ## Creación de la oferta {#create-offer}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_attributes"
+>title="Acerca de los atributos de oferta"
+>abstract="Con los atributos de oferta, puede asociar pares de valor clave con la oferta para realizar informes y análisis."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Ver vídeo de demostración"
 
 Para crear un **oferta**, siga estos pasos:
 
@@ -141,6 +147,30 @@ También puede insertar contenido de tipo texto al seleccionar una ubicación co
    >Solo el **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** y **[!UICONTROL Helper functions]** las fuentes están disponibles para la gestión de decisiones.
 
 ## Agregar reglas y restricciones de idoneidad {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_constraints"
+>title="Acerca de las restricciones de oferta"
+>abstract="Con las restricciones, se puede especificar cómo se prioriza la oferta y cómo se presenta al usuario en comparación con otras ofertas."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Ver vídeo de demostración"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_eligibility"
+>title="Acerca de la idoneidad de la oferta"
+>abstract="En esta sección, puede utilizar reglas de decisión para determinar qué usuarios son elegibles para la oferta."
+>additional-url="https://video.tv.adobe.com/v/329373" text="Ver vídeo de demostración"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_priority"
+>title="Acerca de la prioridad de las ofertas"
+>abstract="En este campo, se puede especificar la configuración de prioridad de la oferta. Priority es un número que se usa para clasificar ofertas que cumplen con todas las restricciones, como elegibilidad, fechas y restricciones."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Ver vídeo de demostración"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_globalcap"
+>title="Acerca de la restricción de ofertas"
+>abstract="En este campo, se puede especificar cuántas veces se puede presentar la oferta entre todos los usuarios."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Ver vídeo de demostración"
 
 Las reglas y restricciones de idoneidad le permiten definir las condiciones en las que se mostrará una oferta.
 
