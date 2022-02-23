@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: 87b8056d26fe91a71e92ca346a9811c609d41128
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 16%
+source-wordcount: '105'
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,7 @@ Cadena
 | Parámetro | Tipo |
 |-----------|--------------|
 | base | string |
-| Target | string |
+| Target | string (RegExp) |
 | reemplazo | string |
 
 ## Firma y tipo devuelto
@@ -41,8 +41,10 @@ Cadena
 
 Devuelve una cadena.
 
-## Ejemplo
+## Ejemplo{#example}
 
 `replaceAll("Hello World", "l", "x")`
 
 Devuelve &quot;Hexxo Worxd&quot;.
+
+Como el parámetro de destino es un RegExp, según la cadena que desee reemplazar, es posible que tenga que escapar algunos caracteres. Consulte el ejemplo en [esta página](../functions/functionreplace.md#example_2).

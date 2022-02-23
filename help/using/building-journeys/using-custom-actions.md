@@ -1,35 +1,29 @@
 ---
 title: Uso de acciones personalizadas
 description: Aprenda a utilizar acciones personalizadas
-feature: Journeys
+feature: Actions
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: a5ea934615385e6dc0edd482ce14f3faf546d750
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 6%
+ht-degree: 19%
 
 ---
 
 # Uso de acciones personalizadas {#use-custom-actions}
 
-El panel de configuración de actividad muestra los parámetros de configuración de URL y los parámetros de autenticación configurados para la acción personalizada. [Más información](../action/about-custom-action-configuration.md).
-
->[!NOTE]
->
->No se puede pasar una colección simple en parámetros de acción personalizados. No se admiten campos de colección más complejos (matrices de objetos).  Tenga en cuenta también que los parámetros tienen un formato esperado (por ejemplo: string, decimal, etc.). Debe tener cuidado de respetar estos formatos esperados.
+Las acciones personalizadas le permiten configurar la conexión de un sistema de terceros para enviar mensajes o llamadas API. Se puede configurar una acción con cualquier servicio de cualquier proveedor al que se pueda llamar mediante una API REST con carga útil en formato JSON.
 
 ## Configuración de URL
+
+El panel de configuración del **Acción personalizada** actividad muestra los parámetros de configuración de URL y los parámetros de autenticación configurados para la acción personalizada. No se puede configurar la parte estática de la URL en el recorrido, sino en la configuración global de la acción personalizada. [Más información](../action/about-custom-action-configuration.md).
 
 ### Ruta dinámica
 
 Si la dirección URL incluye una ruta dinámica, especifique la ruta en la **[!UICONTROL Path]** campo .
-
->[!NOTE]
->
->No se puede configurar la parte estática de la URL en el recorrido, sino en la configuración global de la acción personalizada. [Más información](../action/about-custom-action-configuration.md).
 
 Para concatenar campos y cadenas de texto sin formato, utilice las funciones de cadena o el signo más (+) en el editor de expresiones avanzadas. Escriba cadenas de texto sin formato entre comillas simples (&#39;) o entre comillas dobles (&quot;). [Más información](expression/expressionadvanced.md).
 

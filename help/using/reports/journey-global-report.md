@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 59272469ef0ea5cc43c553bab72236b89a76c643
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '1221'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Se puede acceder al informe global de recorrido directamente desde el recorrido 
 
 El recorrido **[!UICONTROL Global report]** se muestra con las siguientes pestañas:
 
-* [Recorrido](#journey-global)
+* [ Recorrido ](#journey-global)
 * [Correo electrónico](#email-global)
 * [Push](#push-global)
 
@@ -119,11 +119,34 @@ La variable **[!UICONTROL Bounce Reasons]** y **[!UICONTROL Bounce categories]**
 
 Para obtener más información sobre las devoluciones, consulte la sección [Lista de supresión](../messages/suppression-list.md) página.
 
+![](../assets/global_report_22.png)
+
+La variable **[!UICONTROL Error Reasons]** El gráfico y la tabla permiten ver qué error se produjo durante el envío.
+
+La variable **[!UICONTROL Excluded reasons]** en el gráfico y la tabla se muestran las diferentes razones que impidieron que los perfiles de usuario, excluidos de los perfiles de destino, recibieran el mensaje.
+
 ![](../assets/global_report_16.png)
 
 La variable **[!UICONTROL Email - Top Url]** gráfico y tabla detallan las direcciones URL de su envío que son las más visitadas.
 
 La variable **[!UICONTROL Email - Top recipient domain]** gráfico y tabla detallan qué dominios son los más utilizados por los destinatarios para abrir el correo electrónico.
+
+![](../assets/global_report_23.png)
+
+>[!NOTE]
+>
+>La variable **[!UICONTROL Optimized vs non optimized]** y **[!UICONTROL Send time optimization]**  las utilidades solo están disponibles si la opción de optimización del tiempo de envío está activada para la entrega. Para obtener más información sobre la optimización del tiempo de envío, consulte esta [página](../building-journeys/journeys-message.md#send-time-optimization).
+
+La variable **[!UICONTROL Optimized vs non optimized]** graph detalla la información principal relativa al mensaje, independientemente de si están optimizados o no:
+
+* **[!UICONTROL Sent]**: Número total de envíos para la entrega.
+* **[!UICONTROL Opens]**: Número de veces que se abrió la entrega en una entrega.
+* **[!UICONTROL Clicks]**: Número de veces que se hizo clic en un contenido en un correo electrónico.
+
+La variable **[!UICONTROL Send time optimization]** detalla el éxito de la entrega en función del método de envío: optimizado o normal.
+
+* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.
+* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados.
 
 <!--
 ![](../assets/global_report_21.png)
@@ -200,6 +223,21 @@ La variable **[!UICONTROL Push notification summary]** El gráfico contiene los 
 * **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.
 
 * **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
+
+>[!NOTE]
+>
+>La variable **[!UICONTROL Optimized vs non optimized]** y **[!UICONTROL Send time optimization]**  las utilidades solo están disponibles si la opción de optimización del tiempo de envío está activada para la entrega. Para obtener más información sobre la optimización del tiempo de envío, consulte esta [página](../building-journeys/journeys-message.md#send-time-optimization).
+
+La variable **[!UICONTROL Optimized vs non optimized]** graph detalla la información principal relativa al mensaje, independientemente de si están optimizados o no:
+
+* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.
+* **[!UICONTROL Opens]**: Número de veces que se abrió la entrega en una entrega.
+* **[!UICONTROL Actions]**: Número total de acciones realizadas en la notificación push entregada, por ejemplo, hacer clic en un botón o rechazar una solicitud.
+
+La variable **[!UICONTROL Send time optimization]** detalla el éxito de la entrega en función del método de envío: optimizado o normal.
+
+* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.
+* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados.
 
 ![](../assets/global_report_18.png)
 

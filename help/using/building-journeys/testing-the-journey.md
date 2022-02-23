@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: cae74818e60abc97cd8eb5ccd3f4337af591f488
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1625'
 ht-degree: 3%
 
 ---
@@ -61,6 +61,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 * Puede habilitar/deshabilitar el modo de prueba tantas veces como sea necesario.
 * No puede modificar el recorrido cuando se activa el modo de prueba. En el modo de prueba, puede publicar directamente el recorrido; no es necesario desactivar el modo de prueba antes.
 * Al llegar a una división, siempre se elige la rama superior. Puede reorganizar la posición de las ramas divididas si desea que la prueba elija una ruta diferente.
+* Para optimizar el rendimiento y evitar el uso obsoleto de recursos, todos los recorridos en modo de prueba que no se hayan activado durante una semana volverán al estado Borrador .
 
 ## Activación de eventos {#firing_events}
 

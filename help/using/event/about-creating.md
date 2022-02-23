@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: a51b19413d2b4894adfaa8249ee4f5d404ac7123
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1443'
 ht-degree: 14%
 
 ---
@@ -67,7 +67,6 @@ Estos son los primeros pasos para configurar un nuevo evento:
 
    ![](../assets/jo-event7.png)
 
-1. Para los eventos generados por el sistema, puede agregar una condición. Este paso es opcional. Esto permite al sistema procesar únicamente los eventos que cumplen la condición. La condición solo puede basarse en la información contenida en el evento. Consulte [esta sección](../event/about-creating.md#add-a-condition).
 1. Haga clic en **[!UICONTROL Save]**.
 
    El evento está ahora configurado y listo para añadirse a un recorrido. Se requieren pasos de configuración adicionales para recibir eventos. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).
@@ -145,18 +144,6 @@ Cuando se recibe el evento, el valor de la clave permite que el sistema identifi
 La clave también se utiliza para comprobar que una persona está en un recorrido. De hecho, una persona no puede estar en dos lugares diferentes en el mismo recorrido. Como resultado, el sistema no permite que la misma clave, por ejemplo la clave CRMID=3224, esté en diferentes lugares en el mismo recorrido.
 
 También tiene acceso a las funciones de expresión avanzadas (**[!UICONTROL Advanced mode]**) si desea realizar manipulaciones adicionales. Estas funciones permiten manipular los valores utilizados para realizar consultas específicas, como cambiar formatos, realizar concatenaciones de campos, teniendo en cuenta solo una parte de un campo (por ejemplo, los 10 primeros caracteres). Consulte [documentación del Journey Orchestration](../building-journeys/expression/expressionadvanced.md).
-
-## Añada una condición {#add-a-condition}
-
-La condición solo está disponible para eventos generados por el sistema. Puede definir una condición de evento que permita al sistema filtrar el procesamiento de eventos. Si la condición es verdadera, se procesa el evento. Si la condición no es verdadera, se ignora el evento.
-
-La condición de los eventos solo se puede basar en los datos pasados en la carga útil del evento. Un especialista en marketing no puede cambiar la condición definida en el nivel de evento en el lienzo. El propósito es endurecer esta condición cuando se utiliza este evento. Por ejemplo: si nunca desea que los especialistas en marketing utilicen eventos de abandono del carro de compras si el valor del carro de compras es demasiado pequeño, puede crear una condición en el campo de evento &quot;valor del carro de compras&quot; e imponer un valor superior a 100 dólares.
-
-Puede utilizar el editor de expresiones simple o el editor de expresiones avanzadas para configurar las condiciones en los eventos. Consulte [documentación del Journey Orchestration](../building-journeys/expression/expressionadvanced.md).
-
-Por ejemplo, puede definir una condición para procesar solo los eventos de un tipo de evento específico e ignorar los demás tipos. O si el evento es un abandono del carro de compras y la carga útil incluye el campo valor del carro de compras, puede definir una condición de evento para procesar los eventos solo si el valor del carro de compras es bueno a más de 100 dólares.
-
-![](../assets/journey78.png)
 
 ## Vista previa de la carga útil {#preview-the-payload}
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: b4a356583b555451c8d42d1043691b5ff841851b
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '372'
 ht-degree: 5%
 
 ---
@@ -25,11 +25,9 @@ Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede util
 
 ## Acerca de la actividad Wait{#about_wait}
 
-Así es como se priorizan las esperas cuando se utilizan varias esperas en paralelo. Si tienen la misma configuración de tiempo y una condición diferente pero superpuesta, la espera colocada arriba será la que tenga prioridad. Por ejemplo, la condición de la primera espera es &quot;ser mujer&quot; y la condición de la segunda espera paralela es &quot;ser VIP&quot;. Se priorizará la primera actividad de espera
+Así es como se priorizan las esperas cuando se utilizan varias esperas en paralelo. Si tienen la misma configuración de tiempo y una condición diferente pero superpuesta, la espera colocada arriba será la que tenga prioridad. Por ejemplo, la condición de la primera espera es &quot;ser mujer&quot; y la condición de la segunda espera paralela es &quot;ser VIP&quot;. Se priorizará la primera actividad de espera.
 
 Tenga en cuenta también que si hay dos esperas diferentes en paralelo, se dará prioridad a la que se produzca primero, independientemente de su posición vertical. Por ejemplo, si se supera una espera de 1 hora y se supera una espera de 30 minutos, después de 30 minutos se procesa la espera de 30 minutos.
-
-Puede definir una condición si desea restringir la espera a una determinada población.
 
 >[!NOTE]
 >
