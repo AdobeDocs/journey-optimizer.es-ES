@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '656'
 ht-degree: 5%
 
 ---
@@ -147,8 +147,8 @@ Los bloques son expresiones que tienen una apertura de bloque ({{# }}) y cierre 
 
 Journey Optimizer le permite personalizar una o varias direcciones URL en el mensaje al agregarles campos de personalización. Para ello:
 
-* Cree un vínculo en el contenido de correo electrónico o push. Para obtener más información sobre la creación de vínculos, consulte [esta página](../messages/message-tracking.md#insert-links).
-* Haga clic en el icono de personalización. Este icono está disponible para estos tipos específicos de vínculos: **Vínculo externo**, **Vínculo de baja** y **Exclusión**.
+* Cree un vínculo en el contenido del mensaje. Para obtener más información sobre la creación de vínculos, consulte [esta página](../messages/message-tracking.md#insert-links).
+* Seleccione el icono de personalización. Este icono está disponible para estos tipos específicos de vínculos: **Vínculo externo**, **Vínculo de baja** y **Exclusión**.
 
 ![](assets/perso-url.png)
 
