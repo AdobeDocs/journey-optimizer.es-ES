@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para ofrecer experiencias conectadas, contextuales y personalizadas a los clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9db2ec80a23add5d5d01affaf1a7e7772952d487
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 100%
+source-wordcount: '915'
+ht-degree: 99%
 
 ---
 
@@ -56,6 +56,7 @@ ht-degree: 100%
       + Trabajo con el Editor de expresiones {#expression-editor}
          + [Acerca del Editor de expresiones](using/personalization/personalization-build-expressions.md)
          + [Adición de atributos a favoritos](using/personalization/personalization-favorites.md)
+         + [Trabajar con expresiones guardadas](using/personalization/personalization-library.md)
          + [Validación de personalización](using/personalization/personalization-validation.md)
       + Funciones de ayuda{#functions}
          + [Introducción a las funciones de ayuda](using/personalization/functions/functions.md)

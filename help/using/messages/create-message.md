@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 0160c6b95c980bc54b4d196828c05a822ec0d8fd
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 4%
@@ -65,7 +65,7 @@ Para crear un nuevo mensaje, siga los pasos a continuación:
 
    >[!NOTE]
    >   
-   >Puede personalizar los mensajes mediante los datos de los perfiles mediante el Editor de expresiones. Para obtener más información sobre personalización, consulte [esta sección](../personalization/personalize.md).
+   >Puede personalizar los mensajes mediante los datos de los perfiles mediante el editor de expresiones. Para obtener más información sobre personalización, consulte [esta sección](../personalization/personalize.md).
 
 1. Controle la renderización de los mensajes y compruebe la configuración de personalización con perfiles de prueba mediante la sección de previsualización de la izquierda. Para obtener más información, consulte [esta sección](preview.md).
 

@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1025'
 ht-degree: 4%
 
 ---
@@ -58,7 +58,7 @@ Siga estos pasos:
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. En el **[!UICONTROL Edit HTML]** , añada la variable `upperCase` función de cadena:
-   1. En la lista, seleccione **[!UICONTROL Helper functions]**.
+   1. En el menú de la izquierda, seleccione **[!UICONTROL Helper functions]**.
    1. Utilice el campo de búsqueda para buscar &quot;mayúsculas&quot;.
    1. En los resultados de la búsqueda, añada la variable `upperCase` función. Para ello, haga clic en el signo más (+) situado junto a `{%= upperCase(string) %}: string`.
 
@@ -72,8 +72,8 @@ Siga estos pasos:
 
 1. Elimine el marcador de posición &quot;cadena&quot; de la expresión.
 1. Añada el token de nombre:
-   1. En la lista, seleccione **[!UICONTROL Profile]**.
-   1. Seleccione **[!UICONTROL Profile]** > **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
+   1. En el menú de la izquierda, seleccione **[!UICONTROL Profile attributes]**.
+   1. Seleccione **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
    1. Agregue la variable **[!UICONTROL First name]** token a la expresión.
 
       El editor de expresiones muestra esta expresión:
@@ -84,7 +84,7 @@ Siga estos pasos:
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      Obtenga más información sobre el tipo de datos de nombre de persona [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
+      Obtenga más información sobre el tipo de datos de nombre de persona en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
 
 1. Haga clic en **[!UICONTROL Validate]**, luego en **[!UICONTROL Save]**.
 
@@ -126,7 +126,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. En el **[!UICONTROL Edit HTML]** , añada la variable `each` ayuda:
-   1. En la lista, seleccione **[!UICONTROL Helper functions]**.
+   1. En el menú de la izquierda, seleccione **[!UICONTROL Helper functions]**.
    1. Utilice el campo de búsqueda para encontrar &quot;cada uno&quot;.
    1. En los resultados de la búsqueda, añada la variable `each` ayuda.
 
@@ -141,9 +141,9 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 1. Agregue la variable `productListItems` a la expresión:
 
    1. Elimine el marcador de posición &quot;someArray&quot; de la expresión.
-   1. En la lista, seleccione **[!UICONTROL Context]**.
+   1. En el menú de la izquierda, seleccione **[!UICONTROL Contextual attributes]**.
 
-      La variable **[!UICONTROL Context]** solo está disponible una vez que el contexto de recorrido se ha pasado al mensaje.
+      **[!UICONTROL Contextual attributes]** solo están disponibles después de que el contexto de recorrido se haya pasado al mensaje.
 
    1. Select **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]*** y, a continuación, expanda la variable **[!UICONTROL productListItems]** nodo .
 
@@ -218,7 +218,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. En el **[!UICONTROL Edit HTML]** , añada la variable `if` ayuda:
-   1. En la lista, seleccione **[!UICONTROL Helper functions]**.
+   1. En el menú de la izquierda, seleccione **[!UICONTROL Helper functions]**.
    1. Utilice el campo de búsqueda para encontrar &quot;if&quot;.
    1. En los resultados de la búsqueda, añada la variable `if` ayuda.
 
@@ -248,7 +248,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
 1. Agregue el token del nombre del producto a la condición:
    1. Elimine el marcador de posición &quot;condición1&quot; de la expresión.
-   1. En la lista, seleccione **[!UICONTROL Context]**.
+   1. En el menú de la izquierda, seleccione **[!UICONTROL Contextual attributes]**.
    1. Select **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]*** y, a continuación, expanda la variable **[!UICONTROL productListItems]** nodo .
 
       En este ejemplo, *event_name* representa el nombre del evento.

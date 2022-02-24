@@ -5,9 +5,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: ad24f1ed5b3480385cb8cab471f638e289bf5094
+source-git-commit: b1c4fb836d34cc6263f804c7a0f700571281b31a
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1080'
 ht-degree: 0%
 
 ---
@@ -416,3 +416,14 @@ Incluye los siguientes permisos de bajo nivel:
 * Específico de Adobe Experience Platform:
    * profiles.read
    * datasets.read
+
+## Capacidad de la biblioteca Journey Optimizer {library-permissions}
+
+### Administrar elementos de biblioteca {#library-items}
+
+La variable **[!DNL Manage Library Items]** los permisos de alto nivel permiten a los usuarios agregar y eliminar expresiones guardadas en la variable [!DNL Journey Optimizer] Biblioteca.
+
+Incluye los siguientes permisos de bajo nivel:
+
+* library_item.create
+* ibrary_item.delete

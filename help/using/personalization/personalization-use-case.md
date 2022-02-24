@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '612'
 ht-degree: 2%
 
 ---
@@ -79,7 +79,7 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 
    ![](assets/perso-uc9.png)
 
-1. Seleccione el **Contexto** categoría. Este elemento solo está disponible si un recorrido ha pasado datos contextuales al mensaje. Haga clic en **Journey Orchestration**. Aparece la siguiente información contextual:
+1. Seleccione el **Atributos contextuales** para abrir el Navegador. Los atributos contextuales solo están disponibles si un recorrido ha pasado datos contextuales al mensaje. Haga clic en **Journey Orchestration**. Aparece la siguiente información contextual:
 
    * **Eventos**: esta categoría reagrupa todos los campos de los eventos colocados antes del **Mensaje** actividad en el recorrido.
    * **Propiedades del recorrido**: los campos técnicos relacionados con el recorrido de un perfil determinado, por ejemplo, el ID de recorrido o los errores específicos encontrados. Obtenga más información en [documentación del Journey Orchestration](../building-journeys/expression/journey-properties.md).
@@ -94,11 +94,11 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 
    ![](assets/perso-uc12.png)
 
-1. Escriba el mensaje e inserte, desde el **Contexto** , el nombre del elemento de pedido y el progreso del pedido.
+1. Escriba el mensaje e inserte, desde el ****[!UICONTROL Contextual attributes]** , el nombre del elemento de pedido y el progreso del pedido.
 
    ![](assets/perso-uc13.png)
 
-1. En la lista desplegable , seleccione **Decisión de oferta** para insertar una variable de offer decisioning. Seleccione la colocación y haga clic en el botón **+** junto a la decisión (anteriormente conocida como &quot;actividad de oferta&quot;) de añadirla al cuerpo.
+1. En el menú de la izquierda, seleccione **Decisiones de oferta** para insertar una variable de offer decisioning. Seleccione la colocación y haga clic en el botón **+** junto a la decisión (anteriormente conocida como &quot;actividad de oferta&quot;) de añadirla al cuerpo.
 
    ![](assets/perso-uc14.png)
 
