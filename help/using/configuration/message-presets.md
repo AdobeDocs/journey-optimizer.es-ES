@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4a0b1ee220cc05e4dfc10724554b39bdfd0b6678
+source-git-commit: 7bae4fbd42b7cf944622b7a42e843681f3e75d2b
 workflow-type: tm+mt
-source-wordcount: '1694'
-ht-degree: 2%
+source-wordcount: '1868'
+ht-degree: 1%
 
 ---
 
@@ -78,7 +78,11 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
 ## Configuración de correo electrónico {#configure-email-settings}
 
+La configuración del correo electrónico se define en una sección dedicada de la configuración del ajuste preestablecido de mensaje.
+
 ![](../assets/preset-email.png)
+
+Para definir la configuración de correo electrónico asociada al ajuste preestablecido de mensaje, siga los pasos a continuación:
 
 1. Seleccione el tipo de mensaje que se enviará con el ajuste preestablecido: **Transaccional** o **Marketing**.
 
@@ -90,7 +94,31 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
 1. Seleccione el grupo de IP que desea asociar al ajuste preestablecido. [Más información](ip-pools.md)
 
-1. Introduzca los parámetros de encabezado para los correos electrónicos enviados mediante ese ajuste preestablecido.
+1. Para identificar dónde y por qué una persona hizo clic en el vínculo, puede agregar parámetros de UTM para el seguimiento de URL en la variable  **[!UICONTROL URL tracking configuration (web analytics)]** para obtener más información.
+
+   Según los parámetros que defina, se aplicará un código UTM al final de la URL incluida en el contenido del mensaje. A continuación, podrá comparar los resultados en una herramienta de análisis web, como Adobe Analytics. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+
+   ![](../assets/preset-url-tracking.png)
+
+   >[!NOTE]
+   >
+   >Puede agregar hasta 10 parámetros de seguimiento.
+
+   Puede escribir directamente el texto deseado en la **[!UICONTROL Name]** y **[!UICONTROL Value]** campos.
+
+   También puede elegir entre una lista de valores predefinidos navegando a los siguientes objetos:
+
+   * Atributos de recorrido: ID de origen, nombre de origen, id de versión de origen
+   * Atributos del mensaje: ID de acción, Nombre de acción
+   * Atributos de offer decisioning: ID de oferta, nombre de oferta
+
+   >[!CAUTION]
+   >
+   >Vaya a la carpeta necesaria y seleccione un atributo de perfil para utilizarlo como valor de UTM.
+
+   ![](../assets/preset-url-tracking-source.png)
+
+1. Introduzca la variable **[!UICONTROL Header parameters]** para los correos electrónicos enviados con ese ajuste preestablecido.
 
    >[!CAUTION]
    >
@@ -107,15 +135,15 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
    * **[!UICONTROL Error email]**: Todos los errores generados por los ISP después de unos días de envío del correo (devoluciones asincrónicas) se reciben en esta dirección.
    >[!NOTE]
    >
-   >A partir de la versión de octubre de 2021, ya no es posible definir una dirección de correo electrónico de reenvío desde el [!DNL Journey Optimizer] interfaz de usuario. Si desea que se reciban todos los correos electrónicos de [!DNL Journey Optimizer] para que el subdominio delegado se reenvíe a una dirección de correo electrónico específica, póngase en contacto con el [Equipo de asistencia al servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+   >No se puede definir una dirección de correo electrónico de reenvío desde el [!DNL Journey Optimizer] interfaz de usuario. Si desea que se reciban todos los correos electrónicos de [!DNL Journey Optimizer] para que el subdominio delegado se reenvíe a una dirección de correo electrónico específica, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    ![](../assets/preset-header.png)
 
    >[!NOTE]
    >
-   >Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar guiones bajos `_`, punto`.` Guión `-` caracteres.
+   >Los nombres deben comenzar por una letra (A-Z) y solo pueden contener caracteres alfanuméricos. También puede utilizar guiones bajos `_`, punto`.` Guión `-` caracteres.
 
-1. Configure las variables **parámetros de reintentos de correo electrónico**. De forma predeterminada, la variable [periodo de tiempo de reintento](retries.md#retry-duration) está configurada a 84 horas, pero puede ajustar esta configuración para adaptarla mejor a sus necesidades.
+1. Configure las variables **Parámetros de reintentos de correo electrónico**. De forma predeterminada, la variable [periodo de tiempo de reintento](retries.md#retry-duration) está configurada a 84 horas, pero puede ajustar esta configuración para adaptarla mejor a sus necesidades.
 
    ![](../assets/preset-retry-paramaters.png)
 
@@ -125,6 +153,10 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
    * Para ambos tipos de correo electrónico, el periodo de reintento máximo es de 84 horas (o 5040 minutos).
 
 ## Configuración de push {#configure-push-settings}
+
+Los ajustes push se definen en una sección dedicada de la configuración preestablecida de mensajes.
+
+Para definir la configuración de push asociada al ajuste preestablecido de mensaje, siga los pasos a continuación:
 
 1. Seleccione al menos una plataforma: **iOS** y/o **Android**.
 
@@ -154,7 +186,7 @@ Todos los ajustes preestablecidos de mensajes se muestran en la **[!UICONTROL Ch
 
 ![](../assets/preset-filters.png)
 
-Los ajustes preestablecidos de mensaje pueden tener los siguientes estados:
+Una vez creados, los ajustes preestablecidos de mensaje pueden tener los siguientes estados:
 
 * **[!UICONTROL Draft]**: El ajuste preestablecido de mensaje se ha guardado como borrador y aún no se ha enviado. Ábrala para reanudar la configuración.
 * **[!UICONTROL Processing]**: El ajuste preestablecido de mensaje se ha enviado y se está realizando en varios pasos de verificación.
@@ -164,7 +196,7 @@ Los ajustes preestablecidos de mensaje pueden tener los siguientes estados:
 
 En caso de que falle la creación de un ajuste preestablecido de mensaje, a continuación se describen los detalles de cada posible motivo de error.
 
-Si se produce uno de estos errores, póngase en contacto con el [Equipo de asistencia al servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} para obtener ayuda.
+Si se produce uno de estos errores, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} para obtener ayuda.
 
 * **Error de validación de SPF**: SPF (Marco de Política del Remitente) es un protocolo de autenticación por correo electrónico que permite especificar direcciones IP autorizadas que pueden enviar correos electrónicos desde un subdominio determinado. El error de validación de SPF significa que las direcciones IP del registro de SPF no coinciden con las direcciones IP utilizadas para enviar correos electrónicos a los proveedores de buzones de correo.
 
