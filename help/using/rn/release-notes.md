@@ -2,7 +2,7 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 916868ad4a426bee7b6f6822e2a4e701dcb79e74
+source-git-commit: 482cdac27bded3ec451d93b5aac6dda4b0e182cb
 workflow-type: tm+mt
 source-wordcount: '2643'
 ht-degree: 92%
@@ -81,7 +81,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tr>
 <td>
 <p>En el contenido del mensaje de Journey Optimizer, ahora puede añadir parámetros UTM a sus vínculos: pueden proporcionar datos adicionales sobre ese vínculo y ayudarle a identificar dónde y por qué hizo clic una persona en él.</p>
-<p>Para obtener más información, consulte la <a href="../configuration/message-presets.md">documentación detallada</a>.</p-->
+<p>Para obtener más información, consulte la <a href="../configuration/message-presets.md#configure-email-settings">documentación detallada</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -96,7 +96,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **Informes**
 
-* Deliveries can now be filtered depending on their status:
+* Ahora se pueden filtrar los envíos en función de su estado:
    * Desde la lista Ejecución de mensajes, ahora puede excluir pruebas de la lista de envíos.
    * Desde los informes activos/globales, puede elegir excluir los eventos de prueba.
 
@@ -106,7 +106,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **Administración de decisiones**
 
-* Rankings and AI ranking are now grouped together into a single tab.
+* Las clasificaciones y la clasificación AI ahora se agrupan en una sola pestaña.
 
 ## Lanzamiento de enero de 2022 {#january-2022-release}
 
