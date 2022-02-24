@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 7bae4fbd42b7cf944622b7a42e843681f3e75d2b
+source-git-commit: 894876a79d118ff65738089ecfc89b3cbdcd8d82
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1900'
 ht-degree: 1%
 
 ---
@@ -34,11 +34,11 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
 1. Acceda a la **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** a continuación, haga clic en **[!UICONTROL Create Message preset]**.
 
-   ![](../assets/preset-create.png)
+   ![](assets/preset-create.png)
 
 1. Introduzca un nombre y una descripción (opcional) para el ajuste preestablecido y, a continuación, seleccione los canales que desea configurar.
 
-   ![](../assets/preset-general.png)
+   ![](assets/preset-general.png)
 
    >[!NOTE]
    >
@@ -52,7 +52,7 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
 1. Una vez configurados todos los parámetros, haga clic en **[!UICONTROL Submit]** para confirmar. También puede guardar el ajuste preestablecido de mensaje como borrador y reanudar su configuración más adelante.
 
-   ![](../assets/preset-submit.png)
+   ![](assets/preset-submit.png)
 
 1. Una vez creado el ajuste preestablecido de mensaje, se muestra en la lista con la variable **[!UICONTROL Processing]** estado.
 
@@ -74,83 +74,96 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
 1. Una vez realizadas las comprobaciones correctamente, el ajuste preestablecido de mensaje obtiene el valor **[!UICONTROL Active]** estado. Está listo para utilizarse para enviar mensajes.
 
-   ![](../assets/preset-active.png)
+   ![](assets/preset-active.png)
 
 ## Configuración de correo electrónico {#configure-email-settings}
 
 La configuración del correo electrónico se define en una sección dedicada de la configuración del ajuste preestablecido de mensaje.
 
-![](../assets/preset-email.png)
+![](assets/preset-email.png)
 
-Para definir la configuración de correo electrónico asociada al ajuste preestablecido de mensaje, siga los pasos a continuación:
+Configure los ajustes tal como se describe a continuación.
 
-1. Seleccione el tipo de mensaje que se enviará con el ajuste preestablecido: **Transaccional** o **Marketing**.
 
-   >[!CAUTION]
-   >
-   > **Transaccional** se pueden enviar mensajes a perfiles que cancelen la suscripción a comunicaciones de marketing. Estos mensajes solo se pueden enviar en contextos específicos, como restablecimiento de contraseña, estado de pedido o notificación de envío, por ejemplo.
+### Tipo de correo electrónico{#email-type}
+
+En el **TIPO DE CORREO ELECTRÓNICO** , seleccione el tipo de mensaje que se enviará con el ajuste preestablecido: **Marketing** o **Transaccional**.
+
+Choose **Marketing** para mensajes promocionales: estos mensajes requieren el consentimiento del usuario.
+
+Choose **Transaccional** para mensajes no comerciales, como confirmación de pedido, notificaciones de restablecimiento de contraseña o información de entrega, por ejemplo.
+
+>[!CAUTION]
+>
+>**Transaccional** se pueden enviar mensajes a perfiles que cancelen la suscripción a comunicaciones de marketing. Estos mensajes solo se pueden enviar en contextos específicos.
+
+
+### Subdominio y grupo de IP {#subdomains-and-ip-pools}
+
+En el **DETALLES DE PPOL DE SUBDOMINIO E IP** , debe:
 
 1. Seleccione el subdominio que desea utilizar para enviar los correos electrónicos. [Más información](about-subdomain-delegation.md)
 
 1. Seleccione el grupo de IP que desea asociar al ajuste preestablecido. [Más información](ip-pools.md)
 
-1. Para identificar dónde y por qué una persona hizo clic en el vínculo, puede agregar parámetros de UTM para el seguimiento de URL en la variable  **[!UICONTROL URL tracking configuration (web analytics)]** para obtener más información.
+### Seguimiento de URL{#url-tracking}
 
-   Según los parámetros que defina, se aplicará un código UTM al final de la URL incluida en el contenido del mensaje. A continuación, podrá comparar los resultados en una herramienta de análisis web, como Adobe Analytics. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+Para identificar dónde y por qué una persona hizo clic en el vínculo, puede agregar parámetros de UTM para el seguimiento de URL en la variable  **[!UICONTROL URL TRACKING CONFIGURATION (web analytics)]** para obtener más información.
 
-   ![](../assets/preset-url-tracking.png)
+Según los parámetros que defina, se aplicará un código UTM al final de la URL incluida en el contenido del mensaje. A continuación, podrá comparar los resultados en una herramienta de análisis web, como Adobe Analytics. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
 
-   >[!NOTE]
-   >
-   >Puede agregar hasta 10 parámetros de seguimiento.
+![](assets/preset-url-tracking.png)
 
-   Puede escribir directamente el texto deseado en la **[!UICONTROL Name]** y **[!UICONTROL Value]** campos.
+Hay tres parámetros de UTM disponibles de forma predeterminada. Puede agregar hasta 10 parámetros de seguimiento. Para añadir un parámetro de UTM, seleccione la opción **[!UICONTROL Add new UTM param]** botón.
 
-   También puede elegir entre una lista de valores predefinidos navegando a los siguientes objetos:
+Para configurar un parámetro de UTM, puede introducir directamente los valores deseados en la variable **[!UICONTROL Name]** y **[!UICONTROL Value]** o elija entre una lista de valores predefinidos navegando a los siguientes objetos:
 
-   * Atributos de recorrido: ID de origen, nombre de origen, id de versión de origen
-   * Atributos del mensaje: ID de acción, Nombre de acción
-   * Atributos de offer decisioning: ID de oferta, nombre de oferta
+* Atributos de recorrido: ID de origen, nombre de origen, id de versión de origen
+* Atributos del mensaje: ID de acción, Nombre de acción
+* Atributos de offer decisioning: ID de oferta, nombre de oferta
 
-   >[!CAUTION]
-   >
-   >Vaya a la carpeta necesaria y seleccione un atributo de perfil para utilizarlo como valor de UTM.
+![](assets/preset-url-tracking-source.png)
 
-   ![](../assets/preset-url-tracking-source.png)
+>[!CAUTION]
+>
+>No seleccione una carpeta: asegúrese de buscar la carpeta necesaria y seleccionar un atributo de perfil para utilizarlo como valor de UTM.
 
-1. Introduzca la variable **[!UICONTROL Header parameters]** para los correos electrónicos enviados con ese ajuste preestablecido.
+### Parámetros de encabezado{#email-header}
 
-   >[!CAUTION]
-   >
-   >Las direcciones de correo electrónico deben utilizar la selección actual [subdominio delegado](about-subdomain-delegation.md).
+En el **[!UICONTROL HEADER PARAMETERS]** , introduzca las direcciones de correo electrónico asociadas a los mensajes enviados mediante ese ajuste preestablecido. Estas direcciones de correo electrónico deben utilizar la selección actual [subdominio delegado](about-subdomain-delegation.md).
 
-   * **[!UICONTROL Sender name]**: El nombre del remitente, como el nombre de su marca.
+Debe configurar las siguientes direcciones de correo electrónico
 
-   * **[!UICONTROL Sender email]**: La dirección de correo electrónico que desea utilizar para sus comunicaciones. Por ejemplo, si el subdominio delegado es *marketing.luma.com*, puede usar *contact@marketing.luma.com*.
+* **[!UICONTROL Sender name]**: El nombre del remitente, como el nombre de su marca.
 
-   * **[!UICONTROL Reply to (name)]**: El nombre que se utilizará cuando el destinatario haga clic en la variable **Responder** en el software cliente de correo electrónico.
+* **[!UICONTROL Sender email]**: La dirección de correo electrónico que desea utilizar para sus comunicaciones. Por ejemplo, si el subdominio delegado es *marketing.luma.com*, puede usar *contact@marketing.luma.com*.
 
-   * **[!UICONTROL Reply to (email)]**: La dirección de correo electrónico que se utilizará cuando el destinatario haga clic en el **Responder** en el software cliente de correo electrónico. Debe utilizar una dirección definida en el subdominio delegado (por ejemplo, *reply@marketing.luma.com*), de lo contrario, se enviarán los correos electrónicos.
+* **[!UICONTROL Reply to (name)]**: El nombre que se utilizará cuando el destinatario haga clic en la variable **Responder** en el software cliente de correo electrónico.
 
-   * **[!UICONTROL Error email]**: Todos los errores generados por los ISP después de unos días de envío del correo (devoluciones asincrónicas) se reciben en esta dirección.
-   >[!NOTE]
-   >
-   >No se puede definir una dirección de correo electrónico de reenvío desde el [!DNL Journey Optimizer] interfaz de usuario. Si desea que se reciban todos los correos electrónicos de [!DNL Journey Optimizer] para que el subdominio delegado se reenvíe a una dirección de correo electrónico específica, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+* **[!UICONTROL Reply to (email)]**: La dirección de correo electrónico que se utilizará cuando el destinatario haga clic en el **Responder** en el software cliente de correo electrónico. Debe utilizar una dirección definida en el subdominio delegado (por ejemplo, *reply@marketing.luma.com*), de lo contrario, se enviarán los correos electrónicos.
 
-   ![](../assets/preset-header.png)
+* **[!UICONTROL Error email]**: Todos los errores generados por los ISP después de unos días de envío del correo (devoluciones asincrónicas) se reciben en esta dirección.
 
-   >[!NOTE]
-   >
-   >Los nombres deben comenzar por una letra (A-Z) y solo pueden contener caracteres alfanuméricos. También puede utilizar guiones bajos `_`, punto`.` Guión `-` caracteres.
 
-1. Configure las variables **Parámetros de reintentos de correo electrónico**. De forma predeterminada, la variable [periodo de tiempo de reintento](retries.md#retry-duration) está configurada a 84 horas, pero puede ajustar esta configuración para adaptarla mejor a sus necesidades.
+![](assets/preset-header.png)
 
-   ![](../assets/preset-retry-paramaters.png)
+>[!NOTE]
+>
+>Las direcciones deben comenzar por una letra (A-Z) y solo pueden contener caracteres alfanuméricos. También puede utilizar guiones bajos `_`, punto`.` Guión `-` caracteres.
 
-   Debe introducir un valor entero (en horas o minutos) dentro del siguiente intervalo:
-   * Para el tipo de correo electrónico de marketing, el periodo mínimo de reintentos es de 6 horas.
-   * Para el tipo de correo electrónico transaccional, el periodo mínimo de reintentos es de 10 minutos.
-   * Para ambos tipos de correo electrónico, el periodo de reintento máximo es de 84 horas (o 5040 minutos).
+### Parámetros de reintentos de correo electrónico{#email-retry}
+
+Puede configurar la variable **Parámetros de reintentos de correo electrónico**.
+
+![](assets/preset-retry-parameters.png)
+
+De forma predeterminada, la variable [periodo de tiempo de reintento](retries.md#retry-duration) está configurada a 84 horas, pero puede ajustar esta configuración para adaptarla mejor a sus necesidades.
+
+Debe introducir un valor entero (en horas o minutos) dentro del siguiente intervalo:
+
+* En los correos electrónicos de marketing, el periodo de reintento mínimo es de 6 horas.
+* Para los correos electrónicos transaccionales, el periodo mínimo de reintentos es de 10 minutos.
+* Para ambos tipos de correo electrónico, el periodo de reintento máximo es de 84 horas (o 5040 minutos).
 
 ## Configuración de push {#configure-push-settings}
 
@@ -162,7 +175,7 @@ Para definir la configuración de push asociada al ajuste preestablecido de mens
 
 1. Seleccione las aplicaciones móviles que desea utilizar para cada plataforma.
 
-![](../assets/preset-push.png)
+![](assets/preset-push.png)
 
 Para obtener más información sobre cómo configurar el entorno para enviar notificaciones push, consulte [esta sección](../messages/push-gs.md).
 
@@ -171,7 +184,7 @@ Para obtener más información sobre cómo configurar el entorno para enviar not
 
 1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
 
-    ![](../assets/preset-sms.png)
+    ![](assets/preset-sms.png)
     
 1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
         
@@ -184,7 +197,7 @@ Para obtener más información sobre cómo configurar el entorno para enviar not
 
 Todos los ajustes preestablecidos de mensajes se muestran en la **[!UICONTROL Channels]** > **[!UICONTROL Message presets]** para abrir el Navegador. Los filtros están disponibles para ayudarle a navegar por la lista (tipo de canal, usuario, estado).
 
-![](../assets/preset-filters.png)
+![](assets/preset-filters.png)
 
 Una vez creados, los ajustes preestablecidos de mensaje pueden tener los siguientes estados:
 
@@ -196,7 +209,7 @@ Una vez creados, los ajustes preestablecidos de mensaje pueden tener los siguien
 
 En caso de que falle la creación de un ajuste preestablecido de mensaje, a continuación se describen los detalles de cada posible motivo de error.
 
-Si se produce uno de estos errores, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} para obtener ayuda.
+Si se produce uno de estos errores, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} para obtener ayuda.
 
 * **Error de validación de SPF**: SPF (Marco de Política del Remitente) es un protocolo de autenticación por correo electrónico que permite especificar direcciones IP autorizadas que pueden enviar correos electrónicos desde un subdominio determinado. El error de validación de SPF significa que las direcciones IP del registro de SPF no coinciden con las direcciones IP utilizadas para enviar correos electrónicos a los proveedores de buzones de correo.
 
@@ -220,7 +233,7 @@ Para editar un ajuste preestablecido de mensaje, siga los pasos a continuación.
 
 1. En la lista, haga clic en un nombre de ajuste preestablecido de mensaje para abrirlo.
 
-   ![](../assets/preset-name.png)
+   ![](assets/preset-name.png)
 
 1. Edite sus propiedades como desee.
 
@@ -230,7 +243,7 @@ Para editar un ajuste preestablecido de mensaje, siga los pasos a continuación.
 
 1. Haga clic en **[!UICONTROL Submit]** para confirmar los cambios.
 
-   ![](../assets/preset-confirm-update.png)
+   ![](assets/preset-confirm-update.png)
 
    >[!NOTE]
    >
@@ -246,15 +259,15 @@ Para los mensajes preestablecidos que tienen la variable **[!UICONTROL Active]**
 
 * Haga clic en el **[!UICONTROL Recent update]** que se muestra junto al nombre del ajuste preestablecido activo.
 
-   ![](../assets/preset-recent-update-icon.png)
+   ![](assets/preset-recent-update-icon.png)
 
 * También puede acceder a los detalles de la actualización desde un ajuste preestablecido de mensaje activo mientras la actualización está en curso.
 
-   ![](../assets/preset-view-update-details.png)
+   ![](assets/preset-view-update-details.png)
 
 En el **[!UICONTROL Recent update]** , puede ver información como el estado de actualización y la lista de cambios solicitados.
 
-![](../assets/preset-recent-update-screen.png)
+![](assets/preset-recent-update-screen.png)
 
 ### Actualizar estados {#update-statuses}
 
@@ -316,7 +329,7 @@ Para hacer un **[!UICONTROL Active]** mensaje preestablecido no disponible para 
 
 1. Seleccione **[!UICONTROL Deactivate]**.
 
-   ![](../assets/preset-deactivate.png)
+   ![](assets/preset-deactivate.png)
 
 >[!NOTE]
 >
@@ -324,7 +337,7 @@ Para hacer un **[!UICONTROL Active]** mensaje preestablecido no disponible para 
 
 No se puede editar directamente un ajuste preestablecido de mensaje desactivado. Sin embargo, puede duplicarla y editarla para crear una nueva versión que utilizará para crear nuevos mensajes. También puede volver a activarla y esperar a que la actualización se realice correctamente para editarla.
 
-![](../assets/preset-activate.png)
+![](assets/preset-activate.png)
 
 ## Vídeo explicativo{#video-presets}
 
