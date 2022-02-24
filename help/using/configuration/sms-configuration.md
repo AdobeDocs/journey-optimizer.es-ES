@@ -6,7 +6,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 8fc470ced790ed65df7e88b861e8b8f7126ace21
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 4%
@@ -53,11 +53,11 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
 1. Acceda a la **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** a continuación, haga clic en **[!UICONTROL Create Message preset]**.
 
-   ![](../assets/preset-create.png)
+   ![](assets/preset-create.png)
 
 1. Introduzca un nombre y una descripción (opcional) para el ajuste preestablecido y, a continuación, seleccione el canal SMS.
 
-   ![](../assets/sms_preset.png)
+   ![](assets/sms_preset.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
 1. Configure las variables **SMS** configuración.
 
-   ![](../assets/preset-sms.png)
+   ![](assets/preset-sms.png)
 
    * Seleccione el **[!UICONTROL SMS Type]** que se enviará con el ajuste preestablecido: **[!UICONTROL Transactional]** o **[!UICONTROL Marketing]**.
 
@@ -77,7 +77,7 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
 1. Una vez configurados todos los parámetros, haga clic en **[!UICONTROL Submit]** para confirmar. También puede guardar el ajuste preestablecido de mensaje como borrador y reanudar su configuración más adelante.
 
-   ![](../assets/sms_preset_2.png)
+   ![](assets/sms_preset_2.png)
 
 1. Una vez creado el ajuste preestablecido de mensaje, se muestra en la lista con la variable **[!UICONTROL Processing]** estado.
 
@@ -87,7 +87,7 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
 1. Una vez realizadas las comprobaciones correctamente, el ajuste preestablecido de mensaje obtiene el valor **[!UICONTROL Active]** estado. Está listo para utilizarse para enviar mensajes.
 
-   ![](../assets/preset-active.png)
+   ![](assets/preset-active.png)
 
 Ya está listo para enviar mensajes SMS con Journey Optimizer.
 
