@@ -2,9 +2,9 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 97d5a5c3432d531fc11a212b9067323b93fc93bb
+source-git-commit: 916868ad4a426bee7b6f6822e2a4e701dcb79e74
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2643'
 ht-degree: 92%
 
 ---
@@ -38,7 +38,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <table>
 <thead>
 <tr>
-<th><strong>Biblioteca de personalización de expresiones</strong><br/></th>
+<th><strong>Nueva biblioteca de expresiones de personalización</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -96,7 +96,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **Informes**
 
-* Ahora se pueden filtrar los envíos en función de su estado:
+* Deliveries can now be filtered depending on their status:
    * Desde la lista Ejecución de mensajes, ahora puede excluir pruebas de la lista de envíos.
    * Desde los informes activos/globales, puede elegir excluir los eventos de prueba.
 
@@ -106,7 +106,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **Administración de decisiones**
 
-* Las clasificaciones y la clasificación AI ahora se agrupan en una sola pestaña.
+* Rankings and AI ranking are now grouped together into a single tab.
 
 ## Lanzamiento de enero de 2022 {#january-2022-release}
 
