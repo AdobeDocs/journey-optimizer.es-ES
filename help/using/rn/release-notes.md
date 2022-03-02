@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 482cdac27bded3ec451d93b5aac6dda4b0e182cb
 workflow-type: tm+mt
 source-wordcount: '2643'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -91,22 +91,22 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **Recorridos**
 
-* Para optimizar el rendimiento, todos los recorridos en modo de prueba que no se hayan activado durante una semana volverán al estado Borrador . [Más información](../building-journeys/testing-the-journey.md#important_notes)
-* La integración entre Journey Optimizer y Adobe Campaign Classic se ha optimizado para mejorar el rendimiento. La configuración predeterminada de límite se ha cambiado a 4000 llamadas / 5 minutos.	[Más información](../action/acc-action.md#important-notes)
+* Para optimizar el rendimiento, todos los recorridos en modo de prueba que no se hayan activado durante una semana volverán al estado Borrador. [Más información](../building-journeys/testing-the-journey.md#important_notes)
+* La integración entre Journey Optimizer y Adobe Campaign Classic se ha optimizado para mejorar el rendimiento. La configuración predeterminada de límite se ha cambiado a 4000 llamadas/cinco minutos.	[Más información](../action/acc-action.md#important-notes)
 
-**Informes**
+**Creación de informes**
 
 * Ahora se pueden filtrar los envíos en función de su estado:
    * Desde la lista Ejecución de mensajes, ahora puede excluir pruebas de la lista de envíos.
    * Desde los informes activos/globales, puede elegir excluir los eventos de prueba.
 
-* Ahora puede acceder a los informes sobre los datos de optimización del tiempo de envío: el número de personas que fueron mensajes inmediatamente y el número de personas que recibieron mensajes con optimización de 1 hora, optimización de 2 horas, etc.
+* Ahora puede acceder a los informes sobre los datos de optimización del tiempo de envío: el número de personas que recibieron mensajes inmediatamente y el número de personas que recibieron mensajes con optimización de una hora, dos horas, etc.
 
 <!--* Offer Decisioning reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
 
 **Administración de decisiones**
 
-* Las clasificaciones y la clasificación AI ahora se agrupan en una sola pestaña.
+* Las clasificaciones y la clasificación de IA ahora se agrupan en una sola pestaña.
 
 ## Lanzamiento de enero de 2022 {#january-2022-release}
 
