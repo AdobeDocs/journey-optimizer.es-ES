@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: c9f260444e1cd20e66421a87dd62c5ae7209ee06
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 5%
@@ -43,13 +43,13 @@ Los pasos para configurar la actividad Leer segmento son los siguientes:
    >
    >Solo las personas con la variable **Realizado** y **Existente** los estados de participación de segmentos entrarán en el recorrido. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
-   ![](../assets/read-segment-selection.png)
+   ![](assets/read-segment-selection.png)
 
    Una vez agregado el segmento, la variable **[!UICONTROL Copy]** permite copiar su nombre y su ID:
 
    `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](../assets/read-segment-copy.png)
+   ![](assets/read-segment-copy.png)
 
 1. En el **[!UICONTROL Namespace]** , elija el área de nombres que desea utilizar para identificar a las personas. [Más información sobre áreas de nombres](../event/about-creating.md#select-the-namespace).
 
@@ -67,7 +67,7 @@ Los pasos para configurar la actividad Leer segmento son los siguientes:
 
 1. La variable **[!UICONTROL Read Segment]** actividad le permite especificar la hora a la que el segmento ingresará en el recorrido. Para ello, haga clic en el botón **[!UICONTROL Edit journey schedule]** para acceder a las propiedades del recorrido y, a continuación, configure el **[!UICONTROL Scheduler type]** campo .
 
-   ![](../assets/read-segment-schedule.png)
+   ![](assets/read-segment-schedule.png)
 
    De forma predeterminada, los segmentos entran en el recorrido **[!UICONTROL As soon as possible]**. Si desea que el segmento introduzca el recorrido en una fecha u hora específica o de forma recurrente, seleccione el valor que desee en la lista.
 
@@ -75,7 +75,7 @@ Los pasos para configurar la actividad Leer segmento son los siguientes:
    >
    >Tenga en cuenta que **[!UICONTROL Schedule]** solo está disponible cuando **[!UICONTROL Read Segment]** la actividad se ha soltado en el lienzo.
 
-   ![](../assets/read-segment-schedule-list.png)
+   ![](assets/read-segment-schedule-list.png)
 
    La variable **Lectura incremental** permite dirigirse únicamente a las personas que han introducido el segmento desde la última ejecución del recorrido. La primera ejecución siempre se dirige a todos los miembros del segmento. Esta opción solo está disponible para los **Leer segmento** actividades.
 
@@ -104,7 +104,7 @@ La variable **[!UICONTROL Read Segment]** actividad le permite probar el recorri
 
 Para ello, active el modo de prueba y, a continuación, seleccione la opción que desee en el panel izquierdo.
 
-![](../assets/read-segment-test-mode.png)
+![](assets/read-segment-test-mode.png)
 
 A continuación, puede configurar y ejecutar el modo de prueba como de costumbre. [Obtenga información sobre cómo probar un recorrido](testing-the-journey.md).
 
@@ -116,7 +116,7 @@ Una vez ejecutada la prueba, la variable **[!UICONTROL Show logs]** permite ver 
 
    Tenga en cuenta que probar el recorrido utilizando hasta 100 perfiles a la vez no permite rastrear el progreso de las personas en el recorrido mediante el flujo visual.
 
-   ![](../assets/read-segment-log.png)
+   ![](assets/read-segment-log.png)
 
 Una vez realizadas las pruebas correctamente, puede publicar el recorrido (consulte [Publicación del recorrido](publishing-the-journey.md)). Las personas que pertenezcan al segmento introducirán el recorrido en la fecha y hora especificadas en las propiedades del recorrido **[!UICONTROL Scheduler]** para obtener más información.
 
@@ -144,7 +144,7 @@ La segmentación puede basarse en:
 * una hora, por ejemplo: ¿es la mañana en la zona horaria de la persona?
 * un algoritmo que divide la audiencia que fluye en el recorrido en función de un porcentaje, por ejemplo: 90 % - 10 % para excluir un grupo de control
 
-![](../assets/read-segment-audience1.png)
+![](assets/read-segment-audience1.png)
 
 **Exclusión**
 
@@ -152,7 +152,7 @@ Igual **Condición** actividad utilizada para la segmentación (consulte más ar
 
 Esta exclusión podría ocurrir justo después de la recuperación de segmentos, con fines de recuento de población o a lo largo de un recorrido de varios pasos.
 
-![](../assets/read-segment-audience2.png)
+![](assets/read-segment-audience2.png)
 
 **Union**
 
@@ -164,4 +164,4 @@ Por ejemplo, después de seguir una experiencia diferente durante diez días en 
 
 Después de una unión, puede dividir de nuevo la audiencia realizando una segmentación o una exclusión.
 
-![](../assets/read-segment-audience3.png)
+![](assets/read-segment-audience3.png)

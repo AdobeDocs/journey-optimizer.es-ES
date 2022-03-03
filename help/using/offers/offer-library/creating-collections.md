@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
@@ -21,7 +21,7 @@ Las colecciones permiten organizar las ofertas reagrupándolas en categorías de
 
 Se puede acceder a la lista de colecciones de ofertas en la **[!UICONTROL Offers]** para abrir el Navegador.
 
-![](../../assets/collections_list.png)
+![](../assets/collections_list.png)
 
 Puede crear dos tipos de colecciones:
 
@@ -35,17 +35,17 @@ Para crear una colección, siga estos pasos:
 
 1. Especifique el nombre y el tipo de colección que desea crear.
 
-   ![](../../assets/collection_create.png)
+   ![](../assets/collection_create.png)
 
 1. Para crear una colección dinámica, utilice el panel izquierdo para seleccionar la etiqueta de las ofertas que desea agregar a la colección y, a continuación, haga clic en **[!UICONTROL Save]**. Todas las ofertas con la etiqueta seleccionada se guardarán en la colección .
 
    Para obtener más información sobre la creación de etiquetas, consulte [Creación de etiquetas](../offer-library/creating-tags.md).
 
-   ![](../../assets/dynamic_collection.png)
+   ![](../assets/dynamic_collection.png)
 
 1. Para crear una colección estática, utilice el panel izquierdo para filtrar la lista de ofertas (estado, etiqueta, fecha, canal, tipo de contenido) y, a continuación, seleccione las ofertas que desea agregar a la colección.
 
-   ![](../../assets/static_collection.png)
+   ![](../assets/static_collection.png)
 
    >[!NOTE]
    >
@@ -53,7 +53,7 @@ Para crear una colección, siga estos pasos:
 
 1. Una vez creada la colección, esta se muestra en la lista. Puede seleccionarlo para editarlo o eliminarlo.
 
-   ![](../../assets/collection_created.png)
+   ![](../assets/collection_created.png)
 
 ## Tutorial en vídeo {#video}
 

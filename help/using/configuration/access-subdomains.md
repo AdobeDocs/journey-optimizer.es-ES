@@ -1,12 +1,12 @@
 ---
 title: Acceder a subdominios delegados
-description: Obtenga información sobre cómo acceder a los subdominios delegados.
+description: Learn how to access delegated subdomains.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
-source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 4%
@@ -15,21 +15,21 @@ ht-degree: 4%
 
 # Acceder a subdominios delegados {#access-delegated-subdomains}
 
-Todos los subdominios delegados se muestran en la sección **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** para abrir el Navegador. Los filtros están disponibles para ayudarle a refinar la lista (fecha de delegación, usuario o estado).
+**[!UICONTROL Channels]****[!UICONTROL Subdomains]** Filters are available to help you refine the list (delegation date, user or status).
 
-![](../assets/subdomain-list.png)
+![](assets/subdomain-list.png)
 
-La variable **[!UICONTROL Status]** proporciona información sobre el proceso de delegación de subdominios:
+**[!UICONTROL Status]**
 
-* **[!UICONTROL Draft]**: La delegación de subdominios se ha guardado como borrador. Haga clic en el nombre del subdominio para reanudar el proceso de delegación.
-* **[!UICONTROL Processing]**: El subdominio está pasando por varias comprobaciones de configuración antes de poder utilizarlo,
-* **[!UICONTROL Success]**: El subdominio ha pasado por las comprobaciones correctamente y puede utilizarse para enviar mensajes,
-* **[!UICONTROL Failed]**: Una o varias comprobaciones han fallado después de enviar la delegación de subdominios.
+* **[!UICONTROL Draft]** Click the subdomain name to resume the delegation process,
+* **[!UICONTROL Processing]**
+* **[!UICONTROL Success]**
+* **[!UICONTROL Failed]**
 
-Para acceder a información detallada sobre un subdominio, ábralo desde la lista. Puede:
+To access detailed information about a subdomain, open it from the list. Puede:
 
-* Recupere el nombre de subdominio (solo lectura) configurado durante el proceso de delegación, así como las direcciones URL generadas (recursos, páginas espejo, URL de seguimiento).
+* Retrieve the subdomain name (read-only) configured during the delegation process, as well as the generated URLs (resources, mirror pages, tracking URLs),
 
-* Agregue un registro TXT de verificación de sitio de Google al subdominio para asegurarse de que esté verificado (consulte [Añadir un registro TXT de Google a un subdominio](google-txt.md)).
+* [](google-txt.md)
 
-![](../assets/subdomain-delegated.png)
+![](assets/subdomain-delegated.png)

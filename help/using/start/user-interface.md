@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
-workflow-type: ht
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Los componentes y las funciones disponibles en la IU dependen de los [permisos](
 
 Utilice los vínculos de la izquierda para examinar las funciones.
 
-![](../assets/ajo-home.png)
+![](assets/ajo-home.png)
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ La página principal de [!DNL Journey Optimizer] contiene vínculos clave y recu
 
 Aproveche los casos de uso de [!DNL Adobe Journey Optimizer] de la página de inicio y proporcione información rápida para crear un recorrido del cliente.
 
-![](../assets/use-cases-home.png)
+![](assets/use-cases-home.png)
 
 Los casos de uso disponibles son:
 
@@ -248,7 +248,7 @@ Acceda a las páginas de ayuda clave de Adobe Journey Optimizer desde la secció
 
 Utilice el icono **Ayuda** para acceder a las páginas de ayuda, ponerse en contacto con el servicio de asistencia técnica y compartir comentarios. Puede buscar artículos de ayuda y vídeos en el campo de búsqueda.
 
-![](../assets/ajo-help.png)
+![](assets/ajo-help.png)
 
 ## Navegadores admitidos {#browsers}
 
@@ -267,10 +267,10 @@ El idioma predeterminado de la interfaz está determinado por el idioma preferid
 Para cambiar el idioma:
 
 * Haga clic en **Preferencias** desde el avatar, en la parte superior derecha.
-   ![](../assets/preferences.png)
+   ![](assets/preferences.png)
 * A continuación, haga clic en el idioma mostrado debajo de su dirección de correo electrónico
 * Seleccione el idioma que prefiera y haga clic en **Guardar**. Puede seleccionar un segundo idioma en caso de que el componente que esté utilizando no esté localizado en su primer idioma.
-   ![](../assets/select-language.png)
+   ![](assets/select-language.png)
 
 ## Buscar{#unified-search}
 
@@ -278,11 +278,11 @@ En cualquier lugar de la interfaz de Adobe Journey Optimizer, utilice la búsque
 
 Empiece a introducir contenido para mostrar los resultados principales. Los artículos de ayuda sobre las palabras clave introducidas también se muestran en los resultados.
 
-![](../assets/unified-search.png)
+![](assets/unified-search.png)
 
 Pulse **Entrar** para acceder a todos los resultados y filtrar por objeto empresarial.
 
-![](../assets/search-and-filter.png)
+![](assets/search-and-filter.png)
 
 ## Filtrar listas{#filter-lists}
 
@@ -298,12 +298,12 @@ En la lista de recorridos, puede filtrarlos según su estado y versión en **[!U
 
 Utilice las columnas **[!UICONTROL Last update]** y **[!UICONTROL Last update by]** para comprobar cuándo se produjo la última actualización de los recorridos y quién los guardó.
 
-![](../assets/filter-journeys.png)
+![](assets/filter-journeys.png)
 
 En los paneles Evento, Fuente de datos y Configuración de acciones, el campo **[!UICONTROL Used in]** muestra el número de recorridos que utilizan ese evento, grupo de campos o acción en particular. Puede hacer clic en **[!UICONTROL View journeys]** para mostrar la lista de los recorridos correspondientes.
 
-![](../assets/journey3bis.png)
+![](assets/journey3bis.png)
 
 En las diferentes listas, puede realizar acciones básicas por cada elemento. Por ejemplo, puede duplicar o eliminar un elemento.
 
-![](../assets/journey4.png)
+![](assets/journey4.png)

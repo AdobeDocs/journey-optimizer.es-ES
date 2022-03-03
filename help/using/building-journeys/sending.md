@@ -1,7 +1,7 @@
 ---
 title: Inicio de la ejecución del recorrido
 description: Obtenga información sobre cómo iniciar el recorrido y enviar mensajes
-source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 8%
@@ -21,14 +21,14 @@ Obtenga más información en esta [sección](testing-the-journey.md).
 
 Debe publicar el recorrido para activarlo.
 
-![](../assets/jo-journeyuc2_32bis.png)
+![](assets/jo-journeyuc2_32bis.png)
 
 Obtenga más información en esta [sección](publishing-the-journey.md).
 
 
 Una vez publicado, puede monitorizar su recorrido con las herramientas de informes dedicadas para medir la efectividad de su recorrido.
 
-![](../assets/jo-dynamic_report_journey_12.png)
+![](assets/jo-dynamic_report_journey_12.png)
 
 [Más información sobre los informes](../reports/live-report.md)
 
@@ -52,7 +52,7 @@ Para realizar esto, siga los pasos a continuación:
 
 1. Haga clic en el **[!UICONTROL Edit journey schedule]** para acceder a las propiedades del recorrido.
 
-   ![](../assets/message-read-segment-schedule.png)
+   ![](assets/message-read-segment-schedule.png)
 
 1. Configure las variables **[!UICONTROL Scheduler type]** campo: seleccione el valor que desee en la lista para que el segmento introduzca el recorrido en una fecha u hora específica o de forma recurrente.
 
@@ -60,15 +60,15 @@ Para realizar esto, siga los pasos a continuación:
    >
    >La variable **[!UICONTROL Schedule]** solo está disponible cuando **[!UICONTROL Read Segment]** se ha colocado la actividad en el lienzo.
 
-   ![](../assets/message-read-segment-scheduler.png)
+   ![](assets/message-read-segment-scheduler.png)
 
 1. Si selecciona **[!UICONTROL Once]**, defina una fecha y hora específicas en las que el segmento ingresará al recorrido.
 
-   ![](../assets/message-read-segment-scheduler-once.png)
+   ![](assets/message-read-segment-scheduler-once.png)
 
 1. Si selecciona un método recurrente, edite la fecha y la hora de inicio. También puede definir una fecha y hora de finalización opcionales.
 
-   ![](../assets/message-read-segment-scheduler-daily.png)
+   ![](assets/message-read-segment-scheduler-daily.png)
 
    >[!NOTE]
    >

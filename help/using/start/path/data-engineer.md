@@ -3,7 +3,7 @@ title: Introducción a Journey Optimizer para ingenieros de datos
 description: Como ingeniero de datos, obtenga más información sobre cómo trabajar con Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: a20bf3aa869ce73805c63323ac36e5d86a44746e
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 9%
@@ -38,7 +38,7 @@ Los pasos para crear un área de nombres de identidad y un conjunto de datos hab
 
 Además, para poder enviar mensajes en recorridos, debe configurar **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** y **[!UICONTROL Actions]**. Obtenga más información [en esta sección](../../configuration/about-data-sources-events-actions.md).
 
-![](../../assets/admin-menu.png)
+![](../assets/admin-menu.png)
 
 * La variable **Fuente de datos** permite definir una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos. Más información sobre las fuentes de datos [en esta sección](../../datasource/about-data-sources.md).
 

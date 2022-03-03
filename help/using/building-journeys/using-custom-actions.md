@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: a5ea934615385e6dc0edd482ce14f3faf546d750
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 19%
@@ -38,7 +38,7 @@ La dirección URL concatenada tiene este formulario:
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
 
-![](../assets/journey-custom-action-url.png)
+![](assets/journey-custom-action-url.png)
 
 ### Encabezados
 
@@ -49,7 +49,7 @@ Si es necesario, especifique el valor de los campos del encabezado dinámico:
 1. Seleccione la acción personalizada en el recorrido .
 1. En el panel de configuración, haga clic en el icono de lápiz situado junto al campo de encabezado en la **[!UICONTROL URL Configuration]** para obtener más información.
 
-   ![](../assets/journey-dynamicheaderfield.png)
+   ![](assets/journey-dynamicheaderfield.png)
 
 1. Seleccione un campo y haga clic en **[!UICONTROL OK]**.
 

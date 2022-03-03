@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 29%
@@ -25,11 +25,11 @@ Los eventos configurados por el usuario técnico (consulte [esta página](../eve
 * [Reacción](../building-journeys/reaction-events.md)
 * [Clasificación del segmento](../building-journeys/segment-qualification-events.md)
 
-![](../assets/journey43.png)
+![](assets/journey43.png)
 
 Inicie el recorrido arrastrando y soltando una actividad de evento. También puede hacer doble clic en él.
 
-![](../assets/journey44.png)
+![](assets/journey44.png)
 
 ## Actividades de organización {#orchestration-activities}
 
@@ -40,7 +40,7 @@ En la paleta, en la parte izquierda de la pantalla, están disponibles las sigui
 * [Espera](../building-journeys/wait-activity.md)
 * [Leer segmento](../building-journeys/read-segment.md)
 
-![](../assets/journey49.png)
+![](assets/journey49.png)
 
 ## Actividades de acción {#action-activities}
 
@@ -50,7 +50,7 @@ Desde la paleta, en la parte izquierda de la pantalla, debajo **[!UICONTROL Even
 * [Acciones personalizadas](../building-journeys/using-custom-actions.md)
 * [Salto](../building-journeys/jump.md)
 
-![](../assets/journey58.png)
+![](assets/journey58.png)
 
 Estas actividades representan los diferentes canales de comunicación disponibles. Puede combinarlas para crear un escenario multicanal.
 
@@ -60,8 +60,8 @@ Si ha configurado acciones personalizadas, estas aparecerán aquí (consulte [es
 
 La mayoría de las actividades le permiten definir un **[!UICONTROL Label]**. Esto agrega un sufijo al nombre que aparecerá debajo de la actividad en el lienzo. Esto resulta útil si utiliza la misma actividad varias veces en el recorrido y desea identificarlos más fácilmente. También facilitará la depuración en caso de errores y facilitará la lectura de los informes. También puede añadir una **[!UICONTROL Description]**.
 
-![](../assets/journey59bis.png)
+![](assets/journey59bis.png)
 
 Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera para continuar es marcar la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
 
-![](../assets/journey42.png)
+![](assets/journey42.png)

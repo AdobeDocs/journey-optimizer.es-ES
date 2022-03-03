@@ -1,12 +1,12 @@
 ---
 title: Delegar un subdominio
-description: Aprenda a delegar los subdominios.
+description: Learn how to delegate your subdomains.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b8ef0326952f26453440b9031fe121f4dc14807e
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 10%
@@ -17,167 +17,167 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
->title="Acerca de la delegación de subdominios"
->abstract="Journey Optimizer le permite delegar completamente sus subdominios a Adobe. Adobe podrá enviar mensajes como un servicio administrado controlando y manteniendo todos los aspectos de DNS."
+>title="About subdomain delegation"
+>abstract="Journey Optimizer allows you to fully delegate your subdomains to Adobe. Adobe will be able to deliver messages as a managed service by controlling and maintaining all aspects of DNS."
 
-La delegación de nombres de dominio es un método que permite al propietario de un nombre de dominio (técnicamente: una zona DNS) para delegar una subdivisión de ella (técnicamente: una zona DNS bajo ella, que puede llamarse subzona) a otra entidad. Básicamente, como cliente, si está administrando la zona &quot;example.com&quot;, puede delegar la subzona &quot;marketing.example.com&quot; a Adobe.
+Domain name delegation is a method that allows the owner of a domain name (technically: a DNS zone) to delegate a subdivision of it (technically: a DNS zone under it, which can be called a sub-zone) to another entity. Basically, as a customer, if you are handling the “example.com” zone, you can delegate the sub-zone “marketing.example.com” to Adobe.
 
-Delegando un subdominio para usar con [!DNL Journey Optimizer], los clientes pueden confiar en el Adobe para mantener la infraestructura DNS necesaria para cumplir los requisitos de envío estándar del sector para sus dominios de envío de marketing por correo electrónico, a la vez que mantienen y controlan el DNS para sus dominios de correo electrónico internos.
+[!DNL Journey Optimizer]
 
 >[!NOTE]
 >
->De forma predeterminada, [!DNL Journey Optimizer] contrato de licencia le permite delegar hasta 10 subdominios. Póngase en contacto con el Adobe si desea aumentar esta limitación.
+>[!DNL Journey Optimizer] Reach out to your Adobe contact if you want to increase this limitation.
 
 ## Delegación completa de subdominios {#full-subdomain-delegation}
 
-[!DNL Journey Optimizer] le permite delegar completamente los subdominios a Adobes directamente desde la interfaz de producto. Al hacerlo, Adobe podrá enviar mensajes como un servicio administrado controlando y manteniendo todos los aspectos de DNS necesarios para la entrega, el procesamiento y el seguimiento de campañas de correo electrónico.
+[!DNL Journey Optimizer] By doing so, Adobe will be able to deliver messages as a managed service by controlling and maintaining all aspects of DNS that are required for delivering, rendering and tracking of email campaigns.
 
-Para delegar completamente un nuevo subdominio al Adobe, siga los pasos a continuación:
+To fully delegate a new subdomain to Adobe, follow the steps below:
 
-1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** a continuación, haga clic en **[!UICONTROL Set up subdomain]**.
+1. **[!UICONTROL Administration]****[!UICONTROL Channels]****[!UICONTROL Subdomains]****[!UICONTROL Set up subdomain]**
 
-   ![](../assets/subdomain-delegate.png)
+   ![](assets/subdomain-delegate.png)
 
-1. Select **[!UICONTROL Fully delegated]** de la variable **[!UICONTROL Set up method]** para obtener más información.
+1. **[!UICONTROL Fully delegated]****[!UICONTROL Set up method]**
 
-   ![](../assets/subdomain-method-full.png)
+   ![](assets/subdomain-method-full.png)
 
-1. Especifique el nombre del subdominio que desea delegar.
+1. Specify the name of the subdomain to delegate.
 
-   ![](../assets/subdomain-name.png)
+   ![](assets/subdomain-name.png)
 
    >[!CAUTION]
    >
-   >No se permite delegar un subdominio no válido al Adobe. Asegúrese de introducir un subdominio válido que sea propiedad de su organización, como marketing.yourcompany.com.
+   >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
    >
-   >Tenga en cuenta que los subdominios de varios niveles, como email.marketing.yourcompany.com , no son compatibles actualmente.
+   >Note that multi-level subdomains such as email.marketing.yourcompany.com are currently not supported.
 
 1. Se muestra la lista de registros que se van a colocar en los servidores DNS. Copie estos registros, uno por uno o descargando un archivo CSV, y luego vaya a la solución de alojamiento de dominios para generar los registros DNS coincidentes.
 
-1. Asegúrese de que todos los registros DNS se hayan generado en la solución de alojamiento de dominios. Si todo está configurado correctamente, marque la casilla &quot;Confirmo...&quot; y luego haga clic en **[!UICONTROL Submit]**.
+1. Make sure that all the DNS records have been generated into your domain hosting solution. **[!UICONTROL Submit]**
 
-   ![](../assets/subdomain-submit.png)
-
-   >[!NOTE]
-   >
-   >Puede crear los registros y enviar la configuración del subdominio más adelante utilizando la variable **[!UICONTROL Save as draft]** botón. A continuación, podrá reanudar la delegación de subdominios abriéndola en la lista de subdominios.
-
-1. Una vez enviada la delegación de subdominios completa, el subdominio se muestra en la lista con la variable **[!UICONTROL Processing]** estado. Para obtener más información sobre los estados de los subdominios, consulte [esta sección](access-subdomains.md).
-
-   ![](../assets/subdomain-processing.png)
-
-   Antes de poder utilizar ese subdominio para enviar mensajes, debe esperar hasta que el Adobe realice las comprobaciones necesarias, que pueden tardar hasta tres horas. Obtenga más información en [esta sección](#subdomain-validation).
+   ![](assets/subdomain-submit.png)
 
    >[!NOTE]
    >
-   >Se enumerarán todos los registros que falten, es decir, los registros que aún no se hayan creado en la solución de alojamiento.
+   >**[!UICONTROL Save as draft]** You will then be able to resume the subdomain delegation by opening it from the subdomains list.
 
-1. Una vez realizadas las comprobaciones correctamente, el subdominio recibe la variable **[!UICONTROL Success]** estado. Está listo para utilizarse para enviar mensajes.
+1. **[!UICONTROL Processing]** [](access-subdomains.md)
+
+   ![](assets/subdomain-processing.png)
+
+   Before being able to use that subdomain to send messages, you need to wait until Adobe performs the required checks, which can take up to 3 hours. Obtenga más información en [esta sección](#subdomain-validation).
 
    >[!NOTE]
    >
-   >El subdominio se marcará como **[!UICONTROL Failed]** si no puede crear el registro de validación en la solución de alojamiento.
+   >Any missing records, meaning the records not yet created on your hosting solution, will be listed out.
+
+1. **[!UICONTROL Success]** It is ready to be used to deliver messages.
+
+   >[!NOTE]
+   >
+   >**[!UICONTROL Failed]**
 
    <!-- later on, users will be notified in Pulse -->
 
-Una vez delegado un subdominio al Adobe en [!DNL Journey Optimizer], se crea automáticamente un registro PTR y se asocia a este subdominio. [Más información](ptr-records.md)
+[!DNL Journey Optimizer] [Más información](ptr-records.md)
 
 >[!CAUTION]
 >
->Actualmente, la ejecución paralela de subdominios no es compatible con [!DNL Journey Optimizer]. Si intenta enviar un subdominio para la delegación cuando otra tiene la variable **[!UICONTROL Processing]** obtendrá un mensaje de error.
+>[!DNL Journey Optimizer] **[!UICONTROL Processing]**
 
 ## Delegación de subdominios CNAME {#cname-subdomain-delegation}
 
-Si tiene directivas de restricción específicas del dominio y desea que el Adobe solo tenga control parcial sobre DNS, puede elegir llevar a cabo todas las actividades relacionadas con DNS de su lado.
+If you have domain-specific restriction policies and you want Adobe to have only partial control over DNS, you can choose to carry out all DNS-related activities on your side.
 
 La delegación de subdominios CNAME le permite crear un subdominio y utilizar CNAME para señalar registros específicos de Adobe. Con esta configuración, tanto usted como Adobe comparten la responsabilidad de mantener DNS para configurar el entorno de envío, procesamiento y seguimiento de correos electrónicos.
 
 >[!CAUTION]
 >
->Se recomienda utilizar este método si las políticas de su organización restringen el método de delegación de subdominios completo. Este método requiere que mantenga y administre los registros DNS por su cuenta. Adobe no podrá ayudarle a cambiar, mantener o administrar DNS para un subdominio configurado mediante el método CNAME.
+>Se recomienda utilizar este método si las políticas de su organización restringen el método de delegación de subdominios completo. This approach requires you to maintain and manage DNS records on your own. Adobe will not be able to assist in changing, maintaining or managing DNS for a subdomain configured through the CNAME method.
 
-Para delegar un subdominio mediante CNAME, siga los pasos a continuación:
+To delegate a subdomain using CNAMEs, follow the steps below:
 
-1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** a continuación, haga clic en **[!UICONTROL Set up subdomain]**.
+1. **[!UICONTROL Administration]****[!UICONTROL Channels]****[!UICONTROL Subdomains]****[!UICONTROL Set up subdomain]**
 
-1. Seleccione el **[!UICONTROL CNAME set up]** método.
+1. **[!UICONTROL CNAME set up]**
 
-   ![](../assets/subdomain-method-cname.png)
+   ![](assets/subdomain-method-cname.png)
 
-1. Especifique el nombre del subdominio que desea delegar.
+1. Specify the name of the subdomain to delegate.
 
    >[!CAUTION]
    >
-   >No se permite delegar un subdominio no válido al Adobe. Asegúrese de introducir un subdominio válido que sea propiedad de su organización, como marketing.yourcompany.com.
+   >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
    >
-   >Tenga en cuenta que los subdominios de varios niveles, como email.marketing.yourcompany.com , no son compatibles actualmente.
+   >Note that multi-level subdomains such as email.marketing.yourcompany.com are currently not supported.
 
 1. Se muestra la lista de registros que se van a colocar en los servidores DNS. Copie estos registros, uno por uno o descargando un archivo CSV, y luego vaya a la solución de alojamiento de dominios para generar los registros DNS coincidentes.
 
-1. Asegúrese de que todos los registros DNS se hayan generado en la solución de alojamiento de dominios. Si todo está configurado correctamente, marque la casilla &quot;Confirmo...&quot;.
+1. Make sure that all the DNS records have been generated into your domain hosting solution. If everything is configured properly, check the box &quot;I confirm...&quot;.
 
-   ![](../assets/subdomain-create-dns-confirm.png)
-
-   >[!NOTE]
-   >
-   >Puede crear los registros más adelante utilizando la variable **[!UICONTROL Save as draft]** botón. A continuación, podrá reanudar la delegación de subdominios en esta fase abriéndola de la lista de subdominios.
-
-1. Espere hasta que Adobe verifique que estos registros se generen sin errores en la solución de alojamiento. Este proceso puede tardar hasta 2 minutos.
+   ![](assets/subdomain-create-dns-confirm.png)
 
    >[!NOTE]
    >
-   >Se enumerarán todos los registros que falten, es decir, los registros que aún no se hayan creado en la solución de alojamiento.
+   >**[!UICONTROL Save as draft]** You will then be able to resume the subdomain delegation at this stage by opening it from the subdomains list.
 
-1. Adobe genera un registro de validación de URL de la CDN SSL. Copie este registro de validación en la plataforma de alojamiento. Si ha creado correctamente este registro en su solución de alojamiento, marque la casilla &quot;I confirm...&quot; y, a continuación, haga clic en **[!UICONTROL Submit]**.
-
-   ![](../assets/subdomain-cdn-url-validation.png)
+1. Wait until Adobe verifies that these records are generated without errors on your hosting solution. This process can take up to 2 minutes.
 
    >[!NOTE]
    >
-   >También puede crear el registro de validación y enviar la configuración del subdominio más adelante utilizando la variable **[!UICONTROL Save as draft]** botón. A continuación, podrá reanudar la delegación de subdominios abriéndola en la lista de subdominios.
+   >Any missing records, meaning the records not yet created on your hosting solution, will be listed out.
 
-1. Una vez enviada la delegación de subdominios CNAME, el subdominio se muestra en la lista con la variable **[!UICONTROL Processing]** estado. Para obtener más información sobre los estados de los subdominios, consulte [esta sección](access-subdomains.md).
+1. Adobe generates an SSL CDN URL validation record. Copy this validation record into your hosting platform. **[!UICONTROL Submit]**
 
-   Antes de poder utilizar ese subdominio para enviar mensajes, debe esperar hasta que el Adobe realice las comprobaciones necesarias, que suelen tardar entre 2 y 3 horas. Obtenga más información en [esta sección](#subdomain-validation).
-
-1. Una vez realizadas las comprobaciones correctamente<!--i.e Adobe validates the record you created and installs it-->, el subdominio obtiene la variable **[!UICONTROL Success]** estado. Está listo para utilizarse para enviar mensajes.
+   ![](assets/subdomain-cdn-url-validation.png)
 
    >[!NOTE]
    >
-   >El subdominio se marcará como **[!UICONTROL Failed]** si no puede crear el registro de validación en la solución de alojamiento.
+   >**[!UICONTROL Save as draft]** You will then be able to resume the subdomain delegation by opening it from the subdomains list.
 
-Al validar el registro e instalar el certificado, Adobe crea automáticamente el registro PTR para el subdominio CNAME. [Más información](ptr-records.md)
+1. **[!UICONTROL Processing]** [](access-subdomains.md)
+
+   Before being able to use that subdomain to send messages, you need to wait until Adobe performs the required checks, which usually takes 2 to 3 hours. Obtenga más información en [esta sección](#subdomain-validation).
+
+1. <!--i.e Adobe validates the record you created and installs it-->**[!UICONTROL Success]** It is ready to be used to deliver messages.
+
+   >[!NOTE]
+   >
+   >**[!UICONTROL Failed]**
+
+Upon validating the record and installing the certificate, Adobe automatically creates the PTR record for the CNAME subdomain. [Más información](ptr-records.md)
 
 >[!CAUTION]
 >
->Actualmente, la ejecución paralela de subdominios no es compatible con [!DNL Journey Optimizer]. Si intenta enviar un subdominio para la delegación cuando otra tiene la variable **[!UICONTROL Processing]** obtendrá un mensaje de error.
+>[!DNL Journey Optimizer] **[!UICONTROL Processing]**
 
-## Validación de subdominios {#subdomain-validation}
+## Subdomain validation {#subdomain-validation}
 
-Las comprobaciones y acciones siguientes se realizarán hasta que se verifique el subdominio y se puedan utilizar para enviar mensajes.
+The checks and actions below will be performed until the subdomain is verified and can be used to send messages.
 
 >[!NOTE]
 >
->Estos pasos se realizan por Adobe y pueden tardar hasta 3 horas.
+>These steps are performed by Adobe and can take up to 3 hours.
 
-1. **Validación previa**: Adobe comprueba si el subdominio se ha delegado a DNS de Adobe (registro NS, registro SOA, configuración de zona, registro de propiedad). Si el paso de prevalidación falla, se devuelve un error junto con el motivo correspondiente; de lo contrario, el Adobe pasa al siguiente paso.
+1. **** If the pre-validation step fails, an error is returned along with the corresponding reason, otherwise Adobe proceeds to the next step.
 
-1. **Configuración de DNS para el dominio**:
+1. ****
 
-   * **Registro MX**: Registro eXchange de correo: registro del servidor de correo que procesa los correos electrónicos entrantes enviados al subdominio.
-   * **Registro SPF**: Registro del marco de políticas del remitente : enumera las direcciones IP de los servidores de correo que pueden enviar correos electrónicos desde el subdominio.
-   * **Registro DKIM**: Registro estándar de Correo identificado de DomainKeys : Utiliza el cifrado de clave pública y privada para autenticar el mensaje y evitar la suplantación.
-   * **A**: Asignación de IP predeterminada.
-   * **CNAME**: Un registro CNAME o de nombre canónico es un tipo de registro DNS que asigna un nombre de alias a un nombre de dominio verdadero o canónico.
+   * ****
+   * ****
+   * ****
+   * ****
+   * ****
 
-1. **Creación de direcciones URL de seguimiento y de reflejo**: si el dominio es email.example.com, el dominio tracking/mirror será data.email.example.com. Se asegura instalando el certificado SSL.
+1. **** It is secured by installing the SSL certificate.
 
-1. **Aprovisionar CDN CloudFront**: si CDN no está configurado, Adobe lo aprovisiona para la impresión.
+1. ****
 
-1. **Crear dominio de CDN**: si el dominio es email.example.com, el dominio de CDN será cdn.email.example.com.
+1. ****
 
-1. **Crear y adjuntar un certificado SSL de CDN**: Adobe crea el certificado de CDN para el dominio de CDN y adjunta el certificado al dominio de CDN.
+1. ****
 
-1. **Crear DNS de reenvío**: si este es el primer subdominio que delega, Adobe creará el DNS de reenvío necesario para crear registros PTR, uno para cada una de sus IP.
+1. ****
 
-1. **Crear registro PTR**: Los ISP requieren el registro PTR, también conocido como registro DNS inverso, para que no marquen los correos electrónicos como correo no deseado. Gmail también recomienda tener registros PTR para cada IP. Adobe crea registros PTR solo cuando delega un subdominio por primera vez, uno por cada IP, todas las IP que apuntan a ese subdominio. Por ejemplo, si la IP es *192.1.2.1* y el subdominio es *email.example.com*, el registro PTR será: *192.1.2.1 PTR r1.email.example.com*. Puede actualizar el registro PTR posteriormente para que apunte al nuevo dominio delegado. [Más información sobre los registros PTR](ptr-records.md)
+1. **** Gmail also recommends having PTR records for each IP. Adobe creates PTR records only when you delegate a subdomain for the first time, one for each IP, all IPs pointing that subdomain. ****** You can update the PTR record afterwards to point to the new delegated domain. [](ptr-records.md)

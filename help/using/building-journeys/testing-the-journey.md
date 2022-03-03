@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: cae74818e60abc97cd8eb5ccd3f4337af591f488
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 3%
@@ -27,11 +27,11 @@ Para utilizar el modo de prueba, siga estos pasos:
 
 1. Para activar el modo de prueba, haga clic en el botón **[!UICONTROL Test]** alternar, situado en la esquina superior derecha.
 
-   ![](../assets/journeytest1.png)
+   ![](assets/journeytest1.png)
 
 1. Utilice la variable **[!UICONTROL Wait time]** , en la esquina inferior izquierda, para definir el tiempo que cada actividad de espera y el tiempo de espera del evento durarán en el modo de prueba. El tiempo predeterminado es de 10 segundos para las esperas y los tiempos de espera de los eventos. Esto garantizará que los resultados de la prueba se obtengan rápidamente. Este parámetro solo aparece si ha soltado una o más actividades de espera en el recorrido.
 
-   ![](../assets/journeytest_wait.png)
+   ![](assets/journeytest_wait.png)
 
    >[!NOTE]
    >
@@ -39,15 +39,15 @@ Para utilizar el modo de prueba, siga estos pasos:
 
 1. Haga clic en **[!UICONTROL Trigger an event]** para configurar y enviar eventos al recorrido.
 
-   ![](../assets/journeyuctest1.png)
+   ![](assets/journeyuctest1.png)
 
 1. Configure los diferentes campos esperados. En el **Identificador de perfil** , introduzca el valor del campo utilizado para identificar el perfil de prueba. Puede ser la dirección de correo electrónico, por ejemplo. Asegúrese de enviar eventos relacionados con perfiles de prueba. Consulte [Activación de eventos](#firing_events).
 
-   ![](../assets/journeyuctest1-bis.png)
+   ![](assets/journeyuctest1-bis.png)
 
 1. Una vez recibidos los eventos, haga clic en el botón **[!UICONTROL Show log]** para ver el resultado de la prueba y verificarlo. Consulte [Visualización de los registros](#viewing_logs).
 
-   ![](../assets/journeyuctest2.png)
+   ![](assets/journeyuctest2.png)
 
 1. Si hay algún error, desactive el modo de prueba, modifique el recorrido y pruebe de nuevo. Cuando la prueba sea concluyente, puede publicar el recorrido. Consulte [esta página](../building-journeys/publishing-the-journey.md).
 
@@ -75,17 +75,17 @@ Como requisito previo, debe saber qué perfiles se marcan como perfiles de prueb
 
 Si el recorrido contiene varios eventos, utilice la lista desplegable para seleccionar un evento. A continuación, para cada evento, configure los campos pasados y la ejecución del envío del evento. La interfaz le ayuda a pasar la información correcta en la carga útil de evento y a asegurarse de que el tipo de información es correcto. El modo de prueba guarda los últimos parámetros utilizados en una sesión de prueba para su uso posterior.
 
-![](../assets/journeytest4.png)
+![](assets/journeytest4.png)
 
 La interfaz le permite pasar parámetros de evento simples. Si desea pasar colecciones u otros objetos avanzados en el evento, puede hacer clic en **[!UICONTROL Code View]** para ver el código completo de la carga útil y modificarlo. Por ejemplo, puede copiar y pegar la información de evento preparada por un usuario técnico.
 
-![](../assets/journeytest5.png)
+![](assets/journeytest5.png)
 
 Un usuario técnico también puede utilizar esta interfaz para componer cargas útiles de evento y eventos de déclencheur sin tener que utilizar una herramienta de terceros.
 
 Al hacer clic en el botón **[!UICONTROL Send]** , la prueba comienza. La progresión del individuo en el recorrido se representa mediante un flujo visual. La ruta se vuelve progresivamente verde a medida que el individuo se mueve por el recorrido. Si se produce un error, se muestra un símbolo de advertencia en el paso correspondiente. Puede colocar el cursor en él para mostrar más información sobre el error y acceder a todos los detalles (cuando esté disponible).
 
-![](../assets/journeytest6.png)
+![](assets/journeytest6.png)
 
 Cuando selecciona un perfil de prueba diferente en la pantalla de configuración de evento y vuelve a ejecutar la prueba, el flujo visual se borra y muestra la ruta del nuevo individuo.
 
@@ -99,7 +99,7 @@ El modo de prueba también está disponible para los recorridos que utilizan un 
 
 Al activar un evento, la variable **Configuración de eventos** permite definir los parámetros de evento que se van a pasar en la prueba. Para ver la condición de ID de evento, haga clic en el icono de información de objeto en la esquina superior derecha. También hay disponible información sobre herramientas junto a cada campo que forma parte de la evaluación de reglas.
 
-![](../assets/jo-event8.png)
+![](assets/jo-event8.png)
 
 Para obtener más información sobre cómo utilizar el modo de prueba, consulte [esta página](../building-journeys/testing-the-journey.md).
 
@@ -113,7 +113,7 @@ Tenga en cuenta que cuando se déclencheur por primera vez un evento empresarial
 
 La variable **[!UICONTROL Show log]** permite ver los resultados de la prueba. Esta página muestra la información actual del recorrido en formato JSON. Un botón permite copiar nodos completos. Debe actualizar manualmente la página para actualizar los resultados de prueba del recorrido.
 
-![](../assets/journeytest3.png)
+![](assets/journeytest3.png)
 
 >[!NOTE]
 >

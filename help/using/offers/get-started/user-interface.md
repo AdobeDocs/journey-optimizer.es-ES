@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 68%
@@ -31,7 +31,7 @@ Utilice el menú **[!UICONTROL Offers]** para administrar ofertas personalizadas
 
 * **[!UICONTROL Decisions]**: Cree y administre decisiones para entregar sus ofertas. Consulte [Creación de decisiones](../offer-activities/create-offer-activities.md).
 
-![](../../assets/offers_menu.png)
+![](../assets/offers_menu.png)
 
 Utilice el menú **[!UICONTROL Components]** para administrar los componentes necesarios para crear ofertas:
 
@@ -43,19 +43,19 @@ Utilice el menú **[!UICONTROL Components]** para administrar los componentes ne
 
 * **[!UICONTROL Rankings]**: Cree y administre fórmulas de clasificación para determinar qué oferta se debe presentar primero para una ubicación determinada. Consulte [Creación de fórmulas de clasificación](../offer-library/create-ranking-formulas.md).
 
-![](../../assets/offer_activities.png)
+![](../assets/offer_activities.png)
 
 ## Información general {#overview}
 
 Cuando es nuevo en [!DNL Offer Decisioning], el **[!UICONTROL Overview]** le guía a través de los pasos principales necesarios para empezar a crear su primera decisión de oferta.
 
-![](../../assets/overview_onboarding.png)
+![](../assets/overview_onboarding.png)
 
 Siga los pasos que aparecen en la pantalla para empezar a crear ubicaciones, ofertas y colecciones.
 
 Una vez que haya completado estos primeros pasos, se le pedirá que cree decisiones de oferta (anteriormente conocidas como actividades de oferta).
 
-![](../../assets/overview_collection-created.png)
+![](../assets/overview_collection-created.png)
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ Haga clic en una oferta o en una decisión para acceder directamente a los detal
 
 Haga clic en el **[!UICONTROL View all]** para acceder a las listas de ofertas, colecciones o decisiones.
 
-![](../../assets/overview_view-all.png)
+![](../assets/overview_view-all.png)
 
 ## Búsqueda y filtrado de información {#search-and-filter-information}
 
@@ -75,7 +75,7 @@ Utilice la **barra de búsqueda** para encontrar un elemento específico.
 
 También se puede acceder a **Filtros** haciendo clic en el icono de filtro en la parte superior izquierda de la lista. Permite filtrar los elementos mostrados según diferentes criterios. Por ejemplo, puede filtrar las ubicaciones que se han creado para el canal de comunicación de correo electrónico y el contenido de tipo de imagen.
 
-![](../../assets/filters.png)
+![](../assets/filters.png)
 
 ## Personalización de la información mostrada {#customize-displayed-information}
 
@@ -85,21 +85,21 @@ Esto le permite elegir la información que se mostrará según sus necesidades.
 
 Tenga en cuenta que la personalización de columnas se guarda para cada usuario.
 
-![](../../assets/columns.png)
+![](../assets/columns.png)
 
 ## Panel de información {#information-pane}
 
 En las distintas listas, seleccione un elemento para mostrar un panel de información que le permitirá recuperar información y realizar acciones básicas en el elemento.
 
-![](../../assets/information-pane.png)
+![](../assets/information-pane.png)
 
 Las listas de ofertas y decisiones de oferta ahora permiten realizar acciones masivas en varios elementos. Para ello, seleccione las ofertas o decisiones que desee y, a continuación, seleccione la acción que desee realizar en el panel de información.
 
-![](../../assets/bulk-actions.png)
+![](../assets/bulk-actions.png)
 
 Tenga en cuenta que también puede duplicar una oferta o decisiones existentes para crear una copia con el estado **[!UICONTROL Draft]**. Esto se puede realizar desde el panel de información, desde una oferta o desde la vista detallada de una decisión.
 
-![](../../assets/duplicate-offer.png)
+![](../assets/duplicate-offer.png)
 
 ## Registros de cambios de ofertas y decisiones {#changes-logs}
 
@@ -107,4 +107,4 @@ La biblioteca de ofertas permite visualizar todos los cambios realizados en una 
 
 Todos los cambios realizados se muestran en esta pantalla, así como el nombre del usuario que realizó los cambios.
 
-![](../../assets/change-logs.png)
+![](../assets/change-logs.png)

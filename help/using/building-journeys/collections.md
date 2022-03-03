@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Paso de colecciones de forma dinámica mediante acciones personalizadas
 description: Envío de un mensaje mediante Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 5%
@@ -103,7 +103,7 @@ Se puede ver que &quot;productos&quot; es una matriz de dos objetos. Debe tener 
 
 1. En el **[!UICONTROL Action parameters]** , pegue el ejemplo de JSON. La estructura mostrada es estática: al pegar la carga útil, todos los campos se definen como constantes.
 
-   ![](../assets/uc-collection-1.png)
+   ![](assets/uc-collection-1.png)
 
 1. Si es necesario, ajuste los tipos de campo. Los siguientes tipos de campos son compatibles con las colecciones: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
 
@@ -119,27 +119,27 @@ Se puede ver que &quot;productos&quot; es una matriz de dos objetos. Debe tener 
 
 1. Para cada campo, defina la etiqueta que se mostrará en el lienzo del recorrido.
 
-   ![](../assets/uc-collection-2.png)
+   ![](assets/uc-collection-2.png)
 
 1. Cree el recorrido y añada la acción personalizada que ha creado. Consulte [esta página](../building-journeys/using-custom-actions.md).
 
 1. En el **[!UICONTROL Action parameters]** , defina el parámetro de matriz (&quot;products&quot; en nuestro ejemplo) utilizando el editor de expresiones avanzadas.
 
-   ![](../assets/uc-collection-3.png)
+   ![](assets/uc-collection-3.png)
 
 1. Para cada uno de los campos de objeto siguientes, escriba el nombre de campo correspondiente del esquema XDM de origen. Si los nombres son idénticos, no es necesario. En nuestro ejemplo, solo necesitamos definir &quot;id de producto&quot; y &quot;color&quot;.
 
-   ![](../assets/uc-collection-4.png)
+   ![](assets/uc-collection-4.png)
 
 Para el campo de matriz, también puede utilizar el editor de expresiones avanzadas para realizar la manipulación de datos. En el siguiente ejemplo, utilizamos la variable [filter](functions/functionfilter.md) y [intersección](functions/functionintersect.md) funciones:
 
-![](../assets/uc-collection-5.png)
+![](assets/uc-collection-5.png)
 
 ## Casos particulares{#examples}
 
 Para tipos heterogéneos y matrices de matrices, la matriz se define con el tipo listAny . Solo puede asignar elementos individuales, pero no puede cambiar la matriz a variable.
 
-![](../assets/uc-collection-heterogeneous.png)
+![](assets/uc-collection-heterogeneous.png)
 
 Ejemplo de tipo heterogéneo:
 

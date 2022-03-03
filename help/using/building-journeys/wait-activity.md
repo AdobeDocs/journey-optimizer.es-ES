@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: b4a356583b555451c8d42d1043691b5ff841851b
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 5%
@@ -39,13 +39,13 @@ Tenga en cuenta también que si hay dos esperas diferentes en paralelo, se dará
 
 Seleccione la duración de la espera antes de la ejecución de la siguiente actividad.
 
-![](../assets/journey55.png)
+![](assets/journey55.png)
 
 ## Fecha de espera fija{#fixed_date}
 
 Seleccione la fecha para la ejecución de la siguiente actividad.
 
-![](../assets/journey56.png)
+![](assets/journey56.png)
 
 ## Espera personalizada{#custom}
 
@@ -57,7 +57,7 @@ Esta opción permite definir una fecha personalizada, por ejemplo, 12 de julio d
 >
 >La variable **zona horaria** se espera en las propiedades del recorrido. Como resultado, hoy en día no es posible desde la interfaz señalar directamente a una marca de tiempo ISO-8601 completa mezclando el tiempo y el desplazamiento de zona horaria como 2016-08-12T09:46:06.982-05. Consulte [esta página](../building-journeys/timezone-management.md).
 
-![](../assets/journey57.png)
+![](assets/journey57.png)
 
 <!--## Email send time optimization{#email_send_time_optimization}
 
@@ -77,4 +77,4 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
     >
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](../assets/journey57bis.png)-->
+![](assets/journey57bis.png)-->

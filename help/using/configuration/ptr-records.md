@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Con los registros PTR, los servidores de correo receptores pueden comprobar la a
 
 Una vez [se delega un subdominio](delegate-subdomain.md) en Adobe Journey Optimizer, se crea automáticamente un registro PTR y se asocia a este subdominio. Puede acceder a él desde la **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** para abrir el Navegador.
 
-![](../assets/ptr-records.png)
+![](assets/ptr-records.png)
 
 La lista muestra los registros PTR generados para cada subdominio delegado, utilizando la siguiente sintaxis:
 
@@ -49,11 +49,11 @@ Para editar un registro PTR con un subdominio que sea [completamente delegado](d
 
 1. En la lista, haga clic en un nombre de registro PTR para abrirlo.
 
-   ![](../assets/ptr-record-select.png)
+   ![](assets/ptr-record-select.png)
 
 1. Seleccionar un subdominio [completamente delegado](delegate-subdomain.md#full-subdomain-delegation) a Adobe de la lista.
 
-   ![](../assets/ptr-record-subdomain.png)
+   ![](assets/ptr-record-subdomain.png)
 
 1. Haga clic en **[!UICONTROL Save]** para confirmar los cambios.
 
@@ -63,15 +63,15 @@ Para editar un registro PTR con un subdominio delegado a Adobe mediante la varia
 
 1. En la lista, haga clic en un nombre de registro PTR para abrirlo.
 
-   ![](../assets/ptr-record-select-cname.png)
+   ![](assets/ptr-record-select-cname.png)
 
 1. Seleccione un subdominio delegado a Adobe mediante la variable [método CNAME](delegate-subdomain.md#cname-subdomain-delegation) de la lista.
 
-   ![](../assets/ptr-record-subdomain-cname.png)
+   ![](assets/ptr-record-subdomain-cname.png)
 
 1. Debe crear un nuevo registro DNS de reenvío en la plataforma de alojamiento. Para ello, copie el registro generado por el Adobe. Una vez finalizado, marque la casilla &quot;Confirmo...&quot;.
 
-   ![](../assets/ptr-record-subdomain-confirm.png)
+   ![](assets/ptr-record-subdomain-confirm.png)
 
    >[!NOTE]
    >
@@ -86,23 +86,23 @@ Para editar un registro PTR con un subdominio delegado a Adobe mediante la varia
 
 A **[!UICONTROL Processing]** aparece junto al nombre del registro PTR en la lista.
 
-![](../assets/ptr-record-updating.png)
+![](assets/ptr-record-updating.png)
 
 Para comprobar los detalles de actualización de registros PTR, haga clic en el botón **[!UICONTROL Updating]** o **[!UICONTROL Recent updates]** icono.
 
-![](../assets/ptr-record-recent-update.png)
+![](assets/ptr-record-recent-update.png)
 
 Puede ver información como el estado de actualización y los cambios solicitados.
 
-![](../assets/ptr-record-updates.png)
+![](assets/ptr-record-updates.png)
 
 ## Estados de actualización de registros PTR {#ptr-record-update-statuses}
 
 Una actualización de registro PTR puede tener los siguientes estados:
 
-* ![](../assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**: Se ha enviado la actualización del registro PTR, que está en proceso de verificación.
-* ![](../assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: El registro PTR actualizado se ha verificado y el nuevo subdominio ahora está asociado con la dirección IP.
-* ![](../assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: Una o varias comprobaciones han fallado durante la verificación de actualización de registros PTR.
+* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**: Se ha enviado la actualización del registro PTR, que está en proceso de verificación.
+* ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: El registro PTR actualizado se ha verificado y el nuevo subdominio ahora está asociado con la dirección IP.
+* ![](assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: Una o varias comprobaciones han fallado durante la verificación de actualización de registros PTR.
 
 ### Procesamiento {#processing}
 

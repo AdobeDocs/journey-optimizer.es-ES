@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 5%
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 Cada vez que se modifica una oferta, se actualiza el conjunto de datos generado automáticamente para las ubicaciones.
 
-![](../../assets/dataset-placements.png)
+![](../assets/dataset-placements.png)
 
 El lote correcto más reciente del conjunto de datos se muestra a la derecha. La vista jerárquica del esquema para el conjunto de datos se muestra en el panel izquierdo.
 

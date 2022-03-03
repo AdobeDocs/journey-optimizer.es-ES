@@ -6,8 +6,8 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
-workflow-type: ht
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ La capacidad Administración de decisiones consta de dos componentes principales
 * La **Biblioteca de ofertas centralizada** es la interfaz en la que se crean y administran los diferentes elementos que componen las ofertas y se definen sus reglas y restricciones.
 * El **Motor de decisión de ofertas** aprovecha los datos de Adobe Experience Platform y los perfiles del cliente en tiempo real, junto con la Biblioteca de ofertas, para seleccionar el momento, los clientes y los canales adecuados a los que se enviarán las ofertas.
 
-![](../../assets/architecture.png)
+![](../assets/architecture.png)
 
 Los beneficios incluyen:
 
@@ -42,7 +42,7 @@ Una **oferta** está formada por contenido, reglas de elegibilidad y restriccion
 
 Se crea mediante la **Biblioteca de ofertas**, que proporciona un catálogo de ofertas central donde puede asociar reglas de elegibilidad y restricciones con varios fragmentos de contenido para crear y publicar ofertas (consulte la [interfaz de usuario de la Biblioteca de ofertas](../get-started/user-interface.md)).
 
-![](../../assets/offer_structure.png)
+![](../assets/offer_structure.png)
 
 Una vez que la Biblioteca de ofertas se haya enriquecido con ofertas, puede integrarlas en **decisiones** (antes llamadas “actividades de oferta”).
 
@@ -54,11 +54,11 @@ Las funciones y la integración de Administración de decisiones con Adobe Exper
 
 * Muestre ofertas en la página de inicio del sitio web que coincidan con el punto de interés del cliente visitante según los datos de Adobe Experience Platform.
 
-   ![](../../assets/website.png)
+   ![](../assets/website.png)
 
 * Si los clientes se acercan a una de las tiendas, envíeles notificaciones push recordándoles las ofertas disponibles según sus atributos (nivel de lealtad, sexo, compras anteriores...).
 
-   ![](../../assets/push_sample.png)
+   ![](../assets/push_sample.png)
 
 * Administración de decisiones también le ayuda a mejorar la experiencia de sus clientes al ponerse en contacto con su equipo de asistencia. Las API de Administración de decisiones permiten mostrar en el portal de los agentes del centro de llamadas información acerca de las mejores ofertas y las ofertas canjeadas del cliente.
 

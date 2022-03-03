@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 2%
@@ -19,11 +19,11 @@ El correo electrónico **[!UICONTROL Live report]** solo segmenta un envío de c
 
 En el **[!UICONTROL Executions]** de la pestaña **[!UICONTROL Messages]** seleccione **[!UICONTROL Live view]** a continuación, en el menú avanzado del envío seleccionado, seleccione **[!UICONTROL Live report]**.
 
-![](../assets/live_report.png)
+![](assets/live_report.png)
 
 El correo electrónico **[!UICONTROL Live report]** se divide en distintas utilidades que detallan el éxito y los errores de su envío. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](live-report.md#modify-dashboard).
 
-![](../assets/live_report_5.png)
+![](assets/live_report_5.png)
 
 **[!UICONTROL Email performance]** y **[!UICONTROL Email summary]** widgets detalla la información principal relativa al mensaje con un gráfico y KPI:
 
@@ -55,7 +55,7 @@ La variable **[!UICONTROL Sending Statistics]** La utilidad detalla el éxito de
 
 * **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
 
-![](../assets/live_report_6.png)
+![](assets/live_report_6.png)
 
 La variable **[!UICONTROL Error Reasons]** El gráfico y la tabla permiten ver qué error se produjo durante el envío.
 
@@ -68,7 +68,7 @@ La variable **[!UICONTROL Bounce Reasons]** y **[!UICONTROL Bounce categories]**
 * **[!UICONTROL Ignored]**: El número total de mensajes temporales, como fuera de la oficina o un error técnico, por ejemplo, si el tipo de remitente es administrador de correo.
 
 <!--
-![](../assets/live_report_8.png)
+![](assets/live_report_8.png)
 
 >[!NOTE]
 >

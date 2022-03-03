@@ -6,7 +6,7 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 9%
@@ -36,15 +36,15 @@ Para poder crear sus recorridos y enviar mensajes, debe seguir estos pasos de co
 
 1. **Delegación de subdominios**: para cualquier nuevo subdominio que se vaya a utilizar en Journey Optimizer, el primer paso será delegarlo. [Más información](about-subdomain-delegation.md)
 
-   ![](../assets/subdomain.png)
+   ![](assets/subdomain.png)
 
 1. **Crear grupos de IP**: mejore su capacidad de envío de correo electrónico y su reputación agrupando direcciones IP aprovisionadas con su instancia. [Más información](ip-pools.md)
 
-   ![](../assets/ip-pool.png)
+   ![](assets/ip-pool.png)
 
 1. **Configuración de recorridos**: para crear recorridos, debe configurar **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** y **[!UICONTROL Actions]**. [Más información](about-data-sources-events-actions.md)
 
-   ![](../assets/admin-menu.png)
+   ![](assets/admin-menu.png)
 
    * La variable **Fuente de datos** permite definir una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos. Obtenga más información sobre las fuentes de datos en esta [sección](../datasource/about-data-sources.md)
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
@@ -19,7 +19,7 @@ En la lista recorrido, todas las versiones de recorrido se muestran con el núme
 
 Al buscar un recorrido, las versiones más recientes aparecen en la parte superior de la lista la primera vez que se abre la aplicación. A continuación, puede definir la clasificación que desee y la aplicación la mantendrá como una preferencia de usuario. La versión del recorrido también se muestra en la parte superior de la interfaz de edición de recorrido, encima del lienzo.
 
-![](../assets/journeyversions1.png)
+![](assets/journeyversions1.png)
 
 Si necesita modificar a un recorrido activo, debe crear una nueva versión del recorrido.
 
@@ -29,7 +29,7 @@ Si necesita modificar a un recorrido activo, debe crear una nueva versión del r
 
 1. Abra la última versión de su recorrido en directo y haga clic en **[!UICONTROL Create a new version]** y confirme.
 
-   ![](../assets/journeyversions2.png)
+   ![](assets/journeyversions2.png)
 
    >[!NOTE]
    >
@@ -37,7 +37,7 @@ Si necesita modificar a un recorrido activo, debe crear una nueva versión del r
 
 1. Realice las modificaciones necesarias, haga clic en **[!UICONTROL Publish]** y confirme.
 
-   ![](../assets/journeyversions3.png)
+   ![](assets/journeyversions3.png)
 
 Desde el momento en que se publique el recorrido, las personas empezarán a fluir a la última versión del recorrido. Las personas que ya han introducido una versión anterior permanecen en ella hasta que finalizan el recorrido. Si más adelante vuelven a entrar en el mismo recorrido, pasarán a la última versión.
 

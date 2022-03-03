@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 67%
@@ -17,13 +17,13 @@ ht-degree: 67%
 
 Puede acceder al esquema XDM DecisioningEvents directamente desde un conjunto de datos que contenga eventos de Administración de decisiones.
 
-![](../../assets/access-schema.png)
+![](../assets/access-schema.png)
 
 El esquema contiene todos los campos necesarios para enviar información de Administración de decisiones a Adobe Experience Platform.
 
 Para obtener más información sobre un campo específico, selecciónelo para mostrar un panel de información con las propiedades del campo.
 
-![](../../assets/schema-fields.png)
+![](../assets/schema-fields.png)
 
 Encontrará información detallada sobre cómo trabajar con esquemas y campos XDM en la documentación del Modelo de datos de Experience:
 

@@ -1,12 +1,12 @@
 ---
 title: Integración con Adobe Campaign v7/v8
-description: Aprenda a integrar con Adobe Campaign v7/v8
+description: Learn how to integrate with Adobe Campaign v7/v8
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 7324b5dd448b770990aad485fa2b13bc131cbcb1
+source-git-commit: 51c63b196b11905289c3c0c450c1976eb551bbc8
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 7%
@@ -15,31 +15,31 @@ ht-degree: 7%
 
 # Integración con Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
 
-Esta integración está disponible para Adobe Campaign Classic v7 a partir de la versión 21.1 y Adobe Campaign v8. Le permite enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de Adobe Campaign.
+This integration is available for Adobe Campaign Classic v7 starting 21.1 release, and Adobe Campaign v8. It allows you to send emails, push notifications and SMS using Adobe Campaign Transactional Messaging capabilities.
 
-La conexión entre las instancias de Journey Optimizer y Campaign se configura por Adobe en el momento del aprovisionamiento.
+The connection between the Journey Optimizer and Campaign instances is setup by Adobe at provisioning time.
 
-En este ejemplo se presenta un caso de uso completo [sección](../building-journeys/campaign-classic-use-case.md).
+[](../building-journeys/campaign-classic-use-case.md)
 
-Para cada acción configurada, hay una actividad de acción disponible en la paleta Diseñador de recorridos. Consulte esta [sección](../building-journeys/using-adobe-campaign-classic.md).
+For each action configured, an action activity is available in the journey designer palette. Consulte esta [sección](../building-journeys/using-adobe-campaign-classic.md).
 
 ## Notas importantes {#important-notes}
 
-* No hay restricciones en los mensajes. El sistema limita el número de mensajes que se pueden enviar a 4000 por 5 minutos, según el SLA de Campaign actual. Por este motivo, Journey Optimizer solo debe utilizarse en casos de uso unitario (eventos individuales, no segmentos).
+* There is no throttling of messages. The system caps the number of messages that can be sent over to 4000 per 5 minutes, based on the current Campaign SLA. For this reason, Journey Optimizer should only be used in unitary use cases (individual events, not segments).
 
-* Debe configurar una acción en el lienzo por plantilla que desee utilizar. Debe configurar una acción en Journey Optimizer para cada plantilla que desee utilizar desde Adobe Campaign.
+* You need to configure one action on the canvas per template you wish to use. You need to configure one action in Journey Optimizer for each template you wish to use from Adobe Campaign.
 
-* Le recomendamos que utilice una instancia del Centro de mensajes dedicada que esté alojada para esta integración para evitar afectar a otras operaciones de Campaign que pueda estar realizando. El servidor de marketing puede alojarse o alojarse de forma local. La compilación necesaria es candidata para la versión 21.1 o buena.
+* We recommend that you use a dedicated Message Center instance that is hosted for this integration to avoid impacting any other Campaign operations that you may have going on. The marketing server can be hosted or on-premise. The build required is 21.1 Release Candidate or greater.
 
-* No hay validación de que la carga útil o el mensaje de Campaign sean correctos.
+* There is no validation that the payload or Campaign message is correct.
 
-* No puede utilizar una acción de Campaign con un evento de calificación de segmentos.
+* You cannot use a Campaign action with a segment qualification event.
 
 ## Requisitos previos {#prerequisites}
 
-En Campaign, debe crear y publicar un mensaje transaccional y su evento asociado. Consulte la [Documentación de Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}.
+In Campaign, you need to create and publish a transactional message and its associated event. [](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging)
 
-Puede crear la carga útil JSON correspondiente a cada mensaje siguiendo el patrón a continuación. A continuación, pegue esta carga útil al configurar la acción en el Journey Orchestration (consulte a continuación)
+You can build your JSON payload corresponding to each message following the pattern below. You will then paste this payload when configuring the action in Journey Orchestration (see below)
 
 Vea el siguiente ejemplo:
 
@@ -54,19 +54,19 @@ Vea el siguiente ejemplo:
 }
 ```
 
-* **canal**: el canal definido para la plantilla transaccional de Campaign
-* **eventType**: el nombre interno del evento de Campaign
-* **ctx**: en función de la personalización que tenga en el mensaje.
+* ****
+* ****
+* ****
 
-## Configuración de la acción {#configure-action}
+## Configuring the action {#configure-action}
 
-En Journey Optimizer, debe configurar una acción por cada mensaje transaccional. Siga estos pasos:
+In Journey Optimizer, you need to configure one action per transactional message. Siga estos pasos:
 
-1. Cree una nueva acción. Consulte esta [sección](../action/action.md).
-1. Introduzca un nombre y una descripción.
-1. En el **Tipo de acción** campo, seleccione **Adobe Campaign Classic**.
-1. Haga clic en el **Carga útil** y pegue un ejemplo de la carga útil JSON correspondiente al mensaje de Campaign. Póngase en contacto con el Adobe para obtener esta carga útil.
-1. Ajuste los distintos campos para que sean estáticos o variables en función de si desea asignarlos en el lienzo de Recorrido. Ciertos campos, como los parámetros de canal para la dirección de correo electrónico y los campos de personalización (ctx), probablemente desee definirlos como variables para la asignación en el contexto del recorrido.
+1. Create a new action. Consulte esta [sección](../action/action.md).
+1. Enter a name and description.
+1. ********
+1. **** Contact Adobe to get this payload.
+1. Adjust the different fields to be static or variable depending on if you want to map them on the Journey canvas. Certain fields, such as channel parameters for email address and personalization fields (ctx), you likely want defined as variables for mapping in context of the journey.
 1. Haga clic en **Guardar**.
 
-![](../assets/accintegration1.png)
+![](assets/accintegration1.png)

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 1%
@@ -19,11 +19,11 @@ El correo electrónico **[!UICONTROL Global report]** solo segmenta un envío de
 
 En el **[!UICONTROL Executions]** de la pestaña **[!UICONTROL Messages]** seleccione **[!UICONTROL Global view]** a continuación, en el menú avanzado del envío seleccionado, seleccione **[!UICONTROL Global report]**.
 
-![](../assets/global_report_3.png)
+![](assets/global_report_3.png)
 
 El correo electrónico **[!UICONTROL Global report]** se divide en distintas utilidades que detallan el éxito y los errores de su envío. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](global-report.md#modify-dashboard).
 
-![](../assets/global_report_4.png)
+![](assets/global_report_4.png)
 
 **[!UICONTROL Email performance]** detalla la información principal relativa a su mensaje con KPI:
 
@@ -65,7 +65,7 @@ La variable **[!UICONTROL Sending Statistics]** graph detalla el éxito de la en
 
 * **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
 
-![](../assets/global_report_5.png)
+![](assets/global_report_5.png)
 
 La variable **[!UICONTROL Bounce Reasons]** y **[!UICONTROL Bounce categories]** los widgets contienen los datos disponibles relacionados con los mensajes devueltos, como:
 
@@ -79,7 +79,7 @@ Para obtener más información sobre las devoluciones, consulte la sección [Lis
 
 La variable **[!UICONTROL Error Reasons]** El gráfico y la tabla permiten ver qué error se produjo durante el envío.
 
-![](../assets/global_report_6.png)
+![](assets/global_report_6.png)
 
 La variable **[!UICONTROL Email - Top recipient domain]** gráfico y tabla detallan qué dominios son los más utilizados por los destinatarios para abrir el correo electrónico.
 
@@ -92,7 +92,7 @@ La variable **[!UICONTROL Open vs Click]** identifica la interacción de los des
 * **[!UICONTROL Unique Opens]**: Número de destinatarios que abrieron la entrega.
 
 <!--
-![](../assets/global_report_20.png)
+![](assets/global_report_20.png)
 
 >[!NOTE]
 >

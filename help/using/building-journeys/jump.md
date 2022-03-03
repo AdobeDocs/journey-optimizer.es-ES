@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 3%
@@ -70,16 +70,16 @@ En el recorrido B, el primer evento se activa internamente, a través del **[!UI
 
 1. Diseñe su **recorrido de origen**.
 
-   ![](../assets/jump1.png)
+   ![](assets/jump1.png)
 
 1. En cualquier paso del recorrido, añada un **[!UICONTROL Jump]** de **[!UICONTROL ACTIONS]** categoría. Añada una etiqueta y una descripción.
 
-   ![](../assets/jump2.png)
+   ![](assets/jump2.png)
 
 1. Haga clic dentro del **Recorrido de Target** campo .
 La lista muestra todas las versiones de recorrido en borrador, activas o en modo de prueba. Recorridos que utilizan un área de nombres diferente o que comienzan con un **Clasificación del segmento** no están disponibles. Los recorridos de destino que podrían crear un patrón de bucle también se filtran.
 
-   ![](../assets/jump3.png)
+   ![](assets/jump3.png)
 
    >[!NOTE]
    >
@@ -88,12 +88,12 @@ La lista muestra todas las versiones de recorrido en borrador, activas o en modo
 1. Seleccione el recorrido de destino al que desee ir.
 La variable **Primer evento** se rellena previamente con el nombre del primer evento del recorrido de destino. Si el recorrido de destino incluye varios eventos, la variable **[!UICONTROL Jump]** solo se permite en el primer evento.
 
-   ![](../assets/jump4.png)
+   ![](assets/jump4.png)
 
 1. La variable **Parámetros de acción** muestra todos los campos del evento de destino. Del mismo modo que para otros tipos de acciones, asigne cada campo con campos del evento de origen o del origen de datos. Esta información se pasa al recorrido de destino durante la ejecución.
 1. Agregue las siguientes actividades para finalizar el recorrido de origen.
 
-   ![](../assets/jump5.png)
+   ![](assets/jump5.png)
 
 
    >[!NOTE]
@@ -104,7 +104,7 @@ Su **[!UICONTROL Jump]** actividad está configurada. Tan pronto como su recorri
 
 Cuando **[!UICONTROL Jump]** actividad está configurada en un recorrido, un **[!UICONTROL Jump]** el icono de entrada se añade automáticamente al principio del recorrido de destino. Esto le ayuda a identificar que el recorrido se puede activar externamente pero también internamente desde un **[!UICONTROL Jump]** actividad.
 
-![](../assets/jump7.png)
+![](assets/jump7.png)
 
 ## Resolución de problemas
 
@@ -113,4 +113,4 @@ Cuando se publica el recorrido o en modo de prueba, se producen errores si:
 * el recorrido de destino es borrador, cerrado o detenido
 * si el primer evento del recorrido de destino ha cambiado y la asignación está dañada
 
-![](../assets/jump6.png)
+![](assets/jump6.png)

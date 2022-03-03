@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 3%
@@ -31,15 +31,15 @@ Para acceder a la lista detallada de direcciones de correo electrónico excluida
 >
 >Los permisos para ver, exportar y administrar la lista de supresión están restringidos a [Administradores de recorrido](../administration/ootb-product-profiles.md#journey-administrator). Más información sobre la administración [!DNL Journey Optimizer] derechos de acceso de los usuarios en [esta sección](../administration/permissions-overview.md).
 
-![](../assets/suppression-list-access.png)
+![](assets/suppression-list-access.png)
 
 Los filtros están disponibles para ayudarle a navegar por la lista.
 
-![](../assets/suppression-list-filters.png)
+![](assets/suppression-list-filters.png)
 
 Puede filtrar por la variable **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]** o **[!UICONTROL Reason]**. Seleccione las opciones que desee para cada criterio. Una vez seleccionados, puede borrar cada filtro o todos los filtros mostrados en la parte superior de la lista.
 
-![](../assets/suppression-list-filtering-example.png)
+![](assets/suppression-list-filtering-example.png)
 
 Si agrega manualmente una dirección de correo electrónico o un dominio por error, la variable **[!UICONTROL Delete]** permite eliminar esa entrada.
 
@@ -47,7 +47,7 @@ Si agrega manualmente una dirección de correo electrónico o un dominio por err
 >
 >No use nunca el **[!UICONTROL Delete]** para eliminar direcciones de correo electrónico o dominios suprimidos.
 
-![](../assets/suppression-list-delete.png)
+![](assets/suppression-list-delete.png)
 
 Al eliminar una dirección de correo electrónico o un dominio de la lista de supresión, se inicia de nuevo la entrega a esta dirección o dominio. Por lo tanto, esto puede tener un impacto grave en la capacidad de envío y la reputación de la IP, lo que eventualmente podría provocar que se bloqueara su dirección IP o dominio de envío. Obtenga más información sobre la importancia de mantener una lista de supresión en [esta sección](../messages/suppression-list.md).
 
@@ -59,7 +59,7 @@ En el **[!UICONTROL Suppression list]** , también puede editar las reglas de su
 
 Para exportar la lista de supresión como archivo CSV, seleccione la opción **[!UICONTROL Download CSV]** botón.
 
-![](../assets/suppression-list-download-csv.png)
+![](assets/suppression-list-download-csv.png)
 
 ## Categorías y motivos de supresión {#suppression-categories-and-reasons}
 
@@ -83,7 +83,7 @@ Las categorías de supresión son las siguientes:
 
 Para cada dirección de correo electrónico de la lista, también puede comprobar la variable **[!UICONTROL Type]** (correo electrónico o dominio), **[!UICONTROL Reason]** para excluirlo, quién lo agregó y la fecha y hora en que se agregó a la lista de supresión.
 
-![](../assets/suppression-list.png)
+![](assets/suppression-list.png)
 
 Los posibles motivos de un error de entrega son:
 
@@ -111,13 +111,13 @@ Puede añadir direcciones de correo electrónico o dominios [de una en una](#add
 
 Para ello, seleccione la **[!UICONTROL Add email or domain]** , siga uno de los métodos que se describen a continuación.
 
-![](../assets/suppression-list-add-email.png)
+![](assets/suppression-list-add-email.png)
 
 ### Añadir una dirección o un dominio {#add-one-address-or-domain}
 
 1. Seleccione la opción **[!UICONTROL One by one]**.
 
-   ![](../assets/suppression-list-add-email-address.png)
+   ![](assets/suppression-list-add-email-address.png)
 
 1. Elija el tipo de dirección: **[!UICONTROL Email address]** o **[!UICONTROL Domain address]**.
 
@@ -135,7 +135,7 @@ Para ello, seleccione la **[!UICONTROL Add email or domain]** , siga uno de los 
 
 1. Seleccione la opción **[!UICONTROL Upload CSV]**.
 
-   ![](../assets/suppression-list-upload-csv.png)
+   ![](assets/suppression-list-upload-csv.png)
 
 1. Descargue la plantilla CSV para usar, que incluye las columnas y el formato siguiente:
 
@@ -156,7 +156,7 @@ Para ello, seleccione la **[!UICONTROL Add email or domain]** , siga uno de los 
 
 1. Una vez finalizado, arrastre y suelte el archivo CSV y, a continuación, haga clic en **[!UICONTROL Upload file]**.
 
-   ![](../assets/suppression-list-upload-file-button.png)
+   ![](assets/suppression-list-upload-file-button.png)
 
 1. Haga clic en **[!UICONTROL Submit]**.
 
@@ -166,13 +166,13 @@ Puede comprobar la lista de los archivos CSV más recientes que ha cargado.
 
 Para ello, en la sección **[!UICONTROL Suppression list]** haga clic en la **[!UICONTROL Recent uploads]** botón.
 
-![](../assets/suppression-list-recent-uploads-button.png)
+![](assets/suppression-list-recent-uploads-button.png)
 
 Se muestran las últimas cargas que ha enviado y sus estados correspondientes.
 
 Si un informe de error está asociado con un archivo, puede descargarlo para comprobar los errores encontrados.
 
-![](../assets/suppression-list-recent-uploads-error.png)
+![](assets/suppression-list-recent-uploads-error.png)
 
 A continuación, se muestra un ejemplo del tipo de entradas que puede encontrar en el informe de error:
 

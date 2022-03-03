@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 778ab302a5c9835024fe324999cdf5acf19ad172
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -40,13 +40,13 @@ Para obtener más información sobre cómo convertir un perfil existente en un p
 
 1. En el **Acción** de la paleta **Actualizar perfil** actividad en el lienzo.
 
-   ![](../assets/profileupdate0.png)
+   ![](assets/profileupdate0.png)
 
 1. Seleccione un esquema de la lista.
 
 1. Haga clic en **Campo** para seleccionar el campo que desea actualizar. Solo se puede seleccionar un campo.
 
-   ![](../assets/profileupdate2.png)
+   ![](assets/profileupdate2.png)
 
 1. Seleccione un conjunto de datos de la lista.
 
@@ -58,12 +58,12 @@ Para obtener más información sobre cómo convertir un perfil existente en un p
 
    * Con el editor de expresiones simple, se puede seleccionar un campo de un origen de datos o del evento entrante.
 
-      ![](../assets/profileupdate4.png)
+      ![](assets/profileupdate4.png)
 
    * Si desea definir un valor específico o aprovechar las funciones avanzadas, haga clic en **Modo avanzado**.
 
-      ![](../assets/profileupdate3.png)
+      ![](assets/profileupdate3.png)
 
 La variable **Actualizar perfil** ya está configurado.
 
-![](../assets/profileupdate1.png)
+![](assets/profileupdate1.png)

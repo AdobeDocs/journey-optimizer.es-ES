@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 11%
@@ -31,11 +31,11 @@ Estos son los pasos principales para agregar grupos de campos al origen de datos
 
    Se abre el panel de configuración de la fuente de datos en el lado derecho de la pantalla.
 
-   ![](../assets/journey23.png)
+   ![](assets/journey23.png)
 
 1. Haga clic en **[!UICONTROL Add a New Field Group]** para definir una nueva serie de campos que se recuperarán. Consulte [esta página](../datasource/configure-data-sources.md#define-field-groups).
 
-   ![](../assets/journey24.png)
+   ![](assets/journey24.png)
 
 1. Seleccione un esquema del **[!UICONTROL Schema]** lista desplegable. Este campo enumera los esquemas de perfil y eventos de experiencia disponibles en Adobe Experience Platform. La creación del esquema no se realiza en [!DNL Journey Optimizer]. Se realiza en Adobe Experience Platform.
 1. Seleccione los campos que desee utilizar.

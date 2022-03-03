@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 4e52be8fb4a6b996d20cc831247b7e4f6d333840
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 2%
@@ -23,7 +23,7 @@ La variable **paleta** en el lado izquierdo de la pantalla. Todas las actividade
 
 Al iniciar un nuevo recorrido, los elementos que no se pueden soltar en el lienzo como primer paso se ocultan. Esto se refiere a todas las acciones, la actividad de la condición, la espera y la reacción.
 
-![](../assets/journey38.png)
+![](assets/journey38.png)
 
 La variable **[!UICONTROL Filter items]** en la esquina superior izquierda permite mostrar los siguientes filtros:
 
@@ -35,17 +35,17 @@ También puede usar la variable **[!UICONTROL Search]** campo . Solo se filtran 
 
 La variable **lienzo** es la zona central del diseñador de recorridos. Es en esta zona donde puede soltar sus actividades y configurarlas. Haga clic en una actividad del lienzo para configurarla. Se abre el panel de configuración de actividad en el lado derecho.
 
-![](../assets/journey39.png)
+![](assets/journey39.png)
 
 La variable **panel de configuración de actividades** aparece al hacer clic en una actividad de la paleta. Rellene los campos obligatorios. Haga clic en el **[!UICONTROL Delete]** para eliminar la actividad. Haga clic en **[!UICONTROL Cancel]** para cancelar las modificaciones o **[!UICONTROL Ok]** para confirmar. Para eliminar actividades, también puede seleccionar una actividad (o varias) y pulsar la tecla de retroceso. Si pulsa la tecla escape, se cerrará el panel de configuración de la actividad.
 
 De forma predeterminada, los campos de solo lectura están ocultos. Para mostrar campos de solo lectura, haga clic en el botón **Mostrar campos de solo lectura** en la parte superior izquierda del panel de configuración de actividad. Esta configuración se aplica a todas las actividades de todos los recorridos.
 
-![](../assets/journey59bis.png)
+![](assets/journey59bis.png)
 
 Según el estado del recorrido, puede realizar diferentes acciones en el recorrido mediante los botones disponibles en la esquina superior derecha: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Estos botones aparecen cuando no hay actividad seleccionada. Algunos botones aparecerán en contexto. El botón de registro del modo de prueba aparece cuando se activa el modo de prueba.
 
-![](../assets/journey41.png)
+![](assets/journey41.png)
 
 ## Inicio del recorrido
 
@@ -85,7 +85,7 @@ También encontrará las acciones personalizadas que ha configurado para enviar 
 
 Varias actividades (**[!UICONTROL Condition]**, **[!UICONTROL Action]** actividades) le permiten definir una acción de reserva en caso de error o tiempo de espera. En el panel de configuración de actividad, marque la casilla : **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Se agrega otra ruta después de la actividad . La duración del tiempo de espera se define en las propiedades del recorrido (consulte [esta página](../building-journeys/journey-gs.md#change-properties) por un usuario administrador. Por ejemplo, si un correo electrónico tarda demasiado en enviarse o por error, puede decidir enviar un SMS.
 
-![](../assets/journey42.png)
+![](assets/journey42.png)
 
 Varias actividades (evento, acción, espera) le permiten agregar varias rutas después de ellas. Para ello, coloque el cursor en la actividad y haga clic en el símbolo &quot;+&quot;. Solo se pueden configurar actividades de evento y espera en paralelo. Si se configuran varios eventos en paralelo, la ruta elegida será la que tenga lugar el primer evento.
 
@@ -93,11 +93,11 @@ Al escuchar un evento, se recomienda no esperar el evento indefinidamente. No es
 
 Para eliminar la ruta, coloque el cursor sobre ella y haga clic en el botón **[!UICONTROL Delete path]** icono.
 
-![](../assets/journey42ter.png)
+![](assets/journey42ter.png)
 
 En el lienzo, cuando se desconectan dos actividades, se muestra una advertencia. Coloque el cursor en el icono de advertencia para mostrar el mensaje de error. Para solucionar el problema, simplemente mueva la actividad desconectada y conéctela a la actividad anterior.
 
-![](../assets/canvas-disconnected.png)
+![](assets/canvas-disconnected.png)
 
 ## Copia y pegado de actividades {#copy-paste}
 
@@ -116,9 +116,9 @@ Estos son los pasos para copiar/pegar actividades:
 
 1. Abra un recorrido.
 1. Para seleccionar las actividades que desea copiar, mueva el ratón mientras hace clic. También puede hacer clic en cada actividad mientras presiona el botón **Ctrl/Comando** clave. Uso **Ctrl/Comando + A** si desea seleccionar todas las actividades.
-   ![](../assets/copy-paste1.png)
+   ![](assets/copy-paste1.png)
 1. Press **Ctrl/Comando + C**.
 Si solo desea copiar una actividad, puede hacer clic en ella y usar la variable **Copiar** en la parte superior izquierda del panel de configuración de actividad.
-   ![](../assets/copy-paste2.png)
+   ![](assets/copy-paste2.png)
 1. En cualquier recorrido, presione **Ctrl/Comando + V** para pegar las actividades sin vincularlas a un nodo existente. Las actividades pegadas se colocan en el mismo orden. Después de pegarlas, las actividades permanecen seleccionadas para que pueda moverlas fácilmente. También puede colocar el cursor en un marcador de posición vacío y pulsar **Ctrl/Comando + V**. Las actividades pasadas se vincularán al nodo .
-   ![](../assets/copy-paste3.png)
+   ![](assets/copy-paste3.png)

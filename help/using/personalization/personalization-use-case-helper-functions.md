@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 4%
@@ -42,20 +42,20 @@ Siga estos pasos:
 ## Paso 1: Creación del correo electrónico{#configure-email}
 
 1. Cree o modifique un mensaje de correo electrónico y, a continuación, haga clic en **[!UICONTROL Email Designer]**.
-   ![](../assets/personalization-uc-helpers-1.png)
+   ![](assets/personalization-uc-helpers-1.png)
 
 1. En la paleta izquierda de la página principal del Diseñador de correo electrónico, arrastre y suelte tres componentes de estructura en el cuerpo del mensaje.
 
 1. Arrastre y suelte un componente de contenido de HTML en cada componente de estructura nuevo.
 
-   ![](../assets/personalization-uc-helpers-2.png)
+   ![](assets/personalization-uc-helpers-2.png)
 
 ## Paso 2: Inserte el nombre del cliente en mayúsculas {#uppercase-function}
 
 1. En la página de inicio del Diseñador de correo electrónico, haga clic en el componente HTML en el que desea agregar el nombre del cliente.
 1. En la barra de herramientas contextual, haga clic en **[!UICONTROL Show the source code]**.
 
-   ![](../assets/personalization-uc-helpers-3.png)
+   ![](assets/personalization-uc-helpers-3.png)
 
 1. En el **[!UICONTROL Edit HTML]** , añada la variable `upperCase` función de cadena:
    1. En el menú de la izquierda, seleccione **[!UICONTROL Helper functions]**.
@@ -68,7 +68,7 @@ Siga estos pasos:
       {%= upperCase(string) %}
       ```
 
-      ![](../assets/personalization-uc-helpers-4.png)
+      ![](assets/personalization-uc-helpers-4.png)
 
 1. Elimine el marcador de posición &quot;cadena&quot; de la expresión.
 1. Añada el token de nombre:
@@ -82,13 +82,13 @@ Siga estos pasos:
       {%= upperCase(profile.person.name.firstName) %}
       ```
 
-      ![](../assets/personalization-uc-helpers-5.png)
+      ![](assets/personalization-uc-helpers-5.png)
 
       Obtenga más información sobre el tipo de datos de nombre de persona en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
 
 1. Haga clic en **[!UICONTROL Validate]**, luego en **[!UICONTROL Save]**.
 
-   ![](../assets/personalization-uc-helpers-6.png)
+   ![](assets/personalization-uc-helpers-6.png)
 1. Guarde el mensaje.
 
 ## Paso 3: Crear el evento inicial y el recorrido relacionado {#create-context}
@@ -106,24 +106,24 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
    Como aún no ha publicado el mensaje, no puede probar ni publicar el recorrido.
 
-   ![](../assets/personalization-uc-helpers-7.png)
+   ![](assets/personalization-uc-helpers-7.png)
 
 1. Haga clic en **[!UICONTROL OK]**.
 
    Un mensaje le informa de que el contexto del recorrido se ha pasado al mensaje.
 
-   ![](../assets/personalization-uc-helpers-8.png)
+   ![](assets/personalization-uc-helpers-8.png)
 
 ## Paso 4: Inserte la lista de elementos del carro de compras {#each-helper}
 
 1. Vuelva a abrir el mensaje.
 
-   ![](../assets/personalization-uc-helpers-18.png)
+   ![](assets/personalization-uc-helpers-18.png)
 
 1. En la página de inicio del Diseñador de correo electrónico, haga clic en el componente HTML en el que desea enumerar el contenido del carro de compras.
 1. En la barra de herramientas contextual, haga clic en **[!UICONTROL Show the source code]**.
 
-   ![](../assets/personalization-uc-helpers-3.png)
+   ![](assets/personalization-uc-helpers-3.png)
 
 1. En el **[!UICONTROL Edit HTML]** , añada la variable `each` ayuda:
    1. En el menú de la izquierda, seleccione **[!UICONTROL Helper functions]**.
@@ -136,7 +136,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
       {{#each someArray as |variable|}} {{/each}}
       ```
 
-      ![](../assets/personalization-uc-helpers-9.png)
+      ![](assets/personalization-uc-helpers-9.png)
 
 1. Agregue la variable `productListItems` a la expresión:
 
@@ -158,7 +158,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
       ```
       En este ejemplo, *event_ID* representa el ID del evento.
 
-      ![](../assets/personalization-uc-helpers-10.png)
+      ![](assets/personalization-uc-helpers-10.png)
 
    1. Modifique la expresión:
       1. Elimine la cadena &quot;.product&quot;.
@@ -208,14 +208,14 @@ El contenido del carro de compras es información contextual del recorrido. Por 
    {{/each}}
    ```
 1. Haga clic en **[!UICONTROL Validate]**, luego en **[!UICONTROL Save]**.
-   ![](../assets/personalization-uc-helpers-11.png)
+   ![](assets/personalization-uc-helpers-11.png)
 
 ## Paso 5: Insertar una nota específica del producto {#if-helper}
 
 1. En la página de inicio del Diseñador de correo electrónico, haga clic en el componente HTML en el que desea insertar la nota.
 1. En la barra de herramientas contextual, haga clic en **[!UICONTROL Show the source code]**.
 
-   ![](../assets/personalization-uc-helpers-3.png)
+   ![](assets/personalization-uc-helpers-3.png)
 
 1. En el **[!UICONTROL Edit HTML]** , añada la variable `if` ayuda:
    1. En el menú de la izquierda, seleccione **[!UICONTROL Helper functions]**.
@@ -230,7 +230,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
          {%else%} default_render
       {%/if%}
       ```
-      ![](../assets/personalization-uc-helpers-12.png)
+      ![](assets/personalization-uc-helpers-12.png)
 
 1. Elimine esta condición de la expresión:
 
@@ -263,7 +263,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
          {%else%} default_render
       {%/if%}
       ```
-      ![](../assets/personalization-uc-helpers-13.png)
+      ![](assets/personalization-uc-helpers-13.png)
 
 1. Modifique la expresión:
    1. En el editor de expresiones, especifique el nombre del producto después de la variable `name` token.
@@ -296,7 +296,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
    1. Elimine el marcador de posición &quot;default_render&quot; de la expresión.
 1. Haga clic en **[!UICONTROL Validate]**, luego en **[!UICONTROL Save]**.
 
-   ![](../assets/personalization-uc-helpers-14.png)
+   ![](assets/personalization-uc-helpers-14.png)
 
 1. Guarde y publique el mensaje.
 
@@ -307,19 +307,19 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
    Solo puede activar el modo de prueba después de publicar el mensaje.
 
-   ![](../assets/personalization-uc-helpers-15.png)
+   ![](assets/personalization-uc-helpers-15.png)
 
 1. En el **[!UICONTROL Event configuration]** , introduzca los valores de entrada y, a continuación, haga clic en **[!UICONTROL Send]**.
 
    El modo de prueba solo funciona con perfiles de prueba.
 
-   ![](../assets/personalization-uc-helpers-16.png)
+   ![](assets/personalization-uc-helpers-16.png)
 
    El correo electrónico se envía a la dirección del perfil de prueba.
 
    En este ejemplo, el correo electrónico contiene la nota sobre la Chaqueta Juno porque este producto está en el carro de compras:
 
-   ![](../assets/personalization-uc-helpers-17.png)
+   ![](assets/personalization-uc-helpers-17.png)
 
 1. Compruebe que no haya error y, a continuación, publique el recorrido.
 

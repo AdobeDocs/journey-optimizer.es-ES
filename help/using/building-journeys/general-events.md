@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Para este tipo de evento, solo puede añadir una etiqueta y una descripción. El resto de la configuración no se puede editar. Lo realizó el usuario técnico. Consulte [esta página](../event/about-events.md).
 
-![](../assets/general-events.png)
+![](assets/general-events.png)
 
 Cuando se coloca un evento empresarial, se agrega automáticamente un **Leer segmento** actividad. Para obtener más información sobre los eventos comerciales, consulte [esta sección](../event/about-events.md)
 
@@ -36,7 +36,7 @@ Para configurar un tiempo de espera para un evento, siga estos pasos:
 
 1. Si desea enviar a las personas a una ruta de tiempo de espera cuando no se reciba ningún evento dentro del tiempo de espera especificado, habilite la variable **[!UICONTROL Set a timeout path]** . Si esta opción no está activada, el recorrido finalizará para el individuo una vez que se alcance el tiempo de espera.
 
-   ![](../assets/event-timeout.png)
+   ![](assets/event-timeout.png)
 
 En este ejemplo, el recorrido envía una primera notificación push de bienvenida a un cliente. A continuación, envía una notificación push de descuento en la comida solo si el cliente entra en el restaurante en el día siguiente. Por lo tanto, configuramos el evento del restaurante con un tiempo de espera de 1 día:
 
@@ -47,4 +47,4 @@ Tenga en cuenta que si desea configurar un tiempo de espera en varios eventos po
 
 El tiempo de espera se aplicará a todos los eventos posicionados después del **[!UICONTROL Wait]** actividad. Si no se recibe ningún evento antes del tiempo de espera especificado, las personas fluirán en una única ruta de tiempo de espera o finalizarán su recorrido.
 
-![](../assets/event-timeout-group.png)
+![](assets/event-timeout-group.png)

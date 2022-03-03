@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 2%
@@ -35,11 +35,11 @@ Si el valor predeterminado de 5 no se adapta a sus necesidades, puede modificar 
 
 1. Seleccione el botón **[!UICONTROL Edit suppression rules]**.
 
-   ![](../assets/suppression-list-edit-retries.png)
+   ![](assets/suppression-list-edit-retries.png)
 
 1. Edite el número permitido de rechazos leves consecutivos según sus necesidades.
 
-   ![](../assets/suppression-list-edit-soft-bounces.png)
+   ![](assets/suppression-list-edit-soft-bounces.png)
 
    Debe introducir un valor entero entre 1 y 20, lo que significa que el número mínimo de reintentos es 1 y el número máximo es 20.
 

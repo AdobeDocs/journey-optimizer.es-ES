@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -31,23 +31,23 @@ Cada tablero de informes se puede modificar cambiando el período de tiempo y ca
 
 1. En el informe Global , seleccione una Hora de inicio y una de finalización para dirigirse a datos específicos.
 
-   ![](../assets/report_modify_1.png)
+   ![](assets/report_modify_1.png)
 
 1. Elija si desea excluir los eventos de prueba de los informes con la barra de alternancia. Para obtener más información sobre los eventos de prueba, consulte [esta página](../building-journeys/testing-the-journey.md).
 
-   ![](../assets/report_modify_2.png)
+   ![](assets/report_modify_2.png)
 
 1. Haga clic en **[!UICONTROL Modify]** para comenzar a personalizar el tablero.
 
-   ![](../assets/report_modify_3.png)
+   ![](assets/report_modify_3.png)
 
 1. Ajuste el tamaño de los widgets arrastrando su esquina inferior derecha.
 
-   ![](../assets/report_modify_4.png)
+   ![](assets/report_modify_4.png)
 
 1. Haga clic en **[!UICONTROL Remove]** para quitar cualquier utilidad que no necesite.
 
-   ![](../assets/report_modify_5.png)
+   ![](assets/report_modify_5.png)
 
 1. Una vez que esté satisfecho con el orden de visualización y el tamaño de sus widgets, haga clic en **[!UICONTROL Save]**.
 

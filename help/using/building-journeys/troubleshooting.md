@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 81%
@@ -23,11 +23,11 @@ Antes de probar y publicar el recorrido, compruebe que todas las actividades est
 
 Los errores aparecen con un símbolo de advertencia en las mismas actividades del lienzo. Coloque el cursor en el signo de exclamación para mostrar el mensaje de error. Si hace clic en la actividad, debería ver la línea por error con una advertencia. Por ejemplo, si un campo obligatorio está vacío, se mostrará un error.
 
-![](../assets/journey63.png)
+![](assets/journey63.png)
 
 Por ejemplo, cuando se desconectan dos actividades, se muestra una advertencia en el lienzo.
 
-![](../assets/canvas-disconnected.png)
+![](assets/canvas-disconnected.png)
 
 Al lado del botón de alternancia **[!UICONTROL Test]** y del botón **[!UICONTROL Publish]**, se puede mostrar un signo de advertencia. Este signo de advertencia muestra los errores detectados por el sistema y evita la activación del modo de prueba o la publicación del recorrido. La mayoría de las veces, los errores detectados por el sistema están vinculados a errores visibles en las actividades, pero a veces están vinculados a otros problemas. En este caso, puede mostrarlos e intentar identificar el problema mediante la descripción del error. Si no puede identificar el problema, puede copiar los detalles y enviarlos al administrador o a la asistencia técnica. Tenga en cuenta que los errores que bloquean la prueba y los errores que bloquean la publicación son similares.
 
@@ -35,7 +35,7 @@ El sistema detecta dos tipos de problemas: errores y advertencias. Los errores b
 
 Se pueden mostrar dos colores diferentes en el signo situado junto al botón de alternancia **[!UICONTROL Test]** y el botón **[!UICONTROL Publish]**. El signo se muestra en rojo en caso de error. Se muestra en color naranja en caso de advertencias.
 
-![](../assets/journey75.png)
+![](assets/journey75.png)
 
 Los errores y las advertencias que son globales para el recorrido aparecen primero en la lista. Los errores y las advertencias relacionados con actividades específicas se enumeran después, por orden de actividad o por su apariencia en el recorrido de izquierda a derecha. El botón **[!UICONTROL Copy details]** copia información técnica sobre el recorrido que el equipo de asistencia puede utilizar para solucionar problemas.
 

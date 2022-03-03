@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 1%
@@ -29,23 +29,23 @@ Para crear una fórmula de clasificación, siga los pasos a continuación:
 
 1. Acceda a la **[!UICONTROL Components]** y, a continuación, seleccione **[!UICONTROL Rankings]** pestaña . Se muestra la lista de clasificaciones creadas anteriormente.
 
-   ![](../../assets/rankings-list.png)
+   ![](../assets/rankings-list.png)
 
 1. Haga clic en **[!UICONTROL Create ranking]** para crear una nueva fórmula de clasificación.
 
-   ![](../../assets/ranking-create-formula.png)
+   ![](../assets/ranking-create-formula.png)
 
 1. Especifique el nombre, la descripción y la fórmula de la fórmula de clasificación.
 
    En este ejemplo, deseamos aumentar la prioridad de todas las ofertas con el atributo &quot;hot&quot; si el tiempo real está caliente. Para ello, el **contextData.weather=hot** se pasó en la llamada de decisión.
 
-   ![](../../assets/ranking-syntax.png)
+   ![](../assets/ranking-syntax.png)
 
 1. Haga clic en **[!UICONTROL Save]**. Se crea la fórmula de clasificación, puede seleccionarla de la lista para obtener detalles y editarla o eliminarla.
 
    Ahora está listo para utilizarse en una decisión para clasificar ofertas aptas para una colocación (consulte [Configurar la selección de ofertas en decisiones](../offer-activities/configure-offer-selection.md)).
 
-   ![](../../assets/ranking-formula-created.png)
+   ![](../assets/ranking-formula-created.png)
 
 ## Ejemplos de fórmulas de clasificación {#ranking-formula-examples}
 
@@ -155,7 +155,7 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 
 Una mejor solución es almacenar las puntuaciones en una matriz del perfil. El siguiente ejemplo funcionará en una variedad de puntuaciones de inclinación diferentes utilizando solo una fórmula de clasificación sencilla. La expectativa es que tiene un esquema de perfil con una matriz de puntuaciones. En este ejemplo, el inquilino de instancia es *_salesvelocity* y el esquema de perfil contiene lo siguiente:
 
-![](../../assets/ranking-example-schema.png)
+![](../assets/ranking-example-schema.png)
 
 En este caso, para un perfil como:
 
@@ -179,7 +179,7 @@ En este caso, para un perfil como:
 
 Las ofertas contendrán un atributo para *propensityType* que coincide con la categoría de las puntuaciones:
 
-![](../../assets/ranking-example-propensityType.png)
+![](../assets/ranking-example-propensityType.png)
 
 La fórmula de clasificación puede establecer la prioridad de cada oferta para que sea igual a los clientes *propensityScore* para que *propensityType*. Si no se encuentra ninguna puntuación, utilice la prioridad estática establecida en la oferta:
 

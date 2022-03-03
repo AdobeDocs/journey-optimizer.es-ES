@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 Esta sección presenta un caso de uso que combina un segmento de lectura, un evento, eventos de reacción y mensajes de correo electrónico/push.
 
-![](../assets/jo-uc1.png)
+![](assets/jo-uc1.png)
 
 ## Descripción del caso de uso
 
@@ -53,7 +53,7 @@ Para obtener más información sobre los segmentos, consulte esta [página](../s
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-   ![](../assets/add-attributes.png)
+   ![](assets/add-attributes.png)
 
 El segmento se ha creado y está listo para utilizarse en el recorrido. Uso de un **Leer segmento** , puede hacer que todas las personas que pertenecen al segmento entren en el recorrido.
 
@@ -77,7 +77,7 @@ Para ello, se utiliza un evento basado en reglas. Para obtener más información
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-   ![](../assets/jo-uc2.png)
+   ![](assets/jo-uc2.png)
 
 El evento está configurado y listo para utilizarse en el recorrido. Con la actividad de evento correspondiente, puede almacenar en déclencheur una acción cada vez que un cliente realiza una compra.
 
@@ -89,7 +89,7 @@ Para este caso de uso, se deben crear tres mensajes:
 * un mensaje push de agradecimiento
 * un mensaje de seguimiento por correo electrónico
 
-![](../assets/jo-uc3.png)
+![](assets/jo-uc3.png)
 
 Consulte esta [sección](../segment/about-segments.md) para aprender a diseñar y publicar estos mensajes.
 
@@ -97,11 +97,11 @@ Consulte esta [sección](../segment/about-segments.md) para aprender a diseñar 
 
 1. Inicie el recorrido con un **Leer segmento** actividad. Seleccione el segmento creado anteriormente. Todas las personas que pertenecen al segmento entran en el recorrido.
 
-   ![](../assets/jo-uc4.png)
+   ![](assets/jo-uc4.png)
 
 1. Colocar una **Mensaje** y seleccione el mensaje push y el mensaje de correo electrónico primero. Este mensaje se envía a todas las personas del recorrido.
 
-   ![](../assets/jo-uc5.png)
+   ![](assets/jo-uc5.png)
 
 1. Coloque el cursor en la actividad del mensaje y haga clic en el símbolo &quot;+&quot; para crear una nueva ruta.
 

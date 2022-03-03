@@ -3,7 +3,7 @@ title: Introducción a Journey Optimizer para administrador del sistema
 description: Como administrador del sistema, obtenga más información sobre cómo trabajar con Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: a20bf3aa869ce73805c63323ac36e5d86a44746e
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
@@ -56,16 +56,16 @@ Siga los pasos que se indican a continuación:
 
 1. **Delegación de subdominios**: para cualquier nuevo subdominio que se vaya a utilizar en Journey Optimizer, el primer paso será delegarlo. [Más información](../../configuration/about-subdomain-delegation.md)
 
-   ![](../../assets/subdomain.png)
+   ![](../assets/subdomain.png)
 
 1. **Crear grupos de IP**: mejore su capacidad de envío de correo electrónico y su reputación agrupando direcciones IP aprovisionadas con su instancia. [Más información](../../configuration/ip-pools.md)
 
-   ![](../../assets/ip-pool.png)
+   ![](../assets/ip-pool.png)
 
 1. **Administrar la supresión y la lista de permitidos**: mejore la capacidad de envío con supresión y listas de permitidos
 
    * A [lista de supresión](../../messages/suppression-list.md) consiste en direcciones de correo electrónico que desea excluir de los envíos, ya que el envío a estos contactos podría dañar la reputación de envío y las tasas de envío. Puede supervisar todas las direcciones de correo electrónico que se excluyen automáticamente del envío de un recorrido, como direcciones no válidas, direcciones que devuelven mensajes de forma flexible y que podrían afectar negativamente a su reputación de correo electrónico y destinatarios que presentan una queja de correo no deseado de algún tipo contra uno de sus mensajes de correo electrónico. Obtenga información sobre cómo administrar la variable [lista de supresión](../../configuration/manage-suppression-list.md) y [reintentos](../../configuration/retries.md).
-   ![](../../assets/suppression-list-filtering-example.png)
+   ![](../assets/suppression-list-filtering-example.png)
 
    * La variable [lista de permitidos](../../messages/allow-list.md) permite especificar direcciones de correo electrónico o dominios individuales que serán los únicos destinatarios o dominios autorizados para recibir los correos electrónicos que envía desde un entorno limitado específico. Esto puede impedir que envíe correos electrónicos accidentalmente a direcciones de clientes reales cuando se encuentre en un entorno de prueba. Obtenga información sobre cómo [habilitar la lista de permitidos](../../messages/allow-list.md).
    Obtenga más información sobre la administración de envíos en [!DNL Adobe Journey Optimizer] [en esta página](../../messages/deliverability.md).

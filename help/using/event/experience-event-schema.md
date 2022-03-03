@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 1%
@@ -23,33 +23,33 @@ Como tal, un requisito previo importante para configurar eventos para [!DNL Jour
 
 El primer paso para configurar un evento para [!DNL Journey Optimizer] es para asegurarse de que tiene un esquema XDM definido para representar el evento y un conjunto de datos creado para registrar instancias del evento en Adobe Experience Platform. Tener un conjunto de datos para sus eventos no es estrictamente necesario, pero enviar los eventos a un conjunto de datos específico le permitirá mantener el historial de eventos de los usuarios para futuras referencias y análisis, por lo que siempre es una buena idea. Si aún no tiene un esquema y un conjunto de datos adecuados para el evento, ambas tareas se pueden realizar en la interfaz web de Adobe Experience Platform.
 
-![](../assets/schema1.png)
+![](assets/schema1.png)
 
 Cualquier esquema XDM que se utilice para [!DNL Journey Optimizer] los eventos deben cumplir los siguientes requisitos:
 
 * El esquema debe pertenecer a la clase XDM ExperienceEvent .
 
-   ![](../assets/schema2.png)
+   ![](assets/schema2.png)
 
 * Para los eventos generados por el sistema, el esquema debe incluir el grupo de campos ID de evento de organización . [!DNL Journey Optimizer] utiliza este campo para identificar eventos utilizados en recorridos.
 
-   ![](../assets/schema3.png)
+   ![](assets/schema3.png)
 
 * Declare un campo de identidad para identificar el asunto del evento. Si no se especifica ninguna identidad, se puede utilizar un mapa de identidad. Este proceso no es recomendable.
 
-   ![](../assets/schema4.png)
+   ![](assets/schema4.png)
 
 * Si desea que estos datos estén disponibles para la búsqueda más adelante en un Recorrido, marque el esquema y el conjunto de datos para el perfil.
 
-   ![](../assets/schema5.png)
+   ![](assets/schema5.png)
 
-   ![](../assets/schema6.png)
+   ![](assets/schema6.png)
 
 * No dude en incluir campos de datos para capturar cualquier otro dato de contexto que desee incluir con el evento, como información sobre el usuario, el dispositivo desde el cual se generó el evento, la ubicación o cualquier otra circunstancia significativa relacionada con el evento.
 
-   ![](../assets/schema7.png)
+   ![](assets/schema7.png)
 
-   ![](../assets/schema8.png)
+   ![](assets/schema8.png)
 
 ## Aprovechamiento de las relaciones de esquema{#leverage_schema_relationships}
 
@@ -61,11 +61,11 @@ Para definir una relación, debe tener un campo dedicado en el esquema de origen
 
 Este es el esquema de catálogo de productos habilitado para perfil con el ID de producto definido como identidad principal.
 
-![](../assets/schema9.png)
+![](assets/schema9.png)
 
 Este es el esquema de compra con la relación definida en el campo ID del producto.
 
-![](../assets/schema10.png)
+![](assets/schema10.png)
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Los campos de esquema vinculados están disponibles en la configuración unitari
 * al navegar por los campos de esquema de evento en la pantalla de configuración de evento.
 * al definir una condición para eventos generados por el sistema.
 
-![](../assets/schema11.png)
+![](assets/schema11.png)
 
 Los campos vinculados no están disponibles:
 
@@ -100,7 +100,7 @@ Puede utilizar datos de una tabla de consulta vinculada a un evento utilizado en
 
 Añada una condición en un recorrido, edite la expresión y despliegue el nodo de evento en el editor de expresiones.
 
-![](../assets/schema12.png)
+![](assets/schema12.png)
 
 Para aprender a definir las condiciones de recorrido, consulte esta [página](../building-journeys/condition-activity.md).
 
@@ -108,7 +108,7 @@ Para aprender a definir las condiciones de recorrido, consulte esta [página](..
 
 Los campos vinculados están disponibles al personalizar un mensaje. Los campos relacionados se muestran en el contexto pasado del recorrido al mensaje.
 
-![](../assets/schema14.png)
+![](assets/schema14.png)
 
 Para aprender a personalizar un mensaje con información contextual del recorrido, consulte esta [página](../personalization/personalization-use-case.md).
 
@@ -116,6 +116,6 @@ Para aprender a personalizar un mensaje con información contextual del recorrid
 
 Los campos vinculados están disponibles al configurar los parámetros de acción de una actividad de acción personalizada de recorrido.
 
-![](../assets/schema13.png)
+![](assets/schema13.png)
 
 Para aprender a utilizar acciones personalizadas, consulte esta [página](../building-journeys/using-custom-actions.md).
