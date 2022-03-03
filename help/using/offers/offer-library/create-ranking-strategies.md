@@ -7,46 +7,14 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: bf9b555d717fe8b6d1e9500ba0a97eaea243dd7f
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 4%
+source-wordcount: '620'
+ht-degree: 6%
 
 ---
 
-# Clasificación de IA {#ai-rankings}
-
-## Introducción a las clasificaciones de IA {#get-started-with-ai-rankings}
-
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use a trained model system that ranks offers to display for a given profile.
-
->[!CAUTION]
->
->El uso de la clasificación AI está disponible actualmente en el acceso anticipado solo para usuarios seleccionados.
-
-Esta función le permite crear diferentes **estrategias de clasificación** en función de sus objetivos comerciales. Utilizando estas diferentes estrategias basadas en objetivos en una decisión (anteriormente conocida como actividad de oferta), el sistema de modelos entrenado le ayudará a comprender cómo las diferentes estrategias de clasificación afectan a sus objetivos.
-
-Por ejemplo, puede seleccionar una estrategia de clasificación para el canal de correo electrónico y otra para el canal push. Para cada canal, el sistema de modelos entrenado utilizará múltiples puntos de datos para determinar qué oferta debe presentarse primero para una ubicación determinada, en lugar de tener en cuenta las puntuaciones de prioridad de las ofertas o una [fórmula de clasificación](create-ranking-formulas.md).
-
-<!--This feature is not enabled by default. To be able to use it, reach out to your Adobe contact.-->
-
-Una vez creada una estrategia de clasificación, asígnela a una colocación en una decisión. Obtenga más información en [Configurar la selección de ofertas en decisiones](../offer-activities/configure-offer-selection.md).
-
-### Modelo de optimización automática {#auto-optimization}
-
-Actualmente en [!DNL Journey Optimizer] el único tipo de modelo admitido para la clasificación AI es **optimización automática**.
-
-Un modelo de optimización automática tiene como objetivo ofrecer ofertas que maximicen el retorno, en función de los indicadores de rendimiento clave (KPI) que establezca. <!--These KPIs could be in the form of conversion rates, revenue, etc.-->En este punto, la optimización automática se centra en optimizar los clics de ofertas con la conversión de ofertas como destino.
-
->[!NOTE]
->
->El modelo de optimización automática no utiliza ningún dato contextual o de perfil de usuario. Optimiza los resultados en función del rendimiento global de las ofertas.
-
-Con la optimización automática, el desafío es equilibrar el aprendizaje de exploración y la explotación de ese aprendizaje. Este principio se conoce como **enfoque &quot;multi-armed bandit&quot;**.
-
-Para hacer frente a este desafío, el modelo de optimización automática utiliza la variable **Muestreo Thompson** , que permite identificar qué opción buscar para maximizar las recompensas esperadas. En otras palabras, el Muestreo Thompson es un tipo de técnica de aprendizaje reforzado para resolver el dilema de la exploración y explotación en un problema multi-armed bandit.
-
-El método de muestreo Thompson también permite controlar desafíos como el problema de &quot;inicio en frío&quot;, es decir, cuando se introduce una nueva oferta en la campaña, no tiene ningún historial del que pueda formarse.
+# Creación de modelos de IA {#ai-rankings}
 
 ## Crear una estrategia de clasificación {#create-ranking-strategy}
 
@@ -66,7 +34,7 @@ Para crear una estrategia de clasificación, siga los pasos a continuación:
 
    * **[!UICONTROL Name]**: Nombre único que debe proporcionar.
 
-   * **[!UICONTROL Model type]**: Actualmente, el único tipo de modelo admitido es **[!UICONTROL Auto-optimization]**.<!--More will be supported in the future so the drop-down list will be enabled.-->
+   * **[!UICONTROL Model type]**: Actualmente en [!DNL Journey Optimizer] el único tipo de modelo admitido es **[!UICONTROL Auto-optimization]**. [Más información](ai-ranking.md#auto-optimization)
 
    * **[!UICONTROL Optimization metric]**
 
