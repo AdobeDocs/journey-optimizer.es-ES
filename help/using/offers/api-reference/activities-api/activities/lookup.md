@@ -1,21 +1,21 @@
 ---
 title: Enumerar decisiones
-description: Una decisión contiene la lógica que indica la selección de una oferta.
+description: A decision contains the logic that informs the selection of an offer.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
-source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 5%
 
 ---
 
-# Buscar una decisión {#look-up-decision}
+# Look up a decision {#look-up-decision}
 
-Puede buscar decisiones específicas (anteriormente conocidas como actividades de oferta) realizando una solicitud de GET al [!DNL Offer Library] API que incluye las decisiones `@id` o el nombre de la decisión en la ruta de solicitud.
+[!DNL Offer Library]`@id`
 
 **Formato de API**
 
@@ -25,11 +25,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Contenedor donde se encuentran las decisiones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ACTIVITIES}` | Define el esquema asociado a las decisiones. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
-| `id` | Una cadena que se usa para hacer coincidir con la variable `@id` propiedad de las entidades. La cadena coincide exactamente. Los parámetros `id` y `name` no se puede usar juntos. | `xcore:offer-activity:124527ab00b2ebbc` |
-| `name` | Cadena que se utiliza para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. El parámetro &quot;id&quot; y &quot;name&quot; no se puede usar juntos | `LBAR` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | The container where the decisions are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_ACTIVITIES}` | Defines the schema associated with decisions. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
+| `id` | `@id` The string is matched exactly. `id``name` | `xcore:offer-activity:124527ab00b2ebbc` |
+| `name` | A string used to match the xdm:name property of the entities. The string is matched exactly, with capitalization, but wild card characters can be used. The parameter &quot;id&quot; and &quot;name&quot; cannot be used together | `LBAR` |
 
 **Solicitud**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles de la ubicación, incluida la información sobre el ID del contenedor, el ID de instancia y la decisión única `@id`.
+`@id`
 
 ```json
 {
