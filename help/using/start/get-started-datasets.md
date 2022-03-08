@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo utilizar conjuntos de datos de Ado
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: e7db3204754b07b29f488c987c01d2a2378e70d9
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 26%
@@ -23,7 +23,7 @@ Añadir datos a Adobe Experience Platform es la base para crear un perfil. A con
 
 La variable **Conjuntos de datos** espacio de trabajo [!DNL Adobe Journey Optimizer] la interfaz de usuario de le permite explorar datos y crear conjuntos de datos.
 
-![](assets/datasets-home.png)
+![](../assets/datasets-home.png)
 
 Aprenda a utilizar la interfaz de usuario de conjuntos de datos en la [Documentación general de la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es){target=&quot;_blank&quot;}.
 

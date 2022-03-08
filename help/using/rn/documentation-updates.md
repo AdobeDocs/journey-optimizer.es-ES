@@ -2,9 +2,9 @@
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7aaedb4c76afb34c4110dc64ad79af9cd2091adb
-workflow-type: ht
-source-wordcount: '965'
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
+workflow-type: tm+mt
+source-wordcount: '919'
 ht-degree: 100%
 
 ---
@@ -14,26 +14,26 @@ ht-degree: 100%
 Esta página enumera todas las actualizaciones de documentación de [!DNL Journey Optimizer].
 
 
-## Febrero de 2022 {#feb-2022}
-
-* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de febrero de 2022 se han incluido en la documentación. [Más información](release-notes.md)
-* Las páginas de documentación de la función [replace](../building-journeys/functions/functionreplace.md#example_2) y [replaceAll](../building-journeys/functions/functionreplaceall.md#example) se han actualizado con información y ejemplos adicionales relacionados con el parámetro de destinatario.
-* Se han añadido las prácticas recomendadas a la página de [Operadores](../building-journeys/expression/operators.md#important-notes).
-
 ## Enero de 2022 {#january-2022}
 
 * Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de enero de 2022 se han incluido en la documentación. [Más información](release-notes.md)
-* La sección de **clasificación de IA de Offer decisioning** se ha actualizado con una descripción más detallada del modelo de optimización automática. [Más información](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
+
+* La sección de clasificación de AI de Offer decisioning se ha actualizado con una descripción más detallada del modelo de optimización automática. [Más información](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
+
 * Se ha añadido una nueva sección sobre los requisitos de esquema necesarios para poder enviar tipos de evento al utilizar una estrategia de clasificación. [Más información](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
+
 * La sección relacionada con las funcionalidades de personalización de [!DNL Journey Optimizer] se han reorganizado para mejorar la legibilidad. [Más información](../personalization/personalize.md)
-* La sección **Crear mensajes de ajustes preestablecidos** se ha dividido en varias secciones para mejorar la claridad. [Más información](../configuration/message-presets.md#create-message-preset)
-* La sección **Administración de la exclusión** se ha aclarado y reorganizado ligeramente. [Más información](../messages/consent.md#opt-out-management)
-* La sección **Insertar vínculos** se ha actualizado para reflejar los cambios recientes en la interfaz de usuario. [Más información](../messages/message-tracking.md#insert-links)
+
+* La sección Crear mensajes de ajustes preestablecidos se ha dividido en varias secciones para mejorar la claridad. [Más información](../configuration/message-presets.md#create-message-preset)
+
+* La sección Administración de la exclusión se ha aclarado y reorganizado ligeramente. [Más información](../messages/consent.md#opt-out-management)
+
+* La sección Insertar vínculos se ha actualizado para reflejar los cambios recientes en la interfaz de usuario. [Más información](../messages/message-tracking.md#insert-links)
 
 ## Noviembre de 2021 {#november-2021}
 
-* Ya está disponible una descripción completa del **editor de expresiones avanzadas** utilizado en los recorridos. [Más información](../building-journeys/expression/expressionadvanced.md)
-* Se ha añadido una nueva sección sobre **el método de delegación de subdominios CNAME**. [Más información](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* Ya está disponible una descripción completa del editor de expresiones avanzadas utilizado en los recorridos. [Más información](../building-journeys/expression/expressionadvanced.md)
+* Se ha añadido una nueva sección sobre el método de delegación de subdominios CNAME. [Más información](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 
 ## Octubre de 2021 {#october-2021}

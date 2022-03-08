@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 6%
@@ -23,27 +23,27 @@ Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción 
 
 1. Como siempre, inicie su recorrido con un evento o un **Leer segmento** actividad.
 
-   ![](assets/jo-message0.png)
+   ![](../assets/jo-message0.png)
 
 1. En el **Acciones** de la paleta, arrastre y suelte una **Mensaje** actividad en el lienzo.
 
-   ![](assets/jo-message1.png)
+   ![](../assets/jo-message1.png)
 
 1. Añada una etiqueta y una descripción.
 
-   ![](assets/jo-message2.png)
+   ![](../assets/jo-message2.png)
 
 1. Haga clic dentro del **Mensaje** campo . Se muestra la lista de mensajes disponibles diseñados en Journey Optimizer. Puede filtrar la lista por estado.
 
-   ![](assets/jo-message3.png)
+   ![](../assets/jo-message3.png)
 
 1. Seleccione un mensaje y haga clic en **Select**. También puede crear un nuevo mensaje directamente desde esta pantalla haciendo clic en **Crear mensaje**.
 
-   ![](assets/jo-message4-ter.png)
+   ![](../assets/jo-message4-ter.png)
 
    Si desea comprobar el mensaje, puede hacer clic en el botón **Abrir el mensaje** en el **Mensaje** campo . El mensaje se abre en una pestaña nueva.
 
-   ![](assets/jo-message4-bis.png)
+   ![](../assets/jo-message4-bis.png)
 
 1. Añada los siguientes pasos a su recorrido.
 
@@ -51,7 +51,7 @@ Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción 
 
 La variable **[!UICONTROL Email parameters]** y **[!UICONTROL Push parameters]** las secciones muestran campos de solo lectura. Normalmente, se realiza esta configuración al crear el mensaje. Consulte [esta sección](../messages/get-started-content.md).
 
-![](assets/jo-message4.png)
+![](../assets/jo-message4.png)
 
 Para forzar un valor específico, puede usar la variable **Habilitar anulación de parámetros** a la derecha del campo . Esta opción puede resultar útil para varios fines:
 
@@ -105,7 +105,7 @@ Esta información se almacena con el perfil del usuario y se hace referencia a e
 
 Habilite la optimización del tiempo de envío en un mensaje push o de correo electrónico seleccionando la opción **Optimización del tiempo de envío** desde los parámetros de actividad Message .
 
-![](assets/jo-message5.png)
+![](../assets/jo-message5.png)
 
 En el caso de los mensajes de correo electrónico, seleccione si desea optimizar las aperturas de correo electrónico o las pulsaciones de correo electrónico seleccionando el botón de opción adecuado. Los mensajes push toman el valor predeterminado de la opción de aperturas, ya que los clics no son aplicables a la mensajería push.
 

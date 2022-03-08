@@ -6,21 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 9%
+source-wordcount: '315'
+ht-degree: 10%
 
 ---
 
 # Acerca del Editor de expresiones {#build-personalization-expressions}
 
->[!CONTEXTUALHELP]
->id="ajo_perso_editor"
->title="Acerca del Editor de expresiones"
->abstract="El Editor de expresiones permite seleccionar, organizar, personalizar y validar todos los datos para crear una personalización personalizada del contenido."
-
-El Editor de expresiones es la parte central de la personalización en [!DNL Journey Optimizer]. Está disponible en todos los contextos en los que es necesario definir la personalización como correos electrónicos, mensajes push y ofertas.
+El editor de expresiones es la parte central de la personalización en [!DNL Journey Optimizer]. Está disponible en todos los contextos en los que es necesario definir la personalización como correos electrónicos, mensajes push y ofertas.
 
 En la interfaz del editor de expresiones, se seleccionan, organizan, personalizan y validan todos los datos para crear una personalización personalizada para el contenido.
 
@@ -38,13 +33,13 @@ Las fuentes disponibles son:
 * **[!UICONTROL Contextual attributes]** : cuando la variable **Mensaje** se utiliza en un recorrido, los campos de recorrido contextual están disponibles a través de este menú. Obtenga más información en [esta sección](personalization-use-case.md).
 * **[!UICONTROL Helper functions]** : enumera todas las funciones de ayuda disponibles para realizar operaciones con datos, como cálculos, formato de datos o conversiones, condiciones y manipularlas en el contexto de la personalización. Obtenga más información en [esta sección](functions/functions.md).
 
-Haga clic en el botón + para añadir un atributo al editor.
+Al seleccionarla, la referencia se añade en el editor.
 
 >[!NOTE]
 >
->El menú elipse junto al icono &quot;+&quot; le permite obtener más detalles para cada variable y agregar los atributos usados con más frecuencia a [favoritos](personalization-favorites.md).
-
-![](assets/attribute-details.png)
+>El icono de información situado junto al icono &quot;+&quot; abre una información sobre herramientas que proporciona más detalles para cada variable.
+>
+>Puede agregar los atributos usados con más frecuencia a los favoritos. Obtenga más información en [esta sección](personalization-favorites.md).
 
 En el siguiente ejemplo, el editor de expresiones permite seleccionar los perfiles que tienen su cumpleaños hoy y luego completar la personalización insertando una oferta específica correspondiente a este día.
 

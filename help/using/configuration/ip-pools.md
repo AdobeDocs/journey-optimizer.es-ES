@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ Para crear un grupo de IP, siga estos pasos:
 
 1. Acceda a la **[!UICONTROL Channels]** / **[!UICONTROL IP pools]** a continuación, haga clic en **[!UICONTROL Create IP Pool]**.
 
-   ![](assets/ip-pool-create.png)
+   ![](../assets/ip-pool-create.png)
 
 1. Proporcione un nombre y una descripción (opcional) para el grupo de IP.
 
@@ -39,7 +39,7 @@ Para crear un grupo de IP, siga estos pasos:
 
 1. Seleccione las direcciones IP que desea incluir en el grupo en la lista desplegable y haga clic en **[!UICONTROL Submit]**.
 
-   ![](assets/ip-pool-config.png)
+   ![](../assets/ip-pool-config.png)
 
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ Para crear un grupo de IP, siga estos pasos:
 
 El grupo de IP ahora se crea y se muestra en la lista. Puede seleccionarlo para acceder a sus propiedades y mostrar el mensaje preestablecido asociado. Para obtener más información sobre cómo asociar un ajuste preestablecido de mensaje con un grupo de IP, consulte [esta sección](message-presets.md)).
 
-![](assets/ip-pool-created.png)
+![](../assets/ip-pool-created.png)
 
 ## Editar un grupo de IP {#edit-ip-pool}
 
@@ -55,15 +55,15 @@ Para editar un grupo de IP:
 
 1. En la lista, haga clic en el nombre del grupo de IP para abrirlo.
 
-   ![](assets/ip-pool-list.png)
+   ![](../assets/ip-pool-list.png)
 
 1. Edite sus propiedades como desee. Puede modificar la descripción y añadir o eliminar direcciones IP.
 
-   ![](assets/ip-pool-edit.png)
+   ![](../assets/ip-pool-edit.png)
 
    >[!CAUTION]
    >
-   >Tenga especial cuidado al considerar la eliminación de una IP, ya que esto pondrá una carga adicional en las otras IP y puede tener un impacto grave en su capacidad de envío. En caso de duda, póngase en contacto con un experto en entregas.
+   >Tenga especial cuidado al considerar la eliminación de una IP, ya que esto pondrá una carga adicional en las otras IP y puede tener un impacto grave en su capacidad de envío. En caso de duda, póngase en contacto con un experto en capacidad de entrega.
 
 1. Guarde los cambios.
 
@@ -78,7 +78,7 @@ La actualización es efectiva de forma inmediata o asincrónica, según el grupo
 
 Para comprobar el estado de actualización del grupo de IP, haga clic en el botón **[!UICONTROL More actions]** y seleccione **[!UICONTROL Recent updates]**.
 
-![](assets/ip-pool-recent-update.png)
+![](../assets/ip-pool-recent-update.png)
 
 >[!NOTE]
 >

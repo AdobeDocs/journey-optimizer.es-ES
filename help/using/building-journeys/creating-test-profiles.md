@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 4%
@@ -34,13 +34,13 @@ Para poder crear perfiles, primero debe crear un esquema y un conjunto de datos 
 Primero, debe **crear un esquema**. Siga estos pasos:
 
 1. En la sección de menú ADMINISTRACIÓN DE DATOS , haga clic en **[!UICONTROL Schemas]**.
-   ![](assets/test-profiles-0.png)
+   ![](../assets/test-profiles-0.png)
 1. Haga clic en **[!UICONTROL Create schema]**, en la parte superior derecha, seleccione un tipo de esquema, por ejemplo **Perfil individual XDM**.
-   ![](assets/test-profiles-1.png)
+   ![](../assets/test-profiles-1.png)
 1. Seleccione los grupos de campos correspondientes. Asegúrese de agregar la variable **Detalles de la prueba de perfil** grupo de campos.
-   ![](assets/test-profiles-1-ter.png)
+   ![](../assets/test-profiles-1-ter.png)
 Una vez finalizado, haga clic en **[!UICONTROL Add field groups]**: la lista de grupos de campos se muestra en la pantalla de descripción general del esquema.
-   ![](assets/test-profiles-2.png)
+   ![](../assets/test-profiles-2.png)
 
    >[!NOTE]
    >
@@ -50,11 +50,11 @@ Una vez finalizado, haga clic en **[!UICONTROL Add field groups]**: la lista de 
 
 
 1. En la lista de campos, haga clic en el campo que desee definir como identidad principal.
-   ![](assets/test-profiles-3.png)
+   ![](../assets/test-profiles-3.png)
 1. En el **[!UICONTROL Field properties]** panel derecho, marque **[!UICONTROL Identity]** y **[!UICONTROL Primary Identity]** y seleccione un área de nombres. Si desea que la identidad principal sea una dirección de correo electrónico, elija la **[!UICONTROL Email]** espacio de nombres. Haga clic en **[!UICONTROL Apply]**.
-   ![](assets/test-profiles-4bis.png)
+   ![](../assets/test-profiles-4bis.png)
 1. Seleccione el esquema y habilite el **[!UICONTROL Profile]** en la **[!UICONTROL Schema properties]** panel.
-   ![](assets/test-profiles-5.png)
+   ![](../assets/test-profiles-5.png)
 1. Haga clic en **Guardar**.
 
 >[!NOTE]
@@ -64,15 +64,15 @@ Una vez finalizado, haga clic en **[!UICONTROL Add field groups]**: la lista de 
 A continuación, debe **crear el conjunto de datos** en el que se importarán los perfiles. Siga estos pasos:
 
 1. Vaya a **[!UICONTROL Datasets]** y haga clic en **[!UICONTROL Create dataset]**.
-   ![](assets/test-profiles-6.png)
+   ![](../assets/test-profiles-6.png)
 1. Choose **[!UICONTROL Create dataset from schema]**.
-   ![](assets/test-profiles-7.png)
+   ![](../assets/test-profiles-7.png)
 1. Seleccione el esquema creado anteriormente y haga clic en **[!UICONTROL Next]**.
-   ![](assets/test-profiles-8.png)
+   ![](../assets/test-profiles-8.png)
 1. Elija un nombre y haga clic en **[!UICONTROL Finish]**.
-   ![](assets/test-profiles-9.png)
+   ![](../assets/test-profiles-9.png)
 1. Active la variable **[!UICONTROL Profile]** .
-   ![](assets/test-profiles-10.png)
+   ![](../assets/test-profiles-10.png)
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ A continuación, debe **crear el conjunto de datos** en el que se importarán lo
 
 Desde la página de inicio de Adobe Journey Optimizer, puede aprovechar los perfiles de prueba en el caso de uso del producto. Este caso de uso facilita la creación de perfiles de prueba utilizados para probar recorridos antes de la publicación.
 
-![](assets/use-cases-home.png)
+![](../assets/use-cases-home.png)
 
 Haga clic en el botón **[!UICONTROL Begin]** para iniciar el caso de uso.
 
@@ -119,11 +119,11 @@ Su recorrido estará compuesto por un **[!UICONTROL Read Segment]** y **[!UICONT
 > Ya que actualizará la variable **testProfile** , los perfiles seleccionados deben incluir este campo. El esquema relacionado debe tener la variable **Detalles de la prueba de perfil** grupo de campos. Consulte [esta sección](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
 
 1. Vaya a **Segmentos**, luego **Crear segmento**, en la parte superior derecha.
-   ![](assets/test-profiles-22.png)
+   ![](../assets/test-profiles-22.png)
 1. Defina un nombre para el segmento y genere el segmento: elija los campos y los valores para dirigirse a los perfiles que desee.
-   ![](assets/test-profiles-23.png)
+   ![](../assets/test-profiles-23.png)
 1. Haga clic en **Guardar** y compruebe que los perfiles estén correctamente dirigidos por el segmento.
-   ![](assets/test-profiles-24.png)
+   ![](../assets/test-profiles-24.png)
 
    >[!NOTE]
    >
@@ -131,13 +131,13 @@ Su recorrido estará compuesto por un **[!UICONTROL Read Segment]** y **[!UICONT
 
 1. Ahora cree un nuevo recorrido y comience con un **[!UICONTROL Read Segment]** actividad de organización.
 1. Elija el segmento creado anteriormente y el área de nombres que utilizan sus perfiles.
-   ![](assets/test-profiles-25.png)
+   ![](../assets/test-profiles-25.png)
 1. Agregue un **[!UICONTROL Update Profile]** actividad de acción.
 1. Seleccione el esquema, la variable **testProfiles** , el conjunto de datos y establezca el valor en **True**. Para ello, en la sección **[!UICONTROL VALUE]** , haga clic en el botón **Pluma** a la derecha, seleccione **[!UICONTROL Advanced mode]** y escriba **true**.
-   ![](assets/test-profiles-26.png)
+   ![](../assets/test-profiles-26.png)
 1. Agregue un **Fin** actividad y haga clic en **[!UICONTROL Publish]**.
 1. En el **[!UICONTROL Segments]** , compruebe que los perfiles se hayan actualizado correctamente.
-   ![](assets/test-profiles-28.png)
+   ![](../assets/test-profiles-28.png)
 
    >[!NOTE]
    >
@@ -149,24 +149,24 @@ En Adobe Experience Platform, puede crear perfiles cargando un archivo csv que c
 
 1. Cree un archivo csv simple usando un programa de hojas de cálculo.
 1. Agregue una columna para cada campo necesario. Asegúrese de agregar el campo de identidad principal (&quot;personID&quot; en nuestro ejemplo anterior) y el campo &quot;testProfile&quot; establecido en &quot;true&quot;.
-   ![](assets/test-profiles-11.png)
+   ![](../assets/test-profiles-11.png)
 1. Añada una línea por perfil y rellene los valores de cada campo.
-   ![](assets/test-profiles-12.png)
+   ![](../assets/test-profiles-12.png)
 1. Guarde la hoja de cálculo como archivo csv. Asegúrese de que las comas se utilizan como separadores.
 1. Vaya a Adobe Experience Platform **Flujos de trabajo**.
-   ![](assets/test-profiles-14.png)
+   ![](../assets/test-profiles-14.png)
 1. Choose **Asignación de CSV al esquema XDM** y haga clic en **Launch**.
-   ![](assets/test-profiles-16.png)
+   ![](../assets/test-profiles-16.png)
 1. Seleccione el conjunto de datos en el que desea importar los perfiles. Haga clic en **Siguiente**.
-   ![](assets/test-profiles-17.png)
+   ![](../assets/test-profiles-17.png)
 1. Haga clic en **Elegir archivos** y seleccione el archivo csv. Cuando se cargue el archivo, haga clic en **Siguiente**.
-   ![](assets/test-profiles-18.png)
+   ![](../assets/test-profiles-18.png)
 1. Asigne los campos csv de origen a los campos de esquema y haga clic en **Finalizar**.
-   ![](assets/test-profiles-19.png)
+   ![](../assets/test-profiles-19.png)
 1. Se inicia la importación de datos. El estado se moverá de **Procesamiento** a **Correcto**. Haga clic en **Vista previa del conjunto de datos**, en la parte superior derecha.
-   ![](assets/test-profiles-20.png)
+   ![](../assets/test-profiles-20.png)
 1. Compruebe que los perfiles de prueba se hayan añadido correctamente.
-   ![](assets/test-profiles-21.png)
+   ![](../assets/test-profiles-21.png)
 
 Se añaden los perfiles de prueba, que ahora se pueden utilizar al probar un recorrido. Consulte [esta sección](../building-journeys/testing-the-journey.md).
 >[!NOTE]

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -19,11 +19,11 @@ El impulso **[!UICONTROL Live report]** solo segmenta un envío push específico
 
 En el **[!UICONTROL Executions]** de la pestaña **[!UICONTROL Messages]** seleccione **[!UICONTROL Live view]** a continuación, en el menú avanzado del envío seleccionado, seleccione **[!UICONTROL Live report]**.
 
-![](assets/live_report_2.png)
+![](../assets/live_report_2.png)
 
 El impulso **[!UICONTROL Live report]** se divide en distintas utilidades que detallan el éxito y los errores de su envío. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](live-report.md#modify-dashboard).
 
-![](assets/live_report_3.png)
+![](../assets/live_report_3.png)
 
 **[!UICONTROL Push notification performance]** y **[!UICONTROL Push notification summary]** widgets detalla la información principal relativa al mensaje con gráficos y KPI:
 
@@ -57,7 +57,7 @@ La variable **[!UICONTROL Sending metrics - by push]** La tabla detalla el éxit
 
 * **[!UICONTROL Opens]**: Número de veces que se abrió un mensaje en una entrega.
 
-![](assets/live_report_4.png)
+![](../assets/live_report_4.png)
 
 La variable **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** y **[!UICONTROL Breakdown by platform]** gráficos y tablas detallan el éxito de la notificación push en función del sistema operativo.
 

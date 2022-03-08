@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 6%
@@ -24,6 +24,6 @@ Si detiene un recorrido, se detendrá permanentemente. Todas las personas que ci
 1. Antes de publicar el recorrido, compruebe que sea válido y que no haya ningún error. No podrá publicar un recorrido con errores. Consulte [esta sección](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). También se recomienda probar el recorrido antes de la publicación. Consulte [esta página](../building-journeys/testing-the-journey.md).
 1. Para publicar el recorrido, haga clic en el **[!UICONTROL Publish]** , se encuentra en el menú desplegable superior derecho.
 
-   ![](assets/journeyuc1_18.png)
+   ![](../assets/journeyuc1_18.png)
 
 Cuando se publica el recorrido, está en modo de solo lectura.

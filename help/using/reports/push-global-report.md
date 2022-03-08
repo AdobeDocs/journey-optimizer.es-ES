@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c50d73c8-d2ca-40a4-bec6-2ce8be814028
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 1%
@@ -19,11 +19,11 @@ El impulso **[!UICONTROL Global report]** solo segmenta un envío push específi
 
 En el **[!UICONTROL Executions]** de la pestaña **[!UICONTROL Messages]** seleccione **[!UICONTROL Global view]** a continuación, en el menú avanzado del envío seleccionado, seleccione **[!UICONTROL Global report]**.
 
-![](assets/global_report_11.png)
+![](../assets/global_report_11.png)
 
 El impulso **[!UICONTROL Global report]** se divide en distintas utilidades que detallan el éxito y los errores de su envío. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](global-report.md#modify-dashboard).
 
-![](assets/push_global_report.png)
+![](../assets/push_global_report.png)
 
 La variable **[!UICONTROL Push notification performance]** La utilidad detalla la información principal relativa a las notificaciones push con KPI:
 
@@ -51,6 +51,6 @@ La variable **[!UICONTROL Push notification summary]** El gráfico contiene los 
 
 La variable **[!UICONTROL Error Reasons]** El gráfico y la tabla permiten ver qué error se produjo durante el envío.
 
-![](assets/push_global_report_2.png)
+![](../assets/push_global_report_2.png)
 
 La variable **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** y **[!UICONTROL Breakdown by platform]** gráficos y tablas detallan el éxito de la notificación push en función del sistema operativo del destinatario.

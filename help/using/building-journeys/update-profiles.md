@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,6 @@ La variable **[!UICONTROL Update Profile]** la actividad de acción le permite a
 * No puede usar la variable **Actualizar perfil** acción para generar eventos de experiencia, por ejemplo una compra.
 * Al igual que cualquier otra acción, puede definir una ruta alternativa en caso de error o de tiempo de espera y no puede colocar dos acciones en paralelo.
 * La solicitud de actualización enviada a Platform será rápida, pero no inmediata/en un segundo. Se tardará normalmente unos segundos, pero a veces más sin garantía. Como resultado, por ejemplo, si una acción utiliza el &quot;campo 1&quot; actualizado por una acción Actualizar perfil colocada justo antes, no debería esperar que el &quot;campo 1&quot; se actualice en la acción .
-* La variable **Actualizar perfil** la actividad no admite campos XDM definidos como una enumeración.
 
 ## Uso del modo de prueba {#using-the-test-mode}
 
@@ -40,13 +39,13 @@ Para obtener más información sobre cómo convertir un perfil existente en un p
 
 1. En el **Acción** de la paleta **Actualizar perfil** actividad en el lienzo.
 
-   ![](assets/profileupdate0.png)
+   ![](../assets/profileupdate0.png)
 
 1. Seleccione un esquema de la lista.
 
 1. Haga clic en **Campo** para seleccionar el campo que desea actualizar. Solo se puede seleccionar un campo.
 
-   ![](assets/profileupdate2.png)
+   ![](../assets/profileupdate2.png)
 
 1. Seleccione un conjunto de datos de la lista.
 
@@ -58,12 +57,12 @@ Para obtener más información sobre cómo convertir un perfil existente en un p
 
    * Con el editor de expresiones simple, se puede seleccionar un campo de un origen de datos o del evento entrante.
 
-      ![](assets/profileupdate4.png)
+      ![](../assets/profileupdate4.png)
 
    * Si desea definir un valor específico o aprovechar las funciones avanzadas, haga clic en **Modo avanzado**.
 
-      ![](assets/profileupdate3.png)
+      ![](../assets/profileupdate3.png)
 
 La variable **Actualizar perfil** ya está configurado.
 
-![](assets/profileupdate1.png)
+![](../assets/profileupdate1.png)

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
-source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Si un recorrido publica un mensaje pero aún no lo ha activado, no aparece en ni
 >
 >Si se ha utilizado un mensaje en varios recorridos, se muestra una fila por recorrido para cada ejecución.
 
-De forma predeterminada, los mensajes se muestran a partir de la fecha de ejecución más reciente. Haga clic en el **[!UICONTROL Filters]** para buscar en los mensajes según el canal, la fecha de inicio o la fecha de finalización. También puede elegir excluir los eventos de prueba de su **Lista de ejecuciones**.
+De forma predeterminada, los mensajes se muestran a partir de la fecha de ejecución más reciente. Haga clic en el **[!UICONTROL Filters]** para buscar en los mensajes según el canal, la fecha de inicio o la fecha de finalización.
 
 ![](assets/message-execution-tab-filters.png)
 

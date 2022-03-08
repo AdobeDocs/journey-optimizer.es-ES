@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 0%
+source-wordcount: '239'
+ht-degree: 1%
 
 ---
 
@@ -27,28 +27,26 @@ Utilice la variable **[!UICONTROL Global report]** para medir el impacto de los 
 
 ## Personalizar tablero {#modify-dashboard}
 
-Cada tablero de informes se puede modificar cambiando el período de tiempo y cambiando el tamaño o eliminando las utilidades. Cambiar las utilidades solo afecta al tablero del usuario actual. Otros usuarios verán sus propios tableros o los que estén configurados de forma predeterminada.
+Cada tablero de informes se puede modificar modificando o eliminando las utilidades o cambiando el lapso de tiempo de destino. Cambiar las utilidades solo afecta al tablero del usuario actual. Otros usuarios verán sus propios tableros o los que estén configurados de forma predeterminada.
 
-1. En el informe Global , seleccione una Hora de inicio y una de finalización para dirigirse a datos específicos.
+1. Desde su **[!UICONTROL Global report]** tablero, haga clic en el botón planificador.
 
-   ![](assets/report_modify_1.png)
+1. Seleccione las fechas de inicio y finalización. Puede ajustar aún más los informes seleccionando una **[!UICONTROL Start time]** y **[!UICONTROL End time]**.
 
-1. Elija si desea excluir los eventos de prueba de los informes con la barra de alternancia. Para obtener más información sobre los eventos de prueba, consulte [esta página](../building-journeys/testing-the-journey.md).
+   ![](../assets/global_report_6.png)
 
-   ![](assets/report_modify_2.png)
+1. click **[!UICONTROL Modify]**.
 
-1. Haga clic en **[!UICONTROL Modify]** para comenzar a personalizar el tablero.
-
-   ![](assets/report_modify_3.png)
+   ![](../assets/global_report_8.png)
 
 1. Ajuste el tamaño de los widgets arrastrando su esquina inferior derecha.
 
-   ![](assets/report_modify_4.png)
+   ![](../assets/global_report_9.png)
 
-1. Haga clic en **[!UICONTROL Remove]** para quitar cualquier utilidad que no necesite.
+1. Haga clic en **[!UICONTROL Remove]** para eliminar otras utilidades que no necesite para rastrear devoluciones.
 
-   ![](assets/report_modify_5.png)
+   ![](../assets/global_report_10.png)
 
 1. Una vez que esté satisfecho con el orden de visualización y el tamaño de sus widgets, haga clic en **[!UICONTROL Save]**.
 
-El tablero se ha guardado. Los diferentes cambios se volverán a aplicar para un uso posterior de los informes activos. Si es necesario, use la variable **[!UICONTROL Reset]** para restaurar el orden predeterminado de las utilidades y utilidades.
+El tablero se ha guardado. Los diferentes cambios se volverán a aplicar para un uso posterior de los informes globales. Si es necesario, use la variable **[!UICONTROL Reset]** para restaurar el orden predeterminado de las utilidades y utilidades.

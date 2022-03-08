@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
-source-git-commit: 87b8056d26fe91a71e92ca346a9811c609d41128
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 10%
+source-wordcount: '76'
+ht-degree: 15%
 
 ---
 
@@ -32,7 +32,7 @@ Cadena
 | Parámetro | Tipo |
 |-----------|--------------|
 | base | string |
-| Target | string (RegExp) |
+| Target | string |
 | reemplazo | string |
 
 ## Firma y tipo devuelto
@@ -41,28 +41,8 @@ Cadena
 
 Devuelve una cadena.
 
-## Ejemplo 1
+## Ejemplo
 
 `replace("Hello World", "l", "x")`
 
 Devuelve &quot;Hexlo World&quot;.
-
-## Ejemplo 2 {#example_2}
-
-Como el parámetro de destino es un RegExp, según la cadena que desee reemplazar, es posible que tenga que escapar algunos caracteres. Vea el siguiente ejemplo:
-
-* cadena que se va a evaluar: `|OFFER_A|OFFER_B`
-* proporcionado por un atributo de perfil `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
-* Cadena que se va a reemplazar: `|OFFER_A`
-* Cadena reemplazada por: `''`
-* Debe añadir `\\` antes de que `|` carácter.
-
-La expresión es:
-
-`replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|OFFER_A', '')`
-
-La cadena devuelta es: `|OFFER_B`
-
-También puede crear la cadena que desea reemplazar desde un atributo determinado:
-
-`replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|' + #{ExperiencePlatform.myFieldGroup.profile.myOfferCode}, '')`

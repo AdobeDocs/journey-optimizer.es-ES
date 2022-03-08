@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para ofrecer experiencias conectadas, contextuales y personalizadas a los clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f2267f82453cc00be86f1a279496aaf4e9218c5f
+source-git-commit: dcadbbcf8b2cd8422a189b8d02f222f32dd12c54
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '921'
 ht-degree: 98%
 
 ---
@@ -48,6 +48,15 @@ ht-degree: 98%
       + [Comprobación de alertas](using/messages/alerts.md)
       + [Publicación de mensajes](using/messages/publish-manage-message.md)
    + [Administración del consentimiento](using/messages/consent.md)
++ Páginas de destino {#landing-pages}
+   + [Introducción a las páginas de destino](using/landing-pages/get-started-lp.md)
+   + [Creación de una página de destino](using/landing-pages/create-lp.md)
+   + [Diseño de una página de destino](using/landing-pages/design-lp.md)
+   + [Creación de una lista de suscripción](using/landing-pages/subscription-list.md)
+   + [Casos de uso](using/landing-pages/lp-use-cases.md)
+   + Informes {#lp-reporting}
+      + [Informes de página de destino](using/landing-pages/lp-report.md)
+      + [Informes de la lista de suscripciones](using/landing-pages/subscription-report.md)
 + Personalización{#personalization}
    + [Introducción  a la personalización](using/personalization/personalize.md)
    + [Contextos de personalización](using/personalization/personalization-contexts.md)
@@ -56,7 +65,6 @@ ht-degree: 98%
       + Trabajo con el Editor de expresiones {#expression-editor}
          + [Acerca del Editor de expresiones](using/personalization/personalization-build-expressions.md)
          + [Adición de atributos a favoritos](using/personalization/personalization-favorites.md)
-         + [Trabajar con expresiones guardadas](using/personalization/personalization-library.md)
          + [Validación de personalización](using/personalization/personalization-validation.md)
       + Funciones de ayuda{#functions}
          + [Introducción a las funciones de ayuda](using/personalization/functions/functions.md)
@@ -224,15 +232,6 @@ ht-degree: 98%
       + [Introducción a la capacidad de entrega](using/messages/deliverability.md)
       + [Lista de supresión](using/messages/suppression-list.md)
       + [Lista de permitidos](using/messages/allow-list.md)
-+ Páginas de destino {#landing-pages}
-   + [Introducción a las páginas de destino](using/landing-pages/get-started-lp.md)
-   + [Creación de una página de destino](using/landing-pages/create-lp.md)
-   + [Diseño de una página de destino](using/landing-pages/design-lp.md)
-   + [Creación de una lista de suscripción](using/landing-pages/subscription-list.md)
-   + [Casos de uso](using/landing-pages/lp-use-cases.md)
-   + Informes {#lp-reporting}
-      + [Informes de página de destino](using/landing-pages/lp-report.md)
-      + [Informes de la lista de suscripciones](using/landing-pages/subscription-report.md)
 + Administración de decisiones {#offer-decisioniong}
    + Introducción a la Administración de decisiones {#get-started-decision}
       + [Acerca de la Administración de decisiones](using/offers/get-started/starting-offer-decisioning.md)
@@ -338,6 +337,7 @@ ht-degree: 98%
          + [Cambiar la dirección principal del correo electrónico](using/configuration/primary-email-addresses.md)
       + [Configuración del canal de SMS](using/configuration/sms-configuration.md)
       + [Crear ajustes preestablecidos de mensaje](using/configuration/message-presets.md)
+   + [Configuración de las páginas de destino](using/configuration/lp-configuration.md)
    + Configurar recorridos {#configure-journeys}
       + [Acerca de las fuentes de datos, los eventos y las acciones](using/configuration/about-data-sources-events-actions.md)
       + [Integración con sistemas externos](using/configuration/external-systems.md)

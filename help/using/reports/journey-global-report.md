@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Se puede acceder al informe global de recorrido directamente desde el recorrido con la variable **[!UICONTROL Global report]** botón.
 
-![](assets/global_report_1.png)
+![](../assets/global_report_1.png)
 
 El recorrido **[!UICONTROL Global report]** se muestra con las siguientes pestañas:
 
@@ -31,7 +31,7 @@ El recorrido **[!UICONTROL Global report]** se divide en distintas utilidades qu
 
 Desde su recorrido **[!UICONTROL Global report]**, el **[!UICONTROL Journey]** le proporciona una vista clara de los datos de seguimiento más importantes sobre su recorrido.
 
-![](assets/global_report_2.png)
+![](../assets/global_report_2.png)
 
 La variable **[!UICONTROL Journey Performance]** permite ver la ruta de los perfiles de destino paso a paso a través del recorrido.
 
@@ -43,11 +43,11 @@ La variable **[!UICONTROL Journey Statistics]** muestra los siguientes KPI:
 
 * **[!UICONTROL Failed individual journey]**: Número total de recorridos individuales que no se ejecutaron correctamente.
 
-![](assets/global_report_12.png)
+![](../assets/global_report_12.png)
 
 La variable **[!UICONTROL Events received by event]**, **[!UICONTROL Events by origin]** y **[!UICONTROL Top events]** las utilidades permiten ver cuál de sus **[!UICONTROL Events]** se ejecutó correctamente mediante gráficos y tablas.
 
-![](assets/global_report_13.png)
+![](../assets/global_report_13.png)
 
 **[!UICONTROL Action Performance]**, **[!UICONTROL Action Error Reasons]** y **[!UICONTROL Top Actions]** las utilidades representan la acción más exitosa y los errores que se produjeron al **[!UICONTROL Actions]** se activaron.
 
@@ -63,7 +63,7 @@ Desde su recorrido **[!UICONTROL Global report]**, el **[!UICONTROL Email]** La 
 
 Para obtener un informe detallado sobre un envío de correo electrónico específico, consulte la [Informe global de correo electrónico](#email-global-report) para obtener más información.
 
-![](assets/global_report_14.png)
+![](../assets/global_report_14.png)
 
 La variable **[!UICONTROL Email Sending Statistics]** graph detalla el éxito de la entrega:
 
@@ -107,7 +107,7 @@ La variable **[!UICONTROL Sending Statistics]** El gráfico contiene los datos d
 
 * **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
 
-![](assets/global_report_15.png)
+![](../assets/global_report_15.png)
 
 La variable **[!UICONTROL Bounce Reasons]** y **[!UICONTROL Bounce categories]** los widgets contienen los datos disponibles relacionados con los mensajes devueltos, como:
 
@@ -119,37 +119,14 @@ La variable **[!UICONTROL Bounce Reasons]** y **[!UICONTROL Bounce categories]**
 
 Para obtener más información sobre las devoluciones, consulte la sección [Lista de supresión](../messages/suppression-list.md) página.
 
-![](assets/global_report_22.png)
-
-La variable **[!UICONTROL Error Reasons]** El gráfico y la tabla permiten ver qué error se produjo durante el envío.
-
-La variable **[!UICONTROL Excluded reasons]** en el gráfico y la tabla se muestran las diferentes razones que impidieron que los perfiles de usuario, excluidos de los perfiles de destino, recibieran el mensaje.
-
-![](assets/global_report_16.png)
+![](../assets/global_report_16.png)
 
 La variable **[!UICONTROL Email - Top Url]** gráfico y tabla detallan las direcciones URL de su envío que son las más visitadas.
 
 La variable **[!UICONTROL Email - Top recipient domain]** gráfico y tabla detallan qué dominios son los más utilizados por los destinatarios para abrir el correo electrónico.
 
-![](assets/global_report_23.png)
-
->[!NOTE]
->
->La variable **[!UICONTROL Optimized vs non optimized]** y **[!UICONTROL Send time optimization]**  las utilidades solo están disponibles si la opción de optimización del tiempo de envío está activada para la entrega. Para obtener más información sobre la optimización del tiempo de envío, consulte esta [página](../building-journeys/journeys-message.md#send-time-optimization).
-
-La variable **[!UICONTROL Optimized vs non optimized]** graph detalla la información principal relativa al mensaje, independientemente de si están optimizados o no:
-
-* **[!UICONTROL Sent]**: Número total de envíos para la entrega.
-* **[!UICONTROL Opens]**: Número de veces que se abrió la entrega en una entrega.
-* **[!UICONTROL Clicks]**: Número de veces que se hizo clic en un contenido en un correo electrónico.
-
-La variable **[!UICONTROL Send time optimization]** detalla el éxito de la entrega en función del método de envío: optimizado o normal.
-
-* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.
-* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados.
-
 <!--
-![](assets/global_report_21.png)
+![](../assets/global_report_21.png)
 
 >[!NOTE]
 >
@@ -182,7 +159,7 @@ Desde su recorrido **[!UICONTROL Global report]**, el **[!UICONTROL Push]** deta
 
 Para obtener un informe detallado sobre una entrega push específica, consulte esta sección [Insertar informe global](#push-global-report).
 
-![](assets/global_report_17.png)
+![](../assets/global_report_17.png)
 
 La variable **[!UICONTROL Push notification - Sending statistics]** la tabla detalla la información principal relativa a las notificaciones push con gráficos y KPI:
 
@@ -224,25 +201,10 @@ La variable **[!UICONTROL Push notification summary]** El gráfico contiene los 
 
 * **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
 
->[!NOTE]
->
->La variable **[!UICONTROL Optimized vs non optimized]** y **[!UICONTROL Send time optimization]**  las utilidades solo están disponibles si la opción de optimización del tiempo de envío está activada para la entrega. Para obtener más información sobre la optimización del tiempo de envío, consulte esta [página](../building-journeys/journeys-message.md#send-time-optimization).
-
-La variable **[!UICONTROL Optimized vs non optimized]** graph detalla la información principal relativa al mensaje, independientemente de si están optimizados o no:
-
-* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.
-* **[!UICONTROL Opens]**: Número de veces que se abrió la entrega en una entrega.
-* **[!UICONTROL Actions]**: Número total de acciones realizadas en la notificación push entregada, por ejemplo, hacer clic en un botón o rechazar una solicitud.
-
-La variable **[!UICONTROL Send time optimization]** detalla el éxito de la entrega en función del método de envío: optimizado o normal.
-
-* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.
-* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados.
-
-![](assets/global_report_18.png)
+![](../assets/global_report_18.png)
 
 La variable **[!UICONTROL Error Reasons]** El gráfico y la tabla permiten ver qué error se produjo durante el envío.
 
-![](assets/global_report_19.png)
+![](../assets/global_report_19.png)
 
 La variable **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** y **[!UICONTROL Breakdown by platform]** gráficos y tablas detallan el éxito de la notificación push en función del sistema operativo del destinatario.

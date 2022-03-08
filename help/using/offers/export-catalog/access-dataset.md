@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 10%
@@ -17,14 +17,14 @@ ht-degree: 10%
 
 Se puede acceder al catálogo de ofertas exportado desde Adobe Experience Platform **[!UICONTROL Datasets]** para abrir el Navegador. Se crea un conjunto de datos para cada objeto de la biblioteca de ofertas.
 
-![](../assets/datasets-list.png)
+![](../../assets/datasets-list.png)
 
 Haga clic en un conjunto de datos para acceder a sus detalles.
 
-![](../assets/dataset-activity.png)
+![](../../assets/dataset-activity.png)
 
 La variable **[!UICONTROL Preview dataset]** permite mostrar el lote de resultados más reciente en el conjunto de datos. El panel izquierdo proporciona información sobre los tipos de datos que se han exportado.
 
-![](../assets/dataset-preview.png)
+![](../../assets/dataset-preview.png)
 
 Para obtener más información sobre cómo examinar y utilizar conjuntos de datos, consulte [esta página](../../start/get-started-datasets.md).

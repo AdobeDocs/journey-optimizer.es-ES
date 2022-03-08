@@ -5,7 +5,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 8%
@@ -20,7 +20,7 @@ Aproveche el perfil del cliente en tiempo real en [!DNL Adobe Journey Optimizer]
 >
 >Si su organización es nueva en [!DNL Adobe Journey Optimizer] y aún no tiene conjuntos de datos de perfil activos o políticas de combinación creadas, la variable **Perfiles** tablero no está visible. En su lugar, la variable **Información general** muestra vínculos a la documentación de Adobe Experience Platform para ayudarle a empezar con el perfil del cliente en tiempo real.
 
-![](assets/profiles-home.png)
+![](../assets/profiles-home.png)
 
 Para aprender a acceder y trabajar con **Panel de perfiles** y información detallada sobre las métricas mostradas en el panel, consulte [esta sección](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es){target=&quot;_blank&quot;}.
 

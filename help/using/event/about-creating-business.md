@@ -1,12 +1,12 @@
 ---
 title: Configuración de un evento empresarial
-description: Learn how to create a business event
+description: Aprenda a crear un evento empresarial
 feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 12%
@@ -15,124 +15,124 @@ ht-degree: 12%
 
 # Configuración de un evento empresarial {#configure-a-business-event}
 
-Unlike unitary events, business events are not linked to a specific profile. The event ID type is always rule-based. [](../event/about-events.md)
+A diferencia de los eventos unitarios, los eventos comerciales no están vinculados a un perfil específico. El tipo de ID de evento siempre se basa en reglas. Obtenga más información sobre los eventos empresariales en [esta sección](../event/about-events.md).
 
-Read segment based journeys can be triggered in one-shot, by a scheduler on a regular basis or by a business event, when the event occurs.
+Los recorridos basados en segmentos de lectura se pueden activar en una sola toma, por un programador de forma regular o por un evento comercial, cuando se produce el evento.
 
-Business events can be &quot;a product is back in stock&quot;, &quot;the stock price of a company reaches a certain value”, etc.
+Los eventos comerciales pueden ser &quot;un producto vuelve a estar en existencias&quot;, &quot;el precio de las acciones de una empresa alcanza cierto valor&quot;, etc.
 
 >[!NOTE]
 >
->[](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html)
+>También puede ver el caso de uso de evento empresarial [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
 
 ## Notas importantes {#important-notes}
 
-* Only time series schemas are available. Experience Events, Decision Events and Journey Step Events schemas are not available. The event schema must contain a primary identity. `_id``timestamp`
-* Business events can only be dropped as the first step of a journey.
-* When dropping a business event as the first step of a journey, the scheduler type of the journey will be &quot;business event&quot;.
-* Only a read segment activity can be dropped after a business event. It is automatically added as the next step.
-* **[!UICONTROL Execution]**
-* After a business event is triggered, there will be a delay to have the segment exported from 15 minutes to up to one hour.
-* When testing a business event, you have to pass the event parameters and the identifier of the test profile that will enter the journey in test. Also, when testing a business event based journey, you can only trigger single profile entrance. Consulte [esta sección](../building-journeys/testing-the-journey.md#test-business). In test mode, there is no &quot;Code view&quot; mode available.
-* What happens to individuals that are currently in the journey if a new business event arrives? It behaves the same way as when individuals are still in a recurring journey when a new recurrence happens. Their path is ended. As a result, marketers must pay attention to avoid building too long journeys if they expect frequent business events.
+* Solo están disponibles los esquemas de series temporales. Los esquemas de eventos de experiencia, eventos de decisión y eventos de paso de Recorrido no están disponibles. El esquema de evento debe contener una identidad principal. Los campos siguientes deben definirse según sea necesario: `_id` y `timestamp`
+* Los eventos comerciales solo se pueden eliminar como el primer paso de un recorrido.
+* Al soltar un evento empresarial como el primer paso de un recorrido, el tipo de programador del recorrido será &quot;evento empresarial&quot;.
+* Solo se puede perder una actividad de segmento de lectura después de un evento comercial. Se añade automáticamente como el siguiente paso.
+* Para permitir varias ejecuciones de eventos empresariales, active la opción correspondiente en la **[!UICONTROL Execution]** de las propiedades del recorrido.
+* Una vez activado un evento empresarial, se producirá un retraso para que el segmento se exporte de 15 minutos a una hora.
+* Al probar un evento comercial, debe pasar los parámetros de evento y el identificador del perfil de prueba que va a introducir el recorrido en la prueba. Además, al probar un recorrido basado en eventos empresariales, solo puede almacenar en déclencheur la entrada de perfil único. Consulte [esta sección](../building-journeys/testing-the-journey.md#test-business). En el modo de prueba, no hay ningún modo &quot;Vista de código&quot; disponible.
+* ¿Qué les sucede a las personas que están actualmente en el recorrido si llega un nuevo evento de negocios? Se comporta de la misma manera que cuando las personas siguen en un recorrido recurrente cuando ocurre una nueva recurrencia. Su camino ha terminado. Como resultado, los especialistas en marketing deben prestar atención para evitar generar recorridos demasiado largos si esperan eventos comerciales frecuentes.
 
-## Multiple business events {#multiple-business-events}
+## Varios eventos comerciales {#multiple-business-events}
 
-Here are a few important notes that apply when multiple business events are received in a row.
+Estas son algunas notas importantes que se aplican cuando se reciben varios eventos comerciales seguidos.
 
-****
+**¿Cuál es el comportamiento al recibir un evento comercial mientras el recorrido se está procesando?**
 
-Business events follow re-entrance rules in the same way as for unitary events. If a journey allows re-entrance, the next business event will be processed.
+Los eventos comerciales siguen las reglas de reentrada de la misma manera que para los eventos unitarios. Si un recorrido permite la reentrada, se procesará el siguiente evento comercial.
 
-****
+**¿Cuáles son las barreras para evitar la sobrecarga de segmentos materializados?**
 
-In the case of on-shot business events, for a given journey, data pushed by the first event job is reused during a 1-hour time window. For scheduled journeys, there is no guardrail. [](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
+En el caso de los eventos empresariales sin conexión, para un recorrido determinado, los datos impulsados por el primer trabajo de evento se reutilizan durante un periodo de tiempo de 1 hora. No hay protección para los recorridos programados. Obtenga más información sobre los segmentos en la [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
-## Get started with business events {#gs-business-events}
+## Introducción a los eventos empresariales {#gs-business-events}
 
-Here are the first steps to configure a business event:
+Estos son los primeros pasos para configurar un evento empresarial:
 
-1. **[!UICONTROL Configurations]** **[!UICONTROL Events]****[!UICONTROL Manage]** Se muestra la lista de eventos.
+1. En la sección del menú ADMINISTRACIÓN , seleccione **[!UICONTROL Configurations]**. En el  **[!UICONTROL Events]** , haga clic en **[!UICONTROL Manage]**. Se muestra la lista de eventos.
 
-   ![](assets/jo-event1.png)
+   ![](../assets/jo-event1.png)
 
 1. Haga clic en **[!UICONTROL Create Event]** para crear un nuevo evento. El panel de configuración de evento se abre en el lado derecho de la pantalla.
 
-   ![](assets/jo-event2.png)
+   ![](../assets/jo-event2.png)
 
-1. Enter the name of your event. You can also add a description.
+1. Introduzca el nombre del evento. También puede agregar una descripción.
 
-   ![](assets/jo-event3-business.png)
+   ![](../assets/jo-event3-business.png)
 
    >[!NOTE]
    >
    >No utilice espacios ni caracteres especiales. No utilice más de 30 caracteres.
 
-1. **[!UICONTROL Type]******
+1. En el **[!UICONTROL Type]** , elija **Empresa**.
 
-   ![](assets/jo-event3bis-business.png)
+   ![](../assets/jo-event3bis-business.png)
 
 1. El número de recorridos que utiliza este evento se muestra en el campo **[!UICONTROL Used in]**. Puede hacer clic en el icono **[!UICONTROL View journeys]** para mostrar la lista de los recorridos con este evento.
 
-1. Define the schema and payload fields: this is where you select the event information (usually called a payload) journeys expects to receive. Podrá utilizar esta información en su recorrido. Consulte [esta sección](../event/about-creating-business.md#define-the-payload-fields).
+1. Defina los campos esquema y carga útil: aquí es donde selecciona la información de evento (generalmente denominada carga útil) que los recorridos esperan recibir. Podrá utilizar esta información en su recorrido. Consulte [esta sección](../event/about-creating-business.md#define-the-payload-fields).
 
-   ![](assets/jo-event5-business.png)
+   ![](../assets/jo-event5-business.png)
 
-   Only time series schemas are available. Experience Events, Decision Events and Journey Step Events schemas are not available. The event schema must contain a primary identity. `_id``timestamp`
+   Solo están disponibles los esquemas de series temporales. Los esquemas de eventos de experiencia, eventos de decisión y eventos de paso de Recorrido no están disponibles. El esquema de evento debe contener una identidad principal. Los campos siguientes deben definirse según sea necesario: `_id` y `timestamp`
 
-   ![](assets/test-profiles-4.png)
+   ![](../assets/test-profiles-4.png)
 
-1. **[!UICONTROL Event ID condition]** Using the simple expression editor, define the condition that will be used by the system to identify the events that will trigger your journey.
-   ![](assets/jo-event6-business.png)
+1. Haga clic dentro del **[!UICONTROL Event ID condition]** campo . Con el editor de expresiones simple, defina la condición que utilizará el sistema para identificar los eventos que van a almacenar en déclencheur el recorrido.
+   ![](../assets/jo-event6-business.png)
 
-   In our example, we wrote a condition based on the product&#39;s id. This means that whenever the system receives an event that matches this condition, it will pass it to journeys.
+   En nuestro ejemplo, escribimos una condición basada en el ID del producto. Esto significa que, cada vez que el sistema recibe un evento que coincide con esta condición, lo pasa a los recorridos.
 
    >[!NOTE]
    >
-   >In the simple expression editor, not all operators are available, they depend on the data type. For example, for a string type of field, you can use &quot;contains&quot; or &quot;equal to&quot;.
+   >En el editor de expresiones simple, no todos los operadores están disponibles, dependen del tipo de datos. Por ejemplo, para un tipo de cadena de campo, puede utilizar &quot;contiene&quot; o &quot;igual a&quot;.
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-   ![](assets/journey7-business.png)
+   ![](../assets/journey7-business.png)
 
    El evento está ahora configurado y listo para añadirse a un recorrido. Se requieren pasos de configuración adicionales para recibir eventos. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).
 
-## Define the payload fields {#define-the-payload-fields}
+## Definición de los campos de carga útil {#define-the-payload-fields}
 
-The payload definition allows you to choose the information the system expects to receive from the event in your journey and the key to identify which person is associated to the event. The payload is based on the Experience Cloud XDM field definition. [](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)
+La definición de carga útil permite elegir la información que el sistema espera recibir del evento en el recorrido y la clave para identificar qué persona está asociada al evento. La carga útil se basa en la definición del campo XDM del Experience Cloud. Para obtener más información sobre XDM, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
 
-1. **[!UICONTROL Fields]****[!UICONTROL Edit]**
+1. Seleccione un esquema XDM de la lista y haga clic en el **[!UICONTROL Fields]** o en el **[!UICONTROL Edit]** icono.
 
-   ![](assets/journey8-business.png)
+   ![](../assets/journey8-business.png)
 
-   All the fields defined in the schema are displayed. The list of fields varies from one schema to another. You can search for a specific field or use the filters to display all nodes and fields or only the selected fields. According to the schema definition, some fields may be mandatory and pre-selected. You cannot unselect them. All fields that are mandatory for the event to be received properly by journeys are selected by default.
+   Se muestran todos los campos definidos en el esquema . La lista de campos varía de un esquema a otro. Puede buscar un campo específico o utilizar los filtros para mostrar todos los nodos y campos o solo los campos seleccionados. Según la definición del esquema, algunos campos pueden ser obligatorios y estar preseleccionados. No puede desseleccionarlos. Todos los campos obligatorios para que los recorridos reciban el evento correctamente están seleccionados de forma predeterminada.
 
-   ![](assets/journey9-business.png)
+   ![](../assets/journey9-business.png)
 
    >[!NOTE]
    >
-   > `_id``timestamp`
+   > Asegúrese de que los campos siguientes estén seleccionados: `_id` y `timestamp`
 
-1. Select the fields you expect to receive from the event. These are the fields which the business user will leverage in the journey.
+1. Seleccione los campos que espera recibir del evento. Estos son los campos que el usuario empresarial aprovechará en el recorrido.
 
-1. **[!UICONTROL Save]****[!UICONTROL Enter]**
+1. Cuando haya terminado de seleccionar los campos necesarios, haga clic en **[!UICONTROL Save]** o presione **[!UICONTROL Enter]**.
 
-   **[!UICONTROL Fields]**
+   El número de campos seleccionados aparece en el **[!UICONTROL Fields]** campo .
 
-   ![](assets/journey12-business.png)
+   ![](../assets/journey12-business.png)
 
-## Preview the payload {#preview-the-payload}
+## Vista previa de la carga útil {#preview-the-payload}
 
-The payload preview allows you to validate the payload definition.
+La previsualización de carga útil permite validar la definición de carga útil.
 
-1. **[!UICONTROL View Payload]**
+1. Haga clic en el **[!UICONTROL View Payload]** para obtener una vista previa de la carga útil esperada por el sistema.
 
-   ![](assets/journey13-business.png)
+   ![](../assets/journey13-business.png)
 
-   You can notice that the fields selected are displayed.
+   Puede observar que se muestran los campos seleccionados.
 
-   ![](assets/journey14-business.png)
+   ![](../assets/journey14-business.png)
 
-1. Check the preview to validate the payload definition.
+1. Compruebe la previsualización para validar la definición de carga útil.
 
-1. Then, you can share the payload preview with to the person responsible for the event sending. [!DNL Journey Optimizer] Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. A continuación, puede compartir la previsualización de la carga útil con la persona responsable del envío del evento. Esta carga útil puede ayudarles a diseñar la configuración de un evento que se esté insertando en [!DNL Journey Optimizer]. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).

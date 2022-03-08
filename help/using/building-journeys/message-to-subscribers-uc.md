@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 5%
@@ -19,7 +19,7 @@ El propósito de este caso de uso es crear un recorrido para enviar un mensaje a
 
 En este ejemplo, la variable **[!UICONTROL Consent and Preference Details]** grupo de campos de [!DNL Adobe Experience Platform] se utiliza. Para encontrar este grupo de campos, en la sección **[!UICONTROL Data Management]** , elija **[!UICONTROL Schemas]**. En el **[!UICONTROL Field groups]** , introduzca el nombre del grupo de campos en el campo de búsqueda.
 
-![Este grupo de campos incluye el elemento subscriptions](assets/consent-and-preference-details-field-group.png)
+![Este grupo de campos incluye el elemento subscriptions](../assets/consent-and-preference-details-field-group.png)
 
 Para configurar este recorrido, siga estos pasos:
 
@@ -29,7 +29,7 @@ Para configurar este recorrido, siga estos pasos:
 
    1. Haga clic en el **[!UICONTROL Enable parameter override]** a la derecha de **[!UICONTROL Address]** y, a continuación, haga clic en la **[!UICONTROL Edit]** icono.
 
-      ![](assets/message-to-subscribers-uc-1.png)
+      ![](../assets/message-to-subscribers-uc-1.png)
 
       Para poder modificar la dirección de correo electrónico, debe haber publicado previamente el mensaje.
 
@@ -52,10 +52,10 @@ Para configurar este recorrido, siga estos pasos:
 
       Más información sobre [referencias a campos](expression/field-references.md) en expresiones.
 
-      ![](assets/message-to-subscribers-uc-2.png)
+      ![](../assets/message-to-subscribers-uc-2.png)
 
    1. En el **[!UICONTROL Add an expression]** cuadro de diálogo, haga clic en **[!UICONTROL Ok]**.
 
-   ![](assets/message-to-subscribers-uc-3.png)
+   ![](../assets/message-to-subscribers-uc-3.png)
 
 1. Finalice el recorrido con un **[!UICONTROL End]** actividad.

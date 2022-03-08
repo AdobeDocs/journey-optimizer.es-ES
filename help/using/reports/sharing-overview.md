@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 4%
@@ -39,9 +39,9 @@ Se crean los siguientes esquemas:
 * Esquema de evento de paso de recorrido para [!DNL Journey Orchestration] : evento de paso de Recorrido vinculado a metadatos de Recorrido.
 * esquema de recorrido con campos de Recorrido para [!DNL Journey Orchestration] - Metadatos del Recorrido para describir los Recorridos.
 
-![](assets/sharing1.png)
+![](../assets/sharing1.png)
 
-![](assets/sharing2.png)
+![](../assets/sharing2.png)
 
 Se pasan los siguientes conjuntos de datos:
 
@@ -49,7 +49,7 @@ Se pasan los siguientes conjuntos de datos:
 * Eventos de los pasos del recorrido
 * Recorridos
 
-![](assets/sharing3.png)
+![](../assets/sharing3.png)
 
 Las listas de campos XDM pasados a Adobe Experience Platform se detallan aquí:
 

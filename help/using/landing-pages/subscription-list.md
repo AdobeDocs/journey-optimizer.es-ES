@@ -5,10 +5,8 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: true
-hide: true
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 3%
@@ -37,23 +35,23 @@ Para crear una lista de suscripción, siga los pasos a continuación.
 
 1. Para acceder a las listas de suscripción, seleccione **[!UICONTROL Customer]** > **[!UICONTROL Subscription list]**.
 
-   ![](assets/lp_subscription-lists.png)
+   ![](../assets/lp_subscription-lists.png)
 
 1. Seleccione el botón **[!UICONTROL Create subscription list]**.
 
-   ![](assets/lp_create-subscription-list.png)
+   ![](../assets/lp_create-subscription-list.png)
 
 1. Añada un nombre y una descripción. Estos campos son obligatorios.
 
 1. Puede definir una fecha de inicio y una de finalización.
 
-   ![](assets/lp_subscription-list-dates.png)
+   ![](../assets/lp_subscription-list-dates.png)
 
 1. Haga clic en **[!UICONTROL Save]**.
 
 La lista muestra todas las listas de suscripción creadas. Puede filtrarlos en función de la fecha de creación o de modificación, así como de su estado.
 
-![](assets/lp_subscription-filters.png)
+![](../assets/lp_subscription-filters.png)
 
 Los estados posibles son los siguientes:
 
@@ -68,13 +66,3 @@ También puede utilizar listas de suscripción como segmentos cuando [creación 
 >[!NOTE]
 >
 >Puede controlar el impacto de su lista de suscripción a través de informes específicos. [Más información](subscription-report.md)
-
-<!--
-
-**Questions**
-
-* Can't see the newly created subscription list in UI because their name included spacing > bug - to follow up (should be fixed for Dec. release)
-
-* Can you update the subscription list in a way other than through a LP? Not in UI but with APIs > to follow up with Fred
-
--->

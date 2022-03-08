@@ -5,10 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hidefromtoc: true
-hide: true
 exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
-source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -25,11 +23,11 @@ El informe de página de aterrizaje muestra detalles sobre el impacto de las pá
 
 Para acceder a los informes, seleccione **Activo** o **[!UICONTROL Global report]** del menú avanzado de la página de aterrizaje seleccionada.
 
-![](assets/landing_page_report_1.png)
+![](../assets/landing_page_report_1.png)
 
 ## Informe activo de la página de aterrizaje {#lp-live}
 
-![](assets/landing_page_report_2.png)
+![](../assets/landing_page_report_2.png)
 
 La variable **[!UICONTROL Landing page performance]** La utilidad detalla la información principal relativa al mensaje en las últimas 24 horas a través de los KPI:
 
@@ -53,7 +51,7 @@ La variable **[!UICONTROL Journey(s)]** representa el número de visitas a la p�
 
 La variable **[!UICONTROL Other sources]** representa el número de visitas a la página de aterrizaje desde un origen externo en lugar de un recorrido.
 
-![](assets/landing_page_report_3.png)
+![](../assets/landing_page_report_3.png)
 
 La variable **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** los gráficos representan el número total de visitas y personas que interactuaron correctamente con la página de aterrizaje en las últimas 24 horas, según los mensajes enviados.
 
@@ -61,7 +59,7 @@ La variable **[!UICONTROL Visits by channels]** / **[!UICONTROL Conversions by c
 
 ## Informe global de la página de aterrizaje {#lp-global}
 
-![](assets/landing_page_report_4.png)
+![](../assets/landing_page_report_4.png)
 
 La variable **[!UICONTROL Number of visits]** y **[!UICONTROL Number of visits over time]** las utilidades permiten ver el impacto de la página de aterrizaje durante el período de tiempo seleccionado mediante un gráfico y KPI con las siguientes métricas:
 
@@ -75,7 +73,7 @@ La variable **[!UICONTROL Landing page performance]** La utilidad detalla la inf
 
 * **[!UICONTROL Bounce rate]**: Número de personas que no interactuaron con la página de aterrizaje y no completaron la acción de suscribirse, en relación con el número total de visitas.
 
-![](assets/landing_page_report_5.png)
+![](../assets/landing_page_report_5.png)
 
 La variable **[!UICONTROL Visit sources]** representa la forma en que los visitantes acceden a su página de aterrizaje:
 
@@ -95,7 +93,7 @@ La variable **[!UICONTROL Journey(s)]** representa el número de visitas a la p�
 
 La variable **[!UICONTROL Other sources]** representa el número de visitas a la página de aterrizaje desde un origen externo en lugar de un recorrido.
 
-![](assets/landing_page_report_6.png)
+![](../assets/landing_page_report_6.png)
 
 La variable **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** los gráficos representan el número total de visitas y personas que interactuaron correctamente con la página de aterrizaje durante el periodo correspondiente en función de los mensajes enviados.
 

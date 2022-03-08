@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 51c63b196b11905289c3c0c450c1976eb551bbc8
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 68%
@@ -37,6 +37,6 @@ Las acciones personalizadas le permiten configurar la conexión de un sistema de
 
 Las acciones están disponibles en la paleta izquierda del recorrido, en la **[!UICONTROL Action]** categoría. Consulte [esta página](../building-journeys/about-journey-activities.md#action-activities).
 
-To view the action list or configure a new action, select **[!UICONTROL Configurations]** in the ADMINISTRATION menu section. En el  **[!UICONTROL Actions]** , haga clic en **[!UICONTROL Manage]**. Se muestra la lista de acciones. Consulte [esta página](../start/user-interface.md) para obtener más información sobre la interfaz.
+Para ver la lista de acciones o configurar una nueva acción, seleccione **[!UICONTROL Configurations]** en la sección del menú ADMINISTRACIÓN . En el  **[!UICONTROL Actions]** , haga clic en **[!UICONTROL Manage]**. Se muestra la lista de acciones. Consulte [esta página](../start/user-interface.md) para obtener más información sobre la interfaz.
 
-![](assets/custom1.png)
+![](../assets/custom1.png)

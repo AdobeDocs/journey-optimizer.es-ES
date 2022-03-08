@@ -5,7 +5,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 4%
@@ -20,7 +20,7 @@ La oferta de reserva se envía a los clientes si no cumplen los requisitos para 
 
 Se puede acceder a la lista de ofertas de reserva en la **[!UICONTROL Offers]** para abrir el Navegador.
 
-![](../assets/offers_list.png)
+![](../../assets/offers_list.png)
 
 Para crear una oferta de reserva, siga estos pasos:
 
@@ -30,27 +30,27 @@ Para crear una oferta de reserva, siga estos pasos:
 
 1. Haga clic en **[!UICONTROL Create offer]** y, a continuación, seleccione **[!UICONTROL Fallback offer]**.
 
-   ![](../assets/create_fallback.png)
+   ![](../../assets/create_fallback.png)
 
 1. Especifique el nombre de la oferta de reserva. También puede asociar una o varias etiquetas existentes a él, lo que le permite buscar y organizar la Biblioteca de ofertas con mayor facilidad.
 
-   ![](../assets/fallback_details.png)
+   ![](../../assets/fallback_details.png)
 
 1. Cree una o varias representaciones para la oferta de reserva. Para ello, arrastre y suelte las ubicaciones desde el panel izquierdo, como cuando crea una oferta personalizada. Consulte [Creación de ofertas personalizadas](../offer-library/creating-personalized-offers.md).
 
-   ![](../assets/fallback_content.png)
+   ![](../../assets/fallback_content.png)
 
 1. Una vez añadidas las representaciones de la oferta de reserva, se muestra un resumen. Si todo está configurado correctamente y la oferta de reserva está lista para presentarse a los clientes, haga clic en **[!UICONTROL Finish]** y, a continuación, seleccione **[!UICONTROL Save and approve]**.
 
    También puede guardar la oferta de reserva como borrador para editarla y aprobarla más adelante.
 
-   ![](../assets/fallback_review.png)
+   ![](../../assets/fallback_review.png)
 
 1. La oferta de reserva se muestra en la lista con la variable **[!UICONTROL Live]** o **[!UICONTROL Draft]** , dependiendo de si lo aprobó o no en el paso anterior.
 
    Ahora está listo para enviarse a los clientes. Puede seleccionarlo para mostrar sus propiedades y editarlo. <!-- no suppression? -->
 
-   ![](../assets/fallback_created.png)
+   ![](../../assets/fallback_created.png)
 
 ## Tutorial en vídeo {#video}
 

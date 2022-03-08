@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 88%
@@ -32,11 +32,11 @@ Estos son los pasos principales para crear y configurar una nueva fuente de dato
 
 1. Desde la lista de fuentes de datos, haga clic en **[!UICONTROL Create Data Source]** para crear una nueva fuente de datos externa.
 
-   ![](assets/journey25.png)
+   ![](../assets/journey25.png)
 
    Se abre el panel de configuración de la fuente de datos en el lado derecho de la pantalla.
 
-   ![](assets/journey26.png)
+   ![](../assets/journey26.png)
 
 1. Escriba un nombre para la fuente de datos.
 
@@ -51,7 +51,7 @@ Estos son los pasos principales para crear y configurar una nueva fuente de dato
    >
    >Recomendamos encarecidamente utilizar HTTPS por motivos de seguridad. Además, tenga en cuenta que no permitimos el uso de direcciones de Adobe que no están disponibles para el público ni de direcciones IP.
 
-   ![](assets/journey27.png)
+   ![](../assets/journey27.png)
 
 1. Configure la autenticación según la configuración del servicio externo: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** o **[!UICONTROL API key]**. Para obtener más información sobre el modo de autenticación personalizada, consulte [esta sección](../datasource/external-data-sources.md#custom-authentication-mode). En nuestro ejemplo, elegimos:
 
@@ -60,7 +60,7 @@ Estos son los pasos principales para crear y configurar una nueva fuente de dato
    * **[!UICONTROL Value]**: &quot;1234&quot; (el valor de nuestra clave de API)
    * **[!UICONTROL Location]**: &quot;parámetro de consulta&quot; (la clave de API se encuentra en la dirección URL)
 
-   ![](assets/journey28.png)
+   ![](../assets/journey28.png)
 
 1. Añada un nuevo grupo de campos a cada conjunto de parámetros de API haciendo clic en **[!UICONTROL Add a New Field Group]**. No utilice espacios ni caracteres especiales en el nombre del grupo de campos. En nuestro ejemplo, necesitamos crear dos grupos de campos, uno para cada conjunto de parámetros (city y long/lat).
 
@@ -81,7 +81,7 @@ En el caso de una llamada GET que requiera parámetros, introduzca los parámetr
    {"id":{"param":"identifier"}}
    ```
 
-![](assets/journey29.png)
+![](../assets/journey29.png)
 
 Haga clic en **[!UICONTROL Save]**.
 
@@ -98,11 +98,11 @@ Este modo de autenticación se utiliza para la autenticación compleja, utilizad
 
 Al configurar la autenticación personalizada, puede hacer clic en el botón a continuación para comprobar si la carga de autenticación personalizada está configurada correctamente.
 
-![](assets/journey29-bis.png)
+![](../assets/journey29-bis.png)
 
 Si la prueba se realiza correctamente, el botón se vuelve verde.
 
-![](assets/journey29-ter.png)
+![](../assets/journey29-ter.png)
 
 Con esta autenticación, la ejecución de la acción es un proceso de dos pasos:
 

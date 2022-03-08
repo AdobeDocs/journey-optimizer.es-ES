@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 9%
@@ -21,19 +21,19 @@ Para enviar mensajes con recorridos, se requiere la siguiente configuración:
 
 1. **Configurar un evento**: si desea configurar los recorridos de forma unitaria cuando se reciba un evento, debe configurar un evento. Puede definir la información esperada y cómo procesarla. Este paso lo realiza un **usuario técnico**. [Más información](../event/about-events.md).
 
-   ![](assets/jo-event7bis.png)
+   ![](../assets/jo-event7bis.png)
 
 1. **Creación de segmentos**: el recorrido también puede escuchar segmentos de Adobe Experience Platform para enviar mensajes en lote a un conjunto específico de perfiles. Para ello, debe crear segmentos. [Más información](../segment/about-segments.md).
 
-   ![](assets/segment2.png)
+   ![](../assets/segment2.png)
 
 1. **Configuración de la fuente de datos**: puede definir una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos, por ejemplo en las condiciones. También se configura una fuente de datos integrada de Adobe Experience Platform en el momento del aprovisionamiento. Este paso no es necesario si solo se aprovechan los datos de los eventos durante el recorrido. Este paso lo realiza un **usuario técnico**. [Más información](../datasource/about-data-sources.md)
 
-   ![](assets/jo-datasource.png)
+   ![](../assets/jo-datasource.png)
 
 1. **Configurar una acción**: Las funciones de mensajes de Journey Optimizer están integradas, solo tiene que diseñar el contenido y publicar el mensaje. Consulte [esta sección](../messages/get-started-content.md). Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción personalizada. Obtenga más información en esta [sección](../action/action.md). Este paso lo realiza un **usuario técnico**.
 
-   ![](assets/create-content-push.png)
+   ![](../assets/create-content-push.png)
 
 ## Creación de un recorrido{#jo-build}
 
@@ -43,17 +43,17 @@ Estos son los pasos principales para enviar mensajes a través de recorridos:
 
 1. En la sección del menú ADMINISTRACIÓN DE RECORRIDOS , haga clic en **[!UICONTROL Journeys]**. Se muestra la lista de recorridos.
 
-   ![](assets/interface-journeys.png)
+   ![](../assets/interface-journeys.png)
 
 1. Haga clic en **[!UICONTROL Create Journey]** para crear un nuevo recorrido.
 
 1. Edite las propiedades del recorrido en el panel de configuración que se muestra en el lado derecho. Obtenga más información en esta [sección](journey-gs.md#change-properties).
 
-   ![](assets/jo-properties.png)
+   ![](../assets/jo-properties.png)
 
 1. Para empezar, arrastre y suelte un evento o un **Leer segmento** actividad desde la paleta al lienzo. Para obtener más información sobre el diseño de recorrido, consulte [esta sección](using-the-journey-designer.md).
 
-   ![](assets/read-segment.png)
+   ![](../assets/read-segment.png)
 
 1. Arrastre y suelte los siguientes pasos que el individuo debe seguir. Por ejemplo, puede añadir una condición seguida de un mensaje. Para obtener más información sobre las actividades, consulte [esta sección](using-the-journey-designer.md).
 
@@ -61,11 +61,11 @@ Estos son los pasos principales para enviar mensajes a través de recorridos:
 
 1. Publique el recorrido para activarlo. Obtenga más información en esta [sección](publishing-the-journey.md).
 
-   ![](assets/jo-journeyuc2_32bis.png)
+   ![](../assets/jo-journeyuc2_32bis.png)
 
 1. Monitorice el recorrido con las herramientas de sistema de informes dedicadas para medir la efectividad de su recorrido. Obtenga más información en esta [sección](../reports/live-report.md).
 
-   ![](assets/jo-dynamic_report_journey_12.png)
+   ![](../assets/jo-dynamic_report_journey_12.png)
 
 ## Cambio de las propiedades {#change-properties}
 
@@ -77,7 +77,7 @@ Para los recorridos en directo, esta pantalla muestra la fecha de publicación y
 
 La variable **Copiar detalles técnicos** le permite copiar información técnica sobre el recorrido que el equipo de asistencia puede utilizar para solucionar problemas. Se copia la siguiente información: UID de JourneyVersion, OrgID, orgName, sandboxName, lastDedeployBy, lastDedeployAt.
 
-![](assets/journey32.png)
+![](../assets/journey32.png)
 
 ### Entrada{#entrance}
 
@@ -133,11 +133,11 @@ Si no se cumple ninguno de los requisitos, el modo de ráfaga no estará disponi
 
 Para activar el modo Burst , abra el recorrido y haga clic en el icono del lápiz, en la parte superior derecha para acceder a las propiedades del recorrido. A continuación, active la variable **Habilitar modo de ráfaga** alternar.
 
-![](assets/burst.png)
+![](../assets/burst.png)
 
 El modo de ráfaga se desactivará si modifica un recorrido de ráfaga y añade una actividad que no sea compatible con la ráfaga (mensaje, cualquier otra acción, evento, etc.). Se mostrará un mensaje.
 
-![](assets/burst2.png)
+![](../assets/burst2.png)
 
 A continuación, pruebe y publique el recorrido de forma normal. Los mensajes del modo de prueba no se envían mediante el modo de explosión.
 
@@ -178,14 +178,14 @@ No se puede reiniciar ni eliminar una versión de recorrido cerrada. Puede crear
 
 Para cerrar un recorrido de la lista de recorridos, haga clic en el botón **[!UICONTROL Ellipsis]** botón situado a la derecha del nombre del recorrido y seleccione **[!UICONTROL Close to new entrances]**.
 
-![](assets/journey-finish-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 También puede:
 
 1. En el **[!UICONTROL Journeys]** , haga clic en el recorrido que desee cerrar.
 1. En la parte superior derecha, haga clic en la flecha hacia abajo.
 
-   ![](assets/finish_drop_down_list.png)
+   ![](../assets/finish_drop_down_list.png)
 
 1. Haga clic en **[!UICONTROL Close to new entrances]**. Aparecerá un cuadro de diálogo.
 1. Haga clic en **[!UICONTROL Close to new entrances]** para confirmar.
@@ -200,14 +200,14 @@ Cuando se detiene, un recorrido tendrá el estado **[!UICONTROL Stopped]**.
 
 Puede detener un recorrido, por ejemplo, si un especialista en marketing se da cuenta de que el recorrido está dirigido a una audiencia incorrecta o si una acción personalizada que supuestamente debe enviar mensajes no funciona correctamente. Para detener un recorrido de la lista de recorridos, haga clic en el botón **[!UICONTROL Ellipsis]** botón situado a la derecha del nombre del recorrido y seleccione **[!UICONTROL Stop]**.
 
-![](assets/journey-finish-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 También puede:
 
 1. En el **[!UICONTROL Journeys]** , haga clic en el recorrido que desee detener.
 1. En la parte superior derecha, haga clic en la flecha abajo.
 
-![](assets/finish_drop_down_list.png)
+![](../assets/finish_drop_down_list.png)
 
 1. Haga clic en **[!UICONTROL Stop]**. Aparecerá un cuadro de diálogo.
 1. Haga clic en **[!UICONTROL Stop]** para confirmar.

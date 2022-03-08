@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Este tipo de evento se puede posicionar como el primer paso o posterior en el re
 
 1. Despliegue el **[!UICONTROL Events]** categoría y suelte a **[!UICONTROL Segment Qualification]** actividad en el lienzo.
 
-   ![](assets/segment5.png)
+   ![](../assets/segment5.png)
 
 1. Agregue un **[!UICONTROL Label]** a la actividad . Este paso es opcional.
 
@@ -42,13 +42,13 @@ Este tipo de evento se puede posicionar como el primer paso o posterior en el re
    >
    >Tenga en cuenta que puede personalizar las columnas mostradas en la lista y ordenarlas.
 
-   ![](assets/segment6.png)
+   ![](../assets/segment6.png)
 
    Una vez agregado el segmento, la variable **[!UICONTROL Copy]** permite copiar su nombre y su ID:
 
    `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/segment-copy.png)
+   ![](../assets/segment-copy.png)
 
 1. En el **[!UICONTROL Behaviour]** , elija si desea escuchar las entradas de segmentos, las salidas o ambas.
 
@@ -58,7 +58,7 @@ Este tipo de evento se puede posicionar como el primer paso o posterior en el re
 
 1. Seleccione un espacio de nombres. Esto solo es necesario si el evento se coloca como el primer paso del recorrido.
 
-   ![](assets/segment7.png)
+   ![](../assets/segment7.png)
 
 La carga útil contiene la siguiente información de contexto, que puede utilizar en condiciones y acciones:
 
@@ -70,7 +70,7 @@ Cuando se utiliza el editor de expresiones en una condición o acción que sigue
 
 Consulte [Actividad de condición](../building-journeys/condition-activity.md#about_condition).
 
-![](assets/segment8.png)
+![](../assets/segment8.png)
 
 Un nuevo recorrido que incluye un evento de calificación de segmentos funciona diez minutos después de publicarlo. Este intervalo de tiempo corresponde al intervalo de actualización de la caché del servicio dedicado. Por lo tanto, debe esperar diez minutos antes de utilizar este recorrido.
 
@@ -98,10 +98,10 @@ Estas son algunas prácticas recomendadas que ayudarán a evitar la sobrecarga d
 
 No use, en **[!UICONTROL Segment Qualification]** actividad, un segmento por lotes inmediatamente después de su creación. Evitará el primer pico de cálculo. Tenga en cuenta que habrá una advertencia amarilla en el lienzo de recorrido si está a punto de usar un segmento que nunca se ha calculado.
 
-![](assets/segment-error.png)
+![](../assets/segment-error.png)
 
 Establezca una regla de límite para las fuentes de datos y las acciones utilizadas en los recorridos para evitar sobrecargarlos. Obtenga más información en [documentación del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}. Tenga en cuenta que la regla de restricción no tiene reintento. Si necesita volver a intentarlo, debe utilizar una ruta alternativa en el recorrido marcando la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]** en condiciones o acciones.
 
 Antes de usar el segmento en un recorrido de producción, evalúe siempre primero el volumen de personas que cumplen los requisitos para este segmento todos los días. Para ello, puede marcar la **[!UICONTROL Segments]** , abra el segmento y, a continuación, consulte la **[!UICONTROL Profiles over time]** gráfico.
 
-![](assets/segment-overload.png)
+![](../assets/segment-overload.png)

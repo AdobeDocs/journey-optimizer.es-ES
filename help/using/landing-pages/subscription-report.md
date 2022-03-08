@@ -5,10 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hidefromtoc: true
-hide: true
 exl-id: f5a42c69-0384-442b-acf6-b3149be8b0da
-source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -25,11 +23,11 @@ El informe de suscripción muestra detalles sobre la actividad de sus suscriptor
 
 Para acceder a los informes, seleccione **Activo** o **[!UICONTROL Global report]** del menú avanzado de la lista de suscripción seleccionada.
 
-![](assets/subscription_report_6.png)
+![](../assets/subscription_report_6.png)
 
 ## Informe de suscripción en directo {#subscription-live}
 
-![](assets/subscription_report_3.png)
+![](../assets/subscription_report_3.png)
 
 La variable **[!UICONTROL Subscription performance]** KPI y **[!UICONTROL Subscriptions by journey]**/**[!UICONTROL Unsubscribes by journey]** las tablas detallan la información principal relativa a la participación de los visitantes en la página de aterrizaje. Las tablas y los KPI contienen los datos disponibles relacionados con la página de aterrizaje, como:
 
@@ -39,13 +37,13 @@ La variable **[!UICONTROL Subscription performance]** KPI y **[!UICONTROL Subscr
 
 La variable **[!UICONTROL Subscription performance]** gráfico muestra la evolución de las suscripciones en las últimas 24 horas.
 
-![](assets/subscription_report_4.png)
+![](../assets/subscription_report_4.png)
 
 La variable **Suscripciones: desglose** y **Cancelación de suscripciones: desglose** los gráficos representan el número total de personas que se suscribieron o cancelaron la suscripción en las últimas 24 horas, según los mensajes, las páginas de aterrizaje y los canales.
 
 ## Informe global de suscripción {#subscription-global}
 
-![](assets/subscription_report_1.png)
+![](../assets/subscription_report_1.png)
 
 La variable **[!UICONTROL Subscription performance]** KPI y **[!UICONTROL Subscriptions by journey]**/**[!UICONTROL Unsubscribes by journey]** las tablas detallan la información principal relativa a la participación de los visitantes en la página de aterrizaje. Las tablas y los KPI contienen los datos disponibles relacionados con la página de aterrizaje, como:
 
@@ -55,6 +53,6 @@ La variable **[!UICONTROL Subscription performance]** KPI y **[!UICONTROL Subscr
 
 La variable **[!UICONTROL Subscription performance]** gráfico muestra la evolución de las suscripciones durante el periodo correspondiente.
 
-![](assets/subscription_report_2.png)
+![](../assets/subscription_report_2.png)
 
 La variable **Suscripciones: desglose** y **Cancelación de suscripciones: desglose** representan el número total de personas que se suscribieron o cancelaron la suscripción durante el período de tiempo seleccionado en función de los mensajes, las páginas de aterrizaje y los canales.

@@ -6,7 +6,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 4%
@@ -27,7 +27,7 @@ Para configurar el proveedor de SMS con Journey Optimizer, siga estos pasos:
 
 1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL API Credentials]** a continuación, haga clic en **[!UICONTROL Create API credential]**.
 
-   ![](assets/sms_4.png)
+   ![](../assets/sms_4.png)
 
 1. Seleccione Sinch como su **[!UICONTROL SMS vendor]**.
 
@@ -39,7 +39,7 @@ Para configurar el proveedor de SMS con Journey Optimizer, siga estos pasos:
    >
    > Sinch requiere credenciales de API especiales. Para encontrar su **[!UICONTROL Service ID]** y **[!UICONTROL API Token]**, acceda al menú SMS > API desde su cuenta de Launch,
 
-   ![](assets/sms_5.png)
+   ![](../assets/sms_5.png)
 
 1. Haga clic en **[!UICONTROL Submit]** cuando haya terminado la configuración de sus credenciales de API.
 
@@ -53,11 +53,11 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
 1. Acceda a la **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** a continuación, haga clic en **[!UICONTROL Create Message preset]**.
 
-   ![](assets/preset-create.png)
+   ![](../assets/preset-create.png)
 
 1. Introduzca un nombre y una descripción (opcional) para el ajuste preestablecido y, a continuación, seleccione el canal SMS.
 
-   ![](assets/sms_preset.png)
+   ![](../assets/sms_preset.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
 1. Configure las variables **SMS** configuración.
 
-   ![](assets/preset-sms.png)
+   ![](../assets/preset-sms.png)
 
    * Seleccione el **[!UICONTROL SMS Type]** que se enviará con el ajuste preestablecido: **[!UICONTROL Transactional]** o **[!UICONTROL Marketing]**.
 
@@ -77,7 +77,7 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
 1. Una vez configurados todos los parámetros, haga clic en **[!UICONTROL Submit]** para confirmar. También puede guardar el ajuste preestablecido de mensaje como borrador y reanudar su configuración más adelante.
 
-   ![](assets/sms_preset_2.png)
+   ![](../assets/sms_preset_2.png)
 
 1. Una vez creado el ajuste preestablecido de mensaje, se muestra en la lista con la variable **[!UICONTROL Processing]** estado.
 
@@ -87,7 +87,7 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
 1. Una vez realizadas las comprobaciones correctamente, el ajuste preestablecido de mensaje obtiene el valor **[!UICONTROL Active]** estado. Está listo para utilizarse para enviar mensajes.
 
-   ![](assets/preset-active.png)
+   ![](../assets/preset-active.png)
 
 Ya está listo para enviar mensajes SMS con Journey Optimizer.
 
