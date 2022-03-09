@@ -1,6 +1,6 @@
 ---
-title: Publish the journey
-description: Learn how to publish a journey
+title: Publicación del recorrido
+description: Obtenga información sobre cómo publicar un recorrido
 feature: Journeys
 topic: Content Management
 role: User
@@ -15,15 +15,15 @@ ht-degree: 6%
 
 # Publicación del recorrido{#publishing-the-journey}
 
-You can publish a journey after testing its validity.
+Puede publicar un recorrido después de probar su validez.
 
-If you need to make modifications to a published journey, you need to create a new version of your journey. Consulte [esta página](../building-journeys/journey-versions.md). When a journey is read-only, you can only modify the activity labels and descriptions, the journey&#39;s name and the journey&#39;s description.
+Si necesita realizar modificaciones en un recorrido publicado, debe crear una nueva versión del recorrido. Consulte [esta página](../building-journeys/journey-versions.md). Cuando un recorrido es de solo lectura, solo puede modificar las etiquetas y descripciones de la actividad, el nombre del recorrido y la descripción del recorrido.
 
-If you stop a journey, it will be permanently stopped. All the persons flowing in the journey will be permanently stopped and the journey will stop allowing new entrances. If you need to use the journey again, you need to duplicate it and publish it.
+Si detiene un recorrido, se detendrá permanentemente. Todas las personas que circulen en el recorrido serán permanentemente detenidas y el recorrido dejará de permitir nuevas entradas. Si necesita usar el recorrido de nuevo, debe duplicarlo y publicarlo.
 
-1. Before publishing your journey, verify that it is valid and that there is no error. You won&#39;t be able to publish a journey with errors. Consulte [esta sección](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). It is also recommended to test your journey before publication. Consulte [esta página](../building-journeys/testing-the-journey.md).
-1. **[!UICONTROL Publish]**
+1. Antes de publicar el recorrido, compruebe que sea válido y que no haya ningún error. No podrá publicar un recorrido con errores. Consulte [esta sección](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). También se recomienda probar el recorrido antes de la publicación. Consulte [esta página](../building-journeys/testing-the-journey.md).
+1. Para publicar el recorrido, haga clic en el **[!UICONTROL Publish]** , se encuentra en el menú desplegable superior derecho.
 
    ![](assets/journeyuc1_18.png)
 
-When the journey is published, it is in read-only mode.
+Cuando se publica el recorrido, está en modo de solo lectura.
