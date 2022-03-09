@@ -15,19 +15,19 @@ ht-degree: 3%
 
 # Creación de colecciones {#create-collections}
 
-Las colecciones permiten organizar las ofertas reagrupándolas en categorías de su elección. You can, for example, create a &quot;sport&quot; collection that will contain sport-related offers only.
+Las colecciones permiten organizar las ofertas reagrupándolas en categorías de su elección. Por ejemplo, puede crear una colección &quot;deportiva&quot; que contenga únicamente ofertas relacionadas con el deporte.
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-The list of offer collections is accessible in the **[!UICONTROL Offers]** menu.
+Se puede acceder a la lista de colecciones de ofertas en la **[!UICONTROL Offers]** para abrir el Navegador.
 
 ![](../assets/collections_list.png)
 
 Puede crear dos tipos de colecciones:
 
-* **Dynamic collections** are collections of offers based on tags. Estas colecciones se actualizan automáticamente. For example, if a new offer is created with the selected tag, it will automatically be added to the collection.
+* **Colecciones dinámicas** son colecciones de ofertas basadas en etiquetas. Estas colecciones se actualizan automáticamente. Por ejemplo, si se crea una oferta nueva con la etiqueta seleccionada, se añadirá automáticamente a la colección.
 
-* **Static collections** are collections built by manually selecting individual offers to include in the Collection. La colección solo se puede actualizar añadiendo más ofertas manualmente.
+* **Colecciones estáticas** son colecciones creadas seleccionando manualmente ofertas individuales para incluirlas en la colección. La colección solo se puede actualizar añadiendo más ofertas manualmente.
 
 Para crear una colección, siga estos pasos:
 
@@ -37,13 +37,13 @@ Para crear una colección, siga estos pasos:
 
    ![](../assets/collection_create.png)
 
-1. To create a dynamic collection, use the left pane to select the tag of the offers to add to the collection, then click **[!UICONTROL Save]**. Todas las ofertas con la etiqueta seleccionada se guardarán en la colección .
+1. Para crear una colección dinámica, utilice el panel izquierdo para seleccionar la etiqueta de las ofertas que desea agregar a la colección y, a continuación, haga clic en **[!UICONTROL Save]**. Todas las ofertas con la etiqueta seleccionada se guardarán en la colección .
 
-   For more on tags creation, see [Create tags](../offer-library/creating-tags.md).
+   Para obtener más información sobre la creación de etiquetas, consulte [Creación de etiquetas](../offer-library/creating-tags.md).
 
    ![](../assets/dynamic_collection.png)
 
-1. To create a static collection, use the left pane to filter the list of offers (status, tag, date, channel, content type), then select the offers to add to the collection.
+1. Para crear una colección estática, utilice el panel izquierdo para filtrar la lista de ofertas (estado, etiqueta, fecha, canal, tipo de contenido) y, a continuación, seleccione las ofertas que desea agregar a la colección.
 
    ![](../assets/static_collection.png)
 
@@ -59,6 +59,6 @@ Para crear una colección, siga estos pasos:
 
 >[!NOTE]
 >
->Este vídeo se aplica al servicio de aplicaciones de Offer decisioning creado en Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
+>Este vídeo se aplica al servicio de aplicaciones de Offer decisioning creado en Adobe Experience Platform. Sin embargo, proporciona una guía genérica para utilizar Offer en el contexto de Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
