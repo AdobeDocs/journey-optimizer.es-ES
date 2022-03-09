@@ -6,7 +6,8 @@ description: Obtenga información sobre los modelos de IA que permiten clasifica
 feature: Ranking Formulas
 role: User
 level: Intermediate
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
+source-git-commit: a7483965e3154d0ad34cfb56b6458bb63b46a26c
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 0%
@@ -116,4 +117,3 @@ El problema de &quot;inicio en frío&quot; se produce cuando se agrega una ofert
 Por ejemplo, si estamos interesados en medir el rendimiento de una estrategia de muestreo Thompson (TS) utilizada en la clasificación del servicio, y el KPI es la tasa de conversión (CVR), el &quot;alza&quot; de la estrategia de TS frente a la estrategia de línea de base se define de la siguiente manera:
 
 ![](../assets/ai-ranking-lift.png)
-
