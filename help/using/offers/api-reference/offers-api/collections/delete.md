@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # Eliminar una colección {#delete-collection}
 
-Ocasionalmente puede ser necesario eliminar (DELETE) una colección. Only collections that you create in the tenant container may be deleted. This is done by performing a DELETE request to the [!DNL Offer Library] API using the $id of the collection you wish to delete.
+Ocasionalmente puede ser necesario eliminar (DELETE) una colección. Solo se pueden eliminar las colecciones creadas en el contenedor de inquilino. Para ello, realiza una solicitud de DELETE al [!DNL Offer Library] API que utiliza el $id de la colección que desea eliminar.
 
 **Formato de API**
 
@@ -26,7 +26,7 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | The container where the collections are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | Contenedor donde se encuentran las colecciones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{INSTANCE_ID}` | ID de instancia de la colección que desea actualizar. | `0bf31c20-13f1-11eb-a752-e58fd7dc4cb3` |
 
 **Solicitud**
@@ -43,6 +43,6 @@ curl -X DELETE \
 
 **Respuesta**
 
-A successful response returns HTTP status 202 (No Content) and a blank body.
+Una respuesta correcta devuelve el estado HTTP 202 (sin contenido) y un cuerpo en blanco.
 
-Puede confirmar la eliminación intentando realizar una solicitud de búsqueda (GET) a la colección. You will need to include an Accept header in the request, but should receive an HTTP status 404 (Not Found) because the collection has been removed from the container.
+Puede confirmar la eliminación intentando realizar una solicitud de búsqueda (GET) a la colección. Deberá incluir un encabezado Accept en la solicitud, pero recibirá un estado HTTP 404 (No encontrado) porque la colección se ha eliminado del contenedor.
