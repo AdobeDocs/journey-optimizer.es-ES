@@ -5,24 +5,17 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-hidefromtoc: true
-hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 21%
+source-wordcount: '900'
+ht-degree: 20%
 
 ---
 
 # Casos de uso de la página de aterrizaje {#lp-use-cases}
 
 A continuación se muestran algunos ejemplos de cómo puede utilizar [!DNL Journey Optimizer] páginas de aterrizaje para que sus clientes no reciban ninguna o parte de sus comunicaciones.
-
-<!--The main use cases are:
-* Subscription to a service
-* Opt-in
-* Opt-out-->
 
 ## Suscripción a un servicio {#subscription-to-a-service}
 
@@ -32,13 +25,15 @@ Uno de los casos de uso más comunes consiste en invitar a sus clientes a [suscr
 
 Por ejemplo, supongamos que organiza un evento el mes que viene y desea iniciar una campaña de registro de eventos<!--to keep your customers that are interested updated on that event-->. Para ello, se envía un correo electrónico que incluye un vínculo a una página de aterrizaje que permite a los destinatarios registrarse en este evento. Los usuarios que se registren se agregarán a la lista de suscripción que haya creado con este fin.
 
-### Configurar página de aterrizaje {#set-up-lp}
+### Configuración de una página de aterrizaje {#set-up-lp}
 
 1. Cree la lista de suscripción del registro de eventos, que almacenará los usuarios registrados. Obtenga información sobre cómo crear una lista de suscripción [here](subscription-list.md#define-subscription-list).
 
    ![](assets/lp_subscription-uc-list.png)
 
 1. [Crear una página de aterrizaje](create-lp.md) para permitir que los destinatarios se registren en el evento.
+
+   ![](assets/lp_create-lp-details.png)
 
 1. Configuración del registro [página de aterrizaje principal](create-lp.md#configure-primary-page).
 
@@ -57,6 +52,10 @@ Por ejemplo, supongamos que organiza un evento el mes que viene y desea iniciar 
 1. [Inserción de un vínculo](../messages/message-tracking.md#insert-links) en el contenido del mensaje. Select **[!UICONTROL Landing page]** como el **[!UICONTROL Link type]** y seleccione [página de aterrizaje](create-lp.md#configure-primary-page) que ha creado para el registro.
 
    ![](assets/lp_subscription-uc-link.png)
+
+   >[!NOTE]
+   >
+   >Para poder publicar el mensaje, asegúrese de que la página de aterrizaje que seleccione no haya caducado aún. Obtenga información sobre cómo actualizar la fecha de caducidad [en esta sección](create-lp.md#configure-primary-page).
 
 1. Guarde el contenido y [publique el mensaje](../messages/publish-manage-message.md).
 
@@ -115,7 +114,7 @@ Para permitir que los destinatarios de un correo electrónico cancelen la suscri
 
    ![](assets/lp_opt-out-primary-lp.png)
 
-   <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
+   <!--You can also build your own landing page and host it on the third-party system of your choice.-->
 
 1. Añadir una confirmación [subpágina](create-lp.md#configure-subpages) que se mostrará a los usuarios que envíen el formulario.
 
@@ -138,6 +137,10 @@ Para permitir que los destinatarios de un correo electrónico cancelen la suscri
 1. Select **[!UICONTROL Landing page]** de la variable **[!UICONTROL Link type]** y seleccione la [página de aterrizaje](create-lp.md#configure-primary-page) que ha creado para la exclusión.
 
    ![](assets/lp_opt-out-landing-page.png)
+
+   >[!NOTE]
+   >
+   >Para poder publicar el mensaje, asegúrese de que la página de aterrizaje que seleccione no haya caducado aún. Obtenga información sobre cómo actualizar la fecha de caducidad [en esta sección](create-lp.md#configure-primary-page).
 
 1. Guarde el contenido y [publique el mensaje](../messages/publish-manage-message.md).
 
