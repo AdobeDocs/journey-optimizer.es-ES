@@ -1,6 +1,6 @@
 ---
-title: Subscription report
-description: Learn how to use data from your subscription services
+title: Informe de suscripción
+description: Aprenda a utilizar los datos de sus servicios de suscripción
 feature: Journeys
 topic: Content Management
 role: User
@@ -15,46 +15,46 @@ ht-degree: 0%
 
 ---
 
-# Subscription report {#subscription-report}
+# Informe de suscripción {#subscription-report}
 
-The subscription report displays details about the activity of your subscribers. Two report types are available:
+El informe de suscripción muestra detalles sobre la actividad de sus suscriptores. Hay dos tipos de informes disponibles:
 
-* **[!UICONTROL Live report]**
+* La variable **[!UICONTROL Live report]** para medir y visualizar las suscripciones y bajas de suscripción de sus envíos solo durante las últimas 24 horas.
 
-* **[!UICONTROL Global report]**
+* La variable **[!UICONTROL Global report]** para medir y visualizar las suscripciones y bajas de suscripción de los envíos durante un período de tiempo seleccionado.
 
-******[!UICONTROL Global report]**
+Para acceder a los informes, seleccione **Activo** o **[!UICONTROL Global report]** del menú avanzado de la lista de suscripción seleccionada.
 
 ![](assets/subscription_report_6.png)
 
-## Subscription live report {#subscription-live}
+## Informe de suscripción en directo {#subscription-live}
 
 ![](assets/subscription_report_3.png)
 
-**[!UICONTROL Subscription performance]****[!UICONTROL Subscriptions by journey]****[!UICONTROL Unsubscribes by journey]** The tables and KPIs contain the data available related to your landing page, such as:
+La variable **[!UICONTROL Subscription performance]** KPI y **[!UICONTROL Subscriptions by journey]**/**[!UICONTROL Unsubscribes by journey]** las tablas detallan la información principal relativa a la participación de los visitantes en la página de aterrizaje. Las tablas y los KPI contienen los datos disponibles relacionados con la página de aterrizaje, como:
 
-* **[!UICONTROL Subscribes]**
+* **[!UICONTROL Subscribes]**: Número total de suscripciones en las últimas 24 horas.
 
-* **[!UICONTROL Unsubscribes]**
+* **[!UICONTROL Unsubscribes]**: Número total de bajas de suscripción en las últimas 24 horas.
 
-**[!UICONTROL Subscription performance]**
+La variable **[!UICONTROL Subscription performance]** gráfico muestra la evolución de las suscripciones en las últimas 24 horas.
 
 ![](assets/subscription_report_4.png)
 
-********
+La variable **Suscripciones: desglose** y **Cancelación de suscripciones: desglose** los gráficos representan el número total de personas que se suscribieron o cancelaron la suscripción en las últimas 24 horas, según los mensajes, las páginas de aterrizaje y los canales.
 
-## Subscription global report {#subscription-global}
+## Informe global de suscripción {#subscription-global}
 
 ![](assets/subscription_report_1.png)
 
-**[!UICONTROL Subscription performance]****[!UICONTROL Subscriptions by journey]****[!UICONTROL Unsubscribes by journey]** The tables and KPIs contain the data available related to your landing page, such as:
+La variable **[!UICONTROL Subscription performance]** KPI y **[!UICONTROL Subscriptions by journey]**/**[!UICONTROL Unsubscribes by journey]** las tablas detallan la información principal relativa a la participación de los visitantes en la página de aterrizaje. Las tablas y los KPI contienen los datos disponibles relacionados con la página de aterrizaje, como:
 
-* **[!UICONTROL Subscribes]**
+* **[!UICONTROL Subscribes]**: Número total de suscripciones durante el periodo correspondiente.
 
-* **[!UICONTROL Unsubscribes]**
+* **[!UICONTROL Unsubscribes]**: Número total de bajas de suscripción durante el periodo correspondiente.
 
-**[!UICONTROL Subscription performance]**
+La variable **[!UICONTROL Subscription performance]** gráfico muestra la evolución de las suscripciones durante el periodo correspondiente.
 
 ![](assets/subscription_report_2.png)
 
-********
+La variable **Suscripciones: desglose** y **Cancelación de suscripciones: desglose** representan el número total de personas que se suscribieron o cancelaron la suscripción durante el período de tiempo seleccionado en función de los mensajes, las páginas de aterrizaje y los canales.
