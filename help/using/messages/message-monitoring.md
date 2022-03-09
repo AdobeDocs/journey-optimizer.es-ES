@@ -1,6 +1,6 @@
 ---
-title: Monitor message execution
-description: Learn monitoring guidelines
+title: Monitorización de la ejecución de mensajes
+description: Conozca las directrices de monitorización
 feature: Monitoring
 topic: Content Management
 role: User
@@ -15,81 +15,81 @@ ht-degree: 0%
 
 # Monitorización de mensajes {#monitor-message-execution}
 
-[!DNL Journey Optimizer] <!--and APIs-->**[!UICONTROL Executions]**
+Para asegurarse de que los mensajes se ejecutan, envían y envían correctamente, [!DNL Journey Optimizer] ofrece funciones para supervisar los mensajes que se publican y activan actualmente. Puede ver el rendimiento de sus mensajes en los distintos recorridos <!--and APIs--> en tiempo real desde el **[!UICONTROL Executions]** lista.
 
-**[!DNL Journey Optimizer]****[!UICONTROL Messages]****[!UICONTROL Executions]**
+Para acceder a esta lista, vaya a la **[!DNL Journey Optimizer]** página principal, seleccione **[!UICONTROL Messages]** y haga clic en el botón **[!UICONTROL Executions]** pestaña .
 
-**[!UICONTROL Live view]****[!UICONTROL Global view]**
+Esta ficha proporciona dos vistas: **[!UICONTROL Live view]** y **[!UICONTROL Global view]**.
 
-* **[!UICONTROL Live view]******[](../building-journeys/journey.md)****
+* La variable **[!UICONTROL Live view]** proporciona un **información general en tiempo real de todos los mensajes ejecutados** activado por uno o más [recorridos](../building-journeys/journey.md) **solo en las últimas 24 horas**.
 
    ![](assets/message-execution-tab-live.png)
 
-   This list auto-refreshes every sixty seconds. If no execution occurred in the last 24 hours for a specific message, all columns will display null values (0) for that message.
+   Esta lista se actualiza automáticamente cada sesenta segundos. Si no se ha producido ninguna ejecución en las últimas 24 horas para un mensaje específico, todas las columnas mostrarán valores nulos (0) para ese mensaje.
 
-* **[!UICONTROL Global view]******[](../building-journeys/journey.md)****
+* La variable **[!UICONTROL Global view]** proporciona un **descripción general de todos los mensajes ejecutados** activado por uno o más [recorridos](../building-journeys/journey.md) **desde la fecha de inicio del mensaje**.
 
    ![](assets/message-execution-tab-global.png)
 
-   This list auto-refreshes every ninety minutes. The data are aggregated over time since each message start date.
+   Esta lista se actualiza automáticamente cada noventa minutos. Los datos se acumulan con el tiempo desde cada fecha de inicio de mensaje.
 
-If a message is published but not triggered yet by a journey, it it not listed in any of the tabs. Only the following elements are listed:
-* Messages that have been triggered, but not yet started (pending).
-* Messages that have been triggered and that are currently running (in progress).
+Si un recorrido publica un mensaje pero aún no lo ha activado, no aparece en ninguna de las pestañas. Solo se enumeran los siguientes elementos:
+* Mensajes que se han activado, pero que aún no se han iniciado (pendientes).
+* Mensajes que se han activado y que se están ejecutando (en curso).
 
 >[!NOTE]
 >
->If a message has been used in several journeys, one row per journey is displayed for each execution.
+>Si se ha utilizado un mensaje en varios recorridos, se muestra una fila por recorrido para cada ejecución.
 
-By default, the messages are displayed starting from the most recent execution date. **[!UICONTROL Filters]** ****
+De forma predeterminada, los mensajes se muestran a partir de la fecha de ejecución más reciente. Haga clic en el **[!UICONTROL Filters]** para buscar en los mensajes según el canal, la fecha de inicio o la fecha de finalización. También puede elegir excluir los eventos de prueba de su **Lista de ejecuciones**.
 
 ![](assets/message-execution-tab-filters.png)
 
-<!--**[!UICONTROL Quick action]**-->[](create-message.md)[](../reports/live-report.md)**[!UICONTROL Live view]**[](../reports/global-report.md)**[!UICONTROL Global view]**
+La variable <!--**[!UICONTROL Quick action]**-->la segunda columna permite abrir la [message](create-message.md) y para acceder al [Informe Activo](../reports/live-report.md) si está en el **[!UICONTROL Live view]** o [Informe global](../reports/global-report.md) si está en el **[!UICONTROL Global view]**.
 
 ![](assets/message-execution-open-live-report.png)
 
-For each message execution, a number of indicators are displayed:
+Para cada ejecución de mensaje, se muestran varios indicadores:
 
-* **[!UICONTROL Message label]**[](create-message.md) The execution ID, which is automatically generated, is displayed in parentheses.
+* **[!UICONTROL Message label]**: Título del mensaje que definió [creación del mensaje](create-message.md). El ID de ejecución, que se genera automáticamente, se muestra entre paréntesis.
 
    <!--**[!UICONTROL Execution ID]**: Automatically generated identifier.
   **[!UICONTROL Source]**: Name of the journey leveraging that message.-->
 
-* **[!UICONTROL Journey - Version - Action]**
+* **[!UICONTROL Journey - Version - Action]**: Nombre del recorrido que aprovecha el mensaje, la versión del recorrido y la etiqueta de la acción que aprovecha el mensaje en el recorrido.
 
-* **[!UICONTROL Status]**
+* **[!UICONTROL Status]**: Estado de ejecución del mensaje.
 
-* **[!UICONTROL Start date]**
+* **[!UICONTROL Start date]**: Fecha y hora en que se ejecutó el mensaje desde el recorrido.
 
-* **[!UICONTROL Targeted]**
+* **[!UICONTROL Targeted]**: Número de perfiles de destino para cada ejecución de mensaje.
 
-* **[!UICONTROL Excluded]**
+* **[!UICONTROL Excluded]**: Número de perfiles que se han excluido del objetivo inicial debido a reglas de exclusión.
 
-* **[!UICONTROL Sent]**
+* **[!UICONTROL Sent]**: Número de mensajes que se han enviado.
 
-* **[!UICONTROL Delivered]**
+* **[!UICONTROL Delivered]**: Número de mensajes entregados correctamente en el buzón del destinatario (correo electrónico) o en el dispositivo (push) sin generar un rechazo o ningún otro error de envío.
 
-* **[!UICONTROL Bounces]** [](suppression-list.md)
+* **[!UICONTROL Bounces]**: Número de mensajes que no se pueden enviar debido a un error de entrega. [Más información sobre devoluciones](suppression-list.md).
 
-* **[!UICONTROL Opens]**
+* **[!UICONTROL Opens]**: Número de mensajes que se han abierto.
 
-* **[!UICONTROL Clicks]**
+* **[!UICONTROL Clicks]**: Número de clics en los vínculos de un correo electrónico.
 
    >[!NOTE]
    >
-   >Clicks do not exist for push notifications: when a user clicks a push notification, it opens the app, which can only be considered as an open.
+   >Los clics no existen para las notificaciones push: cuando un usuario hace clic en una notificación push, abre la aplicación, que solo puede considerarse como una apertura.
 
-* **[!UICONTROL Errors]**
+* **[!UICONTROL Errors]**: Número de mensajes que no se pueden enviar debido a un error técnico.
 
-* **[!UICONTROL Spam complaints]** [](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability)
+* **[!UICONTROL Spam complaints]**: Número de mensajes marcados como correo no deseado por los destinatarios. Obtenga más información sobre las quejas en la [Guía de prácticas recomendadas sobre la capacidad de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}.
 
-You can choose which columns to display in the table. **[!UICONTROL Customize table]**
+Puede elegir qué columnas mostrar en la tabla. Para ello, haga clic en el botón **[!UICONTROL Customize table]** en la parte superior de la pantalla y seleccione las columnas que desee mostrar.
 
 ![](assets/message-execution-customize-table.png)
 
-**** ****
+En **Vista global** solo, puede elegir si desea mostrar los datos como números, porcentajes o ambos. Haga clic en el **Formato de datos** lista desplegable para alternar entre las tres opciones.
 
 ![](assets/message-execution-data-format.png)
 
-Clicking each hyperlink will open the corresponding message summary view. [](create-message.md)
+Al hacer clic en cada hipervínculo, se abrirá la vista de resumen del mensaje correspondiente. [Más información sobre los mensajes](create-message.md).
