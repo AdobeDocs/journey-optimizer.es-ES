@@ -1,6 +1,6 @@
 ---
 title: Crear una ubicación
-description: Placements are containers that are used to showcase your offers.
+description: Las ubicaciones son contenedores que se utilizan para mostrar las ofertas.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,13 +15,13 @@ ht-degree: 12%
 
 # Crear una ubicación {#create-placement}
 
-[!DNL Offer Library]
+Puede crear una ubicación realizando una solicitud de POST al [!DNL Offer Library] al proporcionar su ID de contenedor.
 
-## Accept and Content-Type headers {#accept-and-content-type-headers}
+## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-****
+La tabla siguiente muestra los valores válidos que comprenden el *Content-Type* y *Accept* campos en el encabezado de la solicitud:
 
-| Header name | Valor |
+| Nombre del encabezado | Valor |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
@@ -34,8 +34,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | The container where the placements are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | Contenedor donde se encuentran las ubicaciones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Solicitud**
 
@@ -58,7 +58,7 @@ curl -X POST \
 
 **Respuesta**
 
-`@id` You can use the instance ID in later steps to update or delete your placement. `@id`
+Una respuesta correcta devuelve los detalles de la ubicación recién creada, incluida su ID de instancia única y su ubicación `@id`. Puede utilizar el ID de instancia en pasos posteriores para actualizar o eliminar la colocación. Puede utilizar su ubicación única `@id` en tutoriales posteriores para crear decisiones, reglas de decisión y ofertas de reserva.
 
 ```json
 {
