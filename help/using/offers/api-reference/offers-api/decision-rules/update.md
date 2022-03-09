@@ -1,6 +1,6 @@
 ---
-title: Update decision rules
-description: Decision rules are constraints added to a personalized offer and applied to a profile to determine eligibility.
+title: Actualizar las reglas de decisión
+description: Las reglas de decisión son restricciones agregadas a una oferta personalizada y aplicadas a un perfil para determinar la idoneidad.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,15 +15,15 @@ ht-degree: 9%
 
 # Actualizar una regla de decisión {#update-decision-rule}
 
-[!DNL Offer Library]
+Puede modificar o actualizar las reglas de decisión en el contenedor realizando una solicitud de PATCH al [!DNL Offer Library] API.
 
-[](http://jsonpatch.com/)
+Para obtener más información sobre JSON Patch, incluidas las operaciones disponibles, consulte la [Documentación de parches JSON](http://jsonpatch.com/).
 
-## Accept and Content-Type headers {#accept-and-content-type-headers}
+## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-****
+La tabla siguiente muestra los valores válidos que comprenden el *Content-Type* y *Accept* campos en el encabezado de la solicitud:
 
-| Header name | Valor |
+| Nombre del encabezado | Valor |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
@@ -36,9 +36,9 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | The container where the decision rules are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | The instance id of the decision rule you wish to update. | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | Contenedor donde se encuentran las reglas de decisión. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | ID de instancia de la regla de decisión que desea actualizar. | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
 
 **Solicitud**
 
@@ -62,13 +62,13 @@ curl -X PATCH \
 
 | Parámetro | Descripción |
 | --------- | ----------- |
-| `op` | The operation call used to define the action needed to update the connection. `add``replace``remove` |
-| `path` | The path of the parameter to be updated. |
-| `value` | The new value you want to update your parameter with. |
+| `op` | La llamada de operación utilizada para definir la acción necesaria para actualizar la conexión. Las operaciones incluyen: `add`, `replace`y `remove`. |
+| `path` | Ruta del parámetro que se va a actualizar. |
+| `value` | El nuevo valor con el que desea actualizar el parámetro. |
 
 **Respuesta**
 
-`@id`
+Una respuesta correcta devuelve los detalles actualizados de la regla de decisión, incluido su ID de instancia única y la regla de decisión `@id`.
 
 ```json
 {
