@@ -1,6 +1,6 @@
 ---
 title: Acerca del Editor de expresiones
-description: Learn how to work with the Expression Editor.
+description: Aprenda a trabajar con el Editor de expresiones.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -18,36 +18,36 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
 >title="Acerca del Editor de expresiones"
->abstract="The Expression Editor allows you to select, arrange, customize and validate all the data to create a customized personalization for your content."
+>abstract="El Editor de expresiones permite seleccionar, organizar, personalizar y validar todos los datos para crear una personalización personalizada del contenido."
 
-[!DNL Journey Optimizer] It is available in every context where you need to define personalization like emails, push and offers.
+El Editor de expresiones es la parte central de la personalización en [!DNL Journey Optimizer]. Está disponible en todos los contextos en los que es necesario definir la personalización como correos electrónicos, mensajes push y ofertas.
 
-In the expression editor interface, you will select, arrange, customize and validate all the data to create a customized personalization for your content.
+En la interfaz del editor de expresiones, se seleccionan, organizan, personalizan y validan todos los datos para crear una personalización personalizada para el contenido.
 
 ![](assets/perso_ee1.png)
 
-The left part of the screen displays a domain selector that lets you select the source for personalization.
+La parte izquierda de la pantalla muestra un selector de dominio que le permite seleccionar el origen de la personalización.
 
 ![](assets/perso_ee3.png)
 
-Available sources are:
+Las fuentes disponibles son:
 
-* **[!UICONTROL Profile attributes]**[](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es)
-* **[!UICONTROL Segment memberships]** [](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
-* **[!UICONTROL Offer decisions]** Select the placement then insert the offers in your content. [](../messages/deliver-personalized-offers.md)
-* **[!UICONTROL Contextual attributes]****** Obtenga más información en [esta sección](personalization-use-case.md).
-* **[!UICONTROL Helper functions]** Obtenga más información en [esta sección](functions/functions.md).
+* **[!UICONTROL Profile attributes]** : enumera todas las referencias asociadas al esquema de perfil descrito en [Documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target=&quot;_blank&quot;}.
+* **[!UICONTROL Segment memberships]** : enumera todos los segmentos creados en el servicio de segmentación de Adobe Experience Platform. Más información sobre segmentación disponible [here](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}.
+* **[!UICONTROL Offer decisions]** : enumera todas las ofertas asociadas a una ubicación específica. Seleccione la ubicación e inserte las ofertas en el contenido. Para obtener una documentación completa sobre cómo administrar ofertas, consulte [esta sección](../messages/deliver-personalized-offers.md).
+* **[!UICONTROL Contextual attributes]** : cuando la variable **Mensaje** se utiliza en un recorrido, los campos de recorrido contextual están disponibles a través de este menú. Obtenga más información en [esta sección](personalization-use-case.md).
+* **[!UICONTROL Helper functions]** : enumera todas las funciones de ayuda disponibles para realizar operaciones con datos, como cálculos, formato de datos o conversiones, condiciones y manipularlas en el contexto de la personalización. Obtenga más información en [esta sección](functions/functions.md).
 
-Click the + button too add an attribute into the editor.
+Haga clic en el botón + para añadir un atributo al editor.
 
 >[!NOTE]
 >
->[](personalization-favorites.md)
+>El menú elipse junto al icono &quot;+&quot; le permite obtener más detalles para cada variable y agregar los atributos usados con más frecuencia a [favoritos](personalization-favorites.md).
 
 ![](assets/attribute-details.png)
 
-In the following example, the expression editor lets you select the profiles that have their birthday today then complete the customization by inserting a specific offer corresponding to this day.
+En el siguiente ejemplo, el editor de expresiones permite seleccionar los perfiles que tienen su cumpleaños hoy y luego completar la personalización insertando una oferta específica correspondiente a este día.
 
 ![](assets/perso_ee2.png)
 
-Once your personalization expression is ready, you need to have it validated by the Expression Editor. Obtenga más información en [esta sección](personalization-validation.md).
+Una vez que la expresión de personalización esté lista, el Editor de expresiones la debe validar. Obtenga más información en [esta sección](personalization-validation.md).
