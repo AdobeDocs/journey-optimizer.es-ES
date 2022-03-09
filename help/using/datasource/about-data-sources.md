@@ -27,7 +27,7 @@ La configuración de la fuente de datos permite definir una conexión con un sis
 * [definición de espera personalizada](../building-journeys/wait-activity.md#custom)
 * [definición de zona horaria](../building-journeys/timezone-management.md)
 
-Esta configuración no es necesaria si los recorridos solo aprovechan los datos locales procedentes de una carga útil de evento. For example, if your journey is composed of an event followed by a message activity that only uses data from the event, there is no need to configure a data source.
+Esta configuración no es necesaria si los recorridos solo aprovechan los datos locales procedentes de una carga útil de evento. Por ejemplo, si el recorrido está compuesto por un evento seguido de una actividad de mensaje que solo utiliza datos del evento, no es necesario configurar una fuente de datos.
 
 Existen dos tipos de fuentes de datos:
 
@@ -38,6 +38,6 @@ Para cada fuente de datos, se define la información que se recuperará mediante
 
 >[!NOTE]
 >
->Schema relationships are now supported for data sources.
+>Ahora se admiten relaciones de esquema para orígenes de datos.
 
-[](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html)
+Para obtener más información sobre cómo configurar una fuente de datos de Adobe Experience Platform y una fuente de datos externa, y cómo buscar y utilizar datos en un recorrido, consulte esta [videotutorial](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target=&quot;_blank&quot;}.
