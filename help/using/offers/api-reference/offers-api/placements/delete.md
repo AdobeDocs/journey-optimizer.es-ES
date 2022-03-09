@@ -1,6 +1,6 @@
 ---
-title: delete placements
-description: Placements are containers that are used to showcase your offers.
+title: eliminar ubicaciones
+description: Las ubicaciones son contenedores que se utilizan para mostrar las ofertas.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Eliminar una ubicación {#delete-placement}
 
-It may occasionally be necessary to remove (DELETE) a placement. Only placements that you create in the tenant container may be deleted. [!DNL Offer Library]
+Ocasionalmente puede ser necesario eliminar (DELETE) una colocación. Solo se pueden eliminar las ubicaciones que cree en el contenedor de inquilino. Para ello, realiza una solicitud de DELETE al [!DNL Offer Library] API que utiliza el ID de instancia de la colocación que desea eliminar.
 
 **Formato de API**
 
@@ -25,9 +25,9 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | The container where the placements are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | The instance id of the placement you wish to update. | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | Contenedor donde se encuentran las ubicaciones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | ID de instancia de la colocación que desea actualizar. | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
 
 **Solicitud**
 
@@ -43,6 +43,6 @@ curl -X DELETE \
 
 **Respuesta**
 
-A successful response returns HTTP status 202 (No Content) and a blank body.
+Una respuesta correcta devuelve el estado HTTP 202 (sin contenido) y un cuerpo en blanco.
 
-You can confirm the deletion by attempting a lookup (GET) request to the placement. You will need to include an Accept header in the request, but should receive an HTTP status 404 (Not Found) because the placement has been removed from the container.
+Puede confirmar la eliminación intentando enviar una solicitud de búsqueda (GET) a la ubicación. Deberá incluir un encabezado Accept en la solicitud, pero recibirá un estado HTTP 404 (No encontrado) porque la ubicación se ha eliminado del contenedor.
