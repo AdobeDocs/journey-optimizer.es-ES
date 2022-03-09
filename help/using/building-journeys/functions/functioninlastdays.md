@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: inLastDays
-description: Learn about the function inLastDays
+description: Obtenga información sobre la función en LastDays
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -21,7 +21,7 @@ Devuelve el valor verdadero si una fecha determinada o dateTime está entre ahor
 
 Fecha
 
-## Function syntax
+## Sintaxis de función
 
 `inLastDays(<dateTime>,<delta>)`
 
@@ -29,7 +29,7 @@ Fecha
 
 | Parámetro | Tipo |
 |-----------|------------------|
-| date time | dateTime |
+| fecha y hora | dateTime |
 | delta | integer |
 
 ## Firmas y tipo devuelto
