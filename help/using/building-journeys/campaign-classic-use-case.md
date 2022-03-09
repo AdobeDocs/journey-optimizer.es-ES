@@ -13,11 +13,11 @@ ht-degree: 2%
 
 ---
 
-# Use case: send a message using Campaign v7/v8 {#campaign-classic-use-case}
+# Caso de uso: enviar un mensaje con Campaign v7/v8 {#campaign-classic-use-case}
 
 Este caso de uso presenta todos los pasos necesarios para enviar un correo electrónico mediante la integración con Adobe Campaign Classic v7 y Adobe Campaign v8.
 
-We will first create a transactional email template in Campaign. Then, in Journey Optimizer, we&#39;ll create the event, action and design the journey.
+Primero crearemos una plantilla de correo electrónico transaccional en Campaign. Luego, en Journey Optimizer, crearemos el evento, la acción y el diseño del recorrido.
 
 Para obtener más información sobre la integración de Campaign, consulte estas páginas:
 
@@ -30,17 +30,17 @@ La instancia de Campaign debe aprovisionarse para esta integración. La función
 
 1. Inicie sesión en la instancia de control de Campaign.
 
-1. En **Administración** > **Plataforma** > **Enumeraciones**, seleccione **Tipo de evento** enumeración (eventType). Cree un nuevo tipo de evento (&quot;recorrido-evento&quot;, en nuestro ejemplo). You will have to use the internal name of the event type when writing the JSON file later.
+1. En **Administración** > **Plataforma** > **Enumeraciones**, seleccione **Tipo de evento** enumeración (eventType). Cree un nuevo tipo de evento (&quot;recorrido-evento&quot;, en nuestro ejemplo). Deberá utilizar el nombre interno del tipo de evento al escribir el archivo JSON más adelante.
 
    ![](assets/accintegration-uc-1.png)
 
-1. Disconnect and reconnect to the instance for the creation to be effective.
+1. Desconecte y vuelva a conectar con la instancia para que la creación sea efectiva.
 
 1. En **Centro de mensajes** > **Plantillas de mensajes transaccionales**, cree una nueva plantilla de correo electrónico basada en el tipo de evento creado anteriormente.
 
    ![](assets/accintegration-uc-2.png)
 
-1. Diseñe la plantilla. En este ejemplo, se utiliza la personalización en el nombre del perfil y el número de pedido. The first name is in the Adobe Experience Platform data source, and the order number is a field from our Journey Optimizer event. Asegúrese de utilizar los nombres de campo correctos en Campaign.
+1. Diseñe la plantilla. En este ejemplo, se utiliza la personalización en el nombre del perfil y el número de pedido. El nombre se encuentra en la fuente de datos de Adobe Experience Platform y el número de pedido es un campo del evento de Journey Optimizer. Asegúrese de utilizar los nombres de campo correctos en Campaign.
 
    ![](assets/accintegration-uc-3.png)
 
@@ -48,7 +48,7 @@ La instancia de Campaign debe aprovisionarse para esta integración. La función
 
    ![](assets/accintegration-uc-4.png)
 
-1. Now you need to write the JSON payload corresponding the template.
+1. Ahora debe escribir la carga útil JSON correspondiente a la plantilla.
 
 ```
 {
@@ -72,7 +72,7 @@ La instancia de Campaign debe aprovisionarse para esta integración. La función
 
    ![](assets/accintegration-uc-5.png)
 
-1. You then need to create, in Journey Optimizer, an action corresponding to your Campaign template. En el **Tipo de acción** desplegable, seleccione **Adobe Campaign Classic**.
+1. A continuación, debe crear, en Journey Optimizer, una acción correspondiente a la plantilla de campaña. En el **Tipo de acción** desplegable, seleccione **Adobe Campaign Classic**.
 
    ![](assets/accintegration-uc-6.png)
 
@@ -80,11 +80,11 @@ La instancia de Campaign debe aprovisionarse para esta integración. La función
 
    ![](assets/accintegration-uc-7.png)
 
-1. For the email address and the two personalization fields, change **Constant** to **Variable**.
+1. Para la dirección de correo electrónico y los dos campos de personalización, cambie **Constante** a **Variable**.
 
    ![](assets/accintegration-uc-8.png)
 
-1. Now create a new journey and start with the event previously created.
+1. Ahora cree un nuevo recorrido y comience con el evento creado anteriormente.
 
    ![](assets/accintegration-uc-9.png)
 
@@ -96,4 +96,4 @@ La instancia de Campaign debe aprovisionarse para esta integración. La función
 
    ![](assets/accintegration-uc-11.png)
 
-1. You can now publish your journey.
+1. Ahora puede publicar su recorrido.
