@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: serializeList
-description: Learn about the function serializeList
+description: Obtenga información sobre la función serializeList
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 22%
 
 # serializeList {#serializeList}
 
-Converts the list (any type) given in the first parameter to a string. The second parameter represents the separator to use. The third parameter is a boolean value indicating if each element of the expression should include quotes.
+Convierte la lista (cualquier tipo) proporcionada en el primer parámetro en una cadena. El segundo parámetro representa el separador que se va a utilizar. El tercer parámetro es un valor booleano que indica si cada elemento de la expresión debe incluir comillas.
 
 ## Categoría
 
 Lista
 
-## Function syntax
+## Sintaxis de función
 
 `serializeList(<parameters>)`
 
@@ -41,7 +41,7 @@ Lista
 | Lista | listDateTimeOnly |
 | Lista | listDateOnly |
 
-## Signature and returned type
+## Firma y tipo devuelto
 
 `serializeList(<listInteger>,<string>,<boolean>)`
 
@@ -61,14 +61,14 @@ Lista
 
 `serializeList(<listPoint>,<string>,<boolean>)`
 
-Return a string.
+Devuelve una cadena.
 
 ## Ejemplo
 
 `serializeList(["Hello","World"], " ", false)`
 
-Returns &quot;Hello World&quot;.
+Devuelve &quot;Hello World&quot;.
 
 `serializeList(["Hello", "World"], ",", true)`
 
-Returns &quot;&quot;Hello&quot;,&quot;World&quot;&quot;.
+Devuelve &quot;Hello&quot;, &quot;World&quot;.
