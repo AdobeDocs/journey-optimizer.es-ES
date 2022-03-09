@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: countWithNull
-description: Learn about the function countWithNull
+description: Obtenga información sobre la función countWithNull
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 32%
 
 # countWithNull {#countWithNull}
 
-Counts all the elements of the list including null values.
+Cuenta todos los elementos de la lista, incluidos los valores nulos.
 
 ## Categoría
 
 Agregación
 
-## Function syntax
+## Sintaxis de función
 
 `countWithNull(<listAny>)`
 
@@ -38,14 +38,14 @@ Agregación
 | Lista | listDateTimeOnly |
 | Lista | listDateOnly |
 
-## Signature and returned type
+## Firma y tipo devuelto
 
 `countWithNull(<listAny>)`
 
-Returns an integer.
+Devuelve un número entero.
 
 ## Ejemplo
 
 `countWithNull([10,2,10,null])`
 
-Returns 4.
+Devuelve 4.
