@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: replaceAll
-description: Learn about the function replaceAll
+description: Obtenga información sobre la función replaceAll
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,15 +15,15 @@ ht-degree: 10%
 
 # replaceAll {#replaceAll}
 
-Replaces all occurrences matching the target string by the replacement string in the base string.
+Reemplaza todas las ocurrencias que coinciden con la cadena de destino por la cadena de reemplazo en la cadena base.
 
-The replacement proceeds from the beginning of the string to the end, for example, replacing &quot;aa&quot; with &quot;b&quot; in the string &quot;aaa&quot; will result in &quot;ba&quot; rather than &quot;ab&quot;.
+La sustitución procede desde el principio de la cadena hasta el final, por ejemplo, reemplazar &quot;aa&quot; por &quot;b&quot; en la cadena &quot;aaa&quot; resultará en &quot;ba&quot; en lugar de &quot;ab&quot;.
 
 ## Categoría
 
 Cadena
 
-## Function syntax
+## Sintaxis de función
 
 `replaceAll(<parameters>)`
 
@@ -33,18 +33,18 @@ Cadena
 |-----------|--------------|
 | base | string |
 | Target | string (RegExp) |
-| replacement | string |
+| reemplazo | string |
 
-## Signature and returned type
+## Firma y tipo devuelto
 
 `replaceAll(<baseString>,<sourceString>,<replacementString>)`
 
-Returns a string.
+Devuelve una cadena.
 
 ## Ejemplo{#example}
 
 `replaceAll("Hello World", "l", "x")`
 
-Returns &quot;Hexxo Worxd&quot;.
+Devuelve &quot;Hexxo Worxd&quot;.
 
-Because the target parameter is a RegExp, depending on the string you want to replace, you may need to escape some characters. [](../functions/functionreplace.md#example_2)
+Como el parámetro de destino es un RegExp, según la cadena que desee reemplazar, es posible que tenga que escapar algunos caracteres. Consulte el ejemplo en [esta página](../functions/functionreplace.md#example_2).
