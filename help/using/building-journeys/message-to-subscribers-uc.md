@@ -1,6 +1,6 @@
 ---
 title: Envío de un mensaje a los suscriptores
-description: Learn how to build a journey to send a message to the subscribers of a list
+description: Obtenga información sobre cómo crear un recorrido para enviar un mensaje a los suscriptores de una lista
 feature: Journeys
 topic: Content Management
 role: User
@@ -13,49 +13,49 @@ ht-degree: 5%
 
 ---
 
-# Use case: send a message to the subscribers of a list{#send-a-message-to-the-subscribers-of-a-list}
+# Caso de uso: enviar un mensaje a los suscriptores de una lista{#send-a-message-to-the-subscribers-of-a-list}
 
-The purpose of this use case is to create a journey to send a message to the subscribers of a list.
+El propósito de este caso de uso es crear un recorrido para enviar un mensaje a los suscriptores de una lista.
 
-**[!UICONTROL Consent and Preference Details]**[!DNL Adobe Experience Platform] **[!UICONTROL Data Management]****[!UICONTROL Schemas]** **[!UICONTROL Field groups]**
+En este ejemplo, la variable **[!UICONTROL Consent and Preference Details]** grupo de campos de [!DNL Adobe Experience Platform] se utiliza. Para encontrar este grupo de campos, en la sección **[!UICONTROL Data Management]** , elija **[!UICONTROL Schemas]**. En el **[!UICONTROL Field groups]** , introduzca el nombre del grupo de campos en el campo de búsqueda.
 
-![](assets/consent-and-preference-details-field-group.png)
+![Este grupo de campos incluye el elemento subscriptions](assets/consent-and-preference-details-field-group.png)
 
-To configure this journey, follow these steps:
+Para configurar este recorrido, siga estos pasos:
 
-1. **[!UICONTROL Read]** [Más información](journey-gs.md).
-1. **[!UICONTROL Message]** [Más información](journeys-message.md).
-1. **[!UICONTROL Email parameters]****[!UICONTROL Message]**`PersonalEmail.adress`
+1. Cree un recorrido que comience por un **[!UICONTROL Read]** actividad. [Más información](journey-gs.md).
+1. Agregue un **[!UICONTROL Message]** actividad, con un correo electrónico, al recorrido. [Más información](journeys-message.md).
+1. En el **[!UICONTROL Email parameters]** de la sección **[!UICONTROL Message]** configuración de actividad, reemplace la dirección de correo electrónico predeterminada (`PersonalEmail.adress`) con la dirección de correo electrónico de los suscriptores de la lista:
 
-   1. **[!UICONTROL Enable parameter override]****[!UICONTROL Address]****[!UICONTROL Edit]**
+   1. Haga clic en el **[!UICONTROL Enable parameter override]** a la derecha de **[!UICONTROL Address]** y, a continuación, haga clic en la **[!UICONTROL Edit]** icono.
 
       ![](assets/message-to-subscribers-uc-1.png)
 
-      To be able to modify the email address, you must have previously published the message.
+      Para poder modificar la dirección de correo electrónico, debe haber publicado previamente el mensaje.
 
-   1. In the expression editor, enter the expression to retrieve the subscribers&#39; email addresses. [Más información](expression/expressionadvanced.md).
+   1. En el editor de expresiones, introduzca la expresión para recuperar las direcciones de correo electrónico de los suscriptores. [Más información](expression/expressionadvanced.md).
 
-      This example shows an expression that includes references to map fields:
+      Este ejemplo muestra una expresión que incluye referencias a campos de asignación:
 
       ```json
       #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
       ```
 
-      In this example, these functions are used:
+      En este ejemplo, se utilizan estas funciones:
 
       | Función | Descripción | Ejemplo |
       | --- | --- | --- |
-      | `entry` | Refer to a map element according to the selected namespace | Refer to a specific subscription list |
-      | `firstEntryKey` | Retrieve the first entry key of a map | Retrieve the first email address of subscribers |
+      | `entry` | Haga referencia a un elemento de mapa según el área de nombres seleccionada | Consulte una lista de suscripción específica |
+      | `firstEntryKey` | Recuperar la primera clave de entrada de un mapa | Recuperar la primera dirección de correo electrónico de los suscriptores |
 
-      `daily-email` `subscribers`
+      En este ejemplo, la lista de suscripción tiene el nombre `daily-email`. Las direcciones de correo electrónico se definen como claves en la variable `subscribers` , que está vinculado al mapa de lista de suscripción.
 
-      [](expression/field-references.md)
+      Más información sobre [referencias a campos](expression/field-references.md) en expresiones.
 
       ![](assets/message-to-subscribers-uc-2.png)
 
-   1. **[!UICONTROL Add an expression]****[!UICONTROL Ok]**
+   1. En el **[!UICONTROL Add an expression]** cuadro de diálogo, haga clic en **[!UICONTROL Ok]**.
 
    ![](assets/message-to-subscribers-uc-3.png)
 
-1. **[!UICONTROL End]**
+1. Finalice el recorrido con un **[!UICONTROL End]** actividad.
