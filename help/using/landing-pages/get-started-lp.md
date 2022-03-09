@@ -5,34 +5,19 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: true
-hide: true
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a2e1bca59dfb291b459c729e4fbc62de4c5353f
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 9%
+source-wordcount: '149'
+ht-degree: 11%
 
 ---
 
 # Introducción a las páginas de destino {#get-sarted-lp}
 
->[!CAUTION]
->
->Actualmente, el uso de páginas de aterrizaje está disponible en acceso anticipado solo para usuarios seleccionados. Si desea aprovechar esta función, póngase en contacto con el administrador de cuentas de Adobe.
-
 Una página de aterrizaje es una página web independiente a la que se dirige a un usuario después de hacer clic desde un correo electrónico, un sitio web, un anuncio o cualquier otra ubicación digital.
 
-<!--The landing page is driven toward a business goal like joining a subscription list, buying products, get to know more, etc. If the user takes that desired action, the landing page has converted. Landing pages often contain online forms that are used by marketers to acquire new consumers or get to know better their existing customers and nurture them.-->
-
 [!DNL Journey Optimizer] le permite crear y diseñar páginas de aterrizaje para dirigir a los usuarios a formularios en línea, donde pueden optar por recibir o rechazar la recepción de comunicaciones, o suscribirse a un servicio específico, como un boletín informativo.
-
-<!--Landing pages are online forms that are used by marketers to capture information on audiences, offer subscriptions to a service, display data and grow your database. These can also be used for acquiring or updating existing profiles.-->
-
-<!--[!DNL Journey Optimizer] now allows you to:
-* Easily build landing pages to make users subscribe to your communications.
-* Enable your customers to opt-in or opt-out from your communications.
-To move to RN-->
 
 * Aprovechar [!DNL Journey Optimizer] capacidades de diseño de contenido para crear fácilmente **páginas de aterrizaje adaptables**.
 * Configuración **flujos de inclusión y exclusión** rápida y sin problemas.
