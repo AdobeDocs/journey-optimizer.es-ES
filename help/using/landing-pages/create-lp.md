@@ -1,6 +1,6 @@
 ---
 title: Creación de una página de destino
-description: Learn how to configure and publish a landing page in Journey Optimizer
+description: Obtenga información sobre cómo configurar y publicar una página de aterrizaje en Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -15,167 +15,167 @@ ht-degree: 4%
 
 ---
 
-# Create and publish landing pages {#create-lp}
+# Creación y publicación de páginas de aterrizaje {#create-lp}
 
 >[!CAUTION]
 >
->The use of landing pages is currently available in early access to select users only. If you want to leverage this feature, contact your Adobe account executive.
+>Actualmente, el uso de páginas de aterrizaje está disponible en acceso anticipado solo para usuarios seleccionados. Si desea aprovechar esta función, póngase en contacto con el administrador de cuentas de Adobe.
 
-## Access landing pages {#access-landing-pages}
+## Acceso a las páginas de aterrizaje {#access-landing-pages}
 
-**[!UICONTROL Journey Management]****[!UICONTROL Landing pages]**
+Para acceder a la lista de páginas de aterrizaje, seleccione **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** en el menú de la izquierda.
 
 ![](assets/lp_access-list.png)
 
-**[!UICONTROL Landing Pages]** You can filter them based on their status or modification date.
+La variable **[!UICONTROL Landing Pages]** muestra todos los elementos creados. Puede filtrarlos en función de su estado o fecha de modificación.
 
 ![](assets/lp_access-list-filter.png)
 
 ## Creación de una página de destino {#create-landing-page}
 
-The steps to create a landing page are as follows.
+Los pasos para crear una página de aterrizaje son los siguientes:
 
-1. **[!UICONTROL Create landing page]**
+1. En la lista de páginas de aterrizaje, haga clic en **[!UICONTROL Create landing page]**.
 
    ![](assets/lp_create-lp.png)
 
-1. Add a title. You can add a description if needed.
+1. Añada un título. Puede agregar una descripción si es necesario.
 
    ![](assets/lp_create-lp-details.png)
 
-1. Select a preset.
+1. Seleccione un ajuste preestablecido.
 
    ![](assets/lp_create-lp-presets.png)
 
    >[!NOTE]
    >
-   >[](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+   >Para definir los ajustes preestablecidos de la página de aterrizaje, póngase en contacto con el representante de cuentas de Adobe o con el [Equipo de asistencia al servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
 1. Haga clic en **[!UICONTROL Create]**.
 
-1. The primary page and its properties display. [](#configure-primary-page)
+1. Se muestra la página principal y sus propiedades. Obtenga información sobre cómo configurar la configuración de la página principal [here](#configure-primary-page).
 
    ![](assets/lp_primary-page.png)
 
-1. Click the + icon to add a subpage. [](#configure-subpages)
+1. Haga clic en el icono + para añadir una subpágina. Obtenga información sobre cómo configurar las opciones de subpágina [here](#configure-subpages).
 
    ![](assets/lp_add-subpage.png)
 
-[](#configure-primary-page)[](#configure-subpages)[](#test-landing-page)[](#publish-landing-page)
+Una vez que haya configurado y diseñado el [página principal](#configure-primary-page)y [subpáginas](#configure-subpages) si hay alguno, puede [prueba](#test-landing-page) y [publicar](#publish-landing-page) su página de aterrizaje.
 
-## Configure the primary page {#configure-primary-page}
+## Configuración de la página principal {#configure-primary-page}
 
-The primary page is the page that is immediately displayed to the users after they click the link to your landing page, such as from an email or a website.
+La página principal es la página que se muestra inmediatamente a los usuarios después de hacer clic en el vínculo de la página de aterrizaje, por ejemplo, desde un correo electrónico o un sitio web.
 
-To define the primary page settings, follow the steps below.
+Para definir la configuración de la página principal, siga los pasos a continuación.
 
-1. **[!UICONTROL Primary page]**
+1. Puede cambiar el nombre de la página, que es **[!UICONTROL Primary page]** de forma predeterminada.
 
-1. Edit the content of your page using the content designer. [](design-lp.md)
+1. Edite el contenido de la página con el diseñador de contenido. Obtenga información sobre cómo definir el contenido de una página de aterrizaje [here](design-lp.md).
 
    ![](assets/lp_open-designer.png)
 
-1. Define your landing page URL. The first part of the URL requires the domain delegation to be performed. It is pre-filled and cannot be edited through the user interface. [](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+1. Defina la dirección URL de la página de aterrizaje. La primera parte de la dirección URL requiere que se realice la delegación de dominios. Está precargada y no se puede editar a través de la interfaz de usuario. Para configurarlo, póngase en contacto con su representante de cuentas de Adobe o con el [Equipo de asistencia al servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    >[!CAUTION]
    >
-   >The landing page URL must be unique.
+   >La dirección URL de la página de aterrizaje debe ser única.
 
    ![](assets/lp_access-url.png)
 
-1. You can define an expiry date for your page. In that case, you must select an action upon page expiry:
+1. Puede definir una fecha de caducidad para la página. En ese caso, debe seleccionar una acción al expirar la página:
 
-   * **[!UICONTROL Redirect URL]**
-   * **[!UICONTROL Custom page]**[](#configure-subpages)
-   * **[!UICONTROL Browser error]**
+   * **[!UICONTROL Redirect URL]**: Introduzca la dirección URL de la página a la que se redirigirá a los usuarios cuando caduque la página.
+   * **[!UICONTROL Custom page]**: [Configurar una subpágina](#configure-subpages) y selecciónela en la lista desplegable que se muestra.
+   * **[!UICONTROL Browser error]**: Escriba el texto del error que se mostrará en lugar de la página.
 
    ![](assets/lp_expiry-date.png)
 
    <!--1. In the **[!UICONTROL Additional data]** section, define a **[!UICONTROL Key]** and the corresponding **[!UICONTROL Parameter value]**. // you can define how the data entered in the landing page is managed once it has been submitted by a user??-->
 
-1. [](design-lp.md)**[!UICONTROL Subscription list]**
+1. Si ha seleccionado una o varias listas de suscripción al [diseño de la página principal](design-lp.md), se muestran en el **[!UICONTROL Subscription list]** para obtener más información.
 
    ![](assets/lp_subscription-list.png)
 
-1. [](../building-journeys/journey-gs.md#jo-build) [](lp-use-cases.md#subscription-to-a-service)
+1. Desde la página de aterrizaje, puede [crear un recorrido](../building-journeys/journey-gs.md#jo-build) que enviará un mensaje de confirmación a los usuarios cuando envíen el formulario. Aprenda a crear un recorrido de este tipo al final de esto [caso de uso](lp-use-cases.md#subscription-to-a-service).
 
    ![](assets/lp_create-journey.png)
 
-   **[!UICONTROL Create journey]****[!UICONTROL Journey Management]****[!UICONTROL Journeys]**
+   Haga clic en **[!UICONTROL Create journey]** para ser redirigido a la función **[!UICONTROL Journey Management]** > **[!UICONTROL Journeys]** lista.
 
-## Configure subpages {#configure-subpages}
+## Configurar subpáginas {#configure-subpages}
 
-You can add up to 2 subpages. For example, you can create a &#39;thank you&#39; page that will display once the users submit the form, and you can define an error page that will be called if a problem occurs with the landing page.
+Se pueden agregar hasta dos subpáginas. Por ejemplo, puede crear una página de agradecimiento que se mostrará una vez que los usuarios envíen el formulario, y puede definir una página de error a la que se llamará si se produce un problema con la página de aterrizaje.
 
-To define the subpage settings, follow the steps below.
+Para definir la configuración de la subpágina, siga los pasos a continuación.
 
-1. **[!UICONTROL Subpage 1]**
+1. Puede cambiar el nombre de la página, que es **[!UICONTROL Subpage 1]** de forma predeterminada.
 
-1. Edit the content of your page using the content designer. [](design-lp.md)
+1. Edite el contenido de la página con el diseñador de contenido. Obtenga información sobre cómo definir el contenido de una página de aterrizaje [here](design-lp.md).
 
-1. Define your landing page URL. The first part of the URL requires the domain delegation to be performed. It is pre-filled and cannot be edited through the user interface. [](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+1. Defina la dirección URL de la página de aterrizaje. La primera parte de la dirección URL requiere que se realice la delegación de dominios. Está precargada y no se puede editar a través de la interfaz de usuario. Para configurarlo, póngase en contacto con su representante de cuentas de Adobe o con el [Equipo de asistencia al servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    >[!CAUTION]
    >
-   >The landing page URL must be unique.
+   >La dirección URL de la página de aterrizaje debe ser única.
 
 ![](assets/lp_subpage-settings.png)
 
-## Test the landing page {#test-landing-page}
+## Prueba de la página de aterrizaje {#test-landing-page}
 
-Once your landing page settings and content have been defined, you can use test profiles to preview it. [](../personalization/personalize.md)
+Una vez que se hayan definido la configuración y el contenido de la página de aterrizaje, puede utilizar perfiles de prueba para previsualizarlos. Si ha insertado [contenido personalizado](../personalization/personalize.md), podrá comprobar cómo se muestra este contenido en la página de aterrizaje, aprovechando los datos de perfil de prueba.
 
 >[!CAUTION]
 >
->You need to have test profiles available to be able to preview your messages and send proofs. [](../building-journeys/creating-test-profiles.md)
+>Debe tener perfiles de prueba disponibles para poder previsualizar los mensajes y enviar pruebas. Obtenga información sobre cómo [crear perfiles de prueba](../building-journeys/creating-test-profiles.md).
 
-1. **[!UICONTROL Preview & test]**
+1. En la interfaz de la página de aterrizaje, haga clic en el **[!UICONTROL Preview & test]** para acceder a la selección de perfil de prueba.
 
    ![](assets/lp_preview-button.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL Preview]**
+   >La variable **[!UICONTROL Preview]** también es accesible desde el diseñador de contenido.
 
-1. **[!UICONTROL Preview & test]**
+1. En el **[!UICONTROL Preview & test]** seleccione uno o varios perfiles de prueba.
 
    ![](assets/lp_test-profiles.png)
 
-   The steps to select test profiles are the same as when testing a message. Se detallan en [esta sección](../messages/preview.md#select-test-profiles).
+   Los pasos para seleccionar perfiles de prueba son los mismos que al probar un mensaje. Se detallan en [esta sección](../messages/preview.md#select-test-profiles).
 
-1. **[!UICONTROL Preview]****[!UICONTROL Open preview]**
+1. Seleccione el **[!UICONTROL Preview]** y haga clic en **[!UICONTROL Open preview]** para probar la página de aterrizaje.
 
    ![](assets/lp_open-preview.png)
 
-1. The preview of your landing page opens in a new tab. Personalized elements are replaced by the selected test profile data.
+1. La vista previa de la página de aterrizaje se abre en una pestaña nueva. Los elementos personalizados se sustituyen por los datos de perfil de prueba seleccionados.
 
    ![](assets/lp_preview.png)
 
-1. Select other test profiles to preview the rendering for each variant of your landing page.
+1. Seleccione otros perfiles de prueba para previsualizar la renderización de cada variante de la página de aterrizaje.
 
 ## Comprobación de alertas {#check-alerts}
 
-While you are creating your landing page, alerts warn you when you need to take important actions before publishing.
+Mientras crea la página de aterrizaje, las alertas le avisan cuando necesita realizar acciones importantes antes de publicarla.
 
-Alerts are displayed on top right of the screen, as shown below:
+Las alertas se muestran en la parte superior derecha de la pantalla, como se muestra a continuación:
 
 ![](assets/lp_alerts.png)
 
 >[!NOTE]
 >
->If you do not see this button, no alert has been detected.
+>Si no ve este botón, no se ha detectado ninguna alerta.
 
-Two types of alerts can happen:
+Pueden producirse dos tipos de alertas:
 
-* ****<!--For example, a message will display if -->
+* **Advertencias** consulte recomendaciones y prácticas recomendadas. <!--For example, a message will display if -->
 
-* **** For example, you will get a warning if the primary page URL is missing.
+* **Errores** impida la publicación del mensaje mientras no se resuelvan. Por ejemplo, recibirá una advertencia si falta la dirección URL de la página principal.
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 
 >[!CAUTION]
 >
-> ****
+> Debe resolver todo **error** alertas antes de la publicación.
 
 <!--The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
 
@@ -192,21 +192,21 @@ Two types of alerts can happen:
 > To be able to publish your message, you need to resolve all **error** alerts.
 -->
 
-## Publish the landing page {#publish-landing-page}
+## Publicación de la página de aterrizaje {#publish-landing-page}
 
-Once your landing page is ready, you can publish it to make it available for use in a message.
+Una vez que la página de aterrizaje esté lista, puede publicarla para que esté disponible para su uso en un mensaje.
 
 ![](assets/lp_publish.png)
 
 >[!CAUTION]
 >
->Before publishing, check and resolve alerts. [Más información](#check-alerts)
+>Antes de publicar, compruebe y resuelva las alertas. [Más información](#check-alerts)
 
-**[!UICONTROL Published]**
+Una vez publicada la página de aterrizaje, se añade a la lista de páginas de aterrizaje con la variable **[!UICONTROL Published]** estado.
 
-[!DNL Journey Optimizer][](../messages/create-message.md)[](../building-journeys/journey.md)
+Ahora está activo y listo para utilizarse en un [!DNL Journey Optimizer] [message](../messages/create-message.md) que se enviará a través de un [recorrido](../building-journeys/journey.md).
 
 >[!NOTE]
 >
->You can monitor your landing page impacts through specific reports. [Más información](lp-report.md)
+>Puede controlar el impacto de la página de aterrizaje mediante informes específicos. [Más información](lp-report.md)
 
