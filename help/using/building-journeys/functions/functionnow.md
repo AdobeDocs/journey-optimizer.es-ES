@@ -21,7 +21,7 @@ Devuelve la fecha actual en formato de fecha y hora. Para obtener más informaci
 
 Fecha
 
-## Function syntax
+## Sintaxis de función
 
 `now(<parameter>)`
 
@@ -47,7 +47,7 @@ Devuelve 2019-06-03T06:30Z.
 
 `toString(now())`
 
-Returns &quot;2019-06-03T06:30Z&quot;
+Devuelve &quot;2019-06-03T06:30Z&quot;
 
 `now("Europe/Paris")`
 
