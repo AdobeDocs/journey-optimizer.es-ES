@@ -1,6 +1,6 @@
 ---
 title: Creación de ofertas personalizadas
-description: A personalized offer is a customizable marketing message based on eligibility rules and constraints.
+description: Una oferta personalizada es un mensaje de marketing personalizable basado en reglas y restricciones de idoneidad.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,15 +15,15 @@ ht-degree: 10%
 
 # Crear una oferta personalizada {#create-personalized-offer}
 
-A personalized offer is a customizable marketing message based on eligibility rules and constraints.
+Una oferta personalizada es un mensaje de marketing personalizable basado en reglas y restricciones de idoneidad.
 
-[!DNL Offer Library]
+Puede crear una oferta personalizada realizando una solicitud de POST al [!DNL Offer Library] al proporcionar su ID de contenedor.
 
-## Accept and Content-Type headers {#accept-and-content-type-headers}
+## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-****
+La tabla siguiente muestra los valores válidos que comprenden el *Content-Type* y *Accept* campos en el encabezado de la solicitud:
 
-| Header name | Valor |
+| Nombre del encabezado | Valor |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
@@ -36,8 +36,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | The container where the personalized offers are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | Contenedor donde se encuentran las ofertas personalizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Solicitud**
 
@@ -86,7 +86,7 @@ curl -X POST \
 
 **Respuesta**
 
-`@id` You can use the instance ID in later steps to update or delete your personalized offer.
+Una respuesta correcta devuelve información sobre la oferta personalizada recién creada, incluida su ID de instancia única y su ubicación `@id`. Puede utilizar el ID de instancia en pasos posteriores para actualizar o eliminar la oferta personalizada.
 
 ```json
 {
@@ -104,4 +104,4 @@ curl -X POST \
 
 ## Limitaciones {#limitations}
 
-[!DNL Experience Edge]`Capping` `Capping` [](../../../offer-library/creating-personalized-offers.md)
+Actualmente, las representaciones de ofertas y algunas restricciones de ofertas no son compatibles con el dispositivo móvil [!DNL Experience Edge] flujos de trabajo, por ejemplo `Capping`. La variable `Capping` valor de campo especifica el número de veces que se puede presentar una oferta en todos los usuarios. Para obtener más información, consulte [Documentación de reglas y restricciones de idoneidad para la oferta](../../../offer-library/creating-personalized-offers.md).
