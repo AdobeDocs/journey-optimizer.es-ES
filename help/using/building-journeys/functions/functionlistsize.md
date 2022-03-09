@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: listSize
-description: Learn about the function listSize
+description: Obtenga información sobre la función listSize
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 34%
 
 # listSize {#listSize}
 
-Counts the number of elements in the list.
+Cuenta el número de elementos de la lista.
 
 ## Categoría
 
 Lista
 
-## Function syntax
+## Sintaxis de función
 
 `listSize(<parameters>)`
 
@@ -38,7 +38,7 @@ Lista
 | Lista | listDateTimeOnly |
 | Lista | listDateOnly |
 
-## Signatures and returned type
+## Firmas y tipo devuelto
 
 `listSize(<listInteger>)`
 
@@ -58,10 +58,10 @@ Lista
 
 `listSize(<listPoint>)`
 
-Return an integer.
+Devuelve un entero.
 
 ## Ejemplo
 
 `listSize([10,2,3])`
 
-Returns 3.
+Devuelve 3.
