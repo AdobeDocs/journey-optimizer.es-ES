@@ -1,6 +1,6 @@
 ---
-title: Additional steps to send events to a journey
-description: Learn additional steps to send events to a journey
+title: Pasos adicionales para enviar eventos a un recorrido
+description: Conozca los pasos adicionales para enviar eventos a un recorrido
 feature: Events
 topic: Administration
 role: Admin
@@ -15,20 +15,20 @@ ht-degree: 5%
 
 # Pasos adicionales para enviar eventos {#additional-steps-to-send-events}
 
-**[!UICONTROL Streaming Ingestion APIs]**[!DNL Journey Optimizer]
+Para configurar los eventos que se enviarán a **[!UICONTROL Streaming Ingestion APIs]** y a utilizar en [!DNL Journey Optimizer], debe seguir estos pasos:
 
-1. Get the inlet URL from Adobe Experience Platform APIs. [](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es)
-1. **[!UICONTROL Event]** Obtenga más información en [esta página](../event/about-creating.md#define-the-payload-fields).
+1. Obtenga la URL de entrada de las API de Adobe Experience Platform. Obtenga más información en [Resumen de las API de ingesta de flujos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es){target=&quot;_blank&quot;}.
+1. Copie la carga útil de la previsualización de carga útil en el **[!UICONTROL Event]** para abrir el Navegador. Obtenga más información en [esta página](../event/about-creating.md#define-the-payload-fields).
 
-You then need to configure the data system that pushes events to Streaming Ingestion APIs using the payload you copied:
+A continuación, debe configurar el sistema de datos que envía eventos a las API de ingesta de transmisión mediante la carga útil que ha copiado:
 
-1. Set up a POST API call to the Streaming Ingestion APIs URL (called an inlet).
-1. [!DNL Journey Optimizer] See below for an example
-1. Determine where to get all the variables present in the payload. Example: if the event is supposed to convey the address, the payload pasted will show &quot;address&quot;: &quot;string&quot;. &quot;string&quot; should be replaced by the variable that will automatically populate the right value, the email of the person to send a message to. **[!UICONTROL Header]**
-1. Select &quot;application/json&quot; as a body type.
-1. Pass your IMS Organization ID in the header using the key &quot;x-gw-ims-org-id&quot;. For the value, use your IMS Organization ID (&quot;XXX@AdobeOrg&quot;).
+1. Configure una llamada de API de POST en la URL de las API de ingesta de transmisión (denominada entrada).
+1. Utilice la carga útil copiada de [!DNL Journey Optimizer] en el cuerpo (&quot;sección de datos&quot;) de la llamada de API a las API de ingesta de transmisión. Consulte a continuación un ejemplo
+1. Determine dónde obtener todas las variables presentes en la carga útil. Ejemplo: si se supone que el evento transmite la dirección, la carga útil pegada mostrará &quot;address&quot; (dirección): &quot;cadena&quot;. &quot;cadena&quot; debe reemplazarse por la variable que rellena automáticamente el valor correcto, el correo electrónico de la persona a la que enviar un mensaje. Tenga en cuenta que, en la vista previa de carga útil, en la variable **[!UICONTROL Header]** , rellenamos automáticamente muchos valores que se espera que faciliten su trabajo.
+1. Seleccione &quot;application/json&quot; como tipo de cuerpo.
+1. Pase su ID de organización de IMS en el encabezado utilizando la clave &quot;x-gw-ims-org-id&quot;. Para el valor, utilice su ID de organización de IMS (&quot;XXX@AdobeOrg&quot;).
 
-Here is an example of a Streaming Ingestion APIs event:
+Este es un ejemplo de un evento de API de ingesta de transmisión:
 
 ```
 {
@@ -85,6 +85,6 @@ Here is an example of a Streaming Ingestion APIs event:
 }
 ```
 
-[](https://jsonformatter.curiousconcept.com)
+Para facilitar la identificación del lugar en el que pegar la parte de &quot;datos&quot;, puede utilizar una herramienta de visualización JSON como [Formato JSON](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;}.
 
-[](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
+Para solucionar problemas de las API de ingesta de flujos, consulte [documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}.
