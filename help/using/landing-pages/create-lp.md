@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 3%
+source-wordcount: '920'
+ht-degree: 2%
 
 ---
 
@@ -119,7 +119,7 @@ Para definir la configuración de la subpágina, siga los pasos a continuación.
 
 1. Edite el contenido de la página con el diseñador de contenido. Obtenga información sobre cómo definir el contenido de una página de aterrizaje [here](design-lp.md).
 
-1. Defina la dirección URL de la página de aterrizaje. La primera parte de la dirección URL requiere que se realice la delegación de dominios. Está precargada y no se puede editar a través de la interfaz de usuario. Para configurarlo, póngase en contacto con su representante de cuentas de Adobe o con el [Equipo de asistencia al servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Defina la dirección URL de la página de aterrizaje. La primera parte de la dirección URL requiere que haya configurado previamente un subdominio de página de aterrizaje. [Más información](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -161,7 +161,7 @@ Una vez que se hayan definido la configuración y el contenido de la página de 
 
 ## Comprobación de alertas {#check-alerts}
 
-Mientras crea la página de aterrizaje, las alertas le avisan cuando necesita realizar acciones importantes antes de publicarla.
+Mientras crea la página de aterrizaje, las alertas le avisan cuando debe realizar acciones importantes antes de publicarla.
 
 Las alertas se muestran en la parte superior derecha de la pantalla, como se muestra a continuación:
 
@@ -195,7 +195,7 @@ Pueden producirse dos tipos de alertas:
 
 >[!CAUTION]
 >
-> To be able to publish your message, you need to resolve all **error** alerts.
+> To be able to publish your message, you must resolve all **error** alerts.
 -->
 
 ## Publicación de la página de aterrizaje {#publish-landing-page}
