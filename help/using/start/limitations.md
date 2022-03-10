@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 80de53e62da5fc3b0543ee09327e11edd277b234
+source-git-commit: d2ae8f7a2a44ac92d26520e5c85a19a2660ed8e2
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -30,8 +30,7 @@ A continuación se indican algunas limitaciones adicionales al usar [!DNL Adobe 
 * Solo una **Formulario** se puede utilizar en una sola página principal.
 * La variable **Formulario** no se puede usar en subpáginas.
 * No se puede añadir un encabezado previo a una página de aterrizaje.
-
-<!--You cannot select the **Code your own** option when designing a landing primary page.-->
+* No puede seleccionar la variable **Codifique sus propios** al diseñar una página principal de aterrizaje.
 
 ## Limitaciones en los recorridos {#limitations-journeys}
 
