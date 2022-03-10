@@ -3,9 +3,10 @@ title: Configuración de la página de aterrizaje
 description: Aprenda a configurar su entorno para crear y utilizar páginas de aterrizaje con Journey Optimizer
 role: Admin
 level: Intermediate
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '804'
 ht-degree: 2%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 2%
 >title="Configurar subdominios de página de aterrizaje"
 >abstract="Para poder seleccionar un subdominio, asegúrese de haber configurado previamente al menos un subdominio de página de aterrizaje."
 
-Para poder [crear ajustes preestablecidos de página de aterrizaje](#lp-create-preset), debe configurar los subdominios que utilizará para las páginas de aterrizaje.
+Para poder [crear ajustes preestablecidos de página de aterrizaje](#lp-create-preset), debe configurar los subdominios que desea utilizar para las páginas de aterrizaje.
 
 Puede utilizar un subdominio que ya esté delegado en Adobe o configurar otro subdominio. Obtenga más información sobre la delegación de subdominios al Adobe en [esta sección](delegate-subdomain.md).
 
@@ -65,7 +66,7 @@ Para utilizar un subdominio que ya está delegado en Adobe, siga los pasos a con
 
    >[!NOTE]
    >
-   >Antes de poder utilizar ese subdominio para enviar mensajes, debe esperar hasta que el Adobe realice las comprobaciones necesarias, que pueden tardar hasta 4 horas.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   >Antes de poder usar ese subdominio para enviar mensajes, debe esperar hasta que el Adobe realice las comprobaciones necesarias, que pueden tardar hasta 4 horas.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. Una vez realizadas las comprobaciones correctamente, el subdominio recibe la variable **[!UICONTROL Success]** estado. Está listo para utilizarse para crear ajustes preestablecidos de página de aterrizaje.
 
@@ -91,7 +92,7 @@ Para configurar un nuevo subdominio, siga los pasos a continuación.
 
    Los subdominios de varios niveles, como &quot;email.marketing.yourcompany.com&quot;, no son compatibles actualmente.
 
-1. Se muestra el registro que se va a colocar en los servidores DNS. Copie este registro o descargue un archivo CSV y, a continuación, vaya a la solución de alojamiento de dominio para generar el registro DNS correspondiente.
+1. Se muestra el registro que se va a colocar en los servidores DNS. Copie este registro o descargue un archivo CSV y, a continuación, vaya a la solución de alojamiento de dominios para generar el registro DNS correspondiente.
 
 1. Asegúrese de que el registro DNS se haya generado en la solución de alojamiento de dominios. Si todo está configurado correctamente, marque la casilla &quot;Confirmo...&quot; y luego haga clic en **[!UICONTROL Submit]**.
 
@@ -105,7 +106,7 @@ Para configurar un nuevo subdominio, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Antes de poder utilizar ese subdominio para enviar mensajes, debe esperar hasta que el Adobe realice las comprobaciones necesarias, que pueden tardar hasta 4 horas.<!--Learn more in [this section](#subdomain-validation).-->
+   >Antes de poder usar ese subdominio para enviar mensajes, debe esperar hasta que el Adobe realice las comprobaciones necesarias, que pueden tardar hasta 4 horas.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. Una vez realizadas las comprobaciones correctamente, el subdominio recibe la variable **[!UICONTROL Success]** estado. Está listo para utilizarse para crear ajustes preestablecidos de página de aterrizaje.
 
