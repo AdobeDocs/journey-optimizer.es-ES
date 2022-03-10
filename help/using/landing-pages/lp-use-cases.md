@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 20%
+source-wordcount: '901'
+ht-degree: 18%
 
 ---
 
@@ -160,7 +160,7 @@ Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya
 
 ![](assets/lp_opt-out-profile-choice.png)
 
-En la pestaña **[!UICONTROL Attributes]**, puede ver que el valor de **[!UICONTROL choice]** ha cambiado a **[!UICONTROL no]**.
+En el **[!UICONTROL Attributes]** , puede ver que el valor de **[!UICONTROL choice]** ha cambiado a **[!UICONTROL no]**.
 
 <!--
 
