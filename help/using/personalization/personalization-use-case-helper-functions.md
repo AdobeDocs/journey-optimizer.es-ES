@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 4%
+source-wordcount: '1040'
+ht-degree: 3%
 
 ---
 
@@ -24,6 +24,8 @@ Utilizará estos tipos de funciones de ayuda:
 * La variable `if` para insertar una nota específica del producto si el producto relacionado está en el carro de compras. [Más información](functions/helpers.md#if-function).
 
 <!-- **Context**: personalization based on contextual data from the journey -->
+
+➡️ [Aprenda a utilizar las funciones de ayuda en este vídeo](#video)
 
 Antes de comenzar, asegúrese de que sabe cómo configurar estos elementos:
 * Un mensaje de correo electrónico. [Más información](../messages/create-message.md)
@@ -338,6 +340,8 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
 * [Personalización con oferta basada en decisiones](../offers/offers-e2e.md)
 
-## Tutorial en vídeo{#helper-functions-video}
+## Vídeo explicativo{#video}
+
+Aprenda a utilizar las funciones de ayuda.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
