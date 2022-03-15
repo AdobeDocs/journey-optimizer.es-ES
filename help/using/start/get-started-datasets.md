@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo utilizar conjuntos de datos de Ado
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '261'
 ht-degree: 26%
 
 ---
@@ -19,7 +19,7 @@ Obtenga información sobre cómo crear conjuntos de datos en [esta documentació
 
 Añadir datos a Adobe Experience Platform es la base para crear un perfil. A continuación, podrá aprovechar los perfiles en [!DNL Adobe Journey Optimizer]. En primer lugar, defina esquemas, utilice herramientas de ETL para preparar y estandarizar sus datos y, a continuación, cree conjuntos de datos basados en sus esquemas.
 
-➡️ [Obtenga información sobre cómo crear y configurar un conjunto de datos](#video-dataset) (vídeo)
+➡️ [Aprenda a crear y configurar un conjunto de datos en este vídeo](#video-dataset)
 
 La variable **Conjuntos de datos** espacio de trabajo [!DNL Adobe Journey Optimizer] la interfaz de usuario de le permite explorar datos y crear conjuntos de datos.
 
