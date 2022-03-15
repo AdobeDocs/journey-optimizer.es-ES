@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 52%
+source-wordcount: '820'
+ht-degree: 56%
 
 ---
 
@@ -21,10 +21,6 @@ ht-degree: 52%
 >abstract="Un evento está vinculado a una persona. Se refiere al comportamiento de una persona (por ejemplo, una persona compró un producto, visitó una tienda, salió de un sitio web, etc.) o algo que suceda vinculado a una persona (por ejemplo, una persona alcanzó 10 000 puntos de lealtad). Esto es lo que escucha [!DNL Journey Optimizer] en los recorridos para orquestar las mejores próximas acciones."
 
 La configuración de eventos permite definir la información que [!DNL Journey Optimizer] recibirá como eventos. Puede utilizar varios eventos (en diferentes pasos de un recorrido) y varios recorridos pueden utilizar el mismo evento.
-
->[!NOTE]
->
->Para obtener más información sobre cómo configurar un evento, consulte la [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
 
 >[!CAUTION]
 >
@@ -40,6 +36,8 @@ Puede configurar dos tipos de eventos:
 >[!NOTE]
 >
 >Si edita un evento utilizado en un recorrido en borrador o activo, solo puede cambiar el nombre, la descripción o agregar campos de carga útil. Limitamos estrictamente la edición de los recorridos en borrador o en directo para evitar que se rompan.
+
+➡️ [Descubra esta función en vídeo](#video)
 
 ## Tipo de ID de evento{#event-id-type}
 
@@ -66,3 +64,13 @@ La carga útil contiene la información requerida por las API de ingesta de tran
 Después de llegar a través de las API de ingesta de transmisión, los eventos fluyen a un servicio interno llamado Canalización y, a continuación, a Adobe Experience Platform. Si el esquema de evento tiene habilitado el indicador de Servicio de Perfil del cliente en tiempo real y un ID de conjunto de datos que también tiene el indicador de Perfil del cliente en tiempo real, se desplaza al servicio de Perfil del cliente en tiempo real.
 
 Para los eventos generados por el sistema, la canalización filtra los eventos que tienen una carga útil que contiene [!DNL Journey Optimizer] eventIDs (consulte el proceso de creación de eventos a continuación) proporcionado por [!DNL Journey Optimizer] y contenido en la carga útil de evento. En el caso de los eventos basados en reglas, el sistema identifica el evento utilizando la condición eventID . Estos eventos son escuchados por [!DNL Journey Optimizer] y se activa el recorrido correspondiente.
+
+## Vídeotutoriales {#video}
+
+Aprenda a configurar un evento y a especificar su punto final de reproducción y la carga útil.
+
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
+
+Comprenda los casos de uso aplicables a los eventos empresariales. Obtenga información sobre cómo crear un recorrido mediante un evento empresarial y las prácticas recomendadas que se deben aplicar.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
