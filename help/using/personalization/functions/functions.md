@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1346'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 Uso [!DNL Journey Optimizer] crear plantillas de idioma para realizar operaciones con datos, como cálculos, formato de datos o conversiones, condiciones y manipularlas en el contexto de la personalización. Conozca las directrices de sintaxis de personalización en [esta página](../personalization-syntax.md).
 
-➡️ [Descubra cómo utilizar las funciones de ayuda](#video) (vídeo)
+➡️ [Aprenda a utilizar las funciones de ayuda en este vídeo](#video)
 
 El lenguaje de plantilla se aprovecha en las funciones de ayuda disponibles en la lista desplegable de personalización del Editor de expresiones, como se muestra a continuación:
 
