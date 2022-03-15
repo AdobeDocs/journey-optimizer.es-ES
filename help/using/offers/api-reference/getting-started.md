@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 6%
+source-wordcount: '617'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 Esta guía para desarrolladores proporciona los pasos para ayudarle a empezar a usar el [!DNL Offer Library] API. A continuación, la guía proporciona ejemplos de llamadas de API para realizar operaciones clave mediante el motor de gestión de decisiones.
 
-➡️ [Descubra esta función en vídeo](#video)
+➡️ [Obtenga más información sobre los componentes de la gestión de decisiones en este vídeo](#video)
 
 ## Requisitos previos {#prerequisites}
 
@@ -128,12 +128,12 @@ Una respuesta correcta devuelve información sobre los contenedores de administr
 
 Este documento abarcaba los conocimientos previos necesarios para realizar llamadas al [!DNL Offer Library] , incluida la adquisición del ID de contenedor. Ahora puede continuar con las llamadas de ejemplo que se proporcionan en esta guía para desarrolladores y seguir junto con sus instrucciones.
 
-## Tutorial en vídeo {#video}
+## Vídeo explicativo {#video}
 
 El siguiente vídeo pretende contribuir a su comprensión de los componentes de la gestión de decisiones.
+
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
 
 >[!NOTE]
 >
 >Este vídeo se aplica al servicio de aplicaciones de Offer decisioning creado en Adobe Experience Platform. Sin embargo, proporciona una guía genérica para utilizar Offer en el contexto de Journey Optimizer.
-
->[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
