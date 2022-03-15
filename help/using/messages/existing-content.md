@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 9%
+source-wordcount: '366'
+ht-degree: 16%
 
 ---
 
 # Importación o codificación del contenido del correo electrónico {#existing-content}
 
 Journey Optimizer le permite importar contenido de HTML existente para diseñar sus correos electrónicos. Este contenido puede ser código HTML sin procesar o contenido de un archivo HTML existente o una carpeta zip.
+
+➡️ [Descubra esta función en vídeo](#video)
 
 Para codificar el contenido del HTML o importar contenido existente, siga los pasos a continuación:
 
@@ -79,3 +81,9 @@ Para importar un archivo con contenido de HTML, siga los pasos a continuación:
 1. Una vez cargado el contenido del HTML, puede aprovechar las funcionalidades del Diseñador de correo electrónico para editar y previsualizar el correo electrónico. [Obtenga más información en esta sección](create-email-content.md).
 
    ![](assets/html-imported.png)
+
+## Vídeo explicativo {#video}
+
+Obtenga información sobre cómo importar contenido HTML existente, modificar el diseño, añadir páginas espejo y cancelar la suscripción de vínculos, y cómo codificar el contenido.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)
