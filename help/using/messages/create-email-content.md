@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 0%
+source-wordcount: '1505'
+ht-degree: 1%
 
 ---
 
 # Diseño del contenido del correo electrónico en la interfaz de usuario {#create-email-content}
 
 Una vez que haya [crear el mensaje](create-message.md), puede empezar a crear su contenido de correo electrónico.
+
+➡️ [Descubra esta función en vídeo](#video)
 
 1. En el mensaje recién creado, seleccione **[!UICONTROL Email designer]** en el **[!UICONTROL Body]** para obtener más información.
 
@@ -282,3 +284,9 @@ En la interfaz del Diseñador de correo electrónico, al seleccionar un elemento
 1. Modifique los valores de los atributos existentes o agregue otros nuevos utilizando la variable **+** botón. Puede añadir cualquier atributo y valor que sea compatible con CSS.
 
 A continuación, el estilo se aplica al elemento seleccionado. Si los elementos secundarios no tienen atributos de estilo específicos definidos, se hereda el estilo del elemento principal.
+
+## Vídeo explicativo {#video}
+
+Aprenda a crear contenido de correo electrónico con el editor de mensajes.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
