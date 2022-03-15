@@ -4,9 +4,9 @@ description: Aprenda a configurar su entorno para crear y utilizar páginas de a
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8c7239aa399f5e172762c9d93d9c03832501adb0
+source-git-commit: 2cee54221871979bb1ae2c8b7990debe1c80ce67
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '813'
 ht-degree: 2%
 
 ---
@@ -17,8 +17,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
->title="Configurar subdominios de página de aterrizaje"
->abstract="Para poder seleccionar un subdominio, asegúrese de haber configurado previamente al menos un subdominio de página de aterrizaje."
+>title="Crear un ajuste preestablecido de página de aterrizaje"
+>abstract="Para poder crear un ajuste preestablecido de página de aterrizaje, asegúrese de haber configurado previamente al menos un subdominio de página de aterrizaje para elegir desde el **Nombre de subdominio** lista."
 
 Para poder [crear ajustes preestablecidos de página de aterrizaje](#lp-create-preset), debe configurar los subdominios que desea utilizar para las páginas de aterrizaje.
 
