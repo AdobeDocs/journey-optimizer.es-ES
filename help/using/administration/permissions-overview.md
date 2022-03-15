@@ -6,16 +6,18 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 19%
+source-wordcount: '193'
+ht-degree: 22%
 
 ---
 
 # Información general sobre la administración de usuarios {#permissions-overview}
 
 [!DNL Journey Optimizer] le permite definir y administrar los permisos asignados a distintos usuarios. Los permisos son un conjunto de derechos y restricciones que autorizan o deniegan el acceso a las funciones y capacidades del producto.
+
+➡️ [Obtenga más información sobre el sistema de control de acceso de Adobe Journey Optimizer en este vídeo](#video)
 
 Administración de usuarios en [!DNL Journey Optimizer] se basa en tres conceptos:
 
@@ -28,3 +30,9 @@ Administración de usuarios en [!DNL Journey Optimizer] se basa en tres concepto
 Cada concepto puede ser administrado por **[!UICONTROL Product administrators]** que tienen acceso a Admin Console. [Obtenga más información acerca de Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
 
 ![](assets/do-not-localize/permissions_2.png)
+
+## Vídeo explicativo{#video}
+
+Obtenga más información sobre el sistema de control de acceso de Adobe Journey Optimizer y los ocho perfiles de producto personalizados. Aprenda a administrar perfiles y permisos de productos, y a añadir y administrar usuarios.
+
+>[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)
