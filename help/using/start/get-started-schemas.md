@@ -5,9 +5,9 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '322'
 ht-degree: 11%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 Los esquemas son la forma estándar de describir los datos en Experience Platform, lo que permite reutilizar en una organización todos los datos que se ajustan a esquemas, o incluso compartirlos entre varias organizaciones.
 
-➡️ [Descubra cómo crear y configurar un esquema](#video-schema) (vídeo)
+➡️ [Aprenda a crear y configurar un esquema en este vídeo](#video-schema) (vídeo)
 
 Un esquema es un conjunto de reglas que representan y validan la estructura y el formato de los datos. En un nivel superior, los esquemas proporcionan una definición abstracta de un objeto real (como una persona) y describen qué datos deben incluirse en cada instancia de ese objeto (como nombre, apellido, cumpleaños, etc.).
 
