@@ -4,7 +4,7 @@ description: Aprenda a configurar su entorno para crear y utilizar páginas de a
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 8c7239aa399f5e172762c9d93d9c03832501adb0
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 ## Configurar subdominios de página de aterrizaje {#lp-subdomains}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_configure_subdomain"
+>id="ajo_admin_config_lp_subdomain"
 >title="Configurar subdominios de página de aterrizaje"
 >abstract="Para poder seleccionar un subdominio, asegúrese de haber configurado previamente al menos un subdominio de página de aterrizaje."
 
