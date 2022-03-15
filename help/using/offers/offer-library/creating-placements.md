@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 17%
+source-wordcount: '225'
+ht-degree: 16%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 Una ubicación ayuda a garantizar que el contenido de oferta correcto se muestre en la ubicación correcta dentro del mensaje. Al agregar contenido a una oferta, se le pedirá que seleccione una ubicación en la que se pueda mostrar dicho contenido.
 
-➡️ [Descubra esta función en vídeo](#video)
+➡️ [Aprenda a crear ubicaciones en este vídeo](#video)
 
 En el ejemplo siguiente, hay tres ubicaciones que corresponden a diferentes tipos de contenido (imagen, texto, HTML).
 
@@ -48,10 +48,12 @@ Para crear una ubicación, siga estos pasos:
 
    ![](../assets/placement_created.png)
 
-## Tutorial en vídeo {#video}
+## Vídeo explicativo{#video}
+
+Obtenga información sobre cómo crear ubicaciones en Offer Decisioning.
+
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 
 >[!NOTE]
 >
 >Este vídeo se aplica al servicio de aplicaciones de Offer decisioning creado en Adobe Experience Platform. Sin embargo, proporciona una guía genérica para utilizar Offer en el contexto de Journey Optimizer.
-
->[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
