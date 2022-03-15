@@ -5,10 +5,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -52,10 +52,10 @@ Para crear una oferta de reserva, siga estos pasos:
 
    ![](../assets/fallback_created.png)
 
-## Tutorial en vídeo {#video}
+## Vídeo explicativo {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 
 >[!NOTE]
 >
 >Este vídeo se aplica al servicio de aplicaciones de Offer decisioning creado en Adobe Experience Platform. Sin embargo, proporciona una guía genérica para utilizar Offer en el contexto de Journey Optimizer.
-
->[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
