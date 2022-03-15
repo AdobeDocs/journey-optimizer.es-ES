@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '908'
-ht-degree: 100%
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+workflow-type: tm+mt
+source-wordcount: '907'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ Los beneficios incluyen:
 * Flujos de trabajo mejorados: En lugar de crear varios envíos o campañas, los equipos de marketing pueden mejorar los flujos de trabajo creando un único envío y variar las ofertas en diferentes partes de la plantilla,
 * Controle la cantidad de veces que se muestra una oferta entre campañas y clientes.
 
-➡️ [Vea estos tutoriales en vídeo](#tutorial-videos) para obtener más información sobre Gestión de decisiones.
+➡️ [Obtenga más información sobre la administración de decisiones en estos vídeos](#video)
 
 ## Acerca de las ofertas y las decisiones {#about-offers-and-decisions}
 
@@ -102,8 +102,7 @@ A continuación, se muestra la lista de los conceptos principales con los que tr
 
 * **Representaciones**: una representación es la información que usa un canal, como la ubicación o el idioma para mostrar una oferta.
 
-
-## Tutoriales en vídeo {#tutorial-videos}
+## Vídeotutoriales{#video}
 
 >[!NOTE]
 >
@@ -120,3 +119,5 @@ El siguiente vídeo proporciona una introducción a las funciones clave, la arqu
 El siguiente vídeo muestra cómo utilizar Administración de decisiones para definir y administrar sus ofertas, así como para aprovechar los datos de clientes en tiempo real.
 
 >[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
+
+
