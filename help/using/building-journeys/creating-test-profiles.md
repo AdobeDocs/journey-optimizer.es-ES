@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1334'
 ht-degree: 3%
 
 ---
@@ -28,6 +28,8 @@ Existen varias formas de crear perfiles de prueba. Puede encontrar en esta pági
 También puede cargar un archivo json en un conjunto de datos existente. Para obtener más información, consulte [Documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target=&quot;_blank&quot;}.
 
 Tenga en cuenta que la creación de un perfil de prueba es similar a la creación de perfiles normales en Adobe Experience Platform. Para obtener más información, consulte [Documentación del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target=&quot;_blank&quot;}.
+
+➡️ [Aprenda a crear perfiles de prueba en este vídeo](#video)
 
 ## Requisitos previos {#test-profile-prerequisites}
 
@@ -227,3 +229,8 @@ curl -X POST \
 }
 }'
 ```
+## Vídeo explicativo {#video}
+
+Obtenga información sobre cómo crear perfiles de prueba.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)
