@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 0%
+source-wordcount: '617'
+ht-degree: 1%
 
 ---
 
 # Monitorización de mensajes {#monitor-message-execution}
 
 Para asegurarse de que los mensajes se ejecutan, envían y envían correctamente, [!DNL Journey Optimizer] ofrece funciones para supervisar los mensajes que se publican y activan actualmente. Puede ver el rendimiento de sus mensajes en los distintos recorridos <!--and APIs--> en tiempo real desde el **[!UICONTROL Executions]** lista.
+
+➡️ [Descubra esta función en vídeo](#video)
 
 Para acceder a esta lista, vaya a la **[!DNL Journey Optimizer]** página principal, seleccione **[!UICONTROL Messages]** y haga clic en el botón **[!UICONTROL Executions]** pestaña .
 
@@ -93,3 +95,9 @@ En **Vista global** solo, puede elegir si desea mostrar los datos como números,
 ![](assets/message-execution-data-format.png)
 
 Al hacer clic en cada hipervínculo, se abrirá la vista de resumen del mensaje correspondiente. [Más información sobre los mensajes](create-message.md).
+
+## Vídeo explicativo {#video}
+
+Obtenga más información sobre los informes en directo y globales, cómo acceder y analizar el Recorrido y los informes específicos de mensajes, y cómo modificar los tableros de informes.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334108?quality=12)
