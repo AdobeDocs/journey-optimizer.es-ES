@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 95c6b69aa881a691b96a073dd89bb448c9a25283
+source-git-commit: 150ad7b36f23f183d7724bdb4b69fa55d30ea4f1
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_collection"
 >title="Acerca de las colecciones de ofertas"
->abstract="Con las colecciones de ofertas, puede organizar las ofertas reagrupándolas en categorías de su elección.
+>abstract="Con las colecciones de ofertas, puede organizar las ofertas reagrupándolas en categorías de su elección."
 
 Las colecciones permiten organizar las ofertas reagrupándolas en categorías de su elección. Por ejemplo, puede crear una colección &quot;deportiva&quot; que contenga únicamente ofertas relacionadas con el deporte.
 
