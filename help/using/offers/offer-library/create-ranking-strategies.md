@@ -7,18 +7,28 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 6%
+source-wordcount: '693'
+ht-degree: 5%
 
 ---
 
 # Creación de modelos de IA {#ai-rankings}
 
+[!DNL Journey Optimizer] permite crear **Modelos de IA** para clasificar las ofertas según los objetivos comerciales.
+
+>[!CAUTION]
+>
+>Para crear, editar o eliminar modelos de IA, debe tener la variable **Administrar estrategias de clasificación** permiso. [Más información](../../administration/high-low-permissions.md#manage-ranking-strategies)
+>
+>Actualmente, el uso de modelos de IA está disponible en acceso anticipado solo para usuarios seleccionados.
+
+Una vez creado un modelo de IA, asígnelo a una colocación en una decisión. Obtenga más información en [Configurar la selección de ofertas en decisiones](../offer-activities/configure-offer-selection.md).
+
 ## Crear una estrategia de clasificación {#create-ranking-strategy}
 
-Para crear una estrategia de clasificación, siga los pasos a continuación:
+Para crear un modelo de IA como estrategia de clasificación, siga los pasos a continuación:
 
 1. Acceda a la **[!UICONTROL Components]** y, a continuación, seleccione **[!UICONTROL AI rankings]** pestaña .
 
@@ -48,7 +58,7 @@ Para crear una estrategia de clasificación, siga los pasos a continuación:
       * **[!UICONTROL Impression]**: Los eventos de impresión actuales corresponden a todas las ofertas que se muestran.
       * **[!UICONTROL Conversion]**: Los eventos de conversión corresponden a todas las ofertas que resultan en clics a través del correo electrónico o la web.
 
-      Todos los eventos de impresión o de conversión seleccionados se capturarán automáticamente mediante el SDK web o el SDK móvil que se haya proporcionado. Obtenga más información sobre esto en [Información general del SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es).
+      Todos los eventos de impresión o de conversión seleccionados se capturarán automáticamente mediante el SDK web o el SDK de Mobile que se haya proporcionado. Obtenga más información sobre esto en [Información general del SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es).
 
    * **[!UICONTROL Dataset ID]**: Para la conversión, debe proporcionar un conjunto de datos donde se recopilen los eventos seleccionándolo en la lista desplegable. Obtenga información sobre cómo crear este conjunto de datos en [esta sección](#create-dataset). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
