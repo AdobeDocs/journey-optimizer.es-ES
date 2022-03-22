@@ -5,9 +5,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 2a27c19766c84d8c65e8b21ba381754758d60cae
+source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -275,9 +275,9 @@ Incluye los siguientes permisos de bajo nivel:
    * datasets.read
    * profiles.read
 
-### [!DNL Manage ranking strategies] permiso {#manage-decisions}
+### [!DNL Manage ranking strategies] permiso {#manage-ranking-strategies}
 
-La variable **[!DNL Manage ranking strategies]** los permisos de alto nivel permiten a los usuarios leer, crear, editar y eliminar informes de mensajes personalizados, así como utilizar funciones de acción.
+La variable **[!DNL Manage ranking strategies]** los permisos de alto nivel permiten a los usuarios leer, crear, editar y eliminar estrategias de clasificación.
 
 Incluye los siguientes permisos de bajo nivel:
 
