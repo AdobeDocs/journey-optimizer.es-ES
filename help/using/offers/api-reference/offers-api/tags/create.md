@@ -1,15 +1,15 @@
 ---
-title: Creación de etiquetas
+title: Crear una etiqueta
 description: Las etiquetas permiten organizar y ordenar mejor las ofertas.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 11%
+source-wordcount: '129'
+ht-degree: 12%
 
 ---
 
