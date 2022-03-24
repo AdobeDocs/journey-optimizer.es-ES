@@ -3,9 +3,9 @@ title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ca9cb62770c1c50b2683486de48435d5b47b8729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2697'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear y diseñar páginas de aterrizaje en Journey Optimizer y dirigir a los usuarios a formularios en línea en los que pueden aceptar o rechazar la recepción de comunicaciones, o suscribirse a un servicio específico, como un boletín informativo.</p>
-<p>Para obtener más información, consulte la <a href="../landing-pages/create-lp.md">documentación detallada</a> y el <a href="../landing-pages/lp-use-cases.md">ejemplo de uso</a> relacionado.</p>
+<p>Ahora puede crear y diseñar páginas de aterrizaje en Journey Optimizer y dirigir a los usuarios a formularios en línea en los que pueden optar por su inclusión o exclusión en la recepción de comunicaciones, o suscribirse a un servicio específico, como una newsletter.</p>
+<p>Para obtener más información, consulte la <a href="../landing-pages/create-lp.md">documentación detallada</a> y el <a href="../landing-pages/lp-use-cases.md">caso de uso de muestra</a> relacionado.</p>
 </td>
 </tr>
 </tbody>
@@ -44,7 +44,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ahora proporciona una biblioteca en la que puede acceder a las expresiones de personalización predefinidas. Estas expresiones las configuran los usuarios administradores.</p>
+<p>Journey Optimizer ahora proporciona una biblioteca en la que puede acceder a expresiones de personalización predefinidas. Estas expresiones las configuran los usuarios administradores.</p>
 <p>Para obtener más información, consulte la <a href="../personalization/personalization-library.md">documentación detallada</a>.</p>
 </td>
 </tr>
