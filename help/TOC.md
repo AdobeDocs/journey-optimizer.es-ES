@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para ofrecer experiencias cone
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a2a94f27ddf36392a8dea31c5c159bf3db041f4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 98%
       + Trabajo con el Editor de expresiones {#expression-editor}
          + [Acerca del Editor de expresiones](using/personalization/personalization-build-expressions.md)
          + [Adición de atributos a favoritos](using/personalization/personalization-favorites.md)
-         + [Trabajar con expresiones guardadas](using/personalization/personalization-library.md)
+         + [Uso de expresiones guardadas](using/personalization/personalization-library.md)
          + [Validación de personalización](using/personalization/personalization-validation.md)
       + Funciones de ayuda{#functions}
          + [Introducción a las funciones de ayuda](using/personalization/functions/functions.md)
@@ -244,7 +244,7 @@ ht-degree: 98%
       + [Crear reglas de decisión](using/offers/offer-library/creating-decision-rules.md)
       + [Crear etiquetas](using/offers/offer-library/creating-tags.md)
       + [Crear fórmulas de clasificación](using/offers/offer-library/create-ranking-formulas.md)
-      + Creación de modelos de clasificación de AI {#create-ai-ranking-models}
+      + Creación de modelos de clasificación de IA {#create-ai-ranking-models}
          + [Acerca de los modelos de IA](using/offers/offer-library/ai-ranking.md)
          + [Creación de modelos de IA](using/offers/offer-library/create-ranking-strategies.md)
    + Crear y administrar ofertas {#managing-offers-in-the-offer-library}
@@ -337,8 +337,8 @@ ht-degree: 98%
             + [Reintentos](using/configuration/retries.md)
          + [Cambiar la dirección principal del correo electrónico](using/configuration/primary-email-addresses.md)
       + [Configuración del canal de SMS](using/configuration/sms-configuration.md)
-      + [Crear ajustes preestablecidos de mensaje](using/configuration/message-presets.md)
-   + [Configuración de las páginas de destino](using/configuration/lp-configuration.md)
+      + [Creación de ajustes preestablecidos de mensaje](using/configuration/message-presets.md)
+   + [Configuración de las páginas de aterrizaje](using/configuration/lp-configuration.md)
    + Configurar recorridos {#configure-journeys}
       + [Acerca de las fuentes de datos, los eventos y las acciones](using/configuration/about-data-sources-events-actions.md)
       + [Integración con sistemas externos](using/configuration/external-systems.md)
