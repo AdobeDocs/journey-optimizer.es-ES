@@ -3,9 +3,9 @@ title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1001'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Marzo de 2022 {#march-2022}
 
-* Se ha añadido una nueva página sobre cómo empezar a usar modelos de IA a la **Offer decisioning** , incluida una descripción detallada del [modelo de optimización automática](../offers/offer-library/ai-ranking.md#auto-optimization), el algoritmo que utiliza y más detalles técnicos. [Más información](../offers/offer-library/ai-ranking.md)
+* Se ha añadido una nueva página sobre cómo empezar a usar modelos de IA a la sección **Offer Decisioning**, que incluye una descripción detallada del [modelo de optimización automática](../offers/offer-library/ai-ranking.md#auto-optimization), el algoritmo que utiliza y más detalles técnicos. [Más información](../offers/offer-library/ai-ranking.md)
 
 ## Febrero de 2022 {#feb-2022}
 
