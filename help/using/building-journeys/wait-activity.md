@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '416'
 ht-degree: 5%
 
 ---
 
 # Actividad de espera{#wait-activity}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_wait"
+>title="Actividad de espera"
+>abstract="Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar una actividad Wait . Le permite definir el momento en el que se ejecutará la siguiente actividad. Hay tres opciones disponibles: duración, fecha fija y personalizado."
 
 Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar un **[!UICONTROL Wait]** actividad. Le permite definir el momento en el que se ejecutará la siguiente actividad. Hay tres opciones disponibles:
 
