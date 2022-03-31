@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 3%
@@ -28,8 +28,8 @@ Utilizará estos tipos de funciones de ayuda:
 ➡️ [Aprenda a utilizar las funciones de ayuda en este vídeo](#video)
 
 Antes de comenzar, asegúrese de que sabe cómo configurar estos elementos:
-* Un mensaje de correo electrónico. [Más información](../messages/create-message.md)
-* El cuerpo de un correo electrónico. [Más información](../messages/create-email-content.md).
+* Un mensaje de correo electrónico. [Más información](../messages/get-started-content.md)
+* El cuerpo de un correo electrónico. [Más información](../design/create-email-content.md).
 * Un evento unitario. [Más información](../event/about-events.md).
 * Recorrido que comienza con un evento. [Más información](../building-journeys/using-the-journey-designer.md).
 
@@ -147,7 +147,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
       **[!UICONTROL Contextual attributes]** solo están disponibles después de que el contexto de recorrido se haya pasado al mensaje.
 
-   1. Select **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]*** y, a continuación, expanda la variable **[!UICONTROL productListItems]** nodo .
+   1. Select **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]*** y, a continuación, expanda la variable **[!UICONTROL productListItems]** nodo .
 
       En este ejemplo, *event_name* representa el nombre del evento.
 
@@ -338,7 +338,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
 * [Personalización con información de perfil, contexto y oferta](personalization-use-case.md)
 
-* [Personalización con oferta basada en decisiones](../offers/offers-e2e.md)
+* [Personalization con oferta basada en decisiones](../offers/offers-e2e.md)
 
 ## Vídeo explicativo{#video}
 
