@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 15%
@@ -29,7 +29,7 @@ Al crear un correo electrónico, puede añadir personalización en la variable *
 
 En el Diseñador de correo electrónico, puede personalizar el contenido:
 
-* En el **message**: haga clic dentro de un bloque de texto y haga clic en el botón **Personalizar** en la barra de herramientas contextual y seleccione **Insertar personalización** campo . Para obtener más información sobre la interfaz del Diseñador de correo electrónico, consulte esta [sección](../messages/design-emails.md).
+* En el **message**: haga clic dentro de un bloque de texto y haga clic en el botón **Personalizar** en la barra de herramientas contextual y seleccione **Insertar personalización** campo . Para obtener más información sobre la interfaz del Diseñador de correo electrónico, consulte esta [sección](../design/design-emails.md).
 
    ![](assets/perso_insert.png)
 
@@ -53,7 +53,7 @@ También puede personalizar su **Notificaciones push** en los campos siguientes:
 
 ![](assets/perso_push.png)
 
-Obtenga más información sobre la configuración de notificaciones push en [esta sección](../messages/push-gs.md).
+Obtenga más información sobre la configuración de notificaciones push en [esta sección](../configuration/push-gs.md).
 
 ## Personalización de las ofertas {#personalize-offers}
 
