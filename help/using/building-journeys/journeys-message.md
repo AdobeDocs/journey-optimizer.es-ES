@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '826'
 ht-degree: 6%
 
 ---
 
 # Adición de un mensaje en un recorrido{#add-a-message-in-a-journey}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_message"
+>title="Actividad del mensaje"
+>abstract="La actividad Mensaje le permite enviar un mensaje push o de correo electrónico. Las funcionalidades de mensajes de Journey Optimizer están incorporadas. El mensaje está diseñado y publicado en el menú Mensajes de Journey Optimizer."
 
 [!DNL Journey Optimizer] las funciones de mensajes están integradas, solo tiene que diseñar el contenido y publicar el mensaje. Consulte [esta sección](../messages/get-started-content.md). A continuación, simplemente agregue, en su recorrido, un mensaje push o de correo electrónico diseñado con Journey Optimizer.
 
