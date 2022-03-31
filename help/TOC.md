@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para ofrecer experiencias conectadas, contextuales y personalizadas a los clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a2a94f27ddf36392a8dea31c5c159bf3db041f4d
-workflow-type: ht
-source-wordcount: '925'
-ht-degree: 100%
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+workflow-type: tm+mt
+source-wordcount: '966'
+ht-degree: 93%
 
 ---
 
@@ -30,33 +30,38 @@ ht-degree: 100%
    + [Limitaciones](using/start/limitations.md)
 + Mensajes {#messages}
    + [Introducción a los mensajes](using/messages/get-started-content.md)
-   + Creación de mensajes {#create-message}
-      + [Creación de un mensaje ](using/messages/create-message.md)
-      + [Crear un correo electrónico](using/messages/create-email.md)
-      + [Crear una notificación push](using/messages/create-push.md)
-      + [Creación de un mensaje SMS](using/messages/create-sms.md)
-   + [Adición y administración de recursos](using/messages/assets-essentials.md)
-   + [Adición de ofertas personalizadas](using/messages/deliver-personalized-offers.md)
-   + Diseño de correos electrónicos {#email-designer}
-      + [Introducción al diseño de correo electrónico](using/messages/design-emails.md)
-      + [Diseño del contenido del correo electrónico en la IU](using/messages/create-email-content.md)
-      + [Importación o codificación del contenido del correo electrónico](using/messages/existing-content.md)
-      + [Uso de los componentes de contenido del diseñador de correo electrónico](using/messages/content-components.md)
-   + [Adición de vínculos y seguimiento de mensajes](using/messages/message-tracking.md)
+   + [Crear un correo electrónico](using/messages/create-email.md)
+   + [Crear una notificación push](using/messages/create-push.md)
+   + [Creación de un mensaje SMS](using/messages/create-sms.md)
    + Validación y publicación {#validate}
-      + [Previsualización y pruebas](using/messages/preview.md)
       + [Comprobación de alertas](using/messages/alerts.md)
       + [Publicación de mensajes](using/messages/publish-manage-message.md)
    + [Administración del consentimiento](using/messages/consent.md)
++ Diseño de contenido {#design}
+   + [Introducción al diseño de correo electrónico](using/design/design-emails.md)
+   + [Empezar desde cero ](using/design/create-email-content.md)
+   + [Importar el contenido del correo electrónico](using/design/existing-content.md)
+   + [Codifique su propio contenido](using/design/code-content.md)
+   + Diseño de contenido {#design-content}
+      + [Uso de componentes de contenido](using/design/content-components.md)
+      + [Configuración de fondo](using/design/backgrounds.md)
+      + [Ajustar alineación vertical y relleno](using/design/adjusting-vertical-alignment-and-padding.md)
+      + [Definición de un estilo para los vínculos](using/design/styling-links.md)
+      + [Añadir atributos de estilo en línea](using/design/adding-inline-styling-attributes.md)
+   + Configuración de correo electrónico {#design-email}
+      + [Generar la versión de texto](using/design/text-version-email.md)
+      + [Añadir un encabezado previo](using/design/preheader.md)
+   + Adición y administración de recursos {#manage-asset}
+      + [Trabajar con Assets Essentials](using/design/assets-essentials.md)
+   + [Adición de ofertas personalizadas](using/design/deliver-personalized-offers.md)
+   + [Adición de vínculos y seguimiento de mensajes](using/design/message-tracking.md)
+   + [Previsualización y pruebas](using/design/preview.md)
 + Páginas de destino {#landing-pages}
    + [Introducción a las páginas de destino](using/landing-pages/get-started-lp.md)
    + [Creación de una página de destino](using/landing-pages/create-lp.md)
    + [Diseño de una página de destino](using/landing-pages/design-lp.md)
    + [Creación de una lista de suscripción](using/landing-pages/subscription-list.md)
    + [Casos de uso](using/landing-pages/lp-use-cases.md)
-   + Informes {#lp-reporting}
-      + [Informes de página de destino](using/landing-pages/lp-report.md)
-      + [Informes de la lista de suscripciones](using/landing-pages/subscription-report.md)
 + Personalización{#personalization}
    + [Introducción  a la personalización](using/personalization/personalize.md)
    + [Contextos de personalización](using/personalization/personalization-contexts.md)
@@ -85,13 +90,14 @@ ht-degree: 100%
    + Segmentos {#segments}
       + [Introducción a los segmentos](using/segment/about-segments.md)
       + [Generación de segmentos](using/segment/creating-a-segment.md)
-   + [Perfiles](using/start/get-started-profiles.md)
-   + [Identidades](using/start/get-started-identity.md)
+   + [Perfiles] {#profiles}
+      + [Introducción a los perfiles](using/segment/get-started-profiles.md)
+      + [Creación de perfiles de prueba](using/segment/creating-test-profiles.md)
+   + [Identidades](using/segment/get-started-identity.md)
 + Recorridos {#orchestrate-journeys}
    + Acerca de los recorridos{#about-journeys}
       + [Principio general](using/building-journeys/journey.md)
       + [Versiones de recorridos](using/building-journeys/journey-versions.md)
-      + [Creación de perfiles de prueba](using/building-journeys/creating-test-profiles.md)
       + [Integración con servicios inteligentes](using/building-journeys/ai-services-overview.md)
    + Creación de un recorrido{#create-journey}
       + [Introducción a los recorridos](using/building-journeys/journey-gs.md)
@@ -207,17 +213,21 @@ ht-degree: 100%
       + [Envío de un mensaje a los suscriptores](using/building-journeys/message-to-subscribers-uc.md)
       + [Aumento de envíos](using/building-journeys/ramp-up-deliveries-uc.md)
 + Seguimiento y monitorización {#reporting}
-   + [Monitorización de mensajes](using/messages/message-monitoring.md)
+   + [Monitorización de mensajes](using/reports/message-monitoring.md)
    + Informe en vivo {#live-report}
       + [Acceso al panel de informes activo](using/reports/live-report.md)
       + [Informe activo de recorrido](using/reports/journey-live-report.md)
       + [Informe activo de correo electrónico](using/reports/email-live-report.md)
       + [Informe activo push](using/reports/push-live-report.md)
+      + [Informe en directo de la página de aterrizaje](using/reports/lp-report-live.md)
+      + [Lista de suscripciones Informe activo](using/reports/subscription-report-live.md)
    + Informe global {#global-report}
       + [Acceso al panel de informes globales](using/reports/global-report.md)
       + [Informe global de recorrido](using/reports/journey-global-report.md)
       + [Informe global de correo electrónico](using/reports/email-global-report.md)
       + [Informe global push](using/reports/push-global-report.md)
+      + [Informe global de la página de aterrizaje](using/reports/lp-report-global.md)
+      + [Informe global de la lista de suscripciones](using/reports/subscription-report-global.md)
    + Informes de recorrido {#reports}
       + [Creación de informes de recorrido](using/reports/sharing-overview.md)
       + [Lista de campos de eventos de paso](using/reports/sharing-field-list.md)
@@ -230,9 +240,9 @@ ht-degree: 100%
          + [Campos de identidad](using/reports/sharing-identity-fields.md)
       + [Ejemplos de consultas](using/reports/query-examples.md)
    + Capacidad de entrega {#deliverability}
-      + [Introducción a la capacidad de entrega](using/messages/deliverability.md)
-      + [Lista de supresión](using/messages/suppression-list.md)
-      + [Lista de permitidos](using/messages/allow-list.md)
+      + [Introducción a la capacidad de entrega](using/reports/deliverability.md)
+      + [Lista de supresión](using/reports/suppression-list.md)
+      + [Lista de permitidos](using/reports/allow-list.md)
 + Administración de decisiones {#offer-decisioniong}
    + Introducción a la Administración de decisiones {#get-started-decision}
       + [Acerca de la Administración de decisiones](using/offers/get-started/starting-offer-decisioning.md)
@@ -313,6 +323,7 @@ ht-degree: 100%
          + [Eliminar una decisión](using/offers/api-reference/activities-api/activities/delete.md)
       + Entrega de ofertas mediante API {#offer-delivery}
          + [API de decisiones](using/offers/api-reference/decisions-api/deliver-offers.md)
+         + [API de decisiones por lotes](using/offers/api-reference/batch-api/deliver-offers-batch.md)
          + [SDK web de Adobe Experience Platform](using/offers/api-reference/web-sdk.md)
 + Administración de datos {#data-management}
    + [Esquemas](using/start/get-started-schemas.md)
@@ -322,8 +333,8 @@ ht-degree: 100%
    + [Introducción a la configuración de Journey Optimizer](using/configuration/get-started-configuration.md)
    + Configurar mensajes {#configuration-message}
       + Configuración de notificaciones push{#push-config}
-         + [Introducción a la configuración push](using/messages/push-gs.md)
-         + [Configurar el canal de notificaciones push](using/messages/push-configuration.md)
+         + [Introducción a la configuración push](using/configuration/push-gs.md)
+         + [Configurar el canal de notificaciones push](using/configuration/push-configuration.md)
       + Configuración de correo electrónico {#email-configuration}
          + Delegar subdominios {#delegate-subdomains}
             + [Introducción a la delegación de subdominios](using/configuration/about-subdomain-delegation.md)
@@ -338,6 +349,7 @@ ht-degree: 100%
          + [Cambiar la dirección principal del correo electrónico](using/configuration/primary-email-addresses.md)
       + [Configuración del canal de SMS](using/configuration/sms-configuration.md)
       + [Creación de ajustes preestablecidos de mensaje](using/configuration/message-presets.md)
+      + [Configuración de reglas de frecuencia](using/configuration/frequency-rules.md)
    + [Configuración de las páginas de aterrizaje](using/configuration/lp-configuration.md)
    + Configurar recorridos {#configure-journeys}
       + [Acerca de las fuentes de datos, los eventos y las acciones](using/configuration/about-data-sources-events-actions.md)
