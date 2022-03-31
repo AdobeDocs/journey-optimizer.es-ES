@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 22db9d3997e84d33ddb2febe7a07aaef4063a880
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 4%
+source-wordcount: '502'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ Además de [informes en tiempo real](live-report.md) y integrados [capacidades g
 
 >[!NOTE]
 >
->Esta función está activada de forma predeterminada en todas las instancias para eventos de pasos de recorrido. Para los eventos de paso del perfil de recorrido, la activación se realiza previa solicitud. No se pueden modificar ni actualizar los esquemas y conjuntos de datos que se han creado durante el aprovisionamiento de eventos de paso. De forma predeterminada, estos esquemas y conjuntos de datos están en modo de solo lectura.
+>Esta función está activada de forma predeterminada en todas las instancias para eventos de pasos de recorrido. No se pueden modificar ni actualizar los esquemas y conjuntos de datos que se han creado durante el aprovisionamiento de eventos de paso. De forma predeterminada, estos esquemas y conjuntos de datos están en modo de solo lectura.
 
 Por ejemplo, ha configurado un recorrido que envía varios correos electrónicos. Esta capacidad le permite combinar [!DNL Journey Optimizer] datos con datos de evento descendente como cuántas conversiones se produjeron, cuánta participación se produjo en el sitio web o cuántas transacciones se produjeron en la tienda. La información del recorrido se puede combinar con los datos de Adobe Experience Platform, ya sea de otras propiedades digitales o de propiedades sin conexión, para ofrecer una vista más completa del rendimiento.
 
@@ -31,11 +31,10 @@ La lista de campos XDM que se pasan es completa. Algunos contienen códigos gene
 >
 >Los conjuntos de datos no se pueden activar para el servicio de perfil en tiempo real. Asegúrese de que la variable **[!UICONTROL Profile]** la opción está desactivada.
 
-Recorrido envía los datos a medida que se producen de forma continua. Puede consultar estos datos mediante el servicio de consulta. Puede conectarse a Customer Journey Analytics u otras herramientas de BI para ver los datos relacionados con estos pasos.
+[!DNL Journey Optimizer] envía datos a medida que se producen, de forma continua. Puede consultar estos datos mediante el servicio de consulta. Puede conectarse a Customer Journey Analytics u otras herramientas de BI para ver los datos relacionados con estos pasos.
 
 Se crean los siguientes esquemas:
 
-* Esquema de evento de perfil de paso de recorrido para [!DNL Journey Orchestration] - Eventos de experiencia para los pasos realizados en un Recorrido junto con un mapa de identidad que se utilizará para la asignación a un participante de Recorrido individual.
 * Esquema de evento de paso de recorrido para [!DNL Journey Orchestration] : evento de paso de Recorrido vinculado a metadatos de Recorrido.
 * esquema de recorrido con campos de Recorrido para [!DNL Journey Orchestration] - Metadatos del Recorrido para describir los Recorridos.
 
@@ -45,7 +44,6 @@ Se crean los siguientes esquemas:
 
 Se pasan los siguientes conjuntos de datos:
 
-* Esquema de evento de perfil de paso de recorrido para [!DNL Journey Orchestration]
 * Eventos de los pasos del recorrido
 * Recorridos
 
@@ -60,9 +58,11 @@ Para obtener más información sobre los eventos de paso que generan informes a 
 
 ## Integración con el Customer Journey Analytics {#integration-cja}
 
-Los eventos de paso de Journey Optimizer se pueden vincular a otros conjuntos de datos en [Customer Journey Analytics de Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es). Este es el flujo de trabajo general:
+[!DNL Journey Optimizer] los eventos de paso se pueden vincular a otros conjuntos de datos en [Customer Journey Analytics de Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es){target=&quot;_blank&quot;}.
 
-* El Customer Journey Analytics ingesta el conjunto de datos &quot;Evento de paso de Recorrido&quot;.
-* La variable **profileID** en el &quot;esquema de evento de paso de Recorrido para Journey Orchestration&quot; asociado se define como un campo de identidad. En Customer Journey Analytics, puede vincular este conjunto de datos a cualquier otro conjunto de datos que tenga el mismo valor que el identificador basado en personas.
-* Si desea utilizar este conjunto de datos en Customer Journey Analytics, para el análisis de recorrido entre canales, consulte esta [documentación](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).
+El flujo de trabajo general es:
+
+* [!DNL Customer Journey Analytics] Ingesta el conjunto de datos &quot;Evento de paso de Recorrido&quot;.
+* La variable **profileID** en el &quot;esquema de evento de paso de Recorrido para Journey Orchestration&quot; asociado se define como un campo de identidad. En [!DNL Customer Journey Analytics], puede vincular este conjunto de datos a cualquier otro conjunto de datos que tenga el mismo valor que el identificador basado en personas.
+* Para usar este conjunto de datos en [!DNL Customer Journey Analytics], para el análisis de recorridos multicanal, consulte [documentación del Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target=&quot;_blank&quot;}.
 
