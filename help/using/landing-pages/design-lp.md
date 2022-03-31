@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 1%
@@ -21,15 +21,15 @@ Para empezar a crear contenido para el aterrizaje [página principal](create-lp.
 
 Desde allí puede:
 
-* **Diseño de la página de aterrizaje desde cero** a través de la interfaz del diseñador de contenido y aproveche las imágenes de [Adobe Experience Manager Assets Essentials](../messages/assets-essentials.md). Aprenda a diseñar su contenido o a utilizar plantillas integradas [en esta sección](../messages/create-email-content.md).
+* **Diseño de la página de aterrizaje desde cero** a través de la interfaz del diseñador de contenido y aproveche las imágenes de [Adobe Experience Manager Assets Essentials](../design/assets-essentials.md). Aprenda a diseñar su contenido o a utilizar plantillas integradas [en esta sección](../design/create-email-content.md).
 
-* **HTML sin procesar de código o pegado** directamente en el diseñador de contenido. Aprenda a codificar su propio contenido [en esta sección](../messages/existing-content.md#import-raw-html-code).
+* **HTML sin procesar de código o pegado** directamente en el diseñador de contenido. Aprenda a codificar su propio contenido [en esta sección](../design/code-content.md).
 
-* **Importar contenido de HTML existente** desde un archivo o una carpeta .zip. Obtenga información sobre cómo importar contenido [en esta sección](../messages/existing-content.md#import-html-content-from-file).
+* **Importar contenido de HTML existente** desde un archivo o una carpeta .zip. Obtenga información sobre cómo importar contenido [en esta sección](../design/existing-content.md).
 
 >[!NOTE]
 >
->El diseñador de contenido de páginas de aterrizaje es similar al diseñador de correo electrónico. Más información sobre [diseño de contenido con [!DNL Journey Optimizer]](../messages/design-emails.md).
+>El diseñador de contenido de páginas de aterrizaje es similar al diseñador de correo electrónico. Más información sobre [diseño de contenido con [!DNL Journey Optimizer]](../design/design-emails.md).
 
 ## Definición del contenido específico de una página de aterrizaje {#define-lp-specific-content}
 
