@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 6%
@@ -225,11 +225,11 @@ Los pasos detallados para crear y configurar una decisión se describen en [esta
 
 Ahora que su decisión está activa, puede insertarla en un mensaje de correo electrónico. Para ello, siga los pasos a continuación:
 
-1. Cree su correo electrónico y, a continuación, abra el [Diseñador de correo electrónico](../../using/messages/design-emails.md) para configurar su contenido.
+1. Cree su correo electrónico y, a continuación, abra el [Diseñador de correo electrónico](../../using/design/design-emails.md) para configurar su contenido.
 
 1. Añada un componente de estructura de la paleta izquierda.
 
-1. Agregue un **[!UICONTROL Offer decision]** componente de contenido. Aprenda a utilizar los componentes de contenido en [esta sección](../../using/messages/content-components.md).
+1. Agregue un **[!UICONTROL Offer decision]** componente de contenido. Aprenda a utilizar los componentes de contenido en [esta sección](../../using/design/content-components.md).
 
    ![](assets/offers-e2e-decision-component.png)
 
@@ -255,7 +255,7 @@ Ahora puede ver todas las ofertas personalizadas y la oferta de reserva visualiz
 
 ![](assets/offers-e2e-offers-displayed.png)
 
-Utilice la variable **[!UICONTROL Offers]** o las flechas de los componentes de contenido (flechas derecha e izquierda) para examinar los datos. También puede mostrar las diferentes ofertas que forman parte de la decisión con un perfil de cliente. Obtenga más información en [esta sección](../../using/messages/deliver-personalized-offers.md#preview-offers-in-email).
+Utilice la variable **[!UICONTROL Offers]** o las flechas de los componentes de contenido (flechas derecha e izquierda) para examinar los datos. También puede mostrar las diferentes ofertas que forman parte de la decisión con un perfil de cliente. Obtenga más información en [esta sección](../../using/design/deliver-personalized-offers.md#preview-offers-in-email).
 
 Después de guardar los cambios y una vez publicado el mensaje, las ofertas están listas para mostrarse a los perfiles relevantes al enviar el mensaje como parte de un recorrido.
 
@@ -265,7 +265,7 @@ Después de guardar los cambios y una vez publicado el mensaje, las ofertas est�
 
 **Temas relacionados:**
 
-* Obtenga información sobre cómo comprobar la vista previa del mensaje en [esta sección](../../using/messages/preview.md#preview-your-messages).
+* Obtenga información sobre cómo comprobar la vista previa del mensaje en [esta sección](../../using/design/preview.md#preview-your-messages).
 
 * Obtenga información sobre cómo publicar mensajes en [esta sección](../../using/messages/publish-manage-message.md).
 
