@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 2%
@@ -19,7 +19,7 @@ Cuando un mensaje de correo electrónico falla debido a una **Rechazo suave** , 
 
 >[!NOTE]
 >
->Obtenga más información sobre los tipos de errores en la [Tipos de errores de entrega](../messages/suppression-list.md#delivery-failures) para obtener más información.
+>Obtenga más información sobre los tipos de errores en la [Tipos de errores de entrega](../reports/suppression-list.md#delivery-failures) para obtener más información.
 
 En la configuración predeterminada, el umbral se establece en 5 errores.
 
@@ -45,7 +45,7 @@ Si el valor predeterminado de 5 no se adapta a sus necesidades, puede modificar 
 
    >[!CAUTION]
    >
-   >Cualquier valor superior a 10 puede causar problemas de reputación de envío, así como restricciones de IP o inclusión en la lista de bloqueados por parte de los ISP. [Más información sobre la capacidad de entrega](../messages/deliverability.md)
+   >Cualquier valor superior a 10 puede causar problemas de reputación de envío, así como restricciones de IP o inclusión en la lista de bloqueados por parte de los ISP. [Más información sobre la capacidad de entrega](../reports/deliverability.md)
 
 ## Período de tiempo de reintento {#retry-duration}
 
