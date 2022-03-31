@@ -1,19 +1,19 @@
 ---
-title: Crear ajustes preestablecidos de mensaje
+title: Creación de ajustes preestablecidos de mensaje
 description: Obtenga información sobre cómo configurar y supervisar los ajustes preestablecidos de mensajes
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 653a5483fbdeb7a0b78dadc55ec71663e3ff0247
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '2067'
 ht-degree: 1%
 
 ---
 
-# Crear ajustes preestablecidos de mensaje {#message-presets-creation}
+# Creación de ajustes preestablecidos de mensaje {#message-presets-creation}
 
 con [!DNL Journey Optimizer], puede configurar ajustes preestablecidos de mensajes que definan todos los parámetros técnicos necesarios para el mensaje de correo electrónico y los mensajes de notificaciones push: tipo de correo electrónico, correo electrónico y nombre del remitente, aplicaciones móviles, etc.
 
@@ -21,7 +21,7 @@ con [!DNL Journey Optimizer], puede configurar ajustes preestablecidos de mensaj
 >
 > * La configuración de los ajustes preestablecidos de mensaje está restringida a los administradores de Recorrido. [Más información](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * Debe realizar la configuración de correo electrónico y [Configuración push](../messages/push-configuration.md) pasos antes de crear ajustes preestablecidos de mensaje.
+> * Debe realizar la configuración de correo electrónico y [Configuración push](../configuration/push-configuration.md) pasos antes de crear ajustes preestablecidos de mensaje.
 
 
 Una vez configurados los ajustes preestablecidos de mensaje, puede seleccionarlos al crear mensajes desde el **[!UICONTROL Presets]** lista.
@@ -106,11 +106,47 @@ En el **DETALLES DEL GRUPO DE IP Y SUBDOMINIOS** , debe:
 
 1. Seleccione el grupo de IP que desea asociar al ajuste preestablecido. [Más información](ip-pools.md)
 
+### Cancelación de suscripción a una lista {#list-unsubscribe}
+
+upon [selección de un subdominio](#subdomains-and-ip-pools) de la lista, la variable **[!UICONTROL Enable List-Unsubscribe]** se muestra.
+
+![](assets/preset-list-unsubscribe.png)
+
+Esta opción está habilitada de manera predeterminada.
+
+Si lo deja habilitado, se incluirá automáticamente un vínculo de cancelación de suscripción en el encabezado del correo electrónico, como:
+
+![](assets/preset-list-unsubscribe-header.png)
+
+Si desactiva esta opción, no aparecerá ningún vínculo de cancelación de suscripción en el encabezado del correo electrónico.
+
+El vínculo de cancelación de suscripción consta de dos elementos:
+
+* Un **cancelar la suscripción de la dirección de correo electrónico**, a la que se envían todas las solicitudes de cancelación de suscripción.
+
+   En [!DNL Journey Optimizer], la dirección de correo electrónico de cancelación de suscripción es la predeterminada **[!UICONTROL Mailto (unsubscribe)]** dirección mostrada en el ajuste preestablecido de mensaje, en función de la variable [subdominio seleccionado](#subdomains-and-ip-pools).
+
+   ![](assets/preset-list-unsubscribe-mailto.png)
+
+* La variable **cancelar la suscripción de la dirección URL**, que es la dirección URL de la página de aterrizaje a la que se redirige al usuario una vez que se da de baja de la suscripción.
+
+   Si agrega un [vínculo de exclusión con un solo clic](../messages/consent.md#one-click-opt-out) a un mensaje creado con este ajuste preestablecido, la URL de cancelación de suscripción será la URL definida para el vínculo de exclusión de un clic.
+
+   ![](assets/preset-list-unsubscribe-opt-out-url.png)
+
+   >[!NOTE]
+   >
+   >Si no agrega un vínculo de exclusión de un clic al contenido del mensaje, no se mostrará ninguna página de aterrizaje al usuario.
+
+Obtenga más información sobre cómo añadir un vínculo de cancelación de suscripción a un encabezado a sus mensajes en [esta sección](../messages/consent.md#unsubscribe-header).
+
+<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.-->
+
 ### Seguimiento de URL{#url-tracking}
 
 Para identificar dónde y por qué una persona hizo clic en el vínculo, puede agregar parámetros de UTM para el seguimiento de URL en la variable  **[!UICONTROL URL TRACKING CONFIGURATION (web analytics)]** para obtener más información.
 
-Según los parámetros que defina, se aplicará un código UTM al final de la URL incluida en el contenido del mensaje. A continuación, podrá comparar los resultados en una herramienta de análisis web, como los Google Analytics. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+Según los parámetros que defina, se aplicará un código UTM al final de la URL incluida en el contenido del mensaje. A continuación, podrá comparar los resultados en una herramienta de análisis web, como los Google Analytics.
 
 ![](assets/preset-url-tracking.png)
 
@@ -130,9 +166,11 @@ Para configurar un parámetro de UTM, puede introducir directamente los valores 
 
 ### Parámetros de encabezado{#email-header}
 
-En el **[!UICONTROL HEADER PARAMETERS]** , introduzca las direcciones de correo electrónico asociadas a los mensajes enviados mediante ese ajuste preestablecido. Estas direcciones de correo electrónico deben utilizar la selección actual [subdominio delegado](about-subdomain-delegation.md).
+En el **[!UICONTROL HEADER PARAMETERS]** , introduzca los nombres del remitente y las direcciones de correo electrónico asociadas al tipo de mensajes enviados mediante ese ajuste preestablecido.
 
-Debe configurar las siguientes direcciones de correo electrónico
+>[!CAUTION]
+>
+>Las direcciones de correo electrónico deben utilizar el seleccionado actual [subdominio delegado](about-subdomain-delegation.md).
 
 * **[!UICONTROL Sender name]**: El nombre del remitente, como el nombre de su marca.
 
@@ -143,7 +181,6 @@ Debe configurar las siguientes direcciones de correo electrónico
 * **[!UICONTROL Reply to (email)]**: La dirección de correo electrónico que se utilizará cuando el destinatario haga clic en el **Responder** en el software cliente de correo electrónico. Debe utilizar una dirección definida en el subdominio delegado (por ejemplo, *reply@marketing.luma.com*), de lo contrario, se enviarán los correos electrónicos.
 
 * **[!UICONTROL Error email]**: Todos los errores generados por los ISP después de unos días de envío del correo (devoluciones asincrónicas) se reciben en esta dirección.
-
 
 ![](assets/preset-header.png)
 
@@ -177,7 +214,7 @@ Para definir la configuración de push asociada al ajuste preestablecido de mens
 
 ![](assets/preset-push.png)
 
-Para obtener más información sobre cómo configurar el entorno para enviar notificaciones push, consulte [esta sección](../messages/push-gs.md).
+Para obtener más información sobre cómo configurar el entorno para enviar notificaciones push, consulte [esta sección](../configuration/push-gs.md).
 
 <!--
 ## Configure SMS settings {#configure-sms-settings}
