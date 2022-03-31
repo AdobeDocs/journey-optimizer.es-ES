@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '926'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ La variable **[!UICONTROL Landing Pages]** muestra todos los elementos creados. 
 
 ![](assets/lp_access-list-filter.png)
 
-Desde esta lista puede acceder a la [informes de página de aterrizaje](lp-report.md) para elementos publicados.
+Desde esta lista puede acceder a la [informe de lanzamiento de la página de aterrizaje](../reports/lp-report-live.md) o [Informe global de la página de aterrizaje](../reports/lp-report-global.md) para elementos publicados.
 
 También puede eliminar, duplicar y cancelar la publicación de una página de aterrizaje.
 
@@ -133,7 +133,7 @@ Una vez que se hayan definido la configuración y el contenido de la página de 
 
 >[!CAUTION]
 >
->Debe tener perfiles de prueba disponibles para poder previsualizar los mensajes y enviar pruebas. Obtenga información sobre cómo [crear perfiles de prueba](../building-journeys/creating-test-profiles.md).
+>Debe tener perfiles de prueba disponibles para poder previsualizar los mensajes y enviar pruebas. Obtenga información sobre cómo [crear perfiles de prueba](../segment/creating-test-profiles.md).
 
 1. En la interfaz de la página de aterrizaje, haga clic en el **[!UICONTROL Preview & test]** para acceder a la selección de perfil de prueba.
 
@@ -147,7 +147,7 @@ Una vez que se hayan definido la configuración y el contenido de la página de 
 
    ![](assets/lp_test-profiles.png)
 
-   Los pasos para seleccionar perfiles de prueba son los mismos que al probar un mensaje. Se detallan en [esta sección](../messages/preview.md#select-test-profiles).
+   Los pasos para seleccionar perfiles de prueba son los mismos que al probar un mensaje. Se detallan en [esta sección](../design/preview.md#select-test-profiles).
 
 1. Seleccione el **[!UICONTROL Preview]** y haga clic en **[!UICONTROL Open preview]** para probar la página de aterrizaje.
 
@@ -210,9 +210,9 @@ Una vez que la página de aterrizaje esté lista, puede publicarla para que est�
 
 Una vez publicada la página de aterrizaje, se añade a la lista de páginas de aterrizaje con la variable **[!UICONTROL Published]** estado.
 
-Ahora está activo y listo para utilizarse en un [!DNL Journey Optimizer] [message](../messages/create-message.md) que se enviará a través de un [recorrido](../building-journeys/journey.md).
+Ahora está activo y listo para utilizarse en un [!DNL Journey Optimizer] [message](../messages/get-started-content.md) que se enviará a través de un [recorrido](../building-journeys/journey.md).
 
 >[!NOTE]
 >
->Puede controlar el impacto de la página de aterrizaje mediante informes específicos. [Más información](lp-report.md)
+>Puede controlar el impacto de la página de aterrizaje mediante informes específicos. [Más información](../reports/lp-report-live.md)
 
