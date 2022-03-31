@@ -1,5 +1,5 @@
 ---
-solution: Journey Orchestration
+solution: Journey Optimizer
 title: Eventos generales
 description: Aprenda a utilizar eventos generales
 feature: Journeys
@@ -7,14 +7,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 1%
+source-wordcount: '389'
+ht-degree: 2%
 
 ---
 
 # Eventos generales {#general-events}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_custom"
+>title="Eventos generales"
+>abstract="Para este tipo de evento, solo puede añadir una etiqueta y una descripción. El resto de la configuración no se puede editar. Lo realizó el usuario técnico."
 
 Para este tipo de evento, solo puede añadir una etiqueta y una descripción. El resto de la configuración no se puede editar. Lo realizó el usuario técnico. Consulte [esta página](../event/about-events.md).
 
