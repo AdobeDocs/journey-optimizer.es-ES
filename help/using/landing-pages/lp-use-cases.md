@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 18%
@@ -47,9 +47,9 @@ Por ejemplo, supongamos que organiza un evento el mes que viene y desea iniciar 
 
 1. [Publicación](create-lp.md#publish) la página de aterrizaje.
 
-1. [Creación de un mensaje de correo electrónico](../messages/create-message.md) para anunciar que el registro está abierto para su evento.
+1. [Creación de un mensaje de correo electrónico](../messages/get-started-content.md) para anunciar que el registro está abierto para su evento.
 
-1. [Inserción de un vínculo](../messages/message-tracking.md#insert-links) en el contenido del mensaje. Select **[!UICONTROL Landing page]** como el **[!UICONTROL Link type]** y seleccione [página de aterrizaje](create-lp.md#configure-primary-page) que ha creado para el registro.
+1. [Inserción de un vínculo](../design/message-tracking.md#insert-links) en el contenido del mensaje. Select **[!UICONTROL Landing page]** como el **[!UICONTROL Link type]** y seleccione [página de aterrizaje](create-lp.md#configure-primary-page) que ha creado para el registro.
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -128,9 +128,9 @@ Para permitir que los destinatarios de un correo electrónico cancelen la suscri
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [Creación de un mensaje de correo electrónico](../messages/create-message.md) en [!DNL Journey Optimizer].
+1. [Creación de un mensaje de correo electrónico](../messages/get-started-content.md) en [!DNL Journey Optimizer].
 
-1. Seleccione texto en el contenido e [inserte un vínculo](../messages/message-tracking.md#insert-links) utilizando la barra de herramientas contextual. También puede utilizar un vínculo en un botón.
+1. Seleccione texto en el contenido e [inserte un vínculo](../design/message-tracking.md#insert-links) utilizando la barra de herramientas contextual. También puede utilizar un vínculo en un botón.
 
    ![](assets/lp_opt-out-insert-link.png)
 
@@ -174,5 +174,5 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **Unsubscribe link in header**
 
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-email)
+    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-header)
 -->
