@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 408e224eeac09baafb0d91a15c44eadf885a62c3
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '553'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ En la expresión, se hace referencia a los campos de evento con &quot;@&quot; y 
 
 Se utiliza un color de sintaxis para distinguir visualmente los campos de eventos (verde) de los grupos de campos (azul).
 
-## Valores predeterminados para referencias de campo
+## Valores predeterminados para referencias de campo {#default-value}
 
 Se puede asociar un valor predeterminado con un nombre de campo. La sintaxis es la siguiente:
 
@@ -86,6 +86,13 @@ expression examples:
 - #{ACP.Profile.emails.at(1).email}              -> "snow@thewall.westeros"
 - #{ACP.Profile.person.age, defaultValue : -1}   -> -1 // default value, age is not a field present in the payload
 - #{ACP.Profile.person.age}                      -> null
+```
+
+Puede añadir cualquier tipo de expresión como valor predeterminado. La única restricción es que la expresión debe devolver el tipo de datos esperado. Cuando se utiliza una función, es necesario encapsular la función con ().
+
+```
+#{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
+== date("2022-02-10T00:00:00Z")
 ```
 
 ## Referencia a un campo dentro de colecciones
