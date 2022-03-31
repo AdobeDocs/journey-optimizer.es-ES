@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 7%
+source-wordcount: '1271'
+ht-degree: 8%
 
 ---
 
 # Actividad de condición{#condition-activity}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_condition"
+>title="Actividad de condición"
+>abstract="Esta actividad le permite definir cómo fluirá el individuo en el recorrido. Se crearán varias rutas basadas en distintos criterios. También puede crear una ruta alternativa en caso de tiempo de espera o error."
 
 Estos tipos de condiciones están disponibles:
 
@@ -26,6 +31,11 @@ Estos tipos de condiciones están disponibles:
 ![](assets/journey49.png)
 
 ## Acerca de la actividad Condition {#about_condition}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_expression_simple"
+>title="Acerca del editor de expresiones simple"
+>abstract="El modo de editor de expresiones simple permite realizar consultas simples basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Arrastre y suelte los campos en la zona principal. Para combinar los distintos elementos, conéctelos entre sí para crear diferentes grupos o niveles de grupo. A continuación, puede seleccionar un operador lógico para combinar elementos en el mismo nivel."
 
 Cuando se utilizan varias condiciones en un recorrido, se pueden definir etiquetas para cada una de ellas a fin de identificarlas con mayor facilidad.
 
@@ -53,15 +63,17 @@ Si está utilizando la variable [Servicio de segmentación de Adobe Experience P
 
 >[!NOTE]
 >
->No puede realizar consultas en series temporales (por ejemplo, una lista de compras o clics anteriores en mensajes) con el editor simple. Para ello, debe utilizar el editor avanzado. Consulte [documentación del Journey Orchestration de Adobe](expression/expressionadvanced.md).
+>No puede realizar consultas en series temporales (por ejemplo, una lista de compras o clics anteriores en mensajes) con el editor simple. Para ello, debe utilizar el editor avanzado. Consulte [esta página](expression/expressionadvanced.md).
 
 Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera para continuar es marcar la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
 
-En el editor simple, también encontrará la categoría Propiedades del Recorrido, debajo de las categorías de evento y fuente de datos. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información recuperada por el sistema de los recorridos activos, como el ID de recorrido o los errores específicos encontrados. Para obtener más información, consulte [documentación del Journey Orchestration de Adobe](expression/journey-properties.md)
+En el editor simple, también encontrará la categoría Propiedades del Recorrido, debajo de las categorías de evento y fuente de datos. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información recuperada por el sistema de los recorridos activos, como el ID de recorrido o los errores específicos encontrados. [Más información](expression/journey-properties.md)
 
 ## Condición de fuente de datos {#data_source_condition}
 
-Esto le permite definir una condición basada en los campos de las fuentes de datos o en los eventos colocados previamente en el recorrido. Para aprender a utilizar el editor de expresiones, consulte [documentación del Journey Orchestration de Adobe](expression/expressionadvanced.md). Con el editor de expresiones avanzadas, puede configurar condiciones más avanzadas para manipular colecciones o utilizar fuentes de datos que requieran el paso de parámetros. Consulte [esta página](../datasource/external-data-sources.md).
+Esto le permite definir una condición basada en los campos de las fuentes de datos o en los eventos colocados previamente en el recorrido. Aprenda a utilizar el editor de expresiones en [esta sección](expression/expressionadvanced.md).
+
+Con el editor de expresiones avanzadas, puede configurar condiciones más avanzadas para manipular colecciones o utilizar fuentes de datos que requieran el paso de parámetros. [Más información](../datasource/external-data-sources.md).
 
 ![](assets/journey50.png)
 
@@ -112,7 +124,7 @@ La ruta nominal siempre tiene prioridad sobre la ruta alternativa, incluso si se
 Para los recorridos activos, estos son los umbrales que se deben tener en cuenta para garantizar que se alcance el límite:
 
 * Para un máximo bueno a 10000, el número de perfiles diferentes que se inyectarán debe ser al menos 1,3 veces superior al límite máximo.
-* Para un límite inferior a 10000, el número de perfiles distintos que se inyectarán debe ser de 1000 más el límite.
+* Para un límite inferior a 10000, el número de perfiles distintos que se inyectarán debe ser de más de 1000.
 
 El límite del perfil no se tiene en cuenta en el modo de prueba.
 
