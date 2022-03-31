@@ -1,12 +1,12 @@
 ---
-title: Caso de uso personalizado y dos puntos; notificación del estado de pedido
+title: Caso de uso de Personalization y dos puntos; notificación del estado de pedido
 description: Obtenga información sobre cómo personalizar un mensaje con perfil, decisión de oferta e información de contexto.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 2%
@@ -25,7 +25,7 @@ El objetivo de este ejemplo es impulsar un evento a [!DNL Journey Optimizer] cad
 
 Para este caso de uso, se necesitan los siguientes requisitos previos:
 
-* cree y diseñe un mensaje de notificación push sin publicarlo. Consulte esta [sección](../messages/create-message.md).
+* cree y diseñe un mensaje de notificación push sin publicarlo. Consulte esta [sección](../messages/get-started-content.md).
 * configure un evento de pedido que incluya el número de pedido, el estado y el nombre del elemento. Consulte esta [sección](../event/about-events.md).
 * cree una decisión (anteriormente conocida como &quot;actividad de oferta&quot;), consulte esta [sección](../offers/offer-activities/create-offer-activities.md).
 
