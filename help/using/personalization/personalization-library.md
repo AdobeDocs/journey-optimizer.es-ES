@@ -1,19 +1,19 @@
 ---
-title: Trabajar con expresiones guardadas
+title: Uso de expresiones guardadas
 description: Aprenda a trabajar con expresiones guardadas desde la [!DNL Journey Optimizer] biblioteca.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 96a7fc65cb59dd366d790a6fbe938ecfb062d93a
+source-git-commit: 85aec983ac39c8d65b2a833ee17dc1e3cafb5900
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 0%
+source-wordcount: '350'
+ht-degree: 8%
 
 ---
 
-# Trabajar con expresiones guardadas {#expression-library}
+# Uso de expresiones guardadas {#expression-library}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
@@ -59,8 +59,6 @@ Para guardar una expresión en la biblioteca, siga estos pasos:
 
 >[!NOTE]
 >
->* Se guardan hasta 40 expresiones en la biblioteca.
->
 >* Las expresiones no pueden superar los 200 KB.
 >
 >* Las expresiones guardadas se ordenan por fecha de creación: la expresión agregada recientemente se mostrará primero en la lista.
@@ -73,7 +71,7 @@ Para eliminar una expresión, haga clic en el botón elipse y luego en **[!UICON
 
 ## Vídeo explicativo{#video}
 
-Obtenga información sobre cómo utilizar elementos de biblioteca de personalización guardados en un mensaje y cómo crear y administrar elementos de biblioteca de personalización.
+Obtenga información sobre cómo utilizar elementos de la biblioteca de personalización guardados en un mensaje y cómo crear y administrar los elementos de esta biblioteca.
 
 >[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
 
