@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ La página principal de [!DNL Journey Optimizer] contiene vínculos clave y recu
 
 * **[!UICONTROL Journeys]**: Cree, configure y organice sus recorridos de cliente. [Más información](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]**: cree, diseñe, pruebe y publique mensajes de correo electrónico y push. [Más información](../messages/create-message.md)
+* **[!UICONTROL Messages]**: cree, diseñe, pruebe y publique mensajes de correo electrónico y push. [Más información](../messages/get-started-content.md)
 
 **[!UICONTROL DECISION MANAGEMENT]**
 
@@ -56,7 +56,7 @@ La página principal de [!DNL Journey Optimizer] contiene vínculos clave y recu
 
 **[!UICONTROL CONTENT MANAGEMENT]**
 
-* **[!UICONTROL Assets]**: [!DNL Adobe Experience Manager Assets Essentials] es un repositorio centralizado de recursos que puede utilizar para rellenar los mensajes. [Más información](../messages/assets-essentials.md)
+* **[!UICONTROL Assets]**: [!DNL Adobe Experience Manager Assets Essentials] es un repositorio centralizado de recursos que puede utilizar para rellenar los mensajes. [Más información](../design/assets-essentials.md)
 
 **[!UICONTROL DATA MANAGEMENT]**
 
@@ -76,9 +76,9 @@ La página principal de [!DNL Journey Optimizer] contiene vínculos clave y recu
 
 * **[!UICONTROL Segments]**: cree y administre definiciones de segmentos de Experience Platform para aprovecharlas en sus recorridos. [Más información](../segment/about-segments.md)
 
-* **[!UICONTROL Profiles]**: perfil del cliente en tiempo real crea una vista integral de cada uno de sus clientes individuales, combinando datos de varios canales, incluidos datos en línea, sin conexión, CRM y de terceros. [Más información](get-started-profiles.md)
+* **[!UICONTROL Profiles]**: perfil del cliente en tiempo real crea una vista integral de cada uno de sus clientes individuales, combinando datos de varios canales, incluidos datos en línea, sin conexión, CRM y de terceros. [Más información](../segment/get-started-profiles.md)
 
-* **[!UICONTROL Identities]**: el servicio de identidad de Adobe Experience Platform administra la identificación de sus clientes en varios dispositivos, canales cruzados y casi en tiempo real en lo que se conoce como gráfico de identidad dentro de Adobe Experience Platform. [Más información](get-started-identity.md)
+* **[!UICONTROL Identities]**: el servicio de identidad de Adobe Experience Platform administra la identificación de sus clientes en varios dispositivos, canales cruzados y casi en tiempo real en lo que se conoce como gráfico de identidad dentro de Adobe Experience Platform. [Más información](../segment/get-started-identity.md)
 
 **[!UICONTROL ADMINISTRATION]**
 
@@ -98,7 +98,7 @@ Aproveche los casos de uso de [!DNL Adobe Journey Optimizer] de la página de in
 
 Los casos de uso disponibles son:
 
-* **Cree perfiles de prueba**, para crear perfiles de prueba con la plantilla CSV a fin de probar mensajes y recorridos personalizados. Aprenda a implementar este caso de uso [en esta página](../building-journeys/creating-test-profiles.md#use-case-1).
+* **Cree perfiles de prueba**, para crear perfiles de prueba con la plantilla CSV a fin de probar mensajes y recorridos personalizados. Aprenda a implementar este caso de uso [en esta página](../segment/creating-test-profiles.md#use-case-1).
 * **Envíe un mensaje de cumpleaños a los clientes** para que envíen automáticamente un correo electrónico a fin de felicitar a sus clientes. (próximamente)
 * **Envíe correos electrónicos para incorporar nuevos clientes** y enviar fácilmente hasta dos correos electrónicos para dar la bienvenida a sus clientes recién registrados. (próximamente)
 * **Envíe mensajes push a la lista importada de clientes** para enviar rápidamente una notificación push a una lista de clientes importados desde un archivo CSV. (próximamente)
