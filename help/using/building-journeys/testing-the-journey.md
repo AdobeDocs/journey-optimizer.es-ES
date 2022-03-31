@@ -101,7 +101,7 @@ Cuando selecciona un perfil de prueba diferente en la pantalla de configuración
 
 Al abrir un recorrido en la prueba, la ruta mostrada corresponde a la última prueba ejecutada.
 
-El flujo visual funciona tanto si el evento se activa mediante la interfaz como externamente (por ejemplo, mediante Postman).
+El flujo visual funciona tanto si el evento se activa mediante la interfaz como externamente (mediante Postman, por ejemplo).
 
 ## Modo de prueba para recorridos basados en reglas {#test-rule-based}
 
