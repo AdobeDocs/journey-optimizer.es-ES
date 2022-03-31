@@ -103,7 +103,7 @@ Para asignar **[!UICONTROL Product profile]** para los usuarios, siga los pasos 
 
 ### Configurar su aplicación {#configure-app}
 
-La configuración técnica implica una estrecha colaboración entre el desarrollador de la aplicación y el administrador empresarial. Antes de empezar a enviar notificaciones push con [!DNL Journey Optimizer], debe definir la configuración en [!DNL Adobe Experience Platform Data Collection] e integre su aplicación móvil con los SDK para móviles de Adobe Experience Platform.
+La configuración técnica implica una estrecha colaboración entre el desarrollador de la aplicación y el administrador empresarial. Antes de empezar a enviar notificaciones push con [!DNL Journey Optimizer], debe definir la configuración en [!DNL Adobe Experience Platform Data Collection] e integre su aplicación móvil con los SDK para Adobe Experience Platform Mobile.
 
 Siga los pasos de implementación detallados en los vínculos siguientes:
 
