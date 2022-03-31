@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 81718cdba5c8537179d37e82c3d6ed897ebbd7ff
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 4%
+source-wordcount: '1020'
+ht-degree: 2%
 
 ---
 
@@ -193,7 +193,419 @@ ORDER BY DATE(timestamp) desc
 
 La consulta devuelve, durante el periodo definido, el número de perfiles que ingresaron al recorrido cada día. Si un perfil introducido mediante varias identidades, se contará dos veces. Si la reentrada está habilitada, el recuento de perfiles puede duplicarse en diferentes días si se vuelve a introducir el recorrido en un día diferente.
 
-## Consultas basadas en recorridos {#journey-based-queries}
+## Consultas relacionadas con el segmento de lectura {#read-segment-queries}
+
+### Tiempo necesario para finalizar un trabajo de exportación de segmentos
+
+_Consulta del lago de datos_
+
+```sql
+select DATEDIFF (minute,
+              (select timestamp
+                where
+_experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
+_experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'queued') ,
+              (select timestamp
+                where
+_experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
+_experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
+```
+
+_Ejemplo_
+
+```sql
+select DATEDIFF (minute,
+              (select timestamp
+                where
+_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
+_experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'queued') ,
+              (select timestamp
+                where
+_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
+_experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
+```
+
+La consulta devuelve la diferencia de tiempo, en minutos, entre el momento en que se puso en cola el trabajo de exportación del segmento y el momento en que finalizó.
+
+### Número de perfiles que el recorrido descartó porque eran duplicados
+
+_Consulta del lago de datos_
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+where
+_experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
+_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_DUPLICATION'
+```
+
+_Ejemplo_
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+where
+_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
+_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_DUPLICATION'
+```
+
+La consulta devuelve todos los ID de perfil que el recorrido descartó porque eran duplicados.
+
+### Número de perfiles que el recorrido descartó debido a un espacio de nombres no válido
+
+_Consulta del lago de datos_
+
+```sql
+SELECT count(*) FROM journey_step_events
+where
+_experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
+_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_BAD_NAMESPACE'
+```
+
+_Ejemplo_
+
+```sql
+SELECT count(*) FROM journey_step_events
+where
+_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
+_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_BAD_NAMESPACE'
+```
+
+La consulta devuelve todos los ID de perfil que el recorrido descartó porque tenían un área de nombres no válida o no tenían identidad para ese área de nombres.
+
+### Número de perfiles que el recorrido descartó debido a que no hay mapa de identidad
+
+_Consulta del lago de datos_
+
+```sql
+SELECT count(*) FROM journey_step_events
+where
+_experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
+_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NO_IDENTITY_MAP'
+```
+
+_Ejemplo_
+
+```sql
+SELECT count(*) FROM journey_step_events
+where
+_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
+_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NO_IDENTITY_MAP'
+```
+
+La consulta devuelve todos los ID de perfil que el recorrido descartó porque faltaba el mapa de identidad.
+
+### Número de perfiles que el recorrido descartó porque el recorrido estaba en el nodo de prueba y el perfil no era un perfil de prueba
+
+_Consulta del lago de datos_
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+where
+_experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
+_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
+```
+
+_Ejemplo_
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+where
+_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
+_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
+```
+
+La consulta devuelve todos los ID de perfil que el recorrido descartó porque el trabajo de exportación se ejecutó en modo de prueba pero el perfil no tenía el atributo testProfile establecido en true.
+
+### Número de perfiles que el recorrido descartó debido a un error interno
+
+_Consulta del lago de datos_
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+where
+_experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
+_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_INTERNAL'
+```
+
+_Ejemplo_
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+where
+_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
+_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_INTERNAL'
+```
+
+La consulta devuelve todos los ID de perfil que el recorrido descartó debido a algún error interno.
+
+### Información general sobre la lectura de segmentos para una versión de recorrido determinada
+
+_Consulta del lago de datos_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode           AS EVENT_CODE,
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.exportSegmentID     AS SEGMENT_ID,
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.ID                  AS EXPORTJOB_ID,
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.status              AS EXPORTJOB_STATUS,
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.exportCountTotal    AS TOTAL_EXPORTED_PROFILES_COUNT,
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.exportCountRealized AS SUCCESS_EXPORTED_PROFILES_COUNT,
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.exportCountFailed   AS FAILED_EXPORTED_PROFILES_COUNT
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventType = 'segmenttrigger-orchestrator'
+```
+
+Devuelve todos los eventos de servicio relacionados con la versión de recorrido dada. Podemos seguir la cadena de operaciones:
+
+* creación de tema
+* exportar creación de trabajos
+* exportar finalización de trabajo (con métricas en perfiles exportados)
+* finalización del procesamiento del trabajador
+
+También podemos detectar problemas como:
+
+* errores en la creación de trabajos de tema o exportación (incluidos tiempos de espera en llamadas a la API de exportación de segmentos)
+* exportar trabajos que se pueden atascar (en el caso de una versión de recorrido determinada, no hay ningún evento relacionado con la finalización del trabajo de exportación)
+* problemas de trabajador, si hemos recibido un evento de finalización de trabajo de exportación pero no una terminación de procesamiento de trabajador
+
+IMPORTANTE: si no hay ningún evento devuelto por esta consulta, puede deberse a uno de los siguientes motivos:
+
+* la versión de recorrido no ha alcanzado la programación
+* si se supone que la versión de recorrido tiene que tener déclencheur en el trabajo de exportación llamando al orquestador, algo salió mal en el flujo ascendente: problema en la implementación de recorrido, evento empresarial o problema con el programador.
+
+### Obtener errores de segmento de lectura para una versión de recorrido determinada
+
+_Consulta del lago de datos_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode           AS EVENT_CODE,
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.exportSegmentID     AS SEGMENT_ID,
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.ID                  AS EXPORTJOB_ID,
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.status              AS EXPORTJOB_STATUS,
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.exportCountTotal    AS TOTAL_EXPORTED_PROFILES_COUNT,
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.exportCountRealized AS SUCCESS_EXPORTED_PROFILES_COUNT,
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.exportCountFailed   AS FAILED_EXPORTED_PROFILES_COUNT
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventType = 'segmenttrigger-orchestrator' AND
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode IN (
+        'ERROR_TOPIC_CREATION',
+        'ERROR_EXPORTJOB_APICALL',
+        'ERROR_EXPORTJOB_APICALL_TIMEOUT',
+        'ERROR_EXPORTJOB_FAILED'
+    )
+```
+
+### Obtener el estado de procesamiento del trabajo de exportación
+
+_Consulta del lago de datos_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode           AS EVENT_CODE,
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.exportSegmentID     AS SEGMENT_ID,
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.ID                  AS EXPORTJOB_ID,
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.status              AS EXPORTJOB_STATUS,
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.exportCountTotal    AS TOTAL_EXPORTED_PROFILES_COUNT,
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.exportCountRealized AS SUCCESS_EXPORTED_PROFILES_COUNT,
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.exportCountFailed   AS FAILED_EXPORTED_PROFILES_COUNT 
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventType = 'segmenttrigger-orchestrator' AND
+    _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode IN (
+        'INFO_EXPORTJOB_SUCCEEDED',
+        'ERROR_EXPORTJOB_FAILED'
+    )
+```
+
+Si no se devuelve ningún registro, significa que:
+
+* se ha producido un error durante el tema o la creación de trabajos de exportación
+* el trabajo de exportación sigue en ejecución
+
+### Obtener métricas de perfiles exportados, incluidos descartes y métricas de trabajo de exportación para cada trabajo de exportación
+
+_Consulta del lago de datos_
+
+```sql
+WITH
+  
+DISCARDED_EXPORTED_PROFILES AS (
+  
+    SELECT
+        _experience.journeyOrchestration.serviceEvents.segmentExportJob.ID AS EXPORTJOB_ID,
+        count(distinct _experience.journeyOrchestration.profile.ID) AS DISCARDED_PROFILES_COUNT
+    FROM
+        journey_step_events
+    WHERE
+        _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
+        _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode IN (
+            'ERROR_INSTANCE_DUPLICATION',
+            'ERROR_INSTANCE_BAD_NAMESPACE',
+            'ERROR_INSTANCE_NO_IDENTITY_MAP',
+            'ERROR_INSTANCE_NOT_A_TEST_PROFILE',
+            'ERROR_INSTANCE_INTERNAL'
+        )
+    GROUP BY
+        _experience.journeyOrchestration.serviceEvents.segmentExportJob.ID
+ 
+),
+  
+SEGMENT_EXPORT_METRICS AS (
+  
+    SELECT
+        _experience.journeyOrchestration.serviceEvents.segmentExportJob.ID AS EXPORTJOB_ID,
+        sum(_experience.journeyOrchestration.serviceEvents.segmentExportJob.exportCountTotal) AS TOTAL_EXPORTED_PROFILES_COUNT,
+        sum(_experience.journeyOrchestration.serviceEvents.segmentExportJob.exportCountRealized) AS SUCCESS_EXPORTED_PROFILES_COUNT,
+        sum(_experience.journeyOrchestration.serviceEvents.segmentExportJob.exportCountFailed) AS FAILED_EXPORTED_PROFILES_COUNT
+    FROM
+        journey_step_events
+    WHERE
+        _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
+        _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventType = 'segmenttrigger-orchestrator' AND
+        _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode IN (
+            'INFO_EXPORTJOB_SUCCEEDED',
+            'ERROR_EXPORTJOB_FAILED'
+        )
+    GROUP BY
+        _experience.journeyOrchestration.serviceEvents.segmentExportJob.ID
+  
+)
+  
+SELECT
+    sum(T2.TOTAL_EXPORTED_PROFILES_COUNT),
+    sum(T2.SUCCESS_EXPORTED_PROFILES_COUNT),
+    sum(T2.FAILED_EXPORTED_PROFILES_COUNT),
+    sum(T1.DISCARDED_PROFILES_COUNT)
+FROM
+    DISCARDED_EXPORTED_PROFILES AS T1,
+    SEGMENT_EXPORT_METRICS AS T2
+WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
+```
+
+### Obtener métricas agregadas (trabajos de exportación de segmentos y descartes) en todos los trabajos de exportación
+
+_Consulta del lago de datos_
+
+```sql
+WITH
+  
+DISCARDED_EXPORTED_PROFILES AS (
+  
+    SELECT
+        _experience.journeyOrchestration.journey.versionID AS JOURNEYVERSION_ID,
+        count(distinct _experience.journeyOrchestration.profile.ID) AS DISCARDED_PROFILES_COUNT
+    FROM
+        journey_step_events
+    WHERE
+        _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
+        _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode IN (
+            'ERROR_INSTANCE_DUPLICATION',
+            'ERROR_INSTANCE_BAD_NAMESPACE',
+            'ERROR_INSTANCE_NO_IDENTITY_MAP',
+            'ERROR_INSTANCE_NOT_A_TEST_PROFILE',
+            'ERROR_INSTANCE_INTERNAL'
+        )
+    GROUP BY
+        _experience.journeyOrchestration.journey.versionID
+),
+  
+SEGMENT_EXPORT_METRICS AS (
+  
+    SELECT
+        _experience.journeyOrchestration.journey.versionID AS JOURNEYVERSION_ID,
+        sum(_experience.journeyOrchestration.serviceEvents.segmentExportJob.exportCountTotal) AS TOTAL_EXPORTED_PROFILES_COUNT,
+        sum(_experience.journeyOrchestration.serviceEvents.segmentExportJob.exportCountRealized) AS SUCCESS_EXPORTED_PROFILES_COUNT,
+        sum(_experience.journeyOrchestration.serviceEvents.segmentExportJob.exportCountFailed) AS FAILED_EXPORTED_PROFILES_COUNT
+    FROM
+        journey_step_events
+    WHERE
+        _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
+        _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventType = 'segmenttrigger-orchestrator' AND
+        _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode IN (
+            'INFO_EXPORTJOB_SUCCEEDED',
+            'ERROR_EXPORTJOB_FAILED'
+        )
+    GROUP BY
+          _experience.journeyOrchestration.journey.versionID
+ 
+)
+  
+SELECT
+    sum(T2.TOTAL_EXPORTED_PROFILES_COUNT),
+    sum(T2.SUCCESS_EXPORTED_PROFILES_COUNT),
+    sum(T2.FAILED_EXPORTED_PROFILES_COUNT),
+    sum(T1.DISCARDED_PROFILES_COUNT)
+FROM
+    DISCARDED_EXPORTED_PROFILES AS T1,
+    SEGMENT_EXPORT_METRICS AS T2
+WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
+```
+
+Esta consulta es diferente a la anterior.
+
+Devuelve las métricas generales de una versión de recorrido determinada, independientemente de los trabajos que se puedan haber ejecutado para ella (en caso de recorridos recurrentes, los eventos comerciales desencadenaron otros que aprovechaban la reutilización de temas).
+
+## Consultas relacionadas con la calificación de segmentos {#segment-qualification-queries}
+
+### Perfil descartado debido a una realización de segmentos diferente a la configurada
+
+_Consulta del lago de datos_
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+where
+_experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'ERROR_INSTANCE_WRONG_SEGMENT_REALIZATION'
+```
+
+_Ejemplo_
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+where
+_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'ERROR_INSTANCE_WRONG_SEGMENT_REALIZATION'
+```
+
+Esta consulta devuelve todos los ID de perfil que la versión de recorrido descartó debido a una realización de segmentos incorrecta.
+
+## Consultas basadas en eventos {#event-based-queries}
+
+### Comprobar si se recibió un evento comercial para un recorrido
+
+_Consulta del lago de datos_
+
+```sql
+SELECT DATE(timestamp), count(distinct _id)
+FROM journey_step_events
+where
+_experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
+_experience.journeyOrchestration.stepEvents.nodeName = '<node-name-corresponding-to-business-event>' AND
+_experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
+WHERE DATE(timestamp) > (now() - interval '<last x hours>' hour)
+```
+
+_Ejemplo_
+
+```sql
+SELECT DATE(timestamp), count(distinct _id)
+FROM journey_step_events
+where
+_experience.journeyOrchestration.stepEvents.journeyVersionID = 'b1093bd4-11f3-44cc-961e-33925cc58e18' AND
+_experience.journeyOrchestration.stepEvents.nodeName = 'TEST_MLTrainingSession' AND
+_experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
+WHERE DATE(timestamp) > (now() - interval '6' hour)
+```
+
+## Consultas comunes basadas en recorridos {#journey-based-queries}
 
 ### Número de recorridos activos diarios {#daily-active-journeys}
 
@@ -216,3 +628,234 @@ ORDER BY DATE(timestamp) desc
 ```
 
 La consulta devuelve, durante el periodo definido, el recuento de recorridos únicos que se activan cada día. Un solo recorrido que se active en varios días se contará una vez al día.
+
+## Consultas en instancias de recorrido {#journey-instances-queries}
+
+### Número de perfiles de un estado específico a una hora específica
+
+_Consulta del lago de datos_
+
+```sql
+WITH
+ 
+INSTANCES_PASSED_IN_ALL_NODES_WITH_DETAILS AS (
+ 
+    SELECT
+        STEP_EVENTS.timestamp AS TS,
+        STEP_EVENTS._experience.journeyOrchestration.stepEvents.nodeName AS NODE_NAME,
+        STEP_EVENTS._experience.journeyOrchestration.stepEvents.instanceID AS ID
+    FROM
+        journey_step_events AS STEP_EVENTS
+    WHERE
+        STEP_EVENTS._experience.journeyOrchestration.stepEvents.journeyVersionName = '<journey version name>'
+ 
+),
+ 
+INSTANCES_PASSED_IN_NODE_WITH_DETAILS AS (
+ 
+    SELECT
+        T1.TS AS TS,
+        T1.ID AS ID
+    FROM
+        INSTANCES_PASSED_IN_ALL_NODES_WITH_DETAILS AS T1
+    WHERE
+        T1.NODE_NAME = '<specific node name>' AND
+        <filter on time for profile in specific node>
+ 
+),
+ 
+INSTANCES_PASSED_IN_NEXT_NODES AS (
+     
+    SELECT
+        T1.TS AS TS,
+        T1.ID AS ID
+    FROM
+        INSTANCES_PASSED_IN_ALL_NODES_WITH_DETAILS AS T1
+    WHERE
+        T1.NODE_NAME in (<list of next node names from the specific node>)
+ 
+),
+ 
+INSTANCES_PASSED_IN_NODE_NOT_PASSED_IN_NODES AS (
+ 
+    SELECT
+        distinct T1.ID AS ID
+    FROM
+        INSTANCES_PASSED_IN_NODE_WITH_DETAILS AS T1
+ 
+    EXCEPT
+     
+    SELECT
+        distinct T1.ID AS ID
+    FROM
+        INSTANCES_PASSED_IN_NEXT_NODES AS T1
+ 
+)
+ 
+SELECT
+    DATE_FORMAT(T1.TS,'<date pattern>') AS DATETIME,
+    count(T1.ID) AS INSTANCES_COUNT
+FROM
+    INSTANCES_PASSED_IN_NODE_WITH_DETAILS AS T1,
+    INSTANCES_PASSED_IN_NODE_NOT_PASSED_IN_NODES AS T2
+WHERE
+    T1.ID = T2.ID
+GROUP BY
+    DATETIME
+ORDER BY
+    DATETIME DESC
+```
+
+_Ejemplo_
+
+```sql
+WITH
+ 
+INSTANCES_PASSED_IN_ALL_NODES_WITH_DETAILS AS (
+ 
+    SELECT
+        STEP_EVENTS.timestamp AS TS,
+        STEP_EVENTS._experience.journeyOrchestration.stepEvents.nodeName AS NODE_NAME,
+        STEP_EVENTS._experience.journeyOrchestration.stepEvents.instanceID AS ID
+    FROM
+        journey_step_events AS STEP_EVENTS
+    WHERE
+        STEP_EVENTS._experience.journeyOrchestration.stepEvents.journeyVersionName = 'Journey20009'
+ 
+),
+ 
+INSTANCES_PASSED_IN_NODE_WITH_DETAILS AS (
+ 
+    SELECT
+        T1.TS AS TS,
+        T1.ID AS ID
+    FROM
+        INSTANCES_PASSED_IN_ALL_NODES_WITH_DETAILS AS T1
+    WHERE
+        T1.NODE_NAME = 'slack_bso_tests - test1' AND
+        T1.TS > (now() - interval '18 hour')
+ 
+),
+ 
+INSTANCES_PASSED_IN_NEXT_NODES AS (
+     
+    SELECT
+        T1.TS AS TS,
+        T1.ID AS ID
+    FROM
+        INSTANCES_PASSED_IN_ALL_NODES_WITH_DETAILS AS T1
+    WHERE
+        T1.NODE_NAME in ('slack_bso_tests - test2')
+ 
+),
+ 
+INSTANCES_PASSED_IN_NODE_NOT_PASSED_IN_NODES AS (
+ 
+    SELECT
+        distinct T1.ID AS ID
+    FROM
+        INSTANCES_PASSED_IN_NODE_WITH_DETAILS AS T1
+ 
+    EXCEPT
+     
+    SELECT
+        distinct T1.ID AS ID
+    FROM
+        INSTANCES_PASSED_IN_NEXT_NODES AS T1
+ 
+)
+ 
+SELECT
+    DATE_FORMAT(T1.TS,'yyyy/MM/dd HH:mm') AS DATETIME,
+    count(T1.ID) AS INSTANCES_COUNT
+FROM
+    INSTANCES_PASSED_IN_NODE_WITH_DETAILS AS T1,
+    INSTANCES_PASSED_IN_NODE_NOT_PASSED_IN_NODES AS T2
+WHERE
+    T1.ID = T2.ID
+GROUP BY
+    DATETIME
+ORDER BY
+    DATETIME DESC
+```
+
+### Cuántos perfiles salieron del recorrido en un período de tiempo específico
+
+_Consulta del lago de datos_
+
+```sql
+SELECT
+    DATE_FORMAT(STEP_EVENTS.timestamp,'yyyy/MM/dd HH:mm') AS DATETIME,
+    count(STEP_EVENTS._experience.journeyOrchestration.stepEvents.instanceID) AS EXITED_INSTANCES_COUNT
+FROM
+    journey_step_events AS STEP_EVENTS
+WHERE
+    STEP_EVENTS._experience.journeyOrchestration.stepEvents.journeyVersionName = '<journey version name>' AND
+    STEP_EVENTS._experience.journeyOrchestration.stepEvents.stepStatus in ('endStep', 'error', 'timedOut', 'cappingError') AND
+    <timestamp filter>
+GROUP BY
+    DATETIME
+ORDER BY
+    DATETIME DESC
+```
+
+_Ejemplo_
+
+```sql
+SELECT
+    DATE_FORMAT(STEP_EVENTS.timestamp,'yyyy/MM/dd HH:mm') AS DATETIME,
+    count(STEP_EVENTS._experience.journeyOrchestration.stepEvents.instanceID) AS EXITED_INSTANCES_COUNT
+FROM
+    journey_step_events AS STEP_EVENTS
+WHERE
+    STEP_EVENTS._experience.journeyOrchestration.stepEvents.journeyVersionName = 'Journey20009' AND
+    STEP_EVENTS._experience.journeyOrchestration.stepEvents.stepStatus in ('endStep', 'error', 'timedOut', 'cappingError') AND
+    STEP_EVENTS.timestamp > (now() - interval '22 hour')
+GROUP BY
+    DATETIME
+ORDER BY
+    DATETIME DESC
+```
+
+### Cuántos perfiles salieron del recorrido en un período de tiempo específico con nodo/estado
+
+_Consulta del lago de datos_
+
+```sql
+SELECT
+    DATE_FORMAT(STEP_EVENTS.timestamp,'yyyy/MM/dd HH:mm') AS DATETIME,
+    STEP_EVENTS._experience.journeyOrchestration.stepEvents.nodeName AS NODE_NAME,
+    STEP_EVENTS._experience.journeyOrchestration.stepEvents.stepStatus AS EXIT_STATUS,
+    count(STEP_EVENTS._experience.journeyOrchestration.stepEvents.instanceID) AS EXITED_INSTANCES_COUNT
+FROM
+    journey_step_events AS STEP_EVENTS
+WHERE
+    STEP_EVENTS._experience.journeyOrchestration.stepEvents.journeyVersionName = '<journey version name>' AND
+    STEP_EVENTS._experience.journeyOrchestration.stepEvents.stepStatus in ('endStep', 'error', 'timedOut', 'cappingError') AND
+    <timestamp filter>
+GROUP BY
+    DATETIME, NODE_NAME, EXIT_STATUS
+ORDER BY
+    DATETIME DESC
+```
+
+_Ejemplo_
+
+```sql
+SELECT
+    DATE_FORMAT(STEP_EVENTS.timestamp,'yyyy/MM/dd HH:mm') AS DATETIME,
+    STEP_EVENTS._experience.journeyOrchestration.stepEvents.nodeName AS NODE_NAME,
+    STEP_EVENTS._experience.journeyOrchestration.stepEvents.stepStatus AS EXIT_STATUS,
+    count(STEP_EVENTS._experience.journeyOrchestration.stepEvents.instanceID) AS EXITED_INSTANCES_COUNT
+FROM
+    journey_step_events AS STEP_EVENTS
+WHERE
+    STEP_EVENTS._experience.journeyOrchestration.stepEvents.journeyVersionName = 'Journey20009' AND
+    STEP_EVENTS._experience.journeyOrchestration.stepEvents.stepStatus in ('endStep', 'error', 'timedOut', 'cappingError') AND
+    STEP_EVENTS.timestamp > (now() - interval '22 hour')
+GROUP BY
+    DATETIME, NODE_NAME, EXIT_STATUS
+ORDER BY
+    DATETIME DESC
+```
+
