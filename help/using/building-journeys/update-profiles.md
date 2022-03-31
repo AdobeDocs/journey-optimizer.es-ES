@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
 # Actualizar perfil {#update-profile}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_update_profiles"
+>title="Actividad Actualizar perfil"
+>abstract="La actividad de acción Actualizar perfil le permite actualizar un perfil de Adobe Experience Platform existente con información proveniente del evento, una fuente de datos o con un valor específico."
 
 La variable **[!UICONTROL Update Profile]** la actividad de acción le permite actualizar un perfil de Adobe Experience Platform existente con información proveniente del evento, una fuente de datos o con un valor específico.
 
@@ -32,7 +37,7 @@ En el modo de prueba, la actualización de perfil no se simulará. La actualizac
 
 Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba. Puede crear un nuevo perfil de prueba o convertir un perfil existente en un perfil de prueba. En Adobe Experience Platform, puede actualizar los atributos de perfil a través de una importación de archivos csv o llamadas API. Un método más sencillo es usar un **Actualizar perfil** actividad de acción y cambie el campo booleano del perfil de prueba de false a true.
 
-Para obtener más información sobre cómo convertir un perfil existente en un perfil de prueba, consulte esta [sección](../building-journeys/creating-test-profiles.md#create-test-profiles-csv).
+Para obtener más información sobre cómo convertir un perfil existente en un perfil de prueba, consulte esta [sección](../segment/creating-test-profiles.md#create-test-profiles-csv).
 
 ## Uso de la actualización de perfil
 
