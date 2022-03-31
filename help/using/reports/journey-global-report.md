@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1242'
 ht-degree: 1%
 
 ---
@@ -117,7 +117,7 @@ La variable **[!UICONTROL Bounce Reasons]** y **[!UICONTROL Bounce categories]**
 
 * **[!UICONTROL Ignored]**: El número total de mensajes temporales, como fuera de la oficina o un error técnico, por ejemplo, si el tipo de remitente es administrador de correo.
 
-Para obtener más información sobre las devoluciones, consulte la sección [Lista de supresión](../messages/suppression-list.md) página.
+Para obtener más información sobre las devoluciones, consulte la sección [Lista de supresión](../reports/suppression-list.md) página.
 
 ![](assets/global_report_22.png)
 
@@ -212,6 +212,8 @@ La variable **[!UICONTROL Push - Tracking statistics]** contiene los datos dispo
 
 * **[!UICONTROL Engagement Rate]**: Porcentaje de aperturas y acciones para esta notificación push, es decir, si el perfil abrió la notificación push o si se hizo clic en un botón.
 
+![](assets/global_report_24.png)
+
 La variable **[!UICONTROL Push notification summary]** El gráfico contiene los datos disponibles para las notificaciones push enviadas, como:
 
 * **[!UICONTROL Opens]**: Número de veces que se abrió un mensaje en una entrega.
@@ -242,6 +244,8 @@ La variable **[!UICONTROL Send time optimization]** detalla el éxito de la entr
 ![](assets/global_report_18.png)
 
 La variable **[!UICONTROL Error Reasons]** El gráfico y la tabla permiten ver qué error se produjo durante el envío.
+
+La variable **[!UICONTROL Excluded reasons]** en el gráfico y la tabla se muestran las diferentes razones que impidieron que los perfiles de usuario, excluidos de los perfiles de destino, recibieran el mensaje.
 
 ![](assets/global_report_19.png)
 
