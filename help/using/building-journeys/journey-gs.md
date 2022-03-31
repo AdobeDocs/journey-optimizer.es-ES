@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1752'
 ht-degree: 9%
 
 ---
@@ -68,6 +68,11 @@ Estos son los pasos principales para enviar mensajes a través de recorridos:
    ![](assets/jo-dynamic_report_journey_12.png)
 
 ## Cambio de las propiedades {#change-properties}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties"
+>title="Propiedades del recorrido"
+>abstract="Puede cambiar el nombre del recorrido, añadir una descripción, permitir la reentrada, elegir las fechas de inicio y finalización y definir un tiempo de espera y la duración del error si es administrador."
 
 Haga clic en el icono de lápiz, en la parte superior derecha para acceder a las propiedades del recorrido.
 
