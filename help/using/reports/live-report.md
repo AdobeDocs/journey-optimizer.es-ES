@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,17 @@ Los datos están disponibles en la **[!UICONTROL Live report]** en cuanto se rea
 
    ![](assets/report_2.png)
 
+* Si desea cambiar del **[!UICONTROL Live report]** a **[!UICONTROL Global report]** para la entrega, haga clic en **[!UICONTROL Global view]** del conmutador de pestañas.
+
+   ![](assets/report_3.png)
+
 ## Personalizar tablero {#modify-dashboard}
 
 Cada tablero de informes se puede modificar cambiando el tamaño o eliminando las utilidades. Cambiar las utilidades solo afecta al tablero del usuario actual. Otros usuarios verán sus propios tableros o los que estén configurados de forma predeterminada.
 
 1. Elija si desea excluir los eventos de prueba de los informes con la barra de alternancia. Para obtener más información sobre los eventos de prueba, consulte [esta página](../building-journeys/testing-the-journey.md).
+
+   Tenga en cuenta que **[!UICONTROL Exclude test events]** solo está disponible para informes de Recorrido.
 
    ![](assets/report_modify_6.png)
 
