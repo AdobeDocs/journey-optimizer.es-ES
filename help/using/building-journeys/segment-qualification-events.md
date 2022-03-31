@@ -6,16 +6,21 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 0%
+source-wordcount: '828'
+ht-degree: 1%
 
 ---
 
 # Eventos de calificación de segmentos {#segment-qualification}
 
 ## Acerca de los eventos de calificación de segmentos{#about-segment-qualification}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification"
+>title="Eventos de calificación de segmentos"
+>abstract="Esta actividad permite que el recorrido escuche las entradas y salidas de perfiles en segmentos de Adobe Experience Platform para que los individuos entren o avancen en un recorrido."
 
 Esta actividad permite que el recorrido escuche las entradas y salidas de perfiles en segmentos de Adobe Experience Platform para que los individuos entren o avancen en un recorrido. Para obtener más información sobre la creación de segmentos, consulte esta [sección](../segment/about-segments.md).
 
