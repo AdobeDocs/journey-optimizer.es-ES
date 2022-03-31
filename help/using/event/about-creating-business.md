@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 12%
+source-wordcount: '1116'
+ht-degree: 11%
 
 ---
 
 # Configuración de un evento empresarial {#configure-a-business-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_business"
+>title="Eventos comerciales"
+>abstract="La configuración de evento le permite definir la información que Journey Optimizer recibirá como eventos. Puede utilizar varios eventos (en diferentes pasos de un recorrido) y varios recorridos pueden utilizar el mismo evento. A diferencia de los eventos unitarios, los eventos comerciales no están vinculados a un perfil específico. El tipo de ID de evento siempre se basa en reglas."
 
 A diferencia de los eventos unitarios, los eventos comerciales no están vinculados a un perfil específico. El tipo de ID de evento siempre se basa en reglas. Obtenga más información sobre los eventos empresariales en [esta sección](../event/about-events.md).
 
@@ -23,11 +28,12 @@ Los eventos comerciales pueden ser &quot;un producto vuelve a estar en existenci
 
 >[!NOTE]
 >
->También puede ver el caso de uso de evento empresarial [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
+>También puede ver el caso de uso de evento empresarial [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html). Tenga en cuenta que no es necesario habilitar el esquema para el perfil.
 
 ## Notas importantes {#important-notes}
 
-* Solo están disponibles los esquemas de series temporales. Los esquemas de eventos de experiencia, eventos de decisión y eventos de paso de Recorrido no están disponibles. El esquema de evento debe contener una identidad principal. Los campos siguientes deben definirse según sea necesario: `_id` y `timestamp`
+* Solo están disponibles los esquemas de series temporales. Los esquemas de eventos de experiencia, eventos de decisión y eventos de paso de Recorrido no están disponibles.
+* El esquema de evento debe contener una identidad principal no basada en personas. Se deben seleccionar los campos siguientes al definir el evento: `_id` y `timestamp`
 * Los eventos comerciales solo se pueden eliminar como el primer paso de un recorrido.
 * Al soltar un evento empresarial como el primer paso de un recorrido, el tipo de programador del recorrido será &quot;evento empresarial&quot;.
 * Solo se puede perder una actividad de segmento de lectura después de un evento comercial. Se añade automáticamente como el siguiente paso.
@@ -78,7 +84,7 @@ Estos son los primeros pasos para configurar un evento empresarial:
 
    ![](assets/jo-event5-business.png)
 
-   Solo están disponibles los esquemas de series temporales. Los esquemas de eventos de experiencia, eventos de decisión y eventos de paso de Recorrido no están disponibles. El esquema de evento debe contener una identidad principal. Los campos siguientes deben definirse según sea necesario: `_id` y `timestamp`
+   Solo están disponibles los esquemas de series temporales. Los esquemas de eventos de experiencia, eventos de decisión y eventos de paso de Recorrido no están disponibles. El esquema de evento debe contener una identidad principal no basada en personas. Se deben seleccionar los campos siguientes al definir el evento: `_id` y `timestamp`
 
    ![](assets/test-profiles-4.png)
 
