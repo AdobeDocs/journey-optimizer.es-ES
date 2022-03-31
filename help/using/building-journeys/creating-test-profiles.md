@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # Creación de perfiles de prueba {#create-test-profiles}
 
-Los perfiles de prueba son obligatorios al usar la variable [modo de prueba](../building-journeys/testing-the-journey.md) en un recorrido y para [previsualizar y probar el contenido](../messages/preview.md).
+Los perfiles de prueba son obligatorios al usar la variable [modo de prueba](../building-journeys/testing-the-journey.md) en un recorrido y para [previsualizar y probar el contenido](../design/preview.md).
 
 Existen varias formas de crear perfiles de prueba. Puede encontrar en esta página los detalles para:
 
@@ -92,7 +92,7 @@ Haga clic en el botón **[!UICONTROL Begin]** para iniciar el caso de uso.
 
 Se requiere la siguiente información:
 
-1. **Área de nombres de identidad**: La variable [área de nombres de identidad](../start/get-started-identity.md) se utiliza para identificar de forma exclusiva los perfiles de prueba. Por ejemplo, si el correo electrónico se utiliza para identificar los perfiles de prueba, el área de nombres de identidad **Correo electrónico** debe estar seleccionado. Si el identificador único es el número de teléfono, el área de nombres de identidad **Teléfono** debe estar seleccionado.
+1. **Área de nombres de identidad**: La variable [área de nombres de identidad](../segment/get-started-identity.md) se utiliza para identificar de forma exclusiva los perfiles de prueba. Por ejemplo, si el correo electrónico se utiliza para identificar los perfiles de prueba, el área de nombres de identidad **Correo electrónico** debe estar seleccionado. Si el identificador único es el número de teléfono, el área de nombres de identidad **Teléfono** debe estar seleccionado.
 
 2. **Archivo CSV**: Archivo separado por comas que contiene la lista de perfiles de prueba que se van a crear. El caso de uso espera un formato predefinido para el archivo CSV que contiene la lista de perfiles de prueba que se van a crear. Cada fila del archivo debe incluir los siguientes campos en el orden correcto de la siguiente manera:
 
@@ -120,7 +120,7 @@ Su recorrido estará compuesto por un **[!UICONTROL Read Segment]** y **[!UICONT
 
 >[!NOTE]
 >
-> Ya que actualizará la variable **testProfile** , los perfiles seleccionados deben incluir este campo. El esquema relacionado debe tener la variable **Detalles de la prueba de perfil** grupo de campos. Consulte [esta sección](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
+> Ya que actualizará la variable **testProfile** , los perfiles seleccionados deben incluir este campo. El esquema relacionado debe tener la variable **Detalles de la prueba de perfil** grupo de campos. Consulte [esta sección](../segment/creating-test-profiles.md#test-profiles-prerequisites).
 
 1. Vaya a **Segmentos**, luego **Crear segmento**, en la parte superior derecha.
    ![](assets/test-profiles-22.png)
