@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '719'
 ht-degree: 2%
 
 ---
@@ -115,7 +115,11 @@ La variable **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** 
 
 * **[!UICONTROL Ignored]**: El número total de mensajes temporales, como fuera de la oficina o un error técnico, por ejemplo, si el tipo de remitente es administrador de correo.
 
-La variable **[!UICONTROL Error Reasons]** El gráfico y la tabla permiten ver qué error se produjo durante el envío.
+![](assets/report_email_3.png)
+
+La variable **[!UICONTROL Error Reasons]** y **[!UICONTROL Exclude Reasons]** los gráficos y las tablas permiten ver qué error y exclusiones se produjeron durante el envío.
+
+La variable **[!UICONTROL Email - Top recipient domain]** gráfico y tabla detallan qué dominios son los más utilizados por los destinatarios para abrir el correo electrónico.
 
 ## Ficha Insertar {#push-live}
 
@@ -141,10 +145,12 @@ Para obtener un informe detallado sobre una entrega push específica, consulte l
 
 * **[!UICONTROL Engagements]**: Número total de aperturas y acciones para esta notificación push, es decir, si el perfil abrió la notificación push o si se hizo clic en un botón.
 
-La variable **[!UICONTROL Error Reasons]** El gráfico y la tabla permiten ver qué error se produjo durante el envío.
+![](assets/report_push_3.png)
+
+La variable **[!UICONTROL Error Reasons]** y **[!UICONTROL Exclude Reasons]** los gráficos y las tablas permiten ver qué error y exclusiones se produjeron durante el envío.
+
+La variable **[!UICONTROL Sending statistics - Failed]** permite ver cuántos errores y rechazos se han producido.
 
 ![](assets/report_push_2.png)
 
 La variable **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** y **[!UICONTROL Breakdown by platform]** gráficos y tablas detallan el éxito de la notificación push en función del sistema operativo.
-
-La variable **[!UICONTROL Sending statistics - Failed]** permite ver cuántos errores y rechazos se han producido.
