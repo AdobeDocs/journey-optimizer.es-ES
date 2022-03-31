@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: b2b9d52ea5f76a4c145542600597f37d6ef00161
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1403'
 ht-degree: 11%
@@ -25,7 +25,7 @@ Las notificaciones push le ayudan a llegar a sus usuarios de aplicaciones móvil
 
 [!DNL Journey Optimizer] admite notificaciones push y le ayuda a enviar notificaciones muy relevantes a tasas de rendimiento líderes en el sector. Las notificaciones push pueden incluir personalización y contexto basado en Recorridos para aprovechar la información de datos que su marca tiene con Adobe Experience Cloud.
 
-Una vez que [crear un mensaje](create-message.md), haga clic en **[!UICONTROL Push Notification]** para definir la configuración y el contenido de la notificación push.
+Una vez que [crear un mensaje](get-started-content.md), haga clic en **[!UICONTROL Push Notification]** para definir la configuración y el contenido de la notificación push.
 
 ![](assets/create-content-push.png)
 
@@ -68,7 +68,7 @@ Hay dos opciones disponibles. Puede:
 
 * Utilice la variable **[!UICONTROL Add media]** para seleccionar un recurso en **[!DNL Adobe Experience Manager Assets Essentials]**.
 
-   Aprenda a utilizar **[!DNL Adobe Experience Manager Assets Essentials]** en [esta página](assets-essentials.md).
+   Aprenda a utilizar **[!DNL Adobe Experience Manager Assets Essentials]** en [esta página](../design/assets-essentials.md).
 
 * O introduzca la dirección URL del contenido en el **[!UICONTROL Add media]** campo . En ese caso, puede añadir personalización a la dirección URL.
 
@@ -102,7 +102,7 @@ Utilice la variable **[!UICONTROL Custom data]** para agregar pares clave-valor.
 
 ## Datos personalizados
 
-En el **[!UICONTROL Custom data]** , puede agregar variables personalizadas a la carga útil, según la configuración de la aplicación móvil. Para obtener más información sobre cómo configurar las notificaciones push en Adobe Experience Platform y Adobe Launch, consulte [esta sección](push-gs.md)
+En el **[!UICONTROL Custom data]** , puede agregar variables personalizadas a la carga útil, según la configuración de la aplicación móvil. Para obtener más información sobre cómo configurar las notificaciones push en Adobe Experience Platform y Adobe Launch, consulte [esta sección](../configuration/push-gs.md)
 
 ## Opciones avanzadas {#advanced-options-push}
 
@@ -127,6 +127,6 @@ Puede configurar **[!UICONTROL Advanced options]** para la notificación push. A
 * [Understand push notification flow](push-gs.md)
 -->
 
-* [Configurar el canal push](push-gs.md)
-* [Crear un nuevo mensaje](create-message.md)
+* [Configurar el canal push](../configuration/push-gs.md)
+* [Crear un nuevo mensaje](get-started-content.md)
 * [Adición de un mensaje en un recorrido](../building-journeys/journeys-message.md)
