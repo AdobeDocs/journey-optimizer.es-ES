@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 100%
+source-wordcount: '1225'
+ht-degree: 82%
 
 ---
 
@@ -51,9 +51,9 @@ Primero debe agregar un vínculo de cancelación de suscripción a un mensaje. P
 
 1. Alójelo en el sistema de terceros que elija.
 
-1. [Cree un mensaje](create-message.md) en [!DNL Journey Optimizer].
+1. [Cree un mensaje](get-started-content.md) en [!DNL Journey Optimizer].
 
-1. Seleccione texto en el contenido e [inserte un vínculo](message-tracking.md#insert-links) utilizando la barra de herramientas contextual.
+1. Seleccione texto en el contenido e [inserte un vínculo](../design/message-tracking.md#insert-links) utilizando la barra de herramientas contextual.
 
    ![](assets/opt-out-insert-link.png)
 
@@ -141,7 +141,7 @@ Dado que muchos clientes buscan un proceso más sencillo para cancelar la suscri
 
 Para añadir un vínculo de no participación en el correo electrónico, siga los pasos a continuación.
 
-1. [Inserción de un vínculo](message-tracking.md#insert-links) y seleccione **[!UICONTROL One click Opt-out]** como tipo de vínculo.
+1. [Inserción de un vínculo](../design/message-tracking.md#insert-links) y seleccione **[!UICONTROL One click Opt-out]** como tipo de vínculo.
 
    ![](assets/message-tracking-opt-out.png)
 
@@ -155,6 +155,10 @@ Para añadir un vínculo de no participación en el correo electrónico, siga lo
 
 1. Introduzca la dirección URL de la página de aterrizaje a la que se redirigirá al usuario una vez cancelada la suscripción. Esta página solo está aquí para confirmar que la exclusión se ha realizado correctamente.
 
+   >[!NOTE]
+   >
+   >Si ha activado la variable **Cancelación de suscripción a una lista** en el nivel de ajuste preestablecido de mensaje, esta URL también se utilizará cuando los usuarios hagan clic en el vínculo unsubscribe en el encabezado del correo electrónico. [Más información](#unsubscribe-header)
+
    ![](assets/message-tracking-opt-out-confirmation.png)
 
    Puede personalizar los vínculos. Obtenga más información sobre la administración de exclusiones en [esta sección](../personalization/personalization-syntax.md).
@@ -163,19 +167,41 @@ Para añadir un vínculo de no participación en el correo electrónico, siga lo
 
 Una vez que el mensaje se envía a través de un [recorrido](../building-journeys/journey.md), si un destinatario hace clic en el vínculo de no participación, su perfil se excluye inmediatamente.
 
-### Vínculo de cancelación de suscripción en el encabezado del mensaje {#unsubscribe-email}
+### Vínculo de cancelación de suscripción en el encabezado del mensaje {#unsubscribe-header}
 
-Si el cliente de correo electrónico de los destinatarios admite la visualización de un vínculo de cancelación de suscripción en el encabezado del correo electrónico, los correos electrónicos enviados con [!DNL Journey Optimizer] incluyen automáticamente este vínculo.
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_unsubscribe"
+>title="Añadir vínculo de cancelación de suscripción al encabezado del correo electrónico"
+>abstract="Active Cancelación de suscripción a una lista para añadir un vínculo de cancelación de suscripción al encabezado del correo electrónico. Para establecer una URL de cancelación de suscripción, inserte un vínculo de exclusión de un solo clic en el contenido del mensaje de correo electrónico."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=en#one-click-opt-out" text="Opción de exclusión en un clic"
+
+Si la variable [Opción List-Unsubscribe](../configuration/message-presets.md#list-unsubscribe) se activa en el nivel de ajuste preestablecido de mensaje, los correos electrónicos correspondientes enviados con [!DNL Journey Optimizer] incluirá un vínculo de cancelación de suscripción en el encabezado del correo electrónico.
 
 Por ejemplo, el vínculo de cancelación de suscripción se mostrará así en Gmail:
 
-![](assets/unsubscribe-email.png)
+![](assets/unsubscribe-header.png)
 
-Según el cliente de correo electrónico, hacer clic en el vínculo de cancelación de suscripción del encabezado tendrá uno de los siguientes impactos:
+>[!NOTE]
+>
+>Para mostrar el vínculo de cancelación de suscripción en el encabezado del correo electrónico, el cliente de correo electrónico de los destinatarios debe admitir esta función.
+
+La dirección de cancelación de suscripción es la predeterminada **[!UICONTROL Mailto (unsubscribe)]** dirección mostrada en el mensaje preestablecido correspondiente. [Más información](../configuration/message-presets.md#list-unsubscribe).
+
+Para establecer una URL de cancelación de suscripción personalizada, inserte un vínculo de exclusión de un solo clic en el contenido del mensaje de correo electrónico e introduzca la URL que elija. [Más información](#one-click-opt-out)
+
+Según el cliente de correo electrónico, hacer clic en el vínculo de cancelación de suscripción del encabezado puede tener los siguientes efectos:
+
+* La solicitud de cancelación de suscripción se envía a la dirección de cancelación de suscripción.
+
+* El destinatario se dirige a la dirección URL de la página de aterrizaje que especificó al agregar el vínculo de no participación al mensaje.
+
+   >[!NOTE]
+   >
+   >Si no agrega un vínculo de exclusión de un clic al contenido del mensaje, no se mostrará ninguna página de aterrizaje.
 
 * El perfil correspondiente se excluye inmediatamente y esta opción se actualiza en Experience Platform. Obtenga más información en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
-* Tiene el mismo efecto que hacer clic en el vínculo de cancelación de la suscripción del contenido del correo electrónico: se redirige al destinatario a una página de aterrizaje, que incluye un botón para confirmar la exclusión. Obtenga más información sobre la administración de exclusiones en [esta sección](#opt-out-management).
+<!--To define a custom unsubscribe URL and email address, you must enable it in the message presets. [Learn more](../configuration/message-presets.md)-->
 
 ## Administración de exclusiones push {#push-opt-out-management}
 
