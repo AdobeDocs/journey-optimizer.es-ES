@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 14%
+source-wordcount: '1493'
+ht-degree: 13%
 
 ---
 
 # Configuración de un evento unitario {#configure-an-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_unitary"
+>title="Eventos unitarios"
+>abstract="La configuración de evento le permite definir la información que Journey Optimizer recibirá como eventos. Puede utilizar varios eventos (en diferentes pasos de un recorrido) y varios recorridos pueden utilizar el mismo evento. Los eventos unitarios están vinculados a un perfil específico. Pueden basarse en reglas o generarse en el sistema."
 
 Los eventos unitarios están vinculados a un perfil específico. Pueden basarse en reglas o generarse en el sistema.  Más información sobre el evento unitario [esta sección](../event/about-events.md).
 
