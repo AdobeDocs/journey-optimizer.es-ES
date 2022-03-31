@@ -3,7 +3,7 @@ title: Introducción a Journey Optimizer para administrador del sistema
 description: Como administrador del sistema, obtenga más información sobre cómo trabajar con Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
@@ -48,7 +48,7 @@ Siga los pasos que se indican a continuación:
 
 1. **Configuración de mensajes y canales**: definir ajustes preestablecidos, adaptar y personalizar la configuración de los mensajes push y de correo electrónico
 
-   * Definir **configuración de notificaciones push** en ambos [!DNL Adobe Experience Platform] y [!DNL Adobe Experience Platform Launch]. [Más información](../../messages/push-gs.md)
+   * Definir **configuración de notificaciones push** en ambos [!DNL Adobe Experience Platform] y [!DNL Adobe Experience Platform Launch]. [Más información](../../configuration/push-gs.md)
 
    * Crear **ajustes preestablecidos de mensajes** para configurar todos los parámetros técnicos necesarios para los mensajes de correo electrónico y notificaciones push. [Más información](../../configuration/message-presets.md)
 
@@ -64,8 +64,8 @@ Siga los pasos que se indican a continuación:
 
 1. **Administrar la supresión y la lista de permitidos**: mejore la capacidad de envío con supresión y listas de permitidos
 
-   * A [lista de supresión](../../messages/suppression-list.md) consiste en direcciones de correo electrónico que desea excluir de los envíos, ya que el envío a estos contactos podría dañar la reputación de envío y las tasas de envío. Puede supervisar todas las direcciones de correo electrónico que se excluyen automáticamente del envío de un recorrido, como direcciones no válidas, direcciones que devuelven mensajes de forma flexible y que podrían afectar negativamente a su reputación de correo electrónico y destinatarios que presentan una queja de correo no deseado de algún tipo contra uno de sus mensajes de correo electrónico. Obtenga información sobre cómo administrar la variable [lista de supresión](../../configuration/manage-suppression-list.md) y [reintentos](../../configuration/retries.md).
+   * A [lista de supresión](../../reports/suppression-list.md) consiste en direcciones de correo electrónico que desea excluir de los envíos, ya que el envío a estos contactos podría dañar la reputación de envío y las tasas de envío. Puede supervisar todas las direcciones de correo electrónico que se excluyen automáticamente del envío de un recorrido, como direcciones no válidas, direcciones que devuelven mensajes de forma flexible y que podrían afectar negativamente a su reputación de correo electrónico y destinatarios que presentan una queja de correo no deseado de algún tipo contra uno de sus mensajes de correo electrónico. Obtenga información sobre cómo administrar la variable [lista de supresión](../../configuration/manage-suppression-list.md) y [reintentos](../../configuration/retries.md).
    ![](../assets/suppression-list-filtering-example.png)
 
-   * La variable [lista de permitidos](../../messages/allow-list.md) permite especificar direcciones de correo electrónico o dominios individuales que serán los únicos destinatarios o dominios autorizados para recibir los correos electrónicos que envía desde un entorno limitado específico. Esto puede impedir que envíe correos electrónicos accidentalmente a direcciones de clientes reales cuando se encuentre en un entorno de prueba. Obtenga información sobre cómo [habilitar la lista de permitidos](../../messages/allow-list.md).
-   Obtenga más información sobre la administración de envíos en [!DNL Adobe Journey Optimizer] [en esta página](../../messages/deliverability.md).
+   * La variable [lista de permitidos](../../reports/allow-list.md) permite especificar direcciones de correo electrónico o dominios individuales que serán los únicos destinatarios o dominios autorizados para recibir los correos electrónicos que envía desde un entorno limitado específico. Esto puede impedir que envíe correos electrónicos accidentalmente a direcciones de clientes reales cuando se encuentre en un entorno de prueba. Obtenga información sobre cómo [habilitar la lista de permitidos](../../reports/allow-list.md).
+   Obtenga más información sobre la administración de envíos en [!DNL Adobe Journey Optimizer] [en esta página](../../reports/deliverability.md).
