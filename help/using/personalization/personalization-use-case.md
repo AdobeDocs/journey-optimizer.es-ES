@@ -1,5 +1,5 @@
 ---
-title: Caso de uso de Personalization y dos puntos; notificación del estado de pedido
+title: Caso de uso personalizado y dos puntos; notificación del estado de pedido
 description: Obtenga información sobre cómo personalizar un mensaje con perfil, decisión de oferta e información de contexto.
 feature: Personalization
 topic: Personalization
