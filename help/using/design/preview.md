@@ -36,7 +36,7 @@ Además, aproveche el **Litmus** account en [!DNL Journey Optimizer] para previs
 
 >[!CAUTION]
 >
->Al obtener una vista previa de un mensaje o enviar pruebas, solo se muestran los datos de personalización del perfil. La personalización basada en datos de contexto, como la información de evento, solo se puede probar en el contexto de un recorrido. Obtenga información sobre cómo probar la personalización en [este caso de uso](../personalization/personalization-use-case.md).
+>Al obtener una vista previa de un mensaje o enviar pruebas, solo se muestran los datos de personalización del perfil. Personalization basado en datos de contexto, como información de evento, solo se puede probar en el contexto de un recorrido. Obtenga información sobre cómo probar la personalización en [este caso de uso](../personalization/personalization-use-case.md).
 
 ➡️ [Aprenda a previsualizar, probar y publicar su correo electrónico en este vídeo](#video-preview)
 
