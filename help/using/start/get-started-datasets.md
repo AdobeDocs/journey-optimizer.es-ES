@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo utilizar conjuntos de datos de Ado
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 2cca25d16de520dd905143b2b3fe4bea6dbd7801
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
@@ -38,6 +38,6 @@ Obtenga información sobre cómo crear un conjunto de datos, asignarlo a un esqu
 
 **Consulte también**
 
-* [Crear un esquema, un conjunto de datos e introducir datos para añadir perfiles de prueba en Journey Optimizer](../building-journeys/creating-test-profiles.md)
+* [Crear un esquema, un conjunto de datos e introducir datos para añadir perfiles de prueba en Journey Optimizer](../segment/creating-test-profiles.md)
 * [Información general sobre la ingesta de flujos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es){target=&quot;_blank&quot;}
 * [Ingesta de datos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;}
