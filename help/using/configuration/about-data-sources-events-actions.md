@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 56%
+source-wordcount: '402'
+ht-degree: 44%
 
 ---
 
 # Configurar recorridos {#configure-journeys}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_configuration_dashboard"
+>title="Acerca de la configuración de recorrido"
+>abstract="Para enviar mensajes con recorridos, debe configurar Fuentes de datos, Eventos y Acciones. Las fuentes de datos permiten definir una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos, por ejemplo en las condiciones. Los eventos le permiten almacenar en déclencheur sus recorridos cuando se recibe un evento. Las acciones personalizadas le permiten conectarse a un sistema de terceros para enviar sus mensajes. Si utiliza las funciones de mensaje integradas de Journey Optimizer, no es necesario configurar una acción."
 
 Para enviar mensajes con recorridos, debe configurar **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** y **[!UICONTROL Actions]**.
 
