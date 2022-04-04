@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 82%
+source-wordcount: '1220'
+ht-degree: 76%
 
 ---
 
@@ -71,9 +71,9 @@ Primero debe agregar un vínculo de cancelación de suscripción a un mensaje. P
 
 #### Implementación de una llamada de API para la exclusión {#opt-out-api}
 
-Para que los destinatarios se excluyan cuando envíen su elección desde la página de aterrizaje, debe implementar una **Llamada de API de suscripción** mediante Adobe I/O para actualizar las preferencias de los perfiles correspondientes.
+Para que los destinatarios se excluyan cuando envíen su elección desde la página de aterrizaje, debe implementar una **Llamada de API de suscripción** hasta [Desarrollador de Adobe](developer.adobe.com) para actualizar las preferencias de los perfiles correspondientes.
 
-Esta llamada del POST de Adobe I/O es la siguiente:
+Esta llamada del POST es la siguiente:
 
 Extremo: platform.adobe.io/journey/imp/consent/preferences
 
@@ -109,7 +109,7 @@ Cuerpo de la solicitud:
 }
 ```
 
-[!DNL Journey Optimizer] utilizará estos parámetros para actualizar la elección del perfil correspondiente a través de la llamada de Adobe I/O.
+[!DNL Journey Optimizer] utilizará estos parámetros para actualizar la elección del perfil correspondiente mediante la variable [Desarrollador de Adobe](developer.adobe.com) Llamada de API.
 
 #### Enviar el mensaje con el vínculo de cancelación de suscripción {#send-message-unsubscribe-link}
 
@@ -121,7 +121,7 @@ Una vez configurado el vínculo de cancelación de suscripción a la página de 
 
    ![](assets/opt-out-lp-example.png)
 
-1. Si el destinatario envía el formulario (aquí, pulsando el botón **Cancelar suscripción** en la página de aterrizaje), los datos de perfil se actualizan a través de la [llamada de Adobe I/O](#opt-out-api).
+1. Si el destinatario envía el formulario (aquí, pulsando el botón **Cancelar suscripción** en la página de aterrizaje), los datos de perfil se actualizan a través de la variable [Llamada de API](#opt-out-api).
 
 1. El destinatario excluido se redirige a la pantalla de mensaje de confirmación para indicar que la exclusión se ha realizado correctamente.
 
