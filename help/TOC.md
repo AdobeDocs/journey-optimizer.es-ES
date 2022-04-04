@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para ofrecer experiencias conectadas, contextuales y personalizadas a los clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ecd793299284ed744a8b65c6518dd4c906496f90
+source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 93%
+source-wordcount: '972'
+ht-degree: 92%
 
 ---
 
@@ -258,7 +258,10 @@ ht-degree: 93%
          + [Acerca de los modelos de IA](using/offers/offer-library/ai-ranking.md)
          + [Creación de modelos de IA](using/offers/offer-library/create-ranking-strategies.md)
    + Crear y administrar ofertas {#managing-offers-in-the-offer-library}
-      + [Crear ofertas personalizadas](using/offers/offer-library/creating-personalized-offers.md)
+      + Configurar ofertas {#configure-offers}
+         + [Creación de ofertas personalizadas](using/offers/offer-library/creating-personalized-offers.md)
+         + [Añadir representaciones](using/offers/offer-library/add-representations.md)
+         + [Agregar restricciones](using/offers/offer-library/add-constraints.md)
       + [Crear ofertas de reserva](using/offers/offer-library/creating-fallback-offers.md)
       + [Crear colecciones](using/offers/offer-library/creating-collections.md)
    + Crear y administrar decisiones {#create-manage-activities}
