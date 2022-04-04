@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 296c17048f0d3dbabd210b0522d061028d5890dc
+source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '761'
 ht-degree: 1%
 
 ---
@@ -31,13 +31,17 @@ Para acceder a esta función, seleccione la opción **[!UICONTROL Simulation]** 
 
 ![](../assets/offers_simulation-tab.png)
 
+>[!NOTE]
+>
+>Como la simulación no genera ningún evento de decisión, la variable [restricción](../offer-library/creating-personalized-offers.md#capping) Recuento no se ve afectado.
+
 <!--
 ➡️ [Discover this feature in video](#video)
 -->
 
 ## Seleccionar perfiles de prueba {#select-test-profiles}
 
-Primero debe seleccionar los perfiles de prueba que va a utilizar para la simulación. Obtenga más información sobre los perfiles de prueba en [esta página](../../segment/creating-test-profiles.md).
+Primero debe seleccionar los perfiles de prueba que va a utilizar para la simulación. Obtenga más información sobre los perfiles de prueba en [esta sección](../../segment/creating-test-profiles.md).
 
 1. Haga clic en **[!UICONTROL Manage profile]**.
 
