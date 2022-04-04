@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1226'
 ht-degree: 82%
 
 ---
@@ -191,7 +191,7 @@ Para establecer una URL de cancelación de suscripción personalizada, inserte u
 
 Según el cliente de correo electrónico, hacer clic en el vínculo de cancelación de suscripción del encabezado puede tener los siguientes efectos:
 
-* La solicitud de cancelación de suscripción se envía a la dirección de cancelación de suscripción.
+* La solicitud de cancelación de suscripción se envía a la dirección de cancelación de suscripción predeterminada.
 
 * El destinatario se dirige a la dirección URL de la página de aterrizaje que especificó al agregar el vínculo de no participación al mensaje.
 
@@ -200,8 +200,6 @@ Según el cliente de correo electrónico, hacer clic en el vínculo de cancelaci
    >Si no agrega un vínculo de exclusión de un clic al contenido del mensaje, no se mostrará ninguna página de aterrizaje.
 
 * El perfil correspondiente se excluye inmediatamente y esta opción se actualiza en Experience Platform. Obtenga más información en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
-
-<!--To define a custom unsubscribe URL and email address, you must enable it in the message presets. [Learn more](../configuration/message-presets.md)-->
 
 ## Administración de exclusiones push {#push-opt-out-management}
 
