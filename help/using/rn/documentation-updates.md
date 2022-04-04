@@ -2,10 +2,10 @@
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: c0c57150be1c9031728daddf1e0a320853bc545c
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 94%
+source-wordcount: '1054'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha añadido una nueva página sobre cómo empezar a usar modelos de IA a la sección **Offer Decisioning**, que incluye una descripción detallada del [modelo de optimización automática](../offers/offer-library/ai-ranking.md#auto-optimization), el algoritmo que utiliza y más detalles técnicos. [Más información](../offers/offer-library/ai-ranking.md)
 * La página de creación del perfil de prueba se ha trasladado a la  **Segmento, perfiles e identidad** para obtener más información. [Más información](../segment/creating-test-profiles.md)
 * Se ha añadido un ejemplo sobre cómo añadir una expresión como valor predeterminado en el editor de expresiones. [Más información](../building-journeys/expression/field-references.md#default-value)
-* La variable **Cambiar las direcciones de correo electrónico principales** se ha actualizado para reflejar los cambios en la interfaz de usuario. [Más información](../configuration/primary-email-addresses.md)
+<!--* The **Change the primary email addresses** section has been updated to reflect the user interface changes. [Read more](../configuration/primary-email-addresses.md)-->
 
 ## Febrero de 2022 {#feb-2022}
 
