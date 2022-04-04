@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 85aec983ac39c8d65b2a833ee17dc1e3cafb5900
+source-git-commit: 49c09fbcf3be595e2a636f395fa89915e9e9c802
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '345'
 ht-degree: 8%
 
 ---
@@ -26,15 +26,15 @@ ht-degree: 8%
 
 Para acceder a las expresiones guardadas, haga clic en el botón **[!UICONTROL Library]** en el panel izquierdo. La lista muestra todas las expresiones que los usuarios administradores han guardado (consulte [Guardar expresiones en la biblioteca](#save-expressions)).
 
-    >[!NOTE]
-    >
-    >Puede utilizar el botón info para obtener más información sobre el contenido de una expresión guardada. Si tiene los permisos adecuados para administrar los elementos de la biblioteca, el botón de información aparecerá en el menú elipse.
-    
-    ![](assets/library-list.png)
+>[!NOTE]
+>
+>Puede utilizar el botón info para obtener más información sobre el contenido de una expresión guardada. Si tiene los permisos adecuados para administrar los elementos de la biblioteca, el botón de información aparecerá en el menú elipse.
+
+![](assets/library-list.png)
 
 Haga clic en + para insertar la expresión en el editor. A continuación, puede personalizar y validar el contenido de personalización como de costumbre. [Más información](../personalization/personalization-build-expressions.md)
 
-    ![](assets/library-add.png)
+![](assets/library-add.png)
 
 ## Guardar una expresión en la biblioteca {#save-expressions}
 
