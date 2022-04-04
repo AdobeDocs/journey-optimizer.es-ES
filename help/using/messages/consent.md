@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
+source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 76%
+source-wordcount: '1228'
+ht-degree: 75%
 
 ---
 
@@ -71,7 +71,7 @@ Primero debe agregar un vínculo de cancelación de suscripción a un mensaje. P
 
 #### Implementación de una llamada de API para la exclusión {#opt-out-api}
 
-Para que los destinatarios se excluyan cuando envíen su elección desde la página de aterrizaje, debe implementar una **Llamada de API de suscripción** hasta [Desarrollador de Adobe](developer.adobe.com) para actualizar las preferencias de los perfiles correspondientes.
+Para que los destinatarios se excluyan cuando envíen su elección desde la página de aterrizaje, debe implementar una **Llamada de API de suscripción** hasta [Desarrollador de Adobe](https://developer.adobe.com){target=&quot;_blank&quot;} para actualizar las preferencias de los perfiles correspondientes.
 
 Esta llamada del POST es la siguiente:
 
@@ -109,7 +109,7 @@ Cuerpo de la solicitud:
 }
 ```
 
-[!DNL Journey Optimizer] utilizará estos parámetros para actualizar la elección del perfil correspondiente mediante la variable [Desarrollador de Adobe](developer.adobe.com) Llamada de API.
+[!DNL Journey Optimizer] utilizará estos parámetros para actualizar la elección del perfil correspondiente mediante la variable [Desarrollador de Adobe](https://developer.adobe.com)Llamada de API {target=&quot;_blank&quot;}.
 
 #### Enviar el mensaje con el vínculo de cancelación de suscripción {#send-message-unsubscribe-link}
 
