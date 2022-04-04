@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 5%
+source-wordcount: '624'
+ht-degree: 4%
 
 ---
 
@@ -27,13 +27,12 @@ Se puede acceder a la lista de ofertas personalizadas en la **[!UICONTROL Offers
 
 ![](../assets/offers_list.png)
 
-## Creación de la oferta {#create-offer}
+## Crear una oferta {#create-offer}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
 >title="Acerca de los atributos de oferta"
 >abstract="Con los atributos de oferta, puede asociar pares de valor clave con la oferta para realizar informes y análisis."
->additional-url="https://video.tv.adobe.com/v/329375" text="Ver vídeo de demostración"
 
 Para crear un **oferta**, siga estos pasos:
 
@@ -41,175 +40,27 @@ Para crear un **oferta**, siga estos pasos:
 
    ![](../assets/create_offer.png)
 
-1. Especifique el nombre de la oferta, así como su fecha y hora de inicio y finalización. También puede asociar una o varias etiquetas existentes a la oferta, lo que le permite buscar y organizar la Biblioteca de ofertas con mayor facilidad.
+1. Especifique el nombre de la oferta, así como su fecha y hora de inicio y finalización. Fuera de estas fechas, el motor de decisiones no selecciona la oferta.
 
    ![](../assets/offer_details.png)
 
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >La variable **[!UICONTROL Offer attributes]** permite asociar pares de clave-valor con la oferta con fines de informes y análisis.
+   >La actualización de las fechas de inicio y finalización puede tener un impacto en el límite. [Más información](add-constraints.md#capping-change-date)
 
-## Configuración de las representaciones de la oferta {#representations}
+1. También puede asociar una o varias **[!UICONTROL tags]** a la oferta, lo que le permite buscar y organizar la biblioteca de ofertas con mayor facilidad. [Más información](creating-tags.md).
 
-Una oferta se puede mostrar en diferentes lugares de un mensaje: en un banner superior con una imagen, como texto en un párrafo, como bloque de HTML, etc. Cuantas más representaciones tenga una oferta, más oportunidades habrá de utilizar la oferta en diferentes contextos de ubicación.
+1. La variable **[!UICONTROL Offer attributes]** permite asociar pares de clave-valor con la oferta con fines de informes y análisis.
 
-Para añadir una o varias representaciones a la oferta y configurarlas, siga los pasos a continuación.
-
-1. Para la primera representación, comience por seleccionar la variable **[!UICONTROL Channel]** que se utilizará.
+1. Añada representaciones para definir dónde se mostrará la oferta en el mensaje. [Más información](add-representations.md)
 
    ![](../assets/channel-placement.png)
 
-   >[!NOTE]
-   >
-   >Solo se muestran las ubicaciones disponibles para el canal seleccionado en la **[!UICONTROL Placement]** lista desplegable.
+1. Añada restricciones para establecer las condiciones de la oferta que se va a mostrar. [Más información](add-constraints.md)
 
+   ![](../assets/offer-constraints-example.png)
 
-1. Seleccione una colocación de la lista.
-
-   También puede utilizar el botón situado junto al **[!UICONTROL Placement]** lista desplegable para examinar todas las ubicaciones.
-
-   ![](../assets/browse-button-placements.png)
-
-   Aquí todavía puede filtrar las ubicaciones según su canal o tipo de contenido. Elija una ubicación y haga clic en **[!UICONTROL Select]**.
-
-   ![](../assets/browse-placements.png)
-
-1. Añada contenido a su representación. Obtenga información sobre cómo [esta sección](#content).
-
-1. Al añadir contenido, como una imagen o una dirección URL, puede especificar un **[!UICONTROL Destination link]**: los usuarios que hacen clic en la oferta se dirigen a la página correspondiente.
-
-   ![](../assets/offer-destination-link.png)
-
-1. Finalmente, seleccione el idioma que desee para ayudar a identificar y administrar lo que se mostrará a los usuarios.
-
-1. Para añadir otra representación, utilice el **[!UICONTROL Add representation]** y añada tantas representaciones como sea necesario.
-
-   ![](../assets/offer-add-representation.png)
-
-1. Una vez que haya añadido todas las representaciones, seleccione **[!UICONTROL Next]**.
-
-## Definir contenido para las representaciones {#content}
-
-Puede añadir diferentes tipos de contenido a una representación.
-
->[!NOTE]
->
->Solo está disponible el contenido correspondiente al tipo de contenido de la ubicación.
-
-### Adición de imágenes {#images}
-
-Si la ubicación seleccionada es de tipo imagen, puede añadir contenido proveniente del **Adobe Experience Cloud Asset** biblioteca, un repositorio centralizado de recursos proporcionado por [!DNL Adobe Experience Manager Assets Essentials].
-
->[!NOTE]
->
-> Para trabajar con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}, debe implementar [!DNL Assets Essentials] para su organización y asegúrese de que los usuarios forman parte de la **Usuarios consumidores de Assets Essentials** o/y **Usuarios de Assets Essentials** Perfiles de producto. Más información sobre [esta página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
-
-1. Elija la opción **[!UICONTROL Asset library]**.
-
-1. Seleccione **[!UICONTROL Browse]**.
-
-   ![](../assets/offer-browse-asset-library.png)
-
-1. Examine los recursos para seleccionar la imagen que desee
-
-1. Haga clic en **[!UICONTROL Select]**.
-
-   ![](../assets/offer-select-asset.png)
-
-### Agregar direcciones URL {#urls}
-
-Para añadir contenido desde una ubicación pública externa, seleccione **[!UICONTROL URL]** y, a continuación, introduzca la dirección URL del contenido que desea añadir.
-
-![](../assets/offer-content-url.png)
-
-### Agregar texto personalizado {#custom-text}
-
-También puede insertar contenido de tipo texto al seleccionar una ubicación compatible.
-
-1. Seleccione la opción **[!UICONTROL Custom]** y haga clic en **[!UICONTROL Add content]**.
-
-   ![](../assets/offer-add-content.png)
-
-   >[!NOTE]
-   >
-   >Esta opción no está disponible para ubicaciones de tipo imagen.
-
-1. Escriba el texto que se mostrará en la oferta.
-
-   ![](../assets/offer-text-content.png)
-
-   Puede personalizar el contenido mediante el Editor de expresiones. Más información sobre [personalización](../../personalization/personalize.md#use-expression-editor).
-
-   ![](../assets/offer-personalization.png)
-
-   >[!NOTE]
-   >
-   >Solo el **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** y **[!UICONTROL Helper functions]** las fuentes están disponibles para la gestión de decisiones.
-
-## Agregar reglas y restricciones de idoneidad {#eligibility}
-
->[!CONTEXTUALHELP]
->id="od_offer_constraints"
->title="Acerca de las restricciones de oferta"
->abstract="Con las restricciones, se puede especificar cómo se prioriza la oferta y cómo se presenta al usuario en comparación con otras ofertas."
->additional-url="https://video.tv.adobe.com/v/329375" text="Ver vídeo de demostración"
-
->[!CONTEXTUALHELP]
->id="od_offer_eligibility"
->title="Acerca de la idoneidad de la oferta"
->abstract="En esta sección, puede utilizar reglas de decisión para determinar qué usuarios son elegibles para la oferta."
->additional-url="https://video.tv.adobe.com/v/329373" text="Ver vídeo de demostración"
-
->[!CONTEXTUALHELP]
->id="od_offer_priority"
->title="Acerca de la prioridad de las ofertas"
->abstract="En este campo, se puede especificar la configuración de prioridad de la oferta. Priority es un número que se usa para clasificar ofertas que cumplen con todas las restricciones, como elegibilidad, fechas y restricciones."
->additional-url="https://video.tv.adobe.com/v/329375" text="Ver vídeo de demostración"
-
->[!CONTEXTUALHELP]
->id="od_offer_globalcap"
->title="Acerca de la restricción de ofertas"
->abstract="En este campo, se puede especificar cuántas veces se puede presentar la oferta entre todos los usuarios."
->additional-url="https://video.tv.adobe.com/v/329375" text="Ver vídeo de demostración"
-
-Las reglas y restricciones de idoneidad le permiten definir las condiciones en las que se mostrará una oferta.
-
-1. Configure las variables **[!UICONTROL Offer eligibility]**.
-
-   * De forma predeterminada, la variable **[!UICONTROL All visitors]** la opción de regla de decisión está seleccionada, lo que significa que cualquier perfil puede presentarse como oferta.
-
-   * Puede limitar la presentación de la oferta a los miembros de uno o varios segmentos de Adobe Experience Platform. Para ello, active la variable **[!UICONTROL Visitors who fall into one or multiple segments]** , luego agregue uno o varios segmentos del panel izquierdo y combínelos usando la opción **[!UICONTROL And]** / **[!UICONTROL Or]** operadores lógicos.
-
-      Para obtener más información sobre cómo trabajar con segmentos, consulte [esta página](../../segment/about-segments.md).
-
-      ![](../assets/offer-eligibility-segment.png)
-
-   * Si desea asociar una regla de decisión específica a la oferta, seleccione **[!UICONTROL By defined decision rule]** y, a continuación, arrastre la regla que desee desde el panel izquierdo hasta la **[!UICONTROL Decision rule]** . Para obtener más información sobre cómo crear una regla de decisión, consulte [esta sección](../offer-library/creating-decision-rules.md).
-
-      ![](../assets/offer_rule.png)
-
-      >[!CAUTION]
-      >
-      >Actualmente, las ofertas basadas en eventos no son compatibles con [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, no podrá aprovecharlo en una oferta.
-   Obtenga más información sobre el uso de segmentos frente a reglas de decisión en [esta sección](../offer-activities/create-offer-activities.md#segments-vs-decision-rules).
-
-1. Defina el **[!UICONTROL Priority]** de la oferta comparada con otras si el usuario cumple los requisitos para más de una oferta. Cuanto mayor sea la prioridad de una oferta, mayor será su prioridad en comparación con otras ofertas.
-
-1. Especifique los **[!UICONTROL Capping]**, es decir, el número de veces que la oferta se presentará en total entre todos los usuarios. Si la oferta se ha enviado a todos los usuarios la cantidad de veces que ha especificado en este campo, su entrega se detendrá.
-
-   >[!NOTE]
-   >
-   >El número de veces que se propone una oferta se calcula en el momento de la preparación del correo electrónico. Por ejemplo, si prepara un mensaje de correo electrónico con una serie de ofertas, esos números se cuentan hasta el límite máximo, independientemente de si se envía o no el correo electrónico.
-   >
-   >Si se elimina una entrega por correo electrónico o si la preparación se realiza de nuevo antes de enviarse, el valor de límite de la oferta se actualiza automáticamente.
-
-   ![](../assets/offer_capping.png)
-
-   En el ejemplo anterior:
-
-   * La prioridad de la oferta se establece en &quot;50&quot;, lo que significa que la oferta se presentará antes que las ofertas con una prioridad entre 1 y 49, y después las que tengan una prioridad de al menos 51.
-   * La oferta se tendrá en cuenta para los usuarios que coincidan únicamente con la regla de decisión &quot;Clientes de Lealtad Dorada&quot;.
-   * La oferta se presenta solo una vez por usuario.
+1. Revise y guarde la oferta. [Más información](#review)
 
 ## Revisar la oferta {#review}
 
@@ -231,7 +82,7 @@ Ahora está listo para enviarse a los usuarios.
 
 ![](../assets/offer_created.png)
 
-## Lista de ofertas {#offer-list}
+## Administrar ofertas {#offer-list}
 
 En la lista de ofertas, puede seleccionar la oferta para mostrar sus propiedades. También puede editarlo, cambiar su estado (**Borrador**, **Aprobado**, **Archivado**), duplicar la oferta o eliminarla.
 
