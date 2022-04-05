@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 75%
+source-wordcount: '1259'
+ht-degree: 74%
 
 ---
 
@@ -38,6 +38,10 @@ Por lo tanto, siempre debe incluir un **vínculo para cancelar la suscripción**
 
 * Al hacer clic en este vínculo, los destinatarios se dirigen a una página de aterrizaje para confirmar la exclusión.
 * Después de confirmar su elección, los datos de los perfiles se actualizarán con esta información.
+
+>[!NOTE]
+>
+>Los mensajes de correo electrónico de tipo de marketing deben incluir un vínculo de no participación, que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transactional]**) se define en la variable [nivel de mensaje preestablecido](../configuration/message-presets.md#email-type) y cuándo [creación del mensaje](get-started-content.md#create-new-message).
 
 ### Exclusión externa {#opt-out-external-lp}
 
@@ -71,7 +75,7 @@ Primero debe agregar un vínculo de cancelación de suscripción a un mensaje. P
 
 #### Implementación de una llamada de API para la exclusión {#opt-out-api}
 
-Para que los destinatarios se excluyan cuando envíen su elección desde la página de aterrizaje, debe implementar una **Llamada de API de suscripción** hasta [Desarrollador de Adobe](https://developer.adobe.com){target=&quot;_blank&quot;} para actualizar las preferencias de los perfiles correspondientes.
+Para que los destinatarios se excluyan cuando envíen su elección desde la página de aterrizaje, debe implementar una **Llamada de API de suscripción** hasta [Desarrollador de Adobe](https://developer.adobe.com/){target=&quot;_blank&quot;} para actualizar las preferencias de los perfiles correspondientes.
 
 Esta llamada del POST es la siguiente:
 
