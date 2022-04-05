@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '960'
 ht-degree: 2%
 
 ---
@@ -88,6 +88,10 @@ Para definir la configuración de la página principal, siga los pasos a continu
    >La dirección URL de la página de aterrizaje debe ser única.
 
    ![](assets/lp_access-url.png)
+
+   >[!NOTE]
+   >
+   >No puede acceder a la página de aterrizaje simplemente copiando y pegando esta dirección URL en un navegador web, aunque se publique. En su lugar, puede probarlo con la función de vista previa como se describe en [esta sección](#test-landing-page).
 
 1. Puede definir una fecha de caducidad para la página. En ese caso, debe seleccionar una acción al expirar la página:
 
@@ -175,7 +179,7 @@ Pueden producirse dos tipos de alertas:
 
 * **Advertencias** consulte recomendaciones y prácticas recomendadas. <!--For example, a message will display if -->
 
-* **Errores** impida la publicación del mensaje mientras no se resuelvan. Por ejemplo, recibirá una advertencia si falta la dirección URL de la página principal.
+* **Errores** impida la publicación de la página de aterrizaje siempre que no se resuelvan. Por ejemplo, recibirá una advertencia si falta la dirección URL de la página principal.
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 
