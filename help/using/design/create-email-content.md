@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -94,9 +94,3 @@ Para empezar a crear el contenido del correo electrónico con el diseñador de c
 1. Cuando el correo electrónico esté listo, haga clic en **[!UICONTROL Save & Close]**.
 
 El contenido del correo electrónico ahora se puede utilizar en un mensaje. [Obtenga información sobre cómo enviar un mensaje](../messages/publish-manage-message.md).
-
-## Vídeo explicativo {#video}
-
-Aprenda a crear contenido de correo electrónico con el editor de mensajes.
-
->[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
