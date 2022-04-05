@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 0%
+source-wordcount: '721'
+ht-degree: 1%
 
 ---
 
@@ -83,7 +83,7 @@ Para crear una regla nueva, siga los pasos a continuación.
 
 ## Activar una regla {#activate-rule}
 
-Para activar una regla de frecuencia de mensaje, haga clic en los puntos suspensivos junto a la regla y seleccione **[!UICONTROL Activate]**.
+Cuando se crea, una regla de frecuencia de mensaje tiene la variable **[!UICONTROL Draft]** y aún no afecta a ningún mensaje. Para habilitarlo, haga clic en los puntos suspensivos junto a la regla y seleccione **[!UICONTROL Activate]**.
 
 ![](assets/message-rules-activate.png)
 
@@ -105,28 +105,70 @@ El estado de la regla cambiará a **[!UICONTROL Inactive]** y la regla no se apl
 
 ## Aplicación de una regla de frecuencia a un mensaje {#apply-frequency-rule}
 
-Para aplicar una regla de frecuencia a un mensaje, simplemente debe seleccionar la categoría que definió para esta regla cuando [creación del mensaje](../messages/get-started-content.md#create-new-message).
+Para aplicar una regla de frecuencia a un mensaje, siga los pasos a continuación.
 
-![](assets/message-rules-properties.png)
+1. Cree un mensaje. [Más información](../messages/get-started-content.md#create-new-message)
 
-Seleccione la **[!UICONTROL Marketing]** , todas las reglas de frecuencia de mensaje coincidentes se aplicarán automáticamente a este mensaje.
+1. Seleccione la categoría que definió para la variable [regla creada](#create-new-rule).
+
+   ![](assets/message-rules-msg-properties.png)
+
+   >[!NOTE]
+   >
+   >Actualmente solo el **[!UICONTROL Marketing]** está disponible para reglas de frecuencia de mensajes.
+
+1. Seleccione los canales que desee para el mensaje.
+
+   ![](assets/message-rules-msg-channels.png)
+
+1. Puede hacer clic en el botón **[!UICONTROL Frequency rule]** para ver las reglas de frecuencia que se aplicarán a la categoría y a los canales seleccionados.
+
+   ![](assets/message-rules-msg-link.png)
+
+   Se abrirá una nueva pestaña para mostrar las reglas de frecuencia de mensaje coincidentes.
+
+1. [Diseño](../design/design-emails.md) y [publicar](../messages/publish-manage-message.md) su mensaje.
+
+Todas las reglas de frecuencia que coincidan con la categoría y los canales seleccionados se aplicarán automáticamente a este mensaje.
 
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 Puede ver el número de perfiles excluidos del envío en la [Vistas en directo y globales](../reports/message-monitoring.md)y en la [informe de actividades de correo electrónico](../reports/email-live-report.md), donde las reglas de frecuencia se enumerarán como un posible motivo para los usuarios excluidos del envío.
 
-## Ejemplo
+## Ejemplo: combinar varias reglas {#frequency-rule-example}
 
 Puede combinar varias reglas de frecuencia de mensajes, como se describe en el ejemplo siguiente.
 
-1. Cree una regla llamada *Restricción general de marketing*:
+1. [Crear una regla](#create-new-rule) llamado *Restricción general de marketing*:
 
    * Seleccione todos los canales (correo electrónico, push).
    * Establezca el límite en 12.
 
-1. Para restringir aún más el número de notificaciones push basadas en marketing que envía un usuario, cree una segunda regla llamada *Limitar push de marketing*:
+   ![](assets/message-rules-ex-overall-cap.png)
+
+1. Para restringir aún más el número de notificaciones push basadas en marketing que envía un usuario, cree una segunda regla llamada *Límite de marketing push*:
 
    * Seleccione Canal push.
    * Establezca el límite en 4.
 
-En este escenario, un perfil individual puede recibir hasta 12 mensajes de marketing al mes, pero se excluirá de las notificaciones push de marketing después de haber recibido 4 notificaciones push.
+   ![](assets/message-rules-ex-push-cap.png)
+
+1. Guardar y [activar](#activate-rule) la regla.
+
+1. Cree un mensaje. [Más información](../messages/get-started-content.md#create-new-message)
+
+1. Seleccione el **[!UICONTROL Marketing]** categoría.
+
+   ![](assets/message-rules-ex-category-maktg.png)
+
+1. Seleccione el **[!UICONTROL Email]** y **[!UICONTROL Push Notification]** canales.
+
+   ![](assets/message-rules-ex-channels.png)
+
+1. Puede hacer clic en el botón **[!UICONTROL Frequency rule]** para ver las reglas de frecuencia que se aplicarán a la categoría y a los canales seleccionados.
+
+1. [Diseño](../design/design-emails.md) y [publicar](../messages/publish-manage-message.md) su mensaje.
+
+En este escenario, un perfil individual:
+* puede recibir hasta 12 mensajes de marketing al mes;
+* pero se excluirán de las notificaciones push de marketing una vez que hayan recibido 4 notificaciones push.
