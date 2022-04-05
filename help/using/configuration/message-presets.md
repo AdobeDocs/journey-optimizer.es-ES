@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '2067'
+source-wordcount: '2098'
 ht-degree: 1%
 
 ---
@@ -19,12 +19,12 @@ con [!DNL Journey Optimizer], puede configurar ajustes preestablecidos de mensaj
 
 >[!CAUTION]
 >
-> * La configuración de los ajustes preestablecidos de mensaje está restringida a los administradores de Recorrido. [Más información](../administration/ootb-product-profiles.md#journey-administrator)
+> * La configuración de los mensajes preestablecidos está restringida a [Administradores de recorrido](../administration/ootb-product-profiles.md#journey-administrator). Para crear, editar y eliminar ajustes preestablecidos de mensaje, debe tener la variable [Administrar ajustes preestablecidos de mensajes](../administration/high-low-permissions.md#manage-message-presets).
 >
-> * Debe realizar la configuración de correo electrónico y [Configuración push](../configuration/push-configuration.md) pasos antes de crear ajustes preestablecidos de mensaje.
+> * Debe realizar [Configuración de correo electrónico](#configure-email-settings) y [Configuración push](../configuration/push-configuration.md) pasos antes de crear ajustes preestablecidos de mensaje.
 
 
-Una vez configurados los ajustes preestablecidos de mensaje, puede seleccionarlos al crear mensajes desde el **[!UICONTROL Presets]** lista.
+Una vez configurados los ajustes preestablecidos de mensaje, podrá seleccionarlos al crear mensajes desde el **[!UICONTROL Presets]** lista.
 
 ➡️ [Aprenda a crear y utilizar ajustes preestablecidos de correo electrónico en este vídeo](#video-presets)
 
@@ -84,14 +84,15 @@ La configuración del correo electrónico se define en una sección dedicada de 
 
 Configure los ajustes tal como se describe a continuación.
 
-
 ### Tipo de correo electrónico{#email-type}
 
 En el **TIPO DE CORREO ELECTRÓNICO** , seleccione el tipo de mensaje que se enviará con el ajuste preestablecido: **Marketing** o **Transaccional**.
 
-Choose **Marketing** para mensajes promocionales: estos mensajes requieren el consentimiento del usuario.
+* Choose **Marketing** para mensajes promocionales: estos mensajes requieren el consentimiento del usuario.
 
-Choose **Transaccional** para mensajes no comerciales, como confirmación de pedido, notificaciones de restablecimiento de contraseña o información de entrega, por ejemplo.
+* Choose **Transaccional** para mensajes no comerciales, como confirmación de pedido, notificaciones de restablecimiento de contraseña o información de entrega, por ejemplo.
+
+When [creación de un mensaje](../messages/get-started-content.md#create-new-message), debe elegir un ajuste preestablecido de mensaje válido para la categoría y los canales seleccionados.
 
 >[!CAUTION]
 >
