@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '185'
 ht-degree: 6%
 
 ---
@@ -36,4 +36,11 @@ Todas estas funciones están disponibles al acceder al Diseñador de correo elec
 >[!NOTE]
 >
 >Tenga en cuenta que las plantillas del área inferior son estáticas y no se pueden editar. Solo están disponibles con fines ilustrativos.
-Una vez que haya [crear el mensaje](../messages/get-started-content.md), puede empezar a crear su contenido de correo electrónico.
+>
+>Una vez que haya [crear el mensaje](../messages/get-started-content.md), puede empezar a crear su contenido de correo electrónico.
+
+## Vídeo explicativo {#video}
+
+Aprenda a crear contenido de correo electrónico con el editor de mensajes.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
