@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '608'
 ht-degree: 9%
 
 ---
@@ -72,6 +72,10 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
    * Puede elegir subrayar el vínculo o no marcando la opción correspondiente.
 
    ![](assets/message-tracking-link-settings.png)
+
+>[!NOTE]
+>
+>Los mensajes de correo electrónico de tipo de marketing deben incluir un [vínculo de no participación](../messages/consent.md#opt-out-management), que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transactional]**) se define en la variable [nivel de mensaje preestablecido](../configuration/message-presets.md#email-type) y cuándo [creación del mensaje](../messages/get-started-content.md#create-new-message).
 
 ## Vínculo a una página espejo {#mirror-page}
 
