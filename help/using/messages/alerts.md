@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -45,27 +45,31 @@ La configuración y los elementos comprobados por el sistema se enumeran a conti
 
 **Advertencias**:
 
-* **[!UICONTROL The opt-out link is not present in the email body.]**: añadir un vínculo de baja en el cuerpo del correo electrónico es una práctica recomendada. Obtenga información sobre cómo configurarlo en [esta sección](consent.md).
+* **[!UICONTROL The opt-out link is not present in the email body]**: añadir un vínculo de baja en el cuerpo del correo electrónico es una práctica recomendada. Obtenga información sobre cómo configurarlo en [esta sección](consent.md#opt-out-management).
 
-* **[!UICONTROL Text version of HTML is empty.]**: no olvide definir una versión de texto del cuerpo del correo electrónico, ya que se utilizará cuando no se pueda mostrar el contenido del HTML. Aprenda a crear la versión de texto en [esta sección](../design/text-version-email.md).
+   >[!NOTE]
+   >
+   >Los mensajes de correo electrónico de tipo de marketing deben incluir un vínculo de no participación, que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transactional]**) se define en la variable [nivel de mensaje preestablecido](../configuration/message-presets.md#email-type) y cuándo [creación del mensaje](get-started-content.md#create-new-message).
 
-* **[!UICONTROL Empty link is present in email body.]**: compruebe que todos los vínculos del correo electrónico sean correctos. Obtenga información sobre cómo administrar contenido y vínculos en [esta sección](../design/create-email-content.md).
+* **[!UICONTROL Text version of HTML is empty]**: no olvide definir una versión de texto del cuerpo del correo electrónico, ya que se utilizará cuando no se pueda mostrar el contenido del HTML. Aprenda a crear la versión de texto en [esta sección](../design/text-version-email.md).
 
-* **[!UICONTROL Email size has exceeded the limit of 100KB.]**: para una entrega óptima, asegúrese de que el tamaño del correo electrónico no supere los 100 KB. Obtenga información sobre cómo editar contenido de correo electrónico en [esta sección](../design/create-email-content.md).
+* **[!UICONTROL Empty link is present in email body]**: compruebe que todos los vínculos del correo electrónico sean correctos. Obtenga información sobre cómo administrar contenido y vínculos en [esta sección](../design/create-email-content.md).
+
+* **[!UICONTROL Email size has exceeded the limit of 100KB]**: para una entrega óptima, asegúrese de que el tamaño del correo electrónico no supere los 100 KB. Obtenga información sobre cómo editar contenido de correo electrónico en [esta sección](../design/create-email-content.md).
 
 **Errores**:
 
-* **[!UICONTROL The subject line is missing.]**: la línea de asunto del correo electrónico es obligatoria. Obtenga información sobre cómo definirlo y personalizarlo en [esta sección](create-email.md).
+* **[!UICONTROL The subject line is missing]**: la línea de asunto del correo electrónico es obligatoria. Obtenga información sobre cómo definirlo y personalizarlo en [esta sección](create-email.md).
 
    <!--HTML is empty when Amp HTML is present-->
 
-* **[!UICONTROL The push version of the message is empty.]**: este error se muestra cuando falta el cuerpo o el título de la notificación push. Aprenda a definir el contenido de las notificaciones push en [esta sección](create-push.md).
+* **[!UICONTROL The push version of the message is empty]**: este error se muestra cuando falta el cuerpo o el título de la notificación push. Aprenda a definir el contenido de las notificaciones push en [esta sección](create-push.md).
 
-* **[!UICONTROL The email version of the message is empty.]**: este error se muestra cuando el contenido del correo electrónico no se ha configurado. Aprenda a diseñar contenido de correo electrónico en [esta sección](../design/design-emails.md).
+* **[!UICONTROL The email version of the message is empty]**: este error se muestra cuando el contenido del correo electrónico no se ha configurado. Aprenda a diseñar contenido de correo electrónico en [esta sección](../design/design-emails.md).
 
-* **[!UICONTROL Preset doesn’t exist.]**: no puede publicar el mensaje si el ajuste preestablecido seleccionado se elimina después de la creación del mensaje. Si se produce este error, seleccione otro ajuste preestablecido en el mensaje **[!UICONTROL Properties]**. Obtenga más información sobre la promoción de la marca en [esta sección](../configuration/about-subdomain-delegation.md).
+* **[!UICONTROL Preset doesn’t exist]**: no puede publicar el mensaje si el ajuste preestablecido seleccionado se elimina después de la creación del mensaje. Si se produce este error, seleccione otro ajuste preestablecido en el mensaje **[!UICONTROL Properties]**. Obtenga más información sobre la promoción de la marca en [esta sección](../configuration/about-subdomain-delegation.md).
 
-* **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB.]**: el tamaño de la notificación push no puede superar los 4 KB. Para respetar este límite, intente reducir el uso de imágenes o emojis. Aprenda a administrar el contenido de las notificaciones push en [esta sección](create-push.md).
+* **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: el tamaño de la notificación push no puede superar los 4 KB. Para respetar este límite, intente reducir el uso de imágenes o emojis. Aprenda a administrar el contenido de las notificaciones push en [esta sección](create-push.md).
 
 >[!CAUTION]
 >
