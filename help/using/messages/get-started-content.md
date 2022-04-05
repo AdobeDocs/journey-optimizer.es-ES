@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 17%
+source-wordcount: '647'
+ht-degree: 16%
 
 ---
 
@@ -67,11 +67,15 @@ Para crear un nuevo mensaje, siga los pasos a continuación:
 
    * Seleccione el **[!UICONTROL Message category]**: Marketing o transaccional.
 
+   * Seleccione los canales que desee utilizar para ese mensaje: Notificación por correo electrónico o push . Debe seleccionar al menos un canal para poder crear el mensaje.
+
    * Seleccione el **[!UICONTROL Preset]** para usar en el mensaje.
 
       Los ajustes preestablecidos incluyen todos los parámetros necesarios para enviar un correo electrónico o una notificación push según la marca. [Obtenga más información sobre los ajustes preestablecidos](../configuration/message-presets.md).
+   >[!CAUTION]
+   >
+   >Debe elegir un ajuste preestablecido de mensaje válido para la categoría y los canales seleccionados.
 
-   * Seleccione los canales que desee utilizar para ese mensaje: Notificación por correo electrónico o push . Debe seleccionar al menos un canal para poder crear el mensaje.
    Tenga en cuenta que puede acceder al título, la descripción y el ajuste preestablecido del mensaje y modificarlos en cualquier momento mediante la función **[!UICONTROL Properties]** en la interfaz de mensajes.
 
 1. Haga clic en **[!UICONTROL Create]** para confirmar la creación del mensaje. El mensaje se añade en la lista de mensajes, en la **[!UICONTROL Draft]** estado.
