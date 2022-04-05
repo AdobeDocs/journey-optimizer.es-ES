@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 2%
@@ -94,7 +94,7 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 
    ![](assets/perso-uc12.png)
 
-1. Escriba el mensaje e inserte, desde el ****[!UICONTROL Contextual attributes]** , el nombre del elemento de pedido y el progreso del pedido.
+1. Escriba el mensaje e inserte, desde el **[!UICONTROL Contextual attributes]** , el nombre del elemento de pedido y el progreso del pedido.
 
    ![](assets/perso-uc13.png)
 
