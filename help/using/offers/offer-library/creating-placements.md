@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 16%
+source-wordcount: '261'
+ht-degree: 14%
 
 ---
 
 # Creación de ubicaciones {#create-placements}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement"
+>title="Colocación"
+>abstract="Una ubicación es un contenedor que se utiliza para mostrar ofertas. Ayuda a garantizar que el contenido de oferta correcto se muestre en la ubicación correcta dentro del mensaje. Las ubicaciones se crean desde el menú &quot;Componentes&quot;."
 
 Una ubicación ayuda a garantizar que el contenido de oferta correcto se muestre en la ubicación correcta dentro del mensaje. Al agregar contenido a una oferta, se le pedirá que seleccione una ubicación en la que se pueda mostrar dicho contenido.
 
