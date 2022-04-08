@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '188'
 ht-degree: 5%
 
 ---
 
 # Creación de etiquetas {#create-tags}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_offer_tags"
+>title="Etiquetas"
+>abstract="Asocie una o varias etiquetas a la oferta para mantener la biblioteca de ofertas organizada y localizar las ofertas más fácilmente. Las etiquetas se crean desde el menú &quot;Componente&quot;."
 
 Asociar etiquetas a las ofertas facilita su organización. Por ejemplo, puede etiquetar las ofertas del Black Friday con la etiqueta &quot;Black Friday&quot;. A continuación, puede utilizar la funcionalidad de búsqueda de la Biblioteca de ofertas para localizar fácilmente todas las ofertas con esa etiqueta.
 
