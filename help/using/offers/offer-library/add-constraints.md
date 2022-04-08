@@ -5,9 +5,10 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1552'
 ht-degree: 3%
 
 ---
@@ -23,6 +24,11 @@ ht-degree: 3%
 >id="od_offer_priority"
 >title="Acerca de la prioridad de las ofertas"
 >abstract="En este campo, se puede especificar la configuración de prioridad de la oferta. Priority es un número que se usa para clasificar ofertas que cumplen con todas las restricciones, como elegibilidad, fechas y restricciones."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_priority"
+>title="Prioridad"
+>abstract="La prioridad ayuda a definir la prioridad de la oferta en comparación con otras si el usuario cumple los requisitos para más de una oferta. Cuanto mayor sea la prioridad de una oferta, mayor será su prioridad en comparación con otras ofertas."
 
 Las restricciones permiten definir las condiciones en las que se mostrará una oferta.
 
@@ -49,6 +55,11 @@ Por ejemplo, si establece las siguientes restricciones:
 * La oferta se presentará solo una vez por usuario en todas las ubicaciones.
 
 ## Elegibilidad {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_eligibility"
+>title="Elegibilidad"
+>abstract="La idoneidad de la oferta le permite restringir la oferta a perfiles específicos que defina mediante segmentos o reglas de decisión."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -107,8 +118,8 @@ Básicamente, el resultado de un segmento es una lista de perfiles, mientras que
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="Acerca de la restricción de ofertas"
->abstract="En este campo, se puede especificar cuántas veces se puede presentar la oferta."
+>title="Restricción"
+>abstract="El límite se utiliza como una restricción para definir el número máximo de veces que se puede presentar una oferta."
 
 El límite se utiliza como una restricción para definir el número máximo de veces que se puede presentar una oferta.
 
