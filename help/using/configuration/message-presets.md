@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: de5e9e6026222ce57a7bb37e11aa6f8bbf583d19
 workflow-type: tm+mt
-source-wordcount: '2098'
+source-wordcount: '2110'
 ht-degree: 1%
 
 ---
@@ -85,6 +85,11 @@ La configuración del correo electrónico se define en una sección dedicada de 
 Configure los ajustes tal como se describe a continuación.
 
 ### Tipo de correo electrónico{#email-type}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_emailtype"
+>title="Tipo de correo electrónico"
+>abstract="Para completar"
 
 En el **TIPO DE CORREO ELECTRÓNICO** , seleccione el tipo de mensaje que se enviará con el ajuste preestablecido: **Marketing** o **Transaccional**.
 
@@ -189,6 +194,11 @@ En el **[!UICONTROL HEADER PARAMETERS]** , introduzca los nombres del remitente 
 >Las direcciones deben comenzar por una letra (A-Z) y solo pueden contener caracteres alfanuméricos. También puede utilizar guiones bajos `_`, punto`.` Guión `-` caracteres.
 
 ### Parámetros de reintentos de correo electrónico{#email-retry}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_retryperiod"
+>title="Período de tiempo de reintento de correo electrónico"
+>abstract="Para completar"
 
 Puede configurar la variable **Parámetros de reintentos de correo electrónico**.
 
