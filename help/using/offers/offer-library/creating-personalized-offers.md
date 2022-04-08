@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '643'
 ht-degree: 4%
 
 ---
@@ -32,6 +32,11 @@ Se puede acceder a la lista de ofertas personalizadas en la **[!UICONTROL Offers
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
 >title="Acerca de los atributos de oferta"
+>abstract="Con los atributos de oferta, puede asociar pares de valor clave con la oferta para realizar informes y análisis."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_offer_attributes"
+>title="Atributos de oferta"
 >abstract="Con los atributos de oferta, puede asociar pares de valor clave con la oferta para realizar informes y análisis."
 
 Para crear un **oferta**, siga estos pasos:
