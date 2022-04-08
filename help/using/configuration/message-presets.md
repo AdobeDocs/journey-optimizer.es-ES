@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: de5e9e6026222ce57a7bb37e11aa6f8bbf583d19
+source-git-commit: 4ae0f9a43ecacb031168ea455db49a9241ab38fa
 workflow-type: tm+mt
-source-wordcount: '2110'
+source-wordcount: '2187'
 ht-degree: 1%
 
 ---
@@ -84,12 +84,12 @@ La configuración del correo electrónico se define en una sección dedicada de 
 
 Configure los ajustes tal como se describe a continuación.
 
-### Tipo de correo electrónico{#email-type}
+### Tipo de correo electrónico {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="Tipo de correo electrónico"
->abstract="Para completar"
+>title="Definir la categoría de correo electrónico"
+>abstract="Seleccione el tipo de mensajes que se enviarán al utilizar este ajuste preestablecido: Marketing para mensajes promocionales, que requieren el consentimiento del usuario, o Transactional para mensajes no comerciales, que también se puede enviar a perfiles cancelados de suscripción en contextos específicos."
 
 En el **TIPO DE CORREO ELECTRÓNICO** , seleccione el tipo de mensaje que se enviará con el ajuste preestablecido: **Marketing** o **Transaccional**.
 
@@ -193,12 +193,13 @@ En el **[!UICONTROL HEADER PARAMETERS]** , introduzca los nombres del remitente 
 >
 >Las direcciones deben comenzar por una letra (A-Z) y solo pueden contener caracteres alfanuméricos. También puede utilizar guiones bajos `_`, punto`.` Guión `-` caracteres.
 
-### Parámetros de reintentos de correo electrónico{#email-retry}
+### Parámetros de reintentos de correo electrónico {#email-retry}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
->title="Período de tiempo de reintento de correo electrónico"
->abstract="Para completar"
+>title="Ajustar el período de tiempo de reintento"
+>abstract="Los reintentos se realizan durante 3,5 días (84 horas) cuando un mensaje de correo electrónico falla debido a un error temporal de devolución del mensaje. Puede ajustar este período de tiempo de reintento predeterminado para adaptarlo mejor a sus necesidades."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="Acerca de los reintentos"
 
 Puede configurar la variable **Parámetros de reintentos de correo electrónico**.
 
