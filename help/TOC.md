@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 92%
    + Configuración de correo electrónico {#design-email}
       + [Generar la versión de texto](using/design/text-version-email.md)
       + [Añadir un encabezado previo](using/design/preheader.md)
-   + Adición y administración de recursos {#manage-asset}
+   + Adición y administración de activos {#manage-asset}
       + [Trabajar con Assets Essentials](using/design/assets-essentials.md)
    + [Adición de ofertas personalizadas](using/design/deliver-personalized-offers.md)
    + [Adición de vínculos y seguimiento de mensajes](using/design/message-tracking.md)
@@ -220,7 +220,7 @@ ht-degree: 92%
       + [Informe activo de correo electrónico](using/reports/email-live-report.md)
       + [Informe activo push](using/reports/push-live-report.md)
       + [Informe en directo de la página de aterrizaje](using/reports/lp-report-live.md)
-      + [Lista de suscripciones Informe activo](using/reports/subscription-report-live.md)
+      + [Informe en directo de la lista de suscripciones](using/reports/subscription-report-live.md)
    + Informe global {#global-report}
       + [Acceso al panel de informes globales](using/reports/global-report.md)
       + [Informe global de recorrido](using/reports/journey-global-report.md)
