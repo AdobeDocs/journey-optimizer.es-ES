@@ -6,18 +6,23 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d568480005d9b4aad5982c26184a5add0be6c83a
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 26%
+source-wordcount: '205'
+ht-degree: 21%
 
 ---
 
 # Añadir un registro TXT de Google a un subdominio {#google-txt-record}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_google"
+>title="Registros TXT de Google"
+>abstract="Para garantizar un envío correcto de correos electrónicos a las direcciones de Gmail, puede añadir registros TXT de verificación de sitios de Google especiales a su subdominio para asegurarse de que estén verificados."
+
 Los registros TXT son un tipo de registros DNS que se utilizan para proporcionar información de texto sobre un dominio y que pueden leer fuentes externas.
 
-Para garantizar una buena entrega y un envío correcto de correos electrónicos a las direcciones de Gmail, [!DNL Journey Optimizer] le permite agregar registros TXT especiales de verificación del sitio de Google a sus subdominios para asegurarse de que estén verificados.
+Para garantizar una entrega óptima y un envío correcto de correos electrónicos a las direcciones de Gmail, [!DNL Journey Optimizer] le permite agregar registros TXT especiales de verificación del sitio de Google al subdominio para asegurarse de que estén verificados.
 
 >[!CAUTION]
 >
