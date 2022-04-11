@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '1113'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -15,10 +15,10 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Marzo de 2022 {#march-2022}
 
-* Todas las nuevas funciones y mejoras incluidas [!DNL Journey Optimizer] La versión del 22 de marzo se ha detallado en la documentación. [Más información](release-notes.md)
+* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de marzo de 2022 se han incluido en la documentación. [Más información](release-notes.md)
 * Se ha añadido una nueva página sobre cómo empezar a usar modelos de IA a la sección **Offer Decisioning**, que incluye una descripción detallada del [modelo de optimización automática](../offers/offer-library/ai-ranking.md#auto-optimization), el algoritmo que utiliza y más detalles técnicos. [Más información](../offers/offer-library/ai-ranking.md)
-* La página de creación del perfil de prueba se ha trasladado a la  **Segmento, perfiles e identidad** para obtener más información. [Más información](../segment/creating-test-profiles.md)
-* Se ha añadido un ejemplo sobre cómo añadir una expresión como valor predeterminado en el editor de expresiones. [Más información](../building-journeys/expression/field-references.md#default-value)
+* La página de creación del perfil de prueba se ha trasladado a la sección **Segmento, perfiles e identidad** [Más información](../segment/creating-test-profiles.md)
+* Se ha añadido un ejemplo sobre cómo agregar una expresión como valor predeterminado en el editor de expresiones. [Más información](../building-journeys/expression/field-references.md#default-value)
 * La variable **Creación de ofertas personalizadas** se ha reorganizado para mejorar la legibilidad. [Más información](../offers/offer-library/creating-personalized-offers.md)
 * Se ha añadido una nueva sección para describir el impacto que puede tener el cambio de las fechas de inicio y/o finalización de una oferta en el límite de frecuencia de esta oferta. [Más información](../offers/offer-library/add-constraints.md#capping-change-date)
 * La variable **Cambiar las direcciones de correo electrónico principales** se ha actualizado para reflejar los cambios en la interfaz de usuario. [Más información](../configuration/primary-email-addresses.md)
