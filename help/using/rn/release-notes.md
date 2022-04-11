@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
 workflow-type: tm+mt
 source-wordcount: '2938'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 92%
 
 En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journey Optimizer]. También puede consultar la página de las [últimas actualizaciones de la documentación](documentation-updates.md) para ver más cambios.
 
-![Newsletter](../assets/do-not-localize/nl-icon.png) Regístrese para [Boletín trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} hoy y recibe las últimas actualizaciones de productos, artículos interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.
+![Newsletter](../assets/do-not-localize/nl-icon.png) Regístrese para la [Newsletter trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} hoy y reciba las últimas actualizaciones de productos, artículos interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.
 
 
 ## Lanzamiento de marzo de 2022 {#march-2022-release}
@@ -22,22 +22,22 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 **Recorridos**
 
-* Para evitar tener campos innecesarios en el esquema de perfil unificado, el esquema de Evento de paso de Recorrido ya no está habilitado para perfiles de forma predeterminada. Si es necesario, puede activarlo. [Más información](../reports/sharing-overview.md)
+* Para evitar tener campos innecesarios en el esquema de perfil unificado, el esquema de Evento de paso de recorrido ya no está habilitado para perfiles de forma predeterminada. Si es necesario, puede activarlo. [Más información](../reports/sharing-overview.md)
 * Journey Optimizer ahora envía a Adobe Experience Platform nuevos eventos relacionados con los trabajos de exportación. Se han añadido ejemplos de consultas a la documentación. [Más información](../reports/query-examples.md)
 
 **Administración de decisiones**
 
 * Ahora puede especificar si el límite de oferta se aplica a todos los usuarios o a un perfil específico, así como a todas las ubicaciones o ubicaciones. [Más información](../offers/offer-library/add-constraints.md#capping)
-* La API de decisiones por lotes permite a las organizaciones utilizar la funcionalidad de offer decisioning para todos los perfiles de un segmento determinado en una llamada. El contenido de la oferta para cada perfil del segmento se coloca en un conjunto de datos de AEP, donde está disponible para flujos de trabajo por lotes personalizados. [Más información](../offers/api-reference/batch-api/deliver-offers-batch.md)
+* La API de decisiones por lotes permite a las organizaciones utilizar la funcionalidad de Offer Decisioning para todos los perfiles de un segmento determinado en una llamada. El contenido de la oferta para cada perfil del segmento se coloca en un conjunto de datos de AEP, donde está disponible para flujos de trabajo por lotes personalizados. [Más información](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
 **Administración**
 
 * Ahora puede habilitar/deshabilitar el vínculo de cancelación de suscripción en/desde el encabezado de correo electrónico en el nivel de ajuste preestablecido de mensaje y establecer una URL de cancelación de suscripción personalizada en el nivel de mensaje. [Más información](../configuration/message-presets.md#list-unsubscribe)
-* Ahora, la lista de permitidos se puede habilitar y deshabilitar a través del [!DNL Journey Optimizer] en entornos limitados de producción y sin producción. [Más información](../reports/allow-list.md#enable-allow-list)
+* Ahora, la lista de permitidos se puede habilitar y deshabilitar a través de la interfaz [!DNL Journey Optimizer] en entornos limitados de producción y sin producción. [Más información](../reports/allow-list.md#enable-allow-list)
 
 **Personalización**
 
-* Ahora puede guardar más de 40 expresiones de personalización en la biblioteca . [Más información](../personalization/personalization-library.md)
+* Ahora puede guardar más de 40 expresiones de personalización en la biblioteca. [Más información](../personalization/personalization-library.md)
 
 ## Lanzamiento de febrero de 2022 {#feb-2022-release}
 
