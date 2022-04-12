@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '491'
 ht-degree: 2%
 
 ---
