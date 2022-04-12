@@ -4,9 +4,9 @@ description: Aprenda a configurar su entorno para crear y utilizar páginas de a
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 62d8f4b0caa4ed74991e92475392c3278bdf5317
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '935'
 ht-degree: 2%
 
 ---
@@ -78,6 +78,11 @@ Para utilizar un subdominio que ya está delegado en Adobe, siga los pasos a con
 1. Una vez realizadas las comprobaciones correctamente, el subdominio recibe la variable **[!UICONTROL Success]** estado. Está listo para utilizarse para crear ajustes preestablecidos de página de aterrizaje.
 
 ### Configuración de un nuevo subdominio {#lp-configure-new-subdomain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_lp_subdomain_dns"
+>title="Generar el registro DNS correspondiente"
+>abstract="Para configurar un nuevo subdominio de página de aterrizaje, debe copiar la información del servidor de nombres de Adobe que se muestra en la interfaz de Journey Optimizer y pegarla en la solución de alojamiento de dominios para generar el registro DNS correspondiente. Una vez realizadas las comprobaciones correctamente, el subdominio está listo para utilizarse para crear ajustes preestablecidos de página de aterrizaje."
 
 Para configurar un nuevo subdominio, siga los pasos a continuación.
 
