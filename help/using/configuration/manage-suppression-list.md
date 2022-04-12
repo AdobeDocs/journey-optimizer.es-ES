@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 819e54313e3ec15b9c215455e25d9ff4fc60fb0b
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '992'
 ht-degree: 6%
 
 ---
@@ -103,6 +103,11 @@ Los posibles motivos de un error de entrega son:
 
 ## Adición manual de direcciones y dominios {#add-addresses-and-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list"
+>title="Añadir correos electrónicos/dominios a la lista de supresión"
+>abstract="Puede rellenar manualmente la lista de supresión de Journey Optimizer para excluir de los envíos direcciones de correo electrónico o dominios específicos."
+
 Cuando un mensaje no se puede enviar a una dirección de correo electrónico, esta dirección se agrega automáticamente a la lista de supresión en función de la regla de supresión definida o del recuento de devoluciones.
 
 Sin embargo, también puede rellenar manualmente la variable [!DNL Journey Optimizer] lista de supresión para excluir de la entrega direcciones de correo electrónico o dominios específicos.
@@ -114,6 +119,11 @@ Para ello, seleccione la **[!UICONTROL Add email or domain]** , siga uno de los 
 ![](assets/suppression-list-add-email.png)
 
 ### Añadir una dirección o un dominio {#add-one-address-or-domain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_address"
+>title="Agregar un elemento a la lista de supresión"
+>abstract="Puede rellenar la lista de supresión añadiendo direcciones de correo electrónico o dominios uno a uno."
 
 1. Seleccione la opción **[!UICONTROL One by one]**.
 
@@ -132,6 +142,11 @@ Para ello, seleccione la **[!UICONTROL Add email or domain]** , siga uno de los 
 1. Haga clic en **[!UICONTROL Submit]**.
 
 ### Cargar un archivo CSV {#upload-csv-file}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_csv"
+>title="Cargar CSV para agregar elementos a la lista de supresión"
+>abstract="Puede rellenar la lista de supresión cargando un archivo CSV rellenado con las direcciones de correo electrónico o los dominios que desea excluir."
 
 1. Seleccione la opción **[!UICONTROL Upload CSV]**.
 
