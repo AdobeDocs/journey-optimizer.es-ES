@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 11%
+source-wordcount: '1607'
+ht-degree: 10%
 
 ---
 
@@ -17,20 +17,28 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
->title="Acerca de la delegación de subdominios"
->abstract="Journey Optimizer le permite delegar completamente sus subdominios a Adobe. Adobe podrá enviar mensajes como un servicio administrado controlando y manteniendo todos los aspectos de DNS."
+>title="Delegación de subdominios"
+>abstract="Journey Optimizer le permite delegar los subdominios a Adobe. Puede delegar completamente un subdominio al Adobe o crear un subdominio utilizando CNAME para que apunte a registros específicos del Adobe."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="Métodos de configuración de subdominios"
 
-La delegación de nombres de dominio es un método que permite al propietario de un nombre de dominio (técnicamente: una zona DNS) para delegar una subdivisión de ella (técnicamente: una zona DNS bajo ella, que puede llamarse subzona) a otra entidad. Básicamente, como cliente, si está administrando la zona &quot;example.com&quot;, puede delegar la subzona &quot;marketing.example.com&quot; a Adobe.
-
-Delegando un subdominio para usar con [!DNL Journey Optimizer], los clientes pueden confiar en el Adobe para mantener la infraestructura DNS necesaria para cumplir los requisitos de envío estándar del sector para sus dominios de envío de marketing por correo electrónico, a la vez que mantienen y controlan el DNS para sus dominios de correo electrónico internos.
+La delegación de nombres de dominio es un método que permite al propietario de un nombre de dominio (técnicamente: una zona DNS) para delegar una subdivisión de ella (técnicamente: una zona DNS bajo ella, que puede llamarse subzona) a otra entidad. Básicamente, como cliente, si está administrando la zona &quot;example.com&quot;, puede delegar la subzona &quot;marketing.example.com&quot; a Adobe. Más información sobre [delegación de subdominios](about-subdomain-delegation.md)
 
 >[!NOTE]
 >
 >De forma predeterminada, [!DNL Journey Optimizer] contrato de licencia le permite delegar hasta 10 subdominios. Póngase en contacto con el Adobe si desea aumentar esta limitación.
 
+Puede delegar completamente un subdominio o crear un subdominio utilizando CNAME para que apunte a registros específicos de Adobe. Obtenga más información sobre las diferencias entre ambos [métodos de configuración de subdominios](about-subdomain-delegation.md#subdomain-delegation-methods).
+
 ## Delegación completa de subdominios {#full-subdomain-delegation}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_dns"
+>title="Generar los registros DNS coincidentes"
+>abstract="Para delegar completamente un nuevo subdominio a Adobe, debe copiar la información del servidor de nombres de Adobe que se muestra en la interfaz de Journey Optimizer y pegarla en la solución de alojamiento de dominios para generar los registros DNS coincidentes. Una vez realizadas las comprobaciones correctamente, el subdominio está listo para utilizarse para enviar mensajes."
+
 [!DNL Journey Optimizer] le permite delegar completamente los subdominios a Adobes directamente desde la interfaz de producto. Al hacerlo, Adobe podrá enviar mensajes como un servicio administrado controlando y manteniendo todos los aspectos de DNS necesarios para la entrega, el procesamiento y el seguimiento de campañas de correo electrónico.
+
+Puede confiar en el Adobe para mantener la infraestructura DNS necesaria para cumplir los requisitos de envío estándar del sector para sus dominios de envío de marketing por correo electrónico, a la vez que mantiene y controla el DNS para sus dominios de correo electrónico internos.
 
 Para delegar completamente un nuevo subdominio al Adobe, siga los pasos a continuación:
 
@@ -87,6 +95,11 @@ Una vez delegado un subdominio al Adobe en [!DNL Journey Optimizer], se crea aut
 >Actualmente, la ejecución paralela de subdominios no es compatible con [!DNL Journey Optimizer]. Si intenta enviar un subdominio para la delegación cuando otra tiene la variable **[!UICONTROL Processing]** obtendrá un mensaje de error.
 
 ## Delegación de subdominios CNAME {#cname-subdomain-delegation}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_dns_cname"
+>title="Generar los registros de validación y DNS coincidentes"
+>abstract="Para delegar un subdominio mediante CNAME, debe copiar y pegar la información del servidor de nombres de Adobe y el registro de validación de URL de CDN SSL que se muestra en la interfaz de Journey Optimizer en la plataforma de alojamiento. Una vez realizadas las comprobaciones correctamente, el subdominio está listo para utilizarse para enviar mensajes."
 
 Si tiene directivas de restricción específicas del dominio y desea que el Adobe solo tenga control parcial sobre DNS, puede elegir llevar a cabo todas las actividades relacionadas con DNS de su lado.
 
