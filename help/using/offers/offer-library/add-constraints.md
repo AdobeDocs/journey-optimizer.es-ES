@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1553'
 ht-degree: 3%
 
 ---
@@ -133,7 +133,7 @@ Para definir el límite, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >El número debe ser bueno a 0.
+   >El número debe ser un número entero bueno a 0.
 
 1. Especifique si desea que el límite se aplique a todos los usuarios o a un perfil específico:
 
@@ -147,15 +147,15 @@ Para definir el límite, siga los pasos a continuación.
 
       Por ejemplo, si es un banco con una oferta de &quot;tarjeta de crédito Platinum&quot;, no desea que esta oferta se muestre más de 5 veces por perfil. De hecho, cree que si el usuario ha visto la oferta 5 veces y no ha actuado en ella, tiene más posibilidades de actuar en la siguiente mejor oferta.
 
-1. Si ha definido varias [representaciones](#representations) para la oferta, especifique si desea aplicar restricciones a **[!UICONTROL All placements]** o **[!UICONTROL Per placement]**.
+1. Si ha definido varias [representaciones](#representations) para la oferta, especifique si desea aplicar restricciones **[!UICONTROL Across all placements]** o **[!UICONTROL For each placement]**.
 
    ![](../assets/offer-capping-placement.png)
 
-   * **[!UICONTROL All placements]**: los recuentos de límite totales calcularán todas las decisiones en las ubicaciones asociadas a la oferta.
+   * **[!UICONTROL Across all placements]**: los recuentos de límite totales calcularán todas las decisiones en las ubicaciones asociadas a la oferta.
 
       Por ejemplo, si una oferta tiene una **Correo electrónico** ubicación y **Web** ubicación y establezca el límite en **2 por perfil en todas las ubicaciones**, cada perfil podría recibir la oferta hasta 2 veces en total, independientemente de la combinación de ubicación.
 
-   * **[!UICONTROL Per placement]**: los recuentos de límite aplicarán recuentos de decisión para cada ubicación por separado.
+   * **[!UICONTROL For each placement]**: los recuentos de límite aplicarán recuentos de decisión para cada ubicación por separado.
 
       Por ejemplo, si una oferta tiene una **Correo electrónico** ubicación y **Web** ubicación y establezca el límite en **2 por perfil para cada ubicación**, cada perfil podría recibir la oferta hasta 2 veces para la ubicación del correo electrónico y otras 2 veces para la ubicación web.
 
