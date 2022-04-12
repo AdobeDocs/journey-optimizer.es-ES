@@ -5,9 +5,9 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 2cca25d16de520dd905143b2b3fe4bea6dbd7801
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '321'
 ht-degree: 11%
 
 ---
@@ -22,7 +22,7 @@ Un esquema es un conjunto de reglas que representan y validan la estructura y el
 
 Obtenga información sobre cómo crear esquemas en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es){target=&quot;_blank&quot;}
 
-La variable **Esquemas** espacio de trabajo [!DNL Adobe Journey Optimizer] la interfaz de usuario de le permite administrar los recursos del modelo de datos de Experience (XDM), incluidos esquemas, clases, grupos de campos de esquema y tipos de datos. Puede ver y explorar los recursos principales proporcionados por Adobe y crear esquemas y recursos personalizados para su organización.
+La variable **Esquemas** espacio de trabajo en [!DNL Adobe Journey Optimizer] la interfaz de usuario de le permite administrar los recursos del modelo de datos de Experience (XDM), incluidos esquemas, clases, grupos de campos de esquema y tipos de datos. Puede ver y explorar los recursos principales proporcionados por Adobe y crear esquemas y recursos personalizados para su organización.
 
 ![](assets/schemas-home.png)
 
