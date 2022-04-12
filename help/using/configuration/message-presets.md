@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4ae0f9a43ecacb031168ea455db49a9241ab38fa
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2266'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ con [!DNL Journey Optimizer], puede configurar ajustes preestablecidos de mensaj
 
 >[!CAUTION]
 >
-> * La configuración de los mensajes preestablecidos está restringida a [Administradores de recorrido](../administration/ootb-product-profiles.md#journey-administrator). Para crear, editar y eliminar ajustes preestablecidos de mensaje, debe tener la variable [Administrar ajustes preestablecidos de mensajes](../administration/high-low-permissions.md#manage-message-presets).
+> * Para crear, editar y eliminar ajustes preestablecidos de mensaje, debe tener la variable [Administrar ajustes preestablecidos de mensajes](../administration/high-low-permissions.md#manage-message-presets).
 >
 > * Debe realizar [Configuración de correo electrónico](#configure-email-settings) y [Configuración push](../configuration/push-configuration.md) pasos antes de crear ajustes preestablecidos de mensaje.
 
@@ -29,6 +29,11 @@ Una vez configurados los ajustes preestablecidos de mensaje, podrá seleccionarl
 ➡️ [Aprenda a crear y utilizar ajustes preestablecidos de correo electrónico en este vídeo](#video-presets)
 
 ## Crear un ajuste preestablecido de mensaje {#create-message-preset}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_message_presets"
+>title="Detalles y configuración de ajustes preestablecidos de mensajes"
+>abstract="Al configurar un ajuste preestablecido de mensaje, puede seleccionar el canal al que se aplica y definir todos los parámetros técnicos necesarios para los mensajes, como el tipo de correo electrónico, el subdominio a utilizar, el nombre del remitente, las aplicaciones móviles, etc."
 
 Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
@@ -97,11 +102,11 @@ En el **TIPO DE CORREO ELECTRÓNICO** , seleccione el tipo de mensaje que se env
 
 * Choose **Transaccional** para mensajes no comerciales, como confirmación de pedido, notificaciones de restablecimiento de contraseña o información de entrega, por ejemplo.
 
-When [creación de un mensaje](../messages/get-started-content.md#create-new-message), debe elegir un ajuste preestablecido de mensaje válido para la categoría y los canales seleccionados.
-
 >[!CAUTION]
 >
 >**Transaccional** se pueden enviar mensajes a perfiles que cancelen la suscripción a comunicaciones de marketing. Estos mensajes solo se pueden enviar en contextos específicos.
+
+When [creación de un mensaje](../messages/get-started-content.md#create-new-message), debe elegir un ajuste preestablecido de mensaje válido que coincida con la categoría seleccionada para el mensaje.
 
 ### Subdominio y grupo de IP {#subdomains-and-ip-pools}
 
@@ -110,6 +115,10 @@ En el **DETALLES DEL GRUPO DE IP Y SUBDOMINIOS** , debe:
 1. Seleccione el subdominio que desea utilizar para enviar los correos electrónicos. [Más información](about-subdomain-delegation.md)
 
 1. Seleccione el grupo de IP que desea asociar al ajuste preestablecido. [Más información](ip-pools.md)
+
+>[!NOTE]
+>
+>Para los entornos que no son de producción, Adobe no crea subdominios de prueba predeterminados ni concede acceso a un grupo de IP de envío compartido. Debe [delegar sus propios subdominios](delegate-subdomain.md) y usar las IP del grupo asignado a su organización.
 
 ### Cancelación de suscripción a una lista {#list-unsubscribe}
 
@@ -212,6 +221,8 @@ Debe introducir un valor entero (en horas o minutos) dentro del siguiente interv
 * En los correos electrónicos de marketing, el periodo de reintento mínimo es de 6 horas.
 * Para los correos electrónicos transaccionales, el periodo mínimo de reintentos es de 10 minutos.
 * Para ambos tipos de correo electrónico, el periodo de reintento máximo es de 84 horas (o 5040 minutos).
+
+Obtenga más información sobre los reintentos en [esta sección](retries.md).
 
 ## Configuración de push {#configure-push-settings}
 
