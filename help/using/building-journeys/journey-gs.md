@@ -1,15 +1,15 @@
 ---
 title: Introducción a los recorridos
-description: Introducción a los recorridos
+description: Pasos clave para crear su primer recorrido con Adobe Journey Optimizer
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 9%
+source-wordcount: '1759'
+ht-degree: 8%
 
 ---
 
