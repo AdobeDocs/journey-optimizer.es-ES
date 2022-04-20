@@ -7,19 +7,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
+source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 55%
+ht-degree: 56%
 
 ---
 
 # Acerca de las acciones {#about_actions}
 
 >[!CONTEXTUALHELP]
->id="jo_actions"
+>id="ajo_journey_action_list"
 >title="Acerca de las acciones"
->abstract="Aquí se define la conexión con el sistema que enviará los mensajes. Las acciones definidas aquí estarán disponibles en la paleta izquierda del recorrido, en la categoría Acción. "
+>abstract="Aquí se define la conexión con el sistema que enviará los mensajes. Las acciones definidas aquí estarán disponibles en la paleta izquierda del recorrido, en la categoría Acción."
 
 Las acciones son conexiones a través de las cuales se ofrecen experiencias personalizadas en tiempo real a clientes, como notificaciones push, correo electrónico, SMS u otro medio de participación digital de su negocio.
 
@@ -29,7 +29,7 @@ Las acciones son conexiones a través de las cuales se ofrecen experiencias pers
 
 Si tiene Adobe Campaign v7 o v8, hay una integración disponible bajo petición. Consulte [esta página](../action/acc-action.md).
 
-Si utiliza un sistema de terceros para enviar mensajes como Epsilon, Facebook, [Desarrollador de Adobe](https://developer.adobe.com){target=&quot;_blank&quot;}, Firebase, etc., debe agregar y configurar una acción personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
+Si utiliza un sistema de terceros para enviar mensajes como Epsilon, Facebook, [Desarrollador de Adobe](https://developer.adobe.com/){target=&quot;_blank&quot;}, Firebase, etc., debe agregar y configurar una acción personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
 Las acciones personalizadas le permiten configurar la conexión de un sistema de terceros para enviar mensajes o llamadas API. Se puede configurar una acción con cualquier servicio de cualquier proveedor al que se pueda llamar mediante una API REST con carga útil en formato JSON.
 
