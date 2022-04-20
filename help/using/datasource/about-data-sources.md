@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 74%
@@ -16,7 +16,7 @@ ht-degree: 74%
 # Acerca de las fuentes de datos {#about-data-sources}
 
 >[!CONTEXTUALHELP]
->id="jo_datasources"
+>id="ajo_journey_data_source_list"
 >title="Acerca de las fuentes de datos"
 >abstract="La configuración de la fuente de datos siempre la realiza un usuario técnico. La configuración de la fuente de datos permite definir una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos para definición de condición, parámetro y datos de personalización en acciones, definición de espera personalizada, definición de zona horaria personalizada."
 
