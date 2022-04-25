@@ -1,14 +1,14 @@
 ---
-title: SDK web de Adobe Experience Platform
+title: Enviar ofertas mediante la API de Edge Decisioning
 description: El SDK web de Adobe Experience Platform le permite recuperar y procesar ofertas personalizadas que haya creado mediante API o la Biblioteca de ofertas.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 58ebc89bf2dfc3d1e23f22c1aa37144c572b74b9
+source-git-commit: fbceab397e836c0166df595e87a7ae3a74087477
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 3%
+source-wordcount: '1050'
+ht-degree: 2%
 
 ---
 
@@ -80,7 +80,7 @@ Esta opción es más fácil de usar para las personas que tengan menos experienc
 
 1. Cree su [Reglas](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
 
-   i. Añada una acción de Platform Web SDK Send Event y añada los decisionScopes relevantes a la configuración de esa acción
+   Añada una acción de Platform Web SDK Send Event y añada los decisionScopes relevantes a la configuración de esa acción
 
    ![Renderizar oferta](../../assets/rule-render-offer.png)
 
