@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '668'
 ht-degree: 5%
 
 ---
@@ -127,6 +127,10 @@ Una respuesta correcta devuelve información sobre los contenedores de administr
 ## Pasos siguientes {#next-steps}
 
 Este documento abarcaba los conocimientos previos necesarios para realizar llamadas al [!DNL Offer Library] , incluida la adquisición del ID de contenedor. Ahora puede continuar con las llamadas de ejemplo que se proporcionan en esta guía para desarrolladores y seguir junto con sus instrucciones.
+
+>[!NOTE]
+>
+> El canal de mensajería en la aplicación de Adobe Journey Optimizer utiliza objetos de offer decisioning. Si su organización utiliza el canal de mensajería en la aplicación, las solicitudes de lista de API para objetos incluirán objetos creados por el servicio de mensajería en la aplicación y se pueden ignorar para casos de uso de offer decisioning. Los objetos creados para mensajes en la aplicación tendrán `createdBy = “Mobile_Sheliak”`.
 
 ## Vídeo explicativo {#video}
 

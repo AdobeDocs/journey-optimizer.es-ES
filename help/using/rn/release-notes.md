@@ -2,7 +2,7 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ad0e4572c855d8842215d2f9d42e47aac53b82d1
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '2969'
 ht-degree: 98%
@@ -30,7 +30,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 **Administración de decisiones**
 
 * Ahora puede especificar si el límite de oferta se aplica a todos los usuarios o a un perfil específico, así como a todas las ubicaciones o ubicaciones. [Más información](../offers/offer-library/add-constraints.md#capping)
-* La API de decisiones por lotes permite a las organizaciones utilizar la funcionalidad de Offer Decisioning para todos los perfiles de un segmento determinado en una llamada. El contenido de la oferta para cada perfil del segmento se coloca en un conjunto de datos de AEP, donde está disponible para flujos de trabajo por lotes personalizados. [Más información](../offers/api-reference/batch-api/deliver-offers-batch.md)
+* La API de decisiones por lotes permite a las organizaciones utilizar la funcionalidad de Offer Decisioning para todos los perfiles de un segmento determinado en una llamada. El contenido de la oferta para cada perfil del segmento se coloca en un conjunto de datos de AEP, donde está disponible para flujos de trabajo por lotes personalizados. [Más información](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **Administración**
 
