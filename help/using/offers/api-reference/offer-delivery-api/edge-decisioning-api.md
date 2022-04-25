@@ -5,17 +5,17 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b02981f2c0cf74c8dba657570157709bc422d94c
+source-git-commit: d18a0cb38bf5a3014a87f1dc5f1c3a3c21982b09
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 3%
+source-wordcount: '1050'
+ht-degree: 2%
 
 ---
 
 
 # Enviar ofertas mediante la API de Edge Decisioning {#edge-decisioning-api}
 
-## Introducción y requisitos previos {#aep-web-sdk-overview-and-prerequisites}
+## Introducción y requisitos previos {#edge-overview-and-prerequisites}
 
 La variable [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) es una biblioteca JavaScript del lado del cliente que permite a los clientes de Adobe Experience Cloud interactuar con los distintos servicios del Experience Cloud a través de la red perimetral del Experience Platform.
 
@@ -29,7 +29,7 @@ Consulte la documentación de [offer decisioning](https://experienceleague.adobe
 >
 >El uso de Administración de decisiones en el SDK web de Adobe Experience Platform está disponible actualmente en acceso anticipado para usuarios seleccionados. Esta funcionalidad no está disponible para todas las organizaciones de IMS.
 
-## SDK web de Adobe Experience Platform  {#aep-web-sdk-overview-and-prerequisites}
+## SDK web de Adobe Experience Platform {#aep-web-sdk}
 
 El SDK web de Platform sustituye a los siguientes SDK:
 
@@ -94,6 +94,164 @@ Estos son los pasos necesarios para utilizar Offer decisioning mediante la insta
 
 Incluya el siguiente fragmento de JavaScript de la Opción 2: La versión independiente prediseñada en [esta página](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) en el `<head>` de su página HTML.
 
+```
+javascript
+    <script>
+        !function(n,o){o.forEach(function(o){n[o]||((n.__alloyNS=n.__alloyNS||
+        []).push(o),n[o]=function(){var u=arguments;return new Promise(
+        function(i,l){n[o].q.push([i,l,u])})},n[o].q=[])})}
+        (window,["alloy"]);
+    </script>
+    <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script>
+```
+
+Necesitará dos ID de su cuenta de Adobe para configurar la configuración del SDK: edgeConfigId y orgId. edgeConfigId es el mismo que su ID de almacén de datos, que debería haber configurado en los requisitos previos.
+
+Para encontrar su ID edgeConfigID/datastream, vaya a Recopilación de datos y seleccione su Datastream. Para encontrar su orgId, vaya a su perfil.
+
+Configure el SDK en JavaScript siguiendo las instrucciones de esta página. Siempre usará edgeConfigId y orgId en la función de configuración. La documentación también describe qué parámetros opcionales existen para la configuración. La configuración final puede tener este aspecto:
+
+```
+javascript
+    alloy("configure", {
+        "edgeConfigId": "12345678-0ABC-DEF-GHIJ-KLMNOPQRSTUV",                            
+        "orgId":"ABCDEFGHIJKLMNOPQRSTUVW@AdobeOrg",
+        "debugEnabled": true,
+        "edgeDomain": "edge.adobedc.net",
+        "clickCollectionEnabled": true,
+        "idMigrationEnabled": true,
+        "thirdPartyCookiesEnabled": true,
+        "defaultConsent":"in"  
+    });
+```
+
+Instale la extensión de Chrome de Debugger para utilizarla con la depuración. Se puede encontrar aquí: <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob>
+
+A continuación, inicie sesión en la cuenta dentro de Debugger. A continuación, vaya a Registros y asegúrese de que está conectado al espacio de trabajo correcto. Ahora, copie la versión codificada base64 del ámbito de decisión de su oferta.
+
+Al editar el sitio web, incluya el script con la configuración y la variable `sendEvent` para enviar el ámbito de decisión al Adobe.
+
+**Ejemplo**:
+
+```
+javascript
+    alloy("sendEvent", {
+        "decisionScopes": 
+        [
+        "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTXXXXXXXXXX"
+        ]
+    });
+```
+
+Consulte el siguiente ejemplo sobre cómo gestionar la respuesta:
+
+```
+javascript
+    alloy("sendEvent", {
+        "decisionScopes":
+        [
+        "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTXXXXXXXXXX"
+        ]
+    }).then(function(result) {
+        Object.entries(result).forEach(([key, value]) => {
+            console.log(key, value);
+        });
+    });
+```
+
+Puede utilizar el depurador para comprobar que se ha conectado correctamente a la red de Edge.
+
+>[!NOTE]
+>
+>Si no ve una conexión con el borde en los registros, es posible que tenga que deshabilitar el bloqueador de anuncios.
+
+Consulte de nuevo cómo creó la oferta y el formato utilizado. Según los criterios que se cumplan en la decisión, se le devolverá una oferta que contenga la información especificada al crearla en Adobe Experience Platform.
+
+En este ejemplo, el JSON que se va a devolver es:
+
+```
+json
+{
+   "name":"ABC Test",
+   "description":"This is a test offer", 
+   "link":"https://sampletesting.online/",
+   "image":"https://sample-demo-URL.png"
+}
+```
+
+Gestione el objeto Response y analice los datos que necesite. Como puede enviar varios ámbitos de decisión en uno `sendEvent` , su respuesta puede ser ligeramente diferente.
+
+```
+json
+    {
+        "id": "abrxgl843d913",
+        "scope": "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTVlNWRmOSJ9",
+        "items": 
+        [
+            {
+                "id": "xcore:fallback-offer:14ea7f1ea26ebd0a",
+                "etag": "1",
+                "schema": "https://ns.adobe.com/experience/offer-management/content-component-json",
+                "data": {
+                    "id": "xcore:fallback-offer:14ea7f1ea26ebd0a",
+                    "format": "application/json",
+                    "language": [
+                        "en-us"
+                    ],
+                    "content": "{\"name\":\"ABC Test\",\"description\":\"This is a test offer\", \"link\":\"https://sampletesting.online/\",\"image\":\"https://sample-demo-URL.png\"}"
+                }
+            }
+        ]
+    }
+]
+}
+```
+
+```
+json
+{
+    "propositions": 
+    [
+    {
+        "renderAttempted": false,
+        "id": "e15ecb09-993e-4b66-93d8-0a4c77e3d913",
+        "scope": "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTVlNWRmOSJ9",
+        "items": 
+        [
+            {
+                "id": "xcore:fallback-offer:14ea7f1ea26ebd0a",
+                "etag": "1",
+                "schema": "https://ns.adobe.com/experience/offer-management/content-component-json",
+                "data": {
+                    "id": "xcore:fallback-offer:14ea7f1ea26ebd0a",
+                    "format": "application/json",
+                    "language": [
+                        "en-us"
+                    ],
+                    "content": "{\"name\":\"Claire Hubacek Test\",\"description\":\"This is a test offer\", \"link\":\"https://sampletesting.online/\",\"image\":\"https://sample-demo-URL.png\"}"
+                }
+            }
+        ]
+    }
+    ]
+}
+```
+
+En este ejemplo, la ruta necesaria para gestionar y utilizar los detalles específicos de la oferta en la página web era: `result['decisions'][0]['items'][0]['data']['content']`
+
+Para establecer las variables JS:
+
+```
+javascript
+const offer = JSON.parse(result['decisions'][0]['items'][0]['data']['content']);
+
+let offerURL = offer['link'];
+let offerDescription = offer['description'];
+let offerImageURL = offer['image'];
+
+document.getElementById("offerDescription").innerHTML = offerDescription;
+document.getElementById('offerImage').src = offerImageURL;
+```
 
 ## Limitaciones
 
