@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1259'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Por lo tanto, siempre debe incluir un **vínculo para cancelar la suscripción**
 
 >[!NOTE]
 >
->Los mensajes de correo electrónico de tipo de marketing deben incluir un vínculo de no participación, que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transactional]**) se define en la variable [nivel de mensaje preestablecido](../configuration/message-presets.md#email-type) y cuándo [creación del mensaje](get-started-content.md#create-new-message).
+>Los mensajes de correo electrónico de tipo marketing deben incluir un vínculo de no participación, que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transactional]**) se define en el [nivel de ajuste preestablecido de mensaje](../configuration/message-presets.md#email-type) y durante la [creación del mensaje](get-started-content.md#create-new-message).
 
 ### Exclusión externa {#opt-out-external-lp}
 
@@ -75,9 +75,9 @@ Primero debe agregar un vínculo de cancelación de suscripción a un mensaje. P
 
 #### Implementación de una llamada de API para la exclusión {#opt-out-api}
 
-Para que los destinatarios se excluyan cuando envíen su elección desde la página de aterrizaje, debe implementar una **Llamada de API de suscripción** hasta [Desarrollador de Adobe](https://developer.adobe.com/){target=&quot;_blank&quot;} para actualizar las preferencias de los perfiles correspondientes.
+Para que los destinatarios se excluyan cuando envíen su elección desde la página de aterrizaje, debe implementar una **Llamada de API de suscripción** mediante [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;} para actualizar las preferencias de los perfiles correspondientes.
 
-Esta llamada del POST es la siguiente:
+Esta llamada de POST es como sigue:
 
 Extremo: platform.adobe.io/journey/imp/consent/preferences
 
@@ -113,7 +113,7 @@ Cuerpo de la solicitud:
 }
 ```
 
-[!DNL Journey Optimizer] utilizará estos parámetros para actualizar la elección del perfil correspondiente mediante la variable [Desarrollador de Adobe](https://developer.adobe.com)Llamada de API {target=&quot;_blank&quot;}.
+[!DNL Journey Optimizer] utilizará estos parámetros para actualizar la elección del perfil correspondiente a través de la llamada de la API de [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}.
 
 #### Enviar el mensaje con el vínculo de cancelación de suscripción {#send-message-unsubscribe-link}
 
@@ -125,7 +125,7 @@ Una vez configurado el vínculo de cancelación de suscripción a la página de 
 
    ![](assets/opt-out-lp-example.png)
 
-1. Si el destinatario envía el formulario (aquí, pulsando el botón **Cancelar suscripción** en la página de aterrizaje), los datos de perfil se actualizan a través de la variable [Llamada de API](#opt-out-api).
+1. Si el destinatario envía el formulario (aquí, pulsando el botón **Cancelar la suscripción** en la página de aterrizaje), los datos de perfil se actualizan a través de la [llamada de la API](#opt-out-api).
 
 1. El destinatario excluido se redirige a la pantalla de mensaje de confirmación para indicar que la exclusión se ha realizado correctamente.
 
@@ -203,7 +203,7 @@ Según el cliente de correo electrónico, hacer clic en el vínculo de cancelaci
    >
    >Si no agrega un vínculo de no participación de un clic al contenido del mensaje, no se mostrará ninguna página de aterrizaje.
 
-* El perfil correspondiente se excluye inmediatamente y esta opción se actualiza en Experience Platform. Obtenga más información en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+* El perfil correspondiente se excluye inmediatamente y esta opción se actualiza en Experience Platform. Obtenga más información en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target=&quot;_blank&quot;}.
 
 ## Administración de exclusiones push {#push-opt-out-management}
 
