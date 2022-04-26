@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '980'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -261,7 +261,7 @@ ht-degree: 96%
       + Configurar ofertas {#configure-offers}
          + [Creación de ofertas personalizadas](using/offers/offer-library/creating-personalized-offers.md)
          + [Añadir representaciones](using/offers/offer-library/add-representations.md)
-         + [Agregar restricciones](using/offers/offer-library/add-constraints.md)
+         + [Añadir restricciones](using/offers/offer-library/add-constraints.md)
       + [Crear ofertas de reserva](using/offers/offer-library/creating-fallback-offers.md)
       + [Crear colecciones](using/offers/offer-library/creating-collections.md)
    + Crear y administrar decisiones {#create-manage-activities}
