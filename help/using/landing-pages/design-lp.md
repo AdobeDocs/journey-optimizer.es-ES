@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
@@ -56,6 +56,12 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 1. Defina si esta casilla de verificación debe incluir o excluir usuarios: ¿aceptan recibir comunicaciones o piden que no se les contacte más?
 
    ![](assets/lp_designer-form-update.png)
+
+   Seleccione entre las tres opciones siguientes:
+
+   * **[!UICONTROL Opt in if checked]**: los usuarios deben marcar la casilla de verificación para aceptar (adhesión).
+   * **[!UICONTROL Opt out if checked]**: los usuarios deben marcar la casilla para eliminar su consentimiento (exclusión).
+   * **[!UICONTROL Opt in if checked, opt out if unchecked]**: esta opción le permite insertar una sola casilla de verificación para la inclusión/exclusión. Los usuarios deben marcar la casilla de verificación para el consentimiento (inclusión) y desmarque para eliminar su consentimiento (exclusión).
 
 1. Elija lo que se actualizará entre las tres siguientes opciones:
 

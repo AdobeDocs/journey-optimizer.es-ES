@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '1047'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ Para definir la configuración de la página principal, siga los pasos a continu
 
    ![](assets/lp_open-designer.png)
 
-1. Defina la dirección URL de la página de aterrizaje. La primera parte de la dirección URL requiere que haya configurado previamente un subdominio de página de aterrizaje. [Más información](../configuration/lp-configuration.md#lp-subdomains)
+1. Defina la dirección URL de la página de aterrizaje. La primera parte de la dirección URL requiere que haya configurado previamente un subdominio de página de aterrizaje como parte del [ajuste preestablecido](../configuration/lp-configuration.md#lp-create-preset) ha seleccionado. [Más información](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -92,6 +92,16 @@ Para definir la configuración de la página principal, siga los pasos a continu
    >[!NOTE]
    >
    >No puede acceder a la página de aterrizaje simplemente copiando y pegando esta dirección URL en un navegador web, aunque se publique. En su lugar, puede probarlo con la función de vista previa como se describe en [esta sección](#test-landing-page).
+
+1. Si desea que la página de aterrizaje precargue los datos del formulario que ya están disponibles, seleccione la opción **[!UICONTROL Pre-fill form fields with profile information]**.
+
+   ![](assets/lp_prefill-form-fields.png)
+
+   Cuando esta opción está habilitada, si un perfil ya ha elegido entrar o salir o ya se ha agregado a una lista de suscripción, sus opciones se reflejarán al mostrar la página de aterrizaje.
+
+   Por ejemplo, si un perfil ha elegido recibir comunicaciones sobre eventos futuros, la próxima vez que se muestre la página de aterrizaje en ese perfil se seleccionará la casilla correspondiente.
+
+   ![](assets/lp_prefill-form-ex.png)
 
 1. Puede definir una fecha de caducidad para la página. En ese caso, debe seleccionar una acción al expirar la página:
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -79,7 +79,7 @@ Con el editor de expresiones avanzadas, puede configurar condiciones más avanza
 
 ## Condición horaria{#time_condition}
 
-Esto le permite realizar diferentes acciones según la hora del día o el día de la semana. Por ejemplo, puede decidir enviar mensajes SMS durante el día y correos electrónicos durante la noche durante la semana.
+Esto le permite realizar diferentes acciones según la hora del día o el día de la semana. Por ejemplo, puede decidir enviar notificaciones push durante el día y los correos electrónicos durante la noche durante la semana.
 
 >[!NOTE]
 >

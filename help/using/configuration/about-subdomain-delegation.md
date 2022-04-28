@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 35%
+source-wordcount: '714'
+ht-degree: 32%
 
 ---
 
@@ -49,6 +49,12 @@ La configuración del subdominio le permite configurar una subsección de su dom
 * **Delegación de subdominios completa en Adobe** (recomendado): el subdominio se delega completamente a Adobe. Adobe puede controlar y mantener todos los aspectos de DNS necesarios para enviar, procesar y rastrear mensajes. [Más información sobre la delegación de subdominios completa](delegate-subdomain.md#full-subdomain-delegation)
 
 * **Uso de CNAME**: Cree un subdominio y utilice CNAME para señalar registros específicos de Adobe. Con esta configuración, tanto usted como el Adobe comparten la responsabilidad de mantener DNS. [Más información sobre la delegación de subdominios CNAME](delegate-subdomain.md#cname-subdomain-delegation)
+
+>[!CAUTION]
+>
+>La delegación de subdominios completos es el método preferido.
+>
+>Se recomienda el método CNAME si las políticas de su organización restringen el método de delegación de subdominios completo. Este método requiere que mantenga y administre los registros DNS por su cuenta. Adobe no podrá ayudarle a cambiar, mantener o administrar DNS para un subdominio configurado mediante el método CNAME.
 
 En el cuadro que figura a continuación se ofrece un resumen del funcionamiento de estos métodos, así como el nivel de esfuerzo que suponen:
 

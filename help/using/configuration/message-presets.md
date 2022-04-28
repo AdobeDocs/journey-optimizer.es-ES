@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2406'
 ht-degree: 1%
 
 ---
@@ -58,6 +58,12 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 1. Una vez configurados todos los parámetros, haga clic en **[!UICONTROL Submit]** para confirmar. También puede guardar el ajuste preestablecido de mensaje como borrador y reanudar su configuración más adelante.
 
    ![](assets/preset-submit.png)
+
+   >[!NOTE]
+   >
+   >No puede continuar con la creación preestablecida mientras el grupo IP seleccionado está en [edición](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** ) y nunca se ha asociado con el subdominio seleccionado. [Más información](#subdomains-and-ip-pools)
+   >
+   >Guarde el ajuste preestablecido como borrador y espere hasta que el grupo de IP tenga la variable **[!UICONTROL Success]** para reanudar la creación de ajustes preestablecidos.
 
 1. Una vez creado el ajuste preestablecido de mensaje, se muestra en la lista con la variable **[!UICONTROL Processing]** estado.
 
@@ -116,6 +122,10 @@ En el **DETALLES DEL GRUPO DE IP Y SUBDOMINIOS** , debe:
 
 1. Seleccione el grupo de IP que desea asociar al ajuste preestablecido. [Más información](ip-pools.md)
 
+![](assets/preset-subdomain-ip-pool.png)
+
+No puede continuar con la creación preestablecida mientras el grupo IP seleccionado está en [edición](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** ) y nunca se ha asociado con el subdominio seleccionado. De lo contrario, se seguirá utilizando la versión más antigua de la asociación de agrupación/subdominio de IP. Si este es el caso, guarde el ajuste preestablecido como borrador y vuelva a intentarlo una vez que el grupo de IP tenga la variable **[!UICONTROL Success]** estado.
+
 >[!NOTE]
 >
 >Para los entornos que no son de producción, Adobe no crea subdominios de prueba predeterminados ni concede acceso a un grupo de IP de envío compartido. Debe [delegar sus propios subdominios](delegate-subdomain.md) y usar las IP del grupo asignado a su organización.
@@ -155,28 +165,6 @@ El vínculo de cancelación de suscripción consta de dos elementos:
 Obtenga más información sobre cómo añadir un vínculo de cancelación de suscripción a un encabezado a sus mensajes en [esta sección](../messages/consent.md#unsubscribe-header).
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
-
-### Seguimiento de URL{#url-tracking}
-
-Para identificar dónde y por qué una persona hizo clic en el vínculo, puede agregar parámetros de UTM para el seguimiento de URL en la variable  **[!UICONTROL URL TRACKING CONFIGURATION (web analytics)]** para obtener más información.
-
-Según los parámetros que defina, se aplicará un código UTM al final de la URL incluida en el contenido del mensaje. A continuación, podrá comparar los resultados en una herramienta de análisis web, como los Google Analytics.
-
-![](assets/preset-url-tracking.png)
-
-Hay tres parámetros de UTM disponibles de forma predeterminada. Puede agregar hasta 10 parámetros de seguimiento. Para añadir un parámetro de UTM, seleccione la opción **[!UICONTROL Add new UTM param]** botón.
-
-Para configurar un parámetro de UTM, puede introducir directamente los valores deseados en la variable **[!UICONTROL Name]** y **[!UICONTROL Value]** o elija entre una lista de valores predefinidos navegando a los siguientes objetos:
-
-* Atributos de recorrido: ID de origen, nombre de origen, id de versión de origen
-* Atributos del mensaje: ID de acción, Nombre de acción
-* Atributos de offer decisioning: ID de oferta, nombre de oferta
-
-![](assets/preset-url-tracking-source.png)
-
->[!CAUTION]
->
->No seleccione una carpeta: asegúrese de buscar la carpeta necesaria y seleccionar un atributo de perfil para utilizarlo como valor de UTM.
 
 ### Parámetros de encabezado{#email-header}
 
@@ -223,6 +211,35 @@ Debe introducir un valor entero (en horas o minutos) dentro del siguiente interv
 * Para ambos tipos de correo electrónico, el periodo de reintento máximo es de 84 horas (o 5040 minutos).
 
 Obtenga más información sobre los reintentos en [esta sección](retries.md).
+
+### Seguimiento de URL{#url-tracking}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_utm"
+>title="Parámetros de UTM"
+>abstract="Utilice esta sección para adjuntar automáticamente parámetros de seguimiento a las URL de campaña presentes en el contenido del correo electrónico."
+
+Para identificar dónde y por qué una persona hizo clic en el vínculo, opcionalmente puede agregar parámetros de UTM para el seguimiento de URL en la variable  **[!UICONTROL URL Tracking Parameters]** para obtener más información.
+
+Según los parámetros que defina, se aplicará un código UTM al final de la URL incluida en el contenido del mensaje. A continuación, podrá comparar los resultados en una herramienta de análisis web, como los Google Analytics.
+
+![](assets/preset-url-tracking.png)
+
+Hay tres parámetros de UTM disponibles de forma predeterminada. Puede agregar hasta 10 parámetros de seguimiento. Para añadir un parámetro de UTM, seleccione la opción **[!UICONTROL Add new parameter]** botón.
+
+Para configurar un parámetro de UTM, puede introducir directamente los valores deseados en la variable **[!UICONTROL Name]** y **[!UICONTROL Value]** o elija entre una lista de valores predefinidos navegando a los siguientes objetos:
+
+* Atributos de recorrido: **ID de origen**, **Nombre de origen**, **ID de versión de origen**
+* Atributos del mensaje: **ID de acción**, **Nombre de la acción**
+* Atributos de offer decisioning: **ID de oferta**, **Nombre de la oferta**
+
+![](assets/preset-url-tracking-source.png)
+
+>[!CAUTION]
+>
+>No seleccione una carpeta: asegúrese de buscar la carpeta necesaria y seleccionar un atributo de perfil para utilizarlo como valor de UTM.
+
+Puede combinar la escritura de valores de texto y la selección de valores predefinidos. Cada **[!UICONTROL Value]** puede contener hasta 255 caracteres en total.
 
 ## Configuración de push {#configure-push-settings}
 

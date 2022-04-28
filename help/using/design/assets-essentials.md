@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 3%
@@ -67,6 +67,13 @@ Para obtener más información sobre cómo cargar recursos, consulte [Documentac
 1. Arrastre y suelte el recurso en el contenido del correo electrónico.
 
    ![](assets/media_library_6.png)
+<!--
+1. After adding your asset to your email, use the **[!UICONTROL Find similar Stock photos]** option to locate Stock photos that match the content, color, and composition of your image. [Learn more about Adobe Stock](stock.md).
+
+    Note that this option is available for licensed/unlicensed Stock images and images from your Assets folder. 
+
+    ![](assets/media_library_14.png)
+-->
 
 1. Puede personalizar aún más los recursos, como agregar un vínculo externo o un texto con la variable **[!UICONTROL Components settings]**. [Obtenga más información sobre la configuración de componentes](content-components.md)
 

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '700'
 ht-degree: 1%
 
 ---
@@ -93,11 +93,15 @@ Para editar un registro PTR con un subdominio delegado a Adobe mediante la varia
 
 ## Comprobar detalles de actualización de registros PTR {#check-ptr-record-update}
 
-A **[!UICONTROL Processing]** aparece junto al nombre del registro PTR en la lista.
+Una vez confirmada la edición del registro PTR, la variable **[!UICONTROL Processing]** aparece junto al nombre del registro PTR en la lista.
 
 ![](assets/ptr-record-updating.png)
 
-Para comprobar los detalles de actualización de registros PTR, haga clic en el botón **[!UICONTROL Updating]** o **[!UICONTROL Recent updates]** icono.
+>[!NOTE]
+>
+>La variable [actualizar procesamiento](#processing) puede tardar hasta unas horas.
+
+Para comprobar los detalles de la actualización de registros PTR, haga clic en el icono situado junto a él. Obtenga más información sobre los estados asociados a los distintos iconos de [esta sección](#ptr-record-update-statuses).
 
 ![](assets/ptr-record-recent-update.png)
 
@@ -115,7 +119,7 @@ Una actualización de registro PTR puede tener los siguientes estados:
 
 ### Procesamiento {#processing}
 
-Se realizarán varias comprobaciones de la capacidad de envío para verificar que el nuevo subdominio que se va a asociar a la dirección IP sea válido. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**.-->
+Se realizarán varias comprobaciones de la capacidad de envío para verificar que el nuevo subdominio que se va a asociar a la dirección IP sea válido. Esto puede tardar hasta unas pocas horas.
 
 >[!NOTE]
 >

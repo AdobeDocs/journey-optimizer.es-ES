@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 2%
+source-wordcount: '1456'
+ht-degree: 4%
 
 ---
 
@@ -88,7 +88,7 @@ También encontrará las acciones personalizadas que ha configurado para enviar 
 
 ## Uso de rutas en el lienzo {#paths}
 
-Varias actividades (**[!UICONTROL Condition]**, **[!UICONTROL Action]** actividades) le permiten definir una acción de reserva en caso de error o tiempo de espera. En el panel de configuración de actividad, marque la casilla : **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Se agrega otra ruta después de la actividad . La duración del tiempo de espera se define en las propiedades del recorrido (consulte [esta página](../building-journeys/journey-gs.md#change-properties) por un usuario administrador. Por ejemplo, si un correo electrónico tarda demasiado en enviarse o por error, puede decidir enviar un SMS.
+Varias actividades (**[!UICONTROL Condition]**, **[!UICONTROL Action]** actividades) le permiten definir una acción de reserva en caso de error o tiempo de espera. En el panel de configuración de actividad, marque la casilla : **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Se agrega otra ruta después de la actividad . La duración del tiempo de espera se define en las propiedades del recorrido (consulte [esta página](../building-journeys/journey-gs.md#change-properties) por un usuario administrador. Por ejemplo, si un correo electrónico tarda demasiado en enviarse o por error, puede decidir enviar una notificación push.
 
 ![](assets/journey42.png)
 

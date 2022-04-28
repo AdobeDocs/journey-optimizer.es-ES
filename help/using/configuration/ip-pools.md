@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '528'
 ht-degree: 3%
 
 ---
@@ -50,7 +50,7 @@ Para crear un grupo de IP, siga estos pasos:
    >
    >Todas las direcciones IP aprovisionadas con su instancia están disponibles en la lista.
 
-El grupo de IP ahora se crea y se muestra en la lista. Puede seleccionarlo para acceder a sus propiedades y mostrar el mensaje preestablecido asociado. Para obtener más información sobre cómo asociar un ajuste preestablecido de mensaje con un grupo de IP, consulte [esta sección](message-presets.md)).
+El grupo de IP ahora se crea y se muestra en la lista. Puede seleccionarlo para acceder a sus propiedades y mostrar el mensaje preestablecido asociado. Para obtener más información sobre cómo asociar un ajuste preestablecido de mensaje con un grupo de IP, consulte [esta sección](message-presets.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -80,6 +80,10 @@ La actualización es efectiva de forma inmediata o asincrónica, según el grupo
 
 * Si el grupo de IP es **not** seleccionada en un ajuste preestablecido de mensaje, la actualización es instantánea (**[!UICONTROL Success]** ).
 * Si el grupo IP **es** seleccionada en un ajuste preestablecido de mensaje, la actualización puede tardar entre 7 y 10 días hábiles (**[!UICONTROL Processing]** ).
+
+>[!NOTE]
+>
+>When [creación de un ajuste preestablecido de mensaje](message-presets.md#create-message-preset), si selecciona un grupo de IP que se encuentra en edición (**[!UICONTROL Processing]** ) y nunca se ha asociado con el subdominio seleccionado para ese ajuste preestablecido, no puede continuar con la creación del ajuste preestablecido. [Más información](message-presets.md#subdomains-and-ip-pools)
 
 Para comprobar el estado de actualización del grupo de IP, haga clic en el botón **[!UICONTROL More actions]** y seleccione **[!UICONTROL Recent updates]**.
 
