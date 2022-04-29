@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: a473ffa25871cdf0e5acb48c6902f883bd8f74a2
+source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 2%
@@ -32,7 +32,7 @@ Puede seleccionar una zona horaria o elegir usar la zona horaria definida en el 
 >
 >La zona horaria del perfil funciona con la variable **timeZone** campo existente en la variable **Detalles de preferencia** grupo de campos.
 
-## Definición de una zona horaria fija {#fixed-timezone}
+## Definir una zona horaria fija {#fixed-timezone}
 
 La zona horaria también se puede corregir. Borre la zona horaria predefinida y elija una de la lista desplegable. Si utiliza una zona horaria fija, será la misma para todas las personas que entren en el recorrido.
 
@@ -40,7 +40,7 @@ Para ello, en la sección **[!UICONTROL Journey Properties]** seleccione una zon
 
 ![](assets/journey72.png)
 
-## Uso de perfiles para definir la zona horaria del recorrido {#timezone-from-profiles}
+## Utilice perfiles para definir la zona horaria del recorrido {#timezone-from-profiles}
 
 Si el evento de entrada del recorrido tiene un área de nombres, lo que significa que el recorrido puede llegar al servicio Perfil del cliente en tiempo real de Adobe Experience Platform, el huso horario se predefine con el especificado en el perfil del individuo que fluye en el recorrido.
 

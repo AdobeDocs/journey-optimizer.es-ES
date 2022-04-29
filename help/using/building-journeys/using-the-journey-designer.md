@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1457'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 La interfaz de recorrido permite arrastrar y soltar fácilmente actividades de la paleta en el lienzo. También puede hacer doble clic en una actividad para agregarla al lienzo en el siguiente paso disponible. Cada actividad tiene una función y un lugar específicos en el proceso. Las actividades se secuencian. Cuando finaliza una actividad, el flujo continúa y procesa la siguiente actividad, etc.
 
-## Introducción al diseño de recorrido
+## Introducción al diseño de recorrido {#gs-journey-design}
 
 La variable **paleta** en el lado izquierdo de la pantalla. Todas las actividades disponibles se clasifican en varias categorías: **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** y **[!UICONTROL Actions]**. Puede expandir/contraer las diferentes categorías haciendo clic en su nombre. Para utilizar una actividad en el recorrido, arrástrela desde la paleta y suéltela en el lienzo.
 
@@ -52,7 +52,7 @@ Según el estado del recorrido, puede realizar diferentes acciones en el recorri
 
 ![](assets/journey41.png)
 
-## Inicio del recorrido
+## Inicie su recorrido {#start-your-journey}
 
 Al diseñar el recorrido, la primera pregunta que desea hacer es cómo entrarán los perfiles en el recorrido. Hay dos posibilidades:
 
@@ -60,7 +60,7 @@ Al diseñar el recorrido, la primera pregunta que desea hacer es cómo entrarán
 
 **Comenzar con un segmento de lectura**: puede configurar el recorrido para que escuche los segmentos de Adobe Experience Platform. En este caso, todas las personas que pertenecen al segmento especificado entran en el recorrido. Los mensajes incluidos en el recorrido se envían a las personas pertenecientes al segmento. [Obtenga más información sobre la lectura de segmentos](read-segment.md).
 
-## Defina los pasos siguientes
+## Defina los pasos siguientes{#define-next-steps}
 
 Después del primer evento o del segmento de lectura, puede combinar las diferentes actividades para crear sus escenarios de canales cruzados de varios pasos. Elija, en la paleta, los pasos que necesite.
 
@@ -86,9 +86,11 @@ Aquí encontrarás el **Mensaje** actividad que le permite incluir un mensaje di
 
 También encontrará las acciones personalizadas que ha configurado para enviar mensajes con sistemas de terceros. Obtenga más información en esta [sección](about-journey-activities.md#action-activities).
 
-## Uso de rutas en el lienzo {#paths}
+## Adición de rutas alternativas{#paths}
 
-Varias actividades (**[!UICONTROL Condition]**, **[!UICONTROL Action]** actividades) le permiten definir una acción de reserva en caso de error o tiempo de espera. En el panel de configuración de actividad, marque la casilla : **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Se agrega otra ruta después de la actividad . La duración del tiempo de espera se define en las propiedades del recorrido (consulte [esta página](../building-journeys/journey-gs.md#change-properties) por un usuario administrador. Por ejemplo, si un correo electrónico tarda demasiado en enviarse o por error, puede decidir enviar una notificación push.
+Puede definir una acción de reserva en caso de error o tiempo de espera para las siguientes actividades de recorrido: **[!UICONTROL Condition]** y **[!UICONTROL Action]**.
+
+Para añadir una acción de reserva para una actividad, seleccione la opción **[!UICONTROL Add an alternative path in case of a timeout or an error]** en las propiedades de la actividad: se agrega otra ruta después de la actividad . Los usuarios administradores definen la duración del tiempo de espera en la variable [Propiedades del recorrido](../building-journeys/journey-gs.md#change-properties). Por ejemplo, si un correo electrónico tarda demasiado en enviarse o por error, puede decidir enviar una notificación push.
 
 ![](assets/journey42.png)
 
@@ -104,7 +106,7 @@ En el lienzo, cuando se desconectan dos actividades, se muestra una advertencia.
 
 ![](assets/canvas-disconnected.png)
 
-## Copia y pegado de actividades {#copy-paste}
+## Copiar y pegar actividades {#copy-paste}
 
 Puede copiar una o varias actividades de un recorrido y pegarlas en el mismo recorrido o en otro diferente. Esto le permite ahorrar tiempo si desea reutilizar numerosas actividades que ya se han configurado en un recorrido anterior.
 
