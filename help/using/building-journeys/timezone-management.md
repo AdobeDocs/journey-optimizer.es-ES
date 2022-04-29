@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: a473ffa25871cdf0e5acb48c6902f883bd8f74a2
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '278'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 Puede definir una zona horaria en la variable [propiedades](../building-journeys/journey-gs.md#change-properties) de su recorrido.
 
-Para acceder a Propiedades, haga clic en el icono de lápiz en la parte superior derecha de la pantalla.
+Para acceder a las Propiedades del Recorrido, haga clic en el icono del lápiz en la parte superior derecha de la pantalla.
 
 Esta zona horaria se utilizará para todas las actividades del recorrido que contengan un elemento horario como:
 

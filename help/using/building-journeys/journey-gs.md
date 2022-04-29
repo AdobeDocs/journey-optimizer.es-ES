@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: a68cfae875b18266417e115d17c73cda7061475d
+source-git-commit: c5ddc1a5a3dc133819ba2f887dae73fc48690fe9
 workflow-type: tm+mt
-source-wordcount: '1793'
-ht-degree: 8%
+source-wordcount: '1846'
+ht-degree: 7%
 
 ---
 
 # Introducción a los recorridos{#jo-quick-start}
 
-## Requisitos previos
+## Requisitos previos{#start-prerequisites}
 
-Para enviar mensajes con recorridos, se requiere la siguiente configuración:
+Para enviar mensajes con recorridos, se requieren las siguientes configuraciones:
 
 1. **Configurar un evento**: si desea configurar los recorridos de forma unitaria cuando se reciba un evento, debe configurar un evento. Puede definir la información esperada y cómo procesarla. Este paso lo realiza un **usuario técnico**. [Más información](../event/about-events.md).
 
@@ -35,12 +35,12 @@ Para enviar mensajes con recorridos, se requiere la siguiente configuración:
 
    ![](assets/create-content-push.png)
 
-## Creación de un recorrido{#jo-build}
+## Cree su recorrido{#jo-build}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Cree su recorrido"
->abstract="Esta pantalla muestra la lista de recorridos creados anteriormente. Abra un recorrido o haga clic en &quot;Crear recorrido&quot; y combine las diferentes actividades de evento, orquestación y acción para crear sus escenarios multicanal de varios pasos."
+>abstract="Esta pantalla muestra la lista de recorridos existentes. Abra un recorrido o haga clic en &quot;Crear recorrido&quot; y combine las diferentes actividades de evento, orquestación y acción para crear sus escenarios multicanal de varios pasos."
 
 Este paso lo realiza el **usuario empresarial**. Aquí es donde crea sus recorridos. Combine las distintas actividades de evento, orquestación y acción para crear sus escenarios de canal cruzado de varios pasos.
 
@@ -72,16 +72,16 @@ Estos son los pasos principales para enviar mensajes a través de recorridos:
 
    ![](assets/jo-dynamic_report_journey_12.png)
 
-## Cambio de las propiedades {#change-properties}
+## Definir las propiedades del recorrido {#change-properties}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Propiedades del recorrido"
->abstract="Puede cambiar el nombre del recorrido, añadir una descripción, permitir la reentrada, elegir las fechas de inicio y finalización y definir un tiempo de espera y la duración del error si es administrador."
+>abstract="Esta sección muestra las propiedades del recorrido. De forma predeterminada, los parámetros de solo lectura están ocultos. La configuración disponible depende del estado del recorrido, de los permisos y de la configuración del producto."
 
 Haga clic en el icono de lápiz, en la parte superior derecha para acceder a las propiedades del recorrido.
 
-Puede cambiar el nombre del recorrido, añadir una descripción, permitir la reentrada, elegir las fechas de inicio y finalización y definir una **[!UICONTROL Timeout and error]** duración si es administrador.
+Puede cambiar el nombre del recorrido, añadir una descripción, permitir la reentrada, elegir las fechas de inicio y finalización y, como usuario administrador, definir una **[!UICONTROL Timeout and error]** duración. Si está habilitado para su organización, también puede activar [mensajería instantánea](#burst).
 
 Para los recorridos en directo, esta pantalla muestra la fecha de publicación y el nombre del usuario que publicó el recorrido.
 
@@ -123,40 +123,46 @@ La zona horaria se define en el nivel de recorrido.
 
 Puede introducir una zona horaria fija o utilizar perfiles de Adobe Experience Platform para definir la zona horaria del recorrido.
 
+Si se define una zona horaria en el perfil de Adobe Experience Platform, se puede recuperar en el recorrido .
+
 Para obtener más información sobre la administración de huso horario, consulte [esta página](../building-journeys/timezone-management.md).
 
 ### Modo de ráfaga {#burst}
 
-El modo ráfaga es un complemento de pago que permite enviar mensajes push muy rápidamente en grandes volúmenes. Se utiliza para recorridos simples que incluyen un segmento de lectura y un mensaje push simple. Burst se utiliza cuando el retraso en la entrega de mensajes es crítico para el negocio, cuando desea enviar una alerta push urgente en teléfonos móviles, por ejemplo una noticia de último minuto para los usuarios que han instalado la aplicación de canal de noticias.
+Burst mode es un complemento de Journey Optimizer que permite enviar mensajes push muy rápidamente en grandes volúmenes. Se utiliza para recorridos simples que incluyen un **Leer segmento** actividad y un mensaje push simple. Burst se utiliza cuando el retraso en la entrega de mensajes es crítico para el negocio, cuando desea enviar una alerta push urgente en teléfonos móviles, por ejemplo una noticia de último minuto para los usuarios que han instalado la aplicación de canal de noticias.
 
-Limitaciones:
+La mensajería de ráfaga viene con los siguientes requisitos:
 
-* El recorrido debe comenzar con un segmento de lectura. No se permiten eventos.
-* El siguiente paso debe ser un mensaje push. No se permite ninguna otra actividad o paso (excepto la actividad final opcional):
-   * Solo canal push
-   * No se permite ninguna personalización en el mensaje
-   * El mensaje debe ser pequeño (&lt;2 KB)
+* El recorrido debe comenzar con un **Leer segmento** actividad. No se permiten eventos.
+* El siguiente paso debe ser un mensaje push. No se permite ningún otro canal, actividad o paso (excepto la opción **Fin** actividad).
+* No se permite ninguna personalización en el mensaje push.
+* El mensaje debe ser pequeño (&lt;2 KB).
 
-Nota importante:
+>[!CAUTION]
+>
+>Si no se cumple ninguno de los requisitos, el modo de ráfaga no estará disponible en el recorrido.
 
-Si no se cumple ninguno de los requisitos, el modo de ráfaga no estará disponible en el recorrido.
-
-Para activar el modo Burst , abra el recorrido y haga clic en el icono del lápiz, en la parte superior derecha para acceder a las propiedades del recorrido. A continuación, active la variable **Habilitar modo de ráfaga** alternar.
+Para activar **Modo de ráfaga**, abra el recorrido y haga clic en el icono de lápiz, en la parte superior derecha para acceder a las propiedades del recorrido. A continuación, active la variable **Habilitar modo de ráfaga** alternar.
 
 ![](assets/burst.png)
 
-El modo de ráfaga se desactivará si modifica un recorrido de ráfaga y añade una actividad que no sea compatible con la ráfaga (mensaje, cualquier otra acción, evento, etc.). Se mostrará un mensaje.
+El modo de ráfaga se desactiva automáticamente si se modifica un recorrido de ráfaga y se añade una actividad que no es compatible con los mensajes de ráfaga, como un mensaje de correo electrónico, cualquier otra acción, un evento, etc.
 
 ![](assets/burst2.png)
 
-A continuación, pruebe y publique el recorrido de forma normal. Los mensajes del modo de prueba no se envían mediante el modo de explosión.
+A continuación, pruebe y publique el recorrido como de costumbre. Tenga en cuenta que, en el modo de prueba, los mensajes no se envían mediante el modo de ráfaga.
 
-## Finalización de un recorrido
+En este vídeo se describen los casos de uso aplicables a la mensajería radial y cómo configurar un recorrido para los mensajes radiales:
 
-Un recorrido puede finalizar para un individuo por dos razones:
+>[!VIDEO](https://video.tv.adobe.com/v/334523?quality=12)
 
-* La persona llega a la última actividad de una ruta. Esta última actividad puede ser una actividad final u otra actividad. No hay obligación de finalizar una ruta con una actividad final. Consulte [esta página](../building-journeys/end-activity.md).
-* La persona llega a una actividad de condición (o a una actividad de espera con una condición ) y no coincide con ninguna de las condiciones.
+
+## Finalizar, detener o cerrar un recorrido{#end-journey}
+
+Un recorrido puede finalizar para un individuo en dos contextos específicos:
+
+* La persona llega a la última actividad de una ruta. Esta última actividad puede ser un **Fin** actividad u otra actividad. Uso de un **Fin** actividad no es obligatoria. Consulte [esta página](../building-journeys/end-activity.md).
+* La persona llega a un **Condición** actividad (o **Espera** actividad con una condición) y no coincide con ninguna de las condiciones.
 
 La persona puede volver a entrar en el recorrido si se permite la reentrada. Consulte [esta página](../building-journeys/journey-gs.md#change-properties)
 
@@ -166,7 +172,7 @@ Un recorrido puede cerrarse por los siguientes motivos:
 * Un recorrido basado en segmentos de una toma que ha terminado de ejecutarse.
 * Después de la última aparición de un recorrido basado en segmentos recurrentes.
 
-Cuando se cierra un recorrido (por cualquiera de los motivos anteriores), aparece el estado **[!UICONTROL Closed]**. El recorrido dejará de permitir la entrada al recorrido de nuevos individuos. Las personas que ya están en el recorrido terminarán normalmente el recorrido. Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará a la variable **Finalizado** estado. Consulte esta [sección](../building-journeys/journey-gs.md#global_timeout).
+Cuando se cierra un recorrido (por cualquiera de los motivos anteriores), aparece el estado **[!UICONTROL Closed]**. El recorrido deja de permitir que entren nuevos individuos en el recorrido. Las personas que ya están en el recorrido pueden terminar el recorrido normalmente. Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará a la variable **Finalizado** estado. Consulte esta [sección](../building-journeys/journey-gs.md#global_timeout).
 
 En caso de que necesite detener el progreso de todas las personas en el recorrido, puede detenerlo. Al detener el recorrido, se agotará el tiempo de espera de todas las personas del recorrido.
 
@@ -197,16 +203,15 @@ También puede:
 
    ![](assets/finish_drop_down_list.png)
 
-1. Haga clic en **[!UICONTROL Close to new entrances]**. Aparecerá un cuadro de diálogo.
-1. Haga clic en **[!UICONTROL Close to new entrances]** para confirmar.
+1. Haga clic en **[!UICONTROL Close to new entrances]** y confirme en el cuadro de diálogo.
 
-### Detención de un recorrido
+### Detener un recorrido
 
 Puede detener un recorrido cuando se produzca una emergencia y todo el procesamiento debe finalizar inmediatamente en un recorrido.
 
 No se puede reiniciar una versión de recorrido detenida.
 
-Cuando se detiene, un recorrido tendrá el estado **[!UICONTROL Stopped]**.
+Cuando se detiene, el estado del recorrido se establece en **[!UICONTROL Stopped]**.
 
 Puede detener un recorrido, por ejemplo, si un especialista en marketing se da cuenta de que el recorrido está dirigido a una audiencia incorrecta o si una acción personalizada que supuestamente debe enviar mensajes no funciona correctamente. Para detener un recorrido de la lista de recorridos, haga clic en el botón **[!UICONTROL Ellipsis]** botón situado a la derecha del nombre del recorrido y seleccione **[!UICONTROL Stop]**.
 
@@ -219,5 +224,4 @@ También puede:
 
 ![](assets/finish_drop_down_list.png)
 
-1. Haga clic en **[!UICONTROL Stop]**. Aparecerá un cuadro de diálogo.
-1. Haga clic en **[!UICONTROL Stop]** para confirmar.
+1. Haga clic en **[!UICONTROL Stop]** y confirme en el cuadro de diálogo.
