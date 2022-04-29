@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: cc7a544b58c0caff4fd0b3d02c53622b506e98e2
+source-git-commit: d1204d7653a1fe32d068f974f425e10949065bc1
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 10%
+source-wordcount: '1637'
+ht-degree: 9%
 
 ---
 
@@ -31,7 +31,7 @@ Puede delegar completamente un subdominio o crear un subdominio utilizando CNAME
 
 >[!CAUTION]
 >
->La delegación de subdominios completos es el método recomendado. Obtenga más información sobre las diferencias entre ambos [métodos de configuración de subdominios](about-subdomain-delegation.md#subdomain-delegation-methods).
+>La delegación de subdominios completa es el método recomendado. Obtenga más información sobre las diferencias entre ambos [métodos de configuración de subdominios](about-subdomain-delegation.md#subdomain-delegation-methods).
 
 ## Delegación completa de subdominios {#full-subdomain-delegation}
 
@@ -111,7 +111,7 @@ La delegación de subdominios CNAME le permite crear un subdominio y utilizar CN
 
 >[!CAUTION]
 >
->Se recomienda utilizar este método si las políticas de su organización restringen el método de delegación de subdominios completo. Este método requiere que mantenga y administre los registros DNS por su cuenta. Adobe no podrá ayudarle a cambiar, mantener o administrar DNS para un subdominio configurado mediante el método CNAME.
+>Se recomienda el método CNAME si las políticas de su organización restringen el método de delegación de subdominios completo. Este método requiere que mantenga y administre los registros DNS por su cuenta. Adobe no podrá ayudarle a cambiar, mantener o administrar DNS para un subdominio configurado mediante el método CNAME.
 
 ➡️ [Aprenda a crear un subdominio utilizando CNAME para señalar registros específicos de Adobe en este vídeo](#video)
 

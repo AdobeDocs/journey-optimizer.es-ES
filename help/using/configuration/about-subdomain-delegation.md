@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: d1204d7653a1fe32d068f974f425e10949065bc1
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 32%
@@ -52,9 +52,10 @@ La configuración del subdominio le permite configurar una subsección de su dom
 
 >[!CAUTION]
 >
->La delegación de subdominios completos es el método preferido.
+>* La delegación de subdominios completa es el método preferido.
 >
->Se recomienda el método CNAME si las políticas de su organización restringen el método de delegación de subdominios completo. Este método requiere que mantenga y administre los registros DNS por su cuenta. Adobe no podrá ayudarle a cambiar, mantener o administrar DNS para un subdominio configurado mediante el método CNAME.
+>* Se recomienda el método CNAME si las políticas de su organización restringen el método de delegación de subdominios completo. Este método requiere que mantenga y administre los registros DNS por su cuenta. Adobe no podrá ayudarle a cambiar, mantener o administrar DNS para un subdominio configurado mediante el método CNAME.
+
 
 En el cuadro que figura a continuación se ofrece un resumen del funcionamiento de estos métodos, así como el nivel de esfuerzo que suponen:
 
