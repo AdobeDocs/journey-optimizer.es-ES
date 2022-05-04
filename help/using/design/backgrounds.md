@@ -5,7 +5,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
+source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -29,17 +30,25 @@ A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
 * Configure un **[!UICONTROL Background color]** para todo el correo electrónico. Asegúrese de seleccionar la configuración de cuerpo en el árbol de navegación accesible desde la paleta izquierda.
 
+   ![](assets/background_1.png)
+
 * Establezca el mismo color de fondo para todos los componentes de estructura seleccionando **[!UICONTROL Viewport background color]**. Esta opción le permite seleccionar una configuración diferente del color de fondo.
+
+   ![](assets/background_2.png)
 
 * Defina un color de fondo diferente para cada componente de estructura. Seleccione una estructura del árbol de navegación accesible desde la paleta izquierda para aplicar un color de fondo específico solo a esa estructura.
 
    Asegúrese de no establecer un color de fondo de ventanilla móvil, ya que podría ocultar los colores de fondo de la estructura.
+
+   ![](assets/background_3.png)
 
 * Configure un **[!UICONTROL Background image]** para el contenido de un componente de estructura.
 
    >[!NOTE]
    >
    >Algunos programas de correo electrónico no admiten imágenes de fondo. Cuando no se admita, se utilizará el color de fondo de fila. Asegúrese de seleccionar un color de fondo alternativo adecuado en caso de que la imagen no se pueda mostrar.
+
+   ![](assets/background_4.png)
 
 * Establezca un color de fondo en el nivel de columna.
 
@@ -48,3 +57,5 @@ A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
    >Este es el caso de uso más común. Adobe recomienda configurar los colores de fondo en el nivel de columna, ya que esto permite una mayor flexibilidad al editar todo el contenido del correo electrónico.
 
    También puede establecer una imagen de fondo en el nivel de columna, pero esto no se suele utilizar.
+
+   ![](assets/background_5.png)

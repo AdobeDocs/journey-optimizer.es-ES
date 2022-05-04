@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '195'
 ht-degree: 6%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 6%
 1. En la página de inicio del Diseñador de correo electrónico, elija cómo desea diseñar el correo electrónico desde las siguientes opciones:
 
    * **Diseñe su correo electrónico desde cero** a través de la interfaz del diseñador de correo electrónico y aproveche las imágenes de [Adobe Experience Manager Assets Essentials](assets-essentials.md). Aprenda a diseñar su contenido de correo electrónico o a utilizar plantillas integradas [en esta sección](create-email-content.md).
+
+   * **Copiar de correo electrónico existente** de una lista de plantillas de ejemplo.
 
    * **HTML sin procesar de código o pegado** directamente en el diseñador de correo electrónico. Aprenda a codificar su propio contenido [en esta sección](code-content.md).
 
