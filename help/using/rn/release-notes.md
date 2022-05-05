@@ -3,9 +3,9 @@ title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 76adefcc5436678bd5662d463b2e2e89d4f73b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3192'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,31 +18,31 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Regístrese para la [Newsletter trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} hoy y reciba las últimas actualizaciones de productos, artículos interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.
 
 
-## Lanzamiento de abril de 2022 {#april-2022-release}
+## Versión de abril de 2022 {#april-2022-release}
 
 ### Mejoras
 
 **Páginas de destino**
 
-* **Nueva opción para casillas de verificación de inclusión/exclusión** - Ahora puede insertar una sola casilla de verificación para la inclusión/exclusión en las páginas de aterrizaje de suscripción. Los usuarios deben marcar la casilla de verificación para el consentimiento (inclusión) y desmarque para eliminar su consentimiento (exclusión). [Más información](../landing-pages/design-lp.md#define-lp-specific-content)
+* **Nueva opción para casillas de verificación de inclusión/exclusión.** Ahora puede insertar una sola casilla de verificación para la inclusión/exclusión en las páginas de destino de suscripción. Los usuarios deben marcar la casilla de verificación para el consentimiento (inclusión) y desmarcar para eliminar su consentimiento (exclusión). [Más información](../landing-pages/design-lp.md#define-lp-specific-content)
 
-* **Rellenar previamente campos de páginas de aterrizaje** : Ahora es posible proporcionar a los usuarios la capacidad de rellenar previamente los campos de la página de aterrizaje con información de perfil. [Más información](../landing-pages/create-lp.md#configure-primary-page)
+* **Rellenar previamente campos de páginas de destino.** Ahora es posible proporcionar a los usuarios la capacidad de rellenar previamente los campos de la página de aterrizaje con información del perfil. [Más información](../landing-pages/create-lp.md#configure-primary-page)
 
 **Administración de decisiones**
 
-* **API de decisiones en Edge** - La API de Edge Decisioning puede entregar y procesar ofertas personalizadas que se administran en Offer decisioning. Puede crear sus ofertas y otros objetos relacionados mediante la interfaz de usuario (IU) o las API de Offer decisioning. [Más información](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **API de decisiones en Edge.** La API de Edge Decisioning puede entregar y procesar ofertas personalizadas que se administran en Offer decisioning. Puede crear sus ofertas y otros objetos relacionados mediante la interfaz de usuario (IU) o las API de Offer decisioning. [Más información](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **Administración**
 
-* **Duración de envío de PTR** - La duración de la edición de PTR para que sea efectiva es ahora de unas pocas horas. [Más información](../configuration/ptr-records.md#processing)
+* **Duración de envío de PTR.** La duración de la edición de PTR para que sea efectiva es ahora de unas pocas horas. [Más información](../configuration/ptr-records.md#processing)
 
 **Diseño de correo electrónico**
 
-* **20 nuevas plantillas de correo electrónico** ya están disponibles para diseñar el contenido de su correo electrónico en Journey Optimizer.
+* **Veinte nuevas plantillas de correo electrónico** ya están disponibles para diseñar el contenido de su correo electrónico en Journey Optimizer.
 
 **Interfaz de usuario**
 
-* **Ayuda contextual en la interfaz de usuario de Journey Optimizer** - Se han agregado vínculos de ayuda contextual a varias páginas en Journey Optimizer. Cuando esté disponible, haga clic en el icono &quot;i&quot; para ver una descripción rápida de la funcionalidad actual y acceder a los artículos relacionados.
+* **Ayuda contextual en la interfaz de usuario de Journey Optimizer.** Se han agregado vínculos de ayuda contextual a varias páginas en Journey Optimizer. Cuando esté disponible, haga clic en el icono “i” para ver una descripción rápida de la funcionalidad actual y acceder a los artículos relacionados.
 
 **Integración con Adobe Campaign Standard**
 
