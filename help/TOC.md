@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '993'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -376,8 +376,8 @@ ht-degree: 97%
       + Configuración de la acción {#action-journeys}
          + [Acerca de las acciones](using/action/action.md)
          + [Configuración de una acción](using/action/about-custom-action-configuration.md)
-         + [Integración con Adobe Campaign Standard](using/action/acs-action.md)
-         + [Integración con Adobe Campaign v7/v8](using/action/acc-action.md)
+         + [Integrar con Adobe Campaign Standard](using/action/acs-action.md)
+         + [Integración con las versiones 7 y 8 de Adobe Campaign](using/action/acc-action.md)
          + [Consentimiento](using/action/consent.md)
    + [Fuentes](using/start/get-started-sources.md)
 + Control de acceso {#access-control}
