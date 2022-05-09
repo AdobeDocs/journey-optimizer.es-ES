@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 5%
@@ -34,7 +34,7 @@ Esta guía proporciona ejemplos de llamadas a la API para demostrar cómo dar fo
 
 ## Recopilar valores para encabezados necesarios {#gather-values-for-required-headers}
 
-Para realizar llamadas a [!DNL Platform] API, primero debe completar la variable [tutorial de autenticación](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target=&quot;_blank&quot;}. Al completar el tutorial de autenticación, se proporcionan los valores para cada uno de los encabezados necesarios en todos los [!DNL Experience Platform] Llamadas de API, como se muestra a continuación:
+Para realizar llamadas a [!DNL Adobe Experience Platform] API, primero debe completar la variable [tutorial de autenticación](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target=&quot;_blank&quot;}. Al completar el tutorial de autenticación, se proporcionan los valores para cada uno de los encabezados necesarios en todos los [!DNL Experience Platform] Llamadas de API, como se muestra a continuación:
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`

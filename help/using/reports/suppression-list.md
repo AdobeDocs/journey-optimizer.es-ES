@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 2%
+source-wordcount: '698'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ Una lista de supresión consiste en direcciones de correo electrónico que desea
 
 La variable [!DNL Journey Optimizer] la lista de supresión se administra en su propio nivel de entorno.
 
-Recopila direcciones de correo electrónico y dominios que se suprimen en todos los correos en un único entorno de cliente, lo que significa que son específicos de un ID de organización de IMS asociado a un ID de simulador de pruebas.
+Recopila direcciones de correo electrónico y dominios que se suprimen en todos los correos en un único entorno de cliente, lo que significa que son específicos de un ID de organización asociado a un ID de simulador de pruebas.
 
 ## ¿Por qué una lista de supresión? {#why-suppression-list}
 

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ A continuación, debe configurar el sistema de datos que envía eventos a las AP
 1. Utilice la carga útil copiada de [!DNL Journey Optimizer] en el cuerpo (&quot;sección de datos&quot;) de la llamada de API a las API de ingesta de transmisión. Consulte a continuación un ejemplo
 1. Determine dónde obtener todas las variables presentes en la carga útil. Ejemplo: si se supone que el evento transmite la dirección, la carga útil pegada mostrará &quot;address&quot; (dirección): &quot;cadena&quot;. &quot;cadena&quot; debe reemplazarse por la variable que rellena automáticamente el valor correcto, el correo electrónico de la persona a la que enviar un mensaje. Tenga en cuenta que, en la vista previa de carga útil, en la variable **[!UICONTROL Header]** , rellenamos automáticamente muchos valores que se espera que faciliten su trabajo.
 1. Seleccione &quot;application/json&quot; como tipo de cuerpo.
-1. Pase su ID de organización de IMS en el encabezado utilizando la clave &quot;x-gw-ims-org-id&quot;. Para el valor, utilice su ID de organización de IMS (&quot;XXX@AdobeOrg&quot;).
+1. Pase su ID de organización en el encabezado utilizando la clave &quot;x-gw-ims-org-id&quot;. Para obtener el valor, utilice su ID de organización (&quot;XXX@AdobeOrg&quot;).
 
 Este es un ejemplo de un evento de API de ingesta de transmisión:
 

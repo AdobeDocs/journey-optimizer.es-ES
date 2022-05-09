@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '856'
 ht-degree: 3%
 
 ---
@@ -124,8 +124,8 @@ Consulte la [Documentación de gestión de decisiones](../../get-started/startin
 | Propiedad | Descripción | Ejemplo |
 | -------- | ----------- | ------- |
 | `@id` | UUID generado por el Offer decisioning que identifica una sola carga de trabajo. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
-| `xdm:imsOrgId` | El ID de su organización de IMS. | `9GTO98D5F@AdobeOrg` |
-| `xdm:containerId` | Su ID de contenedor. | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
+| `xdm:imsOrgId` | El ID de organización. | `9GTO98D5F@AdobeOrg` |
+| `xdm:containerId` | El ID del contenedor. | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | Hora a la que se creó la solicitud de carga de trabajo de decisión. | `1648078924834` |
 | `ode:status` | Estado de la carga de trabajo. | `ode:status: "QUEUED"` |
 
@@ -173,7 +173,7 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 | Propiedad | Descripción | Ejemplo |
 | -------- | ----------- | ------- |
 | `@id` | UUID generado por el Offer decisioning que identifica una sola carga de trabajo. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
-| `xdm:imsOrgId` | ID de organización de IMS | `9GTO98D5F@AdobeOrg` |
+| `xdm:imsOrgId` | El ID de organización | `9GTO98D5F@AdobeOrg` |
 | `xdm:containerId` | El ID de contenedor | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | Hora a la que se creó la solicitud de carga de trabajo de decisión. | `1648076994405` |
 | `ode:status` | El estado de la carga de trabajo comienza con &quot;EN COLA&quot; y cambia a &quot;PROCESAMIENTO&quot;, &quot;INGESTING&quot;, &quot;COMPLETED&quot; o &quot;ERROR&quot;. | `ode:status: "COMPLETED"` |

@@ -5,13 +5,13 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: d18a0cb38bf5a3014a87f1dc5f1c3a3c21982b09
+exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1049'
 ht-degree: 2%
 
 ---
-
 
 # Enviar ofertas mediante la API de Edge Decisioning {#edge-decisioning-api}
 
@@ -27,7 +27,7 @@ Consulte la documentación de [offer decisioning](https://experienceleague.adobe
 
 >[!NOTE]
 >
->El uso de Administración de decisiones en el SDK web de Adobe Experience Platform está disponible actualmente en acceso anticipado para usuarios seleccionados. Esta funcionalidad no está disponible para todas las organizaciones de IMS.
+>El uso de Administración de decisiones en el SDK web de Adobe Experience Platform está disponible actualmente en acceso anticipado para usuarios seleccionados. Esta funcionalidad no está disponible para todas las organizaciones.
 
 ## SDK web de Adobe Experience Platform {#aep-web-sdk}
 
