@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 3%
+source-wordcount: '821'
+ht-degree: 5%
 
 ---
 
@@ -28,10 +28,6 @@ La variable **[!UICONTROL Jump]** la actividad de acción permite insertar a los
 En el recorrido de origen, simplemente agregue una **[!UICONTROL Jump]** y seleccione un recorrido de destino. Cuando el individuo introduce la variable **[!UICONTROL Jump]** , se envía un evento interno al primer evento del recorrido de destino. Si la variable **[!UICONTROL Jump]** la acción es exitosa, el individuo sigue progresando en el recorrido. El comportamiento es similar al de otras acciones.
 
 En el recorrido de destino, el primer evento activado internamente por la variable **[!UICONTROL Jump]** actividad hará que el flujo individual en el recorrido sea variable.
-
->[!NOTE]
->
->Consulte también el vídeo del tutorial [here](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=es){target=&quot;_blank&quot;}
 
 ## Ciclo de vida
 

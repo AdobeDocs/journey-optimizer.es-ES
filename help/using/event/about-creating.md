@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 68fb00679e2dd420570aa3b7b12f8c345aa32d12
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1482'
 ht-degree: 13%
 
 ---
@@ -74,7 +74,7 @@ Estos son los primeros pasos para configurar un nuevo evento:
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-   El evento está ahora configurado y listo para añadirse a un recorrido. Se requieren pasos de configuración adicionales para recibir eventos. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+   El evento está ahora configurado y listo para añadirse a un recorrido. Se requieren pasos de configuración adicionales para recibir eventos. Consulte [esta página](../event/additional-steps-to-send-events-to-journey.md).
 
 ## Definición de los campos de carga útil {#define-the-payload-fields}
 
@@ -125,23 +125,23 @@ Solo se permite un espacio de nombres por recorrido. Si utiliza varios eventos e
 
 ## Definición del identificador de perfil {#define-the-event-key}
 
-La clave es el campo o la combinación de campos que forma parte de los datos de carga útil del evento y que permite al sistema identificar a la persona asociada al evento. La clave puede ser, por ejemplo, el ID de Experience Cloud, un ID de CRM o una dirección de correo electrónico.
+La clave es el campo, o combinación de campos, que forma parte de los datos de carga útil de evento y que permite al sistema identificar a la persona asociada al evento. La clave puede ser, por ejemplo, el ID de Experience Cloud, un ID de CRM o una dirección de correo electrónico.
 
-Si planea aprovechar los datos almacenados en la base de datos del perfil del cliente en tiempo real, debe seleccionar, como clave de evento, la información que haya definido como identidad de un perfil en la variable [Servicio de Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
+Para utilizar datos almacenados en la base de datos de perfil del cliente en tiempo real de Adobe, la clave de evento debe ser la información que haya definido como identidad de un perfil en la variable [Servicio de Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
-Permitirá que el sistema realice la reconciliación entre el evento y el perfil del individuo. Si selecciona un esquema que tiene una identidad principal, la variable **[!UICONTROL Profile identifier]** y **[!UICONTROL Namespace]** los campos están rellenados previamente. Si no hay identidad definida, seleccione _idMap > id_ como clave principal. A continuación, debe seleccionar un área de nombres y la clave se rellenará previamente (debajo del **[!UICONTROL Namespace]** campo) _idMap > id_.
+El identificador de perfil permite que el sistema realice la reconciliación entre el evento y el perfil del individuo. Si selecciona un esquema que tiene una identidad principal, la variable **[!UICONTROL Profile identifier]** y **[!UICONTROL Namespace]** los campos están rellenados previamente. Si no se ha definido ninguna identidad, la variable _idMap > id_ es la clave principal. A continuación, debe seleccionar un área de nombres y la clave se rellena automáticamente previamente mediante _idMap > id_.
 
 Al seleccionar campos, los campos de identidad principales se etiquetan.
 
 ![](assets/primary-identity.png)
 
-Si necesita utilizar una clave diferente, como un ID de CRM o una dirección de correo electrónico, debe agregarla manualmente:
+Si necesita utilizar una clave diferente, como un ID de CRM o una dirección de correo electrónico, debe agregarla manualmente, como se explica a continuación:
 
 1. Haga clic dentro del **[!UICONTROL Profile identifier]** o en el icono de lápiz.
 
    ![](assets/journey16.png)
 
-1. Seleccione el campo elegido como clave en la lista de campos de carga útil. También puede cambiar al editor de expresiones avanzadas para crear claves más complejas (por ejemplo, una concatenación de dos campos de los eventos). Consulte a continuación, en esta sección.
+1. Seleccione el campo elegido como clave en la lista de campos de carga útil. También puede cambiar al editor de expresiones avanzadas para crear claves más complejas (por ejemplo, una concatenación de dos campos de los eventos).
 
    ![](assets/journey20.png)
 
@@ -168,4 +168,4 @@ La previsualización de carga útil permite validar la definición de carga úti
 
 1. Compruebe la previsualización para validar la definición de carga útil.
 
-1. A continuación, puede compartir la previsualización de la carga útil con la persona responsable del envío del evento. Esta carga útil puede ayudarles a diseñar la configuración de un evento que se esté insertando en [!DNL Journey Optimizer]. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. A continuación, puede compartir la previsualización de la carga útil con la persona responsable del envío del evento. Esta carga útil puede ayudarles a diseñar la configuración de un evento que se esté insertando en [!DNL Journey Optimizer]. Consulte [esta página](../event/additional-steps-to-send-events-to-journey.md).

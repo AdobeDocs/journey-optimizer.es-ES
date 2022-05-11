@@ -2,16 +2,26 @@
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
-workflow-type: ht
-source-wordcount: '1254'
-ht-degree: 100%
+source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
+workflow-type: tm+mt
+source-wordcount: '1326'
+ht-degree: 95%
 
 ---
 
 # Actualizaciones de documentación {#latest-updates}
 
 Esta página enumera todas las actualizaciones de documentación de [!DNL Journey Optimizer].
+
+
+## Mayo de 2022 {#may-2022}
+
+* La sección de diseño de correo electrónico ahora menciona nuevas plantillas integradas disponibles para iniciar contenido. Se han actualizado las capturas de pantalla relacionadas. [Más información](../design/design-emails.md)
+* Los vínculos a recursos clave se han actualizado en la página de inicio de la documentación de Journey Optimizer.
+* Se han actualizado las capturas de pantalla de la página de aterrizaje y los informes de suscripción. [Más información](../reports/live-report.md)
+* Se ha añadido una nota que indica que el método Delete no es compatible con las acciones personalizadas. [Más información](../action/about-custom-action-configuration.md)
+* Se han actualizado los vínculos a vídeos explicativos.
+
 
 ## Abril de 2022 {#april-2022}
 

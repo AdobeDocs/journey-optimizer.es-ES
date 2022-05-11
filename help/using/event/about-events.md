@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '829'
 ht-degree: 54%
 
 ---
@@ -49,7 +49,7 @@ Para los eventos unitarios, existen dos tipos de ID de evento:
 
    >[!CAUTION]
    >
-   >Se define una regla de límite para los eventos basados en reglas. Limita el número de eventos calificados que un recorrido puede procesar a 5000 por segundo para una organización determinada (ORG). Corresponde a los SLA de Journey Optimizer. Consulte esta [página](https://helpx.adobe.com/es/legal/product-descriptions/journey-orchestration.html).
+   >Se define una regla de límite para los eventos basados en reglas. Limita el número de eventos calificados que un recorrido puede procesar a 5000 por segundo para una organización determinada. Corresponde a los SLA de Journey Optimizer. Consulte las licencias de Journey Optimizer y [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=es).
 
 * Eventos **generados por el sistema**: estos eventos requieren un eventID. Este campo eventID se genera automáticamente al crear el evento. El sistema que impulsa el evento no debe generar un ID, debe pasar el que está disponible en la previsualización de carga útil.
 

@@ -5,8 +5,8 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
-workflow-type: ht
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 100%
 
@@ -367,7 +367,7 @@ ht-degree: 100%
             + [Acerca de los esquemas de ExperienceEvent](using/event/experience-event-schema.md)
             + [Aprovechamiento de Adobe Analytics](using/event/about-analytics.md)
          + [Configuración de un evento empresarial](using/event/about-creating-business.md)
-         + [Pasos adicionales para enviar eventos](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+         + [Pasos adicionales para enviar eventos](using/event/additional-steps-to-send-events-to-journey.md)
       + Configuración de la fuente de datos{#data-source-journeys}
          + [Acerca de las fuentes de datos](using/datasource/about-data-sources.md)
          + [Configuración de una fuente de datos](using/datasource/configure-data-sources.md)

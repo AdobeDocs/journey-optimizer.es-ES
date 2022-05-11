@@ -4,9 +4,9 @@ description: Aprenda a configurar su entorno para enviar notificaciones push con
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: a6fabce744cb85c447327b6ceb809bf399d4b610
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1434'
 ht-degree: 5%
 
 ---
@@ -253,7 +253,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 ## Paso 3: Probar la aplicación móvil con un evento {#mobile-app-test}
 
-Después de configurar la aplicación móvil en Adobe Experience Platform y en [!DNL Adobe Experience Platform Data Collection], ahora puede probarlo antes de enviar notificaciones push a sus perfiles. En este caso de uso, crearemos un recorrido para dirigirnos a nuestra aplicación móvil y estableceremos un evento que déclencheur la notificación push.
+Después de configurar la aplicación móvil en Adobe Experience Platform y en [!DNL Adobe Experience Platform Data Collection], ahora puede probarlo antes de enviar notificaciones push a sus perfiles. En este caso de uso, creamos un recorrido para dirigirnos a nuestra aplicación móvil y establecemos un evento que déclencheur la notificación push.
 
 <!--
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
@@ -307,7 +307,7 @@ A continuación, debe configurar un evento.
 
    ![](assets/test_push_7b.png)
 
-1. Haga clic en **[!UICONTROL Edit]** en el **[!UICONTROL Event ID condition]** campo . Arrastre y suelte el campo añadido anteriormente para definir la condición que utilizará el sistema para identificar los eventos que van a almacenar en déclencheur el recorrido.
+1. Haga clic en **[!UICONTROL Edit]** en el **[!UICONTROL Event ID condition]** campo . Arrastre y suelte el campo añadido anteriormente para definir la condición que utilizará el sistema para identificar los eventos que causan déclencheur en el recorrido.
 
    ![](assets/test_push_8.png)
 

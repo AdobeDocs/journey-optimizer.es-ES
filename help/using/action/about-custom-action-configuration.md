@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0dedeae2e33615c3191e6277fc6f258118b49822
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '944'
 ht-degree: 6%
 
 ---
@@ -83,6 +83,11 @@ Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL
    >Solo se permiten los puertos predeterminados al definir una acción personalizada: 80 para http y 443 para https.
 
 1. Seleccione la llamada **[!UICONTROL Method]**: puede ser **[!UICONTROL POST]** o **[!UICONTROL PUT]**.
+
+   >[!NOTE]
+   >
+   > La variable **DELETE** no es compatible. Si necesita actualizar un recurso existente, seleccione la opción **PUT** método.
+
 1. En el **[!UICONTROL Headers]** , defina los encabezados HTTP del mensaje de solicitud que se enviarán al servicio externo:
    1. Para añadir un campo de encabezado, haga clic en **[!UICONTROL Add a header field]**.
    1. Introduzca la clave del campo de encabezado.
@@ -103,7 +108,7 @@ Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL
 
    >[!NOTE]
    >
-   >Los encabezados se validan según las reglas de análisis de campos. [Más información](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+   >Los encabezados se validan según las reglas de análisis de campos. Obtenga más información en [esta documentación](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## Definir los parámetros de acción {#define-the-message-parameters}
 

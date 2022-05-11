@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 68fb00679e2dd420570aa3b7b12f8c345aa32d12
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 11%
+source-wordcount: '1103'
+ht-degree: 10%
 
 ---
 
@@ -80,15 +80,16 @@ Estos son los primeros pasos para configurar un evento empresarial:
 
 1. El número de recorridos que utiliza este evento se muestra en el campo **[!UICONTROL Used in]**. Puede hacer clic en el icono **[!UICONTROL View journeys]** para mostrar la lista de los recorridos con este evento.
 
-1. Defina los campos esquema y carga útil: aquí es donde selecciona la información de evento (generalmente denominada carga útil) que los recorridos esperan recibir. Podrá utilizar esta información en su recorrido. Consulte [esta sección](../event/about-creating-business.md#define-the-payload-fields).
+1. Defina los campos esquema y carga útil: aquí es donde selecciona los recorridos de información de evento (o carga útil) que esperan recibir. Utilizará esta información más adelante en su recorrido. Consulte [esta sección](../event/about-creating-business.md#define-the-payload-fields).
 
    ![](assets/jo-event5-business.png)
 
-   Solo están disponibles los esquemas de series temporales. Los esquemas de eventos de experiencia, eventos de decisión y eventos de paso de Recorrido no están disponibles. El esquema de evento debe contener una identidad principal no basada en personas. Se deben seleccionar los campos siguientes al definir el evento: `_id` y `timestamp`
+   Solo están disponibles los esquemas de series temporales. `Experience Events`, `Decision Events` y `Journey Step Events` los esquemas no están disponibles. El esquema de evento debe contener una identidad principal no basada en personas. Se deben seleccionar los campos siguientes al definir el evento: `_id` y `timestamp`
 
    ![](assets/test-profiles-4.png)
 
-1. Haga clic dentro del **[!UICONTROL Event ID condition]** campo . Con el editor de expresiones simple, defina la condición que utilizará el sistema para identificar los eventos que van a almacenar en déclencheur el recorrido.
+1. Haga clic dentro del **[!UICONTROL Event ID condition]** campo . Utilice el editor de expresiones simple para definir la condición que utiliza el sistema para identificar los eventos que déclencheur el recorrido.
+
    ![](assets/jo-event6-business.png)
 
    En nuestro ejemplo, escribimos una condición basada en el ID del producto. Esto significa que, cada vez que el sistema recibe un evento que coincide con esta condición, lo pasa a los recorridos.
@@ -101,7 +102,7 @@ Estos son los primeros pasos para configurar un evento empresarial:
 
    ![](assets/journey7-business.png)
 
-   El evento está ahora configurado y listo para añadirse a un recorrido. Se requieren pasos de configuración adicionales para recibir eventos. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+   El evento está ahora configurado y listo para añadirse a un recorrido. Se requieren pasos de configuración adicionales para recibir eventos. Obtenga más información en [esta página](../event/additional-steps-to-send-events-to-journey.md).
 
 ## Definición de los campos de carga útil {#define-the-payload-fields}
 
@@ -123,13 +124,13 @@ La definición de carga útil permite elegir la información que el sistema espe
 
 1. Cuando haya terminado de seleccionar los campos necesarios, haga clic en **[!UICONTROL Save]** o presione **[!UICONTROL Enter]**.
 
-   El número de campos seleccionados aparece en el **[!UICONTROL Fields]** campo .
+   El número de campos seleccionados aparece en **[!UICONTROL Fields]**.
 
    ![](assets/journey12-business.png)
 
 ## Vista previa de la carga útil {#preview-the-payload}
 
-La previsualización de carga útil permite validar la definición de carga útil.
+Utilice la previsualización de carga útil para validar la definición de carga útil.
 
 1. Haga clic en el **[!UICONTROL View Payload]** para obtener una vista previa de la carga útil esperada por el sistema.
 
@@ -141,4 +142,4 @@ La previsualización de carga útil permite validar la definición de carga úti
 
 1. Compruebe la previsualización para validar la definición de carga útil.
 
-1. A continuación, puede compartir la previsualización de la carga útil con la persona responsable del envío del evento. Esta carga útil puede ayudarles a diseñar la configuración de un evento que se esté insertando en [!DNL Journey Optimizer]. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. A continuación, puede compartir la previsualización de la carga útil con la persona responsable del envío del evento. Esta carga útil puede ayudarles a diseñar la configuración de un evento que se esté insertando en [!DNL Journey Optimizer]. Consulte [esta página](../event/additional-steps-to-send-events-to-journey.md).
