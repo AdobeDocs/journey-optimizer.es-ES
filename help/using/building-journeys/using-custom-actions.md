@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 94c2e889b38608aa173b62edb498eba7756e68e6
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 30%
+source-wordcount: '336'
+ht-degree: 29%
 
 ---
 
@@ -47,21 +47,17 @@ La dirección URL concatenada tiene este formulario:
 
 ### Encabezados
 
-La variable **[!UICONTROL URL Configuration]** muestra los campos del encabezado dinámico, pero no los campos del encabezado constante. Los campos de encabezado dinámico son campos de encabezado HTTP cuyo valor está configurado como variable. [Más información](../action/about-custom-action-configuration.md).
+La variable **[!UICONTROL URL Configuration]** muestra los campos del encabezado dinámico, pero no los campos del encabezado constante. Dynamic header fields are HTTP header fields whose value is configured as a variable. [Más información](../action/about-custom-action-configuration.md).
 
 Si es necesario, especifique el valor de los campos del encabezado dinámico:
 
-1. Seleccione la acción personalizada en el recorrido .
+1. Select the custom action in the journey.
 1. En el panel de configuración, haga clic en el icono de lápiz situado junto al campo de encabezado en la **[!UICONTROL URL Configuration]** para obtener más información.
 
    ![](assets/journey-dynamicheaderfield.png)
 
-1. Seleccione un campo y haga clic en **[!UICONTROL OK]**.
+1. Select a field and click **[!UICONTROL OK]**.
 
-## Parámetros de acción
+## Action parameters
 
-En el **[!UICONTROL Action parameters]** , verá los parámetros de mensaje definidos como _&quot;Variable&quot;_. Para estos parámetros, puede definir dónde obtener esta información (por ejemplo: eventos, fuentes de datos), pase valores manualmente o utilice el editor de expresiones avanzadas para casos de uso avanzados. Los casos de uso avanzados pueden ser manipulación de datos y otro uso de funciones. Consulte [esta página](expression/expressionadvanced.md).
-
-**Temas relacionados**
-
-[Configuración de una acción](../action/about-custom-action-configuration.md)
+In the **[!UICONTROL Action parameters]** section, you&#39;ll see the message parameters defined as _&quot;Variable&quot;_. Para estos parámetros, puede definir dónde obtener esta información (por ejemplo: eventos, fuentes de datos), pase valores manualmente o utilice el editor de expresiones avanzadas para casos de uso avanzados. Los casos de uso avanzados pueden ser manipulación de datos y otro uso de funciones. Consulte [esta página](expression/expressionadvanced.md).

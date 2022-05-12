@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 0dedeae2e33615c3191e6277fc6f258118b49822
+source-git-commit: bb582374f69e5c4113e22c7caed1a23d2c9ac231
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 6%
+source-wordcount: '1496'
+ht-degree: 4%
 
 ---
 
@@ -33,7 +33,6 @@ En los parámetros de acción personalizados, puede pasar una colección simple,
 
 Tenga en cuenta también que los parámetros de acciones personalizadas tienen un formato esperado (por ejemplo: string, decimal, etc.). Debe tener cuidado de respetar estos formatos esperados. Obtenga más información en esta [caso de uso](../building-journeys/collections.md).
 
-
 ## Pasos de configuración {#configuration-steps}
 
 Estos son los pasos principales necesarios para configurar una acción personalizada:
@@ -50,9 +49,12 @@ Estos son los pasos principales necesarios para configurar una acción personali
 
 1. Añada una descripción a la acción. Este paso es opcional.
 1. El número de recorridos que utilizan esta acción se muestra en la **[!UICONTROL Used in]** campo . Puede hacer clic en el botón **[!UICONTROL View journeys]** para mostrar la lista de recorridos que utilizan esta acción.
-1. Defina los diferentes **[!UICONTROL URL Configuration]** parámetros. Consulte [esta página](../action/about-custom-action-configuration.md#url-configuration).
+1. Seleccione el canal relacionado con esta acción personalizada: **Correo electrónico**, **SMS** o **Notificaciones push**. Rellenará previamente el campo de acción de marketing requerido con la acción de marketing predeterminada para el canal seleccionado. Si selecciona **other**, no se definirá ninguna acción de marketing.
+1. Si desea aplicar una regla de consentimiento a esta acción personalizada, seleccione la **Acción de marketing necesaria**. Consulte [esta sección](../action/about-custom-action-configuration.md#consent-management).
+1. Defina los diferentes **[!UICONTROL URL Configuration]** parámetros. Consulte [esta sección](../action/about-custom-action-configuration.md#url-configuration).
 1. Configure las variables **[!UICONTROL Authentication]** para obtener más información. Esta configuración es la misma que para las fuentes de datos.  Consulte [esta sección](../datasource/external-data-sources.md#custom-authentication-mode).
-1. Defina el **[!UICONTROL Action parameters]**. Consulte [esta página](../action/about-custom-action-configuration.md#define-the-message-parameters).
+1. Defina el **[!UICONTROL Action parameters]**. Consulte [esta sección](../action/about-custom-action-configuration.md#define-the-message-parameters).
+1. 
 1. Haga clic en **[!UICONTROL Save]**.
 
    La acción personalizada ahora está configurada y lista para utilizarse en sus recorridos. Consulte [esta página](../building-journeys/about-journey-activities.md#action-activities).
@@ -130,3 +132,37 @@ También tendrá la opción de especificar si un parámetro es una constante o u
 * Variable significa que el valor del parámetro variará. Los especialistas en marketing que utilicen esta acción personalizada en un recorrido podrán pasar el valor que deseen o especificar dónde recuperar el valor de este parámetro (por ejemplo, desde el evento, desde Adobe Experience Platform, etc.). En ese caso, el campo a la derecha de la constante o variable de alternancia es la etiqueta que los especialistas en marketing verán en el recorrido para asignar un nombre a este parámetro.
 
 ![](assets/customactionpayloadmessage2.png)
+
+## Gestión de consentimiento {#consent-management}
+
+Los clientes ahora pueden definir políticas de consentimiento, relacionadas con la privacidad, para controlar los datos salientes durante la ejecución de la acción. Una política de consentimiento funciona como una expresión en atributos de perfil, estableciendo reglas para definir si una acción se puede ejecutar para el perfil dado o no.
+
+Consent sur custom action, pas message encore Conxent a tel type de comunication ou use de tel type de donnée champs dans profile qui vont sticker ce permission coté AEP nuvelles regles de type policy auj gouvernance policy. Ejemplo de ejemplo de Restric email targeting. Etiqueta asociada (C4/C5) a de las acciones de marketing. Busque su destino final y escriba de acción de marketing. Ex SFTP crée une dest qui va exporter des données vers ce sftp, tu flague ce sftp avec une acción de marketing. Egelement noción de acción de marketing rajoutée hace una acción personalizada, correo electrónico/SMS/acción de marketing push. Personalizado.
+
+Etiquetas: conjunto de datos quand tu def (où stock tes données), gouvernance de datos onglet, pr chaque attribut tu peux definir le label asocié un atributo cet. Código de país etiquetado C3/C4. Etiquetas ootb, tu peux en def d&#39;autres en fonction besoin.
+
+
+
+— Comentarios de Jira —
+
+describa la &quot;acción de marketing adicional&quot; como una forma en que un profesional puede explicar la &quot;intención&quot; de una acción personalizada, por ejemplo: mi acción personalizada es sobre comunicación de ejercicios, boletín, comunicación de fitness, etc.
+
+Describa el alcance del consentimiento para la primera versión :
+
+- Se tienen en cuenta las acciones y atributos de marketing utilizados en la personalización en la acción personalizada
+- Para los recorridos activados por segmentos (iniciados con un segmento de lectura), se tienen en cuenta los atributos utilizados como criterios en ese segmento
+- No se tienen en cuenta todas las actividades utilizadas en un recorrido, excepto un segmento de lectura o una acción personalizada
+- No se tiene en cuenta la calificación de segmentos, aunque se utilice para iniciar un recorrido
+
+Describir que un perfil excluido por una directiva de consentimiento en una acción personalizada seguirá pasando por el recorrido (iso con lista de mensajes y supresión)
+
+Recordatorio para describir la latencia esperada: https://wiki.corp.adobe.com/display/DMSArchitecture/Consent+Latency
++ latencia correcta de AJO de 1h a 6h
+
+dos tipos de latencia que deberíamos documentar:
+
+- Latencia del usuario, en esa Carolina Infante, no estoy seguro de lo que podemos decir, mirando esto:
+
+¿Podemos confirmar si necesitamos o no que ocurra el &quot;UPS Projection/Export&quot;, para actualizar el campo &quot;contentTo&quot; a nivel de perfil (sabiendo que esto es lo que usamos en tiempo de ejecución)? Porque si este es el caso, supongo que deberíamos decir que tomaría hasta 48h, pero si no, solo estamos hablando de &quot;latencia de ingesta + latencia de recopilación&quot; (por lo que unos segundos o unas pocas horas el peor caso si hay picos o interrupciones en la ingesta y/o si el cliente tarda mucho tiempo en recopilar una actualización del usuario).
+
+- La latencia de la política de consentimiento, diría &quot;hasta 6 horas&quot;, ya que los recorridos en vivo retirarán las políticas de consentimiento cada 6 horas. Carolina Infante , ¿sabe si nos vemos afectados por la latencia del filtro?
