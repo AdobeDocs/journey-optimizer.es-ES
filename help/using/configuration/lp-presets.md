@@ -4,7 +4,7 @@ description: Aprenda a configurar su entorno para crear y utilizar páginas de a
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 When [creación de una página de aterrizaje](../landing-pages/create-lp.md#create-a-lp), debe seleccionar un ajuste preestablecido de página de aterrizaje para poder crear la página de aterrizaje y aprovecharla mediante **[!DNL Journey Optimizer]**.
 
-## Acceso a los ajustes preestablecidos de la página de aterrizaje {#lp-presets}
+## Acceso a los ajustes preestablecidos de la página de aterrizaje {#access-lp-presets}
 
 Para acceder a los ajustes preestablecidos de la página de aterrizaje, siga los pasos a continuación.
 
