@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 100%
+source-wordcount: '1010'
+ht-degree: 97%
 
 ---
 
@@ -341,22 +341,27 @@ ht-degree: 100%
       + Configuración de notificaciones push{#push-config}
          + [Introducción a la configuración push](using/configuration/push-gs.md)
          + [Configurar el canal de notificaciones push](using/configuration/push-configuration.md)
-      + Configuración de correo electrónico {#email-configuration}
+      + Configuración de correos electrónicos {#email-configuration}
          + Delegar subdominios {#delegate-subdomains}
             + [Introducción a la delegación de subdominios](using/configuration/about-subdomain-delegation.md)
             + [Delegar un subdominio](using/configuration/delegate-subdomain.md)
             + [Acceder a subdominios delegados](using/configuration/access-subdomains.md)
+         + Administrar acciones relacionadas con subdominios {#subdomain-related-actions}
             + [Añadir un registro TXT de Google](using/configuration/google-txt.md)
             + [Acceso y edición de registros PTR](using/configuration/ptr-records.md)
-         + [Crear grupos de IP](using/configuration/ip-pools.md)
+            + [Crear grupos de IP](using/configuration/ip-pools.md)
          + Supervisar las direcciones de correo electrónico {#monitor-reputation}
             + [Administrar lista de supresión](using/configuration/manage-suppression-list.md)
             + [Reintentos](using/configuration/retries.md)
-         + [Cambiar la dirección principal del correo electrónico](using/configuration/primary-email-addresses.md)
       + [Configuración del canal de SMS](using/configuration/sms-configuration.md)
-      + [Creación de ajustes preestablecidos de mensaje](using/configuration/message-presets.md)
+      + Configuración de ajustes preestablecidos de mensaje {#set-up-message-presets}
+         + [Creación de ajustes preestablecidos de mensaje](using/configuration/message-presets.md)
+         + [Configuración de correo electrónico](using/configuration/email-settings.md)
+      + [Administrar direcciones de ejecución](using/configuration/primary-email-addresses.md)
       + [Configuración de reglas de frecuencia](using/configuration/frequency-rules.md)
-   + [Configuración de las páginas de aterrizaje](using/configuration/lp-configuration.md)
+   + Configuración de las páginas de aterrizaje {#lp-configuration}
+      + [Configurar subdominios de página de aterrizaje](using/configuration/lp-subdomains.md)
+      + [Definir ajustes preestablecidos de página de aterrizaje](using/configuration/lp-presets.md)
    + Configurar recorridos {#configure-journeys}
       + [Acerca de las fuentes de datos, los eventos y las acciones](using/configuration/about-data-sources-events-actions.md)
       + [Integración con sistemas externos](using/configuration/external-systems.md)

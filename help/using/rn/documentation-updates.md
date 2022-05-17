@@ -2,10 +2,10 @@
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 95%
+source-wordcount: '1355'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,8 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se han actualizado las capturas de pantalla de la página de aterrizaje y los informes de suscripción. [Más información](../reports/live-report.md)
 * Se ha añadido una nota que indica que el método Delete no es compatible con las acciones personalizadas. [Más información](../action/about-custom-action-configuration.md)
 * Se han actualizado los vínculos a vídeos explicativos.
-
+* La variable [Configuración de correo electrónico](../configuration/about-subdomain-delegation.md), [Ajustes preestablecidos de mensajes](../configuration/message-presets.md) y [Configurar páginas de aterrizaje](../configuration/lp-subdomains.md) se han reorganizado para mejorar la legibilidad.
+* La variable **Seguimiento de URL** se ha actualizado y mejorado con ejemplos. [Más información](../configuration/email-settings.md#url-tracking)
 
 ## Abril de 2022 {#april-2022}
 

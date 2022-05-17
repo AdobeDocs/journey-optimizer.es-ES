@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '527'
 ht-degree: 3%
 
 ---
@@ -40,7 +40,7 @@ Para crear un grupo de IP, siga estos pasos:
 
    >[!NOTE]
    >
-   >El nombre del subdominio debe comenzar con una letra (A-Z) e incluir solo caracteres alfanuméricos o caracteres especiales ( _, ., - ).
+   >El nombre debe comenzar con una letra (A-Z) e incluir únicamente caracteres alfanuméricos o caracteres especiales ( _, ., - ).
 
 1. Seleccione las direcciones IP que desea incluir en el grupo en la lista desplegable y haga clic en **[!UICONTROL Submit]**.
 

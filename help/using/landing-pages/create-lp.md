@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 2%
@@ -53,7 +53,7 @@ Los pasos para crear una página de aterrizaje son los siguientes:
 
    ![](assets/lp_create-lp-details.png)
 
-1. Seleccione un ajuste preestablecido. Aprenda a crear ajustes preestablecidos de página de aterrizaje en [esta sección](../configuration/lp-configuration.md#lp-create-preset).
+1. Seleccione un ajuste preestablecido. Aprenda a crear ajustes preestablecidos de página de aterrizaje en [esta sección](../configuration/lp-presets.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
 
@@ -81,7 +81,7 @@ Para definir la configuración de la página principal, siga los pasos a continu
 
    ![](assets/lp_open-designer.png)
 
-1. Defina la dirección URL de la página de aterrizaje. La primera parte de la dirección URL requiere que haya configurado previamente un subdominio de página de aterrizaje como parte del [ajuste preestablecido](../configuration/lp-configuration.md#lp-create-preset) ha seleccionado. [Más información](../configuration/lp-configuration.md#lp-subdomains)
+1. Defina la dirección URL de la página de aterrizaje. La primera parte de la dirección URL requiere que haya configurado previamente un subdominio de página de aterrizaje como parte del [ajuste preestablecido](../configuration/lp-presets.md#lp-create-preset) ha seleccionado. [Más información](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -133,7 +133,7 @@ Para definir la configuración de la subpágina, siga los pasos a continuación.
 
 1. Edite el contenido de la página con el diseñador de contenido. Obtenga información sobre cómo definir el contenido de una página de aterrizaje [here](design-lp.md).
 
-1. Defina la dirección URL de la página de aterrizaje. La primera parte de la dirección URL requiere que haya configurado previamente un subdominio de página de aterrizaje. [Más información](../configuration/lp-configuration.md#lp-subdomains)
+1. Defina la dirección URL de la página de aterrizaje. La primera parte de la dirección URL requiere que haya configurado previamente un subdominio de página de aterrizaje. [Más información](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >
