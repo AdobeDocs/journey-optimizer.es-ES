@@ -114,7 +114,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 * **Nueva función de ayuda para la ocultación de caracteres** - El `mask` la función de ayuda le permite reemplazar una parte de una cadena con caracteres &quot;X&quot;. [Más información](../personalization/functions/string.md#mask)
 
-**Páginas de destino**
+**Páginas de aterrizaje**
 
 * **Páginas de aterrizaje sin formulario** - Ahora puede crear y publicar una página de aterrizaje que no contenga un formulario y que no requiera que los visitantes realicen ninguna acción.
 * **Plantillas de página de aterrizaje** : Ahora puede guardar una página de aterrizaje como plantilla y reutilizarla al crear otras páginas de aterrizaje. [Más información](../landing-pages/lp-templates.md)
