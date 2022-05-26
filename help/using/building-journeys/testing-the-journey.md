@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1527'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,6 @@ Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba.
 >
 >Antes de probar el recorrido, debe resolver todos los errores si los hay. Obtenga información sobre cómo comprobar errores antes de probar en [esta sección](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
-
 Para utilizar el modo de prueba, siga estos pasos:
 
 1. Para activar el modo de prueba, active la variable **[!UICONTROL Test]** alternar, situado en la esquina superior derecha.
@@ -41,7 +40,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 
    >[!NOTE]
    >
-   >Cuando se utiliza un evento de reacción en un recorrido, el tiempo de espera predeterminado y el valor mínimo es de 40 segundos. Consulte [esta sección](../building-journeys/reaction-events.md).
+   >Cuando se utiliza un evento de reacción con tiempo de espera en un recorrido, el valor predeterminado del tiempo de espera y el valor mínimo son 40 segundos. Consulte [esta sección](../building-journeys/reaction-events.md).
 
 1. Utilice la variable **[!UICONTROL Trigger an event]** para configurar y enviar eventos al recorrido.
 

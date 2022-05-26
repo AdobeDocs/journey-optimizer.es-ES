@@ -2,10 +2,10 @@
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 93%
+source-wordcount: '1412'
+ht-degree: 89%
 
 ---
 
@@ -13,9 +13,13 @@ ht-degree: 93%
 
 Esta página enumera todas las actualizaciones de documentación de [!DNL Journey Optimizer].
 
+## Junio de 2022 {#june-2022}
+
+* Nuevos ejemplos de consultas relacionados con [calificación de segmentos](../reports/query-examples.md#segment-qualification-queries) y [events](../reports/query-examples.md#event-based-queries) se han añadido a este
 
 ## Mayo de 2022 {#may-2022}
 
+* Todas las nuevas funciones y mejoras incluidas [!DNL Journey Optimizer] La versión del 22 de mayo se ha detallado en la documentación. [Más información](release-notes.md)
 * La sección de diseño de correo electrónico ahora menciona nuevas plantillas integradas disponibles para iniciar contenido. Se han actualizado las capturas de pantalla relacionadas. [Más información](../design/design-emails.md)
 * Los vínculos a recursos clave se han actualizado en la página de inicio de la documentación de Journey Optimizer.
 * Se han actualizado las capturas de pantalla de la página de aterrizaje y los informes de suscripción. [Más información](../reports/live-report.md)
@@ -23,6 +27,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se han actualizado los vínculos a vídeos explicativos.
 * La variable [Configuración de correo electrónico](../configuration/about-subdomain-delegation.md), [Ajustes preestablecidos de mensajes](../configuration/message-presets.md) y [Configurar páginas de aterrizaje](../configuration/lp-subdomains.md) se han reorganizado para mejorar la legibilidad.
 * La variable **Seguimiento de URL** se ha actualizado y mejorado con ejemplos. [Más información](../configuration/email-settings.md#url-tracking)
+* Se ha añadido una nueva subsección sobre la configuración de una dirección de correo electrónico de reenvío. Tenga en cuenta que no puede hacerlo a través de la interfaz de usuario. [Más información](../configuration/email-settings.md#forward-email)
 
 ## Abril de 2022 {#april-2022}
 

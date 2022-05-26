@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '371'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,13 @@ Para crear una lista de suscripción, siga los pasos a continuación.
 
    ![](assets/lp_create-subscription-list.png)
 
-1. Añada un nombre y una descripción. Estos campos son obligatorios.
+1. Añada un título y una descripción. Estos campos son obligatorios.
+
+   ![](assets/lp_subscription-list-name.png)
+
+   >[!CAUTION]
+   >
+   >Actualmente no puede utilizar el espaciado ni especificar un nombre que ya exista para otra lista de suscripción en la **[!UICONTROL Title]** campo .
 
 1. Puede definir una fecha de inicio y una de finalización.
 

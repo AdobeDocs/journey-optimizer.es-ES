@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '714'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"
 >title="Registros PTR de los subdominios"
->abstract="Un registro de puntero (PTR) es un tipo de registro DNS que proporciona el nombre de dominio vinculado a una dirección IP, lo que ayuda a los servidores de correo receptores a verificar las direcciones IP de los remitentes."
+>abstract="Un registro de puntero (PTR) es un tipo de registro DNS que proporciona el nombre de dominio vinculado a una dirección IP, lo que ayuda a los servidores de correo receptores a verificar las direcciones IP de los remitentes. Solo puede editar un registro PTR después de tener en cuenta las consideraciones pertinentes y conversar con su experto en entregas."
 
 ## Acerca de los registros PTR {#about-ptr-records}
 

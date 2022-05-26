@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d2ae8f7a2a44ac92d26520e5c85a19a2660ed8e2
+source-git-commit: 4510b3f5992abc17bead7db240279f33efb3febb
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '623'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,6 @@ A continuación se indican algunas limitaciones adicionales al usar [!DNL Adobe 
 ## Limitaciones en los mensajes {#limitations-messages}
 
 * No se pueden añadir archivos adjuntos a un correo electrónico con [!DNL Journey Optimizer].
-* El CCO de correo electrónico no es compatible con [!DNL Journey Optimizer].
 * No puede utilizar el mismo dominio de envío para enviar mensajes desde [!DNL Adobe Journey Optimizer] y de otro producto, como [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage] por ejemplo.
 
 ## Limitaciones en las páginas de aterrizaje {#limitations-lp}

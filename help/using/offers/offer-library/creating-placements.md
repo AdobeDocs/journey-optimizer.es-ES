@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '234'
 ht-degree: 16%
 
 ---
@@ -42,7 +42,7 @@ Para crear una ubicación, siga estos pasos:
 
    * **[!UICONTROL Name]**: Nombre de la ubicación. Asegúrese de definir un nombre significativo para recuperarlo más fácilmente.
    * **[!UICONTROL Channel type]**: Canal para el que se utilizará la colocación.
-   * **[!UICONTROL Content type]**: Tipo de contenido que se permitirá mostrar en la ubicación: Texto, HTML o vínculo de imagen.
+   * **[!UICONTROL Content type]**: Tipo de contenido que se permitirá mostrar en la ubicación: Texto, HTML, vínculo de imagen o JSON.
    * **[!UICONTROL Description]**: Descripción de la colocación (opcional).
 
    ![](../assets/offers_placement_creation_properties.png)

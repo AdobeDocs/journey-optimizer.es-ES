@@ -1,18 +1,19 @@
 ---
-title: Integración con Adobe Campaign Standard
+title: Integrar con Adobe Campaign Standard
 description: Aprenda a integrar con Adobe Campaign Standard
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
+source-git-commit: d1902ac35d78ba73051b41b4fc82dc284382d1a4
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# Integración con Adobe Campaign Standard {#using_adobe_campaign_standard}
+# Integrar con Adobe Campaign Standard {#using_adobe_campaign_standard}
 
 Puede enviar correos electrónicos, notificaciones push y SMS utilizando las funciones de mensajería transaccional de Adobe Campaign Standard.
 

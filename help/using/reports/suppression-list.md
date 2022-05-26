@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 3%
+source-wordcount: '769'
+ht-degree: 4%
 
 ---
 
@@ -20,6 +20,10 @@ Una lista de supresión consiste en direcciones de correo electrónico que desea
 La variable [!DNL Journey Optimizer] la lista de supresión se administra en su propio nivel de entorno.
 
 Recopila direcciones de correo electrónico y dominios que se suprimen en todos los correos en un único entorno de cliente, lo que significa que son específicos de un ID de organización asociado a un ID de simulador de pruebas.
+
+>[!NOTE]
+>
+>Adobe mantiene una lista actualizada de las direcciones de correo electrónico erróneas conocidas que han demostrado ser perjudiciales para la participación y la reputación del correo, y garantiza que los correos electrónicos no se envíen a ellas. Esta lista se administra en una lista global de supresión que es común en todos los clientes de Adobe. Las direcciones y los nombres de dominio contenidos en la lista de supresión global están ocultos. En los informes de envío solo se indica el número de destinatarios excluidos.
 
 ## ¿Por qué una lista de supresión? {#why-suppression-list}
 

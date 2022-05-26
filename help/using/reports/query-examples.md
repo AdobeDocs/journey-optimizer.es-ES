@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: c8e03687d82c6dcfea1195cf8ef091e3d9bc80a5
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1141'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Asegúrese de que los campos utilizados en las consultas tengan valores asociado
 
 ## Errores de mensaje/acción {#message-action-errors}
 
-### Lista de cada error encontrado en los recorridos {#error-list-journey}
+**Lista de cada error encontrado en los recorridos**
 
 Esta consulta le permite enumerar cada error encontrado en recorridos mientras ejecuta un mensaje o una acción.
 
@@ -49,7 +49,7 @@ Esta consulta devuelve todos los errores que se han producido al ejecutar una ac
 
 ## Consultas basadas en perfiles {#profile-based-queries}
 
-### Buscar si un perfil entró en un Recorrido específico {#profile-entered-journey}
+**Buscar si un perfil entró en un Recorrido específico**
 
 _Consulta del lago de datos_
 
@@ -71,9 +71,9 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 El resultado debe ser bueno a 0. Esta consulta devuelve el número exacto de veces que un perfil ha introducido un recorrido.
 
-### Buscar si se envió un perfil a un mensaje específico {#profile-specific-message}
+**Buscar si se envió un perfil a un mensaje específico**
 
-**Método 1:** si el nombre del mensaje no es único en el recorrido (se utiliza en varios lugares).
+Método 1: si el nombre del mensaje no es único en el recorrido (se utiliza en varios lugares).
 
 _Consulta del lago de datos_
 
@@ -97,7 +97,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 El resultado debe ser bueno a 0. Esta consulta solo nos indica si la acción del mensaje se ejecutó correctamente en el lado del recorrido.
 
-**Método 2:** si el nombre del mensaje es único en el recorrido.
+Método 2: si el nombre del mensaje es único en el recorrido.
 
 _Consulta del lago de datos_
 
@@ -121,7 +121,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 La consulta devuelve la lista de todos los mensajes junto con su recuento invocado para el perfil seleccionado.
 
-## Buscar todos los mensajes que un perfil ha recibido en los últimos 30 días {#message-received-30-days}
+**Buscar todos los mensajes que un perfil ha recibido en los últimos 30 días**
 
 _Consulta del lago de datos_
 
@@ -147,7 +147,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 La consulta devuelve la lista de todos los mensajes junto con su recuento invocado para el perfil seleccionado.
 
-### Buscar todos los recorridos que un perfil ha introducido en los últimos 30 días {#profile-entered-30-days}
+**Buscar todos los recorridos que un perfil ha introducido en los últimos 30 días**
 
 _Consulta del lago de datos_
 
@@ -171,7 +171,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 La consulta devuelve la lista de todos los nombres de recorrido junto con el número de veces que el perfil consultado ingresó al recorrido.
 
-### Número de perfiles que cumplen los requisitos para un recorrido diariamente {#profile-qualified}
+**Número de perfiles que cumplen los requisitos para un recorrido diariamente**
 
 _Consulta del lago de datos_
 
@@ -197,7 +197,7 @@ La consulta devuelve, durante el periodo definido, el número de perfiles que in
 
 ## Consultas relacionadas con el segmento de lectura {#read-segment-queries}
 
-### Tiempo necesario para finalizar un trabajo de exportación de segmentos
+**Tiempo necesario para finalizar un trabajo de exportación de segmentos**
 
 _Consulta del lago de datos_
 
@@ -229,7 +229,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 La consulta devuelve la diferencia de tiempo, en minutos, entre el momento en que se puso en cola el trabajo de exportación del segmento y el momento en que finalizó.
 
-### Número de perfiles que el recorrido descartó porque eran duplicados
+**Número de perfiles que el recorrido descartó porque eran duplicados**
 
 _Consulta del lago de datos_
 
@@ -251,7 +251,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La consulta devuelve todos los ID de perfil que el recorrido descartó porque eran duplicados.
 
-### Número de perfiles que el recorrido descartó debido a un espacio de nombres no válido
+**Número de perfiles que el recorrido descartó debido a un espacio de nombres no válido**
 
 _Consulta del lago de datos_
 
@@ -273,7 +273,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La consulta devuelve todos los ID de perfil que el recorrido descartó porque tenían un área de nombres no válida o no tenían identidad para ese área de nombres.
 
-### Número de perfiles que el recorrido descartó debido a que no hay mapa de identidad
+**Número de perfiles que el recorrido descartó debido a que no hay mapa de identidad**
 
 _Consulta del lago de datos_
 
@@ -295,7 +295,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La consulta devuelve todos los ID de perfil que el recorrido descartó porque faltaba el mapa de identidad.
 
-### Número de perfiles que el recorrido descartó porque el recorrido estaba en el nodo de prueba y el perfil no era un perfil de prueba
+**Número de perfiles que el recorrido descartó porque el recorrido estaba en el nodo de prueba y el perfil no era un perfil de prueba**
 
 _Consulta del lago de datos_
 
@@ -317,7 +317,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La consulta devuelve todos los ID de perfil que el recorrido descartó porque el trabajo de exportación se ejecutó en modo de prueba pero el perfil no tenía el atributo testProfile establecido en true.
 
-### Número de perfiles que el recorrido descartó debido a un error interno
+**Número de perfiles que el recorrido descartó debido a un error interno**
 
 _Consulta del lago de datos_
 
@@ -339,7 +339,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La consulta devuelve todos los ID de perfil que el recorrido descartó debido a algún error interno.
 
-### Información general sobre la lectura de segmentos para una versión de recorrido determinada
+**Información general sobre la lectura de segmentos para una versión de recorrido determinada**
 
 _Consulta del lago de datos_
 
@@ -377,7 +377,7 @@ IMPORTANTE: si no hay ningún evento devuelto por esta consulta, puede deberse a
 * la versión de recorrido no ha alcanzado la programación
 * si se supone que la versión de recorrido tiene que tener déclencheur en el trabajo de exportación llamando al orquestador, algo salió mal en el flujo ascendente: problema en la implementación de recorrido, evento empresarial o problema con el programador.
 
-### Obtener errores de segmento de lectura para una versión de recorrido determinada
+**Obtener errores de segmento de lectura para una versión de recorrido determinada**
 
 _Consulta del lago de datos_
 
@@ -403,7 +403,7 @@ WHERE
     )
 ```
 
-### Obtener el estado de procesamiento del trabajo de exportación
+**Obtener el estado de procesamiento del trabajo de exportación**
 
 _Consulta del lago de datos_
 
@@ -432,7 +432,7 @@ Si no se devuelve ningún registro, significa que:
 * se ha producido un error durante el tema o la creación de trabajos de exportación
 * el trabajo de exportación sigue en ejecución
 
-### Obtener métricas de perfiles exportados, incluidos descartes y métricas de trabajo de exportación para cada trabajo de exportación
+**Obtener métricas de perfiles exportados, incluidos descartes y métricas de trabajo de exportación para cada trabajo de exportación**
 
 _Consulta del lago de datos_
 
@@ -492,7 +492,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-### Obtener métricas agregadas (trabajos de exportación de segmentos y descartes) en todos los trabajos de exportación
+**Obtener métricas agregadas (trabajos de exportación de segmentos y descartes) en todos los trabajos de exportación**
 
 _Consulta del lago de datos_
 
@@ -557,31 +557,59 @@ Devuelve las métricas generales de una versión de recorrido determinada, indep
 
 ## Consultas relacionadas con la calificación de segmentos {#segment-qualification-queries}
 
-### Perfil descartado debido a una realización de segmentos diferente a la configurada
+**Perfil descartado debido a una realización de segmentos diferente a la configurada**
 
 _Consulta del lago de datos_
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
+FROM journey_step_events
 where
-_experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'ERROR_INSTANCE_WRONG_SEGMENT_REALIZATION'
+_experience.journeyOrchestration.journey.versionID = '<journey-version id>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
 _Ejemplo_
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
+FROM journey_step_events
 where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'ERROR_INSTANCE_WRONG_SEGMENT_REALIZATION'
+_experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94cdf1c4159d' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
 Esta consulta devuelve todos los ID de perfil que la versión de recorrido descartó debido a una realización de segmentos incorrecta.
 
+**Eventos de calificación de segmentos descartados por cualquier otro motivo para un perfil específico**
+
+_Consulta del lago de datos_
+
+```sql
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID = '<profile-id>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+_Ejemplo_
+
+```sql
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+Esta consulta devuelve todos los eventos (eventos externos/eventos de calificación de segmentos) que se descartaron debido a cualquier otro motivo para un perfil.
+
 ## Consultas basadas en eventos {#event-based-queries}
 
-### Comprobar si se recibió un evento comercial para un recorrido
+**Comprobar si se recibió un evento comercial para un recorrido**
 
 _Consulta del lago de datos_
 
@@ -607,9 +635,101 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
+**Compruebe si se descartó un evento externo de un perfil porque no se encontró ningún recorrido relacionado.**
+
+_Consulta del lago de datos_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '<eventId>' AND
+_experience.journeyOrchestration.profile.ID = '<profileId>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
+```
+
+_Ejemplo_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '515bff852185e434ca5c83bcfc4f24626b1545ca615659fc4cfff91626ce61a6' AND
+_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
+```
+
+**Compruebe si se descartó un evento externo de un perfil por cualquier otra razón**
+
+_Consulta del lago de datos_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID='<profileID>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='<eventID>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+_Ejemplo_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID='mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='81c51be978d8bdf9ef497076b3e12b14533615522ecea9f5080a81c736491656' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+**Compruebe el recuento de todos los eventos descartados por stateMachine por errorCode**
+
+_Consulta del lago de datos_
+
+```sql
+SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
+```
+
+_Ejemplo_
+
+```sql
+SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
+```
+
+**Compruebe todos los eventos descartados porque no se permitió la reentrada**
+
+_Consulta del lago de datos_
+
+```sql
+SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
+_experience.journeyOrchestration.journey.versionID,
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
+FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
+```
+
+_Ejemplo_
+
+```sql
+SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
+_experience.journeyOrchestration.journey.versionID,
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
+FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
+```
+
 ## Consultas comunes basadas en recorridos {#journey-based-queries}
 
-### Número de recorridos activos diarios {#daily-active-journeys}
+**Número de recorridos activos diarios**
 
 _Consulta del lago de datos_
 
@@ -633,7 +753,7 @@ La consulta devuelve, durante el periodo definido, el recuento de recorridos ún
 
 ## Consultas en instancias de recorrido {#journey-instances-queries}
 
-### Número de perfiles de un estado específico a una hora específica
+**Número de perfiles de un estado específico a una hora específica**
 
 _Consulta del lago de datos_
 
@@ -781,7 +901,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-### Cuántos perfiles salieron del recorrido en un período de tiempo específico
+**Cuántos perfiles salieron del recorrido en un período de tiempo específico**
 
 _Consulta del lago de datos_
 
@@ -819,7 +939,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-### Cuántos perfiles salieron del recorrido en un período de tiempo específico con nodo/estado
+**Cuántos perfiles salieron del recorrido en un período de tiempo específico con nodo/estado**
 
 _Consulta del lago de datos_
 

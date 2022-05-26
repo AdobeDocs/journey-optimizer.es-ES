@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 15%
+source-wordcount: '167'
+ht-degree: 5%
 
 ---
 
 # distinctWithNull {#distinctWithNull}
 
-Devuelve los distintos valores de la lista. Si la lista tiene al menos un valor nulo, se mostrará un valor nulo en la lista devuelta.
+Devuelve los valores u objetos distintos de una lista determinada. Si la lista tiene al menos una entrada nula, estará presente una entrada nula en la lista devuelta.
 
 ## Categoría
 
@@ -23,20 +23,14 @@ Lista
 
 ## Sintaxis de función
 
-`distinctWithNull(<parameter>)`
+`distinctWithNull(<parameters>)`
 
 ## Parámetros
 
-| Parámetro | Tipo |
-|-----------|------------------|
-| Lista | listString |
-| Lista | listBoolean |
-| Lista | listInteger |
-| Lista | listDecimal |
-| Lista | listDuration |
-| Lista | listDateTime |
-| Lista | listDateTimeOnly |
-| Lista | listDateOnly |
+| Parámetro | Tipo | Descripción |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Lista para procesar. Para listObject, debe ser una referencia de campo. |
+| keyAttributeName | string | Este parámetro es opcional y solo para listObject. Si no se proporciona el parámetro, un objeto se considera duplicado si todos los atributos tienen los mismos valores. De lo contrario, un objeto se considera duplicado si el atributo dado tiene el mismo valor. |
 
 ## Firmas y tipos devueltos
 
@@ -71,6 +65,12 @@ Devuelve una lista de booleanos.
 `distinctWithNull(<listDuration>)`
 
 Devuelve una lista de duraciones.
+
+`distinctWithNull(<listObject>)`
+
+`distinctWithNull(<listObject>,<string>)`
+
+Devuelve una lista de objetos.
 
 ## Ejemplos
 

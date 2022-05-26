@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
-workflow-type: ht
-source-wordcount: '651'
-ht-degree: 100%
+source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 96%
 
 ---
 
@@ -69,9 +69,15 @@ Para diseñar un mensaje nuevo, siga los pasos a continuación:
 
    * Seleccione los canales que desee utilizar para ese mensaje: notificación por correo electrónico o push. Debe seleccionar al menos un canal para poder crear el mensaje.
 
+   <!--
+   >[!NOTE]
+   >
+   >You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). Learn more on [frequency rules](../configuration/frequency-rules.md).
+   -->
+
    * Seleccione el **[!UICONTROL Preset]** para usar en el mensaje.
 
-      Los ajustes preestablecidos incluyen todos los parámetros necesarios para enviar un correo electrónico o una notificación push según la marca. [Obtenga más información sobre ajustes preestablecidos](../configuration/message-presets.md).
+      Los ajustes preestablecidos incluyen todos los parámetros necesarios para enviar un correo electrónico o una notificación push según la marca. Más información sobre [ajustes preestablecidos](../configuration/message-presets.md).
    >[!CAUTION]
    >
    >Debe elegir un ajuste preestablecido de mensaje válido para la categoría y los canales seleccionados.
@@ -83,6 +89,10 @@ Para diseñar un mensaje nuevo, siga los pasos a continuación:
    Hay una pestaña disponible para cada canal seleccionado. Utilice estas pestañas para configurar el contenido de cada canal. Puede quitar una pestaña seleccionándola y haciendo clic en el botón **[!UICONTROL Delete channel]** a la derecha.
 
    ![](assets/create-messages-content.png)
+
+   >[!NOTE]
+   >
+   >Si ha activado la variable **[!UICONTROL BCC email]** en el ajuste preestablecido, la dirección de correo electrónico de CCO se mostrará en el correo electrónico del remitente. [Más información](../configuration/email-settings.md#bcc-email)
 
    Ahora puede crear el contenido del mensaje y adaptar la configuración. Encontrará información detallada sobre la configuración del correo electrónico y las notificaciones push en las secciones siguientes:
 

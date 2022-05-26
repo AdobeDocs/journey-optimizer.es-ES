@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '865'
 ht-degree: 1%
 
 ---
@@ -31,15 +31,19 @@ Para ello, puede utilizar una regla de frecuencia que limite el número de mensa
 
 Las reglas están disponibles en el **[!UICONTROL Administration]** > **[!UICONTROL Rules]** para abrir el Navegador. Se muestran todas las reglas, ordenadas por fecha de modificación.
 
->[!NOTE]
->
->Para acceder, crear, editar o eliminar las reglas de frecuencia de mensajes, debe tener la variable [Administrar reglas de frecuencia](../administration/high-low-permissions.md#manage-frequency-rules) permiso.
-
-![](assets/message-rules-access.png)
-
 Utilice el icono de filtro para filtrar por categoría, estado o canal. También puede buscar en la etiqueta del mensaje.
 
 ![](assets/message-rules-filter.png)
+
+### Permisos{#permissions-frequency-rules}
+
+Para acceder, crear, editar o eliminar las reglas de frecuencia de mensajes, debe tener la variable **[!UICONTROL Manage frequency rules]** permiso.
+
+Los usuarios con la variable **[!UICONTROL View frequency rules]** pueden ver las reglas, pero no modificarlas ni eliminarlas.
+
+![](assets/message-rules-access.png)
+
+Obtenga más información sobre los permisos en [esta sección](../administration/high-low-permissions.md).
 
 ## Crear una regla {#create-new-rule}
 
@@ -77,9 +81,9 @@ Para crear una regla nueva, siga los pasos a continuación.
 
 1. Seleccione varios canales si desea aplicar límites a todos los canales seleccionados como recuento total.
 
-   Por ejemplo, defina el límite en 15 y seleccione los canales de correo electrónico y push. Si un perfil ya ha recibido 10 correos electrónicos de marketing y 5 notificaciones push de marketing, este perfil se excluirá de la siguiente entrega de cualquier correo electrónico de marketing o notificación push.
+   Por ejemplo, establezca el límite en 15 y seleccione los canales de correo electrónico y push. Si un perfil ya ha recibido 10 correos electrónicos de marketing y 5 notificaciones push de marketing, este perfil se excluirá de la siguiente entrega de cualquier correo electrónico de marketing o notificación push.
 
-1. Haga clic en **[!UICONTROL Save as draft]** para confirmar la creación de la regla. El mensaje se añade en la lista de reglas, con la variable **[!UICONTROL Draft]** estado.
+1. Haga clic en **[!UICONTROL Save as draft]** para confirmar la creación de la regla. El mensaje se añade a la lista de reglas, con la variable **[!UICONTROL Draft]** estado.
 
    ![](assets/message-rules-created.png)
 
@@ -93,7 +97,7 @@ La activación de una regla afectará a los mensajes a los que se aplique en la 
 
 >[!NOTE]
 >
->No es necesario modificar o volver a publicar mensajes o recorridos para que una regla surta efecto.
+>Puede tardar hasta 10 minutos en activarse completamente una regla. No es necesario modificar o volver a publicar mensajes o recorridos para que una regla surta efecto.
 
 Para desactivar una regla de frecuencia de mensaje, haga clic en los puntos suspensivos junto a la regla y seleccione **[!UICONTROL Deactivate]**.
 
@@ -132,6 +136,10 @@ Para aplicar una regla de frecuencia a un mensaje, siga los pasos a continuació
 1. [Diseño](../design/design-emails.md) y [publicar](../messages/publish-manage-message.md) su mensaje.
 
 Todas las reglas de frecuencia que coincidan con la categoría y los canales seleccionados se aplicarán automáticamente a este mensaje.
+
+>[!NOTE]
+>
+>Mensajes <!--that do not have any selected category or messages -->donde la categoría seleccionada es **[!UICONTROL Transactional]** no se evaluará según las reglas de frecuencia.
 
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
@@ -178,3 +186,7 @@ Puede combinar varias reglas de frecuencia de mensajes, como se describe en el e
 En este escenario, un perfil individual:
 * puede recibir hasta 12 mensajes de marketing al mes;
 * pero se excluirán de las notificaciones push de marketing una vez que hayan recibido 4 notificaciones push.
+
+>[!NOTE]
+>
+>Al probar las reglas de frecuencia, puede resultar útil empezar con una [perfil de prueba](../segment/creating-test-profiles.md), ya que una vez que se alcanza el límite de frecuencia de un perfil, no hay forma de restablecer el contador hasta el mes siguiente. Al desactivar una regla, los perfiles restringidos podrán recibir mensajes, pero no se eliminará ni se eliminará ningún incremento de contador.

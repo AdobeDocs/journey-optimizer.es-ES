@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 97%
+source-wordcount: '1040'
+ht-degree: 92%
 
 ---
 
@@ -16,8 +16,11 @@ ht-degree: 97%
 
 + [Documentación de Journey Optimizer](ajo-home.md)
 + Novedades {#whats-new}
-   + [Notas de la versión](using/rn/release-notes.md)
-   + [Últimas actualizaciones](using/rn/documentation-updates.md)
+   + [Últimas notas de la versión](using/rn/release-notes.md)
+   + Notas de la versión anterior {#previous-rn-new}
+      + [Notas de la versión 2022](using/rn/release-notes-2022.md)
+      + [Notas de la versión 2021](using/rn/release-notes-2021.md)
+   + [Actualizaciones de documentación](using/rn/documentation-updates.md)
 + Introducción{#get-started}
    + [Qué es Journey Optimizer](using/start/get-started.md)
    + Inicio rápido{#quick-start}
@@ -60,7 +63,11 @@ ht-degree: 97%
 + Páginas de destino {#landing-pages}
    + [Introducción a las páginas de destino](using/landing-pages/get-started-lp.md)
    + [Creación de una página de destino](using/landing-pages/create-lp.md)
-   + [Diseño de una página de destino](using/landing-pages/design-lp.md)
+   + Diseño de contenido {#landing-pages-design}
+      + [Acerca del diseño de página de aterrizaje](using/landing-pages/design-lp.md)
+      + [Creación del contenido de la página de aterrizaje](using/landing-pages/lp-content.md)
+      + [Crear plantillas](using/landing-pages/lp-templates.md)
+      + [Agregar JavaScript personalizado](using/landing-pages/lp-custom-js.md)
    + [Creación de una lista de suscripción](using/landing-pages/subscription-list.md)
    + [Casos de uso](using/landing-pages/lp-use-cases.md)
 + Personalización{#personalization}
@@ -179,6 +186,7 @@ ht-degree: 97%
             + [en](using/building-journeys/functions/functionin.md)
             + [intersect](using/building-journeys/functions/functionintersect.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
+            + [límite](using/building-journeys/functions/functionlimit.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
          + Math {#math}
@@ -245,6 +253,7 @@ ht-degree: 97%
       + [Introducción a la capacidad de entrega](using/reports/deliverability.md)
       + [Lista de supresión](using/reports/suppression-list.md)
       + [Lista de permitidos](using/reports/allow-list.md)
+   + [Acciones de auditoría en recursos de Journey Optimizer](using/reports/audit-logs.md)
 + Administración de decisiones {#offer-decisioniong}
    + Introducción a la Administración de decisiones {#get-started-decision}
       + [Acerca de la Administración de decisiones](using/offers/get-started/starting-offer-decisioning.md)
@@ -391,3 +400,5 @@ ht-degree: 97%
    + [Administrar usuarios y perfiles de producto](using/administration/permissions.md)
    + [Niveles de permisos](using/administration/high-low-permissions.md)
    + [Administración de entornos limitados](using/administration/sandboxes.md)
+   + [Control de acceso basado en atributos](using/administration/attribute-based-access.md)
+

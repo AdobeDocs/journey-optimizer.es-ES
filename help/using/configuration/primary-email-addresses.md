@@ -6,19 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '164'
 ht-degree: 6%
 
 ---
 
-# Cambiar las direcciones de correo electrónico principales {#change-primary-email}
+# Cambiar las direcciones principales {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
 >title="Defina qué dirección utilizar"
->abstract="Puede elegir qué dirección de correo electrónico priorizar para el envío cuando hay varias direcciones disponibles en la base de datos (personal, profesional, etc.)."
+>abstract="Cuando hay varias direcciones disponibles en la base de datos (personal, profesional, etc.), puede elegir qué dirección priorizar para el envío."
 
 Al segmentar un perfil, es posible que haya varias direcciones de correo electrónico disponibles en la base de datos (personal, dirección de correo electrónico profesional, etc.).
 
