@@ -2,9 +2,9 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
+source-git-commit: 53a625c0e62fbfae703b40bb1d47105c168730ea
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '387'
 ht-degree: 35%
 
 ---
@@ -48,6 +48,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <tbody>
 <tr>
 <td>
+<p>Fecha de disponibilidad: <strong>31 de mayo</strong></p>
 <p>Ahora puede utilizar la capacidad Email BCC (copia de seguridad ciega) para almacenar correos electrónicos enviados por Adobe Journey Optimizer. Active esta opción en los ajustes preestablecidos de correo electrónico para que cada correo electrónico enviado se copie de forma ciega en su dirección de CCO.</p>
 <img src="assets/bcc-rn.gif"/>
 <p>Para obtener más información, consulte la <a href="../configuration/email-settings.md#bcc-email">documentación detallada</a>.</p>

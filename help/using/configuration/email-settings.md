@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 13fbe0583affb48269932134ea6bc214180903dd
+source-git-commit: c48d083445d4e4c7cdbed1a61cee13ed3fcfcc8b
 workflow-type: tm+mt
-source-wordcount: '2152'
+source-wordcount: '2166'
 ht-degree: 2%
 
 ---
@@ -138,6 +138,10 @@ La dirección de correo electrónico de reenvío se configura por Adobe. Esto pu
 
 Puede enviar una copia idéntica (o una copia ciega de un correo electrónico enviado por [!DNL Journey Optimizer] a una bandeja de entrada BCC. Esta función opcional le permite conservar copias de las comunicaciones por correo electrónico que envía a sus usuarios para que cumplan con las normas o las archiven. Esto es invisible para los destinatarios de la entrega.
 
+>[!CAUTION]
+>
+>Esta capacidad estará disponible a partir de **31 de mayo**.
+
 ### Habilitar correo electrónico CCO {#enable-bcc}
 
 Para habilitar la variable **[!UICONTROL BCC email]** , introduzca la dirección de correo electrónico que desee en el campo dedicado. Puede especificar cualquier dirección externa en el formato correcto, excepto una dirección de correo electrónico definida en el subdominio delegado. Por ejemplo, si el subdominio delegado es *marketing.luma.com*, cualquier dirección como *abc@marketing.luma.com* está prohibido.
@@ -145,6 +149,8 @@ Para habilitar la variable **[!UICONTROL BCC email]** , introduzca la dirección
 >[!NOTE]
 >
 >Solo puede definir una dirección de correo electrónico CCO. Asegúrese de que la dirección de CCO tenga suficiente capacidad de recepción para almacenar todos los correos electrónicos enviados con el ajuste preestablecido actual.
+>
+>Más recomendaciones se enumeran en [esta sección](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
@@ -168,23 +174,26 @@ Sin embargo, la dirección de CCO se selecciona para enviar comunicaciones sigui
 >
 >No es necesario volver a publicar un mensaje o recorrido para que se recoja la configuración de CCO.
 
-### Recommendations y limitaciones {#recommendations-limitations}
+### Recommendations y limitaciones {#bcc-recommendations-limitations}
 
-* Asegúrese de que la dirección de correo electrónico CCO esté correctamente configurada. Si no es así, la información de identificación personal (PII) de sus clientes puede enviarse a una dirección no deseada.
+* Para garantizar el cumplimiento de la privacidad, los correos electrónicos CCO deben ser procesados por un sistema de archiving capaz de almacenar información personal (PII) de forma segura.
 
-* Por motivos de privacidad, los correos electrónicos CCO deben ser procesados por un sistema de archiving capaz de almacenar información personal segura (PII).
-
-* Esta función puede entregarse a la dirección de correo electrónico de CCO antes de enviarse a los destinatarios, lo que puede dar como resultado que se envíen mensajes CCO aunque las entregas originales puedan tener [rechazado](../reports/suppression-list.md#delivery-failures).
-
-   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
-
-* Si se abren y se hace clic en los correos electrónicos enviados a la dirección de CCO, esto se tiene en cuenta en el total de aperturas y clics del análisis de envío, lo que podría provocar algunos cálculos erróneos en [informes](../reports/message-monitoring.md). Del mismo modo, si se marcan los correos electrónicos CCO que aterrizan en la bandeja de entrada como correo no deseado, es posible que los correos electrónicos aterricen en la carpeta de correo no deseado de la bandeja de entrada.
+* Como los mensajes pueden contener datos confidenciales o privados, como información de identificación personal (PII), asegúrese de que la dirección de CCO sea correcta y asegure el acceso a los mensajes.
 
 * La bandeja de entrada utilizada para CCO debe administrarse correctamente para el espacio y la entrega. Si la bandeja de entrada devuelve devoluciones, es posible que algunos correos electrónicos no se reciban y, por lo tanto, no se archiven.
 
+* Los mensajes se pueden enviar a la dirección de correo electrónico de CCO antes de los destinatarios objetivo. Los mensajes CCO también se pueden enviar aunque los mensajes originales hayan [rechazado](../reports/suppression-list.md#delivery-failures).
+
+   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+
+* No abra ni haga clic en los correos electrónicos enviados a la dirección de CCO, ya que se tienen en cuenta en el total de aperturas y clics del análisis de envío, lo que podría provocar algunos cálculos erróneos en [informes](../reports/message-monitoring.md).
+
+* No marque los mensajes como correo no deseado en la bandeja de entrada BCC, ya que esto afectará a todos los demás correos electrónicos enviados a esta dirección.
+
+
 >[!CAUTION]
 >
->Evite hacer clic en el vínculo unsubscribe en los correos electrónicos enviados a la dirección de CCO, ya que inmediatamente cancelará la suscripción de los destinatarios correspondientes.
+>No haga clic en el vínculo unsubscribe de los correos electrónicos enviados a la dirección de CCO, ya que inmediatamente cancelará la suscripción de los destinatarios correspondientes.
 
 ### Cumplimiento del RGPD {#gdpr-compliance}
 
