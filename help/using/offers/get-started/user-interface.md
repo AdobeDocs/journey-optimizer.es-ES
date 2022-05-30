@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 68%
@@ -41,7 +41,7 @@ Utilice el menú **[!UICONTROL Components]** para administrar los componentes ne
 
 * **[!UICONTROL Rules]**: Administre las condiciones en las que se presentan las ofertas. Consulte [Creación de una regla de decisión](../offer-library/creating-decision-rules.md).
 
-* **[!UICONTROL Rankings]**: Cree y administre fórmulas de clasificación para determinar qué oferta se debe presentar primero para una ubicación determinada. Consulte [Creación de fórmulas de clasificación](../offer-library/create-ranking-formulas.md).
+* **[!UICONTROL Rankings]**: Cree y administre fórmulas de clasificación para determinar qué oferta se debe presentar primero para una ubicación determinada. Consulte [Creación de fórmulas de clasificación](../ranking/create-ranking-formulas.md).
 
 ![](../assets/offer_activities.png)
 

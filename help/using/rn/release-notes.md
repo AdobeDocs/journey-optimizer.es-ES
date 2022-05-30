@@ -2,10 +2,10 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 53a625c0e62fbfae703b40bb1d47105c168730ea
+source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 35%
+source-wordcount: '422'
+ht-degree: 34%
 
 ---
 
@@ -58,22 +58,22 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 </table>
 
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Decision Management - AI Ranking auto-optimization model</strong><br/></th>
+<th><strong>Administración de decisiones: modelo de optimización automática de la clasificación de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now use trained model systems in Decision Management. This new capability ranks offers to display for a given profile.</p>
+<p>Ahora puede utilizar sistemas de modelos formados en Administración de decisiones. Esta nueva capacidad clasifica las ofertas que se muestran para un perfil determinado.</p>
 <img src="assets/optimization.gif"/>
-<p>For more information, refer to the <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">detailed documentation</a>.</p>
+<p>Para obtener más información, consulte la <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <!--table>
 <thead>

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 5%
+source-wordcount: '441'
+ht-degree: 6%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 5%
 Si varias ofertas son elegibles para una ubicación determinada, puede elegir el método que seleccionará la mejor oferta para cada perfil al configurar una decisión. Puede clasificar las ofertas mediante:
 * Prioridad de la oferta
 * Fórmula de clasificación
-* [Clasificación de IA](#use-ranking-strategy) (en acceso anticipado solo para usuarios seleccionados)
+* [Clasificación de IA](#use-ranking-strategy)
 
 ![](../assets/offer-rank-by.png)
 
@@ -36,7 +36,7 @@ Además de la prioridad de oferta, Journey Optimizer le permite crear **clasific
 
 Por ejemplo, puede aumentar la prioridad de todas las ofertas en las que la fecha de finalización sea inferior a 24 horas a partir de ahora, o aumentar las ofertas de la categoría &quot;en ejecución&quot; si el punto de interés del perfil está &quot;en ejecución&quot;.
 
-Obtenga información sobre cómo crear una fórmula de clasificación en [esta sección](../offer-library/create-ranking-formulas.md).
+Obtenga información sobre cómo crear una fórmula de clasificación en [esta sección](../ranking/create-ranking-formulas.md).
 
 Una vez creada una fórmula de clasificación, puede asignarla a una colocación en una decisión. Para realizar esto, siga los pasos a continuación:
 
@@ -62,11 +62,7 @@ Si se pueden presentar varias ofertas en esta ubicación, la decisión utilizar�
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-También puede utilizar un sistema de modelos entrenado que clasifique automáticamente las ofertas para mostrarlas en un perfil determinado seleccionando una estrategia de clasificación. Aprenda a crear una estrategia de clasificación en [esta sección](../offer-library/create-ranking-strategies.md).
-
->[!CAUTION]
->
->El uso de la clasificación AI está disponible actualmente en el acceso anticipado solo para usuarios seleccionados.
+También puede utilizar un sistema de modelos entrenado que clasifique automáticamente las ofertas para mostrarlas en un perfil determinado seleccionando una estrategia de clasificación. Aprenda a crear una estrategia de clasificación en [esta sección](../ranking/create-ranking-strategies.md).
 
 Una vez creada una estrategia de clasificación, puede asignarla a una colocación en una decisión. Para ello, siga los pasos a continuación:
 

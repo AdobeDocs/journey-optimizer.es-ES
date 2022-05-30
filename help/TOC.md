@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 92%
+source-wordcount: '1058'
+ht-degree: 90%
 
 ---
 
@@ -264,10 +264,16 @@ ht-degree: 92%
       + [Crear ubicaciones](using/offers/offer-library/creating-placements.md)
       + [Crear reglas de decisión](using/offers/offer-library/creating-decision-rules.md)
       + [Crear etiquetas](using/offers/offer-library/creating-tags.md)
-      + [Crear fórmulas de clasificación](using/offers/offer-library/create-ranking-formulas.md)
-      + Creación de modelos de clasificación de IA {#create-ai-ranking-models}
-         + [Acerca de los modelos de IA](using/offers/offer-library/ai-ranking.md)
-         + [Creación de modelos de IA](using/offers/offer-library/create-ranking-strategies.md)
+   + Crear clasificaciones {#rankings}
+      + [Introducción a las clasificaciones](using/offers/ranking/get-started-rankings.md)
+      + [Fórmulas de clasificación](using/offers/ranking/create-ranking-formulas.md)
+      + Modelos de IA {#ai-models}
+         + [Acerca de los modelos de IA](using/offers/ranking/ai-models.md)
+         + [Modelo de optimización automática](using/offers/ranking/auto-optimization-model.md)
+         + Creación de modelos de IA {#configure-ai-model}
+            + [Crear un conjunto de datos para recopilar eventos](using/offers/ranking/create-dataset.md)
+            + [Creación de un modelo de IA](using/offers/ranking/create-ranking-strategies.md)
+            + [Configurar la captura de eventos](using/offers/ranking/schema-requirement.md)
    + Crear y administrar ofertas {#managing-offers-in-the-offer-library}
       + Configurar ofertas {#configure-offers}
          + [Creación de ofertas personalizadas](using/offers/offer-library/creating-personalized-offers.md)
