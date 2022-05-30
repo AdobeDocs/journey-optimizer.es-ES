@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: a67cabc2078debb981ee17fae9202f9fd80ec977
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -139,21 +139,9 @@ Tenga en cuenta que al utilizar la API de decisiones, los datos de contexto se a
 
 ### Mejore las ofertas en función de la propensión de los clientes a comprar el producto ofrecido
 
-Si tenemos 2 instancias de *CustomerAI* cálculo de la propensión de compra *travelInsurance* y *extraBaggage* para una compañía aérea, la siguiente fórmula de clasificación aumentará la prioridad (en 50 puntos) de la oferta específica para seguros o equipaje si la puntuación de tendencia del cliente a comprar ese producto es superior a 90 puntos.
+Puede aumentar la puntuación de una oferta en función de la puntuación de tendencia del cliente.
 
-Sin embargo, porque cada *CustomerAI* instance crea su propio objeto dentro del esquema de perfil unificado; no es posible seleccionar dinámicamente la puntuación en función del tipo de inclinación de oferta. Por lo tanto, tiene que encadenar el `if` para comprobar primero el tipo de propensión de oferta y, a continuación, extraer la puntuación del campo de perfil correspondiente.
-
-**Fórmula de clasificación:**
-
-```
-if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesvelocity.CustomerAI.extraBaggagePropensity.score > 90, offer.rank.priority + 50,
-    (
-        if ( offer.characteristics.propensityType = "travelInsurancePropensity" and _salesvelocity.CustomerAI.insurancePropensity.score > 90, offer.rank.priority + 50, offer.rank.priority )
-    )
-)
-```
-
-Una mejor solución es almacenar las puntuaciones en una matriz del perfil. El siguiente ejemplo funcionará en una variedad de puntuaciones de inclinación diferentes utilizando solo una fórmula de clasificación sencilla. La expectativa es que tiene un esquema de perfil con una matriz de puntuaciones. En este ejemplo, el inquilino de instancia es *_salesvelocity* y el esquema de perfil contiene lo siguiente:
+En este ejemplo, el inquilino de instancia es *_salesvelocity* y el esquema de perfil contiene un rango de puntuaciones almacenadas en una matriz:
 
 ![](../assets/ranking-example-schema.png)
 
