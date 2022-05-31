@@ -2,10 +2,10 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 65c2ba7e0931f449a29d1e7ff01d6d68fccca448
+source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 36%
+source-wordcount: '400'
+ht-degree: 35%
 
 ---
 
@@ -21,22 +21,22 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 ### Nuevas funciones
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Message Frequency Rules</strong><br/></th>
+<th><strong>Reglas de frecuencia de mensaje</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now set cross-channel business rules that will automatically exclude over-solicited profiles from messages and actions.</p>
+<p>Ahora puede establecer reglas comerciales multicanal que excluyan automáticamente los perfiles saturados de mensajes y acciones.</p>
 <img src="assets/frequency-rn.gif"/>
-<p>For more information, refer to the <a href="../configuration/frequency-rules.md">detailed documentation</a>.</p>
+<p>Para obtener más información, consulte la <a href="../configuration/frequency-rules.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 <!--table>

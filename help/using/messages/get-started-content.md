@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 65c2ba7e0931f449a29d1e7ff01d6d68fccca448
+source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 99%
+source-wordcount: '676'
+ht-degree: 95%
 
 ---
 
@@ -68,12 +68,9 @@ Para diseñar un mensaje nuevo, siga los pasos a continuación:
    * Seleccione el **[!UICONTROL Message category]**: Marketing o transaccional.
 
    * Seleccione los canales que desee utilizar para ese mensaje: notificación por correo electrónico o push. Debe seleccionar al menos un canal para poder crear el mensaje.
-
-   <!--
    >[!NOTE]
    >
-   >You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). Learn more on [frequency rules](../configuration/frequency-rules.md).
-   -->
+   >Puede hacer clic en el botón **[!UICONTROL Frequency rule]** para ver las reglas de frecuencia que se aplicarán a la categoría y a los canales seleccionados. Más información sobre [reglas de frecuencia](../configuration/frequency-rules.md).
 
    * Seleccione el **[!UICONTROL Preset]** para usar en el mensaje.
 
