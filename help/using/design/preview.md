@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 3f41545f41f258eede2167aa9ab45db51e91cacf
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1040'
 ht-degree: 3%
 
 ---
 
 # Previsualizar y probar los mensajes{#preview-and-proof}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_simulation_test_profile"
+>title="Añadir perfil de prueba"
+>abstract="Puede añadir un perfil de prueba seleccionando un área de nombres de identificación y un valor de identidad correspondiente."
 
 Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo. Si ha insertado [contenido personalizado](../personalization/personalize.md), podrá comprobar cómo se muestra este contenido en el mensaje, aprovechando los datos de perfil de prueba.
 
@@ -36,7 +41,7 @@ Además, aproveche el **Litmus** account en [!DNL Journey Optimizer] para previs
 
 >[!CAUTION]
 >
->Al obtener una vista previa de un mensaje o enviar pruebas, solo se muestran los datos de personalización del perfil. Personalization basado en datos de contexto, como información de evento, solo se puede probar en el contexto de un recorrido. Obtenga información sobre cómo probar la personalización en [este caso de uso](../personalization/personalization-use-case.md).
+>Al obtener una vista previa de un mensaje o enviar pruebas, solo se muestran los datos de personalización del perfil. La personalización basada en datos de contexto, como la información de evento, solo se puede probar en el contexto de un recorrido. Obtenga información sobre cómo probar la personalización en [este caso de uso](../personalization/personalization-use-case.md).
 
 ➡️ [Aprenda a previsualizar, probar y publicar su correo electrónico en este vídeo](#video-preview)
 
