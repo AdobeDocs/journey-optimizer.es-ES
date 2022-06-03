@@ -4,7 +4,8 @@ description: Obtenga información sobre cómo rastrear acciones realizadas en re
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: 336a2a4d28ce1738cc664861291fdc1f39b3ab29
+exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 1%
@@ -33,23 +34,23 @@ En la tabla siguiente se describen las acciones en las que los registros de audi
 
 | Recurso | Acción |
 |-----------|------------------|
-| Grupo de campos | Crear/eliminar/actualizar |
-| Subdominio AJO | Crear/eliminar/actualizar |
-| Lista de supresión de CJM | Crear/eliminar/descargar CSV |
+| Configuración general del canal AJO | Crear/eliminar/actualizar |
+| Grupo IP AJO | Crear/eliminar/actualizar |
+| Página de aterrizaje de AJO | Crear/eliminar/actualizar/publicar/cancelar la publicación |
+| Plantilla de HTML de página de aterrizaje AJO | Crear/eliminar/actualizar |
+| Ajuste preestablecido de página de aterrizaje de AJO | Crear/eliminar/actualizar |
+| Subdominio de página de aterrizaje AJO | Crear/eliminar/actualizar |
+| Mensaje AJO | Crear/eliminar/actualizar/publicar |
 | Ajuste preestablecido de mensaje AJO | Crear/eliminar/actualizar |
 | Registro PTR de AJO | Crear/eliminar/actualizar |
-| Estrategia de clasificación | Crear/eliminar/actualizar |
-| Recorrido, acción personalizada | Crear/eliminar/actualizar |
-| Plantilla de HTML de página de aterrizaje AJO | Crear/eliminar/actualizar |
-| Grupo IP AJO | Crear/eliminar/actualizar |
-| Subdominio de página de aterrizaje AJO | Crear/eliminar/actualizar |
+| Plantilla de expresión guardada AJO | Crear/eliminar/actualizar |
 | Credenciales de API de SMS de AJO | Crear/eliminar/actualizar |
-| Ajuste preestablecido de página de aterrizaje de AJO | Crear/eliminar/actualizar |
+| Subdominio AJO | Crear/eliminar/actualizar |
+| Lista de supresión de AJO | Crear/eliminar/descargar CSV |
+| Grupo de campos | Crear/eliminar/actualizar |
+|  Recorrido  | Crear/eliminar/actualizar/detener/publicar |
+| Recorrido, acción personalizada | Crear/eliminar/actualizar |
 | Fuente de datos de recorrido | Crear/eliminar/actualizar |
 | evento de recorrido | Crear/eliminar/actualizar |
-| Plantilla de expresión guardada AJO | Crear/eliminar/actualizar |
 | Regla de frecuencia de mensaje | Crear/eliminar/actualizar |
-| Página de aterrizaje de AJO | Crear/eliminar/actualizar/publicar/cancelar la publicación |
-|  Recorrido  | Crear/eliminar/actualizar/detener/publicar |
-| Mensaje AJO | Crear/eliminar/actualizar/publicar |
-| Configuración general del canal AJO | Crear/eliminar/actualizar |
+| Estrategia de clasificación | Crear/eliminar/actualizar |

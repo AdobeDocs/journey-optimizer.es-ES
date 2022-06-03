@@ -2,7 +2,7 @@
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 94%
@@ -98,7 +98,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 * Se han añadido ejemplos de uso común para consultar eventos de pasos de recorrido en un lago de datos. [Más información](../reports/query-examples.md)
 
-* Se ha añadido una nueva página **Limitaciones**. [Más información](../start/limitations.md)
+* Se ha añadido una nueva página **Limitaciones**. [Más información](../start/guardrails.md)
 
 * Se ha mejorado la página **Inicio rápido** con pasos para diferentes personalidades. [Más información](../start/quick-start.md)
 
@@ -144,7 +144,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha cambiado el nombre de “actividades de oferta” por “decisiones” y “decisiones” por “ámbitos de decisión” en la documentación y las pantallas. [Más información](../offers/get-started/starting-offer-decisioning.md)
 * Nuevo caso de uso: [personalizar un mensaje con funciones de ayuda](../personalization/personalization-use-case-helper-functions.md)
 * Se ha actualizado la documentación Lectura de un segmento para reflejar los impactos materializados en el segmento. [Más información](../building-journeys/read-segment.md)
-* Se han actualizado las Limitaciones del recorrido. [Más información](../start/limitations.md)
+* Se han actualizado las Limitaciones del recorrido. [Más información](../start/guardrails.md)
 * Se ha actualizado la sección Configuración de ofertas en la selección de decisiones. [Más información](../offers/offer-activities/configure-offer-selection.md)
 * Se ha añadido una advertencia para indicar que las ofertas basadas en eventos no son compatibles actualmente. [Más información](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * Se ha documentado la nueva pestaña **[!UICONTROL Overview]**. [Más información](../offers/get-started/user-interface.md#overview)

@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 6%
+source-wordcount: '1105'
+ht-degree: 5%
 
 ---
 
@@ -22,6 +22,12 @@ con [!DNL Journey Optimizer], puede supervisar todas las direcciones de correo e
 * Destinatarios que emiten una queja de correo no deseado de algún tipo contra uno de sus mensajes de correo electrónico.
 
 Estas direcciones de correo electrónico se recopilan automáticamente en Journey Optimizer **lista de supresión**. Obtenga más información sobre el concepto de la lista de supresión y su uso en [esta sección](../reports/suppression-list.md).
+
+También puede [**manualmente** añadir una dirección o un dominio](#add-addresses-and-domains) a la lista de supresión.
+
+>[!NOTE]
+>
+>Tardarás entre 0 y 60 minutos en [!DNL Journey Optimizer] para tener en cuenta las direcciones suprimidas en los correos electrónicos salientes.
 
 ## Acceso a la lista de supresión {#access-suppression-list}
 
@@ -105,7 +111,7 @@ Los posibles motivos de un error de entrega son:
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
->title="Añadir correos electrónicos/dominios a la lista de supresión"
+>title="Añadir correos electrónicos o dominios a la lista de supresión"
 >abstract="Puede rellenar manualmente la lista de supresión de Journey Optimizer para excluir de los envíos direcciones de correo electrónico o dominios específicos."
 
 Cuando un mensaje no se puede enviar a una dirección de correo electrónico, esta dirección se agrega automáticamente a la lista de supresión en función de la regla de supresión definida o del recuento de devoluciones.
@@ -139,6 +145,10 @@ Para ello, seleccione la **[!UICONTROL Add email or domain]** , siga uno de los 
 
 1. Especifique un motivo si es necesario.
 
+   >[!NOTE]
+   >
+   >Solo se permiten caracteres ASCII comprendidos entre 32 y 126. La lista completa se encuentra en [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por ejemplo.
+
 1. Haga clic en **[!UICONTROL Submit]**.
 
 ### Cargar un archivo CSV {#upload-csv-file}
@@ -159,6 +169,9 @@ Para ello, seleccione la **[!UICONTROL Add email or domain]** , siga uno de los 
    EMAIL,abc@somedomain.com,Comment
    DOMAIN,somedomain.com,Comment
    ```
+   >[!NOTE]
+   >
+   >Para la columna Comentario , solo se permiten caracteres ASCII comprendidos entre 32 y 126. La lista completa se encuentra en [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por ejemplo.
 
    También puede descargar esta plantilla desde el **[!UICONTROL Suppression list]** vista principal.
 
@@ -175,6 +188,10 @@ Para ello, seleccione la **[!UICONTROL Add email or domain]** , siga uno de los 
    ![](assets/suppression-list-upload-file-button.png)
 
 1. Haga clic en **[!UICONTROL Submit]**.
+
+>[!NOTE]
+>
+>Una vez finalizada la carga, asegúrese de que se haya realizado correctamente comprobando su estado desde la interfaz. [Descubra cómo](#recent-uploads)
 
 ### Comprobar el estado de las cargas recientes {#recent-uploads}
 

@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: a9c4bf20b170afd30ac17f6dec3778c1ae4be70c
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 6%
@@ -19,15 +19,15 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_configuration"
 >title="Acciones personalizadas"
->abstract="Si utiliza un sistema de terceros para enviar mensajes o si desea que los recorridos envíen llamadas de API a un sistema de terceros, utilice acciones personalizadas para configurar su conexión con el recorrido. Por ejemplo, puede conectarse a los siguientes sistemas con acciones personalizadas: Epsilon, Slack, [Desarrollador de Adobe](https://developer.adobe.com/), Firebase, etc."
+>abstract="Si utiliza un sistema de terceros para enviar mensajes o si desea que los recorridos envíen llamadas de API a un sistema de terceros, utilice acciones personalizadas para configurar su conexión con el recorrido. Por ejemplo, puede conectarse a los siguientes sistemas con acciones personalizadas: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com/), Firebase, etc."
 
-Si utiliza un sistema de terceros para enviar mensajes o si desea que los recorridos envíen llamadas de API a un sistema de terceros, utilice acciones personalizadas para configurar su conexión con el recorrido. Por ejemplo, puede conectarse a los siguientes sistemas con acciones personalizadas: Epsilon, Slack, [Desarrollador de Adobe](https://developer.adobe.com){target=&quot;_blank&quot;}, Firebase, etc.
+Si utiliza un sistema de terceros para enviar mensajes o si desea que los recorridos envíen llamadas de API a un sistema de terceros, utilice acciones personalizadas para configurar su conexión con el recorrido. Por ejemplo, puede conectarse a los siguientes sistemas con acciones personalizadas: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}, Firebase, etc.
 
 Las acciones personalizadas son acciones adicionales definidas por usuarios técnicos y que se ponen a disposición de los especialistas en marketing. Una vez configurados, aparecen en la paleta izquierda del recorrido, en la **[!UICONTROL Action]** categoría. Obtenga más información en [esta página](../building-journeys/about-journey-activities.md#action-activities).
 
 ## Limitaciones{#custom-actions-limitations}
 
-Las acciones personalizadas incluyen algunas limitaciones enumeradas en [esta página](../start/limitations.md).
+Las acciones personalizadas incluyen algunas limitaciones enumeradas en [esta página](../start/guardrails.md).
 
 En los parámetros de acción personalizados, puede pasar una colección simple, así como una colección de objetos. Obtenga más información sobre las limitaciones de recopilación en [esta página](../building-journeys/collections.md#limitations).
 

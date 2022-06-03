@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1361'
 ht-degree: 4%
 
 ---
@@ -198,6 +198,9 @@ Haga clic en el `...` para ver la descripción de la función y agregarla a sus 
     </tr>
     <tr>
         <td><a href="string.md#matches">Coincide</a></td><td>Esta función se utiliza para determinar si una cadena coincide con una expresión regular específica</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#mask">Máscara</a></td><td>Esta función se utiliza para reemplazar una parte de una cadena por caracteres "X".</td>
     </tr>
     <tr>
         <td><a href="string.md#notEqualTo">No es igual a</a></td><td>Esta función se utiliza para determinar si una cadena no es igual a la cadena especificada</td>

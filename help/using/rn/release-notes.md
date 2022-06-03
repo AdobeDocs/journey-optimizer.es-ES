@@ -2,10 +2,10 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 35%
+source-wordcount: '465'
+ht-degree: 31%
 
 ---
 
@@ -122,11 +122,11 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 * **Volver a la página principal** - Ahora puede agregar un vínculo a la página principal desde cualquier subpágina dentro de la misma página de aterrizaje.
 * **Compatibilidad con JavaScript personalizado** - Ahora puede agregar JavaScript personalizado al contenido de la página de aterrizaje para realizar estilos avanzados o agregar comportamientos personalizados a las páginas de aterrizaje.	[Más información](../landing-pages/lp-custom-js.md)
 
-<!--**Decision management**
-
-* **HTML and JSON files support** - You can now drag and drop external HTML and JSON files from the AEM repository into the offer representation content.-->
-
 **Recorridos**
 
 * **Leer segmento** - Los recorridos de segmento de lectura de una sola toma ahora pasan al estado Finalizado 30 días después de la ejecución del recorrido. Para segmentos de lectura programados, son 30 días después de la ejecución de la última incidencia. [Más información](../building-journeys/read-segment.md)
 * **Editor de expresiones** - El [límite](../building-journeys/functions/functionlimit.md) para permitirle limitar el número de elementos de una lista. La variable [sort](../building-journeys/functions/functionsort.md) ahora permite ordenar un objeto de lista. La compatibilidad de listObject también se ha agregado al [disctinct](../building-journeys/functions/functiondistinct.md) y [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) funciones.
+
+**Administración**
+
+**Actualización del panel de uso de licencias** - El panel de uso de licencias disponible en la interfaz de usuario de Adobe Experience Platform ahora refleja el valor preciso de **Con licencia** Promedio de riqueza de perfiles. Como cliente de Journey Optimizer, verá una caída en esta representación de métrica, lo que significa que el uso para el que tiene licencia ahora se registra correctamente. [Más información](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#available-metrics){target=&quot;_blank&quot;}
