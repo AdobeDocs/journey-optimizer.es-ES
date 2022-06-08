@@ -6,19 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 3f41545f41f258eede2167aa9ab45db51e91cacf
+source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1021'
 ht-degree: 3%
 
 ---
 
 # Previsualizar y probar los mensajes{#preview-and-proof}
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_simulation_test_profile"
->title="Añadir perfil de prueba"
->abstract="Puede añadir un perfil de prueba seleccionando un área de nombres de identificación y un valor de identidad correspondiente."
 
 Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo. Si ha insertado [contenido personalizado](../personalization/personalize.md), podrá comprobar cómo se muestra este contenido en el mensaje, aprovechando los datos de perfil de prueba.
 
