@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -70,11 +70,11 @@ Para diseñar un mensaje nuevo, siga los pasos a continuación:
    * Seleccione los canales que desee utilizar para ese mensaje: notificación por correo electrónico o push. Debe seleccionar al menos un canal para poder crear el mensaje.
    >[!NOTE]
    >
-   >Puede hacer clic en el botón **[!UICONTROL Frequency rule]** para ver las reglas de frecuencia que se aplicarán a la categoría y a los canales seleccionados. Más información sobre [reglas de frecuencia](../configuration/frequency-rules.md).
+   >Puede hacer clic en el vínculo **[!UICONTROL Frequency rule]** para ver las reglas de frecuencia que se aplicarán a la categoría y a los canales seleccionados. Más información sobre las [reglas de frecuencia](../configuration/frequency-rules.md).
 
    * Seleccione el **[!UICONTROL Preset]** para usar en el mensaje.
 
-      Los ajustes preestablecidos incluyen todos los parámetros necesarios para enviar un correo electrónico o una notificación push según la marca. Más información sobre [ajustes preestablecidos](../configuration/message-presets.md).
+      Los ajustes preestablecidos incluyen todos los parámetros necesarios para enviar un correo electrónico o una notificación push según la marca. Más información sobre los [ajustes preestablecidos](../configuration/message-presets.md).
    >[!CAUTION]
    >
    >Debe elegir un ajuste preestablecido de mensaje válido para la categoría y los canales seleccionados.
