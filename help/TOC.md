@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 89%
 + Novedades {#whats-new}
    + [Últimas notas de la versión](using/rn/release-notes.md)
    + Notas de la versión anterior {#previous-rn-new}
-      + [Notas de la versión 2022](using/rn/release-notes-2022.md)
-      + [Notas de la versión 2021](using/rn/release-notes-2021.md)
+      + [Notas de la versión de 2022](using/rn/release-notes-2022.md)
+      + [Notas de la versión de 2021](using/rn/release-notes-2021.md)
    + [Actualizaciones de documentación](using/rn/documentation-updates.md)
    + [Migración de mensajes](using/rn/inline-messages.md)
 + Introducción{#get-started}
@@ -31,7 +31,7 @@ ht-degree: 89%
       + [Introducción como administrador](using/start/path/administrator.md)
       + [Introducción como desarrollador](using/start/path/developer.md)
    + [Interfaz de usuario](using/start/user-interface.md)
-   + [Seguridad](using/start/guardrails.md)
+   + [Límites de protección ](using/start/guardrails.md)
 + Mensajes {#messages}
    + [Introducción a los mensajes](using/messages/get-started-content.md)
    + [Crear un correo electrónico](using/messages/create-email.md)
@@ -64,7 +64,7 @@ ht-degree: 89%
 + Páginas de destino {#landing-pages}
    + [Introducción a las páginas de destino](using/landing-pages/get-started-lp.md)
    + [Creación de una página de destino](using/landing-pages/create-lp.md)
-   + Diseño de contenido {#landing-pages-design}
+   + Diseño de contenido de {#landing-pages-design}
       + [Acerca del diseño de página de aterrizaje](using/landing-pages/design-lp.md)
       + [Creación del contenido de la página de aterrizaje](using/landing-pages/lp-content.md)
       + [Crear plantillas](using/landing-pages/lp-templates.md)
@@ -266,7 +266,7 @@ ht-degree: 89%
       + [Crear ubicaciones](using/offers/offer-library/creating-placements.md)
       + [Crear reglas de decisión](using/offers/offer-library/creating-decision-rules.md)
       + [Crear etiquetas](using/offers/offer-library/creating-tags.md)
-   + Crear clasificaciones {#rankings}
+   + Crear clasificaciones de {#rankings}
       + [Introducción a las clasificaciones](using/offers/ranking/get-started-rankings.md)
       + [Fórmulas de clasificación](using/offers/ranking/create-ranking-formulas.md)
       + Modelos de IA {#ai-models}

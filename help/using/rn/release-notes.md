@@ -4,8 +4,8 @@ description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 06eb2ebec284f807de7ddca5d26e13fc08194642
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '445'
+ht-degree: 90%
 
 ---
 
@@ -24,7 +24,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <table>
 <thead>
 <tr>
-<th><strong>Reglas de frecuencia de mensaje</strong><br/></th>
+<th><strong>Reglas de frecuencia de los mensajes</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -101,7 +101,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <tbody>
 <tr>
 <td>
-<p>Ahora puede supervisar las acciones realizadas por los usuarios en los recursos de Adobe Journey Optimizer.</p>
+<p>Ahora puede monitorizar las acciones realizadas por los usuarios en los recursos de Adobe Journey Optimizer.</p>
 <img src="assets/audit-rn.gif"/>
 <p>Para obtener más información, consulte la <a href="../reports/audit-logs.md">documentación detallada</a>.</p>
 </td>
@@ -113,19 +113,19 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 **Personalización**
 
-* **Nueva función de ayuda para la ocultación de caracteres** - El `mask` la función de ayuda le permite reemplazar una parte de una cadena con caracteres &quot;X&quot;. [Más información](../personalization/functions/string.md#mask)
+* **Nueva función de ayuda para la ocultación de caracteres**. La `mask` función de ayuda le permite reemplazar una parte de una cadena con caracteres &quot;X&quot;. [Más información](../personalization/functions/string.md#mask)
 
 **Páginas de aterrizaje**
 
-* **Páginas de aterrizaje sin formulario** - Ahora puede crear y publicar una página de aterrizaje que no contenga un formulario y que no requiera que los visitantes realicen ninguna acción.
-* **Plantillas de página de aterrizaje** : Ahora puede guardar una página de aterrizaje como plantilla y reutilizarla al crear otras páginas de aterrizaje. [Más información](../landing-pages/lp-templates.md)
-* **Volver a la página principal** - Ahora puede agregar un vínculo a la página principal desde cualquier subpágina dentro de la misma página de aterrizaje.
-* **Compatibilidad con JavaScript personalizado** - Ahora puede agregar JavaScript personalizado al contenido de la página de aterrizaje para realizar estilos avanzados o agregar comportamientos personalizados a las páginas de aterrizaje.	[Más información](../landing-pages/lp-custom-js.md)
+* **Páginas de destino sin formulario**: ahora puede crear y publicar una página de aterrizaje que no contenga un formulario y que no requiera que los visitantes realicen ninguna acción.
+* **Plantillas de página de aterrizaje**: ahora puede guardar una página de aterrizaje como plantilla y reutilizarla al crear otras páginas de destino. [Más información](../landing-pages/lp-templates.md)
+* **Volver a la página principal**: ahora puede agregar un vínculo a la página principal desde cualquier subpágina dentro de la misma página de aterrizaje.
+* **Compatibilidad con JavaScript personalizado**: ahora puede agregar JavaScript personalizado al contenido de la página de aterrizaje para realizar estilos avanzados o agregar comportamientos personalizados a las páginas de destino.	[Más información](../landing-pages/lp-custom-js.md)
 
 **Recorridos**
 
-* **Leer segmento** - Los recorridos de segmento de lectura de una sola toma ahora pasan al estado Finalizado 30 días después de la ejecución del recorrido. Para segmentos de lectura programados, son 30 días después de la ejecución de la última incidencia. [Más información](../building-journeys/read-segment.md)
-* **Editor de expresiones** - El [límite](../building-journeys/functions/functionlimit.md) para permitirle limitar el número de elementos de una lista. La variable [sort](../building-journeys/functions/functionsort.md) ahora permite ordenar un objeto de lista. La compatibilidad de listObject también se ha agregado al [disctinct](../building-journeys/functions/functiondistinct.md) y [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) funciones.
+* **Leer segmento**: los recorridos de segmento de lectura de una sola toma ahora pasan al estado Finalizado 30 días después de la ejecución del recorrido. Para segmentos de lectura programados, son 30 días después de la ejecución de la última ocurrencia. [Más información](../building-journeys/read-segment.md)
+* **Editor de expresiones**: la función [límite](../building-journeys/functions/functionlimit.md) para permitirle limitar el número de elementos de una lista. La función [ordenar](../building-journeys/functions/functionsort.md) ahora permite ordenar un objeto de lista. La compatibilidad de listObject también se ha agregado a las funciones [disctinct](../building-journeys/functions/functiondistinct.md) y [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md).
 
 **Administración**
 
