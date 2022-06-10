@@ -2,10 +2,10 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 06eb2ebec284f807de7ddca5d26e13fc08194642
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 32%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -129,4 +129,4 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 **Administración**
 
-* **Actualización del panel de uso de licencias** - El panel de uso de licencias disponible en el [!DNL Adobe Journey Optimizer] la interfaz de usuario de ahora refleja el valor preciso del **Con licencia** Promedio de riqueza de perfiles. Verá una caída en esta representación de métrica, lo que significa que el límite de licencias ahora se registra correctamente. [Más información](../start/licence-usage.md)
+* **Actualización del panel de uso de licencias** - El panel de uso de licencias disponible en el [!DNL Adobe Journey Optimizer] la interfaz de usuario de ahora refleja el valor preciso del **Con licencia** Promedio de riqueza de perfiles. Verá una caída en esta representación de métrica, lo que significa que el límite de licencias ahora se registra correctamente. [Más información](../segment/licence-usage.md)

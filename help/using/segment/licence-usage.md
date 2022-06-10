@@ -5,16 +5,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
+source-git-commit: 06eb2ebec284f807de7ddca5d26e13fc08194642
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Panel de uso de licencias {#licence-usage}
 
-La variable [!DNL Adobe Journey Optimizer] [interfaz de usuario](user-interface.md) proporciona un tablero que muestra información importante sobre el uso de licencias de su organización, según se captura durante una instantánea diaria.
+La variable [!DNL Adobe Journey Optimizer] [interfaz de usuario](../start/user-interface.md) proporciona un tablero que muestra información importante sobre el uso de licencias de su organización, según se captura durante una instantánea diaria.
 
 Para acceder a este tablero, vaya a **[!UICONTROL Administration]** > **[!UICONTROL Licence Usage]**. Esto abre el **[!UICONTROL Overview]** que muestra el tablero.
 
