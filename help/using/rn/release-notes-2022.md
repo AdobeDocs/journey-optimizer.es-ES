@@ -1,10 +1,11 @@
 ---
 title: Notas de la versión 2022
 description: Notas de la versión de Journey Optimizer 2022
-source-git-commit: 4626237ce629dcaec8d20c89db3cb8b517671502
-workflow-type: tm+mt
+exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
+source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+workflow-type: ht
 source-wordcount: '1069'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
