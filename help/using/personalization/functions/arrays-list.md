@@ -6,16 +6,51 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 5%
+source-wordcount: '561'
+ht-degree: 6%
 
 ---
 
 # Funciones de matrices y listas {#arrays}
 
 Utilice estas funciones para facilitar la interacción con matrices, listas y cadenas.
+
+## Count only null {#count-only-null}
+
+La variable `countOnlyNull` se utiliza para contar el número de valores nulos en una lista.
+
+**Formato**
+
+```sql
+{%= countOnlyNull(array) %}
+```
+
+**Ejemplo**
+
+```sql
+{%= countOnlyNull([4,0,1,6,0,0]) %}
+```
+Devuelve 3.
+
+## Recuento con nulo {#count-with-null}
+
+La variable `countWithNull` se utiliza para contar todos los elementos de una lista, incluidos los valores nulos.
+
+**Formato**
+
+```sql
+{%= countWithNull(array) %}
+```
+
+**Ejemplo**
+
+```sql
+{%= countOnlyNull([4,0,1,6,0,0]) %}
+```
+
+Devuelve 6.
 
 ## Distinct{#distinct}
 
@@ -34,15 +69,32 @@ La siguiente operación especifica las personas que han realizado pedidos en má
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
+## Recuento Distinto Con Nulo {#distinct-count-with-null}
 
-## Primer elemento{#head}
-
-La variable `head` se utiliza para devolver el primer elemento de la matriz o lista.
+La variable `distinctCountWithNull` se utiliza para contar el número de valores diferentes de una lista, incluidos los valores nulos.
 
 **Formato**
 
 ```sql
-{%= head({array}) %}
+{%= distinctCountWithNull(array) %}
+```
+
+**Ejemplo**
+
+```sql
+{%= distinctCountWithNull([10,2,10,null]) %}
+```
+
+Devuelve 3.
+
+## Primer elemento{#head}
+
+La variable `head` se utiliza para devolver el primer elemento de una matriz o lista.
+
+**Formato**
+
+```sql
+{%= head(array) %}
 ```
 
 **Ejemplo**
@@ -174,7 +226,6 @@ La siguiente operación devuelve los cinco pedidos principales con el precio má
 ```sql
 {%= bottomN(orders,price, 5) %}
 ```
-
 
 ## Not in{#notin}
 

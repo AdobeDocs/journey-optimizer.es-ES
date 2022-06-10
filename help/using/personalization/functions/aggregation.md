@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 9%
@@ -16,42 +16,6 @@ ht-degree: 9%
 # Funciones de agregación {#aggregation}
 
 Las funciones de agregación se utilizan para agrupar varios valores y formar un único valor de resumen.
-
-## Recuento{#count}
-
-La variable `count` devuelve el número de elementos dentro de la matriz dada.
-
-**Formato**
-
-```sql
-{%= count(array) %}
-```
-
-**Ejemplo**
-
-La siguiente operación devuelve el número de pedidos de la matriz.
-
-```sql
-{%= count(orders) %}
-```
-
-## Sum{#sum}
-
-La variable `sum` devuelve la suma de todos los valores seleccionados dentro de la matriz.
-
-**Formato**
-
-```sql
-{%= sum(array) %}
-```
-
-**Ejemplo**
-
-La siguiente operación devuelve la suma de todos los precios de los pedidos.
-
-```sql
-{%=sum(orders.order.price)%}
-```
 
 ## Promedio{#average}
 
@@ -71,22 +35,22 @@ La siguiente operación devuelve el precio promedio de todos los pedidos.
 {%=average(orders.order.price)%}
 ```
 
-## Mínimo{#min}
+## Recuento{#count}
 
-La variable `min` devuelve el menor de todos los valores seleccionados dentro de la matriz.
+La variable `count` devuelve el número de elementos dentro de la matriz dada.
 
 **Formato**
 
 ```sql
-{%= min(array) %}
+{%= count(array) %}
 ```
 
 **Ejemplo**
 
-La siguiente operación devuelve el precio más bajo de todos los pedidos.
+La siguiente operación devuelve el número de pedidos de la matriz.
 
 ```sql
-{%=min(orders.order.price)%}
+{%= count(orders) %}
 ```
 
 ## Máximo{#max}
@@ -105,4 +69,40 @@ La siguiente operación devuelve el precio más alto de todos los pedidos.
 
 ```sql
 {%=max(orders.order.price)%}
+```
+
+## Mínimo{#min}
+
+La variable `min` devuelve el menor de todos los valores seleccionados dentro de la matriz.
+
+**Formato**
+
+```sql
+{%= min(array) %}
+```
+
+**Ejemplo**
+
+La siguiente operación devuelve el precio más bajo de todos los pedidos.
+
+```sql
+{%=min(orders.order.price) %}
+```
+
+## Sum{#sum}
+
+La variable `sum` devuelve la suma de todos los valores seleccionados dentro de la matriz.
+
+**Formato**
+
+```sql
+{%= sum(array) %}
+```
+
+**Ejemplo**
+
+La siguiente operación devuelve la suma de todos los precios de los pedidos.
+
+```sql
+{%=sum(orders.order.price)%}
 ```
