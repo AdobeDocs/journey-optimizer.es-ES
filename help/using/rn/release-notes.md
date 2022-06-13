@@ -61,7 +61,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <table>
 <thead>
 <tr>
-<th><strong>Administración de decisiones: modelo de optimización automática de la clasificación de IA</strong><br/></th>
+<th><strong>Gestión de decisiones: modelo de optimización automática de la clasificación de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>

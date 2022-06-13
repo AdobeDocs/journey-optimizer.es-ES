@@ -3,7 +3,7 @@ title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se han actualizado las capturas de pantalla de la creación de informes de la página de aterrizaje y de la suscripción. [Más información](../reports/live-report.md)
 * Se ha añadido una nota que indica que el método Delete no es compatible con las acciones personalizadas. [Más información](../action/about-custom-action-configuration.md)
 * Se han actualizado los vínculos a los vídeos explicativos.
-* La variable [Configuración de correo electrónico](../configuration/about-subdomain-delegation.md), [Ajustes preestablecidos de mensajes](../configuration/message-presets.md) y [Configurar páginas de destino](../configuration/lp-subdomains.md) se reorganizaron para mejorar la legibilidad.
+* Las secciones [Configuración de correo electrónico](../configuration/about-subdomain-delegation.md), [Ajustes preestablecidos de mensajes](../configuration/message-presets.md) y [Configuración de páginas de aterrizaje](../configuration/lp-subdomains.md) se reorganizaron para mejorar la legibilidad.
 * La sección **Seguimiento de URL** se actualizó y mejoró con ejemplos. [Más información](../configuration/email-settings.md#url-tracking)
 * Se ha añadido una nueva subsección sobre la configuración de una dirección de correo electrónico de reenvío. Tenga en cuenta que no puede hacerlo a través de la interfaz de usuario. [Más información](../configuration/email-settings.md#forward-email)
 
