@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1214'
 ht-degree: 2%
 
 ---
 
 # Crear decisiones {#create-offer-activities}
 
-Las decisiones (anteriormente conocidas como actividades de oferta) son contenedores para sus ofertas que aprovecharán el motor de decisión de ofertas para elegir la mejor oferta que se debe entregar, según el destinatario del envío.
+Las decisiones son contenedores para sus ofertas que aprovechan el motor de decisión de ofertas para elegir la mejor oferta que se debe entregar, según el objetivo del envío.
 
 ➡️ [Aprenda a crear actividades de oferta en este vídeo](#video)
 

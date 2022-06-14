@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '602'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 
 * cree y diseñe un mensaje de notificación push sin publicarlo. Consulte esta [sección](../messages/get-started-content.md).
 * configure un evento de pedido que incluya el número de pedido, el estado y el nombre del elemento. Consulte esta [sección](../event/about-events.md).
-* cree una decisión (anteriormente conocida como &quot;actividad de oferta&quot;), consulte esta [sección](../offers/offer-activities/create-offer-activities.md).
+* crear una decisión, consulte esta [sección](../offers/offer-activities/create-offer-activities.md).
 
 ## Paso 1: Añadir personalización en el perfil {#add-perso}
 
@@ -98,7 +98,7 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 
    ![](assets/perso-uc13.png)
 
-1. En el menú de la izquierda, seleccione **Decisiones de oferta** para insertar una variable de offer decisioning. Seleccione la colocación y haga clic en el botón **+** junto a la decisión (anteriormente conocida como &quot;actividad de oferta&quot;) de añadirla al cuerpo.
+1. En el menú de la izquierda, seleccione **Decisiones de oferta** para insertar una variable de offer decisioning. Seleccione la colocación y haga clic en el botón **+** junto a la decisión de agregarla al cuerpo.
 
    ![](assets/perso-uc14.png)
 

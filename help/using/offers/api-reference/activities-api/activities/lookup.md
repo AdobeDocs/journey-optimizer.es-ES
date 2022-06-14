@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
-source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '152'
 ht-degree: 4%
 
 ---
 
 # Buscar una decisión {#look-up-decision}
 
-Puede buscar decisiones específicas (anteriormente conocidas como actividades de oferta) realizando una solicitud de GET al [!DNL Offer Library] API que incluye las decisiones `@id` o el nombre de la decisión en la ruta de solicitud.
+Puede buscar decisiones específicas realizando una solicitud de GET al [!DNL Offer Library] API que incluye las decisiones `@id` o el nombre de la decisión en la ruta de solicitud.
 
 **Formato de API**
 

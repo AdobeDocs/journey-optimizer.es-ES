@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '972'
 ht-degree: 2%
 
 ---
@@ -179,7 +179,7 @@ Utilice la variable **[!UICONTROL Social]** para insertar vínculos a páginas d
 
 ## Decisión de oferta {#offer-decision}
 
-Utilice la variable **[!UICONTROL Offer decision]** para insertar decisiones (anteriormente conocidas como actividades de oferta) en los mensajes. Las decisiones aprovecharán la Administración de decisiones para elegir la mejor oferta que se ofrezca a sus clientes.
+Utilice la variable **[!UICONTROL Offer decision]** para insertar decisiones en los mensajes. Las decisiones aprovecharán la Administración de decisiones para elegir la mejor oferta que se ofrezca a sus clientes.
 
 Temas relacionados:
 

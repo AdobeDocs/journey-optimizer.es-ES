@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '585'
 ht-degree: 3%
 
 ---
 
 # Adición de ofertas personalizadas {#deliver-personalized-offers}
 
-En [!DNL Journey Optimizer] mensajes de correo electrónico, puede insertar decisiones (anteriormente conocidas como &quot;actividades de oferta&quot;) que aprovechan el motor de decisión de ofertas para elegir la mejor oferta y enviarla a sus clientes.
+En [!DNL Journey Optimizer] mensajes de correo electrónico, puede insertar decisiones que aprovechen el motor de decisión de ofertas para elegir la mejor oferta y enviarla a sus clientes.
 
 Por ejemplo, puede agregar una decisión que muestre en el correo electrónico una oferta de descuento especial que variará según el nivel de lealtad del destinatario.
 
@@ -49,7 +49,7 @@ Para insertar una decisión en un mensaje de correo electrónico, siga los pasos
 
    [Ubicaciones](../offers/offer-library/creating-placements.md) son contenedores que se utilizan para mostrar sus ofertas. En este ejemplo, utilizaremos la ubicación &quot;imagen superior del correo electrónico&quot;. Esta ubicación se ha creado en la Biblioteca de ofertas para mostrar las ofertas de tipo imagen situadas en la parte superior de los mensajes.
 
-1. Seleccione la actividad de oferta que desea utilizar en el componente de contenido y haga clic en **[!UICONTROL Add]**.
+1. Se muestran las decisiones que coinciden con la colocación seleccionada. Seleccione la decisión que desea utilizar en el componente de contenido y haga clic en **[!UICONTROL Add]**.
 
    >[!NOTE]
    >
@@ -59,6 +59,11 @@ Para insertar una decisión en un mensaje de correo electrónico, siga los pasos
 
 La actividad de oferta ahora se agrega al componente.
 
+Después de guardar los cambios y una vez publicado el mensaje, las ofertas están listas para mostrarse a los perfiles relevantes al enviar el mensaje como parte de un recorrido.
+
+>[!NOTE]
+>
+>Cuando se actualiza una oferta, una oferta de reserva, una recopilación de ofertas o una decisión de oferta a la que se hace referencia directa o indirectamente en un mensaje publicado, las actualizaciones se reflejan automáticamente en el mensaje correspondiente, sin necesidad de volver a publicarlo.
 
 ## Vista previa de ofertas en un correo electrónico {#preview-offers-in-email}
 

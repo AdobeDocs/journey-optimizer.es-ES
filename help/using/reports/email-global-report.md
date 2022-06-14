@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 0%
@@ -121,4 +121,4 @@ La variable **[!UICONTROL Offers detailed statistic]** contiene los datos dispon
 >
 >Los perfiles con **[!UICONTROL Suppressed]** o **[!UICONTROL Not allowed]** se excluyen durante el proceso de envío de mensajes. Por lo tanto, mientras que la variable **Informes de recorrido** mostrará estos perfiles como si se hubieran movido a través del recorrido ([Leer segmento](../building-journeys/read-segment.md) y [Mensaje](../building-journeys/journeys-message.md) actividades), **Informes de correo electrónico** no los incluirá en la variable **[!UICONTROL Sent]** las métricas tal y como están filtradas antes del envío por correo electrónico.
 >
->Obtenga más información sobre [Lista de supresión](../reports/suppression-list.md) y [Lista de permitidos](allow-list.md). Para averiguar el motivo de todos los casos de exclusión, puede usar la variable [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
+>Obtenga más información sobre [Lista de supresión](suppression-list.md) y [Lista de permitidos](../configuration/allow-list.md). Para averiguar el motivo de todos los casos de exclusión, puede usar la variable [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.

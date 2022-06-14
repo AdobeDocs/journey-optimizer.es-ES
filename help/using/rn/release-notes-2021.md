@@ -2,8 +2,8 @@
 title: Notas de la versión anterior (2021)
 description: Notas de la versión de Journey Optimizer de 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
-workflow-type: ht
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 100%
 
@@ -278,7 +278,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 
 **Configuración de correo electrónico**
 
-* **Lista de permitidos**: ahora, la lista de permitidos se puede habilitar y deshabilitar en una zona protegida que no sea de producción mediante una llamada de API. [Más información](../reports/allow-list.md#enable-allow-list)
+* **Lista de permitidos**: ahora, la lista de permitidos se puede habilitar y deshabilitar en una zona protegida que no sea de producción mediante una llamada de API. [Más información](../configuration/allow-list.md#enable-allow-list)
 * **Navegación**: la lista de supresión, a la que se podía acceder desde el menú **Administración > Canales > Configuración de correo electrónico > General**, se ha trasladado al nuevo submenú **Lista de supresión**, que recopila todas las funciones relacionadas para facilitar el acceso. [Más información](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **Administración de decisiones**
@@ -325,7 +325,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 <tr>
 <td>
 <p>Ahora puede definir una lista específica de seguridad de envío en el nivel de entorno limitado para disponer de un entorno seguro para realizar pruebas. En una instancia que no es de producción, donde pueden producirse errores, la lista de permitidos garantiza que no tendrá riesgo de enviar mensajes no deseados a sus clientes. Esta función se habilita aprovechando las API de supresión.</p>
-<p>Para obtener más información, consulte la <a href="../reports/allow-list.md">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../configuration/allow-list.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>

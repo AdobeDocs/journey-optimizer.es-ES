@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 68%
+source-wordcount: '625'
+ht-degree: 64%
 
 ---
 
 # Interfaz de usuario {#user-interface}
 
-La biblioteca de ofertas permite crear y administrar sus ubicaciones y ofertas en un solo lugar, así como acceder a todas las decisiones creadas (anteriormente conocidas como actividades de oferta).
+La biblioteca de ofertas le permite crear y administrar sus ubicaciones y ofertas en un solo lugar, así como acceder a todas las decisiones creadas.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Cuando es nuevo en [!DNL Offer Decisioning], el **[!UICONTROL Overview]** le gu�
 
 Siga los pasos que aparecen en la pantalla para empezar a crear ubicaciones, ofertas y colecciones.
 
-Una vez que haya completado estos primeros pasos, se le pedirá que cree decisiones de oferta (anteriormente conocidas como actividades de oferta).
+Una vez que haya completado estos primeros pasos, se le pedirá que cree las decisiones de oferta.
 
 ![](../assets/overview_collection-created.png)
 

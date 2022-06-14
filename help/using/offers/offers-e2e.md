@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1061'
 ht-degree: 6%
 
 ---
@@ -223,56 +223,6 @@ Los pasos detallados para crear y configurar una decisión se describen en [esta
 
 ## Inserte la decisión en un correo electrónico {#insert-decision-in-email}
 
-Ahora que su decisión está activa, puede insertarla en un mensaje de correo electrónico. Para ello, siga los pasos a continuación:
-
-1. Cree su correo electrónico y, a continuación, abra el [Diseñador de correo electrónico](../../using/design/design-emails.md) para configurar su contenido.
-
-1. Añada un componente de estructura de la paleta izquierda.
-
-1. Agregue un **[!UICONTROL Offer decision]** componente de contenido. Aprenda a utilizar los componentes de contenido en [esta sección](../../using/design/content-components.md).
-
-   ![](assets/offers-e2e-decision-component.png)
-
-1. Selecciónelo. En la paleta derecha, haga clic en **[!UICONTROL Select offer decision]** para agregar una decisión.
-
-   ![](assets/offers-e2e-select-offer-decision.png)
-
-1. Seleccione la colocación correspondiente a las ofertas que desee mostrar en el **[!UICONTROL Placements]** lista desplegable.
-
-   En este caso, a partir de las ubicaciones que creó anteriormente como parte de este ejemplo, solo la variable **Correo electrónico: imagen** la ubicación está disponible ya que desea utilizar la decisión en un mensaje de correo electrónico. Más información sobre [creación de ubicaciones](../../using/offers/offer-library/creating-placements.md).
-
-   ![](assets/offers-e2e-select-placement-in-decision.png)
-
-1. Las decisiones que coinciden con la variable **Correo electrónico: imagen** se muestran. Seleccione la decisión que desea utilizar en el componente de contenido y haga clic en **[!UICONTROL Add]**.
-
-   ![](assets/offers-e2e-matching-placement-in-decision.png)
-
-   >[!NOTE]
-   >
-   >En la lista solo se muestran las decisiones compatibles con la colocación seleccionada.
-
-Ahora puede ver todas las ofertas personalizadas y la oferta de reserva visualizada en el Diseñador de correo electrónico.
+Ahora que su decisión está activa, puede insertarla en un mensaje de correo electrónico. Para ello, siga los pasos detallados en [esta página](../../using/design/deliver-personalized-offers.md).
 
 ![](assets/offers-e2e-offers-displayed.png)
-
-Utilice la variable **[!UICONTROL Offers]** o las flechas de los componentes de contenido (flechas derecha e izquierda) para examinar los datos. También puede mostrar las diferentes ofertas que forman parte de la decisión con un perfil de cliente. Obtenga más información en [esta sección](../../using/design/deliver-personalized-offers.md#preview-offers-in-email).
-
-Después de guardar los cambios y una vez publicado el mensaje, las ofertas están listas para mostrarse a los perfiles relevantes al enviar el mensaje como parte de un recorrido.
-
->[!NOTE]
->
->Cuando actualiza una oferta, una oferta de reserva, una recopilación de ofertas o una decisión de oferta a la que se hace referencia directa o indirectamente en una [publicado](../../using/messages/publish-manage-message.md) , las actualizaciones ahora se reflejan automáticamente en el mensaje correspondiente, sin necesidad de volver a publicarlo.
-
-**Temas relacionados:**
-
-* Obtenga información sobre cómo comprobar la vista previa del mensaje en [esta sección](../../using/design/preview.md#preview-your-messages).
-
-* Obtenga información sobre cómo publicar mensajes en [esta sección](../../using/messages/publish-manage-message.md).
-
-* Obtenga información sobre cómo activan los mensajes uno o varios recorridos en [esta sección](../building-journeys/journey.md).
-
-<!--
-* Learn how to measure your offer's success and impact on your targeted audience with reports in [this section](../reports/journey-global-report.md).
--->
-
-

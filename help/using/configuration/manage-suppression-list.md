@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1108'
 ht-degree: 5%
 
 ---
@@ -147,7 +147,7 @@ Para ello, seleccione la **[!UICONTROL Add email or domain]** , siga uno de los 
 
    >[!NOTE]
    >
-   >Solo se permiten caracteres ASCII comprendidos entre 32 y 126. La lista completa se encuentra en [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por ejemplo.
+   >Se permiten todos los caracteres ASCII comprendidos entre 32 y 126 en la variable **[!UICONTROL Reason]** campo . La lista completa se encuentra en [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por ejemplo.
 
 1. Haga clic en **[!UICONTROL Submit]**.
 
@@ -171,7 +171,7 @@ Para ello, seleccione la **[!UICONTROL Add email or domain]** , siga uno de los 
    ```
    >[!NOTE]
    >
-   >Para la columna Comentario , solo se permiten caracteres ASCII comprendidos entre 32 y 126. La lista completa se encuentra en [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por ejemplo.
+   >Se permiten todos los caracteres ASCII comprendidos entre 32 y 126 en la variable **Comentario** para abrir el Navegador. La lista completa se encuentra en [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por ejemplo.
 
    También puede descargar esta plantilla desde el **[!UICONTROL Suppression list]** vista principal.
 
