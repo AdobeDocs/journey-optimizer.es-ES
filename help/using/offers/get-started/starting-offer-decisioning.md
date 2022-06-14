@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: ht
-source-wordcount: '944'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -47,7 +47,7 @@ Se crea mediante la **Biblioteca de ofertas**, que proporciona un catálogo de o
 
 ![](../assets/offer_structure.png)
 
-Una vez que la Biblioteca de ofertas se haya enriquecido con ofertas, puede integrarlas en **decisiones** (antes llamadas “actividades de oferta”).
+Una vez que la Biblioteca de ofertas se haya enriquecido con ofertas, puede integrar las ofertas en **decisiones**.
 
 Las decisiones son contenedores para sus ofertas que aprovecharán el motor de decisión de ofertas para elegir la mejor y ofrecerla según el objetivo de la entrega.
 
