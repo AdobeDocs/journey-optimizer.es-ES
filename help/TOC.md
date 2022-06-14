@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1067'
 ht-degree: 98%
 
 ---
@@ -374,6 +374,7 @@ ht-degree: 98%
       + Configuración de ajustes preestablecidos de mensaje {#set-up-message-presets}
          + [Creación de ajustes preestablecidos de mensaje](using/configuration/message-presets.md)
          + [Configuración de correo electrónico](using/configuration/email-settings.md)
+         + [Usar correo electrónico CCO](using/configuration/bcc-email.md)
       + [Administrar direcciones de ejecución](using/configuration/primary-email-addresses.md)
       + [Configuración de reglas de frecuencia](using/configuration/frequency-rules.md)
    + Configuración de las páginas de aterrizaje {#lp-configuration}
