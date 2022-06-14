@@ -2,9 +2,9 @@
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
-workflow-type: tm+mt
-source-wordcount: '1409'
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -120,8 +120,8 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha añadido una sección sobre las funciones de accesibilidad y los métodos abreviados de teclado. [Más información](../start/user-interface.md#accessibility)
 * Se ha añadido una sección acerca de métodos de evaluación de segmentos. [Más información](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * Se han añadido notas a las secciones Lista de supresión, Lista de permitidos e Informe de correo electrónico global/activo para especificar que los perfiles con estados Suprimido y No permitido se excluyan de las métricas Enviado del Informe de correo electrónico. [Más información](../reports/email-global-report.md)
-* Se ha añadido una nueva sección para describir cómo recuperar direcciones de correo electrónico o dominios que se excluyeron de un envío porque no estaban en la lista de permitidos. [Más información](../reports/allow-list.md#reporting)
-* Se ha actualizado la sección Habilitación de la lista de permitidos. [Más información](../reports/allow-list.md#enable-allow-list)
+* Se ha añadido una nueva sección para describir cómo recuperar direcciones de correo electrónico o dominios que se excluyeron de un envío porque no estaban en la lista de permitidos. [Más información](../configuration/allow-list.md#reporting)
+* Se ha actualizado la sección Habilitación de la lista de permitidos. [Más información](../configuration/allow-list.md#enable-allow-list)
 * Se ha actualizado la sección Monitorización de ajustes preestablecidos de mensaje con los posibles motivos de error de creación y detalles sobre dichos errores. [Más información](../configuration/message-presets.md#monitor-message-presets)
 * Se ha actualizado la sección Período de tiempo de reintento y se le ha cambiado el nombre para reflejar el hecho de que ahora puede configurar los reintentos de correo electrónico en los ajustes preestablecidos de mensaje. [Más información](../configuration/retries.md#retry-duration)
 * Se ha añadido una nueva sección para describir cómo insertar un vínculo de exclusión de un clic en el contenido del correo electrónico. [Más información](../messages/consent.md#one-click-opt-out-link)
