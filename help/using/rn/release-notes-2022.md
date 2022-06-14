@@ -2,7 +2,7 @@
 title: Notas de la versión 2022
 description: Notas de la versión de Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: ht
 source-wordcount: '1069'
 ht-degree: 100%
@@ -70,7 +70,7 @@ Como cliente de Adobe Campaign Standard, ahora puede enviar correos electrónico
 **Administración**
 
 * Ahora puede habilitar/deshabilitar el vínculo de cancelación de suscripción en/desde el encabezado de correo electrónico en el nivel de ajuste preestablecido de mensaje y establecer una URL de cancelación de suscripción personalizada en el nivel de mensaje. [Más información](../configuration/message-presets.md#list-unsubscribe)
-* Ahora, la lista de permitidos se puede habilitar y deshabilitar a través de la interfaz [!DNL Journey Optimizer] en entornos limitados de producción y sin producción. [Más información](../reports/allow-list.md#enable-allow-list)
+* Ahora, la lista de permitidos se puede habilitar y deshabilitar a través de la interfaz [!DNL Journey Optimizer] en entornos limitados de producción y sin producción. [Más información](../configuration/allow-list.md#enable-allow-list)
 
 **Personalización**
 
