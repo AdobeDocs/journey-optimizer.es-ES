@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: c41bc43643bac4d8715469a18d6908846ddd6bf7
+source-git-commit: 9aa8b8c33eae6fd595643c5fefb4b4ea46ae7b73
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '930'
 ht-degree: 3%
 
 ---
@@ -181,13 +181,23 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 
 ## Niveles de servicio {#service-levels}
 
-La hora de extremo a extremo para cada decisión de lote es la duración desde el momento en que se crea la carga de trabajo hasta el momento en que el resultado de la decisión está disponible en el conjunto de datos de salida. El tamaño del segmento en la carga útil de la solicitud del POST es el factor principal que afecta al tiempo de decisión del lote de extremo a extremo.  A continuación se presentan algunas observaciones sobre diferentes tamaños de segmentos:
+La hora de extremo a extremo para cada decisión de lote es la duración desde el momento en que se crea la carga de trabajo hasta el momento en que el resultado de la decisión está disponible en el conjunto de datos de salida. El tamaño del segmento en la carga útil de la solicitud del POST es el factor principal que afecta al tiempo de decisión del lote de extremo a extremo. Si la oferta apta tiene un límite de frecuencia global habilitado, la toma de decisiones por lotes tarda más en completarse. A continuación se presentan algunas aproximaciones del tiempo de procesamiento de extremo a extremo para sus respectivos tamaños de segmento, tanto con como sin límites de frecuencia para ofertas aptas:
+
+Con el límite de frecuencia habilitado para las ofertas aptas:
+
+| Tamaño del segmento | Tiempo de procesamiento completo |
+|--------------|----------------------------|
+| 10 000 perfiles o menos | 7 minutos |
+| 1 millón de perfiles o menos | 30 minutos |
+| 15 millones de perfiles o menos | 50 minutos |
+
+Sin límite de frecuencia para ofertas aptas:
 
 | Tamaño del segmento | Tiempo de procesamiento completo |
 |--------------|----------------------------|
 | 10 000 perfiles o menos | 6 minutos |
-| 1 millón de perfiles o menos | 10 minutos |
-| 15 millones de perfiles o menos | 75 minutos |
+| 1 millón de perfiles o menos | 8 minutos |
+| 15 millones de perfiles o menos | 16 minutos |
 
 ## Limitaciones {#limitations}
 
