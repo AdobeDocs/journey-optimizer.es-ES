@@ -1,71 +1,60 @@
 ---
-title: Informe global de recorrido
-description: Aprenda a utilizar los datos del informe global de recorrido
+title: Informe global de la campaña
+description: Aprenda a utilizar los datos del informe global de campaña
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+hide: true
+hidefromtoc: true
+source-git-commit: cc20ecf0a019cecb8a4ae9420c5dbdcb28443c91
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 0%
+source-wordcount: '1225'
+ht-degree: 2%
 
 ---
 
-# Informe global de recorrido {#journey-global-report}
+# Informe global de la campaña {#campaign-global-report}
 
-Se puede acceder al informe global de recorrido directamente desde el recorrido con la variable **[!UICONTROL Global report]** botón.
+Se puede acceder al informe global de campaña directamente desde la Campaign con la variable **[!UICONTROL Global view]** botón.
 
-![](assets/global_report_1.png)
+La campaña **[!UICONTROL Global report]** se muestra con las siguientes pestañas:
 
-El recorrido **[!UICONTROL Global report]** se muestra con las siguientes pestañas:
-
-* [ Recorrido ](#journey-global)
+* [Campaign](#campaign-global)
 * [Correo electrónico](#email-global)
 * [Push](#push-global)
 
-El recorrido **[!UICONTROL Global report]** se divide en distintas utilidades que detallan el éxito y los errores de su recorrido. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](global-report.md#modify-dashboard).
+La campaña **[!UICONTROL Global report]** se divide en distintas utilidades que detallan el éxito y los errores de la campaña. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](../reports/global-report.md#modify-dashboard).
 
-## ficha recorrido {#journey-global}
+## Pestaña Campaña {#campaign-global}
 
-Desde su recorrido **[!UICONTROL Global report]**, el **[!UICONTROL Journey]** le proporciona una vista clara de los datos de seguimiento más importantes sobre su recorrido.
+### Entrega {#delivery-global}
 
-![](assets/global_report_2.png)
+![](assets/campaign_report_global_1.png)
 
-La variable **[!UICONTROL Journey Performance]** permite ver la ruta de los perfiles de destino paso a paso a través del recorrido.
+La variable **[!UICONTROL Campaign's Statistics]** La utilidad detalla la información principal relativa a la campaña:
 
-La variable **[!UICONTROL Journey Statistics]** muestra los siguientes KPI:
+* **[!UICONTROL Entered profiles]**: Número de perfiles que iniciaron el recorrido.
 
-* **[!UICONTROL Entered profiles]**: Número total de personas que llegaron al evento de entrada del recorrido.
+* **[!UICONTROL Actions delivered]**: Número total de veces que se ha entregado una acción en el recorrido.
 
-* **[!UICONTROL Exited profiles]**: Número total de personas que salieron del recorrido.
+* **[!UICONTROL Actions failed in %]**: Número total de veces que una acción ha fallado en el recorrido en comparación con la cantidad total de veces que se ha entregado una acción.
 
-* **[!UICONTROL Failed individual journey]**: Número total de recorridos individuales que no se ejecutaron correctamente.
+<!--
+### Experimentation tab (#experimentation-global)
 
-![](assets/global_report_12.png)
-
-La variable **[!UICONTROL Events received by event]**, **[!UICONTROL Events by origin]** y **[!UICONTROL Top events]** las utilidades permiten ver cuál de sus **[!UICONTROL Events]** se ejecutó correctamente mediante gráficos y tablas.
-
-![](assets/global_report_13.png)
-
-**[!UICONTROL Action Performance]**, **[!UICONTROL Action Error Reasons]** y **[!UICONTROL Top Actions]** las utilidades representan la acción más exitosa y los errores que se produjeron al **[!UICONTROL Actions]** se activaron.
-
-La variable **[!UICONTROL Top Actions]** contiene los datos disponibles para **[!UICONTROL Actions]**, como:
-
-* **[!UICONTROL Actions successfully executed]**: Número total de **[!UICONTROL Actions]** se ejecutó correctamente para un recorrido.
-
-* **[!UICONTROL Error in action]**: Número total de errores que se han producido para **[!UICONTROL Actions]**.
+From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
+-->
 
 ## Ficha Correo electrónico {#email-global}
 
-Desde su recorrido **[!UICONTROL Global report]**, el **[!UICONTROL Email]** La pestaña detalla la información principal relativa a los envíos de correo electrónico realizados en el recorrido.
+Desde la campaña **[!UICONTROL Global report]**, el **[!UICONTROL Email]** La pestaña detalla la información principal relativa a los envíos de correo electrónico realizados en la campaña.
 
-Para obtener un informe detallado sobre un envío de correo electrónico específico, consulte la [Informe global de correo electrónico](#email-global-report) para obtener más información.
-
-![](assets/global_report_14.png)
+Para obtener un informe detallado sobre un envío de correo electrónico específico, consulte la [Informe global de correo electrónico](../reports/email-global-report.md) para obtener más información.
 
 La variable **[!UICONTROL Email Sending Statistics]** graph detalla el éxito de la entrega:
+
+* **[!UICONTROL Targeted]**: Número total de mensajes procesados durante el análisis de entregas.
 
 * **[!UICONTROL Sent]**: Número total de envíos para la entrega.
 
@@ -81,6 +70,10 @@ La variable **[!UICONTROL Email Sending Statistics]** graph detalla el éxito de
 
 * **[!UICONTROL Error Rate]**: Porcentaje de errores que se produjeron durante una entrega que impiden que se envíe en comparación con los correos electrónicos enviados.
 
+* **[!UICONTROL Retries]**: Número de correos electrónicos en cola para reintentos.
+
+* **[!UICONTROL Excluded]**: Número de perfiles que Adobe Journey Optimizer ha excluido.
+
 La variable **[!UICONTROL Email - Tracking statistics]** contiene los datos disponibles para la actividad de destinatario para su envío:
 
 * **[!UICONTROL Opens]**: Número de veces que se abrió la entrega en una entrega.
@@ -93,9 +86,9 @@ La variable **[!UICONTROL Email - Tracking statistics]** contiene los datos disp
 
 * **[!UICONTROL Unique Clicks]**: número de destinatarios que hicieron clic en un contenido en un correo electrónico.
 
-* **[!UICONTROL Click through rate]**: Porcentaje de usuarios que interactuaron con el recorrido.
+* **[!UICONTROL Unique Click Rate]**: Porcentaje de usuarios que interactuaron con la entrega.
 
-* **[!UICONTROL Unsubscribe]**: Número de clics en el vínculo de baja de suscripción.
+* **[!UICONTROL Unsubscriptions]**: Número de clics en el vínculo de baja de suscripción.
 
 * **[!UICONTROL Spam complaints]**: Número de veces que un mensaje se declaró como correo no deseado o no deseado.
 
@@ -105,9 +98,9 @@ La variable **[!UICONTROL Sending Statistics]** El gráfico contiene los datos d
 
 * **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados.
 
-* **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
+* **[!UICONTROL Retries]**: Número de correos electrónicos en cola para reintentos.
 
-![](assets/global_report_15.png)
+* **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
 
 La variable **[!UICONTROL Bounce Reasons]** y **[!UICONTROL Bounce categories]** los widgets contienen los datos disponibles relacionados con los mensajes devueltos, como:
 
@@ -119,19 +112,13 @@ La variable **[!UICONTROL Bounce Reasons]** y **[!UICONTROL Bounce categories]**
 
 Para obtener más información sobre las devoluciones, consulte la sección [Lista de supresión](../reports/suppression-list.md) página.
 
-![](assets/global_report_22.png)
-
 La variable **[!UICONTROL Error Reasons]** El gráfico y la tabla permiten ver qué error se produjo durante el envío.
 
 La variable **[!UICONTROL Excluded reasons]** en el gráfico y la tabla se muestran las diferentes razones que impidieron que los perfiles de usuario, excluidos de los perfiles de destino, recibieran el mensaje.
 
-![](assets/global_report_16.png)
-
 La variable **[!UICONTROL Email - Top Url]** gráfico y tabla detallan las direcciones URL de su envío que son las más visitadas.
 
 La variable **[!UICONTROL Email - Top recipient domain]** gráfico y tabla detallan qué dominios son los más utilizados por los destinatarios para abrir el correo electrónico.
-
-![](assets/global_report_23.png)
 
 >[!NOTE]
 >
@@ -148,41 +135,15 @@ La variable **[!UICONTROL Send time optimization]** detalla el éxito de la entr
 * **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.
 * **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados.
 
-![](assets/global_report_21.png)
-
->[!NOTE]
->
->Las métricas y las utilidades de Ofertas solo están disponibles si se ha insertado una decisión en un mensaje de correo electrónico. Para obtener más información sobre la gestión de decisiones, consulte esta [página](../offers/get-started/starting-offer-decisioning.md).
-
-La variable **[!UICONTROL Offers statistic]** y **[!UICONTROL Offers statistics]** a lo largo del tiempo, los widgets miden el éxito y el impacto de su oferta en la audiencia de destino. Detalla la información principal relativa al mensaje con KPI:
-
-* **[!UICONTROL Offer sent]**: Número total de envíos para la oferta.
-
-* **[!UICONTROL Offer impression]**: Número de veces que la oferta se abrió en una entrega.
-
-* **[!UICONTROL Offer clicks]**: Número de veces que se hizo clic en una oferta en una entrega.
-
-La variable **[!UICONTROL Offers detailed statistic]** contiene los datos disponibles para la actividad del destinatario con su oferta:
-
-* **[!UICONTROL Placement name]**: Nombre de la ubicación utilizada para mostrar la oferta. Para obtener más información sobre la colocación, consulte esta [página](../offers/offer-library/creating-placements.md).
-
-* **[!UICONTROL Offer name]**: Nombre de la oferta añadida en la entrega. Para obtener más información sobre la colocación, consulte esta [página](../offers/offer-library/creating-personalized-offers.md).
-
-* **[!UICONTROL Offer sent]**: Número total de envíos para la oferta.
-
-* **[!UICONTROL Offer impression rate]**: Porcentaje de ofertas abiertas comparadas con el número de ofertas enviadas.
-
-* **[!UICONTROL Offer click rate]**: Porcentaje de usuarios que interactuaron con la oferta.
-
 ## Ficha Insertar {#push-global}
 
-Desde su recorrido **[!UICONTROL Global report]**, el **[!UICONTROL Push]** detalla la información principal relativa a los envíos push realizados en el recorrido.
+Desde la campaña **[!UICONTROL Global report]**, el **[!UICONTROL Push]** detalla la información principal relativa a los envíos push realizados en la campaña.
 
-Para obtener un informe detallado sobre una entrega push específica, consulte esta sección [Insertar informe global](#push-global-report).
-
-![](assets/global_report_17.png)
+Para obtener un informe detallado sobre una entrega push específica, consulte esta sección [Insertar informe global](../reports/push-global-report.md).
 
 La variable **[!UICONTROL Push notification - Sending statistics]** la tabla detalla la información principal relativa a las notificaciones push con gráficos y KPI:
+
+* **[!UICONTROL Targeted]**: Número total de mensajes procesados durante el análisis de entregas.
 
 * **[!UICONTROL Sent]**: Número total de envíos para la entrega.
 
@@ -198,6 +159,8 @@ La variable **[!UICONTROL Push notification - Sending statistics]** la tabla det
 
 * **[!UICONTROL Error Rate]**: Porcentaje de errores que se produjeron durante una entrega que impiden que se envíe comparado con las notificaciones push enviadas.
 
+* **[!UICONTROL Excluded]**: Número de perfiles que Adobe Journey Optimizer ha excluido.
+
 La variable **[!UICONTROL Push - Tracking statistics]** contiene los datos disponibles para la actividad de destinatario para su envío:
 
 * **[!UICONTROL Opens]**: Número de veces que se abrió un mensaje en una entrega.
@@ -209,8 +172,6 @@ La variable **[!UICONTROL Push - Tracking statistics]** contiene los datos dispo
 * **[!UICONTROL Engagements]**: Número total de aperturas y acciones para esta notificación push, es decir, si el perfil abrió la notificación push o si se hizo clic en un botón.
 
 * **[!UICONTROL Engagement Rate]**: Porcentaje de aperturas y acciones para esta notificación push, es decir, si el perfil abrió la notificación push o si se hizo clic en un botón.
-
-![](assets/global_report_24.png)
 
 La variable **[!UICONTROL Push notification summary]** El gráfico contiene los datos disponibles para las notificaciones push enviadas, como:
 
@@ -239,42 +200,8 @@ La variable **[!UICONTROL Send time optimization]** detalla el éxito de la entr
 * **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.
 * **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados.
 
-![](assets/global_report_18.png)
-
 La variable **[!UICONTROL Error Reasons]** El gráfico y la tabla permiten ver qué error se produjo durante el envío.
 
 La variable **[!UICONTROL Excluded reasons]** en el gráfico y la tabla se muestran las diferentes razones que impidieron que los perfiles de usuario, excluidos de los perfiles de destino, recibieran el mensaje.
 
-![](assets/global_report_19.png)
-
 La variable **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** y **[!UICONTROL Breakdown by platform]** gráficos y tablas detallan el éxito de la notificación push en función del sistema operativo del destinatario.
-
-El SMS **[!UICONTROL Global report]** se divide en distintas utilidades que detallan el éxito y los errores de su envío. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](global-report.md#modify-dashboard).
-
-## Ficha SMS {#sms-global}
-
-La variable **[!UICONTROL SMS - Sending statistics]** La tabla detalla el éxito de la entrega:
-
-* **[!UICONTROL Targeted]**: Número de perfiles de usuario que se califican como perfiles de destinatario para este envío.
-
-* **[!UICONTROL Excluded]**: Número de perfiles de usuario, excluidos de los perfiles de destino, que no recibieron el mensaje.
-
-* **[!UICONTROL Sent]**: Número total de envíos para la entrega.
-
-* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.
-
-* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados.
-
-* **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
-
-La variable **[!UICONTROL SMS summary]** La utilidad detalla la información principal relativa al mensaje con un gráfico:
-
-* **[!UICONTROL Sent]**: Número total de envíos para la entrega.
-
-* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.
-
-* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados.
-
-* **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
-
-La variable **[!UICONTROL Exclude Reasons]** los gráficos y las tablas permiten ver qué error y exclusiones se produjeron durante el envío.

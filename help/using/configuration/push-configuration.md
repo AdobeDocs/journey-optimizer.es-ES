@@ -4,9 +4,9 @@ description: Aprenda a configurar su entorno para enviar notificaciones push con
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: a6fabce744cb85c447327b6ceb809bf399d4b610
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1426'
 ht-degree: 5%
 
 ---
@@ -103,7 +103,7 @@ Para asignar **[!UICONTROL Product profile]** para los usuarios, siga los pasos 
 
 ### Configurar su aplicación {#configure-app}
 
-La configuración técnica implica una estrecha colaboración entre el desarrollador de la aplicación y el administrador empresarial. Antes de empezar a enviar notificaciones push con [!DNL Journey Optimizer], debe definir la configuración en [!DNL Adobe Experience Platform Data Collection] e integre su aplicación móvil con los SDK para Adobe Experience Platform Mobile.
+La configuración técnica implica una estrecha colaboración entre el desarrollador de la aplicación y el administrador empresarial. Antes de empezar a enviar notificaciones push con [!DNL Journey Optimizer], debe definir la configuración en [!DNL Adobe Experience Platform Data Collection] e integre su aplicación móvil con los SDK para móviles de Adobe Experience Platform.
 
 Siga los pasos de implementación detallados en los vínculos siguientes:
 
@@ -180,7 +180,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 ## Paso 2: Configurar la extensión de Adobe Journey Optimizer en la propiedad móvil {#configure-journey-optimizer-extension}
 
-La variable **Extensión de Adobe Journey Optimizer** para los SDK de Adobe Experience Platform Mobile, las notificaciones push se alimentan de sus aplicaciones móviles y le ayudan a recopilar tokens push de usuario y a administrar la medición de interacciones con los servicios de Adobe Experience Platform.
+La variable **Extensión de Adobe Journey Optimizer** para los SDK de Adobe Experience Platform Mobile , alimenta las notificaciones push para sus aplicaciones móviles y le ayuda a recopilar tokens push de usuario y a administrar la medición de interacciones con los servicios de Adobe Experience Platform.
 
 Obtenga información sobre cómo configurar la extensión de Journey Optimizer en [Documentación del SDK de Adobe Experience Platform Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer){target=&quot;_blank&quot;}.
 
@@ -334,8 +334,6 @@ El evento se ha creado y ahora se puede utilizar en un recorrido.
 1. En el **[!UICONTROL Actions]** desplegable, arrastre y suelte una **[!UICONTROL Message]** a su recorrido.
 
 1. Seleccione un mensaje creado anteriormente. Para obtener más información sobre cómo crear notificaciones push, consulte esta [página](../messages/get-started-content.md).
-
-1. Arrastre y suelte una **[!UICONTROL End]** a su recorrido.
 
 1. Haga clic en el **[!UICONTROL Test]** alterne para iniciar la prueba de las notificaciones push y haga clic en **[!UICONTROL Trigger an event]**.
 

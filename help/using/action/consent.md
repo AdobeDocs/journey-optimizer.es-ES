@@ -8,9 +8,10 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 7a5f7ea85075821f0788bd9a58d9994afd058c61
+exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -38,6 +39,8 @@ Con la administración de consentimiento, se analizan dos actividades de recorri
 
 * Leer segmento: se tiene en cuenta el segmento recuperado.
 * Acción personalizada: la administración de consentimiento tiene en cuenta los atributos utilizados ([parámetros de acción](../action/about-custom-action-configuration.md#define-the-message-parameters)) así como las acciones de marketing definidas (acción de marketing necesaria y acción de marketing adicional).
+
+El consentimiento solo se aplica cuando se establece una acción de marketing (obligatoria o adicional) en el nivel de acción personalizada.
 
 No se tienen en cuenta todas las demás actividades utilizadas en un recorrido. Si inicia el recorrido con una calificación de segmento, no se tiene en cuenta el segmento.
 

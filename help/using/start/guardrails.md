@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 1acc5a137661a47abd60c03167e9ef39998de621
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '722'
 ht-degree: 3%
 
 ---
@@ -39,6 +39,8 @@ A continuación encontrará limitaciones y protecciones adicionales al utilizar 
 * En caso de error, se realizan tres reintentos de forma sistemática. No se puede ajustar el número de reintentos según el mensaje de error recibido.
 * El **Reacción** le permite reaccionar a las acciones integradas. Obtenga más información en [esta página](../building-journeys/reaction-events.md). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado.
 * No puede colocar dos acciones en paralelo, debe agregarlas una tras otra.
+* Hay una limitación técnica en los recorridos de hoy que impide que un perfil esté presente varias veces en el mismo recorrido, al mismo tiempo. Un perfil puede volver a introducir un recorrido (basado en una configuración), pero no puede hacerlo hasta que salga completamente de la instancia anterior del recorrido.
+* En la mayoría de los casos, un perfil no puede estar presente varias veces en el mismo recorrido, al mismo tiempo. Si la reentrada está activada, un perfil puede volver a introducir un recorrido, pero no puede hacerlo hasta que salga completamente de la instancia anterior del recorrido. [Más información](../building-journeys/journey-end.md)
 
 ### Acción de mensaje {#message-action}
 

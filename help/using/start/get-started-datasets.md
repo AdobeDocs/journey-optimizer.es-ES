@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo utilizar conjuntos de datos de Ado
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: a196df7318e0c87afb5a5ee4498eaf20eab137ad
+source-git-commit: 1de18fa479a54c09751324a67793ce50e5657ce3
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '622'
 ht-degree: 8%
 
 ---
@@ -70,6 +70,8 @@ Obtenga información sobre cómo crear un esquema, un conjunto de datos y la ing
 Obtenga más información sobre la creación de conjuntos de datos en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
 
 Aprenda a utilizar la interfaz de usuario de conjuntos de datos en la [Documentación general de la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es){target=&quot;_blank&quot;}.
+
+Hay disponible una lista de casos de uso con ejemplos de consulta [here](../start/datasets-query-examples.md).
 
 **Consulte también**
 

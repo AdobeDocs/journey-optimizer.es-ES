@@ -5,11 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: cc7a544b58c0caff4fd0b3d02c53622b506e98e2
+exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
+source-git-commit: f2426b8696983b22dd2c80296e2c9dfc2426c439
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '447'
 ht-degree: 3%
 
 ---
@@ -17,10 +16,6 @@ ht-degree: 3%
 # Administrar [!DNL Adobe Stock] imágenes {#stock}
 
 ## Introducción a [!DNL Adobe Stock] {#get-started-stock}
-
->[!IMPORTANT]
->
-> El uso de [!DNL Adobe Stock] actualmente está disponible en acceso anticipado solo para usuarios seleccionados. Si desea aprovechar esta función, póngase en contacto con el administrador de cuentas de Adobe.
 
 [!DNL Adobe Stock] proporciona acceso a millones de fotos, vídeos, ilustraciones y gráficos vectoriales de alta calidad, depurados y libres de derechos de autor. Puede elegir adquirir un paquete de crédito para obtener la licencia de los activos o comprar una licencia Standard o Extended para el activo necesario. Adobe Stock también ofrece una recopilación gratuita de recursos.
 
@@ -30,6 +25,10 @@ con [!DNL Adobe Journey Optimizer], puede cargar imágenes en los correos electr
 [Más información sobre el diseño de correo electrónico](design-emails.md).
 
 ## Insertar e importar [!DNL Adobe Stock] imágenes {#add-stock-image}
+
+>[!NOTE]
+>
+> La variable **[!UICONTROL Find Adobe Stock photos]** solo estará disponible para los usuarios con acceso a un perfil de producto de AEM Assets Essentials. Para obtener más información, consulte [Documentación esencial de Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials).
 
 Después de editar y personalizar el correo electrónico, puede añadir imágenes desde [!DNL Adobe Stock] a la plantilla:
 
@@ -54,7 +53,8 @@ Después de editar y personalizar el correo electrónico, puede añadir imágene
 
 1. En el [!DNL Adobe Stock] en el sitio web, deberá adquirir el recurso para poder descargar la imagen y eliminar la marca de agua.
 
-   Esta compra dependerá de su plan o suscripción a Adobe Stock. Para obtener más información, consulte esta [página](https://stock.adobe.com/plans).
+   Esta compra dependerá de su plan o suscripción a Adobe Stock. Tenga en cuenta que si tiene varias cuentas de Adobe Stock, se le redirigirá al último ID de stock que usó. En este caso, asegúrese de haber iniciado sesión en la cuenta correcta antes de conceder licencias a su recurso.
+Para obtener más información, consulte esta [página](https://stock.adobe.com/plans).
 
    >[!WARNING]
    > Si se envía un correo electrónico que incluye una imagen sin licencia, la imagen conservará su formulario sin licencia con la marca de agua.

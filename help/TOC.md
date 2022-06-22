@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 98%
+source-wordcount: '1104'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,13 @@ ht-degree: 98%
       + [Introducción como desarrollador](using/start/path/developer.md)
    + [Interfaz de usuario](using/start/user-interface.md)
    + [Límites de protección ](using/start/guardrails.md)
++ Campañas {#campaigns}
+   + [Introducción a las campañas](using/campaigns/get-started-with-campaigns.md)
+   + [Creación de una campaña](using/campaigns/create-campaign.md)
+   + [Modificar o detener una campaña](using/campaigns/modify-stop-campaign.md)
+   + Informes {#reports}
+      + [Informe de campaña en directo](using/campaigns/campaign-live-report.md)
+      + [Informe global de la campaña](using/campaigns/campaign-global-report.md)
 + Mensajes {#messages}
    + [Introducción a los mensajes](using/messages/get-started-content.md)
    + [Crear un correo electrónico](using/messages/create-email.md)
@@ -107,6 +114,7 @@ ht-degree: 98%
 + Recorridos {#orchestrate-journeys}
    + Acerca de los recorridos{#about-journeys}
       + [Principio general](using/building-journeys/journey.md)
+      + [Ciclo de vida del recorrido](using/building-journeys/journey-end.md)
       + [Versiones de recorridos](using/building-journeys/journey-versions.md)
       + [Integración con servicios inteligentes](using/building-journeys/ai-services-overview.md)
    + Creación de un recorrido{#create-journey}
@@ -115,6 +123,7 @@ ht-degree: 98%
       + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
       + [Publicación del recorrido](using/building-journeys/publishing-the-journey.md)
       + [Administración de husos horarios](using/building-journeys/timezone-management.md)
+      + [Copiar un recorrido](using/building-journeys/copy-to-sandbox.md)
       + [Resolución de problemas del recorrido](using/building-journeys/troubleshooting.md)
    + Actividades {#about-journey-building}
       + [Acerca de las actividades de recorrido](using/building-journeys/about-journey-activities.md)
@@ -254,7 +263,6 @@ ht-degree: 98%
    + Capacidad de entrega {#deliverability}
       + [Introducción a la capacidad de entrega](using/reports/deliverability.md)
       + [Acerca de la lista de supresión](using/reports/suppression-list.md)
-   + [Acciones de auditoría en recursos de Journey Optimizer](using/reports/audit-logs.md)
 + Administración de decisiones {#offer-decisioniong}
    + Introducción a la Administración de decisiones {#get-started-decision}
       + [Acerca de la Administración de decisiones](using/offers/get-started/starting-offer-decisioning.md)
@@ -349,7 +357,9 @@ ht-degree: 98%
          + [API de decisiones por lotes](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Administración de datos {#data-management}
    + [Esquemas](using/start/get-started-schemas.md)
-   + [Conjuntos de datos](using/start/get-started-datasets.md)
+   + Conjuntos de datos {#datasets}
+      + [Introducción a los conjuntos de datos](using/start/get-started-datasets.md)
+      + [Ejemplos de consultas](using/start/datasets-query-examples.md)
    + [Consultas](using/start/get-started-queries.md)
 + Configuración{#configuration}
    + [Introducción a la configuración de Journey Optimizer](using/configuration/get-started-configuration.md)
@@ -410,4 +420,7 @@ ht-degree: 98%
    + [Niveles de permisos](using/administration/high-low-permissions.md)
    + [Administración de entornos limitados](using/administration/sandboxes.md)
    + [Control de acceso basado en atributos](using/administration/attribute-based-access.md)
-
++ Privacidad {#privacy}
+   + [Políticas de uso de datos](using/privacy/policies.md)
+   + [Solicitudes de privacidad](using/privacy/requests.md)
+   + [Acciones de auditoría en recursos de Journey Optimizer](using/privacy/audit-logs.md)

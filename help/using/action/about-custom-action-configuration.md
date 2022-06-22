@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 6%
+source-wordcount: '951'
+ht-degree: 5%
 
 ---
 
@@ -120,7 +120,7 @@ En el **[!UICONTROL Action parameters]** , pegue un ejemplo de la carga útil JS
 
 >[!NOTE]
 >
->Los nombres de campo de la carga útil no pueden contener &quot;.&quot; carácter. No pueden empezar con un carácter &quot;$&quot;.
+>El ejemplo de carga útil no puede contener valores nulos. Los nombres de campo de la carga útil no pueden contener &quot;.&quot; carácter. No pueden empezar con un carácter &quot;$&quot;.
 
 Puede definir el tipo de parámetro (p. ej.: string, integer, etc.).
 

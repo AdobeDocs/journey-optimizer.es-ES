@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: b07075c225136ab17a0c3b106f89503d95abb581
+source-git-commit: 3513f5415ebbac1be889ba390877611ad5a71030
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '580'
 ht-degree: 2%
 
 ---
@@ -72,7 +72,7 @@ Si la ubicación seleccionada es de tipo imagen, puede añadir contenido proveni
 
 >[!NOTE]
 >
-> Para trabajar con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}, debe implementar [!DNL Assets Essentials] para su organización y asegúrese de que los usuarios forman parte de la **Usuarios consumidores de Assets Essentials** o/y **Usuarios de Assets Essentials** Perfiles de producto. Más información sobre [esta página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
+> Para trabajar con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}, debe implementar [!DNL Assets Essentials] para su organización y asegúrese de que los usuarios forman parte de la **Usuarios consumidores de Assets Essentials** o/y **Usuarios de Assets Essentials** Perfiles de producto. Más información sobre [esta página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target=&quot;_blank&quot;}.
 
 1. Elija la opción **[!UICONTROL Asset library]**.
 
@@ -85,6 +85,16 @@ Si la ubicación seleccionada es de tipo imagen, puede añadir contenido proveni
 1. Haga clic en **[!UICONTROL Select]**.
 
    ![](../assets/offer-select-asset.png)
+
+### Añadir archivos HTML o JSON {#html-json}
+
+Si la ubicación seleccionada es de tipo HTML, también puede añadir contenido HTML o JSON proveniente del [Biblioteca de recursos de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}).
+
+Por ejemplo, se ha creado una plantilla de correo electrónico de HTML en [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target=&quot;_blank&quot;} y desea usar ese archivo para el contenido de la oferta. En lugar de crear un nuevo archivo, simplemente puede cargar la plantilla en la variable **Biblioteca de recursos** para poder reutilizarla en las representaciones de su oferta.
+
+Para reutilizar el contenido en una representación, busque **Biblioteca de recursos** tal como se describe en [esta sección](#images) y seleccione el HTML o el archivo JSON que desee.
+
+![](../assets/offer-browse-asset-library-json.png)
 
 ### Agregar direcciones URL {#urls}
 
@@ -115,3 +125,4 @@ También puede insertar contenido de tipo texto al seleccionar una ubicación co
    >[!NOTE]
    >
    >Solo el **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** y **[!UICONTROL Helper functions]** las fuentes están disponibles para la gestión de decisiones.
+

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 832abe25f79c8c526dd5da0ff37eb91755d687e4
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 7%
+source-wordcount: '1277'
+ht-degree: 10%
 
 ---
 
@@ -134,7 +134,7 @@ Burst mode es un complemento de Journey Optimizer que permite enviar mensajes pu
 La mensajería de ráfaga viene con los siguientes requisitos:
 
 * El recorrido debe comenzar con un **Leer segmento** actividad. No se permiten eventos.
-* El siguiente paso debe ser un mensaje push. No se permite ningún otro canal, actividad o paso (excepto la opción **Fin** actividad).
+* El siguiente paso debe ser un mensaje push. No se permite ningún otro canal, actividad o paso.
 * No se permite ninguna personalización en el mensaje push.
 * El mensaje debe ser pequeño (&lt;2 KB).
 
@@ -155,73 +155,3 @@ A continuación, pruebe y publique el recorrido como de costumbre. Tenga en cuen
 En este vídeo se describen los casos de uso aplicables a la mensajería radial y cómo configurar un recorrido para los mensajes radiales:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334523?quality=12)
-
-
-## Finalizar, detener o cerrar un recorrido{#end-journey}
-
-Un recorrido puede finalizar para un individuo en dos contextos específicos:
-
-* La persona llega a la última actividad de una ruta. Esta última actividad puede ser un **Fin** actividad u otra actividad. Uso de un **Fin** actividad no es obligatoria. Consulte [esta página](../building-journeys/end-activity.md).
-* La persona llega a un **Condición** actividad (o **Espera** actividad con una condición) y no coincide con ninguna de las condiciones.
-
-La persona puede volver a entrar en el recorrido si se permite la reentrada. Consulte [esta página](../building-journeys/journey-gs.md#change-properties)
-
-Un recorrido puede cerrarse por los siguientes motivos:
-
-* El recorrido se cierra manualmente mediante la variable **[!UICONTROL Close to new entrances]** botón.
-* Un recorrido basado en segmentos de una toma que ha terminado de ejecutarse.
-* Después de la última aparición de un recorrido basado en segmentos recurrentes.
-
-Cuando se cierra un recorrido (por cualquiera de los motivos anteriores), aparece el estado **[!UICONTROL Closed]**. El recorrido deja de permitir que entren nuevos individuos en el recorrido. Las personas que ya están en el recorrido pueden terminar el recorrido normalmente. Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará a la variable **Finalizado** estado. Consulte esta [sección](../building-journeys/journey-gs.md#global_timeout).
-
-En caso de que necesite detener el progreso de todas las personas en el recorrido, puede detenerlo. Al detener el recorrido, se agotará el tiempo de espera de todas las personas del recorrido.
-
-Así se cierra o se detiene un recorrido manualmente:
-
-La variable **[!UICONTROL Stop]** y **[!UICONTROL Close to new entrances]** las opciones permiten finalizar **live** recorridos. El cierre de un recorrido implica **que la llegada de nuevos clientes al recorrido está bloqueada** y que los clientes que ya han entrado en el recorrido pueden experimentarlo hasta el final. Esta es la forma más recomendada de poner fin a un recorrido, ya que ofrece la mejor experiencia para los clientes. Detener un recorrido implica que a las personas que ya entraron en un recorrido se les detiene en su progreso. Básicamente el recorrido está apagado.
-
->[!NOTE]
->
->Tenga en cuenta que no puede reanudar un recorrido cerrado o detenido.
-
-### Cierre de un recorrido
-
-Puede cerrar un recorrido manualmente para asegurarse de que los clientes que ya han entrado en el recorrido puedan finalizar su ruta, pero que los nuevos usuarios no puedan entrar en el recorrido.
-
-Cuando se cierre, un recorrido tendrá el estado **[!UICONTROL Closed]**. Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará a la variable **Finalizado** estado. Consulte esta [sección](../building-journeys/journey-gs.md#global_timeout).
-
-No se puede reiniciar ni eliminar una versión de recorrido cerrada. Puede crear una nueva versión o duplicarla. Solo se pueden eliminar los recorridos finalizados.
-
-Para cerrar un recorrido de la lista de recorridos, haga clic en el botón **[!UICONTROL Ellipsis]** botón situado a la derecha del nombre del recorrido y seleccione **[!UICONTROL Close to new entrances]**.
-
-![](assets/journey-finish-quick-action.png)
-
-También puede:
-
-1. En el **[!UICONTROL Journeys]** , haga clic en el recorrido que desee cerrar.
-1. En la parte superior derecha, haga clic en la flecha hacia abajo.
-
-   ![](assets/finish_drop_down_list.png)
-
-1. Haga clic en **[!UICONTROL Close to new entrances]** y confirme en el cuadro de diálogo.
-
-### Detener un recorrido
-
-Puede detener un recorrido cuando se produzca una emergencia y todo el procesamiento debe finalizar inmediatamente en un recorrido.
-
-No se puede reiniciar una versión de recorrido detenida.
-
-Cuando se detiene, el estado del recorrido se establece en **[!UICONTROL Stopped]**.
-
-Puede detener un recorrido, por ejemplo, si un especialista en marketing se da cuenta de que el recorrido está dirigido a una audiencia incorrecta o si una acción personalizada que supuestamente debe enviar mensajes no funciona correctamente. Para detener un recorrido de la lista de recorridos, haga clic en el botón **[!UICONTROL Ellipsis]** botón situado a la derecha del nombre del recorrido y seleccione **[!UICONTROL Stop]**.
-
-![](assets/journey-finish-quick-action.png)
-
-También puede:
-
-1. En el **[!UICONTROL Journeys]** , haga clic en el recorrido que desee detener.
-1. En la parte superior derecha, haga clic en la flecha abajo.
-
-![](assets/finish_drop_down_list.png)
-
-1. Haga clic en **[!UICONTROL Stop]** y confirme en el cuadro de diálogo.

@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1033'
 ht-degree: 3%
 
 ---
@@ -104,7 +104,6 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
 1. Cree un recorrido que comience con este evento.
 1. Añada el mensaje al recorrido.
-1. Finalice el recorrido con una actividad final.
 
    Como aún no ha publicado el mensaje, no puede probar ni publicar el recorrido.
 
@@ -338,7 +337,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
 * [Personalización con información de perfil, contexto y oferta](personalization-use-case.md)
 
-* [Personalization con oferta basada en decisiones](../offers/offers-e2e.md)
+* [Personalización con oferta basada en decisiones](../offers/offers-e2e.md)
 
 ## Vídeo explicativo{#video}
 

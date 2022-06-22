@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 2%
+source-wordcount: '895'
+ht-degree: 1%
 
 ---
 
@@ -65,9 +65,9 @@ Para obtener un informe detallado sobre un envío de correo electrónico especí
 
 La variable **[!UICONTROL Email Sending Statistics]** La utilidad detalla la información principal relativa al mensaje:
 
-* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.
+* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente.
 
-* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados.
+* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de la devolución.
 
 * **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
 
@@ -75,9 +75,9 @@ La variable **[!UICONTROL Sending metrics by Email]** tabla y **[!UICONTROL Emai
 
 * **[!UICONTROL Sent]**: Número total de envíos para la entrega.
 
-* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.
+* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente.
 
-* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados.
+* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de la devolución.
 
 * **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
 
@@ -131,9 +131,9 @@ Para obtener un informe detallado sobre una entrega push específica, consulte l
 
 * **[!UICONTROL Sent]**: Número total de envíos para la entrega.
 
-* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.
+* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente.
 
-* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados.
+* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de la devolución.
 
 * **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
 
@@ -152,3 +152,33 @@ La variable **[!UICONTROL Sending statistics - Failed]** permite ver cuántos er
 ![](assets/report_push_2.png)
 
 La variable **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** y **[!UICONTROL Breakdown by platform]** gráficos y tablas detallan el éxito de la notificación push en función del sistema operativo.
+
+## Ficha SMS {#sms-live}
+
+La variable **[!UICONTROL SMS - Sending statistics]** La tabla detalla el éxito de la entrega:
+
+* **[!UICONTROL Targeted]**: Número de perfiles de usuario que se califican como perfiles de destinatario para este envío.
+
+* **[!UICONTROL Excluded]**: Número de perfiles de usuario, excluidos de los perfiles de destino, que no recibieron el mensaje.
+
+* **[!UICONTROL Sent]**: Número total de envíos para la entrega.
+
+* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente.
+
+* **[!UICONTROL Opens]**: Número de veces que se abrió un mensaje en una entrega.
+
+* **[!UICONTROL Clicks]**: Número de veces que se hizo clic en un contenido en una entrega.
+
+* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de la devolución.
+
+* **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
+
+La variable **[!UICONTROL SMS Summary]** graph detalla el éxito de la entrega:
+
+* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente.
+
+* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de la devolución.
+
+* **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
+
+La variable **[!UICONTROL Exclude Reasons]** los gráficos y las tablas permiten ver qué error y exclusiones se produjeron durante el envío.

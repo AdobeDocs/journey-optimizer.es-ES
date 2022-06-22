@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
-workflow-type: ht
-source-wordcount: '676'
-ht-degree: 100%
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+workflow-type: tm+mt
+source-wordcount: '681'
+ht-degree: 97%
 
 ---
 
@@ -67,7 +67,7 @@ Para diseñar un mensaje nuevo, siga los pasos a continuación:
 
    * Seleccione el **[!UICONTROL Message category]**: Marketing o transaccional.
 
-   * Seleccione los canales que desee utilizar para ese mensaje: notificación por correo electrónico o push. Debe seleccionar al menos un canal para poder crear el mensaje.
+   * Seleccione los canales que desee utilizar para ese mensaje: Correo electrónico, notificaciones push o SMS. Debe seleccionar al menos un canal para poder crear el mensaje.
    >[!NOTE]
    >
    >Puede hacer clic en el vínculo **[!UICONTROL Frequency rule]** para ver las reglas de frecuencia que se aplicarán a la categoría y a los canales seleccionados. Más información sobre las [reglas de frecuencia](../configuration/frequency-rules.md).
@@ -97,6 +97,7 @@ Para diseñar un mensaje nuevo, siga los pasos a continuación:
 
    * [Crear un correo electrónico](create-email.md)
    * [Crear notificaciones push](create-push.md)
+   * [Creación de un mensaje SMS](create-sms.md)
 
    >[!NOTE]
    >   

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 8f089e885098917d2ebf455b807ac5e6da020190
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1192'
 ht-degree: 2%
 
 ---
@@ -163,10 +163,15 @@ Obtenga más información sobre los reintentos en [esta sección](retries.md).
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="Parámetros de seguimiento de URL"
->abstract="Utilice esta sección para adjuntar automáticamente parámetros de seguimiento a las URL de campaña presentes en el contenido del correo electrónico."
+>title="Definir los parámetros de seguimiento de URL"
+>abstract="Utilice esta sección para adjuntar automáticamente parámetros de seguimiento a las direcciones URL presentes en el contenido del correo electrónico. Esta función es opcional."
 
-Puede usar **[!UICONTROL URL Tracking Parameters]** para medir la eficacia de sus esfuerzos de marketing en todos los canales. Esta función es opcional.
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_url_preview"
+>title="Vista previa de los parámetros de seguimiento de URL"
+>abstract="Revise cómo se adjuntarán los parámetros de seguimiento a las direcciones URL presentes en el contenido del correo electrónico."
+
+Puede usar **[!UICONTROL URL tracking parameters]** para medir la eficacia de sus esfuerzos de marketing en todos los canales. Esta función es opcional.
 
 Los parámetros definidos en esta sección se anexarán al final de las direcciones URL incluidas en el contenido del mensaje de correo electrónico. A continuación, puede capturar estos parámetros en herramientas de análisis web, como Adobe Analytics o Google Analytics, y crear varios informes de rendimiento.
 
@@ -174,8 +179,9 @@ Los parámetros definidos en esta sección se anexarán al final de las direccio
 
 Se rellenan automáticamente tres parámetros de seguimiento de URL como ejemplo al crear un ajuste preestablecido de mensaje. Puede editarlas y agregar hasta 10 parámetros de seguimiento mediante la variable **[!UICONTROL Add new parameter]** botón.
 
-Para configurar un parámetro de seguimiento de URL, puede introducir directamente los valores deseados en la variable **[!UICONTROL Name]** y **[!UICONTROL Value]** o elija entre una lista de valores predefinidos navegando a los siguientes objetos:
+Para configurar un parámetro de seguimiento de URL, puede introducir directamente los valores deseados en la variable **[!UICONTROL Name]** y **[!UICONTROL Value]** campos.
 
+También puede elegir entre una lista de valores predefinidos navegando a los siguientes objetos:
 * Atributos de recorrido: **ID de origen**, **Nombre de origen**, **ID de versión de origen**
 * Atributos de acción: **ID de acción**, **Nombre de la acción**
 * Atributos de offer decisioning: **ID de oferta**, **Nombre de la oferta**
@@ -186,6 +192,10 @@ Para configurar un parámetro de seguimiento de URL, puede introducir directamen
 >
 >No seleccione una carpeta: asegúrese de buscar la carpeta necesaria y seleccionar un atributo de perfil para utilizarlo como valor de parámetro de seguimiento.
 
+<!--or edit it using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+
+You can drag and drop the parameters to reorder them.-->
+
 A continuación se muestran ejemplos de URL compatibles con Adobe Analytics y Google Analytics.
 
 * URL compatible con Adobe Analytics: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
@@ -195,3 +205,7 @@ A continuación se muestran ejemplos de URL compatibles con Adobe Analytics y Go
 >[!NOTE]
 >
 >Puede combinar la escritura de valores de texto y la selección de valores predefinidos. Cada **[!UICONTROL Value]** puede contener hasta 255 caracteres en total.
+
+Puede obtener una vista previa dinámica de la URL de seguimiento resultante. Cada vez que se añade, edita o elimina un parámetro, la vista previa se actualiza automáticamente.
+
+![](assets/preset-url-tracking-preview.png)
