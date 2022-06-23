@@ -4,9 +4,9 @@ description: Aprenda a configurar su entorno para enviar mensajes SMS con Journe
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: a60afd8a2948da5386b75421ffdb36735ed091e6
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '371'
 ht-degree: 4%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 4%
 # Configuración del canal de SMS {#sms-configuration}
 
 [!DNL Journey Optimizer] le permite crear sus recorridos y enviar mensajes a la audiencia de destino.
+
+>[!NOTE]
+>
+>Actualmente, el canal SMS solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, póngase en contacto con el representante del Adobe.
 
 ## Crear nueva credencial de API {#create-api}
 

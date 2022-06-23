@@ -2,10 +2,10 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 52cc27108ed4d99511ef612c0bd81d3435d1f45b
+source-git-commit: a60afd8a2948da5386b75421ffdb36735ed091e6
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 42%
+source-wordcount: '352'
+ht-degree: 36%
 
 ---
 
@@ -24,7 +24,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <table>
 <thead>
 <tr>
-<th><strong>Enviar SMS a sus usuarios</strong><br/></th>
+<th><strong>Enviar SMS a los usuarios (disponibilidad limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -34,7 +34,8 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <p></p>
 <p>Ahora puede crear, personalizar y enviar SMS en Journey Optimizer mediante una integración con <b>Sinch</b> o <b>Twilio</b>.</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>Para obtener más información, consulte la <a href="../messages/create-sms.md">documentación detallada</a>.</p>
+<p>Actualmente, el canal SMS solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, póngase en contacto con el representante del Adobe.</p>
+<p>Aprenda a crear y enviar un SMS en esta <a href="../messages/create-sms.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>

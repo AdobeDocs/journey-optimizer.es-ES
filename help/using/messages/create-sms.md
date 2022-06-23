@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: 067453ee3c19c7f269b4b1791ead8b5421adf95b
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 15%
+source-wordcount: '262'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->Las regulaciones requieren que los destinatarios de SMS puedan responder con palabras clave de inclusión y exclusión. Adobe Journey Optimizer procesa automáticamente las siguientes palabras clave: Iniciar, parar y sin parar.
+>Actualmente, el canal SMS solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, póngase en contacto con el representante del Adobe.
 
 Una vez que [crear un mensaje](get-started-content.md), use el **[!UICONTROL SMS]** para definir la configuración y el contenido del canal SMS.
 
@@ -49,6 +49,10 @@ Para empezar a personalizar el mensaje SMS, siga estos pasos:
 1. Una vez que el mensaje esté listo, puede publicarlo para que esté disponible para la ejecución con la variable **[!UICONTROL Publish]** botón. Esta acción publicará la nueva versión del mensaje que se utilizará para las próximas ejecuciones en sus recorridos.
 
 El mensaje SMS ahora se puede usar en un recorrido. [Obtenga información sobre cómo crear recorridos](../building-journeys/journey-gs.md).
+
+## Inclusión y exclusión{#sms-opt-in-out}
+
+Los destinatarios de SMS pueden responder con palabras clave de inclusión y exclusión. De acuerdo con las normas y regulaciones del sector, Adobe Journey Optimizer procesa automáticamente las siguientes palabras clave en los mensajes entrantes: START, STOP y UNSTOP. Estas palabras clave déclencheur las respuestas estándar automáticas del proveedor de SMS.
 
 **Temas relacionados**
 
