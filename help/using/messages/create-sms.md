@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 9%
@@ -57,7 +57,6 @@ Para visualizar la visualización de su mensaje SMS en dispositivos móviles, va
 
 Para obtener más información, consulte [esta sección](../design/preview.md).
 
-
 ## Publicar su SMS {#sms-publish}
 
 Una vez que el mensaje esté listo, puede publicarlo para que esté disponible para la ejecución con la variable **[!UICONTROL Publish]** botón. Esta acción publica la nueva versión del mensaje que se utilizará para las próximas ejecuciones en sus recorridos.
@@ -69,7 +68,6 @@ El mensaje SMS ahora se puede usar en un recorrido. [Obtenga información sobre 
 Para todos los mensajes de marketing, el SMS debe contener una forma para que los destinatarios puedan cancelar la suscripción fácilmente. Una vez cancelada la suscripción, los perfiles se eliminan automáticamente de la audiencia de futuros mensajes de marketing. La adición de un vínculo de baja no es obligatoria para los mensajes transaccionales.
 
 Los destinatarios de SMS pueden responder con palabras clave de inclusión y exclusión. De acuerdo con las normas y regulaciones del sector, Adobe Journey Optimizer procesa automáticamente las siguientes palabras clave en los mensajes entrantes: START, STOP y UNSTOP. Estas palabras clave déclencheur las respuestas estándar automáticas del proveedor de SMS.
-
 
 **Temas relacionados**
 

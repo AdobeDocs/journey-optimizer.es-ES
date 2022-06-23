@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 0%
+source-wordcount: '1605'
+ht-degree: 1%
 
 ---
 
@@ -24,6 +24,7 @@ El recorrido **[!UICONTROL Global report]** se muestra con las siguientes pesta�
 * [ Recorrido ](#journey-global)
 * [Correo electrónico](#email-global)
 * [Push](#push-global)
+* [SMS](#sms-global)
 
 El recorrido **[!UICONTROL Global report]** se divide en distintas utilidades que detallan el éxito y los errores de su recorrido. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](global-report.md#modify-dashboard).
 

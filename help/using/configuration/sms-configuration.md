@@ -4,7 +4,7 @@ description: Aprenda a configurar su entorno para enviar mensajes SMS con Journe
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 3%
@@ -70,7 +70,7 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
    * Seleccione el **[!UICONTROL SMS configuration]** para asociarlo al ajuste preestablecido.
 
-      Para obtener más información sobre cómo configurar su entorno para enviar mensajes SMS, consulte [esta sección](sms-configuration.md).
+      Para obtener más información sobre cómo configurar su entorno para enviar mensajes SMS, consulte [esta sección](#create-api).
 
    * Introduzca la variable **[!UICONTROL Sender number]** &#x200B; desea utilizar para sus comunicaciones.
 

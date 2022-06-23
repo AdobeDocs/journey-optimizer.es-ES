@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '896'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,7 @@ El recorrido **[!UICONTROL Live report]** se muestra con las siguientes pestaña
 * [ Recorrido ](#journey-live)
 * [Correo electrónico](#email-live)
 * [Push](#push-live)
+* [SMS](#sms-live)
 
 El recorrido **[!UICONTROL Live report]** se divide en distintas utilidades que detallan el éxito y los errores de su recorrido. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](live-report.md#modify-dashboard).
 

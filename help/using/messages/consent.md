@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
-workflow-type: ht
-source-wordcount: '1259'
-ht-degree: 100%
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+workflow-type: tm+mt
+source-wordcount: '1314'
+ht-degree: 95%
 
 ---
 
@@ -113,7 +113,7 @@ Cuerpo de la solicitud:
 }
 ```
 
-[!DNL Journey Optimizer] utilizará estos parámetros para actualizar la elección del perfil correspondiente a través de la llamada de la API de [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}.
+[!DNL Journey Optimizer] utilizará estos parámetros para actualizar la elección del perfil correspondiente a través de la llamada de la API de [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}.
 
 #### Enviar el mensaje con el vínculo de cancelación de suscripción {#send-message-unsubscribe-link}
 
@@ -203,10 +203,17 @@ Según el cliente de correo electrónico, hacer clic en el vínculo de cancelaci
    >
    >Si no agrega un vínculo de no participación de un clic al contenido del mensaje, no se mostrará ninguna página de aterrizaje.
 
-* El perfil correspondiente se excluye inmediatamente y esta opción se actualiza en Experience Platform. Obtenga más información en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target=&quot;_blank&quot;}.
+* El perfil correspondiente se excluye inmediatamente y esta opción se actualiza en Experience Platform. Obtenga más información en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
 ## Administración de exclusiones push {#push-opt-out-management}
 
 Los destinatarios push pueden cancelar la suscripción a través de sus propios dispositivos.
 
 Por ejemplo, al descargar o al usar la aplicación, pueden seleccionar detener las notificaciones. Del mismo modo, pueden cambiar la configuración de notificación a través del sistema operativo móvil.
+
+## Administración de exclusión de SMS {#sms-opt-out-management}
+
+De acuerdo con las normas y regulaciones del sector, los destinatarios de SMS pueden responder con las palabras clave de inclusión y exclusión.
+Adobe Journey Optimizer procesa automáticamente las siguientes palabras clave en los mensajes entrantes: START, STOP y UNSTOP. Estas palabras clave déclencheur las respuestas estándar automáticas del proveedor de SMS.
+
+Para obtener más información sobre la exclusión de SMS, consulte esta [página](../messages/create-sms.md#opt-in-and-opt-out).
