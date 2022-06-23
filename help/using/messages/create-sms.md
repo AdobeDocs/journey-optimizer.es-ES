@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 67fcddc77ad5493905a0f1894a0cf497b0bfa2f9
+source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 12%
+source-wordcount: '384'
+ht-degree: 9%
 
 ---
 
@@ -20,13 +20,18 @@ ht-degree: 12%
 >title="Creación de SMS"
 >abstract="Añada el mensaje de texto y comience a personalizarlo con el Editor de expresiones."
 
+Una vez que [crear un mensaje](get-started-content.md), use el **[!UICONTROL SMS]** para definir la configuración y el contenido del mensaje SMS.
+
+
 >[!AVAILABILITY]
 >
 >Actualmente, el canal SMS solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, póngase en contacto con el representante del Adobe.
 
-Una vez que [crear un mensaje](get-started-content.md), use el **[!UICONTROL SMS]** para definir la configuración y el contenido del canal SMS.
-
 ![](assets/sms_1.png)
+
+Si es la primera vez que crea un mensaje SMS, asegúrese de que el canal SMS esté configurado. [Más información](../configuration/sms-configuration.md).
+
+## Definir el contenido del SMS{#sms-content}
 
 Para empezar a personalizar el mensaje SMS, siga estos pasos:
 
@@ -34,25 +39,37 @@ Para empezar a personalizar el mensaje SMS, siga estos pasos:
 
    ![](assets/sms_3.png)
 
-1. Utilice el Editor de expresiones para definir el contenido y los datos de personalización. Obtenga más información sobre personalización en el Editor de expresiones en [esta sección](../personalization/personalize.md)
+1. Utilice el Editor de expresiones para definir el contenido. Puede utilizar cualquier atributo para personalizar el contenido, como el nombre del perfil o la ciudad. Obtenga más información sobre personalización en el Editor de expresiones en [esta sección](../personalization/personalize.md)
 
    >[!NOTE]
    >
-   > Los mensajes SMS están limitados a una longitud de 160 caracteres.
+   > Un mensaje SMS puede tener hasta 160 caracteres, incluidos espacios y saltos de línea.
 
    ![](assets/sms_2.png)
 
-1. Haga clic en **[!UICONTROL Save]** cuando el mensaje personalizado esté listo.
+1. Haga clic en **[!UICONTROL Save]** cuando el mensaje esté listo.
 
-1. Haga clic en **[!UICONTROL Preview]** para visualizar cómo se mostrará su mensaje SMS en los dispositivos móviles. Para obtener más información, consulte [esta sección](../design/preview.md).
+## Validar el SMS{#sms-preview}
 
-1. Una vez que el mensaje esté listo, puede publicarlo para que esté disponible para la ejecución con la variable **[!UICONTROL Publish]** botón. Esta acción publicará la nueva versión del mensaje que se utilizará para las próximas ejecuciones en sus recorridos.
+Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo. Si ha insertado [contenido personalizado](../personalization/personalize.md), puede comprobar cómo se muestra este contenido en el mensaje, aprovechando los datos de perfil de prueba.
+
+Para visualizar la visualización de su mensaje SMS en dispositivos móviles, vaya a la **[!UICONTROL Preview]** pestaña .
+
+Para obtener más información, consulte [esta sección](../design/preview.md).
+
+
+## Publicar su SMS {#sms-publish}
+
+Una vez que el mensaje esté listo, puede publicarlo para que esté disponible para la ejecución con la variable **[!UICONTROL Publish]** botón. Esta acción publica la nueva versión del mensaje que se utilizará para las próximas ejecuciones en sus recorridos.
 
 El mensaje SMS ahora se puede usar en un recorrido. [Obtenga información sobre cómo crear recorridos](../building-journeys/journey-gs.md).
 
 ## Inclusión y exclusión{#sms-opt-in-out}
 
+Para todos los mensajes de marketing, el SMS debe contener una forma para que los destinatarios puedan cancelar la suscripción fácilmente. Una vez cancelada la suscripción, los perfiles se eliminan automáticamente de la audiencia de futuros mensajes de marketing. La adición de un vínculo de baja no es obligatoria para los mensajes transaccionales.
+
 Los destinatarios de SMS pueden responder con palabras clave de inclusión y exclusión. De acuerdo con las normas y regulaciones del sector, Adobe Journey Optimizer procesa automáticamente las siguientes palabras clave en los mensajes entrantes: START, STOP y UNSTOP. Estas palabras clave déclencheur las respuestas estándar automáticas del proveedor de SMS.
+
 
 **Temas relacionados**
 
