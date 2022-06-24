@@ -2,7 +2,7 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a60afd8a2948da5386b75421ffdb36735ed091e6
+source-git-commit: bd30bbd6ac1230bdb02e1b5a4f9eba19c1fa2ccc
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 36%
@@ -51,7 +51,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <tbody>
 <tr>
 <td>
-<p>Fecha de disponibilidad: <b>23 de junio</b></p>
+<p>Fecha de disponibilidad: <b>27 de junio</b></p>
 <p></p>
 <p>El complemento de integración de Adobe Stock y Adobe Journey Optimizer Email Designer proporciona a los clientes una forma sencilla de navegar, obtener licencias y guardar imágenes para utilizarlas en la creación de mensajes. </br> El nuevo <b>Buscar fotos similares de Stock</b> también le permite localizar fotos de almacenamiento que coincidan con el contenido, el color y la composición de las imágenes. </p>
 <img src="assets/do-not-localize/stock-rn.gif"/>
