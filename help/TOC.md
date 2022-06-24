@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -62,15 +62,15 @@ ht-degree: 96%
    + Configuración de correo electrónico {#design-email}
       + [Generar la versión de texto](using/design/text-version-email.md)
       + [Añadir un encabezado previo](using/design/preheader.md)
-   + Adición y administración de activos {#manage-asset}
+   + Adición y administración de recursos {#manage-asset}
       + [Trabajar con Assets Essentials](using/design/assets-essentials.md)
       + [Trabajar con Adobe Stock](using/design/stock.md)
    + [Adición de ofertas personalizadas](using/design/deliver-personalized-offers.md)
    + [Adición de vínculos y seguimiento de mensajes](using/design/message-tracking.md)
    + [Previsualización y pruebas](using/design/preview.md)
-+ Páginas de destino {#landing-pages}
-   + [Introducción a las páginas de destino](using/landing-pages/get-started-lp.md)
-   + [Creación de una página de destino](using/landing-pages/create-lp.md)
++ Páginas de aterrizaje {#landing-pages}
+   + [Introducción a las páginas de aterrizaje](using/landing-pages/get-started-lp.md)
+   + [Creación de una página de aterrizaje](using/landing-pages/create-lp.md)
    + Diseño de contenido de {#landing-pages-design}
       + [Acerca del diseño de página de aterrizaje](using/landing-pages/design-lp.md)
       + [Creación del contenido de la página de aterrizaje](using/landing-pages/lp-content.md)
@@ -263,9 +263,9 @@ ht-degree: 96%
    + Capacidad de entrega {#deliverability}
       + [Introducción a la capacidad de entrega](using/reports/deliverability.md)
       + [Acerca de la lista de supresión](using/reports/suppression-list.md)
-+ Administración de decisiones {#offer-decisioniong}
-   + Introducción a la Administración de decisiones {#get-started-decision}
-      + [Acerca de la Administración de decisiones](using/offers/get-started/starting-offer-decisioning.md)
++ Gestión de decisiones {#offer-decisioniong}
+   + Introducción a la Gestión de decisiones {#get-started-decision}
+      + [Acerca de la Gestión de decisiones](using/offers/get-started/starting-offer-decisioning.md)
       + [Interfaz de usuario](using/offers/get-started/user-interface.md)
       + [Pasos clave para crear y administrar ofertas](using/offers/offer-library/key-steps.md)
       + [Caso práctico: insertar ofertas en un correo electrónico](using/offers/offers-e2e.md)
@@ -294,9 +294,9 @@ ht-degree: 96%
       + [Crear decisiones](using/offers/offer-activities/create-offer-activities.md)
       + [Configurar selección de ofertas en decisiones](using/offers/offer-activities/configure-offer-selection.md)
       + [Creación de simulaciones](using/offers/offer-activities/simulation.md)
-   + Creación de informes de Administración de decisiones {#create-reports}
-      + [Introducción a los eventos de Administración de decisiones](using/offers/reports/get-started-events.md)
-      + [Información clave sobre eventos de Administración de decisiones](using/offers/reports/key-information.md)
+   + Creación de informes de Gestión de decisiones {#create-reports}
+      + [Introducción a los eventos de Gestión de decisiones](using/offers/reports/get-started-events.md)
+      + [Información clave sobre eventos de Gestión de decisiones](using/offers/reports/key-information.md)
       + [Campos XDM de eventos de acceso](using/offers/reports/xdm-fields.md)
    + Exportación del catálogo de ofertas {#export-catalog}
       + [Introducción a la exportación del catálogo de ofertas ](using/offers/export-catalog/get-started-export.md)
@@ -384,9 +384,9 @@ ht-degree: 96%
       + Configuración de ajustes preestablecidos de mensaje {#set-up-message-presets}
          + [Creación de ajustes preestablecidos de mensaje](using/configuration/message-presets.md)
          + [Configuración de correo electrónico](using/configuration/email-settings.md)
-         + [Usar correo electrónico CCO](using/configuration/bcc-email.md)
+         + [Usar CCO del correo electrónico](using/configuration/bcc-email.md)
       + [Administrar direcciones de ejecución](using/configuration/primary-email-addresses.md)
-      + [Configuración de reglas de frecuencia](using/configuration/frequency-rules.md)
+      + [Configuración de las reglas de frecuencia](using/configuration/frequency-rules.md)
    + Configuración de las páginas de aterrizaje {#lp-configuration}
       + [Configurar subdominios de página de aterrizaje](using/configuration/lp-subdomains.md)
       + [Definir ajustes preestablecidos de página de aterrizaje](using/configuration/lp-presets.md)
@@ -418,7 +418,7 @@ ht-degree: 96%
    + [Perfiles de producto integrados](using/administration/ootb-product-profiles.md)
    + [Administrar usuarios y perfiles de producto](using/administration/permissions.md)
    + [Niveles de permisos](using/administration/high-low-permissions.md)
-   + [Administración de entornos limitados](using/administration/sandboxes.md)
+   + [Administración de zonas protegidas](using/administration/sandboxes.md)
    + [Control de acceso basado en atributos](using/administration/attribute-based-access.md)
 + Privacidad {#privacy}
    + [Políticas de uso de datos](using/privacy/policies.md)
