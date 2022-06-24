@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: d172be602766a22c51018376d81de363c0ffe54b
+source-git-commit: d953fc78ffdc5c84823a903e0b4032b45f45bfcd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '570'
+ht-degree: 1%
 
 ---
 
@@ -21,11 +21,11 @@ La variable [!DNL Adobe Stock] y [!DNL Adobe Journey Optimizer] El complemento d
 
 [Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;} proporciona acceso a millones de fotos, vídeos, ilustraciones y gráficos vectoriales de alta calidad, depurados y sin derechos de autor. Puede elegir adquirir un paquete de crédito para obtener la licencia de los activos o comprar una licencia Standard o Extended para el activo necesario. Adobe Stock también ofrece una recopilación gratuita de recursos.
 
-con [!DNL Adobe Journey Optimizer], puede cargar imágenes en los correos electrónicos directamente desde [!DNL Adobe Stock] y agréguelo a la carpeta Assets. La variable **[!UICONTROL Find Similar Image]** ayuda a encontrar imágenes que coincidan con el contenido, el color y la composición del recurso utilizado en la entrega.
+con [!DNL Adobe Journey Optimizer], puede cargar imágenes en los correos electrónicos directamente desde [!DNL Adobe Stock] y agréguelo a la carpeta Assets utilizando **[!UICONTROL Find Adobe Stock photos]** . Además, la variable **[!UICONTROL Find Similar Image]** ayuda a encontrar imágenes que coincidan con el contenido, el color y la composición del recurso utilizado en la entrega.
 
 ## Permisos{#stock-permissions}
 
-La variable **[!UICONTROL Find Adobe Stock photos]** está disponible para los usuarios con acceso a un perfil de producto de AEM Assets Essentials.
+La variable **[!UICONTROL Find Adobe Stock photos]** y **[!UICONTROL Find Similar Image]** están disponibles para los usuarios con acceso a un perfil de producto de AEM Assets Essentials.
 
 Para obtener más información, consulte [Documentación esencial de Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target=&quot;_blank&quot;}.
 
