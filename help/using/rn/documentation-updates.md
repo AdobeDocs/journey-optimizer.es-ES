@@ -2,10 +2,10 @@
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 33b079e0ee1d81e06de24f7170a5f29e10df657b
+source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 91%
+source-wordcount: '1590'
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha actualizado la página de actividad Espera . [Más información](../building-journeys/wait-activity.md)
 * Se ha añadido la lista de conjuntos de datos de Adobe Journey Optimizer con ejemplos de consultas. [Más información](../start/datasets-query-examples.md)
 * La página Lista de permitidos se ha movido a la sección Configuración . [Más información](../configuration/allow-list.md)
-* Se ha actualizado la página de lista de supresión. [Más información](../configuration/manage-suppression-list.md)
+* La página de la lista de supresión se ha actualizado para aclarar cierta información, incluido el hecho de que todos los caracteres ASCII comprendidos entre 32 y 126 están permitidos en el campo de motivos de supresión. [Más información](../configuration/manage-suppression-list.md)
 * Se ha añadido el vínculo a las barreras y los límites estáticos para la gestión de la Decisión. [Más información](../start/guardrails.md)
 
 
