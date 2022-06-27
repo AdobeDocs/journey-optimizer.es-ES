@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: d953fc78ffdc5c84823a903e0b4032b45f45bfcd
+source-git-commit: 7f524b7ed9092465be996eeca36e6102e8e1c405
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 1%
@@ -21,7 +21,7 @@ La variable [!DNL Adobe Stock] y [!DNL Adobe Journey Optimizer] El complemento d
 
 [Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;} proporciona acceso a millones de fotos, vídeos, ilustraciones y gráficos vectoriales de alta calidad, depurados y sin derechos de autor. Puede elegir adquirir un paquete de crédito para obtener la licencia de los activos o comprar una licencia Standard o Extended para el activo necesario. Adobe Stock también ofrece una recopilación gratuita de recursos.
 
-con [!DNL Adobe Journey Optimizer], puede cargar imágenes en los correos electrónicos directamente desde [!DNL Adobe Stock] y agréguelo a la carpeta Assets utilizando **[!UICONTROL Find Adobe Stock photos]** . Además, la variable **[!UICONTROL Find Similar Image]** ayuda a encontrar imágenes que coincidan con el contenido, el color y la composición del recurso utilizado en la entrega.
+con [!DNL Adobe Journey Optimizer], puede cargar imágenes en los correos electrónicos directamente desde [!DNL Adobe Stock] y agréguelo a la carpeta Assets utilizando **[!UICONTROL Find Adobe Stock photos]** . Además, la variable **[!UICONTROL Find Similar Stock photos]** ayuda a encontrar imágenes que coincidan con el contenido, el color y la composición del recurso utilizado en la entrega.
 
 ## Permisos{#stock-permissions}
 
