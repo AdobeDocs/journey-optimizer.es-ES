@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 1%
@@ -155,6 +155,8 @@ La variable **[!UICONTROL Sending statistics - Failed]** permite ver cuántos er
 La variable **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** y **[!UICONTROL Breakdown by platform]** gráficos y tablas detallan el éxito de la notificación push en función del sistema operativo.
 
 ## Ficha SMS {#sms-live}
+
+![](assets/report_sms_live.png)
 
 La variable **[!UICONTROL SMS - Sending statistics]** La tabla detalla el éxito de la entrega:
 

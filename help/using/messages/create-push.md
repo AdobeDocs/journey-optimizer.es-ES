@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1423'
 ht-degree: 11%
 
 ---
@@ -94,6 +94,11 @@ En la versión de iOS, puede añadir hasta cuatro botones. En la versión de And
 
 ## Enviar una notificación silenciosa {#silent-notification}
 
+>[!CONTEXTUALHELP]
+>id="ajo_message_push_silent_notification"
+>title="Acerca de la notificación silenciosa"
+>abstract="Envíe notificaciones sin molestar al usuario, las notificaciones no se muestran en el centro de notificaciones ni en la barra de notificaciones."
+
 Una notificación push silenciosa (o notificación en segundo plano) es una instrucción oculta que se envía a la aplicación. Se utiliza, por ejemplo, para notificar a la aplicación la disponibilidad de contenido nuevo o iniciar una descarga en segundo plano.
 
 Seleccione el **[!UICONTROL Silent Notification]** para notificar de forma silenciosa a la aplicación: en este caso, la notificación se transfiere directamente a la solicitud. No se muestra ninguna alerta en la pantalla del dispositivo.
@@ -128,5 +133,5 @@ Puede configurar **[!UICONTROL Advanced options]** para la notificación push. A
 -->
 
 * [Configurar el canal push](../configuration/push-gs.md)
-* [Crear un nuevo mensaje](get-started-content.md)
+* [Crear un mensaje nuevo](get-started-content.md)
 * [Adición de un mensaje en un recorrido](../building-journeys/journeys-message.md)

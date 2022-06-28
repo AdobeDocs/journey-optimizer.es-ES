@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
 workflow-type: tm+mt
 source-wordcount: '1605'
 ht-degree: 1%
@@ -253,6 +253,8 @@ La variable **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by plat
 El SMS **[!UICONTROL Global report]** se divide en distintas utilidades que detallan el éxito y los errores de su envío. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](global-report.md#modify-dashboard).
 
 ## Ficha SMS {#sms-global}
+
+![](assets/report_sms_global.png)
 
 La variable **[!UICONTROL SMS - Sending statistics]** La tabla detalla el éxito de la entrega:
 
