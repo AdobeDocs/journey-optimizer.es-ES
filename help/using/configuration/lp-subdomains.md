@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo configurar subdominios de páginas
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
+source-git-commit: 911df5b5b81c0e803c41e4e12817c4773d498b73
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 1%
@@ -59,7 +59,7 @@ Para utilizar un subdominio que ya está delegado en Adobe, siga los pasos a con
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   Tenga en cuenta que no se pueden usar varios subdominios delegados del mismo dominio principal. Por ejemplo: si marketing1.yourcompany.com ya está delegado a Adobe para sus páginas de aterrizaje, no podrá utilizar marketing2.yourcompany.com. Sin embargo, los subdominios de varios niveles son compatibles con las páginas de aterrizaje, por lo que puede utilizar &quot;email.marketing1.yourcompany.com&quot;.
+   Tenga en cuenta que no se pueden usar varios subdominios delegados del mismo dominio principal. Por ejemplo: si &quot;marketing1.yourcompany.com&quot; ya está delegado a Adobe para sus páginas de aterrizaje, no podrá utilizar &quot;marketing2.yourcompany.com&quot;. Sin embargo, los subdominios de varios niveles son compatibles con las páginas de aterrizaje, por lo que puede utilizar &quot;email.marketing1.yourcompany.com&quot;.
 
    <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
 
