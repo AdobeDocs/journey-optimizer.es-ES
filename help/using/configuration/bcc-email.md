@@ -1,13 +1,14 @@
 ---
-title: Usar correo electrónico CCO
+title: Usar CCO del correo electrónico
 description: Obtenga información sobre cómo configurar el correo electrónico CCO en el nivel de ajuste preestablecido de mensajes
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 4f6d018d5e5d127e5eb26b2d1b59dc0a248db45b
+exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
+source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1088'
 ht-degree: 3%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="Definir una dirección de correo electrónico CCO"
->abstract="Puede conservar una copia de los correos electrónicos enviados enviándolos a una bandeja de entrada BCC. Escriba la dirección de correo electrónico que desee para que cada correo electrónico enviado se copie de forma ciega a esta dirección de CCO. Esta función es opcional."
+>abstract="Puede conservar una copia de los correos electrónicos enviados enviándolos a una bandeja de entrada BCC. Escriba la dirección de correo electrónico que desee para que cada correo electrónico enviado se copie de forma ciega a esta dirección de CCO. Tenga en cuenta que el dominio de dirección de CCO no debe ser el mismo que cualquier subdominio delegado a Adobe. Esta función es opcional."
 
 Puede enviar una copia idéntica (o una copia ciega de un correo electrónico enviado por [!DNL Journey Optimizer] a una bandeja de entrada BCC. Esta función opcional le permite conservar copias de las comunicaciones por correo electrónico que envía a sus usuarios para que cumplan con las normas o las archiven. Esto es invisible para los destinatarios de la entrega.
 
 ## Habilitar correo electrónico CCO {#enable-bcc}
 
-Para habilitar la variable **[!UICONTROL BCC email]** , introduzca la dirección de correo electrónico que desee en el campo dedicado. Puede especificar cualquier dirección externa en el formato correcto, excepto una dirección de correo electrónico definida en el subdominio delegado. Por ejemplo, si el subdominio delegado es *marketing.luma.com*, cualquier dirección como *abc@marketing.luma.com* está prohibido.
+Para habilitar la variable **[!UICONTROL BCC email]** , introduzca la dirección de correo electrónico que desee en el campo dedicado. Puede especificar cualquier dirección externa en el formato correcto, excepto una dirección de correo electrónico definida en un subdominio delegado a Adobe. Por ejemplo, si delegó el *marketing.luma.com* subdominio a Adobe, cualquier dirección como *abc@marketing.luma.com* está prohibido.
 
 >[!NOTE]
 >

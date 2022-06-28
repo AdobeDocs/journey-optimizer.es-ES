@@ -3,10 +3,11 @@ title: Configurar subdominios de página de aterrizaje
 description: Obtenga información sobre cómo configurar subdominios de páginas de aterrizaje con Journey Optimizer
 role: Admin
 level: Intermediate
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
+source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 0%
+source-wordcount: '687'
+ht-degree: 1%
 
 ---
 
@@ -58,6 +59,10 @@ Para utilizar un subdominio que ya está delegado en Adobe, siga los pasos a con
 
    ![](assets/lp_prefix-and-subdomain.png)
 
+   Tenga en cuenta que no se pueden usar varios subdominios delegados del mismo dominio principal. Por ejemplo: si marketing1.yourcompany.com ya está delegado a Adobe para sus páginas de aterrizaje, no podrá utilizar marketing2.yourcompany.com. Sin embargo, los subdominios de varios niveles son compatibles con las páginas de aterrizaje, por lo que puede utilizar &quot;email.marketing1.yourcompany.com&quot;.
+
+   <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
+
    >[!CAUTION]
    >
    >Si selecciona un dominio delegado a Adobe mediante la variable [método CNAME](delegate-subdomain.md#cname-subdomain-delegation), debe crear el registro DNS en la plataforma de alojamiento. Para generar el registro DNS, el proceso es el mismo que al configurar un nuevo subdominio de página de aterrizaje. Obtenga información sobre cómo [esta sección](#lp-configure-new-subdomain).
@@ -99,7 +104,11 @@ Para configurar un nuevo subdominio, siga los pasos a continuación.
 
    No se permite delegar un subdominio no válido al Adobe. Asegúrese de introducir un subdominio válido que sea propiedad de su organización, como marketing.yourcompany.com.
 
-   Los subdominios de varios niveles, como &quot;email.marketing.yourcompany.com&quot;, no son compatibles actualmente.
+   >[!NOTE]
+   >
+   >En el caso de las páginas de aterrizaje, se admiten subdominios de varios niveles. Por ejemplo, puede utilizar &quot;email.marketing.yourcompany.com&quot;.
+
+   <!--Journey Optimizer currently does not support multiple subdomains of the same parent domain for landing page configuration-->
 
 1. Se muestra el registro que se va a colocar en los servidores DNS. Copie este registro o descargue un archivo CSV y, a continuación, vaya a la solución de alojamiento de dominios para generar el registro DNS correspondiente.
 
