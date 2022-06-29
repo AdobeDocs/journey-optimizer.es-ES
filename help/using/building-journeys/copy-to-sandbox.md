@@ -5,11 +5,9 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
+source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -80,7 +78,7 @@ Se copian los siguientes objetos:
 
 * Segmento
 
-   Un segmento solo se puede copiar una vez de un simulador para pruebas a otro. Las solicitudes posteriores para copiar el segmento darán error. Una vez copiado un segmento, no se puede editar en el entorno limitado de destino.
+   Un segmento solo se puede copiar una vez de un simulador para pruebas a otro. Una vez copiado un segmento, no se puede editar en el entorno limitado de destino.
 
 * Esquema
 
@@ -103,4 +101,8 @@ Se copian los siguientes objetos:
    Se copian las acciones y los detalles de acción utilizados en el recorrido.
 
 Los ajustes preestablecidos no se copian. El sistema selecciona automáticamente la coincidencia más cercana posible en el entorno limitado de destino, según el tipo de mensaje y el nombre del ajuste preestablecido. Si no se encuentran ajustes preestablecidos en el entorno limitado de destino, la copia preestablecida fallará. Esto significa que la copia del mensaje también fallará porque un mensaje requiere un ajuste preestablecido para estar disponible para la configuración. En este caso, es necesario crear al menos un ajuste preestablecido para que funcione la copia para el canal correcto del mensaje.
+
+En el caso de esquemas, políticas de combinación y segmentos, la segunda vez que estos objetos intenten copiarse, solo se hará referencia a ellos. Se tratarán como objetos que ya existen y se copiarán de nuevo. Esto significa que estos objetos solo se pueden copiar una vez.
+
+Transcurridos cinco minutos, Adobe Journey Optimizer puede hacer referencia a esquemas, políticas de combinación y segmentos sin que aparezca un error en el lienzo. Espere cinco minutos y estas referencias estarán disponibles.
 
