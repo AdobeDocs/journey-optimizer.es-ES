@@ -2,10 +2,10 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
+source-git-commit: 108a7aab025aa92fab59c26d0bf5bf5339b81bb3
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 35%
+source-wordcount: '447'
+ht-degree: 31%
 
 ---
 
@@ -92,22 +92,21 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 </tbody>
 </table>-->
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Copy objects between sandboxes</strong><br/></th>
+<th><strong>Copiar objetos entre entornos limitados</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now re-create the experiences from a Journey Optimizer sandbox to another, for example from a non-production sandbox to a production sandbox. This new capability copies an entire Journey, including any objects the Journey depends on to run correctly, from one environment to another. In addition to Journeys, you can also copy other components, such as Offers, Messages, Schemas, Datasets, Data Sources, Events, and Actions.</p>
-<p>This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>Ahora puede volver a crear las experiencias de un simulador para pruebas de Journey Optimizer a otro, por ejemplo, de un simulador para pruebas que no sean de producción a un simulador para pruebas de producción. Esta nueva funcionalidad copia un Recorrido completo, incluidos los objetos de los que depende el Recorrido, para ejecutarse correctamente, de un entorno a otro. Además de los Recorridos, también puede copiar otros componentes, como Ofertas, Mensajes, Esquemas, Conjuntos de datos, Fuentes de datos, Eventos y Acciones.</p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/copy-to-sandbox.md">documentación detallada</a>.
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <!--table>
 <thead>
