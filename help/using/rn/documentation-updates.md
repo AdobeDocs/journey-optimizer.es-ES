@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
 workflow-type: tm+mt
 source-wordcount: '1606'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -16,17 +16,17 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Junio de 2022 {#june-2022}
 
-* Todas las nuevas funciones y mejoras incluidas [!DNL Journey Optimizer] La versión del 22 de junio se ha detallado en la documentación. [Más información](release-notes.md)
-* Se ha añadido una nueva sección sobre las políticas de uso de datos a la documentación. [Más información](../privacy/policies.md)
-* Se ha añadido una nueva sección sobre solicitudes de privacidad a la documentación. [Más información](../privacy/requests.md)
-* Se ha añadido a la documentación una nueva sección sobre los registros de auditoría de los recursos. [Más información](../privacy/audit-logs.md)
-* Se ha añadido a la documentación una nueva sección sobre cómo añadir contenido HTML o JSON procedente de la biblioteca de Adobe Experience Cloud Asset a una representación de oferta. [Más información](../offers/offer-library/add-representations.md#html-json)
+* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de junio de 2022 se han incluido en la documentación. [Más información](release-notes.md)
+* Se ha añadido una nueva sección acerca de las políticas de uso de datos a la documentación. [Más información](../privacy/policies.md)
+* Se ha añadido una nueva sección acerca de solicitudes de privacidad a la documentación. [Más información](../privacy/requests.md)
+* Se ha añadido una nueva sección acerca de los registros de auditoría de los recursos a la documentación. [Más información](../privacy/audit-logs.md)
+* Se ha añadido a la documentación una nueva sección acerca de cómo añadir contenido HTML o JSON procedente de la biblioteca de recursos de Adobe Experience Cloud a una representación de la oferta. [Más información](../offers/offer-library/add-representations.md#html-json)
 * Se ha añadido una nueva página sobre el ciclo de vida del recorrido. [Más información](../building-journeys/journey-end.md)
-* Se ha actualizado la página de actividad Espera . [Más información](../building-journeys/wait-activity.md)
+* Se ha actualizado la página Actividad de espera. [Más información](../building-journeys/wait-activity.md)
 * Se ha añadido la lista de conjuntos de datos de Adobe Journey Optimizer con ejemplos de consultas. [Más información](../start/datasets-query-examples.md)
-* La página Lista de permitidos se ha movido a la sección Configuración . [Más información](../configuration/allow-list.md)
-* La página de la lista de supresión se ha actualizado para aclarar cierta información, incluido el hecho de que todos los caracteres ASCII comprendidos entre 32 y 126 están permitidos en el campo de motivos de supresión. [Más información](../configuration/manage-suppression-list.md)
-* Se ha añadido el vínculo a las barreras y los límites estáticos para la gestión de la Decisión. [Más información](../start/guardrails.md)
+* La página Lista de permitidos se ha movido a la sección Configuración. [Más información](../configuration/allow-list.md)
+* La página Lista de supresión se ha actualizado para aclarar cierta información, incluido el hecho de que todos los caracteres ASCII comprendidos entre 32 y 126 están permitidos en el campo de motivos de supresión. [Más información](../configuration/manage-suppression-list.md)
+* Se ha añadido el vínculo a las barreras y los límites estáticos para la administración de decisiones. [Más información](../start/guardrails.md)
 * La optimización del tiempo de envío ya está disponible para todos los clientes. Se ha eliminado la mención beta. [Más información](../building-journeys/journeys-message.md#send-time-optimization)
 
 

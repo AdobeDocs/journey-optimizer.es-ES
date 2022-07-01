@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -35,9 +35,9 @@ ht-degree: 96%
 + Campañas {#campaigns}
    + [Introducción a las campañas](using/campaigns/get-started-with-campaigns.md)
    + [Creación de una campaña](using/campaigns/create-campaign.md)
-   + [Modificar o detener una campaña](using/campaigns/modify-stop-campaign.md)
+   + [Modificación o detención de una campaña](using/campaigns/modify-stop-campaign.md)
    + Informes {#reports}
-      + [Informe de campaña en directo](using/campaigns/campaign-live-report.md)
+      + [Informe en directo de la campaña](using/campaigns/campaign-live-report.md)
       + [Informe global de la campaña](using/campaigns/campaign-global-report.md)
 + Mensajes {#messages}
    + [Introducción a los mensajes](using/messages/get-started-content.md)
@@ -53,7 +53,7 @@ ht-degree: 96%
    + [Empezar desde cero ](using/design/create-email-content.md)
    + [Importar el contenido del correo electrónico](using/design/existing-content.md)
    + [Codifique su propio contenido](using/design/code-content.md)
-   + [Trabajar con plantillas](using/design/email-templates.md)
+   + [Uso de plantillas](using/design/email-templates.md)
    + Diseño de contenido {#design-content}
       + [Uso de componentes de contenido](using/design/content-components.md)
       + [Configuración de fondo](using/design/backgrounds.md)
@@ -124,7 +124,7 @@ ht-degree: 96%
       + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
       + [Publicación del recorrido](using/building-journeys/publishing-the-journey.md)
       + [Administración de husos horarios](using/building-journeys/timezone-management.md)
-      + [Copiar un recorrido en otro simulador de pruebas](using/building-journeys/copy-to-sandbox.md)
+      + [Copia de un recorrido a otro entorno limitado](using/building-journeys/copy-to-sandbox.md)
       + [Resolución de problemas del recorrido](using/building-journeys/troubleshooting.md)
    + Actividades {#about-journey-building}
       + [Acerca de las actividades de recorrido](using/building-journeys/about-journey-activities.md)

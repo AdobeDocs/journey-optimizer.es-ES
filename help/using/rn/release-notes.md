@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 108a7aab025aa92fab59c26d0bf5bf5339b81bb3
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 31%
+ht-degree: 84%
 
 ---
 
@@ -24,7 +24,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <table>
 <thead>
 <tr>
-<th><strong>Enviar SMS a los usuarios (disponibilidad limitada)</strong><br/></th>
+<th><strong>Envío de SMS a los usuarios (disponibilidad limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -32,7 +32,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <td>
 <p>Ahora puede crear, personalizar y enviar SMS en Journey Optimizer mediante una integración con <b>Sinch</b> o <b>Twilio</b>.</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>Actualmente, el canal SMS solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, póngase en contacto con el representante del Adobe.</p>
+<p>Ahora mismo, el canal SMS solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.</p>
 <p>Aprenda a crear y enviar un SMS en esta <a href="../messages/create-sms.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -49,7 +49,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <tbody>
 <tr>
 <td>
-<p>El complemento de integración de Adobe Stock y Adobe Journey Optimizer Email Designer proporciona a los clientes una forma sencilla de navegar, obtener licencias y guardar imágenes para utilizarlas en la creación de mensajes. </br> El nuevo <b>Buscar fotos similares de Stock</b> también le permite localizar fotos de almacenamiento que coincidan con el contenido, el color y la composición de las imágenes. </p>
+<p>El complemento de integración del Diseñador de correo electrónico de Adobe Journey Optimizer y Adobe Stock proporciona a los clientes una forma sencilla de navegar, obtener licencias y guardar imágenes para utilizarlas en la creación de mensajes. </br> La nueva opción <b>Buscar fotografías similares de Stock</b> también le permite localizar fotos de Stock que coincidan con el contenido, el color y la composición de sus imágenes. </p>
 <img src="assets/do-not-localize/stock-rn.gif"/>
 <p>Para obtener más información, consulte la <a href="../design/stock.md">documentación detallada</a>.</p>
 </td>
@@ -60,13 +60,13 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <table>
 <thead>
 <tr>
-<th><strong>Utilice el correo electrónico CCO en todos sus correos electrónicos</strong><br/></th>
+<th><strong>Uso de CCO del correo electrónico en todos los correos electrónicos</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede utilizar la capacidad Email BCC (copia de seguridad ciega) para almacenar correos electrónicos enviados por Adobe Journey Optimizer. Active esta opción en los ajustes preestablecidos de correo electrónico para que cada correo electrónico enviado se copie de forma ciega en su dirección de CCO.</p>
+<p>Ahora puede utilizar la capacidad CCO del correo electrónico (copia de carbón oculta) para almacenar correos electrónicos enviados por Adobe Journey Optimizer. Active esta opción en los ajustes preestablecidos de correo electrónico para que cada correo electrónico enviado se copie de forma oculta en su dirección de CCO.</p>
 <img src="assets/do-not-localize/bcc-rn.gif"/>
 <p>Para obtener más información, consulte la <a href="../configuration/bcc-email.md">documentación detallada</a>.</p>
 </td>
@@ -129,12 +129,12 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 **Administración de decisiones**
 
-* **Compatibilidad con archivos HTML y JSON** : Ahora puede arrastrar y soltar archivos HTML y JSON externos de la biblioteca de Adobe Experience Cloud Asset en el contenido de la representación de ofertas. [Más información](../offers/offer-library/add-representations.md#html-json)
+* **Compatibilidad con archivos HTML y JSON**: ahora puede arrastrar y soltar archivos HTML y JSON externos de la biblioteca de recursos de Adobe Experience Cloud en el contenido de la representación de la oferta. [Más información](../offers/offer-library/add-representations.md#html-json)
 
 
 **Correo electrónico**
 
-* **Guardar como plantilla** - Ahora puede guardar un contenido de correo electrónico como plantilla y reutilizarlo al crear otros mensajes. [Más información](../design/email-templates.md)
+* **Guardar como plantilla**: ahora puede guardar un contenido de correo electrónico como plantilla y reutilizarlo al crear otros mensajes. [Más información](../design/email-templates.md)
 
 <!--
 **Journeys**
@@ -147,7 +147,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 <!--* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.-->
 
-* **Vista previa de los parámetros de URL de seguimiento** : Al configurar un ajuste preestablecido de mensaje, si define parámetros de seguimiento de URL, ahora se muestra una vista previa dinámica de la URL de seguimiento resultante. [Más información](../configuration/email-settings.md#url-tracking)
+* **Previsualizar parámetros de URL de seguimiento**: al configurar un ajuste preestablecido de mensaje, si define parámetros de seguimiento de URL, ahora se muestra la vista previa dinámica de la URL de seguimiento resultante. [Más información](../configuration/email-settings.md#url-tracking)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
