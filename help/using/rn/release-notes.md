@@ -2,10 +2,10 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 108a7aab025aa92fab59c26d0bf5bf5339b81bb3
+source-git-commit: fedc0f70f336a9fa7917ad34a06e4d1845c1fdd4
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 84%
+source-wordcount: '486'
+ht-degree: 78%
 
 ---
 
@@ -148,6 +148,10 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <!--* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.-->
 
 * **Previsualizar parámetros de URL de seguimiento**: al configurar un ajuste preestablecido de mensaje, si define parámetros de seguimiento de URL, ahora se muestra la vista previa dinámica de la URL de seguimiento resultante. [Más información](../configuration/email-settings.md#url-tracking)
+
+* **Creación de mensajes preestablecidos** - Ahora el tiempo de procesamiento al crear un ajuste preestablecido de mensaje solo puede tardar hasta 3 horas. [Más información](../configuration/message-presets.md#create-message-preset)
+
+* **Edición de grupos de IP** - Ahora el tiempo de procesamiento de la actualización del grupo de IP solo puede tardar hasta 3 horas. [Más información](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 

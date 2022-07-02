@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: b29ab43f56b64d5bf972a45036c639454b650099
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '526'
 ht-degree: 3%
 
 ---
@@ -79,7 +79,7 @@ Para editar un grupo de IP:
 La actualización es efectiva de forma inmediata o asincrónica, según el grupo de IP asociado a un [ajuste preestablecido de mensaje](message-presets.md) o no:
 
 * Si el grupo de IP es **not** seleccionada en un ajuste preestablecido de mensaje, la actualización es instantánea (**[!UICONTROL Success]** ).
-* Si el grupo IP **es** seleccionada en un ajuste preestablecido de mensaje, la actualización puede tardar entre 7 y 10 días hábiles (**[!UICONTROL Processing]** ).
+* Si el grupo IP **es** seleccionada en un ajuste preestablecido de mensaje, la actualización puede tardar hasta 3 horas (**[!UICONTROL Processing]** ).
 
 >[!NOTE]
 >
