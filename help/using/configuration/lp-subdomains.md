@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo configurar subdominios de páginas
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 911df5b5b81c0e803c41e4e12817c4773d498b73
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '699'
 ht-degree: 1%
 
 ---
@@ -59,9 +59,7 @@ Para utilizar un subdominio que ya está delegado en Adobe, siga los pasos a con
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   Tenga en cuenta que no se pueden usar varios subdominios delegados del mismo dominio principal. Por ejemplo: si &quot;marketing1.yourcompany.com&quot; ya está delegado a Adobe para sus páginas de aterrizaje, no podrá utilizar &quot;marketing2.yourcompany.com&quot;. Sin embargo, los subdominios de varios niveles son compatibles con las páginas de aterrizaje, por lo que puede utilizar &quot;email.marketing1.yourcompany.com&quot;.
-
-   <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
+   Tenga en cuenta que no se pueden usar varios subdominios delegados del mismo dominio principal. Por ejemplo: si &quot;marketing1.yourcompany.com&quot; ya está delegado a Adobe para sus páginas de aterrizaje, no podrá utilizar &quot;marketing2.yourcompany.com&quot;. Sin embargo, si se admiten subdominios de varios niveles para páginas de aterrizaje, puede continuar usando un subdominio de &quot;marketing1.yourcompany.com&quot; (como &quot;email.marketing1.yourcompany.com&quot;) o un dominio principal diferente.
 
    >[!CAUTION]
    >
@@ -107,8 +105,6 @@ Para configurar un nuevo subdominio, siga los pasos a continuación.
    >[!NOTE]
    >
    >En el caso de las páginas de aterrizaje, se admiten subdominios de varios niveles. Por ejemplo, puede utilizar &quot;email.marketing.yourcompany.com&quot;.
-
-   <!--Journey Optimizer currently does not support multiple subdomains of the same parent domain for landing page configuration-->
 
 1. Se muestra el registro que se va a colocar en los servidores DNS. Copie este registro o descargue un archivo CSV y, a continuación, vaya a la solución de alojamiento de dominios para generar el registro DNS correspondiente.
 

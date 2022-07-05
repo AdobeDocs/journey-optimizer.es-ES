@@ -2,10 +2,10 @@
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 99%
+source-wordcount: '1632'
+ht-degree: 97%
 
 ---
 
@@ -13,6 +13,9 @@ ht-degree: 99%
 
 Esta página enumera todas las actualizaciones de documentación de [!DNL Journey Optimizer].
 
+## Julio de 2022 {#july-2022}
+
+* La variable **Crear un ajuste preestablecido de mensaje** se ha aclarado y actualizado con vínculos a la página que describe cómo configurar el canal SMS. [Más información](../configuration/message-presets.md#create-message-preset)
 
 ## Junio de 2022 {#june-2022}
 
@@ -30,7 +33,6 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * La optimización del tiempo de envío ya está disponible para todos los clientes. Se ha eliminado la mención beta. [Más información](../building-journeys/journeys-message.md#send-time-optimization)
 
 
-
 ## Mayo de 2022 {#may-2022}
 
 * Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de mayo de 2022 se incluyen en la documentación. [Más información](release-notes.md)
@@ -41,7 +43,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha añadido una nota que indica que el método Delete no es compatible con las acciones personalizadas. [Más información](../action/about-custom-action-configuration.md)
 * Se han actualizado los vínculos a los vídeos explicativos.
 * Las secciones [Configuración de correo electrónico](../configuration/about-subdomain-delegation.md), [Ajustes preestablecidos de mensajes](../configuration/message-presets.md) y [Configuración de páginas de aterrizaje](../configuration/lp-subdomains.md) se reorganizaron para mejorar la legibilidad.
-* La sección **Seguimiento de URL** se actualizó y mejoró con ejemplos. [Más información](../configuration/email-settings.md#url-tracking)
+* La sección Seguimiento de URL se actualizó y mejoró con ejemplos. [Más información](../configuration/email-settings.md#url-tracking)
 * Se ha añadido una nueva subsección sobre la configuración de una dirección de correo electrónico de reenvío. Tenga en cuenta que no puede hacerlo a través de la interfaz de usuario. [Más información](../configuration/email-settings.md#forward-email)
 
 ## Abril de 2022 {#april-2022}

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 9%
+source-wordcount: '420'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,7 @@ Una vez que [crear un mensaje](get-started-content.md), use el **[!UICONTROL SMS
 
 >[!AVAILABILITY]
 >
->Actualmente, el canal SMS solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, póngase en contacto con el representante del Adobe.
+>Ahora mismo, el canal SMS solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
 
 ![](assets/sms_1.png)
 
@@ -67,7 +67,17 @@ El mensaje SMS ahora se puede usar en un recorrido. [Obtenga información sobre 
 
 Para todos los mensajes de marketing, el SMS debe contener una forma para que los destinatarios puedan cancelar la suscripción fácilmente. Una vez cancelada la suscripción, los perfiles se eliminan automáticamente de la audiencia de futuros mensajes de marketing. La adición de un vínculo de baja no es obligatoria para los mensajes transaccionales.
 
-Los destinatarios de SMS pueden responder con palabras clave de inclusión y exclusión. De acuerdo con las normas y regulaciones del sector, Adobe Journey Optimizer procesa automáticamente las siguientes palabras clave en los mensajes entrantes: START, STOP y UNSTOP. Estas palabras clave déclencheur las respuestas estándar automáticas del proveedor de SMS.
+Los destinatarios de SMS pueden responder con palabras clave de inclusión y exclusión. De acuerdo con las normas y regulaciones del sector, Adobe Journey Optimizer procesa automáticamente las siguientes palabras clave en los mensajes entrantes: START, STOP y UNSTOP. Estas palabras clave activan las respuestas estándares automáticas del proveedor de SMS.
+
+Para obtener más información sobre cómo funciona la compatibilidad con palabras clave de entrada nativas (inicio, parada e inparada) para SMS, consulte el siguiente vídeo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
+
+## Vídeo explicativo
+
+Obtenga información sobre cómo configurar, crear e incluir mensajes SMS en sus recorridos de cliente.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)
 
 **Temas relacionados**
 

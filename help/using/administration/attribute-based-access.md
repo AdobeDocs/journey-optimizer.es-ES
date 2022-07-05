@@ -7,10 +7,11 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f00d503ef5ea38b35b7f56821a9f523dca9fbb94
+exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 0%
+source-wordcount: '914'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Actualmente, el uso del control de acceso basado en atributos está disponible en acceso anticipado solo para usuarios seleccionados. Si desea aprovechar esta función, póngase en contacto con el administrador de cuentas de Adobe.
+>Actualmente, el uso del control de acceso basado en atributos solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Si desea aprovechar esta función, póngase en contacto con el administrador de cuentas de Adobe.
 
 El control de acceso basado en atributos (ABAC) permite definir autorizaciones para administrar el acceso a los datos de equipos o grupos de usuarios específicos. Su objetivo es proteger los activos digitales confidenciales de los usuarios no autorizados, lo que permite una mayor protección de los datos personales.
 
@@ -45,7 +46,7 @@ En este ejemplo, queremos restringir el acceso a la variable **Nacionalidad** ca
 
 Tenga en cuenta que también puede agregar  **[!UICONTROL Label]** a  **[!UICONTROL Schema]**,  **[!UICONTROL Datasets]** y  **[!UICONTROL Segments]**.
 
-1. Cree su **[!UICONTROL Schema]**. Para obtener más información, consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en).
+1. Cree su **[!UICONTROL Schema]**. Para obtener más información, consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es).
 
    ![](assets/label_1.png)
 
@@ -159,4 +160,3 @@ Si el usuario Y sin acceso a los objetos C2 de la etiqueta necesita acceder a es
 * El usuario Y no podrá probar el Recorrido o el mensaje.
 
 * El usuario Y no podrá publicar el Recorrido o el mensaje.
-

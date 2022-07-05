@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 2%
+source-wordcount: '1476'
+ht-degree: 1%
 
 ---
 
@@ -49,11 +49,25 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
    >
    > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar guiones bajos `_`, punto`.` Guión `-` caracteres.
 
-1. Configure las variables **email** configuración. [Más información](#configure-email-settings)
+1. Si seleccionó la variable **[!UICONTROL Email]** canal, configure los ajustes tal como se describe en [esta sección](email-settings.md).
 
-1. Configure las variables **notificación push** configuración. [Más información](#configure-push-settings)
+   ![](assets/preset-email.png)
 
-1. Configurar **SMS** configuración. [Más información](sms-configuration.md)
+1. Si seleccionó la variable **[!UICONTROL Push Notification]** canal, seleccione al menos una plataforma (**iOS** y/o **Android**) y seleccione las aplicaciones móviles que desea utilizar para cada plataforma.
+
+   ![](assets/preset-push.png)
+
+   >[!NOTE]
+   >
+   >Para obtener más información sobre cómo configurar el entorno para enviar notificaciones push, consulte [esta sección](push-gs.md).
+
+1. Si seleccionó la variable **[!UICONTROL SMS]** canal, configure los ajustes tal como se describe en [esta sección](sms-configuration.md#message-preset-sms).
+
+   ![](assets/preset-sms.png)
+
+   >[!NOTE]
+   >
+   >Para obtener más información sobre cómo configurar su entorno para enviar mensajes SMS, consulte [esta sección](sms-configuration.md).
 
 1. Una vez configurados todos los parámetros, haga clic en **[!UICONTROL Submit]** para confirmar. También puede guardar el ajuste preestablecido de mensaje como borrador y reanudar su configuración más adelante.
 
@@ -86,42 +100,6 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 1. Una vez realizadas las comprobaciones correctamente, el ajuste preestablecido de mensaje obtiene el valor **[!UICONTROL Active]** estado. Está listo para utilizarse para enviar mensajes.
 
    ![](assets/preset-active.png)
-
-## Configuración de correo electrónico {#configure-email-settings}
-
-La configuración del correo electrónico se define en una sección dedicada de la configuración del ajuste preestablecido de mensaje.
-
-![](assets/preset-email.png)
-
-Configure las opciones tal como se describe en [esta sección](email-settings.md).
-
-## Configuración de push {#configure-push-settings}
-
-Los ajustes push se definen en una sección dedicada de la configuración preestablecida de mensajes.
-
-Para definir la configuración de push asociada al ajuste preestablecido de mensaje, siga los pasos a continuación:
-
-1. Seleccione al menos una plataforma: **iOS** y/o **Android**.
-
-1. Seleccione las aplicaciones móviles que desea utilizar para cada plataforma.
-
-![](assets/preset-push.png)
-
-Para obtener más información sobre cómo configurar el entorno para enviar notificaciones push, consulte [esta sección](../configuration/push-gs.md).
-
-<!--
-## Configure SMS settings {#configure-sms-settings}
-
-1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
-
-    ![](assets/preset-sms.png)
-    
-1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
-        
-    For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
-
-1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
--->
 
 ## Monitorización de mensajes preestablecidos {#monitor-message-presets}
 
@@ -185,6 +163,8 @@ Una vez enviados los cambios, el ajuste preestablecido de mensaje atravesará un
 >
 >Si solo edita la variable **[!UICONTROL Description]**, **[!UICONTROL Email type]** y/o **[!UICONTROL Email retry parameters]** , la actualización es instantánea.
 
+### Detalles de la actualización {#update-details}
+
 Para los mensajes preestablecidos que tienen la variable **[!UICONTROL Active]** , puede comprobar los detalles de la actualización. Para ello:
 
 * Haga clic en el **[!UICONTROL Recent update]** que se muestra junto al nombre del ajuste preestablecido activo.
@@ -209,7 +189,7 @@ Una actualización de ajustes preestablecidos de mensajes puede tener los siguie
 
 Cada estado se detalla a continuación.
 
-### Procesamiento
+#### Procesamiento
 
 Se realizarán varias comprobaciones de la capacidad de envío para verificar que el ajuste preestablecido se haya actualizado correctamente.
 
@@ -231,13 +211,13 @@ Si edita un ajuste preestablecido que ya estaba activo:
 >
 >No se puede modificar un mensaje preestablecido mientras la actualización está en curso. Puede seguir haciendo clic en su nombre, pero todos los campos están atenuados. Los cambios no se reflejarán hasta que la actualización se realice correctamente.
 
-### Correcto {#success}
+#### Correcto {#success}
 
 Una vez que el proceso de validación se ha realizado correctamente, la nueva versión del ajuste preestablecido se utilizará automáticamente en todos los mensajes que utilicen este ajuste preestablecido. Sin embargo, es posible que tenga que esperar:
 * unos minutos antes de que los mensajes unitarios lo consuman,
 * hasta el siguiente lote para que el ajuste preestablecido sea efectivo en los mensajes por lotes.
 
-### Fallido {#failed}
+#### Fallido {#failed}
 
 Si el proceso de validación falla, se utilizará la versión anterior del ajuste preestablecido.
 
