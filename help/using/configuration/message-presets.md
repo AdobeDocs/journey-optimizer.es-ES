@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 492acb7c7474964bb27cd562db5cd4cb2ed42784
+source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1498'
 ht-degree: 2%
 
 ---
@@ -67,7 +67,7 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
 1. Una vez creado el ajuste preestablecido de mensaje, se muestra en la lista con la variable **[!UICONTROL Processing]** estado.
 
-   Durante este paso, se realizarán varias comprobaciones para verificar que se ha configurado correctamente. El tiempo de procesamiento puede tardar hasta **3 horas**.
+   Durante este paso, se realizarán varias comprobaciones para verificar que se ha configurado correctamente. El tiempo de procesamiento ronda **48 h-72 h** y puede tardar hasta **7 a 10 días hábiles**.
 
    Estas comprobaciones incluyen las pruebas técnicas y de configuración que realiza el equipo de Adobe:
 
@@ -179,7 +179,7 @@ Para editar un ajuste preestablecido de mensaje, siga los pasos a continuación.
    >
    >También puede guardar el ajuste preestablecido de mensaje como borrador y reanudar la actualización más adelante.
 
-Una vez enviados los cambios, el ajuste preestablecido de mensaje atravesará un ciclo de validación similar al que se haya aplicado cuando [creación de un ajuste preestablecido](#create-message-preset).
+Una vez enviados los cambios, el ajuste preestablecido de mensaje atravesará un ciclo de validación similar al que se haya aplicado cuando [creación de un ajuste preestablecido](#create-message-preset). El tiempo de procesamiento de la edición puede tardar hasta **3 horas**.
 
 >[!NOTE]
 >
