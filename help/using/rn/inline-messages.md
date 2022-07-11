@@ -3,13 +3,13 @@ title: Migración a creación en línea de recorrido
 description: Descubra cómo migrar sus mensajes
 hide: true
 hidefromtoc: true
-source-git-commit: 8db51560c5733afac64785d1ef07cbd9558a0bbe
+exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
+source-git-commit: 696855bad3638a83c865b3d1d47fb4b05924155a
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
-
 
 # Migración a creación en línea de recorrido{#inline-authoring}
 
@@ -30,6 +30,10 @@ ht-degree: 0%
 >title="Descubra cómo migrar sus mensajes"
 >abstract="A partir de la versión del 22 de julio de Journey Optimizer, los mensajes se crean directamente desde un Recorrido. Los mensajes existentes se han migrado al nuevo modelo. Como profesional del recorrido, ahora se requieren acciones adicionales."
 
+>[!CONTEXTUALHELP]
+>id="ajo_messages_depecrated_inventory"
+>title="Descubra cómo migrar sus mensajes"
+>abstract="A partir del 25 de julio de 2022, el menú Mensajes desaparece y los mensajes se crean directamente desde un Recorrido. Si desea reutilizar los mensajes heredados en recorrido, debe guardarlos como plantillas."
 
 Adobe Journey Optimizer está publicando una nueva función que mejora la forma en que los practicantes crean experiencias para canales entregados por Journey Optimizer como correo electrónico, push o SMS. Esta función requiere una migración de los Recorridos existentes que utilizan Mensajes.
 
