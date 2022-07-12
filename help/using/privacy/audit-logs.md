@@ -5,10 +5,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 771828da23ab0656fc5726845305fe6949620545
-workflow-type: ht
-source-wordcount: '297'
-ht-degree: 100%
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ La siguiente tabla indica qué acciones sobre qué recursos de Journey Optimizer
 | Subdominio de AJO | Creación/eliminación/actualización |
 | Lista de supresión de AJO | Creación/eliminación/descarga de CSV |
 | Grupo de campos | Creación/eliminación/actualización |
-|  Recorrido  | Creación/eliminación/actualización/detención/publicación |
+|  Recorrido  | Crear/eliminar/detener/publicar |
 | Acción personalizada de recorrido | Creación/eliminación/actualización |
 | Fuente de datos de recorrido | Creación/eliminación/actualización |
 | Evento de recorrido | Creación/eliminación/actualización |

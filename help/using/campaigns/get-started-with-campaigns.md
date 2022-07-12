@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 1e4c5ab80336238283df041fdb4d323005acd325
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 2%
+source-wordcount: '300'
+ht-degree: 8%
 
 ---
 
@@ -24,14 +24,18 @@ ht-degree: 2%
 
 ## Acerca de las campañas {#about}
 
-Las campañas le permiten entregar contenido único a un segmento específico mediante varios canales.
+Las campañas le permiten entregar contenido único a un segmento específico mediante varios canales. A diferencia de los recorridos, donde las acciones están diseñadas para ejecutarse en secuencia, las campañas ejecutan acciones simultáneamente, ya sea inmediatamente o en una programación especificada.
 
-A diferencia de los recorridos, donde las acciones están diseñadas para ejecutarse en secuencia, las campañas ejecutan acciones simultáneamente, ya sea inmediatamente o en una programación especificada. Puede utilizarlos, por ejemplo, para ofrecer ofertas promocionales, campañas de participación, anuncios, avisos legales o actualizaciones de políticas.
+Puede crear dos tipos de campañas:
+
+* **Campañas programadas** permite comunicaciones por lotes ad-hoc sencillas para casos de uso de marketing, como ofertas promocionales, campañas de participación, anuncios, avisos legales o actualizaciones de políticas.
+* **Campañas de API activadas** permiten mensajes transaccionales/operativos simples con las API de REST (restablecimiento de contraseña, abandono de tarjeta, etc.), donde la necesidad puede implicar personalización mediante atributos de perfil y datos contextuales de carga útil.
 
 Aprenda a trabajar con campañas:
 * [Creación de una campaña](create-campaign.md)
-* [Modificar o detener una campaña](modify-stop-campaign.md)
-* [Informe de campaña en directo](campaign-live-report.md)
+* [Creación de campañas activadas por API](api-triggered-campaigns.md)
+* [Modificación o detención de una campaña](modify-stop-campaign.md)
+* [Informe en directo de la campaña](campaign-live-report.md)
 * [Informe global de la campaña](campaign-global-report.md)
 
 ## Acceso a campañas {#access}

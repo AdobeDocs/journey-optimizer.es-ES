@@ -1,5 +1,5 @@
 ---
-title: Informe de campaña en directo
+title: Informe en directo de la campaña
 description: Aprenda a utilizar los datos del informe de campaña en directo
 feature: Reporting
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 43a076632d2f2195ce0293f741dfbc28d4eea24a
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 1%
+source-wordcount: '618'
+ht-degree: 5%
 
 ---
 
-# Informe de campaña en directo {#campaign-live-report}
+# Informe en directo de la campaña {#campaign-live-report}
 
 Se puede acceder al informe de campaña en directo directamente desde la campaña con la variable **[!UICONTROL Live view]** botón.
 
@@ -110,3 +110,11 @@ La variable **[!UICONTROL Error Reasons]** y **[!UICONTROL Exclude Reasons]** lo
 La variable **[!UICONTROL Sending statistics - Failed]** permite ver cuántos errores y rechazos se han producido.
 
 La variable **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** y **[!UICONTROL Breakdown by platform]** gráficos y tablas detallan el éxito de la notificación push en función del sistema operativo.
+
+## Recursos adicionales
+
+* [Introducción a las campañas](get-started-with-campaigns.md)
+* [Creación de una campaña](create-campaign.md)
+* [Creación de campañas activadas por API](api-triggered-campaigns.md)
+* [Modificación o detención de una campaña](modify-stop-campaign.md)
+* [Informe global de la campaña](campaign-global-report.md)
