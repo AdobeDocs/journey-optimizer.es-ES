@@ -2,7 +2,7 @@
 title: Migrar a creación en línea de recorrido
 description: Descubra cómo migrar sus mensajes
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 3f9844dec9caf520ab59c5f2b433a5c2e86ef44f
+source-git-commit: 8404cbe345879bdd3c90a4ce542135fb7cbf1eb3
 workflow-type: tm+mt
 source-wordcount: '1700'
 ht-degree: 0%
@@ -114,8 +114,8 @@ Es necesario realizar una migración para cambiar los recorridos existentes medi
 
 La migración se realizará en cada región por la noche, a través de varias iteraciones. Esta es la cronología de migración:
 
-* 25 de julio de 2002: GA: primera iteración
-* 1 de agosto de 2002: Segunda iteración
+* 25 de julio de 2022: GA: primera iteración
+* 1 de agosto de 2022: Segunda iteración
 * 5 de septiembre de 2022: Tercera iteración
 * 6 de septiembre de 2022: desaprobación
 
