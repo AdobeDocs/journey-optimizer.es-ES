@@ -4,9 +4,9 @@ description: Descubra cómo migrar sus mensajes
 hide: true
 hidefromtoc: true
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 696855bad3638a83c865b3d1d47fb4b05924155a
+source-git-commit: cf6cdd7c555bd3480e0defce450883bbd4e660dd
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,7 @@ ht-degree: 0%
 >id="ajo_messages_depecrated_inventory"
 >title="Descubra cómo migrar sus mensajes"
 >abstract="A partir del 25 de julio de 2022, el menú Mensajes desaparece y los mensajes se crean directamente desde un Recorrido. Si desea reutilizar los mensajes heredados en recorrido, debe guardarlos como plantillas."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="Guardar mensajes como plantillas"
 
 Adobe Journey Optimizer está publicando una nueva función que mejora la forma en que los practicantes crean experiencias para canales entregados por Journey Optimizer como correo electrónico, push o SMS. Esta función requiere una migración de los Recorridos existentes que utilizan Mensajes.
 
