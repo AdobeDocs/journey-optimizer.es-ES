@@ -1,34 +1,34 @@
 ---
-title: Migración a creación en línea de recorrido
+title: Migrar a creación en línea de recorrido
 description: Descubra cómo migrar sus mensajes
-hide: true
-hidefromtoc: true
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: cf6cdd7c555bd3480e0defce450883bbd4e660dd
+source-git-commit: 12eb8df6ff41714f6035721558fce7d8c2b4407a
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Migración a creación en línea de recorrido{#inline-authoring}
 
+# Información general sobre la migración de creación en línea{#inline-authoring}
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_before"
 >title="Obtenga más información sobre los nuevos mensajes de creación en línea"
->abstract="A partir de la versión del 22 de julio de Journey Optimizer, los mensajes se crean directamente desde un Recorrido. Los mensajes existentes se migran automáticamente al nuevo modelo. Después de la migración será necesario realizar acciones adicionales."
+>abstract="A partir del 25 de julio de 2022, los mensajes se crean directamente desde un Recorrido. Los mensajes existentes se migran automáticamente al nuevo modelo. Después de la migración será necesario realizar acciones adicionales."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="Pasos de migración"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_during"
 >title="Descubra lo que está sucediendo"
->abstract="A partir de la versión del 22 de julio de Journey Optimizer, los mensajes se crean directamente desde un Recorrido. Se está migrando el entorno. Después de la migración será necesario realizar acciones adicionales."
-
+>abstract="A partir del 25 de julio de 2022, los mensajes se crean directamente desde un Recorrido. Se está migrando el entorno. Después de la migración será necesario realizar acciones adicionales."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="Pasos de migración"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_after"
 >title="Descubra cómo migrar sus mensajes"
->abstract="A partir de la versión del 22 de julio de Journey Optimizer, los mensajes se crean directamente desde un Recorrido. Los mensajes existentes se han migrado al nuevo modelo. Como profesional del recorrido, ahora se requieren acciones adicionales."
+>abstract="A partir del 25 de julio de 2022, los mensajes se crean directamente desde un Recorrido. Los mensajes existentes se han migrado al nuevo modelo. Como profesional del recorrido, ahora se requieren acciones adicionales."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="Pasos de migración"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
