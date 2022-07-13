@@ -2,9 +2,9 @@
 title: Migrar a creación en línea de recorrido
 description: Descubra cómo migrar sus mensajes
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: d27bcae95f1890292eb8f2eae8b2e72c3ad501e3
+source-git-commit: 5ff9e34c70f13a6ebf12d106759c927f0b506520
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1692'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_before"
->title="Obtenga más información sobre los nuevos mensajes de creación en línea"
->abstract="A partir del 25 de julio de 2022, los mensajes se crean directamente desde un Recorrido. Los mensajes existentes se migran automáticamente al nuevo modelo. Después de la migración será necesario realizar acciones adicionales."
+>title="Obtenga más información sobre la nueva función de creación en línea"
+>abstract="A partir del 25 de julio de 2022, los mensajes se crean directamente desde un Recorrido. Los mensajes existentes se migran automáticamente al nuevo modelo. Después de la migración se necesitarán acciones adicionales si actualmente utiliza mensajes dentro de sus recorridos."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="Pasos de migración"
 
 >[!CONTEXTUALHELP]
