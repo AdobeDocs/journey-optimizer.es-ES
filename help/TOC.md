@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '1120'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -354,8 +354,8 @@ ht-degree: 98%
          + [Crear una decisión](using/offers/api-reference/activities-api/activities/create.md)
          + [Actualizar una decisión](using/offers/api-reference/activities-api/activities/update.md)
          + [Eliminar una decisión](using/offers/api-reference/activities-api/activities/delete.md)
-      + Entrega de ofertas mediante API {#offer-delivery-api}
-         + [Acerca de las API de Decisioning y Edge Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
+      + Enviar ofertas mediante API {#offer-delivery-api}
+         + [Introducción a las API de envío de ofertas](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
          + [API de decisiones](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [API de Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [API de decisiones por lotes](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
