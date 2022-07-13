@@ -2,9 +2,9 @@
 title: Migrar a creación en línea de recorrido
 description: Descubra cómo migrar sus mensajes
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 8404cbe345879bdd3c90a4ce542135fb7cbf1eb3
+source-git-commit: f98ef26fa9c6075c852d33d19c796351296a3f94
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1673'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,9 @@ ht-degree: 0%
 >abstract="A partir del 25 de julio de 2022, el menú Mensajes desaparece y los mensajes se crean directamente desde un Recorrido. Si desea reutilizar los mensajes heredados en recorrido, debe guardarlos como plantillas."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="Guardar mensajes como plantillas"
 
-Adobe Journey Optimizer está lanzando una nueva función que mejora la forma en que crea contenido para canales de Journey Optimizer (correo electrónico, push, SMS). Como profesional de Journey Optimizer, ahora creará y creará sus mensajes directamente desde un recorrido.
+Adobe Journey Optimizer está lanzando una nueva función que mejora la forma en que crea contenido para canales de Journey Optimizer (correo electrónico, push, SMS). Como profesional de Journey Optimizer, ahora crea y crea sus mensajes directamente desde un recorrido.
 
-Esta función requiere una migración de los recorridos existentes que utilizan mensajes.
-
-En esta página, encontrará la información necesaria sobre este cambio, así como los pasos que debe seguir.
+Esta función requiere una migración de los recorridos existentes que utilizan mensajes. En esta página, encontrará la información necesaria sobre este cambio, así como los pasos que debe seguir.
 
 Para obtener más información sobre sus funciones y responsabilidades como profesional de Journey Optimizer, consulte esta [página](../start/path/marketer.md).
 
@@ -61,23 +59,23 @@ Here are the main changes in the interface:
 
 * **¿Estoy afectado?**: le afectará si crea mensajes a partir de la variable **Mensajes** en el panel de navegación izquierdo y utilícelos en sus recorridos. Si utiliza un sistema de terceros (como Adobe Campaign), esta migración no le afectará.
 
-* **Cambios del producto**: en GA (25 de julio), el contenido del canal se creará y administrará dentro de cada recorrido. La variable **Mensajes** , en la navegación izquierda ya no estará disponible ([Más información](../rn/inline-messages.md#change)). Procederemos a la migración de sus recorridos existentes.
+* **Cambios del producto**: en GA (25 de julio), el contenido del canal se crea y administra dentro de cada recorrido. La variable **Mensajes** , en la navegación izquierda ya no está disponible ([más información](../rn/inline-messages.md#change)). Procederemos a la migración de sus recorridos existentes.
 
-* **Cronología**: la migración se producirá en cada región por la noche, a través de varias [iteraciones](../rn/inline-messages.md#iterations).
+* **Cronología**: la migración se produce en cada región por la noche, a través de varias [iteraciones](../rn/inline-messages.md#iterations).
 
    ![](assets/inline-migration-timeline.png)
 
-* **Acciones necesarias**: se realizará una conversión automática de recorridos. Dicho esto, necesitaremos su ayuda con algunos pasos. Obtenga más información sobre los pasos necesarios en esta [página](../rn/inline-messages-steps.md).
+* **Acciones necesarias**: se realiza una conversión automática de recorridos. Dicho esto, necesitamos su ayuda con algunos pasos. Obtenga más información sobre los pasos necesarios en esta [página](../rn/inline-messages-steps.md).
 
-* **Obsolescencia**: después del 6 de septiembre, todos los recorridos que aún utilicen mensajes heredados se detendrán y eliminarán posteriormente.
+* **Obsolescencia**: después del 6 de septiembre, todos los recorridos que siguen utilizando mensajes heredados se detienen y se eliminan más adelante.
 
 ## Ventajas y cambios en los productos{#change}
 
 La visión de Adobe es simplificar el producto continuamente para proporcionar flujos de usuarios eficientes y optimizados. Esta nueva forma de crear mensajes ofrece un proceso de usuario más simplificado.
 
-Hemos diseñado este nuevo flujo de trabajo para colocar el contenido en un lugar, directamente donde se utiliza.
+Hemos diseñado este nuevo flujo de trabajo para centralizar el contenido en un lugar, directamente donde se utiliza.
 
-La creación de contenido ahora se realiza directamente dentro del recorrido. Lo inmediato **ventajas** obtendrá:
+La creación de contenido ahora se realiza directamente dentro del recorrido. Lo inmediato **ventajas** se obtienen:
 
 * Generación de recorridos más rápida mediante canales de Journey Optimizer en un solo flujo.
 * Visualización rápida del contenido cambiando sin problemas entre todo el contenido de correo electrónico, push y SMS en un recorrido.
@@ -93,7 +91,7 @@ Aquí están los **cambios de productos** traído por esta nueva función:
 </tr>
 <tr>
 <td><img src="assets/inline-migration-before.png"><p>Antes, creaba el mensaje desde el <strong>Mensajes</strong> para abrir el Navegador. </p></td>
-<td><img src="assets/inline-migration-after.png"><p>Ahora, la variable <strong>Mensajes</strong> , en la navegación izquierda ya no está disponible. </p></td>
+<td><img src="assets/inline-migration-after.png"><p>Ahora, la variable <strong>Mensajes</strong> , en el panel de navegación izquierdo ya no está disponible. </p></td>
 </tr>
 <tr>
 <td><img src="assets/inline-migration-before2.png"><p>A continuación, creó un recorrido y agregó un <strong>Mensaje</strong> y seleccionó el mensaje creado anteriormente.</p></td>
@@ -110,9 +108,9 @@ En GA (25 de julio), este nuevo flujo de usuarios se aplica a todos los recorrid
 
 ## Cronología de migración{#iterations}
 
-Es necesario realizar una migración para cambiar los recorridos existentes mediante **Mensajes** en recorridos con acciones creadas en línea. Se realizará una conversión automática de recorridos. Dicho esto, necesitaremos su ayuda con algunos pasos.
+Es necesario realizar una migración para cambiar los recorridos existentes mediante **Mensajes** en recorridos con acciones creadas en línea. Se realiza una conversión automática de recorridos. Dicho esto, necesitamos su ayuda con algunos pasos.
 
-La migración se realizará en cada región por la noche, a través de varias iteraciones. Esta es la cronología de migración:
+La migración se produce en cada región por la noche, a través de varias iteraciones. Esta es la cronología de migración:
 
 * 25 de julio de 2022: GA: primera iteración
 * 1 de agosto de 2022: Segunda iteración
@@ -129,7 +127,7 @@ Durante una iteración, vamos por cada recorrido y los migramos cuando es posibl
 
 Adobe se comunica con usted antes de la primera iteración.
 
-El cambio se implementará de la noche a la mañana, a través de varias iteraciones. Más información sobre [iteraciones](../rn/inline-messages.md#inline-authoring).
+El cambio se implementa de la noche a la mañana, a través de varias iteraciones. Más información sobre [iteraciones](../rn/inline-messages.md#inline-authoring).
 
 También se le informa mediante notificaciones internas del producto que se muestran en pantallas de Recorridos:
 
@@ -151,17 +149,17 @@ También se le informa mediante notificaciones internas del producto que se mues
 
 ### ¿Cuál es el proceso de migración?{#process}
 
-La migración es totalmente automática para los recorridos que no están activos o cerrados. No queremos afectar a los recorridos en directo o cerrados para evitar cualquier impacto en la producción. Le pediremos que publique la nueva versión que hemos creado para usted.
+La migración es totalmente automática para los recorridos que no están activos o cerrados. No queremos afectar a los recorridos en directo o cerrados para evitar cualquier impacto en la producción. Le pedimos que publique la nueva versión que creamos para usted.
 
-Todos los entornos limitados de una organización de clientes se procesarán simultáneamente. Durante la implementación del cambio, se realizarán las siguientes acciones:
+Todos los entornos limitados de una organización de clientes se procesan simultáneamente. Durante la implementación del cambio, se realizan las siguientes acciones:
 
-**CUALQUIER Recorrido que no utilice mensajes**
+**CUALQUIER recorrido que no utilice mensajes**
 
 Estos no se ven afectados por el cambio. La migración solo se dirige a los recorridos que utilizan mensajes. Sin embargo, aún podrá acceder a los mensajes que no se utilicen en un recorrido a través de la siguiente URL: https://experience.adobe.com/#/@[ORG]/sname:[SANDBOX]/recorrido-optimizer/messages/
 
-**BORRADOR DE Recorridos utilizando al menos un mensaje**
+**BORRADOR DE recorridos utilizando al menos un mensaje**
 
-Las versiones de borrador de los mensajes se modificarán durante la migración. Ya no harán referencia a ningún mensaje. La variable **Mensaje** las actividades de se sustituirán por las actividades de acción del canal correspondientes. Cada uno de ellos incluirá los parámetros de canal y el contenido.
+Las versiones de borrador de los mensajes se modifican durante la migración. Ya no hacen referencia a ningún mensaje. La variable **Mensaje** las actividades de se sustituyen por las actividades de acción del canal correspondientes. Cada uno de ellos incluye los parámetros de canal y el contenido.
 
 Como de costumbre, pruebe el recorrido de borrador antes de publicarlo.
 
@@ -169,15 +167,15 @@ Como de costumbre, pruebe el recorrido de borrador antes de publicarlo.
 
 La versión activa de un recorrido se sigue ejecutando para evitar cualquier impacto en la producción.
 
-Se creará una nueva versión borrador de este recorrido durante la migración. Esta nueva versión de borrador será una copia de la versión activa, pero los mensajes se sustituirán por acciones de canal creadas en línea. Cada actividad de acción del canal incluirá los parámetros y el contenido del canal. El contenido no se pierde. Los informes no se pierden
+Se crea una nueva versión borrador de este recorrido durante la migración. Esta nueva versión de borrador es una copia de la versión activa, pero los mensajes se sustituyen por acciones de canal creadas en línea. Cada actividad de acción del canal incluye los parámetros y el contenido del canal. El contenido no se pierde. Los informes no se pierden.
 
 Esperamos que revise esta versión de borrador, la pruebe y publique para que esta se convierta en la versión activa.
 
 **RECORRIDOS FINALIZADOS o DETENIDOS que utilizan al menos un mensaje**
 
-Estos recorridos también se migrarán.
+Estos recorridos también se migran.
 
-Al consultar el informe recorrido, los informes serán más ricos para incluir el nivel de información que antes estaba disponible en el informe Mensaje.
+Al consultar el informe recorrido, los informes ahora son más ricos e incluyen el nivel de información que antes estaba disponible en el informe de mensaje.
 
 **RECORRIDOS CERRADOS que utilizan al menos un mensaje**
 
@@ -191,7 +189,7 @@ No se migran. Debe volver a crearlos.
 
 ### ¿Cuáles son mis elementos de acción como cliente?{#actions}
 
-Se realizará una conversión automática de recorridos, pero se necesitarán algunos pasos. Obtenga más información sobre los pasos necesarios en esta [página](../rn/inline-messages-steps.md).
+Para usted se realiza una conversión automática de recorridos, pero se requieren algunos pasos. Obtenga más información sobre los pasos necesarios en esta [página](../rn/inline-messages-steps.md).
 
 <!--
 
@@ -293,7 +291,7 @@ Habrá un cambio en la forma en que crea el mensaje. No habrá pérdida de funci
 
 ### ¿Habrá acceso al entorno durante el proceso de migración?
 
-La migración se producirá por la noche. Podrá utilizar el producto. Sin embargo, no cree, edite ni elimine recorridos.
+La migración se produce por la noche. Podrá utilizar el producto. Sin embargo, no cree, edite ni elimine recorridos.
 
 ### ¿Seguirán enviándose los mensajes?
 
