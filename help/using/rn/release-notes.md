@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -95,13 +95,13 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <table>
 <thead>
 <tr>
-<th><strong>Copiar objetos entre entornos limitados</strong><br/></th>
+<th><strong>Copia de objetos entre zonas protegidas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede volver a crear las experiencias de un simulador para pruebas de Journey Optimizer a otro, por ejemplo, de un simulador para pruebas que no sean de producción a un simulador para pruebas de producción. Esta nueva funcionalidad copia un Recorrido completo, incluidos los objetos de los que depende el Recorrido, para ejecutarse correctamente, de un entorno a otro. Además de los Recorridos, también puede copiar otros componentes, como Ofertas, Mensajes, Esquemas, Conjuntos de datos, Fuentes de datos, Eventos y Acciones.</p>
+<p>Ahora puede recrear las experiencias de una zona protegida de Journey Optimizer en otra, por ejemplo, de una que no sea de producción a una de producción. Esta nueva funcionalidad copia un recorrido completo, incluidos los objetos de los que depende para ejecutarse correctamente, de un entorno a otro. Además de los recorridos, también puede copiar otros componentes, como Ofertas, Mensajes, Esquemas, Conjuntos de datos, Fuentes de datos, Eventos y Acciones.</p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/copy-to-sandbox.md">documentación detallada</a>.
 </td>
 </tr>
@@ -149,9 +149,9 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 * **Previsualizar parámetros de URL de seguimiento**: al configurar un ajuste preestablecido de mensaje, si define parámetros de seguimiento de URL, ahora se muestra la vista previa dinámica de la URL de seguimiento resultante. [Más información](../configuration/email-settings.md#url-tracking)
 
-* **Edición preestablecida de mensajes** - Ahora, al actualizar un ajuste preestablecido de mensaje, el tiempo de procesamiento solo puede tardar hasta 3 horas. [Más información](../configuration/message-presets.md#edit-message-preset)
+* **Edición de ajustes preestablecidos de mensajes**: ahora, al actualizar un ajuste preestablecido de mensaje, el tiempo de procesamiento solo puede ser de hasta tres horas. [Más información](../configuration/message-presets.md#edit-message-preset)
 
-* **Edición de grupos de IP** - Ahora, al actualizar un grupo de IP, el tiempo de procesamiento solo puede tardar hasta 3 horas. [Más información](../configuration/ip-pools.md#edit-ip-pool)
+* **Edición de grupos de IP**: ahora, al actualizar un grupo de IP, el tiempo de procesamiento solo puede ser de hasta tres horas. [Más información](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
