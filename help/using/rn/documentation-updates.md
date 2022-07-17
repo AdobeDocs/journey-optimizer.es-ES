@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '1651'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Julio de 2022 {#july-2022}
 
-* La variable **Crear un ajuste preestablecido de mensaje** se ha aclarado y actualizado con vínculos a la página que describe cómo configurar el canal SMS. [Más información](../configuration/message-presets.md#create-message-preset)
+* La sección **Creación de un ajuste preestablecido de mensaje** se ha aclarado y actualizado con vínculos a la página que describe cómo configurar el canal SMS. [Más información](../configuration/message-presets.md#create-message-preset)
 
 ## Junio de 2022 {#june-2022}
 
@@ -29,8 +29,8 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha añadido la lista de conjuntos de datos de Adobe Journey Optimizer con ejemplos de consultas. [Más información](../start/datasets-query-examples.md)
 * La página Lista de permitidos se ha movido a la sección Configuración. [Más información](../configuration/allow-list.md)
 * La página Lista de supresión se ha actualizado para aclarar cierta información, incluido el hecho de que todos los caracteres ASCII comprendidos entre 32 y 126 están permitidos en el campo de motivos de supresión. [Más información](../configuration/manage-suppression-list.md)
-* Se ha añadido el vínculo a las barreras y los límites estáticos para la administración de decisiones. [Más información](../start/guardrails.md)
-* La optimización del tiempo de envío ya está disponible para todos los clientes. Se ha eliminado la mención beta. [Más información](../building-journeys/journeys-message.md#send-time-optimization)
+* Se ha añadido el vínculo a las barreras y los límites estáticos para la gestión de decisiones. [Más información](../start/guardrails.md)
+* Ya está disponible para todos los clientes Optimización del tiempo de envío. Se ha eliminado la mención beta. [Más información](../building-journeys/journeys-message.md#send-time-optimization)
 * La API de decisiones por lotes se ha agregado a la lista de API disponibles para enviar ofertas personalizadas. [Más información](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## Mayo de 2022 {#may-2022}
@@ -50,7 +50,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 * Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de abril de 2022 se han incluido en la documentación. [Más información](release-notes.md)
 * La página de documentación del evento **reacciones** se ha actualizado. [Más información](../building-journeys/reaction-events.md)
-* Se han actualizado los vídeos de las funciones de administración de decisiones para que reflejen la interfaz de usuario de Journey Optimizer. [Más información](../offers/get-started/starting-offer-decisioning.md)
+* Se han actualizado los vídeos de las funciones de gestión de decisiones para que reflejen la interfaz de usuario de Journey Optimizer. [Más información](../offers/get-started/starting-offer-decisioning.md)
 * La sección **Introducción a los conjuntos de datos** se ha mejorado para detallar cómo acceder y crear conjuntos de datos. [Más información](../start/get-started-datasets.md)
 * Se han agregado vínculos a guías de ayuda y notas de la versión del producto a la página principal de **Documentación de Adobe Journey Optimizer**. [Más información](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=es)
 * La sección **Crear ajustes preestablecidos de mensaje** ahora especifica que no puede continuar con la creación de ajustes preestablecidos mientras el grupo de IP seleccionado está en edición (**[!UICONTROL Processing]** estado) y nunca se ha asociado con el subdominio seleccionado. [Más información](../configuration/message-presets.md#subdomains-and-ip-pools)
@@ -92,11 +92,11 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 * Todas las nuevas funciones y mejoras incluidas en la versión de octubre de 2021 de [!DNL Journey Optimizer] se han incluido en la documentación. [Más información](release-notes.md)
 * Se ha añadido la lista de la **función de fecha y hora**. [Más información](../personalization/functions/dates.md)
-* Nuevas **secciones de introducción por usuario**. Elija su propio camino para llegar a sus objetivos más rápido. [Más información](../start/quick-start.md)
+* Nuevas **secciones de introducción por usuario**. Elija su propia ruta para llegar a sus objetivos más rápido. [Más información](../start/quick-start.md)
 * Nueva sección **Ajuste preestablecido Editar un mensaje**. [Más información](../configuration/message-presets.md#edit-message-preset)
 * Nueva sección **Editar un registro PTR**. [Más información](../configuration/ptr-records.md#edit-ptr-record)
 * Nueva sección **Desactivar un ajuste preestablecido de mensaje**. [Más información](../configuration/message-presets.md#edit-message-preset#deactivate-preset)
-* Nuevas limitaciones añadidas a la **Guía para desarrolladores de API de administración de decisiones** sobre las restricciones de oferta no admitidas con flujos de trabajo móviles de [!DNL Experience Edge]. [Más información](../offers/api-reference/offers-api/personalized-offers/create.md#limitations)
+* Nuevas limitaciones añadidas a la **Guía para desarrolladores de API de gestión de decisiones** sobre las restricciones de oferta no admitidas con flujos de trabajo móviles de [!DNL Experience Edge]. [Más información](../offers/api-reference/offers-api/personalized-offers/create.md#limitations)
 * Nueva sección **Creación de simulaciones**. [Más información](../offers/offer-activities/simulation.md)
 * Se ha actualizado la sección **Adición de ámbitos de decisión**. [Más información](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 * Se ha actualizado la sección **Definición de contenido para las representaciones**, incluida una nueva [subsección](../offers/offer-library/creating-personalized-offers.md#custom-text) sobre cómo definir y personalizar texto personalizado. [Más información](../offers/offer-library/creating-personalized-offers.md#content)
@@ -114,7 +114,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 * Se ha añadido información sobre los puertos predeterminados de acciones personalizadas. [Más información](../action/about-custom-action-configuration.md#url-configuration)
 
-* Se ha añadido información sobre varios casos de uso de eventos comerciales. [Más información](../event/about-creating-business.md#multiple-business-events)
+* Se ha añadido información sobre varios casos de uso de eventos empresariales. [Más información](../event/about-creating-business.md#multiple-business-events)
 
 * Se han añadido ejemplos de uso común para consultar eventos de pasos de recorrido en un lago de datos. [Más información](../reports/query-examples.md)
 
@@ -122,7 +122,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 * Se ha mejorado la página **Inicio rápido** con pasos para diferentes personalidades. [Más información](../start/quick-start.md)
 
-* Ahora, todas las funciones de Administración de decisiones descritas en la sección dedicada, también se aplican a los usuarios de Adobe Experience Platform que aprovechan el servicio de aplicaciones de Offer Decisioning. [Más información](../offers/get-started/starting-offer-decisioning.md)
+* Ahora, todas las funciones de gestión de decisiones descritas en la sección dedicada, también se aplican a los usuarios de Adobe Experience Platform que aprovechan el servicio de aplicaciones de Offer Decisioning. [Más información](../offers/get-started/starting-offer-decisioning.md)
 
 * Se ha añadido una subsección para aclarar las diferencias entre el uso de segmentos y las reglas de decisión al aplicar una restricción para limitar la selección de ofertas en una ubicación determinada. [Más información](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
@@ -134,7 +134,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 ## Agosto de 2021 {#august-2021}
 
 * Todas las nuevas funciones y mejoras incluidas en la versión de agosto de 2021 de [!DNL Journey Optimizer] se han incluido en la documentación. [Más información](release-notes.md)
-* Se han actualizado los permisos de administración de decisiones. [Más información](../administration/ootb-product-profiles.md)
+* Se han actualizado los permisos de gestión de decisiones. [Más información](../administration/ootb-product-profiles.md)
 * Capturas de pantalla del diseñador de correo electrónico actualizadas con la IU más reciente.
 * Se ha actualizado el procedimiento de configuración para acciones personalizadas con rutas URL dinámicas y encabezados dinámicos. [Más información](../action/about-custom-action-configuration.md#url-configuration)
 * Se ha añadido una sección sobre las funciones de accesibilidad y los métodos abreviados de teclado. [Más información](../start/user-interface.md#accessibility)
@@ -155,7 +155,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 * Todas las nuevas funciones y mejoras incluidas en la versión de julio de 2021 de [!DNL Journey Optimizer] se han incluido en la documentación. [Más información](release-notes.md)
 * Se han añadido vínculos directos a la documentación de servicios de Experience Platform en la página principal de [!DNL Journey Optimizer] y el índice
-* Nuevas páginas de destino para servicios de Experience Platform disponibles en [!DNL Journey Optimizer]
+* Nuevas páginas de aterrizaje para servicios de Experience Platform disponibles en [!DNL Journey Optimizer]
 * Se han añadido vínculos a la descripción del producto de [!DNL Journey Optimizer] en la página principal
 * Se han añadido vídeos de tutoriales en varias páginas
 * Imágenes optimizadas de la página principal

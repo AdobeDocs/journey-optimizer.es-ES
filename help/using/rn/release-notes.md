@@ -127,7 +127,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 ### Mejoras
 
-**Administración de decisiones**
+**Gestión de decisiones**
 
 * **Compatibilidad con archivos HTML y JSON**: ahora puede arrastrar y soltar archivos HTML y JSON externos de la biblioteca de recursos de Adobe Experience Cloud en el contenido de la representación de la oferta. [Más información](../offers/offer-library/add-representations.md#html-json)
 
