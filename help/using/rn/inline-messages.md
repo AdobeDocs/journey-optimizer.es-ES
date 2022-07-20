@@ -2,9 +2,9 @@
 title: Migrar a creación en línea de recorrido
 description: Descubra cómo migrar sus mensajes
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: ea8e133475eb86ff7ad9463950d81d36fe3b5504
+source-git-commit: 3ba2c604a99c53e95c4ef083f5ee43d2d6f5477a
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -287,7 +287,10 @@ No habrá pérdida de datos ni impacto en los recorridos activos. Estará en con
 
 ### ¿Habrá pérdida de funcionalidad?{#functionality}
 
-Habrá un cambio en la forma en que crea el mensaje. No habrá pérdida de funcionalidad.
+Habrá un cambio en la forma en que crea el mensaje. No habrá pérdida de funcionalidad. Tenga en cuenta que después del 25 de julio (versión de la función de creación en línea), se aplicarán limitaciones a las acciones que se pueden realizar en recorridos que utilicen **Mensaje** actividades:
+
+* No podrá copiar/pegar ninguna **Mensaje** actividad. Sin embargo, podrá copiar/pegar las nuevas actividades de acción del canal.
+* Para estos recorridos, no podrá realizar las siguientes acciones: probar, publicar, duplicar, crear una nueva versión, cerrar o copiar en otro simulador para pruebas. Estas limitaciones se aplicarán siempre que **Mensajes** las actividades están presentes en esos recorridos. Puede esperar a que se ejecute y actualice el proceso de migración **Mensajes** actividades para canalizar actividades de acción o puede eliminarlas **Mensajes** manualmente.
 
 ### ¿Habrá acceso al entorno durante el proceso de migración?
 
