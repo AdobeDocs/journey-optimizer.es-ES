@@ -3,9 +3,9 @@ title: Introducción a Journey Optimizer para administrador del sistema
 description: Como administrador del sistema, obtenga más información sobre cómo trabajar con Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
+source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '725'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ Obtenga información sobre la administración de acceso en las siguientes págin
 
 1. **Explicación de los perfiles de producto**. Los perfiles de producto son un conjunto de derechos unitarios que permiten a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz. Obtenga más información en la [Perfiles de producto integrados](../../administration/ootb-product-profiles.md) para obtener más información.
 
-1. **Definir permisos** para perfiles de producto, incluido **Sandboxes**, y dé acceso a los integrantes del equipo asignándolos a diferentes perfiles de producto. Este paso se realiza en la [Admin Console](https://adminconsole.adobe.com/){_blank}. Los permisos son derechos unitarios que le permiten definir las autorizaciones asignadas a **[!UICONTROL Product profile]**. Cada permiso se recopila en funciones, como Recorrido, mensajes u ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Obtenga más información en la [Niveles de permisos](../../administration/high-low-permissions.md) para obtener más información.
+1. **Definir permisos** para perfiles de producto, incluido **Sandboxes**, y dé acceso a los integrantes del equipo asignándolos a diferentes perfiles de producto. Este paso se realiza en la [Admin Console](https://adminconsole.adobe.com/){_blank}. Los permisos son derechos unitarios que le permiten definir las autorizaciones asignadas a **[!UICONTROL Product profile]**. Cada permiso se recopila en funciones, por ejemplo, Recorrido u Ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Obtenga más información en la [Niveles de permisos](../../administration/high-low-permissions.md) para obtener más información.
 
 Además, debe agregar usuarios que necesiten acceder a Assets Essentials a la **Usuarios consumidores de Assets Essentials** o/y **Usuarios de Assets Essentials** Perfiles de producto. [Más información en la documentación de Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
@@ -37,18 +37,18 @@ Además, debe agregar usuarios que necesiten acceder a Assets Essentials a la **
 
 Al acceder [!DNL Journey Optimizer] por primera vez, se le aprovisiona un simulador para pruebas de producción y se le asigna un determinado número de direcciones IP en función de su contrato.
 
-Para poder crear sus recorridos y enviar mensajes, acceda al **ADMINISTRACIÓN** para abrir el Navegador. Examine la **[!UICONTROL Channels]** para configurar los mensajes de correo electrónico y los ajustes preestablecidos.
+Para poder crear sus recorridos y enviar mensajes, acceda al **ADMINISTRACIÓN** para abrir el Navegador. Examine la **[!UICONTROL Channels]** para configurar los mensajes y las superficies del canal (es decir, los ajustes preestablecidos de mensaje).
 
 >[!NOTE]
 >Como **Administrador del sistema**, si no puede ver la variable **[!UICONTROL Channels]** en [!DNL Journey Optimizer], actualice sus permisos en el [Admin Console](https://adminconsole.adobe.com/){_blank}. Obtenga información sobre cómo actualizar el perfil de producto en [esta página](../../administration/permissions.md#edit-product-profile).
 
 Siga los pasos que se indican a continuación:
 
-1. **Configuración de mensajes y canales**: definir ajustes preestablecidos, adaptar y personalizar la configuración de los mensajes push y de correo electrónico
+1. **Configuración de mensajes y canales**: definir superficies, adaptar y personalizar la configuración de correo electrónico, sms y mensajes push
 
    * Definir **configuración de notificaciones push** en ambos [!DNL Adobe Experience Platform] y [!DNL Adobe Experience Platform Launch]. [Más información](../../configuration/push-gs.md)
 
-   * Crear **ajustes preestablecidos de mensajes** para configurar todos los parámetros técnicos necesarios para los mensajes de correo electrónico y notificaciones push. [Más información](../../configuration/message-presets.md)
+   * Crear **superficies de canal** (es decir, ajustes preestablecidos de mensaje) para configurar todos los parámetros técnicos necesarios para el correo electrónico, los sms y las notificaciones push. [Más información](../../configuration/message-presets.md)
 
    * Configure las variables **Canal de SMS** para configurar todos los parámetros técnicos necesarios para SMS. [Más información](../../configuration/sms-configuration.md)
 
@@ -62,7 +62,7 @@ Siga los pasos que se indican a continuación:
 
    ![](../assets/ip-pool.png)
 
-1. **Administrar la supresión y la lista de permitidos**: mejore la capacidad de envío con supresión y listas de permitidos
+1. **Administrar la supresión y las listas de permitidos**: mejore la capacidad de envío con supresión y listas de permitidos
 
    * A [lista de supresión](../../reports/suppression-list.md) consiste en direcciones de correo electrónico que desea excluir de los envíos, ya que el envío a estos contactos podría dañar la reputación de envío y las tasas de envío. Puede supervisar todas las direcciones de correo electrónico que se excluyen automáticamente del envío de un recorrido, como direcciones no válidas, direcciones que devuelven mensajes de forma flexible y que podrían afectar negativamente a su reputación de correo electrónico y destinatarios que presentan una queja de correo no deseado de algún tipo contra uno de sus mensajes de correo electrónico. Obtenga información sobre cómo administrar la variable [lista de supresión](../../configuration/manage-suppression-list.md) y [reintentos](../../configuration/retries.md).
    ![](../assets/suppression-list-filtering-example.png)
