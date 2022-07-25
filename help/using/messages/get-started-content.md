@@ -1,137 +1,164 @@
 ---
 title: Introducción a los mensajes
-description: Obtenga información sobre cómo crear, probar y publicar mensajes personalizados en Journey Optimizer
+description: Aprenda a crear y enviar mensajes personalizados en Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 100%
+source-wordcount: '810'
+ht-degree: 6%
 
 ---
 
-# Introducción a los mensajes {#get-started-contents-messages}
+# Introducción a los mensajes {#get-started-messages}
 
-Utilice [!DNL Journey Optimizer] para aprovechar varias capacidades, como recursos y contenido, en un solo lugar, y cree y publique notificaciones push y mensajes de correo electrónico personalizados.
+>[!CONTEXTUALHELP]
+>id="ajo_journey_message"
+>title="Acciones de canal"
+>abstract="Utilice acciones del canal para enviar un mensaje push, SMS o de correo electrónico."
 
-* Aproveche las funcionalidades de diseño de correo electrónico de [!DNL Journey Optimizer] **** para crear o importar correos electrónicos adaptables.
+Uso [!DNL Journey Optimizer] para crear y enviar notificaciones push personalizadas, SMS y mensajes de correo electrónico. Todos los mensajes se pueden editar en línea como parte de una acción en el lienzo del Recorrido.  Utilice la función Guardar como plantilla para reutilizar el contenido fácilmente. Puede:
 
-* Aproveche **Adobe Experience Manager Assets Essentials** para crear su propia base de datos de recursos y enriquecer sus correos electrónicos.
+* Uso [!DNL Journey Optimizer] **capacidades de diseño de correo electrónico** para crear o importar correos electrónicos interactivos.
 
-* Mejore la experiencia de los clientes creando **mensajes push y de correo electrónico personalizados** en función de sus atributos de perfil.
+* Aprovechar **Adobe Experience Manager Assets Essentials** para enriquecer los correos electrónicos, cree y administre su propia base de datos de recursos.
 
-* **Cree mensajes push y de correo electrónico** basados en estos contenidos y, a continuación, publíquelos.
+* Buscar **Fotos de Adobe Stock** para crear su contenido y mejorar su diseño de correo electrónico.
 
-## Acceso a mensajes {#access-messages}
+* Mejorar la experiencia de los clientes creando **notificaciones push, SMS y correos electrónicos** en función de sus atributos de perfil.
 
-Los mensajes están disponibles en el acceso directo **[!UICONTROL Messages]** en el panel de navegación izquierdo. Todos los mensajes se enumeran y se ordenan por fecha de publicación (para mensajes publicados) o fecha de creación (para borradores de mensajes).
+* **Envío de envíos** en función de estos contenidos y realice un seguimiento del comportamiento de los clientes.
 
 >[!NOTE]
 >
->Los usuarios pueden acceder, crear, editar o publicar mensajes según su perfil de producto. Obtenga más información sobre los permisos de usuario [en esta sección](../administration/permissions.md).
+>Los usuarios pueden acceder, crear, editar o publicar recorridos en función de su perfil de producto. Obtenga más información sobre los permisos de usuario [en esta sección](../administration/permissions.md).
 
-![](assets/messages-list.png)
 
-* Utilice botón de alternancia **[!UICONTROL Show recents]** para añadir vínculos directos a los mensajes a los que ha accedido en los últimos cinco días.
+## Añadir mensajes en los recorridos{#messages-in-journeys}
 
-   ![](assets/show-recent-messages.png)
+>[!CONTEXTUALHELP]
+>id="ajo_message_category"
+>title="Categoría del mensaje"
+>abstract="Seleccione Marketing para mensajes comerciales o Transaccional para mensajes no comerciales, como confirmación de pedido, notificaciones de restablecimiento de contraseña o información de envío"
 
-* Utilice el icono de filtro para mostrar solo los mensajes redactados, publicados o que se están publicando. También puede buscar en una etiqueta de mensaje, como se muestra a continuación:
+>[!CONTEXTUALHELP]
+>id="ajo_message_surface"
+>title="Superficie de canal"
+>abstract="Una superficie de canal es una instancia de ese canal que tiene toda la configuración para enviar una acción correctamente a través de una campaña o un recorrido. Se define mediante un administrador del sistema."
 
-   ![](assets/filter-messages.png)
+Para añadir mensajes en los recorridos, simplemente añada una actividad push, SMS o de correo electrónico en los lienzos de recorrido.
 
-* Puede archivar los mensajes no utilizados para borrar la lista de mensajes mediante el icono dedicado del menú de acciones rápidas.
+1. Inicie el recorrido con un [Evento](../building-journeys/general-events.md) o [Leer segmento](../building-journeys/read-segment.md) actividad.
 
-   ![](assets/archive-message.png)
+1. En el **Acciones** de la paleta, arrastre y suelte una **email**, un **SMS** o **Push** actividad en el lienzo.
 
-   Utilice el icono de filtro para mostrar todos los mensajes archivados y haga clic en el icono **[!UICONTROL Unarchive]** para eliminar un elemento de la lista de mensajes archivados.
+   ![](assets/add-a-message.png)
+
+1. Introduzca una etiqueta y una descripción.
+
+1. Seleccione el mensaje **[!UICONTROL Category]**: elija **Marketing** para mensajes comerciales, o **Transaccional** para mensajes no comerciales como confirmación de pedido, notificaciones de restablecimiento de contraseña o información de entrega.
 
    >[!NOTE]
    >
-   >No se puede abrir un mensaje archivado. Primero debe desarchivarlo.
+   >Si ha definido [reglas de frecuencia](../configuration/frequency-rules.md) para un canal y categoría específicos, se aplican automáticamente al mensaje al seleccionar ese canal y categoría. Actualmente solo el **[!UICONTROL Marketing]** está disponible para reglas de frecuencia.
 
-## Crear un mensaje nuevo {#create-new-message}
+   ![](assets/inline-message-category.png)
 
-Para diseñar un mensaje nuevo, siga los pasos a continuación:
-
-1. Acceda a la lista de mensajes y haga clic en **[!UICONTROL Create Message]**.
-
-1. Definición de las propiedades del mensaje.
-
-   ![](assets/create-message-properties.png)
-
-   * Escriba un **[!UICONTROL Title]** (obligatorio) y un **[!UICONTROL Description]**.
-
-   * Seleccione el **[!UICONTROL Message category]**: Marketing o transaccional.
-
-   * Seleccione los canales que desee utilizar para ese mensaje: notificación por correo electrónico, push o SMS. Debe seleccionar al menos un canal para poder crear el mensaje.
-   >[!NOTE]
-   >
-   >Puede hacer clic en el vínculo **[!UICONTROL Frequency rule]** para ver las reglas de frecuencia que se aplicarán a la categoría y a los canales seleccionados. Más información sobre las [reglas de frecuencia](../configuration/frequency-rules.md).
-
-   * Seleccione el **[!UICONTROL Preset]** para usar en el mensaje.
-
-      Los ajustes preestablecidos incluyen todos los parámetros necesarios para enviar un correo electrónico o una notificación push según la marca. Más información sobre los [ajustes preestablecidos](../configuration/message-presets.md).
    >[!CAUTION]
    >
-   >Debe elegir un ajuste preestablecido de mensaje válido para la categoría y los canales seleccionados.
+   >Los mensajes de tipo de marketing deben incluir un [vínculo de no participación](../messages/consent.md#opt-out-management). Esto no es necesario para los mensajes transaccionales, ya que estos mensajes se pueden enviar a perfiles que cancelaron la suscripción a comunicaciones de marketing.
 
-   Tenga en cuenta que puede acceder al título, la descripción y el ajuste preestablecido del mensaje y modificarlos en cualquier momento mediante el botón **[!UICONTROL Properties]** en la interfaz de mensajes.
+1. Seleccione el canal **[!UICONTROL Surface]** (es decir, el ajuste preestablecido de mensaje) que se utiliza para enviar el mensaje.
 
-1. Haga clic en **[!UICONTROL Create]** para confirmar la creación del mensaje. El mensaje se añade en la lista de mensajes, en el estado **[!UICONTROL Draft]**.
+   Una superficie es una configuración que se ha definido mediante una [Administrador del sistema](../start/path/administrator.md). Contiene todos los parámetros técnicos para enviar el mensaje, como parámetros de encabezado, subdominio, aplicaciones móviles, etc. [Más información](../configuration/message-presets.md).
 
-   Hay una pestaña disponible para cada canal seleccionado. Utilice estas pestañas para configurar el contenido de cada canal. Puede quitar una pestaña seleccionándola y haciendo clic en el botón **[!UICONTROL Delete channel]** a la derecha.
-
-   ![](assets/create-messages-content.png)
-
-   <!--
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >If you enabled the **[!UICONTROL BCC email]** option in the preset, the BCC email address will display under the sender email. [Learn more](../configuration/email-settings.md#bcc-email)
-   -->
+   >Debe elegir una superficie de canal válida para la categoría de mensaje y el canal seleccionados.
 
-   Ahora puede crear el contenido del mensaje y adaptar la configuración. Encontrará información detallada sobre la configuración del correo electrónico y las notificaciones push en las secciones siguientes:
+   Puede acceder a la etiqueta, la descripción y la superficie del mensaje y modificarlas en cualquier momento utilizando la variable **[!UICONTROL Properties]** en la interfaz de mensajes.
+
+1. Creación del contenido del mensaje.
+
+   Conozca los pasos detallados para crear el contenido del mensaje en la siguiente página:
 
    * [Crear un correo electrónico](create-email.md)
    * [Crear notificaciones push](create-push.md)
    * [Creación de un mensaje SMS](create-sms.md)
 
-   >[!NOTE]
-   >   
-   >Puede personalizar los mensajes mediante los datos de los perfiles mediante el editor de expresiones. Para obtener más información sobre personalización, consulte [esta sección](../personalization/personalize.md).
+## Habilitar la optimización del tiempo de envío{#sto-in-journeys}
 
-1. Controle la renderización de los mensajes y compruebe la configuración de personalización con perfiles de prueba mediante la sección de previsualización de la izquierda. Para obtener más información, consulte [esta sección](../design/preview.md).
+Para las notificaciones push y por correo electrónico, puede activar **[!UICONTROL Send-time optimization]**.
 
-   ![](assets/messages-simple-preview.png)
+Uso **[!UICONTROL Send-time optimization]** para programar tiempos de envío personalizados para que cada usuario aumente las tasas de apertura y de clics de sus mensajes. [Más información](../messages/send-time-optimization.md).
 
-1. Compruebe las alertas en la sección superior del editor.  Algunas son simples advertencias, pero otras pueden impedir que publique el mensaje. Obtenga más información en [esta sección](alerts.md).
 
-1. Ahora puede publicar el mensaje haciendo clic en el botón **[!UICONTROL Publish]** o mantenerlo como borrador y publicarlo más adelante. Para obtener más información sobre cómo publicar mensajes, consulte [esta sección](publish-manage-message.md).
+## Parámetros avanzados{#adv-settings}
+
+Los parámetros avanzados son de solo lectura y están ocultos de forma predeterminada.
+
+Para acceder a los parámetros avanzados, haga clic en el botón **[!UICONTROL Show read-only fields]** en la parte superior del panel de mensajes.
+
+![](assets/show-read-only.png)
+
+Los parámetros avanzados se muestran en la parte inferior del panel de mensajes. Estos parámetros se definen mediante la variable [administrador del sistema](../start/path/administrator.md) en el [superficie del canal](../configuration/message-presets.md) (es decir, el ajuste preestablecido de mensaje) asociado al mensaje.
+
+Para las notificaciones push, puede mostrar los siguientes parámetros: Token, AppID, AppPlatform.
+
+![](assets/push-adv-parameters.png)
+
+Para el correo electrónico, puede mostrar la dirección de correo electrónico principal.
+
+Para un uso específico, puede anular estos valores en contextos específicos. Para forzar un valor, haga clic en el botón **Habilitar anulación de parámetros** a la derecha del campo . Esta opción puede resultar útil, por ejemplo:
+
+* Pruebe un correo electrónico, puede añadir su dirección de correo electrónico. Después de publicar el recorrido, se le enviará el correo electrónico.
+* Consulte la dirección de correo electrónico de los suscriptores de una lista. Obtenga más información en [este caso de uso](../building-journeys/message-to-subscribers-uc.md).
+
+Haga clic en el mismo icono para restablecer al parámetro predeterminado.
+
+
+## Examinar mensajes{#browse-message}
+
+Cuando se utilizan varios mensajes en un recorrido, puede cambiar de uno a otro desde el **Editar contenido** en el Navegador.
+
+![](assets/inline-messages-multi-content.png)
+
+Entonces puede [comprobar alertas](alerts.md) y [simulate](../design/preview.md) cada contenido de una sola vista.
 
 ## Duplicar un mensaje {#duplicate-message}
 
-Para crear un mensaje a partir de uno existente, siga los pasos a continuación.
+Puede copiar un mensaje existente del lienzo de recorrido.
 
-1. Abra el mensaje que desee copiar.
+Para ello, siga los pasos a continuación:
 
-1. Utilice el botón **[!UICONTROL Duplicate]** de la interfaz de mensajes.
+1. Seleccione el mensaje que desee copiar.
+
+1. Utilice la variable **[!UICONTROL Copy]** del **[!UICONTROL Action]** panel.
 
    ![](assets/message-duplicate.png)
 
-   Todos los ajustes y configuraciones se copiarán en el nuevo mensaje.
+1. Entrar **crtl+V** para pegar el mensaje.
 
-1. Puede cambiar el nombre del mensaje antes de confirmar la duplicación.
+   El mensaje se añade a los lienzos de recorrido. Todos los ajustes y configuraciones se copiarán en el nuevo mensaje.
 
-   ![](assets/message-duplicate-confirm.png)
+   ![](assets/message-duplicated.png)
 
-1. Una vez creado el nuevo mensaje, aparece un mensaje de confirmación en la parte inferior de la ventana.
+1. Cambie el nombre del mensaje para poder diferenciar el mensaje inicial de la copia, por ejemplo al editar mensajes, como se muestra a continuación:
 
-También puede duplicar un mensaje de la lista de mensajes mediante el icono dedicado del menú de acciones rápidas.
+   ![](assets/multi-message.png)
 
-![](assets/message-duplicate-from-list.png)
 
-Se aplica el mismo proceso de confirmación.
+>[!NOTE]
+>
+>En el caso de los correos electrónicos, también puede convertir un mensaje existente en una plantilla. [Más información](../design/email-templates.md).
 
+## Eliminar un mensaje
+
+Para eliminar un mensaje, utilice el icono de papelera en la parte superior del panel de actividad de acción del canal.
+
+![](assets/delete-message.png)
+
+Utilice la variable **[!UICONTROL Confirm]** para validar.

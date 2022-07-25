@@ -7,16 +7,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: fe9ae9b7068a883dac61f3b9c9a4aead2ccfb5c7
-workflow-type: ht
-source-wordcount: '336'
-ht-degree: 100%
+source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 80%
 
 ---
 
 # Documentación de Adobe [!DNL Journey Optimizer] {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
+
+>[!CAUTION]
+>
+>El 25 de julio, Adobe Journey Optimizer lanzará un [nueva función](using/rn/inline-messages.md) que mejora la forma en que se crea contenido para canales de Journey Optimizer (correo electrónico, push, SMS). Como profesional de Journey Optimizer, ahora [crear y crear](using/messages/get-started-content.md) sus mensajes directamente desde un recorrido. Se realiza una conversión automática de recorridos. Dicho esto, necesitamos su ayuda con algunos pasos. Obtenga más información sobre [pasos necesarios](using/rn/inline-messages-steps.md).
 
 <table style="table-layout:fixed">
 <tr>
@@ -50,9 +54,9 @@ ht-degree: 100%
     Diseñe el contenido de un correo electrónico nuevo o importe contenido de una HTML existente
     <p>
     <div>
-      <a href="using/building-journeys/journeys-message.md">Envío de mensajes</a>
+      <a href="using/messages/get-started-content.md">Envío de mensajes</a>
     </div>
-    <p>Obtenga información sobre cómo añadir mensajes push y de correo electrónico en los recorridos del cliente
+    <p>Aprenda a añadir mensajes push, SMS y de correo electrónico en los recorridos de cliente
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">Creación de su primer recorrido</a>
@@ -114,9 +118,6 @@ ht-degree: 100%
     <p>ADMINISTRACIÓN DE RECORRIDOS</p>
     <li>
       <a href="using/building-journeys/journey-gs.md">Recorridos</a>
-    </li>
-    <li>
-      <a href="using/messages/get-started-content.md">Mensajes</a>
     </li>
     <li>
       <a href="using/landing-pages/get-started-lp.md">Páginas de aterrizaje</a>
