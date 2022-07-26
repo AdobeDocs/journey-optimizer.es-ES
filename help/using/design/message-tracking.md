@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '586'
 ht-degree: 9%
 
 ---
@@ -19,7 +19,7 @@ Uso [!DNL Journey Optimizer] para añadir vínculos al contenido y realizar un s
 
 ## Habilitar el seguimiento {#enable-tracking}
 
-Puede habilitar el seguimiento a nivel de mensaje de correo electrónico comprobando la variable **[!UICONTROL Open Tracking for email]** y/o **[!UICONTROL Click Tracking for email]** opciones [crear el mensaje](../messages/get-started-content.md).
+Puede habilitar el seguimiento a nivel de mensaje de correo electrónico comprobando la variable **[!UICONTROL Email opens]** y/o **[!UICONTROL Click on email]** opciones [crear el mensaje](../messages/get-started-content.md).
 
 ![](assets/message-tracking.png)
 
@@ -29,8 +29,8 @@ Puede habilitar el seguimiento a nivel de mensaje de correo electrónico comprob
 
 Esto le permite hacer un seguimiento del comportamiento de sus destinatarios a través de:
 
-* **[!UICONTROL Open Tracking for email]**: Mensajes que se han abierto.
-* **[!UICONTROL Click Tracking for email]**: Haga clic en los vínculos de un correo electrónico.
+* **[!UICONTROL Email opens]**: Mensajes que se han abierto.
+* **[!UICONTROL Click on email]**: Haga clic en los vínculos de un correo electrónico.
 
 ## Insertar vínculos {#insert-links}
 
@@ -75,7 +75,7 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
 >[!NOTE]
 >
->Los mensajes de correo electrónico de tipo de marketing deben incluir un [vínculo de no participación](../messages/consent.md#opt-out-management), que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transactional]**) se define en la variable [nivel de mensaje preestablecido](../configuration/message-presets.md#email-type) y cuándo [creación del mensaje](../messages/get-started-content.md#create-new-message).
+>Los mensajes de correo electrónico de tipo de marketing deben incluir un [vínculo de no participación](../messages/consent.md#opt-out-management), que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transactional]**) se define en la variable [superficie del canal](../configuration/message-presets.md#email-type) (es decir, ajuste preestablecido de mensaje) y cuándo [creación del mensaje](../messages/get-started-content.md#create-new-message).
 
 ## Vínculo a una página espejo {#mirror-page}
 
@@ -122,6 +122,4 @@ La variable [Diseñador de correo electrónico](create-email-content.md) le perm
    * **[!UICONTROL Mirror page]**: Considera que esta URL es una URL de página espejo.
    * **[!UICONTROL Never]**: Nunca activa el seguimiento de esta dirección URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-El número de mensajes que se han abierto y el número de vínculos en los que se ha hecho clic se enumeran en la variable [Ficha Ejecuciones](../reports/message-monitoring.md).
-
-Los informes de aperturas y clics están disponibles en la [Informe de Email Live](../reports/email-live-report.md) y en el [Informe global de correo electrónico](../reports/email-global-report.md).
+Los informes de aperturas y clics están disponibles en la [Informe activo](../reports/live-report.md) y en el [Informe global](../reports/global-report.md).

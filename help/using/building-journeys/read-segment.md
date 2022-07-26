@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 6%
+source-wordcount: '1096'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 >title="Leer Actividad de segmentos"
 >abstract="La actividad Leer segmento le permite hacer que todas las personas que pertenecen a un segmento de Adobe Experience Platform participen en un recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular."
 
-La actividad Leer segmento le permite hacer que todas las personas que pertenecen a un segmento de Adobe Experience Platform participen en un recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular.
+Utilice la variable **Leer segmento** actividad para que todas las personas de un segmento entren en el recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular.
 
 Veamos como ejemplo el segmento &quot;Apertura y cierre de compra de la aplicación de Luma&quot; creado en la [Generar segmentos](../segment/about-segments.md) caso de uso. Con la actividad Leer segmento , puede hacer que todas las personas que pertenecen a este segmento ingresen a un recorrido y hacer que fluyan a recorridos personalizados que aprovechen todas las funcionalidades de recorrido: condiciones, temporizadores, eventos, acciones.
 
@@ -105,7 +105,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->Los recorridos de segmento Leído con una sola toma se mueven al estado Finalizado 30 días después de la ejecución del recorrido. Para segmentos de lectura programados, son 30 días después de la ejecución de la última incidencia.
+>Los recorridos de segmento Leído con una sola toma se mueven al estado Finalizado 30 días después de la ejecución del recorrido. Para segmentos de lectura programados, son 30 días después de la ejecución de la última ocurrencia.
 
 ### Prueba y publicación del recorrido {#testing-publishing}
 

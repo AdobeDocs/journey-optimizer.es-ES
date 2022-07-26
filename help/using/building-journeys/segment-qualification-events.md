@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ Para obtener más información sobre la segmentación de flujo continuo, consult
 
 ### Cómo evitar sobrecargas{#overloads-speed-segment-qualification}
 
-Estas son algunas prácticas recomendadas que ayudarán a evitar la sobrecarga de sistemas aprovechando los recorridos (fuentes de datos, acciones personalizadas, **Mensaje** actividades).
+Estas son algunas prácticas recomendadas que ayudarán a evitar la sobrecarga de sistemas apalancados en recorridos (fuentes de datos, acciones personalizadas, actividades de acción del canal).
 
 No use, en **[!UICONTROL Segment Qualification]** actividad, un segmento por lotes inmediatamente después de su creación. Evitará el primer pico de cálculo. Tenga en cuenta que habrá una advertencia amarilla en el lienzo de recorrido si está a punto de usar un segmento que nunca se ha calculado.
 

@@ -7,9 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1213'
 ht-degree: 4%
 
 ---
@@ -49,8 +50,6 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 ## Ficha Correo electrónico {#email-global}
 
 Desde la campaña **[!UICONTROL Global report]**, el **[!UICONTROL Email]** La pestaña detalla la información principal relativa a los envíos de correo electrónico realizados en la campaña.
-
-Para obtener un informe detallado sobre un envío de correo electrónico específico, consulte la [Informe global de correo electrónico](../reports/email-global-report.md) para obtener más información.
 
 La variable **[!UICONTROL Email Sending Statistics]** graph detalla el éxito de la entrega:
 
@@ -122,7 +121,7 @@ La variable **[!UICONTROL Email - Top recipient domain]** gráfico y tabla detal
 
 >[!NOTE]
 >
->La variable **[!UICONTROL Optimized vs non optimized]** y **[!UICONTROL Send time optimization]**  las utilidades solo están disponibles si la opción de optimización del tiempo de envío está activada para la entrega. Para obtener más información sobre la optimización del tiempo de envío, consulte esta [página](../building-journeys/journeys-message.md#send-time-optimization).
+>La variable **[!UICONTROL Optimized vs non optimized]** y **[!UICONTROL Send time optimization]**  las utilidades solo están disponibles si la opción de optimización del tiempo de envío está activada para la entrega. Para obtener más información sobre la optimización del tiempo de envío, consulte [esta página](../messages/send-time-optimization.md).
 
 La variable **[!UICONTROL Optimized vs non optimized]** graph detalla la información principal relativa al mensaje, independientemente de si están optimizados o no:
 
@@ -138,8 +137,6 @@ La variable **[!UICONTROL Send time optimization]** detalla el éxito de la entr
 ## Ficha Insertar {#push-global}
 
 Desde la campaña **[!UICONTROL Global report]**, el **[!UICONTROL Push]** detalla la información principal relativa a los envíos push realizados en la campaña.
-
-Para obtener un informe detallado sobre una entrega push específica, consulte esta sección [Insertar informe global](../reports/push-global-report.md).
 
 La variable **[!UICONTROL Push notification - Sending statistics]** la tabla detalla la información principal relativa a las notificaciones push con gráficos y KPI:
 
@@ -187,7 +184,7 @@ La variable **[!UICONTROL Push notification summary]** El gráfico contiene los 
 
 >[!NOTE]
 >
->La variable **[!UICONTROL Optimized vs non optimized]** y **[!UICONTROL Send time optimization]**  las utilidades solo están disponibles si la opción de optimización del tiempo de envío está activada para la entrega. Para obtener más información sobre la optimización del tiempo de envío, consulte esta [página](../building-journeys/journeys-message.md#send-time-optimization).
+>La variable **[!UICONTROL Optimized vs non optimized]** y **[!UICONTROL Send time optimization]**  las utilidades solo están disponibles si la opción de optimización del tiempo de envío está activada para la entrega. Para obtener más información sobre la optimización del tiempo de envío, consulte [esta página](../messages/send-time-optimization.md).
 
 La variable **[!UICONTROL Optimized vs non optimized]** graph detalla la información principal relativa al mensaje, independientemente de si están optimizados o no:
 

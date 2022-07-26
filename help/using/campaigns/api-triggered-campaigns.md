@@ -3,13 +3,13 @@ title: Déclencheur de campañas mediante API
 description: Aprenda a almacenar en déclencheur las campañas mediante [!DNL Journey Optimizer] API
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 3%
 
 ---
-
 
 # Déclencheur de campañas mediante API {#trigger-campaigns}
 
@@ -33,7 +33,7 @@ Para crear una campaña desencadenada por API, siga estos pasos:
 
 1. Cree una nueva campaña con el **[!UICONTROL API-triggered]** tipo .
 
-1. Seleccione el canal y la superficie del mensaje que desea utilizar para enviar el mensaje y, a continuación, haga clic en **[!UICONTROL Create]**.
+1. Seleccione el canal y la superficie del canal que desea utilizar para enviar el mensaje y, a continuación, haga clic en **[!UICONTROL Create]**.
 
    ![](assets/api-triggered-type.png)
 
@@ -67,7 +67,7 @@ Veamos este ejemplo, en el que los clientes desean restablecer su contraseña y 
 >
 >A diferencia de los eventos habilitados para perfiles, los datos contextuales pasados en la API de REST se utilizan para comunicaciones únicas y no se almacenan en el perfil. Como máximo, el perfil se crea con los detalles del área de nombres, si se encontró que falta.
 
-Para utilizar estos datos en las campañas, debe pasarlos a la carga útil de la API y agregarlos en el mensaje con el Editor de expresiones. Para ello, utilice el `{{context.<contextualAttribute>}}` sintaxis, donde `<contextualAttribute>` debe coincidir con el nombre de la variable en la carga útil de API que contiene los datos que desea pasar.
+Para utilizar estos datos en sus campañas, debe pasarlos a la carga útil de la API y añadirlos en el mensaje mediante el editor de expresiones. Para ello, utilice el `{{context.<contextualAttribute>}}` sintaxis, donde `<contextualAttribute>` debe coincidir con el nombre de la variable en la carga útil de API que contiene los datos que desea pasar.
 
 La variable `{{context.<contextualAttribute>}}` la sintaxis de se asigna únicamente a un tipo de datos de cadena.
 

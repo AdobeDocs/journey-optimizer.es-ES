@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '402'
 ht-degree: 15%
 
 ---
@@ -18,16 +18,17 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Creación de SMS"
->abstract="Añada el mensaje de texto y comience a personalizarlo con el Editor de expresiones."
+>abstract="Añada el mensaje de texto y comience a personalizarlo con el editor de expresiones."
 
-Una vez que [crear un mensaje](get-started-content.md), use el **[!UICONTROL SMS]** para definir la configuración y el contenido del mensaje SMS.
+Uso [!DNL Journey Optimizer] para enviar mensajes de texto a sus clientes en sus dispositivos móviles. Puede crear, personalizar y previsualizar mensajes en formato de texto desde el editor de SMS.
 
+Una vez que [se ha añadido un SMS](get-started-content.md) actividad en el recorrido y la configuración básica definida, use la variable **[!UICONTROL Actions: SMS]** panel derecho para crear el contenido del mensaje SMS.
 
 >[!AVAILABILITY]
 >
 >Ahora mismo, el canal SMS solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
 
-![](assets/sms_1.png)
+![](assets/sms-edit-content.png)
 
 Si es la primera vez que crea un mensaje SMS, asegúrese de que el canal SMS esté configurado. [Más información](../configuration/sms-configuration.md).
 
@@ -35,33 +36,27 @@ Si es la primera vez que crea un mensaje SMS, asegúrese de que el canal SMS est
 
 Para empezar a personalizar el mensaje SMS, siga estos pasos:
 
-1. Haga clic en el **[!UICONTROL Add text message]** para abrir el editor de expresiones.
+1. Haga clic en el **[!UICONTROL Message]** para abrir el editor de expresiones.
 
-   ![](assets/sms_3.png)
+   ![](assets/sms-content.png)
 
-1. Utilice el Editor de expresiones para definir el contenido. Puede utilizar cualquier atributo para personalizar el contenido, como el nombre del perfil o la ciudad. Obtenga más información sobre personalización en el Editor de expresiones en [esta sección](../personalization/personalize.md)
+1. Utilice el editor de expresiones para definir el contenido. Puede utilizar cualquier atributo para personalizar el contenido, como el nombre del perfil o la ciudad. Obtenga más información sobre personalización en el editor de expresiones en [esta sección](../personalization/personalize.md).
 
-   >[!NOTE]
-   >
-   > Un mensaje SMS puede tener hasta 160 caracteres, incluidos espacios y saltos de línea.
+1. Haga clic en **[!UICONTROL Save]** y compruebe el mensaje en la vista previa.
 
-   ![](assets/sms_2.png)
+   ![](assets/sms-content-preview.png)
 
-1. Haga clic en **[!UICONTROL Save]** cuando el mensaje esté listo.
 
 ## Validar el SMS{#sms-preview}
 
 Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo. Si ha insertado [contenido personalizado](../personalization/personalize.md), puede comprobar cómo se muestra este contenido en el mensaje, aprovechando los datos de perfil de prueba.
 
-Para visualizar la visualización de su mensaje SMS en dispositivos móviles, vaya a la **[!UICONTROL Preview]** pestaña .
+Para visualizar la visualización de su mensaje SMS en dispositivos móviles, haga clic en el botón **[!UICONTROL Simulate content]** pestaña . Obtenga más información sobre la simulación de contenido en [esta sección](../design/preview.md).
 
-Para obtener más información, consulte [esta sección](../design/preview.md).
+También debe comprobar las alertas en la sección superior del editor.  Algunas de ellas son simples advertencias, pero otras pueden impedir que utilice el mensaje. Obtenga más información en [esta sección](alerts.md).
 
-## Publicar su SMS {#sms-publish}
+![](assets/sms-alert-button.png)
 
-Una vez que el mensaje esté listo, puede publicarlo para que esté disponible para la ejecución con la variable **[!UICONTROL Publish]** botón. Esta acción publica la nueva versión del mensaje que se utilizará para las próximas ejecuciones en sus recorridos.
-
-El mensaje SMS ahora se puede usar en un recorrido. [Obtenga información sobre cómo crear recorridos](../building-journeys/journey-gs.md).
 
 ## Inclusión y exclusión{#sms-opt-in-out}
 
@@ -73,12 +68,13 @@ Para obtener más información sobre cómo funciona la compatibilidad con palabr
 
 >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
 
-## Vídeo explicativo
+<!--
+## How-to video
 
-Obtenga información sobre cómo configurar, crear e incluir mensajes SMS en sus recorridos de cliente.
+Learn how to configure, author, and include SMS messaging into your customer journeys.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)
-
+-->
 **Temas relacionados**
 
 * [Configuración del canal de SMS](../configuration/sms-configuration.md)

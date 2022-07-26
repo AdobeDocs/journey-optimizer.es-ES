@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 18%
+source-wordcount: '888'
+ht-degree: 17%
 
 ---
 
@@ -47,7 +47,11 @@ Por ejemplo, supongamos que organiza un evento el mes que viene y desea iniciar 
 
 1. [Publicación](create-lp.md#publish) la página de aterrizaje.
 
-1. [Creación de un mensaje de correo electrónico](../messages/get-started-content.md) para anunciar que el registro está abierto para su evento.
+1. En un [recorrido](../building-journeys/journey.md), agregue un **Correo electrónico** actividad para dirigir el tráfico a la página de aterrizaje de registro.
+
+   ![](assets/lp_subscription-uc-journey.png)
+
+1. [Diseño del correo electrónico](../messages/get-started-content.md) para anunciar que el registro está abierto para su evento.
 
 1. [Inserción de un vínculo](../design/message-tracking.md#insert-links) en el contenido del mensaje. Select **[!UICONTROL Landing page]** como el **[!UICONTROL Link type]** y seleccione [página de aterrizaje](create-lp.md#configure-primary-page) que ha creado para el registro.
 
@@ -55,13 +59,7 @@ Por ejemplo, supongamos que organiza un evento el mes que viene y desea iniciar 
 
    >[!NOTE]
    >
-   >Para poder publicar el mensaje, asegúrese de que la página de aterrizaje que seleccione no haya caducado aún. Obtenga información sobre cómo actualizar la fecha de caducidad [en esta sección](create-lp.md#configure-primary-page).
-
-1. Guarde el contenido y [publique el mensaje](../messages/publish-manage-message.md).
-
-1. Envíe su mensaje a través de un [recorrido](../building-journeys/journey.md) para dirigir el tráfico a la página de aterrizaje de registro.
-
-   ![](assets/lp_subscription-uc-journey.png)
+   >Para poder enviar el mensaje, asegúrese de que la página de aterrizaje que seleccione no haya caducado aún. Obtenga información sobre cómo actualizar la fecha de caducidad [en esta sección](create-lp.md#configure-primary-page).
 
    Una vez que reciban el correo electrónico, si los destinatarios hacen clic en el vínculo a la página de aterrizaje, se les dirigirá a la página de agradecimiento y se añadirán a la lista de suscripción.
 
@@ -79,7 +77,7 @@ Además, puede enviar un correo electrónico de confirmación a los destinatario
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
-1. Seleccione el correo electrónico de confirmación que desee y envíelo a través del recorrido .
+1. Añada un correo electrónico de confirmación de su elección y envíelo a través del recorrido.
 
    ![](assets/lp_subscription-uc-confirm-email.png)
 
@@ -128,7 +126,7 @@ Para permitir que los destinatarios de un correo electrónico cancelen la suscri
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [Creación de un mensaje de correo electrónico](../messages/get-started-content.md) en [!DNL Journey Optimizer].
+1. [Creación de un mensaje de correo electrónico](../messages/get-started-content.md) en un recorrido.
 
 1. Seleccione texto en el contenido e [inserte un vínculo](../design/message-tracking.md#insert-links) utilizando la barra de herramientas contextual. También puede utilizar un vínculo en un botón.
 
@@ -140,11 +138,9 @@ Para permitir que los destinatarios de un correo electrónico cancelen la suscri
 
    >[!NOTE]
    >
-   >Para poder publicar el mensaje, asegúrese de que la página de aterrizaje que seleccione no haya caducado aún. Obtenga información sobre cómo actualizar la fecha de caducidad [en esta sección](create-lp.md#configure-primary-page).
+   >Para poder enviar el mensaje, asegúrese de que la página de aterrizaje que seleccione no haya caducado aún. Obtenga información sobre cómo actualizar la fecha de caducidad [en esta sección](create-lp.md#configure-primary-page).
 
-1. Guarde el contenido y [publique el mensaje](../messages/publish-manage-message.md).
-
-1. Envíe su mensaje a través de un recorrido. [Más información](../building-journeys/journey.md).
+1. Publique y ejecute el recorrido. [Más información](../building-journeys/journey.md).
 
 1. Una vez recibido el mensaje, si un destinatario hace clic en el vínculo unsubscribe del correo electrónico, se muestra la página de aterrizaje.
 

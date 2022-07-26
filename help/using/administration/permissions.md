@@ -6,9 +6,9 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '722'
 ht-degree: 15%
 
 ---
@@ -57,15 +57,15 @@ El usuario debería recibir entonces un correo electrónico que le redirija a su
 
 Para obtener más información sobre la administración de usuarios, consulte la [documentación del Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
 
-Al acceder a la instancia, el usuario verá una vista específica en función de los permisos asignados en la variable **[!UICONTROL Product profile]**. Si el usuario no tiene el acceso correcto a una función, aparecerá la siguiente pantalla.
+Al acceder a la instancia, el usuario verá una vista específica en función de los permisos asignados en la variable **[!UICONTROL Product profile]**. Si el usuario no tiene el acceso correcto a una función, aparecerá el siguiente mensaje:
 
-![](assets/do-not-localize/access_control_1.png)
+`You don't have permission to access this feature. Permission needed: XX.`
 
 ## Edición de un perfil de producto existente {#edit-product-profile}
 
 Para predeterminados o personalizados **[!UICONTROL Product profiles]**, puede decidir en cualquier momento añadir o eliminar permisos.
 
-En este ejemplo, queremos añadir **[!UICONTROL Permissions]** relacionados con el **[!UICONTROL Message]** capacidad para usuarios asignados al visor de Recorrido **[!UICONTROL Product profile]**. Los usuarios podrán publicar mensajes.
+En este ejemplo, queremos añadir **[!UICONTROL Permissions]** relacionados con el **[!UICONTROL Journeys]** capacidad para usuarios asignados al visor de Recorrido **[!UICONTROL Product profile]**. Los usuarios podrán publicar recorridos.
 
 Tenga en cuenta que si modifica un **[!UICONTROL Product profile]**, afectará a todos los usuarios asignados a esta función **[!UICONTROL Product profile]**.
 
@@ -79,21 +79,17 @@ Tenga en cuenta que si modifica un **[!UICONTROL Product profile]**, afectará a
 
    ![](assets/do-not-localize/access_control_5.png)
 
-1. Seleccione el **[!UICONTROL Messages]** capacidad.
+1. Seleccione el **[!UICONTROL Journeys]** capacidad.
 
    ![](assets/do-not-localize/access_control_6.png)
 
 1. En el **[!UICONTROL Available Permission Items]** seleccione los permisos que desea asignar a su **[!UICONTROL Product profile]** haciendo clic en el icono de signo más (+).
 
-   Aquí agregamos la variable **[!UICONTROL Publish messages]** permiso.
-
-   ![](assets/do-not-localize/access_control_7.png)
+   Aquí agregamos la variable **[!UICONTROL Publish Journeys]** permiso.
 
 1. Si es necesario, en **[!UICONTROL Included Permission Items]** haga clic en el icono X para eliminar los permisos del perfil del producto.
 
 1. Cuando termine, haga clic en **[!UICONTROL Save]**.
-
-   ![](assets/do-not-localize/access_control_8.png)
 
 Si es necesario, también puede crear un nuevo perfil de producto con permisos específicos. Para obtener más información, consulte [Creación de un perfil de producto](#create-product-profile).
 
@@ -103,7 +99,7 @@ Si es necesario, también puede crear un nuevo perfil de producto con permisos e
 
 Para obtener más información sobre cómo crear y administrar entornos limitados, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es){target=&quot;_blank&quot;}.
 
-En este ejemplo, crearemos un perfil de producto denominado **Recorridos de solo lectura** donde se otorgarán derechos de solo lectura a la función de Recorrido. Los usuarios solo podrán acceder y ver recorridos y no podrán acceder a otras funciones como **[!DNL  Decision management]** o **[!DNL Messages]** en [!DNL Journey Optimizer].
+En este ejemplo, crearemos un perfil de producto denominado **Recorridos de solo lectura** donde se otorgarán derechos de solo lectura a la función de Recorrido. Los usuarios solo podrán acceder y ver recorridos y no podrán acceder a otras funciones como **[!DNL  Decision management]** en [!DNL Journey Optimizer].
 
 Para crear **Recorridos de solo lectura** **[!UICONTROL product profiles]**:
 
@@ -125,7 +121,7 @@ Para crear **Recorridos de solo lectura** **[!UICONTROL product profiles]**:
 
 1. Para agregar permisos para que los usuarios tengan acceso a diferentes funciones, seleccione la opción **[!UICONTROL Permissions]** pestaña .
 
-1. Seleccione entre las distintas funciones, como **[!DNL Messages]**, **[!DNL Segments]** o **[!DNL Decision management]** disponible en [!DNL Journey Optimizer] en el menú de la izquierda.
+1. Seleccione entre las distintas funciones, como **[!DNL Journeys]**, **[!DNL Segments]** o **[!DNL Decision management]** disponible en [!DNL Journey Optimizer] en el menú de la izquierda.
 
    Aquí seleccionamos el **[!UICONTROL Journeys]** capacidad.
 

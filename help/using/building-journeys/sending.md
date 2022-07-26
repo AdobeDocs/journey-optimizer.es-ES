@@ -1,10 +1,10 @@
 ---
 title: Inicio de la ejecución del recorrido
 description: Obtenga información sobre cómo iniciar el recorrido y enviar mensajes
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 8%
+source-wordcount: '274'
+ht-degree: 9%
 
 ---
 
@@ -34,13 +34,9 @@ Una vez publicado, puede monitorizar su recorrido con las herramientas de inform
 
 ## Entrega de mensajes {#send-messages}
 
-Cuando el mensaje tiene un contenido definido y publicado, está listo para enviarse a través de un [recorrido](journey.md).
+Cuando el mensaje tiene un contenido definido, está listo para enviarse a través de un [recorrido](journey.md).
 
->[!NOTE]
->
->Puede añadir un mensaje que aún esté en modo borrador a un recorrido, pero asegúrese de que el mensaje se publica antes de publicar el recorrido.
-
-Una vez enviado un mensaje, puede monitorizar su ejecución a través de varios indicadores. [Obtenga más información sobre la monitorización de la ejecución de mensajes](../message-monitoring.md).
+Una vez enviado un mensaje, puede monitorizar su ejecución a través de varios indicadores. [Más información sobre los informes](../global-report.md).
 
 ## Programar mensajes {#schedule-messages}
 

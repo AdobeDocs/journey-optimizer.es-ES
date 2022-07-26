@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,6 @@ Estas son limitaciones relacionadas con el uso de recorridos.
 * En caso de error, se realizan tres reintentos de forma sistemática. No se puede ajustar el número de reintentos según el mensaje de error recibido. 
 * El **Reacción** le permite reaccionar a las acciones integradas (consulte esta [página](../building-journeys/reaction-events.md)). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado. 
 * No puede colocar dos acciones en paralelo, debe agregarlas una tras otra.
-
-## Limitaciones de las acciones del mensaje
-
-* Al añadir un mensaje multicanal, se envían dos mensajes.
 
 ## Limitaciones de las versiones de recorrido {#journey-versions-limitations}
 

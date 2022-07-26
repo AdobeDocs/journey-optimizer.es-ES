@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '256'
 ht-degree: 5%
 
 ---
@@ -24,14 +24,12 @@ En este ejemplo, la variable **[!UICONTROL Consent and Preference Details]** gru
 Para configurar este recorrido, siga estos pasos:
 
 1. Cree un recorrido que comience por un **[!UICONTROL Read]** actividad. [Más información](journey-gs.md).
-1. Agregue un **[!UICONTROL Message]** actividad, con un correo electrónico, al recorrido. [Más información](journeys-message.md).
-1. En el **[!UICONTROL Email parameters]** de la sección **[!UICONTROL Message]** configuración de actividad, reemplace la dirección de correo electrónico predeterminada (`PersonalEmail.adress`) con la dirección de correo electrónico de los suscriptores de la lista:
+1. Agregue un **[!UICONTROL Email]** actividad de acción al recorrido. [Más información](journeys-message.md).
+1. En el **[!UICONTROL Email parameters]** de la sección **[!UICONTROL Email]** configuración de actividad, reemplace la dirección de correo electrónico predeterminada (`PersonalEmail.adress`) con la dirección de correo electrónico de los suscriptores de la lista:
 
    1. Haga clic en el **[!UICONTROL Enable parameter override]** a la derecha de **[!UICONTROL Address]** y, a continuación, haga clic en la **[!UICONTROL Edit]** icono.
 
       ![](assets/message-to-subscribers-uc-1.png)
-
-      Para poder modificar la dirección de correo electrónico, debe haber publicado previamente el mensaje.
 
    1. En el editor de expresiones, introduzca la expresión para recuperar las direcciones de correo electrónico de los suscriptores. [Más información](expression/expressionadvanced.md).
 
@@ -55,4 +53,3 @@ Para configurar este recorrido, siga estos pasos:
       ![](assets/message-to-subscribers-uc-2.png)
 
    1. En el **[!UICONTROL Add an expression]** cuadro de diálogo, haga clic en **[!UICONTROL Ok]**.
-   ![](assets/message-to-subscribers-uc-3.png)

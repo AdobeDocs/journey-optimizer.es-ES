@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1459'
 ht-degree: 4%
 
 ---
@@ -82,7 +82,7 @@ Las otras actividades permiten agregar condiciones al recorrido para definir var
 
 **Acciones**
 
-Aquí encontrarás el **Mensaje** actividad que le permite incluir un mensaje diseñado en [!DNL Journey Optimizer]. [Descubra más información sobre la actividad Mensaje](journeys-message.md)
+Aquí encontrará la actividad de acción del canal que le permite incluir un mensaje diseñado en [!DNL Journey Optimizer]. [Descubra más información sobre las actividades de acción del canal](journeys-message.md)
 
 También encontrará las acciones personalizadas que ha configurado para enviar mensajes con sistemas de terceros. Obtenga más información en esta [sección](about-journey-activities.md#action-activities).
 

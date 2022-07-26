@@ -1,14 +1,14 @@
 ---
 title: Usar CCO del correo electrónico
-description: Obtenga información sobre cómo configurar el correo electrónico CCO en el nivel de ajuste preestablecido de mensajes
+description: Obtenga información sobre cómo configurar el correo electrónico CCO en el nivel de superficie del canal
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1094'
 ht-degree: 3%
 
 ---
@@ -24,23 +24,23 @@ Puede enviar una copia idéntica (o una copia ciega de un correo electrónico en
 
 ## Habilitar correo electrónico CCO {#enable-bcc}
 
-Para habilitar la variable **[!UICONTROL BCC email]** , introduzca la dirección de correo electrónico que desee en el campo dedicado. Puede especificar cualquier dirección externa en el formato correcto, excepto una dirección de correo electrónico definida en un subdominio delegado a Adobe. Por ejemplo, si delegó el *marketing.luma.com* subdominio a Adobe, cualquier dirección como *abc@marketing.luma.com* está prohibido.
+Para habilitar la variable **[!UICONTROL BCC email]** , introduzca la dirección de correo electrónico que desee en el campo dedicado del [superficie del canal](message-presets.md) (es decir, el ajuste preestablecido de mensaje). Puede especificar cualquier dirección externa en el formato correcto, excepto una dirección de correo electrónico definida en un subdominio delegado a Adobe. Por ejemplo, si delegó el *marketing.luma.com* subdominio a Adobe, cualquier dirección como *abc@marketing.luma.com* está prohibido.
 
 >[!NOTE]
 >
->Solo puede definir una dirección de correo electrónico CCO. Asegúrese de que la dirección de CCO tenga suficiente capacidad de recepción para almacenar todos los correos electrónicos enviados con el ajuste preestablecido actual.
+>Solo puede definir una dirección de correo electrónico CCO. Asegúrese de que la dirección de CCO tenga suficiente capacidad de recepción para almacenar todos los correos electrónicos enviados mediante la superficie de canal actual.
 >
 >Más recomendaciones se enumeran en [esta sección](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
-Todos los mensajes de correo electrónico que utilicen este ajuste preestablecido se copiarán de forma ciega en la dirección de correo electrónico de CCO que haya introducido. Desde allí, se pueden procesar y archivar utilizando un sistema externo.
+Todos los mensajes de correo electrónico que utilicen esta superficie se copiarán de forma ciega en la dirección de correo electrónico CCO que haya introducido. Desde allí, se pueden procesar y archivar utilizando un sistema externo.
 
 >[!CAUTION]
 >
->El uso de la función de CCO se contará con la cantidad de mensajes para los que tenga licencia. Por lo tanto, solo debe habilitarlo en los ajustes preestablecidos utilizados para las comunicaciones críticas que desee archivar. Compruebe si hay volúmenes con licencia en su contrato.
+>El uso de la función de CCO se contará con la cantidad de mensajes para los que tenga licencia. Por lo tanto, sólo lo habilite en las superficies utilizadas para comunicaciones críticas que desee archivar. Compruebe si hay volúmenes con licencia en su contrato.
 
-La configuración de la dirección de correo electrónico CCO se guarda inmediatamente y se procesa en el nivel preestablecido. Cuando [crear un nuevo mensaje](../messages/get-started-content.md#create-new-message) con este ajuste preestablecido, la dirección de correo electrónico de CCO se muestra automáticamente.
+La configuración de la dirección de correo electrónico CCO se guarda inmediatamente y se procesa en el nivel de superficie. Cuando [crear un nuevo mensaje](../messages/get-started-content.md#create-new-message) con esta superficie, se muestra automáticamente la dirección de correo electrónico CCO.
 
 ![](assets/preset-bcc-in-msg.png)
 
@@ -52,7 +52,7 @@ Sin embargo, la dirección de CCO se selecciona para enviar comunicaciones sigui
 
 >[!NOTE]
 >
->No es necesario volver a publicar un mensaje o recorrido para que se recoja la configuración de CCO.
+>No es necesario que vuelva a publicar el recorrido para que se recoja la configuración de CCO.
 
 ## Recommendations y limitaciones {#bcc-recommendations-limitations}
 
@@ -66,7 +66,7 @@ Sin embargo, la dirección de CCO se selecciona para enviar comunicaciones sigui
 
    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* No abra ni haga clic en los correos electrónicos enviados a la dirección de CCO, ya que se tienen en cuenta en el total de aperturas y clics del análisis de envío, lo que podría provocar algunos cálculos erróneos en [informes](../reports/message-monitoring.md).
+* No abra ni haga clic en los correos electrónicos enviados a la dirección de CCO, ya que se tienen en cuenta en el total de aperturas y clics del análisis de envío, lo que podría provocar algunos cálculos erróneos en [informes](../reports/global-report.md).
 
 * No marque los mensajes como correo no deseado en la bandeja de entrada BCC, ya que esto afectará a todos los demás correos electrónicos enviados a esta dirección.
 

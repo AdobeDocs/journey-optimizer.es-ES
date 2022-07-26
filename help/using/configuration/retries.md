@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '387'
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ La variable **periodo de tiempo de reintento** es el periodo en el que se reinte
 
 De forma predeterminada, los reintentos se realizan para **3,5 días** (o **84 horas**) desde el momento en que se agregó el mensaje a la cola de correo electrónico.
 
-Sin embargo, para asegurarse de que los intentos de reintento ya no se realicen cuando ya no se necesiten, puede cambiar esta configuración según sus necesidades al crear o editar un [ajuste preestablecido de mensaje](message-presets.md) aplicar al canal de correo electrónico.
+Sin embargo, para asegurarse de que los intentos de reintento ya no se realicen cuando ya no se necesiten, puede cambiar esta configuración según sus necesidades al crear o editar un [superficie del canal](message-presets.md) (es decir, ajuste preestablecido de mensaje) que se aplica al canal de correo electrónico.
 
 Por ejemplo, puede establecer el periodo de reintento en 24 horas para un correo electrónico transaccional relacionado con el restablecimiento de contraseña y que contenga un vínculo válido solo para un día. Del mismo modo, para una venta a medianoche, es posible que desee definir un periodo de reintento de 6 horas.
 
@@ -61,5 +61,5 @@ Por ejemplo, puede establecer el periodo de reintento en 24 horas para un correo
 >
 >El periodo de reintento no puede exceder las 84 horas. El periodo de reintento mínimo es de 6 horas para los correos electrónicos de marketing y 10 minutos para los correos electrónicos transaccionales.
 
-Obtenga información sobre cómo ajustar los parámetros de reintento de correo electrónico al crear un ajuste preestablecido de mensaje en [esta sección](message-presets.md#create-message-preset).
+Obtenga información sobre cómo ajustar los parámetros de reintento de correo electrónico al crear una superficie de canal en [esta sección](message-presets.md#create-message-preset).
 

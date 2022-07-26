@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: 7f524b7ed9092465be996eeca36e6102e8e1c405
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '550'
 ht-degree: 1%
 
 ---
@@ -65,10 +65,7 @@ Para examinar fotos similares, siga los pasos a continuación:
 
    Si la imagen seleccionada no tiene licencia, debe [obtener la licencia](#license-stock-image).
 
-1. Personalice la imagen, si es necesario, con la variable **[!UICONTROL Components settings]** para abrir el Navegador. [Obtenga más información sobre la configuración de componentes](content-components.md)
-
-Una vez creado y personalizado el mensaje, puede publicarlo para que esté disponible para la ejecución. [Más información](../messages/publish-manage-message.md)
-
+1. Personalice la imagen, si es necesario, con la variable **[!UICONTROL Components settings]** para abrir el Navegador. [Obtenga más información sobre la configuración de componentes](content-components.md).
 
 ## Obtenga la licencia de [!DNL Adobe Stock] {#license-stock-image}
 

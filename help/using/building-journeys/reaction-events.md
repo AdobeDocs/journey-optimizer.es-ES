@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '366'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ Puede reaccionar a los mensajes en los que se ha hecho clic o que se han abierto
 
 También puede utilizar este mecanismo para realizar una acción cuando no haya reacción a sus mensajes. Para ello, cree una segunda ruta paralela a la actividad de reacción y añada una actividad de espera. Si no hay ninguna reacción durante el periodo definido en la actividad de espera, se elige la segunda ruta. Puede optar por enviar, por ejemplo, un mensaje de seguimiento.
 
-Tenga en cuenta que solo puede utilizar una actividad de reacción en el lienzo si hay una **Mensaje** actividad anterior.
+Tenga en cuenta que solo puede utilizar una actividad de reacción en el lienzo si hay una actividad de acción de canal anterior (correo electrónico, push, SMS).
 
 Consulte [Acerca de las actividades de acción](../building-journeys/about-journey-activities.md#action-activities).
 

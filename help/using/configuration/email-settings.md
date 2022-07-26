@@ -1,21 +1,21 @@
 ---
 title: Configuración de correo electrónico
-description: Obtenga información sobre cómo configurar la configuración de correo electrónico en el nivel de ajuste preestablecido de mensaje
+description: Obtenga información sobre cómo configurar la configuración de correo electrónico en el nivel de superficie del canal
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1198'
 ht-degree: 2%
 
 ---
 
 # Configuración de correo electrónico {#email-settings}
 
-Defina la configuración del correo electrónico en la sección dedicada de la configuración del ajuste preestablecido de mensaje. Obtenga información sobre cómo crear ajustes preestablecidos de mensaje en [esta sección](message-presets.md).
+Defina la configuración del correo electrónico en la sección dedicada de la configuración de la superficie del canal (es decir, la configuración preestablecida de mensajes). Aprenda a crear superficies en [esta sección](message-presets.md).
 
 ![](assets/preset-email-settings.png)
 
@@ -24,19 +24,19 @@ Defina la configuración del correo electrónico en la sección dedicada de la c
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="Definir la categoría de correo electrónico"
->abstract="Seleccione el tipo de mensajes que se enviarán al utilizar este ajuste preestablecido: Marketing para mensajes promocionales, que requieren el consentimiento del usuario, o Transactional para mensajes no comerciales, que también se puede enviar a perfiles cancelados de suscripción en contextos específicos."
+>abstract="Seleccione el tipo de correos electrónicos que se enviarán al utilizar esta superficie de canal: Marketing para correos electrónicos promocionales, que requieren el consentimiento del usuario, o Transactional para correos electrónicos no comerciales, que también se pueden enviar a perfiles cancelados de suscripción en contextos específicos."
 
-En el **TIPO DE CORREO ELECTRÓNICO** , seleccione el tipo de mensaje que se enviará con el ajuste preestablecido: **Marketing** o **Transaccional**.
+En el **TIPO DE CORREO ELECTRÓNICO** seleccione el tipo de mensaje que se enviará con la superficie del canal: **Marketing** o **Transaccional**.
 
-* Choose **Marketing** para mensajes promocionales: estos mensajes requieren el consentimiento del usuario.
+* Choose **Marketing** para correo electrónico promocional: estos mensajes requieren el consentimiento del usuario.
 
-* Choose **Transaccional** para mensajes no comerciales, como confirmación de pedido, notificaciones de restablecimiento de contraseña o información de entrega, por ejemplo.
+* Choose **Transaccional** para correo electrónico no comercial, como confirmación de pedido, notificaciones de restablecimiento de contraseña o información de entrega, por ejemplo.
 
 >[!CAUTION]
 >
->**Transaccional** se pueden enviar mensajes a perfiles que cancelen la suscripción a comunicaciones de marketing. Estos mensajes solo se pueden enviar en contextos específicos.
+>**Transaccional** los correos electrónicos se pueden enviar a perfiles que cancelan la suscripción a las comunicaciones de marketing. Estos mensajes solo se pueden enviar en contextos específicos.
 
-When [creación de un mensaje](../messages/get-started-content.md#create-new-message), debe elegir un ajuste preestablecido de mensaje válido que coincida con la categoría seleccionada para el mensaje.
+When [creación de un mensaje](../messages/get-started-content.md#create-new-message), debe elegir una superficie de canal válida que coincida con la categoría seleccionada para el correo electrónico.
 
 ## Subdominio y grupo de IP {#subdomains-and-ip-pools}
 
@@ -44,11 +44,11 @@ En el **DETALLES DEL GRUPO DE IP Y SUBDOMINIOS** , debe:
 
 1. Seleccione el subdominio que desea utilizar para enviar los correos electrónicos. [Más información](about-subdomain-delegation.md)
 
-1. Seleccione el grupo de IP que desea asociar al ajuste preestablecido. [Más información](ip-pools.md)
+1. Seleccione el grupo IP que desea asociar con la superficie. [Más información](ip-pools.md)
 
 ![](assets/preset-subdomain-ip-pool.png)
 
-No puede continuar con la creación preestablecida mientras el grupo IP seleccionado está en [edición](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** ) y nunca se ha asociado con el subdominio seleccionado. De lo contrario, se seguirá utilizando la versión más antigua de la asociación de agrupación/subdominio de IP. Si este es el caso, guarde el ajuste preestablecido como borrador y vuelva a intentarlo una vez que el grupo de IP tenga la variable **[!UICONTROL Success]** estado.
+No puede continuar con la creación de superficie mientras el grupo IP seleccionado está bajo [edición](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** ) y nunca se ha asociado con el subdominio seleccionado. De lo contrario, se seguirá utilizando la versión más antigua de la asociación de agrupación/subdominio de IP. Si este es el caso, guarde la superficie como borrador y vuelva a intentarlo una vez que el grupo de IP tenga la variable **[!UICONTROL Success]** estado.
 
 >[!NOTE]
 >
@@ -72,13 +72,13 @@ El vínculo de cancelación de suscripción consta de dos elementos:
 
 * Un **cancelar la suscripción de la dirección de correo electrónico**, a la que se envían todas las solicitudes de cancelación de suscripción.
 
-   En [!DNL Journey Optimizer], la dirección de correo electrónico de cancelación de suscripción es la predeterminada **[!UICONTROL Mailto (unsubscribe)]** dirección mostrada en el ajuste preestablecido de mensaje, en función de la variable [subdominio seleccionado](#subdomains-and-ip-pools).
+   En [!DNL Journey Optimizer], la dirección de correo electrónico de cancelación de suscripción es la predeterminada **[!UICONTROL Mailto (unsubscribe)]** dirección mostrada en la superficie del canal, según la variable [subdominio seleccionado](#subdomains-and-ip-pools).
 
    ![](assets/preset-list-unsubscribe-mailto.png)
 
 * La variable **cancelar la suscripción de la dirección URL**, que es la dirección URL de la página de aterrizaje a la que se redirige al usuario una vez que se da de baja de la suscripción.
 
-   Si agrega un [vínculo de exclusión con un solo clic](../messages/consent.md#one-click-opt-out) a un mensaje creado con este ajuste preestablecido, la URL de cancelación de suscripción será la URL definida para el vínculo de exclusión de un clic.
+   Si agrega un [vínculo de exclusión con un solo clic](../messages/consent.md#one-click-opt-out) en un mensaje creado con esta superficie, la URL de cancelación de suscripción será la URL definida para el vínculo de exclusión de un clic.
 
    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
@@ -92,7 +92,7 @@ Obtenga más información sobre cómo añadir un vínculo de cancelación de sus
 
 ## Parámetros de encabezado{#email-header}
 
-En el **[!UICONTROL HEADER PARAMETERS]** , introduzca los nombres del remitente y las direcciones de correo electrónico asociadas al tipo de mensajes enviados mediante ese ajuste preestablecido.
+En el **[!UICONTROL HEADER PARAMETERS]** , introduzca los nombres del remitente y las direcciones de correo electrónico asociadas al tipo de correos electrónicos enviados con esa superficie.
 
 >[!CAUTION]
 >
@@ -120,12 +120,12 @@ Si desea reenviar a una dirección de correo electrónico específica, todos los
 
 * La dirección de correo electrónico de reenvío que elija. Tenga en cuenta que el dominio de dirección de correo electrónico de reenvío no puede coincidir con ningún subdominio delegado a Adobe.
 * El nombre del simulador de pruebas.
-* El nombre del ajuste preestablecido para el que se utilizará la dirección de correo electrónico de reenvío.
-* El **[!UICONTROL Reply to (email)]** direcciones definidas en el nivel preestablecido.
+* El nombre de superficie para el que se utilizará la dirección de correo electrónico de reenvío.
+* El **[!UICONTROL Reply to (email)]** dirección definida en el nivel de superficie del canal.
 
 >[!NOTE]
 >
->Solo puede haber una dirección de correo electrónico de reenvío por subdominio. Por lo tanto, si varios ajustes preestablecidos utilizan el mismo subdominio, se debe utilizar la misma dirección de correo electrónico de reenvío para todos ellos.
+>Solo puede haber una dirección de correo electrónico de reenvío por subdominio. Por lo tanto, si varias superficies utilizan el mismo subdominio, se debe utilizar la misma dirección de correo electrónico de reenvío para todas ellas.
 
 La dirección de correo electrónico de reenvío se configura por Adobe. Esto puede tardar entre 3 y 4 días.
 
@@ -133,7 +133,7 @@ La dirección de correo electrónico de reenvío se configura por Adobe. Esto pu
 
 Puede enviar una copia idéntica (o una copia ciega de los correos electrónicos enviados por [!DNL Journey Optimizer] a una bandeja de entrada BCC donde se almacenarán para fines de cumplimiento o archivo.
 
-Para ello, habilite la **[!UICONTROL BCC email]** función opcional en el nivel preestablecido. [Más información](bcc-email.md)
+Para ello, habilite la **[!UICONTROL BCC EMAIL]** función opcional en el nivel de superficie del canal. [Más información](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 
@@ -142,10 +142,10 @@ Para ello, habilite la **[!UICONTROL BCC email]** función opcional en el nivel 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
 >title="Ajustar el período de tiempo de reintento"
->abstract="Los reintentos se realizan durante 3,5 días (84 horas) cuando un mensaje de correo electrónico falla debido a un error temporal de devolución del mensaje. Puede ajustar este período de tiempo de reintento predeterminado para adaptarlo mejor a sus necesidades."
+>abstract="Los reintentos se realizan durante 3,5 días (84 horas) cuando un envío de correo electrónico falla debido a un error temporal de devolución del mensaje. Puede ajustar este período de tiempo de reintento predeterminado para adaptarlo mejor a sus necesidades."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="Acerca de los reintentos"
 
-Puede configurar la variable **Parámetros de reintentos de correo electrónico**.
+Puede configurar la variable **PARÁMETROS DE REINTENTO DE CORREO ELECTRÓNICO**.
 
 ![](assets/preset-retry-parameters.png)
 
@@ -171,13 +171,13 @@ Obtenga más información sobre los reintentos en [esta sección](retries.md).
 >title="Vista previa de los parámetros de seguimiento de URL"
 >abstract="Revise cómo se adjuntarán los parámetros de seguimiento a las direcciones URL presentes en el contenido del correo electrónico."
 
-Puede usar **[!UICONTROL URL tracking parameters]** para medir la eficacia de sus esfuerzos de marketing en todos los canales. Esta función es opcional.
+Puede usar **[!UICONTROL URL TRACKING PARAMETERS]** para medir la eficacia de sus esfuerzos de marketing en todos los canales. Esta función es opcional.
 
 Los parámetros definidos en esta sección se anexarán al final de las direcciones URL incluidas en el contenido del mensaje de correo electrónico. A continuación, puede capturar estos parámetros en herramientas de análisis web, como Adobe Analytics o Google Analytics, y crear varios informes de rendimiento.
 
 ![](assets/preset-url-tracking.png)
 
-Se rellenan automáticamente tres parámetros de seguimiento de URL como ejemplo al crear un ajuste preestablecido de mensaje. Puede editarlas y agregar hasta 10 parámetros de seguimiento mediante la variable **[!UICONTROL Add new parameter]** botón.
+Se rellenan automáticamente tres parámetros de seguimiento de URL como ejemplo al crear una superficie de canal. Puede editarlas y agregar hasta 10 parámetros de seguimiento mediante la variable **[!UICONTROL Add new parameter]** botón.
 
 Para configurar un parámetro de seguimiento de URL, puede introducir directamente los valores deseados en la variable **[!UICONTROL Name]** y **[!UICONTROL Value]** campos.
 
@@ -192,7 +192,7 @@ También puede elegir entre una lista de valores predefinidos navegando a los si
 >
 >No seleccione una carpeta: asegúrese de buscar la carpeta necesaria y seleccionar un atributo de perfil para utilizarlo como valor de parámetro de seguimiento.
 
-<!--or edit it using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+<!--or edit it using the Expression editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
 
 You can drag and drop the parameters to reorder them.-->
 

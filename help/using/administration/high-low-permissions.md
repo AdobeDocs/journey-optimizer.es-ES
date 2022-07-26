@@ -5,9 +5,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -123,88 +123,6 @@ Incluye los siguientes permisos de bajo nivel:
    * queries.read
    * queries.write
    * queries.delete
-
-## Capacidad del mensaje {#message-capability}
-
-### [!DNL Manage messages] permiso {#manage-messages}
-
-La variable **[!DNL Manage messages]** permiso de alto nivel permite a los usuarios crear, editar o eliminar mensajes.
-
-Incluye los siguientes permisos de bajo nivel:
-
-* Específico de Journey Optimizer:
-   * messages.write
-   * messages.read
-   * messages.delete
-   * messages_presets.read
-
-* Específico de Adobe Experience Platform:
-   * segments.read
-   * schemas.read
-
-### [!DNL Manage messages preview and test] permiso {#mange-messages-preview}
-
-La variable **[!DNL Manage messages preview and test]** permiso de alto nivel permite a los usuarios previsualizar mensajes personalizados.
-
-Incluye los siguientes permisos de bajo nivel:
-
-* Específico de Journey Optimizer:
-   * messages.publish
-   * messages_preview_and_test.write
-   * messages.publish
-
-* Específico de Adobe Experience Platform:
-   * profiles.read
-   * profiles.write
-   * schemas.read
-   * datasets.write
-   * datasets.read
-   * identity_namespace.read
-   * segments.read
-   * queries.write
-   * merge_policy.read
-
-### [!DNL Publish messages] permiso {#publish-messages}
-
-La variable **[!DNL Publish messages]** permiso de alto nivel permite a los usuarios publicar mensajes.
-
-Incluye los siguientes permisos de bajo nivel:
-
-* Específico de Journey Optimizer:
-   * messages.publish
-
-* Específico de Adobe Experience Platform:
-   * profiles.read
-   * schemas.read
-   * datasets.read
-
-### [!DNL View messages] permiso {#view-messages}
-
-La variable **[!DNL View messages]** permiso de alto nivel permite a los usuarios leer solo mensajes.
-
-Incluye los siguientes permisos de bajo nivel:
-
-* Específico de Journey Optimizer:
-   * messages.read
-   * messages_presets.read
-
-* Específico de Adobe Experience Platform:
-   * schemas.read
-   * segments.read
-
-### [!DNL View messages report] permiso {#view-message-reports}
-
-La variable **[!DNL View messages report]** permiso de alto nivel permite a los usuarios enviar informes push y de correo electrónico de solo lectura.
-
-Incluye los siguientes permisos de bajo nivel:
-
-* Específico de Journey Optimizer:
-   * messages_report.read
-   * datasets.read
-   * queries.read
-   * queries.write
-   * queries.delete
-   * journey.read
 
 ## Capacidad de gestión de decisiones {#decisions-permissions}
 
@@ -330,33 +248,34 @@ Incluye los siguientes permisos de bajo nivel:
 * IP_pools.write
 * IP_pools.delete
 
-### [!DNL Manage messages general settings] permiso {#manage-message-settings}
+<!--
+### [!DNL Manage messages general settings] permission {#manage-message-settings}
 
-La variable **[!DNL Manage messages general settings]** los permisos de alto nivel permiten a los usuarios crear, editar y eliminar la configuración global en el nivel de entorno limitado.
+The **[!DNL Manage messages general settings]** high-level permission allows users to create, edit and delete global settings at the sandbox level.
 
-Incluye los siguientes permisos de bajo nivel:
+It includes the following low-level permissions: 
 
-* Específico de Journey Optimizer:
-   * messages_general_settings.read
-   * messages_general_settings.write
-   * messages_general_settings.delete
-* Específico de Adobe Experience Platform:
-   * schemas.read
+* Journey Optimizer specific: 
+  * messages_general_settings.read
+  * messages_general_settings.write
+  * messages_general_settings.delete
+* Adobe Experience Platform specific:
+  * schemas.read
 
-### [!DNL View messages general settings] permiso {#view-message-settings}
+### [!DNL View messages general settings] permission {#view-message-settings}
 
-La variable **[!DNL View messages general settings]** el permiso de alto nivel permite a los usuarios ver los mensajes en la configuración general, como la dirección de ejecución.
+The **[!DNL View messages general settings]** high-level permission allows users to view messages general settings such as the execution address.
 
-Incluye los siguientes permisos de bajo nivel:
+It includes the following low-level permissions:
 
-* Específico de Journey Optimizer:
-   * messages_general_settings.read
-* Específico de Adobe Experience Platform:
-   * schemas.read
+* Journey Optimizer specific: 
+  * messages_general_settings.read
+* Adobe Experience Platform specific: 
+  * schemas.read
+-->
+### [!DNL Manage channel surface] permiso {#manage-channel-surface}
 
-### [!DNL Manage messages presets] permiso {#manage-message-presets}
-
-La variable **[!DNL Manage messages presets]** los permisos de alto nivel permiten a los usuarios crear, editar y eliminar ajustes preestablecidos de mensaje en todos los canales a nivel de entorno limitado.
+La variable **[!DNL Manage channel surface]** los permisos de alto nivel permiten a los usuarios crear, editar y eliminar superficies de canal en todos los canales a nivel de entorno limitado.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -368,9 +287,9 @@ Incluye los siguientes permisos de bajo nivel:
    * IP_pools.read
    * mobile_setting.read (de Adobe Experience Platform Launch)
 
-### [!DNL View messages presets] permiso {#view-message-presets}
+### [!DNL View channel surface] permiso {#view-channel-surface}
 
-La variable **[!DNL View messages presets]** los permisos de alto nivel permiten a los usuarios ver los ajustes preestablecidos de mensaje para saber qué mensajes utilizar al crear un mensaje.
+La variable **[!DNL View channel surface]** los permisos de alto nivel permiten a los usuarios ver las superficies del canal para saber qué superficies del canal utilizar.
 
 Incluye los siguientes permisos de bajo nivel:
 

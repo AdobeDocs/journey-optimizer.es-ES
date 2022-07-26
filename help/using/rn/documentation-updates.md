@@ -2,7 +2,7 @@
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1651'
 ht-degree: 98%
@@ -30,7 +30,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * La página Lista de permitidos se ha movido a la sección Configuración. [Más información](../configuration/allow-list.md)
 * La página Lista de supresión se ha actualizado para aclarar cierta información, incluido el hecho de que todos los caracteres ASCII comprendidos entre 32 y 126 están permitidos en el campo de motivos de supresión. [Más información](../configuration/manage-suppression-list.md)
 * Se ha añadido el vínculo a las barreras y los límites estáticos para la gestión de decisiones. [Más información](../start/guardrails.md)
-* Ya está disponible para todos los clientes Optimización del tiempo de envío. Se ha eliminado la mención beta. [Más información](../building-journeys/journeys-message.md#send-time-optimization)
+* Ya está disponible para todos los clientes Optimización del tiempo de envío. Se ha eliminado la mención beta. [Más información](../messages/send-time-optimization.md)
 * La API de decisiones por lotes se ha agregado a la lista de API disponibles para enviar ofertas personalizadas. [Más información](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## Mayo de 2022 {#may-2022}
@@ -139,7 +139,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha actualizado el procedimiento de configuración para acciones personalizadas con rutas URL dinámicas y encabezados dinámicos. [Más información](../action/about-custom-action-configuration.md#url-configuration)
 * Se ha añadido una sección sobre las funciones de accesibilidad y los métodos abreviados de teclado. [Más información](../start/user-interface.md#accessibility)
 * Se ha añadido una sección acerca de métodos de evaluación de segmentos. [Más información](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
-* Se han añadido notas a las secciones Lista de supresión, Lista de permitidos e Informe de correo electrónico global/activo para especificar que los perfiles con estados Suprimido y No permitido se excluyan de las métricas Enviado del Informe de correo electrónico. [Más información](../reports/email-global-report.md)
+* Se han añadido notas a las secciones Lista de supresión, Lista de permitidos e Informe de correo electrónico global/activo para especificar que los perfiles con estados Suprimido y No permitido se excluyan de las métricas Enviado del Informe de correo electrónico. [Más información](../reports/global-report.md)
 * Se ha añadido una nueva sección para describir cómo recuperar direcciones de correo electrónico o dominios que se excluyeron de un envío porque no estaban en la lista de permitidos. [Más información](../configuration/allow-list.md#reporting)
 * Se ha actualizado la sección Habilitación de la lista de permitidos. [Más información](../configuration/allow-list.md#enable-allow-list)
 * Se ha actualizado la sección Monitorización de ajustes preestablecidos de mensaje con los posibles motivos de error de creación y detalles sobre dichos errores. [Más información](../configuration/message-presets.md#monitor-message-presets)

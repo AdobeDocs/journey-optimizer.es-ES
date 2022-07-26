@@ -4,10 +4,10 @@ description: Aprenda a configurar su entorno para enviar mensajes SMS con Journe
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 3%
+source-wordcount: '410'
+ht-degree: 8%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 3%
 
 [!DNL Journey Optimizer] le permite crear sus recorridos y enviar mensajes a la audiencia de destino.
 
-Antes de enviar SMS, configure su instancia. Debe [integrar la configuración del proveedor](#create-api) con Journey Optimizer y [crear un ajuste preestablecido de SMS](#message-preset-sms). Estos pasos debe realizarlos un [Administrador del sistema de Adobe Journey Optimizer](../start/path/administrator.md).
+Antes de enviar SMS, configure su instancia. Debe [integrar la configuración del proveedor](#create-api) con Journey Optimizer y [crear una superficie SMS](#message-preset-sms) (es decir, ajuste preestablecido de SMS). Estos pasos debe realizarlos un [Administrador del sistema de Adobe Journey Optimizer](../start/path/administrator.md).
 
 >[!AVAILABILITY]
 >
->Actualmente, el canal SMS solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, póngase en contacto con el representante del Adobe.
+>Ahora mismo, el canal SMS solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
 
 ## Crear nueva credencial de API {#create-api}
 
@@ -42,19 +42,19 @@ Para configurar el proveedor de SMS con Journey Optimizer, siga estos pasos:
 
 1. Haga clic en **[!UICONTROL Submit]** cuando haya terminado la configuración de sus credenciales de API.
 
-Después de crear y configurar las credenciales de API, debe crear un ajuste preestablecido de mensaje para los mensajes SMS.
+Después de crear y configurar las credenciales de API, debe crear una superficie de canal (es decir, un ajuste preestablecido de mensaje) para los mensajes SMS.
 
-## Creación de un ajuste preestablecido de mensaje para mensajes SMS {#message-preset-sms}
+## Creación de una superficie de canal para mensajes SMS {#message-preset-sms}
 
-Una vez configurado el canal SMS, debe crear un ajuste preestablecido de mensaje para poder enviar mensajes SMS desde **[!DNL Journey Optimizer]**.
+Una vez configurado el canal SMS, debe crear una superficie de canal para poder enviar mensajes SMS desde **[!DNL Journey Optimizer]**.
 
-Para crear un ajuste preestablecido de mensaje, siga estos pasos:
+Para crear una superficie de canal, siga estos pasos:
 
-1. Acceda a la **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** a continuación, haga clic en **[!UICONTROL Create Message preset]**.
+1. Acceda a la **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** a continuación, haga clic en **[!UICONTROL Create channel surface]**.
 
    ![](assets/preset-create.png)
 
-1. Introduzca un nombre y una descripción (opcional) para el ajuste preestablecido y, a continuación, seleccione el canal SMS.
+1. Introduzca un nombre y una descripción (opcional) para la superficie y, a continuación, seleccione el canal SMS.
 
    ![](assets/sms_preset.png)
 
@@ -66,9 +66,9 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
    ![](assets/preset-sms.png)
 
-   * Seleccione el **[!UICONTROL SMS Type]** que se enviará con el ajuste preestablecido: **[!UICONTROL Transactional]** o **[!UICONTROL Marketing]**.
+   * Seleccione el **[!UICONTROL SMS Type]** que se enviará con la superficie: **[!UICONTROL Transactional]** o **[!UICONTROL Marketing]**.
 
-   * Seleccione el **[!UICONTROL SMS configuration]** para asociarlo al ajuste preestablecido.
+   * Seleccione el **[!UICONTROL SMS configuration]** para asociarlo a la superficie.
 
       Para obtener más información sobre cómo configurar su entorno para enviar mensajes SMS, consulte [esta sección](#create-api).
 
@@ -76,17 +76,17 @@ Para crear un ajuste preestablecido de mensaje, siga estos pasos:
 
    * Seleccione su **[!UICONTROL SMS Execution Field]** para seleccionar el **[!UICONTROL Profile attribute]** asociado a los números de teléfono de los perfiles.
 
-1. Una vez configurados todos los parámetros, haga clic en **[!UICONTROL Submit]** para confirmar. También puede guardar el ajuste preestablecido de mensaje como borrador y reanudar su configuración más adelante.
+1. Una vez configurados todos los parámetros, haga clic en **[!UICONTROL Submit]** para confirmar. También puede guardar la superficie del canal como borrador y reanudar su configuración más adelante.
 
    ![](assets/sms_preset_2.png)
 
-1. Una vez creado el ajuste preestablecido de mensaje, se muestra en la lista con la variable **[!UICONTROL Processing]** estado.
+1. Una vez creada la superficie del canal, se muestra en la lista con la variable **[!UICONTROL Processing]** estado.
 
    >[!NOTE]
    >
    >Si las comprobaciones no son correctas, obtenga más información sobre los posibles motivos de error en [esta sección](#monitor-message-presets).
 
-1. Una vez realizadas las comprobaciones correctamente, el ajuste preestablecido de mensaje obtiene el valor **[!UICONTROL Active]** estado. Está listo para utilizarse para enviar mensajes.
+1. Una vez realizadas las comprobaciones, la superficie del canal recibe el **[!UICONTROL Active]** estado. Está listo para utilizarse para enviar mensajes.
 
    ![](assets/preset-active.png)
 

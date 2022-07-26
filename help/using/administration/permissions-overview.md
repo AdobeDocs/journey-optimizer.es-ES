@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '189'
 ht-degree: 23%
 
 ---
@@ -23,7 +23,7 @@ Administración de usuarios en [!DNL Journey Optimizer] se basa en tres concepto
 
 * **[!UICONTROL Product profile]**: Conjunto de derechos unitarios que permite a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz. Consulte la [Perfiles de producto integrados](ootb-product-profiles.md) sección
 
-* **[!UICONTROL Permissions]**: Derechos unitarios que le permiten definir las autorizaciones asignadas a **[!UICONTROL Product profile]**. Cada permiso se recopila en funciones, como Recorrido, mensajes u ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Consulte la [Niveles de permisos](high-low-permissions.md) para obtener más información.
+* **[!UICONTROL Permissions]**: Derechos unitarios que le permiten definir las autorizaciones asignadas a **[!UICONTROL Product profile]**. Cada permiso se recopila en funciones, por ejemplo, Recorrido u Ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Consulte la [Niveles de permisos](high-low-permissions.md) para obtener más información.
 
 * **[!UICONTROL Sandbox]**: Entornos limitados virtuales que dividen instancias en entornos virtuales independientes y aislados. Consulte la [Uso de entornos limitados](sandboxes.md)
 

@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '864'
 ht-degree: 1%
 
 ---
 
 # Informe de recorrido en vivo {#journey-live-report}
 
-Se puede acceder al informe de recorrido en directo directamente desde el recorrido con la variable **[!UICONTROL Live report]** botón.
+Se puede acceder al informe de recorrido en directo directamente desde el recorrido con la variable **[!UICONTROL View report]** botón.
 
-![](assets/report_1.png)
+![](assets/report_journey.png)
 
 El recorrido **[!UICONTROL Live report]** se muestra con las siguientes pestañas:
 
@@ -44,8 +44,6 @@ La variable **[!UICONTROL Journey Statistics]** muestra los siguientes KPI:
 
 * **[!UICONTROL Failed individual journeys]**: Número total de recorridos individuales que no se ejecutaron correctamente.
 
-![](assets/report_journey_3.png)
-
 La variable **[!UICONTROL Event executed over the last 24 hours]** y **[!UICONTROL Events]** las utilidades permiten ver cuál de sus eventos se ejecutó correctamente mediante el número de resumen, el gráfico y la tabla.
 
 ![](assets/report_journey_4.png)
@@ -59,8 +57,6 @@ La variable **[!UICONTROL Action executed over the last 24 hours]** y **[!UICONT
 ## Ficha Correo electrónico {#email-live}
 
 Desde su recorrido **[!UICONTROL Live report]**, el **[!UICONTROL Email]** La pestaña detalla la información principal relativa a los envíos de correo electrónico realizados en el recorrido.
-
-Para obtener un informe detallado sobre un envío de correo electrónico específico, consulte la [Enviar informe activo por correo electrónico](email-live-report.md) para obtener más información.
 
 ![](assets/report_email_1.png)
 
@@ -123,8 +119,6 @@ La variable **[!UICONTROL Offers statistic]** y **[!UICONTROL Offers statistics]
 ## Ficha Insertar {#push-live}
 
 Desde su recorrido **[!UICONTROL Live report]**, el **[!UICONTROL Push]** detalla la información principal relativa a los envíos push realizados en el recorrido.
-
-Para obtener un informe detallado sobre una entrega push específica, consulte la [Insertar informe activo](push-live-report.md) para obtener más información.
 
 ![](assets/report_push_1.png)
 

@@ -1,14 +1,14 @@
 ---
-title: Creación de una página de destino
+title: Creación de una página de aterrizaje
 description: Obtenga información sobre cómo configurar y publicar una página de aterrizaje en Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1082'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ También puede eliminar, duplicar y cancelar la publicación de una página de a
 
 >[!CAUTION]
 >
->Si cancela la publicación de una página de aterrizaje a la que se hace referencia en un mensaje sin publicar, el mensaje no se podrá publicar hasta que se vuelva a publicar la página de aterrizaje. Si el mensaje ya se ha publicado, el vínculo a la página de aterrizaje se romperá y se mostrará una página de error.
+>Si cancela la publicación de una página de aterrizaje a la que se hace referencia en un mensaje sin publicar, el vínculo a la página de aterrizaje se romperá y se mostrará una página de error.
 
 Haga clic en los tres puntos junto a una página de aterrizaje para seleccionar la acción que desee.
 
@@ -41,7 +41,7 @@ Haga clic en los tres puntos junto a una página de aterrizaje para seleccionar 
 >
 >No puede eliminar una página de aterrizaje publicada. Para eliminarlo, primero debe cancelar la publicación.
 
-## Creación de una página de destino {#create-landing-page}
+## Creación de una página de aterrizaje {#create-landing-page}
 
 Los pasos para crear una página de aterrizaje son los siguientes:
 

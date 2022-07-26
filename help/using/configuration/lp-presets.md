@@ -4,10 +4,10 @@ description: Aprenda a configurar su entorno para crear y utilizar páginas de a
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 4%
+source-wordcount: '300'
+ht-degree: 7%
 
 ---
 
@@ -74,12 +74,12 @@ Para crear un ajuste preestablecido de página de aterrizaje, siga los pasos a c
    ![](assets/lp-preset-active-temp.png)
 
 Ahora está listo para [crear páginas de aterrizaje](../landing-pages/create-lp.md) en [!DNL Journey Optimizer].
-
+<!--
 >[!NOTE]
 >
->Obtenga información sobre cómo crear ajustes preestablecidos de mensaje para notificaciones push y correos electrónicos en [esta sección](message-presets.md).
+>Learn how to create channel surfaces for push notifications and emails in [this section](message-presets.md).-->
 
 **Temas relacionados**:
 
-* [Introducción a las páginas de destino](../landing-pages/get-started-lp.md)
-* [Creación de una página de destino](../landing-pages/create-lp.md#create-a-lp)
+* [Introducción a las páginas de aterrizaje](../landing-pages/get-started-lp.md)
+* [Creación de una página de aterrizaje](../landing-pages/create-lp.md#create-a-lp)

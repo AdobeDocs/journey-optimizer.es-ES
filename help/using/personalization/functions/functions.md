@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1738'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -19,11 +19,11 @@ Uso [!DNL Journey Optimizer] crear plantillas de idioma para realizar operacione
 
 ➡️ [Aprenda a utilizar las funciones de ayuda en este vídeo](#video)
 
-El lenguaje de plantilla se aprovecha en las funciones de ayuda disponibles en la lista desplegable de personalización del Editor de expresiones, como se muestra a continuación:
+El lenguaje de plantilla se aprovecha en las funciones de ayuda disponibles en la lista desplegable de personalización del editor de expresiones, como se muestra a continuación:
 
 ![](../assets/access-helper-functions.png)
 
-En el [!DNL Journey Optimizer] El Editor de expresiones, las funciones de ayuda se agrupan en tres categorías: [Funciones](#functions-helper), [Ayudantes](#helper-helper) y [Operadores](#operators-helper).
+En el [!DNL Journey Optimizer] Las funciones de ayuda del editor de expresiones se agrupan en tres categorías: [Funciones](#functions-helper), [Ayudantes](#helper-helper) y [Operadores](#operators-helper).
 
 Seleccione una categoría para acceder a las subcategorías y funciones.
 

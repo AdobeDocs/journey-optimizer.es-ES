@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '648'
 ht-degree: 25%
 
 ---
@@ -54,8 +54,6 @@ Utilice las funciones que ofrece [!DNL Journey Optimizer] para monitorizar la ca
 La variable **[!UICONTROL Executions]** de la lista de mensajes le permite comprobar el rendimiento de sus envíos a través de un conjunto de indicadores en tiempo real. Entre otras cosas, esta pestaña muestra:
 * Número de mensajes que se ejecutan, envían y envían correctamente.
 * El número de mensajes que se han abierto y el número de mensajes/vínculos en los que se ha hecho clic.
-
-[Obtenga más información sobre la monitorización de la ejecución de mensajes](message-monitoring.md).
 
 ## Adaptación del contenido del mensaje {#adapt-message-content}
 

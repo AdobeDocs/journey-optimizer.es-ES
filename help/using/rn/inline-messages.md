@@ -2,9 +2,9 @@
 title: Migrar a creación en línea de recorrido
 description: Descubra cómo migrar sus mensajes
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 3ba2c604a99c53e95c4ef083f5ee43d2d6f5477a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1734'
 ht-degree: 0%
 
 ---
@@ -287,10 +287,7 @@ No habrá pérdida de datos ni impacto en los recorridos activos. Estará en con
 
 ### ¿Habrá pérdida de funcionalidad?{#functionality}
 
-Habrá un cambio en la forma en que crea el mensaje. No habrá pérdida de funcionalidad. Tenga en cuenta que después del 25 de julio (versión de la función de creación en línea), se aplicarán limitaciones a las acciones que se pueden realizar en recorridos que utilicen **Mensaje** actividades:
-
-* No podrá copiar/pegar ninguna **Mensaje** actividad. Sin embargo, podrá copiar/pegar las nuevas actividades de acción del canal.
-* Para estos recorridos, no podrá realizar las siguientes acciones: probar, publicar, duplicar, crear una nueva versión, cerrar o copiar en otro simulador para pruebas. Estas limitaciones se aplicarán siempre que **Mensajes** las actividades están presentes en esos recorridos. Puede esperar a que se ejecute y actualice el proceso de migración **Mensajes** actividades para canalizar actividades de acción o puede eliminarlas **Mensajes** manualmente.
+Habrá un cambio en la forma en que crea el mensaje. No habrá pérdida de funcionalidad.
 
 ### ¿Habrá acceso al entorno durante el proceso de migración?
 
@@ -303,6 +300,12 @@ Sí, los recorridos en vivo siguen funcionando.
 ### ¿Cómo sé que la migración ha finalizado?
 
 La migración se completa cuando desaparece el banner. Consulte esta [sección](../rn/inline-messages.md#inform).
+
+### ¿Cómo se verán afectados los permisos relacionados con los mensajes?
+
+La función de creación en línea afectará a los permisos. Todos los permisos relacionados con mensajes, como [!DNL View Messages] o [!DNL Manage Messages], se incluye automáticamente en los permisos vinculados a la capacidad de Recorrido.
+
+Obtenga más información en esta [página](../administration/ootb-product-profiles.md).
 
 <!--
 * Improved authoring flow and navigation

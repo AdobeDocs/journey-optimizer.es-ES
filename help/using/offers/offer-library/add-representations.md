@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 3513f5415ebbac1be889ba390877611ad5a71030
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 2%
@@ -118,7 +118,7 @@ También puede insertar contenido de tipo texto al seleccionar una ubicación co
 
    ![](../assets/offer-text-content.png)
 
-   Puede personalizar el contenido mediante el Editor de expresiones. Más información sobre [personalización](../../personalization/personalize.md#use-expression-editor).
+   Puede personalizar el contenido mediante el editor de expresiones. Más información sobre [personalización](../../personalization/personalize.md#use-expression-editor).
 
    ![](../assets/offer-personalization.png)
 

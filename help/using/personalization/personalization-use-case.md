@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '495'
 ht-degree: 2%
 
 ---
@@ -25,15 +25,24 @@ El objetivo de este ejemplo es impulsar un evento a [!DNL Journey Optimizer] cad
 
 Para este caso de uso, se necesitan los siguientes requisitos previos:
 
-* cree y diseñe un mensaje de notificación push sin publicarlo. Consulte esta [sección](../messages/get-started-content.md).
 * configure un evento de pedido que incluya el número de pedido, el estado y el nombre del elemento. Consulte esta [sección](../event/about-events.md).
 * crear una decisión, consulte esta [sección](../offers/offer-activities/create-offer-activities.md).
 
-## Paso 1: Añadir personalización en el perfil {#add-perso}
+## Paso 1: Creación del recorrido {#create-journey}
 
-1. Haga clic en el **[!UICONTROL Message]** y seleccione el mensaje.
+1. Haga clic en el **[!UICONTROL Journeys]** y cree un nuevo recorrido.
 
-   ![](assets/perso-uc.png)
+   ![](assets/perso-uc4.png)
+
+1. Añada el evento de entrada y un **Push** actividad de acción.
+
+   ![](assets/perso-uc5.png)
+
+1. Configure y diseñe el mensaje de notificación push. Consulte esta [sección](../messages/get-started-content.md).
+
+## Paso 2: Añadir personalización en el perfil {#add-perso}
+
+1. En el **Push** actividad, haga clic en **Editar contenido**.
 
 1. Haga clic en el **Título** campo .
 
@@ -43,45 +52,15 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 
    ![](assets/perso-uc3.png)
 
-   >[!NOTE]
-   >
-   >Deje el mensaje en borrador. No lo publique todavía.
-
-## Paso 2: Creación del recorrido {#create-journey}
-
-1. Haga clic en el **[!UICONTROL Journeys]** y cree un nuevo recorrido.
-
-   ![](assets/perso-uc4.png)
-
-1. Añada el evento de entrada y un **Mensaje** actividad.
-
-   ![](assets/perso-uc5.png)
-
-1. En el **Mensaje** seleccione el mensaje creado anteriormente. Haga clic en **Ok**.
-
-   ![](assets/perso-uc6.png)
-
-   Se muestra un mensaje para informarle de que los datos del evento de entrada y las propiedades de recorrido se han pasado al mensaje.
-
-   ![](assets/perso-uc7.png)
-
-   >[!NOTE]
-   >
-   >El mensaje aparece con un icono de advertencia. Esto se debe a que el mensaje aún no se ha publicado.
-
 ## Paso 3: Añadir personalización en datos contextuales {#add-perso-contextual-data}
 
-1. En el **Mensaje** haga clic en la **Abrir el mensaje** icono. El mensaje se abre en una pestaña nueva.
-
-   ![](assets/perso-uc8.png)
-
-1. Haga clic en el **Título** campo .
+1. En el **Push** actividad, haga clic en **Editar contenido** y haga clic en el botón **Título** campo .
 
    ![](assets/perso-uc9.png)
 
 1. Seleccione el **Atributos contextuales** para abrir el Navegador. Los atributos contextuales solo están disponibles si un recorrido ha pasado datos contextuales al mensaje. Haga clic en **Journey Orchestration**. Aparece la siguiente información contextual:
 
-   * **Eventos**: esta categoría reagrupa todos los campos de los eventos colocados antes del **Mensaje** actividad en el recorrido.
+   * **Eventos**: esta categoría reagrupa todos los campos de los eventos colocados antes de la actividad de acción del canal en el recorrido.
    * **Propiedades del recorrido**: los campos técnicos relacionados con el recorrido de un perfil determinado, por ejemplo, el ID de recorrido o los errores específicos encontrados. Obtenga más información en [documentación del Journey Orchestration](../building-journeys/expression/journey-properties.md).
 
    ![](assets/perso-uc10.png)
@@ -106,13 +85,9 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 
    ![](assets/perso-uc15.png)
 
-1. Ahora, publique el mensaje.
-
-   ![](assets/perso-uc16.png)
-
 ## Paso 4: Prueba y publicación del recorrido {#test-publish}
 
-1. Vuelva a abrir el recorrido. Si el recorrido ya está abierto, asegúrese de actualizar la página. Ahora que el mensaje está publicado, puede ver que no hay error en el recorrido. Haga clic en el **Prueba** y haga clic en **Déclencheur de un evento**.
+1. Haga clic en el **Prueba** y haga clic en **Déclencheur de un evento**.
 
    ![](assets/perso-uc17.png)
 

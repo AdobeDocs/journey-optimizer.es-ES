@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 11%
+source-wordcount: '1543'
+ht-degree: 10%
 
 ---
 
@@ -18,18 +18,23 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
 >title="Creación de mensajes push"
->abstract="Añada el mensaje push y comience a personalizarlo con el Editor de expresiones."
+>abstract="Añada el mensaje push y comience a personalizarlo con el editor de expresiones."
 
 
 Las notificaciones push le ayudan a llegar a sus usuarios de aplicaciones móviles en cualquier momento, especialmente cuando no utilizan activamente su aplicación. Las notificaciones push pueden ayudarle a lograr una variedad de casos de uso, como proporcionar actualizaciones sobre el servicio, solicitar al usuario que tome medidas, avisar al usuario de una nueva oferta, etc. Las plataformas de dispositivo requieren la inclusión antes de que los usuarios finales puedan recibir o ver sus notificaciones. La inclusión del usuario puede recibirse tan pronto como se inicia la aplicación por primera vez después de la instalación, o en una sesión o flujo de trabajo posterior, según corresponda.
 
 [!DNL Journey Optimizer] admite notificaciones push y le ayuda a enviar notificaciones muy relevantes a tasas de rendimiento líderes en el sector. Las notificaciones push pueden incluir personalización y contexto basado en Recorridos para aprovechar la información de datos que su marca tiene con Adobe Experience Cloud.
 
-Una vez que [crear un mensaje](get-started-content.md), haga clic en **[!UICONTROL Push Notification]** para definir la configuración y el contenido de la notificación push.
+Una vez que [se ha añadido una notificación push](get-started-content.md) para su recorrido, y para definir la configuración básica, use la variable **[!UICONTROL Actions: Push]** panel derecho para crear el contenido de la notificación push.
+
+![](assets/add-a-push.png)
+
+
+Utilice las pestañas dedicadas para definir la configuración de las notificaciones push para **iOS** y **Android** sistemas operativos.
 
 ![](assets/create-content-push.png)
 
-Utilice las pestañas dedicadas para definir la configuración de las notificaciones push para **iOS** y **Android** sistemas operativos.
+Si es la primera vez que crea una notificación push, asegúrese de que el canal push esté configurado. [Más información](../configuration/push-gs.md).
 
 >[!NOTE]
 >
@@ -37,7 +42,7 @@ Utilice las pestañas dedicadas para definir la configuración de las notificaci
 
 ## Título y cuerpo {#push-title-body}
 
-Para componer el mensaje, haga clic en el botón **[!UICONTROL Title]** y **[!UICONTROL Body]** campos. Utilice el Editor de expresiones para definir el contenido y los datos de personalización. Obtenga más información sobre personalización en el Editor de expresiones en [esta sección](../personalization/personalize.md)
+Para componer el mensaje, haga clic en el botón **[!UICONTROL Title]** y **[!UICONTROL Body]** campos. Utilice el editor de expresiones para definir el contenido y los datos de personalización. Obtenga más información sobre personalización en el editor de expresiones en [esta sección](../personalization/personalize.md)
 
 Utilice la sección de vista previa del dispositivo para visualizar cómo se muestra la notificación push en los dispositivos iOS y Android.
 
@@ -52,7 +57,7 @@ Puede seleccionar el comportamiento cuando un usuario haga clic en el cuerpo de 
 
 ![](assets/title-body-push.png)
 
-* Para abrir la aplicación, seleccione la opción **[!UICONTROL Open app]** . La aplicación asociada a la notificación se define en el mensaje **[!UICONTROL Preset]**. [Más información](../configuration/message-presets.md) acerca de los ajustes preestablecidos de mensajes.
+* Para abrir la aplicación, seleccione la opción **[!UICONTROL Open app]** . La aplicación asociada a la notificación se define en la variable [superficie del canal](../configuration/message-presets.md) (es decir, el ajuste preestablecido de mensaje).
 * Para redirigir al usuario a un contenido específico dentro de una aplicación, seleccione la opción **[!UICONTROL Deeplink]** .  El contenido específico puede ser una vista específica, una sección concreta de una página o una ficha determinada. Una vez seleccionada la opción , introduzca el vínculo profundo en el campo asociado.
 * Para redirigir al usuario a una URL externa, utilice la variable **[!UICONTROL Web URL]** . Una vez seleccionada la opción , introduzca la URL en el campo asociado.
 
@@ -125,6 +130,17 @@ Puede configurar **[!UICONTROL Advanced options]** para la notificación push. A
 | **[!UICONTROL Notification visibility]** (solo Android) | Define la visibilidad de la notificación push. <br/><b>Privado</b> mostrará la notificación en todas las pantallas de seguridad, pero ocultará información confidencial o privada en las pantallas de seguridad. <br/><b>Público</b> mostrará la notificación en su totalidad en todas las pantallas de seguridad. <br/><b>Secreto</b> no revelará ninguna parte de la notificación en una pantalla de bloqueo segura. <br/>Para obtener más información, consulte [Documentación para desarrolladores de Android](https://developer.android.com/reference/android/app/Notification). |
 | **[!UICONTROL Notification priority]** (solo Android) | Define la importancia de la notificación push de Bajo a Máx. Esto determina cuán &quot;intrusiva&quot; será la notificación push cuando se entregue. Para obtener más información, consulte [Documentación para desarrolladores de Android](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
 | **[!UICONTROL Delivery priority]** (solo Android) | Establece una prioridad alta o normal para las notificaciones push. Para obtener más información sobre la prioridad de los mensajes, consulte la [documentación para desarrolladores de Google](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message). |
+
+
+## Validación de la notificación push{#push-preview}
+
+Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo. Si ha insertado [contenido personalizado](../personalization/personalize.md), puede comprobar cómo se muestra este contenido en el mensaje, aprovechando los datos de perfil de prueba.
+
+Para visualizar la visualización de la notificación push en dispositivos móviles, haga clic en el botón **[!UICONTROL Simulate content]** pestaña . Obtenga más información sobre la simulación de contenido en [esta sección](../design/preview.md).
+
+También debe comprobar las alertas en la sección superior del editor.  Algunas de ellas son simples advertencias, pero otras pueden impedir que utilice el mensaje. Obtenga más información en [esta sección](alerts.md).
+
+![](assets/push-alert-button.png)
 
 **Temas relacionados**
 

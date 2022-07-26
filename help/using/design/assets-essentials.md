@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 80a5edec92377753e6bfd96699591b1a87e25248
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '457'
 ht-degree: 3%
 
 ---
@@ -87,4 +87,3 @@ Para obtener más información sobre cómo cargar recursos, consulte [Documentac
 
    ![](assets/media_library_13.png)
 
-Una vez creado y personalizado el mensaje, puede publicarlo para que esté disponible para la ejecución. [Más información](../messages/publish-manage-message.md)

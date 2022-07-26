@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 99%
+source-wordcount: '1456'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ Los componentes y las funciones disponibles en la IU dependen de los [permisos](
 
 ## Navegación izquierda {#left-nav}
 
-Utilice los vínculos de la izquierda para examinar las funciones.
+Busque los vínculos de la izquierda para acceder a [!DNL Journey Optimizer] capacidades.
 
 ![](assets/ajo-home.png)
 
@@ -36,17 +36,17 @@ Utilice los vínculos de la izquierda para examinar las funciones.
 >
 >Las capacidades disponibles pueden variar según los permisos y el acuerdo de licencia.
 
-A continuación, hay la lista completa de servicios y capacidades en el menú izquierdo y los vínculos a la documentación asociada.
+A continuación se encuentra la lista completa de servicios y capacidades disponibles en la navegación izquierda y vínculos a páginas de ayuda asociadas.
 
 **Inicio**
 
-La página principal de [!DNL Journey Optimizer] contiene vínculos clave y recursos para comenzar. La lista **[!UICONTROL Recents]** proporciona accesos directos a los mensajes, eventos y recorridos creados o actualizados recientemente. Esta lista muestra sus fechas de creación y modificación, así como el estado.
+La página principal de [!DNL Journey Optimizer] contiene vínculos clave y recursos para comenzar. La variable **[!UICONTROL Recents]** proporciona accesos directos a los eventos y recorridos creados recientemente. Esta lista muestra sus fechas de creación y modificación, así como el estado.
 
 **[!UICONTROL JOURNEY MANAGEMENT]**
 
 * **[!UICONTROL Journeys]**: Cree, configure y organice sus recorridos de cliente. [Más información](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]**: cree, diseñe, pruebe y publique mensajes de correo electrónico y push. [Más información](../messages/get-started-content.md)
+* **[!UICONTROL Landing pages]** : cree, diseñe, pruebe y publique páginas de aterrizaje. [Más información](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL DECISION MANAGEMENT]**
 
@@ -274,7 +274,7 @@ Para cambiar el idioma:
 
 ## Buscar{#unified-search}
 
-En cualquier lugar de la interfaz de Adobe Journey Optimizer, utilice la búsqueda unificada de Adobe Experience Cloud en el centro de la barra superior para buscar recursos, recorridos o mensajes en los entornos limitados.
+Desde cualquier lugar de la interfaz de Adobe Journey Optimizer, utilice la función de búsqueda de Adobe Experience Cloud unificado en el centro de la barra superior para encontrar recursos, recorridos, conjuntos de datos y mucho más en los entornos limitados.
 
 Empiece a introducir contenido para mostrar los resultados principales. Los artículos de ayuda sobre las palabras clave introducidas también se muestran en los resultados.
 
@@ -304,6 +304,6 @@ En los paneles Evento, Fuente de datos y Configuración de acciones, el campo **
 
 ![](assets/journey3bis.png)
 
-En las diferentes listas, puede realizar acciones básicas por cada elemento. Por ejemplo, puede duplicar o eliminar un elemento.
+En las listas, puede realizar acciones básicas en cada elemento. Por ejemplo, puede duplicar o eliminar un elemento.
 
 ![](assets/journey4.png)

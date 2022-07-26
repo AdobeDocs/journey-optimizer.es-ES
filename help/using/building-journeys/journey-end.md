@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: d0d914156eaa7fe54a513ee7b4e870edbc76c846
+exl-id: 57bdeadc-5801-4036-a272-c622634d5281
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -107,7 +108,5 @@ También puede:
 
 1. En el **[!UICONTROL Journeys]** , haga clic en el recorrido que desee detener.
 1. En la parte superior derecha, haga clic en la flecha abajo.
-
-![](assets/finish_drop_down_list.png)
-
+   ![](assets/finish_drop_down_list.png)
 1. Haga clic en **[!UICONTROL Stop]** y confirme en el cuadro de diálogo.

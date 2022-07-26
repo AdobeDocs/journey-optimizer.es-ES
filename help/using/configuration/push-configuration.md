@@ -4,9 +4,9 @@ description: Aprenda a configurar su entorno para enviar notificaciones push con
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1427'
 ht-degree: 5%
 
 ---
@@ -75,7 +75,7 @@ Para asignar **Propiedad** y **Empresa** , siga los pasos a continuación:
    * **[!UICONTROL Manage App Configurations]**
    * **[!UICONTROL Manage Properties]**
 
-   Estos permisos son necesarios para que el desarrollador de aplicaciones móviles configure credenciales push en **Adobe Experience Launch** y defina los ajustes preestablecidos de notificaciones push en **Adobe Journey Optimizer**.
+   Estos permisos son necesarios para que el desarrollador de aplicaciones móviles configure credenciales push en **Adobe Experience Launch** y defina las superficies del canal de notificaciones push (es decir, los ajustes preestablecidos de mensajes) en **Adobe Journey Optimizer**.
 
    ![](assets/push_product_5.png)
 
@@ -125,7 +125,7 @@ El registro de credenciales push de la aplicación móvil es necesario para auto
 
 1. De [!DNL Adobe Experience Platform Data Collection], seleccione **[!UICONTROL App Surfaces]** en el panel izquierdo.
 
-1. Haga clic en **[!UICONTROL Create App Surfaces]** para crear una configuración nueva.
+1. Haga clic en **[!UICONTROL Create App Surface]** para crear una configuración nueva.
 
    ![](assets/add-app-config.png)
 
@@ -331,9 +331,9 @@ El evento se ha creado y ahora se puede utilizar en un recorrido.
 
    ![](assets/test_push_11.png)
 
-1. En el **[!UICONTROL Actions]** desplegable, arrastre y suelte una **[!UICONTROL Message]** a su recorrido.
+1. En el **[!UICONTROL Actions]** desplegable, arrastre y suelte una **[!UICONTROL Push]** a su recorrido.
 
-1. Seleccione un mensaje creado anteriormente. Para obtener más información sobre cómo crear notificaciones push, consulte esta [página](../messages/get-started-content.md).
+1. Configure la notificación push. Para obtener más información sobre cómo crear notificaciones push, consulte esta [página](../messages/get-started-content.md).
 
 1. Haga clic en el **[!UICONTROL Test]** alterne para iniciar la prueba de las notificaciones push y haga clic en **[!UICONTROL Trigger an event]**.
 
@@ -347,13 +347,13 @@ El evento se ha creado y ahora se puede utilizar en un recorrido.
 
 El evento se activará y recibirá la notificación push en la aplicación móvil.
 
-## Paso 4: Crear un ajuste preestablecido de mensaje para push{#message-preset}
+## Paso 4: Creación de una superficie de canal para inserción{#message-preset}
 
-Una vez que la aplicación móvil se haya configurado en [!DNL Adobe Experience Platform Data Collection], debe crear un ajuste preestablecido de mensaje para poder enviar notificaciones push desde **[!DNL Journey Optimizer]**.
+Una vez que la aplicación móvil se haya configurado en [!DNL Adobe Experience Platform Data Collection], debe crear una superficie desde la que enviar notificaciones push **[!DNL Journey Optimizer]**.
 
-Obtenga información sobre cómo crear y configurar un ajuste preestablecido de mensaje en [esta sección](../configuration/message-presets.md).
+Obtenga información sobre cómo crear y configurar una superficie de canal en [esta sección](../configuration/message-presets.md).
 
 Ya está listo para enviar notificaciones push con Journey Optimizer.
 
 * Aprenda a crear un mensaje push en [esta página](../messages/create-push.md).
-* Obtenga información sobre cómo enviar un mensaje en un recorrido de [esta sección](../building-journeys/journeys-message.md).
+* Aprenda a añadir un mensaje a un recorrido en [esta sección](../building-journeys/journeys-message.md).

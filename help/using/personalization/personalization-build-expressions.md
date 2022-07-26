@@ -1,26 +1,26 @@
 ---
-title: Acerca del Editor de expresiones
-description: Aprenda a trabajar con el Editor de expresiones.
+title: Acerca del editor de expresiones
+description: Aprenda a trabajar con el editor de expresiones.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 9%
+source-wordcount: '340'
+ht-degree: 6%
 
 ---
 
-# Acerca del Editor de expresiones {#build-personalization-expressions}
+# Acerca del editor de expresiones {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
->title="Acerca del Editor de expresiones"
->abstract="El Editor de expresiones permite seleccionar, organizar, personalizar y validar todos los datos para crear una personalización personalizada del contenido."
+>title="Acerca del editor de expresiones"
+>abstract="El editor de expresiones permite seleccionar, organizar, personalizar y validar todos los datos para crear una personalización personalizada del contenido."
 
-El Editor de expresiones es la parte central de la personalización en [!DNL Journey Optimizer]. Está disponible en todos los contextos en los que es necesario definir la personalización como correos electrónicos, mensajes push y ofertas.
+El editor de expresiones es la parte central de la personalización en [!DNL Journey Optimizer]. Está disponible en todos los contextos en los que es necesario definir la personalización como correos electrónicos, mensajes push y ofertas.
 
 En la interfaz del editor de expresiones, se seleccionan, organizan, personalizan y validan todos los datos para crear una personalización personalizada para el contenido.
 
@@ -35,7 +35,7 @@ Las fuentes disponibles son:
 * **[!UICONTROL Profile attributes]** : enumera todas las referencias asociadas al esquema de perfil descrito en [Documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target=&quot;_blank&quot;}.
 * **[!UICONTROL Segment memberships]** : enumera todos los segmentos creados en el servicio de segmentación de Adobe Experience Platform. Más información sobre segmentación disponible [here](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}.
 * **[!UICONTROL Offer decisions]** : enumera todas las ofertas asociadas a una ubicación específica. Seleccione la ubicación e inserte las ofertas en el contenido. Para obtener una documentación completa sobre cómo administrar ofertas, consulte [esta sección](../design/deliver-personalized-offers.md).
-* **[!UICONTROL Contextual attributes]** : cuando la variable **Mensaje** se utiliza en un recorrido, los campos de recorrido contextual están disponibles a través de este menú. Obtenga más información en [esta sección](personalization-use-case.md).
+* **[!UICONTROL Contextual attributes]** : cuando se utiliza una actividad de acción de canal (correo electrónico, push, SMS) en un recorrido, los campos de recorrido contextual están disponibles a través de este menú. Obtenga más información en [esta sección](personalization-use-case.md).
 * **[!UICONTROL Helper functions]** : enumera todas las funciones de ayuda disponibles para realizar operaciones con datos, como cálculos, formato de datos o conversiones, condiciones y manipularlas en el contexto de la personalización. Obtenga más información en [esta sección](functions/functions.md).
 
 Haga clic en el botón + para añadir un atributo al editor.
@@ -50,4 +50,4 @@ En el siguiente ejemplo, el editor de expresiones permite seleccionar los perfil
 
 ![](assets/perso_ee2.png)
 
-Una vez que la expresión de personalización esté lista, el Editor de expresiones la debe validar. Obtenga más información en [esta sección](personalization-validation.md).
+Una vez que la expresión de personalización esté lista, debe tener el editor de expresiones validado. Obtenga más información en [esta sección](personalization-validation.md).

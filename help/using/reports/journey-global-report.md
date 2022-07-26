@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1607'
 ht-degree: 1%
 
 ---
@@ -62,11 +62,11 @@ La variable **[!UICONTROL Top Actions]** contiene los datos disponibles para **[
 
 Desde su recorrido **[!UICONTROL Global report]**, el **[!UICONTROL Email]** La pestaña detalla la información principal relativa a los envíos de correo electrónico realizados en el recorrido.
 
-Para obtener un informe detallado sobre un envío de correo electrónico específico, consulte la [Informe global de correo electrónico](#email-global-report) para obtener más información.
-
 ![](assets/global_report_14.png)
 
 La variable **[!UICONTROL Email Sending Statistics]** graph detalla el éxito de la entrega:
+
+* **[!UICONTROL Targeted]**: Número de perfiles dirigidos por el Journey Orchestration de Adobe para cualquier acción, como enviar correo electrónico o SMS.
 
 * **[!UICONTROL Sent]**: Número total de envíos para la entrega.
 
@@ -88,7 +88,7 @@ La variable **[!UICONTROL Email - Tracking statistics]** contiene los datos disp
 
 * **[!UICONTROL Unique Opens]**: Porcentaje de envíos abiertos.
 
-* **[!UICONTROL Open Rate]**: Número total de correos electrónicos abiertos comparados con el número de correos electrónicos enviados.
+* **[!UICONTROL Unique Open Rate]**: Número total de correos electrónicos abiertos comparados con el número de correos electrónicos enviados.
 
 * **[!UICONTROL Clicks]**: Número de veces que se hizo clic en un contenido en un correo electrónico.
 
@@ -136,7 +136,7 @@ La variable **[!UICONTROL Email - Top recipient domain]** gráfico y tabla detal
 
 >[!NOTE]
 >
->La variable **[!UICONTROL Optimized vs non optimized]** y **[!UICONTROL Send time optimization]**  las utilidades solo están disponibles si la opción de optimización del tiempo de envío está activada para la entrega. Para obtener más información sobre la optimización del tiempo de envío, consulte esta [página](../building-journeys/journeys-message.md#send-time-optimization).
+>La variable **[!UICONTROL Optimized vs non optimized]** y **[!UICONTROL Send time optimization]**  las utilidades solo están disponibles si la opción de optimización del tiempo de envío está activada para la entrega. Para obtener más información sobre la optimización del tiempo de envío, consulte [esta página](../messages/send-time-optimization.md).
 
 La variable **[!UICONTROL Optimized vs non optimized]** graph detalla la información principal relativa al mensaje, independientemente de si están optimizados o no:
 
@@ -179,11 +179,11 @@ La variable **[!UICONTROL Offers detailed statistic]** contiene los datos dispon
 
 Desde su recorrido **[!UICONTROL Global report]**, el **[!UICONTROL Push]** detalla la información principal relativa a los envíos push realizados en el recorrido.
 
-Para obtener un informe detallado sobre una entrega push específica, consulte esta sección [Insertar informe global](#push-global-report).
-
 ![](assets/global_report_17.png)
 
 La variable **[!UICONTROL Push notification - Sending statistics]** la tabla detalla la información principal relativa a las notificaciones push con gráficos y KPI:
+
+* **[!UICONTROL Targeted]**: Número de perfiles dirigidos por el Journey Orchestration de Adobe para cualquier acción, como enviar correo electrónico o SMS.
 
 * **[!UICONTROL Sent]**: Número total de envíos para la entrega.
 
@@ -227,7 +227,7 @@ La variable **[!UICONTROL Push notification summary]** El gráfico contiene los 
 
 >[!NOTE]
 >
->La variable **[!UICONTROL Optimized vs non optimized]** y **[!UICONTROL Send time optimization]**  las utilidades solo están disponibles si la opción de optimización del tiempo de envío está activada para la entrega. Para obtener más información sobre la optimización del tiempo de envío, consulte esta [página](../building-journeys/journeys-message.md#send-time-optimization).
+>La variable **[!UICONTROL Optimized vs non optimized]** y **[!UICONTROL Send time optimization]**  las utilidades solo están disponibles si la opción de optimización del tiempo de envío está activada para la entrega. Para obtener más información sobre la optimización del tiempo de envío, consulte [esta página](../messages/send-time-optimization.md).
 
 La variable **[!UICONTROL Optimized vs non optimized]** graph detalla la información principal relativa al mensaje, independientemente de si están optimizados o no:
 

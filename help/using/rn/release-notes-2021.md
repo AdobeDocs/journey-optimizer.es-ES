@@ -2,10 +2,10 @@
 title: Notas de la versión anterior (2021)
 description: Notas de la versión de Journey Optimizer de 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '2070'
-ht-degree: 100%
+source-wordcount: '2067'
+ht-degree: 97%
 
 ---
 
@@ -86,7 +86,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 
 **Informes**
 
-* **Formato de datos en la vista Global**: ahora puede alternar entre números y porcentajes en la **Vista global** de la pestaña **Ejecución**. [Más información](../reports/message-monitoring.md)
+* **Formato de datos en la vista Global**: ahora puede alternar entre números y porcentajes en la **Vista global** de la pestaña **Ejecución.**
 
 
 **Administración**
@@ -126,7 +126,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 <td>
 <p>Las nuevas métricas están disponibles en los informes: los mensajes push y segmentados excluidos para correo electrónico son visibles tanto en los informes activos como en los globales. </br> Para tener acceso a las métricas más recientes, tenga en cuenta que tendrá que restablecer los diferentes paneles de informes para cada canal y tipo de informe. Para obtener más información sobre la personalización de tableros, consulte la <a href="../reports/live-report.md">documentación detallada.</a></p>
 <p>Una nueva columna de la lista de ejecución de mensajes muestra el número de perfiles objetivo para cada ejecución de mensaje. </p>
-<p>Para obtener más información, consulte la <a href="../reports/message-monitoring.md">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../reports/global-report.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -180,7 +180,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 <td>
 <p>Envíe automáticamente su mensaje push o de correo electrónico en el mejor momento para cada cliente con el que interactúe con Adobe Journey Optimizer. La optimización del tiempo de envío, con tecnología de los servicios de IA de Adobe, predice el mejor momento para enviar un mensaje push o de correo electrónico para maximizar la participación en función de la apertura histórica y las tasas de clics predefinidas.</p>
 <p>Actualmente, esta función está en versión beta y solo está disponible para los clientes de la versión beta. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.</p>
-<p>Para obtener más información, consulte la <a href="../building-journeys/journeys-message.md#send-time-optimization">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../messages/send-time-optimization.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -274,7 +274,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 
 **Personalización**
 
-* **Editor de expresiones**: ahora puede añadir fácilmente un valor alternativo al definir la personalización. Cuando el campo de personalización está vacío para un perfil, se muestra el valor de reserva. [Más información](../personalization/functions/helpers.md)
+* **Editor de expresiones** - Ahora puede añadir fácilmente un valor alternativo al definir la personalización: cuando el campo de personalización está vacío para un perfil, se muestra el valor de reserva. [Más información](../personalization/functions/helpers.md)
 
 **Configuración de correo electrónico**
 
@@ -342,7 +342,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 * En la pantalla de la lista de recorridos, se ha añadido el filtro de tipo de recorrido. [Más información](../start/user-interface.md#filter-lists)
 * El parámetro **[!UICONTROL Throttling rate]** se ha añadido en la actividad Leer segmento. [Más información](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-**Vista previa y prueba de mensajes**
+**Vista previa y prueba**
 
 * La identidad y el área de nombres ahora están visibles en la pantalla **[!UICONTROL Preview]**. [Más información](../design/preview.md#preview-your-messages)
 * El número de correos electrónicos de prueba para pruebas ahora está restringido a 10.
@@ -357,6 +357,6 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 * Se ha corregido un problema que hacía que se enviaran mensajes duplicados para la entrega por lotes de correo electrónico.
 * Los eventos ahora se generan según corresponda cuando el envío de correo electrónico no se realiza una vez que ha finalizado el periodo de reintento.
 * Se ha corregido un problema por el que faltaba información de IP en la pantalla Registros de PTR.
-* Ya está implementada la localización en el carril de la oferta dentro del Editor de expresiones.
+* Ya se ha implementado la localización en el carril de ofertas dentro del editor de expresiones.
 * Se ha corregido un espaciado incorrecto en las ventanas emergentes de información.
 * Se ha corregido un problema en el Diseñador de correo electrónico al cargar un archivo de HTML en el que la hoja de estilo interna con la propiedad `background-image` no se admitía.

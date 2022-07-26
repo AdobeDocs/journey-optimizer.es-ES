@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1009'
 ht-degree: 81%
 
 ---
@@ -83,6 +83,6 @@ A continuación se presentan algunas cosas para comprobar:
 Si los individuos recorren el recorrido correcto, pero no reciben mensajes que deberían recibir, puede comprobar lo siguiente:
 
 * [!DNL Journey Optimizer] ha tenido en cuenta correctamente la solicitud para enviar el mensaje. Los usuarios empresariales pueden acceder al mensaje que se supone que se debe enviar y comprobar si la hora de la última ejecución corresponde al tiempo de ejecución del recorrido. También pueden comprobar las últimas llamadas o eventos de API recibidas.
-* [!DNL Journey Optimizer] ha enviado correctamente el mensaje. En los registros de envío del mensaje, puede ver el estado de cada ejecución. Pueden ver si es verde o rojo, y cuál fue el problema. Un usuario empresarial puede acceder a esta pantalla y enviar los registros a un administrador para realizar más investigaciones.
+* [!DNL Journey Optimizer] ha enviado correctamente el mensaje. Compruebe los informes de recorrido para asegurarse de que no hay errores.
 
 En el caso de un mensaje enviado mediante una acción personalizada, lo único que se puede comprobar durante la prueba de recorrido es el hecho de que la llamada del sistema de la acción personalizada produce un error o no. Si la llamada al sistema externo asociada con la acción personalizada no genera un error pero no conduce al envío de un mensaje, algunas investigaciones deben realizarse en el sistema externo.

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,11 @@ ht-degree: 0%
 Utilice la variable **[!UICONTROL Live report]** para medir y visualizar en tiempo real el impacto y el rendimiento de sus recorridos y mensajes en un panel integrado.
 Los datos están disponibles en la **[!UICONTROL Live report]** en cuanto se realiza el envío o se ejecuta el recorrido.
 
-* Si desea dirigirse a un recorrido o envíos en el contexto de un recorrido, desde el **[!UICONTROL Journeys]** , acceda al recorrido y haga clic en el botón **[!UICONTROL Live report]** icono. A continuación, puede encontrar los informes de Recorrido, correo electrónico y push en directo.
+* Si desea dirigirse a un recorrido o envíos en el contexto de un recorrido, desde el **[!UICONTROL Journeys]** , acceda al recorrido y haga clic en el botón **[!UICONTROL View report]** botón. A continuación, puede encontrar los informes de Recorrido, correo electrónico, SMS y push en directo.
 
    ![](assets/report_journey.png)
 
-* Si desea segmentar un envío específico, en la **[!UICONTROL Live view]** del **[!UICONTROL Executions]** de los mensajes, seleccione **[!UICONTROL Live Report]** en el menú avanzado de la entrega seleccionada.
-
-   ![](assets/report_2.png)
-
-* Si desea cambiar del **[!UICONTROL Live report]** a **[!UICONTROL Global report]** para la entrega, haga clic en **[!UICONTROL Global view]** del conmutador de pestañas.
+* Si desea cambiar del **[!UICONTROL Live report]** a **[!UICONTROL Live report]** para la entrega, haga clic en **[!UICONTROL Live view]** del conmutador de pestañas.
 
    ![](assets/report_3.png)
 

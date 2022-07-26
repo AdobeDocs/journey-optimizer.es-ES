@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 3%
+source-wordcount: '977'
+ht-degree: 4%
 
 ---
 
@@ -28,22 +28,38 @@ Utilizará estos tipos de funciones de ayuda:
 ➡️ [Aprenda a utilizar las funciones de ayuda en este vídeo](#video)
 
 Antes de comenzar, asegúrese de que sabe cómo configurar estos elementos:
-* Un mensaje de correo electrónico. [Más información](../messages/get-started-content.md)
-* El cuerpo de un correo electrónico. [Más información](../design/create-email-content.md).
+
 * Un evento unitario. [Más información](../event/about-events.md).
 * Recorrido que comienza con un evento. [Más información](../building-journeys/using-the-journey-designer.md).
+* Un mensaje de correo electrónico en el recorrido. [Más información](../messages/get-started-content.md)
+* El cuerpo de un correo electrónico. [Más información](../design/create-email-content.md).
 
 Siga estos pasos:
+
+1. [Crear el evento inicial y el recorrido](#create-context).
 1. [Creación de un mensaje de correo electrónico](#configure-email).
 1. [Inserte el nombre del cliente en mayúsculas](#uppercase-function).
-1. [Crear el evento inicial y el recorrido](#create-context).
 1. [Añadir el contenido del carro de compras al correo electrónico](#each-helper).
 1. [Insertar una nota específica del producto](#if-helper).
 1. [Prueba y publicación del recorrido](#test-and-publish).
 
-## Paso 1: Creación del correo electrónico{#configure-email}
+## Paso 1: Crear el evento inicial y el recorrido relacionado {#create-context}
 
-1. Cree o modifique un mensaje de correo electrónico y, a continuación, haga clic en **[!UICONTROL Email Designer]**.
+El contenido del carro de compras es información contextual del recorrido. Por lo tanto, debe añadir un evento inicial y el correo electrónico a un recorrido para poder añadir al correo electrónico información específica del carro de compras.
+
+1. Cree un evento cuyo esquema incluya la variable `productListItems` matriz.
+1. Defina todos los campos de esta matriz como campos de carga útil para este evento.
+
+   Obtenga más información sobre el tipo de datos del elemento de la lista de productos [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}.
+
+1. Cree un recorrido que comience con este evento.
+1. Agregue un **Correo electrónico** actividad al recorrido.
+
+   ![](assets/personalization-uc-helpers-8.png)
+
+## Paso 2: Creación del correo electrónico{#configure-email}
+
+1. En el **Correo electrónico** actividad, haga clic en **[!UICONTROL Edit content]** y haga clic en **[!UICONTROL Email Designer]**.
    ![](assets/personalization-uc-helpers-1.png)
 
 1. En la paleta izquierda de la página principal del Diseñador de correo electrónico, arrastre y suelte tres componentes de estructura en el cuerpo del mensaje.
@@ -52,7 +68,7 @@ Siga estos pasos:
 
    ![](assets/personalization-uc-helpers-2.png)
 
-## Paso 2: Inserte el nombre del cliente en mayúsculas {#uppercase-function}
+## Paso 3: Inserte el nombre del cliente en mayúsculas {#uppercase-function}
 
 1. En la página de inicio del Diseñador de correo electrónico, haga clic en el componente HTML en el que desea agregar el nombre del cliente.
 1. En la barra de herramientas contextual, haga clic en **[!UICONTROL Show the source code]**.
@@ -93,33 +109,9 @@ Siga estos pasos:
    ![](assets/personalization-uc-helpers-6.png)
 1. Guarde el mensaje.
 
-## Paso 3: Crear el evento inicial y el recorrido relacionado {#create-context}
-
-El contenido del carro de compras es información contextual del recorrido. Por lo tanto, debe añadir un evento inicial y el correo electrónico a un recorrido para poder añadir al correo electrónico información específica del carro de compras.
-
-1. Cree un evento cuyo esquema incluya la variable `productListItems` matriz.
-1. Defina todos los campos de esta matriz como campos de carga útil para este evento.
-
-   Obtenga más información sobre el tipo de datos del elemento de la lista de productos [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}.
-
-1. Cree un recorrido que comience con este evento.
-1. Añada el mensaje al recorrido.
-
-   Como aún no ha publicado el mensaje, no puede probar ni publicar el recorrido.
-
-   ![](assets/personalization-uc-helpers-7.png)
-
-1. Haga clic en **[!UICONTROL OK]**.
-
-   Un mensaje le informa de que el contexto del recorrido se ha pasado al mensaje.
-
-   ![](assets/personalization-uc-helpers-8.png)
-
 ## Paso 4: Inserte la lista de elementos del carro de compras {#each-helper}
 
-1. Vuelva a abrir el mensaje.
-
-   ![](assets/personalization-uc-helpers-18.png)
+1. Vuelva a abrir el contenido del mensaje.
 
 1. En la página de inicio del Diseñador de correo electrónico, haga clic en el componente HTML en el que desea enumerar el contenido del carro de compras.
 1. En la barra de herramientas contextual, haga clic en **[!UICONTROL Show the source code]**.
@@ -299,14 +291,11 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
    ![](assets/personalization-uc-helpers-14.png)
 
-1. Guarde y publique el mensaje.
+1. Guarde el mensaje.
 
 ## Paso 6: Prueba y publicación del recorrido {#test-and-publish}
 
-1. Abra el recorrido. Si el recorrido ya está abierto, actualice la página.
 1. Active la **[!UICONTROL Test]** alterne y haga clic en **[!UICONTROL Trigger an event]**.
-
-   Solo puede activar el modo de prueba después de publicar el mensaje.
 
    ![](assets/personalization-uc-helpers-15.png)
 

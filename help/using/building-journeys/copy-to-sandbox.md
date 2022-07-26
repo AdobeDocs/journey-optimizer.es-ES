@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: f75ed263fd8226a6b5f55bbb50f4aae17cbfe9d4
+exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ ht-degree: 0%
 >title="Objetos dependientes"
 >abstract="Esta es la lista de objetos asociados que se utilizan en el recorrido. Esta lista muestra el nombre, el tipo de objeto y el Journey Optimizer ID interno."
 
-Journey Optimizer permite copiar un recorrido completo de un simulador para pruebas a otro. Por ejemplo, puede copiar un recorrido del entorno de entorno limitado de ensayo en el entorno limitado de producción. Además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: mensajes, segmentos, ajustes preestablecidos, esquemas, eventos y acciones. Consulte la [limitaciones](../building-journeys/copy-to-sandbox.md#limitations)
+Journey Optimizer permite copiar un recorrido completo de un simulador para pruebas a otro. Por ejemplo, puede copiar un recorrido del entorno de entorno limitado de ensayo en el entorno limitado de producción. Además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: segmentos, superficies (es decir, ajustes preestablecidos), esquemas, eventos y acciones. Consulte la [limitaciones](../building-journeys/copy-to-sandbox.md#limitations)
 
 >[!CAUTION]
 >
@@ -86,7 +87,7 @@ Se copian los siguientes objetos:
 
 * Mensaje
 
-   Los mensajes físicos utilizados en el recorrido (ya sea correo electrónico o mensajes push). Los campos utilizados para la personalización en el mensaje no se comprueban para que estén completos. Los bloques de contenido no se copian.
+   Las actividades de acción del canal utilizadas en el recorrido. Los campos utilizados para la personalización en el mensaje no se comprueban para que estén completos. Los bloques de contenido no se copian.
 
 * Recorrido: detalles del lienzo
 
@@ -100,9 +101,8 @@ Se copian los siguientes objetos:
 
    Se copian las acciones y los detalles de acción utilizados en el recorrido.
 
-Los ajustes preestablecidos no se copian. El sistema selecciona automáticamente la coincidencia más cercana posible en el entorno limitado de destino, según el tipo de mensaje y el nombre del ajuste preestablecido. Si no se encuentran ajustes preestablecidos en el entorno limitado de destino, la copia preestablecida fallará. Esto significa que la copia del mensaje también fallará porque un mensaje requiere un ajuste preestablecido para estar disponible para la configuración. En este caso, es necesario crear al menos un ajuste preestablecido para que funcione la copia para el canal correcto del mensaje.
+Las superficies (es decir, los ajustes preestablecidos) no se copian. El sistema selecciona automáticamente la coincidencia más cercana posible en el entorno limitado de destino, según el tipo de mensaje y el nombre de superficie. Si no hay superficies encontradas en el simulador de pruebas de destino, la copia superficial fallará. Esto significa que la copia del mensaje también fallará porque un mensaje requiere que una superficie esté disponible para la configuración. En este caso, se debe crear al menos una superficie para que funcione la copia para el canal correcto del mensaje.
 
 En el caso de esquemas, políticas de combinación y segmentos, la segunda vez que estos objetos intenten copiarse, solo se hará referencia a ellos. Se tratarán como objetos que ya existen y se copiarán de nuevo. Esto significa que estos objetos solo se pueden copiar una vez.
 
 Transcurridos cinco minutos, Adobe Journey Optimizer puede hacer referencia a esquemas, políticas de combinación y segmentos sin que aparezca un error en el lienzo. Espere cinco minutos y estas referencias estarán disponibles.
-

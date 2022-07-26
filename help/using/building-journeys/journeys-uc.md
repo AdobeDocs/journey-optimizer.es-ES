@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '836'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,6 @@ Para que este caso de uso funcione, debe configurar lo siguiente:
 
 * un segmento para todos los clientes que viven en Atlanta, San Francisco o Seattle y que nacieron después de 1980.
 * un evento purchase
-* tres mensajes
 
 ### Creación del segmento
 
@@ -81,29 +80,17 @@ Para ello, se utiliza un evento basado en reglas. Para obtener más información
 
 El evento está configurado y listo para utilizarse en el recorrido. Con la actividad de evento correspondiente, puede almacenar en déclencheur una acción cada vez que un cliente realiza una compra.
 
-### Creación de los mensajes
-
-Para este caso de uso, se deben crear tres mensajes:
-
-* un mensaje push y de correo electrónico de primer mensaje
-* un mensaje push de agradecimiento
-* un mensaje de seguimiento por correo electrónico
-
-![](assets/jo-uc3.png)
-
-Consulte esta [sección](../segment/about-segments.md) para aprender a diseñar y publicar estos mensajes.
-
 ## Diseño del recorrido
 
 1. Inicie el recorrido con un **Leer segmento** actividad. Seleccione el segmento creado anteriormente. Todas las personas que pertenecen al segmento entran en el recorrido.
 
    ![](assets/jo-uc4.png)
 
-1. Colocar una **Mensaje** y seleccione el mensaje push y el mensaje de correo electrónico primero. Este mensaje se envía a todas las personas del recorrido.
+1. Suelte un **Correo electrónico** actividad de acción y defina el contenido del &quot;primer mensaje&quot;. Este mensaje se envía a todas las personas del recorrido. Consulte esta [sección](../messages/create-email.md) para aprender a configurar y diseñar un correo electrónico.
 
    ![](assets/jo-uc5.png)
 
-1. Coloque el cursor en la actividad del mensaje y haga clic en el símbolo &quot;+&quot; para crear una nueva ruta.
+1. Coloque el cursor en la actividad de correo electrónico y haga clic en el símbolo &quot;+&quot; para crear una nueva ruta.
 
 1. En la primera ruta, agregue una **Reacción** y seleccione **Push opened**. El evento se activa cuando una persona que pertenece al segmento abre la versión push del primer mensaje.
 
@@ -115,11 +102,11 @@ Consulte esta [sección](../segment/about-segments.md) para aprender a diseñar 
    >
    >Al configurar un tiempo de espera en varios eventos (las dos reacciones en este caso), solo es necesario configurar el tiempo de espera en uno de estos eventos.
 
-1. En la ruta de tiempo de espera, suelte una **Mensaje** y seleccione el mensaje de seguimiento de correo electrónico. Este mensaje se envía a las personas que no abren el correo electrónico ni insertan el primer mensaje al día siguiente.
+1. En la ruta de tiempo de espera, suelte una **Correo electrónico** actividad de acción y definir el contenido del mensaje de &quot;seguimiento&quot;. Este mensaje se envía a las personas que no abren el correo electrónico ni insertan el primer mensaje al día siguiente. Consulte esta [sección](../messages/create-email.md) para aprender a configurar y diseñar un correo electrónico.
 
 1. Conecte las tres rutas al evento purchase creado anteriormente. El evento se activa cuando un individuo realiza una compra.
 
-1. Después del evento, suelte una **Mensaje** actividad y seleccione el mensaje de correo electrónico &quot;gracias&quot;.
+1. Después del evento, suelte una **Push** actividad de acción y defina el contenido del mensaje de agradecimiento. Consulte esta [sección](../messages/create-push.md) para aprender a configurar y diseñar una notificación push.
 
 ## Prueba y publicación del recorrido
 

@@ -7,20 +7,20 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '303'
 ht-degree: 8%
 
 ---
-
 
 # Introducción a las campañas {#get-started-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campañas"
->abstract="Con Campañas, puede entregar contenido de una sola vez a un segmento específico en varios canales. Antes de crear una nueva campaña, asegúrese de tener un mensaje preestablecido y un segmento de Adobe Experience Platform listos para usar."
+>abstract="Con Campañas, puede entregar contenido de una sola vez a un segmento específico en varios canales. Antes de crear una nueva campaña, asegúrese de que tiene una superficie de canal (es decir, un mensaje preestablecido) y un segmento de Adobe Experience Platform listos para usar."
 
 ## Acerca de las campañas {#about}
 

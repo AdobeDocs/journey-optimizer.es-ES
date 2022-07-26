@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '570'
 ht-degree: 3%
 
 ---
 
 # Adición de ofertas personalizadas {#deliver-personalized-offers}
 
-En [!DNL Journey Optimizer] mensajes de correo electrónico, puede insertar decisiones que aprovechen el motor de decisión de ofertas para elegir la mejor oferta y enviarla a sus clientes.
+En [!DNL Journey Optimizer] correos electrónicos, puede insertar decisiones que aprovechen el motor de decisión de ofertas para elegir la mejor oferta y enviarla a sus clientes.
 
 Por ejemplo, puede agregar una decisión que muestre en el correo electrónico una oferta de descuento especial que variará según el nivel de lealtad del destinatario.
 
@@ -59,11 +59,11 @@ Para insertar una decisión en un mensaje de correo electrónico, siga los pasos
 
 La actividad de oferta ahora se agrega al componente.
 
-Después de guardar los cambios y una vez publicado el mensaje, las ofertas están listas para mostrarse a los perfiles relevantes al enviar el mensaje como parte de un recorrido.
+Después de guardar los cambios, las ofertas están listas para mostrarse en los perfiles relevantes al enviar el mensaje como parte de un recorrido.
 
 >[!NOTE]
 >
->Cuando se actualiza una oferta, una oferta de reserva, una recopilación de ofertas o una decisión de oferta a la que se hace referencia directa o indirectamente en un mensaje publicado, las actualizaciones se reflejan automáticamente en el mensaje correspondiente, sin necesidad de volver a publicarlo.
+>Cuando se actualiza una oferta, una oferta de reserva, una recopilación de ofertas o una decisión de oferta a la que se hace referencia directa o indirectamente en el mensaje, las actualizaciones se reflejan automáticamente en el mensaje correspondiente.
 
 ## Vista previa de ofertas en un correo electrónico {#preview-offers-in-email}
 

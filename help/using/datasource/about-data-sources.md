@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '314'
 ht-degree: 73%
 
 ---
@@ -29,7 +29,7 @@ La configuración de la fuente de datos permite definir una conexión con un sis
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-Esta configuración no es necesaria si los recorridos solo aprovechan los datos locales procedentes de una carga útil de evento. Por ejemplo, si el recorrido está compuesto por un evento seguido de una actividad de mensaje que solo utiliza datos del evento, no es necesario configurar una fuente de datos.
+Esta configuración no es necesaria si los recorridos solo aprovechan los datos locales procedentes de una carga útil de evento. Por ejemplo, si el recorrido está compuesto por un evento seguido de una actividad de acción de canal que solo utiliza datos del evento, no es necesario configurar una fuente de datos.
 
 Existen dos tipos de fuentes de datos:
 

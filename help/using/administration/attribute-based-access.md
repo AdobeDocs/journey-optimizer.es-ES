@@ -8,9 +8,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '913'
 ht-degree: 2%
 
 ---
@@ -74,7 +74,7 @@ Aplicando una **[!UICONTROL Label]** a su **[!UICONTROL Field name]**, tenga en 
 **[!UICONTROL Roles]** son un conjunto de usuarios que comparten los mismos permisos, etiquetas y entornos limitados dentro de su organización. Cada usuario que pertenece a un **[!UICONTROL Role]** tiene derecho a las aplicaciones y servicios de Adobe contenidos en el producto.
 También puede crear su propio **[!UICONTROL Roles]** si desea ajustar el acceso de los usuarios a determinadas funcionalidades u objetos de la interfaz.
 
-Ahora queremos conceder a los usuarios seleccionados acceso al **Nacionalidad** campo, con la etiqueta C2. Para ello, necesitamos crear un **[!UICONTROL Role]** con un conjunto específico de usuarios y concederles la etiqueta C2 que les permite usar la variable **Nacionalidad** detalles en un **[!UICONTROL Message]** o **[!UICONTROL Journey]**.
+Ahora queremos conceder a los usuarios seleccionados acceso al **Nacionalidad** campo, con la etiqueta C2. Para ello, necesitamos crear un **[!UICONTROL Role]** con un conjunto específico de usuarios y concederles la etiqueta C2 que les permite usar la variable **Nacionalidad** detalles en un **[!UICONTROL Journey]**.
 
 1. En el [!DNL Permissions] producto, seleccione **[!UICONTROL Role]** en el menú del panel izquierdo y haga clic en **[!UICONTROL Create role]**. Tenga en cuenta que también puede agregar **[!UICONTROL Label]** a funciones integradas.
 

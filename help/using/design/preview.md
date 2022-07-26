@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 3%
+source-wordcount: '1049'
+ht-degree: 1%
 
 ---
 
@@ -38,7 +38,7 @@ Además, aproveche el **Litmus** account en [!DNL Journey Optimizer] para previs
 >
 >Al obtener una vista previa de un mensaje o enviar pruebas, solo se muestran los datos de personalización del perfil. La personalización basada en datos de contexto, como la información de evento, solo se puede probar en el contexto de un recorrido. Obtenga información sobre cómo probar la personalización en [este caso de uso](../personalization/personalization-use-case.md).
 
-➡️ [Aprenda a previsualizar, probar y publicar su correo electrónico en este vídeo](#video-preview)
+➡️ [Obtenga información sobre cómo previsualizar y probar el correo electrónico en este vídeo](#video-preview)
 
 ## Seleccionar perfiles de prueba{#select-test-profiles}
 
@@ -53,7 +53,7 @@ Uso [Perfiles de prueba](../segment/creating-test-profiles.md) para dirigirse a 
 
 Para seleccionar perfiles de prueba, siga los pasos a continuación:
 
-1. En la interfaz de mensajes o en el diseñador de correo electrónico, haga clic en el botón **[!UICONTROL Show preview]** para acceder a la selección de perfil de prueba.
+1. En la interfaz de mensajes o en el diseñador de correo electrónico, haga clic en el botón **[!UICONTROL Simulate Content]** para acceder a la selección de perfil de prueba.
 
    ![](assets/email-preview-button.png)
 
@@ -69,7 +69,7 @@ Para seleccionar perfiles de prueba, siga los pasos a continuación:
 
    ![](assets/preview-email-namespace.png)
 
-1. Introduzca el valor para identificar el perfil de prueba y haga clic en **[!UICONTROL Find test profile]**.
+1. Introduzca el valor para identificar el perfil de prueba y haga clic en **[!UICONTROL Add profile]**.
 
    ![](assets/preview-identity-value.png)
 
@@ -83,7 +83,11 @@ Para seleccionar perfiles de prueba, siga los pasos a continuación:
 
 Una vez [perfiles de prueba](#select-test-profiles) están seleccionados, puede obtener una vista previa de los mensajes y comprobar el contenido.
 
-1. Haga clic en el **[!UICONTROL Preview]** para probar el mensaje.
+### Vista previa del correo electrónico{#preview-email}
+
+Para obtener una vista previa del contenido de un correo electrónico, siga los pasos a continuación:
+
+1. Haga clic en el **[!UICONTROL Simulate content]** sobre el contenido del correo electrónico.
 
 1. Seleccione un perfil de prueba. Puede comprobar los valores disponibles en las columnas. Utilice las flechas derecha/izquierda para examinar los datos.
 
@@ -103,11 +107,15 @@ Una vez [perfiles de prueba](#select-test-profiles) están seleccionados, puede 
 
 1. Seleccione otros perfiles de prueba para previsualizar el procesamiento de correo electrónico para cada variante del mensaje.
 
-Para una vista previa de notificaciones push:
+### Previsualización push{#preview-push}
 
-1. Cambie a la **[!UICONTROL Push]** desde el **[!UICONTROL Channels]** lista desplegable en la parte superior derecha del **[!UICONTROL Preview]** en el Navegador.
+Para obtener una vista previa del contenido de una notificación push, siga los pasos a continuación:
 
-   ![](assets/preview-select-channel.png)
+1. Haga clic en el **[!UICONTROL Simulate content]** sobre el contenido push.
+
+1. Seleccione un perfil de prueba. Puede comprobar los valores disponibles en las columnas. Utilice las flechas derecha/izquierda para examinar los datos.
+
+1. Cambie a la **[!UICONTROL Push]** mensaje.
 
 1. Siga los mismos pasos que se describen anteriormente para seleccionar un perfil de prueba y seleccione el tipo de dispositivo para obtener una vista previa del contenido: **[!UICONTROL iOS]** o **[!UICONTROL Android]**.
 
@@ -188,6 +196,6 @@ A continuación, siga los pasos a continuación:
 
 ## Vídeo explicativo{#video-preview}
 
-Obtenga información sobre cómo probar el procesamiento de correos electrónicos en varias bandejas de entrada, previsualizar los correos electrónicos personalizados con perfiles de prueba, enviar pruebas y publicar correos electrónicos.
+Obtenga información sobre cómo probar el procesamiento de correo electrónico en las bandejas de entrada, cómo previsualizar los correos electrónicos personalizados con perfiles de prueba y enviar pruebas.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)

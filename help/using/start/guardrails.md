@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 80a5edec92377753e6bfd96699591b1a87e25248
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 2%
+source-wordcount: '730'
+ht-degree: 4%
 
 ---
 
-# Seguridad y limitaciones {#limitations}
+# Protecciones y limitaciones {#limitations}
 
 Los derechos, limitaciones de productos y protecciones de rendimiento se enumeran en [Página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target=&quot;_blank&quot;}.
 
-A continuación encontrará limitaciones y protecciones adicionales al utilizar [!DNL Adobe Journey Optimizer].
+A continuación, encontrará limitaciones y protecciones adicionales al utilizar [!DNL Adobe Journey Optimizer].
 
 ## Protecciones de mensajes {#message-guardrails}
 
@@ -47,10 +47,6 @@ Las protecciones de rendimiento y los límites estáticos para la gestión de de
 * No puede colocar dos acciones en paralelo, debe agregarlas una tras otra.
 * Hay una limitación técnica en los recorridos de hoy que impide que un perfil esté presente varias veces en el mismo recorrido, al mismo tiempo. Un perfil puede volver a introducir un recorrido (basado en una configuración), pero no puede hacerlo hasta que salga completamente de la instancia anterior del recorrido.
 * En la mayoría de los casos, un perfil no puede estar presente varias veces en el mismo recorrido, al mismo tiempo. Si la reentrada está activada, un perfil puede volver a introducir un recorrido, pero no puede hacerlo hasta que salga completamente de la instancia anterior del recorrido. [Más información](../building-journeys/journey-end.md)
-
-### Acción de mensaje {#message-action-g}
-
-* Al añadir un mensaje multicanal, se envían dos mensajes.
 
 ### Versiones de recorridos {#journey-versions-g}
 

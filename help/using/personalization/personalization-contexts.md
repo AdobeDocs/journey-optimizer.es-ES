@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 15%
@@ -17,7 +17,7 @@ ht-degree: 15%
 
 El contenido y la visualización de los mensajes enviados por [!DNL Journey Optimizer] se puede personalizar de varias formas.
 
-En todos los campos con el icono del editor, puede abrir el editor de personalización (también conocido como Editor de expresiones) y definir la personalización.
+En todos los campos con el icono del editor, puede abrir el editor de personalización (también conocido como editor de expresiones) y definir la personalización.
 
 ![](assets/perso_icon.png)
 
