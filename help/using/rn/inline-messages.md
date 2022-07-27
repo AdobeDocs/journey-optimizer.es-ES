@@ -2,9 +2,9 @@
 title: Migrar a creación en línea de recorrido
 description: Descubra cómo migrar sus mensajes
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1732'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ La migración se produce en cada región por la noche, a través de varias itera
 
 ¿Por qué necesitamos varias iteraciones?
 
-Durante una iteración, vamos por cada recorrido y los migramos cuando es posible. Hay casos en los que no queremos migrar automáticamente: cuando el recorrido está activo o cerrado (lo que significa que aún puede haber perfiles en él). En estos casos, se le pedirá que realice una acción y, a continuación, la siguiente iteración migrará los recorridos que no se hayan podido migrar en la iteración anterior.
+Durante una iteración, vamos por cada recorrido y los migramos cuando es posible. Hay casos en los que no queremos migrar automáticamente: cuando el recorrido está activo (lo que significa que aún puede haber perfiles en él). En estos casos, se le pedirá que realice una acción y, a continuación, la siguiente iteración migrará los recorridos que no se hayan podido migrar en la iteración anterior.
 
 ## Preguntas frecuentes {#faq}
 

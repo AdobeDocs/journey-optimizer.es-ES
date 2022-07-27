@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 3f41545f41f258eede2167aa9ab45db51e91cacf
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 3%
+source-wordcount: '1600'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
->title="Prioridad"
+>title="Establecer prioridad"
 >abstract="La prioridad ayuda a definir la prioridad de la oferta en comparación con otras si el usuario cumple los requisitos para más de una oferta. Cuanto mayor sea la prioridad de una oferta, mayor será su prioridad en comparación con otras ofertas."
 
 Las restricciones permiten definir las condiciones en las que se mostrará una oferta.
@@ -40,6 +40,10 @@ Las restricciones permiten definir las condiciones en las que se mostrará una o
 1. Configure las variables **[!UICONTROL Offer eligibility]**. [Más información](#eligibility)
 
    ![](../assets/offer-eligibility.png)
+
+   >[!NOTE]
+   >
+   >Al seleccionar segmentos o reglas de decisión, se muestra información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Refresh]** para actualizar los datos.
 
 1. Defina el **[!UICONTROL Priority]** de la oferta comparada con otras si el usuario cumple los requisitos para más de una oferta. Cuanto mayor sea la prioridad de una oferta, mayor será su prioridad en comparación con otras ofertas.
 
@@ -63,8 +67,8 @@ Por ejemplo, si establece las siguientes restricciones:
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
->title="Elegibilidad"
->abstract="La idoneidad de la oferta le permite restringir la oferta a perfiles específicos que defina mediante segmentos o reglas de decisión."
+>title="Definir elegibilidad"
+>abstract="De forma predeterminada, cualquier perfil puede presentarse en la oferta, pero puede utilizar segmentos o reglas de decisión para restringir la oferta a perfiles específicos."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -114,7 +118,7 @@ Básicamente, el resultado de un segmento es una lista de perfiles, mientras que
 
    Obtenga más información sobre las reglas de decisión en [esta sección](creating-decision-rules.md).
 
-## Restricción de frecuencia {#capping}
+## Restricción {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
@@ -123,8 +127,8 @@ Básicamente, el resultado de un segmento es una lista de perfiles, mientras que
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="Restricción"
->abstract="El límite se utiliza como una restricción para definir el número máximo de veces que se puede presentar una oferta."
+>title="Usar restricción"
+>abstract="Para evitar que los clientes se saturen, utilice el límite para definir el número máximo de veces que se puede presentar una oferta."
 
 El límite se utiliza como una restricción para definir el número máximo de veces que se puede presentar una oferta.
 
@@ -178,8 +182,8 @@ El número de veces que se propone una oferta se calcula en el momento de la pre
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="Cambiar la fecha puede tener un impacto en el límite"
->abstract="Si se aplica un límite a esta oferta, este puede verse afectado al cambiar la fecha de inicio o de finalización."
+>title="Cambiar fechas puede afectar a la restricción"
+>abstract="Si se aplica un límite a esta oferta, este se puede ver afectado al cambiar la fecha de inicio o de finalización."
 
 Se debe tener cuidado al cambiar la fecha de una oferta, ya que esto puede tener un impacto en el límite si se cumplen las siguientes condiciones:
 
@@ -191,7 +195,7 @@ Se debe tener cuidado al cambiar la fecha de una oferta, ya que esto puede tener
 >
 >Aprenda a definir la fecha de una oferta en [esta sección](creating-personalized-offers.md#create-offer).
 
-El límite de frecuencia por perfil almacena los recuentos de límite de cada perfil. Al cambiar la fecha de inicio y finalización de una oferta aprobada, el recuento de límite de algunos perfiles podría verse afectado según los diferentes escenarios que se describen a continuación.
+La restricción por perfil almacena los recuentos de límite de cada perfil. Al cambiar la fecha de inicio y finalización de una oferta aprobada, el recuento de límite de algunos perfiles podría verse afectado según los diferentes escenarios que se describen a continuación.
 
 ![](../assets/offer-capping-change-date.png)
 

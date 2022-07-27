@@ -6,16 +6,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1173'
 ht-degree: 2%
 
 ---
 
 # Configuración de correo electrónico {#email-settings}
 
-Defina la configuración del correo electrónico en la sección dedicada de la configuración de la superficie del canal (es decir, la configuración preestablecida de mensajes). Aprenda a crear superficies en [esta sección](message-presets.md).
+Defina la configuración del correo electrónico en la sección dedicada de la configuración de la superficie del canal (es decir, la configuración preestablecida de mensajes). Aprenda a crear superficies en [esta sección](channel-surfaces.md).
 
 ![](assets/preset-email-settings.png)
 
@@ -24,9 +24,9 @@ Defina la configuración del correo electrónico en la sección dedicada de la c
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="Definir la categoría de correo electrónico"
->abstract="Seleccione el tipo de correos electrónicos que se enviarán al utilizar esta superficie de canal: Marketing para correos electrónicos promocionales, que requieren el consentimiento del usuario, o Transactional para correos electrónicos no comerciales, que también se pueden enviar a perfiles cancelados de suscripción en contextos específicos."
+>abstract="Seleccione el tipo de mensajes que se enviarán al utilizar esta superficie: Marketing para mensajes promocionales, que requieren el consentimiento del usuario, o Transactional para mensajes no comerciales, que también se puede enviar a perfiles cancelados de suscripción en contextos específicos."
 
-En el **TIPO DE CORREO ELECTRÓNICO** seleccione el tipo de mensaje que se enviará con la superficie del canal: **Marketing** o **Transaccional**.
+En el **TIPO DE CORREO ELECTRÓNICO** seleccione el tipo de mensaje que se enviará con la superficie: **Marketing** o **Transaccional**.
 
 * Choose **Marketing** para correo electrónico promocional: estos mensajes requieren el consentimiento del usuario.
 
@@ -181,20 +181,22 @@ Se rellenan automáticamente tres parámetros de seguimiento de URL como ejemplo
 
 Para configurar un parámetro de seguimiento de URL, puede introducir directamente los valores deseados en la variable **[!UICONTROL Name]** y **[!UICONTROL Value]** campos.
 
-También puede elegir entre una lista de valores predefinidos navegando a los siguientes objetos:
-* Atributos de recorrido: **ID de origen**, **Nombre de origen**, **ID de versión de origen**
-* Atributos de acción: **ID de acción**, **Nombre de la acción**
-* Atributos de offer decisioning: **ID de oferta**, **Nombre de la oferta**
+<!--You can also choose from a list of predefined values by navigating to the following objects:
+* Journey attributes: **Source id**, **Source name**, **Source version id**
+* Action attributes: **Action id**, **Action name**
+* Offer decisioning attributes: **Offer id**, **Offer name**
 
 ![](assets/preset-url-tracking-source.png)
 
 >[!CAUTION]
 >
->No seleccione una carpeta: asegúrese de buscar la carpeta necesaria y seleccionar un atributo de perfil para utilizarlo como valor de parámetro de seguimiento.
+>Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-<!--or edit it using the Expression editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+También puede editar cada **[!UICONTROL Value]** utilizando la variable [Editor de expresiones](../personalization/personalization-build-expressions.md). Haga clic en el icono de edición para abrir el Editor de expresiones. Desde allí, puede seleccionar los atributos contextuales de su elección o editar directamente el texto.
 
-You can drag and drop the parameters to reorder them.-->
+![](assets/preset-url-tracking-editor.png)
+
+<!--You can drag and drop the parameters to reorder them.-->
 
 A continuación se muestran ejemplos de URL compatibles con Adobe Analytics y Google Analytics.
 
@@ -204,7 +206,7 @@ A continuación se muestran ejemplos de URL compatibles con Adobe Analytics y Go
 
 >[!NOTE]
 >
->Puede combinar la escritura de valores de texto y la selección de valores predefinidos. Cada **[!UICONTROL Value]** puede contener hasta 255 caracteres en total.
+>Puede combinar la escritura de valores de texto y el uso de atributos contextuales desde el Editor de expresiones. Cada **[!UICONTROL Value]** puede contener hasta 255 caracteres en total.
 
 Puede obtener una vista previa dinámica de la URL de seguimiento resultante. Cada vez que se añade, edita o elimina un parámetro, la vista previa se actualiza automáticamente.
 

@@ -2,7 +2,7 @@
 title: Notas de la versión anterior (2021)
 description: Notas de la versión de Journey Optimizer de 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '2067'
 ht-degree: 97%
@@ -91,7 +91,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 
 **Administración**
 
-* **Editar ajustes preestablecidos de mensaje**: ahora puede editar los ajustes preestablecidos de mensajes y controlar su estado de actualización. [Más información](../configuration/message-presets.md#edit-message-preset)
+* **Editar ajustes preestablecidos de mensaje**: ahora puede editar los ajustes preestablecidos de mensajes y controlar su estado de actualización. [Más información](../configuration/channel-surfaces.md#edit-channel-surface)
 * **Editar registros PTR**: ahora puede editar registros PTR y monitorizar su estado de actualización. [Más información](../configuration/ptr-records.md#edit-ptr-record)
 
 **Personalización**

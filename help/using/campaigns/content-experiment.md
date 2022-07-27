@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
@@ -33,7 +33,7 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
 
    ![](assets/content_experiment_1.png)
 
-1. Select **[!UICONTROL Email]** a continuación, la variable **[!UICONTROL Surface]** desea utilizar para este envío. Para obtener más información, consulte [Superficies de canal](../configuration/message-presets.md) página.
+1. Select **[!UICONTROL Email]** a continuación, la variable **[!UICONTROL Surface]** desea utilizar para este envío. Para obtener más información, consulte [Superficies de canal](../configuration/channel-surfaces.md) página.
 
    ![](assets/content_experiment_2.png)
 

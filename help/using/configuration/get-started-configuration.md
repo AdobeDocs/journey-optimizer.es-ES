@@ -6,7 +6,7 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 11%
@@ -22,7 +22,7 @@ Para poder crear sus recorridos y enviar mensajes, debe seguir estos pasos de co
 
 1. **Configuración de mensajes y canales**: definir superficies de canal, adaptar y personalizar los mensajes.
 
-   * Cree superficies de canal para configurar todos los parámetros técnicos necesarios para enviar mensajes. [Más información](message-presets.md)
+   * Cree superficies de canal para configurar todos los parámetros técnicos necesarios para enviar mensajes. [Más información](channel-surfaces.md)
 
    * Determine qué dirección de correo electrónico utilizar con prioridad para los destinatarios cuando haya varias direcciones disponibles en Adobe Experience Platform. [Más información](primary-email-addresses.md)
 

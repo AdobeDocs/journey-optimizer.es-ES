@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '810'
 ht-degree: 6%
 
 ---
 
-# Introducción a las acciones de canal {#get-started-messages}
+# Introducción a los mensajes {#get-started-messages}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_message"
@@ -61,7 +61,7 @@ Para añadir mensajes en los recorridos, simplemente añada una actividad push, 
 
 1. Seleccione el mensaje **[!UICONTROL Category]**: elija **Marketing** para mensajes comerciales, o **Transaccional** para mensajes no comerciales como confirmación de pedido, notificaciones de restablecimiento de contraseña o información de entrega.
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >Si ha definido [reglas de frecuencia](../configuration/frequency-rules.md) para un canal y categoría específicos, se aplican automáticamente al mensaje al seleccionar ese canal y categoría. Actualmente solo el **[!UICONTROL Marketing]** está disponible para reglas de frecuencia.
 
@@ -73,7 +73,7 @@ Para añadir mensajes en los recorridos, simplemente añada una actividad push, 
 
 1. Seleccione el canal **[!UICONTROL Surface]** (es decir, el ajuste preestablecido de mensaje) que se utiliza para enviar el mensaje.
 
-   Una superficie es una configuración que se ha definido mediante una [Administrador del sistema](../start/path/administrator.md). Contiene todos los parámetros técnicos para enviar el mensaje, como parámetros de encabezado, subdominio, aplicaciones móviles, etc. [Más información](../configuration/message-presets.md).
+   Una superficie es una configuración que se ha definido mediante una [Administrador del sistema](../start/path/administrator.md). Contiene todos los parámetros técnicos para enviar el mensaje, como parámetros de encabezado, subdominio, aplicaciones móviles, etc. [Más información](../configuration/channel-surfaces.md).
 
    >[!CAUTION]
    >
@@ -104,7 +104,7 @@ Para acceder a los parámetros avanzados, haga clic en el botón **[!UICONTROL S
 
 ![](assets/show-read-only.png)
 
-Los parámetros avanzados se muestran en la parte inferior del panel de mensajes. Estos parámetros se definen mediante la variable [administrador del sistema](../start/path/administrator.md) en el [superficie del canal](../configuration/message-presets.md) (es decir, el ajuste preestablecido de mensaje) asociado al mensaje.
+Los parámetros avanzados se muestran en la parte inferior del panel de mensajes. Estos parámetros se definen mediante la variable [administrador del sistema](../start/path/administrator.md) en el [superficie del canal](../configuration/channel-surfaces.md) (es decir, el ajuste preestablecido de mensaje) asociado al mensaje.
 
 Para las notificaciones push, puede mostrar los siguientes parámetros: Token, AppID, AppPlatform.
 
@@ -155,7 +155,7 @@ Para ello, siga los pasos a continuación:
 >
 >En el caso de los correos electrónicos, también puede convertir un mensaje existente en una plantilla. [Más información](../design/email-templates.md).
 
-## Eliminar un mensaje
+## Eliminar un mensaje{#delete-message}
 
 Para eliminar un mensaje, utilice el icono de papelera en la parte superior del panel de actividad de acción del canal.
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '744'
 ht-degree: 4%
 
 ---
@@ -67,6 +67,7 @@ Las protecciones de rendimiento y los límites estáticos para la gestión de de
 ### Eventos {#events-g}
 
 * En el caso de los eventos generados por el sistema, los datos de flujo utilizados para iniciar un recorrido de cliente deben configurarse primero en Journey Optimizer para obtener un ID de organización único. Este ID de organización debe añadirse a la carga útil de flujo continuo que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
+* Los eventos comerciales no se pueden usar junto con eventos unitarios o actividades de calificación de segmentos.
 
 ### Fuentes de datos {#data-sources-g}
 

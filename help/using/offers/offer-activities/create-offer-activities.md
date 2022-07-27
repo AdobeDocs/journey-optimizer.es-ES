@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1036'
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
 1. Utilice la variable **[!UICONTROL Eligibility]** para restringir la selección de ofertas para esta ubicación.
 
-   Esta restricción se puede aplicar utilizando una **regla de decisión**, o una o varias **Segmentos de Adobe Experience Platform**. Ambas se detallan en [esta sección](#segments-vs-decision-rules).
+   Esta restricción se puede aplicar utilizando una **regla de decisión**, o una o varias **Segmentos de Adobe Experience Platform**. Ambas se detallan en [esta sección](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
    * Para restringir la selección de ofertas a los miembros de un segmento de Experience Platform, seleccione **[!UICONTROL Segments]** y haga clic en **[!UICONTROL Add segments]**.
 
@@ -87,6 +87,10 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
       ![](../assets/activity_constraint_rule.png)
 
       Obtenga información sobre cómo crear una regla de decisión en [esta sección](../offer-library/creating-decision-rules.md).
+
+      >[!NOTE]
+      >
+      >Al seleccionar segmentos o reglas de decisión, se muestra información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Refresh]** para actualizar los datos.
 
 1. Defina el método de clasificación que desea utilizar para seleccionar la mejor oferta para cada perfil.
 
@@ -117,26 +121,6 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 1. Para añadir otra ubicación a las ofertas como parte de esta decisión, use el **[!UICONTROL New scope]** botón. Repita los pasos anteriores para cada ámbito de decisión.
 
    ![](../assets/activity_new-scope.png)
-
-### Uso de segmentos frente a reglas de decisión {#segments-vs-decision-rules}
-
-<!--to move to create-offers?-->
-
-Para aplicar una restricción, puede restringir la selección de ofertas a los miembros de una o varias **Segmentos de Adobe Experience Platform** o puede usar un **regla de decisión**, ambas soluciones corresponden a diferentes usos.
-
-Básicamente, el resultado de un segmento es una lista de perfiles, mientras que una regla de decisión es una función ejecutada bajo demanda contra un solo perfil durante el proceso de toma de decisiones. A continuación se detalla la diferencia entre estos dos usos.
-
-* **Segmentos**
-
-   Por un lado, los segmentos son un grupo de perfiles de Adobe Experience Platform que coinciden con una lógica determinada basada en atributos de perfil y eventos de experiencia. Sin embargo, Administración de ofertas no vuelve a calcular el segmento, el cual puede no estar actualizado al presentar la oferta.
-
-   Obtenga más información sobre los segmentos en [esta sección](../../segment/about-segments.md).
-
-* **Reglas de decisión**
-
-   Por otro lado, una regla de decisión se basa en los datos disponibles en Adobe Experience Platform y determina a quién se puede mostrar una oferta. Una vez seleccionada en una oferta o una decisión para una ubicación determinada, la regla se ejecuta cada vez que se toma una decisión, lo que garantiza que cada perfil obtenga la oferta más reciente y la mejor.
-
-   Obtenga más información sobre las reglas de decisión en [esta sección](../offer-library/creating-decision-rules.md).
 
 ## Añadir una oferta de reserva {#add-fallback}
 

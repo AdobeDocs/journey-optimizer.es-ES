@@ -4,7 +4,7 @@ description: Aprenda a configurar su entorno para enviar mensajes SMS con Journe
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 8%
@@ -84,7 +84,7 @@ Para crear una superficie de canal, siga estos pasos:
 
    >[!NOTE]
    >
-   >Si las comprobaciones no son correctas, obtenga más información sobre los posibles motivos de error en [esta sección](#monitor-message-presets).
+   >Si las comprobaciones no son correctas, obtenga más información sobre los posibles motivos de error en [esta sección](#monitor-channel-surfaces).
 
 1. Una vez realizadas las comprobaciones, la superficie del canal recibe el **[!UICONTROL Active]** estado. Está listo para utilizarse para enviar mensajes.
 

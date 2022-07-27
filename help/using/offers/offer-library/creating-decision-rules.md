@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 15%
+source-wordcount: '288'
+ht-degree: 14%
 
 ---
 
@@ -35,13 +35,17 @@ Para crear una regla de decisión, siga estos pasos:
 
    Para ello, el **Generador de segmentos** está disponible para ayudarle a crear las condiciones de la regla. [Más información](../../segment/about-segments.md)
 
-   En este ejemplo, la regla se dirigirá a los clientes que tengan el nivel de lealtad &quot;Oro&quot;.
+   <!--In this example, the rule will target customers that have the "Gold" loyalty level.-->
 
    ![](../assets/offers_decision_rule_creation_segment.png)
 
    >[!NOTE]
    >
-   >El Generador de segmentos proporcionado para crear reglas de decisión presenta algunas características específicas en comparación con la que se usa con la variable **[!UICONTROL Audience Destinations]** servicio. Por ejemplo, la variable **[!UICONTROL Segments]** no está disponible para usar. Sin embargo, el proceso global descrito en la documentación del Generador de segmentos sigue siendo válido para generar reglas de decisiones de ofertas.
+   >El Generador de segmentos proporcionado para crear reglas de decisión presenta algunas características específicas en comparación con la que se usa con la variable **[!UICONTROL Audience Destinations]** servicio. Por ejemplo, la variable **[!UICONTROL Segments]** no está disponible para usar. Sin embargo, el proceso global descrito en el [Generador de segmentos](../../segment/about-segments.md) la documentación sigue siendo válida para crear reglas de decisiones de ofertas. Obtenga más información en la [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+
+1. Al añadir y configurar nuevos campos en el espacio de trabajo, la variable **[!UICONTROL Segment properties]** muestra información sobre los perfiles estimados que pertenecen al segmento. Haga clic en **[!UICONTROL Refresh estimate]** para actualizar los datos.
+
+   ![](../assets/offers_decision_rule_creation_estimate.png)
 
 1. Haga clic en **[!UICONTROL Save]** para confirmar.
 

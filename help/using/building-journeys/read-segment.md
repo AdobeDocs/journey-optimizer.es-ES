@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 8%
+source-wordcount: '1140'
+ht-degree: 7%
 
 ---
 
@@ -82,7 +82,7 @@ Los pasos para configurar la actividad Leer segmento son los siguientes:
 
    ![](assets/read-segment-schedule-list.png)
 
-   La variable **Lectura incremental** permite dirigirse únicamente a las personas que han introducido el segmento desde la última ejecución del recorrido. La primera ejecución siempre se dirige a todos los miembros del segmento. Esta opción solo está disponible para los **Leer segmento** actividades.
+   **Lectura incremental** opción: cuando un recorrido con un **Leer segmento** se ejecuta por primera vez, todos los perfiles del segmento se incorporan al recorrido. En la siguiente incidencia, todos los perfiles entran de nuevo en el recorrido, incluso si ya estaban dentro. La instancia antigua del perfil en el recorrido se detiene y se crea una nueva. La variable **Lectura incremental** le permite dirigirse, después de la primera vez que se produzca, a las personas que ingresaron al segmento desde la última ejecución del recorrido.
 
 <!--
 

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 3%
@@ -50,7 +50,7 @@ Para crear un grupo de IP, siga estos pasos:
    >
    >Todas las direcciones IP aprovisionadas con su instancia están disponibles en la lista.
 
-El grupo de IP ahora se crea y se muestra en la lista. Puede seleccionarlo para acceder a sus propiedades y mostrar la superficie de canal asociada (es decir, el valor preestablecido de mensaje). Para obtener más información sobre cómo asociar una superficie de canal a un grupo de IP, consulte [esta sección](message-presets.md).
+El grupo de IP ahora se crea y se muestra en la lista. Puede seleccionarlo para acceder a sus propiedades y mostrar la superficie de canal asociada (es decir, el valor preestablecido de mensaje). Para obtener más información sobre cómo asociar una superficie de canal a un grupo de IP, consulte [esta sección](channel-surfaces.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -76,14 +76,14 @@ Para editar un grupo de IP:
 
 1. Guarde los cambios.
 
-La actualización es efectiva de forma inmediata o asincrónica, según el grupo de IP asociado a un [superficie del canal](message-presets.md) o no:
+La actualización es efectiva de forma inmediata o asincrónica, según el grupo de IP asociado a un [superficie del canal](channel-surfaces.md) o no:
 
 * Si el grupo de IP es **not** asociada a cualquier superficie de canal, la actualización es instantánea (**[!UICONTROL Success]** ).
 * Si el grupo IP **es** asociada a una superficie de canal, la actualización puede tardar hasta 3 horas (**[!UICONTROL Processing]** ).
 
 >[!NOTE]
 >
->When [creación de una superficie de canal](message-presets.md#create-message-preset), si selecciona un grupo de IP que se encuentra en edición (**[!UICONTROL Processing]** ) y nunca se ha asociado con el subdominio seleccionado para esa superficie, no se puede continuar con la creación de superficie. [Más información](message-presets.md#subdomains-and-ip-pools)
+>When [creación de una superficie de canal](channel-surfaces.md#create-channel-surface), si selecciona un grupo de IP que se encuentra en edición (**[!UICONTROL Processing]** ) y nunca se ha asociado con el subdominio seleccionado para esa superficie, no se puede continuar con la creación de superficie. [Más información](channel-surfaces.md#subdomains-and-ip-pools)
 
 Para comprobar el estado de actualización del grupo de IP, haga clic en el botón **[!UICONTROL More actions]** y seleccione **[!UICONTROL Recent updates]**.
 

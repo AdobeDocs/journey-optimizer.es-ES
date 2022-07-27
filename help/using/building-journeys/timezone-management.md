@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '280'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,10 @@ Esta zona horaria se utilizará para todas las actividades del recorrido que con
 * [Condición horaria](../building-journeys/condition-activity.md#time_condition)
 * [Condición de fecha](../building-journeys/condition-activity.md#date_condition)
 * [Espera personalizada](../building-journeys/wait-activity.md#custom)
-* [Fecha de espera fija](../building-journeys/wait-activity.md#fixed_date)
+
+<!--
+* [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
+-->
 
 Puede seleccionar una zona horaria o elegir usar la zona horaria definida en el perfil del usuario.
 
@@ -42,13 +45,9 @@ Para ello, en la sección **[!UICONTROL Journey Properties]** seleccione una zon
 
 ## Utilice perfiles para definir la zona horaria del recorrido {#timezone-from-profiles}
 
-Si el evento de entrada del recorrido tiene un área de nombres, lo que significa que el recorrido puede llegar al servicio Perfil del cliente en tiempo real de Adobe Experience Platform, el huso horario se predefine con el especificado en el perfil del individuo que fluye en el recorrido.
+Si el evento de entrada del recorrido tiene un área de nombres, lo que significa que el recorrido puede llegar al servicio Perfil del cliente en tiempo real de Adobe Experience Platform, es posible que desee utilizar la zona horaria definida a nivel de perfil. Para ello, en **Propiedades**, compruebe **Usar zona horaria del perfil en espera y condiciones**. Esta opción no está activada de forma predeterminada.
 
-Si se define una zona horaria en el perfil de Adobe Experience Platform, se puede recuperar en el recorrido .
-
-Si el perfil de la persona no contiene una zona horaria, la zona horaria recuperada será la definida en el campo de zona horaria.
-
-Para ello, en **[!UICONTROL Properties]**, compruebe **[!UICONTROL Use Profile timezone in waits and conditions]**.
+Si se ha definido una zona horaria para un perfil, el recorrido la recuperará y utilizará. Si no es así, la zona horaria utilizada será la definida en el campo de zona horaria.
 
 ![](assets/journey73.png)
 

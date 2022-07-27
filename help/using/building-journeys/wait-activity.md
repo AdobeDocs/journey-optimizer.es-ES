@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 7%
+source-wordcount: '322'
+ht-degree: 8%
 
 ---
 
@@ -18,15 +18,17 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="Actividad de espera"
->abstract="Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar una actividad Wait . Le permite definir el momento en el que se ejecutará la siguiente actividad. Hay tres opciones disponibles: duración, fecha fija y personalizado."
+>abstract="Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar una actividad Wait . Le permite definir el momento en el que se ejecutará la siguiente actividad. Hay dos opciones disponibles: duración y personalizado."
 
 Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar un **[!UICONTROL Wait]** actividad. Le permite definir el momento en el que se ejecutará la siguiente actividad. Hay tres opciones disponibles:
 
 * [Duración](#duration)
-* [Fecha fija](#fixed_date)
 * [Personalizado](#custom)
 
-<!--* [Email send time optimization](#email_send_time_optimization)-->
+<!--
+* [Email send time optimization](#email_send_time_optimization)
+* [Fixed date](#fixed_date) 
+-->
 
 ## Acerca de la actividad Wait{#about_wait}
 
@@ -40,11 +42,14 @@ Seleccione la duración de la espera antes de la ejecución de la siguiente acti
 
 ![](assets/journey55.png)
 
-## Fecha de espera fija{#fixed_date}
+<!--
+## Fixed date wait{#fixed_date}
 
-Seleccione la fecha para la ejecución de la siguiente actividad.
+Select the date for the execution of the next activity.
 
 ![](assets/journey56.png)
+
+-->
 
 ## Espera personalizada{#custom}
 

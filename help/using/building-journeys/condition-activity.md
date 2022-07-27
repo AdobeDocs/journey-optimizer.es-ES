@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1329'
 ht-degree: 10%
 
 ---
@@ -112,6 +112,10 @@ Esto permite definir un flujo diferente en función de la fecha. Por ejemplo, si
 ## Límite de perfiles {#profile_cap}
 
 Utilice este tipo de condición para establecer un número máximo de perfiles para una ruta de recorrido. Cuando se alcanza este límite, los perfiles que se introducen toman una ruta alternativa. Esto garantiza que los recorridos nunca superen el límite definido.
+
+    >[!NOTE]
+    >
+    >Se recomienda definir un límite de perfil de alto valor. La precisión y la probabilidad de que una población alcance el límite exacto solo aumentan a medida que aumenta el límite máximo. Para números pequeños (por ejemplo, un límite de 50), los números no siempre coinciden, ya que es posible que no se alcance el límite antes de que los perfiles tomen una ruta alternativa.
 
 Puede utilizar este tipo de condición para aumentar el volumen de los envíos. Consulte esta [caso de uso](ramp-up-deliveries-uc.md).
 
