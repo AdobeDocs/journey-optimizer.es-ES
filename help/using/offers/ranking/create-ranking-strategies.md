@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '293'
 ht-degree: 9%
 
 ---
@@ -34,10 +34,10 @@ Para crear un modelo de IA, siga los pasos a continuación:
 
 1. Haga clic en el botón **[!UICONTROL Create AI model]**.
 
-1. Especifique un nombre único y una descripción para el modelo de IA.
+1. Especifique un nombre único y una descripción para el modelo de IA y, a continuación, seleccione el tipo de modelo de IA que desea crear:
 
-   <!--* **[!UICONTROL Auto-optimization]** optimizes offers based on past offer performance. [Learn more](auto-optimization-model.md)
-    * **[!UICONTROL Personalized]** optimizes and personalizes offers based on segments and offer performance. [Learn more](personalized-optimization-model.md)-->
+   * **[!UICONTROL Auto-optimization]** optimiza las ofertas en función del rendimiento de ofertas anteriores. [Más información](auto-optimization-model.md)
+   * **[!UICONTROL Personalized]** optimiza y personaliza las ofertas en función de segmentos y del rendimiento de las ofertas. [Más información](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -60,13 +60,13 @@ Para crear un modelo de IA, siga los pasos a continuación:
    >
    >Solo los conjuntos de datos creados a partir de esquemas asociados con la variable **[!UICONTROL Experience Event - Proposition Interactions]** el grupo de campos (anteriormente conocido como mezcla) se muestra en la lista desplegable.
 
-<!--1. If you are creating a **[!UICONTROL Personalization]** AI model, select the segment(s) to use to train the AI model.
+1. Si está creando un **[!UICONTROL Personalization]** Modelo AI, seleccione los segmentos que se utilizarán para entrenar el modelo AI.
 
-    ![](../assets/ai-ranking-segments.png)
+   ![](../assets/ai-ranking-segments.png)
 
-    >[!NOTE]
-    >
-    >You can select up to 5 segments.-->
+   >[!NOTE]
+   >
+   >Puede seleccionar hasta 5 segmentos.
 
 1. Guarde y active el modelo de IA.
 

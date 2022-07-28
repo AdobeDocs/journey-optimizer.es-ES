@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '310'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,15 @@ Por ejemplo, puede seleccionar un modelo de IA para el canal de correo electrón
 
 ## Tipos de modelos de IA {#ai-model-types}
 
-Por ahora, [!DNL Journey Optimizer]** proporciona un modelo de IA, **Optimización automática**, que optimiza las ofertas en función del rendimiento de ofertas anteriores. La información detallada de este tipo de modelo de IA está disponible en [esta sección](auto-optimization-model.md).
+Hay dos tipos de modelos de IA disponibles en [!DNL Journey Optimizer]:
+
+* **Modelos de optimización automática** tiene como objetivo ofrecer ofertas que maximicen los KPI (return) establecidos por los clientes empresariales. Estos KPI podrían presentar tasas de conversión, ingresos, etc. En este punto, la optimización automática se centra en optimizar los clics de ofertas con la conversión de ofertas como nuestro objetivo. La optimización automática no está personalizada y se optimiza según el rendimiento &quot;global&quot; de las ofertas. [Más información](auto-optimization-model.md)
+
+* **Modelos de personalización** le permite definir los objetivos del negocio y utilizar los datos de los clientes para formar modelos orientados al negocio que ofrezcan ofertas personalizadas y maximicen los KPI. [Más información](personalized-optimization-model.md)
+
+>[!CAUTION]
+>
+>Actualmente, el uso de modelos de Optimización personalizada está disponible en el acceso anticipado solo para usuarios seleccionados.
 
 ## Creación de un modelo de IA {#create-ai-model}
 
