@@ -2,10 +2,10 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 26%
+source-wordcount: '625'
+ht-degree: 24%
 
 ---
 
@@ -93,11 +93,9 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 ### Mejoras
 
-<!--
-**Journeys**
+**Recorridos**
 
-* **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.
--->
+* **Finalización de un recorrido** - En el lienzo del recorrido, la variable **Fin** se ha eliminado de la paleta. Las etiquetas finales ahora se añaden de forma predeterminada al final de cada ruta y no se pueden eliminar. Esta mejora permite generar informes más completos sobre dónde abandonó un cliente el recorrido, sin que el usuario tenga que realizar ninguna acción. [Más información](../building-journeys/journey-end.md)
 
 **Mensajes**
 
