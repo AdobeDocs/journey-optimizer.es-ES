@@ -2,9 +2,9 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
+source-git-commit: 16bda5dcdfdc65f236d814ec02c6222b98a5652f
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '634'
 ht-degree: 24%
 
 ---
@@ -95,7 +95,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 **Recorridos**
 
-* **Finalización de un recorrido** - En el lienzo del recorrido, la variable **Fin** se ha eliminado de la paleta. Las etiquetas finales ahora se añaden de forma predeterminada al final de cada ruta y no se pueden eliminar. Esta mejora permite generar informes más completos sobre dónde abandonó un cliente el recorrido, sin que el usuario tenga que realizar ninguna acción. [Más información](../building-journeys/journey-end.md)
+* **Finalización de un recorrido** - En el lienzo del recorrido, la variable **Fin** se ha eliminado de la paleta. Las etiquetas finales ahora se añaden de forma predeterminada al final de cada ruta y no se pueden eliminar. Esta mejora permite informar mejor sobre dónde abandonó un cliente el recorrido, sin que se requiera ninguna acción por parte del profesional del recorrido. Consulte la [documentación](../building-journeys/journey-end.md) y [vídeo de funciones](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
 
 **Mensajes**
 
