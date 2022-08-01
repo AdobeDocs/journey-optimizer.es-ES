@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: ad3ac3bb34b8ca7a5bf490a7156f88849b77f438
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 3%
+source-wordcount: '765'
+ht-degree: 2%
 
 ---
 
@@ -51,21 +51,21 @@ Puede detener un recorrido solo si se ha producido una emergencia y todo el proc
 >
 >Tenga en cuenta que no puede reanudar un recorrido cerrado o detenido.
 
-<!--
+### Recorrido final{#end-tag}
 
-### Journey end tag{#end-tag}
-
-While authoring a journey, an "end node" is displayed at the end of each path. This node cannot be added by a user, cannot be removed and only its label can be changed. It marks the end of each path of the journey. If the journey has several paths, we recommend that you add a label to each end to make reports easier to read. See [this page](../reports/live-report.md).
+Durante la creación de un recorrido, se muestra un &quot;nodo final&quot; al final de cada ruta. Un usuario no puede agregar este nodo, no se puede eliminar y solo se puede cambiar su etiqueta. Marca el final de cada ruta del recorrido. Si el recorrido tiene varias rutas, le recomendamos que agregue una etiqueta a cada extremo para facilitar la lectura de los informes. Consulte [esta página](../reports/live-report.md).
 
 ![](assets/journey-end.png)
 
--->
+<!--
 
-### Actividad final{#journey-end-activity}
+### End activity{#journey-end-activity}
 
-La variable **[!UICONTROL End]** actividad le permite marcar el final de cada ruta del recorrido. No es obligatorio, pero se recomienda para la claridad visual. Consulte [esta página](../building-journeys/end-activity.md)
+The **[!UICONTROL End]** activity allows you to mark the end of each path of the journey. It is not mandatory but recommended for visual clarity. See [this page](../building-journeys/end-activity.md)
 
 ![](assets/journey54.png)
+
+-->
 
 ### Cierre de un recorrido{#close-journey}
 
