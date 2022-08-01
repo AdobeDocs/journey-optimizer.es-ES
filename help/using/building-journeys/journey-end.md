@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: 7f6bbcb40dd07ae4d8013653f89b03c80df961dc
+source-git-commit: d740b9efdba164f548fb07d6d9a96fc2c2796eff
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 2%
@@ -53,7 +53,7 @@ Puede detener un recorrido solo si se ha producido una emergencia y todo el proc
 
 ### Recorrido final{#end-tag}
 
-Durante la creación de un recorrido, se muestra un &quot;cuadro final&quot; al final de cada ruta. Un usuario no puede agregar este nodo, no se puede eliminar y solo se puede cambiar su etiqueta. Marca el final de cada ruta del recorrido. Si el recorrido tiene varias rutas, le recomendamos que agregue una etiqueta a cada extremo para facilitar la lectura de los informes. Consulte [esta página](../reports/live-report.md).
+Durante la creación de un recorrido, se muestra una &quot;etiqueta final&quot; al final de cada ruta. Un usuario no puede agregar este nodo, no se puede eliminar y solo se puede cambiar su etiqueta. Marca el final de cada ruta del recorrido. Si el recorrido tiene varias rutas, le recomendamos que agregue una etiqueta a cada extremo para facilitar la lectura de los informes. Consulte [esta página](../reports/live-report.md).
 
 ![](assets/journey-end.png)
 
