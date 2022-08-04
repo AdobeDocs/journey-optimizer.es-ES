@@ -8,9 +8,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+source-git-commit: b56df2c22f041114805e10fee7156855c2cbbfa9
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1540'
 ht-degree: 4%
 
 ---
@@ -41,7 +41,7 @@ La variable **[!UICONTROL Campaign's Statistics]** La utilidad detalla la inform
 
 * **[!UICONTROL Actions failed in %]**: Número total de veces que una acción ha fallado en el recorrido en comparación con la cantidad total de veces que se ha entregado una acción.
 
-### Objetivos (#Objectives-global)
+### Objetivos {#objectives-global}
 
 >[!AVAILABILITY]
 >
@@ -59,7 +59,7 @@ Con la variable **[!UICONTROL Campaign objective]** , también puede elegir comp
 
 Tenga en cuenta que cada utilidad se puede cambiar de tamaño y eliminar si es necesario. Para obtener más información, consulte [sección](../reports/global-report.md#modify-dashboard).
 
-### Experimento (#Experimation-global)
+### Experimento {#experimentation-global}
 
 >[!AVAILABILITY]
 >
