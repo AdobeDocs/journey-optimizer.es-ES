@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1601'
 ht-degree: 2%
 
 ---
@@ -40,10 +40,6 @@ Las restricciones permiten definir las condiciones en las que se mostrará una o
 1. Configure las variables **[!UICONTROL Offer eligibility]**. [Más información](#eligibility)
 
    ![](../assets/offer-eligibility.png)
-
-   >[!NOTE]
-   >
-   >Al seleccionar segmentos o reglas de decisión, se muestra información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Refresh]** para actualizar los datos.
 
 1. Defina el **[!UICONTROL Priority]** de la oferta comparada con otras si el usuario cumple los requisitos para más de una oferta. Cuanto mayor sea la prioridad de una oferta, mayor será su prioridad en comparación con otras ofertas.
 
@@ -99,6 +95,10 @@ La variable **[!UICONTROL Offer eligibility]** le permite restringir la oferta a
    >[!CAUTION]
    >
    >Actualmente, las ofertas basadas en eventos no son compatibles con [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, no podrá aprovecharlo en una oferta.
+
+Al seleccionar segmentos o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Refresh]** para actualizar los datos.
+
+![](../assets/offer-eligibility-segment-estimate.png)
 
 ### Uso de segmentos frente a reglas de decisión {#segments-vs-decision-rules}
 

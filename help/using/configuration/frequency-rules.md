@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 5%
+source-wordcount: '827'
+ht-degree: 3%
 
 ---
 
@@ -128,19 +128,11 @@ Para aplicar una regla de frecuencia a un mensaje, siga los pasos a continuació
 
 1. Todas las reglas de frecuencia que coincidan con la categoría y los canales seleccionados se aplicarán automáticamente a este mensaje.
 
-1. Puede hacer clic en el vínculo **[!UICONTROL Frequency rule]** para ver las reglas de frecuencia que se aplicarán a la categoría y a los canales seleccionados. 
+   >[!NOTE]
+   >
+   >Mensajes <!--that do not have any selected category or messages -->donde la categoría seleccionada es **[!UICONTROL Transactional]** no se evaluará según las reglas de frecuencia.
 
-   ![](assets/message-rules-msg-link.png)
-
-   Se abrirá una nueva pestaña para mostrar las reglas de frecuencia de mensaje coincidentes.
-
-Todas las reglas de frecuencia que coincidan con la categoría y los canales seleccionados se aplicarán automáticamente a este mensaje.
-
->[!NOTE]
->
->Mensajes <!--that do not have any selected category or messages -->donde la categoría seleccionada es **[!UICONTROL Transactional]** no se evaluará según las reglas de frecuencia.
-
-<!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
+   <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 1. Puede ver el número de perfiles excluidos del envío en la [Informe global](../reports/global-report.md)y en la [Informe activo](../reports/live-report.md), donde las reglas de frecuencia se enumerarán como un posible motivo para los usuarios excluidos del envío.
 

@@ -2,9 +2,9 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 16bda5dcdfdc65f236d814ec02c6222b98a5652f
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '633'
 ht-degree: 24%
 
 ---
@@ -109,7 +109,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 * **actualización de la lógica de lista de permitidos** - Ahora la lógica de lista de permitidos se aplica en cuanto la función está habilitada, incluso si la lista está vacía. [Más información](../configuration/allow-list.md#logic)
 
-* **Parámetros de seguimiento de URL** - Ahora puede utilizar el Editor de expresiones para configurar los parámetros de seguimiento de URL en sus superficies de correo electrónico (es decir, ajustes preestablecidos de mensajes). [Más información](../configuration/email-settings.md#url-tracking)
+* **Parámetros de seguimiento de URL** - Ahora puede utilizar el Editor de expresiones para configurar los parámetros de seguimiento de URL en sus superficies de correo electrónico (es decir, ajustes preestablecidos). [Más información](../configuration/email-settings.md#url-tracking)
 
 **Offer Decisioning**
 

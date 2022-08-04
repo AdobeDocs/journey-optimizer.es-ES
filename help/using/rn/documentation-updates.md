@@ -2,10 +2,10 @@
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 93%
+source-wordcount: '1772'
+ht-degree: 91%
 
 ---
 
@@ -13,11 +13,17 @@ ht-degree: 93%
 
 Esta página enumera todas las actualizaciones de documentación de [!DNL Journey Optimizer].
 
+## Agosto de 2022 {#august-2022}
+
+* La sección de reglas de frecuencia se ha actualizado para reflejar el nuevo flujo de mensajería en línea. [Más información](../configuration/frequency-rules.md#apply-frequency-rule)
+* Ahora se hace referencia a un vídeo que muestra cómo configurar suscripciones y crear páginas de aterrizaje en la sección Introducción a las páginas de aterrizaje . [Más información](../landing-pages/get-started-lp.md#video)
+
 ## Julio de 2022 {#july-2022}
 
 * Todas las nuevas funciones y mejoras incluidas [!DNL Journey Optimizer] La versión del 22 de julio se ha detallado en la documentación. [Más información](release-notes.md)
 * La variable **Configuración de superficies de canal** se ha aclarado y actualizado con vínculos a la página que describe cómo configurar el canal SMS. [Más información](../configuration/channel-surfaces.md#create-channel-surface)
 * En las propiedades del recorrido, la variable **Zona horaria del perfil** ahora está desactivada de forma predeterminada. [Más información](../building-journeys/timezone-management.md#timezone-from-profiles)
+
 * En el **Espera** actividad, **Fecha fija** ya no está disponible. [Más información](../building-journeys/wait-activity.md)
 * Se ha añadido más información sobre la variable **Lectura incremental** en la **Leer segmento** actividad. [Más información](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Se han añadido recomendaciones sobre la variable **Límite de perfiles** tipo de condición. [Más información](../building-journeys/condition-activity.md#profile_cap)

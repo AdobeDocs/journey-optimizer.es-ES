@@ -1,23 +1,25 @@
 ---
-title: Introducción a las páginas de destino
+title: Introducción a las páginas de aterrizaje
 description: Obtenga información sobre las páginas de aterrizaje en Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 11%
+source-wordcount: '198'
+ht-degree: 8%
 
 ---
 
-# Introducción a las páginas de destino {#get-sarted-lp}
+# Introducción a las páginas de aterrizaje {#get-sarted-lp}
 
 Una página de aterrizaje es una página web independiente a la que se dirige a un usuario después de hacer clic desde un correo electrónico, un sitio web, un anuncio o cualquier otra ubicación digital.
 
 [!DNL Journey Optimizer] le permite crear y diseñar páginas de aterrizaje para dirigir a los usuarios a formularios en línea, donde pueden optar por recibir o rechazar la recepción de comunicaciones, o suscribirse a un servicio específico, como un boletín informativo.
+
+➡️ [Obtenga más información sobre la configuración de suscripciones y la creación de páginas de aterrizaje en este vídeo](#video)
 
 * Aprovechar [!DNL Journey Optimizer] capacidades de diseño de contenido para crear fácilmente **páginas de aterrizaje adaptables**.
 * Configuración **flujos de inclusión y exclusión** rápida y sin problemas.
@@ -34,8 +36,8 @@ Una página de aterrizaje es una página web independiente a la que se dirige a 
 </tr>
 </table>
 
-<!--
+## Vídeo explicativo{#video}
 
-<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Use cases</a></p></td>
+El siguiente vídeo muestra cómo crear una lista de suscripción, configurar páginas de aterrizaje para ofrecer suscripciones a un servicio o cancelar su suscripción, integrar la opción de suscripción a un mensaje y configurar los recorridos relevantes.
 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1050'
 ht-degree: 2%
 
 ---
@@ -88,9 +88,9 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
       Obtenga información sobre cómo crear una regla de decisión en [esta sección](../offer-library/creating-decision-rules.md).
 
-      >[!NOTE]
-      >
-      >Al seleccionar segmentos o reglas de decisión, se muestra información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Refresh]** para actualizar los datos.
+1. Al seleccionar segmentos o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Refresh]** para actualizar los datos.
+
+   ![](../assets/activity_constraint-estimate.png)
 
 1. Defina el método de clasificación que desea utilizar para seleccionar la mejor oferta para cada perfil.
 
@@ -142,7 +142,7 @@ Si todo está configurado correctamente, se muestra un resumen de las propiedade
 
    ![](../assets/review-decision.png)
 
-   Puede expandir o contraer cada ubicación. También puede obtener una vista previa de las ofertas disponibles, los requisitos y los detalles de clasificación de cada ubicación.
+1. Puede expandir o contraer cada ubicación. Puede obtener una vista previa de las ofertas disponibles, los requisitos y los detalles de clasificación de cada ubicación. También puede mostrar información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Refresh]** para actualizar los datos.
 
    ![](../assets/review-decision-details.png)
 

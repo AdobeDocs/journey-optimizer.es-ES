@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -192,9 +192,13 @@ Para configurar un parámetro de seguimiento de URL, puede introducir directamen
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-También puede editar cada **[!UICONTROL Value]** utilizando la variable [Editor de expresiones](../personalization/personalization-build-expressions.md). Haga clic en el icono de edición para abrir el Editor de expresiones. Desde allí, puede seleccionar los atributos contextuales de su elección o editar directamente el texto.
+También puede editar cada **[!UICONTROL Value]** utilizando la variable [Editor de expresiones](../personalization/personalization-build-expressions.md). Haga clic en el icono de edición para abrir el editor. Desde allí, puede seleccionar los atributos contextuales de su elección o editar directamente el texto.
 
 ![](assets/preset-url-tracking-editor.png)
+
+>[!NOTE]
+>
+>Puede combinar la escritura de valores de texto y el uso de atributos contextuales desde el Editor de expresiones. Cada **[!UICONTROL Value]** puede contener hasta 255 caracteres en total.
 
 <!--You can drag and drop the parameters to reorder them.-->
 
@@ -203,10 +207,6 @@ A continuación se muestran ejemplos de URL compatibles con Adobe Analytics y Go
 * URL compatible con Adobe Analytics: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
 * URL compatible con Google Analytics: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
-
->[!NOTE]
->
->Puede combinar la escritura de valores de texto y el uso de atributos contextuales desde el Editor de expresiones. Cada **[!UICONTROL Value]** puede contener hasta 255 caracteres en total.
 
 Puede obtener una vista previa dinámica de la URL de seguimiento resultante. Cada vez que se añade, edita o elimina un parámetro, la vista previa se actualiza automáticamente.
 
