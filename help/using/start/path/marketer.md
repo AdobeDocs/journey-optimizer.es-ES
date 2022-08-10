@@ -3,9 +3,9 @@ title: Introducción a Journey Optimizer para especialistas en marketing
 description: Como Recorrido practicante, obtenga más información sobre cómo trabajar con Journey Optimizer
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '447'
 ht-degree: 8%
 
 ---
@@ -36,7 +36,7 @@ Consulte las secciones siguientes para configurar el primer recorrido, añadir o
 
    * Aprovechar **datos contextuales** desde eventos, información de Adobe Experience Platform o datos de servicios API de terceros.
 
-   * Utilice la variable **acción de canal integrada** para enviar mensajes diseñados en [!DNL Journey Optimizer] o crear **acciones personalizadas** si utiliza un sistema de terceros para enviar mensajes.
+   * Utilice la variable **acciones de canal integradas** (Correo electrónico, SMS, push) para enviar mensajes diseñados en [!DNL Journey Optimizer] o crear **acciones personalizadas** si utiliza un sistema de terceros para enviar mensajes.
 
    * Con la variable **diseñador de recorridos**, cree sus casos de uso de varios pasos: arrastre y suelte fácilmente un evento de entrada o una actividad de segmento de lectura, añada condiciones y envíe mensajes personalizados.
 

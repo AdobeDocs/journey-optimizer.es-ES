@@ -69,7 +69,7 @@ En la versión de Android, solo puede agregar un icono de imagen y una imagen pa
 
 ![](assets/push-config-add-media.png)
 
-Hay dos opciones disponibles. Puede:
+Hay dos opciones disponibles. Puede hacer lo siguiente:
 
 * Utilice la variable **[!UICONTROL Add media]** para seleccionar un recurso en **[!DNL Adobe Experience Manager Assets Essentials]**.
 

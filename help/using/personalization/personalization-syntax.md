@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '704'
 ht-degree: 10%
 
 ---
@@ -121,7 +121,7 @@ Un asistente de Handlebars es un identificador simple que puede ir seguido de pa
 Cada parámetro es una expresión Handlebars. Se puede acceder a estos asistentes desde cualquier contexto en una plantilla.
 
 Estos ayudantes de bloque se identifican con un # que precede al nombre del ayudante y requieren un / de cierre coincidente, del mismo nombre.
-Los bloques son expresiones que tienen una apertura de bloque ({{# }}) y cierre ({/}}).
+Los bloques son expresiones que tienen una apertura de bloque ({{# }}) and closing ({{/}}).
 
 
 >[!NOTE]

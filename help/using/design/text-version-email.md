@@ -5,13 +5,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
 
 ---
-
 
 # Creación de la versión de texto de un correo electrónico {#text-version-email}
 

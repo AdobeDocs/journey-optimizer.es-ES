@@ -1,5 +1,5 @@
 ---
-title: Administración de entornos limitados
+title: Administración de zonas protegidas
 description: Obtenga información sobre cómo administrar entornos limitados
 feature: Sandboxes
 topic: Administration
@@ -13,7 +13,7 @@ ht-degree: 64%
 
 ---
 
-# Administración de entornos limitados {#sandboxes}
+# Administración de zonas protegidas {#sandboxes}
 
 ## Usar entornos limitados {#using-sandbox}
 

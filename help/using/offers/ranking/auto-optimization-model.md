@@ -6,7 +6,8 @@ description: Obtenga más información sobre los modelos de optimización autom�
 feature: Ranking Formulas
 role: User
 level: Intermediate
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
+source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
 workflow-type: tm+mt
 source-wordcount: '1404'
 ht-degree: 0%

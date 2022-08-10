@@ -5,7 +5,8 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
+source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 2%

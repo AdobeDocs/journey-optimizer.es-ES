@@ -26,7 +26,7 @@ La variable **[!UICONTROL Status]** proporciona información sobre el proceso de
 * **[!UICONTROL Success]**: El subdominio ha pasado por las comprobaciones correctamente y puede utilizarse para enviar mensajes,
 * **[!UICONTROL Failed]**: Una o varias comprobaciones han fallado después de enviar la delegación de subdominios.
 
-Para acceder a información detallada sobre un subdominio, ábralo desde la lista. Puede:
+Para acceder a información detallada sobre un subdominio, ábralo desde la lista. Puede hacer lo siguiente:
 
 * Recupere el nombre de subdominio (solo lectura) configurado durante el proceso de delegación, así como las direcciones URL generadas (recursos, páginas espejo, URL de seguimiento).
 

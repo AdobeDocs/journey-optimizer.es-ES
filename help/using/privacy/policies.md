@@ -4,8 +4,9 @@ description: Obtenga más información sobre las políticas de uso de datos y el
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: 771828da23ab0656fc5726845305fe6949620545
-workflow-type: ht
+exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
+source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 100%
 

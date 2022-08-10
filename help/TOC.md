@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 94%
       + [Introducción al experimento de contenido](using/campaigns/get-started-experiment.md)
       + [Creación de un experimento de contenido](using/campaigns/content-experiment.md)
       + [Comprender los cálculos estadísticos](using/campaigns/experiment-calculations.md)
-   + [Déclencheur de campañas mediante API](using/campaigns/api-triggered-campaigns.md)
+   + [Activación de campañas mediante API](using/campaigns/api-triggered-campaigns.md)
    + Informes {#reports}
       + [Informe en directo de la campaña](using/campaigns/campaign-live-report.md)
       + [Informe global de la campaña](using/campaigns/campaign-global-report.md)
@@ -90,8 +90,8 @@ ht-degree: 94%
    + [Contextos de personalización](using/personalization/personalization-contexts.md)
    + Expresiones de compilación {#build-expressions}
       + [Sintaxis de personalización](using/personalization/personalization-syntax.md)
-      + Trabajar con el editor de expresiones {#expression-editor}
-         + [Acerca del editor de expresiones](using/personalization/personalization-build-expressions.md)
+      + Trabajo con el Editor de expresiones {#expression-editor}
+         + [Acerca del Editor de expresiones](using/personalization/personalization-build-expressions.md)
          + [Adición de atributos a favoritos](using/personalization/personalization-favorites.md)
          + [Uso de expresiones guardadas](using/personalization/personalization-library.md)
          + [Validación de personalización](using/personalization/personalization-validation.md)
@@ -354,8 +354,8 @@ ht-degree: 94%
          + [Crear una decisión](using/offers/api-reference/activities-api/activities/create.md)
          + [Actualizar una decisión](using/offers/api-reference/activities-api/activities/update.md)
          + [Eliminar una decisión](using/offers/api-reference/activities-api/activities/delete.md)
-      + Enviar ofertas mediante API {#offer-delivery-api}
-         + [Introducción a las API de envío de ofertas](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+      + Entrega de ofertas mediante API {#offer-delivery-api}
+         + [Introducción a las API de entrega de ofertas](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
          + [API de decisiones](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [API de Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [API de decisiones por lotes](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)

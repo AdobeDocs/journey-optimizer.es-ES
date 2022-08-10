@@ -5,7 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%

@@ -1,5 +1,5 @@
 ---
-title: Información clave sobre eventos de Administración de decisiones
+title: Información clave sobre eventos de Gestión de decisiones
 description: Obtenga más información sobre la información clave enviada con cada evento de Administración de decisiones.
 feature: Offers
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 85%
 
 ---
 
-# Información clave sobre eventos de Administración de decisiones {#events-key-information}
+# Información clave sobre eventos de Gestión de decisiones {#events-key-information}
 
 Cada evento que se envía cuando se toma una decisión contiene cuatro puntos de datos clave que puede aprovechar para realizar análisis e informes.
 

@@ -44,7 +44,7 @@ En la pantalla de actividad Conjunto de datos, seleccione **Vista previa del con
 
 Para crear un nuevo conjunto de datos, comience seleccionando **Crear conjunto de datos** en el tablero Conjuntos de datos .
 
-Puede:
+Puede hacer lo siguiente:
 
 * Crear conjunto de datos a partir del esquema. [Obtenga más información en esta documentación](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target=&quot;_blank&quot;}
 * Cree un conjunto de datos a partir del archivo CSV. [Obtenga más información en esta documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=es){target=&quot;_blank&quot;}

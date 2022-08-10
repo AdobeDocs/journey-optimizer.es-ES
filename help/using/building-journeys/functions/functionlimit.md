@@ -5,10 +5,11 @@ description: Obtenga información sobre el límite de funciones
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
+exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
+source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -88,4 +89,3 @@ Devuelve `["A","B","C"]`.
 `limit(["A", "B", "C", "D", "E"], 3, false)`
 
 Devuelve `["C","D","E"]`.
-

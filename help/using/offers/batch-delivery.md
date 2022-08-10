@@ -1,13 +1,13 @@
 ---
 title: Decisiones por lotes
 description: Obtenga información sobre cómo ofrecer decisiones de oferta a todos los perfiles de un segmento de Adobe Experience Platform determinado.
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
+source-git-commit: f3f38e7db95bd1a6dc41b1626177c800280fb71c
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
-
 
 # Decisiones por lotes {#deliver}
 

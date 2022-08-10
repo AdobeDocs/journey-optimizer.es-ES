@@ -1,5 +1,5 @@
 ---
-title: Acerca del editor de expresiones
+title: Acerca del Editor de expresiones
 description: Aprenda a trabajar con el editor de expresiones.
 feature: Personalization
 topic: Personalization
@@ -9,15 +9,15 @@ exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
-# Acerca del editor de expresiones {#build-personalization-expressions}
+# Acerca del Editor de expresiones {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
->title="Acerca del editor de expresiones"
+>title="Acerca del Editor de expresiones"
 >abstract="El editor de expresiones permite seleccionar, organizar, personalizar y validar todos los datos para crear una personalización personalizada del contenido."
 
 El editor de expresiones es la parte central de la personalización en [!DNL Journey Optimizer]. Está disponible en todos los contextos en los que es necesario definir la personalización como correos electrónicos, mensajes push y ofertas.

@@ -8,7 +8,7 @@ exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,14 +41,14 @@ La siguiente tabla indica qué acciones sobre qué recursos de Journey Optimizer
 | Ajuste preestablecido de página de aterrizaje de AJO | Creación/eliminación/actualización |
 | Subdominio de página de aterrizaje de AJO | Creación/eliminación/actualización |
 | Mensaje de AJO | Creación/eliminación/actualización/publicación |
-| Superficie de canal AJO | Creación/eliminación/actualización |
+| Superficie de canal de AJO | Creación/eliminación/actualización |
 | Registro de PTR de AJO | Creación/eliminación/actualización |
 | Plantilla de expresión guardada de AJO | Creación/eliminación/actualización |
 | Credenciales de API de SMS de AJO | Creación/eliminación/actualización |
 | Subdominio de AJO | Creación/eliminación/actualización |
 | Lista de supresión de AJO | Creación/eliminación/descarga de CSV |
 | Grupo de campos | Creación/eliminación/actualización |
-|  Recorrido  | Crear/eliminar/detener/publicar |
+|  Recorrido  | Creación/eliminación/detención/publicación |
 | Acción personalizada de recorrido | Creación/eliminación/actualización |
 | Fuente de datos de recorrido | Creación/eliminación/actualización |
 | Evento de recorrido | Creación/eliminación/actualización |

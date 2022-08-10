@@ -1,5 +1,5 @@
 ---
-title: Integración con Adobe Campaign v7/v8
+title: Integración con las versiones 7 y 8 de Adobe Campaign
 description: Aprenda a integrar con Adobe Campaign v7/v8
 feature: Actions
 topic: Administration
@@ -13,7 +13,7 @@ ht-degree: 7%
 
 ---
 
-# Integración con Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
+# Integración con las versiones 7 y 8 de Adobe Campaign {#integrating-with-adobe-campaign-classic}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"

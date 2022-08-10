@@ -9,7 +9,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 6%
+ht-degree: 27%
 
 ---
 
@@ -28,9 +28,9 @@ También puede configurar acciones específicas para enviarle mensajes:
 
 Para añadir un mensaje en un recorrido, siga los pasos a continuación:
 
-1. Inicie el recorrido con un [Evento](general-events.md) o [Leer segmento](read-segment.md) actividad.
+1. Inicie el recorrido con un [Evento](general-events.md) o una actividad [Leer segmento](read-segment.md).
 
-1. En el **Acciones** de la paleta, arrastre y suelte una **email**, un **SMS** o **Push** actividad en el lienzo.
+1. En la sección **Acciones** de la paleta, arrastre y suelte una actividad de **correo electrónico**, **SMS** o **push** en el lienzo.
 
    ![](../messages/assets/add-a-message.png)
 

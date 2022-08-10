@@ -9,7 +9,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -75,7 +75,7 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
 >[!NOTE]
 >
->Los mensajes de correo electrónico de tipo de marketing deben incluir un [vínculo de no participación](../messages/consent.md#opt-out-management), que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transactional]**) se define en la variable [superficie del canal](../configuration/channel-surfaces.md#email-type) (es decir, ajuste preestablecido de mensaje) y cuándo [creación del mensaje](../messages/get-started-content.md#create-new-message).
+>Los mensajes de correo electrónico de tipo de marketing deben incluir un [vínculo de no participación](../messages/consent.md#opt-out-management), que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transactional]**) se define en la [superficie de canal](../configuration/channel-surfaces.md#email-type) (es decir, nivel de ajuste preestablecido de mensaje) y durante la [creación del mensaje](../messages/get-started-content.md#create-new-message).
 
 ## Vínculo a una página espejo {#mirror-page}
 

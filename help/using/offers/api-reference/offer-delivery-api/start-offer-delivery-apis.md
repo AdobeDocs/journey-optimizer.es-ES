@@ -1,5 +1,5 @@
 ---
-title: Introducción a las API de envío de ofertas
+title: Introducción a las API de entrega de ofertas
 description: Obtenga más información sobre las API disponibles para ofrecer ofertas personalizadas.
 feature: Offers
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# Introducción a las API de envío de ofertas {#about-decisioning-apis}
+# Introducción a las API de entrega de ofertas {#about-decisioning-apis}
 
 Puede enviar ofertas utilizando la variable **Decisioning** o **Edge Decisioning** API. Además, la variable **Decisión por lotes** La API le permite entregar ofertas a todos los perfiles de un segmento determinado en una llamada. El contenido de la oferta para cada perfil del segmento se coloca en un conjunto de datos de Adobe Experience Platform donde está disponible para flujos de trabajo por lotes personalizados.
 

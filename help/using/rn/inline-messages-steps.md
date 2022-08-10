@@ -1,17 +1,17 @@
 ---
 title: Pasos para migrar a la creación en línea de recorrido
 description: Pasos para migrar a la creación en línea de recorrido
-source-git-commit: f98ef26fa9c6075c852d33d19c796351296a3f94
+exl-id: 8412a0bd-674c-4d6a-aa5b-443655d2943a
+source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
 workflow-type: tm+mt
 source-wordcount: '1048'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-
 # Pasos de migración de creación en línea{#migration-steps}
 
-El nuevo proceso de creación de contenido en Adobe Journey Optimizer se describe en esta [página](../rn/inline-messages.md). Se realiza una conversión automática de recorridos. Dicho esto, necesitamos su ayuda con algunos pasos.
+El nuevo proceso de creación de contenido en Adobe Journey Optimizer se describe en esta [página](../rn/inline-messages.md). Se ejecuta una conversión automática de recorridos. Dicho esto, necesitamos su ayuda con algunos pasos.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344699)
 
@@ -190,4 +190,3 @@ Si no ha publicado versiones de recorrido más recientes (consulte esta [secció
 ## Antes de la tercera y última iteración (5 de septiembre){#migration-step-4}
 
 Entre el 1 de agosto y el 5 de septiembre, tendrá que validar que todo se ha migrado y que no quedan recorridos que usen mensajes; de lo contrario, quedarán obsoletos el 5 de septiembre.
-

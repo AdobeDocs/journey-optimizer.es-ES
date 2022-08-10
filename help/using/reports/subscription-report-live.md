@@ -5,7 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%
@@ -35,4 +36,3 @@ La variable **[!UICONTROL Subscription performance]** gráfico muestra la evoluc
 ![](assets/subscription_report_4.png)
 
 La variable **Suscripciones: desglose** y **Cancelación de suscripciones: desglose** los gráficos representan el número total de personas que se suscribieron o cancelaron la suscripción en las últimas 24 horas, según los mensajes, las páginas de aterrizaje y los canales.
-

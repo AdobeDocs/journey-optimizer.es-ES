@@ -5,7 +5,7 @@ exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1732'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 >abstract="A partir del 25 de julio de 2022, el menú Mensajes desaparece y los mensajes se crean directamente desde un Recorrido. Si desea reutilizar los mensajes heredados en recorrido, debe guardarlos como plantillas."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="Guardar mensajes como plantillas"
 
-Adobe Journey Optimizer está lanzando una nueva función que mejora la forma en que crea contenido para canales de Journey Optimizer (correo electrónico, push, SMS). Como profesional de Journey Optimizer, ahora crea y crea sus mensajes directamente desde un recorrido.
+Adobe Journey Optimizer está lanzando una nueva función que mejora la forma en que crea contenido para canales de Journey Optimizer (correo electrónico, push, SMS). Como profesional de Journey Optimizer, ahora crea y genera sus mensajes directamente desde un recorrido.
 
 Esta función requiere una migración de los recorridos existentes que utilizan mensajes. En esta página, encontrará la información necesaria sobre este cambio, así como los pasos que debe seguir.
 
@@ -108,7 +108,7 @@ En GA (25 de julio), este nuevo flujo de usuarios se aplica a todos los recorrid
 
 ## Cronología de migración{#iterations}
 
-Es necesario realizar una migración para cambiar los recorridos existentes mediante **Mensajes** en recorridos con acciones creadas en línea. Se realiza una conversión automática de recorridos. Dicho esto, necesitamos su ayuda con algunos pasos.
+Es necesario realizar una migración para cambiar los recorridos existentes mediante **Mensajes** en recorridos con acciones creadas en línea. Se ejecuta una conversión automática de recorridos. Dicho esto, necesitamos su ayuda con algunos pasos.
 
 La migración se produce en cada región por la noche, a través de varias iteraciones. Esta es la cronología de migración:
 

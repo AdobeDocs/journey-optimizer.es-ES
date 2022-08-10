@@ -27,7 +27,7 @@ Cadena
 
 ## Parámetros
 
-| Parámetro | type |
+| Parámetro | tipo |
 |-------------|----------|
 | string | string |
 | beginIndex | integer |

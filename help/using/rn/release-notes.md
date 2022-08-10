@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 24%
+ht-degree: 86%
 
 ---
 
@@ -30,7 +30,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer proporciona un nuevo flujo para la creación de mensajes en Recorrido. La mensajería en línea ahorrará a los usuarios un tiempo considerable y optimizará el proceso de flujo de trabajo para crear y enviar un correo electrónico, una notificación push o un SMS en Journey Optimizer. Al eliminar los mensajes como un paso independiente y, en su lugar, hacerlos editables en línea como parte de una acción en el lienzo del Recorrido, los usuarios deberán hacer clic en menos botones y navegar por menos pantallas para diseñar y editar su contenido.</p>
+<p>Journey Optimizer proporciona un nuevo flujo para la creación de mensajes en recorridos. La mensajería en línea ahorrará a los usuarios un tiempo considerable y optimizará el proceso de flujo de trabajo para crear y enviar un correo electrónico, una notificación push o un SMS en Journey Optimizer. Al eliminar los mensajes como un paso independiente y, en su lugar, hacerlos editables en línea como parte de una acción en el lienzo del recorrido, los usuarios deberán hacer clic en menos botones y navegar por menos pantallas para diseñar y editar su contenido.</p>
 <img src="assets/do-not-localize/inline.gif"/>
 <p>Para obtener más información, consulte la <a href="../messages/get-started-content.md">documentación detallada</a>.</p>
 </td>
@@ -48,7 +48,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <tbody>
 <tr>
 <td>
-<p>Ahora puede identificar campos de esquema con etiquetas que definen ámbitos organizativos o de uso de datos. Los administradores pueden utilizar la interfaz Permisos para definir políticas de acceso que cubran los campos de esquema XDM y administrar mejor el acceso dado a usuarios o grupos de usuarios (usuarios internos, externos o de terceros), y administrar el acceso a tipos de datos específicos (es decir, datos personales confidenciales/SPD).</p>
+<p>Ahora puede identificar campos de esquema con etiquetas que definen ámbitos organizativos o de uso de datos. Los administradores pueden utilizar la interfaz Permisos para definir políticas de acceso que cubran los campos de esquema XDM y administrar mejor el acceso dado a usuarios o grupos de usuarios (usuarios internos, externos o de terceros), así como gestionar el acceso a tipos de datos específicos (es decir, datos personales confidenciales).</p>
 <p>El uso del control de acceso basado en atributos está actualmente restringido a usuarios seleccionados y se implementará en todos los entornos en una versión futura.</p>
 <p>Para obtener más información, consulte la <a href="../administration/attribute-based-access.md">documentación detallada</a>.</p>
 </td>
@@ -65,7 +65,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <tbody>
 <tr>
 <td>
-<p>Ahora puede ejecutar trabajos de toma de decisiones por lotes desde la interfaz de usuario, de modo que no necesite un desarrollador para ejecutar trabajos de api por lotes y pueda reducir el tiempo necesario para el marketing. Esta nueva interfaz le permite crear trabajos y administrar trabajos actuales o anteriores.</p>
+<p>Ahora puede ejecutar trabajos de toma de decisiones por lotes desde la interfaz de usuario, de modo que no necesite un desarrollador para ejecutar trabajos de API por lotes y pueda reducir el tiempo necesario para el marketing. Esta nueva interfaz le permite crear trabajos y administrar los actuales o anteriores.</p>
 <img src="assets/do-not-localize/batch.gif"/>
 <p>Para obtener más información, consulte la <a href="../offers/batch-delivery.md">documentación detallada.</p>
 </td>
@@ -76,13 +76,13 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 <table>
 <thead>
 <tr>
-<th><strong>Utilizar automáticamente la oferta de mejor rendimiento en sus decisiones (disponibilidad limitada)</strong><br/></th>
+<th><strong>Uso automático de la oferta con mejor rendimiento en sus decisiones (disponibilidad limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede utilizar sistemas de modelos de optimización personalizados en Administración de decisiones. Este nuevo tipo de modelo le permite optimizar y personalizar ofertas en función de segmentos y ofrecer rendimiento.</p>
+<p>Ahora puede utilizar sistemas de modelos de optimización personalizados en Gestión de decisiones. Este nuevo tipo de modelo le permite optimizar y personalizar ofertas en función de segmentos y ofrecer rendimiento.</p>
 <p>El uso de modelos de IA de optimización personalizados está actualmente restringido a usuarios seleccionados y se implementará en todos los entornos en una versión futura.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Para obtener más información, consulte la <a href="../offers/ranking/personalized-optimization-model.md">documentación detallada</a>.</p>
@@ -99,18 +99,18 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 **Mensajes**
 
-* Los mensajes preestablecidos ya están **superficies de canal**. [Más información](../configuration/channel-surfaces.md)
+* Los ajustes preestablecidos de mensaje ahora son **superficies de canal**. [Más información](../configuration/channel-surfaces.md)
 
 **Administración**
 
-* **Edición de registro de PTR** - Ahora, al actualizar un registro PTR, el tiempo de procesamiento solo tardará 3 horas. [Más información](../configuration/ptr-records.md#processing)
+* **Edición de registros de PTR**: ahora, al actualizar un registro PTR, el tiempo de procesamiento solo será de tres horas, como máximo. [Más información](../configuration/ptr-records.md#processing)
 
-* **IU de lista de permitidos** - Ahora puede utilizar la interfaz de usuario de Journey Optimizer para agregar nuevas direcciones de correo electrónico o dominios a la lista de permitidos. [Más información](../configuration/allow-list.md)
+* **IU de lista de permitidos**: ahora puede utilizar la interfaz de usuario de Journey Optimizer para añadir nuevas direcciones de correo electrónico o dominios a la lista de permitidos. [Más información](../configuration/allow-list.md)
 
-* **actualización de la lógica de lista de permitidos** - Ahora la lógica de lista de permitidos se aplica en cuanto la función está habilitada, incluso si la lista está vacía. [Más información](../configuration/allow-list.md#logic)
+* **Actualización de la lógica de lista de permitidos**: ahora la lógica de lista de permitidos se aplica en cuanto se habilita la función, incluso si la lista está vacía. [Más información](../configuration/allow-list.md#logic)
 
 * **Parámetros de seguimiento de URL** - Ahora puede utilizar el Editor de expresiones para configurar los parámetros de seguimiento de URL en sus superficies de correo electrónico (es decir, ajustes preestablecidos). [Más información](../configuration/email-settings.md#url-tracking)
 
 **Offer Decisioning**
 
-* **Tamaño de la audiencia** : Ahora se muestra un nuevo componente de estimación del tamaño de la audiencia en la interfaz de usuario al crear una regla de decisión, al seleccionar un segmento o una regla para establecer la idoneidad de una oferta o al añadir un segmento o una regla al ámbito de decisión.
+* **Tamaño de la audiencia**: ahora se muestra un nuevo componente de estimación del tamaño de la audiencia en la interfaz de usuario al crear una regla de decisión, al seleccionar un segmento o una regla para establecer la idoneidad de una oferta o al añadir un segmento o una regla al ámbito de decisión.
