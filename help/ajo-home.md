@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
-workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 83%
+source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
+workflow-type: ht
+source-wordcount: '401'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 83%
 
 >[!CAUTION]
 >
->El 25 de julio, Adobe Journey Optimizer lanzará un [nueva función](using/rn/inline-messages.md) que mejora la forma en que se crea contenido para canales de Journey Optimizer (correo electrónico, push, SMS). Como profesional de Journey Optimizer, ahora [crear y crear](using/messages/get-started-content.md) sus mensajes directamente desde un recorrido. Se realiza una conversión automática de recorridos. Dicho esto, necesitamos su ayuda con algunos pasos. Obtenga más información sobre [pasos necesarios](using/rn/inline-messages-steps.md).
+>El 25 de julio, Adobe Journey Optimizer lanzará una [nueva función](using/rn/inline-messages.md) que mejora la forma en que se crea contenido para canales de Journey Optimizer (correo electrónico, push, SMS). Como profesional de Journey Optimizer, ahora [crea y genera](using/messages/get-started-content.md) sus mensajes directamente desde un recorrido. Se ejecuta una conversión automática de recorridos. Dicho esto, necesitamos su ayuda con algunos pasos. Obtenga más información sobre los [pasos necesarios](using/rn/inline-messages-steps.md).
 
 <table style="table-layout:fixed">
 <tr>
@@ -56,7 +56,7 @@ ht-degree: 83%
     <div>
       <a href="using/messages/get-started-content.md">Envío de mensajes</a>
     </div>
-    <p>Obtenga información sobre cómo añadir mensajes push y de correo electrónico en los recorridos del cliente
+    <p>Obtenga información sobre cómo añadir mensajes push, SMS y de correo electrónico en los recorridos del cliente
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">Creación de su primer recorrido</a>
