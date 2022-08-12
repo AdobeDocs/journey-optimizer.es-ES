@@ -33,7 +33,7 @@ En Journey Optimizer, el consentimiento se define en varios niveles:
 
 ## Notas importantes {#important-notes}
 
-En Journey Optimizer, el consentimiento se puede aprovechar en las acciones personalizadas. Si desea utilizarla con las funcionalidades de los mensajes integrados, debe utilizar una actividad de condición para filtrar clientes en su recorrido.
+En Journey Optimizer, el consentimiento se puede aprovechar en las acciones personalizadas. Si desea utilizarla con las funcionalidades de los mensajes integrados, debe utilizar una actividad de condición para filtrar a los clientes en su recorrido.
 
 Con la administración de consentimiento, se analizan dos actividades de recorrido:
 
