@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
-workflow-type: tm+mt
-source-wordcount: '1311'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -111,7 +111,7 @@ Cuerpo de la solicitud:
 }
 ```
 
-[!DNL Journey Optimizer] utilizará estos parámetros para actualizar la elección del perfil correspondiente a través de la llamada de la API de [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}.
+[!DNL Journey Optimizer] utilizará estos parámetros para actualizar la elección del perfil correspondiente a través de la llamada de la API de [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}.
 
 #### Enviar el mensaje con el vínculo de cancelación de suscripción {#send-message-unsubscribe-link}
 
@@ -201,7 +201,7 @@ Según el cliente de correo electrónico, hacer clic en el vínculo de cancelaci
    >
    >Si no agrega un vínculo de no participación de un clic al contenido del mensaje, no se mostrará ninguna página de aterrizaje.
 
-* El perfil correspondiente se excluye inmediatamente y esta opción se actualiza en Experience Platform. Obtenga más información en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+* El perfil correspondiente se excluye inmediatamente y esta opción se actualiza en Experience Platform. Obtenga más información en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target=&quot;_blank&quot;}.
 
 ## Administración de exclusiones push {#push-opt-out-management}
 
