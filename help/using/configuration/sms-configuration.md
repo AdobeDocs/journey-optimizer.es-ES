@@ -4,10 +4,10 @@ description: Aprenda a configurar su entorno para enviar mensajes SMS con Journe
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: f44638ac7cfb078b6914635433feedb0f48ef099
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 8%
+source-wordcount: '481'
+ht-degree: 7%
 
 ---
 
@@ -22,6 +22,11 @@ Antes de enviar SMS, configure su instancia. Debe [integrar la configuración de
 >Ahora mismo, el canal SMS solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
 
 ## Crear nueva credencial de API {#create-api}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api"
+>title="Configurar el proveedor de SMS"
+>abstract="Seleccione su proveedor y rellene sus credenciales de API de SMS."
 
 Para configurar el proveedor de SMS con Journey Optimizer, siga estos pasos:
 
@@ -45,6 +50,12 @@ Para configurar el proveedor de SMS con Journey Optimizer, siga estos pasos:
 Después de crear y configurar las credenciales de API, debe crear una superficie de canal (es decir, un ajuste preestablecido de mensaje) para los mensajes SMS.
 
 ## Creación de una superficie de canal para mensajes SMS {#message-preset-sms}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_surface_sms_type"
+>title="Defina la categoría SMS"
+>abstract="Seleccione el tipo de mensajes SMS que se enviarán al utilizar esta superficie: Marketing para mensajes SMS promocionales, que requieren el consentimiento del usuario, o transaccional para mensajes SMS no comerciales, que también se pueden enviar a perfiles cancelados de suscripción en contextos específicos."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/create-sms.html#sms-opt-in-out" text="Exclusión en mensajes SMS de marketing"
 
 Una vez configurado el canal SMS, debe crear una superficie de canal para poder enviar mensajes SMS desde **[!DNL Journey Optimizer]**.
 
