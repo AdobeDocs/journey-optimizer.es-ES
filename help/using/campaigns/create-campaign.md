@@ -5,13 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 6%
+source-wordcount: '580'
+ht-degree: 4%
 
 ---
 
@@ -33,10 +31,14 @@ Los pasos para crear una campaña son los siguientes:
 
    ![](assets/create-campaign.png)
 
-1. En el **[!UICONTROL Properties]** , especifique cuándo desea ejecutar la campaña:
+   >[!NOTE]
+   >
+   >También puede duplicar una campaña en vivo existente para crear una nueva.[Más información](modify-stop-campaign.md#duplicate) <!-- check if only live campaigns-->
 
-   * **[!UICONTROL Scheduled]**: ejecutar la campaña inmediatamente o en una fecha especificada. Las campañas programadas tienen como objetivo enviar **marketing** escriba mensajes.
-   * **[!UICONTROL API-triggered]**: ejecute la campaña utilizando una llamada de API. Las campañas activadas por API están destinadas a enviar **transaccional** mensajes, es decir, mensajes enviados siguiendo una acción realizada por un individuo: restablecimiento de contraseña, abandono de tarjeta, etc. [Obtenga información sobre cómo almacenar en déclencheur una campaña mediante API](api-triggered-campaigns.md)
+<!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
+
+    * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date. Scheduled campaigns are aimed at sending **marketing** type messages.
+    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. API-triggered campaigns are aimed at sending **transactional** messages, i.e. messages sent out following an action performed by an individual: password reset, card abandonment etc. [Learn how to trigger a campaign using APIs](api-triggered-campaigns.md)-->
 
 1. En el **[!UICONTROL Actions]** , seleccione el canal y la superficie del canal que desea utilizar para enviar el mensaje y, a continuación, haga clic en **[!UICONTROL Create]**.
 
@@ -52,21 +54,23 @@ Los pasos para crear una campaña son los siguientes:
 
 1. En el **[!UICONTROL Actions]** configure el mensaje que desea enviar con la campaña:
 
-   1. Haga clic en el **[!UICONTROL Edit content]** y, a continuación, configure y diseñe el contenido del mensaje. [Más información sobre los mensajes](../messages/get-started-content.md).
+   1. Haga clic en el **[!UICONTROL Edit content]** y, a continuación, configure y diseñe el contenido del mensaje. [Más información sobre los mensajes](../messages/get-started-content.md)
 
-      Una vez que el contenido esté listo, haga clic en la flecha para volver a la pantalla de creación de la campaña.
+      >[!NOTE]
+      >
+      >La variable **[!UICONTROL Simulate content]** permite utilizar perfiles de prueba para previsualizar y probar el contenido. [Más información](../design/preview.md)
+
+   1. Una vez que el contenido esté listo, haga clic en la flecha para volver a la pantalla de creación de la campaña.
 
       ![](assets/create-campaign-design.png)
 
    1. En el **[!UICONTROL Actions tracking]** , especifique si desea rastrear cómo reaccionan los destinatarios a su envío.
 
-      Una vez ejecutada la campaña, se podrá acceder a los resultados de seguimiento desde el informe de campaña. [Más información sobre los informes de campaña](campaign-global-report.md)
+      Una vez ejecutada la campaña, se podrá acceder a los resultados de seguimiento desde el informe de campaña. [Más información sobre los informes de campaña](../reports/campaign-global-report.md)
 
 1. Defina la audiencia objetivo. Para ello, haga clic en el botón **[!UICONTROL Select audience]** para mostrar la lista de segmentos de Adobe Experience Platform disponibles. [Más información sobre los segmentos](../segment/about-segments.md)
 
-   >[!NOTE]
-   >
-   >Para las campañas activadas por API, la audiencia debe configurarse mediante una llamada a la API. [Más información](api-triggered-campaigns.md)
+   <!-- NOTE For API-triggered campaigns, the audience needs to be set via API call. [Learn more](api-triggered-campaigns.md)-->
 
    En el **[!UICONTROL Identity namespace]** , elija el área de nombres que desea utilizar para identificar a las personas del segmento seleccionado. [Más información sobre áreas de nombres](../event/about-creating.md#select-the-namespace)
 
@@ -80,13 +84,11 @@ Los pasos para crear una campaña son los siguientes:
 
 1. Además, puede especificar una frecuencia para la ejecución de la acción configurada en la campaña.
 
-   >[!NOTE]
-   >
-   >En el caso de las campañas activadas por API, la programación en una fecha y hora específicas con periodicidad no está disponible, ya que la acción se activa mediante API. Sin embargo, las fechas de inicio y finalización son relevantes para garantizar que, si se realiza una llamada a la API antes de después de la ventana, estos se borren.
+   <!-- NOTE For API-triggered campaigns, scheduling at a specific date and time with recurrence is not available as action is triggered via API. However, start and end date are relevant to ensure that, if an API call is made prior of after the window, then those get errored.-->
 
    ![](assets/create-campaign-schedule.png)
 
-1. Si está creando una campaña activada por API, la variable **[!UICONTROL cURL request]** le permite recuperar el **[!UICONTROL Campaign ID]** para usar en la llamada de API. [Más información](api-triggered-campaigns.md)
+<!--1. If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 Una vez que la campaña esté lista, puede revisarla y publicarla (consulte [Revisar y activar una campaña](#review-activate)).
 
@@ -108,24 +110,16 @@ Una vez configurada la campaña, debe revisar su parámetro y contenido antes de
 
    ![](assets/create-campaign-review.png)
 
-1. La campaña ahora está activada y tiene el valor **[!UICONTROL Live]** estado (o **[!UICONTROL Scheduled]**  si ha especificado una fecha de inicio). [Obtenga más información sobre los estados de campañas](get-started-with-campaigns.md#statuses)
-
-   El mensaje configurado en la campaña se ejecuta inmediatamente o en la fecha especificada.
+1. La campaña ahora está activada y tiene el valor **[!UICONTROL Live]** estado (o **[!UICONTROL Scheduled]**  si ha especificado una fecha de inicio). [Obtenga más información sobre los estados de campañas](get-started-with-campaigns.md#statuses). El mensaje configurado en la campaña se ejecuta inmediatamente o en la fecha especificada.
 
    >[!NOTE]
    >
-   >Una vez activada una campaña, mantiene el estado &quot;Activo&quot; incluso después de ejecutar el mensaje. Para cambiar su estado, debe detenerlo manualmente. [Obtenga información sobre cómo detener una campaña](modify-stop-campaign.md)
+   >La variable **[!UICONTROL Completed]** se asigna automáticamente a una campaña 3 días después de activarse o en la fecha de finalización de la campaña si tiene una ejecución recurrente.
+   >
+   >Si no se ha especificado ninguna fecha de finalización, la campaña mantiene el estado &quot;Activo&quot;. Para cambiarlo, debe detener la campaña manualmente. [Obtenga información sobre cómo detener una campaña](modify-stop-campaign.md)
 
 1. Una vez activada una campaña, puede comprobar en cualquier momento su información abriéndola. El resumen le permite obtener estadísticas sobre el número de perfiles objetivo y las acciones entregadas y fallidas.
 
-   También puede obtener estadísticas adicionales en los informes dedicados haciendo clic en el botón **[!UICONTROL Reports]** botón. [Más información](campaign-global-report.md)
+   También puede obtener estadísticas adicionales en los informes dedicados haciendo clic en el botón **[!UICONTROL Reports]** botón. [Más información](../reports/campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)
-
-## Recursos adicionales
-
-* [Introducción a las campañas](get-started-with-campaigns.md)
-* [Creación de campañas activadas por API](api-triggered-campaigns.md)
-* [Modificación o detención de una campaña](modify-stop-campaign.md)
-* [Informe en directo de la campaña](campaign-live-report.md)
-* [Informe global de la campaña](campaign-global-report.md)

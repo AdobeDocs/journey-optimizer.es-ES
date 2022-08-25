@@ -7,7 +7,8 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 11f7ce37dc1a99de4ed29fa7793f126e259f518d
+exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 5%
@@ -94,7 +95,7 @@ Por ejemplo, si desea conocer el impacto de una campaña de correo electrónico 
    >
    >Si seleccionó un conjunto de datos que no es de tipo de evento, no podrá continuar.
 
-Al crear los informes de las entregas, ahora puede utilizar los datos de este conjunto de datos para recuperar información personalizada adicional y ajustar mejor los informes. [Más información](campaign-global-report.md#objectives-global)
+Al crear los informes de las entregas, ahora puede utilizar los datos de este conjunto de datos para recuperar información personalizada adicional y ajustar mejor los informes. [Más información](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >

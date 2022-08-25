@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 11%
+source-wordcount: '282'
+ht-degree: 9%
 
 ---
 
@@ -20,27 +20,33 @@ ht-degree: 11%
 >title="Creación de correo electrónico"
 >abstract="Defina sus parámetros de correo electrónico en solo tres pasos simples."
 
+Se pueden crear correos electrónicos:
 
-Una vez que [se ha añadido un correo electrónico](get-started-content.md) en su recorrido <!--or a campaign--> y la configuración básica definida, puede configurar el correo electrónico y definir su contenido.
+* En un **Recorrido**: Una vez que haya añadido una actividad de correo electrónico en el recorrido y haya definido la configuración básica, utilice la variable **[!UICONTROL Actions: Email]** panel derecho para crear el contenido de las notificaciones push.
+
+   Para obtener más información sobre cómo configurar el recorrido, consulte esta [página](../building-journeys/journey-gs.md).
+
+   ![](assets/email-edit-content.png)
+
+* En un **Campaign**: Una vez creada una campaña, seleccione Correo electrónico como acción y defina la configuración básica.
+
+   Para obtener más información sobre cómo configurar la campaña, consulte esta [página](../campaigns/create-campaign.md#configure).
+
+   ![](assets/email_campaign.png)
 
 ## Definir el contenido del correo electrónico{#email-content}
 
-Haga clic en el **[!UICONTROL Edit content]** para diseñar el correo electrónico.
-
-![](assets/email-edit-content.png)
-
 Uso [!DNL Journey Optimizer] Diseñador de correo electrónico para [diseñar el correo electrónico desde cero](../design/create-email-content.md). Si tiene un contenido existente, puede [importarlo en el Diseñador de correo electrónico](../design/existing-content.md)o [codifique su propio contenido](../design/code-content.md) en [!DNL Journey Optimizer].
 
-[!DNL Journey Optimizer] viene con un conjunto de [plantillas integradas](../design/email-templates.md) para detenerte a empezar. Cualquier correo electrónico también se puede guardar como plantilla.
-
-Obtenga más información sobre el diseño de correo electrónico en [esta sección](../design/design-emails.md).
+[!DNL Journey Optimizer] viene con un conjunto de [plantillas integradas](../design/email-templates.md) para ayudarle a empezar. Cualquier correo electrónico también se puede guardar como plantilla.
 
 Uso [!DNL Journey Optimizer] Editor de expresiones para personalizar los mensajes con los datos de los perfiles. Para obtener más información sobre personalización, consulte [esta sección](../personalization/personalize.md).
 
 ## Seguimiento de correo electrónico{#email-tracking}
 
-Si desea rastrear el comportamiento de sus destinatarios a través de aperturas o clics en vínculos, habilite las siguientes opciones: **[!UICONTROL Email opens]** y **[!UICONTROL Click on email]**. Obtenga más información sobre el seguimiento en [esta sección](../design/message-tracking.md).
+Si desea rastrear el comportamiento de sus destinatarios a través de aperturas o clics en vínculos, habilite las siguientes opciones: **[!UICONTROL Email opens]** y **[!UICONTROL Click on email]**.
 
+Obtenga más información sobre el seguimiento en [esta sección](../design/message-tracking.md).
 
 ## Validación del contenido del correo electrónico{#email-content-validate}
 

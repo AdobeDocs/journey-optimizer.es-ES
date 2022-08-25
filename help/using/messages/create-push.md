@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1595'
 ht-degree: 10%
 
 ---
@@ -25,10 +25,15 @@ Las notificaciones push le ayudan a llegar a sus usuarios de aplicaciones móvil
 
 [!DNL Journey Optimizer] admite notificaciones push y le ayuda a enviar notificaciones muy relevantes a tasas de rendimiento líderes en el sector. Las notificaciones push pueden incluir personalización y contexto basado en Recorridos para aprovechar la información de datos que su marca tiene con Adobe Experience Cloud.
 
-Una vez que [se ha añadido una notificación push](get-started-content.md) para su recorrido, y para definir la configuración básica, use la variable **[!UICONTROL Actions: Push]** panel derecho para crear el contenido de la notificación push.
+Se pueden crear notificaciones push:
 
-![](assets/add-a-push.png)
+* En un **Recorrido**: Una vez que haya agregado una actividad Push en el recorrido y haya definido la configuración básica, utilice la variable **[!UICONTROL Actions: Push]** panel derecho para crear el contenido de las notificaciones push.
 
+   Para obtener más información sobre cómo configurar el recorrido, consulte esta [página](../building-journeys/journey-gs.md).
+
+* En un **Campaign**: Una vez creada una campaña, seleccione Notificaciones push como acción y defina la configuración básica.
+
+   Para obtener más información sobre cómo configurar la campaña, consulte esta [página](../campaigns/create-campaign.md#configure).
 
 Utilice las pestañas dedicadas para definir la configuración de las notificaciones push para **iOS** y **Android** sistemas operativos.
 

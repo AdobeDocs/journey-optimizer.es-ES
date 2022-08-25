@@ -1,27 +1,27 @@
 ---
 title: Modificación o detención de una campaña
-description: Obtenga información sobre cómo crear o detener una campaña activada en [!DNL Journey Optimizer]
+description: Obtenga información sobre cómo modificar, detener o duplicar campañas en directo en [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 15%
+source-wordcount: '227'
+ht-degree: 2%
 
 ---
 
-# Modificación o detención de una campaña {#modify-stop-campaign}
+# Administrar campañas en directo {#modify-stop-campaign}
 
-Una vez activada una campaña, puede editarla o detenerla en cualquier momento. Para realizar esto, siga los pasos a continuación.
+Una vez activada una campaña, puede modificarla o detenerla en cualquier momento. Estas operaciones están disponibles para campañas con una ejecución recurrente solamente.
 
-## Modificación de una campaña activada {#modify}
+Además, puede duplicar campañas en vivo (ejecutadas una vez o con una ejecución recurrente) para crear otras nuevas.
 
-Para modificar y crear una nueva versión de una campaña, siga estos pasos:
+## Modificación de una campaña recurrente {#modify}
+
+Para modificar y crear una nueva versión de una campaña recurrente, siga estos pasos:
 
 1. Abra la campaña y haga clic en el botón **[!UICONTROL Modify campaign]** botón.
 
@@ -39,20 +39,20 @@ Para modificar y crear una nueva versión de una campaña, siga estos pasos:
    >
    >Al activar el borrador, se reemplaza la versión activa de la campaña.
 
-## Detener una campaña {#stop}
+## Detener una campaña recurrente {#stop}
 
-Para detener una campaña, ábrala y luego haga clic en el botón **[!UICONTROL Stop campaign]** botón.
+Para detener una campaña recurrente, ábrala y haga clic en el botón **[!UICONTROL Stop campaign]** botón.
 
 ![](assets/create-campaign-stop.png)
 
 >[!IMPORTANT]
 >
->Después de detener una campaña, estará disponible en modo de solo lectura. No podrá volver a activarla ni utilizarla para crear una nueva campaña.
+>Detener una campaña no detendrá un envío en curso, pero detendrá un envío programado o los siguientes sucesos si el envío ya está en curso.
 
-## Recursos adicionales
+<!-- inbound campaign (inapp): can stop and resume -->
 
-* [Introducción a las campañas](get-started-with-campaigns.md)
-* [Creación de una campaña](create-campaign.md)
-* [Creación de campañas activadas por API](api-triggered-campaigns.md)
-* [Informe en directo de la campaña](campaign-live-report.md)
-* [Informe global de la campaña](campaign-global-report.md)
+## Duplicar una campaña {#duplicate}
+
+Puede duplicar una campaña activa para crear una nueva. Para ello, abra la campaña y haga clic en **[!UICONTROL Duplicate]**.
+
+![](assets/create-campaign-duplicate.png)

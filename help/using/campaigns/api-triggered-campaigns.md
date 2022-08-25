@@ -4,10 +4,10 @@ description: Aprenda a almacenar en déclencheur las campañas mediante [!DNL Jo
 hide: true
 hidefromtoc: true
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 4%
+source-wordcount: '676'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,6 @@ ht-degree: 4%
 >[!NOTE]
 >
 >La API de ejecución de mensajes interactivos se encuentra actualmente en fase beta, por lo que puede estar sujeta a actualizaciones frecuentes sin previo aviso.
-
 
 con [!DNL Journey Optimizer], puede crear campañas y luego invocarlas desde un sistema externo basado en el déclencheur del usuario mediante el [API de REST de ejecución de mensajes interactivos](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Esto le permite cubrir diversas necesidades operativas y de mensajería transaccional, como los restablecimientos de contraseña, el token OTP, entre otras.
 
@@ -92,11 +91,3 @@ Tenga en cuenta que si ha configurado una fecha de inicio y/o finalización espe
 >[!NOTE]
 >
 >En algunos casos, es posible que tenga que enviar mensajes transaccionales a perfiles que no existen en el sistema. Por ejemplo, si un usuario desconocido intenta iniciar sesión en el sitio web. En ese caso, el perfil correspondiente se crea automáticamente en Adobe Experience Platform, en la variable **Conjunto de datos del perfil de mensajería interactiva AJO** conjunto de datos.
-
-## Recursos adicionales
-
-* [Introducción a las campañas](get-started-with-campaigns.md)
-* [Creación de una campaña](create-campaign.md)
-* [Modificación o detención de una campaña](modify-stop-campaign.md)
-* [Informe en directo de la campaña](campaign-live-report.md)
-* [Informe global de la campaña](campaign-global-report.md)
