@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1631'
 ht-degree: 2%
 
 ---
@@ -99,6 +99,10 @@ La variable **[!UICONTROL Offer eligibility]** le permite restringir la oferta a
 Al seleccionar segmentos o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Refresh]** para actualizar los datos.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
+
+>[!NOTE]
+>
+>Las estimaciones de perfil no están disponibles cuando los parámetros de regla incluyen datos que no están en el perfil, como los datos de contexto. Por ejemplo, una regla de aceptación que requiera que el clima actual sea ≥ 80 grados.
 
 ### Uso de segmentos frente a reglas de decisión {#segments-vs-decision-rules}
 

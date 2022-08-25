@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7c801e7a63d3e5c899549fa0c0dd5d48f9fbc245
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1127'
 ht-degree: 98%
 
 ---
@@ -264,8 +264,8 @@ ht-degree: 98%
       + [Ejemplos de consultas](using/reports/query-examples.md)
    + Capacidad de entrega {#deliverability}
       + [Introducción a la capacidad de entrega](using/reports/deliverability.md)
-      + [Acerca de la lista de supresión](using/reports/suppression-list.md)
-+ Gestión de decisiones {#offer-decisioning}
+      + [Lista de supresión](using/reports/suppression-list.md)
++ Administración de decisiones {#offer-decisioning}
    + Introducción a la Gestión de decisiones {#get-started-decision}
       + [Acerca de la Gestión de decisiones](using/offers/get-started/starting-offer-decisioning.md)
       + [Interfaz de usuario](using/offers/get-started/user-interface.md)

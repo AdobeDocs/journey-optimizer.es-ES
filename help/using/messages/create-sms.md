@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: ad09f4ec728e95da23f862e0e59fe827c71f0024
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 15%
+source-wordcount: '410'
+ht-degree: 10%
 
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 15%
 Uso [!DNL Journey Optimizer] para enviar mensajes de texto a sus clientes en sus dispositivos móviles. Puede crear, personalizar y previsualizar mensajes en formato de texto desde el editor de SMS.
 
 Una vez que [se ha añadido un SMS](get-started-content.md) actividad en el recorrido y la configuración básica definida, use la variable **[!UICONTROL Actions: SMS]** panel derecho para crear el contenido del mensaje SMS.
-
->[!AVAILABILITY]
->
->Ahora mismo, el canal SMS solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
 
 ![](assets/sms-edit-content.png)
 
@@ -46,8 +42,11 @@ Para empezar a personalizar el mensaje SMS, siga estos pasos:
 
    ![](assets/sms-content-preview.png)
 
-
 ## Validar el SMS{#sms-preview}
+
+>[!NOTE]
+>
+> Para mejorar la capacidad de envío, siempre debe utilizar los números de teléfono en los formatos admitidos por el proveedor. Por ejemplo, Twilio y Sinch solo admiten números de teléfono en formato E.164.
 
 Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo. Si ha insertado [contenido personalizado](../personalization/personalize.md), puede comprobar cómo se muestra este contenido en el mensaje, aprovechando los datos de perfil de prueba.
 

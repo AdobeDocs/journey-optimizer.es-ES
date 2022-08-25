@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 2%
@@ -24,7 +24,7 @@ Defina la configuración del correo electrónico en la sección dedicada de la c
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="Definir la categoría de correo electrónico"
->abstract="Seleccione el tipo de mensajes que se enviarán al utilizar esta superficie: Marketing para mensajes promocionales, que requieren el consentimiento del usuario, o Transactional para mensajes no comerciales, que también se puede enviar a perfiles cancelados de suscripción en contextos específicos."
+>abstract="Seleccione el tipo de correos electrónicos que se enviarán al utilizar esta superficie: Marketing para correos electrónicos promocionales, que requieren el consentimiento del usuario, o Transactional para correos electrónicos no comerciales, que también se pueden enviar a perfiles cancelados de suscripción en contextos específicos."
 
 En el **TIPO DE CORREO ELECTRÓNICO** seleccione el tipo de mensaje que se enviará con la superficie: **Marketing** o **Transaccional**.
 

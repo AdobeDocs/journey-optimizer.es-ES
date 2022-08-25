@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '807'
 ht-degree: 4%
 
 ---
@@ -88,3 +88,4 @@ Puede elegir entre una de estas dos soluciones:
 ### Lectura de segmento {#read-segment-g}
 
 * Los segmentos transmitidos siempre están actualizados, pero los segmentos por lotes no se calcularán en el momento de la recuperación. Solo se evalúan diariamente a la hora diaria de evaluar el lote.
+* Para los recorridos que utilizan una actividad Leer segmento , existe un número máximo de recorridos que pueden iniciarse al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con Leer segmento, programados o iniciados &quot;lo antes posible&quot;) que empiecen al mismo tiempo, esparciéndolos a lo largo del tiempo, por ejemplo, entre 5 y 10 minutos.

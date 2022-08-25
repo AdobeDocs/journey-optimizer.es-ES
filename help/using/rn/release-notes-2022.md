@@ -2,16 +2,119 @@
 title: Notas de la versión 2022
 description: Notas de la versión de Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
-workflow-type: ht
-source-wordcount: '1790'
-ht-degree: 100%
+source-git-commit: 5aae2f685969460329f241720b0faf9c681fa668
+workflow-type: tm+mt
+source-wordcount: '2337'
+ht-degree: 95%
 
 ---
 
 # Notas de la versión 2022 {#release-notes-2022}
 
 Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] lanzado en 2022.
+
+
+## Versión de julio de 2022 {#july-2022-release}
+
+### Nuevas funciones
+
+<table>
+<thead>
+<tr>
+<th><strong>Nuevo flujo de mensajería en línea</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer proporciona un nuevo flujo para la creación de mensajes en recorridos. La mensajería en línea ahorrará a los usuarios un tiempo considerable y optimizará el proceso de flujo de trabajo para crear y enviar un correo electrónico, una notificación push o un SMS en Journey Optimizer. Al eliminar los mensajes como un paso independiente y, en su lugar, hacerlos editables en línea como parte de una acción en el lienzo del recorrido, los usuarios deberán hacer clic en menos botones y navegar por menos pantallas para diseñar y editar su contenido.</p>
+<img src="assets/do-not-localize/inline.gif"/>
+<p>Para obtener más información, consulte la <a href="../messages/get-started-content.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Control de acceso basado en atributos (disponibilidad limitada)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede identificar campos de esquema con etiquetas que definen ámbitos organizativos o de uso de datos. Los administradores pueden utilizar la interfaz Permisos para definir políticas de acceso que cubran los campos de esquema XDM y administrar mejor el acceso dado a usuarios o grupos de usuarios (usuarios internos, externos o de terceros), así como gestionar el acceso a tipos de datos específicos (es decir, datos personales confidenciales).</p>
+<p>El uso del control de acceso basado en atributos está actualmente restringido a usuarios seleccionados y se implementará en todos los entornos en una versión futura.</p>
+<p>Para obtener más información, consulte la <a href="../administration/attribute-based-access.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Trabajos de toma de decisiones por lotes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede ejecutar trabajos de toma de decisiones por lotes desde la interfaz de usuario, de modo que no necesite un desarrollador para ejecutar trabajos de API por lotes y pueda reducir el tiempo necesario para el marketing. Esta nueva interfaz le permite crear trabajos y administrar los actuales o anteriores.</p>
+<img src="assets/do-not-localize/batch.gif"/>
+<p>Para obtener más información, consulte la <a href="../offers/batch-delivery.md">documentación detallada.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Uso automático de la oferta con mejor rendimiento en sus decisiones (disponibilidad limitada)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede utilizar sistemas de modelos de optimización personalizados en Gestión de decisiones. Este nuevo tipo de modelo le permite optimizar y personalizar ofertas en función de segmentos y ofrecer rendimiento.</p>
+<p>El uso de modelos de IA de optimización personalizados está actualmente restringido a usuarios seleccionados y se implementará en todos los entornos en una versión futura.</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>Para obtener más información, consulte la <a href="../offers/ranking/personalized-optimization-model.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Mejoras
+
+**Recorridos**
+
+* **Finalización de un recorrido** - En el lienzo del recorrido, la variable **Fin** se ha eliminado de la paleta. Las etiquetas finales ahora se añaden de forma predeterminada al final de cada ruta y no se pueden eliminar. Esta mejora permite informar mejor sobre dónde abandonó un cliente el recorrido, sin que se requiera ninguna acción por parte del profesional del recorrido. Consulte la [documentación](../building-journeys/journey-end.md) y [vídeo de funciones](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
+
+
+* La variable **Zona horaria del perfil** ahora está desactivada de forma predeterminada en las propiedades de recorrido. [Más información](../building-journeys/timezone-management.md#timezone-from-profiles)
+
+**Mensajes**
+
+* Los ajustes preestablecidos de mensaje ahora son **superficies de canal**. [Más información](../configuration/channel-surfaces.md)
+
+**Administración**
+
+* **Edición de registros de PTR**: ahora, al actualizar un registro PTR, el tiempo de procesamiento solo será de tres horas, como máximo. [Más información](../configuration/ptr-records.md#processing)
+
+* **IU de lista de permitidos**: ahora puede utilizar la interfaz de usuario de Journey Optimizer para añadir nuevas direcciones de correo electrónico o dominios a la lista de permitidos. [Más información](../configuration/allow-list.md)
+
+* **Actualización de la lógica de lista de permitidos**: ahora la lógica de lista de permitidos se aplica en cuanto se habilita la función, incluso si la lista está vacía. [Más información](../configuration/allow-list.md#logic)
+
+* **Parámetros de seguimiento de URL** - Ahora puede utilizar el Editor de expresiones para configurar los parámetros de seguimiento de URL en sus superficies de correo electrónico (es decir, ajustes preestablecidos). [Más información](../configuration/email-settings.md#url-tracking)
+
+**Offer Decisioning**
+
+* **Tamaño de la audiencia**: ahora se muestra un nuevo componente de estimación del tamaño de la audiencia en la interfaz de usuario al crear una regla de decisión, al seleccionar un segmento o una regla para establecer la idoneidad de una oferta o al añadir un segmento o una regla al ámbito de decisión.
+
 
 ## Lanzamiento de junio de 2022 {#june-2022-release}
 
@@ -27,7 +130,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <tr>
 <td>
 <p>Ahora puede crear, personalizar y enviar SMS en Journey Optimizer mediante una integración con <b>Sinch</b> o <b>Twilio</b>.</p>
-<img src="assets/do-not-localize/SMS.gif"/>
+<!--img src="assets/do-not-localize/SMS.gif"/-->
 <p>Ahora mismo, el canal SMS solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.</p>
 <p>Aprenda a crear y enviar un SMS en esta <a href="../messages/create-sms.md">documentación detallada</a>.</p>
 </td>
@@ -46,7 +149,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <tr>
 <td>
 <p>El complemento de integración del Diseñador de correo electrónico de Adobe Journey Optimizer y Adobe Stock proporciona a los clientes una forma sencilla de navegar, obtener licencias y guardar imágenes para utilizarlas en la creación de mensajes. </br> La nueva opción <b>Buscar fotografías similares de Stock</b> también le permite localizar fotos de Stock que coincidan con el contenido, el color y la composición de sus imágenes. </p>
-<img src="assets/do-not-localize/stock-rn.gif"/>
+<!--img src="assets/do-not-localize/stock-rn.gif"/-->
 <p>Para obtener más información, consulte la <a href="../design/stock.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -63,7 +166,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <tr>
 <td>
 <p>Ahora puede utilizar la capacidad CCO del correo electrónico (copia de carbón oculta) para almacenar correos electrónicos enviados por Adobe Journey Optimizer. Active esta opción en los ajustes preestablecidos de correo electrónico para que cada correo electrónico enviado se copie de forma oculta en su dirección de CCO.</p>
-<img src="assets/do-not-localize/bcc-rn.gif"/>
+<!--img src="assets/do-not-localize/bcc-rn.gif"/-->
 <p>Para obtener más información, consulte la <a href="../configuration/bcc-email.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -104,21 +207,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Dynamic Expression Builder</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
-</td>
-</tr>
-</tbody>
-</table-->
+
 
 
 ### Mejoras
@@ -158,7 +247,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <tr>
 <td>
 <p>Ahora puede establecer reglas comerciales multicanal que excluyan automáticamente los perfiles saturados de mensajes y acciones.</p>
-<img src="assets/do-not-localize/frequency-rn.gif"/>
+<!--img src="assets/do-not-localize/frequency-rn.gif"/-->
 <p>Para obtener más información, consulte la <a href="../configuration/frequency-rules.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -175,7 +264,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <tr>
 <td>
 <p>Ahora puede utilizar sistemas de modelos formados en Administración de decisiones. Esta nueva capacidad clasifica las ofertas que se muestran para un perfil determinado.</p>
-<img src="assets/do-not-localize/optimization.gif"/>
+<!--img src="assets/do-not-localize/optimization.gif"/-->
 <p>Para obtener más información, consulte la <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -209,7 +298,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <tr>
 <td>
 <p>Ahora puede monitorizar las acciones realizadas por los usuarios en los recursos de Adobe Journey Optimizer.</p>
-<img src="assets/do-not-localize/audit-rn.gif"/>
+<!--img src="assets/do-not-localize/audit-rn.gif"/-->
 <p>Para obtener más información, consulte la <a href="../privacy/audit-logs.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -435,7 +524,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * Los eventos de paso de Journey Optimizer ahora se pueden vincular a otros conjuntos de datos en [Customer Journey Analytics de Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es). El campo **profileID**, en el esquema integrado de Evento de paso de recorrido, ahora se define como un campo de identidad. [Más información](../reports/sharing-overview.md#integration-cja)
 
-**Offer Decisioning**
+**offer decisioning**
 
 * Al actualizar una oferta, una oferta de reserva, una colección de ofertas o una decisión de oferta a la que se hace referencia directa o indirectamente en un mensaje publicado, las actualizaciones ahora se reflejan automáticamente en el mensaje correspondiente, sin necesidad de volver a publicarlas. [Más información](../offers/offers-e2e.md#insert-decision-in-email)
 

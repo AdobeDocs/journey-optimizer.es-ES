@@ -1,19 +1,19 @@
 ---
-title: Supervisión de la ejecución de los mensajes
-description: Conozca las directrices de monitorización y envío
+title: Introducción a la capacidad de entrega
+description: Conozca las directrices de capacidad de envío
 feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: ad1aadd8b10b05d96ee0de5988d82728aca57d5e
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 25%
+source-wordcount: '649'
+ht-degree: 26%
 
 ---
 
-# Administrar la capacidad de entrega {#manage-deliverability}
+# Introducción a la capacidad de entrega {#manage-deliverability}
 
 La capacidad de entrega es una medida del éxito de los envíos que llegan a las bandejas de entrada de los destinatarios.
 

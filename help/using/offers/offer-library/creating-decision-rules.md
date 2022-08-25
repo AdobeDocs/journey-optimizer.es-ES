@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 14%
+source-wordcount: '317'
+ht-degree: 12%
 
 ---
 
@@ -46,6 +46,10 @@ Para crear una regla de decisión, siga estos pasos:
 1. Al añadir y configurar nuevos campos en el espacio de trabajo, la variable **[!UICONTROL Segment properties]** muestra información sobre los perfiles estimados que pertenecen al segmento. Haga clic en **[!UICONTROL Refresh estimate]** para actualizar los datos.
 
    ![](../assets/offers_decision_rule_creation_estimate.png)
+
+   >[!NOTE]
+   >
+   >Las estimaciones de perfil no están disponibles cuando los parámetros de regla incluyen datos que no están en el perfil, como los datos de contexto. Por ejemplo, una regla de aceptación que requiera que el clima actual sea ≥ 80 grados.
 
 1. Haga clic en **[!UICONTROL Save]** para confirmar.
 

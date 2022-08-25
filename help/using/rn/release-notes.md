@@ -2,10 +2,10 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 30d197f3eab05e2e38025189a6948a6c0fbd6d54
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 86%
+source-wordcount: '223'
+ht-degree: 63%
 
 ---
 
@@ -17,100 +17,70 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Regístrese para la [Newsletter trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} hoy y reciba las últimas actualizaciones de productos, artículos interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.
 
-## Versión de julio de 2022 {#july-2022-release}
+## Versión de agosto de 2022 {#aug-2022-release}
 
 ### Nuevas funciones
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Nuevo flujo de mensajería en línea</strong><br/></th>
+<th><strong>Create and manage campaigns in Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer proporciona un nuevo flujo para la creación de mensajes en recorridos. La mensajería en línea ahorrará a los usuarios un tiempo considerable y optimizará el proceso de flujo de trabajo para crear y enviar un correo electrónico, una notificación push o un SMS en Journey Optimizer. Al eliminar los mensajes como un paso independiente y, en su lugar, hacerlos editables en línea como parte de una acción en el lienzo del recorrido, los usuarios deberán hacer clic en menos botones y navegar por menos pantallas para diseñar y editar su contenido.</p>
-<img src="assets/do-not-localize/inline.gif"/>
-<p>Para obtener más información, consulte la <a href="../messages/get-started-content.md">documentación detallada</a>.</p>
+<p>Use Journey Optimizer campaigns to deliver one-time content to a specific segment using various channels. When using journeys, actions are designed to be executed in sequence. With campaigns actions are performed simultaneously, either immediately, or based on a specified schedule. </p>
+<p>For more information, refer to the <a href="../campaigns/get-started-with-campaigns.md">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
-</table>
-
+</table-->
 
 <table>
 <thead>
 <tr>
-<th><strong>Control de acceso basado en atributos (disponibilidad limitada)</strong><br/></th>
+<th><strong>Enviar SMS a sus usuarios (disponibilidad general)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede identificar campos de esquema con etiquetas que definen ámbitos organizativos o de uso de datos. Los administradores pueden utilizar la interfaz Permisos para definir políticas de acceso que cubran los campos de esquema XDM y administrar mejor el acceso dado a usuarios o grupos de usuarios (usuarios internos, externos o de terceros), así como gestionar el acceso a tipos de datos específicos (es decir, datos personales confidenciales).</p>
-<p>El uso del control de acceso basado en atributos está actualmente restringido a usuarios seleccionados y se implementará en todos los entornos en una versión futura.</p>
-<p>Para obtener más información, consulte la <a href="../administration/attribute-based-access.md">documentación detallada</a>.</p>
+<p>Ahora puede crear, personalizar y enviar SMS en Journey Optimizer mediante una integración con <b>Sinch</b> o <b>Twilio</b>.</p>
+<img src="assets/do-not-localize/SMS.gif"/>
+<p>Aprenda a crear y enviar un SMS en esta <a href="../messages/create-sms.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Trabajos de toma de decisiones por lotes</strong><br/></th>
+<th><strong>New Dynamic Expression Builder</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede ejecutar trabajos de toma de decisiones por lotes desde la interfaz de usuario, de modo que no necesite un desarrollador para ejecutar trabajos de API por lotes y pueda reducir el tiempo necesario para el marketing. Esta nueva interfaz le permite crear trabajos y administrar los actuales o anteriores.</p>
-<img src="assets/do-not-localize/batch.gif"/>
-<p>Para obtener más información, consulte la <a href="../offers/batch-delivery.md">documentación detallada.</p>
+<p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
+<p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
-<thead>
-<tr>
-<th><strong>Uso automático de la oferta con mejor rendimiento en sus decisiones (disponibilidad limitada)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede utilizar sistemas de modelos de optimización personalizados en Gestión de decisiones. Este nuevo tipo de modelo le permite optimizar y personalizar ofertas en función de segmentos y ofrecer rendimiento.</p>
-<p>El uso de modelos de IA de optimización personalizados está actualmente restringido a usuarios seleccionados y se implementará en todos los entornos en una versión futura.</p>
-<img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>Para obtener más información, consulte la <a href="../offers/ranking/personalized-optimization-model.md">documentación detallada</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
+
 
 ### Mejoras
 
-**Recorridos**
+**Creación de informes**
 
-* **Finalización de un recorrido** - En el lienzo del recorrido, la variable **Fin** se ha eliminado de la paleta. Las etiquetas finales ahora se añaden de forma predeterminada al final de cada ruta y no se pueden eliminar. Esta mejora permite informar mejor sobre dónde abandonó un cliente el recorrido, sin que se requiera ninguna acción por parte del profesional del recorrido. Consulte la [documentación](../building-journeys/journey-end.md) y [vídeo de funciones](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
+* La tabla y el gráfico de políticas de consentimiento ya están disponibles en los informes globales de Recorrido. Estas utilidades permiten rastrear los perfiles excluidos de las políticas en sus acciones personalizadas. [Más información](../reports/journey-global-report.md#journey-global)
 
-**Mensajes**
-
-* Los ajustes preestablecidos de mensaje ahora son **superficies de canal**. [Más información](../configuration/channel-surfaces.md)
+   Para tener acceso a las últimas utilidades, tenga en cuenta que tendrá que restablecer los distintos paneles de informes. Para obtener más información sobre la personalización de tableros, consulte [la documentación detallada](../reports/global-report.md).
 
 **Administración**
 
-* **Edición de registros de PTR**: ahora, al actualizar un registro PTR, el tiempo de procesamiento solo será de tres horas, como máximo. [Más información](../configuration/ptr-records.md#processing)
-
-* **IU de lista de permitidos**: ahora puede utilizar la interfaz de usuario de Journey Optimizer para añadir nuevas direcciones de correo electrónico o dominios a la lista de permitidos. [Más información](../configuration/allow-list.md)
-
-* **Actualización de la lógica de lista de permitidos**: ahora la lógica de lista de permitidos se aplica en cuanto se habilita la función, incluso si la lista está vacía. [Más información](../configuration/allow-list.md#logic)
-
-* **Parámetros de seguimiento de URL** - Ahora puede utilizar el Editor de expresiones para configurar los parámetros de seguimiento de URL en sus superficies de correo electrónico (es decir, ajustes preestablecidos). [Más información](../configuration/email-settings.md#url-tracking)
-
-**Offer Decisioning**
-
-* **Tamaño de la audiencia**: ahora se muestra un nuevo componente de estimación del tamaño de la audiencia en la interfaz de usuario al crear una regla de decisión, al seleccionar un segmento o una regla para establecer la idoneidad de una oferta o al añadir un segmento o una regla al ámbito de decisión.
+* Ahora es posible actualizar el número de teléfono principal para utilizarlo en el canal SMS. [Más información](../configuration/primary-email-addresses.md)

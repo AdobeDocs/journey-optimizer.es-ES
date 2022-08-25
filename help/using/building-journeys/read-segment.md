@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 7%
+source-wordcount: '1203'
+ht-degree: 6%
 
 ---
 
@@ -27,6 +27,8 @@ Utilice la variable **Leer segmento** actividad para que todas las personas de u
 Veamos como ejemplo el segmento &quot;Apertura y cierre de compra de la aplicación de Luma&quot; creado en la [Generar segmentos](../segment/about-segments.md) caso de uso. Con la actividad Leer segmento , puede hacer que todas las personas que pertenecen a este segmento ingresen a un recorrido y hacer que fluyan a recorridos personalizados que aprovechen todas las funcionalidades de recorrido: condiciones, temporizadores, eventos, acciones.
 
 >[!NOTE]
+>
+>Para los recorridos que utilizan una actividad Leer segmento , existe un número máximo de recorridos que pueden iniciarse al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con Leer segmento, programados o iniciados &quot;lo antes posible&quot;) que empiecen al mismo tiempo, esparciéndolos a lo largo del tiempo, por ejemplo, entre 5 y 10 minutos.
 >
 >El complemento de pago de ráfaga permite enviar mensajes push muy rápidamente en grandes volúmenes para recorridos simples que incluyen un segmento de lectura y un mensaje push simple. Para obtener más información, consulte [esta sección](../building-journeys/journey-gs.md#burst)
 

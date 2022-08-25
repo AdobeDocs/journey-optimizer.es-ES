@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: d431673dd55b41b8d2de21ec82fa4b15baa13a0f
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1664'
 ht-degree: 1%
 
 ---
@@ -57,6 +57,13 @@ La variable **[!UICONTROL Top Actions]** contiene los datos disponibles para **[
 * **[!UICONTROL Actions successfully executed]**: Número total de **[!UICONTROL Actions]** se ejecutó correctamente para un recorrido.
 
 * **[!UICONTROL Error in action]**: Número total de errores que se han producido para **[!UICONTROL Actions]**.
+
+![](assets/global_report_25.png)
+
+La variable **[!UICONTROL Consent policies]** tabla y gráfico muestran el número de perfiles excluidos de cada directiva en sus acciones personalizadas.
+Para obtener más información sobre las acciones personalizadas, consulte [la documentación detallada](../action/about-custom-action-configuration.md).
+
+Tenga en cuenta que para que estas utilidades aparezcan en los informes de Recorridos, deberá restablecer los tableros. Para ello, haga clic en **[!UICONTROL Modify]** then **[!UICONTROL Reset]** en la parte superior del informe.
 
 ## Ficha Correo electrónico {#email-global}
 
