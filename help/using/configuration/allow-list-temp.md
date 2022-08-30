@@ -5,13 +5,11 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 634e46c70aa272785950d669938f3b35ec07ab1e
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 3%
+source-wordcount: '589'
+ht-degree: 2%
 
 ---
 
@@ -35,19 +33,9 @@ La lista de permitidos permite especificar direcciones de correo electrónico o 
 
 Para acceder a la lista detallada de direcciones de correo electrónico y dominios permitidos, vaya a **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** y seleccione **[!UICONTROL Allowed list]**.
 
-![](assets/allow-list-access.png)
-
 >[!CAUTION]
 >
 >Los permisos para ver, exportar y administrar la lista de permitidos están restringidos a [Administradores de recorrido](../administration/ootb-product-profiles.md#journey-administrator). Más información sobre la administración [!DNL Journey Optimizer] derechos de acceso de los usuarios en [esta sección](../administration/permissions-overview.md).
-
-Para exportar la lista de permitidos como archivo CSV, seleccione la opción **[!UICONTROL Download CSV]** botón.
-
-Utilice la variable **[!UICONTROL Delete]** para eliminar permanentemente una entrada.
-
-Puede buscar en las direcciones de correo electrónico o en los dominios y filtrar por el **[!UICONTROL Address type]**. Una vez seleccionado, puede borrar el filtro mostrado en la parte superior de la lista.
-
-![](assets/allowed-list-filtering-example.png)
 
 ## Habilitar la lista de permitidos {#enable-allow-list}
 
@@ -55,13 +43,9 @@ Para habilitar la lista de permitidos, siga los pasos a continuación.
 
 1. Acceda al menú **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]**.
 
-1. Haga clic en **[!UICONTROL Enable/Disable allowed list]**.
-
-   ![](assets/allow-list-edit.png)
+1. Haga clic en **[!UICONTROL Edit]**.
 
 1. Seleccione **[!UICONTROL Enable allowed list]**.
-
-   ![](assets/allow-list-enable.png)
 
 1. Haga clic en **[!UICONTROL Save]**. La lista de permitidos está habilitada.
 
@@ -73,48 +57,11 @@ La lógica de lista de permitidos se aplica cuando la función está habilitada.
 
 ## Añadir entidades a la lista de permitidos {#add-entities}
 
-Para agregar nuevas direcciones de correo electrónico o dominios a la lista de permitidos de un entorno limitado específico, puede: [rellenar manualmente la lista](#manually-populate-list)o use una [Llamada de API](#api-call-allowed-list).
+Para agregar nuevas direcciones de correo electrónico o dominios a la lista de permitidos de un entorno limitado específico, puede usar un [Llamada de API](#api-call-allowed-list).
 
 >[!NOTE]
 >
 >La lista de permitidos puede contener hasta 1000 entradas.
-
-### Rellenado manual de la lista de permitidos {#manually-populate-list}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_allowed_list_add"
->title="Añadir direcciones o dominios a la lista de permitidos"
->abstract="Puede añadir manualmente nuevas direcciones de correo electrónico o dominios a la lista de permitidos seleccionándolos uno a uno."
-
-Puede rellenar manualmente la variable [!DNL Journey Optimizer] lista de permitidos añadiendo una dirección de correo electrónico o un dominio a través de la interfaz de usuario.
-
->[!NOTE]
->
->Solo puede añadir una dirección de correo electrónico o un dominio a la vez.
-
-Para realizar esto, siga los pasos a continuación.
-
-1. Seleccione el botón **[!UICONTROL Add email or domain]**.
-
-   ![](assets/allowed-list-add-email.png)
-
-1. Elija el tipo de dirección: **[!UICONTROL Email address]** o **[!UICONTROL Domain address]**.
-
-1. Introduzca la dirección de correo electrónico o el dominio al que desee enviar los correos electrónicos.
-
-   >[!NOTE]
-   >
-   >Asegúrese de introducir una dirección de correo electrónico válida (como abc@company.com) o un dominio (como abc.company.com).
-
-1. Especifique un motivo si es necesario.
-
-   ![](assets/allowed-list-add-email-address.png)
-
-   >[!NOTE]
-   >
-   >Se permiten todos los caracteres ASCII comprendidos entre 32 y 126 en la variable **[!UICONTROL Reason]** campo . La lista completa se encuentra en [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por ejemplo.
-
-1. Haga clic en **[!UICONTROL Submit]**.
 
 ### Añadir entidades mediante una llamada de API {#api-call-allowed-list}
 
