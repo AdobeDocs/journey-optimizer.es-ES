@@ -9,8 +9,8 @@ hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '573'
 ht-degree: 100%
 
 ---
@@ -69,7 +69,7 @@ Por ejemplo, si desea conocer el impacto de una campaña de correo electrónico 
 
    >[!CAUTION]
    >
-   >Solo puede seleccionar un conjunto de datos de tipo de evento, que debe contener al menos uno de los [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target=&quot;_blank&quot;} admitidos: **experienceevent-web**, **experienceevent-application**, **experienceevent-commerce**. Si selecciona un conjunto de datos que no coincida con esos criterios, no podrá guardar los cambios.
+   >Solo puede seleccionar un conjunto de datos de tipo de evento, que debe contener al menos uno de los [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;} admitidos: **experienceevent-web**, **experienceevent-application**, **experienceevent-commerce**. Si selecciona un conjunto de datos que no coincida con esos criterios, no podrá guardar los cambios.
 
    ![](assets/reporting-config-datasets.png)
 

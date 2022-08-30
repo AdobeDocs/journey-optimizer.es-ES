@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
 workflow-type: tm+mt
 source-wordcount: '1812'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 * Todas las nuevas funciones y mejoras incluidas [!DNL Journey Optimizer] La versión del 22 de agosto se ha detallado en la documentación. [Más información](release-notes.md)
 * La sección de reglas de frecuencia se ha actualizado para reflejar el nuevo flujo de mensajería en línea. [Más información](../configuration/frequency-rules.md#apply-frequency-rule)
-* Ahora se hace referencia a un vídeo que muestra cómo configurar suscripciones y crear páginas de aterrizaje en la sección Introducción a las páginas de aterrizaje . [Más información](../landing-pages/get-started-lp.md#video)
+* Ahora se hace referencia a un vídeo que muestra cómo configurar suscripciones y crear páginas de aterrizaje en la sección Introducción a las páginas de aterrizaje. [Más información](../landing-pages/get-started-lp.md#video)
 * Se ha añadido una limitación para los recorridos que utilizan actividades Leer segmento . [Más información](../building-journeys/read-segment.md)
 * Se ha mejorado la página de operadores del editor de expresiones. [Más información](../building-journeys/expression/operators.md)
 
@@ -180,6 +180,6 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se han actualizado las Limitaciones del recorrido. [Más información](../start/guardrails.md)
 * Se ha actualizado la sección Configuración de ofertas en la selección de decisiones. [Más información](../offers/offer-activities/configure-offer-selection.md)
 * Se ha añadido una advertencia para indicar que las ofertas basadas en eventos no son compatibles actualmente. [Más información](../offers/offer-library/creating-personalized-offers.md#eligibility)
-* Se ha documentado la nueva pestaña **[!UICONTROL Overview]**. [Más información](../offers/get-started/user-interface.md#overview)
+* Se ha documentado la nueva pestaña de gestión de decisiones **[!UICONTROL Overview]**. [Más información](../offers/get-started/user-interface.md#overview)
 * Se han añadido nuevas secciones para describir las acciones disponibles en las listas de ofertas y decisiones: [Lista de ofertas](../offers/offer-library/creating-personalized-offers.md#offer-list) y [Lista de decisiones](../offers/offer-activities/create-offer-activities.md#decision-list).
 
