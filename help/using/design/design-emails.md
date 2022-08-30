@@ -6,16 +6,28 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 6%
+source-wordcount: '246'
+ht-degree: 20%
 
 ---
 
 # Introducción al diseño de correo electrónico {#get-started-content-design}
 
+Puede importar un contenido existente en [!DNL Journey Optimizer] o aproveche las capacidades de diseño de contenido:
+
+* Uso [!DNL Journey Optimizer] **capacidades de diseño de correo electrónico** para diseñar o importar correos electrónicos interactivos. [Más información](../design/create-email-content.md)
+
+* Aproveche **Adobe Experience Manager Assets Essentials** para enriquecer los correos electrónicos, crear y administrar su propia base de datos de activos. [Más información](../design/assets-essentials.md)
+
+* Encuentre **fotos de Adobe Stock** para crear su contenido y mejorar su diseño de correo electrónico. [Más información](../design/stock.md)
+
+* Mejore la experiencia de los clientes creando mensajes personalizados en función de sus atributos de perfil. [Más información](../personalization/personalize.md)
+
 ➡️ [Descubra esta función en vídeo](#video)
+
+Una vez que haya [crear el mensaje](../messages/get-started-content.md), puede empezar a crear su contenido de correo electrónico.
 
 1. En el mensaje recién creado, seleccione **[!UICONTROL Email designer]** en el **[!UICONTROL Body]** para obtener más información.
 
@@ -35,11 +47,6 @@ ht-degree: 6%
 
 Todas estas funciones están disponibles al acceder al Diseñador de correo electrónico desde la pantalla de creación de mensajes. [Más información sobre la creación de mensajes](../messages/get-started-content.md).
 
->[!NOTE]
->
->Tenga en cuenta que las plantillas del área inferior son estáticas y no se pueden editar. Solo están disponibles con fines ilustrativos.
->
->Una vez que haya [crear el mensaje](../messages/get-started-content.md), puede empezar a crear su contenido de correo electrónico.
 
 ## Vídeo explicativo {#video}
 

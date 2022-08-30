@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 2%
@@ -36,7 +36,7 @@ En el **TIPO DE CORREO ELECTRÓNICO** seleccione el tipo de mensaje que se envia
 >
 >**Transaccional** los correos electrónicos se pueden enviar a perfiles que cancelan la suscripción a las comunicaciones de marketing. Estos mensajes solo se pueden enviar en contextos específicos.
 
-When [creación de un mensaje](../messages/get-started-content.md#create-new-message), debe elegir una superficie de canal válida que coincida con la categoría seleccionada para el correo electrónico.
+When [creación de un mensaje](../messages/get-started-content.md), debe elegir una superficie de canal válida que coincida con la categoría seleccionada para el correo electrónico.
 
 ## Subdominio y grupo de IP {#subdomains-and-ip-pools}
 

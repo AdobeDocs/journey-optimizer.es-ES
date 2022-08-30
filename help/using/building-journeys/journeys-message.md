@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 27%
@@ -15,7 +15,7 @@ ht-degree: 27%
 
 # Correo electrónico, SMS, push{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] viene con las funcionalidades de mensajes integradas. Puede simplemente añadir, en su recorrido, una actividad de push, un SMS o un mensaje de correo electrónico y [definir configuración y contenido](../messages/get-started-content.md). A continuación, se ejecuta y envía en el contexto del recorrido
+[!DNL Journey Optimizer] viene con las funcionalidades de mensajes integradas. Puede simplemente añadir, en su recorrido, una actividad de push, un SMS o un mensaje de correo electrónico y [definir configuración y contenido](../messages/messages-in-journeys.md). A continuación, se ejecuta y envía en el contexto del recorrido.
 
 También puede configurar acciones específicas para enviarle mensajes:
 
