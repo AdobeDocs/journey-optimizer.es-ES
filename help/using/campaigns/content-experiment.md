@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 3%
+source-wordcount: '899'
+ht-degree: 4%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 3%
 >[!AVAILABILITY]
 >
 >Actualmente, la función de experimento de contenido solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
+
+>[!NOTE]
+>
+>Antes de usar el experimento de contenido, asegúrese de que la configuración de informes esté configurada para sus conjuntos de datos personalizados. Obtenga más información en [esta sección](reporting-configuration.md).
 
 La función de experimento de contenido le permite definir varios tratamientos de envío. La audiencia de interés se asigna aleatoriamente a cada tratamiento para determinar cuál tiene mejor rendimiento con respecto a la métrica de interés. Puede elegir entre variar el contenido, el asunto o el remitente del correo electrónico.
 

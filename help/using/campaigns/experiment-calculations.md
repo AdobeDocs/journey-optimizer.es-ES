@@ -8,14 +8,14 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 29c9b8d9e48192b940cb726ed0c116d0782d849a
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 0%
+source-wordcount: '892'
+ht-degree: 1%
 
 ---
 
-# Comprender los cálculos estadísticos {#experiment-calculations}
+# Comprensión de los cálculos estadísticos {#experiment-calculations}
 
 >[!AVAILABILITY]
 >
@@ -25,7 +25,7 @@ En este artículo se describen los cálculos estadísticos utilizados al ejecuta
 
 Este artículo describe cómo funciona la experimentación y proporciona una introducción intuitiva al informe de Adobe **Cualquier secuencia de confianza válida por tiempo**.
 
-Para los usuarios expertos, los detalles técnicos y las referencias se detallan en [esta página](https://experienceleague.adobe.com/docs/journey-optimizer/assets/confidence_sequence_technical_details.pdf?lang=en).
+Para los usuarios expertos, los detalles técnicos y las referencias se detallan en [esta página](../campaigns/assets/confidence_sequence_technical_details.pdf).
 
 ## Pruebas estadísticas y control de errores {#statistical-testing}
 
@@ -34,11 +34,11 @@ Para los usuarios expertos, los detalles técnicos y las referencias se detallan
 Como se ilustra en el cuadro anterior, muchas metodologías de inferenciación estadística están diseñadas para controlar dos tipos de errores:
 
 * **Falsos positivos (errores de tipo I)**: es un rechazo incorrecto de la hipótesis null, cuando en realidad es true. En el contexto de Experimentos en línea, esto significa que concluimos falsamente que la métrica de resultados es diferente entre cada tratamiento, aunque era la misma.
-   </br>Antes de ejecutar el experimento, normalmente elegimos un umbral `$\alpha$`. Una vez ejecutado el experimento, la variable `$p$-value` se calcula y rechazamos el `null if $p < \alpha$`. Un umbral comúnmente utilizado es `$\alpha = 0.05$`, lo que significa que a largo plazo, esperamos que 5 de cada 100 experimentos sean falsos positivos.
+   </br>Antes de ejecutar el experimento, normalmente elegimos un umbral `\alpha`. Una vez ejecutado el experimento, la variable `p-value` se calcula y rechazamos el `null if p < \alpha`. Un umbral comúnmente utilizado es `\alpha = 0.05`, lo que significa que a largo plazo, esperamos que 5 de cada 100 experimentos sean falsos positivos.
 
-* **Falsos negativos (errores de tipo II)**: significa que no rechazamos la hipótesis nula aunque sea falsa. En Experimentos, esto significa que no rechazamos la hipótesis nula, cuando de hecho es diferente. Para controlar este tipo de error, generalmente necesitamos tener suficientes usuarios en nuestro experimento para garantizar una cierta Potencia, definida como `$1 - \beta$`(es decir, una menos la probabilidad de un error de tipo II).
+* **Falsos negativos (errores de tipo II)**: significa que no rechazamos la hipótesis nula aunque sea falsa. En Experimentos, esto significa que no rechazamos la hipótesis nula, cuando de hecho es diferente. Para controlar este tipo de error, generalmente necesitamos tener suficientes usuarios en nuestro experimento para garantizar una cierta Potencia, definida como `1 - \beta`(es decir, una menos la probabilidad de un error de tipo II).
 
-La mayoría de las técnicas de inferenciación estadística requieren que fije el tamaño de la muestra con antelación, en función del tamaño del efecto que desee determinar, así como de la tolerancia a errores (`$\alpha$` y `$\beta$`) con antelación. Sin embargo, la metodología de Adobe Journey Optimizer está diseñada para permitirle observar continuamente sus resultados, para cualquier tamaño de muestra.
+La mayoría de las técnicas de inferenciación estadística requieren que fije el tamaño de la muestra con antelación, en función del tamaño del efecto que desee determinar, así como de la tolerancia a errores (`\alpha` y `\beta`) con antelación. Sin embargo, la metodología de Adobe Journey Optimizer está diseñada para permitirle observar continuamente sus resultados, para cualquier tamaño de muestra.
 
 ## Metodología estadística del Adobe: Cualquier secuencia de confianza válida por tiempo
 
@@ -50,11 +50,13 @@ La diferencia entre las secuencias de confianza y los intervalos de confianza pa
 
 **Secuencias de confianza** desplazar el foco de Experimentos a la estimación en lugar de a las pruebas de hipótesis, es decir, centrándose en la estimación precisa de la diferencia de medios entre tratamientos, en lugar de rechazar o no una hipótesis nula basada en un umbral de relevancia estadística.
 
-Sin embargo, de forma similar a la relación entre `$p$-values`o **Confianza** y **Intervalos de confianza**, también hay una relación entre **Secuencias de confianza** y en cualquier momento válido `$p$-values`, o en cualquier momento de Confianza válida. Dada la familiaridad de cantidades como la Confianza, el Adobe proporciona tanto la variable **Secuencias de confianza** y en cualquier momento Confianza válida en sus informes.
+Sin embargo, de forma similar a la relación entre `p-values`o **Confianza** y **Intervalos de confianza**, también hay una relación entre **Secuencias de confianza** y en cualquier momento válido `p-values`, o en cualquier momento de Confianza válida. Dada la familiaridad de cantidades como la Confianza, el Adobe proporciona tanto la variable **Secuencias de confianza** y en cualquier momento Confianza válida en sus informes.
 
 Los fundamentos teóricos de **Secuencias de confianza** provienen del estudio de secuencias de variables aleatorias conocidas como martingales. A continuación se incluyen algunos resultados principales para los lectores expertos, pero las opiniones de los profesionales son claras:
 
-    Las secuencias de confianza se pueden interpretar como análisis secuenciales seguros de intervalos de confianza. Puede ver e interpretar los datos de sus experimentos en el momento que desee y detenerlos o continuar con los experimentos de forma segura. La correspondiente Confianza válida por tiempo, o `$p$-value`, también es segura de interpretar.
+>[!NOTE]
+>
+>Las secuencias de confianza se pueden interpretar como análisis secuenciales seguros de intervalos de confianza. Puede ver e interpretar los datos de sus experimentos en el momento que desee y detenerlos o continuar con los experimentos de forma segura. La correspondiente confianza válida en cualquier momento, o `p-value`, también es seguro de interpretar.
 
 Es importante señalar que, dado que las secuencias de confianza son &quot;válidas en cualquier momento&quot;, serán más conservadoras que una metodología de horizonte fijo utilizada con el mismo tamaño de muestra. Los límites de la secuencia de confianza son generalmente más anchos que un cálculo de intervalo de confianza, mientras que cualquier confianza válida en cualquier momento será menor que un cálculo de confianza de horizonte fijo. El beneficio de este conservadurismo es que puedes interpretar tus resultados con seguridad en todo momento.
 

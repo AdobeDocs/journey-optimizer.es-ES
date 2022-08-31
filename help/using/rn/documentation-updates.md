@@ -2,10 +2,10 @@
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '1812'
-ht-degree: 98%
+source-wordcount: '1825'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Ahora se hace referencia a un vídeo que muestra cómo configurar suscripciones y crear páginas de aterrizaje en la sección Introducción a las páginas de aterrizaje. [Más información](../landing-pages/get-started-lp.md#video)
 * Se ha añadido una limitación para los recorridos que utilizan actividades Leer segmento . [Más información](../building-journeys/read-segment.md)
 * Se ha mejorado la página de operadores del editor de expresiones. [Más información](../building-journeys/expression/operators.md)
+* Se ha añadido una sección sobre cómo programar una campaña. [Más información](../campaigns/create-campaign.md)
 
 ## Julio de 2022 {#july-2022}
 

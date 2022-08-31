@@ -4,10 +4,10 @@ description: Aprenda a configurar su entorno para enviar mensajes SMS con Journe
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 44ef82f03752933269c1a8d9e65266c3132dd664
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,12 +25,12 @@ Antes de enviar SMS, configure su instancia. Debe [integrar la configuración de
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="Configurar el proveedor de SMS"
+>title="Seleccione la configuración del proveedor de SMS"
 >abstract="Seleccione su proveedor y rellene sus credenciales de API de SMS."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
->title="Configurar el proveedor de SMS"
+>title="Seleccione la configuración del proveedor de SMS"
 >abstract="Seleccione las credenciales de API configuradas para su proveedor de SMS."
 
 Para configurar el proveedor de SMS con Journey Optimizer, siga estos pasos:

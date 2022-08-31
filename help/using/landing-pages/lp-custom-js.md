@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -66,7 +66,7 @@ Estos son los vínculos que puede utilizar:
 | Nombre | Descripción |
 |--- |--- |
 | addBeforeSubmitHook | Se llamará a un vínculo personalizado antes del envío del formulario. Devuelve true para continuar con el envío; en caso contrario, devuelve false para bloquear el envío. |
-| addBeforeSubmitHook | Se llamará a un vínculo personalizado en el envío de formulario fallido. |
+| addOnFailureHook | Se llamará a un vínculo personalizado en el envío de formulario fallido. |
 | addOnSuccessHook | Se llamará a un vínculo personalizado en el envío correcto del formulario. |
 
 **Ejemplo:**

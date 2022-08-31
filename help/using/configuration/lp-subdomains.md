@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo configurar subdominios de páginas
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 1%
 >id="ajo_admin_config_lp_subdomain"
 >title="Crear un ajuste preestablecido de página de aterrizaje"
 >abstract="Para poder crear un ajuste preestablecido de página de aterrizaje, asegúrese de haber configurado previamente al menos un subdominio de página de aterrizaje para seleccionarlo en la lista de nombres de subdominio."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Crear ajustes preestablecidos de página de aterrizaje"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html" text="Crear ajustes preestablecidos de página de aterrizaje"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
 >title="Delegación de un subdominio de página de aterrizaje"
 >abstract="Debe configurar un subdominio para utilizarlo en las páginas de aterrizaje, ya que necesitará este subdominio para crear un ajuste preestablecido de página de aterrizaje. Puede utilizar un subdominio ya delegado en el Adobe o configurar un nuevo subdominio."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Crear ajustes preestablecidos de página de aterrizaje"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html" text="Crear ajustes preestablecidos de página de aterrizaje"
 
 Para poder [crear ajustes preestablecidos de página de aterrizaje](lp-presets.md), debe configurar los subdominios que desea utilizar para las páginas de aterrizaje.
 

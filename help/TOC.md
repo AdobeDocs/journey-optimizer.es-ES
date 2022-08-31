@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 634e46c70aa272785950d669938f3b35ec07ab1e
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -265,8 +265,8 @@ ht-degree: 98%
       + [Ejemplos de consultas](using/reports/query-examples.md)
    + Capacidad de entrega {#deliverability}
       + [Introducción a la capacidad de entrega](using/reports/deliverability.md)
-      + [Lista de supresión](using/reports/suppression-list.md)
-+ Administración de decisiones {#offer-decisioning}
+      + [Comprender la lista de supresión](using/reports/suppression-list.md)
++ Gestión de decisiones {#offer-decisioning}
    + Introducción a la Gestión de decisiones {#get-started-decision}
       + [Acerca de la Gestión de decisiones](using/offers/get-started/starting-offer-decisioning.md)
       + [Interfaz de usuario](using/offers/get-started/user-interface.md)
@@ -385,7 +385,6 @@ ht-degree: 98%
          + Supervisar las direcciones de correo electrónico {#monitor-reputation}
             + [Lista de supresión](using/configuration/manage-suppression-list.md)
             + [Reintentos](using/configuration/retries.md)
-            + [Lista de permitidos](using/configuration/allow-list-temp.md)
             + [Lista de permitidos](using/configuration/allow-list.md)
       + [Configuración del canal de SMS](using/configuration/sms-configuration.md)
       + Configuración de superficies de canal {#set-up-channels}
