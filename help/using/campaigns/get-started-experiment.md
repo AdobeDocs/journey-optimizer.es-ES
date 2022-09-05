@@ -2,16 +2,16 @@
 title: Introducción al experimento de contenido
 description: Obtenga más información sobre el experimento de contenido en [!DNL Journey Optimizer]
 feature: Overview
-topic: Content Management
+topic: Content Management, A/B Testing
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 0%
+source-wordcount: '1494'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Actualmente, la función de experimento de contenido solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
+>Actualmente, la función Experimento de contenido solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
 
 ## ¿Qué es un experimento de contenido?
 
@@ -35,7 +35,7 @@ Los experimentos le permiten aislar los cambios que conducen a mejoras en las m�
 
 Esto le permite tomar decisiones basadas en datos al optimizar sus objetivos comerciales.
 
-Para experimentos de contenido en Adobe Journey Optimizer, puede probar ideas como:
+Para los experimentos de contenido en Adobe Journey Optimizer, puede probar ideas como:
 
 * **Línea de asunto**: ¿Cuál podría ser el impacto de un cambio en el tono o en el grado de personalización de una línea de asunto?
 * **Contenido del mensaje**: ¿Cambiar el diseño visual de un correo electrónico dará como resultado más clics en el correo electrónico?
@@ -61,7 +61,7 @@ Por ejemplo, es poco probable que el cambio de contenido del cuerpo del mensaje 
 +++Ejecute la prueba con el tamaño de audiencia adecuado o durante el tiempo suficiente
 
 Si realiza las pruebas durante más tiempo, podrá detectar diferencias menores en la métrica objetivo entre los tratamientos. Sin embargo, si el valor de línea de base de la métrica de objetivos es pequeño, necesitará muestras de mayor tamaño.
-El número de usuarios que debe incluirse en el experimento depende del tamaño del efecto que desee detectar, la varianza o propagación de la métrica de objetivos, así como la tolerancia para errores falsos positivos y falsos negativos. En los experimentos clásicos, puede utilizar un [calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es) para determinar cuánto tiempo debe ejecutar la prueba.
+El número de usuarios que debe incluirse en el experimento depende del tamaño del efecto que desee detectar, la varianza o propagación de la métrica de objetivos, así como la tolerancia para errores falsos positivos y falsos negativos. En los experimentos clásicos, puede utilizar un [calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es){_blank} para determinar cuánto tiempo debe ejecutar la prueba.
 +++
 
 + + + Comprender la incertidumbre estadística

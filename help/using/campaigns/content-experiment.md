@@ -1,5 +1,5 @@
 ---
-title: Creación de un experimento de contenido
+title: Crear un experimento de contenido
 description: Aprenda a crear un experimento de contenido en sus campañas
 feature: Overview
 topic: Content Management
@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '898'
 ht-degree: 4%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->Actualmente, la función de experimento de contenido solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
+>La variable **Experimento de contenido** Actualmente, esta función solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
+
+Utilice el Experimento de contenido de Journey Optimizer para definir varios tratamientos de envío. La audiencia de interés se asigna aleatoriamente a cada tratamiento para determinar cuál tiene mejor rendimiento con respecto a la métrica de interés. Puede elegir entre variar el contenido, el asunto o el remitente del correo electrónico.
 
 >[!NOTE]
 >
->Antes de usar el experimento de contenido, asegúrese de que la configuración de informes esté configurada para sus conjuntos de datos personalizados. Obtenga más información en [esta sección](reporting-configuration.md).
-
-La función de experimento de contenido le permite definir varios tratamientos de envío. La audiencia de interés se asigna aleatoriamente a cada tratamiento para determinar cuál tiene mejor rendimiento con respecto a la métrica de interés. Puede elegir entre variar el contenido, el asunto o el remitente del correo electrónico.
+>Antes de empezar con el experimento de contenido, asegúrese de que la configuración de informes esté configurada para sus conjuntos de datos personalizados. Obtenga más información en [esta sección](reporting-configuration.md).
 
 En el siguiente ejemplo, el objetivo de la entrega se ha dividido en dos grupos, cada uno de los cuales representa el 45 % de la población de destino, y un grupo de exclusión del 10 %, que no recibe la entrega.
 
@@ -38,9 +38,9 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
 
 ![](assets/content_experiment.png)
 
-## Creación de la campaña {#campaign-experiment}
+## Cree la campaña {#campaign-experiment}
 
-1. En el **[!UICONTROL Campaigns]** página, haga clic en **[!UICONTROL Create Campaign]**.
+1. En el **[!UICONTROL Campaigns]** página, haga clic en **[!UICONTROL Create campaign]**.
 
    ![](assets/content_experiment_1.png)
 
@@ -55,7 +55,7 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
    * **[!UICONTROL Description]**
    * **[!UICONTROL Category]**: **[!UICONTROL Marketing]** / **[!UICONTROL Transactional]**
 
-1. Para iniciar el experimento de contenido, active la opción **[!UICONTROL Content experiment]** . La variable **[!UICONTROL Content experiment]** aparecerá.
+1. Para iniciar el experimento de contenido, active la opción **[!UICONTROL Content experiment]** . La variable **[!UICONTROL Content experiment]** aparece.
 
    ![](assets/content_experiment_3.png)
 
@@ -99,7 +99,7 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
 
 1. Haga clic en **[!UICONTROL Email designer]** para personalizar aún más la entrega de Tratamiento B si es necesario.
 
-Una vez personalizados los tratamientos, puede empezar a configurar el experimento de contenido.
+Una vez que los tratamientos estén personalizados, puede empezar a configurar el Experimento de contenido.
 
 ## Configurar el experimento de contenido {#configure-experiment}
 
