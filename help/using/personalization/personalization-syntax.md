@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 10%
+source-wordcount: '730'
+ht-degree: 9%
 
 ---
 
@@ -42,6 +42,10 @@ La sintaxis distingue entre mayúsculas y minúsculas.
 Las palabras **true**, **false**, **null** y **undefined** solo se permiten en la primera parte de una expresión de ruta.
 
 En Handlebars, los valores devueltos por la variable {{expression}} are **HTML escapado**. Si la expresión contiene `&`, la salida de escape del HTML que se devuelve se genera como `&amp;`. Si no desea que Handlebars escape un valor, utilice el &quot;triple stash&quot;.
+
+En cuanto a los argumentos de funciones literales, el analizador de idioma de plantilla no admite el símbolo de barra invertida sin escape (\). Se debe escapar este carácter con un símbolo de barra invertida adicional (\). Ejemplo :
+
+`{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
 ## Perfil
 
