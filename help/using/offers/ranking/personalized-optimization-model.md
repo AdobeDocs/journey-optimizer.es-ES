@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: bfed2a150c1c1568e666d16753b032b203749033
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,9 @@ Existen tres tipos de funciones:
 
 | Tipos de funciones | Adición de funciones a modelos |
 |--------------|----------------------------|
-| Objetos de offer decisioning (placementID, activityID, decisionScopeID) | Parte de los comentarios de Offer decisioning Eventos de experiencias enviados a AEP |
+| Decidir objetos (placementID, activityID, decisionScopeID) | Parte de los comentarios de la administración de decisiones Eventos de experiencias enviados a AEP |
 | Segmentos | Se pueden añadir de 0 a 50 segmentos como funciones al crear el modelo de IA de clasificación |
-| Datos de contexto | Parte de los comentarios de Offer decisioning Eventos de experiencias enviados a AEP. Datos de contexto disponibles para agregar al esquema: Detalles de comercio, Detalles de canal, Detalles de aplicación, Detalles de web, Detalles de entorno, Detalles del dispositivo, placeContext |
+| Datos de contexto | Parte de los comentarios de decisión sobre los eventos de experiencia enviados a AEP. Datos de contexto disponibles para agregar al esquema: Detalles de comercio, Detalles de canal, Detalles de aplicación, Detalles de web, Detalles de entorno, Detalles del dispositivo, placeContext |
 
 El modelo tiene dos fases:
 

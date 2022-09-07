@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1060'
 ht-degree: 6%
 
 ---
@@ -191,7 +191,7 @@ Los pasos detallados para crear una colección se describen en [esta sección](.
 
 Ahora debe crear una decisión que combine ubicaciones con las ofertas personalizadas y la oferta de reserva que acaba de crear.
 
-El motor de Offer decisioning utilizará esta combinación para encontrar la mejor oferta para un perfil específico: en este ejemplo, se basa en la regla de prioridad y decisión que asignó a cada oferta.
+El motor de toma de decisiones utilizará esta combinación para encontrar la mejor oferta para un perfil específico: en este ejemplo, se basa en la regla de prioridad y decisión que asignó a cada oferta.
 
 Para crear y configurar una decisión de oferta, siga los pasos principales a continuación:
 

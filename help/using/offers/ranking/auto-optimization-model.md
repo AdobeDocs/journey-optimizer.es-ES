@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1404'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Un modelo de optimización automática tiene como objetivo ofrecer ofertas que m
 
 ## Limitaciones {#limitations}
 
-El uso de modelos de optimización automática para el Offer decisioning está sujeto a las limitaciones siguientes:
+El uso de modelos de optimización automática para la gestión de decisiones está sujeto a las limitaciones siguientes:
 
 * Los modelos de optimización automática no funcionan con la API de decisiones por lotes.
 * Los comentarios necesarios para crear el modelo deben enviarse como un evento de experiencia. No debe enviarse automáticamente en [!DNL Journey Optimizer] canales.

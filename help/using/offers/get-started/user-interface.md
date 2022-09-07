@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 64%
@@ -23,7 +23,7 @@ La biblioteca de ofertas le permite crear y administrar sus ubicaciones y oferta
 
 Utilice el menú **[!UICONTROL Offers]** para administrar ofertas personalizadas y de reserva, organizarlas en colecciones y entregarlas creando decisiones:
 
-* **[!UICONTROL Overview]**: Nuevo en [!DNL Offer Decisioning]? Siga los pasos que aparecen en la pantalla para empezar a configurar ubicaciones, ofertas y colecciones. Cuando ya esté familiarizado con [!DNL Offer Decisioning], obtenga información general sobre las ofertas, colecciones y decisiones más recientes. Consulte [Información general](#overview).
+* **[!UICONTROL Overview]**: Nuevo en [!DNL decision management]? Siga los pasos que aparecen en la pantalla para empezar a configurar ubicaciones, ofertas y colecciones. Cuando ya esté familiarizado con [!DNL decision management], obtenga información general sobre las ofertas, colecciones y decisiones más recientes. Consulte [Información general](#overview).
 
 * **[!UICONTROL Offers]**: Acceda a sus ofertas personalizadas y de reserva o cree otras nuevas. Consulte [Creación de una oferta](../offer-library/creating-personalized-offers.md) y [Creación de una oferta de reserva](../offer-library/creating-fallback-offers.md).
 
@@ -47,7 +47,7 @@ Utilice el menú **[!UICONTROL Components]** para administrar los componentes ne
 
 ## Información general {#overview}
 
-Cuando es nuevo en [!DNL Offer Decisioning], el **[!UICONTROL Overview]** le guía a través de los pasos principales necesarios para empezar a crear su primera decisión de oferta.
+Cuando es nuevo en [!DNL decision management], el **[!UICONTROL Overview]** le guía a través de los pasos principales necesarios para empezar a crear su primera decisión de oferta.
 
 ![](../assets/overview_onboarding.png)
 
@@ -61,7 +61,7 @@ Una vez que haya completado estos primeros pasos, se le pedirá que cree las dec
 >
 >Los pasos principales para crear ofertas y utilizarlas en una decisión se presentan en [esta sección](../offer-library/key-steps.md).
 
-Cuando esté más familiarizado con [!DNL Offer Decisioning] y ya ha creado al menos una decisión de oferta, la variable **[!UICONTROL Overview]** muestra las ofertas, colecciones y decisiones más recientes.
+Cuando esté más familiarizado con [!DNL decision management] y ya ha creado al menos una decisión de oferta, la variable **[!UICONTROL Overview]** muestra las ofertas, colecciones y decisiones más recientes.
 
 Haga clic en una oferta o en una decisión para acceder directamente a los detalles del elemento seleccionado.
 

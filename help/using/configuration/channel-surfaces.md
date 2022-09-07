@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 1%
@@ -153,8 +153,6 @@ Para editar una superficie de canal, siga los pasos a continuación.
 
 1. Haga clic en **[!UICONTROL Submit]** para confirmar los cambios.
 
-   ![](assets/preset-confirm-update.png)
-
    >[!NOTE]
    >
    >También puede guardar la superficie del canal como borrador y reanudar la actualización más adelante.
@@ -177,7 +175,7 @@ Haga clic en el **[!UICONTROL Recent update]** que se muestra junto al nombre de
 
 En el **[!UICONTROL Recent update]** , puede ver información como el estado de actualización y la lista de cambios solicitados.
 
-![](assets/preset-recent-update-screen.png)
+<!--![](assets/preset-recent-update-screen.png)-->
 
 ### Actualizar estados {#update-statuses}
 

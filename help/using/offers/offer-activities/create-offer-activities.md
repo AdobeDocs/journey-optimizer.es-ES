@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1080'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -211,7 +211,7 @@ Esto le permite acceder a información detallada para esa decisión. Seleccione 
 
 ## Vídeo explicativo{#video}
 
-Obtenga información sobre cómo crear actividades de oferta en Offer Decisioning.
+Aprenda a crear actividades de oferta en la administración de decisiones.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 

@@ -1,21 +1,21 @@
 ---
 title: Primeros pasos
-description: Obtenga información sobre cómo empezar a utilizar la API de biblioteca de ofertas para realizar operaciones clave mediante el motor de gestión de decisiones.
+description: Aprenda a empezar a utilizar la API de biblioteca de ofertas para realizar operaciones clave con el motor de decisiones.
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '638'
 ht-degree: 5%
 
 ---
 
 # Guía para desarrolladores de API de administración de decisiones {#decision-management-api-developer-guide}
 
-Esta guía para desarrolladores proporciona los pasos para ayudarle a empezar a usar el [!DNL Offer Library] API. A continuación, la guía proporciona ejemplos de llamadas de API para realizar operaciones clave mediante el motor de gestión de decisiones.
+Esta guía para desarrolladores proporciona los pasos para ayudarle a empezar a usar el [!DNL Offer Library] API. A continuación, la guía proporciona ejemplos de llamadas de API para realizar operaciones clave mediante el motor de toma de decisiones.
 
 ➡️ [Obtenga más información sobre los componentes de la gestión de decisiones en este vídeo](#video)
 
@@ -25,7 +25,7 @@ Esta guía requiere conocer los siguientes componentes de Adobe Experience Platf
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target=&quot;_blank&quot;}: El marco normalizado por el cual [!DNL Experience Platform] organiza los datos de experiencia del cliente.
    * [Aspectos básicos de la composición del esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es){target=&quot;_blank&quot;}: Obtenga información sobre los componentes básicos de los esquemas XDM.
-* [Administración de decisiones](../../../using/offers/get-started/starting-offer-decisioning.md): Explica los conceptos y componentes utilizados para Experience Decisioning en general y el Offer decisioning en particular. Ilustra las estrategias utilizadas para elegir la mejor opción para presentar durante la experiencia del cliente.
+* [Administración de decisiones](../../../using/offers/get-started/starting-offer-decisioning.md): Explica los conceptos y componentes utilizados para Experience Decisioning en general y para la gestión de decisiones en particular. Ilustra las estrategias utilizadas para elegir la mejor opción para presentar durante la experiencia del cliente.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target=&quot;_blank&quot;}: PQL es un lenguaje potente para escribir expresiones en instancias XDM. PQL se utiliza para definir las reglas de decisión.
 
 ## Leer llamadas de API de ejemplo {#reading-sample-api-calls}
@@ -130,7 +130,7 @@ Este documento abarcaba los conocimientos previos necesarios para realizar llama
 
 >[!NOTE]
 >
-> El canal de mensajería en la aplicación de Adobe Journey Optimizer utiliza objetos de offer decisioning. Si su organización utiliza el canal de mensajería en la aplicación, las solicitudes de lista de API para objetos incluirán objetos creados por el servicio de mensajería en la aplicación y se pueden ignorar para casos de uso de offer decisioning. Los objetos creados para mensajes en la aplicación tendrán `createdBy = “Mobile_Sheliak”`.
+> El canal de mensajería en la aplicación de Adobe Journey Optimizer utiliza objetos de administración de decisiones. Si su organización utiliza el canal de mensajería en la aplicación, las solicitudes de lista de API para objetos incluirán objetos creados por el servicio de mensajería en la aplicación y se pueden ignorar para casos de uso de gestión de decisiones. Los objetos creados para mensajes en la aplicación tendrán `createdBy = “Mobile_Sheliak”`.
 
 ## Vídeo explicativo {#video}
 

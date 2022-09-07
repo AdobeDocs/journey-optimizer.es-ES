@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1153'
 ht-degree: 2%
 
 ---
@@ -38,9 +38,9 @@ En el **TIPO DE CORREO ELECTRÓNICO** seleccione el tipo de mensaje que se envia
 
 When [creación de un mensaje](../messages/get-started-content.md), debe elegir una superficie de canal válida que coincida con la categoría seleccionada para el correo electrónico.
 
-## Subdominio y grupo de IP {#subdomains-and-ip-pools}
+## Grupos de subdominios e IP {#subdomains-and-ip-pools}
 
-En el **DETALLES DEL GRUPO DE IP Y SUBDOMINIOS** , debe:
+En el **Grupos de subdominios e IP** , debe:
 
 1. Seleccione el subdominio que desea utilizar para enviar los correos electrónicos. [Más información](about-subdomain-delegation.md)
 
@@ -92,7 +92,7 @@ Obtenga más información sobre cómo añadir un vínculo de cancelación de sus
 
 ## Parámetros de encabezado{#email-header}
 
-En el **[!UICONTROL HEADER PARAMETERS]** , introduzca los nombres del remitente y las direcciones de correo electrónico asociadas al tipo de correos electrónicos enviados con esa superficie.
+En el **[!UICONTROL Header parameters]** , introduzca los nombres del remitente y las direcciones de correo electrónico asociadas al tipo de correos electrónicos enviados con esa superficie.
 
 >[!CAUTION]
 >
@@ -133,7 +133,7 @@ La dirección de correo electrónico de reenvío se configura por Adobe. Esto pu
 
 Puede enviar una copia idéntica (o una copia ciega de los correos electrónicos enviados por [!DNL Journey Optimizer] a una bandeja de entrada BCC donde se almacenarán para fines de cumplimiento o archivo.
 
-Para ello, habilite la **[!UICONTROL BCC EMAIL]** función opcional en el nivel de superficie del canal. [Más información](bcc-email.md)
+Para ello, habilite la **[!UICONTROL BCC email]** función opcional en el nivel de superficie del canal. [Más información](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 
@@ -145,7 +145,7 @@ Para ello, habilite la **[!UICONTROL BCC EMAIL]** función opcional en el nivel 
 >abstract="Los reintentos se realizan durante 3,5 días (84 horas) cuando un envío de correo electrónico falla debido a un error temporal de devolución del mensaje. Puede ajustar este período de tiempo de reintento predeterminado para adaptarlo mejor a sus necesidades."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="Acerca de los reintentos"
 
-Puede configurar la variable **PARÁMETROS DE REINTENTO DE CORREO ELECTRÓNICO**.
+Puede configurar la variable **Parámetros de reintentos de correo electrónico**.
 
 ![](assets/preset-retry-parameters.png)
 
@@ -171,13 +171,15 @@ Obtenga más información sobre los reintentos en [esta sección](retries.md).
 >title="Vista previa de los parámetros de seguimiento de URL"
 >abstract="Revise cómo se adjuntarán los parámetros de seguimiento a las direcciones URL presentes en el contenido del correo electrónico."
 
-Puede usar **[!UICONTROL URL TRACKING PARAMETERS]** para medir la eficacia de sus esfuerzos de marketing en todos los canales. Esta función es opcional.
+Puede usar **[!UICONTROL URL tracking parameters]** para medir la eficacia de sus esfuerzos de marketing en todos los canales. Esta función es opcional.
 
 Los parámetros definidos en esta sección se anexarán al final de las direcciones URL incluidas en el contenido del mensaje de correo electrónico. A continuación, puede capturar estos parámetros en herramientas de análisis web, como Adobe Analytics o Google Analytics, y crear varios informes de rendimiento.
 
-![](assets/preset-url-tracking.png)
+<!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
 
-Se rellenan automáticamente tres parámetros de seguimiento de URL como ejemplo al crear una superficie de canal. Puede editarlas y agregar hasta 10 parámetros de seguimiento mediante la variable **[!UICONTROL Add new parameter]** botón.
+Puede agregar hasta 10 parámetros de seguimiento utilizando la variable **[!UICONTROL Add new parameter]** botón.
+
+![](assets/preset-url-tracking.png)
 
 Para configurar un parámetro de seguimiento de URL, puede introducir directamente los valores deseados en la variable **[!UICONTROL Name]** y **[!UICONTROL Value]** campos.
 

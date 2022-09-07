@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '446'
 ht-degree: 2%
 
 ---
@@ -29,11 +29,11 @@ En la configuración predeterminada, el umbral se establece en 5 errores.
 
 Si una entrega se realiza correctamente después de un reintento, el contador de errores de la dirección se reinicia.
 
-## Editar el umbral de reintentos {#edit-retry-threshold}
+## Reintentar edición de umbral {#edit-retry-threshold}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"
->title="Actualizar el umbral de número de errores"
+>title="Actualizar el umbral de reintentos"
 >abstract="Si el valor predeterminado no se ajusta a sus necesidades, puede modificar el número permitido de devoluciones leves consecutivas. Cuando el contador de reintentos alcanza el umbral de error para una dirección de correo electrónico específica, esta dirección se agrega a la lista de supresión."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Comprender la lista de supresión"
 

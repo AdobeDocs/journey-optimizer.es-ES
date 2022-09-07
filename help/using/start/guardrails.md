@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '806'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ A continuación, encontrará limitaciones y protecciones adicionales al utilizar
 
 ## Protecciones de gestión de decisiones {#offer-guardrails}
 
-Las protecciones de rendimiento y los límites estáticos para la gestión de decisiones se enumeran en el [página de descripción del producto del servicio de aplicaciones de Offer decisioning de Adobe](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
+Las protecciones de rendimiento y los límites estáticos para la toma de decisiones se enumeran en la [página de descripción del producto del servicio de aplicaciones de Offer decisioning de Adobe](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
 
 
 ## Protecciones de las páginas de aterrizaje {#lp-guardrails}

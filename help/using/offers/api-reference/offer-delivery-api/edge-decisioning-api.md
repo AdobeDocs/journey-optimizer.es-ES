@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 2%
@@ -21,9 +21,9 @@ La variable [SDK web de Adobe Experience Platform](https://experienceleague.adob
 
 El SDK web del Experience Platform admite la consulta de las soluciones de personalización en el Adobe, incluida la gestión de decisiones, lo que le permite recuperar y procesar ofertas personalizadas que haya creado mediante API o la biblioteca de ofertas. Para obtener instrucciones más detalladas, consulte la documentación de [creación de una oferta](../../get-started/starting-offer-decisioning.md).
 
-Existen dos maneras de implementar el Offer decisioning con la variable [SDK web de plataforma](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). Una forma está dirigida a los desarrolladores y requiere conocimiento de los sitios web y programación. La otra forma es utilizar la interfaz de usuario de Adobe Experience Platform para configurar ofertas, que solo requiere que se haga referencia a una pequeña secuencia de comandos en el encabezado de la página del HTML.
+Existen dos maneras de implementar la administración de decisiones con la variable [SDK web de plataforma](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). Una forma está dirigida a los desarrolladores y requiere conocimiento de los sitios web y programación. La otra forma es utilizar la interfaz de usuario de Adobe Experience Platform para configurar ofertas, que solo requiere que se haga referencia a una pequeña secuencia de comandos en el encabezado de la página del HTML.
 
-Consulte la documentación de [offer decisioning](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) para obtener más información sobre cómo ofrecer ofertas personalizadas mediante el SDK web de Platform.
+Consulte la documentación de [gestión de decisiones](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) para obtener más información sobre cómo ofrecer ofertas personalizadas mediante el SDK web de Platform.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Para personalizar ofertas, debe configurar separadamente la personalización o l
 
 <!-- Refer to the [doc](www.link.com) for detailed instructions.  -->
 
-Para configurar el SDK para el Offer decisioning, siga cualquiera de los dos pasos siguientes:
+Para configurar el SDK para la administración de decisiones, siga cualquiera de los dos pasos siguientes:
 
 ## Opción 1: Instalar la extensión y la implementación de etiquetas con Launch
 
@@ -90,7 +90,7 @@ Esta opción es más fácil de usar para las personas que tengan menos experienc
 
 ## Opción 2: Implementar manualmente con la versión independiente prediseñada
 
-Estos son los pasos necesarios para utilizar Offer decisioning mediante la instalación independiente prediseñada del SDK web. En esta guía se supone que es la primera vez que implementa el SDK, por lo que es posible que no se le apliquen todos los pasos. Esta guía también asume alguna experiencia de desarrollo.
+Estos son los pasos necesarios para utilizar la administración de decisiones mediante la instalación independiente prediseñada del SDK web. En esta guía se supone que es la primera vez que implementa el SDK, por lo que es posible que no se le apliquen todos los pasos. Esta guía también asume alguna experiencia de desarrollo.
 
 Incluya el siguiente fragmento de JavaScript de la Opción 2: La versión independiente prediseñada en [esta página](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) en el `<head>` de su página HTML.
 

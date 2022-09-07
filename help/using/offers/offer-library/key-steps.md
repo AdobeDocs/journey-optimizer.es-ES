@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '341'
 ht-degree: 14%
 
 ---
@@ -58,7 +58,7 @@ Antes de comenzar a crear ofertas, debe definir varios componentes que utilizar�
 
 ## Crear y configurar decisiones {#create-and-configure-decisions}
 
-1. **Crear una decisión** que combinará ubicaciones con ofertas personalizadas y ofertas de reserva. El motor de Offer decisioning utilizará esta combinación para encontrar la mejor oferta para un perfil específico.
+1. **Crear una decisión** que combinará ubicaciones con ofertas personalizadas y ofertas de reserva. El motor de toma de decisiones utilizará esta combinación para encontrar la mejor oferta para un perfil específico.
 
 1. **Configurar la decisión**. Para ello, seleccione las ubicaciones y, para cada ubicación, seleccione una colección y una alternativa.
 

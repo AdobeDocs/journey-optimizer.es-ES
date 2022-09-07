@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 100%
+source-wordcount: '937'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Utilice [!DNL Journey Optimizer] para ofrecer la mejor oferta y experiencia a sus clientes en todos los puntos de contacto y en el momento adecuado. Una vez diseñadas, las audiencias se segmentarán con ofertas personalizadas.
 
-Offer Decisioning facilita la personalización con una biblioteca central de ofertas de marketing y un motor de decisión que aplica reglas y restricciones a perfiles enriquecidos en tiempo real creados por Adobe Experience Platform para ayudarle a enviarles a sus clientes la oferta correcta en el momento adecuado.
+La administración de decisiones facilita la personalización con una biblioteca central de ofertas de marketing y un motor de decisión que aplica reglas y restricciones a perfiles enriquecidos y en tiempo real creados por Adobe Experience Platform para ayudarle a enviar a sus clientes la oferta correcta en el momento adecuado.
 
 La capacidad Administración de decisiones consta de dos componentes principales:
 
@@ -69,7 +69,7 @@ Las funciones y la integración de Administración de decisiones con Adobe Exper
 
 ## Concesión de acceso a Gestión de decisiones {#granting-acess-to-decision-management}
 
-Los permisos para acceder y utilizar las funcionalidades de Offer Decisioning se administran mediante [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+Los permisos para acceder y utilizar las capacidades de toma de decisiones se administran mediante la variable [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
 
 Para conceder acceso a la funcionalidad de Gestión de decisiones, debe crear un **[!UICONTROL Product profile]** y asignar los permisos correspondientes a sus usuarios. Más información sobre la administración de usuarios y permisos de [!DNL Journey Optimizer] en [esta sección](../../administration/permissions.md).
 
