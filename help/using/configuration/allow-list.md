@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: c90dd7bb12461ada1d70da52a5024a5c6e860647
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '952'
 ht-degree: 3%
 
 ---
@@ -149,6 +149,11 @@ Puede realizar el **Agregar**, **Eliminar** y **Get** operaciones.
 Obtenga más información sobre cómo realizar llamadas de API en la sección [API de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html)Documentación de referencia de {target=&quot;_blank&quot;}.
 
 ## lógica de lista de permitidos {#logic}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_allowed_list_logic"
+>title="Administrar la lista de permitidos"
+>abstract="Cuando se activa la lista de permitidos, solo los destinatarios incluidos en la lista de permitidos reciben mensajes de correo electrónico de este simulador para pruebas."
 
 Cuando la lista de permitidos es [active](#enable-allow-list), se aplica la siguiente lógica:
 
