@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: e9aab8f3e686a6858e401101f751a35933a21c0a
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1772'
 ht-degree: 2%
 
 ---
@@ -72,6 +72,11 @@ Por ejemplo, si establece las siguientes restricciones:
 >abstract="En esta sección, puede utilizar reglas de decisión para determinar qué usuarios son elegibles para la oferta."
 >additional-url="https://video.tv.adobe.com/v/329373" text="Ver vídeo de demostración"
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_total_profile_estimate"
+>title="Estimación total del perfil"
+>abstract="Al seleccionar segmentos o reglas de decisión, puede ver información sobre los perfiles cualificados estimados."
+
 La variable **[!UICONTROL Offer eligibility]** le permite restringir la oferta a perfiles específicos que defina mediante segmentos o reglas de decisión.
 
 >[!NOTE]
@@ -134,6 +139,11 @@ Básicamente, el resultado de un segmento es una lista de perfiles, mientras que
 >title="Usar restricción"
 >abstract="Para evitar que los clientes se saturen, utilice el límite para definir el número máximo de veces que se puede presentar una oferta."
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping"
+>title="Definición de la frecuencia de restricción"
+>abstract="Puede elegir restablecer el contador de límite de ofertas de forma diaria, semanal o mensual."
+
 El límite se utiliza como una restricción para definir el número máximo de veces que se puede presentar una oferta.
 
 Limitar el número de veces que los usuarios obtienen ofertas específicas le permite evitar saturar a sus clientes y, por lo tanto, optimizar cada punto de contacto con la mejor oferta.
@@ -160,6 +170,16 @@ Para definir el límite, siga los pasos a continuación.
 
       Por ejemplo, si es un banco con una oferta de &quot;tarjeta de crédito Platinum&quot;, no desea que esta oferta se muestre más de 5 veces por perfil. De hecho, cree que si el usuario ha visto la oferta 5 veces y no ha actuado en ella, tiene más posibilidades de actuar en la siguiente mejor oferta.
 
+1. Configure las variables **[!UICONTROL Frequency]** para definir la frecuencia con la que se restablece el recuento de límite. Para ello, defina el periodo de tiempo para el recuento (diario, semanal o mensual) e introduzca el número de días/semanas/meses de su elección.
+
+   ![](../assets/offer-capping-frequency.png)
+
+   >[!NOTE]
+   >
+   >El restablecimiento se realiza a las 12:00 UTC, el día que haya definido o el primer día de la semana/mes, si corresponde. El día de inicio de la semana es domingo.
+
+   Por ejemplo, si desea que el recuento de límite se restablezca cada 2 semanas, seleccione **[!UICONTROL Weekly]** de la variable **[!UICONTROL Repeat]** tipo y lista desplegable **2** en el segundo campo. El reinicio se realizará cada dos domingos a las 12pm UTC.
+
 1. Si ha definido varias [representaciones](#representations) para la oferta, especifique si desea aplicar restricciones **[!UICONTROL Across all placements]** o **[!UICONTROL For each placement]**.
 
    ![](../assets/offer-capping-placement.png)
@@ -172,7 +192,7 @@ Para definir el límite, siga los pasos a continuación.
 
       Por ejemplo, si una oferta tiene una **Correo electrónico** ubicación y **Web** ubicación y establezca el límite en **2 por perfil para cada ubicación**, cada perfil podría recibir la oferta hasta 2 veces para la ubicación del correo electrónico y otras 2 veces para la ubicación web.
 
-1. Una vez guardada y aprobada, si la oferta se ha presentado el número de veces que ha especificado en este campo según los criterios definidos, su entrega se detendrá.
+1. Una vez guardada y aprobada, si la oferta se ha presentado el número de veces especificado en este campo según los criterios y el periodo de tiempo definido, su envío se detendrá.
 
 El número de veces que se propone una oferta se calcula en el momento de la preparación del correo electrónico. Por ejemplo, si prepara un mensaje de correo electrónico con una serie de ofertas, esos números se cuentan hasta el límite máximo, independientemente de si se envía o no el correo electrónico.
 
