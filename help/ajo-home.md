@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 >[!CAUTION]
 >
->El 22 de julio de 2014, Adobe Journey Optimizer lanzó un [nueva función](using/rn/inline-messages.md) que mejora la forma en que se crea contenido para canales de Journey Optimizer (correo electrónico, push, SMS). Como profesional de Journey Optimizer, ahora [crea y genera](using/messages/messages-in-journeys.md) sus mensajes directamente desde un recorrido. Se ejecuta una conversión automática de recorridos. Dicho esto, necesitamos su ayuda con algunos pasos. Obtenga más información sobre los [pasos necesarios](using/rn/inline-messages-steps.md).
+>En julio de 2022, Adobe Journey Optimizer lanzó una [función nueva](using/rn/inline-messages.md) que mejora la forma en que se crea contenido para canales de Journey Optimizer (correo electrónico, push, SMS). Como profesional de Journey Optimizer, ahora [crea y genera](using/messages/messages-in-journeys.md) sus mensajes directamente desde un recorrido. Se ejecuta una conversión automática de recorridos. Dicho esto, necesitamos su ayuda con algunos pasos. Obtenga más información sobre los [pasos necesarios](using/rn/inline-messages-steps.md).
 
 <table style="table-layout:fixed">
 <tr>
@@ -74,7 +74,7 @@ ht-degree: 94%
     <p>Defina y administre los permisos asignados a usuarios de [!DNL Journey Optimizer]
     <p>
     <div>
-    <a href="using/offers/get-started/starting-offer-decisioning.md">Administración de decisiones</a>
+    <a href="using/offers/get-started/starting-offer-decisioning.md">Gestión de decisiones</a>
     </div>
     <p>Cree ofertas; proporcione la mejor oferta y experiencia a sus clientes
     <p>
@@ -123,7 +123,7 @@ ht-degree: 94%
       <a href="using/landing-pages/get-started-lp.md">Páginas de aterrizaje</a>
     </li>
     <p>
-    <p>ADMINISTRACIÓN DE DECISIONES</p>
+    <p>GESTIÓN DE DECISIONES</p>
     <li>
       <a href="using/offers/get-started/starting-offer-decisioning.md">Ofertas</a>
     </li>
@@ -199,7 +199,7 @@ Reciba las últimas actualizaciones de productos, historias interesantes, casos 
 
 En cada newsletter encontrará lo siguiente:
 * Noticias y actualizaciones de productos, incluidas las funciones lanzadas recientemente
-* Invitaciones a actos y seminarios web y grabaciones para seminarios web recientes
+* Invitaciones a eventos y seminarios web y grabaciones para seminarios web recientes
 * Principales discusiones en la comunidad de Experience League de Adobe Journey Optimizer
 * Casos prácticos y casos de uso de otros clientes de Adobe Journey Optimizer
 * Sugerencias y trucos para ofrecer experiencias de cliente excepcionales que impulsen el éxito empresarial
