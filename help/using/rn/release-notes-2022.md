@@ -5,7 +5,7 @@ exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '2337'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -95,7 +95,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 * **Finalización de un recorrido**: en el lienzo del recorrido, la actividad **Fin** se ha eliminado de la paleta. Las etiquetas finales ahora se añaden de forma predeterminada al final de cada ruta y no se pueden eliminar. Esta mejora permite informar mejor sobre dónde abandonó un cliente el recorrido, sin que se requiera ninguna acción por parte del profesional del recorrido. Consulte la [documentación](../building-journeys/journey-end.md) y el [vídeo de funciones](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
 
 
-* La variable **Zona horaria del perfil** ahora está desactivada de forma predeterminada en las propiedades de recorrido. [Más información](../building-journeys/timezone-management.md#timezone-from-profiles)
+* La opción **Zona horaria del perfil** ahora está desactivada de forma predeterminada en las propiedades del recorrido. [Más información](../building-journeys/timezone-management.md#timezone-from-profiles)
 
 **Mensajes**
 
@@ -263,7 +263,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <tbody>
 <tr>
 <td>
-<p>Ahora puede utilizar sistemas de modelos formados en Administración de decisiones. Esta nueva capacidad clasifica las ofertas que se muestran para un perfil determinado.</p>
+<p>Ahora puede utilizar sistemas de modelos formados en Gestión de decisiones. Esta nueva capacidad clasifica las ofertas que se muestran para un perfil determinado.</p>
 <!--img src="assets/do-not-localize/optimization.gif"/-->
 <p>Para obtener más información, consulte la <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">documentación detallada</a>.</p>
 </td>
@@ -332,13 +332,13 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 ### Mejoras
 
-**Páginas de destino**
+**Páginas de aterrizaje**
 
-* **Nueva opción para casillas de verificación de inclusión/exclusión.** Ahora puede insertar una sola casilla de verificación para la inclusión/exclusión en las páginas de destino de suscripción. Los usuarios deben marcar la casilla de verificación para el consentimiento (inclusión) y desmarcar para eliminar su consentimiento (exclusión). [Más información](../landing-pages/design-lp.md#define-lp-specific-content)
+* **Nueva opción para casillas de verificación de inclusión/exclusión.** Ahora puede insertar una sola casilla de verificación para la inclusión/exclusión en las páginas de aterrizaje de suscripción. Los usuarios deben marcar la casilla de verificación para el consentimiento (inclusión) y desmarcar para eliminar su consentimiento (exclusión). [Más información](../landing-pages/design-lp.md#define-lp-specific-content)
 
 * **Rellenar previamente campos de páginas de destino.** Ahora es posible proporcionar a los usuarios la capacidad de rellenar previamente los campos de la página de aterrizaje con información del perfil. [Más información](../landing-pages/create-lp.md#configure-primary-page)
 
-**Administración de decisiones**
+**Gestión de decisiones**
 
 * **API de decisiones en Edge** - La API de Edge Decisioning puede entregar y procesar ofertas personalizadas que se administran en la administración de decisiones. Puede crear sus ofertas y otros objetos relacionados mediante la interfaz de usuario (IU) o las API de administración de decisiones. [Más información](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
@@ -375,15 +375,15 @@ Como cliente de Adobe Campaign Standard, ahora puede enviar correos electrónico
 * Para evitar tener campos innecesarios en el esquema de perfil unificado, el esquema de Evento de paso de recorrido ya no está habilitado para perfiles de forma predeterminada. Si es necesario, puede activarlo. [Más información](../reports/sharing-overview.md)
 * Journey Optimizer ahora envía a Adobe Experience Platform nuevos eventos relacionados con los trabajos de exportación. Se han añadido ejemplos de consultas a la documentación. [Más información](../reports/query-examples.md)
 
-**Administración de decisiones**
+**Gestión de decisiones**
 
-* Ahora puede especificar si la restricción de oferta se aplica a todos los usuarios o a un perfil específico, así como a todas las ubicaciones o a una. [Más información](../offers/offer-library/add-constraints.md#capping)
+* Ahora puede especificar si el límite de oferta se aplica a todos los usuarios o a un perfil específico, así como a todas las ubicaciones o a una. [Más información](../offers/offer-library/add-constraints.md#capping)
 * La API de decisiones por lotes permite a las organizaciones utilizar la funcionalidad de administración de decisiones para todos los perfiles de un segmento determinado en una llamada. El contenido de la oferta para cada perfil del segmento se coloca en un conjunto de datos de AEP, donde está disponible para flujos de trabajo por lotes personalizados. [Más información](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **Administración**
 
 * Ahora puede habilitar/deshabilitar el vínculo de cancelación de suscripción en/desde el encabezado de correo electrónico en el nivel de ajuste preestablecido de mensaje y establecer una URL de cancelación de suscripción personalizada en el nivel de mensaje. [Más información](../configuration/channel-surfaces.md#list-unsubscribe)
-* Ahora, la lista de permitidos se puede habilitar y deshabilitar a través de la interfaz [!DNL Journey Optimizer] en entornos limitados de producción y sin producción. [Más información](../configuration/allow-list.md#enable-allow-list)
+* Ahora, la lista de permitidos se puede habilitar y deshabilitar a través de la interfaz [!DNL Journey Optimizer] en zonas protegidas de producción y sin producción. [Más información](../configuration/allow-list.md#enable-allow-list)
 
 **Personalización**
 
@@ -478,7 +478,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 <!--* decision management reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
 
-**Administración de decisiones**
+**Gestión de decisiones**
 
 * Las clasificaciones y la clasificación de IA ahora se agrupan en una sola pestaña.
 
@@ -511,7 +511,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tbody>
 <tr>
 <td>
-<p>La opción <strong>Lectura incremental</strong> se ha añadido a las actividades <strong>Leer segmento</strong> recurrentes. Esta opción le permite dirigirse únicamente a las personas que ingresaron al segmento desde la última ejecución del recorrido. La primera ejecución siempre se dirige a todos los miembros del segmento.</p>
+<p>La opción <strong>Lectura incremental</strong> se ha añadido a las actividades <strong>Leer segmento</strong> recurrentes. Esta opción le permite dirigirse únicamente a individuales que ingresaron al segmento desde la última ejecución del recorrido. La primera ejecución siempre se dirige a todos los miembros del segmento.</p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">documentación detallada</a>.
 </td>
 </tr>

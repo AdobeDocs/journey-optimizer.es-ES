@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d4ea9786983d7919ea1598c91ec523826ba7a689
 workflow-type: tm+mt
 source-wordcount: '1137'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -43,11 +43,11 @@ ht-degree: 97%
       + [Creación de un experimento de contenido](using/campaigns/content-experiment.md)
       + [Comprender los cálculos estadísticos](using/campaigns/experiment-calculations.md)
       + [Configurar informes de experimentación](using/campaigns/reporting-configuration.md)
-   + [Activación de campañas mediante API](using/campaigns/api-triggered-campaigns.md)
+   + [Activación de campañas mediante las API](using/campaigns/api-triggered-campaigns.md)
 + Mensajes {#messages}
    + [Introducción a los mensajes](using/messages/get-started-content.md)
-   + [Añadir recorridos de mensajes](using/messages/messages-in-journeys.md)
-   + [Añadir campañas de mensajes](using/messages/messages-in-campaigns.md)
+   + [Agregar recorridos de mensajes](using/messages/messages-in-journeys.md)
+   + [Agregar campañas de mensajes](using/messages/messages-in-campaigns.md)
    + [Crear un correo electrónico](using/messages/create-email.md)
    + [Crear una notificación push](using/messages/create-push.md)
    + [Creación de un mensaje SMS](using/messages/create-sms.md)
@@ -244,13 +244,13 @@ ht-degree: 97%
    + Informe en vivo {#live-report}
       + [Acceso al panel de informes activo](using/reports/live-report.md)
       + [Informe activo de recorrido](using/reports/journey-live-report.md)
-      + [Informe de campaña en directo](using/reports/campaign-live-report.md)
+      + [Informe en directo de la campaña](using/reports/campaign-live-report.md)
       + [Informe en directo de la página de aterrizaje](using/reports/lp-report-live.md)
       + [Informe en directo de la lista de suscripciones](using/reports/subscription-report-live.md)
    + Informe global {#global-report}
       + [Acceso al panel de informes globales](using/reports/global-report.md)
       + [Informe global de recorrido](using/reports/journey-global-report.md)
-      + [Informe global de campaña](using/reports/campaign-global-report.md)
+      + [Informe global de la campaña](using/reports/campaign-global-report.md)
       + [Informe global de la página de aterrizaje](using/reports/lp-report-global.md)
       + [Informe global de la lista de suscripciones](using/reports/subscription-report-global.md)
    + Informes de recorrido {#reports}
@@ -266,7 +266,7 @@ ht-degree: 97%
       + [Ejemplos de consultas](using/reports/query-examples.md)
    + Capacidad de entrega {#deliverability}
       + [Introducción a la capacidad de entrega](using/reports/deliverability.md)
-      + [Comprender la lista de supresión](using/reports/suppression-list.md)
+      + [Explicación de la lista de supresión](using/reports/suppression-list.md)
 + Gestión de decisiones {#offer-decisioning}
    + Introducción a la Gestión de decisiones {#get-started-decision}
       + [Acerca de la Gestión de decisiones](using/offers/get-started/starting-offer-decisioning.md)
