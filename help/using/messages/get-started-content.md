@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 30%
 
 Use [!DNL Journey Optimizer] para crear y enviar notificaciones push personalizadas, SMS y mensajes de correo electrónico.
 
-Todos los mensajes se pueden editar en línea como parte de [una acción en el lienzo del Recorrido](messages-in-journeys.md)o [en el contexto de una campaña](messages-in-campaigns.md).
+Todos los mensajes se pueden editar en línea como parte de [una acción en el lienzo del Recorrido](messages-in-journeys.md) o [en el contexto de una campaña](messages-in-campaigns.md).
 
 Una vez que los mensajes se añaden al recorrido o a la campaña, aprenda a diseñar y configurar los mensajes en las secciones siguientes:
 
-* **Creación de un correo electrónico** : Aprenda a crear un contenido de correo electrónico y validar el mensaje [en esta página](create-email.md).
+* **Creación de un correo electrónico**: aprenda a crear un contenido de correo electrónico y validar el mensaje [en esta página](create-email.md).
 
-* **Creación de una notificación push** : Aprenda a crear notificaciones push para dispositivos iOS y Android [en esta página](create-push.md).
+* **Creación de una notificación push**: aprenda a crear notificaciones push para dispositivos iOS y Android [en esta página](create-push.md).
 
-* **Creación de un SMS** - Aprenda a crear contenido SMS y validar su mensaje [en esta página](create-sms.md).
+* **Creación de un SMS**: aprenda a crear contenido de SMS y validar su mensaje [en esta página](create-sms.md).
 
 >[!NOTE]
 >
