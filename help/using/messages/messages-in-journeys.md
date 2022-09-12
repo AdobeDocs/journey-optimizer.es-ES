@@ -1,19 +1,19 @@
 ---
-title: Añadir mensajes en recorridos
-description: Aprenda a añadir mensajes en un recorrido
+title: Adición de mensajes a los recorridos
+description: Aprenda a agregar mensajes en un recorrido
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 source-git-commit: a36f0b1c8d59d49e38b21725621d5b276741bd8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
-# Añadir mensajes en recorridos{#messages-in-journeys}
+# Adición de mensajes a los recorridos{#messages-in-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_category"
@@ -25,14 +25,14 @@ ht-degree: 85%
 >title="Superficie de canal"
 >abstract="Una superficie de canal es una instancia de ese canal que tiene toda la configuración para enviar una acción correctamente a través de una campaña o un recorrido. Se define mediante un administrador del sistema."
 
-En sus recorridos, utilice las acciones del canal para diseñar y personalizar el mensaje que desea enviar a su audiencia. Al añadir un correo electrónico, un SMS o una acción Push a los lienzos de recorrido, se crea un envío activado. Cuando los contactos llegan a esa acción del canal, Adobe Journey Optimizer envía el mensaje automáticamente.
+En sus recorridos, utilice las acciones del canal para diseñar y personalizar el mensaje que desea enviar a su audiencia. Al agregar un correo electrónico, un SMS o una acción push a los lienzos de recorrido, se crea un envío activado. Cuando los contactos llegan a esa acción del canal, Adobe Journey Optimizer envía el mensaje automáticamente.
 
 
 >[!NOTE]
 >También puede crear campañas para enviar mensajes programados. Obtenga más información [en esta sección](../campaigns/get-started-with-campaigns.md).
 
 
-Para añadir mensajes en un recorrido, añada una actividad push, SMS o de correo electrónico en los lienzos de recorrido.
+Para agregar mensajes en un recorrido, agregue una actividad push, SMS o de correo electrónico en los lienzos de recorrido.
 
 1. Inicie el recorrido con un [Evento](../building-journeys/general-events.md) o una actividad [Leer segmento](../building-journeys/read-segment.md).
 
