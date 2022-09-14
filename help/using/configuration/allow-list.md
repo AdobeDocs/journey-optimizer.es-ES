@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: c90dd7bb12461ada1d70da52a5024a5c6e860647
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 3%
+source-wordcount: '1024'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ Además, cuando la lista de permitidos está activa pero vacía, no se envía ni
 
 ## Acceso a la lista de permitidos {#access-allowed-list}
 
-Para acceder a la lista detallada de direcciones de correo electrónico y dominios permitidos, vaya a **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** y seleccione **[!UICONTROL Allowed list]**.
+Para acceder a la lista detallada de direcciones de correo electrónico y dominios permitidos, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** y seleccione **[!UICONTROL Lista de permitidos]**.
 
 ![](assets/allow-list-access.png)
 
@@ -41,11 +41,11 @@ Para acceder a la lista detallada de direcciones de correo electrónico y domini
 >
 >Los permisos para ver, exportar y administrar la lista de permitidos están restringidos a [Administradores de recorrido](../administration/ootb-product-profiles.md#journey-administrator). Más información sobre la administración [!DNL Journey Optimizer] derechos de acceso de los usuarios en [esta sección](../administration/permissions-overview.md).
 
-Para exportar la lista de permitidos como archivo CSV, seleccione la opción **[!UICONTROL Download CSV]** botón.
+Para exportar la lista de permitidos como archivo CSV, seleccione la opción **[!UICONTROL Descargar CSV]** botón.
 
-Utilice la variable **[!UICONTROL Delete]** para eliminar permanentemente una entrada.
+Utilice la variable **[!UICONTROL Eliminar]** para eliminar permanentemente una entrada.
 
-Puede buscar en las direcciones de correo electrónico o en los dominios y filtrar por el **[!UICONTROL Address type]**. Una vez seleccionado, puede borrar el filtro mostrado en la parte superior de la lista.
+Puede buscar en las direcciones de correo electrónico o en los dominios y filtrar por el **[!UICONTROL Tipo de dirección]**. Una vez seleccionado, puede borrar el filtro mostrado en la parte superior de la lista.
 
 ![](assets/allowed-list-filtering-example.png)
 
@@ -53,13 +53,13 @@ Puede buscar en las direcciones de correo electrónico o en los dominios y filtr
 
 Para activar la lista de permitidos, siga los pasos a continuación.
 
-1. Acceda al menú **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]**.
+1. Acceda a la  **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** > **[!UICONTROL Lista de permitidos]** para abrir el Navegador.
 
-1. Haga clic en **[!UICONTROL Deactivated]**.
+1. Haga clic en **[!UICONTROL Desactivado]**.
 
    ![](assets/allow-list-edit.png)
 
-1. Seleccione **[!UICONTROL Activate allowed list]**. La lista de permitidos está activa.
+1. Select **[!UICONTROL Activar lista de permitidos]**. La lista de permitidos está activa.
 
    ![](assets/allow-list-enable.png)
 
@@ -77,13 +77,13 @@ La lógica de lista de permitidos se aplica cuando la función está activa. Obt
 
 Para desactivar la lista de permitidos, siga los pasos a continuación.
 
-1. Acceda al menú **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]**.
+1. Acceda a la  **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** > **[!UICONTROL Lista de permitidos]** para abrir el Navegador.
 
-1. Haga clic en **[!UICONTROL Active]**.
+1. Haga clic en **[!UICONTROL Activo]**.
 
    ![](assets/allow-list-edit-active.png)
 
-1. Seleccione **[!UICONTROL Deactivate allowed list]**. La lista de permitidos ya no está activa.
+1. Select **[!UICONTROL Desactivar lista de permitidos]**. La lista de permitidos ya no está activa.
 
    ![](assets/allow-list-deactivate.png)
 
@@ -104,6 +104,11 @@ Para agregar nuevas direcciones de correo electrónico o dominios a la lista de 
 ### Rellenado manual de la lista de permitidos {#manually-populate-list}
 
 >[!CONTEXTUALHELP]
+>id="ajo_admin_allowed_list_add_header"
+>title="Añadir direcciones o dominios a la lista de permitidos"
+>abstract="Puede añadir manualmente nuevas direcciones de correo electrónico o dominios a la lista de permitidos seleccionándolos uno a uno."
+
+>[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add"
 >title="Añadir direcciones o dominios a la lista de permitidos"
 >abstract="Puede añadir manualmente nuevas direcciones de correo electrónico o dominios a la lista de permitidos seleccionándolos uno a uno."
@@ -116,11 +121,11 @@ Puede rellenar manualmente la variable [!DNL Journey Optimizer] lista de permiti
 
 Para realizar esto, siga los pasos a continuación.
 
-1. Seleccione el botón **[!UICONTROL Add email or domain]**.
+1. Seleccione el **[!UICONTROL Añadir correo electrónico o dominio]** botón.
 
    ![](assets/allowed-list-add-email.png)
 
-1. Elija el tipo de dirección: **[!UICONTROL Email address]** o **[!UICONTROL Domain address]**.
+1. Elija el tipo de dirección: **[!UICONTROL Dirección de correo electrónico]** o **[!UICONTROL Dirección del dominio]**.
 
 1. Introduzca la dirección de correo electrónico o el dominio al que desee enviar los correos electrónicos.
 
@@ -134,9 +139,9 @@ Para realizar esto, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Se permiten todos los caracteres ASCII comprendidos entre 32 y 126 en la variable **[!UICONTROL Reason]** campo . La lista completa se encuentra en [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por ejemplo.
+   >Se permiten todos los caracteres ASCII comprendidos entre 32 y 126 en la variable **[!UICONTROL Razón]** campo . La lista completa se encuentra en [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por ejemplo.
 
-1. Haga clic en **[!UICONTROL Submit]**.
+1. Haga clic en **[!UICONTROL Enviar]**.
 
 ### Añadir entidades mediante una llamada de API {#api-call-allowed-list}
 
@@ -159,13 +164,13 @@ Cuando la lista de permitidos es [active](#enable-allow-list), se aplica la sigu
 
 * Si la lista de permitidos es **empty**, no se enviará ningún correo electrónico.
 
-* Si una entidad es **en la lista de permitidos** y no en la lista de supresión, el correo electrónico se envía a los destinatarios correspondientes. Sin embargo, si la entidad también está en la variable [lista de supresión](../reports/suppression-list.md), los destinatarios correspondientes no recibirán el correo electrónico, por lo que **[!UICONTROL Suppressed]**.
+* Si una entidad es **en la lista de permitidos** y no en la lista de supresión, el correo electrónico se envía a los destinatarios correspondientes. Sin embargo, si la entidad también está en la variable [lista de supresión](../reports/suppression-list.md), los destinatarios correspondientes no recibirán el correo electrónico, por lo que **[!UICONTROL Suprimido]**.
 
-* Si una entidad es **no en la lista de permitidos** (y no en la lista de supresión), los destinatarios correspondientes no recibirán el correo electrónico, por lo que **[!UICONTROL Not allowed]**.
+* Si una entidad es **no en la lista de permitidos** (y no en la lista de supresión), los destinatarios correspondientes no recibirán el correo electrónico, por lo que **[!UICONTROL No permitido]**.
 
 >[!NOTE]
 >
->Los perfiles con **[!UICONTROL Not allowed]** se excluyen durante el proceso de envío de mensajes. Por lo tanto, mientras que la variable **Informes de recorrido** mostrará estos perfiles como si se hubieran movido a través del recorrido ([Leer segmento](../building-journeys/read-segment.md) y [actividades de mensaje](../building-journeys/journeys-message.md)), el **Informes de correo electrónico** no los incluirá en la variable **[!UICONTROL Sent]** las métricas tal y como están filtradas antes del envío por correo electrónico.
+>Los perfiles con **[!UICONTROL No permitido]** se excluyen durante el proceso de envío de mensajes. Por lo tanto, mientras que la variable **Informes de recorrido** mostrará estos perfiles como si se hubieran movido a través del recorrido ([Leer segmento](../building-journeys/read-segment.md) y [actividades de mensaje](../building-journeys/journeys-message.md)), el **Informes de correo electrónico** no los incluirá en la variable **[!UICONTROL Enviado]** las métricas tal y como están filtradas antes del envío por correo electrónico.
 >
 >Obtenga más información sobre [Informe Activo](../reports/live-report.md) y [Informe global](../reports/global-report.md).
 

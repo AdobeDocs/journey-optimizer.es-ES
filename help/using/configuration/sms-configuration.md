@@ -4,10 +4,10 @@ description: Aprenda a configurar su entorno para enviar mensajes SMS con Journe
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '711'
+ht-degree: 2%
 
 ---
 
@@ -24,9 +24,15 @@ Antes de enviar SMS, configure su instancia. Debe [integrar la configuración de
 ## Crear nueva credencial de API {#create-api}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_sms_api"
->title="Seleccione la configuración del proveedor de SMS"
+>id="ajo_admin_sms_api_header"
+>title="Configurar el proveedor de SMS con Journey Optimizer"
 >abstract="Seleccione su proveedor y rellene sus credenciales de API de SMS."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api"
+>title="Configurar el proveedor de SMS con Journey Optimizer"
+>abstract="Antes de enviar SMS, debe integrar la configuración del proveedor con Journey Optimizer. Una vez finalizado, deberá crear una superficie SMS. Estos pasos debe realizarlos un administrador del sistema de Adobe Journey Optimizer."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/sms-configuration.html#message-preset-sms" text="Creación de una superficie de canal SMS"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
@@ -35,18 +41,18 @@ Antes de enviar SMS, configure su instancia. Debe [integrar la configuración de
 
 Para configurar el proveedor de SMS con Journey Optimizer, siga estos pasos:
 
-1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL API Credentials]** a continuación, haga clic en **[!UICONTROL Create API credential]**.
+1. Acceda a la **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Credenciales de API]** a continuación, haga clic en **[!UICONTROL Creación de credenciales de API]**.
 
    ![](assets/sms_4.png)
 
-1. Seleccione su **[!UICONTROL SMS vendor]**:
+1. Seleccione su **[!UICONTROL Proveedor de SMS]**:
 
-   * [!DNL Sinch]. Para encontrar su **[!UICONTROL Service ID]** y **[!UICONTROL API Token]**, acceda al menú SMS > API desde su cuenta de Launch.
-   * [!DNL Twilio]. Para encontrar su **[!UICONTROL Service ID]** y **[!UICONTROL API Token]**, acceda al panel Información de la cuenta de la página Tablero de consola .
+   * [!DNL Sinch]. Para encontrar su **[!UICONTROL ID de servicio]** y **[!UICONTROL Token de API]**, acceda al menú SMS > API desde su cuenta de Launch.
+   * [!DNL Twilio]. Para encontrar su **[!UICONTROL ID de servicio]** y **[!UICONTROL Token de API]**, acceda al panel Información de la cuenta de la página Tablero de consola .
 
-1. Escriba un **[!UICONTROL Name]** para su credencial de API.
+1. Escriba un **[!UICONTROL Nombre]** para su credencial de API.
 
-1. Escriba la **[!UICONTROL Service ID]** y **[!UICONTROL API Token]**.
+1. Escriba la **[!UICONTROL ID de servicio]** y **[!UICONTROL Token de API]**.
 
    ![](assets/sms_5.png)
 
@@ -66,7 +72,7 @@ Una vez configurado el canal SMS, debe crear una superficie de canal para poder 
 
 Para crear una superficie de canal, siga estos pasos:
 
-1. Acceda a la **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** a continuación, haga clic en **[!UICONTROL Create channel surface]**.
+1. Acceda a la **[!UICONTROL Canales]** > **[!UICONTROL Marcas]** > **[!UICONTROL Superficies de canal]** a continuación, haga clic en **[!UICONTROL Crear superficie de canal]**.
 
    ![](assets/preset-create.png)
 
@@ -82,27 +88,27 @@ Para crear una superficie de canal, siga estos pasos:
 
    ![](assets/preset-sms.png)
 
-   * Seleccione el **[!UICONTROL SMS Type]** que se enviará con la superficie: **[!UICONTROL Transactional]** o **[!UICONTROL Marketing]**.
+   * Seleccione el **[!UICONTROL Tipo de SMS]** que se enviará con la superficie: **[!UICONTROL Transaccional]** o **[!UICONTROL Marketing]**.
 
-   * Seleccione el **[!UICONTROL SMS configuration]** para asociarlo a la superficie.
+   * Seleccione el **[!UICONTROL Configuración de SMS]** para asociarlo a la superficie.
 
       Para obtener más información sobre cómo configurar su entorno para enviar mensajes SMS, consulte [esta sección](#create-api).
 
-   * Introduzca la variable **[!UICONTROL Sender number]** &#x200B; desea utilizar para sus comunicaciones.
+   * Introduzca la variable **[!UICONTROL Número de remitente]** &#x200B; desea utilizar para sus comunicaciones.
 
-   * Seleccione su **[!UICONTROL SMS Execution Field]** para seleccionar el **[!UICONTROL Profile attribute]** asociado a los números de teléfono de los perfiles.
+   * Seleccione su **[!UICONTROL Campo de ejecución de SMS]** para seleccionar el **[!UICONTROL Atributo de perfil]** asociado a los números de teléfono de los perfiles.
 
 1. Una vez configurados todos los parámetros, haga clic en **[!UICONTROL Submit]** para confirmar. También puede guardar la superficie del canal como borrador y reanudar su configuración más adelante.
 
    ![](assets/sms_preset_2.png)
 
-1. Una vez creada la superficie del canal, se muestra en la lista con la variable **[!UICONTROL Processing]** estado.
+1. Una vez creada la superficie del canal, se muestra en la lista con la variable **[!UICONTROL Procesamiento]** estado.
 
    >[!NOTE]
    >
    >Si las comprobaciones no son correctas, obtenga más información sobre los posibles motivos de error en [esta sección](#monitor-channel-surfaces).
 
-1. Una vez realizadas las comprobaciones, la superficie del canal recibe el **[!UICONTROL Active]** estado. Está listo para utilizarse para enviar mensajes.
+1. Una vez realizadas las comprobaciones, la superficie del canal recibe el **[!UICONTROL Activo]** estado. Está listo para utilizarse para enviar mensajes.
 
    ![](assets/preset-active.png)
 
