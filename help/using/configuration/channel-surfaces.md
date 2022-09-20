@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 59da1d75885ffc6f4b97e218ea131233c198a7ae
+source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1515'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,7 @@ Si se produce uno de estos errores, póngase en contacto con [Servicio de atenci
    * Inclusión en la lista de bloqueados de las IP asignadas
    * No válido `helo` name
    * Correos electrónicos que se envían desde direcciones IP distintas de las especificadas en el grupo IP de la superficie correspondiente
-   * No se pueden enviar correos electrónicos a las bandejas de entrada de los principales ISP, como Gmail y Yahoo
+   * No se pueden enviar correos electrónicos a las bandejas de entrada de los principales ISP
 
 ## Edición de una superficie de canal {#edit-channel-surface}
 

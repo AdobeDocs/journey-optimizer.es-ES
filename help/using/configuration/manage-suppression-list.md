@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
+source-git-commit: 769c5cb4c609a9c97223103216713dbec44847a4
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1181'
 ht-degree: 4%
 
 ---
@@ -177,11 +177,6 @@ Para ello, seleccione la **[!UICONTROL Añadir correo electrónico o dominio]** 
    EMAIL,abc@somedomain.com,Comment
    DOMAIN,somedomain.com,Comment
    ```
-   >[!NOTE]
-   >
-   >Se permiten todos los caracteres ASCII comprendidos entre 32 y 126 en la variable **Comentario** para abrir el Navegador. La lista completa se encuentra en [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por ejemplo.
-
-   También puede descargar esta plantilla desde el **[!UICONTROL Lista de supresión]** vista principal.
 
    >[!CAUTION]
    >
@@ -190,6 +185,10 @@ Para ello, seleccione la **[!UICONTROL Añadir correo electrónico o dominio]** 
    >El tamaño del archivo no debe superar los 1 MB.
 
 1. Complete la plantilla CSV con las direcciones de correo electrónico o los dominios que desee agregar a la lista de supresión.
+
+   >[!NOTE]
+   >
+   >Se permiten todos los caracteres ASCII comprendidos entre 32 y 126 en la variable **Comentario** para abrir el Navegador. La lista completa se encuentra en [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por ejemplo.
 
 1. Una vez finalizado, arrastre y suelte el archivo CSV y, a continuación, haga clic en **[!UICONTROL Submit]**.
 
