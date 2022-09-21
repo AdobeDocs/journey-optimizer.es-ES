@@ -5,20 +5,26 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
-source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+source-git-commit: cdd5f963e11874d15591dad80712ca2d2ee8026f
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 100%
+source-wordcount: '156'
+ht-degree: 92%
 
 ---
 
 # Políticas de uso de datos {#Policies}
 
+>[!CONTEXTUALHELP]
+>id="ajo_olac_manage_access"
+>title="Acceso a Administración Olac"
+>abstract="TBC"
+
+
 Con Adobe Experience Platform **Servicio de control de datos**, puede aplicar restricciones de uso de datos mediante el uso de etiquetas, acciones de marketing y políticas.
 
 Para ello, el servicio de control de datos le permite aplicar etiquetas de uso de datos a conjuntos de datos y campos, clasificando cada uno según las políticas de uso de datos relacionadas.
 
-Las políticas de uso de datos son reglas que describen los tipos de acciones de marketing que se le permite realizar, o que se le restringe, en los datos de Experience Platform. Se puede acceder a ellas desde el menú **[!UICONTROL Policies]**.
+Las políticas de uso de datos son reglas que describen los tipos de acciones de marketing que se le permite realizar, o que se le restringe, en los datos de Experience Platform. Se puede acceder a ellas desde la **[!UICONTROL Políticas]** para abrir el Navegador.
 
 ![](assets/policies.png)
 
