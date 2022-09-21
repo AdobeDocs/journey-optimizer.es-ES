@@ -3,9 +3,9 @@ title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
-workflow-type: tm+mt
-source-wordcount: '1871'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1873'
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se han actualizado los vídeos de las funciones de gestión de decisiones para que reflejen la interfaz de usuario de Journey Optimizer. [Más información](../offers/get-started/starting-offer-decisioning.md)
 * La sección **Introducción a los conjuntos de datos** se ha mejorado para detallar cómo acceder y crear conjuntos de datos. [Más información](../start/get-started-datasets.md)
 * Se han agregado vínculos a guías de ayuda y notas de la versión del producto a la página principal de **Documentación de Adobe Journey Optimizer**. [Más información](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=es)
-* La sección **Crear ajustes preestablecidos de mensaje** ahora especifica que no puede continuar con la creación de ajustes preestablecidos mientras el grupo de IP seleccionado está en edición (**[!UICONTROL Processing]** estado) y nunca se ha asociado con el subdominio seleccionado. [Más información](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
+* La sección **Crear ajustes preestablecidos de mensaje** ahora especifica que no puede continuar con la creación de ajustes preestablecidos mientras el grupo de IP seleccionado está en edición (estado **[!UICONTROL Procesando]**) y nunca se ha asociado con el subdominio seleccionado. [Más información](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * La sección de ajustes preestablecidos de mensaje **Seguimiento de URL** se ha actualizado para reflejar cambios menores en la interfaz de usuario. [Más información](../configuration/channel-surfaces.md#url-tracking)
 
 ## Marzo de 2022 {#march-2022}
@@ -182,6 +182,6 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se han actualizado las Limitaciones del recorrido. [Más información](../start/guardrails.md)
 * Se ha actualizado la sección Configuración de ofertas en la selección de decisiones. [Más información](../offers/offer-activities/configure-offer-selection.md)
 * Se ha añadido una advertencia para indicar que las ofertas basadas en eventos no son compatibles actualmente. [Más información](../offers/offer-library/creating-personalized-offers.md#eligibility)
-* Se ha documentado la nueva pestaña de gestión de decisiones **[!UICONTROL Overview]**. [Más información](../offers/get-started/user-interface.md#overview)
+* Se ha documentado la nueva pestaña **[!UICONTROL Información general]** de Gestión de decisiones. [Más información](../offers/get-started/user-interface.md#overview)
 * Se han añadido nuevas secciones para describir las acciones disponibles en las listas de ofertas y decisiones: [Lista de ofertas](../offers/offer-library/creating-personalized-offers.md#offer-list) y [Lista de decisiones](../offers/offer-activities/create-offer-activities.md#decision-list).
 
