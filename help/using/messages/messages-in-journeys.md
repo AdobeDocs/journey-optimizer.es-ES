@@ -7,7 +7,7 @@ role: User
 level: Beginner
 source-git-commit: a36f0b1c8d59d49e38b21725621d5b276741bd8e
 workflow-type: ht
-source-wordcount: '727'
+source-wordcount: '741'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Para agregar mensajes en un recorrido, agregue una actividad push, SMS o de corr
 
 1. Introduzca una etiqueta y una descripción.
 
-1. Seleccione el mensaje **[!UICONTROL Category]**: seleccione **Marketing** para mensajes comerciales o **Transaccional** para los no comerciales, como confirmaciones de pedidos, notificaciones de restablecimiento de contraseña o información de entrega
+1. Seleccione el mensaje **[!UICONTROL Categoría]**: seleccione **Marketing** para mensajes comerciales o **Transaccional** para los no comerciales, como confirmaciones de pedidos, notificaciones de restablecimiento de contraseña o información de entrega.
 
    >[!CAUTION]
    >
@@ -54,7 +54,7 @@ Para agregar mensajes en un recorrido, agregue una actividad push, SMS o de corr
    >
    >Los mensajes de tipo Marketing deben incluir un [vínculo de no participación](../messages/consent.md#opt-out-management). Esto no es necesario para los mensajes transaccionales, ya que estos se pueden enviar a perfiles que cancelaron la suscripción a comunicaciones de marketing.
 
-1. Seleccione el canal **[!UICONTROL Surface]** (es decir, el ajuste preestablecido de mensaje) que se utilizará para enviar el mensaje.
+1. Seleccione el canal **[!UICONTROL Superficie]**  (es decir, el ajuste preestablecido de mensaje) que se utilizará para enviar el mensaje.
 
    Una superficie es una configuración que ha definido un [Administrador del sistema](../start/path/administrator.md). Contiene todos los parámetros técnicos para enviar el mensaje, como parámetros de encabezado, subdominio, aplicaciones móviles, etc. [Más información](../configuration/channel-surfaces.md).
 
@@ -62,7 +62,7 @@ Para agregar mensajes en un recorrido, agregue una actividad push, SMS o de corr
    >
    >Debe elegir una superficie de canal válida para la categoría de mensaje y el canal seleccionados.
 
-   Puede acceder a la etiqueta, la descripción y la superficie del mensaje y modificarlos en cualquier momento mediante el botón **[!UICONTROL Properties]** en la interfaz de mensajes.
+   Puede acceder a la etiqueta, la descripción y la superficie del mensaje y modificarlos en cualquier momento mediante el botón **[!UICONTROL Propiedades]**  en la interfaz de mensajes.
 
 1. Creación del contenido del mensaje.
 
@@ -74,15 +74,15 @@ Para agregar mensajes en un recorrido, agregue una actividad push, SMS o de corr
 
 ## Habilitación de la optimización del tiempo de envío{#sto-in-journeys}
 
-Para las notificaciones push y de correo electrónico, puede activar la **[!UICONTROL Send-time optimization]**.
+Para las notificaciones push y de correo electrónico, puede activar la **[!UICONTROL Optimización del tiempo de envío]**.
 
-Use la **[!UICONTROL Send-time optimization]** para programar tiempos de envío personalizados para cada usuario y, así, aumentar las tasas de apertura y de clics de sus mensajes. [Más información](../messages/send-time-optimization.md).
+Use la **[!UICONTROL Optimización del tiempo de envío]** para programar tiempos de envío personalizados para cada usuario y, así, aumentar las tasas de apertura y de clics de sus mensajes. [Más información](../messages/send-time-optimization.md).
 
 ## Parámetros avanzados{#adv-settings}
 
 Los parámetros avanzados son de solo lectura y están ocultos de forma predeterminada.
 
-Para acceder a los parámetros avanzados, haga clic en el icono **[!UICONTROL Show read-only fields]** en la parte superior del panel de mensajes.
+Para acceder a los parámetros avanzados, haga clic en el icono **[!UICONTROL Mostrar campos de solo lectura]** en la parte superior del panel de mensajes.
 
 ![](assets/show-read-only.png)
 
@@ -117,7 +117,7 @@ Para ello, siga los pasos a continuación:
 
 1. Seleccione el mensaje que desea copiar.
 
-1. Utilice el botón **[!UICONTROL Copy]** del panel **[!UICONTROL Action]**.
+1. Utilice el botón **[!UICONTROL Copiar]** del panel de **[!UICONTROL Acción]**.
 
    ![](assets/message-duplicate.png)
 
@@ -142,4 +142,4 @@ Para eliminar un mensaje, utilice el icono de papelera en la parte superior del 
 
 ![](assets/delete-message.png)
 
-Utilice el botón **[!UICONTROL Confirm]** para validarlo.
+Utilice el botón **[!UICONTROL Confirmar]** para validarlo.
