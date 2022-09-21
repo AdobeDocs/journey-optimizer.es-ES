@@ -19,7 +19,7 @@ Con [!DNL Adobe Journey Optimizer], puede importar contenido existente y diseña
 
 En función de su organización, puede definir varios tipos de usuarios y concederles acceso a determinadas capacidades dependiendo de sus permisos.
 
-Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas específicas? ¿Administrador de la instancia de su empresa? Elija su propio camino para llegar a sus objetivos más rápido.
+Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas específicas? ¿Administrador de la instancia de su empresa? Elija su propia ruta para llegar a sus objetivos más rápido.
 
 Para conocer y descubrir el poder de Adobe Journey Optimizer con instrucciones paso a paso, seleccione su perfil.
 
