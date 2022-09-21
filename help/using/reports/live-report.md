@@ -6,25 +6,31 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 0%
+source-wordcount: '906'
+ht-degree: 6%
 
 ---
 
 # Introducción a Live Report {#live-report}
 
-Utilice la variable **[!UICONTROL Live report]** para medir y visualizar en tiempo real el impacto y el rendimiento de sus recorridos y mensajes en un panel integrado.
-Los datos están disponibles en la **[!UICONTROL Live report]** en cuanto se realiza el envío o se ejecuta el recorrido.
+Utilice la variable **[!UICONTROL Informe activo]** para medir y visualizar en tiempo real el impacto y el rendimiento de sus recorridos y mensajes en un panel integrado.
+Los datos están disponibles en la **[!UICONTROL Informe activo]** en cuanto se realiza el envío o el recorrido se ejecuta desde la **[!UICONTROL Últimas 24 horas]** pestaña .
 
-* Si desea dirigirse a un recorrido o envíos en el contexto de un recorrido, desde el **[!UICONTROL Journeys]** , acceda al recorrido y haga clic en el botón **[!UICONTROL View report]** botón. A continuación, puede encontrar los informes de Recorrido, correo electrónico, SMS y push en directo.
+* Si desea dirigirse a un recorrido en el contexto de un recorrido, desde la **[!UICONTROL Recorridos]** , acceda al recorrido y haga clic en el botón **[!UICONTROL Ver informe]** botón.
 
    ![](assets/report_journey.png)
 
-* Si desea cambiar del **[!UICONTROL Live report]** a **[!UICONTROL Live report]** para la entrega, haga clic en **[!UICONTROL Live view]** del conmutador de pestañas.
+* Si desea dirigir una campaña, desde la **[!UICONTROL Campañas]** , acceda a la campaña y haga clic en el botón **[!UICONTROL Informes]** botón.
+
+   ![](assets/report_campaign.png)
+
+* Si desea cambiar del **[!UICONTROL Informe global]** a **[!UICONTROL Informe activo]** para la entrega, haga clic en **[!UICONTROL Últimas 24 horas]** del conmutador de pestañas.
 
    ![](assets/report_3.png)
+
+Para obtener una lista detallada de todas las métricas disponibles en Adobe Journey Optimizer, consulte [esta página](#list-of-components-live).
 
 ## Personalizar tablero {#modify-dashboard}
 
@@ -32,11 +38,11 @@ Cada tablero de informes se puede modificar cambiando el tamaño o eliminando la
 
 1. Elija si desea excluir los eventos de prueba de los informes con la barra de alternancia. Para obtener más información sobre los eventos de prueba, consulte [esta página](../building-journeys/testing-the-journey.md).
 
-   Tenga en cuenta que **[!UICONTROL Exclude test events]** solo está disponible para informes de Recorrido.
+   Tenga en cuenta que **[!UICONTROL Excluir eventos de prueba]** solo está disponible para informes de Recorrido.
 
    ![](assets/report_modify_6.png)
 
-1. Para cambiar el tamaño o eliminar widgets, haga clic en **[!UICONTROL Modify]**.
+1. Para cambiar el tamaño o eliminar widgets, haga clic en **[!UICONTROL Modificar]**.
 
    ![](assets/report_modify_7.png)
 
@@ -44,10 +50,223 @@ Cada tablero de informes se puede modificar cambiando el tamaño o eliminando la
 
    ![](assets/report_modify_8.png)
 
-1. Haga clic en **[!UICONTROL Remove]** para quitar cualquier utilidad que no necesite.
+1. Haga clic en **[!UICONTROL Eliminar]** para quitar cualquier utilidad que no necesite.
 
    ![](assets/report_modify_9.png)
 
-1. Una vez que esté satisfecho con el orden de visualización y el tamaño de sus widgets, haga clic en **[!UICONTROL Save]**.
+1. Una vez que esté satisfecho con el orden de visualización y el tamaño de sus widgets, haga clic en **[!UICONTROL Guardar]**.
 
-El tablero se ha guardado. Los diferentes cambios se volverán a aplicar para un uso posterior de los informes activos. Si es necesario, use la variable **[!UICONTROL Reset]** para restaurar el orden predeterminado de las utilidades y utilidades.
+El tablero se ha guardado. Los diferentes cambios se volverán a aplicar para un uso posterior de los informes activos. Si es necesario, use la variable **[!UICONTROL Restablecer]** para restaurar el orden predeterminado de las utilidades y utilidades.
+
+## Lista de componentes {#list-of-components-live}
+
+Las tablas siguientes proporcionan la lista de métricas utilizadas en los informes y sus definiciones en función del tipo de envío.
+
+### Métricas de recorrido {#journey-metrics}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Métrica<br/> </th> 
+   <th> Definición<br/> </th> 
+</tr>
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>Acciones ejecutadas correctamente<br/> </td> 
+   <td> Número total de acciones ejecutadas correctamente para un recorrido.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Perfiles introducidos<br/> </td> 
+   <td> Número total de personas que llegaron al evento de entrada del recorrido.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Error en la acción<br/> </td> 
+   <td>Número total de errores que se han producido en Acciones.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Perfiles de salida<br/> </td> 
+   <td> Número total de personas que salieron del recorrido.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Error en el recorrido individual<br/> </td> 
+   <td> Número total de recorridos individuales que no se ejecutaron correctamente.<br/> </td> 
+</tr> 
+ </tbody> 
+</table>
+
+### Métricas de correo electrónico y SMS {#email-and-sms-metrics}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Métrica<br/> </th> 
+   <th> Definición<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+  <tr> 
+   <td> Devoluciones<br/> </td> 
+   <td> Total de errores acumulados durante la entrega y el procesamiento automático de la devolución.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Tasa de devoluciones<br/> </td> 
+   <td> Porcentaje de correos electrónicos devueltos en comparación con los correos electrónicos enviados.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Clics<br/> </td> 
+   <td> Número de veces que se hizo clic en un contenido en un correo electrónico.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Entregados <br/> </td> 
+   <td> Número de mensajes enviados correctamente.<br/></td> 
+</tr> 
+  <tr> 
+   <td> Tasa de entrega<br/> </td> 
+   <td> Porcentaje de mensajes enviados correctamente.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Errores<br/> </td> 
+   <td> Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Tasa de error<br/> </td> 
+   <td> Porcentaje de errores que se produjeron durante una entrega que impiden que se envíe en comparación con los correos electrónicos enviados.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Excluido<br/> </td> 
+   <td> Número de perfiles que Adobe Journey Optimizer ha excluido.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Rechazo grave<br/> </td> 
+   <td> El número total de errores permanentes, como una dirección de correo electrónico incorrecta. Esto implica un mensaje de error que indica explícitamente que la dirección no es válida, como Usuario desconocido.<br/> </td>
+</tr>
+  <tr> 
+   <td> Ignorado<br/> </td> 
+   <td> El número total de mensajes temporales, como fuera de la oficina o un error técnico, por ejemplo, si el tipo de remitente es administrador de correo.<br/> </td> 
+</tr>
+   <tr> 
+   <td>Tasa de clics de ofertas<br/> </td> 
+   <td>Porcentaje de usuarios que interactuaron con la oferta.<br/> </td> 
+</tr>
+   <tr> 
+   <td>Tasa de impresión de la oferta<br/> </td> 
+   <td>Porcentaje de ofertas abiertas comparadas con el número de ofertas enviadas.<br/> </td> 
+</tr>
+   <tr> 
+   <td>Nombre de oferta<br/> </td> 
+   <td> Nombre de la oferta añadida en la entrega. Para obtener más información sobre la colocación, consulte esta <a href="../offers/offer-library/creating-personalized-offers.md">página</a>.<br/> </td> 
+</tr>
+   <tr> 
+   <td>Oferta enviada<br/> </td> 
+   <td>Número total de envíos para la oferta.<br/> </td> 
+</tr> 
+  <tr>
+   <td>Aperturas<br/> </td> 
+   <td> Número de veces que se abrió el mensaje.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Tasa de apertura<br/> </td> 
+   <td> Número total de correos electrónicos abiertos comparados con el número de correos electrónicos enviados.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Nombre de colocación<br/> </td> 
+   <td> Nombre de la ubicación utilizada para mostrar la oferta. Para obtener más información sobre la colocación, consulte esta <a href="../offers/offer-library/creating-placements.md">página</a>. </td> 
+</tr> 
+  <tr> 
+   <td> Reintentos<br/> </td> 
+   <td> Número de correos electrónicos en cola para reintentos.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Enviados<br/> </td> 
+   <td> Número total de envíos para la entrega.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Rechazo suave<br/> </td> 
+   <td> Número total de errores temporales, como una bandeja de entrada completa.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Reclamaciones por correo no deseado<br/> </td> 
+   <td> Número de veces que un mensaje se declaró como correo no deseado o no deseado.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Segmentado<br/> </td> 
+   <td> Número total de mensajes procesados durante el análisis de entregas.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Clics únicos<br/> </td> 
+   <td> Número de destinatarios que hicieron clic en un contenido en un correo electrónico.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>Tasa de clics únicos<br/> </td> 
+   <td> Porcentaje de usuarios que interactuaron con la entrega.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Aperturas únicas<br/> </td> 
+   <td>Número de destinatarios que abrieron la entrega.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Bajas<br/> </td> 
+   <td> Número de clics en el vínculo de baja de suscripción.<br/> </td> 
+</tr> 
+ </tbody> 
+</table>
+
+### Métricas de la página de aterrizaje {#landing-page-metrics}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Métrica<br/> </th> 
+   <th> Definición<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+  <td>Devoluciones<br/> </td> 
+   <td>Número de personas que no interactuaron con la página de aterrizaje y que no completaron la acción de suscribirse.<br/> </td> 
+</tr>
+ <tr> 
+   <td>Porcentaje de rebote<br/> </td> 
+   <td>Número de personas que no interactuaron con la página de aterrizaje y que no completaron la acción de suscribirse.<br/> </td> 
+</tr>
+ <tr>
+  <tr> 
+   <td>Clics<br/> </td> 
+   <td>Número de veces que se hizo clic en un contenido en la página de aterrizaje.<br/> </td> 
+</tr>
+ <tr> 
+   <td>Tasa de clics<br/> </td> 
+   <td>Porcentaje de clics en la página de aterrizaje.<br/> </td>
+</tr>
+<tr>
+<td>Conversión<br/> </td> 
+   <td>Número de personas que interactuaron con la página de aterrizaje, por ejemplo, suscritas a un formulario.<br/> </td> 
+</tr>
+<tr>
+   <td>Tasa de conversión<br/> </td> 
+   <td>Número de personas que interactuaron con la página de aterrizaje, por ejemplo, suscritas a un formulario.<br/> </td> 
+</tr>
+ <tr> 
+   <td>Recorridos<br/> </td> 
+   <td>Número de visitas a la página de aterrizaje procedentes de un recorrido.<br/> </td> 
+</tr>
+ <tr> 
+   <td>Otras fuentes<br/> </td> 
+   <td>Número de visitas a la página de aterrizaje procedentes de una fuente externa en lugar de un recorrido.<br/> </td> 
+</tr>
+ <tr> 
+   <td>Visitas totales<br/> </td> 
+   <td> Número total de visitas a la página de aterrizaje procedentes de recorridos y fuentes externas, incluidas las visitas múltiples de un destinatario.<br/> </td> 
+</tr>
+ <tr> 
+   <td>Visitantes únicos<br/> </td> 
+   <td>Número de personas que visitaron la página de aterrizaje y no se tienen en cuenta las visitas múltiples de un destinatario.<br/> </td> 
+</tr>
+ <tr> 
+   <td>Visitas<br/> </td> 
+   <td>Número de visitas a la página de aterrizaje, incluidas las visitas múltiples de un destinatario.<br/> </td> 
+</tr>
+ </tbody> 
+</table>
+
