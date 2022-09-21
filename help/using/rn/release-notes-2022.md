@@ -4,7 +4,7 @@ description: Notas de la versión de Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: ht
-source-wordcount: '2337'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
