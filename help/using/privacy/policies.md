@@ -8,7 +8,7 @@ exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
 source-git-commit: cdd5f963e11874d15591dad80712ca2d2ee8026f
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Con Adobe Experience Platform **Servicio de control de datos**, puede aplicar re
 
 Para ello, el servicio de control de datos le permite aplicar etiquetas de uso de datos a conjuntos de datos y campos, clasificando cada uno según las políticas de uso de datos relacionadas.
 
-Las políticas de uso de datos son reglas que describen los tipos de acciones de marketing que se le permite realizar, o que se le restringe, en los datos de Experience Platform. Se puede acceder a ellas desde la **[!UICONTROL Políticas]** para abrir el Navegador.
+Las políticas de uso de datos son reglas que describen los tipos de acciones de marketing que se le permite realizar, o que se le restringe, en los datos de Experience Platform. Se puede acceder a ellas desde el menú **[!UICONTROL Políticas]**.
 
 ![](assets/policies.png)
 

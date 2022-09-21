@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '1151'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 97%
    + Experimento de contenido {#content-experiment}
       + [Introducción al experimento de contenido](using/campaigns/get-started-experiment.md)
       + [Creación de un experimento de contenido](using/campaigns/content-experiment.md)
-      + [Comprender los cálculos estadísticos](using/campaigns/experiment-calculations.md)
+      + [Comprensión de los cálculos estadísticos](using/campaigns/experiment-calculations.md)
       + [Configurar informes de experimentación](using/campaigns/reporting-configuration.md)
    + [Activación de campañas mediante las API](using/campaigns/api-triggered-campaigns.md)
 + Mensajes {#messages}
@@ -51,7 +51,7 @@ ht-degree: 97%
    + [Crear un correo electrónico](using/messages/create-email.md)
    + [Crear una notificación push](using/messages/create-push.md)
    + [Creación de un mensaje SMS](using/messages/create-sms.md)
-   + [Crear un correo postal](using/messages/create-direct-mail.md)
+   + [Creación de un correo directo](using/messages/create-direct-mail.md)
    + [Comprobación de alertas](using/messages/alerts.md)
    + [Administración del consentimiento](using/messages/consent.md)
    + [Optimización del tiempo de envío](using/messages/send-time-optimization.md)
