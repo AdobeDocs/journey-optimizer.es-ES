@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: ht
-source-wordcount: '1311'
+source-wordcount: '1331'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ Por lo tanto, siempre debe incluir un **vínculo para cancelar la suscripción**
 
 >[!NOTE]
 >
->Los mensajes de correo electrónico de tipo marketing deben incluir un vínculo de no participación, que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transactional]**) se define en la [superficie de canal](../configuration/channel-surfaces.md#email-type) (es decir, nivel de ajuste preestablecido de mensaje) y durante la [creación del mensaje](get-started-content.md#create-new-message).
+>Los mensajes de correo electrónico de tipo marketing deben incluir un vínculo de no participación, que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**) se define en el nivel de [superficie de canal](../configuration/channel-surfaces.md#email-type) (es decir, ajuste preestablecido de mensaje) y durante la [creación del mensaje](get-started-content.md#create-new-message).
 
 ### Exclusión externa {#opt-out-external-lp}
 
@@ -61,15 +61,15 @@ Primero debe agregar un vínculo de cancelación de suscripción a un mensaje. P
 
    ![](assets/opt-out-insert-link.png)
 
-1. Seleccione **[!UICONTROL External Opt-out/Unsubscription]** en la lista desplegable **[!UICONTROL Link type]**.
+1. Seleccione **[!UICONTROL Exclusión/baja externa]** de la lista desplegable **[!UICONTROL Tipo de vínculo]**.
 
    ![](assets/opt-out-link-type.png)
 
-1. En el campo **[!UICONTROL Link]**, copie el vínculo a la página de aterrizaje de terceros.
+1. En el campo de **[!UICONTROL Vínculo]**, pegue el vínculo a la página de aterrizaje de terceros.
 
    ![](assets/opt-out-link-url.png)
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 #### Implementación de una llamada de API para la exclusión {#opt-out-api}
 
@@ -135,7 +135,7 @@ Una vez configurado el vínculo de cancelación de suscripción a la página de 
 
    ![](assets/opt-out-profile-choice.png)
 
-   En la pestaña **[!UICONTROL Attributes]**, puede ver que el valor de **[!UICONTROL choice]** ha cambiado a **[!UICONTROL no]**.
+   En la pestaña **[!UICONTROL Atributos]**, puede ver que el valor de **[!UICONTROL elección]** ha cambiado a **[!UICONTROL no]**.
 
 ### Opción de exclusión en un clic {#one-click-opt-out}
 
@@ -143,7 +143,7 @@ Dado que muchos clientes buscan un proceso más sencillo para cancelar la suscri
 
 Para añadir un vínculo de no participación en el correo electrónico, siga los pasos a continuación.
 
-1. [Inserción de un vínculo](../design/message-tracking.md#insert-links) y seleccione **[!UICONTROL One click Opt-out]** como tipo de vínculo.
+1. [Inserte un vínculo](../design/message-tracking.md#insert-links) y seleccione **[!UICONTROL Exclusión con un clic]** como tipo de vínculo.
 
    ![](assets/message-tracking-opt-out.png)
 
@@ -151,9 +151,9 @@ Para añadir un vínculo de no participación en el correo electrónico, siga lo
 
    ![](assets/message-tracking-opt-out-level.png)
 
-   * **[!UICONTROL Channel]**: La exclusión se aplica a mensajes futuros enviados al destinatario del perfil (es decir, la dirección de correo electrónico) para el canal actual. Si hay varios objetivos asociados a un perfil, la exclusión se aplica a todos los destinos (es decir, direcciones de correo electrónico) del perfil de ese canal.
-   * **[!UICONTROL Identity]**: La exclusión se aplica a los mensajes futuros enviados al destinatario específico (es decir, la dirección de correo electrónico) que se esté utilizando para el mensaje actual.
-   * **[!UICONTROL Subscription]**: La exclusión se aplica a mensajes futuros asociados a una lista de suscripción específica. Esta opción solo se puede seleccionar si el mensaje actual está asociado con una lista de suscripción.
+   * **[!UICONTROL Canal]**: la exclusión se aplica a mensajes futuros enviados al destinatario del perfil (es decir, la dirección de correo electrónico) para el canal actual. Si hay varios objetivos asociados a un perfil, la exclusión se aplica a todos los destinatarios (es decir, direcciones de correo electrónico) del perfil de ese canal.
+   * **[!UICONTROL Identidad]**: la exclusión se aplica a los mensajes futuros enviados al destinatario específico (es decir, la dirección de correo electrónico) que se esté utilizando para el mensaje actual.
+   * **[!UICONTROL Suscripción]**: la exclusión se aplica a mensajes futuros asociados a una lista de suscripción específica. Esta opción solo se puede seleccionar si el mensaje actual está asociado con una lista de suscripción.
 
 1. Introduzca la dirección URL de la página de aterrizaje a la que se redirigirá al usuario una vez cancelada la suscripción. Esta página solo está aquí para confirmar que la exclusión se ha realizado correctamente.
 
@@ -163,7 +163,7 @@ Para añadir un vínculo de no participación en el correo electrónico, siga lo
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
-   Puede personalizar los vínculos. Obtenga más información sobre la administración de exclusiones en [esta sección](../personalization/personalization-syntax.md).
+   Puede personalizar los vínculos. Obtenga más información sobre las URL personalizadas en [esta sección](../personalization/personalization-syntax.md).
 
 1. Guarde los cambios.
 
@@ -187,7 +187,7 @@ Por ejemplo, el vínculo de cancelación de suscripción se mostrará en Gmail a
 >
 >Para mostrar el vínculo de cancelación de suscripción en el encabezado del correo electrónico, el cliente de correo electrónico de los destinatarios debe admitir esta función.
 
-La dirección de cancelación de suscripción es la dirección predeterminada **[!UICONTROL Mailto (unsubscribe)]** mostrada en la superficie de canal correspondiente. [Más información](../configuration/channel-surfaces.md#list-unsubscribe).
+La dirección de cancelación de suscripción es la dirección predeterminada **[!UICONTROL Mailto (cancelación de suscripción)]** mostrada en la superficie de canal correspondiente. [Más información](../configuration/channel-surfaces.md#list-unsubscribe).
 
 Para establecer una URL de cancelación de suscripción personalizada, inserte un vínculo de no participación de un solo clic en el contenido del mensaje de correo electrónico e introduzca la URL que elija. [Más información](#one-click-opt-out)
 
