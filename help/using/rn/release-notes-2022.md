@@ -3,9 +3,9 @@ title: Notas de la versión 2022
 description: Notas de la versión de Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2337'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 * **Parámetros de seguimiento de URL**: ahora puede utilizar el Editor de expresiones para configurar los parámetros de seguimiento de URL en sus superficies de correo electrónico (es decir, ajustes preestablecidos). [Más información](../configuration/email-settings.md#url-tracking)
 
-**gestión de decisiones**
+**Gestión de decisiones**
 
 * **Tamaño de la audiencia**: ahora se muestra un nuevo componente de estimación del tamaño de la audiencia en la interfaz de usuario al crear una regla de decisión, al seleccionar un segmento o una regla para establecer la idoneidad de una oferta o al añadir un segmento o una regla al ámbito de decisión.
 
@@ -340,7 +340,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 **Gestión de decisiones**
 
-* **API de decisiones en Edge** - La API de Edge Decisioning puede entregar y procesar ofertas personalizadas que se administran en la administración de decisiones. Puede crear sus ofertas y otros objetos relacionados mediante la interfaz de usuario (IU) o las API de administración de decisiones. [Más información](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **API de decisiones en Edge**: la API de decisiones en Edge puede entregar y procesar ofertas personalizadas que se gestionan en la administración de decisiones. Puede crear sus ofertas y otros objetos relacionados mediante la interfaz de usuario (IU) o las API de administración de decisiones. [Más información](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **Administración**
 
@@ -524,7 +524,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * Los eventos de paso de Journey Optimizer ahora se pueden vincular a otros conjuntos de datos en [Customer Journey Analytics de Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es). El campo **profileID**, en el esquema integrado de Evento de paso de recorrido, ahora se define como un campo de identidad. [Más información](../reports/sharing-overview.md#integration-cja)
 
-**gestión de decisiones**
+**Gestión de decisiones**
 
 * Al actualizar una oferta, una oferta de reserva, una colección de ofertas o una decisión de oferta a la que se hace referencia directa o indirectamente en un mensaje publicado, las actualizaciones ahora se reflejan automáticamente en el mensaje correspondiente, sin necesidad de volver a publicarlas. [Más información](../offers/offers-e2e.md#insert-decision-in-email)
 
