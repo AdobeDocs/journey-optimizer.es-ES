@@ -1,5 +1,5 @@
 ---
-title: Introducción a Administración de decisiones
+title: Introducción a Gestión de decisiones
 description: Descubra cómo Adobe Journey Optimizer puede ayudarle a enviar a sus clientes la oferta correcta en el momento adecuado
 feature: Offers
 topic: Integrations
@@ -7,19 +7,19 @@ role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
-workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '939'
+ht-degree: 100%
 
 ---
 
-# Acerca de Administración de decisiones {#about-decision-management}
+# Acerca de Gestión de decisiones {#about-decision-management}
 
 Utilice [!DNL Journey Optimizer] para ofrecer la mejor oferta y experiencia a sus clientes en todos los puntos de contacto y en el momento adecuado. Una vez diseñadas, las audiencias se segmentarán con ofertas personalizadas.
 
-La administración de decisiones facilita la personalización con una biblioteca central de ofertas de marketing y un motor de decisión que aplica reglas y restricciones a perfiles enriquecidos y en tiempo real creados por Adobe Experience Platform para ayudarle a enviar a sus clientes la oferta correcta en el momento adecuado.
+La administración de decisiones facilita la personalización con una biblioteca central de ofertas de marketing y un motor de decisión que aplica reglas y restricciones a perfiles enriquecidos en tiempo real creados por Adobe Experience Platform para ayudarle a enviarles a sus clientes la oferta correcta en el momento adecuado.
 
-La capacidad Administración de decisiones consta de dos componentes principales:
+La capacidad Gestión de decisiones consta de dos componentes principales:
 
 * La **Biblioteca de ofertas centralizada** es la interfaz en la que se crean y administran los diferentes elementos que componen las ofertas y se definen sus reglas y restricciones.
 * El **Motor de decisión de ofertas** aprovecha los datos de Adobe Experience Platform y los perfiles del cliente en tiempo real, junto con la Biblioteca de ofertas, para seleccionar el momento, los clientes y los canales adecuados a los que se enviarán las ofertas.
@@ -37,7 +37,7 @@ Los beneficios incluyen:
 
 >[!NOTE]
 >
->Si es un usuario de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target=&quot;_blank&quot;} que aprovecha el servicio de aplicaciones de **Offer Decisioning**, también se le aplican todas las funciones de Administración de decisiones descritas en esta sección.
+>Si es un usuario de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target=&quot;_blank&quot;} que aprovecha el servicio de aplicaciones de **Offer Decisioning**, también se le aplican todas las funciones de Gestión de decisiones descritas en esta sección.
 
 ## Acerca de las ofertas y las decisiones {#about-offers-and-decisions}
 
@@ -49,11 +49,11 @@ Se crea mediante la **Biblioteca de ofertas**, que proporciona un catálogo de o
 
 Una vez que la Biblioteca de ofertas se haya enriquecido con ofertas, puede integrar las ofertas en **decisiones**.
 
-Las decisiones son contenedores para sus ofertas que aprovecharán el motor de decisión de ofertas para elegir la mejor y ofrecerla según el objetivo de la entrega.
+Las decisiones son contenedores para sus ofertas que aprovecharán el motor de decisión de ofertas para elegir la mejor y ofrecerla según el destinatario de la entrega.
 
 ## Casos de uso comunes {#common-use-cases}
 
-Las funciones y la integración de Administración de decisiones con Adobe Experience Platform le permiten cubrir numerosos casos de uso para ayudarle a aumentar la participación y la conversión de los clientes.
+Las funciones y la integración de Gestión de decisiones con Adobe Experience Platform le permiten cubrir numerosos casos de uso para ayudarle a aumentar la participación y la conversión de los clientes.
 
 * Muestre ofertas en la página de inicio del sitio web que coincidan con el punto de interés del cliente visitante según los datos de Adobe Experience Platform.
 
@@ -63,15 +63,15 @@ Las funciones y la integración de Administración de decisiones con Adobe Exper
 
    ![](../assets/push_sample.png)
 
-* Administración de decisiones también le ayuda a mejorar la experiencia de sus clientes al ponerse en contacto con su equipo de asistencia. Las API de Administración de decisiones permiten mostrar en el portal de los agentes del centro de llamadas información acerca de las mejores ofertas y las ofertas canjeadas del cliente.
+* Gestión de decisiones también le ayuda a mejorar la experiencia de sus clientes al ponerse en contacto con su equipo de asistencia. Las API de Gestión de decisiones permiten mostrar en el portal de los agentes del centro de llamadas información acerca de las mejores ofertas y las ofertas canjeadas del cliente.
 
    ![](../../assets/do-not-localize/call-center.png)
 
 ## Concesión de acceso a Gestión de decisiones {#granting-acess-to-decision-management}
 
-Los permisos para acceder y utilizar las capacidades de toma de decisiones se administran mediante la variable [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+Los permisos para acceder y utilizar las funcionalidades de decisiones de uso se administran mediante [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
 
-Para conceder acceso a la funcionalidad de Gestión de decisiones, debe crear un **[!UICONTROL Product profile]** y asignar los permisos correspondientes a sus usuarios. Más información sobre la administración de usuarios y permisos de [!DNL Journey Optimizer] en [esta sección](../../administration/permissions.md).
+Para conceder acceso a la funcionalidad de Gestión de decisiones, debe crear un **[!UICONTROL Perfil de producto]** y asignar los permisos correspondientes a sus usuarios. Más información sobre la administración de usuarios y permisos de [!DNL Journey Optimizer] en [esta sección](../../administration/permissions.md).
 
 Los permisos específicos de Gestión de decisiones se enumeran en [esta sección](../../administration/high-low-permissions.md#decisions-permissions).
 
@@ -89,7 +89,7 @@ A continuación, se muestra la lista de los conceptos principales con los que tr
 
 * **Oferta elegible**: una oferta elegible cumple con las restricciones definidas por adelantado que pueden ofrecerse de forma coherente a un perfil.
 
-* **Administración de decisiones**: Permite crear y ofrecer experiencias de oferta personalizadas para el usuario final en varios canales y aplicaciones mediante la lógica empresarial y las reglas de decisión.
+* **Gestión de decisiones**: Permite crear y ofrecer experiencias de oferta personalizadas para el usuario final en varios canales y aplicaciones mediante la lógica empresarial y las reglas de decisión.
 
 * **Ofertas de reserva**: una oferta de reserva es la oferta predeterminada que se muestra cuando un usuario final no cumple los requisitos para ninguna de las ofertas personalizadas de la colección.
 
@@ -111,15 +111,15 @@ A continuación, se muestra la lista de los conceptos principales con los que tr
 >
 >Estos vídeos se aplican al servicio de aplicaciones de Offer Decisioning creado en Adobe Experience Platform y no son específicos de [!DNL Adobe Journey Optimizer]. Sin embargo, proporcionan una guía genérica para utilizar Gestión de decisiones en el contexto de [!DNL Journey Optimizer].
 
-### ¿Qué es Administración de decisiones? {#what-is-offer-decisioning}
+### ¿Qué es Gestión de decisiones? {#what-is-offer-decisioning}
 
-El siguiente vídeo proporciona una introducción a las funciones clave, la arquitectura y los casos de uso de Administración de decisiones:
+El siguiente vídeo proporciona una introducción a las funciones clave, la arquitectura y los casos de uso de Gestión de decisiones:
 
 >[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Definición y administración de ofertas {#use-offer-decisioning}
 
-El siguiente vídeo muestra cómo utilizar Administración de decisiones para definir y administrar sus ofertas, así como para aprovechar los datos de clientes en tiempo real.
+El siguiente vídeo muestra cómo utilizar Gestión de decisiones para definir y administrar sus ofertas, así como para aprovechar los datos de clientes en tiempo real.
 
 >[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
