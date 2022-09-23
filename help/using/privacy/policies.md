@@ -5,20 +5,14 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
-source-git-commit: cdd5f963e11874d15591dad80712ca2d2ee8026f
+source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 97%
+source-wordcount: '152'
+ht-degree: 100%
 
 ---
 
 # Políticas de uso de datos {#Policies}
-
->[!CONTEXTUALHELP]
->id="ajo_olac_manage_access"
->title="Acceso a Administración Olac"
->abstract="TBC"
-
 
 Con Adobe Experience Platform **Servicio de control de datos**, puede aplicar restricciones de uso de datos mediante el uso de etiquetas, acciones de marketing y políticas.
 
