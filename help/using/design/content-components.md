@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 3c1da5b789ad3f1b010f3d5be9c521f296035b83
+source-git-commit: 030dc5f3a5d1927076c87aa600097a3b5761e803
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -150,25 +150,21 @@ Utilice la variable **[!UICONTROL Imagen]** para insertar un archivo de imagen d
 >id="ac_edition_video_email"
 >title="Configuración de vídeo"
 >abstract="Utilice este componente para insertar un vídeo en el correo electrónico. Tenga en cuenta que los vídeos no funcionan en todos los clientes de correo electrónico. Se recomienda configurar una imagen de reserva."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Información adicional"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_landing_page"
 >title="Configuración de vídeo"
 >abstract="Utilice este componente para insertar un vídeo en la página de aterrizaje. Tenga en cuenta que los vídeos no funcionan en todos los clientes de mensajes. Se recomienda configurar una imagen de reserva."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Información adicional"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_fragment"
 >title="Configuración de vídeo"
 >abstract="Utilice este componente para insertar un vídeo en el fragmento. Tenga en cuenta que los vídeos no funcionan en todos los clientes de mensajes. Se recomienda configurar una imagen de reserva."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Información adicional"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_template"
 >title="Configuración de vídeo"
 >abstract="Utilice este componente para insertar un vídeo en la plantilla. Tenga en cuenta que los vídeos no funcionan en todos los clientes de mensajes. Se recomienda configurar una imagen de reserva."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Información adicional"
 
 Utilice la variable **[!UICONTROL Vídeo]** para insertar un vídeo en el correo electrónico a través de un vínculo URL.
 
@@ -216,5 +212,5 @@ Utilice la variable **[!UICONTROL Decisión de oferta]** para insertar decisione
 
 Temas relacionados:
 
-* [Introducción a Administración de decisiones](../offers/get-started/starting-offer-decisioning.md)
+* [Introducción a Gestión de decisiones](../offers/get-started/starting-offer-decisioning.md)
 * [Añadir ofertas personalizadas en correos electrónicos](deliver-personalized-offers.md)
