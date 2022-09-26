@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: b720134ae82a596321aa2815a36e92e6b19c71ba
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '592'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
 >title="Configuración de un grupo de IP"
->abstract="Puede crear grupos de IP para agrupar las direcciones IP de sus subdominios y así mejorar la capacidad de envío de correo electrónico."
+>abstract="Con Journey Optimizer, puede crear grupos de IP para agrupar las direcciones IP de los subdominios. Esto puede mejorar significativamente la capacidad de envío del correo electrónico, ya que al hacerlo, puede evitar que la reputación de un subdominio afecte a los demás subdominios."
 
 ## Acerca de los grupos de IP {#about-ip-pools}
 
