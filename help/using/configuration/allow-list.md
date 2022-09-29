@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: 50f6b965b50b1ffe4dab9102657d43888cb6d5ea
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1031'
 ht-degree: 2%
 
 ---
@@ -158,7 +158,7 @@ Obtenga más información sobre cómo realizar llamadas de API en la sección [A
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="Administrar la lista de permitidos"
->abstract="Cuando se activa la lista de permitidos, solo los destinatarios incluidos en la lista de permitidos reciben mensajes de correo electrónico de este simulador para pruebas."
+>abstract="Cuando se activa la lista de permitidos, solo los destinatarios incluidos en la lista de permitidos reciben mensajes de correo electrónico de este simulador para pruebas. Cuando se desactiva, todos los destinatarios reciben correos electrónicos."
 
 Cuando la lista de permitidos es [active](#enable-allow-list), se aplica la siguiente lógica:
 

@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 8%
+source-wordcount: '242'
+ht-degree: 5%
 
 ---
 
 # Trabajar con plantillas de correo electrónico {#email-templates}
 
-Utilice la variable **[!UICONTROL Select design template]** para comenzar a crear el contenido a partir de una plantilla.
+Utilice la variable **[!UICONTROL Seleccionar plantilla de diseño]** para comenzar a crear el contenido a partir de una plantilla.
 
 ![](assets/email_designer-templates.png)
 
@@ -25,11 +25,16 @@ Puede elegir entre:
 
 ## Guardar como plantilla {#save-as-template}
 
+>[!CONTEXTUALHELP]
+>id="ajo_messages_depecrated_inventory"
+>title="Descubra cómo migrar sus mensajes"
+>abstract="El 25 de julio de 2022, desapareció el menú Mensajes y ahora los mensajes se crean directamente desde un Recorrido. Si desea reutilizar los mensajes heredados en recorrido, debe guardarlos como plantillas."
+
 Una vez que haya diseñado el [contenido de correo electrónico](design-emails.md), puede guardarla para su reutilización futura. Para realizar esto, siga los pasos a continuación.
 
 1. Haga clic en los puntos suspensivos en la parte superior derecha de la pantalla.
 
-1. Select **[!UICONTROL Save design template]** en el menú desplegable.
+1. Select **[!UICONTROL Guardar plantilla de diseño]** en el menú desplegable.
 
    ![](assets/email_designer-save-template.png)
 
@@ -37,7 +42,7 @@ Una vez que haya diseñado el [contenido de correo electrónico](design-emails.m
 
    ![](assets/email_designer-template-name.png)
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 La próxima vez que cree un correo electrónico, puede usar esta plantilla para crear su contenido. [Descubra cómo](#use-saved-template)
 
@@ -47,11 +52,11 @@ La próxima vez que cree un correo electrónico, puede usar esta plantilla para 
 
 1. Abra el [diseñador de correo electrónico](create-email-content.md).
 
-1. En el **[!UICONTROL Create your email screen]**, el **[!UICONTROL Sample templates]** está seleccionada de forma predeterminada. Seleccione la pestaña **[!UICONTROL Saved templates]** .
+1. En el **[!UICONTROL Crear la pantalla de correo electrónico]**, el **[!UICONTROL Plantillas de ejemplo]** está seleccionada de forma predeterminada. Seleccione el **[!UICONTROL Plantillas guardadas]** pestaña .
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. La lista de todas las [plantillas guardadas](#save-as-template) se muestra. Puede ordenarlas **[!UICONTROL By name]**, **[!UICONTROL Last modified]** y **[!UICONTROL Last created]**.
+1. La lista de todas las [plantillas guardadas](#save-as-template) se muestra. Puede ordenarlas **[!UICONTROL Por nombre]**, **[!UICONTROL Última modificación]** y **[!UICONTROL Última creación]**.
 
    ![](assets/email_designer-saved-templates.png)
 
@@ -61,6 +66,6 @@ La próxima vez que cree un correo electrónico, puede usar esta plantilla para 
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. Haga clic en **[!UICONTROL Use this email]** en la parte superior derecha de la pantalla.
+1. Haga clic en **[!UICONTROL Usar este correo electrónico]** en la parte superior derecha de la pantalla.
 
 1. Edite el contenido según sus preferencias mediante el diseñador de correo electrónico.

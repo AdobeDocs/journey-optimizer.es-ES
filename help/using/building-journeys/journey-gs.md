@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 10%
+source-wordcount: '1147'
+ht-degree: 11%
 
 ---
 
@@ -46,11 +46,11 @@ Este paso lo realiza el **usuario empresarial**. Aquí es donde crea sus recorri
 
 Estos son los pasos principales para enviar mensajes a través de recorridos:
 
-1. En la sección del menú ADMINISTRACIÓN DE RECORRIDOS , haga clic en **[!UICONTROL Journeys]**. Se muestra la lista de recorridos.
+1. En la sección del menú ADMINISTRACIÓN DE RECORRIDOS , haga clic en **[!UICONTROL Recorridos]**. Se muestra la lista de recorridos.
 
    ![](assets/interface-journeys.png)
 
-1. Haga clic en **[!UICONTROL Create Journey]** para crear un nuevo recorrido.
+1. Haga clic en **[!UICONTROL Crear Recorrido]** para crear un nuevo recorrido.
 
 1. Edite las propiedades del recorrido en el panel de configuración que se muestra en el lado derecho. Obtenga más información en esta [sección](journey-gs.md#change-properties).
 
@@ -81,7 +81,7 @@ Estos son los pasos principales para enviar mensajes a través de recorridos:
 
 Haga clic en el icono de lápiz, en la parte superior derecha para acceder a las propiedades del recorrido.
 
-Puede cambiar el nombre del recorrido, añadir una descripción, permitir la reentrada, elegir las fechas de inicio y finalización y, como usuario administrador, definir una **[!UICONTROL Timeout and error]** duración. Si está habilitado para su organización, también puede activar [mensajería instantánea](#burst).
+Puede cambiar el nombre del recorrido, añadir una descripción, permitir la reentrada, elegir las fechas de inicio y finalización y, como usuario administrador, definir una **[!UICONTROL Tiempo de espera y error]** duración.
 
 Para los recorridos en directo, esta pantalla muestra la fecha de publicación y el nombre del usuario que publicó el recorrido.
 
@@ -93,17 +93,21 @@ La variable **Copiar detalles técnicos** le permite copiar información técnic
 
 De forma predeterminada, los nuevos recorridos permiten volver a entrar. Puede desmarcar la opción de recorridos de &quot;una toma&quot;, por ejemplo, si desea ofrecer un regalo único cuando una persona entra en una tienda. En ese caso, no desea que el cliente pueda volver a entrar en el recorrido y recibir la oferta de nuevo.
 
-Cuando un recorrido &quot;termina&quot;, tendrá el estado **[!UICONTROL Closed]**. El recorrido dejará de permitir la entrada al recorrido de nuevos individuos. Las personas que ya están en el recorrido terminarán normalmente el recorrido.
+Cuando un recorrido &quot;termina&quot;, tendrá el estado **[!UICONTROL Cerrado]**. El recorrido dejará de permitir la entrada al recorrido de nuevos individuos. Las personas que ya están en el recorrido terminarán normalmente el recorrido.
 
 Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará a la variable **Finalizado** estado. Consulte esta [sección](../building-journeys/journey-gs.md#global_timeout).
 
+>[!NOTE]
+>
+>Los recorridos unitarios (comenzando por un evento o una calificación de segmento) incluyen una protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante 5 minutos. Por ejemplo, si un evento déclencheur un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
+
 ### Tiempo de espera y error en las actividades de recorrido {#timeout_and_error}
 
-Al editar una acción o actividad de condición, puede definir una ruta alternativa en caso de error o de tiempo de espera. Si el procesamiento de la actividad que interroga a un sistema de terceros supera el tiempo de espera definido en las propiedades del recorrido (**[!UICONTROL Timeout and  error]** ), se elige la segunda ruta para realizar una posible acción de reserva.
+Al editar una acción o actividad de condición, puede definir una ruta alternativa en caso de error o de tiempo de espera. Si el procesamiento de la actividad que interroga a un sistema de terceros supera el tiempo de espera definido en las propiedades del recorrido (**[!UICONTROL Tiempo de espera y error]** ), se elige la segunda ruta para realizar una posible acción de reserva.
 
 Los valores autorizados están entre 1 y 30 segundos.
 
-Le recomendamos que defina una **[!UICONTROL Timeout and error]** si el recorrido distingue entre horas (ejemplo: reaccionar a la ubicación en tiempo real de una persona) porque no puede retrasar la acción durante más de unos segundos. Si el recorrido es menos sensible al tiempo, puede utilizar un valor más largo para dar más tiempo al sistema llamado para enviar una respuesta válida.
+Le recomendamos que defina una **[!UICONTROL Tiempo de espera y error]** si el recorrido distingue entre horas (ejemplo: reaccionar a la ubicación en tiempo real de una persona) porque no puede retrasar la acción durante más de unos segundos. Si el recorrido es menos sensible al tiempo, puede utilizar un valor más largo para dar más tiempo al sistema llamado para enviar una respuesta válida.
 
 Recorrido también utiliza un tiempo de espera global. Consulte la [sección siguiente](#global_timeout).
 
@@ -127,31 +131,8 @@ Si se define una zona horaria en el perfil de Adobe Experience Platform, se pued
 
 Para obtener más información sobre la administración de huso horario, consulte [esta página](../building-journeys/timezone-management.md).
 
-### Modo de ráfaga {#burst}
+### Administrar acceso {#access}
 
-Burst mode es un complemento de Journey Optimizer que permite enviar mensajes push muy rápidamente en grandes volúmenes. Se utiliza para recorridos simples que incluyen un **Leer segmento** actividad y un mensaje push simple. Burst se utiliza cuando el retraso en la entrega de mensajes es crítico para el negocio, cuando desea enviar una alerta push urgente en teléfonos móviles, por ejemplo una noticia de último minuto para los usuarios que han instalado la aplicación de canal de noticias.
+Para asignar etiquetas de uso de datos principales o personalizadas al recorrido, haga clic en el botón **[!UICONTROL Administrar acceso]** botón. [Obtenga más información sobre Control de acceso a nivel de objeto (OLA)](../administration/object-based-access.md)
 
-La mensajería de ráfaga viene con los siguientes requisitos:
-
-* El recorrido debe comenzar con un **Leer segmento** actividad. No se permiten eventos.
-* El siguiente paso debe ser un mensaje push. No se permite ningún otro canal, actividad o paso.
-* No se permite ninguna personalización en el mensaje push.
-* El mensaje debe ser pequeño (&lt;2 KB).
-
->[!CAUTION]
->
->Si no se cumple ninguno de los requisitos, el modo de ráfaga no estará disponible en el recorrido.
-
-Para activar **Modo de ráfaga**, abra el recorrido y haga clic en el icono de lápiz, en la parte superior derecha para acceder a las propiedades del recorrido. A continuación, active la variable **Habilitar modo de ráfaga** alternar.
-
-![](assets/burst.png)
-
-El modo de ráfaga se desactiva automáticamente si se modifica un recorrido de ráfaga y se añade una actividad que no es compatible con los mensajes de ráfaga, como un mensaje de correo electrónico, cualquier otra acción, un evento, etc.
-
-![](assets/burst2.png)
-
-A continuación, pruebe y publique el recorrido como de costumbre. Tenga en cuenta que, en el modo de prueba, los mensajes no se envían mediante el modo de ráfaga.
-
-En este vídeo se describen los casos de uso aplicables a la mensajería radial y cómo configurar un recorrido para los mensajes radiales:
-
->[!VIDEO](https://video.tv.adobe.com/v/334523?quality=12)
+![](assets/journeys-manage-access.png)

@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
-workflow-type: ht
-source-wordcount: '400'
+source-git-commit: 8ca0d2bbd01451de613d8ae985e10a711fcc6316
+workflow-type: tm+mt
+source-wordcount: '336'
 ht-degree: 100%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 100%
 # Documentación de Adobe [!DNL Journey Optimizer] {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
-
->[!CAUTION]
->
->En julio de 2022, Adobe Journey Optimizer lanzó una [función nueva](using/rn/inline-messages.md) que mejora la forma en que se crea contenido para canales de Journey Optimizer (correo electrónico, push, SMS). Como profesional de Journey Optimizer, ahora [crea y genera](using/messages/messages-in-journeys.md) sus mensajes directamente desde un recorrido. Se ejecuta una conversión automática de recorridos. Dicho esto, necesitamos su ayuda con algunos pasos. Obtenga más información sobre los [pasos necesarios](using/rn/inline-messages-steps.md).
 
 <table style="table-layout:fixed">
 <tr>

@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 54%
+source-wordcount: '905'
+ht-degree: 49%
 
 ---
 
@@ -36,6 +36,8 @@ Puede configurar dos tipos de eventos:
 >[!NOTE]
 >
 >Si edita un evento utilizado en un recorrido en borrador o activo, solo puede cambiar el nombre, la descripción o agregar campos de carga útil. Limitamos estrictamente la edición de los recorridos en borrador o en directo para evitar que se rompan.
+
+Los recorridos unitarios (comenzando por un evento o una calificación de segmento) incluyen una protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante 5 minutos. Por ejemplo, si un evento déclencheur un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
 
 ➡️ [Descubra esta función en vídeo](#video)
 

@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 21%
+source-wordcount: '96'
+ht-degree: 9%
 
 ---
 
 # toDateOnly{#toDateOnly}
 
-Convierte un valor de argumento en un valor de solo fecha.
+Convierte un argumento en un valor de tipo dateOnly . Para obtener más información sobre los tipos de datos, consulte esta [sección](../expression/data-types.md).
 
 ## Categoría
 
@@ -29,19 +29,33 @@ Conversión
 
 | Parámetro | Tipo |
 |-----------|------------------|
-| fecha en formato ISO-8601 o &quot;AAAA-MM-DD&quot; (formato de fecha XDM) | string |
-| date | date |
+| Representación de cadena de una fecha como &quot;AAAA-MM-DD&quot; (formato XDM). También admite el formato ISO-8601: only **fecha completa** parte se considera (consulte [RFC 3339, sección 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
+| fecha y hora | dateTime |
+| fecha y hora sin zona horaria | dateTimeOnly |
+| valor entero de una epoch en milisegundos | integer |
 
 ## Firmas y tipos devueltos
 
-`toDateOnly(<date>)`
+`toDateOnly(<dateTime>)`
+
+`toDateOnly(<dateTimeOnly>)`
 
 `toDateOnly(<string>)`
 
-Devolver una fecha y hora sin considerar la zona horaria.
+`toDateOnly(<integer>, <integer>, <integer>)`
+
+Devuelve un valor de tipo dateOnly.
 
 ## Ejemplos
 
 `toDateOnly("2016-08-18")`
 
-devuelve un objeto dateOnly que representa 2016-08-18.
+`toDateOnly("2016-08-18T00:00:00.000Z")`
+
+`toDateOnly("2016-08-18T00:00:00")`
+
+todos devuelven un objeto dateOnly que representa 2016-08-18.
+
+`toDateOnly(#{ExperiencePlatform.ProfileFieldGroup.person.birthDate})`
+
+Devuelve un dateOnly.

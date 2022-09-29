@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
+source-git-commit: bb90f582b9767b1aaeb5d86b0e68f500871fab3a
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1571'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ con [!DNL Journey Optimizer], puede configurar superficies de canal (es decir, a
 > * Debe realizar la [Configuración de correo electrónico](#configure-email-settings), [Configuración push](../configuration/push-configuration.md) y [Configuración de SMS](../configuration/sms-configuration.md) pasos antes de crear superficies de canal.
 
 
-Una vez configuradas las superficies del canal, se pueden seleccionar al crear mensajes desde un recorrido.
+Una vez configuradas las superficies del canal, se pueden seleccionar al crear mensajes desde un recorrido o una campaña.
 
 <!--
 ➡️ [Learn how to create and use email surfaces in this video](#video-presets)
@@ -35,14 +35,12 @@ Una vez configuradas las superficies del canal, se pueden seleccionar al crear m
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="Configuración de la superficie del canal"
->abstract="Al configurar una superficie de canal, seleccione el canal al que se aplica y defina todos los parámetros técnicos necesarios para los mensajes, como el tipo de correo electrónico, el subdominio, el nombre del remitente, las aplicaciones móviles, la configuración de SMS, etc."
+>abstract="Al configurar una superficie de canal, seleccione el canal al que se aplica y defina todos los parámetros técnicos necesarios para el envío, como el tipo de correo electrónico, el nombre del remitente, las aplicaciones móviles, la configuración de SMS, etc."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Configuración de la superficie del canal"
->abstract="Al configurar una superficie de canal, seleccione el canal al que se aplica y defina todos los parámetros técnicos necesarios para los mensajes, como el tipo de correo electrónico, el nombre del remitente, las aplicaciones móviles, la configuración de SMS, etc."
-
-<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.-->
+>abstract="Para poder crear acciones como correos electrónicos desde un recorrido o una campaña, primero debe crear una superficie de canal que defina toda la configuración técnica necesaria para los mensajes. Debe tener el permiso Administrar superficie de canal para crear, editar y eliminar superficies de canal."
 
 Para crear una superficie de canal, siga estos pasos:
 
@@ -90,7 +88,10 @@ Para crear una superficie de canal, siga estos pasos:
 
 1. Una vez creada la superficie del canal, se muestra en la lista con la variable **[!UICONTROL Procesamiento]** estado.
 
-   Durante este paso, se realizarán varias comprobaciones para verificar que se ha configurado correctamente. El tiempo de procesamiento ronda **48 h-72 h** y puede tardar hasta **7 a 10 días hábiles**.
+   Durante este paso, se realizarán varias comprobaciones para verificar que se ha configurado correctamente. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
+
+   >[!NOTE]
+   >Al crear la primera superficie de canal para un subdominio determinado, el tiempo de procesamiento puede tardar **de 10 minutos a 10 días**. Si el subdominio seleccionado ya se está utilizando en otra superficie, solo tardará 3 horas.
 
    Estas comprobaciones incluyen las pruebas técnicas y de configuración que realiza el equipo de Adobe:
 
@@ -101,6 +102,7 @@ Para crear una superficie de canal, siga estos pasos:
    * Comprobación de host de Helo
    * Verificación del grupo IP
    * Registro A/PTR, verificación del subdominio t/m/res
+   * Registro de FBL (esta comprobación solo se realizará la primera vez que se cree una superficie de correo electrónico para un subdominio determinado)
 
    >[!NOTE]
    >

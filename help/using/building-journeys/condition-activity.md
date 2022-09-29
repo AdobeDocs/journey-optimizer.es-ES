@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 9eebc64476b1fb7c1d0300cf66b0377dfbf0754f
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 10%
+source-wordcount: '1440'
+ht-degree: 8%
 
 ---
 
@@ -39,7 +39,7 @@ Estos tipos de condiciones están disponibles:
 
 Cuando se utilizan varias condiciones en un recorrido, se pueden definir etiquetas para cada una de ellas a fin de identificarlas con mayor facilidad.
 
-Haga clic en **[!UICONTROL Add a path]** si desea definir varias condiciones. Para cada condición, se agrega una nueva ruta en el lienzo después de la actividad .
+Haga clic en **[!UICONTROL Agregar una ruta]** si desea definir varias condiciones. Para cada condición, se agrega una nueva ruta en el lienzo después de la actividad .
 
 ![](assets/journey47.png)
 
@@ -49,7 +49,7 @@ Por ejemplo, tomemos el ejemplo de la condición de una primera ruta &quot;La pe
 
 ![](assets/journey48.png)
 
-Puede crear otra ruta para las audiencias que no cumplan los requisitos de las condiciones definidas comprobando **[!UICONTROL Show path for other cases than the one(s) above]**. Tenga en cuenta que esta opción no está disponible en condiciones de división. Consulte [División de porcentaje](#percentage_split).
+Puede crear otra ruta para las audiencias que no cumplan los requisitos de las condiciones definidas comprobando **[!UICONTROL Mostrar ruta para otros casos que no sean los anteriores]**. Tenga en cuenta que esta opción no está disponible en condiciones de división. Consulte [División de porcentaje](#percentage_split).
 
 El modo simple permite realizar consultas simples basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Arrastre y suelte los campos en la zona principal. Para combinar los distintos elementos, conéctelos entre sí para crear diferentes grupos o niveles de grupo. A continuación, puede seleccionar un operador lógico para combinar elementos en el mismo nivel:
 
@@ -65,7 +65,7 @@ Si está utilizando la variable [Servicio de segmentación de Adobe Experience P
 >
 >No puede realizar consultas en series temporales (por ejemplo, una lista de compras o clics anteriores en mensajes) con el editor simple. Para ello, debe utilizar el editor avanzado. Consulte [esta página](expression/expressionadvanced.md).
 
-Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera para continuar es marcar la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
+Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera de continuar es marcar la casilla **[!UICONTROL Añada una ruta alternativa en caso de tiempo de espera o error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
 
 En el editor simple, también encontrará la categoría Propiedades del Recorrido, debajo de las categorías de evento y fuente de datos. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información recuperada por el sistema de los recorridos activos, como el ID de recorrido o los errores específicos encontrados. [Más información](expression/journey-properties.md)
 
@@ -83,9 +83,15 @@ Esto le permite realizar diferentes acciones según la hora del día o el día d
 
 >[!NOTE]
 >
->La zona horaria ya no es específica de una condición y ahora se define a nivel de recorrido en las propiedades de recorrido. Consulte [esta página](../building-journeys/timezone-management.md).
+>La zona horaria no es específica de una condición y se define a nivel de recorrido en las propiedades de recorrido. Consulte [esta página](../building-journeys/timezone-management.md).
 
 ![](assets/journey51.png)
+
+Hay tres opciones de filtrado disponibles:
+
+* Hora: permite configurar una condición en función de la hora del día. A continuación, defina las horas de inicio y finalización. Los individuos entrarán en la ruta solo durante el intervalo de horas definido.
+* Día de la semana: permite configurar una condición en función del día de la semana. A continuación, seleccione los días en los que desea que las personas entren en la ruta.
+* Día de la semana y hora: esta opción combina las dos primeras opciones.
 
 ## División de porcentaje {#percentage_split}
 
@@ -140,14 +146,14 @@ En esta sección se explica cómo utilizar un segmento en una condición de reco
 
 Para utilizar un segmento en una condición de recorrido, siga estos pasos:
 
-1. Abra un recorrido y suelte un **[!UICONTROL Condition]** actividad y elija la **Condición de fuente de datos**.
+1. Abra un recorrido y suelte un **[!UICONTROL Condición]** actividad y elija la **Condición de fuente de datos**.
    ![](assets/journey47.png)
 
-1. Haga clic en **[!UICONTROL Add a path]** para cada ruta adicional necesaria. Para cada ruta, haga clic en el botón **[!UICONTROL Expression]** campo .
+1. Haga clic en **[!UICONTROL Agregar una ruta]** para cada ruta adicional necesaria. Para cada ruta, haga clic en el botón **[!UICONTROL Expresión]** campo .
 
    ![](assets/segment3.png)
 
-1. En el lado izquierdo, despliegue **[!UICONTROL Segments]** nodo . Arrastre y suelte el segmento que desee utilizar para su condición. De forma predeterminada, la condición del segmento es verdadera.
+1. En el lado izquierdo, despliegue **[!UICONTROL Segmentos]** nodo . Arrastre y suelte el segmento que desee utilizar para su condición. De forma predeterminada, la condición del segmento es verdadera.
 
    ![](assets/segment4.png)
 

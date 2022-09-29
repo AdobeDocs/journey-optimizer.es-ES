@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 3afef10461ce29b811cb20a2c8c4e94f452daf1f
+source-git-commit: 8ca0d2bbd01451de613d8ae985e10a711fcc6316
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1115'
 ht-degree: 9%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 ## Acerca de los permisos relacionados con los mensajes{#message-permissions}
 
-Adobe Journey Optimizer ha lanzado nuevas funciones de creación en línea que le permiten crear y crear sus mensajes directamente desde un recorrido o una campaña. Para obtener más información sobre esta nueva función, [consulte esta página](../rn/inline-messages.md).
+Adobe Journey Optimizer ha lanzado nuevas funciones de creación en línea que le permiten crear y crear sus mensajes directamente desde un recorrido o una campaña.
 
 Esta función afecta a los permisos de la siguiente manera:
 
@@ -60,7 +60,7 @@ La variable **[!DNL Campaign Approver]** perfil de producto permite a los usuari
 
 ## [!DNL Campaign Manager] {#campaign-manager}
 
-La variable **[!DNL Campaign Manager]** perfil de producto permite a los usuarios crear y editar **[!UICONTROL Campaigns]** y todas las capacidades vinculadas a **[!UICONTROL Campaigns]** pero no podrá publicarlas.
+La variable **[!DNL Campaign Manager]** perfil de producto permite a los usuarios crear y editar **[!UICONTROL Campañas]** y todas las capacidades vinculadas a **[!UICONTROL Campañas]** pero no podrá publicarlas.
 
 Este perfil de productos incluye los siguientes permisos:
 
@@ -70,7 +70,7 @@ Este perfil de productos incluye los siguientes permisos:
 
 ## [!DNL Campaign Viewer] {#campaign-viewer}
 
-La variable **[!DNL Campaign Viewer]** el perfil de producto permite el acceso de solo lectura al **[!UICONTROL Campaigns]** y **[!UICONTROL Decision management]** capacidades.
+La variable **[!DNL Campaign Viewer]** el perfil de producto permite el acceso de solo lectura al **[!UICONTROL Campañas]** y **[!UICONTROL Gestión de decisiones]** capacidades.
 
 Los usuarios asignados a este perfil de producto no podrán editar ni publicar.
 
@@ -101,7 +101,7 @@ Este perfil de productos incluye los siguientes permisos:
 
 ## [!DNL Journey Manager] {#journey-manager}
 
-La variable **[!DNL Journey Manager]** perfil de producto permite a los usuarios crear y editar **[!UICONTROL Journeys]** y todas las capacidades vinculadas a **[!UICONTROL Journeys]** pero no podrá publicarlas.
+La variable **[!DNL Journey Manager]** perfil de producto permite a los usuarios crear y editar **[!UICONTROL Recorridos]** y todas las capacidades vinculadas a **[!UICONTROL Recorridos]** pero no podrá publicarlas.
 
 Este perfil de productos incluye los siguientes permisos:
 
@@ -111,7 +111,7 @@ Este perfil de productos incluye los siguientes permisos:
 
 ## [!DNL Journey Viewer] {#journey-viewer}
 
-La variable **[!DNL Journey viewer]** el perfil de producto permite el acceso de solo lectura al **[!UICONTROL Journeys]** y **[!UICONTROL Decision management]** capacidades.
+La variable **[!DNL Journey viewer]** el perfil de producto permite el acceso de solo lectura al **[!UICONTROL Recorridos]** y **[!UICONTROL Gestión de decisiones]** capacidades.
 
 Los usuarios asignados a este perfil de producto no podrán editar ni publicar.
 
@@ -122,7 +122,7 @@ Este perfil de productos incluye los siguientes permisos:
 
 ## [!DNL Decisioning manager] {#decisioning-manager}
 
-La variable **[!DNL Decisioning manager]** el perfil de producto solo permite que la variable **[!UICONTROL Decision management]** para abrir el Navegador. Los usuarios asignados a este perfil de producto solo podrán administrar, ver y publicar decisiones.
+La variable **[!DNL Decisioning manager]** el perfil de producto solo permite que la variable **[!UICONTROL Gestión de decisiones]** para abrir el Navegador. Los usuarios asignados a este perfil de producto solo podrán administrar, ver y publicar decisiones.
 
 Este perfil de productos incluye los siguientes permisos:
 

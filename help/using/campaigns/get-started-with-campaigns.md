@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 5a33508759d527a76dd7119102358ae345107652
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '564'
+ht-degree: 9%
 
 ---
 
@@ -20,9 +20,12 @@ ht-degree: 0%
 >title="Campañas"
 >abstract="Cree campañas para ofrecer contenido de una sola vez a un segmento específico en varios canales. Antes de crear la campaña, asegúrese de que tiene una superficie de canal (es decir, un ajuste preestablecido de mensaje) y un segmento de Adobe Experience Platform listos para usar."
 
-Utilice campañas de Journey Optimizer para ofrecer contenido único a un segmento específico mediante varios canales. Cuando se utilizan recorridos, las acciones se ejecutan en secuencia. Con las campañas, las acciones se realizan simultáneamente, ya sea inmediatamente o en función de una programación especificada.
+Utilice campañas de Journey Optimizer para ofrecer contenido único a un segmento específico mediante varios canales. Cuando se utilizan recorridos, las acciones se ejecutan en secuencia. Con las campañas, las acciones se realizan simultáneamente, ya sea de forma inmediata o en función de una programación especificada.
 
-Cree campañas para enviar comunicaciones por lotes ad-hoc sencillas para casos de uso de marketing, como ofertas promocionales, campañas de participación, anuncios, avisos legales o actualizaciones de políticas.
+Puede crear dos tipos de campañas:
+
+* **Campañas programadas** permite comunicaciones por lotes ad-hoc sencillas para casos de uso de marketing, como ofertas promocionales, campañas de participación, anuncios, avisos legales o actualizaciones de políticas.
+* **Campañas de API activadas** permiten mensajes transaccionales/operativos simples con las API de REST (restablecimiento de contraseña, abandono de tarjeta, etc.), donde la necesidad puede implicar personalización mediante atributos de perfil y datos contextuales de carga útil.
 
 Los pasos principales para crear una campaña son los siguientes:
 
@@ -30,37 +33,32 @@ Los pasos principales para crear una campaña son los siguientes:
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-<!--You can create two types of campaigns:
-
-* **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
-* **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
-
 ## Antes de empezar {#campaign-prerequisites}
 
 Compruebe los siguientes requisitos previos antes de empezar a crear la primera campaña en Journey Optimizer:
 
-1. **Necesita los permisos adecuados**. Las campañas solo están disponibles para los usuarios con acceso a campañas relacionadas **[!UICONTROL Product profile]** como administrador de campañas, aprobador de campañas, administrador de campañas o visualizador de campañas.
+1. **Necesita los permisos adecuados**. Las campañas solo están disponibles para los usuarios con acceso a campañas relacionadas **[!UICONTROL Perfil del producto]** como administrador de campañas, aprobador de campañas, administrador de campañas o visualizador de campañas.
 
    Si no puede acceder a las campañas, sus permisos deben ampliarse. Si tiene acceso a [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} para su organización, siga los pasos a continuación. Si no es así, póngase en contacto con el administrador de Journey Optimizer.
 
    +++Obtenga información sobre cómo asignar permisos de campaña
 
-   Para asignar la **[!UICONTROL Product profile]** a sus usuarios:
+   Para asignar la **[!UICONTROL Perfil del producto]** a sus usuarios:
 
    1. De [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}, seleccione la opción [!DNL Adobe Experience Platform] producto.
 
-   1. Vaya a la **[!UICONTROL Product profile]** , seleccione una de las campañas integradas relacionadas **[!UICONTROL Product profile]**: Administrador de campañas, aprobador de campañas, administrador de campañas o visualizador de campañas.
+   1. Vaya a la **[!UICONTROL Perfil del producto]** , seleccione una de las campañas integradas relacionadas **[!UICONTROL Perfil del producto]**: Administrador de campañas, aprobador de campañas, administrador de campañas o visualizador de campañas.
 
-      Para obtener más información sobre la campaña de Journey Optimizer **[!UICONTROL Product profiles]** y **[!UICONTROL Permissions]**, [consulte esta página](../administration/ootb-product-profiles.md).
+      Para obtener más información sobre la campaña de Journey Optimizer **[!UICONTROL Perfiles de producto]** y **[!UICONTROL Permisos]**, [consulte esta página](../administration/ootb-product-profiles.md).
 
       ![](assets/do-not-localize/admin_1.png)
 
-   1. Haga clic en **[!UICONTROL Add user]** para asignar al usuario el **[!UICONTROL Product profile]**.
+   1. Haga clic en **[!UICONTROL Agregar usuario]** para asignar al usuario el **[!UICONTROL Perfil del producto]**.
 
       ![](assets/do-not-localize/admin_2.png)
 
-   1. Escriba el nombre del usuario, el grupo o la dirección de correo electrónico y haga clic en **[!UICONTROL Save]**.
-   El usuario ahora puede acceder a **[!UICONTROL Campaigns]**.
+   1. Escriba el nombre del usuario, el grupo o la dirección de correo electrónico y haga clic en **[!UICONTROL Guardar]**.
+   El usuario ahora puede acceder a **[!UICONTROL Campañas]**.
 
 +++
 
@@ -69,9 +67,9 @@ Compruebe los siguientes requisitos previos antes de empezar a crear la primera 
 
 ## Acceso a campañas {#access}
 
-Se puede acceder a las campañas desde la **[!UICONTROL Campaigns]** para abrir el Navegador.
+Se puede acceder a las campañas desde la **[!UICONTROL Campañas]** para abrir el Navegador.
 
-De forma predeterminada, la lista muestra todas las campañas con la variable **[!UICONTROL Draft]**, **[!UICONTROL Scheduled]** y **[!UICONTROL Live]** estados. Para mostrar las campañas detenidas, completadas y archivadas, debe borrar el filtro.
+De forma predeterminada, la lista muestra todas las campañas con la variable **[!UICONTROL Borrador]**, **[!UICONTROL Programado]** y **[!UICONTROL Activo]** estados. Para mostrar las campañas detenidas, completadas y archivadas, debe borrar el filtro.
 
 ![](assets/create-campaign-list.png)
 
@@ -79,17 +77,17 @@ De forma predeterminada, la lista muestra todas las campañas con la variable **
 
 Las campañas pueden tener varios estados:
 
-* **[!UICONTROL Draft]**: La campaña se está editando y no se ha activado.
-* **[!UICONTROL Activating]**: La campaña se está activando.
-* **[!UICONTROL Live]**: La campaña se ha activado.
-* **[!UICONTROL Scheduled]**: La campaña está configurada para activarse en una fecha de inicio específica.
-* **[!UICONTROL Stopped]**: La campaña se ha detenido manualmente. Ya no se puede activar ni volver a utilizar. [Más información](modify-stop-campaign.md#stop)
-* **[!UICONTROL Completed]**: La campaña ha finalizado. Este estado se asigna automáticamente 3 días después de activar una campaña o en la fecha de finalización de la campaña si tiene una ejecución recurrente.
-* **[!UICONTROL Archived]**: La campaña se ha archivado.
+* **[!UICONTROL Borrador]**: La campaña se está editando y no se ha activado.
+* **[!UICONTROL Activación]**: La campaña se está activando.
+* **[!UICONTROL Activo]**: La campaña se ha activado.
+* **[!UICONTROL Programado]**: La campaña está configurada para activarse en una fecha de inicio específica.
+* **[!UICONTROL Detenido]**: La campaña se ha detenido manualmente. Ya no se puede activar ni volver a utilizar. [Más información](modify-stop-campaign.md#stop)
+* **[!UICONTROL Completado]**: La campaña ha finalizado. Este estado se asigna automáticamente 3 días después de activar una campaña o en la fecha de finalización de la campaña si tiene una ejecución recurrente.
+* **[!UICONTROL Archivado]**: La campaña se ha archivado.
 
 >[!NOTE]
 >
->El icono &quot;Abrir versión de borrador&quot; junto a una **[!UICONTROL Live]** o **[!UICONTROL Scheduled]** indica que se ha creado una nueva versión de la campaña y que aún no se ha activado. [Más información](modify-stop-campaign.md#modify).
+>El icono &quot;Abrir versión de borrador&quot; junto a una **[!UICONTROL Activo]** o **[!UICONTROL Programado]** indica que se ha creado una nueva versión de la campaña y que aún no se ha activado. [Más información](modify-stop-campaign.md#modify).
 
 ## Vídeo explicativo {#video}
 

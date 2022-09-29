@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo utilizar conjuntos de datos de Ado
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 1de18fa479a54c09751324a67793ce50e5657ce3
+source-git-commit: 4cf9a45ee9cc7169d060799de7d1ea128caa140f
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 8%
+source-wordcount: '820'
+ht-degree: 7%
 
 ---
 
@@ -33,12 +33,30 @@ De forma predeterminada, solo se muestran los conjuntos de datos que ha introduc
 
 Seleccione el nombre de un conjunto de datos para acceder a la pantalla de actividad de conjunto de datos y ver los detalles del conjunto de datos seleccionado. La pestaña actividad incluye un gráfico que visualiza la tasa de consumo de los mensajes, así como una lista de lotes correctos y fallidos.
 
+Estos son los diferentes conjuntos de datos disponibles:
+
+**Creación de informes**
+
+* _Sistema de informes: conjunto de datos del evento de comentarios de mensajes_: Registros de envío de mensajes. Información sobre la entrega de mensajes desde Journey Optimizer con fines de creación de informes y segmentos. Los comentarios de los ISP de correo electrónico sobre las devoluciones también se registran en este conjunto de datos.
+* _Creación de informes: conjunto de datos de evento de experiencia de seguimiento de correo electrónico_: Registros de interacción para el canal de correo electrónico que se utiliza para la creación de informes y segmentos. La información almacenada informa sobre las acciones realizadas por el usuario final en el correo electrónico (aperturas, clics, etc.).
+* _Creación de informes: conjunto de datos de evento de experiencia de seguimiento push_: Registros de interacción para el canal push que se utilizan con fines de creación de informes y segmentos. La información almacenada informa sobre las acciones realizadas por el usuario final en las notificaciones push.
+* _Sistema de informes: Evento de paso de Recorrido_: Captura todos los eventos de experiencia de los pasos de Recorrido generados desde Journey Optimizer para que los consuman servicios como Informes. También es fundamental para crear informes en Customer Journey Analytics para análisis de año. Vinculado a metadatos de Recorrido.
+* _Informes: Recorridos_: Información sobre el alojamiento del conjunto de datos de metadatos de cada paso de un recorrido.
+* _Informes - CCO_: Conjunto de datos del evento de comentarios que almacena los registros de envío de los correos electrónicos CCO. Para su uso en informes.
+
+**Consentimiento**
+
+* _Conjunto de datos del servicio de consentimiento_: almacena información de consentimiento de un perfil.
+
+**Servicios inteligentes**
+
+* _Puntuaciones de optimización en tiempo de envío/Puntuaciones de participación_: Resultados de Recorrido AI.
+
 ## Vista previa de conjuntos de datos{#preview-datasets}
 
 En la pantalla de actividad Conjunto de datos, seleccione **Vista previa del conjunto de datos** cerca de la esquina superior derecha de la pantalla para obtener una vista previa del lote exitoso más reciente en este conjunto de datos. Cuando un conjunto de datos está vacío, el vínculo de vista previa se desactiva.
 
 ![](assets/dataset-preview.png)
-
 
 ## Crear conjuntos de datos{#create-datasets}
 
@@ -67,7 +85,7 @@ Obtenga más información sobre Administración de datos y etiquetas de uso de d
 
 Obtenga información sobre cómo crear un esquema, un conjunto de datos y la ingesta de datos para añadir perfiles de prueba en Adobe Journey Optimizer en [esta muestra completa](../segment/creating-test-profiles.md)
 
-Obtenga más información sobre la creación de conjuntos de datos en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
+Obtenga más información sobre la creación de conjuntos de datos en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es){target=&quot;_blank&quot;}.
 
 Aprenda a utilizar la interfaz de usuario de conjuntos de datos en la [Documentación general de la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es){target=&quot;_blank&quot;}.
 

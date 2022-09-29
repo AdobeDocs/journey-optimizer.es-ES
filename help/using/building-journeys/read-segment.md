@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
+source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 6%
+source-wordcount: '1323'
+ht-degree: 5%
 
 ---
 
@@ -30,19 +30,19 @@ Veamos como ejemplo el segmento &quot;Apertura y cierre de compra de la aplicaci
 >
 >Para los recorridos que utilizan una actividad Leer segmento , existe un número máximo de recorridos que pueden iniciarse al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con Leer segmento, programados o iniciados &quot;lo antes posible&quot;) que empiecen al mismo tiempo, esparciéndolos a lo largo del tiempo, por ejemplo, entre 5 y 10 minutos.
 >
->El complemento de pago de ráfaga permite enviar mensajes push muy rápidamente en grandes volúmenes para recorridos simples que incluyen un segmento de lectura y un mensaje push simple. Para obtener más información, consulte [esta sección](../building-journeys/journey-gs.md#burst)
+>Los grupos de campos de evento de experiencia no se pueden usar en recorridos que comiencen por un segmento de lectura, una calificación de segmento o una actividad de evento comercial.
 
 ### Configure la actividad {#configuring-segment-trigger-activity}
 
 Los pasos para configurar la actividad Leer segmento son los siguientes:
 
-1. Despliegue el **[!UICONTROL Orchestration]** categoría y suelte a **[!UICONTROL Read Segment]** actividad en el lienzo.
+1. Despliegue el **[!UICONTROL Organización]** categoría y suelte a **[!UICONTROL Leer segmento]** actividad en el lienzo.
 
    La actividad debe colocarse como el primer paso de un recorrido.
 
-1. Agregue un **[!UICONTROL Label]** a la actividad (opcional).
+1. Agregue un **[!UICONTROL Etiqueta]** a la actividad (opcional).
 
-1. En el **[!UICONTROL Segment]** , seleccione el segmento de Adobe Experience Platform que entrará en el recorrido y, a continuación, haga clic en **[!UICONTROL Save]**.
+1. En el **[!UICONTROL Segmento]** , seleccione el segmento de Adobe Experience Platform que entrará en el recorrido y, a continuación, haga clic en **[!UICONTROL Guardar]**.
 
    Tenga en cuenta que puede personalizar las columnas mostradas en la lista y ordenarlas.
 
@@ -52,19 +52,19 @@ Los pasos para configurar la actividad Leer segmento son los siguientes:
 
    ![](assets/read-segment-selection.png)
 
-   Una vez agregado el segmento, la variable **[!UICONTROL Copy]** permite copiar su nombre y su ID:
+   Una vez agregado el segmento, la variable **[!UICONTROL Copiar]** permite copiar su nombre y su ID:
 
    `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/read-segment-copy.png)
 
-1. En el **[!UICONTROL Namespace]** , elija el área de nombres que desea utilizar para identificar a las personas. [Más información sobre áreas de nombres](../event/about-creating.md#select-the-namespace).
+1. En el **[!UICONTROL Área de nombres]** , elija el área de nombres que desea utilizar para identificar a las personas. [Más información sobre áreas de nombres](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >
    >Las personas que pertenecen a un segmento que no tiene la identidad seleccionada (área de nombres) entre sus distintas identidades no pueden entrar en el recorrido.
 
-1. Configure las variables **[!UICONTROL Throttling rate]** al límite de rendimiento de la actividad de segmento de lectura.
+1. Configure las variables **[!UICONTROL Tasa de restricción]** al límite de rendimiento de la actividad de segmento de lectura.
 
    Este valor se almacena en la carga útil de la versión de recorrido. El valor predeterminado es 20 000 mensajes por segundo. Puede modificar este valor de 500 a 20 000 mensajes por segundo.
 
@@ -72,15 +72,15 @@ Los pasos para configurar la actividad Leer segmento son los siguientes:
    >
    >La tasa de regulación global por simulador de pruebas se establece en 20 000 mensajes por segundo. Por lo tanto, la tasa de regulación de todos los segmentos de lectura que se ejecutan simultáneamente en el mismo simulador de pruebas suman como máximo 20 000 mensajes por segundo. No puede modificar este límite.
 
-1. La variable **[!UICONTROL Read Segment]** actividad le permite especificar la hora a la que el segmento ingresará en el recorrido. Para ello, haga clic en el botón **[!UICONTROL Edit journey schedule]** para acceder a las propiedades del recorrido y, a continuación, configure el **[!UICONTROL Scheduler type]** campo .
+1. La variable **[!UICONTROL Leer segmento]** actividad le permite especificar la hora a la que el segmento ingresará en el recorrido. Para ello, haga clic en el botón **[!UICONTROL Editar programación de recorrido]** para acceder a las propiedades del recorrido y, a continuación, configure el **[!UICONTROL Tipo de planificador]** campo .
 
    ![](assets/read-segment-schedule.png)
 
-   De forma predeterminada, los segmentos entran en el recorrido **[!UICONTROL As soon as possible]**. Si desea que el segmento introduzca el recorrido en una fecha u hora específica o de forma recurrente, seleccione el valor que desee en la lista.
+   De forma predeterminada, los segmentos entran en el recorrido **[!UICONTROL Lo antes posible]**. Si desea que el segmento introduzca el recorrido en una fecha u hora específica o de forma recurrente, seleccione el valor que desee en la lista.
 
    >[!NOTE]
    >
-   >Tenga en cuenta que **[!UICONTROL Schedule]** solo está disponible cuando **[!UICONTROL Read Segment]** la actividad se ha soltado en el lienzo.
+   >Tenga en cuenta que **[!UICONTROL Programación]** solo está disponible cuando **[!UICONTROL Leer segmento]** la actividad se ha soltado en el lienzo.
 
    ![](assets/read-segment-schedule-list.png)
 
@@ -108,10 +108,12 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >[!NOTE]
 >
 >Los recorridos de segmento Leído con una sola toma se mueven al estado Finalizado 30 días después de la ejecución del recorrido. Para segmentos de lectura programados, son 30 días después de la ejecución de la última ocurrencia.
+>
+>Debe tener cuidado al utilizar actividades de espera en recorridos de segmento de lectura recurrentes, ya que la duración de dichos recorridos termina en la siguiente ejecución. Lo que significa que si un recorrido se ejecuta a diario, la instancia de recorrido que se inició hoy durará hasta la ejecución de mañana. Por ejemplo, si ha añadido una espera de 2 días en ese recorrido, los perfiles siempre se moverán en la siguiente ejecución de recorrido (es decir, al día siguiente), tanto si están en la audiencia de ejecución siguiente como si no. Los perfiles nunca podrán permanecer en ese recorrido durante 2 días.
 
 ### Prueba y publicación del recorrido {#testing-publishing}
 
-La variable **[!UICONTROL Read Segment]** actividad le permite probar el recorrido en un perfil unitario o en 100 perfiles de prueba aleatorios seleccionados entre los perfiles cualificados para el segmento.
+La variable **[!UICONTROL Leer segmento]** actividad le permite probar el recorrido en un perfil unitario o en 100 perfiles de prueba aleatorios seleccionados entre los perfiles cualificados para el segmento.
 
 Para ello, active el modo de prueba y, a continuación, seleccione la opción que desee en el panel izquierdo.
 
@@ -119,17 +121,17 @@ Para ello, active el modo de prueba y, a continuación, seleccione la opción qu
 
 A continuación, puede configurar y ejecutar el modo de prueba como de costumbre. [Obtenga información sobre cómo probar un recorrido](testing-the-journey.md).
 
-Una vez ejecutada la prueba, la variable **[!UICONTROL Show logs]** permite ver los resultados de la prueba según la opción de prueba seleccionada:
+Una vez ejecutada la prueba, la variable **[!UICONTROL Mostrar registros]** permite ver los resultados de la prueba según la opción de prueba seleccionada:
 
-* **[!UICONTROL Single profile at a time]**: los registros de prueba muestran la misma información que al utilizar el modo de prueba unitaria. Para obtener más información, consulte [esta sección](testing-the-journey.md#viewing_logs)
+* **[!UICONTROL Un solo perfil a la vez]**: los registros de prueba muestran la misma información que al utilizar el modo de prueba unitaria. Para obtener más información, consulte [esta sección](testing-the-journey.md#viewing_logs)
 
-* **[!UICONTROL Up to 100 profiles at once]**: los registros de prueba permiten realizar un seguimiento de la progresión de la exportación de segmentos desde Adobe Experience Platform, así como del progreso individual de todas las personas que ingresaron al recorrido.
+* **[!UICONTROL Hasta 100 perfiles a la vez]**: los registros de prueba permiten realizar un seguimiento de la progresión de la exportación de segmentos desde Adobe Experience Platform, así como del progreso individual de todas las personas que ingresaron al recorrido.
 
    Tenga en cuenta que probar el recorrido utilizando hasta 100 perfiles a la vez no permite rastrear el progreso de las personas en el recorrido mediante el flujo visual.
 
    ![](assets/read-segment-log.png)
 
-Una vez realizadas las pruebas correctamente, puede publicar el recorrido (consulte [Publicación del recorrido](publishing-the-journey.md)). Las personas que pertenezcan al segmento introducirán el recorrido en la fecha y hora especificadas en las propiedades del recorrido **[!UICONTROL Scheduler]** para obtener más información.
+Una vez realizadas las pruebas correctamente, puede publicar el recorrido (consulte [Publicación del recorrido](publishing-the-journey.md)). Las personas que pertenezcan al segmento introducirán el recorrido en la fecha y hora especificadas en las propiedades del recorrido **[!UICONTROL Planificador]** para obtener más información.
 
 >[!NOTE]
 >

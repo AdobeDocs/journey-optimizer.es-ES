@@ -6,17 +6,15 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 30171e362e0dc70f5647bb2413031946062e8df3
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 0%
+source-wordcount: '899'
+ht-degree: 1%
 
 ---
 
-# Gestión del consentimiento (beta) {#consent-management}
+# Gestión de consentimiento {#consent-management}
 
 Adobe Experience Platform le permite adoptar y aplicar fácilmente políticas de marketing que respeten las preferencias de consentimiento de sus clientes. Las políticas de consentimiento se definen en Adobe Experience Platform. Consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
 
@@ -24,7 +22,7 @@ En Journey Optimizer, puede aplicar estas directivas de consentimiento a sus acc
 
 >[!NOTE]
 >
->Esta función se presenta como una versión beta privada. No está disponible para todos los clientes de Journey Optimizer.
+>Actualmente, las políticas de consentimiento solo están disponibles para las organizaciones que han adquirido la oferta de complemento Escudo de salud.
 
 En Journey Optimizer, el consentimiento se define en varios niveles:
 
@@ -33,14 +31,14 @@ En Journey Optimizer, el consentimiento se define en varios niveles:
 
 ## Notas importantes {#important-notes}
 
-En Journey Optimizer, el consentimiento se puede aprovechar en las acciones personalizadas. Si desea utilizarla con las funcionalidades de los mensajes integrados, debe utilizar una actividad de condición para filtrar a los clientes en su recorrido.
+En Journey Optimizer, el consentimiento se puede aprovechar en las acciones personalizadas. Si desea utilizarla con las funcionalidades de los mensajes integrados, debe utilizar una actividad de condición para filtrar clientes en su recorrido.
 
 Con la administración de consentimiento, se analizan dos actividades de recorrido:
 
 * Leer segmento: se tiene en cuenta el segmento recuperado.
 * Acción personalizada: la administración de consentimiento tiene en cuenta los atributos utilizados ([parámetros de acción](../action/about-custom-action-configuration.md#define-the-message-parameters)) así como las acciones de marketing definidas (acción de marketing necesaria y acción de marketing adicional).
-
-El consentimiento solo se aplica cuando se establece una acción de marketing (obligatoria o adicional) en el nivel de acción personalizada.
+* No se admiten los atributos que forman parte de un grupo de campos con el esquema de unión predeterminado. Estos atributos se ocultarán en la interfaz. Debe crear otro grupo de campos utilizando un esquema diferente.
+* Las políticas de consentimiento solo se aplican cuando una acción de marketing (obligatoria o adicional) se establece en el nivel de acción personalizada.
 
 No se tienen en cuenta todas las demás actividades utilizadas en un recorrido. Si inicia el recorrido con una calificación de segmento, no se tiene en cuenta el segmento.
 

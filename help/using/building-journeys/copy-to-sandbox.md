@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 >title="Objetos dependientes"
 >abstract="Esta es la lista de objetos asociados que se utilizan en el recorrido. Esta lista muestra el nombre, el tipo de objeto y el Journey Optimizer ID interno."
 
-Journey Optimizer permite copiar un recorrido completo de un simulador para pruebas a otro. Por ejemplo, puede copiar un recorrido del entorno de entorno limitado de ensayo en el entorno limitado de producción. Además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: segmentos, superficies (es decir, ajustes preestablecidos), esquemas, eventos y acciones. Consulte la [limitaciones](../building-journeys/copy-to-sandbox.md#limitations)
+Journey Optimizer permite copiar un recorrido completo de un simulador para pruebas a otro. Por ejemplo, puede copiar un recorrido del entorno de entorno limitado de ensayo en el entorno limitado de producción. Además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: segmentos, superficies (es decir, ajustes preestablecidos), esquemas, eventos y acciones. Para obtener más información sobre los objetos copiados, consulte esta [sección](../building-journeys/copy-to-sandbox.md#limitations).
 
 >[!CAUTION]
 >
@@ -45,7 +45,7 @@ Los objetos copiados en el entorno limitado de destino son únicos y no existe r
 
 Para copiar un recorrido en otro simulador para pruebas, siga estos pasos:
 
-1. En la sección del menú ADMINISTRACIÓN DE RECORRIDOS , haga clic en **[!UICONTROL Journeys]**. Se muestra la lista de recorridos.
+1. En la sección del menú ADMINISTRACIÓN DE RECORRIDOS , haga clic en **[!UICONTROL Recorridos]**. Se muestra la lista de recorridos.
 
 2. Busque el recorrido que desea copiar y haga clic en el botón **Más acciones** (los tres puntos junto al nombre del recorrido) y haga clic en **Copiar en entorno limitado**.
 

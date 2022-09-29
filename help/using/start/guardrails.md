@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '858'
 ht-degree: 4%
 
 ---
@@ -45,7 +45,6 @@ Las protecciones de rendimiento y los límites estáticos para la toma de decisi
 * En caso de error, se realizan tres reintentos de forma sistemática. No se puede ajustar el número de reintentos según el mensaje de error recibido.
 * El **Reacción** le permite reaccionar a las acciones integradas. Obtenga más información en [esta página](../building-journeys/reaction-events.md). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado.
 * No puede colocar dos acciones en paralelo, debe agregarlas una tras otra.
-* Hay una limitación técnica en los recorridos de hoy que impide que un perfil esté presente varias veces en el mismo recorrido, al mismo tiempo. Un perfil puede volver a introducir un recorrido (basado en una configuración), pero no puede hacerlo hasta que salga completamente de la instancia anterior del recorrido.
 * En la mayoría de los casos, un perfil no puede estar presente varias veces en el mismo recorrido, al mismo tiempo. Si la reentrada está activada, un perfil puede volver a introducir un recorrido, pero no puede hacerlo hasta que salga completamente de la instancia anterior del recorrido. [Más información](../building-journeys/journey-end.md)
 
 ### Versiones de recorridos {#journey-versions-g}
@@ -68,6 +67,7 @@ Las protecciones de rendimiento y los límites estáticos para la toma de decisi
 
 * En el caso de los eventos generados por el sistema, los datos de flujo utilizados para iniciar un recorrido de cliente deben configurarse primero en Journey Optimizer para obtener un ID de organización único. Este ID de organización debe añadirse a la carga útil de flujo continuo que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
 * Los eventos comerciales no se pueden usar junto con eventos unitarios o actividades de calificación de segmentos.
+* Los recorridos unitarios (comenzando por un evento o una calificación de segmento) incluyen una protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante 5 minutos. Por ejemplo, si un evento déclencheur un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
 
 ### Fuentes de datos {#data-sources-g}
 
@@ -89,3 +89,8 @@ Puede elegir entre una de estas dos soluciones:
 
 * Los segmentos transmitidos siempre están actualizados, pero los segmentos por lotes no se calcularán en el momento de la recuperación. Solo se evalúan diariamente a la hora diaria de evaluar el lote.
 * Para los recorridos que utilizan una actividad Leer segmento , existe un número máximo de recorridos que pueden iniciarse al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con Leer segmento, programados o iniciados &quot;lo antes posible&quot;) que empiecen al mismo tiempo, esparciéndolos a lo largo del tiempo, por ejemplo, entre 5 y 10 minutos.
+
+### Editor de expresiones {#expression-editor}
+
+* Los grupos de campos de evento de experiencia no se pueden usar en recorridos que comiencen por un segmento de lectura, una calificación de segmento o una actividad de evento comercial.
+

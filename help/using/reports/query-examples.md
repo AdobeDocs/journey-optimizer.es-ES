@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: c8e03687d82c6dcfea1195cf8ef091e3d9bc80a5
+source-git-commit: e75f26d7112627d63977cafa8a7fbf602c5a3eb1
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1339'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,90 @@ ht-degree: 2%
 En esta sección se enumeran varios ejemplos utilizados habitualmente para consultar los eventos de los pasos de Recorrido en Data Lake.
 
 Asegúrese de que los campos utilizados en las consultas tengan valores asociados en el esquema correspondiente.
+
+**¿Cuál es la diferencia entre id, instanceid y profileid?**
+
+* id: único para todas las entradas de evento de paso. Dos eventos de paso diferentes no pueden tener el mismo id.
+* instanceId: instanceID es el mismo para todos los eventos de paso asociados a un perfil dentro de una ejecución de recorrido. Si un perfil vuelve a entrar en el recorrido, se utilizará un instanceId diferente. Este nuevo instanceId será el mismo para todos los eventos de paso de la instancia reintroducida (de principio a fin).
+* profileID: la identidad del perfil correspondiente al área de nombres del recorrido.
+
+## Casos de uso básicos/consultas comunes {#common-queries}
+
+**¿Cuántos perfiles han introducido un recorrido en un determinado intervalo de tiempo?**
+
+Esta consulta proporciona el número de perfiles diferentes que ingresaron el recorrido dado en el lapso de tiempo dado.
+
+_Consulta del lago de datos_
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID)
+FROM journey_step_events WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>'
+AND _experience.journeyOrchestration.stepEvents.nodeType='start'
+AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
+```
+
+**¿Cuántos errores se produjeron en cada nodo de un recorrido específico durante un tiempo determinado?**
+
+_Consulta del lago de datos_
+
+```sql
+SELECT
+_experience.journeyOrchestration.stepEvents.nodeName,
+count(distinct _experience.journeyOrchestration.stepEvents.profileID)
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersiionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
+AND
+  (_experience.journeyOrchestration.stepEvents.actionExecutionError not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchError not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode  not NULL
+  )
+GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
+```
+
+**Cuántos eventos se descartaron de un recorrido específico en un intervalo de tiempo determinado**
+
+_Consulta del lago de datos_
+
+```sql
+SELECT
+count(_id) AS NUMBER_OF_EVENTS_DISCARDED
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersiionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
+```
+
+**Qué sucede con un perfil específico en un recorrido específico en un lapso de tiempo específico**
+
+_Consulta del lago de datos_
+
+Esta consulta devuelve todos los eventos de paso y eventos de servicio para el perfil y recorrido dados durante el tiempo especificado en orden cronológico.
+
+```sql
+SELECT
+timestamp,
+_experience.journeyOrchestration.stepEvents.journeyVersionID,
+_experience.journeyOrchestration.stepEvents.profileID,
+_experience.journeyOrchestration.stepEvents.nodeName,
+_experience.journeyOrchestration.stepEvents.journeyNodeProcessed,
+_experience.journeyOrchestration.serviceType,
+to_json(_experience.journeyOrchestration.profile),
+to_json(_experience.journeyOrchestration.serviceEvents)
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
+AND
+  (
+    _experience.journeyOrchestration.stepEvents.profileID='<profileID>'
+    OR _experience.journeyOrchestration.profile.ID='<profileID>'
+  );
+ORDER BY timestamp;
+```
+
 
 ## Errores de mensaje/acción {#message-action-errors}
 

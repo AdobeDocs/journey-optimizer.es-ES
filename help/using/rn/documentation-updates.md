@@ -2,16 +2,29 @@
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: a5bbcfb84cb1be5770d91cc844e42e808dbe2957
+workflow-type: tm+mt
+source-wordcount: '2002'
+ht-degree: 94%
 
 ---
 
 # Actualizaciones de documentación {#latest-updates}
 
 Esta página enumera todas las actualizaciones de documentación de [!DNL Journey Optimizer].
+
+## Septiembre de 2022 {#september-2022}
+
+* Todas las nuevas funciones y mejoras incluidas [!DNL Journey Optimizer] La versión del 22 de septiembre se ha detallado en la documentación. [Más información](release-notes.md)
+* Se ha añadido una práctica recomendada relacionada con el uso de actividades de espera en recorridos de segmento de lectura recurrentes. [Más información](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Se han añadido nuevos ejemplos de consultas de eventos de paso, así como información sobre la diferencia entre id, instanceid y profileid. [Más información](../reports/query-examples.md).
+* Se han actualizado las páginas relacionadas con la variable [toDateOnly](../building-journeys/functions/functiontodateonly.md) y [toString](../building-journeys/functions/functiontostring.md) funciones.
+* Se agregaron detalles sobre los parámetros de condición horaria. [Más información](../building-journeys/condition-activity.md#time_condition)
+* Se ha añadido información sobre conjuntos de datos integrados. [Más información](../start/get-started-datasets.md#access-datasets)
+* Las secciones Informe global y Informe en directo se han reorganizado para mejorar la legibilidad. [Más información](../reports/global-report.md)
+* Se ha añadido una lista de todas las métricas de informes disponibles en Adobe Journey Optimizer.
+   [Más información](../reports/global-report.md#email-and-sms-metrics)
+* La sección de correo electrónico de CCO se ha trasladado a la nueva página Asistencia para el archivado . [Más información](../configuration/archiving-support.md)
 
 ## Agosto de 2022 {#august-2022}
 
