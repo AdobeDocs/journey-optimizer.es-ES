@@ -2,7 +2,7 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cdaa6def25adcb63318c272efbfc6d7c4212a9dc
+source-git-commit: d3895b0d6a73c1618f417d28e971c5b3c9b89b4e
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 19%
@@ -198,7 +198,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 ### Otros cambios{#sept-2022-other}
 
-* El modo de ráfaga de recorrido se ha sustituido por el modo de envío rápido de Campaign. Más información
+* El modo de ráfaga de recorrido se ha sustituido por el modo de envío rápido de Campaign. [Más información](../campaigns/create-campaign.md#rapid-delivery})
 * Para mejorar el rendimiento, los grupos de campos de eventos de experiencia ya no se pueden utilizar en recorridos que comiencen por un segmento de lectura, una calificación de segmentos o una actividad de evento empresarial. Este cambio solo se aplica a los nuevos recorridos. Las existentes mantendrán el comportamiento actual. [Más información](../start/guardrails.md#expression-editor)
 * Se ha eliminado la limitación de 1 hora para los recorridos de segmentos de lectura programados. Estos recorridos ahora se pueden ejecutar sin demora.
 
