@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 0167ce16198acc485da687a4a05c13fae85d088d
+source-git-commit: bb1a9b35ce93f9b0ba635a89e781856f19b7d655
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 9%
@@ -114,7 +114,7 @@ El modo de entrega rápida, anteriormente conocido como modo de ráfaga en recor
 
 La entrega rápida se utiliza cuando el retraso en la entrega de mensajes es crítico para el negocio, cuando desea enviar una alerta push urgente en teléfonos móviles, por ejemplo una noticia de último minuto para los usuarios que han instalado la aplicación de canal de noticias.
 
-Para obtener más información sobre el rendimiento al utilizar el modo de entrega rápida, consulte [Descripción del producto de Adobe Journal Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=es).
+Para obtener más información sobre el rendimiento al utilizar el modo de entrega rápida, consulte [Descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=es).
 
 
 ### Requisitos previos {#prerequisites}
