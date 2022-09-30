@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 20%
+source-wordcount: '256'
+ht-degree: 18%
 
 ---
 
@@ -23,13 +23,13 @@ Puede importar un contenido existente en [!DNL Journey Optimizer] o aproveche la
 
 * Encuentre **fotos de Adobe Stock** para crear su contenido y mejorar su diseño de correo electrónico. [Más información](../design/stock.md)
 
-* Mejore la experiencia de los clientes creando mensajes personalizados en función de sus atributos de perfil. [Más información](../personalization/personalize.md)
+* Mejore la experiencia de los clientes creando mensajes personalizados y dinámicos en función de sus atributos de perfil. Más información sobre [personalización](../personalization/personalize.md) y [contenido dinámico](../personalization/get-started-dynamic-content.md).
 
 ➡️ [Descubra esta función en vídeo](#video)
 
 Una vez que haya [crear el mensaje](../messages/get-started-content.md), puede empezar a crear su contenido de correo electrónico.
 
-1. En el mensaje recién creado, seleccione **[!UICONTROL Email designer]** en el **[!UICONTROL Body]** para obtener más información.
+1. En el mensaje recién creado, seleccione **[!UICONTROL Diseñador de correo electrónico]** en el **[!UICONTROL Cuerpo]** para obtener más información.
 
    ![](assets/import-html_1.png)
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 9%
+source-wordcount: '314'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 9%
 
 Se pueden crear correos electrónicos:
 
-* En un **Recorrido**: Una vez que haya añadido una actividad de correo electrónico en el recorrido y haya definido la configuración básica, utilice la variable **[!UICONTROL Actions: Email]** panel derecho para crear el contenido de las notificaciones push.
+* En un **Recorrido**: Una vez que haya añadido una actividad de correo electrónico en el recorrido y haya definido la configuración básica, utilice la variable **[!UICONTROL Acciones: Correo electrónico]** panel derecho para crear el contenido de las notificaciones push.
 
    Para obtener más información sobre cómo configurar el recorrido, consulte esta [página](../building-journeys/journey-gs.md).
 
@@ -42,9 +42,11 @@ Uso [!DNL Journey Optimizer] Diseñador de correo electrónico para [diseñar el
 
 Uso [!DNL Journey Optimizer] Editor de expresiones para personalizar los mensajes con los datos de los perfiles. Para obtener más información sobre personalización, consulte [esta sección](../personalization/personalize.md).
 
+Adaptar el contenido de los mensajes a los perfiles de destino aprovechando [!DNL Journey Optimizer] funciones de contenido dinámico. [Introducción al contenido dinámico](../personalization/get-started-dynamic-content.md)
+
 ## Seguimiento de correo electrónico{#email-tracking}
 
-Si desea rastrear el comportamiento de sus destinatarios a través de aperturas o clics en vínculos, habilite las siguientes opciones: **[!UICONTROL Email opens]** y **[!UICONTROL Click on email]**.
+Si desea rastrear el comportamiento de sus destinatarios a través de aperturas o clics en vínculos, habilite las siguientes opciones: **[!UICONTROL Aperturas de correo electrónico]** y **[!UICONTROL Haga clic en el correo electrónico]**.
 
 Obtenga más información sobre el seguimiento en [esta sección](../design/message-tracking.md).
 
@@ -60,5 +62,5 @@ También debe comprobar las alertas en la sección superior del editor.  Algunas
 
 >[!NOTE]
 >
->La variable **[!UICONTROL From email]** y **[!UICONTROL From name]** están determinados por la variable **[!UICONTROL Surface]** que se haya seleccionado al [creación del mensaje](get-started-content.md).
+>La variable **[!UICONTROL De correo electrónico]** y **[!UICONTROL De nombre]** están determinados por la variable **[!UICONTROL Superficie]** que se haya seleccionado al [creación del mensaje](get-started-content.md).
 

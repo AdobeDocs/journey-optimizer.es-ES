@@ -2,9 +2,9 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1043'
 ht-degree: 18%
 
 ---
@@ -21,26 +21,23 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 ### Nuevas funciones{#sept-2022-features}
 
-
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Dynamic content & new conditional rule builder</strong><br/></th>
+<th><strong>Contenido dinámico y nuevo generador de reglas condicionales</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now create dynamic content to adapt the content of your messages based on conditional rules.</p> 
-<p>Conditional rules are created using a visual rule builder within the Expression Editor, where you can store them for further reuse across your journeys and campaigns.</p>
+<p>Ahora puede crear contenido dinámico para adaptar el contenido de los mensajes en función de reglas condicionales.</p> 
+<p>Las reglas condicionales se crean mediante un generador de reglas visual dentro del Editor de expresiones, donde puede almacenarlas para su reutilización en los recorridos y campañas.</p>
 <img src="assets/do-not-localize/dynamic-content.gif"/>
-<p>For more information, refer to the <a href="../personalization/get-started-dynamic-content.md">detailed documentation</a>.
+<p>Para obtener más información, consulte la <a href="../personalization/get-started-dynamic-content.md">documentación detallada</a>.
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 <table>
 <thead>

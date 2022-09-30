@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 3c1da5b789ad3f1b010f3d5be9c521f296035b83
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,10 @@ Para empezar a crear el contenido del correo electrónico con el diseñador de c
 1. Agregue campos de personalización para personalizar el contenido de los datos de perfil. [Descubra más información sobre la personalización del contenido](../personalization/personalize.md).
 
    ![](assets/email_designer_6.png)
+
+1. Añada contenido dinámico para adaptar el contenido a los perfiles de destino según las reglas condicionales. [Introducción al contenido dinámico](../personalization/get-started-dynamic-content.md).
+
+   ![](assets/email_designer_dynamic-content.png)
 
 1. En el **[!UICONTROL Vínculos]** en el panel izquierdo, compruebe la lista de todas las direcciones URL del contenido que se rastrearán. Puede modificar sus **[!UICONTROL Tipo de seguimiento]**, **[!UICONTROL Etiqueta]** y **[!UICONTROL Etiquetas]** si es necesario.
 

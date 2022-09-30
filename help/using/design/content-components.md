@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 030dc5f3a5d1927076c87aa600097a3b5761e803
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 2%
+source-wordcount: '1246'
+ht-degree: 1%
 
 ---
 
@@ -89,8 +89,7 @@ Utilice la variable **[!UICONTROL Texto]** para insertar texto en el correo elec
    * **[!UICONTROL Duplicar]**: añada una copia del componente de texto.
    * **[!UICONTROL Eliminar]**: elimine el componente de texto seleccionado del correo electrónico.
    * **[!UICONTROL Añadir personalización]**: añada campos personalizados para personalizar el contenido de los datos de perfiles. [Descubra más información sobre la personalización del contenido](../personalization/personalize.md).
-
-1. Para mejorar la experiencia del usuario, puede añadir campos de personalización para dirigirse al público. Para obtener más información, consulte [esta sección](../personalization/personalize.md).
+   * **[!UICONTROL Habilitar contenido condicional]**: añada contenido condicional para adaptar el contenido del componente a los perfiles de destino. [Descubra más información sobre el contenido dinámico](../personalization/get-started-dynamic-content.md).
 
 1. Ajuste la variable **[!UICONTROL Color del texto]**, **[!UICONTROL Familia de fuentes]** y **[!UICONTROL Tamaño]** en el **[!UICONTROL Configuración de componentes]**.
 
@@ -208,7 +207,7 @@ Utilice la variable **[!UICONTROL Social]** para insertar vínculos a páginas d
 
 ## Decisión de oferta {#offer-decision}
 
-Utilice la variable **[!UICONTROL Decisión de oferta]** para insertar decisiones en los mensajes. Las decisiones aprovecharán la Administración de decisiones para elegir la mejor oferta que se ofrezca a sus clientes.
+Utilice la variable **[!UICONTROL Decisión de oferta]** para insertar decisiones (anteriormente conocidas como actividades de oferta) en los mensajes. Las decisiones aprovecharán la Administración de decisiones para elegir la mejor oferta que se ofrezca a sus clientes.
 
 Temas relacionados:
 
