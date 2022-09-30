@@ -2,10 +2,10 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 056ff0d4532126e22884d73e92fb2e7d3a2319b9
+source-git-commit: ad04aeddac78a6910258d924148fceca8fd7b6d9
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 19%
+source-wordcount: '986'
+ht-degree: 18%
 
 ---
 
@@ -176,9 +176,10 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 * Al habilitar o deshabilitar la lista de permitidos, ahora se muestra una nueva advertencia para detallar los impactos de cada acción. [Más información](../configuration/allow-list.md#enable-allow-list)
 * Se ha actualizado la interfaz de usuario para crear superficies de canal, crear grupos de IP, administrar la lista de supresión y la lista de permitidos y configurar el canal SMS.
-<!--* Now when creating the first channel surface for a given subdomain, the processing time will take 10 minutes to 10 days, and only up to 3 hours for subsequent surfaces using that subdomain. Learn more
-* Now when downloading the suppression list as a CSV file, you can choose the file that was previously generated, or generate a new file.
-* The user interface for creating landing page presets and landing page subdomains has been improved. Learn more -->
+* Ahora, al crear la primera superficie de canal para un subdominio determinado, el tiempo de procesamiento tardará de 10 minutos a 10 días y solo 3 horas para las superficies posteriores que utilicen ese subdominio. [Más información](../configuration/channel-surfaces.md#create-channel-surface)
+
+<!--* Now when downloading the suppression list as a CSV file, you can choose the file that was previously generated, or generate a new file.-->
+* Se ha actualizado la interfaz de usuario para crear ajustes preestablecidos de página de aterrizaje y subdominios de página de aterrizaje. [Más información](../configuration/lp-subdomains.md)
 
 **Controles de auditoría**
 
@@ -192,7 +193,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 * Ahora puede utilizar datos contextuales procedentes de otra página dentro de la misma página de aterrizaje. Por ejemplo, si vincula una casilla de verificación a una lista de suscripción en la página de aterrizaje principal, puede utilizar esa lista de suscripción en la subpágina &quot;gracias&quot;. [Más información](../landing-pages/lp-content.md#use-primary-page-context)
 
-* Al configurar la página principal, ahora puede crear datos adicionales para permitir el almacenamiento de información cuando se envía la página de aterrizaje. [Más información](../landing-pages/lp-content.md#use-additional-data)
+<!--* When configuring the primary page, you can now create additional data to enable storing information when the landing page is being submitted. [Learn more](../landing-pages/lp-content.md#use-additional-data)-->
 
 <!--* You can now use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.-->
 
