@@ -2,7 +2,7 @@
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ad04aeddac78a6910258d924148fceca8fd7b6d9
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 18%
@@ -174,7 +174,7 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 **Administración**
 
-* Al habilitar o deshabilitar la lista de permitidos, ahora se muestra una nueva advertencia para detallar los impactos de cada acción. [Más información](../configuration/allow-list.md#enable-allow-list)
+* Al activar o desactivar la lista de permitidos, ahora se muestra una nueva advertencia para detallar los impactos de cada acción. [Más información](../configuration/allow-list.md#enable-allow-list)
 * Se ha actualizado la interfaz de usuario para crear superficies de canal, crear grupos de IP, administrar la lista de supresión y la lista de permitidos y configurar el canal SMS.
 * Ahora, al crear la primera superficie de canal para un subdominio determinado, el tiempo de procesamiento tardará de 10 minutos a 10 días y solo 3 horas para las superficies posteriores que utilicen ese subdominio. [Más información](../configuration/channel-surfaces.md#create-channel-surface)
 

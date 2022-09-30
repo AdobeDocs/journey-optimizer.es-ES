@@ -2,9 +2,9 @@
 title: Activación de campañas mediante las API
 description: Aprenda a almacenar en déclencheur las campañas mediante [!DNL Journey Optimizer] API
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 9fbfeef292e4b71396680573007e062b525b24c9
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '800'
 ht-degree: 1%
 
 ---
@@ -88,11 +88,15 @@ Tenga en cuenta que si ha configurado una fecha de inicio y/o finalización espe
 
 ## Creación de perfiles en la ejecución de la campaña {#profile-creation}
 
-En algunos casos, es posible que tenga que enviar mensajes transaccionales a perfiles que no existen en el sistema. Por ejemplo, si un usuario desconocido intenta iniciar sesión en el sitio web.
+En algunos casos, es posible que tenga que enviar mensajes transaccionales a perfiles que no existen en el sistema. Por ejemplo, si un usuario desconocido intenta restablecer la contraseña en el sitio web.
 
 Cuando un perfil no existe en la base de datos, Journey Optimizer le permite crearlo automáticamente al ejecutar la campaña para permitir enviar el mensaje a este perfil.
 
-Para ello, marque la opción **[!UCONTROL Crear nuevos perfiles]** en la **[!UICONTROL Audiencia]** para obtener más información.
+>[!IMPORTANT]
+>
+>Esta función está prevista para **creación de perfiles de muy pequeño volumen** en un caso de uso de envío transaccional de gran volumen, con la mayoría de los perfiles ya existentes en platform.
+
+Para activar la creación de perfiles en la ejecución de la campaña, active la opción **[!UCONTROL Crear nuevos perfiles]** en la **[!UICONTROL Audiencia]** para obtener más información.
 
 ![](assets/api-triggered-create-profile.png)
 

@@ -1,0 +1,45 @@
+---
+title: Trabajar con el Customer Journey Analytics
+description: Introducción a Customer Journey Analytics
+feature: Overview
+topic: Content Management
+role: Reporting
+level: Beginner
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 9%
+
+---
+
+# Uso de [!DNL Customer Journey Analytics] {#cja-ajo}
+
+![](assets/cja.png)
+
+Después de crear el recorrido en [!DNL Journey Optimizer], puede importar los datos de cliente a [!DNL Customer Journey Analytics] para iniciar informes y comprender el impacto de cada interacción que un cliente tiene con sus recorridos.
+
+➡️ [Customer Journey Analytics de Discover](https://docs.adobe.com/content/help/es-ES/experience-cloud/user-guides/home.translate.html){target=&quot;_blank&quot;}
+
+Antes de usar [!DNL Customer Journey Analytics] para sus recorridos, primero debe configurar esta integración:
+
+1. [Crear una conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es) en [!DNL Customer Journey Analytics] con la variable **[!UICONTROL Conjunto de datos]** desea enviar a la plataforma.
+
+1. [Creación de una vista de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es) para configurar las dimensiones y métricas que desee usar en el informe.
+
+   Puede crear métricas específicas de Journey Optimizer para reflejar mejor los datos de sus recorridos. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
+
+
+Uso [!DNL Journey Optimizer] con [!DNL Customer Journey Analytics] puede provocar algunas discrepancias en los datos de los informes debido a:
+
+* **Ambas [!DNL Journey Optimizer] y [!DNL Customer Journey Analytics] sincronice datos de Azure Data Lake Storage (ADLS) para crear informes.**
+
+   El tiempo de procesamiento de los datos entrantes puede ser ligeramente diferente entre los productos. Debido a esto, es posible que los datos no coincidan al mostrar informes desde una fecha determinada hasta el día actual. Para reducir las discrepancias, utilice intervalos de fechas que excluyan el día actual.
+
+* **En [!DNL Journey Optimizer] informes, la métrica Enviado también incluye la métrica Reintento.**
+
+   **[!UICONTROL Reintentos]** no se incluirá en **[!UICONTROL Enviado]** métrica en [!DNL Customer Journey Analytics]. Esto causará que [!DNL Customer Journey Analytics] **[!UICONTROL Enviado]** métricas que muestran valores inferiores a [!DNL Journey Optimizer]. Sin embargo, los datos de reintentos se convierten en **[!UICONTROL Mensajes enviados correctamente]** o **[!UICONTROL Devoluciones]** métrica.
+Para reducir las discrepancias, utilice intervalos de fechas desde hace una semana o incluso después.
+
+* **Los informes se proporcionan desde una fuente de datos diferente.**
+
+   Esto podría provocar entre un 1 y un 2 % de discrepancias de datos entre productos.
