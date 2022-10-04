@@ -5,9 +5,9 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 3205b992a1dd6774d3ef89533d9ae6af9ff50ba3
+source-git-commit: e98bde090129ad1c32662719911ec6a3e68f69d6
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -28,3 +28,9 @@ Las reglas condicionales se pueden aprovechar en el Diseñador de correo electr�
 
 * [Aprenda a trabajar con reglas condicionales](create-conditions.md)
 * [Aprenda a crear contenido dinámico](dynamic-content.md)
+
+## Vídeo explicativo {#video}
+
+Obtenga información sobre cómo crear contenido dinámico con el generador de reglas de condición.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)
