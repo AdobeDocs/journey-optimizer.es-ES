@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f439e4387139b3136c46d25ecb43f304e29b0f17
+source-git-commit: e68a234e52b40fbf988b74dfa90b347659203ea0
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,11 @@ La variable **[!UICONTROL Excluir]** actividad le permite excluir perfiles de su
 >title="Actividad de clasificación"
 >abstract="La actividad Clasificación le permite clasificar perfiles según un atributo específico e incluirlos en su composición. Por ejemplo, incluya los 50 perfiles con la mayor cantidad de puntos de lealtad."
 
+>[!CONTEXTUALHELP]
+>id="ajo_ao_rank_profilelimit_text"
+>title="Añadir límite de perfil"
+>abstract="Active esta opción para especificar el número máximo de perfiles que desea incluir en la composición.
+
 La variable **[!UICONTROL Clasificación]** actividad le permite clasificar perfiles según un atributo específico e incluirlos en su composición. Por ejemplo, puede incluir los 50 perfiles con la mayor cantidad de puntos de lealtad.
 
 1. Seleccione el atributo que desea buscar y especifique un orden de clasificación (ascendente o descendente).
@@ -126,7 +131,7 @@ La variable **[!UICONTROL Clasificación]** actividad le permite clasificar perf
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
->title="Grupo de control be"
+>title="Grupo de control"
 >abstract="Utilice grupos de control para aislar una parte de los perfiles. Esto le permite medir el impacto de una actividad de marketing y comparar el comportamiento del resto de la población."
 
 >[!CONTEXTUALHELP]
@@ -138,6 +143,11 @@ La variable **[!UICONTROL Clasificación]** actividad le permite clasificar perf
 >id="ajo_ao_split_type"
 >title="Tipo de división"
 >abstract="Utilice el tipo de división Porcentaje para dividir aleatoriamente los perfiles en varias rutas. El tipo de división Atributo permite dividir perfiles según un atributo específico."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split_otherprofiles_text"
+>title="Otros perfiles"
+>abstract="Active esta opción para crear una ruta adicional con los perfiles restantes que no coinciden con ninguna de las condiciones especificadas en las otras rutas."
 
 La variable **[!UICONTROL Split]** actividad le permite dividir la composición en varias rutas.
 
