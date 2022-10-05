@@ -5,16 +5,17 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: bf4857f63b44d557304ef05e490fe6659f0ad888
+source-git-commit: ce0906afb8561c586cb080c4a49c58fb5bfac6a9
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 9%
+source-wordcount: '337'
+ht-degree: 7%
 
 ---
 
 # Uso de [!DNL Customer Journey Analytics] {#cja-ajo}
 
 ![](assets/cja.png)
+[!DNL Journey Optimizer] integración con [!DNL Customer Journey Analytics] proporciona una vista holística de todos sus recorridos con distribución automatizada de informes y visualizaciones personalizadas de los datos.
 
 Después de crear el recorrido en [!DNL Journey Optimizer], puede importar los datos de cliente a [!DNL Customer Journey Analytics] para iniciar informes y comprender el impacto de cada interacción que un cliente tiene con sus recorridos.
 
@@ -23,6 +24,11 @@ Después de crear el recorrido en [!DNL Journey Optimizer], puede importar los d
 Antes de usar [!DNL Customer Journey Analytics] para sus recorridos, primero debe configurar esta integración:
 
 1. [Crear una conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es) en [!DNL Customer Journey Analytics] con la variable **[!UICONTROL Conjunto de datos]** desea enviar a la plataforma.
+
+   Lo siguiente [!DNL Journey Optimizer] se puede configurar:
+   * [Evento de paso de recorrido](../start/datasets-query-examples.md#journey-step-event): permite ver quién entra en los recorridos y hasta dónde llegan.
+   * [Comentarios del mensaje/Seguimiento de conjuntos de datos](../start/datasets-query-examples.md#message-feedback-event-dataset): permite ver información de envío sobre los mensajes enviados [!DNL Journey Optimizer].
+   * [Conjuntos de datos de entidades y Recorridos](../start/datasets-query-examples.md#entity-dataset): permite buscar nombres descriptivos y utilizarlos en los informes.
 
 1. [Creación de una vista de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es) para configurar las dimensiones y métricas que desee usar en el informe.
 
