@@ -5,10 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a36f0b1c8d59d49e38b21725621d5b276741bd8e
-workflow-type: ht
+source-git-commit: ed1ae405367a0b0f37e61ceb81fc1f1d1b907ea7
+workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 100%
 >title="Superficie de canal"
 >abstract="Una superficie de canal es una instancia de ese canal que tiene toda la configuración para enviar una acción correctamente a través de una campaña o un recorrido. Se define mediante un administrador del sistema."
 
-En sus recorridos, utilice las acciones del canal para diseñar y personalizar el mensaje que desea enviar a su audiencia. Al agregar un correo electrónico, un SMS o una acción push a los lienzos de recorrido, se crea un envío activado. Cuando los contactos llegan a esa acción del canal, Adobe Journey Optimizer envía el mensaje automáticamente.
+En sus recorridos, utilice las acciones del canal para diseñar y personalizar el mensaje que desea enviar a su audiencia. Al añadir un correo electrónico, un SMS o una acción Push al lienzo de recorrido, se crea un envío activado. Cuando los contactos llegan a esa acción del canal, Adobe Journey Optimizer envía el mensaje automáticamente.
 
 
 >[!NOTE]
 >También puede crear campañas para enviar mensajes programados. Obtenga más información [en esta sección](../campaigns/get-started-with-campaigns.md).
 
 
-Para agregar mensajes en un recorrido, agregue una actividad push, SMS o de correo electrónico en los lienzos de recorrido.
+Para añadir mensajes en un recorrido, añada una actividad push, SMS o de correo electrónico en el lienzo del recorrido.
 
 1. Inicie el recorrido con un [Evento](../building-journeys/general-events.md) o una actividad [Leer segmento](../building-journeys/read-segment.md).
 
@@ -123,7 +123,7 @@ Para ello, siga los pasos a continuación:
 
 1. Presione **ctrl+V** para pegar el mensaje.
 
-   El mensaje se añade a los lienzos de recorrido. Todos los ajustes y configuraciones se copiarán en el nuevo mensaje.
+   El mensaje se añade al lienzo del recorrido. Todos los ajustes y configuraciones se copiarán en el nuevo mensaje.
 
    ![](assets/message-duplicated.png)
 
