@@ -2,7 +2,7 @@
 title: Activación de campañas mediante las API
 description: Aprenda a almacenar en déclencheur las campañas mediante [!DNL Journey Optimizer] API
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 1fb9c759032211979d24daf8a885e82fc359060e
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 1%
@@ -96,7 +96,7 @@ Cuando un perfil no existe en la base de datos, Journey Optimizer le permite cre
 >
 >Esta función está prevista para **creación de perfiles de muy pequeño volumen** en un caso de uso de envío transaccional de gran volumen, con la mayoría de los perfiles ya existentes en platform.
 
-Para activar la creación de perfiles en la ejecución de la campaña, active la opción **[!UCONTROL Crear nuevos perfiles]** en la **[!UICONTROL Audiencia]** para obtener más información.
+Para activar la creación de perfiles en la ejecución de la campaña, active la opción **[!UICONTROL Crear nuevos perfiles]** en la **[!UICONTROL Audiencia]** para obtener más información.
 
 ![](assets/api-triggered-create-profile.png)
 
