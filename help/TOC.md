@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d8537d27fab4472c64bd46b056cf221825051bfe
 workflow-type: tm+mt
 source-wordcount: '1180'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
 + Campañas{#campaigns}
    + [Introducción a las campañas](using/campaigns/get-started-with-campaigns.md)
    + [Creación de una campaña](using/campaigns/create-campaign.md)
-   + [Revisar y activar una campaña](using/campaigns/review-activate-campaign.md)
+   + [Revisión y activación de una campaña](using/campaigns/review-activate-campaign.md)
    + [Administrar campañas en directo](using/campaigns/modify-stop-campaign.md)
    + Experimento de contenido {#content-experiment}
       + [Introducción al experimento de contenido](using/campaigns/get-started-experiment.md)
@@ -250,13 +250,13 @@ ht-degree: 94%
       + [Aumento de envíos](using/building-journeys/ramp-up-deliveries-uc.md)
 + Seguimiento y monitorización {#reporting}
    + Informe en vivo {#live-report}
-      + [Introducción a Live Report](using/reports/live-report.md)
+      + [Introducción al Informe en vivo](using/reports/live-report.md)
       + [Informe activo de recorrido](using/reports/journey-live-report.md)
       + [Informe en directo de la campaña](using/reports/campaign-live-report.md)
       + [Informe en directo de la página de aterrizaje](using/reports/lp-report-live.md)
       + [Informe en directo de la lista de suscripciones](using/reports/subscription-report-live.md)
    + Informe global {#global-report}
-      + [Introducción al informe global](using/reports/global-report.md)
+      + [Introducción al Informe global](using/reports/global-report.md)
       + [Informe global de recorrido](using/reports/journey-global-report.md)
       + [Informe global de la campaña](using/reports/campaign-global-report.md)
       + [Informe global de la página de aterrizaje](using/reports/lp-report-global.md)
@@ -276,7 +276,7 @@ ht-degree: 94%
       + [Introducción a la capacidad de entrega](using/reports/deliverability.md)
       + [Explicación de la lista de supresión](using/reports/suppression-list.md)
    + [Alertas](using/reports/alerts.md)
-   + [Trabajar con el Customer Journey Analytics](using/reports/cja-ajo.md)
+   + [Uso de Customer Journey Analytics](using/reports/cja-ajo.md)
 + Gestión de decisiones {#offer-decisioning}
    + Introducción a la Gestión de decisiones {#get-started-decision}
       + [Acerca de la Gestión de decisiones](using/offers/get-started/starting-offer-decisioning.md)
@@ -401,7 +401,7 @@ ht-degree: 94%
       + Configuración de superficies de canal {#set-up-channels}
          + [Creación de superficies de canal](using/configuration/channel-surfaces.md)
          + [Configuración de correo electrónico](using/configuration/email-settings.md)
-      + [Compatibilidad con el archivado](using/configuration/archiving-support.md)
+      + [Asistencia para el archivado](using/configuration/archiving-support.md)
       + [Administrar direcciones de ejecución](using/configuration/primary-email-addresses.md)
       + [Configuración de las reglas de frecuencia](using/configuration/frequency-rules.md)
    + Configuración de las páginas de aterrizaje {#lp-configuration}
@@ -436,10 +436,10 @@ ht-degree: 94%
    + [Niveles de permisos](using/administration/high-low-permissions.md)
    + [Administración de zonas protegidas](using/administration/sandboxes.md)
    + [Control de acceso basado en atributos](using/administration/attribute-based-access.md)
-   + [Control de acceso a nivel de objeto](using/administration/object-based-access.md)
+   + [Control de acceso de nivel de objeto](using/administration/object-based-access.md)
 + Privacidad {#privacy}
    + [Políticas de uso de datos](using/privacy/policies.md)
    + [Solicitudes de privacidad](using/privacy/requests.md)
-   + [Acciones de auditoría sobre los recursos](using/privacy/audit-logs.md)
+   + [Acciones de auditoría en recursos](using/privacy/audit-logs.md)
    + [Consentimiento](using/action/consent.md)
    + [Gobierno de datos](using/action/action-privacy.md)
