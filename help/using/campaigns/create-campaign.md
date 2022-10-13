@@ -5,9 +5,9 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 6b77133cb0b0e8d91cc9012d5b338628846c08b3
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '853'
 ht-degree: 9%
 
 ---
@@ -108,7 +108,7 @@ Si no desea ejecutar la campaña justo después de su activación, puede especif
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="Modo de entrega rápido"
->abstract="El modo de envío rápido es un complemento de Journey Optimizer que le permite gastar a alta velocidad mensajes no personalizados en audiencias con perfiles inferiores a 30 millones."
+>abstract="El modo de entrega rápida permite realizar envíos de mensajes a alta velocidad en el canal push a un tamaño de audiencia inferior a 30 M."
 
 El modo de entrega rápida, anteriormente conocido como modo de ráfaga en recorridos, es un [!DNL Journey Optimizer] complemento que permite enviar mensajes push muy rápidamente a grandes volúmenes mediante campañas.
 
