@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8a8950dbbda9a0a3aa498e304e41294ad343d0be
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '1188'
 ht-degree: 2%
@@ -78,7 +78,7 @@ El vínculo de cancelación de suscripción consta de dos elementos:
 
 * La variable **cancelar la suscripción de la dirección URL**, que es la dirección URL de la página de aterrizaje a la que se redirige al usuario una vez que se da de baja de la suscripción.
 
-   Si agrega un [vínculo de exclusión con un solo clic](../messages/consent.md#one-click-opt-out) en un mensaje creado con esta superficie, la URL de cancelación de suscripción será la URL definida para el vínculo de exclusión de un clic.
+   Si agrega un [vínculo de exclusión con un solo clic](../privacy/opt-out.md#one-click-opt-out) en un mensaje creado con esta superficie, la URL de cancelación de suscripción será la URL definida para el vínculo de exclusión de un clic.
 
    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
@@ -86,7 +86,7 @@ El vínculo de cancelación de suscripción consta de dos elementos:
    >
    >Si no agrega un vínculo de exclusión de un clic al contenido del mensaje, no se mostrará ninguna página de aterrizaje al usuario.
 
-Obtenga más información sobre cómo añadir un vínculo de cancelación de suscripción a un encabezado a sus mensajes en [esta sección](../messages/consent.md#unsubscribe-header).
+Obtenga más información sobre cómo añadir un vínculo de cancelación de suscripción a un encabezado a sus mensajes en [esta sección](../privacy/opt-out.md#unsubscribe-header).
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 

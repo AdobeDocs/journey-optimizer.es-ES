@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 8%
+source-wordcount: '401'
+ht-degree: 7%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 8%
 >abstract="Añada el mensaje de texto y comience a personalizarlo con el editor de expresiones."
 
 Uso [!DNL Journey Optimizer] para enviar mensajes de texto a sus clientes en sus dispositivos móviles. Puede crear, personalizar y previsualizar mensajes en formato de texto desde el editor de SMS.
+
+>[!NOTE]
+>
+>De acuerdo con las normas y regulaciones del sector, todos los mensajes de marketing SMS deben contener una forma para que los destinatarios puedan cancelar su suscripción fácilmente. Para ello, los destinatarios de SMS pueden responder con las palabras clave de inclusión y exclusión. [Obtenga información sobre cómo administrar la exclusión](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 Se pueden crear envíos de SMS:
 
@@ -61,17 +65,6 @@ Para visualizar la visualización de su mensaje SMS en dispositivos móviles, ha
 También debe comprobar las alertas en la sección superior del editor.  Algunas de ellas son simples advertencias, pero otras pueden impedir que utilice el mensaje. Obtenga más información en [esta sección](alerts.md).
 
 ![](assets/sms-alert-button.png)
-
-
-## Inclusión y exclusión{#sms-opt-in-out}
-
-Para todos los mensajes de marketing, el SMS debe contener una forma para que los destinatarios puedan cancelar la suscripción fácilmente. Una vez cancelada la suscripción, los perfiles se eliminan automáticamente de la audiencia de futuros mensajes de marketing. La adición de un vínculo de baja no es obligatoria para los mensajes transaccionales.
-
-Los destinatarios de SMS pueden responder con palabras clave de inclusión y exclusión. De acuerdo con las normas y regulaciones del sector, Adobe Journey Optimizer procesa automáticamente las siguientes palabras clave en los mensajes entrantes: START, STOP y UNSTOP. Estas palabras clave activan las respuestas estándares automáticas del proveedor de SMS.
-
-Para obtener más información sobre cómo funciona la compatibilidad con palabras clave de entrada nativas (inicio, parada e inparada) para SMS, consulte el siguiente vídeo.
-
->[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
 
 <!--
 ## How-to video

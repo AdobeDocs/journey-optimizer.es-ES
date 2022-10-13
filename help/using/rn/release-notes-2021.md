@@ -2,10 +2,10 @@
 title: Notas de la versión anterior (2021)
 description: Notas de la versión de Journey Optimizer de 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '2067'
-ht-degree: 96%
+source-wordcount: '2070'
+ht-degree: 95%
 
 ---
 
@@ -270,7 +270,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 **Diseño de contenido**
 
 * **Contexto**: las imágenes de fondo ahora se admiten en la vista previa en vivo. [Más información](../design/preview.md)
-* **Vínculo de no participación de un clic**: puede insertar un nuevo tipo de vínculo en el contenido del correo electrónico, el de **Exclusión**, que permite a los usuarios cancelar la suscripción de recibir sus comunicaciones con solo un clic, sin que se les redirija a una página de aterrizaje para confirmar la exclusión. [Más información](../messages/consent.md#one-click-opt-out-link)
+* **Vínculo de no participación de un clic**: puede insertar un nuevo tipo de vínculo en el contenido del correo electrónico, el de **Exclusión**, que permite a los usuarios cancelar la suscripción de recibir sus comunicaciones con solo un clic, sin que se les redirija a una página de aterrizaje para confirmar la exclusión. [Más información](../privacy/opt-out.md#one-click-opt-out-link)
 
 **Personalización**
 
@@ -340,11 +340,11 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 * Para las fuentes de datos externas, ahora se define automáticamente una regla de límite de 15 llamadas por segundo. [Más información](../configuration/external-systems.md#capping)
 * En el caso de los recorridos activos, la pantalla de propiedades de recorrido ahora muestra la fecha de publicación y el nombre del usuario que publicó el recorrido. [Más información](../building-journeys/journey-gs.md#change-properties)
 * En la pantalla de la lista de recorridos, se ha añadido el filtro de tipo de recorrido. [Más información](../start/user-interface.md#filter-lists)
-* El parámetro **[!UICONTROL Throttling rate]** se ha añadido en la actividad Leer segmento. [Más información](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* La variable **[!UICONTROL Tasa de restricción]** se ha añadido en la actividad Leer segmento . [Más información](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **Vista previa y prueba**
 
-* La identidad y el área de nombres ahora están visibles en la pantalla **[!UICONTROL Preview]**. [Más información](../design/preview.md#preview-your-messages)
+* La identidad y el área de nombres ahora están visibles en el **[!UICONTROL Vista previa]** en el Navegador. [Más información](../design/preview.md#preview-your-messages)
 * El número de correos electrónicos de prueba para pruebas ahora está restringido a 10.
 * Los caracteres permitidos para el **Prefijo de línea de asunto** en las pruebas ahora están limitados. [Más información](../design/preview.md#send-proofs)
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '628'
 ht-degree: 12%
 
 ---
@@ -19,7 +19,7 @@ Uso [!DNL Journey Optimizer] para añadir vínculos al contenido y realizar un s
 
 ## Habilitar el seguimiento {#enable-tracking}
 
-Puede habilitar el seguimiento a nivel de mensaje de correo electrónico comprobando la variable **[!UICONTROL Email opens]** y/o **[!UICONTROL Click on email]** opciones [crear el mensaje](../messages/get-started-content.md).
+Puede habilitar el seguimiento a nivel de mensaje de correo electrónico comprobando la variable **[!UICONTROL Aperturas de correo electrónico]** y/o **[!UICONTROL Haga clic en el correo electrónico]** opciones [crear el mensaje](../messages/get-started-content.md).
 
 ![](assets/message-tracking.png)
 
@@ -29,8 +29,8 @@ Puede habilitar el seguimiento a nivel de mensaje de correo electrónico comprob
 
 Esto le permite hacer un seguimiento del comportamiento de sus destinatarios a través de:
 
-* **[!UICONTROL Email opens]**: Mensajes que se han abierto.
-* **[!UICONTROL Click on email]**: Haga clic en los vínculos de un correo electrónico.
+* **[!UICONTROL Aperturas de correo electrónico]**: Mensajes que se han abierto.
+* **[!UICONTROL Haga clic en el correo electrónico]**: Haga clic en los vínculos de un correo electrónico.
 
 ## Insertar vínculos {#insert-links}
 
@@ -42,31 +42,31 @@ Al diseñar un mensaje, puede agregar vínculos al contenido.
 
 Para insertar vínculos en el contenido del correo electrónico, siga los pasos a continuación:
 
-1. Seleccione un elemento y haga clic en **[!UICONTROL Insert link]** de la barra de herramientas contextual.
+1. Seleccione un elemento y haga clic en **[!UICONTROL Insertar vínculo]** de la barra de herramientas contextual.
 
    ![](assets/message-tracking-insert-link.png)
 
 1. Elija el tipo de vínculo que desea crear:
 
-   * **[!UICONTROL External link]**: Inserte un vínculo a una URL externa.
+   * **[!UICONTROL Vínculo externo]**: Inserte un vínculo a una URL externa.
 
-   * **[!UICONTROL Landing page]**: Inserte un vínculo a una página de aterrizaje. Obtenga más información en [esta sección](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL Página de aterrizaje]**: Inserte un vínculo a una página de aterrizaje. Obtenga más información en [esta sección](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL One click Opt-out]**: Inserte un vínculo para permitir a los usuarios cancelar rápidamente la suscripción a sus comunicaciones sin necesidad de confirmar la exclusión. Obtenga más información en [esta sección](../messages/consent.md#one-click-opt-out).
+   * **[!UICONTROL Opción de exclusión de un clic]**: Inserte un vínculo para permitir a los usuarios cancelar rápidamente la suscripción a sus comunicaciones sin necesidad de confirmar la exclusión. Obtenga más información en [esta sección](../privacy/opt-out.md#one-click-opt-out).
 
-   * **[!UICONTROL External Opt-in/Subscription]**: Inserte un vínculo para aceptar la recepción de comunicaciones de su marca.
+   * **[!UICONTROL Inclusión/suscripción externa]**: Inserte un vínculo para aceptar la recepción de comunicaciones de su marca.
 
-   * **[!UICONTROL External Opt-out/Unsubscription]**: Inserte un vínculo para cancelar la suscripción a la recepción de comunicaciones de su marca. Obtenga más información sobre la administración de exclusiones en [esta sección](../messages/consent.md#opt-out-management).
+   * **[!UICONTROL Exclusión/baja externa]**: Inserte un vínculo para cancelar la suscripción a la recepción de comunicaciones de su marca. Obtenga más información sobre la administración de exclusiones en [esta sección](../privacy/opt-out.md#opt-out-management).
 
-   * **[!UICONTROL Mirror page]**: Inserte un vínculo para mostrar el contenido del correo electrónico en un explorador web. Obtenga más información en [esta sección](#mirror-page).
+   * **[!UICONTROL Página espejo]**: Inserte un vínculo para mostrar el contenido del correo electrónico en un explorador web. Obtenga más información en [esta sección](#mirror-page).
 
    ![](assets/message-tracking-links.png)
 
-1. Puede personalizar los vínculos. Obtenga más información sobre la administración de exclusiones en [esta sección](../personalization/personalization-syntax.md#perso-urls).
+1. Puede personalizar los vínculos. Obtenga más información sobre las URL personalizadas en [esta sección](../personalization/personalization-syntax.md#perso-urls).
 
 1. Guarde los cambios.
 
-1. Una vez creado el vínculo, puede modificarlo desde el **[!UICONTROL Component settings]** a la derecha.
+1. Una vez creado el vínculo, puede modificarlo desde el **[!UICONTROL Configuración de componentes]** a la derecha.
 
    * Puede editar el vínculo y cambiar su tipo.
    * Puede elegir subrayar el vínculo o no marcando la opción correspondiente.
@@ -75,13 +75,13 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
 >[!NOTE]
 >
->Los mensajes de correo electrónico de tipo de marketing deben incluir un [vínculo de no participación](../messages/consent.md#opt-out-management), que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transactional]**) se define en la [superficie de canal](../configuration/channel-surfaces.md#email-type) (es decir, nivel de ajuste preestablecido de mensaje) y durante la [creación del mensaje](../messages/get-started-content.md#create-new-message).
+>Los mensajes de correo electrónico de tipo de marketing deben incluir un [vínculo de no participación](../privacy/opt-out.md#opt-out-management), que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**) se define en el nivel de [superficie de canal](../configuration/channel-surfaces.md#email-type) (es decir, ajuste preestablecido de mensaje) y durante la [creación del mensaje](../messages/get-started-content.md#create-new-message).
 
 ## Vínculo a una página espejo {#mirror-page}
 
 La página espejo es una página HTML accesible en línea mediante un navegador web. Su contenido es idéntico al del correo electrónico.
 
-Para añadir un vínculo a una página espejo en el correo electrónico, [insertar un vínculo](#insert-links) y seleccione **[!UICONTROL Mirror page]** como tipo de vínculo.
+Para añadir un vínculo a una página espejo en el correo electrónico, [insertar un vínculo](#insert-links) y seleccione **[!UICONTROL Página espejo]** como tipo de vínculo.
 
 ![](assets/message-tracking-mirror-page.png)
 
@@ -103,7 +103,7 @@ El período de retención de una página espejo es de 60 días. Después de ese 
 
 La variable [Diseñador de correo electrónico](create-email-content.md) le permite administrar las direcciones URL rastreadas, como editar el tipo de seguimiento para cada vínculo.
 
-1. Haga clic en el **[!UICONTROL Links]** del panel izquierdo para mostrar la lista de todas las direcciones URL del contenido de las que se realizará un seguimiento.
+1. Haga clic en el **[!UICONTROL Vínculos]** del panel izquierdo para mostrar la lista de todas las direcciones URL del contenido de las que se realizará un seguimiento.
 
    Esta lista permite tener una vista centralizada y localizar cada URL en el contenido del correo electrónico.
 
@@ -111,15 +111,15 @@ La variable [Diseñador de correo electrónico](create-email-content.md) le perm
 
    ![](assets/message-tracking-edit-links.png)
 
-1. Puede modificar el **[!UICONTROL Tracking Type]** si es necesario:
+1. Puede modificar el **[!UICONTROL Tipo de seguimiento]** si es necesario:
 
    ![](assets/message-tracking-edit-a-link.png)
 
    Para cada URL rastreada, puede establecer el modo de seguimiento en uno de estos valores:
 
-   * **[!UICONTROL Tracked]**: Activa el seguimiento en esta dirección URL.
-   * **[!UICONTROL Opt out]**: Considera esta URL como una URL de exclusión o de baja.
-   * **[!UICONTROL Mirror page]**: Considera que esta URL es una URL de página espejo.
-   * **[!UICONTROL Never]**: Nunca activa el seguimiento de esta dirección URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL Seguimiento]**: Activa el seguimiento en esta dirección URL.
+   * **[!UICONTROL Exclusión]**: Considera esta URL como una URL de exclusión o de baja.
+   * **[!UICONTROL Página espejo]**: Considera que esta URL es una URL de página espejo.
+   * **[!UICONTROL Nunca]**: Nunca activa el seguimiento de esta dirección URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 Los informes de aperturas y clics están disponibles en la [Informe activo](../reports/live-report.md) y en el [Informe global](../reports/global-report.md).

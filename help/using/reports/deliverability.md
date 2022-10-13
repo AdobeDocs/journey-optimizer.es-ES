@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: ad1aadd8b10b05d96ee0de5988d82728aca57d5e
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '650'
 ht-degree: 26%
 
 ---
@@ -33,7 +33,7 @@ Para profundizar en lo que es la capacidad de envío y para obtener más informa
 
 ## Reducir la tasa de quejas {#reduce-complaint-rate}
 
-Los proveedores de servicios de Internet generalmente tienen un medio prominente para informar un mensaje recibido como correo no deseado. Esto permite identificar fuentes no fiables. Al cumplir rápidamente las solicitudes de exclusión y mostrar que es un remitente fiable, puede reducir las tasas de quejas. [Obtenga más información sobre la administración de la exclusión](../messages/consent.md#opt-out-management).
+Los proveedores de servicios de Internet generalmente tienen un medio prominente para informar un mensaje recibido como correo no deseado. Esto permite identificar fuentes no fiables. Al cumplir rápidamente las solicitudes de exclusión y mostrar que es un remitente fiable, puede reducir las tasas de quejas. [Obtenga más información sobre la administración de la exclusión](../privacy/opt-out.md#opt-out-management).
 
 Como regla general, no intente interferir con los destinatarios que deseen optar por la exclusión obligándolos a rellenar campos como, por ejemplo, su dirección de correo electrónico o su nombre. La página de aterrizaje de baja de suscripción solo debe tener un botón de validación.
 
@@ -51,7 +51,7 @@ Para proteger la capacidad de envío, los destinatarios cuyas direcciones están
 
 Utilice las funciones que ofrece [!DNL Journey Optimizer] para monitorizar la capacidad de envío.
 
-La variable **[!UICONTROL Executions]** de la lista de mensajes le permite comprobar el rendimiento de sus envíos a través de un conjunto de indicadores en tiempo real. Entre otras cosas, esta pestaña muestra:
+La variable **[!UICONTROL Ejecuciones]** de la lista de mensajes le permite comprobar el rendimiento de sus envíos a través de un conjunto de indicadores en tiempo real. Entre otras cosas, esta pestaña muestra:
 * Número de mensajes que se ejecutan, envían y envían correctamente.
 * El número de mensajes que se han abierto y el número de mensajes/vínculos en los que se ha hecho clic.
 

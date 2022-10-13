@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '771'
 ht-degree: 4%
 
 ---
@@ -47,13 +47,13 @@ Obtenga más información sobre los rechazos graves y los rechazos leves en [est
 
 >[!NOTE]
 >
->Las direcciones de los usuarios que han dejado de suscribirse no se pueden enviar a la lista de supresión, ya que no reciben correos electrónicos de [!DNL Journey Optimizer]. Su elección se gestiona a nivel de Experience Platform. Más información sobre [exclusión](../messages/consent.md).
+>Las direcciones de los usuarios que han dejado de suscribirse no se pueden enviar a la lista de supresión, ya que no reciben correos electrónicos de [!DNL Journey Optimizer]. Su elección se gestiona a nivel de Experience Platform. Más información sobre [exclusión](../privacy/opt-out.md).
 
 Para cada dirección, el motivo básico de la supresión y la categoría de supresión (suave, dura, etc.) se muestran en la lista de supresión. Obtenga más información sobre el acceso y la administración de la lista de supresión en [esta sección](../configuration/manage-suppression-list.md).
 
 >[!NOTE]
 >
->Los perfiles con **[!UICONTROL Suppressed]** se excluyen durante el proceso de envío de mensajes. Por lo tanto, mientras que la variable **Informes de recorrido** mostrará estos perfiles como si se hubieran movido a través del recorrido ([Leer segmento](../building-journeys/read-segment.md) y [actividades de mensaje](../building-journeys/journeys-message.md)), el **Informes de correo electrónico** no los incluirá en la variable **[!UICONTROL Sent]** las métricas tal y como están filtradas antes del envío por correo electrónico.
+>Los perfiles con **[!UICONTROL Suprimido]** se excluyen durante el proceso de envío de mensajes. Por lo tanto, mientras que la variable **Informes de recorrido** mostrará estos perfiles como si se hubieran movido a través del recorrido ([Leer segmento](../building-journeys/read-segment.md) y [actividades de mensaje](../building-journeys/journeys-message.md)), el **Informes de correo electrónico** no los incluirá en la variable **[!UICONTROL Enviado]** las métricas tal y como están filtradas antes del envío por correo electrónico.
 >
 >Obtenga más información sobre [Informe Activo](../reports/live-report.md) y [Informe global](../reports/global-report.md). Para averiguar el motivo de todos los casos de exclusión, puede usar la variable [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
 

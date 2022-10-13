@@ -2,16 +2,20 @@
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a5bbcfb84cb1be5770d91cc844e42e808dbe2957
-workflow-type: ht
-source-wordcount: '2002'
-ht-degree: 100%
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+workflow-type: tm+mt
+source-wordcount: '2020'
+ht-degree: 99%
 
 ---
 
 # Actualizaciones de documentación {#latest-updates}
 
 Esta página enumera todas las actualizaciones de documentación de [!DNL Journey Optimizer].
+
+## Octubre de 2022 {#october-2022}
+
+* La información relacionada con la administración de exclusión y las políticas de consentimiento se han reorganizado en una nueva sección. [Más información](../privacy/opt-out.md)
 
 ## Septiembre de 2022 {#september-2022}
 
@@ -108,7 +112,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha añadido una nueva sección sobre los requisitos de esquema necesarios para poder enviar tipos de evento al utilizar una estrategia de clasificación. [Más información](../offers/ranking/schema-requirement.md)
 * La sección relacionada con las funcionalidades de personalización de [!DNL Journey Optimizer] se han reorganizado para mejorar la legibilidad. [Más información](../personalization/personalize.md)
 * La sección **Crear mensajes de ajustes preestablecidos** se ha dividido en varias secciones para mejorar la claridad. [Más información](../configuration/channel-surfaces.md#create-channel-surface)
-* La sección **Administración de la exclusión** se ha aclarado y reorganizado ligeramente. [Más información](../messages/consent.md#opt-out-management)
+* La sección **Administración de la exclusión** se ha aclarado y reorganizado ligeramente. [Más información](../privacy/opt-out.md#opt-out-management)
 * La sección **Insertar vínculos** se ha actualizado para reflejar los cambios recientes en la interfaz de usuario. [Más información](../design/message-tracking.md#insert-links)
 
 ## Noviembre de 2021 {#november-2021}
@@ -172,7 +176,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha actualizado la sección Habilitación de la lista de permitidos. [Más información](../configuration/allow-list.md#enable-allow-list)
 * Se ha actualizado la sección Monitorización de ajustes preestablecidos de mensaje con los posibles motivos de error de creación y detalles sobre dichos errores. [Más información](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * Se ha actualizado la sección Período de tiempo de reintento y se le ha cambiado el nombre para reflejar el hecho de que ahora puede configurar los reintentos de correo electrónico en los ajustes preestablecidos de mensaje. [Más información](../configuration/retries.md#retry-duration)
-* Se ha añadido una nueva sección para describir cómo insertar un vínculo de exclusión de un clic en el contenido del correo electrónico. [Más información](../messages/consent.md#one-click-opt-out-link)
+* Se ha añadido una nueva sección para describir cómo insertar un vínculo de exclusión de un clic en el contenido del correo electrónico. [Más información](../privacy/opt-out.md#one-click-opt-out-link)
 * Se ha actualizado la sección Delegación de un subdominio con información más detallada sobre el proceso de validación realizado por Adobe. [Más información](../configuration/delegate-subdomain.md#subdomain-validation)
 * Se ha añadido una sección para describir cómo agregar manualmente direcciones de correo electrónico y dominios a la lista de supresión. [Más información](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Se han actualizado las secciones [Acceso a la lista de supresión](../configuration/manage-suppression-list.md#access-suppression-list) y [Reintentos](../configuration/retries.md) para reflejar la nueva interfaz de usuario.
