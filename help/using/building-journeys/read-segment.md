@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: '1292'
 ht-degree: 5%
 
 ---
@@ -84,7 +84,9 @@ Los pasos para configurar la actividad Leer segmento son los siguientes:
 
    ![](assets/read-segment-schedule-list.png)
 
-   **Lectura incremental** opción: cuando un recorrido con un **Leer segmento** se ejecuta por primera vez, todos los perfiles del segmento se incorporan al recorrido. En la siguiente incidencia, todos los perfiles entran de nuevo en el recorrido, incluso si ya estaban dentro. La instancia antigua del perfil en el recorrido se detiene y se crea una nueva. La variable **Lectura incremental** le permite dirigirse, después de la primera vez que se produzca, a las personas que ingresaron al segmento desde la última ejecución del recorrido.
+   **Lectura incremental** opción: cuando un recorrido con un **Leer segmento** se ejecuta por primera vez, todos los perfiles del segmento se incorporan al recorrido. Esta opción le permite dirigirse, después de la primera aparición, solo a las personas que ingresaron al segmento desde la última ejecución del recorrido.
+
+   **Obligar a volver a entrar en el sistema cuando se repita**: esta opción permite hacer que todos los perfiles aún presentes en el recorrido se cierren automáticamente en la siguiente ejecución. Por ejemplo, si tiene una espera de 2 días en un recorrido recurrente diario, al activar esta opción, los perfiles siempre se moverán en la siguiente ejecución de recorrido (es decir, al día siguiente), tanto si están en la audiencia de ejecución siguiente como si no. Si la duración de sus perfiles en este recorrido puede ser mayor que la frecuencia de periodicidad, no active esta opción para asegurarse de que los perfiles puedan finalizar su recorrido.
 
 <!--
 
@@ -108,8 +110,6 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >[!NOTE]
 >
 >Los recorridos de segmento Leído con una sola toma se mueven al estado Finalizado 30 días después de la ejecución del recorrido. Para segmentos de lectura programados, son 30 días después de la ejecución de la última ocurrencia.
->
->Debe tener cuidado al utilizar actividades de espera en recorridos de segmento de lectura recurrentes, ya que la duración de dichos recorridos termina en la siguiente ejecución. Lo que significa que si un recorrido se ejecuta a diario, la instancia de recorrido que se inició hoy durará hasta la ejecución de mañana. Por ejemplo, si ha añadido una espera de 2 días en ese recorrido, los perfiles siempre se moverán en la siguiente ejecución de recorrido (es decir, al día siguiente), tanto si están en la audiencia de ejecución siguiente como si no. Los perfiles nunca podrán permanecer en ese recorrido durante 2 días.
 
 ### Prueba y publicación del recorrido {#testing-publishing}
 
