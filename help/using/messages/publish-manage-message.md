@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Publicar y modificar un mensaje
 description: Descubra cómo publicar y actualizar sus mensajes
 feature: Journeys
@@ -8,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 17%
+source-wordcount: '261'
+ht-degree: 16%
 
 ---
 
@@ -27,7 +29,7 @@ Una vez creado el mensaje, puede publicarlo para que esté disponible para la ej
 
 ![](assets/publish-message.png)
 
-Una vez publicado el mensaje, se añade a la lista de mensajes con la variable **[!UICONTROL Published]** estado.
+Una vez publicado el mensaje, se añade a la lista de mensajes con la variable **[!UICONTROL Publicado]** estado.
 
 Ahora está listo para ser activado por uno o más [recorridos](../building-journeys/journey.md).
 
@@ -49,7 +51,7 @@ Para actualizar un mensaje publicado:
 
 1. En la lista de mensajes, seleccione el mensaje para abrirlo.
 
-1. Haga clic en **[!UICONTROL Modify]**.
+1. Haga clic en **[!UICONTROL Modificar]**.
 
    ![](assets/message-modify.png)
 
@@ -58,7 +60,7 @@ Para actualizar un mensaje publicado:
    ![](assets/message-modify-v2.png)
 
 1. Edite el contenido o cambie la configuración como desee.
-1. Haga clic en **[!UICONTROL Publish]**. Esta acción publica la nueva versión del mensaje que se utilizará para las próximas ejecuciones.
+1. Haga clic en **[!UICONTROL Publicación]**. Esta acción publica la nueva versión del mensaje que se utilizará para las próximas ejecuciones.
 
 Tan pronto como se publique la nueva versión, tras la siguiente llamada de API, se generará una nueva ejecución de mensaje. El siguiente perfil entrante recibirá la nueva versión.
 

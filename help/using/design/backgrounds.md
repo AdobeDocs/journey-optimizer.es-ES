@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Personalice el fondo del correo electrónico
 description: Obtenga información sobre cómo personalizar el fondo del correo electrónico
 feature: Overview
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -28,11 +30,11 @@ En cuanto a la configuración de fondos con el Diseñador de correo electrónico
 
 A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
-* Configure un **[!UICONTROL Background color]** para todo el correo electrónico. Asegúrese de seleccionar la configuración de cuerpo en el árbol de navegación accesible desde la paleta izquierda.
+* Configure un **[!UICONTROL Color de fondo]** para todo el correo electrónico. Asegúrese de seleccionar la configuración de cuerpo en el árbol de navegación accesible desde la paleta izquierda.
 
    ![](assets/background_1.png)
 
-* Establezca el mismo color de fondo para todos los componentes de estructura seleccionando **[!UICONTROL Viewport background color]**. Esta opción le permite seleccionar una configuración diferente del color de fondo.
+* Establezca el mismo color de fondo para todos los componentes de estructura seleccionando **[!UICONTROL Color de fondo de la ventanilla]**. Esta opción le permite seleccionar una configuración diferente del color de fondo.
 
    ![](assets/background_2.png)
 
@@ -42,7 +44,7 @@ A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
    ![](assets/background_3.png)
 
-* Configure un **[!UICONTROL Background image]** para el contenido de un componente de estructura.
+* Configure un **[!UICONTROL Imagen de fondo]** para el contenido de un componente de estructura.
 
    >[!NOTE]
    >

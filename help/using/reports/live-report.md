@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Informe en vivo
 description: Aprenda a utilizar los datos del informe en directo
 feature: Reporting
@@ -6,14 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 6%
 
 ---
 
-# Introducción a Live Report {#live-report}
+# Introducción al Informe en vivo {#live-report}
 
 Utilice la variable **[!UICONTROL Informe activo]** para medir y visualizar en tiempo real el impacto y el rendimiento de sus recorridos y mensajes en un panel integrado.
 Los datos están disponibles en la **[!UICONTROL Informe activo]** en cuanto se realiza el envío o el recorrido se ejecuta desde la **[!UICONTROL Últimas 24 horas]** pestaña .

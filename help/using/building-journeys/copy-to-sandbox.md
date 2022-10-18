@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Copiar un recorrido en otro sandox
 description: Aprenda a copiar un recorrido en otro sandox
 feature: Journeys
@@ -6,18 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Copiar un recorrido en otro simulador de pruebas {#copy-to-sandbox}
+# Copia de un recorrido a otra zona protegida {#copy-to-sandbox}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
->title="Copiar un recorrido en otro simulador de pruebas"
+>title="Copia de un recorrido a otra zona protegida"
 >abstract="Journey Optimizer permite copiar un recorrido completo de un simulador para pruebas a otro. Por ejemplo, puede copiar un recorrido del entorno limitado de ensayo en el entorno limitado de producción. Además del propio Recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido."
 
 >[!CONTEXTUALHELP]

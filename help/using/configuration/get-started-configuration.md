@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Introducción a [!DNL Journey Optimizer] configuración
 description: Más información sobre [!DNL Journey Optimizer] configuración
 role: Admin
@@ -6,9 +8,9 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '330'
 ht-degree: 11%
 
 ---
@@ -43,7 +45,7 @@ Para poder crear sus recorridos y enviar mensajes, debe seguir estos pasos de co
 
    ![](assets/ip-pool.png)
 
-1. **Configuración de recorridos**: para crear recorridos, debe configurar **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** y **[!UICONTROL Actions]**. [Más información](about-data-sources-events-actions.md)
+1. **Configuración de recorridos**: para crear recorridos, debe configurar **[!UICONTROL Fuentes de datos]**, **[!UICONTROL Eventos]** y **[!UICONTROL Acciones]**. [Más información](about-data-sources-events-actions.md)
 
    ![](assets/admin-menu.png)
 

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Uso de expresiones guardadas
 description: Aprenda a trabajar con expresiones guardadas desde la [!DNL Journey Optimizer] biblioteca.
 feature: Personalization
@@ -6,9 +8,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 49c09fbcf3be595e2a636f395fa89915e9e9c802
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '354'
 ht-degree: 8%
 
 ---
@@ -24,7 +26,7 @@ ht-degree: 8%
 
 ➡️ [Aprenda a trabajar con expresiones guardadas en este vídeo](#video-preview)
 
-Para acceder a las expresiones guardadas, haga clic en el botón **[!UICONTROL Library]** en el panel izquierdo. La lista muestra todas las expresiones que los usuarios administradores han guardado (consulte [Guardar expresiones en la biblioteca](#save-expressions)).
+Para acceder a las expresiones guardadas, haga clic en el botón **[!UICONTROL Biblioteca]** en el panel izquierdo. La lista muestra todas las expresiones que los usuarios administradores han guardado (consulte [Guardar expresiones en la biblioteca](#save-expressions)).
 
 >[!NOTE]
 >
@@ -42,7 +44,7 @@ Haga clic en + para insertar la expresión en el editor. A continuación, puede 
 
 Para guardar una expresión en la biblioteca, siga estos pasos:
 
-1. En la interfaz del editor, cree la expresión y haga clic en **[!UICONTROL Add to library]**.
+1. En la interfaz del editor, cree la expresión y haga clic en **[!UICONTROL Añadir a la biblioteca]**.
 
    >[!NOTE]
    >
@@ -50,7 +52,7 @@ Para guardar una expresión en la biblioteca, siga estos pasos:
 
    ![](assets/library-save.png)
 
-1. En el panel derecho, introduzca un título y una descripción para la expresión para ayudar a los usuarios a encontrarla más fácilmente y, a continuación, haga clic en **[!UICONTROL Add]**.
+1. En el panel derecho, introduzca un título y una descripción para la expresión para ayudar a los usuarios a encontrarla más fácilmente y, a continuación, haga clic en **[!UICONTROL Agregar]**.
 
    ![](assets/add-expression.png)
 
@@ -65,9 +67,9 @@ Para guardar una expresión en la biblioteca, siga estos pasos:
 
 
 
-Para editar una expresión existente, agréguela al editor y luego modifíquela según sus necesidades. Haga clic en **[!UICONTROL Add to library]** para validar la sintaxis y guardar la expresión.
+Para editar una expresión existente, agréguela al editor y luego modifíquela según sus necesidades. Haga clic en **[!UICONTROL Añadir a la biblioteca]** para validar la sintaxis y guardar la expresión.
 
-Para eliminar una expresión, haga clic en el botón elipse y luego en **[!UICONTROL Delete]**.
+Para eliminar una expresión, haga clic en el botón elipse y luego en **[!UICONTROL Eliminar]**.
 
 ## Vídeo explicativo{#video}
 

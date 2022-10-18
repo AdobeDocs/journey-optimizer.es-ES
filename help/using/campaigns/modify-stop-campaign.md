@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Modificación o detención de una campaña
 description: Obtenga información sobre cómo modificar, detener o duplicar campañas en directo en [!DNL Journey Optimizer]
 feature: Overview
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 2%
+source-wordcount: '236'
+ht-degree: 3%
 
 ---
 
@@ -23,13 +25,13 @@ Además, puede duplicar campañas en vivo (ejecutadas una vez o con una ejecuci�
 
 Para modificar y crear una nueva versión de una campaña recurrente, siga estos pasos:
 
-1. Abra la campaña y haga clic en el botón **[!UICONTROL Modify campaign]** botón.
+1. Abra la campaña y haga clic en el botón **[!UICONTROL Modificar campaña]** botón.
 
-1. Se crea una nueva versión de la campaña. Puede comprobar la versión activa haciendo clic en **[!UICONTROL Open live version]**.
+1. Se crea una nueva versión de la campaña. Puede comprobar la versión activa haciendo clic en **[!UICONTROL Abrir versión en directo]**.
 
    ![](assets/create-campaign-draft.png)
 
-   En la lista de campañas, las campañas activadas con una versión de borrador en curso se muestran con un icono específico en la variable **[!UICONTROL Status]** para abrir el Navegador. Haga clic en este icono para abrir la versión de borrador de la campaña.
+   En la lista de campañas, las campañas activadas con una versión de borrador en curso se muestran con un icono específico en la variable **[!UICONTROL Estado]** para abrir el Navegador. Haga clic en este icono para abrir la versión de borrador de la campaña.
 
    ![](assets/create-campaign-edit-list.png)
 
@@ -41,7 +43,7 @@ Para modificar y crear una nueva versión de una campaña recurrente, siga estos
 
 ## Detener una campaña recurrente {#stop}
 
-Para detener una campaña recurrente, ábrala y haga clic en el botón **[!UICONTROL Stop campaign]** botón.
+Para detener una campaña recurrente, ábrala y haga clic en el botón **[!UICONTROL Detener campaña]** botón.
 
 ![](assets/create-campaign-stop.png)
 
@@ -53,6 +55,6 @@ Para detener una campaña recurrente, ábrala y haga clic en el botón **[!UICON
 
 ## Duplicar una campaña {#duplicate}
 
-Puede duplicar una campaña activa para crear una nueva. Para ello, abra la campaña y haga clic en **[!UICONTROL Duplicate]**.
+Puede duplicar una campaña activa para crear una nueva. Para ello, abra la campaña y haga clic en **[!UICONTROL Duplicar]**.
 
 ![](assets/create-campaign-duplicate.png)

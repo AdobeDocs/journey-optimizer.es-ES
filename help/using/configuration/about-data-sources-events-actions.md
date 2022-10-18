@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Configurar recorridos
 description: Obtenga información sobre cómo configurar fuentes de datos, eventos y acciones.
 feature: Application Settings
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 44%
+source-wordcount: '406'
+ht-degree: 43%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 44%
 >title="Acerca de la configuración de recorrido"
 >abstract="Para enviar mensajes con recorridos, debe configurar Fuentes de datos, Eventos y Acciones. Las fuentes de datos permiten definir una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos, por ejemplo en las condiciones. Los eventos le permiten almacenar en déclencheur sus recorridos cuando se recibe un evento. Las acciones personalizadas le permiten conectarse a un sistema de terceros para enviar sus mensajes. Si utiliza las funciones de mensaje integradas de Journey Optimizer, no es necesario configurar una acción."
 
-Para enviar mensajes con recorridos, debe configurar **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** y **[!UICONTROL Actions]**.
+Para enviar mensajes con recorridos, debe configurar **[!UICONTROL Fuentes de datos]**, **[!UICONTROL Eventos]** y **[!UICONTROL Acciones]**.
 
 ![](assets/admin-menu.png)
 

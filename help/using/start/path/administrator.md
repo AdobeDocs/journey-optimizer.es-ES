@@ -1,11 +1,13 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Introducción a Journey Optimizer para administrador del sistema
 description: Como administrador del sistema, obtenga más información sobre cómo trabajar con Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '732'
 ht-degree: 3%
 
 ---
@@ -17,7 +19,7 @@ Antes de empezar a utilizar [!DNL Adobe Journey Optimizer], se requieren varios 
 
 Como **Administrador del sistema**, necesita **comprender los perfiles de producto y asignar permisos** para la administración de entornos limitados y la configuración de canales. También debe configurar entornos limitados y administrarlos para los perfiles de producto disponibles. A continuación, podrá asignar miembros del equipo a perfiles de producto.
 
-Estas capacidades las puede administrar **[!UICONTROL Product administrators]** que tienen acceso a Admin Console. [Más información sobre Adobe Admin Console](https://helpx.adobe.com/es/enterprise/admin-guide.html){target=&quot;_blank&quot;}.
+Estas capacidades las puede administrar **[!UICONTROL Administradores de productos]** que tienen acceso a Admin Console. [Más información sobre Adobe Admin Console](https://helpx.adobe.com/es/enterprise/admin-guide.html){target=&quot;_blank&quot;}.
 
 Obtenga información sobre la administración de acceso en las siguientes páginas:
 
@@ -28,7 +30,7 @@ Obtenga información sobre la administración de acceso en las siguientes págin
 
 1. **Explicación de los perfiles de producto**. Los perfiles de producto son un conjunto de derechos unitarios que permiten a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz. Obtenga más información en la [Perfiles de producto integrados](../../administration/ootb-product-profiles.md) para obtener más información.
 
-1. **Definir permisos** para perfiles de producto, incluido **Sandboxes**, y dé acceso a los integrantes del equipo asignándolos a diferentes perfiles de producto. Este paso se realiza en la [Admin Console](https://adminconsole.adobe.com/){_blank}. Los permisos son derechos unitarios que le permiten definir las autorizaciones asignadas a **[!UICONTROL Product profile]**. Cada permiso se recopila en funciones, por ejemplo, Recorrido u Ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Obtenga más información en la [Niveles de permisos](../../administration/high-low-permissions.md) para obtener más información.
+1. **Definir permisos** para perfiles de producto, incluido **Sandboxes**, y dé acceso a los integrantes del equipo asignándolos a diferentes perfiles de producto. Este paso se realiza en la [Admin Console](https://adminconsole.adobe.com/){_blank}. Los permisos son derechos unitarios que le permiten definir las autorizaciones asignadas a **[!UICONTROL Perfil del producto]**. Cada permiso se recopila en funciones, por ejemplo, Recorrido u Ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Obtenga más información en la [Niveles de permisos](../../administration/high-low-permissions.md) para obtener más información.
 
 Además, debe agregar usuarios que necesiten acceder a Assets Essentials a la **Usuarios consumidores de Assets Essentials** o/y **Usuarios de Assets Essentials** Perfiles de producto. [Más información en la documentación de Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
@@ -37,10 +39,10 @@ Además, debe agregar usuarios que necesiten acceder a Assets Essentials a la **
 
 Al acceder [!DNL Journey Optimizer] por primera vez, se le aprovisiona un simulador para pruebas de producción y se le asigna un determinado número de direcciones IP en función de su contrato.
 
-Para poder crear sus recorridos y enviar mensajes, acceda al **ADMINISTRACIÓN** para abrir el Navegador. Examine la **[!UICONTROL Channels]** para configurar los mensajes y las superficies del canal (es decir, los ajustes preestablecidos de mensaje).
+Para poder crear sus recorridos y enviar mensajes, acceda al **ADMINISTRACIÓN** para abrir el Navegador. Examine la **[!UICONTROL Canales]** para configurar los mensajes y las superficies del canal (es decir, los ajustes preestablecidos de mensaje).
 
 >[!NOTE]
->Como **Administrador del sistema**, si no puede ver la variable **[!UICONTROL Channels]** en [!DNL Journey Optimizer], actualice sus permisos en el [Admin Console](https://adminconsole.adobe.com/){_blank}. Obtenga información sobre cómo actualizar el perfil de producto en [esta página](../../administration/permissions.md#edit-product-profile).
+>Como **Administrador del sistema**, si no puede ver la variable **[!UICONTROL Canales]** en [!DNL Journey Optimizer], actualice sus permisos en el [Admin Console](https://adminconsole.adobe.com/){_blank}. Obtenga información sobre cómo actualizar el perfil de producto en [esta página](../../administration/permissions.md#edit-product-profile).
 
 Siga los pasos que se indican a continuación:
 

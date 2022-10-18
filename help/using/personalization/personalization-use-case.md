@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Caso de uso personalizado y dos puntos; notificación del estado de pedido
 description: Obtenga información sobre cómo personalizar un mensaje con perfil, decisión de oferta e información de contexto.
 feature: Personalization
@@ -6,9 +8,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '497'
 ht-degree: 2%
 
 ---
@@ -30,7 +32,7 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 
 ## Paso 1: Creación del recorrido {#create-journey}
 
-1. Haga clic en el **[!UICONTROL Journeys]** y cree un nuevo recorrido.
+1. Haga clic en el **[!UICONTROL Recorridos]** y cree un nuevo recorrido.
 
    ![](assets/perso-uc4.png)
 
@@ -73,7 +75,7 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 
    ![](assets/perso-uc12.png)
 
-1. Escriba el mensaje e inserte, desde el **[!UICONTROL Contextual attributes]** , el nombre del elemento de pedido y el progreso del pedido.
+1. Escriba el mensaje e inserte, desde el **[!UICONTROL Atributos contextuales]** , el nombre del elemento de pedido y el progreso del pedido.
 
    ![](assets/perso-uc13.png)
 

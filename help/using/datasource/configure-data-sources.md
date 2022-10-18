@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Configuración de una fuente de datos
 description: Obtenga información sobre cómo configurar una fuente de datos
 feature: Data Sources
@@ -6,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '565'
 ht-degree: 10%
 
 ---
@@ -21,7 +23,7 @@ Estos son los pasos principales de la configuración de la fuente de datos:
 >
 >La configuración de la fuente de datos siempre la realiza un **usuario técnico**.
 
-1. En la sección del menú ADMINISTRACIÓN , seleccione **[!UICONTROL Configurations]**. En el  **[!UICONTROL Data Sources]** , haga clic en **[!UICONTROL Manage]**. Se muestra la lista de las fuentes de datos. Consulte [esta página](../start/user-interface.md) para obtener más información sobre la interfaz.
+1. En la sección del menú ADMINISTRACIÓN , seleccione **[!UICONTROL Configuraciones]**. En el  **[!UICONTROL Fuentes de datos]** , haga clic en **[!UICONTROL Administrar]**. Se muestra la lista de las fuentes de datos. Consulte [esta página](../start/user-interface.md) para obtener más información sobre la interfaz.
 
    ![](assets/journey18.png)
 
@@ -29,7 +31,7 @@ Estos son los pasos principales de la configuración de la fuente de datos:
 
    ![](assets/journey23.png)
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
    La fuente de datos está ahora configurada y lista para utilizarse en sus recorridos.
 
@@ -45,7 +47,7 @@ Aunque se añada automáticamente un nombre predeterminado, le recomendamos que 
 
 Cuando se utiliza un campo de origen de datos en un recorrido, el sistema recupera todos los campos definidos para ese grupo de campos. Por lo tanto, es recomendable seleccionar solo los campos que necesita para sus recorridos. Esto reducirá la latencia de las solicitudes en los recorridos, lo que aumenta el rendimiento. Tenga en cuenta que puede agregar fácilmente más campos en grupos de campos más adelante.
 
-El número de recorridos que utilizan un grupo de campos se muestra en la variable **[!UICONTROL Used in]** campo . Puede hacer clic en el botón **[!UICONTROL View journeys]** para mostrar la lista de recorridos que utilizan este grupo de campos.
+El número de recorridos que utilizan un grupo de campos se muestra en la variable **[!UICONTROL Se usa en]** campo . Puede hacer clic en el botón **[!UICONTROL Ver recorridos]** para mostrar la lista de recorridos que utilizan este grupo de campos.
 
 >[!NOTE]
 >
@@ -61,9 +63,9 @@ Puede agregar, pero no puede quitar un campo de un grupo de campos utilizado en 
 
 Para eliminar un campo de un grupo de campos utilizado en uno o varios recorridos, siga estos pasos. Veamos un ejemplo de un grupo de campos denominado &quot;Grupo de campos A&quot;.
 
-1. En la lista de grupos de campos, coloque el cursor en &quot;Grupo de campos A&quot; y haga clic en el **[!UICONTROL Duplicate]** en la parte derecha. Asigne un nombre al grupo de campos duplicado &quot;Grupo de campos B&quot;, por ejemplo.
+1. En la lista de grupos de campos, coloque el cursor en &quot;Grupo de campos A&quot; y haga clic en el **[!UICONTROL Duplicar]** en la parte derecha. Asigne un nombre al grupo de campos duplicado &quot;Grupo de campos B&quot;, por ejemplo.
 1. En &quot;Grupo de campos B&quot;, elimine los campos que ya no desee.
-1. En &quot;Grupo de campos A&quot;, compruebe dónde se utiliza este grupo de campos. Esta información se muestra en la sección **[!UICONTROL Used in]** campo .
+1. En &quot;Grupo de campos A&quot;, compruebe dónde se utiliza este grupo de campos. Esta información se muestra en la sección **[!UICONTROL Se usa en]** campo .
 1. Abra todos los recorridos que utilicen &quot;Grupo de campos A&quot;.
 1. Cree nuevas versiones de cada uno de estos recorridos. Edite todas las actividades utilizando &quot;Grupo de campos A&quot; y seleccione &quot;Grupo de campos B&quot;.
 1. Detenga las versiones anteriores de los recorridos que utilizan &quot;Grupo de campos A&quot;. Por lo tanto, no debe tener ningún recorrido usando &quot;Grupo de campos A&quot;.

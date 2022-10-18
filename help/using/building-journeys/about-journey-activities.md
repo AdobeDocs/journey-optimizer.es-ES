@@ -1,15 +1,16 @@
 ---
-title: Acerca de las actividades de recorrido
+solution: Journey Optimizer
+product: journey optimizer
 description: Obtenga información sobre las actividades de recorrido
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 29%
+source-wordcount: '277'
+ht-degree: 22%
 
 ---
 
@@ -43,7 +44,7 @@ En la paleta, en la parte izquierda de la pantalla, están disponibles las sigui
 
 ## Actividades de acción {#action-activities}
 
-Desde la paleta, en la parte izquierda de la pantalla, debajo **[!UICONTROL Events]** y **[!UICONTROL Orchestration]**, encontrará la variable **[!UICONTROL Actions]** categoría. Las siguientes actividades de acción están disponibles:
+Desde la paleta, en la parte izquierda de la pantalla, debajo **[!UICONTROL Eventos]** y **[!UICONTROL Organización]**, encontrará la variable **[!UICONTROL Acciones]** categoría. Las siguientes actividades de acción están disponibles:
 
 * [Correo electrónico, SMS, push](../building-journeys/journeys-message.md)
 * [Acciones personalizadas](../building-journeys/using-custom-actions.md)
@@ -57,10 +58,10 @@ Si ha configurado acciones personalizadas, estas aparecerán aquí (consulte [es
 
 ## Prácticas recomendadas {#best-practices}
 
-La mayoría de las actividades le permiten definir un **[!UICONTROL Label]**. Esto agrega un sufijo al nombre que aparecerá debajo de la actividad en el lienzo. Esto resulta útil si utiliza la misma actividad varias veces en el recorrido y desea identificarlos más fácilmente. También facilitará la depuración en caso de errores y facilitará la lectura de los informes. También puede añadir una **[!UICONTROL Description]**.
+La mayoría de las actividades le permiten definir un **[!UICONTROL Etiqueta]**. Esto agrega un sufijo al nombre que aparecerá debajo de la actividad en el lienzo. Esto resulta útil si utiliza la misma actividad varias veces en el recorrido y desea identificarlos más fácilmente. También facilitará la depuración en caso de errores y facilitará la lectura de los informes. También puede añadir una **[!UICONTROL Descripción]**.
 
 ![](assets/journey59bis.png)
 
-Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera para continuar es marcar la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
+Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera de continuar es marcar la casilla **[!UICONTROL Añada una ruta alternativa en caso de tiempo de espera o error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
 
 ![](assets/journey42.png)

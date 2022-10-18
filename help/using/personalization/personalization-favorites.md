@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Adición de atributos a favoritos
 description: Aprenda a añadir atributos a favoritos.
 feature: Personalization
@@ -6,20 +8,20 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 26%
+source-wordcount: '93'
+ht-degree: 25%
 
 ---
 
 # Adición de atributos a favoritos {#fav}
 
-Añadir atributos diferentes al menú de favoritos permite acceder rápidamente a los elementos más utilizados. Para añadir un atributo a sus favoritos, haga clic en el menú elipse y elija **[!UICONTROL Add to favorites]**.
+Añadir atributos diferentes al menú de favoritos permite acceder rápidamente a los elementos más utilizados. Para añadir un atributo a sus favoritos, haga clic en el menú elipse y elija **[!UICONTROL Agregar a favoritos]**.
 
 ![](assets/favorite-option.png)
 
-Para acceder a los elementos que ha marcado como favoritos, use la variable **[!UICONTROL Favorites]** en el panel izquierdo.
+Para acceder a los elementos que ha marcado como favoritos, use la variable **[!UICONTROL Favoritos]** en el panel izquierdo.
 
 Desde esta lista puede añadir rápidamente el objeto personalizado a la expresión actual.
 

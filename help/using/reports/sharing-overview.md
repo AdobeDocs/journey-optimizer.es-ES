@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Información general sobre el uso compartido de los pasos del recorrido
 description: Información general sobre el uso compartido de los pasos del recorrido
 feature: Reporting
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '480'
 ht-degree: 5%
 
 ---
@@ -29,7 +31,7 @@ La lista de campos XDM que se pasan es completa. Algunos contienen códigos gene
 
 >[!CAUTION]
 >
->Los conjuntos de datos no se pueden activar para el servicio de perfil en tiempo real. Asegúrese de que la variable **[!UICONTROL Profile]** la opción está desactivada.
+>Los conjuntos de datos no se pueden activar para el servicio de perfil en tiempo real. Asegúrese de que la variable **[!UICONTROL Perfil]** la opción está desactivada.
 
 [!DNL Journey Optimizer] envía datos a medida que se producen, de forma continua. Puede consultar estos datos mediante el servicio de consulta. Puede conectarse a Customer Journey Analytics u otras herramientas de BI para ver los datos relacionados con estos pasos.
 

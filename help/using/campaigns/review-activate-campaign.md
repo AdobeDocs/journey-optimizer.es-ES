@@ -1,19 +1,21 @@
 ---
-title: Revisar y activar una campaña
+solution: Journey Optimizer
+product: journey optimizer
+title: Revisión y activación de una campaña
 description: Obtenga información sobre cómo revisar y activar campañas en [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 5a7932cf0cb013e627e79aadde526e8f976effaf
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
-# Revisar y activar una campaña {#review-activate}
+# Revisión y activación de una campaña {#review-activate}
 
 Una vez configurada la campaña, debe revisar su parámetro y contenido antes de activarlo. Para ello, siga estos pasos:
 

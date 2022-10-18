@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Creación de una página de aterrizaje
 description: Obtenga información sobre cómo configurar y publicar una página de aterrizaje en Journey Optimizer
 feature: Landing Pages
@@ -6,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 2%

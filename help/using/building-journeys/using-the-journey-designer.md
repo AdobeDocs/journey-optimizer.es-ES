@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Diseño de un recorrido
 description: Aprenda a diseñar su recorrido
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1490'
 ht-degree: 4%
 
 ---
@@ -24,31 +26,31 @@ La interfaz de recorrido permite arrastrar y soltar fácilmente actividades de l
 
 ## Introducción al diseño de recorrido {#gs-journey-design}
 
-La variable **paleta** en el lado izquierdo de la pantalla. Todas las actividades disponibles se clasifican en varias categorías: **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** y **[!UICONTROL Actions]**. Puede expandir/contraer las diferentes categorías haciendo clic en su nombre. Para utilizar una actividad en el recorrido, arrástrela desde la paleta y suéltela en el lienzo.
+La variable **paleta** en el lado izquierdo de la pantalla. Todas las actividades disponibles se clasifican en varias categorías: **[!UICONTROL Eventos]**, **[!UICONTROL Organización]** y **[!UICONTROL Acciones]**. Puede expandir/contraer las diferentes categorías haciendo clic en su nombre. Para utilizar una actividad en el recorrido, arrástrela desde la paleta y suéltela en el lienzo.
 
 Al iniciar un nuevo recorrido, los elementos que no se pueden soltar en el lienzo como primer paso se ocultan. Esto se refiere a todas las acciones, la actividad de la condición, la espera y la reacción.
 
 ![](assets/journey38.png)
 
-La variable **[!UICONTROL Filter items]** en la esquina superior izquierda permite mostrar los siguientes filtros:
+La variable **[!UICONTROL Filtrar elementos]** en la esquina superior izquierda permite mostrar los siguientes filtros:
 
 * **Mostrar solo los elementos disponibles**: oculte o muestre elementos no disponibles en la paleta, por ejemplo, los eventos que utilizan un área de nombres diferente a la utilizada en el recorrido. De forma predeterminada, los elementos no disponibles están ocultos. Si elige mostrarlos, aparecerán atenuados.
 
 * **Mostrar solo los elementos recientes**: este filtro le permite mostrar solo los últimos cinco eventos y acciones utilizados, además de los predeterminados. Esto es específico de cada usuario. De forma predeterminada, se muestran todos los elementos.
 
-También puede usar la variable **[!UICONTROL Search]** campo . Solo se filtran eventos y acciones.
+También puede usar la variable **[!UICONTROL Buscar]** campo . Solo se filtran eventos y acciones.
 
 La variable **lienzo** es la zona central del diseñador de recorridos. Es en esta zona donde puede soltar sus actividades y configurarlas. Haga clic en una actividad del lienzo para configurarla. Se abre el panel de configuración de actividad en el lado derecho.
 
 ![](assets/journey39.png)
 
-La variable **panel de configuración de actividades** aparece al hacer clic en una actividad de la paleta. Rellene los campos obligatorios. Haga clic en el **[!UICONTROL Delete]** para eliminar la actividad. Haga clic en **[!UICONTROL Cancel]** para cancelar las modificaciones o **[!UICONTROL Ok]** para confirmar. Para eliminar actividades, también puede seleccionar una actividad (o varias) y pulsar la tecla de retroceso. Si pulsa la tecla escape, se cerrará el panel de configuración de la actividad.
+La variable **panel de configuración de actividades** aparece al hacer clic en una actividad de la paleta. Rellene los campos obligatorios. Haga clic en el **[!UICONTROL Eliminar]** para eliminar la actividad. Haga clic en **[!UICONTROL Cancelar]** para cancelar las modificaciones o **[!UICONTROL Ok]** para confirmar. Para eliminar actividades, también puede seleccionar una actividad (o varias) y pulsar la tecla de retroceso. Si pulsa la tecla escape, se cerrará el panel de configuración de la actividad.
 
 De forma predeterminada, los campos de solo lectura están ocultos. Para mostrar campos de solo lectura, haga clic en el botón **Mostrar campos de solo lectura** en la parte superior izquierda del panel de configuración de actividad. Esta configuración se aplica a todas las actividades de todos los recorridos.
 
 ![](assets/journey59bis.png)
 
-Según el estado del recorrido, puede realizar diferentes acciones en el recorrido mediante los botones disponibles en la esquina superior derecha: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Estos botones aparecen cuando no hay actividad seleccionada. Algunos botones aparecerán en contexto. El botón de registro del modo de prueba aparece cuando se activa el modo de prueba.
+Según el estado del recorrido, puede realizar diferentes acciones en el recorrido mediante los botones disponibles en la esquina superior derecha: **[!UICONTROL Publicación]**, **[!UICONTROL Duplicar]**, **[!UICONTROL Eliminar]**, **[!UICONTROL Propiedades del recorrido]**, **[!UICONTROL Prueba]**. Estos botones aparecen cuando no hay actividad seleccionada. Algunos botones aparecerán en contexto. El botón de registro del modo de prueba aparece cuando se activa el modo de prueba.
 
 ![](assets/journey41.png)
 
@@ -88,9 +90,9 @@ También encontrará las acciones personalizadas que ha configurado para enviar 
 
 ## Adición de rutas alternativas{#paths}
 
-Puede definir una acción de reserva en caso de error o tiempo de espera para las siguientes actividades de recorrido: **[!UICONTROL Condition]** y **[!UICONTROL Action]**.
+Puede definir una acción de reserva en caso de error o tiempo de espera para las siguientes actividades de recorrido: **[!UICONTROL Condición]** y **[!UICONTROL Acción]**.
 
-Para añadir una acción de reserva para una actividad, seleccione la opción **[!UICONTROL Add an alternative path in case of a timeout or an error]** en las propiedades de la actividad: se agrega otra ruta después de la actividad . Los usuarios administradores definen la duración del tiempo de espera en la variable [Propiedades del recorrido](../building-journeys/journey-gs.md#change-properties). Por ejemplo, si un correo electrónico tarda demasiado en enviarse o por error, puede decidir enviar una notificación push.
+Para añadir una acción de reserva para una actividad, seleccione la opción **[!UICONTROL Añada una ruta alternativa en caso de tiempo de espera o error]** en las propiedades de la actividad: se agrega otra ruta después de la actividad . Los usuarios administradores definen la duración del tiempo de espera en la variable [Propiedades del recorrido](../building-journeys/journey-gs.md#change-properties). Por ejemplo, si un correo electrónico tarda demasiado en enviarse o por error, puede decidir enviar una notificación push.
 
 ![](assets/journey42.png)
 
@@ -98,7 +100,7 @@ Varias actividades (evento, acción, espera) le permiten agregar varias rutas de
 
 Al escuchar un evento, se recomienda no esperar el evento indefinidamente. No es obligatorio, solo es una práctica recomendada. Si desea escuchar uno o varios eventos solo durante un tiempo determinado, colocará uno o varios eventos y una actividad de espera en paralelo. Consulte [esta sección](../building-journeys/general-events.md#events-specific-time).
 
-Para eliminar la ruta, coloque el cursor sobre ella y haga clic en el botón **[!UICONTROL Delete path]** icono.
+Para eliminar la ruta, coloque el cursor sobre ella y haga clic en el botón **[!UICONTROL Eliminar ruta]** icono.
 
 ![](assets/journey42ter.png)
 

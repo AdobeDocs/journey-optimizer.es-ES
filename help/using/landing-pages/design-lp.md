@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Diseño de una página de destino
 description: Aprenda a diseñar el contenido de una página de aterrizaje en Journey Optimizer
 feature: Landing Pages
@@ -6,16 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 61fcf519ca2ce241e292a86707e5ce987835a07c
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '155'
 ht-degree: 3%
 
 ---
 
 # Diseño del contenido de la página de aterrizaje {#design-lp}
 
-Para empezar a crear contenido para el aterrizaje [página principal](create-lp.md#configure-primary-page) o [subpágina](create-lp.md#configure-subpages), pase el ratón sobre el contenido de la página y haga clic en **[!UICONTROL Open Designer]**. También puede hacer clic en el botón correspondiente desde la paleta derecha.
+Para empezar a crear contenido para el aterrizaje [página principal](create-lp.md#configure-primary-page) o [subpágina](create-lp.md#configure-subpages), pase el ratón sobre el contenido de la página y haga clic en **[!UICONTROL Abrir Designer]**. También puede hacer clic en el botón correspondiente desde la paleta derecha.
 
 ![](assets/lp_open-designer.png)
 

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Delegar un subdominio
 description: Aprenda a delegar los subdominios.
 feature: Application Settings
@@ -6,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1706'
 ht-degree: 9%
 
 ---
@@ -47,11 +49,11 @@ Puede confiar en el Adobe para mantener la infraestructura DNS necesaria para cu
 
 Para delegar completamente un nuevo subdominio al Adobe, siga los pasos a continuación:
 
-1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** a continuación, haga clic en **[!UICONTROL Set up subdomain]**.
+1. Acceda a la **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Subdominios]** a continuación, haga clic en **[!UICONTROL Configurar subdominio]**.
 
    ![](assets/subdomain-delegate.png)
 
-1. Select **[!UICONTROL Fully delegated]** de la variable **[!UICONTROL Set up method]** para obtener más información.
+1. Select **[!UICONTROL Completamente delegado]** de la variable **[!UICONTROL Configurar método]** para obtener más información.
 
    ![](assets/subdomain-method-full.png)
 
@@ -73,9 +75,9 @@ Para delegar completamente un nuevo subdominio al Adobe, siga los pasos a contin
 
    >[!NOTE]
    >
-   >Puede crear los registros y enviar la configuración del subdominio más adelante utilizando la variable **[!UICONTROL Save as draft]** botón. A continuación, podrá reanudar la delegación de subdominios abriéndola en la lista de subdominios.
+   >Puede crear los registros y enviar la configuración del subdominio más adelante utilizando la variable **[!UICONTROL Guardar como borrador]** botón. A continuación, podrá reanudar la delegación de subdominios abriéndola en la lista de subdominios.
 
-1. Una vez enviada la delegación de subdominios completa, el subdominio se muestra en la lista con la variable **[!UICONTROL Processing]** estado. Para obtener más información sobre los estados de los subdominios, consulte [esta sección](access-subdomains.md).
+1. Una vez enviada la delegación de subdominios completa, el subdominio se muestra en la lista con la variable **[!UICONTROL Procesamiento]** estado. Para obtener más información sobre los estados de los subdominios, consulte [esta sección](access-subdomains.md).
 
    ![](assets/subdomain-processing.png)
 
@@ -85,11 +87,11 @@ Para delegar completamente un nuevo subdominio al Adobe, siga los pasos a contin
    >
    >Se enumerarán todos los registros que falten, es decir, los registros que aún no se hayan creado en la solución de alojamiento.
 
-1. Una vez realizadas las comprobaciones correctamente, el subdominio recibe la variable **[!UICONTROL Success]** estado. Está listo para utilizarse para enviar mensajes.
+1. Una vez realizadas las comprobaciones correctamente, el subdominio recibe la variable **[!UICONTROL Correcto]** estado. Está listo para utilizarse para enviar mensajes.
 
    >[!NOTE]
    >
-   >El subdominio se marcará como **[!UICONTROL Failed]** si no puede crear el registro de validación en la solución de alojamiento.
+   >El subdominio se marcará como **[!UICONTROL Error]** si no puede crear el registro de validación en la solución de alojamiento.
 
    <!-- later on, users will be notified in Pulse -->
 
@@ -97,7 +99,7 @@ Una vez delegado un subdominio al Adobe en [!DNL Journey Optimizer], se crea aut
 
 >[!CAUTION]
 >
->Actualmente, la ejecución paralela de subdominios no es compatible con [!DNL Journey Optimizer]. Si intenta enviar un subdominio para la delegación cuando otra tiene la variable **[!UICONTROL Processing]** obtendrá un mensaje de error.
+>Actualmente, la ejecución paralela de subdominios no es compatible con [!DNL Journey Optimizer]. Si intenta enviar un subdominio para la delegación cuando otra tiene la variable **[!UICONTROL Procesamiento]** obtendrá un mensaje de error.
 
 ## Delegación de subdominios CNAME {#cname-subdomain-delegation}
 
@@ -118,9 +120,9 @@ La delegación de subdominios CNAME le permite crear un subdominio y utilizar CN
 
 Para delegar un subdominio mediante CNAME, siga los pasos a continuación:
 
-1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** a continuación, haga clic en **[!UICONTROL Set up subdomain]**.
+1. Acceda a la **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Subdominios]** a continuación, haga clic en **[!UICONTROL Configurar subdominio]**.
 
-1. Seleccione el **[!UICONTROL CNAME set up]** método.
+1. Seleccione el **[!UICONTROL Configuración de CNAME]** método.
 
    ![](assets/subdomain-method-cname.png)
 
@@ -140,7 +142,7 @@ Para delegar un subdominio mediante CNAME, siga los pasos a continuación:
 
    >[!NOTE]
    >
-   >Puede crear los registros más adelante utilizando la variable **[!UICONTROL Save as draft]** botón. A continuación, podrá reanudar la delegación de subdominios en esta fase abriéndola de la lista de subdominios.
+   >Puede crear los registros más adelante utilizando la variable **[!UICONTROL Guardar como borrador]** botón. A continuación, podrá reanudar la delegación de subdominios en esta fase abriéndola de la lista de subdominios.
 
 1. Espere hasta que Adobe verifique que estos registros se generen sin errores en la solución de alojamiento. Este proceso puede tardar hasta 2 minutos.
 
@@ -154,23 +156,23 @@ Para delegar un subdominio mediante CNAME, siga los pasos a continuación:
 
    >[!NOTE]
    >
-   >También puede crear el registro de validación y enviar la configuración del subdominio más adelante utilizando la variable **[!UICONTROL Save as draft]** botón. A continuación, podrá reanudar la delegación de subdominios abriéndola en la lista de subdominios.
+   >También puede crear el registro de validación y enviar la configuración del subdominio más adelante utilizando la variable **[!UICONTROL Guardar como borrador]** botón. A continuación, podrá reanudar la delegación de subdominios abriéndola en la lista de subdominios.
 
-1. Una vez enviada la delegación de subdominios CNAME, el subdominio se muestra en la lista con la variable **[!UICONTROL Processing]** estado. Para obtener más información sobre los estados de los subdominios, consulte [esta sección](access-subdomains.md).
+1. Una vez enviada la delegación de subdominios CNAME, el subdominio se muestra en la lista con la variable **[!UICONTROL Procesamiento]** estado. Para obtener más información sobre los estados de los subdominios, consulte [esta sección](access-subdomains.md).
 
    Antes de poder utilizar ese subdominio para enviar mensajes, debe esperar hasta que el Adobe realice las comprobaciones necesarias, que suelen tardar entre 2 y 3 horas. Obtenga más información en [esta sección](#subdomain-validation).
 
-1. Una vez realizadas las comprobaciones correctamente<!--i.e Adobe validates the record you created and installs it-->, el subdominio obtiene la variable **[!UICONTROL Success]** estado. Está listo para utilizarse para enviar mensajes.
+1. Una vez realizadas las comprobaciones correctamente<!--i.e Adobe validates the record you created and installs it-->, el subdominio obtiene la variable **[!UICONTROL Correcto]** estado. Está listo para utilizarse para enviar mensajes.
 
    >[!NOTE]
    >
-   >El subdominio se marcará como **[!UICONTROL Failed]** si no puede crear el registro de validación en la solución de alojamiento.
+   >El subdominio se marcará como **[!UICONTROL Error]** si no puede crear el registro de validación en la solución de alojamiento.
 
 Al validar el registro e instalar el certificado, Adobe crea automáticamente el registro PTR para el subdominio CNAME. [Más información](ptr-records.md)
 
 >[!CAUTION]
 >
->Actualmente, la ejecución paralela de subdominios no es compatible con [!DNL Journey Optimizer]. Si intenta enviar un subdominio para la delegación cuando otra tiene la variable **[!UICONTROL Processing]** obtendrá un mensaje de error.
+>Actualmente, la ejecución paralela de subdominios no es compatible con [!DNL Journey Optimizer]. Si intenta enviar un subdominio para la delegación cuando otra tiene la variable **[!UICONTROL Procesamiento]** obtendrá un mensaje de error.
 
 ## Validación de subdominios {#subdomain-validation}
 

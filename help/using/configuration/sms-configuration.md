@@ -1,12 +1,14 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Configuración de SMS
-description: Aprenda a configurar su entorno para enviar mensajes SMS con Journey Optimizer
+description: Aprenda a configurar su entorno para enviar SMS con Journey Optimizer
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: bb90f582b9767b1aaeb5d86b0e68f500871fab3a
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '710'
 ht-degree: 2%
 
 ---

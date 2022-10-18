@@ -1,5 +1,6 @@
 ---
 solution: Journey Optimizer
+product: journey optimizer
 title: Configurar una acción personalizada
 description: Obtenga información sobre cómo configurar una acción personalizada
 feature: Actions
@@ -7,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 951799a9986e4fd293f282ecf82496e5e7f2da9e
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 5%

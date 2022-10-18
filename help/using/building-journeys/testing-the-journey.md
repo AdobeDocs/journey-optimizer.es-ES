@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Prueba del recorrido
 description: Aprenda a probar el recorrido
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1548'
 ht-degree: 3%
 
 ---
@@ -30,11 +32,11 @@ Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba.
 
 Para utilizar el modo de prueba, siga estos pasos:
 
-1. Para activar el modo de prueba, active la variable **[!UICONTROL Test]** alternar, situado en la esquina superior derecha.
+1. Para activar el modo de prueba, active la variable **[!UICONTROL Prueba]** alternar, situado en la esquina superior derecha.
 
    ![](assets/journeytest1.png)
 
-1. Si el recorrido tiene al menos uno **Espera** actividad , establezca la variable **[!UICONTROL Wait time]** para definir el tiempo que cada actividad de espera y el tiempo de espera del evento durarán en el modo de prueba. El tiempo predeterminado es de 10 segundos para las esperas y los tiempos de espera de los eventos. Esto garantizará que los resultados de la prueba se obtengan rápidamente.
+1. Si el recorrido tiene al menos uno **Espera** actividad , establezca la variable **[!UICONTROL Tiempo de espera]** para definir el tiempo que cada actividad de espera y el tiempo de espera del evento durarán en el modo de prueba. El tiempo predeterminado es de 10 segundos para las esperas y los tiempos de espera de los eventos. Esto garantizará que los resultados de la prueba se obtengan rápidamente.
 
    ![](assets/journeytest_wait.png)
 
@@ -42,7 +44,7 @@ Para utilizar el modo de prueba, siga estos pasos:
    >
    >Cuando se utiliza un evento de reacción con tiempo de espera en un recorrido, el valor predeterminado del tiempo de espera y el valor mínimo son 40 segundos. Consulte [esta sección](../building-journeys/reaction-events.md).
 
-1. Utilice la variable **[!UICONTROL Trigger an event]** para configurar y enviar eventos al recorrido.
+1. Utilice la variable **[!UICONTROL Déclencheur de un evento]** para configurar y enviar eventos al recorrido.
 
    ![](assets/journeyuctest1.png)
 
@@ -50,7 +52,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 
    ![](assets/journeyuctest1-bis.png)
 
-1. Una vez recibidos los eventos, haga clic en el botón **[!UICONTROL Show log]** para ver el resultado de la prueba y verificarlo. Consulte [esta sección](#viewing_logs).
+1. Una vez recibidos los eventos, haga clic en el botón **[!UICONTROL Mostrar registro]** para ver el resultado de la prueba y verificarlo. Consulte [esta sección](#viewing_logs).
 
    ![](assets/journeyuctest2.png)
 
@@ -75,7 +77,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 >title="Configuración del modo de prueba"
 >abstract="Si el recorrido contiene varios eventos, utilice la lista desplegable para seleccionar un evento. A continuación, para cada evento, configure los campos pasados y la ejecución del envío del evento."
 
-Utilice la variable **[!UICONTROL Trigger an event]** para configurar un evento que haga que una persona introduzca el recorrido.
+Utilice la variable **[!UICONTROL Déclencheur de un evento]** para configurar un evento que haga que una persona introduzca el recorrido.
 
 >[!NOTE]
 >
@@ -87,13 +89,13 @@ Si el recorrido contiene varios eventos, utilice la lista desplegable para selec
 
 ![](assets/journeytest4.png)
 
-La interfaz le permite pasar parámetros de evento simples. Si desea pasar colecciones u otros objetos avanzados en el evento, puede hacer clic en **[!UICONTROL Code View]** para ver el código completo de la carga útil y modificarlo. Por ejemplo, puede copiar y pegar la información de evento preparada por un usuario técnico.
+La interfaz le permite pasar parámetros de evento simples. Si desea pasar colecciones u otros objetos avanzados en el evento, puede hacer clic en **[!UICONTROL Vista de código]** para ver el código completo de la carga útil y modificarlo. Por ejemplo, puede copiar y pegar la información de evento preparada por un usuario técnico.
 
 ![](assets/journeytest5.png)
 
 Un usuario técnico también puede utilizar esta interfaz para componer cargas útiles de evento y eventos de déclencheur sin tener que utilizar una herramienta de terceros.
 
-Al hacer clic en el botón **[!UICONTROL Send]** , la prueba comienza. La progresión del individuo en el recorrido se representa mediante un flujo visual. La ruta se vuelve progresivamente verde a medida que el individuo se mueve por el recorrido. Si se produce un error, se muestra un símbolo de advertencia en el paso correspondiente. Puede colocar el cursor en él para mostrar más información sobre el error y acceder a todos los detalles (cuando esté disponible).
+Al hacer clic en el botón **[!UICONTROL Enviar]** , la prueba comienza. La progresión del individuo en el recorrido se representa mediante un flujo visual. La ruta se vuelve progresivamente verde a medida que el individuo se mueve por el recorrido. Si se produce un error, se muestra un símbolo de advertencia en el paso correspondiente. Puede colocar el cursor en él para mostrar más información sobre el error y acceder a todos los detalles (cuando esté disponible).
 
 ![](assets/journeytest6.png)
 
@@ -113,7 +115,7 @@ Al activar un evento, la variable **Configuración de eventos** permite definir 
 
 ## Modo de prueba para eventos empresariales {#test-business}
 
-Al usar un [evento empresarial](../event/about-events.md), utilice el modo de prueba para almacenar en déclencheur una sola entrada de perfil de prueba en el recorrido, simular el evento y pasar el ID de perfil correcto. Debe pasar los parámetros de evento y el identificador del perfil de prueba que va a introducir el recorrido en la prueba. No puede usar la variable **[!UICONTROL Up to 100 profiles at once]** que existe para otros recorridos basados en segmentos. En el modo de prueba, no hay ningún modo &quot;Vista de código&quot; disponible para los recorridos en función de los eventos empresariales.
+Al usar un [evento empresarial](../event/about-events.md), utilice el modo de prueba para almacenar en déclencheur una sola entrada de perfil de prueba en el recorrido, simular el evento y pasar el ID de perfil correcto. Debe pasar los parámetros de evento y el identificador del perfil de prueba que va a introducir el recorrido en la prueba. No puede usar la variable **[!UICONTROL Hasta 100 perfiles a la vez]** que existe para otros recorridos basados en segmentos. En el modo de prueba, no hay ningún modo &quot;Vista de código&quot; disponible para los recorridos en función de los eventos empresariales.
 
 Tenga en cuenta que cuando se déclencheur por primera vez un evento empresarial, no se puede cambiar la definición del evento empresarial en la misma sesión de prueba. Solo se puede hacer que la misma persona o una persona diferente introduzca el recorrido que pasa el mismo identificador u otro. Si desea cambiar los parámetros de evento empresarial, debe detener y volver a iniciar el modo de prueba.
 
@@ -124,7 +126,7 @@ Tenga en cuenta que cuando se déclencheur por primera vez un evento empresarial
 >title="Registros del modo de prueba"
 >abstract="El botón Mostrar registro muestra los resultados de las pruebas en formato JSON. Estos resultados muestran el número de personas dentro del recorrido y su estado."
 
-La variable **[!UICONTROL Show log]** permite ver los resultados de la prueba. Esta página muestra la información actual del recorrido en formato JSON. Un botón permite copiar nodos completos. Debe actualizar manualmente la página para actualizar los resultados de prueba del recorrido.
+La variable **[!UICONTROL Mostrar registro]** permite ver los resultados de la prueba. Esta página muestra la información actual del recorrido en formato JSON. Un botón permite copiar nodos completos. Debe actualizar manualmente la página para actualizar los resultados de prueba del recorrido.
 
 ![](assets/journeytest3.png)
 

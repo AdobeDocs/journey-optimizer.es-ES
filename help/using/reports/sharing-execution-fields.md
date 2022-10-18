@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Campos de ejecución de la acción de eventos de journeySteps
 description: Campos de ejecución de la acción de eventos de journeySteps
 feature: Reporting
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 

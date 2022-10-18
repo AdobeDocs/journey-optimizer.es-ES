@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Versiones de recorridos
 description: Obtenga información sobre las versiones de recorrido
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: 1acc5a137661a47abd60c03167e9ef39998de621
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '294'
 ht-degree: 3%
 
 ---
@@ -31,7 +33,7 @@ Si necesita modificar a un recorrido activo, debe crear una nueva versión del r
 >
 >Para obtener más información sobre las limitaciones y protecciones de las versiones de recorrido, consulte [esta página](../start/guardrails.md#journey-versions-limitations)
 
-1. Abra la última versión de su recorrido en directo y haga clic en **[!UICONTROL Create a new version]** y confirme.
+1. Abra la última versión de su recorrido en directo y haga clic en **[!UICONTROL Crear una nueva versión]** y confirme.
 
    ![](assets/journeyversions2.png)
 
@@ -39,7 +41,7 @@ Si necesita modificar a un recorrido activo, debe crear una nueva versión del r
    >
    >Solo puede crear una versión nueva a partir de la versión más reciente de un recorrido.
 
-1. Realice las modificaciones necesarias, haga clic en **[!UICONTROL Publish]** y confirme.
+1. Realice las modificaciones necesarias, haga clic en **[!UICONTROL Publicación]** y confirme.
 
    ![](assets/journeyversions3.png)
 

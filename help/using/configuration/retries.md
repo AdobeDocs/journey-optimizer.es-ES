@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Reintentos
 description: Descubra cómo se realizan los reintentos antes de enviar una dirección a la lista de supresión
 feature: Application Settings
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 2%
+source-wordcount: '454'
+ht-degree: 1%
 
 ---
 
@@ -39,9 +41,9 @@ Si una entrega se realiza correctamente después de un reintento, el contador de
 
 Si el valor predeterminado de 5 no se adapta a sus necesidades, puede modificar el umbral de error siguiendo los pasos a continuación.
 
-1. Vaya a **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Suppression list]**.
+1. Vaya a **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** > **[!UICONTROL Lista de supresión]**.
 
-1. Seleccione el botón **[!UICONTROL Edit suppression rules]**.
+1. Seleccione el **[!UICONTROL Editar reglas de supresión]** botón.
 
    ![](assets/suppression-list-edit-retries.png)
 

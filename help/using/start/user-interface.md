@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Interfaz de usuario
 description: Más información acerca de la interfaz de usuario de Journey Optimizer
 feature: Overview
@@ -6,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: d21ab858913844d655a2b23d22b562b62eb7743c
-workflow-type: ht
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+workflow-type: tm+mt
 source-wordcount: '1572'
 ht-degree: 100%
 

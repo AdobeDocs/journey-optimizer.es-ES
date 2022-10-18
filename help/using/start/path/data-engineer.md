@@ -1,11 +1,13 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Introducción a Journey Optimizer para ingenieros de datos
 description: Como ingeniero de datos, obtenga más información sobre cómo trabajar con Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '580'
 ht-degree: 9%
 
 ---
@@ -34,7 +36,7 @@ Los pasos para crear un área de nombres de identidad y un conjunto de datos hab
 1. **Creación de perfiles de prueba**. Los perfiles de prueba son obligatorios al usar la variable [modo de prueba](../../building-journeys/testing-the-journey.md) en un recorrido y para [obtener una vista previa y probar los mensajes](../../design/preview.md) antes de enviar. Los pasos para crear perfiles de prueba se detallan [en esta página](../../segment/creating-test-profiles.md).
 
 
-Además, para poder enviar mensajes en recorridos, debe configurar **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** y **[!UICONTROL Actions]**. Obtenga más información [en esta sección](../../configuration/about-data-sources-events-actions.md).
+Además, para poder enviar mensajes en recorridos, debe configurar **[!UICONTROL Fuentes de datos]**, **[!UICONTROL Eventos]** y **[!UICONTROL Acciones]**. Obtenga más información [en esta sección](../../configuration/about-data-sources-events-actions.md).
 
 ![](../assets/admin-menu.png)
 

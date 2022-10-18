@@ -1,13 +1,15 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Configuración de notificaciones push
 description: Aprenda a configurar su entorno para enviar notificaciones push con Journey Optimizer
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 5%
+source-wordcount: '1555'
+ht-degree: 4%
 
 ---
 
@@ -47,53 +49,53 @@ Para asignar **Propiedad** y **Empresa** , siga los pasos a continuación:
 
 1. Acceda a la **[!DNL Admin Console]**.
 
-1. En el **[!UICONTROL Products]** , seleccione **[!UICONTROL Adobe Experience Platform Launch]** tarjeta.
+1. En el **[!UICONTROL Productos]** , seleccione **[!UICONTROL Adobe Experience Platform Launch]** tarjeta.
 
    ![](assets/push_product_1.png)
 
-1. Seleccione una **[!UICONTROL Product Profile]** o cree uno nuevo con la variable **[!UICONTROL New profile]** botón. Obtenga información sobre cómo crear una nueva **[!UICONTROL New profile]** en el [Documentación de Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target=&quot;_blank&quot;}.
+1. Seleccione una **[!UICONTROL Perfil del producto]** o cree uno nuevo con la variable **[!UICONTROL Nuevo perfil]** botón. Obtenga información sobre cómo crear una nueva **[!UICONTROL Nuevo perfil]** en el [Documentación de Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target=&quot;_blank&quot;}.
 
-1. En la pestaña **[!UICONTROL Permissions]**, seleccione **[!UICONTROL Property rights]**.
+1. En el **[!UICONTROL Permisos]** , seleccione **[!UICONTROL Derechos de propiedad]**.
 
    ![](assets/push_product_2.png)
 
-1. Haga clic en **[!UICONTROL Add all]**. Esto agregará lo siguiente al perfil de su producto:
-   * **[!UICONTROL Approve]**
-   * **[!UICONTROL Develop]**
-   * **[!UICONTROL Manage Environments]**
-   * **[!UICONTROL Manage Extensions]**
-   * **[!UICONTROL Publish]**
+1. Haga clic en **[!UICONTROL Agregar todo]**. Esto agregará lo siguiente al perfil de su producto:
+   * **[!UICONTROL Aprobar]**
+   * **[!UICONTROL Desarrollo]**
+   * **[!UICONTROL Administrar entornos]**
+   * **[!UICONTROL Administrar extensiones]**
+   * **[!UICONTROL Publicar]**
 
    Estos permisos son necesarios para instalar y publicar la extensión de Adobe Journey Optimizer y publicar la propiedad de la aplicación en el SDK de Adobe Experience Platform Mobile.
 
-1. A continuación, seleccione **[!UICONTROL Company rights]** en el menú de la izquierda.
+1. A continuación, seleccione **[!UICONTROL Derechos de compañía]** en el menú de la izquierda.
 
    ![](assets/push_product_4.png)
 
 1. Añada los siguientes derechos:
 
-   * **[!UICONTROL Manage App Configurations]**
-   * **[!UICONTROL Manage Properties]**
+   * **[!UICONTROL Administrar configuraciones de aplicación]**
+   * **[!UICONTROL Administrar propiedades]**
 
    Estos permisos son necesarios para que el desarrollador de aplicaciones móviles configure credenciales push en **Adobe Experience Launch** y defina las superficies del canal de notificaciones push (es decir, los ajustes preestablecidos de mensajes) en **Adobe Journey Optimizer**.
 
    ![](assets/push_product_5.png)
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
-Para asignar **[!UICONTROL Product profile]** para los usuarios, siga los pasos a continuación:
+Para asignar **[!UICONTROL Perfil del producto]** para los usuarios, siga los pasos a continuación:
 
 1. Acceda a la **[!DNL Admin Console]**.
 
-1. En el **[!UICONTROL Products]** , seleccione **[!UICONTROL Adobe Experience Platform Launch]** tarjeta.
+1. En el **[!UICONTROL Productos]** , seleccione **[!UICONTROL Adobe Experience Platform Launch]** tarjeta.
 
-1. Seleccione el **[!UICONTROL Product profile]** configurado anteriormente.
+1. Seleccione el **[!UICONTROL Perfil del producto]**.
 
-1. En la pestaña **[!UICONTROL Users]**, haga clic en **[!UICONTROL Add user]**.
+1. En el **[!UICONTROL Usuarios]** , haga clic en **[!UICONTROL Agregar usuario]**.
 
    ![](assets/push_product_6.png)
 
-1. Escriba el nombre o la dirección de correo electrónico del usuario y seleccione el usuario. A continuación, haga clic en **[!UICONTROL Save]**.
+1. Escriba el nombre o la dirección de correo electrónico del usuario y seleccione el usuario. A continuación, haga clic en **[!UICONTROL Guardar]**.
 
    >[!NOTE]
    >
@@ -123,23 +125,23 @@ Después de conceder los permisos de usuario correctos, debe agregar las credenc
 
 El registro de credenciales push de la aplicación móvil es necesario para autorizar al Adobe a enviar notificaciones push en su nombre. Consulte los pasos detallados a continuación:
 
-1. De [!DNL Adobe Experience Platform Data Collection], seleccione **[!UICONTROL App Surfaces]** en el panel izquierdo.
+1. De [!DNL Adobe Experience Platform Data Collection], seleccione **[!UICONTROL Superficies de la aplicación]** en el panel izquierdo.
 
-1. Haga clic en **[!UICONTROL Create App Surface]** para crear una configuración nueva.
+1. Haga clic en **[!UICONTROL Crear superficie de aplicación]** para crear una configuración nueva.
 
    ![](assets/add-app-config.png)
 
-1. Escriba un **[!UICONTROL Name]** para la configuración.
+1. Escriba un **[!UICONTROL Nombre]** para la configuración.
 
-1. De **[!UICONTROL Mobile Application Configuration]**, seleccione Sistema operativo:
+1. De **[!UICONTROL Configuración de aplicaciones móviles]**, seleccione Sistema operativo:
 
    * **Para iOS**
 
       ![](assets/add-app-config-ios.png)
 
-      1. Introduzca la aplicación móvil **Id De Paquete** en el **[!UICONTROL App ID (iOS Bundle ID)]** campo . El ID del paquete de la aplicación se puede encontrar en la variable **General** de la segmentación principal en **XCode**.
+      1. Introduzca la aplicación móvil **Id De Paquete** en el **[!UICONTROL ID de aplicación (iOS Bundle ID)]** campo . El ID del paquete de la aplicación se puede encontrar en la variable **General** de la segmentación principal en **XCode**.
 
-      1. Se ha activado la función **[!UICONTROL Push Credentials]** para añadir las credenciales.
+      1. Se ha activado la función **[!UICONTROL Credenciales push]** para añadir las credenciales.
 
       1. Arrastre y suelte el archivo .p8 Apple Push Notification Authentication Key. Esta clave se puede adquirir desde la **Certificados**, **Identificadores** y **Perfiles** página.
 
@@ -150,15 +152,15 @@ El registro de credenciales push de la aplicación móvil es necesario para auto
 
       ![](assets/add-app-config-android.png)
 
-      1. Proporcione la variable **[!UICONTROL App ID (Android package name)]**: normalmente, el nombre del paquete es el id de la aplicación en su `build.gradle` archivo.
+      1. Proporcione la variable **[!UICONTROL ID de la aplicación (nombre del paquete de Android)]**: normalmente, el nombre del paquete es el id de la aplicación en su `build.gradle` archivo.
 
-      1. Se ha activado la función **[!UICONTROL Push Credentials]** para añadir las credenciales.
+      1. Se ha activado la función **[!UICONTROL Credenciales push]** para añadir las credenciales.
 
       1. Arrastre y suelte las credenciales push de FCM. Para obtener más información sobre cómo obtener las credenciales push, consulte [Documentación de Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target=&quot;_blank&quot;}.
 
 
 
-1. Haga clic en **[!UICONTROL Save]** para crear la configuración de la aplicación.
+1. Haga clic en **[!UICONTROL Guardar]** para crear la configuración de la aplicación.
 
 <!--
 ## Step 2: Set up a mobile property in Adobe Experience Platform Launch {#launch-property}
@@ -261,45 +263,45 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 Para que este recorrido funcione, debe crear un esquema XDM. Para obtener más información, consulte [Documentación XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target=&quot;_blank&quot;}.
 
-1. En el menú de la izquierda, vaya a **[!UICONTROL Schemas]**.
+1. En el menú de la izquierda, vaya a **[!UICONTROL Esquemas]**.
 
-1. Haga clic en **[!UICONTROL Create schema]** a continuación, seleccione **[!UICONTROL XDM ExperienceEvent]**.
+1. Haga clic en **[!UICONTROL Crear esquema]** a continuación, seleccione **[!UICONTROL XDM ExperienceEvent]**.
 
    ![](assets/test_push_2.png)
 
-1. Seleccione **[!UICONTROL Create a new field group]**.
+1. Select **[!UICONTROL Crear un nuevo grupo de campos]**.
 
-1. Escriba un **[!UICONTROL Display Name]** y **[!UICONTROL Description]**. Haga clic en **[!UICONTROL Add field groups]** cuando termine. Para obtener más información sobre cómo crear grupos de campos, consulte [Documentación del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es){target=&quot;_blank&quot;}.
+1. Escriba un **[!UICONTROL Nombre para mostrar]** y **[!UICONTROL Descripción]**. Haga clic en **[!UICONTROL Agregar grupos de campos]** cuando haya terminado. Para obtener más información sobre cómo crear grupos de campos, consulte [Documentación del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es){target=&quot;_blank&quot;}.
 
 
    ![](assets/test_push_4.png)
 
-1. En el lado izquierdo, seleccione el esquema . En el panel derecho, introduzca el nombre del esquema y la descripción. Active este esquema para **[!UICONTROL Profile]**.
+1. En el lado izquierdo, seleccione el esquema . En el panel derecho, introduzca el nombre del esquema y la descripción. Active este esquema para **[!UICONTROL Perfil]**.
 
    ![](assets/test_push_4b.png)
 
 
-1. En el lado izquierdo, seleccione el grupo de campos y, a continuación, haga clic en el icono + para crear un nuevo campo. En el **[!UICONTROL Field groups properties]**, en el lado derecho, escriba un **[!UICONTROL Field name]**, **[!UICONTROL Display name]** y seleccione **[!UICONTROL String]** como **[!UICONTROL Type]**.
+1. En el lado izquierdo, seleccione el grupo de campos y, a continuación, haga clic en el icono + para crear un nuevo campo. En el **[!UICONTROL Propiedades de los grupos de campos]**, en el lado derecho, escriba un **[!UICONTROL Nombre del campo]**, **[!UICONTROL Nombre para mostrar]** y seleccione **[!UICONTROL Cadena]** como **[!UICONTROL Tipo]**.
 
    ![](assets/test_push_5.png)
 
-1. Marque **[!UICONTROL Required]** y haga clic en **[!UICONTROL Apply]**.
+1. Marque **[!UICONTROL Requerido]** y haga clic en **[!UICONTROL Aplicar]**.
 
-1. Haga clic en **[!UICONTROL Save]**. El esquema se ha creado y se puede utilizar en un evento.
+1. Haga clic en **[!UICONTROL Guardar]**. El esquema se ha creado y se puede utilizar en un evento.
 
 A continuación, debe configurar un evento.
 
-1. En el menú de la izquierda de la página principal, en ADMINISTRACIÓN, seleccione **[!UICONTROL Configurations]**. El clic **[!UICONTROL Manage]** en el **[!UICONTROL Events]** para crear el nuevo evento.
+1. En el menú de la izquierda de la página principal, en ADMINISTRACIÓN, seleccione **[!UICONTROL Configuraciones]**. El clic **[!UICONTROL Administrar]** en el **[!UICONTROL Eventos]** para crear el nuevo evento.
 
-1. Haga clic en **[!UICONTROL Create Event]**, el panel de configuración de eventos se abre en el lado derecho de la pantalla.
+1. Haga clic en **[!UICONTROL Crear evento]**, el panel de configuración de eventos se abre en el lado derecho de la pantalla.
 
    ![](assets/test_push_6.png)
 
 1. Introduzca el nombre del evento. También puede agregar una descripción.
 
-1. En el campo **[!UICONTROL Event ID type]**, seleccione **[!UICONTROL Rule Based]**.
+1. En el **[!UICONTROL Tipo de ID de evento]** campo, seleccione **[!UICONTROL Basado en reglas]**.
 
-1. En el **[!UICONTROL Parameters]**, seleccione el esquema creado anteriormente.
+1. En el **[!UICONTROL Parámetros]**, seleccione el esquema creado anteriormente.
 
    ![](assets/test_push_7.png)
 
@@ -307,7 +309,7 @@ A continuación, debe configurar un evento.
 
    ![](assets/test_push_7b.png)
 
-1. Haga clic en **[!UICONTROL Edit]** en el **[!UICONTROL Event ID condition]** campo . Arrastre y suelte el campo añadido anteriormente para definir la condición que utilizará el sistema para identificar los eventos que causan déclencheur en el recorrido.
+1. Haga clic en **[!UICONTROL Editar]** en el **[!UICONTROL Condición de ID de evento]** campo . Arrastre y suelte el campo añadido anteriormente para definir la condición que utilizará el sistema para identificar los eventos que causan déclencheur en el recorrido.
 
    ![](assets/test_push_8.png)
 
@@ -315,35 +317,35 @@ A continuación, debe configurar un evento.
 
    ![](assets/test_push_9.png)
 
-1. Select **[!UICONTROL ECID]** como su **[!UICONTROL Namespace]**.
+1. Select **[!UICONTROL ECID]** como su **[!UICONTROL Área de nombres]**.
 
-1. Haga clic en **[!UICONTROL Ok]** y luego en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Ok]** then **[!UICONTROL Guardar]**.
 
 El evento se ha creado y ahora se puede utilizar en un recorrido.
 
-1. En el menú de la izquierda, haga clic en **[!UICONTROL Journeys]**.
+1. En el menú de la izquierda, haga clic en **[!UICONTROL Recorridos]**.
 
-1. Haga clic en **[!UICONTROL Create Journey]** para crear un nuevo recorrido.
+1. Haga clic en **[!UICONTROL Crear Recorrido]** para crear un nuevo recorrido.
 
 1. Edite las propiedades del recorrido en el panel de configuración que se muestra en el lado derecho. Obtenga más información en esta [sección](../building-journeys/journey-gs.md#change-properties).
 
-1. Comience por arrastrar y soltar el evento creado en los pasos anteriores desde el **[!UICONTROL Events]** lista desplegable.
+1. Comience por arrastrar y soltar el evento creado en los pasos anteriores desde el **[!UICONTROL Eventos]** lista desplegable.
 
    ![](assets/test_push_11.png)
 
-1. En el **[!UICONTROL Actions]** desplegable, arrastre y suelte una **[!UICONTROL Push]** a su recorrido.
+1. En el **[!UICONTROL Acciones]** desplegable, arrastre y suelte una **[!UICONTROL Push]** a su recorrido.
 
 1. Configure la notificación push. Para obtener más información sobre cómo crear notificaciones push, consulte esta [página](../messages/get-started-content.md).
 
-1. Haga clic en el **[!UICONTROL Test]** alterne para iniciar la prueba de las notificaciones push y haga clic en **[!UICONTROL Trigger an event]**.
+1. Haga clic en el **[!UICONTROL Prueba]** alterne para iniciar la prueba de las notificaciones push y haga clic en **[!UICONTROL Déclencheur de un evento]**.
 
    ![](assets/test_push_12.png)
 
-1. Introduzca su ECID en la **[!UICONTROL Key]** campo y escriba **confirmación del pedido** en el segundo campo.
+1. Introduzca su ECID en la **[!UICONTROL Clave]** campo y escriba **confirmación del pedido** en el segundo campo.
 
    ![](assets/test_push_13.png)
 
-1. Haga clic en **[!UICONTROL Send]**.
+1. Haga clic en **[!UICONTROL Enviar]**.
 
 El evento se activará y recibirá la notificación push en la aplicación móvil.
 

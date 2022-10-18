@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Panel de uso de licencias
 description: Obtenga información sobre el panel de uso de licencias de Journey Optimizer
 feature: Overview
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 12%
+source-wordcount: '128'
+ht-degree: 11%
 
 ---
 
@@ -17,7 +19,7 @@ ht-degree: 12%
 
 La variable [!DNL Adobe Journey Optimizer] [interfaz de usuario](../start/user-interface.md) proporciona un tablero que muestra información importante sobre el uso de licencias de su organización, según se captura durante una instantánea diaria.
 
-Para acceder a este tablero, vaya a **[!UICONTROL Administration]** > **[!UICONTROL License Usage]**. Esto abre el **[!UICONTROL Overview]** que muestra el tablero.
+Para acceder a este tablero, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Uso de licencias]**. Esto abre el **[!UICONTROL Información general]** que muestra el tablero.
 
 ![](assets/license-usage-dashboard.png)
 

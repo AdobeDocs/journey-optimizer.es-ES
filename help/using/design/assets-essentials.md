@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Uso de Assets Essentials en Journey Optimizer
 description: Introducción a Assets Essentials
 feature: Overview
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 3%
+source-wordcount: '477'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +25,7 @@ Combinación de flujos de trabajo creativos y de marketing mediante [!DNL Adobe 
 
 Obtenga más información en [Documentación de Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
 
-[!DNL Adobe Experience Manager Assets Essentials] se puede acceder directamente desde [!DNL Adobe Journey Optimizer] a través del menú de la izquierda **[!UICONTROL Assets]** para obtener más información. También puede acceder a recursos y carpetas cuando [diseño del contenido de un correo electrónico](design-emails.md).
+[!DNL Adobe Experience Manager Assets Essentials] se puede acceder directamente desde [!DNL Adobe Journey Optimizer] a través del menú de la izquierda **[!UICONTROL Recursos]** para obtener más información. También puede acceder a recursos y carpetas cuando [diseño del contenido de un correo electrónico](design-emails.md).
 
 ## Requisitos previos{#assets-prerequisites}
 
@@ -38,25 +40,25 @@ Para importar archivos a [!DNL Assets Essentials], primero debe examinar o crear
 
 Para obtener más información sobre cómo cargar recursos, consulte [Documentación de Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target=&quot;_blank&quot;}.
 
-1. De [!DNL Adobe Journey Optimizer] página de inicio, seleccione **[!UICONTROL Assets]** en la pestaña **[!UICONTROL Content management]** para acceder a [!DNL Assets Essentials].
+1. De [!DNL Adobe Journey Optimizer] página de inicio, seleccione **[!UICONTROL Recursos]** en la pestaña **[!UICONTROL Gestión de contenido]** para acceder a [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
 
 1. Haga doble clic en una carpeta de la sección central o de la vista de árbol para abrirla.
 
-   También puede hacer clic en **[!UICONTROL Create folder]** para crear una carpeta nueva.
+   También puede hacer clic en **[!UICONTROL Crear carpeta]** para crear una carpeta nueva.
 
    ![](assets/media_library_8.png)
 
-1. Una vez en la carpeta seleccionada o creada, haga clic en **[!UICONTROL Add Assets]** para cargar el nuevo recurso en la carpeta.
+1. Una vez en la carpeta seleccionada o creada, haga clic en **[!UICONTROL Agregar recursos]** para cargar el nuevo recurso en la carpeta.
 
    ![](assets/media_library_2.png)
 
-1. En el **[!UICONTROL Upload files]**, haga clic en **[!UICONTROL Browse]** y elija si desea **[!UICONTROL Browse files]** o **[!UICONTROL Browse folders]**.
+1. En el **[!UICONTROL Cargar archivos]**, haga clic en **[!UICONTROL Examinar]** y elija si desea **[!UICONTROL Examinar archivos]** o **[!UICONTROL Examinar carpetas]**.
 
    ![](assets/media_library_3.png)
 
-1. Seleccione el archivo que desea cargar. Cuando termine, haga clic en **[!UICONTROL Upload]**.
+1. Seleccione el archivo que desea cargar. Cuando termine, haga clic en **[!UICONTROL Cargar]**.
 
    Para obtener más información sobre cómo administrar los recursos, consulte esta [página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
@@ -66,7 +68,7 @@ Para obtener más información sobre cómo cargar recursos, consulte [Documentac
 
    ![](assets/media_library_12.png)
 
-1. De [!DNL Adobe Journey Optimizer], seleccione **[!UICONTROL Asset picker]** del panel izquierdo del diseñador de correo electrónico.
+1. De [!DNL Adobe Journey Optimizer], seleccione **[!UICONTROL Selector de recursos]** del panel izquierdo del diseñador de correo electrónico.
 
    ![](assets/media_library_5.png)
 
@@ -83,7 +85,7 @@ Para obtener más información sobre cómo cargar recursos, consulte [Documentac
     ![](assets/media_library_14.png)
 -->
 
-1. Puede personalizar aún más los recursos, como agregar un vínculo externo o un texto con la variable **[!UICONTROL Components settings]**. [Obtenga más información sobre la configuración de componentes](content-components.md)
+1. Puede personalizar aún más los recursos, como agregar un vínculo externo o un texto con la variable **[!UICONTROL Configuración de componentes]**. [Obtenga más información sobre la configuración de componentes](content-components.md)
 
    ![](assets/media_library_13.png)
 

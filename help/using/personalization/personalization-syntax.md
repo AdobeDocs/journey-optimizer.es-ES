@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Sintaxis de personalización
 description: Aprenda a utilizar la sintaxis de personalización.
 feature: Personalization
@@ -6,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 7476c50f82c0fdd63f282b3ee2dc3756862f598c
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 9%
@@ -24,7 +26,7 @@ Ejemplo de expresión simple:
 
 `{{profile.person.name}}`
 
-dónde:
+donde:
 
 * `profile` es un área de nombres.
 * `person.name` es un token compuesto por atributos. La estructura de atributos se define en un esquema Adobe Experience Platform XDM. [Más información](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target=&quot;_blank&quot;}.
@@ -89,7 +91,7 @@ Esta ruta tiene la siguiente estructura:
 
 `offers.Type.[Placement Id].[Activity Id].Attribute`
 
-dónde:
+donde:
 
 * `offers` identifica la expresión de ruta que pertenece al espacio de nombres de la oferta
 * `Type`  determina el tipo de representación de la oferta. Los valores posibles son: `image`, `html` y `text`

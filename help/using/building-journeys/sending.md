@@ -1,10 +1,12 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Inicio de la ejecución del recorrido
 description: Obtenga información sobre cómo iniciar el recorrido y enviar mensajes
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 9%
+source-wordcount: '292'
+ht-degree: 7%
 
 ---
 
@@ -40,25 +42,25 @@ Una vez enviado un mensaje, puede monitorizar su ejecución a través de varios 
 
 ## Programar mensajes {#schedule-messages}
 
-Los mensajes se pueden programar mediante el **[!UICONTROL Read Segment]** actividad en un [recorrido](journey.md). Puede especificar cuándo ingresará el segmento al recorrido. [Descubra más información sobre la actividad Leer segmento](read-segment.md).
+Los mensajes se pueden programar mediante el **[!UICONTROL Leer segmento]** actividad en un [recorrido](journey.md). Puede especificar cuándo ingresará el segmento al recorrido. [Descubra más información sobre la actividad Leer segmento](read-segment.md).
 
 Para realizar esto, siga los pasos a continuación:
 
-1. Editar un recorrido, arrastrar y soltar un **[!UICONTROL Read Segment]** y comience a configurarla. [Descubra más información sobre la configuración de la actividad Leer segmento](read-segment.md#configuring-segment-trigger-activity).
+1. Editar un recorrido, arrastrar y soltar un **[!UICONTROL Leer segmento]** y comience a configurarla. [Descubra más información sobre la configuración de la actividad Leer segmento](read-segment.md#configuring-segment-trigger-activity).
 
-1. Haga clic en el **[!UICONTROL Edit journey schedule]** para acceder a las propiedades del recorrido.
+1. Haga clic en el **[!UICONTROL Editar programación de recorrido]** para acceder a las propiedades del recorrido.
 
    ![](assets/message-read-segment-schedule.png)
 
-1. Configure las variables **[!UICONTROL Scheduler type]** campo: seleccione el valor que desee en la lista para que el segmento introduzca el recorrido en una fecha u hora específica o de forma recurrente.
+1. Configure las variables **[!UICONTROL Tipo de planificador]** campo: seleccione el valor que desee en la lista para que el segmento introduzca el recorrido en una fecha u hora específica o de forma recurrente.
 
    >[!NOTE]
    >
-   >La variable **[!UICONTROL Schedule]** solo está disponible cuando **[!UICONTROL Read Segment]** se ha colocado la actividad en el lienzo.
+   >La variable **[!UICONTROL Programación]** solo está disponible cuando **[!UICONTROL Leer segmento]** se ha colocado la actividad en el lienzo.
 
    ![](assets/message-read-segment-scheduler.png)
 
-1. Si selecciona **[!UICONTROL Once]**, defina una fecha y hora específicas en las que el segmento ingresará al recorrido.
+1. Si selecciona **[!UICONTROL Una vez]**, defina una fecha y hora específicas en las que el segmento ingresará al recorrido.
 
    ![](assets/message-read-segment-scheduler-once.png)
 
@@ -68,7 +70,7 @@ Para realizar esto, siga los pasos a continuación:
 
    >[!NOTE]
    >
-   >De forma predeterminada, los segmentos entran en el recorrido **[!UICONTROL As soon as possible]**, es decir, 1 hora después de publicar el recorrido.
+   >De forma predeterminada, los segmentos entran en el recorrido **[!UICONTROL Lo antes posible]**, es decir, 1 hora después de publicar el recorrido.
 
 1. Haga clic en **[!UICONTROL OK]** para guardar los cambios.
 

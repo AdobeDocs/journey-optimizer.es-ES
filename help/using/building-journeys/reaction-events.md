@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Eventos de reacción
 description: Más información sobre los eventos de reacción
 feature: Journeys
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 3%
+source-wordcount: '370'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 3%
 >title="Eventos de reacción"
 >abstract="Esta actividad le permite reaccionar ante el seguimiento de datos relacionados con un mensaje enviado dentro del mismo recorrido. Capturamos esta información en tiempo real en el momento en que se comparte con Adobe Experience Platform."
 
-Entre las distintas actividades de evento disponibles en la paleta, se encuentra el complemento **[!UICONTROL Reactions]** evento. Esta actividad le permite reaccionar ante el seguimiento de datos relacionados con un mensaje enviado dentro del mismo recorrido. Capturamos esta información en tiempo real en el momento en que se comparte con Adobe Experience Platform.
+Entre las distintas actividades de evento disponibles en la paleta, se encuentra el complemento **[!UICONTROL Reacciones]** evento. Esta actividad le permite reaccionar ante el seguimiento de datos relacionados con un mensaje enviado dentro del mismo recorrido. Capturamos esta información en tiempo real en el momento en que se comparte con Adobe Experience Platform.
 
 Puede reaccionar a los mensajes en los que se ha hecho clic o que se han abierto.
 
@@ -34,10 +36,10 @@ Consulte [Acerca de las actividades de acción](../building-journeys/about-journ
 
 Estos son los diferentes pasos para configurar los eventos de reacción:
 
-1. Agregue un **[!UICONTROL Label]** a la reacción. Este paso es opcional.
+1. Agregue un **[!UICONTROL Etiqueta]** a la reacción. Este paso es opcional.
 1. En la lista desplegable, seleccione la actividad de acción a la que desee reaccionar. Puede seleccionar cualquier actividad de acción posicionada en los pasos anteriores de la ruta.
 1. En función de la acción seleccionada, elija a lo que desee reaccionar.
-1. Puede definir un tiempo de espera de evento (entre 40 segundos y 30 días) y una ruta de tiempo de espera. Esto creará una segunda ruta para las personas que no reaccionaron dentro de la duración definida. Al probar un recorrido que utiliza un evento de reacción, el modo de prueba **[!UICONTROL Wait time]** el valor predeterminado y mínimo es de 40 segundos. Consulte [esta sección](../building-journeys/testing-the-journey.md).
+1. Puede definir un tiempo de espera de evento (entre 40 segundos y 30 días) y una ruta de tiempo de espera. Esto creará una segunda ruta para las personas que no reaccionaron dentro de la duración definida. Al probar un recorrido que utiliza un evento de reacción, el modo de prueba **[!UICONTROL Tiempo de espera]** el valor predeterminado y mínimo es de 40 segundos. Consulte [esta sección](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >

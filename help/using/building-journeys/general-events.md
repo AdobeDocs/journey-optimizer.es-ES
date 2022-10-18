@@ -1,5 +1,6 @@
 ---
 solution: Journey Optimizer
+product: journey optimizer
 title: Eventos generales
 description: Aprenda a utilizar eventos generales
 feature: Journeys
@@ -7,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '437'
 ht-degree: 2%
 
 ---
@@ -37,11 +38,11 @@ El recorrido escuchará el evento durante el tiempo especificado en el tiempo de
 
 Para configurar un tiempo de espera para un evento, siga estos pasos:
 
-1. Active la variable **[!UICONTROL Define the event timeout]** de las propiedades del evento.
+1. Active la variable **[!UICONTROL Definir el tiempo de espera del evento]** de las propiedades del evento.
 
 1. Especifique la cantidad de tiempo que el recorrido esperará al evento.
 
-1. Si desea enviar a las personas a una ruta de tiempo de espera cuando no se reciba ningún evento dentro del tiempo de espera especificado, habilite la variable **[!UICONTROL Set a timeout path]** . Si esta opción no está activada, el recorrido finalizará para el individuo una vez que se alcance el tiempo de espera.
+1. Si desea enviar a las personas a una ruta de tiempo de espera cuando no se reciba ningún evento dentro del tiempo de espera especificado, habilite la variable **[!UICONTROL Establecer una ruta de tiempo de espera]** . Si esta opción no está activada, el recorrido finalizará para el individuo una vez que se alcance el tiempo de espera.
 
    ![](assets/event-timeout.png)
 
@@ -50,8 +51,8 @@ En este ejemplo, el recorrido envía una primera notificación push de bienvenid
 * Si el evento del restaurante se recibe menos de 1 día después de la notificación push de bienvenida, se envía la actividad push de descuento por comida.
 * Si no se recibe ningún evento de restaurante en el día siguiente, la persona pasa por la ruta de tiempo de espera.
 
-Tenga en cuenta que si desea configurar un tiempo de espera en varios eventos posicionados después de una **[!UICONTROL Wait]** , debe configurar el tiempo de espera solo en uno de estos eventos.
+Tenga en cuenta que si desea configurar un tiempo de espera en varios eventos posicionados después de una **[!UICONTROL Espera]** , debe configurar el tiempo de espera solo en uno de estos eventos.
 
-El tiempo de espera se aplicará a todos los eventos posicionados después del **[!UICONTROL Wait]** actividad. Si no se recibe ningún evento antes del tiempo de espera especificado, las personas fluirán en una única ruta de tiempo de espera o finalizarán su recorrido.
+El tiempo de espera se aplicará a todos los eventos posicionados después del **[!UICONTROL Espera]** actividad. Si no se recibe ningún evento antes del tiempo de espera especificado, las personas fluirán en una única ruta de tiempo de espera o finalizarán su recorrido.
 
 ![](assets/event-timeout-group.png)

@@ -1,15 +1,16 @@
 ---
-product: adobe campaign
+solution: Journey Optimizer
+product: journey optimizer
 title: Referencias de campo
 description: Obtenga información sobre referencias de campo en expresiones avanzadas
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
-source-git-commit: 408e224eeac09baafb0d91a15c44eadf885a62c3
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -41,7 +42,7 @@ Se utiliza un color de sintaxis para distinguir visualmente los campos de evento
 
 ## Valores predeterminados para referencias de campo {#default-value}
 
-Se puede asociar un valor predeterminado con un nombre de campo. La sintaxis es la siguiente:
+Se puede asociar un valor predeterminado con un nombre de campo. La sintaxis de la es la siguiente:
 
 ```json
 // event field

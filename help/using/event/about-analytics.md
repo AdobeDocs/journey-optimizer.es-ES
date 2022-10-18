@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Acerca de los datos de Adobe Analytics
 description: Aprenda a aprovechar los datos de Adobe Analytics
 feature: Events
@@ -6,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '195'
 ht-degree: 8%
 
 ---
@@ -23,9 +25,9 @@ Puede aprovechar todos los datos de evento de comportamiento de Adobe Analytics 
 
 Para que esto funcione, debe activar en Adobe Experience Platform el grupo de informes que desea aprovechar:
 
-1. En Adobe Experience Platform, seleccione **[!UICONTROL Sources]** then **[!UICONTROL Add data]** en la sección Adobe Analytics . Se muestra la lista de los grupos de informes de Adobe Analytics disponibles.
+1. En Adobe Experience Platform, seleccione **[!UICONTROL Fuentes]** then **[!UICONTROL Añadir datos]** en la sección Adobe Analytics . Se muestra la lista de los grupos de informes de Adobe Analytics disponibles.
 
-1. Elija el grupo de informes que desea habilitar y haga clic en **[!UICONTROL Next]** y haga clic en **[!UICONTROL Finish]**.
+1. Elija el grupo de informes que desea habilitar y haga clic en **[!UICONTROL Siguiente]** y haga clic en **[!UICONTROL Finalizar]**.
 
 1. Comparta el ID de datos de origen con el punto de contacto del programa Beta.
 

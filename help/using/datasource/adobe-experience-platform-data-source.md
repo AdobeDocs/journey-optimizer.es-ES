@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Fuente de datos de Adobe Experience Platform
 description: Obtenga información sobre cómo configurar la fuente de datos de Adobe Experience Platform
 feature: Data Sources
@@ -6,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '430'
 ht-degree: 10%
 
 ---
@@ -38,12 +40,12 @@ Estos son los pasos principales para agregar grupos de campos al origen de datos
 
    ![](assets/journey23.png)
 
-1. Haga clic en **[!UICONTROL Add a New Field Group]** para definir una nueva serie de campos que se recuperarán. Consulte [esta página](../datasource/configure-data-sources.md#define-field-groups).
+1. Haga clic en **[!UICONTROL Agregar un nuevo grupo de campos]** para definir una nueva serie de campos que se recuperarán. Consulte [esta página](../datasource/configure-data-sources.md#define-field-groups).
 
    ![](assets/journey24.png)
 
-1. Seleccione un esquema del **[!UICONTROL Schema]** lista desplegable. Este campo enumera los esquemas de perfil y eventos de experiencia disponibles en Adobe Experience Platform. La creación del esquema no se realiza en [!DNL Journey Optimizer]. Se realiza en Adobe Experience Platform.
+1. Seleccione un esquema del **[!UICONTROL Esquema]** lista desplegable. Este campo enumera los esquemas de perfil y eventos de experiencia disponibles en Adobe Experience Platform. La creación del esquema no se realiza en [!DNL Journey Optimizer]. Se realiza en Adobe Experience Platform.
 1. Seleccione los campos que desee utilizar.
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
-Cuando coloque el cursor en el nombre de un grupo de campos, verá dos iconos a la derecha. Permiten eliminar y duplicar el grupo de campos. Tenga en cuenta que **[!UICONTROL Delete]** solo está disponible si el grupo de campos no se utiliza en ningún recorrido activo o borrador (la información se muestra en la **[!UICONTROL Used in]** ).
+Cuando coloque el cursor en el nombre de un grupo de campos, verá dos iconos a la derecha. Permiten eliminar y duplicar el grupo de campos. Tenga en cuenta que **[!UICONTROL Eliminar]** solo está disponible si el grupo de campos no se utiliza en ningún recorrido activo o borrador (la información se muestra en la **[!UICONTROL Se usa en]** ).

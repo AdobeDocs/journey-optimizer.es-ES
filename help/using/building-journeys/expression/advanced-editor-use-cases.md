@@ -1,12 +1,13 @@
 ---
-product: adobe campaign
+solution: Journey Optimizer
+product: journey optimizer
 title: Uso del editor de expresiones avanzadas
 description: Aprenda a crear expresiones avanzadas
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 3%

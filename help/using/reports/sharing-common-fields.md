@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: campos comunes de los eventos de los recorridos
 description: campos comunes de los eventos de los recorridos
 feature: Reporting
@@ -6,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 9%
@@ -86,7 +88,7 @@ Estado del paso, que representa el estado del paso, cuándo se ha completado su 
 
 Tipo: cadena
 
-El estado puede ser:
+El estado puede ser el siguiente:
 
 * finalizado: el paso no tiene transición y su procesamiento ha finalizado correctamente.
 * error: el procesamiento de pasos ha generado un error.

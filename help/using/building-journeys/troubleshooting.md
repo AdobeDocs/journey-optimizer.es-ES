@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Solución de problemas del recorrido
 description: Obtenga información sobre cómo solucionar errores en recorridos
 feature: Journeys
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 81%
+source-wordcount: '1027'
+ht-degree: 74%
 
 ---
 
@@ -29,17 +31,17 @@ Por ejemplo, cuando se desconectan dos actividades, se muestra una advertencia e
 
 ![](assets/canvas-disconnected.png)
 
-Al lado del botón de alternancia **[!UICONTROL Test]** y del botón **[!UICONTROL Publish]**, se puede mostrar un signo de advertencia. Este signo de advertencia muestra los errores detectados por el sistema y evita la activación del modo de prueba o la publicación del recorrido. La mayoría de las veces, los errores detectados por el sistema están vinculados a errores visibles en las actividades, pero a veces están vinculados a otros problemas. En este caso, puede mostrarlos e intentar identificar el problema mediante la descripción del error. Si no puede identificar el problema, puede copiar los detalles y enviarlos al administrador o a la asistencia técnica. Tenga en cuenta que los errores que bloquean la prueba y los errores que bloquean la publicación son similares.
+Al lado de la variable **[!UICONTROL Prueba]** alterne y **[!UICONTROL Publicación]** , se puede mostrar un signo de advertencia. Este signo de advertencia muestra los errores detectados por el sistema y evita la activación del modo de prueba o la publicación del recorrido. La mayoría de las veces, los errores detectados por el sistema están vinculados a errores visibles en las actividades, pero a veces están vinculados a otros problemas. En este caso, puede mostrarlos e intentar identificar el problema mediante la descripción del error. Si no puede identificar el problema, puede copiar los detalles y enviarlos al administrador o a la asistencia técnica. Tenga en cuenta que los errores que bloquean la prueba y los errores que bloquean la publicación son similares.
 
 El sistema detecta dos tipos de problemas: errores y advertencias. Los errores bloquean la publicación y la activación de prueba. Las advertencias indican posibles problemas que no bloquean la activación o publicación de pruebas. Verá una descripción de la publicación y un ID de registro de la publicación del tipo ERR_XXX_XXX. Esto ayudará al soporte técnico a identificar el problema.
 
-Se pueden mostrar dos colores diferentes en el signo situado junto al botón de alternancia **[!UICONTROL Test]** y el botón **[!UICONTROL Publish]**. El signo se muestra en rojo en caso de error. Se muestra en color naranja en caso de advertencias.
+Se pueden mostrar dos colores diferentes en el signo situado junto al **[!UICONTROL Prueba]** alterne y **[!UICONTROL Publicación]** botón. El signo se muestra en rojo en caso de error. Se muestra en color naranja en caso de advertencias.
 
 ![](assets/journey75.png)
 
-Los errores y las advertencias que son globales para el recorrido aparecen primero en la lista. Los errores y las advertencias relacionados con actividades específicas se enumeran después, por orden de actividad o por su apariencia en el recorrido de izquierda a derecha. El botón **[!UICONTROL Copy details]** copia información técnica sobre el recorrido que el equipo de asistencia puede utilizar para solucionar problemas.
+Los errores y las advertencias que son globales para el recorrido aparecen primero en la lista. Los errores y las advertencias relacionados con actividades específicas se enumeran después, por orden de actividad o por su apariencia en el recorrido de izquierda a derecha. La variable **[!UICONTROL Copiar detalles]** copia información técnica sobre el recorrido que el equipo de asistencia puede utilizar para solucionar problemas.
 
-Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera para continuar es marcar la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
+Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera de continuar es marcar la casilla **[!UICONTROL Añada una ruta alternativa en caso de tiempo de espera o error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Compruebe que los eventos se envíen correctamente{#checking-that-events-are-properly-sent}
 

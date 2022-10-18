@@ -1,13 +1,15 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Niveles de permisos
 description: Obtenga información sobre permisos de alto y bajo nivel
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -19,7 +21,7 @@ ht-degree: 0%
 Cada perfil de producto está compuesto por permisos que permiten a los usuarios acceder a las diferentes funciones.
 Se pueden dividir en dos tipos:
 
-* **Permiso de alto nivel**: representa los diferentes permisos que se pueden asignar a **[!UICONTROL Product profile]** en el [!DNL Admin console], como **[!DNL Publish journeys]** y **[!DNL Manage subdomains delegation]**. Los permisos de alto nivel comprenden permisos de bajo nivel.
+* **Permiso de alto nivel**: representa los diferentes permisos que se pueden asignar a **[!UICONTROL Perfil del producto]** en el [!DNL Admin console], como **[!DNL Publish journeys]** y **[!DNL Manage subdomains delegation]**. Los permisos de alto nivel comprenden permisos de bajo nivel.
 
 * **Permiso de bajo nivel**: representa los diferentes permisos que provienen del permiso de alto nivel.
 

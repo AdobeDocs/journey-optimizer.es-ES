@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Importar el contenido del correo electrónico
 description: Obtenga información sobre cómo importar contenido de correo electrónico
 feature: Overview
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '157'
 ht-degree: 22%
 
 ---
@@ -26,7 +28,7 @@ Journey Optimizer le permite importar contenido de HTML existente para diseñar 
 
 Para importar un archivo con contenido de HTML, siga los pasos a continuación:
 
-1. En la página de inicio del Diseñador de correo electrónico, seleccione **[!UICONTROL Import HTML]**.
+1. En la página de inicio del Diseñador de correo electrónico, seleccione **[!UICONTROL Importar HTML]**.
 
    ![](assets/import-html_2.png)
 

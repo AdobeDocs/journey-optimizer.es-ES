@@ -1,15 +1,17 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Información general sobre la administración de usuarios
-description: Obtenga información sobre los permisos
+description: Obtenga información sobre cómo definir y administrar permisos
 feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 23%
+source-wordcount: '201'
+ht-degree: 21%
 
 ---
 
@@ -21,13 +23,13 @@ ht-degree: 23%
 
 Administración de usuarios en [!DNL Journey Optimizer] se basa en tres conceptos:
 
-* **[!UICONTROL Product profile]**: Conjunto de derechos unitarios que permite a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz. Consulte la [Perfiles de producto integrados](ootb-product-profiles.md) sección
+* **[!UICONTROL Perfil del producto]**: Conjunto de derechos unitarios que permite a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz. Consulte la [Perfiles de producto integrados](ootb-product-profiles.md) sección
 
-* **[!UICONTROL Permissions]**: Derechos unitarios que le permiten definir las autorizaciones asignadas a **[!UICONTROL Product profile]**. Cada permiso se recopila en funciones, por ejemplo, Recorrido u Ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Consulte la [Niveles de permisos](high-low-permissions.md) para obtener más información.
+* **[!UICONTROL Permisos]**: Derechos unitarios que le permiten definir las autorizaciones asignadas a **[!UICONTROL Perfil del producto]**. Cada permiso se recopila en funciones, por ejemplo, Recorrido u Ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Consulte la [Niveles de permisos](high-low-permissions.md) para obtener más información.
 
 * **[!UICONTROL Sandbox]**: Entornos limitados virtuales que dividen instancias en entornos virtuales independientes y aislados. Consulte la [Uso de entornos limitados](sandboxes.md)
 
-Cada concepto puede ser administrado por **[!UICONTROL Product administrators]** que tienen acceso a Admin Console. [Obtenga más información acerca de Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
+Cada concepto puede ser administrado por **[!UICONTROL Administradores de productos]** que tienen acceso a Admin Console. [Obtenga más información acerca de Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
 
 ![](assets/do-not-localize/permissions_2.png)
 

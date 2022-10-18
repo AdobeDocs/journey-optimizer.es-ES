@@ -1,14 +1,16 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Alertas
 description: Obtenga información sobre cómo administrar alertas
 feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 3d0d1b7d092ffae48ded337d5a1b14a5f5c4653b
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 

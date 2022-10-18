@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Administración de husos horarios
 description: Obtenga información sobre la administración de husos horarios
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '282'
 ht-degree: 2%
 
 ---
@@ -39,7 +41,7 @@ Puede seleccionar una zona horaria o elegir usar la zona horaria definida en el 
 
 La zona horaria también se puede corregir. Borre la zona horaria predefinida y elija una de la lista desplegable. Si utiliza una zona horaria fija, será la misma para todas las personas que entren en el recorrido.
 
-Para ello, en la sección **[!UICONTROL Journey Properties]** seleccione una zona horaria.
+Para ello, en la sección **[!UICONTROL Propiedades del recorrido]** seleccione una zona horaria.
 
 ![](assets/journey72.png)
 

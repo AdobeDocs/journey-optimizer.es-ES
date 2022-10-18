@@ -1,10 +1,12 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Definir ajustes preestablecidos de página de aterrizaje
 description: Aprenda a configurar su entorno para crear y utilizar páginas de aterrizaje con Journey Optimizer
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 5%
