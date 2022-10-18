@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 3012d5492205e99f4d6c22d4cc07ddef696e6f1f
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -311,7 +311,17 @@ Conjunto de datos para almacenar metadatos de entidad para mensajes enviados al 
 
 El esquema relacionado es AJO Entity Schema.
 
-Este conjunto de datos le permite enriquecer varios conjuntos de datos con metadatos clave fáciles de usar para los especialistas en marketing. El atributo messageID ayuda a unir varios conjuntos de datos, como conjuntos de datos de comentarios de mensajes y conjuntos de datos de seguimiento de eventos de experiencia, para obtener detalles de una entrega de mensajes, desde el envío hasta el seguimiento a nivel de perfil.
+Este conjunto de datos le permite acceder a metadatos definidos por expertos en marketing, lo que le permite obtener mejores perspectivas de informes cuando se exportan conjuntos de datos de Journey Optimizer para crear informes de visualización en herramientas externas. Esto se logra mediante el atributo messageID , que ayuda a unir varios conjuntos de datos, como conjuntos de datos de comentarios de mensajes y conjuntos de datos de seguimiento de eventos de experiencia, para obtener detalles de un envío de mensajes desde el envío al seguimiento a nivel de perfil.
+
+**Notas importantes**
+
+* Una entrada para un mensaje solo se crea después de publicar el recorrido o la campaña.
+
+* Puede ver la entrada 30 minutos después de la publicación de la campaña/recorrido.
+
+>[!NOTE]
+>
+>Por el momento, hay dos entradas para cada publicación de mensaje en el conjunto de datos de la entidad por motivos de compatibilidad futuros. Esto no afecta a su capacidad de usar consultas de unión según sea necesario en todos los conjuntos de datos para recuperar la información deseada.
 
 La siguiente consulta le ayuda a obtener la plantilla de mensaje asociada para una campaña determinada:
 
