@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
+source-git-commit: e3ae60321aac340328e1fcd7b1060192fbc7ee06
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1188'
 ht-degree: 97%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 97%
       + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
       + [Publicación del recorrido](using/building-journeys/publishing-the-journey.md)
       + [Administración de husos horarios](using/building-journeys/timezone-management.md)
-      + [Copia de un recorrido a otra zona protegida](using/building-journeys/copy-to-sandbox.md)
+      + [Copia de un recorrido en otra zona protegida](using/building-journeys/copy-to-sandbox.md)
       + [Resolución de problemas del recorrido](using/building-journeys/troubleshooting.md)
    + Actividades {#about-journey-building}
       + [Acerca de las actividades de recorrido](using/building-journeys/about-journey-activities.md)
@@ -398,6 +398,7 @@ ht-degree: 97%
             + [Reintentos](using/configuration/retries.md)
             + [Lista de permitidos](using/configuration/allow-list.md)
       + [Configuración del canal de SMS](using/configuration/sms-configuration.md)
+      + [Configuración del correo postal](using/configuration/direct-mail-configuration.md)
       + Configuración de superficies de canal {#set-up-channels}
          + [Creación de superficies de canal](using/configuration/channel-surfaces.md)
          + [Configuración de correo electrónico](using/configuration/email-settings.md)
