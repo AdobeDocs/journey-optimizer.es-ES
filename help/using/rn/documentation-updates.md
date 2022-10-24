@@ -4,10 +4,10 @@ product: journey optimizer
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
 workflow-type: tm+mt
-source-wordcount: '2005'
-ht-degree: 99%
+source-wordcount: '2054'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,9 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Octubre de 2022 {#october-2022}
 
+* Se ha añadido un caso de uso de recorrido sobre cómo limitar el rendimiento mediante Fuentes de datos externas y Acciones personalizadas. [Más información](../building-journeys/limit-throughput.md)
+* La sección de casos de uso de recorrido se ha reorganizado en dos categorías: [Casos de uso empresarial](../building-journeys/journeys-uc.md) y [Casos de uso técnico](../building-journeys/collections.md).
+* La variable **Conjunto de datos de entidad** se ha actualizado con más detalles. [Más información](../start/datasets-query-examples.md#entity-dataset)
 * La información relacionada con la administración de exclusión y las políticas de consentimiento se han reorganizado en una nueva sección. [Más información](../privacy/opt-out.md)
 
 ## Septiembre de 2022 {#september-2022}

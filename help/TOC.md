@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e3ae60321aac340328e1fcd7b1060192fbc7ee06
+source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 97%
+source-wordcount: '1203'
+ht-degree: 95%
 
 ---
 
@@ -243,11 +243,14 @@ ht-degree: 97%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Casos de uso {#journey-use-cases}
-      + [Envío de mensajes multicanal](using/building-journeys/journeys-uc.md)
-      + [Envío de un mensaje mediante Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
-      + [Paso de colecciones de forma dinámica mediante acciones personalizadas](using/building-journeys/collections.md)
-      + [Envío de un mensaje a los suscriptores](using/building-journeys/message-to-subscribers-uc.md)
-      + [Aumento de envíos](using/building-journeys/ramp-up-deliveries-uc.md)
+      + Casos de uso empresarial {#business-use-cases}
+         + [Envío de mensajes multicanal](using/building-journeys/journeys-uc.md)
+         + [Envío de un mensaje mediante Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
+         + [Envío de un mensaje a los suscriptores](using/building-journeys/message-to-subscribers-uc.md)
+      + Casos de uso técnico {#technical-use-cases}
+         + [Paso de colecciones de forma dinámica mediante acciones personalizadas](using/building-journeys/collections.md)
+         + [Aumento de envíos](using/building-journeys/ramp-up-deliveries-uc.md)
+         + [Limitar el rendimiento con fuentes de datos externas y acciones personalizadas](using/building-journeys/limit-throughput.md)
 + Seguimiento y monitorización {#reporting}
    + Informe en vivo {#live-report}
       + [Introducción al Informe en vivo](using/reports/live-report.md)
