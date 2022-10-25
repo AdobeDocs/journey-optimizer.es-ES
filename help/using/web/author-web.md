@@ -1,0 +1,178 @@
+---
+title: Creación de páginas web
+description: Obtenga información sobre cómo crear una página web y editar su contenido en Journey Optimizer
+feature: Overview
+topic: Content Management
+role: User
+level: Beginner
+hide: true
+hidefromtoc: true
+source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+workflow-type: tm+mt
+source-wordcount: '898'
+ht-degree: 3%
+
+---
+
+# Creación de páginas web {#author-web}
+
+>[!AVAILABILITY]
+>
+>Actualmente, la función de canal web está disponible en versión beta solo para usuarios seleccionados.
+
+En [!DNL Journey Optimizer] la creación web es impulsada por la extensión del explorador Adobe Experience Cloud Visual Helper chrome. [Más información](visual-editing-helper.md)
+
+Para poder acceder y crear páginas web en la variable [!DNL Journey Optimizer] interfaz de usuario, siga los requisitos previos enumerados en [esta sección](create-web.md#prerequesites).
+
+## Editar el contenido de una página web {#edit-web-content}
+
+Una vez creada una acción web a partir de la campaña, puede editar el contenido mediante el diseñador web. Para ello, siga los pasos a continuación.
+
+1. En el **[!UICONTROL Acción]** de la campaña, seleccione **[!UICONTROL Editar contenido]** para comenzar a crear la campaña web. [Más información](create-web.md#configure-web-campaign)
+
+1. Si ha creado una regla de coincidencia de páginas, debe introducir cualquier URL que coincida con esta regla. Los cambios se aplicarán a todas las páginas que coincidan con la regla.
+
+   >[!NOTE]
+   >
+   >Si ha introducido una sola dirección URL como superficie web, la dirección URL que desea personalizar ya se rellena.
+
+   ![](assets/web-edit-enter-url.png)
+
+1. Se muestra el contenido de la página.
+
+   >[!CAUTION]
+   >
+   >Para acceder, la página web debe implementarse utilizando la variable [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target=&quot;_blank&quot;}.
+
+1. Haga clic en **[!UICONTROL Abrir diseñador web]** para editarlo. [Más información](author-web.md)
+
+   ![](assets/web-open-designer.png)
+
+1. Se muestra el diseñador web.
+
+   ![](assets/web-designer.png)
+
+1. Seleccione cualquier elemento del lienzo, como imagen, botón, párrafo, texto, contenedor, encabezado, vínculo, etc. y usar:
+
+   * El menú contextual para editar su contenido, diseño, insertar vínculos o personalización, etc.
+
+      ![](assets/web-designer-contextual-bar.png)
+
+   * Los iconos de la parte superior derecha del panel para editar, duplicar, eliminar u ocultar cada elemento.
+
+      ![](assets/web-designer-right-panel-icons.png)
+
+   * Panel derecho que cambia dinámicamente según el elemento seleccionado. Por ejemplo, puede editar el fondo, la tipografía, el borde, el tamaño, la posición, el espaciado, los efectos o los estilos en línea de un elemento.
+
+      ![](assets/web-designer-right-panel.png)
+
+## Uso de componentes de contenido {#content-components}
+
+1. En el **[!UICONTROL Componentes]** a la izquierda, puede agregar los siguientes componentes a la página web y editarlos según sea necesario:
+
+   * [Divisor](../design/content-components.md#divider)
+   * [HTML](../design/content-components.md#HTML)
+   * [Imagen](../design/content-components.md#image)
+   * Encabezado : el uso de este componente es similar al uso de la variable **[!UICONTROL Texto]** en el diseñador de correo electrónico. [Más información](../design/content-components.md#text)
+   * Párrafo: el uso de este componente es similar al uso de la variable **[!UICONTROL Texto]** en el diseñador de correo electrónico. [Más información](../design/content-components.md#text)
+   * Vínculo : Aprenda a definir el estilo del vínculo en [esta sección](../design/styling-links.md)
+   * [Decisión de oferta](../design/deliver-personalized-offers.md)
+
+   ![](assets/web-designer-components.png)
+
+1. Pase el ratón por encima de la página y haga clic en la **[!UICONTROL Insertar antes]** o **[!UICONTROL Insertar después]** para anexar el componente a un elemento existente en la página.
+
+   ![](assets/web-designer-insert-components.png)
+
+1. Desde el contenedor que se muestra para este componente, edite el contenido del componente según sea necesario.
+
+   ![](assets/web-designer-edit-html.png)
+
+1. Ajuste los estilos que se muestran desde el **[!UICONTROL Contenedor]** panel de la derecha, como fondo, color de texto, borde, tamaño, posición, etc. en función del componente seleccionado.
+
+   ![](assets/web-designer-html-style.png)
+
+## Navegar por el diseñador web
+
+### Usar rutas de exploración
+
+1. Seleccione cualquier elemento del lienzo.
+
+1. Haga clic en el **[!UICONTROL Expandir/Contraer rutas de exploración]** en la parte inferior izquierda de la pantalla para mostrar rápidamente información sobre el elemento seleccionado.
+
+   ![](assets/web-designer-breadcrumbs.png)
+
+1. Cuando pasa el ratón por encima de las rutas de exploración, el elemento correspondiente se resalta en el editor.
+
+1. Con él, puede desplazarse fácilmente a cualquier elemento principal, del mismo nivel o secundario dentro del editor visual.
+
+### Cambiar al modo Examinar {#browse-mode}
+
+Puede intercambiar desde el valor predeterminado **[!UICONTROL Diseño]** para **[!UICONTROL Examinar]** usando el botón dedicado.
+
+![](assets/web-designer-browse-mode.png)
+
+En el **[!UICONTROL Examinar]** , puede desplazarse a la página exacta desde la superficie seleccionada que desee personalizar.
+
+Resulta especialmente útil cuando se trata de páginas que están detrás de la autenticación o que no están disponibles desde el principio en una determinada dirección URL. Por ejemplo, podrá autenticarse, navegar a la página de su cuenta o al carro de compras y luego volver a cambiar a **[!UICONTROL Diseño]** para realizar los cambios en la página deseada.
+
+### Cambiar el tamaño del dispositivo
+
+Puede cambiar el tamaño del dispositivo a un tamaño predefinido como **[!UICONTROL Tablet]** o **[!UICONTROL Entorno móvil]** o definir un tamaño personalizado. Introduzca el número deseado de píxeles para definir un tamaño personalizado.
+
+También puede cambiar el enfoque del zoom, de 25% a 400%.
+
+![](assets/web-designer-device.png)
+
+## Administrar modificaciones {#manage-modifications}
+
+Puede administrar fácilmente todos los componentes, ajustes y estilos agregados a la página web.
+
+1. Seleccione el **[!UICONTROL Modificaciones]** para mostrar el panel correspondiente a la izquierda.
+
+   ![](assets/web-designer-modifications-pane.png)
+
+1. Puede revisar cada uno de los cambios realizados en la página.
+
+1. Seleccione una modificación no deseada y haga clic en el icono de eliminación para eliminarla.
+
+   ![](assets/web-designer-modifications-delete.png)
+
+   >[!CAUTION]
+   >
+   >Tenga cuidado al eliminar una acción, ya que podría afectar a las acciones posteriores.
+
+1. También puede cancelar y rehacer acciones utilizando la variable **[!UICONTROL Deshacer/Rehacer]** en la parte superior derecha de la pantalla.
+
+   ![](assets/web-designer-undo-redo.png)
+
+   Haga clic y mantenga presionado el botón para cambiar entre las **[!UICONTROL Deshacer]** y **[!UICONTROL Rehacer]** opciones. A continuación, haga clic en el propio botón para aplicar la acción deseada.
+
+## Añadir personalización y ofertas
+
+Para añadir personalización, seleccione un contenedor y seleccione el icono de personalización en la barra de menús contextual que se muestra. Añada los cambios mediante el editor de expresiones. [Más información](../personalization/personalization-build-expressions.md)
+
+![](assets/web-designer-personalization.png)
+
+Utilice la variable **[!UICONTROL Decisión de oferta]** componente para insertar [ofertas](../offers/get-started/starting-offer-decisioning.md) en las páginas web. El proceso es el mismo que cuando [adición de una oferta a un correo electrónico](../design/deliver-personalized-offers.md). Aprovechará la Administración de decisiones para elegir la mejor oferta que se ofrezca a sus clientes.
+
+![](assets/web-designer-offer.png)
+
+## Prueba de la campaña web {#test-web-campaign}
+
+Para mostrar una vista previa de la experiencia web modificada, siga los pasos a continuación.
+
+>[!CAUTION]
+>
+>Debe tener perfiles de prueba disponibles para simular las ofertas que se les enviarán. Obtenga información sobre cómo [crear perfiles de prueba](../segment/creating-test-profiles.md).
+
+1. Desde **[!UICONTROL Editar contenido]** o el diseñador web, seleccione **[!UICONTROL Simular contenido]**.
+
+   ![](assets/web-designer-simulate.png)
+
+1. Haga clic en **[!UICONTROL Administrar perfiles de prueba]** para seleccionar uno o varios perfiles de prueba.
+1. Se muestra una vista previa de la página web modificada.
+
+   ![](assets/web-designer-preview.png)
+
+1. También puede copiar la dirección URL de prueba para pegarla en cualquier navegador o abrirla en el navegador predeterminado.

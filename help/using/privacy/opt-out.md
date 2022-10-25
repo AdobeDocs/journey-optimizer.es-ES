@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 93%
@@ -177,7 +177,7 @@ Una vez que el mensaje se envía a través de un [recorrido](../building-journey
 >id="ajo_admin_preset_unsubscribe"
 >title="Agregar vínculo de cancelación de suscripción al encabezado del correo electrónico"
 >abstract="Active Cancelación de suscripción a una lista para agregar un vínculo de cancelación de suscripción al encabezado del correo electrónico. Para establecer una URL de cancelación de suscripción, inserte un vínculo de no participación de un solo clic en el contenido del correo electrónico."
->additional-url="https://experienceleague.corp.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#one-click-opt-out" text="Opción de exclusión en un clic"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#one-click-opt-out" text="Opción de exclusión en un clic"
 
 Si la [opción Cancelación de suscripción a una lista](../configuration/channel-surfaces.md#list-unsubscribe) se activa en el nivel de superficie de canal, los correos electrónicos correspondientes enviados con [!DNL Journey Optimizer] incluirán un vínculo de cancelación de suscripción en el encabezado del correo electrónico.
 
