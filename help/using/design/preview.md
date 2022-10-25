@@ -11,7 +11,7 @@ exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -34,7 +34,7 @@ Para probar el contenido del mensaje, debe:
 
 Entonces podrá [enviar pruebas](#send-proofs) a los perfiles de prueba.
 
-Además, aproveche el **Litmus** account en [!DNL Journey Optimizer] para previsualizar instantáneamente su **procesamiento de correo electrónico** en clientes de correo electrónico populares. A continuación, puede asegurarse de que el contenido del correo electrónico tenga un aspecto bueno y funcione correctamente en cada bandeja de entrada. Obtenga información sobre cómo desbloquear las vistas previas de correo electrónico de Litmus en [esta sección](#email-rendering)
+Además, aproveche la cuenta **Litmus** en [!DNL Journey Optimizer] para previsualizar instantáneamente su **procesamiento de correo electrónico** en clientes de correo electrónico populares. A continuación, puede asegurarse de que el contenido del correo electrónico tenga buen aspecto y funcione correctamente en cada bandeja de entrada. Obtenga información sobre cómo desbloquear las vistas previas de correo electrónico de Litmus en [esta sección](#email-rendering)
 
 >[!CAUTION]
 >

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introducción a la composición de audiencias
+title: Introducción a Composición de audiencias
 description: Obtenga más información sobre la composición de la audiencia
 feature: Journeys
 topic: Content Management
@@ -12,11 +12,11 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# Introducción a la composición de audiencias {#get-start-audience-composition}
+# Introducción a Composición de audiencias {#get-start-audience-composition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"

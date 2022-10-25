@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gobierno de datos
-description: Gobierno de datos
+title: Control de datos
+description: Control de datos
 feature: Actions
 topic: Administration
 role: Admin
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 ---
 
-# Gobierno de datos {#restrict-fields}
+# Control de datos {#restrict-fields}
 
 
 >[!IMPORTANT]

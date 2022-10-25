@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
@@ -26,7 +26,7 @@ Uso [!DNL Journey Optimizer] para enviar mensajes de texto a sus clientes en sus
 
 >[!NOTE]
 >
->De acuerdo con las normas y regulaciones del sector, todos los mensajes de marketing SMS deben contener una forma para que los destinatarios puedan cancelar su suscripción fácilmente. Para ello, los destinatarios de SMS pueden responder con las palabras clave de inclusión y exclusión. [Obtenga información sobre cómo administrar la exclusión](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+>De acuerdo con las normas y los reglamentos del sector, todos los mensajes SMS sobre marketing deben contener una forma para que los destinatarios puedan cancelar la suscripción fácilmente. Para ello, los destinatarios de SMS pueden responder con las palabras clave de inclusión y exclusión. [Obtenga información sobre cómo administrar la exclusión](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 Se pueden crear envíos de SMS:
 

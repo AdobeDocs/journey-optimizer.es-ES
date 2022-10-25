@@ -73,7 +73,7 @@ Vea este vídeo para aprender a crear un conjunto de datos, asignarlo a un esque
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
-## Gobierno de datos
+## Control de datos
 
 En un conjunto de datos, examine la **Administración de datos** para comprobar las etiquetas en el conjunto de datos y en el nivel de campo. Administración de datos categoriza los datos según el tipo de políticas que se apliquen.
 

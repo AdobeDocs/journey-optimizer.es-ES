@@ -229,7 +229,7 @@ Haga clic en el `...` para ver la descripción de la función y agregarla a sus 
         <td><a href="string.md#isEmpty">IsEmpty</a></td><td>Esta función se utiliza para comprobar si una cadena o expresión está vacía.</td>
     </tr>
     <tr>
-        <td><a href="string.md#is-not-empty">No está vacío</a></td><td>Esta función devuelve el valor "True" si la cadena del parámetro no está vacía.</td>
+        <td><a href="string.md#is-not-empty">Is Not Empty</a></td><td>Esta función devuelve el valor "True" si la cadena del parámetro no está vacía.</td>
     </tr>
     <tr>
         <td><a href="string.md#last-index-of">Último índice de</a></td><td>Esta función devuelve la posición (en el primer argumento) de la última incidencia del segundo parámetro. Devuelve -1 si no hay coincidencia.</td>

@@ -11,7 +11,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
 workflow-type: tm+mt
 source-wordcount: '1370'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -213,14 +213,14 @@ Por ejemplo, al descargar o al usar la aplicación, pueden seleccionar detener l
 
 ## Administración de exclusión de SMS {#sms-opt-out-management}
 
-De acuerdo con las normas y regulaciones del sector, todos los mensajes de marketing SMS deben contener una forma para que los destinatarios puedan cancelar su suscripción fácilmente. Una vez cancelada la suscripción, los perfiles se eliminan automáticamente de la audiencia de futuros mensajes de marketing.
+De acuerdo con las normas y los reglamentos del sector, todos los mensajes SMS sobre marketing deben contener una forma para que los destinatarios puedan cancelar la suscripción fácilmente. Una vez cancelada la suscripción, los perfiles se eliminan automáticamente de la audiencia de futuros mensajes de marketing.
 
 >[!NOTE]
 >
 >La adición de un vínculo de baja no es obligatoria para los mensajes transaccionales.
 
-Adobe Journey Optimizer procesa automáticamente las siguientes palabras clave en los mensajes entrantes: **INICIO**, **STOP** y **UNSTOP**. Estas palabras clave activan las respuestas estándares automáticas del proveedor de SMS.
+Adobe Journey Optimizer procesa automáticamente las siguientes palabras clave en los mensajes entrantes: **INICIAR**, **DETENER** y **NO DETENER**. Estas palabras clave activan las respuestas estándares automáticas del proveedor de SMS.
 
-Para obtener más información sobre cómo funciona la compatibilidad con palabras clave entrantes nativas (inicio, parada e inparada) para SMS, consulte el siguiente vídeo:
+Para obtener más información sobre cómo funciona la compatibilidad con palabras clave entrantes nativas (iniciar, detener y no detener) para SMS, consulte el siguiente vídeo:
 
 >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)

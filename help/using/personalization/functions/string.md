@@ -350,7 +350,7 @@ La siguiente función devuelve &#39;true&#39; si el número de teléfono móvil 
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
 
-## No está vacío {#is-not-empty}
+## Is Not Empty {#is-not-empty}
 
 La variable `isNotEmpty` para determinar si una cadena no está vacía.
 

@@ -15,11 +15,11 @@ ht-degree: 2%
 
 ---
 
-# Copia de un recorrido a otra zona protegida {#copy-to-sandbox}
+# Copia de un recorrido en otra zona protegida {#copy-to-sandbox}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
->title="Copia de un recorrido a otra zona protegida"
+>title="Copia de un recorrido en otra zona protegida"
 >abstract="Journey Optimizer permite copiar un recorrido completo de un simulador para pruebas a otro. Por ejemplo, puede copiar un recorrido del entorno limitado de ensayo en el entorno limitado de producción. Además del propio Recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido."
 
 >[!CONTEXTUALHELP]

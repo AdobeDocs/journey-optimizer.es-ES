@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '451'
 ht-degree: 6%
 
 ---
@@ -46,7 +46,7 @@ Una vez creada una fórmula de clasificación, puede asignarla a una colocación
 
 1. Para cada ubicación, agregue una colección. Consulte [Crear colecciones](../offer-library/creating-collections.md).
 
-1. Select **[!UICONTROL Ranking formula]** como método de clasificación, haga clic en **[!UICONTROL Add ranking]**.
+1. Select **[!UICONTROL Fórmula de clasificación]** como método de clasificación, haga clic en **[!UICONTROL Agregar clasificación]**.
 
    ![](../assets/offer-activity-ranking.png)
 
@@ -72,7 +72,7 @@ Una vez creada una estrategia de clasificación, puede asignarla a una colocaci�
 
 1. Para cada ubicación, agregue una colección. Consulte [Crear colecciones](../offer-library/creating-collections.md).
 
-1. Elija clasificar ofertas por **[!UICONTROL AI ranking]** en la lista desplegable y haga clic en **[!UICONTROL Add ranking]**.
+1. Elija clasificar ofertas por **[!UICONTROL Clasificación de IA]** en la lista desplegable y haga clic en **[!UICONTROL Agregar clasificación]**.
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
@@ -80,7 +80,7 @@ Una vez creada una estrategia de clasificación, puede asignarla a una colocaci�
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. Haga clic en **[!UICONTROL Select]**. La estrategia de clasificación ahora está asociada a la ubicación.
+1. Haga clic en **[!UICONTROL Seleccionar]**. La estrategia de clasificación ahora está asociada a la ubicación.
 
 Si se admiten varias ofertas, el sistema de modelos formado determinará qué oferta debe presentarse primero para una ubicación determinada.
 

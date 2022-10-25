@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo ofrecer decisiones de oferta a tod
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 source-git-commit: f3f38e7db95bd1a6dc41b1626177c800280fb71c
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '814'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ La entrega por lotes también se puede realizar mediante API. Para obtener más 
 
 Antes de configurar una solicitud de trabajo, asegúrese de que ha creado:
 
-* **Un conjunto de datos** en Adobe Experience Platform. Este conjunto de datos se utilizará para almacenar el resultado de la decisión utilizando el esquema &quot;ODE Decidevents&quot;. Obtenga más información en la [Documentación de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html).
+* **Un conjunto de datos** en Adobe Experience Platform. Este conjunto de datos se utilizará para almacenar el resultado de la decisión utilizando el esquema &quot;ODE Decidevents&quot;. Obtenga más información en la [Documentación de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es).
 
 * **Un segmento** en Adobe Experience Platform. El segmento debe evaluarse y luego actualizarse. Obtenga información sobre cómo actualizar la evaluación de pertenencia a segmentos en la [Documentación del servicio de segmentación](http://www.adobe.com/go/segmentation-overview-en)
 
@@ -39,7 +39,7 @@ Antes de configurar una solicitud de trabajo, asegúrese de que ha creado:
 
 Para crear una nueva solicitud de trabajo, siga los pasos a continuación.
 
-1. En el **[!UICONTROL Offers]** , abra **[!UICONTROL Batch decisioning]** a continuación, haga clic en **[!UICONTROL Create request]**.
+1. En el **[!UICONTROL Ofertas]** , abra **[!UICONTROL Decisiones por lotes]** a continuación, haga clic en **[!UICONTROL Crear solicitud]**.
 
    ![](assets/batch-create.png)
 
@@ -49,24 +49,24 @@ Para crear una nueva solicitud de trabajo, siga los pasos a continuación.
 
 1. Seleccione uno o varios ámbitos de decisión de ofertas que desee utilizar para publicar ofertas en el segmento:
    1. Seleccione una colocación de la lista.
-   1. Se muestran las decisiones disponibles para la colocación seleccionada. Seleccione la decisión que desee y haga clic en **[!UICONTROL Add]**.
+   1. Se muestran las decisiones disponibles para la colocación seleccionada. Seleccione la decisión que desee y haga clic en **[!UICONTROL Agregar]**.
    1. Repita la operación para agregar tantos ámbitos de decisión como desee.
 
    ![](assets/batch-decision.png)
 
-1. De forma predeterminada, se devuelve una oferta del ámbito de decisión para cada perfil. Puede ajustar el número de ofertas devueltas mediante la variable **[!UICONTROL Request offer per profile]** . Por ejemplo, si selecciona 2, se mostrarán las 2 mejores ofertas para el ámbito de decisión seleccionado.
+1. De forma predeterminada, se devuelve una oferta del ámbito de decisión para cada perfil. Puede ajustar el número de ofertas devueltas mediante la variable **[!UICONTROL Solicitud de oferta por perfil]** . Por ejemplo, si selecciona 2, se mostrarán las 2 mejores ofertas para el ámbito de decisión seleccionado.
 
    >[!NOTE]
    >
    >Puede solicitar hasta 30 ofertas por ámbito de decisión.
 
-1. Si desea incluir el contenido de la oferta en el conjunto de datos, active la opción **[!UICONTROL Include content]** en. Esta opción está desactivada de forma predeterminada.
+1. Si desea incluir el contenido de la oferta en el conjunto de datos, active la opción **[!UICONTROL Incluir contenido]** en. Esta opción está desactivada de forma predeterminada.
 
-1. Haga clic en **[!UICONTROL Create]** para ejecutar la solicitud de trabajo.
+1. Haga clic en **[!UICONTROL Crear]** para ejecutar la solicitud de trabajo.
 
 ## Supervisar los trabajos por lotes
 
-Se puede acceder a todos los trabajos por lotes solicitados desde la **[!UICONTROL Batch decisioning]** pestaña . Además, hay herramientas de búsqueda y filtrado disponibles para ayudarle a refinar la lista.
+Se puede acceder a todos los trabajos por lotes solicitados desde la **[!UICONTROL Decisiones por lotes]** pestaña . Además, hay herramientas de búsqueda y filtrado disponibles para ayudarle a refinar la lista.
 
 ![](assets/batch-list.png)
 
@@ -78,10 +78,10 @@ Una vez creada una solicitud de trabajo, el trabajo por lotes pasa por varios es
 >
 >Para asegurarse de que está obteniendo la información más reciente sobre el estado de una solicitud de trabajo, utilice el botón elipse situado junto al trabajo para actualizarlo.
 
-1. **[!UICONTROL Queued]**: La solicitud de trabajo se ha creado y se ha introducido en la cola de procesamiento. Se pueden ejecutar hasta 5 trabajos por lotes a la vez por conjunto de datos. Cualquier otra solicitud por lotes con el mismo conjunto de datos de salida se agrega a la cola. Un trabajo en cola se selecciona para procesarse una vez que el trabajo anterior ha terminado de ejecutarse.
-1. **[!UICONTROL Processing]**: La solicitud de trabajo se está procesando
-1. **[!UICONTROL Ingesting]**: Se ha ejecutado la solicitud de trabajo, los datos de resultado se están incorporando en el conjunto de datos seleccionado,
-1. **[!UICONTROL Completed]**: La solicitud de trabajo se ha ejecutado y los datos de resultado ahora se almacenan en el conjunto de datos seleccionado.
+1. **[!UICONTROL En cola]**: La solicitud de trabajo se ha creado y se ha introducido en la cola de procesamiento. Se pueden ejecutar hasta 5 trabajos por lotes a la vez por conjunto de datos. Cualquier otra solicitud por lotes con el mismo conjunto de datos de salida se agrega a la cola. Un trabajo en cola se selecciona para procesarse una vez que el trabajo anterior ha terminado de ejecutarse.
+1. **[!UICONTROL Procesamiento]**: La solicitud de trabajo se está procesando
+1. **[!UICONTROL Ingesta]**: Se ha ejecutado la solicitud de trabajo, los datos de resultado se están incorporando en el conjunto de datos seleccionado,
+1. **[!UICONTROL Completado]**: La solicitud de trabajo se ha ejecutado y los datos de resultado ahora se almacenan en el conjunto de datos seleccionado.
 
    >[!NOTE]
    >
@@ -115,6 +115,6 @@ Sin límite de frecuencia para ofertas aptas:
 
 Puede reutilizar la información de un trabajo existente para crear una nueva solicitud.
 
-Para ello, haga clic en el icono de duplicado, edite la información del trabajo si es necesario y, a continuación, haga clic en **[!UICONTROL Create]** para crear la nueva solicitud.
+Para ello, haga clic en el icono de duplicado, edite la información del trabajo si es necesario y, a continuación, haga clic en **[!UICONTROL Crear]** para crear la nueva solicitud.
 
 ![](assets/batch-duplicate.png)

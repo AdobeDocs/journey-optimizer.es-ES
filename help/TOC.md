@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
 workflow-type: tm+mt
 source-wordcount: '1222'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 94%
       + [Creación de perfiles de prueba](using/segment/creating-test-profiles.md)
    + [Identidades](using/segment/get-started-identity.md)
    + Componer audiencias {#audience-orchestration}
-      + [Introducción a la composición de audiencias](using/segment/get-started-audience-orchestration.md)
+      + [Introducción a Composición de audiencias](using/segment/get-started-audience-orchestration.md)
       + [Creación de flujos de trabajo de composición](using/segment/create-compositions.md)
       + [Trabajo con el lienzo de composición](using/segment/composition-canvas.md)
       + [Acceso y administración de audiencias](using/segment/access-audiences.md)
@@ -453,4 +453,4 @@ ht-degree: 94%
    + Administración del consentimiento {#consent}
       + [Administración de la exclusión](using/privacy/opt-out.md)
       + [Trabajar con políticas de consentimiento](using/action/consent.md)
-   + [Gobierno de datos](using/action/action-privacy.md)
+   + [Control de datos](using/action/action-privacy.md)

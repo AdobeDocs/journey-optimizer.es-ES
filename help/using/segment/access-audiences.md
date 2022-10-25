@@ -12,7 +12,7 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 1%
+ht-degree: 14%
 
 ---
 
@@ -43,6 +43,6 @@ Para asignar etiquetas de uso de datos principales o personalizadas a una audien
 
 Más información:
 
-* [Introducción a la composición de audiencias](get-started-audience-orchestration.md)
+* [Introducción a Composición de audiencias](get-started-audience-orchestration.md)
 * [Creación de flujos de trabajo de composición](create-compositions.md)
 * [Trabajo con el lienzo de composición](composition-canvas.md)

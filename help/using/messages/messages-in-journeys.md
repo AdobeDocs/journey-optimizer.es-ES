@@ -10,7 +10,7 @@ level: Beginner
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 92%
 >title="Superficie de canal"
 >abstract="Una superficie de canal es una instancia de ese canal que tiene toda la configuración para enviar una acción correctamente a través de una campaña o un recorrido. Se define mediante un administrador del sistema."
 
-En sus recorridos, utilice las acciones del canal para diseñar y personalizar el mensaje que desea enviar a su audiencia. Al añadir un correo electrónico, un SMS o una acción Push al lienzo de recorrido, se crea un envío activado. Cuando los contactos llegan a esa acción del canal, Adobe Journey Optimizer envía el mensaje automáticamente.
+En sus recorridos, utilice las acciones del canal para diseñar y personalizar el mensaje que desea enviar a su audiencia. Al agregar un correo electrónico, un SMS o una acción push a los lienzos de recorrido, se crea un envío activado. Cuando los contactos llegan a esa acción del canal, Adobe Journey Optimizer envía el mensaje automáticamente.
 
 
 >[!NOTE]
 >También puede crear campañas para enviar mensajes programados. Obtenga más información [en esta sección](../campaigns/get-started-with-campaigns.md).
 
 
-Para añadir mensajes en un recorrido, añada una actividad push, SMS o de correo electrónico en el lienzo del recorrido.
+Para agregar mensajes en un recorrido, agregue una actividad push, SMS o de correo electrónico en los lienzos de recorrido.
 
 1. Inicie el recorrido con un [Evento](../building-journeys/general-events.md) o una actividad [Leer segmento](../building-journeys/read-segment.md).
 
@@ -52,7 +52,7 @@ Para añadir mensajes en un recorrido, añada una actividad push, SMS o de corre
    >
    >* Si ha definido [reglas de frecuencia](../configuration/frequency-rules.md) para un canal y categoría específicos, se aplican automáticamente al mensaje al seleccionar ese canal y categoría. Actualmente, solo está disponible la categoría **[!UICONTROL Marketing]** para reglas de frecuencia.
    >
-   >* Los mensajes de marketing deben incluir un [vínculo de no participación](../privacy/opt-out.md#opt-out-management). Esto no es necesario para los mensajes transaccionales, ya que estos se pueden enviar a perfiles que cancelaron la suscripción a comunicaciones de marketing.
+   >* Los mensajes de Marketing deben incluir un [vínculo de no participación](../privacy/opt-out.md#opt-out-management). Esto no es necesario para los mensajes transaccionales, ya que estos se pueden enviar a perfiles que cancelaron la suscripción a comunicaciones de marketing.
 
 
 1. Seleccione el canal **[!UICONTROL Superficie]**  (es decir, el ajuste preestablecido de mensaje) que se utilizará para enviar el mensaje.
@@ -122,9 +122,9 @@ Para ello, siga los pasos a continuación:
 
    ![](assets/message-duplicate.png)
 
-1. Presione **ctrl+V** para pegar el mensaje.
+1. Presione **CRTL+V** para pegar el mensaje.
 
-   El mensaje se añade al lienzo del recorrido. Todos los ajustes y configuraciones se copiarán en el nuevo mensaje.
+   El mensaje se añade a los lienzos de recorrido. Todos los ajustes y configuraciones se copiarán en el nuevo mensaje.
 
    ![](assets/message-duplicated.png)
 

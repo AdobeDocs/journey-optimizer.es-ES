@@ -20,7 +20,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha añadido un caso de uso de recorrido sobre cómo limitar el rendimiento mediante Fuentes de datos externas y Acciones personalizadas. [Más información](../building-journeys/limit-throughput.md)
 * La sección de casos de uso de recorrido se ha reorganizado en dos categorías: [Casos de uso empresarial](../building-journeys/journeys-uc.md) y [Casos de uso técnico](../building-journeys/collections.md).
 * La variable **Conjunto de datos de entidad** se ha actualizado con más detalles. [Más información](../start/datasets-query-examples.md#entity-dataset)
-* La información relacionada con la administración de exclusión y las políticas de consentimiento se han reorganizado en una nueva sección. [Más información](../privacy/opt-out.md)
+* La información relacionada con la configuración de exclusión y las políticas de consentimiento se han reorganizado en una nueva sección. [Más información](../privacy/opt-out.md)
 
 ## Septiembre de 2022 {#september-2022}
 

@@ -12,7 +12,7 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '990'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -181,6 +181,6 @@ Una vez que la composición esté lista, puede publicarla. [Aprenda a crear comp
 
 Más información:
 
-* [Introducción a la composición de audiencias](get-started-audience-orchestration.md)
+* [Introducción a Composición de audiencias](get-started-audience-orchestration.md)
 * [Creación de flujos de trabajo de composición](create-compositions.md)
 * [Acceso y administración de audiencias](access-audiences.md)
