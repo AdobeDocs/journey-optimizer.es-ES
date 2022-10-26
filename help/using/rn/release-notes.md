@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 95%
+source-wordcount: '1112'
+ht-degree: 94%
 
 ---
 
@@ -27,6 +27,10 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 **Recorridos**
 
 * La variable **Obligar a volver a entrar en el sistema cuando se repita** se ha añadido en los parámetros de programación de segmentos de lectura recurrentes. Esta opción le permite hacer que todos los perfiles que aún están presentes en el recorrido se cierren automáticamente en la siguiente ejecución. Cuando la opción está desactivada, los perfiles deben finalizar el recorrido antes de poder volver a entrar en otra incidencia. [Más información](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+**Campañas**
+
+* Ahora puede archivar las campañas completadas y detenidas. [Más información](../campaigns/modify-stop-campaign.md#archive)
 
 ## Versión de septiembre de 2022{#sept-2022-release}
 

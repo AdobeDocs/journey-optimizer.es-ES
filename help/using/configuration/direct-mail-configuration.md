@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: f64a6571609c69262670ac45a88cda0112aea5fa
+source-git-commit: ef66b30870fabf882bd368294e8a3b388d7ec182
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '825'
 ht-degree: 3%
 
 ---
@@ -27,12 +27,12 @@ Para enviar un mensaje de correo postal, debe crear un archivo y cargarlo en un 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="Defina la configuración de la configuración de enrutamiento del archivo"
->abstract="Debe definir dónde se exportará el archivo y se cargará para que lo utilice su proveedor de correo postal."
+>abstract="Al crear el mensaje de correo postal, generará el archivo que contiene toda la información de perfil necesaria. Este archivo debe exportarse y cargarse en un servidor para que su proveedor de correo postal pueda acceder y utilizar ese archivo para enviar correo postal."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
 >title="Defina la configuración de la configuración de enrutamiento del archivo"
->abstract="Al crear el mensaje de correo postal, generará el archivo que contiene toda la información de perfil necesaria. Este archivo debe exportarse y cargarse en un servidor para que su proveedor de correo postal pueda acceder y utilizar ese archivo para enviar correo postal."
+>abstract="Debe definir dónde se exportará el archivo y se cargará para que lo utilice su proveedor de correo postal."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
@@ -42,12 +42,12 @@ Para enviar un mensaje de correo postal, debe crear un archivo y cargarlo en un 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="Seleccione el tipo de servidor para el enrutamiento del archivo"
->abstract="Seleccione el servidor que desee utilizar para cargar y almacenar los archivos de correo postal."
+>abstract="Elija qué servidor desea utilizar para cargar y almacenar los archivos de correo postal. Actualmente solo se admiten Amazon S3 y SFTP."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
 >title="Elija la región de AWS"
->abstract="Seleccione el servidor que desee utilizar para cargar y almacenar los archivos de correo postal. Actualmente solo se admiten Amazon S3 y SFTP."
+>abstract="Seleccione la región geográfica donde desea exportar y cargar los archivos de correo postal. Para obtener un uso óptimo, se recomienda elegir la región más cercana para alojar su infraestructura de nube."
 
 1. Acceda a la **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de enrutamiento de archivos]** > **[!UICONTROL Enrutamiento de archivos]** a continuación, haga clic en **[!UICONTROL Crear configuración de enrutamiento]**.
 
@@ -55,7 +55,7 @@ Para enviar un mensaje de correo postal, debe crear un archivo y cargarlo en un 
 
 1. Establezca un nombre para la configuración.
 
-1. Seleccione la configuración **[!UICONTROL Tipo]**, es decir, el servidor que desea utilizar para cargar y almacenar los archivos de correo postal.<!--why is it Type and not Server or Server type? asked to PM-->
+1. Seleccione la configuración **[!UICONTROL Tipo de servidor]**, es decir, el servidor que desea utilizar para cargar y almacenar los archivos de correo postal.
 
    ![](assets/file-routing-config-type.png)
 
@@ -65,9 +65,7 @@ Para enviar un mensaje de correo postal, debe crear un archivo y cargarlo en un 
 
    Al crear el mensaje de correo postal, generará el archivo que contiene toda la información de perfil necesaria. Este archivo debe exportarse y cargarse en un servidor para que su proveedor de correo postal pueda acceder y utilizar ese archivo para enviar correo postal.
 
-1. Rellene los detalles y las credenciales específicas del tipo de configuración seleccionado, como la dirección del servidor, la clave de acceso, etc. <!--need to detail more?-->
-
-   <!--![](assets/file-routing-config-aws-details.png)-->
+1. Rellene los detalles y las credenciales específicas del tipo de configuración seleccionado, como la dirección del servidor, la clave de acceso, etc.
 
    ![](assets/file-routing-config-sftp-details.png)
 
@@ -90,12 +88,13 @@ Para enviar un mensaje de correo postal, debe crear un archivo y cargarlo en un 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="Definir la configuración de correo postal"
->abstract="Una superficie de correo postal contiene la configuración relacionada con el formato del archivo que contiene los datos de perfil para el correo postal. Puede (definir la configuración de clasificación), eliminar filas duplicadas, dividir registros en varios archivos y seleccionar la configuración de enrutamiento de archivos."
+>abstract="Una superficie de correo postal contiene la configuración relacionada con el formato del archivo que contiene los datos de perfil para el correo postal. También debe definir dónde se exportará el archivo seleccionando la configuración de enrutamiento del archivo."
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_sort"
->title="Definición del orden"
->abstract="Si selecciona esta opción, la ordenación se realizará por ID de perfil, ascendente o descendente. Si la desmarca, la configuración de clasificación se define al crear el mensaje de correo postal dentro de un recorrido o una campaña."
+>title="Define the sort order"
+>abstract="If you select this option, the sort will be by profile ID, ascending or descending. If you unselect it, the sorting configuration defined when creating the direct mail message within a journey or a campaign."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
@@ -128,7 +127,7 @@ Una vez configurado el enrutamiento del archivo, debe crear una superficie de ca
    >
    >Puede establecer cualquier número entre 1 y 200 000 registros, lo que significa que cada archivo debe contener al menos 1 fila y no más de 200 000 filas.
 
-1. Finalmente, seleccione la [configuración de enrutamiento de archivos](#file-routing-configuration) entre los que ha creado. Esto define dónde se exportará el archivo y se cargará para que lo utilice su proveedor de correo postal.
+1. Finalmente, seleccione la **[!UICONTROL Configuración de enrutamiento de archivos]** entre los que ha creado. Esto define dónde se exportará el archivo y se cargará para que lo utilice su proveedor de correo postal.
 
    >[!CAUTION]
    >

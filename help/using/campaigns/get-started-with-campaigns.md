@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '573'
 ht-degree: 9%
 
 ---
@@ -71,7 +71,9 @@ Compruebe los siguientes requisitos previos antes de empezar a crear la primera 
 
 Se puede acceder a las campañas desde la **[!UICONTROL Campañas]** para abrir el Navegador.
 
-De forma predeterminada, la lista muestra todas las campañas con la variable **[!UICONTROL Borrador]**, **[!UICONTROL Programado]** y **[!UICONTROL Activo]** estados. Para mostrar las campañas detenidas, completadas y archivadas, debe borrar el filtro.
+De forma predeterminada, la lista muestra todas las campañas con la variable **[!UICONTROL Borrador]**, **[!UICONTROL Programado]** y **[!UICONTROL Activo]** estados.
+
+Para mostrar las campañas detenidas, completadas y archivadas, debe borrar el filtro.
 
 ![](assets/create-campaign-list.png)
 
@@ -83,9 +85,9 @@ Las campañas pueden tener varios estados:
 * **[!UICONTROL Activación]**: La campaña se está activando.
 * **[!UICONTROL Activo]**: La campaña se ha activado.
 * **[!UICONTROL Programado]**: La campaña está configurada para activarse en una fecha de inicio específica.
-* **[!UICONTROL Detenido]**: La campaña se ha detenido manualmente. Ya no se puede activar ni volver a utilizar. [Más información](modify-stop-campaign.md#stop)
+* **[!UICONTROL Detenido]**: La campaña se ha detenido manualmente. Ya no se puede activar ni volver a utilizar. [Obtenga información sobre cómo detener una campaña](modify-stop-campaign.md#stop)
 * **[!UICONTROL Completado]**: La campaña ha finalizado. Este estado se asigna automáticamente 3 días después de activar una campaña o en la fecha de finalización de la campaña si tiene una ejecución recurrente.
-* **[!UICONTROL Archivado]**: La campaña se ha archivado.
+* **[!UICONTROL Archivado]**: La campaña se ha archivado. [Aprenda a archivar campañas](modify-stop-campaign.md#archive)
 
 >[!NOTE]
 >

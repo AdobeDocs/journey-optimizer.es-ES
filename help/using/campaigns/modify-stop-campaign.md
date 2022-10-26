@@ -8,18 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 3%
+source-wordcount: '308'
+ht-degree: 2%
 
 ---
 
-# Administrar campañas en directo {#modify-stop-campaign}
+# Administración de campañas {#modify-stop-campaign}
 
 Una vez activada una campaña, puede modificarla o detenerla en cualquier momento. Estas operaciones están disponibles para campañas con una ejecución recurrente solamente.
 
-Además, puede duplicar campañas en vivo (ejecutadas una vez o con una ejecución recurrente) para crear otras nuevas.
+Además, puede duplicar las campañas en vivo (ejecutadas una vez o con una ejecución recurrente) para crear otras nuevas y archivar las campañas completadas o detenidas.
 
 ## Modificación de una campaña recurrente {#modify}
 
@@ -58,3 +58,13 @@ Para detener una campaña recurrente, ábrala y haga clic en el botón **[!UICON
 Puede duplicar una campaña activa para crear una nueva. Para ello, abra la campaña y haga clic en **[!UICONTROL Duplicar]**.
 
 ![](assets/create-campaign-duplicate.png)
+
+## Archivar una campaña {#archive}
+
+Con el tiempo, la lista de campañas sigue creciendo y, finalmente, dificulta el examen de las campañas completadas y detenidas.
+
+Para evitarlo, puede archivar campañas completadas y detenidas que ya no necesite. Para ello, haga clic en el botón elipse y seleccione **[!UICONTROL Archivo]**.
+
+![](assets/create-campaign-archive.png)
+
+Las campañas archivadas se pueden recuperar utilizando el filtro dedicado de la lista. [Obtenga información sobre cómo acceder a campañas](get-started-with-campaigns.md#access)
