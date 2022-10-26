@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: d94f0690629f924245d7a672ecf81decd0724861
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1045'
 ht-degree: 6%
 
 ---
@@ -40,7 +40,9 @@ Para poder acceder y crear páginas web en la variable [!DNL Journey Optimizer] 
 
 Para que la experiencia web se entregue correctamente, se debe definir la siguiente configuración:
 
-* En el [Recopilación de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es){target=&quot;_blank&quot;}, asegúrese de que tiene un conjunto de datos definido como en la sección **[!UICONTROL Adobe Experience Platform]** tiene ambos **[!UICONTROL Segmentación de Edge]** y **[!UICONTROL Adobe Journey Optimizer]** opciones activadas. Esto garantiza que Adobe Experience Platform Edge gestione correctamente los eventos de entrada de Journey Optimizer. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target=&quot;_blank&quot;}
+* En el [Recopilación de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es){target=&quot;_blank&quot;}, asegúrese de que tiene un conjunto de datos definido como en la sección **[!UICONTROL Adobe Experience Platform]** tiene ambos **[!UICONTROL Segmentación de Edge]** y **[!UICONTROL Adobe Journey Optimizer]** opciones activadas.
+
+   Esto garantiza que Adobe Experience Platform Edge gestione correctamente los eventos de entrada de Journey Optimizer. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target=&quot;_blank&quot;}
 
    ![](assets/web-aep-datastream-ajo.png)
 
@@ -49,6 +51,8 @@ Para que la experiencia web se entregue correctamente, se debe definir la siguie
    >La variable **[!UICONTROL Adobe Journey Optimizer]** solo se puede activar cuando **[!UICONTROL Segmentación de Edge]** ya está activada.
 
 * En [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target=&quot;_blank&quot;}, asegúrese de que tiene una directiva de combinación con la variable **[!UICONTROL Política de combinación activa/perimetral]** activada. Para ello, seleccione una directiva en la sección **[!UICONTROL Cliente]** > **[!UICONTROL Perfiles]** > **[!UICONTROL Combinar directivas]** menú del Experience Platform. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target=&quot;_blank&quot;}
+
+   Esta directiva de combinación la utiliza [!DNL Journey Optimizer] canales entrantes para activar y publicar correctamente campañas entrantes en el perímetro. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target=&quot;_blank&quot;}
 
    ![](assets/web-aep-merge-policy.png)
 
