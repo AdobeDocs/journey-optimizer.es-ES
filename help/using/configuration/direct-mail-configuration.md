@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ef66b30870fabf882bd368294e8a3b388d7ec182
+source-git-commit: 1f6b29d781abc17e238e4a3e051dc61d250b37a0
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '823'
 ht-degree: 3%
 
 ---
@@ -69,7 +69,7 @@ Para enviar un mensaje de correo postal, debe crear un archivo y cargarlo en un 
 
    ![](assets/file-routing-config-sftp-details.png)
 
-1. Si ha seleccionado **[!UICONTROL Amazon S3]**, puede elegir la región de AWS donde desea exportar y cargar los archivos de correo postal.
+1. Si ha seleccionado **[!UICONTROL Amazon S3]**, elija la región de AWS donde desea exportar y cargar los archivos de correo postal.
 
    ![](assets/file-routing-config-aws-region.png)
 
