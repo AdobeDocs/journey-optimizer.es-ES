@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1441'
 ht-degree: 5%
 
 ---
@@ -433,3 +433,105 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
  </tbody> 
 </table>
 
+### Métricas de notificaciones push {#push-notification-metrics}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Métrica<br/> </th> 
+   <th> Definición<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Acciones<br/> </td> 
+   <td> Número total de acciones realizadas en la notificación push entregada, por ejemplo, hacer clic en un botón o rechazar una solicitud.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Devoluciones<br/> </td> 
+   <td> Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Tasa de devoluciones<br/> </td> 
+   <td> Porcentaje de notificaciones push que rebotaron en comparación con las notificaciones push enviadas.<br/> </td>
+</tr>
+  <tr> 
+   <td> Entregados<br/> </td> 
+   <td> Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Tasa de entrega<br/> </td> 
+   <td> Porcentaje de notificaciones push enviadas correctamente.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Participaciones<br/> </td> 
+   <td> Número total de aperturas y acciones para esta notificación push, es decir, si el perfil abrió la notificación push o si se hizo clic en un botón.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Tasa de participación<br/> </td> 
+   <td> Porcentaje de aperturas y acciones para esta notificación push, es decir, si el perfil abrió la notificación push o si se hizo clic en un botón.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Errores<br/> </td> 
+   <td> Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Tasa de error<br/> </td> 
+   <td> Porcentaje de errores que se produjeron durante una entrega que impiden que se envíe comparado con las notificaciones push enviadas.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Excluido<br/> </td> 
+   <td> Número de perfiles que Adobe Journey Optimizer ha excluido.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Aperturas<br/> </td> 
+   <td> Número total de notificaciones push enviadas al dispositivo y en las que los usuarios han hecho clic para abrir la aplicación. Esto es similar al clic push , excepto que no se activará un push Open si se descarta la notificación.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Tasa de apertura<br/> </td> 
+   <td> Porcentaje de notificaciones push abiertas.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Enviados<br/> </td> 
+   <td> Número total de envíos para la entrega.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Segmentado<br/> </td> 
+   <td> Número total de mensajes push procesados durante el análisis de envío.<br/> </td> 
+</tr>  
+ </tbody> 
+</table>
+
+<!--
+### In-app metrics {#inapp-metrics}
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metric<br/> </th> 
+   <th> Definition<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Clicks<br/> </td> 
+   <td>Total number of recipients who interacted with the buttons included in the In-app message.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Click rate<br/> </td> 
+   <td>Percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>Dismiss rate<br/> </td> 
+   <td> Percentage of In-app messages that recipients dismissed.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>Impressions<br/> </td> 
+   <td> Total number of In-app messages delivered to all users.<br/> </td>
+</tr>
+  <tr> 
+   <td>Unique impressions<br/> </td> 
+   <td>Number of unique users to whom the In-app message was delivered.<br/> </td>
+</tr>
+ </tbody> 
+</table>
+-->
