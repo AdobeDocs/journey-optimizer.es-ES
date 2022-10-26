@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 4%
@@ -127,7 +127,7 @@ Para nuestro ejemplo, un primer usuario X con acceso a objetos etiquetados como 
 
    ![](assets/journey_1.png)
 
-1. Agregar una nueva **[!UICONTROL Grupo de campos]** de su **[!UICONTROL Esquema]** a la integración **[!UICONTROL Fuente de datos]**. También puede crear una nueva **[!UICONTROLDfuente de datos]** y asociados **[!UICONTROL Grupos de campo]**.
+1. Agregar una nueva **[!UICONTROL Grupo de campos]** de su **[!UICONTROL Esquema]** a la integración **[!UICONTROL Fuente de datos]**. También puede crear una nueva **[!UICONTROL fuente de datos]** y asociados **[!UICONTROL Grupos de campo]**.
 
    ![](assets/journey_2.png)
 

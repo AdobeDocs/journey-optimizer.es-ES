@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 3%
@@ -44,6 +44,7 @@ La variable **[!UICONTROL Estadísticas de campaña]** La utilidad detalla la in
 
 From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
 -->
+
 ## Ficha Correo electrónico {#email-live}
 
 Desde la campaña **[!UICONTROL Informe activo]**, el **[!UICONTROL Correo electrónico]** pestaña detalla la información principal relativa a los envíos de correo electrónico realizados en la campaña.

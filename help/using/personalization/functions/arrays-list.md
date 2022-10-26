@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 6%
@@ -32,6 +32,7 @@ La variable `countOnlyNull` se utiliza para contar el número de valores nulos e
 ```sql
 {%= countOnlyNull([4,0,1,6,0,0]) %}
 ```
+
 Devuelve 3.
 
 ## Recuento con nulo {#count-with-null}
@@ -69,6 +70,7 @@ La siguiente operación especifica las personas que han realizado pedidos en má
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
+
 ## Recuento Distinto Con Nulo {#distinct-count-with-null}
 
 La variable `distinctCountWithNull` se utiliza para contar el número de valores diferentes de una lista, incluidos los valores nulos.

@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: fe6fedfd3fb0a8b083f7b047e2879ef6510b041b
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 8%
@@ -30,6 +30,7 @@ Los mensajes de correo postal solo se pueden crear en el contexto de campañas p
 >[!IMPORTANT]
 >
 >Antes de enviar un mensaje de correo postal, asegúrese de haber configurado:
+>
 >* A [configuración de enrutamiento de archivos](../configuration/direct-mail-configuration.md#file-routing-configuration) que especifica el servidor en el que se debe cargar y almacenar el archivo de extracción,
 >* A [superficie del mensaje de correo postal](../configuration/direct-mail-configuration.md#direct-mail-surface) que hará referencia a la configuración de enrutamiento del archivo.
 

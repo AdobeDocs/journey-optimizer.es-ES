@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '989'
 ht-degree: 2%
 
 ---
@@ -121,7 +121,7 @@ La variable **[!UICONTROL Clasificación]** actividad le permite clasificar perf
 
 1. Seleccione el atributo que desea buscar y especifique un orden de clasificación (ascendente o descendente).
 
-   >[NOTA]
+   >[!NOTE]
    >
    >Puede seleccionar atributos con los siguientes tipos de datos: entero, números, abreviado <!--(other?)-->
 

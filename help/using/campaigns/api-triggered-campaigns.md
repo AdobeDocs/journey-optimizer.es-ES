@@ -4,7 +4,7 @@ product: journey optimizer
 title: Activación de campañas mediante las API
 description: Aprenda a almacenar en déclencheur las campañas mediante [!DNL Journey Optimizer] API
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 3%
@@ -76,6 +76,7 @@ La variable `{{context.<contextualAttribute>}}` la sintaxis de se asigna únicam
 >[!IMPORTANT]
 >
 >La variable `context.system` la sintaxis está restringida únicamente al uso interno de Adobe y no debe utilizarse para pasar atributos contextuales.
+
 Tenga en cuenta que, por ahora, no hay ningún atributo contextual disponible para usar en el menú del carril izquierdo. Los atributos deben escribirse directamente en la expresión de personalización, sin que la comprobación la realice [!DNL Journey Optimizer].
 
 ## Ejecución de la campaña {#execute}

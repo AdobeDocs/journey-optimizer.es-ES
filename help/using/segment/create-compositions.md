@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '352'
 ht-degree: 6%
 
 ---
@@ -51,7 +51,7 @@ Los flujos de trabajo de composición le permiten combinar y organizar audiencia
 
    ![](assets/audiences-publish.png)
 
-1. Una vez que la composición esté lista, haga clic en el botón [**!UICONTROL Publicación]** para publicar la composición y guardar las audiencias resultantes en Adobe Experience Platform.
+1. Una vez que la composición esté lista, haga clic en el botón **[!UICONTROL Publicación]** para publicar la composición y guardar las audiencias resultantes en Adobe Experience Platform.
 
    Si se produce algún error durante la publicación, las alertas se mostrarán con información sobre cómo resolver el problema.
 

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ Si ya está utilizando canales salientes como correo electrónico, SMS o notific
 
 A través de una intuitiva interfaz visual, esta capacidad le permite modificar sus propiedades web fácilmente para experimentar, optimizar y personalizar sus campañas de usuario final.
 
-<!-->
-➡️ [Obtenga más información sobre el canal web en este vídeo](#video)
-—>
+<!--
+[Learn more on web channel in this video](#video)
+-->
 
 <table>
 <tr>
@@ -42,10 +42,10 @@ A través de una intuitiva interfaz visual, esta capacidad le permite modificar 
 </tr>
 </table>
 
-<!-->
-## Vídeo explicativo{#video}
+<!--
+## How-to video{#video}
 
-El siguiente vídeo muestra cómo
+The video below shows how to 
 
 >[!VIDEO]()
 -->
