@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+source-git-commit: 74f24c4ccdecd5afe52706e1ecb2d323c3200152
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 5%
+source-wordcount: '604'
+ht-degree: 3%
 
 ---
 
@@ -43,9 +43,18 @@ Para crear un mensaje en la aplicación, siga los pasos a continuación:
 
 1. Elija la frecuencia de su déclencheur cuando el mensaje en la aplicación esté activo:
 
-   * **[!UICONTROL Mostrar cada vez]**
-   * **[!UICONTROL Mostrar una vez]**
-   * **[!UICONTROL Mostrar hasta pulsaciones]**
+   * **[!UICONTROL Mostrar cada vez]**: Mostrar siempre el mensaje cuando los eventos seleccionados en la variable **[!UICONTROL Déclencheur de aplicación móvil]** se produce.
+   * **[!UICONTROL Mostrar una vez]**: Mostrar este mensaje solo la primera vez que se seleccionan los eventos en la variable **[!UICONTROL Déclencheur de aplicación móvil]** se produce.
+   * **[!UICONTROL Mostrar hasta pulsaciones]**: Mostrar este mensaje cuando los eventos seleccionados en la variable **[!UICONTROL Déclencheur de aplicación móvil]** se produce hasta que el SDK envía un evento de interacción con una acción de &quot;clic&quot;.
+
+1. En el **[!UICONTROL Déclencheur de aplicación móvil]** , elija los eventos y criterios que almacenarán el déclencheur del mensaje:
+
+   1. En el menú desplegable de la izquierda, seleccione el evento necesario para almacenar el mensaje en déclencheur.
+   1. En la lista desplegable derecha, seleccione la validación requerida en el evento seleccionado.
+   1. Haga clic en el **[!UICONTROL Agregar]** si desea que el déclencheur considere varios eventos o criterios. A continuación, repita los pasos anteriores.
+   1. Seleccione cómo se vinculan los eventos, por ejemplo: **[!UICONTROL Y]** si desea **both** déclencheur que deben ser verdaderos para que se muestre un mensaje y **[!UICONTROL O]** si desea que se muestre el mensaje si **o** de los déclencheur son verdaderos.
+
+   ![](assets/in_app_create_3.png)
 
 1. Elija el evento que déclencheur el mensaje desde el **[!UICONTROL Déclencheur de aplicación móvil]**
 lista desplegable.
