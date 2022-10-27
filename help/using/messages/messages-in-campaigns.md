@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9fc05acf695396814ecfaec7cc086b07a63d4afd
+source-git-commit: 0b91aa647b2f12bf6864af008406fff845488b94
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# Agregar mensajes en campañas{#messages-in-campaigns}
+# Agregar mensajes en campañas
 
 En sus campañas, seleccione el canal para diseñar y personalizar el mensaje que desea enviar a su audiencia. Al agregar un correo electrónico, un SMS o una notificación push a la campaña, puede enviarlo inmediatamente o programar el mensaje.
 
