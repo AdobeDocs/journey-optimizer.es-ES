@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 74f24c4ccdecd5afe52706e1ecb2d323c3200152
+source-git-commit: 9fc05acf695396814ecfaec7cc086b07a63d4afd
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '606'
 ht-degree: 3%
 
 ---
@@ -52,7 +52,7 @@ Para crear un mensaje en la aplicación, siga los pasos a continuación:
    1. En el menú desplegable de la izquierda, seleccione el evento necesario para almacenar el mensaje en déclencheur.
    1. En la lista desplegable derecha, seleccione la validación requerida en el evento seleccionado.
    1. Haga clic en el **[!UICONTROL Agregar]** si desea que el déclencheur considere varios eventos o criterios. A continuación, repita los pasos anteriores.
-   1. Seleccione cómo se vinculan los eventos, por ejemplo: **[!UICONTROL Y]** si desea **both** déclencheur que deben ser verdaderos para que se muestre un mensaje y **[!UICONTROL O]** si desea que se muestre el mensaje si **o** de los déclencheur son verdaderos.
+   1. Seleccione cómo están vinculados los eventos, por ejemplo, elija **[!UICONTROL Y]** si desea **both** déclencheur que deben ser verdaderos para que un mensaje se muestre o elija **[!UICONTROL O]** si desea que se muestre el mensaje si **o** de los déclencheur son verdaderos.
 
    ![](assets/in_app_create_3.png)
 
