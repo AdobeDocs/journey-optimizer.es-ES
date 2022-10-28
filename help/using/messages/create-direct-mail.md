@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: bca233ab888e2ca33b866bc3def31653f2d55ea9
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 8%
+source-wordcount: '478'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 8%
 
 El correo postal es un canal sin conexión que le permite personalizar y generar los archivos de extracción necesarios para que los proveedores de correo postal envíen correos a sus clientes.
 
-Al crear un correo postal, Journey Optimizer genera un archivo que incluye todos los perfiles de destino y los datos seleccionados (dirección postal, atributos de perfil, por ejemplo). Después, puede enviar este archivo al proveedor de correo postal que se encarga de la entrega real.
+Al crear un correo postal, Journey Optimizer genera un archivo que incluye todos los perfiles de destino y los datos seleccionados (dirección postal, atributos de perfil, por ejemplo). El proveedor de correo postal podrá recuperar ese archivo y se encargará del envío real.
 
 Los mensajes de correo postal solo se pueden crear en el contexto de campañas programadas. No están disponibles para su uso en campañas activadas por API o en recorridos.
 
@@ -31,15 +31,15 @@ Los mensajes de correo postal solo se pueden crear en el contexto de campañas p
 >
 >Antes de enviar un mensaje de correo postal, asegúrese de haber configurado:
 >
->* A [configuración de enrutamiento de archivos](../configuration/direct-mail-configuration.md#file-routing-configuration) que especifica el servidor en el que se debe cargar y almacenar el archivo de extracción,
->* A [superficie del mensaje de correo postal](../configuration/direct-mail-configuration.md#direct-mail-surface) que hará referencia a la configuración de enrutamiento del archivo.
+>1. A [configuración de enrutamiento de archivos](../configuration/direct-mail-configuration.md#file-routing-configuration) que especifica el servidor en el que se debe cargar y almacenar el archivo de extracción,
+>1. A [superficie del mensaje de correo postal](../configuration/direct-mail-configuration.md#direct-mail-surface) que hará referencia a la configuración de enrutamiento del archivo.
 
 
 ## Crear el mensaje de correo postal {#create}
 
 Los pasos para crear y enviar un mensaje de correo postal son los siguientes:
 
-1. Cree una nueva campaña programada, seleccione **[!UICONTROL Correo postal]** como acción y seleccione la superficie del mensaje que desea utilizar.
+1. Cree una nueva campaña programada, seleccione **[!UICONTROL Correo postal]** como acción y seleccione la superficie del canal que desea utilizar. [Aprenda a crear una superficie de correo postal](../configuration/direct-mail-configuration.md#direct-mail-surface)
 
    ![](assets/direct-mail-campaign.png)
 
@@ -75,4 +75,4 @@ Los pasos para crear y enviar un mensaje de correo postal son los siguientes:
 
 1. Una vez definido el contenido de correo postal, complete la configuración de la campaña.
 
-   Cuando se inicie la campaña, el archivo de extracción se generará automáticamente y se cargará en el servidor especificado en la variable [configuración de enrutamiento de archivos](../configuration/direct-mail-configuration.md).
+   Cuando se inicie la campaña, el archivo de extracción se generará automáticamente y se exportará al servidor especificado en la [configuración de enrutamiento de archivos](../configuration/direct-mail-configuration.md).

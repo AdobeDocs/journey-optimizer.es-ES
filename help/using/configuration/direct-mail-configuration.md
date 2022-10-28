@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 1f6b29d781abc17e238e4a3e051dc61d250b37a0
+source-git-commit: bca233ab888e2ca33b866bc3def31653f2d55ea9
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 3%
+source-wordcount: '946'
+ht-degree: 0%
 
 ---
 
@@ -18,36 +18,51 @@ ht-degree: 3%
 
 [!DNL Journey Optimizer] le permite personalizar y generar los archivos requeridos por los proveedores de correo postal para enviar correos a sus clientes.
 
-Al preparar una entrega de correo postal, [!DNL Journey Optimizer] genera un archivo que incluye todos los perfiles de destino y la información de contacto elegida (por ejemplo, la dirección postal). Después, puede enviar este archivo al proveedor de correo postal que se encarga de la entrega real.
+When [creación de un mensaje de correo postal](../messages/create-direct-mail.md), puede definir los datos de audiencia de destino, incluida la información de contacto elegida (dirección postal, por ejemplo). A continuación, se genera y exporta automáticamente un archivo que contiene estos datos a un servidor, donde su proveedor de correo postal podrá recuperarlo y hacerse cargo del envío real.
 
-Para enviar un mensaje de correo postal, debe crear un archivo y cargarlo en un servidor. Antes de poder hacerlo, debe crear una [configuración de enrutamiento de archivos](#file-routing-configuration) y [superficie de correo postal](#direct-mail-surface) que hará referencia a la configuración de enrutamiento del archivo.
+Antes de poder generar este archivo, debe crear:
+
+1. A [configuración de enrutamiento de archivos](#file-routing-configuration) para especificar el servidor donde se exportará el archivo.
+
+1. A [superficie de correo postal](#direct-mail-surface) que hará referencia a la configuración de enrutamiento del archivo.
+
+>[!CAUTION]
+>
+>Si no ha configurado ninguna opción de enrutamiento de archivos, no podrá crear una superficie de correo postal.
 
 ## Configuración del enrutamiento de archivos {#file-routing-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
->title="Defina la configuración de la configuración de enrutamiento del archivo"
->abstract="Al crear el mensaje de correo postal, generará el archivo que contiene toda la información de perfil necesaria. Este archivo debe exportarse y cargarse en un servidor para que su proveedor de correo postal pueda acceder y utilizar ese archivo para enviar correo postal."
+>title="Definir la configuración de enrutamiento de archivos"
+>abstract="Después de crear un mensaje de correo postal, el archivo que contiene los datos de audiencia de destino se genera y exporta a un servidor. Debe especificar los detalles del servidor para que su proveedor de correo postal pueda acceder y utilizar ese archivo para enviar correo postal."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/create-direct-mail.html" text="Crear un mensaje de correo postal"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
->title="Defina la configuración de la configuración de enrutamiento del archivo"
->abstract="Debe definir dónde se exportará el archivo y se cargará para que lo utilice su proveedor de correo postal."
+>title="Definir la configuración de enrutamiento de archivos"
+>abstract="Debe definir dónde se exportará el archivo para que lo utilice su proveedor de correo postal."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
 >title="Configuración de enrutamiento de archivos"
->abstract="Seleccione la configuración de enrutamiento de archivos que elija, que define dónde se exportará el archivo y se cargará para que lo utilice su proveedor de correo postal."
+>abstract="Seleccione la configuración de enrutamiento de archivos que elija, que define dónde se exportará el archivo para que lo utilice su proveedor de correo postal."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
->title="Seleccione el tipo de servidor para el enrutamiento del archivo"
->abstract="Elija qué servidor desea utilizar para cargar y almacenar los archivos de correo postal. Actualmente solo se admiten Amazon S3 y SFTP."
+>title="Seleccione el tipo de servidor para el archivo"
+>abstract="Elija qué tipo de servidor desea utilizar para exportar los archivos de correo postal. Actualmente, Journey Optimizer solo admite Amazon S3 y SFTP."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
 >title="Elija la región de AWS"
->abstract="Seleccione la región geográfica donde desea exportar y cargar los archivos de correo postal. Para obtener un uso óptimo, se recomienda elegir la región más cercana para alojar su infraestructura de nube."
+>abstract="Seleccione la región geográfica del servidor de AWS donde desea exportar los archivos de correo postal. Como práctica general, se prefiere elegir la región más cercana a la ubicación del proveedor de correo postal."
+
+Para enviar un mensaje de correo postal, [!DNL Journey Optimizer] genera y exporta el archivo que contiene los datos de audiencia de destino a un servidor.
+
+Debe especificar los detalles del servidor para que su proveedor de correo postal pueda acceder y utilizar ese archivo para enviar correo.
+
+Para configurar el enrutamiento del archivo, siga los pasos a continuación.
 
 1. Acceda a la **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de enrutamiento de archivos]** > **[!UICONTROL Enrutamiento de archivos]** a continuación, haga clic en **[!UICONTROL Crear configuración de enrutamiento]**.
 
@@ -55,29 +70,27 @@ Para enviar un mensaje de correo postal, debe crear un archivo y cargarlo en un 
 
 1. Establezca un nombre para la configuración.
 
-1. Seleccione la configuración **[!UICONTROL Tipo de servidor]**, es decir, el servidor que desea utilizar para cargar y almacenar los archivos de correo postal.
+1. Seleccione el **[!UICONTROL Tipo de servidor]** que desea utilizar para exportar los archivos de correo postal.
 
    ![](assets/file-routing-config-type.png)
 
    >[!NOTE]
    >
-   >Actualmente solo están disponibles Amazon S3 y SFTP.
+   >Actualmente solo Amazon S3 y SFTP son compatibles con [!DNL Journey Optimizer].
 
-   Al crear el mensaje de correo postal, generará el archivo que contiene toda la información de perfil necesaria. Este archivo debe exportarse y cargarse en un servidor para que su proveedor de correo postal pueda acceder y utilizar ese archivo para enviar correo postal.
-
-1. Rellene los detalles y las credenciales específicas del tipo de configuración seleccionado, como la dirección del servidor, la clave de acceso, etc.
+1. Rellene los detalles y las credenciales del servidor, como la dirección del servidor, la clave de acceso, etc.
 
    ![](assets/file-routing-config-sftp-details.png)
 
-1. Si ha seleccionado **[!UICONTROL Amazon S3]**, elija la región de AWS donde desea exportar y cargar los archivos de correo postal.
+1. Si ha seleccionado **[!UICONTROL Amazon S3]**, elija el **[!UICONTROL Región de AWS]** donde se ubicará la infraestructura del servidor.
 
    ![](assets/file-routing-config-aws-region.png)
 
    >[!NOTE]
    >
-   >Las regiones de AWS son áreas geográficas separadas distribuidas por todo el mundo que AWS utiliza para alojar su infraestructura. Para obtener un uso óptimo, se recomienda elegir la región más cercana para alojar su infraestructura de nube.
+   >Las regiones de AWS son áreas geográficas que AWS utiliza para alojar sus infraestructuras de nube. Como práctica general, se prefiere elegir la región más cercana a la ubicación del proveedor de correo postal.
 
-1. Seleccione **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se crea con la variable **[!UICONTROL Activo]** estado. Ahora está listo para utilizarse en una superficie de correo postal para enviar correo postal desde [!DNL Journey Optimizer].
+1. Seleccione **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se crea con la variable **[!UICONTROL Activo]** estado. Ahora está listo para utilizarse en un [superficie de correo postal](#direct-mail-surface).
 
    >[!NOTE]
    >
@@ -88,7 +101,8 @@ Para enviar un mensaje de correo postal, debe crear un archivo y cargarlo en un 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="Definir la configuración de correo postal"
->abstract="Una superficie de correo postal contiene la configuración relacionada con el formato del archivo que contiene los datos de perfil para el correo postal. También debe definir dónde se exportará el archivo seleccionando la configuración de enrutamiento del archivo."
+>abstract="Una superficie de correo postal contiene la configuración para el formato del archivo que contiene los datos de audiencia de destino y que utilizará el proveedor de correo. También debe definir dónde se exportará el archivo seleccionando la configuración de enrutamiento del archivo."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/direct-mail-configuration.html#file-routing-configuration" text="Configuración del enrutamiento de archivos"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -99,9 +113,11 @@ Para enviar un mensaje de correo postal, debe crear un archivo y cargarlo en un 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
 >title="Definir el umbral de división del archivo"
->abstract="Debe establecer el número máximo de registros para cada archivo que contenga datos de perfil. Una vez alcanzado el umbral especificado, se creará otro archivo para los registros restantes."
+>abstract="Debe establecer el número máximo de registros para cada archivo que contenga datos de audiencia. Puede seleccionar cualquier número entre 1 y 200 000 registros. Una vez alcanzado el umbral especificado, se creará otro archivo para los registros restantes."
 
-Una vez configurado el enrutamiento del archivo, debe crear una superficie de canal desde la que poder enviar el correo postal [!DNL Journey Optimizer]. En cada superficie, deberá seleccionar una configuración de enrutamiento de archivos.
+Para poder enviar correo postal con [!DNL Journey Optimizer], debe crear una superficie de canal para definir la configuración del formato del archivo que utilizará el proveedor de correo.
+
+Una superficie de correo postal también debe incluir la configuración de enrutamiento de archivos que define el servidor donde se exportará el archivo de correo postal.
 
 1. Cree una superficie de canal. [Más información](channel-surfaces.md)
 
@@ -127,10 +143,14 @@ Una vez configurado el enrutamiento del archivo, debe crear una superficie de ca
    >
    >Puede establecer cualquier número entre 1 y 200 000 registros, lo que significa que cada archivo debe contener al menos 1 fila y no más de 200 000 filas.
 
-1. Finalmente, seleccione la **[!UICONTROL Configuración de enrutamiento de archivos]** entre los que ha creado. Esto define dónde se exportará el archivo y se cargará para que lo utilice su proveedor de correo postal.
+1. Finalmente, seleccione la **[!UICONTROL Configuración de enrutamiento de archivos]** entre los que ha creado. Esto define dónde se exportará el archivo para que lo utilice su proveedor de correo postal.
 
    >[!CAUTION]
    >
    >Si no ha configurado ninguna opción de enrutamiento de archivos, no podrá crear una superficie de correo postal. [Más información](#file-routing-configuration)
 
    ![](assets/surface-direct-mail-file-routing.png)
+
+1. Envíe la superficie de correo postal.
+
+Ahora puede [crear un mensaje de correo postal](../messages/create-direct-mail.md) dentro de una campaña. Una vez iniciada la campaña, el archivo que contiene los datos de audiencia de destino se exportará automáticamente al servidor que haya definido. El proveedor de correo postal podrá recuperar ese archivo y continuar con la entrega de correo postal.
