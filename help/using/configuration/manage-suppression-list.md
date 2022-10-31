@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 0c5a4291cdd46572faf2ab10c1c06987e4073b54
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1293'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ con [!DNL Journey Optimizer], puede supervisar todas las direcciones de correo e
 
 >[!NOTE]
 >
->La lista de supresión se gestiona a nivel de entorno limitado.
+>La lista de supresión se administra en el nivel de entorno limitado.
 
 Estas direcciones de correo electrónico se recopilan automáticamente en Journey Optimizer **lista de supresión**. Obtenga más información sobre el concepto de la lista de supresión y su uso en [esta sección](../reports/suppression-list.md).
 
@@ -90,7 +90,7 @@ Para exportar la lista de supresión como archivo CSV, siga los pasos a continua
 
    >[!NOTE]
    >
-   >El tiempo de descarga depende del tamaño del archivo, es decir, el número de direcciones de correo electrónico que están en la lista de supresión.
+   >El tiempo de descarga depende del tamaño del archivo, es decir, el número de direcciones que están en la lista de supresión.
    >
    >Se puede procesar una solicitud de descarga a la vez para un entorno limitado determinado.
 
