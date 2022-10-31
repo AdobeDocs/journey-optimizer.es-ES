@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '612'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"
 >title="Configuración de un grupo de IP"
->abstract="Puede crear grupos de IP para agrupar las direcciones IP de sus subdominios y así mejorar la capacidad de envío de correo electrónico."
+>abstract="Los grupos de IP recopilan las direcciones IP de los subdominios para mejorar la capacidad de envío de correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
@@ -34,6 +34,10 @@ con [!DNL Journey Optimizer], puede crear grupos de IP para agrupar las direccio
 La creación de grupos de IP es muy recomendable para la entrega por correo electrónico. Al hacerlo, puede evitar que la reputación de un subdominio afecte a los demás subdominios.
 
 Por ejemplo, una práctica recomendada es tener un grupo de IP para los mensajes de marketing y otro para los mensajes transaccionales. De este modo, si uno de los mensajes de marketing tiene un rendimiento incorrecto y un cliente los declara como correo no deseado, esto no afectará a los mensajes transaccionales enviados a este mismo cliente, que seguirá recibiendo mensajes transaccionales (confirmaciones de compra, mensajes de recuperación de contraseña, etc.).
+
+>[!CAUTION]
+>
+>La configuración del grupo de IP es común a todos los entornos. Por lo tanto, cualquier creación o edición de grupos de IP también afectará a los entornos limitados de producción.
 
 ## Crear un grupo de IP {#create-ip-pool}
 
@@ -63,7 +67,7 @@ El grupo de IP ahora se crea y se muestra en la lista. Puede seleccionarlo para 
 
 ## Editar un grupo de IP {#edit-ip-pool}
 
-Para editar un grupo de IP:
+Para editar un grupo de IP, siga los pasos a continuación.
 
 1. En la lista, haga clic en el nombre del grupo de IP para abrirlo.
 

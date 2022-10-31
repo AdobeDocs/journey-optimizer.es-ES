@@ -4,10 +4,10 @@ product: journey optimizer
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '2054'
-ht-degree: 97%
+source-wordcount: '2128'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +21,8 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * La sección de casos de uso de recorrido se ha reorganizado en dos categorías: [Casos de uso empresarial](../building-journeys/journeys-uc.md) y [Casos de uso técnico](../building-journeys/collections.md).
 * La variable **Conjunto de datos de entidad** se ha actualizado con más detalles. [Más información](../start/datasets-query-examples.md#entity-dataset)
 * La información relacionada con la configuración de exclusión y las políticas de consentimiento se han reorganizado en una nueva sección. [Más información](../privacy/opt-out.md)
+* Se ha aclarado la sección sobre parámetros avanzados en los mensajes de recorrido y ahora especifica que la anulación de direcciones de correo electrónico solo debe utilizarse para casos de uso específicos. La mayoría de las veces, el valor definido como la dirección principal en la variable **Campos de ejecución** es el que debe usarse. [Más información](../messages/messages-in-journeys.md#adv-settings)
+* Se ha añadido una nota al **Configurar subdominios de página de aterrizaje** para especificar que no se permiten mayúsculas en los subdominios de la página de aterrizaje. [Más información](../configuration/lp-subdomains.md)
 
 ## Septiembre de 2022 {#september-2022}
 

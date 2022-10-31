@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '770'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 Una lista de supresión consiste en direcciones de correo electrónico que desea excluir de los envíos, ya que el envío a estos contactos podría dañar la reputación del envío y las tasas de envío.
 
-La variable [!DNL Journey Optimizer] la lista de supresión se administra en su propio nivel de entorno.
+La variable [!DNL Journey Optimizer] la lista de supresión se administra a nivel de entorno propio, es decir, para un entorno limitado determinado.
 
 Recopila direcciones de correo electrónico y dominios que se suprimen en todos los correos en un único entorno de cliente, lo que significa que son específicos de un ID de organización asociado a un ID de simulador de pruebas.
 
@@ -59,7 +59,7 @@ Para cada dirección, el motivo básico de la supresión y la categoría de supr
 >
 >Obtenga más información sobre [Informe Activo](../reports/live-report.md) y [Informe global](../reports/global-report.md). Para averiguar el motivo de todos los casos de exclusión, puede usar la variable [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
 
-### Errores de entrega {#delivery-failures}
+### Errores de envío {#delivery-failures}
 
 Existen dos tipos de errores cuando falla una entrega:
 

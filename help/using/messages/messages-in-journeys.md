@@ -7,10 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 100%
+source-wordcount: '786'
+ht-degree: 89%
 
 ---
 
@@ -83,7 +83,7 @@ Use la **[!UICONTROL Optimización del tiempo de envío]** para programar tiempo
 
 Los parámetros avanzados son de solo lectura y están ocultos de forma predeterminada.
 
-Para acceder a los parámetros avanzados, haga clic en el icono **[!UICONTROL Mostrar campos de solo lectura]** en la parte superior del panel de mensajes.
+Para acceder a los parámetros avanzados, haga clic en el icono **[!UICONTROL Mostrar campos de solo lectura]** en la parte superior del panel de mensajes. Haga clic en el mismo icono para ocultar la configuración avanzada.
 
 ![](assets/show-read-only.png)
 
@@ -93,14 +93,20 @@ Para las notificaciones push, puede mostrar los siguientes parámetros: Token, A
 
 ![](assets/push-adv-parameters.png)
 
-Para el correo electrónico, puede mostrar la dirección de correo electrónico principal.
+Para el correo electrónico, puede mostrar la variable [dirección de correo electrónico principal](../configuration/primary-email-addresses.md).
 
-Para un uso específico, puede anular estos valores en contextos concretos. Para forzar un valor, haga clic en el icono **Habilitar la sustitución de parámetros** a la derecha del campo. Esta opción puede resultar útil, por ejemplo, para lo siguiente:
+En contextos específicos, puede anular estos valores para un uso específico. Para forzar un valor, haga clic en el icono **[!UICONTROL Habilitar la sustitución de parámetros]** a la derecha del campo.
 
-* Pruebe un correo electrónico, puede añadir su dirección de correo electrónico. Después de publicar el recorrido, se le enviará el correo electrónico.
+![](assets/email-adv-parameters.png)
+
+Esta opción puede resultar útil, por ejemplo, para lo siguiente:
+
+* Pruebe un correo electrónico. Puede añadir su dirección de correo electrónico; una vez publicado el recorrido, se le enviará el correo electrónico.
 * Consulte la dirección de correo electrónico de los suscriptores de una lista. Obtenga más información en [este caso de uso](../building-journeys/message-to-subscribers-uc.md).
 
-Haga clic en el mismo icono para ocultar la configuración avanzada.
+>[!NOTE]
+>
+>La anulación de direcciones de correo electrónico solo debe utilizarse para casos de uso específicos. La mayoría de las veces, no es necesario cambiar la dirección de correo electrónico porque el valor definido como la dirección principal en la variable **[!UICONTROL Campos de ejecución]** es el que debe usarse. [Más información](../configuration/primary-email-addresses.md)
 
 ## Examen de mensajes{#browse-message}
 
