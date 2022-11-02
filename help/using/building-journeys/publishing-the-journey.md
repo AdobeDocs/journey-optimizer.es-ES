@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 8%
@@ -21,7 +21,7 @@ Puede publicar un recorrido después de probar su validez.
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-Si necesita realizar modificaciones en un recorrido publicado, debe crear una nueva versión del recorrido. Consulte [esta página](../building-journeys/journey-versions.md). Cuando un recorrido es de solo lectura, solo puede modificar las etiquetas y descripciones de la actividad, el nombre del recorrido y la descripción del recorrido.
+Si necesita realizar modificaciones en un recorrido publicado, debe crear una nueva versión del recorrido. Consulte [esta página](../building-journeys/journey.md). Cuando un recorrido es de solo lectura, solo puede modificar las etiquetas y descripciones de la actividad, el nombre del recorrido y la descripción del recorrido.
 
 Si detiene un recorrido, se detendrá permanentemente. Todas las personas que circulen en el recorrido serán permanentemente detenidas y el recorrido dejará de permitir nuevas entradas. Si necesita usar el recorrido de nuevo, debe duplicarlo y publicarlo.
 

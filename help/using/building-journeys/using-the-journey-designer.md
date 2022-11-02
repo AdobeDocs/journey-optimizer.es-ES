@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1605'
 ht-degree: 3%
 
 ---
@@ -60,15 +60,17 @@ Según el estado del recorrido, puede realizar diferentes acciones en el recorri
 
 Al diseñar el recorrido, la primera pregunta que desea hacer es cómo entrarán los perfiles en el recorrido. Hay dos posibilidades:
 
-**Iniciar con un evento**: cuando un recorrido está configurado para escuchar eventos, las personas entran en el recorrido **unitary** en tiempo real. Los mensajes incluidos en el recorrido se envían a la persona que actualmente fluye al recorrido. [Más información sobre los eventos](../event/about-events.md)
+1. **Iniciar con un evento**: cuando un recorrido está configurado para escuchar eventos, las personas entran en el recorrido **unitary** en tiempo real. Los mensajes incluidos en el recorrido se envían a la persona que actualmente fluye al recorrido. [Más información sobre los eventos](../event/about-events.md)
 
-**Comenzar con un segmento de lectura**: puede configurar el recorrido para que escuche los segmentos de Adobe Experience Platform. En este caso, todas las personas que pertenecen al segmento especificado entran en el recorrido. Los mensajes incluidos en el recorrido se envían a las personas pertenecientes al segmento. [Obtenga más información sobre la lectura de segmentos](read-segment.md).
+1. **Comenzar con un segmento de lectura**: puede configurar el recorrido para que escuche los segmentos de Adobe Experience Platform. En este caso, todas las personas que pertenecen al segmento especificado entran en el recorrido. Los mensajes incluidos en el recorrido se envían a las personas pertenecientes al segmento. [Obtenga más información sobre la lectura de segmentos](read-segment.md).
 
 ## Defina los pasos siguientes{#define-next-steps}
 
 Después del primer evento o del segmento de lectura, puede combinar las diferentes actividades para crear sus escenarios de canales cruzados de varios pasos. Elija, en la paleta, los pasos que necesite.
 
 ### Eventos{#jo-event}
+
+Los eventos son los déclencheur de un recorrido personalizado, como una compra en línea. Una vez que alguien entra en un recorrido, se mueve como individuo, y no hay dos individuos que se muevan a la misma velocidad o a lo largo de la misma ruta.
 
 Cuando se inicia el recorrido con un evento, el recorrido se activa cuando se recibe el evento. Cada persona del recorrido sigue, individualmente, los siguientes pasos definidos en el recorrido.
 
@@ -80,11 +82,15 @@ Uso **Clasificación del segmento** actividad de evento para que las personas en
 
 ### Organización{#jo-orch}
 
-Desde las actividades de organización, utilice el **Leer segmento** actividad que le permite configurar su recorrido para que escuche un segmento de Adobe Experience Platform. [Descubra más información sobre la actividad Leer segmento](read-segment.md).
+Las actividades de organización son condiciones diferentes que ayudan a determinar el siguiente paso del recorrido.
+
+Desde las actividades de organización, utilice el **Leer segmento** actividad para configurar su recorrido para que escuche un segmento de Adobe Experience Platform. [Descubra más información sobre la actividad Leer segmento](read-segment.md).
 
 Las otras actividades permiten agregar condiciones al recorrido para definir varias rutas, establecer un tiempo de espera antes de ejecutar la siguiente actividad o finalizar el recorrido. [Obtenga más información sobre las actividades de organización](about-journey-activities.md#orchestration-activities).
 
 ### Acciones{#jo-actions}
+
+Las acciones son lo que desea que ocurra como resultado de algún tipo de déclencheur, como enviar un mensaje. Es el recorrido que experimenta el cliente. Puede tratarse de un correo electrónico, un SMS o un mensaje push, o de una acción de terceros, como un mensaje de Slack.
 
 Las actividades de acción del canal le permiten incluir un mensaje diseñado en [!DNL Journey Optimizer]. [Descubra más información sobre las actividades de acción del canal](journeys-message.md)
 

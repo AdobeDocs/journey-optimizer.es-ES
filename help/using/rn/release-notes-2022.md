@@ -4,8 +4,8 @@ product: journey optimizer
 title: Notas de la versión 2022
 description: Notas de la versión de Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
-workflow-type: ht
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+workflow-type: tm+mt
 source-wordcount: '3461'
 ht-degree: 100%
 
@@ -347,7 +347,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 **Recorridos**
 
-* **Finalización de un recorrido**: en el lienzo del recorrido, la actividad **Fin** se ha eliminado de la paleta. Las etiquetas finales ahora se añaden de forma predeterminada al final de cada ruta y no se pueden eliminar. Esta mejora permite informar mejor sobre dónde abandonó un cliente el recorrido, sin que se requiera ninguna acción por parte del profesional del recorrido. Consulte la [documentación](../building-journeys/journey-end.md) y el [vídeo de funciones](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
+* **Finalización de un recorrido**: en el lienzo del recorrido, la actividad **Fin** se ha eliminado de la paleta. Las etiquetas finales ahora se añaden de forma predeterminada al final de cada ruta y no se pueden eliminar. Esta mejora permite informar mejor sobre dónde abandonó un cliente el recorrido, sin que se requiera ninguna acción por parte del profesional del recorrido. Consulte la [documentación](../building-journeys/journey.md#journey-ending) y el [vídeo de funciones](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
 
 
 * La opción **Zona horaria del perfil** ahora está desactivada de forma predeterminada en las propiedades del recorrido. [Más información](../building-journeys/timezone-management.md#timezone-from-profiles)

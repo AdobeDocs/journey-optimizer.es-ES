@@ -1,26 +1,29 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-description: Obtenga información sobre las actividades de recorrido
+title: Introducción a las actividades de recorrido
+description: Introducción a las actividades de recorrido
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 22%
+source-wordcount: '428'
+ht-degree: 14%
 
 ---
 
-# Acerca de las actividades de recorrido {#about-journey-activities}
+# Introducción a las actividades de recorrido {#about-journey-activities}
 
 Combine las distintas actividades de evento, orquestación y acción para crear sus escenarios de canal cruzado de varios pasos.
 
 ## Actividades de eventos {#event-activities}
 
-Los eventos configurados por el usuario técnico (consulte [esta página](../event/about-events.md)) se muestran en la primera categoría de la paleta, en la parte izquierda de la pantalla. Las siguientes actividades de eventos están disponibles:
+Los eventos son los déclencheur de un recorrido personalizado, como una compra en línea. Una vez que alguien entra en un recorrido, se mueve como individuo, y no hay dos individuos que se muevan a la misma velocidad o a lo largo de la misma ruta. Cuando se inicia el recorrido con un evento, el recorrido se activa cuando se recibe el evento. Cada persona del recorrido sigue, individualmente, los siguientes pasos definidos en el recorrido.
+
+Eventos configurados por el usuario técnico (consulte [esta página](../event/about-events.md)) se muestran en la primera categoría de la paleta, en la parte izquierda de la pantalla. Las siguientes actividades de eventos están disponibles:
 
 * [Eventos generales](../building-journeys/general-events.md)
 * [Reacción](../building-journeys/reaction-events.md)
@@ -34,6 +37,8 @@ Inicie el recorrido arrastrando y soltando una actividad de evento. También pue
 
 ## Actividades de organización {#orchestration-activities}
 
+Las actividades de organización son condiciones diferentes que ayudan a determinar el siguiente paso del recorrido. Puede ser si la persona tiene un caso de soporte abierto o no, el pronóstico del tiempo en su ubicación actual, si completó una compra o no, o si alcanzó 10 000 puntos de lealtad.
+
 En la paleta, en la parte izquierda de la pantalla, están disponibles las siguientes actividades de organización:
 
 * [Condición](../building-journeys/condition-activity.md)
@@ -44,7 +49,9 @@ En la paleta, en la parte izquierda de la pantalla, están disponibles las sigui
 
 ## Actividades de acción {#action-activities}
 
-Desde la paleta, en la parte izquierda de la pantalla, debajo **[!UICONTROL Eventos]** y **[!UICONTROL Organización]**, encontrará la variable **[!UICONTROL Acciones]** categoría. Las siguientes actividades de acción están disponibles:
+Las acciones son lo que desea que ocurra como resultado de algún tipo de déclencheur, como enviar un mensaje. Es el recorrido que experimenta el cliente.
+
+Desde la paleta, en la parte izquierda de la pantalla, debajo **[!UICONTROL Eventos]** y **[!UICONTROL Organización]**, puede encontrar la variable **[!UICONTROL Acciones]** categoría. Las siguientes actividades de acción están disponibles:
 
 * [Correo electrónico, SMS, push](../building-journeys/journeys-message.md)
 * [Acciones personalizadas](../building-journeys/using-custom-actions.md)
@@ -54,7 +61,7 @@ Desde la paleta, en la parte izquierda de la pantalla, debajo **[!UICONTROL Even
 
 Estas actividades representan los diferentes canales de comunicación disponibles. Puede combinarlas para crear un escenario multicanal.
 
-Si ha configurado acciones personalizadas, estas aparecerán aquí (consulte [esta página](../building-journeys/using-custom-actions.md)).
+Si ha configurado acciones personalizadas, estas también aparecerán aquí. [Más información](../building-journeys/using-custom-actions.md)).
 
 ## Prácticas recomendadas {#best-practices}
 
