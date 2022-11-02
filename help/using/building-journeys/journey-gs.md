@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 412f7efe2da9f9b1a8fa49f1243ca63c4e0d01c0
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 11%
+source-wordcount: '1012'
+ht-degree: 13%
 
 ---
 
@@ -93,15 +93,9 @@ La variable **Copiar detalles técnicos** le permite copiar información técnic
 
 ### Entrada{#entrance}
 
-De forma predeterminada, los nuevos recorridos permiten volver a entrar. Puede desmarcar la opción de recorridos de &quot;una toma&quot;, por ejemplo, si desea ofrecer un regalo único cuando una persona entra en una tienda. En ese caso, no desea que el cliente pueda volver a entrar en el recorrido y recibir la oferta de nuevo.
+De forma predeterminada, los nuevos recorridos permiten volver a entrar. Puede desmarcar la opción de recorridos de &quot;una toma&quot;, por ejemplo, si desea ofrecer un regalo único cuando una persona entra en una tienda.
 
-Cuando un recorrido &quot;termina&quot;, tendrá el estado **[!UICONTROL Cerrado]**. El recorrido dejará de permitir la entrada al recorrido de nuevos individuos. Las personas que ya están en el recorrido terminarán normalmente el recorrido.
-
-Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará a la variable **Finalizado** estado. Consulte esta [sección](../building-journeys/journey-gs.md#global_timeout).
-
->[!NOTE]
->
->Los recorridos unitarios (comenzando por un evento o una calificación de segmento) incluyen una protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante 5 minutos. Por ejemplo, si un evento déclencheur un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
+Obtenga más información sobre la administración de la entrada de perfiles en [esta sección](entry-management.md).
 
 ### Tiempo de espera y error en las actividades de recorrido {#timeout_and_error}
 
