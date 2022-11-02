@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1248'
 ht-degree: 95%
 
 ---
@@ -32,19 +32,19 @@ ht-degree: 95%
    + [Interfaz de usuario](using/start/user-interface.md)
    + [Límites de protección ](using/start/guardrails.md)
 + Recorridos {#orchestrate-journeys}
-   + Acerca de los recorridos{#about-journeys}
+   + Introducción a los recorridos{#about-journeys}
       + [Principio general](using/building-journeys/journey.md)
       + [Ciclo de vida del recorrido](using/building-journeys/journey-end.md)
       + [Versiones de recorridos](using/building-journeys/journey-versions.md)
-      + [Integración con servicios inteligentes](using/building-journeys/ai-services-overview.md)
    + Creación de un recorrido{#create-journey}
-      + [Introducción a los recorridos](using/building-journeys/journey-gs.md)
+      + [Creación de su primer recorrido](using/building-journeys/journey-gs.md)
       + [Diseño de un recorrido](using/building-journeys/using-the-journey-designer.md)
       + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
       + [Publicación del recorrido](using/building-journeys/publishing-the-journey.md)
       + [Administración de husos horarios](using/building-journeys/timezone-management.md)
       + [Copia de un recorrido en otra zona protegida](using/building-journeys/copy-to-sandbox.md)
       + [Resolución de problemas del recorrido](using/building-journeys/troubleshooting.md)
+      + [Integración con servicios inteligentes](using/building-journeys/ai-services-overview.md)
    + Actividades {#about-journey-building}
       + [Acerca de las actividades de recorrido](using/building-journeys/about-journey-activities.md)
       + [Eventos generales](using/building-journeys/general-events.md)

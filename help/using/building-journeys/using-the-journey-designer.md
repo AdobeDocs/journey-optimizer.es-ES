@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 4%
+source-wordcount: '1507'
+ht-degree: 3%
 
 ---
 
@@ -22,11 +22,13 @@ ht-degree: 4%
 >title="Diseño de un recorrido"
 >abstract="La interfaz de recorrido permite arrastrar y soltar fácilmente actividades de la paleta en el lienzo. También puede hacer doble clic en una actividad para agregarla al lienzo en el siguiente paso disponible."
 
-La interfaz de recorrido permite arrastrar y soltar fácilmente actividades de la paleta en el lienzo. También puede hacer doble clic en una actividad para agregarla al lienzo en el siguiente paso disponible. Cada actividad tiene una función y un lugar específicos en el proceso. Las actividades se secuencian. Cuando finaliza una actividad, el flujo continúa y procesa la siguiente actividad, etc.
+Adobe Journey Optimizer incluye un lienzo de orquestación omnicanal que permite a los especialistas en marketing armonizar el alcance de marketing con la participación de los clientes uno a uno. La interfaz de usuario le permite arrastrar y soltar fácilmente actividades de la paleta en el lienzo para crear su recorrido. Tenga en cuenta que también puede hacer doble clic en una actividad para agregarla al lienzo, en el siguiente paso disponible.
+
+Las actividades de eventos, orquestación y acción tienen una función y un lugar específicos en el proceso. Las actividades se secuencian: cuando finaliza una actividad, el flujo continúa y procesa la siguiente actividad, etc.
 
 ## Introducción al diseño de recorrido {#gs-journey-design}
 
-La variable **paleta** en el lado izquierdo de la pantalla. Todas las actividades disponibles se clasifican en varias categorías: **[!UICONTROL Eventos]**, **[!UICONTROL Organización]** y **[!UICONTROL Acciones]**. Puede expandir/contraer las diferentes categorías haciendo clic en su nombre. Para utilizar una actividad en el recorrido, arrástrela desde la paleta y suéltela en el lienzo.
+La variable **paleta** en el lado izquierdo de la pantalla. Todas las actividades disponibles se clasifican en varias categorías: [Eventos](#jo-event), [Organización](#jo-orch) y [Acciones](#jo-actions). Puede expandir/contraer las diferentes categorías haciendo clic en su nombre. Para utilizar una actividad en el recorrido, arrástrela desde la paleta y suéltela en el lienzo.
 
 Al iniciar un nuevo recorrido, los elementos que no se pueden soltar en el lienzo como primer paso se ocultan. Esto se refiere a todas las acciones, la actividad de la condición, la espera y la reacción.
 
@@ -66,27 +68,27 @@ Al diseñar el recorrido, la primera pregunta que desea hacer es cómo entrarán
 
 Después del primer evento o del segmento de lectura, puede combinar las diferentes actividades para crear sus escenarios de canales cruzados de varios pasos. Elija, en la paleta, los pasos que necesite.
 
-**Eventos**
+### Eventos{#jo-event}
 
-Cuando inicie el recorrido con un evento , el recorrido se activará cuando se reciba el evento. La persona seguirá, individualmente, los siguientes pasos definidos en su recorrido.
+Cuando se inicia el recorrido con un evento, el recorrido se activa cuando se recibe el evento. Cada persona del recorrido sigue, individualmente, los siguientes pasos definidos en el recorrido.
 
-Puede añadir **varios eventos** en el recorrido, siempre que utilicen el mismo espacio de nombres. Los eventos se configuran de antemano. [Más información sobre los eventos](about-journey-activities.md#event-activities)
+Puede añadir **varios eventos** en el recorrido, siempre que utilicen el mismo espacio de nombres. Los eventos se configuran de antemano. [Más información sobre los eventos de recorrido](about-journey-activities.md#event-activities)
 
-También puede agregar un **Reacción** después de un mensaje para reaccionar ante los datos de seguimiento relacionados con el mensaje. Esto le permite, por ejemplo, enviar otro mensaje si el individuo ha abierto el mensaje anterior o ha hecho clic en él. Obtenga más información en esta [sección](reaction-events.md).
+También puede agregar un **Reacción** después de un mensaje para reaccionar ante los datos de seguimiento relacionados con el mensaje. Esto le permite, por ejemplo, enviar otro mensaje si el individuo ha abierto el mensaje anterior o ha hecho clic en él. [Más información sobre los eventos de reacción](reaction-events.md).
 
-La variable **Clasificación del segmento** la actividad de evento le permite hacer que las personas entren o avancen en un recorrido en función de las entradas y salidas de segmentos de Adobe Experience Platform. Puede hacer que todos los clientes nuevos de plata introduzcan un recorrido y envíen mensajes personalizados. Obtenga más información en esta [sección](segment-qualification-events.md).
+Uso **Clasificación del segmento** actividad de evento para que las personas entren o avancen en un recorrido basado en las entradas y salidas de segmentos de Adobe Experience Platform. Puede hacer que todos los clientes nuevos de plata introduzcan un recorrido y envíen mensajes personalizados. Obtenga más información en esta [sección](segment-qualification-events.md).
 
-**Organización**
+### Organización{#jo-orch}
 
-En las actividades de organización, encontrará la variable **Leer segmento** actividad que le permite configurar su recorrido para que escuche un segmento de Adobe Experience Platform. [Descubra más información sobre la actividad Leer segmento](read-segment.md).
+Desde las actividades de organización, utilice el **Leer segmento** actividad que le permite configurar su recorrido para que escuche un segmento de Adobe Experience Platform. [Descubra más información sobre la actividad Leer segmento](read-segment.md).
 
-Las otras actividades permiten agregar condiciones al recorrido para definir varias rutas, establecer un tiempo de espera antes de ejecutar la siguiente actividad o finalizar el recorrido. Obtenga más información en esta [sección](about-journey-activities.md#orchestration-activities).
+Las otras actividades permiten agregar condiciones al recorrido para definir varias rutas, establecer un tiempo de espera antes de ejecutar la siguiente actividad o finalizar el recorrido. [Obtenga más información sobre las actividades de organización](about-journey-activities.md#orchestration-activities).
 
-**Acciones**
+### Acciones{#jo-actions}
 
-Aquí encontrará la actividad de acción del canal que le permite incluir un mensaje diseñado en [!DNL Journey Optimizer]. [Descubra más información sobre las actividades de acción del canal](journeys-message.md)
+Las actividades de acción del canal le permiten incluir un mensaje diseñado en [!DNL Journey Optimizer]. [Descubra más información sobre las actividades de acción del canal](journeys-message.md)
 
-También encontrará las acciones personalizadas que ha configurado para enviar mensajes con sistemas de terceros. Obtenga más información en esta [sección](about-journey-activities.md#action-activities).
+Desde las actividades de acción, utilice acciones personalizadas para enviar mensajes con sistemas de terceros. [Más información sobre las acciones personalizadas](about-journey-activities.md#action-activities).
 
 ## Adición de rutas alternativas{#paths}
 
