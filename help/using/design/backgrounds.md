@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 En cuanto a la configuración de fondos con el Diseñador de correo electrónico, Adobe recomienda lo siguiente:
 
 1. Aplique un color de fondo al cuerpo del correo electrónico si lo requiere el diseño.
-1. En la mayoría de los casos, defina los colores de fondo en el nivel de columna.
+1. Normalmente, defina los colores de fondo en el nivel de columna.
 1. Intente no utilizar colores de fondo en componentes de imagen o texto, ya que son difíciles de administrar.
 
 A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
