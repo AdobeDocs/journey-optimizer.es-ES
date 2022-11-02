@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 14%
+source-wordcount: '146'
+ht-degree: 15%
 
 ---
 
@@ -20,10 +20,6 @@ ht-degree: 14%
 # Acceso y administración de audiencias {#access-manage-audiences}
 
 Se puede acceder a las audiencias desde la **[!UICONTROL Audiencias]** en la ficha **[!UICONTROL Segmentos]** para abrir el Navegador.
-
->[!IMPORTANT]
->
->Por ahora, las audiencias resultantes de los flujos de trabajo de composición no se pueden segmentar en Journey Optimizer.
 
 Esta pestaña enumera todas las audiencias almacenadas en Adobe Experience Platform. Las audiencias creadas mediante composiciones de audiencias se pueden identificar mediante la variable **[!UICONTROL Composición de audiencia]** origen.
 

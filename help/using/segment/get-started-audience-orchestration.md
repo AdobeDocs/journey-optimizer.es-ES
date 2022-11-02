@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '250'
 ht-degree: 9%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 9%
 
 La composición de audiencias le permite crear **flujos de trabajo de composición**, donde puede combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (divididas, excluidas...) para crear nuevas audiencias.
 
-Una vez finalizado, el **audiencias resultantes** se guardan con la copia de seguridad en Adobe Experience Platform junto con las audiencias existentes.<!--, and can be **leveraged in campaigns** to target customers.-->
+Una vez finalizado, el **audiencias resultantes** se guardan en Adobe Experience Platform junto con audiencias existentes y se pueden **aprovechado en campañas** para dirigirse a los clientes.
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->Por ahora, las audiencias resultantes de los flujos de trabajo de composición no se pueden segmentar en Journey Optimizer. No se pueden segmentar en Adobe Experience Platform Destinations.
+>Las audiencias resultantes de los flujos de trabajo de composición solo se pueden dirigir a campañas de Journey Optimizer. No están disponibles para su uso en recorridos.
 
 ## Acceder a la composición de la audiencia {#access}
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 6%
+source-wordcount: '365'
+ht-degree: 7%
 
 ---
 
@@ -39,13 +39,11 @@ Los flujos de trabajo de composición le permiten combinar y organizar audiencia
    * **[!UICONTROL Guardar]**: el último paso de la composición. Esta actividad le permite guardar el resultado del flujo de trabajo en una audiencia nueva.
    Para obtener más información sobre cómo configurar actividades en el lienzo del flujo de trabajo de composición, consulte [Trabajo con el lienzo de composición](composition-canvas.md).
 
-1. Seleccione el **[!UICONTROL Audiencia]** y, a continuación, especifique una etiqueta para la composición.
+1. Abra las propiedades de composición para especificar un título y una descripción.
 
-   >[!IMPORTANT]
-   >
-   >La variable **[!UICONTROL Audiencia]** la etiqueta de actividad es la etiqueta de su composición. Asegúrese de proporcionar un nombre significativo para recuperar la composición más fácilmente en la lista.
+   Si no se define ningún título en las propiedades, la etiqueta de composición será la que comience **[!UICONTROL Audiencia]** actividad.
 
-   ![](assets/audiences-new-composition.png)
+   ![](assets/audiences-properties.png)
 
 1. Configure la composición agregando tantas actividades como sea necesario entre las variables **[!UICONTROL Audiencia]** y **[!UICONTROL Guardar]** actividades. [Aprenda a trabajar con el lienzo de composición](composition-canvas.md)
 
@@ -57,7 +55,7 @@ Los flujos de trabajo de composición le permiten combinar y organizar audiencia
 
    ![](assets/audiences-alerts.png)
 
-1. Se publica la composición. Las audiencias resultantes se guardan en Adobe Experience Platform. <!-- and are ready to be targeted in Journey Optimizer campaigns. [Get started with campaigns](../campaigns/get-started-with-campaigns.md)-->
+1. Se publica la composición. Las audiencias resultantes se guardan en Adobe Experience Platform y están listas para ser segmentadas en campañas de Journey Optimizer. [Introducción a las campañas](../campaigns/get-started-with-campaigns.md)
 
 ## Composiciones de acceso {#access}
 
@@ -69,7 +67,7 @@ Los flujos de trabajo de composición le permiten combinar y organizar audiencia
 Se puede acceder a todas las composiciones creadas desde la **[!UICONTROL Composiciones]** pestaña . Pueden tener varios estados:
 
 * **[!UICONTROL Borrador]**: la composición está en curso y no se ha publicado.
-* **[!UICONTROL Publicado]**: se ha publicado la composición, se han guardado las audiencias resultantes. <!-- and are available for use.-->
+* **[!UICONTROL Publicado]**: la composición se ha publicado, las audiencias resultantes se han guardado y están disponibles para su uso.
 * **[!UICONTROL Archivado]**: la composición se ha archivado.
 
 ![](assets/audiences-compositions.png)

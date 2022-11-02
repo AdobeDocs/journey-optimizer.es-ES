@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1040'
 ht-degree: 2%
 
 ---
@@ -28,24 +28,28 @@ Los pasos para configurar una composición en el lienzo de composición son los 
 
 ## Seleccionar la audiencia de inicio {#starting-audience}
 
->[!CONTEXTUALHELP]
->id="ajo_ao_merge_types"
->title="Combinar tipos"
->abstract="Especifique cómo se deben combinar los perfiles de las audiencias seleccionadas."
-
 El primer paso para crear una composición es seleccionar una o varias audiencias existentes como base de la composición.
 
-Seleccione el **[!UICONTROL Audiencia]** a continuación, haga clic en la **[!UICONTROL Añadir audiencia]** a continuación, seleccione una o varias audiencias.
+1. Seleccione el **[!UICONTROL Audiencia]** a continuación, proporcione una etiqueta para la actividad.
+
+1. Elija la audiencia objetivo:
+
+   * Haga clic en el **[!UICONTROL Añadir audiencia]** para seleccionar una o varias audiencias existentes,
+   * Haga clic en el **[!UICONTROL Generar regla]** para crear una nueva definición de segmento con el [Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+
+   ![](assets/audiences-choose-audience.png)
+
+1. Si hay varias audiencias seleccionadas, especifique cómo se deben combinar los perfiles de estas audiencias:
+
+* **[!UICONTROL Unión]**: incluir todos los perfiles de las audiencias seleccionadas,
+* **[!UICONTROL Intersección]**: incluir perfiles comunes a todas las audiencias seleccionadas,
+* **[!UICONTROL Excluir superposición]**: incluir perfiles que pertenecen a una sola audiencia. No se incluirán los perfiles pertenecientes a más de una audiencia.
 
 En este ejemplo, queremos segmentar todos los perfiles pertenecientes a las audiencias de oro y plata.
 
 ![](assets/audiences-starting-audience.png)
 
-Si selecciona varias audiencias, especifique cómo se deben combinar los perfiles de estas audiencias:
-
-* **[!UICONTROL Unión]**: incluir todos los perfiles de las audiencias seleccionadas,
-* **[!UICONTROL Intersección]**: incluir perfiles comunes a todas las audiencias seleccionadas,
-* **[!UICONTROL Excluir superposición]**: incluir perfiles que pertenecen a una sola audiencia. No se incluirán los perfiles pertenecientes a más de una audiencia.
+Una vez seleccionadas las audiencias, el número estimado de perfiles se muestra en la parte inferior de la actividad.
 
 ## Agregar actividades {#action-activities}
 
@@ -74,6 +78,11 @@ Las actividades disponibles son:
 >id="ajo_ao_audience"
 >title="Actividad de audiencia"
 >abstract="La actividad Audiencia le permite incluir en su composición perfiles adicionales que pertenecen a una audiencia existente."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_merge_types"
+>title="Combinar tipos"
+>abstract="Especifique cómo se deben combinar los perfiles de las audiencias seleccionadas."
 
 La variable **[!UICONTROL Audiencia]** actividad le permite incluir en su composición perfiles adicionales que pertenecen a una audiencia existente.
 
