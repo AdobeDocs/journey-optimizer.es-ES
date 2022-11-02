@@ -7,9 +7,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: d8fb8759fcd688deec56cb7247ddf082e6d6766d
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '577'
 ht-degree: 19%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 19%
 
 # Introducción a los recorridos{#jo-general-principle}
 
-Uso [!DNL Journey Optimizer] para crear casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos.
+Uso [!DNL Journey Optimizer] para crear casos de uso de orquestación en tiempo real utilizando datos contextuales almacenados en eventos o fuentes de datos.
 
 Diseñe escenarios avanzados de varios pasos con las siguientes capacidades:
 
@@ -74,7 +74,7 @@ Al buscar un recorrido, las versiones más recientes aparecen en la parte superi
 
 >[!NOTE]
 >
->En la mayoría de los casos, un perfil no puede estar presente varias veces en el mismo recorrido, al mismo tiempo. Si la reentrada está activada, un perfil puede volver a introducir un recorrido, pero no puede hacerlo hasta que salga completamente de la instancia anterior del recorrido. [Más información](end-journey.md).
+>Normalmente, un perfil no puede estar presente varias veces en el mismo recorrido, al mismo tiempo. Si la reentrada está activada, un perfil puede volver a introducir un recorrido, pero no puede hacerlo hasta que salga completamente de la instancia anterior del recorrido. [Más información](end-journey.md).
 
 Si necesita modificar a un recorrido activo, cree una nueva versión de su recorrido.
 
