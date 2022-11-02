@@ -7,7 +7,7 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 133d143442eb048c7916eff511c141ca46be673d
+source-git-commit: d8fb8759fcd688deec56cb7247ddf082e6d6766d
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 19%
