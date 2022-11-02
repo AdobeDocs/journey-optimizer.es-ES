@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 7%
+source-wordcount: '367'
+ht-degree: 5%
 
 ---
 
@@ -55,7 +55,7 @@ Los flujos de trabajo de composición le permiten combinar y organizar audiencia
 
    ![](assets/audiences-alerts.png)
 
-1. Se publica la composición. Las audiencias resultantes se guardan en Adobe Experience Platform y están listas para ser segmentadas en campañas de Journey Optimizer. [Introducción a las campañas](../campaigns/get-started-with-campaigns.md)
+1. Se publica la composición. Las audiencias resultantes se guardan en Adobe Experience Platform y están listas para ser segmentadas en campañas de Journey Optimizer. [Aprenda a trabajar con campañas](../campaigns/get-started-with-campaigns.md)
 
 ## Composiciones de acceso {#access}
 

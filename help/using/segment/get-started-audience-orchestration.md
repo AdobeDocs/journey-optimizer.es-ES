@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '256'
 ht-degree: 9%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 9%
 
 La composición de audiencias le permite crear **flujos de trabajo de composición**, donde puede combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (divididas, excluidas...) para crear nuevas audiencias.
 
-Una vez finalizado, el **audiencias resultantes** se guardan en Adobe Experience Platform junto con audiencias existentes y se pueden **aprovechado en campañas** para dirigirse a los clientes.
+Una vez finalizado, el **audiencias resultantes** se guardan en Adobe Experience Platform junto con audiencias existentes y se pueden **aprovechado en campañas** para dirigirse a los clientes. [Aprenda a trabajar con campañas](../campaigns/get-started-with-campaigns.md)
 
 ![](assets/audiences-process.png)
 
