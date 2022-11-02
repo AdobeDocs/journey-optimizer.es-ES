@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 10%
@@ -44,7 +44,7 @@ Uso [!DNL Journey Optimizer] Diseñador de correo electrónico para [diseñar el
 
 Uso [!DNL Journey Optimizer] Editor de expresiones para personalizar los mensajes con los datos de los perfiles. Para obtener más información sobre personalización, consulte [esta sección](../personalization/personalize.md).
 
-Adaptar el contenido de los mensajes a los perfiles de destino aprovechando [!DNL Journey Optimizer] funciones de contenido dinámico. [Introducción al contenido dinámico](../personalization/get-started-dynamic-content.md)
+Adaptar el contenido de los mensajes a los perfiles de destino mediante [!DNL Journey Optimizer] funciones de contenido dinámico. [Introducción al contenido dinámico](../personalization/get-started-dynamic-content.md)
 
 ## Seguimiento de correo electrónico{#email-tracking}
 
