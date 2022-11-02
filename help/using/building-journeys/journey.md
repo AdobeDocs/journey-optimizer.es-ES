@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: 992f1ee215cc7f14d7f29a0bd592838fead2568c
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 9%
@@ -62,7 +62,7 @@ Un recorrido puede finalizar para un individuo en dos contextos específicos:
 
 La persona puede volver a entrar en el recorrido si se permite la reentrada. Consulte [esta página](../building-journeys/journey-gs.md#change-properties)
 
-Para finalizar un recorrido activo, le recomendamos que lo cierre. La llegada de nuevos clientes al recorrido será bloqueada. Los clientes que ya han entrado en el recorrido pueden experimentarlo hasta el final. Consulte [esta sección](../building-journeys/.md#close-journey)
+Para finalizar un recorrido activo, le recomendamos que lo cierre. La llegada de nuevos clientes al recorrido será bloqueada. Los clientes que ya han entrado en el recorrido pueden experimentarlo hasta el final. Consulte [esta sección](../building-journeys/journey.md#close-journey)
 
 Puede detener un recorrido solo si se ha producido una emergencia y todo el procesamiento debe finalizar inmediatamente en un recorrido. A las personas que ya entraron en un recorrido se les detiene el progreso. Consulte [esta sección](../building-journeys/journey.md#stop-journey)
 
