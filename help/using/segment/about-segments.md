@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: df16e6be53629ef529b765c9e36a293234244867
+source-git-commit: adfd47f23188935f6382a18d0de4a6101f022d78
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '460'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Puede aprovechar los segmentos en los recorridos de diferentes maneras:
 
 * Generar **condiciones complejas** en sus recorridos con el editor de expresiones simple o avanzada. Obtenga más información en [esta sección](../building-journeys/condition-activity.md#using-a-segment).
 
-## Método de evaluación en Adobe Journey Optimizer {#evaluation-method-in-journey-optimizer}
+## Método de evaluación de audiencia {#evaluation-method-in-journey-optimizer}
 
 En Adobe Journey Optimizer, las audiencias se generan a partir de definiciones de segmentos mediante uno de estos métodos de evaluación:
 
