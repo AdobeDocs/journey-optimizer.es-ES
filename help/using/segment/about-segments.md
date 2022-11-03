@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 1a2a5ed846319e7387589284e954d4c759b6b25e
+source-git-commit: df16e6be53629ef529b765c9e36a293234244867
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '463'
 ht-degree: 2%
 
 ---
@@ -35,8 +35,9 @@ Puede aprovechar los segmentos en los recorridos de diferentes maneras:
 
 En Adobe Journey Optimizer, las audiencias se generan a partir de definiciones de segmentos mediante uno de estos métodos de evaluación:
 
-* Segmentación por transmisión : la lista de audiencia del segmento se mantiene actualizada en tiempo real mientras los nuevos datos fluyen al sistema.
-* Segmentación por lotes: la lista de audiencia del segmento se evalúa cada 24 horas. Sin embargo, para los segmentos existentes, la segmentación incremental mantiene los segmentos actualizados durante hasta una hora.
+* Segmentación por transmisión : la lista de audiencia del segmento se mantiene actualizada en tiempo real mientras los nuevos datos fluyen al sistema. La segmentación por transmisión es un proceso continuo de selección de datos que actualiza los segmentos en respuesta a la actividad del usuario. Una vez que se ha creado y guardado un segmento, la definición del segmento se aplica a los datos entrantes en Journey Optimizer. Las adiciones y eliminaciones de segmentos se procesan con regularidad, lo que garantiza que la audiencia de destino siga siendo relevante.
+
+* Segmentación por lotes: la lista de audiencia del segmento se evalúa cada 24 horas. Como alternativa a un proceso continuo de selección de datos, la segmentación por lotes mueve todos los datos de perfil a la vez a través de definiciones de segmentos para producir las audiencias correspondientes. Una vez creado, este segmento se guarda y se almacena para que pueda exportarlo para utilizarlo.
 
 El sistema determina la segmentación por lotes y la segmentación de flujo continuo para cada definición de segmento, en función de la complejidad y el coste de la evaluación de la regla de segmento.
 
