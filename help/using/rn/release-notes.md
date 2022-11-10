@@ -5,9 +5,9 @@ title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -48,11 +48,11 @@ En esta página se enumeran todas las nuevas funciones y mejoras de [!DNL Journe
 
 **Recorridos**
 
-* La variable **Obligar a volver a entrar en el sistema cuando se repita** se ha añadido en los parámetros de programación de segmentos de lectura recurrentes. Esta opción le permite hacer que todos los perfiles que aún están presentes en el recorrido se cierren automáticamente en la siguiente ejecución. Cuando la opción está desactivada, los perfiles deben finalizar el recorrido antes de poder volver a entrar en otra incidencia. [Más información](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* La opción **Forzar reentrada en repetición** se ha añadido en los parámetros de programación de segmentos de lectura recurrentes. Esta opción le permite hacer que todos los perfiles que aún están presentes en el recorrido se cierren automáticamente en la siguiente ejecución. Cuando la opción está desactivada, los perfiles deben finalizar el recorrido antes de poder volver a entrar en otra ocurrencia. [Más información](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **Administración**
 
-* Se agregó un mensaje a la interfaz de usuario para advertir que las configuraciones de subdominio, subdominio de página de aterrizaje, registro PTR y grupo de IP son comunes a todos los entornos limitados, por lo que cualquier modificación en una de estas configuraciones también afectará a los entornos limitados de producción.
+* Se ha agregado un mensaje a la interfaz de usuario para advertir que las configuraciones de subdominio, subdominio de página de aterrizaje, registro PTR y grupo de IP son comunes a todas las zonas protegidas, por lo que cualquier modificación en una de estas configuraciones también afectará a las zonas protegidas de producción.
 * Se han modificado los pasos para cargar la lista de supresión como archivo CSV desde la interfaz de usuario. [Más información](../configuration/manage-suppression-list.md#download-suppression-list)
 
 **Campañas**
