@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
 source-wordcount: '1572'
 ht-degree: 1%
@@ -23,7 +23,7 @@ con [!DNL Journey Optimizer], puede configurar superficies de canal (es decir, a
 >
 > * Para crear, editar y eliminar superficies de canal, debe tener la variable [Administrar superficie de canal](../administration/high-low-permissions.md#manage-channel-surface) permiso.
 >
-> * Debe realizar la [Configuración de correo electrónico](#configure-email-settings), [Configuración push](../configuration/push-configuration.md) y [Configuración de SMS](../configuration/sms-configuration.md) pasos antes de crear superficies de canal.
+> * Debe realizar la [Configuración de correo electrónico](email-settings.md), [Configuración push](../configuration/push-configuration.md) y [Configuración de SMS](../configuration/sms-configuration.md) pasos antes de crear superficies de canal.
 
 
 Una vez configuradas las superficies del canal, se pueden seleccionar al crear mensajes desde un recorrido o una campaña.
@@ -130,7 +130,7 @@ Una vez creadas, las superficies de canal pueden tener los siguientes estados:
 
 En caso de que falle la creación de la superficie del canal, a continuación se describen los detalles de cada posible motivo de fallo.
 
-Si se produce uno de estos errores, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} para obtener ayuda.
+Si se produce uno de estos errores, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} para obtener ayuda.
 
 * **Error de validación de SPF**: SPF (Marco de Política del Remitente) es un protocolo de autenticación por correo electrónico que permite especificar direcciones IP autorizadas que pueden enviar correos electrónicos desde un subdominio determinado. El error de validación de SPF significa que las direcciones IP del registro de SPF no coinciden con las direcciones IP utilizadas para enviar correos electrónicos a los proveedores de buzones de correo.
 

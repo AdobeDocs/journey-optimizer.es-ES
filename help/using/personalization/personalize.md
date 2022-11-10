@@ -8,10 +8,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 34%
+source-wordcount: '322'
+ht-degree: 35%
 
 ---
 
@@ -58,6 +58,6 @@ Aprenda a utilizar la información de evento contextual de un recorrido para per
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-Aprenda a utilizar la información de evento contextual de un recorrido para personalizar un mensaje.
+Obtenga información sobre cómo añadir personalización basada en perfiles a un mensaje y cómo utilizar el abono a un segmento como condición previa a un bloque personalizado.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

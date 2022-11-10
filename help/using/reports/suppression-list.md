@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '767'
 ht-degree: 4%
 
 ---
 
 # Lista de supresión {#suppression-list}
 
-Una lista de supresión consiste en direcciones de correo electrónico que desea excluir de los envíos, ya que el envío a estos contactos podría dañar la reputación del envío y las tasas de envío.
+Una lista de supresión consta de direcciones y dominios que desea excluir de los envíos, ya que el envío a estos contactos podría dañar la reputación de envío y las tasas de envío.
 
 La variable [!DNL Journey Optimizer] la lista de supresión se administra a nivel de entorno propio, es decir, para un entorno limitado determinado.
 
@@ -25,7 +25,7 @@ Recopila direcciones de correo electrónico y dominios que se suprimen en todos 
 
 >[!NOTE]
 >
->Adobe mantiene una lista actualizada de las direcciones de correo electrónico erróneas conocidas que han demostrado ser perjudiciales para la participación y la reputación del correo, y garantiza que los correos electrónicos no se envíen a ellas. Esta lista se administra en una lista global de supresión que es común en todos los clientes de Adobe. Las direcciones y los nombres de dominio contenidos en la lista de supresión global están ocultos. En los informes de envío solo se indica el número de destinatarios excluidos.
+>Adobe mantiene una lista actualizada de las direcciones incorrectas conocidas que se han probado que son perjudiciales para la participación y la reputación del correo, y garantiza que los correos electrónicos no se envíen a ellas. Esta lista se administra en una lista global de supresión que es común en todos los clientes de Adobe. Las direcciones y los nombres de dominio contenidos en la lista de supresión global están ocultos. En los informes de envío solo se indica el número de destinatarios excluidos.
 
 ## ¿Por qué una lista de supresión? {#why-suppression-list}
 
@@ -37,11 +37,11 @@ Los destinatarios cuyas direcciones de correo electrónico se supriman se excluy
 
 ## ¿Qué hay en la lista de supresión? {#what-s-on-suppression-list}
 
-Las direcciones de correo electrónico se añaden a la lista de supresión de la siguiente manera:
+Las direcciones se añaden a la lista de supresión de la siguiente manera:
 
-* Todo **rechazos graves** y **quejas por correo no deseado** envíe automáticamente las direcciones de correo electrónico correspondientes a la lista de supresión después de una sola incidencia.
+* Todo **rechazos graves** y **quejas por correo no deseado** envíe automáticamente las direcciones correspondientes a la lista de supresión después de una sola incidencia.
 
-* **Rechazos leves** no envíe inmediatamente una dirección de correo electrónico a la lista de supresión, sino que se sumará a un contador de errores. Varios [reintentos](../configuration/retries.md) a continuación, se realizan y, cuando el contador de errores alcanza el umbral, la dirección se agrega a la lista de supresión.
+* **Rechazos leves** no envíe inmediatamente una dirección a la lista de supresión, sino que se sumará a un contador de errores. Varios [reintentos](../configuration/retries.md) a continuación, se realizan y, cuando el contador de errores alcanza el umbral, la dirección se agrega a la lista de supresión.
 
 * También puede [**manualmente** añadir una dirección o un dominio](../configuration/manage-suppression-list.md#add-addresses-and-domains) a la lista de supresión.
 

@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1418'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,16 @@ ht-degree: 2%
 Defina la configuración del correo electrónico en la sección dedicada de la configuración de la superficie del canal (es decir, la configuración preestablecida de mensajes). Aprenda a crear superficies en [esta sección](channel-surfaces.md).
 
 ![](assets/preset-email-settings.png)
+
+La configuración de la superficie del correo electrónico se recoge para enviar comunicaciones siguiendo la lógica siguiente:
+
+* Para los recorridos por lotes y de ráfagas, no se aplica a la ejecución por lotes o de ráfagas que ya se había iniciado antes de que se realice la configuración de la superficie del correo electrónico. Los cambios se recogen en la siguiente recurrencia o en la nueva ejecución.
+
+* En el caso de los mensajes transaccionales, el cambio se recoge inmediatamente para la siguiente comunicación (con un retraso de hasta cinco minutos).
+
+>[!NOTE]
+>
+>La configuración actualizada de la superficie del correo electrónico se recogerá automáticamente en los recorridos o campañas en los que se utilice la superficie.
 
 ## Tipo de correo electrónico {#email-type}
 
@@ -96,25 +106,39 @@ Obtenga más información sobre cómo añadir un vínculo de cancelación de sus
 
 En el **[!UICONTROL Parámetros de encabezado]** , introduzca los nombres del remitente y las direcciones de correo electrónico asociadas al tipo de correos electrónicos enviados con esa superficie.
 
->[!CAUTION]
->
->Las direcciones de correo electrónico deben utilizar el seleccionado actual [subdominio delegado](about-subdomain-delegation.md).
-
 * **[!UICONTROL Nombre del remitente]**: El nombre del remitente, como el nombre de su marca.
 
-* **[!UICONTROL Correo electrónico del remitente]**: La dirección de correo electrónico que desea utilizar para sus comunicaciones. Por ejemplo, si el subdominio delegado es *marketing.luma.com*, puede usar *contact@marketing.luma.com*.
+* **[!UICONTROL Correo electrónico del remitente]**: La dirección de correo electrónico que desea utilizar para sus comunicaciones.
 
 * **[!UICONTROL Responder a (nombre)]**: El nombre que se utilizará cuando el destinatario haga clic en la variable **Responder** en el software cliente de correo electrónico.
 
-* **[!UICONTROL Responder a (correo electrónico)]**: La dirección de correo electrónico que se utilizará cuando el destinatario haga clic en el **Responder** en el software cliente de correo electrónico. Debe utilizar una dirección definida en el subdominio delegado (por ejemplo, *reply@marketing.luma.com*), de lo contrario, se enviarán los correos electrónicos.
+* **[!UICONTROL Responder a (correo electrónico)]**: La dirección de correo electrónico que se utilizará cuando el destinatario haga clic en el **Responder** en el software cliente de correo electrónico. [Más información](#reply-to-email)
 
 * **[!UICONTROL Correo electrónico de error]**: Todos los errores generados por los ISP después de unos días de envío del correo (devoluciones asincrónicas) se reciben en esta dirección.
+
+>[!CAUTION]
+>
+>La variable **[!UICONTROL Correo electrónico del remitente]** y **[!UICONTROL Correo electrónico de error]** Las direcciones deben utilizar el [subdominio delegado](about-subdomain-delegation.md). Por ejemplo, si el subdominio delegado es *marketing.luma.com*, puede usar *contact@marketing.luma.com* y *error@marketing.luma.com*.
 
 ![](assets/preset-header.png)
 
 >[!NOTE]
 >
 >Las direcciones deben comenzar por una letra (A-Z) y solo pueden contener caracteres alfanuméricos. También puede utilizar guiones bajos `_`, punto`.` Guión `-` caracteres.
+
+### Responder a correo electrónico {#reply-to-email}
+
+Al definir la variable **[!UICONTROL Responder a (correo electrónico)]** dirección, puede especificar cualquier dirección de correo electrónico siempre que sea una dirección válida, con el formato correcto y sin ningún tipo de error.
+
+Para garantizar una administración de respuestas adecuada, siga las recomendaciones a continuación:
+
+* La bandeja de entrada utilizada para las respuestas recibirá todos los correos electrónicos de respuesta, incluidas las notificaciones fuera de la oficina y las respuestas de desafío, por lo que debe asegurarse de tener un proceso manual o automatizado para procesar el aterrizaje de los correos electrónicos en esta bandeja de entrada.
+
+* Asegúrese de que la bandeja de entrada dedicada tenga suficiente capacidad de recepción para recibir todos los correos electrónicos de respuesta que se envían mediante la superficie del correo electrónico. Si la bandeja de entrada devuelve devoluciones, es posible que algunas respuestas de sus clientes no se reciban.
+
+* Las respuestas deben procesarse teniendo en cuenta las obligaciones de privacidad y cumplimiento, ya que pueden contener información personal identificable (PII).
+
+* No marque los mensajes como correo no deseado en la bandeja de entrada de respuesta, ya que esto afectará a todas las demás respuestas enviadas a esta dirección.
 
 ### Reenviar correo electrónico {#forward-email}
 

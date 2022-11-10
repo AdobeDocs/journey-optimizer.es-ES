@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1235'
 ht-degree: 3%
 
 ---
@@ -64,15 +64,7 @@ La configuración de la dirección de correo electrónico CCO se guarda inmediat
 
 ![](assets/preset-bcc-in-msg.png)
 
-Sin embargo, la dirección de CCO se selecciona para enviar comunicaciones siguiendo la lógica siguiente:
-
-* Para los recorridos por lotes y de ráfagas, no se aplica a la ejecución por lotes o de ráfagas que ya se había iniciado antes de que se realice la configuración de CCO. El cambio se recogerá en la siguiente repetición o en la nueva ejecución.
-
-* En los mensajes transaccionales, el cambio se recoge inmediatamente para la siguiente comunicación (con un retraso de hasta un minuto).
-
->[!NOTE]
->
->No es necesario que vuelva a publicar el recorrido para que se recoja la configuración de CCO.
+Sin embargo, la dirección de CCO se recoge para enviar comunicaciones siguiendo la lógica descrita [here](email-settings.md).
 
 ### Recommendations y limitaciones {#bcc-recommendations-limitations}
 
