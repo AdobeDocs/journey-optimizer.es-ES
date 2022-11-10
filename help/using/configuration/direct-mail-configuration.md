@@ -7,9 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: bca233ab888e2ca33b866bc3def31653f2d55ea9
+exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
+source-git-commit: dbb668b219b8d2ccea4d340c019918d6a6e387bb
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
@@ -129,21 +130,11 @@ Una superficie de correo postal también debe incluir la configuración de enrut
 
    ![](assets/surface-direct-mail-settings.png)
 
+   <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
+
 1. Seleccione el formato de archivo: **[!UICONTROL CSV]** o **[!UICONTROL Texto delimitado]**.
 
-1. En el **[!UICONTROL Inserción]** , puede elegir quitar automáticamente las filas duplicadas.
-
-1. Defina el número máximo de registros (es decir, filas) para cada archivo que contenga datos de perfil. Una vez alcanzado el umbral especificado, se creará otro archivo para los registros restantes.
-
-   ![](assets/surface-direct-mail-split.png)
-
-   Por ejemplo, si hay 100 000 registros en el archivo y el límite de umbral se establece en 60 000, los registros se dividirán en dos archivos. El primer archivo contendrá 60 000 filas y el segundo archivo contendrá las 40 000 filas restantes.
-
-   >[!NOTE]
-   >
-   >Puede establecer cualquier número entre 1 y 200 000 registros, lo que significa que cada archivo debe contener al menos 1 fila y no más de 200 000 filas.
-
-1. Finalmente, seleccione la **[!UICONTROL Configuración de enrutamiento de archivos]** entre los que ha creado. Esto define dónde se exportará el archivo para que lo utilice su proveedor de correo postal.
+1. Seleccione el **[!UICONTROL Configuración de enrutamiento de archivos]** entre los que ha creado. Esto define dónde se exportará el archivo para que lo utilice su proveedor de correo postal.
 
    >[!CAUTION]
    >
@@ -151,6 +142,29 @@ Una superficie de correo postal también debe incluir la configuración de enrut
 
    ![](assets/surface-direct-mail-file-routing.png)
 
+   <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
+
 1. Envíe la superficie de correo postal.
 
 Ahora puede [crear un mensaje de correo postal](../messages/create-direct-mail.md) dentro de una campaña. Una vez iniciada la campaña, el archivo que contiene los datos de audiencia de destino se exportará automáticamente al servidor que haya definido. El proveedor de correo postal podrá recuperar ese archivo y continuar con la entrega de correo postal.
+
+>[!NOTE]
+>
+>Las filas duplicadas se eliminarán automáticamente.
+>
+>Si el número máximo de registros (es decir, filas) para cada archivo que contiene datos de perfil es demasiado alto, se creará otro archivo automáticamente para los registros restantes.
+
+<!--
+    In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.
+
+    Define the maximum number of records (i.e. rows) for each file containing profile data. After the specified threshold is reached, another file will be created for the remaining records.
+
+    ![](assets/surface-direct-mail-split.png)
+
+    For example, if there are 100,000 records in the file and the threshold limit is set to 60,000, the records will be split into two files. The first file will contain 60,000 rows, and the second file will contain the remaining 40,000 rows.
+
+    >[!NOTE]
+    >
+    >NOTE You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
+
+-->
