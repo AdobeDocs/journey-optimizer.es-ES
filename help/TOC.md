@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 2acc398732805d5fdb9f6ba2feaabcb0fa22093e
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -147,14 +147,14 @@ ht-degree: 94%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Casos de uso {#journey-use-cases}
-      + Casos de uso empresarial {#business-use-cases}
+      + Casos de uso empresariales {#business-use-cases}
          + [Envío de mensajes multicanal](using/building-journeys/journeys-uc.md)
          + [Envío de un mensaje mediante Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
          + [Envío de un mensaje a los suscriptores](using/building-journeys/message-to-subscribers-uc.md)
-      + Casos de uso técnico {#technical-use-cases}
+      + Casos de uso técnicos {#technical-use-cases}
          + [Paso de colecciones de forma dinámica mediante acciones personalizadas](using/building-journeys/collections.md)
          + [Aumento de envíos](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [Limitar el rendimiento con fuentes de datos externas y acciones personalizadas](using/building-journeys/limit-throughput.md)
+         + [Limitación del rendimiento con fuentes de datos externas y acciones personalizadas](using/building-journeys/limit-throughput.md)
 + Campañas{#campaigns}
    + [Introducción a las campañas](using/campaigns/get-started-with-campaigns.md)
    + [Creación de una campaña](using/campaigns/create-campaign.md)
@@ -179,14 +179,14 @@ ht-degree: 94%
    + [Optimización del tiempo de envío](using/messages/send-time-optimization.md)
 + Canal web{#web}
    + [Introducción al canal web](using/web/get-started-web.md)
-   + [Crear experiencias web](using/web/create-web.md)
+   + [Creación de experiencias web](using/web/create-web.md)
    + [Creación de páginas web](using/web/author-web.md)
    + [Extensión Ayuda de edición visual](using/web/visual-editing-helper.md)
-   + [Informes web](using/web/web-report.md)
+   + [Creación de informes web](using/web/web-report.md)
 + Canal en la aplicación{#in-app}
    + [Introducción al canal en la aplicación](using/in-app/get-started-in-app.md)
    + [Configuración del canal en la aplicación](using/in-app/inapp-configuration.md)
-   + [Crear un mensaje en la aplicación](using/in-app/create-in-app.md)
+   + [Creación de un mensaje en la aplicación ](using/in-app/create-in-app.md)
    + [Diseño del contenido en la aplicación](using/in-app/design-in-app.md)
    + [Informe en la aplicación](using/in-app/inapp-report.md)
 + Diseño de contenido {#design}
@@ -383,7 +383,7 @@ ht-degree: 94%
          + [Actualizar una decisión](using/offers/api-reference/activities-api/activities/update.md)
          + [Eliminar una decisión](using/offers/api-reference/activities-api/activities/delete.md)
       + Entrega de ofertas mediante API {#offer-delivery-api}
-         + [Introducción a las API de entrega de ofertas](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+         + [Introducción a las API de envío de ofertas](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
          + [API de decisiones](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [API de Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [API de decisiones por lotes](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
@@ -413,7 +413,7 @@ ht-degree: 94%
             + [Reintentos](using/configuration/retries.md)
             + [Lista de permitidos](using/configuration/allow-list.md)
       + [Configuración del canal de SMS](using/configuration/sms-configuration.md)
-      + [Configuración del correo postal](using/configuration/direct-mail-configuration.md)
+      + [Configuración del correo directo](using/configuration/direct-mail-configuration.md)
       + Configuración de superficies de canal {#set-up-channels}
          + [Creación de superficies de canal](using/configuration/channel-surfaces.md)
          + [Configuración de correo electrónico](using/configuration/email-settings.md)
