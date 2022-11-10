@@ -5,9 +5,9 @@ title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: ca423c25d39162838368b2242c1aff99388df768
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2128'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,12 +17,12 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Octubre de 2022 {#october-2022}
 
-* Se ha añadido un caso de uso de recorrido sobre cómo limitar el rendimiento mediante Fuentes de datos externas y Acciones personalizadas. [Más información](../building-journeys/limit-throughput.md)
-* La sección de casos de uso de recorrido se ha reorganizado en dos categorías: [Casos de uso empresarial](../building-journeys/journeys-uc.md) y [Casos de uso técnico](../building-journeys/collections.md).
-* La variable **Conjunto de datos de entidad** se ha actualizado con más detalles. [Más información](../start/datasets-query-examples.md#entity-dataset)
+* Se ha agregado un caso de uso de recorrido sobre cómo limitar el rendimiento mediante Fuentes de datos externas y Acciones personalizadas. [Más información](../building-journeys/limit-throughput.md)
+* La sección de casos de uso de recorrido se ha reorganizado en dos categorías: [Casos de uso empresariales](../building-journeys/journeys-uc.md) y [Casos de uso técnicos](../building-journeys/collections.md).
+* La sección **Conjunto de datos de entidad** se ha actualizado con más detalles. [Más información](../start/datasets-query-examples.md#entity-dataset)
 * La información relacionada con la configuración de exclusión y las políticas de consentimiento se han reorganizado en una nueva sección. [Más información](../privacy/opt-out.md)
-* Se ha aclarado la sección sobre parámetros avanzados en los mensajes de recorrido y ahora especifica que la anulación de direcciones de correo electrónico solo debe utilizarse para casos de uso específicos. La mayoría de las veces, el valor definido como la dirección principal en la variable **Campos de ejecución** es el que debe usarse. [Más información](../messages/messages-in-journeys.md#adv-settings)
-* Se ha añadido una nota al **Configurar subdominios de página de aterrizaje** para especificar que no se permiten mayúsculas en los subdominios de la página de aterrizaje. [Más información](../configuration/lp-subdomains.md)
+* Se ha aclarado la sección sobre parámetros avanzados en los mensajes de recorrido y ahora especifica que la anulación de direcciones de correo electrónico solo debe utilizarse para casos de uso específicos. La mayoría de las veces, el valor definido como la dirección principal en los **Campos de ejecución** es el que debe usarse. [Más información](../messages/messages-in-journeys.md#adv-settings)
+* Se ha añadido una nota a la sección **Configuración de subdominios de página de aterrizaje** para especificar que no se permiten mayúsculas en los subdominios de la página de aterrizaje. [Más información](../configuration/lp-subdomains.md)
 
 ## Septiembre de 2022 {#september-2022}
 
