@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_message_category"
 >title="Categoría del mensaje"
->abstract="Seleccione Marketing para mensajes comerciales o Transaccional para los no comerciales, como confirmaciones de pedidos, notificaciones de restablecimiento de contraseña o información de entrega"
+>abstract="Seleccione Marketing para mensajes comerciales o Transaccional para los no comerciales, como confirmaciones de pedidos, notificaciones de restablecimiento de contraseña o información de envío"
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_surface"
@@ -44,7 +44,7 @@ Para agregar mensajes en un recorrido, agregue una actividad push, SMS o de corr
 
 1. Introduzca una etiqueta y una descripción.
 
-1. Seleccione el mensaje **[!UICONTROL Categoría]**: seleccione **Marketing** para mensajes comerciales o **Transaccional** para los no comerciales, como confirmaciones de pedidos, notificaciones de restablecimiento de contraseña o información de entrega.
+1. Seleccione el mensaje **[!UICONTROL Categoría]**: seleccione **Marketing** para mensajes comerciales o **Transaccional** para los no comerciales, como confirmaciones de pedidos, notificaciones de restablecimiento de contraseña o información de envío.
 
    ![](assets/inline-message-category.png)
 
@@ -55,7 +55,7 @@ Para agregar mensajes en un recorrido, agregue una actividad push, SMS o de corr
    >* Los mensajes de Marketing deben incluir un [vínculo de no participación](../privacy/opt-out.md#opt-out-management). Esto no es necesario para los mensajes transaccionales, ya que estos se pueden enviar a perfiles que cancelaron la suscripción a comunicaciones de marketing.
 
 
-1. Seleccione el canal **[!UICONTROL Superficie]**  (es decir, el ajuste preestablecido de mensaje) que se utilizará para enviar el mensaje.
+1. Seleccione el canal **[!UICONTROL Superficie]** (es decir, el ajuste preestablecido de mensaje) que se utilizará para enviar el mensaje.
 
    Una superficie es una configuración que ha definido un [Administrador del sistema](../start/path/administrator.md). Contiene todos los parámetros técnicos para enviar el mensaje, como parámetros de encabezado, subdominio, aplicaciones móviles, etc. [Más información](../configuration/channel-surfaces.md).
 
@@ -63,7 +63,7 @@ Para agregar mensajes en un recorrido, agregue una actividad push, SMS o de corr
    >
    >Debe elegir una superficie de canal válida para la categoría de mensaje y el canal seleccionados.
 
-   Puede acceder a la etiqueta, la descripción y la superficie del mensaje y modificarlos en cualquier momento mediante el botón **[!UICONTROL Propiedades]**  en la interfaz de mensajes.
+   Puede acceder a la etiqueta, la descripción y la superficie del mensaje y modificarlos en cualquier momento mediante el botón **[!UICONTROL Propiedades]** en la interfaz de mensajes.
 
 1. Creación del contenido del mensaje.
 
@@ -93,7 +93,7 @@ Para las notificaciones push, puede mostrar los siguientes parámetros: Token, A
 
 ![](assets/push-adv-parameters.png)
 
-Para el correo electrónico, puede mostrar la variable [dirección de correo electrónico principal](../configuration/primary-email-addresses.md).
+Para el correo electrónico, puede mostrar la [dirección de correo electrónico principal](../configuration/primary-email-addresses.md).
 
 En contextos específicos, puede anular estos valores para un uso específico. Para forzar un valor, haga clic en el icono **[!UICONTROL Habilitar la sustitución de parámetros]** a la derecha del campo.
 
@@ -101,12 +101,12 @@ En contextos específicos, puede anular estos valores para un uso específico. P
 
 Esta opción puede resultar útil, por ejemplo, para lo siguiente:
 
-* Pruebe un correo electrónico. Puede añadir su dirección de correo electrónico; una vez publicado el recorrido, se le enviará el correo electrónico.
+* Probar un correo electrónico. Puede agregar su dirección de correo electrónico; una vez publicado el recorrido, se le enviará el correo electrónico.
 * Consulte la dirección de correo electrónico de los suscriptores de una lista. Obtenga más información en [este caso de uso](../building-journeys/message-to-subscribers-uc.md).
 
 >[!NOTE]
 >
->La anulación de direcciones de correo electrónico solo debe utilizarse para casos de uso específicos. La mayoría de las veces, no es necesario cambiar la dirección de correo electrónico porque el valor definido como la dirección principal en la variable **[!UICONTROL Campos de ejecución]** es el que debe usarse. [Más información](../configuration/primary-email-addresses.md)
+>La anulación de direcciones de correo electrónico solo debe utilizarse para casos de uso específicos. La mayoría de las veces, no es necesario cambiar la dirección de correo electrónico porque el valor definido como la dirección principal en los **[!UICONTROL Campos de ejecución]** es el que debe usarse. [Más información](../configuration/primary-email-addresses.md)
 
 ## Examen de mensajes{#browse-message}
 
