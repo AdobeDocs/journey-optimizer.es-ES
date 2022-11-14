@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 8%
@@ -29,9 +29,9 @@ Antes de usar [!DNL Customer Journey Analytics] para sus recorridos, primero deb
 1. [Crear una conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es) en [!DNL Customer Journey Analytics] con la variable **[!UICONTROL Conjunto de datos]** desea enviar a Adobe Experience Platform.
 
    Lo siguiente [!DNL Journey Optimizer] se puede configurar:
-   * [Evento de paso de recorrido](../start/datasets-query-examples.md#journey-step-event): permite ver quién entra en los recorridos y hasta dónde llegan.
-   * [Comentarios del mensaje/Seguimiento de conjuntos de datos](../start/datasets-query-examples.md#message-feedback-event-dataset): permite ver información de envío sobre los mensajes enviados [!DNL Journey Optimizer].
-   * [Conjuntos de datos de entidades y Recorridos](../start/datasets-query-examples.md#entity-dataset): permite buscar nombres descriptivos y utilizarlos en los informes.
+   * [Evento de paso de recorrido](../data/datasets-query-examples.md#journey-step-event): permite ver quién entra en los recorridos y hasta dónde llegan.
+   * [Comentarios del mensaje/Seguimiento de conjuntos de datos](../data/datasets-query-examples.md#message-feedback-event-dataset): permite ver información de envío sobre los mensajes enviados [!DNL Journey Optimizer].
+   * [Conjuntos de datos de entidades y Recorridos](../data/datasets-query-examples.md#entity-dataset): permite buscar nombres descriptivos y utilizarlos en los informes.
 
 1. [Creación de una vista de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es) para configurar las dimensiones y métricas que desee usar en el informe.
 
