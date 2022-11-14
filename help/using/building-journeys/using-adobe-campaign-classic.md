@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 11%
@@ -23,7 +23,7 @@ La conexión entre las instancias de Journey Optimizer y Campaign se configura p
 
 Para que esto funcione, debe configurar una acción dedicada. Consulte esta [sección](../action/acc-action.md).
 
-En este ejemplo se presenta un caso de uso completo [sección](../building-journeys/campaign-classic-use-case.md).
+En este ejemplo se presenta un caso de uso completo [sección](../building-journeys/ajo-ac.md).
 
 1. Diseñe el recorrido, empezando por un evento . Consulte esta [sección](../building-journeys/journey.md).
 1. En el **Acción** de la paleta, seleccione una acción de Campaña y agréguela al recorrido.

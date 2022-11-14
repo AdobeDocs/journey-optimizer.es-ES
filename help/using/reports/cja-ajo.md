@@ -7,9 +7,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '338'
 ht-degree: 8%
 
 ---
@@ -25,7 +26,7 @@ Después de crear el recorrido en [!DNL Journey Optimizer], puede importar los d
 
 Antes de usar [!DNL Customer Journey Analytics] para sus recorridos, primero debe configurar esta integración:
 
-1. [Crear una conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es) en [!DNL Customer Journey Analytics] con la variable **[!UICONTROL Conjunto de datos]** desea enviar a la plataforma.
+1. [Crear una conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es) en [!DNL Customer Journey Analytics] con la variable **[!UICONTROL Conjunto de datos]** desea enviar a Adobe Experience Platform.
 
    Lo siguiente [!DNL Journey Optimizer] se puede configurar:
    * [Evento de paso de recorrido](../start/datasets-query-examples.md#journey-step-event): permite ver quién entra en los recorridos y hasta dónde llegan.

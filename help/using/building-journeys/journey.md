@@ -7,10 +7,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '577'
+ht-degree: 26%
 
 ---
 
@@ -52,17 +52,17 @@ Como ingeniero de datos, los pasos para configurar las recorridos, incluidas las
 
 Obtenga información sobre cómo crear recorridos en los siguientes casos de uso integral.
 
-Casos de uso empresarial:
+Casos de uso empresariales:
 
 * [Envío de mensajes multicanal](journeys-uc.md)
-* [Envío de un mensaje mediante Campaign v7/v8](campaign-classic-use-case.md)
+* [Envío de un mensaje mediante Campaign v7/v8](ajo-ac.md)
 * [Envío de un mensaje a los suscriptores](message-to-subscribers-uc.md)
 
-Casos de uso técnico:
+Casos de uso técnicos:
 
 * [Paso de colecciones de forma dinámica mediante acciones personalizadas](collections.md)
 * [Aumento de envíos](ramp-up-deliveries-uc.md)
-* [Limitar el rendimiento con fuentes de datos externas y acciones personalizadas](limit-throughput.md)
+* [Limitación del rendimiento con fuentes de datos externas y acciones personalizadas](limit-throughput.md)
 
 ## Versiones de recorridos{#journey-versions}
 
@@ -74,7 +74,7 @@ Al buscar un recorrido, las versiones más recientes aparecen en la parte superi
 
 >[!NOTE]
 >
->Normalmente, un perfil no puede estar presente varias veces en el mismo recorrido, al mismo tiempo. Si la reentrada está activada, un perfil puede volver a introducir un recorrido, pero no puede hacerlo hasta que salga completamente de la instancia anterior del recorrido. [Más información](end-journey.md).
+>Normalmente, un perfil no puede estar presente varias veces en el mismo recorrido, al mismo tiempo. Si la reentrada está activada, un perfil puede volver a entrar en un recorrido, pero no puede hacerlo hasta que salga completamente de la instancia anterior del recorrido. [Más información](end-journey.md).
 
 Si necesita modificar a un recorrido activo, cree una nueva versión de su recorrido.
 

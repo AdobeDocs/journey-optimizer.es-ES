@@ -7,9 +7,10 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 6%
 
 ---
@@ -29,7 +30,7 @@ Si se produce este comportamiento inesperado, se envía una notificación de ale
 
 ![](assets/alerts2.png)
 
-When [visualización de reglas de alerta en la interfaz de usuario de Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), puede suscribirse a cada regla individualmente. Al suscribirse a alertas mediante [Notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)sin embargo, las reglas de alerta están organizadas en diferentes paquetes de suscripción. El nombre de suscripción del evento de E/S correspondiente a la alerta Leer segmento es: &quot;Recorrido leer retrasos, errores y errores del segmento&quot;.
+When [visualización de reglas de alerta en la interfaz de usuario de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), puede suscribirse a cada regla individualmente. Al suscribirse a alertas mediante [Notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)sin embargo, las reglas de alerta están organizadas en diferentes paquetes de suscripción. El nombre de suscripción del evento de E/S correspondiente a la alerta Leer segmento es: &quot;Recorrido leer retrasos, errores y errores del segmento&quot;.
 
 >[!WARNING]
 >

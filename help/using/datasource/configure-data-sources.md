@@ -8,20 +8,21 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 10%
+source-wordcount: '566'
+ht-degree: 8%
 
 ---
 
 # Configuración de una fuente de datos {#configure-data-source}
 
-Estos son los pasos principales de la configuración de la fuente de datos:
 
 >[!NOTE]
 >
 >La configuración de la fuente de datos siempre la realiza un **usuario técnico**.
+
+Para configurar una fuente de datos, siga los pasos a continuación:
 
 1. En la sección del menú ADMINISTRACIÓN , seleccione **[!UICONTROL Configuraciones]**. En el  **[!UICONTROL Fuentes de datos]** , haga clic en **[!UICONTROL Administrar]**. Se muestra la lista de las fuentes de datos. Consulte [esta página](../start/user-interface.md) para obtener más información sobre la interfaz.
 
@@ -51,7 +52,7 @@ El número de recorridos que utilizan un grupo de campos se muestra en la variab
 
 >[!NOTE]
 >
->Tenga en cuenta que si un grupo de campos no tiene ningún campo, no se mostrará en el editor de expresiones.
+>Tenga en cuenta que si un grupo de campos no tiene ningún campo, no se muestra en el editor de expresiones.
 
 ![](assets/journey3bis.png)
 
