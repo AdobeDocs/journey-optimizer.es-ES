@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2acc398732805d5fdb9f6ba2feaabcb0fa22093e
+source-git-commit: 56b0726c0d8db3025d3ba3ef2b863fec7f03c726
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 98%
@@ -257,12 +257,12 @@ ht-degree: 98%
       + [Introducción a los perfiles](using/segment/get-started-profiles.md)
       + [Creación de perfiles de prueba](using/segment/creating-test-profiles.md)
    + [Identidades](using/segment/get-started-identity.md)
-   + [Uso de licencias](using/segment/license-usage.md)
    + Componer audiencias {#audience-orchestration}
       + [Introducción a Composición de audiencias](using/segment/get-started-audience-orchestration.md)
       + [Creación de flujos de trabajo de composición](using/segment/create-compositions.md)
       + [Trabajo con el lienzo de composición](using/segment/composition-canvas.md)
       + [Acceso y administración de audiencias](using/segment/access-audiences.md)
+   + [Uso de licencias](using/segment/license-usage.md)
 + Seguimiento y monitorización {#reporting}
    + Informe en vivo {#live-report}
       + [Introducción al Informe en vivo](using/reports/live-report.md)
