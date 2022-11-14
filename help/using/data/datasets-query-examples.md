@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 0%
@@ -19,14 +19,14 @@ ht-degree: 0%
 
 En esta página, encontrará la lista de conjuntos de datos de Adobe Journey Optimizer y casos de uso relacionados:
 
-[Conjunto de datos de evento de seguimiento de correo electrónico](../start/datasets-query-examples.md#email-tracking-experience-event-dataset)
-[Conjunto de datos del evento de comentarios del mensaje](../data/datasets-query-examples.md#message-feedback-event-dataset)
-[Conjunto de datos del evento de seguimiento push](../data/datasets-query-examples.md#push-tracking-experience-event-dataset)
-[Evento de paso de recorrido](../data/datasets-query-examples.md#journey-step-event)
-[Conjunto de datos de evento de decisión](../data/datasets-query-examples.md#ode-decisionevents)
-[Conjunto de datos del servicio de consentimiento](../data/datasets-query-examples.md#consent-service-dataset)
-[Conjunto de datos de evento de comentarios de BCC](../data/datasets-query-examples.md#bcc-feedback-event-dataset)
-[Conjunto de datos de entidad](../data/datasets-query-examples.md#entity-dataset)
+[Conjunto de datos de evento de seguimiento de correo electrónico](#email-tracking-experience-event-dataset)
+[Conjunto de datos del evento de comentarios del mensaje](#message-feedback-event-dataset)
+[Conjunto de datos del evento de seguimiento push](#push-tracking-experience-event-dataset)
+[Evento de paso de recorrido](#journey-step-event)
+[Conjunto de datos de evento de decisión](#ode-decisionevents)
+[Conjunto de datos del servicio de consentimiento](#consent-service-dataset)
+[Conjunto de datos de evento de comentarios de BCC](#bcc-feedback-event-dataset)
+[Conjunto de datos de entidad](#entity-dataset)
 
 ## Conjunto de datos de evento de seguimiento de correo electrónico{#email-tracking-experience-event-dataset}
 
