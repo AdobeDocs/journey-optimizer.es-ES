@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: ht
+source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+workflow-type: tm+mt
 source-wordcount: '1572'
 ht-degree: 100%
 
@@ -62,11 +62,11 @@ La página principal de [!DNL Journey Optimizer] contiene vínculos clave y recu
 
 **[!UICONTROL ADMINISTRACIÓN DE DATOS]**
 
-* **[!UICONTROL Esquemas]**: utilice Adobe Experience Platform para crear y administrar esquemas del Modelo de datos de experiencia (XDM) en un lienzo visual interactivo denominado Editor de esquemas. [Más información](get-started-schemas.md)
+* **[!UICONTROL Esquemas]**: utilice Adobe Experience Platform para crear y administrar esquemas del Modelo de datos de experiencia (XDM) en un lienzo visual interactivo denominado Editor de esquemas. [Más información](../data/get-started-schemas.md)
 
-* **[!UICONTROL Conjuntos de datos]**: todos los datos que se incorporan a Adobe Experience Platform se conservan dentro del lago de datos como conjuntos de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas). [Más información](get-started-datasets.md)
+* **[!UICONTROL Conjuntos de datos]**: todos los datos que se incorporan a Adobe Experience Platform se conservan dentro del lago de datos como conjuntos de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas). [Más información](../data/get-started-datasets.md)
 
-* **[!UICONTROL Consultas]**: utilice el servicio de consulta de Adobe Experience Platform para escribir y ejecutar consultas, ver consultas ejecutadas anteriormente y acceder a las guardadas por usuarios de su organización. [Más información](get-started-queries.md)
+* **[!UICONTROL Consultas]**: utilice el servicio de consulta de Adobe Experience Platform para escribir y ejecutar consultas, ver consultas ejecutadas anteriormente y acceder a las guardadas por usuarios de su organización. [Más información](../data/get-started-queries.md)
 
 * **[!UICONTROL Monitorización]**: utilice este menú para monitorizar la ingesta de datos en la interfaz de usuario de Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=es){target=&quot;_blank&quot;}
 

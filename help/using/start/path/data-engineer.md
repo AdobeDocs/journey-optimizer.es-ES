@@ -5,8 +5,8 @@ title: Introducción a Journey Optimizer para los ingenieros de datos
 description: Obtenga más información sobre cómo trabajar con Journey Optimizer como ingeniero de datos
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: ht
+source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Los pasos para crear un área de nombres de identidad y un conjunto de datos hab
 
 1. **Cree un área de nombres de identidad**. En Adobe [!DNL Journey Optimizer], las **Identidades** vinculan los consumidores con dispositivos y canales, y el resultado es un gráfico de identidad. El gráfico de identidad vinculado se utiliza para personalizar las experiencias en función de las interacciones en todos los puntos de contacto empresariales.  Obtenga más información acerca de identidades y áreas de nombres de identidad [en esta página](../../segment/get-started-identity.md).
 
-1. **Cree un esquema** y actívelo para los perfiles. Un esquema es un conjunto de reglas que representan y validan la estructura y el formato de los datos. En un nivel superior, los esquemas proporcionan una definición abstracta de un objeto del mundo real (como una persona) y describen qué datos deben incluirse en cada instancia de ese objeto (como nombre, apellido, cumpleaños, etc.).  Obtenga más información acerca de los esquemas [en esta página](../get-started-schemas.md).
+1. **Cree un esquema** y actívelo para los perfiles. Un esquema es un conjunto de reglas que representan y validan la estructura y el formato de los datos. En un nivel superior, los esquemas proporcionan una definición abstracta de un objeto del mundo real (como una persona) y describen qué datos deben incluirse en cada instancia de ese objeto (como nombre, apellido, cumpleaños, etc.).  Obtenga más información acerca de los esquemas [en esta página](../../data/get-started-schemas.md).
 
 1. **Cree conjuntos de datos** y actívelos para los perfiles. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas). Los conjuntos de datos también contienen metadatos que describen varios aspectos de los datos que almacenan. Una vez creado un conjunto de datos, puede asignarlo a un esquema existente y agregarle datos. Más información acerca de los conjuntos de datos [en esta página](../get-started-datasets.md).
 
