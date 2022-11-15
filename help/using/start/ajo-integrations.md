@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 9331c5de057a8de0b52bc4db34c17bc3ab79f193
+source-git-commit: 12ae84646e69870564406066e102c540ac920df7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '529'
+ht-degree: 6%
 
 ---
 
@@ -22,8 +22,7 @@ Con Adobe Journey Optimizer, puede administrar, conservar y exportar fácilmente
 
 >[!NOTE]
 >
-> Adobe Journey Optimizer, creado en Adobe Experience Platform, está conectado de forma nativa a [Adobe Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target=&quot;_blank&quot;}. Esta fuente de datos integrada está preconfigurada y está diseñada para recuperar y utilizar datos del perfil del cliente en tiempo real (por ejemplo, comprobar si la persona que ha introducido un recorrido es cliente o no). Permite utilizar datos de perfil y datos de eventos de experiencia.
-
+> Adobe Journey Optimizer, creado en Adobe Experience Platform, está conectado de forma nativa a [Adobe Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target=&quot;_blank&quot;}. Esta fuente de datos integrada está preconfigurada y está diseñada para recuperar y utilizar datos del perfil del cliente en tiempo real (por ejemplo, comprobar si la persona que ha introducido un recorrido es cliente o no). Permite utilizar datos de perfil y datos de eventos de experiencia. [Más información](../datasource/adobe-experience-platform-data-source.md).
 
 ## Informes{#integration-reporting}
 
@@ -45,7 +44,7 @@ Más información sobre [Journey Optimizer + Analytics](../event/about-analytics
 
 ## Aprendizaje automático{#integration-intelligent-service}
 
-La integración con Adobe Intelligent Services le permite aprovechar la potencia de la inteligencia artificial y el aprendizaje automático en casos de uso de experiencias del cliente. Esto permite que los analistas de marketing configuren predicciones específicas de las necesidades de una empresa mediante configuraciones de nivel empresarial sin necesidad de experiencia en ciencia de datos.
+La integración con Adobe Intelligent Services le permite aprovechar la potencia de la inteligencia artificial y el aprendizaje automático en casos de uso de experiencias del cliente. Esto permite que los analistas de marketing configuren predicciones específicas de las necesidades de una empresa mediante configuraciones de nivel empresarial sin necesidad de experiencia en ciencia de datos. [Más información](../building-journeys/ai-services-overview.md).
 
 ## Entrega de mensajes {#integration-messages}
 
