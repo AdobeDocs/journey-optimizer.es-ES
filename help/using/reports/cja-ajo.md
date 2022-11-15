@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 8%
@@ -17,8 +17,10 @@ ht-degree: 8%
 
 # Uso de [!DNL Customer Journey Analytics] {#cja-ajo}
 
-![](assets/cja.png)
+
 [!DNL Journey Optimizer] integración con [!DNL Customer Journey Analytics] proporciona una vista holística de todos sus recorridos con distribución automatizada de informes y visualizaciones personalizadas de los datos.
+
+![](assets/cja.png)
 
 Después de crear el recorrido en [!DNL Journey Optimizer], puede importar los datos de cliente a [!DNL Customer Journey Analytics] para iniciar informes y comprender el impacto de cada interacción que un cliente tiene con sus recorridos.
 
