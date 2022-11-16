@@ -7,10 +7,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
+source-git-commit: e8888ed6847fd04317e361e01a3e1dd277a9a4e5
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 3%
+source-wordcount: '916'
+ht-degree: 4%
 
 ---
 
@@ -28,7 +29,11 @@ Para poder acceder y crear páginas web en la variable [!DNL Journey Optimizer] 
 
 Una vez creada una acción web a partir de la campaña, puede editar el contenido mediante el diseñador web. Para ello, siga los pasos a continuación.
 
-1. En el **[!UICONTROL Acción]** de la campaña, seleccione **[!UICONTROL Editar contenido]** para comenzar a crear la campaña web. [Más información](create-web.md#configure-web-campaign)
+>[!CAUTION]
+>
+>Para acceder en [!DNL Journey Optimizer], la página web debe implementarse usando la variable [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target=&quot;_blank&quot;}.
+
+1. En el **[!UICONTROL Acción]** de la campaña, seleccione **[!UICONTROL Editar contenido]** para comenzar a crear la campaña web.
 
 1. Si ha creado una regla de coincidencia de páginas, debe introducir cualquier URL que coincida con esta regla. Los cambios se aplicarán a todas las páginas que coincidan con la regla.
 
@@ -42,7 +47,7 @@ Una vez creada una acción web a partir de la campaña, puede editar el contenid
 
    >[!CAUTION]
    >
-   >Para acceder, la página web debe implementarse utilizando la variable [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target=&quot;_blank&quot;}.
+   >La página web debe incluir la variable [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
 
 1. Haga clic en **[!UICONTROL Abrir diseñador web]** para editarlo. [Más información](author-web.md)
 
