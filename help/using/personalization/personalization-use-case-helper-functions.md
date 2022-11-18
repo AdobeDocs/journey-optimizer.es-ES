@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 2%
@@ -62,6 +62,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 ## Paso 2: Creación del correo electrónico{#configure-email}
 
 1. En el **Correo electrónico** actividad, haga clic en **[!UICONTROL Editar contenido]** y haga clic en **[!UICONTROL Diseñador de correo electrónico]**.
+
    ![](assets/personalization-uc-helpers-1.png)
 
 1. En la paleta izquierda de la página principal del Diseñador de correo electrónico, arrastre y suelte tres componentes de estructura en el cuerpo del mensaje.
@@ -109,6 +110,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 1. Haga clic en **[!UICONTROL Validar]** y haga clic en **[!UICONTROL Guardar]**.
 
    ![](assets/personalization-uc-helpers-6.png)
+
 1. Guarde el mensaje.
 
 ## Paso 4: Inserte la lista de elementos del carro de compras {#each-helper}
@@ -164,6 +166,8 @@ El contenido del carro de compras es información contextual del recorrido. Por 
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
+
+
 1. Pegue este código entre la etiqueta de apertura `{{#each}}` y la `{/each}}` etiqueta:
 
    ```html
@@ -184,6 +188,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
    1. A partir de los resultados de búsqueda anteriores, añada la variable **[!UICONTROL Nombre]** token a la expresión.
 
    Repita estos pasos dos veces:
+
    * Sustituya el marcador de posición &quot;#quantity&quot; por el **[!UICONTROL Cantidad]** token.
    * Sustituya el marcador de posición &quot;#priceTotal&quot; por el **[!UICONTROL Precio total]** token.
 
@@ -202,7 +207,9 @@ El contenido del carro de compras es información contextual del recorrido. Por 
       </table>
    {{/each}}
    ```
+
 1. Haga clic en **[!UICONTROL Validar]** y haga clic en **[!UICONTROL Guardar]**.
+
    ![](assets/personalization-uc-helpers-11.png)
 
 ## Paso 5: Insertar una nota específica del producto {#if-helper}
@@ -225,6 +232,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
          {%else%} default_render
       {%/if%}
       ```
+
       ![](assets/personalization-uc-helpers-12.png)
 
 1. Elimine esta condición de la expresión:
@@ -258,6 +266,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
          {%else%} default_render
       {%/if%}
       ```
+
       ![](assets/personalization-uc-helpers-13.png)
 
 1. Modifique la expresión:
@@ -288,6 +297,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
          {%else%} default_render
       {%/if%}
       ```
+
    1. Elimine el marcador de posición &quot;default_render&quot; de la expresión.
 1. Haga clic en **[!UICONTROL Validar]** y haga clic en **[!UICONTROL Guardar]**.
 
