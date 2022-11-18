@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f06e1e03b3660be36b32437647a8329d0c0d296e
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 6%
@@ -24,7 +24,7 @@ La variable `age` se utiliza para recuperar la edad de una fecha determinada.
 **Formato**
 
 ```sql
- {%= age(date) %}
+ {%= age(datetime) %}
 ```
 
 <!--
@@ -33,7 +33,7 @@ La variable `age` se utiliza para recuperar la edad de una fecha determinada.
 The following operation gets the value of the identity map for the key `example@example.com`.
 
 ```sql
- {%= age(date) %}
+ {%= age(datetime) %}
 ```
 -->
 
@@ -125,7 +125,7 @@ La variable `formatDate` se utiliza para dar formato a un valor de fecha y hora.
 **Formato**
 
 ```sql
-{%= formatDate(date, format) %}
+{%= formatDate(datetime, format) %}
 ```
 
 Donde la primera cadena es el atributo date y el segundo valor es cómo desea que se convierta y muestre la fecha.
@@ -151,7 +151,7 @@ La variable `setDays` se utiliza para establecer el día del mes para una fecha 
 **Formato**
 
 ```sql
-{%= setDays(date, day) %}
+{%= setDays(datetime, day) %}
 ```
 
 <!--
@@ -171,7 +171,7 @@ La variable `setHours` se utiliza para establecer la hora de la fecha y la hora.
 **Formato**
 
 ```sql
-{%= setHours(date, hour) %}
+{%= setHours(datetime, hour) %}
 ```
 
 <!--
