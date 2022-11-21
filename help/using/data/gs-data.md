@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: f418570a82d7b56dfb4c83df22b8109f506ec73a
+source-git-commit: 2dcfcc8d7006c92e046152db5ac1288bdde8b063
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Puede utilizar la flexibilidad de los datos de Journey Optimizer para satisfacer
 
 * **Purgas y mecanismos de archivado**: La depuración de datos y archivos se puede definir y automatizar libremente en Journey Optimizer para automatizar las políticas de retención de datos. Es posible definir diferentes estrategias de envejecimiento para las diferentes entidades de datos. También se pueden definir mecanismos de exportación para exportar automáticamente los datos de antigüedad antes de depurarlos o archivarlos.
 
-   El espacio de trabajo Higiene de los datos en la interfaz de usuario de Adobe Experience Platform le permite crear y supervisar diversas tareas de higiene de los datos, como la eliminación de identidades de consumidores y la programación de caducidades de conjuntos de datos. Obtenga más información en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}.
+   El espacio de trabajo Higiene de los datos en la interfaz de usuario de Adobe Experience Platform le permite crear y supervisar diversas tareas de higiene de los datos, como la eliminación de identidades de consumidores y la programación de caducidades de conjuntos de datos. Este espacio de trabajo está disponible con el Escudo de seguridad y privacidad y con el Escudo de salud. Obtenga más información en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}.
 
 * **Lago de datos y eliminaciones**: Journey Optimizer puede conservar los datos del cliente almacenados en el Data Lake:
 
