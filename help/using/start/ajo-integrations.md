@@ -6,12 +6,10 @@ description: Obtenga más información sobre cómo integrar Journey Optimizer co
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: f635c6995c453ed6d1042ef3e699d977e824f01e
+source-git-commit: 90d7d4d39fe04198707be3d5b24888cfe5bed308
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '580'
 ht-degree: 5%
 
 ---
@@ -26,23 +24,27 @@ Con Adobe Journey Optimizer, puede administrar, conservar y exportar fácilmente
 
 ## Adobe Customer Journey Analytics{#integration-cja}
 
-Puede exportar los datos generados por Journey Optimizer para realizar análisis avanzados en Customer Journey Analytics.
+Puede utilizar Customer Journey Analytics para realizar análisis avanzados de los datos generados por Journey Optimizer.
 
-La integración de Journey Optimizer con Customer Journey Analytics proporciona una vista integral de todos sus recorridos, campañas y ofertas, con distribución automatizada de informes y visualizaciones personalizadas de los datos.
+Journey Optimizer almacena datos en Adobe Experience Platform y con Customer Journey Analytics, lo que proporciona una vista holística de todos sus recorridos, campañas y ofertas, con distribución automatizada de informes y visualizaciones personalizadas de los datos.
 
-Después de crear el recorrido en Journey Optimizer, puede importar los datos de clientes al Customer Journey Analytics para iniciar informes y comprender el impacto de cada interacción que un cliente tenga con sus recorridos.
+Después de crear el recorrido en Journey Optimizer, el Customer Journey Analytics puede ingerir datos de la plataforma para iniciar informes y comprender el impacto de cada interacción que un cliente tiene con sus recorridos.
 
 Más información sobre [Journey Optimizer + Customer Journey Analytics](../reports/cja-ajo.md).
 
 ## Adobe Analytics{#integration-aa}
 
-Puede aprovechar todos los datos de evento de comportamiento de Adobe Analytics que ya está capturando y transmitiendo a Adobe Experience Platform para crear déclencheur de recorridos en tiempo real y automatizar experiencias para sus clientes.
+Puede aprovechar todos los datos de evento de comportamiento de Adobe Analytics que ya está capturando y transmitiendo a Adobe Experience Platform para déclencheur de recorridos en tiempo real y automatizar experiencias para sus clientes. Estos datos también se pueden utilizar para crear segmentos que se puedan utilizar con Journey Optimizer.
 
 Más información sobre [Journey Optimizer + Analytics](../event/about-analytics.md).
 
 ## Servicios inteligentes de Adobe{#integration-intelligent-service}
 
-La integración con Adobe Intelligent Services le permite aprovechar la potencia de la inteligencia artificial y el aprendizaje automático en casos de uso de experiencias del cliente. Esto permite que los analistas de marketing configuren predicciones específicas de las necesidades de una empresa mediante configuraciones de nivel empresarial sin necesidad de experiencia en ciencia de datos. Por ejemplo, Adobe Intelligent Services permite a las marcas crear puntuaciones basadas en el aprendizaje automático de pérdida o conversión que estarán disponibles como atributos de perfil en Adobe Experience Platform y que se pueden utilizar para personalizar un recorrido. [Más información](../building-journeys/ai-services-overview.md).
+Los servicios inteligentes de Adobe, nativos de la plataforma de datos del cliente en tiempo real, le permiten aprovechar el poder de la inteligencia artificial y el aprendizaje automático en casos prácticos de experiencias del cliente. Esto permite que los analistas de marketing configuren predicciones específicas de las necesidades de una empresa mediante configuraciones de nivel empresarial sin necesidad de experiencia en ciencia de datos.
+
+Customer AI permite a las marcas crear puntuaciones de aprendizaje automático de pérdida o conversión que estarán disponibles como atributos de perfil en Adobe Experience Platform y que se pueden utilizar para personalizar un recorrido.
+
+[Más información](../building-journeys/ai-services-overview.md).
 
 
 ## Adobe Campaign{#integration-ac}
@@ -57,9 +59,9 @@ Más información sobre [Journey Optimizer + Campaign Standard](../building-jour
 
 ## Canales personalizados{#integration-custom}
 
-Si utiliza un sistema de terceros para enviar mensajes o si desea que los recorridos envíen llamadas de API a un sistema de terceros, utilice acciones personalizadas para configurar su conexión con el recorrido. Por ejemplo, puede conectarse a los siguientes sistemas con acciones personalizadas: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}, Firebase, etc.
+Si utiliza un sistema de terceros para enviar mensajes o si desea que los recorridos envíen llamadas de API a un sistema de terceros, utilice acciones personalizadas para conectarse a su recorrido. Por ejemplo, puede conectarse a los siguientes sistemas con acciones personalizadas: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}, Firebase, etc.
 
-Las acciones personalizadas son acciones adicionales definidas por usuarios técnicos y que se ponen a disposición de los especialistas en marketing. Una vez configurados, aparecen en la paleta izquierda del recorrido, en la **[!UICONTROL Acción]** categoría. Obtenga más información en [esta página](../building-journeys/about-journey-activities.md#action-activities).
+Las acciones personalizadas son acciones adicionales definidas por usuarios técnicos y que se ponen a disposición de los especialistas en marketing. Una vez configurados, aparecen en la paleta izquierda del recorrido en la **[!UICONTROL Acción]** categoría. Obtenga más información en [esta página](../building-journeys/about-journey-activities.md#action-activities).
 
 Más información sobre [acciones personalizadas](../action/about-custom-action-configuration.md).
 
