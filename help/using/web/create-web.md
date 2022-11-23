@@ -1,5 +1,5 @@
 ---
-title: Crear experiencias web
+title: Creación de experiencias web
 description: Obtenga información sobre cómo crear una página web y editar su contenido en Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -7,14 +7,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: d94f0690629f924245d7a672ecf81decd0724861
+exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 6%
+source-wordcount: '1073'
+ht-degree: 7%
 
 ---
 
-# Crear experiencias web {#create-web}
+# Creación de experiencias web {#create-web}
 
 >[!AVAILABILITY]
 >
@@ -57,6 +58,11 @@ Para que la experiencia web se entregue correctamente, se debe definir la siguie
    ![](assets/web-aep-merge-policy.png)
 
 ## Creación de una campaña web {#create-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_surface"
+>title="Definir una superficie web"
+>abstract="Una superficie web puede coincidir con una dirección URL de una sola página o con varias páginas, lo que le permite enviar modificaciones de contenido en una o varias páginas web."
 
 Para comenzar a crear la experiencia web a través de una campaña, siga los pasos a continuación.
 

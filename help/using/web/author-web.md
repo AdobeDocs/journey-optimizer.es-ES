@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: e8888ed6847fd04317e361e01a3e1dd277a9a4e5
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '1051'
 ht-degree: 4%
 
 ---
@@ -26,6 +26,14 @@ En [!DNL Journey Optimizer] la creación web es impulsada por la extensión del 
 Para poder acceder y crear páginas web en la variable [!DNL Journey Optimizer] interfaz de usuario, siga los requisitos previos enumerados en [esta sección](create-web.md#prerequesites).
 
 ## Editar el contenido de una página web {#edit-web-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_personalize_header"
+>title="Introduzca la dirección URL para editar"
+>abstract="Introduzca la URL de una página web específica que se utilizará para editar el contenido que se aplicará en la superficie web definida anteriormente. La página debe implementarse mediante el SDK web de Adobe Experience Platform."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Más información"
+
+<!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
 
 Una vez creada una acción web a partir de la campaña, puede editar el contenido mediante el diseñador web. Para ello, siga los pasos a continuación.
 
@@ -73,6 +81,11 @@ Una vez creada una acción web a partir de la campaña, puede editar el contenid
 
 ## Uso de componentes de contenido {#content-components}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_components"
+>title="Añadir componentes de contenido a la página web"
+>abstract="Puede añadir varios componentes a la página web y editarlos según sea necesario."
+
 1. En el **[!UICONTROL Componentes]** a la izquierda, puede agregar los siguientes componentes a la página web y editarlos según sea necesario:
 
    * [Divisor](../design/content-components.md#divider)
@@ -113,6 +126,11 @@ Una vez creada una acción web a partir de la campaña, puede editar el contenid
 
 ### Cambiar al modo Examinar {#browse-mode}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_browse"
+>title="Uso del modo Examinar"
+>abstract="Desde este modo, puede desplazarse a la página exacta desde la superficie seleccionada que desee personalizar."
+
 Puede intercambiar desde el valor predeterminado **[!UICONTROL Diseño]** para **[!UICONTROL Examinar]** usando el botón dedicado.
 
 ![](assets/web-designer-browse-mode.png)
@@ -130,6 +148,11 @@ También puede cambiar el enfoque del zoom, de 25% a 400%.
 ![](assets/web-designer-device.png)
 
 ## Administrar modificaciones {#manage-modifications}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_modifications"
+>title="Administrar fácilmente todos los cambios"
+>abstract="Con este panel, puede desplazarse por la página web y administrar todos los ajustes y estilos que haya agregado a ella."
 
 Puede administrar fácilmente todos los componentes, ajustes y estilos agregados a la página web.
 
@@ -164,6 +187,11 @@ Utilice la variable **[!UICONTROL Decisión de oferta]** componente para inserta
 ![](assets/web-designer-offer.png)
 
 ## Prueba de la campaña web {#test-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_preview"
+>title="Previsualizar la experiencia web"
+>abstract="Obtenga una simulación del aspecto que tendrá su experiencia web."
 
 Para mostrar una vista previa de la experiencia web modificada, siga los pasos a continuación.
 

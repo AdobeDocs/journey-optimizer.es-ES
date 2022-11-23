@@ -4,10 +4,10 @@ product: journey optimizer
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2dcfcc8d7006c92e046152db5ac1288bdde8b063
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '2145'
-ht-degree: 98%
+source-wordcount: '2171'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 * Se ha añadido una nueva página sobre las integraciones de Journey Optimizer. [Más información](../start/ajo-integrations.md)
 * Se agregó una recomendación sobre la longitud de las direcciones URL de las páginas espejo. [Más información](../design/message-tracking.md)
+* Se ha añadido una nueva subsección en la configuración de configuración de correo electrónico en la respuesta a la dirección de correo electrónico, incluidas las recomendaciones para garantizar una administración de respuestas adecuada. [Más información](../configuration/email-settings.md#reply-to-email)
 
 ## Octubre de 2022 {#october-2022}
 
