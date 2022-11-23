@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
+source-git-commit: f39e2094db24e7d0e8a304750624c985ff631572
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 4%
+source-wordcount: '1101'
+ht-degree: 5%
 
 ---
 
@@ -28,9 +28,15 @@ Para poder acceder y crear páginas web en la variable [!DNL Journey Optimizer] 
 ## Editar el contenido de una página web {#edit-web-content}
 
 >[!CONTEXTUALHELP]
->id="ajo_web_url_to_personalize_header"
+>id="ajo_web_url_to_edit_surface"
 >title="Introduzca la dirección URL para editar"
->abstract="Introduzca la URL de una página web específica que se utilizará para editar el contenido que se aplicará en la superficie web definida anteriormente. La página debe implementarse mediante el SDK web de Adobe Experience Platform."
+>abstract="Introduzca la URL de una página web específica que se utilizará para editar el contenido que se aplicará en la superficie web definida anteriormente. La página web debe implementarse mediante el SDK web de Adobe Experience Platform."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Más información"
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_edit_rule"
+>title="Introduzca la dirección URL para editar"
+>abstract="Introduzca la dirección URL de una página web específica que se utilizará para editar el contenido que se aplicará a todas las páginas que coincidan con la regla. La página web debe implementarse mediante el SDK web de Adobe Experience Platform."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Más información"
 
 <!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
