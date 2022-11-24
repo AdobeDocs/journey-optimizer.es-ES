@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3d496efc-1bf9-4895-906c-3757f92c6fe3
-source-git-commit: c4683e10e4a15f99206a3e8702c1ad20591f1d67
+source-git-commit: 3f43cfac56e4665dc16ce24e9736bcfcd3c544bf
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 4%
+source-wordcount: '944'
+ht-degree: 3%
 
 ---
 
@@ -102,14 +102,14 @@ Prueba 2:
 
 >[!BEGINTABS]
 
->[!TAB Añadir una inserción a un Recorrido]
-
+    >[!TAB Agregar una inserción a un Recorrido]
+    
     1. Abra el recorrido y arrastre y suelte una actividad Push desde la sección Actions de la paleta.
     
     1. Proporcione información básica sobre el mensaje (etiqueta, descripción, categoría) y, a continuación, elija la superficie del mensaje que desea utilizar.
-
->[!TAB Adición de una push a una campaña]
-
+    
+    >[!TAB Agregar una push a una campaña]
+    
     1. Cree una nueva campaña programada o activada por la API, seleccione **[!UICONTROL Notificaciones push]** como acción y elija **[!UICONTROL Superficie de la aplicación]** para usar.
     
     1. Haga clic en **[!UICONTROL Crear]**.
@@ -128,6 +128,79 @@ Prueba 2:
     * Diario
     * Semanal
     * Mensual
+
+>[!ENDTABS]
+
+1. Esto forma parte de la prueba
+
+Prueba 3:
+
+1. Esta es una prueba
+
+   >[!BEGINTABS]
+
+   >[!TAB Añadir una inserción a un Recorrido]
+
+   1. Abra el recorrido y arrastre y suelte una actividad Push desde la sección Actions de la paleta.
+
+   1. Proporcione información básica sobre el mensaje (etiqueta, descripción, categoría) y, a continuación, elija la superficie del mensaje que desea utilizar.
+   >[!TAB Adición de una push a una campaña]
+
+   1. Cree una nueva campaña programada o activada por la API, seleccione **[!UICONTROL Notificaciones push]** como su acción y elija el **[!UICONTROL Superficie de la aplicación]** para usar.
+
+   1. Haga clic en **[!UICONTROL Crear]**.
+
+   1. En el **[!UICONTROL Propiedades]** , edite la **[!UICONTROL Título]** y **[!UICONTROL Descripción]**.
+
+   1. Haga clic en el **[!UICONTROL Seleccionar la audiencia]** para definir la audiencia a la que se dirigirá desde la lista de segmentos de Adobe Experience Platform disponibles.
+
+   1. En el **[!UICONTROL Área de nombres de identidad]** , elija el área de nombres que desea utilizar para identificar a las personas del segmento seleccionado.
+
+   1. Las campañas están diseñadas para ejecutarse en una fecha específica o con una frecuencia recurrente. Obtenga información sobre cómo configurar la variable **[!UICONTROL Programación]** de su campaña.
+
+   1. En el **[!UICONTROL Déclencheur de acción]** , seleccione **[!UICONTROL Frecuencia]** de la notificación push:
+
+      * Una vez
+      * Diario
+      * Semanal
+      * Mensual
+
+   >[!ENDTABS]
+
+1. Esto forma parte de la prueba
+
+Prueba 3:
+
+1. Esta es una prueba
+
+>[!BEGINTABS]
+
+>[!TAB Añadir una inserción a un Recorrido]
+
+1. Abra el recorrido y arrastre y suelte una actividad Push desde la sección Actions de la paleta.
+
+1. Proporcione información básica sobre el mensaje (etiqueta, descripción, categoría) y, a continuación, elija la superficie del mensaje que desea utilizar.
+
+>[!TAB Adición de una push a una campaña]
+
+1. Cree una nueva campaña programada o activada por la API, seleccione **[!UICONTROL Notificaciones push]** como su acción y elija el **[!UICONTROL Superficie de la aplicación]** para usar.
+
+1. Haga clic en **[!UICONTROL Crear]**.
+
+1. En el **[!UICONTROL Propiedades]** , edite la **[!UICONTROL Título]** y **[!UICONTROL Descripción]**.
+
+1. Haga clic en el **[!UICONTROL Seleccionar la audiencia]** para definir la audiencia a la que se dirigirá desde la lista de segmentos de Adobe Experience Platform disponibles.
+
+1. En el **[!UICONTROL Área de nombres de identidad]** , elija el área de nombres que desea utilizar para identificar a las personas del segmento seleccionado.
+
+1. Las campañas están diseñadas para ejecutarse en una fecha específica o con una frecuencia recurrente. Obtenga información sobre cómo configurar la variable **[!UICONTROL Programación]** de su campaña.
+
+1. En el **[!UICONTROL Déclencheur de acción]** , seleccione **[!UICONTROL Frecuencia]** de la notificación push:
+
+   * Una vez
+   * Diario
+   * Semanal
+   * Mensual
 
 >[!ENDTABS]
 
