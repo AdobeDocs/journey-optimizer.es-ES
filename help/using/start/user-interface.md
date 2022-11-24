@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 29f01b1c92c2b82a7cb11264b29604e74252b19b
+source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -46,9 +46,9 @@ La página principal de [!DNL Journey Optimizer] contiene vínculos clave y recu
 
 **[!UICONTROL ADMINISTRACIÓN DE RECORRIDOS]**
 
-* **[!UICONTROL Recorridos]**: cree, configure y organice sus recorridos de cliente. [Más información](../building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL Recorridos]** : cree, configure y organice sus recorridos de cliente. [Más información](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Páginas de aterrizaje]**: cree, diseñe, pruebe y publique páginas de aterrizaje. [Más información](../landing-pages/get-started-lp.md)
+* **[!UICONTROL Páginas de aterrizaje]** : cree, diseñe, pruebe y publique páginas de aterrizaje. [Más información](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL GESTIÓN DE DECISIONES]**
 
