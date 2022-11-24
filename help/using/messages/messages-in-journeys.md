@@ -7,13 +7,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
-workflow-type: ht
-source-wordcount: '786'
-ht-degree: 100%
+exl-id: acb5b65b-8787-4428-9924-36aa0a115926
+source-git-commit: 88182f9f685efbd45dd5ecf8a09745f55305a78f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # Adición de mensajes a los recorridos{#messages-in-journeys}
 
@@ -134,7 +134,7 @@ Para ello, siga los pasos a continuación:
 
    ![](assets/message-duplicated.png)
 
-1. Cambie el nombre del mensaje para poder diferenciar el mensaje inicial de la copia, por ejemplo, al editar mensajes, como se muestra a continuación:
+1. Cambie el nombre del mensaje para poder diferenciar el mensaje inicial de la copia, por ejemplo al editar mensajes, como se muestra a continuación:
 
    ![](assets/multi-message.png)
 
