@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: a6735063ec68b40b1441b379a20cba8953b59447
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 8%
+source-wordcount: '203'
+ht-degree: 11%
 
 ---
 
@@ -23,11 +23,12 @@ Puede aprovechar todos los datos de evento de comportamiento de Adobe Analytics 
 >
 >Esta sección solo se aplica para eventos basados en reglas y clientes que necesitan utilizar datos de Adobe Analytics.
 
-Para que esto funcione, debe activar en Adobe Experience Platform el grupo de informes que desea aprovechar:
+Para que esto funcione, debe activar en Adobe Experience Platform el grupo de informes que desee utilizar. Para realizar esto, siga los pasos a continuación:
 
-1. En Adobe Experience Platform, seleccione **[!UICONTROL Fuentes]** then **[!UICONTROL Añadir datos]** en la sección Adobe Analytics . Se muestra la lista de los grupos de informes de Adobe Analytics disponibles.
+1. Conectarse a Adobe Experience Platform y navegar hasta **[!UICONTROL Fuentes]**.
+1. En la sección Adobe Analytics , seleccione **[!UICONTROL Añadir datos]**: se muestra la lista de grupos de informes de Adobe Analytics disponibles.
 
-1. Elija el grupo de informes que desea habilitar y haga clic en **[!UICONTROL Siguiente]** y haga clic en **[!UICONTROL Finalizar]**.
+1. Seleccione el grupo de informes que desea habilitar y haga clic en **[!UICONTROL Siguiente]** y **[!UICONTROL Finalizar]**.
 
 1. Comparta el ID de datos de origen con el punto de contacto del programa Beta.
 
