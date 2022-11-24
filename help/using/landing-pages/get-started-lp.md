@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: c4683e10e4a15f99206a3e8702c1ad20591f1d67
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 8%
+source-wordcount: '202'
+ht-degree: 9%
 
 ---
 
@@ -29,14 +29,42 @@ Una página de aterrizaje es una página web independiente a la que se dirige a 
 * Proporcione a sus destinatarios el **capacidad para cancelar la suscripción** de recibir sus comunicaciones. [Más información](lp-use-cases.md#opt-out)
 * Enviar un **correo electrónico de confirmación** al activar o desactivar . [Más información](lp-use-cases.md#send-confirmation-email)
 
-<table>
-<tr>
-<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">Creación de páginas de aterrizaje</a></p></td>
-<td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">Crear listas de suscripción</a></p></td>
-<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-lp.md">Diseño de páginas de aterrizaje</a></p></td>
-<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="../reports/lp-report-live.md">Informes</a></p></td>
-</tr>
-</table>
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-lp.md">
+<img alt="Posible cliente" src="../assets/do-not-localize/lp-subscription.jpeg">
+</a>
+<div><a href="create-lp.md"><strong>Creación de páginas de aterrizaje</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="subscription-list.md">
+<img alt="Poco frecuente" src="../assets/do-not-localize/lp-list.jpg">
+</a>
+<div>
+<a href="subscription-list.md"><strong>Crear listas de suscripción</strong></a>
+</div>
+<p></td>
+<td>
+<a href="design-lp.md">
+<img alt="Validación" src="../assets/do-not-localize/lp-design.jpg">
+</a>
+<div>
+<a href="design-lp.md"><strong>Diseño de páginas de aterrizaje</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../reports/lp-report-live.md">
+<img alt="Validación" src="../assets/do-not-localize/lp-reporting.jpg">
+</a>
+<div>
+<a href="../reports/lp-report-live.md"><strong>Creación de informes</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
 
 ## Vídeo explicativo{#video}
 
