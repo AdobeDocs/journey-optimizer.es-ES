@@ -6,13 +6,13 @@ description: Obtenga más información sobre privacidad en Adobe Journey Optimiz
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
+exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
+source-git-commit: a153db2adcea4d65cac0d6a4f08c7b997b9ddda1
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 9%
+source-wordcount: '205'
+ht-degree: 10%
 
 ---
-
 
 # Introducción a la privacidad {#privacy}
 
@@ -30,12 +30,48 @@ Adobe Experience Platform y Journey Optimizer proporcionan varias herramientas p
 
 * **Aplicar políticas de gobernanza**: Aproveche las políticas de control de Adobe Experience Platform para evitar que los campos confidenciales se exporten a sistemas de terceros mediante acciones personalizadas. [Más información](../action/action-privacy.md)
 
-<table>
-<tr>
-<td><img src="../assets/do-not-localize/icon-privacy-request.svg" width="60px"><p><a href="requests.md">Administrar solicitudes de datos</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-audit.svg" width="60px"><p><a href="audit-logs.md">Auditoría de acciones de los usuarios</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-optout.svg" width="60px"><p><a href="opt-out.md">Seguimiento y administración del consentimiento</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-consent.svg" width="60px"><p><a href="../action/consent.md">Aplicar directivas de consentimiento</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-governance.svg" width="60px"><p><a href="../action/action-privacy.md">Aplicar políticas de gobernanza</a></p></td>
-</tr>
-</table>
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="requests.md">
+<img alt="Posible cliente" src="../assets/do-not-localize/privacy-request.jpeg">
+</a>
+<div><a href="requests.md"><strong>Administrar solicitudes de datos</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="audit-logs.md">
+<img alt="Poco frecuente" src="../assets/do-not-localize/privacy-audit.jpeg">
+</a>
+<div>
+<a href="audit-logs.md"><strong>Auditoría de acciones de los usuarios</strong></a>
+</div>
+<p></td>
+<td>
+<a href="opt-out.md">
+<img alt="Validación" src="../assets/do-not-localize/privacy-track-consent.jpeg">
+</a>
+<div>
+<a href="opt-out.md"><strong>Seguimiento y administración del consentimiento</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../action/consent.md">
+<img alt="Validación" src="../assets/do-not-localize/privacy-consent-policies.jpeg">
+</a>
+<div>
+<a href="../action/consent.md"><strong>Aplicar directivas de consentimiento</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../action/action-privacy.md">
+<img alt="Validación" src="../assets/do-not-localize/privacy-governance.jpeg">
+</a>
+<div>
+<a href="../action/action-privacy.md"><strong>Aplicar políticas de gobernanza</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
