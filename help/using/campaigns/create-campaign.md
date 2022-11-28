@@ -7,9 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 5c12ea559876d30a08f9aaf593d1b40b1f5b8bae
+exl-id: 617d623c-e038-4b5b-a367-5254116b7815
+source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '897'
 ht-degree: 9%
 
 ---
@@ -34,10 +35,12 @@ ht-degree: 9%
 
    ![](assets/create-campaign.png)
 
-1. En el **[!UICONTROL Propiedades]** , especifique cuándo desea ejecutar la campaña:
+1. En el **[!UICONTROL Propiedades]** especifique cómo desea ejecutar la campaña:
 
-   * **[!UICONTROL Programado]**: ejecutar la campaña inmediatamente o en una fecha especificada. Las campañas programadas tienen como objetivo enviar **marketing** escriba mensajes.
-   * **[!UICONTROL Activado por API]**: ejecute la campaña utilizando una llamada de API. Las campañas activadas por API están destinadas a enviar **transaccional** mensajes, es decir, mensajes enviados siguiendo una acción realizada por un individuo: restablecimiento de contraseña, abandono de tarjeta, etc. [Obtenga información sobre cómo almacenar en déclencheur una campaña mediante API](api-triggered-campaigns.md)
+   * **[!UICONTROL Programado]**
+   * **[!UICONTROL Activado por API]**
+
+   Para obtener más información sobre el tipo de campaña y las participaciones asociadas, consulte esta [sección](#campaigntype).
 
 1. En el **[!UICONTROL Acciones]** , seleccione el canal y la superficie del canal que desea utilizar para enviar el mensaje y, a continuación, haga clic en **[!UICONTROL Crear]**.
 
@@ -95,7 +98,40 @@ ht-degree: 9%
 
 Una vez preparada la campaña, puede revisarla y publicarla. [Más información](#review-activate)
 
+## Tipo de campaña {#campaigntype}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_type"
+>title="Tipo de campaña"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_category"
+>title="Categoría de la campaña"
+>abstract="TBC"
+
+Hay dos tipos de campaña disponibles:
+
+* **[!UICONTROL Programado]**: ejecutar la campaña inmediatamente o en una fecha especificada. Las campañas programadas tienen como objetivo enviar **marketing** escriba mensajes.
+
+* **[!UICONTROL Activado por API]**: ejecute la campaña utilizando una llamada de API. Las campañas activadas por API están destinadas a enviar **transaccional** mensajes, es decir, mensajes enviados siguiendo una acción realizada por un individuo: restablecimiento de contraseña, abandono de tarjeta, etc. [Obtenga información sobre cómo almacenar en déclencheur una campaña mediante API](api-triggered-campaigns.md)
+
 ## Programar una campaña {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_start"
+>title="Inicio de la campaña"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_end"
+>title="Fin de la campaña"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_triggers"
+>title="Déclencheur de acción de Campaign"
+>abstract="TBC"
 
 De forma predeterminada, las campañas se inician una vez activadas manualmente y finalizan en cuanto se envía una vez el mensaje.
 
@@ -105,7 +141,7 @@ Si no desea ejecutar la campaña justo después de su activación, puede especif
 
 ![](assets/create-campaign-schedule.png)
 
-## Modo de entrega rápido {#rapid-delivery}
+## Modo de entrega rápido para la campaña push {#rapid-delivery}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
@@ -116,7 +152,7 @@ El modo de entrega rápida, anteriormente conocido como modo de ráfaga en recor
 
 La entrega rápida se utiliza cuando el retraso en la entrega de mensajes es crítico para el negocio, cuando desea enviar una alerta push urgente en teléfonos móviles, por ejemplo una noticia de último minuto para los usuarios que han instalado la aplicación de canal de noticias.
 
-Para obtener más información sobre el rendimiento al utilizar el modo de entrega rápida, consulte [Descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=es).
+Para obtener más información sobre el rendimiento al utilizar el modo de entrega rápida, consulte [Descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html).
 
 ### Requisitos previos {#prerequisites}
 
