@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: acb5b65b-8787-4428-9924-36aa0a115926
-source-git-commit: 88182f9f685efbd45dd5ecf8a09745f55305a78f
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 97%
+source-wordcount: '800'
+ht-degree: 95%
 
 ---
 
@@ -92,6 +92,10 @@ Los parámetros avanzados se muestran en la parte inferior del panel de mensajes
 Para las notificaciones push, puede mostrar los siguientes parámetros: Token, AppID, AppPlatform.
 
 ![](assets/push-adv-parameters.png)
+
+>[!NOTE]
+>
+>Si sobrescribe uno de estos atributos, los tres también deben anularse.
 
 Para el correo electrónico, puede mostrar la [dirección de correo electrónico principal](../configuration/primary-email-addresses.md).
 

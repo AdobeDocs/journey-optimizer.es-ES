@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -325,6 +325,8 @@ Este conjunto de datos le permite acceder a metadatos definidos por expertos en 
 >[!NOTE]
 >
 >Por el momento, hay dos entradas para cada publicación de mensaje en el conjunto de datos de la entidad por motivos de compatibilidad futuros. Esto no afecta a su capacidad de usar consultas de unión según sea necesario en todos los conjuntos de datos para recuperar la información deseada.
+
+Si desea clasificar, en los informes, los correos electrónicos enviados por un recorrido específico según la acción que los envió. puede unirse al conjunto de datos Comentarios de mensajes con el conjunto de datos de entidad. Los campos que se van a utilizar son: `_experience.decisioning.propositions.scopeDetails.correlationID` y `_id field in entity dataset`.
 
 La siguiente consulta le ayuda a obtener la plantilla de mensaje asociada para una campaña determinada:
 

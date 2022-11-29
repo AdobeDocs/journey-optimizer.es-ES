@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 73%
@@ -42,7 +42,7 @@ Para cada fuente de datos, se define la información que se recuperará mediante
 
 >[!NOTE]
 >
->Ahora se admiten relaciones de esquema para orígenes de datos.
+>Las relaciones de esquema no son compatibles con los orígenes de datos.
 
 Para obtener más información sobre cómo configurar una fuente de datos de Adobe Experience Platform y una fuente de datos externa, y cómo buscar y utilizar datos en un recorrido, consulte esta [videotutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target=&quot;_blank&quot;}.
 

@@ -6,16 +6,20 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 9%
+source-wordcount: '148'
+ht-degree: 8%
 
 ---
 
 # sort {#sort}
 
 Ordena una lista de valores u objetos en el orden natural.
+
+>[!NOTE]
+>
+>Si la lista de destino es un listObject, esta función solo se puede utilizar en expresiones de acción personalizadas.
 
 ## Categoría
 
