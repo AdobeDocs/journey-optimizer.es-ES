@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 146e2384e44fc040ddb73a96742cae0dea6f17da
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 26%
+source-wordcount: '695'
+ht-degree: 24%
 
 ---
 
 # Introducción a la capacidad de entrega {#manage-deliverability}
 
 La capacidad de entrega es una medida del éxito de los envíos que llegan a las bandejas de entrada de los destinatarios.
+
+>[!NOTE]
+>
+>Para los clientes que reciben licencias de Healthcare Shield, Adobe utiliza Transport Layer Security (TLS) 1.2 para asegurar el intercambio de datos entre los sistemas de los usuarios (destinatarios) y Journey Optimizer (remitente). Si el servidor de correo de recepción no es compatible con TLS 1.2, los clientes tendrán problemas con la entrega, incluido el rebote de correo electrónico al remitente de origen.
 
 **La capacidad de envío de correo electrónico hace referencia al conjunto de características que determinan la capacidad de un mensaje para llegar a su destino a través de una dirección de correo electrónico personal, en poco tiempo y con la calidad esperada en términos de contenido y formato.** Estas características se dividen en cuatro categorías principales: calidad de datos, mensaje y contenido, infraestructura de envío y reputación. Juntas forman la base del éxito de un programa de envío de correo electrónico.
 
