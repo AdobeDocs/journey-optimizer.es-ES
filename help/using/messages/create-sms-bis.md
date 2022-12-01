@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
+source-git-commit: 5e5b078fa61e2c615a2242f50439c2f20ea5216a
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 7%
@@ -22,7 +22,7 @@ ht-degree: 7%
 >
 >De acuerdo con las normas y los reglamentos del sector, todos los mensajes SMS sobre marketing deben contener una forma para que los destinatarios puedan cancelar la suscripción fácilmente. Para ello, los destinatarios de SMS pueden responder con las palabras clave de inclusión y exclusión.
 
-## Creación de un mensaje SMS en un recorrido o campaña {#sms-content}
+## Creación de un mensaje SMS en un recorrido o campaña
 
 Para empezar a personalizar el mensaje SMS, siga estos pasos:
 
@@ -65,7 +65,7 @@ Ahora puede empezar a diseñar el contenido de su mensaje SMS desde el **[!UICON
 
 >[!ENDTABS]
 
-## Definir el contenido del SMS{#sms-content}
+## Definir el contenido del SMS
 
 1. En la pantalla de configuración de recorrido o de campaña, haga clic en el botón **[!UICONTROL Editar contenido]** para configurar el contenido del SMS.
 
@@ -77,7 +77,7 @@ Ahora puede empezar a diseñar el contenido de su mensaje SMS desde el **[!UICON
 
 1. Cuando el mensaje SMS esté listo, complete la configuración de su para enviarlo.
 
-## Validar el SMS{#sms-preview}
+## Validar el SMS
 
 >[!NOTE]
 >

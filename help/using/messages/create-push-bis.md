@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
+source-git-commit: 5e5b078fa61e2c615a2242f50439c2f20ea5216a
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Crear una notificación push {#create-push-notification-bis}
 
-## Creación de la notificación push en un recorrido o campaña {#create}
+## Creación de la notificación push en un recorrido o campaña
 
 Para crear una notificación push, siga los pasos a continuación:
 
@@ -71,7 +71,7 @@ Para crear una notificación push, siga los pasos a continuación:
 
 >[!ENDTABS]
 
-## Modo de entrega rápido {#rapid-delivery}
+## Modo de entrega rápido
 
 El modo de entrega rápida, anteriormente conocido como modo de ráfaga en recorridos, es un [!DNL Journey Optimizer] complemento que permite enviar mensajes push muy rápidamente a grandes volúmenes mediante campañas.
 
@@ -79,7 +79,7 @@ La entrega rápida se utiliza cuando el retraso en la entrega de mensajes es cr�
 
 Para obtener más información sobre el rendimiento al utilizar el modo de entrega rápida, consulte.
 
-### Requisitos previos {#prerequisites}
+### Requisitos previos
 
 La mensajería de envío rápido incluye los siguientes requisitos:
 
