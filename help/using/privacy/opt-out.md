@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b35ae530ec23da1ecb0ae99c4d9659481d296f09
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1687'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Primero debe agregar el vínculo &quot;Cancelar la suscripción&quot; a un mensa
 
 #### Implementación de una llamada de API para la exclusión {#opt-out-api}
 
-Para que los destinatarios se excluyan cuando envíen su elección desde la página de aterrizaje, debe implementar una **Llamada de API de suscripción** mediante [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;} para actualizar las preferencias de los perfiles correspondientes.
+Para que los destinatarios se excluyan cuando envíen su elección desde la página de aterrizaje, debe implementar una **Llamada de API de suscripción** mediante [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} para actualizar las preferencias de los perfiles correspondientes.
 
 Esta llamada de POST es como sigue:
 
@@ -203,7 +203,7 @@ Según el cliente de correo electrónico, hacer clic en el vínculo de cancelaci
    >
    >Si no agrega un vínculo de no participación de un clic al contenido del mensaje, no se mostrará ninguna página de aterrizaje.
 
-* El perfil correspondiente se excluye inmediatamente y esta opción se actualiza en Experience Platform. Obtenga más información en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+* El perfil correspondiente se excluye inmediatamente y esta opción se actualiza en Experience Platform. Obtenga más información en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target=&quot;_blank&quot;}.
 
 ## Administración de exclusiones push {#push-opt-out-management}
 
@@ -215,28 +215,28 @@ Por ejemplo, al descargar o al usar la aplicación, pueden seleccionar detener l
 
 De acuerdo con las normas y los reglamentos del sector, todos los mensajes SMS sobre marketing deben contener una forma para que los destinatarios puedan cancelar la suscripción fácilmente. Una vez cancelada la suscripción, los perfiles se eliminan automáticamente de la audiencia de futuros mensajes de marketing.
 
-De forma predeterminada, Adobe Journey Optimizer gestiona mensajes de respuesta en inglés estándar como STOP, UNSTOP y START para mensajes de código largo y gratuito, de acuerdo con los estándares del sector para la integración nativa como Sinch y Twilio. Estas palabras clave suelen generar el déclencheur de una respuesta estándar automática de su proveedor de terceros (por ejemplo, Twilio, Sinch, etc.). Puede confirmarlo directamente con su proveedor o a través de su sitio de documentación.
+De forma predeterminada, Adobe Journey Optimizer gestiona mensajes de respuesta estándar en inglés como STOP, UNSTOP y START para mensajes de código largo y gratuito, de acuerdo con los estándares del sector para la integración nativa como Sinch y Twilio. Estas palabras clave suelen activar una respuesta estándar automática de su proveedor de terceros (p. ej., Twilio, Sinch, etc.). Puede confirmar esto directamente con su proveedor o a través de su sitio de documentación.
 
-No se requieren pasos para garantizar que las funcionalidades de exclusión de SMS funcionen en Adobe Journey Optimizer, ya que las respuestas de palabras clave STOP, UNSTOP y START se reconocerán automáticamente.
+No se necesita hacer nada más para garantizar que las funcionalidades de exclusión de SMS funcionen en Adobe Journey Optimizer, ya que STOP, UNSTOP y START, las respuestas de palabras clave, se reconocerán automáticamente.
 
-Además de detener el envío mediante Adobe Journey Optimizer en función del estado de exclusión (para integraciones directas con Twilio o Sinch), la mayoría de los proveedores de pasarelas SMS también mantienen una lista de bloqueados que garantiza que no se envíe un mensaje SMS a una persona que haya elegido excluirse. Si utiliza un proveedor que no sea Sinch o Twilio y envía un SMS a través de [canal personalizado](../building-journeys/using-custom-actions.md), debe confirmarlo con su proveedor.
+Además de detener el envío con Adobe Journey Optimizer en función del estado de exclusión (para integraciones directas con Twilio o Sinch), la mayoría de los proveedores de puertas de enlace por SMS también mantienen una lista de bloqueados que garantiza que un mensaje SMS no se va a enviar a una persona que haya elegido excluirse. Si utiliza un proveedor que no sea Sinch o Twilio y envía un SMS a través de un [canal personalizado](../building-journeys/using-custom-actions.md), debe confirmarlo con su proveedor.
 
 >[!IMPORTANT]
 >
->Las campañas de mensajes de texto pueden estar sujetas a diversos requisitos legales de cumplimiento según la naturaleza de la campaña de mensajería de texto, la ubicación desde la que envía los mensajes de texto y la ubicación de los destinatarios. <br>Aunque Adobe Journey Optimizer gestionará los mensajes en códigos largos y números gratuitos como se detalla más arriba, debe consultar a su asesor jurídico para asegurarse de que su campaña de mensajería de texto cumpla todos los requisitos legales aplicables.
+>Las campañas de mensajería de texto pueden estar sujetas a diversos requisitos legales de cumplimiento según su naturaleza, la ubicación desde la que se envían los mensajes de texto y la ubicación de los destinatarios. <br>Aunque Adobe Journey Optimizer gestionará los mensajes en códigos largos y números gratuitos, tal y como se detalla más arriba, consulte a su asesor jurídico para asegurarse de que su campaña de mensajería de texto cumpla todos los requisitos legales aplicables.
 
 ### Códigos cortos {#short-codes}
 
-De forma predeterminada, Adobe Journey Optimizer no gestiona las palabras clave de exclusión, inclusión o ayuda para los números de código cortos.
+De forma predeterminada, Adobe Journey Optimizer no gestiona las palabras clave de exclusión, inclusión o ayuda para los números de código corto.
 
-Debe asegurarse de que su código corto cumpla todas las reglas y regulaciones del sector para la gestión de la exclusión.
+Debe asegurarse de que el código corto cumpla todas las normas y regulaciones del sector para gestionar la exclusión.
 
 ### ID de remitente alfanumérico {#alphanumeric}
 
-Los ID de remitente alfanuméricos solo son para mensajería unidireccional y no pueden recibir mensajes entrantes. Como resultado, las palabras clave STOP, START y HELP de Adobe Journey Optimizer no son aplicables a los ID de remitente alfa. Debe proporcionar otras instrucciones, como escribir al equipo de asistencia técnica, llamar a una línea telefónica de asistencia o enviar un mensaje de otro número de teléfono o código para permitir a los usuarios desactivar los mensajes enviados a través de un ID de remitente alfanumérico.
+Los ID de remitente alfanuméricos solo se utilizan en la mensajería unidireccional y no pueden recibir mensajes. Como resultado, STOP, START y HELP, las palabras clave de SMS de Adobe Journey Optimizer, no son aplicables a los ID de remitente alfa. Debe‧proporcionar‧otras‧instrucciones,‧como‧escribir‧al‧Equipo‧de‧Soporte,‧llamar‧a‧una‧línea‧telefónica‧de‧asistencia‧o‧enviar‧un‧mensaje‧de‧texto‧a‧otro‧número‧de‧teléfono‧o‧código‧para‧permitir‧a‧los‧usuarios‧excluirse‧de‧los‧mensajes‧enviados‧a‧través‧de‧un‧ID‧de‧remitente‧alfanumérico.
 
 #### Vídeo {#video-sms}
 
-Para obtener más información sobre cómo funciona la compatibilidad con palabras clave entrantes nativas (START, STOP y UNSTOP) para SMS, consulte el siguiente vídeo:
+Para obtener más información sobre cómo funciona la compatibilidad con palabras clave entrantes nativas (START, STOP y UNSTOP) para SMS, mire el siguiente vídeo:
 
 >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
