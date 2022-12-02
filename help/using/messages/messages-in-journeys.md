@@ -11,7 +11,7 @@ exl-id: acb5b65b-8787-4428-9924-36aa0a115926
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -138,7 +138,7 @@ Para ello, siga los pasos a continuación:
 
    ![](assets/message-duplicated.png)
 
-1. Cambie el nombre del mensaje para poder diferenciar el mensaje inicial de la copia, por ejemplo al editar mensajes, como se muestra a continuación:
+1. Cambie el nombre del mensaje para poder diferenciar el mensaje inicial de la copia, por ejemplo, al editar mensajes, tal y como se muestra a continuación:
 
    ![](assets/multi-message.png)
 

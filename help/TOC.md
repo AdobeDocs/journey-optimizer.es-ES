@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8026a214919e468b355aeb030ac1b387307e3e67
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,15 +39,15 @@ ht-degree: 97%
       + [Diseño de un recorrido](using/building-journeys/using-the-journey-designer.md)
       + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
       + [Publicación del recorrido](using/building-journeys/publishing-the-journey.md)
-   + Administrar sus recorridos{#mannage-journey}
-      + [Finalice el recorrido](using/building-journeys/end-journey.md)
+   + Administrar los recorridos{#mannage-journey}
+      + [Termine el recorrido](using/building-journeys/end-journey.md)
       + [Administración de husos horarios](using/building-journeys/timezone-management.md)
-      + [Administración de entrada de perfil](using/building-journeys/entry-management.md)
+      + [Administración de la entrada del perfil](using/building-journeys/entry-management.md)
       + [Copia de un recorrido en otra zona protegida](using/building-journeys/copy-to-sandbox.md)
       + [Resolución de problemas del recorrido](using/building-journeys/troubleshooting.md)
       + [Integración con servicios inteligentes](using/building-journeys/ai-services-overview.md)
    + Actividades {#about-journey-building}
-      + [Introducción a las actividades de recorrido](using/building-journeys/about-journey-activities.md)
+      + [Introducción a actividades de recorrido](using/building-journeys/about-journey-activities.md)
       + [Eventos generales](using/building-journeys/general-events.md)
       + [Reacción](using/building-journeys/reaction-events.md)
       + [Clasificación del segmento](using/building-journeys/segment-qualification-events.md)

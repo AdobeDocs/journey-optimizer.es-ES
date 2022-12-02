@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '2189'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -17,9 +17,9 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Noviembre de 2022 {#november-2022}
 
-* Se ha añadido una nueva página sobre las integraciones de Journey Optimizer. [Más información](../start/ajo-integrations.md)
-* Se agregó una recomendación sobre la longitud de las direcciones URL de las páginas espejo. [Más información](../design/message-tracking.md)
-* Se ha añadido una nueva subsección en la configuración de configuración de correo electrónico en la respuesta a la dirección de correo electrónico, incluidas las recomendaciones para garantizar una administración de respuestas adecuada. [Más información](../configuration/email-settings.md#reply-to-email)
+* Se ha añadido una página nueva acerca de las integraciones de Journey Optimizer. [Más información](../start/ajo-integrations.md)
+* Se ha agregado una recomendación acerca de la longitud de las direcciones URL de las páginas espejo. [Más información](../design/message-tracking.md)
+* Se ha añadido una subsección nueva en la configuración del correo electrónico acerca de la respuesta a una dirección de correo electrónico, lo que incluye recomendaciones para garantizar que las respuestas se gestionan adecuadamente. [Más información](../configuration/email-settings.md#reply-to-email)
 * Se ha añadido una sección sobre cómo modificar el contenido de un mensaje en un recorrido activo. [Más información](../building-journeys/journeys-message.md#update-live-content)
 
 ## Octubre de 2022 {#october-2022}
@@ -27,7 +27,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha agregado un caso de uso de recorrido sobre cómo limitar el rendimiento mediante Fuentes de datos externas y Acciones personalizadas. [Más información](../building-journeys/limit-throughput.md)
 * La sección de casos de uso de recorrido se ha reorganizado en dos categorías: [Casos de uso empresariales](../building-journeys/journeys-uc.md) y [Casos de uso técnicos](../building-journeys/collections.md).
 * La sección **Conjunto de datos de entidad** se ha actualizado con más detalles. [Más información](../data/datasets-query-examples.md#entity-dataset)
-* Se han reorganizado las secciones de administración de exclusión y políticas de consentimiento. [Más información](../privacy/opt-out.md)
+* Se han reorganizado las secciones de administración de exclusión y de las políticas de consentimiento. [Más información](../privacy/opt-out.md)
 * Se ha aclarado la sección sobre parámetros avanzados en los mensajes de recorrido y ahora especifica que la anulación de direcciones de correo electrónico solo debe utilizarse para casos de uso específicos. La mayoría de las veces, el valor definido como la dirección principal en los **Campos de ejecución** es el que debe usarse. [Más información](../messages/messages-in-journeys.md#adv-settings)
 * Se ha añadido una nota a la sección **Configuración de subdominios de página de aterrizaje** para especificar que no se permiten mayúsculas en los subdominios de la página de aterrizaje. [Más información](../configuration/lp-subdomains.md)
 
@@ -39,7 +39,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se han actualizado las páginas relacionadas con las funciones [toDateOnly](../building-journeys/functions/functiontodateonly.md) y [toString](../building-journeys/functions/functiontostring.md).
 * Se han añadido detalles sobre los parámetros de condición horaria. [Más información](../building-journeys/condition-activity.md#time_condition)
 * Se ha añadido información sobre conjuntos de datos integrados. [Más información](../data/get-started-datasets.md#access-datasets)
-* Se han mejorado y reorganizado las secciones Informe global y Informe en directo . [Más información](../reports/global-report.md)
+* Se han mejorado y reorganizado las secciones Informe global e Informe en directo. [Más información](../reports/global-report.md)
 * Se ha añadido una lista de todas las métricas de creación de informes disponibles en Adobe Journey Optimizer.
    [Más información](../reports/global-report.md#email-and-sms-metrics)
 * La sección de correo electrónico CCO se ha trasladado a la nueva página Asistencia para el archivado. [Más información](../configuration/archiving-support.md)
