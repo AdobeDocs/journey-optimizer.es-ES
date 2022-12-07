@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 978751263ba2ed21e35e41e767f1e31ddbe59d53
+source-git-commit: 64e53e250504f5fd42f84d51809fd38c8e0d99a9
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,9 @@ Antes de poder generar este archivo, debe crear:
 >id="ajo_dm_file_routing_details"
 >title="Definir la configuración de enrutamiento de archivos"
 >abstract="Después de crear un mensaje de correo postal, el archivo que contiene los datos de audiencia de destino se genera y exporta a un servidor. Debe especificar los detalles del servidor para que su proveedor de correo postal pueda acceder y utilizar ese archivo para enviar correo postal."
-<!-->
->additional-url=&quot;https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html&quot; text=&quot;Create a direct mail message&quot;—>
+
+<!--
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
