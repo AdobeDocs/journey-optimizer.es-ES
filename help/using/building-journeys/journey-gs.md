@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introducción a los recorridos
+title: Creación de su primer recorrido
 description: Pasos clave para crear su primer recorrido con Adobe Journey Optimizer
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 978751263ba2ed21e35e41e767f1e31ddbe59d53
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 13%
 
 ---
 
-# Introducción a los recorridos{#jo-quick-start}
+# Creación de su primer recorrido{#jo-quick-start}
 
 ## Requisitos previos{#start-prerequisites}
 
