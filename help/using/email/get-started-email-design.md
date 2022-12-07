@@ -1,0 +1,59 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Diseño de correos electrónicos
+description: Aprenda a diseñar sus correos electrónicos
+feature: Overview
+topic: Content Management
+role: User
+level: Intermediate
+exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 21%
+
+---
+
+# Introducción al diseño de correo electrónico {#get-started-content-design}
+
+Puede importar un contenido existente en [!DNL Journey Optimizer] o aproveche las capacidades de diseño de contenido:
+
+* Uso [!DNL Journey Optimizer] **capacidades de diseño de correo electrónico** para diseñar o importar correos electrónicos interactivos. [Más información](content-from-scratch.md)
+
+* Aproveche **Adobe Experience Manager Assets Essentials** para enriquecer los correos electrónicos, crear y administrar su propia base de datos de activos. [Más información](assets-essentials.md)
+
+* Encuentre **fotos de Adobe Stock** para crear su contenido y mejorar su diseño de correo electrónico. [Más información](stock.md)
+
+* Mejore la experiencia de los clientes creando mensajes personalizados y dinámicos en función de sus atributos de perfil. Más información sobre [personalización](../personalization/personalize.md) y [contenido dinámico](../personalization/get-started-dynamic-content.md).
+
+➡️ [Descubra esta función en vídeo](#video)
+
+Una vez que haya [se ha añadido un correo electrónico](create-email.md) a un recorrido o a una campaña, puede empezar a crear su contenido de correo electrónico.
+
+1. Desde la pantalla de configuración de recorrido o de campaña, vaya a través de la **[!UICONTROL Editar contenido]** para acceder al Diseñador de correo electrónico. [Más información](create-email.md#define-email-content)
+
+   ![](assets/email_designer_edit_email_body.png)
+
+1. En la página de inicio del Diseñador de correo electrónico, elija cómo desea diseñar el correo electrónico desde las siguientes opciones:
+
+   * **Diseñe su correo electrónico desde cero** a través de la interfaz del diseñador de correo electrónico y aproveche las imágenes de [Adobe Experience Manager Assets Essentials](assets-essentials.md). Aprenda a diseñar el contenido de su correo electrónico en [esta sección](content-from-scratch.md).
+
+   * **HTML sin procesar de código o pegado** directamente en el diseñador de correo electrónico. Aprenda a codificar su propio contenido en [esta sección](code-content.md).
+
+      >[!NOTE]
+      >
+      >En una campaña, también puede seleccionar la **[!UICONTROL Editor de código]** del **[!UICONTROL Editar contenido]** en el Navegador. [Más información](create-email.md#define-email-content)
+
+
+   * **Importar contenido de HTML existente** desde un archivo o una carpeta .zip. Obtenga información sobre cómo importar contenido de correo electrónico en [esta sección](existing-content.md).
+
+   * **Seleccionar un contenido existente** de una lista de plantillas integradas o personalizadas. Aprenda a trabajar con plantillas de correo electrónico [esta sección](email-templates.md).
+
+   ![](assets/email_designer_create_options.png)
+
+## Vídeo explicativo {#video}
+
+Aprenda a crear contenido de correo electrónico con el editor de mensajes.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)

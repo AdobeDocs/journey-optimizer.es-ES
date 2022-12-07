@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1660'
 ht-degree: 1%
@@ -124,7 +124,7 @@ La variable **[!UICONTROL Correo electrónico: dominio de destinatario principal
 
 >[!NOTE]
 >
->La variable **[!UICONTROL Optimizado frente a no optimizado]** y **[!UICONTROL Optimización del tiempo de envío]**  las utilidades solo están disponibles si la opción de optimización del tiempo de envío está activada para la entrega. Para obtener más información sobre la optimización del tiempo de envío, consulte [esta página](../messages/send-time-optimization.md).
+>La variable **[!UICONTROL Optimizado frente a no optimizado]** y **[!UICONTROL Optimización del tiempo de envío]**  las utilidades solo están disponibles si la opción de optimización del tiempo de envío está activada para la entrega. Para obtener más información sobre la optimización del tiempo de envío, consulte [esta página](../building-journeys/journeys-message.md#send-time-optimization).
 
 La variable **[!UICONTROL Optimizado frente a no optimizado]** graph detalla la información principal relativa al mensaje, independientemente de si están optimizados o no:
 
@@ -192,7 +192,7 @@ La variable **[!UICONTROL Resumen de notificaciones push]** El gráfico contiene
 
 >[!NOTE]
 >
->La variable **[!UICONTROL Optimizado frente a no optimizado]** y **[!UICONTROL Optimización del tiempo de envío]**  las utilidades solo están disponibles si la opción de optimización del tiempo de envío está activada para la entrega. Para obtener más información sobre la optimización del tiempo de envío, consulte [esta página](../messages/send-time-optimization.md).
+>La variable **[!UICONTROL Optimizado frente a no optimizado]** y **[!UICONTROL Optimización del tiempo de envío]**  las utilidades solo están disponibles si la opción de optimización del tiempo de envío está activada para la entrega. Para obtener más información sobre la optimización del tiempo de envío, consulte [esta página](../building-journeys/journeys-message.md#send-time-optimization).
 
 La variable **[!UICONTROL Optimizado frente a no optimizado]** graph detalla la información principal relativa al mensaje, independientemente de si están optimizados o no:
 

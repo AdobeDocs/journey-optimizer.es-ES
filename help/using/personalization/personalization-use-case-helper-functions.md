@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 2%
@@ -33,8 +33,8 @@ Antes de comenzar, asegúrese de que sabe cómo configurar estos elementos:
 
 * Un evento unitario. [Más información](../event/about-events.md).
 * Recorrido que comienza con un evento. [Más información](../building-journeys/using-the-journey-designer.md).
-* Un mensaje de correo electrónico en el recorrido. [Más información](../messages/get-started-content.md)
-* El cuerpo de un correo electrónico. [Más información](../design/create-email-content.md).
+* Un mensaje de correo electrónico en el recorrido. [Más información](../email/create-email.md)
+* El cuerpo de un correo electrónico. [Más información](../email/content-from-scratch.md).
 
 Siga estos pasos:
 

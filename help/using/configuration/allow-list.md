@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 2%
@@ -73,7 +73,7 @@ La lógica de lista de permitidos se aplica cuando la función está activa. Obt
 
 >[!NOTE]
 >
->Cuando se activa, se respeta la función de lista de permitidos al ejecutar recorridos, pero también al probar mensajes con [pruebas](../design/preview.md#send-proofs) y recorridos de prueba utilizando [modo de prueba](../building-journeys/testing-the-journey.md).
+>Cuando se activa, se respeta la función de lista de permitidos al ejecutar recorridos, pero también al probar mensajes con [pruebas](../email/preview.md#send-proofs) y recorridos de prueba utilizando [modo de prueba](../building-journeys/testing-the-journey.md).
 
 ## Desactivar la lista de permitidos {#deactivate-allow-list}
 

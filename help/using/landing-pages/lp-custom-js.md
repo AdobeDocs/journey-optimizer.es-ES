@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 2%
@@ -23,13 +23,13 @@ Puede definir el contenido de la página de aterrizaje mediante JavaScript perso
 
 Para insertar JavaScript personalizado en el contenido de la página de aterrizaje, puede hacer lo siguiente:
 
-* Importe contenido de HTML existente al empezar a crear su contenido y seleccione el archivo que incluye su código personalizado de JavaScript. Obtenga información sobre cómo importar contenido [en esta sección](../design/existing-content.md).
+* Importe contenido de HTML existente al empezar a crear su contenido y seleccione el archivo que incluye su código personalizado de JavaScript. Obtenga información sobre cómo importar contenido [en esta sección](../email/existing-content.md).
 
-* Diseñe la página de aterrizaje desde cero o desde una plantilla guardada. Arrastre y suelte la **[!UICONTROL HTML]** componente de contenido en el lienzo y mostrar el código fuente para añadir el JavaSCript al componente. Aprenda a utilizar el componente HTML en [esta sección](../design/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* Diseñe la página de aterrizaje desde cero o desde una plantilla guardada. Arrastre y suelte la **[!UICONTROL HTML]** componente de contenido en el lienzo y mostrar el código fuente para añadir el JavaSCript al componente. Aprenda a utilizar el componente HTML en [esta sección](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
    ![](assets/lp_designer-html-component.png)
 
-* Introduzca o pegue código JavaScript directamente en el diseñador de contenido. Aprenda a codificar su propio contenido [en esta sección](../design/code-content.md).
+* Introduzca o pegue código JavaScript directamente en el diseñador de contenido. Aprenda a codificar su propio contenido [en esta sección](../email/code-content.md).
 
 >[!NOTE]
 >

@@ -6,7 +6,7 @@ description: Aprenda a configurar su entorno para crear y utilizar páginas de a
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 5%
@@ -66,7 +66,7 @@ Para crear un ajuste preestablecido de página de aterrizaje, siga los pasos a c
 
    Se muestra la configuración correspondiente al subdominio seleccionado.
 
-1. Si desea seleccionar el subdominio de página de aterrizaje para la dirección URL de seguimiento, marque la casilla de verificación **[!UICONTROL Igual que el subdominio de página de aterrizaje]** . [Más información sobre el seguimiento](../design/message-tracking.md)
+1. Si desea seleccionar el subdominio de página de aterrizaje para la dirección URL de seguimiento, marque la casilla de verificación **[!UICONTROL Igual que el subdominio de página de aterrizaje]** . [Más información sobre el seguimiento](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

@@ -7,10 +7,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -80,7 +81,7 @@ La variable **[!UICONTROL Medios]** le permite añadir contenido multimedia al m
 
 ![](assets/in_app_content_3.png)
 
-Escriba la URL del medio o haga clic en el botón **[!UICONTROL Seleccionar recursos]** para añadir directamente los recursos almacenados en la biblioteca de Assets al mensaje en la aplicación. [Obtenga más información sobre la administración de recursos](../design/assets-essentials.md).
+Escriba la URL del medio o haga clic en el botón **[!UICONTROL Seleccionar recursos]** para añadir directamente los recursos almacenados en la biblioteca de Assets al mensaje en la aplicación. [Obtenga más información sobre la administración de recursos](../email/assets-essentials.md).
 También puede agregar una **[!UICONTROL Texto alternativo]** para aplicaciones de lectura de pantalla.
 
 +++Más opciones con formato avanzado
@@ -192,4 +193,3 @@ Si la variable **[!UICONTROL Modo de formato avanzado]** está activada, puede p
 * [Crear mensaje en la aplicación](create-in-app.md)
 * [Informe en la aplicación](inapp-report.md)
 * [Configuración en la aplicación](inapp-configuration.md)
-

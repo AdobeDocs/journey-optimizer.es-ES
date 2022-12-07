@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 6%
@@ -223,6 +223,6 @@ Los pasos detallados para crear y configurar una decisión se describen en [esta
 
 ## Inserte la decisión en un correo electrónico {#insert-decision-in-email}
 
-Ahora que su decisión está activa, puede insertarla en un mensaje de correo electrónico. Para ello, siga los pasos detallados en [esta página](../../using/design/deliver-personalized-offers.md).
+Ahora que su decisión está activa, puede insertarla en un mensaje de correo electrónico. Para ello, siga los pasos detallados en [esta página](../../using/email/add-offers-email.md).
 
 ![](assets/offers-e2e-offers-displayed.png)

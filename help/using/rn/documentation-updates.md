@@ -4,9 +4,9 @@ product: journey optimizer
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2187'
 ht-degree: 99%
 
 ---
@@ -18,8 +18,8 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 ## Noviembre de 2022 {#november-2022}
 
 * Se ha añadido una página nueva acerca de las integraciones de Journey Optimizer. [Más información](../start/ajo-integrations.md)
-* Se ha agregado una recomendación acerca de la longitud de las direcciones URL de las páginas espejo. [Más información](../design/message-tracking.md)
-* Se ha añadido una subsección nueva en la configuración del correo electrónico acerca de la respuesta a una dirección de correo electrónico, lo que incluye recomendaciones para garantizar que las respuestas se gestionan adecuadamente. [Más información](../configuration/email-settings.md#reply-to-email)
+* Se ha agregado una recomendación acerca de la longitud de las direcciones URL de las páginas espejo. [Más información](../email/message-tracking.md)
+* Se ha añadido una subsección nueva en la configuración del correo electrónico acerca de la respuesta a una dirección de correo electrónico, lo que incluye recomendaciones para garantizar que las respuestas se gestionan adecuadamente. [Más información](../email/email-settings.md#reply-to-email)
 * Se ha añadido una sección sobre cómo modificar el contenido de un mensaje en un recorrido activo. [Más información](../building-journeys/journeys-message.md#update-live-content)
 
 ## Octubre de 2022 {#october-2022}
@@ -28,7 +28,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * La sección de casos de uso de recorrido se ha reorganizado en dos categorías: [Casos de uso empresariales](../building-journeys/journeys-uc.md) y [Casos de uso técnicos](../building-journeys/collections.md).
 * La sección **Conjunto de datos de entidad** se ha actualizado con más detalles. [Más información](../data/datasets-query-examples.md#entity-dataset)
 * Se han reorganizado las secciones de administración de exclusión y de las políticas de consentimiento. [Más información](../privacy/opt-out.md)
-* Se ha aclarado la sección sobre parámetros avanzados en los mensajes de recorrido y ahora especifica que la anulación de direcciones de correo electrónico solo debe utilizarse para casos de uso específicos. La mayoría de las veces, el valor definido como la dirección principal en los **Campos de ejecución** es el que debe usarse. [Más información](../messages/messages-in-journeys.md#adv-settings)
+* Se ha aclarado la sección sobre parámetros avanzados en los mensajes de recorrido y ahora especifica que la anulación de direcciones de correo electrónico solo debe utilizarse para casos de uso específicos. La mayoría de las veces, el valor definido como la dirección principal en los **Campos de ejecución** es el que debe usarse.
 * Se ha añadido una nota a la sección **Configuración de subdominios de página de aterrizaje** para especificar que no se permiten mayúsculas en los subdominios de la página de aterrizaje. [Más información](../configuration/lp-subdomains.md)
 
 ## Septiembre de 2022 {#september-2022}
@@ -76,21 +76,21 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * La página Lista de permitidos se ha movido a la sección Configuración. [Más información](../configuration/allow-list.md)
 * La página Lista de supresión se ha actualizado para aclarar cierta información, incluido el hecho de que todos los caracteres ASCII comprendidos entre 32 y 126 están permitidos en el campo de motivos de supresión. [Más información](../configuration/manage-suppression-list.md)
 * Se ha añadido el vínculo a las barreras y los límites estáticos para la gestión de decisiones. [Más información](../start/guardrails.md)
-* Ya está disponible para todos los clientes Optimización del tiempo de envío. Se ha eliminado la mención beta. [Más información](../messages/send-time-optimization.md)
+* Ya está disponible para todos los clientes Optimización del tiempo de envío. Se ha eliminado la mención beta. [Más información](../building-journeys/journeys-message.md#send-time-optimization)
 * La API de decisiones por lotes se ha añadido a la lista de API disponibles para entregar ofertas personalizadas. [Más información](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## Mayo de 2022 {#may-2022}
 
 * Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de mayo de 2022 se incluyen en la documentación. [Más información](release-notes.md)
 * Se han añadido nuevos ejemplos de consultas relacionados con [calificación de segmentos](../reports/query-examples.md#segment-qualification-queries) y [eventos](../reports/query-examples.md#event-based-queries).
-* La sección de diseño de correo electrónico ahora menciona nuevas plantillas integradas disponibles para iniciar contenido. Se han actualizado las capturas de pantalla relacionadas. [Más información](../design/design-emails.md)
+* La sección de diseño de correo electrónico ahora menciona nuevas plantillas integradas disponibles para iniciar contenido. Se han actualizado las capturas de pantalla relacionadas. [Más información](../email/get-started-email-design.md)
 * Los vínculos a recursos clave se han actualizado en la página de inicio de la documentación de Journey Optimizer.
 * Se han actualizado las capturas de pantalla de la creación de informes de la página de aterrizaje y de la suscripción. [Más información](../reports/live-report.md)
 * Se ha añadido una nota que indica que el método Delete no es compatible con las acciones personalizadas. [Más información](../action/about-custom-action-configuration.md)
 * Se han actualizado los vínculos a los vídeos explicativos.
 * Las secciones [Configuración de correo electrónico](../configuration/about-subdomain-delegation.md), [Ajustes preestablecidos de mensajes](../configuration/channel-surfaces.md) y [Configuración de páginas de aterrizaje](../configuration/lp-subdomains.md) se reorganizaron para mejorar la legibilidad.
-* La sección Seguimiento de URL se actualizó y mejoró con ejemplos. [Más información](../configuration/email-settings.md#url-tracking)
-* Se ha añadido una nueva subsección sobre la configuración de una dirección de correo electrónico de reenvío. Tenga en cuenta que no puede hacerlo a través de la interfaz de usuario. [Más información](../configuration/email-settings.md#forward-email)
+* La sección Seguimiento de URL se actualizó y mejoró con ejemplos. [Más información](../email/email-settings.md#url-tracking)
+* Se ha añadido una nueva subsección sobre la configuración de una dirección de correo electrónico de reenvío. Tenga en cuenta que no puede hacerlo a través de la interfaz de usuario. [Más información](../email/email-settings.md#forward-email)
 
 ## Abril de 2022 {#april-2022}
 
@@ -126,7 +126,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * La sección relacionada con las funcionalidades de personalización de [!DNL Journey Optimizer] se han reorganizado para mejorar la legibilidad. [Más información](../personalization/personalize.md)
 * La sección **Crear mensajes de ajustes preestablecidos** se ha dividido en varias secciones para mejorar la claridad. [Más información](../configuration/channel-surfaces.md#create-channel-surface)
 * La sección **Administración de la exclusión** se ha aclarado y reorganizado ligeramente. [Más información](../privacy/opt-out.md#opt-out-management)
-* La sección **Insertar vínculos** se ha actualizado para reflejar los cambios recientes en la interfaz de usuario. [Más información](../design/message-tracking.md#insert-links)
+* La sección **Insertar vínculos** se ha actualizado para reflejar los cambios recientes en la interfaz de usuario. [Más información](../email/message-tracking.md#insert-links)
 
 ## Noviembre de 2021 {#november-2021}
 
@@ -204,8 +204,8 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se han añadido vínculos a la descripción del producto de [!DNL Journey Optimizer] en la página principal
 * Se han añadido vídeos de tutoriales en varias páginas
 * Imágenes optimizadas de la página principal
-* Se ha movido, mejorado y cambiado el nombre de la sección Seguimiento de mensajes a Adición de vínculos y seguimiento de mensajes. [Más información](../design/message-tracking.md)
-* Se ha añadido una subsección en las páginas espejo. [Más información](../design/message-tracking.md#mirror-page)
+* Se ha movido, mejorado y cambiado el nombre de la sección Seguimiento de mensajes a Adición de vínculos y seguimiento de mensajes. [Más información](../email/message-tracking.md)
+* Se ha añadido una subsección en las páginas espejo. [Más información](../email/message-tracking.md#mirror-page)
 * Se ha cambiado el nombre de “actividades de oferta” por “decisiones” y “decisiones” por “ámbitos de decisión” en la documentación y las pantallas. [Más información](../offers/get-started/starting-offer-decisioning.md)
 * Nuevo caso de uso: [personalizar un mensaje con funciones de ayuda](../personalization/personalization-use-case-helper-functions.md)
 * Se ha actualizado la documentación Lectura de un segmento para reflejar los impactos materializados en el segmento. [Más información](../building-journeys/read-segment.md)

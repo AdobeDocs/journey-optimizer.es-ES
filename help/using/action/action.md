@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 55%
+source-wordcount: '252'
+ht-degree: 54%
 
 ---
 
@@ -26,11 +26,11 @@ Las acciones son conexiones a través de las cuales se ofrecen experiencias pers
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-[!DNL Journey Optimizer] viene con la capacidad integrada de mensajes. Consulte [esta sección](../messages/messages-in-journeys.md).
+[!DNL Journey Optimizer] viene con la capacidad integrada de mensajes.
 
 Si tiene Adobe Campaign v7 o v8, hay una integración disponible bajo petición. Consulte [esta página](../action/acc-action.md).
 
-Si utiliza un sistema de terceros para enviar mensajes como Epsilon, Facebook, [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}, Firebase, etc., debe agregar y configurar una acción personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
+Si utiliza un sistema de terceros para enviar mensajes como Epsilon, Facebook, [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}, Firebase, etc., debe agregar y configurar una acción personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
 Las acciones personalizadas le permiten configurar la conexión de un sistema de terceros para enviar mensajes o llamadas API. Se puede configurar una acción con cualquier servicio de cualquier proveedor al que se pueda llamar mediante una API REST con carga útil en formato JSON.
 

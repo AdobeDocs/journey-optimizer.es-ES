@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '478'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,32 @@ ht-degree: 2%
 Una vez activada una campaña, puede modificarla o detenerla en cualquier momento. Estas operaciones están disponibles para campañas con una ejecución recurrente solamente.
 
 Además, puede duplicar las campañas en vivo (ejecutadas una vez o con una ejecución recurrente) para crear otras nuevas y archivar las campañas completadas o detenidas.
+
+## Acceso a campañas {#access}
+
+Se puede acceder a las campañas desde la **[!UICONTROL Campañas]** para abrir el Navegador.
+
+De forma predeterminada, la lista muestra todas las campañas con la variable **[!UICONTROL Borrador]**, **[!UICONTROL Programado]** y **[!UICONTROL Activo]** estados.
+
+Para mostrar las campañas detenidas, completadas y archivadas, debe borrar el filtro.
+
+![](assets/create-campaign-list.png)
+
+## Estados de campaña {#statuses}
+
+Las campañas pueden tener varios estados:
+
+* **[!UICONTROL Borrador]**: La campaña se está editando y no se ha activado.
+* **[!UICONTROL Activación]**: La campaña se está activando.
+* **[!UICONTROL Activo]**: La campaña se ha activado.
+* **[!UICONTROL Programado]**: La campaña está configurada para activarse en una fecha de inicio específica.
+* **[!UICONTROL Detenido]**: La campaña se ha detenido manualmente. Ya no se puede activar ni volver a utilizar. [Obtenga información sobre cómo detener una campaña](modify-stop-campaign.md#stop)
+* **[!UICONTROL Completado]**: La campaña ha finalizado. Este estado se asigna automáticamente 3 días después de activar una campaña o en la fecha de finalización de la campaña si tiene una ejecución recurrente.
+* **[!UICONTROL Archivado]**: La campaña se ha archivado. [Aprenda a archivar campañas](modify-stop-campaign.md#archive)
+
+>[!NOTE]
+>
+>El icono &quot;Abrir versión de borrador&quot; junto a una **[!UICONTROL Activo]** o **[!UICONTROL Programado]** indica que se ha creado una nueva versión de la campaña y que aún no se ha activado. [Más información](modify-stop-campaign.md#modify).
 
 ## Modificación de una campaña recurrente {#modify}
 

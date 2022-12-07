@@ -5,8 +5,8 @@ title: Introducción a Journey Optimizer para los ingenieros de datos
 description: Obtenga más información sobre cómo trabajar con Journey Optimizer como ingeniero de datos
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
-workflow-type: ht
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Los pasos para crear un área de nombres de identidad y un conjunto de datos hab
 
 1. **Configure conectores de fuentes**. Adobe Journey Optimizer permite la ingesta de datos desde fuentes externas, al tiempo que le ofrece la capacidad de estructurar, etiquetar y mejorar los datos entrantes mediante los servicios de Platform. Puede ingerir datos de una variedad de fuentes, como aplicaciones de Adobe, almacenamiento basado en la nube, bases de datos y muchas otras. Obtenga más información acerca de los conectores de fuentes [en esta página](../get-started-sources.md).
 
-1. **Creación de perfiles de prueba**. Los perfiles de prueba son obligatorios al usar el [modo de prueba](../../building-journeys/testing-the-journey.md) en un recorrido y para [previsualizar y probar los mensajes](../../design/preview.md) antes de enviarlos. Los pasos para crear perfiles de prueba se detallan [en esta página](../../segment/creating-test-profiles.md).
+1. **Creación de perfiles de prueba**. Los perfiles de prueba son obligatorios al usar el [modo de prueba](../../building-journeys/testing-the-journey.md) en un recorrido y para [previsualizar y probar los mensajes](../../email/preview.md) antes de enviarlos. Los pasos para crear perfiles de prueba se detallan [en esta página](../../segment/creating-test-profiles.md).
 
 
 Además, para poder enviar mensajes en recorridos, debe configurar **[!UICONTROL Fuentes de datos]**, **[!UICONTROL Eventos]** y **[!UICONTROL Acciones]**. Obtenga más información [en esta sección](../../configuration/about-data-sources-events-actions.md).
@@ -44,4 +44,4 @@ Además, para poder enviar mensajes en recorridos, debe configurar **[!UICONTROL
 
 * Los **Eventos** le permiten activar sus recorridos de forma unitaria para enviar mensajes, en tiempo real, a la persona que entra en el recorrido. En la configuración de eventos, se configuran los eventos esperados en los recorridos. Los datos entrantes de los eventos se normalizan siguiendo el modelo de datos de Experience de Adobe (XDM). Los eventos provienen de las API de ingesta de transmisión para eventos autenticados y no autenticados (como eventos del SDK de Adobe Mobile). Obtenga más información acerca de los eventos [en esta sección](../../event/about-events.md).
 
-* [!DNL Journey Optimizer] viene con [funcionalidades de mensajes integradas](../../messages/get-started-content.md): puede crear los mensajes dentro de un recorrido y diseñar el contenido. Si utiliza un sistema de terceros para enviar mensajes, como Adobe Campaign, cree una **acción personalizada**. Obtenga más información acerca de las acciones [en esta sección](../../action/action.md).
+* [!DNL Journey Optimizer] viene con funcionalidades de mensajes integradas: puede crear los mensajes dentro de un recorrido y diseñar el contenido. Si utiliza un sistema de terceros para enviar mensajes, como Adobe Campaign, cree una **acción personalizada**. Obtenga más información acerca de las acciones [en esta sección](../../action/action.md).

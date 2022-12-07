@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notas de la versión anterior (2021)
 description: Notas de la versión de Journey Optimizer de 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 95%
@@ -159,7 +159,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 
 * Los esquemas y conjuntos de datos generados por el sistema que se han creado durante el aprovisionamiento para eventos de paso ahora están en modo de solo lectura, lo que protege contra cualquier modificación involuntaria de esquemas críticos. [Más información](../reports/sharing-overview.md)
 * Etiquete claramente la actividad **Espera** con una etiqueta que se mostrará en el lienzo. La etiqueta también se utiliza en los registros de modo de informes y prueba para identificar claramente lo que está haciendo. [Más información](../building-journeys/about-journey-activities.md#best-practices)
-* Busque sus eventos y acciones más rápido filtrando los elementos de las categorías **Eventos** y **Acción** usando la búsqueda. Las actividades de organización ya no se filtran. [Más información](../building-journeys/using-the-journey-designer.md)
+* Busque sus eventos y acciones más rápido filtrando los elementos de las categorías **Eventos** y **Acción** usando la búsqueda. Las actividades de orquestación ya no se filtran. [Más información](../building-journeys/using-the-journey-designer.md)
 * Al definir una condición de ID de evento en un evento comercial o basado en reglas, el operador “contains” ya está disponible para tipos de cadena de campos. [Más información](../event/about-creating.md)
 
 **Configuración de correo electrónico**
@@ -182,7 +182,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 <td>
 <p>Envíe automáticamente su mensaje push o de correo electrónico en el mejor momento para cada cliente con el que interactúe con Adobe Journey Optimizer. La optimización del tiempo de envío, con tecnología de los servicios de IA de Adobe, predice el mejor momento para enviar un mensaje push o de correo electrónico para maximizar la participación en función de la apertura histórica y las tasas de clics predefinidas.</p>
 <p>Actualmente, esta función está en versión beta y solo está disponible para los clientes de la versión beta. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.</p>
-<p>Para obtener más información, consulte la <a href="../messages/send-time-optimization.md">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/journeys-message.md#send-time-optimization">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -271,7 +271,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 
 **Diseño de contenido**
 
-* **Contexto**: las imágenes de fondo ahora se admiten en la vista previa en vivo. [Más información](../design/preview.md)
+* **Contexto**: las imágenes de fondo ahora se admiten en la vista previa en vivo. [Más información](../email/preview.md)
 * **Vínculo de no participación de un clic**: puede insertar un nuevo tipo de vínculo en el contenido del correo electrónico, el de **Exclusión**, que permite a los usuarios cancelar la suscripción de recibir sus comunicaciones con solo un clic, sin que se les redirija a una página de aterrizaje para confirmar la exclusión. [Más información](../privacy/opt-out.md#one-click-opt-out-link)
 
 **Personalización**
@@ -346,9 +346,9 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 
 **Vista previa y prueba**
 
-* La identidad y el área de nombres ahora están visibles en el **[!UICONTROL Vista previa]** en el Navegador. [Más información](../design/preview.md#preview-your-messages)
+* La identidad y el área de nombres ahora están visibles en el **[!UICONTROL Vista previa]** en el Navegador. [Más información](../email/preview.md#preview-your-messages)
 * El número de correos electrónicos de prueba para pruebas ahora está restringido a 10.
-* Los caracteres permitidos para el **Prefijo de línea de asunto** en las pruebas ahora están limitados. [Más información](../design/preview.md#send-proofs)
+* Los caracteres permitidos para el **Prefijo de línea de asunto** en las pruebas ahora están limitados. [Más información](../email/preview.md#send-proofs)
 
 **Editor de expresiones de personalización**
 

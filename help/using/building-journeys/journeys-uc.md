@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 1%
@@ -88,7 +88,7 @@ El evento está configurado y listo para utilizarse en el recorrido. Con la acti
 
    ![](assets/jo-uc4.png)
 
-1. Suelte un **Correo electrónico** actividad de acción y defina el contenido del &quot;primer mensaje&quot;. Este mensaje se envía a todas las personas del recorrido. Consulte esta [sección](../messages/create-email.md) para aprender a configurar y diseñar un correo electrónico.
+1. Suelte un **Correo electrónico** actividad de acción y defina el contenido del &quot;primer mensaje&quot;. Este mensaje se envía a todas las personas del recorrido. Consulte esta [sección](../email/create-email.md) para aprender a configurar y diseñar un correo electrónico.
 
    ![](assets/jo-uc5.png)
 
@@ -104,11 +104,11 @@ El evento está configurado y listo para utilizarse en el recorrido. Con la acti
    >
    >Al configurar un tiempo de espera en varios eventos (las dos reacciones en este caso), solo es necesario configurar el tiempo de espera en uno de estos eventos.
 
-1. En la ruta de tiempo de espera, suelte una **Correo electrónico** actividad de acción y definir el contenido del mensaje de &quot;seguimiento&quot;. Este mensaje se envía a las personas que no abren el correo electrónico ni insertan el primer mensaje al día siguiente. Consulte esta [sección](../messages/create-email.md) para aprender a configurar y diseñar un correo electrónico.
+1. En la ruta de tiempo de espera, suelte una **Correo electrónico** actividad de acción y definir el contenido del mensaje de &quot;seguimiento&quot;. Este mensaje se envía a las personas que no abren el correo electrónico ni insertan el primer mensaje al día siguiente. Consulte esta [sección](../email/create-email.md) para aprender a configurar y diseñar un correo electrónico.
 
 1. Conecte las tres rutas al evento purchase creado anteriormente. El evento se activa cuando un individuo realiza una compra.
 
-1. Después del evento, suelte una **Push** actividad de acción y defina el contenido del mensaje de agradecimiento. Consulte esta [sección](../messages/create-push.md) para aprender a configurar y diseñar una notificación push.
+1. Después del evento, suelte una **Push** actividad de acción y defina el contenido del mensaje de agradecimiento. Consulte esta [sección](../push/create-push.md) para aprender a configurar y diseñar una notificación push.
 
 ## Prueba y publicación del recorrido
 

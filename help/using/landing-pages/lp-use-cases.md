@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 16%
@@ -53,9 +53,9 @@ Por ejemplo, supongamos que organiza un evento el mes que viene y desea iniciar 
 
    ![](assets/lp_subscription-uc-journey.png)
 
-1. [Diseño del correo electrónico](../messages/get-started-content.md) para anunciar que el registro está abierto para su evento.
+1. [Diseño del correo electrónico](../email/get-started-email-design.md) para anunciar que el registro está abierto para su evento.
 
-1. [Inserción de un vínculo](../design/message-tracking.md#insert-links) en el contenido del mensaje. Select **[!UICONTROL Página de aterrizaje]** como el **[!UICONTROL Tipo de vínculo]** y seleccione [página de aterrizaje](create-lp.md#configure-primary-page) que ha creado para el registro.
+1. [Inserción de un vínculo](../email/message-tracking.md#insert-links) en el contenido del mensaje. Select **[!UICONTROL Página de aterrizaje]** como el **[!UICONTROL Tipo de vínculo]** y seleccione [página de aterrizaje](create-lp.md#configure-primary-page) que ha creado para el registro.
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -128,9 +128,9 @@ Para permitir que los destinatarios de un correo electrónico cancelen la suscri
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [Creación de un mensaje de correo electrónico](../messages/get-started-content.md) en un recorrido.
+1. [Creación de un mensaje de correo electrónico](../email/get-started-email-design.md) en un recorrido.
 
-1. Seleccione texto en el contenido e [inserte un vínculo](../design/message-tracking.md#insert-links) utilizando la barra de herramientas contextual. También puede utilizar un vínculo en un botón.
+1. Seleccione texto en el contenido e [inserte un vínculo](../email/message-tracking.md#insert-links) utilizando la barra de herramientas contextual. También puede utilizar un vínculo en un botón.
 
    ![](assets/lp_opt-out-insert-link.png)
 

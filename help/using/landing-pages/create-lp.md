@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 38ad3289def56440ef8e78db870a36ee14e965df
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1505'
 ht-degree: 2%
@@ -182,7 +182,7 @@ Para definir la configuración de la subpágina, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Puede insertar un vínculo a la página principal desde cualquier subpágina de la misma página de aterrizaje. Por ejemplo, para redirigir a los usuarios que cometieron un error y que desean suscribirse de nuevo, puede agregar un vínculo desde la subpágina de confirmación a la página principal de suscripción. Obtenga información sobre cómo insertar vínculos en [esta sección](../design/message-tracking.md#insert-links).
+   >Puede insertar un vínculo a la página principal desde cualquier subpágina de la misma página de aterrizaje. Por ejemplo, para redirigir a los usuarios que cometieron un error y que desean suscribirse de nuevo, puede agregar un vínculo desde la subpágina de confirmación a la página principal de suscripción. Obtenga información sobre cómo insertar vínculos en [esta sección](../email/message-tracking.md#insert-links).
 
 1. Defina la dirección URL de la página de aterrizaje. La primera parte de la dirección URL requiere que haya configurado previamente un subdominio de página de aterrizaje. [Más información](../configuration/lp-subdomains.md)
 
@@ -212,7 +212,7 @@ Una vez que se hayan definido la configuración y el contenido de la página de 
 
    ![](assets/lp_test-profiles.png)
 
-   Los pasos para seleccionar perfiles de prueba son los mismos que al probar un mensaje. Se detallan en [esta sección](../design/preview.md#select-test-profiles).
+   Los pasos para seleccionar perfiles de prueba son los mismos que al probar un mensaje. Se detallan en [esta sección](../email/preview.md#select-test-profiles).
 
 1. Seleccione el **[!UICONTROL Vista previa]** y haga clic en **[!UICONTROL Abrir previsualización]** para probar la página de aterrizaje.
 
@@ -275,7 +275,7 @@ Una vez que la página de aterrizaje esté lista, puede publicarla para que est�
 
 Una vez publicada la página de aterrizaje, se añade a la lista de páginas de aterrizaje con la variable **[!UICONTROL Publicado]** estado.
 
-Ahora está activo y listo para utilizarse en un [!DNL Journey Optimizer] [message](../messages/get-started-content.md) que se enviará a través de un [recorrido](../building-journeys/journey.md).
+Ahora está activo y listo para utilizarse en un [!DNL Journey Optimizer] mensaje que se enviará a través de un [recorrido](../building-journeys/journey.md).
 
 >[!NOTE]
 >

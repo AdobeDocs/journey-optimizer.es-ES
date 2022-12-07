@@ -5,8 +5,8 @@ title: Introducción a Journey Optimizer para administradores de sistemas
 description: Obtenga más información sobre cómo trabajar con Journey Optimizer como administrador de sistemas
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: ht
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Obtenga información acerca de la administración de acceso en las siguientes p�
 Además, debe agregar usuarios que necesiten acceder a Assets Essentials a los perfiles de producto **Usuarios consumidores de Assets Essentials** o **Usuarios de Assets Essentials**. [Más información en la documentación de Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=es){target=&quot;_blank&quot;}.
 
 >[!NOTE]
->Para los productos de Journey Optimizer obtenidos antes del 6 de enero de 2022, debe implementar [!DNL Adobe Experience Manager Assets Essentials] para su organización. Obtenga más información en la sección [Implementación de Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=es){target=&quot;_blank&quot;}.
+>Para los productos de Journey Optimizer obtenidos antes del 6 de enero de 2022, debe implementar [!DNL Adobe Experience Manager Assets Essentials] para su organización. Obtenga más información en la sección [Implementación de Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
 Al acceder a [!DNL Journey Optimizer] por primera vez, se le aprovisiona una zona protegida de producción y se le asigna un determinado número de direcciones IP en función de su contrato.
 
@@ -48,11 +48,11 @@ Siga estos pasos a continuación:
 
 1. **Configuración de mensajes y canales**: definir superficies, adaptar y personalizar la configuración de correo electrónico, SMS y mensajes push
 
-   * Defina la **configuración de notificaciones push** en [!DNL Adobe Experience Platform] y [!DNL Adobe Experience Platform Launch]. [Más información](../../configuration/push-gs.md)
+   * Defina la **configuración de notificaciones push** en [!DNL Adobe Experience Platform] y [!DNL Adobe Experience Platform Launch]. [Más información](../../push/push-gs.md)
 
    * Cree **superficies de canal** (es decir, ajustes preestablecidos de mensaje) para configurar todos los parámetros técnicos necesarios para el correo electrónico, los SMS y las notificaciones push. [Más información](../../configuration/channel-surfaces.md)
 
-   * Configure el **Canal de SMS** para configurar todos los parámetros técnicos necesarios para SMS. [Más información](../../configuration/sms-configuration.md)
+   * Configure el **Canal de SMS** para configurar todos los parámetros técnicos necesarios para SMS. [Más información](../../sms/sms-configuration.md)
 
    * Administre el número de días durante los cuales se realizan **reintentos** antes de enviar direcciones de correo electrónico a la lista de supresión. [Más información](../../configuration/manage-suppression-list.md)
 

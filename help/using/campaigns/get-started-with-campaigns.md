@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 9%
+source-wordcount: '403'
+ht-degree: 12%
 
 ---
 
@@ -66,32 +66,6 @@ Compruebe los siguientes requisitos previos antes de empezar a crear la primera 
 
 1. **Necesita una audiencia**. Los segmentos de audiencia deben estar disponibles antes de crear la campaña. Más información sobre la creación de audiencias [en esta página](../segment/about-segments.md).
 1. **Necesita una superficie de canal**. Para poder seleccionar un canal, debe tener la superficie del canal correspondiente (es decir, preestablecida) creada y disponible. Obtenga más información sobre las superficies de canal [en esta página](../configuration/channel-surfaces.md).
-
-## Acceso a campañas {#access}
-
-Se puede acceder a las campañas desde la **[!UICONTROL Campañas]** para abrir el Navegador.
-
-De forma predeterminada, la lista muestra todas las campañas con la variable **[!UICONTROL Borrador]**, **[!UICONTROL Programado]** y **[!UICONTROL Activo]** estados.
-
-Para mostrar las campañas detenidas, completadas y archivadas, debe borrar el filtro.
-
-![](assets/create-campaign-list.png)
-
-## Estados de campaña {#statuses}
-
-Las campañas pueden tener varios estados:
-
-* **[!UICONTROL Borrador]**: La campaña se está editando y no se ha activado.
-* **[!UICONTROL Activación]**: La campaña se está activando.
-* **[!UICONTROL Activo]**: La campaña se ha activado.
-* **[!UICONTROL Programado]**: La campaña está configurada para activarse en una fecha de inicio específica.
-* **[!UICONTROL Detenido]**: La campaña se ha detenido manualmente. Ya no se puede activar ni volver a utilizar. [Obtenga información sobre cómo detener una campaña](modify-stop-campaign.md#stop)
-* **[!UICONTROL Completado]**: La campaña ha finalizado. Este estado se asigna automáticamente 3 días después de activar una campaña o en la fecha de finalización de la campaña si tiene una ejecución recurrente.
-* **[!UICONTROL Archivado]**: La campaña se ha archivado. [Aprenda a archivar campañas](modify-stop-campaign.md#archive)
-
->[!NOTE]
->
->El icono &quot;Abrir versión de borrador&quot; junto a una **[!UICONTROL Activo]** o **[!UICONTROL Programado]** indica que se ha creado una nueva versión de la campaña y que aún no se ha activado. [Más información](modify-stop-campaign.md#modify).
 
 ## Vídeo explicativo {#video}
 

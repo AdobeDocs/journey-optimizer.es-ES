@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 146e2384e44fc040ddb73a96742cae0dea6f17da
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 24%
@@ -71,7 +71,7 @@ Para mejorar la tasa de entrega y asegurarse de que los correos electrónicos ll
 
 * **Cancelar suscripción a un vínculo y a una página de aterrizaje**: El enlace de cancelación de suscripción es esencial. Debe ser visible y válido, y el formulario debe ser funcional.
 
-[Obtenga más información sobre el diseño de contenido de correo electrónico](../design/design-emails.md).
+[Obtenga más información sobre el diseño de contenido de correo electrónico](../email/get-started-email-design.md).
 
 ## Establezca su reputación como remitente
 

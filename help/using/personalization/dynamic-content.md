@@ -7,13 +7,13 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 1%
 
 ---
-
 
 # Crear contenido dinámico {#dynamic-content}
 
@@ -41,7 +41,7 @@ Los pasos para agregar contenido dinámico en expresiones son los siguientes:
 
    ![](assets/conditions-language-sample.png)
 
-1. Una vez que el contenido esté listo, puede obtener una vista previa de las diferentes variantes utilizando la variable **[!UICONTROL Simular contenido]** botón. [Obtenga información sobre cómo probar y previsualizar mensajes](../design/preview.md)
+1. Una vez que el contenido esté listo, puede obtener una vista previa de las diferentes variantes utilizando la variable **[!UICONTROL Simular contenido]** botón. [Obtenga información sobre cómo probar y previsualizar mensajes](../email/preview.md)
 
    ![](assets/conditions-preview.png)
 

@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 3%
@@ -60,11 +60,11 @@ Todos los mensajes de correo electrónico que utilicen esta superficie se copiar
 >
 >El uso de la función de CCO se contará con la cantidad de mensajes para los que tenga licencia. Por lo tanto, sólo lo habilite en las superficies utilizadas para comunicaciones críticas que desee archivar. Compruebe si hay volúmenes con licencia en su contrato.
 
-La configuración de la dirección de correo electrónico CCO se guarda inmediatamente y se procesa en el nivel de superficie. Cuando [crear un nuevo mensaje](../messages/get-started-content.md) con esta superficie, se muestra automáticamente la dirección de correo electrónico CCO.
+La configuración de la dirección de correo electrónico CCO se guarda inmediatamente y se procesa en el nivel de superficie. Cuando crea un nuevo mensaje utilizando esta superficie, se muestra automáticamente la dirección de correo electrónico CCO.
 
 ![](assets/preset-bcc-in-msg.png)
 
-Sin embargo, la dirección de CCO se recoge para enviar comunicaciones siguiendo la lógica descrita [here](email-settings.md).
+Sin embargo, la dirección de CCO se recoge para enviar comunicaciones siguiendo la lógica descrita [here](../email/email-settings.md).
 
 ### Recommendations y limitaciones {#bcc-recommendations-limitations}
 

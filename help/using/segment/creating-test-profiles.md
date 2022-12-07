@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1375'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Creación de perfiles de prueba {#create-test-profiles}
 
-Los perfiles de prueba son obligatorios al usar la variable [modo de prueba](../building-journeys/testing-the-journey.md) en un recorrido y para [previsualizar y probar el contenido](../design/preview.md).
+Los perfiles de prueba son obligatorios al usar la variable [modo de prueba](../building-journeys/testing-the-journey.md) en un recorrido y para [previsualizar y probar el contenido](../email/preview.md).
 
 Existen varias formas de crear perfiles de prueba. Puede encontrar en esta página los detalles para:
 
