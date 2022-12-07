@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 64e53e250504f5fd42f84d51809fd38c8e0d99a9
+source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Para configurar el enrutamiento del archivo, siga los pasos a continuación.
 >id="ajo_dm_surface_settings"
 >title="Definir la configuración de correo postal"
 >abstract="Una superficie de correo postal contiene la configuración para el formato del archivo que contiene los datos de audiencia de destino y que utilizará el proveedor de correo. También debe definir dónde se exportará el archivo seleccionando la configuración de enrutamiento del archivo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/direct-mail-configuration.html#file-routing-configuration" text="Configuración del enrutamiento de archivos"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=en#file-routing-configuration" text="Configuración del enrutamiento de archivos"
 
 <!--
 >[!CONTEXTUALHELP]
