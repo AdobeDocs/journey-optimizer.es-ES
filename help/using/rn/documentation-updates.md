@@ -4,16 +4,24 @@ product: journey optimizer
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '2187'
-ht-degree: 99%
+source-wordcount: '2209'
+ht-degree: 98%
 
 ---
 
 # Actualizaciones de documentación {#latest-updates}
 
 Esta página enumera todas las actualizaciones de documentación de [!DNL Journey Optimizer].
+
+## Diciembre de 2022 {#december-2022}
+
+* La guía Mensajes se ha reorganizado y dividido en guías específicas para cada canal:
+
+   * [Canal de correo electrónico](../email/get-started-email.md)
+   * [Canal de notificaciones push](../push/get-started-push.md)
+   * [Canal de SMS](../sms/get-started-sms.md)
 
 ## Noviembre de 2022 {#november-2022}
 
@@ -29,7 +37,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * La sección **Conjunto de datos de entidad** se ha actualizado con más detalles. [Más información](../data/datasets-query-examples.md#entity-dataset)
 * Se han reorganizado las secciones de administración de exclusión y de las políticas de consentimiento. [Más información](../privacy/opt-out.md)
 * Se ha aclarado la sección sobre parámetros avanzados en los mensajes de recorrido y ahora especifica que la anulación de direcciones de correo electrónico solo debe utilizarse para casos de uso específicos. La mayoría de las veces, el valor definido como la dirección principal en los **Campos de ejecución** es el que debe usarse.
-* Se ha añadido una nota a la sección **Configuración de subdominios de página de aterrizaje** para especificar que no se permiten mayúsculas en los subdominios de la página de aterrizaje. [Más información](../configuration/lp-subdomains.md)
+* Se ha añadido una nota a la sección **Configuración de subdominios de página de aterrizaje** para especificar que no se permiten mayúsculas en los subdominios de la página de aterrizaje. [Más información](../landing-pages/lp-subdomains.md)
 
 ## Septiembre de 2022 {#september-2022}
 
@@ -88,7 +96,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se han actualizado las capturas de pantalla de la creación de informes de la página de aterrizaje y de la suscripción. [Más información](../reports/live-report.md)
 * Se ha añadido una nota que indica que el método Delete no es compatible con las acciones personalizadas. [Más información](../action/about-custom-action-configuration.md)
 * Se han actualizado los vínculos a los vídeos explicativos.
-* Las secciones [Configuración de correo electrónico](../configuration/about-subdomain-delegation.md), [Ajustes preestablecidos de mensajes](../configuration/channel-surfaces.md) y [Configuración de páginas de aterrizaje](../configuration/lp-subdomains.md) se reorganizaron para mejorar la legibilidad.
+* Las secciones [Configuración de correo electrónico](../configuration/about-subdomain-delegation.md), [Ajustes preestablecidos de mensajes](../configuration/channel-surfaces.md) y [Configuración de páginas de aterrizaje](../landing-pages/lp-subdomains.md) se reorganizaron para mejorar la legibilidad.
 * La sección Seguimiento de URL se actualizó y mejoró con ejemplos. [Más información](../email/email-settings.md#url-tracking)
 * Se ha añadido una nueva subsección sobre la configuración de una dirección de correo electrónico de reenvío. Tenga en cuenta que no puede hacerlo a través de la interfaz de usuario. [Más información](../email/email-settings.md#forward-email)
 

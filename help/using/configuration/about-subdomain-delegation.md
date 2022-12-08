@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 32%
+source-wordcount: '897'
+ht-degree: 26%
 
 ---
 
@@ -69,3 +69,31 @@ En el cuadro que figura a continuación se ofrece un resumen del funcionamiento 
 Encontrará información adicional sobre la configuración de dominios en [esta documentación](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
 
 Si tiene alguna pregunta sobre los métodos de configuración de subdominios, póngase en contacto con el Adobe o póngase en contacto con el Servicio de atención al cliente para solicitar consultoría de entregas.
+
+## Acceder a subdominios delegados {#access-delegated-subdomains}
+
+Todos los subdominios delegados se muestran en la sección **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Subdominios]** para abrir el Navegador. Los filtros están disponibles para ayudarle a refinar la lista (fecha de delegación, usuario o estado).
+
+![](assets/subdomain-list.png)
+
+La variable **[!UICONTROL Estado]** proporciona información sobre el proceso de delegación de subdominios:
+
+* **[!UICONTROL Borrador]**: La delegación de subdominios se ha guardado como borrador. Haga clic en el nombre del subdominio para reanudar el proceso de delegación.
+* **[!UICONTROL Procesamiento]**: El subdominio está pasando por varias comprobaciones de configuración antes de poder utilizarlo,
+* **[!UICONTROL Correcto]**: El subdominio ha pasado por las comprobaciones correctamente y puede utilizarse para enviar mensajes,
+* **[!UICONTROL Error]**: Una o varias comprobaciones han fallado después de enviar la delegación de subdominios.
+
+Para acceder a información detallada sobre un subdominio con la variable **[!UICONTROL Correcto]** , ábralo desde la lista.
+
+![](assets/subdomain-delegated.png)
+
+Puede hacer lo siguiente:
+
+* Recupere el nombre de subdominio (solo lectura) configurado durante el proceso de delegación, así como las direcciones URL generadas (recursos, páginas espejo, URL de seguimiento).
+
+* Agregue un registro TXT de verificación de sitio de Google al subdominio para asegurarse de que esté verificado (consulte [Añadir un registro TXT de Google a un subdominio](google-txt.md)).
+
+
+>[!CAUTION]
+>
+>La configuración del subdominio es común a todos los entornos. Por lo tanto, cualquier modificación en un subdominio también afectará a los entornos limitados de producción.

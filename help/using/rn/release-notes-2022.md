@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notas de la versión 2022
 description: Notas de la versión de Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '3453'
 ht-degree: 100%
@@ -173,7 +173,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 * Al activar o desactivar la lista de permitidos, ahora se muestra una nueva advertencia para detallar los impactos de cada acción. [Más información](../configuration/allow-list.md#enable-allow-list)
 * Se ha actualizado la interfaz de usuario para crear superficies de canal, crear grupos de IP, administrar la lista de supresión y la lista de permitidos y configurar el canal de SMS.
 * Ahora, al crear la primera superficie de canal para un subdominio determinado, el tiempo de procesamiento tardará de 10 minutos a 10 días, y solo hasta 3 horas para las superficies posteriores que utilicen ese subdominio. [Más información](../configuration/channel-surfaces.md#create-channel-surface)
-* Se ha actualizado la interfaz de usuario para crear ajustes preestablecidos de página de aterrizaje y subdominios de página de aterrizaje. [Más información](../configuration/lp-subdomains.md)
+* Se ha actualizado la interfaz de usuario para crear ajustes preestablecidos de página de aterrizaje y subdominios de página de aterrizaje. [Más información](../landing-pages/lp-subdomains.md)
 
 **Controles de auditoría**
 
