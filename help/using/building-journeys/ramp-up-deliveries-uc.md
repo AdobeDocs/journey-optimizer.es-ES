@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 3%
+source-wordcount: '251'
+ht-degree: 0%
 
 ---
 
@@ -23,26 +23,26 @@ Para calentar su IP, puede aumentar gradualmente el número de envíos. Más inf
 
 El propósito de este caso de uso es crear un recorrido para aumentar los envíos de correo electrónico. Para configurar este recorrido, siga estos pasos:
 
-1. Creación de un recorrido. [Más información](journey-gs.md).
+1. Cree un recorrido. [Más información](journey-gs.md).
 
-1. Agregue un **[!UICONTROL Condición]** actividad al recorrido. [Más información](condition-activity.md).
+1. Agregue un **[!UICONTROL Condition]** actividad al recorrido. [Más información](condition-activity.md).
 
-1. En el **[!UICONTROL Condición]** configuración de actividad, establezca el número máximo de destinatarios para la entrega:
+1. En el **[!UICONTROL Condition]** configuración de actividad, establezca el número máximo de destinatarios para la entrega:
 
-   1. En el **[!UICONTROL Condición]** configuración de actividad, establezca la variable **[!UICONTROL Tipo]** campo a **[!UICONTROL Límite de perfiles]**. [Más información](condition-activity.md#profile_cap).
+   1. En el **[!UICONTROL Condition]** configuración de actividad, establezca la variable **[!UICONTROL Type]** campo a **[!UICONTROL Profile cap]**. [Más información](condition-activity.md#profile_cap).
 
-   1. Configure las variables **[!UICONTROL Límite]** al número máximo de destinatarios para esta entrega.
+   1. Configure las variables **[!UICONTROL Limit]** al número máximo de destinatarios para esta entrega.
 
    ![](assets/profile-cap-condition.png)
 
    Puede aumentar gradualmente este límite hasta el número total de suscriptores.
 
-1. Agregue un **[!UICONTROL Correo electrónico]** actividad de acción a la ruta nominal después del **[!UICONTROL Condición]** actividad.
+1. Agregue un **[!UICONTROL Email]** actividad de acción a la ruta nominal después del **[!UICONTROL Condition]** actividad.
 
    ![](assets/ramp-up-deliveries-message.png)
 
-   Cuando se ejecuta el recorrido, el mensaje se envía a los perfiles que se van a introducir, hasta el número máximo de perfiles especificados. Cuando se alcanza este límite, los perfiles que ingresan toman la ruta alternativa.
+   Cuando se ejecuta el recorrido, el mensaje se envía a los perfiles que entran, hasta el número máximo de perfiles especificados. Cuando se alcanza este límite, los perfiles que ingresan toman la ruta alternativa.
 
-1. Complete el recorrido con las actividades de su elección.
+1. Complete el recorrido con las actividades que elija.
 
 Una vez que su IP se haya calentado, puede eliminar esta condición.

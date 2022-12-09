@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 11%
+source-wordcount: '308'
+ht-degree: 0%
 
 ---
 
@@ -118,7 +118,7 @@ La siguiente operación comprueba si el país de la dirección principal no es F
 
 ### Greater than{#greaterthan}
 
-La variable `>` (bueno que) se utiliza para comprobar si el primer valor es bueno que el segundo valor.
+La variable `>` (mayor que) se utiliza para comprobar si el primer valor es mayor que el segundo valor.
 
 **Formato**
 
@@ -136,7 +136,7 @@ La siguiente operación define a las personas nacidas estrictamente después de 
 
 ### Mayor o igual que{#greaterthanorequal}
 
-La variable `>=` (buena o igual que) se utiliza para comprobar si el primer valor es bueno o igual al segundo valor.
+La variable `>=` (mayor o igual que) se utiliza para comprobar si el primer valor es mayor o igual que el segundo valor.
 
 **Formato**
 
@@ -152,7 +152,7 @@ La siguiente operación define a las personas nacidas en 1970 o después de 1970
 {%= profile.person.birthYear >= 1970 %}
 ```
 
-### Menos de{#lessthan}
+### Less than{#lessthan}
 
 La variable `<` (menor que) para comprobar si el primer valor es menor que el segundo valor.
 

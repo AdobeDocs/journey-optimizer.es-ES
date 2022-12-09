@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 66%
+source-wordcount: '588'
+ht-degree: 0%
 
 ---
 
@@ -19,24 +19,24 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_advanced"
 >title="Acerca del editor de expresiones avanzadas"
->abstract="Utilice el editor de expresiones avanzadas para crear expresiones avanzadas en varias pantallas de la interfaz. Por ejemplo, se pueden crear expresiones al configurar y utilizar recorridos y al definir una condición de fuente de datos."
+>abstract="Utilice el editor de expresiones avanzadas para crear expresiones avanzadas en varias pantallas de la interfaz. Por ejemplo, puede crear expresiones al configurar y utilizar recorridos y al definir una condición de fuente de datos."
 
-Utilice el editor de expresiones avanzadas para crear expresiones avanzadas en varias pantallas de la interfaz. Por ejemplo, se pueden crear expresiones al configurar y utilizar recorridos y al definir una condición de fuente de datos.
-También está disponible cada vez que necesite definir parámetros de acción que requieran manipulaciones de datos específicas. Puede aprovechar los datos procedentes de los eventos o la información adicional recuperada del origen de datos. En un viaje, la lista mostrada de los campos de evento es contextual y varía según los eventos agregados en el recorrido.
+Utilice el editor de expresiones avanzadas para crear expresiones avanzadas en varias pantallas de la interfaz. Por ejemplo, puede crear expresiones al configurar y utilizar recorridos y al definir una condición de fuente de datos.
+También está disponible cada vez que necesite definir parámetros de acción que requieran manipulaciones de datos específicas. Puede aprovechar los datos procedentes de los eventos o la información adicional recuperada del origen de datos. En un recorrido, la lista mostrada de los campos de evento es contextual y varía según los eventos agregados en el recorrido.
 
-El editor de expresiones avanzadas oferta un conjunto de funciones y operadores integrados que le permiten manipular valores, y definir una expresión que se ajuste específicamente a sus necesidades. El editor de expresiones avanzadas también permite definir los valores del parámetro de fuente de datos externo, y manipular los campos y colecciones de mapas, como los eventos de experiencia.
+El editor de expresiones avanzadas ofrece un conjunto de funciones y operadores integrados que le permiten manipular valores y definir una expresión que se ajuste específicamente a sus necesidades. El editor de expresiones avanzadas también permite definir los valores del parámetro de fuente de datos externa, manipular los campos y colecciones de mapas, como los eventos de experiencia.
 
 ![](../assets/journey65.png)
 
 _Interfaz avanzada del editor de expresiones_
 
-El editor de expresiones avanzadas se puede utilizar para lo siguiente:
+El editor de expresiones avanzadas se puede utilizar para:
 
-* crear [condiciones avanzadas ](../condition-activity.md#about_condition) en fuentes de datos e información de evento
-* definir [actividades de espera personalizadas](../wait-activity.md#custom)
+* crear [condiciones avanzadas](../condition-activity.md#about_condition) sobre fuentes de datos e información de eventos
+* definir personalizado [esperar actividades](../wait-activity.md#custom)
 * definir asignación de parámetros de acción
 
-Cuando sea posible, puede cambiar entre los dos modos utilizando la variable **[!UICONTROL Modo avanzado]** / **[!UICONTROL Modo simple]** botón. El modo simple se describe [aquí](../condition-activity.md#about_condition).
+Cuando sea posible, puede cambiar entre los dos modos utilizando la variable **[!UICONTROL Advanced mode]** / **[!UICONTROL Simple mode]** botón. Se describe el modo simple [here](../condition-activity.md#about_condition).
 
 >[!NOTE]
 >
@@ -48,12 +48,12 @@ Cuando sea posible, puede cambiar entre los dos modos utilizando la variable **[
 
 Puede acceder al editor de expresiones avanzadas de diferentes maneras:
 
-* Al crear una condición de fuente de datos, puede acceder al editor avanzado haciendo clic en **[!UICONTROL Modo avanzado]**.
+* Al crear una condición de fuente de datos, puede acceder al editor avanzado haciendo clic en **[!UICONTROL Advanced mode]**.
 
    ![](../assets/journeyuc2_33.png)
 
 * Al crear un temporizador personalizado, se mostrará directamente el editor avanzado.
-* Cuando asigne un parámetro de acción, haga clic en **[!UICONTROL Modo avanzado]**.
+* Cuando asigne un parámetro de acción, haga clic en **[!UICONTROL Advanced mode]**.
 
 ## Descubrimiento de la interfaz{#discovering-the-interface}
 
@@ -63,11 +63,11 @@ Esta pantalla le permite escribir manualmente su expresión.
 
 En la parte izquierda de la pantalla se muestran los campos y las funciones disponibles:
 
-* **[!UICONTROL Eventos]**: elija uno de los campos recibidos del evento de entrada. La lista mostrada de los campos de evento es contextual y varía según los eventos agregados en el recorrido. [Más información](../../event/about-events.md)
-* **[!UICONTROL Segmentos]**: si ha dejado un **[!UICONTROL Clasificación del segmento]** , elija el segmento que desee utilizar en su expresión. [Más información](../condition-activity.md#using-a-segment)
-* **[!UICONTROL Fuentes de datos]**: elija entre la lista de campos disponibles en los grupos de campos de las fuentes de datos. [Más información](../../datasource/about-data-sources.md)
-* **[!UICONTROL Propiedades del recorrido]**: esta sección reagrupa los campos técnicos relacionados con el recorrido de un perfil determinado. [Más información](journey-properties.md)
-* **[!UICONTROL Funciones]**: elija entre una lista de funciones integradas que permitan realizar filtros complejos. Las funciones están organizadas por categorías. [Más información](functions.md)
+* **[!UICONTROL Events]**: elija uno de los campos recibidos del evento de entrada. La lista mostrada de campos de evento es contextual y varía según los eventos agregados en el recorrido. [Más información](../../event/about-events.md)
+* **[!UICONTROL Segments]**: si ha dejado un **[!UICONTROL Segment qualification]** , elija el segmento que desee utilizar en su expresión. [Más información](../condition-activity.md#using-a-segment)
+* **[!UICONTROL Data Sources]**: elija entre la lista de campos disponibles en los grupos de campos de las fuentes de datos. [Más información](../../datasource/about-data-sources.md)
+* **[!UICONTROL Journey properties]**: esta sección reagrupa los campos técnicos relacionados con el recorrido de un perfil determinado. [Más información](journey-properties.md)
+* **[!UICONTROL Functions]**: elija entre una lista de funciones integradas que permitan realizar filtros complejos. Las funciones están organizadas por categorías. [Más información](functions.md)
 
 ![](../assets/journey65.png)
 
@@ -85,4 +85,4 @@ Si selecciona un campo de una fuente de datos externa que requiere que se llame 
 
 ![](../assets/journeyuc2_19.png)
 
-Para casos de uso más complejos, si desea incluir los parámetros del origen de datos en la expresión principal, puede definir sus valores con la palabra clave &quot;params&quot;. Consulte [esta página](../expression/field-references.md).
+Para casos de uso más complejos, si desea incluir los parámetros de la fuente de datos en la expresión principal, puede definir sus valores con la palabra clave &quot;params&quot;. Consulte [esta página](../expression/field-references.md).

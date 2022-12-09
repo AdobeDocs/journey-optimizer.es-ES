@@ -9,13 +9,13 @@ exl-id: db337b5c-426a-4695-81e8-3a1b041791f2
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
 # Buscar una ubicación {#look-up-placement}
 
-Puede buscar ubicaciones específicas realizando una solicitud de GET al [!DNL Offer Library] API que incluye la ubicación `@id` o el nombre de la ubicación en la ruta de solicitud.
+Puede buscar ubicaciones específicas realizando una solicitud GET al [!DNL Offer Library] API que incluye la ubicación `@id` o el nombre de la ubicación en la ruta de solicitud.
 
 **Formato de API**
 

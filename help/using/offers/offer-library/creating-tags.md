@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 6%
+source-wordcount: '161'
+ht-degree: 0%
 
 ---
 
@@ -26,15 +26,15 @@ Las etiquetas también se pueden usar para agrupar ofertas en colecciones de ofe
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-Se puede acceder a la lista de etiquetas creadas en la **[!UICONTROL Componentes]** para abrir el Navegador.
+Se puede acceder a la lista de etiquetas creadas en la **[!UICONTROL Components]** para abrir el Navegador.
 
 ![](../assets/tags_list.png)
 
 Para crear una etiqueta, siga estos pasos:
 
-1. Vaya a la **[!UICONTROL Etiquetas]** a continuación, haga clic en **[!UICONTROL Crear etiqueta]**.
+1. Vaya a la **[!UICONTROL Tags]** a continuación, haga clic en **[!UICONTROL Create tag]**.
 
-1. Especifique el nombre de la etiqueta y haga clic en **[!UICONTROL Guardar]**.
+1. Especifique el nombre de la etiqueta y haga clic en **[!UICONTROL Save]**.
 
    ![](../assets/tags_create.png)
 

@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 9%
+source-wordcount: '160'
+ht-degree: 0%
 
 ---
 
 # Actualizar una etiqueta {#update-tag}
 
-Puede modificar o actualizar una etiqueta del contenedor realizando una solicitud de PATCH al [!DNL Offer Library] API.
+Puede modificar o actualizar una etiqueta en el contenedor realizando una solicitud de PATCH al [!DNL Offer Library] API.
 
 Para obtener más información sobre JSON Patch, incluidas las operaciones disponibles, consulte la [Documentación de parches JSON](http://jsonpatch.com/).
 

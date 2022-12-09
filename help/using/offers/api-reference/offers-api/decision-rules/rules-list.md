@@ -9,13 +9,13 @@ exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 5%
+ht-degree: 0%
 
 ---
 
 # Enumerar reglas de decisión {#list-decision-rules}
 
-Las reglas de decisión son restricciones agregadas a una oferta personalizada y aplicadas a un perfil para determinar la idoneidad. Puede ver una lista de las reglas de decisión existentes dentro de un contenedor realizando una única solicitud de GET al [!DNL Offer Library] API.
+Las reglas de decisión son restricciones agregadas a una oferta personalizada y aplicadas a un perfil para determinar la idoneidad. Puede ver una lista de las reglas de decisión existentes dentro de un contenedor realizando una única solicitud GET al [!DNL Offer Library] API.
 
 **Formato de API**
 

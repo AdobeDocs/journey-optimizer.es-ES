@@ -10,24 +10,24 @@ level: Intermediate
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
 
 # Creación de la versión de texto de un correo electrónico {#text-version-email}
 
-Se recomienda crear una versión de texto del cuerpo del correo electrónico, que se utiliza cuando no se puede mostrar el contenido del HTML.
+Se recomienda crear una versión de texto del cuerpo del correo electrónico, que se utiliza cuando no se puede mostrar contenido HTML.
 
-De forma predeterminada, el Diseñador de correo electrónico crea un **[!UICONTROL Texto sin formato]** versión del correo electrónico, incluidos los campos de personalización. Esta versión se genera y sincroniza automáticamente con la versión HTML del contenido.
+De forma predeterminada, el Diseñador de correo electrónico crea un **[!UICONTROL Plain text]** versión del correo electrónico, incluidos los campos de personalización. Esta versión se genera y sincroniza automáticamente con la versión HTML del contenido.
 
 Si prefiere usar un contenido diferente para la versión de texto sin formato, siga los pasos a continuación:
 
-1. En el correo electrónico, seleccione **[!UICONTROL Texto sin formato]** pestaña .
+1. En el correo electrónico, seleccione **[!UICONTROL Plain text]** pestaña .
 
    ![](assets/text_version_3.png)
 
-1. Utilice la variable **[!UICONTROL Sincronizar con el HTML]** para desactivar la sincronización.
+1. Utilice la variable **[!UICONTROL Sync with HTML]** para desactivar la sincronización.
 
    ![](assets/text_version_1.png)
 
@@ -39,7 +39,7 @@ Si prefiere usar un contenido diferente para la versión de texto sin formato, s
 
 >[!CAUTION]
 >
->* Cambios realizados en **[!UICONTROL Texto sin formato]** la vista no se refleja en la vista del HTML.
+>* Cambios realizados en **[!UICONTROL Plain text]** la vista no se refleja en la vista HTML.
 >
->* Si vuelve a habilitar la variable **[!UICONTROL Sincronizar con el HTML]** después de actualizar el contenido de texto sin formato, se perderán los cambios y se reemplazarán con el contenido de texto generado a partir de la versión del HTML.
+>* Si vuelve a habilitar la variable **[!UICONTROL Sync with HTML]** después de actualizar el contenido de texto sin formato, los cambios se perderán y se reemplazarán con contenido de texto generado a partir de la versión HTML.
 

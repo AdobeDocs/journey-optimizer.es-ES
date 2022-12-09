@@ -8,14 +8,14 @@ level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 7%
+source-wordcount: '776'
+ht-degree: 0%
 
 ---
 
 # Introducción a los conjuntos de datos {#datasets-gs}
 
-Todos los datos que se incorporan en Adobe Experience Platform se conservan dentro del lago de datos como conjuntos de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas).
+Todos los datos que se incorporan en Adobe Experience Platform se conservan dentro del lago de datos como conjuntos de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una recopilación de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas).
 
 ## Acceso a conjuntos de datos{#access-datasets}
 
@@ -37,13 +37,13 @@ Seleccione el nombre de un conjunto de datos para acceder a la pantalla de activ
 
 Estos son los diferentes conjuntos de datos disponibles:
 
-**Creación de informes**
+**Informes**
 
 * _Sistema de informes: conjunto de datos del evento de comentarios de mensajes_: Registros de envío de mensajes. Información sobre la entrega de mensajes desde Journey Optimizer con fines de creación de informes y segmentos. Los comentarios de los ISP de correo electrónico sobre las devoluciones también se registran en este conjunto de datos.
 * _Creación de informes: conjunto de datos de evento de experiencia de seguimiento de correo electrónico_: Registros de interacción para el canal de correo electrónico que se utiliza para la creación de informes y segmentos. La información almacenada informa sobre las acciones realizadas por el usuario final en el correo electrónico (aperturas, clics, etc.).
 * _Creación de informes: conjunto de datos de evento de experiencia de seguimiento push_: Registros de interacción para el canal push que se utilizan con fines de creación de informes y segmentos. La información almacenada informa sobre las acciones realizadas por el usuario final en las notificaciones push.
-* _Sistema de informes: Evento de paso de Recorrido_: Captura todos los eventos de experiencia de los pasos de Recorrido generados desde Journey Optimizer para que los consuman servicios como Informes. También es fundamental para crear informes en Customer Journey Analytics para análisis de año. Vinculado a metadatos de Recorrido.
-* _Informes: Recorridos_: Información sobre el alojamiento del conjunto de datos de metadatos de cada paso de un recorrido.
+* _Creación de informes: Evento de paso de recorrido_: Captura todos los eventos de experiencia de los pasos del recorrido generados desde Journey Optimizer para que los consuman servicios como Reporting. También es fundamental para crear informes en Customer Journey Analytics para análisis de año y año. Vinculado a metadatos de recorrido.
+* _Informes: recorridos_: Información sobre el alojamiento del conjunto de datos de metadatos de cada paso de un recorrido.
 * _Informes - CCO_: Conjunto de datos del evento de comentarios que almacena los registros de envío de los correos electrónicos CCO. Para su uso en informes.
 
 **Consentimiento**
@@ -52,7 +52,7 @@ Estos son los diferentes conjuntos de datos disponibles:
 
 **Servicios inteligentes**
 
-* _Puntuaciones de optimización en tiempo de envío/Puntuaciones de participación_: Resultados de Recorrido AI.
+* _Puntuaciones de optimización en tiempo de envío/Puntuaciones de participación_: Puntuaciones de salida de Journey AI.
 
 ## Vista previa de conjuntos de datos{#preview-datasets}
 
@@ -64,22 +64,22 @@ En la pantalla de actividad Conjunto de datos, seleccione **Vista previa del con
 
 Para crear un nuevo conjunto de datos, comience seleccionando **Crear conjunto de datos** en el tablero Conjuntos de datos .
 
-Puede hacer lo siguiente:
+Puede:
 
 * Crear conjunto de datos a partir del esquema. [Obtenga más información en esta documentación](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target=&quot;_blank&quot;}
-* Cree un conjunto de datos a partir del archivo CSV. [Obtenga más información en esta documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=es){target=&quot;_blank&quot;}
+* Cree un conjunto de datos a partir del archivo CSV. [Obtenga más información en esta documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html){target=&quot;_blank&quot;}
 
 Vea este vídeo para aprender a crear un conjunto de datos, asignarlo a un esquema, agregarle datos y confirmar que se han introducido los datos.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
-## Control de datos
+## Administración de datos
 
 En un conjunto de datos, examine la **Administración de datos** para comprobar las etiquetas en el conjunto de datos y en el nivel de campo. Administración de datos categoriza los datos según el tipo de políticas que se apliquen.
 
 Una de las funciones principales de [!DNL Adobe Experience Platform] es reunir los datos de varios sistemas empresariales para permitir que los especialistas en marketing identifiquen, comprendan y capten mejor a los clientes. Estos datos pueden estar sujetos a restricciones de uso definidas por su organización o por las regulaciones legales. Por lo tanto, es importante asegurarse de que sus operaciones de datos cumplan las políticas de uso de los datos.
 
-[!DNL Adobe Experience Platform Data Governance] le permite administrar los datos de los clientes y garantizar el cumplimiento de las regulaciones, restricciones y políticas aplicables al uso de los datos. Desempeña un papel clave dentro del Experience Platform en varios niveles, incluida la catalogación, el linaje de datos, el etiquetado del uso de los datos, las políticas de uso de los datos y el control del uso de los datos para las acciones de marketing.
+[!DNL Adobe Experience Platform Data Governance] le permite administrar los datos de los clientes y garantizar el cumplimiento de las regulaciones, restricciones y políticas aplicables al uso de los datos. Desempeña un papel clave en Experience Platform en varios niveles, incluida la catalogación, el linaje de datos, el etiquetado del uso de los datos, las políticas de uso de los datos y el control del uso de los datos para las acciones de marketing.
 
 Obtenga más información sobre Administración de datos y etiquetas de uso de datos en la [Documentación de control de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html){target=&quot;_blank&quot;}
 
@@ -87,13 +87,13 @@ Obtenga más información sobre Administración de datos y etiquetas de uso de d
 
 Obtenga información sobre cómo crear un esquema, un conjunto de datos y la ingesta de datos para añadir perfiles de prueba en Adobe Journey Optimizer en [esta muestra completa](../segment/creating-test-profiles.md)
 
-Obtenga más información sobre la creación de conjuntos de datos en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es){target=&quot;_blank&quot;}.
+Obtenga más información sobre la creación de conjuntos de datos en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
 
-Aprenda a utilizar la interfaz de usuario de conjuntos de datos en la [Documentación general de la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es){target=&quot;_blank&quot;}.
+Aprenda a utilizar la interfaz de usuario de conjuntos de datos en la [Documentación general de la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target=&quot;_blank&quot;}.
 
 Hay disponible una lista de casos de uso con ejemplos de consulta [here](../data/datasets-query-examples.md).
 
 **Consulte también**
 
-* [Información general sobre la ingesta de flujos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es){target=&quot;_blank&quot;}
+* [Información general sobre la ingesta de flujos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target=&quot;_blank&quot;}
 * [Ingesta de datos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;}

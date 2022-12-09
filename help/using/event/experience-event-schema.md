@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Esquemas de ExperienceEvent para eventos de recorrido
-description: Obtenga información sobre los esquemas de ExperienceEvent para eventos de recorrido
+description: Descubra los esquemas de ExperienceEvent para eventos de recorrido
 feature: Schemas
 topic: Administration
 role: Admin
@@ -10,16 +10,16 @@ level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 4%
+source-wordcount: '762'
+ht-degree: 0%
 
 ---
 
 # Esquemas de ExperienceEvent para [!DNL Journey Optimizer] Eventos {#about-experienceevent-schemas}
 
-[!DNL Journey Optimizer] los eventos son eventos de experiencia XDM que se envían a Adobe Experience Platform mediante la ingesta de flujo.
+[!DNL Journey Optimizer] los eventos son eventos de experiencia XDM que se envían a Adobe Experience Platform mediante la ingesta de transmisión.
 
-Como tal, un requisito previo importante para configurar eventos para [!DNL Journey Optimizer] es que está familiarizado con el Modelo de datos de experiencia (o XDM) de Adobe Experience Platform y con cómo componer esquemas de eventos de experiencia XDM, así como con cómo transmitir datos con formato XDM a Adobe Experience Platform.
+Como tal, un requisito previo importante para configurar eventos para [!DNL Journey Optimizer] es que está familiarizado con el Modelo de datos de experiencia (o XDM) de Adobe Experience Platform y cómo componer esquemas de eventos de experiencia XDM, así como con cómo transmitir datos con formato XDM a Adobe Experience Platform.
 
 ## Requisitos de esquema para [!DNL Journey Optimizer] Eventos  {#schema-requirements}
 
@@ -33,15 +33,15 @@ Cualquier esquema XDM que se utilice para [!DNL Journey Optimizer] los eventos d
 
    ![](assets/schema2.png)
 
-* Para los eventos generados por el sistema, el esquema debe incluir el grupo de campos ID de evento de organización . [!DNL Journey Optimizer] utiliza este campo para identificar eventos utilizados en recorridos.
+* Para los eventos generados por el sistema, el esquema debe incluir el grupo de campos ID de evento de organización . [!DNL Journey Optimizer] utiliza este campo para identificar los eventos utilizados en los recorridos.
 
    ![](assets/schema3.png)
 
-* Declare un campo de identidad para identificar el asunto del evento. Si no se especifica ninguna identidad, se puede utilizar un mapa de identidad. Este proceso no es recomendable.
+* Declare un campo de identidad para identificar el asunto del evento. Si no se especifica ninguna identidad, se puede utilizar un mapa de identidad. No se recomienda.
 
    ![](assets/schema4.png)
 
-* Si desea que estos datos estén disponibles para la búsqueda más adelante en un Recorrido, marque el esquema y el conjunto de datos para el perfil.
+* Si desea que estos datos estén disponibles para la búsqueda más adelante en un recorrido, marque el esquema y el conjunto de datos para el perfil.
 
    ![](assets/schema5.png)
 
@@ -53,7 +53,7 @@ Cualquier esquema XDM que se utilice para [!DNL Journey Optimizer] los eventos d
 
    ![](assets/schema8.png)
 
-## Aprovechamiento de las relaciones de esquema{#leverage_schema_relationships}
+## Aprovechar las relaciones de esquema{#leverage_schema_relationships}
 
 Adobe Experience Platform le permite definir relaciones entre esquemas para utilizar un conjunto de datos como una tabla de búsqueda para otro.
 
@@ -71,12 +71,12 @@ Este es el esquema de compra con la relación definida en el campo ID del produc
 
 >[!NOTE]
 >
->Obtenga más información sobre las relaciones de esquema en la [documentación del Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
+>Obtenga más información sobre las relaciones de esquema en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
 
 En Journey Optimizer, puede aprovechar todos los campos de las tablas vinculadas:
 
 * al configurar un evento empresarial o unitario, [Más información](../event/experience-event-schema.md#unitary_event_configuration)
-* cuando se utilizan condiciones en un recorrido, [Más información](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* cuando se utilicen condiciones en un recorrido, [Más información](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * en la personalización de mensajes, [Más información](../event/experience-event-schema.md#message_personalization)
 * en personalización de acciones personalizadas, [Más información](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
@@ -96,7 +96,7 @@ Los campos vinculados no están disponibles:
 
 Para aprender a configurar un evento unitario, consulte esta [página](../event/about-creating.md).
 
-### condiciones de recorrido mediante el contexto del evento{#journey_conditions_using_event_context}
+### Condiciones de recorrido mediante el contexto del evento{#journey_conditions_using_event_context}
 
 Puede utilizar datos de una tabla de consulta vinculada a un evento utilizado en un recorrido para la creación de condiciones (editor de expresiones).
 
@@ -104,7 +104,7 @@ Añada una condición en un recorrido, edite la expresión y despliegue el nodo 
 
 ![](assets/schema12.png)
 
-Para aprender a definir las condiciones de recorrido, consulte esta [página](../building-journeys/condition-activity.md).
+Para aprender a definir las condiciones del recorrido, consulte esta [página](../building-journeys/condition-activity.md).
 
 ### Personalización de mensajes{#message_personalization}
 

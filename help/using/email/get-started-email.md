@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introducción al correo electrónico
-description: Obtenga información sobre cómo crear un correo electrónico en Journey Optimizer
+description: Aprenda a crear un correo electrónico en Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
+source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 10%
+source-wordcount: '145'
+ht-degree: 0%
 
 ---
 
@@ -24,11 +25,11 @@ Uso [!DNL Journey Optimizer] para enviar mensajes de correo electrónico a sus c
 
 Se pueden crear envíos de correo electrónico:
 
-* En un **Recorrido**: una vez que haya añadido un **[!UICONTROL Correo electrónico]** para su recorrido, y para definir la configuración básica, use la variable **[!UICONTROL Acciones: Correo electrónico]** panel derecho para crear el contenido del mensaje SMS.
+* En un **Recorrido**: una vez que haya añadido un **[!UICONTROL Email]** actividad del recorrido y configuración básica definida, utilice la variable **[!UICONTROL Actions: Email]** panel derecho para crear el contenido del mensaje SMS.
 
    Para obtener más información sobre cómo configurar el recorrido, consulte esta [página](../building-journeys/journey-gs.md).
 
-* En un **Campaign**: una vez creada la campaña, seleccione **[!UICONTROL Correo electrónico]** como su acción y defina la configuración básica.
+* En un **Campaign**: una vez creada la campaña, seleccione **[!UICONTROL Email]** como su acción y defina la configuración básica.
 
    Para obtener más información sobre cómo configurar la campaña, consulte esta [página](../campaigns/create-campaign.md#configure).
 
@@ -46,7 +47,7 @@ Se pueden crear envíos de correo electrónico:
 <img alt="Poco frecuente" src="../assets/do-not-localize/email-design.jpg">
 </a>
 <div>
-<a href="get-started-email-design.md"><strong>Cree un correo electrónico</strong></a>
+<a href="get-started-email-design.md"><strong>Diseñar un correo electrónico</strong></a>
 </div>
 <p></td>
 <td>
@@ -68,4 +69,3 @@ Se pueden crear envíos de correo electrónico:
 <p>
 </td>
 </tr></table>
-

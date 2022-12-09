@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 11%
+source-wordcount: '168'
+ht-degree: 0%
 
 ---
 
 # Actualizar una oferta de reserva {#update-fallback-offer}
 
-Puede modificar o actualizar una oferta de reserva en el contenedor realizando una solicitud de PATCH al [!DNL Offer Library] API.
+Puede modificar o actualizar una oferta de reserva en el contenedor realizando una solicitud PATCH al [!DNL Offer Library] API.
 
 Para obtener más información sobre JSON Patch, incluidas las operaciones disponibles, consulte la [Documentación de parches JSON](http://jsonpatch.com/).
 

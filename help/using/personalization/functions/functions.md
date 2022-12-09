@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 315c3e8c04b2e3944d0d5b2befb205acbe0ef7c9
 workflow-type: tm+mt
-source-wordcount: '1738'
-ht-degree: 4%
+source-wordcount: '1744'
+ht-degree: 0%
 
 ---
 
@@ -132,7 +132,7 @@ Haga clic en el `...` para ver la descripción de la función y agregarla a sus 
 
 <table>
     <tr>
-        <td><a href="maps.md#get">Obtenga</a></td><td>Esta función se utiliza para recuperar el valor de un mapa para una clave determinada</td>
+        <td><a href="maps.md#get">Get</a></td><td>Esta función se utiliza para recuperar el valor de un mapa para una clave determinada</td>
     </tr>
     <tr>
         <td><a href="maps.md#keys">Claves</a></td><td>Esta función se utiliza para recuperar todas las claves de un mapa determinado</td>
@@ -146,7 +146,7 @@ Haga clic en el `...` para ver la descripción de la función y agregarla a sus 
 
 <table>
     <tr>
-        <td><a href="objects.md#absolute">Absoluta  </a></td><td>Esta función convierte un número en su valor absoluto</td>
+        <td><a href="objects.md#absolute">Absoluto</a></td><td>Esta función convierte un número en su valor absoluto</td>
     </tr>
     <tr>
         <td><a href="objects.md#random">Aleatorio</a></td><td>Esta función devuelve un valor aleatorio entre 0 y 1</td>
@@ -186,7 +186,7 @@ Haga clic en el `...` para ver la descripción de la función y agregarla a sus 
         <td><a href="string.md#concat">Concat</a></td><td>Esta función se utiliza para combinar dos cadenas en una</td>
     </tr>
     <tr>
-        <td><a href="string.md#contains">Contains</a></td><td>Esta función se utiliza para determinar si una cadena contiene una subcadena especificada</td>
+        <td><a href="string.md#contains">Contiene</a></td><td>Esta función se utiliza para determinar si una cadena contiene una subcadena especificada</td>
     </tr>
     <tr>
         <td><a href="string.md#doesNotContain">No contiene</a></td><td>Esta función se utiliza para determinar si una cadena no contiene una subcadena especificada</td>
@@ -195,7 +195,7 @@ Haga clic en el `...` para ver la descripción de la función y agregarla a sus 
         <td><a href="string.md#doesNotEndWith">No termina con</a></td><td>Esta función se utiliza para determinar si una cadena no termina con una subcadena especificada</td>
     </tr>
     <tr>
-        <td><a href="string.md#doesNotStartWith">Does not start with</a></td><td>Esta función se utiliza para determinar si una cadena no comienza con una subcadena especificada</td>
+        <td><a href="string.md#doesNotStartWith">No comienza con</a></td><td>Esta función se utiliza para determinar si una cadena no comienza con una subcadena especificada</td>
     </tr>
     <tr>
         <td><a href="string.md#encode64">Codificar 64</a></td><td>Esta función se utiliza para codificar o descodificar una cadena</td>
@@ -229,7 +229,7 @@ Haga clic en el `...` para ver la descripción de la función y agregarla a sus 
         <td><a href="string.md#isEmpty">IsEmpty</a></td><td>Esta función se utiliza para comprobar si una cadena o expresión está vacía.</td>
     </tr>
     <tr>
-        <td><a href="string.md#is-not-empty">Is Not Empty</a></td><td>Esta función devuelve el valor "True" si la cadena del parámetro no está vacía.</td>
+        <td><a href="string.md#is-not-empty">No está vacío</a></td><td>Esta función devuelve el valor "True" si la cadena del parámetro no está vacía.</td>
     </tr>
     <tr>
         <td><a href="string.md#last-index-of">Último índice de</a></td><td>Esta función devuelve la posición (en el primer argumento) de la última incidencia del segundo parámetro. Devuelve -1 si no hay coincidencia.</td>
@@ -256,7 +256,7 @@ Haga clic en el `...` para ver la descripción de la función y agregarla a sus 
         <td><a href="string.md#md5">MD5</a></td><td>Esta función devuelve el hash md5 de la cadena de entrada.</td>
     </tr>
     <tr>
-        <td><a href="string.md#notEqualTo">Not equal to</a></td><td>Esta función se utiliza para determinar si una cadena no es igual a la cadena especificada</td>
+        <td><a href="string.md#notEqualTo">Distinto a</a></td><td>Esta función se utiliza para determinar si una cadena no es igual a la cadena especificada</td>
     </tr>
     <tr>
         <td><a href="string.md#not-equal-with-ignore-case">Distinto de mayúsculas y minúsculas ignoradas</a></td><td>Esta función compara dos cadenas ignorando mayúsculas y minúsculas.</td>
@@ -331,7 +331,7 @@ Los ayudantes se detallan en [esta página](helpers.md).
         <td><a href="helpers.md#each">Cada</a></td><td>Esta función se utiliza para iterar en una matriz</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#if-function">Si</a></td><td>Esta función se utiliza para definir un bloque condicional: si la evaluación de la expresión devuelve true, el bloque se procesa</td>
+        <td><a href="helpers.md#if-function">If</a></td><td>Esta función se utiliza para definir un bloque condicional: si la evaluación de la expresión devuelve true, el bloque se procesa</td>
     </tr>
     <tr>
         <td><a href="helpers.md#let">Let</a></td><td>Esta función permite almacenar una expresión como variable para usarla más adelante en una consulta</td>
@@ -392,10 +392,10 @@ Las funciones de comparación se utilizan para comparar diferentes expresiones y
         <td><a href="operators.md#equals">Es igual a</a></td><td>Esta operación comprueba si los valores son iguales</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthan">Greater than</a></td><td>Este operador comprueba si el primer valor es bueno que el segundo valor</td>
+        <td><a href="operators.md#greaterthan">Greater than</a></td><td>Este operador comprueba si el primer valor es mayor que el segundo valor</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthanorequal">Bueno o igual a</a></td><td>Este operador comprueba si el primer valor es bueno o igual al segundo valor</td>
+        <td><a href="operators.md#greaterthanorequal">Mayor o igual que</a></td><td>Este operador comprueba si el primer valor es mayor o igual que el segundo valor</td>
     </tr>
     <tr>
         <td><a href="operators.md#lessthanorequal">Less than or equals to</a> </td><td>Este operador comprueba si el primer valor es menor o igual que el segundo valor</td>

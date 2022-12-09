@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 7%
+source-wordcount: '1678'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +53,7 @@ La siguiente función combinará ciudad y país del perfil en una sola cadena.
 {%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
 ```
 
-## Contains {#contains}
+## Contiene {#contains}
 
 La variable `contains` para determinar si una cadena contiene una subcadena especificada.
 
@@ -132,7 +132,7 @@ La siguiente consulta determina, con distinción de mayúsculas y minúsculas, s
 doesNotEndWith(person.emailAddress,".com")
 ```
 
-## Does not start with{#doesNotStartWith}
+## No comienza con{#doesNotStartWith}
 
 La variable `doesNotStartWith` para determinar si una cadena no comienza con una subcadena especificada.
 
@@ -350,7 +350,7 @@ La siguiente función devuelve &#39;true&#39; si el número de teléfono móvil 
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
 
-## Is Not Empty {#is-not-empty}
+## No está vacío {#is-not-empty}
 
 La variable `isNotEmpty` para determinar si una cadena no está vacía.
 
@@ -516,7 +516,7 @@ La variable `md5` se utiliza para calcular y devolver el hash md5 de una cadena.
 
 Devuelve &quot;5eb63bbbe01eed093cb22bb8f5acdc3&quot;
 
-## Not equal to{#notEqualTo}
+## Distinto a{#notEqualTo}
 
 La variable `notEqualTo` para determinar si una cadena no es igual a la cadena especificada.
 

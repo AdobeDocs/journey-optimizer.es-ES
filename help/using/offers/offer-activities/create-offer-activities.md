@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 1%
+source-wordcount: '1102'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ Las decisiones son contenedores para sus ofertas que aprovechan el motor de deci
 
 ➡️ [Aprenda a crear actividades de oferta en este vídeo](#video)
 
-La lista de decisiones puede consultarse en la **[!UICONTROL Ofertas]** menú > **[!UICONTROL Decisiones]** pestaña . Los filtros están disponibles para ayudarle a recuperar las decisiones según su estado o las fechas de inicio y finalización.
+La lista de decisiones puede consultarse en la **[!UICONTROL Offers]** menú > **[!UICONTROL Decisions]** pestaña . Los filtros están disponibles para ayudarle a recuperar las decisiones según su estado o las fechas de inicio y finalización.
 
 ![](../assets/activities-list.png)
 
@@ -32,15 +32,15 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
 ## Cree la decisión {#create-activity}
 
-1. Acceda a la lista de decisiones y haga clic en **[!UICONTROL Crear decisión]**.
+1. Acceda a la lista de decisiones y haga clic en **[!UICONTROL Create decision]**.
 
 1. Especifique el nombre de la decisión.
 
-1. Defina una fecha y hora de inicio y de finalización si es necesario y haga clic en **[!UICONTROL Siguiente]**.
+1. Defina una fecha y hora de inicio y de finalización si es necesario y haga clic en **[!UICONTROL Next]**.
 
    ![](../assets/activities-name.png)
 
-1. Para asignar etiquetas de uso de datos principales o personalizadas a la decisión, seleccione **[!UICONTROL Administrar acceso]**. [Más información sobre Control de acceso a nivel de objeto (OLAC)](../../administration/object-based-access.md)
+1. Para asignar etiquetas de uso de datos principales o personalizadas a la decisión, seleccione **[!UICONTROL Manage access]**. [Más información sobre Control de acceso a nivel de objeto (OLAC)](../../administration/object-based-access.md)
 
 ## Definir ámbitos de decisión {#add-decision-scopes}
 
@@ -48,7 +48,7 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
    ![](../assets/activities-placement.png)
 
-1. Haga clic en **[!UICONTROL Agregar]** para seleccionar criterios de evaluación para esta ubicación.
+1. Haga clic en **[!UICONTROL Add]** para seleccionar criterios de evaluación para esta ubicación.
 
    ![](../assets/activities-evaluation-criteria.png)
 
@@ -58,39 +58,39 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
    >
    >Se requiere al menos un criterio de evaluación.
 
-1. Seleccione la colección de ofertas que contiene las ofertas que se deben tener en cuenta y haga clic en **[!UICONTROL Agregar]**.
+1. Seleccione la colección de ofertas que contiene las ofertas que se deben tener en cuenta y haga clic en **[!UICONTROL Add]**.
 
    ![](../assets/activities-collection.png)
 
    >[!NOTE]
    >
-   >Puede hacer clic en el botón **[!UICONTROL Abrir colecciones de ofertas]** vínculo para mostrar la lista de colecciones en una nueva pestaña, que le permite examinar las colecciones y las ofertas que contienen.
+   >Puede hacer clic en el botón **[!UICONTROL Open offer collections]** vínculo para mostrar la lista de colecciones en una nueva pestaña, que le permite examinar las colecciones y las ofertas que contienen.
 
    La colección seleccionada se agrega al criterio.
 
    ![](../assets/activities-collection-added.png)
 
-1. Utilice la variable **[!UICONTROL Elegibilidad]** para restringir la selección de ofertas para esta ubicación.
+1. Utilice la variable **[!UICONTROL Eligibility]** para restringir la selección de ofertas para esta ubicación.
 
    Esta restricción se puede aplicar utilizando una **regla de decisión**, o una o varias **Segmentos de Adobe Experience Platform**. Ambas se detallan en [esta sección](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
-   * Para restringir la selección de ofertas a los miembros de un segmento de Experience Platform, seleccione **[!UICONTROL Segmentos]** y haga clic en **[!UICONTROL Añadir segmentos]**.
+   * Para restringir la selección de ofertas a los miembros de un segmento de Experience Platform, seleccione **[!UICONTROL Segments]** y haga clic en **[!UICONTROL Add segments]**.
 
       ![](../assets/activity_constraint_segment.png)
 
-      Añada uno o varios segmentos del panel izquierdo y combínelos utilizando la variable **[!UICONTROL Y]** / **[!UICONTROL O]** operadores lógicos.
+      Añada uno o varios segmentos del panel izquierdo y combínelos utilizando la variable **[!UICONTROL And]** / **[!UICONTROL Or]** operadores lógicos.
 
       ![](../assets/activity_constraint_segment2.png)
 
       Aprenda a trabajar con segmentos en [esta sección](../../segment/about-segments.md).
 
-   * Si desea agregar una restricción de selección con una regla de decisión, utilice la variable **[!UICONTROL Regla de decisión]** y seleccione la regla que desee.
+   * Si desea agregar una restricción de selección con una regla de decisión, utilice la variable **[!UICONTROL Decision rule]** y seleccione la regla que desee.
 
       ![](../assets/activity_constraint_rule.png)
 
       Obtenga información sobre cómo crear una regla de decisión en [esta sección](../offer-library/creating-decision-rules.md).
 
-1. Al seleccionar segmentos o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Actualizar]** para actualizar los datos.
+1. Al seleccionar segmentos o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Refresh]** para actualizar los datos.
 
    >[!NOTE]
    >
@@ -104,9 +104,9 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
    * De forma predeterminada, si se cumplen los criterios de varias ofertas para esta ubicación, la oferta con la puntuación de prioridad más alta se envía al cliente.
 
-   * Si desea utilizar una fórmula específica para elegir qué oferta apta para entregar, seleccione **[!UICONTROL Fórmula de clasificación]**. Aprenda a clasificar ofertas en [esta sección](../offer-activities/configure-offer-selection.md).
+   * Si desea utilizar una fórmula específica para elegir qué oferta apta para entregar, seleccione **[!UICONTROL Ranking formula]**. Aprenda a clasificar ofertas en [esta sección](../offer-activities/configure-offer-selection.md).
 
-1. Haga clic en **[!UICONTROL Agregar]** para definir más criterios para la misma ubicación.
+1. Haga clic en **[!UICONTROL Add]** para definir más criterios para la misma ubicación.
 
    ![](../assets/activity_add-collection.png)
 
@@ -124,7 +124,7 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
    ![](../assets/activity_same-rank-collections.png)
 
-1. Para añadir otra ubicación a las ofertas como parte de esta decisión, use el **[!UICONTROL Nuevo ámbito]** botón. Repita los pasos anteriores para cada ámbito de decisión.
+1. Para añadir otra ubicación a las ofertas como parte de esta decisión, use el **[!UICONTROL New scope]** botón. Repita los pasos anteriores para cada ámbito de decisión.
 
    ![](../assets/activity_new-scope.png)
 
@@ -132,13 +132,13 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
 Una vez definidos los ámbitos de decisión, defina la oferta de reserva que se presentará como último recurso a los clientes que no coincidan con las reglas y restricciones de idoneidad de las ofertas.
 
-Para ello, selecciónela en la lista de ofertas de reserva disponibles para las ubicaciones definidas en la decisión y, a continuación, haga clic en **[!UICONTROL Siguiente]**.
+Para ello, selecciónela en la lista de ofertas de reserva disponibles para las ubicaciones definidas en la decisión y, a continuación, haga clic en **[!UICONTROL Next]**.
 
 ![](../assets/add-fallback-offer.png)
 
 >[!NOTE]
 >
->Puede hacer clic en el botón **[!UICONTROL Abrir la biblioteca de ofertas]** para mostrar la lista de ofertas en una nueva pestaña.
+>Puede hacer clic en el botón **[!UICONTROL Open offer library]** para mostrar la lista de ofertas en una nueva pestaña.
 
 ## Revisar y guardar la decisión {#review}
 
@@ -148,18 +148,18 @@ Si todo está configurado correctamente, se muestra un resumen de las propiedade
 
    ![](../assets/review-decision.png)
 
-1. Puede expandir o contraer cada ubicación. Puede obtener una vista previa de las ofertas disponibles, los requisitos y los detalles de clasificación de cada ubicación. También puede mostrar información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Actualizar]** para actualizar los datos.
+1. Puede expandir o contraer cada ubicación. Puede obtener una vista previa de las ofertas disponibles, los requisitos y los detalles de clasificación de cada ubicación. También puede mostrar información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Refresh]** para actualizar los datos.
 
    ![](../assets/review-decision-details.png)
 
-1. Haga clic en **[!UICONTROL Finalizar]**.
-1. Select **[!UICONTROL Guardar y activar]**.
+1. Haga clic en **[!UICONTROL Finish]**.
+1. Select **[!UICONTROL Save and activate]**.
 
    ![](../assets/save-activities.png)
 
    También puede guardar la decisión como borrador para editarla y activarla más adelante.
 
-La decisión se muestra en la lista con la variable **[!UICONTROL Activo]** o **[!UICONTROL Borrador]** , dependiendo de si lo activó o no en el paso anterior.
+La decisión se muestra en la lista con la variable **[!UICONTROL Live]** o **[!UICONTROL Draft]** , dependiendo de si lo activó o no en el paso anterior.
 
 Ahora está listo para utilizarse para ofrecer ofertas a los clientes.
 
@@ -169,23 +169,23 @@ En la lista de decisión, puede seleccionar la decisión para mostrar sus propie
 
 ![](../assets/decision_created.png)
 
-Seleccione el **[!UICONTROL Editar]** para volver al modo de edición de decisiones, donde puede modificar el [detalles](#create-activity), [ámbitos de decisión](#add-decision-scopes) y [oferta de reserva](#add-fallback).
+Seleccione el **[!UICONTROL Edit]** para volver al modo de edición de decisiones, donde puede modificar el [detalles](#create-activity), [ámbitos de decisión](#add-decision-scopes) y [oferta de reserva](#add-fallback).
 
-Seleccione una decisión activa y haga clic en **[!UICONTROL Desactivar]** para volver a establecer el estado de decisión en **[!UICONTROL Borrador]**.
+Seleccione una decisión activa y haga clic en **[!UICONTROL Deactivate]** para volver a establecer el estado de decisión en **[!UICONTROL Draft]**.
 
-Para volver a establecer el estado en **[!UICONTROL Activo]**, seleccione **[!UICONTROL Activar]** que se muestra ahora.
+Para volver a establecer el estado en **[!UICONTROL Live]**, seleccione **[!UICONTROL Activate]** que se muestra ahora.
 
 ![](../assets/decision_activate.png)
 
-La variable **[!UICONTROL Más acciones]** activa las acciones que se describen a continuación.
+La variable **[!UICONTROL More actions]** activa las acciones que se describen a continuación.
 
 ![](../assets/decision_more-actions.png)
 
-* **[!UICONTROL Completar]**: establece el estado de la decisión en **[!UICONTROL Completar]**, lo que significa que la decisión ya no se puede invocar. Esta acción solo está disponible para decisiones activadas. La decisión sigue estando disponible en la lista, pero no puede volver a establecer su estado en **[!UICONTROL Borrador]** o **[!UICONTROL Aprobado]**. Solo puede duplicarlo, eliminarlo o archivarlo.
+* **[!UICONTROL Complete]**: establece el estado de la decisión en **[!UICONTROL Complete]**, lo que significa que la decisión ya no se puede invocar. Esta acción solo está disponible para decisiones activadas. La decisión sigue estando disponible en la lista, pero no puede volver a establecer su estado en **[!UICONTROL Draft]** o **[!UICONTROL Approved]**. Solo puede duplicarlo, eliminarlo o archivarlo.
 
-* **[!UICONTROL Duplicar]**: crea una decisión con las mismas propiedades, ámbitos de decisión y oferta de reserva. De forma predeterminada, la nueva decisión tiene la variable **[!UICONTROL Borrador]** estado.
+* **[!UICONTROL Duplicate]**: crea una decisión con las mismas propiedades, ámbitos de decisión y oferta de reserva. De forma predeterminada, la nueva decisión tiene la variable **[!UICONTROL Draft]** estado.
 
-* **[!UICONTROL Eliminar]**: elimina la decisión de la lista.
+* **[!UICONTROL Delete]**: elimina la decisión de la lista.
 
    >[!CAUTION]
    >
@@ -193,7 +193,7 @@ La variable **[!UICONTROL Más acciones]** activa las acciones que se describen 
    >
    >Si la decisión se utiliza en otro objeto, no se puede eliminar.
 
-* **[!UICONTROL Archivo]**: establece el estado de decisión en **[!UICONTROL Archivado]**. La decisión sigue estando disponible en la lista, pero no puede volver a establecer su estado en **[!UICONTROL Borrador]** o **[!UICONTROL Aprobado]**. Solo puede duplicarlo o eliminarlo.
+* **[!UICONTROL Archive]**: establece el estado de decisión en **[!UICONTROL Archived]**. La decisión sigue estando disponible en la lista, pero no puede volver a establecer su estado en **[!UICONTROL Draft]** o **[!UICONTROL Approved]**. Solo puede duplicarlo o eliminarlo.
 
 También puede eliminar o cambiar el estado de varias decisiones al mismo tiempo seleccionando las casillas de verificación correspondientes.
 
@@ -207,7 +207,7 @@ Una vez creada la decisión, puede hacer clic en su nombre desde la lista.
 
 ![](../assets/decision_click-name.png)
 
-Esto le permite acceder a información detallada para esa decisión. Seleccione el **[!UICONTROL Registro de cambios]** para [supervisar todos los cambios](../get-started/user-interface.md#changes-log) que se hayan adoptado en la decisión.
+Esto le permite acceder a información detallada para esa decisión. Seleccione el **[!UICONTROL Change log]** para [supervisar todos los cambios](../get-started/user-interface.md#changes-log) que se hayan adoptado en la decisión.
 
 ![](../assets/decision_information.png)
 

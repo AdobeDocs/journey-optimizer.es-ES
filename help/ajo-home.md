@@ -1,18 +1,18 @@
 ---
 keywords: Journey Optimizer;inicio;temas populares
 title: Documentación del producto de Journey Optimizer
-description: Centro de ayuda de producto de Adobe Journey Optimizer
+description: Centro de ayuda del producto Adobe Journey Optimizer
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: ht
-source-wordcount: '321'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 0%
 
 ---
 
-# Documentación de Adobe [!DNL Journey Optimizer] {#cjm-documentation}
+# Adobe [!DNL Journey Optimizer] Documentación {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
 
@@ -38,34 +38,34 @@ ht-degree: 100%
       <a href="using/start/quick-start.md">Guía de inicio rápido</a>
     </div>
     <p>
-    Obtenga información sobre cómo empezar como administrador, ingeniero de datos o profesional del Recorrido
+    Obtenga información sobre cómo empezar como administrador, ingeniero de datos o profesional de Journey
     <p>
     <p>
     <div>
-      <a href="using/email/get-started-email-design.md">Diseñe el contenido de un correo electrónico</a>
+      <a href="using/email/get-started-email-design.md">Diseño de contenido de correo electrónico</a>
     </div>
     <p>
-    Diseñe el contenido de un correo electrónico nuevo o importe contenido de una HTML existente
+    Diseñar un correo electrónico nuevo o importar un contenido HTML existente
     <p>
     <div>
-    <a href="using/building-journeys/journeys-uc.md">Creación de su primer recorrido</a>
+    <a href="using/building-journeys/journeys-uc.md">Crear el primer recorrido</a>
     </div>
     <p>Aprenda a construir y ejecutar un recorrido
     <p>
     <div>
-    <a href="using/configuration/get-started-configuration.md">Configuración de [!DNL Journey Optimizer]</a>
+    <a href="using/configuration/get-started-configuration.md">Configurar [!DNL Journey Optimizer]</a>
     </div>
     <p>Conozca los pasos clave para configurar [!DNL Journey Optimizer]
     <p>
     <div>
-    <a href="using/administration/permissions-overview.md">Concesión de acceso a [!DNL Journey Optimizer]</a>
+    <a href="using/administration/permissions-overview.md">Conceder acceso a [!DNL Journey Optimizer]</a>
     </div>
-    <p>Defina y administre los permisos asignados a usuarios de [!DNL Journey Optimizer]
+    <p>Defina y administre los permisos asignados a [!DNL Journey Optimizer] usuarios
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">Gestión de decisiones</a>
     </div>
-    <p>Cree ofertas; proporcione la mejor oferta y experiencia a sus clientes
+    <p>Cree ofertas y ofrezca la mejor oferta y experiencia a sus clientes
     <p>
     <p>
     <div><strong>Recursos adicionales</strong>
@@ -74,7 +74,7 @@ ht-degree: 100%
     <p>
     <div>
     <li>
-      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=es" target="_blank">Descripción del producto de Adobe Journey Optimizer</a>
+      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descripción del producto de Adobe Journey Optimizer</a>
     </li>
     </div>
     <div>
@@ -84,17 +84,17 @@ ht-degree: 100%
     </div>
     <div>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/journey-optimizer/assets/AJO-FAQ.pdf" target="_blank">Preguntas frecuentes acerca de Adobe Journey Optimizer</a> (PDF)
+      <a href="https://experienceleague.adobe.com/docs/journey-optimizer/assets/AJO-FAQ.pdf" target="_blank">Preguntas frecuentes sobre Adobe Journey Optimizer</a> (PDF)
     </li>
     </div>
     <div>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es" target="_blank">Documentación de Adobe Experience Platform </a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html" target="_blank">Documentación de Adobe Experience Platform</a>
     </li>
     </div>
     <div>
       <li>
-      <a href="https://www.adobe.com/es/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores de Adobe Experience Platform</a>
+      <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores de Adobe Experience Platform</a>
     </li>
     </div>
   </td>
@@ -112,7 +112,7 @@ ht-degree: 100%
       <a href="using/landing-pages/get-started-lp.md">Páginas de aterrizaje</a>
     </li>
     <p>
-    <p>GESTIÓN DE DECISIONES</p>
+    <p>ADMINISTRACIÓN DE DECISIONES</p>
     <li>
       <a href="using/offers/get-started/starting-offer-decisioning.md">Ofertas</a>
     </li>
@@ -136,7 +136,7 @@ ht-degree: 100%
       <a href="using/data/get-started-queries.md">Consultas</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=es" target="_blank">Monitorización</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html" target="_blank">Monitorización</a>
     </li>
     <p>
     <p>CONEXIONES</p>
@@ -159,36 +159,36 @@ ht-degree: 100%
       <a href="using/segment/get-started-identity.md">Identidad</a>
     </li>
     <p>
-    <p>Privacidad</p>
+    <p>PRIVACIDAD</p>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es" target="_blank">Políticas</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html" target="_blank">Políticas</a>
     </li>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es"target="_blank">Solicitudes</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html"target="_blank">Solicitudes</a>
     </li>
     <p>
     <p>ADMINISTRACIÓN</p>
     <li>
-      <a href="using/configuration/about-data-sources-events-actions.md">Configuraciones </a>
+      <a href="using/configuration/about-data-sources-events-actions.md">Configuraciones</a>
     </li>
     <li>
       <a href="using/configuration/get-started-configuration.md">Canales</a>
     </li>
      <li>
-      <a href="using/administration/sandboxes.md">Zonas protegidas</a>
+      <a href="using/administration/sandboxes.md">Sandboxes</a>
     </li>
   </td>
 </tr>
 </table>
 
 
-![Newsletter](using/assets/do-not-localize/nl-icon.png) Regístrese para la [Newsletter trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} hoy!
+![Newsletter](using/assets/do-not-localize/nl-icon.png) Regístrese para [Boletín trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} hoy!
 
 Reciba las últimas actualizaciones de productos, historias interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.
 
-En cada newsletter encontrará lo siguiente:
+En cada boletín encontrará:
 * Noticias y actualizaciones de productos, incluidas las funciones lanzadas recientemente
-* Invitaciones a eventos y seminarios web y grabaciones para seminarios web recientes
-* Principales discusiones en la comunidad de Experience League de Adobe Journey Optimizer
-* Casos prácticos y casos de uso de otros clientes de Adobe Journey Optimizer
-* Sugerencias y trucos para ofrecer experiencias de cliente excepcionales que impulsen el éxito empresarial
+* Invitaciones a actos y seminarios web y grabaciones para seminarios web recientes
+* Principales discusiones en la comunidad de Adobe Journey Optimizer Experience League
+* Casos de uso y estudios de caso de otros clientes de Adobe Journey Optimizer
+* Sugerencias y trucos para ayudar a ofrecer experiencias de cliente excepcionales que impulsen el éxito empresarial

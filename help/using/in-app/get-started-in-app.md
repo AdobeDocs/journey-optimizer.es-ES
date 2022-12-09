@@ -11,7 +11,7 @@ exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 15%
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Antes de enviar mensajes en la aplicación, debe:
 
 * Configure el canal en la aplicación. [Más información](inapp-configuration.md)
 
-* Asegúrese de que tiene los permisos correctos en las campañas de Journey Optimizer antes de comenzar. [Más información](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+* Asegúrese de que tiene los permisos correctos en las campañas de Journey Optimizer antes de empezar. [Más información](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 
 Una vez finalizado, puede crear, configurar y enviar su primer mensaje en la aplicación. Aprenda a conseguirlo en [esta sección](create-in-app.md).
 

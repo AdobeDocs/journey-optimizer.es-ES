@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Informe en vivo
+title: Informe activo
 description: Aprenda a utilizar los datos del informe en directo
 feature: Reporting
 topic: Content Management
@@ -10,25 +10,25 @@ level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 6%
+source-wordcount: '987'
+ht-degree: 0%
 
 ---
 
-# Introducción al Informe en vivo {#live-report}
+# Introducción a Live Report {#live-report}
 
-Utilice la variable **[!UICONTROL Informe activo]** para medir y visualizar en tiempo real el impacto y el rendimiento de sus recorridos y mensajes en un panel integrado.
-Los datos están disponibles en la **[!UICONTROL Informe activo]** en cuanto se realiza el envío o el recorrido se ejecuta desde la **[!UICONTROL Últimas 24 horas]** pestaña .
+Utilice la variable **[!UICONTROL Live report]** para medir y visualizar en tiempo real el impacto y el rendimiento de sus recorridos y mensajes en un panel integrado.
+Los datos están disponibles en la **[!UICONTROL Live report]** en cuanto se envía la entrega o se ejecuta el recorrido desde el **[!UICONTROL Last 24hrs]** pestaña .
 
-* Si desea dirigirse a un recorrido en el contexto de un recorrido, desde la **[!UICONTROL Recorridos]** , acceda al recorrido y haga clic en el botón **[!UICONTROL Ver informe]** botón.
+* Si desea segmentar un recorrido en el contexto de un recorrido, desde el **[!UICONTROL Journeys]** , acceda al recorrido y haga clic en el botón **[!UICONTROL View report]** botón.
 
    ![](assets/report_journey.png)
 
-* Si desea dirigir una campaña, desde la **[!UICONTROL Campañas]** , acceda a la campaña y haga clic en el botón **[!UICONTROL Informes]** botón.
+* Si desea dirigir una campaña, desde la **[!UICONTROL Campaigns]** , acceda a la campaña y haga clic en el botón **[!UICONTROL Reports]** botón.
 
    ![](assets/report_campaign.png)
 
-* Si desea cambiar del **[!UICONTROL Informe global]** a **[!UICONTROL Informe activo]** para la entrega, haga clic en **[!UICONTROL Últimas 24 horas]** del conmutador de pestañas.
+* Si desea cambiar del **[!UICONTROL Global report]** a **[!UICONTROL Live report]** para la entrega, haga clic en **[!UICONTROL Last 24hrs]** del conmutador de pestañas.
 
    ![](assets/report_3.png)
 
@@ -40,11 +40,11 @@ Cada tablero de informes se puede modificar cambiando el tamaño o eliminando la
 
 1. Elija si desea excluir los eventos de prueba de los informes con la barra de alternancia. Para obtener más información sobre los eventos de prueba, consulte [esta página](../building-journeys/testing-the-journey.md).
 
-   Tenga en cuenta que **[!UICONTROL Excluir eventos de prueba]** solo está disponible para informes de Recorrido.
+   Tenga en cuenta que **[!UICONTROL Exclude test events]** solo está disponible para informes de recorrido.
 
    ![](assets/report_modify_6.png)
 
-1. Para cambiar el tamaño o eliminar widgets, haga clic en **[!UICONTROL Modificar]**.
+1. Para cambiar el tamaño o eliminar widgets, haga clic en **[!UICONTROL Modify]**.
 
    ![](assets/report_modify_7.png)
 
@@ -52,19 +52,19 @@ Cada tablero de informes se puede modificar cambiando el tamaño o eliminando la
 
    ![](assets/report_modify_8.png)
 
-1. Haga clic en **[!UICONTROL Eliminar]** para quitar cualquier utilidad que no necesite.
+1. Haga clic en **[!UICONTROL Remove]** para quitar cualquier utilidad que no necesite.
 
    ![](assets/report_modify_9.png)
 
-1. Una vez que esté satisfecho con el orden de visualización y el tamaño de sus widgets, haga clic en **[!UICONTROL Guardar]**.
+1. Una vez que esté satisfecho con el orden de visualización y el tamaño de sus widgets, haga clic en **[!UICONTROL Save]**.
 
-El tablero se ha guardado. Los diferentes cambios se volverán a aplicar para un uso posterior de los informes activos. Si es necesario, use la variable **[!UICONTROL Restablecer]** para restaurar el orden predeterminado de las utilidades y utilidades.
+El tablero se ha guardado. Los diferentes cambios se volverán a aplicar para un uso posterior de los informes activos. Si es necesario, use la variable **[!UICONTROL Reset]** para restaurar el orden predeterminado de las utilidades y utilidades.
 
 ## Lista de componentes {#list-of-components-live}
 
 Las tablas siguientes proporcionan la lista de métricas utilizadas en los informes y sus definiciones en función del tipo de envío.
 
-### Métricas de recorrido {#journey-metrics}
+### Métricas del recorrido {#journey-metrics}
 
 <table> 
  <thead> 
@@ -88,7 +88,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
 </tr> 
   <tr> 
    <td> Perfiles de salida<br/> </td> 
-   <td> Número total de personas que salieron del recorrido.<br/> </td> 
+   <td> Número total de personas que abandonaron el recorrido.<br/> </td> 
 </tr> 
   <tr> 
    <td> Error en el recorrido individual<br/> </td> 
@@ -120,7 +120,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
    <td> Número de veces que se hizo clic en un contenido en un correo electrónico.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Entregados <br/> </td> 
+   <td> Entrega <br/> </td> 
    <td> Número de mensajes enviados correctamente.<br/></td> 
 </tr> 
   <tr> 
@@ -156,7 +156,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
    <td>Porcentaje de ofertas abiertas comparadas con el número de ofertas enviadas.<br/> </td> 
 </tr>
    <tr> 
-   <td>Nombre de oferta<br/> </td> 
+   <td>Nombre de la oferta<br/> </td> 
    <td> Nombre de la oferta añadida en la entrega. Para obtener más información sobre la colocación, consulte esta <a href="../offers/offer-library/creating-personalized-offers.md">página</a>.<br/> </td> 
 </tr>
    <tr> 
@@ -180,7 +180,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
    <td> Número de correos electrónicos en cola para reintentos.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Enviados<br/> </td> 
+   <td> Enviado<br/> </td> 
    <td> Número total de envíos para la entrega.<br/> </td> 
 </tr>
   <tr> 
@@ -193,7 +193,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
 </tr>
   <tr> 
    <td> Segmentado<br/> </td> 
-   <td> Número total de mensajes procesados durante el análisis de entregas.<br/> </td> 
+   <td> Número total de mensajes procesados durante el análisis de envío.<br/> </td> 
 </tr> 
   <tr> 
    <td> Clics únicos<br/> </td> 
@@ -208,7 +208,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
    <td>Número de destinatarios que abrieron la entrega.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Bajas<br/> </td> 
+   <td> Baja de suscripciones<br/> </td> 
    <td> Número de clics en el vínculo de baja de suscripción.<br/> </td> 
 </tr> 
  </tbody> 
@@ -238,7 +238,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
    <td>Número de personas que interactuaron con la página de aterrizaje, por ejemplo, suscritas a un formulario.<br/> </td> 
 </tr>
  <tr> 
-   <td>Recorridos<br/> </td> 
+   <td>Recorrido(es)<br/> </td> 
    <td>Número de visitas a la página de aterrizaje procedentes de un recorrido.<br/> </td> 
 </tr>
  <tr> 
@@ -279,7 +279,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
    <td> Total de errores acumulados durante la entrega y el procesamiento automático de la devolución.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Entregados<br/> </td> 
+   <td> Entrega<br/> </td> 
    <td> Número de mensajes enviados correctamente.<br/> </td> 
 </tr> 
   <tr> 
@@ -299,7 +299,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
    <td> Número total de notificaciones push enviadas al dispositivo y en las que los usuarios han hecho clic para abrir la aplicación. Esto es similar al clic push , excepto que no se activará un push Open si se descarta la notificación.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Enviados<br/> </td> 
+   <td> Enviado<br/> </td> 
    <td> Número total de envíos para la entrega.<br/> </td> 
 </tr> 
   <tr> 

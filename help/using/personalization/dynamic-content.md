@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 1%
+source-wordcount: '524'
+ht-degree: 0%
 
 ---
 
 # Crear contenido dinámico {#dynamic-content}
 
-Adobe Journey Optimizer le permite aprovechar las reglas condicionales creadas en la biblioteca para añadir contenido dinámico a los mensajes.
+Adobe Journey Optimizer permite aprovechar las reglas condicionales creadas en la biblioteca para añadir contenido dinámico a los mensajes.
 
 Se puede crear contenido dinámico en cualquier campo en el que se pueda añadir personalización mediante el Editor de expresiones. Esto incluye la línea de asunto, los vínculos, el contenido de las notificaciones push o las representaciones de ofertas de tipo texto. [Más información sobre los contextos de personalización](personalization-contexts.md)
 
@@ -29,9 +29,9 @@ Los pasos para agregar contenido dinámico en expresiones son los siguientes:
 
 1. Vaya al campo en el que desea agregar contenido dinámico y, a continuación, abra el Editor de expresiones.
 
-1. Seleccione el **[!UICONTROL Condiciones]** para mostrar la lista de reglas condicionales disponibles. Haga clic en el botón + situado junto a una regla para agregarla a la expresión actual.
+1. Seleccione el **[!UICONTROL Conditions]** para mostrar la lista de reglas condicionales disponibles. Haga clic en el botón + situado junto a una regla para agregarla a la expresión actual.
 
-   También puede crear una regla nueva seleccionando **[!UICONTROL Crear nuevo]**. [Aprenda a crear condiciones](create-conditions.md)
+   También puede crear una regla nueva seleccionando **[!UICONTROL Create new]**. [Aprenda a crear condiciones](create-conditions.md)
 
    ![](assets/conditions-expression.png)
 
@@ -41,7 +41,7 @@ Los pasos para agregar contenido dinámico en expresiones son los siguientes:
 
    ![](assets/conditions-language-sample.png)
 
-1. Una vez que el contenido esté listo, puede obtener una vista previa de las diferentes variantes utilizando la variable **[!UICONTROL Simular contenido]** botón. [Obtenga información sobre cómo probar y previsualizar mensajes](../email/preview.md)
+1. Una vez que el contenido esté listo, puede obtener una vista previa de las diferentes variantes utilizando la variable **[!UICONTROL Simulate content]** botón. [Obtenga información sobre cómo probar y previsualizar mensajes](../email/preview.md)
 
    ![](assets/conditions-preview.png)
 
@@ -59,13 +59,13 @@ Los pasos para agregar contenido dinámico en expresiones son los siguientes:
 
 Los pasos para crear variantes de un componente de contenido en el Diseñador de correo electrónico son los siguientes:
 
-1. En el Diseñador de correo electrónico, seleccione un componente de contenido y haga clic en **[!UICONTROL Habilitar contenido condicional]**.
+1. En el Diseñador de correo electrónico, seleccione un componente de contenido y haga clic en **[!UICONTROL Enable conditional content]**.
 
    ![](assets/conditions-enable-conditional.png)
 
-1. La variable **[!UICONTROL Contenido condicional]** en la parte izquierda. En este panel, puede crear varias variantes del componente de contenido seleccionado mediante condiciones.
+1. La variable **[!UICONTROL Conditional Content]** en la parte izquierda. En este panel, puede crear varias variantes del componente de contenido seleccionado mediante condiciones.
 
-   Configure la primera variante seleccionando la **[!UICONTROL Condición de aplicación]** botón.
+   Configure la primera variante seleccionando la **[!UICONTROL Apply condition]** botón.
 
    ![](assets/conditions-apply.png)
 
@@ -73,7 +73,7 @@ Los pasos para crear variantes de un componente de contenido en el Diseñador de
 
    ![](assets/conditions-select.png)
 
-   También puede crear una regla nueva haciendo clic en **[!UICONTROL Crear nuevo]**. [Aprenda a crear condiciones](create-conditions.md)
+   También puede crear una regla nueva haciendo clic en **[!UICONTROL Create new]**. [Aprenda a crear condiciones](create-conditions.md)
 
 1. La regla condicional está asociada a la variante . Para mejorar la legibilidad, se recomienda cambiar el nombre de la variante haciendo clic en el menú elipse .
 
@@ -84,6 +84,6 @@ Los pasos para crear variantes de un componente de contenido en el Diseñador de
 1. Añada tantas variantes como sea necesario para el componente de contenido. Puede cambiar en cualquier momento entre las diferentes variantes para comprobar cómo se mostrará el componente de contenido en función de las reglas condicionales.
 
    >[!NOTE]
-   >Si no se cumple ninguna de las reglas definidas en las variantes al enviar el mensaje, el componente de contenido mostrará el contenido definido en la variable **[!UICONTROL Variante predeterminada]**.
+   >Si no se cumple ninguna de las reglas definidas en las variantes al enviar el mensaje, el componente de contenido mostrará el contenido definido en la variable **[!UICONTROL Default variant]**.
    >
    >El contenido condicional se evaluará con respecto a las reglas asociadas en el orden en que se muestran las variantes. La variante predeterminada siempre se muestra si no se cumplen otras condiciones.

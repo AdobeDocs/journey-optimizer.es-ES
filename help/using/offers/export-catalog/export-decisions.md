@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 3%
+source-wordcount: '1524'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ El lote correcto más reciente del conjunto de datos se muestra a la derecha. La
 >
 >Obtenga información sobre cómo acceder a los conjuntos de datos exportados para cada objeto de la biblioteca de ofertas en [esta sección](../export-catalog/access-dataset.md).
 
-Esta es la lista de todos los campos que se pueden utilizar en la variable **[!UICONTROL Repositorio de objetos de decisión: decisiones]** conjunto de datos (anteriormente conocido como Repositorio de objetos de decisión - Actividades).
+Esta es la lista de todos los campos que se pueden utilizar en la variable **[!UICONTROL Decision Object Repository - Decisions]** conjunto de datos (anteriormente conocido como Repositorio de objetos de decisión - Actividades).
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
 
@@ -34,9 +34,9 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 **Campo:** _id
 **Título:** Identificador
 **Descripción:** Identificador único del registro.
-**Tipo:** cadena
+**Tipo:** string
 
-## _experiencia {#experience}
+## _experience {#experience}
 
 **Campo:** _experience
 **Tipo:** object
@@ -58,7 +58,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 **Campo:** descripción
 **Título:** Descripción
 **Descripción:** Descripción del criterio. Se utiliza para transmitir intenciones legibles sobre cómo o por qué se construyó este criterio y cómo está afectando a la decisión.
-**Tipo:** cadena
+**Tipo:** string
 
 **_experience > decisioning > criteria > optionSelection**
 
@@ -72,21 +72,21 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
    **Campo:** descripción
    **Título:** Descripción
    **Descripción:** Descripción de la selección de opciones. Se utiliza para transmitir intenciones legibles sobre cómo o por qué se creó esta selección de opciones y/o qué opción coincidirá.
-   **Tipo:** cadena
+   **Tipo:** string
 
 * **Filtro de opciones**
 
    **Campo:** filter
    **Título:** Filtro de opciones
    **Descripción:** La referencia a un filtro basado en etiquetas que coincida con las opciones de un inventario mediante sus etiquetas adjuntas. El valor es el URI (@id) de la regla de decisión a la que se hace referencia. Consulte esquema https://ns.adobe.com/experience/decisioning/filter.
-   **Tipo:** cadena
+   **Tipo:** string
 
 * **Tipo de restricción de perfil**
 
    **Campo:** optionSelectionType
    **Título:** Tipo de restricción de perfil
    **Descripción:** Determina si hay restricciones establecidas actualmente y cómo se expresan. Puede ser a través de una consulta de filtro o a través de una o más suscripciones a segmentos.
-   **Tipo:** cadena
+   **Tipo:** string
    **Valores posibles:** &quot;none&quot; (predeterminado), &quot;directList&quot;, &quot;filter&quot;
 
 * **Lista de opciones**
@@ -109,7 +109,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 
    **Título:** Identificador de colocación
    **Descripción:** Referencia a una entidad de colocación. El valor es el URI (@id) de la ubicación a la que se hace referencia. Consulte esquema https://ns.adobe.com/experience/decisioning/placement.
-   **Tipo:** cadena
+   **Tipo:** string
 
 **_experience > decisiones > criterios > profileConstraints**
 
@@ -123,21 +123,21 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
    **Campo:** descripción
    **Título:** Descripción
    **Descripción:** Descripción de restricción de perfil. Se utiliza para transmitir intenciones legibles sobre cómo o por qué se construyó esta restricción de perfil y/o qué opción incluirá o excluirá.
-   **Tipo:** cadena
+   **Tipo:** string
 
 * **_experience > decisiones > criterios > profileConstraints > Regla de elegibilidad**
 
    **Campo:** eligibilityRule
    **Título:** Regla de elegibilidad
    **Descripción:** Referencia a una regla de decisión que se evalúa como true o false para un perfil determinado u otros objetos XDM contextuales dados. La regla se utiliza para decidir si la opción cumple los requisitos de un perfil determinado. El valor es el URI (@id) de la regla de decisión a la que se hace referencia. Consulte esquema https://ns.adobe.com/experience/decisioning/rule.
-   **Tipo:** cadena
+   **Tipo:** string
 
 * **_experience > decisioning > criteria > profileConstraints > Tipo de restricción de perfil**
 
    **Campo:** profileConstraintType
    **Título:** Tipo de restricción de perfil
    **Descripción:** Determina si hay restricciones establecidas actualmente y cómo se expresan. Podría ser a través de una regla o a través de una o más suscripciones a segmentos.
-   **Tipo:** cadena
+   **Tipo:** string
    **Valores posibles:**
    * &quot;none&quot; (predeterminado)
    * &quot;eligibilityRule&quot;: &quot;La restricción de perfil se expresa como una regla única que debe evaluarse como verdadera antes de permitir la acción restringida.&quot;
@@ -157,7 +157,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
       **Campo:** _id
       **Título:** Identificador
       **Descripción:** Identidad del segmento en el área de nombres relacionada.
-      **Tipo:** cadena
+      **Tipo:** string
 
    * **namespace**
 
@@ -172,13 +172,13 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
          **Campo:** code
          **Título:** Código
          **Descripción:** El código es un identificador legible por humanos para el área de nombres y se puede utilizar para solicitar el id de área de nombres técnica que se utiliza para el procesamiento de gráficos de identidad.
-         **Tipo:** cadena
+         **Tipo:** string
    * **Identificador de experiencia**
 
       **Campo:** xid
       **Título:** Identificador de experiencia
       **Descripción:** Cuando está presente, este valor representa un identificador de área de nombres cruzada que es único en todos los identificadores de ámbito de área de nombres en todos los espacios de nombres.
-      **Tipo:** cadena
+      **Tipo:** string
 
 
 **_experiencia > decisiones > criterios > clasificación**
@@ -200,14 +200,14 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
       **Campo:** function
       **Título:** Función de puntuación
       **Descripción:** Referencia a una función que calcula una puntuación numérica para esta opción de decisión. Las opciones de decisión se ordenarán (clasificarán) según esa puntuación. El valor de esta propiedad es el URI (@id) de la función que se va a invocar con la opción on a la vez. Consulte esquema https://ns.adobe.com/experience/decisioning/function.
-      **Tipo:** cadena
+      **Tipo:** string
 
    * **Tipo de evaluación de pedido**
 
       **Campo:** orderEvaluationType
       **Título:** Tipo de evaluación de pedido
       **Descripción:** Especifica qué mecanismo de evaluación de pedidos se utiliza, prioridad estática de las opciones de decisión, función de puntuación que calcula un valor numérico para cada opción o estrategia de clasificación que recibe una lista para solicitarla.
-      **Tipo:** cadena
+      **Tipo:** string
       **Valores posibles:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
    * **Estrategia de clasificación**
@@ -215,7 +215,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
       **Campo:** rankingStrategy
       **Título:** Estrategia de clasificación
       **Descripción:** Referencia a una estrategia que clasifica una opción de lista de decisiones. Las opciones de decisión se devolverán en una lista ordenada. El valor de esta propiedad es el URI (@id) de la función que se va a invocar con la opción on a la vez. Consulte esquema https://ns.adobe.com/experience/decisioning/rankingStrategy.
-      **Tipo:** cadena
+      **Tipo:** string
 
 * **_experience > decisiones > criterios > clasificación > Prioridad**
 
@@ -231,28 +231,28 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 **Campo:** endTime
 **Título:** Fecha y hora de finalización de la actividad
 **Descripción:** Fecha de finalización y hora de finalización de la decisión (anteriormente conocida como actividad). La propiedad tiene la semántica de la propiedad &#39;endTime&#39; de schema.org definida en http://schema.org/Action.
-**Tipo:** cadena
+**Tipo:** string
 
 #### _experience > decisioning > Opción de reserva
 
 **Campo:** reserva
 **Título:** Opción de reserva
 **Descripción:** La referencia a una opción de reserva que se utiliza al tomar decisiones en el contexto de esta decisión no califica ninguna de las opciones normales (esto suele ocurrir cuando se aplican restricciones duras). El valor es el URI (@id) de la opción de reserva a la que se hace referencia.
-**Tipo:** cadena
+**Tipo:** string
 
 #### _experience > decisiones > Nombre de la actividad
 
 **Campo:** name
 **Título:** Nombre de la actividad
 **Descripción:** Nombre de decisión (anteriormente conocido como actividad) que se muestra en varias interfaces de usuario.
-**Tipo:** cadena
+**Tipo:** string
 
 #### _experience > decisiones > Fecha y hora de inicio de la actividad
 
 **Campo:** startTime
 **Título:** Fecha y hora de inicio de la actividad
 **Descripción:** La decisión (anteriormente conocida como actividad) es la fecha de inicio y la hora de finalización. La propiedad tiene la semántica de la propiedad &#39;startTime&#39; de schema.org definida en http://schema.org/Action.
-**Tipo:** cadena
+**Tipo:** string
 
 ## _repo {#repo}
 
@@ -264,4 +264,4 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 **Campo:** etiqueta
 **Título:** ETG de actividad
 **Descripción:** Revisión en la que se encontraba el objeto de decisión (anteriormente conocido como actividad) cuando se tomó la instantánea.
-**Tipo:** cadena
+**Tipo:** string

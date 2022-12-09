@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ limit 100;
 
 _Nombre en la interfaz: Conjunto de datos del evento de comentarios de mensajes CJM_
 
-Conjunto de datos para la ingesta de correos electrónicos y eventos de comentarios de aplicaciones push desde Journey Optimizer.
+Conjunto de datos para la ingesta de eventos de comentarios de aplicaciones push y de correo electrónico desde Journey Optimizer.
 
 El esquema relacionado es Esquema de eventos de comentarios de mensajes CJM.
 
@@ -164,11 +164,11 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
 
 ## Evento de paso de recorrido{#journey-step-event}
 
-_Nombre interno: Eventos de paso de recorrido (conjunto de datos del sistema)_
+_Nombre interno: Eventos de paso del recorrido (conjunto de datos del sistema)_
 
 Conjunto de datos para la ingesta de eventos de paso en el recorrido.
 
-El esquema relacionado es Recorrido Step Event schema for Journey Orchestration.
+El esquema relacionado es Journey Step Event schema para Journey Orchestration.
 
 Esta consulta muestra el desglose de recuentos de éxito de acción por etiqueta de acción para un recorrido determinado:
 
@@ -314,7 +314,7 @@ Conjunto de datos para almacenar metadatos de entidad para mensajes enviados al 
 
 El esquema relacionado es AJO Entity Schema.
 
-Este conjunto de datos le permite acceder a metadatos definidos por expertos en marketing, lo que le permite obtener mejores perspectivas de informes cuando se exportan conjuntos de datos de Journey Optimizer para crear informes de visualización en herramientas externas. Esto se logra mediante el atributo messageID , que ayuda a unir varios conjuntos de datos, como conjuntos de datos de comentarios de mensajes y conjuntos de datos de seguimiento de eventos de experiencia, para obtener detalles de un envío de mensajes desde el envío al seguimiento a nivel de perfil.
+Este conjunto de datos le permite acceder a metadatos definidos por expertos en marketing, lo que le permite obtener mejores perspectivas de informes cuando los conjuntos de datos de Journey Optimizer se exportan para crear informes de visualización en herramientas externas. Esto se logra mediante el atributo messageID , que ayuda a unir varios conjuntos de datos, como conjuntos de datos de comentarios de mensajes y conjuntos de datos de seguimiento de eventos de experiencia, para obtener detalles de un envío de mensajes desde el envío al seguimiento a nivel de perfil.
 
 **Notas importantes**
 
@@ -338,7 +338,7 @@ from
     WHERE AE._experience.customerJourneyManagement.entities.campaign.campaignVersionID = 'd7a01136-b113-4ef2-8f59-b6001f7eef6e'
 ```
 
-La siguiente consulta ayuda a obtener el asunto Detalles del Recorrido y del correo electrónico asociado con todos los eventos de comentarios:
+La siguiente consulta ayuda a obtener el asunto Detalles del recorrido y del correo electrónico asociado con todos los eventos de comentarios:
 
 ```sql
 SELECT 
@@ -355,7 +355,7 @@ WHERE
   AND AE._experience.customerJourneyManagement.entities.journey.journeyVersionID IS NOT NULL
 ```
 
-Puede unir eventos de paso de recorrido, comentarios de mensaje y conjuntos de datos de seguimiento para obtener las estadísticas de un perfil en particular:
+Puede unir eventos de paso del recorrido, comentarios de mensaje y conjuntos de datos de seguimiento para obtener las estadísticas de un perfil en particular:
 
 ```sql
 SELECT 

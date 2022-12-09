@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 5%
+source-wordcount: '1003'
+ht-degree: 0%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_configuration"
 >title="Acciones personalizadas"
->abstract="Si utiliza un sistema de terceros para enviar mensajes o si desea que los recorridos envíen llamadas de API a un sistema de terceros, utilice acciones personalizadas para configurar su conexión con el recorrido. Por ejemplo, puede conectarse a los siguientes sistemas con acciones personalizadas: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com/), Firebase, etc."
+>abstract="Si utiliza un sistema de terceros para enviar mensajes o si desea que los recorridos envíen llamadas de API a un sistema de terceros, utilice acciones personalizadas para configurar su conexión al recorrido. Por ejemplo, puede conectarse a los siguientes sistemas con acciones personalizadas: Epsilon, Slack, [Desarrollador de Adobe](https://developer.adobe.com), Firebase, etc."
 
-Si utiliza un sistema de terceros para enviar mensajes o si desea que los recorridos envíen llamadas de API a un sistema de terceros, utilice acciones personalizadas para configurar su conexión con el recorrido. Por ejemplo, puede conectarse a los siguientes sistemas con acciones personalizadas: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}, Firebase, etc.
+Si utiliza un sistema de terceros para enviar mensajes o si desea que los recorridos envíen llamadas de API a un sistema de terceros, utilice acciones personalizadas para configurar su conexión al recorrido. Por ejemplo, puede conectarse a los siguientes sistemas con acciones personalizadas: Epsilon, Slack, [Desarrollador de Adobe](https://developer.adobe.com){target=&quot;_blank&quot;}, Firebase, etc.
 
-Las acciones personalizadas son acciones adicionales definidas por usuarios técnicos y que se ponen a disposición de los especialistas en marketing. Una vez configurados, aparecen en la paleta izquierda del recorrido, en la **[!UICONTROL Acción]** categoría. Obtenga más información en [esta página](../building-journeys/about-journey-activities.md#action-activities).
+Las acciones personalizadas son acciones adicionales definidas por usuarios técnicos y que se ponen a disposición de los especialistas en marketing. Una vez configurados, aparecen en la paleta izquierda del recorrido, en la **[!UICONTROL Action]** categoría. Obtenga más información en [esta página](../building-journeys/about-journey-activities.md#action-activities).
 
 ## Limitaciones{#custom-actions-limitations}
 
@@ -36,7 +36,7 @@ Tenga en cuenta también que los parámetros de acciones personalizadas tienen u
 
 ## Consentimiento y control de datos {#privacy}
 
-En Journey Optimizer, puede aplicar políticas de control y consentimiento de datos a sus acciones personalizadas para evitar que campos específicos se exporten a sistemas de terceros o excluir a clientes que no hayan aceptado recibir comunicaciones por correo electrónico, push o SMS. Para obtener más información, consulte las páginas siguientes:
+En Journey Optimizer, puede aplicar políticas de consentimiento y control de datos a sus acciones personalizadas para evitar que campos específicos se exporten a sistemas de terceros o excluir a clientes que no hayan aceptado recibir comunicaciones por correo electrónico, push o SMS. Para obtener más información, consulte las páginas siguientes:
 
 * [Administración de datos](../action/action.md).
 * [Consentimiento](../action/action.md).
@@ -46,7 +46,7 @@ En Journey Optimizer, puede aplicar políticas de control y consentimiento de da
 
 Estos son los pasos principales necesarios para configurar una acción personalizada:
 
-1. En la sección del menú ADMINISTRACIÓN , seleccione **[!UICONTROL Configuraciones]**. En el  **[!UICONTROL Acciones]** , haga clic en **[!UICONTROL Administrar]**. Haga clic en **[!UICONTROL Crear acción]** para crear una nueva acción. El panel de configuración de acciones se abre en el lado derecho de la pantalla.
+1. En la sección del menú ADMINISTRACIÓN , seleccione **[!UICONTROL Configurations]**. En el  **[!UICONTROL Actions]** , haga clic en **[!UICONTROL Manage]**. Haga clic en **[!UICONTROL Create Action]** para crear una nueva acción. El panel de configuración de acciones se abre en el lado derecho de la pantalla.
 
    ![](assets/custom2.png)
 
@@ -57,21 +57,21 @@ Estos son los pasos principales necesarios para configurar una acción personali
    >No utilice espacios ni caracteres especiales. No utilice más de 30 caracteres.
 
 1. Añada una descripción a la acción. Este paso es opcional.
-1. El número de recorridos que utilizan esta acción se muestra en la **[!UICONTROL Se usa en]** campo . Puede hacer clic en el botón **[!UICONTROL Ver recorridos]** para mostrar la lista de recorridos que utilizan esta acción.
-1. Defina los diferentes **[!UICONTROL Configuración de URL]** parámetros. Consulte [esta página](../action/about-custom-action-configuration.md#url-configuration).
-1. Configure las variables **[!UICONTROL Autenticación]** para obtener más información. Esta configuración es la misma que para las fuentes de datos.  Consulte [esta sección](../datasource/external-data-sources.md#custom-authentication-mode).
-1. Defina el **[!UICONTROL Parámetros de acción]**. Consulte [esta página](../action/about-custom-action-configuration.md#define-the-message-parameters).
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. El número de recorridos que utiliza esta acción se muestra en la variable **[!UICONTROL Used in]** campo . Puede hacer clic en el botón **[!UICONTROL View journeys]** para mostrar la lista de recorridos con esta acción.
+1. Defina los diferentes **[!UICONTROL URL Configuration]** parámetros. Consulte [esta página](../action/about-custom-action-configuration.md#url-configuration).
+1. Configure las variables **[!UICONTROL Authentication]** para obtener más información. Esta configuración es la misma que para las fuentes de datos.  Consulte [esta sección](../datasource/external-data-sources.md#custom-authentication-mode).
+1. Defina el **[!UICONTROL Action parameters]**. Consulte [esta página](../action/about-custom-action-configuration.md#define-the-message-parameters).
+1. Haga clic en **[!UICONTROL Save]**.
 
    La acción personalizada ahora está configurada y lista para utilizarse en sus recorridos. Consulte [esta página](../building-journeys/about-journey-activities.md#action-activities).
 
    >[!NOTE]
    >
-   >Cuando se utiliza una acción personalizada en un recorrido, la mayoría de los parámetros son de solo lectura. Solo puede modificar el **[!UICONTROL Nombre]**, **[!UICONTROL Descripción]**, **[!UICONTROL URL]** y **[!UICONTROL Autenticación]** para obtener más información.
+   >Cuando se utiliza una acción personalizada en un recorrido, la mayoría de los parámetros son de solo lectura. Solo puede modificar el **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** y **[!UICONTROL Authentication]** para obtener más información.
 
 ## Configuración de URL {#url-configuration}
 
-Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL Configuración de URL]** parámetros:
+Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL URL Configuration]** parámetros:
 
 ![](assets/journeyurlconfiguration.png)
 
@@ -90,29 +90,29 @@ Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL
    >
    >Solo se permiten los puertos predeterminados al definir una acción personalizada: 80 para http y 443 para https.
 
-1. Seleccione la llamada **[!UICONTROL Método]**: puede ser **[!UICONTROL POST]** o **[!UICONTROL PUT]**.
+1. Seleccione la llamada **[!UICONTROL Method]**: puede ser **[!UICONTROL POST]** o **[!UICONTROL PUT]**.
 
    >[!NOTE]
    >
-   > La variable **DELETE** no es compatible. Si necesita actualizar un recurso existente, seleccione la opción **PUT** método.
+   > La variable **ELIMINAR** no es compatible. Si necesita actualizar un recurso existente, seleccione la opción **PUT** método.
 
-1. En el **[!UICONTROL Encabezados]** , defina los encabezados HTTP del mensaje de solicitud que se enviarán al servicio externo:
-   1. Para añadir un campo de encabezado, haga clic en **[!UICONTROL Añadir un campo de encabezado]**.
+1. En el **[!UICONTROL Headers]** , defina los encabezados HTTP del mensaje de solicitud que se enviarán al servicio externo:
+   1. Para añadir un campo de encabezado, haga clic en **[!UICONTROL Add a header field]**.
    1. Introduzca la clave del campo de encabezado.
-   1. Para establecer un valor dinámico para el par clave-valor, seleccione **[!UICONTROL Variable]**. De lo contrario, seleccione **[!UICONTROL Constante]**.
+   1. Para establecer un valor dinámico para el par clave-valor, seleccione **[!UICONTROL Variable]**. De lo contrario, seleccione **[!UICONTROL Constant]**.
 
       Por ejemplo, para una marca de tiempo, puede establecer un valor dinámico.
 
-   1. Si ha seleccionado **[!UICONTROL Constante]** y, a continuación, introduzca el valor constante.
+   1. Si ha seleccionado **[!UICONTROL Constant]** y, a continuación, introduzca el valor constante.
 
       Si ha seleccionado **[!UICONTROL Variable]**, especificará esta variable al agregar la acción personalizada a un recorrido. [Más información](../building-journeys/using-custom-actions.md).
 
       ![](assets/journeyurlconfiguration2.png)
 
-   1. Para eliminar un campo de encabezado, elija el campo de encabezado y haga clic en el botón **[!UICONTROL Eliminar]** icono.
+   1. Para eliminar un campo de encabezado, elija el campo de encabezado y haga clic en el botón **[!UICONTROL Delete]** icono.
    La variable **[!UICONTROL Content-Type]** y **[!UICONTROL Charset]** los campos de encabezado se establecen de forma predeterminada. Estos campos no se pueden modificar ni eliminar.
 
-   Después de agregar la acción personalizada a un recorrido, puede agregarle campos de encabezado si el recorrido está en estado de borrador. Si no desea que el recorrido se vea afectado por los cambios de configuración, duplique la acción personalizada y añada los campos del encabezado a la nueva acción personalizada.
+   Después de agregar la acción personalizada a un recorrido, puede agregarle campos de encabezado si el recorrido está en estado de borrador. Si no desea que los cambios de configuración afecten al recorrido, duplique la acción personalizada y añada los campos del encabezado a la nueva acción personalizada.
 
    >[!NOTE]
    >
@@ -122,7 +122,7 @@ Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL
 
 ![](assets/messageparameterssection.png)
 
-En el **[!UICONTROL Parámetros de acción]** , pegue un ejemplo de la carga útil JSON para enviarla al servicio externo.
+En el **[!UICONTROL Action parameters]** , pegue un ejemplo de la carga útil JSON para enviarla al servicio externo.
 
 ![](assets/customactionpayloadmessage.png)
 

@@ -9,7 +9,7 @@ exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Lista
 |-----------|------------------|------------------|
 | listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Lista para ordenar. Para listObject, debe ser una referencia de campo. |
 | keyAttributeName | string | Este parámetro solo es para listObject. El nombre de atributo de los objetos de la lista dada se utiliza como clave para la ordenación. |
-| sortingOrder | Booleano | Ascendente (true) o descendente (false) |
+| sortingOrder | booleano | Ascendente (true) o descendente (false) |
 
 ## Firma y tipo devuelto
 

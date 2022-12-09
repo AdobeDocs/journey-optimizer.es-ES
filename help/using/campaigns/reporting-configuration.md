@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configurar los informes de Journey Optimizer para la experimentación
-description: Obtenga información sobre cómo configurar una fuente de datos de creación de informes
+description: Obtenga información sobre cómo configurar una fuente de datos de informes
 feature: Data Sources
 topic: Administration
 role: Admin
@@ -12,8 +12,8 @@ hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 29%
+source-wordcount: '663'
+ht-degree: 0%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
->title="Configuración de conjuntos de datos para creación de informes"
->abstract="La configuración de informes permite recuperar métricas adicionales que se utilizarán en la pestaña Objetivos de los informes de campaña. Debe realizarla un usuario técnico."
+>title="Configuración de conjuntos de datos para informes"
+>abstract="La configuración de informes permite recuperar métricas adicionales que se utilizarán en la pestaña Objetivos de los informes de campaña. Debe realizarlo un usuario técnico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
->title="Selección de un conjunto de datos"
+>title="Seleccionar un conjunto de datos"
 >abstract="Solo puede seleccionar un conjunto de datos de tipo evento, que debe contener al menos uno de los grupos de campos admitidos: Detalles De La Aplicación, Detalles De Comercio, Detalles Web."
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
-La configuración de la fuente de datos de informes permite recuperar métricas adicionales que se utilizarán en la variable **[!UICONTROL Objetivos]** de los informes de campaña. [Más información](content-experiment.md#objectives-global)
+La configuración de la fuente de datos de informes permite recuperar métricas adicionales que se utilizarán en la variable **[!UICONTROL Objectives]** de los informes de campaña. [Más información](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >
@@ -46,11 +46,11 @@ Para esta configuración, debe agregar uno o más conjuntos de datos que conteng
 ## Requisitos previos
 
 
-Antes de poder agregar un conjunto de datos a la configuración de informes, debe crear ese conjunto de datos. Obtenga más información en la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es#create){target=&quot;_blank&quot;}.
+Antes de poder agregar un conjunto de datos a la configuración de informes, debe crear ese conjunto de datos. Obtenga información sobre cómo en la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#create){target=&quot;_blank&quot;}.
 
 * Solo puede agregar conjuntos de datos de tipo de evento.
 
-* Estos conjuntos de datos deben contener al menos uno de los siguientes [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target=&quot;_blank&quot;}: **Detalles de la aplicación**, **Detalles del comercio**, **Detalles web**.
+* Estos conjuntos de datos deben contener al menos uno de los siguientes [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;}: **Detalles de la aplicación**, **Detalles del comercio**, **Detalles web**.
 
    >[!NOTE]
    >
@@ -66,11 +66,11 @@ Antes de poder agregar un conjunto de datos a la configuración de informes, deb
 
 >[!NOTE]
 >
->Obtenga más información sobre los esquemas XDM y los grupos de campos en la [Documentación de información general del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target=&quot;_blank&quot;}.
+>Obtenga más información sobre los esquemas XDM y los grupos de campos en la [Documentación de información general del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en){target=&quot;_blank&quot;}.
 
 ## Objetivos correspondientes a cada grupo de campos {#objective-list}
 
-La tabla siguiente muestra qué métricas se agregarán al **[!UICONTROL Objetivos]** de los informes de campaña para cada grupo de campos.
+La tabla siguiente muestra qué métricas se agregarán al **[!UICONTROL Objectives]** de los informes de campaña para cada grupo de campos.
 
 | Grupo de campos | Objetivos |
 |--- |--- |
@@ -80,21 +80,21 @@ La tabla siguiente muestra qué métricas se agregarán al **[!UICONTROL Objetiv
 
 ## Agregar conjuntos de datos {#add-datasets}
 
-1. En el **[!UICONTROL ADMINISTRACIÓN]** seleccione **[!UICONTROL Configuraciones]**. En el  **[!UICONTROL Informes]** , haga clic en **[!UICONTROL Administrar]**.
+1. En el **[!UICONTROL ADMINISTRATION]** seleccione **[!UICONTROL Configurations]**. En el  **[!UICONTROL Reporting]** , haga clic en **[!UICONTROL Manage]**.
 
    ![](assets/reporting-config-menu.png)
 
-   Se muestra la lista de conjuntos de datos que ya se han añadido.
+   Se muestra la lista de conjuntos de datos que ya se han agregado.
 
-1. En el **[!UICONTROL Conjunto de datos]** , haga clic en **[!UICONTROL Agregar conjunto de datos]**.
+1. En el **[!UICONTROL Dataset]** , haga clic en **[!UICONTROL Add dataset]**.
 
    ![](assets/reporting-config-add.png)
 
    >[!NOTE]
    >
-   >Si selecciona la opción **[!UICONTROL Conjunto de datos del sistema]** , solo se muestran los conjuntos de datos creados por el sistema. No podrá añadir otros.
+   >Si selecciona la opción **[!UICONTROL System dataset]** , solo se muestran los conjuntos de datos creados por el sistema. No podrá agregar otros conjuntos de datos.
 
-1. En el **[!UICONTROL Conjunto de datos]** lista desplegable, seleccione el conjunto de datos que desee usar para sus informes.
+1. En el **[!UICONTROL Dataset]** lista desplegable, seleccione el conjunto de datos que desee usar para sus informes.
 
    >[!CAUTION]
    >
@@ -102,9 +102,9 @@ La tabla siguiente muestra qué métricas se agregarán al **[!UICONTROL Objetiv
 
    ![](assets/reporting-config-datasets.png)
 
-   Obtenga más información sobre los conjuntos de datos en la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es){target=&quot;_blank&quot;}.
+   Obtenga más información sobre los conjuntos de datos en la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
 
-1. En el **[!UICONTROL ID de perfil]** en la lista desplegable, seleccione el atributo de campo del conjunto de datos que se utilizará para identificar cada perfil en los informes.
+1. En el **[!UICONTROL Profile ID]** en la lista desplegable, seleccione el atributo de campo del conjunto de datos que se utilizará para identificar cada perfil en los informes.
 
    ![](assets/reporting-config-profile-id.png)
 
@@ -112,25 +112,25 @@ La tabla siguiente muestra qué métricas se agregarán al **[!UICONTROL Objetiv
    >
    >Solo se muestran los ID disponibles para la creación de informes.
 
-1. La variable **[!UICONTROL Usar área de nombres de ID principal]** está activada de forma predeterminada. Si el **[!UICONTROL ID de perfil]** es **[!UICONTROL Mapa de identidad]**, puede desactivar esta opción y elegir otro espacio de nombres en la lista desplegable que se muestra.
+1. La variable **[!UICONTROL Use Primary ID namespace]** está activada de forma predeterminada. Si el **[!UICONTROL Profile ID]** es **[!UICONTROL Identity Map]**, puede desactivar esta opción y elegir otro espacio de nombres en la lista desplegable que se muestra.
 
    ![](assets/reporting-config-namespace.png)
 
-   Obtenga más información acerca de las áreas de nombres en la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es){target=&quot;_blank&quot;}.
+   Obtenga más información sobre las áreas de nombres en la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target=&quot;_blank&quot;}.
 
-1. Guarde los cambios para añadir el conjunto de datos seleccionado a la lista de configuración de creación de informes.
+1. Guarde los cambios para agregar el conjunto de datos seleccionado a la lista de configuración de informes.
 
    >[!CAUTION]
    >
    >Si seleccionó un conjunto de datos que no es de tipo de evento, no podrá continuar.
 
-Al crear los informes de campaña, ahora puede ver las métricas correspondientes a los grupos de campos utilizados en los conjuntos de datos agregados. Vaya a la **[!UICONTROL Objetivos]** y seleccione las métricas que desee para ajustar mejor los informes. [Más información](content-experiment.md#objectives-global)
+Al crear los informes de campaña, ahora puede ver las métricas correspondientes a los grupos de campos utilizados en los conjuntos de datos agregados. Vaya a la **[!UICONTROL Objectives]** y seleccione las métricas que desee para ajustar mejor los informes. [Más información](content-experiment.md#objectives-global)
 
 ![](assets/reporting-config-objectives.png)
 
 >[!NOTE]
 >
->Si añade varios conjuntos de datos, los datos de todos ellos estarán disponibles para la creación de informes.
+>Si agrega varios conjuntos de datos, todos los datos de todos los conjuntos de datos estarán disponibles para el sistema de informes.
 
 <!--
 ## How-to video {#video}

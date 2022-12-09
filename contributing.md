@@ -1,46 +1,47 @@
 ---
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 0%
 
 ---
 # Contribución
 
 ¡Gracias por contribuir!
 
-A continuación se proporciona un conjunto de directrices que se deben seguir al contribuir en este proyecto.
+A continuación se muestra un conjunto de directrices que se deben seguir al contribuir a este proyecto.
 
 ## Código de conducta
 
-Este proyecto se adhiere al [código de conducta](code-of-conduct.md) de Adobe. Al participar, se espera que respete este código. Informe de cualquier comportamiento inaceptable en la dirección [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Este proyecto se adhiere a Adobe [código de conducta](code-of-conduct.md). Al participar, se espera que respete este código. Informe de comportamientos inaceptables a
+[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Documentación de la Guía del colaborador
 
-Consulte la [Guía de colaborador](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=es).
+Consulte la [Guía del colaborador](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
-## ¿Tiene alguna pregunta?
+## ¿Tiene una pregunta?
 
-Comience por enviar un problema. Los supervisores de este proyecto trabajan para alcanzar un consenso en torno a la dirección del proyecto y las soluciones de los problemas dentro de los hilos de los problemas (cuando corresponde).
+Comience por enviar un problema. Los supervisores de este proyecto trabajan para llegar a un consenso sobre la dirección del proyecto y las soluciones de problemas dentro de los subprocesos del problema (cuando corresponde).
 
-## Acuerdo de licencia de colaborador
+## Acuerdo de licencia del colaborador
 
-Todas las contribuciones de terceros a este proyecto deben estar acompañadas por un contrato de licencia
-para colaboradores firmado, que da permiso a Adobe para redistribuir las contribuciones como parte del proyecto. [Firme nuestro Acuerdo de colaboración](http://opensource.adobe.com/cla.html). Un usuario necesita enviar un único acuerdo de colaboración de Adobe, por lo que, si lo ha enviado anteriormente, ¡ya puede empezar!
+Todas las contribuciones de terceros a este proyecto deben ir acompañadas de un contrato de licencia de colaborador firmado. Esto da permiso a Adobe para redistribuir sus contribuciones como parte del proyecto. [Firmar nuestro contrato de licencia de colaborador](http://opensource.adobe.com/cla.html). Solo debe enviar un CLA de Adobe una vez, por lo que si ha enviado uno anteriormente, ¡ya estará listo!
 
 ## Revisiones de código
 
-Todos los envíos deben ser solicitudes de extracción y deben revisarlos los supervisores del proyecto. Lea la [documentación de las solicitudes de extracción de GitHub](https://help.github.com/es/articles/about-pull-requests/) para obtener más información sobre el envío de solicitudes de extracción.
+Todas las presentaciones deben presentarse en forma de solicitudes de extracción y los comités de proyectos deben revisarlas. Lectura [Documentación de la solicitud de extracción de GitHub](https://help.github.com/articles/about-pull-requests/)
+para obtener más información sobre el envío de solicitudes de extracción.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
 submitting a pull request!
 -->
 
-## Del colaborador al supervisor
+## De colaborador a creador
 
-¡Nos encantan las contribuciones de nuestra comunidad! Si desea ir más allá de la colaboración y convertirse en un supervisor con acceso total de escritura y tener voz en el proyecto, debe ser invitado al proyecto. Los supervisores emplean un proceso de nominación interna que debe alcanzar un consenso diferido (el silencio es aprobación) antes de que se envíen invitaciones. Si cree que está cualificado y desea implicarse más profundamente, puede ponerse en contacto con los supervisores para hablar sobre ello.
+¡Nos encantan las contribuciones de nuestra comunidad! Si desea ir más allá del colaborador y convertirse en un supervisor con acceso de escritura completo y tener voz en el proyecto, debe ser invitado al proyecto. Los supervisores emplean un proceso de nominación interna que debe alcanzar un consenso diferido (el silencio es aprobación) antes de que se emitan invitaciones. Si cree que está cualificado y desea implicarse más profundamente, no dude en ponerse en contacto con los supervisores existentes para hablar de ello.
 
 ## Problemas de seguridad
 
-Los problemas de seguridad no deben enviarse a este rastreador de problemas. Envíe [el problema a nuestros expertos en seguridad](https://helpx.adobe.com/es/security/alertus.html)
+Los problemas de seguridad no deben notificarse en este rastreador de problemas. En su lugar, [presente un problema a nuestros expertos en seguridad](https://helpx.adobe.com/security/alertus.html)

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 10%
+source-wordcount: '148'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ Cadena
 | Parámetro | Tipo |
 |-----------|--------------|
 | base | string |
-| Target | string (RegExp) |
+| target | string (RegExp) |
 | reemplazo | string |
 
 ## Firma y tipo devuelto
@@ -49,7 +49,7 @@ Devuelve &quot;Hexlo World&quot;.
 
 ## Ejemplo 2 {#example_2}
 
-Como el parámetro de destino es un RegExp, según la cadena que desee reemplazar, es posible que tenga que escapar algunos caracteres. Vea el siguiente ejemplo:
+Como el parámetro de destino es un RegExp, según la cadena que desee reemplazar, es posible que tenga que escapar algunos caracteres. Este es un ejemplo:
 
 * cadena que se va a evaluar: `|OFFER_A|OFFER_B`
 * proporcionado por un atributo de perfil `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`

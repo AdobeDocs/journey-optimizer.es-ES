@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 7%
+source-wordcount: '143'
+ht-degree: 0%
 
 ---
 
 # Eliminar una decisión {#delete-decision}
 
-Ocasionalmente puede ser necesario retirar (DELETE) una decisión. Solo se pueden eliminar las decisiones que se creen en el contenedor de inquilino. Para ello, realiza una solicitud de DELETE al [!DNL Offer Library] API que utiliza el $id de la oferta de reserva que desea eliminar.
+Ocasionalmente puede ser necesario eliminar (ELIMINAR) una decisión. Solo se pueden eliminar las decisiones que se creen en el contenedor de inquilino. Esto se realiza realizando una solicitud DELETE al [!DNL Offer Library] API que utiliza el $id de la oferta de reserva que desea eliminar.
 
 **Formato de API**
 

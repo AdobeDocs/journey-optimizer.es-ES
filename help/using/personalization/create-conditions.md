@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Creación de condiciones
+title: Crear condiciones
 description: Aprenda a crear condiciones
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 1%
+source-wordcount: '552'
+ht-degree: 0%
 
 ---
-
 
 # Trabajo con reglas condicionales {#conditions}
 
@@ -27,7 +27,7 @@ Las reglas condicionales se crean mediante el editor de expresiones y se pueden 
 
 ## Acceso al generador de reglas condicional {#access}
 
-Las reglas condicionales se crean a partir de la variable **[!UICONTROL Condiciones]** dentro del editor de expresiones, al que se puede acceder desde:
+Las reglas condicionales se crean a partir de la variable **[!UICONTROL Conditions]** dentro del editor de expresiones, al que se puede acceder desde:
 
 * Desde el Diseñador de correo electrónico, al habilitar contenido dinámico para un componente en el cuerpo del correo electrónico. [Aprenda a añadir contenido dinámico a los correos electrónicos](dynamic-content.md#emails)
 
@@ -51,7 +51,7 @@ Las reglas condicionales se crean a partir de la variable **[!UICONTROL Condicio
 
 Los pasos para crear una regla condicional son los siguientes:
 
-1. Acceda a la **[!UICONTROL Condiciones]** del Editor de expresiones o del Diseñador de correo electrónico y, a continuación, haga clic en **[!UICONTROL Crear nuevo]**.
+1. Acceda a la **[!UICONTROL Conditions]** del Editor de expresiones o del Diseñador de correo electrónico y, a continuación, haga clic en **[!UICONTROL Create new]**.
 
 1. Cree la regla condicional según sus necesidades. Para ello, arrastre y suelte y organice los atributos deseados desde el menú de la izquierda en el lienzo.
 
@@ -61,11 +61,11 @@ Los pasos para crear una regla condicional son los siguientes:
 
    Los atributos se organizan en tres pestañas:
 
-   * **[!UICONTROL Perfil]**:
-      * **[!UICONTROL Pertenencia a segmentos]** enumera todos los atributos del segmento (por ejemplo, estado, versión, etc.) para [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
-      * **[!UICONTROL Perfiles individuales XDM]** enumera todos los atributos de perfil asociados al [Esquema del Modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) definida en Adobe Experience Platform.
-   * **[!UICONTROL Contextual]**: cuando el mensaje se utiliza en un recorrido, los campos de recorrido contextual están disponibles en esta pestaña.
-   * **[!UICONTROL Audiencias]**: enumera todas las audiencias generadas a partir de segmentos creados en [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+   * **[!UICONTROL Profile]**:
+      * **[!UICONTROL Segment Membership]** enumera todos los atributos del segmento (por ejemplo, estado, versión, etc.) para [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
+      * **[!UICONTROL XDM Individual profiles]** enumera todos los atributos de perfil asociados al [Esquema del Modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) definida en Adobe Experience Platform.
+   * **[!UICONTROL Contextual]**: cuando el mensaje se utiliza en un recorrido, los campos contextuales del recorrido están disponibles en esta pestaña.
+   * **[!UICONTROL Audiences]**: enumera todas las audiencias generadas a partir de segmentos creados en [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 1. Una vez que la regla condicional esté lista, puede agregarla al mensaje para crear contenido dinámico. [Aprenda a añadir contenido dinámico](dynamic-content.md)
 
@@ -77,11 +77,11 @@ Si hay reglas de condición que va a reutilizar con frecuencia, puede guardarlas
 
 >[!NOTE]
 >
->Las reglas condicionales que aprovechan los atributos contextuales de recorrido no se pueden guardar en la biblioteca .
+>Las reglas condicionales que aprovechan los atributos contextuales de los recorridos no se pueden guardar en la biblioteca .
 
-1. En la pantalla de edición de condición, haga clic en el botón **[!UICONTROL Guardar condición]** botón.
+1. En la pantalla de edición de condición, haga clic en el botón **[!UICONTROL Save condition]** botón.
 
-1. Asigne un nombre y una descripción (opcional) a la regla y haga clic en **[!UICONTROL Agregar]**.
+1. Asigne un nombre y una descripción (opcional) a la regla y haga clic en **[!UICONTROL Add]**.
 
    ![](assets/conditions-name-description.png)
 

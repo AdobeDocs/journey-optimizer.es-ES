@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 5%
+source-wordcount: '958'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ Para detectar posibles errores en el contenido del correo electrónico o en la c
 >
 >Debe tener perfiles de prueba disponibles para poder previsualizar los mensajes y enviar pruebas.
 >
->Aprenda a crear perfiles de prueba en [esta página](../segment/creating-test-profiles.md).
+>Obtenga información sobre cómo crear perfiles de prueba en [esta página](../segment/creating-test-profiles.md).
 
 Para probar el contenido del correo electrónico, debe:
 
@@ -34,7 +34,7 @@ Para probar el contenido del correo electrónico, debe:
 
 Entonces podrá [enviar pruebas](#send-proofs) a los perfiles de prueba.
 
-Además, aproveche la cuenta **Litmus** en [!DNL Journey Optimizer] para previsualizar instantáneamente su **procesamiento de correo electrónico** en clientes de correo electrónico populares. A continuación, puede asegurarse de que el contenido del correo electrónico tenga buen aspecto y funcione correctamente en cada bandeja de entrada. Obtenga información sobre cómo desbloquear las vistas previas de correo electrónico de Litmus en [esta sección](#email-rendering).
+Además, aproveche el **Litmus** account en [!DNL Journey Optimizer] para previsualizar instantáneamente su **procesamiento de correo electrónico** en clientes de correo electrónico populares. A continuación, puede asegurarse de que el contenido del correo electrónico tenga un aspecto impecable y funcione correctamente en cada bandeja de entrada. Obtenga información sobre cómo desbloquear las vistas previas de correo electrónico de Litmus en [esta sección](#email-rendering).
 
 >[!CAUTION]
 >
@@ -55,15 +55,15 @@ Uso [Perfiles de prueba](../segment/creating-test-profiles.md) para dirigirse a 
 
 Para seleccionar perfiles de prueba, siga los pasos a continuación:
 
-1. En el [Editar contenido](create-email.md#define-email-content) o en el Diseñador de correo electrónico, haga clic en el botón **[!UICONTROL Simular contenido]** para acceder a la selección de perfil de prueba.
+1. En el [Editar contenido](create-email.md#define-email-content) o en el Diseñador de correo electrónico, haga clic en el botón **[!UICONTROL Simulate content]** para acceder a la selección de perfil de prueba.
 
    ![](assets/email-preview-button.png)
 
-1. Select **[!UICONTROL Administrar perfiles de prueba]**.
+1. Select **[!UICONTROL Manage test profiles]**.
 
    ![](assets/email-preview_manage-test-profiles.png)
 
-1. Seleccione el espacio de nombres que se utilizará para identificar los perfiles de prueba haciendo clic en el botón **[!UICONTROL Área de nombres de identidad]** icono de selección.
+1. Seleccione el espacio de nombres que se utilizará para identificar los perfiles de prueba haciendo clic en el botón **[!UICONTROL Identity namespace]** icono de selección.
 
    ![](assets/previewselect-namespace.png)
 
@@ -75,7 +75,7 @@ Para seleccionar perfiles de prueba, siga los pasos a continuación:
 
    ![](assets/preview-email-namespace.png)
 
-1. En el **[!UICONTROL Valor de identidad]** , introduzca el valor (aquí la dirección de correo electrónico) para identificar el perfil de prueba y haga clic en **[!UICONTROL Añadir perfil]**.
+1. En el **[!UICONTROL Identity value]** , introduzca el valor (aquí la dirección de correo electrónico) para identificar el perfil de prueba y haga clic en **[!UICONTROL Add profile]**.
 
    <!--![](assets/preview-identity-value.png)-->
 
@@ -87,9 +87,9 @@ Para seleccionar perfiles de prueba, siga los pasos a continuación:
 
 ### Vista previa del correo electrónico {#preview-email}
 
-Una vez [perfiles de prueba](#select-test-profiles) están seleccionados, puede obtener una vista previa del contenido del correo electrónico. Complete los siguientes pasos:
+Una vez [perfiles de prueba](#select-test-profiles) están seleccionados, puede obtener una vista previa del contenido del correo electrónico. Siga los pasos a continuación:
 
-1. En el [Editar contenido](create-email.md#define-email-content) o en el Diseñador de correo electrónico, haga clic en el botón **[!UICONTROL Simular contenido]** botón.
+1. En el [Editar contenido](create-email.md#define-email-content) o en el Diseñador de correo electrónico, haga clic en el botón **[!UICONTROL Simulate content]** botón.
 
 1. Seleccione un perfil de prueba. Puede comprobar los valores disponibles en las columnas. Utilice las flechas derecha/izquierda para examinar los datos.
 
@@ -97,9 +97,9 @@ Una vez [perfiles de prueba](#select-test-profiles) están seleccionados, puede 
 
    >[!NOTE]
    >
-   >Para añadir más perfiles de prueba, seleccione **[!UICONTROL Administrar perfiles de prueba]**. [Más información](#select-test-profiles)
+   >Para añadir más perfiles de prueba, seleccione **[!UICONTROL Manage test profiles]**. [Más información](#select-test-profiles)
 
-1. Haga clic en el **[!UICONTROL Seleccionar datos]** sobre la lista para añadir o quitar columnas.
+1. Haga clic en el **[!UICONTROL Select data]** sobre la lista para añadir o quitar columnas.
 
    ![](assets/preview-select-data.png)
 
@@ -119,11 +119,11 @@ Una prueba es un mensaje específico que le permite probar un mensaje antes de e
 
 Una vez [perfiles de prueba](#select-test-profiles) , puede enviar pruebas.
 
-1. En el **[!UICONTROL Simular]** , haga clic en **[!UICONTROL Enviar prueba]** botón.
+1. En el **[!UICONTROL Simulate]** , haga clic en **[!UICONTROL Send proof]** botón.
 
    ![](assets/send-proof-button.png)
 
-1. En el **[!UICONTROL Enviar prueba]** , escriba el correo electrónico del destinatario y haga clic en **[!UICONTROL Agregar]** para enviarla a usted o a los miembros de su organización.
+1. En el **[!UICONTROL Send proof]** , escriba el correo electrónico del destinatario y haga clic en **[!UICONTROL Add]** para enviarla a usted o a los miembros de su organización.
 
    Tenga en cuenta que puede añadir hasta diez destinatarios para la entrega de prueba.
 
@@ -135,11 +135,11 @@ Una vez [perfiles de prueba](#select-test-profiles) , puede enviar pruebas.
 
 1. Puede añadir un prefijo a la línea de asunto de la prueba si es necesario. Solo caracteres alfanuméricos y caracteres especiales como . - _ ( ) [ ] se permiten como prefijo de la línea de asunto.
 
-1. Haga clic en **[!UICONTROL Enviar prueba]**.
+1. Haga clic en **[!UICONTROL Send proof]**.
 
    ![](assets/send-proof-select.png)
 
-1. Atrás en el  **[!UICONTROL Simular]** , haga clic en  **[!UICONTROL Ver pruebas]** para comprobar el estado.
+1. Atrás en el  **[!UICONTROL Simulate]** , haga clic en  **[!UICONTROL View proofs]** para comprobar el estado.
 
    ![](assets/send-proof-view.png)
 
@@ -160,9 +160,9 @@ Para acceder a las funciones de procesamiento de correo electrónico, debe:
 
 A continuación, siga los pasos a continuación:
 
-1. En el [Editar contenido](create-email.md#define-email-content) o en el Diseñador de correo electrónico, haga clic en el botón **[!UICONTROL Simular contenido]** botón.
+1. En el [Editar contenido](create-email.md#define-email-content) o en el Diseñador de correo electrónico, haga clic en el botón **[!UICONTROL Simulate content]** botón.
 
-1. Seleccione el **[!UICONTROL Procesar correo electrónico]** botón.
+1. Seleccione el **[!UICONTROL Render email]** botón.
 
    ![](assets/email-rendering-button.png)
 
@@ -182,7 +182,7 @@ A continuación, siga los pasos a continuación:
 
 >[!CAUTION]
 >
->Al conectar el **Litmus** cuenta con [!DNL Journey Optimizer], acepta que los mensajes de prueba se envíen a Litmus: una vez enviados, estos correos electrónicos ya no se administran mediante Adobe. Como consecuencia, la política de retención de datos de Litmus por correo electrónico se aplica a estos correos electrónicos, incluidos los datos de personalización que pueden incluirse en estos mensajes de prueba.
+>Al conectar el **Litmus** cuenta con [!DNL Journey Optimizer], acepta que los mensajes de prueba se envíen a Litmus: una vez enviados, Adobe ya no administra estos correos electrónicos. Como consecuencia, la política de retención de datos de Litmus por correo electrónico se aplica a estos correos electrónicos, incluidos los datos de personalización que pueden incluirse en estos mensajes de prueba.
 
 ## Vídeo explicativo {#video-preview}
 

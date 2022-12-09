@@ -9,13 +9,13 @@ exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
 source-wordcount: '129'
-ht-degree: 12%
+ht-degree: 0%
 
 ---
 
 # Crear una etiqueta {#create-tag}
 
-Puede crear una etiqueta realizando una solicitud de POST al [!DNL Offer Library] al proporcionar su ID de contenedor.
+Puede crear una etiqueta realizando una solicitud POST al [!DNL Offer Library] al proporcionar su ID de contenedor.
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 

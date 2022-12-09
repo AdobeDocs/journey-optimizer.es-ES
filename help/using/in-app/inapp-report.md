@@ -10,7 +10,7 @@ hidefromtoc: true
 exl-id: 3d496efc-1bf9-4895-906c-3757f92c6fe3
 source-git-commit: a153db2adcea4d65cac0d6a4f08c7b997b9ddda1
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -27,35 +27,35 @@ La página de informe Campaña se muestra con las siguientes pestañas:
 * [SMS](../reports/campaign-global-report.md#sms-live)
 * [En la aplicación](#in-app-global)
 
-La campaña **[!UICONTROL Informe global]** se divide en distintas utilidades que detallan el éxito y los errores de la campaña. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](../reports/global-report.md#modify-dashboard).
+La campaña **[!UICONTROL Global report]** se divide en distintas utilidades que detallan el éxito y los errores de la campaña. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](../reports/global-report.md#modify-dashboard).
 
 Para obtener una lista detallada de todas las métricas disponibles en Adobe Journey Optimizer, consulte [esta página](../reports/global-report.md#list-of-components-global.md)
 
 ## Pestaña en la aplicación {#inapp-global}
 
-Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL En la aplicación]** La pestaña detalla la información principal relativa a los envíos en la aplicación realizados en la campaña.
+Desde la campaña **[!UICONTROL Global report]**, el **[!UICONTROL In-app]** La pestaña detalla la información principal relativa a los envíos en la aplicación realizados en la campaña.
 
 ![](assets/campaign_report_global_6.png)
 
 +++Obtenga más información sobre las distintas métricas y utilidades disponibles para el informe en la aplicación.
 
-La variable **[!UICONTROL Rendimiento en la aplicación]** Los KPI detallan la información principal relativa a la participación de los visitantes en los mensajes en la aplicación, como por ejemplo:
+La variable **[!UICONTROL In-app performance]** Los KPI detallan la información principal relativa a la participación de los visitantes en los mensajes en la aplicación, como por ejemplo:
 
-* **[!UICONTROL Impresiones únicas]**: número de usuarios únicos a los que se entregó el mensaje en la aplicación.
+* **[!UICONTROL Unique impressions]**: número de usuarios únicos a los que se entregó el mensaje en la aplicación.
 
-* **[!UICONTROL Impresiones]**: número total de mensajes en la aplicación entregados a todos los usuarios.
+* **[!UICONTROL Impressions]**: número total de mensajes en la aplicación entregados a todos los usuarios.
 
-* **[!UICONTROL Tasa de clics]**: porcentaje de usuarios que interactuaron con los botones incluidos en el mensaje en la aplicación en comparación con los usuarios que vieron el mensaje.
+* **[!UICONTROL Click rate]**: porcentaje de usuarios que interactuaron con los botones incluidos en el mensaje en la aplicación en comparación con los usuarios que vieron el mensaje.
 
-* **[!UICONTROL Tasa de rechazo]**: porcentaje de mensajes en la aplicación que descartaron los destinatarios.
+* **[!UICONTROL Dismiss rate]**: porcentaje de mensajes en la aplicación que descartaron los destinatarios.
 
-La variable **[!UICONTROL Resumen en la aplicación]** en el gráfico se muestra la evolución de las impresiones en la aplicación durante el periodo correspondiente.
+La variable **[!UICONTROL In-app summary]** en el gráfico se muestra la evolución de las impresiones en la aplicación durante el periodo correspondiente.
 
-La variable **[!UICONTROL Clics por botón]** la tabla y el gráfico contienen los datos disponibles para el comportamiento del destinatario por botón:
+La variable **[!UICONTROL Clicks by button]** la tabla y el gráfico contienen los datos disponibles para el comportamiento del destinatario por botón:
 
-* **[!UICONTROL Clics]**: número total de destinatarios que interactuaron con los botones incluidos en el mensaje en la aplicación.
+* **[!UICONTROL Clicks]**: número total de destinatarios que interactuaron con los botones incluidos en el mensaje en la aplicación.
 
-* **[!UICONTROL Tasa de clics]**: porcentaje de usuarios que interactuaron con los botones incluidos en el mensaje en la aplicación en comparación con los usuarios que vieron el mensaje.
+* **[!UICONTROL Click rate]**: porcentaje de usuarios que interactuaron con los botones incluidos en el mensaje en la aplicación en comparación con los usuarios que vieron el mensaje.
 +++
 
 **Temas relacionados:**

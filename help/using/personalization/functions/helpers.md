@@ -8,7 +8,7 @@ level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Valor de reserva predeterminado{#default-value}
 
-La variable `Default Fallback Value` helper se utiliza para devolver un valor de reserva predeterminado si un atributo está vacío o es nulo. Este mecanismo funciona para los atributos de perfil y los eventos de Recorrido.
+La variable `Default Fallback Value` helper se utiliza para devolver un valor de reserva predeterminado si un atributo está vacío o es nulo. Este mecanismo funciona para los atributos de perfil y los eventos de recorrido.
 
 **Sintaxis**
 
@@ -212,7 +212,7 @@ La variable `let` permite almacenar una expresión como variable para usarla má
 
 **Ejemplo**
 
-El siguiente ejemplo permite todas las sumas de totales de productos con la transacción en USD donde la suma es buena a más de 100 $ y menor que 1000 $.
+El siguiente ejemplo permite todas las sumas de totales de productos con la transacción en USD cuando la suma es mayor que 100 $ y menor que 1000 $.
 
 ```sql
 {% let variable = expression %} {{variable}}

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1440'
-ht-degree: 8%
+source-wordcount: '1396'
+ht-degree: 0%
 
 ---
 
@@ -39,19 +39,19 @@ Estos tipos de condiciones están disponibles:
 >title="Acerca del editor de expresiones simple"
 >abstract="El modo de editor de expresiones simple permite realizar consultas simples basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Arrastre y suelte los campos en la zona principal. Para combinar los distintos elementos, conéctelos entre sí para crear diferentes grupos o niveles de grupo. A continuación, puede seleccionar un operador lógico para combinar elementos en el mismo nivel."
 
-Cuando se utilizan varias condiciones en un recorrido, se pueden definir etiquetas para cada una de ellas a fin de identificarlas con mayor facilidad.
+Al utilizar varias condiciones en un recorrido, puede definir etiquetas para cada una de ellas para identificarlas con mayor facilidad.
 
-Haga clic en **[!UICONTROL Agregar una ruta]** si desea definir varias condiciones. Para cada condición, se agrega una nueva ruta en el lienzo después de la actividad .
+Haga clic en **[!UICONTROL Add a path]** si desea definir varias condiciones. Para cada condición, se agrega una nueva ruta en el lienzo después de la actividad .
 
 ![](assets/journey47.png)
 
 Tenga en cuenta que el diseño de los recorridos tiene un impacto funcional. Cuando se definen varias rutas después de una condición, solo se ejecuta la primera ruta elegible. Significa que puede variar la priorización de las rutas colocándolas encima o debajo de las otras.
 
-Por ejemplo, tomemos el ejemplo de la condición de una primera ruta &quot;La persona es un VIP&quot; y la condición de una segunda ruta &quot;La persona es un hombre&quot;. Si una persona que cumple ambas condiciones (un hombre que es un VIP) supera este paso, se elegirá la primera ruta aunque esta persona también sea elegible para la segunda, ya que la primera ruta es &quot;superior&quot;. Para cambiar esta prioridad, mueva las actividades en otro orden vertical.
+Por ejemplo, tomemos el ejemplo de la condición de una primera ruta &quot;La persona es un VIP&quot; y la condición de una segunda ruta &quot;La persona es un hombre&quot;. Si una persona que cumple ambas condiciones (un hombre que es VIP) pasa este paso, la primera ruta se elegirá incluso si esta persona también es elegible para la segunda, porque la primera ruta es &quot;superior&quot;. Para cambiar esta prioridad, mueva las actividades en otro orden vertical.
 
 ![](assets/journey48.png)
 
-Puede crear otra ruta para las audiencias que no cumplan los requisitos de las condiciones definidas comprobando **[!UICONTROL Mostrar ruta para otros casos que no sean los anteriores]**. Tenga en cuenta que esta opción no está disponible en condiciones de división. Consulte [División de porcentaje](#percentage_split).
+Puede crear otra ruta para las audiencias que no cumplan los requisitos de las condiciones definidas comprobando **[!UICONTROL Show path for other cases than the one(s) above]**. Tenga en cuenta que esta opción no está disponible en condiciones de división. Consulte [División de porcentaje](#percentage_split).
 
 El modo simple permite realizar consultas simples basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Arrastre y suelte los campos en la zona principal. Para combinar los distintos elementos, conéctelos entre sí para crear diferentes grupos o niveles de grupo. A continuación, puede seleccionar un operador lógico para combinar elementos en el mismo nivel:
 
@@ -60,16 +60,16 @@ El modo simple permite realizar consultas simples basadas en una combinación de
 
 ![](assets/journey64.png)
 
-Si está utilizando la variable [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;} para crear sus segmentos, puede aprovecharlos en las condiciones de recorrido. Consulte [Uso de segmentos en condiciones](../building-journeys/condition-activity.md#using-a-segment).
+Si está utilizando la variable [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;} para crear sus segmentos, puede aprovecharlos en las condiciones del recorrido. Consulte [Uso de segmentos en condiciones](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
 >
 >No puede realizar consultas en series temporales (por ejemplo, una lista de compras o clics anteriores en mensajes) con el editor simple. Para ello, debe utilizar el editor avanzado. Consulte [esta página](expression/expressionadvanced.md).
 
-Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera de continuar es marcar la casilla **[!UICONTROL Añada una ruta alternativa en caso de tiempo de espera o error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
+Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera de continuar es marcar la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
 
-En el editor simple, también encontrará la categoría Propiedades del Recorrido, debajo de las categorías de evento y fuente de datos. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información recuperada por el sistema de los recorridos activos, como el ID de recorrido o los errores específicos encontrados. [Más información](expression/journey-properties.md)
+En el editor simple, también encontrará la categoría Propiedades del recorrido , debajo de las categorías de evento y fuente de datos. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información que el sistema recupera de los recorridos en directo, como el ID del recorrido o los errores específicos encontrados. [Más información](expression/journey-properties.md)
 
 ## Condición de fuente de datos {#data_source_condition}
 
@@ -85,7 +85,7 @@ Esto le permite realizar diferentes acciones según la hora del día o el día d
 
 >[!NOTE]
 >
->La zona horaria no es específica de una condición y se define a nivel de recorrido en las propiedades de recorrido. Consulte [esta página](../building-journeys/timezone-management.md).
+>La zona horaria no es específica de una condición y se define a nivel de recorrido en las propiedades del recorrido. Consulte [esta página](../building-journeys/timezone-management.md).
 
 ![](assets/journey51.png)
 
@@ -113,7 +113,7 @@ Esto permite definir un flujo diferente en función de la fecha. Por ejemplo, si
 
 >[!NOTE]
 >
->La zona horaria ya no es específica de una condición y ahora se define a nivel de recorrido en las propiedades de recorrido. Consulte [esta página](../building-journeys/timezone-management.md).
+>La zona horaria ya no es específica de una condición y ahora se define a nivel de recorrido en las propiedades del recorrido. Consulte [esta página](../building-journeys/timezone-management.md).
 
 ![](assets/journey53.png)
 
@@ -129,13 +129,13 @@ Puede utilizar este tipo de condición para aumentar el volumen de los envíos. 
 
 El límite predeterminado es 1000.
 
-El contador solo se aplica a la versión de recorrido seleccionada. El contador se restablece a cero después de un mes. Después de un restablecimiento, los perfiles introducidos siguen la ruta nominal de nuevo hasta que se alcanza el límite del contador.
+El contador solo se aplica a la versión del recorrido seleccionada. El contador se restablece a cero después de un mes. Después de un restablecimiento, los perfiles introducidos siguen la ruta nominal de nuevo hasta que se alcanza el límite del contador.
 
-La ruta nominal siempre tiene prioridad sobre la ruta alternativa, incluso si se mueve la ruta alternativa por encima de la ruta nominal en el lienzo de recorrido.
+La ruta nominal siempre tiene prioridad sobre la ruta alternativa, incluso si se mueve la ruta alternativa por encima de la ruta nominal en el lienzo del recorrido.
 
-Para los recorridos activos, estos son los umbrales que se deben tener en cuenta para garantizar que se alcance el límite:
+Para los recorridos en directo, estos son los umbrales que se deben tener en cuenta para garantizar que se alcance el límite:
 
-* Para un máximo bueno a 10000, el número de perfiles diferentes que se inyectarán debe ser al menos 1,3 veces superior al límite máximo.
+* Para un límite superior a 10000, el número de perfiles distintos que se inyectarán debe ser al menos 1,3 veces superior al límite superior.
 * Para un límite inferior a 10000, el número de perfiles distintos que se inyectarán debe ser de más de 1000.
 
 El límite del perfil no se tiene en cuenta en el modo de prueba.
@@ -148,14 +148,14 @@ En esta sección se explica cómo utilizar un segmento en una condición de reco
 
 Para utilizar un segmento en una condición de recorrido, siga estos pasos:
 
-1. Abra un recorrido y suelte un **[!UICONTROL Condición]** actividad y elija la **Condición de fuente de datos**.
+1. Abra un recorrido, coloque un **[!UICONTROL Condition]** actividad y elija la **Condición de fuente de datos**.
    ![](assets/journey47.png)
 
-1. Haga clic en **[!UICONTROL Agregar una ruta]** para cada ruta adicional necesaria. Para cada ruta, haga clic en el botón **[!UICONTROL Expresión]** campo .
+1. Haga clic en **[!UICONTROL Add a path]** para cada ruta adicional necesaria. Para cada ruta, haga clic en el botón **[!UICONTROL Expression]** campo .
 
    ![](assets/segment3.png)
 
-1. En el lado izquierdo, despliegue **[!UICONTROL Segmentos]** nodo . Arrastre y suelte el segmento que desee utilizar para su condición. De forma predeterminada, la condición del segmento es verdadera.
+1. En el lado izquierdo, despliegue **[!UICONTROL Segments]** nodo . Arrastre y suelte el segmento que desee utilizar para su condición. De forma predeterminada, la condición del segmento es verdadera.
 
    ![](assets/segment4.png)
 

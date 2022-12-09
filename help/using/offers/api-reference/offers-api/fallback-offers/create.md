@@ -1,5 +1,5 @@
 ---
-title: Crear una oferta de reserva
+title: Creación de una oferta de reserva
 description: Se envía una oferta de reserva a los clientes si no cumplen los requisitos para otras ofertas
 feature: Offers
 topic: Integrations
@@ -9,13 +9,13 @@ exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 12%
+ht-degree: 0%
 
 ---
 
-# Crear una oferta de reserva {#create-fallback-offer}
+# Creación de una oferta de reserva {#create-fallback-offer}
 
-Puede crear una oferta de reserva realizando una solicitud de POST al [!DNL Offer Library] al proporcionar su ID de contenedor.
+Puede crear una oferta de reserva realizando una solicitud POST al [!DNL Offer Library] al proporcionar su ID de contenedor.
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 

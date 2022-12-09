@@ -1,5 +1,5 @@
 ---
-title: Primeros pasos
+title: Introducción
 description: Aprenda a empezar a utilizar la API de biblioteca de ofertas para realizar operaciones clave con el motor de decisiones.
 feature: Offers
 topic: Integrations
@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 5%
+source-wordcount: '552'
+ht-degree: 0%
 
 ---
 
@@ -23,8 +23,8 @@ Esta guía para desarrolladores proporciona los pasos para ayudarle a empezar a 
 
 Esta guía requiere conocer los siguientes componentes de Adobe Experience Platform:
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target=&quot;_blank&quot;}: El marco normalizado por el cual [!DNL Experience Platform] organiza los datos de experiencia del cliente.
-   * [Aspectos básicos de la composición del esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es){target=&quot;_blank&quot;}: Obtenga información sobre los componentes básicos de los esquemas XDM.
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}: El marco normalizado por el cual [!DNL Experience Platform] organiza los datos de experiencia del cliente.
+   * [Aspectos básicos de la composición del esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html){target=&quot;_blank&quot;}: Obtenga información sobre los componentes básicos de los esquemas XDM.
 * [Administración de decisiones](../../../using/offers/get-started/starting-offer-decisioning.md): Explica los conceptos y componentes utilizados para Experience Decisioning en general y para la gestión de decisiones en particular. Ilustra las estrategias utilizadas para elegir la mejor opción para presentar durante la experiencia del cliente.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target=&quot;_blank&quot;}: PQL es un lenguaje potente para escribir expresiones en instancias XDM. PQL se utiliza para definir las reglas de decisión.
 
@@ -50,7 +50,7 @@ Un contenedor es un mecanismo de aislamiento para mantener diferentes preocupaci
 
 Un administrador puede agrupar en perfiles entidades principales, recursos y permisos de acceso similares. Esto reduce la carga de administración y es compatible con [Adobe Admin Console](https://adminconsole.adobe.com/). Debe ser administrador de productos de Adobe Experience Platform en su organización para crear perfiles y asignarles usuarios. Es suficiente crear perfiles de producto que coincidan con determinados permisos en un solo paso y, a continuación, añadir usuarios a dichos perfiles. Los perfiles actúan como grupos a los que se han concedido permisos y todos los usuarios reales o técnicos de ese grupo heredan esos permisos.
 
-Dados privilegios de administrador, puede conceder o retirar permisos a los usuarios a través del [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Para obtener más información, consulte la [Información general sobre el control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=es){target=&quot;_blank&quot;}.
+Dados privilegios de administrador, puede conceder o retirar permisos a los usuarios a través del [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Para obtener más información, consulte la [Información general sobre el control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html){target=&quot;_blank&quot;}.
 
 ### Contenedores de lista accesibles para usuarios e integraciones {#list-containers-accessible-to-users-and-integrations}
 

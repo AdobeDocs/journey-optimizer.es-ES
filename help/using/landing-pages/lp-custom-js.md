@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 2%
+source-wordcount: '562'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Puede definir el contenido de la página de aterrizaje mediante JavaScript perso
 
 Para insertar JavaScript personalizado en el contenido de la página de aterrizaje, puede hacer lo siguiente:
 
-* Importe contenido de HTML existente al empezar a crear su contenido y seleccione el archivo que incluye su código personalizado de JavaScript. Obtenga información sobre cómo importar contenido [en esta sección](../email/existing-content.md).
+* Importe contenido HTML existente al empezar a crear el contenido y seleccione el archivo que incluye el código JavaScript personalizado. Obtenga información sobre cómo importar contenido [en esta sección](../email/existing-content.md).
 
 * Diseñe la página de aterrizaje desde cero o desde una plantilla guardada. Arrastre y suelte la **[!UICONTROL HTML]** componente de contenido en el lienzo y mostrar el código fuente para añadir el JavaSCript al componente. Aprenda a utilizar el componente HTML en [esta sección](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
@@ -194,7 +194,7 @@ Por ejemplo, tiene un formulario con varias casillas de verificación en la pág
 
 ### Caso de uso 3: Etiquetas de análisis personalizadas
 
-Con JavaScript, puede agregar oyentes de campos de entrada y adjuntar un déclencheur de llamada de análisis personalizado.
+Con JavaScript, puede agregar oyentes de campos de entrada y adjuntar un activador de llamada de análisis personalizado.
 
 ```
 <html>

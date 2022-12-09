@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 7d766f0a-4fcb-434a-bbfd-e18ade71ae56
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 9%
+source-wordcount: '165'
+ht-degree: 0%
 
 ---
 
 # Actualizar una colección {#update-collection}
 
-Puede modificar o actualizar una colección realizando una solicitud de PATCH al [!DNL Offer Library] API
+Puede modificar o actualizar una colección realizando una solicitud PATCH al [!DNL Offer Library] API
 
 Para obtener más información sobre JSON Patch, incluidas las operaciones disponibles, consulte la [Documentación de parches JSON](http://jsonpatch.com/).
 

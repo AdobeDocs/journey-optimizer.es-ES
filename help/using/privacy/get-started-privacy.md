@@ -10,34 +10,34 @@ exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '240'
-ht-degree: 90%
+ht-degree: 0%
 
 ---
 
 # Introducción a la privacidad {#privacy}
 
-Journey Optimizer es una potente herramienta para recopilar y procesar cantidades sumamente grandes de datos, como por ejemplo, información personal y confidencial. Por eso, la privacidad debe administrarse cuidadosamente.
+Journey Optimizer es una potente herramienta para recopilar y procesar cantidades extremadamente grandes de datos, incluida información personal y datos confidenciales. Por este motivo, la privacidad debe administrarse cuidadosamente.
 
-Además, regulaciones como el RGPD establecen que debe cumplir con requisitos específicos antes de poder utilizar la información de sujetos de datos. Además, estos deben poder modificar su consentimiento en cualquier momento.
+Además, regulaciones como el RGPD establecen que debe cumplir con requisitos específicos antes de poder utilizar la información de sujetos de datos. Además, los sujetos de datos deben poder modificar su consentimiento en cualquier momento.
 
-Adobe Experience Platform y Journey Optimizer ofrecen varias herramientas para ayudarle a garantizar la administración de la privacidad.
+Adobe Experience Platform y Journey Optimizer proporcionan varias herramientas que le ayudan a garantizar la administración de la privacidad.
 
-* **Administrar solicitudes de datos**: utilice Adobe Experience Platform Privacy Service para administrar las solicitudes de los clientes con el fin de acceder a datos personales y eliminarlos. [Más información](requests.md)
+* **Administrar solicitudes de datos**: Utilice Adobe Experience Platform Privacy Service para administrar las solicitudes de los clientes con el fin de acceder a datos personales y eliminarlos. [Más información](requests.md)
 
-* **Auditoría de acciones de usuarios**: aproveche los registros de auditoría para identificar las acciones llevadas a cabo por los usuarios del sistema, solucionar problemas y ayudar a su empresa a cumplir con las normativas y las políticas corporativas de administración de datos. [Más información](audit-logs.md)
+* **Auditoría de acciones de los usuarios**: Aproveche los registros de auditoría para identificar las acciones realizadas por los usuarios del sistema, solucionar problemas y ayudar a su empresa a cumplir con las normativas y las políticas de administración de datos corporativas. [Más información](audit-logs.md)
 
-* **Seguimiento y administración del consentimiento**: haga un seguimiento del consentimiento de los clientes para la comunicación y administre sus preferencias y suscripciones. [Más información](opt-out.md)
+* **Seguimiento y administración del consentimiento**: Rastree el consentimiento de los clientes para la comunicación y administre sus preferencias y suscripciones. [Más información](opt-out.md)
 
-* **Aplicar directivas de consentimiento**: defina las políticas de consentimiento de Adobe Experience Platform y aplíquelas a sus acciones personalizadas para respetar las preferencias de los clientes. [Más información](../action/consent.md)
+* **Aplicar directivas de consentimiento**: Defina las políticas de consentimiento de Adobe Experience Platform y aplíquelas a sus acciones personalizadas para respetar las preferencias de sus clientes. [Más información](../action/consent.md)
 
-* **Aplicar políticas de gobernanza**: utilice las políticas de gobernanza de Adobe Experience Platform para evitar que los campos confidenciales se exporten a sistemas externos mediante acciones personalizadas. [Más información](../action/action-privacy.md)
+* **Aplicar políticas de gobernanza**: Aproveche las políticas de control de Adobe Experience Platform para evitar que los campos confidenciales se exporten a sistemas de terceros mediante acciones personalizadas. [Más información](../action/action-privacy.md)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="requests.md">
 <img alt="Posible cliente" src="../assets/do-not-localize/privacy-request.jpeg">
 </a>
-<div><a href="requests.md"><strong>Administrar solicitudes de información</strong>
+<div><a href="requests.md"><strong>Administrar solicitudes de datos</strong>
 </div>
 <p>
 </td>

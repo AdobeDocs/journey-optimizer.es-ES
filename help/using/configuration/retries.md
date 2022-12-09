@@ -11,7 +11,7 @@ exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -41,9 +41,9 @@ Si una entrega se realiza correctamente después de un reintento, el contador de
 
 Si el valor predeterminado de 5 no se adapta a sus necesidades, puede modificar el umbral de error siguiendo los pasos a continuación.
 
-1. Vaya a **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** > **[!UICONTROL Lista de supresión]**.
+1. Vaya a **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Suppression list]**.
 
-1. Seleccione el **[!UICONTROL Editar reglas de supresión]** botón.
+1. Seleccione el **[!UICONTROL Edit suppression rules]** botón.
 
    ![](assets/suppression-list-edit-retries.png)
 
@@ -55,7 +55,7 @@ Si el valor predeterminado de 5 no se adapta a sus necesidades, puede modificar 
 
    >[!CAUTION]
    >
-   >Cualquier valor superior a 10 puede causar problemas de reputación de envío, así como restricciones de IP o inclusión en la lista de bloqueados por parte de los ISP. [Más información sobre la capacidad de entrega](../reports/deliverability.md)
+   >Cualquier valor superior a 10 puede causar problemas de reputación de envío, así como restricciones de IP o listas de bloqueados por ISP. [Más información sobre la capacidad de entrega](../reports/deliverability.md)
 
 ## Período de tiempo de reintento {#retry-duration}
 

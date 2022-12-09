@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Envío de un mensaje a los suscriptores
-description: Obtenga información sobre cómo crear un recorrido para enviar un mensaje a los suscriptores de una lista
+title: Enviar un mensaje a los suscriptores
+description: Aprenda a construir un recorrido para enviar un mensaje a los suscriptores de una lista
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 5%
+source-wordcount: '256'
+ht-degree: 0%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 5%
 
 El propósito de este caso de uso es crear un recorrido para enviar un mensaje a los suscriptores de una lista.
 
-En este ejemplo, la variable **[!UICONTROL Detalles de consentimiento y preferencia]** grupo de campos de [!DNL Adobe Experience Platform] se utiliza. Para encontrar este grupo de campos, en la sección **[!UICONTROL Gestión de datos]** , elija **[!UICONTROL Esquemas]**. En el **[!UICONTROL Grupos de campo]** , introduzca el nombre del grupo de campos en el campo de búsqueda.
+En este ejemplo, la variable **[!UICONTROL Consent and Preference Details]** grupo de campos de [!DNL Adobe Experience Platform] se utiliza. Para encontrar este grupo de campos, en la sección **[!UICONTROL Data Management]** , elija **[!UICONTROL Schemas]**. En el **[!UICONTROL Field groups]** , introduzca el nombre del grupo de campos en el campo de búsqueda.
 
 ![Este grupo de campos incluye el elemento subscriptions](assets/consent-and-preference-details-field-group.png)
 
 Para configurar este recorrido, siga estos pasos:
 
-1. Cree un recorrido que comience por un **[!UICONTROL Lectura]** actividad. [Más información](journey-gs.md).
-1. Agregue un **[!UICONTROL Correo electrónico]** actividad de acción al recorrido. [Más información](journeys-message.md).
-1. En el **[!UICONTROL Parámetros de correo electrónico]** de la sección **[!UICONTROL Correo electrónico]** configuración de actividad, reemplace la dirección de correo electrónico predeterminada (`PersonalEmail.adress`) con la dirección de correo electrónico de los suscriptores de la lista:
+1. Crear un recorrido que comience con un **[!UICONTROL Read]** actividad. [Más información](journey-gs.md).
+1. Agregue un **[!UICONTROL Email]** actividad de acción al recorrido. [Más información](journeys-message.md).
+1. En el **[!UICONTROL Email parameters]** de la sección **[!UICONTROL Email]** configuración de actividad, reemplace la dirección de correo electrónico predeterminada (`PersonalEmail.adress`) con la dirección de correo electrónico de los suscriptores de la lista:
 
-   1. Haga clic en el **[!UICONTROL Habilitar anulación de parámetros]** a la derecha de **[!UICONTROL Dirección]** y, a continuación, haga clic en la **[!UICONTROL Editar]** icono.
+   1. Haga clic en el **[!UICONTROL Enable parameter override]** a la derecha de **[!UICONTROL Address]** y, a continuación, haga clic en la **[!UICONTROL Edit]** icono.
 
       ![](assets/message-to-subscribers-uc-1.png)
 
@@ -54,4 +54,4 @@ Para configurar este recorrido, siga estos pasos:
 
       ![](assets/message-to-subscribers-uc-2.png)
 
-   1. En el **[!UICONTROL Añadir una expresión]** cuadro de diálogo, haga clic en **[!UICONTROL Ok]**.
+   1. En el **[!UICONTROL Add an expression]** cuadro de diálogo, haga clic en **[!UICONTROL Ok]**.

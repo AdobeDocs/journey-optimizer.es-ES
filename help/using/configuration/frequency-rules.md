@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 3%
+source-wordcount: '837'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Para ello, puede utilizar una regla de frecuencia que limite el número de mensa
 
 ## Reglas de acceso {#access-rules}
 
-Las reglas están disponibles en el **[!UICONTROL Administración]** > **[!UICONTROL Reglas]** para abrir el Navegador. Se muestran todas las reglas, ordenadas por fecha de modificación.
+Las reglas están disponibles en el **[!UICONTROL Administration]** > **[!UICONTROL Rules]** para abrir el Navegador. Se muestran todas las reglas, ordenadas por fecha de modificación.
 
 Utilice el icono de filtro para filtrar por categoría, estado o canal. También puede buscar en la etiqueta del mensaje.
 
@@ -39,9 +39,9 @@ Utilice el icono de filtro para filtrar por categoría, estado o canal. También
 
 ### Permisos{#permissions-frequency-rules}
 
-Para acceder, crear, editar o eliminar las reglas de frecuencia de mensajes, debe tener la variable **[!UICONTROL Administrar reglas de frecuencia]** permiso.
+Para acceder, crear, editar o eliminar las reglas de frecuencia de mensajes, debe tener la variable **[!UICONTROL Manage frequency rules]** permiso.
 
-Los usuarios con la variable **[!UICONTROL Ver reglas de frecuencia]** pueden ver las reglas, pero no modificarlas ni eliminarlas.
+Los usuarios con la variable **[!UICONTROL View frequency rules]** pueden ver las reglas, pero no modificarlas ni eliminarlas.
 
 ![](assets/message-rules-access.png)
 
@@ -51,7 +51,7 @@ Obtenga más información sobre los permisos en [esta sección](../administratio
 
 Para crear una regla nueva, siga los pasos a continuación.
 
-1. Acceda a la **[!UICONTROL Reglas de frecuencia de mensajes]** a continuación, haga clic en **[!UICONTROL Crear regla]**.
+1. Acceda a la **[!UICONTROL Message frequency rules]** a continuación, haga clic en **[!UICONTROL Create rule]**.
 
    ![](assets/message-rules-create.png)
 
@@ -73,7 +73,7 @@ Para crear una regla nueva, siga los pasos a continuación.
    >
    >El límite de frecuencia se basa en un período de calendario mensual. Se restablece al principio de cada mes.
 
-1. Seleccione el canal que desee utilizar para esta regla: **[!UICONTROL Correo electrónico]** o **[!UICONTROL Notificaciones push]**.
+1. Seleccione el canal que desee utilizar para esta regla: **[!UICONTROL Email]** o **[!UICONTROL Push notification]**.
 
    ![](assets/message-rules-channels.png)
 
@@ -85,13 +85,13 @@ Para crear una regla nueva, siga los pasos a continuación.
 
    Por ejemplo, establezca el límite en 15 y seleccione los canales de correo electrónico y push. Si un perfil ya ha recibido 10 correos electrónicos de marketing y 5 notificaciones push de marketing, este perfil se excluirá de la siguiente entrega de cualquier correo electrónico de marketing o notificación push.
 
-1. Haga clic en **[!UICONTROL Guardar como borrador]** para confirmar la creación de la regla. El mensaje se añade a la lista de reglas, con la variable **[!UICONTROL Borrador]** estado.
+1. Haga clic en **[!UICONTROL Save as draft]** para confirmar la creación de la regla. El mensaje se añade a la lista de reglas, con la variable **[!UICONTROL Draft]** estado.
 
    ![](assets/message-rules-created.png)
 
 ## Activar una regla {#activate-rule}
 
-Cuando se crea, una regla de frecuencia de mensaje tiene la variable **[!UICONTROL Borrador]** y aún no afecta a ningún mensaje. Para habilitarlo, haga clic en los puntos suspensivos junto a la regla y seleccione **[!UICONTROL Activar]**.
+Cuando se crea, una regla de frecuencia de mensaje tiene la variable **[!UICONTROL Draft]** y aún no afecta a ningún mensaje. Para habilitarlo, haga clic en los puntos suspensivos junto a la regla y seleccione **[!UICONTROL Activate]**.
 
 ![](assets/message-rules-activate.png)
 
@@ -99,13 +99,13 @@ La activación de una regla afectará a los mensajes a los que se aplique en la 
 
 >[!NOTE]
 >
->Puede tardar hasta 10 minutos en activarse completamente una regla. No es necesario modificar los mensajes ni volver a publicar recorridos para que una regla tenga efecto.
+>Puede tardar hasta 10 minutos en activarse completamente una regla. No es necesario modificar mensajes ni volver a publicar recorridos para que una regla tenga efecto.
 
-Para desactivar una regla de frecuencia de mensaje, haga clic en los puntos suspensivos junto a la regla y seleccione **[!UICONTROL Desactivar]**.
+Para desactivar una regla de frecuencia de mensaje, haga clic en los puntos suspensivos junto a la regla y seleccione **[!UICONTROL Deactivate]**.
 
 ![](assets/message-rules-deactivate.png)
 
-El estado de la regla cambiará a **[!UICONTROL Inactivo]** y la regla no se aplicará a futuras ejecuciones de mensajes. Los mensajes que se encuentren en ejecución no se verán afectados.
+El estado de la regla cambiará a **[!UICONTROL Inactive]** y la regla no se aplicará a futuras ejecuciones de mensajes. Los mensajes que se encuentren en ejecución no se verán afectados.
 
 >[!NOTE]
 >
@@ -132,7 +132,7 @@ Para aplicar una regla de frecuencia a un mensaje, siga los pasos a continuació
 
    >[!NOTE]
    >
-   >Mensajes <!--that do not have any selected category or messages -->donde la categoría seleccionada es **[!UICONTROL Transaccional]** no se evaluará según las reglas de frecuencia.
+   >Mensajes <!--that do not have any selected category or messages -->donde la categoría seleccionada es **[!UICONTROL Transactional]** no se evaluará según las reglas de frecuencia.
 
    <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 

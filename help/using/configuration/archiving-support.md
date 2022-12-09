@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1235'
-ht-degree: 3%
+source-wordcount: '1179'
+ht-degree: 0%
 
 ---
 
-# Asistencia para el archivado {#archiving-support}
+# Compatibilidad con el archivado {#archiving-support}
 
 ## Cómo archivar mensajes {#about-archiving}
 
@@ -34,13 +34,13 @@ Las regulaciones como la Iniciativa para la Acción en favor de los Países Meno
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="Definir una dirección de correo electrónico CCO"
->abstract="Puede conservar una copia de los correos electrónicos enviados enviándolos a una bandeja de entrada BCC. Escriba la dirección de correo electrónico que desee para que cada correo electrónico enviado se copie de forma ciega a esta dirección de CCO. Tenga en cuenta que el dominio de dirección de CCO no debe ser el mismo que cualquier subdominio delegado a Adobe. Esta función es opcional."
+>abstract="Puede conservar una copia de los correos electrónicos enviados enviándolos a una bandeja de entrada BCC. Escriba la dirección de correo electrónico que desee para que cada correo electrónico enviado se copie de forma ciega a esta dirección de CCO. Tenga en cuenta que el dominio de dirección BCC no debe ser el mismo que cualquier subdominio delegado a Adobe. Esta función es opcional."
 
 Puede enviar una copia idéntica (o una copia ciega de un correo electrónico enviado por [!DNL Journey Optimizer] a una bandeja de entrada BCC. Esta función opcional le permite conservar copias de las comunicaciones por correo electrónico que envía a sus usuarios para que cumplan con las normas o las archiven. Esto es invisible para los destinatarios de la entrega.
 
 ### Habilitar correo electrónico CCO {#enable-bcc}
 
-Para habilitar la variable **[!UICONTROL Correo electrónico CCO]** , introduzca la dirección de correo electrónico que desee en el campo dedicado del [superficie del canal](channel-surfaces.md) (es decir, el ajuste preestablecido de mensaje). Puede especificar cualquier dirección externa en el formato correcto, excepto una dirección de correo electrónico definida en un subdominio delegado a Adobe. Por ejemplo, si delegó el *marketing.luma.com* subdominio a Adobe, cualquier dirección como *abc@marketing.luma.com* está prohibido.
+Para habilitar la variable **[!UICONTROL BCC email]** , introduzca la dirección de correo electrónico que desee en el campo dedicado del [superficie del canal](channel-surfaces.md) (es decir, el ajuste preestablecido de mensaje). Puede especificar cualquier dirección externa en el formato correcto, excepto una dirección de correo electrónico definida en un subdominio delegado a Adobe. Por ejemplo, si delegó el *marketing.luma.com* subdominio a Adobe, cualquier dirección como *abc@marketing.luma.com* está prohibido.
 
 >[!CAUTION]
 >
@@ -66,7 +66,7 @@ La configuración de la dirección de correo electrónico CCO se guarda inmediat
 
 Sin embargo, la dirección de CCO se recoge para enviar comunicaciones siguiendo la lógica descrita [here](../email/email-settings.md).
 
-### Recommendations y limitaciones {#bcc-recommendations-limitations}
+### Recomendaciones y limitaciones {#bcc-recommendations-limitations}
 
 * Para garantizar el cumplimiento de la privacidad, los correos electrónicos CCO deben ser procesados por un sistema de archiving capaz de almacenar información personal (PII) de forma segura.
 
@@ -89,47 +89,47 @@ Sin embargo, la dirección de CCO se recoge para enviar comunicaciones siguiendo
 
 ### Cumplimiento del RGPD {#gdpr-compliance}
 
-Las regulaciones como el RGPD establecen que los sujetos de datos deben poder modificar su consentimiento en cualquier momento. Dado que los correos electrónicos CCO que envía con Journey Optimizer incluyen información de identificación personal (PII) segura, debe editar la variable **[!UICONTROL Esquema de eventos de comentarios de CJM Email BCC]** poder gestionar estos PII de conformidad con el RGPD y regulaciones similares.
+Las regulaciones como el RGPD establecen que los sujetos de datos deben poder modificar su consentimiento en cualquier momento. Dado que los correos electrónicos CCO que envía con Journey Optimizer incluyen información de identificación personal (PII) segura, debe editar la variable **[!UICONTROL CJM Email BCC Feedback Event Schema]** poder gestionar estos PII de conformidad con el RGPD y regulaciones similares.
 
-Para realizar esto, siga los pasos a continuación.
+Para ello, siga los pasos a continuación.
 
-1. Vaya a **[!UICONTROL Gestión de datos]** > **[!UICONTROL Esquemas]** > **[!UICONTROL Examinar]** y seleccione **[!UICONTROL Esquema de eventos de comentarios de CJM Email BCC]**.
+1. Vaya a **[!UICONTROL Data management]** > **[!UICONTROL Schemas]** > **[!UICONTROL Browse]** y seleccione **[!UICONTROL CJM Email BCC Feedback Event Schema]**.
 
    ![](assets/preset-bcc-schema.png)
 
-1. Haga clic para expandir **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagement]** then **[!UICONTROL secundarioRecipientDetail]**.
+1. Haga clic para expandir **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagment]** then **[!UICONTROL secondaryRecipientDetail]**.
 
 1. Select **[!UICONTROL originalRecipientAddress]**.
 
-1. En el **[!UICONTROL Propiedades del campo]** a la derecha, desplácese hacia abajo hasta el **[!UICONTROL Identidad]** casilla de verificación.
+1. En el **[!UICONTROL Field properties]** a la derecha, desplácese hacia abajo hasta el **[!UICONTROL Identity]** casilla de verificación.
 
-1. Selecciónelo y también seleccione **[!UICONTROL Identidad primaria]**.
+1. Selecciónelo y también seleccione **[!UICONTROL Primary identity]**.
 
 1. Seleccione un área de nombres en la lista desplegable.
 
    ![](assets/preset-bcc-schema-identity.png)
 
-1. Haga clic en **[!UICONTROL Aplicar]**.
+1. Haga clic en **[!UICONTROL Apply]**.
 
 >[!NOTE]
 >
->Obtenga más información sobre la administración de la privacidad y las regulaciones aplicables en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es){target=&quot;_blank&quot;}.
+>Obtenga más información sobre la administración de la privacidad y las normas aplicables en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=&quot;_blank&quot;}.
 
 ### Datos de informes de CCO {#bcc-reporting}
 
-Los informes como tales sobre CCO no están disponibles en los informes de recorrido y mensajes. Sin embargo, la información se almacena en un conjunto de datos del sistema llamado **[!UICONTROL Conjunto de datos del evento de comentarios de AJO BCC]**. Puede ejecutar consultas con este conjunto de datos para encontrar información útil para la depuración, por ejemplo.
+Los informes como tales en BCC no están disponibles en los informes de recorrido y mensajes. Sin embargo, la información se almacena en un conjunto de datos del sistema llamado **[!UICONTROL AJO BCC Feedback Event Dataset]**. Puede ejecutar consultas con este conjunto de datos para encontrar información útil para la depuración, por ejemplo.
 
-Puede acceder a este conjunto de datos a través de la interfaz de usuario. Select **[!UICONTROL Gestión de datos]** > **[!UICONTROL Conjuntos de datos]** > **[!UICONTROL Examinar]** y habilite **[!UICONTROL Mostrar conjuntos de datos del sistema]** cambie desde el filtro para mostrar los conjuntos de datos generados por el sistema. Obtenga más información sobre cómo acceder a los conjuntos de datos en [esta sección](../data/get-started-datasets.md#access-datasets).
+Puede acceder a este conjunto de datos a través de la interfaz de usuario. Select **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** y habilite **[!UICONTROL Show system datasets]** cambie desde el filtro para mostrar los conjuntos de datos generados por el sistema. Obtenga más información sobre cómo acceder a los conjuntos de datos en [esta sección](../data/get-started-datasets.md#access-datasets).
 
 ![](assets/preset-bcc-dataset.png)
 
-Para ejecutar consultas con este conjunto de datos, puede utilizar el Editor de consultas proporcionado por el [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}. Para acceder a él, seleccione **[!UICONTROL Gestión de datos]** > **[!UICONTROL Consultas]** y haga clic en **[!UICONTROL Crear consulta]**. [Más información](../data/get-started-queries.md)
+Para ejecutar consultas con este conjunto de datos, puede utilizar el Editor de consultas proporcionado por el [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}. Para acceder a él, seleccione **[!UICONTROL Data management]** > **[!UICONTROL Queries]** y haga clic en **[!UICONTROL Create query]**. [Más información](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
 Según la información que busque, puede ejecutar las siguientes consultas.
 
-1. Para todas las demás consultas a continuación, necesitará el ID de acción de recorrido. Ejecute esta consulta para recuperar todos los ID de acción asociados con un ID de versión de recorrido concreto en los últimos 2 días:
+1. Para todas las demás consultas a continuación, necesitará el ID de acción del recorrido. Ejecute esta consulta para recuperar todos los ID de acción asociados con un ID de versión de recorrido determinado en los últimos 2 días:
 
        &quot;
        SELECT
@@ -138,7 +138,7 @@ Según la información que busque, puede ejecutar las siguientes consultas.
        _experience.journeyOrchestration.stepEvents.journeyVersionID,
        _experience.journeyOrchestration.stepEvents.actionName,
        _experience.journeyOrchestration.stepEvents.actionID
-       FROM recorrido_step_events
+       FROM journey_step_events
        WHERE
        _experience.journeyOrchestration.stepEvents.journeyVersionID = &#39;&lt;journey version=&quot;&quot; id=&quot;&quot;>&#39; AND
        _experience.journeyOrchestration.stepEvents.actionID no es NULO Y
@@ -148,7 +148,7 @@ Según la información que busque, puede ejecutar las siguientes consultas.
    
    >[!NOTE]
    >
-   >Para obtener la variable `<journey version id>`seleccione el parámetro [Versión de recorrido](../building-journeys/journey.md#journey-versions) de la variable **[!UICONTROL administración de recorridos]** > **[!UICONTROL Recorridos]** para abrir el Navegador. El ID de versión de recorrido se muestra al final de la URL que se muestra en el explorador web.
+   >Para obtener la variable `<journey version id>`seleccione el parámetro [versión del recorrido](../building-journeys/journey.md#journey-versions) de la variable **[!UICONTROL Journey management]** > **[!UICONTROL Journeys]** para abrir el Navegador. El ID de versión del recorrido se muestra al final de la dirección URL que se muestra en el explorador web.
    >
    >![](assets/preset-bcc-action-id.png)
 
@@ -178,7 +178,7 @@ Según la información que busque, puede ejecutar las siguientes consultas.
    
    >[!NOTE]
    >
-   >Para obtener la variable `<journey action id>` ejecute la primera consulta descrita anteriormente utilizando el id de versión de recorrido. La variable `<recipient email address>` es la dirección de correo electrónico del destinatario objetivo o real.
+   >Para obtener la variable `<journey action id>` ejecute la primera consulta descrita anteriormente utilizando el id de versión del recorrido. La variable `<recipient email address>` es la dirección de correo electrónico del destinatario objetivo o real.
 
 1. Ejecute esta consulta para recuperar todos los eventos de comentarios de mensajes BCC generados para un mensaje en particular dirigido a un usuario específico en los últimos 2 días:
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1435'
-ht-degree: 2%
+source-wordcount: '1395'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ Defina la configuración del correo electrónico en la sección dedicada de la c
 
 La configuración de la superficie del correo electrónico se recoge para enviar comunicaciones siguiendo la lógica siguiente:
 
-* Para los recorridos por lotes y de ráfagas, no se aplica a la ejecución por lotes o de ráfagas que ya se había iniciado antes de que se realice la configuración de la superficie del correo electrónico. Los cambios se recogen en la siguiente recurrencia o en la nueva ejecución.
+* Para los recorridos por lotes y por ráfagas, no se aplica a la ejecución por lotes o por ráfagas que ya se había iniciado antes de que se realice la configuración de la superficie del correo electrónico. Los cambios se recogen en la siguiente recurrencia o en la nueva ejecución.
 
 * En el caso de los mensajes transaccionales, el cambio se recoge inmediatamente para la siguiente comunicación (con un retraso de hasta cinco minutos).
 
@@ -62,7 +62,7 @@ En el **Grupos de subdominios e IP** , debe:
 
 ![](assets/preset-subdomain-ip-pool.png)
 
-No puede continuar con la creación de superficie mientras el grupo IP seleccionado está bajo [edición](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Procesamiento]** ) y nunca se ha asociado con el subdominio seleccionado. De lo contrario, se seguirá utilizando la versión más antigua de la asociación de agrupación/subdominio de IP. Si este es el caso, guarde la superficie como borrador y vuelva a intentarlo una vez que el grupo de IP tenga la variable **[!UICONTROL Correcto]** estado.
+No puede continuar con la creación de superficie mientras el grupo IP seleccionado está bajo [edición](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** ) y nunca se ha asociado con el subdominio seleccionado. De lo contrario, se seguirá utilizando la versión más antigua de la asociación de agrupación/subdominio de IP. Si este es el caso, guarde la superficie como borrador y vuelva a intentarlo una vez que el grupo de IP tenga la variable **[!UICONTROL Success]** estado.
 
 >[!NOTE]
 >
@@ -70,11 +70,11 @@ No puede continuar con la creación de superficie mientras el grupo IP seleccion
 
 ## Cancelación de suscripción a una lista {#list-unsubscribe}
 
-upon [selección de un subdominio](#subdomains-and-ip-pools) de la lista, la variable **[!UICONTROL Habilitar la cancelación de la suscripción a una lista]** se muestra.
+upon [selección de un subdominio](#subdomains-and-ip-pools) de la lista, la variable **[!UICONTROL Enable List-Unsubscribe]** se muestra.
 
 ![](assets/preset-list-unsubscribe.png)
 
-Esta opción está habilitada de manera predeterminada.
+Esta opción está activada de forma predeterminada.
 
 Si lo deja habilitado, se incluirá automáticamente un vínculo de cancelación de suscripción en el encabezado del correo electrónico, como:
 
@@ -86,7 +86,7 @@ El vínculo de cancelación de suscripción consta de dos elementos:
 
 * Un **cancelar la suscripción de la dirección de correo electrónico**, a la que se envían todas las solicitudes de cancelación de suscripción.
 
-   En [!DNL Journey Optimizer], la dirección de correo electrónico de cancelación de suscripción es la predeterminada **[!UICONTROL Mailto (cancelar suscripción)]** dirección mostrada en la superficie del canal, según la variable [subdominio seleccionado](#subdomains-and-ip-pools).
+   En [!DNL Journey Optimizer], la dirección de correo electrónico de cancelación de suscripción es la predeterminada **[!UICONTROL Mailto (unsubscribe)]** dirección mostrada en la superficie del canal, según la variable [subdominio seleccionado](#subdomains-and-ip-pools).
 
    ![](assets/preset-list-unsubscribe-mailto.png)
 
@@ -106,21 +106,21 @@ Obtenga más información sobre cómo añadir un vínculo de cancelación de sus
 
 ## Parámetros de encabezado {#email-header}
 
-En el **[!UICONTROL Parámetros de encabezado]** , introduzca los nombres del remitente y las direcciones de correo electrónico asociadas al tipo de correos electrónicos enviados con esa superficie.
+En el **[!UICONTROL Header parameters]** , introduzca los nombres del remitente y las direcciones de correo electrónico asociadas al tipo de correos electrónicos enviados con esa superficie.
 
-* **[!UICONTROL Nombre del remitente]**: El nombre del remitente, como el nombre de su marca.
+* **[!UICONTROL Sender name]**: El nombre del remitente, como el nombre de su marca.
 
-* **[!UICONTROL Correo electrónico del remitente]**: La dirección de correo electrónico que desea utilizar para sus comunicaciones.
+* **[!UICONTROL Sender email]**: La dirección de correo electrónico que desea utilizar para sus comunicaciones.
 
-* **[!UICONTROL Responder a (nombre)]**: El nombre que se utilizará cuando el destinatario haga clic en la variable **Responder** en el software cliente de correo electrónico.
+* **[!UICONTROL Reply to (name)]**: El nombre que se utilizará cuando el destinatario haga clic en la variable **Responder** en el software cliente de correo electrónico.
 
-* **[!UICONTROL Responder a (correo electrónico)]**: La dirección de correo electrónico que se utilizará cuando el destinatario haga clic en el **Responder** en el software cliente de correo electrónico. [Más información](#reply-to-email)
+* **[!UICONTROL Reply to (email)]**: La dirección de correo electrónico que se utilizará cuando el destinatario haga clic en el **Responder** en el software cliente de correo electrónico. [Más información](#reply-to-email)
 
-* **[!UICONTROL Correo electrónico de error]**: Todos los errores generados por los ISP después de unos días de envío del correo (devoluciones asincrónicas) se reciben en esta dirección.
+* **[!UICONTROL Error email]**: Todos los errores generados por los ISP después de unos días de envío del correo (devoluciones asincrónicas) se reciben en esta dirección.
 
 >[!CAUTION]
 >
->La variable **[!UICONTROL Correo electrónico del remitente]** y **[!UICONTROL Correo electrónico de error]** Las direcciones deben utilizar el [subdominio delegado](../configuration/about-subdomain-delegation.md). Por ejemplo, si el subdominio delegado es *marketing.luma.com*, puede usar *contact@marketing.luma.com* y *error@marketing.luma.com*.
+>La variable **[!UICONTROL Sender email]** y **[!UICONTROL Error email]** Las direcciones deben utilizar el [subdominio delegado](../configuration/about-subdomain-delegation.md). Por ejemplo, si el subdominio delegado es *marketing.luma.com*, puede usar *contact@marketing.luma.com* y *error@marketing.luma.com*.
 
 ![](assets/preset-header.png)
 
@@ -130,7 +130,7 @@ En el **[!UICONTROL Parámetros de encabezado]** , introduzca los nombres del re
 
 ### Responder a correo electrónico {#reply-to-email}
 
-Al definir la variable **[!UICONTROL Responder a (correo electrónico)]** dirección, puede especificar cualquier dirección de correo electrónico siempre que sea una dirección válida, con el formato correcto y sin ningún tipo de error.
+Al definir la variable **[!UICONTROL Reply to (email)]** dirección, puede especificar cualquier dirección de correo electrónico siempre que sea una dirección válida, con el formato correcto y sin ningún tipo de error.
 
 Para garantizar una administración de respuestas adecuada, siga las recomendaciones a continuación:
 
@@ -149,19 +149,19 @@ Si desea reenviar a una dirección de correo electrónico específica, todos los
 * La dirección de correo electrónico de reenvío que elija. Tenga en cuenta que el dominio de dirección de correo electrónico de reenvío no puede coincidir con ningún subdominio delegado a Adobe.
 * El nombre del simulador de pruebas.
 * El nombre de superficie para el que se utilizará la dirección de correo electrónico de reenvío.
-* El **[!UICONTROL Responder a (correo electrónico)]** dirección definida en el nivel de superficie del canal.
+* El **[!UICONTROL Reply to (email)]** dirección definida en el nivel de superficie del canal.
 
 >[!NOTE]
 >
 >Solo puede haber una dirección de correo electrónico de reenvío por subdominio. Por lo tanto, si varias superficies utilizan el mismo subdominio, se debe utilizar la misma dirección de correo electrónico de reenvío para todas ellas.
 
-La dirección de correo electrónico de reenvío se configura por Adobe. Esto puede tardar entre 3 y 4 días.
+Adobe configurará la dirección de correo electrónico de reenvío. Esto puede tardar entre 3 y 4 días.
 
 ## Correo electrónico CCO {#bcc-email}
 
 Puede enviar una copia idéntica (o una copia ciega de los correos electrónicos enviados por [!DNL Journey Optimizer] a una bandeja de entrada BCC donde se almacenarán para fines de cumplimiento o archivo.
 
-Para ello, habilite la **[!UICONTROL Correo electrónico CCO]** función opcional en el nivel de superficie del canal. [Más información](../configuration/archiving-support.md#bcc-email)
+Para ello, habilite la **[!UICONTROL BCC email]** función opcional en el nivel de superficie del canal. [Más información](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
 
@@ -199,17 +199,17 @@ Obtenga más información sobre los reintentos en [esta sección](../configurati
 >title="Vista previa de los parámetros de seguimiento de URL"
 >abstract="Revise cómo se adjuntarán los parámetros de seguimiento a las direcciones URL presentes en el contenido del correo electrónico."
 
-Puede usar **[!UICONTROL Parámetros de seguimiento de URL]** para medir la eficacia de sus esfuerzos de marketing en todos los canales. Esta función es opcional.
+Puede usar **[!UICONTROL URL tracking parameters]** para medir la eficacia de sus esfuerzos de marketing en todos los canales. Esta función es opcional.
 
 Los parámetros definidos en esta sección se anexarán al final de las direcciones URL incluidas en el contenido del mensaje de correo electrónico. A continuación, puede capturar estos parámetros en herramientas de análisis web, como Adobe Analytics o Google Analytics, y crear varios informes de rendimiento.
 
 <!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
 
-Puede agregar hasta 10 parámetros de seguimiento utilizando la variable **[!UICONTROL Añadir nuevo parámetro]** botón.
+Puede agregar hasta 10 parámetros de seguimiento utilizando la variable **[!UICONTROL Add new parameter]** botón.
 
 ![](assets/preset-url-tracking.png)
 
-Para configurar un parámetro de seguimiento de URL, puede introducir directamente los valores deseados en la variable **[!UICONTROL Nombre]** y **[!UICONTROL Valor]** campos.
+Para configurar un parámetro de seguimiento de URL, puede introducir directamente los valores deseados en la variable **[!UICONTROL Name]** y **[!UICONTROL Value]** campos.
 
 <!--You can also choose from a list of predefined values by navigating to the following objects:
 * Journey attributes: **Source id**, **Source name**, **Source version id**
@@ -222,13 +222,13 @@ Para configurar un parámetro de seguimiento de URL, puede introducir directamen
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-También puede editar cada **[!UICONTROL Valor]** utilizando la variable [Editor de expresiones](../personalization/personalization-build-expressions.md). Haga clic en el icono de edición para abrir el editor. Desde allí, puede seleccionar los atributos contextuales de su elección o editar directamente el texto.
+También puede editar cada **[!UICONTROL Value]** utilizando la variable [Editor de expresiones](../personalization/personalization-build-expressions.md). Haga clic en el icono de edición para abrir el editor. Desde allí, puede seleccionar los atributos contextuales de su elección o editar directamente el texto.
 
 ![](assets/preset-url-tracking-editor.png)
 
 >[!NOTE]
 >
->Puede combinar la escritura de valores de texto y el uso de atributos contextuales desde el Editor de expresiones. Cada **[!UICONTROL Valor]** puede contener hasta 255 caracteres en total.
+>Puede combinar la escritura de valores de texto y el uso de atributos contextuales desde el Editor de expresiones. Cada **[!UICONTROL Value]** puede contener hasta 255 caracteres en total.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

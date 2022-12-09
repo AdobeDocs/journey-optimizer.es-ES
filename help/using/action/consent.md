@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 5%
+source-wordcount: '905'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ En Journey Optimizer, el consentimiento se define en varios niveles:
 
 ## Notas importantes {#important-notes}
 
-En Journey Optimizer, el consentimiento se puede aprovechar en las acciones personalizadas. Si desea utilizarla con las funcionalidades de los mensajes integrados, debe utilizar una actividad de condición para filtrar clientes en su recorrido.
+En Journey Optimizer, el consentimiento se puede aprovechar en las acciones personalizadas. Si desea utilizarla con las funcionalidades de los mensajes integrados, debe utilizar una actividad de condición para filtrar a los clientes en su recorrido.
 
 Con la administración de consentimiento, se analizan dos actividades de recorrido:
 
@@ -43,9 +43,9 @@ Con la administración de consentimiento, se analizan dos actividades de recorri
 
 No se tienen en cuenta todas las demás actividades utilizadas en un recorrido. Si inicia el recorrido con una calificación de segmento, no se tiene en cuenta el segmento.
 
-En un recorrido, si un perfil se excluye mediante una política de consentimiento en una acción personalizada, el mensaje no se le envía, pero continúa con el recorrido. El perfil no va a la ruta de tiempo de espera y error al utilizar una condición.
+En un recorrido, si un perfil está excluido por una política de consentimiento en una acción personalizada, el mensaje no se le envía, pero continúa el recorrido. El perfil no va a la ruta de tiempo de espera y error al utilizar una condición.
 
-Antes de actualizar las directivas en una acción personalizada ubicada en un recorrido, asegúrese de que el recorrido no tenga errores.
+Antes de actualizar las políticas en una acción personalizada ubicada en un recorrido, asegúrese de que el recorrido no tenga errores.
 
 <!--
 There are two types of latency regarding the use of consent policies:
@@ -102,7 +102,7 @@ Puede definir una **Acción de marketing adicional** para establecer el tipo de 
 
 ![](assets/consent3.png)
 
-Haga clic en el **Actualizar directivas** , en la parte inferior de la pantalla, para actualizar y comprobar la lista de directivas que se tienen en cuenta para esta acción personalizada. Esto es solo para fines informativos, mientras se crea un recorrido. Con los recorridos activos, las políticas de consentimiento se recuperan y actualizan automáticamente cada 6 horas.
+Haga clic en el **Actualizar directivas** , en la parte inferior de la pantalla, para actualizar y comprobar la lista de directivas que se tienen en cuenta para esta acción personalizada. Esto es solo para fines informativos, mientras se crea un recorrido. Con los recorridos en directo, las políticas de consentimiento se recuperan y actualizan automáticamente cada 6 horas.
 
 ![](assets/consent5.png)
 

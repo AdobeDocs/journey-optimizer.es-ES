@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Campos de captura de datos de eventos de journeySteps
-description: Campos de captura de datos de eventos de journeySteps
+title: Campos de captura de datos de eventos del journeyStep
+description: Campos de captura de datos de eventos del journeyStep
 feature: Reporting
 topic: Content Management
 role: User
@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 7%
+source-wordcount: '377'
+ht-degree: 0%
 
 ---
 
-# Campos de captura de datos de eventos de journeySteps {#sharing-fetch-fields}
+# Campos de captura de datos de eventos del journeyStep {#sharing-fetch-fields}
 
 Este grupo de campos se compartirá mediante journeyStepEvent y journeyStepProfileEvent.
 
@@ -31,7 +31,7 @@ Tipo: long
 
 Define si la recuperación por error se realiza en Adobe Experience Platform o en una fuente de datos personalizada.
 
-Tipo: cadena
+Tipo: string
 
 Valores:
 * aep
@@ -41,7 +41,7 @@ Valores:
 
 Tipo de error que se produce cuando se procesa la captura de datos.
 
-Tipo: cadena
+Tipo: string
 
 Valores:
 * http
@@ -53,7 +53,7 @@ Valores:
 
 Código de error de recuperación. Presente si el error tiene un código, como uno HTTP. Por ejemplo, si actionExecError es http, el código 404 representa el error HTTP 404.
 
-Tipo: cadena
+Tipo: string
 
 ## fetchOriginError {#fetchoriginerror-field}
 
@@ -73,13 +73,13 @@ Por ejemplo, se están recuperando datos del servicio de perfil unificado y se d
     "fetchOrigErrorCode": "500"
 ```
 
-Tipo: cadena
+Tipo: string
 
 ## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
 El código de error proporcionado por el sistema [!DNL Journey Optimizer] está consultando. Por ejemplo, puede ser 404, 500, etc.
 
-Tipo: cadena
+Tipo: string
 
 ## fetchCount {#fetchcount-field}
 
@@ -95,7 +95,7 @@ Tipo: long
 
 ## fetchPlatformCount {#fetchplatformcount-field}
 
-Cuántas veces se recuperan los datos de Adobe Experience Platform.
+Cuántas veces se recuperan los datos desde Adobe Experience Platform.
 
 Tipo: long
 

@@ -8,14 +8,14 @@ level: Experienced
 exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 6%
+source-wordcount: '145'
+ht-degree: 0%
 
 ---
 
 # Eliminar una ubicación {#delete-placement}
 
-Ocasionalmente puede ser necesario eliminar (DELETE) una colocación. Solo se pueden eliminar las ubicaciones que cree en el contenedor de inquilino. Para ello, realiza una solicitud de DELETE al [!DNL Offer Library] API que utiliza el ID de instancia de la colocación que desea eliminar.
+Ocasionalmente puede ser necesario eliminar (ELIMINAR) una colocación. Solo se pueden eliminar las ubicaciones que cree en el contenedor de inquilino. Esto se realiza realizando una solicitud DELETE al [!DNL Offer Library] API que utiliza el ID de instancia de la colocación que desea eliminar.
 
 **Formato de API**
 

@@ -10,7 +10,7 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 75%
+ht-degree: 0%
 
 ---
 
@@ -65,12 +65,12 @@ Esta es la lista de funciones compatibles.
 | Lista | [filter](../functions/functionfilter.md) |
 | Lista | [getListItem](../functions/functiongetlistitem.md) |
 | Lista | [en](../functions/functionin.md) |
-| Lista | [intersect](../functions/functionintersect.md) |
+| Lista | [intersección](../functions/functionintersect.md) |
 | Lista | [listSize](../functions/functionlimit.md) |
 | Lista | [listSize](../functions/functionlistsize.md) |
 | Lista | [serializeList](../functions/functionserializelist.md) |
 | Lista | [sort](../functions/functionsort.md) |
-| Math | [random](../functions/functionrandom.md) |
+| Matemáticas | [random](../functions/functionrandom.md) |
 | Matemáticas | [round](../functions/functionround.md) |
 | Cadena | [concat](../functions/functionconcat.md) |
 | Cadena | [contain](../functions/functioncontain.md) |

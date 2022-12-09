@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adición de ofertas personalizadas
+title: Añadir ofertas personalizadas
 description: Aprenda a añadir ofertas personalizadas a los mensajes
 feature: Journeys
 topic: Content Management
@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 1%
+source-wordcount: '570'
+ht-degree: 0%
 
 ---
 
-# Adición de ofertas personalizadas {#deliver-personalized-offers}
+# Añadir ofertas personalizadas {#deliver-personalized-offers}
 
 En [!DNL Journey Optimizer] correos electrónicos, puede insertar decisiones que aprovechen el motor de administración de decisiones para elegir la mejor oferta y enviarla a sus clientes.
 
@@ -37,13 +37,13 @@ Para insertar una decisión en un mensaje de correo electrónico, siga los pasos
 
 1. Cree el correo electrónico y, a continuación, abra el Diseñador de correo electrónico para configurar su contenido.
 
-1. Agregue un **[!UICONTROL Decisión de oferta]** componente de contenido.
+1. Agregue un **[!UICONTROL Offer decision]** componente de contenido.
 
    ![](assets/deliver-offer-component.png)
 
    Aprenda a utilizar los componentes de contenido en [esta sección](content-components.md).
 
-1. La variable **[!UICONTROL Decisión de oferta]** aparece en la paleta derecha. Haga clic en **[!UICONTROL Seleccionar decisión de oferta]**.
+1. La variable **[!UICONTROL Offer decision]** aparece en la paleta derecha. Haga clic en **[!UICONTROL Select Offer decision]**.
 
    ![](assets/deliver-offer-tab.png)
 
@@ -51,7 +51,7 @@ Para insertar una decisión en un mensaje de correo electrónico, siga los pasos
 
    [Ubicaciones](../offers/offer-library/creating-placements.md) son contenedores que se utilizan para mostrar sus ofertas. En este ejemplo, utilizaremos la ubicación &quot;imagen superior del correo electrónico&quot;. Esta ubicación se ha creado en la Biblioteca de ofertas para mostrar las ofertas de tipo imagen situadas en la parte superior de los mensajes.
 
-1. Se muestran las decisiones que coinciden con la colocación seleccionada. Seleccione la decisión que desea utilizar en el componente de contenido y haga clic en **[!UICONTROL Agregar]**.
+1. Se muestran las decisiones que coinciden con la colocación seleccionada. Seleccione la decisión que desea utilizar en el componente de contenido y haga clic en **[!UICONTROL Add]**.
 
    >[!NOTE]
    >
@@ -69,13 +69,13 @@ Después de guardar los cambios, las ofertas están listas para mostrarse en los
 
 ## Vista previa de ofertas en un correo electrónico {#preview-offers-in-email}
 
-Puede obtener una vista previa de las diferentes ofertas que forman parte de la decisión agregada al correo electrónico mediante la variable **[!UICONTROL Ofertas]** o las flechas de los componentes de contenido.
+Puede obtener una vista previa de las diferentes ofertas que forman parte de la decisión agregada al correo electrónico mediante la variable **[!UICONTROL Offers]** o las flechas de los componentes de contenido.
 
 ![](assets/deliver-offer-preview.png)
 
 Para mostrar las diferentes ofertas que forman parte de la decisión con un perfil de cliente, siga los pasos a continuación.
 
-1. Haga clic en **[!UICONTROL Vista previa]**.
+1. Haga clic en **[!UICONTROL Preview]**.
 
    ![](assets/deliver-offer-preview-button.png)
 
@@ -83,15 +83,15 @@ Para mostrar las diferentes ofertas que forman parte de la decisión con un perf
    >
    >Debe tener perfiles de prueba disponibles para poder previsualizar los mensajes. Obtenga información sobre cómo [crear perfiles de prueba](../segment/creating-test-profiles.md).
 
-1. Para elegir el área de nombres que se utiliza para identificar los perfiles de prueba, seleccione **[!UICONTROL Correo electrónico]** de la variable **[!UICONTROL Área de nombres de identidad]** campo .
+1. Para elegir el área de nombres que se utiliza para identificar los perfiles de prueba, seleccione **[!UICONTROL Email]** de la variable **[!UICONTROL Identity namespace]** campo .
 
    >[!NOTE]
    >
    >En este ejemplo, utilizaremos la variable **Correo electrónico** espacio de nombres. Obtenga más información sobre las áreas de nombres de identidad de Adobe Experience Platform [en esta sección](../segment/get-started-identity.md).
 
-1. En la lista de áreas de nombres de identidad, seleccione **[!UICONTROL Correo electrónico]** y haga clic en **[!UICONTROL Select]**.
+1. En la lista de áreas de nombres de identidad, seleccione **[!UICONTROL Email]** y haga clic en **[!UICONTROL Select]**.
 
-1. En el **[!UICONTROL Valor de identidad]** , introduzca el valor para identificar el perfil de prueba. En este ejemplo, introduzca la dirección de correo electrónico de un perfil de prueba.
+1. En el **[!UICONTROL Identity value]** , introduzca el valor para identificar el perfil de prueba. En este ejemplo, introduzca la dirección de correo electrónico de un perfil de prueba.
 
    <!--For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.-->
 
@@ -99,7 +99,7 @@ Para mostrar las diferentes ofertas que forman parte de la decisión con un perf
 
    ![](assets/deliver-offer-test-profiles.png)
 
-1. Haga clic en el **[!UICONTROL Vista previa]** para probar el mensaje.
+1. Haga clic en el **[!UICONTROL Preview]** para probar el mensaje.
 
 1. Seleccione un perfil de prueba. Se muestra la oferta correspondiente al perfil seleccionado (una mujer).
 

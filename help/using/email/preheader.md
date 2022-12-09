@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 2%
+source-wordcount: '189'
+ht-degree: 0%
 
 ---
 
@@ -32,26 +32,26 @@ En muchos casos, proporciona un breve resumen del correo electrónico y suele co
 
 Para definir el encabezado previo del correo electrónico, siga los pasos a continuación:
 
-1. En el Diseñador de correo electrónico, agregue al menos un **[!UICONTROL Componentes de estructura]** para empezar a diseñar el correo electrónico.
+1. En el Diseñador de correo electrónico, agregue al menos un **[!UICONTROL Structure components]** para empezar a diseñar el correo electrónico.
 
-1. Haga clic en el **[!UICONTROL Árbol de navegación]** en el panel izquierdo y seleccione **[!UICONTROL Cuerpo]**.
+1. Haga clic en el **[!UICONTROL Navigation tree]** en el panel izquierdo y seleccione **[!UICONTROL Body]**.
 
    ![](assets/preheader_body.png)
 
-1. En el **[!UICONTROL Configuración del cuerpo]** panel derecho, haga clic en el icono de edición situado junto al **[!UICONTROL Encabezado previo]** para añadir contenido.
+1. En el **[!UICONTROL Body settings]** panel derecho, haga clic en el icono de edición situado junto al **[!UICONTROL Preheader]** para añadir contenido.
 
    ![](assets/preheader_body_settings.png)
 
-1. Añada el encabezado previo. Puede personalizarlo aún más haciendo clic en el **[!UICONTROL Añadir personalización]** icono.
+1. Añada el encabezado previo. Puede personalizarlo aún más haciendo clic en el **[!UICONTROL Add personalization]** icono.
 
    ![](assets/preheader_3.png)
 
-1. En el **[!UICONTROL Editar personalización]** ventana, puede añadir **[!UICONTROL Bloque de contenido]**, **[!UICONTROL Contenido dinámico]** o **[!UICONTROL Campos personalizados]**.
+1. En el **[!UICONTROL Edit Personalization]** ventana, puede añadir **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** o **[!UICONTROL Personalization fields]**.
 
-1. Haga clic en **[!UICONTROL Validar]** para comprobar la sintaxis de personalización.
+1. Haga clic en **[!UICONTROL Validate]** para comprobar la sintaxis de personalización.
 
    ![](assets/preheader_4.png)
 
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 El encabezado previo ya está configurado para el correo electrónico.

@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: intersect
+title: intersección
 description: Obtenga información sobre la intersección de funciones
 feature: Journeys
 role: Data Engineer
@@ -8,8 +8,8 @@ level: Experienced
 exl-id: e236efa9-91a8-4f08-94c6-45f1e060bb2f
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 12%
+source-wordcount: '81'
+ht-degree: 0%
 
 ---
 

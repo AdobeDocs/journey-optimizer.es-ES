@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 9%
+source-wordcount: '155'
+ht-degree: 0%
 
 ---
 
 # Eliminar una oferta de reserva {#delete-fallback-offer}
 
-En ocasiones puede ser necesario eliminar (DELETE) una oferta de reserva. Solo se pueden eliminar las ofertas de reserva que cree en el contenedor de inquilino. Para ello, realiza una solicitud de DELETE al [!DNL Offer Library] API que utiliza el $id de la oferta de reserva que desea eliminar.
+En ocasiones puede ser necesario eliminar (ELIMINAR) una oferta de reserva. Solo se pueden eliminar las ofertas de reserva que cree en el contenedor de inquilino. Esto se realiza realizando una solicitud DELETE al [!DNL Offer Library] API que utiliza el $id de la oferta de reserva que desea eliminar.
 
 **Formato de API**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 Una respuesta correcta devuelve el estado HTTP 202 (sin contenido) y un cuerpo en blanco.
 
-Puede confirmar la eliminación intentando enviar una solicitud de búsqueda (GET) a la oferta de reserva. Deberá incluir un encabezado Accept en la solicitud, pero debe recibir un estado HTTP 404 (no encontrado) porque la oferta de reserva se ha eliminado del contenedor.
+Puede confirmar la eliminación intentando realizar una solicitud de búsqueda (GET) a la oferta de reserva. Deberá incluir un encabezado Accept en la solicitud, pero debe recibir un estado HTTP 404 (no encontrado) porque la oferta de reserva se ha eliminado del contenedor.

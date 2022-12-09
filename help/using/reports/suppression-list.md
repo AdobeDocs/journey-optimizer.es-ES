@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 4%
+source-wordcount: '759'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ Recopila direcciones de correo electrónico y dominios que se suprimen en todos 
 
 >[!NOTE]
 >
->Adobe mantiene una lista actualizada de las direcciones incorrectas conocidas que se han probado que son perjudiciales para la participación y la reputación del correo, y garantiza que los correos electrónicos no se envíen a ellas. Esta lista se administra en una lista global de supresión que es común en todos los clientes de Adobe. Las direcciones y los nombres de dominio contenidos en la lista de supresión global están ocultos. En los informes de envío solo se indica el número de destinatarios excluidos.
+>Adobe mantiene una lista actualizada de direcciones incorrectas conocidas que se han probado que son perjudiciales para la participación y la reputación del correo, y garantiza que los correos electrónicos no se envíen a ellas. Esta lista se administra en una lista global de supresión que es común en todos los clientes de Adobe. Las direcciones y los nombres de dominio contenidos en la lista de supresión global están ocultos. En los informes de envío solo se indica el número de destinatarios excluidos.
 
 ## ¿Por qué una lista de supresión? {#why-suppression-list}
 
@@ -33,7 +33,7 @@ Para controlar los mensajes de correo electrónico que reciben los propietarios 
 
 Si no recibe sus comentarios (como quejas por correo no deseado, devoluciones, etc.) teniendo en cuenta, valorarán su reputación por debajo. La lista de supresión le ayuda a cumplir con los comentarios de los ISP.
 
-Los destinatarios cuyas direcciones de correo electrónico se supriman se excluyen automáticamente de la entrega de mensajes. Esto acelera las entregas, ya que la tasa de error afecta significativamente a la velocidad de entrega.
+Los destinatarios cuyas direcciones de correo electrónico se supriman se excluyen automáticamente de la entrega de mensajes. Esto acelera los envíos, ya que la tasa de error tiene un efecto significativo en la velocidad de envío.
 
 ## ¿Qué hay en la lista de supresión? {#what-s-on-suppression-list}
 
@@ -49,17 +49,17 @@ Obtenga más información sobre los rechazos graves y los rechazos leves en [est
 
 >[!NOTE]
 >
->Las direcciones de los usuarios que han dejado de suscribirse no se pueden enviar a la lista de supresión, ya que no reciben correos electrónicos de [!DNL Journey Optimizer]. Su elección se gestiona a nivel de Experience Platform. Más información sobre [exclusión](../privacy/opt-out.md).
+>Las direcciones de los usuarios que han dejado de suscribirse no se pueden enviar a la lista de supresión, ya que no reciben correos electrónicos de [!DNL Journey Optimizer]. Su elección se gestiona en el nivel de Experience Platform. Más información sobre [exclusión](../privacy/opt-out.md).
 
 Para cada dirección, el motivo básico de la supresión y la categoría de supresión (suave, dura, etc.) se muestran en la lista de supresión. Obtenga más información sobre el acceso y la administración de la lista de supresión en [esta sección](../configuration/manage-suppression-list.md).
 
 >[!NOTE]
 >
->Los perfiles con **[!UICONTROL Suprimido]** se excluyen durante el proceso de envío de mensajes. Por lo tanto, mientras que la variable **Informes de recorrido** mostrará estos perfiles como si se hubieran movido a través del recorrido ([Leer segmento](../building-journeys/read-segment.md) y [actividades de mensaje](../building-journeys/journeys-message.md)), el **Informes de correo electrónico** no los incluirá en la variable **[!UICONTROL Enviado]** las métricas tal y como están filtradas antes del envío por correo electrónico.
+>Los perfiles con **[!UICONTROL Suppressed]** se excluyen durante el proceso de envío de mensajes. Por lo tanto, mientras que la variable **Informes de recorrido** mostrará estos perfiles como si se hubieran movido a través del recorrido ([Leer segmento](../building-journeys/read-segment.md) y [actividades de mensaje](../building-journeys/journeys-message.md)), el **Informes de correo electrónico** no los incluirá en la variable **[!UICONTROL Sent]** las métricas tal y como están filtradas antes del envío por correo electrónico.
 >
 >Obtenga más información sobre [Informe Activo](../reports/live-report.md) y [Informe global](../reports/global-report.md). Para averiguar el motivo de todos los casos de exclusión, puede usar la variable [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
 
-### Errores de envío {#delivery-failures}
+### Errores de entrega {#delivery-failures}
 
 Existen dos tipos de errores cuando falla una entrega:
 

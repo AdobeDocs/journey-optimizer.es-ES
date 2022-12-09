@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '2008'
-ht-degree: 3%
+source-wordcount: '1951'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ El lote correcto más reciente del conjunto de datos se muestra a la derecha. La
 >
 >Obtenga información sobre cómo acceder a los conjuntos de datos exportados para cada objeto de la biblioteca de ofertas en [esta sección](../export-catalog/access-dataset.md).
 
-Esta es la lista de todos los campos que se pueden utilizar en la variable **[!UICONTROL Repositorio de objetos de decisión: ofertas personalizadas]** conjunto de datos.
+Esta es la lista de todos los campos que se pueden utilizar en la variable **[!UICONTROL Decision Object Repository - Personalized Offers]** conjunto de datos.
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
@@ -34,9 +34,9 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 **Campo:** _id
 **Título:** Identificador
 **Descripción:** Identificador único del registro.
-**Tipo:** cadena
+**Tipo:** string
 
-## _experiencia {#experience}
+## _experience {#experience}
 
 **Campo:** _experience
 **Tipo:** object
@@ -58,14 +58,14 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
    **Campo:** endDate
    **Título:** Fecha y hora de finalización
    **Descripción:** La fecha de finalización de la validez de las opciones de decisión. Las opciones que han pasado su fecha de finalización ya no se pueden proponer en el proceso de toma de decisiones.
-   **Tipo:** cadena
+   **Tipo:** string
 
 * **Fecha y hora de inicio**
 
    **Campo:** startDate
    **Título:** Fecha y hora de inicio
    **Descripción:** La fecha de inicio de validez de las opciones de decisión. Las opciones que aún no han alcanzado su fecha de inicio no se pueden proponer en el proceso de toma de decisiones.
-   **Tipo:** cadena
+   **Tipo:** string
 
 #### _experiencia > decisiones > características
 
@@ -93,7 +93,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
    **Campo:** _type
    **Título:** Tipo de componente de contenido
    **Descripción:** Un conjunto enumerado de URI donde cada valor se asigna a un tipo dado al componente de contenido. Algunos consumidores de las representaciones de contenido esperan que el valor @type sea una referencia al esquema que describe propiedades adicionales del componente de contenido.
-   **Tipo:** cadena
+   **Tipo:** string
 
 * **_experience > decisioning > content > components > _dc**
 
@@ -106,7 +106,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
       **Campo:** format
       **Título:** Formato
       **Descripción:** La manifestación física o digital del recurso. Normalmente, Format debe incluir el tipo de medio del recurso. El formato puede utilizarse para determinar el software, el hardware u otro equipo necesario para visualizar o utilizar el recurso. Una práctica recomendada es seleccionar un valor de un vocabulario controlado (por ejemplo, la lista de [Tipos de medios de Internet](http://www.iana.org/assignments/media-types/) definición de formatos multimedia del equipo).
-      **Tipo:** cadena
+      **Tipo:** string
       **Ejemplo:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Idioma**
@@ -125,47 +125,47 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 
       **Campo:** id
       **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se usan las API de plataforma para recuperar la representación, el cliente puede esperar que una propiedad adicional \&quot;repo:resolveUrl\&quot; recupere el recurso.
-      **Tipo:** cadena
+      **Tipo:** string
       **Ejemplo:** urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
       **Campo:** name
       **Descripción:** Algunas sugerencias sobre dónde ubicar el repositorio que almacena el recurso externo por \&quot;repo:id\&quot;.
-      **Tipo:** cadena
+      **Tipo:** string
 
    * **repositoryID**
 
       **Campo:** repositoryID
       **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se usan las API de plataforma para recuperar la representación, el cliente puede esperar que una propiedad adicional \&quot;repo:resolveUrl\&quot; recupere el recurso.
-      **Tipo:** cadena
+      **Tipo:** string
       **Ejemplo:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
       **Campo:** resolveURL
       **Descripción:** Un localizador de recursos único opcional para leer el recurso en un repositorio de contenido. Esto facilitará la obtención del recurso sin que el cliente entienda dónde se administra el recurso y qué API llamar. Esto es similar a un vínculo HAL, pero la semántica es más simple y tiene más propósito.
-      **Tipo:** cadena
+      **Tipo:** string
       **Ejemplo:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;
 
 * **_experience > decisioning > content > components > content**
 
    **Campo:** contenido
    **Descripción:** Campo opcional para guardar contenido directamente. En lugar de hacer referencia al contenido en un repositorio de recursos, el componente puede incluir contenido simple directamente. Este campo no se utiliza para recursos de contenido compuesto, complejo y binario.
-   **Tipo:** cadena
+   **Tipo:** string
 
 * **_experience > decisioning > content > components > deliveryURL**
 
    **Campo:** deliveryURL
    **Descripción:** Un localizador de recursos único opcional para obtener el recurso de una red de entrega de contenido o de un extremo de servicio. Esta URL la utiliza un agente de usuario para acceder al recurso públicamente.
-   **Tipo:** cadena
+   **Tipo:** string
    **Ejemplo:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisioning > content > components > linkURL**
 
    **Campo:** linkURL
    **Descripción:** Un localizador de recursos único opcional para interacciones del usuario. Esta URL se utiliza para remitir al usuario final a en un agente de usuario y se puede realizar un seguimiento.
-   **Tipo:** cadena
+   **Tipo:** string
    **Ejemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 **_experience > decisioning > content > Placement**
@@ -173,7 +173,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 **Campo:** placement
 **Título:** Colocación
 **Descripción:** Colocación para cumplir. El valor es el URI (@id) de la ubicación de la oferta a la que se hace referencia. Consulte esquema https://ns.adobe.com/experience/decisioning/placement.
-**Tipo:** cadena
+**Tipo:** string
 
 #### _experience > decisiones > Estado del ciclo vital
 
@@ -188,7 +188,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 **Campo:** name
 **Título:** Nombre de opción de decisión
 **Descripción:** Nombre de opción que se muestra en varias interfaces de usuario.
-**Tipo:** cadena
+**Tipo:** string
 
 #### _experience > decisiones > profileConstraints
 
@@ -202,14 +202,14 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 **Campo:** descripción
 **Título:** Descripción
 **Descripción:** Descripción de restricción de perfil. Se utiliza para transmitir intenciones legibles sobre cómo o por qué se construyó esta restricción de perfil y/o qué opción incluirá o excluirá.
-**Tipo:** cadena
+**Tipo:** string
 
 **_experience > decisiones > profileConstraints > Regla de elegibilidad**
 
 **Campo:** eligibilityRule
 **Título:** Regla de elegibilidad
 **Descripción:** Referencia a una regla de decisión que se evalúa como true o false para un perfil determinado u otros objetos XDM contextuales dados. La regla se utiliza para decidir si la opción cumple los requisitos de un perfil determinado. El valor es el URI (@id) de la regla de decisión a la que se hace referencia. Consulte esquema https://ns.adobe.com/experience/decisioning/rule.
-**Tipo:** cadena
+**Tipo:** string
 
 **_experience > decisioning > profileConstraints > Tipo de restricción de perfil**
 
@@ -236,7 +236,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
    **Campo:** _id
    **Título:** Identificador
    **Descripción:** Identidad del segmento en el área de nombres relacionada.
-   **Tipo:** cadena
+   **Tipo:** string
 
 * **Área de nombres**
 
@@ -251,14 +251,14 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
       **Campo:** code
       **Título:** Código
       **Descripción:** El código es un identificador legible por humanos para el área de nombres y se puede utilizar para solicitar el id de área de nombres técnica que se utiliza para el procesamiento de gráficos de identidad.
-      **Tipo:** cadena
+      **Tipo:** string
 
 * **Identificador de experiencia**
 
    **Campo:** xid
    **Título:** Identificador de experiencia
    **Descripción:** Cuando está presente, este valor representa un identificador de área de nombres cruzada que es único en todos los identificadores de ámbito de área de nombres en todos los espacios de nombres.
-   **Tipo:** cadena
+   **Tipo:** string
 
 #### _experiencia > decisiones > clasificación
 
@@ -279,14 +279,14 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
    **Campo:** function
    **Título:** Función de puntuación
    **Descripción:** Referencia a una función que calcula una puntuación numérica para esta opción de decisión. Las opciones de decisión se ordenarán (clasificarán) según esa puntuación. El valor de esta propiedad es el URI (@id) de la función que se va a invocar con la opción on a la vez. Consulte esquema https://ns.adobe.com/experience/decisioning/function.
-   **Tipo:** cadena
+   **Tipo:** string
 
 * **Tipo de evaluación de pedido**
 
    **Campo:** orderEvaluationType
    **Título:** Tipo de evaluación de pedido
    **Descripción:** Especifica qué mecanismo de evaluación de pedidos se utiliza, prioridad estática de las opciones de decisión, función de puntuación que calcula un valor numérico para cada opción o estrategia de clasificación que recibe una lista para solicitarla.
-   **Tipo:** cadena
+   **Tipo:** string
    **Valores posibles:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
 * **Estrategia de clasificación**
@@ -294,7 +294,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
    **Campo:** rankingStrategy
    **Título:** Estrategia de clasificación
    **Descripción:** Referencia a una estrategia que clasifica una opción de lista de decisiones. Las opciones de decisión se devolverán en una lista ordenada. El valor de esta propiedad es el URI (@id) de la función que se va a invocar con la opción on a la vez. Consulte esquema https://ns.adobe.com/experience/decisioning/rankingStrategy.
-   **Tipo:** cadena
+   **Tipo:** string
 
 **_experience > decisiones > clasificación > Prioridad**
 
@@ -324,4 +324,4 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 **Campo:** etiqueta
 **Título:** Opción de decisión ETag
 **Descripción:** Revisión en la que se encontraba el objeto de opción de decisión cuando se tomó la instantánea.
-**Tipo:** cadena
+**Tipo:** string

@@ -9,7 +9,7 @@ exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 10%
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ Cadena
 | Parámetro | Tipo |
 |-----------|--------------|
 | base | string |
-| Target | string (RegExp) |
+| target | string (RegExp) |
 | reemplazo | string |
 
 ## Firma y tipo devuelto

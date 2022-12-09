@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 24%
+source-wordcount: '691'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ La capacidad de entrega es una medida del éxito de los envíos que llegan a las
 >
 >Para los clientes que reciben licencias de Healthcare Shield, Adobe utiliza Transport Layer Security (TLS) 1.2 para asegurar el intercambio de datos entre los sistemas de los usuarios (destinatarios) y Journey Optimizer (remitente). Si el servidor de correo de recepción no es compatible con TLS 1.2, los clientes tendrán problemas con la entrega, incluido el rebote de correo electrónico al remitente de origen.
 
-**La capacidad de envío de correo electrónico hace referencia al conjunto de características que determinan la capacidad de un mensaje para llegar a su destino a través de una dirección de correo electrónico personal, en poco tiempo y con la calidad esperada en términos de contenido y formato.** Estas características se dividen en cuatro categorías principales: calidad de datos, mensaje y contenido, infraestructura de envío y reputación. Juntas forman la base del éxito de un programa de envío de correo electrónico.
+**Capacidad de entrega de correos electrónicos** hace referencia al conjunto de características que determinan la capacidad de un mensaje para llegar a su destino, a través de una dirección de correo electrónico personal, en poco tiempo y con la calidad esperada en términos de contenido y formato. Estas características se dividen en cuatro categorías principales: calidad de datos, mensaje y contenido, infraestructura de envío y reputación. Juntos forman la base de un programa exitoso de envío de correo electrónico.
 
 La variable **tasa de entrega** es el número de mensajes que llegan a las bandejas de entrada de los destinatarios en comparación con el número de mensajes enviados. Depende de numerosos factores, en particular:
 
@@ -35,11 +35,11 @@ La variable **tasa de entrega** es el número de mensajes que llegan a las bande
 
 Para optimizar la capacidad de entrega de su [!DNL Journey Optimizer] experiencias, recomendamos utilizar las prácticas recomendadas que se enumeran en esta sección. Los problemas de entrega generalmente están relacionados con la protección contra el spam implementada por los proveedores de servicios de Internet (ISP) y los administradores de servidores de correo.
 
-Para profundizar en lo que es la capacidad de envío y para obtener más información sobre los términos, conceptos y enfoques clave de la capacidad de envío, consulte [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es){target=&quot;_blank&quot;}.
+Para profundizar en lo que es la capacidad de envío y para obtener más información sobre los términos, conceptos y enfoques clave de la capacidad de envío, consulte [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target=&quot;_blank&quot;}.
 
 ## Reducir la tasa de quejas {#reduce-complaint-rate}
 
-Los proveedores de servicios de Internet generalmente tienen un medio prominente para informar un mensaje recibido como correo no deseado. Esto permite identificar fuentes no fiables. Al cumplir rápidamente las solicitudes de exclusión y mostrar que es un remitente fiable, puede reducir las tasas de quejas. [Obtenga más información sobre la administración de la exclusión](../privacy/opt-out.md#opt-out-management).
+Los ISP suelen tener un medio prominente para informar de un mensaje recibido como correo no deseado. Esto permite identificar fuentes no fiables. Al cumplir rápidamente las solicitudes de exclusión y mostrar que es un remitente fiable, puede reducir las tasas de quejas. [Obtenga más información sobre la administración de la exclusión](../privacy/opt-out.md#opt-out-management).
 
 Como regla general, no intente interferir con los destinatarios que deseen optar por la exclusión obligándolos a rellenar campos como, por ejemplo, su dirección de correo electrónico o su nombre. La página de aterrizaje de baja de suscripción solo debe tener un botón de validación.
 
@@ -57,7 +57,7 @@ Para proteger la capacidad de envío, los destinatarios cuyas direcciones están
 
 Utilice las funciones que ofrece [!DNL Journey Optimizer] para monitorizar la capacidad de envío.
 
-La variable **[!UICONTROL Ejecuciones]** de la lista de mensajes le permite comprobar el rendimiento de sus envíos a través de un conjunto de indicadores en tiempo real. Entre otras cosas, esta pestaña muestra:
+La variable **[!UICONTROL Executions]** de la lista de mensajes le permite comprobar el rendimiento de sus envíos a través de un conjunto de indicadores en tiempo real. Entre otras cosas, esta pestaña muestra:
 * Número de mensajes que se ejecutan, envían y envían correctamente.
 * El número de mensajes que se han abierto y el número de mensajes/vínculos en los que se ha hecho clic.
 
@@ -67,7 +67,7 @@ En menor medida, el contenido de ciertos mensajes puede detectarse como correo n
 
 Para mejorar la tasa de entrega y asegurarse de que los correos electrónicos llegan a los destinatarios, siga los principios a continuación al diseñar el contenido del mensaje:
 
-* **Nombre y dirección del remitente**: La dirección debe identificar explícitamente al remitente. El dominio debe ser propiedad del remitente y estar registrado por él. El registro de dominios no debe privatizarse.
+* **Nombre y dirección del remitente**: La dirección debe identificar explícitamente al remitente. El dominio debe ser propiedad del remitente y estar registrado en él. El registro de dominios no debe privatizarse.
 
 * **Cancelar suscripción a un vínculo y a una página de aterrizaje**: El enlace de cancelación de suscripción es esencial. Debe ser visible y válido, y el formulario debe ser funcional.
 

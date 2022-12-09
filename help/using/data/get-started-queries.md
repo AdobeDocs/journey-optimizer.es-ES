@@ -9,14 +9,14 @@ level: Beginner
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 12%
+source-wordcount: '105'
+ht-degree: 0%
 
 ---
 
 # Introducción a las consultas {#queries-gs}
 
-El Editor de consultas es una herramienta interactiva que proporciona el servicio de consultas de Adobe Experience Platform, que le permite escribir, validar y ejecutar consultas para los datos de experiencia del cliente en [!DNL Adobe Journey Optimizer] interfaz de usuario.
+El Editor de consultas es una herramienta interactiva que proporciona el servicio de consultas de Adobe Experience Platform, que le permite escribir, validar y ejecutar consultas para datos de experiencias de clientes en [!DNL Adobe Journey Optimizer] interfaz de usuario.
 
 El Editor de consultas admite el desarrollo de consultas para análisis y exploración de datos, y permite ejecutar consultas interactivas con fines de desarrollo, así como consultas no interactivas para rellenar [conjuntos de datos](get-started-datasets.md).
 
@@ -26,5 +26,5 @@ Aprenda a utilizar el Editor de consultas en [esta documentación](https://exper
 
 **Consulte también**
 
-* [Documentación del servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es){target=&quot;_blank&quot;}
-* [Vídeo introductorio del servicio de consulta](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=es){target=&quot;_blank&quot;}
+* [Documentación del servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/home.html){target=&quot;_blank&quot;}
+* [Vídeo introductorio del servicio de consulta](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target=&quot;_blank&quot;}

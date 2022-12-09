@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 21%
+source-wordcount: '190'
+ht-degree: 0%
 
 ---
 
@@ -23,18 +23,18 @@ ht-degree: 21%
 
 Administración de usuarios en [!DNL Journey Optimizer] se basa en tres conceptos:
 
-* **[!UICONTROL Perfil del producto]**: Conjunto de derechos unitarios que permite a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz. Consulte la [Perfiles de producto integrados](ootb-product-profiles.md) sección
+* **[!UICONTROL Product profile]**: Conjunto de derechos unitarios que permite a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz. Consulte la [Perfiles de producto integrados](ootb-product-profiles.md) sección
 
-* **[!UICONTROL Permisos]**: Derechos unitarios que le permiten definir las autorizaciones asignadas a **[!UICONTROL Perfil del producto]**. Cada permiso se recopila en funciones, por ejemplo, Recorrido u Ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Consulte la [Niveles de permisos](high-low-permissions.md) para obtener más información.
+* **[!UICONTROL Permissions]**: Derechos unitarios que le permiten definir las autorizaciones asignadas a **[!UICONTROL Product profile]**. Cada permiso se recopila en funciones, como Recorrido u Ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Consulte la [Niveles de permisos](high-low-permissions.md) para obtener más información.
 
 * **[!UICONTROL Sandbox]**: Entornos limitados virtuales que dividen instancias en entornos virtuales independientes y aislados. Consulte la [Uso de entornos limitados](sandboxes.md)
 
-Cada concepto puede ser administrado por **[!UICONTROL Administradores de productos]** que tienen acceso a Admin Console. [Obtenga más información acerca de Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
+Cada concepto puede ser administrado por **[!UICONTROL Product administrators]** que tienen acceso a Admin Console. [Más información sobre Adobe Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html).
 
 ![](assets/do-not-localize/permissions_2.png)
 
 ## Vídeo explicativo{#video}
 
-Obtenga más información sobre el sistema de control de acceso y los perfiles de producto personalizados en Adobe Journey Optimizer. Aprenda a administrar perfiles y permisos de productos, y a añadir y administrar usuarios.
+Obtenga más información sobre el sistema de control de acceso y los perfiles de producto personalizados en Adobe Journey Optimizer. Obtenga información sobre cómo administrar perfiles y permisos de productos y cómo agregar y administrar usuarios.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)

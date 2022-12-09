@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introducción a las notificaciones push
-description: Obtenga información sobre cómo crear una notificación push en Journey Optimizer
+description: Aprenda a crear una notificación push en Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
+source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 11%
+source-wordcount: '335'
+ht-degree: 0%
 
 ---
 
@@ -22,11 +23,11 @@ ht-degree: 11%
 
 Las notificaciones push le ayudan a llegar a sus usuarios de aplicaciones móviles en cualquier momento, especialmente cuando no utilizan activamente su aplicación. Las notificaciones push pueden ayudarle a lograr una variedad de casos de uso, como proporcionar actualizaciones sobre el servicio, solicitar al usuario que tome medidas, avisar al usuario de una nueva oferta, etc. Las plataformas de dispositivo requieren la inclusión antes de que los usuarios finales puedan recibir o ver sus notificaciones. La inclusión del usuario puede recibirse tan pronto como se inicia la aplicación por primera vez después de la instalación, o en una sesión o flujo de trabajo posterior, según corresponda.
 
-[!DNL Journey Optimizer] admite notificaciones push y le ayuda a enviar notificaciones muy relevantes a tasas de rendimiento líderes en el sector. Las notificaciones push pueden incluir personalización y contexto basado en Recorridos para aprovechar la información de datos que su marca tiene con Adobe Experience Cloud.
+[!DNL Journey Optimizer] admite notificaciones push y le ayuda a enviar notificaciones muy relevantes a tasas de rendimiento líderes en el sector. Las notificaciones push pueden incluir personalización y contexto basado en recorridos para aprovechar la información de datos que su marca tiene con Adobe Experience Cloud.
 
 Se pueden crear notificaciones push:
 
-* En un **Recorrido**: Una vez que haya agregado una actividad Push en el recorrido y haya definido la configuración básica, utilice la variable **[!UICONTROL Acciones: Push]** panel derecho para crear el contenido de las notificaciones push.
+* En un **Recorrido**: Una vez añadida una actividad Push en el recorrido y definida la configuración básica, utilice la variable **[!UICONTROL Actions: Push]** panel derecho para crear el contenido de las notificaciones push.
 
    Para obtener más información sobre cómo configurar el recorrido, consulte esta [página](../building-journeys/journey-gs.md).
 
@@ -45,7 +46,7 @@ Utilice las pestañas dedicadas para definir la configuración de las notificaci
 <a href="create-push.md">
 <img alt="Posible cliente" src="../assets/do-not-localize/push-create.jpeg">
 </a>
-<div><a href="create-push.md"><strong>Crear una notificación push</strong>
+<div><a href="create-push.md"><strong>Creación de una notificación push</strong>
 </div>
 <p>
 </td>

@@ -10,8 +10,8 @@ level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 10%
+source-wordcount: '426'
+ht-degree: 0%
 
 ---
 
@@ -25,14 +25,14 @@ Combinación de flujos de trabajo creativos y de marketing mediante [!DNL Adobe 
 
 Obtenga más información en [Documentación de Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
 
-[!DNL Adobe Experience Manager Assets Essentials] se puede acceder directamente desde [!DNL Adobe Journey Optimizer] a través del menú de la izquierda **[!UICONTROL Recursos]** para obtener más información. También puede acceder a recursos y carpetas cuando [diseño del contenido de un correo electrónico](get-started-email-design.md).
+[!DNL Adobe Experience Manager Assets Essentials] se puede acceder directamente desde [!DNL Adobe Journey Optimizer] a través del menú de la izquierda **[!UICONTROL Assets]** para obtener más información. También puede acceder a recursos y carpetas cuando [diseño del contenido de un correo electrónico](get-started-email-design.md).
 
 ## Requisitos previos{#assets-prerequisites}
 
-Antes de usar [!DNL Adobe Experience Manager Assets Essentials], debe agregar usuarios al **Usuarios consumidores de Assets Essentials** o/y **Usuarios de Assets Essentials** Perfiles de producto. Más información en [Documentación de Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
+Antes de usar [!DNL Adobe Experience Manager Assets Essentials], debe agregar usuarios al **Usuarios de consumidores de Assets Essentials** o/y **Usuarios de Assets Essentials** Perfiles de producto. Más información en [Documentación de Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
 >[!NOTE]
->Para los productos de Journey Optimizer obtenidos antes del 6 de enero de 2022, debe implementar [!DNL Adobe Experience Manager Assets Essentials] para su organización. Obtenga más información en la sección [Implementación de Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
+>Para los productos de Journey Optimizer obtenidos antes del 6 de enero de 2022, debe implementar [!DNL Adobe Experience Manager Assets Essentials] para su organización. Obtenga más información en la [Implementar Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)sección {target=&quot;_blank&quot;}.
 
 ## Cargar e insertar recursos{#add-asset}
 
@@ -40,25 +40,25 @@ Para importar archivos a [!DNL Assets Essentials], primero debe examinar o crear
 
 Para obtener más información sobre cómo cargar recursos, consulte [Documentación de Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target=&quot;_blank&quot;}.
 
-1. De [!DNL Adobe Journey Optimizer] página de inicio, seleccione **[!UICONTROL Recursos]** en la pestaña **[!UICONTROL Gestión de contenido]** para acceder a [!DNL Assets Essentials].
+1. De [!DNL Adobe Journey Optimizer] página de inicio, seleccione **[!UICONTROL Assets]** en la pestaña **[!UICONTROL Content management]** para acceder a [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
 
 1. Haga doble clic en una carpeta de la sección central o de la vista de árbol para abrirla.
 
-   También puede hacer clic en **[!UICONTROL Crear carpeta]** para crear una carpeta nueva.
+   También puede hacer clic en **[!UICONTROL Create folder]** para crear una carpeta nueva.
 
    ![](assets/media_library_8.png)
 
-1. Una vez en la carpeta seleccionada o creada, haga clic en **[!UICONTROL Agregar recursos]** para cargar el nuevo recurso en la carpeta.
+1. Una vez en la carpeta seleccionada o creada, haga clic en **[!UICONTROL Add Assets]** para cargar el nuevo recurso en la carpeta.
 
    ![](assets/media_library_2.png)
 
-1. En el **[!UICONTROL Cargar archivos]**, haga clic en **[!UICONTROL Examinar]** y elija si desea **[!UICONTROL Examinar archivos]** o **[!UICONTROL Examinar carpetas]**.
+1. En el **[!UICONTROL Upload files]**, haga clic en **[!UICONTROL Browse]** y elija si desea **[!UICONTROL Browse files]** o **[!UICONTROL Browse folders]**.
 
    ![](assets/media_library_3.png)
 
-1. Seleccione el archivo que desea cargar. Cuando termine, haga clic en **[!UICONTROL Cargar]**.
+1. Seleccione el archivo que desea cargar. Cuando termine, haga clic en **[!UICONTROL Upload]**.
 
    Para obtener más información sobre cómo administrar los recursos, consulte esta [página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
@@ -68,17 +68,17 @@ Para obtener más información sobre cómo cargar recursos, consulte [Documentac
 
    ![](assets/media_library_12.png)
 
-1. De [!DNL Adobe Journey Optimizer], seleccione **[!UICONTROL Selector de recursos]** del panel izquierdo del diseñador de correo electrónico.
+1. De [!DNL Adobe Journey Optimizer], seleccione **[!UICONTROL Asset picker]** del panel izquierdo del diseñador de correo electrónico.
 
    ![](assets/media_library_5.png)
 
-1. Seleccione su **[!UICONTROL Recursos]** carpeta. También puede buscar el recurso o la carpeta en la barra de búsqueda.
+1. Seleccione su **[!UICONTROL Assets]** carpeta. También puede buscar el recurso o la carpeta en la barra de búsqueda.
 
 1. Arrastre y suelte el recurso en el contenido del correo electrónico.
 
    ![](assets/media_library_6.png)
 
-1. Puede personalizar aún más los recursos, como agregar un vínculo externo o un texto mediante la función **[!UICONTROL Configuración de componentes]**. [Obtenga más información sobre la configuración de componentes](content-components.md)
+1. Puede personalizar aún más los recursos, como agregar un vínculo externo o un texto mediante la función **[!UICONTROL Components settings]**. [Obtenga más información sobre la configuración de componentes](content-components.md)
 
    ![](assets/media_library_13.png)
 

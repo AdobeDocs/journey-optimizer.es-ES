@@ -9,7 +9,7 @@ exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 14%
+ht-degree: 0%
 
 ---
 
@@ -35,9 +35,9 @@ Antes de comenzar a crear ofertas, debe definir varios componentes que utilizar�
 
 <table>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">Crear ubicaciones</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">Creación de ubicaciones</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">Crear reglas de decisión</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">Crear etiquetas</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">Creación de etiquetas</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../ranking/create-ranking-formulas.md">Crear fórmulas de clasificación</a></p></td>
 </table>
 
@@ -51,7 +51,7 @@ Antes de comenzar a crear ofertas, debe definir varios componentes que utilizar�
 
 <table>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">Cree ofertas</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">Crear ofertas</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">Crear ofertas de reserva</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">Crear colecciones</a></p></td></tr>
 </table>

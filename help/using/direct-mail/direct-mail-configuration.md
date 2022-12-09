@@ -1,6 +1,6 @@
 ---
 title: Configuración de correo postal
-description: Obtenga información sobre cómo configurar el canal de correo postal en Journey Optimizer
+description: Aprenda a configurar el canal de correo postal en Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -10,7 +10,7 @@ hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Antes de poder generar este archivo, debe crear:
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
 >title="Elija la región de AWS"
->abstract="Seleccione la región geográfica del servidor de AWS donde desea exportar los archivos de correo postal. Como práctica general, se prefiere elegir la región más cercana a la ubicación del proveedor de correo postal."
+>abstract="Seleccione la región geográfica del servidor AWS donde desea exportar los archivos de correo postal. Como práctica general, se prefiere elegir la región más cercana a la ubicación del proveedor de correo postal."
 
 Para enviar un mensaje de correo postal, [!DNL Journey Optimizer] genera y exporta el archivo que contiene los datos de audiencia de destino a un servidor.
 
@@ -67,13 +67,13 @@ Debe especificar los detalles del servidor para que su proveedor de correo posta
 
 Para configurar el enrutamiento del archivo, siga los pasos a continuación.
 
-1. Acceda a la **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de enrutamiento de archivos]** > **[!UICONTROL Enrutamiento de archivos]** a continuación, haga clic en **[!UICONTROL Crear configuración de enrutamiento]**.
+1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL File routing configuration]** > **[!UICONTROL File Routing]** a continuación, haga clic en **[!UICONTROL Create routing configuration]**.
 
    ![](assets/file-routing-config-button.png)
 
 1. Establezca un nombre para la configuración.
 
-1. Seleccione el **[!UICONTROL Tipo de servidor]** que desea utilizar para exportar los archivos de correo postal.
+1. Seleccione el **[!UICONTROL Server type]** que desea utilizar para exportar los archivos de correo postal.
 
    ![](assets/file-routing-config-type.png)
 
@@ -85,19 +85,19 @@ Para configurar el enrutamiento del archivo, siga los pasos a continuación.
 
    ![](assets/file-routing-config-sftp-details.png)
 
-1. Si ha seleccionado **[!UICONTROL Amazon S3]**, elija el **[!UICONTROL Región de AWS]** donde se ubicará la infraestructura del servidor.
+1. Si ha seleccionado **[!UICONTROL Amazon S3]**, elija el **[!UICONTROL AWS region]** donde se ubicará la infraestructura del servidor.
 
    ![](assets/file-routing-config-aws-region.png)
 
    >[!NOTE]
    >
-   >Las regiones de AWS son áreas geográficas que AWS utiliza para alojar sus infraestructuras de nube. Como práctica general, se prefiere elegir la región más cercana a la ubicación del proveedor de correo postal.
+   >Las regiones de AWS son áreas geográficas que AWS utiliza para alojar sus infraestructuras en la nube. Como práctica general, se prefiere elegir la región más cercana a la ubicación del proveedor de correo postal.
 
-1. Seleccione **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se crea con la variable **[!UICONTROL Activo]** estado. Ahora está listo para utilizarse en un [superficie de correo postal](#direct-mail-surface).
+1. Select **[!UICONTROL Submit]**. La configuración de enrutamiento de archivos se crea con la variable **[!UICONTROL Active]** estado. Ahora está listo para utilizarse en un [superficie de correo postal](#direct-mail-surface).
 
    >[!NOTE]
    >
-   >También puede seleccionar **[!UICONTROL Guardar como borrador]** para crear la configuración de enrutamiento del archivo, pero no podrá seleccionarla en una superficie hasta que **[!UICONTROL Activo]**.
+   >También puede seleccionar **[!UICONTROL Save as draft]** para crear la configuración de enrutamiento del archivo, pero no podrá seleccionarla en una superficie hasta que **[!UICONTROL Active]**.
 
 ## Crear una superficie de correo postal {#direct-mail-surface}
 
@@ -124,7 +124,7 @@ Una superficie de correo postal también debe incluir la configuración de enrut
 
 1. Cree una superficie de canal. [Más información](../configuration/channel-surfaces.md)
 
-1. Seleccione el **[!UICONTROL Correo postal]** canal.
+1. Seleccione el **[!UICONTROL Direct mail]** canal.
 
    ![](assets/surface-direct-mail-channel.png)
 
@@ -134,9 +134,9 @@ Una superficie de correo postal también debe incluir la configuración de enrut
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
-1. Seleccione el formato de archivo: **[!UICONTROL CSV]** o **[!UICONTROL Texto delimitado]**.
+1. Seleccione el formato de archivo: **[!UICONTROL CSV]** o **[!UICONTROL Text delimited]**.
 
-1. Seleccione el **[!UICONTROL Configuración de enrutamiento de archivos]** entre los que ha creado. Esto define dónde se exportará el archivo para que lo utilice su proveedor de correo postal.
+1. Seleccione el **[!UICONTROL File routing configuration]** entre los que ha creado. Esto define dónde se exportará el archivo para que lo utilice su proveedor de correo postal.
 
    >[!CAUTION]
    >

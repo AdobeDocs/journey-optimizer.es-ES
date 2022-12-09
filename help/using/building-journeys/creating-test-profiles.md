@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Creación de un perfil de prueba
-description: Aprenda a crear un perfil de prueba
+description: Obtenga información sobre cómo crear un perfil de prueba
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1375'
-ht-degree: 3%
+source-wordcount: '1290'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Existen varias formas de crear perfiles de prueba. Puede encontrar en esta pági
 
 También puede cargar un archivo json en un conjunto de datos existente. Para obtener más información, consulte [Documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target=&quot;_blank&quot;}.
 
-Tenga en cuenta que la creación de un perfil de prueba es similar a la creación de perfiles normales en Adobe Experience Platform. Para obtener más información, consulte [Documentación del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target=&quot;_blank&quot;}.
+Tenga en cuenta que la creación de un perfil de prueba es similar a la creación de perfiles normales en Adobe Experience Platform. Para obtener más información, consulte [Documentación del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
 ➡️ [Aprenda a crear perfiles de prueba en este vídeo](#video)
 
@@ -39,27 +39,27 @@ Para poder crear perfiles, primero debe crear un esquema y un conjunto de datos 
 
 Hasta **crear un esquema**, siga estos pasos:
 
-1. En la sección de menú ADMINISTRACIÓN DE DATOS , haga clic en **[!UICONTROL Esquemas]**.
+1. En la sección de menú ADMINISTRACIÓN DE DATOS , haga clic en **[!UICONTROL Schemas]**.
    ![](assets/test-profiles-0.png)
-1. Haga clic en **[!UICONTROL Crear esquema]**, en la parte superior derecha, seleccione un tipo de esquema, por ejemplo **Perfil individual XDM**.
+1. Haga clic en **[!UICONTROL Create schema]**, en la parte superior derecha, seleccione un tipo de esquema, por ejemplo **Perfil individual XDM**.
    ![](assets/test-profiles-1.png)
 1. Seleccione los grupos de campos correspondientes. Asegúrese de agregar la variable **Detalles de la prueba de perfil** grupo de campos.
    ![](assets/test-profiles-1-ter.png)
-Una vez finalizado, haga clic en **[!UICONTROL Agregar grupos de campos]**: la lista de grupos de campos se muestra en la pantalla de descripción general del esquema.
+Una vez finalizado, haga clic en **[!UICONTROL Add field groups]**: la lista de grupos de campos se muestra en la pantalla de descripción general del esquema.
    ![](assets/test-profiles-2.png)
 
    >[!NOTE]
    >
    >* Haga clic en el nombre del esquema para cambiarlo y actualizar sus propiedades.
    >
-   >* Haga clic en el **[!UICONTROL Agregar]** en la sección Field groups para seleccionar otros grupos de campos a añadir en el esquema
+   >* Haga clic en el **[!UICONTROL Add]** en la sección Field groups para seleccionar otros grupos de campos a añadir en el esquema
 
 
 1. En la lista de campos, haga clic en el campo que desee definir como identidad principal.
    ![](assets/test-profiles-3.png)
-1. En el **[!UICONTROL Propiedades del campo]** panel derecho, marque **[!UICONTROL Identidad]** y **[!UICONTROL Identidad principal]** y seleccione un área de nombres. Si desea que la identidad principal sea una dirección de correo electrónico, elija la **[!UICONTROL Correo electrónico]** espacio de nombres. Haga clic en **[!UICONTROL Aplicar]**.
+1. En el **[!UICONTROL Field properties]** panel derecho, marque **[!UICONTROL Identity]** y **[!UICONTROL Primary Identity]** y seleccione un área de nombres. Si desea que la identidad principal sea una dirección de correo electrónico, elija la **[!UICONTROL Email]** espacio de nombres. Haga clic en **[!UICONTROL Apply]**.
    ![](assets/test-profiles-4bis.png)
-1. Seleccione el esquema y habilite el **[!UICONTROL Perfil]** en la **[!UICONTROL Propiedades del esquema]** panel.
+1. Seleccione el esquema y habilite el **[!UICONTROL Profile]** en la **[!UICONTROL Schema properties]** panel.
    ![](assets/test-profiles-5.png)
 1. Haga clic en **Guardar**.
 
@@ -69,15 +69,15 @@ Una vez finalizado, haga clic en **[!UICONTROL Agregar grupos de campos]**: la l
 
 A continuación, debe **crear el conjunto de datos** en el que se importarán los perfiles. Siga estos pasos:
 
-1. Vaya a **[!UICONTROL Conjuntos de datos]** y haga clic en **[!UICONTROL Crear conjunto de datos]**.
+1. Vaya a **[!UICONTROL Datasets]** y haga clic en **[!UICONTROL Create dataset]**.
    ![](assets/test-profiles-6.png)
-1. Choose **[!UICONTROL Crear conjunto de datos a partir del esquema]**.
+1. Choose **[!UICONTROL Create dataset from schema]**.
    ![](assets/test-profiles-7.png)
-1. Seleccione el esquema creado anteriormente y haga clic en **[!UICONTROL Siguiente]**.
+1. Seleccione el esquema creado anteriormente y haga clic en **[!UICONTROL Next]**.
    ![](assets/test-profiles-8.png)
-1. Elija un nombre y haga clic en **[!UICONTROL Finalizar]**.
+1. Elija un nombre y haga clic en **[!UICONTROL Finish]**.
    ![](assets/test-profiles-9.png)
-1. Active la variable **[!UICONTROL Perfil]** .
+1. Active la variable **[!UICONTROL Profile]** .
    ![](assets/test-profiles-10.png)
 
 >[!NOTE]
@@ -90,7 +90,7 @@ Desde la página de inicio de Adobe Journey Optimizer, puede aprovechar los perf
 
 ![](assets/use-cases-home.png)
 
-Haga clic en el botón **[!UICONTROL Comenzar]** para iniciar el caso de uso.
+Haga clic en el **[!UICONTROL Begin]** para iniciar el caso de uso.
 
 Se requiere la siguiente información:
 
@@ -106,7 +106,7 @@ Se requiere la siguiente información:
    1. **País**: País de residencia del perfil de prueba
    1. **Sexo**: Pruebe el sexo del perfil. Los valores disponibles son **Masculino**, **hembra** y **non_specified**
 
-Después de seleccionar el área de nombres de identidad y proporcionar el archivo CSV en función del formato anterior, haga clic en **[!UICONTROL Ejecutar]** en la parte superior derecha. El caso de uso puede tardar unos minutos en completarse. Una vez que el caso de uso termina de procesarse y crearse los perfiles de prueba, se envía una notificación para notificar al usuario.
+Después de seleccionar el área de nombres de identidad y proporcionar el archivo CSV en función del formato anterior, haga clic en **[!UICONTROL Run]** en la parte superior derecha. El caso de uso puede tardar unos minutos en completarse. Una vez que el caso de uso termina de procesarse y crearse los perfiles de prueba, se envía una notificación para notificar al usuario.
 
 >[!NOTE]
 >
@@ -116,9 +116,9 @@ Después de seleccionar el área de nombres de identidad y proporcionar el archi
 
 Puede convertir un perfil existente en un perfil de prueba: puede actualizar los atributos de perfiles del mismo modo que cuando crea un perfil.
 
-Una forma sencilla de hacerlo es usar un **[!UICONTROL Actualizar perfil]** actividad de acción en un recorrido y cambiar el **testProfile** campo booleano de false a true.
+Una forma sencilla de hacerlo es usar un **[!UICONTROL Update Profile]** actividad de acción en un recorrido y cambiar el **testProfile** campo booleano de false a true.
 
-Su recorrido estará compuesto por un **[!UICONTROL Leer segmento]** y **[!UICONTROL Actualizar perfil]** actividad. Primero debe crear un segmento dirigido a los perfiles que desea convertir en perfiles de prueba.
+Su recorrido estará compuesto por un **[!UICONTROL Read Segment]** y **[!UICONTROL Update Profile]** actividad. Primero debe crear un segmento dirigido a los perfiles que desea convertir en perfiles de prueba.
 
 >[!NOTE]
 >
@@ -135,19 +135,19 @@ Su recorrido estará compuesto por un **[!UICONTROL Leer segmento]** y **[!UICON
    >
    > El cálculo de segmentos puede tardar algún tiempo. Obtenga más información sobre los segmentos en [esta sección](../segment/about-segments.md).
 
-1. Ahora cree un nuevo recorrido y comience con un **[!UICONTROL Leer segmento]** actividad de organización.
+1. Ahora cree un nuevo recorrido y comience con un **[!UICONTROL Read Segment]** actividad de organización.
 1. Elija el segmento creado anteriormente y el área de nombres que utilizan sus perfiles.
    ![](assets/test-profiles-25.png)
-1. Agregue un **[!UICONTROL Actualizar perfil]** actividad de acción.
-1. Seleccione el esquema, la variable **testProfiles** , el conjunto de datos y establezca el valor en **True**. Para ello, en la sección **[!UICONTROL VALOR]** , haga clic en el botón **Pluma** a la derecha, seleccione **[!UICONTROL Modo avanzado]** y escriba **true**.
+1. Agregue un **[!UICONTROL Update Profile]** actividad de acción.
+1. Seleccione el esquema, la variable **testProfiles** , el conjunto de datos y establezca el valor en **True**. Para ello, en la sección **[!UICONTROL VALUE]** , haga clic en el botón **Pluma** a la derecha, seleccione **[!UICONTROL Advanced mode]** y escriba **true**.
    ![](assets/test-profiles-26.png)
-1. Haga clic en **[!UICONTROL Publicación]**.
-1. En el **[!UICONTROL Segmentos]** , compruebe que los perfiles se hayan actualizado correctamente.
+1. Haga clic en **[!UICONTROL Publish]**.
+1. En el **[!UICONTROL Segments]** , compruebe que los perfiles se hayan actualizado correctamente.
    ![](assets/test-profiles-28.png)
 
    >[!NOTE]
    >
-   > Para obtener más información sobre **[!UICONTROL Actualizar perfil]** actividad, consulte [esta sección](../building-journeys/update-profiles.md).
+   > Para obtener más información sobre **[!UICONTROL Update Profile]** actividad, consulte [esta sección](../building-journeys/update-profiles.md).
 
 ## Creación de un perfil de prueba mediante un archivo csv{#create-test-profiles-csv}
 

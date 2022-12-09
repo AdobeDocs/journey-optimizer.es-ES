@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 5%
+source-wordcount: '317'
+ht-degree: 0%
 
 ---
 
@@ -26,9 +26,9 @@ When [creación de una página de aterrizaje](../landing-pages/create-lp.md#crea
 
 Para acceder a los ajustes preestablecidos de la página de aterrizaje, siga los pasos a continuación.
 
-1. Acceda a la **[!UICONTROL Administración]** > **[!UICONTROL Canales]** para abrir el Navegador.
+1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Channels]** para abrir el Navegador.
 
-1. Select **[!UICONTROL Marcas]** > **[!UICONTROL Ajustes preestablecidos de la página de aterrizaje]**.
+1. Select **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
 
    ![](assets/lp_presets-access.png)
 
@@ -44,9 +44,9 @@ Para crear un ajuste preestablecido de página de aterrizaje, siga los pasos a c
 >
 >Para poder crear un ajuste preestablecido, asegúrese de haber configurado previamente al menos un subdominio de página de aterrizaje. [Descubra cómo](lp-subdomains.md)
 
-1. Acceda a la **[!UICONTROL Administración]** > **[!UICONTROL Canales]** a continuación, seleccione **[!UICONTROL Marcas]** > **[!UICONTROL Ajustes preestablecidos de la página de aterrizaje]**.
+1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Channels]** a continuación, seleccione **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
 
-1. Select **[!UICONTROL Crear página de aterrizaje preestablecida]**.
+1. Select **[!UICONTROL Create landing page preset]**.
 
    ![](assets/lp_create-preset-temp.png)
 
@@ -66,7 +66,7 @@ Para crear un ajuste preestablecido de página de aterrizaje, siga los pasos a c
 
    Se muestra la configuración correspondiente al subdominio seleccionado.
 
-1. Si desea seleccionar el subdominio de página de aterrizaje para la dirección URL de seguimiento, marque la casilla de verificación **[!UICONTROL Igual que el subdominio de página de aterrizaje]** . [Más información sobre el seguimiento](../email/message-tracking.md)
+1. Si desea seleccionar el subdominio de página de aterrizaje para la dirección URL de seguimiento, marque la casilla de verificación **[!UICONTROL Same as landing page subdomain]** . [Más información sobre el seguimiento](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
@@ -76,7 +76,7 @@ Para crear un ajuste preestablecido de página de aterrizaje, siga los pasos a c
 
    <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 
-1. Una vez creado el ajuste preestablecido de la página de aterrizaje, se muestra en la lista con la variable **[!UICONTROL Activo]** estado. Está listo para utilizarse para sus páginas de aterrizaje.
+1. Una vez creado el ajuste preestablecido de la página de aterrizaje, se muestra en la lista con la variable **[!UICONTROL Active]** estado. Está listo para utilizarse para sus páginas de aterrizaje.
 
    ![](assets/lp-preset-active-temp.png)
 
@@ -89,4 +89,4 @@ Ahora está listo para [crear páginas de aterrizaje](../landing-pages/create-lp
 **Temas relacionados**:
 
 * [Introducción a las páginas de aterrizaje](../landing-pages/get-started-lp.md)
-* [Creación de una página de aterrizaje](../landing-pages/create-lp.md#create-a-lp)
+* [Crear una página de aterrizaje](../landing-pages/create-lp.md#create-a-lp)

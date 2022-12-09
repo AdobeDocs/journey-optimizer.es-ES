@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 6%
+source-wordcount: '251'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 Journey Optimizer aprovecha las funciones de alerta de Adobe Experience Platform. Esto le permite acceder a las alertas del sistema a través de la interfaz de usuario. Puede ver las alertas disponibles y suscribirse a ellas. Cuando se alcanza un determinado conjunto de condiciones en sus operaciones (por ejemplo, un problema potencial cuando el sistema supera un umbral), los mensajes de alerta se envían a cualquier usuario de su organización que se haya suscrito a ellos. Estos mensajes se pueden repetir durante un intervalo de tiempo predefinido hasta que se haya resuelto la alerta.
 
-Obtenga más información sobre las alertas en Adobe Experience Platform [documentación](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=es).
+Obtenga más información sobre las alertas en Adobe Experience Platform [documentación](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html).
 Para obtener información sobre cómo suscribirse a las alertas y configurarlas, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
 
 En el menú de la izquierda, debajo de **Administración**, haga clic en **Alertas**. Hay disponible una alerta preconfigurada para Journey Optimizer. Esta alerta le avisará si un nodo de segmento de lectura no ha procesado ningún perfil durante el lapso de tiempo definido.
@@ -30,8 +30,8 @@ Si se produce este comportamiento inesperado, se envía una notificación de ale
 
 ![](assets/alerts2.png)
 
-When [visualización de reglas de alerta en la interfaz de usuario de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), puede suscribirse a cada regla individualmente. Al suscribirse a alertas mediante [Notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)sin embargo, las reglas de alerta están organizadas en diferentes paquetes de suscripción. El nombre de suscripción del evento de E/S correspondiente a la alerta Leer segmento es: &quot;Recorrido leer retrasos, errores y errores del segmento&quot;.
+When [visualización de reglas de alerta en la interfaz de usuario de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), puede suscribirse a cada regla individualmente. Al suscribirse a alertas mediante [Notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)sin embargo, las reglas de alerta están organizadas en diferentes paquetes de suscripción. El nombre de suscripción del evento de E/S correspondiente a la alerta Leer segmento es: &quot;Retrasos, errores y errores del segmento de lectura del recorrido&quot;.
 
 >[!WARNING]
 >
->Estas alertas se aplican únicamente a los recorridos activos. Las alertas no se activan para los recorridos en el modo de prueba.
+>Estas alertas solo se aplican a los recorridos en directo. Las alertas no se activan para los recorridos en modo de prueba.

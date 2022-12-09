@@ -11,7 +11,7 @@ exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 18%
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 18%
 Los campos de evento de paso se organizan por categoría.
 
 * Campos de información de depuración
-* Campos del recorrido
+* Campos de recorrido
 * Campos de perfil
 * Campos de evento de servicio
 
@@ -28,7 +28,7 @@ Los campos de evento de paso se organizan por categoría.
 
 | Nombre del campo | Tipo | Descripción |
 |---|---|------------|
-| requestId | Cadena | El ID de solicitud que utiliza Journey Optimizer para rastrear el flujo de una solicitud. |
+| requestId | Cadena | El ID de solicitud utilizado por Journey Optimizer para rastrear el flujo de una solicitud. |
 
 ## recorrido {#journey-field}
 
@@ -36,22 +36,22 @@ Este grupo de campos se utiliza en el esquema de recorrido (en relación con jou
 
 | Nombre del campo | Tipo | Descripción |
 |---|---|------------|
-| ID | Cadena | Identificador del Recorrido dado |
-| VersionID | Cadena | Id de la versión de recorrido. Este id representa la identidad de un recorrido |
+| ID | Cadena | Identificador para el recorrido determinado |
+| VersionID | Cadena | Id de la versión del recorrido. Este id representa la identidad de un recorrido |
 | name | Cadena | Nombre del recorrido |
 | descripción | Cadena | Descripción del recorrido |
 | version | Cadena | versión, representada como `major`.`minor` |
 
 ## perfil {#profile-field}
 
-Este grupo de campos es específico de journeyStepEvent: este evento está relacionado con recorrido y no tiene el mapa de identidad, que describe la identidad del perfil, si la hay.
+Este grupo de campos es específico de journeyStepEvent: este evento está en relación con el recorrido y no tiene el mapa de identidad, que describe la identidad del perfil, si la hay.
 
 Para journeyStepEvent, también se deben añadir campos relacionados con la identidad:
 
 | Nombre del campo | Tipo | Descripción |
 |---|---|------------|
 | ID | Cadena | El identificador de perfil identifica el perfil enviado/utilizado en un recorrido. Por ejemplo: foo@adobe.com. |
-| namespace | Cadena | Este campo describe el área de nombres a la que hace referencia el perfil utilizado en el Recorrido. Por ejemplo: Correo electrónico, ECID |
+| namespace | Cadena | Este campo describe el área de nombres a la que hace referencia el perfil utilizado en el recorrido. Por ejemplo: Correo electrónico, ECID |
 
 ## serviceEvents {#servicevents-field}
 

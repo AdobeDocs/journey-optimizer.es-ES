@@ -1,6 +1,6 @@
 ---
 title: Interfaz de usuario
-description: Obtenga más información acerca de la interfaz de usuario de la biblioteca de ofertas
+description: Obtenga más información sobre la interfaz de usuario de la biblioteca de ofertas
 feature: Offers
 topic: Integrations
 role: User
@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 40%
+source-wordcount: '625'
+ht-degree: 0%
 
 ---
 
@@ -21,33 +21,33 @@ La biblioteca de ofertas le permite crear y administrar sus ubicaciones y oferta
 >
 >Si tiene problemas para acceder a la Biblioteca de ofertas o a algunas de sus funciones, compruebe con un usuario administrador que se le han concedido los derechos necesarios. Consulte [Concesión de acceso a Administración de decisiones](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
-Utilice la variable  **[!UICONTROL Ofertas]** para administrar ofertas personalizadas y de reserva, organizarlas en colecciones y ofrecerlas mediante la creación de decisiones:
+Utilice la variable  **[!UICONTROL Offers]** para administrar ofertas personalizadas y de reserva, organizarlas en colecciones y ofrecerlas mediante la creación de decisiones:
 
-* **[!UICONTROL Información general]**: Nuevo en [!DNL decision management]? Siga los pasos que aparecen en la pantalla para empezar a configurar ubicaciones, ofertas y colecciones. Cuando ya esté familiarizado con [!DNL decision management], obtenga información general sobre las ofertas, colecciones y decisiones más recientes. Consulte [Información general](#overview).
+* **[!UICONTROL Overview]**: Nuevo en [!DNL decision management]? Siga los pasos que aparecen en la pantalla para empezar a configurar ubicaciones, ofertas y colecciones. Cuando ya esté familiarizado con [!DNL decision management], obtenga información general sobre las ofertas, colecciones y decisiones más recientes. Consulte [Información general](#overview).
 
-* **[!UICONTROL Ofertas]**: Acceda a sus ofertas personalizadas y de reserva o cree otras nuevas. Consulte [Creación de una oferta](../offer-library/creating-personalized-offers.md) y [Creación de una oferta de reserva](../offer-library/creating-fallback-offers.md).
+* **[!UICONTROL Offers]**: Acceda a sus ofertas personalizadas y de reserva o cree otras nuevas. Consulte [Creación de una oferta](../offer-library/creating-personalized-offers.md) y [Creación de una oferta de reserva](../offer-library/creating-fallback-offers.md).
 
-* **[!UICONTROL Colecciones]**: Cree y administre colecciones de ofertas estáticas y dinámicas. Consulte [Acerca de las colecciones de ofertas](../offer-library/creating-collections.md).
+* **[!UICONTROL Collections]**: Cree y administre colecciones de ofertas estáticas y dinámicas. Consulte [Acerca de las colecciones de ofertas](../offer-library/creating-collections.md).
 
-* **[!UICONTROL Decisiones]**: Cree y administre decisiones para entregar sus ofertas. Consulte [Creación de decisiones](../offer-activities/create-offer-activities.md).
+* **[!UICONTROL Decisions]**: Cree y administre decisiones para entregar sus ofertas. Consulte [Crear decisiones](../offer-activities/create-offer-activities.md).
 
 ![](../assets/offers_menu.png)
 
-Utilice la variable  **[!UICONTROL Componentes]** para administrar los componentes necesarios para crear ofertas:
+Utilice la variable  **[!UICONTROL Components]** para administrar los componentes necesarios para crear ofertas:
 
-* **[!UICONTROL Ubicaciones]**: Cree y administre ubicaciones en las que se mostrarán sus ofertas. Consulte [Creación de ubicaciones](../offer-library/creating-placements.md).
+* **[!UICONTROL Placements]**: Cree y administre ubicaciones en las que se mostrarán sus ofertas. Consulte [Creación de ubicaciones](../offer-library/creating-placements.md).
 
-* **[!UICONTROL Etiquetas]**: Cree y administre etiquetas para organizar y filtrar sus ofertas. Consulte [Creación de etiquetas](../offer-library/creating-tags.md).
+* **[!UICONTROL Tags]**: Cree y administre etiquetas para organizar y filtrar sus ofertas. Consulte [Creación de etiquetas](../offer-library/creating-tags.md).
 
-* **[!UICONTROL Reglas]**: Administre las condiciones en las que se presentan las ofertas. Consulte [Creación de una regla de decisión](../offer-library/creating-decision-rules.md).
+* **[!UICONTROL Rules]**: Administre las condiciones en las que se presentan las ofertas. Consulte [Creación de una regla de decisión](../offer-library/creating-decision-rules.md).
 
-* **[!UICONTROL Clasificación]**: Cree y administre fórmulas de clasificación para determinar qué oferta se debe presentar primero para una ubicación determinada. Consulte [Creación de fórmulas de clasificación](../ranking/create-ranking-formulas.md).
+* **[!UICONTROL Rankings]**: Cree y administre fórmulas de clasificación para determinar qué oferta se debe presentar primero para una ubicación determinada. Consulte [Crear fórmulas de clasificación](../ranking/create-ranking-formulas.md).
 
 ![](../assets/offer_activities.png)
 
 ## Información general {#overview}
 
-Cuando es nuevo en [!DNL decision management], el **[!UICONTROL Información general]** le guía a través de los pasos principales necesarios para empezar a crear su primera decisión de oferta.
+Cuando es nuevo en [!DNL decision management], el **[!UICONTROL Overview]** le guía a través de los pasos principales necesarios para empezar a crear su primera decisión de oferta.
 
 ![](../assets/overview_onboarding.png)
 
@@ -61,19 +61,19 @@ Una vez que haya completado estos primeros pasos, se le pedirá que cree las dec
 >
 >Los pasos principales para crear ofertas y utilizarlas en una decisión se presentan en [esta sección](../offer-library/key-steps.md).
 
-Cuando esté más familiarizado con [!DNL decision management] y ya ha creado al menos una decisión de oferta, la variable **[!UICONTROL Información general]** muestra las ofertas, colecciones y decisiones más recientes.
+Cuando esté más familiarizado con [!DNL decision management] y ya ha creado al menos una decisión de oferta, la variable **[!UICONTROL Overview]** muestra las ofertas, colecciones y decisiones más recientes.
 
 Haga clic en una oferta o en una decisión para acceder directamente a los detalles del elemento seleccionado.
 
-Haga clic en el **[!UICONTROL Ver todo]** para acceder a las listas de ofertas, colecciones o decisiones.
+Haga clic en el **[!UICONTROL View all]** para acceder a las listas de ofertas, colecciones o decisiones.
 
 ![](../assets/overview_view-all.png)
 
-## Búsqueda y filtrado de información {#search-and-filter-information}
+## Buscar y filtrar información {#search-and-filter-information}
 
-Utilice la **barra de búsqueda** para encontrar un elemento específico.
+Utilice la variable **barra de búsqueda** para buscar un elemento específico.
 
-También se puede acceder a **Filtros** haciendo clic en el icono de filtro en la parte superior izquierda de la lista. Permite filtrar los elementos mostrados según diferentes criterios. Por ejemplo, puede filtrar las ubicaciones que se han creado para el canal de comunicación de correo electrónico y el contenido de tipo de imagen.
+**Filtros** también se puede acceder haciendo clic en el icono de filtro en la parte superior izquierda de la lista. Permiten filtrar los elementos mostrados según diferentes criterios. Por ejemplo, puede filtrar las ubicaciones que se han creado para el canal de comunicación de correo electrónico y el contenido de tipo de imagen.
 
 ![](../assets/filters.png)
 
@@ -93,17 +93,17 @@ En las distintas listas, seleccione un elemento para mostrar un panel de informa
 
 ![](../assets/information-pane.png)
 
-Las listas de ofertas y decisiones de oferta ahora permiten realizar acciones masivas en varios elementos. Para ello, seleccione las ofertas o decisiones que desee y, a continuación, seleccione la acción que desee realizar en el panel de información.
+Las listas de ofertas y decisiones también permiten realizar acciones masivas en varios elementos. Para ello, seleccione las ofertas o decisiones que desee y, a continuación, seleccione la acción que desee realizar en el panel de información.
 
 ![](../assets/bulk-actions.png)
 
-Tenga en cuenta que también puede duplicar una oferta o decisiones existentes para crear una copia con la variable **[!UICONTROL Borrador]** estado. Esto se puede realizar desde el panel de información, desde una oferta o desde la vista detallada de una decisión.
+Tenga en cuenta que también puede duplicar una oferta o decisiones existentes para crear una copia con la variable **[!UICONTROL Draft]** estado. Esto se puede realizar desde el panel de información o desde una oferta o desde la vista detallada de una decisión.
 
 ![](../assets/duplicate-offer.png)
 
 ## Registros de cambios de ofertas y decisiones {#changes-logs}
 
-La biblioteca de ofertas permite visualizar todos los cambios realizados en una oferta o una decisión. Para ello, abra la oferta o decisión haciendo clic en su nombre en la lista y, a continuación, seleccione la opción **[!UICONTROL Registro de cambios]** pestaña .
+La biblioteca de ofertas permite visualizar todos los cambios realizados en una oferta o una decisión. Para ello, abra la oferta o decisión haciendo clic en su nombre en la lista y, a continuación, seleccione la opción **[!UICONTROL Change log]** pestaña .
 
 Todos los cambios realizados se muestran en esta pantalla, así como el nombre del usuario que realizó los cambios.
 

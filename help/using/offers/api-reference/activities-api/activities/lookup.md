@@ -9,13 +9,13 @@ exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
 source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
 # Buscar una decisión {#look-up-decision}
 
-Puede buscar decisiones específicas realizando una solicitud de GET al [!DNL Offer Library] API que incluye las decisiones `@id` o el nombre de la decisión en la ruta de solicitud.
+Puede consultar decisiones específicas realizando una solicitud GET a la [!DNL Offer Library] API que incluye las decisiones `@id` o el nombre de la decisión en la ruta de solicitud.
 
 **Formato de API**
 

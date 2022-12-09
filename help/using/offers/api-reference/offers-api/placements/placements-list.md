@@ -9,15 +9,15 @@ exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 12%
+ht-degree: 0%
 
 ---
 
 # Enumerar ubicaciones {#list-placements}
 
-Las ubicaciones son contenedores que se utilizan para mostrar las ofertas. Una ubicación ayuda a garantizar que el contenido de oferta correcto se muestre en la ubicación correcta dentro del mensaje. Al agregar contenido a una oferta, se le pedirá que seleccione una ubicación en la que se pueda mostrar dicho contenido.
+Las ubicaciones son contenedores que se utilizan para mostrar las ofertas. Una ubicación ayuda a garantizar que el contenido de oferta correcto se muestre en la ubicación correcta dentro del mensaje. Al añadir contenido a una oferta, se le pedirá que seleccione una ubicación en la que se pueda mostrar dicho contenido.
 
-Puede ver una lista de todas las ubicaciones dentro de un contenedor realizando una sola solicitud de GET al [!DNL Offer Library] API.
+Puede ver una lista de todas las ubicaciones dentro de un contenedor realizando una sola solicitud GET al [!DNL Offer Library] API.
 
 **Formato de API**
 

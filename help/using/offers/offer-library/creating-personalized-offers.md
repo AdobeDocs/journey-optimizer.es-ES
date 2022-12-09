@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 3%
+source-wordcount: '702'
+ht-degree: 0%
 
 ---
 
@@ -23,11 +23,11 @@ Antes de crear una oferta, asegúrese de que ha creado:
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-Se puede acceder a la lista de ofertas personalizadas en la **[!UICONTROL Ofertas]** para abrir el Navegador.
+Se puede acceder a la lista de ofertas personalizadas en la **[!UICONTROL Offers]** para abrir el Navegador.
 
 ![](../assets/offers_list.png)
 
-## Crear una oferta {#create-offer}
+## Creación de una oferta {#create-offer}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
@@ -41,7 +41,7 @@ Se puede acceder a la lista de ofertas personalizadas en la **[!UICONTROL Oferta
 
 Para crear un **oferta**, siga estos pasos:
 
-1. Haga clic en **[!UICONTROL Crear oferta]** y, a continuación, seleccione **[!UICONTROL Oferta personalizada]**.
+1. Haga clic en **[!UICONTROL Create offer]** y, a continuación, seleccione **[!UICONTROL Personalized offer]**.
 
    ![](../assets/create_offer.png)
 
@@ -53,11 +53,11 @@ Para crear un **oferta**, siga estos pasos:
    >
    >La actualización de las fechas de inicio y finalización puede tener un impacto en el límite. [Más información](add-constraints.md#capping-change-date)
 
-1. También puede asociar una o varias **[!UICONTROL etiquetas]** a la oferta, lo que le permite buscar y organizar la biblioteca de ofertas con mayor facilidad. [Más información](creating-tags.md).
+1. También puede asociar una o varias **[!UICONTROL tags]** a la oferta, lo que le permite buscar y organizar la biblioteca de ofertas con mayor facilidad. [Más información](creating-tags.md).
 
-1. La variable **[!UICONTROL Atributos de oferta]** permite asociar pares de clave-valor con la oferta con fines de informes y análisis.
+1. La variable **[!UICONTROL Offer attributes]** permite asociar pares de clave-valor con la oferta con fines de informes y análisis.
 
-1. Para asignar etiquetas de uso de datos principales o personalizadas a la oferta, seleccione **[!UICONTROL Administrar acceso]**. [Más información sobre Control de acceso a nivel de objeto (OLAC)](../../administration/object-based-access.md)
+1. Para asignar etiquetas de uso de datos principales o personalizadas a la oferta, seleccione **[!UICONTROL Manage access]**. [Más información sobre Control de acceso a nivel de objeto (OLAC)](../../administration/object-based-access.md)
 
    ![](../assets/offer_manage-access.png)
 
@@ -69,7 +69,7 @@ Para crear un **oferta**, siga estos pasos:
 
    >[!NOTE]
    >
-   >Al seleccionar segmentos o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Actualizar]** para actualizar los datos.
+   >Al seleccionar segmentos o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Refresh]** para actualizar los datos.
    >
    >Tenga en cuenta que las estimaciones de perfil no están disponibles cuando los parámetros de regla incluyen datos que no están en el perfil, como los datos de contexto. Por ejemplo, una regla de aceptación que requiera que el clima actual sea ≥ 80 grados.
 
@@ -83,19 +83,19 @@ Una vez definidas las reglas y restricciones de idoneidad, se muestra un resumen
 
 1. Asegúrese de que todo esté configurado correctamente.
 
-1. Puede mostrar información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Actualizar]** para actualizar los datos.
+1. Puede mostrar información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Refresh]** para actualizar los datos.
 
    ![](../assets/offer-summary-estimate.png)
 
-1. Cuando la oferta esté lista para ser presentada a los usuarios, haga clic en **[!UICONTROL Finalizar]**.
+1. Cuando la oferta esté lista para ser presentada a los usuarios, haga clic en **[!UICONTROL Finish]**.
 
-1. Select **[!UICONTROL Guardar y aprobar]**.
+1. Select **[!UICONTROL Save and approve]**.
 
    ![](../assets/offer_review.png)
 
    También puede guardar la oferta como borrador para editarla y aprobarla más adelante.
 
-La oferta se muestra en la lista con la variable **[!UICONTROL Aprobado]** o **[!UICONTROL Borrador]** , dependiendo de si lo aprobó o no en el paso anterior.
+La oferta se muestra en la lista con la variable **[!UICONTROL Approved]** o **[!UICONTROL Draft]** , dependiendo de si lo aprobó o no en el paso anterior.
 
 Ahora está listo para enviarse a los usuarios.
 
@@ -107,20 +107,20 @@ En la lista de ofertas, puede seleccionar la oferta para mostrar sus propiedades
 
 ![](../assets/offer_created.png)
 
-Seleccione el **[!UICONTROL Editar]** para volver al modo de edición de la oferta, donde puede modificar el [detalles](#create-offer), [representaciones](#representations), así como editar la variable [reglas y restricciones de elegibilidad](#eligibility).
+Seleccione el **[!UICONTROL Edit]** para volver al modo de edición de la oferta, donde puede modificar el [detalles](#create-offer), [representaciones](#representations), así como editar la variable [reglas y restricciones de elegibilidad](#eligibility).
 
-Seleccione una oferta aprobada y haga clic en **[!UICONTROL Deshacer aprobar]** para volver a establecer el estado de la oferta en **[!UICONTROL Borrador]**.
+Seleccione una oferta aprobada y haga clic en **[!UICONTROL Undo approve]** para volver a establecer el estado de la oferta en **[!UICONTROL Draft]**.
 
-Para volver a establecer el estado en **[!UICONTROL Aprobado]**, seleccione el botón correspondiente que se muestra ahora.
+Para volver a establecer el estado en **[!UICONTROL Approved]**, seleccione el botón correspondiente que se muestra ahora.
 
 ![](../assets/offer_approve.png)
 
-La variable **[!UICONTROL Más acciones]** activa las acciones que se describen a continuación.
+La variable **[!UICONTROL More actions]** activa las acciones que se describen a continuación.
 
 ![](../assets/offer_more-actions.png)
 
-* **[!UICONTROL Duplicar]**: crea una oferta con las mismas propiedades, representaciones, reglas de idoneidad y restricciones. De forma predeterminada, la nueva oferta tiene la variable **[!UICONTROL Borrador]** estado.
-* **[!UICONTROL Eliminar]**: elimina la oferta de la lista.
+* **[!UICONTROL Duplicate]**: crea una oferta con las mismas propiedades, representaciones, reglas de idoneidad y restricciones. De forma predeterminada, la nueva oferta tiene la variable **[!UICONTROL Draft]** estado.
+* **[!UICONTROL Delete]**: elimina la oferta de la lista.
 
    >[!CAUTION]
    >
@@ -128,7 +128,7 @@ La variable **[!UICONTROL Más acciones]** activa las acciones que se describen 
    >
    >Si la oferta se utiliza en una recopilación o una decisión, no se puede eliminar. Primero debe eliminar la oferta de cualquier objeto.
 
-* **[!UICONTROL Archivo]**: establece el estado de la oferta en **[!UICONTROL Archivado]**. La oferta sigue estando disponible en la lista, pero no puede volver a establecer su estado en **[!UICONTROL Borrador]** o **[!UICONTROL Aprobado]**. Solo puede duplicarlo o eliminarlo.
+* **[!UICONTROL Archive]**: establece el estado de la oferta en **[!UICONTROL Archived]**. La oferta sigue estando disponible en la lista, pero no puede volver a establecer su estado en **[!UICONTROL Draft]** o **[!UICONTROL Approved]**. Solo puede duplicarlo o eliminarlo.
 
 También puede eliminar o cambiar el estado de varias ofertas al mismo tiempo seleccionando las casillas de verificación correspondientes.
 
@@ -142,7 +142,7 @@ Una vez creada una oferta, puede hacer clic en su nombre desde la lista.
 
 ![](../assets/offer_click-name.png)
 
-Esto le permite acceder a información detallada de esa oferta. Seleccione el **[!UICONTROL Registro de cambios]** para [supervisar todos los cambios](../get-started/user-interface.md#monitoring-changes) que se han realizado en la oferta.
+Esto le permite acceder a información detallada de esa oferta. Seleccione el **[!UICONTROL Change log]** para [supervisar todos los cambios](../get-started/user-interface.md#monitoring-changes) que se han realizado en la oferta.
 
 ![](../assets/offer_information.png)
 

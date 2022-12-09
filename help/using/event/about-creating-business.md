@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuración de un evento empresarial
+title: Configurar un evento empresarial
 description: Aprenda a crear un evento empresarial
 feature: Events
 topic: Administration
@@ -10,21 +10,21 @@ level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 7%
+source-wordcount: '1103'
+ht-degree: 0%
 
 ---
 
-# Configuración de un evento empresarial {#configure-a-business-event}
+# Configurar un evento empresarial {#configure-a-business-event}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_business"
 >title="Eventos comerciales"
->abstract="La configuración de evento le permite definir la información que Journey Optimizer recibirá como eventos. Puede utilizar varios eventos (en diferentes pasos de un recorrido) y varios recorridos pueden utilizar el mismo evento. A diferencia de los eventos unitarios, los eventos comerciales no están vinculados a un perfil específico. El tipo de ID de evento siempre se basa en reglas."
+>abstract="La configuración de eventos permite definir la información que Journey Optimizer recibirá como eventos. Puede utilizar varios eventos (en diferentes pasos de un recorrido) y varios recorridos pueden utilizar el mismo evento. A diferencia de los eventos unitarios, los eventos comerciales no están vinculados a un perfil específico. El tipo de ID de evento siempre se basa en reglas."
 
 A diferencia de los eventos unitarios, los eventos comerciales no están vinculados a un perfil específico. El tipo de ID de evento siempre se basa en reglas. Obtenga más información sobre los eventos empresariales en [esta sección](../event/about-events.md).
 
-Los recorridos basados en segmentos de lectura se pueden activar en una sola toma, por un programador de forma regular o por un evento comercial, cuando se produce el evento.
+La lectura de recorridos basados en segmentos se puede activar en una sola toma, por un programador de forma regular o por un evento comercial, cuando se produce el evento.
 
 Los eventos comerciales pueden ser &quot;un producto vuelve a estar en existencias&quot;, &quot;el precio de las acciones de una empresa alcanza cierto valor&quot;, etc.
 
@@ -34,24 +34,24 @@ Los eventos comerciales pueden ser &quot;un producto vuelve a estar en existenci
 
 ## Notas importantes {#important-notes}
 
-* Solo están disponibles los esquemas de series temporales. Los esquemas de eventos de experiencia, eventos de decisión y eventos de paso de Recorrido no están disponibles.
+* Solo están disponibles los esquemas de series temporales. Los esquemas de eventos de experiencia, eventos de decisión y eventos de paso de recorrido no están disponibles.
 * El esquema de evento debe contener una identidad principal no basada en personas. Se deben seleccionar los campos siguientes al definir el evento: `_id` y `timestamp`
-* Los eventos comerciales solo se pueden eliminar como el primer paso de un recorrido.
-* Al soltar un evento empresarial como el primer paso de un recorrido, el tipo de programador del recorrido será &quot;evento empresarial&quot;.
+* Los eventos empresariales solo se pueden perder como el primer paso de un recorrido.
+* Cuando se coloca un evento empresarial como el primer paso de un recorrido, el tipo de planificador del recorrido es &quot;evento empresarial&quot;.
 * Solo se puede perder una actividad de segmento de lectura después de un evento comercial. Se añade automáticamente como el siguiente paso.
-* Para permitir varias ejecuciones de eventos empresariales, active la opción correspondiente en la **[!UICONTROL Ejecución]** de las propiedades del recorrido.
+* Para permitir varias ejecuciones de eventos empresariales, active la opción correspondiente en la **[!UICONTROL Execution]** de las propiedades del recorrido.
 * Una vez activado un evento empresarial, se producirá un retraso para que el segmento se exporte de 15 minutos a una hora.
-* Al probar un evento comercial, debe pasar los parámetros de evento y el identificador del perfil de prueba que va a introducir el recorrido en la prueba. Además, al probar un recorrido basado en eventos empresariales, solo puede almacenar en déclencheur la entrada de perfil único. Consulte [esta sección](../building-journeys/testing-the-journey.md#test-business). En el modo de prueba, no hay ningún modo &quot;Vista de código&quot; disponible.
-* ¿Qué les sucede a las personas que están actualmente en el recorrido si llega un nuevo evento de negocios? Se comporta de la misma manera que cuando las personas siguen en un recorrido recurrente cuando ocurre una nueva recurrencia. Su camino ha terminado. Como resultado, los especialistas en marketing deben prestar atención para evitar generar recorridos demasiado largos si esperan eventos comerciales frecuentes.
+* Al probar un evento empresarial, debe pasar los parámetros de evento y el identificador del perfil de prueba que ingresará al recorrido en la prueba. Además, al probar un recorrido basado en eventos empresariales, solo puede activar la entrada de perfil único. Consulte [esta sección](../building-journeys/testing-the-journey.md#test-business). En el modo de prueba, no hay ningún modo &quot;Vista de código&quot; disponible.
+* ¿Qué les sucede a las personas que están actualmente en el recorrido si llega un nuevo evento empresarial? Se comporta de la misma manera que cuando las personas siguen en un recorrido recurrente cuando ocurre una nueva recurrencia. Su camino ha terminado. Como resultado, los especialistas en marketing deben prestar atención para evitar realizar recorridos demasiado largos si esperan eventos comerciales frecuentes.
 * Los eventos comerciales no se pueden usar junto con eventos unitarios o actividades de calificación de segmentos.
 
 ## Varios eventos comerciales {#multiple-business-events}
 
 Estas son algunas notas importantes que se aplican cuando se reciben varios eventos comerciales seguidos.
 
-**¿Cuál es el comportamiento al recibir un evento comercial mientras el recorrido se está procesando?**
+**¿Cuál es el comportamiento al recibir un evento empresarial mientras se está procesando el recorrido?**
 
-Los eventos comerciales siguen las reglas de reentrada de la misma manera que para los eventos unitarios. Si un recorrido permite la reentrada, se procesará el siguiente evento comercial.
+Los eventos comerciales siguen las reglas de reentrada de la misma manera que para los eventos unitarios. Si un recorrido permite volver a entrar, se procesará el siguiente evento comercial.
 
 **¿Cuáles son las barreras para evitar la sobrecarga de segmentos materializados?**
 
@@ -61,11 +61,11 @@ En el caso de los eventos empresariales sin conexión, para un recorrido determi
 
 Estos son los primeros pasos para configurar un evento empresarial:
 
-1. En la sección del menú ADMINISTRACIÓN , seleccione **[!UICONTROL Configuraciones]**. En el  **[!UICONTROL Eventos]** , haga clic en **[!UICONTROL Administrar]**. Se muestra la lista de eventos.
+1. En la sección del menú ADMINISTRACIÓN , seleccione **[!UICONTROL Configurations]**. En el  **[!UICONTROL Events]** , haga clic en **[!UICONTROL Manage]**. Se muestra la lista de eventos.
 
    ![](assets/jo-event1.png)
 
-1. Haga clic en **[!UICONTROL Crear evento]** para crear un nuevo evento. El panel de configuración de evento se abre en el lado derecho de la pantalla.
+1. Haga clic en **[!UICONTROL Create Event]** para crear un nuevo evento. El panel de configuración de eventos se abre en el lado derecho de la pantalla.
 
    ![](assets/jo-event2.png)
 
@@ -77,13 +77,13 @@ Estos son los primeros pasos para configurar un evento empresarial:
    >
    >No utilice espacios ni caracteres especiales. No utilice más de 30 caracteres.
 
-1. En el **[!UICONTROL Tipo]** , elija **Empresa**.
+1. En el **[!UICONTROL Type]** , elija **Empresa**.
 
    ![](assets/jo-event3bis-business.png)
 
-1. El número de recorridos que utilizan este evento se muestra en la variable **[!UICONTROL Se usa en]** campo . Puede hacer clic en el botón **[!UICONTROL Ver recorridos]** para mostrar la lista de recorridos que utilizan este evento.
+1. El número de recorridos que utiliza este evento se muestra en la variable **[!UICONTROL Used in]** campo . Puede hacer clic en el botón **[!UICONTROL View journeys]** para mostrar la lista de recorridos con este evento.
 
-1. Defina los campos esquema y carga útil: aquí es donde selecciona los recorridos de información de evento (o carga útil) que esperan recibir. Utilizará esta información más adelante en su recorrido. Consulte [esta sección](../event/about-creating-business.md#define-the-payload-fields).
+1. Defina los campos esquema y carga útil: aquí es donde selecciona los recorridos de información de evento (o carga útil) que espera recibir. Esta información se utilizará más adelante en el recorrido. Consulte [esta sección](../event/about-creating-business.md#define-the-payload-fields).
 
    ![](assets/jo-event5-business.png)
 
@@ -91,7 +91,7 @@ Estos son los primeros pasos para configurar un evento empresarial:
 
    ![](assets/test-profiles-4.png)
 
-1. Haga clic dentro del **[!UICONTROL Condición de ID de evento]** campo . Utilice el editor de expresiones simple para definir la condición que utiliza el sistema para identificar los eventos que déclencheur el recorrido.
+1. Haga clic dentro del **[!UICONTROL Event ID condition]** campo . Utilice el editor de expresiones simple para definir la condición que utiliza el sistema para identificar los eventos que activan el recorrido.
 
    ![](assets/jo-event6-business.png)
 
@@ -101,17 +101,17 @@ Estos son los primeros pasos para configurar un evento empresarial:
    >
    >En el editor de expresiones simple, no todos los operadores están disponibles, dependen del tipo de datos. Por ejemplo, para un tipo de cadena de campo, puede utilizar &quot;contiene&quot; o &quot;igual a&quot;.
 
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
    ![](assets/journey7-business.png)
 
-   El evento está ahora configurado y listo para añadirse a un recorrido. Se requieren pasos de configuración adicionales para recibir eventos. Obtenga más información en [esta página](../event/additional-steps-to-send-events-to-journey.md).
+   El evento está configurado y listo para añadirse a un recorrido. Se requieren pasos de configuración adicionales para recibir eventos. Obtenga más información en [esta página](../event/additional-steps-to-send-events-to-journey.md).
 
 ## Definición de los campos de carga útil {#define-the-payload-fields}
 
-La definición de carga útil permite elegir la información que el sistema espera recibir del evento en el recorrido y la clave para identificar qué persona está asociada al evento. La carga útil se basa en la definición del campo XDM del Experience Cloud. Para obtener más información sobre XDM, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+La definición de carga útil permite elegir la información que el sistema espera recibir del evento en el recorrido y la clave para identificar qué persona está asociada al evento. La carga útil se basa en la definición del campo XDM de Experience Cloud. Para obtener más información sobre XDM, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
 
-1. Seleccione un esquema XDM de la lista y haga clic en el **[!UICONTROL Campos]** o en el **[!UICONTROL Editar]** icono.
+1. Seleccione un esquema XDM de la lista y haga clic en el **[!UICONTROL Fields]** o en el **[!UICONTROL Edit]** icono.
 
    ![](assets/journey8-business.png)
 
@@ -125,9 +125,9 @@ La definición de carga útil permite elegir la información que el sistema espe
 
 1. Seleccione los campos que espera recibir del evento. Estos son los campos que el usuario empresarial aprovechará en el recorrido.
 
-1. Cuando haya terminado de seleccionar los campos necesarios, haga clic en **[!UICONTROL Guardar]** o presione **[!UICONTROL Entrar]**.
+1. Cuando haya terminado de seleccionar los campos necesarios, haga clic en **[!UICONTROL Save]** o presione **[!UICONTROL Enter]**.
 
-   El número de campos seleccionados aparece en **[!UICONTROL Campos]**.
+   El número de campos seleccionados aparece en **[!UICONTROL Fields]**.
 
    ![](assets/journey12-business.png)
 
@@ -135,7 +135,7 @@ La definición de carga útil permite elegir la información que el sistema espe
 
 Utilice la previsualización de carga útil para validar la definición de carga útil.
 
-1. Haga clic en el **[!UICONTROL Ver carga útil]** para obtener una vista previa de la carga útil esperada por el sistema.
+1. Haga clic en el **[!UICONTROL View Payload]** para obtener una vista previa de la carga útil esperada por el sistema.
 
    ![](assets/journey13-business.png)
 

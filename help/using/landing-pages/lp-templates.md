@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 4%
+source-wordcount: '178'
+ht-degree: 0%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 4%
 
 ## Guardar una página como plantilla {#save-as-template}
 
-Una vez que haya diseñado el [contenido de la página de aterrizaje](lp-content.md), puede guardarla para su reutilización futura. Para realizar esto, siga los pasos a continuación.
+Una vez que haya diseñado el [contenido de la página de aterrizaje](lp-content.md), puede guardarla para su reutilización futura. Para ello, siga los pasos a continuación.
 
 1. Haga clic en los puntos suspensivos en la parte superior derecha de la pantalla.
 
-1. Select **[!UICONTROL Guardar plantilla de diseño]** en el menú desplegable.
+1. Select **[!UICONTROL Save design template]** en el menú desplegable.
 
    ![](assets/lp_designer-save-template.png)
 
@@ -31,7 +31,7 @@ Una vez que haya diseñado el [contenido de la página de aterrizaje](lp-content
 
    ![](assets/lp_designer-template-name.png)
 
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 La próxima vez que cree una página de aterrizaje, puede utilizar esta plantilla para crear su contenido. Obtenga información sobre cómo en la [sección](#use-saved-template) más abajo.
 
@@ -41,7 +41,7 @@ La próxima vez que cree una página de aterrizaje, puede utilizar esta plantill
 
 1. Abra el [diseñador de contenido de página de aterrizaje](design-lp.md). Se muestra la lista de todas las plantillas guardadas anteriormente.
 
-1. Puede ordenarlas **[!UICONTROL Por nombre]**, **[!UICONTROL Última modificación]** y **[!UICONTROL Última creación]**.
+1. Puede ordenarlas **[!UICONTROL By name]**, **[!UICONTROL Last modified]** y **[!UICONTROL Last created]**.
 
    ![](assets/lp_designer-saved-templates.png)
 
@@ -51,7 +51,7 @@ La próxima vez que cree una página de aterrizaje, puede utilizar esta plantill
 
    ![](assets/lp_designer-saved-templates-navigate.png)
 
-1. Haga clic en **[!UICONTROL Usar esta página de aterrizaje]**.
+1. Haga clic en **[!UICONTROL Use this landing page]**.
 
 1. Edite el contenido según sus preferencias con el diseñador de páginas de aterrizaje.
 
