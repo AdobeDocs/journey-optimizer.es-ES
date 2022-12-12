@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ La definición de carga útil permite elegir la información que el sistema espe
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"
 >title="Área de nombres de identidad"
->abstract="TBC"
+>abstract="Seleccione la clave para identificar el perfil del cliente asociado al evento."
 
 El espacio de nombres permite definir el tipo de clave utilizada para identificar a la persona asociada al evento. Su configuración es opcional. Es necesario si desea recuperar, en sus recorridos, información adicional proveniente del [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}. La definición del área de nombres no es necesaria si solo utiliza datos procedentes de un sistema de terceros a través de una fuente de datos personalizada.
 
