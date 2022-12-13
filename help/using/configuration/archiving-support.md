@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 43137871e8f45e05c6fe00c51bc3c9847fabd0da
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -131,21 +131,21 @@ Según la información que busque, puede ejecutar las siguientes consultas.
 
 1. Para todas las demás consultas a continuación, necesitará el ID de acción del recorrido. Ejecute esta consulta para recuperar todos los ID de acción asociados con un ID de versión de recorrido determinado en los últimos 2 días:
 
-       &quot;
-       SELECT
-       DISTINCT
-       CAST(TIMESTAMP AS DATE) COMO EventTime,
-       _experience.journeyOrchestration.stepEvents.journeyVersionID,
-       _experience.journeyOrchestration.stepEvents.actionName,
-       _experience.journeyOrchestration.stepEvents.actionID
-       FROM journey_step_events
-       WHERE
-       _experience.journeyOrchestration.stepEvents.journeyVersionID = &#39;&lt;journey version=&quot;&quot; id=&quot;&quot;>&#39; AND
-       _experience.journeyOrchestration.stepEvents.actionID no es NULO Y
-       MARCA DE HORA > AHORA(): INTERVALO DE &quot;2&quot; DÍA
-       ORDER BY EventTime DESC;
-       &quot;
-   
+   ```
+   SELECT
+   DISTINCT
+   CAST(TIMESTAMP AS DATE) AS EventTime,
+   _experience.journeyOrchestration.stepEvents.journeyVersionID,
+   _experience.journeyOrchestration.stepEvents.actionName, 
+   _experience.journeyOrchestration.stepEvents.actionID 
+   FROM journey_step_events 
+   WHERE 
+   _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey version id>' AND 
+   _experience.journeyOrchestration.stepEvents.actionID is not NULL AND 
+   TIMESTAMP > NOW() - INTERVAL '2' DAY 
+   ORDER BY EventTime DESC;
+   ```
+
    >[!NOTE]
    >
    >Para obtener la variable `<journey version id>`seleccione el parámetro [versión del recorrido](../building-journeys/journey.md#journey-versions) de la variable **[!UICONTROL Journey management]** > **[!UICONTROL Journeys]** para abrir el Navegador. El ID de versión del recorrido se muestra al final de la dirección URL que se muestra en el explorador web.
@@ -154,28 +154,28 @@ Según la información que busque, puede ejecutar las siguientes consultas.
 
 1. Ejecute esta consulta para recuperar todos los eventos de comentarios de mensajes (especialmente el estado de los comentarios) generados para un mensaje determinado dirigido a un usuario específico en los últimos 2 días:
 
-       &quot;
-       SELECT
-       _experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID,
-       _experience.customerJourneyManagement.messageExecution.journeyActionID AS JourneyActionID,
-       timestamp AS EventTime,
-       _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress,
-       _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus AS FeedbackStatus,
-       CASE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus
-       CUANDO &#39;enviado&#39; ENTONCES &#39;Enviado&#39;
-       CUANDO &#39;delay&#39; ENTONCES &#39;Retry&#39;
-       CUANDO &#39;out_of_band&#39; ENTONCES &#39;Bounce&#39;
-       CUANDO &quot;devolución&quot; ENTONCES &quot;devolución&quot;
-       END AS FeedbackStatusCategory
-       FROM cjm_message_feedback_event_dataset
-       WHERE
-       timestamp > now() - INTERVALO &quot;2&quot; día Y
-       _experience.customerJourneyManagement.messageExecution.journeyVersionID = &#39;&lt;journey version=&quot;&quot; id=&quot;&quot;>&#39; AND
-       _experience.customerJourneyManagement.messageExecution.journeyActionID = &#39;&lt;journey action=&quot;&quot; id=&quot;&quot;>&#39; AND
-       _experience.customerJourneyManagement.emailChannelContext.address = &#39;&lt;recipient email=&quot;&quot; address=&quot;&quot;>&#39;
+   ```
+   SELECT  
+   _experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID, 
+   _experience.customerJourneyManagement.messageExecution.journeyActionID AS JourneyActionID, 
+   timestamp AS EventTime, 
+   _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress, 
+   _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus AS FeedbackStatus,
+   CASE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus
+       WHEN 'sent' THEN 'Sent'
+       WHEN 'delay' THEN 'Retry'
+       WHEN 'out_of_band' THEN 'Bounce' 
+       WHEN 'bounce' THEN 'Bounce'
+   END AS FeedbackStatusCategory
+   FROM cjm_message_feedback_event_dataset 
+   WHERE  
+       timestamp > now() - INTERVAL '2' day  AND
+       _experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journey version id>' AND 
+       _experience.customerJourneyManagement.messageExecution.journeyActionID = '<journey action id>' AND  
+       _experience.customerJourneyManagement.emailChannelContext.address = '<recipient email address>'
        ORDER BY EventTime DESC;
-       &quot;
-   
+   ```
+
    >[!NOTE]
    >
    >Para obtener la variable `<journey action id>` ejecute la primera consulta descrita anteriormente utilizando el id de versión del recorrido. La variable `<recipient email address>` es la dirección de correo electrónico del destinatario objetivo o real.
