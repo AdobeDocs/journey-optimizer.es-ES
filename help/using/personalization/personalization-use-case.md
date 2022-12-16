@@ -11,7 +11,7 @@ exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 
 ## Paso 1: Creación del recorrido {#create-journey}
 
-1. Haga clic en el **[!UICONTROL Journeys]** y cree un nuevo recorrido.
+1. Haga clic en el **[!UICONTROL Recorridos]** y cree un nuevo recorrido.
 
    ![](assets/perso-uc4.png)
 
@@ -63,7 +63,7 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 1. Seleccione el **Atributos contextuales** para abrir el Navegador. Los atributos contextuales solo están disponibles si un recorrido ha pasado datos contextuales al mensaje. Haga clic en **Journey Orchestration**. Aparece la siguiente información contextual:
 
    * **Eventos**: esta categoría reagrupa todos los campos de los eventos colocados antes de la actividad de acción del canal en el recorrido.
-   * **Propiedades del recorrido**: los campos técnicos relacionados con el recorrido de un perfil determinado, por ejemplo, el ID de recorrido o los errores específicos encontrados. Obtenga más información en [Documentación de Journey Orchestration](../building-journeys/expression/journey-properties.md).
+   * **Propiedades del recorrido**: los campos técnicos relacionados con el recorrido de un perfil determinado, por ejemplo, el ID de recorrido o los errores específicos encontrados. Obtenga más información en [documentación del Journey Orchestration](../building-journeys/expression/journey-properties.md).
 
    ![](assets/perso-uc10.png)
 
@@ -75,7 +75,7 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 
    ![](assets/perso-uc12.png)
 
-1. Escriba el mensaje e inserte, desde el **[!UICONTROL Contextual attributes]** , el nombre del elemento de pedido y el progreso del pedido.
+1. Escriba el mensaje e inserte, desde el **[!UICONTROL Atributos contextuales]** , el nombre del elemento de pedido y el progreso del pedido.
 
    ![](assets/perso-uc13.png)
 
@@ -89,7 +89,7 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 
 ## Paso 4: Prueba y publicación del recorrido {#test-publish}
 
-1. Haga clic en el **Prueba** y haga clic en **Activador de un evento**.
+1. Haga clic en el **Prueba** y haga clic en **Déclencheur de un evento**.
 
    ![](assets/perso-uc17.png)
 

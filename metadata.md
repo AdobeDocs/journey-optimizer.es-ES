@@ -9,29 +9,29 @@ feature-set: Journey Optimizer
 solution-title: Journey Optimizer Documentation
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 0%
+source-wordcount: '130'
+ht-degree: 100%
 
 ---
 
 
 # Metadatos para uso interno
 
-El archivo metadata.md incluye metadatos de nivel de repo que pasan a los archivos TOC.md de la guía del usuario en la repo. Si desea cambiar el contenido de metadata.md para cualquier guía del usuario, hágalo en cualquier archivo TOC.md.
+El archivo metadata.md incluye metadatos de nivel de repositorio que pasan a la guía del usuario de los archivos TOC.md en el repositorio. Si desea cambiar el contenido de metadata.md para cualquier guía del usuario, hágalo en cualquier archivo de TOC.md.
 
-| metadata | lo que hace |
+| metadatos | qué hace |
 |--- |--- |
-| solution-title | Se utiliza en el encabezado del artículo como vínculo |
-| solution-hub-url | Abre la página de concentrador de la ayuda |
-| solution-icon | Muestra el icono de la solución junto al título de la solución. No implementado aún |
-| getting-started-url | Vínculo a la página de introducción a la ayuda |
-| tutorials-url | Vínculo a tutoriales de vídeo: tutoriales de ayuda o tutoriales de KT |
-| mini-toc-levels | Determina el número de niveles de encabezado que aparecen en el carril derecho. el valor predeterminado es 2 |
-| git-repo | Especifica la ubicación de la cesión temporal maestra para uso interno |
+| solution-title | Se utiliza como vínculo en el encabezado del artículo |
+| solution-hub-url | Abrir la página helpx hub |
+| solution-icon | Muestra el icono de la solución junto al título de la solución. Aún no se ha implementado |
+| getting-started-url | Vínculo a la página de inicio de helpx |
+| tutorials-url | Vínculo a tutoriales de vídeo: tutoriales de helpx o tutoriales KT |
+| mini-toc-levels | Determina el número de niveles de encabezados que aparecen en el carril derecho. el valor predeterminado es 2 |
+| git-repo | Especifica la ubicación del repositorio principal para uso interno |
 
 En el archivo TOC.md
 
-| metadata | lo que hace |
+| metadatos | qué hace |
 |--- |--- |
-| user-guide-title | Se utiliza en el encabezado del artículo como vínculo |
-| user-guide-url | Abre la página de concentrador de la ayuda |
+| user-guide-title | Se utiliza como vínculo en el encabezado del artículo |
+| user-guide-url | Abrir la página helpx hub |

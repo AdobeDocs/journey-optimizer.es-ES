@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -21,17 +21,17 @@ ht-degree: 0%
 Cada perfil de producto está compuesto por permisos que permiten a los usuarios acceder a las diferentes funciones.
 Se pueden dividir en dos tipos:
 
-* **Permiso de alto nivel**: representa los diferentes permisos que se pueden asignar a **[!UICONTROL Product profile]** en el [!DNL Admin console], como **[!DNL Publish journeys]** y **[!DNL Manage subdomains delegation]**. Los permisos de alto nivel comprenden permisos de bajo nivel.
+* **Permiso de alto nivel**: representa los diferentes permisos que se pueden asignar a **[!UICONTROL Perfil del producto]** en el [!DNL Admin console], como **[!DNL Publish journeys]** y **[!DNL Manage subdomains delegation]**. Los permisos de alto nivel comprenden permisos de bajo nivel.
 
 * **Permiso de bajo nivel**: representa los diferentes permisos que provienen del permiso de alto nivel.
 
-Por ejemplo, la variable **[!DNL Journey administrator]** al perfil de producto se le asigna la variable **[!DNL Manage journeys]** permiso. A partir de este permiso, se obtienen los permisos de bajo nivel que permiten al administrador de recorridos escribir, leer y eliminar recorridos.
+Por ejemplo, la variable **[!DNL Journey administrator]** al perfil de producto se le asigna la variable **[!DNL Manage journeys]** permiso. A partir de este permiso, se obtienen los permisos de bajo nivel que permiten al administrador de Recorrido escribir, leer y eliminar recorridos.
 
-## Capacidad de Journey {#journey-capability}
+## Recorrido {#journey-capability}
 
 ### [!DNL Manage journeys] permiso {#manage-journeys}
 
-La variable **[!DNL Manage journeys]** los permisos de alto nivel permiten a los usuarios crear nuevos recorridos y editar o eliminar los existentes, así como acceder a los objetos que se utilizan en el lienzo del recorrido para crear el flujo del recorrido.
+La variable **[!DNL Manage journeys]** los permisos de alto nivel permiten a los usuarios crear Recorridos nuevos, editar o eliminar los existentes, así como acceder a los objetos que se utilizan en el lienzo de recorrido para crear el flujo de recorrido.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -61,7 +61,7 @@ Incluye los siguientes permisos de bajo nivel:
 
 ### [!DNL View journeys] permiso {#view-journeys}
 
-La variable **[!DNL View journeys]** los permisos de alto nivel permiten a los usuarios examinar y ver los recorridos.
+La variable **[!DNL View journeys]** los permisos de alto nivel permiten a los usuarios examinar y ver recorridos.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -79,15 +79,15 @@ La variable **[!DNL Manage journeys events, data sources and actions]** los perm
 Incluye los siguientes permisos de bajo nivel:
 
 * Específico de Journey Optimizer:
-   * recorridos_eventos.read
-   * recorridos_eventos.write
-   * recorridos_eventos.delete
-   * journey_data_sources.read
-   * journey_data_sources.write
-   * journey_data_sources.delete
-   * journey_actions.read
-   * journey_actions.write
-   * recorridos_acciones.eliminar
+   * recorrido_events.read
+   * recorrido_events.write
+   * recorrido_events.delete
+   * recorrido_data_sources.read
+   * recorrido_data_sources.write
+   * recorrido_data_sources.delete
+   * recorrido_actions.read
+   * recorrido_actions.write
+   * recorrido_actions.delete
 
 * Específico de Adobe Experience Platform:
    * schemas.read
@@ -96,14 +96,14 @@ Incluye los siguientes permisos de bajo nivel:
 
 ### [!DNL View journeys events, data sources and actions] permiso {#view-journeys-event}
 
-La variable **[!DNL View journeys events, data sources and actions]** los permisos de alto nivel permiten a los usuarios utilizar eventos y datos en el flujo del recorrido.
+La variable **[!DNL View journeys events, data sources and actions]** permiso de alto nivel permite a los usuarios utilizar eventos y datos en el flujo de recorrido.
 
 Incluye los siguientes permisos de bajo nivel:
 
 * Específico de Journey Optimizer:
-   * recorridos_eventos.read
-   * journey_data_sources.read
-   * journey_actions.read
+   * recorrido_events.read
+   * recorrido_data_sources.read
+   * recorrido_actions.read
 
 * Específico de Adobe Experience Platform:
    * schemas.read
@@ -112,12 +112,12 @@ Incluye los siguientes permisos de bajo nivel:
 
 ### [!DNL View journeys report] permiso {#view-journeys-report}
 
-La variable **[!DNL View journeys report]** los permisos de alto nivel permiten a los usuarios crear informes de recorrido de solo lectura.
+La variable **[!DNL View journeys report]** permiso de alto nivel permite a los usuarios crear informes de recorrido de solo lectura.
 
 Incluye los siguientes permisos de bajo nivel:
 
 * Específico de Journey Optimizer:
-   * journey_report.read
+   * recorrido_report.read
    * messages_report.read
 
 * Específico de Adobe Experience Platform:

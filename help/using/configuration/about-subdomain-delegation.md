@@ -10,20 +10,20 @@ level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 0%
+source-wordcount: '897'
+ht-degree: 26%
 
 ---
 
 # Delegación de subdominios en [!DNL Journey Optimizer] {#subdomain-delegation}
 
-La creación de un subdominio para campañas de correo electrónico permite a las marcas aislar distintos tipos de tráfico (marketing frente a empresa, por ejemplo) en grupos de IP específicos y con dominios específicos, lo que acelera el proceso de calentamiento de IP y mejora la capacidad de envío en general. Si comparte un dominio y este se bloquea o se añade a la lista de denegados, podría afectar a la entrega de correo empresarial. Sin embargo, los problemas de reputación o los bloques de un dominio específico de las comunicaciones de marketing por correo electrónico solo afectarán a ese flujo de correo electrónico. El uso del dominio principal como remitente o dirección &quot;De&quot; para varios flujos de correo también podría dañar la autenticación por correo electrónico, lo que bloquearía los mensajes o colocarlos en la carpeta de correo no deseado.
+La creación de un subdominio para campañas de correo electrónico permite a las marcas aislar distintos tipos de tráfico (marketing frente a empresa, por ejemplo) en grupos de IP específicos y con dominios específicos, lo que acelera el proceso de calentamiento de IP y mejora la capacidad de envío en general. Si comparte un dominio y este se bloquea o añade a la lista de bloqueados, podría afectar a la entrega de correo empresarial. Sin embargo, los problemas de reputación o los bloques de un dominio específico de las comunicaciones de marketing por correo electrónico solo afectarán a ese flujo de correo electrónico. El uso del dominio principal como remitente o dirección &quot;De&quot; para varios flujos de correo también podría dañar la autenticación por correo electrónico, lo que bloquearía los mensajes o colocarlos en la carpeta de correo no deseado.
 
 >[!NOTE]
 >
 >No puede utilizar el mismo dominio de envío para enviar mensajes desde [!DNL Adobe Journey Optimizer] y de otro producto, como [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage].
 
-## ¿Por qué configurar subdominios? {#why-setting-up-subdomains}
+## ¿Por qué configurar subdominios?  {#why-setting-up-subdomains}
 
 Un subdominio es una división de su dominio que puede utilizarse para aislar sus marcas o varios tipos de tráfico, por ejemplo, mensajes transaccionales y comunicaciones de marketing.
 
@@ -32,7 +32,7 @@ Veamos el ejemplo del dominio &quot;mybrand.com&quot;, que se utiliza para envia
 * subdominio &quot;info.mybrand.com&quot; para comunicaciones transaccionales (confirmación de compras, restablecimiento de contraseña, etc.),
 * Subdominio &quot;marketing.mybrand.com&quot; para correos electrónicos de prospección.
 
-Al hacerlo, ayudará a preservar la reputación de su dominio y otros subdominios. Por ejemplo, si los subdominios &quot;marketing.mybrand.com&quot; terminan en la lista de bloqueados de los proveedores de servicios de Internet debido a la mala capacidad de entrega, esto impediría que todo el dominio &quot;mybrand.com&quot; y el subdominio &quot;info.mybrand.com&quot; se agreguen a la lista de bloqueados.
+Al hacerlo, ayudará a preservar la reputación de su dominio y otros subdominios. Por ejemplo: si los subdominios &quot;marketing.mybrand.com&quot; terminan en la lista de bloqueados de los proveedores de servicios de Internet debido a la mala capacidad de entrega, esto impedirá que todo el dominio &quot;mybrand.com&quot; y el subdominio &quot;info.mybrand.com&quot; terminen en la lista de bloqueados.
 
 Al implementar una solución, existen requisitos para componentes externos: estas incluyen la configuración de vínculos y páginas web para rastrear, la visualización de páginas espejo, etc.
 
@@ -46,20 +46,20 @@ Aunque estos requisitos se administran a través de componentes alojados tanto p
 
 ## Métodos de configuración de subdominios {#subdomain-delegation-methods}
 
-La configuración del subdominio le permite configurar una subsección de su dominio (técnicamente, una &quot;zona DNS&quot;) para su uso con Adobe Campaign. Los métodos de configuración disponibles son:
+La configuración del subdominio le permite configurar una subsección de su dominio (técnicamente, una &quot;zona DNS&quot;) para usarla con Adobe Campaign. Los métodos de configuración disponibles son estos:
 
-* **Delegación de subdominios completa en Adobe** (recomendado): El subdominio se delega completamente a Adobe. Adobe puede controlar y mantener todos los aspectos de DNS necesarios para enviar, procesar y rastrear mensajes. [Más información sobre la delegación de subdominios completa](delegate-subdomain.md#full-subdomain-delegation)
+* **Delegación de subdominios completa en Adobe** (recomendado): el subdominio se delega completamente a Adobe. Adobe puede controlar y mantener todos los aspectos de DNS necesarios para enviar, procesar y rastrear mensajes. [Más información sobre la delegación de subdominios completa](delegate-subdomain.md#full-subdomain-delegation)
 
-* **Uso de CNAME**: Cree un subdominio y utilice CNAME para señalar registros específicos de Adobe. Con esta configuración, tanto usted como Adobe comparten la responsabilidad de mantener DNS. [Más información sobre la delegación de subdominios CNAME](delegate-subdomain.md#cname-subdomain-delegation)
+* **Uso de CNAME**: Cree un subdominio y utilice CNAME para señalar registros específicos de Adobe. Con esta configuración, tanto usted como el Adobe comparten la responsabilidad de mantener DNS. [Más información sobre la delegación de subdominios CNAME](delegate-subdomain.md#cname-subdomain-delegation)
 
 >[!CAUTION]
 >
 >* La delegación de subdominios completa es el método preferido.
 >
->* Se recomienda el método CNAME si las políticas de su organización restringen el método de delegación de subdominios completo. Este método requiere que mantenga y administre los registros DNS por su cuenta. Adobe no podrá ayudarle a cambiar, mantener o administrar el DNS de un subdominio configurado mediante el método CNAME.
+>* Se recomienda el método CNAME si las políticas de su organización restringen el método de delegación de subdominios completo. Este método requiere que mantenga y administre los registros DNS por su cuenta. Adobe no podrá ayudarle a cambiar, mantener o administrar DNS para un subdominio configurado mediante el método CNAME.
 
 
-En el cuadro que figura a continuación se resume el funcionamiento de estos métodos, así como el nivel de esfuerzo que suponen:
+En el cuadro que figura a continuación se ofrece un resumen del funcionamiento de estos métodos, así como el nivel de esfuerzo que suponen:
 
 | Método de configuración | Funcionamiento | Nivel de esfuerzo |
 |---|---|---|
@@ -68,26 +68,26 @@ En el cuadro que figura a continuación se resume el funcionamiento de estos mé
 
 Encontrará información adicional sobre la configuración de dominios en [esta documentación](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
 
-Si tiene alguna pregunta sobre los métodos de configuración de subdominios, póngase en contacto con Adobe o, finalmente, póngase en contacto con el Servicio de atención al cliente para solicitar consultoría de entregas.
+Si tiene alguna pregunta sobre los métodos de configuración de subdominios, póngase en contacto con el Adobe o póngase en contacto con el Servicio de atención al cliente para solicitar consultoría de entregas.
 
-## Acceso a subdominios delegados {#access-delegated-subdomains}
+## Acceder a subdominios delegados {#access-delegated-subdomains}
 
-Todos los subdominios delegados se muestran en la sección **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** para abrir el Navegador. Los filtros están disponibles para ayudarle a refinar la lista (fecha de delegación, usuario o estado).
+Todos los subdominios delegados se muestran en la sección **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Subdominios]** para abrir el Navegador. Los filtros están disponibles para ayudarle a refinar la lista (fecha de delegación, usuario o estado).
 
 ![](assets/subdomain-list.png)
 
-La variable **[!UICONTROL Status]** proporciona información sobre el proceso de delegación de subdominios:
+La variable **[!UICONTROL Estado]** proporciona información sobre el proceso de delegación de subdominios:
 
-* **[!UICONTROL Draft]**: La delegación de subdominios se ha guardado como borrador. Haga clic en el nombre del subdominio para reanudar el proceso de delegación.
-* **[!UICONTROL Processing]**: El subdominio está pasando por varias comprobaciones de configuración antes de poder utilizarlo,
-* **[!UICONTROL Success]**: El subdominio ha pasado por las comprobaciones correctamente y puede utilizarse para enviar mensajes,
-* **[!UICONTROL Failed]**: Una o varias comprobaciones han fallado después de enviar la delegación de subdominios.
+* **[!UICONTROL Borrador]**: La delegación de subdominios se ha guardado como borrador. Haga clic en el nombre del subdominio para reanudar el proceso de delegación.
+* **[!UICONTROL Procesamiento]**: El subdominio está pasando por varias comprobaciones de configuración antes de poder utilizarlo,
+* **[!UICONTROL Correcto]**: El subdominio ha pasado por las comprobaciones correctamente y puede utilizarse para enviar mensajes,
+* **[!UICONTROL Error]**: Una o varias comprobaciones han fallado después de enviar la delegación de subdominios.
 
-Para acceder a información detallada sobre un subdominio con la variable **[!UICONTROL Success]** , ábralo desde la lista.
+Para acceder a información detallada sobre un subdominio con la variable **[!UICONTROL Correcto]** , ábralo desde la lista.
 
 ![](assets/subdomain-delegated.png)
 
-Puede:
+Puede hacer lo siguiente:
 
 * Recupere el nombre de subdominio (solo lectura) configurado durante el proceso de delegación, así como las direcciones URL generadas (recursos, páginas espejo, URL de seguimiento).
 

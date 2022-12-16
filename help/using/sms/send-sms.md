@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 0%
+source-wordcount: '277'
+ht-degree: 6%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 0%
 
 Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo. Si insertó contenido personalizado, puede comprobar cómo se muestra este contenido en el mensaje, aprovechando los datos de perfil de prueba.
 
-1. Haga clic en **[!UICONTROL Simulate content]**.
+1. Haga clic en **[!UICONTROL Simular contenido]**.
 
-1. Haga clic en **[!UICONTROL Manage test profiles]** para agregar un perfil de prueba.
+1. Haga clic en **[!UICONTROL Administrar perfiles de prueba]** para agregar un perfil de prueba.
 
-1. Busque el perfil de prueba con la variable **[!UICONTROL Identity namespace]** y **[!UICONTROL Identity value]** campos. A continuación, haga clic en **[!UICONTROL Add profile]**.
+1. Busque el perfil de prueba con la variable **[!UICONTROL Área de nombres de identidad]** y **[!UICONTROL Valor de identidad]** campos. A continuación, haga clic en **[!UICONTROL Añadir perfil]**.
 
    ![](assets/sms_preview_3.png)
 
-1. Una vez que haya seleccionado el perfil de prueba, puede cerrar el **[!UICONTROL Add test profile]** ventana.
+1. Una vez que haya seleccionado el perfil de prueba, puede cerrar el **[!UICONTROL Añadir perfil de prueba]** ventana.
 
    ![](assets/sms_preview_1.png)
 
@@ -57,7 +57,7 @@ Cuando el mensaje SMS esté listo, complete la configuración de su [recorrido](
 
 **Temas relacionados**
 
-* [Configurar canal de SMS](sms-configuration.md)
+* [Configuración del canal de SMS](sms-configuration.md)
 * [Informe SMS](../reports/journey-global-report.md#sms-global)
 * [Creación de un mensaje SMS](create-sms.md)
-* [Añadir un mensaje en un recorrido](../building-journeys/journeys-message.md)
+* [Adición de un mensaje en un recorrido](../building-journeys/journeys-message.md)

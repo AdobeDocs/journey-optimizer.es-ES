@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Crear una lista de suscripción
+title: Creación de una lista de suscripción
 description: Obtenga información sobre cómo configurar una lista de suscripción en Journey Optimizer
 feature: Landing Pages
 topic: Content Management
@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 0%
+source-wordcount: '420'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 >id="ajo_subscription_list"
 >title="Configuración de una lista de suscripción"
 >abstract="Cree una lista de suscripción para recopilar perfiles que hayan elegido recibir comunicaciones sobre un asunto o evento específico. "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html#define-subscription-list" text="Crear una lista de suscripción"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html#define-subscription-list" text="Creación de una lista de suscripción"
 
 Un servicio de suscripción se refiere a los bienes y servicios de marketing proporcionados a los clientes que han elegido recibir comunicaciones sobre un asunto específico, evento, interés, etc. de forma continua. En [!DNL Journey Optimizer], estos clientes seleccionados se agrupan en una lista de suscripción.
 
@@ -37,15 +37,15 @@ Un servicio de suscripción puede ser:
 
 Los perfiles se pueden agregar a una lista de suscripción mediante un [página de aterrizaje](create-lp.md). Un ejemplo se presenta en [esta sección](lp-use-cases.md#subscription-to-a-service).
 
-## Crear una lista de suscripción {#define-subscription-list}
+## Creación de una lista de suscripción {#define-subscription-list}
 
 Para crear una lista de suscripción, siga los pasos a continuación.
 
-1. Para acceder a las listas de suscripción, seleccione **[!UICONTROL Customer]** > **[!UICONTROL Subscription list]**.
+1. Para acceder a las listas de suscripción, seleccione **[!UICONTROL Cliente]** > **[!UICONTROL Lista de suscripciones]**.
 
    ![](assets/lp_subscription-lists.png)
 
-1. Seleccione el **[!UICONTROL Create subscription list]** botón.
+1. Seleccione el **[!UICONTROL Crear lista de suscripción]** botón.
 
    ![](assets/lp_create-subscription-list.png)
 
@@ -55,13 +55,13 @@ Para crear una lista de suscripción, siga los pasos a continuación.
 
    >[!CAUTION]
    >
-   >Actualmente no puede utilizar el espaciado ni especificar un nombre que ya exista para otra lista de suscripción en la **[!UICONTROL Title]** campo .
+   >Actualmente no puede utilizar el espaciado ni especificar un nombre que ya exista para otra lista de suscripción en la **[!UICONTROL Título]** campo .
 
 1. Puede definir una fecha de inicio y una de finalización.
 
    ![](assets/lp_subscription-list-dates.png)
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 La lista muestra todas las listas de suscripción creadas. Puede filtrarlos en función de la fecha de creación o de modificación, así como de su estado.
 
@@ -69,9 +69,9 @@ La lista muestra todas las listas de suscripción creadas. Puede filtrarlos en f
 
 Los estados posibles son los siguientes:
 
-* **[!UICONTROL Not started]**: Se ha definido una fecha de inicio posterior al día actual. Los perfiles suscritos aún no recibirán comunicaciones relacionadas con esta lista de suscripción.
-* **[!UICONTROL Live]**: El día actual está comprendido entre la fecha de inicio y la fecha de finalización de la lista de suscripción, o bien no se han definido fechas de finalización/inicio, lo que significa que la lista de suscripción siempre está activa.
-* **[!UICONTROL Expired]**: Se pasa la fecha de finalización, por lo que la lista de suscripción ya no es válida. Los perfiles suscritos no recibirán más comunicaciones relacionadas con esta lista de suscripción.
+* **[!UICONTROL No iniciado]**: Se ha definido una fecha de inicio posterior al día actual. Los perfiles suscritos aún no recibirán comunicaciones relacionadas con esta lista de suscripción.
+* **[!UICONTROL Activo]**: El día actual está comprendido entre la fecha de inicio y la fecha de finalización de la lista de suscripción, o bien no se han definido fechas de finalización/inicio, lo que significa que la lista de suscripción siempre está activa.
+* **[!UICONTROL Caducado]**: Se pasa la fecha de finalización, por lo que la lista de suscripción ya no es válida. Los perfiles suscritos no recibirán más comunicaciones relacionadas con esta lista de suscripción.
 
 Una vez creada la lista de suscripción, puede utilizarla en una página de aterrizaje. Los perfiles que acepten a través del formulario de página de aterrizaje se agregarán a la lista. [Más información](design-lp.md)
 

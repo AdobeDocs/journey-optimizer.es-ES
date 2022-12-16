@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 0%
+source-wordcount: '860'
+ht-degree: 1%
 
 ---
 
@@ -44,43 +44,43 @@ En nuestro recorrido, queremos aprovechar un segmento específico de clientes. T
 
 Para obtener más información sobre los segmentos, consulte esta [página](../segment/about-segments.md).
 
-1. En la sección de menú CLIENTE , seleccione **[!UICONTROL Segments]**.
+1. En la sección de menú CLIENTE , seleccione **[!UICONTROL Segmentos]**.
 
-1. Haga clic en el **[!UICONTROL Create segment]** que se encuentra en la parte superior derecha de la lista de segmentos.
+1. Haga clic en el **[!UICONTROL Crear segmento]** que se encuentra en la parte superior derecha de la lista de segmentos.
 
-1. En el **[!UICONTROL Segment properties]** , escriba un nombre para el segmento.
+1. En el **[!UICONTROL Propiedades del segmento]** , escriba un nombre para el segmento.
 
 1. Arrastre y suelte los campos deseados del panel izquierdo al espacio de trabajo central y, a continuación, configúrelos según sus necesidades. En este ejemplo, utilizamos la variable **Ciudad** y **Año de nacimiento** campos de atributos.
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
    ![](assets/add-attributes.png)
 
-El segmento ahora se ha creado y está listo para utilizarse en su recorrido. Uso de un **Leer segmento** actividad, puede hacer que todas las personas que pertenecen al segmento participen en el recorrido.
+El segmento se ha creado y está listo para utilizarse en el recorrido. Uso de un **Leer segmento** , puede hacer que todas las personas que pertenecen al segmento entren en el recorrido.
 
 ### Configuración del evento
 
-Debe configurar un evento que se envíe al recorrido cuando un cliente realice una compra. Cuando el recorrido recibe el evento, activa el mensaje de agradecimiento.
+Debe configurar un evento que se envíe a su recorrido cuando un cliente realice una compra. Cuando el recorrido recibe el evento, déclencheur el mensaje de agradecimiento.
 
 Para ello, se utiliza un evento basado en reglas. Para obtener más información sobre los eventos, consulte esta [página](../event/about-events.md).
 
-1. En la sección del menú ADMINISTRACIÓN , seleccione **[!UICONTROL Configurations]** y haga clic en **[!UICONTROL Events]**. Haga clic en **[!UICONTROL Create event]** para crear un nuevo evento.
+1. En la sección del menú ADMINISTRACIÓN , seleccione **[!UICONTROL Configuraciones]** y haga clic en **[!UICONTROL Eventos]**. Haga clic en **[!UICONTROL Crear evento]** para crear un nuevo evento.
 
 1. Introduzca el nombre del evento.
 
-1. En el **[!UICONTROL Event ID type]** campo, seleccione **[!UICONTROL Rule Based]**.
+1. En el **[!UICONTROL Tipo de ID de evento]** campo, seleccione **[!UICONTROL Basado en reglas]**.
 
-1. Defina el **[!UICONTROL Schema]** y carga útil **[!UICONTROL Fields]**. Puede utilizar varios campos, por ejemplo, el producto comprado, la fecha de compra y el ID de compra.
+1. Defina el **[!UICONTROL Esquema]** y carga útil **[!UICONTROL Campos]**. Puede utilizar varios campos, por ejemplo, el producto comprado, la fecha de compra y el ID de compra.
 
-1. En el **[!UICONTROL Event ID condition]** , defina la condición utilizada por el sistema para identificar los eventos que activan el recorrido. Por ejemplo, puede agregar un `purchaseMessage` y defina la siguiente regla: `purchaseMessage="thank you"`
+1. En el **[!UICONTROL Condición de ID de evento]** , defina la condición utilizada por el sistema para identificar los eventos que producen el déclencheur del recorrido. Por ejemplo, puede agregar un `purchaseMessage` y defina la siguiente regla: `purchaseMessage="thank you"`
 
-1. Defina el **[!UICONTROL Namespace]** y **[!UICONTROL Profile Identifier]**.
+1. Defina el **[!UICONTROL Área de nombres]** y **[!UICONTROL Identificador de perfil]**.
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
    ![](assets/jo-uc2.png)
 
-El evento está configurado y listo para utilizarse en el recorrido. Con la actividad de evento correspondiente, puede activar una acción cada vez que un cliente realiza una compra.
+El evento está configurado y listo para utilizarse en el recorrido. Con la actividad de evento correspondiente, puede almacenar en déclencheur una acción cada vez que un cliente realiza una compra.
 
 ## Diseño del recorrido
 
@@ -88,7 +88,7 @@ El evento está configurado y listo para utilizarse en el recorrido. Con la acti
 
    ![](assets/jo-uc4.png)
 
-1. Suelte un **Correo electrónico** actividad de acción y defina el contenido del &quot;primer mensaje&quot;. Este mensaje se envía a todas las personas en el recorrido. Consulte esta [sección](../email/create-email.md) para aprender a configurar y diseñar un correo electrónico.
+1. Suelte un **Correo electrónico** actividad de acción y defina el contenido del &quot;primer mensaje&quot;. Este mensaje se envía a todas las personas del recorrido. Consulte esta [sección](../email/create-email.md) para aprender a configurar y diseñar un correo electrónico.
 
    ![](assets/jo-uc5.png)
 
@@ -112,7 +112,7 @@ El evento está configurado y listo para utilizarse en el recorrido. Con la acti
 
 ## Prueba y publicación del recorrido
 
-1. Antes de probar el recorrido, compruebe que sea válido y que no haya error.
+1. Antes de probar el recorrido, compruebe que sea válido y que no haya ningún error.
 
 1. Haga clic en el **Prueba** para activar el modo de prueba, situado en la esquina superior derecha. Defina cómo desea que los perfiles de prueba entren en la prueba: un perfil único o hasta 100 a la vez. Consulte esta [sección](testing-the-journey.md) para aprender a utilizar el modo de prueba.
 

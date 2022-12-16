@@ -10,8 +10,8 @@ level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 0%
+source-wordcount: '344'
+ht-degree: 2%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo. Si insertó contenido personalizado, puede comprobar cómo se muestra este contenido en el mensaje, aprovechando los datos de perfil de prueba.
 
-1. Haga clic en **[!UICONTROL Simulate content]**.
+1. Haga clic en **[!UICONTROL Simular contenido]**.
 
-1. Haga clic en **[!UICONTROL Manage test profiles]** para agregar un perfil de prueba.
+1. Haga clic en **[!UICONTROL Administrar perfiles de prueba]** para agregar un perfil de prueba.
 
-1. Busque el perfil de prueba con la variable **[!UICONTROL Identity namespace]** y **[!UICONTROL Identity value]** campos. A continuación, haga clic en **[!UICONTROL Add profile]**.
+1. Busque el perfil de prueba con la variable **[!UICONTROL Área de nombres de identidad]** y **[!UICONTROL Valor de identidad]** campos. A continuación, haga clic en **[!UICONTROL Añadir perfil]**.
 
    ![](assets/push_preview_1.png)
 
@@ -51,11 +51,11 @@ También debe comprobar las alertas en la sección superior del editor.  Algunas
 
 * **Errores** evite probar o activar el recorrido siempre que no se resuelvan, como:
 
-   * **[!UICONTROL The push version of the message is empty]**: este error se muestra cuando falta el cuerpo o el título de la notificación push. Aprenda a definir el contenido de las notificaciones push en [esta sección](create-push.md).
+   * **[!UICONTROL La versión push del mensaje está vacía]**: este error se muestra cuando falta el cuerpo o el título de la notificación push. Aprenda a definir el contenido de las notificaciones push en [esta sección](create-push.md).
 
-   * **[!UICONTROL Surface doesn't exist]**: no puede utilizar el mensaje si la superficie seleccionada se elimina después de la creación del mensaje. Si se produce este error, seleccione otra superficie en el mensaje **[!UICONTROL Properties]**. Obtenga más información sobre las superficies de canal en [esta sección](../configuration/channel-surfaces.md).
+   * **[!UICONTROL La superficie no existe]**: no puede utilizar el mensaje si la superficie seleccionada se elimina después de la creación del mensaje. Si se produce este error, seleccione otra superficie en el mensaje **[!UICONTROL Propiedades]**. Obtenga más información sobre las superficies de canal en [esta sección](../configuration/channel-surfaces.md).
 
-   * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: el tamaño de la notificación push no puede superar los 4 KB. Para respetar este límite, intente reducir el uso de imágenes o emojis. Aprenda a administrar el contenido de las notificaciones push en [esta sección](../push/create-push.md).
+   * **[!UICONTROL La carga útil de iOS/Android push ha superado el límite de 4 KB]**: el tamaño de la notificación push no puede superar los 4 KB. Para respetar este límite, intente reducir el uso de imágenes o emojis. Aprenda a administrar el contenido de las notificaciones push en [esta sección](../push/create-push.md).
 
 ![](assets/push_alert.png)
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Modificar o detener una campaña
+title: Modificación o detención de una campaña
 description: Obtenga información sobre cómo modificar, detener o duplicar campañas en directo en [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 0%
+source-wordcount: '478'
+ht-degree: 2%
 
 ---
 
@@ -23,9 +23,9 @@ Además, puede duplicar las campañas en vivo (ejecutadas una vez o con una ejec
 
 ## Acceso a campañas {#access}
 
-Se puede acceder a las campañas desde la **[!UICONTROL Campaigns]** para abrir el Navegador.
+Se puede acceder a las campañas desde la **[!UICONTROL Campañas]** para abrir el Navegador.
 
-De forma predeterminada, la lista muestra todas las campañas con la variable **[!UICONTROL Draft]**, **[!UICONTROL Scheduled]** y **[!UICONTROL Live]** estados.
+De forma predeterminada, la lista muestra todas las campañas con la variable **[!UICONTROL Borrador]**, **[!UICONTROL Programado]** y **[!UICONTROL Activo]** estados.
 
 Para mostrar las campañas detenidas, completadas y archivadas, debe borrar el filtro.
 
@@ -35,29 +35,29 @@ Para mostrar las campañas detenidas, completadas y archivadas, debe borrar el f
 
 Las campañas pueden tener varios estados:
 
-* **[!UICONTROL Draft]**: La campaña se está editando y no se ha activado.
-* **[!UICONTROL Activating]**: La campaña se está activando.
-* **[!UICONTROL Live]**: La campaña se ha activado.
-* **[!UICONTROL Scheduled]**: La campaña está configurada para activarse en una fecha de inicio específica.
-* **[!UICONTROL Stopped]**: La campaña se ha detenido manualmente. Ya no se puede activar ni volver a utilizar. [Obtenga información sobre cómo detener una campaña](modify-stop-campaign.md#stop)
-* **[!UICONTROL Completed]**: La campaña ha finalizado. Este estado se asigna automáticamente 3 días después de activar una campaña o en la fecha de finalización de la campaña si tiene una ejecución recurrente.
-* **[!UICONTROL Archived]**: La campaña se ha archivado. [Aprenda a archivar campañas](modify-stop-campaign.md#archive)
+* **[!UICONTROL Borrador]**: La campaña se está editando y no se ha activado.
+* **[!UICONTROL Activación]**: La campaña se está activando.
+* **[!UICONTROL Activo]**: La campaña se ha activado.
+* **[!UICONTROL Programado]**: La campaña está configurada para activarse en una fecha de inicio específica.
+* **[!UICONTROL Detenido]**: La campaña se ha detenido manualmente. Ya no se puede activar ni volver a utilizar. [Obtenga información sobre cómo detener una campaña](modify-stop-campaign.md#stop)
+* **[!UICONTROL Completado]**: La campaña ha finalizado. Este estado se asigna automáticamente 3 días después de activar una campaña o en la fecha de finalización de la campaña si tiene una ejecución recurrente.
+* **[!UICONTROL Archivado]**: La campaña se ha archivado. [Aprenda a archivar campañas](modify-stop-campaign.md#archive)
 
 >[!NOTE]
 >
->El icono &quot;Abrir versión de borrador&quot; junto a una **[!UICONTROL Live]** o **[!UICONTROL Scheduled]** indica que se ha creado una nueva versión de la campaña y que aún no se ha activado. [Más información](modify-stop-campaign.md#modify).
+>El icono &quot;Abrir versión de borrador&quot; junto a una **[!UICONTROL Activo]** o **[!UICONTROL Programado]** indica que se ha creado una nueva versión de la campaña y que aún no se ha activado. [Más información](modify-stop-campaign.md#modify).
 
 ## Modificación de una campaña recurrente {#modify}
 
 Para modificar y crear una nueva versión de una campaña recurrente, siga estos pasos:
 
-1. Abra la campaña y haga clic en el botón **[!UICONTROL Modify campaign]** botón.
+1. Abra la campaña y haga clic en el botón **[!UICONTROL Modificar campaña]** botón.
 
-1. Se crea una nueva versión de la campaña. Puede comprobar la versión activa haciendo clic en **[!UICONTROL Open live version]**.
+1. Se crea una nueva versión de la campaña. Puede comprobar la versión activa haciendo clic en **[!UICONTROL Abrir versión en directo]**.
 
    ![](assets/create-campaign-draft.png)
 
-   En la lista de campañas, las campañas activadas con una versión de borrador en curso se muestran con un icono específico en la variable **[!UICONTROL Status]** para abrir el Navegador. Haga clic en este icono para abrir la versión de borrador de la campaña.
+   En la lista de campañas, las campañas activadas con una versión de borrador en curso se muestran con un icono específico en la variable **[!UICONTROL Estado]** para abrir el Navegador. Haga clic en este icono para abrir la versión de borrador de la campaña.
 
    ![](assets/create-campaign-edit-list.png)
 
@@ -69,7 +69,7 @@ Para modificar y crear una nueva versión de una campaña recurrente, siga estos
 
 ## Detener una campaña recurrente {#stop}
 
-Para detener una campaña recurrente, ábrala y haga clic en el botón **[!UICONTROL Stop campaign]** botón.
+Para detener una campaña recurrente, ábrala y haga clic en el botón **[!UICONTROL Detener campaña]** botón.
 
 ![](assets/create-campaign-stop.png)
 
@@ -81,7 +81,7 @@ Para detener una campaña recurrente, ábrala y haga clic en el botón **[!UICON
 
 ## Duplicar una campaña {#duplicate}
 
-Puede duplicar una campaña activa para crear una nueva. Para ello, abra la campaña y haga clic en **[!UICONTROL Duplicate]**.
+Puede duplicar una campaña activa para crear una nueva. Para ello, abra la campaña y haga clic en **[!UICONTROL Duplicar]**.
 
 ![](assets/create-campaign-duplicate.png)
 
@@ -89,7 +89,7 @@ Puede duplicar una campaña activa para crear una nueva. Para ello, abra la camp
 
 Con el tiempo, la lista de campañas sigue creciendo y, finalmente, dificulta el examen de las campañas completadas y detenidas.
 
-Para evitarlo, puede archivar campañas completadas y detenidas que ya no necesite. Para ello, haga clic en el botón elipse y seleccione **[!UICONTROL Archive]**.
+Para evitarlo, puede archivar campañas completadas y detenidas que ya no necesite. Para ello, haga clic en el botón elipse y seleccione **[!UICONTROL Archivo]**.
 
 ![](assets/create-campaign-archive.png)
 

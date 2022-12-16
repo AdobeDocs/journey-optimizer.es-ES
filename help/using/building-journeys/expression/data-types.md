@@ -9,8 +9,8 @@ level: Experienced
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 0%
+source-wordcount: '637'
+ht-degree: 5%
 
 ---
 
@@ -96,7 +96,7 @@ Formato de serialización: usando &#39;.&#39; como separador decimal.
 3.14
 ```
 
-## booleano {#boolean}
+## Booleano {#boolean}
 
 **Descripción**
 
@@ -317,7 +317,7 @@ toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 
 Lista separada por comas de expresiones utilizando corchetes como delimitadores.
 
-No se admite el polimorfismo, por lo que todas las expresiones contenidas en la lista deben tener el mismo tipo.
+No se admite el polimorfismo, por lo que todas las expresiones incluidas en la lista deben tener el mismo tipo.
 
 **Representación literal**
 

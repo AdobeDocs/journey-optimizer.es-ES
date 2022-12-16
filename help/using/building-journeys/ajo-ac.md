@@ -11,7 +11,7 @@ exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -32,7 +32,7 @@ La instancia de Campaign debe aprovisionarse para esta integración. La función
 
 1. Inicie sesión en la instancia de control de Campaign.
 
-1. En **Administración** > **Plataforma** > **Enumeraciones**, seleccione **Tipo de evento** enumeración (eventType). Cree un nuevo tipo de evento (&quot;journey-event&quot;, en nuestro ejemplo). Deberá utilizar el nombre interno del tipo de evento al escribir el archivo JSON más adelante.
+1. En **Administración** > **Plataforma** > **Enumeraciones**, seleccione **Tipo de evento** enumeración (eventType). Cree un nuevo tipo de evento (&quot;recorrido-evento&quot;, en nuestro ejemplo). Deberá utilizar el nombre interno del tipo de evento al escribir el archivo JSON más adelante.
 
    ![](assets/accintegration-uc-1.png)
 
@@ -86,7 +86,7 @@ La instancia de Campaign debe aprovisionarse para esta integración. La función
 
    ![](assets/accintegration-uc-8.png)
 
-1. Ahora cree un nuevo recorrido e inicie con el evento creado anteriormente.
+1. Ahora cree un nuevo recorrido y comience con el evento creado anteriormente.
 
    ![](assets/accintegration-uc-9.png)
 
@@ -94,7 +94,7 @@ La instancia de Campaign debe aprovisionarse para esta integración. La función
 
    ![](assets/accintegration-uc-10.png)
 
-1. Pruebe el recorrido.
+1. Prueba del recorrido.
 
    ![](assets/accintegration-uc-11.png)
 

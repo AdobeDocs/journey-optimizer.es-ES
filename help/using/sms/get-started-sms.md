@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introducción a SMS
-description: Aprenda a crear un SMS en Journey Optimizer
+title: Introducción a los SMS
+description: Obtenga información sobre cómo crear un SMS en Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -10,12 +10,12 @@ level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 0%
+source-wordcount: '193'
+ht-degree: 22%
 
 ---
 
-# Introducción a SMS {#get-started-sms}
+# Introducción a los SMS {#get-started-sms}
 
 >[!IMPORTANT]
 >
@@ -25,7 +25,7 @@ Uso [!DNL Journey Optimizer] para enviar mensajes de texto a sus clientes en sus
 
 Se pueden crear envíos de SMS:
 
-* En un **Recorrido**: Una vez que haya añadido una actividad SMS en el recorrido y haya definido la configuración básica, utilice la variable **[!UICONTROL Actions: SMS]** panel derecho para crear el contenido del mensaje SMS.
+* En un **Recorrido**: Una vez que haya agregado una actividad SMS en el recorrido y haya definido la configuración básica, utilice la variable **[!UICONTROL Acciones: SMS]** panel derecho para crear el contenido del mensaje SMS.
 
    Para obtener más información sobre cómo configurar el recorrido, consulte esta [página](../building-journeys/journey-gs.md).
 
@@ -66,7 +66,7 @@ Si es la primera vez que crea un mensaje SMS, asegúrese de que el canal SMS est
 <img alt="Validación" src="../assets/do-not-localize/sms-config.jpg">
 </a>
 <div>
-<a href="sms-configuration.md"><strong>Configurar canal de SMS</strong></a>
+<a href="sms-configuration.md"><strong>Configuración del canal de SMS</strong></a>
 </div>
 <p>
 </td>
@@ -74,6 +74,6 @@ Si es la primera vez que crea un mensaje SMS, asegúrese de que el canal SMS est
 
 ## Vídeo explicativo
 
-Obtenga información sobre cómo configurar, crear e incluir mensajes SMS en los recorridos de los clientes.
+Obtenga información sobre cómo configurar, crear e incluir mensajes SMS en sus recorridos de cliente.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)

@@ -9,7 +9,7 @@ exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Se envía una oferta de reserva a los clientes si no cumplen los requisitos para otras ofertas. Los pasos para crear una oferta de reserva consisten en crear una o varias representaciones, como al crear una oferta.
 
-Puede ver una lista de todas las ofertas de reserva dentro de un contenedor realizando una sola solicitud GET al [!DNL Offer Library] API.
+Puede ver una lista de todas las ofertas de reserva dentro de un contenedor realizando una sola solicitud de GET al [!DNL Offer Library] API.
 
 **Formato de API**
 

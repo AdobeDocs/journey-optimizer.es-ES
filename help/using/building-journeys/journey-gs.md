@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Crear el primer recorrido
+title: Creación de su primer recorrido
 description: Pasos clave para crear su primer recorrido con Adobe Journey Optimizer
 feature: Journeys
 topic: Content Management
@@ -10,30 +10,30 @@ level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 978751263ba2ed21e35e41e767f1e31ddbe59d53
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 0%
+source-wordcount: '1009'
+ht-degree: 13%
 
 ---
 
-# Crear el primer recorrido{#jo-quick-start}
+# Creación de su primer recorrido{#jo-quick-start}
 
 ## Requisitos previos{#start-prerequisites}
 
 Para enviar mensajes con recorridos, se requieren las siguientes configuraciones:
 
-1. **Configurar un evento**: si desea activar los recorridos de forma unitaria cuando se recibe un evento, debe configurar un evento. Puede definir la información esperada y cómo procesarla. Este paso se realiza mediante una **usuario técnico**. [Más información](../event/about-events.md).
+1. **Configurar un evento**: si desea configurar los recorridos de forma unitaria cuando se reciba un evento, debe configurar un evento. Puede definir la información esperada y cómo procesarla. Este paso lo realiza un **usuario técnico**. [Más información](../event/about-events.md).
 
    ![](assets/jo-event7bis.png)
 
-1. **Creación de segmentos**: el recorrido también puede escuchar los segmentos de Adobe Experience Platform para enviar mensajes en lote a un conjunto específico de perfiles. Para ello, debe crear segmentos. [Más información](../segment/about-segments.md).
+1. **Creación de segmentos**: el recorrido también puede escuchar segmentos de Adobe Experience Platform para enviar mensajes en lote a un conjunto específico de perfiles. Para ello, debe crear segmentos. [Más información](../segment/about-segments.md).
 
    ![](assets/segment2.png)
 
-1. **Configuración de la fuente de datos**: puede definir una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos, por ejemplo en sus condiciones. También se configura una fuente de datos integrada de Adobe Experience Platform en el momento del aprovisionamiento. Este paso no es necesario si solo se aprovechan los datos de los eventos en el recorrido. Este paso se realiza mediante una **usuario técnico**. [Más información](../datasource/about-data-sources.md)
+1. **Configuración de la fuente de datos**: puede definir una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos, por ejemplo en las condiciones. También se configura una fuente de datos integrada de Adobe Experience Platform en el momento del aprovisionamiento. Este paso no es necesario si solo se aprovechan los datos de los eventos durante el recorrido. Este paso lo realiza un **usuario técnico**. [Más información](../datasource/about-data-sources.md)
 
    ![](assets/jo-datasource.png)
 
-1. **Configurar una acción**: Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción personalizada. Obtenga más información en esta [sección](../action/action.md). Este paso se realiza mediante una **usuario técnico**. Si utiliza las funciones de mensajes integradas de Journey Optimizer, solo tiene que añadir una acción de canal al recorrido y diseñar el contenido.
+1. **Configurar una acción**: Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción personalizada. Obtenga más información en esta [sección](../action/action.md). Este paso lo realiza un **usuario técnico**. Si utiliza las funciones de mensajes integradas de Journey Optimizer, solo tiene que añadir una acción de canal al recorrido y diseñar el contenido.
 
    ![](assets/custom2.png)
 
@@ -42,23 +42,23 @@ Para enviar mensajes con recorridos, se requieren las siguientes configuraciones
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Cree su recorrido"
->abstract="Esta pantalla muestra la lista de recorridos existentes. Abra un recorrido o haga clic en &quot;Crear recorrido&quot; y combine las diferentes actividades de evento, orquestación y acción para crear sus escenarios multicanal."
+>abstract="Esta pantalla muestra la lista de recorridos existentes. Abra un recorrido o haga clic en &quot;Crear recorrido&quot; y combine las diferentes actividades de evento, orquestación y acción para crear sus escenarios multicanal de varios pasos."
 
-Este paso lo realiza el **usuario empresarial**. Aquí es donde crea sus recorridos. Combine las diferentes actividades de evento, orquestación y acción para crear sus escenarios de canales cruzados de varios pasos.
+Este paso lo realiza el **usuario empresarial**. Aquí es donde crea sus recorridos. Combine las distintas actividades de evento, orquestación y acción para crear sus escenarios de canal cruzado de varios pasos.
 
 Estos son los pasos principales para enviar mensajes a través de recorridos:
 
-1. En la sección del menú ADMINISTRACIÓN DE RECORRIDO , haga clic en **[!UICONTROL Journeys]**. Se muestra la lista de recorridos.
+1. En la sección del menú ADMINISTRACIÓN DE RECORRIDOS , haga clic en **[!UICONTROL Recorridos]**. Se muestra la lista de recorridos.
 
    ![](assets/interface-journeys.png)
 
-1. Haga clic en **[!UICONTROL Create Journey]** para crear un nuevo recorrido.
+1. Haga clic en **[!UICONTROL Crear Recorrido]** para crear un nuevo recorrido.
 
 1. Edite las propiedades del recorrido en el panel de configuración que se muestra en el lado derecho. Obtenga más información en esta [sección](journey-gs.md#change-properties).
 
    ![](assets/jo-properties.png)
 
-1. Para empezar, arrastre y suelte un evento o un **Leer segmento** actividad desde la paleta al lienzo. Para obtener más información sobre el diseño del recorrido, consulte [esta sección](using-the-journey-designer.md).
+1. Para empezar, arrastre y suelte un evento o un **Leer segmento** actividad desde la paleta al lienzo. Para obtener más información sobre el diseño de recorrido, consulte [esta sección](using-the-journey-designer.md).
 
    ![](assets/read-segment.png)
 
@@ -70,7 +70,7 @@ Estos son los pasos principales para enviar mensajes a través de recorridos:
 
    ![](assets/jo-journeyuc2_32bis.png)
 
-1. Monitorice su recorrido con las herramientas de sistema de informes dedicadas para medir la eficacia de su recorrido. Obtenga más información en esta [sección](../reports/live-report.md).
+1. Monitorice el recorrido con las herramientas de sistema de informes dedicadas para medir la efectividad de su recorrido. Obtenga más información en esta [sección](../reports/live-report.md).
 
    ![](assets/jo-dynamic_report_journey_12.png)
 
@@ -83,9 +83,9 @@ Estos son los pasos principales para enviar mensajes a través de recorridos:
 
 Haga clic en el icono de lápiz, en la parte superior derecha para acceder a las propiedades del recorrido.
 
-Puede cambiar el nombre del recorrido, añadir una descripción, permitir la reentrada, elegir las fechas de inicio y finalización y, como usuario administrador, definir una **[!UICONTROL Timeout and error]** duración.
+Puede cambiar el nombre del recorrido, añadir una descripción, permitir la reentrada, elegir las fechas de inicio y finalización y, como usuario administrador, definir una **[!UICONTROL Tiempo de espera y error]** duración.
 
-En los recorridos en directo, esta pantalla muestra la fecha de publicación y el nombre del usuario que publicó el recorrido.
+Para los recorridos en directo, esta pantalla muestra la fecha de publicación y el nombre del usuario que publicó el recorrido.
 
 La variable **Copiar detalles técnicos** le permite copiar información técnica sobre el recorrido que el equipo de asistencia puede utilizar para solucionar problemas. Se copia la siguiente información: UID de JourneyVersion, OrgID, orgName, sandboxName, lastDedeployBy, lastDedeployAt.
 
@@ -97,38 +97,38 @@ De forma predeterminada, los nuevos recorridos permiten volver a entrar. Puede d
 
 Obtenga más información sobre la administración de la entrada de perfiles en [esta sección](entry-management.md).
 
-### Tiempo de espera y error en actividades de recorrido {#timeout_and_error}
+### Tiempo de espera y error en las actividades de recorrido {#timeout_and_error}
 
-Al editar una acción o actividad de condición, puede definir una ruta alternativa en caso de error o de tiempo de espera. Si el procesamiento de la actividad que interroga a un sistema de terceros supera la duración del tiempo de espera definida en las propiedades del recorrido (**[!UICONTROL Timeout and  error]** ), se elige la segunda ruta para realizar una posible acción de reserva.
+Al editar una acción o actividad de condición, puede definir una ruta alternativa en caso de error o de tiempo de espera. Si el procesamiento de la actividad que interroga a un sistema de terceros supera el tiempo de espera definido en las propiedades del recorrido (**[!UICONTROL Tiempo de espera y error]** ), se elige la segunda ruta para realizar una posible acción de reserva.
 
 Los valores autorizados están entre 1 y 30 segundos.
 
-Le recomendamos que defina una **[!UICONTROL Timeout and error]** si el recorrido distingue entre tiempo (ejemplo: reaccionar a la ubicación en tiempo real de una persona) porque no puede retrasar la acción durante más de unos segundos. Si el recorrido es menos sensible al tiempo, puede utilizar un valor más largo para dar más tiempo al sistema llamado para enviar una respuesta válida.
+Le recomendamos que defina una **[!UICONTROL Tiempo de espera y error]** si el recorrido distingue entre horas (ejemplo: reaccionar a la ubicación en tiempo real de una persona) porque no puede retrasar la acción durante más de unos segundos. Si el recorrido es menos sensible al tiempo, puede utilizar un valor más largo para dar más tiempo al sistema llamado para enviar una respuesta válida.
 
-Los recorridos también utilizan un tiempo de espera global. Consulte la [sección siguiente](#global_timeout).
+Recorrido también utiliza un tiempo de espera global. Consulte la [sección siguiente](#global_timeout).
 
-### Tiempo de espera del recorrido global {#global_timeout}
+### Tiempo de espera de recorrido global {#global_timeout}
 
-Además del [timeout](#timeout_and_error) se utiliza en las actividades de recorrido, también existe un tiempo de espera de recorrido global que no se muestra en la interfaz y que no se puede cambiar. Este tiempo de espera detendrá el progreso de las personas en el recorrido 30 días después de su entrada. Esto significa que el recorrido de una persona no puede durar más de 30 días. Después del tiempo de espera de 30 días, se eliminan los datos del individuo. Las personas que sigan fluyendo en el recorrido al final del periodo de espera se detendrán y se tendrán en cuenta como errores en los informes.
+Además del [timeout](#timeout_and_error) utilizado en actividades de recorrido, también existe un tiempo de espera de recorrido global que no se muestra en la interfaz y que no se puede cambiar. Este tiempo de espera detendrá el progreso de las personas en el recorrido 30 días después de su entrada. Esto significa que el recorrido de una persona no puede durar más de 30 días. Después del tiempo de espera de 30 días, se eliminan los datos del individuo. Las personas que sigan fluyendo en el recorrido al final del tiempo de espera se detendrán y se tendrán en cuenta como errores en los informes.
 
 >[!NOTE]
 >
 >Los recorridos no reaccionan directamente a las solicitudes de exclusión, acceso o eliminación de privacidad. Sin embargo, el tiempo de espera global garantiza que las personas nunca permanezcan más de 30 días en ningún recorrido.
 
-Debido al tiempo de espera de viaje de 30 días, cuando no se permite la reentrada del recorrido, no podemos garantizar que el bloqueo de reentrada funcione más de 30 días. De hecho, como eliminamos toda la información sobre las personas que entraron en el recorrido 30 días después de su entrada, no podemos saber la persona ingresada anteriormente, hace más de 30 días.
+Debido al tiempo de espera de recorrido de 30 días, cuando no se permite la reentrada del recorrido, no podemos asegurarnos de que el bloqueo de reentrada funcione más de 30 días. De hecho, como eliminamos toda la información sobre las personas que entraron en el recorrido 30 días después de su entrada, no podemos conocer a la persona ingresada anteriormente, hace más de 30 días.
 
 ### Zona horaria y zona horaria del perfil {#timezone}
 
-La zona horaria se define a nivel del recorrido.
+La zona horaria se define en el nivel de recorrido.
 
 Puede introducir una zona horaria fija o utilizar perfiles de Adobe Experience Platform para definir la zona horaria del recorrido.
 
-Si se define una zona horaria en el perfil de Adobe Experience Platform, se puede recuperar en el recorrido.
+Si se define una zona horaria en el perfil de Adobe Experience Platform, se puede recuperar en el recorrido .
 
 Para obtener más información sobre la administración de huso horario, consulte [esta página](../building-journeys/timezone-management.md).
 
 ### Administrar acceso {#access}
 
-Para asignar etiquetas de uso de datos principales o personalizadas al recorrido, haga clic en el botón **[!UICONTROL Manage access]** botón. [Obtenga más información sobre Control de acceso a nivel de objeto (OLA)](../administration/object-based-access.md)
+Para asignar etiquetas de uso de datos principales o personalizadas al recorrido, haga clic en el botón **[!UICONTROL Administrar acceso]** botón. [Obtenga más información sobre Control de acceso a nivel de objeto (OLA)](../administration/object-based-access.md)
 
 ![](assets/journeys-manage-access.png)

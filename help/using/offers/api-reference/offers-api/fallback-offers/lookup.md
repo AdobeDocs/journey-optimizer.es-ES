@@ -9,13 +9,13 @@ exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 # Buscar ofertas de reserva {#look-up-fallback-offers}
 
-Puede buscar ofertas de reserva específicas realizando una solicitud GET al [!DNL Offer Library] API que incluye la oferta de reserva `@id` o el nombre de la oferta de reserva en la ruta de solicitud.
+Puede buscar ofertas de reserva específicas realizando una solicitud de GET al [!DNL Offer Library] API que incluye la oferta de reserva `@id` o el nombre de la oferta de reserva en la ruta de solicitud.
 
 **Formato de API**
 

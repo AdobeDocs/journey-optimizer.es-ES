@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 0%
+source-wordcount: '152'
+ht-degree: 8%
 
 ---
 
 # Eliminar una colección {#delete-collection}
 
-Ocasionalmente puede ser necesario eliminar (ELIMINAR) una colección. Solo se pueden eliminar las colecciones creadas en el contenedor de inquilino. Esto se realiza realizando una solicitud DELETE al [!DNL Offer Library] API que utiliza el $id de la colección que desea eliminar.
+Ocasionalmente puede ser necesario eliminar (DELETE) una colección. Solo se pueden eliminar las colecciones creadas en el contenedor de inquilino. Para ello, realiza una solicitud de DELETE al [!DNL Offer Library] API que utiliza el $id de la colección que desea eliminar.
 
 **Formato de API**
 

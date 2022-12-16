@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 0%
+source-wordcount: '1056'
+ht-degree: 2%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 0%
 
 ## Introducción y requisitos previos {#edge-overview-and-prerequisites}
 
-La variable [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) es una biblioteca JavaScript del lado del cliente que permite a los clientes de Adobe Experience Cloud interactuar con los distintos servicios de Experience Cloud a través de Experience Platform Edge Network.
+La variable [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) es una biblioteca JavaScript del lado del cliente que permite a los clientes de Adobe Experience Cloud interactuar con los distintos servicios del Experience Cloud a través de la red perimetral del Experience Platform.
 
-El SDK web de Experience Platform admite la consulta de las soluciones de personalización en Adobe, incluida la gestión de decisiones, que le permite recuperar y procesar ofertas personalizadas que haya creado mediante API o la biblioteca de ofertas. Para obtener instrucciones más detalladas, consulte la documentación de [creación de una oferta](../../get-started/starting-offer-decisioning.md).
+El SDK web del Experience Platform admite la consulta de las soluciones de personalización en el Adobe, incluida la gestión de decisiones, lo que le permite recuperar y procesar ofertas personalizadas que haya creado mediante API o la biblioteca de ofertas. Para obtener instrucciones más detalladas, consulte la documentación de [creación de una oferta](../../get-started/starting-offer-decisioning.md).
 
-Existen dos maneras de implementar la administración de decisiones con la variable [SDK web de plataforma](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). Una forma está dirigida a los desarrolladores y requiere conocimiento de los sitios web y programación. La otra forma es utilizar la interfaz de usuario de Adobe Experience Platform para configurar ofertas, que solo requiere una pequeña secuencia de comandos para la referencia en el encabezado de la página HTML.
+Existen dos maneras de implementar la administración de decisiones con la variable [SDK web de plataforma](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). Una forma está dirigida a los desarrolladores y requiere conocimiento de los sitios web y programación. La otra forma es utilizar la interfaz de usuario de Adobe Experience Platform para configurar ofertas, que solo requiere que se haga referencia a una pequeña secuencia de comandos en el encabezado de la página del HTML.
 
 Consulte la documentación de [gestión de decisiones](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) para obtener más información sobre cómo ofrecer ofertas personalizadas mediante el SDK web de Adobe Experience Platform.
 
 >[!NOTE]
 >
->El uso de Administración de decisiones en el SDK web de Adobe Experience Platform solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Si desea aprovechar esta función, póngase en contacto con su administrador de cuentas de Adobe.
+>El uso de Administración de decisiones en el SDK web de Adobe Experience Platform solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Si desea aprovechar esta función, póngase en contacto con el administrador de cuentas de Adobe.
 
 ## SDK web de Adobe Experience Platform {#aep-web-sdk}
 
@@ -64,7 +64,7 @@ Esta opción es más fácil de usar para las personas que tengan menos experienc
 
 1. [Crear una propiedad de etiqueta](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=en)
 
-1. [Añadir el código incrustado](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
+1. [Añadir el código de incrustación de ](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
 
 1. Instale y configure la extensión del SDK web de Adobe Experience Platform con el Datastream que ha creado seleccionando la configuración en la lista desplegable &quot;Datastream&quot;. Consulte la documentación sobre [extensiones](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
 
@@ -72,7 +72,7 @@ Esta opción es más fácil de usar para las personas que tengan menos experienc
 
    ![Configurar extensión](../../assets/configure-sdk-extension.png)
 
-1. Cree los elementos necesarios [Elementos de datos](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en). Como mínimo, debe crear un mapa de identidad del SDK web de plataforma y un elemento de datos de objeto XDM del SDK web de plataforma .
+1. Cree los elementos necesarios [Elementos de datos](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=es). Como mínimo, debe crear un mapa de identidad del SDK web de plataforma y un elemento de datos de objeto XDM del SDK web de plataforma .
 
    ![Mapa de identidad](../../assets/sdk-identity-map.png)
 
@@ -129,7 +129,7 @@ Instale la extensión de Chrome de Debugger para utilizarla con la depuración. 
 
 A continuación, inicie sesión en la cuenta dentro de Debugger. A continuación, vaya a Registros y asegúrese de que está conectado al espacio de trabajo correcto. Ahora, copie la versión codificada base64 del ámbito de decisión de su oferta.
 
-Al editar el sitio web, incluya el script con la configuración y la variable `sendEvent` para enviar el ámbito de decisión a Adobe.
+Al editar el sitio web, incluya el script con la configuración y la variable `sendEvent` para enviar el ámbito de decisión al Adobe.
 
 **Ejemplo**:
 
@@ -165,7 +165,7 @@ Puede utilizar el depurador para comprobar que se ha conectado correctamente a l
 >
 >Si no ve una conexión con el borde en los registros, es posible que tenga que deshabilitar el bloqueador de anuncios.
 
-Consulte de nuevo cómo creó la oferta y el formato utilizado. Según los criterios cumplidos en la decisión, se le devolverá una oferta que contenga la información especificada al crearla en Adobe Experience Platform.
+Consulte de nuevo cómo creó la oferta y el formato utilizado. Según los criterios que se cumplan en la decisión, se le devolverá una oferta que contenga la información especificada al crearla en Adobe Experience Platform.
 
 En este ejemplo, el JSON que se va a devolver es:
 

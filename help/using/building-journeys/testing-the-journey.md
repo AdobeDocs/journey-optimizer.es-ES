@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Probar el recorrido
+title: Prueba del recorrido
 description: Aprenda a probar el recorrido
 feature: Journeys
 topic: Content Management
@@ -10,21 +10,21 @@ level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 0%
+source-wordcount: '1548'
+ht-degree: 3%
 
 ---
 
-# Probar el recorrido{#testing_the_journey}
+# Prueba del recorrido{#testing_the_journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
->title="Probar el recorrido"
+>title="Prueba del recorrido"
 >abstract="Utilice perfiles de prueba para probar el recorrido antes de publicarlo. Esto le permite analizar el flujo de las personas en el recorrido y solucionar los problemas antes de la publicación."
 
-Utilice perfiles de prueba para probar el recorrido antes de publicarlo. Este modo le permite ejecutar una prueba del recorrido e identificar problemas mediante perfiles de prueba.
+Utilice perfiles de prueba para probar el recorrido antes de publicarlo. Este modo le permite ejecutar una prueba del recorrido e identificar los problemas mediante perfiles de prueba.
 
-Solo los perfiles de prueba pueden entrar en un recorrido en modo de prueba. Puede crear nuevos perfiles de prueba o convertir perfiles existentes en perfiles de prueba. Obtenga más información sobre los perfiles de prueba en [esta sección](../segment/creating-test-profiles.md).
+Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba. Puede crear nuevos perfiles de prueba o convertir perfiles existentes en perfiles de prueba. Obtenga más información sobre los perfiles de prueba en [esta sección](../segment/creating-test-profiles.md).
 
 >[!NOTE]
 >
@@ -32,11 +32,11 @@ Solo los perfiles de prueba pueden entrar en un recorrido en modo de prueba. Pue
 
 Para utilizar el modo de prueba, siga estos pasos:
 
-1. Para activar el modo de prueba, active la variable **[!UICONTROL Test]** alternar, situado en la esquina superior derecha.
+1. Para activar el modo de prueba, active la variable **[!UICONTROL Prueba]** alternar, situado en la esquina superior derecha.
 
    ![](assets/journeytest1.png)
 
-1. Si el recorrido tiene al menos una **Espera** actividad , establezca la variable **[!UICONTROL Wait time]** para definir el tiempo que cada actividad de espera y el tiempo de espera del evento durarán en el modo de prueba. El tiempo predeterminado es de 10 segundos para las esperas y los tiempos de espera de los eventos. Esto garantizará que los resultados de la prueba se obtengan rápidamente.
+1. Si el recorrido tiene al menos uno **Espera** actividad , establezca la variable **[!UICONTROL Tiempo de espera]** para definir el tiempo que cada actividad de espera y el tiempo de espera del evento durarán en el modo de prueba. El tiempo predeterminado es de 10 segundos para las esperas y los tiempos de espera de los eventos. Esto garantizará que los resultados de la prueba se obtengan rápidamente.
 
    ![](assets/journeytest_wait.png)
 
@@ -44,7 +44,7 @@ Para utilizar el modo de prueba, siga estos pasos:
    >
    >Cuando se utiliza un evento de reacción con tiempo de espera en un recorrido, el valor predeterminado del tiempo de espera y el valor mínimo son 40 segundos. Consulte [esta sección](../building-journeys/reaction-events.md).
 
-1. Utilice la variable **[!UICONTROL Trigger an event]** para configurar y enviar eventos al recorrido.
+1. Utilice la variable **[!UICONTROL Déclencheur de un evento]** para configurar y enviar eventos al recorrido.
 
    ![](assets/journeyuctest1.png)
 
@@ -52,7 +52,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 
    ![](assets/journeyuctest1-bis.png)
 
-1. Una vez recibidos los eventos, haga clic en el botón **[!UICONTROL Show log]** para ver el resultado de la prueba y verificarlo. Consulte [esta sección](#viewing_logs).
+1. Una vez recibidos los eventos, haga clic en el botón **[!UICONTROL Mostrar registro]** para ver el resultado de la prueba y verificarlo. Consulte [esta sección](#viewing_logs).
 
    ![](assets/journeyuctest2.png)
 
@@ -62,48 +62,48 @@ Para utilizar el modo de prueba, siga estos pasos:
 
 * Se proporciona una interfaz para activar eventos en el recorrido probado, pero los eventos también se pueden enviar desde sistemas de terceros como Postman.
 * Solo las personas marcadas como &quot;perfiles de prueba&quot; en el servicio Perfil del cliente en tiempo real podrán entrar en el recorrido probado. Consulte esta [sección](../segment/creating-test-profiles.md).
-* El modo de prueba solo está disponible en recorridos de borrador que utilizan un área de nombres. El modo de prueba debe comprobar si una persona que entra en el recorrido es un perfil de prueba o no y, por lo tanto, debe poder acceder a Adobe Experience Platform.
-* El número máximo de perfiles de prueba que pueden entrar en un recorrido durante una sesión de prueba es de 100.
-* Cuando desactiva el modo de prueba, se vacían los recorridos de todas las personas que lo hayan introducido en el pasado o que estén actualmente en él. También borra los informes.
+* El modo de prueba solo está disponible en recorridos de borrador que utilizan un área de nombres. El modo de prueba debe comprobar si una persona que entra en el recorrido es un perfil de prueba o no y, por lo tanto, debe poder llegar a Adobe Experience Platform.
+* El número máximo de perfiles de prueba que pueden introducir un recorrido durante una sesión de prueba es de 100.
+* Al desactivar el modo de prueba, se vacían los recorridos de todas las personas que lo hayan introducido en el pasado o que estén actualmente en él. También borra los informes.
 * Puede habilitar/deshabilitar el modo de prueba tantas veces como sea necesario.
-* No se puede modificar el recorrido cuando se activa el modo de prueba. En el modo de prueba, puede publicar directamente el recorrido, sin necesidad de desactivar antes el modo de prueba.
+* No puede modificar el recorrido cuando se activa el modo de prueba. En el modo de prueba, puede publicar directamente el recorrido; no es necesario desactivar el modo de prueba antes.
 * Al llegar a una división, siempre se elige la rama superior. Puede reorganizar la posición de las ramas divididas si desea que la prueba elija una ruta diferente.
 * Para optimizar el rendimiento y evitar el uso obsoleto de recursos, todos los recorridos en modo de prueba que no se hayan activado durante una semana volverán a la función **Borrador** estado.
 
-## Activación de eventos {#firing_events}
+## Déclencheur de los eventos {#firing_events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="Configuración del modo de prueba"
 >abstract="Si el recorrido contiene varios eventos, utilice la lista desplegable para seleccionar un evento. A continuación, para cada evento, configure los campos pasados y la ejecución del envío del evento."
 
-Utilice la variable **[!UICONTROL Trigger an event]** para configurar un evento que haga que una persona entre en el recorrido.
+Utilice la variable **[!UICONTROL Déclencheur de un evento]** para configurar un evento que haga que una persona introduzca el recorrido.
 
 >[!NOTE]
 >
->Cuando se activa un evento en modo de prueba, se genera un evento real, lo que significa que también se inicia otro recorrido al escuchar este evento.
+>Cuando se déclencheur un evento en el modo de prueba, se genera un evento real, lo que significa que también afectará a otros recorridos que estén escuchando este evento.
 
-Como requisito previo, debe saber qué perfiles están marcados como perfiles de prueba en Adobe Experience Platform. De hecho, el modo de prueba solo permite estos perfiles en el recorrido y el evento debe contener un ID. El ID esperado depende de la configuración del evento. Puede ser un ECID o una dirección de correo electrónico, por ejemplo. El valor de esta clave debe agregarse en la variable **Identificador de perfil** campo .
+Como requisito previo, debe saber qué perfiles se marcan como perfiles de prueba en Adobe Experience Platform. De hecho, el modo de prueba solo permite estos perfiles en el recorrido y el evento debe contener un ID. El ID esperado depende de la configuración del evento. Puede ser un ECID o una dirección de correo electrónico, por ejemplo. El valor de esta clave debe agregarse en la variable **Identificador de perfil** campo .
 
 Si el recorrido contiene varios eventos, utilice la lista desplegable para seleccionar un evento. A continuación, para cada evento, configure los campos pasados y la ejecución del envío del evento. La interfaz le ayuda a pasar la información correcta en la carga útil de evento y a asegurarse de que el tipo de información es correcto. El modo de prueba guarda los últimos parámetros utilizados en una sesión de prueba para su uso posterior.
 
 ![](assets/journeytest4.png)
 
-La interfaz le permite pasar parámetros de evento simples. Si desea pasar colecciones u otros objetos avanzados en el evento, puede hacer clic en **[!UICONTROL Code View]** para ver el código completo de la carga útil y modificarlo. Por ejemplo, puede copiar y pegar la información de evento preparada por un usuario técnico.
+La interfaz le permite pasar parámetros de evento simples. Si desea pasar colecciones u otros objetos avanzados en el evento, puede hacer clic en **[!UICONTROL Vista de código]** para ver el código completo de la carga útil y modificarlo. Por ejemplo, puede copiar y pegar la información de evento preparada por un usuario técnico.
 
 ![](assets/journeytest5.png)
 
-Un usuario técnico también puede utilizar esta interfaz para componer cargas útiles de evento y desencadenar eventos sin tener que utilizar una herramienta de terceros.
+Un usuario técnico también puede utilizar esta interfaz para componer cargas útiles de evento y eventos de déclencheur sin tener que utilizar una herramienta de terceros.
 
-Al hacer clic en el botón **[!UICONTROL Send]** , la prueba comienza. La progresión del individuo en el recorrido se representa mediante un flujo visual. La ruta se vuelve progresivamente verde a medida que el individuo se mueve a lo largo del recorrido. Si se produce un error, se muestra un símbolo de advertencia en el paso correspondiente. Puede colocar el cursor en él para mostrar más información sobre el error y acceder a todos los detalles (cuando esté disponible).
+Al hacer clic en el botón **[!UICONTROL Enviar]** , la prueba comienza. La progresión del individuo en el recorrido se representa mediante un flujo visual. La ruta se vuelve progresivamente verde a medida que el individuo se mueve por el recorrido. Si se produce un error, se muestra un símbolo de advertencia en el paso correspondiente. Puede colocar el cursor en él para mostrar más información sobre el error y acceder a todos los detalles (cuando esté disponible).
 
 ![](assets/journeytest6.png)
 
 Cuando selecciona un perfil de prueba diferente en la pantalla de configuración de evento y vuelve a ejecutar la prueba, el flujo visual se borra y muestra la ruta del nuevo individuo.
 
-Al abrir un recorrido en prueba, la ruta mostrada corresponde a la última prueba ejecutada.
+Al abrir un recorrido en la prueba, la ruta mostrada corresponde a la última prueba ejecutada.
 
-El flujo visual funciona tanto si el evento se activa mediante la interfaz como externamente (por ejemplo, mediante Postman).
+El flujo visual funciona tanto si el evento se activa mediante la interfaz como externamente (mediante Postman, por ejemplo).
 
 ## Modo de prueba para recorridos basados en reglas {#test-rule-based}
 
@@ -115,9 +115,9 @@ Al activar un evento, la variable **Configuración de eventos** permite definir 
 
 ## Modo de prueba para eventos empresariales {#test-business}
 
-Al usar un [evento empresarial](../event/about-events.md), utilice el modo de prueba para activar una sola entrada de perfil de prueba en el recorrido, simular el evento y pasar el ID de perfil correcto. Debe pasar los parámetros de evento y el identificador del perfil de prueba que va a entrar en el recorrido de prueba. No puede usar la variable **[!UICONTROL Up to 100 profiles at once]** que existe para otros recorridos basados en segmentos. En el modo de prueba, no hay ningún modo &quot;Vista de código&quot; disponible para los recorridos basados en eventos empresariales.
+Al usar un [evento empresarial](../event/about-events.md), utilice el modo de prueba para almacenar en déclencheur una sola entrada de perfil de prueba en el recorrido, simular el evento y pasar el ID de perfil correcto. Debe pasar los parámetros de evento y el identificador del perfil de prueba que va a introducir el recorrido en la prueba. No puede usar la variable **[!UICONTROL Hasta 100 perfiles a la vez]** que existe para otros recorridos basados en segmentos. En el modo de prueba, no hay ningún modo &quot;Vista de código&quot; disponible para los recorridos en función de los eventos empresariales.
 
-Tenga en cuenta que cuando se activa por primera vez un evento empresarial, no se puede cambiar la definición del evento empresarial en la misma sesión de prueba. Solo se puede hacer que la misma persona o un individuo diferente introduzca el recorrido que pasa por el mismo identificador o por otro. Si desea cambiar los parámetros de evento empresarial, debe detener y volver a iniciar el modo de prueba.
+Tenga en cuenta que cuando se déclencheur por primera vez un evento empresarial, no se puede cambiar la definición del evento empresarial en la misma sesión de prueba. Solo se puede hacer que la misma persona o una persona diferente introduzca el recorrido que pasa el mismo identificador u otro. Si desea cambiar los parámetros de evento empresarial, debe detener y volver a iniciar el modo de prueba.
 
 ## Ver registros {#viewing_logs}
 
@@ -126,7 +126,7 @@ Tenga en cuenta que cuando se activa por primera vez un evento empresarial, no s
 >title="Registros del modo de prueba"
 >abstract="El botón Mostrar registro muestra los resultados de las pruebas en formato JSON. Estos resultados muestran el número de personas dentro del recorrido y su estado."
 
-La variable **[!UICONTROL Show log]** permite ver los resultados de la prueba. Esta página muestra la información actual del recorrido en formato JSON. Un botón permite copiar nodos completos. Debe actualizar manualmente la página para actualizar los resultados de la prueba del recorrido.
+La variable **[!UICONTROL Mostrar registro]** permite ver los resultados de la prueba. Esta página muestra la información actual del recorrido en formato JSON. Un botón permite copiar nodos completos. Debe actualizar manualmente la página para actualizar los resultados de prueba del recorrido.
 
 ![](assets/journeytest3.png)
 
@@ -138,20 +138,20 @@ Se muestra el número de personas (técnicamente, se denominan instancias) que e
 
 * _Id_: el ID interno de la persona en el recorrido. Esto se puede utilizar con fines de depuración.
 * _currentstep_: el paso en el que se encuentra el individuo en el recorrido. Recomendamos añadir etiquetas a las actividades para identificarlas con mayor facilidad.
-* _currentstep_ > fase: el estado del recorrido del individuo (en ejecución, terminado, error o tiempo de espera agotado). Consulte a continuación para obtener más información.
+* _currentstep_ > fase: el estado del recorrido del individuo (en ejecución, terminado, error o tiempo de espera agotado). Para obtener más información, vaya más abajo.
 * _currentstep_ > _extraInfo_: descripción del error y otra información contextual.
 * _currentstep_ > _fetchErrors_: información sobre los errores de recuperación de datos que se produjeron durante este paso.
 * _externalKeys_: el valor de la fórmula clave definida en el evento.
-* _enrichData_: los datos que el recorrido ha recuperado si utiliza fuentes de datos.
+* _enrichData_: los datos que el recorrido ha recuperado si el recorrido utiliza fuentes de datos.
 * _transitionHistory_: la lista de pasos que siguió el individuo. En el caso de los eventos, se muestra la carga útil .
 * _actionExecutionErrors_ : información sobre los errores que se han producido.
 
 Estos son los diferentes estados del recorrido de un individuo:
 
-* _Ejecución_: el individuo está actualmente en el recorrido.
-* _Finalizado_: la persona se encuentra al final del recorrido.
+* _Ejecución_: la persona está actualmente en el recorrido.
+* _Finalizado_: el individuo está al final del recorrido.
 * _Error_: el individuo se detiene en el recorrido debido a un error.
-* _Tiempo de espera agotado_: el individuo se detiene en el recorrido debido a un paso que tomó demasiado tiempo.
+* _Tiempo de espera agotado_: el individuo es detenido en el recorrido debido a un paso que tomó demasiado tiempo.
 
 Cuando se activa un evento mediante el modo de prueba, se genera automáticamente un conjunto de datos con el nombre del origen.
 

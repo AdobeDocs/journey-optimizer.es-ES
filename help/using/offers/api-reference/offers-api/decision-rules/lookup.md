@@ -9,13 +9,13 @@ exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 # Buscar una regla de decisión {#lookup-decision-rule}
 
-Puede consultar una regla de decisión específica realizando una solicitud GET a la [!DNL Offer Library] API que incluye la regla de decisión `@id` o el nombre de la regla de decisión en la ruta de solicitud.
+Puede consultar una regla de decisión específica realizando una solicitud de GET al [!DNL Offer Library] API que incluye la regla de decisión `@id` o el nombre de la regla de decisión en la ruta de solicitud.
 
 **Formato de API**
 

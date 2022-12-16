@@ -9,7 +9,7 @@ exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Una oferta personalizada es un mensaje de marketing personalizable basado en reglas y restricciones de idoneidad.
 
-Puede ver una lista de todas las ofertas personalizadas dentro de un contenedor realizando una sola solicitud GET al [!DNL Offer Library] API.
+Puede ver una lista de todas las ofertas personalizadas dentro de un contenedor realizando una sola solicitud de GET al [!DNL Offer Library] API.
 
 **Formato de API**
 

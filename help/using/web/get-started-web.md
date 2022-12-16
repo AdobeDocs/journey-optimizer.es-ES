@@ -11,7 +11,7 @@ exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
@@ -37,9 +37,9 @@ A través de una intuitiva interfaz visual, esta capacidad le permite modificar 
 
 <table>
 <tr>
-<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-web.md">Crear experiencias web</a></p></td>
+<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-web.md">Creación de experiencias web</a></p></td>
 <td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="author-web.md">Creación de páginas web</a></p></td>
-<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="web-report.md">Informes web</a></p></td>
+<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="web-report.md">Creación de informes web</a></p></td>
 </tr>
 </table>
 

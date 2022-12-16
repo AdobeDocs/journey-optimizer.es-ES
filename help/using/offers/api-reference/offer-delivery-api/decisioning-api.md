@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 0%
+source-wordcount: '937'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Con Administración de decisiones, puede crear y ofrecer experiencias de oferta personalizadas para el usuario final en todos los canales y aplicaciones mediante la lógica empresarial y las reglas de decisión. Una oferta es un mensaje de marketing que puede tener reglas asociadas que especifican quién puede ver la oferta.
 
-Puede crear y enviar ofertas realizando una solicitud POST al [!DNL Decisioning] API.
+Puede crear y enviar ofertas realizando una solicitud de POST al [!DNL Decisioning] API.
 
 Este tutorial requiere una comprensión práctica de las API, específicamente con respecto a la gestión de decisiones. Para obtener más información, consulte la [Guía para desarrolladores de API de administración de decisiones](../getting-started.md). Este tutorial también requiere que tenga disponible un ID de ubicación y un valor de ID de decisión únicos. Si no ha adquirido estos valores, consulte los tutoriales de [creación de una ubicación](../offers-api/placements/create.md) y [creación de una decisión](../activities-api/activities/create.md).
 
@@ -199,7 +199,7 @@ El siguiente vídeo pretende contribuir a su comprensión de los componentes de 
 
 >[!NOTE]
 >
->Este vídeo se aplica al servicio de aplicaciones Offer Decisioning creado en Adobe Experience Platform. Sin embargo, proporciona una guía genérica para utilizar Offer en el contexto de Journey Optimizer.
+>Este vídeo se aplica al servicio de aplicaciones de Offer decisioning creado en Adobe Experience Platform. Sin embargo, proporciona una guía genérica para utilizar Offer en el contexto de Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
 

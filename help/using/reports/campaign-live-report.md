@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Informe de campaña en directo
+title: Informe en directo de la campaña
 description: Aprenda a utilizar los datos del informe de campaña en directo
 feature: Reporting
 topic: Content Management
@@ -10,16 +10,16 @@ level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 0%
+source-wordcount: '870'
+ht-degree: 3%
 
 ---
 
-# Informe de campaña en directo {#campaign-live-report}
+# Informe en directo de la campaña {#campaign-live-report}
 
-Se puede acceder al informe de campaña en directo directamente desde la campaña con la variable **[!UICONTROL Live view]** botón.
+Se puede acceder al informe de campaña en directo directamente desde la campaña con la variable **[!UICONTROL Vista en directo]** botón.
 
-La campaña **[!UICONTROL Live report]** se muestra con las siguientes pestañas:
+La campaña **[!UICONTROL Informe activo]** se muestra con las siguientes pestañas:
 
 * [Campaign](#campaign-live)
 * [Correo electrónico](#email-live)
@@ -27,7 +27,7 @@ La campaña **[!UICONTROL Live report]** se muestra con las siguientes pestañas
 * [SMS](#sms-live)
 
 
-La campaña **[!UICONTROL Live report]** se divide en distintas utilidades que detallan el éxito y los errores de la campaña. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](../reports/live-report.md#modify-dashboard).
+La campaña **[!UICONTROL Informe activo]** se divide en distintas utilidades que detallan el éxito y los errores de la campaña. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](../reports/live-report.md#modify-dashboard).
 
 Para obtener una lista detallada de todas las métricas disponibles en Adobe Journey Optimizer, consulte [esta página](live-report.md#list-of-components-live).
 
@@ -35,9 +35,9 @@ Para obtener una lista detallada de todas las métricas disponibles en Adobe Jou
 
 ### Entrega {#delivery-global}
 
-La variable **[!UICONTROL Campaign Statistics]** La utilidad detalla la información principal relativa a la campaña:
+La variable **[!UICONTROL Estadísticas de campaña]** La utilidad detalla la información principal relativa a la campaña:
 
-* **[!UICONTROL Entered profiles]**: Número de perfiles que iniciaron el recorrido.
+* **[!UICONTROL Perfiles introducidos]**: Número de perfiles que iniciaron el recorrido.
 
 <!--
 ### Experimentation tab (#experimentation-live)
@@ -47,115 +47,115 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## Ficha Correo electrónico {#email-live}
 
-Desde la campaña **[!UICONTROL Live report]**, el **[!UICONTROL Email]** pestaña detalla la información principal relativa a los envíos de correo electrónico realizados en la campaña.
+Desde la campaña **[!UICONTROL Informe activo]**, el **[!UICONTROL Correo electrónico]** pestaña detalla la información principal relativa a los envíos de correo electrónico realizados en la campaña.
 
 ![](assets/campaign_report_live_1.png)
 
 +++Obtenga más información sobre las distintas métricas y utilidades disponibles para el informe Correo electrónico .
 
-La variable **[!UICONTROL Email Sending Statistics]** La utilidad detalla la información principal relativa al mensaje:
+La variable **[!UICONTROL Estadísticas de envío de correo electrónico]** La utilidad detalla la información principal relativa al mensaje:
 
-* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente.
+* **[!UICONTROL Entrega]**: Número de mensajes enviados correctamente.
 
-* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de la devolución.
+* **[!UICONTROL Devoluciones]**: Total de errores acumulados durante la entrega y el procesamiento automático de la devolución.
 
-* **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
+* **[!UICONTROL Errores]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
 
-La variable **[!UICONTROL Sending metrics by Email]** tabla y **[!UICONTROL Email Summary]** graph detalla el éxito de la entrega:
+La variable **[!UICONTROL Envío de métricas por correo electrónico]** tabla y **[!UICONTROL Resumen de correo electrónico]** graph detalla el éxito de la entrega:
 
-* **[!UICONTROL Sent]**: Número total de envíos para la entrega.
+* **[!UICONTROL Enviado]**: Número total de envíos para la entrega.
 
-* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente.
+* **[!UICONTROL Entrega]**: Número de mensajes enviados correctamente.
 
-* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de la devolución.
+* **[!UICONTROL Devoluciones]**: Total de errores acumulados durante la entrega y el procesamiento automático de la devolución.
 
-* **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
+* **[!UICONTROL Errores]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
 
-* **[!UICONTROL Opens]**: Número de veces que se abrió un mensaje en una entrega.
+* **[!UICONTROL Aperturas]**: Número de veces que se abrió un mensaje en una entrega.
 
-* **[!UICONTROL Clicks]**: Número de veces que se hizo clic en un contenido en una entrega.
+* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en una entrega.
 
-* **[!UICONTROL Unsubscribe]**: Número de clics en el vínculo de baja de suscripción.
+* **[!UICONTROL Cancelar suscripción]**: Número de clics en el vínculo de baja de suscripción.
 
-* **[!UICONTROL Spam complaints]**: Número de veces que un mensaje se declaró como correo no deseado o no deseado.
+* **[!UICONTROL Reclamaciones por correo no deseado]**: Número de veces que un mensaje se declaró como correo no deseado o no deseado.
 
-La variable **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** y **[!UICONTROL Hard and bounce - by Email]** los widgets contienen los datos disponibles relacionados con los mensajes devueltos, como:
+La variable **[!UICONTROL Razones de devolución]**, **[!UICONTROL Categorías de rebote]** y **[!UICONTROL Grave y rechazado: por correo electrónico]** los widgets contienen los datos disponibles relacionados con los mensajes devueltos, como:
 
-* **[!UICONTROL Hard bounce]**: El número total de errores permanentes, como una dirección de correo electrónico incorrecta. Esto implica un mensaje de error que indica explícitamente que la dirección no es válida, como Usuario desconocido.
+* **[!UICONTROL Rechazo grave]**: El número total de errores permanentes, como una dirección de correo electrónico incorrecta. Esto implica un mensaje de error que indica explícitamente que la dirección no es válida, como Usuario desconocido.
 
-* **[!UICONTROL Soft bounce]**: El número total de errores temporales, como una bandeja de entrada completa.
+* **[!UICONTROL Rechazo suave]**: El número total de errores temporales, como una bandeja de entrada completa.
 
-* **[!UICONTROL Ignored]**: El número total de mensajes temporales, como fuera de la oficina o un error técnico, por ejemplo, si el tipo de remitente es administrador de correo.
+* **[!UICONTROL Ignorado]**: El número total de mensajes temporales, como fuera de la oficina o un error técnico, por ejemplo, si el tipo de remitente es administrador de correo.
 
-La variable **[!UICONTROL Error Reasons]** y **[!UICONTROL Exclude Reasons]** los gráficos y las tablas permiten ver qué error y exclusiones se produjeron durante el envío.
+La variable **[!UICONTROL Motivos del error]** y **[!UICONTROL Excluir motivos]** los gráficos y las tablas permiten ver qué error y exclusiones se produjeron durante el envío.
 
-La variable **[!UICONTROL Email - Top recipient domain]** gráfico y tabla detallan qué dominios son los más utilizados por los destinatarios para abrir el correo electrónico.
+La variable **[!UICONTROL Correo electrónico: dominio de destinatario principal]** gráfico y tabla detallan qué dominios son los más utilizados por los destinatarios para abrir el correo electrónico.
 +++
 
 ## Pestaña de notificaciones push {#push-live}
 
-Desde la campaña **[!UICONTROL Live report]**, el **[!UICONTROL Push notification]** detalla la información principal relativa a los envíos push realizados en la campaña.
+Desde la campaña **[!UICONTROL Informe activo]**, el **[!UICONTROL Notificaciones push]** detalla la información principal relativa a los envíos push realizados en la campaña.
 
 ![](assets/campaign_report_live_2.png)
 
 +++Obtenga más información sobre las distintas métricas y utilidades disponibles para el informe push.
 
-**[!UICONTROL Push notification sending performance]**, **[!UICONTROL Push notification summary]** y **[!UICONTROL Sending metrics - by Push]** widgets detalla la información principal relativa a su mensaje:
+**[!UICONTROL Rendimiento de envío de notificaciones push]**, **[!UICONTROL Resumen de notificaciones push]** y **[!UICONTROL Envío de métricas: por inserción]** widgets detalla la información principal relativa a su mensaje:
 
-* **[!UICONTROL Sent]**: Número total de envíos para la entrega.
+* **[!UICONTROL Enviado]**: Número total de envíos para la entrega.
 
-* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente.
+* **[!UICONTROL Entrega]**: Número de mensajes enviados correctamente.
 
-* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de la devolución.
+* **[!UICONTROL Devoluciones]**: Total de errores acumulados durante la entrega y el procesamiento automático de la devolución.
 
-* **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
+* **[!UICONTROL Errores]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
 
-* **[!UICONTROL Opens]**: Número de veces que se abrió un mensaje en una entrega.
+* **[!UICONTROL Aperturas]**: Número de veces que se abrió un mensaje en una entrega.
 
-* **[!UICONTROL Actions]**: Número total de acciones realizadas en la notificación push entregada, por ejemplo, hacer clic en un botón o rechazar una solicitud.
+* **[!UICONTROL Acciones]**: Número total de acciones realizadas en la notificación push entregada, por ejemplo, hacer clic en un botón o rechazar una solicitud.
 
-* **[!UICONTROL Engagements]**: Número total de aperturas y acciones para esta notificación push, es decir, si el perfil abrió la notificación push o si se hizo clic en un botón.
+* **[!UICONTROL Participaciones]**: Número total de aperturas y acciones para esta notificación push, es decir, si el perfil abrió la notificación push o si se hizo clic en un botón.
 
-La variable **[!UICONTROL Error Reasons]** y **[!UICONTROL Exclude Reasons]** los gráficos y las tablas permiten ver qué error y exclusiones se produjeron durante el envío.
+La variable **[!UICONTROL Motivos del error]** y **[!UICONTROL Excluir motivos]** los gráficos y las tablas permiten ver qué error y exclusiones se produjeron durante el envío.
 
-La variable **[!UICONTROL Sending statistics - Failed]** permite ver cuántos errores y rechazos se han producido.
+La variable **[!UICONTROL Envío de estadísticas: error]** permite ver cuántos errores y rechazos se han producido.
 
-La variable **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** y **[!UICONTROL Breakdown by platform]** gráficos y tablas detallan el éxito de la notificación push en función del sistema operativo.
+La variable **[!UICONTROL Seguimiento por plataforma]**, **[!UICONTROL Envío por plataforma]** y **[!UICONTROL Desglose por plataforma]** gráficos y tablas detallan el éxito de la notificación push en función del sistema operativo.
 +++
 
 ## Ficha SMS {#sms-live}
 
-Desde la campaña **[!UICONTROL Live report]**, el **[!UICONTROL SMS]** La pestaña detalla la información principal relativa a los envíos SMS enviados en la campaña.
+Desde la campaña **[!UICONTROL Informe activo]**, el **[!UICONTROL SMS]** La pestaña detalla la información principal relativa a los envíos SMS enviados en la campaña.
 
 ![](assets/campaign_report_live_3.png)
 
 +++Obtenga más información sobre las distintas métricas y utilidades disponibles para el informe SMS.
 
-La variable **[!UICONTROL SMS - Sending statistics]** La tabla detalla el éxito de la entrega:
+La variable **[!UICONTROL SMS: estadísticas de envío]** La tabla detalla el éxito de la entrega:
 
-* **[!UICONTROL Targeted]**: Número de perfiles de usuario que se califican como perfiles de destinatario para este envío.
+* **[!UICONTROL Segmentado]**: Número de perfiles de usuario que se califican como perfiles de destinatario para este envío.
 
-* **[!UICONTROL Excluded]**: Número de perfiles de usuario, excluidos de los perfiles de destino, que no recibieron el mensaje.
+* **[!UICONTROL Excluido]**: Número de perfiles de usuario, excluidos de los perfiles de destino, que no recibieron el mensaje.
 
-* **[!UICONTROL Sent]**: Número total de envíos para la entrega.
+* **[!UICONTROL Enviado]**: Número total de envíos para la entrega.
 
-* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente.
+* **[!UICONTROL Entrega]**: Número de mensajes enviados correctamente.
 
-* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de la devolución.
+* **[!UICONTROL Devoluciones]**: Total de errores acumulados durante la entrega y el procesamiento automático de la devolución.
 
-* **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
+* **[!UICONTROL Errores]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
 
-La variable **[!UICONTROL SMS Performance by date]** La utilidad detalla la información principal relativa al mensaje con un gráfico:
+La variable **[!UICONTROL Rendimiento de SMS por fecha]** La utilidad detalla la información principal relativa al mensaje con un gráfico:
 
-* **[!UICONTROL Sent]**: Número total de envíos para la entrega.
+* **[!UICONTROL Enviado]**: Número total de envíos para la entrega.
 
-* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente.
+* **[!UICONTROL Entrega]**: Número de mensajes enviados correctamente.
 
-* **[!UICONTROL Bounces]**: Total de errores acumulados durante la entrega y el procesamiento automático de la devolución.
+* **[!UICONTROL Devoluciones]**: Total de errores acumulados durante la entrega y el procesamiento automático de la devolución.
 
-* **[!UICONTROL Errors]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
+* **[!UICONTROL Errores]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
 
-La variable **[!UICONTROL Exclude Reasons]**, **[!UICONTROL Bounces Reasons]** y **[!UICONTROL Error Reasons]** los gráficos y las tablas permiten ver qué error y exclusiones se produjeron durante el envío.
+La variable **[!UICONTROL Excluir motivos]**, **[!UICONTROL Razones de devoluciones]** y **[!UICONTROL Motivos del error]** los gráficos y las tablas permiten ver qué error y exclusiones se produjeron durante el envío.
 +++
 
 ## Recursos adicionales
@@ -163,5 +163,5 @@ La variable **[!UICONTROL Exclude Reasons]**, **[!UICONTROL Bounces Reasons]** y
 * [Introducción a las campañas](../campaigns/get-started-with-campaigns.md)
 * [Creación de una campaña](../campaigns/create-campaign.md)
 * [Creación de campañas activadas por API](../campaigns/api-triggered-campaigns.md)
-* [Modificar o detener una campaña](../campaigns/modify-stop-campaign.md)
+* [Modificación o detención de una campaña](../campaigns/modify-stop-campaign.md)
 * [Informe global de la campaña](campaign-global-report.md)

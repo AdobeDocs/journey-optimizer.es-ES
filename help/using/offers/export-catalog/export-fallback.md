@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 0%
+source-wordcount: '1050'
+ht-degree: 3%
 
 ---
 
@@ -25,16 +25,16 @@ El lote correcto más reciente del conjunto de datos se muestra a la derecha. La
 >
 >Obtenga información sobre cómo acceder a los conjuntos de datos exportados para cada objeto de la biblioteca de ofertas en [esta sección](../export-catalog/access-dataset.md).
 
-Esta es la lista de todos los campos que se pueden utilizar en la variable **[!UICONTROL Decision Object Repository - Fallback Offers]** conjunto de datos.
+Esta es la lista de todos los campos que se pueden utilizar en la variable **[!UICONTROL Repositorio de objetos de decisión: Ofertas de reserva]** conjunto de datos.
 
 ## Identificador {#identifier}
 
 **Campo:** _id
 **Título:** Identificador
 **Descripción:** Identificador único del registro.
-**Tipo:** string
+**Tipo:** cadena
 
-## _experience {#experience}
+## _experiencia {#experience}
 
 **Campo:** _experience
 **Tipo:** object
@@ -72,7 +72,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
    **Campo:** _type
    **Título:** Tipo de componente de contenido
    **Descripción:** Un conjunto enumerado de URI donde cada valor se asigna a un tipo dado al componente de contenido. Algunos consumidores de las representaciones de contenido esperan que el valor @type sea una referencia al esquema que describe propiedades adicionales del componente de contenido.
-   **Tipo:** string
+   **Tipo:** cadena
 
 * **_experience > decisioning > content > components > _dc**
 
@@ -85,7 +85,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
       **Campo:** format
       **Título:** Formato
       **Descripción:** La manifestación física o digital del recurso. Normalmente, Format debe incluir el tipo de medio del recurso. El formato puede utilizarse para determinar el software, el hardware u otro equipo necesario para visualizar o utilizar el recurso. Una práctica recomendada es seleccionar un valor de un vocabulario controlado (por ejemplo, la lista de [Tipos de medios de Internet](http://www.iana.org/ asignaciones/tipos de medios/) que definen formatos de medios de equipo).
-      **Tipo:** string
+      **Tipo:** cadena
       **Ejemplo:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Idioma**
@@ -105,47 +105,47 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 
       **Campo:** id
       **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se usan las API de plataforma para recuperar la representación, el cliente puede esperar que una propiedad adicional \&quot;repo:resolveUrl\&quot; recupere el recurso.
-      **Tipo:** string
+      **Tipo:** cadena
       **Ejemplo:** urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
       **Campo:** name
       **Descripción:** Algunas sugerencias sobre dónde ubicar el repositorio que almacena el recurso externo por \&quot;repo:id\&quot;.
-      **Tipo:** string
+      **Tipo:** cadena
 
    * **repositoryID**
 
       **Campo:** repositoryID
       **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se usan las API de plataforma para recuperar la representación, el cliente puede esperar que una propiedad adicional \&quot;repo:resolveUrl\&quot; recupere el recurso.
-      **Tipo:** string
+      **Tipo:** cadena
       **Ejemplo:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
       **Campo:** resolveURL
       **Descripción:** Un localizador de recursos único opcional para leer el recurso en un repositorio de contenido. Esto facilitará la obtención del recurso sin que el cliente entienda dónde se administra el recurso y qué API llamar. Esto es similar a un vínculo HAL, pero la semántica es más simple y tiene más propósito.
-      **Tipo:** string
+      **Tipo:** cadena
       **Ejemplo:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;
 
 * **_experience > decisioning > content > components > content**
 
    **Campo:** contenido
    **Descripción:** Campo opcional para guardar contenido directamente. En lugar de hacer referencia al contenido en un repositorio de recursos, el componente puede incluir contenido simple directamente. Este campo no se utiliza para recursos de contenido compuesto, complejo y binario.
-   **Tipo:** string
+   **Tipo:** cadena
 
 * **_experience > decisioning > content > components > deliveryURL**
 
    **Campo:** deliveryURL
    **Descripción:** Un localizador de recursos único opcional para obtener el recurso de una red de entrega de contenido o de un extremo de servicio. Esta URL la utiliza un agente de usuario para acceder al recurso públicamente.
-   **Tipo:** string
+   **Tipo:** cadena
    **Ejemplo:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisioning > content > components > linkURL**
 
    **Campo:** linkURL
    **Descripción:** Un localizador de recursos único opcional para interacciones del usuario. Esta URL se utiliza para remitir al usuario final a en un agente de usuario y se puede realizar un seguimiento.
-   **Tipo:** string
+   **Tipo:** cadena
    **Ejemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 **_experience > decisioning > content > Placement**
@@ -153,7 +153,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 **Campo:** placement
 **Título:** Colocación
 **Descripción:** Colocación para cumplir. El valor es el URI (@id) de la ubicación de la oferta a la que se hace referencia. Consulte esquema https://ns.adobe.com/experience/decisioning/placement.
-**Tipo:** string
+**Tipo:** cadena
 
 #### _experience > decisiones > Estado del ciclo vital
 
@@ -168,7 +168,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 **Campo:** name
 **Título:** Nombre de opción de decisión
 **Descripción:** Nombre de opción que se muestra en varias interfaces de usuario.
-**Tipo:** string
+**Tipo:** cadena
 
 #### _experience > decisiones > etiquetas
 
@@ -189,4 +189,4 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 **Campo:** etiqueta
 **Título:** Opción de decisión ETag
 **Descripción:** Revisión en la que se encontraba el objeto de opción de decisión cuando se tomó la instantánea.
-**Tipo:** string
+**Tipo:** cadena

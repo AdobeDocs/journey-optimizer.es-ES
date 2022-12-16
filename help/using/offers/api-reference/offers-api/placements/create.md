@@ -9,13 +9,13 @@ exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
 # Crear una ubicación {#create-placement}
 
-Puede crear una ubicación realizando una solicitud POST al [!DNL Offer Library] al proporcionar su ID de contenedor.
+Puede crear una ubicación realizando una solicitud de POST al [!DNL Offer Library] al proporcionar su ID de contenedor.
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 

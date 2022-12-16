@@ -9,8 +9,8 @@ level: Experienced
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 0%
+source-wordcount: '218'
+ht-degree: 5%
 
 ---
 
@@ -43,6 +43,6 @@ Según el contexto de uso, el editor de expresiones puede devolver valores difer
 
 | Uso del editor de expresiones avanzadas | Tipo de expresión devuelto esperado |
 |--- |--- |
-| Condición (condición de fuente de datos, condición de fecha) | booleano |
+| Condición (condición de fuente de datos, condición de fecha) | Booleano |
 | Temporizador personalizado | dateTimeOnly |
 | Asignación de parámetros de acción | Cualquiera |

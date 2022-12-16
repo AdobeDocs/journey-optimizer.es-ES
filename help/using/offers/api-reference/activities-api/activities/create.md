@@ -9,13 +9,13 @@ exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
 # Crear una decisión {#create-decision}
 
-Puede crear una decisión realizando una solicitud POST al [!DNL Offer Library] al proporcionar su ID de contenedor.
+Puede crear una decisión realizando una solicitud de POST al [!DNL Offer Library] al proporcionar su ID de contenedor.
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 

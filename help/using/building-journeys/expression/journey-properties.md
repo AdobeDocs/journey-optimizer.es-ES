@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Propiedades del recorrido
-description: Obtenga información sobre las propiedades del recorrido
+description: Obtenga información sobre las propiedades de recorrido
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -10,13 +10,13 @@ exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Atributos de propiedades de recorrido {#journey-properties}
+# atributos de propiedades de recorrido {#journey-properties}
 
-En el editor de expresiones avanzadas, encontrará la variable **Propiedades del recorrido** , debajo de las categorías de evento y fuente de datos. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información que el sistema recupera de los recorridos en directo, como el ID del recorrido o los errores específicos encontrados.
+En el editor de expresiones avanzadas, encontrará la variable **Propiedades del recorrido** , debajo de las categorías de evento y fuente de datos. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información recuperada por el sistema de los recorridos activos, como el ID de recorrido o los errores específicos encontrados.
 
 >[!NOTE]
 >
@@ -26,18 +26,18 @@ En el editor de expresiones avanzadas, encontrará la variable **Propiedades del
 
 Encontrará información, por ejemplo, sobre:
 
-* versión del recorrido: uid de recorrido, uid de versión de recorrido, uid de instancia, etc.
+* Versión de recorrido: uid de recorrido, uid de versión de recorrido, uid de instancia, etc.
 * errores: captura de datos, ejecución de acciones, etc.
 * paso actual, último paso actual, etc.
 * perfiles descartados
 
-Puede utilizar estos campos para crear expresiones. Durante la ejecución del recorrido, los valores se recuperarán directamente del recorrido.
+Puede utilizar estos campos para crear expresiones. Durante la ejecución del recorrido, los valores se recuperan directamente del recorrido.
 
 Estos son algunos ejemplos de casos de uso:
 
 * **Registrar perfiles descartados**: puede enviar todos los perfiles excluidos de un mensaje mediante una regla de límite a un sistema de terceros para fines de registro. Para ello, configure una ruta en caso de tiempo de espera y error y añada una condición para filtrar por un tipo de error específico, por ejemplo: &quot;descartar personas mediante reglas de restricción&quot;. A continuación, puede insertar los perfiles descartados en un sistema de terceros mediante una acción personalizada.
 
-* **Enviar alertas en caso de errores**: puede enviar una notificación a un sistema de terceros cada vez que se produzca un error en un mensaje. Para ello, configure una ruta en caso de error y añada una condición y una acción personalizada. Puede enviar una notificación en un canal de demora, por ejemplo, con la descripción del error encontrado.
+* **Enviar alertas en caso de errores**: puede enviar una notificación a un sistema de terceros cada vez que se produzca un error en un mensaje. Para ello, configure una ruta en caso de error y añada una condición y una acción personalizada. Puede enviar una notificación en un canal de Slack, por ejemplo, con la descripción del error encontrado.
 
 * **Refinar errores en informes** : en lugar de tener solo una ruta para los mensajes de error, puede definir una condición por tipo de error. Esto le permitirá refinar los informes y ver todos los tipos de datos de errores.
 
@@ -45,15 +45,15 @@ Estos son algunos ejemplos de casos de uso:
 
 | Categoría | Nombre del campo | Etiqueta | Descripción |
 |---|---|---|------------|
-| Versión de Journey | journeyUID | Identificador de recorrido |  |
+| Versión de recorrido | journeyUID | Identificador de recorrido |  |
 |  | journeyVersionUID | Identificador de versión de recorrido |  |
 |  | journeyVersionName | Nombre de versión de recorrido |  |
 |  | journeyVersionDescription | Descripción de la versión del recorrido |  |
-|  | journeyVersion | Versión de Journey |  |
+|  | journeyVersion | Versión de recorrido |  |
 | Instancia de recorrido | instanceUID | Identificador de instancia de recorrido | ID de la instancia |
 |  | externalKey | Clave externa | Identificador individual que activa el recorrido |
 |  | OrganizationId | Identificador de organización | Organización de marca |
-|  | sandboxName | Nombre del espacio aislado | Nombre del entorno limitado |
+|  | sandboxName | Nombre de la zona protegida | Nombre del entorno limitado |
 | Identidad | profileId | Identificador de identidad de perfil | Identificador del perfil en el recorrido |
 |  | namespace | Espacio de nombres de identidad del perfil | Espacio de nombres del perfil en el recorrido (ejemplo: ECID) |
 | Nodo actual | currentNodeId | Identificador de nodo actual | Identificador de la actividad actual (nodo) |
@@ -66,5 +66,5 @@ Estos son algunos ejemplos de casos de uso:
 |  | lastErrorCode | Último código de error | Código de error de la última actividad (nodo) en error. Posibles errores: <ul><li>Códigos de error HTTP</li><li>capted</li><li>timedOut</li><li>error (ejemplo: predeterminado en caso de error inesperado. No debería/muy raramente sucede)</li></ul> |
 |  | lastExecutionActionErrorCode | Código de error de la última acción ejecutada | Código de error de la última acción en caso de error |
 |  | lastDataFetchErrorCode | Código de error de la última captura de datos | Código de error de la última captura de datos desde fuentes de datos |
-| Tiempo | lastActionExecutionElapsedTime | Tiempo transcurrido en la última ejecución de acción | Tiempo empleado para ejecutar la última acción |
+| Fecha | lastActionExecutionElapsedTime | Tiempo transcurrido en la última ejecución de acción | Tiempo empleado para ejecutar la última acción |
 |  | lastDataFetchElapsedTime | Tiempo transcurrido en la última recuperación de datos | Tiempo empleado para ejecutar la última recuperación de datos desde fuentes de datos |

@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 0%
+source-wordcount: '1339'
+ht-degree: 2%
 
 ---
 
 # Ejemplos de consultas{#query-examples}
 
-En esta sección se enumeran varios ejemplos utilizados habitualmente para consultar los eventos de los pasos del recorrido en Data Lake.
+En esta sección se enumeran varios ejemplos utilizados habitualmente para consultar los eventos de los pasos de Recorrido en Data Lake.
 
 Asegúrese de que los campos utilizados en las consultas tengan valores asociados en el esquema correspondiente.
 
@@ -29,9 +29,9 @@ Asegúrese de que los campos utilizados en las consultas tengan valores asociado
 
 ## Casos de uso básicos/consultas comunes {#common-queries}
 
-**Cuántos perfiles han entrado en un recorrido determinado en un intervalo de tiempo**
+**¿Cuántos perfiles han introducido un recorrido en un determinado intervalo de tiempo?**
 
-Esta consulta proporciona el número de perfiles diferentes que ingresaron al recorrido dado en el lapso de tiempo dado.
+Esta consulta proporciona el número de perfiles diferentes que ingresaron el recorrido dado en el lapso de tiempo dado.
 
 _Consulta del lago de datos_
 
@@ -43,7 +43,7 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**Cuántos errores se produjeron en cada nodo de un recorrido específico durante un cierto periodo de tiempo**
+**¿Cuántos errores se produjeron en cada nodo de un recorrido específico durante un tiempo determinado?**
 
 _Consulta del lago de datos_
 
@@ -109,7 +109,7 @@ ORDER BY timestamp;
 
 **Lista de cada error encontrado en los recorridos**
 
-Esta consulta le permite enumerar cada error que se encuentra en los recorridos mientras ejecuta un mensaje o una acción.
+Esta consulta le permite enumerar cada error encontrado en recorridos mientras ejecuta un mensaje o una acción.
 
 _Consulta del lago de datos_
 
@@ -135,7 +135,7 @@ Esta consulta devuelve todos los errores que se han producido al ejecutar una ac
 
 ## Consultas basadas en perfiles {#profile-based-queries}
 
-**Busque si un perfil entró en un recorrido específico**
+**Buscar si un perfil entró en un Recorrido específico**
 
 _Consulta del lago de datos_
 
@@ -155,7 +155,7 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-El resultado debe ser mayor que 0. Esta consulta devuelve el número exacto de veces que un perfil ha entrado en un recorrido.
+El resultado debe ser bueno a 0. Esta consulta devuelve el número exacto de veces que un perfil ha introducido un recorrido.
 
 **Buscar si se envió un perfil a un mensaje específico**
 
@@ -181,7 +181,7 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-El resultado debe ser mayor que 0. Esta consulta solo nos indica si la acción del mensaje se ejecutó correctamente en el lado del recorrido.
+El resultado debe ser bueno a 0. Esta consulta solo nos indica si la acción del mensaje se ejecutó correctamente en el lado del recorrido.
 
 Método 2: si el nombre del mensaje es único en el recorrido.
 
@@ -257,7 +257,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 La consulta devuelve la lista de todos los nombres de recorrido junto con el número de veces que el perfil consultado ingresó al recorrido.
 
-**Número de perfiles que cumplen los requisitos para un recorrido diario**
+**Número de perfiles que cumplen los requisitos para un recorrido diariamente**
 
 _Consulta del lago de datos_
 
@@ -279,7 +279,7 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-La consulta devuelve, durante el periodo definido, el número de perfiles que entraron en el recorrido cada día. Si un perfil introducido mediante varias identidades, se contará dos veces. Si la reentrada está habilitada, el recuento de perfiles puede duplicarse en diferentes días si se vuelve a introducir en el recorrido en un día diferente.
+La consulta devuelve, durante el periodo definido, el número de perfiles que ingresaron al recorrido cada día. Si un perfil introducido mediante varias identidades, se contará dos veces. Si la reentrada está habilitada, el recuento de perfiles puede duplicarse en diferentes días si se vuelve a introducir el recorrido en un día diferente.
 
 ## Consultas relacionadas con el segmento de lectura {#read-segment-queries}
 
@@ -445,7 +445,7 @@ WHERE
     _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventType = 'segmenttrigger-orchestrator'
 ```
 
-Devolverá todos los eventos de servicio relacionados con la versión del recorrido dada. Podemos seguir la cadena de operaciones:
+Devuelve todos los eventos de servicio relacionados con la versión de recorrido dada. Podemos seguir la cadena de operaciones:
 
 * creación de tema
 * exportar creación de trabajos
@@ -460,10 +460,10 @@ También podemos detectar problemas como:
 
 IMPORTANTE: si no hay ningún evento devuelto por esta consulta, puede deberse a uno de los siguientes motivos:
 
-* la versión del recorrido no ha alcanzado la programación
-* si se supone que la versión del recorrido debe haber desencadenado el trabajo de exportación llamando al orquestador, algo salió mal en el flujo ascendente: problema en la implementación del recorrido, evento empresarial o problema con el planificador.
+* la versión de recorrido no ha alcanzado la programación
+* si se supone que la versión de recorrido tiene que tener déclencheur en el trabajo de exportación llamando al orquestador, algo salió mal en el flujo ascendente: problema en la implementación de recorrido, evento empresarial o problema con el programador.
 
-**Obtener errores de lectura de segmentos para una versión de recorrido determinada**
+**Obtener errores de segmento de lectura para una versión de recorrido determinada**
 
 _Consulta del lago de datos_
 
@@ -639,7 +639,7 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 Esta consulta es diferente a la anterior.
 
-Devuelve las métricas generales de una versión de recorrido determinada, independientemente de los trabajos que se puedan haber ejecutado para ella (en caso de recorridos recurrentes, los eventos empresariales desencadenaron otros que aprovechaban la reutilización de temas).
+Devuelve las métricas generales de una versión de recorrido determinada, independientemente de los trabajos que se puedan haber ejecutado para ella (en caso de recorridos recurrentes, los eventos comerciales desencadenaron otros que aprovechaban la reutilización de temas).
 
 ## Consultas relacionadas con la calificación de segmentos {#segment-qualification-queries}
 
@@ -665,7 +665,7 @@ _experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
-Esta consulta devuelve todos los ID de perfil que la versión del recorrido descartó debido a una realización de segmentos incorrecta.
+Esta consulta devuelve todos los ID de perfil que la versión de recorrido descartó debido a una realización de segmentos incorrecta.
 
 **Eventos de calificación de segmentos descartados por cualquier otro motivo para un perfil específico**
 
@@ -695,7 +695,7 @@ Esta consulta devuelve todos los eventos (eventos externos/eventos de calificaci
 
 ## Consultas basadas en eventos {#event-based-queries}
 
-**Comprobar si se ha recibido un evento empresarial para un recorrido**
+**Comprobar si se recibió un evento comercial para un recorrido**
 
 _Consulta del lago de datos_
 
@@ -835,7 +835,7 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-La consulta devuelve, durante el periodo definido, el recuento de los recorridos únicos que se activan cada día. Un solo recorrido que se active en varios días se contará una vez al día.
+La consulta devuelve, durante el periodo definido, el recuento de recorridos únicos que se activan cada día. Un solo recorrido que se active en varios días se contará una vez al día.
 
 ## Consultas en instancias de recorrido {#journey-instances-queries}
 

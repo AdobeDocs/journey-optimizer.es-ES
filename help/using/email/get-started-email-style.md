@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introducción al estilo de correo electrónico
+title: Introducción al diseño de correo electrónico
 description: Descubra las distintas formas de ajustar el estilo del contenido del correo electrónico
 feature: Overview
 topic: Content Management
@@ -11,11 +11,11 @@ exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
 source-git-commit: 0e9037ddcbb61ae84a6487ec24be45462e871169
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# Introducción al estilo de correo electrónico {#get-started-email-style}
+# Introducción al diseño de correo electrónico {#get-started-email-style}
 
 Una vez que haya empezado a crear el contenido de su correo electrónico en [!DNL Journey Optimizer], puede ajustar una serie de parámetros y atributos de estilo desde el panel de configuración del Diseñador de correo electrónico .
 

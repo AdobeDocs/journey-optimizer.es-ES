@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 901a91d1-13dd-4283-b87f-223196eb072f
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 0%
+source-wordcount: '70'
+ht-degree: 14%
 
 ---
 
@@ -32,7 +32,7 @@ Conversión
 | string | convierte el valor de cadena en un entero |
 | dateTime | convierte la fecha en el número de milisegundos (epoch miliseconds) |
 | decimal | se convierte en entero eliminando la parte decimal (ejemplo: 1,5 se convierte en 1) |
-| booleano | convierte el valor booleano en 1 si es verdadero, 0 si es falso |
+| Booleano | convierte el valor booleano en 1 si es verdadero, 0 si es falso |
 
 ## Firmas y tipo devuelto
 

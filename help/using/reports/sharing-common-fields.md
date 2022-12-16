@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 0%
+source-wordcount: '582'
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,7 @@ Algunos de estos campos solo están disponibles en patrones de procesamiento esp
 
 ## entrada {#entrance-field}
 
-Indica si el usuario ha entrado en el recorrido. Si no está presente, supongamos que el valor es falso.
+Indica si el usuario ha introducido el recorrido. Si no está presente, supongamos que el valor es falso.
 
 Tipo: booleano
 
@@ -49,31 +49,31 @@ Tipo: booleano
 
 ID de evento en procesamiento, para el procesamiento de pasos. Si el evento es externo, el valor es eventId. Si el evento es interno, el valor es el eventId interno (como scheduledNotificationReceived, executeAction, etc.).
 
-Tipo: string
+Tipo: cadena
 
 ## nodeID {#nodeid-field}
 
 ID de nodo de cliente (desde el lienzo).
 
-Tipo: string
+Tipo: cadena
 
 ## stepID {#stepdid-field}
 
 ID único del paso que se está procesando actualmente.
 
-Tipo: string
+Tipo: cadena
 
 ## stepName {#stepname-field}
 
 Nombre del paso que se está procesando actualmente.
 
-Tipo: string
+Tipo: cadena
 
 ## stepType {#steptype-field}
 
 Tipo del paso.
 
-Tipo: string
+Tipo: cadena
 
 Valores posibles:
 
@@ -86,9 +86,9 @@ Valores posibles:
 
 Estado del paso, que representa el estado del paso, cuándo se ha completado su procesamiento (y el evento de paso se ha activado).
 
-Tipo: string
+Tipo: cadena
 
-El estado puede ser:
+El estado puede ser el siguiente:
 
 * finalizado: el paso no tiene transición y su procesamiento ha finalizado correctamente.
 * error: el procesamiento de pasos ha generado un error.
@@ -101,61 +101,61 @@ El estado puede ser:
 
 ID del recorrido.
 
-Tipo: string
+Tipo: cadena
 
 ## journeyVersionID {#journeyversionid-field}
 
-ID de la versión del recorrido. Este id representa la referencia de identidad del recorrido, en el caso de journeyStepEvent.
+ID de la versión de recorrido. Este id representa la referencia de identidad al recorrido, en el caso de journeyStepEvent.
 
-Tipo: string
+Tipo: cadena
 
 ## journeyVersionName {#journeyversionname-field}
 
-Nombre de la versión del recorrido.
+Nombre de la versión de recorrido.
 
-Tipo: string
+Tipo: cadena
 
 ## journeyVersion {#journeyversion-field}
 
-Versión del recorrido.
+Versión de la versión de recorrido.
 
-Tipo: string
+Tipo: cadena
 
 ## instanceID {#instanceid-field}
 
-ID interna de la instancia de recorrido.
+ID interno de la instancia de recorrido.
 
-Tipo: string
+Tipo: cadena
 
 ## externalKey {#externalkey-field}
 
 Clave externa extraída del evento para procesarla.
 
-Tipo: string
+Tipo: cadena
 
 ## parentStepID {#parenstepid-field}
 
 ID de paso del paso principal del paso procesado actual en la instancia.
 
-Tipo: string
+Tipo: cadena
 
 ## parentStepName {#parentstepname-field}
 
 Nombre del paso principal del paso actual.
 
-Tipo: string
+Tipo: cadena
 
 ## parentTransitionID {#parenttransitionid-field}
 
 Id de la transición que ha llevado la instancia al paso procesado.
 
-Tipo: string
+Tipo: cadena
 
 ## parentTransitionName {#parenttransitionname-field}
 
 Nombre de la transición que ha llevado la instancia al paso procesado.
 
-Tipo: string
+Tipo: cadena
 
 ## inTest {#intest-field}
 
@@ -173,13 +173,13 @@ Tipo: long
 
 Indica el tipo de instancia, si es por lotes o unitarios.
 
-Tipo: string
+Tipo: cadena
 
 Valores: lote/unidad
 
 ## recurrenceIndex {#recurrenceindex-field}
 
-Índice de la periodicidad si el recorrido es por lotes y recurrente (la primera ejecución tiene un índice de recurrencia = 1).
+Índice de la periodicidad si el recorrido es por lotes y recurrente (la primera ejecución tiene el índice de recurrencia = 1).
 
 Tipo: long
 
@@ -193,16 +193,16 @@ Tipo: booleano
 
 Clave externa para el evento por lotes.
 
-Tipo: string
+Tipo: cadena
 
 ## batchInstanceID {#batchinstanceid-field}
 
 es el ID de instancia por lotes.
 
-Tipo: string
+Tipo: cadena
 
 ## batchUnitaryBranchID {#batchunitarybranchid-field}
 
 si la instancia se ha activado desde una instancia de lote, ID de rama unitaria.
 
-Tipo: string
+Tipo: cadena

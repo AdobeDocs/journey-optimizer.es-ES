@@ -8,12 +8,12 @@ level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 0%
+source-wordcount: '561'
+ht-degree: 6%
 
 ---
 
-# Matrices y funciones de lista {#arrays}
+# Funciones de matrices y listas {#arrays}
 
 Utilice estas funciones para facilitar la interacción con matrices, listas y cadenas.
 

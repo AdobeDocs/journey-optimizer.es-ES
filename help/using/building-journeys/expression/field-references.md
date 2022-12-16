@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 0%
+source-wordcount: '553'
+ht-degree: 4%
 
 ---
 
@@ -42,7 +42,7 @@ Se utiliza un color de sintaxis para distinguir visualmente los campos de evento
 
 ## Valores predeterminados para referencias de campo {#default-value}
 
-Se puede asociar un valor predeterminado con un nombre de campo. La sintaxis es la siguiente:
+Se puede asociar un valor predeterminado con un nombre de campo. La sintaxis de la es la siguiente:
 
 ```json
 // event field
@@ -108,7 +108,7 @@ Ejemplo :
 
 ## Referencia a un campo definido en un mapa
 
-### `entry` function
+### Función  de `entry`
 
 Para recuperar un elemento en un mapa, utilizamos la función de entrada con una clave determinada. Por ejemplo, se utiliza al definir la clave de un evento, según el espacio de nombres seleccionado. Para obtener más información, consulte [esta página](../../event/about-creating.md#select-the-namespace).
 
@@ -118,7 +118,7 @@ Para recuperar un elemento en un mapa, utilizamos la función de entrada con una
 
 En esta expresión, se obtiene la entrada para la clave &quot;Correo electrónico&quot; del campo &quot;Mapa de identidad&quot; de un evento. La entrada &quot;Correo electrónico&quot; es una colección, de la que tomamos el &quot;id&quot; en el primer elemento utilizando &quot;first()&quot;. Para obtener más información, consulte [esta página](../expression/collection-management-functions.md).
 
-### `firstEntryKey` function
+### Función  de `firstEntryKey`
 
 Para recuperar la primera clave de entrada de un mapa, utilice el `firstEntryKey` función.
 
@@ -130,7 +130,7 @@ Este ejemplo muestra cómo recuperar la primera dirección de correo electrónic
 
 En este ejemplo, la lista de suscripción tiene el nombre `daily-email`. Las direcciones de correo electrónico se definen como claves en la variable `subscribers` , que está vinculado al mapa de lista de suscripción.
 
-### `keys` function
+### Función  de `keys`
 
 Para recuperar todas las claves de un mapa, utilice el `keys` función.
 

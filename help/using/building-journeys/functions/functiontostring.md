@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 06727146-2a44-4b74-aac4-be60e9e0e37c
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 0%
+source-wordcount: '116'
+ht-degree: 7%
 
 ---
 
@@ -34,7 +34,7 @@ Conversión
 | duration | convertir en el número correspondiente de milisegundos como una cadena |
 | integer | se convierte en una representación de cadena del valor (1 se convierte en &quot;1&quot;) |
 | decimal | se convierte en una representación de cadena del valor (1,5 se convierte en &quot;1,5&quot;) |
-| booleano | convierta el valor booleano en &#39;true&#39; si es &quot;true&quot;, &#39;false&#39; si es &quot;false&quot; |
+| Booleano | convierta el valor booleano en &#39;true&#39; si es &quot;true&quot;, &#39;false&#39; si es &quot;false&quot; |
 
 ## Firmas y tipo devuelto
 

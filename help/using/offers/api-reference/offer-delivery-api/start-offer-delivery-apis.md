@@ -9,7 +9,7 @@ exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -21,8 +21,8 @@ En esta página, encontrará información sobre funcionalidades específicas dis
 
 |  | Solicitudes/s | Latencia |
 |---|---|---|
-| API de decisiones | 2000 | &lt;500 ms |
-| API de Edge Decisioning | 5000 | &lt;250 ms |
+| API de decisiones | 2000 | &lt;500ms |
+| API de Edge Decisioning | 5000 | &lt;250ms |
 
 Para obtener más información sobre cómo trabajar con las API, consulte estas secciones:
 * [API de decisiones](decisioning-api.md)
@@ -41,7 +41,7 @@ Por ejemplo, si un cliente visita su sitio web, la solicitud incluirá el evento
 
 Los datos de contexto hacen referencia a datos que solo se conocen en el momento en que se desea que se devuelva una oferta. Por ejemplo, el color del artículo comprado, el clima en el momento de la compra, etc.
 
-Al pasar datos de contexto con una solicitud de API de Edge Decisioning, los datos se almacenan en el perfil de Adobe Experience Platform, lo que permite una reutilización futura.
+Al pasar datos de contexto con una solicitud de API de Edge Decisioning, los datos se almacenan en el perfil de Adobe Experience Platform, lo que permite su reutilización futura.
 
 >[!NOTE]
 >

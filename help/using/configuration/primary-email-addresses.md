@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 0%
+source-wordcount: '210'
+ht-degree: 3%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 0%
 
 Cuando se segmenta un perfil, es posible que haya varias direcciones de correo electrónico o números de teléfono disponibles en la base de datos (dirección de correo electrónico profesional, número de teléfono personal, etc.).
 
-con [!DNL Journey Optimizer], puede determinar qué dirección de correo electrónico o número de teléfono utilizar desde el servicio de perfil y priorizar cuándo hay varias direcciones disponibles. Para ello, siga los pasos a continuación.
+con [!DNL Journey Optimizer], puede determinar qué dirección de correo electrónico o número de teléfono utilizar desde el servicio de perfil y priorizar cuándo hay varias direcciones disponibles. Para realizar esto, siga los pasos a continuación.
 
-1. Acceda a la  **[!UICONTROL Channels]** > **[!UICONTROL General]** > **[!UICONTROL Executions fields]** para abrir el Navegador.
+1. Acceda a la  **[!UICONTROL Canales]** > **[!UICONTROL General]** > **[!UICONTROL Campos de ejecución]** para abrir el Navegador.
 
    ![](assets/primary-address-execution-fields.png)
 
-1. Los campos que se utilizan actualmente de forma predeterminada para determinar la dirección de correo electrónico y el número de teléfono de los perfiles se muestran en esta pantalla. Haga clic en **[!UICONTROL Edit]** para cambiarlos.
+1. Los campos que se utilizan actualmente de forma predeterminada para determinar la dirección de correo electrónico y el número de teléfono de los perfiles se muestran en esta pantalla. Haga clic en **[!UICONTROL Editar]** para cambiarlos.
 
    ![](assets/primary-address.png)
 
@@ -47,7 +47,7 @@ con [!DNL Journey Optimizer], puede determinar qué dirección de correo electr�
 
    ![](assets/primary-address-select-field.png)
 
-1. Haga clic en **[!UICONTROL Save]** para confirmar su elección.
+1. Haga clic en **[!UICONTROL Guardar]** para confirmar su elección.
 
 El campo de ejecución se actualiza y ahora se utiliza como dirección principal.
 

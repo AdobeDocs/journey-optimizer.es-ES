@@ -134,7 +134,7 @@ Solo se permite un espacio de nombres por recorrido. Si utiliza varios eventos e
 
 La clave es el campo, o combinación de campos, que forma parte de los datos de carga útil de evento y que permite al sistema identificar a la persona asociada al evento. La clave puede ser, por ejemplo, el ID de Experience Cloud, un ID de CRM o una dirección de correo electrónico.
 
-Para utilizar datos almacenados en la base de datos de perfil del cliente en tiempo real de Adobe, la clave de evento debe ser la información que haya definido como identidad de un perfil en la variable [Servicio de Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
+Para utilizar datos almacenados en la base de datos de perfil del cliente en tiempo real de Adobe, la clave de evento debe ser la información que haya definido como identidad de un perfil en la variable [Servicio de Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target=&quot;_blank&quot;}.
 
 El identificador de perfil permite que el sistema realice la reconciliación entre el evento y el perfil del individuo. Si selecciona un esquema que tiene una identidad principal, la variable **[!UICONTROL Identificador de perfil]** y **[!UICONTROL Área de nombres]** los campos están rellenados previamente. Si no se ha definido ninguna identidad, la variable _idMap > id_ es la clave principal. A continuación, debe seleccionar un área de nombres y la clave se rellena automáticamente previamente mediante _idMap > id_.
 

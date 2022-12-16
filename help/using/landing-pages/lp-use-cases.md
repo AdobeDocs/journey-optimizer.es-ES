@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 0%
+source-wordcount: '913'
+ht-degree: 16%
 
 ---
 
@@ -55,7 +55,7 @@ Por ejemplo, supongamos que organiza un evento el mes que viene y desea iniciar 
 
 1. [Diseño del correo electrónico](../email/get-started-email-design.md) para anunciar que el registro está abierto para su evento.
 
-1. [Inserción de un vínculo](../email/message-tracking.md#insert-links) en el contenido del mensaje. Select **[!UICONTROL Landing page]** como el **[!UICONTROL Link type]** y seleccione [página de aterrizaje](create-lp.md#configure-primary-page) que ha creado para el registro.
+1. [Inserción de un vínculo](../email/message-tracking.md#insert-links) en el contenido del mensaje. Select **[!UICONTROL Página de aterrizaje]** como el **[!UICONTROL Tipo de vínculo]** y seleccione [página de aterrizaje](create-lp.md#configure-primary-page) que ha creado para el registro.
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -69,13 +69,13 @@ Por ejemplo, supongamos que organiza un evento el mes que viene y desea iniciar 
 
 Además, puede enviar un correo electrónico de confirmación a los destinatarios que se hayan registrado en el evento. Para ello, siga los pasos a continuación.
 
-1. Crear otro [recorrido](../building-journeys/journey.md). Puede hacerlo directamente desde la página de aterrizaje haciendo clic en el **[!UICONTROL Create journey]** botón. Más información [here](create-lp.md#configure-primary-page)
+1. Crear otro [recorrido](../building-journeys/journey.md). Puede hacerlo directamente desde la página de aterrizaje haciendo clic en el **[!UICONTROL Crear recorrido]** botón. Obtenga más información [aquí](create-lp.md#configure-primary-page)
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. Despliegue el **[!UICONTROL Events]** categoría y suelte a **[!UICONTROL Segment Qualification]** actividad en el lienzo. Más información [here](../building-journeys/segment-qualification-events.md)
+1. Despliegue el **[!UICONTROL Eventos]** categoría y suelte a **[!UICONTROL Clasificación del segmento]** actividad en el lienzo. Obtenga más información [aquí](../building-journeys/segment-qualification-events.md)
 
-1. Haga clic en el **[!UICONTROL Segment]** y seleccione la lista de suscripción que ha creado.
+1. Haga clic en el **[!UICONTROL Segmento]** y seleccione la lista de suscripción que ha creado.
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
@@ -93,13 +93,13 @@ Para permitir que sus destinatarios cancelen la suscripción a sus comunicacione
 
 Obtenga más información sobre la administración del consentimiento de los destinatarios y por qué esto es importante en [esta sección](../privacy/opt-out.md).
 
-### Administración de la exclusión {#opt-out-management}
+### Administración de exclusiones {#opt-out-management}
 
-Proporcionar a los destinatarios la capacidad de cancelar la suscripción para recibir comunicaciones de una marca es un requisito legal. Obtenga más información sobre la legislación aplicable en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target=&quot;_blank&quot;}.
+Proporcionar a los destinatarios la capacidad de cancelar la suscripción a la recepción de comunicaciones de una marca es un requisito legal. Obtenga más información acerca de la legislación aplicable en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=es#regulations){target=&quot;_blank&quot;}.
 
-Por lo tanto, siempre debe incluir un **cancelar suscripción** en cada correo electrónico enviado a los destinatarios:
+Por lo tanto, siempre debe incluir un **vínculo para cancelar la suscripción** en cada correo electrónico enviado a los destinatarios:
 
-* Al hacer clic en este vínculo, los destinatarios se dirigen a una página de aterrizaje, incluido un botón para confirmar la exclusión.
+* Al hacer clic en este vínculo, los destinatarios se dirigen a una página de aterrizaje que incluye un botón para confirmar la exclusión.
 * Al hacer clic en el botón de exclusión, los datos de perfil se actualizarán con esta información.
 
 ### Configuración de la exclusión {#configure-opt-out}
@@ -110,7 +110,7 @@ Para permitir que los destinatarios de un correo electrónico cancelen la suscri
 
 1. Defina la página principal. [Más información](create-lp.md#configure-primary-page)
 
-1. [Diseño](design-lp.md) el contenido de la página principal: usar el específico de la página de aterrizaje **[!UICONTROL Form]** , defina un **[!UICONTROL Opt-out]** y elija actualizar **[!UICONTROL Channel (email)]**: el perfil que marca la casilla de exclusión de la página de aterrizaje se excluirá de todas las comunicaciones.
+1. [Diseño](design-lp.md) el contenido de la página principal: usar el específico de la página de aterrizaje **[!UICONTROL Formulario]** , defina un **[!UICONTROL Exclusión]** y elija actualizar **[!UICONTROL Canal (correo electrónico)]**: el perfil que marca la casilla de exclusión de la página de aterrizaje se excluirá de todas las comunicaciones.
 
    ![](assets/lp_opt-out-primary-lp.png)
 
@@ -122,7 +122,7 @@ Para permitir que los destinatarios de un correo electrónico cancelen la suscri
 
    >[!NOTE]
    >
-   >Asegúrese de hacer referencia a la subpágina en el informe **[!UICONTROL Call to action]** de la sección **[!UICONTROL Form]** componente. [Más información](design-lp.md)
+   >Asegúrese de hacer referencia a la subpágina en el informe **[!UICONTROL Llamada a acción]** de la sección **[!UICONTROL Formulario]** componente. [Más información](design-lp.md)
 
 1. Una vez configurado y definido el contenido de sus páginas, [publicar](create-lp.md#publish) la página de aterrizaje.
 
@@ -130,11 +130,11 @@ Para permitir que los destinatarios de un correo electrónico cancelen la suscri
 
 1. [Creación de un mensaje de correo electrónico](../email/get-started-email-design.md) en un recorrido.
 
-1. Seleccione texto en el contenido y [insertar un vínculo](../email/message-tracking.md#insert-links) con la barra de herramientas contextual. También puede utilizar un vínculo en un botón.
+1. Seleccione texto en el contenido e [inserte un vínculo](../email/message-tracking.md#insert-links) utilizando la barra de herramientas contextual. También puede utilizar un vínculo en un botón.
 
    ![](assets/lp_opt-out-insert-link.png)
 
-1. Select **[!UICONTROL Landing page]** de la variable **[!UICONTROL Link type]** y seleccione la [página de aterrizaje](create-lp.md#configure-primary-page) que ha creado para la exclusión.
+1. Select **[!UICONTROL Página de aterrizaje]** de la variable **[!UICONTROL Tipo de vínculo]** y seleccione la [página de aterrizaje](create-lp.md#configure-primary-page) que ha creado para la exclusión.
 
    ![](assets/lp_opt-out-landing-page.png)
 
@@ -154,11 +154,11 @@ Para permitir que los destinatarios de un correo electrónico cancelen la suscri
 
    * Los datos de perfil se actualizan y no reciben comunicaciones de su marca a menos que se vuelvan a suscribir.
 
-Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y acceda al perfil seleccionando un área de nombres de identidad y un valor de identidad correspondiente. Obtenga más información en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y acceda al perfil seleccionando un área de nombres de identidad y un valor de identidad correspondiente. Obtenga más información en la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target=&quot;_blank&quot;}.
 
 ![](assets/lp_opt-out-profile-choice.png)
 
-En el **[!UICONTROL Attributes]** , puede ver que el valor de **[!UICONTROL choice]** ha cambiado a **[!UICONTROL no]**.
+En el **[!UICONTROL Atributos]** , puede ver que el valor de **[!UICONTROL choice]** ha cambiado a **[!UICONTROL no]**.
 
 <!--
 

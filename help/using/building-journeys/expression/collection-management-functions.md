@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 0%
+source-wordcount: '600'
+ht-degree: 2%
 
 ---
 
@@ -140,7 +140,7 @@ El resultado será true si no hay ningún evento de experiencia que coincida con
 
 **Ejemplo 4:**
 
-Aquí queremos comprobar si una persona ha iniciado al menos una vez una aplicación en los últimos 7 días, para, por ejemplo, activar una notificación push invitándolos a iniciar un tutorial.
+Aquí queremos comprobar si una persona ha iniciado al menos una vez una aplicación en los últimos 7 días, por ejemplo, para enviar una notificación push invitándolos a iniciar un tutorial.
 
 ```json
 count(
@@ -211,7 +211,7 @@ El resultado es &quot;token_2&quot;.
 
 **Ejemplo 3:**
 
-Comprobamos si el primer evento de Adobe Analytics (el más reciente) con un valor distinto de cero para el ID de DMA tiene un valor igual a 602.
+Comprobamos si el primer evento (más reciente) de Adobe Analytics con un valor distinto de cero para el ID de DMA tiene un valor igual a 602.
 
 ```json
 #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(

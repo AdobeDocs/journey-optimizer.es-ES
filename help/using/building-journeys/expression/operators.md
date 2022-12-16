@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 0%
+source-wordcount: '453'
+ht-degree: 7%
 
 ---
 
@@ -382,7 +382,7 @@ Ejemplo:
 3 % 2 -- returns 1.
 ```
 
-## Matemáticas {#math}
+## Math {#math}
 
 ### es numérico
 

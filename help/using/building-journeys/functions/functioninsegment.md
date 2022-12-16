@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 0%
+source-wordcount: '197'
+ht-degree: 6%
 
 ---
 
@@ -63,4 +63,4 @@ Devuelve un valor booleano.
 
 Explicación:
 
-La función devolverá **[!UICONTROL true]** si la persona individual dentro de la instancia de recorrido forma parte del segmento de Adobe Experience Platform denominado &quot;hombres mayores de 50&quot;, **[!UICONTROL false]** en caso contrario.
+La función devolverá **[!UICONTROL true]** si la persona dentro de la instancia de recorrido forma parte del segmento de Adobe Experience Platform denominado &quot;hombres mayores de 50&quot;, **[!UICONTROL false]** en caso contrario.

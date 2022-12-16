@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Trabajar con Customer Journey Analytics
+title: Uso de Customer Journey Analytics
 description: Introducción a Customer Journey Analytics
 feature: Reporting
 topic: Content Management
@@ -10,12 +10,12 @@ level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 0%
+source-wordcount: '338'
+ht-degree: 8%
 
 ---
 
-# Trabajar con [!DNL Customer Journey Analytics] {#cja-ajo}
+# Uso de [!DNL Customer Journey Analytics] {#cja-ajo}
 
 
 [!DNL Journey Optimizer] integración con [!DNL Customer Journey Analytics] proporciona una vista holística de todos sus recorridos con distribución automatizada de informes y visualizaciones personalizadas de los datos.
@@ -24,18 +24,18 @@ ht-degree: 0%
 
 Después de crear el recorrido en [!DNL Journey Optimizer], puede importar los datos de cliente a [!DNL Customer Journey Analytics] para iniciar informes y comprender el impacto de cada interacción que un cliente tiene con sus recorridos.
 
-➡️ [Descubra Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html){target=&quot;_blank&quot;}
+➡️ [Customer Journey Analytics de Discover](https://docs.adobe.com/content/help/es-ES/experience-cloud/user-guides/home.translate.html){target=&quot;_blank&quot;}
 
 Antes de usar [!DNL Customer Journey Analytics] para sus recorridos, primero debe configurar esta integración:
 
-1. [Crear una conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) en [!DNL Customer Journey Analytics] con la variable **[!UICONTROL Dataset]** desea enviar a Adobe Experience Platform.
+1. [Crear una conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es) en [!DNL Customer Journey Analytics] con la variable **[!UICONTROL Conjunto de datos]** desea enviar a Adobe Experience Platform.
 
    Lo siguiente [!DNL Journey Optimizer] se puede configurar:
    * [Evento de paso de recorrido](../data/datasets-query-examples.md#journey-step-event): permite ver quién entra en los recorridos y hasta dónde llegan.
    * [Comentarios del mensaje/Seguimiento de conjuntos de datos](../data/datasets-query-examples.md#message-feedback-event-dataset): permite ver información de envío sobre los mensajes enviados [!DNL Journey Optimizer].
-   * [Conjuntos de datos de entidad y recorrido](../data/datasets-query-examples.md#entity-dataset): permite buscar nombres descriptivos y utilizarlos en los informes.
+   * [Conjuntos de datos de entidades y Recorridos](../data/datasets-query-examples.md#entity-dataset): permite buscar nombres descriptivos y utilizarlos en los informes.
 
-1. [Creación de una vista de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) para configurar las dimensiones y métricas que desee usar en el informe.
+1. [Creación de una vista de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es) para configurar las dimensiones y métricas que desee usar en el informe.
 
    Puede crear métricas específicas de Journey Optimizer para reflejar mejor los datos de sus recorridos. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
 
@@ -48,7 +48,7 @@ Uso [!DNL Journey Optimizer] con [!DNL Customer Journey Analytics] puede provoca
 
 * **En [!DNL Journey Optimizer] informes, la métrica Enviado también incluye la métrica Reintento.**
 
-   **[!UICONTROL Retries]** no se incluirá en **[!UICONTROL Sent]** métrica en [!DNL Customer Journey Analytics]. Esto causará que [!DNL Customer Journey Analytics] **[!UICONTROL Sent]** métricas que muestran valores inferiores a [!DNL Journey Optimizer]. Sin embargo, los datos de reintentos se convierten en **[!UICONTROL Messages successfully sent]** o **[!UICONTROL Bounces]** métrica.
+   **[!UICONTROL Reintentos]** no se incluirá en **[!UICONTROL Enviado]** métrica en [!DNL Customer Journey Analytics]. Esto causará que [!DNL Customer Journey Analytics] **[!UICONTROL Enviado]** métricas que muestran valores inferiores a [!DNL Journey Optimizer]. Sin embargo, los datos de reintentos se convierten en **[!UICONTROL Mensajes enviados correctamente]** o **[!UICONTROL Devoluciones]** métrica.
 Para reducir las discrepancias, utilice intervalos de fechas desde hace una semana o incluso después.
 
 * **Los informes se proporcionan desde una fuente de datos diferente.**

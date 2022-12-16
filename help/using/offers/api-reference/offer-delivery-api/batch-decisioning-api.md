@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 source-git-commit: 34ab78408981d2b53736b31c94412da06cb860c4
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 0%
+source-wordcount: '750'
+ht-degree: 4%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 0%
 
 La variable [!DNL Batch Decisioning] La API permite a las organizaciones utilizar la funcionalidad de toma de decisiones para todos los perfiles de un segmento determinado en una llamada. El contenido de la oferta para cada perfil del segmento se coloca en un conjunto de datos de Adobe Experience Platform donde está disponible para flujos de trabajo por lotes personalizados.
 
-Con la variable [!DNL Batch Decisioning] API, puede rellenar un conjunto de datos con las mejores ofertas para todos los perfiles en un segmento de Adobe Experience Platform para los ámbitos de decisión. Por ejemplo, una organización puede querer ejecutarse [!DNL Batch Decisioning] para que puedan enviar ofertas a un proveedor de envíos de mensajes. Estas ofertas se utilizan después como contenido que se envía para la entrega de mensajes por lotes al mismo segmento de usuarios.
+Con la variable [!DNL Batch Decisioning] API, puede rellenar un conjunto de datos con las mejores ofertas para todos los perfiles de un segmento de Adobe Experience Platform para los ámbitos de decisión. Por ejemplo, una organización puede querer ejecutarse [!DNL Batch Decisioning] para que puedan enviar ofertas a un proveedor de envíos de mensajes. Estas ofertas se utilizan después como contenido que se envía para la entrega de mensajes por lotes al mismo segmento de usuarios.
 
 Para ello, la organización:
 
 * Ejecute el [!DNL Batch Decisioning] API, que contiene dos solicitudes:
 
-   1. A **Solicitud POST por lotes** para iniciar una carga de trabajo para procesar por lotes las selecciones de ofertas.
+   1. A **Solicitud de POST por lotes** para iniciar una carga de trabajo para procesar por lotes las selecciones de ofertas.
 
-   2. A **Solicitud GET por lotes** para obtener el estado de carga de trabajo por lotes.
+   2. A **Solicitud de GET por lotes** para obtener el estado de carga de trabajo por lotes.
 
 * Exporte el conjunto de datos a la API del proveedor de envíos de mensajes.
 
@@ -39,7 +39,7 @@ Para ello, la organización:
 * **Número de trabajos en lote en ejecución por conjunto de datos**: Se pueden ejecutar hasta cinco trabajos por lotes a la vez, por conjunto de datos. Cualquier otra solicitud por lotes con el mismo conjunto de datos de salida se agrega a la cola. Un trabajo en cola se selecciona para procesarse una vez que el trabajo anterior ha terminado de ejecutarse.
 * **Restricción de frecuencia**: Se ejecuta un lote de la instantánea de perfil que se produce una vez al día. La variable [!DNL Batch Decisioning] La API limita la frecuencia y siempre carga perfiles de la instantánea más reciente.
 
-## Introducción {#getting-started}
+## Primeros pasos {#getting-started}
 
 Antes de utilizar esta API, asegúrese de completar los siguientes pasos previos necesarios.
 
@@ -58,7 +58,7 @@ Todo [!DNL Batch Decisioning] las solicitudes requieren los siguientes encabezad
 
 ## Iniciar un proceso por lotes {#start-a-batch-process}
 
-Para iniciar una carga de trabajo para procesar las decisiones por lotes, realice una solicitud POST a la `/workloads/decisions` punto final.
+Para iniciar una carga de trabajo para procesar las decisiones por lotes, realice una solicitud de POST al `/workloads/decisions` punto final.
 
 >[!NOTE]
 >
@@ -136,7 +136,7 @@ Consulte la [Documentación de gestión de decisiones](../../get-started/startin
 
 ## Recuperar información sobre una decisión por lotes {#retrieve-information-on-a-batch-decision}
 
-Para recuperar información sobre una decisión específica, realice una solicitud GET a la `/workloads/decisions` al proporcionar el valor de ID de carga de trabajo correspondiente para su decisión.
+Para recuperar información sobre una decisión específica, realice una solicitud de GET a la `/workloads/decisions` al proporcionar el valor de ID de carga de trabajo correspondiente para su decisión.
 
 **Formato de API**
 

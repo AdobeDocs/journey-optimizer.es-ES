@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 0%
+source-wordcount: '403'
+ht-degree: 26%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom"
 >title="Acciones personalizadas"
->abstract="Las acciones personalizadas permiten configurar la conexión de un sistema de terceros para enviar mensajes o llamadas API. Se puede configurar una acción con cualquier servicio de cualquier proveedor al que se pueda llamar mediante una API de REST con una carga útil con formato JSON."
+>abstract="Las acciones personalizadas le permiten configurar la conexión de un sistema de terceros para enviar mensajes o llamadas API. Se puede configurar una acción con cualquier servicio de cualquier proveedor al que se pueda llamar mediante una API REST con carga útil en formato JSON."
 
-Las acciones personalizadas permiten configurar la conexión de un sistema de terceros para enviar mensajes o llamadas API. Se puede configurar una acción con cualquier servicio de cualquier proveedor al que se pueda llamar mediante una API de REST con una carga útil con formato JSON.
+Las acciones personalizadas le permiten configurar la conexión de un sistema de terceros para enviar mensajes o llamadas API. Se puede configurar una acción con cualquier servicio de cualquier proveedor al que se pueda llamar mediante una API REST con carga útil en formato JSON.
 
 ## Consentimiento y control de datos {#privacy}
 
-En Journey Optimizer, puede aplicar políticas de consentimiento y control de datos a sus acciones personalizadas para evitar que campos específicos se exporten a sistemas de terceros o excluir a clientes que no hayan aceptado recibir comunicaciones por correo electrónico, push o SMS. Para obtener más información, consulte las páginas siguientes:
+En Journey Optimizer, puede aplicar políticas de control y consentimiento de datos a sus acciones personalizadas para evitar que campos específicos se exporten a sistemas de terceros o excluir a clientes que no hayan aceptado recibir comunicaciones por correo electrónico, push o SMS. Para obtener más información, consulte las páginas siguientes:
 
 * [Administración de datos](../action/action-privacy.md).
 * [Consentimiento](../action/consent.md).
@@ -37,7 +37,7 @@ El panel de configuración del **Acción personalizada** actividad muestra los p
 
 ### Ruta dinámica
 
-Si la dirección URL incluye una ruta dinámica, especifique la ruta en la **[!UICONTROL Path]** campo .
+Si la dirección URL incluye una ruta dinámica, especifique la ruta en la **[!UICONTROL Ruta]** campo .
 
 Para concatenar campos y cadenas de texto sin formato, utilice las funciones de cadena o el signo más (+) en el editor de expresiones avanzadas. Escriba cadenas de texto sin formato entre comillas simples (&#39;) o entre comillas dobles (&quot;). [Más información](expression/expressionadvanced.md).
 
@@ -56,12 +56,12 @@ La dirección URL concatenada tiene este formulario:
 
 ### Encabezados
 
-La variable **[!UICONTROL URL Configuration]** muestra los campos del encabezado dinámico, pero no los campos del encabezado constante. Los campos de encabezado dinámico son campos de encabezado HTTP cuyo valor está configurado como variable. [Más información](../action/about-custom-action-configuration.md).
+La variable **[!UICONTROL Configuración de URL]** muestra los campos del encabezado dinámico, pero no los campos del encabezado constante. Los campos de encabezado dinámico son campos de encabezado HTTP cuyo valor está configurado como variable. [Más información](../action/about-custom-action-configuration.md).
 
 Si es necesario, especifique el valor de los campos del encabezado dinámico:
 
-1. Seleccione la acción personalizada en el recorrido.
-1. En el panel de configuración, haga clic en el icono de lápiz situado junto al campo de encabezado en la **[!UICONTROL URL Configuration]** para obtener más información.
+1. Seleccione la acción personalizada en el recorrido .
+1. En el panel de configuración, haga clic en el icono de lápiz situado junto al campo de encabezado en la **[!UICONTROL Configuración de URL]** para obtener más información.
 
    ![](assets/journey-dynamicheaderfield.png)
 
@@ -69,8 +69,8 @@ Si es necesario, especifique el valor de los campos del encabezado dinámico:
 
 ## Parámetros de acción
 
-En el **[!UICONTROL Action parameters]** , verá los parámetros de mensaje definidos como _&quot;Variable&quot;_. Para estos parámetros, puede definir dónde obtener esta información (por ejemplo: eventos, fuentes de datos), pase valores manualmente o utilice el editor de expresiones avanzadas para casos de uso avanzados. Los casos de uso avanzados pueden ser manipulación de datos y otro uso de funciones. Consulte esta [página](expression/expressionadvanced.md).
+En el **[!UICONTROL Parámetros de acción]** , verá los parámetros de mensaje definidos como _&quot;Variable&quot;_. Para estos parámetros, puede definir dónde obtener esta información (por ejemplo: eventos, fuentes de datos), pase valores manualmente o utilice el editor de expresiones avanzadas para casos de uso avanzados. Los casos de uso avanzados pueden ser manipulación de datos y otro uso de funciones. Consulte [esta página](expression/expressionadvanced.md).
 
 **Temas relacionados**
 
-[Configurar una acción](../action/about-custom-action-configuration.md)
+[Configuración de una acción](../action/about-custom-action-configuration.md)

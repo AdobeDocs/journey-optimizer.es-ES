@@ -7,8 +7,8 @@ role: Data Engineer
 level: Experienced
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 0%
+source-wordcount: '94'
+ht-degree: 8%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Aprenda a utilizar funciones matemáticas en el editor de expresiones.
 
-## Absoluto {#absolute}
+## Absoluta   {#absolute}
 
 La variable `absolute` se utiliza para convertir un número que es un valor absoluto.
 

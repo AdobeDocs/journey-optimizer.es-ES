@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ En cuanto a la configuración de fondos con el Diseñador de correo electrónico
 
 A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
-* Configure un **[!UICONTROL Background color]** para todo el correo electrónico. Asegúrese de seleccionar la configuración de cuerpo en el árbol de navegación accesible desde la paleta izquierda.
+* Configure un **[!UICONTROL Color de fondo]** para todo el correo electrónico. Asegúrese de seleccionar la configuración de cuerpo en el árbol de navegación accesible desde la paleta izquierda.
 
    ![](assets/background_1.png)
 
-* Establezca el mismo color de fondo para todos los componentes de estructura seleccionando **[!UICONTROL Viewport background color]**. Esta opción le permite seleccionar una configuración diferente del color de fondo.
+* Establezca el mismo color de fondo para todos los componentes de estructura seleccionando **[!UICONTROL Color de fondo de la ventanilla]**. Esta opción le permite seleccionar una configuración diferente del color de fondo.
 
    ![](assets/background_2.png)
 
@@ -44,7 +44,7 @@ A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
    ![](assets/background_3.png)
 
-* Configure un **[!UICONTROL Background image]** para el contenido de un componente de estructura.
+* Configure un **[!UICONTROL Imagen de fondo]** para el contenido de un componente de estructura.
 
    >[!NOTE]
    >

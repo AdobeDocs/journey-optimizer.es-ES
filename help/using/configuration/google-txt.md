@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 0%
+source-wordcount: '212'
+ht-degree: 21%
 
 ---
 
@@ -28,13 +28,13 @@ Para garantizar una entrega óptima y un envío correcto de correos electrónico
 
 >[!CAUTION]
 >
-> Esta operación solo se puede realizar una vez que un subdominio tiene la variable **[!UICONTROL Success]** estado. Para obtener más información sobre los estados de los subdominios, consulte [esta sección](about-subdomain-delegation.md#access-delegated-subdomains).
+> Esta operación solo se puede realizar una vez que un subdominio tiene la variable **[!UICONTROL Correcto]** estado. Para obtener más información sobre los estados de los subdominios, consulte [esta sección](about-subdomain-delegation.md#access-delegated-subdomains).
 
 Para agregar un registro TXT de Google al subdominio, siga estos pasos:
 
-1. Abra el subdominio desde el **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** para abrir el Navegador.
+1. Abra el subdominio desde el **[!UICONTROL Canales]** / **[!UICONTROL Subdominios]** para abrir el Navegador.
 
-1. En el **[!UICONTROL Google txt record]** , introduzca el código de verificación generado a partir de [Google Workspace](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;}<!--G Suite Admin tools-->y haga clic en **[!UICONTROL Save]**.
+1. En el **[!UICONTROL Registro txt de Google]** , introduzca el código de verificación generado a partir de [Google Workspace](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;}<!--G Suite Admin tools-->y haga clic en **[!UICONTROL Guardar]**.
 
    ![](assets/subdomain-google-txt.png)
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Lista permitida
+title: Lista de permitidos
 description: Aprenda a utilizar la lista de permitidos
 feature: Deliverability
 topic: Content Management
@@ -10,16 +10,16 @@ level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 0%
+source-wordcount: '1035'
+ht-degree: 2%
 
 ---
 
-# Lista permitida {#allow-list}
+# Lista de permitidos {#allow-list}
 
 Es posible definir una lista específica de envío seguro en la variable [entorno limitado](../administration/sandboxes.md) nivel.
 
-Esta lista permitida le permite especificar direcciones de correo electrónico o dominios individuales que serán los únicos destinatarios o dominios autorizados para recibir los correos electrónicos que envía desde un entorno limitado específico.
+Esta lista de permitidos le permite especificar direcciones de correo electrónico o dominios individuales que serán los únicos destinatarios o dominios autorizados para recibir los correos electrónicos que envía desde un entorno limitado específico.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Esta lista permitida le permite especificar direcciones de correo electrónico o
 
 Por ejemplo, en una instancia que no es de producción, donde pueden producirse errores, la lista de permitidos garantiza que no corra ningún riesgo de enviar mensajes no deseados a direcciones de clientes reales y, por lo tanto, proporciona un entorno seguro para realizar pruebas.
 
-Además, cuando la lista de permitidos está activa pero vacía, no se envía ningún correo. Por lo tanto, si tiene algún problema importante, puede utilizar esta función para detener todas las comunicaciones salientes de [!DNL Journey Optimizer] hasta que solucione el problema. Obtenga más información sobre [lógica de lista permitida](#logic).
+Además, cuando la lista de permitidos está activa pero vacía, no se envía ningún correo. Por lo tanto, si tiene algún problema importante, puede utilizar esta función para detener todas las comunicaciones salientes de [!DNL Journey Optimizer] hasta que solucione el problema. Obtenga más información sobre [lógica de lista de permitidos](#logic).
 
 >[!CAUTION]
 >
@@ -35,57 +35,57 @@ Además, cuando la lista de permitidos está activa pero vacía, no se envía ni
 
 ## Acceso a la lista de permitidos {#access-allowed-list}
 
-Para acceder a la lista detallada de direcciones de correo electrónico y dominios permitidos, vaya a **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** y seleccione **[!UICONTROL Allowed list]**.
+Para acceder a la lista detallada de direcciones de correo electrónico y dominios permitidos, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** y seleccione **[!UICONTROL Lista de permitidos]**.
 
 ![](assets/allow-list-access.png)
 
 >[!CAUTION]
 >
->Los permisos para ver, exportar y administrar la lista de permitidos están restringidos a [Administradores de Journey](../administration/ootb-product-profiles.md#journey-administrator). Más información sobre la administración [!DNL Journey Optimizer] derechos de acceso de los usuarios en [esta sección](../administration/permissions-overview.md).
+>Los permisos para ver, exportar y administrar la lista de permitidos están restringidos a [Administradores de recorrido](../administration/ootb-product-profiles.md#journey-administrator). Más información sobre la administración [!DNL Journey Optimizer] derechos de acceso de los usuarios en [esta sección](../administration/permissions-overview.md).
 
-Para exportar la lista permitida como archivo CSV, seleccione la opción **[!UICONTROL Download CSV]** botón.
+Para exportar la lista de permitidos como archivo CSV, seleccione la opción **[!UICONTROL Descargar CSV]** botón.
 
-Utilice la variable **[!UICONTROL Delete]** para eliminar permanentemente una entrada.
+Utilice la variable **[!UICONTROL Eliminar]** para eliminar permanentemente una entrada.
 
-Puede buscar en las direcciones de correo electrónico o en los dominios y filtrar por el **[!UICONTROL Address type]**. Una vez seleccionado, puede borrar el filtro mostrado en la parte superior de la lista.
+Puede buscar en las direcciones de correo electrónico o en los dominios y filtrar por el **[!UICONTROL Tipo de dirección]**. Una vez seleccionado, puede borrar el filtro mostrado en la parte superior de la lista.
 
 ![](assets/allowed-list-filtering-example.png)
 
-## Activar la lista permitida {#enable-allow-list}
+## Activar la lista de permitidos {#enable-allow-list}
 
 Para activar la lista de permitidos, siga los pasos a continuación.
 
-1. Acceda a la  **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** para abrir el Navegador.
+1. Acceda a la  **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** > **[!UICONTROL Lista de permitidos]** para abrir el Navegador.
 
 1. Seleccione el botón de alternancia.
 
    ![](assets/allow-list-edit.png)
 
-1. Select **[!UICONTROL Activate allowed list]**. La lista de permitidos está activa.
+1. Select **[!UICONTROL Activar lista de permitidos]**. La lista de permitidos está activa.
 
    ![](assets/allow-list-enable.png)
 
    >[!NOTE]
    >
-   >Después de activar la lista de permitidos, hay una latencia de 5 minutos para que tenga efecto en los recorridos y campañas.
+   >Después de activar la lista de permitidos, hay una latencia de 5 minutos para que tenga efecto en sus recorridos y campañas.
 
-La lógica de lista permitida se aplica cuando la función está activa. Obtenga más información en [esta sección](#logic).
+La lógica de lista de permitidos se aplica cuando la función está activa. Obtenga más información en [esta sección](#logic).
 
 >[!NOTE]
 >
->Cuando se activa, se respeta la función de lista permitida al ejecutar recorridos, pero también al probar mensajes con [pruebas](../email/preview.md#send-proofs) y prueba de recorridos utilizando [modo de prueba](../building-journeys/testing-the-journey.md).
+>Cuando se activa, se respeta la función de lista de permitidos al ejecutar recorridos, pero también al probar mensajes con [pruebas](../email/preview.md#send-proofs) y recorridos de prueba utilizando [modo de prueba](../building-journeys/testing-the-journey.md).
 
-## Desactivar la lista permitida {#deactivate-allow-list}
+## Desactivar la lista de permitidos {#deactivate-allow-list}
 
 Para desactivar la lista de permitidos, siga los pasos a continuación.
 
-1. Acceda a la  **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** para abrir el Navegador.
+1. Acceda a la  **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** > **[!UICONTROL Lista de permitidos]** para abrir el Navegador.
 
 1. Seleccione el botón de alternancia.
 
    ![](assets/allow-list-edit-active.png)
 
-1. Select **[!UICONTROL Deactivate allowed list]**. La lista de permitidos ya no está activa.
+1. Select **[!UICONTROL Desactivar lista de permitidos]**. La lista de permitidos ya no está activa.
 
    ![](assets/allow-list-deactivate.png)
 
@@ -93,27 +93,27 @@ Para desactivar la lista de permitidos, siga los pasos a continuación.
    >
    >Después de desactivar la lista de permitidos, hay una latencia de 5 minutos para que tenga efecto en los recorridos y campañas.
 
-La lógica de lista permitida no se aplica cuando la función está desactivada. Obtenga más información en [esta sección](#logic).
+La lógica de lista de permitidos no se aplica cuando la función está desactivada. Obtenga más información en [esta sección](#logic).
 
-## Agregar entidades a la lista de permitidos {#add-entities}
+## Añadir entidades a la lista de permitidos {#add-entities}
 
-Para agregar nuevas direcciones de correo electrónico o dominios a la lista de dominios permitidos para un entorno limitado específico, puede: [rellenar manualmente la lista](#manually-populate-list)o use una [Llamada de API](#api-call-allowed-list).
+Para agregar nuevas direcciones de correo electrónico o dominios a la lista de permitidos de un entorno limitado específico, puede: [rellenar manualmente la lista](#manually-populate-list)o use una [Llamada de API](#api-call-allowed-list).
 
 >[!NOTE]
 >
->La lista permitida puede contener hasta 1000 entradas.
+>La lista de permitidos puede contener hasta 1000 entradas.
 
-### Rellenar manualmente la lista permitida {#manually-populate-list}
+### Rellenado manual de la lista de permitidos {#manually-populate-list}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add_header"
 >title="Añadir direcciones o dominios a la lista de permitidos"
->abstract="Puede añadir manualmente nuevas direcciones de correo electrónico o dominios a la lista de dominios permitidos seleccionándolos uno a uno."
+>abstract="Puede añadir manualmente nuevas direcciones de correo electrónico o dominios a la lista de permitidos seleccionándolos uno a uno."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add"
 >title="Añadir direcciones o dominios a la lista de permitidos"
->abstract="Puede añadir manualmente nuevas direcciones de correo electrónico o dominios a la lista de dominios permitidos seleccionándolos uno a uno."
+>abstract="Puede añadir manualmente nuevas direcciones de correo electrónico o dominios a la lista de permitidos seleccionándolos uno a uno."
 
 Puede rellenar manualmente la variable [!DNL Journey Optimizer] lista de permitidos añadiendo una dirección de correo electrónico o un dominio a través de la interfaz de usuario.
 
@@ -121,13 +121,13 @@ Puede rellenar manualmente la variable [!DNL Journey Optimizer] lista de permiti
 >
 >Solo puede añadir una dirección de correo electrónico o un dominio a la vez.
 
-Para ello, siga los pasos a continuación.
+Para realizar esto, siga los pasos a continuación.
 
-1. Seleccione el **[!UICONTROL Add email or domain]** botón.
+1. Seleccione el **[!UICONTROL Añadir correo electrónico o dominio]** botón.
 
    ![](assets/allowed-list-add-email.png)
 
-1. Elija el tipo de dirección: **[!UICONTROL Email address]** o **[!UICONTROL Domain address]**.
+1. Elija el tipo de dirección: **[!UICONTROL Dirección de correo electrónico]** o **[!UICONTROL Dirección del dominio]**.
 
 1. Introduzca la dirección de correo electrónico o el dominio al que desee enviar los correos electrónicos.
 
@@ -141,9 +141,9 @@ Para ello, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Se permiten todos los caracteres ASCII comprendidos entre 32 y 126 en la variable **[!UICONTROL Reason]** campo . La lista completa se encuentra en [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;}, por ejemplo.
+   >Se permiten todos los caracteres ASCII comprendidos entre 32 y 126 en la variable **[!UICONTROL Razón]** campo . La lista completa se encuentra en [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por ejemplo.
 
-1. Haga clic en **[!UICONTROL Submit]**.
+1. Haga clic en **[!UICONTROL Enviar]**.
 
 ### Añadir entidades mediante una llamada de API {#api-call-allowed-list}
 
@@ -155,28 +155,28 @@ Puede realizar el **Agregar**, **Eliminar** y **Get** operaciones.
 
 Obtenga más información sobre cómo realizar llamadas de API en la sección [API de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html)Documentación de referencia de {target=&quot;_blank&quot;}.
 
-## Lógica de lista permitida {#logic}
+## lógica de lista de permitidos {#logic}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
->title="Administrar la lista permitida"
->abstract="Cuando se activa la lista de permitidos, solo los destinatarios incluidos en la lista de permitidos recibirán mensajes de correo electrónico de este simulador para pruebas. Cuando se desactiva, todos los destinatarios reciben correos electrónicos."
+>title="Administrar la lista de permitidos"
+>abstract="Cuando se activa la lista de permitidos, solo los destinatarios incluidos en la lista de permitidos reciben mensajes de correo electrónico de este simulador para pruebas. Cuando se desactiva, todos los destinatarios reciben correos electrónicos."
 
-Cuando la lista permitida es [active](#enable-allow-list), se aplica la siguiente lógica:
+Cuando la lista de permitidos es [active](#enable-allow-list), se aplica la siguiente lógica:
 
-* Si la lista permitida es **empty**, no se enviará ningún correo electrónico.
+* Si la lista de permitidos es **empty**, no se enviará ningún correo electrónico.
 
-* Si una entidad es **en la lista de permitidos** y no en la lista de supresión, el correo electrónico se envía a los destinatarios correspondientes. Sin embargo, si la entidad también está en la variable [lista de supresión](../reports/suppression-list.md), los destinatarios correspondientes no recibirán el correo electrónico, por lo que **[!UICONTROL Suppressed]**.
+* Si una entidad es **en la lista de permitidos** y no en la lista de supresión, el correo electrónico se envía a los destinatarios correspondientes. Sin embargo, si la entidad también está en la variable [lista de supresión](../reports/suppression-list.md), los destinatarios correspondientes no recibirán el correo electrónico, por lo que **[!UICONTROL Suprimido]**.
 
-* Si una entidad es **no está en la lista de permitidos** (y no en la lista de supresión), los destinatarios correspondientes no recibirán el correo electrónico, por lo que **[!UICONTROL Not allowed]**.
+* Si una entidad es **no en la lista de permitidos** (y no en la lista de supresión), los destinatarios correspondientes no recibirán el correo electrónico, por lo que **[!UICONTROL No permitido]**.
 
 >[!NOTE]
 >
->Los perfiles con **[!UICONTROL Not allowed]** se excluyen durante el proceso de envío de mensajes. Por lo tanto, mientras que la variable **Informes de recorrido** mostrará estos perfiles como si se hubieran movido a través del recorrido ([Leer segmento](../building-journeys/read-segment.md) y [actividades de mensaje](../building-journeys/journeys-message.md)), el **Informes de correo electrónico** no los incluirá en la variable **[!UICONTROL Sent]** las métricas tal y como están filtradas antes del envío por correo electrónico.
+>Los perfiles con **[!UICONTROL No permitido]** se excluyen durante el proceso de envío de mensajes. Por lo tanto, mientras que la variable **Informes de recorrido** mostrará estos perfiles como si se hubieran movido a través del recorrido ([Leer segmento](../building-journeys/read-segment.md) y [actividades de mensaje](../building-journeys/journeys-message.md)), el **Informes de correo electrónico** no los incluirá en la variable **[!UICONTROL Enviado]** las métricas tal y como están filtradas antes del envío por correo electrónico.
 >
 >Obtenga más información sobre [Informe Activo](../reports/live-report.md) y [Informe global](../reports/global-report.md).
 
-Cuando la lista permitida es [desactivado](#deactivate-allow-list), todos los correos electrónicos que envía desde el entorno limitado actual se envían a todos los destinatarios (siempre que no estén en la lista de supresión), incluidas las direcciones de cliente reales.
+Cuando la lista de permitidos es [desactivado](#deactivate-allow-list), todos los correos electrónicos que envía desde el entorno limitado actual se envían a todos los destinatarios (siempre que no estén en la lista de supresión), incluidas las direcciones de cliente reales.
 
 ## Informes de exclusión {#reporting}
 

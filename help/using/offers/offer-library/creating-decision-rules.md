@@ -8,26 +8,26 @@ level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 0%
+source-wordcount: '330'
+ht-degree: 12%
 
 ---
 
 # Crear reglas de decisión {#create-decision-rules}
 
-Puede crear reglas de decisión de ofertas basadas en los datos disponibles en Adobe Experience Platform. Las reglas de decisión determinan a quién se puede mostrar una oferta.
+Puede crear reglas de decisión de oferta basadas en los datos disponibles en Adobe Experience Platform. Las reglas de decisión determinan a quién se puede mostrar una oferta.
 
-Por ejemplo, puede especificar que solo desea que se muestre una &quot;Oferta de ropa de invierno femenina&quot; cuando (Sexo = &#39;Mujer&#39;) y (Región = &#39;Noreste&#39;).
+Por ejemplo, puede especificar que solo desea que se muestre una “Oferta de ropa de invierno femenina” cuando (Sexo = &#39;Mujer&#39;) y (Región = &#39;Noreste&#39;).
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-Se puede acceder a la lista de reglas de decisión creadas en la **[!UICONTROL Components]** para abrir el Navegador.
+Se puede acceder a la lista de reglas de decisión creadas en la **[!UICONTROL Componentes]** para abrir el Navegador.
 
 ![](../assets/decision_rules_list.png)
 
 Para crear una regla de decisión, siga estos pasos:
 
-1. Vaya a la **[!UICONTROL Rules]** a continuación, haga clic en **[!UICONTROL Create rule]**.
+1. Vaya a la **[!UICONTROL Reglas]** a continuación, haga clic en **[!UICONTROL Crear regla]**.
 
    ![](../assets/offers_decision_rule_creation.png)
 
@@ -41,9 +41,9 @@ Para crear una regla de decisión, siga estos pasos:
 
    >[!NOTE]
    >
-   >El Generador de segmentos proporcionado para crear reglas de decisión presenta algunas características específicas en comparación con la que se usa con la variable **[!UICONTROL Audience Destinations]** servicio. Por ejemplo, la variable **[!UICONTROL Segments]** no está disponible para usar. Sin embargo, el proceso global descrito en el [Generador de segmentos](../../segment/about-segments.md) la documentación sigue siendo válida para crear reglas de decisiones de ofertas. Obtenga más información en la [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+   >El Generador de segmentos proporcionado para crear reglas de decisión presenta algunas características específicas en comparación con la que se usa con la variable **[!UICONTROL Destinos de audiencia]** servicio. Por ejemplo, la variable **[!UICONTROL Segmentos]** no está disponible para usar. Sin embargo, el proceso global descrito en el [Generador de segmentos](../../segment/about-segments.md) la documentación sigue siendo válida para crear reglas de decisiones de ofertas. Obtenga más información en la [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
-1. Al añadir y configurar nuevos campos en el espacio de trabajo, la variable **[!UICONTROL Segment properties]** muestra información sobre los perfiles estimados que pertenecen al segmento. Haga clic en **[!UICONTROL Refresh estimate]** para actualizar los datos.
+1. Al añadir y configurar nuevos campos en el espacio de trabajo, la variable **[!UICONTROL Propiedades del segmento]** muestra información sobre los perfiles estimados que pertenecen al segmento. Haga clic en **[!UICONTROL Actualizar estimación]** para actualizar los datos.
 
    ![](../assets/offers_decision_rule_creation_estimate.png)
 
@@ -51,9 +51,9 @@ Para crear una regla de decisión, siga estos pasos:
    >
    >Las estimaciones de perfil no están disponibles cuando los parámetros de regla incluyen datos que no están en el perfil, como los datos de contexto. Por ejemplo, una regla de aceptación que requiera que el clima actual sea ≥ 80 grados.
 
-1. Haga clic en **[!UICONTROL Save]** para confirmar.
+1. Haga clic en **[!UICONTROL Guardar]** para confirmar.
 
-1. Una vez creada la regla, aparece en la sección **[!UICONTROL Rules]** lista. Puede seleccionarlo para mostrar sus propiedades y editarlo o eliminarlo.
+1. Una vez creada la regla, aparece en la sección **[!UICONTROL Reglas]** lista. Puede seleccionarlo para mostrar sus propiedades y editarlo o eliminarlo.
 
    ![](../assets/rule_created.png)
 

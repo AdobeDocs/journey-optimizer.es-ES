@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 0%
+source-wordcount: '730'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 Personalización en [!DNL Journey Optimizer] se basa en la sintaxis de plantilla denominada Handlebars.
 Para obtener una descripción completa de la sintaxis de Handlebars, consulte [Documentación de HandlebarsJS](https://handlebarsjs.com/).
 
-Utiliza una plantilla y un objeto de entrada para generar HTML u otros formatos de texto. Las plantillas de Handlebars tienen el aspecto de texto normal con expresiones de Handlebars incrustadas.
+Utiliza una plantilla y un objeto de entrada para generar un HTML u otros formatos de texto. Las plantillas de Handlebars tienen el aspecto de texto normal con expresiones de Handlebars incrustadas.
 
 Ejemplo de expresión simple:
 
@@ -29,7 +29,7 @@ Ejemplo de expresión simple:
 donde:
 
 * `profile` es un área de nombres.
-* `person.name` es un token compuesto por atributos. La estructura de atributos se define en un esquema XDM de Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+* `person.name` es un token compuesto por atributos. La estructura de atributos se define en un esquema Adobe Experience Platform XDM. [Más información](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target=&quot;_blank&quot;}.
 
 ## Reglas generales de sintaxis {#general-rules}
 
@@ -43,7 +43,7 @@ La sintaxis distingue entre mayúsculas y minúsculas.
 
 Las palabras **true**, **false**, **null** y **undefined** solo se permiten en la primera parte de una expresión de ruta.
 
-En Handlebars, los valores devueltos por la variable {{expression}} are **Con secuencias de escape HTML**. Si la expresión contiene `&`, la salida de escape HTML devuelta se genera como `&amp;`. Si no desea que Handlebars escape un valor, utilice el &quot;triple stash&quot;.
+En Handlebars, los valores devueltos por la variable {{expression}} are **HTML escapado**. Si la expresión contiene `&`, la salida de escape del HTML que se devuelve se genera como `&amp;`. Si no desea que Handlebars escape un valor, utilice el &quot;triple stash&quot;.
 
 En cuanto a los argumentos de funciones literales, el analizador de lenguajes de plantilla no admite una sola barra invertida sin escape (`\`). Se debe escapar este carácter con una barra invertida adicional (`\`). Ejemplo :
 
@@ -51,7 +51,7 @@ En cuanto a los argumentos de funciones literales, el analizador de lenguajes de
 
 ## Perfil
 
-Este espacio de nombres le permite hacer referencia a todos los atributos definidos en el esquema de perfil descrito en [Documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+Este espacio de nombres le permite hacer referencia a todos los atributos definidos en el esquema de perfil descrito en [Documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target=&quot;_blank&quot;}.
 
 Los atributos deben definirse en el esquema antes de hacer referencia a ellos en un [!DNL Journey Optimizer] bloque personalizado.
 
@@ -116,7 +116,7 @@ Todas las referencias se validan con el esquema de ofertas con un mecanismo de v
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* Contenido HTML de la oferta procedente del motor de toma de decisiones:
+* contenido del HTML de la oferta procedente del motor de toma de decisiones:
 
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
@@ -151,7 +151,7 @@ Los bloques son expresiones que tienen una apertura de bloque ({{# }}) and closi
 
 ## Personalización de URL{#perso-urls}
 
-Las direcciones URL personalizadas llevan a los destinatarios a páginas específicas de un sitio web o a un micrositio personalizado, según los atributos del perfil. En Adobe Journey Optimizer, puede añadir personalización a las direcciones URL en el contenido del mensaje. La personalización de URL se puede aplicar a texto e imágenes, y utilizar datos de perfil o datos contextuales.
+Las direcciones URL personalizadas llevan a los destinatarios a páginas específicas de un sitio web o a un micrositio personalizado, según los atributos del perfil. En Adobe Journey Optimizer, puede añadir personalización a las direcciones URL en el contenido del mensaje. La personalización de URL se puede aplicar a texto e imágenes, y puede utilizar datos de perfil o datos contextuales.
 
 Journey Optimizer le permite personalizar una o varias direcciones URL en el mensaje al agregarles campos de personalización. Para personalizar una dirección URL, siga los pasos a continuación:
 

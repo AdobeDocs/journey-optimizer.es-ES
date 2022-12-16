@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 7c7faa5e672d5ed6d7a083db50b206d11ecc4184
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 0%
+source-wordcount: '1441'
+ht-degree: 5%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 0%
 >
 > Si las consultas personalizadas se realizan a través de API al utilizar el servicio de Consulta, espere un cierto retraso para los informes.
 
-Utilice la variable **[!UICONTROL Global report]** para medir el impacto de los recorridos y envíos durante un período de tiempo seleccionado.
+Utilice la variable **[!UICONTROL Informe global]** para medir el impacto de los recorridos y envíos durante un período de tiempo seleccionado.
 
-* Si desea dirigirse a un recorrido o envíos en el contexto de un recorrido, desde el **[!UICONTROL Journeys]** , acceda al recorrido y haga clic en el botón **[!UICONTROL View report]** botón. A continuación, puede encontrar los informes globales de Recorrido, Correo electrónico, SMS y Push .
+* Si desea dirigirse a un recorrido o envíos en el contexto de un recorrido, desde el **[!UICONTROL Recorridos]** , acceda al recorrido y haga clic en el botón **[!UICONTROL Ver informe]** botón. A continuación, puede encontrar los informes globales Recorrido, Correo electrónico, SMS y Push .
 
    ![](assets/report_journey.png)
 
-* Si desea dirigir una campaña, desde la **[!UICONTROL Campaigns]** , acceda a la campaña y haga clic en el botón **[!UICONTROL Reports]** botón.
+* Si desea dirigir una campaña, desde la **[!UICONTROL Campañas]** , acceda a la campaña y haga clic en el botón **[!UICONTROL Informes]** botón.
 
    ![](assets/report_campaign.png)
 
-* Si desea cambiar del **[!UICONTROL Live report]** a **[!UICONTROL Global report]** para la entrega, haga clic en **[!UICONTROL All time]** del conmutador de pestañas.
+* Si desea cambiar del **[!UICONTROL Informe activo]** a **[!UICONTROL Informe global]** para la entrega, haga clic en **[!UICONTROL Todo]** del conmutador de pestañas.
 
    ![](assets/report_5.png)
 
@@ -47,11 +47,11 @@ Cada tablero de informes se puede modificar cambiando el período de tiempo y ca
 
 1. Elija si desea excluir los eventos de prueba de los informes con la barra de alternancia. Para obtener más información sobre los eventos de prueba, consulte [esta página](../building-journeys/testing-the-journey.md).
 
-   Tenga en cuenta que **[!UICONTROL Exclude test events]** solo está disponible para informes de recorrido.
+   Tenga en cuenta que **[!UICONTROL Excluir eventos de prueba]** solo está disponible para informes de Recorrido.
 
    ![](assets/report_modify_2.png)
 
-1. Haga clic en **[!UICONTROL Modify]** para comenzar a personalizar el tablero.
+1. Haga clic en **[!UICONTROL Modificar]** para comenzar a personalizar el tablero.
 
    ![](assets/report_modify_3.png)
 
@@ -59,19 +59,19 @@ Cada tablero de informes se puede modificar cambiando el período de tiempo y ca
 
    ![](assets/report_modify_4.png)
 
-1. Haga clic en **[!UICONTROL Remove]** para quitar cualquier utilidad que no necesite.
+1. Haga clic en **[!UICONTROL Eliminar]** para quitar cualquier utilidad que no necesite.
 
    ![](assets/report_modify_5.png)
 
-1. Una vez que esté satisfecho con el orden de visualización y el tamaño de sus widgets, haga clic en **[!UICONTROL Save]**.
+1. Una vez que esté satisfecho con el orden de visualización y el tamaño de sus widgets, haga clic en **[!UICONTROL Guardar]**.
 
-El tablero se ha guardado. Los diferentes cambios se volverán a aplicar para un uso posterior de los informes activos. Si es necesario, use la variable **[!UICONTROL Reset]** para restaurar el orden predeterminado de las utilidades y utilidades.
+El tablero se ha guardado. Los diferentes cambios se volverán a aplicar para un uso posterior de los informes activos. Si es necesario, use la variable **[!UICONTROL Restablecer]** para restaurar el orden predeterminado de las utilidades y utilidades.
 
 ## Lista de componentes {#list-of-components-global}
 
 Las tablas siguientes proporcionan la lista de métricas utilizadas en los informes y sus definiciones en función del tipo de envío.
 
-### Métricas del recorrido {#journey-metrics}
+### Métricas de recorrido {#journey-metrics}
 
 <table> 
  <thead> 
@@ -95,7 +95,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
 </tr> 
   <tr> 
    <td> Perfiles de salida<br/> </td> 
-   <td> Número total de personas que abandonaron el recorrido.<br/> </td> 
+   <td> Número total de personas que salieron del recorrido.<br/> </td> 
 </tr> 
   <tr> 
    <td> Error en el recorrido individual<br/> </td> 
@@ -127,7 +127,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
    <td> Número de veces que se hizo clic en un contenido en un correo electrónico.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Entrega <br/> </td> 
+   <td> Entregados <br/> </td> 
    <td> Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.<br/></td> 
 </tr> 
   <tr> 
@@ -163,7 +163,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
    <td>Porcentaje de ofertas abiertas comparadas con el número de ofertas enviadas.<br/> </td> 
 </tr>
    <tr> 
-   <td>Nombre de la oferta<br/> </td> 
+   <td>Nombre de oferta<br/> </td> 
    <td> Nombre de la oferta añadida en la entrega. Para obtener más información sobre la colocación, consulte esta <a href="../offers/offer-library/creating-personalized-offers.md">página</a>.<br/> </td> 
 </tr>
    <tr> 
@@ -187,7 +187,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
    <td> Número de correos electrónicos en cola para reintentos.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Enviado<br/> </td> 
+   <td> Enviados<br/> </td> 
    <td> Número total de envíos para la entrega.<br/> </td> 
 </tr>
   <tr> 
@@ -200,7 +200,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
 </tr>
   <tr> 
    <td> Segmentado<br/> </td> 
-   <td> Número total de mensajes procesados durante el análisis de envío.<br/> </td> 
+   <td> Número total de mensajes procesados durante el análisis de entregas.<br/> </td> 
 </tr> 
   <tr> 
    <td> Clics únicos<br/> </td> 
@@ -215,7 +215,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
    <td>Número de destinatarios que abrieron la entrega.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Baja de suscripciones<br/> </td> 
+   <td> Bajas<br/> </td> 
    <td> Número de clics en el vínculo de baja de suscripción.<br/> </td> 
 </tr> 
  </tbody> 
@@ -329,7 +329,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
    <td> Porcentaje de notificaciones push que rebotaron en comparación con las notificaciones push enviadas.<br/> </td>
 </tr>
   <tr> 
-   <td> Entrega<br/> </td> 
+   <td> Entregados<br/> </td> 
    <td> Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.<br/> </td> 
 </tr> 
   <tr> 
@@ -365,7 +365,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
    <td> Porcentaje de notificaciones push abiertas.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Enviado<br/> </td> 
+   <td> Enviados<br/> </td> 
    <td> Número total de envíos para la entrega.<br/> </td> 
 </tr> 
   <tr> 
@@ -411,7 +411,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
    <td>Número de personas que interactuaron con la página de aterrizaje, por ejemplo, suscritas a un formulario, en relación con el número total de visitas.<br/> </td> 
 </tr>
  <tr> 
-   <td>Recorrido(es)<br/> </td> 
+   <td>Recorridos<br/> </td> 
    <td>Número de visitas a la página de aterrizaje procedentes de un recorrido.<br/> </td> 
 </tr>
  <tr> 
@@ -456,7 +456,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
    <td> Porcentaje de notificaciones push que rebotaron en comparación con las notificaciones push enviadas.<br/> </td>
 </tr>
   <tr> 
-   <td> Entrega<br/> </td> 
+   <td> Entregados<br/> </td> 
    <td> Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.<br/> </td> 
 </tr> 
   <tr> 
@@ -492,7 +492,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
    <td> Porcentaje de notificaciones push abiertas.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Enviado<br/> </td> 
+   <td> Enviados<br/> </td> 
    <td> Número total de envíos para la entrega.<br/> </td> 
 </tr> 
   <tr> 

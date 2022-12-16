@@ -9,14 +9,14 @@ level: Experienced
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 0%
+source-wordcount: '491'
+ht-degree: 3%
 
 ---
 
 # Ejemplos de expresiones avanzadas{#advanced-expression-examples}
 
-El editor de expresiones avanzadas se puede utilizar para crear condiciones que le permitan filtrar usuarios en sus recorridos. Estas condiciones permiten dirigirse a los usuarios en cuanto a hora, fecha, ubicación, duración o acciones como la compra o el abandono de carros, de modo que se puedan redirigir en el recorrido.
+El editor de expresiones avanzadas se puede utilizar para crear condiciones que le permitan filtrar usuarios en sus recorridos. Estas condiciones le permiten dirigirse a los usuarios en cuanto a hora, fecha, ubicación, duración o acciones como la compra o el abandono de carros, de modo que se puedan redirigir en el recorrido.
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Esta expresión devuelve un valor booleano.
 
 **Ahora vamos a crear una expresión que compruebe que el producto está en existencias**
 
-* En Inventory, esta expresión busca el campo de cantidad de un producto y especifica que debe ser mayor que 0.
+* En Inventory, esta expresión busca el campo de cantidad de un producto y especifica que debe ser bueno que 0.
 
 `#{Inventory.fieldgroup3.quantity} > 0`
 
@@ -95,7 +95,7 @@ Esta expresión devuelve un valor booleano.
                        .SKU}
    ```
 
-Desde allí, puede añadir otra ruta en el recorrido para cuando el producto no esté almacenado y enviar notificaciones con oferta de participación. Configure los mensajes según corresponda y utilice datos de personalización para mejorar el destinatario de mensajes.
+Desde allí puede añadir otra ruta en el recorrido para cuando el producto no esté almacenado y enviar notificaciones con la oferta de participación. Configure los mensajes según corresponda y utilice datos de personalización para mejorar el destinatario de mensajes.
 
 ## Ejemplos de manipulaciones de cadenas con el editor de expresiones avanzadas
 
@@ -146,4 +146,4 @@ substr(
 
 Explicación: Este ejemplo utiliza `substr` y `lastIndexOf` funciones para eliminar llaves que encierran el ID de CRM pasado con un evento de inicio de aplicación móvil.
 
-Para obtener más información sobre cómo utilizar el editor de expresiones avanzadas, consulte [este vídeo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html).
+Para obtener más información sobre cómo utilizar el editor de expresiones avanzadas, consulte [este vídeo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=es).

@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 0%
+source-wordcount: '143'
+ht-degree: 6%
 
 ---
 
 # Eliminar una etiqueta {#delete-tag}
 
-Ocasionalmente puede ser necesario eliminar (ELIMINAR) una etiqueta. Solo se pueden eliminar las etiquetas que cree en el contenedor de inquilino. Esto se realiza realizando una solicitud DELETE al [!DNL Offer Library] API con el $id de la etiqueta que desea eliminar.
+Ocasionalmente puede ser necesario eliminar (DELETE) una etiqueta. Solo se pueden eliminar las etiquetas que cree en el contenedor de inquilino. Para ello, realiza una solicitud de DELETE al [!DNL Offer Library] API con el $id de la etiqueta que desea eliminar.
 
 **Formato de API**
 

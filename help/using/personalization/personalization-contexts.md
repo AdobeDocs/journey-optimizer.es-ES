@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 0%
+source-wordcount: '283'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,7 @@ En todos los campos con el icono del editor, puede abrir el editor de personaliz
 
 ## Personalización de los correos electrónicos {#personalize-emails}
 
-Al crear un correo electrónico, puede añadir personalización en la variable **[!UICONTROL Subject line]** del mensaje.
+Al crear un correo electrónico, puede añadir personalización en la variable **[!UICONTROL Línea de asunto]** del mensaje.
 
 ![](assets/perso_subject.png)
 
@@ -65,7 +65,7 @@ Obtenga más información sobre la administración de contenido con la gestión 
 
 ## Crear direcciones URL personalizadas{#personalize-urls}
 
-Las direcciones URL personalizadas llevan a los destinatarios a páginas específicas de un sitio web o a un micrositio personalizado, según los atributos del perfil. En Adobe Journey Optimizer, puede añadir personalización a las direcciones URL en el contenido del mensaje. La personalización de URL se puede aplicar a texto e imágenes, y utilizar datos de perfil o datos contextuales.
+Las direcciones URL personalizadas llevan a los destinatarios a páginas específicas de un sitio web o a un micrositio personalizado, según los atributos del perfil. En Adobe Journey Optimizer, puede añadir personalización a las direcciones URL en el contenido del mensaje. La personalización de URL se puede aplicar a texto e imágenes, y puede utilizar datos de perfil o datos contextuales.
 
 Aprenda a insertar una URL personalizada en [esta sección](personalization-syntax.md#perso-urls).
 
