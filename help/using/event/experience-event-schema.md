@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 4%
+source-wordcount: '834'
+ht-degree: 3%
 
 ---
 
@@ -79,6 +79,16 @@ En Journey Optimizer, puede aprovechar todos los campos de las tablas vinculadas
 * cuando se utilizan condiciones en un recorrido, [Más información](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * en la personalización de mensajes, [Más información](../event/experience-event-schema.md#message_personalization)
 * en personalización de acciones personalizadas, [Más información](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+
+### Matrices{#relationships_limitations}
+
+Puede definir una relación de esquema en una matriz de cadenas, por ejemplo, una lista de ID de producto.
+
+![](assets/schema15.png)
+
+Sin embargo, no puede definir una relación de esquema con un atributo dentro de una matriz de objetos, por ejemplo, una lista de información de compra (ID del producto, nombre del producto, precio, descuento). Los valores de búsqueda no estarán disponibles en recorridos (condiciones, acciones personalizadas, etc.) y personalización de mensajes.
+
+![](assets/schema16.png)
 
 ### Configuración de eventos{#unitary_event_configuration}
 

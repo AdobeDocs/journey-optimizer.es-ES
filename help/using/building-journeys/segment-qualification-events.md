@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '924'
 ht-degree: 3%
 
 ---
@@ -66,6 +66,10 @@ Este tipo de evento se puede posicionar como el primer paso o posterior en el re
    >Tenga en cuenta que **[!UICONTROL Entrar]** y **[!UICONTROL Salir]** corresponde a la variable **Realizado** y **Salido** estados de participación de segmentos desde Adobe Experience Platform. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
 1. Seleccione un espacio de nombres. Esto solo es necesario si el evento se coloca como el primer paso del recorrido.
+
+   >[!NOTE]
+   >
+   >Solo puede seleccionar un área de nombres de identidad basada en personas. Si ha definido un espacio de nombres para una tabla de consulta (por ejemplo: Área de nombres ProductID para una búsqueda de productos), no estará disponible en el **Área de nombres** lista desplegable.
 
    ![](assets/segment7.png)
 

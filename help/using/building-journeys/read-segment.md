@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 12%
+source-wordcount: '1328'
+ht-degree: 11%
 
 ---
 
@@ -64,7 +64,7 @@ Los pasos para configurar la actividad Leer segmento son los siguientes:
 
    >[!NOTE]
    >
-   >Las personas que pertenecen a un segmento que no tiene la identidad seleccionada (área de nombres) entre sus distintas identidades no pueden entrar en el recorrido.
+   >Las personas que pertenecen a un segmento que no tiene la identidad seleccionada (área de nombres) entre sus distintas identidades no pueden entrar en el recorrido. Solo puede seleccionar un área de nombres de identidad basada en personas. Si ha definido un espacio de nombres para una tabla de consulta (por ejemplo: Área de nombres ProductID para una búsqueda de productos), no estará disponible en el **Área de nombres** lista desplegable.
 
 1. Configure las variables **[!UICONTROL Tasa de restricción]** al límite de rendimiento de la actividad de segmento de lectura.
 
