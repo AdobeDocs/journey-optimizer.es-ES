@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
 
 # Informe de suscripción en directo {#subscription-report-live}
+
+>[!CONTEXTUALHELP]
+>id="ajo_subscription_live_report"
+>title="Informe de suscripción en directo"
+>abstract="El informe Suscripción en directo permite medir y visualizar en tiempo real la actividad de los suscriptores solo durante las últimas 24 horas. El informe se divide en distintas utilidades que detallan las suscripciones y las bajas de suscripción. Cada tablero de informes se puede modificar cambiando el tamaño o eliminando las utilidades."
 
 La suscripción **[!UICONTROL Informe activo]** muestra detalles sobre la actividad de sus suscriptores en las últimas 24 horas solamente. Para medir las suscripciones durante un período de tiempo seleccionado, consulte la [Informe global de suscripción](subscription-report-global.md).
 

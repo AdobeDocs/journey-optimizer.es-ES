@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
 
 # Informe activo de la página de aterrizaje {#lp-report-live}
+
+>[!CONTEXTUALHELP]
+>id="ajo_landing_page_live_report"
+>title="Informe activo de la página de aterrizaje"
+>abstract="El informe de página de aterrizaje en directo permite medir y visualizar en tiempo real el impacto y el rendimiento de la página de aterrizaje solo durante las últimas 24 horas. El informe se divide en distintas utilidades que detallan el éxito y los errores de la página de aterrizaje. Cada tablero de informes se puede modificar cambiando el tamaño o eliminando las utilidades."
 
 La página de aterrizaje **[!UICONTROL Informe activo]** El informe solo muestra detalles sobre el impacto de las páginas de aterrizaje en las últimas 24 horas. Para medir los datos de la página de aterrizaje durante un período de tiempo seleccionado, consulte la [Informe global de la página de aterrizaje](lp-report-global.md).
 

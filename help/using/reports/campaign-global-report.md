@@ -8,16 +8,21 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1704'
 ht-degree: 1%
 
 ---
 
 # Informe global de la campaña {#campaign-global-report}
 
-Se puede acceder al informe global de campaña directamente desde la campaña con la variable **[!UICONTROL Todo]** botón.
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_report"
+>title="Informe global de la campaña"
+>abstract="El informe global de campaña permite medir el impacto de las campañas durante un período de tiempo seleccionado. El informe se divide en distintas utilidades que detallan el éxito y los errores de la campaña. Cada tablero de informes se puede modificar cambiando el tamaño o eliminando las utilidades."
+
+Se puede acceder al informe global de campaña directamente desde la Campaign con la variable **[!UICONTROL Ver informe]** botón.
 
 ![](assets/campaign_report_global_5.png)
 
@@ -34,7 +39,7 @@ Para obtener una lista detallada de todas las métricas disponibles en Adobe Jou
 
 ## Pestaña Campaña {#campaign-global}
 
-### Entrega {#delivery-global}
+### envío {#delivery-global}
 
 ![](assets/campaign_report_global_1.png)
 

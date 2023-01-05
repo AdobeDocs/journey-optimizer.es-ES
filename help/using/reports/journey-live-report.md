@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 0%
+source-wordcount: '1138'
+ht-degree: 1%
 
 ---
 
 # Informe de recorrido en vivo {#journey-live-report}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_live_report"
+>title="Informe de recorrido en vivo"
+>abstract="El informe Recorrido en directo le permite medir y visualizar en tiempo real el impacto y el rendimiento de sus recorridos solo durante las últimas 24 horas. El informe se divide en distintas utilidades que detallan el éxito y los errores del recorrido. Cada tablero de informes se puede modificar cambiando el tamaño o eliminando las utilidades."
 
 Se puede acceder al informe de recorrido en directo directamente desde el recorrido con la variable **[!UICONTROL Ver informe]** botón.
 

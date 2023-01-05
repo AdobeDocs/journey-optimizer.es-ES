@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
 # Informe global de suscripción {#subscription-report-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_subscription_global_report"
+>title="Informe global de suscripción"
+>abstract="El informe Entregas de suscripción le permite medir y visualizar la actividad de sus suscriptores durante un período de tiempo seleccionado. El informe se divide en distintas utilidades que detallan las suscripciones y las bajas de suscripción. Cada tablero de informes se puede modificar cambiando el tamaño o eliminando las utilidades."
 
 La suscripción **[!UICONTROL Informe global]** muestra detalles sobre la actividad de los suscriptores durante un período de tiempo seleccionado. Para medir sus suscripciones solo durante las últimas 24 horas, consulte la [Informe de suscripción en directo](subscription-report-live.md).
 

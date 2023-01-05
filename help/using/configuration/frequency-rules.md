@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 3%
+source-wordcount: '973'
+ht-degree: 2%
 
 ---
 
@@ -48,6 +48,21 @@ Los usuarios con la variable **[!UICONTROL Ver reglas de frecuencia]** pueden ve
 Obtenga más información sobre los permisos en [esta sección](../administration/high-low-permissions.md).
 
 ## Crear una regla {#create-new-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_category"
+>title="Seleccione la categoría de regla de mensaje"
+>abstract="Cuando se activa y se aplica a un mensaje, todas las reglas de frecuencia que coincidan con la categoría seleccionada se aplican automáticamente a este mensaje. Actualmente solo está disponible la categoría Marketing ."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_capping"
+>title="Establezca el límite de la regla"
+>abstract="Especifique el número máximo de mensajes enviados a un perfil de cliente cada mes. El límite de frecuencia se basará en un período de calendario mensual y se restablecerá al principio de cada mes."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_channel"
+>title="Definir los canales a los que se aplica la regla"
+>abstract="Seleccione al menos un canal. El límite se aplica a todos los canales como un recuento total."
 
 Para crear una regla nueva, siga los pasos a continuación.
 
@@ -115,26 +130,23 @@ El estado de la regla cambiará a **[!UICONTROL Inactivo]** y la regla no se apl
 
 Para aplicar una regla de frecuencia a un mensaje, siga los pasos a continuación.
 
-1. Cree un mensaje seleccionando uno de los canales definidos para la regla.
+1. Al crear un [recorrido](../building-journeys/journey-gs.md), añada un mensaje seleccionando uno de los canales definidos para la regla.
 
 1. Seleccione la categoría que definió para la variable [regla creada](#create-new-rule).
 
-   ![](assets/inline-message-category.png)
+   ![](assets/journey-message-category.png)
 
    >[!NOTE]
    >
    >Actualmente solo el **[!UICONTROL Marketing]** está disponible para reglas de frecuencia de mensajes.
 
-   <!--
-   1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). A new tab will open to display the matching message frequency rules.-->
+1. Puede hacer clic en el botón **[!UICONTROL Regla de frecuencia]** para ver la pantalla de reglas de frecuencia en una nueva pestaña. [Más información](#access-rules)
 
-1. Todas las reglas de frecuencia que coincidan con la categoría y los canales seleccionados se aplicarán automáticamente a este mensaje.
+   Todas las reglas de frecuencia que coincidan con la categoría y los canales seleccionados se aplicarán automáticamente a este mensaje.
 
    >[!NOTE]
    >
-   >Mensajes <!--that do not have any selected category or messages -->donde la categoría seleccionada es **[!UICONTROL Transaccional]** no se evaluará según las reglas de frecuencia.
-
-   <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
+   >Mensajes en los que está seleccionada la categoría **[!UICONTROL Transaccional]** no se evaluará según las reglas de frecuencia.
 
 1. Puede ver el número de perfiles excluidos del envío en la [Informe global](../reports/global-report.md)y en la [Informe activo](../reports/live-report.md), donde las reglas de frecuencia se enumerarán como un posible motivo para los usuarios excluidos del envío.
 

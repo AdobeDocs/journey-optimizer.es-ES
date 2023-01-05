@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '921'
 ht-degree: 3%
 
 ---
 
 # Informe en directo de la campaña {#campaign-live-report}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_report"
+>title="Informe en directo de la campaña"
+>abstract="El informe Campaña en directo permite medir y visualizar en tiempo real el impacto y el rendimiento de las campañas solo durante las últimas 24 horas. El informe se divide en distintas utilidades que detallan el éxito y los errores de la campaña. Cada tablero de informes se puede modificar cambiando el tamaño o eliminando las utilidades."
 
 Se puede acceder al informe de campaña en directo directamente desde la campaña con la variable **[!UICONTROL Vista en directo]** botón.
 
@@ -26,14 +31,13 @@ La campaña **[!UICONTROL Informe activo]** se muestra con las siguientes pesta�
 * [Push](#push-live)
 * [SMS](#sms-live)
 
-
 La campaña **[!UICONTROL Informe activo]** se divide en distintas utilidades que detallan el éxito y los errores de la campaña. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](../reports/live-report.md#modify-dashboard).
 
 Para obtener una lista detallada de todas las métricas disponibles en Adobe Journey Optimizer, consulte [esta página](live-report.md#list-of-components-live).
 
 ## Pestaña Campaña {#campaign-global}
 
-### Entrega {#delivery-global}
+### envío {#delivery-global}
 
 La variable **[!UICONTROL Estadísticas de campaña]** La utilidad detalla la información principal relativa a la campaña:
 
