@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # Definición del contenido específico de una página de aterrizaje {#lp-content}
 
-Para definir contenido específico que permita a los usuarios seleccionar y enviar sus opciones desde la página de aterrizaje, use la variable **[!UICONTROL Formulario]** componente. Para ello, siga los pasos a continuación.
+Para definir contenido específico que permita a los usuarios seleccionar y enviar sus opciones desde la página de aterrizaje, use la variable **[!UICONTROL Formulario]** componente. Para ello, siga los pasos que aparecen a continuación.
 
 >[!NOTE]
 >
@@ -132,7 +132,7 @@ Por ejemplo, si vincula una casilla de verificación<!-- or the submission of th
 
 Supongamos que vincula dos casillas de verificación en la página principal a dos listas de suscripción diferentes. Si un usuario se suscribe a uno de estos, desea mostrar un mensaje específico al enviar el formulario, según la casilla de verificación que haya seleccionado.
 
-Para ello, siga los pasos a continuación:
+Para ello, siga los pasos que aparecen a continuación:
 
 1. En la página principal, vincule cada casilla a la lista de suscripción correspondiente. [Más información](#use-form-component).
 

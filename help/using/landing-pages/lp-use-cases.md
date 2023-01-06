@@ -67,7 +67,7 @@ Por ejemplo, supongamos que organiza un evento el mes que viene y desea iniciar 
 
 ### Enviar un correo electrónico de confirmación {#send-confirmation-email}
 
-Además, puede enviar un correo electrónico de confirmación a los destinatarios que se hayan registrado en el evento. Para ello, siga los pasos a continuación.
+Además, puede enviar un correo electrónico de confirmación a los destinatarios que se hayan registrado en el evento. Para ello, siga los pasos que aparecen a continuación.
 
 1. Crear otro [recorrido](../building-journeys/journey.md). Puede hacerlo directamente desde la página de aterrizaje haciendo clic en el **[!UICONTROL Crear recorrido]** botón. Obtenga más información [aquí](create-lp.md#configure-primary-page)
 

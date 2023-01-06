@@ -8,7 +8,7 @@ exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 9f67172f31ddc1caef9d014c365f71e470e45390
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ Obtenga información acerca de la administración de acceso en las siguientes p�
 1. **Crear zonas protegidas** para dividir las instancias en entornos virtuales independientes y aislados. Las **zonas protegidas** se crean en [!DNL Journey Optimizer]. Obtenga más información en la sección [Zonas protegidas](../../administration/sandboxes.md).
 
    >[!NOTE]
-   >Como **Administrador del sistema**, si no puede ver la variable **[!UICONTROL Sandboxes]** en [!DNL Journey Optimizer], actualice sus permisos en el [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Obtenga información sobre cómo actualizar el perfil de producto en [esta página](../../administration/permissions.md#edit-product-profile).
+   >Como **Administrador del sistema**, si no puede ver el menú **[!UICONTROL Zonas protegidas]** en [!DNL Journey Optimizer], actualice sus permisos en [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Obtenga información sobre cómo actualizar el perfil de producto en [esta página](../../administration/permissions.md#edit-product-profile).
 
 1. **Explicación de los perfiles de producto**. Los perfiles de producto son un conjunto de derechos unitarios que permiten a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz. Obtenga más información en la sección [Perfiles de producto predeterminados](../../administration/ootb-product-profiles.md).
 
-1. **Defina permisos** para perfiles de producto, incluidas las **zonas protegidas**, y dé acceso a los integrantes del equipo asignándolos a diferentes perfiles de producto. Este paso se realiza en la [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Los permisos son derechos unitarios que le permiten definir las autorizaciones asignadas al **[!UICONTROL Perfil del producto]**. Cada permiso se recopila en funcionalidades, por ejemplo, Recorrido u Ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Obtenga más información en la sección [Niveles de permisos](../../administration/high-low-permissions.md).
+1. **Defina permisos** para perfiles de producto, incluidas las **zonas protegidas**, y dé acceso a los integrantes del equipo asignándolos a diferentes perfiles de producto. Este paso se hace en [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Los permisos son derechos unitarios que le permiten definir las autorizaciones asignadas al **[!UICONTROL Perfil del producto]**. Cada permiso se recopila en funcionalidades, por ejemplo, Recorrido u Ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Obtenga más información en la sección [Niveles de permisos](../../administration/high-low-permissions.md).
 
 Además, debe agregar usuarios que necesiten acceder a Assets Essentials a los perfiles de producto **Usuarios consumidores de Assets Essentials** o **Usuarios de Assets Essentials**. [Más información en la documentación de Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=es){target=&quot;_blank&quot;}.
 
@@ -42,7 +42,7 @@ Al acceder a [!DNL Journey Optimizer] por primera vez, se le aprovisiona una zon
 Para poder crear sus recorridos y enviar mensajes, acceda al menú **ADMINISTRACIÓN**. Examine el menú **[!UICONTROL Canales]** para configurar los mensajes y las superficies de canal (es decir, los ajustes preestablecidos de mensaje).
 
 >[!NOTE]
->Como **Administrador del sistema**, si no puede ver la variable **[!UICONTROL Canales]** en [!DNL Journey Optimizer], actualice sus permisos en el [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Obtenga información sobre cómo actualizar el perfil de producto en [esta página](../../administration/permissions.md#edit-product-profile).
+>Como **Administrador del sistema**, si no puede ver el menú **[!UICONTROL Canales]** en [!DNL Journey Optimizer], actualice sus permisos en [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Obtenga información sobre cómo actualizar el perfil de producto en [esta página](../../administration/permissions.md#edit-product-profile).
 
 Siga estos pasos a continuación:
 

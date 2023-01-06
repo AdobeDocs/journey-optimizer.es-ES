@@ -41,7 +41,7 @@ Para poder acceder y crear páginas web en la variable [!DNL Journey Optimizer] 
 
 <!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
 
-Una vez creada una acción web a partir de la campaña, puede editar el contenido mediante el diseñador web. Para ello, siga los pasos a continuación.
+Una vez creada una acción web a partir de la campaña, puede editar el contenido mediante el diseñador web. Para ello, siga los pasos que aparecen a continuación.
 
 >[!CAUTION]
 >

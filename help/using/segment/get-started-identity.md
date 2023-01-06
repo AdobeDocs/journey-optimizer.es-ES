@@ -24,7 +24,7 @@ En [!DNL Adobe Journey Optimizer], las **Identidades**[ vinculan los consumidore
 
 ![](assets/identities-home.png)
 
-Más información sobre **Servicio de identidad** en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es){target=&quot;_blank&quot;}.
+Más información sobre **Servicio de identidad** en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es){target=&quot;_blank&quot;}.
 
 ## Espacios de nombres de identidad {#identity-namespaces}
 

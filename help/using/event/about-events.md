@@ -11,7 +11,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
 source-wordcount: '975'
-ht-degree: 53%
+ht-degree: 62%
 
 ---
 
@@ -59,7 +59,7 @@ Para los eventos unitarios, existen dos tipos de ID de evento:
 
 >[!NOTE]
 >
->Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder almacenar en déclencheur un recorrido. Eventos ingeridos en lotes o eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento de correo electrónico, etc.) no se puede usar para almacenar en déclencheur un recorrido. Para los casos de uso en los que no pueda obtener eventos de flujo continuo, cree un segmento basado en esos eventos y use la variable **Leer segmento** actividad en su lugar. Técnicamente, la calificación de segmentos puede utilizarse, pero puede provocar desafíos descendentes en función de las acciones utilizadas. Estos datos no necesariamente tienen que ir al perfil en tiempo real. Si desea utilizar los eventos para la segmentación o la búsqueda en un recorrido independiente, le recomendamos que habilite el conjunto de datos para el perfil.
+>Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Eventos consumidos por lotes o eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento del correo electrónico, etc.) no se puede usar para activar un recorrido. Para los casos de uso en los que no pueda obtener eventos de flujo continuo, genere un segmento basado en esos eventos y use la actividad de **Segmento de lectura** en su lugar. Técnicamente, la calificación de segmentos puede utilizarse, pero puede provocar desafíos descendentes en función de las acciones utilizadas. Estos datos no necesariamente tienen que ir al perfil en tiempo real. Si desea utilizar los eventos para la segmentación o la búsqueda en un recorrido independiente, le recomendamos que habilite el conjunto de datos para el perfil.
 
 ## Ciclo de datos {#data-cycle}
 

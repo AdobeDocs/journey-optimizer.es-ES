@@ -40,7 +40,7 @@ Haga clic en el `...` para ver la descripción de la función y agregarla a sus 
         <td><a href="aggregation.md#average">Promedio</a></td><td>Esta función devuelve la media aritmética de todos los valores seleccionados dentro de la matriz</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count">Recuento</a></td><td>Esta función devuelve el número de elementos dentro de la matriz dada</td>
+        <td><a href="aggregation.md#count">Count</a></td><td>Esta función devuelve el número de elementos dentro de la matriz dada</td>
     </tr>
     <tr>
         <td><a href="aggregation.md#count-only-null">Recuento solo nulo</a></td><td>Esta función cuenta el número de valores nulos en la lista.</td>
