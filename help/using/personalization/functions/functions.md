@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 315c3e8c04b2e3944d0d5b2befb205acbe0ef7c9
+source-git-commit: 075a90130696877d5dea39b7bfe4e85b2aac4791
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1739'
 ht-degree: 4%
 
 ---
@@ -146,22 +146,22 @@ Haga clic en el `...` para ver la descripción de la función y agregarla a sus 
 
 <table>
     <tr>
-        <td><a href="objects.md#absolute">Absoluta  </a></td><td>Esta función convierte un número en su valor absoluto</td>
+        <td><a href="math.md#absolute">Absoluta  </a></td><td>Esta función convierte un número en su valor absoluto</td>
     </tr>
     <tr>
-        <td><a href="objects.md#random">Aleatorio</a></td><td>Esta función devuelve un valor aleatorio entre 0 y 1</td>
+        <td><a href="math.md#random">Aleatorio</a></td><td>Esta función devuelve un valor aleatorio entre 0 y 1</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-down">Redondear hacia abajo</a></td><td>Esta función redondea un número</td>
+        <td><a href="math.md#round-down">Redondear hacia abajo</a></td><td>Esta función redondea un número</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-up">Redondear</a></td><td>Esta función redondea un número</td>
+        <td><a href="math.md#round-up">Redondear</a></td><td>Esta función redondea un número</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-percentage">Hasta porcentaje</a></td><td>Esta función convierte un número en porcentaje</td>
+        <td><a href="math.md#to-percentage">Hasta porcentaje</a></td><td>Esta función convierte un número en porcentaje</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-precision">Para precisión</a></td><td>Esta función convierte un número en la precisión necesaria</td>
+        <td><a href="math.md#to-precision">Para precisión</a></td><td>Esta función convierte un número en la precisión necesaria</td>
     </tr>
 </table>
 
@@ -325,7 +325,7 @@ Los ayudantes se detallan en [esta página](helpers.md).
 
 <table>
     <tr>
-        <td><a href="helpers.md#default">Valor predeterminado de reserva</a></td><td>Esta función permite procesar una variable con el valor predeterminado</td>
+        <td><a href="helpers.md#default">Valor predeterminado de reserva</a></td><td>Esta función se utiliza para procesar una variable con el valor predeterminado</td>
     </tr>
     <tr>
         <td><a href="helpers.md#each">Cada</a></td><td>Esta función se utiliza para iterar en una matriz</td>
