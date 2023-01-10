@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: b320a69b12abe14f745097403d7447e47c101596
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '833'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 2%
 >title="Objetos dependientes"
 >abstract="Esta es la lista de objetos asociados que se utilizan en el recorrido. Esta lista muestra el nombre, el tipo de objeto y el Journey Optimizer ID interno."
 
-Journey Optimizer permite copiar un recorrido completo de un simulador para pruebas a otro. Por ejemplo, puede copiar un recorrido del entorno de entorno limitado de ensayo en el entorno limitado de producción. Además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: segmentos, superficies (es decir, ajustes preestablecidos), esquemas, eventos y acciones. Para obtener más información sobre los objetos copiados, consulte esta [sección](../building-journeys/copy-to-sandbox.md#limitations).
+Journey Optimizer permite copiar un recorrido completo de un simulador para pruebas a otro. Por ejemplo, puede copiar un recorrido del entorno de entorno limitado de ensayo en el entorno limitado de producción. Además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: segmentos, superficies (es decir, ajustes preestablecidos), esquemas, eventos y acciones. Para obtener más información sobre los objetos copiados, consulte esta [sección](#limitations).
 
 >[!CAUTION]
 >
@@ -75,7 +75,7 @@ Para copiar un recorrido en otro simulador para pruebas, siga estos pasos:
 
 ## Proceso de copia y limitaciones {#limitations}
 
-No garantizamos que todos los elementos vinculados se copien en el entorno limitado de destino. Le recomendamos encarecidamente que realice una comprobación exhaustiva. Identifique cualquier objeto que pueda faltar y créelo manualmente antes de publicar el recorrido.
+Es posible que no todos los elementos vinculados se copien en el entorno limitado de destino. Adobe recomienda encarecidamente que realice una comprobación exhaustiva. Identifique cualquier objeto que pueda faltar y créelo manualmente antes de publicar el recorrido.
 
 Se copian los siguientes objetos:
 
