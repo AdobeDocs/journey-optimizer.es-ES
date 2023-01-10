@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 91f221781f1655066ec0f6b1c3f2c1faefd09d69
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 6%
@@ -125,7 +125,7 @@ La variable `topN` se utiliza para devolver la primera función `N` elementos de
 
 **Ejemplo**
 
-La siguiente operación devuelve los cinco pedidos principales con el precio más alto.
+La siguiente operación devuelve los cinco primeros pedidos con el precio más bajo.
 
 ```sql
 {%= topN(orders,price, 5) %}
@@ -223,7 +223,7 @@ La variable `bottomN` se utiliza para devolver el último `N` elementos de una m
 
 **Ejemplo**
 
-La siguiente operación devuelve los cinco pedidos principales con el precio más bajo.
+La siguiente operación devuelve los últimos cinco pedidos con el precio más alto.
 
 ```sql
 {%= bottomN(orders,price, 5) %}
