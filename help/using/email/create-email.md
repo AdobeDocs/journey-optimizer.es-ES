@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 23f1ad4580d714acaefd7a5948ee674ce5203bc6
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '834'
 ht-degree: 5%
 
 ---
@@ -71,6 +71,13 @@ Para obtener más información sobre cómo configurar una campaña, consulte [es
 >[!ENDTABS]
 
 ## Definir el contenido del correo electrónico {#define-email-content}
+
+<!-- update the quarry component with right ID value-->
+
+>[!CONTEXTUALHELP]
+>id="test_id"
+>title="Configuración del contenido del correo electrónico"
+>abstract="Cree el contenido del correo electrónico. Defina su asunto y, a continuación, aproveche el Diseñador de correo electrónico para crear y personalizar el cuerpo del correo electrónico."
 
 1. En la pantalla de configuración de recorrido o de campaña, haga clic en el botón **[!UICONTROL Editar contenido]** para configurar el contenido del correo electrónico. [Más información](get-started-email-design.md)
 

@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 23f1ad4580d714acaefd7a5948ee674ce5203bc6
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1604'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
->title="Superficie de la aplicación"
+>title="Superficie"
 >abstract="Una superficie es una configuración que ha definido un Administrador del sistema. Contiene todos los parámetros técnicos para enviar el mensaje, como parámetros de encabezado, subdominio, aplicaciones móviles, etc."
 
 con [!DNL Journey Optimizer], puede configurar superficies de canal (es decir, ajustes preestablecidos de mensaje) que definan todos los parámetros técnicos necesarios para los mensajes: tipo de correo electrónico, correo electrónico y nombre del remitente, aplicaciones móviles, configuración de SMS, etc.
