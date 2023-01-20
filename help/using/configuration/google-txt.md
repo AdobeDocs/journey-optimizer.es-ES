@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: b3270b8e806cf6e57ea4bcdfa93c8baedc9523f1
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 21%
+source-wordcount: '208'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 21%
 >title="Registros TXT de Google"
 >abstract="Para garantizar un envío correcto de correos electrónicos a las direcciones de Gmail, puede añadir registros TXT de verificación de sitios de Google especiales a su subdominio para asegurarse de que estén verificados."
 
-Los registros TXT son un tipo de registros DNS que se utilizan para proporcionar información de texto sobre un dominio y que pueden leer fuentes externas.
+Los registros TXT son un tipo de registro DNS utilizado para proporcionar información de texto sobre un dominio que pueden leer fuentes externas.
 
 Para garantizar una entrega óptima y un envío correcto de correos electrónicos a las direcciones de Gmail, [!DNL Journey Optimizer] le permite agregar registros TXT especiales de verificación del sitio de Google al subdominio para asegurarse de que estén verificados.
 
@@ -34,8 +34,8 @@ Para agregar un registro TXT de Google al subdominio, siga estos pasos:
 
 1. Abra el subdominio desde el **[!UICONTROL Canales]** / **[!UICONTROL Subdominios]** para abrir el Navegador.
 
-1. En el **[!UICONTROL Registro txt de Google]** , introduzca el código de verificación generado a partir de [Google Workspace](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;}<!--G Suite Admin tools-->y haga clic en **[!UICONTROL Guardar]**.
+1. En el **[!UICONTROL Registro txt de Google]** , introduzca el código de verificación generado a partir de [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->y haga clic en **[!UICONTROL Guardar]**.
 
    ![](assets/subdomain-google-txt.png)
 
-1. Una vez agregado el registro TXT, Google debe verificarlo. Para ello, vaya a [Google Workspace](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;}<!--G Suite Admin tools-->, luego inicie el paso de verificación.
+1. Una vez agregado el registro TXT, Google debe verificarlo. Para ello, vaya a [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->, luego inicie el paso de verificación.
