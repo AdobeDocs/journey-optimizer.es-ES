@@ -2,16 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Administrar usuarios y perfiles de producto
-description: Obtenga información sobre cómo administrar permisos
+description: Obtenga información sobre cómo administrar usuarios y perfiles de producto
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+keywords: producto, perfiles, entorno limitado
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 7%
+source-wordcount: '838'
+ht-degree: 8%
 
 ---
 
@@ -99,7 +100,7 @@ Si es necesario, también puede crear un nuevo perfil de producto con permisos e
 
 [!DNL Journey Optimizer] le permite crear sus propios **[!UICONTROL Perfiles de producto]** y asigne un conjunto de permisos y entornos limitados a los usuarios. con **[!UICONTROL Perfiles de producto]**, puede autorizar o denegar el acceso a determinadas funcionalidades u objetos de la interfaz.
 
-Para obtener más información sobre cómo crear y administrar entornos limitados, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es){target=&quot;_blank&quot;}.
+Para obtener más información sobre cómo crear y administrar entornos limitados, consulte la documentación de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es){target="_blank"}.
 
 En este ejemplo, crearemos un perfil de producto denominado **Recorridos de solo lectura** donde se otorgarán derechos de solo lectura a la función de Recorrido. Los usuarios solo podrán acceder y ver recorridos y no podrán acceder a otras funciones como **[!DNL  Decision management]** en [!DNL Journey Optimizer].
 
