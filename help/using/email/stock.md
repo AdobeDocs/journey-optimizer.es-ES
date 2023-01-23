@@ -7,10 +7,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+keywords: stock, imágenes, integración, fotos
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 1%
 
 La variable [!DNL Adobe Stock] y [!DNL Adobe Journey Optimizer] El complemento de integración del Diseñador de correo electrónico proporciona a los clientes una forma sencilla de navegar, obtener licencias y guardar imágenes para utilizarlas en la creación de mensajes.
 
-[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;} proporciona acceso a millones de fotos, vídeos, ilustraciones y gráficos vectoriales de alta calidad, depurados y sin derechos de autor. Puede elegir adquirir un paquete de crédito para obtener la licencia de los activos o comprar una licencia Standard o Extended para el activo necesario. Adobe Stock también ofrece una recopilación gratuita de recursos.
+[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} proporciona acceso a millones de fotos, vídeos, ilustraciones y gráficos vectoriales de alta calidad, depurados y libres de derechos de autor. Puede elegir adquirir un paquete de crédito para obtener la licencia de los activos o comprar una licencia Standard o Extended para el activo necesario. Adobe Stock también ofrece una recopilación gratuita de recursos.
 
 con [!DNL Adobe Journey Optimizer], puede cargar imágenes en los correos electrónicos directamente desde [!DNL Adobe Stock] y agréguelo a su **[!UICONTROL Recursos]** usando la variable **[!UICONTROL Buscar fotos de Adobe Stock]** . Además, la variable **[!UICONTROL Buscar fotos de Stock similares]** ayuda a encontrar imágenes que coincidan con el contenido, el color y la composición del recurso utilizado en la entrega.
 
@@ -29,7 +30,7 @@ con [!DNL Adobe Journey Optimizer], puede cargar imágenes en los correos electr
 
 La variable **[!UICONTROL Buscar fotos de Adobe Stock]** y **[!UICONTROL Buscar imagen similar]** están disponibles para los usuarios con acceso a un perfil de producto de AEM Assets Essentials.
 
-Para obtener más información, consulte [Documentación esencial de Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target=&quot;_blank&quot;}.
+Para obtener más información, consulte [Documentación esencial de Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
 
 ## Insertar una imagen desde [!DNL Adobe Stock] {#add-stock-image}
 
@@ -87,7 +88,7 @@ Para obtener una licencia y descargar la imagen, siga los pasos a continuación:
 
    Esta compra depende de su plan o suscripción a Adobe Stock. Tenga en cuenta que si tiene varias cuentas de Adobe Stock, se le redirigirá al último ID de stock que usó. En este caso, asegúrese de haber iniciado sesión en la cuenta correcta antes de conceder licencias a su recurso.
 
-   Para obtener más información sobre los planes y precios de Adobe Stock en [Documentación de Adobe Stock](https://stock.adobe.com/plans){target=&quot;_blank&quot;}.
+   Para obtener más información sobre los planes y precios de Adobe Stock en [Documentación de Adobe Stock](https://stock.adobe.com/plans){target="_blank"}.
 
    >[!WARNING]
    > Si se envía un correo electrónico que incluye una imagen sin licencia, la imagen conserva su formulario sin licencia con la marca de agua.
@@ -102,5 +103,5 @@ Para obtener una licencia y descargar la imagen, siga los pasos a continuación:
 
 * [Diseño de correo electrónico en Journey Optimizer](get-started-email-design.md)
 * [Configuración de componentes para diseño de correo electrónico](content-components.md)
-* [Introducción a Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;}.
+* [Introducción a Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"}.
 

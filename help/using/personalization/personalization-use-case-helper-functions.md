@@ -7,10 +7,11 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+keywords: expresión, editor, asistentes,caso de uso, personalización
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1051'
 ht-degree: 2%
 
 ---
@@ -52,7 +53,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 1. Cree un evento cuyo esquema incluya la variable `productListItems` matriz.
 1. Defina todos los campos de esta matriz como campos de carga útil para este evento.
 
-   Obtenga más información sobre el tipo de datos del elemento de la lista de productos [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}.
+   Obtenga más información sobre el tipo de datos del elemento de la lista de productos [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. Cree un recorrido que comience con este evento.
 1. Agregue un **Correo electrónico** actividad al recorrido.
@@ -105,7 +106,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      Obtenga más información sobre el tipo de datos de nombre de persona en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
+      Obtenga más información sobre el tipo de datos de nombre de persona en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
 1. Haga clic en **[!UICONTROL Validar]** y haga clic en **[!UICONTROL Guardar]**.
 
@@ -289,7 +290,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
    1. Reemplace el marcador de posición &quot;render_1&quot; por el texto de la nota.
 
-      Ejemplo:
+      Por ejemplo:
 
       ```handlebars
       {%#if context.journey.events.`event_ID`.productListItems.name = "Juno Jacket" %}

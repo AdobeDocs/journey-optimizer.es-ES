@@ -7,8 +7,9 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: pasos, configuración, recorrido, eventos, flujo, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 5%
@@ -19,7 +20,7 @@ ht-degree: 5%
 
 Para configurar los eventos que se enviarán a **[!UICONTROL API de ingesta de flujos]** y a utilizar en [!DNL Journey Optimizer], debe seguir estos pasos:
 
-1. Obtenga la URL de entrada de las API de Adobe Experience Platform. Obtenga más información en [Resumen de las API de ingesta de flujos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es){target=&quot;_blank&quot;}.
+1. Obtenga la URL de entrada de las API de Adobe Experience Platform. Obtenga más información en [Resumen de las API de ingesta de flujos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es){target="_blank"}.
 1. Copie la carga útil de la previsualización de carga útil en el **[!UICONTROL Evento]** para abrir el Navegador. Obtenga más información en [esta página](../event/about-creating.md#define-the-payload-fields).
 
 A continuación, debe configurar el sistema de datos que envía eventos a las API de ingesta de transmisión mediante la carga útil que ha copiado:
@@ -87,6 +88,6 @@ Este es un ejemplo de un evento de API de ingesta de transmisión:
 }
 ```
 
-Para facilitar la identificación del lugar en el que pegar la parte de &quot;datos&quot;, puede utilizar una herramienta de visualización JSON como [Formato JSON](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;}.
+Para facilitar la identificación del lugar en el que pegar la parte de &quot;datos&quot;, puede utilizar una herramienta de visualización JSON como [Formato JSON](https://jsonformatter.curiousconcept.com){target="_blank"}.
 
-Para solucionar problemas de las API de ingesta de flujos, consulte [documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}.
+Para solucionar problemas de las API de ingesta de flujos, consulte [documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}.

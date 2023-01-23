@@ -7,10 +7,11 @@ feature: Schemas
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: esquemas, XDM, plataforma, flujo continuo, ingesta, recorrido
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '840'
 ht-degree: 3%
 
 ---

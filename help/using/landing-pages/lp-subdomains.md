@@ -5,10 +5,11 @@ title: Configurar subdominios de página de aterrizaje
 description: Obtenga información sobre cómo configurar subdominios de páginas de aterrizaje con Journey Optimizer
 role: Admin
 level: Intermediate
+keywords: aterrizaje, página de aterrizaje, subdominios, configuración
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 61c90f39fa2bddb384e5581e3935c43d4691c355
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '817'
 ht-degree: 1%
 
 ---

@@ -7,10 +7,11 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
+keywords: aterrizaje, página de aterrizaje, creación, página, formulario, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1025'
 ht-degree: 4%
 
 ---

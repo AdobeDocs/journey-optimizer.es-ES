@@ -7,10 +7,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+keywords: correo electrónico, plantillas, diseño
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '245'
 ht-degree: 5%
 
 ---

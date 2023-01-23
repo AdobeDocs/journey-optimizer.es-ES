@@ -7,10 +7,11 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
+keywords: aterrizaje, página de aterrizaje, diseño, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '160'
 ht-degree: 3%
 
 ---

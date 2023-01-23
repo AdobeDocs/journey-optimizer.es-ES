@@ -7,10 +7,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: estilo, vínculos, color, correo electrónico, editor
 exl-id: d5e148a8-a6d9-4e17-9cf0-46ff3c14871c
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '151'
 ht-degree: 8%
 
 ---

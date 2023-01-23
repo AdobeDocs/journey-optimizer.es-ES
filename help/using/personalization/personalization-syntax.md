@@ -7,11 +7,12 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+keywords: expresión, editor, sintaxis, personalización
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -29,7 +30,7 @@ Ejemplo de expresión simple:
 donde:
 
 * `profile` es un área de nombres.
-* `person.name` es un token compuesto por atributos. La estructura de atributos se define en un esquema Adobe Experience Platform XDM. [Más información](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target=&quot;_blank&quot;}.
+* `person.name` es un token compuesto por atributos. La estructura de atributos se define en un esquema Adobe Experience Platform XDM. [Más información](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
 
 ## Reglas generales de sintaxis {#general-rules}
 
@@ -45,13 +46,13 @@ Las palabras **true**, **false**, **null** y **undefined** solo se permiten en l
 
 En Handlebars, los valores devueltos por la variable {{expression}} are **HTML escapado**. Si la expresión contiene `&`, la salida de escape del HTML que se devuelve se genera como `&amp;`. Si no desea que Handlebars escape un valor, utilice el &quot;triple stash&quot;.
 
-En cuanto a los argumentos de funciones literales, el analizador de lenguajes de plantilla no admite una sola barra invertida sin escape (`\`). Se debe escapar este carácter con una barra invertida adicional (`\`). Ejemplo :
+En cuanto a los argumentos de funciones literales, el analizador de lenguajes de plantilla no admite una sola barra invertida sin escape (`\`). Se debe escapar este carácter con una barra invertida adicional (`\`). Por ejemplo :
 
 `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
 ## Perfil
 
-Este espacio de nombres le permite hacer referencia a todos los atributos definidos en el esquema de perfil descrito en [Documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target=&quot;_blank&quot;}.
+Este espacio de nombres le permite hacer referencia a todos los atributos definidos en el esquema de perfil descrito en [Documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
 
 Los atributos deben definirse en el esquema antes de hacer referencia a ellos en un [!DNL Journey Optimizer] bloque personalizado.
 

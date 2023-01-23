@@ -7,10 +7,11 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: evento, unitario, crear, recorrido
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1573'
 ht-degree: 11%
 
 ---
@@ -81,7 +82,7 @@ Estos son los primeros pasos para configurar un nuevo evento:
 
 ## Definición de los campos de carga útil {#define-the-payload-fields}
 
-La definición de carga útil permite elegir la información que el sistema espera recibir del evento en el recorrido y la clave para identificar qué persona está asociada al evento. La carga útil se basa en la definición del campo XDM del Experience Cloud. Para obtener más información sobre XDM, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target=&quot;_blank&quot;}.
+La definición de carga útil permite elegir la información que el sistema espera recibir del evento en el recorrido y la clave para identificar qué persona está asociada al evento. La carga útil se basa en la definición del campo XDM del Experience Cloud. Para obtener más información sobre XDM, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
 
 1. Seleccione un esquema XDM de la lista y haga clic en el **[!UICONTROL Campos]** o en el **[!UICONTROL Editar]** icono.
 
@@ -114,9 +115,9 @@ La definición de carga útil permite elegir la información que el sistema espe
 >title="Área de nombres de identidad"
 >abstract="Seleccione la clave para identificar el perfil del cliente asociado al evento."
 
-El espacio de nombres permite definir el tipo de clave utilizada para identificar a la persona asociada al evento. Su configuración es opcional. Es necesario si desea recuperar, en sus recorridos, información adicional proveniente del [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target=&quot;_blank&quot;}. La definición del área de nombres no es necesaria si solo utiliza datos procedentes de un sistema de terceros a través de una fuente de datos personalizada.
+El espacio de nombres permite definir el tipo de clave utilizada para identificar a la persona asociada al evento. Su configuración es opcional. Es necesario si desea recuperar, en sus recorridos, información adicional proveniente del [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}. La definición del área de nombres no es necesaria si solo utiliza datos procedentes de un sistema de terceros a través de una fuente de datos personalizada.
 
-Puede utilizar uno de los predefinidos o crear uno nuevo mediante el servicio Área de nombres de identidad . Consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es){target=&quot;_blank&quot;}.
+Puede utilizar uno de los predefinidos o crear uno nuevo mediante el servicio Área de nombres de identidad . Consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es){target="_blank"}.
 
 Si selecciona un esquema que tiene una identidad principal, la variable **[!UICONTROL Identificador de perfilador]** y **[!UICONTROL Área de nombres]** los campos están rellenados previamente. Si no hay identidad definida, seleccione _idMap > id_ como clave principal. A continuación, debe seleccionar un área de nombres y la clave se rellenará previamente (debajo del **[!UICONTROL Área de nombres]** campo) _idMap > id_.
 
@@ -138,7 +139,7 @@ Solo se permite un espacio de nombres por recorrido. Si utiliza varios eventos e
 
 La clave es el campo, o combinación de campos, que forma parte de los datos de carga útil de evento y que permite al sistema identificar a la persona asociada al evento. La clave puede ser, por ejemplo, el ID de Experience Cloud, un ID de CRM o una dirección de correo electrónico.
 
-Para utilizar datos almacenados en la base de datos de perfil del cliente en tiempo real de Adobe, la clave de evento debe ser la información que haya definido como identidad de un perfil en la variable [Servicio de Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target=&quot;_blank&quot;}.
+Para utilizar datos almacenados en la base de datos de perfil del cliente en tiempo real de Adobe, la clave de evento debe ser la información que haya definido como identidad de un perfil en la variable [Servicio de Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}.
 
 El identificador de perfil permite que el sistema realice la reconciliación entre el evento y el perfil del individuo. Si selecciona un esquema que tiene una identidad principal, la variable **[!UICONTROL Identificador de perfil]** y **[!UICONTROL Área de nombres]** los campos están rellenados previamente. Si no se ha definido ninguna identidad, la variable _idMap > id_ es la clave principal. A continuación, debe seleccionar un área de nombres y la clave se rellena automáticamente previamente mediante _idMap > id_.
 

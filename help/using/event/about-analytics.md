@@ -7,10 +7,11 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: analytics, integración, sdk web, plataforma
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 53d89f216961daba72e96a728301572b83824655
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '618'
 ht-degree: 10%
 
 ---
@@ -49,7 +50,7 @@ Esto habilita el conector de origen de Analytics para ese grupo de informes. Cad
 
 ![](assets/ajo-aa_4.png)
 
-Obtenga más información sobre el conector de origen de Adobe Analytics en  [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es){target=&quot;_blank&quot;} y [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es){target=&quot;_blank&quot;}.
+Obtenga más información sobre el conector de origen de Adobe Analytics en  [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es){target="_blank"}.
 
 ## Creación de un recorrido con un evento mediante datos de Adobe Analytics o SDK web {#event-analytics}
 

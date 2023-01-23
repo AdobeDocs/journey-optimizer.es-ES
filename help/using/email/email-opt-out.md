@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: exclusión, correo electrónico, vínculo, cancelar suscripción
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 87%
+source-wordcount: '1037'
+ht-degree: 83%
 
 ---
 
@@ -59,7 +60,7 @@ Primero debe agregar el vínculo &quot;Cancelar la suscripción&quot; a un mensa
 
 ### Implementación de una llamada de API para la exclusión {#opt-out-api}
 
-Para que los destinatarios se excluyan cuando envíen su elección desde la página de aterrizaje, debe implementar una **Llamada de API de suscripción** mediante [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} para actualizar las preferencias de los perfiles correspondientes.
+Para que los destinatarios se excluyan cuando envíen su elección desde la página de aterrizaje, debe implementar una **Llamada de API de suscripción** hasta [Adobe Developer](https://developer.adobe.com){target="_blank"} para actualizar las preferencias de los perfiles correspondientes.
 
 Esta llamada de POST es como sigue:
 
@@ -97,7 +98,7 @@ Cuerpo de la solicitud:
 }
 ```
 
-[!DNL Journey Optimizer] utilizará estos parámetros para actualizar la elección del perfil correspondiente a través de la llamada de la API de [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}.
+[!DNL Journey Optimizer] utilizará estos parámetros para actualizar la elección del perfil correspondiente mediante la variable [Adobe Developer](https://developer.adobe.com){target="_blank"} Llamada de API.
 
 ### Enviar el mensaje con el vínculo &quot;Cancelar la suscripción&quot; {#send-message-unsubscribe-link}
 
@@ -117,7 +118,7 @@ Una vez configurado el vínculo &quot;Cancelar la suscripción&quot; a la págin
 
    Como resultado, este usuario no recibirá comunicaciones de su marca a menos que se vuelva a suscribir.
 
-1. Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y acceda al perfil seleccionando un área de nombres de identidad y un valor de identidad correspondiente. Obtenga más información en la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target=&quot;_blank&quot;}.
+1. Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y acceda al perfil seleccionando un área de nombres de identidad y un valor de identidad correspondiente. Obtenga más información en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
 
    ![](assets/opt-out-profile-choice.png)
 
@@ -185,4 +186,4 @@ Según el cliente de correo electrónico, hacer clic en el vínculo de cancelaci
    >
    >Si no agrega un vínculo de no participación de un clic al contenido del mensaje, no se mostrará ninguna página de aterrizaje.
 
-* El perfil correspondiente se excluye inmediatamente y esta opción se actualiza en Experience Platform. Obtenga más información en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target=&quot;_blank&quot;}.
+* El perfil correspondiente se excluye inmediatamente y esta opción se actualiza en Experience Platform. Obtenga más información en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
