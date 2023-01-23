@@ -6,10 +6,11 @@ description: Aprenda a utilizar los esquemas de Adobe Experience Platform en Ado
 feature: Schemas
 role: User
 level: Beginner
+keywords: esquemas, plataforma, datos, estructura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 5fd4f8c5ffaf2c417d95f88fa31c850bc88db13f
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '309'
 ht-degree: 30%
 
 ---

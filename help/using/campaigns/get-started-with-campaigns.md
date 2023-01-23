@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introducción a las campañas
-description: Obtenga más información sobre las campañas en [!DNL Journey Optimizer]
+description: Obtenga más información sobre las campañas en Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: campaña, cómo , iniciar, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '406'
 ht-degree: 12%
 
 ---
@@ -41,13 +42,13 @@ Compruebe los siguientes requisitos previos antes de empezar a crear la primera 
 
 1. **Necesita los permisos adecuados**. Las campañas solo están disponibles para los usuarios con acceso a campañas relacionadas **[!UICONTROL Perfil del producto]** como administrador de campañas, aprobador de campañas, administrador de campañas o visualizador de campañas.
 
-   Si no puede acceder a las campañas, sus permisos deben ampliarse. Si tiene acceso a [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} para su organización, siga los pasos a continuación. Si no es así, póngase en contacto con el administrador de Journey Optimizer.
+   Si no puede acceder a las campañas, sus permisos deben ampliarse. Si tiene acceso a [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} para su organización, siga los pasos a continuación. Si no es así, póngase en contacto con el administrador de Journey Optimizer.
 
    +++Obtenga información sobre cómo asignar permisos de campaña
 
    Para asignar la **[!UICONTROL Perfil del producto]** a sus usuarios:
 
-   1. De [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}, seleccione la opción [!DNL Adobe Experience Platform] producto.
+   1. De [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}, seleccione [!DNL Adobe Experience Platform] producto.
 
    1. Vaya a la **[!UICONTROL Perfil del producto]** , seleccione una de las campañas integradas relacionadas **[!UICONTROL Perfil del producto]**: Administrador de campañas, aprobador de campañas, administrador de campañas o visualizador de campañas.
 

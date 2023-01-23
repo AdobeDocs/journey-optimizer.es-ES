@@ -1,16 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introducción a los datos en [!DNL Journey Optimizer]
-description: Aprenda a trabajar con los datos en [!DNL Journey Optimizer]
+title: Introducción a los datos en Journey Optimizer
+description: Obtenga información sobre cómo trabajar con datos en Journey Optimizer
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: datos, administración, plataforma
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 504e93a5c21baadf6ac938a9298c1adeb2a2d878
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -60,7 +61,7 @@ Todos los datos se consideran propiedad de los clientes y solo se pueden mantene
 
 Puede usar la variable [!DNL Journey Optimizer]la flexibilidad de los datos de para satisfacer sus requisitos específicos relacionados con la retención, el archiving o la eliminación de datos:
 
-* **Extracción/exportación de datos**: Puede iniciar la extracción de datos de origen en cualquier momento a través de la API de acceso a datos sin penalizaciones ni retrasos en el tiempo. La variable [API de acceso a datos](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html){target=&quot;_blank&quot;} proporciona a los usuarios una interfaz RESTful centrada en la capacidad de detección y accesibilidad de conjuntos de datos ingestados dentro de [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **Extracción/exportación de datos**: Puede iniciar la extracción de datos de origen en cualquier momento a través de la API de acceso a datos sin penalizaciones ni retrasos en el tiempo. La variable [API de acceso a datos](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html){target="_blank"} proporciona a los usuarios una interfaz RESTful centrada en la capacidad de detección y accesibilidad de conjuntos de datos ingestados dentro de [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
    Tenga en cuenta que el contenido utilizado en recorridos o campañas no se puede extraer mediante los métodos API o Destination mencionados anteriormente.
 
@@ -72,7 +73,7 @@ Puede usar la variable [!DNL Journey Optimizer]la flexibilidad de los datos de p
 
 * **Purgas y mecanismos de archivado**: La depuración de datos y el archivado se pueden definir y automatizar libremente en [!DNL Adobe Journey Optimizer] para automatizar las políticas de retención de datos. Es posible definir diferentes estrategias de envejecimiento para las diferentes entidades de datos. También se pueden definir mecanismos de exportación para exportar automáticamente los datos de antigüedad antes de depurarlos o archivarlos.
 
-   El espacio de trabajo Higiene de los datos en la interfaz de usuario de Adobe Experience Platform le permite crear y supervisar diversas tareas de higiene de los datos, como la eliminación de identidades de consumidores y la programación de caducidades de conjuntos de datos. Este espacio de trabajo está disponible con el Escudo de seguridad y privacidad y con el Escudo de salud. Obtenga más información en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}.
+   El espacio de trabajo Higiene de los datos en la interfaz de usuario de Adobe Experience Platform le permite crear y supervisar diversas tareas de higiene de los datos, como la eliminación de identidades de consumidores y la programación de caducidades de conjuntos de datos. Este espacio de trabajo está disponible con el Escudo de seguridad y privacidad y con el Escudo de salud. Obtenga más información en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target="_blank"}.
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

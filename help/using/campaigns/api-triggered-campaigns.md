@@ -2,11 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Activación de campañas mediante las API
-description: Aprenda a almacenar en déclencheur las campañas mediante [!DNL Journey Optimizer] API
+description: Obtenga información sobre cómo almacenar en déclencheur las campañas mediante las API de Journey Optimizer
+topic: Content Management
+role: Developer, Admin
+level: Intermediate, Experienced
+keywords: campañas, activadas por API, REST, optimizer, mensajes
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '807'
 ht-degree: 3%
 
 ---
