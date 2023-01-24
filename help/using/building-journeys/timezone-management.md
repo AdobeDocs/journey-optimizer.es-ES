@@ -7,10 +7,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: zona horaria, propiedades, recorrido, condición, hora, fecha, personalizado
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '290'
 ht-degree: 2%
 
 ---

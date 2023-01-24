@@ -4,12 +4,13 @@ product: journey optimizer
 title: Referencias de campo
 description: Obtenga información sobre referencias de campo en expresiones avanzadas
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: recorrido, campo, expresión, evento
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '557'
 ht-degree: 4%
 
 ---
@@ -100,7 +101,7 @@ Puede añadir cualquier tipo de expresión como valor predeterminado. La única 
 
 Se hace referencia a los elementos definidos dentro de las colecciones mediante las funciones específicas `all`, `first` y `last`. Para obtener más información, consulte [esta página](../expression/collection-management-functions.md).
 
-Ejemplo :
+Por ejemplo :
 
 ```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
@@ -159,7 +160,7 @@ Utilice la siguiente sintaxis:
 * **`<params-1-name>`**: nombre exacto del primer parámetro de la fuente de datos.
 * **`<params-1-value>`**: el valor del primer parámetro. Puede ser cualquier expresión válida.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 #{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}

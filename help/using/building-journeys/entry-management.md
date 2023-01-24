@@ -6,11 +6,12 @@ description: Obtenga información sobre cómo administrar la entrada de perfil
 feature: Journeys
 role: User
 level: Intermediate
+keywords: reentrada, recorrido, perfil, recurrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 23%
+source-wordcount: '350'
+ht-degree: 22%
 
 ---
 
@@ -20,7 +21,7 @@ De forma predeterminada, los nuevos recorridos permiten volver a entrar. Puede d
 
 ![](assets/journey-re-entrance.png)
 
-Cuando finaliza un recorrido, su estado es **[!UICONTROL Cerrado]**. Nuevos individuos ya no pueden entrar en el recorrido. Las personas que ya están en el recorrido terminan normalmente el recorrido.
+Cuando finaliza un recorrido, su estado es **[!UICONTROL Cerrado]**. Las personas nuevas ya no pueden entrar en el recorrido. Las personas que ya están en el recorrido terminan normalmente el recorrido.
 
 Después del tiempo de espera global predeterminado de 30 días, el recorrido cambia a la variable **Finalizado** estado.  [Más información](journey-gs.md#global_timeout).
 

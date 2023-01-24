@@ -3,12 +3,13 @@ product: journey optimizer
 title: max
 description: Obtenga información sobre la función max
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: max, función, expresión, recorrido
 exl-id: 5c792d33-32b9-4b1b-ab99-3ebfac391678
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '96'
 ht-degree: 9%
 
 ---

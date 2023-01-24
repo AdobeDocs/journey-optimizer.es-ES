@@ -4,13 +4,14 @@ product: journey optimizer
 title: Operadores
 description: Obtenga información sobre los operadores en expresiones avanzadas
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: expresión, sintaxis, operadores, editor, recorrido
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 7%
+source-wordcount: '458'
+ht-degree: 6%
 
 ---
 
@@ -35,7 +36,7 @@ Existen dos tipos de operadores: operadores unarios y operadores binarios. Hay o
 
 ## Notas importantes{#important-notes}
 
-* Cuando se utiliza una multiplicación (`*`), ambos campos de operación deben tener el mismo tipo, entero o decimal. Ejemplo :
+* Cuando se utiliza una multiplicación (`*`), ambos campos de operación deben tener el mismo tipo, entero o decimal. Por ejemplo :
    * el siguiente ejemplo es correcto: `3.0 * 4.0`
    * `3 * 4.0` generará un error
 
@@ -49,7 +50,7 @@ Existen dos tipos de operadores: operadores unarios y operadores binarios. Hay o
 
 Ambas &lt;expression1> y &lt;expression2> debe ser booleano. El resultado es booleano.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 3.14 > 2 and 3.15 < 1
@@ -65,7 +66,7 @@ Ejemplo:
 
 Ambas &lt;expression1> y &lt;expression2> debe ser booleano. El resultado es booleano.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 3.14 > 2 or 3.15 < 1
@@ -81,7 +82,7 @@ not <expression>
 
 &lt;expression> debe ser booleano. El resultado es booleano.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 not 3.15 < 1
@@ -101,7 +102,7 @@ El resultado es booleano.
 
 Tenga en cuenta que null significa que la expresión no tiene ningún valor evaluado.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 @{BarBeacon.location} is null
@@ -119,7 +120,7 @@ El resultado es booleano.
 
 Tenga en cuenta que null significa que la expresión no tiene ningún valor evaluado.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 @{BarBeacon.location} is not null
@@ -137,7 +138,7 @@ Ejemplo:
 
 Es útil para identificar que una lista contiene al menos un valor nulo.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 ["foo", "bar", null] has null --  returns true.
@@ -159,7 +160,7 @@ Ejemplo:
 >
 >Para &lt;expression1> y &lt;expression2> no hay control de tipo de datos.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 3.14 == 42
@@ -182,7 +183,7 @@ Para &lt;expression1> y &lt;expression2> no hay control de tipo de datos.
 
 El resultado es booleano.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 3.14 != 42
@@ -210,7 +211,7 @@ Se prohíbe cualquier otra combinación.
 
 El resultado es booleano.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 3.14 > 42
@@ -234,7 +235,7 @@ Se prohíbe cualquier otra combinación.
 
 El resultado es booleano.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 42 >= 3.14
@@ -258,7 +259,7 @@ Se prohíbe cualquier otra combinación.
 
 El resultado es booleano.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 42 < 3.14
@@ -282,7 +283,7 @@ Se prohíbe cualquier otra combinación.
 
 El resultado es booleano.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 42 <= 3.14
@@ -302,7 +303,7 @@ Ambas expresiones deben ser numéricas (números enteros o decimales).
 
 El resultado también es numérico.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 1 + 2 -- returns 3
@@ -320,7 +321,7 @@ Ambas expresiones deben ser numéricas (números enteros o decimales).
 
 El resultado también es numérico.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 2 - 1 -- returns 1
@@ -340,7 +341,7 @@ El resultado también es numérico.
 
 &lt;expression2> no debe ser igual a 0 (devuelve 0).
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 4 / 2 -- returns 2
@@ -358,7 +359,7 @@ Ambas expresiones deben ser numéricas (números enteros o decimales).
 
 El resultado también es numérico.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 3 * 4 -- returns 12
@@ -376,7 +377,7 @@ Ambas expresiones deben ser numéricas (números enteros o decimales).
 
 El resultado también es numérico.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 3 % 2 -- returns 1.
@@ -394,7 +395,7 @@ Ejemplo:
 
 El tipo de la expresión es integer o decimal.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 @ is numeric
@@ -410,7 +411,7 @@ Ejemplo:
 
 El tipo de la expresión es integer.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 @ is integer
@@ -426,7 +427,7 @@ Ejemplo:
 
 El tipo de expresión es decimal.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 @ is decimal
@@ -450,7 +451,7 @@ Concatena dos expresiones.
 
 Una expresión debe ser una cadena encadenada.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 "the current time is " + (now()) -- returns "the current time is 2019-09-23T09:30:06.693Z"
@@ -476,7 +477,7 @@ Ejemplo:
 
 Anexe una duración a dateTime, dateTimeOnly o una duración.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M") -- returns 2011-12-03T15:30:30Z

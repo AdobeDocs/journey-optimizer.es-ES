@@ -3,12 +3,13 @@ product: journey optimizer
 title: nowWithDelta
 description: Obtenga información sobre la función nowWithDelta
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: nowWithDelta, función, expresión, recorrido
 exl-id: cb1eb221-8532-4637-ac6c-8e058463ac94
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '113'
 ht-degree: 7%
 
 ---

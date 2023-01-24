@@ -3,12 +3,13 @@ product: journey optimizer
 title: toDateOnly
 description: Obtenga información sobre la función toDateOnly
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: toDateOnly, función, expresión, recorrido
 exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '100'
 ht-degree: 10%
 
 ---

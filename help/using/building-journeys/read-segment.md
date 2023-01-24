@@ -7,10 +7,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: actividad, recorrido, leer, segmento, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1331'
 ht-degree: 11%
 
 ---
@@ -50,7 +51,7 @@ Los pasos para configurar la actividad Leer segmento son los siguientes:
 
    >[!NOTE]
    >
-   >Solo las personas con la variable **Realizado** y **Existente** los estados de participación de segmentos entrarán en el recorrido. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
+   >Solo las personas con la variable **Realizado** y **Existente** los estados de participación de segmentos entrarán en el recorrido. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
    ![](assets/read-segment-selection.png)
 

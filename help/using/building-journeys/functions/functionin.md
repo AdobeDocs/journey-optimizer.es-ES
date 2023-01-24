@@ -3,13 +3,14 @@ product: journey optimizer
 title: en
 description: Obtenga información sobre la función en
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: in, función, expresión, recorrido
 exl-id: 629b7aa3-8904-453b-ba3c-c6a333b13c81
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 21%
+source-wordcount: '117'
+ht-degree: 20%
 
 ---
 

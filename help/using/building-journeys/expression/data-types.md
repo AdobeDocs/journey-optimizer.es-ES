@@ -4,12 +4,13 @@ product: journey optimizer
 title: Tipos de datos
 description: Obtenga información sobre los tipos de datos en expresiones avanzadas
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: expresión, datos, tipo de datos, recorrido
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '642'
 ht-degree: 6%
 
 ---

@@ -3,13 +3,14 @@ product: journey optimizer
 title: sum
 description: Obtenga información sobre la suma de funciones
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: sum, función, expresión, recorrido
 exl-id: a9085f4d-6434-4bc5-8e5d-3f2b6033defc
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 17%
+source-wordcount: '55'
+ht-degree: 16%
 
 ---
 

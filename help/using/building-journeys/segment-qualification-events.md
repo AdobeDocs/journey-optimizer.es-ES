@@ -7,10 +7,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: cualificación, eventos, segmento, recorrido, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '925'
 ht-degree: 3%
 
 ---
@@ -63,7 +64,7 @@ Este tipo de evento se puede posicionar como el primer paso o posterior en el re
 
    >[!NOTE]
    >
-   >Tenga en cuenta que **[!UICONTROL Entrar]** y **[!UICONTROL Salir]** corresponde a la variable **Realizado** y **Salido** estados de participación de segmentos desde Adobe Experience Platform. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
+   >Tenga en cuenta que **[!UICONTROL Entrar]** y **[!UICONTROL Salir]** corresponde a la variable **Realizado** y **Salido** estados de participación de segmentos desde Adobe Experience Platform. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Seleccione un espacio de nombres. Esto solo es necesario si el evento se coloca como el primer paso del recorrido.
 
@@ -113,7 +114,7 @@ No use, en **[!UICONTROL Clasificación del segmento]** actividad, un segmento p
 
 ![](assets/segment-error.png)
 
-Establezca una regla de límite para las fuentes de datos y las acciones utilizadas en los recorridos para evitar sobrecargarlos. Obtenga más información en [documentación del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}. Tenga en cuenta que la regla de restricción no tiene reintento. Si necesita volver a intentarlo, debe utilizar una ruta alternativa en el recorrido marcando la casilla **[!UICONTROL Añada una ruta alternativa en caso de tiempo de espera o error]** en condiciones o acciones.
+Establezca una regla de límite para las fuentes de datos y las acciones utilizadas en los recorridos para evitar sobrecargarlos. Obtenga más información en [documentación del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. Tenga en cuenta que la regla de restricción no tiene reintento. Si necesita volver a intentarlo, debe utilizar una ruta alternativa en el recorrido marcando la casilla **[!UICONTROL Añada una ruta alternativa en caso de tiempo de espera o error]** en condiciones o acciones.
 
 Antes de usar el segmento en un recorrido de producción, evalúe siempre primero el volumen de personas que cumplen los requisitos para este segmento todos los días. Para ello, puede marcar la **[!UICONTROL Segmentos]** , abra el segmento y, a continuación, consulte la **[!UICONTROL Perfiles a lo largo del tiempo]** gráfico.
 
