@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: datos, administración, plataforma
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: bc35cfdc91bdf41265912652ac4fb38c8c0738ec
+source-git-commit: ef34cb0207d3011eca6d76ad6568f3edc00e13a3
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 1%
@@ -53,7 +53,7 @@ En general, la flexibilidad que desea con los datos es:
     <br>Se eliminan las bases de una cronología acordada para su política: la eliminación de datos es un aspecto crítico de la protección de datos y es un paso clave en todos los procesos de control de datos. [!DNL Adobe Journey Optimizer] pueden producir más datos de los necesarios. Además, desea tener el máximo cuidado con lo que sucede después de la duración requerida para un conjunto de datos, ya sea por la utilidad o la regulación. El control que necesita es eliminar datos en un momento dado. 
     </div>
       <div>
-     <a href="../privacy/gs-data.md">Más información</a></div>
+     <a href="../privacy/data-hygiene.md">Más información</a></div>
     </div>
   </td>
 </tr>
