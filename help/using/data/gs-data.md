@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: datos, administración, plataforma
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 61b800c7f987d2650c4fe6d9f08e1c02ac0f667c
+source-git-commit: bc35cfdc91bdf41265912652ac4fb38c8c0738ec
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,11 @@ En general, la flexibilidad que desea con los datos es:
 <tr style="border: 0;">
   <td>
     <div><img alt="directiva" src="assets/do-not-localize/policy.png" /> 
-    <br>Se eliminan las bases de una cronología acordada para su política: la eliminación de datos es un aspecto crítico de la protección de datos y es un paso clave en todos los procesos de control de datos. [!DNL Adobe Journey Optimizer] pueden producir más datos de los necesarios. Además, desea tener el máximo cuidado con lo que sucede después de la duración requerida para un conjunto de datos, ya sea por la utilidad o la regulación. El control que necesita es eliminar datos en un momento dado. <a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html">Obtenga más información sobre la higiene de los datos en la documentación de Adobe Experience Platform</a></div>
+    <br>Se eliminan las bases de una cronología acordada para su política: la eliminación de datos es un aspecto crítico de la protección de datos y es un paso clave en todos los procesos de control de datos. [!DNL Adobe Journey Optimizer] pueden producir más datos de los necesarios. Además, desea tener el máximo cuidado con lo que sucede después de la duración requerida para un conjunto de datos, ya sea por la utilidad o la regulación. El control que necesita es eliminar datos en un momento dado. 
+    </div>
+      <div>
+     <a href="../privacy/gs-data.md">Más información</a></div>
+    </div>
   </td>
 </tr>
 </table>
