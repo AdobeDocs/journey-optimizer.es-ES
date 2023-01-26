@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: datos, administración, plataforma
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 61b800c7f987d2650c4fe6d9f08e1c02ac0f667c
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 0%
+source-wordcount: '675'
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,7 @@ Puede usar la variable [!DNL Journey Optimizer]la flexibilidad de los datos de p
 
 * **Purgas y mecanismos de archivado**: La depuración de datos y el archivado se pueden definir y automatizar libremente en [!DNL Adobe Journey Optimizer] para automatizar las políticas de retención de datos. Es posible definir diferentes estrategias de envejecimiento para las diferentes entidades de datos. También se pueden definir mecanismos de exportación para exportar automáticamente los datos de antigüedad antes de depurarlos o archivarlos.
 
-   El espacio de trabajo Higiene de los datos en la interfaz de usuario de Adobe Experience Platform le permite crear y supervisar diversas tareas de higiene de los datos, como la eliminación de identidades de consumidores y la programación de caducidades de conjuntos de datos. Este espacio de trabajo está disponible con el Escudo de seguridad y privacidad y con el Escudo de salud. Obtenga más información en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target="_blank"}.
+   El espacio de trabajo Higiene de los datos le permite crear y supervisar diversas tareas de higiene de los datos, incluida la eliminación de identidades de consumidores y la programación de caducidades de conjuntos de datos. Este espacio de trabajo está disponible con el Escudo de seguridad y privacidad y con el Escudo de salud. Obtenga más información en [esta página](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:
