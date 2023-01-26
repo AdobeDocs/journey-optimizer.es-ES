@@ -6,9 +6,9 @@ description: Aprenda a realizar operaciones de higiene de datos
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 645db980155993155a10d27f4ff59967b000442f
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '135'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->Actualmente, las funciones de higiene de los datos solo están disponibles para las organizaciones que han adquirido la oferta de complemento Escudo de la salud. También está disponible para Privacy y Security Shield, además de para Healthcare Shield
+>Actualmente, las capacidades de higiene de los datos solo están disponibles para las organizaciones que han adquirido la variable **Escudo sanitario** y **Protección de seguridad y privacidad** ofertas de complementos.
 
 
 A medida que los datos se incorporan continuamente en Adobe Experience Platform, resulta crucial garantizar que los datos se utilicen según lo previsto, se actualicen cuando sea necesario y se eliminen según las políticas organizativas.

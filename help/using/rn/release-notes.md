@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: 645db980155993155a10d27f4ff59967b000442f
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 20%
+source-wordcount: '461'
+ht-degree: 19%
 
 ---
 
@@ -38,8 +38,8 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 <td>
 <p>Adobe Experience Platform proporciona un conjunto de funciones de higiene de datos que le permiten administrar los datos almacenados mediante eliminaciones programáticas de registros de consumidores y conjuntos de datos. Esta funcionalidad ya está disponible para Adobe Journey Optimizer. </p>
 <p>Puede administrar los almacenes de datos para asegurarse de que la información se utiliza según lo esperado, se actualiza cuando es necesario corregir datos incorrectos y se elimina cuando las políticas organizativas lo consideran necesario.</p>
-<p><strong>Precaución</strong> - Actualmente, las funciones de higiene de los datos solo están disponibles para las organizaciones que han adquirido la oferta adicional de Escudo de la salud.</p>
-<p>Para obtener más información, consulte la <a href="../privacy/data-hygiene.md">documentación detallada</a>.
+<p><strong>Precaución</strong> - Actualmente, las capacidades de higiene de los datos solo están disponibles para las organizaciones que han adquirido la variable <strong>Escudo sanitario</strong> y <strong>Protección de seguridad y privacidad</strong> ofertas de complementos.</p><p>Para obtener más información, consulte la <a href="../privacy/data-hygiene.md">documentación detallada</a>.
+
 </td>
 </tr>
 </tbody>
