@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: de6a8da2-55cf-4105-ba93-40c556732626
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 7%
@@ -21,7 +21,7 @@ Utilice las funciones de mapa en la personalización para facilitar la interacci
 
 La variable `get` se utiliza para recuperar el valor de un mapa para una clave determinada.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= get(map, string) %}
@@ -39,7 +39,7 @@ La siguiente operación obtiene el valor del mapa de identidad para la clave `ex
 
 La variable `keys` se utiliza para recuperar todas las claves de un mapa determinado.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= keys(map) %}
@@ -57,7 +57,7 @@ La siguiente operación obtiene todas las claves del mapa `identityMap`.
 
 La variable `values` se utiliza para recuperar todos los valores de un mapa determinado.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= values(map) %}

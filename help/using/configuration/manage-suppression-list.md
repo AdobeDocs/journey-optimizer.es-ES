@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: supresión, lista, rechazo, correo electrónico, optimizador
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1350'
 ht-degree: 4%
 
 ---
@@ -247,11 +247,17 @@ Para ello, en la sección **[!UICONTROL Lista de supresión]** haga clic en la *
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
-Se muestran las últimas cargas que ha enviado y sus estados correspondientes.
+Se muestran las últimas cargas que ha enviado y sus estados correspondientes:
 
-Si un informe de error está asociado con un archivo, puede descargarlo para comprobar los errores encontrados.
+* **[!UICONTROL Pendiente]**: Se está procesando la carga de archivos.
+* **[!UICONTROL Error]**: Error en el proceso de carga del archivo debido a un problema técnico o a un error de formato de archivo.
+* **[!UICONTROL Completar]**: El proceso de carga de archivos se completó correctamente.
 
-![](assets/suppression-list-recent-uploads-error.png)
+Durante la carga, si algunas direcciones no tienen el formato correcto, no se agregan al grupo [!DNL Journey Optimizer] lista de supresión.
+
+En ese caso, cuando se completa la carga, se asocia a un informe. Puede descargarlo para comprobar los errores encontrados<!-- and understand why they were not added to the suppression list-->.
+
+![](assets/suppression-list-recent-uploads-report.png)
 
 A continuación, se muestra un ejemplo del tipo de entradas que puede encontrar en el informe de error:
 

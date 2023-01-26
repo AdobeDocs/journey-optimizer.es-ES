@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1809'
 ht-degree: 7%
 
 ---
@@ -21,7 +21,7 @@ Aprenda a utilizar funciones de cadena en el editor de expresiones.
 
 La variable `camelCase` pone en mayúscula la primera letra de cada palabra de una cadena.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= camelCase(string)%}
@@ -35,11 +35,29 @@ La siguiente función pone en mayúscula la primera letra de la palabra en la di
 {%= camelCase(profile.homeAddress.street) %}
 ```
 
+## Char código en {#char-code-at}
+
+La variable `charCodeAt` devuelve el valor ASCII de un carácter, como la función charCodeAt en JavaScript. Toma una cadena y un entero (que define la posición del carácter) como argumentos de entrada y devuelve su valor ASCII correspondiente.
+
+**Sintaxis**
+
+```sql
+{%= charCodeAt(string,int) %}: int
+```
+
+**Ejemplo**
+
+La siguiente función devuelve el valor ASCII de o, es decir, 111.
+
+```sql
+{%= charCodeAt("some", 1)%}
+```
+
 ## Concat {#concate}
 
 La variable `concat` combina dos cadenas en una.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= concat(string,string) %}
@@ -57,7 +75,7 @@ La siguiente función combinará ciudad y país del perfil en una sola cadena.
 
 La variable `contains` para determinar si una cadena contiene una subcadena especificada.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= contains(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -87,7 +105,7 @@ La variable `contains` para determinar si una cadena contiene una subcadena espe
 
 La variable `doesNotContain` para determinar si una cadena no contiene una subcadena especificada.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= doesNotContain(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -112,7 +130,7 @@ La siguiente consulta determina, con distinción de mayúsculas y minúsculas, s
 
 La variable `doesNotEndWith` se utiliza para determinar si una cadena no termina con una subcadena especificada.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= doesNotEndWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -136,7 +154,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 La variable `doesNotStartWith` para determinar si una cadena no comienza con una subcadena especificada.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= doesNotStartWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -160,7 +178,7 @@ La siguiente consulta determina, con distinción de mayúsculas y minúsculas, s
 
 La variable `encode64` se utiliza para codificar una cadena para conservar la información personal (PI) si se va a incluir, por ejemplo, en una dirección URL.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= encode64(string) %}
@@ -170,7 +188,7 @@ La variable `encode64` se utiliza para codificar una cadena para conservar la in
 
 La variable `endsWith` para determinar si una cadena termina con una subcadena especificada.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= endsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -195,7 +213,7 @@ La siguiente consulta determina, con distinción de mayúsculas y minúsculas, s
 
 La variable `equals` se utiliza para determinar si una cadena es igual a la cadena especificada, con distinción entre mayúsculas y minúsculas.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= equals(STRING_1, STRING_2) %}
@@ -218,7 +236,7 @@ La siguiente consulta determina, con distinción de mayúsculas y minúsculas, s
 
 La variable `equalsIgnoreCase` para determinar si una cadena es igual a la cadena especificada, sin distinción de mayúsculas y minúsculas.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= equalsIgnoreCase(STRING_1, STRING_2) %}
@@ -241,7 +259,7 @@ La siguiente consulta determina, sin distinción de mayúsculas y minúsculas, s
 
 La variable `extractEmailDomain` se utiliza para extraer el dominio de una dirección de correo electrónico.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= extractEmailDomain(string) %}
@@ -255,11 +273,29 @@ La siguiente consulta extrae el dominio de correo electrónico de la dirección 
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
+## Formato de moneda {#format-currency}
+
+La variable `formatCurrency` se utiliza para convertir cualquier número a su correspondiente representación de moneda que distinga entre idiomas, dependiendo de la configuración regional que se pase como cadena en el segundo argumento.
+
+**Sintaxis**
+
+```sql
+{%= formatCurrency(number/double,string) %}: string
+```
+
+**Ejemplo**
+
+Esta consulta devuelve £56.00
+
+```sql
+{%= formatCurrency(56L,"en_GB") %}
+```
+
 ## Obtener host de URL {#get-url-host}
 
 La variable `getUrlHost` se utiliza para recuperar el nombre de host de una URL.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= getUrlHost(string) %}: string
@@ -277,7 +313,7 @@ Devuelve &quot;www.myurl.com&quot;
 
 La variable `getUrlPath` se utiliza para recuperar la ruta después del nombre de dominio de una dirección URL.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= getUrlPath(string) %}: string
@@ -295,7 +331,7 @@ Devuelve &quot;/contact.html&quot;
 
 La variable `getUrlProtocol` se utiliza para recuperar el protocolo de una URL.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= getUrlProtocol(string) %}: string
@@ -313,7 +349,7 @@ Devuelve &quot;http&quot;
 
 La variable `indexOf` se utiliza para devolver la posición (en el primer argumento) de la primera incidencia del segundo parámetro. Devuelve -1 si no hay coincidencia.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= indexOf(STRING_1, STRING_2) %}: integer
@@ -336,7 +372,7 @@ Devuelve 6.
 
 La variable `isEmpty` para determinar si una cadena está vacía.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= isEmpty(string) %}
@@ -354,7 +390,7 @@ La siguiente función devuelve &#39;true&#39; si el número de teléfono móvil 
 
 La variable `isNotEmpty` para determinar si una cadena no está vacía.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {= isNotEmpty(string) %}: boolean
@@ -372,7 +408,7 @@ La siguiente función devuelve &#39;true&#39; si el número de teléfono móvil 
 
 La variable `lastIndexOf` se utiliza para devolver la posición (en el primer argumento) de la última incidencia del segundo parámetro. Devuelve -1 si no hay coincidencia.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {= lastIndexOf(STRING_1, STRING_2) %}: integer
@@ -395,7 +431,7 @@ Devuelve 7.
 
 La variable `leftTrim` se utiliza para eliminar los espacios en blanco del principio de una cadena.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= leftTrim(string) %}
@@ -405,7 +441,7 @@ La variable `leftTrim` se utiliza para eliminar los espacios en blanco del princ
 
 La variable `length` se utiliza para obtener el número de caracteres de una cadena o una expresión.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= length(string) %}
@@ -423,7 +459,7 @@ La siguiente función devuelve la longitud del nombre de ciudad del perfil.
 
 La variable `like` para determinar si una cadena coincide con un patrón especificado.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= like(STRING_1, STRING_2) %}
@@ -464,7 +500,7 @@ Esta función convierte el nombre del perfil en letras minúsculas.
 
 La variable `matches` para determinar si una cadena coincide con una expresión regular específica. Consulte [este documento](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) para obtener más información sobre patrones coincidentes en expresiones regulares.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= matches(STRING_1, STRING_2) %}
@@ -482,7 +518,7 @@ La siguiente consulta determina, sin distinción de mayúsculas y minúsculas, s
 
 La variable `Mask` se utiliza para reemplazar una parte de una cadena con caracteres &quot;X&quot;.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= mask(string,integer,integer) %}
@@ -502,7 +538,7 @@ La consulta devuelve `1XXXXXX89`.
 
 La variable `md5` se utiliza para calcular y devolver el hash md5 de una cadena.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= md5(string) %}: string
@@ -520,7 +556,7 @@ Devuelve &quot;5eb63bbbe01eed093cb22bb8f5acdc3&quot;
 
 La variable `notEqualTo` para determinar si una cadena no es igual a la cadena especificada.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= notEqualTo(STRING_1, STRING_2) %}
@@ -543,7 +579,7 @@ La siguiente consulta determina, con distinción de mayúsculas y minúsculas, s
 
 La variable `notEqualWithIgnoreCase` se utiliza para comparar dos cadenas que ignoran mayúsculas y minúsculas.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {= notEqualWithIgnoreCase(STRING_1,STRING_2) %}: boolean
@@ -566,7 +602,7 @@ La siguiente consulta determina si el nombre de la persona no es &quot;john&quot
 
 La variable `Group` se utiliza para extraer información específica, según la expresión regular proporcionada.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= regexGroup(STRING, EXPRESSION, GROUP) %}
@@ -590,7 +626,7 @@ La siguiente consulta se utiliza para extraer el nombre de dominio de una direcc
 
 La variable `replace` se utiliza para reemplazar una subcadena determinada de una cadena por otra subcadena.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= replace(STRING_1,STRING_2,STRING_3) %}:string
@@ -614,7 +650,7 @@ Devuelve &quot;Hello Mark, aquí tiene su boletín mensual&quot;.
 
 La variable `replaceAll` se utiliza para reemplazar todas las subcadenas de un texto que coincida con el &quot;destino&quot; por la cadena de sustitución literal especificada. La sustitución procede desde el principio de la cadena hasta el final, por ejemplo, reemplazar &quot;aa&quot; por &quot;b&quot; en la cadena &quot;aaa&quot; resultará en &quot;ba&quot; en lugar de &quot;ab&quot;.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= replaceAll(string,string,string) %}
@@ -624,7 +660,7 @@ La variable `replaceAll` se utiliza para reemplazar todas las subcadenas de un t
 
 La variable `rightTrim` se utiliza para eliminar los espacios en blanco del final de una cadena.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= rightTrim(string) %}
@@ -634,7 +670,7 @@ La variable `rightTrim` se utiliza para eliminar los espacios en blanco del fina
 
 La variable `split` se utiliza para dividir una cadena por un carácter determinado.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= split(string,string) %}
@@ -644,7 +680,7 @@ La variable `split` se utiliza para dividir una cadena por un carácter determin
 
 La variable `startsWith` se utiliza para determinar si una cadena comienza con una subcadena especificada.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= startsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -664,11 +700,27 @@ La siguiente consulta determina, con distinción de mayúsculas y minúsculas, s
 {%= startsWith(person.name,"Joe") %}
 ```
 
+## Cadena hasta la fecha {#string-to-date}
+
+La función &quot;stringToDate&quot; convierte un valor de cadena en un valor de fecha y hora. Toma dos argumentos: representación de cadena de una representación de fecha-hora y de cadena del formateador.
+
+**Sintaxis**
+
+```sql
+{= stringToDate("date-time value","formatter" %}
+```
+
+**Ejemplo**
+
+```sql
+{= stringToDate("2023-01-10 23:13:26", "yyyy-MM-dd HH:mm:ss") %}
+```
+
 ## Cadena a entero {#string-to-integer}
 
 La variable `string_to_integer` se utiliza para convertir un valor de cadena en un valor entero.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {= string_to_integer(string) %}: int
@@ -678,7 +730,7 @@ La variable `string_to_integer` se utiliza para convertir un valor de cadena en 
 
 La variable `stringToNumber` se utiliza para convertir una cadena en número. Devuelve la misma cadena que el resultado de una entrada no válida.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= stringToNumber(string) %}: double
@@ -687,7 +739,7 @@ La variable `stringToNumber` se utiliza para convertir una cadena en número. De
 ## Subcadena {#sub-string}
 
 La variable `Count string` se utiliza para devolver la subcadena de la expresión de cadena entre el índice begin y el índice end.
-**Formato**
+**Sintaxis**
 
 ```sql
 {= substr(string, integer, integer) %}: string
@@ -715,7 +767,7 @@ Si la persona vive en Washington High Street, esta función regresará a Washing
 
 La variable `toBool` se utiliza para convertir un valor de argumento en un valor booleano, según su tipo.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {= toBool(string) %}: boolean
@@ -725,7 +777,7 @@ La variable `toBool` se utiliza para convertir un valor de argumento en un valor
 
 La variable `toDateTime` se utiliza para convertir cadena a fecha. Devuelve la fecha de epoch como salida para una entrada no válida.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= toDateTime(string, string) %}: date-time
@@ -733,15 +785,15 @@ La variable `toDateTime` se utiliza para convertir cadena a fecha. Devuelve la f
 
 ## Hasta fecha solamente {#to-date-time-only}
 
-La variable `toDateTimeOnly` se utiliza para convertir un valor de argumento en un valor de solo fecha y hora. Devuelve la fecha de epoch como salida para una entrada no válida.
+La variable `toDateTimeOnly` se utiliza para convertir un valor de argumento en un valor de solo fecha. Devuelve la fecha de epoch como salida para una entrada no válida. Esta función acepta tipos de campo de cadena, fecha, larga e int.
 
-**Formato**
+**Sintaxis**
 
 ```sql
-{%= toDateTimeOnly(string) %}: date-time
+{%= toDateTimeOnly(string/date/long/int) %}: date-time
 ```
 
-## Recortar{#trim}
+## Recortar {#trim}
 
 La variable **trim** elimina todos los espacios en blanco del principio y del final de una cadena.
 
@@ -769,11 +821,11 @@ Esta función convierte los apellidos del perfil en mayúsculas.
 {%= upperCase(profile.person.name.lastName) %}
 ```
 
-## descodificación de url {#url-decode}
+## Descodificación de URL {#url-decode}
 
 La variable `urlDecode` se utiliza para decodificar una cadena con codificación url.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= urlDecode(string) %}: string
@@ -783,7 +835,7 @@ La variable `urlDecode` se utiliza para decodificar una cadena con codificación
 
 La variable `Count only null` para codificar una cadena.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= urlEncode(string) %}: string

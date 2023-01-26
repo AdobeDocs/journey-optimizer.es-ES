@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, leer, segmento, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1342'
 ht-degree: 11%
 
 ---
@@ -61,7 +61,7 @@ Los pasos para configurar la actividad Leer segmento son los siguientes:
 
    ![](assets/read-segment-copy.png)
 
-1. En el **[!UICONTROL Área de nombres]** , elija el área de nombres que desea utilizar para identificar a las personas. [Más información sobre áreas de nombres](../event/about-creating.md#select-the-namespace).
+1. En el **[!UICONTROL Área de nombres]** , elija el área de nombres que desea utilizar para identificar a las personas. De forma predeterminada, el campo se rellena previamente con el último espacio de nombres utilizado. [Más información sobre áreas de nombres](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >

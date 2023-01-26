@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 9%
@@ -21,7 +21,7 @@ Las funciones de agregación se utilizan para agrupar varios valores y formar un
 
 La variable `average` devuelve la media aritmética de todos los valores seleccionados dentro de la matriz.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= average(array) %}
@@ -39,7 +39,7 @@ La siguiente operación devuelve el precio promedio de todos los pedidos.
 
 La variable `count` devuelve el número de elementos dentro de la matriz dada.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= count(array) %}
@@ -57,7 +57,7 @@ La siguiente operación devuelve el número de pedidos de la matriz.
 
 La variable `max` devuelve el mayor de todos los valores seleccionados dentro de la matriz.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= max(array) %}
@@ -75,7 +75,7 @@ La siguiente operación devuelve el precio más alto de todos los pedidos.
 
 La variable `min` devuelve el menor de todos los valores seleccionados dentro de la matriz.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= min(array) %}
@@ -93,7 +93,7 @@ La siguiente operación devuelve el precio más bajo de todos los pedidos.
 
 La variable `sum` devuelve la suma de todos los valores seleccionados dentro de la matriz.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= sum(array) %}

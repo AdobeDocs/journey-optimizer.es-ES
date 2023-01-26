@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 075a90130696877d5dea39b7bfe4e85b2aac4791
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1805'
 ht-degree: 4%
 
 ---
@@ -146,7 +146,10 @@ Haga clic en el `...` para ver la descripción de la función y agregarla a sus 
 
 <table>
     <tr>
-        <td><a href="math.md#absolute">Absoluta  </a></td><td>Esta función convierte un número en su valor absoluto</td>
+        <td><a href="math.md#absolute">Absoluta  </a></td><td>Esta función da formato a cualquier número en su representación que distingue entre idiomas.</td>
+    </tr>
+    <tr>
+        <td><a href="math.md#format-number">Número de formato</a></td><td>Esta función da formato a cualquier número en su representación que distingue entre idiomas.</td>
     </tr>
     <tr>
         <td><a href="math.md#random">Aleatorio</a></td><td>Esta función devuelve un valor aleatorio entre 0 y 1</td>
@@ -158,10 +161,16 @@ Haga clic en el `...` para ver la descripción de la función y agregarla a sus 
         <td><a href="math.md#round-up">Redondear</a></td><td>Esta función redondea un número</td>
     </tr>
     <tr>
+    <td><a href="math.md#to-hex-string">A cadena hexadecimal</a></td><td>convierte cualquier número en su cadena hexadecimal.</td>
+    </tr>
+    <tr>
         <td><a href="math.md#to-percentage">Hasta porcentaje</a></td><td>Esta función convierte un número en porcentaje</td>
     </tr>
     <tr>
         <td><a href="math.md#to-precision">Para precisión</a></td><td>Esta función convierte un número en la precisión necesaria</td>
+    </tr>
+    <tr>
+        <td><a href="math.md#to-string">A cadena</a></td><td>Esta función convierte cualquier número en su representación de cadena. </td>
     </tr>
 </table>
 
@@ -181,6 +190,9 @@ Haga clic en el `...` para ver la descripción de la función y agregarla a sus 
 <table>
     <tr>
         <td><a href="string.md#camelCase">Camello</a></td><td>Esta función se utiliza para poner en mayúsculas la primera letra de cada palabra de una cadena</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#char-code-at">Char código en</a></td><td>Esta función devuelve el valor ASCII de un carácter, como la función charCodeAt en JavaScript</td>
     </tr>
     <tr>
         <td><a href="string.md#concat">Concat</a></td><td>Esta función se utiliza para combinar dos cadenas en una</td>
@@ -212,6 +224,9 @@ Haga clic en el `...` para ver la descripción de la función y agregarla a sus 
     </tr>
     <tr>
         <td><a href="string.md#extractEmailDomain">Extraer dominio de correo electrónico</a></td><td>Esta función se utiliza para extraer el dominio de una dirección de correo electrónico</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#format-currency">Formato de moneda</a></td><td>Esta función convierte cualquier número en su representación de moneda correspondiente que distingue entre idiomas, según la configuración regional que se pase como cadena en el segundo argumento</td>
     </tr>
     <tr>
         <td><a href="string.md#get-url-host">Obtener host de URL</a></td><td>Esta función se utiliza para obtener el host de url.</td>
@@ -280,7 +295,7 @@ Haga clic en el `...` para ver la descripción de la función y agregarla a sus 
         <td><a href="string.md#startsWith">Comienza con</a></td><td>Esta función se utiliza para determinar si una cadena comienza con una subcadena especificada</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-date">Cadena hasta la fecha</a></td><td>Esta función se utiliza para convertir cadenas a la fecha. Devuelve la fecha de epoch como salida para una entrada no válida.</td>
+        <td><a href="string.md#string-to-date">Cadena hasta la fecha</a></td><td>Esta función convierte un valor de cadena en un valor de fecha y hora</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-integer">Cadena a entero</a></td><td>Esta función convierte un valor de cadena en un valor entero.</td>

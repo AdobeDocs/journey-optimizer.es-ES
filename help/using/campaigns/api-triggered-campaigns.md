@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campañas, activadas por API, REST, optimizer, mensajes
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '817'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,8 @@ Para ello, primero debe crear una campaña activada por API en Journey Optimizer
 Los canales disponibles para las campañas activadas por API son correo electrónico, SMS y mensajes push.
 
 ## Creación de una campaña activada por API {#create}
+
+### Configuración y activación de la campaña {#create-activate}
 
 El proceso para crear campañas activadas por API sigue siendo el mismo que las campañas programadas, excepto para la selección de audiencias que se realiza en la carga útil de API. Encontrará información detallada sobre cómo crear una campaña en [esta sección](create-campaign.md).
 
@@ -55,11 +57,23 @@ Para crear una campaña desencadenada por API, siga estos pasos:
 
    Si configura una fecha de inicio y/o finalización específica para una campaña, no se ejecutará fuera de estas fechas y las llamadas a la API fallarán si la campaña se activa mediante API.
 
-1. En el **[!UICONTROL petición cURL]** , recupere la **[!UICONTROL ID de campaña]** para usar en la carga útil de API.
+1. Haga clic en **[!UICONTROL Revisar para activar]** para comprobar que la campaña está correctamente configurada, actívela.
+
+Ya está listo para ejecutar la campaña desde las API de . [Más información](#execute)
+
+### Ejecución de la campaña {#execute}
+
+Una vez activada la campaña, debe recuperar la solicitud cURL de ejemplo generada y utilizarla en la API para crear la carga útil y el déclencheur de la campaña.
+
+1. Abra la campaña y copie y pegue la solicitud de ejemplo desde el **[!UICONTROL petición cURL]** para obtener más información.
 
    ![](assets/api-triggered-curl.png)
 
-1. Haga clic en **[!UICONTROL Revisar para activar]** para comprobar que la campaña está correctamente configurada, actívela.
+1. Utilice esta solicitud cURL en las API para crear la carga útil y el déclencheur de la campaña. Para obtener más información, consulte [Documentación de la API de ejecución de mensajes interactivos](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+
+   >[!NOTE]
+   >
+   >Si ha configurado una fecha de inicio y/o finalización específica al crear la campaña, esta no se ejecutará fuera de estas fechas y las llamadas a la API no se completarán.
 
 ## Utilizar atributos contextuales en campañas activadas por API {#contextual}
 
@@ -82,16 +96,6 @@ La variable `{{context.<contextualAttribute>}}` la sintaxis de se asigna únicam
 >La variable `context.system` la sintaxis está restringida únicamente al uso interno de Adobe y no debe utilizarse para pasar atributos contextuales.
 
 Tenga en cuenta que, por ahora, no hay ningún atributo contextual disponible para usar en el menú del carril izquierdo. Los atributos deben escribirse directamente en la expresión de personalización, sin que la comprobación la realice [!DNL Journey Optimizer].
-
-## Ejecución de la campaña {#execute}
-
-Para ejecutar una campaña activada por API, primero debe recuperar su ID y pasarlo a la carga útil de API. Para ello, abra la campaña y copie el ID y péguelo en el **[!UICONTROL petición cURL]** para obtener más información.
-
-![](assets/api-triggered-id.png)
-
-A continuación, puede utilizar este ID en la carga útil de la API para almacenar en déclencheur la campaña. Consulte la [Documentación de la API de ejecución de mensajes interactivos](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) para obtener más información.
-
-Tenga en cuenta que si ha configurado una fecha de inicio y/o finalización específica al crear la campaña, no se ejecutará fuera de estas fechas y las llamadas a la API no se ejecutarán correctamente.
 
 ## Creación de perfiles en la ejecución de la campaña {#profile-creation}
 

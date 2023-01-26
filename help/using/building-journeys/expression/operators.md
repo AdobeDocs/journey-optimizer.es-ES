@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expresión, sintaxis, operadores, editor, recorrido
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '516'
 ht-degree: 6%
 
 ---
@@ -20,18 +20,20 @@ ht-degree: 6%
 Existen dos tipos de operadores: operadores unarios y operadores binarios. Hay operadores unarios a la izquierda y operadores unarios a la derecha.
 
 ```json
-    // left-hand unary operators
-    <operator> <operand> // operand is an expression
-    not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
+// left-hand unary operators
+// <operator> <operand> 
+// operand is an expression
+not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
-    // right-hand unary operators
-    <operand> <operator> // operand is an expression
-    @{LobbyBeacon.endUserIDs._experience.emailid.id} is not null
+// right-hand unary operators
+// <operator> <operand> 
+// operand is an expression
+@{LobbyBeacon.endUserIDs._experience.emailid.id} is not null
 
-    // binary operators
-    <operand1> <operator> <operand2>
-    (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example1@adobe.com") or
-    (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com")
+// binary operators
+// <operand1> <operator> <operand2>
+// operand is an expression
+(@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example1@adobe.com") or (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com") 
 ```
 
 ## Notas importantes{#important-notes}
@@ -58,8 +60,6 @@ Por ejemplo:
 
 ### o
 
-
-
 ```json
 <expression1> or <expression2>
 ```
@@ -73,8 +73,6 @@ Por ejemplo:
 ```
 
 ### not
-
-
 
 ```json
 not <expression>
@@ -92,8 +90,6 @@ not 3.15 < 1
 
 ### es nulo
 
-
-
 ```json
 <expression> is null
 ```
@@ -109,8 +105,6 @@ Por ejemplo:
 ```
 
 ### no es nulo
-
-
 
 ```json
 <expression> is not null
@@ -128,8 +122,6 @@ Por ejemplo:
 
 ### tiene nulo
 
-
-
 ```json
 <expression> has null
 ```
@@ -141,16 +133,18 @@ Es útil para identificar que una lista contiene al menos un valor nulo.
 Por ejemplo:
 
 ```json
-["foo", "bar", null] has null --  returns true.
+["foo", "bar", null] has null
 ```
+
+Devuelve verdadero
 
 ```json
-["foo", "bar", ""] has null -- returns false because "" is not considered as null.
+["foo", "bar", ""] has null
 ```
 
+Devuelve false porque &quot;&quot; no se considera nulo.
+
 ### ==
-
-
 
 ```json
 <expression1> == <expression2>
@@ -172,8 +166,6 @@ Por ejemplo:
 
 ### !=
 
-
-
 ```json
 <expression1> != <expression2>
 ```
@@ -194,8 +186,6 @@ Por ejemplo:
 ```
 
 ### >
-
-
 
 ```json
 <expression1> > <expression2>
@@ -219,8 +209,6 @@ Por ejemplo:
 
 ### >=
 
-
-
 ```json
 <expression1> >= <expression2>
 ```
@@ -243,8 +231,6 @@ Por ejemplo:
 
 ### &lt;
 
-
-
 ```json
 <expression1> < <expression2>
 ```
@@ -266,8 +252,6 @@ Por ejemplo:
 ```
 
 ### &lt;=
-
-
 
 ```json
 <expression1> <= <expression2>
@@ -293,8 +277,6 @@ Por ejemplo:
 
 ### +
 
-
-
 ```json
 <expression1> + <expression2>
 ```
@@ -306,12 +288,12 @@ El resultado también es numérico.
 Por ejemplo:
 
 ```json
-1 + 2 -- returns 3
+1 + 2
 ```
 
+Devuelve 3
+
 ### -
-
-
 
 ```json
 <expression1> - <expression2>
@@ -324,12 +306,12 @@ El resultado también es numérico.
 Por ejemplo:
 
 ```json
-2 - 1 -- returns 1
+2 - 1 
 ```
 
+Devuelve 1
+
 ### /
-
-
 
 ```json
 <expression1> / <expression2>
@@ -344,12 +326,12 @@ El resultado también es numérico.
 Por ejemplo:
 
 ```json
-4 / 2 -- returns 2
+4 / 2
 ```
 
+Devuelve 2
+
 ### *
-
-
 
 ```json
 <expression1> * <expression2>
@@ -362,12 +344,12 @@ El resultado también es numérico.
 Por ejemplo:
 
 ```json
-3 * 4 -- returns 12
+3 * 4
 ```
 
+Devuelve 12
+
 ### %
-
-
 
 ```json
 <expression1> % <expression2>
@@ -380,14 +362,14 @@ El resultado también es numérico.
 Por ejemplo:
 
 ```json
-3 % 2 -- returns 1.
+3 % 2
 ```
+
+Devuelve 1.
 
 ## Math {#math}
 
 ### es numérico
-
-
 
 ```json
 <expression> is numeric
@@ -403,8 +385,6 @@ Por ejemplo:
 
 ### is integer
 
-
-
 ```json
 <expression> is integer
 ```
@@ -418,8 +398,6 @@ Por ejemplo:
 ```
 
 ### es decimal
-
-
 
 ```json
 <expression> is decimal
@@ -437,8 +415,6 @@ Por ejemplo:
 
 ### +
 
-
-
 ```json
 <string> + <expression>
 ```
@@ -454,22 +430,26 @@ Una expresión debe ser una cadena encadenada.
 Por ejemplo:
 
 ```json
-"the current time is " + (now()) -- returns "the current time is 2019-09-23T09:30:06.693Z"
+"the current time is " + (now())
 ```
 
-```json
-(now()) + " is the current time" -- returns "2019-09-23T09:30:06.693Z is the current time"
-```
+Devuelve &quot;la hora actual es 2019-09-23T09:30:06,693Z&quot;
 
 ```json
-"a" + "b" + "c" + 1234 -- returns "abc1234".
+(now()) + " is the current time"
 ```
+
+Devuelve &quot;2019-09-23T09:30:06.693Z es la hora actual&quot;
+
+```json
+"a" + "b" + "c" + 1234
+```
+
+Devuelve &quot;abc1234&quot;.
 
 ## Fecha {#date}
 
 ### +
-
-
 
 ```json
 <expression> + <duration>
@@ -480,17 +460,25 @@ Anexe una duración a dateTime, dateTimeOnly o una duración.
 Por ejemplo:
 
 ```json
-toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M") -- returns 2011-12-03T15:30:30Z
+(toDateTime("2011-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-```json
-toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M") -- returns 2011-12-03T15:30:30
-```
+Devuelve un _dateTime_ 2011-12-03T15:30:30Z
 
 ```json
-now() + toDuration("PT1H") -- returns a dateTime (with UTC time zone) one hour later from current time
+(toDateTimeOnly("2011-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
+Devuelve un _dateTimeOnly_ 2011-12-03T15:30:30
+
 ```json
-toDuration("PT1H") + toDuration("PT1H") -- returns  PT2H
+(now()) + (toDuration("PT1H"))
 ```
+
+Devuelve un _dateTime_ (con zona horaria UTC) una hora después de la hora actual
+
+```json
+(toDuration("PT1H")) + (toDuration("PT1H"))
+```
+
+Devuelve un _duration_ PT2H

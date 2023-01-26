@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 100%
+source-wordcount: '1642'
+ht-degree: 94%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 Conéctese a [Adobe Experience Cloud](http://experience.adobe.com) y busque [!DNL Journey Optimizer].
 
-Los conceptos clave al examinar la interfaz de usuario son habituales en Adobe Experience Platform. Consulte la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=es#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} para obtener más información.
+Los conceptos clave al examinar la interfaz de usuario son habituales en Adobe Experience Platform. Consulte la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=es#adobe-experience-platform-ui-guide) para obtener más información.{target="_blank"}
 
-Los componentes y las funciones disponibles en la IU dependen de los [permisos](../administration/permissions.md) y del [paquete de licencias](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target=&quot;_blank&quot;}. Para cualquier pregunta, póngase en contacto con el Manager de éxito del cliente de Adobe.
+Los componentes y las funciones disponibles en la IU dependen de los [permisos](../administration/permissions.md) y del [paquete de licencias](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}. Para cualquier pregunta, póngase en contacto con el Manager de éxito del cliente de Adobe.
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ La página principal de [!DNL Journey Optimizer] contiene vínculos clave y recu
 
 * **[!UICONTROL Consultas]**: utilice el servicio de consulta de Adobe Experience Platform para escribir y ejecutar consultas, ver consultas ejecutadas anteriormente y acceder a las guardadas por usuarios de su organización. [Más información](../data/get-started-queries.md)
 
-* **[!UICONTROL Monitorización]**: utilice este menú para monitorizar la ingesta de datos en la interfaz de usuario de Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=es){target=&quot;_blank&quot;}
+* **[!UICONTROL Monitorización]**: utilice este menú para monitorizar la ingesta de datos en la interfaz de usuario de Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=es){target="_blank"}
 
 **[!UICONTROL CONEXIONES]**
 
@@ -88,7 +88,7 @@ La página principal de [!DNL Journey Optimizer] contiene vínculos clave y recu
 
 * **[!UICONTROL Zonas protegidas]**: Adobe Experience Platform proporciona entornos limitados que dividen una sola instancia en entornos virtuales independientes para ayudarle a desarrollar aplicaciones de experiencia digital y hacer que evolucionen. [Más información](../administration/sandboxes.md)
 
-* **[!UICONTROL Alertas]**: la interfaz de usuario le permite ver un historial de alertas recibidas en función de las métricas reveladas por Adobe Experience Platform Observability Insights. La IU también le permite ver, habilitar y deshabilitar las reglas de alerta disponibles. [Más información](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=es){target=&quot;_blank&quot;}
+* **[!UICONTROL Alertas]**: la interfaz de usuario le permite ver un historial de alertas recibidas en función de las métricas reveladas por Adobe Experience Platform Observability Insights. La IU también le permite ver, habilitar y deshabilitar las reglas de alerta disponibles. [Más información](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=es){target="_blank"}
 
 
 ## Casos de uso dentro del producto {#in-product-uc}
@@ -118,7 +118,7 @@ Las funciones de accesibilidad de [!DNL Adobe Journey Optimizer] se heredan de A
 * Contraste de color
 * Validación de campos obligatorios
 
-[Más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=es){target=&quot;_blank&quot;} en la documentación de Adobe Experience Platform.
+[Más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=es){target="_blank"} en la documentación de Adobe Experience Platform.
 
 Puede utilizar estos métodos abreviados del teclado comunes en [!DNL Journey Optimizer]:
 
@@ -130,7 +130,7 @@ Puede utilizar estos métodos abreviados del teclado comunes en [!DNL Journey Op
 | Seleccionar o borrar un elemento que esté enfocado | Intro o barra espaciadora |
 | Cancelar una selección, contraer un panel o cerrar un cuadro de diálogo | ESC |
 
-[Más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=es){target=&quot;_blank&quot;} en la documentación de Adobe Experience Platform.
+[Más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=es){target="_blank"} en la documentación de Adobe Experience Platform.
 
 Puede utilizar estos métodos abreviados en partes específicas de Journey Optimizer:
 
@@ -154,12 +154,32 @@ Puede utilizar estos métodos abreviados en partes específicas de Journey Optim
   </tr>
   <tr>
     <td>Seleccionar todas las actividades</td>
-    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+    <td>CTRL + A (Windows)<br/>CMD + A (Mac)</td>
   </tr>
   <tr>
     <td>Eliminación de las actividades seleccionadas</td>
     <td>Use la tecla Suprimir o Retroceso y a continuación Intro para confirmar la eliminación</td>
   </tr>
+  <tr>
+    <td>Acercar o alejar (enfoque en el lienzo o en cualquiera de sus elementos secundarios)</td>
+    <td>CTRL +/- (Windows) o CMD +/- (Mac)</td>
+  </tr>  
+  <tr>
+    <td>Desplazarse entre cada actividad y ruta (enfoque en el lienzo) o entre los botones de la barra de herramientas (enfoque en la barra de herramientas)</td>
+    <td>Claves de FLECHA</td>
+  </tr>   
+  <tr>
+    <td>Mover el foco al siguiente elemento procesable del lienzo; la barra de herramientas es la primera</td>
+    <td>Tabulación</td>
+  </tr>  
+  <tr>
+    <td>Abra el panel de configuración correcto (enfoque en una actividad)</td>
+    <td>ENTER</td>
+  </tr>   
+  <tr>
+    <td>Mover una actividad al lienzo (enfoque en una actividad)</td>
+    <td>MAYÚS + teclas de flecha</td>
+  </tr>  
   <tr>
   <td rowspan="3">
 

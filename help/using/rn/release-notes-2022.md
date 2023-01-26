@@ -4,16 +4,57 @@ product: journey optimizer
 title: Notas de la versión 2022
 description: Notas de la versión de Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '3453'
-ht-degree: 100%
+source-wordcount: '3583'
+ht-degree: 99%
 
 ---
 
 # Notas de la versión 2022 {#release-notes-2022}
 
 Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] lanzado en 2022.
+
+
+
+## Versión de octubre de 2022 {#oct-2022-release}
+
+<!--
+
+### New capability{#oct-2022-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Direct Mail Channel (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now add direct mail messages in your campaigns and journeys. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
+<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+-->
+
+### Mejoras {#oct-2022-improvements}
+
+**Recorridos**
+
+* La opción **Forzar reentrada en repetición** se ha añadido en los parámetros de programación de segmentos de lectura recurrentes. Esta opción le permite hacer que todos los perfiles que aún están presentes en el recorrido se cierren automáticamente en la siguiente ejecución. Cuando la opción está desactivada, los perfiles deben finalizar el recorrido antes de poder volver a entrar en otra ocurrencia. [Más información](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+**Administración**
+
+* Se ha agregado un mensaje a la interfaz de usuario para advertir que las configuraciones de subdominio, subdominio de página de aterrizaje, registro PTR y grupo de IP son comunes a todas las zonas protegidas, por lo que cualquier modificación en una de estas configuraciones también afectará a las zonas protegidas de producción.
+* Se han modificado los pasos para cargar la lista de supresión como archivo CSV desde la interfaz de usuario. [Más información](../configuration/manage-suppression-list.md#download-suppression-list)
+
+**Campañas**
+
+* Ahora puede archivar las campañas completadas y detenidas. [Más información](../campaigns/modify-stop-campaign.md#archive)
 
 
 ## Versión de septiembre de 2022{#sept-2022-release}
@@ -346,7 +387,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 **Recorridos**
 
-* **Finalización de un recorrido**: en el lienzo del recorrido, la actividad **Fin** se ha eliminado de la paleta. Las etiquetas finales ahora se añaden de forma predeterminada al final de cada ruta y no se pueden eliminar. Esta mejora permite informar mejor sobre dónde abandonó un cliente el recorrido, sin que se requiera ninguna acción por parte del profesional del recorrido. Consulte la [documentación](../building-journeys/end-journey.md) y el [vídeo de funciones](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
+* **Finalización de un recorrido**: en el lienzo del recorrido, la actividad **Fin** se ha eliminado de la paleta. Las etiquetas finales ahora se añaden de forma predeterminada al final de cada ruta y no se pueden eliminar. Esta mejora permite informar mejor sobre dónde abandonó un cliente el recorrido, sin que se requiera ninguna acción por parte del profesional del recorrido. Consulte la [documentación](../building-journeys/end-journey.md) y [vídeo de funciones](https://video.tv.adobe.com/v/345376){target="_blank"}.
 
 
 * La opción **Zona horaria del perfil** ahora está desactivada de forma predeterminada en las propiedades del recorrido. [Más información](../building-journeys/timezone-management.md#timezone-from-profiles)

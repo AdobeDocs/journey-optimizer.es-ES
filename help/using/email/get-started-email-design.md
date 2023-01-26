@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: correo electrónico, diseño, stock, activos
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 21%
+source-wordcount: '317'
+ht-degree: 18%
 
 ---
 
@@ -52,6 +52,10 @@ Una vez que haya [se ha añadido un correo electrónico](create-email.md) a un r
    * **Seleccionar un contenido existente** de una lista de plantillas integradas o personalizadas. Aprenda a trabajar con plantillas de correo electrónico [esta sección](email-templates.md).
 
    ![](assets/email_designer_create_options.png)
+
+1. Una vez definido y personalizado el contenido del correo electrónico, puede exportar el contenido para su validación o para utilizarlo posteriormente. Haga clic en **[!UICONTROL HTML de exportación]** para guardar en su equipo un archivo zip que incluirá su HTML y sus recursos.
+
+   ![](assets/email_designer_export.png)
 
 ## Vídeo explicativo {#video}
 

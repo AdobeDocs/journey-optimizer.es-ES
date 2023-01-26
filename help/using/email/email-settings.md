@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1478'
 ht-degree: 2%
 
 ---
@@ -68,6 +68,14 @@ No puede continuar con la creación de superficie mientras el grupo IP seleccion
 >[!NOTE]
 >
 >Para los entornos que no son de producción, Adobe no crea subdominios de prueba predeterminados ni concede acceso a un grupo de IP de envío compartido. Debe [delegar sus propios subdominios](../configuration/delegate-subdomain.md) y usar las IP del grupo asignado a su organización.
+
+Una vez seleccionado un grupo de IP, la información de PTR es visible al pasar el ratón por encima de las direcciones IP que se muestran debajo de la lista desplegable del grupo de IP. [Más información sobre los registros PTR](../configuration/ptr-records.md)
+
+![](assets/email-surface-ptr-record.png)
+
+>[!NOTE]
+>
+>Si no se ha configurado un registro PTR, póngase en contacto con el representante de Adobe.
 
 ## Cancelación de suscripción a una lista {#list-unsubscribe}
 

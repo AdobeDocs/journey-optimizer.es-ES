@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: IP, grupos, grupo, subdominios, capacidad de envío
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 3%
+source-wordcount: '717'
+ht-degree: 2%
 
 ---
 
@@ -61,6 +61,18 @@ Para crear un grupo de IP, siga estos pasos:
    >[!NOTE]
    >
    >Todas las direcciones IP aprovisionadas con su instancia están disponibles en la lista.
+
+Al seleccionar direcciones IP, puede ver en la lista los registros PTR asociados a las direcciones IP. Esto le permite verificar la información de marca de cada IP al crear un grupo de IP y seleccionar las IP con la misma información de marca, por ejemplo. [Más información sobre los registros PTR](ptr-records.md)
+
+![](assets/ip-pool-ptr-record.png)
+
+>[!NOTE]
+>
+>Si no hay ningún registro PTR configurado para una IP, no puede seleccionar esa IP. Póngase en contacto con su representante de Adobe para configurar el registro PTR de esa IP.
+
+Una vez creado un grupo de IP, la información de PTR es visible al pasar el ratón por encima de las direcciones IP que se muestran debajo de la lista desplegable del grupo de IP.
+
+![](assets/ip-pool-ptr-record-tooltip.png)
 
 El grupo de IP ahora se crea y se muestra en la lista. Puede seleccionarlo para acceder a sus propiedades y mostrar la superficie de canal asociada (es decir, el valor preestablecido de mensaje). Para obtener más información sobre cómo asociar una superficie de canal a un grupo de IP, consulte [esta sección](channel-surfaces.md).
 

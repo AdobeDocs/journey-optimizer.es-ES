@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, segmento, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 13%
+source-wordcount: '1061'
+ht-degree: 12%
 
 ---
 
@@ -94,9 +94,35 @@ La variable **Copiar detalles técnicos** le permite copiar información técnic
 
 ### Entrada{#entrance}
 
-De forma predeterminada, los nuevos recorridos permiten volver a entrar. Puede desmarcar la opción de recorridos de &quot;una toma&quot;, por ejemplo, si desea ofrecer un regalo único cuando una persona entra en una tienda.
-
+De forma predeterminada, los nuevos recorridos permiten volver a entrar. Puede desmarcar la casilla **Permitir la reentrada** para recorridos de &quot;una toma&quot;, por ejemplo, si desea ofrecer un regalo único cuando una persona entra en una tienda.
+<!--
+When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
+-->
 Obtenga más información sobre la administración de la entrada de perfiles en [esta sección](entry-management.md).
+
+### Administrar acceso {#access}
+
+Para asignar etiquetas de uso de datos principales o personalizadas al recorrido, haga clic en el botón **[!UICONTROL Administrar acceso]** botón. [Obtenga más información sobre Control de acceso a nivel de objeto (OLA)](../administration/object-based-access.md)
+
+![](assets/journeys-manage-access.png)
+
+### Zona horaria y zona horaria del perfil {#timezone}
+
+La zona horaria se define en el nivel de recorrido.
+
+Puede introducir una zona horaria fija o utilizar perfiles de Adobe Experience Platform para definir la zona horaria del recorrido.
+
+Si se define una zona horaria en el perfil de Adobe Experience Platform, se puede recuperar en el recorrido .
+
+Para obtener más información sobre la administración de huso horario, consulte [esta página](../building-journeys/timezone-management.md).
+
+### Fechas de inicio y finalización {#dates}
+<!--
+You can define a **Start date**. If you haven't specified one, it will be automatically defined at publication time. 
+
+You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout (generally 30 days, 7 days with Healthcare Shield add-on offering). The only exception is recurring read segment journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
+-->
+Puede definir una **Fecha de inicio**. También puede agregar una **Fecha final**. Esto permite a los perfiles salir automáticamente cuando se llega a la fecha. Si no especifica una fecha de finalización, los perfiles pueden permanecer hasta el tiempo de espera de recorrido predeterminado.
 
 ### Tiempo de espera y error en las actividades de recorrido {#timeout_and_error}
 
@@ -118,18 +144,3 @@ Además del [timeout](#timeout_and_error) utilizado en actividades de recorrido,
 
 Debido al tiempo de espera de recorrido de 30 días, cuando no se permite la reentrada del recorrido, no podemos asegurarnos de que el bloqueo de reentrada funcione más de 30 días. De hecho, como eliminamos toda la información sobre las personas que entraron en el recorrido 30 días después de su entrada, no podemos conocer a la persona ingresada anteriormente, hace más de 30 días.
 
-### Zona horaria y zona horaria del perfil {#timezone}
-
-La zona horaria se define en el nivel de recorrido.
-
-Puede introducir una zona horaria fija o utilizar perfiles de Adobe Experience Platform para definir la zona horaria del recorrido.
-
-Si se define una zona horaria en el perfil de Adobe Experience Platform, se puede recuperar en el recorrido .
-
-Para obtener más información sobre la administración de huso horario, consulte [esta página](../building-journeys/timezone-management.md).
-
-### Administrar acceso {#access}
-
-Para asignar etiquetas de uso de datos principales o personalizadas al recorrido, haga clic en el botón **[!UICONTROL Administrar acceso]** botón. [Obtenga más información sobre Control de acceso a nivel de objeto (OLA)](../administration/object-based-access.md)
-
-![](assets/journeys-manage-access.png)

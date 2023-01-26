@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: f06e1e03b3660be36b32437647a8329d0c0d296e
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 6%
@@ -21,7 +21,7 @@ Las funciones de fecha y hora se utilizan para realizar operaciones de fecha y h
 
 La variable `age` se utiliza para recuperar la edad de una fecha determinada.
 
-**Formato**
+**Sintaxis**
 
 ```sql
  {%= age(datetime) %}
@@ -41,7 +41,7 @@ The following operation gets the value of the identity map for the key `example@
 
 La variable `currentTimeInMillis` se utiliza para recuperar la hora actual en milisegundos de epoch.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= currentTimeInMillis() %}
@@ -61,7 +61,7 @@ The following operation gets all the keys for the map `identityMap`.
 
 La variable `dateDiff` se utiliza para recuperar la diferencia entre dos fechas en número de días.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= dateDiff(datetime,datetime) %}
@@ -82,7 +82,7 @@ The following operation gets all the values for the map `identityMap`.
 
 La variable `dayOfWeek` se utiliza para recuperar el día de la semana.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= dayOfWeek(datetime) %}
@@ -102,7 +102,7 @@ The following operation gets all the values for the map `identityMap`.
 
 La variable `dayOfYear` se utiliza para recuperar el día del año.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= dayOfYear(datetime) %}
@@ -122,7 +122,7 @@ The following operation gets all the values for the map `identityMap`.
 
 La variable `formatDate` se utiliza para dar formato a un valor de fecha y hora. El formato debe ser un patrón de Java DateTimeFormat válido.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= formatDate(datetime, format) %}
@@ -134,7 +134,7 @@ Donde la primera cadena es el atributo date y el segundo valor es cómo desea qu
 >
 > Si un patrón de fecha no es válido, la fecha se volverá al formato estándar ISO.
 >
-> Puede utilizar las funciones de formato de fecha Java como se resume [en la documentación de Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> Puede utilizar las funciones de formato de fecha de Java que se resumen en [documentación de oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **Ejemplo**
 
@@ -148,7 +148,7 @@ La siguiente operación devolverá la fecha con el formato siguiente: MM/DD/AA.
 
 La variable `setDays` se utiliza para establecer el día del mes para una fecha y hora determinadas.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= setDays(datetime, day) %}
@@ -168,7 +168,7 @@ The following operation gets all the values for the map `identityMap`.
 
 La variable `setHours` se utiliza para establecer la hora de la fecha y la hora.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= setHours(datetime, hour) %}
@@ -190,7 +190,7 @@ The following operation gets all the values for the map `identityMap`.
 La variable `toUTC` se utiliza para convertir una fecha y hora a UTC.
 
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= toUTC(datetime) %}
@@ -211,7 +211,7 @@ The following operation gets all the values for the map `identityMap`.
 
 La variable `weekOfYear` se utiliza para recuperar la semana del año.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= weekOfYear(datetime) %}

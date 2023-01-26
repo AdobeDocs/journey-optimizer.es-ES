@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: esquemas, XDM, plataforma, flujo continuo, ingesta, recorrido
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 3%
@@ -38,7 +38,7 @@ Cualquier esquema XDM que se utilice para [!DNL Journey Optimizer] los eventos d
 
    ![](assets/schema3.png)
 
-* Declare un campo de identidad para identificar el asunto del evento. Si no se especifica ninguna identidad, se puede utilizar un mapa de identidad. Este proceso no es recomendable.
+* Declare un campo de identidad para identificar perfiles individuales en el evento. Si no se especifica ninguna identidad, se puede utilizar un mapa de identidad. Este proceso no es recomendable.
 
    ![](assets/schema4.png)
 

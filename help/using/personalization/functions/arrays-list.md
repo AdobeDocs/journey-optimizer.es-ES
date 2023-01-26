@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 91f221781f1655066ec0f6b1c3f2c1faefd09d69
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 6%
@@ -21,7 +21,7 @@ Utilice estas funciones para facilitar la interacción con matrices, listas y ca
 
 La variable `countOnlyNull` se utiliza para contar el número de valores nulos en una lista.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= countOnlyNull(array) %}
@@ -39,7 +39,7 @@ Devuelve 3.
 
 La variable `countWithNull` se utiliza para contar todos los elementos de una lista, incluidos los valores nulos.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= countWithNull(array) %}
@@ -57,7 +57,7 @@ Devuelve 6.
 
 La variable `distinct` se utiliza para obtener valores de una matriz o lista con valores duplicados eliminados.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= distinct(array) %}
@@ -75,7 +75,7 @@ La siguiente operación especifica las personas que han realizado pedidos en má
 
 La variable `distinctCountWithNull` se utiliza para contar el número de valores diferentes de una lista, incluidos los valores nulos.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= distinctCountWithNull(array) %}
@@ -93,7 +93,7 @@ Devuelve 3.
 
 La variable `head` se utiliza para devolver el primer elemento de una matriz o lista.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= head(array) %}
@@ -111,7 +111,7 @@ La siguiente operación devuelve el primero de los cinco pedidos principales con
 
 La variable `topN` se utiliza para devolver la primera función `N` elementos de una matriz, cuando se ordenan en orden ascendente según la expresión numérica dada.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= topN(array, value, amount) %}
@@ -135,7 +135,7 @@ La siguiente operación devuelve los cinco primeros pedidos con el precio más b
 
 La variable `in` para determinar si un elemento es miembro de una matriz o lista.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= in(value, array) %}
@@ -153,7 +153,7 @@ La siguiente operación define las personas con cumpleaños en marzo, junio o se
 
 La variable `includes` para determinar si una matriz o lista contiene un elemento determinado.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= includes(array,item) %}
@@ -171,7 +171,7 @@ La siguiente operación define a las personas cuyo color favorito incluye el roj
 
 La variable `intersects` se utiliza para determinar si dos matrices o listas tienen al menos un miembro común.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= intersects(array1, array2) %}
@@ -190,7 +190,7 @@ La siguiente operación define las personas cuyos colores favoritos incluyen al 
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
-**Format**
+**Syntax**
 
 ```sql
 intersection({ARRAY},{ARRAY})
@@ -209,7 +209,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 La variable `bottomN` se utiliza para devolver el último `N` elementos de una matriz, cuando se ordenan en orden ascendente según la expresión numérica dada.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= bottomN(array, value, amount) %}
@@ -237,7 +237,7 @@ La variable `notIn` para determinar si un elemento no es miembro de una matriz o
 >
 >La variable `notIn` function *also* garantiza que ninguno de los dos valores sea igual a nulo. Por lo tanto, los resultados no son una negación exacta del `in` función.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= notIn(value, array) %}
@@ -256,7 +256,7 @@ La siguiente operación define las personas con cumpleaños que no están en mar
 
 La variable `subsetOf` para determinar si una matriz específica (matriz A) es un subconjunto de otra matriz (matriz B). En otras palabras, que todos los elementos de la matriz A son elementos de la matriz B.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= subsetOf(array1, array2) %}
@@ -274,7 +274,7 @@ La siguiente operación define a las personas que han visitado todas sus ciudade
 
 La variable `supersetOf` para determinar si una matriz específica (matriz A) es un superconjunto de otra matriz (matriz B). En otras palabras, la matriz A contiene todos los elementos de la matriz B.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= supersetOf(array1, array2) %}

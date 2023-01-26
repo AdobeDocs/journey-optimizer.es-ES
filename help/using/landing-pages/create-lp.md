@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, publicación
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 2%
@@ -57,7 +57,7 @@ Haga clic en los tres puntos junto a una página de aterrizaje para seleccionar 
 >id="ajo_lp_access_management_labels"
 >title="Asignar etiquetas a la página de aterrizaje"
 >abstract="Para proteger los recursos digitales confidenciales, puede definir autorizaciones para administrar el acceso a los datos a la página de aterrizaje mediante etiquetas."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Crear ajustes preestablecidos de página de aterrizaje"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Control de acceso de nivel de objeto"
 
 Los pasos para crear una página de aterrizaje son los siguientes:
 

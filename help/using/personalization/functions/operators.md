@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 11%
@@ -23,7 +23,7 @@ Las funciones booleanas se utilizan para realizar lógicas booleanas en distinto
 
 La variable `and` para crear una conjunción lógica.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= query1 and query2 %}
@@ -41,7 +41,7 @@ La siguiente operación devolverá a todas las personas con el país de origen c
 
 La variable `or` para crear una disyunción lógica.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= query1 or query2 %}
@@ -60,7 +60,7 @@ La siguiente operación devolverá a todas las personas que tengan un país de o
 
 The `not` (or `!`) function is used to create a logical negation.
 
-**Format**
+**Syntax**
 
 ```sql
 not ({QUERY})
@@ -84,7 +84,7 @@ Las funciones de comparación se utilizan para comparar diferentes expresiones y
 
 La variable `=` (es igual que) comprueba si un valor o expresión es igual a otro valor o expresión.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= expression = value %}
@@ -102,7 +102,7 @@ La siguiente operación comprueba si el país de dirección es Francia.
 
 La variable `!=` función (no igual) comprueba si hay un valor o expresión **not** igual a otro valor o expresión.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= expression != value %}
@@ -120,7 +120,7 @@ La siguiente operación comprueba si el país de la dirección principal no es F
 
 La variable `>` (bueno que) se utiliza para comprobar si el primer valor es bueno que el segundo valor.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= expression1 > expression2 %}
@@ -138,7 +138,7 @@ La siguiente operación define a las personas nacidas estrictamente después de 
 
 La variable `>=` (buena o igual que) se utiliza para comprobar si el primer valor es bueno o igual al segundo valor.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= expression1 >= expression2 %}
@@ -156,7 +156,7 @@ La siguiente operación define a las personas nacidas en 1970 o después de 1970
 
 La variable `<` (menor que) para comprobar si el primer valor es menor que el segundo valor.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= expression1 < expression2 %}
@@ -174,7 +174,7 @@ La siguiente operación define a las personas nacidas antes de 2000.
 
 La variable `<=` (menor o igual que) se utiliza la función de comparación para comprobar si el primer valor es menor o igual que el segundo valor.
 
-**Formato**
+**Sintaxis**
 
 ```sql
 {%= expression1 <= expression2 %}
