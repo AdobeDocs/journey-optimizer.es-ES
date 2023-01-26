@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, segmento, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 12%
@@ -95,9 +95,11 @@ La variable **Copiar detalles técnicos** le permite copiar información técnic
 ### Entrada{#entrance}
 
 De forma predeterminada, los nuevos recorridos permiten volver a entrar. Puede desmarcar la casilla **Permitir la reentrada** para recorridos de &quot;una toma&quot;, por ejemplo, si desea ofrecer un regalo único cuando una persona entra en una tienda.
+
 <!--
 When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
 -->
+
 Obtenga más información sobre la administración de la entrada de perfiles en [esta sección](entry-management.md).
 
 ### Administrar acceso {#access}
@@ -117,11 +119,13 @@ Si se define una zona horaria en el perfil de Adobe Experience Platform, se pued
 Para obtener más información sobre la administración de huso horario, consulte [esta página](../building-journeys/timezone-management.md).
 
 ### Fechas de inicio y finalización {#dates}
+
 <!--
 You can define a **Start date**. If you haven't specified one, it will be automatically defined at publication time. 
 
 You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout (generally 30 days, 7 days with Healthcare Shield add-on offering). The only exception is recurring read segment journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
 -->
+
 Puede definir una **Fecha de inicio**. También puede agregar una **Fecha final**. Esto permite a los perfiles salir automáticamente cuando se llega a la fecha. Si no especifica una fecha de finalización, los perfiles pueden permanecer hasta el tiempo de espera de recorrido predeterminado.
 
 ### Tiempo de espera y error en las actividades de recorrido {#timeout_and_error}

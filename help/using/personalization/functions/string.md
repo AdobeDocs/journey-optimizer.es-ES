@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1808'
 ht-degree: 7%
 
 ---
@@ -702,7 +702,7 @@ La siguiente consulta determina, con distinción de mayúsculas y minúsculas, s
 
 ## Cadena hasta la fecha {#string-to-date}
 
-La función &quot;stringToDate&quot; convierte un valor de cadena en un valor de fecha y hora. Toma dos argumentos: representación de cadena de una representación de fecha-hora y de cadena del formateador.
+La variable `stringToDate` convierte un valor de cadena en un valor de fecha-hora. Toma dos argumentos: representación de cadena de una representación de fecha-hora y de cadena del formateador.
 
 **Sintaxis**
 

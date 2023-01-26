@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 20%
@@ -65,11 +65,13 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 ### Mejoras {#jan-2023-improvements}
 
 **Recorridos**
+
 <!--
 * The **Re-entrance wait period** field has been added to the journey properties. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes. [Learn more](../building-journeys/journey-gs.md#entrance)
 
 * Improvements have been made for **journey start and end dates**. If you have not specified a start date, it is now automatically added at publication time. For **Read segment** journeys, you can now add an end date. This allows profiles to exit automatically when the date is reached. [Learn more](../building-journeys/journey-gs.md#dates)
 -->
+
 * Al añadir un **Clasificación del segmento** o **Leer segmento** en un recorrido, el espacio de nombres ahora se rellena previamente, de forma predeterminada, con el último espacio de nombres utilizado. Consulte la [Clasificación del segmento](../building-journeys/segment-qualification-events.md#about-segment-qualification) y [Leer segmento](../building-journeys/read-segment.md#configuring-segment-trigger-activity) secciones.
 
 * En el lienzo del recorrido, hay un nuevo botón disponible en la barra de herramientas que le permite descargar una captura de pantalla del recorrido.
