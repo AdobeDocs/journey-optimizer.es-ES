@@ -9,8 +9,8 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: 23f1ad4580d714acaefd7a5948ee674ce5203bc6
-workflow-type: tm+mt
-source-wordcount: '688'
+workflow-type: ht
+source-wordcount: '686'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] se basa de forma nativa en [!DNL Adobe Experience Platform] y combina un perfil de cliente unificado en tiempo real, un marco de trabajo abierto con una API con prioridad, Offer Decisioning centralizado, inteligencia artificial (IA) y aprendizaje automático para la personalización y la optimización. Journey Optimizer permite que las marcas determinen de forma inteligente la siguiente mejor interacción con la escala, la velocidad y la flexibilidad en todo el recorrido del cliente. Con [!DNL Adobe Journey Optimizer], las empresas pueden crear y entregar campañas de marketing programadas (como promociones semanales de una tienda minorista) y comunicaciones individuales personalizadas (como una notificación push de un artículo que un cliente de una aplicación de fidelidad podría haber visto antes sin existencias) desde la misma aplicación.
 
-➡️ [Descubra Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=es){target=&quot;_blank&quot;} (vídeo)
+➡️ [Descubra Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=es){target="_blank"} (vídeo)
 
 
 ## Casos de uso {#use-cases}
