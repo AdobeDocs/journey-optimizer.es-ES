@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 94%
+source-wordcount: '1220'
+ht-degree: 97%
 
 ---
 
@@ -110,158 +110,6 @@ Haga clic en el botón **[!UICONTROL Comenzar]** para iniciar el caso de uso.
 
 Puede acceder a los casos de uso ejecutados desde el botón **[!UICONTROL Ver biblioteca de casos de uso]**.
 
-## Accesibilidad{#accessibility}
-
-Las funciones de accesibilidad de [!DNL Adobe Journey Optimizer] se heredan de Adobe Experience Platform:
-
-* Accesibilidad del teclado
-* Contraste de color
-* Validación de campos obligatorios
-
-[Más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=es){target="_blank"} en la documentación de Adobe Experience Platform.
-
-Puede utilizar estos métodos abreviados del teclado comunes en [!DNL Journey Optimizer]:
-
-| Acción | Acceso directo |
-| --- | --- |
-| Desplazamiento entre elementos, secciones y grupos de menús de la interfaz de usuario | Tabulación |
-| Retroceder entre elementos, secciones y grupos de menús de la interfaz de usuario | Mayús + Tab |
-| Desplazarse dentro de las secciones para definir el enfoque en elementos individuales | Flecha |
-| Seleccionar o borrar un elemento que esté enfocado | Intro o barra espaciadora |
-| Cancelar una selección, contraer un panel o cerrar un cuadro de diálogo | ESC |
-
-[Más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=es){target="_blank"} en la documentación de Adobe Experience Platform.
-
-Puede utilizar estos métodos abreviados en partes específicas de Journey Optimizer:
-
-<table>
-  <thead>
-    <tr>
-      <th>Elemento de interfaz</th>
-      <th>Acción</th>
-      <th>Acceso directo</th>
-    </tr>
-  </thead>
-  <tr>
-    <td>Lista de recorridos, acciones, fuentes de datos o eventos</td>
-    <td>Crear un recorrido, una acción, una fuente de datos o un evento</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td rowspan="3">Lienzo de recorrido en estado de borrador</td>
-    <td>Añadir una actividad de la paleta izquierda en la primera posición disponible, de arriba a abajo</td>
-    <td>Doble clic en la actividad</td>
-  </tr>
-  <tr>
-    <td>Seleccionar todas las actividades</td>
-    <td>CTRL + A (Windows)<br/>CMD + A (Mac)</td>
-  </tr>
-  <tr>
-    <td>Eliminación de las actividades seleccionadas</td>
-    <td>Use la tecla Suprimir o Retroceso y a continuación Intro para confirmar la eliminación</td>
-  </tr>
-  <tr>
-    <td>Acercar o alejar (enfoque en el lienzo o en cualquiera de sus elementos secundarios)</td>
-    <td>CTRL +/- (Windows) o CMD +/- (Mac)</td>
-  </tr>  
-  <tr>
-    <td>Desplazarse entre cada actividad y ruta (enfoque en el lienzo) o entre los botones de la barra de herramientas (enfoque en la barra de herramientas)</td>
-    <td>Claves de FLECHA</td>
-  </tr>   
-  <tr>
-    <td>Mover el foco al siguiente elemento procesable del lienzo; la barra de herramientas es la primera</td>
-    <td>Tabulación</td>
-  </tr>  
-  <tr>
-    <td>Abra el panel de configuración correcto (enfoque en una actividad)</td>
-    <td>ENTER</td>
-  </tr>   
-  <tr>
-    <td>Mover una actividad al lienzo (enfoque en una actividad)</td>
-    <td>MAYÚS + teclas de flecha</td>
-  </tr>  
-  <tr>
-  <td rowspan="3">
-
-Panel de configuración de estos elementos:
-
-<ul>
-  <li>Actividad en un recorrido</li>
-  <li>Evento</li>
-  <li>Fuente de datos</li>
-  <li>Acción</li>
-</ul>
-
-</td>
-    <td>Mover al campo siguiente que se va a configurar</td>
-    <td>Tabulación</td>
-  </tr>
-  <tr>
-    <td>Guarde los cambios y cierre el panel de configuración</td>
-    <td>Intro</td>
-  </tr>
-  <tr>
-    <td>Descartar cambios y cerrar el panel de configuración</td>
-    <td>ESC</td>
-  </tr>
-  <tr>
-    <td rowspan="4">Recorrido en modo de prueba</td>
-    <td>Habilitar o deshabilitar el modo de prueba</td>
-    <td>T</td>
-  </tr>
-  <tr>
-    <td>Activa un evento en un recorrido basado en eventos</td>
-    <td>E</td>
-  </tr>
-  <tr>
-    <td>
-
-Activar un evento en un recorrido basado en segmentos para el cual la opción **[!UICONTROL Un solo perfil a la vez]** está activada
-
-</td>
-    <td>P</td>
-  </tr>
-  <tr>
-    <td>Mostrar los registros de prueba</td>
-    <td>L</td>
-  </tr>
-<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
-  <tr>
-    <td>Page with a search bar</td>
-    <td>Select the search bar</td>
-    <td>Ctrl/Command + F</td>
-  </tr>
--->
-  <tr>
-    <td>Campo de texto</td>
-    <td>Seleccionar todo el texto del campo seleccionado</td>
-    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Ventana emergente</td>
-    <td>Guardar los cambios o confirmar la acción</td>
-    <td>Intro</td>
-  </tr>
-  <tr>
-    <td>Cerrar la ventana</td>
-    <td>ESC</td>
-  </tr>
-  <tr>
-    <td>Editor de expresiones simples</td>
-    <td>Seleccionar y añadir un campo</td>
-    <td>Doble clic en un campo</td>
-  </tr>
-  <tr>
-    <td>Explorar los campos XDM</td>
-    <td>Seleccionar todos los campos de un nodo</td>
-    <td>Seleccionar el nodo principal</td>
-  </tr>
-  <tr>
-    <td>Vista previa de carga útil</td>
-    <td>Seleccionar la carga útil</td>
-    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
-  </tr>
-</table>
 
 ## Buscar ayuda y asistencia {#find-help}
 
@@ -312,9 +160,9 @@ Pulse **Entrar** para acceder a todos los resultados y filtrar por objeto empres
 
 ## Filtrar listas{#filter-lists}
 
-En la mayoría de las listas, una barra de búsqueda le permite buscar un elemento específico y seleccionar criterios de filtrado.
+En la mayoría de las listas, utilice la barra de búsqueda para buscar elementos específicos y defina los criterios de filtrado.
 
-Se puede acceder a los filtros haciendo clic en el icono de filtro en la parte superior izquierda de la lista. El menú de filtros permite filtrar los elementos mostrados según diferentes criterios. Puede elegir mostrar únicamente los elementos de un determinado tipo o estado, los que ha creado o los modificados en los últimos 30 días. Las opciones difieren según el contexto.
+Se puede acceder a los filtros haciendo clic en el icono de filtro en la parte superior izquierda de una lista. El menú de filtros permite filtrar los elementos mostrados según diferentes criterios. Puede elegir mostrar únicamente los elementos de un determinado tipo o estado, los que ha creado o los modificados en los últimos 30 días. Las opciones difieren según el contexto.
 
 En la lista de recorridos, puede filtrarlos según su estado, tipo y versión en **[!UICONTROL Estado y versión de filtros]**. El tipo puede ser: **[!UICONTROL Evento unitario]**, **[!UICONTROL Clasificación del segmento]**, **[!UICONTROL Leer segmento]**, **[!UICONTROL Evento empresarial]** o **[!UICONTROL Ráfaga]**. Puede elegir mostrar solo los recorridos que utilizan un evento, un grupo de campos o una acción en **[!UICONTROL Filtros de actividad]** y **[!UICONTROL Filtros de datos]**. Los **[!UICONTROL Filtros de publicaciones]** permiten seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar las versiones más recientes de recorridos en directo que se publicaron ayer. [Más información](../building-journeys/using-the-journey-designer.md).
 

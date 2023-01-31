@@ -8,40 +8,54 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: bfd262db2fd12afbb7df6c73c68b29d18a1abf98
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 2%
+source-wordcount: '559'
+ht-degree: 0%
 
 ---
 
 # Introducción a los segmentos de Adobe Experience Platform {#about-segments}
 
-[!DNL Journey Optimizer]  le permite crear segmentos de Adobe Experience Platform utilizando datos de perfil de cliente en tiempo real directamente desde el **[!UICONTROL Segmentos]** y aprovecharlos en sus recorridos.
+[!DNL Journey Optimizer]  le permite crear segmentos de Adobe Experience Platform utilizando datos de perfil de cliente en tiempo real directamente desde el **[!UICONTROL Segmentos]** y utilícelos en sus recorridos o campañas.
 
-Tenga en cuenta que los segmentos también se pueden crear desde el propio servicio de Segmentación. Obtenga más información en la [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+Además, los segmentos también se pueden crear desde el propio servicio de Segmentación. Obtenga más información en la [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
-Puede aprovechar los segmentos en los recorridos de diferentes maneras:
+## Usar segmentos en [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-* Utilice un **Leer segmento** actividad de organización para que todas las personas que pertenecen al segmento especificado entren en el recorrido. Los mensajes incluidos en el recorrido se envían a las personas pertenecientes al segmento. Supongamos que tiene un segmento &quot;cliente plata&quot;. Con esta actividad, puede hacer que todos los clientes plata introduzcan un recorrido y envíen una serie de mensajes personalizados.
+Puede aprovechar los segmentos en **[!DNL Journey Optimizer]** de diferentes maneras:
 
-   Para obtener más información sobre cómo usar la variable **[!UICONTROL Leer segmento]** actividad, consulte [esta sección](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
+* Elija un segmento como el **audiencia para una campaña**, donde el mensaje se envía a todas las personas que pertenecen al segmento seleccionado. [Aprenda a definir la audiencia de una campaña](../campaigns/create-campaign.md#define-the-audience-audience).
 
-* Utilice la variable **Clasificación del segmento** actividad de evento para que las personas entren o avancen en un recorrido basado en las entradas y salidas de segmentos de Adobe Experience Platform. Por ejemplo, puede hacer que todos los clientes nuevos de plata introduzcan un recorrido y envíen mensajes. Para obtener más información sobre cómo utilizar esta actividad, consulte [esta sección](../building-journeys/segment-qualification-events.md).
+* Utilice un **Leer segmento** actividad de organización en un recorrido para que todas las personas del segmento entren en el recorrido y reciban los mensajes incluidos en el recorrido.
 
-* Generar **condiciones complejas** en sus recorridos con el editor de expresiones simple o avanzada. Obtenga más información en [esta sección](../building-journeys/condition-activity.md#using-a-segment).
+   Supongamos que tiene un segmento &quot;cliente plata&quot;. Con esta actividad, puede hacer que todos los clientes plata introduzcan un recorrido y envíen una serie de mensajes personalizados. [Obtenga información sobre cómo configurar una actividad de segmento de lectura](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
+
+* Utilice la variable **Clasificación del segmento** actividad de evento en un recorrido para hacer que las personas entren o avancen en el recorrido en función de las entradas y salidas de segmentos de Adobe Experience Platform.
+
+   Por ejemplo, puede hacer que todos los clientes nuevos de plata introduzcan un recorrido y envíen mensajes. Para obtener más información sobre cómo utilizar esta actividad, consulte [Obtenga información sobre cómo configurar una actividad de calificación de segmentos](../building-journeys/segment-qualification-events.md).
+
+* Utilice la variable **Condición** actividad en un recorrido para crear condiciones basadas en la pertenencia a un segmento. [Aprenda a utilizar segmentos en condiciones](../building-journeys/condition-activity.md#using-a-segment).
 
 ## Métodos de evaluación de audiencia{#evaluation-method-in-journey-optimizer}
 
-En Adobe Journey Optimizer, las audiencias se generan a partir de definiciones de segmentos mediante uno de estos métodos de evaluación:
+En Adobe Journey Optimizer, las audiencias se generan a partir de definiciones de segmentos mediante uno de los dos métodos de evaluación siguientes:
 
-* Segmentación por transmisión : la lista de audiencia del segmento se mantiene actualizada en tiempo real mientras los nuevos datos fluyen al sistema. La segmentación por transmisión es un proceso continuo de selección de datos que actualiza los segmentos en respuesta a la actividad del usuario. Una vez que se ha creado y guardado un segmento, la definición del segmento se aplica a los datos entrantes en Journey Optimizer. Las adiciones y eliminaciones de segmentos se procesan con regularidad, lo que garantiza que la audiencia de destino siga siendo relevante.
+* **Segmentación por transmisión**: La lista de audiencia del segmento se mantiene actualizada en tiempo real a medida que los nuevos datos entran en el sistema.
 
-* Segmentación por lotes: la lista de audiencia del segmento se evalúa cada 24 horas. Como alternativa a un proceso continuo de selección de datos, la segmentación por lotes mueve todos los datos de perfil a la vez a través de definiciones de segmentos para producir las audiencias correspondientes. Una vez creado, este segmento se guarda y se almacena para que pueda exportarlo para utilizarlo.
+   La segmentación por transmisión es un proceso continuo de selección de datos que actualiza los segmentos en respuesta a la actividad del usuario. Una vez que se ha creado y guardado un segmento, la definición del segmento se aplica a los datos entrantes en Journey Optimizer. Esto significa que se agregan o eliminan personas del segmento a medida que cambian los datos de perfil, lo que garantiza que la audiencia de destino siempre sea relevante.
 
-El sistema determina la segmentación por lotes y la segmentación de flujo continuo para cada definición de segmento, en función de la complejidad y el coste de la evaluación de la regla de segmento.
+* **Segmentación por lotes**: La lista de audiencia del segmento se evalúa cada 24 horas.
 
-Puede ver el método de evaluación para cada segmento en la **[!UICONTROL Método de evaluación]** de la lista de segmentos.
+   La segmentación por lotes es una alternativa a la segmentación por flujo continuo que procesa todos los datos de perfil a la vez mediante definiciones de segmentos. Esto crea una instantánea de la audiencia que se puede guardar y exportar para su uso. Sin embargo, a diferencia de la segmentación de flujo continuo, la segmentación por lotes no actualiza continuamente la lista de audiencias en tiempo real, y los nuevos datos que llegan después del proceso por lotes no se reflejarán en el segmento hasta el siguiente proceso por lotes&quot;.
+
+El sistema determina la segmentación por lotes y la segmentación de flujo continuo para cada definición de segmento, en función de la complejidad y el coste de la evaluación de la regla de segmento. Puede ver el método de evaluación para cada segmento en la **[!UICONTROL Método de evaluación]** de la lista de segmentos.
+
+![](assets/evaluation-method.png)
+
+>[!NOTE]
+>
+>Si la variable **[!UICONTROL Método de evaluación]** no se muestra, debe agregarla con el botón de configuración en la parte superior derecha de la lista.
 
 Después de haber definido un segmento por primera vez, los perfiles se añaden a la audiencia cuando cumplen los requisitos.
 

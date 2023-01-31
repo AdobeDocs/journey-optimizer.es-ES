@@ -4,16 +4,23 @@ product: journey optimizer
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3adcd750089d81e6216316dc3d39f6a7982033f4
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '2220'
-ht-degree: 100%
+source-wordcount: '2282'
+ht-degree: 97%
 
 ---
 
 # Actualizaciones de documentación {#latest-updates}
 
 Esta página enumera todas las actualizaciones de documentación de [!DNL Journey Optimizer].
+
+## Enero de 2023 {#jan-2023}
+
+* Todas las nuevas funciones y mejoras incluidas [!DNL Journey Optimizer] La versión del 23 de enero se ha detallado en la documentación. [Más información](release-notes.md)
+* Funciones de accesibilidad en [!DNL Journey Optimizer] ahora se agrupan en una página dedicada. [Más información](../start/accessibility.md)
+* Se ha añadido una nueva página sobre la administración de datos en [!DNL Journey Optimizer]. [Más información](../data/gs-data.md)
+* Se ha añadido una tabla que enumera todos los códigos que se pueden devolver en la respuesta al enviar ofertas mediante la API de decisiones. [Más información](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
 ## Diciembre de 2022 {#december-2022}
 

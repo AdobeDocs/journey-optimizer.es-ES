@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 3%
@@ -27,40 +27,50 @@ El lote correcto más reciente del conjunto de datos se muestra a la derecha. La
 
 Esta es la lista de todos los campos que se pueden utilizar en la variable **[!UICONTROL Repositorio de objetos de decisión: Ofertas de reserva]** conjunto de datos.
 
-## Identificador {#identifier}
++++ Identificador
 
 **Campo:** _id
 **Título:** Identificador
 **Descripción:** Identificador único del registro.
 **Tipo:** cadena
 
-## _experiencia {#experience}
++++
+
++++ _experiencia
 
 **Campo:** _experience
 **Tipo:** object
 
-### _experiencia > decisiones
++++
+
++++ _experiencia > decisiones
 
 **Campo:** decisioning
 **Tipo:** object
 
-#### _experiencia > decisiones > características
++++
+
++++ _experiencia > decisiones > características
 
 **Campo:** características
 **Título:** Características de la opción de decisión
 **Descripción:** Propiedades o atributos adicionales que pertenecen a esta opción de decisión en particular. Las diferentes instancias pueden tener características diferentes (claves en el mapa). Las características son pares de valor de nombre que se utilizan para distinguir una opción de decisión de otras. Las características se utilizan como valores en el contenido que representa esta opción de decisión y como características para analizar y optimizar el rendimiento de una opción. Cuando cada instancia tiene el mismo atributo o propiedad, ese aspecto debe modelarse como un esquema de extensión que se derive del detalle de la opción de decisión.
 **Tipo:** object
 
++++
+
 <!--Field under Characteristics without title = additionalProperties? Desc = Value of the property. Type: string-->
 
-#### _experience > decisioning > content
++++ _experience > decisioning > content
 
 **Campo:** contenido
 **Título:** Detalles de contenido
 **Descripción:** Elementos de contenido para representar el elemento de decisión en diferentes contextos. Una sola opción de decisión puede tener varias variantes de contenido. El contenido es información dirigida a una audiencia para su consumo en una experiencia (digital). El contenido se entrega a través de canales en una ubicación determinada.
 **Tipo:** matriz
 
-**_experience > decisioning > content > components**
++++
+
+++_experience > decisioning > content > components
 
 **Campo:** componentes
 **Descripción:** Los componentes del contenido que representan la opción de decisión, incluidas todas sus variantes de idioma. Los componentes específicos se encuentran en &quot;dx:format&quot;, &quot;dc:subject&quot; y &quot;dc:language&quot; o en una combinación de ellos. Estos metadatos se utilizan para localizar o representar el contenido asociado a una oferta e integrarlos según el contrato de colocación.
@@ -148,14 +158,18 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
    **Tipo:** cadena
    **Ejemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-**_experience > decisioning > content > Placement**
++++
+
++++ _experience > decisioning > content > Placement
 
 **Campo:** placement
 **Título:** Colocación
 **Descripción:** Colocación para cumplir. El valor es el URI (@id) de la ubicación de la oferta a la que se hace referencia. Consulte esquema https://ns.adobe.com/experience/decisioning/placement.
 **Tipo:** cadena
 
-#### _experience > decisiones > Estado del ciclo vital
++++
+
++++ _experience > decisiones > Estado del ciclo vital
 
 **Campo:** lifecycleStatus
 **Título:** Estado del ciclo vital
@@ -163,30 +177,40 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 **Tipo:** string
 **Valores posibles:** &quot;Borrador&quot; (predeterminado), &quot;Aprobado&quot;, &quot;Activo&quot;, &quot;Completado&quot;, &quot;Archivado&quot;
 
-#### _experience > decisioning > Nombre de la opción de decisión
++++
+
++++ _experience > decisioning > Nombre de la opción de decisión
 
 **Campo:** name
 **Título:** Nombre de opción de decisión
 **Descripción:** Nombre de opción que se muestra en varias interfaces de usuario.
 **Tipo:** cadena
 
-#### _experience > decisiones > etiquetas
++++
+
++++ _experience > decisiones > etiquetas
 
 **Campo:** etiquetas
 **Título:** Etiquetas
 **Descripción:** Conjunto de etiquetas asociadas a esta entidad. Las etiquetas se utilizan en expresiones de filtro para restringir el inventario general a un subconjunto (categoría).
 **Tipo:** matriz
 
++++
+
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo {#repo}
++++ _repo {#repo}
 
 **Campo:** _repo
 **Tipo:** object
 
-### _repo > Opción de decisión ETag
++++
+
++++ _repo > Opción de decisión ETag
 
 **Campo:** etiqueta
 **Título:** Opción de decisión ETag
 **Descripción:** Revisión en la que se encontraba el objeto de opción de decisión cuando se tomó la instantánea.
 **Tipo:** cadena
+
++++

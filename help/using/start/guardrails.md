@@ -8,16 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '956'
 ht-degree: 100%
 
 ---
 
 # Protecciones y limitaciones {#limitations}
 
-Los derechos, limitaciones de productos y protecciones de rendimiento se enumeran en la [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
+Los derechos, limitaciones de productos y protecciones de rendimiento se enumeran en la [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+
+También debe tener en cuenta las [protecciones para los datos del perfil del cliente en tiempo real antes de comenzar](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es){target="_blank"}.
 
 A continuación, encontrará limitaciones y protecciones adicionales al utilizar [!DNL Adobe Journey Optimizer].
 
@@ -29,7 +31,7 @@ A continuación, encontrará limitaciones y protecciones adicionales al utilizar
 
 ## Protecciones de gestión de decisiones {#offer-guardrails}
 
-Las protecciones de rendimiento y los límites estáticos para la toma de decisiones se enumeran en la [página de descripción del producto del servicio de aplicaciones de Offer decisioning de Adobe](https://helpx.adobe.com/es/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
+Las protecciones de rendimiento y los límites estáticos para la toma de decisiones se enumeran en la [página de descripción del producto del servicio de aplicaciones de Offer decisioning de Adobe](https://helpx.adobe.com/es/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
 
 
 ## Protecciones de las páginas de aterrizaje {#lp-guardrails}

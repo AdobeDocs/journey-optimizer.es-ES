@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 3%
@@ -29,24 +29,30 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
-## Identificador {#identifier}
++++ Identificador
 
 **Campo:** _id
 **Título:** Identificador
 **Descripción:** Identificador único del registro.
 **Tipo:** cadena
 
-## _experiencia {#experience}
++++
+
++++ _experiencia {#experience}
 
 **Campo:** _experience
 **Tipo:** object
 
-### _experiencia > decisiones
++++
+
++++ _experiencia > decisiones
 
 **Campo:** decisioning
 **Tipo:** object
 
-#### _experience > decisiones > calendarConstraints
++++
+
++++ _experience > decisiones > calendarConstraints
 
 **Campo:** calendarConstraints
 **Título:** Detalles de restricción de calendario
@@ -67,21 +73,27 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
    **Descripción:** La fecha de inicio de validez de las opciones de decisión. Las opciones que aún no han alcanzado su fecha de inicio no se pueden proponer en el proceso de toma de decisiones.
    **Tipo:** cadena
 
-#### _experiencia > decisiones > características
++++
+
++++ _experiencia > decisiones > características
 
 **Campo:** características
 **Título:** Características de la opción de decisión
 **Descripción:** Propiedades o atributos adicionales que pertenecen a esta opción de decisión en particular. Las diferentes instancias pueden tener características diferentes (claves en el mapa). Las características son pares de valor de nombre que se utilizan para distinguir una opción de decisión de otras. Las características se utilizan como valores en el contenido que representa esta opción de decisión y como características para analizar y optimizar el rendimiento de una opción. Cuando cada instancia tiene el mismo atributo o propiedad, ese aspecto debe modelarse como un esquema de extensión que se derive del detalle de la opción de decisión.
 **Tipo:** object
 
-#### _experience > decisioning > content
++++
+
++++ _experience > decisioning > content
 
 **Campo:** contenido
 **Título:** Detalles de contenido
 **Descripción:** Elementos de contenido para representar el elemento de decisión en diferentes contextos. Una sola opción de decisión puede tener varias variantes de contenido. El contenido es información dirigida a una audiencia para su consumo en una experiencia (digital). El contenido se entrega a través de canales en una ubicación determinada.
 **Tipo:** matriz
 
-**_experience > decisioning > content > components**
++++
+
+++_experience > decisioning > content > components
 
 **Campo:** componentes
 **Descripción:** Los componentes del contenido que representan la opción de decisión, incluidas todas sus variantes de idioma. Los componentes específicos se encuentran en &quot;dx:format&quot;, &quot;dc:subject&quot; y &quot;dc:language&quot; o en una combinación de ellos. Estos metadatos se utilizan para localizar o representar el contenido asociado a una oferta e integrarlos según el contrato de colocación.
@@ -168,14 +180,16 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
    **Tipo:** cadena
    **Ejemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-**_experience > decisioning > content > Placement**
++++_experience > decisioning > content > Placement
 
 **Campo:** placement
 **Título:** Colocación
 **Descripción:** Colocación para cumplir. El valor es el URI (@id) de la ubicación de la oferta a la que se hace referencia. Consulte esquema https://ns.adobe.com/experience/decisioning/placement.
 **Tipo:** cadena
 
-#### _experience > decisiones > Estado del ciclo vital
++++
+
++++ _experience > decisiones > Estado del ciclo vital
 
 **Campo:** lifecycleStatus
 **Título:** Estado del ciclo vital
@@ -183,35 +197,45 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 **Tipo:** string
 **Valores posibles:** &quot;Borrador&quot; (predeterminado), &quot;Aprobado&quot;, &quot;Activo&quot;, &quot;Completado&quot;, &quot;Archivado&quot;
 
-#### _experience > decisioning > Nombre de la opción de decisión
++++
+
++++ _experience > decisioning > Nombre de la opción de decisión
 
 **Campo:** name
 **Título:** Nombre de opción de decisión
 **Descripción:** Nombre de opción que se muestra en varias interfaces de usuario.
 **Tipo:** cadena
 
-#### _experience > decisiones > profileConstraints
++++
+
++++ _experience > decisiones > profileConstraints
 
 **Campo:** profileConstraints
 **Título:** Detalles de restricción de perfil
 **Descripción:** Las restricciones de perfil deciden si una opción es apta para esta identidad de perfil, en este momento, en este contexto. Si la restricción de perfil no necesita tener en cuenta los valores de cada una de las opciones, es decir, no tiene en cuenta las opciones de la selección de opciones, la restricción de perfil que se evalúa como &quot;false&quot; cancela toda la selección de opciones. Por otro lado, se evalúa una regla de restricción de perfil que toma una opción como parámetro para cada opción correspondiente de la selección de opciones.
 **Tipo:** object
 
-**_experience > decisiones > profileConstraints > Descripción**
++++
+
++++_experience > decisioning > profileConstraints > Description
 
 **Campo:** descripción
 **Título:** Descripción
 **Descripción:** Descripción de restricción de perfil. Se utiliza para transmitir intenciones legibles sobre cómo o por qué se construyó esta restricción de perfil y/o qué opción incluirá o excluirá.
 **Tipo:** cadena
 
-**_experience > decisiones > profileConstraints > Regla de elegibilidad**
++++
+
++++_experience > decisiones > profileConstraints > Regla de elegibilidad
 
 **Campo:** eligibilityRule
 **Título:** Regla de elegibilidad
 **Descripción:** Referencia a una regla de decisión que se evalúa como true o false para un perfil determinado u otros objetos XDM contextuales dados. La regla se utiliza para decidir si la opción cumple los requisitos de un perfil determinado. El valor es el URI (@id) de la regla de decisión a la que se hace referencia. Consulte esquema https://ns.adobe.com/experience/decisioning/rule.
 **Tipo:** cadena
 
-**_experience > decisioning > profileConstraints > Tipo de restricción de perfil**
++++
+
++++_experience > decisioning > profileConstraints > Tipo de restricción de perfil
 
 **Campo:** profileConstraintType
 **Título:** Tipo de restricción de perfil
@@ -224,7 +248,9 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 * &quot;allSegments&quot;: &quot;La restricción de perfil se expresa como uno o más segmentos y el perfil debe ser miembro de todos ellos antes de permitir la acción restringida.&quot;
 * &quot;reglas&quot;: &quot;La restricción de perfil se expresa como una serie de reglas diferentes, por ejemplo, idoneidad, aplicabilidad, idoneidad, que todos deben evaluar como true antes de permitir la acción restringida.&quot;
 
-**_experience > decisiones > profileConstraints > Identificadores de segmentos**
++++
+
++++_experience > decisiones > profileConstraints > Identificadores de segmento
 
 **Campo:** segmentIdentities
 **Título:** Identificadores de segmento
@@ -260,14 +286,18 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
    **Descripción:** Cuando está presente, este valor representa un identificador de área de nombres cruzada que es único en todos los identificadores de ámbito de área de nombres en todos los espacios de nombres.
    **Tipo:** cadena
 
-#### _experiencia > decisiones > clasificación
++++
+
++++ _experiencia > decisiones > clasificación
 
 **Campo:** clasificación
 **Título:** Detalles de clasificación
 **Descripción:** Clasificación (prioridad). Define lo que se considera la \&quot;mejor acción\&quot; dado el contexto del criterio de decisión. Entre todas las opciones seleccionadas que cumplan la restricción de elegibilidad, el orden de clasificación decidirá las opciones superiores (o superiores N) que se propongan.
 **Tipo:** object
 
-**_experience > decisioning > ranking > Evaluación de pedidos**
++++
+
+++_experience > decisioning > ranking > Evaluación de pedidos
 
 **Campo:** pedido
 **Título:** Evaluación de pedidos
@@ -296,7 +326,9 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
    **Descripción:** Referencia a una estrategia que clasifica una opción de lista de decisiones. Las opciones de decisión se devolverán en una lista ordenada. El valor de esta propiedad es el URI (@id) de la función que se va a invocar con la opción on a la vez. Consulte esquema https://ns.adobe.com/experience/decisioning/rankingStrategy.
    **Tipo:** cadena
 
-**_experience > decisiones > clasificación > Prioridad**
++++
+
+++_experience > decisioning > ranking > Prioridad
 
 **Campo:** priority
 **Título:** Prioridad
@@ -305,23 +337,31 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 **Valor mínimo:** 0
 **Valor predeterminado:** 0
 
-#### _experience > decisiones > etiquetas
++++
+
++++ _experience > decisiones > etiquetas
 
 **Campo:** etiquetas
 **Título:** Etiquetas
 **Descripción:** Conjunto de etiquetas asociadas a esta entidad. Las etiquetas se utilizan en expresiones de filtro para restringir el inventario general a un subconjunto (categoría).
 **Tipo:** matriz
 
++++
+
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo {#repo}
++++_repo
 
 **Campo:** _repo
 **Tipo:** object
 
-### _repo > Opción de decisión ETag
++++
+
++++ _repo > Opción de decisión ETag
 
 **Campo:** etiqueta
 **Título:** Opción de decisión ETag
 **Descripción:** Revisión en la que se encontraba el objeto de opción de decisión cuando se tomó la instantánea.
 **Tipo:** cadena
+
++++

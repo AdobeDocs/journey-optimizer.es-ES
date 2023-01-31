@@ -9,38 +9,14 @@ role: Admin, User
 level: Intermediate
 keywords: permisos, creación, mensajes
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 9%
+source-wordcount: '1026'
+ht-degree: 10%
 
 ---
 
 # Perfiles de producto integrados {#ootb-product-profiles}
-
-
-## Acerca de los permisos relacionados con los mensajes{#message-permissions}
-
-Adobe Journey Optimizer ha lanzado nuevas funciones de creación en línea que le permiten crear y crear sus mensajes directamente desde un recorrido o una campaña.
-
-Esta función afecta a los permisos de la siguiente manera:
-
-| Nombre del permiso | Se incluirá en |
-|:-:|:-:|
-| **[!DNL View Messages]** | **[!DNL View Journeys]** |
-| **[!DNL View Message reports]** | **[!DNL View Journeys Report]** |
-| **[!DNL Manage Messages]** | **[!DNL Manage Journey]** |
-| **[!DNL Publish Messages]** | **[!DNL Publish Journeys]** |
-| **[!DNL Manage Messages Preview and Test]** | **[!DNL Manage Journeys]** |
-
-**Después del 25 de julio**, permisos relacionados con **Mensajes** siguen estando disponibles, ya que se puede acceder a Mensajes para habilitar la transición y aún puede guardarlos como plantilla.
-
-**A partir del 6 de septiembre**, permisos relacionados con **Mensajes** se eliminará y los mensajes ya no serán accesibles.
-
->[!WARNING]
->
->Si tiene usuarios asignados al **[!DNL Message Manager]** solo el perfil de producto, sin la variable **[!DNL Journey manager]** perfil de producto, debe asignar un nuevo perfil de producto para que puedan seguir editando contenido.
-
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 
@@ -94,6 +70,7 @@ Este perfil de productos incluye los siguientes permisos:
 |Administración|<ul><li>**[!DNL Manage subdomains delegation]**: leer, crear, editar y eliminar delegación de subdominios.</li><li>**[!DNL Manage IP pools]**: leer, crear, editar y eliminar el grupo ip.</li><li>**[!DNL Manage PTR records]**: leer y editar registros PTR.</li><li>**[!DNL View PTR records]**: acceso de solo lectura a registros PTR.</li><li>**[!DNL Manage channel surfaces]**: leer, crear, editar y eliminar la marca de contenido.</li><li>**[!DNL Manage Landing page settings]**: cree, edite y elimine subdominios de la página de aterrizaje y ajustes preestablecidos de la página de aterrizaje.</li><li> **[!DNL Manage messages general settings]**: leer, crear, editar y eliminar la configuración general del mensaje.</li><li>**[!DNL Manage SMS settings]**: cree, edite y elimine las credenciales de API y las superficies de canal SMS necesarias para habilitar el canal SMS.</li><li>**[!DNL Manage suppression rules]**: acceda a las reglas de supresión: leer, crear, editar y eliminar.</li><li>**[!DNL View suppression list]**: leer y exportar la lista de supresión local.</li><li>**[!DNL Manage alerts]**: habilitar/deshabilitar alertas para recorridos y autorizaciones.</li></ul>|
 |Administración de decisiones|<ul><li>**[!DNL Manage decisions]**: leer, crear, editar y eliminar decisiones.</li><li>**[!DNL Manage ranking strategies]**: leer, crear, editar y eliminar estrategias de clasificación.</li></ul>|
 |Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**: conceda acceso a entornos limitados.</li><li>**[!DNL Manage segments]**: leer, crear, editar y eliminar segmentos.</li><li>**[!DNL Manage profiles]**: leer, crear, editar y eliminar perfiles.</li><li>**[!DNL Read datasets]**: acceso de solo lectura a conjuntos de datos.</li><li>**[!DNL Read schemas]**: acceso de solo lectura a esquemas.</li><li>**[!DNL Read Identity namespace]**: acceso de solo lectura al área de nombres de identidad.</li><li>**[!DNL Manage merge policies]**: leer, crear, editar y eliminar políticas de combinación.</li></ul>| |Biblioteca de Journey Optimizer|<ul><li>**[!DNL Manage Library Items]**: agregar y eliminar expresiones guardadas en [!DNL Journey Optimizer] Biblioteca.</li></ul>|
+|Control de datos|<ul><li>**[!DNL Manage usage label]**: leer, crear y eliminar etiquetas de uso.</li><li>**[!DNL Manage data usage policies]**: leer, crear, editar y eliminar políticas de uso de datos.</li><li>**[!DNL View data usage policies]**: acceso de solo lectura a políticas de uso de datos.</li><li>**[!DNL View user activity log]**: leer y exportar registros de auditoría.</li></ul>|
 
 ## [!DNL Journey Approver] {#journey-approver}
 
