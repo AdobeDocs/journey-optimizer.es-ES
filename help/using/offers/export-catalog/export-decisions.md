@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: a61cbb5b2a6cea21dbaf41a9fcb085fe1b814087
 workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 3%
@@ -61,7 +61,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 
 +++
 
-+++ _experience > decisioning > criteria > description*
++++ _experiencia > decisiones > criterios > descripción
 
 **Campo:** descripción
 **Título:** Descripción
@@ -110,7 +110,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 
 +++
 
-++_experience > decisiones > criterios > ubicaciones**
+++_experience > decisiones > criterios > ubicaciones
 
 **Campo:** ubicaciones
 **Título:** Restricciones de colocación
@@ -125,7 +125,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 
 +++
 
-+++_experience > decisioning > criteria > profileConstraints**
++++_experience > decisioning > criteria > profileConstraints
 
 **Campo:** profileConstraints
 **Título:** Restricción de perfil
@@ -205,7 +205,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 
 +++
 
-++_experience > decisioning > criteria > ranking**
+++_experience > decisioning > criteria > ranking
 
 **Campo:** clasificación
 **Título:** Detalles de clasificación
@@ -292,7 +292,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la variable **[!U
 
 +++
 
-+++ _repo {#repo}
++++ _repo
 
 **Campo:** _repo
 **Tipo:** object
