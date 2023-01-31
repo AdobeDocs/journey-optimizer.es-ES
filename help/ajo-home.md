@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 94%
     <p>
     <div>
     <li>
-      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=es" target="_blank">Descripción del producto de Adobe Journey Optimizer</a>
+      <a href="https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descripción del producto de Adobe Journey Optimizer</a>
     </li>
     </div>
     <div>
@@ -185,7 +185,7 @@ ht-degree: 94%
 </table>
 
 
-![Newsletter](using/assets/do-not-localize/nl-icon.png) Regístrese para [Boletín trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} ¡hoy!
+![Newsletter](using/assets/do-not-localize/nl-icon.png) Regístrese hoy en la [Newsletter trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}.
 
 Reciba las últimas actualizaciones de productos, historias interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.
 
