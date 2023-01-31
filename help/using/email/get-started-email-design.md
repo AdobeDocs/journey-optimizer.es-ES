@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: correo electrónico, diseño, stock, activos
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 18%
@@ -45,7 +45,6 @@ Una vez que haya [se ha añadido un correo electrónico](create-email.md) a un r
       >[!NOTE]
       >
       >En una campaña, también puede seleccionar la **[!UICONTROL Editor de código]** del **[!UICONTROL Editar contenido]** en el Navegador. [Más información](create-email.md#define-email-content)
-
 
    * **Importar contenido de HTML existente** desde un archivo o una carpeta .zip. Obtenga información sobre cómo importar contenido de correo electrónico en [esta sección](existing-content.md).
 

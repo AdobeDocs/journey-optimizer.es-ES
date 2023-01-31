@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: correo electrónico, plantillas, diseño
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 5%
+source-wordcount: '279'
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,8 @@ Utilice la variable **[!UICONTROL Seleccionar plantilla de diseño]** para comen
 
 Puede elegir entre:
 * 20 plantillas de correo electrónico predeterminadas.
-* Plantillas guardadas. [Más información](#use-saved-template)
+* Plantillas de correo electrónico guardadas. [Más información](#use-saved-template)
+* Plantillas de contenido. [Más información](content-templates.md)
 
 ## Guardar como plantilla {#save-as-template}
 
@@ -34,6 +35,10 @@ Puede elegir entre:
 >abstract="El 25 de julio de 2022, desapareció el menú Mensajes y ahora los mensajes se crean directamente desde un Recorrido. Si desea reutilizar los mensajes heredados en recorrido, debe guardarlos como plantillas."
 
 Una vez que haya diseñado el [contenido de correo electrónico](get-started-email-design.md), puede guardarla para su reutilización futura. Para realizar esto, siga los pasos a continuación.
+
+>[!CAUTION]
+>
+>Para guardar un contenido como plantilla, debe tener la variable **[!DNL Manage Library Items]** permiso incluido en la variable **[!DNL Content Library Manager]** perfil de producto. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
 
 1. Haga clic en los puntos suspensivos en la parte superior derecha de la pantalla.
 
@@ -46,6 +51,8 @@ Una vez que haya diseñado el [contenido de correo electrónico](get-started-ema
    ![](assets/email_designer-template-name.png)
 
 1. Haga clic en **[!UICONTROL Guardar]**.
+
+Esta plantilla se guarda en la lista de plantillas de contenido. [Más información](content-templates.md)
 
 La próxima vez que cree un correo electrónico, puede usar esta plantilla para crear su contenido. [Descubra cómo](#use-saved-template)
 
