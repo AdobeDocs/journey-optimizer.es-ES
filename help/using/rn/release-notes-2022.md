@@ -5,9 +5,9 @@ title: Notas de la versión 2022
 description: Notas de la versión de Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3583'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 ## Versión de septiembre de 2022{#sept-2022-release}
 
-### Nuevas funcionalidades{#sept-2022-features}
+### Nuevas funciones{#sept-2022-features}
 
 <table>
 <thead>
@@ -387,7 +387,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 **Recorridos**
 
-* **Finalización de un recorrido**: en el lienzo del recorrido, la actividad **Fin** se ha eliminado de la paleta. Las etiquetas finales ahora se añaden de forma predeterminada al final de cada ruta y no se pueden eliminar. Esta mejora permite informar mejor sobre dónde abandonó un cliente el recorrido, sin que se requiera ninguna acción por parte del profesional del recorrido. Consulte la [documentación](../building-journeys/end-journey.md) y [vídeo de funciones](https://video.tv.adobe.com/v/345376){target="_blank"}.
+* **Finalización de un recorrido**: en el lienzo del recorrido, la actividad **Fin** se ha eliminado de la paleta. Las etiquetas finales ahora se añaden de forma predeterminada al final de cada ruta y no se pueden eliminar. Esta mejora permite informar mejor sobre dónde abandonó un cliente el recorrido, sin que se requiera ninguna acción por parte del profesional del recorrido. Consulte la [documentación](../building-journeys/end-journey.md) y el [vídeo de funcionalidades](https://video.tv.adobe.com/v/345376){target="_blank"}.
 
 
 * La opción **Zona horaria del perfil** ahora está desactivada de forma predeterminada en las propiedades del recorrido. [Más información](../building-journeys/timezone-management.md#timezone-from-profiles)
@@ -406,7 +406,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 * **Parámetros de seguimiento de URL**: ahora puede utilizar el Editor de expresiones para configurar los parámetros de seguimiento de URL en sus superficies de correo electrónico (es decir, ajustes preestablecidos). [Más información](../email/email-settings.md#url-tracking)
 
-**Administración de decisiones**
+**Gestión de decisiones**
 
 * **Tamaño de la audiencia**: ahora se muestra un nuevo componente de estimación del tamaño de la audiencia en la interfaz de usuario al crear una regla de decisión, al seleccionar un segmento o una regla para establecer la idoneidad de una oferta o al añadir un segmento o una regla al ámbito de decisión.
 
@@ -507,7 +507,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 ### Mejoras
 
-**Administración de decisiones**
+**Gestión de decisiones**
 
 * **Compatibilidad con archivos HTML y JSON**: ahora puede arrastrar y soltar archivos HTML y JSON externos de la biblioteca de recursos de Adobe Experience Cloud en el contenido de la representación de la oferta. [Más información](../offers/offer-library/add-representations.md#html-json)
 
@@ -633,9 +633,9 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 * **Rellenar previamente campos de páginas de destino.** Ahora es posible proporcionar a los usuarios la capacidad de rellenar previamente los campos de la página de aterrizaje con información del perfil. [Más información](../landing-pages/create-lp.md#configure-primary-page)
 
-**Administración de decisiones**
+**Gestión de decisiones**
 
-* **API de decisiones en Edge**: la API de decisiones en Edge puede entregar y procesar ofertas personalizadas que se gestionan en la administración de decisiones. Puede crear sus ofertas y otros objetos relacionados mediante la interfaz de usuario (IU) o las API de administración de decisiones. [Más información](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **API de decisiones en Edge**: la API de decisiones en Edge puede entregar y procesar ofertas personalizadas que se gestionan en la gestión de decisiones. Puede crear sus ofertas y otros objetos relacionados mediante la interfaz de usuario (IU) o las API de gestión de decisiones. [Más información](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **Administración**
 
@@ -670,10 +670,10 @@ Como cliente de Adobe Campaign Standard, ahora puede enviar correos electrónico
 * Para evitar tener campos innecesarios en el esquema de perfil unificado, el esquema de Evento de paso de recorrido ya no está habilitado para perfiles de forma predeterminada. Si es necesario, puede activarlo. [Más información](../reports/sharing-overview.md)
 * Journey Optimizer ahora envía a Adobe Experience Platform nuevos eventos relacionados con los trabajos de exportación. Se han añadido ejemplos de consultas a la documentación. [Más información](../reports/query-examples.md)
 
-**Administración de decisiones**
+**Gestión de decisiones**
 
 * Ahora puede especificar si el límite de oferta se aplica a todos los usuarios o a un perfil específico, así como a todas las ubicaciones o a una. [Más información](../offers/offer-library/add-constraints.md#capping)
-* La API de decisiones por lotes permite a las organizaciones utilizar la funcionalidad de administración de decisiones para todos los perfiles de un segmento determinado en una llamada. El contenido de la oferta para cada perfil del segmento se coloca en un conjunto de datos de AEP, donde está disponible para flujos de trabajo por lotes personalizados. [Más información](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* La API de decisiones por lotes permite a las organizaciones utilizar la funcionalidad de gestión de decisiones para todos los perfiles de un segmento determinado en una llamada. El contenido de la oferta para cada perfil del segmento se coloca en un conjunto de datos de AEP, donde está disponible para flujos de trabajo por lotes personalizados. [Más información](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **Administración**
 
@@ -773,7 +773,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 <!--* decision management reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
 
-**Administración de decisiones**
+**Gestión de decisiones**
 
 * Las clasificaciones y la clasificación de IA ahora se agrupan en una sola pestaña.
 
@@ -819,7 +819,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 * Los eventos de paso de Journey Optimizer ahora se pueden vincular a otros conjuntos de datos en [Customer Journey Analytics de Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es). El campo **profileID**, en el esquema integrado de Evento de paso de recorrido, ahora se define como un campo de identidad. [Más información](../reports/sharing-overview.md#integration-cja)
 
-**Administración de decisiones**
+**Gestión de decisiones**
 
 * Al actualizar una oferta, una oferta de reserva, una colección de ofertas o una decisión de oferta a la que se hace referencia directa o indirectamente en un mensaje publicado, las actualizaciones ahora se reflejan automáticamente en el mensaje correspondiente, sin necesidad de volver a publicarlas. [Más información](../offers/offers-e2e.md#insert-decision-in-email)
 
