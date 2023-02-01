@@ -6,8 +6,8 @@ description: Obtenga más información sobre cómo trabajar con Journey Optimize
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: tm+mt
-source-wordcount: '580'
+workflow-type: ht
+source-wordcount: '578'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Obtenga información sobre cómo **identificar datos y crear esquemas y conjunto
 
 >[!NOTE]
 >
->Obtenga más información acerca de la **ingesta de datos** en la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es){target=&quot;_blank&quot;}.
+>Obtenga más información acerca de la **ingesta de datos** en la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es){target="_blank"}.
 
 Los pasos para crear un área de nombres de identidad y un conjunto de datos habilitado para perfiles y perfiles de prueba se detallan en las secciones siguientes:
 
