@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, publicación
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 2%
@@ -59,7 +59,9 @@ Haga clic en los tres puntos junto a una página de aterrizaje para seleccionar 
 >abstract="Para proteger los recursos digitales confidenciales, puede definir autorizaciones para administrar el acceso a los datos a la página de aterrizaje mediante etiquetas."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Control de acceso de nivel de objeto"
 
-Los pasos para crear una página de aterrizaje son los siguientes:
+Los pasos principales para crear páginas de aterrizaje son los siguientes:
+
+![](assets/lp-creation-process.png)
 
 1. En la lista de páginas de aterrizaje, haga clic en **[!UICONTROL Crear página de aterrizaje]**.
 

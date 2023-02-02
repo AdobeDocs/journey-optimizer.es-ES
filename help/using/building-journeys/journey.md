@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: recorrido, descubrimiento, inicio
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 29%
+source-wordcount: '590'
+ht-degree: 28%
 
 ---
 
@@ -32,7 +32,9 @@ Diseñe escenarios avanzados de varios pasos con las siguientes capacidades:
 
 ## Pasos para crear un recorrido{#steps-journey}
 
-Utilice Adobe Journey Optimizer para diseñar y organizar recorridos personalizados desde un solo lienzo.
+Utilice Adobe Journey Optimizer para diseñar y organizar recorridos personalizados desde un solo lienzo. Los pasos principales para crear un recorrido son los siguientes:
+
+![](assets/journey-creation-process.png)
 
 Adobe Journey Optimizer incluye un lienzo de orquestación omnicanal que permite a los especialistas en marketing armonizar el alcance de marketing con la participación de los clientes uno a uno. La interfaz de usuario le permite arrastrar y soltar fácilmente actividades de la paleta en el lienzo para crear su recorrido.
 

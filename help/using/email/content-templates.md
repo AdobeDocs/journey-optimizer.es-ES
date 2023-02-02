@@ -7,14 +7,14 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 1%
+source-wordcount: '976'
+ht-degree: 2%
 
 ---
 
-# Creación de plantillas de contenido {#content-templates}
+# Trabajar con plantillas de contenido {#content-templates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_content_templates"
@@ -25,32 +25,62 @@ Para un proceso de diseño acelerado y mejorado, puede crear plantillas independ
 
 Esta funcionalidad permite a los usuarios orientados al contenido trabajar con plantillas fuera de campañas o recorridos. Los usuarios de marketing pueden reutilizar y adaptar estas plantillas de contenido independientes dentro de sus propios recorridos o campañas.
 
+Por ejemplo, un usuario de su empresa está a cargo solo del contenido y, por lo tanto, no tiene acceso a campañas o recorridos. Sin embargo, este usuario puede crear una plantilla de correo electrónico que los especialistas en marketing de la organización podrán seleccionar para su uso en todos los correos electrónicos como punto de partida.
+
+➡️ [Aprenda a crear y utilizar plantillas en este vídeo](#video-templates)
+
 >[!CAUTION]
 >
 >Para crear, editar y eliminar plantillas de contenido, debe tener la variable **[!DNL Manage Library Items]** permiso incluido en la variable **[!DNL Content Library Manager]** perfil de producto. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
 
-Por ejemplo, un usuario de su empresa está a cargo solo del contenido y, por lo tanto, no tiene acceso a campañas o recorridos. Sin embargo, este usuario puede crear una plantilla de correo electrónico que los especialistas en marketing de la organización podrán seleccionar para su uso en todos los correos electrónicos como punto de partida.
+## Acceso y administración de plantillas {#access-manage-templates}
+
+Para acceder a la lista de plantillas de contenido, seleccione **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Plantillas de contenido]** en el menú de la izquierda.
+
+![](assets/content-template-list.png)
+
+Todas las plantillas creadas en el entorno limitado actual, ya sea desde un recorrido o desde una campaña utilizando la variable [Guardar como plantilla](#save-as-template) , ya sea desde la **[!UICONTROL Plantillas de contenido]** menú , se muestran.
+
+Puede ordenar las plantillas de contenido por fecha de creación o modificación. También puede elegir mostrar solo los elementos que ha creado o modificado.
+
+![](assets/content-template-list-filters.png)
+
+Para editar el contenido de una plantilla, haga clic en el elemento deseado de la lista y seleccione **[!UICONTROL Editar contenido]**.
+
+![](assets/content-template-list-edit.png)
+
+Para eliminar una plantilla, seleccione el icono de papelera situado junto a la plantilla deseada.
+
+![](assets/content-template-list-delete.png)
+
+>[!NOTE]
+>
+>Cuando se edita o elimina una plantilla, las campañas o recorridos, incluidos los correos electrónicos creados con esta plantilla, no se ven afectados.
+
+## Creación de plantillas de contenido {#create-content-templates}
+
+Existen dos formas de crear plantillas de contenido:
+
+* Cree una plantilla de contenido desde cero, utilizando el carril izquierdo **[!UICONTROL Plantillas de contenido]** para abrir el Navegador. [Descubra cómo](#create-template-from-scratch)
+
+* Al diseñar un correo electrónico dentro de una campaña o un recorrido, guarde el contenido del correo electrónico como una plantilla. [Descubra cómo](#save-as-template)
+
+Una vez guardada, la plantilla de contenido estará disponible para su uso en una campaña o un recorrido. Tanto si se crea desde cero como a partir de un correo electrónico anterior, ahora puede utilizar esta plantilla al crear cualquier [email](get-started-email-design.md) en [!DNL Journey Optimizer]. [Descubra cómo](email-templates.md)
 
 >[!NOTE]
 >
 >* Los cambios realizados en las plantillas de contenido no se propagan a campañas ni recorridos, ya sean en directo o en borrador.
 >
->* Del mismo modo, cuando las plantillas se utilizan en una campaña o un recorrido, las ediciones que realice en el contenido de la campaña y del recorrido no afectarán a la plantilla de contenido utilizada anteriormente.
+>* Del mismo modo, cuando las plantillas se utilizan en una campaña o un recorrido, cualquier edición que realice en el contenido de la campaña y del recorrido no afectará a la plantilla de contenido utilizada anteriormente.
 
 
-➡️ [Aprenda a crear y utilizar plantillas en este vídeo](#video-templates)
+### Crear plantilla desde cero {#create-template-from-scratch}
 
-Para crear una plantilla de contenido, siga los pasos a continuación.
+Para crear una plantilla de contenido desde cero, siga los pasos a continuación.
 
-1. Para acceder a la lista de plantillas de contenido, seleccione **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Plantillas de contenido]** en el menú de la izquierda.
+1. Acceda a la lista de plantillas de contenido a través de la **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Plantillas de contenido]** menú izquierdo.
 
    ![](assets/content-template-list.png)
-
-1. Todas las plantillas creadas en el entorno limitado actual, ya sea desde un recorrido, una campaña o desde el **[!UICONTROL Plantillas de contenido]** menú , se muestran.
-
-   >[!NOTE]
-   >
-   >Puede ordenar las plantillas de contenido por fecha de creación o modificación.
 
 1. Select **[!UICONTROL Crear plantilla]**.
 
@@ -64,36 +94,74 @@ Para crear una plantilla de contenido, siga los pasos a continuación.
 
 1. Para asignar etiquetas de uso de datos principales o personalizadas a la plantilla, seleccione **[!UICONTROL Administrar acceso]**. [Más información sobre Control de acceso a nivel de objeto (OLAC)](../administration/object-based-access.md).
 
-1. Haga clic en **[!UICONTROL Crear]** y elija cómo desea diseñar su correo electrónico desde las siguientes opciones:
+1. Haga clic en **[!UICONTROL Crear]** y elija cómo desea diseñar su correo electrónico desde las diferentes opciones:
 
-   * **[!UICONTROL Diseño desde cero]**
-   * **[!UICONTROL Codifique sus propios]**
-   * **[!UICONTROL Importar HTML]**
-   * **[!UICONTROL Seleccionar plantilla de diseño]**
-
-   ![](assets/content-template-design.png)
-
-   >[!NOTE]
-   >
-   >Si selecciona una plantilla, puede elegir entre **[!UICONTROL Plantillas de ejemplo]**, que son plantillas de correo electrónico predeterminadas, y **[!UICONTROL Plantillas guardadas]**, que son los que se crearon a partir de un recorrido, una campaña o desde el **[!UICONTROL Plantillas de contenido]** para abrir el Navegador. [Más información](email-templates.md#save-as-template)
-
-1. Se muestra el Diseñador de correo electrónico. Edite el contenido según sea necesario, del mismo modo que lo haría con cualquier correo electrónico dentro de un recorrido o una campaña, según la opción seleccionada:
-
-   * [Diseñe su correo electrónico desde cero](content-from-scratch.md) a través de la interfaz del diseñador y aproveche las imágenes de [Adobe Experience Manager Assets Essentials](assets-essentials.md).
+   * [Diseñe su correo electrónico desde cero](content-from-scratch.md) a través de la interfaz del Diseñador de correo electrónico.
 
    * [Código o copiar y pegar HTML sin procesar](code-content.md) directamente en el Diseñador de correo electrónico.
 
    * [Importar contenido de HTML existente](existing-content.md) desde un archivo o una carpeta .zip.
 
-   * [Usar contenido existente](email-templates.md) de una lista de plantillas integradas o personalizadas.
+   * Utilice contenido existente de una lista de plantillas integradas o personalizadas. Los pasos para utilizar una plantilla de contenido en un correo electrónico se describen en [esta sección](email-templates.md).
+
+   ![](assets/content-template-design.png)
+
+1. La variable [Diseñador de correo electrónico](get-started-email-design.md) se muestra. Edite el contenido según sea necesario, del mismo modo que lo haría para cualquier correo electrónico dentro de un recorrido o una campaña, según la opción seleccionada.
 
    ![](assets/content-template-designer.png)
 
-1. Haga clic en **[!UICONTROL Simular contenido]** para comprobar la renderización del correo electrónico. Puede elegir la vista de escritorio o la vista móvil. [Más información](preview.md)
+1. Puede probar el contenido si es necesario. [Descubra cómo](#test-template)
 
-   >[!CAUTION]
-   >
-   >Para simular contenido, debe tener la variable **[!DNL Manage Simulate Content]** permiso incluido en la variable **[!DNL Content Library Manager]** perfil de producto. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
+1. Una vez que la plantilla esté lista, haga clic en **[!UICONTROL Guardar]**.
+
+1. Si es necesario, haga clic en la flecha situada junto al nombre de la plantilla para volver al **[!UICONTROL Detalles]** y edite la plantilla.
+
+   ![](assets/content-template-designer-back.png)
+
+Esta plantilla ya está lista para utilizarse al crear cualquier correo electrónico dentro de [!DNL Journey Optimizer]. [Descubra cómo](email-templates.md)
+
+### Guardar como plantilla {#save-as-template}
+
+>[!CONTEXTUALHELP]
+>id="ajo_messages_depecrated_inventory"
+>title="Descubra cómo migrar sus mensajes"
+>abstract="El 25 de julio de 2022, desapareció el menú Mensajes y ahora los mensajes se crean directamente desde un Recorrido. Si desea reutilizar los mensajes heredados en recorrido, debe guardarlos como plantillas."
+
+Al diseñar una [email](get-started-email-design.md) en una campaña o un recorrido, puede guardar el contenido del correo electrónico para reutilizarlo en el futuro. Para realizar esto, siga los pasos a continuación.
+
+1. En el Diseñador de correo electrónico, haga clic en los puntos suspensivos en la parte superior derecha de la pantalla.
+
+1. Select **[!UICONTROL Guardar como plantilla de contenido]** en el menú desplegable.
+
+   ![](assets/email_designer-save-template.png)
+
+1. Añada un nombre y una descripción para esta plantilla.
+
+   ![](assets/email_designer-template-name.png)
+
+1. Haga clic en **[!UICONTROL Guardar]**.
+
+1. La plantilla se guarda en el **[!UICONTROL Plantillas de contenido]** lista, accesible desde la [!DNL Journey Optimizer] menú específico. Se convierte en una plantilla de contenido independiente a la que se puede acceder, editar y eliminar como cualquier otro elemento de la lista. [Más información](#access-manage-templates)
+
+Ahora puede usar esta plantilla al crear cualquier [email](get-started-email-design.md) en [!DNL Journey Optimizer]. [Descubra cómo](email-templates.md)
+
+>[!NOTE]
+>
+>Cualquier cambio en esa nueva plantilla no se propaga al correo electrónico del que procede. Del mismo modo, cuando el contenido original se edita dentro de ese correo electrónico, la nueva plantilla no se modifica.
+
+## Probar la plantilla de contenido {#test-template}
+
+Puede probar la renderización de cualquier plantilla de contenido de correo electrónico, ya sea creada desde cero o a partir de un correo electrónico. Para ello, siga los pasos que aparecen a continuación.
+
+>[!CAUTION]
+>
+>Para simular contenido, debe tener la variable **[!DNL Manage Simulate Content]** permiso incluido en la variable **[!DNL Content Library Manager]** perfil de producto. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
+
+1. Acceda a la lista de plantillas de contenido a través de la **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Plantillas de contenido]** y seleccione cualquier plantilla.
+
+1. Haga clic en **[!UICONTROL Editar contenido]** de la variable **[!UICONTROL Propiedades de plantilla]**.
+
+1. Haga clic en **[!UICONTROL Simular contenido]** y seleccione un perfil de prueba para comprobar el procesamiento de correo electrónico. Puede elegir la vista de escritorio o la vista móvil. [Más información](preview.md)
 
    ![](assets/content-template-stimulate.png)
 
@@ -105,17 +173,7 @@ Para crear una plantilla de contenido, siga los pasos a continuación.
 
       ![](assets/content-template-stimulate-proof-surface.png)
 
-1. Una vez que la plantilla esté lista, haga clic en **[!UICONTROL Guardar]**.
-
-1. Si es necesario, haga clic en la flecha situada junto al nombre de la plantilla para volver al **[!UICONTROL Detalles]** y edite la plantilla.
-
-   ![](assets/content-template-designer-back.png)
-
-1. Ahora puede usar esta plantilla de contenido al crear cualquier [email](get-started-email-design.md) en [!DNL Journey Optimizer]. Más información sobre [uso de una plantilla guardada](email-templates.md#use-saved-template).
-
-   ![](assets/email_designer-saved-templates.png)
-
-## Vídeo explicativo{#video-templates}
+## Vídeo explicativo {#video-templates}
 
 Obtenga información sobre cómo crear, editar y utilizar plantillas de contenido en [!DNL Journey Optimizer].
 
