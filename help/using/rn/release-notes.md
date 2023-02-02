@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: ad0ca954d2ba15293bdde2715a7aaed62b040cce
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 92%
@@ -56,9 +56,8 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 <td>
 <p>Ahora puede crear plantillas de contenido independientes que se pueden aprovechar en distintos recorridos y campañas para reutilizarlas rápidamente.</p> 
 </p>
-<!--img src="assets/do-not-localize/"/-->
-<p>Obtenga información sobre cómo crear, editar y utilizar plantillas de contenido en <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">este vídeo</a>.
-<p>Para obtener más información, consulte la <a href="../email/content-templates.md">documentación detallada</a>.
+<img src="assets/do-not-localize/content-template.gif"/>
+<p>Obtenga información sobre cómo crear, editar y utilizar plantillas de contenido en <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">este vídeo</a>. Para obtener más información, consulte la <a href="../email/content-templates.md">documentación detallada</a>.
 </p>
 </td>
 </tr>
