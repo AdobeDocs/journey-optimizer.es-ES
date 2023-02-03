@@ -4,16 +4,20 @@ product: journey optimizer
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
 workflow-type: tm+mt
-source-wordcount: '2282'
-ht-degree: 97%
+source-wordcount: '2307'
+ht-degree: 96%
 
 ---
 
 # Actualizaciones de documentación {#latest-updates}
 
 Esta página enumera todas las actualizaciones de documentación de [!DNL Journey Optimizer].
+
+## Febrero de 2023 {#feb-2023}
+
+* Se ha añadido una nota en la documentación de campañas activadas por API para especificar que los atributos contextuales pasados a la solicitud no pueden superar los 50 kb. [Más información](../campaigns/api-triggered-campaigns.md#contextual)
 
 ## Enero de 2023 {#jan-2023}
 
