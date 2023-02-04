@@ -2,9 +2,9 @@
 title: Decisiones por lotes
 description: Obtenga información sobre cómo ofrecer decisiones de oferta a todos los perfiles de un segmento de Adobe Experience Platform determinado.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: f3f38e7db95bd1a6dc41b1626177c800280fb71c
+source-git-commit: a56d675e014d55064073eba011fb50e2d363844d
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '833'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Antes de configurar una solicitud de trabajo, asegúrese de que ha creado:
 
    >[!NOTE]
    >
-   >Se ejecuta un trabajo por lotes de la instantánea de perfil que se produce una vez al día. La toma de decisiones por lotes limita la frecuencia y siempre carga perfiles de la instantánea más reciente.
+   >Se ejecuta un trabajo por lotes de la instantánea de perfil que se produce una vez al día. La toma de decisiones por lotes limita la frecuencia y siempre carga perfiles de la instantánea más reciente. Espere hasta 24 horas después de crear un segmento antes de probar la API de decisiones por lotes.
 
 * **Una decisión** en Adobe Journey Optimizer. [Aprenda a crear una decisión](offer-activities/create-offer-activities.md)
 
