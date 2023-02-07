@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: actividad, condición, lienzo, recorrido
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: c247fe725492a2f3997564bae52ebddeb69c5272
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1469'
 ht-degree: 8%
 
 ---
@@ -130,7 +130,9 @@ Puede utilizar este tipo de condición para aumentar el volumen de los envíos. 
 
 El límite predeterminado es 1000.
 
-El contador solo se aplica a la versión de recorrido seleccionada. El contador se restablece a cero después de un mes. Después de un restablecimiento, los perfiles introducidos siguen la ruta nominal de nuevo hasta que se alcanza el límite del contador.
+El contador solo se aplica a la versión de recorrido seleccionada. El contador se restablece en cero después de un mes, después de una nueva versión de recorrido o en una versión duplicada del recorrido. Después de un restablecimiento, los perfiles introducidos siguen la ruta nominal de nuevo hasta que se alcanza el límite del contador.
+
+Cuando se define un límite de perfil en un recorrido recurrente, el contador no se restablece después de cada repetición.
 
 La ruta nominal siempre tiene prioridad sobre la ruta alternativa, incluso si se mueve la ruta alternativa por encima de la ruta nominal en el lienzo de recorrido.
 
