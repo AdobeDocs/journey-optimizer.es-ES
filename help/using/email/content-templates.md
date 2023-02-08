@@ -7,19 +7,14 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '985'
 ht-degree: 2%
 
 ---
 
 # Trabajar con plantillas de contenido {#content-templates}
-
->[!CONTEXTUALHELP]
->id="ajo_content_templates"
->title="Creación de plantillas de contenido"
->abstract="Cree plantillas independientes para reutilizar el contenido en todos los recorridos y campañas."
 
 Para un proceso de diseño acelerado y mejorado, puede crear plantillas independientes para reutilizar fácilmente el contenido personalizado en [!DNL Journey Optimizer] campañas y recorridos.
 
@@ -58,6 +53,11 @@ Para eliminar una plantilla, seleccione el icono de papelera situado junto a la 
 >Cuando se edita o elimina una plantilla, las campañas o recorridos, incluidos los correos electrónicos creados con esta plantilla, no se ven afectados.
 
 ## Creación de plantillas de contenido {#create-content-templates}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_template"
+>title="Defina su propia plantilla de contenido"
+>abstract="Cree una plantilla personalizada independiente desde cero para que el contenido se pueda reutilizar en varios recorridos y campañas."
 
 Existen dos formas de crear plantillas de contenido:
 

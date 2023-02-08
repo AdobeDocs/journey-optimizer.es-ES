@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 keywords: en la aplicación, mensaje, diseño, formato
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '884'
 ht-degree: 5%
 
 ---
@@ -194,3 +194,9 @@ Si la variable **[!UICONTROL Modo de formato avanzado]** está activada, puede p
 * [Crear mensaje en la aplicación](create-in-app.md)
 * [Informe en la aplicación](inapp-report.md)
 * [Configuración en la aplicación](inapp-configuration.md)
+
+## Vídeo explicativo{#video}
+
+El siguiente vídeo muestra cómo crear y probar los mensajes en la aplicación.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

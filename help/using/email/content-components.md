@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: componentes, diseñador de correo electrónico, editor, correo electrónico
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -168,44 +168,6 @@ Utilice la variable **[!UICONTROL Imagen]** para insertar un archivo de imagen d
    ![](assets/email_designer_10.png)
 
 1. Ajuste los demás atributos de estilo, como margen, borde, etc. o agregando un vínculo para redirigir a la audiencia a otro contenido de la **[!UICONTROL Configuración de componentes]** panel.
-
-## Vídeo {#Video}
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_email"
->title="Configuración de vídeo"
->abstract="Utilice este componente para insertar un vídeo en el correo electrónico. Tenga en cuenta que los vídeos no funcionan en todos los clientes de correo electrónico. Se recomienda configurar una imagen de reserva."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_landing_page"
->title="Configuración de vídeo"
->abstract="Utilice este componente para insertar un vídeo en la página de aterrizaje. Tenga en cuenta que los vídeos no funcionan en todos los clientes de mensajes. Se recomienda configurar una imagen de reserva."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_fragment"
->title="Configuración de vídeo"
->abstract="Utilice este componente para insertar un vídeo en el fragmento. Tenga en cuenta que los vídeos no funcionan en todos los clientes de mensajes. Se recomienda configurar una imagen de reserva."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_template"
->title="Configuración de vídeo"
->abstract="Utilice este componente para insertar un vídeo en la plantilla. Tenga en cuenta que los vídeos no funcionan en todos los clientes de mensajes. Se recomienda configurar una imagen de reserva."
-
-Utilice la variable **[!UICONTROL Vídeo]** para insertar un vídeo en el contenido del correo electrónico a través de un vínculo URL.
-
-1. De **[!UICONTROL Componentes de contenido]**, arrastre y suelte el **[!UICONTROL Vídeo]** componente en un **[!UICONTROL Componente de estructura]**.
-
-   ![](assets/email_designer_17.png)
-
-1. Haga clic en el componente recién agregado.
-
-1. En el **[!UICONTROL Vínculo de vídeo]** del campo **[!UICONTROL Configuración de componentes]** , agregue la URL del vídeo.
-
-   ![](assets/email_designer_18.png)
-
-1. Puede añadir un **[!UICONTROL Imagen de póster]** al vídeo para especificar una imagen que se mostrará hasta que la audiencia haga clic en el botón de reproducción.
-
-1. Ajuste los demás atributos de estilo, como estilo, margen, borde, etc. de la variable **[!UICONTROL Configuración de componentes]** panel.
 
 ## Social {#social}
 

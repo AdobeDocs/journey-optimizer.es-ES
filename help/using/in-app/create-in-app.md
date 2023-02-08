@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '627'
 ht-degree: 4%
 
 ---
@@ -115,3 +115,9 @@ Una vez enviados, puede medir el impacto de los mensajes en la aplicación dentr
 * [Diseño de mensajes en la aplicación](design-in-app.md)
 * [Informe en la aplicación](inapp-report.md)
 * [Configuración en la aplicación](inapp-configuration.md)
+
+## Vídeo explicativo{#video}
+
+El siguiente vídeo muestra cómo crear, configurar y publicar mensajes en la aplicación en sus campañas.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)

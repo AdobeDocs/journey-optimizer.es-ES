@@ -9,23 +9,33 @@ role: User
 level: Beginner
 keywords: correo electrónico, plantillas, diseño
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '272'
 ht-degree: 1%
 
 ---
 
 # Uso de plantillas de correo electrónico {#email-templates}
 
+>[!CONTEXTUALHELP]
+>id="ajo_use_template"
+>title="Creación de contenido a partir de una plantilla personalizada"
+>abstract="Para empezar a crear el contenido del correo electrónico, seleccione una plantilla existente que se haya creado desde cero o que se haya guardado como plantilla a partir de un correo electrónico anterior."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/content-templates.html#create-content-templates" text="Creación de plantillas de contenido"
+
 En el **[!UICONTROL Cree su correo electrónico]** , utilice el **[!UICONTROL Seleccionar plantilla de diseño]** para comenzar a crear el contenido a partir de una plantilla.
 
 ![](assets/email_designer-templates.png)
 
 Puede elegir entre:
+
 * **Plantillas de ejemplo**. La variable [!DNL Journey Optimizer] la interfaz de ofrece 20 plantillas de correo electrónico predeterminadas entre las que puede elegir.
+
 * **Plantillas guardadas**. También puede utilizar una plantilla personalizada que:
+
    * Creado desde cero con la variable **[!UICONTROL Plantillas de contenido]** para abrir el Navegador. [Más información](content-templates.md#create-template-from-scratch)
+
    * Guardado de un correo electrónico en un recorrido o en una campaña utilizando la variable **[!UICONTROL Guardar como plantilla de contenido]** . [Más información](content-templates.md#save-as-template)
 
 Para empezar a crear contenido con una de las plantillas guardadas o de ejemplo, siga los pasos a continuación.
