@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: supresión, lista, rechazo, correo electrónico, optimizador, cuarentena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 508576b1ee161a7efe46a2c553bd309db7ac2f7d
+source-git-commit: 792eb6d042e748601c9810e6988ecc0b79061dda
 workflow-type: tm+mt
 source-wordcount: '1516'
 ht-degree: 1%
@@ -84,7 +84,7 @@ Los posibles motivos de un error de entrega son:
 
 ### Reglas de supresión  {#suppression-rules}
 
-En el **[!UICONTROL Lista de supresión]** , también puede editar el parámetro de reintento asociado a las reglas de supresión desde la **[!UICONTROL Botón Editar reglas de supresión]**. Utilice esta opción para actualizar el umbral de reintentos del simulador para pruebas actual. [Más información](retries.md)
+En el **[!UICONTROL Lista de supresión]** , también puede editar el parámetro de reintento asociado a las reglas de supresión desde la **[!UICONTROL Editar reglas de supresión]** botón. Utilice esta opción para actualizar el umbral de reintentos del simulador para pruebas actual. [Más información sobre los reintentos](retries.md).
 
 
 ## Añadir direcciones y dominios a la lista de supresión{#add-addresses-and-domains}
@@ -126,7 +126,7 @@ Para añadir una dirección de correo electrónico o un dominio a la lista de su
 
    ![](assets/suppression-list-add-email-address.png)
 
-1. Seleccione el tipo de dirección: **[!UICONTROL Dirección de correo electrónico]** o **[!UICONTROL Dirección del dominio]**.
+1. Seleccione el tipo de dirección: **[!UICONTROL Correo electrónico]** o **[!UICONTROL Dominio]**.
 
 1. Introduzca la dirección de correo electrónico o el dominio que desea excluir de la entrega.
 
