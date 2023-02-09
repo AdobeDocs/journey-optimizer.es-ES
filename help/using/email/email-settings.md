@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Configuración de correo electrónico
 description: Obtenga información sobre cómo configurar la configuración de correo electrónico en el nivel de superficie del canal
-feature: Application Settings
+feature: Surface
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '1478'
 ht-degree: 2%
