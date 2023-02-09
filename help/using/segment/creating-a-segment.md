@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '340'
 ht-degree: 5%
 
 ---
@@ -30,7 +30,7 @@ En este ejemplo, crearemos un segmento dirigido a todos los clientes que viven e
 
    ![](assets/create-segment.png)
 
-   La pantalla de definición del segmento le permite configurar todos los campos obligatorios para definir el segmento. Obtenga información sobre cómo configurar segmentos en la variable [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target=&quot;_blank&quot;}.
+   La pantalla de definición del segmento le permite configurar todos los campos obligatorios para definir el segmento. Obtenga información sobre cómo configurar segmentos en la variable [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}.
 
    ![](assets/segment-builder.png)
 
@@ -42,7 +42,7 @@ En este ejemplo, crearemos un segmento dirigido a todos los clientes que viven e
 
    >[!NOTE]
    >
-   >Tenga en cuenta que los campos disponibles en el panel izquierdo varían en función de cómo **Perfil individual XDM** y **XDM ExperienceEvent** se han configurado esquemas para su organización.  Obtenga más información en la [Documentación del Modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target=&quot;_blank&quot;}.
+   >Tenga en cuenta que los campos disponibles en el panel izquierdo varían en función de cómo **Perfil individual XDM** y **XDM ExperienceEvent** se han configurado esquemas para su organización.  Obtenga más información en la [Documentación del Modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
 
    ![](assets/drag-fields.png)
 

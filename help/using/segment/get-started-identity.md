@@ -9,7 +9,7 @@ level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '342'
 ht-degree: 18%
 
 ---
@@ -24,13 +24,13 @@ En [!DNL Adobe Journey Optimizer], las **Identidades**[ vinculan los consumidore
 
 ![](assets/identities-home.png)
 
-Más información sobre **Servicio de identidad** en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es){target=&quot;_blank&quot;}.
+Más información sobre **Servicio de identidad** en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es){target="_blank"}.
 
 ## Espacios de nombres de identidad {#identity-namespaces}
 
 **** Las áreas de nombres de identidad son un componente de Identity Service de   que sirve de indicadores del contexto al que se relaciona una identidad. Por ejemplo, distinguen un valor de `name@email.com` como dirección de correo electrónico o `443522` como ID de CRM numérico. El trabajo con áreas de nombres de identidad requiere comprender los distintos servicios de Adobe Experience Platform involucrados. Antes de comenzar a trabajar con áreas de nombres, revise la documentación de los siguientes servicios:
 
-Más información sobre **Espacios de nombres de identidad** en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es){target=&quot;_blank&quot;}.
+Más información sobre **Espacios de nombres de identidad** en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es){target="_blank"}.
 
 ## Gráfico de identidad{#id-graph}
 
@@ -38,4 +38,4 @@ La variable **Gráfico de identidad** es un mapa de las relaciones entre las dis
 
 El visor de gráficos de identidad en [!DNL Adobe Journey Optimizer] la interfaz de usuario de le permite visualizar y comprender mejor qué identidades de cliente se vinculan entre sí y de qué manera. El visor le permite arrastrar e interactuar con diferentes partes del gráfico, lo que le permite examinar relaciones de identidad complejas, depurar de forma más eficaz y beneficiarse de una mayor transparencia con la forma en que se utiliza la información.
 
-Más información sobre **Gráfico de identidad** en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html){target=&quot;_blank&quot;}.
+Más información sobre **Gráfico de identidad** en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html){target="_blank"}.

@@ -35,7 +35,7 @@ Agregación
 * listDateTimeOnly
 * listDateOnly
 * duration
-* integer
+* entero
 * decimal
 * dateTime
 * dateTimeOnly

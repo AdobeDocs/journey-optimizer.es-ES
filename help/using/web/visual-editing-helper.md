@@ -10,7 +10,7 @@ hidefromtoc: true
 exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '396'
 ht-degree: 14%
 
 ---
@@ -27,7 +27,7 @@ Para crear y previsualizar rápidamente sus experiencias web, la extensión del 
 
 Para obtener e instalar la extensión del explorador de Visual Editing Helper, siga los pasos a continuación.
 
-1. En la tienda web de Google Chrome, vaya a la [Ayuda de edición visual de Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)Extensión del explorador {target=&quot;_blank&quot;}.
+1. En la tienda web de Google Chrome, vaya a la [Ayuda de edición visual de Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extensión del explorador.
 
 1. Haga clic en **[!UICONTROL Añadir a Chrome]** > **[!UICONTROL Añadir extensión]**.
 
@@ -56,7 +56,7 @@ La extensión no tiene ninguna configuración condicional y gestiona todos los a
 
 Al utilizar el Adobe [!DNL Journey Optimizer] diseñador web, si intenta cargar un sitio web que no se puede cargar, aparece un mensaje sugiriendo que instale el [Extensión del explorador de Visual Editing Helper](#install-visual-editing-helper).
 
-Si el SDK web de Adobe Experience Platform aún no está implementado en el sitio web, se muestra un mensaje en el diseñador web sugiriendo que instale la extensión del explorador Visual Editing Helper e implemente la variable [SDK web](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target=&quot;_blank&quot;}.
+Si el SDK web de Adobe Experience Platform aún no está implementado en el sitio web, se muestra un mensaje en el diseñador web sugiriendo que instale la extensión del explorador Visual Editing Helper e implemente la variable [SDK web](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"}.
 
 Si el sitio no se carga o se comporta de forma inesperada, una posible corrección es aceptar cookies en el sitio web del explorador antes de intentar cargarlas en el Adobe [!DNL Journey Optimizer].
 

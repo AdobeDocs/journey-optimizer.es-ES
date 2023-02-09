@@ -33,7 +33,7 @@ Conversión
 | dateTime | convierte la fecha en formato de fecha UTC |
 | dateTimeOnly | convierte la fecha en formato de fecha UTC |
 | duration | convertir en el número correspondiente de milisegundos como una cadena |
-| integer | se convierte en una representación de cadena del valor (1 se convierte en &quot;1&quot;) |
+| entero | se convierte en una representación de cadena del valor (1 se convierte en &quot;1&quot;) |
 | decimal | se convierte en una representación de cadena del valor (1,5 se convierte en &quot;1,5&quot;) |
 | Booleano | convierta el valor booleano en &#39;true&#39; si es &quot;true&quot;, &#39;false&#39; si es &quot;false&quot; |
 

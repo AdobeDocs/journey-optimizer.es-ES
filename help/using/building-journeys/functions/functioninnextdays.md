@@ -31,7 +31,7 @@ Fecha
 | Parámetro | Tipo |
 |-----------|------------------|
 | fecha y hora | dateTime |
-| delta | integer |
+| delta | entero |
 
 ## Firmas y tipo devuelto
 

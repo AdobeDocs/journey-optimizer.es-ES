@@ -55,7 +55,7 @@ La variable **[!UICONTROL Estadísticas de recorrido]** muestra los siguientes K
 
 * **[!UICONTROL Recorridos individuales con errores]**: Número total de recorridos individuales que no se ejecutaron correctamente.
 
-La variable **[!UICONTROL Evento ejecutado en las últimas 24 horas]** y **[!UICONTROL Eventos]** las utilidades permiten ver cuál de sus eventos se ejecutó correctamente mediante el número de resumen, el gráfico y la tabla.
+La variable **[!UICONTROL Evento ejecutado en las últimas 24 horas]** y **[!UICONTROL Eventos]** las utilidades permiten ver cuál de los eventos se ejecutó correctamente mediante el número de resumen, el gráfico y la tabla.
 
 La variable **[!UICONTROL Acción ejecutada en las últimas 24 horas]** y **[!UICONTROL Acciones ejecutadas y errores]** las utilidades representan la acción más exitosa y los errores que se produjeron cuando se activaron las acciones. Los números del gráfico de acción, la tabla y el resumen contienen los datos disponibles para acciones como:
 

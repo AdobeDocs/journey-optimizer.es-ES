@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 100%
+source-wordcount: '935'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Los beneficios incluyen:
 
 >[!NOTE]
 >
->Si es un usuario de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target=&quot;_blank&quot;} que aprovecha el servicio de aplicaciones de **Offer Decisioning**, también se le aplican todas las funciones de Gestión de decisiones descritas en esta sección.
+>Si es [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target="_blank"} el usuario aprovecha el **offer decisioning** servicio de aplicación, se le aplicarán todas las funciones de Administración de decisiones descritas en esta sección.
 
 ## Acerca de las ofertas y las decisiones {#about-offers-and-decisions}
 
@@ -69,7 +69,7 @@ Las funciones y la integración de Gestión de decisiones con Adobe Experience P
 
 ## Concesión de acceso a Gestión de decisiones {#granting-acess-to-decision-management}
 
-Los permisos para acceder y utilizar las funcionalidades de decisiones de uso se administran mediante [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+Los permisos para acceder y utilizar las funcionalidades de decisiones de uso se administran mediante [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html){target="_blank"}.
 
 Para conceder acceso a la funcionalidad de Gestión de decisiones, debe crear un **[!UICONTROL Perfil de producto]** y asignar los permisos correspondientes a sus usuarios. Más información sobre la administración de usuarios y permisos de [!DNL Journey Optimizer] en [esta sección](../../administration/permissions.md).
 

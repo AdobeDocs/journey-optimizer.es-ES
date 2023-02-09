@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -29,17 +29,17 @@ El uso de modelos de optimización automática para la gestión de decisiones es
 
 Los siguientes términos son útiles al tratar el tema de la optimización automática:
 
-* **Multi-armed bandit**: A [multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit)El método de optimización {target=&quot;_blank&quot;} equilibra el aprendizaje de exploración y la explotación de dicho aprendizaje.
+* **Multi-armed bandit**: A [multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit){target="_blank"} el enfoque de optimización equilibra el aprendizaje de exploración y la explotación de dicho aprendizaje.
 
 * **Muestreo Thomson**: El muestreo Thompson es un algoritmo para problemas de decisión en línea en el que las acciones se toman secuencialmente de manera que se debe equilibrar entre explotar lo que se sabe que maximiza el rendimiento inmediato y la inversión para acumular nueva información que puede mejorar el rendimiento futuro. [Más información](#thompson-sampling)
 
-* [**Distribución beta**](https://en.wikipedia.org/wiki/Beta_distribution){target=&quot;_blank&quot;}: Conjunto continuo [distribuciones de probabilidad](https://en.wikipedia.org/wiki/Probability_distribution){target=&quot;_blank&quot;} definido en el intervalo [0, 1] [parametrizado](https://en.wikipedia.org/wiki/Statistical_parameter){target=&quot;_blank&quot;} por dos positivos [parámetros de forma](https://en.wikipedia.org/wiki/Shape_parameter){target=&quot;_blank&quot;}.
+* [**Distribución beta**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: Set of continuous [probability distributions](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} defined on the interval [0, 1] [parameterized](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} by two positive [shape parameters](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}.
 
 ## Muestreo Thompson {#thompson-sampling}
 
 El algoritmo que subyace a la optimización automática es **Muestreo Thompson**. En esta sección, discutimos la intuición detrás del muestreo Thompson.
 
-[Muestreo Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target=&quot;_blank&quot;}, o bandidos bayesianos, es un enfoque bayesiano del problema multi-armed bandit.  La idea básica es tratar la recompensa promedio ?? de cada oferta como **variable aleatoria** y usar los datos que hemos recopilado hasta ahora, para actualizar nuestra &quot;creencia&quot; sobre la recompensa promedio. Esta &quot;creencia&quot; se representa matemáticamente mediante una **distribución posterior de la probabilidad** - básicamente, un rango de valores para la recompensa promedio, junto con la plausibilidad (o probabilidad) de que la recompensa tenga ese valor para cada oferta. Entonces, para cada decisión, **muestra un punto de cada una de estas distribuciones de recompensa posteriores** y seleccione la oferta cuya recompensa de muestra tenía el valor más alto.
+[Muestreo Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}, o bandidos bayesianos, es un enfoque bayesiano del problema multi-armed bandit.  La idea básica es tratar la recompensa promedio ?? de cada oferta como **variable aleatoria** y usar los datos que hemos recopilado hasta ahora, para actualizar nuestra &quot;creencia&quot; sobre la recompensa promedio. Esta &quot;creencia&quot; se representa matemáticamente mediante una **distribución posterior de la probabilidad** - básicamente, un rango de valores para la recompensa promedio, junto con la plausibilidad (o probabilidad) de que la recompensa tenga ese valor para cada oferta. Entonces, para cada decisión, **muestra un punto de cada una de estas distribuciones de recompensa posteriores** y seleccione la oferta cuya recompensa de muestra tenía el valor más alto.
 
 Este proceso se ilustra en la figura siguiente, donde tenemos 3 ofertas diferentes. Inicialmente no tenemos evidencia de los datos y asumimos que todas las ofertas tienen una distribución posterior uniforme. Obtenemos una muestra de la distribución de recompensas posterior de cada oferta. El ejemplo seleccionado de la distribución de la oferta 2 tiene el valor más alto. Este es un ejemplo de **exploración**. Después de mostrar la Oferta 2, recopilamos cualquier recompensa potencial (por ejemplo, conversión/no conversión) y actualizamos la distribución posterior de la Oferta 2 usando Bayes Theorem como se explica más abajo.  Continuamos con este proceso y actualizamos las distribuciones posteriores cada vez que se muestra una oferta y se recopila la recompensa. En la segunda figura, se selecciona la Oferta 3 - a pesar de que la Oferta 1 tiene la recompensa promedio más alta (su distribución de recompensa posterior está más lejos a la derecha), el proceso de muestreo de cada distribución nos ha llevado a elegir una Oferta 3 aparentemente subóptima. Al hacerlo, nos damos la oportunidad de aprender más sobre la verdadera distribución de recompensas de la Oferta 3.
 
@@ -71,7 +71,7 @@ La optimización automática está diseñada para considerar recompensas binaria
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-La función Probabilidad, como hemos explicado anteriormente, está modelada por una distribución binomial, con éxitos de s (conversiones) y de errores (no conversiones) y q es una [variable aleatoria](https://en.wikipedia.org/wiki/Random_variable){target=&quot;_blank&quot;} con un [distribución beta](https://en.wikipedia.org/wiki/Beta_distribution){target=&quot;_blank&quot;}.
+La función Probabilidad, como hemos explicado anteriormente, está modelada por una distribución binomial, con éxitos de s (conversiones) y de errores (no conversiones) y q es una [variable aleatoria](https://en.wikipedia.org/wiki/Random_variable){target="_blank"} with a [beta distribution](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}.
 
 El anterior está modelado por la distribución beta y la distribución posterior adopta la siguiente forma:
 
@@ -85,8 +85,8 @@ Para la optimización automática, como se muestra en el ejemplo anterior, comen
 **Temas relacionados**:
 
 Para profundizar en el muestreo Thompson, lea los siguientes artículos de investigación:
-* [Evaluación empírica del muestreo Thompson](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target=&quot;_blank&quot;}
-* [Análisis del Muestreo Thompson para el Problema de Multi-armed Bandit](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target=&quot;_blank&quot;}
+* [Evaluación empírica del muestreo Thompson](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
+* [Análisis del Muestreo Thompson para el Problema de Multi-armed Bandit](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
 
 ## Problema de arranque en frío {#cold-start}
 

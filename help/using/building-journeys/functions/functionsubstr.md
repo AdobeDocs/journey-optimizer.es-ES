@@ -31,8 +31,8 @@ Cadena
 | Parámetro | tipo |
 |-------------|----------|
 | string | string |
-| beginIndex | integer |
-| endIndex | integer |
+| beginIndex | entero |
+| endIndex | entero |
 
 ## Firma y tipo devuelto
 

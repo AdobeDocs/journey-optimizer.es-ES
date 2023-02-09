@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '765'
 ht-degree: 4%
 
 ---
@@ -57,7 +57,7 @@ Para cada dirección, el motivo básico de la supresión y la categoría de supr
 >
 >Los perfiles con **[!UICONTROL Suprimido]** se excluyen durante el proceso de envío de mensajes. Por lo tanto, mientras que la variable **Informes de recorrido** mostrará estos perfiles como si se hubieran movido a través del recorrido ([Leer segmento](../building-journeys/read-segment.md) y [actividades de mensaje](../building-journeys/journeys-message.md)), el **Informes de correo electrónico** no los incluirá en la variable **[!UICONTROL Enviado]** las métricas tal y como están filtradas antes del envío por correo electrónico.
 >
->Obtenga más información sobre [Informe Activo](../reports/live-report.md) y [Informe global](../reports/global-report.md). Para averiguar el motivo de todos los casos de exclusión, puede usar la variable [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
+>Obtenga más información sobre [Informe Activo](../reports/live-report.md) y [Informe global](../reports/global-report.md). Para averiguar el motivo de todos los casos de exclusión, puede usar la variable [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
 
 ### Errores de envío {#delivery-failures}
 

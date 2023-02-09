@@ -35,7 +35,7 @@ Lista
 | Parámetro | Tipo | Descripción |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Lista para ordenar. Para listObject, debe ser una referencia de campo. |
-| numberOfItems | integer | Número de elementos que se van a devolver de la lista dada. |
+| numberOfItems | entero | Número de elementos que se van a devolver de la lista dada. |
 | firstOrLastItems | Booleano | Este parámetro es opcional (true de forma predeterminada). true devuelve los primeros elementos. false devuelve los últimos elementos. |
 
 ## Firma y tipo devuelto

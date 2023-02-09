@@ -31,7 +31,7 @@ Agregación
 * listInteger
 * listDecimal
 * duration
-* integer
+* entero
 * decimal
 
 ## Firmas y tipos devueltos

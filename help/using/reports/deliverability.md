@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 24%
+source-wordcount: '693'
+ht-degree: 28%
 
 ---
 
@@ -35,7 +35,7 @@ La variable **tasa de entrega** es el número de mensajes que llegan a las bande
 
 Para optimizar la capacidad de entrega de su [!DNL Journey Optimizer] experiencias, recomendamos utilizar las prácticas recomendadas que se enumeran en esta sección. Los problemas de entrega generalmente están relacionados con la protección contra el spam implementada por los proveedores de servicios de Internet (ISP) y los administradores de servidores de correo.
 
-Para profundizar en lo que es la capacidad de envío y para obtener más información sobre los términos, conceptos y enfoques clave de la capacidad de envío, consulte [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es){target=&quot;_blank&quot;}.
+Para profundizar en lo que es la capacidad de entrega y obtener más información sobre los términos, conceptos y enfoques clave de la capacidad de entrega, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es){target="_blank"}.
 
 ## Reducir la tasa de quejas {#reduce-complaint-rate}
 

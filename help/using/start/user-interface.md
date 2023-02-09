@@ -21,7 +21,7 @@ Conéctese a [Adobe Experience Cloud](http://experience.adobe.com) y busque [!DN
 
 Los conceptos clave al examinar la interfaz de usuario son habituales en Adobe Experience Platform. Consulte la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=es#adobe-experience-platform-ui-guide) para obtener más información.{target="_blank"}
 
-Los componentes y las funciones disponibles en la IU dependen de los [permisos](../administration/permissions.md) y del [paquete de licencias](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}. Para cualquier pregunta, póngase en contacto con el Manager de éxito del cliente de Adobe.
+Los componentes y las funcionalidades disponibles en la IU dependen de los [permisos](../administration/permissions.md) y del [paquete de licencias](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Para cualquier pregunta, póngase en contacto con el Manager de éxito del cliente de Adobe.
 
 >[!NOTE]
 >

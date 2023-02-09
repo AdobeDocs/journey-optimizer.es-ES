@@ -9,7 +9,7 @@ level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '109'
 ht-degree: 22%
 
 ---
@@ -24,4 +24,4 @@ Obtenga información sobre los conectores de origen y cómo configurarlos en Jou
 
 >[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
-Obtenga más información sobre cómo ingerir datos de orígenes externos con conectores de origen en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es){target=&quot;_blank&quot;}.
+Obtenga más información sobre cómo ingerir datos de orígenes externos con conectores de origen en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es){target="_blank"}.

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Limitaciones y protecciones de Journey Optimizer
-description: Obtenga más información acerca de las protecciones de Journey Optimizer
+title: Limitaciones y mecanismos de protección de Journey Optimizer
+description: Obtenga más información acerca de los mecanismos de protección de Journey Optimizer
 feature: Journeys
 topic: Content Management
 role: User
@@ -15,33 +15,33 @@ ht-degree: 100%
 
 ---
 
-# Protecciones y limitaciones {#limitations}
+# Mecanismos de protección y limitaciones {#limitations}
 
-Los derechos, limitaciones de productos y protecciones de rendimiento se enumeran en la [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Los derechos, limitaciones de productos y protección del rendimiento se enumeran en la [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-También debe tener en cuenta las [protecciones para los datos del perfil del cliente en tiempo real antes de comenzar](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es){target="_blank"}.
+También debe tener en cuenta los [mecanismos de protección para los datos del perfil del cliente en tiempo real antes de comenzar](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es){target="_blank"}.
 
-A continuación, encontrará limitaciones y protecciones adicionales al utilizar [!DNL Adobe Journey Optimizer].
+A continuación, encontrará limitaciones y mecanismos de protección adicionales al utilizar [!DNL Adobe Journey Optimizer].
 
-## Protecciones de mensajes {#message-guardrails}
+## Mecanismos de protección de mensajes {#message-guardrails}
 
 * No pueden agregar archivos adjuntos a un correo electrónico con [!DNL Journey Optimizer].
 * No puede utilizar el mismo dominio de envío para enviar mensajes desde [!DNL Adobe Journey Optimizer] y desde otro producto, como [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage], por ejemplo.
 
 
-## Protecciones de gestión de decisiones {#offer-guardrails}
+## Mecanismos de protección de gestión de decisiones {#offer-guardrails}
 
-Las protecciones de rendimiento y los límites estáticos para la toma de decisiones se enumeran en la [página de descripción del producto del servicio de aplicaciones de Offer decisioning de Adobe](https://helpx.adobe.com/es/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
+Las protecciones del rendimiento y los límites estáticos para la toma de decisiones se enumeran en la [página de descripción del producto del servicio de aplicaciones de Offer decisioning de Adobe](https://helpx.adobe.com/es/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
 
 
-## Protecciones de las páginas de aterrizaje {#lp-guardrails}
+## Mecanismos de protección de las páginas de aterrizaje {#lp-guardrails}
 
 * Solo se puede utilizar un componente **Formulario** en una sola página principal.
 * El componente **Formulario** no se puede usar en subpáginas.
 * No puede agregar un preencabezado a una página de aterrizaje.
 * No puede seleccionar la opción **Programar usted mismo** al diseñar una página de aterrizaje principal.
 
-## Protecciones de recorridos {#journeys-guardrails}
+## Mecanismos de protección de recorridos {#journeys-guardrails}
 
 ### Acciones generales {#general-actions-g}
 

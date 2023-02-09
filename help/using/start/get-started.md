@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: 23f1ad4580d714acaefd7a5948ee674ce5203bc6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Comprenda la arquitectura básica de [!DNL Adobe Journey Optimizer], los puntos 
 >[!NOTE]
 >
 > Los procedimientos y directrices generales de privacidad de Adobe Experience Cloud se aplican a [!DNL Journey Optimizer]. [Obtenga más información sobre la privacidad de Adobe Experience Cloud](https://www.adobe.com/es/privacy/experience-cloud.html).
-> También debe tener en cuenta las [protecciones para los datos del perfil del cliente en tiempo real antes de comenzar](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es).
+> También debe tener en cuenta los [mecanismos de protección para los datos del perfil del cliente en tiempo real antes de comenzar](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es).
 
 
 **Consulte también**

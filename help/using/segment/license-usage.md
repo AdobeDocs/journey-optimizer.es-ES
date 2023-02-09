@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 11%
+source-wordcount: '120'
+ht-degree: 12%
 
 ---
 
@@ -25,10 +25,10 @@ Para acceder a este tablero, vaya a **[!UICONTROL Administración]** > **[!UICON
 
 >[!NOTE]
 >
->Para poder ver el panel, se debe otorgar el [Ver panel de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=en#available-permissions)permiso {target=&quot;_blank&quot;}.
+>Para poder ver el panel, se debe otorgar el [Ver panel de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=en#available-permissions){target="_blank"} permiso.
 
 Obtenga más información en la documentación de Adobe Experience Platform:
 
-* [Resumen del panel de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=es){target=&quot;_blank&quot;}
-* [Exploración del panel de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target=&quot;_blank&quot;}
-* [Métricas disponibles](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=es#available-metrics){target=&quot;_blank&quot;}
+* [Resumen del panel de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=es){target="_blank"}
+* [Exploración del panel de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [Métricas disponibles](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=es#available-metrics){target="_blank"}

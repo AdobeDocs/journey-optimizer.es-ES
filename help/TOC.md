@@ -32,7 +32,7 @@ ht-degree: 99%
    + [Interfaz de usuario](using/start/user-interface.md)
    + [Accesibilidad](using/start/accessibility.md)
    + [Integraciones](using/start/ajo-integrations.md)
-   + [Límites de protección ](using/start/guardrails.md)
+   + [Mecanismos de protección](using/start/guardrails.md)
 + Recorridos {#orchestrate-journeys}
    + [Introducción a los recorridos](using/building-journeys/journey.md)
    + Creación de un recorrido{#create-journey}

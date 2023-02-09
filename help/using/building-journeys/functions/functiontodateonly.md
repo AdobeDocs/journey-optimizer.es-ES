@@ -33,7 +33,7 @@ Conversión
 | Representación de cadena de una fecha como &quot;AAAA-MM-DD&quot; (formato XDM). También admite el formato ISO-8601: only **fecha completa** parte se considera (consulte [RFC 3339, sección 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
 | fecha y hora | dateTime |
 | fecha y hora sin zona horaria | dateTimeOnly |
-| valor entero de una epoch en milisegundos | integer |
+| valor entero de una epoch en milisegundos | entero |
 
 ## Firmas y tipos devueltos
 

@@ -34,7 +34,7 @@ Tipos compatibles:
 * listInteger
 * listDecimal
 * decimal
-* integer
+* entero
 
 ## Firmas y tipo devuelto
 

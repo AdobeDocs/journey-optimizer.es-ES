@@ -10,8 +10,8 @@ hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 7%
+source-wordcount: '1028'
+ht-degree: 6%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 7%
 
 Para poder acceder y crear páginas web en la variable [!DNL Journey Optimizer] interfaz de usuario de , siga los requisitos previos a continuación:
 
-* Para agregar modificaciones al sitio web, debe implementar la variable [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target=&quot;_blank&quot;} en su sitio web.
+* Para agregar modificaciones al sitio web, debe implementar la variable [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"} en su sitio web.
 
-* Para acceder a la [!DNL Journey Optimizer] diseñador web, debe descargar el [Ayuda de edición visual de Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)Extensión del explorador {target=&quot;_blank&quot;} en Chrome. [Más información](visual-editing-helper.md)
+* Para acceder a la [!DNL Journey Optimizer] diseñador web, debe descargar el [Ayuda de edición visual de Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extensión del explorador en Chrome. [Más información](visual-editing-helper.md)
 
 >[!CAUTION]
 >
@@ -41,9 +41,9 @@ Para poder acceder y crear páginas web en la variable [!DNL Journey Optimizer] 
 
 Para que la experiencia web se entregue correctamente, se debe definir la siguiente configuración:
 
-* En el [Recopilación de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es){target=&quot;_blank&quot;}, asegúrese de que tiene un conjunto de datos definido como en la sección **[!UICONTROL Adobe Experience Platform]** tiene ambos **[!UICONTROL Segmentación de Edge]** y **[!UICONTROL Adobe Journey Optimizer]** opciones activadas.
+* En el [Recopilación de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es){target="_blank"}, asegúrese de que tiene un conjunto de datos definido como en la sección **[!UICONTROL Adobe Experience Platform]** tiene ambos **[!UICONTROL Segmentación de Edge]** y **[!UICONTROL Adobe Journey Optimizer]** opciones activadas.
 
-   Esto garantiza que Adobe Experience Platform Edge gestione correctamente los eventos de entrada de Journey Optimizer. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target=&quot;_blank&quot;}
+   Esto garantiza que Adobe Experience Platform Edge gestione correctamente los eventos de entrada de Journey Optimizer. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
    ![](assets/web-aep-datastream-ajo.png)
 
@@ -51,9 +51,9 @@ Para que la experiencia web se entregue correctamente, se debe definir la siguie
    >
    >La variable **[!UICONTROL Adobe Journey Optimizer]** solo se puede activar cuando **[!UICONTROL Segmentación de Edge]** ya está activada.
 
-* En [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target=&quot;_blank&quot;}, asegúrese de que tiene una directiva de combinación con la variable **[!UICONTROL Política de combinación activa/perimetral]** activada. Para ello, seleccione una directiva en la sección **[!UICONTROL Cliente]** > **[!UICONTROL Perfiles]** > **[!UICONTROL Combinar directivas]** menú del Experience Platform. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target=&quot;_blank&quot;}
+* En [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
-   Esta directiva de combinación la utiliza [!DNL Journey Optimizer] canales entrantes para activar y publicar correctamente campañas entrantes en el perímetro. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target=&quot;_blank&quot;}
+   Esta directiva de combinación la utiliza [!DNL Journey Optimizer] canales entrantes para activar y publicar correctamente campañas entrantes en el perímetro. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}
 
    ![](assets/web-aep-merge-policy.png)
 

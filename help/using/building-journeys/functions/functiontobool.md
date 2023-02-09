@@ -34,7 +34,7 @@ Conversión
 * decimal
 * Booleano
 * string
-* integer
+* entero
 
 ## Firmas y tipos devueltos
 

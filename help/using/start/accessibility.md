@@ -9,7 +9,7 @@ level: Beginner
 source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 54%
+ht-degree: 69%
 
 ---
 
@@ -67,24 +67,24 @@ Puede utilizar estos métodos abreviados en áreas específicas de [!DNL Journey
     <td>Use la tecla Suprimir o Retroceso y a continuación Intro para confirmar la eliminación</td>
   </tr>
   <tr>
-    <td>Acercar o alejar (enfoque en el lienzo o en cualquiera de sus elementos secundarios)</td>
+    <td>Aumentar o reducir (enfoque en el lienzo o en cualquiera de sus elementos secundarios)</td>
     <td>CTRL +/- (Windows) o CMD +/- (Mac)</td>
   </tr>  
   <tr>
     <td>Desplazarse entre cada actividad y ruta (enfoque en el lienzo) o entre los botones de la barra de herramientas (enfoque en la barra de herramientas)</td>
-    <td>Claves de FLECHA</td>
+    <td>Teclas de FLECHA</td>
   </tr>   
   <tr>
-    <td>Mover el foco al siguiente elemento procesable del lienzo; la barra de herramientas es la primera</td>
+    <td>Mover el enfoque al siguiente elemento accionable del lienzo; la barra de herramientas es el primero</td>
     <td>Tabulación</td>
   </tr>  
   <tr>
-    <td>Abra el panel de configuración correcto (enfoque en una actividad)</td>
-    <td>ENTER</td>
+    <td>Abrir el panel de configuración correcto (enfoque en una actividad)</td>
+    <td>INTRO</td>
   </tr>   
   <tr>
-    <td>Mover una actividad al lienzo (enfoque en una actividad)</td>
-    <td>MAYÚS + teclas de flecha</td>
+    <td>Mover una actividad en el lienzo (enfoque en una actividad)</td>
+    <td>MAYÚS + teclas de FLECHA</td>
   </tr>  
   <tr>
   <td rowspan="3">

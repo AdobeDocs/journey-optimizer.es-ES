@@ -10,7 +10,7 @@ hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1097'
 ht-degree: 5%
 
 ---
@@ -45,7 +45,7 @@ Una vez creada una acción web a partir de la campaña, puede editar el contenid
 
 >[!CAUTION]
 >
->Para acceder en [!DNL Journey Optimizer], la página web debe implementarse usando la variable [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target=&quot;_blank&quot;}.
+>Para acceder en [!DNL Journey Optimizer], la página web debe implementarse usando la variable [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"}.
 
 1. En el **[!UICONTROL Acción]** de la campaña, seleccione **[!UICONTROL Editar contenido]** para comenzar a crear la campaña web.
 
@@ -61,7 +61,7 @@ Una vez creada una acción web a partir de la campaña, puede editar el contenid
 
    >[!CAUTION]
    >
-   >La página web debe incluir la variable [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target=&quot;_blank&quot;}.
+   >La página web debe incluir la variable [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"}.
 
 1. Haga clic en **[!UICONTROL Abrir diseñador web]** para editarlo. [Más información](author-web.md)
 

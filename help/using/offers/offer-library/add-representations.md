@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 0%
+source-wordcount: '562'
+ht-degree: 1%
 
 ---
 
@@ -72,7 +72,7 @@ Si la ubicación seleccionada es de tipo imagen, puede añadir contenido proveni
 
 >[!NOTE]
 >
-> Para trabajar con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}, debe implementar [!DNL Assets Essentials] para su organización y asegúrese de que los usuarios forman parte de la **Usuarios consumidores de Assets Essentials** o/y **Usuarios de Assets Essentials** Perfiles de producto. Más información sobre [esta página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target=&quot;_blank&quot;}.
+> Para trabajar con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=es){target="_blank"}.
 
 1. Elija la **[!UICONTROL Biblioteca de activos]** .
 
@@ -88,9 +88,9 @@ Si la ubicación seleccionada es de tipo imagen, puede añadir contenido proveni
 
 ### Añadir archivos HTML o JSON {#html-json}
 
-Si la ubicación seleccionada es de tipo HTML, también puede añadir contenido HTML o JSON proveniente del [Biblioteca de recursos de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}).
+Si la ubicación seleccionada es de tipo HTML, también puede añadir contenido HTML o JSON proveniente del [Biblioteca de recursos de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}).
 
-Por ejemplo, se ha creado una plantilla de correo electrónico de HTML en [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target=&quot;_blank&quot;} y desea usar ese archivo para el contenido de la oferta. En lugar de crear un nuevo archivo, simplemente puede cargar la plantilla en la variable **Biblioteca de recursos** para poder reutilizarla en las representaciones de su oferta.
+Por ejemplo, se ha creado una plantilla de correo electrónico de HTML en [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} y desea utilizar ese archivo para el contenido de la oferta. En lugar de crear un nuevo archivo, simplemente puede cargar la plantilla en la variable **Biblioteca de recursos** para poder reutilizarla en las representaciones de su oferta.
 
 Para reutilizar el contenido en una representación, busque **Biblioteca de recursos** tal como se describe en [esta sección](#images) y seleccione el HTML o el archivo JSON que desee.
 

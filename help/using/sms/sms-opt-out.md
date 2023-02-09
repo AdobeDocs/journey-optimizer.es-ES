@@ -37,7 +37,7 @@ Debe asegurarse de que el código corto cumpla todas las normas y regulaciones d
 
 ## ID de remitente alfanumérico {#alphanumeric}
 
-Los ID de remitente alfanuméricos solo se utilizan en la mensajería unidireccional y no pueden recibir mensajes. Como resultado, STOP, START y HELP, las palabras clave de SMS de Adobe Journey Optimizer, no son aplicables a los ID de remitente alfa. Debe‧proporcionar‧otras‧instrucciones,‧como‧escribir‧al‧Equipo‧de‧Soporte,‧llamar‧a‧una‧línea‧telefónica‧de‧asistencia‧o‧enviar‧un‧mensaje‧de‧texto‧a‧otro‧número‧de‧teléfono‧o‧código‧para‧permitir‧a‧los‧usuarios‧excluirse‧de‧los‧mensajes‧enviados‧a‧través‧de‧un‧ID‧de‧remitente‧alfanumérico.
+Los ID de remitente alfanuméricos solo se utilizan en la mensajería unidireccional y no pueden recibir mensajes. Como resultado, STOP, START y HELP, las palabras clave de SMS de Adobe Journey Optimizer, no son aplicables a los ID de remitente alfa. Debe proporcionar otras instrucciones, como escribir al Equipo de Soporte, llamar a una línea telefónica de asistencia o enviar un mensaje de texto a otro número de teléfono o código para permitir a los usuarios excluirse de los mensajes enviados a través de un ID de remitente alfanumérico.
 
 ## Vídeo {#video-sms}
 

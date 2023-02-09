@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '861'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Primero debe seleccionar los perfiles de prueba que va a utilizar para la simula
 
    >[!NOTE]
    >
-   >Un área de nombres de identidad define el contexto de un identificador, como una dirección de correo electrónico o un ID de CRM. Obtenga más información sobre las áreas de nombres de identidad de Adobe Experience Platform [en esta sección](../../segment/get-started-identity.md){target=&quot;_blank&quot;}.
+   >Un área de nombres de identidad define el contexto de un identificador, como una dirección de correo electrónico o un ID de CRM. Obtenga más información sobre las áreas de nombres de identidad de Adobe Experience Platform [en esta sección](../../segment/get-started-identity.md){target="_blank"}.
 
 1. Introduzca el valor de identidad y haga clic en **[!UICONTROL Ver]** para enumerar los perfiles disponibles.
 
@@ -212,5 +212,5 @@ Una vez agregado el ámbito de decisión y seleccionado un perfil de prueba, pue
 
    >[!NOTE]
    >
-   >Al copiar las cargas de solicitud o respuesta en su propio código, asegúrese de reemplazar {USER_TOKEN} y {API_KEY} con valores válidos. Obtenga información sobre cómo recuperar estos valores en la variable [API de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html)documentación de {target=&quot;_blank&quot;}.
+   >Al copiar las cargas de solicitud o respuesta en su propio código, asegúrese de reemplazar {USER_TOKEN} y {API_KEY} con valores válidos. Obtenga información sobre cómo recuperar estos valores en la variable [API de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} documentación.
 
