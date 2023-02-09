@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: supresión, lista, rechazo, correo electrónico, optimizador, cuarentena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
+source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1488'
 ht-degree: 1%
@@ -221,7 +221,7 @@ Para eliminar una dirección de la lista de supresión, utilice el **[!UICONTROL
 
 Por ejemplo, en el caso de una interrupción del servicio de Internet Provider (ISP), los correos electrónicos se marcan erróneamente como rechazos graves porque no se pueden enviar correctamente a su destinatario. Estas direcciones de correo electrónico deben eliminarse de la lista de supresión.
 
-Para recuperar esas direcciones, ejecute una consulta específica con parámetros personalizados, según el contexto de la interrupción. [Obtenga más información en esta muestra](../data/datasets-query-examples.md#isp-outageisp-outage-query).
+Para recuperar esas direcciones, ejecute una consulta específica con parámetros personalizados, según el contexto de la interrupción. [Obtenga más información en esta muestra](../data/datasets-query-examples.md#isp-outage-query).
 
 Una vez identificadas las direcciones de correo electrónico afectadas, filtre la lista de supresión para mostrarlas. Por ejemplo, si se produjo un corte en el ISP desde el 11 de noviembre de 2022 hasta el 13 de noviembre de 2022 en la variable **test.com** , filtre las direcciones agregadas a la lista de supresión en ese intervalo de tiempo, como se muestra a continuación:
 

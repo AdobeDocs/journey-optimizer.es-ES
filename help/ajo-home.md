@@ -5,7 +5,7 @@ description: Aprenda a utilizar Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 2ef5c87561df71b1c55a71c237477d34750f8ac7
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 100%
@@ -48,7 +48,7 @@ ht-degree: 100%
     Diseñe el contenido de un correo electrónico nuevo o importe contenido de una HTML existente
     <p>
     <div>
-    <a href="using/building-journeys/journeys-uc.md">Creación de su primer recorrido</a>
+    <a href="using/building-journeys/journey-gs.md">Creación de su primer recorrido</a>
     </div>
     <p>Aprenda a construir y ejecutar un recorrido
     <p>
