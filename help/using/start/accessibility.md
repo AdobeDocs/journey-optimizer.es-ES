@@ -2,22 +2,22 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Funciones de accesibilidad en Journey Optimizer
-description: Obtenga más información sobre la accesibilidad en la interfaz de usuario de Journey Optimizer
+description: Más información acerca de la accesibilidad de la interfaz de usuario de Journey Optimizer
 feature: Accessibility
 role: User
 level: Beginner
 source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 # Accesibilidad en Journey Optimizer{#accessibility}
 
-La accesibilidad se refiere a una serie de características que hacen utilizable un producto de software, con el menor esfuerzo posible, para usuarios con discapacidades visuales, auditivas, cognitivas, motoras u otros tipos de discapacidades. Adobe es un líder del sector en accesibilidad y apoya la creación de experiencias web destacadas al alentar a los desarrolladores a producir contenido rico y atractivo accesible a todos los usuarios. Obtenga más información sobre el compromiso del Adobe con la accesibilidad en la [Página de accesibilidad del Adobe](https://www.adobe.com/accessibility.html){target="_blank"}.
+La accesibilidad se refiere a una serie de características que hacen utilizable un producto de software, con el menor esfuerzo posible, para usuarios con discapacidades visuales, auditivas, cognitivas, motoras u otros tipos de discapacidades. Adobe es líder del sector en accesibilidad y apoya la creación de experiencias web excelentes al alentar a los desarrolladores a producir contenido variado, atractivo y accesible a todos los usuarios. Obtenga más información sobre el compromiso de Adobe con la accesibilidad en la [Página de accesibilidad de Adobe](https://www.adobe.com/accessibility.html){target="_blank"}.
 
-Para ayudar a alcanzar el objetivo de la conformidad de accesibilidad, [!DNL Journey Optimizer] sigue las prácticas recomendadas reconocidas internacionalmente en las Directrices de accesibilidad al contenido web (WCAG) 2.1 Nivel A y Nivel AA. Obtenga más información sobre las últimas [Informe de conformidad de accesibilidad de Adobe Journey Optimizer](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}.
+Para ayudar a alcanzar el objetivo de la conformidad con la accesibilidad, [!DNL Journey Optimizer] sigue las prácticas recomendadas reconocidas internacionalmente en las Directrices de accesibilidad al contenido web (WCAG) 2.1 Nivel A y Nivel AA. Obtenga más información en el último [Informe de conformidad de accesibilidad de Adobe Journey Optimizer](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}.
 
 
 Las funciones de accesibilidad de [!DNL Adobe Journey Optimizer] se heredan de Adobe Experience Platform:
@@ -28,7 +28,7 @@ Las funciones de accesibilidad de [!DNL Adobe Journey Optimizer] se heredan de A
 
 Las funciones de accesibilidad de Adobe Experience Platform se detallan [en esta documentación](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=es){target="_blank"}.
 
-Los siguientes métodos abreviados del teclado comunes están disponibles en [!DNL Journey Optimizer]:
+Los siguientes métodos abreviados del teclado están disponibles en [!DNL Journey Optimizer]:
 
 | Acción | Acceso directo |
 | --- | --- |
@@ -38,7 +38,7 @@ Los siguientes métodos abreviados del teclado comunes están disponibles en [!D
 | Seleccionar o borrar un elemento que esté enfocado | Intro o barra espaciadora |
 | Cancelar una selección, contraer un panel o cerrar un cuadro de diálogo | ESC |
 
-Puede utilizar estos métodos abreviados en áreas específicas de [!DNL Journey Optimizer] interfaz de usuario:
+Puede utilizar estos métodos abreviados en áreas específicas de la [!DNL Journey Optimizer] interfaz de usuario:
 
 <table>
   <thead>
