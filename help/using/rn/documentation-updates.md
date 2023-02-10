@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '2330'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -23,8 +23,8 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Enero de 2023 {#jan-2023}
 
-* Todas las nuevas funciones y mejoras incluidas [!DNL Journey Optimizer] La versión del 23 de enero se ha detallado en la documentación. [Más información](release-notes.md)
-* Funciones de accesibilidad en [!DNL Journey Optimizer] ahora se agrupan en una página dedicada. [Más información](../start/accessibility.md)
+* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de enero de 2022 se han incluido en la documentación. [Más información](release-notes.md)
+* Las funciones de accesibilidad en [!DNL Journey Optimizer] ahora se agrupan en una página dedicada a ello. [Más información](../start/accessibility.md)
 * Se ha añadido una nueva página sobre la administración de datos en [!DNL Journey Optimizer]. [Más información](../data/gs-data.md)
 * Se ha añadido una tabla que enumera todos los códigos que se pueden devolver en la respuesta al enviar ofertas mediante la API de decisiones. [Más información](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 

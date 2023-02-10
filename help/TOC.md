@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -467,7 +467,7 @@ ht-degree: 99%
    + [Introducción a la privacidad](using/privacy/get-started-privacy.md)
    + [Solicitudes de privacidad](using/privacy/requests.md)
    + [Acciones de auditoría en recursos](using/privacy/audit-logs.md)
-   + [Realizar operaciones de higiene de datos](using/privacy/data-hygiene.md)
+   + [Realizar operaciones de limpieza de datos](using/privacy/data-hygiene.md)
    + Administración del consentimiento {#consent}
       + [Administración de la exclusión](using/privacy/opt-out.md)
       + [Trabajar con políticas de consentimiento](using/action/consent.md)
