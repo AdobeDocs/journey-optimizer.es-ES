@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 5297edd0df4ffb9dc7470cbbc68781fc1cec0d27
+source-git-commit: 45d508b284c23235518fab37095413091208e497
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '828'
 ht-degree: 6%
 
 ---
@@ -134,6 +134,6 @@ Veamos un ejemplo con la siguiente configuración:
 * La acción está pensada para empezar a las 10 a. m.
 * La ventana es de 3 horas
 
-Un perfil puede tener un tiempo de apertura óptimo que se encuentra fuera de la ventana. Por ejemplo, John tiene una apertura óptima al hacer clic a las 5 p. m.
+Un perfil puede tener un tiempo de apertura óptimo que está fuera de la ventana. Por ejemplo, la apertura óptima de John al hacer clic es a las 5 p. m.
 
-A nivel de perfil, hay puntuaciones para cada hora de la semana. En este ejemplo, el correo electrónico siempre se envía dentro de la ventana . En tiempo de ejecución, el sistema comprueba la lista de puntuaciones dentro de esa ventana (ventana de 3 horas a partir de las 10 de la mañana). A continuación, el sistema compara las puntuaciones de 10, 11 y mediodía y decide cuál de las tres es la más alta. El correo electrónico se envía en ese momento.
+A nivel de perfil, hay puntuaciones para cada hora de la semana. En este ejemplo, el correo electrónico siempre se envía dentro de la ventana . En tiempo de ejecución, el sistema comprueba la lista de puntuaciones dentro de esa ventana (ventana de 3 horas a partir de las 10 de la mañana). A continuación, el sistema compara las puntuaciones de 10, 11 y mediodía y selecciona la más alta. El correo electrónico se envía en ese momento.
