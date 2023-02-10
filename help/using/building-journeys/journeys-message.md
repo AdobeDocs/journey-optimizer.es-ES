@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 5297edd0df4ffb9dc7470cbbc68781fc1cec0d27
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 7%
+source-wordcount: '832'
+ht-degree: 6%
 
 ---
 
@@ -125,3 +125,15 @@ Habilite la optimización del tiempo de envío en un mensaje push o de correo el
 En el caso de los mensajes de correo electrónico, seleccione si desea optimizar las aperturas de correo electrónico o las pulsaciones de correo electrónico seleccionando el botón de opción adecuado. Los mensajes push toman el valor predeterminado de la opción de aperturas, ya que los clics no son aplicables a la mensajería push.
 
 También puede optar por cortejar los tiempos de envío utilizados por el sistema introduciendo un valor para la variable **Envíe dentro del siguiente** . Si elige &quot;seis horas&quot; como valor, [!DNL Journey Optimizer] comprobará cada perfil de usuario y elegirá el tiempo de envío óptimo dentro de las seis horas siguientes al tiempo de ejecución del recorrido.
+
+**¿Qué sucede si la hora óptima está fuera de la ventana?**
+
+Veamos un ejemplo con la siguiente configuración:
+
+* Optimizar en clics
+* La acción está pensada para empezar a las 10 a. m.
+* La ventana es de 3 horas
+
+Un perfil puede tener un tiempo de apertura óptimo que se encuentra fuera de la ventana. Por ejemplo, John tiene una apertura óptima al hacer clic a las 5 p. m.
+
+A nivel de perfil, hay puntuaciones para cada hora de la semana. En este ejemplo, el correo electrónico siempre se envía dentro de la ventana . En tiempo de ejecución, el sistema comprueba la lista de puntuaciones dentro de esa ventana (ventana de 3 horas a partir de las 10 de la mañana). A continuación, el sistema compara las puntuaciones de 10, 11 y mediodía y decide cuál de las tres es la más alta. El correo electrónico se envía en ese momento.
