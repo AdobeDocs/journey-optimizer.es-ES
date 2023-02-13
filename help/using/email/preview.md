@@ -2,21 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Vista previa de mensajes y envío de pruebas
-description: Obtenga información sobre cómo previsualizar y probar los mensajes
+description: Obtenga información sobre cómo previsualizar y probar el correo electrónico
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: vista previa, contenido, correo electrónico, prueba, prueba, perfil
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 5%
 
 ---
 
-# Previsualizar y probar los mensajes {#preview-and-proof}
+# Previsualizar y probar el correo electrónico {#preview-and-proof}
 
 Una vez definido el contenido del correo electrónico, puede utilizar perfiles de prueba para previsualizarlo y probarlo. Si ha insertado [contenido personalizado](../personalization/personalize.md), puede comprobar cómo se muestra este contenido en el mensaje mediante los datos de perfil de prueba.
 

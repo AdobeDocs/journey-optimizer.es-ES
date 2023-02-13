@@ -8,18 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 22%
+source-wordcount: '173'
+ht-degree: 23%
 
 ---
 
 # Introducción a los SMS {#get-started-sms}
-
->[!IMPORTANT]
->
->Si es la primera vez que crea un SMS, asegúrese de que el canal SMS esté configurado. [Más información](sms-configuration.md).
 
 Uso [!DNL Journey Optimizer] para enviar mensajes de texto a sus clientes en sus dispositivos móviles. Puede crear, personalizar y previsualizar mensajes en formato de texto desde el editor de SMS.
 
@@ -33,7 +29,10 @@ Se pueden crear envíos de SMS:
 
    Para obtener más información sobre cómo configurar la campaña, consulte esta [página](../campaigns/create-campaign.md#configure).
 
-Si es la primera vez que crea un mensaje SMS, asegúrese de que el canal SMS esté configurado. [Más información](sms-configuration.md).
+
+>[!IMPORTANT]
+>
+>Si es la primera vez que crea un SMS, asegúrese de que el canal SMS esté configurado. [Más información](sms-configuration.md).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

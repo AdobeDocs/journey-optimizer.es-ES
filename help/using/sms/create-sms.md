@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 34ab78408981d2b53736b31c94412da06cb860c4
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '430'
 ht-degree: 13%
 
 ---
@@ -19,22 +19,18 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="Creación de SMS"
->abstract="Añada el mensaje de texto y comience a personalizarlo con el editor de expresiones."
+>title="Creación de un mensaje SMS"
+>abstract="Añada el mensaje SMS y comience a personalizarlo con el editor de expresiones."
 
->[!NOTE]
->
->De acuerdo con las normas y los reglamentos del sector, todos los mensajes SMS sobre marketing deben contener una forma para que los destinatarios puedan cancelar la suscripción fácilmente. Para ello, los destinatarios de SMS pueden responder con las palabras clave de inclusión y exclusión. [Obtenga información sobre cómo administrar la exclusión](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+## Añadir un mensaje SMS {#create-sms-journey-campaign}
 
-## Creación de un mensaje SMS en un recorrido o campaña {#create-sms-journey-campaign}
-
-Para empezar a personalizar el mensaje SMS, siga estos pasos:
+Examine las pestañas siguientes para aprender a añadir un SMS en una campaña o en un recorrido.
 
 >[!BEGINTABS]
 
 >[!TAB Añadir un mensaje SMS a un Recorrido]
 
-1. Abra el recorrido y arrastre y suelte una actividad SMS desde la sección Acciones de la paleta.
+1. Abra el recorrido y arrastre y suelte una actividad SMS desde la **Acciones** de la paleta.
 
    ![](assets/sms_create_1.png)
 
@@ -44,7 +40,7 @@ Para empezar a personalizar el mensaje SMS, siga estos pasos:
 
    Para obtener más información sobre cómo configurar un recorrido, consulte [esta página](../building-journeys/journey-gs.md)
 
-Ahora puede empezar a diseñar el contenido de su mensaje SMS desde el **[!UICONTROL Editar contenido]** botón. [Diseño del contenido de SMS](#sms-content)
+Ahora puede empezar a diseñar el contenido de su mensaje SMS desde el **[!UICONTROL Editar contenido]** botón. [Definir el contenido del SMS](#sms-content)
 
 >[!TAB Añadir un mensaje SMS a una campaña]
 
@@ -79,6 +75,7 @@ Ahora puede empezar a diseñar el contenido de su mensaje SMS desde el **[!UICON
 
 >[!ENDTABS]
 
+
 ## Definir el contenido del SMS{#sms-content}
 
 1. En la pantalla de configuración de recorrido o de campaña, haga clic en el botón **[!UICONTROL Editar contenido]** para configurar el contenido del SMS.
@@ -93,8 +90,13 @@ Ahora puede empezar a diseñar el contenido de su mensaje SMS desde el **[!UICON
 
    ![](assets/sms-content-preview.png)
 
+>[!NOTE]
+>
+>De acuerdo con las normas y los reglamentos del sector, todos los mensajes SMS sobre marketing deben contener una forma para que los destinatarios puedan cancelar la suscripción fácilmente. Para ello, los destinatarios de SMS pueden responder con las palabras clave de inclusión y exclusión. [Obtenga información sobre cómo administrar la exclusión](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+
 **Temas relacionados**
 
 * [Configuración del canal de SMS](sms-configuration.md)
 * [Informe SMS](../reports/journey-global-report.md#sms-global)
 * [Adición de un mensaje en un recorrido](../building-journeys/journeys-message.md)
+* [Añadir un mensaje en una campaña](../campaigns/create-campaign.md)
