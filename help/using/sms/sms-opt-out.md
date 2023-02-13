@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: 676e2d6788c8110b76a38e857a62ba9c1be5842c
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 96%
+source-wordcount: '421'
+ht-degree: 45%
 
 ---
 
@@ -19,21 +19,27 @@ ht-degree: 96%
 
 De acuerdo con las normas y los reglamentos del sector, todos los mensajes SMS sobre marketing deben contener una forma para que los destinatarios puedan cancelar la suscripción fácilmente. [Obtenga más información sobre la administración de privacidad y exclusión](../privacy/opt-out.md)
 
-De forma predeterminada, Adobe Journey Optimizer gestiona mensajes de respuesta estándar en inglés como STOP, UNSTOP y START para mensajes de código largo y gratuito, de acuerdo con los estándares del sector para la integración nativa como Sinch y Twilio. Estas palabras clave suelen activar una respuesta estándar automática de su proveedor de terceros (p. ej., Twilio, Sinch, etc.). Puede confirmar esto directamente con su proveedor o a través de su sitio de documentación.
-
-No se necesita hacer nada más para garantizar que las funcionalidades de exclusión de SMS funcionen en Adobe Journey Optimizer, ya que STOP, UNSTOP y START, las respuestas de palabras clave, se reconocerán automáticamente.
-
-Además de detener el envío con Adobe Journey Optimizer en función del estado de exclusión (para integraciones directas con Twilio o Sinch), la mayoría de los proveedores de puertas de enlace por SMS también mantienen una lista de bloqueados que garantiza que un mensaje SMS no se va a enviar a una persona que haya elegido excluirse. Si utiliza un proveedor que no sea Sinch o Twilio y envía un SMS a través de un [canal personalizado](../building-journeys/using-custom-actions.md), debe confirmarlo con su proveedor.
-
 >[!IMPORTANT]
 >
->Las campañas de mensajería de texto pueden estar sujetas a diversos requisitos legales de cumplimiento según su naturaleza, la ubicación desde la que se envían los mensajes de texto y la ubicación de los destinatarios. <br>Aunque Adobe Journey Optimizer gestionará los mensajes en códigos largos y números gratuitos, tal y como se detalla más arriba, consulte a su asesor jurídico para asegurarse de que su campaña de mensajería de texto cumpla todos los requisitos legales aplicables.
+>Las comunicaciones de mensajes de texto pueden estar sujetas a diversos requisitos legales de conformidad según su naturaleza, la ubicación desde la que envía los mensajes de texto y la ubicación de los destinatarios. Aunque Adobe Journey Optimizer gestiona los mensajes con códigos largos y números gratuitos como se detalla a continuación, consulte a su asesor jurídico para asegurarse de que las comunicaciones de mensajes de texto cumplen todos los requisitos legales aplicables.
+
+## Palabras clave de entrada nativas{#sms-native-keywords}
+
+De forma predeterminada, Adobe Journey Optimizer gestiona mensajes de respuesta estándar en inglés como STOP, UNSTOP y START para mensajes de código largo y gratuito, de acuerdo con los estándares del sector para la integración nativa como Sinch y Twilio.
+
+Estas palabras clave suelen generar el déclencheur de una respuesta estándar automática de su proveedor de terceros (como Twilio o Sinch). Puede confirmar esto directamente con su proveedor o a través de su sitio de documentación.
+
+No se requieren pasos para garantizar que las funcionalidades de exclusión de SMS funcionen en Adobe Journey Optimizer, ya que las respuestas de palabras clave STOP, UNSTOP y START se reconocen automáticamente. Los estados de exclusión de perfiles se actualizan en tiempo real en Adobe Journey Optimizer.
+
+
+## Listas de bloqueados{#sms-blocklists}
+
+Además de detener el envío mediante Adobe Journey Optimizer en función del estado de exclusión (para integraciones directas con Twilio o Sinch), la mayoría de los proveedores de pasarelas SMS también mantienen una lista de bloqueados que garantiza que no se envíe un mensaje SMS a una persona que haya elegido excluirse. Si utiliza un proveedor que no sea Sinch o Twilio y envía un SMS a través de [canal personalizado](../building-journeys/using-custom-actions.md), debe confirmarlo con su proveedor.
+
 
 ## Códigos cortos {#short-codes}
 
-De forma predeterminada, Adobe Journey Optimizer no gestiona las palabras clave de exclusión, inclusión o ayuda para los números de código corto.
-
-Debe asegurarse de que el código corto cumpla todas las normas y regulaciones del sector para gestionar la exclusión.
+De forma predeterminada, Adobe Journey Optimizer no gestiona las palabras clave de exclusión, inclusión o ayuda para los números de código cortos. Debe asegurarse de que el código corto cumpla todas las normas y regulaciones del sector para gestionar la exclusión.
 
 ## ID de remitente alfanumérico {#alphanumeric}
 
