@@ -6,9 +6,9 @@ description: Aprenda a configurar su entorno para enviar SMS con Journey Optimiz
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: d0ef261f81bf9d193a426c0a260d701908afb4d9
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
@@ -131,3 +131,5 @@ Ya está listo para enviar mensajes SMS con Journey Optimizer.
 
 * [Creación de un mensaje SMS](create-sms.md)
 * [Adición de un mensaje en un recorrido](../building-journeys/journeys-message.md)
+* [Añadir un mensaje en una campaña](../campaigns/create-campaign.md)
+
