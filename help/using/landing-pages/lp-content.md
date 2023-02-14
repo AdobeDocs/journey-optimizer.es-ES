@@ -9,22 +9,45 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, página, formulario, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1194'
 ht-degree: 4%
 
 ---
 
 # Definición del contenido específico de una página de aterrizaje {#lp-content}
 
-Para definir contenido específico que permita a los usuarios seleccionar y enviar sus opciones desde la página de aterrizaje, use la variable **[!UICONTROL Formulario]** componente. Para ello, siga los pasos que aparecen a continuación.
+>[!CONTEXTUALHELP]
+>id="ac_lp_components"
+>title="Uso de componentes de contenido"
+>abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una página de aterrizaje. Para definir contenido específico que permita a los usuarios seleccionar y enviar sus opciones, utilice el componente de formulario."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="Añadir componentes de contenido"
+
+Para diseñar el contenido de su página de aterrizaje, puede utilizar los mismos componentes que para un correo electrónico. [Más información](../email/content-components.md#add-content-components)
+
+Para diseñar contenido específico que permita a los usuarios seleccionar y enviar sus opciones, [utilizar el componente de formulario](#use-form-component) y defina su [estilos específicos de páginas de aterrizaje](#lp-form-styles).
 
 >[!NOTE]
 >
 >También puede crear una página de aterrizaje de pulsaciones sin **[!UICONTROL Formulario]** componente. En ese caso, la página de aterrizaje se mostrará a los usuarios, pero no se les pedirá que envíen ningún formulario. Esto puede resultar útil si solo desea mostrar una página de aterrizaje sin requerir ninguna acción por parte de los destinatarios, como la inclusión o la exclusión, o si desea proporcionar información que no requiera la entrada del usuario.
 
+Con el diseñador de contenido de páginas de aterrizaje, también puede aprovechar los datos contextuales procedentes de la página principal en una subpágina. [Más información](#use-primary-page-context)
+
 ## Uso del componente de formulario {#use-form-component}
+
+>[!CONTEXTUALHELP]
+>id="ac_lp_formfield"
+>title="Definición de los campos del componente de formulario"
+>abstract="Defina cómo verán y enviará sus opciones los destinatarios desde la página de aterrizaje."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="Definir estilos de formulario de una página de aterrizaje"
+
+>[!CONTEXTUALHELP]
+>id="ac_lp_submission"
+>title="Qué sucede al hacer clic en el botón"
+>abstract="Defina lo que sucederá cuando los usuarios envíen el formulario de página de aterrizaje."
+
+Para definir contenido específico que permita a los usuarios seleccionar y enviar sus opciones desde la página de aterrizaje, utilice la variable **[!UICONTROL Formulario]** componente. Para ello, siga los pasos que aparecen a continuación.
 
 1. Arrastre y suelte el elemento específico de la página de aterrizaje **[!UICONTROL Formulario]** de la paleta izquierda al espacio de trabajo principal.
 
@@ -129,13 +152,13 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 
 Puede utilizar datos contextuales procedentes de otra página dentro de la misma página de aterrizaje.
 
-Por ejemplo, si vincula una casilla de verificación<!-- or the submission of the page--> a [lista de suscripción](subscription-list.md) en la página de aterrizaje principal, puede utilizar esa lista de suscripción en la subpágina &quot;gracias&quot;.
+Por ejemplo, si vincula una casilla de verificación <!-- or the submission of the page--> a [lista de suscripción](subscription-list.md) en la página de aterrizaje principal, puede utilizar esa lista de suscripción en la subpágina &quot;gracias&quot;.
 
 Supongamos que vincula dos casillas de verificación en la página principal a dos listas de suscripción diferentes. Si un usuario se suscribe a uno de estos, desea mostrar un mensaje específico al enviar el formulario, según la casilla de verificación que haya seleccionado.
 
 Para ello, siga los pasos que aparecen a continuación:
 
-1. En la página principal, vincule cada casilla a la lista de suscripción correspondiente. [Más información](#use-form-component).
+1. En la página principal, vincule cada casilla de verificación de la función **[!UICONTROL Formulario]** a la lista de suscripción correspondiente. [Más información](#use-form-component).
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 
