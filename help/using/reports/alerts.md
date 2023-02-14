@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 83ebd87487551b2fb234a555d7d0e43e80cb7885
+source-git-commit: 46fe345d424a5a201cf75a8ee0e2035bc68621fe
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 7%
@@ -24,6 +24,10 @@ Cuando se alcanza un determinado conjunto de condiciones en sus operaciones (por
 Obtenga más información sobre las alertas en Adobe Experience Platform [documentación](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=es).
 Para obtener información sobre cómo suscribirse a las alertas y configurarlas, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
 
+>[!AVAILABILITY]
+>
+>Algunos cambios de diseño están en curso para la alerta &quot;Leer Déclencheur de segmento no se ha realizado correctamente&quot;, por lo que esta alerta está en pausa por ahora. Una vez que se publiquen los cambios, esta alerta volverá a aparecer y podrá suscribirse a ella.
+
 En el menú de la izquierda, debajo de **Administración**, haga clic en **Alertas**.
 
 <!--A pre-configured alert for Journey Optimizer is available. This alert will warn you if a read segment node has not processed any profile during the defined time frame.
@@ -34,9 +38,6 @@ Si se produce un comportamiento inesperado, se envía una notificación de alert
 
 <!--![](assets/alerts2.png)-->
 
->[!AVAILABILITY]
->
->Algunos cambios de diseño están en curso para la alerta &quot;Leer Déclencheur de segmento no se ha realizado correctamente&quot;, por lo que esta alerta está en pausa por ahora. Una vez que se publiquen los cambios, esta alerta volverá a aparecer y podrá suscribirse a ella.
 
 When [visualización de reglas de alerta en la interfaz de usuario de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), puede suscribirse a cada regla individualmente. Al suscribirse a alertas mediante [Notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)sin embargo, las reglas de alerta están organizadas en diferentes paquetes de suscripción.
 
