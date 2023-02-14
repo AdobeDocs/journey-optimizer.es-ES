@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 46fe345d424a5a201cf75a8ee0e2035bc68621fe
+source-git-commit: 1832f3395b07580e62f32c886a0a4256267b2970
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 7%
+source-wordcount: '258'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +26,7 @@ Para obtener información sobre cómo suscribirse a las alertas y configurarlas,
 
 >[!AVAILABILITY]
 >
->Algunos cambios de diseño están en curso para la alerta &quot;Leer Déclencheur de segmento no se ha realizado correctamente&quot;, por lo que esta alerta está en pausa por ahora. Una vez que se publiquen los cambios, esta alerta volverá a aparecer y podrá suscribirse a ella.
+>Algunos cambios de diseño están en curso para la alerta &quot;Leer Déclencheur de segmento no se ha realizado correctamente&quot;, por lo que esta alerta está en pausa por ahora y se ha eliminado temporalmente de la interfaz de usuario. Una vez que se publiquen estos cambios, la alerta volverá a aparecer y podrá suscribirse a ella.
 
 En el menú de la izquierda, debajo de **Administración**, haga clic en **Alertas**.
 
