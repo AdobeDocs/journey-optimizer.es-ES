@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ad0ca954d2ba15293bdde2715a7aaed62b040cce
+source-git-commit: f07a46e6fc42afb80275557dfe8bd27f51e4fad9
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '907'
+ht-degree: 57%
 
 ---
 
@@ -20,6 +20,43 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información acerca de estos cambios en [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Regístrese para la [Newsletter trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoy y reciba las últimas actualizaciones de productos, artículos interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.
+
+
+## Notas de la versión anticipadas de febrero de 2023 {#feb-2023}
+
+Esta sección contiene información previa al lanzamiento. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso. La documentación detallada estará disponible en la fecha de lanzamiento.
+
+Disponibilidad: **22 de febrero de 2023**
+
+### Mejoras {#feb-2023-improvements}
+
+**Recorridos**
+
+* La variable **Período de espera de reentrada** se ha añadido al campo de propiedades del recorrido. Este campo le permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en recorridos unitarios (empezando por un evento o una calificación de segmento). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos.
+
+* Se han realizado mejoras para **Fechas de inicio y finalización del recorrido**. Si no ha especificado una fecha de inicio, esta se añade automáticamente en el momento de la publicación. Para **Leer segmento** recorridos, ahora puede añadir una fecha de finalización. Esto permite a los perfiles salir automáticamente cuando se llega a la fecha.
+
+* El lienzo de Recorrido se ha mejorado para que la experiencia del usuario sea más sencilla y mejorada. Al final de cada ruta en el lienzo, se han eliminado los marcadores de posición vacíos. Ahora puede simplemente agregar sus actividades arrastrándolas a cualquier lugar entre nodos.
+
+* Se ha mejorado la administración de tiempos de espera y errores en recorridos. Las rutas de tiempo de espera y de error ahora siempre se añaden en el lienzo. Hay disponible un nuevo botón de la barra de herramientas para mostrar u ocultar estas rutas.
+
+* Se ha introducido un nuevo tipo de alerta del sistema. Ahora puede recibir notificaciones cuando falla una acción personalizada.
+
+
+**Administración**
+
+* **Lista de permitidos** - Ahora puede descargar la lista de permitidos como archivo .csv .
+
+* **Superficie de correo electrónico** - Se ha añadido una comprobación adicional a la configuración de la superficie del correo electrónico: si el registro MX del subdominio utilizado en la variable **Responder a la dirección (correo electrónico)** o en el **Dirección de correo electrónico CCO** no está configurado correctamente, ya no se puede crear la superficie del correo electrónico. Debe tenerlo configurado o usar otro.
+
+* **Superficie de correo electrónico** - En la sección de parámetros de seguimiento de URL de la configuración de la superficie del correo electrónico, el límite de cada **Valor** se ha actualizado de 255 caracteres a 5 KB para compatibilidad con el seguimiento de Adobe Analytics.
+
+**Gestión de decisiones**
+
+* **Ubicaciones** - Se han añadido parámetros adicionales en la pantalla de creación de ubicaciones. Permiten controlar si una oferta se puede duplicar en varias ubicaciones y especificar si el contenido y los metadatos de la oferta se deben incluir en la respuesta de API.
+
+* **Personalización de URL** : Al añadir direcciones URL como contenido a las representaciones de las ofertas, ahora puede personalizar estas direcciones URL con el Editor de expresiones.
+
 
 
 ## Lanzamiento de enero de 2023 {#jan-2023-release}
