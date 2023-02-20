@@ -11,9 +11,9 @@ keywords: contenido, experimento, varios, audiencia, tratamiento
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1168'
 ht-degree: 4%
 
 ---
@@ -163,6 +163,11 @@ Con la variable **[!UICONTROL Objetivo de la campaña]** , también puede elegir
 Tenga en cuenta que cada utilidad se puede cambiar de tamaño y eliminar si es necesario. Para obtener más información, consulte [sección](../reports/global-report.md#modify-dashboard).
 
 ## Informe de experimentación {#experimentation-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_click"
+>title="Clics únicos por perfil"
+>abstract="La métrica Clics únicos por perfil le ayuda a comprender en qué medida el experimento atrae a la audiencia y lleva los clics al destino. Calcula el número de clics distintos en un vínculo determinado, dividido por el número total de perfiles que estuvieron expuestos al vínculo."
 
 >[!AVAILABILITY]
 >
