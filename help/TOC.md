@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1312'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -217,7 +217,7 @@ ht-degree: 99%
 + Canal de SMS{#sms}
    + [Introducción a los SMS](using/sms/get-started-sms.md)
    + [Creación de un mensaje SMS](using/sms/create-sms.md)
-   + [Previsualice y pruebe su SMS](using/sms/send-sms.md)
+   + [Previsualizar y probar SMS](using/sms/send-sms.md)
    + [Administrar la exclusión de SMS](using/sms/sms-opt-out.md)
    + [Configuración del canal de SMS](using/sms/sms-configuration.md)
 + Correo directo {#direct-mail}
