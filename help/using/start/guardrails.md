@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 4bcdd5a5d6161aea70939fc4f8a90f6e607b02f4
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 100%
+source-wordcount: '969'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Los derechos, limitaciones de productos y protección del rendimiento se enumeran en la [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-También debe tener en cuenta las [protecciones para los datos del perfil del cliente en tiempo real antes de comenzar](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es){target="_blank"}.
+También debe tener en cuenta los [mecanismos de protección para los datos del perfil del cliente en tiempo real antes de comenzar](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es){target="_blank"}.
 
 A continuación, encontrará limitaciones y mecanismos de protección adicionales al utilizar [!DNL Adobe Journey Optimizer].
 
@@ -31,7 +31,7 @@ A continuación, encontrará limitaciones y mecanismos de protección adicionale
 
 ## Mecanismos de protección de gestión de decisiones {#offer-guardrails}
 
-Las protecciones del rendimiento y los límites estáticos para la toma de decisiones se enumeran en la [página de descripción del producto del servicio de aplicaciones de Offer decisioning de Adobe](https://helpx.adobe.com/es/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
+La protección del rendimiento y los límites estáticos para la toma de decisiones se enumeran en la [página de descripción del producto del servicio de aplicaciones de Offer Decisioning de Adobe](https://helpx.adobe.com/es/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
 
 
 ## Mecanismos de protección de las páginas de aterrizaje {#lp-guardrails}
@@ -65,18 +65,19 @@ Las protecciones del rendimiento y los límites estáticos para la toma de decis
 * Solo se admiten los métodos de llamada de POST y PUT
 * El nombre del parámetro de consulta o del encabezado no debe comenzar con &quot;.&quot; o &quot;$&quot;
 * No se permiten direcciones IP
-* Las direcciones de Adobe internas (.adobe.) no se permiten.
+* Direcciones de Adobe internas (`.adobe.*`) no están permitidos en las direcciones URL y API.
 
 ### Eventos {#events-g}
 
 * En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido del cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este ID de orquestación debe añadirse a la carga útil de streaming que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
 * Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de segmentos.
-* Los recorridos unitarios (que se inician con un evento o una calificación de segmentos) incluyen una protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante cinco minutos. Por ejemplo, si un evento activa un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
+* Los recorridos unitarios (que se inician con un evento o una calificación de segmentos) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante cinco minutos. Por ejemplo, si un evento activa un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
 * Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Eventos consumidos por lotes o eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento del correo electrónico, etc.) no se puede usar para activar un recorrido. Para los casos de uso en los que no pueda obtener eventos de flujo continuo, genere un segmento basado en esos eventos y use la actividad de **Segmento de lectura** en su lugar. Técnicamente, la calificación de segmentos puede utilizarse, pero puede provocar desafíos descendentes en función de las acciones utilizadas.
 
 ### Fuentes de datos {#data-sources-g}
 
 * Las fuentes de datos externas se pueden aprovechar dentro de un recorrido del cliente para buscar datos externos en tiempo real. Estas fuentes deben utilizarse mediante la API de REST, admiten JSON y pueden gestionar el volumen de solicitudes.
+* Direcciones de Adobe internas (`.adobe.*`) no están permitidos en las direcciones URL y API.
 
 ### Creación de recorridos y perfiles {#journeys-limitation-profile-creation}
 
