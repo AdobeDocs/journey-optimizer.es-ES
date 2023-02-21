@@ -5,9 +5,9 @@ title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2330'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 * Se ha añadido una nota en la documentación de campañas activadas por API para especificar que los atributos contextuales pasados a la solicitud no pueden superar los 50 kb. [Más información](../campaigns/api-triggered-campaigns.md#contextual)
 
-* Se ha añadido información sobre cómo se almacena la información de exclusión en la variable **Conjunto de datos del servicio de consentimiento** después de cancelar la suscripción de los destinatarios a través de una página de aterrizaje. [Más información](../landing-pages/lp-use-cases.md#configure-opt-out)
+* Se ha añadido información sobre cómo se almacena la información de exclusión en el **Conjunto de datos del servicio de consentimiento** después de cancelar la suscripción de los destinatarios a través de una página de aterrizaje. [Más información](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## Enero de 2023 {#jan-2023}
 
