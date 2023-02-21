@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d160baac2eb454cfd10097e29147562f83c1cd50
+source-git-commit: 1565a61f2bd3b8168eaefc2e69b40c9949a0af23
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 57%
+source-wordcount: '816'
+ht-degree: 64%
 
 ---
 
@@ -35,13 +35,6 @@ Disponibilidad: **22 de febrero de 2023**
 * La variable **Período de espera de reentrada** se ha añadido al campo de propiedades del recorrido. Este campo le permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en recorridos unitarios (empezando por un evento o una calificación de segmento). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos.
 
 * Se han realizado mejoras para **Fechas de inicio y finalización del recorrido**. Si no ha especificado una fecha de inicio, esta se añade automáticamente en el momento de la publicación. Para **Leer segmento** recorridos, ahora puede añadir una fecha de finalización. Esto permite a los perfiles salir automáticamente cuando se llega a la fecha.
-
-* El lienzo de Recorrido se ha mejorado para que la experiencia del usuario sea más sencilla y mejorada. Al final de cada ruta en el lienzo, se han eliminado los marcadores de posición vacíos. Ahora puede simplemente agregar sus actividades arrastrándolas a cualquier lugar entre nodos.
-
-* Se ha mejorado la administración de tiempos de espera y errores en recorridos. Las rutas de tiempo de espera y de error ahora siempre se añaden en el lienzo. Hay disponible un nuevo botón de la barra de herramientas para mostrar u ocultar estas rutas.
-
-* Se ha introducido un nuevo tipo de alerta del sistema. Ahora puede recibir notificaciones cuando falla una acción personalizada.
-
 
 **Administración**
 
