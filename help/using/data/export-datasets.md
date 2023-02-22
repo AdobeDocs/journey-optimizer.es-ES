@@ -5,10 +5,11 @@ title: Exportar conjuntos de datos a ubicaciones de almacenamiento en la nube
 description: Obtenga información sobre cómo exportar sus conjuntos de datos mediante destinos de almacenamiento en la nube de Adobe Experience Platform.
 role: User
 level: Beginner
+badge: label="Beta" type="Informative"
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '586'
 ht-degree: 1%
 
 ---

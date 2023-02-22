@@ -8,7 +8,7 @@ level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 badge: label="Beta" type="Informative"
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 16%
@@ -17,7 +17,7 @@ ht-degree: 16%
 
 # Introducción al canal en la aplicación {#gs-in-app}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >Actualmente, la función en la aplicación está disponible en versión beta solo para usuarios seleccionados. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
