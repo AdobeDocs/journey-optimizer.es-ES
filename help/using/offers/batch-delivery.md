@@ -2,7 +2,7 @@
 title: Decisiones por lotes
 description: Obtenga información sobre cómo ofrecer decisiones de oferta a todos los perfiles de un segmento de Adobe Experience Platform determinado.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: a56d675e014d55064073eba011fb50e2d363844d
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 2%
@@ -76,7 +76,7 @@ Una vez creada una solicitud de trabajo, el trabajo por lotes pasa por varios es
 
 >[!NOTE]
 >
->Para asegurarse de que está obteniendo la información más reciente sobre el estado de una solicitud de trabajo, utilice el botón elipse situado junto al trabajo para actualizarlo.
+>Para asegurarse de que obtiene la información más reciente sobre el estado de una solicitud de trabajo, utilice el botón de puntos suspensivos situado junto al trabajo para actualizarlo.
 
 1. **[!UICONTROL En cola]**: La solicitud de trabajo se ha creado y se ha introducido en la cola de procesamiento. Se pueden ejecutar hasta 5 trabajos por lotes a la vez por conjunto de datos. Cualquier otra solicitud por lotes con el mismo conjunto de datos de salida se agrega a la cola. Un trabajo en cola se selecciona para procesarse una vez que el trabajo anterior ha terminado de ejecutarse.
 1. **[!UICONTROL Procesamiento]**: La solicitud de trabajo se está procesando

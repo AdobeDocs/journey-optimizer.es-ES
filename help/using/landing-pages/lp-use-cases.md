@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: aterrizaje, página de aterrizaje, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '970'
 ht-degree: 16%
 
 ---
@@ -166,6 +166,8 @@ La información de exclusión se almacena en la variable **Conjunto de datos del
 >[!NOTE]
 >
 >Si el método de combinación es el predeterminado [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"} **[!UICONTROL Profiles]** merge policy is **[!UICONTROL Dataset Precedence]**, make sure to enable the **[!UICONTROL AJO Consent Service Dataset]** and to prioritize it in the merge policy. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+>
+>Aunque no se hayan agregado lotes a este conjunto de datos, aún contendrá la información de inclusión/exclusión.
 
 
 <!--

@@ -5,24 +5,25 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 keywords: en la aplicación, mensaje, creación, inicio
+badge: label="Beta" type="Informative"
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 15%
+source-wordcount: '197'
+ht-degree: 16%
 
 ---
 
 # Introducción al canal en la aplicación {#gs-in-app}
 
-Los mensajes en la aplicación son notificaciones que puede enviar a los usuarios dentro de la aplicación para dirigirlos a puntos de interés específicos. Las notificaciones en la aplicación se pueden utilizar para proponer un servicio, promocionar una nueva función, una oferta especial o integrar un nuevo usuario.
+>[!IMPORTANT]
+>
+>Actualmente, la función en la aplicación está disponible en versión beta solo para usuarios seleccionados. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.
+
+Los mensajes en la aplicación son notificaciones que se pueden enviar a los usuarios dentro de la aplicación, lo que los guía en puntos de interés específicos. Estas notificaciones se pueden utilizar para distintos fines, como la promoción de nuevas funciones, la presentación de ofertas especiales o la facilitación de la incorporación del usuario. Al aprovechar los mensajes en la aplicación, puede interactuar con su audiencia y dirigirlos hacia aspectos importantes de su aplicación.
 
 Utilice Journey Optimizer para crear notificaciones en la aplicación y configurar las opciones de experiencia, incluidas las opciones de diseño y visualización de mensajes, texto y botones.
-
-![](assets/new-in-app.png)
 
 ## Requisitos previos{#prerequisites-in-app}
 
@@ -52,11 +53,11 @@ Una vez finalizado, puede crear, configurar y enviar su primer mensaje en la apl
 </div>
 <p></td>
 <td>
-<a href="inapp-report.md">
+<a href="../reports/campaign-global-report.md#inapp-global">
 <img alt="Validación" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="inapp-report.md"><strong>Informe en la aplicación</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>Informe en la aplicación</strong></a>
 </div>
 <p>
 </td>

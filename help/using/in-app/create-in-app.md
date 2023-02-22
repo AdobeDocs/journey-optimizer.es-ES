@@ -5,18 +5,21 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 keywords: en la aplicación, mensaje, creación, inicio
+badge: label="Beta" type="Informative"
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 4%
+source-wordcount: '653'
+ht-degree: 5%
 
 ---
 
 # Creación de un mensaje en la aplicación  {#create-in-app}
+
+>[!IMPORTANT]
+>
+>Actualmente, la función en la aplicación está disponible en versión beta solo para usuarios seleccionados. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 ## Creación de una campaña y un mensaje en la aplicación{#create-in-app-in-a-campaign}
 
@@ -108,12 +111,12 @@ Para ello, siga los pasos a continuación:
 
 La campaña ya está activada. La notificación en la aplicación configurada en la campaña se envía inmediatamente o en la fecha especificada.
 
-Una vez enviados, puede medir el impacto de los mensajes en la aplicación dentro del informe de Campaign. Para obtener más información sobre la creación de informes, consulte [esta sección](inapp-report.md).
+Una vez enviados, puede medir el impacto de los mensajes en la aplicación dentro del informe de Campaign. Para obtener más información sobre la creación de informes, consulte [esta sección](../reports/campaign-global-report.md#inapp-report).
 
 **Temas relacionados:**
 
 * [Diseño de mensajes en la aplicación](design-in-app.md)
-* [Informe en la aplicación](inapp-report.md)
+* [Informe en la aplicación](../reports/campaign-global-report.md#inapp-report)
 * [Configuración en la aplicación](inapp-configuration.md)
 
 ## Vídeo explicativo{#video}

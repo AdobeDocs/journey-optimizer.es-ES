@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: lista de permitidos, lista, seguro, configuración
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1129'
 ht-degree: 2%
 
 ---
@@ -155,6 +155,34 @@ Para rellenar la lista de permitidos, también puede llamar a la API de supresi�
 Puede realizar el **Agregar**, **Eliminar** y **Get** operaciones.
 
 Obtenga más información sobre cómo realizar llamadas de API en la sección [API de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} documentación de referencia.
+
+## Descargar la lista de permitidos {#download-allowed-list}
+
+Para exportar la lista de permitidos como archivo CSV, siga los pasos a continuación:
+
+1. Seleccione el **[!UICONTROL Descargar CSV]** botón.
+
+   ![](assets/allowed-list-download-csv.png)
+
+1. Espere hasta que se genere el archivo.
+
+   ![](assets/allowed-list-download-generate.png)
+
+   >[!NOTE]
+   >
+   >El tiempo de descarga depende del tamaño del archivo, es decir, el número de direcciones de la lista de permitidos.
+   >
+   >Se puede procesar una solicitud de descarga a la vez para un entorno limitado determinado.
+
+1. Una vez generado el archivo, recibe una notificación. Haga clic en el icono de campana en la parte superior derecha de la pantalla para mostrarlo.
+
+1. Haga clic en la propia notificación para descargar el archivo.
+
+   ![](assets/allowed-list-download-notification.png)
+
+   >[!NOTE]
+   >
+   >El vínculo es válido durante 24 horas.
 
 ## lógica de lista de permitidos {#logic}
 

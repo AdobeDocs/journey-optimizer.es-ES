@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: archivo, mensajes, HIPAA, BCC, correos electrónicos
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 3%
@@ -82,7 +82,6 @@ Sin embargo, la dirección de CCO se recoge para enviar comunicaciones siguiendo
 * No abra ni haga clic en los correos electrónicos enviados a la dirección de CCO, ya que se tienen en cuenta en el total de aperturas y clics del análisis de envío, lo que podría provocar algunos cálculos erróneos en [informes](../reports/global-report.md).
 
 * No marque los mensajes como correo no deseado en la bandeja de entrada BCC, ya que esto afectará a todos los demás correos electrónicos enviados a esta dirección.
-
 
 >[!CAUTION]
 >

@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, biblioteca, personalización
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 8%
@@ -70,7 +70,7 @@ Para guardar una expresión en la biblioteca, siga estos pasos:
 
 Para editar una expresión existente, agréguela al editor y luego modifíquela según sus necesidades. Haga clic en **[!UICONTROL Añadir a la biblioteca]** para validar la sintaxis y guardar la expresión.
 
-Para eliminar una expresión, haga clic en el botón elipse y luego en **[!UICONTROL Eliminar]**.
+Para eliminar una expresión, haga clic en el botón de puntos suspensivos y, a continuación, haga clic en **[!UICONTROL Eliminar]**.
 
 ## Vídeo explicativo{#video}
 

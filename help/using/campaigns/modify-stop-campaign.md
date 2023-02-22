@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: administrar campañas, estado, programación, acceso, optimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 2%
@@ -90,7 +90,7 @@ Puede duplicar una campaña activa para crear una nueva. Para ello, abra la camp
 
 Con el tiempo, la lista de campañas sigue creciendo y, finalmente, dificulta el examen de las campañas completadas y detenidas.
 
-Para evitarlo, puede archivar campañas completadas y detenidas que ya no necesite. Para ello, haga clic en el botón elipse y seleccione **[!UICONTROL Archivo]**.
+Para evitarlo, puede archivar campañas completadas y detenidas que ya no necesite. Para ello, haga clic en el botón de puntos suspensivos y seleccione **[!UICONTROL Archivo]**.
 
 ![](assets/create-campaign-archive.png)
 

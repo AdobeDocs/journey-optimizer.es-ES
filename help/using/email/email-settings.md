@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 2%
+source-wordcount: '1652'
+ht-degree: 1%
 
 ---
 
@@ -151,6 +151,14 @@ Para garantizar una administración de respuestas adecuada, siga las recomendaci
 
 * No marque los mensajes como correo no deseado en la bandeja de entrada de respuesta, ya que esto afectará a todas las demás respuestas enviadas a esta dirección.
 
+Además, al definir la variable **[!UICONTROL Responder a (correo electrónico)]** , asegúrese de utilizar un subdominio que tenga una configuración de registro MX válida; de lo contrario, el procesamiento de la superficie del correo electrónico fallará.
+
+Si aparece un error al enviar el correo electrónico, significa que el registro MX no está configurado para el subdominio de la dirección que ha introducido. Póngase en contacto con el administrador para configurar el registro MX correspondiente o utilice otra dirección con una configuración de registro MX válida.
+
+>[!NOTE]
+>
+>Si el subdominio de la dirección que ha introducido es un dominio que [completamente delegado](../configuration/delegate-subdomain.md#full-subdomain-delegation) para obtener Adobes, póngase en contacto con el administrador de cuentas de Adobe.
+
 ### Reenviar correo electrónico {#forward-email}
 
 Si desea reenviar a una dirección de correo electrónico específica, todos los correos electrónicos recibidos por [!DNL Journey Optimizer] para el subdominio delegado, póngase en contacto con el servicio de atención al cliente de Adobe. Deberá proporcionar:
@@ -173,6 +181,10 @@ Puede enviar una copia idéntica (o una copia ciega de los correos electrónicos
 Para ello, habilite la **[!UICONTROL Correo electrónico CCO]** función opcional en el nivel de superficie del canal. [Más información](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
+
+Además, al definir la variable **[!UICONTROL Correo electrónico CCO]** , asegúrese de utilizar un subdominio que tenga una configuración de registro MX válida; de lo contrario, el procesamiento de la superficie del correo electrónico fallará.
+
+Si aparece un error al enviar el correo electrónico, significa que el registro MX no está configurado para el subdominio de la dirección que ha introducido. Póngase en contacto con el administrador para configurar el registro MX correspondiente o utilice otra dirección con una configuración de registro MX válida.
 
 ## Parámetros de reintentos de correo electrónico {#email-retry}
 
@@ -237,7 +249,7 @@ También puede editar cada **[!UICONTROL Valor]** utilizando la variable [Editor
 
 >[!NOTE]
 >
->Puede combinar la escritura de valores de texto y el uso de atributos contextuales desde el Editor de expresiones. Cada **[!UICONTROL Valor]** puede contener hasta 255 caracteres en total.
+>Puede combinar la escritura de valores de texto y el uso de atributos contextuales desde el Editor de expresiones. Cada **[!UICONTROL Valor]** puede contener un número de caracteres hasta el límite de 5 KB.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

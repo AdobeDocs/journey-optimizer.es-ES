@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: reintentos, rechazo, suave, optimizador, error
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 1%
@@ -72,5 +72,5 @@ Por ejemplo, puede establecer el periodo de reintento en 24 horas para un correo
 >
 >El periodo de reintento no puede exceder las 84 horas. El periodo de reintento mínimo es de 6 horas para los correos electrónicos de marketing y 10 minutos para los correos electrónicos transaccionales.
 
-Obtenga información sobre cómo ajustar los parámetros de reintento de correo electrónico al crear una superficie de canal en [esta sección](channel-surfaces.md#create-channel-surface).
+Obtenga información sobre cómo ajustar los parámetros de reintento de correo electrónico al crear una superficie de canal en [esta sección](../email/email-settings.md#email-retry).
 

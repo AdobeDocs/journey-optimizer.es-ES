@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, segmento, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 12%
+source-wordcount: '1171'
+ht-degree: 11%
 
 ---
 
@@ -96,9 +96,7 @@ La variable **Copiar detalles técnicos** le permite copiar información técnic
 
 De forma predeterminada, los nuevos recorridos permiten volver a entrar. Puede desmarcar la casilla **Permitir la reentrada** para recorridos de &quot;una toma&quot;, por ejemplo, si desea ofrecer un regalo único cuando una persona entra en una tienda.
 
-<!--
-When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
--->
+Cuando la variable **Permitir la reentrada** está activada, la opción **Período de espera de reentrada** se muestra. Este campo le permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en recorridos unitarios (empezando por un evento o una calificación de segmento). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos.
 
 Obtenga más información sobre la administración de la entrada de perfiles en [esta sección](entry-management.md).
 
@@ -120,13 +118,9 @@ Para obtener más información sobre la administración de huso horario, consult
 
 ### Fechas de inicio y finalización {#dates}
 
-<!--
-You can define a **Start date**. If you haven't specified one, it will be automatically defined at publication time. 
+Puede definir una **Fecha de inicio**. Si no ha especificado ninguno, se definirá automáticamente en el momento de la publicación.
 
-You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout (generally 30 days, 7 days with Healthcare Shield add-on offering). The only exception is recurring read segment journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
--->
-
-Puede definir una **Fecha de inicio**. También puede agregar una **Fecha final**. Esto permite a los perfiles salir automáticamente cuando se llega a la fecha. Si no especifica una fecha de finalización, los perfiles pueden permanecer hasta el tiempo de espera de recorrido predeterminado.
+También puede agregar una **Fecha final**. Esto permite a los perfiles salir automáticamente cuando se llega a la fecha. Si no especifica una fecha de finalización, los perfiles pueden permanecer hasta el tiempo de espera de recorrido predeterminado (generalmente 30 días, 7 días con la oferta de complemento Escudo de salud). La única excepción son los recorridos recurrentes de segmentos leídos con **Forzar la reentrada en la recurrencia** activado, que finalizan en la fecha de inicio de la siguiente aparición.
 
 ### Tiempo de espera y error en las actividades de recorrido {#timeout_and_error}
 

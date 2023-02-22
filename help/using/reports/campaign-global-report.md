@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 1%
+source-wordcount: '1904'
+ht-degree: 2%
 
 ---
 
@@ -30,6 +30,7 @@ La campaña **[!UICONTROL Informe global]** se muestra con las siguientes pesta�
 
 * [Campaign](#campaign-global)
 * [Correo electrónico](#email-global)
+* [En la aplicación](#inapp-global)
 * [Push](#push-global)
 * [SMS](#sms-global)
 
@@ -141,6 +142,37 @@ La variable **[!UICONTROL Optimización del tiempo de envío]** detalla el éxit
 
 * **[!UICONTROL Entrega]**: Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.
 * **[!UICONTROL Devoluciones]**: Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados.
++++
+
+## Pestaña en la aplicación {#inapp-global}
+
+>[!IMPORTANT]
+>
+>Actualmente, la función en la aplicación está disponible en versión beta solo para usuarios seleccionados. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.
+
+Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL En la aplicación]** La pestaña detalla la información principal relativa a los envíos en la aplicación realizados en la campaña.
+
+![](assets/campaign_report_global_6.png)
+
++++Obtenga más información sobre las distintas métricas y utilidades disponibles para el informe en la aplicación.
+
+La variable **[!UICONTROL Rendimiento en la aplicación]** Los KPI detallan la información principal relativa a la participación de los visitantes en los mensajes en la aplicación, como por ejemplo:
+
+* **[!UICONTROL Impresiones únicas]**: número de usuarios únicos a los que se entregó el mensaje en la aplicación.
+
+* **[!UICONTROL Impresiones]**: número total de mensajes en la aplicación entregados a todos los usuarios.
+
+* **[!UICONTROL Tasa de clics]**: porcentaje de usuarios que interactuaron con los botones incluidos en el mensaje en la aplicación en comparación con los usuarios que vieron el mensaje.
+
+* **[!UICONTROL Tasa de rechazo]**: porcentaje de mensajes en la aplicación que descartaron los destinatarios.
+
+La variable **[!UICONTROL Resumen en la aplicación]** en el gráfico se muestra la evolución de las impresiones en la aplicación durante el periodo correspondiente.
+
+La variable **[!UICONTROL Clics por botón]** la tabla y el gráfico contienen los datos disponibles para el comportamiento del destinatario por botón:
+
+* **[!UICONTROL Clics]**: número total de destinatarios que interactuaron con los botones incluidos en el mensaje en la aplicación.
+
+* **[!UICONTROL Tasa de clics]**: porcentaje de usuarios que interactuaron con los botones incluidos en el mensaje en la aplicación en comparación con los usuarios que vieron el mensaje.
 +++
 
 ## Pestaña de notificaciones push {#push-global}
