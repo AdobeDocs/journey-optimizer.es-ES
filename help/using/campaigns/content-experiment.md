@@ -11,9 +11,9 @@ keywords: contenido, experimento, varios, audiencia, tratamiento
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
+source-git-commit: 2bf4883fa4b649a807608403d48f6a68b73a8626
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1137'
 ht-degree: 4%
 
 ---
@@ -166,8 +166,8 @@ Tenga en cuenta que cada utilidad se puede cambiar de tamaño y eliminar si es n
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
->title="Clics únicos por perfil"
->abstract="La métrica Clics únicos por perfil le ayuda a comprender en qué medida el experimento atrae a la audiencia y lleva los clics al destino. Calcula el número de clics distintos en un vínculo determinado, dividido por el número total de perfiles que estuvieron expuestos al vínculo."
+>title="Métrica de éxito"
+>abstract="El valor total de la métrica de éxito, previamente seleccionada al crear los experimentos, dividido por el número de perfiles."
 
 >[!AVAILABILITY]
 >
