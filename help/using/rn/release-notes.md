@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 5ef9fec615c39935184595d91e7b12d4cd08903f
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 61%
@@ -58,7 +58,7 @@ Actualmente, esta función está en versión beta y solo está disponible para l
 
 <img src="assets/do-not-localize/gif-destinations.gif"/>
 
-<p>Para obtener más información, consulte la <a href="../privacy/data-hygiene.md">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../data/export-datasets.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
