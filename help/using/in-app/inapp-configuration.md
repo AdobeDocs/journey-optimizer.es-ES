@@ -6,7 +6,7 @@ level: Intermediate
 keywords: en la aplicación, mensaje, configuración, plataforma
 badge: label="Beta" type="Informative"
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 11%
@@ -15,7 +15,7 @@ ht-degree: 11%
 
 # Configuración del canal en la aplicación {#inapp-configuration}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >Actualmente, la función en la aplicación está disponible en versión beta solo para usuarios seleccionados. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
@@ -25,7 +25,7 @@ Antes de enviar mensajes en la aplicación, debe configurar el canal en la aplic
 
 1. Seleccione el [!DNL Adobe Experience Platform] servicio.
 
-   [!DNL Edge Segmentation], [!DNL Offer Decisioning] y [!DNL Adobe Journey Optimizer] debe estar seleccionado.
+   [!DNL Edge Segmentation] y [!DNL Adobe Journey Optimizer] debe estar seleccionado.
 
    ![](assets/inapp_config_6.png)
 

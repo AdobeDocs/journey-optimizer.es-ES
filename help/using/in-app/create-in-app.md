@@ -8,7 +8,7 @@ level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 badge: label="Beta" type="Informative"
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 5%
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # Creación de un mensaje en la aplicación  {#create-in-app}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >Actualmente, la función en la aplicación está disponible en versión beta solo para usuarios seleccionados. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.
 

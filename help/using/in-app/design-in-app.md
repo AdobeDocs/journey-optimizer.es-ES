@@ -8,7 +8,7 @@ level: Beginner
 keywords: en la aplicación, mensaje, diseño, formato
 badge: label="Beta" type="Informative"
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 6%
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # Diseño del contenido en la aplicación {#design-content}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >Actualmente, la función en la aplicación está disponible en versión beta solo para usuarios seleccionados. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
