@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
+source-git-commit: 9e8bac0c908646213a9d9a0598e3aa4750084b50
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 60%
+source-wordcount: '961'
+ht-degree: 57%
 
 ---
 
@@ -34,8 +34,8 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 <tbody>
 <tr>
 <td>
-<p>Ahora puede enviar mensajes personalizados en la aplicación a los usuarios de la aplicación dentro de una campaña. Utilice Journey Optimizer para diseñar notificaciones y personalizar el diseño, la visualización, el texto y los botones del mensaje para crear una experiencia perfecta.</p>
-<p><strong>Precaución</strong> : Esta función está actualmente en versión beta y solo está disponible para los clientes de versión beta. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.</p>
+<p>Ahora puede enviar mensajes personalizados en la aplicación a los usuarios de la misma dentro de una campaña. Utilice Journey Optimizer para diseñar notificaciones y personalizar el diseño del mensaje, la visualización, el texto y los botones para crear una experiencia perfecta.</p>
+<p><strong>Precaución</strong> : Actualmente, esta función está en versión beta y solo está disponible para los clientes de la versión beta. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>Para obtener más información, consulte la <a href="../in-app/get-started-in-app.md">documentación detallada</a>.</p>
 </td>
@@ -52,8 +52,8 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 <tbody>
 <tr>
 <td>
-<p>Ahora puede establecer una conexión activa con ubicaciones de almacenamiento en la nube para exportar el contenido de sus conjuntos de datos. Los destinos disponibles son: Almacenamiento en la nube Amazon S3, Azure Blob, Azure Data Lake Gen 2, Zona de aterrizaje de datos, Almacenamiento en la nube de Google, SFTP.</p>
-<p><strong>Precaución</strong> : Esta función está actualmente en versión beta y está disponible para todos los usuarios de Adobe Journey Optimizer. Póngase en contacto con su representante de Adobe para obtener acceso a los destinos si todavía no tiene acceso.</p>
+<p>Ahora puede establecer una conexión activa con las ubicaciones de almacenamiento en la nube para exportar el contenido de los conjuntos de datos. Los destinos disponibles son: Amazon S3 Cloud Storage, Azure Blob, Azure Data Lake Gen 2, Data Landing Zone, Google Cloud Storage, SFTP.</p>
+<p><strong>Precaución</strong> - Esta función se encuentra actualmente en versión beta y está disponible para todos los usuarios de Adobe Journey Optimizer. Póngase en contacto con su representante de Adobe para obtener acceso a Destinos si aún no tiene acceso.</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
 <p>Para obtener más información, consulte la <a href="../data/export-datasets.md">documentación detallada</a>.</p>
 </td>
@@ -117,9 +117,9 @@ Note that each widget can be resized and deleted as needed.
 
 **Recorridos**
 
-* La variable **Período de espera de reentrada** se ha añadido al campo de propiedades del recorrido. Este campo le permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en recorridos unitarios (empezando por un evento o una calificación de segmento). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos. [Más información](../building-journeys/journey-gs.md#entrance)
+* El **Período de espera de reentrada** se ha añadido este campo a las propiedades del recorrido. Este campo le permite definir el tiempo de espera antes de permitir que un perfil introduzca de nuevo el recorrido en recorridos unitarios (empezando por un evento o una calificación de segmentos). Esto evita que los recorridos se activen varias veces de forma errónea para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos. [Más información](../building-journeys/journey-gs.md#entrance)
 
-* Se han realizado mejoras para **Fechas de inicio y finalización del recorrido**. Si no ha especificado una fecha de inicio, esta se añade automáticamente en el momento de la publicación. Para **Leer segmento** recorridos, ahora puede añadir una fecha de finalización. Esto permite a los perfiles salir automáticamente cuando se llega a la fecha. [Más información](../building-journeys/journey-gs.md#dates)
+* Se han realizado mejoras para **Fechas de inicio y finalización del recorrido**. Si no ha especificado una fecha de inicio, esta se añade automáticamente en el momento de la publicación. Para **Leer segmento** recorridos, ahora puede añadir una fecha de finalización. Esto permite que los perfiles salgan automáticamente cuando llega la fecha. [Más información](../building-journeys/journey-gs.md#dates)
 
 <!--
 
@@ -137,19 +137,17 @@ Note that each widget can be resized and deleted as needed.
 
 **Administración**
 
-* **Lista de permitidos** - Ahora puede descargar la lista de permitidos como archivo .csv . [Más información](../configuration/allow-list.md#download-allowed-list)
+* **Lista de permitidos** - Ahora puede descargar la lista de permitidos como archivo .csv. [Más información](../configuration/allow-list.md#download-allowed-list)
 
-* **Superficie de correo electrónico** - Se ha añadido una comprobación adicional a la configuración de la superficie del correo electrónico: si el registro MX del subdominio utilizado en la variable **Responder a la dirección (correo electrónico)** o en el **Dirección de correo electrónico CCO** no está configurado correctamente, ya no se puede crear la superficie del correo electrónico. Debe tenerlo configurado o usar otro. [Más información](../email/email-settings.md#reply-to-email)
+* **Superficie del correo electrónico** - Se ha añadido una comprobación adicional a la configuración de la superficie de correo electrónico: si el registro MX del subdominio utilizado en el **Dirección de respuesta (correo electrónico)** o en el **Dirección de correo electrónico CCO** no se ha configurado correctamente, la superficie de correo electrónico ya no se puede crear. Debe tenerlo configurado o usar otro. [Más información](../email/email-settings.md#reply-to-email)
 
-* **Superficie de correo electrónico** - En el **Parámetros de seguimiento de URL** de la configuración de la superficie del correo electrónico, el límite de cada **Valor** se ha actualizado de 255 caracteres a 5 KB para compatibilidad con el seguimiento de Adobe Analytics. [Más información](../email/email-settings.md#url-tracking)
+* **Superficie del correo electrónico** - En el **Parámetros de seguimiento de URL** de la configuración de la superficie del correo electrónico, el límite de cada **Valor** El campo se ha actualizado de 255 caracteres a 5 KB para garantizar la compatibilidad con el seguimiento de Adobe Analytics. [Más información](../email/email-settings.md#url-tracking)
 
 **Gestión de decisiones**
 
-<!--
-* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
--->
+* **Ubicaciones** : Se han añadido parámetros adicionales en la pantalla de creación de ubicaciones. Permiten controlar si una oferta se puede duplicar en varias ubicaciones y especificar si el contenido y los metadatos de la oferta deben incluirse en la respuesta de la API. [Más información](../offers/offer-library/creating-placements.md)
 
-* **Personalización de URL** : Al añadir direcciones URL como contenido a las representaciones de las ofertas, ahora puede personalizar estas direcciones URL con el Editor de expresiones. [Más información](../offers/offer-library/add-representations.md)
+* **Personalizar URL** : Al añadir direcciones URL como contenido a las representaciones de sus ofertas, ahora puede personalizar estas direcciones URL con el Editor de expresiones. [Más información](../offers/offer-library/add-representations.md)
 
 <!--
 * **Capping** - You can now reset the offer capping counter on a daily, weekly or monthly basis. [Learn more](../offers/offer-library/add-constraints.md#capping)
