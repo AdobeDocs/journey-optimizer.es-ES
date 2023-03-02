@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Cambiar las direcciones de correo electrónico principales
-description: Aprenda a determinar qué dirección de correo electrónico utilizar desde el servicio de perfil.
+description: Obtenga información sobre cómo determinar qué dirección de correo electrónico utilizar desde el servicio de perfil.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: principal, ejecución, correo electrónico, destino, perfil, optimizador
+keywords: principal, ejecución, correo electrónico, destinatario, perfil, optimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
@@ -16,27 +16,27 @@ ht-degree: 3%
 
 ---
 
-# Cambiar las direcciones principales {#change-primary-email}
+# Cambio de las direcciones principales {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
 >title="Defina qué dirección utilizar"
->abstract="Cuando hay varias direcciones de correo electrónico o números de teléfono disponibles en la base de datos (personal, profesional, etc.), puede elegir cuál priorizar para el envío."
+>abstract="Cuando en la base de datos hay disponibles varias direcciones de correo electrónico o números de teléfono (personales, profesionales, etc.), puede elegir cuál priorizar para el envío."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address_header"
 >title="Defina qué dirección utilizar"
 >abstract="Edite los campos utilizados para determinar la dirección de correo electrónico o el número de teléfono de los perfiles que desea priorizar para el envío."
 
-Cuando se segmenta un perfil, es posible que haya varias direcciones de correo electrónico o números de teléfono disponibles en la base de datos (dirección de correo electrónico profesional, número de teléfono personal, etc.).
+Al segmentar un perfil, pueden estar disponibles en la base de datos varias direcciones de correo electrónico o números de teléfono (dirección de correo electrónico profesional, número de teléfono personal, etc.).
 
-con [!DNL Journey Optimizer], puede determinar qué dirección de correo electrónico o número de teléfono utilizar desde el servicio de perfil y priorizar cuándo hay varias direcciones disponibles. Para realizar esto, siga los pasos a continuación.
+Con [!DNL Journey Optimizer], puede determinar qué dirección de correo electrónico o número de teléfono utilizar del servicio de perfil y priorizar cuando hay varias direcciones disponibles. Para realizar esto, siga los pasos a continuación.
 
-1. Acceda a la  **[!UICONTROL Canales]** > **[!UICONTROL General]** > **[!UICONTROL Campos de ejecución]** para abrir el Navegador.
+1. Acceda a la  **[!UICONTROL Canales]** > **[!UICONTROL General]** > **[!UICONTROL Campos de ejecución]** menú.
 
    ![](assets/primary-address-execution-fields.png)
 
-1. Los campos que se utilizan actualmente de forma predeterminada para determinar la dirección de correo electrónico y el número de teléfono de los perfiles se muestran en esta pantalla. Haga clic en **[!UICONTROL Editar]** para cambiarlos.
+1. Los campos que se utilizan de forma predeterminada para determinar la dirección de correo electrónico y el número de teléfono de los perfiles se muestran en esta pantalla. Clic **[!UICONTROL Editar]** para cambiarlos.
 
    ![](assets/primary-address.png)
 
@@ -48,7 +48,7 @@ con [!DNL Journey Optimizer], puede determinar qué dirección de correo electr�
 
    ![](assets/primary-address-select-field.png)
 
-1. Haga clic en **[!UICONTROL Guardar]** para confirmar su elección.
+1. Clic **[!UICONTROL Guardar]** para confirmar su elección.
 
 El campo de ejecución se actualiza y ahora se utiliza como dirección principal.
 
