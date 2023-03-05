@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 4bcdd5a5d6161aea70939fc4f8a90f6e607b02f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ La protección del rendimiento y los límites estáticos para la toma de decisio
 * Solo se admiten los métodos de llamada de POST y PUT
 * El nombre del parámetro de consulta o del encabezado no debe comenzar con &quot;.&quot; o &quot;$&quot;
 * No se permiten direcciones IP
-* Direcciones de Adobe internas (`.adobe.*`) no están permitidos en las direcciones URL y API.
+* Las direcciones de Adobe internas (`.adobe.*`) no están permitidas en las direcciones URL y las API.
 
 ### Eventos {#events-g}
 
@@ -77,7 +77,7 @@ La protección del rendimiento y los límites estáticos para la toma de decisio
 ### Fuentes de datos {#data-sources-g}
 
 * Las fuentes de datos externas se pueden aprovechar dentro de un recorrido del cliente para buscar datos externos en tiempo real. Estas fuentes deben utilizarse mediante la API de REST, admiten JSON y pueden gestionar el volumen de solicitudes.
-* Direcciones de Adobe internas (`.adobe.*`) no están permitidos en las direcciones URL y API.
+* Las direcciones de Adobe internas (`.adobe.*`) no están permitidas en las direcciones URL y las API.
 
 ### Creación de recorridos y perfiles {#journeys-limitation-profile-creation}
 
