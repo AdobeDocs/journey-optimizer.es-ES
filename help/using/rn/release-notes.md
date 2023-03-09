@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
+source-git-commit: 4fbb879f40952aaef5b197b170578bf9e27f10f9
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 100%
+source-wordcount: '966'
+ht-degree: 95%
 
 ---
 
@@ -20,6 +20,13 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información acerca de estos cambios en [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Regístrese para la [Newsletter trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoy y reciba las últimas actualizaciones de productos, artículos interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.
+
+
+## Mejoras de marzo de 2023 {#march-2023}
+
+**Administrar etiquetas en los Recorridos**
+
+Como profesional de Journey Optimizer, ahora puede organizar los objetos empresariales mediante etiquetas. Las etiquetas son una forma rápida y sencilla de clasificar objetos para mejorar la búsqueda. Actualmente, esta función está en versión beta y solo está disponible para Recorridos. [Más información](../building-journeys/tags.md)
 
 ## Notas de la versión de febrero de 2023 {#feb-2023}
 
