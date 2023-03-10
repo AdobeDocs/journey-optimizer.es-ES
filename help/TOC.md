@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 51f09bac0278182b1df3e36425b01fbbf7deddd8
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1329'
 ht-degree: 97%
 
 ---
@@ -376,7 +376,7 @@ ht-degree: 97%
             + [Crear una regla de decisión](using/offers/api-reference/offers-api/decision-rules/create.md)
             + [Actualizar una regla de decisión](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [Eliminar una regla de decisión](using/offers/api-reference/offers-api/decision-rules/delete.md)
-         + Etiquetas {#tags}
+         + Cualificadores de colección {#tags}
             + [Cualificadores de colección de lista](using/offers/api-reference/offers-api/tags/tags-list.md)
             + [Buscar un calificador de colección](using/offers/api-reference/offers-api/tags/lookup.md)
             + [Crear un calificador de colección](using/offers/api-reference/offers-api/tags/create.md)
