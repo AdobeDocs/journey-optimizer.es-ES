@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 1bb5fbdc08f8650132e191e659b03caadae8edf4
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2189'
 ht-degree: 2%
 
 ---
@@ -145,10 +145,10 @@ Básicamente, el resultado de un segmento es una lista de perfiles, mientras que
 >title="Definición de la frecuencia de límite"
 >abstract="Puede elegir restablecer el contador de límite de oferta diariamente, semanalmente o mensualmente. Tenga en cuenta que después de guardar la oferta, no podrá cambiar la frecuencia seleccionada."
 
-[!CONTEXTUALHELP]
->id=&quot;ajo_decisioning_frequency_capping_impression&quot;
->title=&quot;Impresión&quot;
->abstract=&quot;El uso de impresiones como eventos de límite solo está disponible para canales entrantes.&quot;
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping_impression"
+>title="Impresión"
+>abstract="El uso de impresiones como eventos de límite solo está disponible para canales entrantes."
 
 El límite se utiliza como restricción para definir el número máximo de veces que se puede presentar una oferta.
 
