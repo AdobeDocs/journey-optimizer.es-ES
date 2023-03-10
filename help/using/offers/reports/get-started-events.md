@@ -6,24 +6,24 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 56%
 
 ---
 
-# Introducción a los eventos de Administración de decisiones {#monitor-offer-events}
+# Introducción a los eventos de Gestión de decisiones {#monitor-offer-events}
 
-Cada vez que la Administración de decisiones toma una decisión sobre un perfil determinado, la información relacionada con estos eventos se envía automáticamente a Adobe Experience Platform.
+Cada vez que Administración de decisiones toma una decisión sobre un perfil determinado, la información relacionada con estos eventos se envía automáticamente a Adobe Experience Platform.
 
 Esto le permite exportar estos datos para analizarlos en su propio sistema de informes. También puede aprovechar Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es) con otras herramientas para mejorar los análisis y la creación de informes.
 
-Los conjuntos de datos que contienen eventos de Administración de decisiones son accesibles desde Adobe Experience Platform **[!UICONTROL Conjuntos de datos]** para abrir el Navegador. Se crea automáticamente un conjunto de datos en el aprovisionamiento para cada una de las instancias.
+Los conjuntos de datos que contienen eventos de Administración de decisiones son accesibles desde Adobe Experience Platform **[!UICONTROL Conjuntos de datos]** menú. Se crea automáticamente un conjunto de datos en el aprovisionamiento para cada una de las instancias.
 
 ![](../assets/events-datasets-list.png)
 
-Estos conjuntos de datos se basan en la variable **[!UICONTROL Eventos de decisión de ODE]** esquema, que contiene todos los campos XDM necesarios para enviar información de Administración de decisiones a Adobe Experience Platform.
+Estos conjuntos de datos se basan en la variable **[!UICONTROL ODE DecisionEvents]** , que contiene todos los campos XDM necesarios para enviar información desde Gestión de decisiones a Adobe Experience Platform.
 
 >[!NOTE]
 >
