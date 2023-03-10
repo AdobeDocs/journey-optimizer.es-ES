@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: fee83ffd136ebe21ae62c7e0bd50dc31e0f4b948
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 87%
+source-wordcount: '1064'
+ht-degree: 86%
 
 ---
 
@@ -33,6 +33,12 @@ Como profesional de Journey Optimizer, ahora puede organizar los objetos empresa
 Para evitar cualquier posible confusión con la reciente versión de la función de etiquetas en Adobe Experience Platform, se ha cambiado el nombre de las etiquetas de Gestión de decisiones a &quot;Calificadores de colección&quot;.
 
 Tenga en cuenta que, aunque el término &quot;etiqueta&quot; ya no se utiliza en la interfaz de usuario de Administración de decisiones, se sigue utilizando en servicios back-end como API y conjuntos de datos.
+
+**Límite de gestión de decisiones**
+
+* Ahora puede restablecer el contador de límite de oferta diariamente, semanalmente o mensualmente. [Más información](../offers/offer-library/add-constraints.md#capping)
+
+* También puede elegir qué evento de Adobe Experience Platform debe buscarse para la restricción de offer decisioning. [Más información](../offers/offer-library/add-constraints.md#capping)
 
 ## Notas de la versión de febrero de 2023 {#feb-2023}
 
@@ -163,10 +169,6 @@ Note that each widget can be resized and deleted as needed.
 -->
 
 * **Personalización de URL**: al añadir direcciones URL como contenido a las representaciones de las ofertas, ahora puede personalizar estas direcciones URL con el Editor de expresiones. [Más información](../offers/offer-library/add-representations.md)
-
-* **Límite** : Ahora puede restablecer el contador de límite de oferta diariamente, semanalmente o mensualmente. [Más información](../offers/offer-library/add-constraints.md#capping)
-
-* **Límite** : Ahora puede elegir qué evento de Adobe Experience Platform debe buscarse para la restricción de offer decisioning. [Más información](../offers/offer-library/add-constraints.md#capping)
 
 ## Lanzamiento de enero de 2023 {#jan-2023-release}
 
