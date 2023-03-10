@@ -4,10 +4,10 @@ product: journey optimizer
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
 workflow-type: tm+mt
-source-wordcount: '2366'
-ht-degree: 98%
+source-wordcount: '2367'
+ht-degree: 97%
 
 ---
 
@@ -17,13 +17,13 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Marzo de 2023 {#march-2023}
 
-* Se ha creado una nueva sección en la guía de Administración de decisiones sobre cómo recopilar comentarios de offer decisioning en Adobe Experience Platform, incluidos qué ofertas se muestran y cómo interactúan los usuarios con ellas.  [Más información](../offers/data-collection/data-collection.md)
+* Se ha creado una nueva sección en la guía de Administración de decisiones sobre cómo recopilar comentarios de offer decisioning en Adobe Experience Platform, incluidos qué ofertas se muestran y cómo interactúan los usuarios con ellas. [Más información](../offers/data-collection/data-collection.md)
 
 ## Febrero de 2023 {#feb-2023}
 
 * Se ha añadido una nota en la documentación de campañas activadas por API para especificar que los atributos contextuales pasados a la solicitud no pueden superar los 50 kb. [Más información](../campaigns/api-triggered-campaigns.md#contextual)
 
-* Se ha añadido información sobre cómo se almacena la información de exclusión en el **Conjunto de datos del servicio de consentimiento** después de cancelar la suscripción de los destinatarios a través de una página de aterrizaje. [Más información](../landing-pages/lp-use-cases.md#configure-opt-out)
+* Se agregó información sobre cómo se almacena la información de exclusión en **Conjunto de datos del servicio de consentimiento** después de que los destinatarios cancelen su suscripción a través de una página de aterrizaje. [Más información](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## Enero de 2023 {#jan-2023}
 
