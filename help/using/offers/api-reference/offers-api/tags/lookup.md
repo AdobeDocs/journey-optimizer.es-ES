@@ -1,21 +1,21 @@
 ---
-title: Buscar una etiqueta
-description: Las etiquetas permiten organizar y ordenar mejor las ofertas.
+title: Buscar un calificador de colección
+description: Los calificadores de colección le permiten organizar y ordenar mejor sus ofertas.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '163'
 ht-degree: 4%
 
 ---
 
-# Buscar una etiqueta {#look-up-tag}
+# Buscar un calificador de colección {#look-up-tag}
 
-Puede buscar etiquetas específicas realizando una solicitud de GET al [!DNL Offer Library] API que incluye la etiqueta `@id` o el nombre de la etiqueta en la ruta de solicitud.
+Puede buscar calificadores de colección específicos (anteriormente conocidos como &quot;etiquetas&quot;) realizando una solicitud de GET a [!DNL Offer Library] API que incluye el calificador de recopilación `@id` o el nombre del calificador de recopilación en la ruta de solicitud.
 
 **Formato de API**
 
@@ -26,10 +26,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Contenedor donde se encuentran las etiquetas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | Define el esquema asociado a las etiquetas. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
-| `id` | Una cadena que se usa para hacer coincidir con la variable `@id` propiedad de las entidades. La cadena coincide exactamente. Los parámetros `id` y `name` no se puede usar juntos. | `xcore:tag:124e147572cd7866` |
-| `name` | Cadena que se utiliza para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se puede usar juntos | `Holiday sales and promotions` |
+| `{CONTAINER_ID}` | El contenedor donde se encuentran los calificadores de colección. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_TAG}` | Define el esquema asociado a los calificadores de colección. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `id` | Una cadena utilizada para hacer coincidir el `@id` propiedad de las entidades. La cadena coincide exactamente. Los parámetros `id` y `name` no se pueden usar juntos. | `xcore:tag:124e147572cd7866` |
+| `name` | Cadena utilizada para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se pueden usar juntos | `Holiday sales and promotions` |
 
 **Solicitud**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles de la etiqueta, incluida la información sobre el ID del contenedor, el ID de instancia y la etiqueta única `@id`.
+Una respuesta correcta devuelve los detalles del calificador de recopilación, incluida la información sobre el ID de contenedor, el ID de instancia y el calificador de recopilación único `@id`.
 
 ```json
 {

@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ccaad8c4d9d26c0fd968e627e7a6bf853f232000
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 99%
+source-wordcount: '1328'
+ht-degree: 97%
 
 ---
 
@@ -325,7 +325,7 @@ ht-degree: 99%
    + Crear componentes {#create-components}
       + [Crear ubicaciones](using/offers/offer-library/creating-placements.md)
       + [Crear reglas de decisión](using/offers/offer-library/creating-decision-rules.md)
-      + [Crear etiquetas](using/offers/offer-library/creating-tags.md)
+      + [Crear calificadores de colección](using/offers/offer-library/creating-tags.md)
    + Crear clasificaciones de {#rankings}
       + [Introducción a las clasificaciones](using/offers/ranking/get-started-rankings.md)
       + [Fórmulas de clasificación](using/offers/ranking/create-ranking-formulas.md)
@@ -377,11 +377,11 @@ ht-degree: 99%
             + [Actualizar una regla de decisión](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [Eliminar una regla de decisión](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + Etiquetas {#tags}
-            + [Enumerar etiquetas](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [Buscar una etiqueta](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [Crear una etiqueta](using/offers/api-reference/offers-api/tags/create.md)
-            + [Actualizar una etiqueta](using/offers/api-reference/offers-api/tags/update.md)
-            + [Eliminar una etiqueta](using/offers/api-reference/offers-api/tags/delete.md)
+            + [Cualificadores de colección de lista](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [Buscar un calificador de colección](using/offers/api-reference/offers-api/tags/lookup.md)
+            + [Crear un calificador de colección](using/offers/api-reference/offers-api/tags/create.md)
+            + [Actualizar un calificador de colección](using/offers/api-reference/offers-api/tags/update.md)
+            + [Eliminar un calificador de colección](using/offers/api-reference/offers-api/tags/delete.md)
          + Ofertas personalizadas {#personalized-offers}
             + [Enumerar ofertas personalizadas](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
             + [Buscar una oferta personalizada](using/offers/api-reference/offers-api/personalized-offers/lookup.md)

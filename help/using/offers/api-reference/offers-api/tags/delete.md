@@ -1,21 +1,21 @@
 ---
-title: Eliminar etiquetas
-description: Las etiquetas permiten organizar y ordenar mejor las ofertas.
+title: Eliminar calificadores de colección
+description: Los calificadores de colección le permiten organizar y ordenar mejor sus ofertas.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 6%
+source-wordcount: '157'
+ht-degree: 4%
 
 ---
 
-# Eliminar una etiqueta {#delete-tag}
+# Eliminar un calificador de colección {#delete-tag}
 
-Ocasionalmente puede ser necesario eliminar (DELETE) una etiqueta. Solo se pueden eliminar las etiquetas que cree en el contenedor de inquilino. Para ello, realiza una solicitud de DELETE al [!DNL Offer Library] API con el $id de la etiqueta que desea eliminar.
+En ocasiones puede ser necesario quitar (DELETE) un calificador de colección (anteriormente conocido como &quot;etiqueta&quot;). Solo se pueden eliminar los calificadores de colección que cree en el contenedor de inquilino. Esto se hace realizando una solicitud de DELETE a [!DNL Offer Library] API que utiliza el $id del calificador de recopilación que desea eliminar.
 
 **Formato de API**
 
@@ -26,8 +26,8 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Contenedor donde se encuentran las etiquetas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | ID de instancia de la etiqueta que desea actualizar. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| `{CONTAINER_ID}` | El contenedor donde se encuentran los calificadores de colección. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | El ID de instancia del calificador de recopilación que desea actualizar. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **Solicitud**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 Una respuesta correcta devuelve el estado HTTP 202 (sin contenido) y un cuerpo en blanco.
 
-Puede confirmar la eliminación intentando realizar una solicitud de búsqueda (GET) a la etiqueta . Deberá incluir un encabezado Accept en la solicitud, pero recibirá un estado HTTP 404 (No encontrado) porque la etiqueta se ha eliminado del contenedor.
+Para confirmar la eliminación, intente realizar una solicitud de búsqueda (GET) al calificador de recopilación. Deberá incluir un encabezado Aceptar en la solicitud, pero deberá recibir el estado HTTP 404 (no encontrado) porque el calificador de recopilación se ha eliminado del contenedor.
