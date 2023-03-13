@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
+source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
 workflow-type: tm+mt
-source-wordcount: '2290'
+source-wordcount: '2323'
 ht-degree: 2%
 
 ---
@@ -200,14 +200,21 @@ El **[!UICONTROL Evento de límite]** permite definir qué campo **[!UICONTROL E
 
    <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   En el ejemplo siguiente, desea limitar el número de suscripciones. Seleccionar **[!UICONTROL Evento personalizado]** de la lista y utilice el **[!UICONTROL Creación de reglas de eventos personalizadas]** para seleccionar los eventos relevantes.
+   En el siguiente ejemplo, desea limitar el número de cierres de compra.
 
-   ![](../assets/offer-capping-custom-event.png)
+   1. Seleccionar **[!UICONTROL Evento personalizado]** de la lista y utilice el **[!UICONTROL Añadir evento personalizado]** botón.
 
-   Una vez creada la regla, se muestra en el **[!UICONTROL Consulta de evento personalizado]** field.
+      ![](../assets/offer-capping-custom-event-add.png)
 
-   ![](../assets/offer-capping-custom-event-query.png)
+   1. Utilice el **[!UICONTROL Creación de reglas de eventos personalizadas]** para seleccionar el evento correspondiente. Puede elegir cualquier acción del usuario sobre la que desee limitar las ofertas.
 
+      Aquí elija **[!UICONTROL Comercio]** > **[!UICONTROL Cierres de compra]** > **[!UICONTROL Valor]** y seleccione **[!UICONTROL existe]** en la lista desplegable.
+
+      ![](../assets/offer-capping-custom-event.png)
+
+   1. Una vez creada la regla, se muestra en el **[!UICONTROL Consulta de evento personalizado]** field.
+
+      ![](../assets/offer-capping-custom-event-query.png)
    >[!CAUTION]
    >
    >Para todos los eventos de límite, excepto el evento de decisión, es posible que los comentarios de la administración de decisiones no se recopilen automáticamente, por lo que asegúrese de que los datos llegan. [Más información sobre la recopilación de datos](../data-collection/data-collection.md)
@@ -222,7 +229,7 @@ El **[!UICONTROL Recuento de límite]** Este campo permite especificar la cantid
 >
 >El número debe ser un número entero bueno que 0.
 
-Por ejemplo, si ha definido un evento de límite personalizado como, por ejemplo, las suscripciones se tienen en cuenta, introduzca 10 en la variable **[!UICONTROL Recuento de límite]** , no se enviarán más ofertas después de 10 suscripciones.
+Por ejemplo, ha definido un evento de límite personalizado como, por ejemplo, el número de cierres de compra que se tiene en cuenta. Si introduce 10 en la variable **[!UICONTROL Recuento de límite]** , no se enviarán más ofertas después de 10 cierres de compra.
 
 ### Tipo de límite {#capping-type}
 
