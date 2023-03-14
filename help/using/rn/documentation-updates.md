@@ -4,9 +4,9 @@ product: journey optimizer
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
+source-git-commit: 60514a739a2b3380260b6d1e33e33467cc88baad
 workflow-type: tm+mt
-source-wordcount: '2367'
+source-wordcount: '2386'
 ht-degree: 97%
 
 ---
@@ -21,8 +21,8 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Febrero de 2023 {#feb-2023}
 
+* Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de febrero de 2023 se ha detallado en la documentación. [Más información](release-notes.md)
 * Se ha añadido una nota en la documentación de campañas activadas por API para especificar que los atributos contextuales pasados a la solicitud no pueden superar los 50 kb. [Más información](../campaigns/api-triggered-campaigns.md#contextual)
-
 * Se agregó información sobre cómo se almacena la información de exclusión en **Conjunto de datos del servicio de consentimiento** después de que los destinatarios cancelen su suscripción a través de una página de aterrizaje. [Más información](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## Enero de 2023 {#jan-2023}
@@ -31,6 +31,8 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Las funciones de accesibilidad en [!DNL Journey Optimizer] ahora se agrupan en una página dedicada a ello. [Más información](../start/accessibility.md)
 * Se ha añadido una nueva página sobre la administración de datos en [!DNL Journey Optimizer]. [Más información](../data/gs-data.md)
 * Se ha añadido una tabla que enumera todos los códigos que se pueden devolver en la respuesta al enviar ofertas mediante la API de decisiones. [Más información](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+
++++ 2022
 
 ## Diciembre de 2022 {#december-2022}
 
@@ -155,11 +157,14 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * La sección **Administración de la exclusión** se ha aclarado y reorganizado ligeramente. [Más información](../privacy/opt-out.md#opt-out-management)
 * La sección **Insertar vínculos** se ha actualizado para reflejar los cambios recientes en la interfaz de usuario. [Más información](../email/message-tracking.md#insert-links)
 
++++
+
++++ 2021
+
 ## Noviembre de 2021 {#november-2021}
 
 * Ya está disponible una descripción completa del **editor de expresiones avanzadas** utilizado en los recorridos. [Más información](../building-journeys/expression/expressionadvanced.md)
 * Se ha añadido una nueva sección sobre **el método de delegación de subdominios CNAME**. [Más información](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
-
 
 ## Octubre de 2021 {#october-2021}
 
@@ -202,7 +207,6 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 * Se ha añadido una subsección sobre cómo editar grupos de IP. [Más información](../configuration/ip-pools.md#edit-ip-pool)
 
-
 ## Agosto de 2021 {#august-2021}
 
 * Todas las nuevas funciones y mejoras incluidas en la versión de agosto de 2021 de [!DNL Journey Optimizer] se han incluido en la documentación. [Más información](release-notes.md)
@@ -221,7 +225,6 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha añadido una sección para describir cómo agregar manualmente direcciones de correo electrónico y dominios a la lista de supresión. [Más información](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Se han actualizado las secciones [Acceso a la lista de supresión](../configuration/manage-suppression-list.md#access-suppression-list) y [Reintentos](../configuration/retries.md) para reflejar la nueva interfaz de usuario.
 * Se ha documentado el nuevo flujo para añadir y configurar representaciones al crear una oferta. [Más información](../offers/offer-library/creating-personalized-offers.md#representations)
-
 
 ## Julio de 2021 {#july-2021}
 
@@ -242,3 +245,4 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha documentado la nueva pestaña **[!UICONTROL Información general]** de Gestión de decisiones. [Más información](../offers/get-started/user-interface.md#overview)
 * Se han añadido nuevas secciones para describir las acciones disponibles en las listas de ofertas y decisiones: [Lista de ofertas](../offers/offer-library/creating-personalized-offers.md#offer-list) y [Lista de decisiones](../offers/offer-activities/create-offer-activities.md#decision-list).
 
++++
