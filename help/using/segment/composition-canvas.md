@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informativo"
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 1%
@@ -20,11 +20,16 @@ ht-degree: 1%
 
 # Trabajo con el lienzo de composición {#composition-canvas}
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Lo que encontrará en esta documentación:<br/><ul>
-<li><a href="get-started-audience-orchestration.md">Introducción a Composición de audiencias</a></li>
-<li><a href="create-compositions.md">Creación de su primer flujo de trabajo de composición</a></li>
-<li><b><a href="composition-canvas.md">Trabajo con el lienzo de composición</a></b></li>
-<li><a href="access-audiences.md">Acceso y administración de audiencias</a></li></ul></td></tr></table>
+>[!BEGINSHADEBOX]
+
+Lo que encontrará en esta documentación:
+
+* [Introducción a Composición de audiencias](get-started-audience-orchestration.md)
+* [Creación de su primer flujo de trabajo de composición](create-compositions.md)
+* **[Trabajo con el lienzo de composición](composition-canvas.md)**
+* [Acceso y administración de audiencias](access-audiences.md)
+
+>[!ENDSHADEBOX]
 
 Composición de audiencia proporciona un lienzo visual que le permite crear audiencias y utilizar varias actividades (dividir, enriquecer, etc.).
 

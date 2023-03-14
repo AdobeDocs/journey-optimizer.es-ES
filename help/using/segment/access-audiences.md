@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Beta" type="Informativo"
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 11%
@@ -20,11 +20,16 @@ ht-degree: 11%
 
 # Acceso y administración de audiencias {#access-manage-audiences}
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Lo que encontrará en esta documentación:<br/><ul>
-<li><a href="get-started-audience-orchestration.md">Introducción a Composición de audiencias</a></li>
-<li><a href="create-compositions.md">Creación de su primer flujo de trabajo de composición</a></li>
-<li><a href="composition-canvas.md">Trabajo con el lienzo de composición</a></li>
-<li><b><a href="access-audiences.md">Acceso y administración de audiencias</a></b></li></ul></td></tr></table>
+>[!BEGINSHADEBOX]
+
+Lo que encontrará en esta documentación:
+
+* [Introducción a Composición de audiencias](get-started-audience-orchestration.md)
+* [Creación de su primer flujo de trabajo de composición](create-compositions.md)
+* [Trabajo con el lienzo de composición](composition-canvas.md)
+* **[Acceso y administración de audiencias](access-audiences.md)**
+
+>[!ENDSHADEBOX]
 
 Se puede acceder a las audiencias resultantes de la composición de audiencias desde el **[!UICONTROL Examinar]** en la pestaña **[!UICONTROL Segmentos]** menú.
 
