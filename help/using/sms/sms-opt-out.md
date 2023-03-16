@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 676e2d6788c8110b76a38e857a62ba9c1be5842c
+source-git-commit: 63237c02f632d289dba845acdcd0859f2d6de9c9
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 45%
+source-wordcount: '442'
+ht-degree: 31%
 
 ---
 
@@ -25,11 +25,11 @@ De acuerdo con las normas y los reglamentos del sector, todos los mensajes SMS s
 
 ## Palabras clave de entrada nativas{#sms-native-keywords}
 
-De forma predeterminada, Adobe Journey Optimizer gestiona mensajes de respuesta estándar en inglés como STOP, UNSTOP y START para mensajes de código largo y gratuito, de acuerdo con los estándares del sector para la integración nativa como Sinch y Twilio.
+De forma predeterminada, Adobe Journey Optimizer gestiona los siguientes mensajes de respuesta en inglés estándar para los mensajes de código libre y de código largo: STOP, UNSTOP, START, QUIT, CANCEL, END y UNSUBSCRIBE. Tenga en cuenta que solo Sinch admite palabras clave nativas cuando se utiliza con Journey Optimizer.
 
-Estas palabras clave suelen generar el déclencheur de una respuesta estándar automática de su proveedor de terceros (como Twilio o Sinch). Puede confirmar esto directamente con su proveedor o a través de su sitio de documentación.
+Estas palabras clave normalmente dan déclencheur a una respuesta estándar automática de su proveedor de terceros. Puede confirmar esto directamente con su proveedor o a través de su sitio de documentación.
 
-No se requieren pasos para garantizar que las funcionalidades de exclusión de SMS funcionen en Adobe Journey Optimizer, ya que las respuestas de palabras clave STOP, UNSTOP y START se reconocen automáticamente. Los estados de exclusión de perfiles se actualizan en tiempo real en Adobe Journey Optimizer.
+No se requieren pasos para garantizar que las funcionalidades de exclusión de SMS funcionen en Adobe Journey Optimizer, ya que las respuestas de palabra clave STOP, UNSTOP, START, QUIT, CANCEL, END y UNSUBSCRIBE se reconocen automáticamente. Los estados de exclusión de perfiles se actualizan en tiempo real en Adobe Journey Optimizer.
 
 
 ## Listas de bloqueados{#sms-blocklists}
@@ -39,7 +39,9 @@ Además de detener el envío mediante Adobe Journey Optimizer en función del es
 
 ## Códigos cortos {#short-codes}
 
-De forma predeterminada, Adobe Journey Optimizer no gestiona las palabras clave de exclusión, inclusión o ayuda para los números de código cortos. Debe asegurarse de que el código corto cumpla todas las normas y regulaciones del sector para gestionar la exclusión.
+De forma predeterminada, Adobe Journey Optimizer no gestiona las palabras clave de inclusión o de ayuda para números de código cortos. Para garantizar el cumplimiento de las regulaciones y reglas del sector para la gestión de la exclusión, es esencial verificar que su código corto se adhiera a todas las directrices.
+
+Sin embargo, Journey Optimizer sí admite exclusiones globales basadas en palabras clave entrantes con diferentes ID de remitente.
 
 ## ID de remitente alfanumérico {#alphanumeric}
 
