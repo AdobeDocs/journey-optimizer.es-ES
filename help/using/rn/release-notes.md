@@ -5,9 +5,9 @@ title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: fee83ffd136ebe21ae62c7e0bd50dc31e0f4b948
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1064'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -24,21 +24,21 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 
 ## Mejoras de marzo de 2023 {#march-2023}
 
-**Administrar etiquetas en los Recorridos**
+**Administración de etiquetas en los recorridos**
 
-Como profesional de Journey Optimizer, ahora puede organizar los objetos empresariales mediante etiquetas. Las etiquetas son una forma rápida y sencilla de clasificar objetos para mejorar la búsqueda. Actualmente, esta función está en versión beta y solo está disponible para Recorridos. [Más información](../building-journeys/tags.md)
+Como profesional de Journey Optimizer, ahora puede organizar los objetos de negocio mediante etiquetas. Las etiquetas son una forma rápida y sencilla de clasificar objetos para mejorar la búsqueda. Actualmente, esta funcionalidad está en versión beta y solo está disponible para recorridos. [Más información](../building-journeys/tags.md)
 
-**Etiquetas de administración de decisiones renombradas a calificadores de colección**
+**Etiquetas de Gestión de decisiones renombradas a calificadores de colección**
 
-Para evitar cualquier posible confusión con la reciente versión de la función de etiquetas en Adobe Experience Platform, se ha cambiado el nombre de las etiquetas de Gestión de decisiones a &quot;Calificadores de colección&quot;.
+Para evitar cualquier posible confusión con la reciente versión de la funcionalidad de etiquetas en Adobe Experience Platform, se ha cambiado el nombre de las etiquetas de Gestión de decisiones a &quot;Calificadores de colección&quot;.
 
-Tenga en cuenta que, aunque el término &quot;etiqueta&quot; ya no se utiliza en la interfaz de usuario de Administración de decisiones, se sigue utilizando en servicios back-end como API y conjuntos de datos.
+Tenga en cuenta que, aunque el término &quot;etiqueta&quot; ya no se utiliza en la interfaz de usuario de Gestión de decisiones, se sigue utilizando en servicios backend como API y conjuntos de datos.
 
 **Límite de gestión de decisiones**
 
 * Ahora puede restablecer el contador de límite de oferta diariamente, semanalmente o mensualmente. [Más información](../offers/offer-library/add-constraints.md#capping)
 
-* También puede elegir qué evento de Adobe Experience Platform debe buscarse para la restricción de offer decisioning. [Más información](../offers/offer-library/add-constraints.md#capping)
+* También puede elegir qué evento de Adobe Experience Platform se debe tener en cuenta para el límite de Offer Decisioning. [Más información](../offers/offer-library/add-constraints.md#capping)
 
 ## Notas de la versión de febrero de 2023 {#feb-2023}
 
