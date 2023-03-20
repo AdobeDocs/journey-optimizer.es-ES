@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 60514a739a2b3380260b6d1e33e33467cc88baad
 workflow-type: tm+mt
 source-wordcount: '2386'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -17,13 +17,13 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Marzo de 2023 {#march-2023}
 
-* Se ha creado una nueva sección en la guía de Administración de decisiones sobre cómo recopilar comentarios de offer decisioning en Adobe Experience Platform, incluidos qué ofertas se muestran y cómo interactúan los usuarios con ellas. [Más información](../offers/data-collection/data-collection.md)
+* Se ha creado una nueva sección en la guía de Gestión de decisiones sobre cómo recopilar comentarios de Offer Decisioning en Adobe Experience Platform, incluidas las ofertas que se muestran y cómo interactúan los usuarios con ellas. [Más información](../offers/data-collection/data-collection.md)
 
 ## Febrero de 2023 {#feb-2023}
 
-* Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de febrero de 2023 se ha detallado en la documentación. [Más información](release-notes.md)
+* Todas las nuevas funciones y mejoras incluidas [!DNL Journey Optimizer] La versión del 23 de febrero se ha detallado en la documentación. [Más información](release-notes.md)
 * Se ha añadido una nota en la documentación de campañas activadas por API para especificar que los atributos contextuales pasados a la solicitud no pueden superar los 50 kb. [Más información](../campaigns/api-triggered-campaigns.md#contextual)
-* Se agregó información sobre cómo se almacena la información de exclusión en **Conjunto de datos del servicio de consentimiento** después de que los destinatarios cancelen su suscripción a través de una página de aterrizaje. [Más información](../landing-pages/lp-use-cases.md#configure-opt-out)
+* Se ha añadido información sobre cómo se almacena la información de exclusión en el **Conjunto de datos del servicio de consentimiento** después de cancelar la suscripción de los destinatarios a través de una página de aterrizaje. [Más información](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## Enero de 2023 {#jan-2023}
 
