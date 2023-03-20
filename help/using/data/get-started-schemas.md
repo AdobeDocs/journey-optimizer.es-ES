@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: esquemas, plataforma, datos, estructura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 30%
+source-wordcount: '332'
+ht-degree: 28%
 
 ---
 
@@ -32,6 +32,8 @@ La variable **Esquemas** espacio de trabajo en [!DNL Adobe Journey Optimizer] la
 Aprenda a utilizar la interfaz de usuario de Esquemas en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target="_blank"}
 
 La documentación paso a paso para crear un esquema con el Editor de esquemas está disponible en [esta página](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es){target="_blank"}
+
+Para ver la lista completa de campos y atributos para cada esquema, consulte la [Diccionario de esquema de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 
 ## Vídeo explicativo{#video-schema}

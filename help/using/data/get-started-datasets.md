@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 8%
+source-wordcount: '836'
+ht-degree: 9%
 
 ---
 
@@ -55,6 +55,8 @@ Estos son los diferentes conjuntos de datos disponibles:
 
 * _Puntuaciones de optimización en tiempo de envío/Puntuaciones de participación_: Resultados de Recorrido AI.
 
+Para ver la lista completa de campos y atributos para cada esquema, consulte la [Diccionario de esquema de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+
 ## Vista previa de conjuntos de datos{#preview-datasets}
 
 En la pantalla de actividad Conjunto de datos, seleccione **Vista previa del conjunto de datos** cerca de la esquina superior derecha de la pantalla para obtener una vista previa del lote exitoso más reciente en este conjunto de datos. Cuando un conjunto de datos está vacío, el vínculo de vista previa se desactiva.
@@ -67,7 +69,7 @@ Para crear un nuevo conjunto de datos, comience seleccionando **Crear conjunto d
 
 Puede hacer lo siguiente:
 
-* Crear conjunto de datos a partir del esquema. [Obtenga más información en esta documentación](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target="_blank"}
+* Crear conjunto de datos a partir de esquema. [Obtenga más información en esta documentación](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target="_blank"}
 * Cree un conjunto de datos a partir del archivo CSV. [Obtenga más información en esta documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=es){target="_blank"}
 
 Vea este vídeo para aprender a crear un conjunto de datos, asignarlo a un esquema, agregarle datos y confirmar que se han introducido los datos.
