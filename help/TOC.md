@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1334'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -379,10 +379,10 @@ ht-degree: 96%
             + [Eliminar una regla de decisión](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + Cualificadores de colección {#tags}
             + [Cualificadores de colección de lista](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [Buscar un calificador de colección](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [Crear un calificador de colección](using/offers/api-reference/offers-api/tags/create.md)
-            + [Actualizar un calificador de colección](using/offers/api-reference/offers-api/tags/update.md)
-            + [Eliminar un calificador de colección](using/offers/api-reference/offers-api/tags/delete.md)
+            + [Búsqueda de un cualificador de colección](using/offers/api-reference/offers-api/tags/lookup.md)
+            + [Creación de un cualificador de colección](using/offers/api-reference/offers-api/tags/create.md)
+            + [Actualización de un cualificador colección](using/offers/api-reference/offers-api/tags/update.md)
+            + [Eliminación de un cualificador de colección](using/offers/api-reference/offers-api/tags/delete.md)
          + Ofertas personalizadas {#personalized-offers}
             + [Enumerar ofertas personalizadas](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
             + [Buscar una oferta personalizada](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
