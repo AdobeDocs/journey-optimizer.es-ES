@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: db7c57ce9f5c46d8beb6ff0037a8854fd136cb4a
+source-git-commit: 9301d02be37c6aabad9c10a4cc43c20d3e3ee23e
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1857'
 ht-degree: 7%
 
 ---
@@ -655,13 +655,12 @@ La variable `replaceAll` se utiliza para reemplazar todas las subcadenas de un t
 ```sql
 {%= replaceAll(string,string,string) %}
 ```
+
 >[!NOTE]
 >
-> Si la expresión regex tomada como segundo argumento es un carácter regex especial, entonces necesitamos usar barra invertida doble (`//`) para tratar estos casos.
->
-> Lista de caracteres regex especiales [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
+> Cuando la expresión tomada como segundo argumento sea un carácter regex especial, utilice una barra invertida doble (`//`).  Los caracteres especiales de regex son: [, +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
 > 
-> Esto se resume en [documentación de oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}
+> Obtenga más información en [documentación de oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 
 ## Guarnecido derecho {#rightTrim}
 
