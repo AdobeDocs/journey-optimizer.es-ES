@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -96,7 +96,7 @@ La variable **Copiar detalles técnicos** le permite copiar información técnic
 
 De forma predeterminada, los nuevos recorridos permiten volver a entrar. Puede desmarcar la casilla **Permitir la reentrada** para recorridos de &quot;una toma&quot;, por ejemplo, si desea ofrecer un regalo único cuando una persona entra en una tienda.
 
-Cuando la variable **Permitir la reentrada** está activada, la opción **Período de espera de reentrada** se muestra. Este campo le permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en recorridos unitarios (empezando por un evento o una calificación de segmento). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos.
+Cuando la variable **Permitir la reentrada** está activada, la opción **Período de espera de reentrada** se muestra. Este campo permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en recorridos unitarios (empezando por un evento o una calificación de segmentos). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos.
 
 Obtenga más información sobre la administración de la entrada de perfiles en [esta sección](entry-management.md).
 
@@ -120,7 +120,7 @@ Para obtener más información sobre la administración de huso horario, consult
 
 Puede definir una **Fecha de inicio**. Si no ha especificado ninguno, se definirá automáticamente en el momento de la publicación.
 
-También puede agregar una **Fecha final**. Esto permite a los perfiles salir automáticamente cuando se llega a la fecha. Si no especifica una fecha de finalización, los perfiles pueden permanecer hasta el tiempo de espera de recorrido predeterminado (generalmente 30 días, 7 días con la oferta de complemento Escudo de salud). La única excepción son los recorridos recurrentes de segmentos leídos con **Forzar la reentrada en la recurrencia** activado, que finalizan en la fecha de inicio de la siguiente aparición.
+También puede agregar una **Fecha final**. Esto permite que los perfiles salgan automáticamente cuando se alcanza la fecha. Si no especifica una fecha de finalización, los perfiles pueden permanecer hasta el tiempo de espera de recorrido predeterminado (generalmente 30 días, 7 días con la oferta de complemento Escudo de salud). La única excepción son los recorridos recurrentes de segmentos leídos con **Forzar la reentrada en la recurrencia** activado, que finalizan en la fecha de inicio de la siguiente aparición.
 
 ### Tiempo de espera y error en las actividades de recorrido {#timeout_and_error}
 

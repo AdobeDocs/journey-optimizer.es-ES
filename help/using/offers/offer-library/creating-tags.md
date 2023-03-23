@@ -1,6 +1,6 @@
 ---
 title: Crear calificadores de colección
-description: Obtenga información sobre cómo crear calificadores de colección para sus ofertas
+description: Aprenda a crear calificadores de recopilación para sus ofertas
 feature: Offers
 topic: Integrations
 role: User
@@ -9,7 +9,7 @@ exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 2%
+ht-degree: 22%
 
 ---
 
@@ -18,23 +18,23 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_tags"
 >title="Cualificadores de colección"
->abstract="Asocie uno o varios calificadores de colección a la oferta para mantener la biblioteca de ofertas organizada y localizar las ofertas más fácilmente. Los calificadores de colección se crean desde el menú &quot;Componente&quot;."
+>abstract="Asocie uno o varios cualificadores de colección a la oferta para mantener la biblioteca de ofertas organizada y localizarlas más fácilmente. Los cualificadores de colección se crean desde el menú Componente."
 
-La asociación de calificadores de colección (anteriormente conocidos como &quot;etiquetas&quot;) a sus ofertas facilita su organización. Por ejemplo, puede etiquetar las ofertas de Black Friday con el calificador de colección Black Friday. A continuación, puede utilizar la funcionalidad de búsqueda de la biblioteca de ofertas para localizar fácilmente todas las ofertas con ese calificador de colección.
+La asociación de calificadores de recopilación (anteriormente conocidos como &quot;etiquetas&quot;) a las ofertas facilita su organización. Por ejemplo, puede etiquetar las ofertas del Black Friday con el calificador de colección &quot;Black Friday&quot;. A continuación, puede utilizar la funcionalidad de búsqueda de la Biblioteca de ofertas para localizar fácilmente todas las ofertas con ese calificador de colección.
 
-Los calificadores de colección también se pueden utilizar para agrupar ofertas en colecciones de ofertas. Consulte [Creación de colecciones](../offer-library/creating-collections.md).
+Los calificadores de recopilación también se pueden utilizar para agrupar ofertas en colecciones de ofertas. Consulte [Crear colecciones](../offer-library/creating-collections.md).
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-Se puede acceder a la lista de calificadores de colección creados en el **[!UICONTROL Componentes]** menú.
+Se puede acceder a la lista de cualificadores de recopilación creados en la **[!UICONTROL Componentes]** para abrir el Navegador.
 
 ![](../assets/tags_list.png)
 
-Para crear un cualificador de recopilación, siga estos pasos:
+Para crear un calificador de colección, siga estos pasos:
 
-1. Vaya a la **[!UICONTROL Cualificadores de colección]** y haga clic en **[!UICONTROL Crear calificador de colección]**.
+1. Vaya a la **[!UICONTROL Cualificadores de recopilación]** a continuación, haga clic en **[!UICONTROL Crear calificador de colección]**.
 
-1. Especifique el nombre del cualificador de la colección y haga clic en **[!UICONTROL Guardar]**.
+1. Especifique el nombre del calificador de colección y haga clic en **[!UICONTROL Guardar]**.
 
    ![](../assets/tags_create.png)
 

@@ -12,7 +12,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 1%
+ht-degree: 12%
 
 ---
 
@@ -26,7 +26,7 @@ Obtenga más información sobre el concepto de la lista de supresión y su uso e
 
 
 
-## Acceso a la lista de supresión {#access-suppression-list}
+## Acceso a la lista de supresión  {#access-suppression-list}
 
 Para acceder a la lista detallada de direcciones de correo electrónico y dominios excluidos, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** y seleccione **[!UICONTROL Lista de supresión]**.
 
@@ -38,7 +38,7 @@ Para acceder a la lista detallada de direcciones de correo electrónico y domini
 >Los permisos para ver, exportar y administrar la lista de supresión están restringidos a [Administradores de recorrido](../administration/ootb-product-profiles.md#journey-administrator). Más información sobre la administración [!DNL Journey Optimizer] derechos de acceso de los usuarios en [esta sección](../administration/permissions-overview.md).
 
 
-Los filtros están disponibles para ayudarle a navegar por la lista.
+Hay filtros a su disposición para ayudarle a navegar por la lista.
 
 ![](assets/suppression-list-filters.png)
 
@@ -107,9 +107,9 @@ Sin embargo, también puede rellenar manualmente la variable [!DNL Journey Optim
 >
 >Puede tardar hasta 60 minutos en [!DNL Journey Optimizer] para tener en cuenta las direcciones suprimidas en los correos electrónicos salientes.
 
-Puede añadir direcciones de correo electrónico o dominios [de una en una](#add-one-address-or-domain)o [en modo masivo](#upload-csv-file) mediante la carga de un archivo CSV.
+Puede añadir direcciones de correo electrónico o dominios [de una en una](#add-one-address-or-domain) o [en modo masivo](#upload-csv-file) mediante la carga de un archivo CSV.
 
-### Añadir una dirección o un dominio {#add-one-address-or-domain}
+### Adición de una dirección o un dominio {#add-one-address-or-domain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_address"
@@ -128,11 +128,11 @@ Para añadir una dirección de correo electrónico o un dominio a la lista de su
 
 1. Seleccione el tipo de dirección: **[!UICONTROL Correo electrónico]** o **[!UICONTROL Dominio]**.
 
-1. Introduzca la dirección de correo electrónico o el dominio que desea excluir de la entrega.
+1. Introduzca la dirección de correo electrónico o el dominio que desea excluir del envío.
 
    >[!NOTE]
    >
-   >Asegúrese de introducir una dirección de correo electrónico válida (como abc@company.com) o un dominio (como abc.company.com).
+   >Asegúrese de introducir una dirección de correo electrónico válida (como abc@compañía.com) o un dominio (como abc.compañía.com).
 
 1. (opcional) Introduzca un motivo. En este campo se permiten todos los caracteres imprimibles ASCII comprendidos entre 32 y 126.
 
@@ -152,7 +152,7 @@ Para añadir un grupo de direcciones de correo electrónico o un dominio a la li
 
    ![](assets/suppression-list-upload-csv.png)
 
-1. Descargue la plantilla CSV para usar, que incluye las columnas y el formato siguiente:
+1. Descargue la plantilla CSV que debe utilizar, que incluye las columnas y el formato que se indican a continuación:
 
    ```
    TYPE,VALUE,COMMENT
@@ -166,7 +166,7 @@ Para añadir un grupo de direcciones de correo electrónico o un dominio a la li
    >
    >No cambie el nombre de las columnas en la plantilla CSV.
    >
-   >El tamaño del archivo no debe superar los 1 MB.
+   >El tamaño del archivo no debe superar 1 MB.
 
 1. Una vez finalizado, arrastre y suelte el archivo CSV y utilice el **[!UICONTROL Submit]** para confirmar.
 
@@ -182,9 +182,9 @@ Utilice la variable **[!UICONTROL Cargas recientes]** para comprobar el estado d
 
 Los estados posibles son:
 
-* **[!UICONTROL Pendiente]**: Se está procesando la carga de archivos.
-* **[!UICONTROL Error]**: Error en el proceso de carga del archivo debido a un problema técnico o a un error de formato de archivo.
-* **[!UICONTROL Completar]**: El proceso de carga de archivos se completó correctamente.
+* **[!UICONTROL Pendiente]**: se está procesando la carga de archivo.
+* **[!UICONTROL Error]**: error en el proceso de carga del archivo debido a un problema técnico o a un error de formato de archivo.
+* **[!UICONTROL Completado]**: el proceso de carga de archivos se ha completado correctamente.
 
 Durante la carga, si algunas direcciones no tienen el formato correcto, no se agregan al grupo [!DNL Journey Optimizer] lista de supresión.
 

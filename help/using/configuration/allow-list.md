@@ -12,7 +12,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -134,15 +134,15 @@ Para realizar esto, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Asegúrese de introducir una dirección de correo electrónico válida (como abc@company.com) o un dominio (como abc.company.com).
+   >Asegúrese de introducir una dirección de correo electrónico válida (como abc@compañía.com) o un dominio (como abc.compañía.com).
 
-1. Especifique un motivo si es necesario.
+1. Especifique una razón, si es necesario.
 
    ![](assets/allowed-list-add-email-address.png)
 
    >[!NOTE]
    >
-   >Se permiten todos los caracteres ASCII comprendidos entre 32 y 126 en la variable **[!UICONTROL Razón]** campo . La lista completa se encuentra en [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} por ejemplo.
+   >Se permiten todos los caracteres ASCII comprendidos entre 32 y 126 en la variable **[!UICONTROL Razón]** campo . La lista completa se encuentra en [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}, por ejemplo.
 
 1. Haga clic en **[!UICONTROL Enviar]**.
 
