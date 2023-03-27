@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fee83ffd136ebe21ae62c7e0bd50dc31e0f4b948
-workflow-type: ht
-source-wordcount: '1064'
-ht-degree: 100%
+source-git-commit: 4399d1665fd27fdd3b2cca6cfe448464c3c79f0c
+workflow-type: tm+mt
+source-wordcount: '1413'
+ht-degree: 77%
 
 ---
 
@@ -22,23 +22,96 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Regístrese para la [Newsletter trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoy y reciba las últimas actualizaciones de productos, artículos interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.
 
 
-## Mejoras de marzo de 2023 {#march-2023}
+## Notas de la versión anticipadas de marzo de 2023 {#mar-2023}
 
-**Administración de etiquetas en los recorridos**
+La información siguiente está sujeta a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento. La documentación actualizada se publicará en la fecha de lanzamiento y se agregarán vínculos directos en esta página.
 
-Como profesional de Journey Optimizer, ahora puede organizar los objetos de negocio mediante etiquetas. Las etiquetas son una forma rápida y sencilla de clasificar objetos para mejorar la búsqueda. Actualmente, esta funcionalidad está en versión beta y solo está disponible para recorridos. [Más información](../building-journeys/tags.md)
+**Fecha de disponibilidad**: 29 de marzo
 
-**Etiquetas de Gestión de decisiones renombradas a calificadores de colección**
+### Nuevas funcionalidades{#mar-2023-features}
 
-Para evitar cualquier posible confusión con la reciente versión de la funcionalidad de etiquetas en Adobe Experience Platform, se ha cambiado el nombre de las etiquetas de Gestión de decisiones a &quot;Calificadores de colección&quot;.
 
-Tenga en cuenta que, aunque el término &quot;etiqueta&quot; ya no se utiliza en la interfaz de usuario de Gestión de decisiones, se sigue utilizando en servicios backend como API y conjuntos de datos.
+<table>
+<thead>
+<tr>
+<th><strong>Canal en la aplicación (disponibilidad general)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora, puede enviar mensajes personalizados en la aplicación a los usuarios de la aplicación dentro de una campaña. Utilice Journey Optimizer para diseñar notificaciones y personalizar el diseño, la visualización, el texto y los botones del mensaje para crear una experiencia perfecta.</p>
+<img src="assets/do-not-localize/in-app.gif"/>
+<p>Para obtener más información, consulte la <a href="../in-app/get-started-in-app.md">documentación detallada</a>.</p>
+</tr>
+</tbody>
+</table>
 
-**Límite de gestión de decisiones**
+<table>
+<thead>
+<tr>
+<th><strong>Rastreo de clics de SMS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Con el rastreo de clics de SMS, puede supervisar el rendimiento de las URL acortadas, identificar quién hizo clic en ellas y utilizar estos datos para redirigirse a esos clientes con campañas posteriores.</p>
+<!--p>For more information, refer to the <a href="../sms/create-sms.md#sms-content">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
 
-* Ahora puede restablecer el contador de límite de oferta diariamente, semanalmente o mensualmente. [Más información](../offers/offer-library/add-constraints.md#capping)
 
-* También puede elegir qué evento de Adobe Experience Platform se debe tener en cuenta para el límite de Offer Decisioning. [Más información](../offers/offer-library/add-constraints.md#capping)
+<table>
+<thead>
+<tr>
+<th><strong>Usar etiquetas en los Recorridos (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Como profesional de Journey Optimizer, ahora puede organizar los objetos de negocio mediante etiquetas. Las etiquetas son una forma rápida y sencilla de clasificar objetos para mejorar la búsqueda. Actualmente, esta funcionalidad está en versión beta y solo está disponible para recorridos.</p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/tags.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### Mejoras {#mar-2023-improvements}
+
+**Recorridos**
+
+* El nuevo **API de restricción** le permite establecer un límite en la cantidad de eventos enviados por segundo, lo que evita picos de tráfico abrumadores en sus sistemas externos o API. Cuando se alcanza el límite establecido, todas las llamadas a la API subsiguientes se ponen en cola y se procesan lo antes posible, en el orden en que se recibieron. Tenga en cuenta que esta función solo admite una configuración de regulación en todos los entornos limitados.
+* El lienzo de Recorrido se ha mejorado para que la experiencia del usuario sea más sencilla y mejorada. Al final de cada ruta en el lienzo, se han eliminado los marcadores de posición vacíos. Ahora puede simplemente agregar sus actividades arrastrándolas al final de una ruta. <!--[Learn more](../building-journeys/using-the-journey-designer.md)-->
+* El tiempo de espera predeterminado y la duración del error en las propiedades del recorrido se han cambiado de 5 a 30 segundos. La tasa de regulación predeterminada en las actividades de segmentos de lectura se ha cambiado de 20.000 a 5.000 mensajes por segundo.
+* Se ha añadido una protección al modo de prueba para escuchar solo los eventos enviados a través de la interfaz. Los eventos enviados a través de una herramienta externa no se tienen en cuenta.
+* Al añadir una acción de correo electrónico, SMS o push en un recorrido, la superficie ahora se rellena previamente, de forma predeterminada, con la última superficie utilizada para ese canal.
+
+<!-- * A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)-->
+
+<!--
+* Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)
+
+* The Journey dashboard is now split in two tabs:
+    * Use the **Overview** tab to access a new dashboard which displays key metrics related to your journeys.
+    * Use the **Browse** tab to access list of all journeys.
+-->
+
+**Gestión de decisiones**
+
+* Para evitar cualquier posible confusión con la reciente versión de la funcionalidad de etiquetas en Adobe Experience Platform, se ha cambiado el nombre de las etiquetas de Gestión de decisiones a &quot;Calificadores de colección&quot;.
+
+   Tenga en cuenta que, aunque el término &quot;etiqueta&quot; ya no se utiliza en la interfaz de usuario de Gestión de decisiones, se sigue utilizando en servicios backend como API y conjuntos de datos.
+
+* Ahora puede restablecer el contador de límite de oferta diariamente, semanalmente o mensualmente. <!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
+
+* También puede elegir qué evento de Adobe Experience Platform se debe tener en cuenta para el límite de Offer Decisioning. <!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
+
+* Se han añadido parámetros adicionales en la pantalla de creación de ubicaciones. Permiten controlar si una oferta se puede duplicar en varias ubicaciones y especificar si el contenido y los metadatos de la oferta se deben incluir en la respuesta de API. <!--[Learn more](../offers/offer-library/creating-placements.md)-->
 
 ## Notas de la versión de febrero de 2023 {#feb-2023}
 
@@ -55,7 +128,6 @@ Tenga en cuenta que, aunque el término &quot;etiqueta&quot; ya no se utiliza en
 <td>
 <p>Ahora, puede enviar mensajes personalizados en la aplicación a los usuarios de la aplicación dentro de una campaña. Utilice Journey Optimizer para diseñar notificaciones y personalizar el diseño, la visualización, el texto y los botones del mensaje para crear una experiencia perfecta.</p>
 <p><strong>Precaución</strong>: Actualmente, esta funcionalidad está en versión beta y solo está disponible para los clientes de la versión beta. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.</p>
-<img src="assets/do-not-localize/in-app.gif"/>
 <p>Para obtener más información, consulte la <a href="../in-app/get-started-in-app.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -111,25 +183,6 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 Note that each widget can be resized and deleted as needed.
 +++
-
-
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Use Tags in your Journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. Tags are currently only available for Journeys.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 -->
 
 ### Mejoras {#feb-2023-improvements}
@@ -163,10 +216,6 @@ Note that each widget can be resized and deleted as needed.
 * **Superficie de correo electrónico**: en la sección **Parámetros de seguimiento de URL** de la configuración de la superficie del correo electrónico, el límite de cada campo **Valor** se ha actualizado de 255 caracteres a 5 KB para la compatibilidad con el seguimiento de Adobe Analytics. [Más información](../email/email-settings.md#url-tracking)
 
 **Gestión de decisiones**
-
-<!--
-* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
--->
 
 * **Personalización de URL**: al añadir direcciones URL como contenido a las representaciones de las ofertas, ahora puede personalizar estas direcciones URL con el Editor de expresiones. [Más información](../offers/offer-library/add-representations.md)
 
