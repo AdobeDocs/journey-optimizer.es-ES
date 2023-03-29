@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a1cad8ba5dd241659ad290ac1c92e3b01900547c
+source-git-commit: 416da542b6e0ea8c66cdcebcc0219db63a9608fb
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 81%
@@ -25,6 +25,7 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 ## Notas de la versión de marzo de 2023 {#mar-2023}
 
 La información siguiente está sujeta a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento. La documentación actualizada se publicará en la fecha de lanzamiento y se agregarán vínculos directos en esta página.
+
 
 ### Nuevas funcionalidades{#mar-2023-features}
 
@@ -49,8 +50,7 @@ La información siguiente está sujeta a cambios sin previo aviso hasta la fecha
 <table>
 <thead>
 <tr>
-<th><p><strong>Rastreo de clics de SMS</strong></p><br/>
-</th>
+<th><strong>Rastreo de clics de SMS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -68,7 +68,7 @@ La información siguiente está sujeta a cambios sin previo aviso hasta la fecha
 <table>
 <thead>
 <tr>
-<th><p><strong>Usar etiquetas en los Recorridos (Beta)</strong></pr><br/></th>
+<th><strong>Usar etiquetas en los Recorridos (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
