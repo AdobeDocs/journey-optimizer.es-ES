@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 5%
@@ -61,6 +61,15 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
 
    ![](assets/content_experiment_1.png)
 
+<!--
+1. In the **[!UICONTROL Properties]** section, choose your **[!UICONTROL Campaign type]**:
+
+    * **[!UICONTROL Scheduled]**: designed to send marketing messages and can be executed immediately or at a specified date.
+
+    * **[!UICONTROL API-Triggered]**: designed to send transactional messages, such as password reset notifications or cart abandonment reminders. 
+    
+        To execute an API-triggered campaign, you will need to make an API call. [Learn more](api-triggered-campaigns.md)
+-->
 1. Seleccione el canal y, a continuación, el **[!UICONTROL Superficie]** desea utilizar para este envío y haga clic en **[!UICONTROL Crear]**. Para obtener más información, consulte [Superficies de canal](../configuration/channel-surfaces.md) página.
 
    ![](assets/content_experiment_2.png)

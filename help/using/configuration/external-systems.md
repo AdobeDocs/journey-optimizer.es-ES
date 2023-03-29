@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Integrar Journey Optimizer con sistemas externos
+title: Integración de Journey Optimizer con sistemas externos
 description: Conozca las prácticas recomendadas al integrar Journey Optimizer con sistemas externos
 role: User
 level: Beginner
 keywords: externa, API, optimizer, restricción
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 2%
+source-wordcount: '1178'
+ht-degree: 3%
 
 ---
 
@@ -26,37 +26,50 @@ Todos los sistemas externos son diferentes en términos de rendimiento. Debe ada
 
 Cuando Journey Optimizer ejecuta una llamada a una API externa, las protecciones técnicas se ejecutan de la siguiente manera:
 
-1. Se aplican reglas de restricción: si se alcanza la tasa máxima, se descartan las llamadas restantes.
+1. Se aplican reglas de restricción o restricción: si se alcanza la tasa máxima, las llamadas restantes se descartan o se ponen en cola.
 
 2. Tiempo de espera y reintento: si se cumple la regla de límite, Journey Optimizer intenta realizar la llamada hasta que se alcance el final del tiempo de espera.
 
-## Restricción{#capping}
+## Restricción y restricción de las API {#capping}
 
-La API de restricción integrada ofrece una protección técnica ascendente que ayuda a proteger el sistema externo.
+### Acerca de las API de restricción y restricción
 
-Para las fuentes de datos externas, el número máximo de llamadas por segundo se establece en 15. Si el número de llamadas supera los 15 por segundo, se descartan las llamadas restantes. Puede aumentar este límite para las fuentes de datos externas privadas. Póngase en contacto con el Adobe para incluir el punto final en la lista de permitidos. Esto no es posible para las fuentes de datos externas públicas.
+Al configurar una fuente de datos o una acción, se establece una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos o enviar mensajes o llamadas API.
+
+Las API de Recorrido admiten hasta 5000 eventos por segundo, pero es posible que algunos sistemas externos o API no tengan un rendimiento equivalente. Para evitar sobrecargar estos sistemas, puede usar la variable **Restricción** y **Restricción** para limitar el número de eventos enviados por segundo.
+
+Cada vez que recorrido realiza una llamada a la API, esta pasa por el motor de API. Si se alcanza el límite establecido en la API, la llamada de se rechaza si utiliza la API de restricción o se pone en cola y se procesa lo antes posible en el orden en que se recibieron si utiliza la API de restricción.
+
+Por ejemplo, supongamos que ha definido una regla de límite o restricción de 100 llamadas por segundo para su sistema externo. Una acción personalizada llama al sistema en 10 recorridos diferentes. Si un recorrido recibe 200 llamadas por segundo, utilizará las 100 ranuras disponibles y descartará o pondrá en cola las 100 ranuras restantes. Como la velocidad máxima se ha superado, los otros 9 recorridos no tendrán ninguna ranura. Esta granularidad ayuda a proteger el sistema externo de sobrecargas y caídas.
+
+>[!IMPORTANT]
+>
+>**Reglas de restricción** se configuran en el nivel de entorno limitado, para un punto final específico (la dirección URL denominada) pero global para todos los recorridos de ese entorno limitado.
+>
+>**Reglas de restricción** solo están configuradas en entornos limitados de producción, para un punto final específico pero globales para todos los recorridos de todos los entornos limitados. Solo puede tener una configuración de regulación por organización.
+
+Para obtener más información sobre cómo trabajar con las API, consulte estas secciones:
+
+* [Captación de API](capping.md)
+* [API de restricción](throttling.md)
+
+### Fuentes de datos y capacidad de acciones personalizadas {#capacity}
+
+Para **fuentes de datos externas**, el número máximo de llamadas por segundo está limitado a 15. Si se supera este límite, las llamadas adicionales se descartan o se ponen en cola según la API en uso. Es posible aumentar este límite para las fuentes de datos externas privadas poniéndose en contacto con el Adobe para incluir el punto final en la lista de permitidos, pero esta no es una opción para las fuentes de datos externas públicas. * [Obtenga información sobre cómo configurar fuentes de datos](../datasource/about-data-sources.md).
 
 >[!NOTE]
 >
-> Si una fuente de datos utiliza una autenticación personalizada con un extremo diferente al que se usa para la fuente de datos, debe ponerse en contacto con Adobe para incluir también ese extremo en la lista de permitidos.
+>Si una fuente de datos utiliza una autenticación personalizada con un extremo diferente al que se usa para la fuente de datos, debe ponerse en contacto con Adobe para incluir también ese extremo en la lista de permitidos.
 
-Para las acciones personalizadas, debe evaluar la capacidad de su API externa. Por ejemplo, si Journey Optimizer envía 1000 llamadas por segundo y el sistema solo puede admitir 100 llamadas por segundo, debe definir una regla de límite para que el sistema no se satura.
-
-Las reglas de restricción se definen en el nivel de entorno limitado para un punto final específico (la URL denominada). Durante la ejecución, Journey Optimizer comprueba si hay una regla de límite definida y aplica la velocidad definida durante las llamadas a ese extremo. Si el número de llamadas supera la tasa definida, las llamadas restantes se descartan y se cuentan como errores en los informes.
-
-Una regla de límite es específica para un punto final, pero global para todos los recorridos de un entorno limitado. Esto significa que las ranuras de límite se comparten entre todos los recorridos de un simulador para pruebas.
-
-Por ejemplo, supongamos que ha definido una regla de límite de 100 llamadas por segundo para el sistema externo. Una acción personalizada llama al sistema en 10 recorridos diferentes. Si un recorrido recibe 200 llamadas por segundo, utilizará las 100 ranuras disponibles y descartará las 100 ranuras restantes. Como la velocidad máxima se ha superado, los otros 9 recorridos no tendrán ninguna ranura. Esta granularidad ayuda a proteger el sistema externo de sobrecargas y caídas.
-
-Para obtener más información sobre la API de restricción y cómo configurar las reglas de restricción, consulte [documentación del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}.
+Para **acciones personalizadas**, debe evaluar la capacidad de su API externa. Por ejemplo, si Journey Optimizer envía 1000 llamadas por segundo y el sistema solo puede admitir 100 llamadas por segundo, debe definir una configuración de límite o de regulación para que el sistema no se satura. [Obtenga información sobre cómo configurar acciones](../action/action.md)
 
 ## Tiempo de espera y reintentos{#timeout}
 
-Si se cumple la regla de límite, se aplica la regla de tiempo de espera.
+Si se cumple la regla de restricción o restricción, se aplica la regla de tiempo de espera.
 
 En cada recorrido, puede definir una duración de tiempo de espera. Esto le permite establecer una duración máxima al llamar a un sistema externo. La duración del tiempo de espera se configura en las propiedades de un recorrido. Consulte [esta página](../building-journeys/journey-gs.md#timeout_and_error).
 
-Este tiempo de espera es global para todas las llamadas externas (llamadas de API externas en acciones personalizadas y fuentes de datos personalizadas). De forma predeterminada, se establece en 5 segundos.
+Este tiempo de espera es global para todas las llamadas externas (llamadas de API externas en acciones personalizadas y fuentes de datos personalizadas). De forma predeterminada, se establece en 30 segundos.
 
 Durante el tiempo de espera definido, Journey Optimizer intenta llamar al sistema externo. Después de la primera llamada, se puede realizar un máximo de tres reintentos hasta que se alcance el final del tiempo de espera. El número de reintentos no se puede cambiar.
 
@@ -74,9 +87,9 @@ Veamos un ejemplo para un tiempo de espera de 5 segundos.
 
 ## Preguntas frecuentes{#faq}
 
-**¿Cómo puedo configurar una regla de límite? ¿Existe una regla de límite predeterminada?**
+**¿Cómo puedo configurar una regla de restricción o restricción? ¿Hay una regla predeterminada?**
 
-De forma predeterminada, no hay ninguna regla de restricción. Las reglas de restricción se definen a nivel de entorno limitado para un punto final específico (la URL denominada) mediante la API de restricción. Consulte [esta sección](../configuration/external-systems.md#capping) y [documentación del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}.
+De forma predeterminada, no hay ninguna regla de restricción o restricción. Las reglas se definen a nivel de entorno limitado para un punto final específico (la URL denominada) mediante el uso de la API de restricción o restricción. Consulte [esta sección](../configuration/external-systems.md#capping).
 
 **¿Cuántos reintentos se realizan? ¿Puedo cambiar el número de reintentos o definir un periodo de espera mínimo entre los reintentos?**
 

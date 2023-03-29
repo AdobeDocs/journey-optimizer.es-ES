@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: prueba, recorrido, comprobación, error, solución de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1522'
 ht-degree: 3%
 
 ---
@@ -61,7 +61,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 
 ## Notas importantes {#important_notes}
 
-* Se proporciona una interfaz para activar eventos en el recorrido probado, pero los eventos también se pueden enviar desde sistemas de terceros como Postman.
+* En el modo de prueba, puede activar eventos mediante la interfaz .
 * Solo las personas marcadas como &quot;perfiles de prueba&quot; en el servicio Perfil del cliente en tiempo real podrán entrar en el recorrido probado. Consulte esta [sección](../segment/creating-test-profiles.md).
 * El modo de prueba solo está disponible en recorridos de borrador que utilizan un área de nombres. El modo de prueba debe comprobar si una persona que entra en el recorrido es un perfil de prueba o no y, por lo tanto, debe poder llegar a Adobe Experience Platform.
 * El número máximo de perfiles de prueba que pueden introducir un recorrido durante una sesión de prueba es de 100.
@@ -103,8 +103,6 @@ Al hacer clic en el botón **[!UICONTROL Enviar]** , la prueba comienza. La prog
 Cuando selecciona un perfil de prueba diferente en la pantalla de configuración de evento y vuelve a ejecutar la prueba, el flujo visual se borra y muestra la ruta del nuevo individuo.
 
 Al abrir un recorrido en la prueba, la ruta mostrada corresponde a la última prueba ejecutada.
-
-El flujo visual funciona tanto si el evento se activa mediante la interfaz como externamente (mediante Postman, por ejemplo).
 
 ## Modo de prueba para recorridos basados en reglas {#test-rule-based}
 

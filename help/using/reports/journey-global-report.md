@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2044'
 ht-degree: 0%
 
 ---
@@ -286,4 +286,7 @@ La variable **[!UICONTROL Resumen de SMS]** La utilidad detalla la información 
 * **[!UICONTROL Errores]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
 
 La variable **[!UICONTROL Excluir motivos]** los gráficos y las tablas permiten ver qué error y exclusiones se produjeron durante el envío.
+
+La variable **[!UICONTROL SMS: clics por vínculos]** y **[!UICONTROL SMS - Estadísticas de seguimiento]** las utilidades detallan la información principal relativa a la participación de los visitantes en las direcciones URL.
+
 +++

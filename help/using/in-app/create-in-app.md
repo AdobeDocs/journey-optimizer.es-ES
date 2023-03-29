@@ -5,13 +5,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: en la aplicación, mensaje, creación, inicio
 badge: label="Beta" type="Informative"
+keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 5%
+source-wordcount: '624'
+ht-degree: 6%
 
 ---
 
@@ -37,7 +37,7 @@ Para crear un mensaje en la aplicación, siga los pasos a continuación:
 
 1. En el **[!UICONTROL Propiedades]** , edite la **[!UICONTROL Título]** y **[!UICONTROL Descripción]**.
 
-1. Para asignar etiquetas de uso de datos principales o personalizadas a la página de aterrizaje, seleccione **[!UICONTROL Administrar acceso]**. [Más información](../administration/object-based-access.md).
+1. Para asignar etiquetas de uso de datos principales o personalizadas al mensaje en la aplicación, seleccione **[!UICONTROL Administrar acceso]**. [Más información](../administration/object-based-access.md).
 
 1. Haga clic en el **[!UICONTROL Seleccionar la audiencia]** para definir la audiencia a la que se dirigirá desde la lista de segmentos de Adobe Experience Platform disponibles. [Más información](../segment/about-segments.md).
 
@@ -45,27 +45,22 @@ Para crear un mensaje en la aplicación, siga los pasos a continuación:
 
 1. En el **[!UICONTROL Área de nombres de identidad]** , elija el área de nombres que desea utilizar para identificar a las personas del segmento seleccionado. [Más información](../event/about-creating.md#select-the-namespace).
 
+1. Haga clic en **[!UICONTROL Editar déclencheur]** para elegir los eventos y criterios que almacenarán el déclencheur del mensaje:
+
+   1. Haga clic en **[!UICONTROL Agregar] condición** si desea que el déclencheur considere varios eventos o criterios.
+   1. Seleccione cómo están vinculados los eventos, por ejemplo, elija **[!UICONTROL Y]** si desea **both** déclencheur que deben ser verdaderos para que un mensaje se muestre o elija **[!UICONTROL O]** si desea que se muestre el mensaje si **o** de los déclencheur son verdaderos.
+   1. Haga clic en **[!UICONTROL Crear grupo]** para agrupar déclencheur.
+
+   ![](assets/in_app_create_3.png)
+
 1. Elija la frecuencia de su déclencheur cuando el mensaje en la aplicación esté activo:
 
-   * **[!UICONTROL Mostrar cada vez]**: Mostrar siempre el mensaje cuando los eventos seleccionados en la variable **[!UICONTROL Déclencheur de aplicación móvil]** se produce.
-   * **[!UICONTROL Mostrar una vez]**: Mostrar este mensaje solo la primera vez que se seleccionan los eventos en la variable **[!UICONTROL Déclencheur de aplicación móvil]** se produce.
-   * **[!UICONTROL Mostrar hasta pulsaciones]**: Mostrar este mensaje cuando los eventos seleccionados en la variable **[!UICONTROL Déclencheur de aplicación móvil]** se produce hasta que el SDK envía un evento de interacción con una acción de &quot;clic&quot;.
+   * **[!UICONTROL Cada vez]**: Mostrar siempre el mensaje cuando los eventos seleccionados en la variable **[!UICONTROL Déclencheur de aplicación móvil]** se produce.
+   * **[!UICONTROL Una vez]**: Mostrar este mensaje solo la primera vez que se seleccionan los eventos en la variable **[!UICONTROL Déclencheur de aplicación móvil]** se produce.
+   * **[!UICONTROL Hasta que haga clic]**: Mostrar este mensaje cuando los eventos seleccionados en la variable **[!UICONTROL Déclencheur de aplicación móvil]** se produce hasta que el SDK envía un evento de interacción con una acción de &quot;clic&quot;.
+   * **[!UICONTROL X número de veces]**: Mostrar este mensaje X hora.
 
-1. En el **[!UICONTROL Déclencheur de aplicación móvil]** , elija los eventos y criterios que almacenarán el déclencheur del mensaje:
-
-   1. En el menú desplegable de la izquierda, seleccione el evento necesario para almacenar el mensaje en déclencheur.
-   1. En la lista desplegable derecha, seleccione la validación requerida en el evento seleccionado.
-   1. Haga clic en el **[!UICONTROL Agregar]** si desea que el déclencheur considere varios eventos o criterios. A continuación, repita los pasos anteriores.
-   1. Seleccione cómo están vinculados los eventos, por ejemplo, elija **[!UICONTROL Y]** si desea **both** déclencheur que deben ser verdaderos para que un mensaje se muestre o elija **[!UICONTROL O]** si desea que se muestre el mensaje si **o** de los déclencheur son verdaderos.
-
-   ![](assets/in_app_create_3.png)
-
-1. Elija el evento que déclencheur el mensaje desde el **[!UICONTROL Déclencheur de aplicación móvil]**
-lista desplegable.
-
-   Al elegir un déclencheur, elige qué acción del usuario hace que se muestre el mensaje en la aplicación.
-
-   ![](assets/in_app_create_3.png)
+1. Si es necesario, elija cuál **[!UICONTROL Día de la semana]** o **[!UICONTROL Hora del día]** se mostrará el mensaje en la aplicación.
 
 1. Las campañas están diseñadas para ejecutarse en una fecha específica o con una frecuencia recurrente. Obtenga información sobre cómo configurar la variable **[!UICONTROL Programación]** de su campaña en [esta sección](../campaigns/create-campaign.md#schedule).
 
@@ -111,7 +106,7 @@ Para ello, siga los pasos a continuación:
 
 La campaña ya está activada. La notificación en la aplicación configurada en la campaña se envía inmediatamente o en la fecha especificada.
 
-Una vez enviados, puede medir el impacto de los mensajes en la aplicación dentro del informe de Campaign. Para obtener más información sobre la creación de informes, consulte [esta sección](../reports/campaign-global-report.md#inapp-report).
+Una vez enviados, puede medir el impacto de los mensajes en la aplicación dentro de los informes Campaña o Recorrido . Para obtener más información sobre la creación de informes, consulte [esta sección](../reports/campaign-global-report.md#inapp-report).
 
 **Temas relacionados:**
 

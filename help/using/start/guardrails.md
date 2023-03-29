@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4bcdd5a5d6161aea70939fc4f8a90f6e607b02f4
-workflow-type: ht
-source-wordcount: '969'
-ht-degree: 100%
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+workflow-type: tm+mt
+source-wordcount: '989'
+ht-degree: 97%
 
 ---
 
@@ -58,6 +58,7 @@ La protección del rendimiento y los límites estáticos para la toma de decisio
 * El segmento y el área de nombres elegidos en **Calificación de segmentos** (primer nodo) no se puede cambiar en las versiones nuevas.
 * La regla de reentrada debe ser la misma en todas las versiones del recorrido.
 * Un recorrido que comience por un **Segmento de lectura** no puede comenzar con otro evento en las versiones siguientes.
+* No puede crear una nueva versión de un recorrido de segmento de lectura con lectura incremental. Debe duplicar el recorrido.
 
 ### Acciones personalizadas {#custom-actions-g}
 

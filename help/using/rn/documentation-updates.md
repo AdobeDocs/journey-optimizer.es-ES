@@ -4,10 +4,10 @@ product: journey optimizer
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 371bd375d2c93b0694fa7eaf148f5c0793d59c8e
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '2399'
-ht-degree: 98%
+source-wordcount: '2445'
+ht-degree: 97%
 
 ---
 
@@ -17,8 +17,10 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Marzo de 2023 {#march-2023}
 
+* Todas las nuevas funciones y mejoras incluidas [!DNL Journey Optimizer] La versión del 23 de marzo se ha detallado en la documentación. [Más información](release-notes.md)
 * Se ha añadido un paso para habilitar eventos de Adobe Analytics en sus recorridos. [Más información](../event/about-analytics.md)
 * Se ha creado una nueva sección en la guía de Gestión de decisiones sobre cómo recopilar comentarios de Offer Decisioning en Adobe Experience Platform, incluidas las ofertas que se muestran y cómo interactúan los usuarios con ellas. [Más información](../offers/data-collection/data-collection.md)
+* Se ha añadido una nueva subsección al **Crear decisión** para explicar la diferencia entre los criterios de evaluación en un orden secuencial o al mismo tiempo. [Más información](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
 
 ## Febrero de 2023 {#feb-2023}
 

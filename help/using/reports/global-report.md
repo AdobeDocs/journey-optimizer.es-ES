@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1298'
 ht-degree: 5%
 
 ---
@@ -64,6 +64,10 @@ Cada tablero de informes se puede modificar cambiando el período de tiempo y ca
    ![](assets/report_modify_5.png)
 
 1. Una vez que esté satisfecho con el orden de visualización y el tamaño de sus widgets, haga clic en **[!UICONTROL Guardar]**.
+
+1. Para personalizar la forma en que se muestran los datos, puede cambiar de distintas opciones de visualización, como gráficos, tablas y gráficos circulares.
+
+   ![](assets/report_modify_10.png)
 
 El tablero se ha guardado. Los diferentes cambios se volverán a aplicar para un uso posterior de los informes activos. Si es necesario, use la variable **[!UICONTROL Restablecer]** para restaurar el orden predeterminado de las utilidades y utilidades.
 

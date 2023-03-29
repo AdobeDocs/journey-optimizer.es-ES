@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1052'
 ht-degree: 6%
 
 ---
@@ -38,6 +38,8 @@ Para obtener una lista detallada de todas las métricas disponibles en Adobe Jou
 
 Cada tablero de informes se puede modificar cambiando el tamaño o eliminando las utilidades. Cambiar las utilidades solo afecta al tablero del usuario actual. Otros usuarios verán sus propios tableros o los que estén configurados de forma predeterminada.
 
+1. En el **[!UICONTROL Acciones]** , elija si desea informar sobre una acción concreta de sus recorridos.
+
 1. Elija si desea excluir los eventos de prueba de los informes con la barra de alternancia. Para obtener más información sobre los eventos de prueba, consulte [esta página](../building-journeys/testing-the-journey.md).
 
    Tenga en cuenta que **[!UICONTROL Excluir eventos de prueba]** solo está disponible para informes de Recorrido.
@@ -57,6 +59,10 @@ Cada tablero de informes se puede modificar cambiando el tamaño o eliminando la
    ![](assets/report_modify_9.png)
 
 1. Una vez que esté satisfecho con el orden de visualización y el tamaño de sus widgets, haga clic en **[!UICONTROL Guardar]**.
+
+1. Para personalizar la forma en que se muestran los datos, puede cambiar de distintas opciones de visualización, como gráficos, tablas y gráficos circulares.
+
+   ![](assets/report_modify_11.png)
 
 El tablero se ha guardado. Los diferentes cambios se volverán a aplicar para un uso posterior de los informes activos. Si es necesario, use la variable **[!UICONTROL Restablecer]** para restaurar el orden predeterminado de las utilidades y utilidades.
 

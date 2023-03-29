@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '483'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ Una vez creada una fórmula de clasificación, puede asignarla a una colocación
 
 Para crear una fórmula de clasificación, siga los pasos a continuación:
 
-1. Acceda a la **[!UICONTROL Componentes]** y, a continuación, seleccione **[!UICONTROL Clasificación]** pestaña . Se muestra la lista de clasificaciones creadas anteriormente.
+1. Acceda a la **[!UICONTROL Componentes]** y, a continuación, seleccione **[!UICONTROL Clasificación]** pestaña . La variable **[!UICONTROL Fórmulas]** está seleccionada de forma predeterminada. Se muestra la lista de fórmulas creadas anteriormente.
 
    ![](../assets/rankings-list.png)
 
@@ -35,7 +35,7 @@ Para crear una fórmula de clasificación, siga los pasos a continuación:
 
    ![](../assets/ranking-create-formula.png)
 
-1. Especifique el nombre, la descripción y la fórmula de la fórmula de clasificación.
+1. Especifique el nombre, la descripción y la fórmula de la fórmula.
 
    En este ejemplo, deseamos aumentar la prioridad de todas las ofertas con el atributo &quot;hot&quot; si el tiempo real está caliente. Para ello, el **contextData.weather=hot** se pasó en la llamada de decisión.
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, leer, segmento, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 11%
@@ -69,7 +69,7 @@ Los pasos para configurar la actividad Leer segmento son los siguientes:
 
 1. Configure las variables **[!UICONTROL Tasa de restricción]** al límite de rendimiento de la actividad de segmento de lectura.
 
-   Este valor se almacena en la carga útil de la versión de recorrido. El valor predeterminado es 20 000 mensajes por segundo. Puede modificar este valor de 500 a 20 000 mensajes por segundo.
+   Este valor se almacena en la carga útil de la versión de recorrido. El valor predeterminado es 5000 mensajes por segundo. Puede modificar este valor de 500 a 20 000 mensajes por segundo.
 
    >[!NOTE]
    >

@@ -6,9 +6,9 @@ description: Aprenda a configurar su entorno para enviar SMS con Journey Optimiz
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '830'
 ht-degree: 2%
 
 ---
@@ -120,6 +120,12 @@ Para crear una superficie de canal, siga estos pasos:
 
    * Seleccione su **[!UICONTROL Campo de ejecución de SMS]** para seleccionar el **[!UICONTROL Atributo de perfil]** asociado a los números de teléfono de los perfiles.
 
+
+1. Si desea utilizar la función de acortamiento de URL en sus mensajes SMS, seleccione un elemento de la **[!UICONTROL Subdominio]** lista.
+
+   >[!NOTE]
+   >
+   >Para poder seleccionar un subdominio, asegúrese de haber configurado previamente al menos un subdominio SMS. [Descubra cómo](sms-subdomains.md)
 
 1. Una vez configurados todos los parámetros, haga clic en **[!UICONTROL Submit]** para confirmar. También puede guardar la superficie del canal como borrador y reanudar su configuración más adelante.
 

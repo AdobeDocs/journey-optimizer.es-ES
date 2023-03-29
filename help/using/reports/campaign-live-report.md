@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '926'
 ht-degree: 3%
 
 ---
@@ -135,7 +135,7 @@ Desde la campaña **[!UICONTROL Informe activo]**, el **[!UICONTROL SMS]** La pe
 
 +++Obtenga más información sobre las distintas métricas y utilidades disponibles para el informe SMS.
 
-La variable **[!UICONTROL SMS: estadísticas de envío]** La tabla detalla el éxito de la entrega:
+La variable **[!UICONTROL SMS - Estadísticas]** La tabla detalla el éxito de la entrega:
 
 * **[!UICONTROL Segmentado]**: Número de perfiles de usuario que se califican como perfiles de destinatario para este envío.
 
@@ -148,6 +148,8 @@ La variable **[!UICONTROL SMS: estadísticas de envío]** La tabla detalla el é
 * **[!UICONTROL Devoluciones]**: Total de errores acumulados durante la entrega y el procesamiento automático de la devolución.
 
 * **[!UICONTROL Errores]**: Número total de errores que se han producido durante una entrega que impiden que se envíe a perfiles.
+
+* **[!UICONTROL Clics]**: Número total de visitas de URL.
 
 La variable **[!UICONTROL Rendimiento de SMS por fecha]** La utilidad detalla la información principal relativa al mensaje con un gráfico:
 

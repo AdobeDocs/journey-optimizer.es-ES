@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '447'
+ht-degree: 6%
 
 ---
 
@@ -38,7 +38,7 @@ Por ejemplo, puede aumentar la prioridad de todas las ofertas en las que la fech
 
 Obtenga información sobre cómo crear una fórmula de clasificación en [esta sección](../ranking/create-ranking-formulas.md).
 
-Una vez creada una fórmula de clasificación, puede asignarla a una colocación en una decisión. Para realizar esto, siga los pasos a continuación:
+Una vez creada una fórmula, puede asignarla a una colocación en una decisión. Para realizar esto, siga los pasos a continuación:
 
 1. Cree una decisión o edite una existente. Consulte [Creación de decisiones](../offer-activities/create-offer-activities.md).
 
@@ -46,17 +46,17 @@ Una vez creada una fórmula de clasificación, puede asignarla a una colocación
 
 1. Para cada ubicación, agregue una colección. Consulte [Crear colecciones](../offer-library/creating-collections.md).
 
-1. Select **[!UICONTROL Fórmula de clasificación]** como método de clasificación, haga clic en **[!UICONTROL Agregar clasificación]**.
+1. Select **[!UICONTROL Fórmula]** como método de clasificación, haga clic en **[!UICONTROL Agregar clasificación]**.
 
    ![](../assets/offer-activity-ranking.png)
 
-1. Seleccione la fórmula de clasificación que desee y haga clic en **[!UICONTROL Select]**.
+1. Seleccione la fórmula deseada y haga clic en **[!UICONTROL Select]**.
 
    ![](../assets/ranking-selection.png)
 
 La fórmula de clasificación ahora está asociada a la ubicación.
 
-Si se pueden presentar varias ofertas en esta ubicación, la decisión utilizará la fórmula de la fórmula de clasificación para calcular qué oferta enviar primero.
+Si se pueden presentar varias ofertas en esta ubicación, la decisión utilizará la fórmula seleccionada para calcular qué oferta enviar en primer lugar.
 
 ## Clasificación de IA {#use-ranking-strategy}
 

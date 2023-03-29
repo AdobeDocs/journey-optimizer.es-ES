@@ -8,9 +8,9 @@ role: User, Developer
 level: Experienced
 keywords: recorrido, fuentes de datos, límite, rendimiento, personalizado, acciones
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '644'
 ht-degree: 3%
 
 ---
@@ -27,9 +27,13 @@ Esto se puede hacer con :
 
 * **Acciones personalizadas**: para enviar información a sistemas externos, por ejemplo, para enviar correos electrónicos a través de una solución externa mediante las funciones de organización de Journey Optimizer junto con información de perfil, datos de audiencia y contexto de recorrido.
 
-Si está trabajando con fuentes de datos externas o acciones personalizadas, es posible que desee proteger los sistemas externos limitando el rendimiento del recorrido: hasta 5000 instancias/segundo para recorridos unitarios y hasta 20 000 instancias/segundo para instancias activadas por segmentos. Puede definir límites de límite en el nivel de extremo para evitar sobrecargar esos sistemas externos a través de las API de restricción de Journey Optimizer. Sin embargo, todas las solicitudes restantes después de alcanzar el límite se retirarán.
+Si está trabajando con fuentes de datos externas o acciones personalizadas, es posible que desee proteger los sistemas externos limitando el rendimiento del recorrido: hasta 5000 instancias/segundo para recorridos unitarios y hasta 20 000 instancias/segundo para instancias activadas por segmentos.
 
-En esta sección, encontrará soluciones alternativas que puede utilizar para optimizar su rendimiento. Para obtener más información sobre cómo integrarse con sistemas externos, consulte esta [página](../configuration/external-systems.md).
+Para las acciones personalizadas, las capacidades de regulación están disponibles a nivel de producto. Consulte [esta página](../configuration/external-systems.md#capping).
+
+Para las fuentes de datos externas, puede definir límites de límite en el nivel de extremo para evitar sobrecargar esos sistemas externos a través de las API de restricción de Journey Optimizer. Sin embargo, todas las solicitudes restantes después de alcanzar el límite se retirarán. En esta sección, encontrará soluciones alternativas que puede utilizar para optimizar su rendimiento.
+
+Para obtener más información sobre cómo integrarse con sistemas externos, consulte esta [página](../configuration/external-systems.md).
 
 ## Implementación
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: crear, correo electrónico, inicio, recorrido, campaña
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 5%
@@ -40,6 +40,8 @@ Agregue un **[!UICONTROL Correo electrónico]** a un recorrido o a una campaña,
 1. Elija la [superficie del correo electrónico](email-settings.md) para usar.
 
    ![](assets/email_journey.png)
+
+<!-- The field is pre-filled, by default, with the last surface used for that channel by the user. -->
 
 >[!NOTE]
 >

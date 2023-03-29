@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 keywords: aterrizaje, página de aterrizaje, subdominios, configuración
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '807'
 ht-degree: 2%
 
 ---
@@ -40,8 +40,6 @@ Puede utilizar un subdominio que ya esté delegado en Adobe o configurar otro su
 >[!CAUTION]
 >
 >La configuración del subdominio de la página de aterrizaje es común a todos los entornos. Por lo tanto, cualquier modificación en un subdominio de página de aterrizaje también afectará a los entornos limitados de producción.
-
-Tenga en cuenta que las mayúsculas no deben estar permitidas en un subdominio
 
 ## Usar un subdominio existente {#lp-use-existing-subdomain}
 
@@ -138,7 +136,7 @@ Para configurar un nuevo subdominio, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Antes de poder usar ese subdominio para enviar mensajes, debe esperar hasta que el Adobe realice las comprobaciones necesarias, que pueden tardar hasta 4 horas.<!--Learn more in [this section](#subdomain-validation).-->
+   >Antes de poder usar ese subdominio para sus páginas de aterrizaje, debe esperar hasta que el Adobe realice las comprobaciones necesarias, que pueden tardar hasta 4 horas.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. Una vez realizadas las comprobaciones correctamente, el subdominio recibe la variable **[!UICONTROL Correcto]** estado. Está listo para utilizarse para crear ajustes preestablecidos de página de aterrizaje.
 
