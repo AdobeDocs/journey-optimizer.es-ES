@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
+source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -189,7 +189,7 @@ La variable **[!UICONTROL Más acciones]** activa las acciones que se describen 
 
    >[!CAUTION]
    >
-   >La decisión y su contenido ya no serán accesibles. Esta acción no se puede deshacer.
+   >La decisión y su contenido ya no serán accesibles. No se puede deshacer esta acción.
    >
    >Si la decisión se utiliza en otro objeto, no se puede eliminar.
 
