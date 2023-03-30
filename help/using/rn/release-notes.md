@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 416da542b6e0ea8c66cdcebcc0219db63a9608fb
+source-git-commit: 15b3b783f0a679e207a104d6333e96c92a02efb1
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 81%
+source-wordcount: '1346'
+ht-degree: 79%
 
 ---
 
@@ -113,9 +113,9 @@ La información siguiente está sujeta a cambios sin previo aviso hasta la fecha
 
 <!--* Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)-->
 
-<!--**Personalization**
+**Personalización**
 
-* You can now include default fallback text for string-based profile attributes in the Expression Editor. These values will display if the selected attributes return no result. [Learn more](../personalization/personalization-build-expressions.md#add)-->
+* Ahora puede incluir texto alternativo predeterminado para atributos de perfil basados en cadenas en el Editor de expresiones. Estos valores se mostrarán si los atributos seleccionados no devuelven ningún resultado. [Más información](../personalization/personalization-build-expressions.md#add)
 
 <!--
 **Reporting**

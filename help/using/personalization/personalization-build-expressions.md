@@ -9,14 +9,14 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, acerca de, iniciar
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 15b3b783f0a679e207a104d6333e96c92a02efb1
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 9%
+source-wordcount: '421'
+ht-degree: 6%
 
 ---
 
-# Acerca del Editor de expresiones {#build-personalization-expressions}
+# Introducción al editor de expresiones {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
@@ -29,11 +29,9 @@ En la interfaz del editor de expresiones, se seleccionan, organizan, personaliza
 
 ![](assets/perso_ee1.png)
 
-La parte izquierda de la pantalla muestra un selector de dominio que le permite seleccionar el origen de la personalización.
+## Fuentes de personalización disponibles {#sources}
 
-![](assets/perso_ee3.png)
-
-Las fuentes disponibles son:
+La parte izquierda de la pantalla muestra un selector de dominio que le permite seleccionar el origen de la personalización. Las fuentes disponibles son:
 
 * **[!UICONTROL Atributos de perfil]** : enumera todas las referencias asociadas al esquema de perfil descrito en [Documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
 * **[!UICONTROL Pertenencia a segmentos]** : enumera todos los segmentos creados en el servicio de segmentación de Adobe Experience Platform. Más información sobre segmentación disponible [here](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
@@ -41,11 +39,13 @@ Las fuentes disponibles son:
 * **[!UICONTROL Atributos contextuales]** : cuando se utiliza una actividad de acción de canal (correo electrónico, push, SMS) en un recorrido, los campos de recorrido contextual están disponibles a través de este menú. Obtenga más información en [esta sección](personalization-use-case.md).
 * **[!UICONTROL Funciones de ayuda]** : enumera todas las funciones de ayuda disponibles para realizar operaciones con datos, como cálculos, formato de datos o conversiones, condiciones y manipularlas en el contexto de la personalización. Obtenga más información en [esta sección](functions/functions.md).
 
-Haga clic en el botón + para añadir un atributo al editor.
+## Añadir atributos de personalización {#add}
 
->[!NOTE]
->
->El menú elipse junto al icono &quot;+&quot; le permite obtener más detalles para cada variable y agregar los atributos usados con más frecuencia a [favoritos](personalization-favorites.md).
+Haga clic en el botón + para añadir un atributo a la expresión de personalización.
+
+El menú de elipsis junto al icono &quot;+&quot; le permite obtener más detalles para cada variable y agregar los atributos usados con más frecuencia a los favoritos. [Aprenda a añadir atributos a favoritos](personalization-favorites.md)
+
+Además, puede definir el texto de reserva predeterminado que se mostrará si un atributo de perfil de tipo cadena está vacío. Para ello, haga clic en el botón de puntos suspensivos situado junto al atributo y seleccione **[!UICONTROL Insertar con texto alternativo]**. Escriba el texto que debería mostrarse de forma predeterminada si el valor del atributo está vacío para un perfil y haga clic en **[!UICONTROL Agregar]**.
 
 ![](assets/attribute-details.png)
 
