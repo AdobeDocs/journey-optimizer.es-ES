@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '2445'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Febrero de 2023 {#feb-2023}
 
-* Todas las nuevas funciones y mejoras incluidas [!DNL Journey Optimizer] La versión del 23 de febrero se ha detallado en la documentación. [Más información](release-notes.md)
+* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de febrero de 2023 se han incluido en la documentación. [Más información](release-notes.md)
 * Se ha añadido una nota en la documentación de campañas activadas por API para especificar que los atributos contextuales pasados a la solicitud no pueden superar los 50 kb. [Más información](../campaigns/api-triggered-campaigns.md#contextual)
 * Se ha añadido información sobre cómo se almacena la información de exclusión en el **Conjunto de datos del servicio de consentimiento** después de cancelar la suscripción de los destinatarios a través de una página de aterrizaje. [Más información](../landing-pages/lp-use-cases.md#configure-opt-out)
 
