@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: externa, API, optimizer, restricción
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 65da82fd67442cfa2b5d45ec753fb3c5a86d4cc7
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1197'
 ht-degree: 3%
 
 ---
@@ -52,6 +52,8 @@ Para obtener más información sobre cómo trabajar con las API, consulte estas 
 
 * [Captación de API](capping.md)
 * [API de restricción](throttling.md)
+
+Puede encontrar una descripción detallada de las API en [Documentación de las API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
 
 ### Fuentes de datos y capacidad de acciones personalizadas {#capacity}
 
