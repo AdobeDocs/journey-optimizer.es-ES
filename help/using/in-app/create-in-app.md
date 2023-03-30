@@ -7,16 +7,14 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
+source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 4%
+source-wordcount: '404'
+ht-degree: 3%
 
 ---
 
 # Creación de un mensaje en la aplicación  {#create-in-app}
-
-## Creación de una campaña y un mensaje en la aplicación{#create-in-app-in-a-campaign}
 
 Para crear un mensaje en la aplicación, siga los pasos a continuación:
 
@@ -61,56 +59,21 @@ Para crear un mensaje en la aplicación, siga los pasos a continuación:
 
    ![](assets/in-app-schedule.png)
 
-1. Ahora puede empezar a diseñar el contenido con la variable **[!UICONTROL Editar contenido]** botón.
+1. Ahora puede empezar a diseñar el contenido con la variable **[!UICONTROL Editar contenido]** botón. [Más información](design-in-app.md)
 
    ![](assets/in_app_create_4.png)
 
-## Enviar mensajes en la aplicación{#in-app-send}
-
-### Vista previa en el dispositivo {#preview-device}
-
-Puede previsualizar la notificación en la aplicación en un dispositivo específico.
-
-1. Haga clic en **[!UICONTROL Vista previa en el dispositivo]**.
-
-   ![](assets/in_app_create_6.png)
-
-1. En el **[!UICONTROL Conectarse al dispositivo]** ventana, haga clic en **[!UICONTROL Inicio]**.
-
-1. Escriba en la **[!UICONTROL Dirección URL base]** de la aplicación y haga clic en **[!UICONTROL Siguiente]**.
-
-   ![](assets/in_app_create_7.png)
-
-1. Analice el código QR con su dispositivo e introduzca el código PIN mostrado.
-
-El mensaje en la aplicación ahora se puede activar directamente en el dispositivo, lo que le permite previsualizar y revisar el mensaje en un dispositivo real.
-
-### Revise y active su notificación en la aplicación{#in-app-review}
-
-Una vez creado el mensaje en la aplicación y definido y personalizado su contenido, puede revisarlo y activarlo.
-
-Para ello, siga los pasos a continuación:
-
-1. Utilice la variable **[!UICONTROL Revisar para activar]** para mostrar un resumen del mensaje.
-
-   El resumen le permite modificar la campaña si es necesario y comprobar si algún parámetro es incorrecto o falta.
-
-   ![](assets/in_app_create_5.png)
-
-1. Compruebe que la campaña esté correctamente configurada y haga clic en **[!UICONTROL Activar]**.
-
-La campaña ya está activada. La notificación en la aplicación configurada en la campaña se envía inmediatamente o en la fecha especificada.
-
-Una vez enviados, puede medir el impacto de los mensajes en la aplicación dentro de los informes Campaña o Recorrido . Para obtener más información sobre la creación de informes, consulte [esta sección](../reports/campaign-global-report.md#inapp-report).
-
-**Temas relacionados:**
-
-* [Diseño de mensajes en la aplicación](design-in-app.md)
-* [Informe en la aplicación](../reports/campaign-global-report.md#inapp-report)
-* [Configuración en la aplicación](inapp-configuration.md)
 
 ## Vídeo explicativo{#video}
 
 El siguiente vídeo muestra cómo crear, configurar y publicar mensajes en la aplicación en sus campañas.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+
+
+**Temas relacionados:**
+
+* [Diseño de mensajes en la aplicación](design-in-app.md)
+* [Pruebe y envíe su mensaje en la aplicación](send-in-app.md)
+* [Informe en la aplicación](../reports/campaign-global-report.md#inapp-report)
+* [Configuración en la aplicación](inapp-configuration.md)
