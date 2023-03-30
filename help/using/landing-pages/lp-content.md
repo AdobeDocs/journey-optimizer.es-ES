@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, página, formulario, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
+source-git-commit: abf0a3f87baf9aa822e2f4aa5a90777359767541
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 4%
+source-wordcount: '1284'
+ht-degree: 3%
 
 ---
 
@@ -93,7 +93,19 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 
    ![](assets/lp_designer-form-checkbox-2.png)
 
-1. Una vez agregadas todas las casillas de verificación deseadas, haga clic en **[!UICONTROL Llamada a acción]** para expandir la sección correspondiente. Permite definir el comportamiento del botón en la variable **[!UICONTROL Formulario]** componente.
+1. También puede agregar un **[!UICONTROL Campo de texto]**.
+
+   ![](assets/lp_designer-form-add-text-field.png)
+
+   * Introduzca la variable **[!UICONTROL Etiqueta]** que se muestra sobre el campo en el formulario.
+
+   * Escriba un **[!UICONTROL Marcador de posición]** texto. Se muestra dentro del campo antes de que el usuario rellene el campo.
+
+   * Marque la **[!UICONTROL Hacer obligatorio el campo del formulario]** si es necesario. En ese caso, la página de aterrizaje solo se puede enviar si el usuario ha rellenado este campo. Si no se rellena un campo obligatorio, aparece un mensaje de error cuando el usuario envía la página.
+
+   ![](assets/lp_designer-form-text-field.png)
+
+1. Una vez agregadas todas las casillas de verificación o campos de texto que desee, haga clic en **[!UICONTROL Llamada a acción]** para expandir la sección correspondiente. Permite definir el comportamiento del botón en la variable **[!UICONTROL Formulario]** componente.
 
    ![](assets/lp_designer-form-call-to-action.png)
 
