@@ -5,21 +5,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informative"
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 16%
+source-wordcount: '171'
+ht-degree: 13%
 
 ---
 
 # Introducción al canal en la aplicación {#gs-in-app}
-
->[!AVAILABILITY]
->
->Actualmente, la función en la aplicación está disponible en versión beta solo para usuarios seleccionados. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 Los mensajes en la aplicación son notificaciones que se pueden enviar a los usuarios dentro de la aplicación, lo que los guía en puntos de interés específicos. Estas notificaciones se pueden utilizar para distintos fines, como la promoción de nuevas funciones, la presentación de ofertas especiales o la facilitación de la incorporación del usuario. Al aprovechar los mensajes en la aplicación, puede interactuar con su audiencia y dirigirlos hacia aspectos importantes de su aplicación.
 
