@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
+source-git-commit: 51f93270c969875e94cc3e98919149d67d764ed1
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 27%
+source-wordcount: '550'
+ht-degree: 12%
 
 ---
 
@@ -46,6 +46,24 @@ Para crear una ubicación, siga estos pasos:
    * **[!UICONTROL Descripción]**: Descripción de la colocación (opcional).
 
    ![](../assets/offers_placement_creation_properties.png)
+
+
+1. La variable **[!UICONTROL Configuración de solicitud]** y **[!UICONTROL Formato de respuesta]** las secciones proporcionan parámetros adicionales:
+
+   * **[!UICONTROL Permitir duplicados entre ubicaciones]**: Controle si la misma oferta se puede proponer varias veces en diferentes ubicaciones. Si está habilitada, el sistema considerará la misma oferta para varias ubicaciones. De forma predeterminada, el parámetro se establece en false.
+
+      Si esta opción se establece en false en cualquier ubicación de una solicitud de toma de decisiones, todas las ubicaciones de la solicitud heredarán la configuración &quot;false&quot;.
+
+   * **[!UICONTROL Solicitud de oferta]**: De forma predeterminada, se devuelve una oferta del ámbito de decisión para cada perfil. Puede ajustar el número de ofertas devueltas mediante esta opción. Por ejemplo, si selecciona 2, se mostrarán las 2 mejores ofertas para el ámbito de decisión seleccionado.
+
+   * **[!UICONTROL Incluir contenido]** / **[!UICONTROL Incluir metadatos]**: especifique si el contenido y los metadatos de la oferta deben devolverse en la respuesta de la API. Puede incluir todos los metadatos o solo campos específicos. De forma predeterminada, el valor Include metadata está establecido en true.
+   Estos parámetros también se pueden configurar directamente en la solicitud de API si está trabajando con la variable [API de decisiones](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). Sin embargo, configurarlas en la interfaz de usuario puede ayudarle a ahorrar tiempo, ya que no tendrá que pasarlas en cada solicitud de API. Tenga en cuenta que si configura los parámetros tanto en la interfaz de usuario como en la solicitud de API, los valores de la solicitud de API prevalecerán sobre los de la interfaz.
+
+   >[!NOTE]
+   >
+   >Si está trabajando con la variable [API de Edge Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?), no puede establecer estos parámetros en la solicitud de . Debe definirlos en esta pantalla.
+   >
+   >Si está trabajando con la variable [API de decisiones por lotes](../api-reference/offer-delivery-api/batch-decisioning-api.md), puede configurar estos parámetros en esta pantalla o en su solicitud de API. Si no coinciden los valores de parámetro entre la pantalla y la solicitud APi, se utilizarán los valores de solicitud.
 
 1. Haga clic en **[!UICONTROL Guardar]** para confirmar.
 
