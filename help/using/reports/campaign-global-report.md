@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 8a311d546829d0d80f32dfdddcdf30805688f757
 workflow-type: tm+mt
-source-wordcount: '1926'
-ht-degree: 2%
+source-wordcount: '1904'
+ht-degree: 1%
 
 ---
 
@@ -145,10 +145,6 @@ La variable **[!UICONTROL Optimización del tiempo de envío]** detalla el éxit
 +++
 
 ## Pestaña en la aplicación {#inapp-global}
-
->[!IMPORTANT]
->
->Actualmente, la función en la aplicación está disponible en versión beta solo para usuarios seleccionados. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL En la aplicación]** La pestaña detalla la información principal relativa a los envíos en la aplicación realizados en la campaña.
 
