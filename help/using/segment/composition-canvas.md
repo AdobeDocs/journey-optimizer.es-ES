@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 1%
@@ -76,7 +76,7 @@ Las actividades disponibles son:
 
 * [Audiencia](#audience): incluir perfiles adicionales que pertenecen a una o varias audiencias existentes,
 * [Excluir](#exclude): excluir perfiles pertenecientes a una audiencia existente o excluir perfiles según atributos específicos,
-* [Enriquecimiento]{#enrich}: enriquecer la audiencia con atributos adicionales procedentes de conjuntos de datos de Adobe Experience Platform,
+* [Enriquecimiento](#enrich): enriquecer la audiencia con atributos adicionales procedentes de conjuntos de datos de Adobe Experience Platform,
 * [Clasificación](#rank): clasifique los perfiles según un atributo específico, especifique el número de perfiles que desea conservar e incluirlos en la composición,
 * [Split](#split): divida la composición en varias rutas basadas en porcentajes aleatorios o en atributos.
 
