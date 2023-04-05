@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: externa, API, optimizer, restricción
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 65da82fd67442cfa2b5d45ec753fb3c5a86d4cc7
+source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 3%
+source-wordcount: '1201'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,7 @@ Al configurar una fuente de datos o una acción, se establece una conexión con 
 
 Las API de Recorrido admiten hasta 5000 eventos por segundo, pero es posible que algunos sistemas externos o API no tengan un rendimiento equivalente. Para evitar sobrecargar estos sistemas, puede usar la variable **Restricción** y **Restricción** para limitar el número de eventos enviados por segundo.
 
-Cada vez que recorrido realiza una llamada a la API, esta pasa por el motor de API. Si se alcanza el límite establecido en la API, la llamada de se rechaza si utiliza la API de restricción o se pone en cola y se procesa lo antes posible en el orden en que se recibieron si utiliza la API de restricción.
+Cada vez que recorrido realiza una llamada a la API, esta pasa por el motor de API. Si se alcanza el límite establecido en la API, la llamada de se rechaza si utiliza la API de restricción o se pone en cola durante un máximo de 6 horas y se procesa lo antes posible en el orden en que se recibió si utiliza la API de restricción.
 
 Por ejemplo, supongamos que ha definido una regla de límite o restricción de 100 llamadas por segundo para su sistema externo. Una acción personalizada llama al sistema en 10 recorridos diferentes. Si un recorrido recibe 200 llamadas por segundo, utilizará las 100 ranuras disponibles y descartará o pondrá en cola las 100 ranuras restantes. Como la velocidad máxima se ha superado, los otros 9 recorridos no tendrán ninguna ranura. Esta granularidad ayuda a proteger el sistema externo de sobrecargas y caídas.
 

@@ -6,10 +6,10 @@ description: Aprenda a trabajar con la API de Throttling
 role: User
 level: Beginner
 keywords: externa, API, optimizer, restricción
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 3%
+source-wordcount: '813'
+ht-degree: 2%
 
 ---
 
@@ -24,6 +24,8 @@ Esta sección proporciona información global sobre cómo trabajar con la API. U
 >Actualmente solo se permite una configuración por organización. Se debe definir una configuración en un entorno limitado de producción (se proporciona mediante x-sandbox-name en los encabezados).
 >
 >Se aplica una configuración a nivel de organización.
+>
+>Cuando se alcanza el límite establecido en la API, se ponen en cola otros eventos durante un máximo de 6 horas. Este valor no se puede modificar.
 
 ## Descripción de la API de restricción {#description}
 
