@@ -5,9 +5,9 @@ title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3dffd032edb3ffda4a1bcd460d554f7ecc253a8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1540'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ La información siguiente está sujeta a cambios sin previo aviso hasta la fecha
 <tbody>
 <tr>
 <td>
-<p>Con el rastreo de clics de SMS, puede supervisar el rendimiento de las URL acortadas, identificar quién hizo clic en ellas y utilizar estos datos para redirigirse a esos clientes con campañas posteriores.</p>
+<p>Con el rastreo de clics de SMS, puede monitorizar el rendimiento de las URL acortadas, identificar quién hizo clic en ellas y utilizar estos datos para redirigirse a esos clientes con campañas posteriores.</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
 <p>Para obtener más información, consulte la <a href="../sms/create-sms.md#sms-content">documentación detallada</a>.</p>
 </td>
@@ -65,7 +65,7 @@ La información siguiente está sujeta a cambios sin previo aviso hasta la fecha
 <table>
 <thead>
 <tr>
-<th><strong>Usar etiquetas en los Recorridos (Beta)</strong><br/></th>
+<th><strong>Uso de etiquetas en los recorridos (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -83,11 +83,11 @@ La información siguiente está sujeta a cambios sin previo aviso hasta la fecha
 
 **Recorridos**
 
-* El nuevo **API de restricción** le permite establecer un límite en la cantidad de eventos enviados por segundo, lo que evita picos de tráfico abrumadores en sus sistemas externos o API. Cuando se alcanza el límite establecido, todas las llamadas a la API subsiguientes se ponen en cola y se procesan lo antes posible, en el orden en que se recibieron. Tenga en cuenta que esta función solo admite una configuración de regulación en todos los entornos limitados. [Más información](../configuration/external-systems.md)
-* El lienzo de Recorrido se ha mejorado para que la experiencia del usuario sea más sencilla y mejorada. Al final de cada ruta en el lienzo, se han eliminado los soportes de lugar vacíos. Ahora puede simplemente agregar sus actividades arrastrándolas al final de una ruta.
-* En el lienzo del recorrido, la etiqueta de la variable **Fin** ya no se configura automáticamente con el nombre de la actividad anterior. Los usuarios pueden agregar manualmente una etiqueta personalizada si es necesario.
-* El tiempo de espera predeterminado y la duración del error en las propiedades del recorrido se han cambiado de 5 a 30 segundos. [Más información](../configuration/external-systems.md#timeout)
-* La tasa de regulación predeterminada en las actividades de segmentos de lectura se ha cambiado de 20.000 a 5.000 mensajes por segundo. [Más información](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* La nueva **API de limitación** le permite establecer un límite en la cantidad de eventos enviados por segundo, lo que evita picos de tráfico abrumadores en sus sistemas externos o API. Cuando se alcanza el límite establecido, todas las llamadas a la API subsiguientes se ponen en cola y se procesan lo antes posible en el orden en que se recibieron. Tenga en cuenta que esta función solo admite una configuración de limitación en todas las zonas protegidas. [Más información](../configuration/external-systems.md)
+* El lienzo de recorrido se ha mejorado para que la experiencia del usuario sea más sencilla y mejorada. Al final de cada ruta en el lienzo, se han eliminado los marcadores vacíos. Ahora puede simplemente agregar sus actividades arrastrándolas al final de una ruta.
+* En el lienzo del recorrido, la etiqueta de **Fin** ya no se configura automáticamente con el nombre de la actividad anterior. Los usuarios pueden agregar manualmente una etiqueta personalizada si es necesario.
+* El tiempo de espera predeterminado y la duración del error en las propiedades del recorrido han cambiado de 5 a 30 segundos. [Más información](../configuration/external-systems.md#timeout)
+* La tasa de limitación predeterminada en las actividades de segmentos de lectura ha cambiado de 20 000 a 5000 mensajes por segundo. [Más información](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 <!-- 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
@@ -116,7 +116,7 @@ La información siguiente está sujeta a cambios sin previo aviso hasta la fecha
 
 **Creación de informes**
 
-* La funcionalidad del widget de informes se ha mejorado con la capacidad de personalizar la forma en que los usuarios ven sus datos. Con esta mejora, los usuarios ahora pueden elegir entre varias opciones de visualización, incluidos gráficos, tablas y gráficos circulares.
+* La funcionalidad del widget de creación de informes se ha mejorado con la capacidad de personalizar la forma en que los usuarios ven sus datos. Con esta mejora, los usuarios ahora pueden elegir entre varias opciones de visualización, incluidos gráficos, tablas y gráficos circulares.
 
    Para tener acceso a las últimas utilidades, tenga en cuenta que tendrá que restablecer los distintos paneles de creación de informes. Para obtener más información sobre la personalización de tableros, consulte la [documentación detallada](../reports/global-report.md#modify-dashboard).
 
@@ -244,7 +244,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Gestión de decisiones**
 
-* **Ubicaciones** - Se han añadido parámetros adicionales en la pantalla de creación de ubicaciones. Permiten controlar si una oferta se puede duplicar en varias ubicaciones y especificar si el contenido y los metadatos de la oferta se deben incluir en la respuesta de API. [Más información](../offers/offer-library/creating-placements.md)
+* **Ubicaciones**: se han añadido parámetros adicionales en la pantalla de creación de ubicaciones. Permiten controlar si una oferta se puede duplicar en varias ubicaciones y especificar si el contenido y los metadatos de la oferta se deben incluir en la respuesta de API. [Más información](../offers/offer-library/creating-placements.md)
 
 * **Personalización de URL**: al añadir direcciones URL como contenido a las representaciones de las ofertas, ahora puede personalizar estas direcciones URL con el Editor de expresiones. [Más información](../offers/offer-library/add-representations.md)
 
