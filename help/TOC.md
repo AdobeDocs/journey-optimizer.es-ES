@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5e1485b33608d55d878d311c2448669f898486b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1361'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -206,7 +206,7 @@ ht-degree: 98%
    + [Introducción al canal en la aplicación](using/in-app/get-started-in-app.md)
    + [Creación de un mensaje en la aplicación ](using/in-app/create-in-app.md)
    + [Diseño del contenido en la aplicación](using/in-app/design-in-app.md)
-   + [Probar y enviar la notificación en la aplicación](using/in-app/send-in-app.md)
+   + [Prueba y envío de notificación en la aplicación](using/in-app/send-in-app.md)
    + [Configuración del canal en la aplicación](using/in-app/inapp-configuration.md)
 + Canal de notificaciones push{#push}
    + [Introducción a las notificaciones push](using/push/get-started-push.md)
@@ -222,7 +222,7 @@ ht-degree: 98%
    + [Previsualizar y probar SMS](using/sms/send-sms.md)
    + [Administrar la exclusión de SMS](using/sms/sms-opt-out.md)
    + [Configuración del canal de SMS](using/sms/sms-configuration.md)
-   + [Configurar subdominios de SMS](using/sms/sms-subdomains.md)
+   + [Configuración de subdominios SMS](using/sms/sms-subdomains.md)
 + Correo directo {#direct-mail}
    + [Creación de un correo directo](using/direct-mail/create-direct-mail.md)
    + [Configuración del correo directo](using/direct-mail/direct-mail-configuration.md)
@@ -443,8 +443,8 @@ ht-degree: 98%
       + [Acerca de las fuentes de datos, los eventos y las acciones](using/configuration/about-data-sources-events-actions.md)
       + Integración con sistemas externos {#external-systems}
          + [Integración de recorridos con sistemas externos](using/configuration/external-systems.md)
-         + [Captación de API](using/configuration/capping.md)
-         + [API de restricción](using/configuration/throttling.md)
+         + [API de límite](using/configuration/capping.md)
+         + [API de limitación](using/configuration/throttling.md)
       + Configuración de eventos {#events-journeys}
          + [Principio general](using/event/about-events.md)
          + Configuración de un evento unitario {#unitary-events}
