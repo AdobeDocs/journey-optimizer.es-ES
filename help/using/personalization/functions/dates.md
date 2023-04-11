@@ -1,6 +1,6 @@
 ---
-title: Biblioteca de funciones de fecha y hora
-description: Biblioteca de funciones de fecha y hora
+title: Biblioteca de funciones Date Time
+description: Biblioteca de funciones Date Time
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -19,7 +19,7 @@ Las funciones de fecha y hora se utilizan para realizar operaciones de fecha y h
 
 ## Edad{#age}
 
-El `age` se utiliza para recuperar la edad de una fecha determinada.
+La variable `age` se utiliza para recuperar la edad de una fecha determinada.
 
 **Sintaxis**
 
@@ -37,9 +37,9 @@ The following operation gets the value of the identity map for the key `example@
 ```
 -->
 
-## Hora actual en milisegundos{#current-time}
+## Tiempo actual en milisegundos{#current-time}
 
-El `currentTimeInMillis` se utiliza para recuperar el tiempo actual en milisegundos epoch.
+La variable `currentTimeInMillis` se utiliza para recuperar la hora actual en milisegundos de epoch.
 
 **Sintaxis**
 
@@ -59,7 +59,7 @@ The following operation gets all the keys for the map `identityMap`.
 
 ## Diferencia de fechas{#date-diff}
 
-El `dateDiff` se utiliza para recuperar la diferencia entre dos fechas en número de días.
+La variable `dateDiff` se utiliza para recuperar la diferencia entre dos fechas en número de días.
 
 **Sintaxis**
 
@@ -80,7 +80,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Día de la semana{#day-week}
 
-El `dayOfWeek` se utiliza para recuperar el día de la semana.
+La variable `dayOfWeek` se utiliza para recuperar el día de la semana.
 
 **Sintaxis**
 
@@ -100,7 +100,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Día del año{#day-year}
 
-El `dayOfYear` se utiliza para recuperar el día del año.
+La variable `dayOfYear` se utiliza para recuperar el día del año.
 
 **Sintaxis**
 
@@ -120,7 +120,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Formato de fecha{#format-date}
 
-El `formatDate` se utiliza para dar formato a un valor de fecha y hora. El formato debe ser un patrón DateTimeFormat de Java válido.
+La variable `formatDate` se utiliza para dar formato a un valor de fecha y hora. El formato debe ser un patrón de Java DateTimeFormat válido.
 
 **Sintaxis**
 
@@ -128,17 +128,17 @@ El `formatDate` se utiliza para dar formato a un valor de fecha y hora. El forma
 {%= formatDate(datetime, format) %}
 ```
 
-Donde la primera cadena es el atributo de fecha y el segundo valor es cómo desea que se convierta y muestre la fecha.
+Donde la primera cadena es el atributo date y el segundo valor es cómo desea que se convierta y muestre la fecha.
 
 >[!NOTE]
 >
-> Si un patrón de fecha no es válido, la fecha volverá a estar en el formato estándar ISO.
+> Si un patrón de fecha no es válido, la fecha se volverá al formato estándar ISO.
 >
-> Puede utilizar funciones de formato de fecha de Java como se resume en [documentación del oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> Puede utilizar las funciones de formato de fecha de Java que se resumen en [documentación de oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **Ejemplo**
 
-La siguiente operación devuelve la fecha con el siguiente formato: MM/DD/AA.
+La siguiente operación devolverá la fecha con el formato siguiente: MM/DD/AA.
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY") %}
@@ -146,7 +146,7 @@ La siguiente operación devuelve la fecha con el siguiente formato: MM/DD/AA.
 
 ## Formato de fecha con compatibilidad con configuración regional{#format-date-locale}
 
-El `formatDate` se utiliza para dar formato a un valor de fecha y hora en su representación sensible al idioma correspondiente, es decir, en una configuración regional deseada. El formato debe ser un patrón DateTimeFormat de Java válido.
+La variable `formatDate` se utiliza para dar formato a un valor de fecha y hora en su representación correspondiente que diferencia el idioma, es decir, en una configuración regional deseada. El formato debe ser un patrón de Java DateTimeFormat válido.
 
 **Sintaxis**
 
@@ -154,28 +154,28 @@ El `formatDate` se utiliza para dar formato a un valor de fecha y hora en su rep
 {%= formatDate(datetime, format, locale) %}
 ```
 
-Cuando la primera cadena es el atributo de fecha, el segundo valor es cómo desea que se convierta y muestre la fecha y el tercer valor representa la configuración regional en formato de cadena.
+Cuando la primera cadena es el atributo date, el segundo valor es cómo desea que se convierta y muestre la fecha y el tercer valor representa la configuración regional en formato de cadena.
 
 >[!NOTE]
 >
-> Si un patrón de fecha no es válido, la fecha volverá a estar en el formato estándar ISO.
+> Si un patrón de fecha no es válido, la fecha se volverá al formato estándar ISO.
 >
-> Puede utilizar funciones de formato de fecha de Java como se resume en [documentación del oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+> Puede utilizar las funciones de formato de fecha de Java que se resumen en [documentación de oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
 >
-> Puede utilizar formatos y configuraciones regionales válidas, tal como se resume en [documentación del oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) y [Configuraciones regionales compatibles](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> Puede utilizar el formato y las configuraciones regionales válidas, como se resume en [documentación de oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) y [Localizaciones compatibles](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 
 **Ejemplo**
 
-La siguiente operación devuelve la fecha con el siguiente formato: MM/DD/AA y configuración regional FRANCIA.
+La siguiente operación devolverá la fecha con el formato siguiente: MM/DD/AA y configuración regional FRANCIA.
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY", "fr_FR") %}
 ```
 
-## Establecer días{#set-days}
+## Días establecidos{#set-days}
 
-El `setDays` se utiliza para establecer el día del mes para la fecha y hora determinadas.
+La variable `setDays` se utiliza para establecer el día del mes para una fecha y hora determinadas.
 
 **Sintaxis**
 
@@ -195,7 +195,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Establecer horas{#set-hours}
 
-El `setHours` se utiliza para establecer la hora de la fecha y hora.
+La variable `setHours` se utiliza para establecer la hora de la fecha y la hora.
 
 **Sintaxis**
 
@@ -216,7 +216,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## A UTC{#to-utc}
 
-El `toUTC` se utiliza para convertir una fecha y hora en UTC.
+La variable `toUTC` se utiliza para convertir una fecha y hora a UTC.
 
 
 **Sintaxis**
@@ -238,7 +238,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Semana del año UTC{#week-of-year}
 
-El `weekOfYear` se utiliza para recuperar la semana del año.
+La variable `weekOfYear` se utiliza para recuperar la semana del año.
 
 **Sintaxis**
 

@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## Valor de reserva predeterminado{#default-value}
 
-El `Default Fallback Value` El asistente se utiliza para devolver un valor de reserva predeterminado si un atributo está vacío o es nulo. Este mecanismo funciona para atributos de perfil y eventos de Recorrido.
+La variable `Default Fallback Value` helper se utiliza para devolver un valor de reserva predeterminado si un atributo está vacío o es nulo. Este mecanismo funciona para los atributos de perfil y los eventos de Recorrido.
 
 **Sintaxis**
 
@@ -29,8 +29,8 @@ En este ejemplo, el valor `there` se muestra si la variable `firstName` el atrib
 
 ## Condiciones{#if-function}
 
-El `if` El asistente de se utiliza para definir un bloque condicional.
-Si la evaluación de la expresión devuelve true, se procesa el bloque; de lo contrario, se omite.
+La variable `if` helper se utiliza para definir un bloque condicional.
+Si la evaluación de la expresión devuelve el valor &quot;True&quot;, el bloque se procesa; de lo contrario, se omite.
 
 **Sintaxis**
 
@@ -39,8 +39,8 @@ Si la evaluación de la expresión devuelve true, se procesa el bloque; de lo co
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-Siguiendo las `if` asistente, puede introducir un `else` para especificar un bloque de código que se va a ejecutar, si la misma condición es falsa.
-El `elseif` especificará una nueva condición para probar si la primera instrucción devuelve el valor &quot;false&quot;.
+A continuación se muestra la `if` ayuda, puede introducir un `else` para especificar un bloque de código que se va a ejecutar, si la misma condición es falsa.
+La variable `elseif` especificará una nueva condición para comprobar si la primera sentencia devuelve el valor &quot;False&quot;.
 
 
 **Formato**
@@ -58,7 +58,7 @@ El `elseif` especificará una nueva condición para probar si la primera instruc
 
 **Ejemplos**
 
-1. **Procesar diferentes vínculos de almacenamiento basados en expresiones condicionales**
+1. **Representar diferentes vínculos de tienda basados en expresiones condicionales**
 
    ```sql
    {%#if profile.homeAddress.countryCode = "FR"%}
@@ -68,7 +68,7 @@ El `elseif` especificará una nueva condición para probar si la primera instruc
    {%/if%}
    ```
 
-1. **Determinar extensión de dirección de correo electrónico**
+1. **Determinar la extensión de la dirección de correo electrónico**
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -80,9 +80,9 @@ El `elseif` especificará una nueva condición para probar si la primera instruc
    {%/if%}
    ```
 
-1. **Adición de un vínculo condicional**
+1. **Añadir un vínculo condicional**
 
-   La siguiente operación añade un vínculo al sitio web www.adobe.com/academia&#39; solo para perfiles con direcciones de correo electrónico &quot;.edu&quot;, al sitio web www.adobe.com/org&#39; para perfiles con direcciones de correo electrónico &quot;.org&quot; y a la URL predeterminada www.adobe.com/users&#39; para el resto de perfiles:
+   La siguiente operación agregará un vínculo al sitio web &quot;www.adobe.com/academia&#39;&quot; para perfiles con direcciones de correo electrónico &quot;.edu&quot; únicamente, al sitio web &quot;www.adobe.com/org&#39;&quot; para perfiles con direcciones de correo electrónico &quot;.org&quot; y a la URL predeterminada &quot;www.adobe.com/users&#39;&quot; para todos los demás perfiles:
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -94,7 +94,7 @@ El `elseif` especificará una nueva condición para probar si la primera instruc
    {%/if%}
    ```
 
-1. **Contenido condicional basado en el abono a segmentos**
+1. **Contenido condicional basado en la pertenencia a segmentos**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -106,12 +106,12 @@ El `elseif` especificará una nueva condición para probar si la primera instruc
 
 >[!NOTE]
 >
->Para obtener más información sobre la segmentación y el servicio de segmentación, consulte [sección](../../segment/about-segments.md).
+>Para obtener más información sobre segmentación y servicio de segmentación, consulte esta [sección](../../segment/about-segments.md).
 
 
-## Unless{#unless}
+## Except{#unless}
 
-El `unless` El asistente de se utiliza para definir un bloque condicional. Por oposición a la Ley `if`  asistente, si la evaluación de la expresión devuelve false, se procesa el bloque.
+La variable `unless` helper se utiliza para definir un bloque condicional. Por oposición a la `if`  ayuda, si la evaluación de la expresión devuelve false, se procesa el bloque .
 
 **Sintaxis**
 
@@ -121,7 +121,7 @@ El `unless` El asistente de se utiliza para definir un bloque condicional. Por o
 
 **Ejemplo**
 
-Procese contenido en función de la extensión de dirección de correo electrónico:
+Representar contenido basado en la extensión de dirección de correo electrónico:
 
 ```sql
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
@@ -133,9 +133,9 @@ Some edu specific content Content
 
 ## Cada{#each}
 
-El `each` El asistente se utiliza para iterar en una matriz.
-La sintaxis del asistente es ```{{#each ArrayName}}``` Su contenido {{/each}}
-Podemos hacer referencia a los elementos de matriz individuales utilizando la palabra clave **esta** dentro del bloque. El índice del elemento de la matriz se puede procesar utilizando {{@index}}.
+La variable `each` ayuda se utiliza para iterar en una matriz.
+La sintaxis del asistente es ```{{#each ArrayName}}``` YourContent {{/each}}
+Podemos hacer referencia a los elementos individuales de la matriz utilizando la palabra clave **this** dentro del bloque. El índice del elemento de la matriz se puede representar utilizando {{@index}}.
 
 **Sintaxis**
 
@@ -156,7 +156,7 @@ Podemos hacer referencia a los elementos de matriz individuales utilizando la pa
 
 **Ejemplo**
 
-Procese una lista de productos que este usuario tiene en el carro de compras:
+Representar una lista de productos que este usuario tiene en el carro de compras:
 
 ```sql
 {{#each profile.products as |product|}}
@@ -167,7 +167,7 @@ Procese una lista de productos que este usuario tiene en el carro de compras:
 
 ## con{#with}
 
-El `with` El asistente se utiliza para cambiar el token de evaluación de la plantilla-parte.
+La variable `with` ayuda se utiliza para cambiar el token de evaluación de template-part.
 
 **Sintaxis**
 
@@ -177,11 +177,11 @@ El `with` El asistente se utiliza para cambiar el token de evaluación de la pla
 {{/with}}
 ```
 
-El `with` El asistente de es útil para definir una variable de acceso directo también.
+La variable `with` ayuda es útil para definir también una variable de acceso directo.
 
 **Ejemplo**
 
-Use con para asignar nombres de variables largos a otros más cortos:
+Se utiliza con para alinear nombres de variables largos con nombres de variables más cortos:
 
 ```sql
 {{#with profile.person.name as |name|}}
@@ -192,7 +192,7 @@ Use con para asignar nombres de variables largos a otros más cortos:
 
 ## Let{#let}
 
-El `let` permite almacenar una expresión como variable para usarla posteriormente en una consulta.
+La variable `let` permite almacenar una expresión como variable para usarla más adelante en una consulta.
 
 **Sintaxis**
 
@@ -202,7 +202,7 @@ El `let` permite almacenar una expresión como variable para usarla posteriormen
 
 **Ejemplo**
 
-El siguiente ejemplo permite todas las sumas de totales de productos con la transacción en USD cuando la suma es buena a 100 $ y menor a 1000 $.
+El siguiente ejemplo permite todas las sumas de totales de productos con la transacción en USD donde la suma es buena a más de 100 $ y menor que 1000 $.
 
 ```sql
 {% let variable = expression %} {{variable}}

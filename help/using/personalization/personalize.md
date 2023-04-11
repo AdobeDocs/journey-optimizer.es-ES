@@ -59,6 +59,6 @@ Aprenda a utilizar la información de evento contextual de un recorrido para per
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-Obtenga información sobre cómo añadir personalización basada en perfiles a un mensaje y cómo utilizar el abono a un segmento como condición previa a un bloque personalizado.
+Obtenga información sobre cómo añadir personalización basada en perfiles a un mensaje y cómo utilizar la inscripción a un segmento como condición previa a un bloque personalizado.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

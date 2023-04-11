@@ -1,5 +1,5 @@
 ---
-title: Probar y enviar la notificación en la aplicación
+title: Prueba y envío de notificación en la aplicación
 description: Obtenga información sobre cómo probar y enviar un mensaje en la aplicación en Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -9,11 +9,11 @@ keywords: en la aplicación, mensaje, creación, inicio
 source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 
-# Probar y enviar la notificación en la aplicación {#create-in-app}
+# Prueba y envío de notificación en la aplicación {#create-in-app}
 
 ## Vista previa en el dispositivo {#preview-device}
 

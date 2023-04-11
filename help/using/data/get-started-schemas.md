@@ -11,7 +11,7 @@ exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
@@ -33,7 +33,7 @@ Aprenda a utilizar la interfaz de usuario de Esquemas en [esta documentación](h
 
 La documentación paso a paso para crear un esquema con el Editor de esquemas está disponible en [esta página](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es){target="_blank"}
 
-Para ver la lista completa de campos y atributos para cada esquema, consulte la [Diccionario de esquema de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+Para ver la lista completa de campos y atributos para cada esquema, consulte la [Diccionario de esquema de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es){target="_blank"}.
 
 
 ## Vídeo explicativo{#video-schema}

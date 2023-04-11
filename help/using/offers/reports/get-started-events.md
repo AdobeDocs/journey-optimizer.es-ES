@@ -15,15 +15,15 @@ ht-degree: 56%
 
 # Introducción a los eventos de Gestión de decisiones {#monitor-offer-events}
 
-Cada vez que Administración de decisiones toma una decisión sobre un perfil determinado, la información relacionada con estos eventos se envía automáticamente a Adobe Experience Platform.
+Cada vez que la gestión de decisiones toma una decisión sobre un perfil determinado, la información relacionada con estos eventos se envía automáticamente a Adobe Experience Platform.
 
 Esto le permite exportar estos datos para analizarlos en su propio sistema de informes. También puede aprovechar Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es) con otras herramientas para mejorar los análisis y la creación de informes.
 
-Los conjuntos de datos que contienen eventos de Administración de decisiones son accesibles desde Adobe Experience Platform **[!UICONTROL Conjuntos de datos]** menú. Se crea automáticamente un conjunto de datos en el aprovisionamiento para cada una de las instancias.
+Los conjuntos de datos que contienen eventos de administración de decisiones son accesibles desde Adobe Experience Platform **[!UICONTROL Conjuntos de datos]** para abrir el Navegador. Se crea automáticamente un conjunto de datos en el aprovisionamiento para cada una de las instancias.
 
 ![](../assets/events-datasets-list.png)
 
-Estos conjuntos de datos se basan en la variable **[!UICONTROL ODE DecisionEvents]** , que contiene todos los campos XDM necesarios para enviar información desde Gestión de decisiones a Adobe Experience Platform.
+Estos conjuntos de datos se basan en la variable **[!UICONTROL Eventos de decisión de ODE]** esquema, que contiene todos los campos XDM necesarios para enviar información de Administración de decisiones a Adobe Experience Platform.
 
 >[!NOTE]
 >

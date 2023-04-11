@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: API de restricción
+title: API de limitación
 description: Aprenda a trabajar con la API de Throttling
 role: User
 level: Beginner
@@ -9,7 +9,7 @@ keywords: externa, API, optimizer, restricción
 source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
 workflow-type: tm+mt
 source-wordcount: '813'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 

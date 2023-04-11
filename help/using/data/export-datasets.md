@@ -10,7 +10,7 @@ keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 

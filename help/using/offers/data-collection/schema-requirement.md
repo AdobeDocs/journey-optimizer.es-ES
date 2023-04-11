@@ -14,19 +14,19 @@ ht-degree: 2%
 
 ---
 
-# Configuración de la recopilación de datos {#schema-requirements}
+# Configurar la recopilación de datos {#schema-requirements}
 
 <!--To send in feedback data, you must define how the experience events will be captured.-->
 
-Para poder obtener comentarios sobre tipos de eventos que no sean eventos de decisión, debe establecer el valor correcto para cada tipo de evento en una **evento de experiencia** que se envía a Adobe Experience Platform.
+Para poder obtener comentarios sobre tipos de eventos que no sean eventos de decisión, debe establecer el valor correcto para cada tipo de evento en un **evento de experiencia** que se envía a Adobe Experience Platform.
 
 Para cada tipo de evento, asegúrese de que el esquema utilizado en el conjunto de datos tenga la variable **[!UICONTROL Evento de experiencia: interacciones de propuesta]** grupo de campos asociado a él. [Más información](create-dataset.md)
 
-A continuación se muestran los requisitos de esquema que debe implementar en el código JavaScript.
+A continuación, se muestran los requisitos de esquema que debe implementar en el código JavaScript.
 
 >[!NOTE]
 >
->No es necesario enviar los eventos de decisión, ya que la administración de decisiones generará estos eventos automáticamente y los colocará en **[!UICONTROL ODE DecisionEvents]** conjunto de datos<!--to check--> que se genera automáticamente.
+>Los eventos de decisión no necesitan enviarse, ya que la gestión de decisiones generará estos eventos automáticamente y los incluirá en el **[!UICONTROL Eventos de decisión de ODE]** conjunto de datos<!--to check--> que se genera automáticamente.
 
 ## Seguimiento de impresiones
 
@@ -34,7 +34,7 @@ Asegúrese de que el tipo de evento y el origen sean los siguientes:
 
 **Tipo de evento de experiencia:** `decisioning.propositionDisplay`
 **Fuente:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) o ingesta por lotes
-+++**Carga útil de ejemplo:**
++++**Carga útil de muestra:**
 
 ```
 {
@@ -62,13 +62,13 @@ Asegúrese de que el tipo de evento y el origen sean los siguientes:
 
 +++
 
-## Seguimiento de clics
+## Rastrear clics
 
 Asegúrese de que el tipo de evento y el origen sean los siguientes:
 
 **Tipo de evento de experiencia:** `decisioning.propositionInteract`
 **Fuente:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) o ingesta por lotes
-+++**Carga útil de ejemplo:**
++++**Carga útil de muestra:**
 
 ```
 {
@@ -98,7 +98,7 @@ Asegúrese de que el tipo de evento y el origen sean los siguientes:
 
 ## Seguimiento de eventos personalizados
 
-Para los eventos personalizados, el esquema utilizado en el conjunto de datos también debe tener **[!UICONTROL Evento de experiencia: interacciones de propuesta]** grupo de campos asociado a él, pero no hay ningún requisito específico sobre el tipo de evento de experiencia que debe utilizarse para etiquetar estos eventos.
+Para los eventos personalizados, el esquema utilizado en el conjunto de datos también debe tener la variable **[!UICONTROL Evento de experiencia: interacciones de propuesta]** grupo de campos asociado a él, pero no hay ningún requisito específico en el tipo de evento de experiencia que deba utilizarse para etiquetar estos eventos.
 
 <!--
 ## Using a ranking strategy {#using-ranking}

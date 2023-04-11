@@ -326,7 +326,7 @@ Consulte también [Notas de la versión de octubre de Adobe Experience Platform]
 <tbody>
 <tr>
 <td>
-<p>Ahora puede definir una lista específica de seguridad de envío en el nivel de entorno limitado para disponer de un entorno seguro para realizar pruebas. En una instancia que no es de producción, donde pueden producirse errores, la lista de permitidos garantiza que no tendrá riesgo de enviar mensajes no deseados a sus clientes. Esta función se habilita aprovechando las API de supresión.</p>
+<p>Ahora puede definir una lista específica de seguridad de envío en el nivel de zona protegida para disponer de un entorno seguro para realizar pruebas. En una instancia que no es de producción, donde pueden producirse errores, la lista de permitidos garantiza que no tendrá riesgo de enviar mensajes no deseados a sus clientes. Esta función se habilita aprovechando las API de supresión.</p>
 <p>Para obtener más información, consulte la <a href="../configuration/allow-list.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -337,7 +337,7 @@ Consulte también [Notas de la versión de octubre de Adobe Experience Platform]
 
 **Recorridos**
 
-* La tasa de regulación general de todos los segmentos de lectura que se ejecutan simultáneamente en el mismo entorno limitado está limitada a 17 000 mensajes por segundo. [Más información](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* La tasa de regulación general de todos los segmentos de lectura que se ejecutan simultáneamente en la misma zona protegida está limitada a 17 000 mensajes por segundo. [Más información](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * El campo **Duración de la caché** se ha eliminado del panel de configuración de la fuente de datos. [Más información](../datasource/about-data-sources.md)
 * Para las fuentes de datos externas, ahora se define automáticamente una regla de límite de 15 llamadas por segundo. [Más información](../configuration/external-systems.md#capping)
 * En el caso de los recorridos activos, la pantalla de propiedades de recorrido ahora muestra la fecha de publicación y el nombre del usuario que publicó el recorrido. [Más información](../building-journeys/journey-gs.md#change-properties)

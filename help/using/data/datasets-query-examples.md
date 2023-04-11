@@ -29,7 +29,7 @@ En esta página, encontrará la lista de conjuntos de datos de Adobe Journey Opt
 [Conjunto de datos de evento de comentarios de BCC](#bcc-feedback-event-dataset)
 [Conjunto de datos de entidad](#entity-dataset)
 
-Para ver la lista completa de campos y atributos para cada esquema, consulte la [Diccionario de esquema de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+Para ver la lista completa de campos y atributos para cada esquema, consulte la [Diccionario de esquema de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es){target="_blank"}.
 
 ## Conjunto de datos de evento de seguimiento de correo electrónico{#email-tracking-experience-event-dataset}
 

@@ -55,7 +55,7 @@ Estos son los diferentes conjuntos de datos disponibles:
 
 * _Puntuaciones de optimización en tiempo de envío/Puntuaciones de participación_: Resultados de Recorrido AI.
 
-Para ver la lista completa de campos y atributos para cada esquema, consulte la [Diccionario de esquema de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+Para ver la lista completa de campos y atributos para cada esquema, consulte la [Diccionario de esquema de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es){target="_blank"}.
 
 ## Vista previa de conjuntos de datos{#preview-datasets}
 
