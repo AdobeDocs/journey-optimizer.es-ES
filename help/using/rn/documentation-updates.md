@@ -4,10 +4,10 @@ product: journey optimizer
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 54ea3573e4fb6e24c3e56349292528bc6da42d67
+source-git-commit: 7cb9b4102459e7a33e683fdb8a19ae6d9f8b3328
 workflow-type: tm+mt
-source-wordcount: '2537'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
