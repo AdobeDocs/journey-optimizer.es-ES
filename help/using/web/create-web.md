@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: c21c0386be33eea6f7053fb891ebad3d9a1154c9
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 9%
+source-wordcount: '1091'
+ht-degree: 8%
 
 ---
 
@@ -72,6 +72,11 @@ Para que la experiencia web se entregue correctamente, se debe definir la siguie
 >id="ajo_web_surface"
 >title="Definir una superficie web"
 >abstract="Una superficie web puede coincidir con una dirección URL de una sola página o con varias páginas, lo que le permite enviar modificaciones de contenido en una o varias páginas web."
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_surface_rule"
+>title="Crear páginas que coincidan con una regla"
+>abstract="Una regla de coincidencia de páginas permite dirigirse a varias direcciones URL que coincidan con la misma regla; por ejemplo, si desea aplicar los cambios a un banner a través de todo un sitio web o agregar una imagen superior que se muestre en todas las páginas de producto de un sitio web."
 
 Para comenzar a crear la experiencia web a través de una campaña, siga los pasos a continuación.
 
