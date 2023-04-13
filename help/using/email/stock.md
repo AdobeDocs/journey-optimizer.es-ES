@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: stock, imágenes, integración, fotos
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,6 @@ Para agregar imágenes desde [!DNL Adobe Stock] para ver el contenido, siga los 
 
    Si la imagen seleccionada no tiene licencia, debe [obtener la licencia](#license-stock-image).
 
-
 ## Buscar fotos similares {#similar-stock-image}
 
 Puede reemplazar cualquier imagen existente en el contenido del correo electrónico con una foto de [!DNL Adobe Stock]. Tenga en cuenta que esta opción está disponible para todas las imágenes: las imágenes y las imágenes con licencia/sin licencia de Stock de su carpeta Assets.
@@ -68,7 +67,7 @@ Para examinar fotos similares, siga los pasos a continuación:
 
    Si la imagen seleccionada no tiene licencia, debe [obtener la licencia](#license-stock-image).
 
-1. Personalice la imagen, si es necesario, con la variable **[!UICONTROL Configuración de componentes]** para abrir el Navegador. [Obtenga más información sobre la configuración de componentes](content-components.md).
+1. Personalice la imagen, si es necesario, con la variable **[!UICONTROL Configuración]** y **[!UICONTROL Estilos]** pestañas. [Obtenga más información sobre la configuración de componentes](content-components.md).
 
 ## Obtenga la licencia de [!DNL Adobe Stock] {#license-stock-image}
 
@@ -80,7 +79,7 @@ Para obtener una licencia y descargar la imagen, siga los pasos a continuación:
 
    ![](assets/stock-license-icon.png)
 
-   A continuación, se le redirige a la función [!DNL Adobe Stock] sitio web a pero la licencia.
+   A continuación, se le redirige a la función [!DNL Adobe Stock] sitio web para comprar la licencia.
 
    ![](assets/stock-license-photo.png)
 

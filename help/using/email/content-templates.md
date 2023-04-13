@@ -7,7 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 4%
@@ -108,9 +109,7 @@ Para crear una plantilla de contenido desde cero, siga los pasos a continuación
 
 1. La variable [Diseñador de correo electrónico](get-started-email-design.md) se muestra. Edite el contenido según sea necesario, del mismo modo que lo haría para cualquier correo electrónico dentro de un recorrido o una campaña, según la opción seleccionada.
 
-   ![](assets/content-template-designer.png)
-
-1. Puede probar el contenido si es necesario. [Descubra cómo](#test-template)
+   Puede probar el contenido si es necesario. [Descubra cómo](#test-template)
 
 1. Una vez que la plantilla esté lista, haga clic en **[!UICONTROL Guardar]**.
 

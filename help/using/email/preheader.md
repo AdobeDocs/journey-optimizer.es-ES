@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: encabezado previo, editor, resumen, correo electrónico
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '197'
 ht-degree: 2%
 
 ---
@@ -39,13 +39,9 @@ Para definir el encabezado previo del correo electrónico, siga los pasos a cont
 
    ![](assets/preheader_body.png)
 
-1. En el **[!UICONTROL Configuración del cuerpo]** panel derecho, haga clic en el icono de edición situado junto al **[!UICONTROL Encabezado previo]** para añadir contenido.
+1. En el **[!UICONTROL Configuración]** , haga clic en el icono de personalización situado junto a la pestaña **[!UICONTROL Encabezado previo]** para añadir contenido.
 
    ![](assets/preheader_body_settings.png)
-
-1. Añada el encabezado previo. Puede personalizarlo aún más haciendo clic en el **[!UICONTROL Añadir personalización]** icono.
-
-   ![](assets/preheader_3.png)
 
 1. En el **[!UICONTROL Editar personalización]** ventana, puede añadir **[!UICONTROL Bloque de contenido]**, **[!UICONTROL Contenido dinámico]** o **[!UICONTROL Campos personalizados]**.
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: texto, correo electrónico, versión, sin formato, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -24,7 +24,7 @@ De forma predeterminada, el Diseñador de correo electrónico crea un **[!UICONT
 
 Si prefiere usar un contenido diferente para la versión de texto sin formato, siga los pasos a continuación:
 
-1. En el correo electrónico, seleccione **[!UICONTROL Texto sin formato]** pestaña .
+1. En el correo electrónico, seleccione **[!UICONTROL Texto sin formato]** icono.
 
    ![](assets/text_version_3.png)
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: vínculos, seguimiento, monitor, correo electrónico
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 8%
@@ -73,8 +73,6 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
    * **[!UICONTROL Página espejo]**: Inserte un vínculo para mostrar el contenido del correo electrónico en un explorador web. Obtenga más información en [esta sección](#mirror-page).
 
-   ![](assets/message-tracking-links.png)
-
 1. Puede personalizar los vínculos. Obtenga más información sobre las URL personalizadas en [esta sección](../personalization/personalization-syntax.md#perso-urls).
 
 1. Guarde los cambios.
@@ -121,8 +119,6 @@ La variable [Diseñador de correo electrónico](content-from-scratch.md) le perm
    Esta lista permite tener una vista centralizada y localizar cada URL en el contenido del correo electrónico.
 
 1. Para editar un vínculo, haga clic en el icono de lápiz correspondiente.
-
-   ![](assets/message-tracking-edit-links.png)
 
 1. Puede modificar el **[!UICONTROL Tipo de seguimiento]** si es necesario:
 

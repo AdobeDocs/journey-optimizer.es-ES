@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, página, formulario, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: abf0a3f87baf9aa822e2f4aa5a90777359767541
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1324'
 ht-degree: 3%
 
 ---
@@ -63,7 +63,7 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 
    >[!NOTE]
    >
-   >Cambie a la **[!UICONTROL Estilo de formulario]** para editar los estilos del contenido del componente del formulario en cualquier momento. [Más información](#define-lp-styles)
+   >Cambie a la **[!UICONTROL Estilos]** para editar los estilos del contenido del componente del formulario en cualquier momento. [Más información](#define-lp-styles)
 
 1. En el **[!UICONTROL Casilla de verificación 1]** , puede editar la etiqueta correspondiente a esta casilla de verificación.
 
@@ -83,7 +83,7 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 
    * **[!UICONTROL Lista de suscripciones]**: Debe seleccionar la lista de suscripción que se actualizará si el perfil selecciona esta casilla de verificación. Más información sobre [listas de suscripción](subscription-list.md).
 
-      ![](assets/lp_designer-form-subs-list.png)
+      <!--![](assets/lp_designer-form-subs-list.png)-->
 
    * **[!UICONTROL Canal (correo electrónico)]**: La inclusión o exclusión se aplica a todo el canal. Por ejemplo, si un perfil que decide excluirse tiene dos direcciones de correo electrónico, ambas se excluirán de todas las comunicaciones.
 
@@ -136,21 +136,25 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 
 ## Definir estilos de formulario de una página de aterrizaje {#lp-form-styles}
 
-1. Para modificar los estilos del contenido del componente del formulario, cambie en cualquier momento a la función **[!UICONTROL Estilo de formulario]** pestaña .
+1. Para modificar los estilos del contenido del componente del formulario, cambie en cualquier momento a la función **[!UICONTROL Estilo]** pestaña .
 
    ![](assets/lp_designer-form-style.png)
 
-1. Expanda el **[!UICONTROL Casillas de verificación]** para definir el aspecto de las casillas de verificación y el texto correspondiente. Por ejemplo, puede ajustar la familia o el tamaño de la fuente y el color del borde de la casilla de verificación.
+1. La variable **[!UICONTROL Campos]** se expande de forma predeterminada y permite editar el aspecto del campo de texto, como la etiqueta y la fuente del marcador de posición, la posición de la etiqueta, el color del fondo del campo o el borde del campo.
+
+   ![](assets/lp_designer-form-style-fields.png)
+
+1. Expanda el **[!UICONTROL Casillas de verificación]** para definir el aspecto de las casillas de verificación y el texto correspondiente. Por ejemplo, puede ajustar la familia o el tamaño de la fuente o el color del borde de la casilla de verificación.
 
    ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. Expanda el **[!UICONTROL Botones]** para modificar el aspecto del botón en el formulario de componentes. Por ejemplo, puede añadir un borde, editar el color de la etiqueta al pasar el ratón por encima o ajustar la alineación del botón.
+1. Expanda el **[!UICONTROL Botones]** para modificar el aspecto del botón en el formulario de componentes. Por ejemplo, puede cambiar la fuente, añadir un borde, editar el color de la etiqueta al pasar el ratón por encima o ajustar la alineación del botón.
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   Puede obtener una vista previa de algunos ajustes, como el color de la etiqueta del botón al pasar el ratón por encima del ratón **[!UICONTROL Vista previa]** botón. Obtenga más información sobre la prueba de páginas de aterrizaje [here](create-lp.md#test-landing-page).
+   Puede obtener una vista previa de algunos ajustes, como el color de la etiqueta del botón al pasar el ratón por encima del ratón **[!UICONTROL Simular contenido]** botón. Obtenga más información sobre la prueba de páginas de aterrizaje [here](create-lp.md#test-landing-page).
 
-   ![](assets/lp_designer-form-style-buttons-preview.png)
+   <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
 1. Expanda el **[!UICONTROL Diseño de formulario]** para editar los ajustes del diseño, como el color de fondo, el relleno o el margen.
 
@@ -194,11 +198,15 @@ Para ello, siga los pasos que aparecen a continuación:
 
 1. Guarde los cambios.
 
+Ahora, cuando los usuarios seleccionan una de las casillas de verificación,
+
 ![](assets/lp_designer-form-preview-checked-box.png)
 
-Ahora, cuando los usuarios seleccionan una de las casillas de verificación, el mensaje correspondiente a la casilla seleccionada se muestra al enviar el formulario.
+el mensaje correspondiente a la casilla de verificación seleccionada se muestra al enviar el formulario.
 
 ![](assets/lp_designer-form-thankyou-preview.png)
+
+<!--![](assets/lp_designer-form-subscription-preview.png)-->
 
 >[!NOTE]
 >

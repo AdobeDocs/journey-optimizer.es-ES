@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: recursos, aspectos básicos, experience manager, integración
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '468'
 ht-degree: 9%
 
 ---
@@ -57,15 +57,9 @@ Para obtener más información sobre cómo cargar recursos, consulte [Documentac
 
 1. En el **[!UICONTROL Cargar archivos]**, haga clic en **[!UICONTROL Examinar]** y elija si desea **[!UICONTROL Examinar archivos]** o **[!UICONTROL Examinar carpetas]**.
 
-   ![](assets/media_library_3.png)
+1. Seleccione el archivo que desea cargar. Cuando termine, haga clic en **[!UICONTROL Cargar]**. Para obtener más información sobre cómo administrar los recursos, consulte esta [página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
-1. Seleccione el archivo que desea cargar. Cuando termine, haga clic en **[!UICONTROL Cargar]**.
-
-   Para obtener más información sobre cómo administrar los recursos, consulte esta [página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
-
-1. Una vez cargado el recurso, ahora puede insertar los recursos en uno de los mensajes mediante el Diseñador de correo electrónico.
-
-   El recurso también se puede seguir editando con la variable **Editar** modo de [!DNL Assets Essentials]. [Más información](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
+1. Para editar aún más los recursos con Adobe Photoshop Express, haga doble clic en ellos. A continuación, en el menú de la derecha, seleccione la opción **[!UICONTROL Modo de edición]** icono. [Más información](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
 
    ![](assets/media_library_12.png)
 
@@ -73,13 +67,13 @@ Para obtener más información sobre cómo cargar recursos, consulte [Documentac
 
    ![](assets/media_library_5.png)
 
-1. Seleccione su **[!UICONTROL Recursos]** carpeta. También puede buscar el recurso o la carpeta en la barra de búsqueda.
+1. Seleccione el **[!UICONTROL Recursos]** carpeta. También puede buscar el recurso o la carpeta en la barra de búsqueda.
 
 1. Arrastre y suelte el recurso en el contenido del correo electrónico.
 
    ![](assets/media_library_6.png)
 
-1. Puede personalizar aún más los recursos, como agregar un vínculo externo o un texto mediante la función **[!UICONTROL Configuración de componentes]**. [Obtenga más información sobre la configuración de componentes](content-components.md)
+1. Puede personalizar aún más los recursos, como agregar un vínculo externo o un texto mediante la función **[!UICONTROL Configuración]** y **[!UICONTROL Estilos]** pestañas. [Obtenga más información sobre la configuración de componentes](content-components.md)
 
    ![](assets/media_library_13.png)
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, publicación
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 2%
@@ -209,15 +209,15 @@ Una vez que se hayan definido la configuración y el contenido de la página de 
 >
 >Debe tener perfiles de prueba disponibles para poder previsualizar los mensajes y enviar pruebas. Obtenga información sobre cómo [crear perfiles de prueba](../segment/creating-test-profiles.md).
 
-1. En la interfaz de la página de aterrizaje, haga clic en el **[!UICONTROL Vista previa y prueba]** para acceder a la selección de perfil de prueba.
+1. En la interfaz de la página de aterrizaje, haga clic en el **[!UICONTROL Simular contenido]** para acceder a la selección de perfil de prueba.
 
-   ![](assets/lp_preview-button.png)
+   ![](assets/lp_simulate-button.png)
 
    >[!NOTE]
    >
-   >La variable **[!UICONTROL Vista previa]** también es accesible desde el diseñador de contenido.
+   >La variable **[!UICONTROL Simular contenido]** también es accesible desde el diseñador de contenido.
 
-1. En el **[!UICONTROL Vista previa y prueba]** seleccione uno o varios perfiles de prueba.
+1. En el **[!UICONTROL Simular]** seleccione uno o varios perfiles de prueba.
 
    ![](assets/lp_test-profiles.png)
 

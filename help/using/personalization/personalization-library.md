@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, biblioteca, personalización
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 8%
@@ -31,9 +31,7 @@ Para acceder a las expresiones guardadas, haga clic en el botón **[!UICONTROL B
 
 >[!NOTE]
 >
->Puede utilizar el botón info para obtener más información sobre el contenido de una expresión guardada. Si tiene los permisos adecuados para administrar los elementos de la biblioteca, el botón de información aparecerá en el menú elipse.
-
-![](assets/library-list.png)
+>Puede obtener más información sobre el contenido de una expresión guardada desde el botón de puntos suspensivos. Tenga en cuenta que el botón de información aparecerá en los puntos suspensivos si tiene los permisos adecuados para administrar los elementos de la biblioteca.
 
 Haga clic en + para insertar la expresión en el editor. A continuación, puede personalizar y validar el contenido de personalización como de costumbre. [Más información](../personalization/personalization-build-expressions.md)
 

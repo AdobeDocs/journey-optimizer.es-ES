@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, sintaxis, personalización
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 9%
@@ -159,7 +159,7 @@ Journey Optimizer le permite personalizar una o varias direcciones URL en el men
 1. Cree un vínculo en el contenido del mensaje. [Más información](../email/message-tracking.md#insert-links)
 1. En el icono de personalización, seleccione los atributos. El icono de personalización solo está disponible para estos tipos de vínculos: **Vínculo externo**, **Vínculo de baja** y **Exclusión**.
 
-![](assets/perso-url.png)
+   ![](assets/perso-url.png)
 
 >[!NOTE]
 >

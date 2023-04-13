@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: fondo, correo electrónico, color, editor
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -60,5 +60,3 @@ A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
    >Este es el caso de uso más común. Adobe recomienda configurar los colores de fondo en el nivel de columna, ya que esto permite una mayor flexibilidad al editar todo el contenido del correo electrónico.
 
    También puede establecer una imagen de fondo en el nivel de columna, pero esto no se suele utilizar.
-
-   ![](assets/background_5.png)

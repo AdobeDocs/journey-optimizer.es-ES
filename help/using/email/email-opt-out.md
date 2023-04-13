@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: exclusión, correo electrónico, vínculo, cancelar suscripción
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 83%
@@ -132,14 +132,6 @@ Para añadir un vínculo de no participación en el correo electrónico, siga lo
 
    ![](assets/message-tracking-opt-out.png)
 
-1. Seleccione cómo desea aplicar la exclusión: en el nivel de canal, identidad o suscripción.
-
-   ![](assets/message-tracking-opt-out-level.png)
-
-   * **[!UICONTROL Canal]**: la exclusión se aplica a mensajes futuros enviados al destinatario del perfil (es decir, la dirección de correo electrónico) para el canal actual. Si hay varios objetivos asociados a un perfil, la exclusión se aplica a todos los destinatarios (es decir, direcciones de correo electrónico) del perfil de ese canal.
-   * **[!UICONTROL Identidad]**: la exclusión se aplica a los mensajes futuros enviados al destinatario específico (es decir, la dirección de correo electrónico) que se esté utilizando para el mensaje actual.
-   * **[!UICONTROL Suscripción]**: la exclusión se aplica a mensajes futuros asociados a una lista de suscripción específica. Esta opción solo se puede seleccionar si el mensaje actual está asociado con una lista de suscripción.
-
 1. Escriba la dirección URL de la página de aterrizaje a la que se redirigirá al usuario una vez cancelada la suscripción. Esta página solo está aquí para confirmar que la exclusión se ha realizado correctamente.
 
    >[!NOTE]
@@ -149,6 +141,14 @@ Para añadir un vínculo de no participación en el correo electrónico, siga lo
    ![](assets/message-tracking-opt-out-confirmation.png)
 
    Puede personalizar los vínculos. Obtenga más información sobre las URL personalizadas en [esta sección](../personalization/personalization-syntax.md).
+
+1. Seleccione cómo desea aplicar la exclusión: en el nivel de canal, identidad o suscripción.
+
+   ![](assets/message-tracking-opt-out-level.png)
+
+   * **[!UICONTROL Canal]**: la exclusión se aplica a mensajes futuros enviados al destinatario del perfil (es decir, la dirección de correo electrónico) para el canal actual. Si hay varios objetivos asociados a un perfil, la exclusión se aplica a todos los destinatarios (es decir, direcciones de correo electrónico) del perfil de ese canal.
+   * **[!UICONTROL Identidad]**: la exclusión se aplica a los mensajes futuros enviados al destinatario específico (es decir, la dirección de correo electrónico) que se esté utilizando para el mensaje actual.
+   * **[!UICONTROL Suscripción]**: la exclusión se aplica a mensajes futuros asociados a una lista de suscripción específica. Esta opción solo se puede seleccionar si el mensaje actual está asociado con una lista de suscripción.
 
 1. Guarde los cambios.
 

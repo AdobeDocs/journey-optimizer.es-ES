@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: contenido, editor, correo electrónico, iniciar
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '569'
 ht-degree: 1%
 
 ---
@@ -82,15 +82,13 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
    Seleccione el **[!UICONTROL columna n:n]** para definir el número de columnas que elija (entre 3 y 10). También puede definir el ancho de cada columna moviendo las flechas en la parte inferior de cada columna.
 
-   ![](assets/email_designer_structure_n-n-colum.png)
-
    >[!NOTE]
    >
    >Cada tamaño de columna no puede ser inferior al 10 % de la anchura total del componente de estructura. No se puede quitar una columna que no esté vacía.
 
-1. Expanda el **[!UICONTROL Componentes de contenido]** y añada tantos elementos como necesite en uno o varios componentes de estructura. [Descubra más información sobre los componentes de contenido](content-components.md)
+1. En el **[!UICONTROL Componentes de contenido]** añada todos los elementos que necesite en uno o varios componentes de estructura. [Descubra más información sobre los componentes de contenido](content-components.md)
 
-1. Cada componente se puede personalizar aún más mediante el **[!UICONTROL Configuración de componentes]** a la derecha. Por ejemplo, puede cambiar el estilo, el relleno o el margen del texto de cada componente. [Obtenga más información sobre la alineación y el relleno](alignment-and-padding.md)
+1. Cada componente se puede personalizar aún más mediante el **[!UICONTROL Configuración]** o **[!UICONTROL Estilo]** en el menú de la derecha. Por ejemplo, puede cambiar el estilo, el relleno o el margen del texto de cada componente. [Obtenga más información sobre la alineación y el relleno](alignment-and-padding.md)
 
    ![](assets/email_designer_structure_component.png)
 
@@ -104,7 +102,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
    ![](assets/email_designer_personalization.png)
 
-1. Añada contenido dinámico para adaptar el contenido a los perfiles de destino según las reglas condicionales. [Introducción al contenido dinámico](../personalization/get-started-dynamic-content.md)
+1. Haga clic en **[!UICONTROL Habilitar contenido de condición]** para añadir contenido dinámico y adaptar el contenido a los perfiles de destino según las reglas condicionales. [Introducción al contenido dinámico](../personalization/get-started-dynamic-content.md)
 
    ![](assets/email_designer_dynamic-content.png)
 
@@ -112,7 +110,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
    ![](assets/email_designer_links.png)
 
-1. Si es necesario, puede personalizar aún más el correo electrónico haciendo clic en **[!UICONTROL Cambiar al editor de código]** en el menú avanzado. [Obtenga más información sobre el editor de código](code-content.md)
+1. Puede personalizar aún más el correo electrónico haciendo clic en **[!UICONTROL Cambiar al editor de código]** en el menú avanzado. [Obtenga más información sobre el editor de código](code-content.md)
 
    ![](assets/email_designer_switch-to-code.png)
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ofertas, decisión, correos electrónicos, personalización, decisión
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 1%
+source-wordcount: '643'
+ht-degree: 0%
 
 ---
 
@@ -73,15 +73,13 @@ Después de guardar los cambios, las ofertas están listas para mostrarse en los
 
 ## Vista previa de ofertas en un correo electrónico {#preview-offers-in-email}
 
-Puede obtener una vista previa de las diferentes ofertas que forman parte de la decisión agregada al correo electrónico mediante la variable **[!UICONTROL Ofertas]** o las flechas de los componentes de contenido.
+Puede obtener una vista previa de las diferentes ofertas que forman parte de la decisión agregada al correo electrónico mediante la variable **[!UICONTROL Oferta]** o las flechas de los componentes de contenido.
 
 ![](assets/deliver-offer-preview.png)
 
 Para mostrar las diferentes ofertas que forman parte de la decisión con un perfil de cliente, siga los pasos a continuación.
 
-1. Haga clic en **[!UICONTROL Vista previa]**.
-
-   ![](assets/deliver-offer-preview-button.png)
+1. Haga clic en el **[!UICONTROL Botón Simular contenido]** botón.
 
    >[!NOTE]
    >
@@ -120,4 +118,3 @@ Obtenga más información sobre los pasos detallados para comprobar la vista pre
 Aprenda a añadir un componente de gestión de decisiones a los mensajes en [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
-

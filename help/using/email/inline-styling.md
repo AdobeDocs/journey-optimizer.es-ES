@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: en línea, estilo, atributos, editor
 exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '122'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,8 @@ ht-degree: 6%
 En la interfaz del Diseñador de correo electrónico, al seleccionar un elemento y mostrar su configuración en el panel lateral, puede personalizar los atributos en línea y su valor para ese elemento específico.
 
 1. Seleccione un elemento en el contenido.
-1. En el panel lateral, busque el **[!UICONTROL Estilos en línea]** configuración.
+
+1. En el **[!UICONTROL Estilos]** , busque **[!UICONTROL Estilos en línea]** en **[!UICONTROL Avanzadas]** lista desplegable.
 
    ![](assets/styles_1.png)
 

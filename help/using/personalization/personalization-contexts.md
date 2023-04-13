@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, contexto, personalización
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '283'
 ht-degree: 15%
 
 ---
@@ -32,7 +32,7 @@ Al crear un correo electrónico, puede añadir personalización en la variable *
 
 En el Diseñador de correo electrónico, puede personalizar el contenido:
 
-* En el **message**: haga clic dentro de un bloque de texto y haga clic en el botón **Personalizar** en la barra de herramientas contextual y seleccione **Insertar personalización** campo . Para obtener más información sobre la interfaz del Diseñador de correo electrónico, consulte esta [sección](../email/get-started-email-design.md).
+* En el **message**: haga clic dentro de un bloque de texto y haga clic en el botón **Añadir personalización** de la barra de herramientas contextual. Para obtener más información sobre la interfaz del Diseñador de correo electrónico, consulte esta [sección](../email/get-started-email-design.md).
 
    ![](assets/perso_insert.png)
 
