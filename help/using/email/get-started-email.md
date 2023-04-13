@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: correo electrónico, inicio, creación, vista previa
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: ce6dc6eec59ad61bec2c00e811f6f6e006eb20da
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 17%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Uso [!DNL Journey Optimizer] para enviar mensajes de correo electrónico a sus c
 
 Se pueden crear envíos de correo electrónico:
 
-* En un **Recorrido**: una vez que haya añadido un **[!UICONTROL Correo electrónico]** para su recorrido, y para definir la configuración básica, use la variable **[!UICONTROL Acciones: Correo electrónico]** panel derecho para crear el contenido del mensaje SMS.
+* En un **Recorrido**: una vez que haya añadido un **[!UICONTROL Correo electrónico]** para su recorrido, y para definir la configuración básica, use la variable **[!UICONTROL Acciones: Correo electrónico]** panel derecho para crear el contenido del mensaje.
 
    Para obtener más información sobre cómo configurar el recorrido, consulte esta [página](../building-journeys/journey-gs.md).
 
