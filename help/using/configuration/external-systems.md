@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: externa, API, optimizer, restricción
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
+source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1202'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ Cuando Journey Optimizer ejecuta una llamada a una API externa, las protecciones
 
 1. Se aplican reglas de restricción o restricción: si se alcanza la tasa máxima, las llamadas restantes se descartan o se ponen en cola.
 
-2. Tiempo de espera y reintento: si se cumple la regla de límite, Journey Optimizer intenta realizar la llamada hasta que se alcance el final del tiempo de espera.
+2. Tiempo de espera y reintento: si se cumple la regla de restricción o restricción, Journey Optimizer intenta realizar la llamada hasta que se alcanza el final del tiempo de espera.
 
 ## Restricción y restricción de las API {#capping}
 
