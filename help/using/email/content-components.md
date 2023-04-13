@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: componentes, diseñador de correo electrónico, editor, correo electrónico
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1223'
 ht-degree: 1%
 
 ---
@@ -197,3 +197,6 @@ Utilice la variable **[!UICONTROL Decisión de oferta]** para insertar ofertas e
 
 Aprenda a añadir ofertas personalizadas a un correo electrónico en [esta sección](add-offers-email.md).
 
+>[!IMPORTANT]
+>
+>Si se realizan cambios en una decisión de oferta que se está utilizando en el mensaje de un recorrido, debe cancelar la publicación del recorrido y volver a publicarlo.  Esto garantizará que los cambios se incorporen al mensaje del recorrido y que el mensaje sea coherente con las últimas actualizaciones.

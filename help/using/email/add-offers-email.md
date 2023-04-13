@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: ofertas, decisión, correos electrónicos, personalización, decisión
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '639'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,12 @@ En [!DNL Journey Optimizer] correos electrónicos, puede insertar decisiones que
 
 Por ejemplo, puede agregar una decisión que muestre en el correo electrónico una oferta de descuento especial que variará según el nivel de lealtad del destinatario.
 
-Para obtener más información sobre cómo crear y administrar ofertas, consulte [esta sección](../offers/get-started/starting-offer-decisioning.md).
+>[!IMPORTANT]
+>
+>Si se realizan cambios en una decisión de oferta que se está utilizando en el mensaje de un recorrido, debe cancelar la publicación del recorrido y volver a publicarlo.  Esto garantizará que los cambios se incorporen al mensaje del recorrido y que el mensaje sea coherente con las últimas actualizaciones.
 
-Para un **ejemplo completo de extremo a extremo** mostrar cómo configurar ofertas, utilizarlas en una decisión y aprovechar esta decisión en un correo electrónico, consulte [esta sección](../offers/offers-e2e.md#insert-decision-in-email).
+* Para obtener más información sobre cómo crear y administrar ofertas, consulte [esta sección](../offers/get-started/starting-offer-decisioning.md).
+* Para un **ejemplo completo de extremo a extremo** mostrar cómo configurar ofertas, utilizarlas en una decisión y aprovechar esta decisión en un correo electrónico, consulte [esta sección](../offers/offers-e2e.md#insert-decision-in-email).
 
 ➡️ [Aprenda a añadir ofertas como personalización en este vídeo](#video-offers)
 

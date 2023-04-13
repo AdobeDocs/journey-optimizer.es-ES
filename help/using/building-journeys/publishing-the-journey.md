@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: publicar, recorrido, activo, válido, comprobar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 8%
+source-wordcount: '242'
+ht-degree: 7%
 
 ---
 
@@ -32,6 +32,10 @@ Si detiene un recorrido, se detendrá permanentemente. Todas las personas que ci
    ![](assets/journeyuc1_18.png)
 
 Cuando se publica el recorrido, está en modo de solo lectura.
+
+>[!IMPORTANT]
+>
+>Si se realizan cambios en una decisión de oferta que se está utilizando en el mensaje de un recorrido, debe cancelar la publicación del recorrido y volver a publicarlo.  Esto garantizará que los cambios se incorporen al mensaje del recorrido y que el mensaje sea coherente con las últimas actualizaciones.
 
 ## Vídeo explicativo {#video}
 
