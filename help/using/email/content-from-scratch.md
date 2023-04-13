@@ -1,74 +1,74 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Diseño de correos electrónicos en Journey Optimizer
-description: Aprenda a diseñar el contenido de sus correos electrónicos desde cero
+title: Diseño de contenido desde cero en Journey Optimizer
+description: Aprenda a diseñar su contenido desde cero
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
 keywords: contenido, editor, correo electrónico, iniciar
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 1%
+source-wordcount: '637'
+ht-degree: 0%
 
 ---
 
-# Empezar desde cero {#content-from-scratch}
+# Diseño de contenido desde cero {#content-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
->title="Acerca de los componentes de estructura"
->abstract="Los componentes de estructura definen el diseño del correo electrónico."
+>title="Añadir componentes de estructura"
+>abstract="Los componentes de estructura definen el diseño del correo electrónico. Arrastre y suelte una **Estructura** en el lienzo para empezar a diseñar el contenido del correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
->title="Acerca de los componentes de estructura"
->abstract="Los componentes de estructura definen el diseño de la página de aterrizaje."
+>title="Añadir componentes de estructura"
+>abstract="Los componentes de estructura definen el diseño de la página de aterrizaje. Arrastre y suelte una **Estructura** en el lienzo para empezar a diseñar el contenido de la página de aterrizaje."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
->title="Acerca de los componentes de estructura"
->abstract="Los componentes de estructura definen el diseño del fragmento."
+>title="Añadir componentes de estructura"
+>abstract="Los componentes de estructura definen el diseño del fragmento. Arrastre y suelte una **Estructura** en el lienzo para empezar a diseñar el contenido del fragmento."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
->title="Acerca de los componentes de estructura"
->abstract="Los componentes de estructura definen el diseño de la plantilla."
+>title="Añadir componentes de estructura"
+>abstract="Los componentes de estructura definen el diseño de la plantilla. Arrastre y suelte una **Estructura** en el lienzo para empezar a diseñar el contenido de la plantilla."
 
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
->title="Definición de columnas de correo electrónico"
->abstract="El Diseñador de correo electrónico permite definir fácilmente el diseño del correo electrónico definiendo la estructura de columnas."
+>title="Definir columnas de correo electrónico"
+>abstract="El Diseñador de correo electrónico le permite definir fácilmente el diseño del correo electrónico seleccionando la estructura de columna."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
->title="Definición de columnas de página de aterrizaje"
->abstract="El Diseñador de correo electrónico le permite definir fácilmente el diseño de la página de aterrizaje mediante la definición de la estructura de columnas."
+>title="Definir columnas de página de aterrizaje"
+>abstract="Designer permite definir fácilmente el diseño de la página de aterrizaje mediante la selección de la estructura de columnas."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Definición de columnas de fragmento"
->abstract="El Diseñador de correo electrónico le permite definir fácilmente el diseño del fragmento definiendo la estructura de la columna."
+>title="Definir columnas de fragmento"
+>abstract="Designer permite definir fácilmente el diseño del fragmento seleccionando la estructura de columna."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
->title="Definición de columnas de plantilla"
->abstract="El Diseñador de correo electrónico le permite definir fácilmente el diseño de la plantilla mediante la definición de la estructura de columnas."
+>title="Definir columnas de plantilla"
+>abstract="Designer permite definir fácilmente el diseño de la plantilla mediante la selección de la estructura de columna."
 
 
-El Diseñador de correo electrónico le permite definir fácilmente la estructura del correo electrónico. Al agregar y mover elementos estructurales con simples acciones de arrastrar y soltar, puede diseñar la forma de su correo electrónico en cuestión de segundos.
+Utilice Adobe Journey Optimizer Designer para definir fácilmente la estructura del contenido. Al agregar y mover elementos estructurales con simples acciones de arrastrar y soltar, puede diseñar la forma de su contenido en cuestión de segundos.
 
-Para empezar a crear el contenido del correo electrónico, siga los pasos a continuación:
+Para comenzar a crear el contenido, siga los pasos a continuación:
 
-1. En la página de inicio del Diseñador de correo electrónico, seleccione la opción **[!UICONTROL Diseño desde cero]** .
+1. En la página de inicio de Designer, seleccione la **[!UICONTROL Diseño desde cero]** .
 
    ![](assets/email_designer.png)
 
-1. Empiece a diseñar el contenido del correo electrónico arrastrando y soltando **[!UICONTROL Componentes de estructura]** en el lienzo para definir el diseño del correo electrónico.
+1. Empiece a diseñar el contenido arrastrando y soltando **[!UICONTROL Estructuras]** en el lienzo para definir el diseño del correo electrónico.
 
    >[!NOTE]
    >
@@ -76,7 +76,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
-1. Agregar tantos **[!UICONTROL Componentes de estructura]** según sea necesario y edite su configuración en el panel dedicado de la derecha.
+1. Agregar tantos **[!UICONTROL Estructuras]** según sea necesario y edite su configuración en el panel dedicado de la derecha.
 
    ![](assets/email_designer_structure_components.png)
 
@@ -86,7 +86,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
    >
    >Cada tamaño de columna no puede ser inferior al 10 % de la anchura total del componente de estructura. No se puede quitar una columna que no esté vacía.
 
-1. En el **[!UICONTROL Componentes de contenido]** añada todos los elementos que necesite en uno o varios componentes de estructura. [Descubra más información sobre los componentes de contenido](content-components.md)
+1. Expanda el **[!UICONTROL Contenido]** y añada tantos elementos como necesite en uno o varios componentes de estructura. [Descubra más información sobre los componentes de contenido](content-components.md)
 
 1. Cada componente se puede personalizar aún más mediante el **[!UICONTROL Configuración]** o **[!UICONTROL Estilo]** en el menú de la derecha. Por ejemplo, puede cambiar el estilo, el relleno o el margen del texto de cada componente. [Obtenga más información sobre la alineación y el relleno](alignment-and-padding.md)
 
@@ -98,7 +98,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
    ![](assets/email_designer_asset_picker.png)
 
-1. Inserte campos de personalización para personalizar el contenido del correo electrónico a partir de los datos de perfiles. [Descubra más información sobre la personalización del contenido](../personalization/personalize.md)
+1. Inserte campos de personalización para personalizar el contenido a partir de atributos de perfiles, suscripciones a segmentos, atributos contextuales, etc. [Descubra más información sobre la personalización del contenido](../personalization/personalize.md)
 
    ![](assets/email_designer_personalization.png)
 
@@ -106,21 +106,21 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
    ![](assets/email_designer_dynamic-content.png)
 
-1. Haga clic en el **[!UICONTROL Vínculos]** del panel izquierdo para mostrar todas las direcciones URL del contenido que se rastreará. Puede modificar sus **[!UICONTROL Tipo de seguimiento]** o **[!UICONTROL Etiqueta]** y agregue **[!UICONTROL Etiquetas]** si es necesario. [Obtenga más información sobre los vínculos y el seguimiento de mensajes](message-tracking.md)
+1. Haga clic en el **[!UICONTROL Vínculos]** del panel izquierdo para mostrar todas las direcciones URL del contenido que se rastreará. Puede modificar sus **[!UICONTROL Tipo de seguimiento]** o **[!UICONTROL Etiqueta]** y agregue **[!UICONTROL Etiquetas]** si es necesario. [Obtenga más información sobre los vínculos y el seguimiento](message-tracking.md)
 
    ![](assets/email_designer_links.png)
 
-1. Puede personalizar aún más el correo electrónico haciendo clic en **[!UICONTROL Cambiar al editor de código]** en el menú avanzado. [Obtenga más información sobre el editor de código](code-content.md)
+1. Si es necesario, puede personalizar aún más el contenido haciendo clic en **[!UICONTROL Cambiar al editor de código]** desde la parte superior **Más** botón. [Obtenga más información sobre el editor de código](code-content.md)
 
    ![](assets/email_designer_switch-to-code.png)
 
    >[!CAUTION]
    >
-   >No podrá volver al diseñador visual para este correo electrónico después de cambiar al editor de código.
+   >No puede volver al diseñador visual para este contenido después de cambiar al editor de código.
 
-1. Una vez que el contenido esté listo, haga clic en **[!UICONTROL Simular contenido]** para comprobar la renderización del correo electrónico. Puede elegir la vista de escritorio o la vista móvil. [Obtenga más información sobre la vista previa del correo electrónico](preview.md)
+1. Una vez que el contenido esté listo, haga clic en el botón **[!UICONTROL Simular contenido]** para comprobar la renderización. Puede elegir la vista de escritorio o la vista móvil. [Obtenga más información sobre la vista previa del correo electrónico](preview.md)
 
    ![](assets/email_designer_simulate_content.png)
 
-1. Cuando el correo electrónico esté listo, haga clic en **[!UICONTROL Guardar]**.
+1. Cuando el contenido esté listo, haga clic en **[!UICONTROL Guardar]**.
 
