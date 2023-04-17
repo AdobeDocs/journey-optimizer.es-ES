@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informative"
-source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
+source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '411'
 ht-degree: 3%
 
 ---
@@ -63,6 +63,10 @@ Para crear un flujo de trabajo de composición, siga estos pasos:
    ![](assets/audiences-publish.png)
 
 1. Una vez que la composición esté lista, haga clic en el botón **[!UICONTROL Publicación]** para publicar la composición y guardar las audiencias resultantes en Adobe Experience Platform.
+
+   >[!IMPORTANT]
+   >
+   >Puede publicar hasta 75 composiciones en un entorno limitado determinado. Si ha alcanzado este umbral, debe eliminar una composición para liberar espacio y publicar una nueva.
 
    Si se produce algún error durante la publicación, las alertas se mostrarán con información sobre cómo resolver el problema.
 
