@@ -8,10 +8,11 @@ level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 hide: true
 hidefromtoc: true
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
+source-git-commit: 252011710574122c1f321a388b65bdafb7c666df
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 2%
+source-wordcount: '553'
+ht-degree: 3%
 
 ---
 
@@ -67,10 +68,11 @@ Para obtener más información sobre cómo configurar un recorrido, consulte [es
 
 * La personalización solo puede contener atributos de perfil.
 
-* La visualización en la aplicación está vinculada a la duración del recorrido, lo que significa que cuando el recorrido termina en un perfil, todos los mensajes en la aplicación de ese recorrido dejarán de mostrarse en ese perfil. Esto significa que no puede detener una aplicación directamente desde una actividad de recorrido. Tienes que terminar ese recorrido.
-* La visualización en la aplicación está vinculada a la duración de un recorrido, lo que significa que una vez que se completa un recorrido para un perfil de usuario determinado, todos los mensajes en la aplicación de ese recorrido dejarán de mostrarse para ese perfil. Por lo tanto, no es posible detener un mensaje en la aplicación directamente desde una actividad de recorrido. En su lugar, tendrá que finalizar todo el recorrido para evitar que los mensajes en la aplicación se muestren en el perfil.
+* La visualización en la aplicación está vinculada a la duración del recorrido, lo que significa que cuando el recorrido termina en un perfil, todos los mensajes en la aplicación de ese recorrido dejarán de mostrarse en ese perfil.  Por lo tanto, no es posible detener un mensaje en la aplicación directamente desde una actividad de recorrido. En su lugar, tendrá que finalizar todo el recorrido para evitar que los mensajes en la aplicación se muestren en el perfil.
 
-* Con esta función, aún no podrá usar **[!UICONTROL Reacción]** actividades para reaccionar ante una apertura o un clic en la aplicación.
+* En el modo de prueba, la visualización en la aplicación depende de la duración del recorrido. Para evitar que el recorrido termine demasiado pronto durante las pruebas, ajuste la **[!UICONTROL Tiempo de espera]** para su **[!UICONTROL Espera]** actividades.
+
+* **[!UICONTROL Reacción]** Las actividades no se pueden usar para reaccionar ante una apertura o un clic en la aplicación.
 
 * Se produce un retraso en la activación entre el momento en que un perfil de usuario alcanza una actividad en la aplicación en el lienzo y la hora en que comienza a ver ese mensaje en la aplicación. Este retraso puede variar de 15 minutos a 1 hora.
 
