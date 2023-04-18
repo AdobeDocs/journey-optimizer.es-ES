@@ -7,18 +7,18 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: recorrido, mensaje, push, sms, correo electrónico
+keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 45d508b284c23235518fab37095413091208e497
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 6%
+source-wordcount: '864'
+ht-degree: 3%
 
 ---
 
-# Correo electrónico, SMS, push{#add-a-message-in-a-journey}
+# Correo electrónico, en la aplicación, push, SMS{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] incorpora capacidades de mensajes. Puede simplemente añadir, en su recorrido, una actividad de push, SMS o mensaje de correo electrónico y definir la configuración y el contenido. A continuación, se ejecuta y envía en el contexto del recorrido.
+[!DNL Journey Optimizer] incorpora capacidades de mensajes. Simplemente puede añadir, en su recorrido, una actividad push, un SMS, una actividad de mensaje en la aplicación o de correo electrónico y definir la configuración y el contenido. A continuación, se ejecuta y envía en el contexto del recorrido.
 
 También puede configurar acciones específicas para enviarle mensajes:
 
@@ -33,7 +33,7 @@ Para añadir un mensaje en un recorrido, siga los pasos a continuación:
 
 1. Inicie el recorrido con un [Evento](general-events.md) o una actividad [Leer segmento](read-segment.md).
 
-1. En la sección **Acciones** de la paleta, arrastre y suelte una actividad de **correo electrónico**, **SMS** o **push** en el lienzo.
+1. En el **Acciones** de la paleta, arrastre y suelte una **email**, un **En la aplicación**, un **SMS** o **Push** actividad en el lienzo.
 
 1. Configure la actividad . Conozca los pasos detallados para crear el contenido del mensaje en las páginas siguientes:
 
@@ -44,6 +44,14 @@ Para añadir un mensaje en un recorrido, siga los pasos a continuación:
    <img alt="Posible cliente" src="../assets/do-not-localize/email.jpg">
    </a>
    <div><a href="../email/create-email.md"><strong>Creación de correos electrónicos</strong>
+   </div>
+   <p>
+   </td>
+   <td>
+   <a href="../in-app/create-in-app.md">
+   <img alt="Posible cliente" src="../assets/do-not-localize/in-app.jpg">
+   </a>
+   <div><a href="../in-app/create-in-app.md"><strong>Creación de mensajes en la aplicación</strong>
    </div>
    <p>
    </td>
@@ -70,13 +78,15 @@ Para añadir un mensaje en un recorrido, siga los pasos a continuación:
 
 ## Actualizar contenido en directo{#update-live-content}
 
-Puede actualizar el contenido de un mensaje (correo electrónico, sms, push) en un recorrido activo.
+Puede actualizar el contenido de un mensaje (correo electrónico, en la aplicación, push, SMS) en un recorrido activo.
 
 Para ello, abra el recorrido activo, seleccione la actividad de mensaje y haga clic en **Editar contenido**.
 
 ![](assets/add-a-message2.png)
 
 Sin embargo, no se pueden cambiar los atributos utilizados en la personalización, ya sean atributos de perfil o datos contextuales (a partir de propiedades de evento o recorrido).
+
+Tenga en cuenta que para la actividad en la aplicación, se pueden realizar cambios en el contenido mientras el recorrido está activo, pero los déclencheur en la aplicación no se pueden modificar.
 
 ## Optimización del tiempo de envío{#send-time-optimization}
 

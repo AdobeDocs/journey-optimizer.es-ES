@@ -7,24 +7,28 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, diseño, formato
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '886'
 ht-degree: 5%
 
 ---
 
 # Diseño del contenido en la aplicación {#design-content}
 
-Puede editar el contenido en la aplicación para configurar las opciones de experiencia, incluido el diseño y la visualización del mensaje, el texto y las opciones de botones.
+Puede editar el contenido en la aplicación para configurar las opciones de experiencia:
 
-Para configurar el contenido del mensaje, haga clic en el botón **[!UICONTROL Editar contenido]** y utilice las opciones de la sección derecha de la pantalla para diseñar el contenido del mensaje en la aplicación.
+* En un **[!UICONTROL Campaign]**, en la **[!UICONTROL Acción]** para configurar el contenido del mensaje, haga clic en el botón **[!UICONTROL Editar contenido]** botón.
 
-![](assets/in_app_create_4.png)
+   ![](assets/edit-in-app-content.png)
+
+* En un **[!UICONTROL Recorrido]**, desde el menú avanzado de la aplicación **[!UICONTROL Acción]**, puede empezar a diseñar el contenido con la variable **[!UICONTROL Editar contenido]** botón.
+
+   ![](assets/design_inapp_journey.png)
 
 La variable **[!UICONTROL Formato avanzado]** activa opciones adicionales para personalizar la experiencia.
 
-Una vez creado el mensaje en la aplicación y definido y personalizado su contenido, puede revisarlo y activarlo. Las notificaciones se envían según la programación de la campaña. Obtenga más información en [esta página](create-in-app.md#in-app-send).
+Una vez creado el mensaje en la aplicación y definido y personalizado su contenido, puede revisarlo y activarlo. Las notificaciones se envían según la programación de la campaña. Obtenga más información en [esta página](send-in-app.md).
 
 ## Diseño del mensaje {#message-layout}
 

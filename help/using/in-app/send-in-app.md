@@ -6,10 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
-source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
+exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 17%
+source-wordcount: '285'
+ht-degree: 14%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 17%
 
 ## Vista previa en el dispositivo {#preview-device}
 
-Una vez que [se creó el mensaje en la aplicación](create-in-app.md) y [definió su contenido](design-in-app.md), puede obtener una vista previa de la notificación en la aplicación en un dispositivo específico.
+Si desea obtener una vista previa de la notificación en la aplicación antes de que esta se ponga en marcha para todos los usuarios, tiene la capacidad de previsualizarla en un dispositivo específico. Esta funcionalidad le permite asegurarse de que la notificación tenga el aspecto y funciona según lo previsto en el dispositivo elegido, lo que le ofrece una mejor experiencia de usuario para la audiencia.
 
 Para ello, siga los pasos a continuación:
 
@@ -37,7 +38,7 @@ El mensaje en la aplicación ahora se puede activar directamente en el dispositi
 
 ## Revise y active su notificación en la aplicación{#in-app-review}
 
-Una vez que el mensaje en la aplicación esté listo, puede revisarlo y activarlo.
+Una vez creado el mensaje en la aplicación y definido y personalizado su contenido, puede revisarlo y activarlo.
 
 Para ello, siga los pasos a continuación:
 

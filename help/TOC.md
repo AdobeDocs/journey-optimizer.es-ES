@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 15973fd7bf85a428be24252e9eb1bf3834a581f3
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1371'
 ht-degree: 98%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 98%
       + [Condición](using/building-journeys/condition-activity.md)
       + [Espera](using/building-journeys/wait-activity.md)
       + [Lectura de segmento](using/building-journeys/read-segment.md)
-      + [Correo electrónico, SMS, push](using/building-journeys/journeys-message.md)
+      + [Correo electrónico, en la aplicación, push, SMS](using/building-journeys/journeys-message.md)
       + [Acciones personalizadas](using/building-journeys/using-custom-actions.md)
       + [Acciones de Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Acciones de Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
@@ -205,6 +205,7 @@ ht-degree: 98%
 + Canal en la aplicación{#in-app}
    + [Introducción al canal en la aplicación](using/in-app/get-started-in-app.md)
    + [Creación de un mensaje en la aplicación ](using/in-app/create-in-app.md)
+   + [Creación de un mensaje en la aplicación en un Recorrido](using/in-app/create-in-app-journey.md)
    + [Diseño del contenido en la aplicación](using/in-app/design-in-app.md)
    + [Prueba y envío de notificación en la aplicación](using/in-app/send-in-app.md)
    + [Configuración del canal en la aplicación](using/in-app/inapp-configuration.md)
