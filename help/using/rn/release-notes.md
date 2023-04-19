@@ -5,8 +5,8 @@ title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
-workflow-type: tm+mt
-source-wordcount: '1508'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
