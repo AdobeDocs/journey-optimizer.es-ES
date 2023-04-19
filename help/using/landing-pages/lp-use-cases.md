@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: aterrizaje, página de aterrizaje, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 1e149c33159ba8b5d96f5752bddc7ebe9f3934fe
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '968'
 ht-degree: 16%
 
 ---
@@ -48,7 +48,7 @@ Por ejemplo, supongamos que organiza un evento el mes que viene y desea iniciar 
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [Publicación](create-lp.md#publish) la página de aterrizaje.
+1. [Publicar la página de aterrizaje.](create-lp.md#publish)
 
 1. En un [recorrido](../building-journeys/journey.md), agregue un **Correo electrónico** actividad para dirigir el tráfico a la página de aterrizaje de registro.
 
@@ -70,11 +70,11 @@ Por ejemplo, supongamos que organiza un evento el mes que viene y desea iniciar 
 
 Además, puede enviar un correo electrónico de confirmación a los destinatarios que se hayan registrado en el evento. Para ello, siga los pasos que aparecen a continuación.
 
-1. Crear otro [recorrido](../building-journeys/journey.md). Puede hacerlo directamente desde la página de aterrizaje haciendo clic en el **[!UICONTROL Crear recorrido]** botón. Obtenga más información [aquí](create-lp.md#configure-primary-page)
+1. Crear otro [recorrido](../building-journeys/journey.md). Puede hacerlo directamente desde la página de aterrizaje haciendo clic en el **[!UICONTROL Crear recorrido]** botón. [Más información](create-lp.md#configure-primary-page)
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. Despliegue el **[!UICONTROL Eventos]** categoría y suelte a **[!UICONTROL Clasificación del segmento]** actividad en el lienzo. Obtenga más información [aquí](../building-journeys/segment-qualification-events.md)
+1. Despliegue el **[!UICONTROL Eventos]** categoría y suelte a **[!UICONTROL Clasificación del segmento]** actividad en el lienzo. [Más información](../building-journeys/segment-qualification-events.md)
 
 1. Haga clic en el **[!UICONTROL Segmento]** y seleccione la lista de suscripción que ha creado.
 
@@ -127,13 +127,9 @@ Para permitir que los destinatarios de un correo electrónico cancelen la suscri
 
 1. Una vez configurado y definido el contenido de sus páginas, [publicar](create-lp.md#publish) la página de aterrizaje.
 
-   ![](assets/lp_opt-out-publish.png)
-
 1. [Creación de un mensaje de correo electrónico](../email/get-started-email-design.md) en un recorrido.
 
 1. Seleccione texto en el contenido e [inserte un vínculo](../email/message-tracking.md#insert-links) utilizando la barra de herramientas contextual. También puede utilizar un vínculo en un botón.
-
-   ![](assets/lp_opt-out-insert-link.png)
 
 1. Select **[!UICONTROL Página de aterrizaje]** de la variable **[!UICONTROL Tipo de vínculo]** y seleccione la [página de aterrizaje](create-lp.md#configure-primary-page) que ha creado para la exclusión.
 
