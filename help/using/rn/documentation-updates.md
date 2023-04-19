@@ -5,9 +5,9 @@ title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2572'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 ## Abril de 2023 {#apr-2023}
 
 * Adobe Experience Manager Assets Essentials y Adobe Stock se han añadido a la página de integración de varias soluciones. [Más información](../start/ajo-integrations.md)
-* La advertencia de subdominios de correo electrónico de varios niveles que no están permitidos se ha eliminado ya que ahora son compatibles. [Más información](../configuration/delegate-subdomain.md)
+* La advertencia sobre los subdominios de correo electrónico de varios niveles que no están permitidos se ha eliminado, ya que ahora son compatibles. [Más información](../configuration/delegate-subdomain.md)
 * Se ha añadido una nota para especificar que, si se realizan cambios en una decisión de oferta que se está utilizando en el mensaje de un recorrido, debe cancelar la publicación del recorrido y volver a publicarlo. [Más información](../building-journeys/publishing-the-journey.md)
 
 ## Marzo de 2023 {#march-2023}
