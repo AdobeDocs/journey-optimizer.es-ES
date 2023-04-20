@@ -12,7 +12,7 @@ exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1522'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="Prueba del recorrido"
->abstract="Utilice perfiles de prueba para probar el recorrido antes de publicarlo. Esto le permite analizar el flujo de las personas en el recorrido y solucionar los problemas antes de la publicación."
+>abstract="Utilice perfiles de prueba para probar el recorrido antes de publicarlo. Esto permite analizar el flujo de los particulares en el recorrido y solucionar los problemas antes de la publicación."
 
 Utilice perfiles de prueba para probar el recorrido antes de publicarlo. Este modo le permite ejecutar una prueba del recorrido e identificar los problemas mediante perfiles de prueba.
 
@@ -75,8 +75,8 @@ Para utilizar el modo de prueba, siga estos pasos:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
->title="Configuración del modo de prueba"
->abstract="Si el recorrido contiene varios eventos, utilice la lista desplegable para seleccionar un evento. A continuación, para cada evento, configure los campos pasados y la ejecución del envío del evento."
+>title="Configurar el modo de prueba"
+>abstract="Si el recorrido contiene varios eventos, utilice el menú desplegable para seleccionar un evento. A continuación, configure para cada evento los campos pasados y la ejecución del envío del evento."
 
 Utilice la variable **[!UICONTROL Déclencheur de un evento]** para configurar un evento que haga que una persona introduzca el recorrido.
 
@@ -86,7 +86,7 @@ Utilice la variable **[!UICONTROL Déclencheur de un evento]** para configurar u
 
 Como requisito previo, debe saber qué perfiles se marcan como perfiles de prueba en Adobe Experience Platform. De hecho, el modo de prueba solo permite estos perfiles en el recorrido y el evento debe contener un ID. El ID esperado depende de la configuración del evento. Puede ser un ECID o una dirección de correo electrónico, por ejemplo. El valor de esta clave debe agregarse en la variable **Identificador de perfil** campo .
 
-Si el recorrido contiene varios eventos, utilice la lista desplegable para seleccionar un evento. A continuación, para cada evento, configure los campos pasados y la ejecución del envío del evento. La interfaz le ayuda a pasar la información correcta en la carga útil de evento y a asegurarse de que el tipo de información es correcto. El modo de prueba guarda los últimos parámetros utilizados en una sesión de prueba para su uso posterior.
+Si el recorrido contiene varios eventos, utilice el menú desplegable para seleccionar un evento. A continuación, configure para cada evento los campos pasados y la ejecución del envío del evento. La interfaz le ayuda a pasar la información correcta en la carga útil de evento y a asegurarse de que el tipo de información es correcto. El modo de prueba guarda los últimos parámetros utilizados en una sesión de prueba para su uso posterior.
 
 ![](assets/journeytest4.png)
 
@@ -123,7 +123,7 @@ Tenga en cuenta que cuando se déclencheur por primera vez un evento empresarial
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
 >title="Registros del modo de prueba"
->abstract="El botón Mostrar registro muestra los resultados de las pruebas en formato JSON. Estos resultados muestran el número de personas dentro del recorrido y su estado."
+>abstract="El botón Mostrar registro muestra los resultados de las pruebas en formato JSON. Estos resultados muestran el número de particulares dentro del recorrido y su estado."
 
 La variable **[!UICONTROL Mostrar registro]** permite ver los resultados de la prueba. Esta página muestra la información actual del recorrido en formato JSON. Un botón permite copiar nodos completos. Debe actualizar manualmente la página para actualizar los resultados de prueba del recorrido.
 
