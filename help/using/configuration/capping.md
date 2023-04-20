@@ -6,13 +6,13 @@ description: Aprenda a trabajar con la API de restricción
 role: User
 level: Beginner
 keywords: externa, API, optimizer, restricción
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
+source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 4%
+ht-degree: 30%
 
 ---
-
 
 # Trabajar con la API de restricción {#work}
 
@@ -107,49 +107,49 @@ La advertencia potencial es:
 
 En esta sección, encontrará los cinco casos de uso principales que puede realizar para administrar la configuración de restricción en [!DNL Journey Optimizer].
 
-Para ayudarle en las pruebas y la configuración, hay una colección de Postman disponible [here](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+Para ayudarle en las pruebas y la configuración, hay una colección de Postman disponible [aquí](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
-Esta colección de Postman se ha configurado para compartir la colección de variables de Postman generada mediante __[Integraciones de la consola Adobe I/O](https://console.adobe.io/integrations) > Pruébelo > Descargar para Postman__, que genera un archivo de entorno de Postman con los valores de integraciones seleccionados.
+Esta colección de Postman se ha configurado para compartir la colección de variables de Postman generada mediante __[Integraciones de la consola de Adobe I/O](https://console.adobe.io/integrations) > Pruébelo > Descargar para Postman__, que genera un archivo de entorno de Postman con los valores de integraciones seleccionados.
 
 Una vez descargado y cargado en Postman, debe añadir tres variables: `{JO_HOST}`,`{BASE_PATH}` y `{SANDBOX_NAME}`.
-* `{JO_HOST}` : [!DNL Journey Optimizer] URL de puerta de enlace
-* `{BASE_PATH}` : punto de entrada para la API.
-* `{SANDBOX_NAME}` : el encabezado **x-sandbox-name** (por ejemplo, &quot;prod&quot;) correspondiente al nombre del simulador de pruebas donde se realizarán las operaciones de API. Consulte la [información general sobre los entornos limitados](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) para obtener más información.
+* `{JO_HOST}`: URL de puerta de enlace de [!DNL Journey Optimizer]
+* `{BASE_PATH}`: punto de entrada para la API. 
+* `{SANDBOX_NAME}`: el encabezado **x-sandbox-name** (por ejemplo, “prod”) correspondiente al nombre de la zona protegida donde se realizarán las operaciones de API. Consulte la [información general sobre las zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) para obtener más detalles.
 
-En la siguiente sección, encontrará la lista ordenada de llamadas al resto de API para realizar el caso de uso.
+En la siguiente sección, encontrará la lista ordenada de llamadas a la API de REST para ejecutar el caso de uso.
 
 Caso de uso n°1: **Creación e implementación de una nueva configuración de restricción**
 
 1. list
-1. crear
+1. create
 1. candeploy
-1. implementar
+1. deploy
 
 Caso de uso n°2: **Actualización e implementación de una configuración de límite aún no implementada**
 
 1. list
-1. obtener
-1. actualizar
+1. get
+1. update
 1. candeploy
-1. implementar
+1. deploy
 
 Caso de uso n°3: **Desimplementar y eliminar una configuración de restricción implementada**
 
 1. list
-1. anular implementación
-1. eliminar
+1. undeploy
+1. delete
 
 Caso de uso n°4: **Elimine una configuración de restricción implementada.**
 
-En una sola llamada de API, puede anular la implementación y eliminar la configuración con el uso del parámetro forceDelete .
+En una sola llamada de API, puede anular la implementación y eliminar la configuración con el uso del parámetro forceDelete.
 1. list
-1. delete, con el parámetro forceDelete
+1. eliminar, con el parámetro forceDelete
 
 Caso de uso n°5: **Actualización de una configuración de límite ya implementada**
 
 1. list
-1. obtener
-1. actualizar
-1. anular implementación
+1. get
+1. update
+1. undeploy
 1. candeploy
-1. implementar
+1. deploy
