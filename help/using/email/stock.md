@@ -12,7 +12,7 @@ exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 1%
 
 ## Introducción a [!DNL Adobe Stock] {#get-started-stock}
 
-La variable [!DNL Adobe Stock] y [!DNL Adobe Journey Optimizer] El complemento de integración del Diseñador de correo electrónico proporciona a los clientes una forma sencilla de navegar, obtener licencias y guardar imágenes para utilizarlas en la creación de mensajes.
+El plugin de integración de [!DNL Adobe Stock] y [!DNL Adobe Journey Optimizer] Diseñador de correos electrónicos proporciona a los clientes una forma sencilla de navegar, obtener licencias y guardar imágenes para utilizarlas en la creación de mensajes.
 
 [Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} proporciona acceso a millones de fotos, vídeos, ilustraciones y gráficos vectoriales de alta calidad, depurados y libres de derechos de autor. Puede elegir adquirir un paquete de crédito para obtener la licencia de los activos o comprar una licencia Standard o Extended para el activo necesario. Adobe Stock también ofrece una recopilación gratuita de recursos.
 
-con [!DNL Adobe Journey Optimizer], puede cargar imágenes en los correos electrónicos directamente desde [!DNL Adobe Stock] y agréguelo a su **[!UICONTROL Recursos]** usando la variable **[!UICONTROL Buscar fotos de Adobe Stock]** . Además, la variable **[!UICONTROL Buscar fotos de Stock similares]** ayuda a encontrar imágenes que coincidan con el contenido, el color y la composición del recurso utilizado en la entrega.
+Con [!DNL Adobe Journey Optimizer], puede cargar imágenes en sus correos electrónicos directamente desde [!DNL Adobe Stock] y agregarlos a su carpeta **[!UICONTROL Recursos]** usando la opción **[!UICONTROL Buscar fotos de Adobe Stock]**. Además, la variable **[!UICONTROL Buscar fotos de Stock similares]** le ayuda a encontrar imágenes que coincidan con el contenido, el color y la composición del recurso utilizado en el envío.
 
 ## Permisos{#stock-permissions}
 
