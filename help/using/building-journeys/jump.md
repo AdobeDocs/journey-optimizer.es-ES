@@ -12,7 +12,7 @@ exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_jump"
 >title="Actividad de salto"
->abstract="La actividad Acción de salto permite insertar individuos de un recorrido a otro. Esta función le permite simplificar el diseño de recorridos muy complejos y crear recorridos basados en patrones de recorrido comunes y reutilizables."
+>abstract="La actividad de la acción de salto permite insertar particulares de un recorrido a otro. Esta función permite simplificar el diseño de recorridos muy complejos y crear recorridos basados en patrones de recorrido comunes y reutilizables."
 
 La variable **[!UICONTROL Jump]** la actividad de acción permite insertar a los usuarios de un recorrido a otro. Esta función le permite:
 
