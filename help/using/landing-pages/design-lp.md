@@ -12,11 +12,11 @@ exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# Diseño del contenido de la página de aterrizaje {#design-lp}
+# Diseñar el contenido de la página de aterrizaje {#design-lp}
 
 Para empezar a crear contenido para el aterrizaje [página principal](create-lp.md#configure-primary-page) o [subpágina](create-lp.md#configure-subpages), pase el ratón sobre el contenido de la página y haga clic en **[!UICONTROL Abrir Designer]**. También puede hacer clic en el botón correspondiente desde la paleta derecha.
 
