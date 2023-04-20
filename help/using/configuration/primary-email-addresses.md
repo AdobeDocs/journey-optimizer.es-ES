@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '216'
-ht-degree: 3%
+ht-degree: 26%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
->title="Defina qué dirección utilizar"
+>title="Definir qué dirección utilizar"
 >abstract="Cuando hay varias direcciones de correo electrónico o números de teléfono disponibles en la base de datos (personal, profesional, etc.), puede elegir cuál priorizar para el envío."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address_header"
->title="Defina qué dirección utilizar"
+>title="Definir qué dirección utilizar"
 >abstract="Edite los campos utilizados para determinar la dirección de correo electrónico o el número de teléfono de los perfiles que desea priorizar para el envío."
 
 Cuando se segmenta un perfil, es posible que haya varias direcciones de correo electrónico o números de teléfono disponibles en la base de datos (dirección de correo electrónico profesional, número de teléfono personal, etc.).
