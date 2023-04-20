@@ -12,7 +12,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 54ea3573e4fb6e24c3e56349292528bc6da42d67
 workflow-type: tm+mt
 source-wordcount: '1757'
-ht-degree: 8%
+ht-degree: 23%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="Delegación de subdominios"
->abstract="Journey Optimizer le permite delegar los subdominios a Adobe. Puede delegar completamente un subdominio a Adobe, que es el método recomendado. También puede crear un subdominio utilizando CNAME para que apunte a registros específicos de Adobe, pero este método requiere que mantenga y administre los registros DNS por su cuenta."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="Métodos de configuración de subdominios"
+>abstract="Journey Optimizer permite delegar los subdominios a Adobe. Puede delegar completamente un subdominio a Adobe, que es el método recomendado. También puede crear un subdominio utilizando CNAME para que apunte a registros específicos de Adobe, pero este método requiere que mantenga y administre los registros DNS por su cuenta."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation.html?lang=es#subdomain-delegation-methods" text="Métodos de configuración de subdominios"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
 >title="Delegación de subdominios"
->abstract="Para empezar a enviar correos electrónicos, delegará el subdominio a Adobe. Una vez finalizado, se configurarán por usted los registros DNS, las bandejas de entrada, el remitente, la respuesta y las direcciones de rechazo."
+>abstract="Para empezar a enviar correos electrónicos, delegará el subdominio a Adobe. Una vez delegado, se configurarán los registros DNS, las bandejas de entrada, el remitente y las direcciones de respuesta y devolución."
 
 La delegación de nombres de dominio es un método que permite al propietario de un nombre de dominio (técnicamente: una zona DNS) para delegar una subdivisión de ella (técnicamente: una zona DNS bajo ella, que puede llamarse subzona) a otra entidad. Básicamente, como cliente, si está administrando la zona &quot;example.com&quot;, puede delegar la subzona &quot;marketing.example.com&quot; a Adobe. Más información sobre [delegación de subdominios](about-subdomain-delegation.md)
 
@@ -48,8 +48,8 @@ Puede delegar completamente un subdominio o crear un subdominio utilizando CNAME
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
 >title="Generar los registros DNS coincidentes"
->abstract="Para delegar completamente un nuevo subdominio a Adobe, debe copiar y pegar la información del servidor de nombres de Adobe que se muestra en la interfaz de Journey Optimizer en la solución de alojamiento de dominios para generar los registros DNS coincidentes. Para delegar un subdominio mediante CNAME, también debe copiar y pegar el registro de validación de URL de la CDN SSL. Una vez realizadas las comprobaciones correctamente, el subdominio está listo para utilizarse para enviar mensajes."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain.html#cname-subdomain-delegation" text="Delegación de subdominios CNAME"
+>abstract="Para delegar completamente un nuevo subdominio a Adobe, debe copiar y pegar la información del servidor de nombres de Adobe que se muestra en la interfaz de Journey Optimizer en la solución de alojamiento de dominios para generar los registros DNS coincidentes. Para delegar un subdominio mediante CNAME, también debe copiar y pegar el registro de validación de URL de CDN SSL. Una vez realizadas las comprobaciones correctamente, el subdominio está listo para utilizarse para enviar mensajes."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain.html?lang=es#cname-subdomain-delegation" text="Delegación de subdominios CNAME"
 
 [!DNL Journey Optimizer] le permite delegar completamente los subdominios a Adobes directamente desde la interfaz de producto. Al hacerlo, Adobe podrá enviar mensajes como un servicio administrado controlando y manteniendo todos los aspectos de DNS necesarios para la entrega, el procesamiento y el seguimiento de campañas de correo electrónico.
 
