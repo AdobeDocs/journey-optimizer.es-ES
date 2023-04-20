@@ -10,7 +10,7 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 6%
+ht-degree: 17%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain_header"
->title="Crear un ajuste preestablecido de página de aterrizaje"
+>title="Crear ajustes preestablecidos de la página de aterrizaje"
 >abstract="Para crear una página de aterrizaje y aprovecharla mediante Journey Optimizer, debe crear un ajuste preestablecido de página de aterrizaje que incluya el subdominio que se va a utilizar."
 
 When [creación de una página de aterrizaje](../landing-pages/create-lp.md#create-a-lp), debe seleccionar un ajuste preestablecido de página de aterrizaje para poder crear la página de aterrizaje y aprovecharla mediante **[!DNL Journey Optimizer]**.
@@ -37,7 +37,7 @@ Para acceder a los ajustes preestablecidos de la página de aterrizaje, siga los
 
    ![](assets/lp_preset-details.png)
 
-## Crear un ajuste preestablecido de página de aterrizaje {#lp-create-preset}
+## Crear ajustes preestablecidos de la página de aterrizaje {#lp-create-preset}
 
 Para crear un ajuste preestablecido de página de aterrizaje, siga los pasos a continuación.
 
