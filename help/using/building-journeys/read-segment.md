@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
->title="Leer Actividad de segmentos"
->abstract="La actividad Leer segmento le permite hacer que todas las personas que pertenecen a un segmento de Adobe Experience Platform participen en un recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular."
+>title="Actividad Leer segmento"
+>abstract="La actividad Leer segmento permite hacer que todos los particulares que pertenecen a un segmento de Adobe Experience Platform participen en un recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular."
 
 Utilice la variable **Leer segmento** actividad para que todas las personas de un segmento entren en el recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular.
 
