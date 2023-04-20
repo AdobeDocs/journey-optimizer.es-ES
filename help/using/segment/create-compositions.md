@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -78,7 +78,7 @@ Para crear un flujo de trabajo de composición, siga estos pasos:
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"
->title="Publicación de la audiencia"
+>title="Publicar la audiencia"
 >abstract="Publique la composición para guardar las audiencias resultantes en Adobe Experience Platform."
 
 Se puede acceder a todas las composiciones creadas desde la **[!UICONTROL Composiciones]** pestaña . Pueden tener varios estados:
