@@ -11,7 +11,7 @@ exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 4%
+ht-degree: 15%
 
 ---
 
@@ -94,12 +94,12 @@ Para crear una notificación push, siga los pasos a continuación:
 * [Configurar el canal push](push-gs.md)
 * [Adición de un mensaje en un recorrido](../building-journeys/journeys-message.md)
 
-## Modo de entrega rápido {#rapid-delivery}
+## Modo de envío rápido {#rapid-delivery}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
->title="Modo de entrega rápido"
->abstract="El modo de entrega rápida permite realizar envíos de mensajes a alta velocidad en el canal push a un tamaño de audiencia inferior a 30 M."
+>title="Modo de envío rápido"
+>abstract="El modo de envío rápido permite realizar envíos de mensajes a alta velocidad en el canal push a un tamaño de audiencia inferior a 30 millones."
 
 El modo de entrega rápida, anteriormente conocido como modo de ráfaga en recorridos, es un [!DNL Journey Optimizer] complemento que permite enviar mensajes push muy rápidamente a grandes volúmenes mediante campañas.
 
