@@ -141,7 +141,7 @@ Su recorrido estará compuesto por un **[!UICONTROL Leer segmento]** y **[!UICON
 1. Agregue un **[!UICONTROL Actualizar perfil]** actividad de acción.
 1. Seleccione el esquema, la variable **testProfiles** , el conjunto de datos y establezca el valor en **True**. Para ello, en la sección **[!UICONTROL VALOR]** , haga clic en el botón **Pluma** a la derecha, seleccione **[!UICONTROL Modo avanzado]** y escriba **true**.
    ![](assets/test-profiles-26.png)
-1. Haga clic en **[!UICONTROL Publicación]**.
+1. Haga clic en **[!UICONTROL Publicar]**.
 1. En el **[!UICONTROL Segmentos]** , compruebe que los perfiles se hayan actualizado correctamente.
    ![](assets/test-profiles-28.png)
 
