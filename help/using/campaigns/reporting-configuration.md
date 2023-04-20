@@ -15,7 +15,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 30%
+ht-degree: 36%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="Configuración de conjuntos de datos para creación de informes"
->abstract="La configuración de informes permite recuperar métricas adicionales que se utilizarán en la pestaña Objetivos de los informes de campaña. Debe realizarla un usuario técnico."
+>abstract="La configuración de la creación de informes permite recuperar métricas adicionales que se utilizarán en la pestaña Objetivos de los informes de campaña. Debe realizarla un usuario técnico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
 >title="Selección de un conjunto de datos"
->abstract="Solo puede seleccionar un conjunto de datos de tipo evento, que debe contener al menos uno de los grupos de campos admitidos: Detalles De La Aplicación, Detalles De Comercio, Detalles Web."
+>abstract="Solo puede seleccionar un conjunto de datos de tipo evento, que debe contener al menos uno de los grupos de campos admitidos: detalles de la aplicación, detalles de comercio, detalles web."
 
 >[!BEGINSHADEBOX]
 
