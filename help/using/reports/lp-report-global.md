@@ -11,7 +11,7 @@ exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_landing_page_global_report"
 >title="Informe global de la página de aterrizaje"
->abstract="El informe global de página de aterrizaje permite medir el impacto de las páginas de aterrizaje durante un período de tiempo seleccionado. El informe se divide en distintas utilidades que detallan el éxito y los errores de la página de aterrizaje. Cada tablero de informes se puede modificar cambiando el tamaño o eliminando las utilidades."
+>abstract="El informe global de la página de aterrizaje permite medir el impacto de las páginas de aterrizaje durante un período de tiempo seleccionado. El informe se divide en distintos widgets que detallan el éxito y los errores de la página de aterrizaje. Cada tablero de informes se puede modificar cambiando el tamaño o eliminando los widgets."
 
 La página de aterrizaje **[!UICONTROL Informe global]** muestra detalles sobre el impacto de las páginas de aterrizaje durante un período de tiempo seleccionado. Para medir los datos de la página de aterrizaje solo durante las últimas 24 horas, consulte la [Informe activo de la página de aterrizaje](lp-report-live.md).
 
