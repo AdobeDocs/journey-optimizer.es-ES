@@ -12,7 +12,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 12%
+ht-degree: 21%
 
 ---
 
@@ -97,7 +97,7 @@ En el **[!UICONTROL Lista de supresión]** , también puede editar el parámetro
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
 >title="Añadir correos electrónicos o dominios a la lista de supresión"
->abstract="Para rellenar la lista de supresión, puede añadir manualmente direcciones de correo electrónico o dominios: uno a la vez o en modo masivo a través de una carga de archivo CSV. Estas direcciones de correo electrónico o dominios específicos se excluirán de los envíos."
+>abstract="Para rellenar la lista de supresión, puede añadir manualmente direcciones de correo electrónico o dominios: uno a la vez o en modo masivo a través de una carga de archivo CSV. Estas direcciones de correo electrónico o dominios específicos se excluirán del envío."
 
 Cuando un mensaje no se puede enviar a una dirección de correo electrónico, esta dirección se agrega automáticamente a la lista de supresión en función de la regla de supresión definida o del recuento de devoluciones.
 
@@ -113,7 +113,7 @@ Puede añadir direcciones de correo electrónico o dominios [de una en una](#add
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_address"
->title="Agregar un elemento a la lista de supresión"
+>title="Añadir un elemento a la lista de supresión"
 >abstract="Puede rellenar la lista de supresión añadiendo direcciones de correo electrónico o dominios uno a uno."
 
 Para añadir una dirección de correo electrónico o un dominio a la lista de supresión, siga los pasos a continuación:
@@ -142,7 +142,7 @@ Para añadir una dirección de correo electrónico o un dominio a la lista de su
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_csv"
->title="Cargar CSV para agregar elementos a la lista de supresión"
+>title="Cargar CSV para añadir elementos a la lista de supresión"
 >abstract="Puede rellenar la lista de supresión cargando un archivo CSV rellenado con las direcciones de correo electrónico o los dominios que desea excluir."
 
 Para añadir un grupo de direcciones de correo electrónico o un dominio a la lista de supresión, siga los pasos a continuación:
