@@ -12,7 +12,7 @@ exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 7%
+ht-degree: 22%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
 >title="Acciones de Adobe Campaign v7/v8"
->abstract="Esta integración está disponible para Adobe Campaign Classic v7 y v8. Le permite enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de Adobe Campaign. La conexión entre las instancias de Journey Optimizer y Campaign se configura por Adobe en el momento del aprovisionamiento."
+>abstract="Esta integración está disponible para Adobe Campaign Classic v7 y v8. Permite enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de Adobe Campaign. Adobe configura la conexión entre las instancias de Journey Optimizer y Campaign en el momento del aprovisionamiento."
 
-Esta integración está disponible para Adobe Campaign Classic v7 a partir de la versión 7.1 y Adobe Campaign v8. Le permite enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de Adobe Campaign.
+Esta integración está disponible para Adobe Campaign Classic v7 a partir de la versión 7.1 y Adobe Campaign v8. Permite enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de Adobe Campaign.
 
-La conexión entre las instancias de Journey Optimizer y Campaign se configura por Adobe en el momento del aprovisionamiento.
+Adobe configura la conexión entre las instancias de Journey Optimizer y Campaign en el momento del aprovisionamiento.
 
 En este ejemplo se presenta un caso de uso completo [sección](../building-journeys/ajo-ac.md).
 
