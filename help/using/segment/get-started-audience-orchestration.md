@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 14%
+ht-degree: 23%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="Crear una composición"
->abstract="Cree un flujo de trabajo de composición para combinar las audiencias de Adobe Experience Platform existentes en un lienzo visual y aproveche varias actividades (divididas, excluidas...) para crear nuevas audiencias."
+>abstract="Cree un flujo de trabajo de composición para combinar las audiencias de Adobe Experience Platform existentes en un lienzo visual y aproveche varias actividades (división, exclusión…) para crear nuevas audiencias."
 
 >[!BEGINSHADEBOX]
 
