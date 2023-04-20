@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 1%
+ht-degree: 27%
 
 ---
 
@@ -89,7 +89,7 @@ Puede quitar una actividad del lienzo en cualquier momento haciendo clic en el b
 >[!CONTEXTUALHELP]
 >id="ajo_ao_audience"
 >title="Actividad de audiencia"
->abstract="La actividad Audiencia le permite incluir en su composición perfiles adicionales que pertenecen a una audiencia existente."
+>abstract="La actividad de audiencia permite incluir en su composición perfiles adicionales que pertenecen a una audiencia existente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_merge_types"
@@ -100,17 +100,17 @@ La variable **[!UICONTROL Audiencia]** actividad le permite incluir en su compos
 
 La configuración de esta actividad es idéntica a la del inicio [Actividad de audiencia](#starting-audience).
 
-### Excluir actividad {#exclude}
+### Actividad de exclusión {#exclude}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude_type"
 >title="Tipo de exclusión"
->abstract="Utilice el tipo Excluir audiencia para excluir perfiles pertenecientes a una audiencia existente. El tipo Excluir mediante atributo permite excluir perfiles según un atributo específico."
+>abstract="Utilice el tipo Excluir audiencia para excluir perfiles pertenecientes a una audiencia existente. El tipo de atributo de exclusión permite excluir perfiles según un atributo específico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude"
->title="Excluir actividad"
->abstract="La actividad Excluir permite excluir perfiles de la composición seleccionando una audiencia existente o utilizando una regla."
+>title="Actividad de exclusión"
+>abstract="La actividad de exclusión permite excluir perfiles de la composición seleccionando una audiencia existente o utilizando una regla."
 
 La variable **[!UICONTROL Excluir]** actividad le permite excluir perfiles de su composición. Hay dos tipos de exclusión disponibles:
 
@@ -130,8 +130,8 @@ La variable **[!UICONTROL Excluir]** actividad le permite excluir perfiles de su
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
->title="Enriquecimiento de la actividad"
->abstract="Utilice la actividad Enriquecimiento para excluir perfiles pertenecientes a una audiencia existente. El tipo Excluir mediante atributo permite excluir perfiles según un atributo específico."
+>title="Actividad de enriquecimiento"
+>abstract="Utilice la actividad de enriquecimiento para excluir perfiles pertenecientes a una audiencia existente. El tipo de atributo de exclusión permite excluir perfiles según un atributo específico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
@@ -171,7 +171,7 @@ Una vez publicada la composición, los atributos seleccionados se asocian a la a
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
 >title="Actividad de clasificación"
->abstract="La actividad Clasificación le permite clasificar perfiles según un atributo específico e incluirlos en su composición. Por ejemplo, incluya los 50 perfiles con la mayor cantidad de puntos de lealtad."
+>abstract="La actividad de clasificación permite clasificar perfiles según un atributo específico e incluirlos en su composición. Por ejemplo, incluya los 50 perfiles con la mayor cantidad de puntos de fidelidad."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
@@ -190,7 +190,7 @@ La variable **[!UICONTROL Clasificación]** actividad le permite clasificar perf
 
    ![](assets/audiences-rank.png)
 
-### Dividir actividad {#split}
+### Actividad de división {#split}
 
 <!-- [!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
@@ -199,8 +199,8 @@ La variable **[!UICONTROL Clasificación]** actividad le permite clasificar perf
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
->title="Dividir actividad"
->abstract="La actividad Split permite dividir la composición en varias rutas. Al publicar la composición, se guardará una audiencia en Adobe Experience Platform para cada ruta."
+>title="Actividad de división"
+>abstract="La actividad de división permite dividir la composición en varias rutas. Al publicar la composición, se guardará una audiencia en Adobe Experience Platform para cada ruta."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
