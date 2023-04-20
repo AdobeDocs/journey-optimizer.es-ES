@@ -13,7 +13,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '517'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
->title="Creación de correo postal"
->abstract="Cree mensajes de correo postal en campañas programadas y diseñe los archivos de extracción necesarios para que los proveedores de correo postal envíen correos a sus clientes."
+>title="Creación de correo directo"
+>abstract="Cree mensajes de correo directo en campañas programadas y diseñe los archivos de extracción necesarios para que los proveedores de correo directo envíen correos a sus clientes."
 
 >[!BEGINSHADEBOX]
 
