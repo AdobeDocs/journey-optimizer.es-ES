@@ -12,7 +12,7 @@ exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_list"
->title="Configuración de una lista de suscripción"
->abstract="Cree una lista de suscripción para recopilar perfiles que hayan elegido recibir comunicaciones sobre un asunto o evento específico. "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html#define-subscription-list" text="Creación de una lista de suscripción"
+>title="Configurar una lista de suscripción"
+>abstract="Cree una lista de suscripción para recopilar perfiles que hayan optado por recibir comunicaciones sobre un asunto o evento específico. "
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html?lang=es#define-subscription-list" text="Creación de una lista de suscripción"
 
 Un servicio de suscripción se refiere a los bienes y servicios de marketing proporcionados a los clientes que han elegido recibir comunicaciones sobre un asunto específico, evento, interés, etc. de forma continua. En [!DNL Journey Optimizer], estos clientes seleccionados se agrupan en una lista de suscripción.
 
