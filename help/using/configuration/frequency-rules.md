@@ -12,7 +12,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '977'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
@@ -53,7 +53,7 @@ Obtenga más información sobre los permisos en [esta sección](../administratio
 >[!CONTEXTUALHELP]
 >id="ajo_rules_category"
 >title="Seleccione la categoría de regla de mensaje"
->abstract="Cuando se activa y se aplica a un mensaje, todas las reglas de frecuencia que coincidan con la categoría seleccionada se aplican automáticamente a este mensaje. Actualmente solo está disponible la categoría Marketing ."
+>abstract="Cuando está activada y se aplica a un mensaje, todas las reglas de frecuencia que coincidan con la categoría seleccionada se aplican automáticamente a este mensaje. Actualmente solo está disponible la categoría Marketing."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
