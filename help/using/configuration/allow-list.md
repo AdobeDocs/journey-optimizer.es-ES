@@ -12,7 +12,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
@@ -189,7 +189,7 @@ Para exportar la lista de permitidos como archivo CSV, siga los pasos a continua
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="Administrar la lista de permitidos"
->abstract="Cuando se activa la lista de permitidos, solo los destinatarios incluidos en la lista de permitidos reciben mensajes de correo electrónico de este simulador para pruebas. Cuando se desactiva, todos los destinatarios reciben correos electrónicos."
+>abstract="Cuando la lista de permitidos está activada, solo los destinatarios incluidos en la lista de permitidos reciben mensajes de correo electrónico de esta zona protegida. Cuando está desactivado, todos los destinatarios reciben correos electrónicos."
 
 Cuando la lista de permitidos es [active](#enable-allow-list), se aplica la siguiente lógica:
 
