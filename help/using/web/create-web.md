@@ -12,7 +12,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: c21c0386be33eea6f7053fb891ebad3d9a1154c9
 workflow-type: tm+mt
 source-wordcount: '1091'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -71,7 +71,7 @@ Para que la experiencia web se entregue correctamente, se debe definir la siguie
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
 >title="Definir una superficie web"
->abstract="Una superficie web puede coincidir con una dirección URL de una sola página o con varias páginas, lo que le permite enviar modificaciones de contenido en una o varias páginas web."
+>abstract="Una superficie web puede coincidir con una dirección URL de una sola página o varias páginas, lo que permite enviar modificaciones de contenido en una o varias páginas web."
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
@@ -86,7 +86,7 @@ Para comenzar a crear la experiencia web a través de una campaña, siga los pas
 
    ![](assets/web-create-campaign.png)
 
-1. Defina una superficie web.
+1. Definir una superficie web.
 
    >[!NOTE]
    >
