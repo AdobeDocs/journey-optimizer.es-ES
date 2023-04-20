@@ -15,7 +15,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1145'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Experimento de contenido"
->abstract="Puede elegir entre variar el contenido de la entrega, el asunto o el remitente para definir varios tratamientos de entrega y determinar la mejor combinación para sus audiencias."
+>abstract="Puede elegir entre modificar el contenido del envío, el asunto o el remitente para definir varios tratamientos de envío y determinar la mejor combinación para sus audiencias."
 
 >[!BEGINSHADEBOX]
 
