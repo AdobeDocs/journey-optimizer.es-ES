@@ -12,7 +12,7 @@ exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 1%
+ht-degree: 36%
 
 ---
 
@@ -47,17 +47,17 @@ Esta información se almacena con el perfil del usuario y se hace referencia a e
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
 >title="Activación de la optimización del tiempo de envío"
->abstract="Seleccione si desea optimizar las aperturas de correo electrónico o las pulsaciones de correo electrónico seleccionando el botón de radio adecuado. También puede optar por cortejar los tiempos de envío utilizados por el sistema introduciendo un valor para la opción Send in the next ."
+>abstract="Elija si desea optimizar las aperturas de correo electrónico o los clics de correo electrónico seleccionando el botón de radio adecuado. También puede optar por poner entre paréntesis los tiempos de envío utilizados por el sistema introduciendo un valor para la opción Enviar dentro de los próximos."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
 >title="Activación de la optimización del tiempo de envío"
->abstract="Los mensajes push toman el valor predeterminado de la opción de aperturas, ya que los clics no son aplicables a la mensajería push. También puede optar por cortejar los tiempos de envío utilizados por el sistema introduciendo un valor para la opción Send in the next ."
+>abstract="Los mensajes push tienen por defecto la opción de apertura, ya que los clics no se aplican a la mensajería push. También puede optar por poner entre paréntesis los tiempos de envío utilizados por el sistema introduciendo un valor para la opción Enviar dentro de los próximos."
 
 Habilite la optimización del tiempo de envío en un mensaje push o de correo electrónico seleccionando la opción **Optimización del tiempo de envío** desde los parámetros de actividad.
 
 ![](../building-journeys/assets/jo-message5.png)
 
-En el caso de los mensajes de correo electrónico, seleccione si desea optimizar las aperturas de correo electrónico o las pulsaciones de correo electrónico seleccionando el botón de opción adecuado. Los mensajes push toman el valor predeterminado de la opción de aperturas, ya que los clics no son aplicables a la mensajería push.
+En el caso de los mensajes de correo electrónico, seleccione si desea optimizar las aperturas de correo electrónico o las pulsaciones de correo electrónico seleccionando el botón de opción adecuado. Los mensajes push tienen por defecto la opción de apertura, ya que los clics no se aplican a la mensajería push.
 
 También puede optar por cortejar los tiempos de envío utilizados por el sistema introduciendo un valor para la variable **Envíe dentro del siguiente** . Si elige &quot;seis horas&quot; como valor, [!DNL Journey Optimizer] comprobará cada perfil de usuario y elegirá el tiempo de envío óptimo dentro de las seis horas siguientes al tiempo de ejecución del recorrido.
