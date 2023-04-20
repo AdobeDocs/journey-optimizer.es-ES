@@ -12,7 +12,7 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
->title="Eventos de calificación de segmentos"
->abstract="Esta actividad permite que el recorrido escuche las entradas y salidas de perfiles en segmentos de Adobe Experience Platform para que los individuos entren o avancen en un recorrido."
+>title="Eventos de cualificación de segmentos"
+>abstract="Esta actividad permite realizar un recorrido para escuchar las entradas y salidas de perfiles en segmentos de Adobe Experience Platform para que los particulares entren o avancen en un recorrido."
 
-Esta actividad permite que el recorrido escuche las entradas y salidas de perfiles en segmentos de Adobe Experience Platform para que los individuos entren o avancen en un recorrido. Para obtener más información sobre la creación de segmentos, consulte esta [sección](../segment/about-segments.md).
+Esta actividad permite realizar un recorrido para escuchar las entradas y salidas de perfiles en segmentos de Adobe Experience Platform para que los particulares entren o avancen en un recorrido. Para obtener más información sobre la creación de segmentos, consulte esta [sección](../segment/about-segments.md).
 
 Supongamos que tiene un segmento &quot;cliente plata&quot;. Con esta actividad, puede hacer que todos los clientes nuevos de plata introduzcan un recorrido y envíen una serie de mensajes personalizados.
 
