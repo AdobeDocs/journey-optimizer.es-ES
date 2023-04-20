@@ -12,7 +12,7 @@ exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 2%
+ht-degree: 20%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
 >title="Copia de un recorrido en otra zona protegida"
->abstract="Journey Optimizer permite copiar un recorrido completo de un simulador para pruebas a otro. Por ejemplo, puede copiar un recorrido del entorno limitado de ensayo en el entorno limitado de producción. Además del propio Recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido."
+>abstract="Journey Optimizer permite copiar un recorrido completo de una zona protegida a otra. Por ejemplo, puede copiar un recorrido del entorno de zona protegida de fase en la zona protegida de producción. Además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
->title="Detalles del Simulador para pruebas"
->abstract="Seleccione el simulador para pruebas de destino en el que desea copiar el recorrido. Solo están disponibles los entornos limitados de su organización de IMS."
+>title="Detalles de la zona protegida"
+>abstract="Seleccione la zona protegida de destino en la que desea copiar el recorrido. Solo están disponibles las zonas protegidas de su organización IMS."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
@@ -36,9 +36,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_dependent_objects"
 >title="Objetos dependientes"
->abstract="Esta es la lista de objetos asociados que se utilizan en el recorrido. Esta lista muestra el nombre, el tipo de objeto y el Journey Optimizer ID interno."
+>abstract="Esta es la lista de objetos asociados que se utilizan en el recorrido. Esta lista muestra el nombre, el tipo de objeto y el ID interno de Journey Optimizer."
 
-Journey Optimizer permite copiar un recorrido completo de un simulador para pruebas a otro. Por ejemplo, puede copiar un recorrido del entorno de entorno limitado de ensayo en el entorno limitado de producción. Además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: segmentos, superficies (es decir, ajustes preestablecidos), esquemas, eventos y acciones. Para obtener más información sobre los objetos copiados, consulte esta [sección](#limitations).
+Journey Optimizer permite copiar un recorrido completo de una zona protegida a otra. Por ejemplo, puede copiar un recorrido del entorno de entorno limitado de ensayo en el entorno limitado de producción. Además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: segmentos, superficies (es decir, ajustes preestablecidos), esquemas, eventos y acciones. Para obtener más información sobre los objetos copiados, consulte esta [sección](#limitations).
 
 >[!CAUTION]
 >
@@ -58,9 +58,9 @@ Para copiar un recorrido en otro simulador para pruebas, siga estos pasos:
 
    ![](assets/copy-sandbox2.png)
 
-3. Seleccione el **Espacio aislado de Target** en el campo desplegable . Solo están disponibles los entornos limitados de su organización de IMS.
+3. Seleccione el **Espacio aislado de Target** en el campo desplegable . Solo están disponibles las zonas protegidas de su organización IMS.
 
-4. Consulte la **Objetos dependientes** para obtener más información. Esta es la lista de objetos asociados que se utilizan en el recorrido. Esta lista muestra el nombre, el tipo de objeto y el Journey Optimizer ID interno.
+4. Consulte la **Objetos dependientes** para obtener más información. Esta es la lista de objetos asociados que se utilizan en el recorrido. Esta lista muestra el nombre, el tipo de objeto y el ID interno de Journey Optimizer.
 
 5. Haga clic en el **Copiar** , en la esquina superior derecha, para comenzar a copiar el recorrido en el simulador para pruebas de destino.
 
