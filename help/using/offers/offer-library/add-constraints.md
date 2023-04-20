@@ -18,22 +18,22 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
 >title="Acerca de las restricciones de oferta"
->abstract="Con las restricciones, se puede especificar cómo se prioriza y presenta la oferta al usuario en comparación con otras ofertas."
+>abstract="Con las restricciones, se puede especificar cómo se prioriza la oferta y cómo se presenta al usuario en comparación con otras ofertas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_constraints"
 >title="Acerca de las restricciones de oferta"
->abstract="Con las restricciones, se puede especificar cómo se prioriza y presenta la oferta al usuario en comparación con otras ofertas."
+>abstract="Con las restricciones, se puede especificar cómo se prioriza la oferta y cómo se presenta al usuario en comparación con otras ofertas."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
->title="Acerca de la prioridad de oferta"
->abstract="En este campo, se puede especificar la configuración de prioridad para la oferta. La prioridad es un número que se utiliza para clasificar ofertas que cumplen todas las restricciones, como idoneidad, fechas y límite."
+>title="Acerca de la prioridad de las ofertas"
+>abstract="En este campo, se puede especificar la configuración de prioridad de la oferta. La prioridad es un número que se utiliza para clasificar ofertas que cumplen todas las restricciones, como idoneidad, fechas y límite."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
->title="Establecimiento de prioridad"
->abstract="La prioridad ayuda a definir la prioridad de la oferta con respecto a otras si el usuario reúne los requisitos para más de una. Cuanto más alta sea la prioridad de una oferta, más primará frente a otras."
+>title="Establecer prioridad"
+>abstract="La prioridad ayuda a definir la prioridad de la oferta en comparación con otras si el usuario cumple los requisitos para más de una oferta. Cuanto mayor sea la prioridad de una oferta, mayor será su prioridad en comparación con otras ofertas."
 
 Las restricciones permiten definir las condiciones en las que se mostrará una oferta.
 
@@ -41,7 +41,7 @@ Las restricciones permiten definir las condiciones en las que se mostrará una o
 
    ![](../assets/offer-eligibility.png)
 
-1. Defina el **[!UICONTROL Prioridad]** de la oferta comparada con otras si el usuario cumple los requisitos para más de una oferta. Cuanto más alta sea la prioridad de una oferta, más primará frente a otras.
+1. Defina el **[!UICONTROL Prioridad]** de la oferta comparada con otras si el usuario cumple los requisitos para más de una oferta. Cuanto mayor sea la prioridad de una oferta, mayor será su prioridad en comparación con otras ofertas.
 
    ![](../assets/offer-priority.png)
 
@@ -63,13 +63,13 @@ Por ejemplo, si establece las siguientes restricciones:
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
->title="Definición de idoneidad"
->abstract="Por defecto, cualquier perfil podrá recibir la oferta, pero puede recurrir a segmentos o reglas de decisión para reservarla a perfiles específicos."
+>title="Definir idoneidad"
+>abstract="De forma predeterminada, cualquier perfil podrá recibir la oferta, pero puede utilizar segmentos o reglas de decisión para restringir la oferta a perfiles específicos."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
->title="Acerca de la idoneidad de oferta"
->abstract="En esta sección, puede utilizar reglas de decisión para determinar qué usuarios cumplen los requisitos para la oferta."
+>title="Acerca de la idoneidad de la oferta"
+>abstract="En esta sección, puede utilizar reglas de decisión para determinar qué usuarios podrán recibir la oferta."
 >additional-url="https://video.tv.adobe.com/v/329373" text="Ver vídeo de demostración"
 
 >[!CONTEXTUALHELP]
@@ -131,19 +131,19 @@ Básicamente, el resultado de un segmento es una lista de perfiles, mientras que
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
->title="Acerca del límite de oferta"
+>title="Acerca del límite de ofertas"
 >abstract="En este campo, se puede especificar cuántas veces se puede presentar la oferta."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="Uso de límites"
->abstract="Para evitar saturar a sus clientes, utilice el límite para definir el número máximo de veces que se puede presentar una oferta."
+>title="Usar límite"
+>abstract="Para evitar un exceso de solicitudes a sus clientes, utilice la función de límite para definir el número máximo de veces que se puede presentar una oferta."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=es#capping-change-date" text="Cambiar fechas puede afectar al límite"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
->title="Definición de la frecuencia del límite"
->abstract="Puede elegir restablecer el contador de límite de oferta de forma diaria, semanal o mensual. Tenga en cuenta que después de guardar la oferta, no podrá cambiar la frecuencia seleccionada."
+>title="Definir la frecuencia de límite"
+>abstract="Puede elegir restablecer el contador de límite de ofertas de forma diaria, semanal o mensual. Tenga en cuenta que después de guardar la oferta, no podrá cambiar la frecuencia seleccionada."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping_impression"
@@ -280,7 +280,7 @@ Si ha definido varias [representaciones](add-representations.md) para la oferta,
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
 >title="Cambiar fechas puede afectar al límite"
->abstract="Si se aplica un límite a esta oferta, este puede verse afectado al cambiar la fecha de inicio o finalización."
+>abstract="Si se aplica un límite a esta oferta, este se puede ver afectado al cambiar la fecha de inicio o de finalización."
 
 Se debe tener cuidado al cambiar la fecha de una oferta, ya que esto puede tener un impacto en el límite si se cumplen las siguientes condiciones:
 
