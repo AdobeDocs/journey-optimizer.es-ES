@@ -12,7 +12,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -79,8 +79,8 @@ Para obtener más información sobre cómo configurar una campaña, consulte [es
 
 >[!CONTEXTUALHELP]
 >id="test_id"
->title="Configuración del contenido del correo electrónico"
->abstract="Cree el contenido del correo electrónico. Defina su asunto y, a continuación, aproveche el Diseñador de correo electrónico para crear y personalizar el cuerpo del correo electrónico."
+>title="Configurar el contenido del correo electrónico"
+>abstract="Cree el contenido del correo electrónico. Defina su asunto y, a continuación, aproveche el diseñador de correo electrónico para crear y personalizar el cuerpo del correo electrónico."
 
 1. En la pantalla de configuración de recorrido o de campaña, haga clic en el botón **[!UICONTROL Editar contenido]** para configurar el contenido del correo electrónico. [Más información](get-started-email-design.md)
 
