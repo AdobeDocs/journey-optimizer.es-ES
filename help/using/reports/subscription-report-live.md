@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Informe de suscripción en directo
+title: Informe en vivo de la suscripción
 description: Aprenda a utilizar los datos de sus servicios de suscripción con el informe de suscripción activo
 feature: Journeys
 topic: Content Management
@@ -11,16 +11,16 @@ exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
-# Informe de suscripción en directo {#subscription-report-live}
+# Informe en vivo de la suscripción {#subscription-report-live}
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_live_report"
->title="Informe de suscripción en directo"
->abstract="El informe Suscripción en directo permite medir y visualizar en tiempo real la actividad de los suscriptores solo durante las últimas 24 horas. El informe se divide en distintas utilidades que detallan las suscripciones y las bajas de suscripción. Cada tablero de informes se puede modificar cambiando el tamaño o eliminando las utilidades."
+>title="Informe en vivo de la suscripción"
+>abstract="El informe en vivo de la suscripción permite medir y visualizar en tiempo real la actividad de los suscriptores solo durante las últimas 24 horas. El informe se divide en distintos widgets que detallan las subscripciones y las cancelaciones de subscripciones. Cada tablero de informes se puede modificar cambiando el tamaño o eliminando los widgets."
 
 La suscripción **[!UICONTROL Informe activo]** muestra detalles sobre la actividad de sus suscriptores en las últimas 24 horas solamente. Para medir las suscripciones durante un período de tiempo seleccionado, consulte la [Informe global de suscripción](subscription-report-global.md).
 
