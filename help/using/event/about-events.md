@@ -12,7 +12,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '980'
-ht-degree: 61%
+ht-degree: 65%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 61%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Acerca de los eventos"
->abstract="Un evento está vinculado a una persona. Se refiere al comportamiento de una persona (por ejemplo, una persona compró un producto, visitó una tienda, salió de un sitio web, etc.) o algo que suceda vinculado a una persona (por ejemplo, una persona alcanzó 10 000 puntos de lealtad). Esto es lo que Journey Optimizer escuchará en recorridos para orquestar las mejores próximas acciones."
+>abstract="Un evento está vinculado a una persona. Se refiere al comportamiento de una persona (por ejemplo, una persona compró un producto, visitó una tienda, salió de un sitio web, etc.) o algo que suceda vinculado a una persona (por ejemplo, una persona alcanzó 10 000 puntos de fidelidad). Esto es lo que Journey Optimizer escucha en los recorridos para orquestar las mejores próximas acciones."
 
 La configuración de eventos permite definir la información que [!DNL Journey Optimizer] recibirá como eventos. Puede utilizar varios eventos (en diferentes pasos de un recorrido) y varios recorridos pueden utilizar el mismo evento.
 
@@ -31,7 +31,7 @@ La configuración de eventos permite definir la información que [!DNL Journey O
 
 Puede configurar dos tipos de eventos:
 
-* **Unitario** eventos: estos eventos están vinculados a una persona. Se refieren al comportamiento de una persona (por ejemplo, una persona compró un producto, visitó una tienda, salió de un sitio web, etc.) o algo que suceda vinculado a una persona (por ejemplo, una persona alcanzó 10 000 puntos de lealtad). Esto es lo que escucha [!DNL Journey Optimizer] en los recorridos para orquestar las mejores próximas acciones. Los eventos unitarios pueden generarse mediante reglas o mediante el sistema. Para aprender a crear un evento unitario, consulte esta [página](../event/about-creating.md).
+* **Unitario** eventos: estos eventos están vinculados a una persona. Se refieren al comportamiento de una persona (por ejemplo, una persona compró un producto, visitó una tienda, salió de un sitio web, etc.) o algo que suceda vinculado a una persona (por ejemplo, una persona alcanzó 10 000 puntos de fidelidad). Esto es lo que escucha [!DNL Journey Optimizer] en los recorridos para orquestar las mejores próximas acciones. Los eventos unitarios pueden generarse mediante reglas o mediante el sistema. Para aprender a crear un evento unitario, consulte esta [página](../event/about-creating.md).
 
 * **Empresa** eventos: un evento empresarial es un evento que, a diferencia de un evento unitario, no está vinculado a un perfil específico. Por ejemplo, puede ser una alerta de noticias, una actualización de deportes, un cambio o cancelación de vuelo, una actualización de inventario, eventos meteorológicos, etc. Aunque estos eventos no son específicos de un perfil, pueden ser de interés para cualquier número de perfiles: personas suscritas a temas de noticias particulares, pasajeros en un vuelo, compradores interesados en un producto fuera de existencias, etc. Los eventos comerciales siempre se basan en reglas. Cuando se coloca un evento empresarial en un recorrido, se agrega automáticamente un **Leer segmento** actividad justo después. Para aprender a crear un evento empresarial, consulte esta [página](../event/about-creating-business.md).
 
