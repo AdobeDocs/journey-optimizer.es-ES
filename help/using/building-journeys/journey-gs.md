@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 16%
+ht-degree: 22%
 
 ---
 
@@ -43,7 +43,7 @@ Para enviar mensajes con recorridos, se requieren las siguientes configuraciones
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Cree su recorrido"
->abstract="Esta pantalla muestra la lista de recorridos existentes. Abra un recorrido o haga clic en &quot;Crear recorrido&quot; y combine las diferentes actividades de evento, orquestación y acción para crear sus escenarios multicanal de varios pasos."
+>abstract="Esta pantalla muestra la lista de recorridos existentes. Abra un recorrido o haga clic en “Crear recorrido” y combine las diferentes actividades de evento, orquestación y acción para crear sus escenarios multicanal de varios pasos."
 
 Este paso lo realiza el **usuario empresarial**. Aquí es donde crea sus recorridos. Combine las distintas actividades de evento, orquestación y acción para crear sus escenarios de canal cruzado de varios pasos.
 
