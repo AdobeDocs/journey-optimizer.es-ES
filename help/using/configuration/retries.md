@@ -12,7 +12,7 @@ exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
@@ -37,8 +37,8 @@ Si una entrega se realiza correctamente después de un reintento, el contador de
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"
 >title="Actualizar el umbral de reintentos"
->abstract="Si el valor predeterminado no se ajusta a sus necesidades, puede modificar el número permitido de devoluciones leves consecutivas. Cuando el contador de reintentos alcanza el umbral de error para una dirección de correo electrónico específica, esta dirección se agrega a la lista de supresión."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Comprender la lista de supresión"
+>abstract="Si el valor predeterminado no se ajusta a sus necesidades, puede modificar el número permitido de mensajes devueltos no entregados consecutivos. Cuando el recuento de reintentos alcanza el umbral de error para una dirección de correo electrónico específica, esta dirección se agrega a la lista de supresión."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=es" text="Comprender la lista de supresión"
 
 Si el valor predeterminado de 5 no se adapta a sus necesidades, puede modificar el umbral de error siguiendo los pasos a continuación.
 
