@@ -12,7 +12,7 @@ exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 2%
+ht-degree: 21%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_reaction"
 >title="Eventos de reacción"
->abstract="Esta actividad le permite reaccionar ante el seguimiento de datos relacionados con un mensaje enviado dentro del mismo recorrido. Capturamos esta información en tiempo real en el momento en que se comparte con Adobe Experience Platform."
+>abstract="Esta actividad permite reaccionar ante los datos de seguimiento relacionados con un mensaje enviado dentro del mismo recorrido. Capturamos esta información en tiempo real en el momento en que se comparte con Adobe Experience Platform."
 
-Entre las distintas actividades de evento disponibles en la paleta, se encuentra el complemento **[!UICONTROL Reacciones]** evento. Esta actividad le permite reaccionar ante el seguimiento de datos relacionados con un mensaje enviado dentro del mismo recorrido. Capturamos esta información en tiempo real en el momento en que se comparte con Adobe Experience Platform.
+Entre las distintas actividades de evento disponibles en la paleta, se encuentra el complemento **[!UICONTROL Reacciones]** evento. Esta actividad permite reaccionar ante los datos de seguimiento relacionados con un mensaje enviado dentro del mismo recorrido. Capturamos esta información en tiempo real en el momento en que se comparte con Adobe Experience Platform.
 
 Puede reaccionar a los mensajes en los que se ha hecho clic o que se han abierto.
 
