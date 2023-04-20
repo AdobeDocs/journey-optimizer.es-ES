@@ -6,10 +6,11 @@ description: Obtenga información sobre cómo configurar subdominios de SMS con 
 role: Admin
 level: Intermediate
 keywords: SMS, subdominios, configuración
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
+source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
 >title="Delegación de un subdominio de SMS"
->abstract="Establecerá su subdominio para uso SMS. Puede utilizar un subdominio que ya esté delegado en el Adobe o configurar otro subdominio."
+>abstract="Establecerá su subdominio para uso SMS. Puede utilizar un subdominio ya delegado a Adobe o configurar otro subdominio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
@@ -97,7 +98,7 @@ Para utilizar un subdominio que ya está delegado en Adobe, siga los pasos a con
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_subdomain_dns"
->title="Generar el registro DNS correspondiente"
+>title="Generar el registro DNS coincidente"
 >abstract="Para configurar un nuevo subdominio SMS, debe copiar la información del servidor de nombres de Adobe que se muestra en la interfaz de Journey Optimizer y pegarla en la solución de alojamiento de dominios para generar el registro DNS correspondiente. Una vez realizadas las comprobaciones correctamente, el subdominio está listo para utilizarse para crear superficies SMS."
 
 Para configurar un nuevo subdominio, siga los pasos a continuación.
