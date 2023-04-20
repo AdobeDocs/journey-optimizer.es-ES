@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 8a311d546829d0d80f32dfdddcdf30805688f757
 workflow-type: tm+mt
 source-wordcount: '1904'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_report"
 >title="Informe global de la campaña"
->abstract="El informe global de campaña permite medir el impacto de las campañas durante un período de tiempo seleccionado. El informe se divide en distintas utilidades que detallan el éxito y los errores de la campaña. Cada tablero de informes se puede modificar cambiando el tamaño o eliminando las utilidades."
+>abstract="El informe global de campaña permite medir el impacto de las campañas durante un período de tiempo seleccionado. El informe se divide en distintos widgets que detallan el éxito y los errores de la campaña. Cada tablero de informes se puede modificar cambiando el tamaño o eliminando los widgets."
 
 Se puede acceder al informe global de campaña directamente desde la Campaign con la variable **[!UICONTROL Ver informe]** botón.
 
