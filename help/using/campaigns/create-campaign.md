@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 8%
+ht-degree: 20%
 
 ---
 
@@ -35,12 +35,12 @@ Para crear una nueva campaña, acceda al **[!UICONTROL Campañas]** a continuaci
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campaña"
->abstract="Para un mensaje de marketing especificando una fecha de envío, la variable **Programado** es el más adecuado. Sin embargo, si desea enviar mensajes transaccionales como restablecimiento de contraseña o abandono del carro de compras, la variable **Activado por API** es la mejor opción."
+>abstract="Para un mensaje de marketing especificando una fecha de envío, la variable **Programado** es el más adecuado. Sin embargo, si desea enviar mensajes transaccionales como restablecimiento de contraseña o abandono del carro de compras, el tipo **Activado por API** es la mejor opción."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Categoría de la campaña"
->abstract="El valor de categoría está asociado directamente al valor de tipo de campaña. Programar tipo de campaña para **Marketing** categoría y tipo activado por API para la categoría **Transaccional**"
+>abstract="El valor de categoría está asociado directamente al valor de tipo de campaña. Programar tipo de campaña para la categoría **Marketing** y tipo activado por API para la categoría **Transaccional**"
 
 1. En el **[!UICONTROL Propiedades]** especifique cómo desea ejecutar la campaña. Hay dos tipos de campaña disponibles:
 
@@ -143,17 +143,17 @@ En el **[!UICONTROL Acciones]** , cree el mensaje que desea enviar con la campa�
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
->title="Inicio de la campaña"
+>title="Inicio de campaña"
 >abstract="Especifique la fecha y la hora a las que se debe enviar el mensaje."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_end"
->title="Fin de la campaña"
+>title="Fin de campaña"
 >abstract="Especifique cuándo se debe detener la ejecución de una campaña recurrente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_triggers"
->title="Déclencheur de acción de Campaign"
+>title="Activadores de acciones de campaña"
 >abstract="Defina una frecuencia a la que se debe enviar el mensaje de la campaña."
 
 De forma predeterminada, las campañas se inician una vez activadas manualmente y finalizan en cuanto se envía una vez el mensaje.
