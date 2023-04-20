@@ -11,7 +11,7 @@ exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -57,7 +57,7 @@ Para eliminar una plantilla, seleccione el icono de papelera situado junto a la 
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_template"
->title="Defina su propia plantilla de contenido"
+>title="Definir su propia plantilla de contenido"
 >abstract="Cree una plantilla personalizada independiente desde cero para que el contenido se pueda reutilizar en varios recorridos y campañas."
 
 Existen dos formas de crear plantillas de contenido:
@@ -123,8 +123,8 @@ Esta plantilla ya está lista para utilizarse al crear cualquier correo electró
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
->title="Descubra cómo migrar sus mensajes"
->abstract="El 25 de julio de 2022, desapareció el menú Mensajes y ahora los mensajes se crean directamente desde un Recorrido. Si desea reutilizar los mensajes heredados en recorrido, debe guardarlos como plantillas."
+>title="Aprenda a migrar sus mensajes"
+>abstract="El 25 de julio de 2022, desapareció el menú Mensajes y ahora los mensajes se crean directamente desde un recorrido. Si desea reutilizar los mensajes heredados en recorridos, debe guardarlos como plantillas."
 
 Al diseñar una [email](get-started-email-design.md) en una campaña o un recorrido, puede guardar el contenido del correo electrónico para reutilizarlo en el futuro. Para realizar esto, siga los pasos a continuación.
 
