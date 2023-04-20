@@ -12,7 +12,7 @@ exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1324'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 >id="ac_lp_components"
 >title="Uso de componentes de contenido"
 >abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una página de aterrizaje. Para definir contenido específico que permita a los usuarios seleccionar y enviar sus opciones, utilice el componente de formulario."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="Añadir componentes de contenido"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html?lang=es#add-content-components" text="Añadir componentes de contenido"
 
 Para diseñar el contenido de su página de aterrizaje, puede utilizar los mismos componentes que para un correo electrónico. [Más información](../email/content-components.md#add-content-components)
 
@@ -38,9 +38,9 @@ Con el diseñador de contenido de páginas de aterrizaje, también puede aprovec
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
->title="Definición de los campos del componente de formulario"
->abstract="Defina cómo verán y enviará sus opciones los destinatarios desde la página de aterrizaje."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="Definir estilos de formulario de una página de aterrizaje"
+>title="Definir los campos del componente de formulario"
+>abstract="Defina cómo verán y enviarán sus opciones los destinatarios desde la página de aterrizaje."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html?lang=es#lp-form-styles" text="Definir estilos de formulario de una página de aterrizaje"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
