@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -46,7 +46,7 @@ En Adobe Journey Optimizer, OLAC le permite proteger datos y conceder acceso esp
 >
 >Para poder crear etiquetas, debe formar parte de una función con la variable **[!UICONTROL Administrar etiquetas de uso]** permiso.
 
-**[!UICONTROL Las etiquetas permiten categorizar conjuntos de datos y campos según las políticas de uso que se aplican a esos datos.]** **[!UICONTROL Etiquetas]** se puede aplicar en cualquier momento, lo que proporciona flexibilidad en la forma en que elige administrar los datos.
+**[!UICONTROL Las etiquetas permiten clasificar los conjuntos de datos y campos según las directivas de uso que se aplican a esos datos.]** **[!UICONTROL Etiquetas]** se puede aplicar en cualquier momento, lo que proporciona flexibilidad en la forma en que elige administrar los datos.
 
 Puede crear etiquetas en la variable [!DNL Permissions] producto. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html).
 
