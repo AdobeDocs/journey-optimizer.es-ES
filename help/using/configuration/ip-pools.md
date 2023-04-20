@@ -12,7 +12,7 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 2%
+ht-degree: 11%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"
 >title="Configuración de un grupo de IP"
->abstract="Los grupos de IP recopilan las direcciones IP de los subdominios para mejorar la capacidad de envío de correo electrónico."
+>abstract="Los grupos de IP recopilan las direcciones IP de los subdominios para mejorar la entregabilidad del correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
 >title="Configuración de un grupo de IP"
->abstract="Con Journey Optimizer, puede crear grupos de IP para agrupar las direcciones IP de los subdominios. Esto puede mejorar significativamente la capacidad de envío del correo electrónico, ya que al hacerlo, puede evitar que la reputación de un subdominio afecte a los demás subdominios."
+>abstract="Con Journey Optimizer, puede crear grupos de IP para agrupar las direcciones IP de los subdominios. Esto puede mejorar significativamente la entregabilidad del correo electrónico, ya que al hacerlo, puede evitar que la reputación de un subdominio afecte a los demás subdominios."
 
 ## Acerca de los grupos de IP {#about-ip-pools}
 
