@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '2044'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_global_report"
 >title="Informe global de recorrido"
->abstract="El informe global de Recorrido le permite medir el impacto de sus recorridos durante un período de tiempo seleccionado. El informe se divide en distintas utilidades que detallan el éxito y los errores del recorrido. Cada tablero de informes se puede modificar cambiando el tamaño o eliminando las utilidades."
+>abstract="El informe global de recorrido permite medir el impacto de sus recorridos durante un período de tiempo seleccionado. El informe se divide en distintos widgets que detallan el éxito y los errores del recorrido. Cada tablero de informes se puede modificar cambiando el tamaño o eliminando los widgets."
 
 Se puede acceder al informe global de recorrido directamente desde el recorrido con la variable **[!UICONTROL Ver informe]** botón.
 
