@@ -18,7 +18,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement"
 >title="Colocación"
->abstract="Una ubicación es un contenedor que se utiliza para mostrar ofertas. Ayuda a garantizar que el contenido de oferta correcto se presenta en la ubicación adecuada dentro del mensaje. Las ubicaciones se crean desde el menú Componentes."
+>abstract="Una ubicación es un contenedor que se utiliza para mostrar ofertas. Ayuda a garantizar que se muestra el contenido de oferta correcto en la ubicación correcta dentro del mensaje. Las ubicaciones se crean desde el menú “Componentes”."
 
 Una ubicación ayuda a garantizar que el contenido de oferta correcto se muestre en la ubicación correcta dentro del mensaje. Al agregar contenido a una oferta, se le pedirá que seleccione una ubicación en la que se pueda mostrar dicho contenido.
 
