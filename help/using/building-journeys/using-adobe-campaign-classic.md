@@ -12,7 +12,7 @@ exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 19%
+ht-degree: 28%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 19%
 
 Una integración está disponible si tiene Adobe Campaign v7 o v8. Le permitirá enviar correos electrónicos, notificaciones push y SMS utilizando las funciones de mensajería transaccional de Adobe Campaign.
 
-La conexión entre las instancias de Journey Optimizer y Campaign se configura por Adobe en el momento del aprovisionamiento. Adobe de contacto.
+Adobe configura la conexión entre las instancias de Journey Optimizer y Campaign en el momento del aprovisionamiento. Adobe de contacto.
 
 Para que esto funcione, debe configurar una acción dedicada. Consulte esta [sección](../action/acc-action.md).
 
