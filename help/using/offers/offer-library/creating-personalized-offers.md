@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -32,12 +32,12 @@ Se puede acceder a la lista de ofertas personalizadas en la **[!UICONTROL Oferta
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
 >title="Acerca de los atributos de oferta"
->abstract="Con los atributos de oferta, puede asociar pares de valor clave con la oferta para fines de creación de informes y análisis."
+>abstract="Con los atributos de oferta, puede asociar pares de valores clave con la oferta para realizar informes y análisis."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_attributes"
 >title="Atributos de oferta"
->abstract="Con los atributos de oferta, puede asociar pares de valor clave con la oferta para fines de creación de informes y análisis."
+>abstract="Con los atributos de oferta, puede asociar pares de valores clave con la oferta para realizar informes y análisis."
 
 Para crear un **oferta**, siga estos pasos:
 
