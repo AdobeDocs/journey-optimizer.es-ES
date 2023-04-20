@@ -15,7 +15,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '2013'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -127,8 +127,8 @@ Para obtener una verdadera perspectiva empresarial, debe limitarse a un solo exp
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_summary"
->title="Widget de resumen"
->abstract="El widget Resumen proporciona una descripción general de los resultados del experimento, incluso si son concluyentes o no. Ofrece una forma rápida y sencilla de comprender el resultado de su experimento."
+>title="Widget Resumen"
+>abstract="El widget Resumen proporciona información general acerca de los resultados del experimento, incluso si son concluyentes o no. Ofrece una forma rápida y sencilla de comprender el resultado de su experimento."
 
 ![](assets/experimentation_report_3.png)
 
