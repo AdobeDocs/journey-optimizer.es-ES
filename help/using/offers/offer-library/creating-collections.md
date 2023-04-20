@@ -18,7 +18,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_collection"
 >title="Acerca de las colecciones de ofertas"
->abstract="Con las colecciones de ofertas, puede organizarlas reagrupándolas en categorías de su elección."
+>abstract="Con las colecciones de ofertas, puede organizar las ofertas reagrupándolas en las categorías que desee."
 
 Las colecciones permiten organizar las ofertas reagrupándolas en categorías de su elección. Por ejemplo, puede crear una colección &quot;deportiva&quot; que contenga únicamente ofertas relacionadas con el deporte.
 
