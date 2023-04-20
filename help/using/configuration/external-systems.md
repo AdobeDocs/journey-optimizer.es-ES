@@ -10,7 +10,7 @@ exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
 workflow-type: tm+mt
 source-wordcount: '1202'
-ht-degree: 3%
+ht-degree: 32%
 
 ---
 
@@ -34,19 +34,19 @@ Cuando Journey Optimizer ejecuta una llamada a una API externa, las protecciones
 
 ### Acerca de las API de restricción y restricción
 
-Al configurar una fuente de datos o una acción, se establece una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos o enviar mensajes o llamadas API.
+Al configurar una fuente de datos o una acción, se establece una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos o enviar mensajes o llamadas de API.
 
-Las API de Recorrido admiten hasta 5000 eventos por segundo, pero es posible que algunos sistemas externos o API no tengan un rendimiento equivalente. Para evitar sobrecargar estos sistemas, puede usar la variable **Restricción** y **Restricción** para limitar el número de eventos enviados por segundo.
+Las API de recorridos admiten hasta 5000 eventos por segundo, pero es posible que algunos sistemas externos o API no tengan un rendimiento equivalente. Para evitar sobrecargar estos sistemas, puede usar la variable **Restricción** y **Restricción** para limitar el número de eventos enviados por segundo.
 
 Cada vez que recorrido realiza una llamada a la API, esta pasa por el motor de API. Si se alcanza el límite establecido en la API, la llamada de se rechaza si utiliza la API de restricción o se pone en cola durante un máximo de 6 horas y se procesa lo antes posible en el orden en que se recibió si utiliza la API de restricción.
 
-Por ejemplo, supongamos que ha definido una regla de límite o restricción de 100 llamadas por segundo para su sistema externo. Una acción personalizada llama al sistema en 10 recorridos diferentes. Si un recorrido recibe 200 llamadas por segundo, utilizará las 100 ranuras disponibles y descartará o pondrá en cola las 100 ranuras restantes. Como la velocidad máxima se ha superado, los otros 9 recorridos no tendrán ninguna ranura. Esta granularidad ayuda a proteger el sistema externo de sobrecargas y caídas.
+Por ejemplo, supongamos que ha definido una regla de límite o limitación de 100 llamadas por segundo para su sistema externo. Una acción personalizada llama al sistema en 10 recorridos diferentes. Si un recorrido recibe 200 llamadas por segundo, utilizará las 100 ranuras disponibles y descartará o pondrá en cola las 100 restantes. Como la velocidad máxima se ha superado, los otros 9 recorridos no tendrán ninguna ranura. Esta granularidad ayuda a proteger el sistema externo de sobrecargas y caídas.
 
 >[!IMPORTANT]
 >
->**Reglas de restricción** se configuran en el nivel de entorno limitado, para un punto final específico (la dirección URL denominada) pero global para todos los recorridos de ese entorno limitado.
+>Las **Reglas de límite** se configuran en el nivel de zona protegida, para un extremo específico (la dirección URL denominada), pero de forma global para todos los recorridos de esa zona protegida.
 >
->**Reglas de restricción** solo están configuradas en entornos limitados de producción, para un punto final específico pero globales para todos los recorridos de todos los entornos limitados. Solo puede tener una configuración de regulación por organización.
+>Las **Reglas de limitación** solo están configuradas en zonas protegidas de producción, para un extremo específico, pero de forma global para todos los recorridos de todas las zonas protegidas. Solo puede tener una configuración de limitación por organización.
 
 Para obtener más información sobre cómo trabajar con las API, consulte estas secciones:
 
@@ -55,15 +55,15 @@ Para obtener más información sobre cómo trabajar con las API, consulte estas 
 
 Puede encontrar una descripción detallada de las API en [Documentación de las API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
 
-### Fuentes de datos y capacidad de acciones personalizadas {#capacity}
+### Capacidad de fuentes de datos y acciones personalizadas {#capacity}
 
-Para **fuentes de datos externas**, el número máximo de llamadas por segundo está limitado a 15. Si se supera este límite, las llamadas adicionales se descartan o se ponen en cola según la API en uso. Es posible aumentar este límite para las fuentes de datos externas privadas poniéndose en contacto con el Adobe para incluir el punto final en la lista de permitidos, pero esta no es una opción para las fuentes de datos externas públicas. * [Obtenga información sobre cómo configurar fuentes de datos](../datasource/about-data-sources.md).
+Para **fuentes de datos externas**, el número máximo de llamadas por segundo está limitado a 15. Si se supera este límite, las llamadas adicionales se descartan o se ponen en cola según la API en uso. Es posible aumentar este límite para las fuentes de datos externas privadas poniéndose en contacto con Adobe para incluir en la lista de permitidos el extremo, pero esto no es una opción para las fuentes de datos externas públicas. * [Obtenga información sobre cómo configurar fuentes de datos](../datasource/about-data-sources.md).
 
 >[!NOTE]
 >
->Si una fuente de datos utiliza una autenticación personalizada con un extremo diferente al que se usa para la fuente de datos, debe ponerse en contacto con Adobe para incluir también ese extremo en la lista de permitidos.
+>Si una fuente de datos utiliza una autenticación personalizada con un extremo diferente al que se usa para la fuente de datos, debe ponerse en contacto con Adobe para incluir en la lista de permitidos también este.
 
-Para **acciones personalizadas**, debe evaluar la capacidad de su API externa. Por ejemplo, si Journey Optimizer envía 1000 llamadas por segundo y el sistema solo puede admitir 100 llamadas por segundo, debe definir una configuración de límite o de regulación para que el sistema no se satura. [Obtenga información sobre cómo configurar acciones](../action/action.md)
+Para **acciones personalizadas**, debe evaluar la capacidad de su API externa. Por ejemplo, si Journey Optimizer envía 1000 llamadas por segundo y el sistema solo puede admitir 100, debe definir una configuración de límite o de limitación para que el sistema no se sature. [Obtenga información sobre cómo configurar acciones](../action/action.md)
 
 ## Tiempo de espera y reintentos{#timeout}
 
