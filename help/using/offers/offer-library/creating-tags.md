@@ -18,7 +18,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_tags"
 >title="Cualificadores de colección"
->abstract="Asocie uno o varios cualificadores de colección a la oferta para mantener la biblioteca de ofertas organizada y localizarlas más fácilmente. Los cualificadores de colección se crean desde el menú Componente."
+>abstract="Asocie uno o varios calificadores de colección a la oferta para mantener la biblioteca de ofertas organizada y localizar las ofertas más fácilmente. Los calificadores de colección se crean desde el menú “Componentes”."
 
 La asociación de calificadores de recopilación (anteriormente conocidos como &quot;etiquetas&quot;) a las ofertas facilita su organización. Por ejemplo, puede etiquetar las ofertas del Black Friday con el calificador de colección &quot;Black Friday&quot;. A continuación, puede utilizar la funcionalidad de búsqueda de la Biblioteca de ofertas para localizar fácilmente todas las ofertas con ese calificador de colección.
 
