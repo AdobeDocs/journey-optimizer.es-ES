@@ -10,7 +10,7 @@ exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '807'
-ht-degree: 2%
+ht-degree: 24%
 
 ---
 
@@ -18,20 +18,20 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp_header"
->title="Delegación de un subdominio de página de aterrizaje"
->abstract="Se configurará el subdominio para su uso en una página de aterrizaje. Puede utilizar un subdominio que ya esté delegado en el Adobe o configurar otro subdominio."
+>title="Delegar un subdominio de página de aterrizaje"
+>abstract="Se configurará el subdominio para su uso en una página de aterrizaje. Puede utilizar un subdominio ya delegado a Adobe o configurar otro subdominio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
->title="Delegación de un subdominio de página de aterrizaje"
->abstract="Debe configurar un subdominio para utilizarlo en las páginas de aterrizaje, ya que necesitará este subdominio para crear un ajuste preestablecido de página de aterrizaje. Puede utilizar un subdominio ya delegado a Adobe o configurar un nuevo subdominio."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Crear ajustes preestablecidos de página de aterrizaje"
+>title="Delegar un subdominio de página de aterrizaje"
+>abstract="Debe configurar un subdominio para utilizarlo en las páginas de aterrizaje, ya que lo necesitará para crear un ajuste preestablecido de página de aterrizaje. Puede utilizar un subdominio ya delegado a Adobe o configurar un nuevo subdominio."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=es#lp-create-preset" text="Crear ajustes preestablecidos de la página de aterrizaje"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
->title="Crear un ajuste preestablecido de página de aterrizaje"
+>title="Crear ajustes preestablecidos de la página de aterrizaje"
 >abstract="Para poder crear un ajuste preestablecido de página de aterrizaje, asegúrese de haber configurado previamente al menos un subdominio de página de aterrizaje para seleccionarlo en la lista de nombres de subdominio."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Crear ajustes preestablecidos de página de aterrizaje"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=es#lp-create-preset" text="Crear ajustes preestablecidos de la página de aterrizaje"
 
 Para poder [crear ajustes preestablecidos de página de aterrizaje](lp-presets.md), debe configurar los subdominios que desea utilizar para las páginas de aterrizaje.
 
@@ -95,8 +95,8 @@ Para utilizar un subdominio que ya está delegado en Adobe, siga los pasos a con
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_lp_subdomain_dns"
->title="Generar el registro DNS correspondiente"
->abstract="Para configurar un nuevo subdominio de página de aterrizaje, debe copiar la información del servidor de nombres de Adobe que se muestra en la interfaz de Journey Optimizer y pegarla en la solución de alojamiento de dominios para generar el registro DNS correspondiente. Una vez realizadas las comprobaciones correctamente, el subdominio está listo para utilizarse para crear ajustes preestablecidos de página de aterrizaje."
+>title="Generar el registro DNS coincidente"
+>abstract="Para configurar un nuevo subdominio de página de aterrizaje, debe copiar la información del servidor de nombres de Adobe que se muestra en la interfaz de Journey Optimizer y pegarla en la solución de alojamiento de dominios para generar el registro DNS coincidente. Una vez realizadas las comprobaciones correctamente, el subdominio está listo para utilizarse para crear ajustes preestablecidos de página de aterrizaje."
 
 Para configurar un nuevo subdominio, siga los pasos a continuación.
 
