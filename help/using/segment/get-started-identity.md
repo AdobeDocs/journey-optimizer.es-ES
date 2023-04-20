@@ -10,7 +10,7 @@ exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -26,7 +26,7 @@ En [!DNL Adobe Journey Optimizer], las **Identidades**[ vinculan los consumidore
 
 Más información sobre **Servicio de identidad** en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es){target="_blank"}.
 
-## Espacios de nombres de identidad {#identity-namespaces}
+## Áreas de nombres de identidad {#identity-namespaces}
 
 **** Las áreas de nombres de identidad son un componente de Identity Service de   que sirve de indicadores del contexto al que se relaciona una identidad. Por ejemplo, distinguen un valor de `name@email.com` como dirección de correo electrónico o `443522` como ID de CRM numérico. El trabajo con áreas de nombres de identidad requiere comprender los distintos servicios de Adobe Experience Platform involucrados. Antes de comenzar a trabajar con áreas de nombres, revise la documentación de los siguientes servicios:
 
