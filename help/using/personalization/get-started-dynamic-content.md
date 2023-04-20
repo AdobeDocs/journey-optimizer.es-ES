@@ -12,7 +12,7 @@ exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '150'
-ht-degree: 24%
+ht-degree: 38%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_conditions_list"
 >title="Condiciones"
->abstract="Las reglas condicionales le permiten mostrar varias variantes de contenido en sus mensajes en función de atributos de perfil, eventos contextuales o segmentos de audiencia."
+>abstract="Las reglas condicionales permiten mostrar varias variantes de contenido en sus mensajes en función de atributos de perfil, eventos contextuales o segmentos de audiencia."
 
 El contenido dinámico le permite adaptar el contenido de sus mensajes en función de **reglas condicionales** que pueden estar formados por atributos de perfil, eventos contextuales o segmentos de audiencia. Las reglas condicionales se crean mediante un generador de reglas visual dentro del Editor de expresiones, donde puede almacenarlas para su reutilización en los recorridos y campañas.
 
