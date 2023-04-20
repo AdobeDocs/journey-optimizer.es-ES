@@ -12,7 +12,7 @@ exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 2%
+ht-degree: 41%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Adición de un encabezado previo"
->abstract="Un encabezado previo es un breve texto de resumen que sigue la línea del asunto cuando se visualiza un correo electrónico desde su cliente de correo electrónico. En muchos casos, proporciona un breve resumen del correo electrónico y suele contener una frase."
+>title="Añadir un preencabezado"
+>abstract="Un preencabezado es un breve texto de resumen que sigue a la línea del asunto cuando se visualiza un correo electrónico desde su cliente de correo electrónico. En muchos casos, proporciona un breve resumen del correo electrónico y suele contener una frase."
 
-Un encabezado previo es un breve texto de resumen que sigue la línea del asunto cuando se visualiza un correo electrónico desde su cliente de correo electrónico.
+Un preencabezado es un breve texto de resumen que sigue a la línea del asunto cuando se visualiza un correo electrónico desde su cliente de correo electrónico.
 
 En muchos casos, proporciona un breve resumen del correo electrónico y suele contener una frase.
 
