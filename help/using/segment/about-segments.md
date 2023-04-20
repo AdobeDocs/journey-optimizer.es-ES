@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 6c255d66fb89ba756add062d8a4315dd622fd8e7
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"
 >title="Segmento"
->abstract="Al aprovechar los datos del perfil del cliente en tiempo real, Adobe Experience Platform le permite crear fácilmente segmentos dirigidos que capturan los comportamientos y las preferencias únicos de sus clientes."
+>abstract="Al aprovechar los datos del perfil del cliente en tiempo real, Adobe Experience Platform permite crear fácilmente segmentos específicos que capturan los comportamientos y las preferencias únicos de sus clientes."
 
 [!DNL Journey Optimizer]  le permite crear segmentos de Adobe Experience Platform utilizando datos de perfil de cliente en tiempo real directamente desde el **[!UICONTROL Segmentos]** y utilícelos en sus recorridos o campañas.
 
@@ -48,7 +48,7 @@ En Adobe Journey Optimizer, las audiencias se generan a partir de definiciones d
 
 * **Segmentación por transmisión**: La lista de audiencia del segmento se mantiene actualizada en tiempo real a medida que los nuevos datos entran en el sistema.
 
-   La segmentación por transmisión es un proceso continuo de selección de datos que actualiza los segmentos en respuesta a la actividad del usuario. Una vez que se ha creado y guardado un segmento, la definición del segmento se aplica a los datos entrantes en Journey Optimizer. Esto significa que se agregan o eliminan personas del segmento a medida que cambian los datos de perfil, lo que garantiza que la audiencia de destino siempre sea relevante.
+   La segmentación de streaming es un proceso continuo de selección de datos que actualiza los segmentos en respuesta a la actividad del usuario. Una vez que se ha creado y guardado un segmento, la definición del segmento se aplica a los datos entrantes en Journey Optimizer. Esto significa que se agregan o eliminan personas del segmento a medida que cambian los datos de perfil, lo que garantiza que la audiencia de destino siempre sea relevante.
 
 * **Segmentación por lotes**: La lista de audiencia del segmento se evalúa cada 24 horas.
 
