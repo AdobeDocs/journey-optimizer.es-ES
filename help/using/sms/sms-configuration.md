@@ -9,7 +9,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 2%
+ht-degree: 18%
 
 ---
 
@@ -39,7 +39,7 @@ Su uso de servicios SMS estará sujeto a términos y condiciones adicionales del
 >id="ajo_admin_sms_api"
 >title="Configurar el proveedor de SMS con Journey Optimizer"
 >abstract="Antes de enviar SMS, debe integrar la configuración del proveedor con Journey Optimizer. Una vez finalizado, deberá crear una superficie SMS. Estos pasos debe realizarlos un administrador del sistema de Adobe Journey Optimizer."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=en#message-preset-sms" text="Creación de una superficie de canal SMS"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=es#message-preset-sms" text="Crear una superficie de canal SMS"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
@@ -77,9 +77,9 @@ Después de crear y configurar las credenciales de API, debe crear una superfici
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
->title="Defina la categoría SMS"
->abstract="Seleccione el tipo de mensajes SMS con esta superficie: Marketing para mensajes SMS promocionales, que requieren el consentimiento del usuario, o transaccional para mensajes SMS no comerciales, como restablecimiento de contraseña."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="Exclusión en mensajes SMS de marketing"
+>title="Definir la categoría de SMS"
+>abstract="Seleccione el tipo de mensajes SMS con esta superficie: Marketing para mensajes SMS promocionales, que requieren el consentimiento del usuario, o Transaccional para mensajes SMS no comerciales, como restablecimiento de contraseña."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=es#sms-opt-out-management" text="Exclusión en mensajes SMS de marketing"
 
 Una vez configurado el canal SMS, debe crear una superficie de canal para poder enviar mensajes SMS desde **[!DNL Journey Optimizer]**.
 
