@@ -12,7 +12,7 @@ exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 8%
+ht-degree: 15%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_business"
->title="Eventos comerciales"
->abstract="La configuración de evento le permite definir la información que Journey Optimizer recibirá como eventos. Puede utilizar varios eventos (en diferentes pasos de un recorrido) y varios recorridos pueden utilizar el mismo evento. A diferencia de los eventos unitarios, los eventos comerciales no están vinculados a un perfil específico. El tipo de ID de evento siempre se basa en reglas."
+>title="Eventos empresariales"
+>abstract="La configuración de evento permite definir la información que Journey Optimizer recibirá como eventos. Puede utilizar varios eventos (en diferentes pasos de un recorrido) y varios recorridos pueden utilizar el mismo evento. A diferencia de los eventos unitarios, los eventos empresariales no están vinculados a un perfil específico. El tipo de ID de evento siempre se basa en reglas."
 
-A diferencia de los eventos unitarios, los eventos comerciales no están vinculados a un perfil específico. El tipo de ID de evento siempre se basa en reglas. Obtenga más información sobre los eventos empresariales en [esta sección](../event/about-events.md).
+A diferencia de los eventos unitarios, los eventos empresariales no están vinculados a un perfil específico. El tipo de ID de evento siempre se basa en reglas. Obtenga más información sobre los eventos empresariales en [esta sección](../event/about-events.md).
 
 Los recorridos basados en segmentos de lectura se pueden activar en una sola toma, por un programador de forma regular o por un evento comercial, cuando se produce el evento.
 
