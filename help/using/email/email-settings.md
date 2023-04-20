@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1652'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -38,8 +38,8 @@ La configuración de la superficie del correo electrónico se recoge para enviar
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="Definir la categoría de correo electrónico"
->abstract="Seleccione el tipo de correos electrónicos que se enviarán al utilizar esta superficie: Marketing para correos electrónicos promocionales, que requieren el consentimiento del usuario, o Transactional para correos electrónicos no comerciales, que también se pueden enviar a perfiles cancelados de suscripción en contextos específicos."
+>title="Definir la categoría del correo electrónico"
+>abstract="Seleccione el tipo de correos electrónicos que se enviarán al utilizar esta superficie: Marketing para correos electrónicos promocionales, que requieren el consentimiento del usuario, o Transaccional para correos electrónicos no comerciales, que también se pueden enviar a perfiles cuya suscripción se haya cancelado en contextos específicos."
 
 En el **TIPO DE CORREO ELECTRÓNICO** seleccione el tipo de mensaje que se enviará con la superficie: **Marketing** o **Transaccional**.
 
@@ -191,8 +191,8 @@ Si aparece un error al enviar el correo electrónico, significa que el registro 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
 >title="Ajustar el período de tiempo de reintento"
->abstract="Los reintentos se realizan durante 3,5 días (84 horas) cuando un envío de correo electrónico falla debido a un error temporal de devolución del mensaje. Puede ajustar este período de tiempo de reintento predeterminado para adaptarlo mejor a sus necesidades."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="Acerca de los reintentos"
+>abstract="Los reintentos se realizan durante 3,5 días (84 horas) cuando falla el envío de un correo electrónico debido a un error temporal de mensaje devuelto no entregado. Puede ajustar este período de tiempo de reintento predeterminado para adaptarlo mejor a sus necesidades."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=es" text="Acerca de los reintentos"
 
 Puede configurar la variable **Parámetros de reintentos de correo electrónico**.
 
@@ -217,7 +217,7 @@ Obtenga más información sobre los reintentos en [esta sección](../configurati
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
->title="Vista previa de los parámetros de seguimiento de URL"
+>title="Previsualizar los parámetros de seguimiento de URL"
 >abstract="Revise cómo se adjuntarán los parámetros de seguimiento a las direcciones URL presentes en el contenido del correo electrónico."
 
 Puede usar **[!UICONTROL Parámetros de seguimiento de URL]** para medir la eficacia de sus esfuerzos de marketing en todos los canales. Esta función es opcional.
