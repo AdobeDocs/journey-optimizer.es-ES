@@ -12,7 +12,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 6%
+ht-degree: 21%
 
 ---
 
@@ -38,7 +38,7 @@ Para poder acceder y crear páginas web en la variable [!DNL Journey Optimizer] 
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="Confirme la dirección URL para editar"
+>title="Confirmar la dirección URL para editar"
 >abstract="Confirme la dirección URL de la página web específica que se utilizará para editar el contenido que se aplicará en la superficie web definida anteriormente. La página web debe implementarse mediante el SDK web de Adobe Experience Platform."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es" text="Más información"
 
@@ -143,7 +143,7 @@ Una vez creada una acción web a partir de la campaña, puede editar el contenid
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
->title="Uso del modo Examinar"
+>title="Usar el modo de exploración"
 >abstract="Desde este modo, puede desplazarse a la página exacta desde la superficie seleccionada que desee personalizar."
 
 Puede intercambiar desde el valor predeterminado **[!UICONTROL Diseño]** para **[!UICONTROL Examinar]** usando el botón dedicado.
@@ -167,7 +167,7 @@ También puede cambiar el enfoque del zoom, de 25% a 400%.
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
 >title="Administrar fácilmente todos los cambios"
->abstract="Con este panel, puede desplazarse por la página web y administrar todos los ajustes y estilos que haya agregado a ella."
+>abstract="Con este tablero, puede desplazarse por la página web y administrar todos los ajustes y estilos que haya agregado a ella."
 
 Puede administrar fácilmente todos los componentes, ajustes y estilos agregados a la página web.
 
