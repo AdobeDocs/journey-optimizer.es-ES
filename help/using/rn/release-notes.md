@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
+source-git-commit: c523783b0984a36f919a581053e994ca131a0115
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 100%
+source-wordcount: '1897'
+ht-degree: 81%
 
 ---
 
@@ -21,32 +21,112 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Regístrese para la [Newsletter trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoy y reciba las últimas actualizaciones de productos, artículos interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.
 
-<!--
-## April 2023 Updates {#apr-2023}
+
+## Notas de la versión anticipadas de abril de 2023 {#apr-e-rn-2023}
+
+La información siguiente está sujeta a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento. La documentación actualizada se publicará en la fecha de lanzamiento y se agregarán vínculos directos en esta página.
+
+**Fecha de la versión**: 27 de abril de 2023
+
+### Nuevas funcionalidades{#apr-2023-features}
 
 
 <table>
 <thead>
 <tr>
-<th><strong>Mobile onboarding quick start workflow (beta)</strong><br/></th>
+<th><strong>Canal web (disponibilidad general)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The new mobile onboarding quick start workflow is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and send mobile push notifications with Adobe Journey Optimizer. This capability is accessible via the Data Collection home page as a public beta.</p>
+<p>Adobe Journey Optimizer está ampliando sus capacidades de canales cruzados añadiendo compatibilidad con canales web. Ahora puede crear, cambiar y previsualizar experiencias web como cualquier otro canal mediante una interfaz visual inteligente e intuitiva para personalizar la experiencia de los usuarios finales. Tenga en cuenta que actualmente en Journey Optimizer solo puede crear experiencias web en campañas.</p>
+<img src="assets/do-not-localize/create-web-campaign.gif"/>
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Flujo de trabajo de inicio rápido de la incorporación al dispositivo móvil (beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ya está disponible el nuevo flujo de trabajo de inicio rápido de la integración móvil. Utilice esta nueva función de producto para configurar rápidamente el SDK móvil y empezar a recopilar y validar datos de eventos móviles, así como a enviar notificaciones push móviles con Adobe Journey Optimizer. Se puede acceder a esta capacidad a través de la página principal de recopilación de datos como una versión beta pública.</p>
 <img src="../push/assets/mobile-wf-home.png"/>
-<p>For more information, refer to the <a href="../push/mobile-onboarding-wf.md">detailed documentation</a>.</p>
+<p>Para obtener más información, consulte la <a href="../push/mobile-onboarding-wf.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
+
+<table>
+<thead>
+<tr>
+<th><strong>Nuevo panel de Recorrido (beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> El panel de Recorrido ahora está dividido en dos pestañas:</p>
+<ul><li>Utilice la variable <strong>Información general</strong> para acceder a un tablero nuevo que muestra las métricas clave relacionadas con sus recorridos.</li>
+<li>Utilice la variable <strong>Examinar</strong> para acceder a la lista de todos los recorridos.</li></ul>
+<p>Se puede acceder a esta funcionalidad en todos los recorridos como una versión beta pública.</p>
+<img src="assets/do-not-localize/journey-dashboard.gif"/>
+<!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Personalized Optimization AI ranking model (General Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Personalized Optimization AI ranking models are now generally available in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>-->
+
+### Mejoras {#april-2023-improvements}
+
+**Recorridos**
+
+* El lienzo del recorrido ahora muestra el ID de actividad en los nodos de acción y las etiquetas de finalización. Esto mejora los informes y la reorientación.
+* Se ha mejorado el diseño del panel de configuración, que aparece en acciones, fuentes de datos, eventos y recorridos.
+* Se han añadido nuevas barreras a los recorridos:
+   * El número de nodos de un recorrido ahora está limitado a 50 como máximo
+   * El número de recorridos en vivo en una organización está ahora limitado a un máximo de 100. No se tienen en cuenta los recorridos en el modo de prueba.
+
+* Al añadir una acción de correo electrónico, SMS o push en un recorrido, la superficie ahora se rellena previamente, de forma predeterminada, con la última superficie utilizada para ese canal.
+* Ahora puede definir parámetros de consulta estáticos o dinámicos en sus acciones personalizadas.
+
+**Creación de informes**
+
+* Ahora puede exportar informes de Journey Optimizer como PDF.
+
+**Diseñador de contenido**
+
+* Se ha actualizado el Diseñador de contenido de Adobe Journey Optimizer y ahora es más fácil acceder a los estilos y componentes de diseño. Esta nueva versión ofrece una experiencia de usuario mejorada y ofrece un mayor rendimiento, compatibilidad parcial en modo oscuro y compatibilidad con nuevos estándares de accesibilidad.
+
+
 
 ## Notas de la versión de marzo de 2023 {#mar-2023}
-
-<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.-->
-
 
 ### Nuevas funcionalidades{#mar-2023-features}
 
@@ -270,7 +350,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **Personalización de URL**: al añadir direcciones URL como contenido a las representaciones de las ofertas, ahora puede personalizar estas direcciones URL con el Editor de expresiones. [Más información](../offers/offer-library/add-representations.md)
 
-## Lanzamiento de enero de 2023 {#jan-2023-release}
+## Notas de la versión de enero de 2023{#jan-2023-release}
 
 ### Nuevas funciones{#jan-2023-features}
 
