@@ -11,16 +11,16 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 82477d40-cfea-456b-a7b1-9cfebd76db35
-source-git-commit: 1332bc6caf18eaa735d1c99b8e5f70f8a4eaaf2b
+source-git-commit: 62954221f9797fc4ac7b5e066ffea6f99c17ad45
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 5%
+source-wordcount: '368'
+ht-degree: 6%
 
 ---
 
 # Flujo de trabajo de inicio rápido de la incorporación al dispositivo móvil {#mobile-wf}
 
-El nuevo **flujo de trabajo de inicio rápido de la incorporación móvil** es una nueva función de producto para configurar rápidamente el SDK de Mobile, empezar a recopilar y validar datos de eventos móviles y enviar notificaciones push con [!DNL Journey Optimizer].
+El nuevo **flujo de trabajo de inicio rápido de la incorporación móvil** es una nueva función de producto para configurar rápidamente el SDK de Adobe Experience Platform Mobile, empezar a recopilar y validar datos de eventos móviles y enviar notificaciones push con [!DNL Journey Optimizer].
 
 Se puede acceder a esta funcionalidad a través de la **[!DNL Adobe Experience Platform Data Collection]** página de inicio para todos los clientes como versión beta pública.
 
@@ -35,8 +35,8 @@ Para acceder al nuevo flujo de trabajo de inicio rápido de la integración móv
 A continuación se presentan algunas funciones adicionales:
 
 * Flujo de trabajo de cuatro pasos y interfaz de usuario sencillos.
-* Ofrece una configuración básica para empezar a recopilar datos de eventos móviles a través del SDK móvil en minutos.
-* Posibilidad de probar y validar un evento push móvil básico mediante Assurance.
+* Ofrece una configuración básica para empezar a recopilar datos de eventos móviles a través del [SDK de Adobe Experience Platform Mobile](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} en minutos.
+* Capacidad para probar y validar un evento push móvil básico mediante [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
 * Crea y configura automáticamente todos los recursos necesarios de Recopilación de datos y de Journey Optimizer.
 * En la guía del producto y la información sobre herramientas.
 * Proporciona una transición natural para una implementación más avanzada si es necesario.

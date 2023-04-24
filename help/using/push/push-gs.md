@@ -8,9 +8,9 @@ feature: Push
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
+source-git-commit: 014cc551cb125ba6dc20a4f572e6cd7024d9fab5
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '750'
 ht-degree: 8%
 
 ---
@@ -19,12 +19,10 @@ ht-degree: 8%
 
 Esta página le ayuda a configurar y comprender los servicios y flujos de trabajo clave que intervienen en las notificaciones push en [!DNL Journey Optimizer].
 
-<!--
+
 >[!AVAILABILITY]
 >
->The new **mobile onboarding quick start workflow** is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and to send mobile push notifications. This capability is accessible via the Data Collection home page as a public beta. [Learn more](mobile-onboarding-wf.md)
->
--->
+>El nuevo **flujo de trabajo de inicio rápido de la incorporación móvil** ya está disponible. Utilice esta nueva función de producto para configurar rápidamente el SDK de Mobile con el fin de empezar a recopilar y validar datos de eventos móviles y de enviar notificaciones push de dispositivos móviles. Se puede acceder a esta capacidad a través de la página principal de recopilación de datos como una versión beta pública. [Más información](mobile-onboarding-wf.md)
 
 Obtenga información sobre cómo crear notificaciones push en [esta página](create-push.md).
 
