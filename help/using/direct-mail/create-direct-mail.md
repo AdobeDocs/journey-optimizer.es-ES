@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 9%
@@ -85,9 +85,9 @@ Los pasos para crear y enviar un mensaje de correo postal son los siguientes:
 
 1. Repita estos pasos para agregar tantas columnas como sea necesario para crear el archivo de extracción. Tenga en cuenta que puede agregar hasta 50 columnas.
 
-   ![](assets/direct-mail-complete.png)
-
    Puede eliminar una columna en cualquier momento seleccionándola y haciendo clic en el botón **[!UICONTROL Eliminar]** del **[!UICONTROL Formato]** para obtener más información.
+
+   ![](assets/direct-mail-complete.png)
 
 1. Una vez definido el contenido de correo postal, complete la configuración de la campaña.
 

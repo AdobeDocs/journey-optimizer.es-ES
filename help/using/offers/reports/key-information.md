@@ -6,24 +6,12 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 07be59e8-e994-4854-8089-25614d005dbe
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 38%
+source-wordcount: '22'
+ht-degree: 45%
 
 ---
 
 # Información clave sobre eventos de Gestión de decisiones {#events-key-information}
 
-Cada evento que se envía cuando se toma una decisión contiene cuatro puntos de datos clave que puede aprovechar para realizar análisis e informes.
-
-![](../assets/events-dataset-preview.png)
-
-* **[!UICONTROL Abandono]**: Nombre e ID de la oferta de reserva, si no se ha seleccionado ninguna oferta personalizada,
-* **[!UICONTROL Colocación]**: Nombre, ID y canal de la colocación utilizada para entregar la oferta,
-* **[!UICONTROL Selecciones]**: Nombre e ID de la oferta seleccionada para el perfil,
-* **[!UICONTROL Actividad]**: Nombre e ID de la decisión.
-
-Además, también puede aprovechar el **[!UICONTROL identityMap]** y **[!UICONTROL Marca de tiempo]** para recuperar información sobre el perfil y la hora a la que se entregó la oferta.
-
-Para obtener más información sobre todos los campos XDM que se envían con cada decisión, consulte [esta sección](xdm-fields.md).
