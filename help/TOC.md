@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -177,7 +177,7 @@ ht-degree: 98%
       + [Introducción al diseño de correo electrónico](using/email/get-started-email-design.md)
       + Empezar a crear contenido {#start-creating-content}
          + [Diseño de contenido desde cero](using/email/content-from-scratch.md)
-         + [Importar el contenido](using/email/existing-content.md)
+         + [Importe el contenido](using/email/existing-content.md)
          + [Codifique su propio contenido](using/email/code-content.md)
          + [Uso de plantillas](using/email/email-templates.md)
       + Diseño del contenido {#add-content}
@@ -205,7 +205,7 @@ ht-degree: 98%
 + Canal en la aplicación{#in-app}
    + [Introducción al canal en la aplicación](using/in-app/get-started-in-app.md)
    + [Creación de un mensaje en la aplicación ](using/in-app/create-in-app.md)
-   + [Creación de un mensaje en la aplicación en un Recorrido](using/in-app/create-in-app-journey.md)
+   + [Creación de un mensaje en la aplicación en un recorrido](using/in-app/create-in-app-journey.md)
    + [Diseño del contenido en la aplicación](using/in-app/design-in-app.md)
    + [Prueba y envío de notificación en la aplicación](using/in-app/send-in-app.md)
    + [Configuración del canal en la aplicación](using/in-app/inapp-configuration.md)
@@ -217,7 +217,7 @@ ht-degree: 98%
    + Configuración de notificaciones push{#push-config}
       + [Flujo de notificaciones push](using/push/push-gs.md)
       + [Configurar el canal de notificaciones push](using/push/push-configuration.md)
-      + [Flujo de trabajo de inicio rápido de la incorporación al dispositivo móvil](using/push/mobile-onboarding-wf.md)
+      + [Flujo de trabajo de inicio rápido de incorporación al dispositivo móvil](using/push/mobile-onboarding-wf.md)
 + Canal de SMS{#sms}
    + [Introducción a los SMS](using/sms/get-started-sms.md)
    + [Creación de un mensaje SMS](using/sms/create-sms.md)
