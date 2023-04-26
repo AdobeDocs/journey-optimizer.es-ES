@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: correo electrónico, diseño, stock, activos
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: 3a9b11b1a4d2159261586394f1595e52c8b749e7
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 18%
+source-wordcount: '461'
+ht-degree: 12%
 
 ---
 
@@ -29,6 +29,14 @@ Puede importar un contenido existente en [!DNL Journey Optimizer] o aproveche la
 * Mejore la experiencia de los clientes creando mensajes personalizados y dinámicos en función de sus atributos de perfil. Más información sobre [personalización](../personalization/personalize.md) y [contenido dinámico](../personalization/get-started-dynamic-content.md).
 
 ➡️ [Descubra esta función en vídeo](#video)
+
+## Prácticas recomendadas para el diseño de correo electrónico {#best-practices}
+
+Al enviar correos electrónicos, es importante tener en cuenta que los destinatarios pueden reenviarlos, lo que a veces puede causar problemas con la renderización del correo electrónico. Esto es especialmente cierto cuando se utilizan clases CSS que puede que no sea compatible con el proveedor de correo electrónico utilizado para el reenvío, por ejemplo, si utiliza la clase CSS &quot;is-desktop-hidden&quot; (está oculta en el escritorio) para ocultar una imagen en dispositivos móviles.
+
+Para minimizar estos problemas de renderización, se recomienda mantener la estructura de diseño del correo electrónico lo más sencilla posible. Intente utilizar un único diseño que funcione bien tanto para dispositivos de escritorio como móviles, y evite utilizar clases CSS complejas u otros elementos de diseño que puedan no ser totalmente compatibles con todos los clientes de correo electrónico. Siguiendo estas prácticas recomendadas, puede ayudar a garantizar que los mensajes de correo electrónico se procesen correctamente, independientemente de cómo los destinatarios los vean o los reenvíen.
+
+## Pasos clave para crear contenido de correo electrónico {#key-steps}
 
 Una vez que haya [se ha añadido un correo electrónico](create-email.md) a un recorrido o a una campaña, puede empezar a crear su contenido de correo electrónico.
 
