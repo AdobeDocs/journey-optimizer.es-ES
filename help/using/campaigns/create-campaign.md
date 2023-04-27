@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: bf058b13508c7ad644a3b1f63e9208740abf8602
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '753'
 ht-degree: 20%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 20%
 
 
 Para crear una nueva campaña, acceda al **[!UICONTROL Campañas]** a continuación, haga clic en **[!UICONTROL Crear campaña]**. También puede duplicar una campaña en vivo existente para crear una nueva. [Más información](modify-stop-campaign.md#duplicate)
-
-![](assets/create-campaign.png)
 
 ## Elija el tipo de campaña y el canal {#campaigntype}
 
@@ -64,15 +62,13 @@ Para crear una nueva campaña, acceda al **[!UICONTROL Campañas]** a continuaci
 
 ## Definir las propiedades de la campaña {#create}
 
-1. Especifique un título y una descripción para la campaña.
+1. En el **[!UICONTROL Propiedades]** , especifique un nombre y una descripción para la campaña.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
 1. Para asignar etiquetas de uso de datos principales o personalizadas a la campaña, haga clic en el botón **[!UICONTROL Administrar acceso]** botón. [Obtenga más información sobre Control de acceso a nivel de objeto (OLA)](../administration/object-based-access.md)
 
-   ![](assets/create-campaign-properties.png)
-
-## Creación del mensaje {#content}
+## Creación del mensaje y configuración del seguimiento {#content}
 
 En el **[!UICONTROL Acciones]** , cree el mensaje que desea enviar con la campaña.
 
@@ -123,21 +119,21 @@ En el **[!UICONTROL Acciones]** , cree el mensaje que desea enviar con la campa�
 
 ## Definición de la audiencia {#audience}
 
-1. Defina la audiencia objetivo. Para ello, haga clic en el botón **[!UICONTROL Seleccionar la audiencia]** para mostrar la lista de segmentos de Adobe Experience Platform disponibles. [Más información sobre los segmentos](../segment/about-segments.md)
+Haga clic en el **[!UICONTROL Seleccionar la audiencia]** para mostrar la lista de segmentos de Adobe Experience Platform disponibles. [Más información sobre los segmentos](../segment/about-segments.md)
 
-   >[!NOTE]
-   >
-   >Para las campañas activadas por API, la audiencia debe configurarse mediante una llamada a la API. [Más información](api-triggered-campaigns.md)
+>[!NOTE]
+>
+>Para las campañas activadas por API, la audiencia debe configurarse mediante una llamada a la API. [Más información](api-triggered-campaigns.md)
 
-   En el **[!UICONTROL Área de nombres de identidad]** , elija el área de nombres que desea utilizar para identificar a las personas del segmento seleccionado. [Más información sobre áreas de nombres](../event/about-creating.md#select-the-namespace)
+En el **[!UICONTROL Área de nombres de identidad]** , elija el área de nombres que desea utilizar para identificar a las personas del segmento seleccionado. [Más información sobre áreas de nombres](../event/about-creating.md#select-the-namespace)
 
-   ![](assets/create-campaign-namespace.png)
+![](assets/create-campaign-namespace.png)
 
-   >[!NOTE]
-   >
-   >Las personas que pertenezcan a un segmento que no tenga la identidad seleccionada (área de nombres) entre sus diferentes identidades no serán el objetivo de la campaña.
+>[!NOTE]
+>
+>Las personas que pertenezcan a un segmento que no tenga la identidad seleccionada (área de nombres) entre sus diferentes identidades no serán el objetivo de la campaña.
 
-   <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+<!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## Programar la campaña {#schedule}
 
