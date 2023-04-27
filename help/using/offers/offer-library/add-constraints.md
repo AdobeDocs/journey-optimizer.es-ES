@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2357'
 ht-degree: 17%
 
 ---
@@ -215,9 +215,12 @@ La variable **[!UICONTROL Evento de restricción]** permite definir qué **[!UIC
    1. Una vez creada la regla, aparece en la sección **[!UICONTROL Consulta de evento personalizada]** campo .
 
       ![](../assets/offer-capping-custom-event-query.png)
-   >[!CAUTION]
-   >
-   >Para todos los eventos de límite excepto el evento de decisión, es posible que los comentarios de administración de decisiones no se recopilen automáticamente, por lo que asegúrese de que los datos estén llegando. [Más información sobre la recopilación de datos](../data-collection/data-collection.md)
+
+>[!CAUTION]
+>
+>Para todos los eventos de límite excepto el evento de decisión, es posible que los comentarios de administración de decisiones no se recopilen automáticamente, lo que podría hacer que el contador de límite no se incremente correctamente. [Más información](../data-collection/data-collection.md)
+>
+>Para asegurarse de que se realiza un seguimiento y un recuento de cada evento de límite en el contador de límite, asegúrese de que el esquema utilizado para recopilar eventos de experiencia incluya el grupo de campos correcto para ese evento. [Más información](../data-collection/schema-requirement.md)
 
 ### Recuento de restricciones {#capping-count}
 

@@ -11,9 +11,9 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '768'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ Para optimizar aún más el uso de Adobe Experience Manager con Adobe Journey Op
 
 Para exportar una plantilla de Adobe Experience Manager a Adobe Journey Optimizer, siga los pasos a continuación:
 
-1. En la página de inicio de Adobe Experience Manager, seleccione la opción **[!UICONTROL Marketing saliente]**.
+1. En la página de inicio de Adobe Experience Manager, seleccione **[!UICONTROL Marketing saliente]**.
 
    ![](assets/aem-outbound-menu.png)
 

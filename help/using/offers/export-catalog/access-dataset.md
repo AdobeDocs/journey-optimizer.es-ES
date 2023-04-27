@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 10%
+source-wordcount: '86'
+ht-degree: 11%
 
 ---
 
@@ -21,10 +21,8 @@ Se puede acceder al catálogo de ofertas exportado desde Adobe Experience Platfo
 
 Haga clic en un conjunto de datos para acceder a sus detalles.
 
+La variable **[!UICONTROL Vista previa del conjunto de datos]** permite mostrar el lote de resultados más reciente en el conjunto de datos.
+
 ![](../assets/dataset-activity.png)
-
-La variable **[!UICONTROL Vista previa del conjunto de datos]** permite mostrar el lote de resultados más reciente en el conjunto de datos. El panel izquierdo proporciona información sobre los tipos de datos que se han exportado.
-
-![](../assets/dataset-preview.png)
 
 Para obtener más información sobre cómo examinar y utilizar conjuntos de datos, consulte [esta página](../../data/get-started-datasets.md).

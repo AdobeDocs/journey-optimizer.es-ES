@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorridos, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 14%
+source-wordcount: '1045'
+ht-degree: 15%
 
 ---
 
@@ -97,35 +97,31 @@ Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL
    >
    > La variable **DELETE** no es compatible. Si necesita actualizar un recurso existente, seleccione la opción **PUT** método.
 
-1. En el **[!UICONTROL Encabezados]** , defina los encabezados HTTP del mensaje de solicitud que se enviarán al servicio externo:
-   1. Para añadir un campo de encabezado, haga clic en **[!UICONTROL Añadir un campo de encabezado]**.
-   1. Introduzca la clave del campo de encabezado.
-   1. Para establecer un valor dinámico para el par clave-valor, seleccione **[!UICONTROL Variable]**. De lo contrario, seleccione **[!UICONTROL Constante]**.
+1. Defina los encabezados y los parámetros de consulta:
 
-      Por ejemplo, para una marca de tiempo, puede establecer un valor dinámico.
+   * En el **[!UICONTROL Encabezados]** , haga clic en **[!UICONTROL Añadir un campo de encabezado]** para definir los encabezados HTTP del mensaje de solicitud que se enviará al servicio externo. La variable **[!UICONTROL Content-Type]** y **[!UICONTROL Charset]** los campos de encabezado se establecen de forma predeterminada. Estos campos no se pueden modificar ni eliminar.
 
-   1. Si ha seleccionado **[!UICONTROL Constante]** y, a continuación, introduzca el valor constante.
+   * En el **[!UICONTROL Parámetros de consulta]** , haga clic en **[!UICONTROL Añadir un campo de parámetro Query]** para definir los parámetros que desea añadir en la URL.
 
-      Si ha seleccionado **[!UICONTROL Variable]**, especificará esta variable al agregar la acción personalizada a un recorrido. [Más información](../building-journeys/using-custom-actions.md).
+   ![](assets/journeyurlconfiguration2bis.png)
 
-      ![](assets/journeyurlconfiguration2.png)
+1. Introduzca la etiqueta o el nombre del campo.
 
-   1. Para eliminar un campo de encabezado, elija el campo de encabezado y haga clic en el botón **[!UICONTROL Eliminar]** icono.
-   La variable **[!UICONTROL Content-Type]** y **[!UICONTROL Charset]** los campos de encabezado se establecen de forma predeterminada. Estos campos no se pueden modificar ni eliminar.
+1. Seleccione el tipo: **[!UICONTROL Constante]** o **[!UICONTROL Variable]**. Si ha seleccionado **[!UICONTROL Constante]** y, a continuación, introduzca el valor constante en la variable **[!UICONTROL Valor]** campo . Si ha seleccionado **[!UICONTROL Variable]**, especificará esta variable al agregar la acción personalizada a un recorrido. [Más información](../building-journeys/using-custom-actions.md).
 
-   Después de agregar la acción personalizada a un recorrido, puede agregarle campos de encabezado si el recorrido está en estado de borrador. Si no desea que el recorrido se vea afectado por los cambios de configuración, duplique la acción personalizada y añada los campos del encabezado a la nueva acción personalizada.
+   ![](assets/journeyurlconfiguration2.png)
 
    >[!NOTE]
+   >
+   >Después de agregar la acción personalizada a un recorrido, puede agregarle campos de encabezado o parámetros de consulta si el recorrido está en estado de borrador. Si no desea que el recorrido se vea afectado por los cambios de configuración, duplique la acción personalizada y añada los campos a la nueva acción personalizada.
    >
    >Los encabezados se validan según las reglas de análisis de campos. Obtenga más información en [esta documentación](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## Definir los parámetros de acción {#define-the-message-parameters}
 
-![](assets/messageparameterssection.png)
-
 En el **[!UICONTROL Parámetros de acción]** , pegue un ejemplo de la carga útil JSON para enviarla al servicio externo.
 
-![](assets/customactionpayloadmessage.png)
+![](assets/messageparameterssection.png)
 
 >[!NOTE]
 >
@@ -135,7 +131,7 @@ Puede definir el tipo de parámetro (p. ej.: string, integer, etc.).
 
 También tendrá la opción de especificar si un parámetro es una constante o una variable:
 
-* Constante significa que el valor del parámetro se define en el panel de configuración de acciones mediante un perfil técnico. El valor siempre será el mismo en todos los recorridos. No variará y el especialista en marketing no lo verá al utilizar la acción personalizada en el recorrido. Podría ser, por ejemplo, un ID que el sistema de terceros espera. En ese caso, el campo a la derecha de la constante o variable de alternancia es el valor pasado.
-* Variable significa que el valor del parámetro variará. Los especialistas en marketing que utilicen esta acción personalizada en un recorrido podrán pasar el valor que deseen o especificar dónde recuperar el valor de este parámetro (por ejemplo, desde el evento, desde Adobe Experience Platform, etc.). En ese caso, el campo a la derecha de la constante o variable de alternancia es la etiqueta que los especialistas en marketing verán en el recorrido para asignar un nombre a este parámetro.
+* **Constante** significa que el valor del parámetro se define en el panel de configuración de acciones mediante un perfil técnico. El valor siempre será el mismo en todos los recorridos. No variará y el especialista en marketing no lo verá al utilizar la acción personalizada en el recorrido. Podría ser, por ejemplo, un ID que el sistema de terceros espera. En ese caso, el campo a la derecha de la constante o variable de alternancia es el valor pasado.
+* **Variable** significa que el valor del parámetro variará. Los especialistas en marketing que utilicen esta acción personalizada en un recorrido podrán pasar el valor que deseen o especificar dónde recuperar el valor de este parámetro (por ejemplo, desde el evento, desde Adobe Experience Platform, etc.). En ese caso, el campo a la derecha de la constante o variable de alternancia es la etiqueta que los especialistas en marketing verán en el recorrido para asignar un nombre a este parámetro.
 
 ![](assets/customactionpayloadmessage2.png)

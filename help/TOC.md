@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1371'
 ht-degree: 99%
 
 ---
@@ -230,10 +230,10 @@ ht-degree: 99%
    + [Configuración del correo directo](using/direct-mail/direct-mail-configuration.md)
 + Canal web{#web}
    + [Introducción al canal web](using/web/get-started-web.md)
+   + [Requisitos previos de canal web](using/web/web-prerequisites.md)
    + [Creación de experiencias web](using/web/create-web.md)
    + [Creación de páginas web](using/web/author-web.md)
-   + [Extensión Ayuda de edición visual](using/web/visual-editing-helper.md)
-   + [Creación de informes web](using/web/web-report.md)
+   + [Configuración de subdominios web](using/web/web-delegated-subdomains.md)
 + Páginas de aterrizaje {#landing-pages}
    + [Introducción a las páginas de aterrizaje](using/landing-pages/get-started-lp.md)
    + [Creación de una página de aterrizaje](using/landing-pages/create-lp.md)
@@ -294,12 +294,14 @@ ht-degree: 99%
 + Seguimiento y monitorización {#reporting}
    + Informe en vivo {#live-report}
       + [Introducción al Informe en vivo](using/reports/live-report.md)
+      + [Lista de componentes](using/reports/live-report-components.md)
       + [Informe activo de recorrido](using/reports/journey-live-report.md)
       + [Informe en directo de la campaña](using/reports/campaign-live-report.md)
       + [Informe en directo de la página de aterrizaje](using/reports/lp-report-live.md)
       + [Informe en directo de la lista de suscripciones](using/reports/subscription-report-live.md)
    + Informe global {#global-report}
       + [Introducción al Informe global](using/reports/global-report.md)
+      + [Lista de componentes](using/reports/global-report-components.md)
       + [Informe global de recorrido](using/reports/journey-global-report.md)
       + [Informe global de la campaña](using/reports/campaign-global-report.md)
       + [Informe global de la página de aterrizaje](using/reports/lp-report-global.md)

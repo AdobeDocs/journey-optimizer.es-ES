@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: campaña, revisión, validación, activación, activación, optimización
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 7%
@@ -31,8 +31,6 @@ Una vez configurada la campaña, debe revisar su parámetro y contenido antes de
    ![](assets/create-campaign-alerts.png)
 
 1. Compruebe que la campaña esté correctamente configurada y haga clic en **[!UICONTROL Activar]**.
-
-   ![](assets/create-campaign-review.png)
 
 1. La campaña ya está activada. Su estado es **[!UICONTROL Activo]** o **[!UICONTROL Programado]** si ha introducido una fecha de inicio. [Obtenga más información sobre los estados de campañas](get-started-with-campaigns.md#statuses).
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 3%
@@ -57,7 +57,7 @@ Sin embargo, **mayoría de los canales** requieren que los datos de impresiones 
 
 ### Eventos personalizados
 
-Los comentarios sobre eventos personalizados vinculados a una oferta se pueden enviar a Adobe Experience Platform según sus propias preferencias. Por ejemplo, si una oferta tiene varios botones, como *Interesado*, *No interesado*, etc., puede que desee enviar esos eventos por separado, pero también se pueden enviar como eventos de experiencia. <!--Not sure to get that part. How feedback is collected in the first case, i.e. when events are sent in separately? Does it mean the customer just handles it the wau he wants?-->
+Los comentarios sobre eventos personalizados vinculados a una oferta se pueden enviar a Adobe Experience Platform según sus propias preferencias. Por ejemplo, si una oferta tiene varios botones, como *Interesado*, *No interesado*, etc., puede que desee enviar esos eventos por separado, pero también se pueden enviar como eventos de experiencia.
 
 ## Envío de datos de comentarios
 

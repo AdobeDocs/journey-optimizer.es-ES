@@ -9,9 +9,9 @@ role: User, Developer
 level: Intermediate
 keywords: entorno limitado, recorrido, copiar, entorno
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '835'
 ht-degree: 20%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
 >title="Detalles de la zona protegida"
->abstract="Seleccione la zona protegida de destino en la que desea copiar el recorrido. Solo están disponibles las zonas protegidas de su organización IMS."
+>abstract="Seleccione la zona protegida de destino en la que desea copiar el recorrido. Solo están disponibles las zonas protegidas de su organización "
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
@@ -58,7 +58,7 @@ Para copiar un recorrido en otro simulador para pruebas, siga estos pasos:
 
    ![](assets/copy-sandbox2.png)
 
-3. Seleccione el **Espacio aislado de Target** en el campo desplegable . Solo están disponibles las zonas protegidas de su organización IMS.
+3. Seleccione el **Espacio aislado de Target** en el campo desplegable . Solo están disponibles las zonas protegidas de su organización 
 
 4. Consulte la **Objetos dependientes** para obtener más información. Esta es la lista de objetos asociados que se utilizan en el recorrido. Esta lista muestra el nombre, el tipo de objeto y el ID interno de Journey Optimizer.
 

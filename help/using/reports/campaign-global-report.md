@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 8a311d546829d0d80f32dfdddcdf30805688f757
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '2036'
 ht-degree: 3%
 
 ---
@@ -33,6 +33,7 @@ La campaña **[!UICONTROL Informe global]** se muestra con las siguientes pesta�
 * [En la aplicación](#inapp-global)
 * [Push](#push-global)
 * [SMS](#sms-global)
+* [Web](#web-tab)
 
 La campaña **[!UICONTROL Informe global]** se divide en distintas utilidades que detallan el éxito y los errores de la campaña. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](../reports/global-report.md#modify-dashboard).
 
@@ -281,6 +282,27 @@ La variable **[!UICONTROL Excluir motivos]**, **[!UICONTROL Razones de devolucio
 
 La variable **[!UICONTROL SMS: clics por vínculos]** y **[!UICONTROL SMS - Estadísticas de seguimiento]** las utilidades detallan la información principal relativa a la participación de los visitantes en las direcciones URL.
 
++++
+
+## Ficha Web {#web-tab}
+
+Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL Web]** detalla la información principal relativa a las páginas web.
+
+![](assets/web-report.png)
+
++++Obtenga más información sobre las distintas métricas y utilidades disponibles para el informe web.
+
+La variable **[!UICONTROL Rendimiento web]** Los KPI detallan la información principal relativa a la participación de los visitantes en las experiencias web, como por ejemplo:
+
+* **[!UICONTROL Impresiones únicas]**: número de usuarios únicos a los que se entregó la experiencia web.
+
+* **[!UICONTROL Impresiones]**: número total de experiencias web entregadas a todos los usuarios.
+
+* **[!UICONTROL Tasa de clics]**: porcentaje de visitantes que interactuaron con los distintos elementos de las páginas web.
+
+La variable **[!UICONTROL Resumen web]** El gráfico muestra la evolución de las experiencias web (impresiones, impresiones únicas y clics) durante el periodo correspondiente.
+
+La variable **[!UICONTROL Clics por elemento]** La tabla detalla la información principal relativa a la participación de los visitantes con los distintos elementos de las páginas web.
 +++
 
 ## Recursos adicionales

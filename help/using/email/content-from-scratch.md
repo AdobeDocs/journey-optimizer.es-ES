@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: contenido, editor, correo electrónico, iniciar
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 5%
+source-wordcount: '654'
+ht-degree: 6%
 
 ---
 
@@ -110,13 +110,11 @@ Para comenzar a crear el contenido, siga los pasos a continuación:
 
    ![](assets/email_designer_links.png)
 
-1. Si es necesario, puede personalizar aún más el contenido haciendo clic en **[!UICONTROL Cambiar al editor de código]** desde la parte superior **Más** botón. [Obtenga más información sobre el editor de código](code-content.md)
-
-   ![](assets/email_designer_switch-to-code.png)
+1. Si es necesario, puede personalizar aún más el correo electrónico haciendo clic en **[!UICONTROL Cambiar al editor de código]** en el menú avanzado. Esto le permite editar el código fuente del correo electrónico, por ejemplo, para agregar etiquetas de HTML personalizadas o de seguimiento. [Obtenga más información sobre el editor de código](code-content.md)
 
    >[!CAUTION]
    >
-   >No puede volver al diseñador visual para este contenido después de cambiar al editor de código.
+   >No puede volver al diseñador visual para este correo electrónico después de cambiar al editor de código.
 
 1. Una vez que el contenido esté listo, haga clic en el botón **[!UICONTROL Simular contenido]** para comprobar la renderización. Puede elegir la vista de escritorio o la vista móvil. [Obtenga más información sobre la vista previa del correo electrónico](preview.md)
 

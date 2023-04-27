@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '894'
 ht-degree: 23%
 
 ---
@@ -85,6 +85,10 @@ Para ello, abra el recorrido activo, seleccione la actividad de mensaje y haga c
 ![](assets/add-a-message2.png)
 
 Sin embargo, no se pueden cambiar los atributos utilizados en la personalización, ya sean atributos de perfil o datos contextuales (a partir de propiedades de evento o recorrido).
+
+Si ha modificado los datos contextuales, se mostrará el siguiente mensaje de error: ERR_AUTHORING_JOURNEYVERSION_201
+
+Si ha modificado los atributos de perfil, se mostrará el siguiente mensaje de error: ERR_AUTHORING_JOURNEYVERSION_202
 
 Tenga en cuenta que para la actividad en la aplicación, se pueden realizar cambios en el contenido mientras el recorrido está activo, pero los déclencheur en la aplicación no se pueden modificar.
 

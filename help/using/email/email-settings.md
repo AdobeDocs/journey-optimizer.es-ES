@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1739'
 ht-degree: 9%
 
 ---
@@ -243,9 +243,23 @@ Para configurar un parámetro de seguimiento de URL, puede introducir directamen
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-También puede editar cada **[!UICONTROL Valor]** utilizando la variable [Editor de expresiones](../personalization/personalization-build-expressions.md). Haga clic en el icono de edición para abrir el editor. Desde allí, puede seleccionar los atributos contextuales de su elección o editar directamente el texto.
+También puede editar cada **[!UICONTROL Valor]** utilizando la variable [Editor de expresiones](../personalization/personalization-build-expressions.md). Haga clic en el icono de edición para abrir el editor. Desde allí, puede seleccionar los atributos contextuales disponibles o editar directamente el texto.
 
 ![](assets/preset-url-tracking-editor.png)
+
+Los siguientes valores predefinidos están disponibles a través del Editor de expresiones:
+
+* **ID de acción de origen**: ID de la acción Email añadida al recorrido o campaña.
+
+* **Nombre de la acción de origen**: nombre de la acción Email añadida al recorrido o campaña.
+
+* **ID de origen**: ID del recorrido o la campaña con la que se envió el correo electrónico.
+
+* **Nombre de origen**: nombre del recorrido o campaña con el que se envió el correo electrónico.
+
+* **ID de versión de origen**: ID de la versión de campaña o recorrido con la que se envió el correo electrónico.
+
+* **ID de oferta**: ID de la oferta utilizada en el correo electrónico.
 
 >[!NOTE]
 >

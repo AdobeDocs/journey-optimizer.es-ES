@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 324ceaa981b3ce2025e4ba64c62cbe377d62e817
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1897'
-ht-degree: 81%
+source-wordcount: '1859'
+ht-degree: 82%
 
 ---
 
@@ -24,9 +24,9 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 
 ## Notas de la versión anticipadas de abril de 2023 {#apr-e-rn-2023}
 
-La información siguiente está sujeta a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento. La documentación actualizada se publicará en la fecha de lanzamiento y se agregarán vínculos directos en esta página.
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**Fecha de la versión**: 27 de abril de 2023
+**Release date**: April 27, 2023-->
 
 ### Nuevas funcionalidades{#apr-2023-features}
 
@@ -42,7 +42,7 @@ La información siguiente está sujeta a cambios sin previo aviso hasta la fecha
 <td>
 <p>Adobe Journey Optimizer está ampliando sus capacidades de canales cruzados añadiendo compatibilidad con canales web. Ahora puede crear, cambiar y previsualizar experiencias web como cualquier otro canal mediante una interfaz visual inteligente e intuitiva para personalizar la experiencia de los usuarios finales. Tenga en cuenta que actualmente en Journey Optimizer solo puede crear experiencias web en campañas.</p>
 <img src="assets/do-not-localize/web-authoring.gif"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>Para obtener más información, consulte la <a href="../web/get-started-web.md">documentación detallada</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -65,27 +65,27 @@ La información siguiente está sujeta a cambios sin previo aviso hasta la fecha
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Nuevo panel de Recorrido (beta)</strong><br/></th>
+<th><strong>New Journey dashboard (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> El panel de Recorrido ahora está dividido en dos pestañas:</p>
-<ul><li>Utilice la variable <strong>Información general</strong> para acceder a un tablero nuevo que muestra las métricas clave relacionadas con sus recorridos.</li>
-<li>Utilice la variable <strong>Examinar</strong> para acceder a la lista de todos los recorridos.</li></ul>
-<p>Se puede acceder a esta funcionalidad en todos los recorridos como una versión beta pública.</p>
+<p> The Journey dashboard is now split in two tabs:</p>
+<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
+<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
+<p>This capability is accessible in all journeys as a public beta.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
+
 <table>
 <thead>
 <tr>
@@ -107,14 +107,14 @@ La información siguiente está sujeta a cambios sin previo aviso hasta la fecha
 
 **Recorridos**
 
-* El lienzo del recorrido ahora muestra el ID de actividad en los nodos de acción y las etiquetas de finalización. Esto mejora los informes y la reorientación.
+* El lienzo del recorrido ahora muestra el ID de actividad en las actividades de mensajes y las etiquetas de fin. Esto mejora los informes y la reorientación.
 * Se ha mejorado el diseño del panel de configuración, que aparece en acciones, fuentes de datos, eventos y recorridos.
 * Se han añadido nuevas barreras a los recorridos:
-   * El número de nodos de un recorrido ahora está limitado a 50 como máximo
-   * El número de recorridos en vivo en una organización está ahora limitado a un máximo de 100. No se tienen en cuenta los recorridos en el modo de prueba.
+   * El número de actividades en un recorrido ahora está limitado a 50. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
+   * El número de **recorridos en directo** en una organización ahora está limitada a 100 por simulador de pruebas. No se tienen en cuenta los recorridos en el modo de prueba. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
 
-* Al añadir una acción de correo electrónico, SMS o push en un recorrido, la superficie ahora se rellena previamente, de forma predeterminada, con la última superficie utilizada para ese canal.
-* Ahora puede definir parámetros de consulta estáticos o dinámicos en sus acciones personalizadas.
+* Al añadir un [Correo electrónico](../email/create-email.md), [SMS](../sms/create-sms.md) o [Push](../push/create-push.md) en un recorrido, la superficie ahora se rellena previamente, de forma predeterminada, con la última superficie utilizada para ese canal, en el recorrido actual.
+* Ahora puede definir parámetros de consulta estáticos o dinámicos en sus acciones personalizadas. [Más información](../action/about-custom-action-configuration.md#url-configuration)
 
 **Creación de informes**
 
@@ -190,6 +190,8 @@ La información siguiente está sujeta a cambios sin previo aviso hasta la fecha
 * En el lienzo del recorrido, la etiqueta de **Fin** ya no se configura automáticamente con el nombre de la actividad anterior. Los usuarios pueden agregar manualmente una etiqueta personalizada si es necesario.
 * El tiempo de espera predeterminado y la duración del error en las propiedades del recorrido han cambiado de 5 a 30 segundos. [Más información](../configuration/external-systems.md#timeout)
 * La tasa de limitación predeterminada en las actividades de segmentos de lectura ha cambiado de 20 000 a 5000 mensajes por segundo. [Más información](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Se ha añadido una protección al modo de prueba para escuchar solo los eventos enviados a través de la interfaz. Los eventos enviados a través de una herramienta externa no se tienen en cuenta. [Más información](../building-journeys/testing-the-journey.md)
+
 
 <!-- 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.

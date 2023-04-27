@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, actividades, introducción, eventos, acción
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 17%
+source-wordcount: '507'
+ht-degree: 18%
 
 ---
 
@@ -66,9 +66,27 @@ Si ha configurado acciones personalizadas, estas también aparecerán aquí. [M�
 
 ## Prácticas recomendadas {#best-practices}
 
+### Añadir una etiqueta
+
 La mayoría de las actividades le permiten definir un **[!UICONTROL Etiqueta]**. Esto agrega un sufijo al nombre que aparecerá debajo de la actividad en el lienzo. Esto resulta útil si utiliza la misma actividad varias veces en el recorrido y desea identificarlos más fácilmente. También facilitará la depuración en caso de errores y facilitará la lectura de los informes. También puede añadir una **[!UICONTROL Descripción]**.
 
-![](assets/journey59bis.png)
+![](assets/journey-action-label.png)
+
+### Administrar los parámetros avanzados {#advanced-parameters}
+
+La mayoría de las actividades muestran una serie de parámetros técnicos o avanzados que no se pueden modificar.
+
+![](assets/journey-advanced-parameters.png)
+
+Para mejorar la legibilidad, puede ocultar estos parámetros utilizando la variable **[!UICONTROL Ocultar campos de solo lectura]** botón.
+
+![](assets/journey-hide-read-only-fields.png)
+
+En algunos contextos particulares, puede anular los valores de estos parámetros para un uso específico. Para forzar un valor, haga clic en el icono **[!UICONTROL Habilitar la sustitución de parámetros]** a la derecha del campo. [Más información](../configuration/primary-email-addresses.md#journey-parameters)
+
+![](assets/journey-enable-parameter-override.png)
+
+### Agregar una ruta alternativa
 
 Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera de continuar es marcar la casilla **[!UICONTROL Añada una ruta alternativa en caso de tiempo de espera o error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
 

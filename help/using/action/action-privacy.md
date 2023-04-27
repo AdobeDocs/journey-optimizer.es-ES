@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: datos, gobernanza, DULE, etiquetas, etiquetado, plataforma, directiva
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 100%
@@ -53,11 +53,9 @@ Para obtener más información sobre cómo administrar políticas, consulte esta
 Veamos el ejemplo del campo de grupo sanguíneo que debe etiquetar como sensible y restringir su exportación a un tercero. Estos son los pasos:
 
 1. En el menú de la izquierda, debajo de **Privacidad**, haga clic en **Políticas**.
-   ![](assets/action-privacy0.png)
 1. Seleccione la pestaña **Etiquetas** y haga clic en **Crear etiqueta**.
    ![](assets/action-privacy1.png)
 1. Determine un nombre y un nombre descriptivo para esta etiqueta. Por ejemplo, _ePHI1_.
-   ![](assets/action-privacy2.png)
 1. En el menú de la izquierda, debajo de **Gestión de datos**, haga clic en **Esquemas** y en el botón **Aplicar etiquetas de acceso y control de datos**. Seleccione el esquema y el campo (grupo sanguíneo) y seleccione la etiqueta creada antes (_ePHI1_ ) en el ejemplo.
    ![](assets/action-privacy3.png)
 1. Vuelva al menú **Políticas**, seleccione la pestaña **Acción de marketing** y haga clic en **Crear una acción de marketing**. Le recomendamos que cree una acción de marketing para cada acción personalizada de terceros que se utilice en sus recorridos. Por ejemplo, vamos a crear una _acción de marketing del Slack_, que se utilizará para la acción personalizada de este.

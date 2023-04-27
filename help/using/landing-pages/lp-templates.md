@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, plantillas
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 4%
@@ -24,7 +24,7 @@ Una vez que haya diseñado el [contenido de la página de aterrizaje](lp-content
 
 1. Haga clic en los puntos suspensivos en la parte superior derecha de la pantalla.
 
-1. Select **[!UICONTROL Guardar plantilla de diseño]** en el menú desplegable.
+1. Select **[!UICONTROL Guardar como plantilla de contenido]** en el menú desplegable.
 
    ![](assets/lp_designer-save-template.png)
 
@@ -52,7 +52,7 @@ La próxima vez que cree una página de aterrizaje, puede utilizar esta plantill
 
    ![](assets/lp_designer-saved-templates-navigate.png)
 
-1. Haga clic en **[!UICONTROL Usar esta página de aterrizaje]**.
+1. Haga clic en **[!UICONTROL Usar esta plantilla]**.
 
 1. Edite el contenido según sus preferencias con el diseñador de páginas de aterrizaje.
 

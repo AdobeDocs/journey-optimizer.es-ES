@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b86e42f95e92d4fad3d20bfbab329ae6d80c2d50
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 100%
+source-wordcount: '1064'
+ht-degree: 92%
 
 ---
 
@@ -43,6 +43,11 @@ La protección del rendimiento y los límites estáticos para la toma de decisio
 
 ## Mecanismos de protección de recorridos {#journeys-guardrails}
 
+### Protecciones generales del recorrido {#journeys-guardrails-journeys}
+
+* El número de actividades de un recorrido está limitado a 50. El número de actividades se muestra en la sección superior izquierda del lienzo de recorrido.
+* El número de **recorridos en directo** en una organización está limitada a 100 por simulador de pruebas. Cuando se alcanza este límite, ya no se puede publicar un nuevo recorrido.
+
 ### Acciones generales {#general-actions-g}
 
 * No hay restricciones de envío.
@@ -67,6 +72,7 @@ La protección del rendimiento y los límites estáticos para la toma de decisio
 * El nombre del parámetro de consulta o del encabezado no debe comenzar con &quot;.&quot; o &quot;$&quot;
 * No se permiten direcciones IP
 * Las direcciones de Adobe internas (`.adobe.*`) no están permitidas en las direcciones URL y las API.
+* Las acciones personalizadas integradas no se pueden eliminar.
 
 ### Eventos {#events-g}
 
@@ -99,5 +105,6 @@ Puede elegir entre una de estas dos soluciones:
 
 ### Editor de expresiones {#expression-editor}
 
-* Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen por un segmento de lectura, una calificación de segmentos o una actividad de evento empresarial.
+* Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen por un segmento de lectura, una calificación de segmentos o una actividad de evento empresarial. Debe crear un segmento nuevo y utilizar una condición de insegmentación en el recorrido.
+
 

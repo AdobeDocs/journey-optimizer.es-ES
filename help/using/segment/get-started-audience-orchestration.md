@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '306'
 ht-degree: 23%
 
 ---
@@ -38,7 +38,7 @@ Lo que encontrará en esta documentación:
 
 >[!AVAILABILITY]
 >
->Actualmente, la composición de audiencias solo está disponible como una versión beta privada y puede estar sujeta a frecuentes actualizaciones sin previo aviso. La versión beta se aprovisiona en el nivel de organización de IMS, lo que significa que afectará a todos los entornos limitados de su organización.
+>Actualmente, la composición de audiencias solo está disponible como una versión beta privada y puede estar sujeta a frecuentes actualizaciones sin previo aviso. La versión beta se aprovisiona a nivel de organización, lo que significa que afectará a todos los entornos limitados de su organización.
 
 La composición de audiencias le permite crear **flujos de trabajo de composición**, donde puede combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (divididas, excluidas...) para crear nuevas audiencias.
 

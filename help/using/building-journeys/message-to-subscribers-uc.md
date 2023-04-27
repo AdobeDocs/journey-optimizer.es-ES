@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, caso de uso, mensaje, suscriptores, lista, leer
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 4%
+source-wordcount: '331'
+ht-degree: 17%
 
 ---
 
@@ -56,3 +56,7 @@ Para configurar este recorrido, siga estos pasos:
       ![](assets/message-to-subscribers-uc-2.png)
 
    1. En el **[!UICONTROL Añadir una expresión]** cuadro de diálogo, haga clic en **[!UICONTROL Ok]**.
+
+>[!CAUTION]
+>
+>La anulación de direcciones de correo electrónico solo debe utilizarse para casos de uso específicos. La mayoría de las veces, no es necesario cambiar la dirección de correo electrónico porque el valor definido como la dirección principal en los **[!UICONTROL Campos de ejecución]** es el que debe usarse. [Más información](../configuration/primary-email-addresses.md)

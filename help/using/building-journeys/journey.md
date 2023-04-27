@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: recorrido, descubrimiento, inicio
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '588'
 ht-degree: 28%
 
 ---
@@ -29,6 +29,11 @@ Diseñe escenarios avanzados de varios pasos con las siguientes capacidades:
 * Utilice la variable **acciones integradas** para enviar mensajes diseñados en [!DNL Journey Optimizer] o crear **acciones personalizadas** si utiliza un sistema de terceros para enviar mensajes.
 
 * Con la variable **diseñador de recorridos**, cree sus casos de uso de varios pasos: arrastre y suelte fácilmente un evento de entrada o una actividad de segmento de lectura, agregue condiciones y envíe mensajes personalizados.
+
+
+>[!NOTE]
+>
+>Las limitaciones y protecciones del recorrido se detallan en [esta página](../start/guardrails.md)
 
 ## Pasos para crear un recorrido{#steps-journey}
 
@@ -98,7 +103,3 @@ Desde el momento en que se publique el recorrido, las personas empezarán a flui
 Las versiones de recorrido se pueden detener individualmente. Todas las versiones de recorridos tienen el mismo nombre.
 
 Cuando publica una nueva versión de un recorrido, la versión anterior finaliza automáticamente y cambia a la función **Cerrado** estado. No puede pasar ninguna entrada en el recorrido. Aunque detenga la última versión, la versión anterior permanecerá cerrada.
-
->[!NOTE]
->
->Obtenga más información sobre las versiones de recorrido, barreras y limitaciones, en [esta página](../start/guardrails.md#journey-versions-limitations)

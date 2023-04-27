@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: espera, actividad, recorrido, siguiente, lienzo
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '349'
 ht-degree: 24%
 
 ---
@@ -66,6 +66,8 @@ Esta opción permite definir una fecha personalizada, por ejemplo, 12 de julio d
 
 ![](assets/journey57.png)
 
+Para validar que la actividad de espera funciona según lo esperado, puede utilizar eventos de paso. Consulte [esta página](../reports/query-examples.md#common-queries).
+
 <!--## Email send time optimization{#email_send_time_optimization}
 
 This type of wait uses a score calculated in Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
@@ -85,3 +87,5 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
 ![](assets/journey57bis.png)-->
+
+

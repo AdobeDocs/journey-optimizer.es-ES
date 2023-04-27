@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 14%
+source-wordcount: '578'
+ht-degree: 13%
 
 ---
 
@@ -40,7 +40,7 @@ Examine las pestañas siguientes para aprender a añadir un mensaje SMS en una c
 
    Para obtener más información sobre cómo configurar un recorrido, consulte [esta página](../building-journeys/journey-gs.md)
 
-<!-- The **[!UICONTROL Surface]**field is pre-filled, by default, with the last surface used for that channel by the user. -->
+   La variable **[!UICONTROL Superficie]** de forma predeterminada, el campo se rellena previamente y el usuario utiliza la última superficie para ese canal.
 
 Ahora puede empezar a diseñar el contenido de su mensaje SMS desde el **[!UICONTROL Editar contenido]** botón. [Definir el contenido del SMS](#sms-content)
 

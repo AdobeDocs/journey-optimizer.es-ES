@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: código, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 8%
+source-wordcount: '195'
+ht-degree: 6%
 
 ---
 
@@ -36,9 +36,13 @@ Utilice la variable **[!UICONTROL Codifique sus propios]** para importar el HTML
 
    ![](assets/code-editor.png)
 
-1. Si desea abrir el Diseñador de correo electrónico para iniciar el correo electrónico desde un nuevo diseño, seleccione **[!UICONTROL Cambiar el diseño]** en el menú de opciones.
+1. Si desea borrar el contenido del correo electrónico e iniciar el correo electrónico desde un nuevo diseño, seleccione **[!UICONTROL Cambiar el diseño]** en el menú de opciones.
 
    ![](assets/code-editor-change-design.png)
+
+   >[!NOTE]
+   >
+   >Esta acción abre la plantilla seleccionada en el Diseñador de correo electrónico. A partir de ahí, puede completar el diseño del correo electrónico o volver al editor de código utilizando el **[!UICONTROL Cambiar al editor de código]** .
 
 1. Haga clic en el **[!UICONTROL Vista previa]** para comprobar el diseño y la personalización de los mensajes mediante perfiles de prueba. [Más información](preview.md)
 

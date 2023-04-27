@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, publicación
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1539'
 ht-degree: 28%
 
 ---
@@ -223,13 +223,13 @@ Una vez que se hayan definido la configuración y el contenido de la página de 
 
    Los pasos para seleccionar perfiles de prueba son los mismos que al probar un mensaje. Se detallan en [esta sección](../email/preview.md#select-test-profiles).
 
-1. Seleccione el **[!UICONTROL Vista previa]** y haga clic en **[!UICONTROL Abrir previsualización]** para probar la página de aterrizaje.
+1. Select **[!UICONTROL Abrir previsualización]** para probar la página de aterrizaje.
 
    ![](assets/lp_open-preview.png)
 
 1. La vista previa de la página de aterrizaje se abre en una pestaña nueva. Los elementos personalizados se sustituyen por los datos de perfil de prueba seleccionados.
 
-   ![](assets/lp_preview.png)
+   <!--![](assets/lp_preview.png)-->
 
 1. Seleccione otros perfiles de prueba para previsualizar la renderización de cada variante de la página de aterrizaje.
 

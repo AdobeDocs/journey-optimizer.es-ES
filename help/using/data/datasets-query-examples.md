@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: conjunto de datos, optimizador, casos de uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 0%
+source-wordcount: '850'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,6 @@ En esta página, encontrará la lista de conjuntos de datos de Adobe Journey Opt
 [Conjunto de datos del evento de seguimiento push](#push-tracking-experience-event-dataset)
 [Evento de paso de recorrido](#journey-step-event)
 [Conjunto de datos de evento de decisión](#ode-decisionevents)
-[Conjunto de datos del servicio de consentimiento](#consent-service-dataset)
 [Conjunto de datos de evento de comentarios de BCC](#bcc-feedback-event-dataset)
 [Conjunto de datos de entidad](#entity-dataset)
 
@@ -258,15 +257,16 @@ select explode(propositionexplode.selections) AS proposedOffers from
 group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.ranking.priority;
 ```
 
-## Conjunto de datos del servicio de consentimiento{#consent-service-dataset}
+<!--
+## Consent Service Dataset{#consent-service-dataset}
 
-_Nombre en la interfaz: Conjunto de datos del servicio de consentimiento CJM (conjunto de datos del sistema)_
+_Name in the interface: CJM Consent Service Dataset (system dataset)_
 
-Conjunto de datos para el servicio de consentimiento de Journey Optimizer.
+Dataset for Journey Optimizer Consent service.
 
-El esquema relacionado es CJM Consent Service Schema.
+The related schema is CJM Consent Service Schema.
 
-Consulte la lista de ID de correo electrónico que han consentido en recibir correo electrónico:
+Query to list email IDs that have consented to receive email:
 
 ```sql
 select key as email FROM (
@@ -278,7 +278,7 @@ select key as email FROM (
 where value.marketing.email.val == 'y'
 ```
 
-Consulta para devolver el valor de consentimiento de un ID de correo electrónico en el que el ID de correo electrónico sería la entrada:
+Query to return consent value for an email ID where email ID would be the input:
 
 ```sql
 select value.marketing.email.val FROM (
@@ -287,6 +287,7 @@ select value.marketing.email.val FROM (
   from cjm_consent_service_dataset
  )
 ```
+-->
 
 ## Conjunto de datos de evento de comentarios de BCC{#bcc-feedback-event-dataset}
 

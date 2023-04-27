@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: acción, personalizado, API, recorrido, configuración, servicio
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 25%
+source-wordcount: '400'
+ht-degree: 26%
 
 ---
 
@@ -55,18 +55,13 @@ La dirección URL concatenada tiene este formulario:
 
 ![](assets/journey-custom-action-url.png)
 
-### Encabezados
+### Encabezados y parámetros de consulta {#headers}
 
-La variable **[!UICONTROL Configuración de URL]** muestra los campos del encabezado dinámico, pero no los campos del encabezado constante. Los campos de encabezado dinámico son campos de encabezado HTTP cuyo valor está configurado como variable. [Más información](../action/about-custom-action-configuration.md).
+La variable **[!UICONTROL Configuración de URL]** muestra los campos del encabezado dinámico y del parámetro de consulta, pero no los campos constantes. Los campos de parámetros de consulta y encabezado dinámico se definen como variables en la pantalla de configuración de acciones. [Más información](../action/about-custom-action-configuration.md#url-configuration)
 
-Si es necesario, especifique el valor de los campos del encabezado dinámico:
+Para especificar el valor de los campos de parámetros de consulta y encabezado dinámico, haga clic dentro del campo o en el icono de lápiz y seleccione el campo deseado.
 
-1. Seleccione la acción personalizada en el recorrido .
-1. En el panel de configuración, haga clic en el icono de lápiz situado junto al campo de encabezado en la **[!UICONTROL Configuración de URL]** para obtener más información.
-
-   ![](assets/journey-dynamicheaderfield.png)
-
-1. Seleccione un campo y haga clic en **[!UICONTROL OK]**.
+![](assets/journey-dynamicheaderfield.png)
 
 ## Parámetros de acción
 

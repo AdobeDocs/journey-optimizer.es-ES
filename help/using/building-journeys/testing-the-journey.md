@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: prueba, recorrido, comprobación, error, solución de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 11%
@@ -128,6 +128,7 @@ Tenga en cuenta que cuando se déclencheur por primera vez un evento empresarial
 La variable **[!UICONTROL Mostrar registro]** permite ver los resultados de la prueba. Esta página muestra la información actual del recorrido en formato JSON. Un botón permite copiar nodos completos. Debe actualizar manualmente la página para actualizar los resultados de prueba del recorrido.
 
 ![](assets/journeytest3.png)
+
 
 >[!NOTE]
 >
