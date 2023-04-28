@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: vínculos, seguimiento, monitor, correo electrónico
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 8%
+source-wordcount: '885'
+ht-degree: 7%
 
 ---
 
@@ -86,7 +86,7 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
 >[!NOTE]
 >
->Los mensajes de correo electrónico de tipo de marketing deben incluir un [vínculo de no participación](../privacy/opt-out.md#opt-out-management), que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**) se define en la variable [superficie del canal](../configuration/channel-surfaces.md#email-type) (es decir, ajuste preestablecido de mensaje) al crear el mensaje.
+>Los mensajes de correo electrónico de tipo de marketing deben incluir un [vínculo de no participación](../privacy/opt-out.md#opt-out-management), que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**) se define en la variable [superficie del canal](../configuration/channel-surfaces.md#email-type) al crear el mensaje.
 
 ## Vínculo a una página espejo {#mirror-page}
 
@@ -132,3 +132,29 @@ La variable [Diseñador de correo electrónico](content-from-scratch.md) le perm
    * **[!UICONTROL Nunca]**: Nunca activa el seguimiento de esta dirección URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 Los informes de aperturas y clics están disponibles en la [Informe activo](../reports/live-report.md) y en el [Informe global](../reports/global-report.md).
+
+## Seguimiento de URL {#url-tracking}
+
+Normalmente [Seguimiento de URL](email-settings.md#url-tracking) se administra a nivel de superficie, pero no se admiten atributos de perfil. Actualmente, la única manera de hacerlo es [personalización de direcciones URL](../personalization/personalization-syntax.md#perso-urls) en el diseñador de correo electrónico.
+
+Para agregar parámetros de seguimiento de URL personalizados a sus vínculos, siga los pasos a continuación.
+
+1. Seleccione un vínculo y haga clic en **[!UICONTROL Insertar vínculo]** de la barra de herramientas contextual.
+
+1. Seleccione el icono de personalización. Solo está disponible para estos tipos de vínculos: **Vínculo externo**, **Vínculo de baja** y **Exclusión**.
+
+   ![](assets/message-tracking-insert-link-perso.png)
+
+1. Añada el parámetro de seguimiento de URL y seleccione el atributo de perfil que desee en el editor de expresiones.
+
+   ![](assets/message-tracking-perso-parameter.png)
+
+1. Guarde los cambios.
+
+1. Repita los pasos anteriores para cada vínculo al que desee agregar este parámetro de seguimiento.
+
+Ahora, cuando se envía el correo electrónico, este parámetro se añade automáticamente al final de la dirección URL. A continuación, puede capturar este parámetro en herramientas de análisis web o en informes de rendimiento.
+
+>[!NOTE]
+>
+>Para verificar la dirección URL final, puede [enviar una prueba](preview.md#send-proofs) y haga clic en el vínculo del contenido del correo electrónico una vez que reciba la prueba. La dirección URL debe mostrar el parámetro de seguimiento. En el ejemplo anterior, la dirección URL final es: https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number
