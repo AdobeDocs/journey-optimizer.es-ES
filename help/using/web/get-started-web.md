@@ -6,28 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '160'
 ht-degree: 11%
 
 ---
 
 # Introducción al canal web {#get-sarted-web}
 
->[!AVAILABILITY]
->
->Esta funcionalidad solo está disponible con la variable [!DNL Adobe Journey Optimizer] **Prime** y **Ultimate** [paquetes](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html).
-
 [!DNL Journey Optimizer] le permite crear y enviar visualmente experiencias web personalizadas a sus clientes.
-
-Si ya está utilizando canales salientes como correo electrónico, SMS o notificaciones push, ahora puede aprovechar el canal web entrante para ofrecer una experiencia verdaderamente personalizada que abarque todos los canales.
 
 A través de una intuitiva interfaz visual, esta capacidad le permite modificar sus propiedades web fácilmente para experimentar, optimizar y personalizar sus campañas de usuario final.
 
->[!CAUTION]
->
->Actualmente en [!DNL Journey Optimizer] solo puede crear experiencias web mediante **campañas**.
+Si ya está utilizando canales salientes como correo electrónico, SMS o notificaciones push, ahora puede aprovechar el canal web entrante para ofrecer una experiencia verdaderamente personalizada que abarque todos los canales.
 
 Una vez creada la campaña, seleccione **Web** como su acción y defina la configuración básica. Para obtener más información sobre cómo configurar la campaña, consulte esta [página](../campaigns/create-campaign.md#configure).
 
@@ -73,9 +65,5 @@ Descubra los pasos detallados para crear una campaña web en [este vídeo](creat
 <p>
 </td>
 </tr></table>
-
->[!CAUTION]
->
->[!DNL Journey Optimizer] las campañas web se dirigen a nuevos perfiles que no se han utilizado anteriormente en otros canales. Esto aumentará el recuento total de perfiles facturables, lo que puede tener implicaciones de coste si se supera el número contractual de perfiles facturables que ha comprado. Las métricas de licencia de cada paquete se enumeran en la sección [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html) página.
 
 
