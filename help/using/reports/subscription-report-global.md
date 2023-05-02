@@ -11,7 +11,7 @@ exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 11%
+ht-degree: 20%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_global_report"
 >title="Informe global de la suscripción"
->abstract="El informe global de suscripción le permite medir y visualizar la actividad de sus suscriptores durante un período de tiempo seleccionado. El informe se divide en distintos widgets que detallan las subscripciones y las cancelaciones de subscripciones. Cada tablero de informes se puede modificar cambiando el tamaño o eliminando los widgets."
+>abstract="El informe global de suscripción permite medir y visualizar la actividad de sus suscriptores durante un período de tiempo seleccionado. El informe se divide en distintos widgets que detallan las subscripciones y las cancelaciones de subscripciones. Cada tablero de informes se puede modificar cambiando el tamaño o eliminando los widgets."
 
 La suscripción **[!UICONTROL Informe global]** muestra detalles sobre la actividad de los suscriptores durante un período de tiempo seleccionado. Para medir sus suscripciones solo durante las últimas 24 horas, consulte la [Informe de suscripción en directo](subscription-report-live.md).
 

@@ -12,7 +12,7 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 6%
+ht-degree: 31%
 
 ---
 
@@ -20,44 +20,44 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
->title="Añadir componentes de estructura"
->abstract="Los componentes de estructura definen el diseño del correo electrónico. Arrastre y suelte una **Estructura** en el lienzo para empezar a diseñar el contenido del correo electrónico."
+>title="Adición de componentes de estructura"
+>abstract="Los componentes de estructura definen el diseño del correo electrónico. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido del correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
->title="Añadir componentes de estructura"
->abstract="Los componentes de estructura definen el diseño de la página de aterrizaje. Arrastre y suelte una **Estructura** en el lienzo para empezar a diseñar el contenido de la página de aterrizaje."
+>title="Adición de componentes de estructura"
+>abstract="Los componentes de estructura definen el diseño de la página de aterrizaje. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido de la página de aterrizaje."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
->title="Añadir componentes de estructura"
->abstract="Los componentes de estructura definen el diseño del fragmento. Arrastre y suelte una **Estructura** en el lienzo para empezar a diseñar el contenido del fragmento."
+>title="Adición de componentes de estructura"
+>abstract="Los componentes de estructura definen el diseño del fragmento. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido del fragmento."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
->title="Añadir componentes de estructura"
->abstract="Los componentes de estructura definen el diseño de la plantilla. Arrastre y suelte una **Estructura** en el lienzo para empezar a diseñar el contenido de la plantilla."
+>title="Adición de componentes de estructura"
+>abstract="Los componentes de estructura definen el diseño de la plantilla. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido de la plantilla."
 
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
->title="Definir columnas de correo electrónico"
->abstract="El Diseñador de correo electrónico le permite definir fácilmente el diseño del correo electrónico seleccionando la estructura de columna."
+>title="Definición de columnas de correo electrónico"
+>abstract="El diseñador de correo electrónico permite definir fácilmente el diseño del correo electrónico mediante la selección de la estructura de columnas."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
->title="Definir columnas de página de aterrizaje"
->abstract="Designer permite definir fácilmente el diseño de la página de aterrizaje mediante la selección de la estructura de columnas."
+>title="Definición de columnas de página de aterrizaje"
+>abstract="El diseñador permite definir fácilmente el diseño de la página de aterrizaje mediante la selección de la estructura de columnas."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Definir columnas de fragmento"
->abstract="Designer permite definir fácilmente el diseño del fragmento seleccionando la estructura de columna."
+>title="Definición de columnas de fragmento"
+>abstract="El diseñador permite definir fácilmente el diseño del fragmento mediante la selección de la estructura de columnas."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
->title="Definir columnas de plantilla"
->abstract="Designer permite definir fácilmente el diseño de la plantilla mediante la selección de la estructura de columna."
+>title="Definición de columnas de plantilla"
+>abstract="El diseñador permite definir fácilmente el diseño de la plantilla mediante la selección de la estructura de columnas."
 
 
 Utilice Adobe Journey Optimizer Designer para definir fácilmente la estructura del contenido. Al agregar y mover elementos estructurales con simples acciones de arrastrar y soltar, puede diseñar la forma de su contenido en cuestión de segundos.

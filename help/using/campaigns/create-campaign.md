@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: bf058b13508c7ad644a3b1f63e9208740abf8602
 workflow-type: tm+mt
 source-wordcount: '753'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -33,7 +33,7 @@ Para crear una nueva campaña, acceda al **[!UICONTROL Campañas]** a continuaci
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campaña"
->abstract="Para un mensaje de marketing especificando una fecha de envío, la variable **Programado** es el más adecuado. Sin embargo, si desea enviar mensajes transaccionales como restablecimiento de contraseña o abandono del carro de compras, el tipo **Activado por API** es la mejor opción."
+>abstract="Para un mensaje de marketing especificando una fecha de envío, el tipo **Programado** es el más adecuado. Sin embargo, si desea enviar mensajes transaccionales como restablecimiento de contraseña o abandono del carro de compras, el tipo **Activado por API** es la mejor opción."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
