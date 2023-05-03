@@ -8,15 +8,15 @@ level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
 # Introducción al canal en la aplicación {#gs-in-app}
 
-Los mensajes en la aplicación son notificaciones que se pueden enviar a los usuarios dentro de la aplicación, lo que los guía en puntos de interés específicos. Estas notificaciones se pueden utilizar para distintos fines, como la promoción de nuevas funciones, la presentación de ofertas especiales o la facilitación de la incorporación del usuario. Al aprovechar los mensajes en la aplicación, puede interactuar con su audiencia y dirigirlos hacia aspectos importantes de su aplicación.
+Los mensajes en la aplicación son notificaciones que se pueden enviar a los usuarios dentro de la aplicación y les guía a puntos de interés específicos. Estas notificaciones se pueden utilizar para distintos fines, como la promoción de nuevas funciones, la presentación de ofertas especiales o la facilitación de la incorporación del usuario. Al aprovechar los mensajes en la aplicación, puede interactuar con su audiencia y dirigirlos hacia aspectos importantes de su aplicación.
 
 Utilice Journey Optimizer para crear notificaciones en la aplicación y configurar las opciones de experiencia, incluidas las opciones de diseño y visualización de mensajes, texto y botones.
 
@@ -24,18 +24,18 @@ Utilice Journey Optimizer para crear notificaciones en la aplicación y configur
 
 Antes de enviar mensajes en la aplicación, debe:
 
-* Configure el canal en la aplicación. [Más información](inapp-configuration.md)
+* Configurar el canal en la aplicación. [Más información](inapp-configuration.md)
 
-* Asegúrese de que tiene los permisos correctos en las campañas de Journey Optimizer antes de comenzar. [Más información](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+* Asegurarse de que tiene los permisos correctos en las campañas de Journey Optimizer antes de empezar. [Más información](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 
-Una vez finalizado, puede crear, configurar y enviar su primer mensaje en la aplicación. Aprenda a conseguirlo en [esta sección](create-in-app.md).
+Cuando haya finalizado, podrá crear, configurar y enviar su primer mensaje en la aplicación. Obtenga información sobre cómo enviar mensajes en [esta sección](create-in-app.md).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-in-app.md">
 <img alt="Posible cliente" src="../assets/do-not-localize/inapp-create.jpeg">
 </a>
-<div><a href="create-in-app.md"><strong>Crear mensaje en la aplicación</strong>
+<div><a href="create-in-app.md"><strong>Crear un mensaje en la aplicación</strong>
 </div>
 <p>
 </td>
