@@ -12,7 +12,7 @@ exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: ce6dc6eec59ad61bec2c00e811f6f6e006eb20da
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 17%
 >
 >Si es la primera vez que crea un correo electrónico, asegúrese de que el canal de correo electrónico esté configurado. [Más información](email-settings.md)
 
-Uso [!DNL Journey Optimizer] para enviar mensajes de correo electrónico a sus clientes. Puede crear, personalizar y previsualizar mensajes en el Diseñador de correo electrónico.
+Utilice [!DNL Journey Optimizer] para enviar mensajes de correo electrónico a sus clientes. Puede crear, personalizar y previsualizar mensajes en el Diseñador de correo electrónico.
 
 Se pueden crear envíos de correo electrónico:
 
-* En un **Recorrido**: una vez que haya añadido un **[!UICONTROL Correo electrónico]** para su recorrido, y para definir la configuración básica, use la variable **[!UICONTROL Acciones: Correo electrónico]** panel derecho para crear el contenido del mensaje.
+* En un **Recorrido**: una vez que haya añadido una actividad de **[!UICONTROL Correo electrónico]** para su recorrido y haya definido la configuración básica, utilice el panel derecho **[!UICONTROL Acciones: correo electrónico]** para crear el contenido del mensaje.
 
-   Para obtener más información sobre cómo configurar el recorrido, consulte esta [página](../building-journeys/journey-gs.md).
+   Para obtener más información sobre cómo configurar su recorrido, consulte esta [página](../building-journeys/journey-gs.md).
 
-* En un **Campaign**: una vez creada la campaña, seleccione **[!UICONTROL Correo electrónico]** como su acción y defina la configuración básica.
+* En una **Campaña**: una vez creada la campaña, seleccione **[!UICONTROL Correo electrónico]** como su acción y defina la configuración básica.
 
-   Para obtener más información sobre cómo configurar la campaña, consulte esta [página](../campaigns/create-campaign.md#configure).
+   Para obtener más información sobre cómo configurar la cuenta, consulte esta [página](../campaigns/create-campaign.md#configure).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

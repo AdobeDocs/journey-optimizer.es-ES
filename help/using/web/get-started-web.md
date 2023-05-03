@@ -9,7 +9,7 @@ exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 11%
+ht-degree: 68%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 11%
 
 [!DNL Journey Optimizer] le permite crear y enviar visualmente experiencias web personalizadas a sus clientes.
 
-A través de una intuitiva interfaz visual, esta capacidad le permite modificar sus propiedades web fácilmente para experimentar, optimizar y personalizar sus campañas de usuario final.
+A través de una interfaz visual intuitiva, esta capacidad le permite modificar sus propiedades web fácilmente para experimentar, optimizar y personalizar sus campañas de usuario final.
 
 Si ya está utilizando canales salientes como correo electrónico, SMS o notificaciones push, ahora puede aprovechar el canal web entrante para ofrecer una experiencia verdaderamente personalizada que abarque todos los canales.
 
-Una vez creada la campaña, seleccione **Web** como su acción y defina la configuración básica. Para obtener más información sobre cómo configurar la campaña, consulte esta [página](../campaigns/create-campaign.md#configure).
+Una vez creada la campaña, seleccione **Web** como su acción y defina la configuración básica. Para obtener más información sobre cómo configurar la cuenta , consulte esta [página](../campaigns/create-campaign.md#configure).
 
 >[!NOTE]
 >

@@ -13,8 +13,8 @@ exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 23%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +42,7 @@ Lo que encontrará en esta documentación:
 
 La composición de audiencias le permite crear **flujos de trabajo de composición**, donde puede combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (divididas, excluidas...) para crear nuevas audiencias.
 
-Una vez finalizado, el **audiencias resultantes** se guardan en Adobe Experience Platform junto con audiencias existentes y se pueden **aprovechado en campañas** para dirigirse a los clientes. [Aprenda a trabajar con campañas](../campaigns/get-started-with-campaigns.md)
+Cuando haya finalizado, las **audiencias resultantes** se guardarán en Adobe Experience Platform junto con audiencias existentes y se podrán **aprovechar en campañas** para dirigirse a los clientes. [Descubra cómo trabajar con campañas](../campaigns/get-started-with-campaigns.md)
 
 ![](assets/audiences-process.png)
 
@@ -50,15 +50,15 @@ Una vez finalizado, el **audiencias resultantes** se guardan en Adobe Experience
 >
 >Las audiencias resultantes de los flujos de trabajo de composición solo se pueden dirigir a campañas de Journey Optimizer. No están disponibles para su uso en recorridos.
 
-Se puede acceder a la composición de audiencias desde Adobe Journey Optimizer **[!UICONTROL Segmentos]** menú:
+Se puede acceder a la composición de audiencias desde el menú **[!UICONTROL Segmentos]** de Adobe Journey Optimizer:
 
 ![](assets/audiences-browse.png)
 
-* La variable **[!UICONTROL Información general]** proporciona un tablero dedicado con métricas clave relacionadas con los datos de segmentos de su organización. Para obtener más información, consulte [Guía de paneles de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html).
+* La pestaña **[!UICONTROL Información general]** proporciona un tablero dedicado con métricas clave relacionadas con los datos de segmentos de su organización. Para obtener más información, consulte [Guía de tableros de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=es).
 
-* La variable **[!UICONTROL Examinar]** lista todas las audiencias existentes almacenadas en Adobe Experience Platform.
+* La pestaña **[!UICONTROL Examinar]** lista todas las audiencias existentes almacenadas en Adobe Experience Platform.
 
-* La variable **[!UICONTROL Composiciones]** le permite crear flujos de trabajo de composición en los que puede combinar y organizar audiencias para crear otras nuevas.
+* La pestaña **[!UICONTROL Composiciones]** le permite crear flujos de trabajo de composición en los que puede combinar y organizar audiencias para crear otras nuevas.
 
 Haga clic en cada tarjeta para aprender a trabajar con la composición de la audiencia:
 
