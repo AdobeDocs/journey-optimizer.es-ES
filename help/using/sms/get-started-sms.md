@@ -2,32 +2,32 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introducción a los SMS
-description: Obtenga información sobre cómo crear un SMS en Journey Optimizer
+description: Obtenga información sobre cómo crear correos electrónicos en Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
 # Introducción a los SMS {#get-started-sms}
 
-Uso [!DNL Journey Optimizer] para enviar mensajes de texto a sus clientes en sus dispositivos móviles. Puede crear, personalizar y previsualizar mensajes en formato de texto desde el editor de SMS.
+Utilice [!DNL Journey Optimizer] para enviar mensajes de texto a sus clientes en sus dispositivos móviles. Puede crear, personalizar y previsualizar mensajes en formato de texto desde el editor de SMS.
 
 Se pueden crear envíos de SMS:
 
-* En un **Recorrido**: Una vez que haya agregado una actividad SMS en el recorrido y haya definido la configuración básica, utilice la variable **[!UICONTROL Acciones: SMS]** panel derecho para crear el contenido del mensaje SMS.
+* En un **Recorrido**: una vez que haya añadido una actividad SMS en el recorrido y haya definido la configuración básica, utilice el panel derecho **[!UICONTROL Acciones: SMS]** para crear el contenido del mensaje SMS.
 
-   Para obtener más información sobre cómo configurar el recorrido, consulte esta [página](../building-journeys/journey-gs.md).
+   Para obtener más información sobre cómo configurar su recorrido, consulte esta [página](../building-journeys/journey-gs.md).
 
-* En un **Campaign**: Una vez que haya creado una campaña, seleccione SMS como su acción y defina la configuración básica.
+* En una **Campaña**: una vez que haya creado una campaña, seleccione SMS como su acción y defina la configuración básica.
 
-   Para obtener más información sobre cómo configurar la campaña, consulte esta [página](../campaigns/create-campaign.md#configure).
+   Para obtener más información sobre cómo configurar la cuenta , consulte esta [página](../campaigns/create-campaign.md#configure).
 
 
 >[!IMPORTANT]
