@@ -7,12 +7,12 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-keywords: expresión, editor, get started, conditions, start
+keywords: expresión, editor, introducción, condiciones, inicio
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ ht-degree: 38%
 >title="Condiciones"
 >abstract="Las reglas condicionales permiten mostrar varias variantes de contenido en sus mensajes en función de atributos de perfil, eventos contextuales o segmentos de audiencia."
 
-El contenido dinámico le permite adaptar el contenido de sus mensajes en función de **reglas condicionales** que pueden estar formados por atributos de perfil, eventos contextuales o segmentos de audiencia. Las reglas condicionales se crean mediante un generador de reglas visual dentro del Editor de expresiones, donde puede almacenarlas para su reutilización en los recorridos y campañas.
+El contenido dinámico le permite adaptar el contenido de sus mensajes en función de **reglas condicionales** que pueden estar formadas por atributos de perfil, eventos contextuales o segmentos de audiencia. Las reglas condicionales se crean mediante un generador de reglas visual dentro del Editor de expresiones, donde puede almacenarlas para su reutilización en los recorridos y campañas.
 
 Las reglas condicionales se pueden aprovechar en el Diseñador de correo electrónico y en el editor de expresiones para **crear contenido dinámico** que se adaptará a los perfiles segmentados en los mensajes.
 
 ![](assets/conditions-overview.png)
 
-* [Aprenda a trabajar con reglas condicionales](create-conditions.md)
-* [Aprenda a crear contenido dinámico](dynamic-content.md)
+* [Información sobre cómo trabajar con reglas condicionales](create-conditions.md)
+* [Información sobre cómo crear contenido dinámico](dynamic-content.md)
 
 ## Vídeo explicativo {#video}
 
-Obtenga información sobre cómo crear contenido dinámico con el generador de reglas de condición.
+Información sobre cómo crear contenido dinámico con el generador de reglas de condición.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)
