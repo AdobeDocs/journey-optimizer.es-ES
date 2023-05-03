@@ -11,8 +11,8 @@ keywords: recorrido, primero, inicio, inicio rápido, segmento, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 22%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
