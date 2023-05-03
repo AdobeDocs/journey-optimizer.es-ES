@@ -7,12 +7,12 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: campaña, cómo , iniciar, optimizer
+keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
@@ -27,10 +27,10 @@ Utilice campañas de Journey Optimizer para ofrecer contenido único a un segmen
 
 Puede crear dos tipos de campañas:
 
-* **Campañas programadas** permite comunicaciones por lotes ad-hoc sencillas para casos de uso de marketing, como ofertas promocionales, campañas de participación, anuncios, avisos legales o actualizaciones de políticas.
-* **Campañas de API activadas** permiten mensajes transaccionales/operativos simples con las API de REST (restablecimiento de contraseña, abandono del carro de compras, etc.), donde la necesidad puede implicar personalización mediante atributos de perfil y datos contextuales de la carga útil.
+* **Campañas programadas** le permite comunicaciones por lotes ad-hoc sencillas para casos de uso de marketing, como ofertas promocionales, campañas de participación, anuncios, avisos legales o actualizaciones de políticas.
+* **Campañas activadas por API** permiten mensajes transaccionales/operativos simples con las API de REST (restablecimiento de contraseña, abandono del carro de compras, etc.), donde la necesidad puede implicar personalización mediante atributos de perfil y datos contextuales de la carga útil.
 
-Los pasos principales para crear una campaña son los siguientes:
+Los pasos principales para crear una regla de tipología son los siguientes:
 
 ![](assets/create-campaign-process.png)
 
@@ -40,17 +40,17 @@ Los pasos principales para crear una campaña son los siguientes:
 
 Compruebe los siguientes requisitos previos antes de empezar a crear la primera campaña en Journey Optimizer:
 
-1. **Necesita los permisos adecuados**. Las campañas solo están disponibles para los usuarios con acceso a campañas relacionadas **[!UICONTROL Perfil del producto]** como administrador de campañas, aprobador de campañas, administrador de campañas o visualizador de campañas.
+1. **Necesita los permisos adecuados**. Esta función solo está disponible para usuarios con acceso a un **[!UICONTROL Perfil de producto]** relacionado con Campaign, como administrador de Campaign, aprobador de Campaign, administrador de Campaign y/o visualizador de Campaign.
 
-   Si no puede acceder a las campañas, sus permisos deben ampliarse. Si tiene acceso a [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} para su organización, siga los pasos a continuación. Si no es así, póngase en contacto con el administrador de Journey Optimizer.
+   Si no puede acceder a las campañas, sus permisos deben ampliarse. Si tiene acceso a [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} para su organización, siga los pasos siguientes. De lo contrario, póngase en contacto con el administrador de Journey Optimizer.
 
    +++Obtenga información sobre cómo asignar permisos de campaña
 
-   Para asignar la **[!UICONTROL Perfil del producto]** a sus usuarios:
+   Para asignar el **[!UICONTROL Perfil del producto]** a sus usuarios:
 
-   1. De [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}, seleccione [!DNL Adobe Experience Platform] producto.
+   1. En [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}, seleccione el producto de [!DNL Adobe Experience Platform].
 
-   1. Vaya a la **[!UICONTROL Perfil del producto]** , seleccione una de las campañas integradas relacionadas **[!UICONTROL Perfil del producto]**: Administrador de campañas, aprobador de campañas, administrador de campañas o visualizador de campañas.
+   1. Vaya a la pestaña **[!UICONTROL Perfil del producto]** , seleccione una de las campañas integradas relacionadas **[!UICONTROL Perfil del producto]**: Administrador de campañas, aprobador de campañas, administrador de campañas o visualizador de campañas.
 
       Para obtener más información sobre la campaña de Journey Optimizer **[!UICONTROL Perfiles de producto]** y **[!UICONTROL Permisos]**, [consulte esta página](../administration/ootb-product-profiles.md).
 
@@ -65,8 +65,8 @@ Compruebe los siguientes requisitos previos antes de empezar a crear la primera 
 
 +++
 
-1. **Necesita una audiencia**. Los segmentos de audiencia deben estar disponibles antes de crear la campaña. Más información sobre la creación de audiencias [en esta página](../segment/about-segments.md).
-1. **Necesita una superficie de canal**. Para poder seleccionar un canal, debe tener la superficie del canal correspondiente (es decir, preestablecida) creada y disponible. Obtenga más información sobre las superficies de canal [en esta página](../configuration/channel-surfaces.md).
+1. **Necesita una audiencia**. Los segmentos de audiencia deben estar disponibles antes de crear la campaña. Más información sobre la creación de audiencia [en esta página](../segment/about-segments.md).
+1. **Necesita una superficie de canal**. Para poder seleccionar un canal, debe tener la superficie del canal correspondiente (es decir, preestablecida) creada y disponible. Más información sobre los segmentos de canal [en esta página](../configuration/channel-surfaces.md).
 
 ## Vídeo explicativo {#video}
 
