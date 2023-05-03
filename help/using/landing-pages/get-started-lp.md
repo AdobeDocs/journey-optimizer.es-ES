@@ -7,12 +7,12 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-keywords: aterrizaje, página de aterrizaje, inicio, obtener inicio
+keywords: aterrizaje, página de aterrizaje, inicio, introducción
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 10%
 
 Una página de aterrizaje es una página web independiente a la que se dirige a un usuario después de hacer clic desde un correo electrónico, un sitio web, un anuncio o cualquier otra ubicación digital.
 
-[!DNL Journey Optimizer] le permite crear y diseñar páginas de aterrizaje para dirigir a los usuarios a formularios en línea, donde pueden optar por recibir o rechazar la recepción de comunicaciones, o suscribirse a un servicio específico, como un boletín informativo.
+[!DNL Journey Optimizer] le permite crear y diseñar páginas de aterrizaje para dirigir a los usuarios a formularios en línea, donde pueden optar por recibir o rechazar la recepción de comunicaciones, o suscribirse a un servicio específico, como un Newsletter.
 
 ➡️ [Obtenga más información sobre la configuración de suscripciones y la creación de páginas de aterrizaje en este vídeo](#video)
 
-* Aprovechar [!DNL Journey Optimizer] capacidades de diseño de contenido para crear fácilmente **páginas de aterrizaje adaptables**.
-* Configuración **flujos de inclusión y exclusión** rápida y sin problemas.
-* Crear listas de suscripción para permitir a los usuarios **suscripción a un servicio**. [Más información](lp-use-cases.md#subscription-to-a-service)
-* Proporcione a sus destinatarios el **capacidad para cancelar la suscripción** de recibir sus comunicaciones. [Más información](lp-use-cases.md#opt-out)
-* Enviar un **correo electrónico de confirmación** al activar o desactivar . [Más información](lp-use-cases.md#send-confirmation-email)
+* Aproveche las [!DNL Journey Optimizer]funciones de diseño de contenido para crear fácilmente **páginas de aterrizaje adaptables**.
+* Configure **flujos de inclusión y exclusión** rápidamente y sin problemas.
+* Cree listas de suscripción para permitir a los usuarios **suscribirse a un servicio**. [Más información](lp-use-cases.md#subscription-to-a-service)
+* Proporcione a sus destinatarios la **capacidad de cancelar la suscripción** y dejar de recibir sus comunicaciones. [Más información](lp-use-cases.md#opt-out)
+* Envíe un **correo electrónico de confirmación** en la inclusión o exclusión. [Más información](lp-use-cases.md#send-confirmation-email)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
