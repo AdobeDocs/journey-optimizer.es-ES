@@ -13,9 +13,9 @@ hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2013'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
@@ -35,19 +35,19 @@ Lo que encontrará en esta documentación:
 
 >[!AVAILABILITY]
 >
->Actualmente, la función Experimento de contenido solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
+>Ahora mismo, la función de Experimento de contenido solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
 
 ## ¿Qué es un experimento de contenido?
 
 Los experimentos de contenido le permiten optimizar el contenido para las acciones de sus campañas.
 
-Los experimentos son un conjunto de ensayos aleatorios, que en el contexto de las pruebas en línea, significa que algunos usuarios seleccionados al azar están expuestos a una variación determinada de un mensaje y otro conjunto de usuarios seleccionados al azar a otro tratamiento. Después de enviar el mensaje, puede medir las métricas de resultados que le interesen, por ejemplo, las aperturas de correos electrónicos o clics.
+Los experimentos son un conjunto de ensayos aleatorios, que en el contexto de las pruebas en línea, significa que algunos usuarios seleccionados al azar están expuestos a una variación determinada de un mensaje y otro conjunto de usuarios seleccionados al azar a otro tratamiento. Después de enviar el mensaje, puede medir las métricas de resultados que le interesen, por ejemplo, las aperturas de correos electrónicos o los clics.
 
 ## ¿Por qué ejecutar experimentos?
 
 ![](assets/content_experiment_schema.png)
 
-Los experimentos le permiten aislar los cambios que conducen a mejoras en las métricas. Como se ilustra en la imagen anterior: algunos usuarios seleccionados al azar están expuestos a cada grupo de tratamiento, lo que significa que, en promedio, los grupos compartirán las mismas características. Por lo tanto, cualquier diferencia en los resultados puede interpretarse como debida a las diferencias en los tratamientos recibidos, es decir, usted puede establecer un vínculo causal entre los cambios que usted hizo y los resultados en los que está interesado.
+Los experimentos le permiten aislar los cambios que conducen a mejoras en las métricas. Como se ilustra en la imagen anterior: algunos usuarios seleccionados al azar están expuestos a cada grupo de tratamiento, lo que significa que, de media, los grupos compartirán las mismas características. Por lo tanto, cualquier diferencia en los resultados puede interpretarse como debida a las diferencias en los tratamientos recibidos, es decir, usted puede establecer un vínculo causal entre los cambios que usted hizo y los resultados en los que está interesado.
 
 Esto le permite tomar decisiones basadas en datos al optimizar sus objetivos comerciales.
 
@@ -56,15 +56,15 @@ Para los experimentos de contenido en Adobe Journey Optimizer, puede probar idea
 * **Línea de asunto**: ¿Cuál podría ser el impacto de un cambio en el tono o en el grado de personalización de una línea de asunto?
 * **Contenido del mensaje**: ¿Cambiar el diseño visual de un correo electrónico dará como resultado más clics en el correo electrónico?
 
-## ¿Cómo funciona el experimento de contenido? {#content-experiment-work}
+## ¿Cómo funciona un experimento de contenido? {#content-experiment-work}
 
 ### Asignación aleatoria
 
-La experimentación de contenido en Adobe Journey Optimizer utiliza un hash seudoaleatorio de la identidad del visitante para realizar una asignación aleatoria de usuarios en la audiencia de destino a uno de los tratamientos que ha definido. El mecanismo de hash garantiza que en los casos en los que el visitante entra en una campaña varias veces, reciba el mismo tratamiento de forma determinista.
+La experimentación de contenido en Adobe Journey Optimizer utiliza un hash pseudoaleatorio de la identidad del visitante para realizar una asignación aleatoria de usuarios en la audiencia de destino a uno de los tratamientos que ha definido. El mecanismo de hash garantiza que, en los casos en los que el visitante entra en una campaña varias veces, reciba el mismo tratamiento de forma determinada.
 
-En detalle, el algoritmo de 32 bits MumurHash3 se usa para hash la cadena de identidad del usuario en uno de los 10.000 bloques. En un experimento de contenido con el 50% del tráfico asignado a cada tratamiento, los usuarios que caigan en bloques de 1 a 5,000 recibirán el primer tratamiento, mientras que los usuarios de los bloques de 5,001 a 10,000 recibirán el segundo tratamiento. Dado que se utiliza un hash pseudo aleatorio, las divisiones de visitante que observe pueden no ser exactamente 50-50; sin embargo, la división será estadísticamente equivalente al porcentaje de división objetivo.
+En detalle, el algoritmo de 32 bits MumurHash3 se usa para hash la cadena de identidad del usuario en uno de los 10 000 bloques. En un experimento de contenido con el 50 % del tráfico asignado a cada tratamiento, los usuarios que caigan en bloques de 1 a 5000 recibirán el primer tratamiento, mientras que los usuarios de los bloques de 5001 a 10 000 recibirán el segundo tratamiento. Dado que se utiliza un hash pseudoaleatorio, las divisiones de visitante que observe pueden no ser exactamente 50-50; sin embargo, la división será estadísticamente equivalente al porcentaje de división objetivo.
 
-Tenga en cuenta que, como parte de la configuración de cada campaña con un experimento de contenido, debe elegir un área de nombres de identidad desde la que se seleccionará el userId para el algoritmo de aleatorización. Esto es independiente del [direcciones de ejecución](../configuration/primary-email-addresses.md).
+Tenga en cuenta que, como parte de la configuración de cada campaña con un experimento de contenido, debe elegir un área de nombres de identidad desde la que se seleccionará el Id de usuario para el algoritmo de aleatorización. Esto es independiente de las [direcciones de ejecución](../configuration/primary-email-addresses.md).
 
 ### Recopilación y análisis de datos
 
@@ -79,7 +79,7 @@ Para las métricas de objetivo directo en las que Adobe Journey Optimizer realiz
 
 ![](assets/technote_2.png)
 
-Para objetivos indirectos o &quot;de fondo&quot; como las compras, los eventos de respuesta de los usuarios finales no se etiquetan con identificadores de campaña y tratamiento, es decir, un evento de compra se produce después de la exposición a un tratamiento, no hay una asociación directa de esa compra con una asignación de tratamiento anterior. Para estas métricas, el Adobe asociará el tratamiento con la parte inferior del evento de conversión de canal si:
+Para objetivos indirectos o &quot;de fondo de canal&quot; como las compras, los eventos de respuesta de los usuarios finales no se etiquetan con identificadores de campaña y tratamiento, es decir, un evento de compra se produce después de la exposición a un tratamiento, no hay una asociación directa de esa compra con una asignación de tratamiento anterior. Para estas métricas, Adobe asociará el tratamiento con el evento de conversión del fondo de canal si:
 
 * La identidad del usuario es la misma en el momento de la asignación y el evento de conversión.
 * La conversión se produce dentro de los siete días siguientes a la asignación del tratamiento.
@@ -88,9 +88,9 @@ Para objetivos indirectos o &quot;de fondo&quot; como las compras, los eventos d
 
 A continuación, Adobe Journey Optimizer utiliza métodos estadísticos avanzados &quot;en cualquier momento válidos&quot; para interpretar estos datos de informes sin procesar, lo que le permite interpretar sus informes de experimentación. Para obtener más información, consulte [esta página](../campaigns/experiment-calculations.md).
 
-## Sugerencias para ejecutar experimentos
+## Sugerencias para ejecutar Experimentos
 
-Al ejecutar Experimentos, es importante seguir determinadas prácticas recomendadas. A continuación se ofrecen algunas sugerencias para ejecutar estos experimentos:
+Al ejecutar Experimentos, es importante seguir determinadas prácticas recomendadas. A continuación, se ofrecen algunas sugerencias para ejecutar estos experimentos:
 
 +++Aísle las variables que intenta probar
 
@@ -108,19 +108,19 @@ Por ejemplo, es poco probable que el cambio de contenido del cuerpo del mensaje 
 
 +++Ejecute la prueba con el tamaño de audiencia adecuado o durante el tiempo suficiente
 
-Si realiza las pruebas durante más tiempo, podrá detectar diferencias menores en la métrica objetivo entre los tratamientos. Sin embargo, si el valor de línea de base de la métrica de objetivos es pequeño, necesitará muestras de mayor tamaño.
-El número de usuarios que debe incluirse en el experimento depende del tamaño del efecto que desee detectar, la varianza o propagación de la métrica de objetivos, así como la tolerancia para errores falsos positivos y falsos negativos. En los experimentos clásicos, puede utilizar un [calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es){_blank} para determinar cuánto tiempo debe ejecutar la prueba.
+Si realiza las pruebas durante más tiempo, podrá detectar diferencias menores en la métrica objetivo entre tratamientos. Sin embargo, si el valor de la línea de base de la métrica de objetivos es pequeño, necesitará muestras de mayor tamaño.
+El número de usuarios que debe incluirse en el experimento depende del tamaño del efecto que desee detectar, la variación o propagación de la métrica de objetivos, así como la tolerancia de errores de falsos positivos y falsos negativos. En los experimentos clásicos, puede utilizar una [calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es){_blank} para determinar cuánto tiempo debe ejecutar la prueba.
 +++
 
-+ + + Comprender la incertidumbre estadística
++++Comprender la incertidumbre estadística
 
-Si está realizando un experimento en el que 1000 usuarios han visto un tratamiento y la tasa de conversión se establece en 5 %. ¿Sería esta la tasa de conversión real si se incluyeran todos los usuarios? ¿Cuál sería la tasa de conversión verdadera?
-Los métodos estadísticos nos dan una forma de formalizar esa incertidumbre. Uno de los conceptos más importantes que debe comprender al ejecutar experimentos en línea es que las tasas de conversión observadas son coherentes con una serie de tasas de conversión reales subyacentes, lo que significa que debe esperar hasta que esas estimaciones sean lo suficientemente precisas, antes de intentar llegar a una conclusión. Los intervalos de confianza y la confianza nos ayudan a cuantificar esta incertidumbre.
+Si está realizando un experimento en el que 1000 usuarios han visto un tratamiento y la tasa de conversión se establece en 5 %. ¿Sería esta la tasa de conversión real si se incluyeran a todos los usuarios? ¿Cuál sería la tasa de conversión verdadera?
+Los métodos estadísticos nos dan una forma de formalizar esta incertidumbre. Uno de los conceptos más importantes que debe comprender a la hora de ejecutar experimentos en línea es que las tasas de conversión observadas son coherentes con una serie de tasas de conversión reales subyacentes, lo que significa que debe esperar hasta que esas estimaciones sean lo suficientemente precisas, antes de intentar llegar a una conclusión. Los intervalos de confianza y la confianza nos ayudan a cuantificar esta incertidumbre.
 +++
 
-+++Forme nuevas hipótesis y realice pruebas continuamente
++++Formar nuevas hipótesis y realizar pruebas continuamente
 
-Para obtener una verdadera perspectiva empresarial, debe limitarse a un solo experimento. En su lugar, realice un seguimiento de los experimentos formulando nuevas hipótesis y ejecutando nuevas pruebas con diferentes cambios, en segmentos diferentes y examinando el impacto en las distintas métricas.
+Para obtener verdaderas perspectivas empresariales, debe limitarse a un solo experimento. En su lugar, realice un seguimiento de los experimentos formulando nuevas hipótesis y ejecutando nuevas pruebas con diferentes cambios, en segmentos diferentes y examinando el impacto en las distintas métricas.
 +++
 
 ## Interpretación de los resultados de los experimentos {#interpret-results}
@@ -136,7 +136,7 @@ En esta sección se describen los informes de Experimento y cómo comprender las
 
 Estas son algunas directrices para interpretar los resultados de su experimento de contenido.
 
-Tenga en cuenta que una descripción completa de los resultados debe tener en cuenta todas las pruebas disponibles (es decir, tamaños de muestra, tasas de conversión, intervalos de confianza, etc.), y no solo la declaración de concluyente o no. Aun cuando un resultado no sea aún concluyente, puede haber pruebas convincentes de que un tratamiento sea diferente del otro.
+Tenga en cuenta que una descripción completa de los resultados debe tener en cuenta todas las pruebas disponibles (es decir, el diseño de los experimentos, los tamaños de las muestras, las tasas de conversión, la confianza, etc.), y no solo la declaración de concluyente o no. Aunque resultado no sea aún concluyente, puede haber pruebas convincentes de que un tratamiento sea diferente de otro.
 
 Para comprender los cálculos estadísticos, consulte esta [página](../campaigns/experiment-calculations.md).
 
@@ -144,44 +144,44 @@ Para comprender los cálculos estadísticos, consulte esta [página](../campaign
 
 Al comparar el rendimiento de dos tratamientos, siempre debe comparar las métricas normalizadas para tener en cuenta cualquier diferencia en la cantidad de perfiles expuestos a cada tratamiento.
 
-Por ejemplo, si el objetivo del experimento está establecido en **[!UICONTROL Aperturas únicas]**, y se mostró un tratamiento determinado a 10 000 perfiles con 200 aperturas únicas registradas, esto representa un **[!UICONTROL Tasa de conversión]** del 2 %. Para las métricas no únicas, como la métrica Abrir , la métrica normalizada se muestra como una **[!UICONTROL Recuento por perfil]**, mientras que para las métricas continuas como Total de precios, la métrica normalizada se muestra como un **[!UICONTROL Total por perfil]**.
+Por ejemplo, si el objetivo del experimento está establecido en **[!UICONTROL Aperturas únicas]**, y se ha mostrado  un tratamiento determinado a 10 000 perfiles con 200 aperturas únicas registradas, esto representa una **[!UICONTROL Tasa de conversión]** del 2 %. Para las métricas no únicas, como la métrica Aperturas, la métrica normalizada se muestra como una **[!UICONTROL Recuento por perfil]**, mientras que para las métricas continuas como Precio total, la métrica normalizada se muestra como un **[!UICONTROL Total por perfil]**.
 
-### 2. Céntrese en intervalos de confianza {#confidence-intervals}
+### 2. Centrarse en intervalos de confianza {#confidence-intervals}
 
 Al ejecutar experimentos con muestras de perfiles, la tasa de conversión observada para un tratamiento determinado representa una estimación de la tasa de conversión subyacente real.
 
-Por ejemplo, si el Tratamiento A tiene un **[!UICONTROL Tasa de conversión]** de 3%, mientras que el tratamiento B ha observado **[!UICONTROL Tasa de conversión]** del 2%, ¿es el tratamiento A un mejor rendimiento que el tratamiento B? Para responder a esto, primero debemos cuantificar la incertidumbre en estas tasas de conversión observadas.
+Por ejemplo, si el Tratamiento A tiene una **[!UICONTROL Tasa de conversión]** del 3 %, mientras que el tratamiento B ha observado una **[!UICONTROL Tasa de conversión]** del 2 %, ¿es el tratamiento A un mejor rendimiento que el tratamiento B? Para responder a esto, primero debemos cuantificar la incertidumbre en estas tasas de conversión observadas.
 
 Los intervalos de confianza ayudan a cuantificar la cantidad de incertidumbre en las tasas de conversión estimadas, pero los intervalos de confianza más amplios implican más incertidumbre. A medida que se añadan más perfiles al experimento, los intervalos se reducirán para representar una estimación más precisa. El intervalo de confianza representa un rango de tasas de conversión compatibles con los datos observados.
 
 Si los intervalos de confianza para dos tratamientos apenas se superponen, significa que los dos tratamientos tienen tasas de conversión diferentes. Pero, si hay mucha superposición entre los intervalos de confianza para dos tratamientos, entonces es más probable que los dos tratamientos tengan la misma tasa de conversión.
 
-Adobe utiliza un 95 % cada vez que se usan intervalos de confianza válidos o secuencias de confianza, lo que significa que los resultados se pueden ver de forma segura en cualquier momento durante el experimento.
+Adobe utiliza un 95 % cada vez que se usan intervalos de confianza válidos o secuencias de confianza, lo que significa que los resultados se pueden ver de forma segura en cualquier momento durante el experimento.
 
 ### 3. Comprender el alza {#understand-lift}
 
-El resumen del informe Experimento muestra la variable **[!UICONTROL Alza sobre línea de base]**, que es una medida de la mejoría porcentual en la tasa de conversión de un tratamiento determinado durante el periodo basal. Definido con precisión, es la diferencia de rendimiento entre un tratamiento determinado y la línea base, dividida por el rendimiento de la línea base, expresado como porcentaje.
+El resumen del informe de experimento muestra el **[!UICONTROL Alza sobre la línea de base]**, que es una medida de la mejora porcentual en la tasa de conversión de una variante determinada respecto a la línea de base. Definida con precisión, es la diferencia de rendimiento entre una variante determinada y la línea de base, dividida por el rendimiento de la línea de base, expresada como porcentaje.
 
 ### 3. Comprender la confianza {#understand-confidence}
 
-Aunque debería centrarse principalmente en el **[!UICONTROL Intervalo de confianza]** para la realización de cada tratamiento, el Adobe también muestra la confianza, que es una medida probabilística de la cantidad de evidencia que existe de que un tratamiento dado es el mismo que el tratamiento basal. Una mayor confianza indica menos evidencia de la suposición de que los tratamientos basales y no basales tienen un rendimiento igual. Más precisamente, la confianza que se muestra es una probabilidad (expresada como porcentaje) de que hubiéramos observado una diferencia menor en las tasas de conversión entre un tratamiento determinado y la base de referencia, si en realidad no hay diferencia en las tasas de conversión subyacentes reales. En términos de valores p, la confianza mostrada es 1 - valor p.
+Aunque debería centrarse principalmente en el **[!UICONTROL Intervalo de confianza]** para la realización de cada tratamiento, Adobe también muestra la confianza, que es una medida probabilística de la cantidad de evidencia que existe de que un tratamiento dado es el mismo que el tratamiento de la línea de base. Una mayor confianza indica menos evidencia para el supuesto de que los tratamientos de línea de base y de no línea de base tienen un rendimiento igual. Más precisamente, la confianza que se muestra es una probabilidad (expresada como porcentaje) de que habríamos observado una diferencia menor en las tasas de conversión entre una variante determinada y la de control, si en realidad no hay diferencia en las tasas de conversión subyacentes reales. En términos de valores p, la confianza mostrada es 1 - valor p.
 
-Adobe utiliza los valores p &quot;Válidos en cualquier momento&quot; y &quot;Válidos en cualquier momento&quot;, que son coherentes con las secuencias de confianza descritas anteriormente.
+Adobe utiliza la confianza &quot;válida en cualquier momento&quot; y los valores p &quot;válidos en cualquier momento&quot;, que concuerdan con las secuencias de confianza descritas anteriormente.
 
 ### 4. Relevancia estadística
 
 Cuando se ejecutan Experimentos, un resultado se considera estadísticamente significativo si era muy poco probable que se hubiera observado teniendo en cuenta una hipótesis nula de que un tratamiento dado y la línea base tienen tasas/rendimiento de conversión subyacentes verdaderas idénticas.
 
-Adobe declara que un Experimento es concluyente cuando la Confianza es superior al 95%.
+Adobe declara que un Experimento es concluyente cuando la Confianza es superior al 95 %.
 
-## Qué hacer después de ejecutar un experimento
+## Qué hacer después de ejecutar un Experimento
 
-Después de ejecutar el experimento, hay varias acciones de seguimiento posibles:
+Después de ejecutar el Experimento, hay varias acciones de seguimiento posibles:
 
 * **Implementar ideas ganadoras**
 
    Con un resultado inequívoco, puede implementar esta idea ganadora, ya sea introduciendo el tratamiento de mejor rendimiento en todos sus clientes o creando nuevas campañas en las que se replique la estructura del tratamiento de mejor rendimiento.
-   </br>Tenga en cuenta que en un entorno dinámico, lo que funciona bien a la vez, puede que no funcione bien más adelante.
+   </br>Tenga en cuenta que en un entorno dinámico, lo que funciona bien en un momento dado, puede que no funcione bien más adelante.
 
 * **Ejecutar pruebas de seguimiento**
 
@@ -189,7 +189,7 @@ Después de ejecutar el experimento, hay varias acciones de seguimiento posibles
 
    Si la hipótesis que probaba sigue siendo relevante, ejecutar una prueba de seguimiento en una audiencia mayor o diferente, o modificar los tratamientos para que haya diferencias más claras puede ser la mejor acción de seguimiento.
 
-* **Realizar análisis de buceo más profundos**
+* **Realizar análisis más profundos**
 
    El tratamiento que funciona bien para una audiencia puede no ser a veces el mejor tratamiento para otra audiencia. Realizar análisis más profundos sobre cómo se comportan los tratamientos con distintos segmentos ayuda a generar ideas para nuevas pruebas.
 
