@@ -10,15 +10,15 @@ level: Intermediate
 keywords: correo electrónico, estilo, css, cuerpo, estructura
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
 # Introducción al diseño de correo electrónico {#get-started-email-style}
 
-Una vez que haya empezado a crear el contenido de su correo electrónico en [!DNL Journey Optimizer], puede ajustar una serie de parámetros y atributos de estilo desde el panel de configuración del Diseñador de correo electrónico .
+Una vez que haya empezado a crear el contenido de su correo electrónico en [!DNL Journey Optimizer], puede ajustar una serie de parámetros y atributos de estilo desde el panel de configuración del Diseñador de correo electrónico.
 
 Puede aplicar los cambios al cuerpo del correo electrónico, a un componente de estructura o a un componente de contenido.
 
