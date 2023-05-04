@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -357,7 +357,7 @@ ht-degree: 99%
       + [Introducción a la recopilación de datos](using/offers/data-collection/data-collection.md)
       + [Crear un conjunto de datos para recopilar eventos](using/offers/data-collection/create-dataset.md)
       + [Configurar la captura de eventos](using/offers/data-collection/schema-requirement.md)
-   + Creación de informes de Gestión de decisiones {#create-reports}
+   + Creación de informes de gestión de decisiones {#create-reports}
       + [Trabajar con eventos de gestión de decisiones](using/offers/reports/get-started-events.md)
       + [Campos XDM de eventos de acceso](using/offers/reports/xdm-fields.md)
    + Exportación del catálogo de ofertas {#export-catalog}
