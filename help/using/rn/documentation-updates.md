@@ -5,9 +5,9 @@ title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 126d3afcca9801cddeff451fac60f469905f3b85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2711'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Abril de 2023 {#apr-2023}
 
-* Todas las nuevas funciones y mejoras incluidas [!DNL Journey Optimizer] La versión del 23 de abril se ha detallado en la documentación. [Más información](release-notes.md)
+* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de abril de 2023 se han incluido en la documentación. [Más información](release-notes.md)
 * Adobe Experience Manager Assets Essentials y Adobe Stock se han añadido a la página de integración de varias soluciones. [Más información](../start/ajo-integrations.md)
 * La advertencia sobre los subdominios de correo electrónico de varios niveles que no están permitidos se ha eliminado, ya que ahora son compatibles. [Más información](../configuration/delegate-subdomain.md)
 * Se ha añadido una nota para especificar que, si se realizan cambios en una decisión de oferta que se está utilizando en el mensaje de un recorrido, debe cancelar la publicación del recorrido y volver a publicarlo. [Más información](../building-journeys/publishing-the-journey.md)
-* En la gestión de decisiones se ha aclarado la explicación sobre cómo asegurarse de que los eventos se contabilizan correctamente en el contador de restricción **Evento de restricción** para obtener más información. [Más información](../offers/offer-library/add-constraints.md#capping-event)
-* Se ha añadido una nueva sección al **Cambiar direcciones de ejecución** página. Especifica que es posible anular el campo de ejecución establecido globalmente en los parámetros avanzados de recorrido, pero la anulación de la dirección de correo electrónico solo debe utilizarse para casos de uso específicos. La mayoría de las veces, el valor definido como la dirección principal en los **Campos de ejecución** es el que debe usarse. [Más información](../configuration/primary-email-addresses.md#journey-parameters)
-* La variable **Seguimiento de URL** ahora proporciona la lista y la descripción de todos los atributos contextuales que se pueden configurar para el seguimiento de URL en una superficie de canal de correo electrónico. [Más información](../email/email-settings.md#url-tracking)
+* Se ha aclarado la explicación sobre cómo asegurarse de que los eventos se contabilicen correctamente en el contador de límite en la sección **Evento de límite** de la gestión de decisiones. [Más información](../offers/offer-library/add-constraints.md#capping-event)
+* Se ha añadido una nueva sección a la página **Cambiar direcciones de ejecución**. Especifica que es posible sustituir el campo de ejecución establecido globalmente en los parámetros avanzados de recorrido, pero la sustitución de la dirección de correo electrónico solo debe utilizarse para casos de uso específicos. La mayoría de las veces, el valor definido como la dirección principal en los **Campos de ejecución** es el que debe usarse. [Más información](../configuration/primary-email-addresses.md#journey-parameters)
+* La sección **Seguimiento de URL** proporciona ahora la lista y la descripción de todos los atributos contextuales que se pueden configurar para el seguimiento de URL en una superficie de canal de correo electrónico. [Más información](../email/email-settings.md#url-tracking)
 
 ## Marzo de 2023 {#march-2023}
 
