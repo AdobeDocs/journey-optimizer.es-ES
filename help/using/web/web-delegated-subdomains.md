@@ -5,14 +5,12 @@ title: Configuración de subdominios web
 description: Obtenga información sobre cómo configurar subdominios web con Journey Optimizer
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: web, subdominios, configuración
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 2d11233f1cf1fee5f500d233c3fcacf03b7e5c10
+source-git-commit: 29070f0029c092782cf8a304f85e52869598a2fa
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
