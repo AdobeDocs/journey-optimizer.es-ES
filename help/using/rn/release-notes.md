@@ -5,9 +5,9 @@ title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: e0c8aaf114e1e60a49a721c894d14b0cc6b9f764
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1860'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer está ampliando sus capacidades de canales cruzados añadiendo compatibilidad con canales web. Ahora puede crear, cambiar y previsualizar experiencias web como cualquier otro canal mediante una interfaz visual inteligente e intuitiva para personalizar la experiencia de los usuarios finales. Tenga en cuenta que actualmente en Journey Optimizer solo puede crear experiencias web en campañas.</p>
+<p>Adobe Journey Optimizer está ampliando sus funciones en todos los canales añadiendo compatibilidad con canales web. Ahora puede crear, cambiar y previsualizar experiencias web como cualquier otro canal mediante una interfaz visual inteligente e intuitiva para personalizar la experiencia de los usuarios finales. Tenga en cuenta que actualmente en Journey Optimizer solo puede crear experiencias web en campañas.</p>
 <img src="assets/do-not-localize/web-authoring.gif"/>
 <p>Para obtener más información, consulte la <a href="../web/get-started-web.md">documentación detallada</a>.</p>
 </tr>
@@ -50,13 +50,13 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 <table>
 <thead>
 <tr>
-<th><strong>Flujo de trabajo de inicio rápido de la incorporación al dispositivo móvil (beta)</strong><br/></th>
+<th><strong>Flujo de trabajo de inicio rápido de incorporación al dispositivo móvil (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ya está disponible el nuevo flujo de trabajo de inicio rápido de la integración móvil. Utilice esta nueva función de producto para configurar rápidamente el SDK móvil y empezar a recopilar y validar datos de eventos móviles, así como a enviar notificaciones push móviles con Adobe Journey Optimizer. Se puede acceder a esta capacidad a través de la página principal de recopilación de datos como una versión beta pública.</p>
+<p>Ya está disponible el nuevo flujo de trabajo de inicio rápido de incorporación al dispositivo móvil. Utilice esta nueva función de producto para configurar rápidamente el SDK móvil y empezar a recopilar y validar datos de eventos móviles, así como enviar notificaciones push móviles con Adobe Journey Optimizer. Se puede acceder a esta funcionalidad a través de la página de inicio de recopilación de datos como una versión beta pública.</p>
 <img src="../push/assets/mobile-wf-home.png"/>
 <p>Para obtener más información, consulte la <a href="../push/mobile-onboarding-wf.md">documentación detallada</a>.</p>
 </td>
@@ -106,13 +106,13 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 
 **Recorridos**
 
-* El lienzo del recorrido ahora muestra el ID de actividad en las actividades de mensajes y las etiquetas de fin. Esto mejora los informes y la reorientación.
+* El lienzo del recorrido muestra ahora el ID de actividad en las actividades de mensajes y las etiquetas finales. Esto mejora la creación de informes y la segmentación
 * Se ha mejorado el diseño del panel de configuración, que aparece en acciones, fuentes de datos, eventos y recorridos.
-* Se han añadido nuevas barreras a los recorridos:
+* Se han añadido nuevos mecanismos de protección a los recorridos:
    * El número de actividades en un recorrido ahora está limitado a 50. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
-   * El número de **recorridos en directo** en una organización ahora está limitada a 100 por simulador de pruebas. No se tienen en cuenta los recorridos en el modo de prueba. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
+   * El número de **recorridos en directo** en una organización está limitado ahora a 100 por zona protegida. No se tienen en cuenta los recorridos en el modo de prueba. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
 
-* Al añadir un [Correo electrónico](../email/create-email.md), [SMS](../sms/create-sms.md) o [Push](../push/create-push.md) en un recorrido, la superficie ahora se rellena previamente, de forma predeterminada, con la última superficie utilizada para ese canal, en el recorrido actual.
+* Al añadir un [Correo electrónico](../email/create-email.md), [SMS](../sms/create-sms.md) o [Push](../push/create-push.md) en un recorrido, la superficie se rellena ahora previamente, de forma predeterminada, con la última superficie utilizada para dicho canal, en el recorrido actual.
 * Ahora puede definir parámetros de consulta estáticos o dinámicos en sus acciones personalizadas. [Más información](../action/about-custom-action-configuration.md#url-configuration)
 
 **Creación de informes**
@@ -121,7 +121,7 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 
 **Diseñador de contenido**
 
-* Se ha actualizado el Diseñador de contenido de Adobe Journey Optimizer y ahora es más fácil acceder a los estilos y componentes de diseño. Esta nueva versión ofrece una experiencia de usuario mejorada y ofrece un mayor rendimiento, compatibilidad parcial en modo oscuro y compatibilidad con nuevos estándares de accesibilidad.
+* Se ha actualizado el Diseñador de contenido de Adobe Journey Optimizer y ahora es más fácil acceder a los estilos y componentes de diseño. Esta nueva versión ofrece una experiencia de usuario mejorada e incluye un mayor rendimiento, compatibilidad parcial en modo oscuro y compatibilidad con nuevos estándares de accesibilidad.
 
 
 
@@ -189,7 +189,7 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 * En el lienzo del recorrido, la etiqueta de **Fin** ya no se configura automáticamente con el nombre de la actividad anterior. Los usuarios pueden agregar manualmente una etiqueta personalizada si es necesario.
 * El tiempo de espera predeterminado y la duración del error en las propiedades del recorrido han cambiado de 5 a 30 segundos. [Más información](../configuration/external-systems.md#timeout)
 * La tasa de limitación predeterminada en las actividades de segmentos de lectura ha cambiado de 20 000 a 5000 mensajes por segundo. [Más información](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* Se ha añadido una protección al modo de prueba para escuchar solo los eventos enviados a través de la interfaz. Los eventos enviados a través de una herramienta externa no se tienen en cuenta. [Más información](../building-journeys/testing-the-journey.md)
+* Se ha añadido un mecanismo de protección al modo de prueba para escuchar solo los eventos enviados a través de la interfaz. Los eventos enviados a través de una herramienta externa no se tienen en cuenta. [Más información](../building-journeys/testing-the-journey.md)
 
 
 <!-- 
