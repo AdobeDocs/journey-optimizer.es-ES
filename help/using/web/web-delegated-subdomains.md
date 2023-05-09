@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 keywords: web, subdominios, configuración
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 29070f0029c092782cf8a304f85e52869598a2fa
+source-git-commit: b05c7e88c223af44cd2f7d10ea76c39359662cbd
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '377'
 ht-degree: 2%
 
 ---
@@ -60,6 +60,8 @@ Puede crear varios subdominios web, pero solo los **default** se utilizará el s
    >
    >No se puede seleccionar un subdominio que ya se esté utilizando como subdominio web.
 
+1. El prefijo que se mostrará en la dirección URL web se agrega automáticamente.
+
 1. Para establecer este subdominio como predeterminado, seleccione la opción correspondiente.
 
    ![](assets/web-subdomain-details-default.png)
@@ -78,8 +80,8 @@ Puede crear varios subdominios web, pero solo los **default** se utilizará el s
 
    ![](assets/web-subdomain-default.png)
 
-   <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.-->
+   <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 
-1. Solo puede eliminar un **[!UICONTROL Error]** subdominio para limpiar la lista. Para ello, seleccione **[!UICONTROL Eliminar]** de la variable **[!UICONTROL Más acciones]** situado junto al subdominio deseado.
+    You can only delete a **[!UICONTROL Failed]** subdomain to clean up the list. To do so, select **[!UICONTROL Delete]** from the **[!UICONTROL More actions]** button next to the desired subdomain.
 
-<!--You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
+    You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
