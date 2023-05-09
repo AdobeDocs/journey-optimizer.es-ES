@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, segmento, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: bc88e1348e6d6408d2c1a5f318e631f8387c2c8f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1325'
+ht-degree: 20%
 
 ---
 
@@ -38,27 +38,26 @@ Para enviar mensajes con recorridos, se requieren las siguientes configuraciones
 
    ![](assets/custom2.png)
 
-<!--
-## Access journeys {#journey-access}
+## Recorridos de acceso {#journey-access}
 
-In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tabs are available:
+En la sección del menú ADMINISTRACIÓN DE RECORRIDOS , haga clic en **[!UICONTROL Recorridos]**. Hay dos pestañas disponibles:
 
-**Browse**: this tab displays the list of existing journeys. You can search for journeys, use filters and perform basic actions on each element. For example, you can duplicate or delete an item. For more information, refer to [this section](../start/user-interface.md#filter-lists).
+**Examinar**: esta ficha muestra la lista de recorridos existentes. Puede buscar recorridos, usar filtros y realizar acciones básicas en cada elemento. Por ejemplo, puede duplicar o eliminar un elemento. Para obtener más información, consulte [esta sección](../start/user-interface.md#filter-lists).
 
-![](assets/journeys-browse.png)  
+![](assets/journeys-browse.png)
 
-**Overview**: this tab displays a dashboard with key metrics related to your journeys:
+**Información general**: esta ficha muestra un tablero con métricas clave relacionadas con sus recorridos:
 
-* **Profiles processed**: total number of profiles processed in last 24 hours
-* **Live journeys**: total number of live journeys
-* **Unitary journeys**: total number of unitary live journeys (event-based journeys)
-* **Batch journeys**: total number of batch live journeys (read segment journeys)
-* **Error rate**: ratio of all profiles in error compared with the total number of profiles who entered. 
-* **Discard rate**: ratio of all profiles dicarded compared with the total number of profiles who entered. 
+* **Perfiles procesados**: número total de perfiles procesados en las últimas 24 horas
+* **Recorridos activos**: número total de recorridos activos con tráfico durante las últimas 24 horas. Los recorridos activos incluyen **Recorridos unitarios** (basado en eventos) y **Recorridos por lotes** (leer segmento).
+* **Tasa de error**: proporción de todos los perfiles en error comparados con el número total de perfiles que ingresaron en las últimas 24 horas.
+* **Tasa de descarte**: proporción de todos los perfiles dados comparados con el número total de perfiles que ingresaron en las últimas 24 horas.
 
-![](assets/journeys-dashboard.png)  
+>[!NOTE]
+>
+>Este tablero tiene en cuenta los recorridos con tráfico en las últimas 24 horas. Solo se muestran los recorridos a los que tiene acceso.
 
--->
+![](assets/journeys-dashboard.png)
 
 ## Cree su recorrido{#jo-build}
 
@@ -71,15 +70,7 @@ Este paso lo realiza el **usuario empresarial**. Aquí es donde crea sus recorri
 
 Estos son los pasos principales para enviar mensajes a través de recorridos:
 
-1. En la sección del menú ADMINISTRACIÓN DE RECORRIDOS , haga clic en **[!UICONTROL Recorridos]**. Se muestra la lista de recorridos.
-
-   ![](assets/interface-journeys.png)
-
-1. Haga clic en **[!UICONTROL Crear Recorrido]** para crear un nuevo recorrido.
-
-<!--
-1. From the **Journeys** menu, click **[!UICONTROL Create Journey]** to create a new journey. 
--->
+1. En el **Examinar** , haga clic en **[!UICONTROL Crear Recorrido]** para crear un nuevo recorrido.
 
 1. Edite las propiedades del recorrido en el panel de configuración que se muestra en el lado derecho. Obtenga más información en esta [sección](journey-gs.md#change-properties).
 
