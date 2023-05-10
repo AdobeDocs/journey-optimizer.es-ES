@@ -10,7 +10,7 @@ exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
 source-git-commit: 40cdcace9788206ad32dc6ae1e5f70c66e684bcb
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 2%
+ht-degree: 27%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_header"
 >title="Delegación de un subdominio web"
->abstract="Se configurará el subdominio para su uso en canales web. Elija entre los subdominios que ya están delegados en Adobe."
+>abstract="Se configurará el subdominio para el uso del canal web. Elija entre los subdominios que ya están delegados en Adobe."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="Delegación de un subdominio web"
->abstract="Si agrega contenido procedente de Adobe Experience Manager Assets Essentials a sus experiencias web, debe configurar el subdominio que se utilizará para publicar este contenido. Seleccione entre los subdominios ya delegados en el Adobe."
+>abstract="Si agrega contenido procedente de Adobe Experience Manager Assets Essentials a sus experiencias web, debe configurar el subdominio que se utilizará para publicar este contenido. Seleccione entre los subdominios ya delegados en Adobe."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
->title="Definir un subdominio web"
->abstract="Seleccione un subdominio de la lista de subdominios delegados en Adobe. Puede establecer este subdominio web como el predeterminado, pero solo se puede usar un subdominio predeterminado a la vez."
+>title="Definición de un subdominio web"
+>abstract="Seleccione un subdominio de la lista de subdominios delegados en Adobe. Puede establecer este subdominio web como el predeterminado, pero solo se puede utilizar un subdominio predeterminado a la vez."
 
 Al crear experiencias web, si agrega contenido proveniente del [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) , debe configurar el subdominio que se utilizará para publicar este contenido.
 

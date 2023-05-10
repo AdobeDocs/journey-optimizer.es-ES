@@ -26,7 +26,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
 >title="Detalles de la zona protegida"
->abstract="Seleccione la zona protegida de destino en la que desea copiar el recorrido. Solo están disponibles las zonas protegidas de su organización "
+>abstract="Seleccione la zona protegida de destino en la que desea copiar el recorrido. Solo están disponibles las zonas protegidas de su organización."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
@@ -58,7 +58,7 @@ Para copiar un recorrido en otro simulador para pruebas, siga estos pasos:
 
    ![](assets/copy-sandbox2.png)
 
-3. Seleccione el **Espacio aislado de Target** en el campo desplegable . Solo están disponibles las zonas protegidas de su organización 
+3. Seleccione el **Espacio aislado de Target** en el campo desplegable . Solo están disponibles las zonas protegidas de su organización.
 
 4. Consulte la **Objetos dependientes** para obtener más información. Esta es la lista de objetos asociados que se utilizan en el recorrido. Esta lista muestra el nombre, el tipo de objeto y el ID interno de Journey Optimizer.
 

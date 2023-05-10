@@ -8,8 +8,8 @@ level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '662'
+ht-degree: 17%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
 >title="Creación de páginas que coincidan con una regla"
->abstract="Una regla de coincidencia de páginas permite dirigirse a varias direcciones URL que coincidan con la misma regla; por ejemplo, si desea aplicar los cambios a un banner a pantalla completa de un sitio web o agregar una imagen superior que se muestre en todas las páginas de producto de un sitio web."
+>abstract="Una regla de coincidencia de páginas permite dirigirse a varias direcciones URL que se ajusten a la misma regla; por ejemplo, si desea aplicar los cambios a un banner principal en todo un sitio web o agregar una imagen superior que se muestre en todas las páginas de producto de un sitio web."
 
 Para comenzar a crear la experiencia web a través de una campaña, siga los pasos a continuación.
 
