@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 keywords: web, subdominios, configuración
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 66ef57c263d29572ce0377e41bf0a8010e2f22d1
+source-git-commit: 40cdcace9788206ad32dc6ae1e5f70c66e684bcb
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 2%
@@ -78,11 +78,11 @@ Puede crear varios subdominios web, pero solo los **default** se utilizará el s
 
 1. La variable **[!UICONTROL Predeterminado]** aparece un distintivo junto al subdominio que se utiliza actualmente como predeterminado. Para cambiar el subdominio predeterminado, seleccione **[!UICONTROL Establecer como predeterminado]** de la variable **[!UICONTROL Más acciones]** situado junto al subdominio deseado.
 
+   ![](assets/web-subdomain-default.png)
+
    >[!NOTE]
    >
    >Puede cambiar el subdominio web predeterminado, pero solo se puede usar uno a la vez.
-
-   ![](assets/web-subdomain-default.png)
 
    <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 
