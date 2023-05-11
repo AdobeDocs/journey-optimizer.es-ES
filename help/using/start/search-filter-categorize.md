@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: fc7f996fca8b1e8e5f6b7379cc3b2b7da764e0ed
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 33%
@@ -53,7 +53,7 @@ Con Adobe Experience Platform [Etiquetas unificadas](https://experienceleague.ad
 >
 >Las etiquetas unificadas están actualmente en versión beta. La documentación y las funciones están sujetas a cambios.
 
-## Añadir etiquetas a un objeto
+### Añadir etiquetas a un objeto
 
 La variable **Etiquetas** , en el campo [recorrido](../building-journeys/journey-gs.md#change-properties) o [campaign](../campaigns/create-campaign.md#create) , permite definir etiquetas para el objeto. Puede seleccionar una etiqueta existente o crear una nueva.
 
@@ -69,7 +69,7 @@ La lista de etiquetas definidas se muestra debajo de la etiqueta **Etiquetas** c
 > 
 > Si duplica o crea una nueva versión de un recorrido o campaña, se conservan las etiquetas.
 
-## Filtrar por etiquetas
+### Filtrar por etiquetas
 
 Las listas de recorridos y campañas muestran una columna dedicada para que pueda visualizar fácilmente las etiquetas.
 
@@ -81,7 +81,7 @@ Puede añadir o eliminar etiquetas de cualquier tipo de recorrido o campaña (ac
 
 ![](assets/tags3.png)
 
-## Administrar etiquetas
+### Administrar etiquetas
 
 Los administradores pueden eliminar etiquetas y organizarlas por categorías utilizando la variable **Etiquetas** en **ADMINISTRACIÓN**. Obtenga más información sobre la administración de etiquetas en [Documentación de etiquetas unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
 
