@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '327'
 ht-degree: 12%
 
 ---
@@ -41,7 +41,7 @@ Para crear una regla de decisión, siga estos pasos:
 
    >[!NOTE]
    >
-   >El Generador de segmentos proporcionado para crear reglas de decisión presenta algunas características específicas en comparación con la que se usa con la variable **[!UICONTROL Destinos de audiencia]** servicio. Por ejemplo, la variable **[!UICONTROL Segmentos]** no está disponible para usar. Sin embargo, el proceso global descrito en el [Generador de segmentos](../../segment/about-segments.md) la documentación sigue siendo válida para crear reglas de decisiones de ofertas. Obtenga más información en la [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+   >El Generador de segmentos proporcionado para crear reglas de decisión presenta algunas características específicas en comparación con la que se usa con la variable **[!UICONTROL Segmentación]** servicio. Por ejemplo, la variable **[!UICONTROL Segmentos]** no está disponible para usar. Sin embargo, el proceso global descrito en el [Generador de segmentos](../../segment/about-segments.md) la documentación sigue siendo válida para crear reglas de decisiones de ofertas. Obtenga más información en la [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
 1. Al añadir y configurar nuevos campos en el espacio de trabajo, la variable **[!UICONTROL Propiedades del segmento]** muestra información sobre los perfiles estimados que pertenecen al segmento. Haga clic en **[!UICONTROL Actualizar estimación]** para actualizar los datos.
 

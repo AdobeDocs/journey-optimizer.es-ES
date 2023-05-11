@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1071229582008d66b4184ec782aaf23bad111a93
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '1910'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,24 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Regístrese para la [Newsletter trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoy y reciba las últimas actualizaciones de productos, artículos interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.
 
+## Mejoras de mayo de 2023 {#may-improvements}
+
+<table>
+<thead>
+<tr>
+<th><strong>Usar etiquetas en las campañas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede asignar etiquetas unificadas de Adobe Experience Platform a sus campañas. Esto le permite clasificarlos fácilmente y mejorar la búsqueda desde la lista de campañas. Tenga en cuenta que la función de etiquetas unificadas está actualmente en versión beta.
+<img src="assets/do-not-localize/campaigns-tag.gif"/>
+<p>Para obtener más información, consulte la <a href="../start/search-filter-categorize.md#tags">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Notas de la versión de abril de 2023 {#apr-rn-2023}
 
@@ -46,7 +64,6 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -64,21 +81,22 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Nuevo panel de Recorrido (beta)</strong><br/></th>
+<th><strong>New Journey dashboard (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> El panel de Recorrido ahora está dividido en dos pestañas:</p>
-<ul><li>Utilice la variable <strong>Información general</strong> para acceder a un tablero nuevo que muestra las métricas clave relacionadas con sus recorridos.</li>
-<li>Utilice la variable <strong>Examinar</strong> para acceder a la lista de todos los recorridos.</li></ul>
-<p>Se puede acceder a esta funcionalidad en todos los recorridos como una versión beta pública.</p>
+<p> The Journey dashboard is now split in two tabs:</p>
+<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
+<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
+<p>This capability is accessible in all journeys as a public beta.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<p>Para obtener más información, consulte la <a href="../building-journeys/journey-gs.md#journey-access">documentación detallada</a>.</p>
+<p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -173,13 +191,11 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 <tr>
 <td>
 <p>Como profesional de Journey Optimizer, ahora puede organizar los objetos de negocio mediante etiquetas. Las etiquetas son una forma rápida y sencilla de clasificar objetos para mejorar la búsqueda. Actualmente, esta funcionalidad está en versión beta y solo está disponible para recorridos.</p>
-<p>Para obtener más información, consulte la <a href="../building-journeys/tags.md">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../start/search-filter-categorize.md#tags">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
 
 ### Mejoras {#mar-2023-improvements}
 

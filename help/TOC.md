@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: ht
-source-wordcount: '1371'
-ht-degree: 100%
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+workflow-type: tm+mt
+source-wordcount: '1370'
+ht-degree: 99%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 100%
       + [Introducción como administrador](using/start/path/administrator.md)
       + [Introducción como desarrollador](using/start/path/developer.md)
    + [Interfaz de usuario](using/start/user-interface.md)
+   + [Buscar, filtrar, categorizar](using/start/search-filter-categorize.md)
    + [Accesibilidad](using/start/accessibility.md)
    + [Integraciones](using/start/ajo-integrations.md)
    + [Mecanismos de protección](using/start/guardrails.md)
@@ -47,7 +48,6 @@ ht-degree: 100%
       + [Copia de un recorrido en otra zona protegida](using/building-journeys/copy-to-sandbox.md)
       + [Resolución de problemas del recorrido](using/building-journeys/troubleshooting.md)
       + [Integración con servicios inteligentes](using/building-journeys/ai-services-overview.md)
-      + [Administración de etiquetas en recorrido](using/building-journeys/tags.md)
    + Actividades {#about-journey-building}
       + [Introducción a actividades de recorrido](using/building-journeys/about-journey-activities.md)
       + [Eventos generales](using/building-journeys/general-events.md)

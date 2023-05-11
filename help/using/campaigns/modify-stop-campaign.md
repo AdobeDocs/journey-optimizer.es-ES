@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: administrar campañas, estado, programación, acceso, optimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '520'
 ht-degree: 2%
 
 ---
@@ -26,11 +26,11 @@ Además, puede duplicar las campañas en vivo (ejecutadas una vez o con una ejec
 
 Se puede acceder a las campañas desde la **[!UICONTROL Campañas]** para abrir el Navegador.
 
-De forma predeterminada, la lista muestra todas las campañas con la variable **[!UICONTROL Borrador]**, **[!UICONTROL Programado]** y **[!UICONTROL Activo]** estados.
-
-Para mostrar las campañas detenidas, completadas y archivadas, debe borrar el filtro.
+De forma predeterminada, la lista muestra todas las campañas con la variable **[!UICONTROL Borrador]**, **[!UICONTROL Programado]** y **[!UICONTROL Activo]** estados. Para mostrar las campañas detenidas, completadas y archivadas, debe borrar el filtro.
 
 ![](assets/create-campaign-list.png)
+
+Además, puede filtrar la lista en función del tipo y canal de campaña, o las etiquetas que se han asignado a las campañas al crearlas. [Obtenga información sobre cómo asignar etiquetas a una campaña](create-campaign.md#create)
 
 ## Estados de campaña {#statuses}
 

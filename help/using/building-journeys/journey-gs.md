@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, segmento, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: bc88e1348e6d6408d2c1a5f318e631f8387c2c8f
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1325'
-ht-degree: 20%
+source-wordcount: '1512'
+ht-degree: 27%
 
 ---
 
@@ -42,10 +42,6 @@ Para enviar mensajes con recorridos, se requieren las siguientes configuraciones
 
 En la sección del menú ADMINISTRACIÓN DE RECORRIDOS , haga clic en **[!UICONTROL Recorridos]**. Hay dos pestañas disponibles:
 
-**Examinar**: esta ficha muestra la lista de recorridos existentes. Puede buscar recorridos, usar filtros y realizar acciones básicas en cada elemento. Por ejemplo, puede duplicar o eliminar un elemento. Para obtener más información, consulte [esta sección](../start/user-interface.md#filter-lists).
-
-![](assets/journeys-browse.png)
-
 **Información general**: esta ficha muestra un tablero con métricas clave relacionadas con sus recorridos:
 
 * **Perfiles procesados**: número total de perfiles procesados en las últimas 24 horas
@@ -58,6 +54,22 @@ En la sección del menú ADMINISTRACIÓN DE RECORRIDOS , haga clic en **[!UICONT
 >Este tablero tiene en cuenta los recorridos con tráfico en las últimas 24 horas. Solo se muestran los recorridos a los que tiene acceso.
 
 ![](assets/journeys-dashboard.png)
+
+**Examinar**: esta ficha muestra la lista de recorridos existentes. Puede buscar recorridos, usar filtros y realizar acciones básicas en cada elemento. Por ejemplo, puede duplicar o eliminar un elemento. Para obtener más información, consulte [esta sección](../start/user-interface.md#filter-lists).
+
+![](assets/journeys-browse.png)
+
+En la lista de recorridos, puede filtrarlos según su estado, tipo y versión en **[!UICONTROL Estado y versión de filtros]**. El tipo puede ser: **[!UICONTROL Evento unitario]**, **[!UICONTROL Clasificación del segmento]**, **[!UICONTROL Leer segmento]**, **[!UICONTROL Evento empresarial]** o **[!UICONTROL Ráfaga]**.
+
+Puede elegir mostrar solo los recorridos que utilizan un evento, un grupo de campos o una acción en **[!UICONTROL Filtros de actividad]** y **[!UICONTROL Filtros de datos]**. Además, la variable **[!UICONTROL Filtros de publicación]** permite seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar las versiones más recientes de recorridos en directo que se publicaron ayer. [Más información](../building-journeys/using-the-journey-designer.md).
+
+![](assets/filter-journeys.png)
+
+Utilice las columnas **[!UICONTROL Última actualización]** y **[!UICONTROL Última actualización hecha por]** para comprobar cuándo se produjo la última actualización de los recorridos y quién los guardó.
+
+En los paneles Evento, Fuente de datos y Configuración de acciones, el campo **[!UICONTROL Utilizado en]** muestra el número de recorridos que utilizan ese evento, grupo de campos o acción en particular. Puede hacer clic en el botón **[!UICONTROL Ver recorridos]** para mostrar la lista de los recorridos correspondientes.
+
+![](assets/journey3bis.png)
 
 ## Cree su recorrido{#jo-build}
 
@@ -101,7 +113,7 @@ Estos son los pasos principales para enviar mensajes a través de recorridos:
 
 Haga clic en el icono de lápiz, en la parte superior derecha para acceder a las propiedades del recorrido.
 
-Puede cambiar el nombre del recorrido, añadir una descripción, permitir la reentrada, elegir las fechas de inicio y finalización y, como usuario administrador, definir una **[!UICONTROL Tiempo de espera y error]** duración.
+Puede cambiar el nombre del recorrido, añadir una descripción, permitir la reentrada, elegir las fechas de inicio y finalización y, como usuario administrador, definir una **[!UICONTROL Tiempo de espera y error]** duración. También puede asignar etiquetas unificadas de Adobe Experience Platform a su recorrido. Esto le permite clasificarlos fácilmente y mejorar la búsqueda desde la lista de campañas. [Aprenda a trabajar con etiquetas](../start/search-filter-categorize.md#tags)
 
 Para los recorridos en directo, esta pantalla muestra la fecha de publicación y el nombre del usuario que publicó el recorrido.
 
