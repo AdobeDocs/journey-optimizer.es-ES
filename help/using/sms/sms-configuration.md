@@ -6,10 +6,10 @@ description: Aprenda a configurar su entorno para enviar SMS con Journey Optimiz
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 33dccf32b60a6afb58931823016821fc1effcbd8
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 18%
+source-wordcount: '848'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 18%
 
 [!DNL Journey Optimizer] le permite crear sus recorridos y enviar mensajes a la audiencia de destino.
 
-Antes de enviar SMS, configure su instancia. Debe [integrar la configuración del proveedor](#create-api) con Journey Optimizer y [crear una superficie SMS](#message-preset-sms) (es decir, ajuste preestablecido de SMS). Estos pasos debe realizarlos un [Administrador del sistema de Adobe Journey Optimizer](../start/path/administrator.md).
+Antes de enviar SMS, configure su instancia. Debe [integrar la configuración del proveedor](#create-api) con Journey Optimizer y [crear una superficie SMS](#message-preset-sms) (es decir, ajuste preestablecido de SMS). Estos pasos debe realizarlos un [administrador del sistema de Adobe Journey Optimizer](../start/path/administrator.md).
 
 ## Requisitos previos{#sms-prerequisites}
 
@@ -27,6 +27,9 @@ Antes de la configuración de SMS, debe crear una cuenta con uno de estos provee
 
 Su uso de servicios SMS estará sujeto a términos y condiciones adicionales del proveedor de SMS correspondiente. Dado que Sinch y Twilio son productos de terceros disponibles para los usuarios de Adobe Journey Optimizer mediante una integración, para cualquier problema o consulta relacionada con los servicios SMS, los usuarios de Sinch o Twilio deberán ponerse en contacto con el proveedor de SMS correspondiente para obtener ayuda. Adobe no controla ni es responsable de productos de terceros.
 
+>[!CAUTION]
+>
+>Para acceder y editar subdominios de SMS, debe tener la variable **[!UICONTROL Administrar subdominios de SMS]** permiso en el simulador de pruebas de producción.
 
 ## Crear nueva credencial de API {#create-api}
 

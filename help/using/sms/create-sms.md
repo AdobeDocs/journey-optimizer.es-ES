@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 33dccf32b60a6afb58931823016821fc1effcbd8
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '596'
 ht-degree: 13%
 
 ---
@@ -90,6 +90,10 @@ Ahora puede empezar a diseñar el contenido de su mensaje SMS desde el **[!UICON
 1. Después de definir el contenido, puede añadir las URL de seguimiento al mensaje. Para ello, acceda al **[!UICONTROL Funciones de ayuda]** y seleccione **[!UICONTROL Ayudantes]**.
 
    Tenga en cuenta que para utilizar la función de acortamiento de URL, primero debe configurar un subdominio que luego se vinculará a su superficie. [Más información](sms-subdomains.md)
+
+   >[!CAUTION]
+   >
+   > Para acceder y editar subdominios de SMS, debe tener la variable **[!UICONTROL Administrar subdominios de SMS]** permiso en el simulador de pruebas de producción.
 
    ![](assets/sms_tracking_1.png)
 
