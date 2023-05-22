@@ -7,113 +7,115 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+source-git-commit: 9bebcde9edde40a0fadba34d8b40757036a6436d
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 4%
+source-wordcount: '413'
+ht-degree: 6%
 
 ---
 
 # Creación de un mensaje en la aplicación  {#create-in-app}
 
-Los mensajes en la aplicación se crean en el contexto de una campaña.
-
+<!--
 >[!BEGINTABS]
 
->[!TAB Añadir un mensaje en la aplicación a un recorrido]
+>[!TAB Add an In-app message to a journey]
 
 >[!AVAILABILITY]
 >
->La actividad en la aplicación está disponible actualmente como una versión beta solo para usuarios seleccionados. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.
+>The In-app activity is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
 
-1. Abra el recorrido y, a continuación, arrastre y suelte una **[!UICONTROL En la aplicación]** de **[!UICONTROL Acciones]** de la paleta.
+1. Open your journey, then drag and drop an **[!UICONTROL In-app]** activity from the **[!UICONTROL Actions]** section of the palette.
 
-   Cuando un perfil llega al final de su recorrido, cualquier mensaje en la aplicación que se le muestre caducará automáticamente. Por este motivo, se agrega automáticamente una actividad de Espera después de la actividad en la aplicación para garantizar el tiempo adecuado.
+    When a profile reaches the end of their journey, any in-app messages displayed to them will automatically expire. For that reason, a Wait activity is automatically added after your In-app activity to ensure proper timing.
 
-   ![](assets/in_app_journey_1.png)
+    ![](assets/in_app_journey_1.png)
 
-1. Escriba un **[!UICONTROL Etiqueta]** y **[!UICONTROL Descripción]** para su mensaje.
+1. Enter a **[!UICONTROL Label]** and **[!UICONTROL Description]** for your message.
 
-1. Elija la [Superficie en la aplicación](inapp-configuration.md) para usar.
+1. Choose the [In-app surface](inapp-configuration.md) to use.
 
-   ![](assets/in_app_journey_2.png)
+    ![](assets/in_app_journey_2.png)
 
-1. Ahora puede empezar a diseñar el contenido con la variable **[!UICONTROL Editar contenido]** botón. [Más información](design-in-app.md)
+1. You can now start designing your content with the **[!UICONTROL Edit content]** button. [Learn more](design-in-app.md)
 
-1. Haga clic en **[!UICONTROL Editar déclencheur]** para configurar el Déclencheur.
+1. Click **[!UICONTROL Edit trigger]** to configure your Trigger. 
 
-   ![](assets/in_app_journey_4.png)
+    ![](assets/in_app_journey_4.png)
 
-1. Elija la frecuencia de su déclencheur cuando el mensaje en la aplicación esté activo:
+1. Choose the frequency of your trigger when your In-app message is active:
 
-   * **[!UICONTROL Mostrar cada vez]**: Mostrar siempre el mensaje cuando los eventos seleccionados en la variable **[!UICONTROL Déclencheur de aplicación móvil]** se produce.
-   * **[!UICONTROL Mostrar una vez]**: Mostrar este mensaje solo la primera vez que se seleccionan los eventos en la variable **[!UICONTROL Déclencheur de aplicación móvil]** se produce.
-   * **[!UICONTROL Mostrar hasta pulsaciones]**: Mostrar este mensaje cuando los eventos seleccionados en la variable **[!UICONTROL Déclencheur de aplicación móvil]** se produce hasta que el SDK envía un evento de interacción con una acción de &quot;clic&quot;.
+    * **[!UICONTROL Show every time]**: Always show the message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
+    * **[!UICONTROL Show once]**: Only show this message the first time the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
+    * **[!UICONTROL Show until click through]**: Show this message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur until an interact event is sent by the SDK with an action of "clicked".
 
-1. En el **[!UICONTROL Déclencheur de aplicación móvil]** , elija los eventos y criterios que almacenarán el déclencheur del mensaje:
+1. From the **[!UICONTROL Mobile app trigger]** dropdown(s), choose the event(s) and criteria that will trigger your message:
 
-   1. En el menú desplegable de la izquierda, seleccione el evento necesario para almacenar el mensaje en déclencheur.
-   1. En la lista desplegable derecha, seleccione la validación requerida en el evento seleccionado.
-   1. Haga clic en el **[!UICONTROL Agregar]** si desea que el déclencheur considere varios eventos o criterios. A continuación, repita los pasos anteriores.
-   1. Seleccione cómo están vinculados los eventos, por ejemplo, elija **[!UICONTROL Y]** si desea **both** déclencheur que deben ser verdaderos para que un mensaje se muestre o elija **[!UICONTROL O]** si desea que se muestre el mensaje si **o** de los déclencheur son verdaderos.
-   1. Haga clic en **[!UICONTROL Guardar]** cuando se hayan configurado los Déclencheur.
+    1. From the left drop-down, select the event required to trigger the message.
+    1. From the right drop-down, select the validation required on the selected event.
+    1. Click the **[!UICONTROL Add]** button if you want the trigger to consider multiple events or criteria. Then, repeat the steps above.
+    1. Select how your events are linked, e.g. choose **[!UICONTROL And]** if you want **both** triggers to be true in order for a message to be shown or choose **[!UICONTROL Or]** if you want the message to be shown if **either** of the triggers are true.
+    1. Click **[!UICONTROL Save]** when your Triggers have been configured.
 
-   ![](assets/in_app_journey_3.png)
+    ![](assets/in_app_journey_3.png)
+    
+1. If necessary, complete your journey flow by dragging and dropping additional actions or events. [Learn more](../building-journeys/about-journey-activities.md)
 
-1. Si es necesario, complete el flujo de recorrido arrastrando y soltando acciones o eventos adicionales. [Más información](../building-journeys/about-journey-activities.md)
+1. Once your In-app message is ready, finalize the configuration and publish your journey to activate it.
 
-1. Una vez que el mensaje en la aplicación esté listo, finalice la configuración y publique el recorrido para activarlo.
+For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md).
 
-Para obtener más información sobre cómo configurar un recorrido, consulte [esta página](../building-journeys/journey-gs.md).
+>[!TAB Add an In-app message to a campaign]
+-->
 
->[!TAB Añadir un mensaje en la aplicación a una campaña]
+1. Acceda a la **[!UICONTROL Campañas]** y haga clic en **[!UICONTROL Crear campaña]**.
 
-1. Acceda a la **[!UICONTROL Campañas]** a continuación, haga clic en **[!UICONTROL Crear campaña]**.
+1. En el **[!UICONTROL Propiedades]** , seleccione cuando el tipo de ejecución de la campaña: Programada o activada por API. Obtenga más información sobre los tipos de campaña en [esta página](../campaigns/create-campaign.md#campaigntype).
 
-1. En el **[!UICONTROL Propiedades]** , seleccione cuándo es el tipo de ejecución de la campaña: Programado o activado por API. Obtenga más información sobre los tipos de campaña en [esta página](../campaigns/create-campaign.md#campaigntype).
+1. En el **[!UICONTROL Acciones]** , seleccione la **[!UICONTROL Mensaje en la aplicación]** y el **[!UICONTROL Superficie de aplicación]** previamente configurado para su mensaje en la aplicación. A continuación, haga clic en **[!UICONTROL Crear]**.
 
-1. En el **[!UICONTROL Acciones]** , seleccione **[!UICONTROL Mensaje en la aplicación]** y **[!UICONTROL Superficie de la aplicación]** previamente configurado para el mensaje en la aplicación. A continuación, haga clic en **[!UICONTROL Crear]**.
-
-   Obtenga más información sobre la configuración en la aplicación en [esta página](inapp-configuration.md).
+   Obtenga más información acerca de la configuración en la aplicación en [esta página](inapp-configuration.md).
 
    ![](assets/in_app_create_1.png)
 
-1. En el **[!UICONTROL Propiedades]** , introduzca el **[!UICONTROL Título]** y **[!UICONTROL Descripción]** descripción.
+1. Desde el **[!UICONTROL Propiedades]** , introduzca la **[!UICONTROL Título]** y el **[!UICONTROL Descripción]** descripción.
 
-1. Para asignar etiquetas de uso de datos principales o personalizadas al mensaje en la aplicación, seleccione **[!UICONTROL Administrar acceso]**. [Más información](../administration/object-based-access.md).
+1. Para asignar etiquetas de uso de datos personalizadas o principales al mensaje en la aplicación, seleccione **[!UICONTROL Administrar acceso]**. [Más información](../administration/object-based-access.md).
 
-1. Haga clic en el **[!UICONTROL Seleccionar la audiencia]** para definir la audiencia a la que se dirigirá desde la lista de segmentos de Adobe Experience Platform disponibles. [Más información](../segment/about-segments.md).
+1. Haga clic en **[!UICONTROL Seleccionar audiencia]** para definir la audiencia de destino a partir de la lista de segmentos de Adobe Experience Platform disponibles. [Más información](../segment/about-segments.md).
 
    ![](assets/in_app_create_2.png)
 
-1. En el **[!UICONTROL Área de nombres de identidad]** , elija el área de nombres que desea utilizar para identificar a las personas del segmento seleccionado. [Más información](../event/about-creating.md#select-the-namespace).
+1. En el **[!UICONTROL Área de nombres de identidad]** , elija el área de nombres que desea utilizar para identificar a los individuos del segmento seleccionado. [Más información](../event/about-creating.md#select-the-namespace).
 
-1. Haga clic en **[!UICONTROL Editar déclencheur]** para elegir los eventos y criterios que almacenarán el déclencheur del mensaje:
+1. Clic **[!UICONTROL Editar déclencheur]** para elegir los eventos y los criterios que almacenarán en déclencheur el mensaje:
 
-   1. Haga clic en **Añadir condición** si desea que el déclencheur considere varios eventos o criterios.
-   1. Seleccione cómo están vinculados los eventos, por ejemplo, elija **[!UICONTROL Y]** si desea **both** déclencheur que deben ser verdaderos para que un mensaje se muestre o elija **[!UICONTROL O]** si desea que se muestre el mensaje si **o** de los déclencheur son verdaderos.
-   1. Haga clic en **[!UICONTROL Crear grupo]** para agrupar déclencheur.
+   1. Clic **Añadir condición** si desea que el déclencheur considere varios eventos o criterios.
+   1. Seleccione cómo están vinculados los eventos, p. ej. elija **[!UICONTROL Y]** si lo desea **ambos** Los déclencheur deben ser verdaderos para que se muestre o se elija un mensaje **[!UICONTROL O]** si desea que se muestre el mensaje si **o bien** Todos los déclencheur son verdaderos.
+   1. Clic **[!UICONTROL Crear grupo]** para agrupar déclencheur.
 
    ![](assets/in_app_create_3.png)
 
-1. Elija la frecuencia de su déclencheur cuando el mensaje en la aplicación esté activo. Las opciones disponibles son las siguientes:
+1. Elija la frecuencia del déclencheur cuando su mensaje en la aplicación esté activo. Las opciones disponibles son las siguientes:
 
-   * **[!UICONTROL Cada vez]**: Mostrar siempre el mensaje cuando los eventos seleccionados en la variable **[!UICONTROL Déclencheur de aplicación móvil]** se produce.
-   * **[!UICONTROL Una vez]**: Mostrar este mensaje solo la primera vez que se seleccionan los eventos en la variable **[!UICONTROL Déclencheur de aplicación móvil]** se produce.
-   * **[!UICONTROL Hasta que haga clic]**: Mostrar este mensaje cuando los eventos seleccionados en la variable **[!UICONTROL Déclencheur de aplicación móvil]** se produce hasta que el SDK envía un evento de interacción con una acción de &quot;clic&quot;.
-   * **[!UICONTROL X número de veces]**: Mostrar este mensaje X hora.
+   * **[!UICONTROL Siempre]**: Mostrar siempre el mensaje cuando los eventos seleccionados en la **[!UICONTROL Déclencheur de aplicación móvil]** se produce la lista desplegable.
+   * **[!UICONTROL Una]**: Mostrar solo este mensaje la primera vez que se seleccionen los eventos en la **[!UICONTROL Déclencheur de aplicación móvil]** se produce la lista desplegable.
+   * **[!UICONTROL Hasta el clic]**: Muestra este mensaje cuando los eventos seleccionados en la **[!UICONTROL Déclencheur de aplicación móvil]** se producen hasta que el SDK envía un evento de interacción con una acción de &quot;clic&quot;.
+   * **[!UICONTROL X número de veces]**: muestra este mensaje X vez.
 
-1. Si es necesario, elija cuál **[!UICONTROL Día de la semana]** o **[!UICONTROL Hora del día]** se mostrará el mensaje en la aplicación.
+1. Si es necesario, elija cuál **[!UICONTROL Día de la semana]** o **[!UICONTROL Hora del día]** se muestra el mensaje en la aplicación.
 
-1. Las campañas están diseñadas para ejecutarse en una fecha específica o con una frecuencia recurrente. Obtenga información sobre cómo configurar la variable **[!UICONTROL Programación]** de su campaña en [esta sección](../campaigns/create-campaign.md#schedule).
+1. Las campañas están diseñadas para ejecutarse en una fecha específica o en una frecuencia recurrente. Obtenga información sobre cómo configurar el **[!UICONTROL Programación]** de la campaña en [esta sección](../campaigns/create-campaign.md#schedule).
 
    ![](assets/in-app-schedule.png)
 
-1. Ahora puede empezar a diseñar el contenido con la variable **[!UICONTROL Editar contenido]** botón. [Más información](design-in-app.md)
+1. Ahora puede empezar a diseñar el contenido con **[!UICONTROL Editar contenido]** botón. [Más información](design-in-app.md)
 
    ![](assets/in_app_create_4.png)
 
+<!--
 >[!ENDTABS]
+-->
 
 ## Vídeo explicativo{#video}
 
@@ -124,7 +126,7 @@ El siguiente vídeo muestra cómo crear, configurar y publicar mensajes en la ap
 
 **Temas relacionados:**
 
-* [Diseño de mensajes en la aplicación](design-in-app.md)
-* [Pruebe y envíe su mensaje en la aplicación](send-in-app.md)
+* [Diseño de un mensaje en la aplicación](design-in-app.md)
+* [Prueba y envío de un mensaje en la aplicación](send-in-app.md)
 * [Informe en la aplicación](../reports/campaign-global-report.md#inapp-report)
 * [Configuración en la aplicación](inapp-configuration.md)
