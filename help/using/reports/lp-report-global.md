@@ -20,53 +20,53 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_landing_page_global_report"
 >title="Informe global de la página de aterrizaje"
->abstract="El informe global de la página de aterrizaje permite medir el impacto de las páginas de aterrizaje durante un período de tiempo seleccionado. El informe se divide en distintos widgets que detallan el éxito y los errores de la página de aterrizaje. Cada tablero de informes se puede modificar cambiando el tamaño o eliminando los widgets."
+>abstract="El informe global de la página de aterrizaje permite medir el impacto de las páginas de aterrizaje durante un período de tiempo seleccionado. El informe se divide en distintos widgets que detallan el éxito y los errores de la página de aterrizaje. Cada tablero de informes se puede modificar cambiando el tamaño de los widgets o eliminándolos."
 
-La página de aterrizaje **[!UICONTROL Informe global]** muestra detalles sobre el impacto de las páginas de aterrizaje durante un período de tiempo seleccionado. Para medir los datos de la página de aterrizaje solo durante las últimas 24 horas, consulte la [Informe activo de la página de aterrizaje](lp-report-live.md).
+La página de aterrizaje **[!UICONTROL Informe global]** Este informe muestra detalles sobre el impacto de las páginas de aterrizaje durante un periodo de tiempo seleccionado. Para medir los datos de la página de aterrizaje solo durante las últimas 24 horas, consulte la [Informe en directo de página de aterrizaje](lp-report-live.md).
 
-Para acceder a los informes, seleccione **[!UICONTROL Informe]** del menú avanzado de la página de aterrizaje seleccionada.
+Para acceder a los informes, seleccione **[!UICONTROL Informe]** en el menú avanzado de la página de aterrizaje seleccionada.
 
 ![](assets/landing_page_report.png)
 
-La página de aterrizaje **[!UICONTROL Informe global]** se divide en distintas utilidades que detallan el éxito y los errores de su envío. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](global-report.md).
+La página de aterrizaje **[!UICONTROL Informe global]** se divide en diferentes widgets que detallan el éxito y los errores de la entrega. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](global-report.md).
 
 ![](assets/landing_page_global.png)
 
-+++Obtenga más información sobre las distintas métricas y utilidades disponibles para el informe global de página de aterrizaje.
++++Obtenga más información sobre las distintas métricas y widgets disponibles para el informe global de página de aterrizaje.
 
-La variable **[!UICONTROL Número de visitas]** y **[!UICONTROL Número de visitas a lo largo del tiempo]** las utilidades permiten ver el impacto de la página de aterrizaje durante el período de tiempo seleccionado mediante un gráfico y KPI con las siguientes métricas:
+El **[!UICONTROL Número de visitas]** y **[!UICONTROL Número de visitas con el tiempo]** Los widgets permiten ver el impacto de la página de aterrizaje en el período de tiempo seleccionado a través de un gráfico y KPI con las siguientes métricas:
 
 * **[!UICONTROL Visitas totales]**: Número total de visitas a la página de aterrizaje procedentes de recorridos y fuentes externas, incluidas las visitas múltiples de un destinatario.
 
-* **[!UICONTROL Visitantes únicos]**: Número de personas que visitaron la página de aterrizaje y no se tienen en cuenta las visitas múltiples de un destinatario.
+* **[!UICONTROL Visitantes únicos]**: Número de personas que visitaron la página de aterrizaje, no se tienen en cuenta las visitas múltiples de un destinatario.
 
-La variable **[!UICONTROL Rendimiento de la página de aterrizaje]** La utilidad detalla la información principal relativa al mensaje a través de los KPI:
+El **[!UICONTROL Rendimiento de página de aterrizaje]** El widget detalla la información principal relativa al mensaje a través de los KPI:
 
-* **[!UICONTROL Tasa de conversión]**: Número de personas que interactuaron con la página de aterrizaje, por ejemplo, suscritas a un formulario, en relación con el número total de visitas.
+* **[!UICONTROL Tasa de conversión]**: Número de personas que interactuaron con la página de aterrizaje (por ejemplo, suscritas a un formulario) en relación con el número total de visitas.
 
-* **[!UICONTROL Porcentaje de rebote]**: Número de personas que no interactuaron con la página de aterrizaje y no completaron la acción de suscribirse, en relación con el número total de visitas.
+* **[!UICONTROL Tasa de devoluciones]**: Número de personas que no interactuaron con la página de aterrizaje y no completaron la acción de suscripción en relación con el número total de visitas.
 
-La variable **[!UICONTROL Fuentes de visitas]** representa la forma en que los visitantes acceden a su página de aterrizaje:
+El **[!UICONTROL Fuentes de visitas]** El widget representa cómo acceden los visitantes a la página de aterrizaje:
 
-* **[!UICONTROL Recorridos]**: Número de visitas a la página de aterrizaje procedentes de un recorrido.
+* **[!UICONTROL Recorrido(s)]**: Número de visitas a la página de aterrizaje procedentes de un recorrido.
 
 * **[!UICONTROL Otras fuentes]**: Número de visitas a la página de aterrizaje procedentes de una fuente externa en lugar de un recorrido.
 
-La variable **[!UICONTROL Vínculos en los que se ha hecho clic]** identifica la interacción de los visitantes con la entrega:
+El **[!UICONTROL Principales vínculos en los que se hizo clic]** identifica la interacción de los visitantes con el envío:
 
 * **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en la página de aterrizaje.
 
-* **[!UICONTROL Tasa de clics]**: Porcentaje de clics en la página de aterrizaje.
+* **[!UICONTROL Tasa de clics]**: porcentaje de clics en la página de aterrizaje.
 
-La variable **[!UICONTROL Recorridos]** representa el número de visitas a la página de aterrizaje desde un recorrido:
+El **[!UICONTROL Recorrido(s)]** widget representa el número de visitas a su página de aterrizaje desde un recorrido:
 
 * **[!UICONTROL Visitas]**: Número de visitas a la página de aterrizaje, incluidas las visitas múltiples de un destinatario.
 
-La variable **[!UICONTROL Otras fuentes]** representa el número de visitas a la página de aterrizaje desde un origen externo en lugar de un recorrido.
+El **[!UICONTROL Otras fuentes]** widget representa el número de visitas a la página de aterrizaje desde un origen externo en lugar de un recorrido.
 
-La variable **[!UICONTROL Visitas por mensajes]** / **[!UICONTROL Conversiones por mensajes]** los gráficos representan el número total de visitas y personas que interactuaron correctamente con la página de aterrizaje durante el periodo correspondiente en función de los mensajes enviados.
+El **[!UICONTROL Visitas por mensajes]** / **[!UICONTROL Conversiones por mensajes]** los gráficos representan la cantidad total de visitas y personas que interactuaron correctamente con la página de aterrizaje durante el periodo correspondiente, según los mensajes enviados.
 
-La variable **[!UICONTROL Visitas por canales]** / **[!UICONTROL Conversiones por canales]** los gráficos representan el número total de visitas y personas que interactuaron correctamente con la página de aterrizaje durante el periodo correspondiente en función de los canales.
+El **[!UICONTROL Visitas por canales]** / **[!UICONTROL Conversiones por canales]** los gráficos representan la cantidad total de visitas y personas que interactuaron correctamente con la página de aterrizaje durante el periodo correspondiente, según los canales.
 +++
 
 Para obtener una lista detallada de todas las métricas disponibles en Adobe Journey Optimizer, consulte [esta página](global-report.md#list-of-components-global).

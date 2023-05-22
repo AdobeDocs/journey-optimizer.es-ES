@@ -20,26 +20,26 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_global_report"
 >title="Informe global de la suscripción"
->abstract="El informe global de suscripción permite medir y visualizar la actividad de sus suscriptores durante un período de tiempo seleccionado. El informe se divide en distintos widgets que detallan las subscripciones y las cancelaciones de subscripciones. Cada tablero de informes se puede modificar cambiando el tamaño o eliminando los widgets."
+>abstract="El informe global de suscripción permite medir y visualizar la actividad de sus suscriptores durante un período de tiempo seleccionado. El informe se divide en distintos widgets que detallan las subscripciones y las cancelaciones de subscripciones. Cada tablero de informes se puede modificar cambiando el tamaño de los widgets o eliminándolos."
 
-La suscripción **[!UICONTROL Informe global]** muestra detalles sobre la actividad de los suscriptores durante un período de tiempo seleccionado. Para medir sus suscripciones solo durante las últimas 24 horas, consulte la [Informe de suscripción en directo](subscription-report-live.md).
+La suscripción **[!UICONTROL Informe global]** muestra detalles sobre la actividad de los suscriptores durante un periodo de tiempo seleccionado. Para medir las suscripciones solo durante las últimas 24 horas, consulte la [Informe en vivo de suscripción](subscription-report-live.md).
 
-Para acceder a los informes, haga clic en la **[!UICONTROL Informe]** de la lista de suscripción seleccionada.
+Para acceder a sus informes, haga clic en **[!UICONTROL Informe]** de la lista de suscripción seleccionada.
 
 ![](assets/subscription_report_7.png)
 
-La suscripción **[!UICONTROL Informe global]** se divide en diferentes utilidades que detallan sus suscripciones y bajas de suscripción. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](global-report.md).
+La suscripción **[!UICONTROL Informe global]** se divide en diferentes widgets que detallan sus suscripciones y bajas de suscripción. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](global-report.md).
 
 ![](assets/subscription_report_1.png)
 
-La variable **[!UICONTROL Rendimiento de la suscripción]** KPI y **[!UICONTROL Suscripciones por recorrido]**/**[!UICONTROL Cancelación de suscripción por recorrido]** las tablas detallan la información principal relativa a la participación de los visitantes en la página de aterrizaje. Las tablas y los KPI contienen los datos disponibles relacionados con la página de aterrizaje, como:
+El **[!UICONTROL Rendimiento de suscripciones]** KPI y el **[!UICONTROL Suscripciones por recorrido]**/**[!UICONTROL Cancela la suscripción por recorrido]** las tablas detallan la información principal relativa a la participación de los visitantes en la página de aterrizaje. Las tablas y los KPI contienen los datos disponibles relacionados con la página de aterrizaje, como:
 
-* **[!UICONTROL Suscriptores]**: Número total de suscripciones durante el periodo correspondiente.
+* **[!UICONTROL Suscripciones]**: Número total de suscripciones durante el periodo correspondiente.
 
-* **[!UICONTROL Cancelación de suscripción]**: Número total de bajas de suscripción durante el periodo correspondiente.
+* **[!UICONTROL Cancela la suscripción]**: Número total de bajas de suscripción durante el periodo correspondiente.
 
-La variable **[!UICONTROL Rendimiento de la suscripción]** gráfico muestra la evolución de las suscripciones durante el periodo correspondiente.
+El **[!UICONTROL Rendimiento de suscripciones]** Este gráfico muestra la evolución de las suscripciones durante el periodo correspondiente.
 
 ![](assets/subscription_report_2.png)
 
-La variable **Suscripciones: desglose** y **Cancelación de suscripciones: desglose** representan el número total de personas que se suscribieron o cancelaron la suscripción durante el período de tiempo seleccionado en función de los mensajes, las páginas de aterrizaje y los canales.
+El **Suscripciones: desglose** y **Cancelaciones de la suscripción: desglose** representan el número total de personas que se suscribieron o cancelaron la suscripción durante el período de tiempo seleccionado, según los mensajes, las páginas de aterrizaje y los canales.
