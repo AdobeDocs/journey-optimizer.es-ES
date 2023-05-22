@@ -6,8 +6,8 @@ description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 1c4a2f19bd929720e93f4019bb1646c82bed9265
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,13 +26,13 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 <table>
 <thead>
 <tr>
-<th><strong>Usar etiquetas en las campañas</strong><br/></th>
+<th><strong>Usar Etiquetas en las campañas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede asignar etiquetas unificadas de Adobe Experience Platform a sus campañas. Esto le permite clasificarlos fácilmente y mejorar la búsqueda desde la lista de campañas. Tenga en cuenta que la función de etiquetas unificadas está actualmente en versión beta.
+<p>Ahora puede asignar Etiquetas unificadas de Adobe Experience Platform a sus campañas. Esto le permite clasificarlos fácilmente y mejorar la búsqueda desde la lista de campañas. Tenga en cuenta que la función de etiquetas unificadas está actualmente en versión beta.
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Para obtener más información, consulte la <a href="../start/search-filter-categorize.md#tags">documentación detallada</a>.</p>
 </td>
@@ -84,15 +84,15 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 <table>
 <thead>
 <tr>
-<th><strong>Nuevo panel de Recorrido (beta)</strong><br/></th>
+<th><strong>Nuevo tablero de Recorrido (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> El panel de Recorrido ahora está dividido en dos pestañas:</p>
-<ul><li>Utilice la variable <strong>Información general</strong> para acceder a un tablero nuevo que muestra las métricas clave relacionadas con sus recorridos.</li>
-<li>Utilice la variable <strong>Examinar</strong> para acceder a la lista de todos los recorridos.</li></ul>
+<p> El panel de Recorrido ahora se divide en dos pestañas:</p>
+<ul><li>Utilice el <strong>Información general</strong> para acceder a un nuevo tablero que muestra métricas clave relacionadas con sus recorridos.</li>
+<li>Utilice el <strong>Examinar</strong> para acceder a la lista de todos los recorridos.</li></ul>
 <p>Se puede acceder a esta funcionalidad en todos los recorridos como una versión beta pública.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
 <p>Para obtener más información, consulte la <a href="../building-journeys/journey-gs.md#journey-access">documentación detallada</a>.</p>
