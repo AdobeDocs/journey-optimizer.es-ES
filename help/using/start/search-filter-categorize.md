@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: fc7f996fca8b1e8e5f6b7379cc3b2b7da764e0ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '498'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ En la mayoría de las listas, utilice la barra de búsqueda para buscar elemento
 
 Se puede acceder a los filtros haciendo clic en el icono de filtro en la parte superior izquierda de la lista. El menú de filtro le permite filtrar los elementos mostrados según diferentes criterios: Puede elegir mostrar solo los elementos de un determinado tipo o estado, los que ha creado o los modificados en los últimos 30 días. Las opciones difieren según el contexto.
 
-Además, puede utilizar etiquetas unificadas para filtrar una lista en función de las etiquetas asignadas a un objeto. Por ahora, las etiquetas están disponibles para recorridos y campañas. [Aprenda a trabajar con etiquetas](#tags)
+Además, puede utilizar etiquetas unificadas para filtrar una lista en función de las etiquetas asignadas a un objeto. Por ahora, las etiquetas están disponibles para recorridos y campañas. [Descubra cómo trabajar con campañas](#tags)
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ En las listas, puede realizar acciones básicas por cada elemento. Por ejemplo, 
 
 ## Trabajar con etiquetas unificadas {#tags}
 
-Con Adobe Experience Platform [Etiquetas unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html), puede clasificar fácilmente sus recorridos y campañas de Journey Optimizer para mejorar la búsqueda en las listas.
+Con [Etiquetas unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=es) de Adobe Experience Platform, puede clasificar fácilmente sus recorridos y campañas de Journey Optimizer para mejorar la búsqueda en las listas.
 
 >[!AVAILABILITY]
 >
@@ -55,13 +55,13 @@ Con Adobe Experience Platform [Etiquetas unificadas](https://experienceleague.ad
 
 ### Añadir etiquetas a un objeto
 
-La variable **Etiquetas** , en el campo [recorrido](../building-journeys/journey-gs.md#change-properties) o [campaign](../campaigns/create-campaign.md#create) , permite definir etiquetas para el objeto. Puede seleccionar una etiqueta existente o crear una nueva.
+La variable **Etiquetas**, en las propiedades de [recorrido](../building-journeys/journey-gs.md#change-properties) o [campaña](../campaigns/create-campaign.md#create), permite definir etiquetas para el objeto. Puede seleccionar una etiqueta existente o crear una nueva.
 
-Empiece a escribir el nombre de la etiqueta deseada y selecciónela en la lista. Si no está disponible, haga clic en **Crear** para crear uno nuevo y añadirlo. Puede definir tantas etiquetas como sea necesario.
+Empiece a escribir el nombre de la etiqueta deseada y selecciónela en la lista. Si no está disponible, haga clic en **Crear** para crear una nueva y añadirla. Puede definir tantas etiquetas como sea necesario.
 
 ![](assets/tags1.png)
 
-La lista de etiquetas definidas se muestra debajo de la etiqueta **Etiquetas** campo .
+La lista de etiquetas definidas se muestra debajo del campo **Etiquetas** campo.
 
 >[!NOTE]
 >
@@ -71,20 +71,20 @@ La lista de etiquetas definidas se muestra debajo de la etiqueta **Etiquetas** c
 
 ### Filtrar por etiquetas
 
-Las listas de recorridos y campañas muestran una columna dedicada para que pueda visualizar fácilmente las etiquetas.
+Las listas de recorridos y campañas muestran una columna específica para que pueda visualizar fácilmente las etiquetas.
 
 Un filtro también está disponible para mostrar únicamente recorridos o campañas con determinadas etiquetas.
 
 ![](assets/tags2.png)
 
-Puede añadir o eliminar etiquetas de cualquier tipo de recorrido o campaña (activo, borrador, etc.). Para ello, haga clic en el botón **Más acciones** junto al objeto y seleccione **Editar etiquetas**.
+Puede añadir o eliminar etiquetas de cualquier tipo de recorrido o campaña (activa, borrador, etc.). Para ello, haga clic en el icono **Más acciones** junto al objeto y seleccione **Editar etiquetas**.
 
 ![](assets/tags3.png)
 
 ### Administrar etiquetas
 
-Los administradores pueden eliminar etiquetas y organizarlas por categorías utilizando la variable **Etiquetas** en **ADMINISTRACIÓN**. Obtenga más información sobre la administración de etiquetas en [Documentación de etiquetas unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
+Los administradores pueden eliminar etiquetas y organizarlas por categorías utilizando la variable **Etiquetas** en **ADMINISTRACIÓN**. Obtenga más información sobre la administración de etiquetas en [Documentación de etiquetas unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=es).
 
 >[!NOTE]
 >
-> Etiquetas creadas directamente a partir de **[!UICONTROL Etiquetas]** en Journey Optimizer se añaden automáticamente a la categoría integrada &quot;Sin categoría&quot;.
+> Etiquetas creadas directamente a partir del campo **[!UICONTROL Etiquetas]** en Journey Optimizer se añaden automáticamente a la categoría integrada &quot;Sin categoría&quot;.
