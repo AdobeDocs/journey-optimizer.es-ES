@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1066'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Los derechos, limitaciones de productos y protección del rendimiento se enumera
 
 También debe tener en cuenta los [mecanismos de protección para los datos del perfil del cliente en tiempo real antes de comenzar](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es){target="_blank"}.
 
-A continuación, encontrará limitaciones y mecanismos de protección adicionales al utilizar [!DNL Adobe Journey Optimizer].
+A continuación, encontrará limitaciones y protecciones adicionales al utilizar [!DNL Adobe Journey Optimizer].
 
 ## Navegadores admitidos {#browsers}
 
@@ -44,8 +44,8 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 
 ### Protecciones generales del recorrido {#journeys-guardrails-journeys}
 
-* El número de actividades de un recorrido está limitado a 50. El número de actividades se muestra en la sección superior izquierda del lienzo de recorrido.
-* El número de **recorridos en directo** en una organización está limitada a 100 por simulador de pruebas. Cuando se alcanza este límite, ya no se puede publicar un nuevo recorrido.
+* El número de actividades en un recorrido ahora está limitado a 50. El número de actividades se muestra en la sección superior izquierda del lienzo de recorrido.
+* El número de **recorridos en directo** en una organización está limitado ahora a 100 por zona protegida. Cuando se alcanza este límite, ya no se puede publicar un nuevo recorrido.
 
 ### Acciones generales {#general-actions-g}
 
