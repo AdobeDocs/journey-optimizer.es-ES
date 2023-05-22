@@ -1,5 +1,5 @@
 ---
-title: Trabajar con eventos de Administración de decisiones
+title: Trabajar con eventos de gestión de decisiones
 description: Obtenga información sobre cómo crear informes de Gestión de decisiones en Adobe Experience Platform.
 feature: Offers
 topic: Integrations
@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '299'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 55%
 
 Cada vez que Gestión de decisiones toma una decisión sobre un perfil determinado, la información relacionada con estos eventos se envía automáticamente a Adobe Experience Platform.
 
-Esto le permite obtener información sobre sus decisiones, por ejemplo, para saber qué oferta se presentó a un perfil determinado. Puede exportar estos datos para analizarlos en su propio sistema de informes o aprovechar Adobe Experience Platform [Servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es) en combinación con otras herramientas para mejorar el análisis y la creación de informes.
+Esto le permite obtener información sobre sus decisiones, por ejemplo, para saber qué oferta se presentó a un perfil determinado. Puede exportar estos datos para analizarlos en su propio sistema de informes o aprovechar el [Servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es) de Adobe Experience Platform en combinación con otras herramientas para mejorar el análisis y la creación de informes.
 
 ## Información clave disponible en conjuntos de datos {#key-information}
 
@@ -25,12 +25,12 @@ Cada evento que se envía cuando se toma una decisión contiene cuatro puntos de
 
 ![](../assets/events-dataset-preview.png)
 
-* **[!UICONTROL Abandono]**: Nombre e ID de la oferta de reserva, si no se ha seleccionado ninguna oferta personalizada,
-* **[!UICONTROL Colocación]**: Nombre, ID y canal de la colocación utilizada para entregar la oferta,
+* **[!UICONTROL Reserva]**: Nombre e ID de la oferta de reserva, si no se ha seleccionado ninguna oferta personalizada,
+* **[!UICONTROL Ubicación]**: Nombre, ID y canal de la ubicación utilizada para entregar la oferta,
 * **[!UICONTROL Selecciones]**: Nombre e ID de la oferta seleccionada para el perfil,
 * **[!UICONTROL Actividad]**: Nombre e ID de la decisión.
 
-Además, también puede aprovechar el **[!UICONTROL identityMap]** y **[!UICONTROL Marca de tiempo]** para recuperar información sobre el perfil y la hora a la que se entregó la oferta.
+Además, también puede aprovechar los campos  **[!UICONTROL identityMap]** y **[!UICONTROL Marca de tiempo]** para recuperar información sobre el perfil y la hora a la que se entregó la oferta.
 
 Para obtener más información sobre todos los campos XDM que se envían con cada decisión, consulte [esta sección](xdm-fields.md).
 
