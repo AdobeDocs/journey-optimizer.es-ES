@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d04f102100e67baf34ca72f9af26931955f84c67
+source-git-commit: da59efccc65d78ae357123d5f99e94cfcb52a68d
 workflow-type: tm+mt
 source-wordcount: '2379'
 ht-degree: 82%
@@ -30,7 +30,8 @@ La información siguiente está sujeta a cambios sin previo aviso hasta la fecha
 
 ### Nuevas funcionalidades{#may-2023-features}
 
-<!--table>
+<!--
+<table>
 <thead>
 <tr>
 <th><strong>Audience Composition</strong><br/></th>
@@ -45,7 +46,8 @@ La información siguiente está sujeta a cambios sin previo aviso hasta la fecha
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
+-->
 
 <table>
 <thead>
@@ -147,6 +149,7 @@ La información siguiente está sujeta a cambios sin previo aviso hasta la fecha
 
 * "Segments" are now "Audiences". Documentation and product UI have been updated to reflect this change.
 -->
+
 <!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
 -->
 
