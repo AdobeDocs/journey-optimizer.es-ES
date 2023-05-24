@@ -1,6 +1,6 @@
 ---
 title: Enumerar ubicaciones
-description: Las ubicaciones son contenedores que se utilizan para mostrar las ofertas.
+description: Las ubicaciones son contenedores que se utilizan para mostrar sus ofertas.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,9 +15,9 @@ ht-degree: 12%
 
 # Enumerar ubicaciones {#list-placements}
 
-Las ubicaciones son contenedores que se utilizan para mostrar las ofertas. Una ubicación ayuda a garantizar que el contenido de oferta correcto se muestre en la ubicación correcta dentro del mensaje. Al agregar contenido a una oferta, se le pedirá que seleccione una ubicación en la que se pueda mostrar dicho contenido.
+Las ubicaciones son contenedores que se utilizan para mostrar sus ofertas. Una ubicación ayuda a garantizar que el contenido de oferta correcto se muestre en la ubicación correcta dentro del mensaje. Al agregar contenido a una oferta, se le pedirá que seleccione una ubicación en la que se pueda mostrar dicho contenido.
 
-Puede ver una lista de todas las ubicaciones dentro de un contenedor realizando una sola solicitud de GET al [!DNL Offer Library] API.
+Puede ver una lista de todas las ubicaciones dentro de un contenedor realizando una sola solicitud de GET a la variable [!DNL Offer Library] API.
 
 **Formato de API**
 
@@ -28,13 +28,13 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Contenedor donde se encuentran las ubicaciones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | El contenedor donde se encuentran las ubicaciones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `SCHEMA_PLACEMENT}` | Define el esquema asociado a las ubicaciones. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
-| `{QUERY_PARAMS}` | Parámetros de consulta opcionales para filtrar los resultados por. | `limit=2` |
+| `{QUERY_PARAMS}` | Parámetros de consulta opcionales por los que filtrar los resultados. | `limit=2` |
 
 ## Uso de parámetros de consulta {#using-query-parameters}
 
-Puede utilizar parámetros de consulta para filtrar los resultados y la página cuando enumere recursos.
+Puede utilizar parámetros de consulta para paginar y filtrar los resultados al enumerar recursos.
 
 ### Paginación {#paging}
 
@@ -42,9 +42,9 @@ Los parámetros de consulta más comunes para la paginación incluyen:
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `q` | Una cadena de consulta opcional para buscar en los campos seleccionados. La cadena de consulta debe estar en minúscula y puede estar rodeada de comillas dobles para evitar que se la toquee y para que escape de caracteres especiales. Los caracteres `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` tienen un significado especial y deben evitarse con una barra invertida al aparecer en la cadena de consulta. | JSON de sitio web |
+| `q` | Una cadena de consulta opcional para buscar en los campos seleccionados. La cadena de consulta debe estar en minúsculas y puede estar rodeada de comillas dobles para evitar que se muestre con tokens y para que salga de los caracteres especiales. Los caracteres `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` tienen un significado especial y deben evitarse con una barra invertida cuando aparecen en la cadena de consulta. | Sitio web JSON |
 | `qop` | Aplica el operador AND u OR a los valores del parámetro de cadena de consulta q. | `AND` / `OR` |
-| `field` | Lista opcional de campos a los que limitar la búsqueda. Este parámetro se puede repetir de esta manera: field=field1[,campo=campo2,...] y (las expresiones de ruta están en forma de rutas separadas por puntos como _instance.xdm:name) | `_instance.xdm:name` |
+| `field` | Lista opcional de campos para limitar la búsqueda. Este parámetro se puede repetir como se indica a continuación: field=field1[,field=field2,...] y (las expresiones de ruta tienen la forma de rutas separadas por puntos, como _instance.xdm:name) | `_instance.xdm:name` |
 | `orderBy` | Ordene los resultados por una propiedad específica. Adición de un `-` antes del título (`orderby=-title`) ordenará los elementos por título en orden descendente (Z-A). | `-repo:createdDate` |
 | `limit` | Limite el número de ubicaciones devueltas. | `limit=5` |
 

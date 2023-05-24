@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Eventos de calificación de segmentos
-description: Descubra más información sobre los eventos de calificación de segmentos
+description: Obtenga información sobre los eventos de calificación de segmentos
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: cualificación, eventos, segmento, recorrido, plataforma
+keywords: calificación, eventos, segmento, recorrido, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
@@ -25,28 +25,28 @@ ht-degree: 10%
 >title="Eventos de cualificación de segmentos"
 >abstract="Esta actividad permite realizar un recorrido para escuchar las entradas y salidas de perfiles en segmentos de Adobe Experience Platform para que los particulares entren o avancen en un recorrido."
 
-Esta actividad permite realizar un recorrido para escuchar las entradas y salidas de perfiles en segmentos de Adobe Experience Platform para que los particulares entren o avancen en un recorrido. Para obtener más información sobre la creación de segmentos, consulte esta [sección](../segment/about-segments.md).
+Esta actividad permite realizar un recorrido para escuchar las entradas y salidas de perfiles en segmentos de Adobe Experience Platform para que los particulares entren o avancen en un recorrido. Para obtener más información sobre la creación de segmentos, consulte [sección](../segment/about-segments.md).
 
-Supongamos que tiene un segmento &quot;cliente plata&quot;. Con esta actividad, puede hacer que todos los clientes nuevos de plata introduzcan un recorrido y envíen una serie de mensajes personalizados.
+Supongamos que tiene un segmento llamado &quot;cliente plata&quot;. Con esta actividad, puede hacer que todos los clientes nuevos de Silver Ingresen a un recorrido y les envíen una serie de mensajes personalizados.
 
-Este tipo de evento se puede posicionar como el primer paso o posterior en el recorrido.
+Este tipo de evento se puede colocar como primer paso o más tarde en el recorrido.
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que los segmentos de Adobe Experience Platform se calculan una vez al día (**batch** segmentos) o en tiempo real (**transmitido** con la opción Audiencias de alta frecuencia de Adobe Experience Platform).
+>Tenga en cuenta que los segmentos de Adobe Experience Platform se calculan una vez al día (**lote** segmentos) o en tiempo real (**transmitido** mediante la opción Audiencias de alta frecuencia de Adobe Experience Platform).
 >
->Si el segmento seleccionado se transmite, las personas que pertenezcan a este segmento potencialmente entrarán en el recorrido en tiempo real. Si el segmento es por lotes, las personas que acaben de calificar para este segmento potencialmente introducirán el recorrido cuando se ejecute el cálculo del segmento en Adobe Experience Platform.
+>Si el segmento seleccionado se transmite, las personas que pertenecen a este segmento potencialmente ingresarán al recorrido en tiempo real. Si el segmento es por lotes, las personas recién cualificadas para este segmento potencialmente ingresarán al recorrido cuando el cálculo del segmento se ejecute en Adobe Experience Platform.
 >
 >Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen por un segmento de lectura, una calificación de segmentos o una actividad de evento empresarial.
 
 
-1. Despliegue el **[!UICONTROL Eventos]** categoría y suelte a **[!UICONTROL Clasificación del segmento]** actividad en el lienzo.
+1. Despliegue el **[!UICONTROL Eventos]** categoría y soltar una **[!UICONTROL Calificación de segmentos]** actividad en el lienzo.
 
    ![](assets/segment5.png)
 
-1. Agregue un **[!UICONTROL Etiqueta]** a la actividad . Este paso es opcional.
+1. Añadir un **[!UICONTROL Etiqueta]** a la actividad. Este paso es opcional.
 
-1. Haga clic en el **[!UICONTROL Segmento]** y seleccione los segmentos que desea aprovechar.
+1. Haga clic en en **[!UICONTROL Segmento]** y seleccione los segmentos que desee aprovechar.
 
    >[!NOTE]
    >
@@ -60,17 +60,17 @@ Este tipo de evento se puede posicionar como el primer paso o posterior en el re
 
    ![](assets/segment-copy.png)
 
-1. En el **[!UICONTROL Comportamiento]** , elija si desea escuchar las entradas de segmentos, las salidas o ambas.
+1. En el **[!UICONTROL Comportamiento]** , elija si desea escuchar las entradas del segmento, las salidas o ambos.
 
    >[!NOTE]
    >
-   >Tenga en cuenta que **[!UICONTROL Entrar]** y **[!UICONTROL Salir]** corresponde a la variable **Realizado** y **Salido** estados de participación de segmentos desde Adobe Experience Platform. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Tenga en cuenta que **[!UICONTROL Entrar]** y **[!UICONTROL Salir]** corresponde a la **Realizado** y **cerrado** estados de participación de segmentos de Adobe Experience Platform. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
-1. Seleccione un espacio de nombres. Esto solo es necesario si el evento se coloca como el primer paso del recorrido. De forma predeterminada, el campo se rellena previamente con el último espacio de nombres utilizado.
+1. Seleccione un área de nombres. Esto solo es necesario si el evento se coloca como el primer paso del recorrido. De forma predeterminada, el campo está rellenado previamente con el último área de nombres utilizado.
 
    >[!NOTE]
    >
-   >Solo puede seleccionar un área de nombres de identidad basada en personas. Si ha definido un espacio de nombres para una tabla de consulta (por ejemplo: Área de nombres ProductID para una búsqueda de productos), no estará disponible en el **Área de nombres** lista desplegable.
+   >Solo puede seleccionar un área de nombres de identidad basada en personas. Si ha definido un área de nombres para una tabla de búsqueda (por ejemplo: área de nombres ProductID para una búsqueda Product), no estará disponible en la **Área de nombres** lista desplegable.
 
    ![](assets/segment7.png)
 
@@ -78,44 +78,44 @@ La carga útil contiene la siguiente información de contexto, que puede utiliza
 
 * el comportamiento (entrada, salida)
 * la marca de tiempo de la calificación
-* el id de segmento
+* el id del segmento
 
-Cuando se utiliza el editor de expresiones en una condición o acción que sigue a una **[!UICONTROL Clasificación del segmento]** actividad, tiene acceso a la **[!UICONTROL SegmentQualification]** nodo . Puede elegir entre la variable **[!UICONTROL Última hora de calificación]** y **[!UICONTROL status]** (entrar o salir).
+Cuando se utiliza el editor de expresiones en una condición o acción que sigue a **[!UICONTROL Calificación de segmentos]** actividad, tiene acceso a la **[!UICONTROL Calificación de segmentos]** nodo. Puede elegir entre las **[!UICONTROL Última hora de clasificación]** y el **[!UICONTROL status]** (entrada o salida).
 
 Consulte [Actividad de condición](../building-journeys/condition-activity.md#about_condition).
 
 ![](assets/segment8.png)
 
-Un nuevo recorrido que incluye un evento de calificación de segmentos funciona diez minutos después de publicarlo. Este intervalo de tiempo corresponde al intervalo de actualización de la caché del servicio dedicado. Por lo tanto, debe esperar diez minutos antes de utilizar este recorrido.
+Un nuevo recorrido que incluye un evento de calificación de segmentos está en funcionamiento diez minutos después de su publicación. Este intervalo de tiempo corresponde al intervalo de actualización de caché del servicio dedicado. Por lo tanto, debe esperar diez minutos antes de utilizar este recorrido.
 
 ## Prácticas recomendadas {#best-practices-segments}
 
-La variable **[!UICONTROL Clasificación del segmento]** permite la entrada inmediata en recorridos de personas que se han clasificado o descalificado de un segmento de Adobe Experience Platform.
+El **[!UICONTROL Calificación de segmentos]** La actividad de permite la entrada inmediata en recorridos de personas que se califican o descalifican de un segmento de Adobe Experience Platform.
 
-La velocidad de recepción de esta información es alta. Las mediciones realizadas muestran una velocidad de 10 000 eventos recibidos por segundos. Por tanto, es importante saber cómo pueden producirse los picos de entrada, cómo evitarlos y cómo preparar el recorrido para ellos.
+La velocidad de recepción de esta información es alta. Las mediciones realizadas muestran una velocidad de 10 000 eventos recibidos por segundo. Como resultado, debe asegurarse de comprender cómo pueden producirse los picos de entrada, cómo evitarlos y cómo preparar su recorrido para ellos.
 
 ### Segmentos por lotes{#batch-speed-segment-qualification}
 
-Cuando utilice la calificación de segmentos para un segmento por lotes, tenga en cuenta que se producirá un pico de entrada en el momento del cálculo diario. El tamaño del pico dependerá del número de personas que entren (o salgan) en el segmento a diario.
+Cuando utilice la calificación de segmentos para un segmento de lote, tenga en cuenta que se producirá un pico de entrada en el momento del cálculo diario. El tamaño del pico dependerá del número de individuos que entren (o salgan) del segmento diariamente.
 
-Además, si el segmento por lotes se crea recientemente y se utiliza inmediatamente en un recorrido, el primer lote de cálculo puede hacer que un número muy grande de personas entre en el recorrido.
+Además, si el segmento de lote se crea recientemente y se utiliza inmediatamente en un recorrido, el primer lote de cálculo puede hacer que un gran número de personas entren en el recorrido.
 
 ### Segmentos transmitidos{#streamed-speed-segment-qualification}
 
-Al utilizar la calificación de segmentos para segmentos transmitidos, existe menos riesgo de obtener grandes picos de entradas y salidas debido a la evaluación continua del segmento. Sin embargo, si la definición del segmento conduce a que un gran volumen de clientes se califique al mismo tiempo, también podría haber un pico.
+Cuando se utiliza la calificación de segmentos para segmentos transmitidos, hay menos riesgo de obtener grandes picos de entradas/salidas debido a la evaluación continua del segmento. Sin embargo, si la definición del segmento conduce a que un gran volumen de clientes cumpla los requisitos al mismo tiempo, puede haber un pico también.
 
 Para obtener más información sobre la segmentación de flujo continuo, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### Cómo evitar sobrecargas{#overloads-speed-segment-qualification}
 
-Estas son algunas prácticas recomendadas que ayudarán a evitar la sobrecarga de sistemas apalancados en recorridos (fuentes de datos, acciones personalizadas, actividades de acción del canal).
+Estas son algunas prácticas recomendadas que ayudarán a evitar la sobrecarga de sistemas aprovechados en los recorridos (fuentes de datos, acciones personalizadas, actividades de acción del canal).
 
-No use, en **[!UICONTROL Clasificación del segmento]** actividad, un segmento por lotes inmediatamente después de su creación. Evitará el primer pico de cálculo. Tenga en cuenta que habrá una advertencia amarilla en el lienzo de recorrido si está a punto de usar un segmento que nunca se ha calculado.
+No use, en un **[!UICONTROL Calificación de segmentos]** actividad, un segmento por lotes inmediatamente después de su creación. Evitará el primer pico de cálculo. Tenga en cuenta que si está a punto de usar un segmento que nunca se ha calculado, aparecerá una advertencia amarilla en el lienzo de recorrido.
 
 ![](assets/segment-error.png)
 
-Establezca una regla de límite para las fuentes de datos y las acciones utilizadas en los recorridos para evitar sobrecargarlos. Obtenga más información en [documentación del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. Tenga en cuenta que la regla de restricción no tiene reintento. Si necesita volver a intentarlo, debe utilizar una ruta alternativa en el recorrido marcando la casilla **[!UICONTROL Añada una ruta alternativa en caso de tiempo de espera o error]** en condiciones o acciones.
+Establezca una regla de límite para las fuentes de datos y las acciones utilizadas en los recorridos para evitar sobrecargarlos. Obtenga más información en [Documentación del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. Tenga en cuenta que la regla de límite no tiene reintento. Si necesita volver a intentarlo, debe utilizar una ruta alternativa en el recorrido marcando la casilla **[!UICONTROL Añadir una ruta alternativa en caso de tiempo de espera o error]** en condiciones o acciones.
 
-Antes de usar el segmento en un recorrido de producción, evalúe siempre primero el volumen de personas que cumplen los requisitos para este segmento todos los días. Para ello, puede marcar la **[!UICONTROL Segmentos]** , abra el segmento y, a continuación, consulte la **[!UICONTROL Perfiles a lo largo del tiempo]** gráfico.
+Antes de usar el segmento en un recorrido de producción, evalúe siempre primero el volumen de personas que cumplen los requisitos para este segmento todos los días. Para ello, puede consultar la **[!UICONTROL Segmentos]** , abra el segmento y observe la variable **[!UICONTROL Perfiles a lo largo del tiempo]** gráfico.
 
 ![](assets/segment-overload.png)

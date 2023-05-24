@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurar los informes de Journey Optimizer para la experimentación
+title: Configuración de informes de Journey Optimizer para experimentación
 description: Obtenga información sobre cómo configurar una fuente de datos de creación de informes
 feature: Data Sources
 topic: Administration
@@ -15,11 +15,11 @@ badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 36%
+ht-degree: 38%
 
 ---
 
-# Configurar la creación de informes para la experimentación {#reporting-configuration}
+# Configuración de informes para experimentación {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
@@ -45,13 +45,13 @@ Lo que encontrará en esta documentación:
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
-La configuración de la fuente de datos de informes permite recuperar métricas adicionales que se utilizarán en la variable **[!UICONTROL Objetivos]** de los informes de campaña. [Más información](content-experiment.md#objectives-global)
+La configuración de la fuente de datos de creación de informes permite recuperar métricas adicionales que se utilizarán en la **[!UICONTROL Objetivos]** de los informes de campaña. [Más información](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >
->La configuración de informes debe realizarla un usuario técnico. <!--Rights?-->
+>La configuración de creación de informes debe realizarla un usuario técnico. <!--Rights?-->
 
-Para esta configuración, debe agregar uno o más conjuntos de datos que contengan los elementos adicionales que desee utilizar para los informes. Para ello, siga los pasos [below](#add-datasets).
+Para esta configuración, debe agregar uno o más conjuntos de datos que contengan los elementos adicionales que desee utilizar en los informes. Para ello, siga los pasos [abajo](#add-datasets).
 
 <!--
 ➡️ [Discover this feature in video](#video)
@@ -60,23 +60,23 @@ Para esta configuración, debe agregar uno o más conjuntos de datos que conteng
 ## Requisitos previos
 
 
-Antes de poder agregar un conjunto de datos a la configuración de informes, debe crear ese conjunto de datos. Obtenga más información en la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es#create){target="_blank"}.
+Antes de poder agregar un conjunto de datos a la configuración de creación de informes, debe crearlo. Obtenga más información en la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es#create){target="_blank"}.
 
-* Solo puede agregar conjuntos de datos de tipo de evento.
+* Solo puede añadir conjuntos de datos de tipo evento.
 
-* Estos conjuntos de datos deben contener al menos uno de los siguientes [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"}: **Detalles de la aplicación**, **Detalles del comercio**, **Detalles web**.
+* Estos conjuntos de datos deben contener al menos uno de los siguientes elementos [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"}: **Detalles de aplicación**, **Detalles de comercio**, **Detalles web**.
 
    >[!NOTE]
    >
    >Actualmente solo se admiten estos grupos de campos.
 
-   Por ejemplo, si desea conocer el impacto de una campaña de correo electrónico en los datos de comercio, como compras o pedidos, debe crear un conjunto de datos de evento de experiencia con la variable **Detalles del comercio** grupo de campos.
+   Por ejemplo, si desea conocer el impacto de una campaña de correo electrónico en los datos de comercio, como compras o pedidos, debe crear un conjunto de datos de evento de experiencia con **Detalles de comercio** grupo de campos.
 
-   Del mismo modo, si desea crear un informe sobre interacciones móviles, debe crear un conjunto de datos de evento de experiencia con la variable **Detalles de la aplicación** grupo de campos.
+   Del mismo modo, si desea crear un informe sobre interacciones móviles, debe crear un conjunto de datos de evento de experiencia con **Detalles de aplicación** grupo de campos.
 
-   Se muestran las métricas correspondientes a cada grupo de campos [here](#objective-list).
+   Se muestran las métricas correspondientes a cada grupo de campos [aquí](#objective-list).
 
-* Puede agregar estos grupos de campos a uno o varios esquemas que se utilizarán en uno o varios conjuntos de datos.
+* Puede añadir estos grupos de campos a uno o varios esquemas que se utilizarán en uno o varios conjuntos de datos.
 
 >[!NOTE]
 >
@@ -88,37 +88,37 @@ La tabla siguiente muestra qué métricas se agregarán al **[!UICONTROL Objetiv
 
 | Grupo de campos | Objetivos |
 |--- |--- |
-| Detalles del comercio | Precio total<br>Importe de pago<br>(Único) Cierres de compra<br>(Único) Adiciones a la lista de productos<br>Aperturas (únicas) de la lista de productos<br>Eliminación de lista de productos (única)<br>Vistas de lista de productos (únicas)<br>Vistas del producto (únicas)<br>(Único) Compras<br>(Único) Guardar para versiones más recientes<br>Precio total del producto<br>Cantidad de productos |
-| Detalles de la aplicación | (Único) Lanzamientos de aplicaciones<br>Primeros lanzamientos de la aplicación<br>(Único) Instalaciones de aplicaciones<br>Actualizaciones de aplicaciones (únicas) |
+| Detalles de comercio | Precio total<br>Importe de pago<br>Cierres de compra (únicos)<br>Adiciones de lista de productos (únicas)<br>Aperturas de lista de productos (únicas)<br>Eliminación de la lista de productos (única)<br>Vistas de lista de productos (únicas)<br>Vistas del producto (únicas)<br>Compras (únicas)<br>(Único) Guardar Para Más Tarde<br>Precio total del producto<br>Cantidad de productos |
+| Detalles de aplicación | Lanzamientos de aplicaciones (únicos)<br>Primeros inicios de la aplicación<br>Instalaciones de la aplicación (únicas)<br>Actualizaciones de aplicaciones (únicas) |
 | Detalles web | Vistas de página (únicas) |
 
 ## Añadir conjuntos de datos {#add-datasets}
 
-1. En el **[!UICONTROL ADMINISTRACIÓN]** seleccione **[!UICONTROL Configuraciones]**. En el  **[!UICONTROL Informes]** , haga clic en **[!UICONTROL Administrar]**.
+1. Desde el **[!UICONTROL ADMINISTRACIÓN]** menú, seleccione **[!UICONTROL Configuraciones]**. En el  **[!UICONTROL Informes]** , haga clic en **[!UICONTROL Administrar]**.
 
    ![](assets/reporting-config-menu.png)
 
    Se muestra la lista de conjuntos de datos que ya se han añadido.
 
-1. En el **[!UICONTROL Conjunto de datos]** , haga clic en **[!UICONTROL Agregar conjunto de datos]**.
+1. Desde el **[!UICONTROL Conjunto de datos]** pestaña, haga clic en **[!UICONTROL Añadir conjunto de datos]**.
 
    ![](assets/reporting-config-add.png)
 
    >[!NOTE]
    >
-   >Si selecciona la opción **[!UICONTROL Conjunto de datos del sistema]** , solo se muestran los conjuntos de datos creados por el sistema. No podrá añadir otros.
+   >Si selecciona la opción **[!UICONTROL Conjunto de datos del sistema]** pestaña, solo se muestran los conjuntos de datos creados por el sistema. No podrá añadir otros.
 
-1. En el **[!UICONTROL Conjunto de datos]** lista desplegable, seleccione el conjunto de datos que desee usar para sus informes.
+1. Desde el **[!UICONTROL Conjunto de datos]** , seleccione el conjunto de datos que desee utilizar para sus informes.
 
    >[!CAUTION]
    >
-   >Solo puede seleccionar un conjunto de datos de tipo de evento que debe contener al menos uno de los [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"}: **Detalles de la aplicación**, **Detalles del comercio**, **Detalles web**. Si selecciona un conjunto de datos que no coincida con esos criterios, no podrá guardar los cambios.
+   >Solo puede seleccionar un conjunto de datos de tipo evento, que debe contener al menos uno de los [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"}: **Detalles de aplicación**, **Detalles de comercio**, **Detalles web**. Si selecciona un conjunto de datos que no coincida con esos criterios, no podrá guardar los cambios.
 
    ![](assets/reporting-config-datasets.png)
 
    Obtenga más información sobre los conjuntos de datos en la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es){target="_blank"}.
 
-1. En el **[!UICONTROL ID de perfil]** en la lista desplegable, seleccione el atributo de campo del conjunto de datos que se utilizará para identificar cada perfil en los informes.
+1. Desde el **[!UICONTROL ID de perfil]** , seleccione el atributo de campo del conjunto de datos que se utilizará para identificar cada perfil en los informes.
 
    ![](assets/reporting-config-profile-id.png)
 
@@ -126,7 +126,7 @@ La tabla siguiente muestra qué métricas se agregarán al **[!UICONTROL Objetiv
    >
    >Solo se muestran los ID disponibles para la creación de informes.
 
-1. La variable **[!UICONTROL Usar área de nombres de ID principal]** está activada de forma predeterminada. Si el **[!UICONTROL ID de perfil]** es **[!UICONTROL Mapa de identidad]**, puede desactivar esta opción y elegir otro espacio de nombres en la lista desplegable que se muestra.
+1. El **[!UICONTROL Usar área de nombres de ID principal]** está activada de forma predeterminada. Si el seleccionado **[!UICONTROL ID de perfil]** es **[!UICONTROL Mapa de identidad]**, puede desactivar esta opción y elegir otra área de nombres en la lista desplegable que se muestra.
 
    ![](assets/reporting-config-namespace.png)
 

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Niveles de permisos
-description: Obtenga información sobre los permisos de alto y bajo nivel que permiten a los usuarios acceder a las distintas funciones.
+description: Obtenga información acerca de los permisos de alto y bajo nivel que permiten a los usuarios acceder a las distintas funciones.
 topic: Administration
 role: Admin, Architect, Developer
 level: Experienced
@@ -22,17 +22,17 @@ ht-degree: 2%
 Cada perfil de producto está compuesto por permisos que permiten a los usuarios acceder a las diferentes funciones.
 Se pueden dividir en dos tipos:
 
-* **Permiso de alto nivel**: representa los diferentes permisos que se pueden asignar a **[!UICONTROL Perfil del producto]** en el [!DNL Admin console], como **[!DNL Publish journeys]** y **[!DNL Manage subdomains delegation]**. Los permisos de alto nivel comprenden permisos de bajo nivel.
+* **Permiso de alto nivel**: representa los diferentes permisos que se pueden asignar a **[!UICONTROL Perfil del producto]** en el [!DNL Admin console], como **[!DNL Publish journeys]** y **[!DNL Manage subdomains delegation]**. Los permisos de alto nivel abarcan permisos de bajo nivel.
 
 * **Permiso de bajo nivel**: representa los diferentes permisos que provienen del permiso de alto nivel.
 
-Por ejemplo, la variable **[!DNL Journey administrator]** al perfil de producto se le asigna la variable **[!DNL Manage journeys]** permiso. A partir de este permiso, se obtienen los permisos de bajo nivel que permiten al administrador de Recorrido escribir, leer y eliminar recorridos.
+Por ejemplo, la variable **[!DNL Journey administrator]** el perfil de producto tiene asignado el **[!DNL Manage journeys]** permiso. De este permiso se obtienen los permisos de bajo nivel que permitirán al administrador del Recorrido escribir, leer y eliminar recorridos.
 
-## Recorrido {#journey-capability}
+## capacidad de recorrido {#journey-capability}
 
 ### [!DNL Manage journeys] permiso {#manage-journeys}
 
-La variable **[!DNL Manage journeys]** los permisos de alto nivel permiten a los usuarios crear Recorridos nuevos, editar o eliminar los existentes, así como acceder a los objetos que se utilizan en el lienzo de recorrido para crear el flujo de recorrido.
+El **[!DNL Manage journeys]** el permiso de alto nivel permite a los usuarios crear Recorridos nuevos y editar/eliminar los existentes, así como acceder a los objetos utilizados en el lienzo de recorrido para crear el flujo de recorrido.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -52,7 +52,7 @@ Incluye los siguientes permisos de bajo nivel:
 
 ### [!DNL Publish journeys] permiso {#publish-journeys}
 
-La variable **[!DNL Publish journeys]** permiso de alto nivel permite a los usuarios publicar recorridos.
+El **[!DNL Publish journeys]** el permiso de alto nivel permite a los usuarios publicar recorridos.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -62,7 +62,7 @@ Incluye los siguientes permisos de bajo nivel:
 
 ### [!DNL View journeys] permiso {#view-journeys}
 
-La variable **[!DNL View journeys]** los permisos de alto nivel permiten a los usuarios examinar y ver recorridos.
+El **[!DNL View journeys]** el permiso de alto nivel permite a los usuarios examinar y ver los recorridos.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -75,7 +75,7 @@ Incluye los siguientes permisos de bajo nivel:
 
 ### [!DNL Manage journeys events, data sources and actions] permiso {#manage-journeys-events}
 
-La variable **[!DNL Manage journeys events, data sources and actions]** los permisos de alto nivel permiten a los usuarios configurar configuraciones de datos y eventos.
+El **[!DNL Manage journeys events, data sources and actions]** el permiso de alto nivel permite a los usuarios configurar configuraciones de datos y eventos.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -97,7 +97,7 @@ Incluye los siguientes permisos de bajo nivel:
 
 ### [!DNL View journeys events, data sources and actions] permiso {#view-journeys-event}
 
-La variable **[!DNL View journeys events, data sources and actions]** permiso de alto nivel permite a los usuarios utilizar eventos y datos en el flujo de recorrido.
+El **[!DNL View journeys events, data sources and actions]** el permiso de alto nivel permite a los usuarios utilizar eventos y datos en el flujo de recorrido.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -113,7 +113,7 @@ Incluye los siguientes permisos de bajo nivel:
 
 ### [!DNL View journeys report] permiso {#view-journeys-report}
 
-La variable **[!DNL View journeys report]** permiso de alto nivel permite a los usuarios crear informes de recorrido de solo lectura.
+El **[!DNL View journeys report]** el permiso de alto nivel permite a los usuarios crear informes de recorrido de solo lectura.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -127,15 +127,15 @@ Incluye los siguientes permisos de bajo nivel:
    * queries.write
    * queries.delete
 
-## Capacidad de gestión de decisiones {#decisions-permissions}
+## Capacidad de administración de decisiones {#decisions-permissions}
 
 ### [!DNL Manage decisions] permiso {#manage-decisioning}
 
-La variable **[!DNL Manage decisions]** el permiso de alto nivel permite a los usuarios crear nuevos y editar/eliminar **[!DNL Activity entities]**, así como administrar los objetos que se utilizan en esas actividades para tomar las decisiones.
+El **[!DNL Manage decisions]** el permiso de alto nivel permite a los usuarios crear nuevos y editar/eliminar los existentes **[!DNL Activity entities]**, así como administrar los objetos que se utilizan en esas actividades para tomar las decisiones.
 
 Incluye los siguientes permisos de bajo nivel:
 
-* Específico de la gestión de decisiones:
+* Específico para la gestión de decisiones:
    * activities.read
    * activities.write
    * activities.delete
@@ -157,11 +157,11 @@ Incluye los siguientes permisos de bajo nivel:
 
 ### [!DNL View decisions] permiso {#view-decisions}
 
-La variable **[!DNL View decisions]** los permisos de alto nivel permiten a los usuarios utilizar una actividad existente y objetos empresariales relacionados para tomar las decisiones.
+El **[!DNL View decisions]** El permiso de alto nivel permite a los usuarios utilizar una actividad existente y objetos empresariales relacionados para tomar las decisiones.
 
 Incluye los siguientes permisos de bajo nivel:
 
-* Específico de la gestión de decisiones:
+* Específico para la gestión de decisiones:
    * activities.read
    * offers.read
    * placements.read
@@ -176,12 +176,12 @@ Incluye los siguientes permisos de bajo nivel:
 
 ### [!DNL Publish offers decisioning] permiso {#publish-decisions}
 
-La variable **[!DNL Publish offers decisioning]** permiso de alto nivel permite a los usuarios acceder a para aprobar o desaprobar actividades de oferta.
+El **[!DNL Publish offers decisioning]** el permiso de alto nivel permite a los usuarios acceder para aprobar o desaprobar actividades de oferta.
 
 Incluye los siguientes permisos de bajo nivel:
 
-* Específico de la gestión de decisiones:
-   * offer_activity.read
+* Específico para la gestión de decisiones:
+   * offers_activity.read
    * offers.read
    * offers.write
    * offers.delete
@@ -198,11 +198,11 @@ Incluye los siguientes permisos de bajo nivel:
 
 ### [!DNL Manage ranking strategies] permiso {#manage-ranking-strategies}
 
-La variable **[!DNL Manage ranking strategies]** los permisos de alto nivel permiten a los usuarios leer, crear, editar y eliminar estrategias de clasificación.
+El **[!DNL Manage ranking strategies]** el permiso de alto nivel permite a los usuarios leer, crear, editar y eliminar estrategias de clasificación.
 
 Incluye los siguientes permisos de bajo nivel:
 
-* Específico de la gestión de decisiones:
+* Específico para la gestión de decisiones:
    * ranking_strategy.read
    * ranking_strategy.write
    * ranking_strategy.delete
@@ -214,36 +214,36 @@ Incluye los siguientes permisos de bajo nivel:
 
 ### [!DNL Manage subdomains delegation] permiso {#manage-subdomain}
 
-La variable **[!DNL Manage subdomains delegation]** los permisos de alto nivel permiten a los usuarios crear, editar y eliminar delegaciones de subdominios (incluido el grupo de IP).
+El **[!DNL Manage subdomains delegation]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar delegaciones de subdominios (incluido el grupo de IP).
 
 Incluye los siguientes permisos de bajo nivel:
 
-* subdominios_delegation.read
-* subdominios_delegación.write
-* subdominios_delegación.delete
+* subdomains_delegation.read
+* subdomains_delegation.write
+* subdomains_delegation.delete
 
 ### [!DNL Manage PTR records] permiso {#manage-ptr}
 
-La variable **[!DNL Manage PTR records]** los permisos de alto nivel permiten a los usuarios leer y editar registros PTR que se han configurado en función del subdominio.
+El **[!DNL Manage PTR records]** El permiso de alto nivel permite a los usuarios leer y editar registros PTR configurados en función del subdominio.
 
 Incluye los siguientes permisos de bajo nivel:
 
 * PTR_records.read
 * PTR_records.write
-* subdominios_delegation.read
+* subdomains_delegation.read
 
 ### [!DNL View PTR records] permiso {#view-ptr}
 
-La variable **[!DNL View PTR records]** el permiso de alto nivel permite a los usuarios ver los registros PTR que se han configurado en función del subdominio.
+El **[!DNL View PTR records]** el permiso de alto nivel permite a los usuarios ver los registros PTR que se han configurado en función del subdominio.
 
 Incluye los siguientes permisos de bajo nivel:
 
 * PTR_records.read
-* subdominios_delegation.read
+* subdomains_delegation.read
 
 ### [!DNL Manage IP pools] permiso {#manage-ip-pools}
 
-La variable **[!DNL Manage IP pools]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar la definición de afinidad.
+El **[!DNL Manage IP pools]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar la definición de afinidad.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -279,7 +279,7 @@ It includes the following low-level permissions:
 
 ### [!DNL Manage channel surface] permiso {#manage-channel-surface}
 
-La variable **[!DNL Manage channel surface]** los permisos de alto nivel permiten a los usuarios crear, editar y eliminar superficies de canal en todos los canales a nivel de entorno limitado.
+El **[!DNL Manage channel surface]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar superficies de canal entre canales en el nivel de zona protegida.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -287,24 +287,24 @@ Incluye los siguientes permisos de bajo nivel:
    * messages_presets.read
    * messages_presets.write
    * messages_presets.delete
-   * subdominios_delegation.read
+   * subdomains_delegation.read
    * IP_pools.read
    * mobile_setting.read (de Adobe Experience Platform Launch)
 
 ### [!DNL View channel surface] permiso {#view-channel-surface}
 
-La variable **[!DNL View channel surface]** los permisos de alto nivel permiten a los usuarios ver las superficies del canal para saber qué superficies del canal utilizar.
+El **[!DNL View channel surface]** el permiso de alto nivel permite a los usuarios ver las superficies de canal para saber qué superficies de canal utilizar.
 
 Incluye los siguientes permisos de bajo nivel:
 
 * messages_presets.read
-* subdominios_delegation.read
+* subdomains_delegation.read
 * IP_pools.read
 * mobile_setting.read (de la recopilación de datos de Adobe Experience Platform)
 
 ### [!DNL Manage suppression] permiso {#manage-suppression}
 
-La variable **[!DNL Manage suppression]** el permiso de alto nivel permite a los usuarios definir el número de devoluciones antes de agregar una dirección de correo electrónico a la lista de supresión, así como agregar y eliminar entradas a/desde la lista de supresión.
+El **[!DNL Manage suppression]** el permiso de alto nivel permite a los usuarios definir el número de rechazos antes de añadir una dirección de correo electrónico a la lista de supresión, así como añadir y eliminar entradas en la lista de supresión.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -316,7 +316,7 @@ Incluye los siguientes permisos de bajo nivel:
 
 ### [!DNL View suppression list] permiso {#view-suppression-list}
 
-La variable **[!DNL View suppression list]** permiso de alto nivel permite a los usuarios ver el contenido y la configuración de la lista de supresión.
+El **[!DNL View suppression list]** el permiso de alto nivel permite a los usuarios ver el contenido y la configuración de la lista de supresión.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -329,7 +329,7 @@ Incluye los siguientes permisos de bajo nivel:
 
 ### [!DNL Export suppression list] permiso {#export-suppression-list}
 
-La variable **[!DNL Export suppression list]** permiso de alto nivel permite a los usuarios descargar la lista de supresión como archivo CSV.
+El **[!DNL Export suppression list]** El permiso de alto nivel permite a los usuarios descargar la lista de supresión como archivo CSV.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -342,7 +342,7 @@ Incluye los siguientes permisos de bajo nivel:
 
 ### [!DNL Manage landing page settings] permiso {#manage-landing-page-settings}
 
-La variable **[!DNL Manage landing page settings]** los permisos de alto nivel permiten a los usuarios leer, crear y editar subdominios de página de aterrizaje y ajustes preestablecidos.
+El **[!DNL Manage landing page settings]** el permiso de alto nivel permite a los usuarios leer, crear y editar subdominios de páginas de aterrizaje y ajustes preestablecidos.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -356,7 +356,7 @@ Incluye los siguientes permisos de bajo nivel:
 
 ### [!DNL Manage frequency rules] permiso {#manage-frequency-rules}
 
-La variable **[!DNL Manage frequency rules]** los permisos de alto nivel permiten a los usuarios leer, crear, editar, eliminar y activar/desactivar reglas de frecuencia.
+El **[!DNL Manage frequency rules]** el permiso de alto nivel permite a los usuarios leer, crear, editar, eliminar y activar/desactivar reglas de frecuencia.
 
 Incluye los siguientes permisos de bajo nivel:
 
@@ -367,7 +367,7 @@ Incluye los siguientes permisos de bajo nivel:
 
 ### [!DNL View frequency rules] permiso {#view-frequency-rules}
 
-La variable **[!DNL View frequency rules]** permiso de alto nivel permite a los usuarios ver las reglas de frecuencia.
+El **[!DNL View frequency rules]** el permiso de alto nivel permite a los usuarios ver las reglas de frecuencia.
 
 Incluye los siguientes permisos de bajo nivel:
 

@@ -17,9 +17,9 @@ ht-degree: 6%
 
 Utilice estas funciones para facilitar la interacción con matrices, listas y cadenas.
 
-## Count only null {#count-only-null}
+## Contar solo nulo {#count-only-null}
 
-La variable `countOnlyNull` se utiliza para contar el número de valores nulos en una lista.
+El `countOnlyNull` se utiliza para contar el número de valores nulos de una lista.
 
 **Sintaxis**
 
@@ -35,9 +35,9 @@ La variable `countOnlyNull` se utiliza para contar el número de valores nulos e
 
 Devuelve 3.
 
-## Recuento con nulo {#count-with-null}
+## Contar Con Nulo {#count-with-null}
 
-La variable `countWithNull` se utiliza para contar todos los elementos de una lista, incluidos los valores nulos.
+El `countWithNull` se utiliza para contar todos los elementos de una lista, incluidos los valores nulos.
 
 **Sintaxis**
 
@@ -53,9 +53,9 @@ La variable `countWithNull` se utiliza para contar todos los elementos de una li
 
 Devuelve 6.
 
-## Distinct{#distinct}
+## Distinto{#distinct}
 
-La variable `distinct` se utiliza para obtener valores de una matriz o lista con valores duplicados eliminados.
+El `distinct` se utiliza para obtener valores de una matriz o lista con valores duplicados eliminados.
 
 **Sintaxis**
 
@@ -73,7 +73,7 @@ La siguiente operación especifica las personas que han realizado pedidos en má
 
 ## Recuento Distinto Con Nulo {#distinct-count-with-null}
 
-La variable `distinctCountWithNull` se utiliza para contar el número de valores diferentes de una lista, incluidos los valores nulos.
+El `distinctCountWithNull` se utiliza para contar el número de valores diferentes en una lista, incluidos los valores nulos.
 
 **Sintaxis**
 
@@ -91,7 +91,7 @@ Devuelve 3.
 
 ## Primer elemento{#head}
 
-La variable `head` se utiliza para devolver el primer elemento de una matriz o lista.
+El `head` se utiliza para devolver el primer elemento de una matriz o lista.
 
 **Sintaxis**
 
@@ -101,15 +101,15 @@ La variable `head` se utiliza para devolver el primer elemento de una matriz o l
 
 **Ejemplo**
 
-La siguiente operación devuelve el primero de los cinco pedidos principales con el precio más alto. Más información sobre `topN` se puede encontrar en la variable [first `n` en matriz](#first-n) para obtener más información.
+La siguiente operación devuelve el primero de los cinco pedidos principales con el precio más alto. Más información sobre la `topN` se puede encontrar en la [primero `n` en matriz](#first-n) sección.
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## First `n` en matriz {#first-n}
+## Primero `n` en matriz {#first-n}
 
-La variable `topN` se utiliza para devolver la primera función `N` elementos de una matriz, cuando se ordenan en orden ascendente según la expresión numérica dada.
+El `topN` se utiliza para devolver la primera función `N` elementos de una matriz, cuando se ordenan en orden ascendente según la expresión numérica dada.
 
 **Sintaxis**
 
@@ -119,8 +119,8 @@ La variable `topN` se utiliza para devolver la primera función `N` elementos de
 
 | Argumento | Descripción |
 | --------- | ----------- |
-| `{ARRAY}` | Matriz o lista que se va a ordenar. |
-| `{VALUE}` | La propiedad en la que se va a ordenar la matriz o la lista. |
+| `{ARRAY}` | La matriz o lista que se va a ordenar. |
+| `{VALUE}` | Propiedad en la que se ordena la matriz o lista. |
 | `{AMOUNT}` | Número de elementos que se van a devolver. |
 
 **Ejemplo**
@@ -133,7 +133,7 @@ La siguiente operación devuelve los cinco primeros pedidos con el precio más b
 
 ## En{#in}
 
-La variable `in` para determinar si un elemento es miembro de una matriz o lista.
+El `in` se utiliza para determinar si un elemento es miembro de una matriz o lista.
 
 **Sintaxis**
 
@@ -143,7 +143,7 @@ La variable `in` para determinar si un elemento es miembro de una matriz o lista
 
 **Ejemplo**
 
-La siguiente operación define las personas con cumpleaños en marzo, junio o septiembre.
+La siguiente operación define a las personas con cumpleaños en marzo, junio o septiembre.
 
 ```sql
 {%= in (person.birthMonth, [3, 6, 9]) %}
@@ -151,7 +151,7 @@ La siguiente operación define las personas con cumpleaños en marzo, junio o se
 
 ## Incluye{#includes}
 
-La variable `includes` para determinar si una matriz o lista contiene un elemento determinado.
+El `includes` se utiliza para determinar si una matriz o lista contiene un elemento determinado.
 
 **Sintaxis**
 
@@ -169,7 +169,7 @@ La siguiente operación define a las personas cuyo color favorito incluye el roj
 
 ## Intersecciones{#intersects}
 
-La variable `intersects` se utiliza para determinar si dos matrices o listas tienen al menos un miembro común.
+El `intersects` se utiliza para determinar si dos matrices o listas tienen al menos un miembro común.
 
 **Sintaxis**
 
@@ -179,7 +179,7 @@ La variable `intersects` se utiliza para determinar si dos matrices o listas tie
 
 **Ejemplo**
 
-La siguiente operación define las personas cuyos colores favoritos incluyen al menos uno de rojo, azul o verde.
+La siguiente operación define a las personas cuyos colores favoritos incluyen al menos uno de rojo, azul o verde.
 
 ```sql
 {%= intersects(person.favoriteColors,["red", "blue", "green"]) %}
@@ -205,9 +205,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## Última `n` en matriz{#last-n}
+## Último `n` en matriz{#last-n}
 
-La variable `bottomN` se utiliza para devolver el último `N` elementos de una matriz, cuando se ordenan en orden ascendente según la expresión numérica dada.
+El `bottomN` se utiliza para devolver el último `N` elementos de una matriz, cuando se ordenan en orden ascendente según la expresión numérica dada.
 
 **Sintaxis**
 
@@ -217,8 +217,8 @@ La variable `bottomN` se utiliza para devolver el último `N` elementos de una m
 
 | Argumento | Descripción |
 | --------- | ----------- | 
-| `{ARRAY}` | Matriz o lista que se va a ordenar. |
-| `{VALUE}` | La propiedad en la que se va a ordenar la matriz o la lista. |
+| `{ARRAY}` | La matriz o lista que se va a ordenar. |
+| `{VALUE}` | Propiedad en la que se ordena la matriz o lista. |
 | `{AMOUNT}` | Número de elementos que se van a devolver. |
 
 **Ejemplo**
@@ -229,13 +229,13 @@ La siguiente operación devuelve los últimos cinco pedidos con el precio más a
 {%= bottomN(orders,price, 5) %}
 ```
 
-## Not in{#notin}
+## No en{#notin}
 
-La variable `notIn` para determinar si un elemento no es miembro de una matriz o lista.
+El `notIn` se utiliza para determinar si un elemento no es miembro de una matriz o lista.
 
 >[!NOTE]
 >
->La variable `notIn` function *also* garantiza que ninguno de los dos valores sea igual a nulo. Por lo tanto, los resultados no son una negación exacta del `in` función.
+>El `notIn` función *también* garantiza que ninguno de los valores sea igual a nulo. Por lo tanto, los resultados no son una negación exacta de la `in` función.
 
 **Sintaxis**
 
@@ -245,7 +245,7 @@ La variable `notIn` para determinar si un elemento no es miembro de una matriz o
 
 **Ejemplo**
 
-La siguiente operación define las personas con cumpleaños que no están en marzo, junio o septiembre.
+La siguiente operación define a las personas con cumpleaños que no se celebran en marzo, junio o septiembre.
 
 ```sql
 {%= notIn(person.birthMonth ,[3, 6, 9]) %}
@@ -254,7 +254,7 @@ La siguiente operación define las personas con cumpleaños que no están en mar
 
 ## Subconjunto de{#subset}
 
-La variable `subsetOf` para determinar si una matriz específica (matriz A) es un subconjunto de otra matriz (matriz B). En otras palabras, que todos los elementos de la matriz A son elementos de la matriz B.
+El `subsetOf` se utiliza para determinar si una matriz específica (matriz A) es un subconjunto de otra matriz (matriz B). En otras palabras, que todos los elementos de la matriz A son elementos de la matriz B.
 
 **Sintaxis**
 
@@ -272,7 +272,7 @@ La siguiente operación define a las personas que han visitado todas sus ciudade
 
 ## Superconjunto de{#superset}
 
-La variable `supersetOf` para determinar si una matriz específica (matriz A) es un superconjunto de otra matriz (matriz B). En otras palabras, la matriz A contiene todos los elementos de la matriz B.
+El `supersetOf` se utiliza para determinar si una matriz específica (matriz A) es un superconjunto de otra matriz (matriz B). En otras palabras, esa matriz A contiene todos los elementos de la matriz B.
 
 **Sintaxis**
 

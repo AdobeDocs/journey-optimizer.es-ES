@@ -1,6 +1,6 @@
 ---
 title: Creación de un cualificador de colección
-description: Los calificadores de recopilación le permiten organizar y ordenar mejor sus ofertas.
+description: Los calificadores de colección le permiten organizar y ordenar mejor sus ofertas.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,11 +15,11 @@ ht-degree: 12%
 
 # Creación de un cualificador de colección {#create-tag}
 
-Puede crear un calificador de recopilación (anteriormente conocido como &quot;tag&quot;) realizando una solicitud de POST al [!DNL Offer Library] al proporcionar su ID de contenedor.
+Puede crear un calificador de colección (anteriormente conocido como &quot;etiqueta&quot;) realizando una solicitud de POST a [!DNL Offer Library] API, al tiempo que proporciona su ID de contenedor.
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La tabla siguiente muestra los valores válidos que comprenden el *Content-Type* y *Accept* campos en el encabezado de la solicitud:
+La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* y *Aceptar* campos en el encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -35,7 +35,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | El contenedor donde se encuentran los calificadores de la colección. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | El contenedor donde se encuentran los calificadores de colección. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Solicitud**
 
@@ -55,7 +55,7 @@ curl -X POST \
 
 **Respuesta**
 
-Una respuesta correcta devuelve información sobre el calificador de recopilación recién creado, incluido su ID de instancia única y su ubicación `@id`. Puede utilizar el ID de instancia en pasos posteriores para actualizar o eliminar el calificador de recopilación. Puede usar su calificador de colección único `@id` en tutoriales posteriores para crear colecciones y ofertas personalizadas.
+Una respuesta correcta devuelve información sobre el cualificador de recopilación recién creado, incluido su ID de instancia y ubicación únicos `@id`. Puede usar el ID de instancia en pasos posteriores para actualizar o eliminar el calificador de recopilación. Puede utilizar el calificador de colección único `@id` en tutoriales posteriores para crear colecciones y ofertas personalizadas.
 
 ```json
 {

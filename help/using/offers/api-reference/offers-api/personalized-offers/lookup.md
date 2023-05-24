@@ -1,6 +1,6 @@
 ---
-title: Buscar una oferta personalizada
-description: Una oferta personalizada es un mensaje de marketing personalizable basado en reglas y restricciones de idoneidad.
+title: Búsqueda de una oferta personalizada
+description: Una oferta personalizada es un mensaje de marketing personalizable basado en reglas de elegibilidad y restricciones.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -13,11 +13,11 @@ ht-degree: 3%
 
 ---
 
-# Buscar una oferta personalizada {#look-up-personalized-offer}
+# Búsqueda de una oferta personalizada {#look-up-personalized-offer}
 
-Una oferta personalizada es un mensaje de marketing personalizable basado en reglas y restricciones de idoneidad.
+Una oferta personalizada es un mensaje de marketing personalizable basado en reglas de elegibilidad y restricciones.
 
-Puede buscar ofertas personalizadas específicas realizando una solicitud de GET al [!DNL Offer Library] API que incluye la oferta personalizada `@id` o el nombre de la oferta personalizada en la ruta de solicitud.
+Puede buscar ofertas personalizadas específicas realizando una solicitud de GET a [!DNL Offer Library] API que incluye la oferta personalizada `@id` o el nombre de la oferta personalizada en la ruta de solicitud.
 
 **Formato de API**
 
@@ -28,10 +28,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Contenedor donde se encuentran las ofertas personalizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_PERSONALIZED_OFFER}` | Define el esquema asociado a ofertas personalizadas. | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
-| `id` | Una cadena que se usa para hacer coincidir con la variable `@id` propiedad de las entidades. La cadena coincide exactamente. El parámetro &quot;id&quot; y &quot;name&quot; no se puede usar juntos. | `xcore:personalized-offer:124cc332095cfa74` |
-| `name` | Cadena que se utiliza para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se puede usar juntos | `Discount offer` |
+| `{CONTAINER_ID}` | El contenedor donde se encuentran las ofertas personalizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_PERSONALIZED_OFFER}` | Define el esquema asociado a las ofertas personalizadas. | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
+| `id` | Una cadena utilizada para hacer coincidir el `@id` propiedad de las entidades. La cadena coincide exactamente. Los parámetros &quot;id&quot; y &quot;name&quot; no se pueden usar juntos. | `xcore:personalized-offer:124cc332095cfa74` |
+| `name` | Cadena utilizada para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se pueden usar juntos | `Discount offer` |
 
 **Solicitud**
 
@@ -47,7 +47,7 @@ curl -X GET \
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles de la ubicación, incluida la información sobre el ID del contenedor, el ID de instancia y la oferta personalizada única `@id`.
+Una respuesta correcta devuelve los detalles de la ubicación, incluida la información acerca del ID de contenedor, el ID de instancia y la oferta personalizada única `@id`.
 
 ```json
 {

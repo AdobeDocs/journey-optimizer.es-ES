@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Flujo de trabajo de inicio rápido de la incorporación al dispositivo móvil
-description: Descubra cómo utilizar el flujo de trabajo de inicio rápido de la incorporación al dispositivo móvil
+title: Flujo de trabajo de inicio rápido de incorporación al dispositivo móvil
+description: Aprenda a utilizar el flujo de trabajo de inicio rápido de la incorporación móvil
 topic: Mobile
 feature: Push
 role: Admin
@@ -14,46 +14,46 @@ exl-id: 82477d40-cfea-456b-a7b1-9cfebd76db35
 source-git-commit: 62954221f9797fc4ac7b5e066ffea6f99c17ad45
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
-# Flujo de trabajo de inicio rápido de la incorporación al dispositivo móvil {#mobile-wf}
+# Flujo de trabajo de inicio rápido de incorporación al dispositivo móvil {#mobile-wf}
 
-El nuevo **flujo de trabajo de inicio rápido de la incorporación móvil** es una nueva función de producto para configurar rápidamente el SDK de Adobe Experience Platform Mobile, empezar a recopilar y validar datos de eventos móviles y enviar notificaciones push con [!DNL Journey Optimizer].
+El nuevo **flujo de trabajo de inicio rápido de incorporación móvil** es una nueva función del producto que permite configurar rápidamente el SDK de Adobe Experience Platform Mobile, empezar a recopilar y validar datos de eventos móviles y enviar notificaciones push con [!DNL Journey Optimizer].
 
-Se puede acceder a esta funcionalidad a través de la **[!DNL Adobe Experience Platform Data Collection]** página de inicio para todos los clientes como versión beta pública.
+Se puede acceder a esta funcionalidad a través de la **[!DNL Adobe Experience Platform Data Collection]** a todos los clientes como una versión beta pública.
 
 ## Introducción {#gs-mobile-wf}
 
-Este nuevo flujo de trabajo automatiza la configuración de la recopilación de datos al reducir el número total de clics y acelerar la configuración móvil para Journey Optimizer. Este flujo de trabajo de inicio rápido le guía por cuatro pasos sencillos para [configurar](##setup-mobile-wf), [implementar](#implement-mobile-wf), [validate](#valid-mobile-wf)y [review](#review-mobile-wf) la configuración móvil.
+Este nuevo flujo de trabajo automatiza la configuración de la recopilación de datos al reducir el número total de clics y acelerar la configuración móvil de Journey Optimizer. Este flujo de trabajo de inicio rápido le permite seguir cuatro sencillos pasos para lo siguiente [configurar](##setup-mobile-wf), [implementar](#implement-mobile-wf), [validate](#valid-mobile-wf), y [reseña](#review-mobile-wf) su configuración móvil.
 
-Para acceder al nuevo flujo de trabajo de inicio rápido de la integración móvil, vaya a **[!DNL Data Collection]** del conmutador de soluciones. A continuación, seleccione la **[!DNL Start Collecting Mobile Data]** en la página principal.
+Para acceder al nuevo flujo de trabajo de inicio rápido de la incorporación móvil, vaya a **[!DNL Data Collection]** desde el conmutador de soluciones. A continuación, seleccione la **[!DNL Start Collecting Mobile Data]** en la página de inicio.
 
 ![](assets/mobile-wf-home.png)
 
-A continuación se presentan algunas funciones adicionales:
+A continuación se muestran algunas funciones adicionales:
 
-* Flujo de trabajo de cuatro pasos y interfaz de usuario sencillos.
-* Ofrece una configuración básica para empezar a recopilar datos de eventos móviles a través del [SDK de Adobe Experience Platform Mobile](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} en minutos.
-* Capacidad para probar y validar un evento push móvil básico mediante [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
-* Crea y configura automáticamente todos los recursos necesarios de Recopilación de datos y de Journey Optimizer.
+* Flujo de trabajo de cuatro pasos e interfaz de usuario sencillos.
+* Ofrece una configuración básica para empezar a recopilar datos de evento móviles mediante [SDK de Adobe Experience Platform Mobile](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} en minutos.
+* Capacidad para probar y validar un evento push móvil básico [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
+* Crea y configura automáticamente todos los recursos de recopilación de datos y Journey Optimizer necesarios.
 * En la guía del producto y la información sobre herramientas.
 * Proporciona una transición natural para una implementación más avanzada si es necesario.
 
-## Configuración {#setup-mobile-wf}
+## Configuración de {#setup-mobile-wf}
 
-El primer paso de este flujo de trabajo crea y configura automáticamente toda la recopilación de datos necesaria y los recursos de Journey Optimizer, como las propiedades móviles, las extensiones móviles, la extensión de Journey Optimizer, las reglas, los elementos de datos, etc.
+El primer paso de este flujo de trabajo crea y configura automáticamente todos los recursos de recopilación de datos y Journey Optimizer necesarios, como propiedades móviles, extensiones móviles, extensión de Journey Optimizer, reglas, elementos de datos, etc.
 
-Tras aceptar los términos y condiciones de la versión beta, introduzca el nombre de su aplicación móvil y haga clic en **[!DNL Next]**.
+Tras aceptar los Términos y condiciones de la versión beta, introduzca el nombre de su aplicación móvil y haga clic en **[!DNL Next]**.
 
 ![](assets/mobile-wf-setup.png)
 
-Proporcione información para las plataformas iOS y Android, incluido su ID de aplicación y claves de autenticación o archivo clave.
+Proporcione información para las plataformas iOS y Android, incluido su ID de aplicación y las claves de autenticación o archivo de clave.
 
 ## Implementación{#implement-mobile-wf}
 
-El paso siguiente proporciona instrucciones paso a paso para instalar el código en la aplicación móvil.
+El siguiente paso proporciona instrucciones paso a paso para instalar el código en la aplicación móvil.
 
 ![](assets/mobile-wf-add-code.png)
 
@@ -67,7 +67,7 @@ Revise y compruebe la implementación para validarla. Puede enviar una notificac
 
 ## Consulte {#review-mobile-wf}
 
-La configuración automatizada ha finalizado. Ahora puede visitar la propiedad móvil de la etiqueta y configurar las reglas o el elemento de datos, así como empezar a enviar notificaciones push con Adobe Journey Optimizer.
+La configuración automatizada ha finalizado. Ahora puede visitar la propiedad móvil de la etiqueta, configurar las reglas o el elemento de datos y empezar a enviar notificaciones push con Adobe Journey Optimizer.
 
 ![](assets/mobile-wf-done.png)
 

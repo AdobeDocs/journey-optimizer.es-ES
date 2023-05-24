@@ -17,11 +17,11 @@ ht-degree: 11%
 
 ## Funciones booleanas {#boolean-functions}
 
-Las funciones booleanas se utilizan para realizar lógicas booleanas en distintos elementos.
+Las funciones booleanas se utilizan para realizar lógica booleana en diferentes elementos.
 
 ### Y{#and}
 
-La variable `and` para crear una conjunción lógica.
+El `and` se utiliza para crear una conjunción lógica.
 
 **Sintaxis**
 
@@ -31,7 +31,7 @@ La variable `and` para crear una conjunción lógica.
 
 **Ejemplo**
 
-La siguiente operación devolverá a todas las personas con el país de origen como Francia y el año de nacimiento de 1985.
+La siguiente operación devolverá a todas las personas con país de origen como Francia y año de nacimiento de 1985.
 
 ```sql
 {%= profile.homeAddress.country = "France" and profile.person.birthYear = 1985 %}
@@ -39,7 +39,7 @@ La siguiente operación devolverá a todas las personas con el país de origen c
 
 ### O{#or}
 
-La variable `or` para crear una disyunción lógica.
+El `or` se utiliza para crear una disyunción lógica.
 
 **Sintaxis**
 
@@ -49,7 +49,7 @@ La variable `or` para crear una disyunción lógica.
 
 **Ejemplo**
 
-La siguiente operación devolverá a todas las personas que tengan un país de origen como Francia o el año de nacimiento de 1985.
+La siguiente operación devolverá a todas las personas con país de origen como Francia o año de nacimiento de 1985.
 
 ```sql
 {%= profile.homeAddress.country = "France" or profile.person.birthYear = 1985 %}
@@ -78,11 +78,11 @@ not (homeAddress.countryISO = "CA")
 
 ## Funciones de comparación {#comparison-functions}
 
-Las funciones de comparación se utilizan para comparar diferentes expresiones y valores, devolviendo true o false en consecuencia.
+Las funciones de comparación se utilizan para comparar entre diferentes expresiones y valores, lo que devuelve true o false en consecuencia.
 
 ### Es igual a{#equals}
 
-La variable `=` (es igual que) comprueba si un valor o expresión es igual a otro valor o expresión.
+El `=` La función (es igual que) comprueba si un valor o expresión es igual a otro valor o expresión.
 
 **Sintaxis**
 
@@ -92,7 +92,7 @@ La variable `=` (es igual que) comprueba si un valor o expresión es igual a otr
 
 **Ejemplo**
 
-La siguiente operación comprueba si el país de dirección es Francia.
+La siguiente operación comprueba si el país de la dirección postal es Francia.
 
 ```sql
 {%= profile.homeAddress.country = "France" %}
@@ -100,7 +100,7 @@ La siguiente operación comprueba si el país de dirección es Francia.
 
 ### Distinto a{#notequal}
 
-La variable `!=` función (no igual) comprueba si hay un valor o expresión **not** igual a otro valor o expresión.
+El `!=` La función (no es igual) comprueba si un valor o expresión es **no** es igual a otro valor o expresión.
 
 **Sintaxis**
 
@@ -110,7 +110,7 @@ La variable `!=` función (no igual) comprueba si hay un valor o expresión **no
 
 **Ejemplo**
 
-La siguiente operación comprueba si el país de la dirección principal no es Francia.
+La siguiente operación comprueba si el país de la dirección postal no es Francia.
 
 ```sql
 {%= profile.homeAddress.country != "France" %}
@@ -118,7 +118,7 @@ La siguiente operación comprueba si el país de la dirección principal no es F
 
 ### Greater than{#greaterthan}
 
-La variable `>` (bueno que) se utiliza para comprobar si el primer valor es bueno que el segundo valor.
+El `>` (bueno que) se utiliza para comprobar si el primer valor es bueno que el segundo valor.
 
 **Sintaxis**
 
@@ -136,7 +136,7 @@ La siguiente operación define a las personas nacidas estrictamente después de 
 
 ### Mayor o igual que{#greaterthanorequal}
 
-La variable `>=` (buena o igual que) se utiliza para comprobar si el primer valor es bueno o igual al segundo valor.
+El `>=` (bueno o igual que) se utiliza para comprobar si el primer valor es bueno o igual que el segundo valor.
 
 **Sintaxis**
 
@@ -146,7 +146,7 @@ La variable `>=` (buena o igual que) se utiliza para comprobar si el primer valo
 
 **Ejemplo**
 
-La siguiente operación define a las personas nacidas en 1970 o después de 1970.
+La siguiente operación define a las personas nacidas en o después de 1970.
 
 ```sql
 {%= profile.person.birthYear >= 1970 %}
@@ -154,7 +154,7 @@ La siguiente operación define a las personas nacidas en 1970 o después de 1970
 
 ### Menos de{#lessthan}
 
-La variable `<` (menor que) para comprobar si el primer valor es menor que el segundo valor.
+El `<` (menor que) se utiliza la función de comparación para comprobar si el primer valor es menor que el segundo valor.
 
 **Sintaxis**
 
@@ -164,7 +164,7 @@ La variable `<` (menor que) para comprobar si el primer valor es menor que el se
 
 **Ejemplo**
 
-La siguiente operación define a las personas nacidas antes de 2000.
+La siguiente operación define a las personas nacidas antes del año 2000.
 
 ```sql
 {%= profile.person.birthYear < 2000 %}
@@ -172,7 +172,7 @@ La siguiente operación define a las personas nacidas antes de 2000.
 
 ### Less than or equal to{#lessthanorequal}
 
-La variable `<=` (menor o igual que) se utiliza la función de comparación para comprobar si el primer valor es menor o igual que el segundo valor.
+El `<=` (menor o igual que) se utiliza para comprobar si el primer valor es menor o igual que el segundo valor.
 
 **Sintaxis**
 

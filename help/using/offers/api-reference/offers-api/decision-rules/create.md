@@ -1,6 +1,6 @@
 ---
 title: Crear una regla de decisión
-description: Las reglas de decisión son restricciones agregadas a una oferta personalizada y aplicadas a un perfil para determinar la idoneidad.
+description: Las reglas de decisión son restricciones agregadas a una oferta personalizada y aplicadas a un perfil para determinar la elegibilidad.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,11 +15,11 @@ ht-degree: 12%
 
 # Crear una regla de decisión {#create-decision-rule}
 
-Las reglas de decisión son restricciones agregadas a una oferta personalizada y aplicadas a un perfil para determinar la idoneidad.
+Las reglas de decisión son restricciones agregadas a una oferta personalizada y aplicadas a un perfil para determinar la elegibilidad.
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La tabla siguiente muestra los valores válidos que comprenden el *Content-Type* y *Accept* campos en el encabezado de la solicitud:
+La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* y *Aceptar* campos en el encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -35,7 +35,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Contenedor donde se encuentran las reglas de decisión. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | El contenedor donde se encuentran las reglas de decisión. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Solicitud**
 
@@ -72,7 +72,7 @@ curl -X POST \
 
 **Respuesta**
 
-Una respuesta correcta devuelve información sobre la regla de decisión recién creada, incluido su ID de instancia única y su ubicación `@id`. Puede utilizar el ID de instancia en pasos posteriores para actualizar o eliminar la regla de decisión. Puede usar su regla de decisión única `@id` en un tutorial posterior para crear ofertas personalizadas.
+Una respuesta correcta devuelve información sobre la regla de decisión recién creada, incluido su ID de instancia y ubicación únicos `@id`. Puede utilizar el ID de instancia en pasos posteriores para actualizar o eliminar la regla de decisión. Puede utilizar la regla de decisión única `@id` en un tutorial posterior para crear ofertas personalizadas.
 
 ```json
 {

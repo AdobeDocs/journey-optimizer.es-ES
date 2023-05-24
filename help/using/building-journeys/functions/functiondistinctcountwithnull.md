@@ -47,7 +47,7 @@ Agregación
 
 `distinctCountWithNull(<listAny>)`
 
-Devuelve un número entero.
+Devuelve un entero.
 
 ## Ejemplo
 

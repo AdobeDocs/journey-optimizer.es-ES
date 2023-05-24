@@ -1,6 +1,6 @@
 ---
-title: Actualizar las reglas de decisión
-description: Las reglas de decisión son restricciones agregadas a una oferta personalizada y aplicadas a un perfil para determinar la idoneidad.
+title: Actualizar reglas de decisión
+description: Las reglas de decisión son restricciones agregadas a una oferta personalizada y aplicadas a un perfil para determinar la elegibilidad.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,13 +15,13 @@ ht-degree: 9%
 
 # Actualizar una regla de decisión {#update-decision-rule}
 
-Puede modificar o actualizar las reglas de decisión en el contenedor realizando una solicitud de PATCH al [!DNL Offer Library] API.
+Puede modificar o actualizar las reglas de decisión en su contenedor realizando una solicitud de PATCH a [!DNL Offer Library] API.
 
-Para obtener más información sobre JSON Patch, incluidas las operaciones disponibles, consulte la [Documentación de parches JSON](http://jsonpatch.com/).
+Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte el [Documentación de parches de JSON](http://jsonpatch.com/).
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La tabla siguiente muestra los valores válidos que comprenden el *Content-Type* y *Accept* campos en el encabezado de la solicitud:
+La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* y *Aceptar* campos en el encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -37,8 +37,8 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Contenedor donde se encuentran las reglas de decisión. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | ID de instancia de la regla de decisión que desea actualizar. | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
+| `{CONTAINER_ID}` | El contenedor donde se encuentran las reglas de decisión. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | El ID de instancia de la regla de decisión que desea actualizar. | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
 
 **Solicitud**
 
@@ -62,13 +62,13 @@ curl -X PATCH \
 
 | Parámetro | Descripción |
 | --------- | ----------- |
-| `op` | La llamada de operación utilizada para definir la acción necesaria para actualizar la conexión. Las operaciones incluyen: `add`, `replace`y `remove`. |
+| `op` | La llamada de operación utilizada para definir la acción necesaria para actualizar la conexión. Las operaciones incluyen: `add`, `replace`, y `remove`. |
 | `path` | Ruta del parámetro que se va a actualizar. |
 | `value` | El nuevo valor con el que desea actualizar el parámetro. |
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles actualizados de la regla de decisión, incluido su ID de instancia única y la regla de decisión `@id`.
+Una respuesta correcta devuelve los detalles actualizados de la regla de decisión, incluidos su ID de instancia único y la regla de decisión `@id`.
 
 ```json
 {

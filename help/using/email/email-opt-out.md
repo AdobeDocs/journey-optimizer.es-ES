@@ -7,7 +7,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: exclusión, correo electrónico, vínculo, cancelar suscripción
+keywords: exclusión, correo electrónico, vínculo, cancelación de suscripción
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
@@ -18,15 +18,15 @@ ht-degree: 83%
 
 # Administración de exclusión de correo electrónico {#email-opt-out}
 
-Para proporcionar a los destinatarios la capacidad de cancelar la suscripción a la recepción de comunicaciones por correo electrónico, siempre debe incluir un **cancelar suscripción** en cada correo electrónico enviado a los destinatarios. [Obtenga más información sobre la administración de privacidad y exclusión](../privacy/opt-out.md)
+Para proporcionar a los destinatarios la capacidad de cancelar la suscripción a la recepción de comunicaciones por correo electrónico, siempre debe incluir un **vínculo de cancelación de suscripción** en cada correo electrónico enviado a los destinatarios. [Más información sobre la administración de la privacidad y la exclusión](../privacy/opt-out.md)
 
 Para ello, puede hacer lo siguiente:
 
-* Insertar un **vínculo a una página de aterrizaje externa** en un correo electrónico para permitir a los usuarios cancelar la suscripción de recibir comunicaciones de su marca. [Aprenda a añadir un vínculo de no participación externo](#opt-out-external-lp)
+* Inserte una **vínculo a una página de aterrizaje externa** en un correo electrónico para permitir a los usuarios cancelar la suscripción y evitar recibir comunicaciones de su marca. [Obtenga información sobre cómo añadir un vínculo de no participación externo](#opt-out-external-lp)
 
-* Agregue un **vínculo de exclusión con un solo clic** en el contenido del correo electrónico. Este vínculo permite a los destinatarios cancelar la suscripción rápidamente a sus comunicaciones, sin que se les redirija a una página de aterrizaje en la que tengan que confirmar la exclusión, lo que acelera el proceso de cancelación de la suscripción. [Aprenda a añadir un vínculo de no participación de un clic](#one-click-opt-out)
+* Añadir un **vínculo de no participación de un clic** en el contenido del correo electrónico. Este vínculo permite a los destinatarios cancelar la suscripción rápidamente a sus comunicaciones, sin que se les redirija a una página de aterrizaje en la que tengan que confirmar la exclusión, lo que acelera el proceso de cancelación de la suscripción. [Obtenga información sobre cómo añadir un vínculo de no participación de un clic](#one-click-opt-out)
 
-Además, si la variable **[!UICONTROL Cancelación de suscripción a una lista]** está activada en el nivel de superficie del canal, los correos electrónicos correspondientes enviados con Journey Optimizer incluirán un vínculo de cancelación de suscripción en el encabezado del correo electrónico. [Obtenga más información sobre la exclusión en el encabezado de correo electrónico](#unsubscribe-header)
+Además, si la variable **[!UICONTROL Cancelación de suscripción a lista]** está activada en el nivel de superficie de canal, los correos electrónicos correspondientes enviados con Journey Optimizer incluirán un vínculo de cancelación de suscripción en el encabezado del correo electrónico. [Obtenga más información sobre la exclusión en el encabezado del correo electrónico](#unsubscribe-header)
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Primero debe agregar el vínculo &quot;Cancelar la suscripción&quot; a un mensa
 
 ### Implementación de una llamada de API para la exclusión {#opt-out-api}
 
-Para que los destinatarios se excluyan cuando envíen su elección desde la página de aterrizaje, debe implementar una **Llamada de API de suscripción** hasta [Adobe Developer](https://developer.adobe.com){target="_blank"} para actualizar las preferencias de los perfiles correspondientes.
+Para que los destinatarios se excluyan cuando envíen su elección desde la página de aterrizaje, debe implementar un **Llamada de API de suscripción** mediante [Adobe Developer](https://developer.adobe.com){target="_blank"} para actualizar las preferencias de los perfiles correspondientes.
 
 Esta llamada de POST es como sigue:
 
@@ -98,7 +98,7 @@ Cuerpo de la solicitud:
 }
 ```
 
-[!DNL Journey Optimizer] utilizará estos parámetros para actualizar la elección del perfil correspondiente mediante la variable [Adobe Developer](https://developer.adobe.com){target="_blank"} Llamada de API.
+[!DNL Journey Optimizer] utilizará estos parámetros para actualizar la elección del perfil correspondiente a través de la variable [Adobe Developer](https://developer.adobe.com){target="_blank"} Llamada de API.
 
 ### Enviar el mensaje con el vínculo &quot;Cancelar la suscripción&quot; {#send-message-unsubscribe-link}
 

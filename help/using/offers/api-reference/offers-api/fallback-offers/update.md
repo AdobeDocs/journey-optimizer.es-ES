@@ -15,13 +15,13 @@ ht-degree: 11%
 
 # Actualizar una oferta de reserva {#update-fallback-offer}
 
-Puede modificar o actualizar una oferta de reserva en el contenedor realizando una solicitud de PATCH al [!DNL Offer Library] API.
+Puede modificar o actualizar una oferta de reserva en el contenedor realizando una solicitud del PATCH a [!DNL Offer Library] API.
 
-Para obtener más información sobre JSON Patch, incluidas las operaciones disponibles, consulte la [Documentación de parches JSON](http://jsonpatch.com/).
+Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte el [Documentación de parches de JSON](http://jsonpatch.com/).
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La tabla siguiente muestra los valores válidos que comprenden el *Content-Type* y *Accept* campos en el encabezado de la solicitud:
+La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* y *Aceptar* campos en el encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -38,7 +38,7 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Contenedor donde se encuentran las ofertas de reserva. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | ID de instancia de la oferta de reserva. | `b3966680-13ec-11eb-9c20-8323709cfc65` |
+| `{INSTANCE_ID}` | El ID de instancia de la oferta de reserva. | `b3966680-13ec-11eb-9c20-8323709cfc65` |
 
 **Solicitud**
 
@@ -62,13 +62,13 @@ curl -X PATCH \
 
 | Parámetro | Descripción |
 | --------- | ----------- |
-| `op` | La llamada de operación utilizada para definir la acción necesaria para actualizar la conexión. Las operaciones incluyen: `add`, `replace`y `remove`. |
+| `op` | La llamada de operación utilizada para definir la acción necesaria para actualizar la conexión. Las operaciones incluyen: `add`, `replace`, y `remove`. |
 | `path` | Ruta del parámetro que se va a actualizar. |
 | `value` | El nuevo valor con el que desea actualizar el parámetro. |
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles actualizados de la oferta de reserva, incluyendo su ID de instancia única y su oferta de reserva `@id`.
+Una respuesta correcta devuelve los detalles actualizados de la oferta de reserva, incluidos su ID de instancia único y la oferta de reserva `@id`.
 
 ```json
 {

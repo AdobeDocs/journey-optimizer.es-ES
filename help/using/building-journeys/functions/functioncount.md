@@ -5,7 +5,7 @@ description: Obtenga información sobre el recuento de funciones
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: count, function, expression, recorrido
+keywords: recuento, función, expresión, recorrido
 exl-id: 6980c1ec-3afd-4fc9-ae10-76bcf7364a04
 source-git-commit: ad113c0414b20ac2f758ad06a44315b24a3d3d0c
 workflow-type: tm+mt
@@ -43,7 +43,7 @@ Agregación
 
 `count(<listAny>)`
 
-Devuelve un número entero.
+Devuelve un entero.
 
 ## Ejemplo
 

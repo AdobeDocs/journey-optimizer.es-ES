@@ -15,13 +15,13 @@ ht-degree: 9%
 
 # Actualizar una decisión {#update-decision}
 
-Puede modificar o actualizar una decisión en el contenedor realizando una solicitud de PATCH al [!DNL Offer Library] API.
+Puede modificar o actualizar una decisión en el contenedor realizando una solicitud de PATCH a [!DNL Offer Library] API.
 
-Para obtener más información sobre JSON Patch, incluidas las operaciones disponibles, consulte la [Documentación de parches JSON](http://jsonpatch.com/).
+Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte el [Documentación de parches de JSON](http://jsonpatch.com/).
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La tabla siguiente muestra los valores válidos que comprenden el *Content-Type* y *Accept* campos en el encabezado de la solicitud:
+La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* y *Aceptar* campos en el encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -37,8 +37,8 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Contenedor donde se encuentran las decisiones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | ID de instancia de la decisión. | `f88c9be0-1245-11eb-8622-b77b60702882` |
+| `{CONTAINER_ID}` | El contenedor en el que se encuentran las decisiones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | El ID de instancia de la decisión. | `f88c9be0-1245-11eb-8622-b77b60702882` |
 
 **Solicitud**
 
@@ -62,7 +62,7 @@ curl -X PATCH \
 
 | Parámetro | Descripción |
 | --------- | ----------- |
-| `op` | La llamada de operación utilizada para definir la acción necesaria para actualizar la conexión. Las operaciones incluyen: `add`, `replace`y `remove`. |
+| `op` | La llamada de operación utilizada para definir la acción necesaria para actualizar la conexión. Las operaciones incluyen: `add`, `replace`, y `remove`. |
 | `path` | Ruta del parámetro que se va a actualizar. |
 | `value` | El nuevo valor con el que desea actualizar el parámetro. |
 

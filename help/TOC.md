@@ -6,7 +6,7 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 100%
 
@@ -188,7 +188,7 @@ ht-degree: 100%
             + [Trabajar con Adobe Stock](using/email/stock.md)
          + [Inserción de ofertas personalizadas](using/email/add-offers-email.md)
          + [Generar la versión de texto](using/email/text-version-email.md)
-         + [Añadir un encabezado previo](using/email/preheader.md)
+         + [Añadir un preencabezado](using/email/preheader.md)
       + Editar estilo {#edit-style}
          + [Introducción al diseño de correo electrónico](using/email/get-started-email-style.md)
          + [Editar configuración de fondo](using/email/backgrounds.md)

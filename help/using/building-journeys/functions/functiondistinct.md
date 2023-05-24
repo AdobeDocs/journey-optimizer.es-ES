@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: distinct
-description: Obtenga información sobre la función distinta
+description: Obtenga información acerca de la función distinct
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: distinct, function, expression, recorrido
+keywords: distinct, función, expresión, recorrido
 exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 # distinct {#distinct}
 
-Devuelve los valores u objetos distintos de una lista determinada. Se omiten las entradas nulas.
+Devuelve los distintos valores u objetos de una lista determinada. Las entradas nulas se omiten.
 
 >[!NOTE]
 >
@@ -53,11 +53,11 @@ Devuelve una lista de cadenas.
 
 `distinct(<listDateTimeOnly>)`
 
-Devuelve una lista de tiempos de datos sin tener en cuenta la zona horaria.
+Devuelve una lista de horas de fecha sin tener en cuenta la zona horaria.
 
 `distinct(<listDateTime>)`
 
-Devuelve una lista de tiempos de datos.
+Devuelve una lista de fechas y horas.
 
 `distinct(<listDateOnly>)`
 
@@ -65,7 +65,7 @@ Devuelve una lista de fechas.
 
 `distinct(<listBoolean>)`
 
-Devuelve una lista de booleanos.
+Devuelve una lista de valores booleanos.
 
 `distinct(<listDuration>)`
 

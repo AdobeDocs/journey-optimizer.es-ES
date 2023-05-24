@@ -12,7 +12,7 @@ exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 8%
+ht-degree: 82%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 8%
 En cuanto a la configuración de fondos con el Diseñador de correo electrónico, Adobe recomienda lo siguiente:
 
 1. Aplique un color de fondo al cuerpo del correo electrónico si lo requiere el diseño.
-1. Normalmente, defina los colores de fondo en el nivel de columna.
+1. Normalmente, se deben definir los colores de fondo al nivel de columna.
 1. Intente no utilizar colores de fondo en componentes de imagen o texto, ya que son difíciles de administrar.
 
 A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
-* Configure un **[!UICONTROL Color de fondo]** para todo el correo electrónico. Asegúrese de seleccionar la configuración de cuerpo en el árbol de navegación accesible desde la paleta izquierda.
+* Configure un **[!UICONTROL Color de fondo]** para todo el correo electrónico. Asegúrese de seleccionar la configuración del cuerpo en el árbol de navegación accesible desde la paleta izquierda.
 
    ![](assets/background_1.png)
 
@@ -39,17 +39,17 @@ A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
    ![](assets/background_2.png)
 
-* Defina un color de fondo diferente para cada componente de estructura. Seleccione una estructura del árbol de navegación accesible desde la paleta izquierda para aplicar un color de fondo específico solo a esa estructura.
+* Defina un color de fondo diferente para cada componente de estructura. Seleccione una estructura en el árbol de navegación accesible desde la paleta izquierda para aplicar un color de fondo específico únicamente a esa estructura.
 
-   Asegúrese de no establecer un color de fondo de ventanilla móvil, ya que podría ocultar los colores de fondo de la estructura.
+   Asegúrese de no establecer un color de fondo de ventanilla, ya que podría ocultar los colores de fondo de la estructura.
 
    ![](assets/background_3.png)
 
-* Configure un **[!UICONTROL Imagen de fondo]** para el contenido de un componente de estructura.
+* Configure una **[!UICONTROL Imagen de fondo]** para el contenido de un componente de estructura.
 
    >[!NOTE]
    >
-   >Algunos programas de correo electrónico no admiten imágenes de fondo. Cuando no se admita, se utilizará el color de fondo de fila. Asegúrese de seleccionar un color de fondo alternativo adecuado en caso de que la imagen no se pueda mostrar.
+   >Algunos programas de correo electrónico no admiten imágenes de fondo. Si no se admite, se utilizará en su lugar el color de fondo de la fila. Asegúrese de seleccionar un color de fondo alternativo adecuado en caso de que la imagen no se pueda mostrar.
 
    ![](assets/background_4.png)
 

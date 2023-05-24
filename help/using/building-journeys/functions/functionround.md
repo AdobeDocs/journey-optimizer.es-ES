@@ -5,7 +5,7 @@ description: Obtenga información sobre la ronda de funciones
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: round, función, expresión, recorrido
+keywords: round, function, expression, recorrido
 exl-id: b9d5fd2f-9c7f-4811-b34f-23ce1d2c833f
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 # round {#round}
 
-Devuelve el valor entero más cercano al argumento con vínculos redondeados al infinito positivo.
+Devuelve el valor entero más cercano al argumento con vínculos de redondeo al infinito positivo.
 
 ## Categoría
 

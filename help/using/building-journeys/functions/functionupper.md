@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: upper
-description: Obtenga información sobre la función superior
+description: Obtenga información acerca de la función superior
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: upper, función, expresión, recorrido
+keywords: upper, function, expression, recorrido
 exl-id: 09e11d52-2d52-4479-b67f-6dd53b00a861
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 15%
 
 # upper {#upper}
 
-Devuelve una versión en mayúsculas del parámetro .
+Devuelve una versión en mayúsculas del parámetro.
 
 ## Categoría
 
@@ -30,7 +30,7 @@ Cadena
 
 `upper(<string>)`
 
-Devuelve una cadena.
+Devolver una cadena.
 
 ## Ejemplo
 

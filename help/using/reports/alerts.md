@@ -17,18 +17,18 @@ ht-degree: 6%
 
 # Introducción a las alertas {#alerts}
 
-Journey Optimizer aprovecha las funciones de alerta de Adobe Experience Platform. Esto le permite acceder a las alertas del sistema a través de la interfaz de usuario. Puede ver las alertas disponibles y suscribirse a ellas.
+Journey Optimizer aprovecha las funcionalidades de alerta de Adobe Experience Platform. Esto le permite acceder a las alertas del sistema a través de la interfaz de usuario. Puede ver las alertas disponibles y suscribirse a ellas.
 
-Cuando se alcanza un determinado conjunto de condiciones en sus operaciones (por ejemplo, un problema potencial cuando el sistema supera un umbral), los mensajes de alerta se envían a cualquier usuario de su organización que se haya suscrito a ellos. Estos mensajes se pueden repetir durante un intervalo de tiempo predefinido hasta que se haya resuelto la alerta.
+Cuando se alcanza un determinado conjunto de condiciones en las operaciones (como un problema potencial cuando el sistema incumple un umbral), los mensajes de alerta se envían a cualquier usuario de la organización que se haya suscrito a ellos. Estos mensajes se pueden repetir a lo largo de un intervalo de tiempo predefinido hasta que se haya resuelto la alerta.
 
-Obtenga más información sobre las alertas en Adobe Experience Platform [documentación](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=es).
-Para obtener información sobre cómo suscribirse a las alertas y configurarlas, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
+Más información sobre las alertas en Adobe Experience Platform [documentación](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=es).
+Para obtener información sobre cómo suscribirse a alertas y configurarlas, consulte esta sección [página](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
 
 >[!AVAILABILITY]
 >
->Algunos cambios de diseño están en curso para la alerta &quot;Leer Déclencheur de segmento no se ha realizado correctamente&quot;, por lo que esta alerta está en pausa por ahora y se ha eliminado temporalmente de la interfaz de usuario. Una vez que se publiquen estos cambios, la alerta volverá a aparecer y podrá suscribirse a ella.
+>Algunos cambios de diseño están en curso para la alerta ‘Leer Déclencheur de segmentos no ha funcionado’, por lo que esta alerta está en pausa por ahora y se ha eliminado temporalmente de la interfaz de usuario. Una vez lanzados estos cambios, la alerta vuelve a aparecer y usted puede suscribirse a ella.
 
-En el menú de la izquierda, debajo de **Administración**, haga clic en **Alertas**.
+En el menú de la izquierda, debajo de **Administration**, haga clic en **Alertas**.
 
 <!--A pre-configured alert for Journey Optimizer is available. This alert will warn you if a read segment node has not processed any profile during the defined time frame.
 
@@ -39,7 +39,7 @@ Si se produce un comportamiento inesperado, se envía una notificación de alert
 <!--![](assets/alerts2.png)-->
 
 
-When [visualización de reglas de alerta en la interfaz de usuario de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), puede suscribirse a cada regla individualmente. Al suscribirse a alertas mediante [Notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)sin embargo, las reglas de alerta están organizadas en diferentes paquetes de suscripción.
+Cuándo [ver las reglas de alerta en la IU de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), puede suscribirse a cada regla individualmente. Al suscribirse a alertas mediante [Notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)Sin embargo, las reglas de alerta están organizadas en diferentes paquetes de suscripción.
 
 <!--The I/O event subscription name corresponding to the Read segment alert is: "Journey read segment Delays, Failures and Errors".
 

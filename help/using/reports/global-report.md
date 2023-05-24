@@ -15,23 +15,23 @@ ht-degree: 1%
 
 ---
 
-# Introducción al informe global {#global-report}
+# Introducción al Informe global {#global-report}
 
 >[!NOTE]
 >
-> Si las consultas personalizadas se realizan a través de API al utilizar el servicio de Consulta, espere un cierto retraso para los informes.
+> Si las consultas personalizadas se realizan mediante API al utilizar el servicio de consulta, espere algún retraso para los informes.
 
-Utilice la variable **[!UICONTROL Informe global]** para medir el impacto de los recorridos y envíos durante un período de tiempo seleccionado.
+Utilice el **[!UICONTROL Informe global]** para medir el impacto de los recorridos y envíos durante un periodo seleccionado.
 
-* Si desea dirigirse a un recorrido o envíos en el contexto de un recorrido, desde el **[!UICONTROL Recorridos]** , acceda al recorrido y haga clic en el botón **[!UICONTROL Ver informe]** botón. A continuación, puede encontrar los informes globales Recorrido, Correo electrónico, SMS y Push .
+* Si desea dirigirse a un recorrido o envíos en el contexto de un recorrido, desde el **[!UICONTROL Recorridos]** , acceda al recorrido y haga clic en el **[!UICONTROL Ver informe]** botón. A continuación, puede encontrar los informes globales Recorrido, Correo electrónico, SMS y Push.
 
    ![](assets/report_journey.png)
 
-* Si desea dirigir una campaña, desde la **[!UICONTROL Campañas]** , acceda a la campaña y haga clic en el botón **[!UICONTROL Informes]** botón.
+* Si desea dirigirse a una campaña, en el **[!UICONTROL Campañas]** , acceda a la campaña y haga clic en **[!UICONTROL Informes]** botón.
 
    ![](assets/report_campaign.png)
 
-* Si desea cambiar del **[!UICONTROL Informe activo]** a **[!UICONTROL Informe global]** para la entrega, haga clic en **[!UICONTROL Todo]** del conmutador de pestañas.
+* Si desea cambiar de la **[!UICONTROL Informe en vivo]** a la **[!UICONTROL Informe global]** para la entrega, haga clic en **[!UICONTROL Siempre]** en el conmutador de pestañas.
 
    ![](assets/report_5.png)
 
@@ -39,19 +39,19 @@ Para obtener una lista detallada de todas las métricas disponibles en Adobe Jou
 
 ## Personalizar tablero {#modify-dashboard}
 
-Cada tablero de informes se puede modificar cambiando el período de tiempo y cambiando el tamaño o eliminando las utilidades. Cambiar las utilidades solo afecta al tablero del usuario actual. Otros usuarios verán sus propios tableros o los que estén configurados de forma predeterminada.
+Para modificar cada tablero de informes, cambie el período de tiempo y cambie el tamaño o elimine los widgets. Cambiar los widgets solo afecta al tablero del usuario actual. Otros usuarios verán sus propios tableros o los establecidos de forma predeterminada.
 
-1. En el informe Global , seleccione una Hora de inicio y una de finalización para dirigirse a datos específicos.
+1. En el informe global, seleccione una hora de inicio y otra de finalización para segmentar datos específicos.
 
    ![](assets/report_modify_1.png)
 
 1. Elija si desea excluir los eventos de prueba de los informes con la barra de alternancia. Para obtener más información sobre los eventos de prueba, consulte [esta página](../building-journeys/testing-the-journey.md).
 
-   Tenga en cuenta que **[!UICONTROL Excluir eventos de prueba]** solo está disponible para informes de Recorrido.
+   Tenga en cuenta que la variable **[!UICONTROL Excluir eventos de prueba]** Esta opción solo está disponible para informes de Recorrido.
 
    ![](assets/report_modify_2.png)
 
-1. Haga clic en **[!UICONTROL Modificar]** para comenzar a personalizar el tablero.
+1. Clic **[!UICONTROL Modificar]** para empezar a personalizar el tablero.
 
    ![](assets/report_modify_3.png)
 
@@ -59,31 +59,31 @@ Cada tablero de informes se puede modificar cambiando el período de tiempo y ca
 
    ![](assets/report_modify_4.png)
 
-1. Haga clic en **[!UICONTROL Eliminar]** para quitar cualquier utilidad que no necesite.
+1. Clic **[!UICONTROL Eliminar]** para eliminar cualquier widget que no necesite.
 
    ![](assets/report_modify_5.png)
 
-1. Una vez que esté satisfecho con el orden de visualización y el tamaño de sus widgets, haga clic en **[!UICONTROL Guardar]**.
+1. Cuando esté satisfecho con el orden de visualización y el tamaño de los widgets, haga clic en **[!UICONTROL Guardar]**.
 
-1. Para personalizar la forma en que se muestran los datos, puede cambiar de distintas opciones de visualización, como gráficos, tablas y gráficos circulares.
+1. Para personalizar la forma en que se muestran los datos, puede cambiar entre distintas opciones de visualización, como gráficos, tablas y gráficos circulares.
 
    ![](assets/report_modify_10.png)
 
-El tablero se ha guardado. Los diferentes cambios se volverán a aplicar para un uso posterior de los informes activos. Si es necesario, use la variable **[!UICONTROL Restablecer]** para restaurar el orden predeterminado de las utilidades y utilidades.
+El tablero se ha guardado. Los diferentes cambios se volverán a aplicar para un uso posterior de los informes activos. Si es necesario, utilice el **[!UICONTROL Restablecer]** para restaurar el orden predeterminado de los widgets y widgets.
 
 ## Exportación de informes {#export-reports}
 
-Puede exportar fácilmente los distintos informes al formato de PDF, lo que le permite compartirlos o imprimirlos.
+Los distintos informes se pueden exportar fácilmente al formato de PDF, lo que permite compartirlos o imprimirlos.
 
 1. En el informe, haga clic en **[!UICONTROL Exportar]**.
 
    ![](assets/export_1.png)
 
-1. Desde la ventana Imprimir, configure el documento según sea necesario. Tenga en cuenta que las opciones pueden variar según el explorador.
+1. En la ventana Imprimir, configure el documento según sea necesario. Tenga en cuenta que las opciones pueden variar según el explorador.
 
 1. Elija imprimir o guardar el informe como PDF.
 
-1. Busque la carpeta en la que desea guardar el archivo, cambie el nombre si es necesario y haga clic en Guardar.
+1. Busque la carpeta en la que desea guardar el archivo, cambie su nombre si es necesario y haga clic en Guardar.
 
 El informe ya está disponible para su visualización o uso compartido en un archivo pdf.
 

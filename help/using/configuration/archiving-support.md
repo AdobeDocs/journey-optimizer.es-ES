@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Soporte de archivado en Journey Optimizer
-description: Aprenda a archivar mensajes
+title: Compatibilidad de archivado en Journey Optimizer
+description: Obtenga información sobre cómo archivar mensajes
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: archivo, mensajes, HIPAA, BCC, correos electrónicos
+keywords: archivo, mensajes, HIPAA, CCO, correos electrónicos
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
@@ -20,92 +20,92 @@ ht-degree: 8%
 
 ## Cómo archivar mensajes {#about-archiving}
 
-Las regulaciones como la Iniciativa para la Acción en favor de los Países Menos Adelantados exigen que [!DNL Journey Optimizer] debe proporcionar una forma de archivar los mensajes enviados a personas. De hecho, si sus clientes plantean una reclamación, deben tener la capacidad de obtener una copia del mensaje enviado con fines de verificación.
+Las regulaciones como la HIPAA requieren que [!DNL Journey Optimizer] debe proporcionar una forma de archivar los mensajes enviados a las personas. De hecho, si sus clientes presentan una reclamación, deben tener la capacidad de obtener una copia del mensaje enviado para fines de verificación.
 
-* Para el canal de correo electrónico, [!DNL Journey Optimizer] proporciona una funcionalidad de correo electrónico CCO integrada. [Más información](#bcc-email)
+* Para el canal de correo electrónico, [!DNL Journey Optimizer] proporciona una capacidad de correo electrónico CCO integrada. [Más información](#bcc-email)
 
-* Además, para todos los canales, puede utilizar el campo &quot;Plantilla&quot; en el **Conjunto de datos de entidad**, que contiene los detalles de las plantillas de mensajes no personalizadas. Exporte el conjunto de datos con este campo para guardar metadatos como: quién envió el mensaje, a quién y cuándo. Tenga en cuenta que los datos personalizados no se exportan; solo se tiene en cuenta la plantilla (formato y estructura del mensaje). [Más información](../data/datasets-query-examples.md#entity-dataset)
+* Además, para todos los canales, puede utilizar el campo &quot;Plantilla&quot; en **Conjunto de datos de entidad**, que contiene los detalles de las plantillas de mensajes no personalizadas. Exporte el conjunto de datos con este campo para guardar metadatos como: quién envió el mensaje, a quién y cuándo. Tenga en cuenta que los datos personalizados no se exportan, solo se tiene en cuenta la plantilla (formato y estructura del mensaje). [Más información](../data/datasets-query-examples.md#entity-dataset)
 
 >[!NOTE]
 >
 >[!DNL Journey Optimizer] no es compatible con los requisitos de archivo de SMS. Para obtener soporte de archivo dedicado, trabaje con su proveedor de SMS (Synch o Twilio).
 
-## Cómo utilizar CCO para correos electrónicos {#bcc-email}
+## Cómo usar CCO para correos electrónicos {#bcc-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="Definir una dirección de correo electrónico CCO"
 >abstract="Puede conservar una copia de los correos electrónicos enviados enviándolos a una bandeja de entrada CCO. Escriba la dirección de correo electrónico que desee para que cada correo electrónico enviado se copie de forma oculta a esta dirección de CCO. Tenga en cuenta que el dominio de la dirección de CCO no debe ser el mismo que cualquier subdominio delegado a Adobe. Esta función es opcional."
 
-Puede enviar una copia idéntica (o una copia ciega de un correo electrónico enviado por [!DNL Journey Optimizer] a una bandeja de entrada BCC. Esta función opcional le permite conservar copias de las comunicaciones por correo electrónico que envía a sus usuarios para que cumplan con las normas o las archiven. Esto es invisible para los destinatarios de la entrega.
+Puede enviar una copia idéntica (o copia oculta) de un correo electrónico enviado por [!DNL Journey Optimizer] a una bandeja de entrada CCO. Esta función opcional le permite conservar copias de las comunicaciones por correo electrónico que envía a sus usuarios para fines de conformidad o archivo. Esto es invisible para los destinatarios de la entrega.
 
 ### Habilitar correo electrónico CCO {#enable-bcc}
 
-Para habilitar la variable **[!UICONTROL Correo electrónico CCO]** , introduzca la dirección de correo electrónico que desee en el campo dedicado del [superficie del canal](channel-surfaces.md) (es decir, el ajuste preestablecido de mensaje). Puede especificar cualquier dirección externa en el formato correcto, excepto una dirección de correo electrónico definida en un subdominio delegado a Adobe. Por ejemplo, si delegó el *marketing.luma.com* subdominio a Adobe, cualquier dirección como *abc@marketing.luma.com* está prohibido.
+Para habilitar la variable **[!UICONTROL Correo electrónico CCO]** , introduzca la dirección de correo electrónico de su elección en el campo dedicado del [superficie de canal](channel-surfaces.md) (es decir, ajuste preestablecido de mensaje). Puede especificar cualquier dirección externa en el formato correcto, excepto una dirección de correo electrónico definida en un subdominio delegado al Adobe. Por ejemplo, si delegó la variable *marketing.luma.com* subdominio a Adobe, cualquier dirección como *abc@marketing.luma.com* está prohibido.
 
 >[!CAUTION]
 >
 >Solo puede definir una dirección de correo electrónico CCO. Asegúrese de que la dirección de CCO tenga suficiente capacidad de recepción para almacenar todos los correos electrónicos enviados mediante la superficie de canal actual.
 >
->Más recomendaciones se enumeran en [esta sección](#bcc-recommendations-limitations).
+>Encontrará más recomendaciones en [esta sección](#bcc-recommendations-limitations).
 
 >[!NOTE]
 >
->Si ha adquirido la oferta de complemento Escudo de salud, debe asegurarse de que el ISP de su dirección de CCO admita el protocolo TLS 1.2.
+>Si ha adquirido el complemento Healthcare Shield, debe asegurarse de que el ISP de sus direcciones de CCO sea compatible con el protocolo TLS 1.2.
 
 ![](assets/preset-bcc.png)
 
-Todos los mensajes de correo electrónico que utilicen esta superficie se copiarán de forma ciega en la dirección de correo electrónico CCO que haya introducido. Desde allí, se pueden procesar y archivar utilizando un sistema externo.
+Todos los mensajes de correo electrónico que utilicen esta superficie se copiarán de forma oculta en la dirección de correo electrónico CCO que haya introducido. A partir de ahí, se pueden procesar y archivar mediante un sistema externo.
 
 >[!CAUTION]
 >
->El uso de la función de CCO se contará con la cantidad de mensajes para los que tenga licencia. Por lo tanto, sólo lo habilite en las superficies utilizadas para comunicaciones críticas que desee archivar. Compruebe si hay volúmenes con licencia en su contrato.
+>El uso de las funciones de CCO se deducirá del número de mensajes para los que tiene licencia. Por lo tanto, actívelo solo en las superficies utilizadas para las comunicaciones esenciales que desee archivar. Compruebe si hay volúmenes con licencia en el contrato.
 
-La configuración de la dirección de correo electrónico CCO se guarda inmediatamente y se procesa en el nivel de superficie. Cuando crea un nuevo mensaje utilizando esta superficie, se muestra automáticamente la dirección de correo electrónico CCO.
+La configuración de la dirección de correo electrónico CCO se guarda y procesa inmediatamente en el nivel de superficie. Al crear un nuevo mensaje con esta superficie, se muestra automáticamente la dirección de correo electrónico CCO.
 
 ![](assets/preset-bcc-in-msg.png)
 
-Sin embargo, la dirección de CCO se recoge para enviar comunicaciones siguiendo la lógica descrita [here](../email/email-settings.md).
+Sin embargo, la dirección de CCO se recoge para enviar comunicaciones siguiendo la lógica descrita [aquí](../email/email-settings.md).
 
 ### Recommendations y limitaciones {#bcc-recommendations-limitations}
 
-* Para garantizar el cumplimiento de la privacidad, los correos electrónicos CCO deben ser procesados por un sistema de archiving capaz de almacenar información personal (PII) de forma segura.
+* Para garantizar el cumplimiento de la privacidad, los correos electrónicos CCO deben procesarse mediante un sistema de archivado capaz de almacenar información de identificación personal (PII) de forma segura.
 
-* Como los mensajes pueden contener datos confidenciales o privados, como información de identificación personal (PII), asegúrese de que la dirección de CCO sea correcta y asegure el acceso a los mensajes.
+* Dado que los mensajes pueden contener datos confidenciales o privados, como información de identificación personal (PII), asegúrese de que la dirección de CCO sea correcta y garantice el acceso a los mensajes.
 
 * La bandeja de entrada utilizada para CCO debe administrarse correctamente para el espacio y la entrega. Si la bandeja de entrada devuelve devoluciones, es posible que algunos correos electrónicos no se reciban y, por lo tanto, no se archiven.
 
-* Los mensajes se pueden enviar a la dirección de correo electrónico de CCO antes de los destinatarios objetivo. Los mensajes CCO también se pueden enviar aunque los mensajes originales hayan [rechazado](../reports/suppression-list.md#delivery-failures).
+* Los mensajes se pueden enviar a la dirección de correo electrónico CCO antes que los destinatarios objetivo. Los mensajes BCC también se pueden enviar aunque los mensajes originales tengan [rechazado](../reports/suppression-list.md#delivery-failures).
 
    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
 * No abra ni haga clic en los correos electrónicos enviados a la dirección de CCO, ya que se tienen en cuenta en el total de aperturas y clics del análisis de envío, lo que podría provocar algunos cálculos erróneos en [informes](../reports/global-report.md).
 
-* No marque los mensajes como correo no deseado en la bandeja de entrada BCC, ya que esto afectará a todos los demás correos electrónicos enviados a esta dirección.
+* No marque los mensajes como correo no deseado en la bandeja de entrada CCO, ya que afectará a todos los demás correos electrónicos enviados a esta dirección.
 
 >[!CAUTION]
 >
->No haga clic en el vínculo unsubscribe de los correos electrónicos enviados a la dirección de CCO, ya que inmediatamente cancelará la suscripción de los destinatarios correspondientes.
+>No haga clic en el vínculo unsubscribe en los correos electrónicos enviados a la dirección de CCO, ya que cancelará inmediatamente la suscripción de los destinatarios correspondientes.
 
 ### Cumplimiento del RGPD {#gdpr-compliance}
 
-Las regulaciones como el RGPD establecen que los sujetos de datos deben poder modificar su consentimiento en cualquier momento. Dado que los correos electrónicos CCO que envía con Journey Optimizer incluyen información de identificación personal (PII) segura, debe editar la variable **[!UICONTROL Esquema de eventos de comentarios de CJM Email BCC]** poder gestionar estos PII de conformidad con el RGPD y regulaciones similares.
+Las regulaciones como el RGPD establecen que los sujetos de datos deben poder modificar su consentimiento en cualquier momento. Dado que los correos electrónicos CCO que envía con Journey Optimizer incluyen información de identificación personal (PII) segura, debe editar la **[!UICONTROL Esquema de evento de comentarios CCO de correo electrónico CJM]** para poder administrar estas PII de conformidad con el RGPD y regulaciones similares.
 
 Para realizar esto, siga los pasos a continuación.
 
-1. Vaya a **[!UICONTROL Gestión de datos]** > **[!UICONTROL Esquemas]** > **[!UICONTROL Examinar]** y seleccione **[!UICONTROL Esquema de eventos de comentarios de CJM Email BCC]**.
+1. Ir a **[!UICONTROL Administración de datos]** > **[!UICONTROL Esquemas]** > **[!UICONTROL Examinar]** y seleccione **[!UICONTROL Esquema de evento de comentarios CCO de correo electrónico CJM]**.
 
    ![](assets/preset-bcc-schema.png)
 
-1. Haga clic para expandir **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagement]** then **[!UICONTROL secundarioRecipientDetail]**.
+1. Haga clic para expandir **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagement]** entonces **[!UICONTROL secondaryRecipientDetail]**.
 
-1. Select **[!UICONTROL originalRecipientAddress]**.
+1. Seleccionar **[!UICONTROL originalRecipientAddress]**.
 
-1. En el **[!UICONTROL Propiedades del campo]** a la derecha, desplácese hacia abajo hasta el **[!UICONTROL Identidad]** casilla de verificación.
+1. En el **[!UICONTROL Propiedades del campo]** a la derecha, desplácese hacia abajo hasta el **[!UICONTROL Identidad]** casilla de verificación
 
-1. Selecciónelo y también seleccione **[!UICONTROL Identidad primaria]**.
+1. Selecciónelo y también seleccione **[!UICONTROL Identidad principal]**.
 
-1. Seleccione un área de nombres en la lista desplegable.
+1. Seleccione un área de nombres de la lista desplegable.
 
    ![](assets/preset-bcc-schema-identity.png)
 
@@ -117,19 +117,19 @@ Para realizar esto, siga los pasos a continuación.
 
 ### Datos de informes de CCO {#bcc-reporting}
 
-Los informes como tales sobre CCO no están disponibles en los informes de recorrido y mensajes. Sin embargo, la información se almacena en un conjunto de datos del sistema llamado **[!UICONTROL Conjunto de datos del evento de comentarios de AJO BCC]**. Puede ejecutar consultas con este conjunto de datos para encontrar información útil para la depuración, por ejemplo.
+La creación de informes como tal en CCO no está disponible en los informes de recorrido y mensaje. Sin embargo, la información se almacena en un conjunto de datos del sistema llamado **[!UICONTROL Conjunto de datos de evento de comentarios AJO BCC]**. Puede ejecutar consultas en este conjunto de datos para encontrar información útil para la depuración, por ejemplo.
 
-Puede acceder a este conjunto de datos a través de la interfaz de usuario. Select **[!UICONTROL Gestión de datos]** > **[!UICONTROL Conjuntos de datos]** > **[!UICONTROL Examinar]** y habilite **[!UICONTROL Mostrar conjuntos de datos del sistema]** cambie desde el filtro para mostrar los conjuntos de datos generados por el sistema. Obtenga más información sobre cómo acceder a los conjuntos de datos en [esta sección](../data/get-started-datasets.md#access-datasets).
+Puede acceder a este conjunto de datos a través de la interfaz de usuario. Seleccionar **[!UICONTROL Administración de datos]** > **[!UICONTROL Conjuntos de datos]** > **[!UICONTROL Examinar]** y habilite la **[!UICONTROL Mostrar conjuntos de datos del sistema]** cambie del filtro para mostrar los conjuntos de datos generados por el sistema. Obtenga más información sobre cómo acceder a conjuntos de datos en [esta sección](../data/get-started-datasets.md#access-datasets).
 
 ![](assets/preset-bcc-dataset.png)
 
-Para ejecutar consultas con este conjunto de datos, puede utilizar el Editor de consultas proporcionado por el [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acceder a él, seleccione **[!UICONTROL Gestión de datos]** > **[!UICONTROL Consultas]** y haga clic en **[!UICONTROL Crear consulta]**. [Más información](../data/get-started-queries.md)
+Para ejecutar consultas en este conjunto de datos, puede utilizar el Editor de consultas proporcionado por el [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acceder a él, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Consultas]** y haga clic en **[!UICONTROL Crear consulta]**. [Más información](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
-Según la información que busque, puede ejecutar las siguientes consultas.
+Según la información que esté buscando, puede ejecutar las siguientes consultas.
 
-1. Para todas las demás consultas a continuación, necesitará el ID de acción de recorrido. Ejecute esta consulta para recuperar todos los ID de acción asociados con un ID de versión de recorrido concreto en los últimos 2 días:
+1. Para las demás consultas siguientes, necesitará el ID de acción de recorrido. Ejecute esta consulta para recuperar todos los ID de acción asociados a un ID de versión de recorrido concreto en los últimos 2 días:
 
    ```
    SELECT
@@ -148,11 +148,11 @@ Según la información que busque, puede ejecutar las siguientes consultas.
 
    >[!NOTE]
    >
-   >Para obtener la variable `<journey version id>`seleccione el parámetro [Versión de recorrido](../building-journeys/journey.md#journey-versions) de la variable **[!UICONTROL administración de recorridos]** > **[!UICONTROL Recorridos]** para abrir el Navegador. El ID de versión de recorrido se muestra al final de la URL que se muestra en el explorador web.
+   >Para obtener la `<journey version id>`, seleccione el parámetro correspondiente [versión de recorrido](../building-journeys/journey.md#journey-versions) desde el **[!UICONTROL administración de recorrido]** > **[!UICONTROL Recorridos]** menú. El ID de versión del recorrido se muestra al final de la dirección URL mostrada en el explorador web.
    >
    >![](assets/preset-bcc-action-id.png)
 
-1. Ejecute esta consulta para recuperar todos los eventos de comentarios de mensajes (especialmente el estado de los comentarios) generados para un mensaje determinado dirigido a un usuario específico en los últimos 2 días:
+1. Ejecute esta consulta para recuperar todos los eventos de comentarios de mensajes (especialmente el estado de los comentarios) generados para un mensaje en particular dirigido a un usuario específico en los últimos 2 días:
 
    ```
    SELECT  
@@ -178,9 +178,9 @@ Según la información que busque, puede ejecutar las siguientes consultas.
 
    >[!NOTE]
    >
-   >Para obtener la variable `<journey action id>` ejecute la primera consulta descrita anteriormente utilizando el id de versión de recorrido. La variable `<recipient email address>` es la dirección de correo electrónico del destinatario objetivo o real.
+   >Para obtener la `<journey action id>` , ejecute la primera consulta descrita anteriormente utilizando el id de versión de recorrido. El `<recipient email address>` parámetro es la dirección de correo electrónico del destinatario objetivo o real.
 
-1. Ejecute esta consulta para recuperar todos los eventos de comentarios de mensajes BCC generados para un mensaje en particular dirigido a un usuario específico en los últimos 2 días:
+1. Ejecute esta consulta para recuperar todos los eventos de comentarios de mensajes CCO generados para un mensaje en particular dirigidos a un usuario específico en los últimos 2 días:
 
    ```
    SELECT   
@@ -205,7 +205,7 @@ Según la información que busque, puede ejecutar las siguientes consultas.
    ORDER BY EventTime DESC;
    ```
 
-1. Ejecute esta consulta para recuperar todas las direcciones de destinatario que no hayan recibido el mensaje, mientras que su entrada de CCO existe en los últimos 30 días:
+1. Ejecute esta consulta para recuperar todas las direcciones de destinatarios que no hayan recibido el mensaje, mientras que su entrada CCO existe en los últimos 30 días:
 
    ```
     SELECT

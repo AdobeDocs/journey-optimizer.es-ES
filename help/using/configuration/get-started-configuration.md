@@ -10,7 +10,7 @@ feature: Application Settings
 topic: Administration
 keywords: configuración, configurar, mensajes, canal, zona protegida, optimizador
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%
 

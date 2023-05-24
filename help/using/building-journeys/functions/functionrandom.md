@@ -5,7 +5,7 @@ description: Obtenga información sobre la función aleatoria
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: aleatorio, función, expresión, recorrido
+keywords: random, function, expression, recorrido
 exl-id: df006301-d309-4cb0-b505-317f623df494
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -30,4 +30,4 @@ Matemáticas
 
 `random()`
 
-Devuelve un decimal.
+Devuelve un valor decimal.

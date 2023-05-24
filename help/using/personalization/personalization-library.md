@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Uso de expresiones guardadas
-description: Aprenda a trabajar con expresiones guardadas desde la [!DNL Journey Optimizer] biblioteca.
+description: Aprenda a trabajar con expresiones guardadas desde el [!DNL Journey Optimizer] biblioteca.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -23,15 +23,15 @@ ht-degree: 14%
 >title="Acerca de la biblioteca de expresiones"
 >abstract="[!DNL Journey Optimizer] proporciona una biblioteca en la que puede acceder a las expresiones de personalización guardadas que han configurado los usuarios administradores. "
 
-[!DNL Journey Optimizer] proporciona una biblioteca en la que puede acceder a las expresiones de personalización guardadas anteriormente que han agregado los usuarios administradores.
+[!DNL Journey Optimizer] proporciona una biblioteca en la que puede acceder a las expresiones de personalización guardadas anteriormente que han añadido los usuarios administradores.
 
 ➡️ [Aprenda a trabajar con expresiones guardadas en este vídeo](#video-preview)
 
-Para acceder a las expresiones guardadas, haga clic en el botón **[!UICONTROL Biblioteca]** en el panel izquierdo. La lista muestra todas las expresiones que los usuarios administradores han guardado (consulte [Guardar expresiones en la biblioteca](#save-expressions)).
+Para acceder a las expresiones guardadas, haga clic en **[!UICONTROL Biblioteca]** en el panel izquierdo. La lista muestra todas las expresiones guardadas por los usuarios administradores (consulte [Guardar expresiones en la biblioteca](#save-expressions)).
 
 >[!NOTE]
 >
->Puede obtener más información sobre el contenido de una expresión guardada desde el botón de puntos suspensivos. Tenga en cuenta que el botón de información aparecerá en los puntos suspensivos si tiene los permisos adecuados para administrar los elementos de la biblioteca.
+>Puede obtener más información sobre el contenido de una expresión guardada desde el botón de los tres puntos. Tenga en cuenta que el botón de información aparecerá en los puntos suspensivos si tiene los permisos adecuados para administrar los elementos de la biblioteca.
 
 Haga clic en + para insertar la expresión en el editor. A continuación, puede personalizar y validar el contenido de personalización como de costumbre. [Más información](../personalization/personalization-build-expressions.md)
 
@@ -47,28 +47,28 @@ Para guardar una expresión en la biblioteca, siga estos pasos:
 
    >[!NOTE]
    >
-   >Si el botón no está visible, compruebe en el Admin Console que dispone de los permisos necesarios (consulte [Niveles de permisos](../administration/high-low-permissions.md)).
+   >Si el botón no está visible, compruebe en el Admin Console que tiene los permisos necesarios (consulte [Niveles de permisos](../administration/high-low-permissions.md)).
 
    ![](assets/library-save.png)
 
-1. En el panel derecho, introduzca un título y una descripción para la expresión para ayudar a los usuarios a encontrarla más fácilmente y, a continuación, haga clic en **[!UICONTROL Agregar]**.
+1. En el panel derecho, escriba un título y una descripción para la expresión con el fin de ayudar a los usuarios a encontrarla más fácilmente y, a continuación, haga clic en **[!UICONTROL Añadir]**.
 
    ![](assets/add-expression.png)
 
-1. La expresión se agrega a la biblioteca . Los usuarios ahora pueden usarlo para crear su contenido personalizado.
+1. La expresión se añade a la biblioteca. Los usuarios ahora pueden utilizarlo para crear su contenido de personalización.
 
 
 >[!NOTE]
 >
 >* Las expresiones no pueden superar los 200 KB.
 >
->* Las expresiones guardadas se ordenan por fecha de creación: la expresión agregada recientemente se mostrará primero en la lista.
+>* Las expresiones guardadas se ordenan por fecha de creación: las expresiones agregadas recientemente se mostrarán primero en la lista.
 
 
 
-Para editar una expresión existente, agréguela al editor y luego modifíquela según sus necesidades. Haga clic en **[!UICONTROL Añadir a la biblioteca]** para validar la sintaxis y guardar la expresión.
+Para editar una expresión existente, añádala al editor y, a continuación, modifíquela según sus necesidades. Clic **[!UICONTROL Añadir a la biblioteca]** para validar la sintaxis y guardar la expresión.
 
-Para eliminar una expresión, haga clic en el botón de puntos suspensivos y, a continuación, haga clic en **[!UICONTROL Eliminar]**.
+Para eliminar una expresión, haga clic en el botón de puntos suspensivos y luego haga clic en **[!UICONTROL Eliminar]**.
 
 ## Vídeo explicativo{#video}
 

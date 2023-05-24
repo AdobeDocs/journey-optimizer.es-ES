@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: updateTimeZone
-description: Obtenga información sobre la función updateTimeZone
+description: Obtenga información acerca de la función updateTimeZone
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 # updateTimeZone {#updateTimeZone}
 
-Devuelve una nueva hora de fecha, con una nueva zona horaria en el mismo instante.
+Devuelve una nueva fecha y hora, con una nueva zona horaria en el mismo instante.
 
 ## Categoría
 
@@ -28,7 +28,7 @@ Fecha
 
 ## Parámetros
 
-* id de zona horaria: string
+* id de zona horaria: cadena
 * dateTime
 
 ## Firma y tipo devuelto
@@ -48,4 +48,4 @@ Returns "2019-08-28T17:15:30.123+02:00".-->
 
 `updateTimeZone(@{MyExpEvent.timestamp}, "Australia/Sydney")`
 
-Si el valor del campo de marca de tiempo es `2021-11-16T16:55:12.939318+01:00`, la función devuelve `2021-11-17T02:55:12.942115+11:00`.
+Si el valor del campo de marca de tiempo es `2021-11-16T16:55:12.939318+01:00`, luego la función devuelve `2021-11-17T02:55:12.942115+11:00`.

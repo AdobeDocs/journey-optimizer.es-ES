@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Copiar un recorrido en otro sandox
-description: Aprenda a copiar un recorrido en otro sandox
+title: Copiar un recorrido en otra zona protegida
+description: Aprenda a copiar un recorrido en otra zona protegida
 feature: Journeys
 topic: Content Management
 role: User, Developer
 level: Intermediate
-keywords: entorno limitado, recorrido, copiar, entorno
+keywords: zona protegida, recorrido, copiar, entorno
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
@@ -38,51 +38,51 @@ ht-degree: 20%
 >title="Objetos dependientes"
 >abstract="Esta es la lista de objetos asociados que se utilizan en el recorrido. Esta lista muestra el nombre, el tipo de objeto y el ID interno de Journey Optimizer."
 
-Journey Optimizer permite copiar un recorrido completo de una zona protegida a otra. Por ejemplo, puede copiar un recorrido del entorno de entorno limitado de ensayo en el entorno limitado de producción. Además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: segmentos, superficies (es decir, ajustes preestablecidos), esquemas, eventos y acciones. Para obtener más información sobre los objetos copiados, consulte esta [sección](#limitations).
+Journey Optimizer permite copiar un recorrido completo de una zona protegida a otra. Por ejemplo, puede copiar un recorrido del entorno de zona protegida de ensayo en la zona protegida de producción. Además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: segmentos, superficies (es decir, ajustes preestablecidos), esquemas, eventos y acciones. Para obtener más información sobre los objetos copiados, consulte [sección](#limitations).
 
 >[!CAUTION]
 >
->No garantizamos que todos los elementos vinculados se copien en el entorno limitado de destino. Le recomendamos encarecidamente que realice una comprobación exhaustiva antes de publicar el recorrido. Esto le permitirá identificar cualquier objeto que pueda faltar.
+>No garantizamos que todos los elementos vinculados se copien en la zona protegida de destino. Le recomendamos encarecidamente que realice una comprobación exhaustiva antes de publicar el recorrido. Esto le permitirá identificar cualquier posible objeto que falte.
 
-Los objetos copiados en el entorno limitado de destino son únicos y no existe riesgo de sobrescribir los elementos existentes. Tanto el recorrido como cualquier mensaje dentro del recorrido se transfieren en modo borrador. Esto le permite llevar a cabo una validación exhaustiva antes de la publicación en el simulador para pruebas de destino. El proceso de copia solo copia los metadatos sobre el recorrido y los objetos de ese Recorrido. Como parte de este proceso, no se copian datos de perfiles o conjuntos de datos.
+Los objetos copiados en la zona protegida de destino son únicos y no hay riesgo de sobrescribir elementos existentes. Tanto el recorrido como los mensajes dentro del recorrido se transfieren en modo de borrador. Esto le permite realizar una validación completa antes de la publicación en la zona protegida de destino. El proceso de copia solo copia los metadatos sobre el recorrido y los objetos de ese Recorrido. No se están copiando datos de perfil o conjunto de datos como parte de este proceso.
 
-Para copiar un recorrido en otro simulador para pruebas, siga estos pasos:
+Para copiar un recorrido en otra zona protegida, siga estos pasos:
 
-1. En la sección del menú ADMINISTRACIÓN DE RECORRIDOS , haga clic en **[!UICONTROL Recorridos]**. Se muestra la lista de recorridos.
+1. En la sección del menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTROL Recorridos]**. Se muestra la lista de recorridos.
 
-2. Busque el recorrido que desea copiar y haga clic en el botón **Más acciones** (los tres puntos junto al nombre del recorrido) y haga clic en **Copiar en entorno limitado**.
+2. Busque el recorrido que desea copiar y haga clic en el icono **Más acciones** (los tres puntos junto al nombre del recorrido) y haga clic en **Copiar a zona protegida**.
 
    ![](assets/copy-sandbox1.png)
 
-   La variable **Copiar en entorno limitado** se muestra.
+   El **Copiar a zona protegida** se muestra la pantalla.
 
    ![](assets/copy-sandbox2.png)
 
-3. Seleccione el **Espacio aislado de Target** en el campo desplegable . Solo están disponibles las zonas protegidas de su organización.
+3. Seleccione el **Zona protegida de Target** en el campo desplegable. Solo están disponibles las zonas protegidas de su organización.
 
-4. Consulte la **Objetos dependientes** para obtener más información. Esta es la lista de objetos asociados que se utilizan en el recorrido. Esta lista muestra el nombre, el tipo de objeto y el ID interno de Journey Optimizer.
+4. Revise la **Objetos dependientes** sección. Esta es la lista de objetos asociados que se utilizan en el recorrido. Esta lista muestra el nombre, el tipo de objeto y el ID interno de Journey Optimizer.
 
-5. Haga clic en el **Copiar** , en la esquina superior derecha, para comenzar a copiar el recorrido en el simulador para pruebas de destino.
+5. Haga clic en **Copiar** , en la esquina superior derecha, para comenzar a copiar el recorrido en la zona protegida de destino.
 
    ![](assets/copy-sandbox3.png)
 
-   Se inicia el proceso de copia y se muestra el progreso de cada objeto individual. El proceso de copia varía según la complejidad del recorrido y la cantidad de objetos que deben copiarse. Si se encuentra un error, se muestra un mensaje para el objeto relacionado.
+   Se inicia el proceso de copia y se muestra el progreso de cada objeto individual. El proceso de copia varía en función de la complejidad del recorrido y de la cantidad de objetos que deban copiarse. Si se produce un error, se muestra un mensaje para el objeto relacionado.
 
    ![](assets/copy-sandbox4.png)
 
-6. Una vez completada la copia, haga clic en **Cerrar**.
+6. Una vez finalizada la copia, haga clic en **Cerrar**.
 
-7. Acceda al simulador para pruebas de destino y realice una comprobación exhaustiva de todos los objetos copiados.
+7. Acceda a la zona protegida de destino y realice una comprobación exhaustiva de todos los objetos copiados.
 
 ## Proceso de copia y limitaciones {#limitations}
 
-Es posible que no todos los elementos vinculados se copien en el entorno limitado de destino. Adobe recomienda encarecidamente que realice una comprobación exhaustiva. Identifique cualquier objeto que pueda faltar y créelo manualmente antes de publicar el recorrido.
+Es posible que todos los elementos vinculados no se copien en la zona protegida de destino. El Adobe recomienda encarecidamente que realice una comprobación exhaustiva. Identifique cualquier posible objeto que falte y créelo manualmente antes de publicar el recorrido.
 
 Se copian los siguientes objetos:
 
 * Segmento
 
-   Un segmento solo se puede copiar una vez de un simulador para pruebas a otro. Una vez copiado un segmento, no se puede editar en el entorno limitado de destino.
+   Un segmento solo se puede copiar una vez de una zona protegida a otra. Una vez copiado un segmento, no se puede editar en la zona protegida de destino.
 
 * Esquema
 
@@ -90,22 +90,22 @@ Se copian los siguientes objetos:
 
 * Mensaje
 
-   Las actividades de acción del canal utilizadas en el recorrido. Los campos utilizados para la personalización en el mensaje no se comprueban para que estén completos. Los bloques de contenido no se copian.
+   Las actividades de acción de canal utilizadas en el recorrido. No se comprueba la integridad de los campos utilizados para la personalización en el mensaje. Los bloques de contenido no se copian.
 
-* Recorrido: detalles del lienzo
+* Recorrido - detalles del lienzo
 
-   Representación del recorrido en el lienzo, incluidos los objetos del recorrido como condiciones, acciones, eventos, segmentos de lectura, etc. La actividad Jump se excluye de la copia.
+   Representación del recorrido en el lienzo incluidos los objetos del recorrido, como condiciones, acciones, eventos, segmentos de lectura, etc. La actividad de salto se excluye de la copia.
 
 * Evento
 
-   Se copian los eventos y los detalles de evento utilizados en el recorrido.
+   Se copian los eventos y los detalles del evento utilizados en el recorrido.
 
 * Acción
 
    Se copian las acciones y los detalles de acción utilizados en el recorrido.
 
-Las superficies (es decir, los ajustes preestablecidos) no se copian. El sistema selecciona automáticamente la coincidencia más cercana posible en el entorno limitado de destino, según el tipo de mensaje y el nombre de superficie. Si no hay superficies encontradas en el simulador de pruebas de destino, la copia superficial fallará. Esto significa que la copia del mensaje también fallará porque un mensaje requiere que una superficie esté disponible para la configuración. En este caso, se debe crear al menos una superficie para que funcione la copia para el canal correcto del mensaje.
+Las superficies (es decir, los ajustes preestablecidos) no se copian. El sistema selecciona automáticamente la coincidencia más cercana posible en la zona protegida de destino, según el tipo de mensaje y el nombre de la superficie. Si no se encuentran superficies en la zona protegida de destino, la copia de superficie fallará. Esto significa que la copia del mensaje también fallará porque un mensaje requiere que haya una superficie disponible para la configuración. En este caso, es necesario crear al menos una superficie, para el canal derecho del mensaje, para que funcione la copia.
 
-En el caso de esquemas, políticas de combinación y segmentos, la segunda vez que estos objetos intenten copiarse, solo se hará referencia a ellos. Se tratarán como objetos que ya existen y se copiarán de nuevo. Esto significa que estos objetos solo se pueden copiar una vez.
+En el caso de los esquemas, las políticas de combinación y los segmentos, la segunda vez que se intente copiar estos objetos, solo se hará referencia a ellos. Se tratarán como objetos que ya existen y se copiarán de nuevo. Esto significa que estos objetos solo se pueden copiar una vez.
 
-Transcurridos cinco minutos, Adobe Journey Optimizer puede hacer referencia a esquemas, políticas de combinación y segmentos sin que aparezca un error en el lienzo. Espere cinco minutos y estas referencias estarán disponibles.
+Hay un retraso de cinco minutos antes de que Adobe Journey Optimizer pueda hacer referencia a esquemas, políticas de combinación y segmentos sin ver un error en el lienzo. Espere cinco minutos y las referencias estarán disponibles.

@@ -1,6 +1,6 @@
 ---
 title: eliminar ubicaciones
-description: Las ubicaciones son contenedores que se utilizan para mostrar las ofertas.
+description: Las ubicaciones son contenedores que se utilizan para mostrar sus ofertas.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Eliminar una ubicación {#delete-placement}
 
-Ocasionalmente puede ser necesario eliminar (DELETE) una colocación. Solo se pueden eliminar las ubicaciones que cree en el contenedor de inquilino. Para ello, realiza una solicitud de DELETE al [!DNL Offer Library] API que utiliza el ID de instancia de la colocación que desea eliminar.
+Ocasionalmente puede ser necesario eliminar (DELETE) una ubicación. Solo se pueden eliminar las ubicaciones que cree en el contenedor de inquilino. Esto se hace realizando una solicitud de DELETE a [!DNL Offer Library] API que utiliza el ID de instancia de la ubicación que desea eliminar.
 
 **Formato de API**
 
@@ -26,8 +26,8 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Contenedor donde se encuentran las ubicaciones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | ID de instancia de la colocación que desea actualizar. | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
+| `{CONTAINER_ID}` | El contenedor donde se encuentran las ubicaciones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | El ID de instancia de la ubicación que desea actualizar. | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
 
 **Solicitud**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 Una respuesta correcta devuelve el estado HTTP 202 (sin contenido) y un cuerpo en blanco.
 
-Puede confirmar la eliminación intentando enviar una solicitud de búsqueda (GET) a la ubicación. Deberá incluir un encabezado Accept en la solicitud, pero recibirá un estado HTTP 404 (No encontrado) porque la ubicación se ha eliminado del contenedor.
+Para confirmar la eliminación, intente una solicitud de búsqueda (GET) en la ubicación. Deberá incluir un encabezado Aceptar en la solicitud, pero deberá recibir el estado HTTP 404 (no encontrado) porque la ubicación se ha eliminado del contenedor.

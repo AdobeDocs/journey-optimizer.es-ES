@@ -1,6 +1,6 @@
 ---
-title: Biblioteca de funciones Mapas
-description: Biblioteca de funciones Mapas
+title: Biblioteca de funciones de mapas
+description: Biblioteca de funciones de mapas
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -13,13 +13,13 @@ ht-degree: 7%
 
 ---
 
-# Funciones de asignación{#maps}
+# Funciones de mapas{#maps}
 
 Utilice las funciones de mapa en la personalización para facilitar la interacción con los mapas.
 
 ## Obtenga{#get}
 
-La variable `get` se utiliza para recuperar el valor de un mapa para una clave determinada.
+El `get` se utiliza para recuperar el valor de un mapa para una clave determinada.
 
 **Sintaxis**
 
@@ -29,7 +29,7 @@ La variable `get` se utiliza para recuperar el valor de un mapa para una clave d
 
 **Ejemplo**
 
-La siguiente operación obtiene el valor del mapa de identidad para la clave `example@example.com`.
+La siguiente operación obtiene el valor del mapa de identidad de la clave `example@example.com`.
 
 ```sql
 {%= get(identityMap,"example@example.com") %}
@@ -37,7 +37,7 @@ La siguiente operación obtiene el valor del mapa de identidad para la clave `ex
 
 ## Claves{#keys}
 
-La variable `keys` se utiliza para recuperar todas las claves de un mapa determinado.
+El `keys` se utiliza para recuperar todas las claves de un mapa determinado.
 
 **Sintaxis**
 
@@ -55,7 +55,7 @@ La siguiente operación obtiene todas las claves del mapa `identityMap`.
 
 ## Valores{#values}
 
-La variable `values` se utiliza para recuperar todos los valores de un mapa determinado.
+El `values` se utiliza para recuperar todos los valores de un mapa determinado.
 
 **Sintaxis**
 

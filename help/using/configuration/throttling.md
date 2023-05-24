@@ -2,10 +2,10 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: API de limitación
-description: Aprenda a trabajar con la API de Throttling
+description: Aprenda a trabajar con la API de restricción
 role: User
 level: Beginner
-keywords: externa, API, optimizer, restricción
+keywords: externo, API, optimizador, límite
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
 source-git-commit: b95d3a709075c388b1784bd18407258acd786851
 workflow-type: tm+mt
@@ -16,9 +16,9 @@ ht-degree: 91%
 
 # Uso de la API de limitación
 
-La API de restricción le ayuda a crear, configurar y supervisar sus configuraciones de restricción con el fin de limitar el número de eventos enviados por segundo.
+La API de restricción le ayuda a crear, configurar y supervisar sus configuraciones de restricción para limitar el número de eventos enviados por segundo.
 
-Esta sección proporciona información global sobre cómo trabajar con la API. Una descripción detallada de la API está disponible en [Documentación de las API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
+Esta sección proporciona información global sobre cómo trabajar con la API. Hay disponible una descripción detallada de la API en [Documentación de API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
 
 >[!IMPORTANT]
 >

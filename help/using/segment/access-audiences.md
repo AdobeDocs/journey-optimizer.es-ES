@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 11%
+ht-degree: 19%
 
 ---
 
@@ -31,21 +31,21 @@ Lo que encontrará en esta documentación:
 
 >[!ENDSHADEBOX]
 
-Se puede acceder a las audiencias resultantes de la composición de audiencias desde la **[!UICONTROL Examinar]** en la ficha **[!UICONTROL Segmentos]** para abrir el Navegador.
+Se puede acceder a las audiencias resultantes de la composición de audiencias desde el **[!UICONTROL Examinar]** en la pestaña **[!UICONTROL Segmentos]** menú.
 
-Esta pestaña enumera todas las audiencias almacenadas en Adobe Experience Platform. Las audiencias creadas mediante composiciones de audiencias se pueden identificar mediante la variable **[!UICONTROL Composición de audiencia]** origen.
+Esta pestaña enumera todas las audiencias almacenadas en Adobe Experience Platform. Las audiencias creadas con composiciones de audiencia se pueden identificar mediante el **[!UICONTROL Composición de audiencia]** origen.
 
 ![](assets/audiences-list.png)
 
 >[!NOTE]
 >
->Para esta versión beta, varios componentes o metadatos que se mostraron inicialmente en el inventario de segmentos no aparecen en esta pestaña (por ejemplo, desglose, método de evaluación, etc.).
+>En esta versión beta, varios componentes o metadatos que se mostraron inicialmente en el inventario de segmentos no aparecen en esta pestaña (por ejemplo: desglose, método de evaluación, etc.).
 >
->Para obtener más información sobre otros tipos de audiencias disponibles en Adobe Experience Platform, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+>Para obtener más información sobre otros tipos de audiencias disponibles en Adobe Experience Platform, consulte la [Documentación del Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
-La variable **[!UICONTROL Recuento de perfiles]** proporciona información sobre el número de perfiles incluidos en una audiencia. Haga clic en el botón &quot;i&quot; para obtener más información sobre la fecha de cálculo de esta información.
+El **[!UICONTROL Recuento de perfiles]** proporciona información sobre el número de perfiles incluidos en una audiencia. Haga clic en el botón &quot;i&quot; para obtener más información sobre la fecha en la que se ha calculado esta información.
 
-Para asignar etiquetas de uso de datos principales o personalizadas a una audiencia, haga clic en el botón de puntos suspensivos y seleccione **[!UICONTROL Administrar acceso]**. [Obtenga más información sobre Control de acceso a nivel de objeto (OLA)](../administration/object-based-access.md)
+Para asignar etiquetas de uso de datos personalizadas o principales a una audiencia, haga clic en el botón de puntos suspensivos y seleccione **[!UICONTROL Administrar acceso]**. [Más información sobre el Control de acceso de nivel de objeto (OLA)](../administration/object-based-access.md)
 
 <!--
 -edit an audience?

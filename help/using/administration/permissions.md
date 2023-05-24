@@ -8,7 +8,7 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: producto, perfiles, entorno limitado
+keywords: producto, perfiles, zona protegida
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
 source-wordcount: '838'
@@ -20,11 +20,11 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
-> Cada uno de los procedimientos detallados a continuación solo puede llevarse a cabo mediante un **[!UICONTROL Product]** o **[!UICONTROL Sistema]** administrador. Para obtener más información, consulte [Documentación de Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html).
+> Cada uno de los procedimientos detallados a continuación solo se puede llevar a cabo mediante una **[!UICONTROL Product]** o **[!UICONTROL Sistema]** administrador. Para obtener más información, consulte la [Documentación de Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html).
 
-**[!UICONTROL Perfiles de producto]** son conjuntos de usuarios que comparten los mismos permisos y entornos limitados dentro de su organización.
+**[!UICONTROL Perfiles de producto]** son conjuntos de usuarios que comparten los mismos permisos y entornos limitados dentro de la organización.
 
-La variable [!DNL Journey Optimizer] El producto le permite seleccionar entre diferentes opciones predeterminadas **[!UICONTROL Perfiles de producto]** con diferentes niveles de permisos para asignar a los usuarios. Para obtener más información sobre **[!UICONTROL Perfiles de producto]**, consulte esta [página](ootb-product-profiles.md).
+El [!DNL Journey Optimizer] El producto le permite seleccionar entre diferentes opciones predeterminadas **[!UICONTROL Perfiles de producto]** con diferentes niveles de permisos para asignar a los usuarios. Para obtener más información sobre los **[!UICONTROL Perfiles de producto]**, consulte esta [página](ootb-product-profiles.md).
 
 Cada usuario que pertenece a un **[!UICONTROL Perfiles de producto]** tiene derecho a las aplicaciones y servicios de Adobe contenidos en el producto.
 
@@ -32,53 +32,53 @@ También puede crear su propio **[!UICONTROL Perfiles de producto]** si desea aj
 
 ## Asignación de un perfil de producto {#assigning-product-profile}
 
-Puede optar por asignar una variable predeterminada o personalizada **[!UICONTROL Perfil del producto]** a sus usuarios.
+Puede elegir asignar un de forma predeterminada o personalizado **[!UICONTROL Perfil del producto]** a sus usuarios.
 
-La lista de todos los perfiles de producto listos para usar con permisos asignados se encuentra en la [Perfiles de producto integrados](ootb-product-profiles.md) para obtener más información.
+La lista de todos los perfiles de productos listos para usar con permisos asignados se encuentra en [Perfiles de producto integrados](ootb-product-profiles.md) sección.
 
-Para asignar una **[!UICONTROL Perfil del producto]**:
+Para asignar un **[!UICONTROL Perfil del producto]**:
 
-1. En el [!DNL Admin Console], en la **[!UICONTROL Productos]** , seleccione **[!UICONTROL Experience Cloud: aplicaciones con tecnología de plataforma]** producto.
+1. En el [!DNL Admin Console], desde el **[!UICONTROL Productos]** , seleccione la pestaña **[!UICONTROL Experience Cloud: aplicaciones con tecnología de plataforma]** producto.
 
-1. Seleccione un **[!UICONTROL Perfil del producto]**.
+1. Seleccione una **[!UICONTROL Perfil del producto]**.
 
    ![](assets/do-not-localize/access_control_2.png)
 
-1. En el **[!UICONTROL Usuarios]** , haga clic en **[!UICONTROL Agregar usuario]**.
+1. Desde el **[!UICONTROL Usuarios]** pestaña, haga clic en **[!UICONTROL Agregar usuario]**.
 
    ![](assets/do-not-localize/access_control_3.png)
 
 1. Escriba el nombre o la dirección de correo electrónico del usuario y seleccione el usuario.
 
-   Si el usuario no se ha creado anteriormente en la variable [!DNL Admin Console], consulte [Agregar documentación de usuarios](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   Si el usuario no se ha creado anteriormente en [!DNL Admin Console], consulte la [Documentación de Adición de usuarios](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
    ![](assets/do-not-localize/access_control_4.png)
 
-1. Siga los mismos pasos que se describen arriba para agregar otros usuarios a su **[!UICONTROL Perfil del producto]**. A continuación, haga clic en **[!UICONTROL Guardar]**.
+1. Siga los mismos pasos que arriba para agregar otros usuarios a su **[!UICONTROL Perfil del producto]**. A continuación, haga clic en **[!UICONTROL Guardar]**.
 
 El usuario debería recibir entonces un correo electrónico que le redirija a su instancia.
 
-Para obtener más información sobre la administración de usuarios, consulte la [documentación del Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
+Para obtener más información sobre la administración de usuarios, consulte la [Documentación del Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
 
-Al acceder a la instancia, el usuario verá una vista específica en función de los permisos asignados en la variable **[!UICONTROL Perfil del producto]**. Si el usuario no tiene el acceso correcto a una función, aparecerá el siguiente mensaje:
+Al acceder a la instancia, el usuario verá una vista específica en función de los permisos asignados en la variable **[!UICONTROL Perfil del producto]**. Si el usuario no tiene acceso correcto a una función, aparecerá el siguiente mensaje:
 
 `You don't have permission to access this feature. Permission needed: XX.`
 
 ## Edición de un perfil de producto existente {#edit-product-profile}
 
-Para predeterminados o personalizados **[!UICONTROL Perfiles de producto]**, puede decidir en cualquier momento añadir o eliminar permisos.
+Para la configuración predeterminada o personalizada **[!UICONTROL Perfiles de producto]**, puede decidir en cualquier momento agregar o eliminar permisos.
 
-En este ejemplo, queremos añadir **[!UICONTROL Permisos]** relacionados con el **[!UICONTROL Recorridos]** capacidad para usuarios asignados al visor de Recorrido **[!UICONTROL Perfil del producto]**. Los usuarios podrán publicar recorridos.
+En este ejemplo, queremos añadir **[!UICONTROL Permisos]** relacionadas con la **[!UICONTROL Recorridos]** capacidad para usuarios asignados al visor de Recorrido **[!UICONTROL Perfil del producto]**. Los usuarios podrán entonces publicar recorridos.
 
-Tenga en cuenta que si modifica un **[!UICONTROL Perfil del producto]**, afectará a todos los usuarios asignados a esta función **[!UICONTROL Perfil del producto]**.
+Tenga en cuenta que si modifica una configuración predeterminada o personalizada **[!UICONTROL Perfil del producto]**, afectará a todos los usuarios asignados a esto **[!UICONTROL Perfil del producto]**.
 
-1. En el [!DNL Admin Console], en la **[!UICONTROL Productos]** , seleccione **[!UICONTROL Experience Cloud: aplicaciones con tecnología de plataforma]** producto.
+1. En el [!DNL Admin Console], desde el **[!UICONTROL Productos]** , seleccione la pestaña **[!UICONTROL Experience Cloud: aplicaciones con tecnología de plataforma]** producto.
 
-1. Seleccione el visor del Recorrido **[!UICONTROL Perfil del producto]**.
+1. Selección del visor de Recorrido **[!UICONTROL Perfil del producto]**.
 
 1. Seleccione la pestaña **[!UICONTROL Permisos.]**
 
-   La variable **[!UICONTROL Permisos]** muestra la lista de funcionalidades que se aplican a la **[!UICONTROL Experience Cloud: aplicaciones con tecnología de plataforma]** producto.
+   El **[!UICONTROL Permisos]** pestaña muestra la lista de funcionalidades que se aplican a la **[!UICONTROL Experience Cloud: aplicaciones con tecnología de plataforma]** producto.
 
    ![](assets/do-not-localize/access_control_5.png)
 
@@ -86,11 +86,11 @@ Tenga en cuenta que si modifica un **[!UICONTROL Perfil del producto]**, afectar
 
    ![](assets/do-not-localize/access_control_6.png)
 
-1. En el **[!UICONTROL Elementos de permiso disponibles]** seleccione los permisos que desea asignar a su **[!UICONTROL Perfil del producto]** haciendo clic en el icono de signo más (+).
+1. Desde el **[!UICONTROL Elementos de permisos disponibles]** , seleccione los permisos que desea asignar a su **[!UICONTROL Perfil del producto]** haciendo clic en el icono más (+).
 
-   Aquí agregamos la variable **[!UICONTROL Publicar Recorridos]** permiso.
+   Aquí, agregamos el **[!UICONTROL Publicar Recorridos]** permiso.
 
-1. Si es necesario, en **[!UICONTROL Elementos de permiso incluidos]**, haga clic en el icono X situado junto a para eliminar los permisos del perfil del producto.
+1. Si es necesario, en **[!UICONTROL Elementos de permisos incluidos]**, haga clic en el icono X junto a para eliminar los permisos del perfil del producto.
 
 1. Cuando termine, haga clic en **[!UICONTROL Guardar]**.
 
@@ -98,45 +98,45 @@ Si es necesario, también puede crear un nuevo perfil de producto con permisos e
 
 ## Creación de un perfil de producto {#create-product-profile}
 
-[!DNL Journey Optimizer] le permite crear sus propios **[!UICONTROL Perfiles de producto]** y asigne un conjunto de permisos y entornos limitados a los usuarios. con **[!UICONTROL Perfiles de producto]**, puede autorizar o denegar el acceso a determinadas funcionalidades u objetos de la interfaz.
+[!DNL Journey Optimizer] le permite crear su propio **[!UICONTROL Perfiles de producto]** y asigne un conjunto de permisos y entornos limitados a los usuarios. Con **[!UICONTROL Perfiles de producto]**, puede autorizar o denegar el acceso a determinadas funcionalidades u objetos de la interfaz.
 
 Para obtener más información sobre cómo crear y administrar zonas protegidas, consulte la documentación de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es){target="_blank"}.
 
-En este ejemplo, crearemos un perfil de producto denominado **Recorridos de solo lectura** donde se otorgarán derechos de solo lectura a la función de Recorrido. Los usuarios solo podrán acceder y ver recorridos y no podrán acceder a otras funciones como **[!DNL  Decision management]** en [!DNL Journey Optimizer].
+En este ejemplo, crearemos un perfil de producto denominado **Recorridos de solo lectura** donde concederemos derechos de solo lectura a la función Recorrido. Los usuarios solo podrán acceder y ver los recorridos, y no podrán acceder a otras funciones, como **[!DNL  Decision management]** in [!DNL Journey Optimizer].
 
-Para crear **Recorridos de solo lectura** **[!UICONTROL perfiles de producto]**:
+Para crear su **Recorridos de solo lectura** **[!UICONTROL perfiles de producto]**:
 
 1. Acceda a la [!DNL Admin Console].
 
-1. En el **[!UICONTROL Productos]** , seleccione **[!UICONTROL Experience Cloud: aplicaciones con tecnología de plataforma]** producto.
+1. Desde el **[!UICONTROL Productos]** , seleccione la pestaña **[!UICONTROL Experience Cloud: aplicaciones con tecnología de plataforma]** producto.
 
 1. Haga clic en **[!UICONTROL Nuevo perfil]**.
 
    ![](assets/do-not-localize/access_control_9.png)
 
-1. Agregue un **[!UICONTROL Nombre del perfil de producto]**, **[!UICONTROL Nombre para mostrar]** y **[!UICONTROL Descripción]** para el nuevo **[!UICONTROL perfiles de producto]**.
+1. Añadir un **[!UICONTROL Nombre del perfil del producto]**, **[!UICONTROL Nombre para mostrar]** y **[!UICONTROL Descripción]** para su nuevo **[!UICONTROL perfiles de producto]**.
 
    ![](assets/do-not-localize/access_control_10.png)
 
-1. En el **[!UICONTROL Notificaciones]** , elija si se notificará por correo electrónico a los usuarios cuando se agreguen o eliminen de este perfil de producto.
+1. En el **[!UICONTROL Notificaciones]** , elija si se notificará por correo electrónico a los usuarios cuando se agreguen o eliminen de este perfil de productos.
 
-1. Cuando termine, haga clic en **[!UICONTROL Guardar]** y seleccione el **[!UICONTROL perfiles de producto]**.
+1. Cuando termine, haga clic en **[!UICONTROL Guardar]** y seleccione el recién creado **[!UICONTROL perfiles de producto]**.
 
-1. Para agregar permisos para que los usuarios tengan acceso a diferentes funciones, seleccione la opción **[!UICONTROL Permisos]** pestaña .
+1. Para añadir permisos para que los usuarios accedan a diferentes funciones, seleccione la **[!UICONTROL Permisos]** pestaña.
 
-1. Seleccione entre las distintas funciones, como **[!DNL Journeys]**, **[!DNL Segments]** o **[!DNL Decision management]** disponible en [!DNL Journey Optimizer] en el menú de la izquierda.
+1. Seleccione entre las diferentes funcionalidades, como **[!DNL Journeys]**, **[!DNL Segments]** o **[!DNL Decision management]** disponible en [!DNL Journey Optimizer] aparece en el menú de la izquierda.
 
-   Aquí seleccionamos el **[!UICONTROL Recorridos]** capacidad.
+   Aquí se selecciona la **[!UICONTROL Recorridos]** capacidad.
 
    ![](assets/do-not-localize/access_control_11.png)
 
-1. En el **[!UICONTROL Elementos de permiso disponibles]** seleccione los permisos que desea asignar a su **[!UICONTROL Perfil del producto]** haciendo clic en el icono de signo más (+).
+1. Desde el **[!UICONTROL Elementos de permisos disponibles]** , seleccione los permisos que desea asignar a su **[!UICONTROL Perfil del producto]** haciendo clic en el icono más (+).
 
    Aquí seleccionamos **[!DNL View journeys]** y **[!DNL View journeys event, data sources, actions]**.
 
    ![](assets/do-not-localize/access_control_12.png)
 
-1. Seleccione el **[!UICONTROL Acceso a Simulador para pruebas]** capacidad para elegir qué simulador de pruebas asignar a su **[!UICONTROL Perfil del producto]**.
+1. Seleccione el **[!UICONTROL Acceso a zona protegida]** capacidad para elegir qué simulador de pruebas asignar a su **[!UICONTROL Perfil del producto]**.
 
    ![](assets/do-not-localize/access_control_13.png)
 
@@ -146,4 +146,4 @@ Para crear **Recorridos de solo lectura** **[!UICONTROL perfiles de producto]**:
 
 Su **[!UICONTROL Perfil del producto]** ahora se crea y configura. Ahora debe asignarlo a los usuarios.
 
-Para obtener más información sobre la creación y administración de perfiles de producto, consulte la [documentación del Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-product-profiles.ug.html).
+Para obtener más información sobre la creación y administración de perfiles de producto, consulte la [Documentación del Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-product-profiles.ug.html).

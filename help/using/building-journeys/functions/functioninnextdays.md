@@ -16,7 +16,7 @@ ht-degree: 18%
 
 # inNextDays {#inNextDays}
 
-Devuelve el valor verdadero si una fecha determinada o dateTime está entre ahora y ahora + días delta.
+Devuelve true si una fecha o dateTime determinados están entre ahora y ahora + días delta.
 
 ## Categoría
 

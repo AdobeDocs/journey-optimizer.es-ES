@@ -16,7 +16,7 @@ ht-degree: 11%
 
 Antes de enviar mensajes en la aplicación, debe configurar el canal en la aplicación en [!DNL Adobe Experience Platform Data Collection].
 
-1. Desde su [!DNL Adobe Experience Platform Data Collection] la cuenta, acceda a la **[!UICONTROL Datastream]** y haga clic en **[!UICONTROL Nuevo conjunto de datos]**. Para obtener más información sobre la creación de conjuntos de datos, consulte [esta página](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams).
+1. De su [!DNL Adobe Experience Platform Data Collection] Cuenta de, acceda a **[!UICONTROL Datastream]** y haga clic en **[!UICONTROL Nueva secuencia de datos]**. Para obtener más información sobre la creación de flujos de datos, consulte [esta página](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams).
 
 1. Seleccione el [!DNL Adobe Experience Platform] servicio.
 
@@ -24,23 +24,23 @@ Antes de enviar mensajes en la aplicación, debe configurar el canal en la aplic
 
    ![](assets/inapp_config_6.png)
 
-1. A continuación, acceda al **[!UICONTROL Superficies de la aplicación]** a continuación, haga clic en **[!UICONTROL Crear superficie de la aplicación]**.
+1. A continuación, acceda al **[!UICONTROL Superficies de aplicación]** y haga clic en **[!UICONTROL Crear superficie de aplicación]**.
 
    ![](assets/inapp_config_1.png)
 
-1. Añada un nombre a su **[!UICONTROL Superficie de la aplicación]**.
+1. Añada un nombre a su **[!UICONTROL Superficie de aplicación]**.
 
-1. En la lista desplegable iOS de Apple, escriba su **iOS Bundle ID**. Consulte [Documentación de Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) para obtener más información sobre **ID del paquete**.
+1. En la lista desplegable Apple iOS, escriba su **ID de paquete de iOS**. Consulte [Documentación de Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) para obtener más información sobre **ID de paquete**.
 
    ![](assets/inapp_config_2.png)
 
 1. En la lista desplegable de Android, escriba su **Nombre del paquete de Android**. Consulte [Documentación de Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) para obtener más información sobre **Nombre del paquete**.
 
-1. Haga clic en **[!UICONTROL Guardar]** cuando haya terminado la configuración de su **[!UICONTROL Superficie de la aplicación]**.
+1. Clic **[!UICONTROL Guardar]** cuando haya terminado la configuración de su **[!UICONTROL Superficie de aplicación]**.
 
    ![](assets/inapp_config_3.png)
 
-   Su **[!UICONTROL Superficie de la aplicación]** estará disponible al crear una nueva campaña con un mensaje en la aplicación. [Más información](create-in-app.md)
+   Su **[!UICONTROL Superficie de aplicación]** ahora estará disponible al crear una nueva campaña con un mensaje en la aplicación. [Más información](create-in-app.md)
 
 1. Después de crear la superficie de la aplicación, debe crear una propiedad móvil.
 
@@ -55,18 +55,18 @@ Antes de enviar mensajes en la aplicación, debe configurar el canal en la aplic
    * AEP Assurance
    * Consentimiento
    * Identificar
-   * Núcleo móvil
+   * Mobile Core
    * Perfil
 
    Consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en#add-a-new-extension) para el procedimiento detallado.
 
    ![](assets/inapp_config_5.png)
 
-Ya está configurado el canal en la aplicación. Puede empezar a enviar mensajes en la aplicación a los usuarios.
+El canal en la aplicación ya está configurado. Puede empezar a enviar mensajes en la aplicación a los usuarios.
 
 **Temas relacionados:**
 
 * [Creación de un mensaje en la aplicación ](create-in-app.md)
 * [Creación de una campaña](../campaigns/create-campaign.md)
-* [Diseño de mensajes en la aplicación](design-in-app.md)
+* [Diseño de un mensaje en la aplicación](design-in-app.md)
 * [Informe en la aplicación](../reports/campaign-global-report.md#inapp-report)

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introducción a los datos en Journey Optimizer
-description: Obtenga información sobre cómo trabajar con datos en Journey Optimizer
+description: Aprenda a trabajar con datos en Journey Optimizer
 feature: Journeys
 topic: Content Management
 role: User
@@ -18,20 +18,20 @@ ht-degree: 1%
 
 # Introducción a la administración de datos en [!DNL Journey Optimizer] {#about-data}
 
-La riqueza y la cobertura de los datos del cliente final es lo que define la solidez y el éxito de cualquier solución de experiencia del cliente; y estos datos son sagrados y tienen el mayor valor para un cliente determinado. La selección de tecnología ahora está intrínsecamente integrada con una evaluación estricta de las capacidades de administración de datos.
+La riqueza y la cobertura de los datos del cliente final es lo que define la solidez y el éxito de cualquier solución de experiencia del cliente; y estos datos son sagrados y del mayor valor para cualquier cliente dado. La selección de tecnología está ahora integrada de forma inherente con una evaluación rigurosa de las capacidades de gestión de datos.
 
-con [!DNL Adobe Journey Optimizer], puede administrar, conservar y exportar fácilmente estos datos a plataformas o sistemas que forman parte de su pila de tecnología.
+Con [!DNL Adobe Journey Optimizer]Además, puede administrar, conservar y exportar fácilmente estos datos a plataformas o sistemas que formen parte de su pila de tecnología.
 
-**Mis datos, mis reglas** - [!DNL Adobe Journey Optimizer] continuamente (y en tiempo real) crea un completo conjunto de datos de perfil del cliente, además de todos los datos de recorrido y los datos de oferta inherentes a sus operaciones. Las versiones &quot;Strawman&quot; de los datos de usuario incorporados desde sus bases de datos se enriquecen y transforman en datos de alto valor con cobertura y profundidad. Desea que estos datos sean seguros y al mismo tiempo omnipresentes, de modo que pueda aprovechar su valor en todo su ecosistema de TI.
+**Mis datos, Mis reglas** - [!DNL Adobe Journey Optimizer] crea de forma continua (y en tiempo real) un conjunto completo de datos de perfil del cliente, además de todos los datos de recorrido y los datos de ofertas inherentes a sus operaciones. Las versiones de Strawman de los datos de usuario ingeridos desde sus bases de datos se enriquecen y transforman en datos de alto valor con cobertura y profundidad. Desea que estos datos estén seguros y, al mismo tiempo, sean omnipresentes, para poder aprovechar su valor en todo el ecosistema informático.
 
-En general, la flexibilidad que desea con los datos es:
+En general, la flexibilidad que desea de sus datos es:
 
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
   <td>
     <div><img alt="destinos" src="assets/do-not-localize/dest.png" /> 
-    <br>Disponible en otros destinos: Aunque [!DNL Adobe Journey Optimizer] sinergia e integra los datos para una experiencia de cliente hiperpersonalizada, desea estos datos en otros sistemas del entorno tecnológico general, mientras busca otras formas de aprovechar estos datos.
+    <br>Disponible en otros destinos - Mientras [!DNL Adobe Journey Optimizer] establece una sinergia e integra los datos para lograr una experiencia del cliente hiperpersonalizada; desea que estos datos se transmitan a otros sistemas del panorama tecnológico general, mientras busca otras formas de aprovechar estos datos.
     <div>
      <a href="../start/ajo-integrations.md">Más información</a></div>
     </div>
@@ -50,7 +50,7 @@ En general, la flexibilidad que desea con los datos es:
 <tr style="border: 0;">
   <td>
     <div><img alt="directiva" src="assets/do-not-localize/policy.png" /> 
-    <br>Se eliminan las bases de una cronología acordada para su política: la eliminación de datos es un aspecto crítico de la protección de datos y es un paso clave en todos los procesos de control de datos. [!DNL Adobe Journey Optimizer] pueden producir más datos de los necesarios. Además, desea tener el máximo cuidado con lo que sucede después de la duración requerida para un conjunto de datos, ya sea por la utilidad o la regulación. El control que necesita es eliminar datos en un momento dado. 
+    <br>Eliminación de la base de una cronología acordada para la política: la eliminación de datos es un aspecto crítico de la protección de datos y un paso clave en todos los procesos de gobernanza de datos. [!DNL Adobe Journey Optimizer] puede producir más datos de los necesarios. Además, debe tener el máximo cuidado con lo que sucede después de la duración requerida para un conjunto de datos, ya sea por utilidad o por regulación. El control que necesita es eliminar datos en cualquier momento dado. 
     </div>
       <div>
      <a href="../privacy/data-hygiene.md">Más información</a></div>
@@ -59,13 +59,13 @@ En general, la flexibilidad que desea con los datos es:
 </tr>
 </table>
 
-[!DNL Adobe Experience Platform], sobre el cual [!DNL Adobe Journey Optimizer] está creado, le proporciona los niveles más altos de control de datos durante la participación, así como al final de la participación. Within [!DNL Journey Optimizer], tiene control total sobre los datos (introducidos o generados por, [!DNL Journey Optimizer]), la administración superpuesta a esos datos y los destinos a los que se envían.
+[!DNL Adobe Experience Platform], en el que [!DNL Adobe Journey Optimizer] se ha creado, proporciona los niveles más altos de control de datos para usted, durante la participación y al final de la misma. En [!DNL Journey Optimizer], tiene control total sobre los datos (que se introducen en o se generan mediante, [!DNL Journey Optimizer]), la gobernanza superpuesta a esos datos y los destinos a los que se envían esos datos.
 
-Todos los datos se consideran propiedad de los clientes y solo se pueden mantener, encriptar, distribuir o destruir a petición suya. Adobe actúa como su fiduciario, sin ningún derecho a sus datos.
+Todos los datos se consideran propiedad de los clientes y solo pueden mantenerse, cifrarse, distribuirse o destruirse si así lo solicita. Adobe actúa como su fiduciario, sin absolutamente ningún derecho a sus datos.
 
-Puede usar la variable [!DNL Journey Optimizer]la flexibilidad de los datos de para satisfacer sus requisitos específicos relacionados con la retención, el archiving o la eliminación de datos:
+Puede usar el complemento [!DNL Journey Optimizer]Flexibilidad de datos de para satisfacer sus requisitos específicos relacionados con la retención, el archivado o la eliminación de datos:
 
-* **Extracción/exportación de datos**: Puede iniciar la extracción de datos de origen en cualquier momento a través de la API de acceso a datos sin penalizaciones ni retrasos en el tiempo. La variable [API de acceso a datos](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html){target="_blank"} proporciona a los usuarios una interfaz RESTful centrada en la capacidad de detección y accesibilidad de conjuntos de datos ingestados dentro de [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **Extracción/exportación de datos**: Puede iniciar la extracción de los datos de origen en cualquier momento mediante la API de acceso a datos sin penalizaciones ni retrasos. El [API de acceso a datos](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html){target="_blank"} proporciona a los usuarios una interfaz RESTful centrada en la detección y accesibilidad de conjuntos de datos ingeridos dentro de [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
    Tenga en cuenta que el contenido utilizado en recorridos o campañas no se puede extraer mediante los métodos API o Destination mencionados anteriormente.
 
@@ -75,9 +75,9 @@ Puede usar la variable [!DNL Journey Optimizer]la flexibilidad de los datos de p
   Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target="_blank"}.
 -->
 
-* **Purgas y mecanismos de archivado**: La depuración de datos y el archivado se pueden definir y automatizar libremente en [!DNL Adobe Journey Optimizer] para automatizar las políticas de retención de datos. Es posible definir diferentes estrategias de envejecimiento para las diferentes entidades de datos. También se pueden definir mecanismos de exportación para exportar automáticamente los datos de antigüedad antes de depurarlos o archivarlos.
+* **Depuraciones y mecanismos de archivado**: la depuración de datos y el archivado se pueden definir y automatizar libremente en [!DNL Adobe Journey Optimizer] para automatizar las políticas de retención de datos. Es posible definir diferentes estrategias de caducidad para las distintas entidades de datos. También se pueden definir mecanismos de exportación para exportar automáticamente los datos de caducidad antes de depurarlos o archivarlos.
 
-   El espacio de trabajo Higiene de los datos le permite crear y supervisar diversas tareas de higiene de los datos, incluida la eliminación de identidades de consumidores y la programación de caducidades de conjuntos de datos. Este espacio de trabajo está disponible con el Escudo de seguridad y privacidad y con el Escudo de salud. Obtenga más información en [esta página](../privacy/data-hygiene.md).
+   El espacio de trabajo Higiene de datos le permite crear y supervisar varias tareas de higiene de datos, incluida la eliminación de identidades de consumidores y la programación de la caducidad de conjuntos de datos. Este espacio de trabajo está disponible con el Escudo de seguridad y privacidad y con el Escudo de atención sanitaria. Obtenga más información en [esta página](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:
@@ -87,6 +87,6 @@ Puede usar la variable [!DNL Journey Optimizer]la flexibilidad de los datos de p
 
 -->
 
-* **Extracción de datos al finalizar o salir del compromiso**: Cuando finaliza el contrato, los datos se eliminan completamente del espacio de almacenamiento del Adobe. Además, puede extraer extractos de perfil completos antes de finalizar un acuerdo. Esta función no conlleva ningún coste adicional. Esto se puede hacer en cualquier momento y no sólo una vez terminada.
+* **Extracción de datos al finalizar la participación/salida**: cuando se rescinde el contrato, los datos se eliminan por completo del espacio de almacenamiento de Adobe. Además, puede extraer extractos de perfiles completos antes de finalizar un acuerdo. Esta función no supone ningún coste adicional. Esto se puede hacer en cualquier momento y no solo tras la finalización.
 
-Los métodos anteriores se definen contractualmente y se exponen detalladamente en el acuerdo de procesamiento de datos (DPA) que el Adobe está de acuerdo entre sí al principio de una participación. aplicaciones de Adobe, incluidas [!DNL Journey Optimizer], se diseñan según el principio de que los datos de cada cliente se tratan como activos de datos propietarios del cliente.
+Los métodos anteriores están definidos contractualmente y expuestos en detalle en el acuerdo de procesamiento de datos (DPA) que el Adobe acuerda mutuamente con usted al principio de una participación. aplicaciones de Adobe, incluidas [!DNL Journey Optimizer], se diseñan en torno al principio de que los datos de cada cliente se traten como el recurso de datos propiedad de ese cliente.

@@ -1,6 +1,6 @@
 ---
 title: Eliminar una colección
-description: Las colecciones son subconjuntos de ofertas basados en condiciones predefinidas definidas definidas por un especialista en marketing, como la categoría de la oferta.
+description: Las colecciones son subconjuntos de ofertas basados en condiciones predefinidas definidas definidas por un experto en marketing, como la categoría de la oferta.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # Eliminar una colección {#delete-collection}
 
-Ocasionalmente puede ser necesario eliminar (DELETE) una colección. Solo se pueden eliminar las colecciones creadas en el contenedor de inquilino. Para ello, realiza una solicitud de DELETE al [!DNL Offer Library] API que utiliza el $id de la colección que desea eliminar.
+Ocasionalmente puede ser necesario eliminar (DELETE) una colección. Solo se pueden eliminar las colecciones que cree en el contenedor de inquilino. Esto se hace realizando una solicitud de DELETE a [!DNL Offer Library] API que utiliza el $id de la colección que desea eliminar.
 
 **Formato de API**
 
@@ -26,8 +26,8 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Contenedor donde se encuentran las colecciones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | ID de instancia de la colección que desea actualizar. | `0bf31c20-13f1-11eb-a752-e58fd7dc4cb3` |
+| `{CONTAINER_ID}` | El contenedor donde se encuentran las colecciones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | El ID de instancia de la colección que desea actualizar. | `0bf31c20-13f1-11eb-a752-e58fd7dc4cb3` |
 
 **Solicitud**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 Una respuesta correcta devuelve el estado HTTP 202 (sin contenido) y un cuerpo en blanco.
 
-Puede confirmar la eliminación intentando realizar una solicitud de búsqueda (GET) a la colección. Deberá incluir un encabezado Accept en la solicitud, pero recibirá un estado HTTP 404 (No encontrado) porque la colección se ha eliminado del contenedor.
+Para confirmar la eliminación, intente realizar una solicitud de búsqueda (GET) en la colección. Deberá incluir un encabezado Aceptar en la solicitud, pero deberá recibir el estado HTTP 404 (no encontrado) porque la colección se ha eliminado del contenedor.

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Sintaxis
-description: Obtenga información sobre el editor de expresiones avanzadas
+description: Obtenga información acerca del editor de expresiones avanzadas
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 4%
 
 ---
 
-# Sintaxis del editor de expresiones avanzadas {#syntax}
+# Sintaxis avanzada del editor de expresiones {#syntax}
 
 ## Paréntesis y prioridad de expresión{#parentheses-and-expression-priority}
 
-Los paréntesis se pueden utilizar para que una expresión compleja sea más legible. _(&lt;expression>)_ es el equivalente de _&lt;expression>_. Los paréntesis también se pueden utilizar para definir el orden de evaluación y la asociatividad.
+Los paréntesis se pueden utilizar para hacer que una expresión compleja sea más legible. _(&lt;expression>)_ es el equivalente de _&lt;expression>_. Los paréntesis también pueden utilizarse para definir el orden de evaluación y la asociatividad.
 
-Las expresiones se evalúan de izquierda a derecha. Se debe aplicar la asociatividad en los operadores aritméticos: las multiplicaciones y las divisiones tienen prioridad sobre las adiciones y sustracciones. Para imponer un orden específico, se debe añadir un paréntesis para delimitar las operaciones. Por ejemplo:
+Las expresiones se evalúan de izquierda a derecha. Se debe aplicar la asociatividad en operadores aritméticos: las multiplicaciones y divisiones tienen prioridad sobre las sumas y las restas. Para imponer un orden específico, se deben añadir paréntesis para delimitar las operaciones. Por ejemplo:
 
 <!--```5 + 2 * 10 = 25, and (5 + 2) * 10 = 70```-->
 
@@ -32,11 +32,11 @@ Las expresiones se evalúan de izquierda a derecha. Se debe aplicar la asociativ
 
 ## Distinción entre mayúsculas y minúsculas{#case-sensitivity}
 
-Estas son las distintas reglas de distinción entre mayúsculas y minúsculas:
+Estas son las diferentes reglas de distinción de mayúsculas y minúsculas:
 
-* Todos los operadores (y, o, etc.) debe escribirse en minúsculas. Por ejemplo, _`<expression1>`y`<expression2>`_ es una expresión válida, mientras que la expresión _`<expression1>`Y`<expression2>`_ no.
-* Todos los nombres de funciones distinguen entre mayúsculas y minúsculas. Por ejemplo, _inSegment()_ es válido mientras que la función _INSEGMENT()_ no.
-* Las referencias de campo y los valores constantes distinguen entre mayúsculas y minúsculas: no son elementos integrados del idioma (a diferencia de los operadores y funciones), los crea el usuario final.
+* Todos los operadores (y, o, etc.) debe escribirse en minúsculas. Por ejemplo, _`<expression1>`y`<expression2>`_ es una expresión válida, mientras que _`<expression1>`Y`<expression2>`_ no es.
+* Todos los nombres de función distinguen entre mayúsculas y minúsculas. Por ejemplo, _inSegment()_ es válida, mientras que la función _INSEGMENT()_ no es.
+* Las referencias de campo y los valores constantes distinguen entre mayúsculas y minúsculas: no son elementos integrados del lenguaje (a diferencia de operadores y funciones), son creados por el usuario final.
 
 ## Tipo de expresión devuelto{#returned-expression-type}
 

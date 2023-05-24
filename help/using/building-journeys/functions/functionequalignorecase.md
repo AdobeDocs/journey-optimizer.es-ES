@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: equalIgnoreCase
-description: Obtenga información sobre la función equalIgnoreCase
+description: Obtenga información acerca de la función equalIgnoreCase
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -16,7 +16,7 @@ ht-degree: 17%
 
 # equalIgnoreCase {#equalIgnoreCase}
 
-Compara la primera cadena de argumento con la segunda cadena de argumento, ignorando las consideraciones de mayúsculas y minúsculas.
+Compara la cadena del primer argumento con la cadena del segundo, ignorando las consideraciones de mayúsculas y minúsculas.
 
 ## Categoría
 

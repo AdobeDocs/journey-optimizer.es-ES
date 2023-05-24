@@ -15,11 +15,11 @@ ht-degree: 12%
 
 # Crear una oferta de reserva {#create-fallback-offer}
 
-Puede crear una oferta de reserva realizando una solicitud de POST al [!DNL Offer Library] al proporcionar su ID de contenedor.
+Puede crear una oferta de reserva realizando una solicitud de POST a [!DNL Offer Library] API, al tiempo que proporciona su ID de contenedor.
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La tabla siguiente muestra los valores válidos que comprenden el *Content-Type* y *Accept* campos en el encabezado de la solicitud:
+La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* y *Aceptar* campos en el encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -71,7 +71,7 @@ curl -X POST \
 
 **Respuesta**
 
-Una respuesta correcta devuelve información sobre la oferta de reserva recién creada, incluida su ID de instancia única y su ubicación `@id`. Puede utilizar el ID de instancia en pasos posteriores para actualizar o eliminar la oferta de reserva. Puede utilizar su oferta de reserva única `@id` en un tutorial posterior para crear una decisión.
+Una respuesta correcta devuelve información sobre la oferta de reserva recién creada, incluido su ID de instancia y ubicación únicos `@id`. Puede usar el ID de instancia en pasos posteriores para actualizar o eliminar la oferta de reserva. Puede utilizar su oferta de reserva única `@id` en un tutorial posterior para crear una decisión.
 
 
 ```json

@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # Operadores {#operators}
 
-Existen dos tipos de operadores: operadores unarios y operadores binarios. Hay operadores unarios a la izquierda y operadores unarios a la derecha.
+Existen dos tipos de operadores: operadores unarios y operadores binarios. Hay operadores unarios de la izquierda y operadores unarios de la derecha.
 
 ```json
 // left-hand unary operators
@@ -38,11 +38,11 @@ not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
 ## Notas importantes{#important-notes}
 
-* Cuando se utiliza una multiplicación (`*`), ambos campos de operación deben tener el mismo tipo, entero o decimal. Por ejemplo :
+* Cuando se utiliza una multiplicación (`*`), ambos campos de operación deben tener el mismo tipo, ya sea entero o decimal. Por ejemplo :
    * el siguiente ejemplo es correcto: `3.0 * 4.0`
-   * `3 * 4.0` generará un error
+   * `3 * 4.0` dará lugar a un error
 
-## Lógica  {#logical}
+## Lógico  {#logical}
 
 ### y
 
@@ -50,7 +50,7 @@ not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 <expression1> and <expression2>
 ```
 
-Ambas &lt;expression1> y &lt;expression2> debe ser booleano. El resultado es booleano.
+Ambos &lt;expression1> y &lt;expression2> debe ser booleano. El resultado es booleano.
 
 Por ejemplo:
 
@@ -64,7 +64,7 @@ Por ejemplo:
 <expression1> or <expression2>
 ```
 
-Ambas &lt;expression1> y &lt;expression2> debe ser booleano. El resultado es booleano.
+Ambos &lt;expression1> y &lt;expression2> debe ser booleano. El resultado es booleano.
 
 Por ejemplo:
 
@@ -72,7 +72,7 @@ Por ejemplo:
 3.14 > 2 or 3.15 < 1
 ```
 
-### not
+### no
 
 ```json
 not <expression>
@@ -96,7 +96,7 @@ not 3.15 < 1
 
 El resultado es booleano.
 
-Tenga en cuenta que null significa que la expresión no tiene ningún valor evaluado.
+Tenga en cuenta que nulo significa que la expresión no tiene ningún valor evaluado.
 
 Por ejemplo:
 
@@ -112,7 +112,7 @@ Por ejemplo:
 
 El resultado es booleano.
 
-Tenga en cuenta que null significa que la expresión no tiene ningún valor evaluado.
+Tenga en cuenta que nulo significa que la expresión no tiene ningún valor evaluado.
 
 Por ejemplo:
 
@@ -120,7 +120,7 @@ Por ejemplo:
 @{BarBeacon.location} is not null
 ```
 
-### tiene nulo
+### tiene null
 
 ```json
 <expression> has null
@@ -128,7 +128,7 @@ Por ejemplo:
 
 &lt;expression> debe ser una lista. El resultado es booleano.
 
-Es útil para identificar que una lista contiene al menos un valor nulo.
+Resulta útil para identificar que una lista contiene al menos un valor nulo.
 
 Por ejemplo:
 
@@ -142,7 +142,7 @@ Devuelve verdadero
 ["foo", "bar", ""] has null
 ```
 
-Devuelve false porque &quot;&quot; no se considera nulo.
+Devuelve falso porque &quot;&quot; no se considera nulo.
 
 ### ==
 
@@ -152,7 +152,7 @@ Devuelve false porque &quot;&quot; no se considera nulo.
 
 >[!NOTE]
 >
->Para &lt;expression1> y &lt;expression2> no hay control de tipo de datos.
+>Para &lt;expression1> y &lt;expression2> no hay ningún control de tipo de datos.
 
 Por ejemplo:
 
@@ -171,7 +171,7 @@ Por ejemplo:
 ```
 
 >[!NOTE]
-Para &lt;expression1> y &lt;expression2> no hay control de tipo de datos.
+Para &lt;expression1> y &lt;expression2> no hay ningún control de tipo de datos.
 
 El resultado es booleano.
 
@@ -191,13 +191,13 @@ Por ejemplo:
 <expression1> > <expression2>
 ```
 
-La fecha y la hora se pueden comparar con la fecha y la hora.
+Datetime se puede comparar con Datetime.
 
-Datetimeonly puede compararse con Datetimeonly.
+Datetimeonly se puede comparar con Datetimeonly.
 
-Tanto el entero como el decimal se pueden comparar con el entero o con el decimal.
+Tanto el entero como el decimal pueden compararse con ambos valores, entero o decimal.
 
-Se prohíbe cualquier otra combinación.
+Cualquier otra combinación está prohibida.
 
 El resultado es booleano.
 
@@ -213,13 +213,13 @@ Por ejemplo:
 <expression1> >= <expression2>
 ```
 
-La fecha y la hora se pueden comparar con la fecha y la hora.
+Datetime se puede comparar con Datetime.
 
-Datetimeonly puede compararse con Datetimeonly.
+Datetimeonly se puede comparar con Datetimeonly.
 
-Tanto el entero como el decimal se pueden comparar con el entero o con el decimal.
+Tanto el entero como el decimal pueden compararse con ambos valores, entero o decimal.
 
-Se prohíbe cualquier otra combinación.
+Cualquier otra combinación está prohibida.
 
 El resultado es booleano.
 
@@ -235,13 +235,13 @@ Por ejemplo:
 <expression1> < <expression2>
 ```
 
-La fecha y la hora se pueden comparar con la fecha y la hora.
+Datetime se puede comparar con Datetime.
 
-Datetimeonly puede compararse con Datetimeonly.
+Datetimeonly se puede comparar con Datetimeonly.
 
-Tanto el entero como el decimal se pueden comparar con el entero o con el decimal.
+Tanto el entero como el decimal pueden compararse con ambos valores, entero o decimal.
 
-Se prohíbe cualquier otra combinación.
+Cualquier otra combinación está prohibida.
 
 El resultado es booleano.
 
@@ -257,13 +257,13 @@ Por ejemplo:
 <expression1> <= <expression2>
 ```
 
-La fecha y la hora se pueden comparar con la fecha y la hora.
+Datetime se puede comparar con Datetime.
 
-Datetimeonly puede compararse con Datetimeonly.
+Datetimeonly se puede comparar con Datetimeonly.
 
-Tanto el entero como el decimal se pueden comparar con el entero o con el decimal.
+Tanto el entero como el decimal pueden compararse con ambos valores, entero o decimal.
 
-Se prohíbe cualquier otra combinación.
+Cualquier otra combinación está prohibida.
 
 El resultado es booleano.
 
@@ -281,7 +281,7 @@ Por ejemplo:
 <expression1> + <expression2>
 ```
 
-Ambas expresiones deben ser numéricas (números enteros o decimales).
+Ambas expresiones deben ser numéricas (enteras o decimales).
 
 El resultado también es numérico.
 
@@ -299,7 +299,7 @@ Devuelve 3
 <expression1> - <expression2>
 ```
 
-Ambas expresiones deben ser numéricas (números enteros o decimales).
+Ambas expresiones deben ser numéricas (enteras o decimales).
 
 El resultado también es numérico.
 
@@ -317,7 +317,7 @@ Devuelve 1
 <expression1> / <expression2>
 ```
 
-Ambas expresiones deben ser numéricas (números enteros o decimales).
+Ambas expresiones deben ser numéricas (enteras o decimales).
 
 El resultado también es numérico.
 
@@ -337,7 +337,7 @@ Devuelve 2
 <expression1> * <expression2>
 ```
 
-Ambas expresiones deben ser numéricas (números enteros o decimales).
+Ambas expresiones deben ser numéricas (enteras o decimales).
 
 El resultado también es numérico.
 
@@ -355,7 +355,7 @@ Devuelve 12
 <expression1> % <expression2>
 ```
 
-Ambas expresiones deben ser numéricas (números enteros o decimales).
+Ambas expresiones deben ser numéricas (enteras o decimales).
 
 El resultado también es numérico.
 
@@ -375,7 +375,7 @@ Devuelve 1.
 <expression> is numeric
 ```
 
-El tipo de la expresión es integer o decimal.
+El tipo de expresión es entero o decimal.
 
 Por ejemplo:
 
@@ -383,13 +383,13 @@ Por ejemplo:
 @ is numeric
 ```
 
-### is integer
+### es entero
 
 ```json
 <expression> is integer
 ```
 
-El tipo de la expresión es integer.
+El tipo de expresión es entero.
 
 Por ejemplo:
 
@@ -455,7 +455,7 @@ Devuelve &quot;abc1234&quot;.
 <expression> + <duration>
 ```
 
-Anexe una duración a dateTime, dateTimeOnly o una duración.
+Anexe una duración a dateTime, dateTimeOnly o duration.
 
 Por ejemplo:
 
@@ -463,19 +463,19 @@ Por ejemplo:
 (toDateTime("2011-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-Devuelve un _dateTime_ 2011-12-03T15:30:30Z
+Devuelve un _dateTime_ 03-12-2011:30:30Z
 
 ```json
 (toDateTimeOnly("2011-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
-Devuelve un _dateTimeOnly_ 2011-12-03T15:30:30
+Devuelve un _dateTimeOnly_ 03-12-2011:30:30
 
 ```json
 (now()) + (toDuration("PT1H"))
 ```
 
-Devuelve un _dateTime_ (con zona horaria UTC) una hora después de la hora actual
+Devuelve un _dateTime_ (con zona horaria UTC) una hora más tarde que la hora actual
 
 ```json
 (toDuration("PT1H")) + (toDuration("PT1H"))

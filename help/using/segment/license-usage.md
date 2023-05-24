@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Panel de uso de licencias
-description: Obtenga información sobre el panel de uso de licencias de Journey Optimizer
+title: Tablero de uso de licencias
+description: Obtenga información acerca del tablero de uso de licencias de Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -15,20 +15,20 @@ ht-degree: 12%
 
 ---
 
-# Panel de uso de licencias {#license-usage}
+# Tablero de uso de licencias {#license-usage}
 
-La variable [!DNL Adobe Journey Optimizer] [interfaz de usuario](../start/user-interface.md) proporciona un tablero que muestra información importante sobre el uso de licencias de su organización, según se captura durante una instantánea diaria.
+El [!DNL Adobe Journey Optimizer] [interfaz de usuario](../start/user-interface.md) proporciona un tablero que muestra información importante sobre el uso de licencias de su organización, tal y como se captura durante una instantánea diaria.
 
-Para acceder a este tablero, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Uso de licencias]**. Esto abre el **[!UICONTROL Información general]** que muestra el tablero.
+Para acceder a este panel, vaya a **[!UICONTROL Administration]** > **[!UICONTROL Uso de licencias]**. Esto abre el **[!UICONTROL Información general]** pestaña que muestra el tablero.
 
 ![](assets/license-usage-dashboard.png)
 
 >[!NOTE]
 >
->Para poder ver el panel, se debe otorgar el [Ver panel de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=en#available-permissions){target="_blank"} permiso.
+>Para poder ver el panel, se le debe otorgar el [Ver tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=en#available-permissions){target="_blank"} permiso.
 
 Obtenga más información en la documentación de Adobe Experience Platform:
 
-* [Resumen del panel de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=es){target="_blank"}
-* [Exploración del panel de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [Resumen del tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=es){target="_blank"}
+* [Exploración del tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
 * [Métricas disponibles](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=es#available-metrics){target="_blank"}

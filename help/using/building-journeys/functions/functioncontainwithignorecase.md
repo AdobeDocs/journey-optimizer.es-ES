@@ -16,7 +16,7 @@ ht-degree: 21%
 
 # containIgnoreCase {#containIgnoreCase}
 
-Comprueba si la segunda cadena de argumento está contenida en la primera cadena de argumento, sin tener en cuenta las mayúsculas y minúsculas.
+Comprueba si la cadena del segundo argumento está contenida en la cadena del primer argumento, sin tener en cuenta el caso.
 
 ## Categoría
 

@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: en
-description: Obtenga información sobre la función en
+description: Obtenga información acerca de la función en
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: in, función, expresión, recorrido
+keywords: en, función, expresión, recorrido
 exl-id: 629b7aa3-8904-453b-ba3c-c6a333b13c81
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,9 +16,9 @@ ht-degree: 20%
 
 # en {#in}
 
-Comprueba si el primer valor de argumento está en la lista. La comprobación se realiza mediante un valor Equal en cada valor de argumento. Devuelve true si se encuentra el valor del argumento, false en caso contrario.
+Comprueba si el primer valor del argumento está en la lista. La comprobación se realiza mediante un valor Equal en cada argumento value. Devuelve true si se encuentra el valor del argumento; en caso contrario, devuelve false.
 
-El tipo de `<expression>` debe coincidir con elementos de la lista. Los tipos de elementos de la lista, como recordatorio, deben coincidir entre sí.
+El tipo de `<expression>` debe coincidir con los elementos de la lista. Los tipos de elementos de la lista, como recordatorio, deben coincidir entre sí.
 
 ## Categoría
 
@@ -66,7 +66,7 @@ Lista
 
 `in(<duration>,<listDuration>)`
 
-Devuelve un booleano.
+Devuelve un valor booleano.
 
 ## Ejemplo
 

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Previsualizar y probar el mensaje SMS
-description: Obtenga información sobre cómo previsualizar y probar el mensaje SMS en Journey Optimizer
+title: Previsualización y prueba del mensaje SMS
+description: Obtenga información sobre cómo previsualizar y probar su mensaje SMS en Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -15,23 +15,23 @@ ht-degree: 12%
 
 ---
 
-# Previsualizar y probar el mensaje SMS {#send-sms}
+# Previsualización y prueba del mensaje SMS {#send-sms}
 
 ## Previsualización de SMS {#preview-sms}
 
-Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este contenido en el mensaje mediante los datos de perfil de prueba.
+Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje con los datos del perfil de prueba.
 
-1. Haga clic en **[!UICONTROL Simular contenido]**.
+1. Clic **[!UICONTROL Simular contenido]**.
 
-1. Haga clic en **[!UICONTROL Administrar perfiles de prueba]** para agregar un perfil de prueba.
+1. Clic **[!UICONTROL Administración de perfiles de prueba]** para añadir un perfil de prueba.
 
 1. Busque el perfil de prueba con la variable **[!UICONTROL Área de nombres de identidad]** y **[!UICONTROL Valor de identidad]** campos. A continuación, haga clic en **[!UICONTROL Añadir perfil]**.
 
    ![](assets/sms_preview_3.png)
 
-1. Una vez que haya seleccionado el perfil de prueba, puede cerrar el **[!UICONTROL Añadir perfil de prueba]** ventana.
+1. Una vez seleccionado el perfil de prueba, puede cerrar el **[!UICONTROL Añadir perfil de prueba]** ventana.
 
-1. En el **Vista previa y prueba** , los datos del perfil de prueba se añaden al contenido del mensaje.
+1. Desde el **Previsualización y prueba** , los datos de perfil de prueba se añaden al contenido del mensaje.
 
    ![](assets/sms_preview_2.png)
 
@@ -50,9 +50,9 @@ Debe comprobar las alertas en la sección superior del editor. Algunas son simpl
 >
 > Para mejorar la capacidad de envío, utilice los números de teléfono en los formatos admitidos por el proveedor. Por ejemplo, Twilio y Sinch solo admiten números de teléfono en formato E.164.
 
-## Envíe su SMS{#sms-send}
+## Envío de SMS{#sms-send}
 
-Cuando el mensaje SMS esté listo, complete la configuración de su [recorrido](../building-journeys/journey-gs.md) o [campaign](../campaigns/create-campaign.md) para enviarlo.
+Cuando el mensaje SMS esté listo, complete la configuración de su [recorrido](../building-journeys/journey-gs.md) o [campaña](../campaigns/create-campaign.md) para enviarlo.
 
 **Temas relacionados**
 

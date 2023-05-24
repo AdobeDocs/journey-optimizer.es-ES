@@ -1,6 +1,6 @@
 ---
-title: Buscar una colección
-description: Las colecciones son subconjuntos de ofertas basados en condiciones predefinidas definidas definidas por un especialista en marketing, como la categoría de la oferta.
+title: Búsqueda de una colección
+description: Las colecciones son subconjuntos de ofertas basados en condiciones predefinidas definidas definidas por un experto en marketing, como la categoría de la oferta.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -13,11 +13,11 @@ ht-degree: 3%
 
 ---
 
-# Buscar una colección {#look-up-collection}
+# Búsqueda de una colección {#look-up-collection}
 
-Las colecciones son subconjuntos de ofertas basados en condiciones predefinidas definidas definidas por un especialista en marketing, como la categoría de la oferta.
+Las colecciones son subconjuntos de ofertas basados en condiciones predefinidas definidas definidas por un experto en marketing, como la categoría de la oferta.
 
-Puede buscar colecciones específicas realizando una solicitud de GET al [!DNL Offer Library] API que incluye la colección `@id` o el nombre de la colección en la ruta de solicitud.
+Puede buscar colecciones específicas realizando una solicitud de GET a la variable [!DNL Offer Library] API que incluye la colección `@id` o el nombre de la colección en la ruta de solicitud.
 
 **Formato de API**
 
@@ -28,10 +28,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Contenedor donde se encuentran las colecciones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | El contenedor donde se encuentran las colecciones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FILTER}` | Define el esquema asociado a las colecciones. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | Una cadena que se usa para hacer coincidir con la variable `@id` propiedad de las entidades. La cadena coincide exactamente. Los parámetros `id` y `name` no se puede usar juntos. | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | Cadena que se utiliza para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se puede usar juntos | `Mobile demo` |
+| `id` | Una cadena utilizada para hacer coincidir el `@id` propiedad de las entidades. La cadena coincide exactamente. Los parámetros `id` y `name` no se pueden usar juntos. | `xcore:offer-filter:124bd44648f17ec1` |
+| `name` | Cadena utilizada para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se pueden usar juntos | `Mobile demo` |
 
 **Solicitud**
 
@@ -47,7 +47,7 @@ curl -X GET \
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles de la ubicación, incluida la información sobre el ID del contenedor, el ID de instancia y la recopilación única `@id`.
+Una respuesta correcta devuelve los detalles de la ubicación, incluida la información acerca del ID de contenedor, el ID de instancia y la colección única `@id`.
 
 ```json
 {

@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Cambiar las direcciones de ejecución
-description: Aprenda a determinar qué dirección de correo electrónico utilizar desde el servicio de perfil.
+title: Cambio de las direcciones de ejecución
+description: Obtenga información sobre cómo determinar qué dirección de correo electrónico utilizar desde el servicio de perfil.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: principal, ejecución, correo electrónico, destino, perfil, optimizador
+keywords: principal, ejecución, correo electrónico, destinatario, perfil, optimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 23%
 
 ---
 
-# Cambiar las direcciones de ejecución {#change-primary-email}
+# Cambio de las direcciones de ejecución {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
@@ -28,17 +28,17 @@ ht-degree: 23%
 >title="Definir qué dirección utilizar"
 >abstract="Edite los campos utilizados para determinar la dirección de correo electrónico o el número de teléfono de los perfiles que desea priorizar para el envío."
 
-Cuando se segmenta un perfil, es posible que haya varias direcciones de correo electrónico o números de teléfono disponibles en la base de datos (dirección de correo electrónico profesional, número de teléfono personal, etc.).
+Al segmentar un perfil, pueden estar disponibles en la base de datos varias direcciones de correo electrónico o números de teléfono (dirección de correo electrónico profesional, número de teléfono personal, etc.).
 
-En ese caso, [!DNL Journey Optimizer] uses **[!UICONTROL Campos de ejecución]** para determinar qué dirección de correo electrónico o número de teléfono utilizar desde el servicio de perfil en prioridad.
+En ese caso, [!DNL Journey Optimizer] utiliza **[!UICONTROL Campos de ejecución]** para determinar qué dirección de correo electrónico o número de teléfono utilizar del servicio de perfil con prioridad.
 
-Para comprobar los campos que se utilizan actualmente de forma predeterminada, acceda al **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL General]** > **[!UICONTROL Campos de ejecución]** para abrir el Navegador.
+Para comprobar los campos que se utilizan de forma predeterminada, acceda al **[!UICONTROL Administration]** > **[!UICONTROL Canales]** > **[!UICONTROL General]** > **[!UICONTROL Campos de ejecución]** menú.
 
 ![](assets/primary-address-execution-fields.png)
 
-Los valores actuales se utilizan para todas las entregas en el nivel de entorno limitado. Puede actualizar estos campos si es necesario.
+Los valores actuales se utilizan para todas las entregas a nivel de zona protegida. Puede actualizar estos campos si es necesario.
 
-En la mayoría de los casos, cambiará un campo de ejecución globalmente y definirá un valor que debe utilizarse para todos los mensajes de correo electrónico o SMS. <!--[Learn how](#admin-settings)-->
+En la mayoría de los casos, se cambia un campo de ejecución globalmente y se define un valor que debe utilizarse para todos los mensajes de correo electrónico o SMS. <!--[Learn how](#admin-settings)-->
 
 <!--In some specific use cases only, you can override the value set globally and define a different value at the journey level. [Learn more](#journey-parameters)-->
 
@@ -46,9 +46,9 @@ En la mayoría de los casos, cambiará un campo de ejecución globalmente y defi
 
 Para cambiar los campos de ejecución globalmente en el nivel de entorno limitado, siga los pasos a continuación.
 
-1. Acceda a la  **[!UICONTROL Canales]** > **[!UICONTROL General]** > **[!UICONTROL Campos de ejecución]** para abrir el Navegador.
+1. Acceda a la  **[!UICONTROL Canales]** > **[!UICONTROL General]** > **[!UICONTROL Campos de ejecución]** menú.
 
-1. Haga clic en **[!UICONTROL Editar]** para cambiar los valores predeterminados.
+1. Clic **[!UICONTROL Editar]** para cambiar los valores predeterminados.
 
    ![](assets/primary-address.png)
 
@@ -60,7 +60,7 @@ Para cambiar los campos de ejecución globalmente en el nivel de entorno limitad
 
    ![](assets/primary-address-select-field.png)
 
-1. Haga clic en **[!UICONTROL Guardar]** para confirmar su elección.
+1. Clic **[!UICONTROL Guardar]** para confirmar su elección.
 
 El campo de ejecución se actualiza y ahora se utiliza como dirección principal.
 
@@ -68,11 +68,11 @@ El campo de ejecución se actualiza y ahora se utiliza como dirección principal
 
 ## Anular un valor en los parámetros de recorrido {#journey-parameters}
 
-Solo para casos de uso específicos, puede anular el campo de ejecución definido globalmente y definir un valor diferente en el nivel de recorrido, en particular para el canal de correo electrónico.
+Solo para casos de uso específicos, puede anular el campo de ejecución establecido globalmente y definir un valor diferente a nivel de recorrido, en particular para el canal de correo electrónico.
 
-Al añadir un **[!UICONTROL Correo electrónico]** acción a [recorrido](../email/create-email.md#create-email-journey-campaign), la dirección de correo electrónico principal se muestra en los parámetros avanzados de recorrido.
+Al añadir un **[!UICONTROL Correo electrónico]** acción a [recorrido](../email/create-email.md#create-email-journey-campaign), la dirección de correo electrónico principal se muestra bajo el recorrido de parámetros avanzados.
 
-En algunos contextos específicos, puede anular este valor utilizando la variable **[!UICONTROL Habilitar anulación de parámetros]** a la derecha del **[!UICONTROL address]** campo .
+En algunos contextos específicos, puede anular este valor mediante la variable **[!UICONTROL Habilitar anulación de parámetros]** a la derecha del icono **[!UICONTROL dirección]** field.
 
 ![](assets/journey-enable-parameter-override.png)
 
@@ -80,7 +80,7 @@ En algunos contextos específicos, puede anular este valor utilizando la variabl
 >
 >La anulación de direcciones de correo electrónico solo debe utilizarse para casos de uso específicos. La mayoría de las veces, no es necesario cambiar la dirección de correo electrónico porque el valor definido como la dirección principal en los **[!UICONTROL Campos de ejecución]** es el que debe usarse.
 
-Anular este valor puede resultar útil, por ejemplo, para:
+Anular este valor puede resultar útil, por ejemplo, para lo siguiente:
 
-* Probar un correo electrónico. Puede añadir su propia dirección de correo electrónico: una vez publicado el recorrido, se le enviará el correo electrónico.
+* Probar un correo electrónico. Puede añadir su propia dirección de correo electrónico: después de publicar el recorrido, se le envía el correo electrónico.
 * Envíe un correo electrónico a los suscriptores de una lista. Obtenga más información en [este caso de uso](../building-journeys/message-to-subscribers-uc.md).

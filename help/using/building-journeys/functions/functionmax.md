@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: max
-description: Obtenga información sobre la función max
+description: Más información sobre la función máxima
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: max, función, expresión, recorrido
+keywords: max, function, expression, recorrido
 exl-id: 5c792d33-32b9-4b1b-ab99-3ebfac391678
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 # max{#max}
 
-Devuelve el valor máximo entre un conjunto de expresiones, dadas como una lista o dos expresiones. Se omiten los valores nulos.
+Devuelve el valor máximo entre un conjunto de expresiones, dado como una lista o dos expresiones. Los valores nulos se omiten.
 
 ## Categoría
 
@@ -52,7 +52,7 @@ Devuelve una duración.
 
 `max(<listDateTimeOnly>)`
 
-Devuelve una fecha y hora sin tener en cuenta la zona horaria.
+Devuelve una fecha y hora sin considerar la zona horaria.
 
 `max(<listDateTime>)`
 
@@ -64,11 +64,11 @@ Devuelve una fecha.
 
 `max(<listDecimal>)`
 
-Devuelve un decimal.
+Devuelve un valor decimal.
 
 `max(<decimal>,<decimal>)`
 
-Devuelve un decimal.
+Devuelve un valor decimal.
 
 `max(<duration>,<duration>)`
 
@@ -80,11 +80,11 @@ Devuelve una fecha y hora.
 
 `max(<dateTimeOnly>,<dateTimeOnly>)`
 
-Devuelve una fecha y hora sin tener en cuenta la zona horaria.
+Devuelve una fecha y hora sin considerar la zona horaria.
 
 `max(<integer>,<integer>)`
 
-Devuelve un número entero.
+Devuelve un entero.
 
 ## Ejemplos
 

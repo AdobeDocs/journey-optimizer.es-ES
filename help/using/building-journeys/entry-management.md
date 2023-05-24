@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Administración de entradas de perfil
+title: Administración de entrada de perfil
 description: Obtenga información sobre cómo administrar la entrada de perfil
 feature: Journeys
 role: User
@@ -15,15 +15,15 @@ ht-degree: 22%
 
 ---
 
-# Administración de entradas de perfil {#entry-management}
+# Administración de entrada de perfil {#entry-management}
 
-De forma predeterminada, los nuevos recorridos permiten volver a entrar. Puede desmarcar la opción de recorridos de &quot;una toma&quot;, por ejemplo, si desea ofrecer un regalo único cuando una persona entra en una tienda. En ese caso, no desea que el cliente pueda volver a entrar en el recorrido y recibir la oferta de nuevo.
+De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desmarcar la opción para recorridos de &quot;una sola vez&quot;, por ejemplo, si desea ofrecer un regalo de una sola vez cuando una persona entra en una tienda. En ese caso, no desea que el cliente pueda volver a introducir el recorrido y recibir la oferta de nuevo.
 
 ![](assets/journey-re-entrance.png)
 
-Cuando finaliza un recorrido, su estado es **[!UICONTROL Cerrado]**. Las personas nuevas ya no pueden entrar en el recorrido. Las personas que ya están en el recorrido terminan normalmente el recorrido.
+Cuando termina un recorrido, su estado es **[!UICONTROL Cerrado]**. Las nuevas personas ya no pueden entrar en el recorrido. Las personas que ya están en el recorrido terminan el recorrido normalmente.
 
-Después del tiempo de espera global predeterminado de 30 días, el recorrido cambia a la variable **Finalizado** estado.  [Más información](journey-gs.md#global_timeout).
+Después del tiempo de espera global predeterminado de 30 días, el recorrido cambia a **Finalizado** estado.  [Más información](journey-gs.md#global_timeout).
 
 
 ## Recorridos unitarios{#entry-unitary}
@@ -32,7 +32,7 @@ Los recorridos unitarios (que se inician con un evento o una calificación de se
 
 Además:
 
-* Si la reentrada está activada, un perfil puede introducir un recorrido varias veces, pero no puede hacerlo hasta que salga completamente de la instancia anterior del recorrido.
+* Si la reentrada está habilitada, un perfil puede entrar en un recorrido varias veces, pero no puede hacerlo hasta que salga completamente de la instancia anterior del recorrido.
 
 * Si la reentrada está desactivada, un perfil no puede introducir varias veces el mismo recorrido
 
@@ -40,8 +40,8 @@ Además:
 
 En un recorrido de segmento de lectura:
 
-* Para recorridos no recurrentes: el perfil se introduce una vez y solo una vez en el recorrido.
+* Para recorridos no recurrentes: el perfil introduce una vez y solo una vez el recorrido.
 
-* Para recorridos recurrentes: el perfil introduce el recorrido en cada recurrencia, si se encuentra en el estado esperado o del segmento. Si todavía estaba en el recorrido por una recurrencia anterior, lo reiniciará desde el principio.
+* Para recorridos recurrentes: el perfil introduce el recorrido en cada periodicidad, si está en el estado segmento/esperado. Si todavía estaba en el recorrido de una repetición anterior, lo reiniciará desde el principio.
 
-En recorridos de eventos empresariales que empiecen por un **Leer segmento** actividad: sabiendo que este recorrido se basa en la recepción de un evento comercial, si el perfil está cualificado en el segmento esperado, introducirá el recorrido para cada evento comercial recibido, lo que significa que este perfil puede estar varias veces en el mismo recorrido, al mismo tiempo, pero en el contexto de diferentes eventos comerciales.
+En recorridos de eventos empresariales que comienzan por una **Leer segmento** actividad: sabiendo que este recorrido se basa en la recepción de un evento empresarial, si el perfil está cualificado en el segmento esperado, introducirá el recorrido para cada evento empresarial recibido, lo que significa que este perfil puede ser varias veces en el mismo recorrido, al mismo tiempo, pero en el contexto de diferentes eventos empresariales.

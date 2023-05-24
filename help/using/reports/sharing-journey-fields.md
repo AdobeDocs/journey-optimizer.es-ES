@@ -21,13 +21,13 @@ Este grupo de campos se utiliza en el esquema de recorrido (en relación con jou
 
 ## journeyID {#journeyid-field}
 
-Id del recorrido principal.
+ID del recorrido principal.
 
 Tipo: cadena
 
 ## journeyVersionID {#journeyversionid-field}
 
-Id de la versión de recorrido. Este id representa la identidad de un recorrido.
+ID de la versión del recorrido. Este ID representa la identidad de un recorrido.
 
 Tipo: cadena
 
@@ -37,7 +37,7 @@ Nombre del recorrido.
 
 Tipo: cadena
 
-## description {#description-field}
+## descripción {#description-field}
 
 Descripción del recorrido.
 

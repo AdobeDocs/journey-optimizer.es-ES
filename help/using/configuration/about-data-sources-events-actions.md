@@ -23,7 +23,7 @@ ht-degree: 80%
 >title="Acerca de la configuración de recorrido"
 >abstract="Para enviar mensajes con recorridos, debe configurar fuentes de datos, eventos y acciones. Las fuentes de datos permiten definir una conexión a un sistema para recuperar información adicional que se utilizará en los recorridos como, por ejemplo, en las condiciones. Los eventos permiten activar sus recorridos cuando se recibe un evento. Las acciones personalizadas permiten conectarse a un sistema de terceros para enviar sus mensajes. Si utiliza las funciones de mensaje integradas de Journey Optimizer, no es necesario configurar una acción."
 
-Para enviar mensajes con recorridos, debe configurar **[!UICONTROL Fuentes de datos]**, **[!UICONTROL Eventos]** y **[!UICONTROL Acciones]**.
+Para enviar mensajes con recorridos, debe configurar lo siguiente **[!UICONTROL Fuentes de datos]**, **[!UICONTROL Eventos]** y **[!UICONTROL Acciones]**.
 
 ![](assets/admin-menu.png)
 
@@ -35,11 +35,11 @@ La configuración de la fuente de datos permite definir una conexión con un sis
 
 Los Eventos le permiten activar sus recorridos de forma unitaria para enviar mensajes, en tiempo real, a la persona que entra en el recorrido.
 
-En la configuración de eventos, se configuran los eventos esperados en los recorridos. Los datos entrantes de los eventos se normalizan siguiendo el modelo de datos de Adobe Experience (XDM). Los eventos provienen de las API de ingesta de transmisión para eventos autenticados y no autenticados (como eventos del SDK de Adobe Mobile). [Más información](../../using/event/about-events.md)
+En la configuración de eventos, se configuran los eventos esperados en los recorridos. Los datos entrantes de los eventos se normalizan siguiendo el modelo de datos de Experience de Adobe (XDM). Los eventos provienen de las API de ingesta de transmisión para eventos autenticados y no autenticados (como eventos del SDK de Adobe Mobile). [Más información](../../using/event/about-events.md)
 
 ## Acciones {#actions}
 
-Las funcionalidades de mensajes de Journey Optimizer están incorporadas: solo necesita añadir una actividad de acción de canal al recorrido. Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción personalizada. [Más información](../../using/action/action.md)
+Las funciones de los mensajes de Journey Optimizer están integradas: solo necesita añadir una actividad de acción del canal al recorrido. Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción personalizada. [Más información](../../using/action/action.md)
 
 ## Navegación por los campos de Adobe Experience Platform {#friendly-names-display}
 

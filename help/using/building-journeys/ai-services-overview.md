@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Información general del servicio de IA
-description: Información general del servicio de IA
+title: Información general del servicio AI
+description: Información general del servicio AI
 role: User
 level: Intermediate
 keywords: artificial, IA, inteligente, recorrido, servicio
@@ -16,17 +16,17 @@ ht-degree: 1%
 
 # Integración con servicios inteligentes {#ai-overview}
 
-La integración con **[!DNL Adobe Intelligent Services]** le permite aprovechar el poder de la inteligencia artificial y el aprendizaje automático en casos de uso de experiencias del cliente. Esto permite que los analistas de marketing configuren predicciones específicas de las necesidades de una empresa mediante configuraciones de nivel empresarial sin necesidad de experiencia en ciencia de datos.
+La integración con **[!DNL Adobe Intelligent Services]** le permite aprovechar el poder de la inteligencia artificial y el aprendizaje automático en casos prácticos de experiencias del cliente. Esto permite a los analistas de marketing formular predicciones específicas de las necesidades de una empresa mediante configuraciones de negocio sin necesidad de tener experiencia en la ciencia de datos.
 
-[!DNL Intelligent Services], basado en Adobe Experience Platform, proporciona a los especialistas en marketing responsables de la experiencia del cliente acceso a la IA como servicio, lo que facilita a cualquier persona la predicción del comportamiento del cliente, la medición del impacto de una campaña o la garantía de un mejor retorno en cada inversión. Para obtener más información, consulte [!DNL Adobe Intelligent Services], consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html){target="_blank"}.
+[!DNL Intelligent Services], desarrollado en Adobe Experience Platform, ofrece a los especialistas en marketing responsables de la experiencia del cliente acceso a la IA como servicio, lo que facilita a los usuarios predecir el comportamiento del cliente, medir el impacto de una campaña o garantizar un mejor retorno de cada inversión. Para obtener más información sobre [!DNL Adobe Intelligent Services], consulte la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html){target="_blank"}.
 
-Integración entre [!DNL Journey Optimizer] y [!DNL Intelligent Services] permite aprovechar las predicciones de los clientes.
+Integración entre [!DNL Journey Optimizer] y [!DNL Intelligent Services] le permite aprovechar las predicciones de los clientes.
 
-Customer AI forma parte de [!DNL Adobe Intelligent Services]. Ayuda a predecir lo que es probable que haga un cliente. Consulte la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html){target="_blank"}.
+La inteligencia artificial aplicada al cliente forma parte de [!DNL Adobe Intelligent Services]. Ayuda a predecir qué es lo más probable que haga un cliente. Consulte la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html){target="_blank"}.
 
-Customer AI permite a las marcas crear puntuaciones de aprendizaje automático de pérdida o conversión que estarán disponibles como atributos de perfil en perfiles de Adobe Experience Platform (perfil de cliente en tiempo real).
+La inteligencia artificial aplicada al cliente permite a las marcas crear puntuaciones de aprendizaje automático de pérdida o conversión que estarán disponibles como atributos de perfil en perfiles de Adobe Experience Platform (perfil del cliente en tiempo real).
 
-Como resultado, pueden utilizarse como cualquier otro atributo de perfil en condiciones de Journey Optimizer (para tomar las mejores decisiones), acciones o generación de segmentos.
+Como resultado, se pueden utilizar como cualquier otro atributo de perfil en las condiciones (para tomar las mejores decisiones), acciones o creación de segmentos de Journey Optimizer.
 
 ![](assets/customer-ai.png)
 

@@ -16,7 +16,7 @@ ht-degree: 30%
 
 # countOnlyNull {#countOnlyNull}
 
-Cuenta el número de valores nulos en la lista.
+Cuenta el número de valores nulos de la lista.
 
 ## Categoría
 
@@ -43,7 +43,7 @@ Agregación
 
 `countOnlyNull(<listAny>)`
 
-Devuelve un número entero.
+Devuelve un entero.
 
 ## Ejemplo
 

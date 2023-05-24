@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: startWith
-description: Obtenga información sobre la función startWith
+description: Obtenga información acerca de la función startWith
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: startWith, función, expresión, recorrido
+keywords: startWith, function, expression, recorrido
 exl-id: 1abdf947-2873-4e45-a26c-cb895980e76a
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -31,13 +31,13 @@ Cadena
 | Parámetro | Tipo |
 |-------------|--------|
 | string | string |
-| prefix | string |
+| prefijo | string |
 
 ## Firma y tipo devuelto
 
 `startWith(<string>,<string>)`
 
-Devuelve un booleano.
+Devuelve un valor booleano.
 
 ## Ejemplo
 

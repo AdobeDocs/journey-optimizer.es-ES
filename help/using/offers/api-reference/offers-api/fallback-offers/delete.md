@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # Eliminar una oferta de reserva {#delete-fallback-offer}
 
-En ocasiones puede ser necesario eliminar (DELETE) una oferta de reserva. Solo se pueden eliminar las ofertas de reserva que cree en el contenedor de inquilino. Para ello, realiza una solicitud de DELETE al [!DNL Offer Library] API que utiliza el $id de la oferta de reserva que desea eliminar.
+En ocasiones puede ser necesario eliminar (DELETE) una oferta de reserva. Solo se pueden eliminar las ofertas de reserva que cree en el contenedor de inquilino. Esto se hace realizando una solicitud de DELETE a [!DNL Offer Library] API que utiliza el $id de la oferta de reserva que desea eliminar.
 
 **Formato de API**
 
@@ -27,7 +27,7 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Contenedor donde se encuentran las ofertas de reserva. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | ID de instancia de la oferta de reserva. | `b3966680-13ec-11eb-9c20-8323709cfc65` |
+| `{INSTANCE_ID}` | El ID de instancia de la oferta de reserva. | `b3966680-13ec-11eb-9c20-8323709cfc65` |
 
 **Solicitud**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 Una respuesta correcta devuelve el estado HTTP 202 (sin contenido) y un cuerpo en blanco.
 
-Puede confirmar la eliminación intentando enviar una solicitud de búsqueda (GET) a la oferta de reserva. Deberá incluir un encabezado Accept en la solicitud, pero debe recibir un estado HTTP 404 (no encontrado) porque la oferta de reserva se ha eliminado del contenedor.
+Puede confirmar la eliminación intentando una solicitud de búsqueda (GET) a la oferta de reserva. Deberá incluir un encabezado Aceptar en la solicitud, pero deberá recibir el estado HTTP 404 (no encontrado) porque la oferta de reserva se ha eliminado del contenedor.

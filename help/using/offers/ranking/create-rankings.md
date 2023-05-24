@@ -1,6 +1,6 @@
 ---
 title: Crear clasificaciones de
-description: Aprenda a crear clasificaciones
+description: Obtenga información sobre cómo crear clasificaciones
 feature: Offers
 topic: Integrations
 role: User
@@ -16,6 +16,6 @@ ht-degree: 26%
 
 sobre validación
 
-fórmulas de clasificación de diferencias/modelos de IA
+fórmulas de clasificación por diferencias / modelos de IA
 
 vínculo a la sección de clasificación

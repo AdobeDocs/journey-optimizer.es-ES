@@ -15,11 +15,11 @@ ht-degree: 6%
 
 # Funciones matemáticas {#math}
 
-Aprenda a utilizar funciones matemáticas en el editor de expresiones.
+Aprenda a utilizar las funciones matemáticas en el editor de expresiones.
 
 ## Absoluta   {#absolute}
 
-La variable `absolute` se utiliza para convertir un número que es un valor absoluto.
+El `absolute` se utiliza para convertir un número en su valor absoluto.
 
 **Sintaxis**
 
@@ -29,9 +29,9 @@ La variable `absolute` se utiliza para convertir un número que es un valor abso
 
 ## formatNumber {#format-number}
 
-La variable `formatNumber` se utiliza para dar formato a cualquier número en su representación que distingue entre idiomas.
+El `formatNumber` se utiliza para dar formato a cualquier número en su representación sensible al idioma.
 
-Acepta un número y una cadena que representan la configuración regional y devuelve una cadena formateada del número en la configuración regional deseada.
+Acepta un número y una cadena que representa la configuración regional y devuelve una cadena con formato del número de la configuración regional deseada.
 
 **Sintaxis**
 
@@ -39,11 +39,11 @@ Acepta un número y una cadena que representan la configuración regional y devu
 {%= formatNumber(number/double,string) %}: string
 ```
 
-Puede utilizar el formato y las configuraciones regionales válidas, como se resume en [documentación de oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) y [Localizaciones compatibles](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+Puede utilizar formatos y configuraciones regionales válidas, tal como se resume en [documentación del oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) y [Configuraciones regionales compatibles](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **Ejemplo**
 
-Esta consulta devuelve una cadena con formato en árabe que corresponde a 123456.789 como número de entrada.
+Esta consulta devuelve una cadena con formato en árabe correspondiente a 123456,789 como número de entrada.
 
 ```sql
 {%= formatNumber(123456.789, "ar_EG") %}
@@ -51,7 +51,7 @@ Esta consulta devuelve una cadena con formato en árabe que corresponde a 123456
 
 ## Aleatorio {#random}
 
-La variable `random` se utiliza para devolver un valor aleatorio entre 0 y 1.
+El `random` se utiliza para devolver un valor aleatorio entre 0 y 1.
 
 **Sintaxis**
 
@@ -61,7 +61,7 @@ La variable `random` se utiliza para devolver un valor aleatorio entre 0 y 1.
 
 ## Redondear hacia abajo {#round-down}
 
-La variable `roundDown` para redondear hacia abajo un número.
+El `roundDown` se utiliza para redondear hacia abajo un número.
 
 **Sintaxis**
 
@@ -69,9 +69,9 @@ La variable `roundDown` para redondear hacia abajo un número.
 {%= roundDown(double) %}: double
 ```
 
-## Redondear hacia arriba {#round-up}
+## Redondear al alza {#round-up}
 
-La variable `Count only null` se utiliza redondeando un número.
+El `Count only null` se utiliza para redondear un número.
 
 **Sintaxis**
 
@@ -79,9 +79,9 @@ La variable `Count only null` se utiliza redondeando un número.
 {%= roundUp(double) %}: double
 ```
 
-## A cadena hexadecimal {#to-hex-string}
+## A la cadena hexadecimal {#to-hex-string}
 
-La variable `toHexString` convierte cualquier número en su cadena hexadecimal.
+El `toHexString` convierte cualquier número en su cadena hexadecimal.
 
 **Sintaxis**
 
@@ -91,15 +91,15 @@ La variable `toHexString` convierte cualquier número en su cadena hexadecimal.
 
 **Ejemplo**
 
-Esta consulta devuelve el valor hexadecimal de 158, es decir, 9e.
+Esta consulta devuelve el valor hexadecimal de 158, es decir 9e.
 
 ```sql
 {%= toHexString(158) %}
 ```
 
-## A porcentaje {#to-percentage}
+## A Porcentaje {#to-percentage}
 
-La variable `toPercentage` para convertir un número en porcentaje.
+El `toPercentage` se utiliza para convertir un número en porcentaje.
 
 **Sintaxis**
 
@@ -107,9 +107,9 @@ La variable `toPercentage` para convertir un número en porcentaje.
 {%= toPercentage(double) %}: string
 ```
 
-## Para precisión {#to-precision}
+## A Precisión {#to-precision}
 
-La variable `toPrecision` para convertir un número a la precisión necesaria.
+El `toPrecision` se utiliza para convertir un número en una precisión requerida.
 
 **Sintaxis**
 
@@ -117,9 +117,9 @@ La variable `toPrecision` para convertir un número a la precisión necesaria.
 {%= toPrecision(double,int) %}: string
 ```
 
-## A cadena {#to-string}
+## Para crear una cadena {#to-string}
 
-La variable **toString** convierte cualquier número en su representación de cadena.
+El **toString** convierte cualquier número en su representación de cadena.
 
 **Sintaxis**
 

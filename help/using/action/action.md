@@ -27,11 +27,11 @@ Las acciones son conexiones a través de las cuales se ofrecen experiencias pers
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-[!DNL Journey Optimizer] viene con la capacidad integrada de mensajes.
+[!DNL Journey Optimizer] viene con capacidad de mensaje integrada.
 
 Si tiene Adobe Campaign v7 o v8, hay una integración disponible bajo petición. Consulte [esta página](../action/acc-action.md).
 
-Si utiliza un sistema de terceros para enviar mensajes como Epsilon, Facebook, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, etc., debe agregar y configurar una acción personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
+Si utiliza un sistema de terceros para enviar mensajes como Epsilon, Facebook, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, etc., se debe añadir y configurar una acción personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
 Las acciones personalizadas permiten configurar la conexión de un sistema de terceros para enviar mensajes o llamadas API. Se puede configurar una acción con cualquier servicio de cualquier proveedor al que se pueda llamar mediante una API REST con carga útil en formato JSON.
 
@@ -41,7 +41,7 @@ Las acciones personalizadas permiten configurar la conexión de un sistema de te
 
 Las acciones están disponibles en la paleta izquierda del recorrido, en la **[!UICONTROL Acción]** categoría. Consulte [esta página](../building-journeys/about-journey-activities.md#action-activities).
 
-Para ver la lista de acciones o configurar una nueva acción, seleccione **[!UICONTROL Configuraciones]** en la sección del menú ADMINISTRACIÓN . En el  **[!UICONTROL Acciones]** , haga clic en **[!UICONTROL Administrar]**. Se muestra la lista de acciones. Consulte [esta página](../start/user-interface.md) para obtener más información sobre la interfaz.
+Para ver la lista de acciones o configurar una nueva acción, seleccione **[!UICONTROL Configuraciones]** en la sección del menú ADMINISTRACIÓN. En el  **[!UICONTROL Acciones]** , haga clic en **[!UICONTROL Administrar]**. Se muestra la lista de acciones. Consulte [esta página](../start/user-interface.md) para obtener más información sobre la interfaz.
 
 ![](assets/custom1.png)
 

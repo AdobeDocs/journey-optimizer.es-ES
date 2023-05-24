@@ -20,9 +20,9 @@ Para recopilar eventos de experiencia, primero debe crear un conjunto de datos a
 
 Comience creando el esquema que se utilizará en el conjunto de datos:
 
-1. En el **[!UICONTROL Gestión de datos]** seleccione **[!UICONTROL Esquema]** y vaya a **[!UICONTROL Examinar]** pestaña .
+1. Desde el **[!UICONTROL Administración de datos]** menú, seleccione **[!UICONTROL Esquema]** y vaya a la **[!UICONTROL Examinar]** pestaña.
 
-1. Haga clic en **[!UICONTROL Crear esquema]** y elija **[!UICONTROL XDM ExperienceEvent]**.
+1. Clic **[!UICONTROL Crear esquema]** y elija **[!UICONTROL ExperienceEvent de XDM]**.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
@@ -30,40 +30,40 @@ Comience creando el esquema que se utilizará en el conjunto de datos:
    >
    >Obtenga más información sobre los esquemas XDM y los grupos de campos en la [Documentación de información general del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
 
-1. En el **[!UICONTROL Grupos de campo]** a la izquierda, seleccione **[!UICONTROL Agregar]**.
+1. Desde el **[!UICONTROL Grupos de campos]** en la parte izquierda, seleccione **[!UICONTROL Añadir]**.
 
    ![](../assets/ai-ranking-fields-groups.png)
 
 1. En el **[!UICONTROL Buscar]** , escriba &quot;interacción de propuesta&quot;.
 
-1. Seleccione el **[!UICONTROL Evento de experiencia: interacciones de propuesta]** grupo de campos y haga clic en **[!UICONTROL Agregar grupos de campos]**.
+1. Seleccione el **[!UICONTROL Evento de experiencia: interacciones de propuesta]** y haga clic en **[!UICONTROL Adición de grupos de campos]**.
 
    ![](../assets/ai-ranking-add-field-group.png)
 
    >[!CAUTION]
    >
-   >El esquema que se utilizará en el conjunto de datos debe tener la variable **[!UICONTROL Evento de experiencia: interacciones de propuesta]** grupo de campos asociado a él. De lo contrario, no podrá utilizarlo en su estrategia de clasificación.
+   >El esquema que se utilizará en el conjunto de datos debe tener el **[!UICONTROL Evento de experiencia: interacciones de propuesta]** grupo de campos asociado a él. De lo contrario, no podrá utilizarlo en su estrategia de clasificación.
 
 1. Escriba un nombre y guarde el esquema.
 
 >[!NOTE]
 >
->Obtenga más información sobre la creación de esquemas en [Aspectos básicos de la composición del esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas){target="_blank"}.
+>Obtenga más información sobre la creación de esquemas en [Conceptos básicos de composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas){target="_blank"}.
 
 Ya está listo para crear un conjunto de datos con este esquema. Para realizar esto, siga los pasos a continuación:
 
-1. En el **[!UICONTROL Gestión de datos]** seleccione **[!UICONTROL Conjuntos de datos]** y vaya a **[!UICONTROL Examinar]** pestaña .
+1. Desde el **[!UICONTROL Administración de datos]** menú, seleccione **[!UICONTROL Conjuntos de datos]** y vaya a la **[!UICONTROL Examinar]** pestaña.
 
-1. Haga clic en **[!UICONTROL Crear conjunto de datos]** y seleccione **[!UICONTROL Crear conjunto de datos a partir del esquema]**.
+1. Clic **[!UICONTROL Crear conjunto de datos]** y seleccione **[!UICONTROL Crear conjunto de datos a partir de esquema]**.
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
 1. Seleccione el esquema que acaba de crear en la lista y haga clic en **[!UICONTROL Siguiente]**.
 
-1. Proporcione un nombre único para el conjunto de datos en la variable **[!UICONTROL Nombre]** y haga clic en **[!UICONTROL Finalizar]**.
+1. Proporcione un nombre único para el conjunto de datos en la **[!UICONTROL Nombre]** y haga clic en **[!UICONTROL Finalizar]**.
 
    ![](../assets/ai-ranking-dataset-name.png)
 
 >[!NOTE]
 >
->Este conjunto de datos ahora se puede seleccionar para recopilar datos de evento cuando [creación de una estrategia de clasificación](#create-ranking-strategy).
+>Ahora se puede seleccionar este conjunto de datos para recopilar datos de evento cuando [creación de una estrategia de clasificación](#create-ranking-strategy).

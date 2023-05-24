@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Administración de zonas protegidas
-description: Obtenga información sobre cómo administrar entornos limitados
+description: Obtenga información sobre cómo administrar zonas protegidas
 feature: Sandboxes
 topic: Administration
 role: Admin, Architect, Developer
 level: Experienced
-keywords: entornos limitados, virtual, entornos, organización, plataforma
+keywords: zonas protegidas, virtual, entornos, organización, plataforma
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
@@ -18,7 +18,7 @@ ht-degree: 57%
 
 # Administración de zonas protegidas {#sandboxes}
 
-## Usar entornos limitados {#using-sandbox}
+## Usar zonas protegidas {#using-sandbox}
 
 [!DNL Journey Optimizer] le permite particionar la instancia en entornos virtuales separados, llamados zonas protegidas.
 Las zonas protegidas se asignan mediante perfiles de producto en la Admin Console. [Aprenda a asignar zonas protegidas](permissions.md#create-product-profile).
@@ -30,27 +30,27 @@ Puede encontrar el control del conmutador de simulador de pruebas en la parte su
 
 ![](assets/sandbox_5.png)
 
-➡️ [Obtenga más información sobre los entornos limitados en este vídeo](#video)
+➡️ [Obtenga más información sobre las zonas protegidas en este vídeo](#video)
 
-## Asignar entornos limitados {#assign-sandboxes}
+## Asignar zonas protegidas {#assign-sandboxes}
 
 >[!IMPORTANT]
 >
-> La administración de entornos limitados solo se puede realizar mediante una **[!UICONTROL Product]** o **[!UICONTROL Sistema]** administrador. Para obtener más información, consulte [Documentación de Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
+> La administración de zonas protegidas solo puede realizarla un **[!UICONTROL Product]** o **[!UICONTROL Sistema]** administrador. Para obtener más información, consulte la [Documentación de Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
 
-Puede optar por asignar diferentes entornos limitados a la configuración predeterminada o personalizada **[!UICONTROL Perfiles de producto]**.
+Puede elegir asignar diferentes zonas protegidas a listas para usar o a entornos personalizados **[!UICONTROL Perfiles de producto]**.
 
-Para asignar entornos limitados:
+Para asignar zonas protegidas:
 
-1. En el [!DNL Admin Console], en la **[!UICONTROL Productos]** , seleccione **[!UICONTROL Aplicaciones de Adobe Experience Platform]** producto.
+1. En el [!DNL Admin Console], desde el **[!UICONTROL Productos]** , seleccione la pestaña **[!UICONTROL Aplicaciones Adobe Experience Platform]** producto.
 
-1. Seleccione un **[!UICONTROL Perfil del producto]**.
+1. Seleccione una **[!UICONTROL Perfil del producto]**.
 
    ![](assets/sandbox_1.png)
 
 1. Seleccione la pestaña **[!UICONTROL Permisos.]**
 
-1. Seleccione el **[!UICONTROL Sandboxes]** capacidad.
+1. Seleccione el **[!UICONTROL Zonas protegidas]** capacidad.
 
    ![](assets/sandbox_2.png)
 
@@ -58,7 +58,7 @@ Para asignar entornos limitados:
 
    ![](assets/sandbox_3.png)
 
-1. Si es necesario, en **[!UICONTROL Elementos de permiso incluidos]**, haga clic en el icono X situado junto a para eliminar los entornos limitados de acceso a su **[!UICONTROL Perfil del producto]**.
+1. Si es necesario, en **[!UICONTROL Elementos de permisos incluidos]**, haga clic en el icono X junto a para quitar el acceso a las zonas protegidas de su **[!UICONTROL Perfil del producto]**.
 
    ![](assets/sandbox_4.png)
 
@@ -66,7 +66,7 @@ Para asignar entornos limitados:
 
 ## Acceso al contenido {#content-access}
 
-Para configurar la accesibilidad del contenido, debe asignar una carpeta compartida de contenido a cada una de las zonas protegidas. Puede crear y configurar la carpeta compartida en **[!UICONTROL Almacenamiento]** se muestra en la pestaña [!DNL Admin Console] para administradores. Si tiene acceso a [!DNL Admin Console] como administrador del sistema, puede crear carpetas compartidas y añadir delegados con un nivel de acceso diferente a las carpetas compartidas.
+Para configurar la accesibilidad del contenido, debe asignar una carpeta compartida de contenido a cada una de las zonas protegidas. Puede crear y configurar la carpeta compartida en la **[!UICONTROL Almacenamiento]** pestaña mostrada en la [!DNL Admin Console] para administradores. Si tiene acceso a [!DNL Admin Console] como administrador del sistema, puede crear carpetas compartidas y añadir delegados con un nivel de acceso diferente a las carpetas compartidas.
 
 ![](assets/do-not-localize/content_access.png)
 

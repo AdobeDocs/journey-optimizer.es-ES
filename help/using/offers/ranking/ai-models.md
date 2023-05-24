@@ -2,7 +2,7 @@
 product: experience platform
 solution: Experience Platform
 title: Introducción a los modelos de IA
-description: Obtenga información sobre los modelos de IA que permiten clasificar ofertas
+description: Obtenga información acerca de los modelos de IA que permiten clasificar ofertas
 feature: Ranking Formulas
 role: User
 level: Intermediate
@@ -18,21 +18,21 @@ ht-degree: 4%
 
 [!DNL Journey Optimizer] permite utilizar un sistema de modelos entrenado que clasifica las ofertas para mostrarlas en un perfil determinado.
 
-Esta función le permite crear diferentes **Modelos de IA** en función de sus objetivos comerciales. Utilizando estas diferentes estrategias basadas en objetivos en una decisión, el sistema de modelos entrenado le ayudará a comprender cómo los diferentes modelos de IA están afectando a sus objetivos.
+Esta función le permite crear diferentes **modelos de IA** en función de sus objetivos empresariales. Al usar estas diferentes estrategias basadas en objetivos en una decisión, el sistema de modelos entrenado le ayudará a comprender cómo los diferentes modelos de IA afectan sus objetivos.
 
-Por ejemplo, puede seleccionar un modelo de IA para el canal de correo electrónico y otro para el canal push. Para cada canal, el sistema de modelos entrenado utilizará múltiples puntos de datos para determinar qué oferta debe presentarse primero para una ubicación determinada, en lugar de tener en cuenta las puntuaciones de prioridad de las ofertas o una [fórmula de clasificación](create-ranking-formulas.md).
+Por ejemplo, puede seleccionar un modelo de IA para el canal de correo electrónico y otro para el canal push. Para cada canal, el sistema de modelos entrenado aprovechará varios puntos de datos para determinar qué oferta debe presentarse primero para una ubicación determinada, en lugar de tener en cuenta las puntuaciones de prioridad de las ofertas o una [fórmula de clasificación](create-ranking-formulas.md).
 
 ## Tipos de modelos de IA {#ai-model-types}
 
 Hay dos tipos de modelos de IA disponibles en [!DNL Journey Optimizer]:
 
-* **Modelos de optimización automática** tiene como objetivo ofrecer ofertas que maximicen los KPI (return) establecidos por los clientes empresariales. Estos KPI podrían presentar tasas de conversión, ingresos, etc. En este punto, la optimización automática se centra en optimizar los clics de ofertas con la conversión de ofertas como nuestro objetivo. La optimización automática no está personalizada y se optimiza según el rendimiento &quot;global&quot; de las ofertas. [Más información](auto-optimization-model.md)
+* **Modelos de optimización automática** El objetivo es ofrecer ofertas que maximicen el rendimiento (KPI) establecido por los clientes empresariales. Estos KPI pueden adoptar la forma de tasas de conversión, ingresos, etc. En este punto, la optimización automática se centra en optimizar los clics de oferta con la conversión de ofertas como objetivo. La optimización automática no está personalizada y se optimiza en función del rendimiento &quot;global&quot; de las ofertas. [Más información](auto-optimization-model.md)
 
-* **Modelos de personalización** le permite definir los objetivos del negocio y utilizar los datos de los clientes para formar modelos orientados al negocio que ofrezcan ofertas personalizadas y maximicen los KPI. [Más información](personalized-optimization-model.md)
+* **Modelos de personalización** le permite definir objetivos empresariales y utiliza los datos de los clientes para formar modelos empresariales, a fin de ofrecer ofertas personalizadas y maximizar los KPI. [Más información](personalized-optimization-model.md)
 
    >[!CAUTION]
    >
-   >Actualmente, el uso de modelos de Optimización personalizada está disponible en el acceso anticipado solo para usuarios seleccionados.
+   >Actualmente, el uso de modelos de optimización personalizados está disponible en el acceso anticipado solo para usuarios seleccionados.
 
 ## Creación de un modelo de IA {#create-ai-model}
 
@@ -40,5 +40,5 @@ Los pasos principales para crear y utilizar modelos de IA son los siguientes:
 
 1. Cree un conjunto de datos donde se recopilen los eventos de conversión e impresión. [Más información](../data-collection/create-dataset.md)
 1. Cree un modelo de IA que aproveche los eventos del conjunto de datos para clasificar ofertas. [Más información](create-ranking-strategies.md)
-1. Configure el esquema de oferta para que capture automáticamente los eventos. [Más información](../data-collection/schema-requirement.md)
-1. Asigne el modelo de IA a una colocación en una decisión para clasificar las ofertas aptas. [Más información](../offer-activities/configure-offer-selection.md)
+1. Configure el esquema de oferta para capturar eventos automáticamente. [Más información](../data-collection/schema-requirement.md)
+1. Asigne el modelo de IA a una ubicación en una decisión para clasificar las ofertas elegibles. [Más información](../offer-activities/configure-offer-selection.md)

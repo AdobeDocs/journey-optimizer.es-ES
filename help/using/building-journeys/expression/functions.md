@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Funciones
-description: Obtenga información sobre las funciones
+description: Más información sobre las funciones
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -17,11 +17,11 @@ ht-degree: 73%
 
 # Funciones {#functions}
 
-Una función puede tener firmas diferentes (un conjunto diferente de parámetros ordenados). Una firma de función puede tener expresiones 0-N como parámetros ordenados.
+Una función puede tener diferentes firmas (un conjunto diferente de parámetros ordenados). Una firma de función puede tener expresiones 0-N como parámetros ordenados.
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
-Cada función tiene un tipo específico devuelto.
+Cada función tiene un tipo devuelto específico.
 
 Esta es la lista de funciones compatibles.
 

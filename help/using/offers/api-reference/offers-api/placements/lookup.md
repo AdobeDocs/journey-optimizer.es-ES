@@ -1,6 +1,6 @@
 ---
-title: Buscar una ubicación
-description: Las ubicaciones son contenedores que se utilizan para mostrar las ofertas.
+title: Búsqueda de una ubicación
+description: Las ubicaciones son contenedores que se utilizan para mostrar sus ofertas.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -13,9 +13,9 @@ ht-degree: 4%
 
 ---
 
-# Buscar una ubicación {#look-up-placement}
+# Búsqueda de una ubicación {#look-up-placement}
 
-Puede buscar ubicaciones específicas realizando una solicitud de GET al [!DNL Offer Library] API que incluye la ubicación `@id` o el nombre de la ubicación en la ruta de solicitud.
+Puede buscar ubicaciones específicas realizando una solicitud de GET a [!DNL Offer Library] API que incluye la ubicación `@id` o el nombre de la ubicación en la ruta de solicitud.
 
 **Formato de API**
 
@@ -26,10 +26,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Contenedor donde se encuentran las ubicaciones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | El contenedor donde se encuentran las ubicaciones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `SCHEMA_PLACEMENT}` | Define el esquema asociado a las ubicaciones. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
-| `id` | Una cadena que se usa para hacer coincidir con la variable `@id` propiedad de las entidades. La cadena coincide exactamente. Los parámetros `id` y `name` no se puede usar juntos. | `xcore:offer-placement:124541309805b7e8` |
-| `name` | Cadena que se utiliza para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se puede usar juntos | `Sales and Promotions Placement` |
+| `id` | Una cadena utilizada para hacer coincidir el `@id` propiedad de las entidades. La cadena coincide exactamente. Los parámetros `id` y `name` no se pueden usar juntos. | `xcore:offer-placement:124541309805b7e8` |
+| `name` | Cadena utilizada para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se pueden usar juntos | `Sales and Promotions Placement` |
 
 ```shell
 curl -X GET \
@@ -43,7 +43,7 @@ curl -X GET \
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles de la ubicación, incluida la información sobre el ID del contenedor, el ID de instancia y la ubicación única `@id`.
+Una respuesta correcta devuelve los detalles de la ubicación, incluida la información acerca del ID de contenedor, el ID de instancia y la ubicación única `@id`.
 
 ```json
 {

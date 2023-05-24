@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: countWithNull
-description: Obtenga información sobre la función countWithNull
+description: Obtenga información acerca de la función countWithNull
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -43,7 +43,7 @@ Agregación
 
 `countWithNull(<listAny>)`
 
-Devuelve un número entero.
+Devuelve un entero.
 
 ## Ejemplo
 

@@ -15,11 +15,11 @@ ht-degree: 67%
 
 # Campos XDM de eventos de acceso {#decisioningevents-xdm-schema}
 
-Puede acceder al esquema XDM DecisioningEvents directamente desde un conjunto de datos que contenga eventos de Administración de decisiones.
+Puede acceder al esquema XDM DecisioningEvents directamente desde un conjunto de datos que contenga eventos de Gestión de decisiones.
 
 ![](../assets/access-schema.png)
 
-El esquema contiene todos los campos necesarios para enviar información de Administración de decisiones a Adobe Experience Platform.
+El esquema contiene todos los campos necesarios para enviar información desde Gestión de decisiones a Adobe Experience Platform.
 
 Para obtener más información sobre un campo específico, selecciónelo para mostrar un panel de información con las propiedades del campo.
 

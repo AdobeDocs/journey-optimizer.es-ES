@@ -15,11 +15,11 @@ ht-degree: 9%
 
 # Funciones de agregación {#aggregation}
 
-Las funciones de agregación se utilizan para agrupar varios valores y formar un único valor de resumen.
+Las funciones de agregación se utilizan para agrupar varios valores para formar un único valor de resumen.
 
 ## Promedio{#average}
 
-La variable `average` devuelve la media aritmética de todos los valores seleccionados dentro de la matriz.
+El `average` función devuelve la media aritmética de todos los valores seleccionados dentro de la matriz.
 
 **Sintaxis**
 
@@ -29,7 +29,7 @@ La variable `average` devuelve la media aritmética de todos los valores selecci
 
 **Ejemplo**
 
-La siguiente operación devuelve el precio promedio de todos los pedidos.
+La siguiente operación devuelve el precio medio de todos los pedidos.
 
 ```sql
 {%=average(orders.order.price)%}
@@ -37,7 +37,7 @@ La siguiente operación devuelve el precio promedio de todos los pedidos.
 
 ## Count{#count}
 
-La variable `count` devuelve el número de elementos dentro de la matriz dada.
+El `count` función devuelve el número de elementos dentro de la matriz determinada.
 
 **Sintaxis**
 
@@ -55,7 +55,7 @@ La siguiente operación devuelve el número de pedidos de la matriz.
 
 ## Máximo{#max}
 
-La variable `max` devuelve el mayor de todos los valores seleccionados dentro de la matriz.
+El `max` función devuelve el mayor de todos los valores seleccionados dentro de la matriz.
 
 **Sintaxis**
 
@@ -73,7 +73,7 @@ La siguiente operación devuelve el precio más alto de todos los pedidos.
 
 ## Mínimo{#min}
 
-La variable `min` devuelve el menor de todos los valores seleccionados dentro de la matriz.
+El `min` función devuelve el menor de todos los valores seleccionados dentro de la matriz.
 
 **Sintaxis**
 
@@ -91,7 +91,7 @@ La siguiente operación devuelve el precio más bajo de todos los pedidos.
 
 ## Sum{#sum}
 
-La variable `sum` devuelve la suma de todos los valores seleccionados dentro de la matriz.
+El `sum` función devuelve la suma de todos los valores seleccionados dentro de la matriz.
 
 **Sintaxis**
 

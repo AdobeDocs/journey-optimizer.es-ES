@@ -15,9 +15,9 @@ ht-degree: 7%
 
 # Funciones de objeto {#objects}
 
-## Is null{#isNull}
+## Es nulo{#isNull}
 
-La variable `isNull` determina si no existe una referencia de objeto.
+El `isNull` determina si no existe una referencia de objeto.
 
 **Sintaxis**
 
@@ -27,7 +27,7 @@ La variable `isNull` determina si no existe una referencia de objeto.
 
 **Ejemplo**
 
-La siguiente operación comprueba si la dirección principal de la persona no existe.
+La siguiente operación comprueba si la dirección postal de la persona no existe.
 
 ```sql
 {%= isNull(person.homeAddress) %}
@@ -35,7 +35,7 @@ La siguiente operación comprueba si la dirección principal de la persona no ex
 
 ## No es nulo{#isNotNull}
 
-La variable `isNotNull` determina si existe una referencia de objeto.
+El `isNotNull` determina si existe una referencia a un objeto.
 
 **Sintaxis**
 
@@ -45,7 +45,7 @@ La variable `isNotNull` determina si existe una referencia de objeto.
 
 **Ejemplo**
 
-La siguiente operación comprueba si existe la dirección principal de la persona.
+La siguiente operación comprueba si existe la dirección particular de la persona.
 
 ```sql
 {%= isNotNull(person.homeAddress) %}

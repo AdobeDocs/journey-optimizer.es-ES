@@ -7,7 +7,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: publicar, recorrido, activo, válido, comprobar
+keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
@@ -24,10 +24,10 @@ Puede publicar un recorrido después de probar su validez.
 
 Si necesita realizar modificaciones en un recorrido publicado, debe crear una nueva versión del recorrido. Consulte [esta página](../building-journeys/journey.md). Cuando un recorrido es de solo lectura, solo puede modificar las etiquetas y descripciones de la actividad, el nombre del recorrido y la descripción del recorrido.
 
-Si detiene un recorrido, se detendrá permanentemente. Todas las personas que circulen en el recorrido serán permanentemente detenidas y el recorrido dejará de permitir nuevas entradas. Si necesita usar el recorrido de nuevo, debe duplicarlo y publicarlo.
+Si detiene un recorrido, se detendrá de forma permanente. Todas las personas que entran en el recorrido serán detenidas permanentemente y el recorrido dejará de permitir nuevas entradas. Si necesita volver a utilizar el recorrido, debe duplicarlo y publicarlo.
 
 1. Antes de publicar el recorrido, compruebe que sea válido y que no haya ningún error. No podrá publicar un recorrido con errores. Consulte [esta sección](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). También se recomienda probar el recorrido antes de la publicación. Consulte [esta página](../building-journeys/testing-the-journey.md).
-1. Para publicar el recorrido, haga clic en el **[!UICONTROL Publicación]** , se encuentra en el menú desplegable superior derecho.
+1. Para publicar el recorrido, haga clic en **[!UICONTROL Publish]** , situada en el menú desplegable superior derecho.
 
    ![](assets/journeyuc1_18.png)
 

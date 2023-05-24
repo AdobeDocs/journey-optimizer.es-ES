@@ -7,7 +7,7 @@ feature: Data Sources
 topic: Administration
 role: Admin, Developer
 level: Intermediate
-keywords: datos, origen, recorrido, plataforma
+keywords: datos, fuente, recorrido, plataforma
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
@@ -32,7 +32,7 @@ La configuración de la fuente de datos permite definir una conexión con un sis
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-Esta configuración no es necesaria si los recorridos solo aprovechan los datos locales procedentes de una carga útil de evento. Por ejemplo, si el recorrido está compuesto por un evento seguido de una actividad de acción de canal que solo utiliza datos del evento, no es necesario configurar una fuente de datos.
+Esta configuración no es necesaria si los recorridos solo aprovechan los datos locales procedentes de una carga útil de evento. Por ejemplo, si el recorrido está compuesto por un evento seguido de una actividad de acción del canal que solo utiliza datos del evento, no es necesario configurar ninguna fuente de datos.
 
 Existen dos tipos de fuentes de datos:
 
@@ -43,7 +43,7 @@ Para cada fuente de datos, se define la información que se recuperará mediante
 
 >[!NOTE]
 >
->Las relaciones de esquema no son compatibles con los orígenes de datos.
+>Las relaciones de esquema no son compatibles con las fuentes de datos.
 
 Para obtener más información sobre cómo configurar una fuente de datos de Adobe Experience Platform y una fuente de datos externa, y cómo buscar y usar los datos en un recorrido, vea este [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 

@@ -73,7 +73,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 </table>
 
 
-Consulte también [Notas de la versión de octubre de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=es){target="_blank"} para obtener más cambios.
+Consulte también [Notas de la versión de Adobe Experience Platform de octubre](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=es){target="_blank"} para obtener más cambios.
 
 ### Mejoras
 
@@ -276,7 +276,7 @@ Consulte también [Notas de la versión de octubre de Adobe Experience Platform]
 
 **Personalización**
 
-* **Editor de expresiones** - Ahora puede añadir fácilmente un valor alternativo al definir la personalización: cuando el campo de personalización está vacío para un perfil, se muestra el valor de reserva. [Más información](../personalization/functions/helpers.md)
+* **Editor de expresiones** : Ahora puede añadir fácilmente un valor alternativo al definir la personalización. Cuando el campo de personalización está vacío para un perfil, se muestra el valor de reserva. [Más información](../personalization/functions/helpers.md)
 
 **Configuración de correo electrónico**
 
@@ -342,11 +342,11 @@ Consulte también [Notas de la versión de octubre de Adobe Experience Platform]
 * Para las fuentes de datos externas, ahora se define automáticamente una regla de límite de 15 llamadas por segundo. [Más información](../configuration/external-systems.md#capping)
 * En el caso de los recorridos activos, la pantalla de propiedades de recorrido ahora muestra la fecha de publicación y el nombre del usuario que publicó el recorrido. [Más información](../building-journeys/journey-gs.md#change-properties)
 * En la pantalla de la lista de recorridos, se ha añadido el filtro de tipo de recorrido. [Más información](../start/user-interface.md#filter-lists)
-* La variable **[!UICONTROL Tasa de restricción]** se ha añadido en la actividad Leer segmento . [Más información](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* El **[!UICONTROL Velocidad de limitación]** Se ha añadido el parámetro en la actividad Leer segmento. [Más información](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-**Vista previa y prueba**
+**Previsualización y prueba**
 
-* La identidad y el área de nombres ahora están visibles en el **[!UICONTROL Vista previa]** en el Navegador. [Más información](../email/preview.md#preview-your-messages)
+* La identidad y el área de nombres ahora son visibles en la **[!UICONTROL Previsualizar]** pantalla. [Más información](../email/preview.md#preview-your-messages)
 * El número de correos electrónicos de prueba para pruebas ahora está restringido a 10.
 * Los caracteres permitidos para el **Prefijo de línea de asunto** en las pruebas ahora están limitados. [Más información](../email/preview.md#send-proofs)
 
@@ -359,6 +359,6 @@ Consulte también [Notas de la versión de octubre de Adobe Experience Platform]
 * Se ha corregido un problema que hacía que se enviaran mensajes duplicados para la entrega por lotes de correo electrónico.
 * Los eventos ahora se generan según corresponda cuando el envío de correo electrónico no se realiza una vez que ha finalizado el periodo de reintento.
 * Se ha corregido un problema por el que faltaba información de IP en la pantalla Registros de PTR.
-* Ya se ha implementado la localización en el carril de ofertas dentro del editor de expresiones.
+* Ya está implementada la localización en el carril de la oferta dentro del Editor de expresiones.
 * Se ha corregido un espaciado incorrecto en las ventanas emergentes de información.
 * Se ha corregido un problema en el Diseñador de correo electrónico al cargar un archivo de HTML en el que la hoja de estilo interna con la propiedad `background-image` no se admitía.

@@ -37,7 +37,7 @@ El editor de expresiones avanzadas se puede utilizar para lo siguiente:
 * definir [actividades de espera personalizadas](../wait-activity.md#custom)
 * definir asignación de parámetros de acción
 
-Cuando sea posible, puede cambiar entre los dos modos utilizando la variable **[!UICONTROL Modo avanzado]** / **[!UICONTROL Modo simple]** botón. El modo simple se describe [aquí](../condition-activity.md#about_condition).
+Si es posible, puede cambiar entre los dos modos con el **[!UICONTROL Modo avanzado]** / **[!UICONTROL Modo simple]** botón. El modo simple se describe [aquí](../condition-activity.md#about_condition).
 
 >[!NOTE]
 >
@@ -64,10 +64,10 @@ Esta pantalla le permite escribir manualmente su expresión.
 
 En la parte izquierda de la pantalla se muestran los campos y las funciones disponibles:
 
-* **[!UICONTROL Eventos]**: elija uno de los campos recibidos del evento de entrada. La lista mostrada de los campos de evento es contextual y varía según los eventos agregados en el recorrido. [Más información](../../event/about-events.md)
-* **[!UICONTROL Segmentos]**: si ha dejado un **[!UICONTROL Clasificación del segmento]** , elija el segmento que desee utilizar en su expresión. [Más información](../condition-activity.md#using-a-segment)
+* **[!UICONTROL Eventos]**: elija uno de los campos recibidos del evento entrante. La lista mostrada de los campos de evento es contextual y varía según los eventos agregados en el recorrido. [Más información](../../event/about-events.md)
+* **[!UICONTROL Segmentos]**: si se ha caído un **[!UICONTROL Calificación de segmentos]** , elija el segmento que desee utilizar en la expresión. [Más información](../condition-activity.md#using-a-segment)
 * **[!UICONTROL Fuentes de datos]**: elija entre la lista de campos disponibles en los grupos de campos de las fuentes de datos. [Más información](../../datasource/about-data-sources.md)
-* **[!UICONTROL Propiedades del recorrido]**: esta sección reagrupa los campos técnicos relacionados con el recorrido de un perfil determinado. [Más información](journey-properties.md)
+* **[!UICONTROL propiedades del recorrido]**: esta sección reagrupa los campos técnicos relacionados con el recorrido de un perfil determinado. [Más información](journey-properties.md)
 * **[!UICONTROL Funciones]**: elija entre una lista de funciones integradas que permitan realizar filtros complejos. Las funciones están organizadas por categorías. [Más información](functions.md)
 
 ![](../assets/journey65.png)

@@ -7,7 +7,7 @@ feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: externos, orígenes, datos, configuración, conexión, terceros
+keywords: externo, fuentes, datos, configuración, conexión, terceros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
@@ -67,21 +67,21 @@ Estos son los pasos principales para crear y configurar una nueva fuente de dato
 
 1. Configure la autenticación según la configuración del servicio externo: **[!UICONTROL Sin autenticación]**, **[!UICONTROL Básico]**, **[!UICONTROL Personalizado]** o **[!UICONTROL Clave de API]**. Para obtener más información sobre el modo de autenticación personalizada, consulte [esta sección](../datasource/external-data-sources.md#custom-authentication-mode). En nuestro ejemplo, elegimos:
 
-   * **[!UICONTROL Tipo]**: &quot;Clave de API&quot;
+   * **[!UICONTROL Tipo]**: &quot;clave de API&quot;
    * **[!UICONTROL Nombre]**: &quot;appid&quot; (el nombre del parámetro de clave de API)
    * **[!UICONTROL Valor]**: &quot;1234&quot; (el valor de nuestra clave de API)
    * **[!UICONTROL Ubicación]**: &quot;Parámetro de consulta&quot; (la clave de API se encuentra en la dirección URL)
 
    ![](assets/journey28.png)
 
-1. Agregue un nuevo grupo de campos a cada conjunto de parámetros de API haciendo clic en **[!UICONTROL Agregar un nuevo grupo de campos]**. No utilice espacios ni caracteres especiales en el nombre del grupo de campos. En nuestro ejemplo, necesitamos crear dos grupos de campos, uno para cada conjunto de parámetros (city y long/lat).
+1. Añada un nuevo grupo de campos a cada conjunto de parámetros de API haciendo clic en **[!UICONTROL Agregar nuevo grupo de campos]**. No utilice espacios ni caracteres especiales en el nombre del grupo de campos. En nuestro ejemplo, necesitamos crear dos grupos de campos, uno para cada conjunto de parámetros (city y long/lat).
 
 Para el conjunto de parámetros &quot;long/lat&quot;, creamos un grupo de campos con la siguiente información:
 
-* **[!UICONTROL Se usa en]**: muestra el número de recorridos que utilizan un grupo de campos. Puede hacer clic en el botón **[!UICONTROL Ver recorridos]** para mostrar la lista de recorridos que utilizan este grupo de campos.
-* **[!UICONTROL Método]**: seleccione el método POST o GET . En nuestro caso, seleccionamos el método GET.
+* **[!UICONTROL Utilizado en]**: muestra el número de recorridos que utilizan un grupo de campos. Puede hacer clic en **[!UICONTROL Ver recorridos]** para mostrar la lista de recorridos que utilizan este grupo de campos.
+* **[!UICONTROL Método]**: seleccione el POST o el método de GET. En nuestro caso, seleccionamos el método GET.
 * **[!UICONTROL Valores dinámicos]**: introduzca los diferentes parámetros separados por coma, &quot;long,lat&quot; en nuestro ejemplo. Dado que los valores de parámetro dependen del contexto de ejecución, se definirán en los recorridos. [Más información](../building-journeys/expression/expressionadvanced.md)
-* **[!UICONTROL Carga útil de respuesta]**: haga clic dentro de **[!UICONTROL Carga útil]** y pegue un ejemplo de la carga útil devuelta por la llamada a . Para nuestro ejemplo, hemos utilizado una carga útil encontrada en un sitio web de la API meteorológica. Compruebe que los tipos de campo son correctos. Cada vez que se llama a la API, el sistema recupera todos los campos incluidos en el ejemplo de carga útil. Tenga en cuenta que puede hacer clic en **[!UICONTROL Pegar una nueva carga útil]** si desea cambiar la carga útil que se pasa actualmente.
+* **[!UICONTROL Carga de respuesta]**: haga clic dentro de **[!UICONTROL Carga útil]** y pegue un ejemplo de la carga útil devuelta por la llamada. Para nuestro ejemplo, hemos utilizado una carga útil encontrada en un sitio web de la API meteorológica. Compruebe que los tipos de campo son correctos. Cada vez que se llama a la API, el sistema recupera todos los campos incluidos en el ejemplo de carga útil. Observe que puede hacer clic en **[!UICONTROL Pegar una nueva carga útil]** si desea cambiar la carga útil que se mueve actualmente.
 
    >[!NOTE]
    >
@@ -89,9 +89,9 @@ Para el conjunto de parámetros &quot;long/lat&quot;, creamos un grupo de campos
 
 * **[!UICONTROL Carga útil enviada]**: este campo no aparece en nuestro ejemplo. Solo está disponible si selecciona el método POST. Pegue la carga útil que se enviará al sistema de terceros.
 
-En el caso de una llamada de GET que requiera parámetros, introduzca los parámetros en la variable **[!UICONTROL Valores dinámicos]** y se añaden automáticamente al final de la llamada. En caso de una llamada POST, debe hacer esto:
+En caso de una llamada de GET que requiera parámetros, introduzca los parámetros en la variable **[!UICONTROL Valores dinámicos]** y se añaden automáticamente al final de la llamada. En caso de una llamada POST, debe hacer esto:
 
-* enumera los parámetros que se van a pasar en el momento de la llamada en la variable **[!UICONTROL Valores dinámicos]** (en el ejemplo siguiente: &quot;identificador&quot;).
+* enumerar los parámetros que se van a pasar en el momento de la llamada en el **[!UICONTROL Valores dinámicos]** campo (en el ejemplo siguiente: &quot;identificador&quot;).
 * Especificarlos también con la misma sintaxis en el cuerpo de la carga útil enviada. Para ello, debe agregar: &quot;param&quot;: &quot;nombre del parámetro&quot; (en el ejemplo siguiente: &quot;identificador&quot;). Siga esta sintaxis:
 
    ```
@@ -132,10 +132,10 @@ Definición del extremo al que se va a llamar para generar el token de acceso:
 
 * extremo: dirección URL que se utilizará para generar el extremo
 * método de la petición HTTP en el extremo (GET o POST)
-* encabezados: pares de clave-valor que se insertarán como encabezados en esta llamada si es necesario
+* encabezados: pares clave-valor que se insertarán como encabezados en esta llamada, si es necesario
 * cuerpo: describe el cuerpo de la llamada si el método es POST. Apoyamos una estructura de cuerpo limitada, definida en bodyParams (pares clave-valor). bodyType describe el formato y la codificación del cuerpo en la llamada:
-   * &#39;formulario&#39;: lo que significa que el tipo de contenido será application/x-www-form-urlencoded (charset UTF-8) y que los pares clave-valor se serializarán tal cual: key1=value1&amp;key2=value2&amp;...
-   * &#39;json&#39;: lo que significa que el tipo de contenido será application/json (charset UTF-8) y que los pares clave-valor se serializarán como un objeto json tal y como está: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+   * &#39;form&#39;: lo que significa que el tipo de contenido será application/x-www-form-urlencoded (charset UTF-8) y que los pares clave-valor se serializarán tal cual: key1=value1&amp;key2=value2&amp;...
+   * &#39;json&#39;: lo que significa que el tipo de contenido será application/json (charset UTF-8) y que los pares clave-valor se serializarán como un objeto json tal cual: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 Definición de la forma en que se debe insertar el token de acceso en la petición HTTP de la acción:
 
@@ -176,7 +176,7 @@ El formato de esta autenticación es:
 
 Puede cambiar la duración de caché del token para una fuente de datos de autenticación personalizada. A continuación se muestra un ejemplo de una carga útil de autenticación personalizada. La duración de caché se define en el parámetro &quot;cacheDuration&quot;. Especifica la duración de retención del token generado en la caché. La unidad puede ser milisegundos, segundos, minutos, horas, días, meses, años.
 
-Este es un ejemplo para el tipo de autenticación de portador:
+Este es un ejemplo del tipo de autenticación del portador:
 
 ```
 {
@@ -208,9 +208,9 @@ Este es un ejemplo para el tipo de autenticación de portador:
 
 >[!NOTE]
 >
->La duración de la caché ayuda a evitar demasiadas llamadas a los extremos de autenticación. La retención de tokens de autenticación se almacena en caché en los servicios, no hay persistencia. Si se reinicia un servicio, comienza con una caché limpia. La duración de la caché de forma predeterminada es de 1 hora. En la carga de autenticación personalizada, se puede adaptar especificando otra duración de retención.
+>La duración de la caché ayuda a evitar demasiadas llamadas a los extremos de autenticación. La retención del token de autenticación se almacena en caché en los servicios, no hay persistencia. Si se reinicia un servicio, se inicia con una caché limpia. La duración de la caché de forma predeterminada es de 1 hora. En la carga útil de autenticación personalizada, se puede adaptar especificando otra duración de retención.
 
-Este es un ejemplo para el tipo de autenticación del encabezado:
+Este es un ejemplo del tipo de autenticación de encabezado:
 
 ```
 {
@@ -233,7 +233,7 @@ Este es un ejemplo para el tipo de autenticación del encabezado:
 } 
 ```
 
-Este es un ejemplo de la respuesta de la llamada de API de inicio de sesión:
+A continuación, se muestra un ejemplo de la respuesta de la llamada de API de inicio de sesión:
 
 ```
 {

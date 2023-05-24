@@ -16,7 +16,7 @@ ht-degree: 10%
 
 # toDateOnly{#toDateOnly}
 
-Convierte un argumento en un valor de tipo dateOnly . Para obtener más información sobre los tipos de datos, consulte esta [sección](../expression/data-types.md).
+Convierte un argumento en un valor de tipo dateOnly. Para obtener más información sobre los tipos de datos, consulte [sección](../expression/data-types.md).
 
 ## Categoría
 
@@ -30,10 +30,10 @@ Conversión
 
 | Parámetro | Tipo |
 |-----------|------------------|
-| Representación de cadena de una fecha como &quot;AAAA-MM-DD&quot; (formato XDM). También admite el formato ISO-8601: only **fecha completa** parte se considera (consulte [RFC 3339, sección 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
+| Representación de cadena de una fecha como &quot;AAAA-MM-DD&quot; (formato XDM). También es compatible con el formato ISO-8601: solo **fecha completa** parte se considera (consulte [RFC 3339, sección 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
 | fecha y hora | dateTime |
 | fecha y hora sin zona horaria | dateTimeOnly |
-| valor entero de una epoch en milisegundos | entero |
+| valor entero de una época en milisegundos | entero |
 
 ## Firmas y tipos devueltos
 
@@ -55,8 +55,8 @@ Devuelve un valor de tipo dateOnly.
 
 `toDateOnly("2016-08-18T00:00:00")`
 
-todos devuelven un objeto dateOnly que representa 2016-08-18.
+todos devuelven un objeto dateOnly que representa el 18-08-2016.
 
 `toDateOnly(#{ExperiencePlatform.ProfileFieldGroup.person.birthDate})`
 
-Devuelve un dateOnly.
+Devuelve dateOnly.

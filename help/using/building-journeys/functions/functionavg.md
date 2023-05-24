@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: avg
-description: Obtenga información sobre la función avg
+description: Obtenga información acerca de la función avg
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -16,7 +16,7 @@ ht-degree: 15%
 
 # avg {#avg}
 
-Devuelve el valor promedio entre un conjunto de expresiones, dado como una lista o como dos expresiones. Se omiten los valores nulos.
+Devuelve el valor promedio entre un conjunto de expresiones, dado como una lista o dos expresiones. Los valores nulos se omiten.
 
 
 ## Categoría
@@ -29,7 +29,7 @@ Agregación
 
 ## Parámetros
 
-Tipos compatibles:
+Tipos admitidos:
 
 * listInteger
 * listDecimal
@@ -50,7 +50,7 @@ Tipos compatibles:
 
 `avg(<integer>,<integer>)`
 
-Devuelve un decimal.
+Devuelve un valor decimal.
 
 ## Ejemplos
 

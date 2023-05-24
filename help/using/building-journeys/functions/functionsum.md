@@ -5,7 +5,7 @@ description: Obtenga información sobre la suma de funciones
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: sum, función, expresión, recorrido
+keywords: suma, función, expresión, recorrido
 exl-id: a9085f4d-6434-4bc5-8e5d-3f2b6033defc
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 16%
 
 # sum {#sum}
 
-Devuelve la suma de los valores de un conjunto de expresiones. Se omiten los valores nulos.
+Devuelve la suma de los valores de un conjunto de expresiones. Los valores nulos se omiten.
 
 ## Categoría
 
@@ -38,19 +38,19 @@ Agregación
 
 `sum(<listDecimal>)`
 
-Devuelve un decimal.
+Devuelve un valor decimal.
 
 `sum(<listInteger>)`
 
-Devuelve un número entero.
+Devuelve un entero.
 
 `sum(<integer>,<integer>)`
 
-Devuelve un número entero.
+Devuelve un entero.
 
 `sum(<decimal>,<decimal>)`
 
-Devuelve un decimal.
+Devuelve un valor decimal.
 
 ## Ejemplos
 

@@ -1,6 +1,6 @@
 ---
 title: Información clave sobre eventos de Gestión de decisiones
-description: Obtenga más información sobre la información clave enviada con cada evento de Administración de decisiones.
+description: Obtenga más información acerca de la información clave enviada con cada evento de Administración de decisiones.
 feature: Offers
 topic: Integrations
 role: User

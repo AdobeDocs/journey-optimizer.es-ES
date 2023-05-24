@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Eliminar una decisión {#delete-decision}
 
-Ocasionalmente puede ser necesario retirar (DELETE) una decisión. Solo se pueden eliminar las decisiones que se creen en el contenedor de inquilino. Para ello, realiza una solicitud de DELETE al [!DNL Offer Library] API que utiliza el $id de la oferta de reserva que desea eliminar.
+Ocasionalmente puede ser necesario eliminar (DELETE) una decisión. Solo se pueden eliminar las decisiones que cree en el contenedor de inquilino. Esto se hace realizando una solicitud de DELETE a [!DNL Offer Library] API que utiliza el $id de la oferta de reserva que desea eliminar.
 
 **Formato de API**
 
@@ -26,8 +26,8 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Contenedor donde se encuentran las decisiones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | ID de instancia de la decisión. | `f88c9be0-1245-11eb-8622-b77b60702882` |
+| `{CONTAINER_ID}` | El contenedor en el que se encuentran las decisiones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | El ID de instancia de la decisión. | `f88c9be0-1245-11eb-8622-b77b60702882` |
 
 **Solicitud**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 Una respuesta correcta devuelve el estado HTTP 202 (sin contenido) y un cuerpo en blanco.
 
-Puede confirmar la eliminación intentando realizar una solicitud de búsqueda (GET) a la decisión. Deberá incluir un encabezado Accept en la solicitud, pero recibirá un estado HTTP 404 (no encontrado) porque la decisión se ha eliminado del contenedor.
+Para confirmar la eliminación, intente realizar una solicitud de búsqueda (GET) para confirmar la decisión. Deberá incluir un encabezado Aceptar en la solicitud, pero deberá recibir el estado HTTP 404 (no encontrado) porque la decisión se ha eliminado del contenedor.

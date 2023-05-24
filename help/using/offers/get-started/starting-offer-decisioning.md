@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '935'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Los beneficios incluyen:
 
 >[!NOTE]
 >
->Si es [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target="_blank"} el usuario aprovecha el **offer decisioning** servicio de aplicación, se le aplicarán todas las funciones de Administración de decisiones descritas en esta sección.
+>Si es un [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target="_blank"} usuario que aprovecha **Offer decisioning** servicio de aplicaciones de, también se le aplican todas las funciones de Gestión de decisiones descritas en esta sección.
 
 ## Acerca de las ofertas y las decisiones {#about-offers-and-decisions}
 

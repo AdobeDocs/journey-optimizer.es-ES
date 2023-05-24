@@ -15,11 +15,11 @@ ht-degree: 7%
 
 # Funciones aritméticas {#maths}
 
-Las funciones aritméticas se utilizan para realizar cálculos básicos de los valores.
+Las funciones aritméticas se utilizan para realizar cálculos básicos sobre los valores.
 
 ## Add{#add}
 
-La variable `+` (suma) se utiliza para encontrar la suma de dos expresiones de argumento.
+El `+` (suma) se utiliza para encontrar la suma de dos expresiones de argumento.
 
 **Sintaxis**
 
@@ -29,7 +29,7 @@ La variable `+` (suma) se utiliza para encontrar la suma de dos expresiones de a
 
 **Ejemplo**
 
-La operación siguiente resume el precio de dos productos diferentes.
+La siguiente operación suma el precio de dos productos diferentes.
 
 ```sql
 {%= product1.price + product2.price %}
@@ -37,7 +37,7 @@ La operación siguiente resume el precio de dos productos diferentes.
 
 ## Multiplicar{#multiply}
 
-La variable `*` (multiplicación) se utiliza para encontrar el producto de dos expresiones de argumento.
+El `*` (multiplicación) se utiliza para encontrar el producto de dos expresiones de argumento.
 
 **Sintaxis**
 
@@ -53,9 +53,9 @@ La siguiente operación encuentra el producto del inventario y el precio de un p
 {%= product.inventory * product.price %}
 ```
 
-## Sustraer{#substract}
+## Restar{#substract}
 
-La variable `-` (subtraction) se utiliza para encontrar la diferencia de dos expresiones de argumento.
+El `-` (resta) se utiliza para encontrar la diferencia de dos expresiones de argumento.
 
 **Sintaxis**
 
@@ -73,7 +73,7 @@ La siguiente operación encuentra la diferencia de precio entre dos productos di
 
 ## Dividir{#divide}
 
-La variable `/` (división) se utiliza para encontrar el cociente de dos expresiones de argumento.
+El `/` (división) se utiliza para encontrar el cociente de dos expresiones de argumento.
 
 **Sintaxis**
 
@@ -83,15 +83,15 @@ La variable `/` (división) se utiliza para encontrar el cociente de dos expresi
 
 **Ejemplo**
 
-La siguiente operación encuentra el cociente entre el total de productos vendidos y el total de dinero ganado para ver el costo promedio por artículo.
+La siguiente operación encuentra el cociente entre el total de productos vendidos y el total de dinero ganado para ver el coste promedio por artículo.
 
 ```sql
 {%= totalProduct.price / totalProduct.sold %}
 ```
 
-## Remainte{#remainder}
+## Resto{#remainder}
 
-La variable `%` (módulo/resto) se utiliza para encontrar el resto después de dividir las dos expresiones de argumento.
+El `%` (módulo/resto) se utiliza para encontrar el resto después de dividir las dos expresiones de argumento.
 
 **Sintaxis**
 
@@ -101,7 +101,7 @@ La variable `%` (módulo/resto) se utiliza para encontrar el resto después de d
 
 **Ejemplo**
 
-La siguiente operación comprueba si la edad de la persona es divisible entre cinco años.
+La siguiente operación comprueba si la edad de la persona es divisible entre cinco.
 
 ```sql
 {%= person.age % 5 = 0 %}

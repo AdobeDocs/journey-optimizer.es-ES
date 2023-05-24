@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: uuid
-description: Obtenga información sobre la uuid de función
+description: Obtenga información acerca del uuid de función
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced

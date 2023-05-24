@@ -7,7 +7,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: IP, grupos, grupo, subdominios, capacidad de envío
+keywords: IP, grupos, grupo, subdominios, capacidad de entrega
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
@@ -30,21 +30,21 @@ ht-degree: 11%
 
 ## Acerca de los grupos de IP {#about-ip-pools}
 
-con [!DNL Journey Optimizer], puede crear grupos de IP para agrupar las direcciones IP de los subdominios.
+Con [!DNL Journey Optimizer], puede crear grupos de IP para agrupar las direcciones IP de los subdominios.
 
-La creación de grupos de IP es muy recomendable para la entrega por correo electrónico. Al hacerlo, puede evitar que la reputación de un subdominio afecte a los demás subdominios.
+Se recomienda crear grupos de IP para la entrega por correo electrónico. Al hacerlo, puede evitar que la reputación de un subdominio afecte a los demás subdominios.
 
-Por ejemplo, una práctica recomendada es tener un grupo de IP para los mensajes de marketing y otro para los mensajes transaccionales. De este modo, si uno de los mensajes de marketing tiene un rendimiento incorrecto y un cliente los declara como correo no deseado, esto no afectará a los mensajes transaccionales enviados a este mismo cliente, que seguirá recibiendo mensajes transaccionales (confirmaciones de compra, mensajes de recuperación de contraseña, etc.).
+Por ejemplo, una práctica recomendada es tener un grupo de IP para los mensajes de marketing y otro para los mensajes transaccionales. De este modo, si uno de los mensajes de marketing tiene un rendimiento incorrecto y un cliente lo declara como correo no deseado, esto no afectará a los mensajes transaccionales enviados a este mismo cliente, que seguirá recibiendo mensajes transaccionales (confirmaciones de compra, mensajes de recuperación de contraseña, etc.).
 
 >[!CAUTION]
 >
->La configuración del grupo de IP es común a todos los entornos. Por lo tanto, cualquier creación o edición de grupos de IP también afectará a los entornos limitados de producción.
+>La configuración del grupo de IP es común a todos los entornos. Por lo tanto, cualquier creación o edición de grupo de IP también afectará a las zonas protegidas de producción.
 
 ## Crear un grupo de IP {#create-ip-pool}
 
 Para crear un grupo de IP, siga estos pasos:
 
-1. Acceda a la **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Grupos de IP]** a continuación, haga clic en **[!UICONTROL Crear grupo de IP]**.
+1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Canales]** > **[!UICONTROL Grupos de IP]** y haga clic en **[!UICONTROL Crear grupo de IP]**.
 
    ![](assets/ip-pool-create.png)
 
@@ -52,29 +52,29 @@ Para crear un grupo de IP, siga estos pasos:
 
    >[!NOTE]
    >
-   >El nombre debe comenzar con una letra (A-Z) e incluir únicamente caracteres alfanuméricos o caracteres especiales ( _, ., - ).
+   >El nombre debe comenzar por una letra (A-Z) e incluir solo caracteres alfanuméricos o caracteres especiales ( _, ., - ).
 
-1. Seleccione las direcciones IP que desea incluir en el grupo en la lista desplegable y haga clic en **[!UICONTROL Submit]**.
+1. Seleccione las direcciones IP que desea incluir en el grupo de la lista desplegable y haga clic en **[!UICONTROL Enviar]**.
 
    ![](assets/ip-pool-config.png)
 
    >[!NOTE]
    >
-   >Todas las direcciones IP aprovisionadas con su instancia están disponibles en la lista.
+   >Todas las direcciones IP proporcionadas con la instancia están disponibles en la lista.
 
-Al seleccionar direcciones IP, puede ver en la lista los registros PTR asociados a las direcciones IP. Esto le permite verificar la información de marca de cada IP al crear un grupo de IP y seleccionar las IP con la misma información de marca, por ejemplo. [Más información sobre los registros PTR](ptr-records.md)
+Al seleccionar direcciones IP, puede ver en la lista los registros PTR asociados a las direcciones IP. Esto le permite verificar la información de marca de cada IP al crear un grupo de IP y seleccionar direcciones IP con la misma información de marca, por ejemplo. [Más información sobre los registros PTR](ptr-records.md)
 
 ![](assets/ip-pool-ptr-record.png)
 
 >[!NOTE]
 >
->Si no hay ningún registro PTR configurado para una IP, no puede seleccionar esa IP. Póngase en contacto con su representante de Adobe para configurar el registro PTR de esa IP.
+>Si no se ha configurado ningún registro PTR para una IP, no se puede seleccionar esa IP. Póngase en contacto con su representante de Adobe para configurar el registro PTR de esa IP.
 
-Una vez creado un grupo de IP, la información de PTR es visible al pasar el ratón por encima de las direcciones IP que se muestran debajo de la lista desplegable del grupo de IP.
+Después de crear un grupo de IP, la información de PTR se ve al pasar el ratón por encima de las direcciones IP que se muestran debajo de la lista desplegable del grupo de IP.
 
 ![](assets/ip-pool-ptr-record-tooltip.png)
 
-El grupo de IP ahora se crea y se muestra en la lista. Puede seleccionarlo para acceder a sus propiedades y mostrar la superficie de canal asociada (es decir, el valor preestablecido de mensaje). Para obtener más información sobre cómo asociar una superficie de canal a un grupo de IP, consulte [esta sección](channel-surfaces.md).
+El grupo de IP ahora se crea y se muestra en la lista. Puede seleccionarlo para acceder a sus propiedades y mostrar la superficie de canal asociada (es decir, el ajuste preestablecido de mensaje). Para obtener más información sobre cómo asociar una superficie de canal con un grupo de IP, consulte [esta sección](channel-surfaces.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -86,39 +86,39 @@ Para editar un grupo de IP, siga los pasos a continuación.
 
    ![](assets/ip-pool-list.png)
 
-1. Edite sus propiedades como desee. Puede modificar la descripción y añadir o eliminar direcciones IP.
+1. Edite sus propiedades según desee. Puede modificar la descripción y agregar o quitar direcciones IP.
 
    >[!NOTE]
    >
-   >El nombre del grupo de IP no se puede editar. Si desea modificarlo, debe eliminar el grupo de IP y crear otro con el nombre de su elección.
+   >El nombre del grupo de IP no se puede editar. Si desea modificarlo, debe eliminar el grupo de IP y crear otro con el nombre que desee.
 
    ![](assets/ip-pool-edit.png)
 
    >[!CAUTION]
    >
-   >Tenga especial cuidado al considerar la eliminación de una IP, ya que esto pondrá una carga adicional en las otras IP y puede tener un impacto grave en su capacidad de envío. En caso de duda, póngase en contacto con un experto en capacidad de entrega.
+   >Proceda con mucho cuidado cuando considere la posibilidad de eliminar una IP, ya que esto supondrá una carga adicional para las otras IP y puede tener un impacto grave en la capacidad de envío. En caso de duda, póngase en contacto con un experto en capacidad de entrega.
 
 1. Guarde los cambios.
 
-La actualización es efectiva de forma inmediata o asincrónica, según el grupo de IP asociado a un [superficie del canal](channel-surfaces.md) o no:
+La actualización es efectiva de inmediato o de forma asíncrona, según el grupo de IP que se asocie a una [superficie de canal](channel-surfaces.md) o no:
 
-* Si el grupo de IP es **not** asociada a cualquier superficie de canal, la actualización es instantánea (**[!UICONTROL Correcto]** ).
-* Si el grupo IP **es** asociada a una superficie de canal, la actualización puede tardar hasta 3 horas (**[!UICONTROL Procesamiento]** ).
+* Si el grupo de IP es **no** asociada a cualquier superficie de canal, la actualización es instantánea (**[!UICONTROL Correcto]** status).
+* Si el grupo de IP **es** asociado a una superficie de canal, la actualización puede tardar hasta tres horas (**[!UICONTROL Procesando]** status).
 
 >[!NOTE]
 >
->When [creación de una superficie de canal](channel-surfaces.md#create-channel-surface), si selecciona un grupo de IP que se encuentra en edición (**[!UICONTROL Procesamiento]** ) y nunca se ha asociado con el subdominio seleccionado para esa superficie, no se puede continuar con la creación de superficie. [Más información](channel-surfaces.md#subdomains-and-ip-pools)
+>Cuándo [creación de una superficie de canal](channel-surfaces.md#create-channel-surface), si selecciona un grupo de IP que se encuentra en edición (**[!UICONTROL Procesando]** estado) y nunca se ha asociado al subdominio seleccionado para esa superficie, no se puede continuar con la creación de superficies. [Más información](channel-surfaces.md#subdomains-and-ip-pools)
 
-Para comprobar el estado de actualización del grupo de IP, haga clic en el botón **[!UICONTROL Más acciones]** y seleccione **[!UICONTROL Actualizaciones recientes]**.
+Para comprobar el estado de actualización del grupo de IP, haga clic en **[!UICONTROL Más acciones]** y seleccione **[!UICONTROL Actualizaciones recientes]**.
 
 ![](assets/ip-pool-recent-update.png)
 
 >[!NOTE]
 >
->Una vez que un grupo de IP se actualiza correctamente, es posible que tenga que esperar:
+>Una vez que un grupo de IP se haya actualizado correctamente, es posible que tenga que esperar:
 >* unos minutos antes de que los mensajes unitarios lo consuman,
 >* hasta el siguiente lote para que el grupo de IP sea efectivo en los mensajes por lotes.
 
 
-También puede usar la variable **[!UICONTROL Eliminar]** para eliminar un grupo de IP. Tenga en cuenta que no puede eliminar un grupo de IP que se haya asociado a una superficie de canal.
+También puede utilizar la variable **[!UICONTROL Eliminar]** para eliminar un grupo de IP. Tenga en cuenta que no puede eliminar un grupo de IP que se haya asociado a una superficie de canal.
 

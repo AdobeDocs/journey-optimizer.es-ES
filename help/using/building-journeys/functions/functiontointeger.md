@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: toInteger
-description: Obtenga información sobre la función toInteger
+description: Obtenga información acerca de la función toInteger
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -30,10 +30,10 @@ Conversión
 
 | Parámetro | Descripción |
 |--- |--- |
-| string | convierte el valor de cadena en un entero |
-| dateTime | convierte la fecha en el número de milisegundos (epoch miliseconds) |
-| decimal | se convierte en entero eliminando la parte decimal (ejemplo: 1,5 se convierte en 1) |
-| Booleano | convierte el valor booleano en 1 si es verdadero, 0 si es falso |
+| string | convierte el valor de cadena como un entero |
+| dateTime | convierte la fecha como el número de milisegundos (epoch milisegundos) |
+| decimal | convierte en entero eliminando la parte decimal (ejemplo: 1,5 se convierte en 1) |
+| Booleano | convierte el valor booleano como 1 si es verdadero, 0 si es falso |
 
 ## Firmas y tipo devuelto
 

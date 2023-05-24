@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: now
-description: Obtenga información sobre la función ahora
+description: Obtenga información acerca de la función ahora
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -38,7 +38,7 @@ Fecha
 
 `now("<timeZone id>")`
 
-Devuelve un dateTime.
+Devuelve un valor dateTime.
 
 ## Ejemplos
 

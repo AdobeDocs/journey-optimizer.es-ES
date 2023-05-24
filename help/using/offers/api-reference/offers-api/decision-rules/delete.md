@@ -1,6 +1,6 @@
 ---
 title: Eliminar reglas de decisión
-description: Las reglas de decisión son restricciones agregadas a una oferta personalizada y aplicadas a un perfil para determinar la idoneidad.
+description: Las reglas de decisión son restricciones agregadas a una oferta personalizada y aplicadas a un perfil para determinar la elegibilidad.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Eliminar una regla de decisión {#delete-decision-rule}
 
-Ocasionalmente puede ser necesario eliminar (DELETE) una regla de decisión. Solo se pueden eliminar las reglas de decisión que cree en el contenedor de inquilino. Para ello, realiza una solicitud de DELETE al [!DNL Offer Library] API que utiliza el ID de instancia de la regla de decisión que desea eliminar.
+En ocasiones puede ser necesario eliminar (DELETE) una regla de decisión. Solo se pueden eliminar las reglas de decisión que cree en el contenedor de inquilino. Esto se hace realizando una solicitud de DELETE a [!DNL Offer Library] API que utiliza el ID de instancia de la regla de decisión que desea eliminar.
 
 **Formato de API**
 
@@ -26,8 +26,8 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Contenedor donde se encuentran las reglas de decisión. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | ID de instancia de la regla de decisión que desea actualizar. | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
+| `{CONTAINER_ID}` | El contenedor donde se encuentran las reglas de decisión. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | El ID de instancia de la regla de decisión que desea actualizar. | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
 
 **Solicitud**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 Una respuesta correcta devuelve el estado HTTP 202 (sin contenido) y un cuerpo en blanco.
 
-Puede confirmar la eliminación intentando realizar una solicitud de búsqueda (GET) a la regla de decisión. Deberá incluir un encabezado Accept en la solicitud, pero recibirá un estado HTTP 404 (no encontrado) porque la regla de decisión se ha eliminado del contenedor.
+Puede confirmar la eliminación intentando una solicitud de búsqueda (GET) a la regla de decisión. Deberá incluir un encabezado Aceptar en la solicitud, pero deberá recibir el estado HTTP 404 (no encontrado) porque la regla de decisión se ha eliminado del contenedor.

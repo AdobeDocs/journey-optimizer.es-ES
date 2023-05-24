@@ -31,26 +31,26 @@ ht-degree: 27%
 >title="Definición de un subdominio web"
 >abstract="Seleccione un subdominio de la lista de subdominios delegados en Adobe. Puede establecer este subdominio web como el predeterminado, pero solo se puede utilizar un subdominio predeterminado a la vez."
 
-Al crear experiencias web, si agrega contenido proveniente del [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) , debe configurar el subdominio que se utilizará para publicar este contenido.
+Al crear experiencias web, si añade contenido procedente de [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) , debe configurar el subdominio que se utilizará para publicar este contenido.
 
-Para ello, debe elegir entre la lista de subdominios ya delegados en Adobe. Obtenga más información sobre la delegación de subdominios al Adobe en [esta sección](../configuration/delegate-subdomain.md).
+Para ello, debe elegir de la lista de subdominios ya delegados al Adobe. Obtenga más información sobre la delegación de subdominios al Adobe en [esta sección](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >
 >La configuración del subdominio web es común a todos los entornos. Por lo tanto:
 >
->* Para acceder y editar subdominios web, debe tener la variable **[!UICONTROL Administrar subdominios web]** permiso en el simulador de pruebas de producción.
+>* Para acceder y editar subdominios web, debe tener el **[!UICONTROL Administrar subdominios web]** en la zona protegida de producción.
 >
 > * Cualquier modificación en un subdominio web también afectará a los entornos limitados de producción.
 
 
-Puede crear varios subdominios web, pero solo los **default** se utilizará el subdominio . Puede cambiar el subdominio web predeterminado, pero solo se puede usar uno a la vez.
+Puede crear varios subdominios web, pero solo los siguientes **predeterminado** se utilizará el subdominio. Puede cambiar el subdominio web predeterminado, pero solo se puede utilizar uno a la vez.
 
-1. Acceda a la **[!UICONTROL Administración]** > **[!UICONTROL Canales]** a continuación, seleccione **[!UICONTROL Configuración web]** > **[!UICONTROL Subdominios web]**.
+1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Canales]** menú, luego seleccione **[!UICONTROL Configuración web]** > **[!UICONTROL Subdominios web]**.
 
    ![](assets/web-access-subdomains.png)
 
-1. Haga clic en **[!UICONTROL Configurar subdominio]**.
+1. Clic **[!UICONTROL Configuración del subdominio]**.
 
 1. Seleccione un subdominio delegado de la lista.
 
@@ -58,9 +58,9 @@ Puede crear varios subdominios web, pero solo los **default** se utilizará el s
 
    >[!NOTE]
    >
-   >No se puede seleccionar un subdominio que ya se esté utilizando como subdominio web.
+   >No puede seleccionar un subdominio que ya se esté utilizando como subdominio web.
 
-1. El prefijo que se mostrará en la dirección URL web se agrega automáticamente. No puede cambiarlo.
+1. El prefijo que se mostrará en la URL web se añade automáticamente. No puede cambiarlo.
 
 1. Para establecer este subdominio como predeterminado, seleccione la opción correspondiente.
 
@@ -68,21 +68,21 @@ Puede crear varios subdominios web, pero solo los **default** se utilizará el s
 
    >[!NOTE]
    >
-   >Solo el **default** se utilizará el subdominio .
+   >Solo el **predeterminado** se utilizará el subdominio.
 
-1. Haga clic en **[!UICONTROL Enviar]**. El subdominio obtiene la variable **[!UICONTROL Correcto]** estado. Está listo para utilizarse para sus experiencias web.
+1. Haga clic en **[!UICONTROL Enviar]**. El subdominio obtiene el **[!UICONTROL Correcto]** estado. Está listo para utilizarse para las experiencias web.
 
    >[!NOTE]
    >
-   >En muy raras ocasiones, la configuración de un subdominio podría fallar. En este caso, puede eliminar la variable **[!UICONTROL Error]** subdominio para limpiar la lista con el **[!UICONTROL Eliminar]** del **[!UICONTROL Más acciones]** icono.
+   >En muy raras ocasiones, la configuración de un subdominio podría fallar. En este caso, puede eliminar la variable **[!UICONTROL Error]** subdominio para limpiar la lista utilizando **[!UICONTROL Eliminar]** del menú contextual **[!UICONTROL Más acciones]** icono.
 
-1. La variable **[!UICONTROL Predeterminado]** aparece un distintivo junto al subdominio que se utiliza actualmente como predeterminado. Para cambiar el subdominio predeterminado, seleccione **[!UICONTROL Establecer como predeterminado]** de la variable **[!UICONTROL Más acciones]** situado junto al subdominio deseado.
+1. El **[!UICONTROL Predeterminado]** el distintivo se muestra junto al subdominio que se utiliza actualmente como predeterminado. Para cambiar el subdominio predeterminado, seleccione **[!UICONTROL Establecer como predeterminado]** desde el **[!UICONTROL Más acciones]** junto al subdominio deseado.
 
    ![](assets/web-subdomain-default.png)
 
    >[!NOTE]
    >
-   >Puede cambiar el subdominio web predeterminado, pero solo se puede usar uno a la vez.
+   >Puede cambiar el subdominio web predeterminado, pero solo se puede utilizar uno a la vez.
 
    <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 

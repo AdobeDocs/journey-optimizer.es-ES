@@ -15,11 +15,11 @@ ht-degree: 7%
 
 # Funciones de cadena {#string}
 
-Aprenda a utilizar funciones de cadena en el editor de expresiones.
+Aprenda a utilizar las funciones de cadena en el Editor de expresiones.
 
-## Camello {#camelCase}
+## Camel Case {#camelCase}
 
-La variable `camelCase` pone en mayúscula la primera letra de cada palabra de una cadena.
+El `camelCase` La función pone en mayúscula la primera letra de cada palabra de una cadena.
 
 **Sintaxis**
 
@@ -29,15 +29,15 @@ La variable `camelCase` pone en mayúscula la primera letra de cada palabra de u
 
 **Ejemplo**
 
-La siguiente función pone en mayúscula la primera letra de la palabra en la dirección del perfil.
+La siguiente función pone en mayúscula la primera letra de la dirección del perfil.
 
 ```sql
 {%= camelCase(profile.homeAddress.street) %}
 ```
 
-## Char código en {#char-code-at}
+## Código Char en {#char-code-at}
 
-La variable `charCodeAt` devuelve el valor ASCII de un carácter, como la función charCodeAt en JavaScript. Toma una cadena y un entero (que define la posición del carácter) como argumentos de entrada y devuelve su valor ASCII correspondiente.
+El `charCodeAt` devuelve el valor ASCII de un carácter, como la función charCodeAt de JavaScript. Toma una cadena y un entero (que define la posición del carácter) como argumentos de entrada y devuelve su valor ASCII correspondiente.
 
 **Sintaxis**
 
@@ -47,7 +47,7 @@ La variable `charCodeAt` devuelve el valor ASCII de un carácter, como la funci�
 
 **Ejemplo**
 
-La siguiente función devuelve el valor ASCII de o, es decir, 111.
+La siguiente función devuelve el valor ASCII o, es decir 111.
 
 ```sql
 {%= charCodeAt("some", 1)%}
@@ -55,7 +55,7 @@ La siguiente función devuelve el valor ASCII de o, es decir, 111.
 
 ## Concat {#concate}
 
-La variable `concat` combina dos cadenas en una.
+El `concat` La función combina dos cadenas en una.
 
 **Sintaxis**
 
@@ -65,7 +65,7 @@ La variable `concat` combina dos cadenas en una.
 
 **Ejemplo**
 
-La siguiente función combinará ciudad y país del perfil en una sola cadena.
+La siguiente función combinará ciudad y país de perfil en una sola cadena.
 
 ```sql
 {%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
@@ -73,7 +73,7 @@ La siguiente función combinará ciudad y país del perfil en una sola cadena.
 
 ## Contains {#contains}
 
-La variable `contains` para determinar si una cadena contiene una subcadena especificada.
+El `contains` se utiliza para determinar si una cadena contiene una subcadena especificada.
 
 **Sintaxis**
 
@@ -83,13 +83,13 @@ La variable `contains` para determinar si una cadena contiene una subcadena espe
 
 | Argumento | Descripción |
 | --------- | ----------- |
-| `STRING_1` | La cadena en la que se va a realizar la comprobación. |
-| `STRING_2` | La cadena que se va a buscar dentro de la primera cadena. |
+| `STRING_1` | Cadena en la que se realizará la comprobación. |
+| `STRING_2` | Cadena que se busca dentro de la primera cadena. |
 | `CASE_SENSITIVE` | Un parámetro opcional para determinar si la comprobación distingue entre mayúsculas y minúsculas. Valores posibles: true (predeterminado) / false. |
 
 **Ejemplos**
 
-* La siguiente función comprobará si el nombre del perfil contiene la letra A (en mayúsculas o minúsculas). Si este es el caso, devolverá &#39;true&#39;, de lo contrario devolverá &#39;false&#39;.
+* La siguiente función comprobará si el nombre del perfil contiene la letra A (en mayúsculas o minúsculas). Si este es el caso, devuelve &quot;true&quot;; de lo contrario, devuelve &quot;false&quot;.
 
    ```sql
    {%= contains(profile.person.name.firstName, "A", false) %}
@@ -103,7 +103,7 @@ La variable `contains` para determinar si una cadena contiene una subcadena espe
 
 ## No contiene{#doesNotContain}
 
-La variable `doesNotContain` para determinar si una cadena no contiene una subcadena especificada.
+El `doesNotContain` se utiliza para determinar si una cadena no contiene una subcadena especificada.
 
 **Sintaxis**
 
@@ -113,8 +113,8 @@ La variable `doesNotContain` para determinar si una cadena no contiene una subca
 
 | Argumento | Descripción |
 | --------- | ----------- |
-| `STRING_1` | La cadena en la que se va a realizar la comprobación. |
-| `STRING_2` | La cadena que se va a buscar dentro de la primera cadena. |
+| `STRING_1` | Cadena en la que se realizará la comprobación. |
+| `STRING_2` | Cadena que se busca dentro de la primera cadena. |
 | `CASE_SENSITIVE` | Un parámetro opcional para determinar si la comprobación distingue entre mayúsculas y minúsculas. Valores posibles: true (predeterminado) / false. |
 
 **Ejemplo**
@@ -126,9 +126,9 @@ La siguiente consulta determina, con distinción de mayúsculas y minúsculas, s
 ```
 
 
-## No termina con{#doesNotEndWith}
+## No termina por{#doesNotEndWith}
 
-La variable `doesNotEndWith` se utiliza para determinar si una cadena no termina con una subcadena especificada.
+El `doesNotEndWith` se utiliza para determinar si una cadena no termina con una subcadena especificada.
 
 **Sintaxis**
 
@@ -138,13 +138,13 @@ La variable `doesNotEndWith` se utiliza para determinar si una cadena no termina
 
 | Argumento | Descripción |
 | --------- | ----------- |
-| `{STRING_1}` | La cadena en la que se va a realizar la comprobación. |
-| `{STRING_2}` | La cadena que se va a buscar dentro de la primera cadena. |
+| `{STRING_1}` | Cadena en la que se realizará la comprobación. |
+| `{STRING_2}` | Cadena que se busca dentro de la primera cadena. |
 | `{CASE_SENSITIVE}` | Un parámetro opcional para determinar si la comprobación distingue entre mayúsculas y minúsculas. Valores posibles: true (predeterminado) / false. |
 
 **Ejemplo**
 
-La siguiente consulta determina, con distinción de mayúsculas y minúsculas, si la dirección de correo electrónico de la persona no termina con &quot;.com&quot;.
+La siguiente consulta determina, con distinción entre mayúsculas y minúsculas, si la dirección de correo electrónico de la persona no termina con &quot;.com&quot;.
 
 ```sql
 doesNotEndWith(person.emailAddress,".com")
@@ -152,7 +152,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Does not start with{#doesNotStartWith}
 
-La variable `doesNotStartWith` para determinar si una cadena no comienza con una subcadena especificada.
+El `doesNotStartWith` se utiliza para determinar si una cadena no comienza con una subcadena especificada.
 
 **Sintaxis**
 
@@ -162,13 +162,13 @@ La variable `doesNotStartWith` para determinar si una cadena no comienza con una
 
 | Argumento | Descripción |
 | --------- | ----------- |
-| `{STRING_1}` | La cadena en la que se va a realizar la comprobación. |
-| `{STRING_2}` | La cadena que se va a buscar dentro de la primera cadena. |
+| `{STRING_1}` | Cadena en la que se realizará la comprobación. |
+| `{STRING_2}` | Cadena que se busca dentro de la primera cadena. |
 | `{CASE_SENSITIVE}` | Un parámetro opcional para determinar si la comprobación distingue entre mayúsculas y minúsculas. Valores posibles: true (predeterminado) / false. |
 
 **Ejemplo**
 
-La siguiente consulta determina, con distinción de mayúsculas y minúsculas, si el nombre de la persona no comienza con &quot;Joe&quot;.
+La siguiente consulta determina, con distinción entre mayúsculas y minúsculas, si el nombre de la persona no comienza con &quot;Joe&quot;.
 
 ```sql
 {%= doesNotStartWith(person.name,"Joe")%}
@@ -176,7 +176,7 @@ La siguiente consulta determina, con distinción de mayúsculas y minúsculas, s
 
 ## Codificar 64{#encode64}
 
-La variable `encode64` se utiliza para codificar una cadena para conservar la información personal (PI) si se va a incluir, por ejemplo, en una dirección URL.
+El `encode64` se utiliza para codificar una cadena para conservar la información personal (PI) si se va a incluir, por ejemplo, en una URL.
 
 **Sintaxis**
 
@@ -186,7 +186,7 @@ La variable `encode64` se utiliza para codificar una cadena para conservar la in
 
 ## Finaliza con{#endsWith}
 
-La variable `endsWith` para determinar si una cadena termina con una subcadena especificada.
+El `endsWith` se utiliza para determinar si una cadena termina con una subcadena especificada.
 
 **Sintaxis**
 
@@ -196,13 +196,13 @@ La variable `endsWith` para determinar si una cadena termina con una subcadena e
 
 | Argumento | Descripción |
 | --------- | ----------- |
-| `{STRING_1}` | La cadena en la que se va a realizar la comprobación. |
-| `{STRING_2}` | La cadena que se va a buscar dentro de la primera cadena. |
+| `{STRING_1}` | Cadena en la que se realizará la comprobación. |
+| `{STRING_2}` | Cadena que se busca dentro de la primera cadena. |
 | `{CASE_SENSITIVE}` | Un parámetro opcional para determinar si la comprobación distingue entre mayúsculas y minúsculas. Valores posibles: true (predeterminado) / false. |
 
 **Ejemplo**
 
-La siguiente consulta determina, con distinción de mayúsculas y minúsculas, si la dirección de correo electrónico de la persona termina en &quot;.com&quot;.
+La siguiente consulta determina, con distinción entre mayúsculas y minúsculas, si la dirección de correo electrónico de la persona termina con &quot;.com&quot;.
 
 ```sql
 {%= endsWith(person.emailAddress,".com") %}
@@ -211,7 +211,7 @@ La siguiente consulta determina, con distinción de mayúsculas y minúsculas, s
 
 ## Es igual a{#equals}
 
-La variable `equals` se utiliza para determinar si una cadena es igual a la cadena especificada, con distinción entre mayúsculas y minúsculas.
+El `equals` se utiliza para determinar si una cadena es igual a la cadena especificada, con distinción de mayúsculas y minúsculas.
 
 **Sintaxis**
 
@@ -221,20 +221,20 @@ La variable `equals` se utiliza para determinar si una cadena es igual a la cade
 
 | Argumento | Descripción |
 | --------- | ----------- |
-| `{STRING_1}` | La cadena en la que se va a realizar la comprobación. |
-| `{STRING_2}` | La cadena que se va a comparar con la primera cadena. |
+| `{STRING_1}` | Cadena en la que se realizará la comprobación. |
+| `{STRING_2}` | Cadena que se va a comparar con la primera cadena. |
 
 **Ejemplo**
 
-La siguiente consulta determina, con distinción de mayúsculas y minúsculas, si el nombre de la persona es &quot;John&quot;.
+La siguiente consulta determina, con distinción entre mayúsculas y minúsculas, si el nombre de la persona es &quot;John&quot;.
 
 ```sql
 {%=equals(profile.person.name,"John") %}
 ```
 
-## Es igual a omitir mayúsculas y minúsculas{#equalsIgnoreCase}
+## Ignorar mayúsculas y minúsculas{#equalsIgnoreCase}
 
-La variable `equalsIgnoreCase` para determinar si una cadena es igual a la cadena especificada, sin distinción de mayúsculas y minúsculas.
+El `equalsIgnoreCase` se utiliza para determinar si una cadena es igual a la cadena especificada, sin distinción de mayúsculas y minúsculas.
 
 **Sintaxis**
 
@@ -244,12 +244,12 @@ La variable `equalsIgnoreCase` para determinar si una cadena es igual a la caden
 
 | Argumento | Descripción |
 | --------- | ----------- |
-| `{STRING_1}` | La cadena en la que se va a realizar la comprobación. |
-| `{STRING_2}` | La cadena que se va a comparar con la primera cadena. |
+| `{STRING_1}` | Cadena en la que se realizará la comprobación. |
+| `{STRING_2}` | Cadena que se va a comparar con la primera cadena. |
 
 **Ejemplo**
 
-La siguiente consulta determina, sin distinción de mayúsculas y minúsculas, si el nombre de la persona es &quot;John&quot;.
+La siguiente consulta determina, sin distinción entre mayúsculas y minúsculas, si el nombre de la persona es &quot;John&quot;.
 
 ```sql
 {%= equalsIgnoreCase(profile.person.name,"John") %}
@@ -257,7 +257,7 @@ La siguiente consulta determina, sin distinción de mayúsculas y minúsculas, s
 
 ## Extraer dominio de correo electrónico {#extractEmailDomain}
 
-La variable `extractEmailDomain` se utiliza para extraer el dominio de una dirección de correo electrónico.
+El `extractEmailDomain` para extraer el dominio de una dirección de correo electrónico.
 
 **Sintaxis**
 
@@ -275,7 +275,7 @@ La siguiente consulta extrae el dominio de correo electrónico de la dirección 
 
 ## Formato de moneda {#format-currency}
 
-La variable `formatCurrency` se utiliza para convertir cualquier número a su correspondiente representación de moneda que distinga entre idiomas, dependiendo de la configuración regional que se pase como cadena en el segundo argumento.
+El `formatCurrency` se utiliza para convertir cualquier número en su correspondiente representación de moneda sensible al idioma según la configuración regional pasada como cadena en el segundo argumento.
 
 **Sintaxis**
 
@@ -285,7 +285,7 @@ La variable `formatCurrency` se utiliza para convertir cualquier número a su co
 
 **Ejemplo**
 
-Esta consulta devuelve £56.00
+Esta consulta devuelve 56 £
 
 ```sql
 {%= formatCurrency(56L,"en_GB") %}
@@ -293,7 +293,7 @@ Esta consulta devuelve £56.00
 
 ## Obtener host de URL {#get-url-host}
 
-La variable `getUrlHost` se utiliza para recuperar el nombre de host de una URL.
+El `getUrlHost` se utiliza para recuperar el nombre de host de una dirección URL.
 
 **Sintaxis**
 
@@ -311,7 +311,7 @@ Devuelve &quot;www.myurl.com&quot;
 
 ## Obtener ruta de URL {#get-url-path}
 
-La variable `getUrlPath` se utiliza para recuperar la ruta después del nombre de dominio de una dirección URL.
+El `getUrlPath` se utiliza para recuperar la ruta después del nombre de dominio de una dirección URL.
 
 **Sintaxis**
 
@@ -327,9 +327,9 @@ La variable `getUrlPath` se utiliza para recuperar la ruta después del nombre d
 
 Devuelve &quot;/contact.html&quot;
 
-## Obtener protocolo de url {#get-url-protocol}
+## Obtener protocolo de URL {#get-url-protocol}
 
-La variable `getUrlProtocol` se utiliza para recuperar el protocolo de una URL.
+El `getUrlProtocol` se utiliza para recuperar el protocolo de una dirección URL.
 
 **Sintaxis**
 
@@ -345,9 +345,9 @@ La variable `getUrlProtocol` se utiliza para recuperar el protocolo de una URL.
 
 Devuelve &quot;http&quot;
 
-## Índice de {#index-of}
+## Índice De {#index-of}
 
-La variable `indexOf` se utiliza para devolver la posición (en el primer argumento) de la primera incidencia del segundo parámetro. Devuelve -1 si no hay coincidencia.
+El `indexOf` se utiliza para devolver la posición (en el primer argumento) de la primera aparición del segundo parámetro. Devuelve -1 si no hay ninguna coincidencia.
 
 **Sintaxis**
 
@@ -357,8 +357,8 @@ La variable `indexOf` se utiliza para devolver la posición (en el primer argume
 
 | Argumento | Descripción |
 | --------- | ----------- |
-| `{STRING_1}` | La cadena en la que se va a realizar la comprobación. |
-| `{STRING_2}` | La cadena que se va a buscar en el primer parámetro |
+| `{STRING_1}` | Cadena en la que se realizará la comprobación. |
+| `{STRING_2}` | La cadena que se busca en el primer parámetro |
 
 **Ejemplo**
 
@@ -370,7 +370,7 @@ Devuelve 6.
 
 ## Is empty {#isEmpty}
 
-La variable `isEmpty` para determinar si una cadena está vacía.
+El `isEmpty` se utiliza para determinar si una cadena está vacía.
 
 **Sintaxis**
 
@@ -380,7 +380,7 @@ La variable `isEmpty` para determinar si una cadena está vacía.
 
 **Ejemplo**
 
-La siguiente función devuelve &#39;true&#39; si el número de teléfono móvil del perfil está vacío. De lo contrario, devolverá &#39;false&#39;.
+La siguiente función devuelve &quot;true&quot; si el número de teléfono móvil del perfil está vacío. De lo contrario, devolverá &quot;false&quot;.
 
 ```sql
 {%= isEmpty(profile.mobilePhone.number) %}
@@ -388,7 +388,7 @@ La siguiente función devuelve &#39;true&#39; si el número de teléfono móvil 
 
 ## Is Not Empty {#is-not-empty}
 
-La variable `isNotEmpty` para determinar si una cadena no está vacía.
+El `isNotEmpty` se utiliza para determinar si una cadena no está vacía.
 
 **Sintaxis**
 
@@ -398,15 +398,15 @@ La variable `isNotEmpty` para determinar si una cadena no está vacía.
 
 **Ejemplo**
 
-La siguiente función devuelve &#39;true&#39; si el número de teléfono móvil del perfil no está vacío. De lo contrario, devolverá &#39;false&#39;.
+La siguiente función devuelve &quot;true&quot; si el número de teléfono móvil del perfil no está vacío. De lo contrario, devolverá &quot;false&quot;.
 
 ```sql
 {%= isNotEmpty(profile.mobilePhone.number) %}
 ```
 
-## Último índice de {#last-index-of}
+## Último Índice De {#last-index-of}
 
-La variable `lastIndexOf` se utiliza para devolver la posición (en el primer argumento) de la última incidencia del segundo parámetro. Devuelve -1 si no hay coincidencia.
+El `lastIndexOf` se utiliza para devolver la posición (en el primer argumento) de la última aparición del segundo parámetro. Devuelve -1 si no hay ninguna coincidencia.
 
 **Sintaxis**
 
@@ -416,8 +416,8 @@ La variable `lastIndexOf` se utiliza para devolver la posición (en el primer ar
 
 | Argumento | Descripción |
 | --------- | ----------- |
-| `{STRING_1}` | La cadena en la que se va a realizar la comprobación. |
-| `{STRING_2}` | La cadena que se va a buscar en el primer parámetro |
+| `{STRING_1}` | Cadena en la que se realizará la comprobación. |
+| `{STRING_2}` | La cadena que se busca en el primer parámetro |
 
 **Ejemplo**
 
@@ -429,7 +429,7 @@ Devuelve 7.
 
 ## Guarnecido izquierdo {#leftTrim}
 
-La variable `leftTrim` se utiliza para eliminar los espacios en blanco del principio de una cadena.
+El `leftTrim` se utiliza para eliminar espacios en blanco del principio de una cadena.
 
 **Sintaxis**
 
@@ -439,7 +439,7 @@ La variable `leftTrim` se utiliza para eliminar los espacios en blanco del princ
 
 ## Length {#length}
 
-La variable `length` se utiliza para obtener el número de caracteres de una cadena o una expresión.
+El `length` se utiliza para obtener el número de caracteres de una cadena o expresión.
 
 **Sintaxis**
 
@@ -457,7 +457,7 @@ La siguiente función devuelve la longitud del nombre de ciudad del perfil.
 
 ## Like{#like}
 
-La variable `like` para determinar si una cadena coincide con un patrón especificado.
+El `like` se utiliza para determinar si una cadena coincide con un patrón especificado.
 
 **Sintaxis**
 
@@ -467,20 +467,20 @@ La variable `like` para determinar si una cadena coincide con un patrón especif
 
 | Argumento | Descripción |
 | --------- | ----------- |
-| `{STRING_1}` | La cadena en la que se va a realizar la comprobación. |
+| `{STRING_1}` | Cadena en la que se realizará la comprobación. |
 | `{STRING_2}` | La expresión que debe coincidir con la primera cadena. Existen dos caracteres especiales admitidos para crear una expresión: `%` y `_`. <ul><li>`%` se utiliza para representar cero o más caracteres.</li><li>`_` se utiliza para representar exactamente un carácter.</li></ul> |
 
 **Ejemplo**
 
-La siguiente consulta recupera todas las ciudades donde viven los perfiles que contienen el patrón &quot;es&quot;.
+La siguiente consulta recupera todas las ciudades en las que residen los perfiles que contienen el patrón &quot;es&quot;.
 
 ```sql
 {%= like(profile.homeAddress.city, "%es%")%}
 ```
 
-## Lower Case{#lower}
+## Minúsculas{#lower}
 
-La variable `lowerCase` convierte una cadena en minúsculas.
+El `lowerCase` convierte una cadena en letras minúsculas.
 
 **Sintaxis**
 
@@ -498,7 +498,7 @@ Esta función convierte el nombre del perfil en letras minúsculas.
 
 ## Devuelve como resultado {#matches}
 
-La variable `matches` para determinar si una cadena coincide con una expresión regular específica. Consulte [este documento](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) para obtener más información sobre patrones coincidentes en expresiones regulares.
+El `matches` se utiliza para determinar si una cadena coincide con una expresión regular específica. Consulte la [este documento](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) para obtener más información sobre los patrones de coincidencia en expresiones regulares.
 
 **Sintaxis**
 
@@ -508,7 +508,7 @@ La variable `matches` para determinar si una cadena coincide con una expresión 
 
 **Ejemplo**
 
-La siguiente consulta determina, sin distinción de mayúsculas y minúsculas, si el nombre de la persona empieza por &quot;John&quot;.
+La siguiente consulta determina, sin distinción entre mayúsculas y minúsculas, si el nombre de la persona comienza por &quot;John&quot;.
 
 ```sql
 {%= matches(person.name.,"(?i)^John") %}
@@ -516,7 +516,7 @@ La siguiente consulta determina, sin distinción de mayúsculas y minúsculas, s
 
 ## Máscara {#mask}
 
-La variable `Mask` se utiliza para reemplazar una parte de una cadena con caracteres &quot;X&quot;.
+El `Mask` se utiliza para reemplazar una parte de una cadena con caracteres &quot;X&quot;.
 
 **Sintaxis**
 
@@ -526,7 +526,7 @@ La variable `Mask` se utiliza para reemplazar una parte de una cadena con caract
 
 **Ejemplo**
 
-La siguiente consulta reemplaza la cadena &quot;123456789&quot; por caracteres &quot;X&quot;, excepto para los dos primeros y últimos caracteres.
+La siguiente consulta reemplaza la cadena &quot;123456789&quot; por los caracteres &quot;X&quot;, excepto para los dos primeros y los últimos caracteres.
 
 ```sql
 {%= mask("123456789",1,2) %}
@@ -536,7 +536,7 @@ La consulta devuelve `1XXXXXX89`.
 
 ## MD5 {#md5}
 
-La variable `md5` se utiliza para calcular y devolver el hash md5 de una cadena.
+El `md5` se utiliza para calcular y devolver el hash md5 de una cadena.
 
 **Sintaxis**
 
@@ -550,11 +550,11 @@ La variable `md5` se utiliza para calcular y devolver el hash md5 de una cadena.
 {%= md5("hello world") %}
 ```
 
-Devuelve &quot;5eb63bbbe01eed093cb22bb8f5acdc3&quot;
+Devuelve &quot;5eb63bbbe01eeed093cb22bb8f5acdc3&quot;
 
 ## Not equal to{#notEqualTo}
 
-La variable `notEqualTo` para determinar si una cadena no es igual a la cadena especificada.
+El `notEqualTo` se utiliza para determinar si una cadena no es igual a la cadena especificada.
 
 **Sintaxis**
 
@@ -564,20 +564,20 @@ La variable `notEqualTo` para determinar si una cadena no es igual a la cadena e
 
 | Argumento | Descripción |
 | --------- | ----------- |
-| `{STRING_1}` | La cadena en la que se va a realizar la comprobación. |
-| `{STRING_2}` | La cadena que se va a comparar con la primera cadena. |
+| `{STRING_1}` | Cadena en la que se realizará la comprobación. |
+| `{STRING_2}` | Cadena que se va a comparar con la primera cadena. |
 
 **Ejemplo**
 
-La siguiente consulta determina, con distinción de mayúsculas y minúsculas, si el nombre de la persona no es &quot;John&quot;.
+La siguiente consulta determina, con distinción entre mayúsculas y minúsculas, si el nombre de la persona no es &quot;John&quot;.
 
 ```sql
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## Distinto de mayúsculas y minúsculas ignoradas {#not-equal-with-ignore-case}
+## No Igual Con Ignorar Mayúsculas y Minúsculas {#not-equal-with-ignore-case}
 
-La variable `notEqualWithIgnoreCase` se utiliza para comparar dos cadenas que ignoran mayúsculas y minúsculas.
+El `notEqualWithIgnoreCase` se utiliza para comparar dos cadenas ignorando mayúsculas y minúsculas.
 
 **Sintaxis**
 
@@ -587,8 +587,8 @@ La variable `notEqualWithIgnoreCase` se utiliza para comparar dos cadenas que ig
 
 | Argumento | Descripción |
 | --------- | ----------- |
-| `{STRING_1}` | La cadena en la que se va a realizar la comprobación. |
-| `{STRING_2}` | La cadena que se va a comparar con la primera cadena. |
+| `{STRING_1}` | Cadena en la que se realizará la comprobación. |
+| `{STRING_2}` | Cadena que se va a comparar con la primera cadena. |
 
 **Ejemplo**
 
@@ -600,7 +600,7 @@ La siguiente consulta determina si el nombre de la persona no es &quot;john&quot
 
 ## Grupo de expresiones regulares{#regexGroup}
 
-La variable `Group` se utiliza para extraer información específica, según la expresión regular proporcionada.
+El `Group` se utiliza para extraer información específica, basada en la expresión regular proporcionada.
 
 **Sintaxis**
 
@@ -610,9 +610,9 @@ La variable `Group` se utiliza para extraer información específica, según la 
 
 | Argumento | Descripción |
 | --------- | ----------- |
-| `{STRING}` | La cadena en la que se va a realizar la comprobación. |
-| `{EXPRESSION}` | La expresión regular que coincide con la primera cadena. |
-| `{GROUP}` | Grupo de expresiones con el que hacer coincidir. |
+| `{STRING}` | Cadena en la que se realizará la comprobación. |
+| `{EXPRESSION}` | La expresión regular que debe coincidir con la primera cadena. |
+| `{GROUP}` | Grupo de expresiones con el que debe coincidir. |
 
 **Ejemplo**
 
@@ -624,7 +624,7 @@ La siguiente consulta se utiliza para extraer el nombre de dominio de una direcc
 
 ## Reemplazar {#replace}
 
-La variable `replace` se utiliza para reemplazar una subcadena determinada de una cadena por otra subcadena.
+El `replace` se utiliza para reemplazar una subcadena determinada de una cadena con otra subcadena.
 
 **Sintaxis**
 
@@ -634,7 +634,7 @@ La variable `replace` se utiliza para reemplazar una subcadena determinada de un
 
 | Argumento | Descripción |
 | --------- | ----------- |
-| `{STRING_1}` | La cadena donde se debe reemplazar la subcadena. |
+| `{STRING_1}` | Cadena en la que se debe reemplazar la subcadena. |
 | `{STRING_2}` | La subcadena que se va a reemplazar. |
 | `{STRING_3}` | La subcadena de reemplazo. |
 
@@ -644,11 +644,11 @@ La variable `replace` se utiliza para reemplazar una subcadena determinada de un
 {%= replace("Hello John, here is your monthly newsletter!","John","Mark") %}
 ```
 
-Devuelve &quot;Hello Mark, aquí tiene su boletín mensual&quot;.
+Devuelve &quot;Hola Mark, aquí tienes tu newsletter mensual&quot;.
 
 ## Reemplazar todo{#replaceAll}
 
-La variable `replaceAll` se utiliza para reemplazar todas las subcadenas de un texto que coincida con la expresión &quot;regex&quot; con la cadena de literal &quot;replace&quot; especificada. Regex tiene un manejo especial de &quot;\&quot; y &quot;+&quot; y todas las expresiones regex siguen la estrategia de escape de PQL. La sustitución procede desde el principio de la cadena hasta el final, por ejemplo, reemplazar &quot;aa&quot; por &quot;b&quot; en la cadena &quot;aaa&quot; resultará en &quot;ba&quot; en lugar de &quot;ab&quot;.
+El `replaceAll` se utiliza para reemplazar todas las subcadenas de un texto que coincide con la expresión &quot;regex&quot; con la cadena &quot;replace&quot; literal especificada. Regex tiene un manejo especial de &quot;\&quot; y &quot;+&quot; y todas las expresiones regex siguen la estrategia de escape PQL. La sustitución se realiza desde el principio de la cadena hasta el final, por ejemplo, si se sustituye &quot;a&quot; por &quot;b&quot; en la cadena &quot;aaa&quot;, el resultado será &quot;ba&quot; en lugar de &quot;ab&quot;.
 
 **Sintaxis**
 
@@ -658,13 +658,13 @@ La variable `replaceAll` se utiliza para reemplazar todas las subcadenas de un t
 
 >[!NOTE]
 >
-> Cuando la expresión tomada como segundo argumento sea un carácter regex especial, utilice una barra invertida doble (`//`).  Los caracteres especiales de regex son: [, +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
+> Cuando la expresión tomada como segundo argumento es un carácter regex especial, utilice una doble barra invertida (`//`).  Los caracteres regex especiales son: [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
 > 
-> Obtenga más información en [documentación de oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+> Obtenga más información en [documentación del oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 
 ## Guarnecido derecho {#rightTrim}
 
-La variable `rightTrim` se utiliza para eliminar los espacios en blanco del final de una cadena.
+El `rightTrim` se utiliza para eliminar los espacios en blanco del final de una cadena.
 
 **Sintaxis**
 
@@ -674,7 +674,7 @@ La variable `rightTrim` se utiliza para eliminar los espacios en blanco del fina
 
 ## Split {#split}
 
-La variable `split` se utiliza para dividir una cadena por un carácter determinado.
+El `split` se utiliza para dividir una cadena por un carácter determinado.
 
 **Sintaxis**
 
@@ -684,7 +684,7 @@ La variable `split` se utiliza para dividir una cadena por un carácter determin
 
 ## Comienza con{#startsWith}
 
-La variable `startsWith` se utiliza para determinar si una cadena comienza con una subcadena especificada.
+El `startsWith` se utiliza para determinar si una cadena empieza con una subcadena especificada.
 
 **Sintaxis**
 
@@ -694,21 +694,21 @@ La variable `startsWith` se utiliza para determinar si una cadena comienza con u
 
 | Argumento | Descripción |
 | --------- | ----------- |
-| `{STRING_1}` | La cadena en la que se va a realizar la comprobación. |
-| `{STRING_2}` | La cadena que se va a buscar dentro de la primera cadena. |
+| `{STRING_1}` | Cadena en la que se realizará la comprobación. |
+| `{STRING_2}` | Cadena que se busca dentro de la primera cadena. |
 | `{CASE_SENSITIVE}` | Un parámetro opcional para determinar si la comprobación distingue entre mayúsculas y minúsculas. De forma predeterminada, se establece en true. |
 
 **Ejemplo**
 
-La siguiente consulta determina, con distinción de mayúsculas y minúsculas, si el nombre de la persona empieza por &quot;Joe&quot;.
+La siguiente consulta determina, con distinción entre mayúsculas y minúsculas, si el nombre de la persona empieza por &quot;Joe&quot;.
 
 ```sql
 {%= startsWith(person.name,"Joe") %}
 ```
 
-## Cadena hasta la fecha {#string-to-date}
+## Cadena a fecha {#string-to-date}
 
-La variable `stringToDate` convierte un valor de cadena en un valor de fecha-hora. Toma dos argumentos: representación de cadena de una representación de fecha-hora y de cadena del formateador.
+El `stringToDate` convierte un valor de cadena en un valor de fecha y hora. Se necesitan dos argumentos: la representación de cadena de una fecha y hora y la representación de cadena del formateador.
 
 **Sintaxis**
 
@@ -724,7 +724,7 @@ La variable `stringToDate` convierte un valor de cadena en un valor de fecha-hor
 
 ## Cadena a entero {#string-to-integer}
 
-La variable `string_to_integer` se utiliza para convertir un valor de cadena en un valor entero.
+El `string_to_integer` se utiliza para convertir un valor de cadena en un valor entero.
 
 **Sintaxis**
 
@@ -732,9 +732,9 @@ La variable `string_to_integer` se utiliza para convertir un valor de cadena en 
 {= string_to_integer(string) %}: int
 ```
 
-## Cadena para número {#string-to-number}
+## Cadena a número {#string-to-number}
 
-La variable `stringToNumber` se utiliza para convertir una cadena en número. Devuelve la misma cadena que el resultado de una entrada no válida.
+El `stringToNumber` se utiliza para convertir una cadena en número. Devuelve la misma cadena como salida para la entrada no válida.
 
 **Sintaxis**
 
@@ -744,7 +744,7 @@ La variable `stringToNumber` se utiliza para convertir una cadena en número. De
 
 ## Subcadena {#sub-string}
 
-La variable `Count string` se utiliza para devolver la subcadena de la expresión de cadena entre el índice begin y el índice end.
+El `Count string` se utiliza para devolver la subcadena de la expresión de cadena entre el índice inicial y el índice final.
 **Sintaxis**
 
 ```sql
@@ -753,7 +753,7 @@ La variable `Count string` se utiliza para devolver la subcadena de la expresió
 
 ## Caso de título{#titleCase}
 
-La variable **titleCase** se utiliza para poner en mayúsculas las primeras letras de cada palabra de una cadena.
+El **titleCase** se utiliza para poner en mayúscula las primeras letras de cada palabra de una cadena.
 
 **Sintaxis**
 
@@ -763,7 +763,7 @@ La variable **titleCase** se utiliza para poner en mayúsculas las primeras letr
 
 **Ejemplo**
 
-Si la persona vive en Washington High Street, esta función regresará a Washington High Street.
+Si la persona vive en Washington High Street, esta función devolverá Washington High Street.
 
 ```sql
 {%= titleCase(profile.person.location.Street) %}
@@ -771,7 +771,7 @@ Si la persona vive en Washington High Street, esta función regresará a Washing
 
 ## A Bool {#to-bool}
 
-La variable `toBool` se utiliza para convertir un valor de argumento en un valor booleano, según su tipo.
+El `toBool` se utiliza para convertir un valor de argumento en un valor booleano, según su tipo.
 
 **Sintaxis**
 
@@ -779,9 +779,9 @@ La variable `toBool` se utiliza para convertir un valor de argumento en un valor
 {= toBool(string) %}: boolean
 ```
 
-## Hasta la fecha {#to-date-time}
+## A Fecha Hora {#to-date-time}
 
-La variable `toDateTime` se utiliza para convertir cadena a fecha. Devuelve la fecha de epoch como salida para una entrada no válida.
+El `toDateTime` se utiliza para convertir la cadena a fecha. Devuelve la fecha epoch como salida para una entrada no válida.
 
 **Sintaxis**
 
@@ -789,9 +789,9 @@ La variable `toDateTime` se utiliza para convertir cadena a fecha. Devuelve la f
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## Hasta fecha solamente {#to-date-time-only}
+## A Fecha Hora Solamente {#to-date-time-only}
 
-La variable `toDateTimeOnly` se utiliza para convertir un valor de argumento en un valor de solo fecha. Devuelve la fecha de epoch como salida para una entrada no válida. Esta función acepta tipos de campo de cadena, fecha, larga e int.
+El `toDateTimeOnly` se utiliza para convertir un valor de argumento en un valor de solo fecha y hora. Devuelve la fecha epoch como salida para una entrada no válida. Esta función acepta tipos de campo string, date, long e int.
 
 **Sintaxis**
 
@@ -801,7 +801,7 @@ La variable `toDateTimeOnly` se utiliza para convertir un valor de argumento en 
 
 ## Recortar {#trim}
 
-La variable **trim** elimina todos los espacios en blanco del principio y del final de una cadena.
+El **recortar** elimina todos los espacios en blanco del principio y al final de una cadena.
 
 **Sintaxis**
 
@@ -811,7 +811,7 @@ La variable **trim** elimina todos los espacios en blanco del principio y del fi
 
 ## Mayúsculas{#upper}
 
-La variable **upperCase** convierte una cadena en mayúsculas.
+El **upperCase** convierte una cadena en letras mayúsculas.
 
 **Sintaxis**
 
@@ -821,7 +821,7 @@ La variable **upperCase** convierte una cadena en mayúsculas.
 
 **Ejemplo**
 
-Esta función convierte los apellidos del perfil en mayúsculas.
+Esta función convierte los apellidos del perfil en letras mayúsculas.
 
 ```sql
 {%= upperCase(profile.person.name.lastName) %}
@@ -829,7 +829,7 @@ Esta función convierte los apellidos del perfil en mayúsculas.
 
 ## Descodificación de URL {#url-decode}
 
-La variable `urlDecode` se utiliza para decodificar una cadena con codificación url.
+El `urlDecode` se utiliza para descodificar una cadena con codificación url.
 
 **Sintaxis**
 
@@ -839,7 +839,7 @@ La variable `urlDecode` se utiliza para decodificar una cadena con codificación
 
 ## Codificación de URL {#url-encode}
 
-La variable `Count only null` para codificar una cadena.
+El `Count only null` se utiliza para codificar una cadena mediante url.
 
 **Sintaxis**
 

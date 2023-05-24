@@ -12,7 +12,7 @@ exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '850'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -20,25 +20,25 @@ ht-degree: 1%
 
 En esta página, encontrará la lista de conjuntos de datos de Adobe Journey Optimizer y casos de uso relacionados:
 
-[Conjunto de datos de evento de seguimiento de correo electrónico](#email-tracking-experience-event-dataset)
-[Conjunto de datos del evento de comentarios del mensaje](#message-feedback-event-dataset)
-[Conjunto de datos del evento de seguimiento push](#push-tracking-experience-event-dataset)
+[Conjunto de datos de evento de experiencia de seguimiento de correo electrónico](#email-tracking-experience-event-dataset)
+[Conjunto de datos de evento de comentarios](#message-feedback-event-dataset)
+[Conjunto de datos de evento de experiencia de seguimiento push](#push-tracking-experience-event-dataset)
 [Evento de paso de recorrido](#journey-step-event)
-[Conjunto de datos de evento de decisión](#ode-decisionevents)
-[Conjunto de datos de evento de comentarios de BCC](#bcc-feedback-event-dataset)
+[Conjunto de datos de evento](#ode-decisionevents)
+[Conjunto de datos de evento de comentarios CCO](#bcc-feedback-event-dataset)
 [Conjunto de datos de entidad](#entity-dataset)
 
-Para ver la lista completa de campos y atributos para cada esquema, consulte la [Diccionario de esquema de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es){target="_blank"}.
+Para ver la lista completa de campos y atributos para cada esquema, consulte el [Diccionario de esquema de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es){target="_blank"}.
 
-## Conjunto de datos de evento de seguimiento de correo electrónico{#email-tracking-experience-event-dataset}
+## Conjunto de datos de evento de experiencia de seguimiento de correo electrónico{#email-tracking-experience-event-dataset}
 
-_Nombre en la interfaz : Conjunto de datos del evento de experiencia de seguimiento de correo electrónico CJM_
+_Nombre en la interfaz: Conjunto de datos de evento de experiencia de seguimiento de correo electrónico CJM_
 
-Conjunto de datos del sistema para la ingesta de eventos de experiencia de seguimiento de correo electrónico desde Journey Optimizer.
+Conjunto de datos del sistema para la ingesta de eventos de experiencia de seguimiento de correo electrónico de Journey Optimizer.
 
-El esquema relacionado es CJM Email Tracking Experience Event Schema.
+El esquema relacionado es el Esquema de evento de experiencia de seguimiento de correo electrónico CJM.
 
-Esta consulta muestra los recuentos de diferentes interacciones de correo electrónico (aperturas, clics) para un mensaje determinado:
+Esta consulta muestra el recuento de diferentes interacciones por correo electrónico (aperturas, clics) para un mensaje determinado:
 
 ```sql
 select
@@ -51,7 +51,7 @@ group by
     _experience.customerJourneyManagement.messageInteraction.interactionType
 ```
 
-Esta consulta muestra el desglose de recuentos de diferentes interacciones de correo electrónico (aperturas, clics) por mensaje para un recorrido determinado:
+Esta consulta muestra el desglose de los recuentos de diferentes interacciones de correo electrónico (aperturas, clics) por mensaje para un recorrido determinado:
 
 ```sql
 select
@@ -70,15 +70,15 @@ order by
 limit 100;
 ```
 
-## Conjunto de datos del evento de comentarios del mensaje{#message-feedback-event-dataset}
+## Conjunto de datos de evento de comentarios{#message-feedback-event-dataset}
 
-_Nombre en la interfaz: Conjunto de datos del evento de comentarios de mensajes CJM_
+_Nombre en la interfaz: Conjunto de datos de evento de comentarios de mensajes CJM_
 
-Conjunto de datos para la ingesta de correos electrónicos y eventos de comentarios de aplicaciones push desde Journey Optimizer.
+Conjunto de datos para la ingesta de eventos de comentarios de aplicaciones push y de correo electrónico desde Journey Optimizer.
 
-El esquema relacionado es Esquema de eventos de comentarios de mensajes CJM.
+El esquema relacionado es el Esquema de evento de comentarios de mensajes de CJM.
 
-Esta consulta muestra los recuentos de diferentes estados de comentarios de correo electrónico (enviado, rechazado, etc.) para un mensaje determinado:
+Esta consulta muestra el recuento de diferentes estados de comentarios de correo electrónico (enviados, rechazados, etc.) para un mensaje determinado:
 
 ```sql
 select
@@ -91,7 +91,7 @@ group by
     _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus;
 ```
 
-Esta consulta muestra el desglose de recuentos de diferentes estados de comentarios de correo electrónico (enviados, rechazados, etc.) por mensaje para un recorrido determinado:
+Esta consulta muestra el desglose de los recuentos de estados de comentarios de correo electrónico diferentes (enviados, rechazados, etc.) por mensaje para un recorrido determinado:
 
 ```sql
 select
@@ -110,31 +110,31 @@ order by
 limit 100;
 ```
 
-En el nivel de agregado, informe de nivel de dominio (ordenado por dominios principales): Nombre de dominio, mensaje enviado, devoluciones
+En el nivel agregado, informe de nivel de dominio (ordenado por dominios principales): Nombre de dominio, Mensaje enviado, Devoluciones
 
 ```sql
 SELECT split_part(_experience.customerJourneyManagement.emailChannelContext.address, '@', 2) AS recipientDomain, SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END)AS sentCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' THEN 1 ELSE 0 END )AS bounceCount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY recipientDomain ORDER BY sentCount DESC;
 ```
 
-Los envíos de correo electrónico se realizan diariamente:
+El correo electrónico envía diariamente:
 
 ```sql
 SELECT date_trunc('day', TIMESTAMP) AS rolluptimestamp, SUM( CASE WHEN _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'sent' THEN 1 ELSE 0 END) AS deliveredcount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY date_trunc('day', TIMESTAMP) ORDER BY rolluptimestamp ASC;
 ```
 
-Encuentre si un id. de correo electrónico en particular recibió un correo electrónico o no y, si no, cuál fue el error, la categoría de rechazo, el código:
+Busque si un ID de correo electrónico en particular recibió un correo electrónico o no y, en caso contrario, cuál fue el error, categoría de rechazo, código:
 
 ```sql
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.emailchannelcontext.address = 'user@domain.com' AND TIMESTAMP >= now() - INTERVAL '7' DAY ORDER BY status ASC
 ```
 
-Encuentre la lista de todos los id de correo electrónico individuales que han tenido un error en particular, una categoría de rechazo o un código en las últimas x horas/días o que están asociados a un envío de mensaje en particular:
+Encuentre la lista de todos los ID de correo electrónico individuales que tuvieron un error, una categoría de rechazo o un código en particular en las últimas x horas/días o asociados a una entrega de mensaje en particular:
 
 ```sql
 SELECT _experience.customerjourneymanagement.emailchannelcontext.address AS emailid, _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus != 'sent' AND TIMESTAMP >= now() - INTERVAL '10' HOUR AND _experience.customerjourneymanagement.messageexecution.messageexecutionid = 'BMA-45237824' ORDER BY emailid
 ```
 
-Tasa de salida hacia otro sitio a nivel agregado:
+Tasa de devoluciones graves a nivel agregado:
 
 ```sql
 select hardBounceCount, case when sentCount > 0 then(hardBounceCount/sentCount)*100.0 else 0 end as hardBounceRate from ( select SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' AND _experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.type = 'Hard' THEN 1 ELSE 0 END)AS hardBounceCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END )AS sentCount from cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' )
@@ -146,9 +146,9 @@ Errores permanentes agrupados por código de rechazo:
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
 
-### Identificar direcciones en cuarentena después de una interrupción del ISP{#isp-outage-query}
+### Identificación de direcciones en cuarentena después de una interrupción del ISP{#isp-outage-query}
 
-En caso de una interrupción del servicio de Internet Provider (ISP), debe identificar las direcciones de correo electrónico mal marcadas como devoluciones (en cuarentena) para dominios específicos durante un periodo de tiempo. Para obtener estas direcciones, utilice la siguiente consulta:
+En caso de una interrupción del proveedor de servicios de Internet (ISP), debe identificar las direcciones de correo electrónico erróneamente marcadas como rechazos (en cuarentena) para dominios específicos, durante un periodo de tiempo. Para obtener esas direcciones, utilice la siguiente consulta:
 
 ```sql
 SELECT
@@ -168,13 +168,13 @@ donde el formato de las fechas es: AAAA-MM-DD HH:MM:SS.
 
 Una vez identificadas, elimine esas direcciones de la lista de supresión de Journey Optimizer. [Más información](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
-## Conjunto de datos del evento de seguimiento push {#push-tracking-experience-event-dataset}
+## Conjunto de datos de evento de experiencia de seguimiento push {#push-tracking-experience-event-dataset}
 
-_Nombre en la interfaz: Conjunto de datos del evento de experiencia de seguimiento push CJM_
+_Nombre en la interfaz: Conjunto de datos de evento de experiencia de seguimiento push de CJM_
 
-Conjunto de datos para la ingesta de eventos de experiencia de seguimiento móvil para la inserción desde Journey Optimizer.
+Conjunto de datos para la ingesta de eventos de experiencia de seguimiento móvil para notificaciones push desde Journey Optimizer.
 
-El esquema relacionado es CJM Push Tracking Experience Event Schema.
+El esquema relacionado es el esquema de evento de experiencia de seguimiento push de CJM.
 
 Ejemplo de consulta:
 
@@ -188,13 +188,13 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
 
 ## Evento de paso de recorrido{#journey-step-event}
 
-_Nombre interno: Eventos de paso de recorrido (conjunto de datos del sistema)_
+_Nombre interno: Eventos de paso de Recorrido (conjunto de datos del sistema)_
 
 Conjunto de datos para la ingesta de eventos de paso en el recorrido.
 
-El esquema relacionado es Recorrido Step Event schema for Journey Orchestration.
+El esquema relacionado es el esquema de Evento de paso de Recorrido para el Journey Orchestration.
 
-Esta consulta muestra el desglose de recuentos de éxito de acción por etiqueta de acción para un recorrido determinado:
+Esta consulta muestra el desglose de los recuentos de éxito de las acciones por rótulo de acción para un recorrido determinado:
 
 ```sql
 select
@@ -210,7 +210,7 @@ group by
     _experience.journeyOrchestration.stepEvents.actionName;   
 ```
 
-Esta consulta muestra el desglose de los recuentos de pasos introducidos por nodeId y nodeLabel para un recorrido determinado. nodeId se incluye aquí ya que nodeLabel puede ser el mismo para diferentes nodos de recorrido.
+Esta consulta muestra el desglose de los recuentos introducidos por nodeId y nodeLabel para un recorrido determinado. nodeId se incluye aquí, ya que nodeLabel puede ser el mismo para diferentes nodos de recorrido.
 
 ```sql
 select
@@ -227,13 +227,13 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
 
-## Conjunto de datos de evento de decisión{#ode-decisionevents}
+## Conjunto de datos de evento{#ode-decisionevents}
 
-_Nombre en la interfaz: Eventos de decisión de ODE (conjunto de datos del sistema)_
+_Nombre en la interfaz: ODE DecisionEvents (conjunto de datos del sistema)_
 
-Conjunto de datos para la ingesta de propuestas de oferta a los usuarios.
+Conjunto de datos para la ingesta de propuestas de ofertas a los usuarios.
 
-El esquema relacionado es ODE decisionEvents.
+El esquema relacionado es ODE DecisionEvents.
 
 Esta consulta muestra todas las ofertas devueltas el día anterior:
 
@@ -248,7 +248,7 @@ GROUP BY date_format(Decision.Timestamp, 'MM/dd/yyyy')
 ORDER BY 1, 2 DESC;
 ```
 
-Esta consulta muestra el número de veces que se propusieron ofertas durante los últimos 30 días de una actividad/decisión en particular y su prioridad de oferta asociada.
+Esta consulta muestra el número de veces que se propusieron ofertas en los últimos 30 días de una actividad o decisión en particular y la prioridad de ofertas asociada.
 
 ```sql
 select proposedOffers.id,proposedOffers.name, po._experience.decisioning.ranking.priority, count(proposedOffers.id) as ProposedCount from (
@@ -289,9 +289,9 @@ select value.marketing.email.val FROM (
 ```
 -->
 
-## Conjunto de datos de evento de comentarios de BCC{#bcc-feedback-event-dataset}
+## Conjunto de datos de evento de comentarios CCO{#bcc-feedback-event-dataset}
 
-_Nombre en la interfaz: Conjunto de datos del evento de comentarios de AJO BCC (conjunto de datos del sistema)_
+_Nombre en la interfaz: Conjunto de datos de evento de comentarios CCO de AJO (conjunto de datos del sistema)_
 
 Conjunto de datos para almacenar información para mensajes CCO.
 
@@ -305,7 +305,7 @@ WHERE
     bcc.timestamp >= now() - INTERVAL '2' day; 
 ```
 
-Consulte con el conjunto de datos de comentarios para mostrar a los usuarios que no recibieron (todas las devoluciones y supresiones) y que tienen una entrada CCO para un mensaje determinado:
+Realice una consulta con el conjunto de datos de comentarios para mostrar los usuarios que no recibieron (todas las devoluciones y supresiones) y que tienen una entrada CCO para un mensaje en particular:
 
 ```sql
 SELECT 
@@ -338,21 +338,21 @@ _Nombre en la interfaz: ajo_entity_dataset (conjunto de datos del sistema)_
 
 Conjunto de datos para almacenar metadatos de entidad para mensajes enviados al usuario final.
 
-El esquema relacionado es AJO Entity Schema.
+El esquema relacionado es Esquema de entidad AJO.
 
-Este conjunto de datos le permite acceder a metadatos definidos por expertos en marketing, lo que le permite obtener mejores perspectivas de informes cuando se exportan conjuntos de datos de Journey Optimizer para crear informes de visualización en herramientas externas. Esto se logra mediante el atributo messageID , que ayuda a unir varios conjuntos de datos, como conjuntos de datos de comentarios de mensajes y conjuntos de datos de seguimiento de eventos de experiencia, para obtener detalles de un envío de mensajes desde el envío al seguimiento a nivel de perfil.
+Este conjunto de datos le da acceso a metadatos definidos por expertos en marketing, lo que le permite obtener mejores perspectivas de creación de informes cuando los conjuntos de datos de Journey Optimizer se exportan para la visualización de informes en herramientas externas. Esto se logra mediante el atributo messageID, que ayuda a unir varios conjuntos de datos, como conjuntos de datos de comentarios de mensajes y conjuntos de datos de seguimiento de eventos de experiencia, para obtener detalles de una entrega de mensajes desde el envío hasta el seguimiento a nivel de perfil.
 
 **Notas importantes**
 
-* Una entrada para un mensaje solo se crea después de publicar el recorrido o la campaña.
+* La entrada de un mensaje solo se crea después de publicar el recorrido o la campaña.
 
-* Puede ver la entrada 30 minutos después de la publicación de la campaña/recorrido.
+* Puede ver la entrada 30 minutos después de la publicación de la campaña o el recorrido.
 
 >[!NOTE]
 >
->Por el momento, hay dos entradas para cada publicación de mensaje en el conjunto de datos de la entidad por motivos de compatibilidad futuros. Esto no afecta a su capacidad de usar consultas de unión según sea necesario en todos los conjuntos de datos para recuperar la información deseada.
+>Por el momento, hay dos entradas para cada publicación de mensaje en el conjunto de datos de entidad por motivos de compatibilidad futuros. Esto no afecta a la capacidad de utilizar consultas de unión según sea necesario entre conjuntos de datos para recuperar la información deseada.
 
-Si desea clasificar, en los informes, los correos electrónicos enviados por un recorrido específico según la acción que los envió. puede unirse al conjunto de datos Comentarios de mensajes con el conjunto de datos de entidad. Los campos que se van a utilizar son: `_experience.decisioning.propositions.scopeDetails.correlationID` y `_id field in entity dataset`.
+Si desea ordenar, en los informes, los correos electrónicos enviados por un recorrido específico según la acción que los envió. puede unir el conjunto de datos de comentarios del mensaje con el conjunto de datos de entidad. Los campos que se van a utilizar son: `_experience.decisioning.propositions.scopeDetails.correlationID` y `_id field in entity dataset`.
 
 La siguiente consulta le ayuda a obtener la plantilla de mensaje asociada para una campaña determinada:
 
@@ -364,7 +364,7 @@ from
     WHERE AE._experience.customerJourneyManagement.entities.campaign.campaignVersionID = 'd7a01136-b113-4ef2-8f59-b6001f7eef6e'
 ```
 
-La siguiente consulta ayuda a obtener el asunto Detalles del Recorrido y del correo electrónico asociado con todos los eventos de comentarios:
+La siguiente consulta ayuda a obtener los detalles del Recorrido y el asunto del correo electrónico asociados con todos los eventos de comentarios:
 
 ```sql
 SELECT 
@@ -381,7 +381,7 @@ WHERE
   AND AE._experience.customerJourneyManagement.entities.journey.journeyVersionID IS NOT NULL
 ```
 
-Puede unir eventos de paso de recorrido, comentarios de mensaje y conjuntos de datos de seguimiento para obtener las estadísticas de un perfil en particular:
+Puede unir eventos de paso de recorrido, comentarios de mensajes y conjuntos de datos de seguimiento para obtener las estadísticas de un perfil en particular:
 
 ```sql
 SELECT 

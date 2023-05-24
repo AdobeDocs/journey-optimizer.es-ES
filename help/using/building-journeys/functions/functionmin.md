@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: min
-description: Obtenga información sobre el administrador de funciones
+description: Más información sobre la función min
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: min, función, expresión, recorrido
+keywords: min, function, expression, recorrido
 exl-id: 1c425d1d-08b4-446b-83ce-db376b2bf39f
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 # min {#min}
 
-Devuelve el valor mínimo entre un conjunto de expresiones, dadas como una lista o dos expresiones. Se omiten los valores nulos.
+Devuelve el valor mínimo entre un conjunto de expresiones, dado como una lista o dos expresiones. Los valores nulos se omiten.
 
 ## Categoría
 
@@ -52,7 +52,7 @@ Devuelve una duración.
 
 `min(<listDateTimeOnly>)`
 
-Devuelve una fecha y hora sin tener en cuenta la zona horaria.
+Devuelve una fecha y hora sin considerar la zona horaria.
 
 `min(<listDateTime>)`
 
@@ -64,11 +64,11 @@ Devuelve una fecha.
 
 `min(<listDecimal>)`
 
-Devuelve un decimal.
+Devuelve un valor decimal.
 
 `min(<decimal>,<decimal>)`
 
-Devuelve un decimal.
+Devuelve un valor decimal.
 
 `min(<duration>,<duration>)`
 
@@ -80,11 +80,11 @@ Devuelve una fecha y hora.
 
 `min(<dateTimeOnly>,<dateTimeOnly>)`
 
-Devuelve una fecha y hora sin tener en cuenta la zona horaria.
+Devuelve una fecha y hora sin considerar la zona horaria.
 
 `min(<integer>,<integer>)`
 
-Devuelve un número entero.
+Devuelve un entero.
 
 ## Ejemplos
 
