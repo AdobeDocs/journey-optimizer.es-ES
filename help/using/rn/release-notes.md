@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dab2bf59fad4a33c14015315841a060eff5ff4f9
+source-git-commit: ec2113d6789f53827c725573669e948e1385c2e4
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2477'
 ht-degree: 78%
 
 ---
@@ -166,7 +166,7 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 
 **Canal de SMS**
 
-* Infobip se ha agregado como proveedor al configurar las superficies de canal de SMS.
+* Infobip se ha agregado como proveedor al configurar las superficies de canal de SMS. [Más información](../sms/sms-configuration.md)
 * Twillio: La configuración de credenciales de API ahora incluye la capacidad de agregar el SID del servicio de mensajería para una integración perfecta con su cuenta de Twilio.
 
 **Canal en la aplicación**
