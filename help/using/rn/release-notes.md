@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ec2113d6789f53827c725573669e948e1385c2e4
+source-git-commit: 104a5d3def95272e09be050c822f5eafed6a6cb0
 workflow-type: tm+mt
-source-wordcount: '2477'
+source-wordcount: '2485'
 ht-degree: 78%
 
 ---
@@ -167,11 +167,11 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 **Canal de SMS**
 
 * Infobip se ha agregado como proveedor al configurar las superficies de canal de SMS. [Más información](../sms/sms-configuration.md)
-* Twillio: La configuración de credenciales de API ahora incluye la capacidad de agregar el SID del servicio de mensajería para una integración perfecta con su cuenta de Twilio.
+* Twillio: La configuración de credenciales de API ahora incluye la capacidad de agregar el SID del servicio de mensajería para una integración perfecta con su cuenta de Twilio. [Más información](../sms/sms-configuration.md)
 
 **Canal en la aplicación**
 
-* Se han añadido nuevas reglas de déclencheur de mensajes para el servicio Lugares de Adobe.
+* Se han añadido nuevas reglas de déclencheur de mensajes para el servicio Lugares de Adobe. [Más información](../in-app/inapp-configuration.md)
 * Se han añadido nuevas funciones de Adobe Experience Platform Assurance para capturar eventos de dispositivo para añadirlos como reglas de déclencheur.
 
 **Recorridos**
@@ -180,9 +180,9 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 
 **Campañas**
 
-* Ahora es posible duplicar una campaña desde la pantalla del inventario utilizando el menú de acción de los tres puntos.
+* Ahora es posible duplicar una campaña desde la pantalla del inventario utilizando el menú de acción de los tres puntos. [Más información](../campaigns/modify-stop-campaign.md#duplicate)
 * Ahora puede eliminar borradores de modificaciones en una campaña en directo.
-* Los pasos para activar una campaña se han simplificado.
+* Los pasos para activar una campaña se han simplificado. [Más información](../campaigns/modify-stop-campaign.md)
 
 **Gestión de decisiones**
 
