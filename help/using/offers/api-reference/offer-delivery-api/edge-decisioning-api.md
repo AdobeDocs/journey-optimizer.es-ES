@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 7347bb56eb2785b2d9f3f641cbe3b7c1ae2d078f
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 4%
+source-wordcount: '993'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ El SDK web de Experience Platform admite la consulta de las soluciones de person
 
 Existen dos maneras de implementar la administración de decisiones con [SDK web de Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). Una forma está dirigida a los desarrolladores y requiere conocimientos de sitios web y programación. La otra forma es utilizar la interfaz de usuario de Adobe Experience Platform para configurar ofertas, lo que solo requiere que se haga referencia a un pequeño script en el encabezado de la página del HTML.
 
-Consulte la documentación sobre [gestión de decisiones](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) para obtener más información sobre cómo entregar ofertas personalizadas mediante el SDK web de Adobe Experience Platform.
+Consulte la documentación sobre [gestión de decisiones](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning) para obtener más información sobre cómo entregar ofertas personalizadas mediante el SDK web de Adobe Experience Platform.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ El SDK no combinó estas bibliotecas y es una nueva implementación desde cero. 
 
 1. [Configuración de la secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=es) en la pestaña Recopilación de datos de su cuenta en Adobe Experience Cloud.
 
-1. Instale el SDK. Existen varios métodos para hacerlo, que se tratan en la sección [Instalación de la página del SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). Esta página continuará con cada método de implementación diferente.
+1. Instale el SDK. Existen varios métodos para hacerlo, que se tratan en la sección [Instalación de la página del SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=es). Esta página continuará con cada método de implementación diferente.
 
 Para utilizar el SDK, debe tener un [esquema](../../../data/get-started-schemas.md) y una [secuencia de datos](../../../data/get-started-datasets.md) definido.
 
@@ -62,11 +62,11 @@ Para configurar el SDK para la administración de decisiones, siga uno de estos 
 
 Esta opción es más fácil de usar para las personas que pueden tener menos experiencia en la codificación.
 
-1. [Creación de una propiedad de etiqueta](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=es)
+1. [Creación de una propiedad de etiqueta](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html)
 
-1. [Añadir el código de incrustación de ](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
+1. [Añadir el código de incrustación de ](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html)
 
-1. Instale y configure la extensión SDK para web de Adobe Experience Platform con la secuencia de datos que creó seleccionando la configuración en la lista desplegable &quot;Secuencia de datos&quot;. Consulte la documentación sobre [extensiones](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
+1. Instale y configure la extensión SDK para web de Adobe Experience Platform con la secuencia de datos que creó seleccionando la configuración en la lista desplegable &quot;Secuencia de datos&quot;. Consulte la documentación sobre [extensiones](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html).
 
    ![SDK web de Adobe Experience Platform](../../assets/installed-catalog-web-sdk.png)
 
@@ -78,7 +78,7 @@ Esta opción es más fácil de usar para las personas que pueden tener menos exp
 
    ![Objeto XDM](../../assets/xdm-object.png)
 
-1. Cree su [Reglas](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
+1. Cree su [Reglas](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=es):
 
    Agregue una acción Enviar evento del SDK web de Platform y agregue los ámbitos de decisión relevantes a la configuración de esa acción
 
@@ -86,13 +86,13 @@ Esta opción es más fácil de usar para las personas que pueden tener menos exp
 
    ![Solicitar oferta](../../assets/rule-request-offer.png)
 
-1. [Crear y publicar](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) una biblioteca que contenga todas las reglas, elementos de datos y extensiones relevantes que haya configurado.
+1. [Crear y publicar](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html) una biblioteca que contenga todas las reglas, elementos de datos y extensiones relevantes que haya configurado.
 
 ## Opción 2: Implementar manualmente con la versión independiente prediseñada
 
 Estos son los pasos necesarios para utilizar la administración de decisiones mediante la instalación independiente prediseñada del SDK web. En esta guía se da por hecho que es la primera vez que implementa el SDK, por lo que es posible que no se le apliquen todos los pasos. Esta guía también supone cierta experiencia de desarrollo.
 
-Incluya el siguiente fragmento de JavaScript de la opción 2: La versión independiente prediseñada en [esta página](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) en el `<head>` de la página del HTML.
+Incluya el siguiente fragmento de JavaScript de la opción 2: La versión independiente prediseñada en [esta página](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=es) en el `<head>` de la página del HTML.
 
 ```
 javascript

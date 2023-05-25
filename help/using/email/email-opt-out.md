@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: exclusión, correo electrónico, vínculo, cancelación de suscripción
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 83%
+source-wordcount: '1033'
+ht-degree: 80%
 
 ---
 
@@ -30,7 +30,7 @@ Además, si la variable **[!UICONTROL Cancelación de suscripción a lista]** es
 
 >[!NOTE]
 >
->Los mensajes de correo electrónico de tipo marketing deben incluir un vínculo de no participación, que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**) se define en el nivel de [superficie de canal](../configuration/channel-surfaces.md#email-type) (es decir, ajuste preestablecido de mensaje) y durante la creación del mensaje).
+>Los mensajes de correo electrónico de tipo marketing deben incluir un vínculo de no participación, que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**) se define en [superficie de canal](../configuration/channel-surfaces.md#email-type) y al crear el mensaje).
 
 ## Exclusión externa {#opt-out-external-lp}
 
@@ -64,12 +64,11 @@ Para que los destinatarios se excluyan cuando envíen su elección desde la pág
 
 Esta llamada de POST es como sigue:
 
-Extremo: platform.adobe.io/journey/imp/consent/preferences
+Punto final: https://platform.adobe.io/journey/imp/consent/preferences
 
 Parámetros de consulta:
 
 * **params**: contiene la carga útil cifrada
-* **sig**: firma
 * **pid**: ID de perfil cifrado
 
 Estos tres parámetros se incluyen en la dirección URL de la página de aterrizaje de terceros que se envía al destinatario:

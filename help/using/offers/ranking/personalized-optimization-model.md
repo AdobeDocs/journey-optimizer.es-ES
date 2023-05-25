@@ -7,18 +7,14 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 0%
+source-wordcount: '781'
+ht-degree: 1%
 
 ---
 
 # Modelo de optimización personalizado {#personalized-optimization-model}
-
->[!CAUTION]
->
->Actualmente, el uso de modelos de optimización personalizados está disponible en el acceso anticipado solo para usuarios seleccionados.
 
 ## Información general {#overview}
 
@@ -35,14 +31,14 @@ Por ejemplo, si un banco tiene dos ofertas de tarjetas de crédito y la única d
 
 ## Cómo funciona {#how}
 
-La personalización automática aprende interacciones de funciones complejas entre ofertas, información de los usuarios e información contextual para recomendar ofertas personalizadas a los usuarios finales. Las funciones son entradas en el modelo.
+El modelo aprende interacciones de funciones complejas entre ofertas, información de los usuarios e información contextual para recomendar ofertas personalizadas a los usuarios finales. Las funciones son entradas en el modelo.
 
 Existen tres tipos de funciones:
 
 | Tipos de funciones | Cómo añadir funciones a los modelos |
 |--------------|----------------------------|
-| Objetos de toma de decisiones (placementID, activityID, decisionScopeID) | Parte de los comentarios de gestión de decisiones Eventos de experiencia enviados a AEP |
 | Segmentos | Se pueden añadir de 0 a 50 segmentos como funciones al crear el modelo de IA de clasificación |
+| Objetos de toma de decisiones (placementID, activityID, decisionScopeID) | Parte de los comentarios de gestión de decisiones Eventos de experiencia enviados a AEP |
 | Datos de contexto | Parte de los comentarios y eventos de experiencia de toma de decisiones enviados a AEP. Datos de contexto disponibles para agregar al esquema: Detalles de comercio, detalles de canal, detalles de aplicación, detalles web, detalles de entorno, detalles de dispositivo, placeContext. |
 
 El modelo tiene dos fases:
@@ -66,7 +62,7 @@ Básicamente, esta es la idea de aprender y memorizar interacciones de caracter�
 El problema de inicio en frío se produce cuando no hay suficientes datos para hacer recomendaciones. Para la personalización automática, existen dos tipos de problemas de inicio en frío.
 
 * **Después de crear una nueva estrategia de clasificación sin datos históricos**, las ofertas se servirán aleatoriamente durante un período de tiempo para recopilar datos y los datos se utilizarán para entrenar el primer modelo.
-* A **Una vez lanzado el primer modelo**, el 10 % del tráfico total se asignará a servicios aleatorios, mientras que el 90 % del tráfico se utilizará para recomendaciones de modelos. Por lo tanto, si se agregaran nuevas ofertas a la estrategia de clasificación, se enviarían como parte del 10 % del tráfico. Los datos recopilados en esas ofertas determinarían la cantidad de veces que se selecciona entre el 90 % del tráfico a medida que el modelo se actualiza.
+* **Después de la publicación del primer modelo**, el 10 % del tráfico total se asignará a servicios aleatorios, mientras que el 90 % del tráfico se utilizará para recomendaciones de modelos. Por lo tanto, si se agregaran nuevas ofertas a la estrategia de clasificación, se enviarían como parte del 10 % del tráfico. Los datos recopilados en esas ofertas determinarían la cantidad de veces que se selecciona entre el 90 % del tráfico a medida que el modelo se actualiza.
 
 ## Readiestramiento {#re-training}
 

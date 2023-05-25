@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 100%
+source-wordcount: '1377'
+ht-degree: 98%
 
 ---
 
@@ -166,9 +166,10 @@ ht-degree: 100%
    + Experimento de contenido {#content-experiment}
       + [Introducción al experimento de contenido](using/campaigns/get-started-experiment.md)
       + [Creación de un experimento de contenido](using/campaigns/content-experiment.md)
-      + [Comprensión de los cálculos estadísticos](using/campaigns/experiment-calculations.md)
       + [Configurar informes de experimentación](using/campaigns/reporting-configuration.md)
-      + [Cálculos estadísticos en el informe de experimentación](using/campaigns/experiment-report-calculations.md)
+      + Notas técnicas {#technotes}
+         + [Comprensión de los cálculos estadísticos](using/campaigns/experiment-calculations.md)
+         + [Comprensión de los cálculos estadísticos en el informe Experimentación](using/campaigns/experiment-report-calculations.md)
    + [Activación de campañas mediante las API](using/campaigns/api-triggered-campaigns.md)
 + Canal de correo electrónico {#email}
    + [Empezar con correos electrónicos](using/email/get-started-email.md)
@@ -193,11 +194,11 @@ ht-degree: 100%
          + [Introducción al diseño de correo electrónico](using/email/get-started-email-style.md)
          + [Editar configuración de fondo](using/email/backgrounds.md)
          + [Ajustar alineación vertical y relleno](using/email/alignment-and-padding.md)
-         + [Definición de un estilo para los vínculos](using/email/styling-links.md)
          + [Añadir atributos de estilo en línea](using/email/inline-styling.md)
    + [Previsualizar y probar el correo electrónico](using/email/preview.md)
    + [Creación de plantillas de contenido](using/email/content-templates.md)
    + [Uso de plantillas de Experience Manager](using/email/aem-templates.md)
+   + [Trabajo con fragmentos](using/email/fragments.md)
    + [Administrar la exclusión de correo electrónico](using/email/email-opt-out.md)
    + Configurar canal de correo electrónico {#configure-email}
       + [Empezar a configurar el correo electrónico](using/email/get-started-email-config.md)
@@ -304,6 +305,7 @@ ht-degree: 100%
       + [Lista de componentes](using/reports/global-report-components.md)
       + [Informe global de recorrido](using/reports/journey-global-report.md)
       + [Informe global de la campaña](using/reports/campaign-global-report.md)
+      + [Informe objetivo](using/reports/objective-report.md)
       + [Informe global de la página de aterrizaje](using/reports/lp-report-global.md)
       + [Informe global de la lista de suscripciones](using/reports/subscription-report-global.md)
    + Informes de recorrido {#reports}
@@ -468,13 +470,15 @@ ht-degree: 100%
          + [Integración con las versiones 7 y 8 de Adobe Campaign](using/action/acc-action.md)
    + [Fuentes](using/start/get-started-sources.md)
 + Control de acceso {#access-control}
-   + [Información general sobre el control de acceso](using/administration/permissions-overview.md)
-   + [Perfiles de producto integrados](using/administration/ootb-product-profiles.md)
-   + [Administrar usuarios y perfiles de producto](using/administration/permissions.md)
-   + [Niveles de permisos](using/administration/high-low-permissions.md)
-   + [Administración de zonas protegidas](using/administration/sandboxes.md)
+   + Información general sobre el control de acceso {#privacy}
+      + [Introducción a la administración de usuarios](using/administration/permissions-overview.md)
+      + [Funciones integradas](using/administration/ootb-product-profiles.md)
+      + [Permisos integrados](using/administration/ootb-permissions.md)
+      + [Niveles de permisos](using/administration/high-low-permissions.md)
+   + [Administrar usuarios y funciones](using/administration/permissions.md)
    + [Control de acceso basado en atributos](using/administration/attribute-based-access.md)
    + [Control de acceso de nivel de objeto](using/administration/object-based-access.md)
+   + [Administración de zonas protegidas](using/administration/sandboxes.md)
 + Privacidad {#privacy}
    + [Introducción a la privacidad](using/privacy/get-started-privacy.md)
    + [Solicitudes de privacidad](using/privacy/requests.md)

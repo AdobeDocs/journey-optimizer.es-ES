@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: datos, gobernanza, DULE, etiquetas, etiquetado, plataforma, directiva
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 100%
+source-wordcount: '900'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ En Journey Optimizer, puede aplicar estas políticas a las acciones personalizad
 Para obtener más información sobre el marco de trabajo de control de datos y cómo trabajar con etiquetas y políticas, consulte la documentación de Adobe Experience Platform:
 
 * [Información general sobre el servicio de control de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=es)
-* [Información general sobre las etiquetas de uso de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=es)
+* [Información general sobre las etiquetas de uso de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html)
 * [Políticas de uso de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=es)
 
 ## Notas importantes {#important-notes}

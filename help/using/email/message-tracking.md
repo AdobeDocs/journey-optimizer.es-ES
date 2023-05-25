@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: vínculos, seguimiento, monitorización, correo electrónico
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
+source-git-commit: af1bc66021f04dacee8cf674925af9e2d0c2f30b
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 38%
+source-wordcount: '1063'
+ht-degree: 34%
 
 ---
 
@@ -63,30 +63,59 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
    * **[!UICONTROL Vínculo externo]**: inserte un vínculo a una dirección URL externa.
 
-   * **[!UICONTROL Página de aterrizaje]**: inserte un vínculo a una página de aterrizaje. Obtenga más información en [esta sección](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL Página de aterrizaje]**: inserte un vínculo a una página de aterrizaje. [Más información ](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL Exclusión en un clic]**: inserte un vínculo para permitir a los usuarios cancelar rápidamente la suscripción a sus comunicaciones sin necesidad de confirmar la exclusión. Obtenga más información en [esta sección](../privacy/opt-out.md#one-click-opt-out).
+   * **[!UICONTROL Exclusión en un clic]**: inserte un vínculo para permitir a los usuarios cancelar rápidamente la suscripción a sus comunicaciones sin necesidad de confirmar la exclusión. [Más información](email-opt-out.md#one-click-opt-out).
 
    * **[!UICONTROL Inclusión/suscripción externa]**: inserte un vínculo para aceptar la recepción de comunicaciones de su marca.
 
-   * **[!UICONTROL Exclusión/baja externa]**: inserte un vínculo para cancelar la suscripción y evitar recibir comunicaciones de su marca. Obtenga más información sobre la administración de exclusiones en [esta sección](../privacy/opt-out.md#opt-out-management).
+   * **[!UICONTROL Exclusión/baja externa]**: inserte un vínculo para cancelar la suscripción y evitar recibir comunicaciones de su marca. Obtenga más información sobre la administración de exclusiones en [esta sección](email-opt-out.md#opt-out-management).
 
-   * **[!UICONTROL Página espejo]**: inserte un vínculo para mostrar el contenido del correo electrónico en un explorador web. Obtenga más información en [esta sección](#mirror-page).
+   * **[!UICONTROL Página espejo]**: Añada un vínculo para mostrar el contenido del correo electrónico en un explorador web. [Más información](#mirror-page)
 
-1. Puede personalizar los vínculos. Obtenga más información sobre las URL personalizadas en [esta sección](../personalization/personalization-syntax.md#perso-urls).
+1. Introduzca la dirección URL deseada en el campo correspondiente o seleccione una página de aterrizaje y defina la configuración y los estilos del vínculo. [Más información](#adjust-links)
+
+   >[!NOTE]
+   >
+   >Para interpretar las direcciones URL, [!DNL Journey Optimizer] cumple con la sintaxis URI ([RFC 3986 estándar](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), que deshabilita algunos caracteres internacionales especiales en las direcciones URL. Al intentar enviar la prueba o el correo electrónico, si se le devuelve un error que implica una dirección URL añadida al contenido, puede codificar la cadena como una solución alternativa.
+
+1. Puede personalizar los vínculos. [Más información](../personalization/personalization-syntax.md#perso-urls)
 
 1. Guarde los cambios.
 
-1. Una vez creado el vínculo, puede modificarlo desde el panel **[!UICONTROL Configuración de componentes]** a la derecha.
-
-   * Puede editar el vínculo y cambiar su tipo.
-   * Puede elegir subrayar el vínculo o no marcando la opción correspondiente.
+1. Una vez creado el vínculo, aún puede modificarlo desde el **[!UICONTROL Configuración]** y **[!UICONTROL Estilos]** paneles a la derecha.
 
    ![](assets/message-tracking-link-settings.png)
 
 >[!NOTE]
 >
 >Los mensajes de correo electrónico de tipo marketing deben incluir un [vínculo de no participación](../privacy/opt-out.md#opt-out-management), que no es necesaria para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**) se define en la [superficie de canal](../configuration/channel-surfaces.md#email-type) al crear el mensaje.
+
+## Ajustar vínculos {#adjust-links}
+
+Puede realizar ajustes en los vínculos utilizando la variable **[!UICONTROL Configuración]** y **[!UICONTROL Estilos]** paneles a la derecha. Puede subrayar un vínculo, editar su color y seleccionar su destino.
+
+1. En un componente de **[!UICONTROL Texto]** donde se inserta un vínculo, seleccione el vínculo.
+
+1. Desde el **[!UICONTROL Configuración]** pestaña, elija cómo se redirigirá la audiencia con el **[!UICONTROL Target]** lista desplegable:
+
+   * **[!UICONTROL Ninguna]**: abre el vínculo en el mismo marco en el que se hizo clic (predeterminado).
+   * **[!UICONTROL En blanco]**: abre el vínculo en una nueva ventana o pestaña.
+   * **[!UICONTROL Propio]**: abre el vínculo en el mismo marco en el que se hizo clic.
+   * **[!UICONTROL Principal]**: abre el vínculo en el marco principal.
+   * **[!UICONTROL Superior]**: abre el vínculo en todo el cuerpo de la ventana.
+
+   ![](assets/link_2.png)
+
+1. Marque **[!UICONTROL Subrayar vínculo]** para subrayar el texto de la etiqueta del vínculo.
+
+   ![](assets/link_1.png)
+
+1. Para cambiar el color del vínculo, haga clic en **[!UICONTROL Color del vínculo]** desde el **[!UICONTROL Estilos]** pestaña.
+
+   ![](assets/link_3.png)
+
+1. Guarde los cambios.
 
 ## Vínculo a una página espejo {#mirror-page}
 

@@ -9,14 +9,18 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, publicación
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 28%
+source-wordcount: '1583'
+ht-degree: 27%
 
 ---
 
 # Creación y publicación de páginas de aterrizaje {#create-lp}
+
+>[!CAUTION]
+>
+>Para poder probar y publicar páginas de aterrizaje, debe tener **[!UICONTROL Publicar mensajes]** permiso.
 
 ## Acceso a páginas de aterrizaje {#access-landing-pages}
 
@@ -207,6 +211,8 @@ Una vez definida la configuración y el contenido de la página de aterrizaje, p
 
 >[!CAUTION]
 >
+>Para poder probar las páginas de aterrizaje, debe tener el **[!UICONTROL Publicar mensajes]** permiso.
+>
 >Debe tener perfiles de prueba disponibles para poder previsualizar los mensajes y enviar pruebas. Obtenga información sobre cómo [creación de perfiles de prueba](../segment/creating-test-profiles.md).
 
 1. En la interfaz de la página de aterrizaje, haga clic en **[!UICONTROL Simular contenido]** para acceder a la selección del perfil de prueba.
@@ -273,6 +279,10 @@ Pueden producirse dos tipos de alertas:
 -->
 
 ## Publicar la página de aterrizaje {#publish-landing-page}
+
+>[!CAUTION]
+>
+>Para poder publicar páginas de aterrizaje, debe tener el **[!UICONTROL Publicar mensajes]** permiso.
 
 Una vez que la página de aterrizaje esté lista, puede publicarla para que esté disponible para usarla en un mensaje.
 

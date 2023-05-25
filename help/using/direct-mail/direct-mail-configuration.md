@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 badge: label="Beta" type="Informative"
-source-git-commit: 55f1c6a681aece6446a3330184466ff61e4db580
+source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 33%
+source-wordcount: '898'
+ht-degree: 32%
 
 ---
 
@@ -90,7 +90,7 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Actualmente solo se admiten Amazon S3 y SFTP en [!DNL Journey Optimizer].
+   >Actualmente, Amazon S3, SFTP y Azure son compatibles con [!DNL Journey Optimizer].
 
 1. Rellene los detalles y credenciales del servidor, como la dirección del servidor, la clave de acceso, etc.
 
@@ -116,7 +116,7 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 >id="ajo_dm_surface_settings"
 >title="Definir la configuración del correo directo"
 >abstract="Una superficie de correo directo dispone de la configuración para el formato del archivo que contiene los datos de la audiencia de destino y que utilizará el proveedor de correo. También debe definir dónde se exportará el archivo seleccionando la configuración de enrutamiento del archivo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=es#file-routing-configuration" text="Configurar el enrutamiento de archivos"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html#file-routing-configuration" text="Configurar el enrutamiento de archivos"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -146,6 +146,10 @@ Una superficie de correo postal también debe incluir la configuración de enrut
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
 1. Seleccione el formato de archivo: **[!UICONTROL CSV]** o **[!UICONTROL Delimitado por texto]**.
+
+1. Si selecciona **[!UICONTROL Delimitado por texto]**, defina el separador de columnas que desee: tabulación, punto y coma, barra vertical o Y comercial.
+
+   ![](assets/surface-direct-mail-column-separator.png)
 
 1. Seleccione el **[!UICONTROL Configuración de enrutamiento de archivos]** entre los que ha creado. Define dónde se exportará el archivo para que lo utilice su proveedor de correo postal.
 

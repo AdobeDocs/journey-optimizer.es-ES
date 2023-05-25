@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: correo electrónico, estilo, css, cuerpo, estructura
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '108'
 ht-degree: 100%
 
 ---
@@ -28,5 +28,4 @@ Siga los vínculos siguientes para descubrir cómo ajustar algunos de los ajuste
 
 * Obtenga información sobre cómo [personalizar el fondo del correo electrónico](backgrounds.md)
 * Obtenga información sobre cómo [administrar alineación vertical y relleno](alignment-and-padding.md)
-* Obtenga información sobre cómo [definir un estilo para los vínculos del correo electrónico](styling-links.md)
 * Obtenga información sobre cómo [personalizar atributos de estilo en línea](inline-styling.md)

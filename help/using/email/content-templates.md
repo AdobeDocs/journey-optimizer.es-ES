@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 03212e47a4430ce793a9389fa8cd9de0ef8d2bcc
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 12%
@@ -81,8 +81,6 @@ Para crear una plantilla de contenido desde cero, siga los pasos a continuación
 
 1. Acceda a la lista de plantillas de contenido a través de **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Plantillas de contenido]** menú izquierdo.
 
-   ![](assets/content-template-list.png)
-
 1. Seleccionar **[!UICONTROL Crear plantilla]**.
 
 1. Rellene los detalles de la plantilla.
@@ -95,7 +93,7 @@ Para crear una plantilla de contenido desde cero, siga los pasos a continuación
 
 1. Para asignar etiquetas de uso de datos personalizadas o principales a la plantilla, seleccione **[!UICONTROL Administrar acceso]**. [Obtenga más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
 
-1. Clic **[!UICONTROL Crear]** y elija cómo desea diseñar el correo electrónico desde las diferentes opciones:
+1. Clic **[!UICONTROL Crear]** y elija cómo desea diseñar la plantilla entre las distintas opciones:
 
    * [Diseñe su correo electrónico desde cero](content-from-scratch.md) mediante la interfaz del Diseñador de correo electrónico.
 

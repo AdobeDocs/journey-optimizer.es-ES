@@ -9,9 +9,9 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: objeto, nivel, acceso, control, etiquetas, olac, autorización
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '457'
 ht-degree: 14%
 
 ---
@@ -94,4 +94,4 @@ Para asignar etiquetas de uso de datos personalizadas o principales a los objeto
 Para tener acceso a este objeto, los usuarios deberán tener la variable específica **[!UICONTROL Etiqueta]** incluido en su **[!UICONTROL Funciones]**.
 Por ejemplo, un usuario con la etiqueta C1 solo tendrá acceso a los objetos con o sin etiqueta C1.
 
-Para obtener más información sobre cómo asignar **[!UICONTROL Etiqueta]** a un **[!UICONTROL Rol]**, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=en#manage-labels-for-a-role).
+Para obtener más información sobre cómo asignar **[!UICONTROL Etiqueta]** a un **[!UICONTROL Rol]**, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role).

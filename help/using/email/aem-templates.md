@@ -11,9 +11,9 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '766'
 ht-degree: 3%
 
 ---
@@ -59,7 +59,7 @@ Para exportar una plantilla de Adobe Experience Manager a Adobe Journey Optimize
 
    ![](assets/aem-outbound-menu.png)
 
-1. Desde la biblioteca de contenido, puede utilizar plantillas configuradas anteriormente o crear una desde cero. [Más información](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=en#creating-a-new-page)
+1. Desde la biblioteca de contenido, puede utilizar plantillas configuradas anteriormente o crear una desde cero. [Más información](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. Al incorporar la sintaxis de personalización de Journey Optimizer en la plantilla, puede mejorar sus capacidades de personalización. [Más información](../personalization/personalization-syntax.md)
 
@@ -93,7 +93,7 @@ Una vez que la plantilla de Experience Manager esté disponible en Journey Optim
 
 1. Para personalizar aún más la plantilla de Experience Manager y agregar una personalización personalizada al contenido, haga clic en **[!UICONTROL Editar contenido]**. Esto le permitirá realizar cambios fácilmente y adaptar la plantilla a sus necesidades específicas. [Más información](get-started-email-design.md)
 
-   >[!NOTE]
+   >[!WARNING]
    >
    > Si desea editar y personalizar la plantilla, solo podrá utilizar el modo de compatibilidad.
 

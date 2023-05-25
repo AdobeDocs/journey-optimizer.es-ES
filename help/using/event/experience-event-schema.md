@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: esquemas, XDM, plataforma, flujo, ingesta, recorrido
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 3%
+source-wordcount: '838'
+ht-degree: 4%
 
 ---
 
@@ -72,7 +72,7 @@ Este es el esquema de compra con la relación definida en el campo ID de product
 
 >[!NOTE]
 >
->Obtenga más información sobre las relaciones de esquema en la [Documentación del Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
+>Obtenga más información sobre las relaciones de esquema en la [Documentación del Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=es).
 
 En Journey Optimizer, puede aprovechar todos los campos de las tablas vinculadas:
 

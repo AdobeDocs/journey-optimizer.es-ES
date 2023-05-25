@@ -9,14 +9,14 @@ role: Admin, Architect
 level: Intermediate
 keywords: permisos, derechos, restricciones, acceso, zona protegida
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: d99feb7b6b11f9bba4f4164e7febecfca1d7da3b
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 31%
+source-wordcount: '208'
+ht-degree: 29%
 
 ---
 
-# Información general sobre la administración de usuarios {#permissions-overview}
+# Introducción a la administración de usuarios {#permissions-overview}
 
 [!DNL Journey Optimizer] le permite definir y administrar los permisos asignados a distintos usuarios. Los permisos son un conjunto de derechos y restricciones que autorizan o deniegan el acceso a las funciones y capacidades internas del producto.
 

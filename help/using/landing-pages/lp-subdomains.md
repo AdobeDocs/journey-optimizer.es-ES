@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 keywords: aterrizaje, página de aterrizaje, subdominios, configuración
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '827'
 ht-degree: 24%
 
 ---
@@ -39,7 +39,12 @@ Puede utilizar un subdominio que ya esté delegado al Adobe o puede configurar o
 
 >[!CAUTION]
 >
->La configuración del subdominio de página de aterrizaje es común a todos los entornos. Por lo tanto, cualquier modificación en un subdominio de página de aterrizaje también afectará a las zonas protegidas de producción.
+>La configuración del subdominio de página de aterrizaje es común a todos los entornos. Por lo tanto:
+>
+>* Para acceder y editar subdominios de página de aterrizaje, debe tener **[!UICONTROL Administrar subdominios de página de aterrizaje]** en la zona protegida de producción.
+>
+> * Cualquier modificación en un subdominio de página de aterrizaje también afectará a las zonas protegidas de producción.
+
 
 ## Usar un subdominio existente {#lp-use-existing-subdomain}
 

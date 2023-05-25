@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: vista previa, contenido, correo electrónico, prueba, prueba, perfil
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 12%
+source-wordcount: '1010'
+ht-degree: 10%
 
 ---
 
@@ -49,8 +49,8 @@ Además, aproveche la cuenta **Litmus** en [!DNL Journey Optimizer] para previsu
 >id="ac_preview_testprofiles"
 >title="Previsualizar y probar sus mensajes"
 >abstract="Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=es#email-rendering" text="Procesamiento de correo electrónico"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=es#preview-email" text="Vista previa"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html#email-rendering" text="Procesamiento de correo electrónico"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html#preview-email" text="Vista previa"
 
 Uso [Perfiles de prueba](../segment/creating-test-profiles.md) para dirigirse a destinatarios adicionales que no coincidan con los criterios de objetivo definidos.
 
