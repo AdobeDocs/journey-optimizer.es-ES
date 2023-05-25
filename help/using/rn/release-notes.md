@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0622911847dddfff553bbcfdaa9aef451b64101c
+source-git-commit: dab2bf59fad4a33c14015315841a060eff5ff4f9
 workflow-type: tm+mt
-source-wordcount: '2504'
+source-wordcount: '2475'
 ht-degree: 78%
 
 ---
@@ -22,11 +22,11 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Regístrese para la [Newsletter trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoy y reciba las últimas actualizaciones de productos, artículos interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.
 
 
-## Notas de la versión anteriores de mayo de 2023 {#may-rn-2023}
+## Notas de la versión de mayo de 2023 {#may-rn-2023}
 
-La información siguiente está sujeta a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento. La documentación actualizada se publicará en la fecha de lanzamiento y se agregarán vínculos directos en esta página.
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**Fecha de lanzamiento**: 25 de mayo de 2023
+**Release date**: May 25, 2023-->
 
 ### Nuevas funcionalidades{#may-2023-features}
 
@@ -60,7 +60,7 @@ La información siguiente está sujeta a cambios sin previo aviso hasta la fecha
 <td>
 <p>Adobe Journey Optimizer ahora admite experimentos en campañas. Los experimentos son ensayos aleatorios, lo que en el contexto de las pruebas en línea significa que expone a algunos usuarios seleccionados aleatoriamente a una variación determinada de un mensaje y a otro conjunto de usuarios seleccionados aleatoriamente a otra variación o tratamiento. Después de la exposición, puede medir las métricas de resultado que le interesan, como aperturas de correos electrónicos, suscripciones o compras.</p>
 <img src="assets/do-not-localize/experiment.gif"/>
-<!--p>For more information, refer to the <a href="../campaigns/content-experiment.md">detailed documentation</a>.</p-->
+<p>Para obtener más información, consulte la <a href="../campaigns/content-experiment.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -97,7 +97,7 @@ La información siguiente está sujeta a cambios sin previo aviso hasta la fecha
 <td>
 <p>Ahora puede crear, utilizar y administrar fragmentos para montar rápidamente sus correos electrónicos y plantillas de contenido. Un fragmento es un componente reutilizable creado previamente al que se puede hacer referencia en varios correos electrónicos en campañas y recorridos de Journey Optimizer para un proceso de diseño mejorado y acelerado.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
+<p>Para obtener más información, consulte la <a href="../email/fragments.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -144,14 +144,6 @@ La información siguiente está sujeta a cambios sin previo aviso hasta la fecha
 
 ### Mejoras {#may-2023-improvements}
 
-<!--
-**Terminology**
-
-* "Segments" are now "Audiences". Documentation and product UI have been updated to reflect this change.
--->
-
-<!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
--->
 
 
 **Audiencias**
@@ -163,14 +155,11 @@ La información siguiente está sujeta a cambios sin previo aviso hasta la fecha
 
    Como resultado, dentro de Adobe Journey Optimizer y de la interfaz de usuario de Adobe Experience Platform, verá &quot;Segmentos&quot; reemplazado por &quot;Audiencias&quot; para reflejar esta nueva ruta de creación y administración de audiencias.
 
-   Los cambios se implementarán gradualmente con las siguientes versiones de la interfaz de usuario y la documentación.
-
-   Las traducciones del término &quot;audiencia&quot; al referirse a un grupo de perfiles destinados a recibir un mensaje se armonizaron en todos los productos de Digital Experience para los siguientes idiomas:
+   Las traducciones del término &quot;audiencia&quot; al referirse a un grupo de perfiles destinados a recibir un mensaje se armonizaron en todos los productos de Digital Experience para algunos idiomas:
 
    * Alemán: Zielgruppe
    * Portugués brasileño: público-alvo
    * Español: público destinatario
-
 
 
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
@@ -197,7 +186,7 @@ La información siguiente está sujeta a cambios sin previo aviso hasta la fecha
 
 **Gestión de decisiones**
 
-* Ahora puede editar el límite de frecuencia si la oferta tiene el estado Borrador y nunca antes se había publicado.
+* Ahora puede editar el límite de frecuencia si la oferta tiene el **[!UICONTROL Borrador]** estado y nunca antes se habían publicado con la restricción de frecuencia habilitada. [Más información](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **Personalización**
 
