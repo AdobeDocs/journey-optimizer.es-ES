@@ -4,10 +4,10 @@ product: journey optimizer
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 74318fe0e9f72fe6341c060f7113fc877fc7d116
+source-git-commit: 681b84869c3545d6cc58d53eff6289ef45f108c6
 workflow-type: tm+mt
 source-wordcount: '2818'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -19,8 +19,8 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 * Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de mayo de 2023 se ha detallado en la documentación. [Más información](release-notes.md)
 * Se ha añadido una nueva página para describir cómo configurar el subdominio que se utilizará para publicar contenido proveniente de Adobe Experience Manager Assets Essentials en sus experiencias web. [Más información](../web/web-delegated-subdomains.md)
-* Se ha añadido una nueva subsección para explicar cómo añadir parámetros de seguimiento personalizados a las direcciones URL en el diseñador de correo electrónico. [Más información](../email/message-tracking.md#url-tracking)
-* Se ha añadido una nueva sección para describir cómo se garantiza que se respete la opción de los clientes que optan por no utilizar sus datos de perfil para la personalización. [Más información](../privacy/opt-out.md#)
+* Se ha añadido una nueva subsección para explicar cómo añadir parámetros de seguimiento personalizados a las direcciones URL en el Diseñador de correo electrónico. [Más información](../email/message-tracking.md#url-tracking)
+* Se ha añadido una nueva sección para describir cómo se garantiza que se respete la opción de los clientes que optan por no utilizar sus datos de perfil para la personalización. [Más información](../privacy/opt-out.md#opt-out-personalization)
 
 ## Abril de 2023 {#apr-2023}
 
