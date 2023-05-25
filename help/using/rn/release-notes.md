@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a6f66bd1b2b0050830e4ba5b102a3b48faa8202
+source-git-commit: 89909c8a1465c40bc1201eeba2deb98969e5575e
 workflow-type: tm+mt
-source-wordcount: '2379'
-ht-degree: 82%
+source-wordcount: '2530'
+ht-degree: 77%
 
 ---
 
@@ -155,6 +155,23 @@ La información siguiente está sujeta a cambios sin previo aviso hasta la fecha
 
 
 **Audiencias**
+
+* Como preparación para la disponibilidad general de la función de Audience Portal, Adobe Experience Platform está actualizando el uso de &quot;audiencias&quot; y &quot;segmentos&quot; en el sistema y la documentación.
+
+   * Audiencia: conjunto de personas, cuentas, hogares u otras entidades que comparten características y comportamientos comunes.
+   * Definición del segmento: en Adobe Experience Platform, las reglas utilizadas para describir las características clave o el comportamiento de una audiencia objetivo. Este término se conocía anteriormente como &quot;segmento&quot;.
+
+   Como resultado, dentro de Adobe Journey Optimizer y de la interfaz de usuario de Adobe Experience Platform, verá &quot;Segmentos&quot; reemplazado por &quot;Audiencias&quot; para reflejar esta nueva ruta de creación y administración de audiencias.
+
+   Los cambios se implementarán gradualmente con las siguientes versiones de la interfaz de usuario y la documentación.
+
+   Las traducciones del término &quot;audiencia&quot; al referirse a un grupo de perfiles destinados a recibir un mensaje se armonizaron en todos los productos de Digital Experience para los siguientes idiomas:
+
+   * Alemán: Zielgruppe
+   * Portugués brasileño: público-alvo
+   * Español: público destinatario
+
+
 
 * Se han realizado mejoras en el selector de audiencias en recorridos o campañas, con la adición de nuevas columnas que muestran el origen y la frecuencia de actualización de las audiencias.
 
