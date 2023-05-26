@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 251c145eb69fe8227a99655346e6e37f59a42bea
+source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 78%
+source-wordcount: '2466'
+ht-degree: 79%
 
 ---
 
@@ -174,9 +174,11 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 * Se han añadido nuevas reglas de déclencheur de mensajes para el servicio Lugares de Adobe. [Más información](../in-app/inapp-configuration.md)
 * Se han añadido nuevas funciones de Adobe Experience Platform Assurance para capturar eventos de dispositivo para añadirlos como reglas de déclencheur.
 
-**Recorridos**
+<!--
+**Journeys**
 
-* Ahora puede aprovechar las respuestas de llamadas de API en acciones personalizadas y organizar su recorrido en función de estas respuestas.
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+-->
 
 **Campañas**
 
