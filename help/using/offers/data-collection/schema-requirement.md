@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
+source-git-commit: 2130d3b02d6d4f21518ce4e8eecc244d24b87ba2
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 3%
@@ -28,7 +28,7 @@ A continuación se muestran los requisitos de esquema que debe implementar en el
 >
 >No es necesario enviar los eventos de decisión, ya que la administración de decisiones generará estos eventos automáticamente y los colocará en **[!UICONTROL ODE DecisionEvents]** conjunto de datos<!--to check--> que se genera automáticamente.
 
-## Seguimiento de impresiones
+## Seguimiento de impresiones {#track-impressions}
 
 Asegúrese de que el tipo de evento y el origen sean los siguientes:
 
@@ -62,7 +62,7 @@ Asegúrese de que el tipo de evento y el origen sean los siguientes:
 
 +++
 
-## Seguimiento de clics
+## Seguimiento de clics {#track-clicks}
 
 Asegúrese de que el tipo de evento y el origen sean los siguientes:
 
@@ -96,7 +96,7 @@ Asegúrese de que el tipo de evento y el origen sean los siguientes:
 
 +++
 
-## Seguimiento de eventos personalizados
+## Seguimiento de eventos personalizados {#track-custom-events}
 
 Para los eventos personalizados, el esquema utilizado en el conjunto de datos también debe tener **[!UICONTROL Evento de experiencia: interacciones de propuesta]** grupo de campos asociado a él, pero no hay ningún requisito específico sobre el tipo de evento de experiencia que debe utilizarse para etiquetar estos eventos.
 
@@ -108,22 +108,3 @@ Para los eventos personalizados, el esquema utilizado en el conjunto de datos ta
 >* POST /ee/v2/collect
 >
 >Si utiliza el complemento [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, la conexión se establece automáticamente.
-
-<!--
-## Using a ranking strategy {#using-ranking}
-
-To use the ranking strategy you created above, follow the steps below:
-
-Once a ranking strategy has been created, you can assign it to a placement in a decision. For more on this, see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
-
-1. Create a decision.
-1. Add a placement.
-1. Add a collection.
-1. Choose to rank offers by AI ranking (select it from the drop-down list).
-1. Click Add ranking.
-1. Select the ranking strategy that you created. All the details of the ranking strategy are displayed.
-1. Click Next to confirm.
-1. Save your decision.
-
-It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).
--->
