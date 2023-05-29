@@ -7,13 +7,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 251c145eb69fe8227a99655346e6e37f59a42bea
+exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
+source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1453'
 ht-degree: 3%
 
 ---
-
 
 # Trabajo con fragmentos {#fragments}
 
@@ -21,8 +21,7 @@ Un fragmento es un componente reutilizable al que se puede hacer referencia en u
 
 Esta funcionalidad permite crear previamente varios bloques de contenido personalizado que los usuarios de marketing no técnico pueden utilizar para ensamblar rápidamente el contenido del correo electrónico en un proceso de diseño mejorado.
 
-<!--
-➡️ [Learn how to create and use templates in this video](#video-templates)-->
+➡️ [Aprenda a administrar, crear y utilizar fragmentos en este vídeo](#video-fragments)
 
 >[!CAUTION]
 >
@@ -266,12 +265,9 @@ Para interrumpir la herencia, siga los pasos a continuación:
 
 1. Ese fragmento se convierte en un elemento independiente que ya no está vinculado al fragmento original. Edítela como cualquier otro componente de contenido en el contenido. [Más información](content-components.md)
 
-<!--
+## Vídeo explicativo {#video-fragments}
 
-## How-to video {#video-templates}
+Obtenga información sobre cómo administrar, crear y utilizar fragmentos en [!DNL Journey Optimizer].
 
-Learn how to create, edit, and use fragments in [!DNL Journey Optimizer].
+>[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
->[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)
-
--->
