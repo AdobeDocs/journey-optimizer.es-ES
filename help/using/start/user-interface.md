@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 402ec28dc0087a64b3a91c1a937620d931ed28ef
+source-git-commit: 6f7365b1ddeb3ed3e253669d21702b02f0ec7275
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 82%
@@ -117,6 +117,8 @@ Utilice el **Ayuda** para acceder a las páginas de ayuda, ponerse en contacto c
 ![](assets/ajo-help.png)
 
 En cada página, utilice los botones de ayuda contextual para obtener más información sobre una función y navegue hasta **[!DNL Adobe Experience League]** documentación.
+
+![](assets/do-not-localize/Context-help.gif)
 
 ## Preferencias de idioma {#language-pref}
 
