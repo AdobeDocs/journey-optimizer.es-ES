@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,5 +28,5 @@ Las políticas de uso de datos son reglas que describen los tipos de acciones de
 Para obtener más información sobre el marco de trabajo de control de datos y cómo trabajar con etiquetas y políticas, consulte la documentación de Adobe Experience Platform:
 
 * [Información general sobre el servicio de control de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=es)
-* [Información general sobre las etiquetas de uso de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html)
+* [Información general sobre las etiquetas de uso de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=es)
 * [Políticas de uso de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=es)
