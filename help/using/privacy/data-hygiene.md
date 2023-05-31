@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 8045b559-bf5e-4b5f-9da4-accd44641a68
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '133'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,4 +30,4 @@ Estas tareas se pueden realizar utilizando la variable **[!UICONTROL Limpieza de
 Para obtener más información sobre Privacy Service y cómo crear y administrar solicitudes de limpieza de datos, consulte la siguiente documentación de Adobe Experience Platform:
 
 * [Información general de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es)
-* [Limpieza de datos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html)
+* [Limpieza de datos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=es)
