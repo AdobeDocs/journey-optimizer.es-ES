@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: correo electrónico, diseño, stock, activos
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 3a9b11b1a4d2159261586394f1595e52c8b749e7
+source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '480'
 ht-degree: 100%
 
 ---
@@ -64,8 +64,12 @@ Una vez que haya [añadido un correo electrónico](create-email.md) a un recorri
 
    ![](assets/email_designer_export.png)
 
-## Vídeo explicativo {#video}
+## Vídeotutoriales {#video}
 
 Aprenda a crear contenido de correo electrónico con el editor de mensajes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
+
+Aprenda a configurar experimentos de contenido para realizar pruebas A/B y explorar el contenido de correo electrónico que mejor impulsa sus objetivos empresariales.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

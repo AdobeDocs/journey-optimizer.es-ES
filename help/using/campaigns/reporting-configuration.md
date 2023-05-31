@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: configuración, experimentación, informes, optimizador
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 066bceb078f619e75e5776764f534619d5a0bd5a
+source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 33%
+source-wordcount: '564'
+ht-degree: 43%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 33%
 >title="Selección de un conjunto de datos"
 >abstract="Solo puede seleccionar un conjunto de datos de tipo evento, que debe contener al menos uno de los grupos de campos admitidos: detalles de la aplicación, detalles de comercio, detalles web."
 
-<!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
+La configuración de la fuente de datos de creación de informes permite definir una conexión con un sistema para recuperar información adicional que se utilizará en los informes.
 
-La configuración de la fuente de datos de creación de informes permite recuperar métricas adicionales que se utilizarán en la **[!UICONTROL Objetivos]** de los informes de campaña. [Más información](content-experiment.md#objectives-global)
+<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports. [Learn more](content-experiment.md#objectives-global)-->
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Antes de poder agregar un conjunto de datos a la configuración de creación de 
 
    Del mismo modo, si desea crear un informe sobre interacciones móviles, debe crear un conjunto de datos de evento de experiencia con **Detalles de aplicación** grupo de campos.
 
-   Se muestran las métricas correspondientes a cada grupo de campos [aquí](#objective-list).
+   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
 * Puede añadir estos grupos de campos a uno o varios esquemas que se utilizarán en uno o varios conjuntos de datos.
 
@@ -67,15 +67,17 @@ Antes de poder agregar un conjunto de datos a la configuración de creación de 
 >
 >Obtenga más información sobre los esquemas XDM y los grupos de campos en la [Documentación de información general del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
 
-## Objetivos correspondientes a cada grupo de campos {#objective-list}
+<!--
+## Objectives corresponding to each field group {#objective-list}
 
-La tabla siguiente muestra qué métricas se agregarán al **[!UICONTROL Objetivos]** de los informes de campaña para cada grupo de campos.
+The table below shows which metrics will be added to the **[!UICONTROL Objectives]** tab of your campaign reports for each field group.
 
-| Grupo de campos | Objetivos |
+| Field group | Objectives |
 |--- |--- |
-| Detalles de comercio | Precio total<br>Importe de pago<br>Cierres de compra (únicos)<br>Adiciones de lista de productos (únicas)<br>Aperturas de lista de productos (únicas)<br>Eliminación de la lista de productos (única)<br>Vistas de lista de productos (únicas)<br>Vistas del producto (únicas)<br>Compras (únicas)<br>(Único) Guardar Para Más Tarde<br>Precio total del producto<br>Cantidad de productos |
-| Detalles de aplicación | Lanzamientos de aplicaciones (únicos)<br>Primeros inicios de la aplicación<br>Instalaciones de la aplicación (únicas)<br>Actualizaciones de aplicaciones (únicas) |
-| Detalles web | Vistas de página (únicas) |
+| Commerce Details | Price Total<br>Payment Amount<br>(Unique) Checkouts<br>(Unique) Product List Adds<br>(Unique) Product List Opens<br>(Unique) Product List Removal<br>(Unique) Product List Views<br>(Unique) Product Views<br>(Unique) Purchases<br>(Unique) Save For Laters<br>Product Price Total<br>Product Quantity |
+| Application Details | (Unique) App Launches<br>First App Launches<br>(Unique) App Installs<br>(Unique) App Upgrades |
+| Web Details | (Unique) Page Views |
+-->
 
 ## Añadir conjuntos de datos {#add-datasets}
 
@@ -123,15 +125,16 @@ La tabla siguiente muestra qué métricas se agregarán al **[!UICONTROL Objetiv
    >
    >Si seleccionó un conjunto de datos que no es de tipo de evento, no podrá continuar.
 
-Al crear los informes de campaña, ahora puede ver las métricas correspondientes a los grupos de campos utilizados en los conjuntos de datos agregados. Vaya a la **[!UICONTROL Objetivos]** y seleccione las métricas que desee para ajustar mejor los informes. [Más información](content-experiment.md#objectives-global)
+<!--
+When building your campaign reports, you can now see the metrics corresponding to the field groups used in the datasets you added. Go to the **[!UICONTROL Objectives]** tab and select the metrics of your choice to better fine-tune your reports. [Learn more](content-experiment.md#objectives-global)
 
 ![](assets/reporting-config-objectives.png)
 
 >[!NOTE]
 >
->Si añade varios conjuntos de datos, los datos de todos ellos estarán disponibles para la creación de informes.
+>If you add several datasets, all data from all datasets will be available for reporting.
 
-<!--
+
 ## How-to video {#video}
 
 Understand how to configure Experience Platform reporting data sources.
