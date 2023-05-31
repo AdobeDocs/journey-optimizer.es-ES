@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1377'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -169,7 +169,7 @@ ht-degree: 98%
       + [Configurar informes de experimentación](using/campaigns/reporting-configuration.md)
       + Notas técnicas {#technotes}
          + [Comprensión de los cálculos estadísticos](using/campaigns/experiment-calculations.md)
-         + [Comprensión de los cálculos estadísticos en el informe Experimentación](using/campaigns/experiment-report-calculations.md)
+         + [Explicación de los cálculos estadísticos en el informe de experimentación](using/campaigns/experiment-report-calculations.md)
    + [Activación de campañas mediante las API](using/campaigns/api-triggered-campaigns.md)
 + Canal de correo electrónico {#email}
    + [Empezar con correos electrónicos](using/email/get-started-email.md)
@@ -475,7 +475,7 @@ ht-degree: 98%
       + [Funciones integradas](using/administration/ootb-product-profiles.md)
       + [Permisos integrados](using/administration/ootb-permissions.md)
       + [Niveles de permisos](using/administration/high-low-permissions.md)
-   + [Administrar usuarios y funciones](using/administration/permissions.md)
+   + [Administración de usuarios y funciones](using/administration/permissions.md)
    + [Control de acceso basado en atributos](using/administration/attribute-based-access.md)
    + [Control de acceso de nivel de objeto](using/administration/object-based-access.md)
    + [Administración de zonas protegidas](using/administration/sandboxes.md)
