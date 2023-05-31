@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
 workflow-type: tm+mt
 source-wordcount: '2876'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Mayo de 2023 {#may-2023}
 
-* Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de mayo de 2023 se ha detallado en la documentación. [Más información](release-notes.md)
+* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de mayo de 2023 se incluyen en la documentación. [Más información](release-notes.md)
 * Se ha añadido una nueva página para describir cómo configurar el subdominio que se utilizará para publicar contenido proveniente de Adobe Experience Manager Assets Essentials en sus experiencias web. [Más información](../web/web-delegated-subdomains.md)
 * Se ha añadido una nueva subsección para explicar cómo añadir parámetros de seguimiento personalizados a las direcciones URL en el Diseñador de correo electrónico. [Más información](../email/message-tracking.md#url-tracking)
 * Se ha añadido una nueva sección para describir cómo se garantiza que se respete la opción de los clientes que optan por no utilizar sus datos de perfil para la personalización. [Más información](../privacy/opt-out.md#opt-out-personalization)
@@ -129,7 +129,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha añadido la lista de conjuntos de datos de Adobe Journey Optimizer con ejemplos de consultas. [Más información](../data/datasets-query-examples.md)
 * La página Lista de permitidos se ha movido a la sección Configuración. [Más información](../configuration/allow-list.md)
 * La página Lista de supresión se ha actualizado para aclarar cierta información, incluido el hecho de que todos los caracteres ASCII comprendidos entre 32 y 126 están permitidos en el campo de motivos de supresión. [Más información](../configuration/manage-suppression-list.md)
-* Se ha añadido el vínculo a los mecanismos de protección y a los límites estáticos para la administración de decisiones. [Más información](../start/guardrails.md)
+* Se ha añadido el vínculo a los mecanismos de protección y a los límites estáticos para la gestión de decisiones. [Más información](../start/guardrails.md)
 * Ya está disponible para todos los clientes Optimización del tiempo de envío. Se ha eliminado la mención beta. [Más información](../building-journeys/journeys-message.md#send-time-optimization)
 * La API de decisiones por lotes se ha añadido a la lista de API disponibles para entregar ofertas personalizadas. [Más información](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
@@ -169,7 +169,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 ## Febrero de 2022 {#feb-2022}
 
 * Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de febrero de 2022 se han incluido en la documentación. [Más información](release-notes.md)
-* Las páginas de documentación de la función [replace](../building-journeys/functions/functionreplace.md#example_2) y [replaceAll](../building-journeys/functions/functionreplaceall.md#example) se han actualizado con información y ejemplos adicionales relacionados con el parámetro de destinatario.
+* Las páginas de documentación de la función [replace](../building-journeys/functions/functionreplace.md#example_2) y [replaceAll](../building-journeys/functions/functionreplaceall.md#example) se han actualizado con información y ejemplos adicionales relacionados con el parámetro del público destinatario.
 * Se han añadido las prácticas recomendadas a la página de [Operadores](../building-journeys/expression/operators.md#important-notes).
 
 ## Enero de 2022 {#january-2022}

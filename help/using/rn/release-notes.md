@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
 workflow-type: tm+mt
 source-wordcount: '2466'
-ht-degree: 79%
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 
 **Release date**: May 25, 2023-->
 
-### Nuevas funcionalidades{#may-2023-features}
+### Nuevas funciones{#may-2023-features}
 
 <!--
 <table>
@@ -107,7 +107,7 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 <table>
 <thead>
 <tr>
-<th><strong>Uso de etiquetas en las campañas (beta)</strong><br/></th>
+<th><strong>Uso de etiquetas en las campañas (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -126,13 +126,13 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 <table>
 <thead>
 <tr>
-<th><strong>Modelo de clasificación de AI de optimización personalizada (disponibilidad general)</strong><br/></th>
+<th><strong>Modelo de clasificación de IA de optimización personalizada (disponibilidad general)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Los modelos de clasificación de IA de optimización personalizada ahora están disponibles de forma general en Administración de decisiones. Este nuevo tipo de modelo le permite optimizar y personalizar ofertas en función de segmentos y ofrecer rendimiento.</p>
+<p>Los modelos de clasificación de IA de optimización personalizada ahora están disponibles de forma general en Gestión de decisiones. Este nuevo tipo de modelo le permite optimizar y personalizar ofertas en función de segmentos y ofrecer rendimiento.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Para obtener más información, consulte la <a href="../offers/ranking/personalized-optimization-model.md">documentación detallada</a>.</p>
 </td>
@@ -151,9 +151,9 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 * Como preparación para la disponibilidad general de la función de Audience Portal, Adobe Experience Platform está actualizando el uso de &quot;audiencias&quot; y &quot;segmentos&quot; en el sistema y la documentación.
 
    * Audiencia: conjunto de personas, cuentas, hogares u otras entidades que comparten características y comportamientos comunes.
-   * Definición del segmento: en Adobe Experience Platform, las reglas utilizadas para describir las características clave o el comportamiento de una audiencia objetivo. Este término se conocía anteriormente como &quot;segmento&quot;.
+   * Definición del segmento: en Adobe Experience Platform, las reglas utilizadas para describir las características clave o el comportamiento de un público destinatario. Este término se conocía anteriormente como &quot;segmento&quot;.
 
-   Como resultado, dentro de Adobe Journey Optimizer y de la interfaz de usuario de Adobe Experience Platform, verá &quot;Segmentos&quot; reemplazado por &quot;Audiencias&quot; para reflejar esta nueva ruta de creación y administración de audiencias.
+   Como resultado, dentro de Adobe Journey Optimizer y de la IU de Adobe Experience Platform, verá &quot;Segmentos&quot; reemplazado por &quot;Audiencias&quot; para reflejar esta nueva ruta de creación y administración de audiencias.
 
    Las traducciones del término &quot;audiencia&quot; al referirse a un grupo de perfiles destinados a recibir un mensaje se armonizaron en todos los productos de Digital Experience para algunos idiomas:
 
@@ -167,12 +167,12 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 **Canal de SMS**
 
 * Infobip se ha agregado como proveedor al configurar las superficies de canal de SMS. [Más información](../sms/sms-configuration.md)
-* Twillio: La configuración de credenciales de API ahora incluye la capacidad de agregar el SID del servicio de mensajería para una integración perfecta con su cuenta de Twilio. [Más información](../sms/sms-configuration.md)
+* Twillio: La configuración de credenciales de API ahora incluye la capacidad de agregar el SID del servicio de mensajería para una integración perfecta con su cuenta de Twillio. [Más información](../sms/sms-configuration.md)
 
 **Canal en la aplicación**
 
-* Se han añadido nuevas reglas de déclencheur de mensajes para el servicio Lugares de Adobe. [Más información](../in-app/inapp-configuration.md)
-* Se han añadido nuevas funciones de Adobe Experience Platform Assurance para capturar eventos de dispositivo para añadirlos como reglas de déclencheur.
+* Se han añadido nuevas reglas de activación de mensajes para el servicio Places de Adobe. [Más información](../in-app/inapp-configuration.md)
+* Se han añadido nuevas funciones de Adobe Experience Platform Assurance para capturar eventos de dispositivo para añadirlos como reglas de activación.
 
 <!--
 **Journeys**
@@ -188,7 +188,7 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 
 **Gestión de decisiones**
 
-* Ahora puede editar el límite de frecuencia si la oferta tiene el **[!UICONTROL Borrador]** estado y nunca antes se habían publicado con la restricción de frecuencia habilitada. [Más información](../offers/offer-library/add-constraints.md#frequency-capping)
+* Ahora puede editar la restricción de frecuencia si la oferta tiene el estado **[!UICONTROL Borrador]** y nunca antes se había publicado con la restricción de frecuencia habilitada. [Más información](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **Personalización**
 
@@ -205,7 +205,7 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 
 **Release date**: April 27, 2023-->
 
-### Nuevas funcionalidades{#apr-2023-features}
+### Nuevas funciones{#apr-2023-features}
 
 <table>
 <thead>
@@ -226,7 +226,7 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 <table>
 <thead>
 <tr>
-<th><strong>Flujo de trabajo de inicio rápido (beta) de la incorporación móvil</strong><br/></th>
+<th><strong>Flujo de trabajo de inicio rápido de incorporación al dispositivo móvil (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -243,15 +243,15 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 <table>
 <thead>
 <tr>
-<th><strong>Nuevo tablero de Recorrido (Beta)</strong><br/></th>
+<th><strong>Nuevo tablero de recorrido (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> El panel de Recorrido ahora se divide en dos pestañas:</p>
-<ul><li>Utilice el <strong>Información general</strong> para acceder a un nuevo tablero que muestra métricas clave relacionadas con sus recorridos.</li>
-<li>Utilice el <strong>Examinar</strong> para acceder a la lista de todos los recorridos.</li></ul>
+<p> El tablero de recorrido ahora se divide en dos pestañas:</p>
+<ul><li>Utilice la pestaña <strong>Información general</strong> para acceder a un nuevo tablero que muestra métricas clave relacionadas con sus recorridos.</li>
+<li>Utilice la pestaña <strong>Examinar</strong> para acceder a la lista de todos los recorridos.</li></ul>
 <p>Se puede acceder a esta funcionalidad en todos los recorridos como una versión beta pública.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
 <p>Para obtener más información, consulte la <a href="../building-journeys/journey-gs.md#journey-access">documentación detallada</a>.</p>
@@ -285,7 +285,7 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 
 ## Notas de la versión de marzo de 2023 {#mar-2023}
 
-### Nuevas funcionalidades{#mar-2023-features}
+### Nuevas funciones{#mar-2023-features}
 
 <table>
 <thead>
@@ -381,7 +381,7 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 
 ## Notas de la versión de febrero de 2023 {#feb-2023}
 
-### Nuevas funcionalidades{#feb-2023-features}
+### Nuevas funciones{#feb-2023-features}
 
 <table>
 <thead>
@@ -404,7 +404,7 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 <table>
 <thead>
 <tr>
-<th><strong>Exportar conjuntos de datos de Journey Optimizer a destinos de almacenamiento en la nube (Beta)</strong><br/></th>
+<th><strong>Exportación de los conjuntos de datos de Journey Optimizer a los destinos de almacenamiento en la nube (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
