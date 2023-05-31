@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 8b459f71852d031dc650b77725bdc693325cdb1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -59,33 +59,33 @@ Aprenda a administrar la exclusión en los mensajes de correo electrónico y SMS
 
 Los clientes también pueden optar por no recibir contenido personalizado. Una vez que un perfil se ha excluido de la personalización, debe asegurarse de que sus datos no se utilicen para ella y debe reemplazar cualquier contenido personalizado con una variante de reserva.
 
-### En Administración de decisiones
+### En gestión de decisiones
 
-Al aprovechar las ofertas, las preferencias de personalización no se implementan automáticamente en [ámbitos de decisión](../offers/offer-activities/create-offer-activities.md#add-decision-scopes) utilizado desde un [toma de decisiones](../offers/api-reference/offer-delivery-api/decisioning-api.md) Solicitud de API para [edge decisioning](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) Solicitud de API. En este caso, debe aplicar manualmente el consentimiento de personalización. Para ello, siga los pasos que aparecen a continuación.
+Al aprovechar las ofertas, las preferencias de personalización no se implementan automáticamente en [ámbitos de decisión](../offers/offer-activities/create-offer-activities.md#add-decision-scopes) utilizado desde una solicitud de API de [Decisioning](../offers/api-reference/offer-delivery-api/decisioning-api.md) o una solicitud de API de [Edge Decisioning](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md). En este caso, debe aplicar manualmente el consentimiento de personalización. Para ello, siga los pasos que aparecen a continuación.
 
 >[!NOTE]
 >
->Ámbitos de decisión utilizados en [!DNL Journey Optimizer] los canales creados cumplen este requisito desde el recorrido o la campaña a los que pertenecen.
+>Los ámbitos de decisión utilizados en los canales creados de [!DNL Journey Optimizer] cumplen este requisito desde el recorrido o la campaña a los que pertenecen.
 
 
 
 1. Crear un [Segmento de Adobe Experience Platform](../segment/about-segments.md) mediante un atributo de perfil como: *&quot;Consentimientos para la personalización = Verdadero&quot;* para dirigirse a los usuarios que hayan aceptado la personalización.
 
-1. Al crear un [decisión](../offers/offer-activities/create-offer-activities.md), agregue un ámbito de decisión y defina una restricción de elegibilidad basada en este segmento para cada recopilación de criterios de evaluación que contenga ofertas personalizadas.
+1. Al crear una [decisión](../offers/offer-activities/create-offer-activities.md), agregue un ámbito de decisión y defina una restricción de elegibilidad basada en este segmento para cada recopilación de criterios de evaluación que contenga ofertas personalizadas.
 
-1. Crear un [oferta de reserva](../offers/offer-library/creating-fallback-offers.md) que no incluye contenido personalizado.
+1. Crear una [oferta de reserva](../offers/offer-library/creating-fallback-offers.md) que no incluye contenido personalizado.
 
 1. [Asignar](../offers/offer-activities/create-offer-activities.md#add-fallback) la oferta de reserva no personalizada a la decisión.
 
 1. [Revisar y guardar](../offers/offer-activities/create-offer-activities.md#review) la decisión.
 
-Si un usuario tiene:
+Si un usuario:
 
-* aceptado para la personalización, el ámbito de decisión determinará la mejor oferta para ese perfil.
+* ha aceptado la personalización, el ámbito de decisión determinará la mejor oferta para ese perfil.
 
-* Sin consentimiento para la personalización, el perfil correspondiente no será apto para ninguna de las ofertas que se encuentren en los criterios de evaluación y, por lo tanto, recibirán la oferta de reserva no personalizada.
+* no ha aceptado la personalización, el perfil correspondiente no será apto para ninguna de las ofertas que se encuentren en los criterios de evaluación y, por lo tanto, recibirán la oferta de reserva no personalizada.
 
 >[!NOTE]
 >
->Consentimiento para tener datos de perfil utilizados en [modelado de datos](../offers/ranking/ai-models.md) aún no es compatible con [!DNL Journey Optimizer].
+>El consentimiento que los datos de perfil se utilicen en [modelado de datos](../offers/ranking/ai-models.md) aún no es compatible con [!DNL Journey Optimizer].
 
