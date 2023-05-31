@@ -10,7 +10,7 @@ level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1961'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Para los experimentos de contenido en Adobe Journey Optimizer, puede probar idea
 
 ### Asignación aleatoria
 
-La experimentación de contenido en Adobe Journey Optimizer utiliza un hash pseudoaleatorio de la identidad del visitante para realizar una asignación aleatoria de usuarios en la audiencia de destino a uno de los tratamientos que ha definido. El mecanismo de hash garantiza que, en los casos en los que el visitante entra en una campaña varias veces, reciba el mismo tratamiento de forma determinada.
+La experimentación de contenido en Adobe Journey Optimizer utiliza un hash pseudoaleatorio de la identidad del visitante para realizar una asignación aleatoria de usuarios en el público destinatario a uno de los tratamientos que ha definido. El mecanismo de hash garantiza que, en los casos en los que el visitante entra en una campaña varias veces, reciba el mismo tratamiento de forma determinada.
 
 En detalle, el algoritmo de 32 bits MumurHash3 se usa para hash la cadena de identidad del usuario en uno de los 10 000 bloques. En un experimento de contenido con el 50 % del tráfico asignado a cada tratamiento, los usuarios que caigan en bloques de 1 a 5000 recibirán el primer tratamiento, mientras que los usuarios de los bloques de 5001 a 10 000 recibirán el segundo tratamiento. Dado que se utiliza un hash pseudoaleatorio, las divisiones de visitante que observe pueden no ser exactamente 50-50; sin embargo, la división será estadísticamente equivalente al porcentaje de división objetivo.
 
