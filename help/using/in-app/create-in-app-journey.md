@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 50afe137c618153278c596f1553216c20637e40b
+source-git-commit: 2d3cb7e9981e7df1f2cdd6eff1506fce24a5a962
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '516'
 ht-degree: 4%
 
 ---
@@ -37,21 +37,20 @@ ht-degree: 4%
 
    ![](assets/in_app_journey_4.png)
 
-1. Elija la frecuencia del déclencheur cuando su mensaje en la aplicación esté activo:
+1. Desde el **[!UICONTROL Déclencheur de mensajes en la aplicación]** , elija los eventos y los criterios que almacenarán el mensaje en déclencheur:
+
+   1. Clic **[!UICONTROL Añadir condición]** si desea que el déclencheur considere varios eventos o criterios.
+   1. Desde el **[!UICONTROL Seleccione un evento]** , seleccione el tipo de evento para el déclencheur.
+   1. Seleccione cómo están vinculados los eventos, p. ej. elija **[!UICONTROL Y]** si lo desea **ambos** Los déclencheur deben ser verdaderos para que se muestre o se elija un mensaje **[!UICONTROL O]** si desea que se muestre el mensaje si **o bien** Todos los déclencheur son verdaderos.
+   1. Clic **[!UICONTROL Crear grupo]** para agrupar déclencheur.
+
+   ![](assets/in_app_journey_3.png)
+
+1. Elija la frecuencia con la que el déclencheur se activará cuando su mensaje en la aplicación:
 
    * **[!UICONTROL Mostrar cada vez]**: Mostrar siempre el mensaje cuando los eventos seleccionados en la **[!UICONTROL Déclencheur de aplicación móvil]** se produce la lista desplegable.
    * **[!UICONTROL Mostrar una vez]**: Mostrar solo este mensaje la primera vez que se seleccionen los eventos en la **[!UICONTROL Déclencheur de aplicación móvil]** se produce la lista desplegable.
    * **[!UICONTROL Mostrar hasta el clic]**: Muestra este mensaje cuando los eventos seleccionados en la **[!UICONTROL Déclencheur de aplicación móvil]** se producen hasta que el SDK envía un evento de interacción con una acción de &quot;clic&quot;.
-
-1. Desde el **[!UICONTROL Déclencheur de aplicación móvil]** , elija los eventos y los criterios que van a almacenar el mensaje en déclencheur:
-
-   1. En la lista desplegable izquierda, seleccione el evento necesario para almacenar el mensaje en déclencheur.
-   1. En la lista desplegable de la derecha, seleccione la validación necesaria en el evento seleccionado.
-   1. Haga clic en **[!UICONTROL Añadir]** si desea que el déclencheur tenga en cuenta varios eventos o criterios. A continuación, repita los pasos anteriores.
-   1. Seleccione cómo están vinculados los eventos, p. ej. elija **[!UICONTROL Y]** si lo desea **ambos** Los déclencheur deben ser verdaderos para que se muestre o se elija un mensaje **[!UICONTROL O]** si desea que se muestre el mensaje si **o bien** Todos los déclencheur son verdaderos.
-   1. Clic **[!UICONTROL Guardar]** cuando se hayan configurado los Déclencheur.
-
-   ![](assets/in_app_journey_3.png)
 
 1. Si es necesario, complete el flujo de recorrido arrastrando y soltando acciones o eventos adicionales. [Más información](../building-journeys/about-journey-activities.md)
 
