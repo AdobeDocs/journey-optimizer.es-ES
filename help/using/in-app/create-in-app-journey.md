@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 2d3cb7e9981e7df1f2cdd6eff1506fce24a5a962
+source-git-commit: 8ca779efd237174c3ac9b7694b1cb81fc8b3ea3e
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '531'
 ht-degree: 4%
 
 ---
@@ -52,6 +52,8 @@ ht-degree: 4%
    * **[!UICONTROL Mostrar una vez]**: Mostrar solo este mensaje la primera vez que se seleccionen los eventos en la **[!UICONTROL Déclencheur de aplicación móvil]** se produce la lista desplegable.
    * **[!UICONTROL Mostrar hasta el clic]**: Muestra este mensaje cuando los eventos seleccionados en la **[!UICONTROL Déclencheur de aplicación móvil]** se producen hasta que el SDK envía un evento de interacción con una acción de &quot;clic&quot;.
 
+1. Seleccione el día de la semana y la hora específica a la que desea activar el mensaje en la aplicación y haga clic en **[!UICONTROL Guardar]**.
+
 1. Si es necesario, complete el flujo de recorrido arrastrando y soltando acciones o eventos adicionales. [Más información](../building-journeys/about-journey-activities.md)
 
 1. Una vez que el mensaje en la aplicación esté listo, finalice la configuración y publique el recorrido para activarlo.
@@ -70,7 +72,7 @@ Para obtener más información sobre cómo configurar un recorrido, consulte [es
 
 * **[!UICONTROL Reacción]** Las actividades de no se pueden utilizar para reaccionar ante una apertura o un clic en la aplicación.
 
-* Un retraso de activación se produce entre el momento en que un perfil de usuario alcanza una actividad en la aplicación en el lienzo y el momento en que comienza a ver ese mensaje en la aplicación. Este retraso puede oscilar entre 15 minutos y 1 hora.
+* Puede producirse un retraso de activación entre el momento en que un perfil de usuario alcanza una actividad en la aplicación en el lienzo y la hora en que comienza a ver ese mensaje en la aplicación.
 
 **Temas relacionados:**
 
