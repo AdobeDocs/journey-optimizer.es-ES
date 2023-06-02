@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 9994bc6076f55128f5aa2c316433986eeff714b3
+source-git-commit: 8b966ddc9f96485e27cc7e9aa360d6d2ead84153
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '552'
 ht-degree: 4%
 
 ---
@@ -48,9 +48,9 @@ ht-degree: 4%
 
 1. Elija la frecuencia con la que el déclencheur se activará cuando su mensaje en la aplicación:
 
-   * **[!UICONTROL Mostrar cada vez]**: Mostrar siempre el mensaje cuando los eventos seleccionados en la **[!UICONTROL Déclencheur de aplicación móvil]** se produce la lista desplegable.
-   * **[!UICONTROL Mostrar una vez]**: Mostrar solo este mensaje la primera vez que se seleccionen los eventos en la **[!UICONTROL Déclencheur de aplicación móvil]** se produce la lista desplegable.
-   * **[!UICONTROL Mostrar hasta el clic]**: Muestra este mensaje cuando los eventos seleccionados en la **[!UICONTROL Déclencheur de aplicación móvil]** se producen hasta que el SDK envía un evento de interacción con una acción de &quot;clic&quot;.
+   * **[!UICONTROL Cada vez]**: Mostrar siempre el mensaje cuando los eventos seleccionados en la **[!UICONTROL Déclencheur de aplicación móvil]** se produce la lista desplegable.
+   * **[!UICONTROL Una]**: Mostrar solo este mensaje la primera vez que se seleccionen los eventos en la **[!UICONTROL Déclencheur de aplicación móvil]** se produce la lista desplegable.
+   * **[!UICONTROL Hasta el clic]**: Muestra este mensaje cuando los eventos seleccionados en la **[!UICONTROL Déclencheur de aplicación móvil]** se producen hasta que el SDK envía un evento de interacción con una acción de &quot;clic&quot;.
    * **[!UICONTROL X número de veces]**: mostrar solo el mensaje un número específico de veces, determinado por el valor establecido en la variable **[!UICONTROL Horas para mostrar]** field.
 
 1. Seleccione el día de la semana y la hora específica a la que desea activar el mensaje en la aplicación y haga clic en **[!UICONTROL Guardar]**.
