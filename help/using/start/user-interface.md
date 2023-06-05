@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 6f7365b1ddeb3ed3e253669d21702b02f0ec7275
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '869'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -51,9 +51,9 @@ La página principal de [!DNL Journey Optimizer] contiene vínculos clave y recu
 
 **[!UICONTROL GESTIÓN DE DECISIONES]**
 
-* **[!UICONTROL Ofertas]**: acceda a sus fuentes y conjuntos de datos recientes desde este menú. Utilice esta sección para crear ofertas. [Más información](../offers/offer-library/creating-personalized-offers.md)
+* **[!UICONTROL Ofertas]**: acceda a sus fuentes y conjuntos de datos recientes desde este menú. Utilice esta sección para crear nuevas ofertas. [Más información](../offers/offer-library/creating-personalized-offers.md)
 
-* **[!UICONTROL Componentes]** : Cree ubicaciones, reglas y etiquetas. [Más información](../offers/offer-library/key-steps.md)
+* **[!UICONTROL Componentes]**: cree ubicaciones, reglas y etiquetas. [Más información](../offers/offer-library/key-steps.md)
 
 **[!UICONTROL ADMINISTRACIÓN DE CONTENIDO]**
 
@@ -71,11 +71,11 @@ La página principal de [!DNL Journey Optimizer] contiene vínculos clave y recu
 
 **[!UICONTROL CONEXIONES]**
 
-* **[!UICONTROL Fuentes]** : Utilice este menú para introducir datos de una variedad de fuentes, como aplicaciones de Adobe, almacenamiento basado en la nube, bases de datos y mucho más. Puede estructurar, etiquetar y mejorar los datos entrantes. [Más información](get-started-sources.md)
+* **[!UICONTROL Fuentes]**: utilice este menú para introducir datos de una variedad de fuentes, como aplicaciones de Adobe, almacenamiento basado en la nube, bases de datos y mucho más. Puede estructurar, etiquetar y mejorar los datos entrantes. [Más información](get-started-sources.md)
 
 **[!UICONTROL CLIENTE]**
 
-* **[!UICONTROL Segmentos]** : Cree y administre definiciones de segmentos de Experience Platform y utilícelas en sus recorridos. [Más información](../segment/about-segments.md)
+* **[!UICONTROL Segmentos]**: cree y administre definiciones de segmentos de Experience Platform para aprovecharlas en sus recorridos. [Más información](../segment/about-segments.md)
 
 * **[!UICONTROL Perfiles]**: el perfil del cliente en tiempo real crea una vista integral de cada uno de sus clientes individuales, combinando datos de varios canales, incluidos datos en línea, sin conexión, CRM y de terceros. [Más información](../segment/get-started-profiles.md)
 
@@ -83,7 +83,7 @@ La página principal de [!DNL Journey Optimizer] contiene vínculos clave y recu
 
 **[!UICONTROL ADMINISTRACIÓN]**
 
-* **[!UICONTROL Administración de recorrido]** - Utilice este menú para configurar [eventos](../event/about-events.md), [fuentes de datos](../datasource/about-data-sources.md), y [acciones](../action/action.md) para usar en sus recorridos.
+* **[!UICONTROL Administración de recorridos]**: utilice este menú para configurar [eventos](../event/about-events.md), [fuentes de datos](../datasource/about-data-sources.md), y [acciones](../action/action.md) que se utilizarán en los recorridos.
 
 * **[!UICONTROL Zonas protegidas]**: Adobe Experience Platform proporciona entornos limitados que dividen una sola instancia en entornos virtuales independientes para ayudarle a desarrollar aplicaciones de experiencia digital y hacer que evolucionen. [Más información](../administration/sandboxes.md)
 
@@ -102,9 +102,9 @@ Los casos de uso disponibles son:
 * **Envíe correos electrónicos para incorporar nuevos clientes** y enviar fácilmente hasta dos correos electrónicos para dar la bienvenida a sus clientes recién registrados. (próximamente)
 * **Envíe mensajes push a la lista importada de clientes** para enviar rápidamente una notificación push a una lista de clientes importados desde un archivo CSV. (próximamente)
 
-Para obtener más información acerca de cada caso de uso, haga clic en **[!UICONTROL Ver detalles]** vínculo.
+Para obtener más información acerca de cada caso de uso, haga clic en el enlace de **[!UICONTROL Ver detalles]**.
 
-Para ejecutar un caso de uso, haga clic en **[!UICONTROL Comenzar]** botón.
+Para ejecutar un caso de uso, haga clic en el botón de **[!UICONTROL Comenzar]**.
 
 Puede acceder a los casos de uso ejecutados desde el botón **[!UICONTROL Ver biblioteca de casos de uso]**.
 
@@ -112,7 +112,7 @@ Puede acceder a los casos de uso ejecutados desde el botón **[!UICONTROL Ver bi
 
 Acceda a las páginas de ayuda clave de Adobe Journey Optimizer desde la sección inferior de la página de inicio.
 
-Utilice el **Ayuda** para acceder a las páginas de ayuda, ponerse en contacto con el servicio de asistencia técnica y compartir comentarios. Puede buscar artículos de ayuda y vídeos en el campo de búsqueda.
+Utilice el icono de **Ayuda** para acceder a las páginas de ayuda, ponerse en contacto con el servicio de asistencia técnica y compartir comentarios. Puede buscar artículos de ayuda y vídeos en el campo de búsqueda.
 
 ![](assets/ajo-help.png)
 
@@ -122,7 +122,7 @@ En cada página, utilice los botones de ayuda contextual para obtener más infor
 
 ## Preferencias de idioma {#language-pref}
 
-La interfaz de usuario de está disponible en los siguientes idiomas:
+La interfaz de usuario está disponible en los siguientes idiomas:
 
 * Inglés
 * Francés
