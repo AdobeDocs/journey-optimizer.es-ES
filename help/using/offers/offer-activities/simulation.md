@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
+source-git-commit: 13c228c2409400da8c62189d96e9b47bcb94ee19
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '901'
 ht-degree: 6%
 
 ---
 
 # Creación de simulaciones {#create-simulations}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_simulation"
+>title="Simulación de decisiones de oferta"
+>abstract="La simulación permite simular qué ofertas se enviarán a un perfil de prueba para una ubicación determinada. Esto permite probar y perfeccionar varias versiones de las ofertas sin afectar a los destinatarios objetivo."
 
 ## Acerca de la simulación {#about-simulation}
 
