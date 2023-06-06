@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 8b966ddc9f96485e27cc7e9aa360d6d2ead84153
+source-git-commit: e91ca6f6210fd883e7a483fe81dda59bdf6ab42a
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 4%
+source-wordcount: '735'
+ht-degree: 3%
 
 ---
 
@@ -74,6 +74,35 @@ Para obtener más información sobre cómo configurar un recorrido, consulte [es
 * **[!UICONTROL Reacción]** Las actividades de no se pueden utilizar para reaccionar ante una apertura o un clic en la aplicación.
 
 * Puede producirse un retraso de activación entre el momento en que un perfil de usuario alcanza una actividad en la aplicación en el lienzo y la hora en que comienza a ver ese mensaje en la aplicación.
+
+## Informe en la aplicación {#inapp-report}
+
+De tu Recorrido **[!UICONTROL Informe global]**, el **[!UICONTROL En la aplicación]** Esta pestaña detalla la información principal relativa a los envíos en la aplicación enviados en los recorridos.
+
+Más información sobre [Informe global de recorrido](../reports/journey-global-report.md).
+
+![](assets/in-app-journey-report.png)
+
++++Obtenga más información sobre las distintas métricas y widgets disponibles para el informe en la aplicación.
+
+El **[!UICONTROL Rendimiento en la aplicación]** Los KPI detallan la información principal relativa a la participación de los visitantes en los mensajes en la aplicación, como:
+
+* **[!UICONTROL Impresiones únicas]**: número de usuarios únicos a los que se entregó el mensaje en la aplicación.
+
+* **[!UICONTROL Impresiones]**: número total de mensajes en la aplicación entregados a todos los usuarios.
+
+* **[!UICONTROL Tasa de clics]**: porcentaje de usuarios que interactuaron con los botones incluidos en el mensaje en la aplicación comparado con los usuarios que vieron el mensaje.
+
+* **[!UICONTROL Tasa de descarte]**: porcentaje de mensajes en la aplicación que los destinatarios descartaron.
+
+El **[!UICONTROL Resumen en la aplicación]** Este gráfico muestra la evolución de las impresiones en la aplicación durante el periodo correspondiente.
+
+El **[!UICONTROL Clics por botón]** los gráficos y las tablas contienen los datos disponibles sobre el comportamiento del destinatario por botón:
+
+* **[!UICONTROL Clics]**: número total de destinatarios que interactuaron con los botones incluidos en el mensaje en la aplicación.
+
+* **[!UICONTROL Tasa de clics]**: porcentaje de usuarios que interactuaron con los botones incluidos en el mensaje en la aplicación comparado con los usuarios que vieron el mensaje.
++++
 
 **Temas relacionados:**
 
