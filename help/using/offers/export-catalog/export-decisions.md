@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 3%
@@ -260,7 +260,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL 
 
 **Campo:** endTime
 **Título:** Fecha y hora de finalización de la actividad
-**Descripción:** Fecha y hora de finalización de la decisión (anteriormente conocida como actividad). La propiedad tiene la semántica de la propiedad &#39;endTime&#39; de schema.org definida en http://schema.org/Action.
+**Descripción:** Fecha y hora de finalización de la decisión (anteriormente conocida como actividad). La propiedad tiene la semántica de la propiedad &#39;endTime&#39; de schema.org definida en https://schema.org/Action.
 **Tipo:** cadena
 
 +++
@@ -287,7 +287,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL 
 
 **Campo:** startTime
 **Título:** Fecha y hora de inicio de la actividad
-**Descripción:** La fecha de inicio y la hora de finalización de la decisión (anteriormente conocida como actividad). La propiedad tiene la semántica de la propiedad &#39;startTime&#39; de schema.org definida en http://schema.org/Action.
+**Descripción:** La fecha de inicio y la hora de finalización de la decisión (anteriormente conocida como actividad). La propiedad tiene la semántica de la propiedad &#39;startTime&#39; de schema.org definida en https://schema.org/Action.
 **Tipo:** cadena
 
 +++

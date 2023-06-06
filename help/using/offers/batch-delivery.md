@@ -2,7 +2,7 @@
 title: Decisiones por lotes
 description: Obtenga información sobre cómo enviar decisiones de oferta a todos los perfiles de un segmento determinado de Adobe Experience Platform.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Antes de configurar una solicitud de trabajo, asegúrese de haber creado:
 
 * **Un conjunto de datos** en Adobe Experience Platform. Este conjunto de datos se utilizará para almacenar el resultado de la decisión mediante el esquema &quot;ODE DecisionEvents&quot;. Obtenga más información en la [Documentación de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es).
 
-* **Un segmento** en Adobe Experience Platform. El segmento debe evaluarse y luego actualizarse. Obtenga información sobre cómo actualizar la evaluación de abono a segmentos en la [Documentación del Servicio de segmentación](http://www.adobe.com/go/segmentation-overview-en)
+* **Un segmento** en Adobe Experience Platform. El segmento debe evaluarse y luego actualizarse. Obtenga información sobre cómo actualizar la evaluación de abono a segmentos en la [Documentación del Servicio de segmentación](https://www.adobe.com/go/segmentation-overview-en)
 
    >[!NOTE]
    >

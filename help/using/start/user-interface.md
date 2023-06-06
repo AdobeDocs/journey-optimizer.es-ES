@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6f7365b1ddeb3ed3e253669d21702b02f0ec7275
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Interfaz de usuario {#cjm-user-interface}
 
-Conéctese a [Adobe Experience Cloud](http://experience.adobe.com) y busque [!DNL Journey Optimizer].
+Conéctese a [Adobe Experience Cloud](https://experience.adobe.com) y busque [!DNL Journey Optimizer].
 
 Los conceptos clave al examinar la interfaz de usuario son habituales en Adobe Experience Platform. Consulte la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=es#adobe-experience-platform-ui-guide) para obtener más información.{target="_blank"}
 

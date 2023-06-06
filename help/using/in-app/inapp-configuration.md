@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: en la aplicación, mensaje, configuración, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 21aeac323a43ac95d98f4798ff3d51ad32f2ebf9
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 11%
+source-wordcount: '281'
+ht-degree: 12%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 Antes de enviar mensajes en la aplicación, debe configurar el canal en la aplicación en [!DNL Adobe Experience Platform Data Collection].
 
-1. De su [!DNL Adobe Experience Platform Data Collection] Cuenta de, acceda a **[!UICONTROL Datastream]** y haga clic en **[!UICONTROL Nueva secuencia de datos]**. Para obtener más información sobre la creación de flujos de datos, consulte [esta página](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams).
+1. De su [!DNL Adobe Experience Platform Data Collection] Cuenta de, acceda a **[!UICONTROL Datastream]** y haga clic en **[!UICONTROL Nueva secuencia de datos]**. Para obtener más información sobre la creación de flujos de datos, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=es).
 
 1. Seleccione el [!DNL Adobe Experience Platform] servicio.
 
