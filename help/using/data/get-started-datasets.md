@@ -8,7 +8,7 @@ level: Beginner
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 100%
 

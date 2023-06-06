@@ -26,7 +26,7 @@ ht-degree: 8%
 
 Además, los segmentos también se pueden crear desde el propio servicio de Segmentación. Obtenga más información en la [Documentación del Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
-## Uso de segmentos en [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+## Uso de segmentos de  en [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
 Puede aprovechar los segmentos en **[!DNL Journey Optimizer]** de diferentes maneras:
 

@@ -5,14 +5,15 @@ feature: A/B Testing
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+exl-id: 2ab7a205-5aa6-4430-a498-d703cda7b8aa
+source-git-commit: 8da2b22b36a21f95a49f4195c25ccec9b055bbd6
 workflow-type: tm+mt
 source-wordcount: '932'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Comprensión de los cálculos estadísticos en el informe Experimentación {#experiment-report-calculations}
+# Explicación de los cálculos estadísticos en el informe de experimentación {#experiment-report-calculations}
 
 Esta página documenta los cálculos estadísticos detallados utilizados en el Informe de experimentación para campañas en Adobe Journey Optimizer.
 

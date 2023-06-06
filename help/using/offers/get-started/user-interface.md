@@ -88,7 +88,7 @@ Tenga en cuenta que también puede duplicar una oferta o decisiones existentes p
 
 ## Registros de cambios de ofertas y decisiones {#changes-logs}
 
-La Biblioteca de ofertas permite visualizar todos los cambios realizados en una oferta o una decisión. Para ello, abra la oferta o decisión haciendo clic en su nombre en la lista y luego seleccione. **[!UICONTROL Registro de cambios]** pestaña.
+La Biblioteca de ofertas permite visualizar todos los cambios realizados en una oferta o una decisión. Para ello, abra la oferta o decisión haciendo clic en su nombre en la lista y luego seleccione **[!UICONTROL Registro de cambios]** pestaña.
 
 Todos los cambios realizados se muestran en esta pantalla, así como el nombre del usuario que realizó los cambios.
 

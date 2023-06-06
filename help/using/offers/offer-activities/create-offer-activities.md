@@ -154,7 +154,7 @@ Para ello, selecciónela en la lista de ofertas de reserva disponibles para las 
 >
 >Puede hacer clic en **[!UICONTROL Abrir biblioteca de ofertas]** para mostrar la lista de ofertas en una nueva pestaña.
 
-## Revise y guarde la decisión {#review}
+## Revisar y guardar la decisión {#review}
 
 Si todo está configurado correctamente, se muestra un resumen de las propiedades de la decisión.
 

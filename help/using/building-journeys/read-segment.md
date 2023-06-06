@@ -152,7 +152,7 @@ Después de entrar en el recorrido, puede crear casos de uso de orquestación de
 
 Puede utilizar condiciones para realizar la segmentación con el **Condición** actividad. VIP VIP Por ejemplo, puede hacer que las personas de la zona de trabajo tomen una ruta en particular y que no tengan un flujo de trabajo de la zona de trabajo de otra ruta de acceso que no sea de la zona de trabajo.
 
-La segmentación se puede basar en lo siguiente:
+La segmentación se puede basar en:
 
 * datos de fuente de datos
 * el contexto de los eventos forma parte de los datos de recorrido, por ejemplo: ¿hizo una persona clic en el mensaje recibido hace una hora?

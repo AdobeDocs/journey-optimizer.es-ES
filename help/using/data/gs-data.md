@@ -22,7 +22,7 @@ La riqueza y la cobertura de los datos del cliente final es lo que define la sol
 
 Con [!DNL Adobe Journey Optimizer]Además, puede administrar, conservar y exportar fácilmente estos datos a plataformas o sistemas que formen parte de su pila de tecnología.
 
-**Mis datos, Mis reglas** - [!DNL Adobe Journey Optimizer] crea de forma continua (y en tiempo real) un conjunto completo de datos de perfil del cliente, además de todos los datos de recorrido y los datos de ofertas inherentes a sus operaciones. Las versiones de Strawman de los datos de usuario ingeridos desde sus bases de datos se enriquecen y transforman en datos de alto valor con cobertura y profundidad. Desea que estos datos estén seguros y, al mismo tiempo, sean omnipresentes, para poder aprovechar su valor en todo el ecosistema informático.
+**Mis datos, Mis reglas** - [!DNL Adobe Journey Optimizer] crea de forma continua (y en tiempo real) un conjunto completo de datos de perfil del cliente, además de todos los datos de recorrido y los datos de ofertas inherentes a sus operaciones. Las versiones de Strawman de los datos de usuario ingeridos desde sus bases de datos se enriquecen y transforman en datos de alto valor con cobertura y profundidad. Desea que estos datos estén seguros y, al mismo tiempo, sean ubicuos, de modo que pueda aprovechar su valor en todo el ecosistema informático.
 
 En general, la flexibilidad que desea de sus datos es:
 
