@@ -57,15 +57,15 @@ Las funciones y la integración de Gestión de decisiones con Adobe Experience P
 
 * Muestre ofertas en la página de inicio del sitio web que coincidan con el punto de interés del cliente visitante según los datos de Adobe Experience Platform.
 
-   ![](../assets/website.png)
+  ![](../assets/website.png)
 
 * Si los clientes se acercan a una de las tiendas, envíeles notificaciones push recordándoles las ofertas disponibles según sus atributos (nivel de lealtad, sexo, compras anteriores...).
 
-   ![](../assets/push_sample.png)
+  ![](../assets/push_sample.png)
 
 * Gestión de decisiones también le ayuda a mejorar la experiencia de sus clientes al ponerse en contacto con su equipo de asistencia. Las API de Gestión de decisiones permiten mostrar en el portal de los agentes del centro de llamadas información acerca de las mejores ofertas y las ofertas canjeadas del cliente.
 
-   ![](../../assets/do-not-localize/call-center.png)
+  ![](../../assets/do-not-localize/call-center.png)
 
 ## Concesión de acceso a Gestión de decisiones {#granting-acess-to-decision-management}
 
