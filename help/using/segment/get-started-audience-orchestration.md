@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 82%
 
 ---
 
@@ -38,7 +38,7 @@ Lo que encontrará en esta documentación:
 
 >[!AVAILABILITY]
 >
->Actualmente, la composición de audiencias solo está disponible como una versión beta privada y puede estar sujeta a frecuentes actualizaciones sin previo aviso. La versión beta se aprovisiona en el nivel de organización, lo que significa que afectará a todas las zonas protegidas de su organización.
+>Composición de audiencia solo está disponible para un grupo limitado de clientes en este momento. Si tiene alguna pregunta, póngase en contacto con el representante del Adobe.
 
 La composición de audiencias le permite crear **flujos de trabajo de composición**, donde puede combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (divididas, excluidas...) para crear nuevas audiencias.
 
@@ -49,6 +49,8 @@ Cuando haya finalizado, las **audiencias resultantes** se guardarán en Adobe Ex
 >[!IMPORTANT]
 >
 >Las audiencias resultantes de los flujos de trabajo de composición solo se pueden dirigir a campañas de Journey Optimizer. No están disponibles para su uso en recorridos.
+>
+>Las campañas de Adobe Journey Optimizer aún no están integradas con el servicio de aplicación de políticas. Por lo tanto, las etiquetas de uso de datos que aplique a sus atributos de audiencia no se aplicarán a las campañas de Journey Optimizer.
 
 Se puede acceder a la composición de audiencias desde el menú **[!UICONTROL Segmentos]** de Adobe Journey Optimizer:
 

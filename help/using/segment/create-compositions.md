@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informative"
-source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
+source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 14%
+source-wordcount: '405'
+ht-degree: 15%
 
 ---
 
@@ -50,6 +50,7 @@ Para crear un flujo de trabajo de maquetación, siga estos pasos:
    * **[!UICONTROL Audiencia]**: el punto de partida de la composición. Esta actividad le permite seleccionar una o varias audiencias como base para el flujo de trabajo,
 
    * **[!UICONTROL Guardar]**: el último paso de la composición. Esta actividad le permite guardar el resultado del flujo de trabajo en una nueva audiencia.
+
    Para obtener más información sobre cómo configurar actividades en el lienzo del flujo de trabajo de composición, consulte [Trabajo con el lienzo de composición](composition-canvas.md).
 
 1. Abra las propiedades de la composición para especificar un título y una descripción.
@@ -66,7 +67,7 @@ Para crear un flujo de trabajo de maquetación, siga estos pasos:
 
    >[!IMPORTANT]
    >
-   >Puede publicar hasta 75 composiciones en una zona protegida determinada. Si ha alcanzado este umbral, debe eliminar una composición para liberar espacio y publicar una nueva.
+   >Puede publicar hasta 10 composiciones en una zona protegida determinada. Si ha alcanzado este umbral, debe eliminar una composición para liberar espacio y publicar una nueva.
 
    Si se produce algún error durante la publicación, las alertas se mostrarán con información sobre cómo resolver el problema.
 
@@ -85,7 +86,6 @@ Se puede acceder a todas las composiciones creadas desde el **[!UICONTROL Compos
 
 * **[!UICONTROL Borrador]**: la composición está en curso y no se ha publicado.
 * **[!UICONTROL Publicado]**: la composición se ha publicado, las audiencias resultantes se han guardado y están disponibles para su uso.
-* **[!UICONTROL Archivado]**: se ha archivado la composición.
 
 ![](assets/audiences-compositions.png)
 
