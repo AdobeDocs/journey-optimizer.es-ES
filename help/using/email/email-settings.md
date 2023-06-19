@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 4ce00b4a709c23284148dfffb0187767fcecbe8a
+source-git-commit: 958e0c4352e150ebabdf53f0cc4f0eae2a478714
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1787'
 ht-degree: 8%
 
 ---
@@ -43,13 +43,9 @@ La configuración de la superficie de correo electrónico se recoge para enviar 
 
 En el **TIPO DE CORREO** , seleccione el tipo de mensaje que se enviará con la superficie: **Marketing** o **Transaccional**.
 
-* Elegir **Marketing** para correos electrónicos promocionales: estos mensajes requieren el consentimiento del usuario.
+* Elegir **Marketing** para correo electrónico promocional, como promociones semanales de una tienda minorista. Estos mensajes requieren el consentimiento del usuario.
 
-* Elegir **Transaccional** para correos electrónicos no comerciales, como confirmaciones de pedidos, notificaciones de restablecimiento de contraseña o información de entrega, por ejemplo.
-
->[!CAUTION]
->
->**Transaccional** los correos electrónicos se pueden enviar a perfiles que cancelaron la suscripción a comunicaciones de marketing. Estos mensajes solo se pueden enviar en contextos específicos.
+* Elegir **Transaccional** para correos electrónicos no comerciales, como confirmaciones de pedidos, notificaciones de restablecimiento de contraseña o información de entrega, por ejemplo. Estos correos electrónicos se pueden enviar a perfiles que **cancelado** de comunicaciones de marketing. Estos mensajes solo se pueden enviar en contextos específicos.
 
 Al crear un mensaje, debe elegir una superficie de canal válida que coincida con la categoría seleccionada para el correo electrónico.
 
@@ -95,19 +91,19 @@ El vínculo de cancelación de suscripción consta de dos elementos:
 
 * Un **cancelar suscripción de dirección de correo electrónico**, a los que se envían todas las solicitudes de cancelación de suscripción.
 
-   Entrada [!DNL Journey Optimizer], la dirección de correo electrónico para cancelar la suscripción es la predeterminada **[!UICONTROL Mailto (cancelar la suscripción)]** dirección mostrada en la superficie de canal, basada en la variable [subdominio seleccionado](#subdomains-and-ip-pools).
+  Entrada [!DNL Journey Optimizer], la dirección de correo electrónico para cancelar la suscripción es la predeterminada **[!UICONTROL Mailto (cancelar la suscripción)]** dirección mostrada en la superficie de canal, basada en la variable [subdominio seleccionado](#subdomains-and-ip-pools).
 
-   ![](assets/preset-list-unsubscribe-mailto.png)
+  ![](assets/preset-list-unsubscribe-mailto.png)
 
 * El **URL de cancelación de suscripción**, que es la dirección URL de la página de aterrizaje a la que se redirige al usuario una vez cancelada la suscripción.
 
-   Si agrega un [vínculo de no participación de un clic](../privacy/opt-out.md#one-click-opt-out) Para agregar un mensaje creado con esta superficie, la URL de cancelación de suscripción será la URL definida para el vínculo de no participación de un solo clic.
+  Si agrega un [vínculo de no participación de un clic](../privacy/opt-out.md#one-click-opt-out) Para agregar un mensaje creado con esta superficie, la URL de cancelación de suscripción será la URL definida para el vínculo de no participación de un solo clic.
 
-   ![](assets/preset-list-unsubscribe-opt-out-url.png)
+  ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   >[!NOTE]
-   >
-   >Si no agrega un vínculo de no participación de un clic al contenido del mensaje, no se mostrará ninguna página de aterrizaje al usuario.
+  >[!NOTE]
+  >
+  >Si no agrega un vínculo de no participación de un clic al contenido del mensaje, no se mostrará ninguna página de aterrizaje al usuario.
 
 Obtenga más información sobre cómo añadir un vínculo de cancelación de suscripción de encabezado a los mensajes en [esta sección](../privacy/opt-out.md#unsubscribe-header).
 
