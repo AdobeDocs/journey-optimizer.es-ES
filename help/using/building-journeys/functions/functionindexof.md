@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: indexOf, function, expression, recorrido
 exl-id: 3b57be48-8dc5-4207-9ebb-664ff3e1fb3c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 383ab306401bc52717a9818e871100993e1ff2ff
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 18%
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 # indexOf {#indexOf}
 
-Comprueba si la cadena del primer argumento termina con una cadena específica (cadena del segundo argumento). Si no se encuentra la cadena, devuelve -1.
+Devuelve la posición (en el primer argumento) de la primera aparición del segundo parámetro. Devuelve -1 si no hay ninguna coincidencia.
 
 ## Categoría
 
