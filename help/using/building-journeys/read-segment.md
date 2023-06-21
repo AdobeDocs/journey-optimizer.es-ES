@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, lectura, segmento, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
+source-git-commit: a278b217882f2646e106600e110226941e7e4f10
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1337'
 ht-degree: 12%
 
 ---
@@ -75,7 +75,7 @@ Los pasos para configurar la actividad Leer segmento son los siguientes:
    >
    >La tasa de regulación general por zona protegida se establece en 20 000 mensajes por segundo. Por lo tanto, la tasa de regulación de todos los segmentos de lectura que se ejecutan simultáneamente en el mismo entorno limitado suman, como máximo, 20 000 mensajes por segundo. No puede modificar este límite.
 
-1. El **[!UICONTROL Leer segmento]** La actividad de le permite especificar la hora a la que el segmento entrará en el recorrido. Para ello, haga clic en el **[!UICONTROL Editar programación de recorrido]** para acceder a las propiedades del recorrido y configurar el **[!UICONTROL Tipo de planificador]** field.
+1. El **[!UICONTROL Leer segmento]** La actividad de le permite especificar la hora a la que el segmento entrará en el recorrido. Para ello, haga clic en el **[!UICONTROL Editar programación de recorrido]** para acceder a las propiedades del recorrido. A continuación, configure el **[!UICONTROL Tipo de planificador]** field.
 
    ![](assets/read-segment-schedule.png)
 
