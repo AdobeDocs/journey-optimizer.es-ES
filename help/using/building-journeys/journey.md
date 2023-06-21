@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: recorrido, descubrimiento, puesta en marcha
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 17c13b54d59e254543eb3340f791745ea24208c8
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '596'
 ht-degree: 28%
 
 ---
@@ -47,7 +47,7 @@ Adobe Journey Optimizer incluye un lienzo de orquestación omnicanal que permite
 
 Obtenga información sobre cómo iniciar y crear su primer recorrido en [esta página](journey-gs.md).
 
-El diseñador de recorridos omnicanal le ayuda a crear recorridos de varios pasos con audiencias de destino, actualizaciones basadas en interacciones comerciales o de clientes en tiempo real, y mensajes omnicanal mediante una interfaz intuitiva de arrastrar y soltar.
+El diseñador de recorridos omnicanal le ayuda a construir recorridos de varios pasos, dirigidos específicamente a audiencias e incorporando actualizaciones basadas en las interacciones comerciales o de clientes en tiempo real. También le permite crear mensajes omnicanal mediante una interfaz intuitiva de arrastrar y soltar.
 
 ![](assets/journey38.png)
 
