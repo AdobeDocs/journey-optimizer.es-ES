@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: solución de problemas, solución de problemas, recorrido, comprobación, errores
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 41c01f2a32e0f60d7b189dbe2e0be68e998881c8
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 74%
+source-wordcount: '1029'
+ht-degree: 73%
 
 ---
 
@@ -58,7 +58,7 @@ El informe de recorridos mide las entradas de la gente en un recorrido en tiempo
 
 Si se consigue enviar el evento pero no se ve ninguna entrada en el recorrido, hay un problema entre el envío del evento y la recepción del evento en el recorrido.
 
-A continuación se indican algunas cosas que el administrador debe comprobar:
+Puede comenzar la resolución de problemas con las preguntas siguientes:
 
 * ¿Está seguro de que el recorrido en el que espera el evento entrante está en modo de prueba o activo?
 * ¿Ha guardado el evento antes de copiar la carga útil de la previsualización de carga útil?
@@ -67,10 +67,10 @@ A continuación se indican algunas cosas que el administrador debe comprobar:
 * ¿Ha seguido la estructura de carga útil de las API de inserción de flujo, utilizando la previsualización de estructura de carga útil del panel de configuración de evento? Consulte [esta página](../event/about-creating.md#preview-the-payload).
 * ¿Utilizó los pares clave-valor correctos en el encabezado del evento?
 
-   ```
-   X-gw-ims-org-id - your organization's ID
-   Content-type - application/json
-   ```
+  ```
+  X-gw-ims-org-id - your organization's ID
+  Content-type - application/json
+  ```
 
 ## Comprobar cómo navegan las personas por el recorrido{#checking-how-people-navigate-through-the-journey}
 
