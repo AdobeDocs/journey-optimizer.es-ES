@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, lectura, segmento, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 834e2bbf00d1169ca3f15127fe380f6ee40ae88a
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1338'
 ht-degree: 13%
 
 ---
@@ -87,9 +87,9 @@ Los pasos para configurar la actividad Leer segmento son los siguientes:
 
    ![](assets/read-segment-schedule-list.png)
 
-   **Lectura incremental** opción: cuando un recorrido con una **Leer segmento** se ejecuta por primera vez, todos los perfiles del segmento entran en el recorrido. Esta opción le permite dirigirse, después de la primera aparición, solo a las personas que ingresaron al segmento desde la última ejecución del recorrido.
+   Cuando un recorrido con un **Leer segmento** se ejecuta por primera vez, todos los perfiles del segmento entran en el recorrido. Utilice el **Lectura incremental** Opción para dirigirse, después de la primera aparición, solo a las personas que ingresaron al segmento desde la última ejecución del recorrido.
 
-   **Forzar reentrada en repetición**: esta opción permite hacer que todos los perfiles que aún están presentes en la recorrido se cierren automáticamente en la siguiente ejecución. Por ejemplo, si tiene una espera de 2 días en un recorrido diario recurrente, al activar esta opción, los perfiles siempre se moverán en la siguiente ejecución de recorrido (por lo que al día siguiente), estén o no en la siguiente audiencia de ejecución. Si la duración de los perfiles en este recorrido puede ser mayor que la periodicidad, no active esta opción para asegurarse de que los perfiles puedan finalizar su recorrido.
+   Activación de la **Forzar reentrada en repetición** permite eliminar automáticamente todos los perfiles que estén actualmente en el recorrido durante la siguiente ejecución. Por ejemplo, si hay una espera de 2 días en un recorrido recurrente diario, al activar esta opción los perfiles se moverán de forma consistente a la siguiente ejecución de recorrido (al día siguiente), independientemente de si forman parte de la siguiente audiencia de ejecución. Sin embargo, si la duración de los perfiles en este recorrido puede superar la periodicidad, es aconsejable no habilitar esta opción para garantizar que los perfiles puedan completar su recorrido.
 
 <!--
 
@@ -116,13 +116,13 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### Prueba y publicación del recorrido {#testing-publishing}
 
-El **[!UICONTROL Leer segmento]** La actividad de le permite probar el recorrido en un perfil unitario o en 100 perfiles de prueba aleatorios seleccionados entre los perfiles cualificados para el segmento.
+El **[!UICONTROL Leer segmento]** La actividad de le permite probar el recorrido en un perfil unitario o en 100 perfiles de prueba aleatorios seleccionados entre los perfiles clasificados para el segmento.
 
-Para ello, active el modo de prueba y seleccione la opción que desee en el panel izquierdo.
+Para ello, active la variable **modo de prueba**. A continuación, seleccione la opción que desee en el panel izquierdo.
 
 ![](assets/read-segment-test-mode.png)
 
-A continuación, puede configurar y ejecutar el modo de prueba como de costumbre. [Obtenga información sobre cómo probar un recorrido](testing-the-journey.md).
+A continuación, puede configurar y ejecutar el **modo de prueba** como siempre. [Obtenga información sobre cómo probar un recorrido](testing-the-journey.md).
 
 Una vez que se esté ejecutando la prueba, el **[!UICONTROL Mostrar registros]** permite ver los resultados de la prueba según la opción de prueba seleccionada:
 
@@ -130,9 +130,9 @@ Una vez que se esté ejecutando la prueba, el **[!UICONTROL Mostrar registros]**
 
 * **[!UICONTROL Hasta 100 perfiles a la vez]**: los registros de prueba permiten rastrear la progresión de la exportación de segmentos desde Adobe Experience Platform, así como el progreso individual de todas las personas que ingresaron al recorrido.
 
-   Tenga en cuenta que probar el recorrido con hasta 100 perfiles a la vez no le permite rastrear el progreso de las personas en el recorrido mediante el flujo visual.
+  Tenga en cuenta que probar el recorrido con hasta 100 perfiles a la vez no le permite rastrear el progreso de las personas en el recorrido mediante el flujo visual.
 
-   ![](assets/read-segment-log.png)
+  ![](assets/read-segment-log.png)
 
 Una vez realizadas las pruebas correctamente, puede publicar el recorrido (consulte [Publicación del recorrido](publishing-the-journey.md)). Las personas que pertenezcan al segmento introducirán el recorrido en la fecha y hora especificadas en las propiedades del recorrido **[!UICONTROL Planificador]** sección.
 
