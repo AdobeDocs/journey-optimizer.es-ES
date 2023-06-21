@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, segmento, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 70db4a6c235b8490fb80e24d133775f5f5a19eb1
+source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1549'
 ht-degree: 28%
 
 ---
@@ -153,7 +153,7 @@ También puede agregar un **Fecha de finalización**. Esto permite que los perfi
 
 ### Tiempo de espera y error en actividades de recorrido {#timeout_and_error}
 
-Al editar una actividad de acción o condición, puede definir una ruta alternativa en caso de error o tiempo de espera. Si el procesamiento de la actividad que busca un sistema de terceros supera el tiempo de espera definido en las propiedades del recorrido (**[!UICONTROL Tiempo de espera y error]** ), se elegirá la segunda ruta para realizar una posible acción de reserva.
+Al editar una actividad de acción o condición, tiene la opción de especificar una ruta alternativa en caso de error o tiempo de espera. Si el procesamiento de la actividad, que implica consultar un sistema de terceros, supera la duración especificada en las propiedades del recorrido para el tiempo de espera y la administración de errores (**[!UICONTROL Tiempo de espera y error]** ), se seleccionará la segunda ruta para ejecutar una acción de reserva si es necesario.
 
 Los valores autorizados están entre 1 y 30 segundos.
 

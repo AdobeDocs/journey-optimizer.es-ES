@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, lectura, segmento, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 834e2bbf00d1169ca3f15127fe380f6ee40ae88a
+source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
 workflow-type: tm+mt
 source-wordcount: '1338'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
@@ -112,7 +112,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->Los recorridos de segmentos de lectura de una sola toma pasan al estado Finalizado 30 días después de la ejecución del recorrido. Para segmentos de lectura programados, son 30 días después de la ejecución de la última ocurrencia.
+>de una sola vez **Leer segmento** Los recorridos se trasladan al **Finalizado** estado 30 días después de la ejecución del recorrido. Para programado **Leer segmentos**, son 30 días después de la ejecución de la última incidencia.
 
 ### Prueba y publicación del recorrido {#testing-publishing}
 
