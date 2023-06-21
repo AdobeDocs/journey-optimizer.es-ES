@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: reentrada, recorrido, perfil, recurrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: deb3646235377bf48b91b019e3442e4a3d6f0cf8
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 22%
@@ -42,6 +42,6 @@ En un recorrido de segmento de lectura:
 
 * Para recorridos no recurrentes: el perfil introduce una vez y solo una vez el recorrido.
 
-* Para recorridos recurrentes: el perfil introduce el recorrido en cada periodicidad, si está en el estado segmento/esperado. Si todavía estaba en el recorrido de una repetición anterior, lo reiniciará desde el principio.
+* Para recorridos recurrentes: el perfil introduce el recorrido en cada periodicidad, si están en el estado segmento/esperado. Si todavía estaban en el recorrido desde una periodicidad anterior, lo reiniciarán desde el principio.
 
-En recorridos de eventos empresariales que comienzan por una **Leer segmento** actividad: sabiendo que este recorrido se basa en la recepción de un evento empresarial, si el perfil está cualificado en el segmento esperado, introducirá el recorrido para cada evento empresarial recibido, lo que significa que este perfil puede ser varias veces en el mismo recorrido, al mismo tiempo, pero en el contexto de diferentes eventos empresariales.
+En recorridos de eventos empresariales que comienzan por una **Leer segmento** actividad: sabiendo que este recorrido se basa en la recepción de un evento empresarial, si el perfil está cualificado en el segmento esperado, introducirán el recorrido para cada evento empresarial recibido, lo que significa que este perfil puede ser varias veces en el mismo recorrido, al mismo tiempo, pero en el contexto de diferentes eventos empresariales.
