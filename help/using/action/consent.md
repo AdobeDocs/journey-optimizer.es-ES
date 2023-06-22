@@ -9,10 +9,10 @@ role: Admin,Developer
 level: Experienced
 keywords: directivas, gobernanza, plataforma, escudo de atención sanitaria, consentimiento
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -44,7 +44,7 @@ Con la administración de consentimiento, se analizan dos actividades de recorri
 
 No se tienen en cuenta todas las demás actividades utilizadas en un recorrido. Si inicia el recorrido con una calificación del segmento, no se tiene en cuenta el segmento.
 
-En un recorrido, si un perfil queda excluido por una directiva de consentimiento en una acción personalizada, no se le envía el mensaje, pero continúa con el recorrido. El perfil no va a la ruta de tiempo de espera y error cuando se utiliza una condición.
+En un recorrido, si un perfil se excluye mediante una directiva de consentimiento en una acción personalizada, el mensaje no se envía a ellos, pero continúan el recorrido. El perfil no va a la ruta de tiempo de espera y error cuando se utiliza una condición.
 
 Antes de actualizar las directivas de una acción personalizada ubicada en un recorrido, asegúrese de que el recorrido no tenga errores.
 

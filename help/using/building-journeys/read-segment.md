@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, lectura, segmento, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a278b217882f2646e106600e110226941e7e4f10
+source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 12%
@@ -27,7 +27,7 @@ ht-degree: 12%
 
 Utilice el **Leer segmento** actividad para hacer que todas las personas de un segmento entren en el recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular.
 
-Veamos como ejemplo el segmento &quot;Apertura y cierre de compra de la aplicación de Luma&quot; creado en [Generar segmentos](../segment/about-segments.md) caso de uso. Con la actividad Leer segmento, puede hacer que todos los individuos que pertenecen a este segmento entren en un recorrido y los conviertan en recorridos individualizados que aprovecharán todas las funcionalidades del recorrido: condiciones, temporizadores, eventos, acciones.
+Veamos como ejemplo el segmento &quot;Apertura y cierre de compra de la aplicación de Luma&quot; creado en [Caso de uso de segmentos de compilación](../segment/about-segments.md). Con el **[!UICONTROL Leer segmento]** Con esta actividad, puede hacer que todas las personas que pertenecen a un segmento entren en un recorrido y que fluyan hacia recorridos individualizados que aprovecharán todas las funcionalidades del recorrido: condiciones, temporizadores, eventos, acciones.
 
 >[!NOTE]
 >
