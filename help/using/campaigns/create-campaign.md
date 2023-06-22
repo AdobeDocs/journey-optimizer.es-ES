@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 23%
+source-wordcount: '864'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,6 @@ ht-degree: 23%
 >* [Creación de superficies de canal](../configuration/channel-surfaces.md)
 >* [Introducción a los segmentos](../segment/about-segments.md)
 
-
 Para crear una nueva campaña, acceda al **[!UICONTROL Campañas]** y haga clic en **[!UICONTROL Crear campaña]**. También puede duplicar una campaña en directo existente para crear una nueva. [Más información](modify-stop-campaign.md#duplicate)
 
 ## Elija el tipo de campaña y el canal {#campaigntype}
@@ -33,18 +32,20 @@ Para crear una nueva campaña, acceda al **[!UICONTROL Campañas]** y haga clic 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campaña"
->abstract="Para un mensaje de marketing especificando una fecha de envío, el tipo **Programado** es el más adecuado. Sin embargo, si desea enviar mensajes transaccionales como restablecimiento de contraseña o abandono del carro de compras, el tipo **Activado por API** es la mejor opción."
+>abstract="**Campañas programadas** se ejecutan inmediatamente o en una fecha especificada y están pensados para enviar mensajes de tipo marketing. **Activado por API** las campañas se ejecutan mediante una llamada de API. Están destinados a enviar mensajes de marketing o mensajes transaccionales, es decir, mensajes enviados después de una acción realizada por un individuo: restablecimiento de contraseña, abandono del carro de compras, etc."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Categoría de la campaña"
->abstract="El valor de categoría está asociado directamente al valor de tipo de campaña. Programar tipo de campaña para la categoría **Marketing** y tipo activado por API para la categoría **Transaccional**"
+>abstract="Si está creando una campaña programada, la variable **marketing** el tipo se selecciona automáticamente. Para campañas activadas por API, elija si desea enviar una **marketing** o **transaccional** mensaje, es decir, un mensaje enviado después de una acción realizada por un individuo: restablecimiento de contraseña, abandono del carro de compras, etc."
 
 1. En el **[!UICONTROL Propiedades]** , especifique cómo desea ejecutar la campaña. Hay dos tipos de campaña disponibles:
 
-   * **[!UICONTROL Programado]**: ejecute la campaña inmediatamente o en una fecha especificada. Las campañas programadas están destinadas a enviar **marketing** escribir mensajes.
+   * **[!UICONTROL Programado]**: ejecute la campaña inmediatamente o en una fecha especificada. Las campañas programadas están destinadas a enviar **marketing** mensajes. Se configuran y ejecutan desde la interfaz de usuario de.
 
-   * **[!UICONTROL Activado por API]**: ejecute la campaña utilizando una llamada de API. Las campañas activadas por API están destinadas a enviar **transaccional** mensajes, es decir, mensajes enviados después de una acción realizada por un individuo: restablecimiento de contraseña, abandono del carro de compras, etc. [Obtenga información sobre cómo almacenar en déclencheur una campaña mediante API](api-triggered-campaigns.md)
+   * **[!UICONTROL Activado por API]**: ejecute la campaña utilizando una llamada de API. Las campañas activadas por API están destinadas a enviar lo siguiente **marketing**, o **transaccional** mensajes, es decir, mensajes enviados después de una acción realizada por un individuo: restablecimiento de contraseña, compra en el carro de compras, etc. [Obtenga información sobre cómo almacenar en déclencheur una campaña mediante API](api-triggered-campaigns.md)
+
+1. Si está creando una campaña programada, la variable **marketing** el tipo se selecciona automáticamente. Para campañas activadas por API, elija si desea enviar una **marketing** o **transaccional** Mensaje.&quot;
 
 1. En el **[!UICONTROL Acciones]** , elija el canal y la superficie de canal que desea utilizar para enviar el mensaje.
 

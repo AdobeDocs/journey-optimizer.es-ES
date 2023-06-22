@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 877c4e871beebdd5a050df1a5d44f06cba07e109
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2527'
 ht-degree: 96%
 
 ---
@@ -23,14 +23,15 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 
 
 
-## Notas de la versión anteriores de junio de 2023 {#june-rn-2023}
-
-La información siguiente está sujeta a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento. La documentación actualizada se publicará en la fecha de lanzamiento y se agregarán vínculos directos en esta página.
-
-**Fecha de lanzamiento**: 21-22 de junio de 2023
+## Notas de la versión de junio de 2023 {#june-rn-2023}
 
 <!--
-### New capabilities{#june-2023-features}-->
+Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
+
+**Release date**: June 21-22, 2023-->
+
+
+<!-- ### New capabilities{#june-2023-features}-->
 
 <table>
 <thead>

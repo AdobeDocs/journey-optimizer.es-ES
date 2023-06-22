@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: componentes, diseñador de correo electrónico, editor, correo electrónico
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 54%
+source-wordcount: '1354'
+ht-degree: 57%
 
 ---
 
@@ -60,7 +60,7 @@ Para añadir componentes de contenido al correo electrónico y ajustarlos a sus 
    >
    >Puede añadir varios componentes en un único componente de estructura y en cada columna de un componente de estructura.
 
-1. Ajuste los atributos de estilo de cada componente mediante la variable **[!UICONTROL Configuración]** y **[!UICONTROL Estilo]** a la derecha. Por ejemplo, puede cambiar el estilo, el relleno o el margen del texto de cada componente. [Obtenga más información sobre la alineación y el relleno](alignment-and-padding.md)
+1. Ajuste los atributos y el estilo de cada componente mediante la variable **[!UICONTROL Configuración]** y **[!UICONTROL Estilo]** a la derecha. Por ejemplo, puede cambiar el estilo, el relleno o el margen del texto de cada componente. [Obtenga más información sobre la alineación y el relleno](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
@@ -137,7 +137,7 @@ Utilice el componente **[!UICONTROL Texto]** para insertar texto en el correo el
 
 Utilice el componente **[!UICONTROL Divisor]** para insertar una línea divisoria y organizar el diseño y el contenido del correo electrónico.
 
-Puede ajustar atributos de estilo, como el color de línea, el estilo y la altura, desde el **[!UICONTROL Configuración]** y **[!UICONTROL Estilos]** pestañas.
+Puede ajustar los atributos de estilo, como el color de la línea, el estilo y la altura desde las pestañas **[!UICONTROL Configuración]** y **[!UICONTROL Estilos]**.
 
 ![](assets/email_designer_divider.png)
 
@@ -190,7 +190,7 @@ Utilice el componente **[!UICONTROL Social]** para insertar vínculos a páginas
 
 1. Seleccione el componente recién agregado.
 
-1. En el **[!UICONTROL Social]** del campo **[!UICONTROL Configuración]** pestaña, elija qué medios sociales desea agregar o eliminar.
+1. En el campo **[!UICONTROL Social]** de la pestaña **[!UICONTROL Configuración]**, elija los medios sociales que desea agregar o quitar.
 
    ![](assets/email_designer_20.png)
 
@@ -224,4 +224,4 @@ Obtenga información sobre cómo añadir ofertas personalizadas a un correo elec
 
 >[!IMPORTANT]
 >
->Si se realizan cambios en una decisión de oferta que se está utilizando en el mensaje de un recorrido, debe cancelar la publicación del recorrido y volver a publicarlo.  Esto garantizará que los cambios se incorporen al mensaje del recorrido y que el mensaje sea coherente con las últimas actualizaciones.
+>Si se realizan cambios en una decisión de oferta que se utiliza en el mensaje de un recorrido, se debe cancelar la publicación del recorrido y volver a publicarlo.  Esto garantizará que los cambios se incorporen al mensaje del recorrido y que el mensaje sea coherente con las últimas actualizaciones.
