@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 4b3b7ef3ec83705758374ca9e9170ce2933fa8de
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%
@@ -25,6 +25,10 @@ Para ello, primero debe crear una campaña activada por API en Journey Optimizer
 
 Los canales disponibles para las campañas activadas por API son correo electrónico, SMS y mensajes push.
 
+>[!NOTE]
+>
+>Por ahora, Envío rápido no es compatible con campañas activadas por API de notificación push.
+
 ## Creación de una campaña activada por API {#create}
 
 ### Configuración y activación de la campaña {#create-activate}
@@ -38,10 +42,6 @@ Para crear una campaña activada por API, siga los pasos a continuación. Encont
 1. Elija uno de los canales admitidos y la superficie de canal asociada que se utilizará para enviar el mensaje y, a continuación, haga clic en **[!UICONTROL Crear]**.
 
    ![](assets/api-triggered-type.png)
-
-   >[!NOTE]
-   >
-   >Por ahora, Envío rápido no es compatible con campañas activadas por API de notificación push.
 
 1. Especifique un título y una descripción para la campaña y haga clic en **[!UICONTROL Editar contenido]** para configurar el mensaje que desea enviar.
 
