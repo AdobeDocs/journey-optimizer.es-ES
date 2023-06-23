@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: evento, unitario, crear, recorrido
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 16%
+source-wordcount: '1623'
+ht-degree: 15%
 
 ---
 
@@ -69,6 +69,8 @@ Estos son los primeros pasos para configurar un nuevo evento:
    >[!NOTE]
    >
    >El editor de expresiones avanzadas no está disponible al definir el **[!UICONTROL Condición de ID de evento]**. En el editor de expresiones simple, no todos los operadores están disponibles, sino que dependen del tipo de datos. Por ejemplo, para un tipo de cadena de campo, puede utilizar &quot;contiene&quot; o &quot;es igual a&quot;.
+   >
+   >Si modifica el esquema con nuevos valores de enumeración después de crear el evento, debe seguir estos pasos para aplicar los cambios al evento existente: anule la selección del campo de enumeración de los campos de evento, confirme la selección y, a continuación, seleccione de nuevo el campo de enumeración. Ahora se muestra el nuevo valor de enumeración.
 
 1. Añada un área de nombres. Este paso es opcional, pero se recomienda, ya que la adición de un área de nombres le permite aprovechar la información almacenada en el servicio de Perfil del cliente en tiempo real. Define el tipo de clave que tiene el evento. Consulte [esta sección](../event/about-creating.md#select-the-namespace).
 

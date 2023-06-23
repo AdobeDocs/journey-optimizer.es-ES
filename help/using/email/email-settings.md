@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 958e0c4352e150ebabdf53f0cc4f0eae2a478714
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1783'
 ht-degree: 8%
 
 ---
@@ -26,7 +26,7 @@ Defina la configuración de correo electrónico en la sección dedicada de la co
 
 La configuración de la superficie de correo electrónico se recoge para enviar comunicaciones siguiendo la lógica siguiente:
 
-* Para los recorridos por lotes y de ráfaga, no se aplica a la ejecución por lotes o de ráfaga que ya se había iniciado antes de configurar la superficie de correo electrónico. Los cambios se recogerán en la próxima periodicidad o en la nueva ejecución.
+* Para los recorridos por lotes, no se aplica a la ejecución por lotes que ya se había iniciado antes de configurar la superficie de correo electrónico. Los cambios se recogerán en la próxima periodicidad o en la nueva ejecución.
 
 * En el caso de los mensajes transaccionales, el cambio se recoge inmediatamente para la siguiente comunicación (con un retraso de hasta cinco minutos).
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, segmento, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: b0b65ad119b6939a6d65d6f05edc67b2f2b22a31
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 28%
+source-wordcount: '1548'
+ht-degree: 27%
 
 ---
 
@@ -59,7 +59,7 @@ En la sección del menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTRO
 
 ![](assets/journeys-browse.png)
 
-En la lista de recorridos, puede filtrarlos según su estado, tipo y versión en **[!UICONTROL Estado y versión de filtros]**. El tipo puede ser: **[!UICONTROL Evento unitario]**, **[!UICONTROL Clasificación del segmento]**, **[!UICONTROL Leer segmento]**, **[!UICONTROL Evento empresarial]** o **[!UICONTROL Ráfaga]**.
+En la lista de recorridos, puede filtrarlos según su estado, tipo y versión en **[!UICONTROL Estado y versión de filtros]**. El tipo puede ser: **[!UICONTROL Evento unitario]**, **[!UICONTROL Calificación de segmentos]**, **[!UICONTROL Leer segmento]** o **[!UICONTROL Evento empresarial]**.
 
 Puede elegir mostrar solo los recorridos que utilizan un evento, un grupo de campos o una acción en **[!UICONTROL Filtros de actividad]** y **[!UICONTROL Filtros de datos]**. Además, la variable **[!UICONTROL Filtros de publicación]** permite seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar las versiones más recientes de recorridos en directo que se publicaron ayer. [Más información](../building-journeys/using-the-journey-designer.md).
 

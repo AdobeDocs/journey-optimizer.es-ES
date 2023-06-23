@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorrido, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 15%
@@ -39,8 +39,8 @@ Tenga en cuenta también que los parámetros de acciones personalizadas tienen u
 
 En Journey Optimizer, puede aplicar políticas de gobernanza de datos y consentimiento a sus acciones personalizadas para evitar que campos específicos se exporten a sistemas de terceros o excluyan a los clientes que no hayan aceptado recibir comunicaciones por correo electrónico, push o SMS. Para obtener más información, consulte las siguientes páginas:
 
-* [Gobernanza de datos](../action/action.md).
-* [Consentimiento](../action/action.md).
+* [Gobernanza de datos](../action/action-privacy.md).
+* [Consentimiento](../action/action-privacy.md).
 
 
 ## Pasos de configuración {#configuration-steps}
@@ -82,9 +82,10 @@ Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL
 
    * Si la dirección URL incluye una ruta dinámica, introduzca solo la parte estática de la dirección URL, es decir, el esquema, el host, el puerto y, opcionalmente, una parte estática de la ruta.
 
-      Ejemplo: `https://xxx.yyy.com/somethingstatic/`
+     Ejemplo: `https://xxx.yyy.com/somethingstatic/`
 
-      Especifique la ruta dinámica de la URL al agregar la acción personalizada a un recorrido. [Más información](../building-journeys/using-custom-actions.md).
+     Especifique la ruta dinámica de la URL al agregar la acción personalizada a un recorrido. [Más información](../building-journeys/using-custom-actions.md).
+
    >[!NOTE]
    >
    >Por motivos de seguridad, le recomendamos encarecidamente que utilice el esquema HTTPS para la dirección URL. No permitimos el uso de direcciones de Adobe que no sean públicas ni de direcciones IP.

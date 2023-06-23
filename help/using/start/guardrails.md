@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 96%
+source-wordcount: '1047'
+ht-degree: 97%
 
 ---
 
@@ -52,7 +52,7 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 * En caso de error, se realizan tres reintentos de forma sistemática. No puede ajustar el número de reintentos según el mensaje de error recibido.
 * El evento **Reacción** le permite reaccionar a las acciones predeterminadas. Obtenga más información en [esta página](../building-journeys/reaction-events.md). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado.
 * No puede colocar dos acciones en paralelo, debe agregarlas una tras otra.
-* Normalmente, un perfil no puede estar presente varias veces en el mismo recorrido y al mismo tiempo. Si la reentrada está activada, un perfil puede volver a entrar en un recorrido, pero no puede hacerlo hasta que salga completamente de la instancia anterior del recorrido. [Más información](../building-journeys/end-journey.md)
+* Un perfil no puede estar presente varias veces en el mismo recorrido y al mismo tiempo. Si la reentrada está activada, un perfil puede volver a entrar en un recorrido, pero no puede hacerlo hasta que salga completamente de la instancia anterior del recorrido. [Más información](../building-journeys/end-journey.md)
 
 ### Versiones de recorridos {#journey-versions-g}
 

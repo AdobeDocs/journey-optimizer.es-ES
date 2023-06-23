@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 23%
+source-wordcount: '886'
+ht-degree: 24%
 
 ---
 
@@ -115,10 +115,6 @@ El modelo varía si se habla de puntuación o de formación. La capacitación se
 * Puntuación: la aplicación de una puntuación a perfiles individuales en función del modelo entrenado
 
 Esta información se almacena con el perfil del usuario y se hace referencia a ella en la ejecución del recorrido para indicar a Adobe Journey Optimizer cuándo enviar el mensaje.
-
->[!CAUTION]
->
->Esta función no es compatible con el modo de ráfaga.
 
 ### Activación de la optimización del tiempo de envío{#activate-send-time-optimization}
 
