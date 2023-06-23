@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
+source-git-commit: bd805d9a52572e284b5846166e1f799f1f71fc59
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 82%
+source-wordcount: '329'
+ht-degree: 67%
 
 ---
 
@@ -42,13 +42,13 @@ Lo que encontrará en esta documentación:
 
 La composición de audiencias le permite crear **flujos de trabajo de composición**, donde puede combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (divididas, excluidas...) para crear nuevas audiencias.
 
-Cuando haya finalizado, las **audiencias resultantes** se guardarán en Adobe Experience Platform junto con audiencias existentes y se podrán **aprovechar en campañas** para dirigirse a los clientes. [Descubra cómo trabajar con campañas](../campaigns/get-started-with-campaigns.md)
+Una vez finalizado, la variable **audiencias resultantes** se guardan y se copian en Adobe Experience Platform junto con las audiencias existentes, y se pueden aprovechar para dirigirse a los clientes en [Campañas de Journey Optimizer](../campaigns/get-started-with-campaigns.md), o en Adobe [Destinos de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es).
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->Las audiencias resultantes de los flujos de trabajo de composición solo se pueden dirigir a campañas de Journey Optimizer. No están disponibles para su uso en recorridos.
+>Por el momento, las audiencias resultantes de los flujos de trabajo de maquetación no están disponibles para su uso en recorridos.
 >
 >Las campañas de Adobe Journey Optimizer aún no están integradas con el servicio de aplicación de políticas. Por lo tanto, las etiquetas de uso de datos que aplique a sus atributos de audiencia no se aplicarán a las campañas de Journey Optimizer.
 
