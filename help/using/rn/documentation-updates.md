@@ -4,16 +4,22 @@ product: journey optimizer
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
+source-git-commit: ae7585473373e23da02f16c0b43ab0b1b29f356d
 workflow-type: tm+mt
-source-wordcount: '2876'
-ht-degree: 100%
+source-wordcount: '2949'
+ht-degree: 97%
 
 ---
 
 # Actualizaciones de documentación {#latest-updates}
 
 Esta página enumera todas las actualizaciones de documentación de [!DNL Journey Optimizer].
+
+## Junio de 2023 {#june-2023}
+
+* Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de junio de 2023 se ha detallado en la documentación. [Más información](release-notes.md)
+* Se han añadido ejemplos adicionales sobre el orden de los criterios de evaluación a la **Creación de decisiones** para ilustrar casos en los que se utilizan varios criterios y ámbitos de decisión. [Más información](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* La documentación de Administración de decisiones se ha aclarado con una nota que especifica que el uso de Control de acceso de nivel de objeto no está disponible para colecciones dinámicas. [Más información](../offers/offer-library/creating-collections.md)
 
 ## Mayo de 2023 {#may-2023}
 
@@ -95,7 +101,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha añadido información sobre conjuntos de datos integrados. [Más información](../data/get-started-datasets.md#access-datasets)
 * Se han mejorado y reorganizado las secciones Informe global e Informe en directo. [Más información](../reports/global-report.md)
 * Se ha añadido una lista de todas las métricas de creación de informes disponibles en Adobe Journey Optimizer.
-   [Más información](../reports/global-report.md#email-and-sms-metrics)
+  [Más información](../reports/global-report.md#email-and-sms-metrics)
 * La sección de correo electrónico CCO se ha trasladado a la nueva página Asistencia para el archivado. [Más información](../configuration/archiving-support.md)
 
 ## Agosto de 2022 {#august-2022}
