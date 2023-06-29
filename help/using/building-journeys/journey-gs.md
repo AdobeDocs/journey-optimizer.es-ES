@@ -76,7 +76,7 @@ En los paneles Evento, Fuente de datos y Configuración de acciones, el campo **
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Cree su recorrido"
->abstract="Esta pantalla muestra la lista de recorridos existentes. Abra un recorrido o haga clic en “Crear recorrido” y combine las diferentes actividades de evento, orquestación y acción para crear sus escenarios multicanal de varios pasos."
+>abstract="Esta pantalla muestra la lista de recorridos existentes. Abra un recorrido o haga clic en &quot;Crear recorrido&quot; y combine las diferentes actividades de evento, orquestación y acción para crear sus escenarios de varios pasos en canales múltiples."
 
 Este paso lo realiza el **usuario empresarial**. Aquí es donde se crean los recorridos. Combine las distintas actividades de evento, orquestación y acción para crear sus escenarios de canal cruzado de varios pasos.
 
