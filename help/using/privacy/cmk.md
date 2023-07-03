@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Claves gestionadas por el cliente
 description: Obtenga información sobre cómo configurar y administrar las claves de cliente para Adobe Journey Optimizer.
-feature: Customer Managed Keys
+feature: Monitoring
 role: Developer, User, Admin, Leader
 level: Intermediate
-source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
+source-git-commit: 7f905ad1f1afbfc55b27eab8efc0a20b35f183de
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 5%
