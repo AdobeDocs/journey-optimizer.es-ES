@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
+source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 100%
+source-wordcount: '1384'
+ht-degree: 99%
 
 ---
 
@@ -363,7 +363,7 @@ ht-degree: 100%
       + [Trabajar con eventos de gestión de decisiones](using/offers/reports/get-started-events.md)
       + [Campos XDM de eventos de acceso](using/offers/reports/xdm-fields.md)
    + Exportación del catálogo de ofertas {#export-catalog}
-      + [Introducción a la exportación del catálogo de ofertas ](using/offers/export-catalog/get-started-export.md)
+      + [Introducción a la exportación del catálogo de ofertas](using/offers/export-catalog/get-started-export.md)
       + [Acceder al catálogo de ofertas exportado](using/offers/export-catalog/access-dataset.md)
       + [Conjunto de datos de ofertas personalizadas](using/offers/export-catalog/export-offers.md)
       + [Conjunto de datos de decisiones](using/offers/export-catalog/export-decisions.md)
@@ -488,3 +488,4 @@ ht-degree: 100%
       + [Administración de la exclusión](using/privacy/opt-out.md)
       + [Trabajar con políticas de consentimiento](using/action/consent.md)
    + [Control de datos](using/action/action-privacy.md)
+   + [Configurar y administrar claves administradas por el cliente](using/privacy/cmk.md)
