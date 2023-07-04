@@ -12,9 +12,9 @@ hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
 source-git-commit: fdfee4f88b4ed29c5083d1f755f488a43cc38f95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -38,19 +38,19 @@ Lo que encontrará en esta documentación:
 
 >[!AVAILABILITY]
 >
->Composición de audiencia solo está disponible para un grupo limitado de clientes en este momento. Si tiene alguna pregunta, póngase en contacto con el representante del Adobe.
+>La composición de público solo está disponible para un grupo limitado de clientes en este momento. Si tiene alguna pregunta, póngase en contacto con el representante de Adobe.
 
-La composición de audiencias le permite crear **flujos de trabajo de composición**, donde puede combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (divididas, excluidas...) para crear nuevas audiencias.
+La composición de públicos le permite crear **flujos de trabajo de composición**, donde puede combinar públicos de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (división, exclusión...) para crear nuevas audiencias.
 
-Una vez finalizado, la variable **audiencias resultantes** se guardan y se copian en Adobe Experience Platform junto con las audiencias existentes, y se pueden aprovechar para dirigirse a los clientes en [Campañas de Journey Optimizer](../campaigns/get-started-with-campaigns.md), o en Adobe [Destinos de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es){target="_blank"}.
+Una vez listo, la variable **público resultante** se guarda y se copia en Adobe Experience Platform junto con el público existente, y se puede aprovechar para dirigirse a los clientes en [Campañas de Journey Optimizer](../campaigns/get-started-with-campaigns.md), o en Adobe [Destinos de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es){target="_blank"}.
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->Por el momento, las audiencias resultantes de los flujos de trabajo de maquetación no están disponibles para su uso en recorridos.
+>Por el momento, el público resultante de los flujos de trabajo de maquetación no están disponibles para su uso en recorridos.
 >
->Las campañas de Adobe Journey Optimizer aún no están integradas con el servicio de aplicación de políticas. Por lo tanto, las etiquetas de uso de datos que aplique a sus atributos de audiencia no se aplicarán a las campañas de Journey Optimizer.
+>Las campañas de Adobe Journey Optimizer aún no están integradas con el servicio de aplicación de políticas. Por lo tanto, las etiquetas de uso de datos que aplique a sus atributos de público no se aplicarán a las campañas de Journey Optimizer.
 
 Se puede acceder a la composición de audiencias desde el menú **[!UICONTROL Segmentos]** de Adobe Journey Optimizer:
 
