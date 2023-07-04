@@ -5,9 +5,9 @@ title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: ae7585473373e23da02f16c0b43ab0b1b29f356d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2949'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Junio de 2023 {#june-2023}
 
-* Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de junio de 2023 se ha detallado en la documentación. [Más información](release-notes.md)
-* Se han añadido ejemplos adicionales sobre el orden de los criterios de evaluación a la **Creación de decisiones** para ilustrar casos en los que se utilizan varios criterios y ámbitos de decisión. [Más información](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
-* La documentación de Administración de decisiones se ha aclarado con una nota que especifica que el uso de Control de acceso de nivel de objeto no está disponible para colecciones dinámicas. [Más información](../offers/offer-library/creating-collections.md)
+* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de junio de 2023 se han incluido en la documentación. [Más información](release-notes.md)
+* Se han añadido ejemplos adicionales sobre el orden de los criterios de evaluación a la sección de **Creación de decisiones** para ilustrar casos en los que se utilizan varios criterios y ámbitos de decisión. [Más información](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* La documentación de gestión de decisiones se ha aclarado con una nota que especifica que el uso de control de acceso de nivel de objeto no está disponible para colecciones dinámicas. [Más información](../offers/offer-library/creating-collections.md)
 
 ## Mayo de 2023 {#may-2023}
 
