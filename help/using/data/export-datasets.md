@@ -8,10 +8,10 @@ level: Beginner
 badge: label="Beta" type="Informative"
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 98957bfff8fdc719dc81d3064eb3332c3f9f2cc4
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +50,7 @@ Compruebe los siguientes requisitos previos antes de empezar a exportar los conj
 
 * Para exportar conjuntos de datos, necesita el **Administrar destinos**, **Ver destinos**, **Activar destinos**, y **Administrar y activar destinos de conjuntos de datos** [permisos de control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). Lea el [información general de control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) o póngase en contacto con el administrador del producto para obtener los permisos necesarios.
 
-* Esta función solo admite la exportación de datos de primera generación, es decir, datos sin procesar tal como se definen en la [Descripción del producto de Real-time Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). Asegúrese de que el conjunto de datos que desea exportar no contenga datos de segunda generación.
+* Asegúrese de que el conjunto de datos que desea exportar no contenga datos de segunda generación. Esta función solo admite la exportación de datos de primera generación, es decir, datos sin procesar tal como se definen en la [Descripción del producto de Real-time Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). Los datos de primera generación incluyen conjuntos de datos traídos a través de fuentes de Adobe Experience Platform o conjuntos de datos recopilados mediante soluciones de Adobe como el conector de datos de Analytics y registros de Journey Optimizer/conjuntos de datos de informes.
 
 ## Pasos principales para exportar conjuntos de datos {#main-steps}
 
