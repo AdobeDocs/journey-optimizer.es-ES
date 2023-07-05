@@ -11,7 +11,7 @@ exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
 source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
 workflow-type: tm+mt
 source-wordcount: '1453'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -125,7 +125,7 @@ Una vez guardado, el fragmento está disponible para utilizarlo en un recorrido,
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
 >title="Defina su propio fragmento"
->abstract="Cree un fragmento independiente desde cero para que el contenido se pueda reutilizar en varios recorridos y campañas."
+>abstract="Cree una plantilla personalizada independiente desde cero para que el contenido se pueda reutilizar en varios recorridos y campañas."
 
 Para crear un fragmento desde cero, siga los pasos a continuación.
 

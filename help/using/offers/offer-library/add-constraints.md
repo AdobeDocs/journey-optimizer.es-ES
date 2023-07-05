@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
 workflow-type: tm+mt
 source-wordcount: '2385'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -85,21 +85,21 @@ El **[!UICONTROL Idoneidad de oferta]** permite restringir la oferta a perfiles 
 
 * De forma predeterminada, la variable **[!UICONTROL Todos los visitantes]** está seleccionada, lo que significa que cualquier perfil puede optar a la presentación de la oferta.
 
-   ![](../assets/offer-eligibility-default.png)
+  ![](../assets/offer-eligibility-default.png)
 
 * También puede limitar la presentación de la oferta a los miembros de uno o varios [Segmentos de Adobe Experience Platform](../../segment/about-segments.md).
 
-   Para ello, active la variable **[!UICONTROL Visitantes que pertenecen a uno o varios segmentos]** y, a continuación, añada uno o varios segmentos desde el panel izquierdo y combínelos con la opción **[!UICONTROL Y]** / **[!UICONTROL O]** operadores lógicos.
+  Para ello, active la variable **[!UICONTROL Visitantes que pertenecen a uno o varios segmentos]** y, a continuación, añada uno o varios segmentos desde el panel izquierdo y combínelos con la opción **[!UICONTROL Y]** / **[!UICONTROL O]** operadores lógicos.
 
-   ![](../assets/offer-eligibility-segment.png)
+  ![](../assets/offer-eligibility-segment.png)
 
 * Si desea asociar una [regla de decisión](../offer-library/creating-decision-rules.md) para añadir la oferta, seleccione **[!UICONTROL Por regla de decisión definida]**, luego arrastre la regla deseada del panel izquierdo al **[!UICONTROL Regla de decisión]** área.
 
-   ![](../assets/offer_rule.png)
+  ![](../assets/offer_rule.png)
 
-   >[!CAUTION]
-   >
-   >Actualmente no se admiten ofertas basadas en eventos en [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, no podrá aprovecharlo en una oferta de.
+  >[!CAUTION]
+  >
+  >Actualmente no se admiten ofertas basadas en eventos en [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, no podrá aprovecharlo en una oferta de.
 
 Al seleccionar segmentos o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Clic **[!UICONTROL Actualizar]** para actualizar los datos.
 
@@ -117,15 +117,15 @@ Básicamente, el resultado de un segmento es una lista de perfiles, mientras que
 
 * **Segmentos**
 
-   Por un lado, los segmentos son un grupo de perfiles de Adobe Experience Platform que coinciden con una lógica determinada en función de atributos de perfil y eventos de experiencia. Sin embargo, Administración de ofertas no vuelve a calcular el segmento, que puede no estar actualizado al presentar la oferta.
+  Por un lado, los segmentos son un grupo de perfiles de Adobe Experience Platform que coinciden con una lógica determinada en función de atributos de perfil y eventos de experiencia. Sin embargo, Administración de ofertas no vuelve a calcular el segmento, que puede no estar actualizado al presentar la oferta.
 
-   Más información sobre los segmentos en [esta sección](../../segment/about-segments.md).
+  Más información sobre los segmentos en [esta sección](../../segment/about-segments.md).
 
 * **Reglas de decisión**
 
-   Por otro lado, una regla de decisión se basa en los datos disponibles en Adobe Experience Platform y determina a quién se puede mostrar una oferta. Una vez seleccionada en una oferta o una decisión para una ubicación determinada, la regla se ejecuta cada vez que se toma una decisión, lo que garantiza que cada perfil obtenga la última y la mejor oferta.
+  Por otro lado, una regla de decisión se basa en los datos disponibles en Adobe Experience Platform y determina a quién se puede mostrar una oferta. Una vez seleccionada en una oferta o una decisión para una ubicación determinada, la regla se ejecuta cada vez que se toma una decisión, lo que garantiza que cada perfil obtenga la última y la mejor oferta.
 
-   Obtenga más información sobre las reglas de decisión en [esta sección](creating-decision-rules.md).
+  Obtenga más información sobre las reglas de decisión en [esta sección](creating-decision-rules.md).
 
 ## Límite {#capping}
 
@@ -186,16 +186,16 @@ El **[!UICONTROL Evento de límite]** permite definir qué campo **[!UICONTROL E
 * **[!UICONTROL Evento de decisión]** (valor predeterminado): Número máximo de veces que se puede presentar una oferta.
 * **[!UICONTROL Impresión]**: Número máximo de veces que la oferta se puede mostrar a un usuario.
 
-   >[!NOTE]
-   >
-   >El uso de impresiones como eventos de límite está disponible para **canales entrantes** solo.
+  >[!NOTE]
+  >
+  >El uso de impresiones como eventos de límite está disponible para **canales entrantes** solo.
 
 * **[!UICONTROL Clics]**: Número máximo de veces que un usuario puede hacer clic en la oferta.
 * **[!UICONTROL Evento personalizado]**: Puede definir un evento personalizado que se utilizará para limitar el número de ofertas enviadas. Por ejemplo, puede limitar el número de canjes hasta que sean iguales a 10000 o hasta que un perfil determinado se haya canjeado 1 vez. Para ello, utilice [ADOBE EXPERIENCE PLATFORM XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"} esquemas para crear una regla de evento personalizada.
 
-   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
+  <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   En el siguiente ejemplo, desea limitar el número de cierres de compra.
+  En el siguiente ejemplo, desea limitar el número de cierres de compra.
 
    1. Seleccionar **[!UICONTROL Evento personalizado]** de la lista y utilice el **[!UICONTROL Añadir evento personalizado]** botón.
 
@@ -237,18 +237,18 @@ También puede especificar si desea que el límite se aplique a todos los usuari
 
 * Seleccionar **[!UICONTROL En total]** para definir cuántas veces se puede proponer una oferta en la audiencia de destinatario combinada, es decir, en todos los usuarios.
 
-   Por ejemplo, si es un minorista de electrónica con una &quot;oferta de venta de televisores&quot;, quiere que la oferta solo se devuelva 200 veces en todos los perfiles.
+  Por ejemplo, si es un minorista de electrónica con una &quot;oferta de venta de televisores&quot;, quiere que la oferta solo se devuelva 200 veces en todos los perfiles.
 
 * Seleccionar **[!UICONTROL Por perfil]** para definir cuántas veces se puede proponer una oferta al mismo usuario.
 
-   Por ejemplo, si es un banco con una oferta de &quot;tarjeta de crédito Platinum&quot;, no desea que esta oferta se muestre más de 5 veces por perfil. De hecho, cree que si el usuario ha visto la oferta 5 veces y no ha actuado en consecuencia, tiene una mayor oportunidad de actuar en la siguiente mejor oferta.
+  Por ejemplo, si es un banco con una oferta de &quot;tarjeta de crédito Platinum&quot;, no desea que esta oferta se muestre más de 5 veces por perfil. De hecho, cree que si el usuario ha visto la oferta 5 veces y no ha actuado en consecuencia, tiene una mayor oportunidad de actuar en la siguiente mejor oferta.
 
 ### Restricción de frecuencia {#frequency-capping}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="Definir la frecuencia de límite"
->abstract="Puede elegir restablecer el contador de límite de ofertas de forma diaria, semanal o mensual. Tenga en cuenta que después de publicar la oferta con la restricción de frecuencia habilitada, no podrá cambiar la frecuencia definida."
+>abstract="Puede elegir restablecer el contador de límite de ofertas de forma diaria, semanal o mensual. Tenga en cuenta que después de publicar la oferta con la restricción de frecuencia habilitada, no podrá cambiar la frecuencia que ha sido definida."
 
 El **[!UICONTROL Frecuencia]** permite definir la frecuencia con la que se restablece el recuento de límite. Para ello, defina el periodo de tiempo para el recuento (diario, semanal o mensual) e introduzca el número de días/semanas/meses de su elección.
 
@@ -274,11 +274,11 @@ Si ha definido varios [representaciones](add-representations.md) para la oferta,
 
 * **[!UICONTROL En todas las ubicaciones]**: los recuentos de límite totalizarán todas las decisiones en las ubicaciones asociadas con la oferta.
 
-   Por ejemplo, si una oferta tiene un **Correo electrónico** ubicación y una **Web** y se establece el límite en **2 por perfil en todas las ubicaciones**, cada perfil podría recibir la oferta hasta dos veces en total, independientemente de la combinación de ubicaciones.
+  Por ejemplo, si una oferta tiene un **Correo electrónico** ubicación y una **Web** y se establece el límite en **2 por perfil en todas las ubicaciones**, cada perfil podría recibir la oferta hasta dos veces en total, independientemente de la combinación de ubicaciones.
 
 * **[!UICONTROL Para cada ubicación]**: los recuentos de límite aplicarán recuentos de decisión para cada ubicación por separado.
 
-   Por ejemplo, si una oferta tiene un **Correo electrónico** ubicación y una **Web** y se establece el límite en **2 por perfil para cada ubicación**, cada perfil podría recibir la oferta hasta dos veces para la ubicación de correo electrónico y otras dos veces para la ubicación web.
+  Por ejemplo, si una oferta tiene un **Correo electrónico** ubicación y una **Web** y se establece el límite en **2 por perfil para cada ubicación**, cada perfil podría recibir la oferta hasta dos veces para la ubicación de correo electrónico y otras dos veces para la ubicación web.
 
 ### Impacto del cambio de fechas en el límite {#capping-change-date}
 
