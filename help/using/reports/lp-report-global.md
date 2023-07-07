@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '532'
 ht-degree: 10%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 10%
 >title="Informe global de la página de aterrizaje"
 >abstract="El informe global de la página de aterrizaje permite medir el impacto de las páginas de aterrizaje durante un período de tiempo seleccionado. El informe se divide en distintos widgets que detallan el éxito y los errores de la página de aterrizaje. Cada tablero de informes se puede modificar cambiando el tamaño de los widgets o eliminándolos."
 
-La página de aterrizaje **[!UICONTROL Informe global]** Este informe muestra detalles sobre el impacto de las páginas de aterrizaje durante un periodo de tiempo seleccionado. Para medir los datos de la página de aterrizaje solo durante las últimas 24 horas, consulte la [Informe en directo de página de aterrizaje](lp-report-live.md).
+Los informes globales, a los que se puede acceder desde la pestaña Todo el tiempo, muestran los eventos que se produjeron hace al menos dos horas y cubren los eventos de un periodo de tiempo seleccionado. En comparación, los informes en directo se centran en los eventos que han tenido lugar en las últimas 24 horas, con un intervalo de tiempo mínimo de dos minutos desde que se produjo el evento.
 
 Para acceder a los informes, seleccione **[!UICONTROL Informe]** en el menú avanzado de la página de aterrizaje seleccionada.
 

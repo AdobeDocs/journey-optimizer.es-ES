@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 22%
+source-wordcount: '264'
+ht-degree: 20%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 22%
 >title="Informe en vivo de la suscripción"
 >abstract="El informe en vivo de la suscripción permite medir y visualizar en tiempo real la actividad de los suscriptores solo durante las últimas 24 horas. El informe se divide en distintos widgets que detallan las subscripciones y las cancelaciones de subscripciones. Cada tablero de informes se puede modificar cambiando el tamaño de los widgets o eliminándolos."
 
-La suscripción **[!UICONTROL Informe en vivo]** solo muestra detalles de la actividad de los suscriptores durante las últimas 24 horas. Para medir sus suscripciones durante un período de tiempo seleccionado, consulte la [Informe global de suscripción](subscription-report-global.md).
+Los informes en directo, a los que se puede acceder desde la pestaña Últimas 24 horas, muestran los eventos que han tenido lugar en las últimas 24 horas, con un intervalo de tiempo mínimo de dos minutos desde que se produjo el evento. En comparación, los informes globales se centran en eventos que se produjeron hace al menos dos horas y abarcan eventos durante un período de tiempo seleccionado.
 
 Para acceder a sus informes, haga clic en **[!UICONTROL Informe]** de la lista de suscripción seleccionada.
 
