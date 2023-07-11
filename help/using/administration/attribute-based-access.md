@@ -9,18 +9,14 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac, atributo, autorizaciones, datos, acceso, confidencial, recursos
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 4%
+source-wordcount: '1062'
+ht-degree: 1%
 
 ---
 
 # Control de acceso basado en atributos {#attribute-based-access}
-
->[!IMPORTANT]
->
->El uso del control de acceso basado en atributos está actualmente restringido a clientes seleccionados y se implementará en todos los entornos en una versión futura.
 
 El control de acceso basado en atributos (ABAC) permite definir autorizaciones para administrar el acceso a datos para equipos o grupos de usuarios específicos. Su objetivo es proteger los activos digitales confidenciales de usuarios no autorizados, lo que permite una mayor protección de los datos personales.
 
@@ -47,7 +43,7 @@ Tenga en cuenta que **[!UICONTROL Funciones]**, **[!UICONTROL Políticas]** y **
 **[!UICONTROL Funciones]** son un conjunto de usuarios que comparten los mismos permisos, etiquetas y zonas protegidas dentro de la organización. Cada usuario que pertenece a un **[!UICONTROL Rol]** tiene derecho a las aplicaciones y servicios de Adobe contenidos en el producto.
 También puede crear su propio **[!UICONTROL Funciones]** si desea ajustar el acceso de los usuarios a determinadas funcionalidades u objetos de la interfaz.
 
-Ahora queremos otorgar a los usuarios seleccionados acceso al **Nacionalidad** campo, etiquetado como C2. Para ello, es necesario crear un nuevo **[!UICONTROL Rol]** con un conjunto específico de usuarios y concederles la etiqueta C2, que les permite utilizar el **Nacionalidad** detalles en una **[!UICONTROL Recorrido]**.
+Ahora queremos otorgar a los usuarios seleccionados acceso al **Nacionalidad** campo, etiquetado como C2. Para ello, es necesario crear un nuevo **[!UICONTROL Rol]** con un conjunto específico de usuarios y asígneles la etiqueta C2, permitiéndoles utilizar el **Nacionalidad** detalles en una **[!UICONTROL Recorrido]**.
 
 1. Desde el [!DNL Permissions] producto, seleccione **[!UICONTROL Rol]** en el menú del panel izquierdo y haga clic en **[!UICONTROL Crear función]**. Tenga en cuenta que también puede añadir **[!UICONTROL Etiqueta]** a las funciones integradas.
 

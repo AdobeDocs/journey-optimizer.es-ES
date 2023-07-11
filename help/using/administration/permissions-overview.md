@@ -9,10 +9,10 @@ role: Admin, Architect
 level: Intermediate
 keywords: permisos, derechos, restricciones, acceso, zona protegida
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: d99feb7b6b11f9bba4f4164e7febecfca1d7da3b
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 31%
+source-wordcount: '203'
+ht-degree: 16%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 31%
 
 Administración de usuarios en [!DNL Journey Optimizer] se basa en tres conceptos:
 
-* **[!UICONTROL Perfil del producto]**: conjunto de derechos unitarios que permite a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz. Consulte la [Perfiles de producto predeterminados](ootb-product-profiles.md) sección
+* **[!UICONTROL Rol]**: conjunto de derechos unitarios que permite a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz. Consulte la [Funciones listas para usar](ootb-product-profiles.md) sección.
 
-* **[!UICONTROL Permisos]**: Derechos unitarios que le permiten definir las autorizaciones asignadas a **[!UICONTROL Perfil del producto]**. Cada permiso se recopila en funcionalidades, por ejemplo, Recorrido u Ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Consulte la [Niveles de permisos](high-low-permissions.md) sección.
+* **[!UICONTROL Permisos]**: Derechos unitarios que le permiten definir las autorizaciones asignadas a **[!UICONTROL Funciones]**. Cada permiso se recopila en recursos como, por ejemplo, Recorrido u Ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Consulte la [Niveles de permisos](high-low-permissions.md) sección.
 
-* **[!UICONTROL Sandbox]**: zonas protegidas virtuales que dividen instancias en entornos virtuales independientes y aislados. Consulte la [Uso de zonas protegidas](sandboxes.md)
+* **[!UICONTROL Sandbox]**: zonas protegidas virtuales que dividen instancias en entornos virtuales independientes y aislados. Consulte la [Uso de zonas protegidas](sandboxes.md).
 
 Cada concepto se puede administrar mediante **[!UICONTROL Administradores de productos]** que tengan acceso a Admin Console. [Obtenga más información acerca de Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
 
@@ -36,6 +36,6 @@ Cada concepto se puede administrar mediante **[!UICONTROL Administradores de pro
 
 ## Vídeo explicativo{#video}
 
-Obtenga más información acerca del sistema de control de acceso y los perfiles de producto personalizados en Adobe Journey Optimizer. Aprenda a administrar perfiles y permisos de productos, y a añadir y administrar usuarios.
+Obtenga más información sobre el sistema de control de acceso y los perfiles personalizados en Adobe Journey Optimizer. Obtenga información sobre cómo administrar funciones y permisos, y cómo agregar y administrar usuarios.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)

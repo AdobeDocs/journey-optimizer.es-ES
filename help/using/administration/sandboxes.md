@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: zonas protegidas, virtual, entornos, organización, plataforma
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '354'
 ht-degree: 57%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 57%
 ## Usar zonas protegidas {#using-sandbox}
 
 [!DNL Journey Optimizer] le permite particionar la instancia en entornos virtuales separados, llamados zonas protegidas.
-Las zonas protegidas se asignan mediante perfiles de producto en la Admin Console. [Aprenda a asignar zonas protegidas](permissions.md#create-product-profile).
+Las zonas protegidas se asignan mediante funciones en Permisos. [Aprenda a asignar zonas protegidas](permissions.md#create-product-profile).
 
 [!DNL Journey Optimizer] refleja las zonas protegidas de Adobe Experience Platform creadas para una organización determinada.
 Las zonas protegidas de Adobe Experience Platform se pueden crear o restablecer desde la instancia de Adobe Experience Platform. [Obtenga más información en la Guía del usuario de zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es){target="_blank"}.
@@ -38,27 +38,21 @@ Puede encontrar el control del conmutador de simulador de pruebas en la parte su
 >
 > La administración de zonas protegidas solo puede realizarla un **[!UICONTROL Product]** o **[!UICONTROL Sistema]** administrador. Para obtener más información, consulte la [Documentación de Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
 
-Puede elegir asignar diferentes zonas protegidas a listas para usar o a entornos personalizados **[!UICONTROL Perfiles de producto]**.
+Puede elegir asignar diferentes zonas protegidas a listas para usar o a entornos personalizados **[!UICONTROL Funciones]**.
 
 Para asignar zonas protegidas:
 
-1. En el [!DNL Admin Console], desde el **[!UICONTROL Productos]** , seleccione la pestaña **[!UICONTROL Aplicaciones Adobe Experience Platform]** producto.
-
-1. Seleccione una **[!UICONTROL Perfil del producto]**.
+1. Entrada [!DNL Permissions], desde el **[!UICONTROL Funciones]** pestaña, seleccione una **[!UICONTROL Rol]**.
 
    ![](assets/sandbox_1.png)
 
-1. Seleccione la pestaña **[!UICONTROL Permisos.]**
+1. Haga clic en **[!UICONTROL Editar]**.
 
-1. Seleccione el **[!UICONTROL Zonas protegidas]** capacidad.
-
-   ![](assets/sandbox_2.png)
-
-1. En **[!UICONTROL Elementos de permisos disponibles]**, haga clic en el icono de signo más (+) para asignar entornos limitados al perfil. [Obtenga más información sobre las zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es){target="_blank"}.
+1. Desde el **[!UICONTROL Zonas protegidas]** menú desplegable de recursos, seleccione la zona protegida que se asignará a su función.
 
    ![](assets/sandbox_3.png)
 
-1. Si es necesario, en **[!UICONTROL Elementos de permisos incluidos]**, haga clic en el icono X junto a para quitar el acceso a las zonas protegidas de su **[!UICONTROL Perfil del producto]**.
+1. Si es necesario, haga clic en el icono X junto a para quitar el acceso a las zonas protegidas de su **[!UICONTROL Rol]**.
 
    ![](assets/sandbox_4.png)
 
