@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: d9d73848acb40d8cba703309c38f0af2b89806a6
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 65%
+source-wordcount: '869'
+ht-degree: 98%
 
 ---
 
 # Interfaz de usuario {#cjm-user-interface}
 
-Para acceder a  [!DNL Adobe Journey Optimizer], conéctese a [Adobe Experience Cloud](https://experience.adobe.com) con su Adobe ID y seleccione [!DNL Journey Optimizer].
+Conéctese a [Adobe Experience Cloud](https://experience.adobe.com) y busque [!DNL Journey Optimizer].
 
 Los conceptos clave al examinar la interfaz de usuario son habituales en Adobe Experience Platform. Consulte la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=es#adobe-experience-platform-ui-guide) para obtener más información.{target="_blank"}
 
@@ -39,48 +39,27 @@ Examine los vínculos de la izquierda para acceder a las funciones de [!DNL Jour
 
 A continuación, hay la lista completa de servicios y capacidades disponibles en la navegación izquierda y vínculos a las páginas de ayuda asociadas.
 
-### Inicio {#left-nav-home}
+**Inicio**
 
-La página principal de [!DNL Journey Optimizer] contiene vínculos clave y recursos para comenzar. 
+La página principal de [!DNL Journey Optimizer] contiene vínculos clave y recursos para comenzar. La lista **[!UICONTROL Recientes]** proporciona accesos directos a los eventos y recorridos creados recientemente. Esta lista muestra sus fechas de creación y modificación, así como el estado.
 
-La lista **[!UICONTROL Recientes]** proporciona accesos directos a los eventos y recorridos creados recientemente. Esta lista muestra sus fechas de creación y modificación, así como el estado.
+**[!UICONTROL ADMINISTRACIÓN DE RECORRIDOS]**
 
-Examine los casos de uso dentro del producto para empezar a crear recursos y mensajes. [Más información](#in-product-use-cases).
+* **[!UICONTROL Recorridos]**: cree, configure y organice los recorridos de cliente. [Más información](../building-journeys/journey-gs.md#jo-build)
 
-Utilice los vínculos de la parte inferior de la página principal para aprender a empezar con [!DNL Journey Optimizer]. [Más información](#find-help-and-support).
+* **[!UICONTROL Páginas de aterrizaje]**: cree, diseñe, pruebe y publique páginas de aterrizaje. [Más información](../landing-pages/get-started-lp.md)
 
-### [!UICONTROL ADMINISTRACIÓN DE RECORRIDOS] {#left-nav-journey}
-
-Cree campañas y recorridos desde esta sección.
-
-* **[!UICONTROL Campañas]** : Cree, configure y organice campañas para entregar contenido de una sola vez a una audiencia específica mediante varios canales. [Más información](../campaigns/get-started-with-campaigns.md)
-
-* **[!UICONTROL Recorridos]** : Cree, configure y organice sus recorridos con los clientes: combine los eventos, la orquestación y las actividades de acción para crear sus escenarios de canales cruzados de varios pasos. [Más información](../building-journeys/journey-gs.md#jo-build)
-
-* **[!UICONTROL Páginas de aterrizaje]** - Crear, diseñar, probar y publicar páginas de aterrizaje: envíe a los usuarios vínculos a formularios en línea en los que pueden optar por su inclusión o exclusión en la recepción de comunicaciones, o suscribirse a servicios específicos. [Más información](../landing-pages/get-started-lp.md)
-
-
-### [!UICONTROL GESTIÓN DE DECISIONES] {#left-nav-offers}
-
-Cree ofertas y componentes desde esta sección.
+**[!UICONTROL GESTIÓN DE DECISIONES]**
 
 * **[!UICONTROL Ofertas]**: acceda a sus fuentes y conjuntos de datos recientes desde este menú. Utilice esta sección para crear nuevas ofertas. [Más información](../offers/offer-library/creating-personalized-offers.md)
 
 * **[!UICONTROL Componentes]**: cree ubicaciones, reglas y etiquetas. [Más información](../offers/offer-library/key-steps.md)
 
-### [!UICONTROL ADMINISTRACIÓN DE CONTENIDO] {#left-nav-content}
-
-Cree y administre contenido desde esta sección.
+**[!UICONTROL ADMINISTRACIÓN DE CONTENIDO]**
 
 * **[!UICONTROL Recursos]** : [!DNL Adobe Experience Manager Assets Essentials] es un repositorio centralizado de recursos que puede utilizar para rellenar los mensajes. [Más información](../email/assets-essentials.md)
 
-* **[!UICONTROL Plantillas de contenido]** : Para un proceso de diseño acelerado y mejorado, cree plantillas independientes para reutilizar fácilmente el contenido personalizado en las campañas y recorridos de Journey Optimizer. [Más información](../email/content-templates.md)
-
-* **[!UICONTROL Fragmentos]** : Cree y administre fragmentos para suavizar el proceso de diseño de correo electrónico: cree bloques de contenido personalizados que se puedan utilizar para combinar rápidamente el contenido del correo electrónico. [Más información](../email/fragments.md)
-
-### [!UICONTROL ADMINISTRACIÓN DE DATOS] {#left-nav-data}
-
-Administre sus datos desde esta sección.
+**[!UICONTROL ADMINISTRACIÓN DE DATOS]**
 
 * **[!UICONTROL Esquemas]**: utilice Adobe Experience Platform para crear y administrar esquemas del Modelo de datos de experiencia (XDM) en un lienzo visual interactivo denominado Editor de esquemas. [Más información](../data/get-started-schemas.md)
 
@@ -88,65 +67,37 @@ Administre sus datos desde esta sección.
 
 * **[!UICONTROL Consultas]**: utilice el servicio de consulta de Adobe Experience Platform para escribir y ejecutar consultas, ver consultas ejecutadas anteriormente y acceder a las guardadas por usuarios de su organización. [Más información](../data/get-started-queries.md)
 
-* **[!UICONTROL Monitorización]**: utilice este menú para monitorizar la ingesta de datos en la interfaz de usuario de Adobe Experience Platform. Obtenga más información en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=es){target="_blank"}
+* **[!UICONTROL Monitorización]**: utilice este menú para monitorizar la ingesta de datos en la interfaz de usuario de Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=es){target="_blank"}
 
-### [!UICONTROL CONEXIONES] {#left-nav-connections}
-
-Administre sus conexiones de datos con otras aplicaciones y nubes desde esta sección.
+**[!UICONTROL CONEXIONES]**
 
 * **[!UICONTROL Fuentes]**: utilice este menú para introducir datos de una variedad de fuentes, como aplicaciones de Adobe, almacenamiento basado en la nube, bases de datos y mucho más. Puede estructurar, etiquetar y mejorar los datos entrantes. [Más información](get-started-sources.md)
 
-* **[!UICONTROL Destinos]** : Utilice este menú para crear una conexión activa con ubicaciones de almacenamiento en la nube para exportar el contenido de los conjuntos de datos. [Más información](../data/export-datasets.md)
+**[!UICONTROL CLIENTE]**
 
-### [!UICONTROL CLIENTE] {#left-nav-customers}
+* **[!UICONTROL Audiencias]** : Cree y administre definiciones de segmentos de Experience Platform para aprovecharlas en sus recorridos. [Más información](../audience/about-audiences.md)
 
-Administre sus audiencias y datos de perfil desde esta sección.
+* **[!UICONTROL Perfiles]**: el perfil del cliente en tiempo real crea una vista integral de cada uno de sus clientes individuales, combinando datos de varios canales, incluidos datos en línea, sin conexión, CRM y de terceros. [Más información](../audience/get-started-profiles.md)
 
-* **[!UICONTROL Segmentos]**: cree y administre definiciones de segmentos de Experience Platform para aprovecharlas en sus recorridos. [Más información](../segment/about-segments.md)
+* **[!UICONTROL Identidades]**: el servicio de identidad de Adobe Experience Platform administra la identificación de sus clientes en varios dispositivos, canales cruzados y casi en tiempo real en lo que se conoce como gráfico de identidad dentro de Adobe Experience Platform. [Más información](../audience/get-started-identity.md)
 
-* **[!UICONTROL Listas de suscripción]** - Entrada [!DNL Journey Optimizer]Por lo tanto, los clientes que han elegido un servicio de suscripción se agrupan en una lista de suscripción. [Más información](../landing-pages/subscription-list.md)
+**[!UICONTROL ADMINISTRACIÓN]**
 
-* **[!UICONTROL Perfiles]**: el perfil del cliente en tiempo real crea una vista integral de cada uno de sus clientes individuales, combinando datos de varios canales, incluidos datos en línea, sin conexión, CRM y de terceros. [Más información](../segment/get-started-profiles.md)
+* **[!UICONTROL Administración de recorridos]**: utilice este menú para configurar [eventos](../event/about-events.md), [fuentes de datos](../datasource/about-data-sources.md), y [acciones](../action/action.md) que se utilizarán en los recorridos.
 
-* **[!UICONTROL Identidades]**: el servicio de identidad de Adobe Experience Platform administra la identificación de sus clientes en varios dispositivos, canales cruzados y casi en tiempo real en lo que se conoce como gráfico de identidad dentro de Adobe Experience Platform. [Más información](../segment/get-started-identity.md)
+* **[!UICONTROL Zonas protegidas]**: Adobe Experience Platform proporciona entornos limitados que dividen una sola instancia en entornos virtuales independientes para ayudarle a desarrollar aplicaciones de experiencia digital y hacer que evolucionen. [Más información](../administration/sandboxes.md)
 
-### [!UICONTROL Privacidad] {#left-nav-privacy}
-
-Controle la administración de la privacidad y las solicitudes desde esta sección.
-
-* **[!UICONTROL Políticas]** : Adobe Experience Platform le permite etiquetar los campos y crear acciones de marketing para cada canal. A continuación, defina una política de gobernanza vinculada a una etiqueta y a una acción de marketing. [Más información](../action/action-privacy.md)
-
-* **[!UICONTROL Solicitudes]** : Las solicitudes de privacidad se administran en Adobe Experience Platform Privacy Service. Proporciona una API de RESTful y una interfaz de usuario para ayudarle a administrar las solicitudes de datos de los clientes. [Más información](../privacy/requests.md)
-
-* **[!UICONTROL Auditoría]** - Vaya a esta sección para comprobar los registros de actividad. [Más información](../privacy/audit-logs.md)
-
-* **[!UICONTROL Higiene de datos]** : Esta sección le permite configurar y programar operaciones de higiene de datos, lo que garantiza que los registros se mantengan correctamente. [Más información](../privacy/data-hygiene.md)
-
-### [!UICONTROL ADMINISTRACIÓN] {#left-nav-admin}
-
-* **[!UICONTROL Configuraciones]** - Utilice este menú para configurar [Eventos](../event/about-events.md), [Fuentes de datos](../datasource/about-data-sources.md), y [Acciones](../action/action.md) para usar en sus recorridos.
-
-  También puede acceder a las **Informes** para configurar la creación de informes para la experimentación de campañas. [Más información](../campaigns/reporting-configuration.md)
-
-* **[!UICONTROL Reglas]** : Utilice esta sección para crear reglas de frecuencia entre canales para controlar la frecuencia con la que los usuarios reciben un mensaje o entran en un recorrido. [Más información](../configuration/frequency-rules.md)
-
-* **[!UICONTROL Alertas]**: la interfaz de usuario le permite ver un historial de alertas recibidas en función de las métricas reveladas por Adobe Experience Platform Observability Insights. La IU también le permite ver, habilitar y deshabilitar las reglas de alerta disponibles. [Más información](../reports/alerts.md)
-
-* **[!UICONTROL Zonas protegidas]**: Adobe Experience Platform proporciona entornos limitados que dividen una sola instancia en entornos virtuales independientes para ayudarle a desarrollar aplicaciones de experiencia digital y hacer que evolucionen. Examine esta sección para administrar los entornos limitados. [Más información](../administration/sandboxes.md)
-
-* **[!UICONTROL Canales]** : Utilice esta sección para configurar los canales, incluidos los subdominios, las superficies y la configuración de envío. [Más información](../configuration/get-started-configuration.md)
-
-* **[!UICONTROL Etiquetas]** : Con las etiquetas unificadas, puede clasificar fácilmente sus recorridos y campañas para mejorar la búsqueda desde las listas. [Más información](../start/search-filter-categorize.md#work-with-unified-tags)
+* **[!UICONTROL Alertas]**: la interfaz de usuario le permite ver un historial de alertas recibidas en función de las métricas reveladas por Adobe Experience Platform Observability Insights. La IU también le permite ver, habilitar y deshabilitar las reglas de alerta disponibles. [Más información](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=es){target="_blank"}
 
 ## Casos de uso dentro del producto {#in-product-uc}
 
-Desde [!DNL Adobe Journey Optimizer] página de inicio, los casos de uso de productos proporcionan información rápida para crear perfiles de prueba o sus primeros recorridos con los clientes.
+Desde [!DNL Adobe Journey Optimizer] página de inicio, los casos de uso del producto proporcionan información rápida para crear un recorrido del cliente.
 
 ![](assets/use-cases-home.png)
 
 Los casos de uso disponibles son:
 
-* **Cree perfiles de prueba**, para crear perfiles de prueba con la plantilla CSV a fin de probar mensajes y recorridos personalizados. Aprenda a implementar este caso de uso [en esta página](../segment/creating-test-profiles.md#use-case-1).
+* **Cree perfiles de prueba**, para crear perfiles de prueba con la plantilla CSV a fin de probar mensajes y recorridos personalizados. Aprenda a implementar este caso de uso [en esta página](../audience/creating-test-profiles.md#use-case-1).
 * **Envíe un mensaje de cumpleaños a los clientes** para que envíen automáticamente un correo electrónico a fin de felicitar a sus clientes. (próximamente)
 * **Envíe correos electrónicos para incorporar nuevos clientes** y enviar fácilmente hasta dos correos electrónicos para dar la bienvenida a sus clientes recién registrados. (próximamente)
 * **Envíe mensajes push a la lista importada de clientes** para enviar rápidamente una notificación push a una lista de clientes importados desde un archivo CSV. (próximamente)
@@ -155,7 +106,7 @@ Para obtener más información acerca de cada caso de uso, haga clic en el enlac
 
 Para ejecutar un caso de uso, haga clic en el botón de **[!UICONTROL Comenzar]**.
 
-Puede acceder a los casos de uso ejecutados desde el **[!UICONTROL Ver biblioteca]** botón.
+Puede acceder a los casos de uso ejecutados desde el botón **[!UICONTROL Ver biblioteca de casos de uso]**.
 
 ## Buscar ayuda y asistencia {#find-help}
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: recorridos, actividades, introducción, eventos, acción
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 18%
@@ -28,7 +28,7 @@ Eventos configurados por el usuario técnico (consulte [esta página](../event/a
 
 * [Eventos generales](../building-journeys/general-events.md)
 * [Reacción](../building-journeys/reaction-events.md)
-* [Calificación de segmentos](../building-journeys/segment-qualification-events.md)
+* [Calificación de audiencias](../building-journeys/audience-qualification-events.md)
 
 ![](assets/journey43.png)
 
@@ -44,7 +44,7 @@ En la paleta, en el lado izquierdo de la pantalla, están disponibles las siguie
 
 * [Condición](../building-journeys/condition-activity.md)
 * [Espera](../building-journeys/wait-activity.md)
-* [Leer segmento](../building-journeys/read-segment.md)
+* [Leer audiencia](../building-journeys/read-audience.md)
 
 ![](assets/journey49.png)
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: actividad, condición, lienzo, recorrido
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 603174032552214686cc0f2b9ea0854f348ce949
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 17%
@@ -61,7 +61,7 @@ El modo simple permite realizar consultas simples basadas en una combinación de
 
 ![](assets/journey64.png)
 
-Si está utilizando el [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} para crear los segmentos, puede aprovecharlos en las condiciones de recorrido. Consulte [Uso de segmentos en condiciones](../building-journeys/condition-activity.md#using-a-segment).
+Si está utilizando el [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} para crear audiencias, puede aprovecharlas en las condiciones de recorrido. Consulte [Uso de la audiencia en condiciones](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
@@ -145,11 +145,11 @@ En el modo de prueba no se tiene en cuenta el límite de perfil.
 
 ![](assets/profile-cap-condition.png)
 
-## Uso de segmentos en condiciones {#using-a-segment}
+## Uso de audiencias en condiciones {#using-a-segment}
 
-En esta sección se explica cómo utilizar un segmento en una condición de recorrido. Para obtener más información sobre los segmentos y cómo crearlos, consulte [esta sección](../segment/about-segments.md).
+En esta sección se explica cómo utilizar una audiencia en una condición de recorrido. Para obtener más información sobre las audiencias y cómo crearlas, consulte [esta sección](../audience/about-audiences.md).
 
-Para utilizar un segmento en una condición de recorrido, siga estos pasos:
+Para utilizar una audiencia en una condición de recorrido, siga estos pasos:
 
 1. Abra un recorrido y suelte un **[!UICONTROL Condición]** y elija la **Condición de fuente de datos**.
    ![](assets/journey47.png)
@@ -158,10 +158,10 @@ Para utilizar un segmento en una condición de recorrido, siga estos pasos:
 
    ![](assets/segment3.png)
 
-1. En el lado izquierdo, despliegue **[!UICONTROL Segmentos]** nodo. Arrastre y suelte el segmento que desee utilizar para la condición. De forma predeterminada, la condición del segmento es verdadera.
+1. En el lado izquierdo, despliegue **[!UICONTROL Audiencias]** nodo. Arrastre y suelte la audiencia que desee utilizar para la condición. De forma predeterminada, la condición de la audiencia es verdadera.
 
    ![](assets/segment4.png)
 
    >[!NOTE]
    >
-   >Tenga en cuenta que solo las personas con el **Realizado** y **Existente** los estados de participación en el segmento se considerarán miembros del mismo. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Tenga en cuenta que solo las personas con el **Realizado** y **Existente** los estados de participación de la audiencia se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [Documentación del Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

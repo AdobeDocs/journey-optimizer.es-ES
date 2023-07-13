@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -40,9 +40,9 @@ Estos son los diferentes conjuntos de datos disponibles:
 
 **Creación de informes**
 
-* _Informes: conjunto de datos del evento de comentarios de mensajes_: registros de envío de mensajes. Información sobre el envío de mensajes desde Journey Optimizer con fines de creación de informes y segmentos. Los comentarios de los ISP de correo electrónico sobre los rechazos también se registran en este conjunto de datos.
-* _Informes: conjunto de datos de evento de experiencia de seguimiento de correo electrónico_: registros de interacción para el canal de correo electrónico que se utiliza para la creación de informes y segmentos. La información almacenada informa sobre las acciones realizadas por el usuario final en el correo electrónico (aperturas, clics, etc.).
-* _Informes: conjunto de datos de evento de experiencia de seguimiento push_: registros de interacción para el canal push que se utilizan con fines de creación de informes y segmentos. La información almacenada informa sobre las acciones realizadas por el usuario final en las notificaciones push.
+* _Informes: conjunto de datos del evento de comentarios de mensajes_: registros de envío de mensajes. Información sobre todas las entregas de mensajes desde Journey Optimizer con fines de creación de informes y audiencias. Los comentarios de los ISP de correo electrónico sobre los rechazos también se registran en este conjunto de datos.
+* _Informes - Conjunto de datos de evento de experiencia de seguimiento de correo electrónico_: Registros de interacción para el canal de correo electrónico que se utilizan con fines de creación de informes y audiencias. La información almacenada informa sobre las acciones realizadas por el usuario final en el correo electrónico (aperturas, clics, etc.).
+* _Creación de informes: conjunto de datos de evento de experiencia de seguimiento push_: Registros de interacción para el canal push que se utilizan con fines de creación de informes y audiencias. La información almacenada informa sobre las acciones realizadas por el usuario final en las notificaciones push.
 * _Informes: evento de paso de recorrido_: captura todos los eventos de experiencia de los pasos de Recorrido generados desde Journey Optimizer para que los consuman servicios como Informes. También es fundamental para crear informes en Customer Journey Analytics para análisis YoY. Vinculado a metadatos de recorrido.
 * _Informes: recorridos_: información sobre el alojamiento del conjunto de datos de metadatos de cada paso de un recorrido.
 * _Informes - CCO_: conjunto de datos del evento de comentarios que almacena los registros de envío de los correos electrónicos CCO. Se utilizarán para elaborar informes.
@@ -88,7 +88,7 @@ Obtenga más información sobre Gobernanza de datos y etiquetas de uso de datos 
 
 ## Ejemplos y casos de uso{#uc-datasets}
 
-Obtenga información sobre cómo crear un esquema, un conjunto de datos y la introducción de datos para añadir perfiles de prueba en Adobe Journey Optimizer en [esta muestra de extremo a exteremo](../segment/creating-test-profiles.md)
+Obtenga información sobre cómo crear un esquema, un conjunto de datos y la introducción de datos para añadir perfiles de prueba en Adobe Journey Optimizer en [esta muestra de extremo a exteremo](../audience/creating-test-profiles.md)
 
 Obtenga más información acerca de la creación de conjuntos de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es){target="_blank"}.
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1961'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -101,7 +101,7 @@ Los métodos estadísticos nos dan una forma de formalizar esta incertidumbre. U
 
 +++Formar nuevas hipótesis y realizar pruebas continuamente
 
-Para obtener verdaderas perspectivas empresariales, debe limitarse a un solo experimento. En su lugar, realice un seguimiento de los experimentos formulando nuevas hipótesis y ejecutando nuevas pruebas con diferentes cambios, en segmentos diferentes y examinando el impacto en las distintas métricas.
+Para obtener verdaderas perspectivas empresariales, debe limitarse a un solo experimento. En su lugar, realice un seguimiento de los experimentos formulando nuevas hipótesis y ejecutando nuevas pruebas con diferentes cambios, en diferentes audiencias y examinando el impacto en las distintas métricas.
 +++
 
 ## Interpretación de los resultados de los experimentos {#interpret-results}
@@ -161,21 +161,21 @@ Después de ejecutar el Experimento, hay varias acciones de seguimiento posibles
 
 * **Implementar ideas ganadoras**
 
-   Con un resultado inequívoco, puede implementar esta idea ganadora, ya sea introduciendo el tratamiento de mejor rendimiento en todos sus clientes o creando nuevas campañas en las que se replique la estructura del tratamiento de mejor rendimiento.
-   </br>Tenga en cuenta que en un entorno dinámico, lo que funciona bien en un momento dado, puede que no funcione bien más adelante.
+  Con un resultado inequívoco, puede implementar esta idea ganadora, ya sea introduciendo el tratamiento de mejor rendimiento en todos sus clientes o creando nuevas campañas en las que se replique la estructura del tratamiento de mejor rendimiento.
+  </br>Tenga en cuenta que en un entorno dinámico, lo que funciona bien en un momento dado, puede que no funcione bien más adelante.
 
 * **Ejecutar pruebas de seguimiento**
 
-   A veces los resultados de sus experimentos pueden no ser concluyentes, ya sea porque no se incluyeron suficientes perfiles para detectar cualquier diferencia en los tratamientos, o porque los tratamientos que definió no eran suficientemente diferentes.
+  A veces los resultados de sus experimentos pueden no ser concluyentes, ya sea porque no se incluyeron suficientes perfiles para detectar cualquier diferencia en los tratamientos, o porque los tratamientos que definió no eran suficientemente diferentes.
 
-   Si la hipótesis que probaba sigue siendo relevante, ejecutar una prueba de seguimiento en una audiencia mayor o diferente, o modificar los tratamientos para que haya diferencias más claras puede ser la mejor acción de seguimiento.
+  Si la hipótesis que probaba sigue siendo relevante, ejecutar una prueba de seguimiento en una audiencia mayor o diferente, o modificar los tratamientos para que haya diferencias más claras puede ser la mejor acción de seguimiento.
 
 * **Realizar análisis más profundos**
 
-   El tratamiento que funciona bien para una audiencia puede no ser a veces el mejor tratamiento para otra audiencia. Realizar análisis más profundos sobre cómo se comportan los tratamientos con distintos segmentos ayuda a generar ideas para nuevas pruebas.
+  El tratamiento que funciona bien para una audiencia puede no ser a veces el mejor tratamiento para otra audiencia. Realizar análisis más profundos sobre cómo se comportaron los tratamientos para diferentes audiencias ayuda a generar ideas para nuevas pruebas.
 
-   Del mismo modo, estudiar el rendimiento de cada tratamiento con distintas métricas también puede proporcionar una visión más completa de sus experimentos.
+  Del mismo modo, estudiar el rendimiento de cada tratamiento con distintas métricas también puede proporcionar una visión más completa de sus experimentos.
 
-   >[!CAUTION]
-   >
-   >Más análisis significan una mayor probabilidad de detectar un efecto falso o un falso positivo.
+  >[!CAUTION]
+  >
+  >Más análisis significan una mayor probabilidad de detectar un efecto falso o un falso positivo.

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: personalizado, general, eventos, recorrido
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 20%
@@ -29,7 +29,7 @@ Para este tipo de evento, solo puede añadir una etiqueta y una descripción. El
 
 ![](assets/general-events.png)
 
-Cuando se elimina un evento empresarial, se agrega automáticamente un **Leer segmento** actividad. Para obtener más información sobre los eventos empresariales, consulte [esta sección](../event/about-events.md)
+Cuando se elimina un evento empresarial, se agrega automáticamente un **Leer audiencia** actividad. Para obtener más información sobre los eventos empresariales, consulte [esta sección](../event/about-events.md)
 
 ## Escucha de eventos durante un tiempo específico {#events-specific-time}
 

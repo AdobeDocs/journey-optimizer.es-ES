@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -69,7 +69,7 @@ Para crear un **oferta**, siga estos pasos:
 
    >[!NOTE]
    >
-   >Al seleccionar segmentos o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Clic **[!UICONTROL Actualizar]** para actualizar los datos.
+   >Al seleccionar audiencias o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Clic **[!UICONTROL Actualizar]** para actualizar los datos.
    >
    >Tenga en cuenta que las estimaciones de perfil no están disponibles cuando los parámetros de regla incluyen datos que no están en el perfil, como datos de contexto. Por ejemplo, una regla de idoneidad que requiere que el clima actual sea de ≥80 grados.
 
@@ -122,11 +122,11 @@ El **[!UICONTROL Más acciones]** habilita las acciones que se describen a conti
 * **[!UICONTROL Duplicar]**: crea una oferta con las mismas propiedades, representaciones, reglas de elegibilidad y restricciones. De forma predeterminada, la nueva oferta tiene el **[!UICONTROL Borrador]** estado.
 * **[!UICONTROL Eliminar]**: elimina la oferta de la lista.
 
-   >[!CAUTION]
-   >
-   >Ya no se podrá acceder a la oferta ni a su contenido. No se puede deshacer esta acción.
-   >
-   >Si la oferta se utiliza en una colección o una decisión, no se puede eliminar. Primero debe eliminar la oferta de cualquier objeto.
+  >[!CAUTION]
+  >
+  >Ya no se podrá acceder a la oferta ni a su contenido. No se puede deshacer esta acción.
+  >
+  >Si la oferta se utiliza en una colección o una decisión, no se puede eliminar. Primero debe eliminar la oferta de cualquier objeto.
 
 * **[!UICONTROL Archivar]**: establece el estado de la oferta en **[!UICONTROL Archivado]**. La oferta sigue estando disponible en la lista, pero no puede volver a establecer su estado en **[!UICONTROL Borrador]** o **[!UICONTROL Aprobado]**. Solo puede duplicarlo o eliminarlo.
 

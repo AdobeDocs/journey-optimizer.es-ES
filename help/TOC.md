@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1378'
 ht-degree: 99%
 
 ---
@@ -52,10 +52,10 @@ ht-degree: 99%
       + [Introducción a actividades de recorrido](using/building-journeys/about-journey-activities.md)
       + [Eventos generales](using/building-journeys/general-events.md)
       + [Reacción](using/building-journeys/reaction-events.md)
-      + [Clasificación del segmento](using/building-journeys/segment-qualification-events.md)
+      + [Calificación de audiencia](using/building-journeys/audience-qualification-events.md)
       + [Condición](using/building-journeys/condition-activity.md)
       + [Espera](using/building-journeys/wait-activity.md)
-      + [Lectura de segmento](using/building-journeys/read-segment.md)
+      + [Lectura de audiencia](using/building-journeys/read-audience.md)
       + [Correo electrónico, en la aplicación, push, SMS](using/building-journeys/journeys-message.md)
       + [Acciones personalizadas](using/building-journeys/using-custom-actions.md)
       + [Acciones de Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
@@ -278,20 +278,20 @@ ht-degree: 99%
       + [Introducción al contenido dinámico](using/personalization/get-started-dynamic-content.md)
       + [Creación de reglas condicionales](using/personalization/create-conditions.md)
       + [Crear contenido dinámico](using/personalization/dynamic-content.md)
-+ Segmentos, perfiles e identidad{#segment}
-   + Segmentos {#segments}
-      + [Introducción a los segmentos](using/segment/about-segments.md)
-      + [Generación de segmentos](using/segment/creating-a-segment.md)
++ Audiencias, perfiles e identidad{#audiences-profiles-identities}
+   + Audiencias {#audiences}
+      + [Introducción a las audiencias](using/audience/about-audiences.md)
+      + [Generar definiciones de segmentos](using/audience/creating-a-segment-definition.md)
    + Perfiles{#profiles}
-      + [Introducción a los perfiles](using/segment/get-started-profiles.md)
-      + [Creación de perfiles de prueba](using/segment/creating-test-profiles.md)
-   + [Identidades](using/segment/get-started-identity.md)
+      + [Introducción a los perfiles](using/audience/get-started-profiles.md)
+      + [Creación de perfiles de prueba](using/audience/creating-test-profiles.md)
+   + [Identidades](using/audience/get-started-identity.md)
    + Componer audiencias {#audience-orchestration}
-      + [Introducción a Composición de audiencias](using/segment/get-started-audience-orchestration.md)
-      + [Creación de flujos de trabajo de composición](using/segment/create-compositions.md)
-      + [Trabajo con el lienzo de composición](using/segment/composition-canvas.md)
-      + [Acceso y administración de audiencias](using/segment/access-audiences.md)
-   + [Uso de licencias](using/segment/license-usage.md)
+      + [Introducción a Composición de audiencias](using/audience/get-started-audience-orchestration.md)
+      + [Creación de flujos de trabajo de composición](using/audience/create-compositions.md)
+      + [Trabajo con el lienzo de composición](using/audience/composition-canvas.md)
+      + [Acceso y administración de audiencias](using/audience/access-audiences.md)
+   + [Uso de licencias](using/audience/license-usage.md)
 + Seguimiento y monitorización {#reporting}
    + Informe en vivo {#live-report}
       + [Introducción al Informe en vivo](using/reports/live-report.md)
@@ -488,4 +488,3 @@ ht-degree: 99%
       + [Administración de la exclusión](using/privacy/opt-out.md)
       + [Trabajar con políticas de consentimiento](using/action/consent.md)
    + [Control de datos](using/action/action-privacy.md)
-   + [Configurar y administrar claves administradas por el cliente](using/privacy/cmk.md)

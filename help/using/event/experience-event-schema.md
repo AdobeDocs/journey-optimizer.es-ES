@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: esquemas, XDM, plataforma, flujo, ingesta, recorrido
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 4%
@@ -32,33 +32,33 @@ Cualquier esquema XDM que se vaya a utilizar para [!DNL Journey Optimizer] Los e
 
 * El esquema debe ser de la clase XDM ExperienceEvent.
 
-   ![](assets/schema2.png)
+  ![](assets/schema2.png)
 
 * Para los eventos generados por el sistema, el esquema debe incluir el grupo de campos eventID de orquestación. [!DNL Journey Optimizer] utiliza este campo para identificar eventos utilizados en recorridos.
 
-   ![](assets/schema3.png)
+  ![](assets/schema3.png)
 
 * Declare un campo de identidad para identificar perfiles individuales en el evento. Si no se especifica ninguna identidad, se puede utilizar un mapa de identidad. Este proceso no es recomendable.
 
-   ![](assets/schema4.png)
+  ![](assets/schema4.png)
 
 * Si desea que estos datos estén disponibles para la búsqueda más adelante en un Recorrido, marque el esquema y el conjunto de datos para el perfil.
 
-   ![](assets/schema5.png)
+  ![](assets/schema5.png)
 
-   ![](assets/schema6.png)
+  ![](assets/schema6.png)
 
 * No dude en incluir campos de datos para capturar cualquier otro dato de contexto que desee incluir en el evento, como información sobre el usuario, el dispositivo desde el que se generó el evento, la ubicación o cualquier otra circunstancia significativa relacionada con el evento.
 
-   ![](assets/schema7.png)
+  ![](assets/schema7.png)
 
-   ![](assets/schema8.png)
+  ![](assets/schema8.png)
 
 ## Aprovechamiento de las relaciones de esquema{#leverage_schema_relationships}
 
 Adobe Experience Platform le permite definir relaciones entre esquemas para utilizar un conjunto de datos como una tabla de búsqueda para otro.
 
-Supongamos que el modelo de datos de marca tiene un esquema que captura las compras. También tiene un esquema para el catálogo de productos. Puede capturar el ID de producto en el esquema de compra y utilizar una relación para buscar detalles de producto más completos en el catálogo de productos. Esto le permite crear un segmento para todos los clientes que compraron un portátil, por ejemplo, sin tener que enumerar explícitamente todos los ID de portátil ni capturar todos los detalles del producto en sistemas transaccionales.
+Supongamos que el modelo de datos de marca tiene un esquema que captura las compras. También tiene un esquema para el catálogo de productos. Puede capturar el ID de producto en el esquema de compra y utilizar una relación para buscar detalles de producto más completos en el catálogo de productos. Esto le permite crear una audiencia para todos los clientes que compraron un portátil, por ejemplo, sin tener que enumerar explícitamente todos los ID de portátil ni capturar todos los detalles del producto en sistemas transaccionales.
 
 Para definir una relación, debe tener un campo dedicado en el esquema de origen, en este caso el campo ID de producto en el esquema de compra. Este campo debe hacer referencia al campo de ID de producto en el esquema de destino. Las tablas de origen y destino deben estar habilitadas para los perfiles y el esquema de destino debe tener ese campo común definido como su identidad principal.
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: ofertas, decisión, correos electrónicos, personalización, decisión
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 1%
@@ -77,7 +77,7 @@ Para mostrar las diferentes ofertas que forman parte de la decisión con un perf
 
 >[!NOTE]
 >
->Debe tener perfiles de prueba disponibles para poder previsualizar los mensajes. Obtenga información sobre cómo [creación de perfiles de prueba](../segment/creating-test-profiles.md).
+>Debe tener perfiles de prueba disponibles para poder previsualizar los mensajes. Obtenga información sobre cómo [creación de perfiles de prueba](../audience/creating-test-profiles.md).
 
 1. Seleccione los perfiles de prueba que se utilizarán para previsualizar la oferta:
 
@@ -85,7 +85,7 @@ Para mostrar las diferentes ofertas que forman parte de la decisión con un perf
 
       >[!NOTE]
       >
-      >En este ejemplo, utilizamos la variable **Correo electrónico** namespace. Más información sobre las Áreas de nombres de identidad de Adobe Experience Platform [en esta sección](../segment/get-started-identity.md).
+      >En este ejemplo, utilizamos la variable **Correo electrónico** namespace. Más información sobre las Áreas de nombres de identidad de Adobe Experience Platform [en esta sección](../audience/get-started-identity.md).
 
    1. En el **[!UICONTROL Valor de identidad]** , introduzca el valor para identificar el perfil de prueba. En este ejemplo, introduzca la dirección de correo electrónico de un perfil de prueba.
 
@@ -94,7 +94,6 @@ Para mostrar las diferentes ofertas que forman parte de la decisión con un perf
    1. Añada otros perfiles para poder probar distintas variantes del mensaje según los datos del perfil.
 
       ![](assets/deliver-offer-test-profiles.png)
-
 
 1. Haga clic en **[!UICONTROL Previsualizar]** para probar el mensaje, seleccione un perfil de prueba. Se muestra la oferta correspondiente al perfil seleccionado (una mujer).
 

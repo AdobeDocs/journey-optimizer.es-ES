@@ -9,7 +9,7 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac, atributo, autorizaciones, datos, acceso, confidencial, recursos
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 El control de acceso basado en atributos (ABAC) permite definir autorizaciones para administrar el acceso a datos para equipos o grupos de usuarios específicos. Su objetivo es proteger los activos digitales confidenciales de usuarios no autorizados, lo que permite una mayor protección de los datos personales.
 
-En Adobe Journey Optimizer, ABAC le permite proteger datos y conceder acceso específico a elementos de campo específicos, incluidos esquemas del Modelo de datos de experiencia (XDM), atributos de perfil y segmentos.
+En Adobe Journey Optimizer, ABAC le permite proteger datos y conceder acceso específico a elementos de campo específicos, incluidos esquemas del Modelo de datos de experiencia (XDM), atributos de perfil y audiencias.
 
 Para obtener una lista más detallada de la terminología utilizada con ABAC, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html).
 
@@ -43,7 +43,7 @@ Tenga en cuenta que **[!UICONTROL Funciones]**, **[!UICONTROL Políticas]** y **
 **[!UICONTROL Funciones]** son un conjunto de usuarios que comparten los mismos permisos, etiquetas y zonas protegidas dentro de la organización. Cada usuario que pertenece a un **[!UICONTROL Rol]** tiene derecho a las aplicaciones y servicios de Adobe contenidos en el producto.
 También puede crear su propio **[!UICONTROL Funciones]** si desea ajustar el acceso de los usuarios a determinadas funcionalidades u objetos de la interfaz.
 
-Ahora queremos otorgar a los usuarios seleccionados acceso al **Nacionalidad** campo, etiquetado como C2. Para ello, es necesario crear un nuevo **[!UICONTROL Rol]** con un conjunto específico de usuarios y asígneles la etiqueta C2, permitiéndoles utilizar el **Nacionalidad** detalles en una **[!UICONTROL Recorrido]**.
+Ahora queremos otorgar a los usuarios seleccionados acceso al **Nacionalidad** campo, etiquetado como C2. Para ello, es necesario crear un nuevo **[!UICONTROL Rol]** con un conjunto específico de usuarios y concederles la etiqueta C2, que les permite utilizar el **Nacionalidad** detalles en una **[!UICONTROL Recorrido]**.
 
 1. Desde el [!DNL Permissions] producto, seleccione **[!UICONTROL Rol]** en el menú del panel izquierdo y haga clic en **[!UICONTROL Crear función]**. Tenga en cuenta que también puede añadir **[!UICONTROL Etiqueta]** a las funciones integradas.
 
@@ -90,7 +90,7 @@ Los usuarios de **Demografía de la función restringida** Las funciones de ahor
 **[!UICONTROL Etiquetas]** se puede utilizar para asignar áreas de funciones específicas mediante el control de acceso basado en atributos.
 En este ejemplo, queremos restringir el acceso a **Nacionalidad** field. Este campo solo será accesible para los usuarios con el correspondiente **[!UICONTROL Etiqueta]** a su  **[!UICONTROL Rol]**.
 
-Tenga en cuenta que también puede añadir  **[!UICONTROL Etiqueta]** hasta  **[!UICONTROL Esquema]**,  **[!UICONTROL Conjuntos de datos]** y  **[!UICONTROL Segmentos]**.
+Tenga en cuenta que también puede añadir  **[!UICONTROL Etiqueta]** hasta  **[!UICONTROL Esquema]**,  **[!UICONTROL Conjuntos de datos]** y  **[!UICONTROL Audiencias]**.
 
 1. Cree su **[!UICONTROL Esquema]**. Para obtener más información, consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es).
 

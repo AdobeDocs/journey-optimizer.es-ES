@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorridos, limitación
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 77%
+ht-degree: 65%
 
 ---
 
@@ -29,13 +29,12 @@ Estas son las limitaciones relacionadas con el uso de recorridos.
 
 ## Limitaciones de versiones de recorrido {#journey-versions-limitations}
 
-* Un recorrido que se inicia con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No puede iniciar un recorrido con un evento de **Calificación de segmentos**.
-* Un recorrido que se inicia con una actividad de **Calificación de segmentos** en v1 siempre debe comenzar con una **Calificación de segmentos** en versiones posteriores.
-* El segmento y el área de nombres elegidos en **Calificación de segmentos** (primer nodo) no se puede cambiar en las nuevas versiones.
+* Un recorrido que se inicia con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No se puede iniciar un recorrido con un **Calificación de audiencias** evento.
+* Un recorrido que comienza con un **Calificación de audiencias** la actividad en v1 siempre debe comenzar con una **Calificación de audiencias** en versiones posteriores.
+* La audiencia y el área de nombres elegidos en **Calificación de audiencias** (primer nodo) no se puede cambiar en las nuevas versiones.
 * La regla de reentrada debe ser la misma en todas las versiones del recorrido.
-* Un recorrido que comience por un **Segmento de lectura** no puede comenzar con otro evento en las versiones siguientes.
+* Un recorrido que comienza con un **Leer audiencia** no puede comenzar con otro evento en las versiones siguientes.
  
-
 ## Limitaciones de acciones personalizadas
 
 * La URL de acción personalizada no admite parámetros dinámicos. 
@@ -44,12 +43,10 @@ Estas son las limitaciones relacionadas con el uso de recorridos.
 * No se permiten direcciones IP. 
 * Las direcciones de Adobe internas (.adobe.) no se permiten.
  
-
 ## Limitaciones de eventos
 
 * En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido del cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este ID de orquestación debe añadirse a la carga útil de streaming que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
  
-
 ## Limitaciones de fuentes de datos
 
 * Las fuentes de datos externas se pueden aprovechar dentro de un recorrido de cliente para buscar datos externos en tiempo real. Estas fuentes deben utilizarse mediante la API de REST, admiten JSON y pueden gestionar el volumen de solicitudes.
@@ -66,6 +63,6 @@ Puede elegir entre una de estas dos soluciones:
 
 * Configure un recorrido que no utilice inmediatamente el perfil. Por ejemplo, si el recorrido está diseñado para confirmar la creación de una cuenta, el evento de experiencia podría contener la información necesaria para enviar el primer mensaje de confirmación (nombre, apellidos, dirección de correo electrónico, etc).
 
-## Leer las limitaciones de segmentos
+## Leer las limitaciones de audiencia
 
-* Los segmentos transmitidos siempre están actualizados, pero los segmentos por lotes no se calcularán en el momento de la recuperación. Solo se evalúan cada día a la hora de evaluar el lote.
+* Las audiencias transmitidas siempre están actualizadas, pero las audiencias por lotes no se calcularán en el momento de la recuperación. Solo se evalúan cada día a la hora de evaluar el lote.

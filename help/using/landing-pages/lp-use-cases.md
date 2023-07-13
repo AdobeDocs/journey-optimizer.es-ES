@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: aterrizaje, página de aterrizaje, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 1e149c33159ba8b5d96f5752bddc7ebe9f3934fe
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 16%
@@ -74,9 +74,9 @@ Además, puede enviar un correo electrónico de confirmación a los destinatario
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. Despliegue el **[!UICONTROL Eventos]** categoría y soltar una **[!UICONTROL Calificación de segmentos]** actividad en el lienzo. [Más información](../building-journeys/segment-qualification-events.md)
+1. Despliegue el **[!UICONTROL Eventos]** categoría y suelte un **[!UICONTROL Calificación de audiencias]** actividad en el lienzo. [Más información](../building-journeys/audience-qualification-events.md)
 
-1. Haga clic en en **[!UICONTROL Segmento]** y seleccione la lista de suscripción que ha creado.
+1. Haga clic en en **[!UICONTROL Audiencia]** y seleccione la lista de suscripción que ha creado.
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
@@ -227,7 +227,7 @@ To do this, you need to create an event containing the landing page submission i
 
     ![](assets/lp_subscription-uc-event-create-journey.png)
 
-1. In the journey, unfold the **[!UICONTROL Events]** category and drop the event that you created into the canvas. Learn more [here](../building-journeys/segment-qualification-events.md)
+1. In the journey, unfold the **[!UICONTROL Events]** category and drop the event that you created into the canvas. Learn more [here](../building-journeys/audience-qualification-events.md)
 
     ![](assets/lp_subscription-uc-journey-event.png)
 

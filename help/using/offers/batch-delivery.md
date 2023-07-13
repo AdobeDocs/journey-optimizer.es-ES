@@ -1,11 +1,11 @@
 ---
 title: Decisiones por lotes
-description: Obtenga información sobre cómo enviar decisiones de oferta a todos los perfiles de un segmento determinado de Adobe Experience Platform.
+description: Obtenga información sobre cómo enviar decisiones de oferta a todos los perfiles de una audiencia de Adobe Experience Platform determinada.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 2%
 
 ## Introducción a la toma de decisiones por lotes {#start}
 
-Journey Optimizer le permite enviar decisiones de oferta a todos los perfiles de un segmento determinado de Adobe Experience Platform.
+Journey Optimizer le permite enviar decisiones de oferta a todos los perfiles de una audiencia determinada de Adobe Experience Platform.
 
-Para ello, debe crear una solicitud de trabajo en Journey Optimizer que contenga información sobre el segmento de destino y la decisión de oferta que se va a utilizar. El contenido de la oferta para cada perfil del segmento se coloca entonces en un conjunto de datos de Adobe Experience Platform, donde está disponible para flujos de trabajo por lotes personalizados.
+Para ello, debe crear una solicitud de trabajo en Journey Optimizer que contenga información sobre la audiencia de destino y la decisión de oferta que debe utilizar. El contenido de la oferta para cada perfil de la audiencia se coloca entonces en un conjunto de datos de Adobe Experience Platform, donde está disponible para flujos de trabajo por lotes personalizados.
 
 La entrega por lotes también se puede realizar mediante API. Para obtener más información, consulte [Documentación de API de decisiones por lotes](api-reference/offer-delivery-api/batch-decisioning-api.md).
 
@@ -25,11 +25,11 @@ Antes de configurar una solicitud de trabajo, asegúrese de haber creado:
 
 * **Un conjunto de datos** en Adobe Experience Platform. Este conjunto de datos se utilizará para almacenar el resultado de la decisión mediante el esquema &quot;ODE DecisionEvents&quot;. Obtenga más información en la [Documentación de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es).
 
-* **Un segmento** en Adobe Experience Platform. El segmento debe evaluarse y luego actualizarse. Obtenga información sobre cómo actualizar la evaluación de abono a segmentos en la [Documentación del Servicio de segmentación](https://www.adobe.com/go/segmentation-overview-en)
+* **Una audiencia** en Adobe Experience Platform. La audiencia debe evaluarse y luego actualizarse. Obtenga información sobre cómo actualizar la evaluación de miembros de audiencia en [Documentación del Servicio de segmentación](http://www.adobe.com/go/segmentation-overview-en)
 
-   >[!NOTE]
-   >
-   >Un trabajo por lotes se ejecuta fuera de la instantánea de perfil que se produce una vez al día. La toma de decisiones por lotes limita la frecuencia y siempre carga perfiles de la instantánea más reciente. Espere hasta 24 horas después de crear un segmento antes de probar la API de decisiones por lotes.
+  >[!NOTE]
+  >
+  >Un trabajo por lotes se ejecuta fuera de la instantánea de perfil que se produce una vez al día. La toma de decisiones por lotes limita la frecuencia y siempre carga perfiles de la instantánea más reciente. Espere hasta 24 horas después de crear una audiencia antes de probar la API de decisiones por lotes.
 
 * **Una decisión** en Adobe Journey Optimizer. [Obtenga información sobre cómo crear una decisión](offer-activities/create-offer-activities.md)
 
@@ -45,9 +45,9 @@ Para crear una nueva solicitud de trabajo, siga los pasos a continuación.
 
 1. Asigne un nombre a la solicitud de trabajo y seleccione el conjunto de datos al que deben enviarse los datos de trabajo.
 
-1. Seleccione el segmento de Adobe Experience Platform que desee segmentar.
+1. Seleccione la audiencia de Adobe Experience Platform a la que desee dirigirse.
 
-1. Seleccione uno o varios ámbitos de decisión de ofertas que desee utilizar para entregar ofertas al segmento:
+1. Seleccione uno o varios ámbitos de decisión de ofertas que desee utilizar para entregar ofertas a la audiencia:
    1. Seleccione una ubicación de la lista.
    1. Se muestran las decisiones disponibles para la ubicación seleccionada. Seleccione la decisión que desee y haga clic en **[!UICONTROL Añadir]**.
    1. Repita la operación para agregar tantos ámbitos de decisión como desee.
@@ -93,11 +93,11 @@ Si se produce un error mientras se ejecuta la solicitud de trabajo, se obtiene e
 
 El tiempo de extremo a extremo para cada trabajo por lotes es la duración desde el momento en que se crea la carga de trabajo hasta el momento en que el resultado de la decisión está disponible en el conjunto de datos de salida.
 
-El tamaño del segmento es el factor principal que afecta al tiempo de decisión de lotes de un extremo a otro. Si la oferta elegible tiene habilitado un límite de frecuencia global, la toma de decisiones por lotes tarda más tiempo en completarse. A continuación se muestran algunas aproximaciones del tiempo de procesamiento de extremo a extremo para sus respectivos tamaños de segmento, tanto con límite de frecuencia como sin él para las ofertas aptas:
+El tamaño de la audiencia es el factor principal que afecta al tiempo de decisión por lotes de un extremo a otro. Si la oferta elegible tiene habilitado un límite de frecuencia global, la toma de decisiones por lotes tarda más tiempo en completarse. A continuación se muestran algunas aproximaciones del tiempo de procesamiento de extremo a extremo para sus respectivos tamaños de audiencia, tanto con límite de frecuencia como sin él para las ofertas aptas:
 
 Con el límite de frecuencia habilitado para las ofertas aptas:
 
-| Tamaño del segmento | Tiempo de procesamiento de extremo a extremo |
+| Tamaño de audiencia | Tiempo de procesamiento de extremo a extremo |
 |--------------|----------------------------|
 | 10 000 perfiles o menos | 7 minutos |
 | 1 millón de perfiles o menos | 30 minutos |
@@ -105,7 +105,7 @@ Con el límite de frecuencia habilitado para las ofertas aptas:
 
 Sin límite de frecuencia para ofertas aptas:
 
-| Tamaño del segmento | Tiempo de procesamiento de extremo a extremo |
+| Tamaño de audiencia | Tiempo de procesamiento de extremo a extremo |
 |--------------|----------------------------|
 | 10 000 perfiles o menos | 6 minutos |
 | 1 millón de perfiles o menos | 8 minutos |

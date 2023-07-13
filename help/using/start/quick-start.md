@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 5fd4f8c5ffaf2c417d95f88fa31c850bc88db13f
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 72%
 
 ---
 
 # Inicio rápido {#cjm-quick-start}
 
-Con [!DNL Adobe Journey Optimizer], puede importar contenido existente y diseñar contenido nuevo, personalizar mensajes con datos de perfil del cliente, crear eventos para activar mensajes, definir segmentos y refinar audiencias, crear y añadir ofertas y acceder a un conjunto completo de herramientas de creación de informes y monitorización para medir el impacto de sus mensajes y recorridos del cliente.
+Con [!DNL Adobe Journey Optimizer], puede importar contenido existente y diseñar contenido nuevo, personalizar mensajes con datos de perfil del cliente, crear eventos para almacenar mensajes en déclencheur, definir audiencias, crear y añadir ofertas y acceder a un conjunto completo de herramientas de creación de informes y monitorización para medir el impacto de sus mensajes y recorridos con los clientes.
 
 En función de su organización, puede definir varios tipos de usuarios y concederles acceso a determinadas capacidades dependiendo de sus permisos.
 
@@ -27,12 +27,12 @@ Para conocer y descubrir el poder de Adobe Journey Optimizer con instrucciones p
 
 * Soy **administrador**
 
-   Preparar el entorno, conceder acceso, configurar ajustes. [Más información](path/administrator.md)
+  Preparar el entorno, conceder acceso, configurar ajustes. [Más información](path/administrator.md)
 
 * Soy **ingeniero de datos**
 
-   Importar perfiles, crear audiencias y esquemas y conjuntos de datos. [Más información](path/data-engineer.md)
+  Importar perfiles, crear audiencias y esquemas y conjuntos de datos. [Más información](path/data-engineer.md)
 
 * Soy **experto en marketing**
 
-   Diseñar mensajes, añadir ofertas, recursos y crear recorridos de cliente. [Más información](path/marketer.md)
+  Diseñar mensajes, añadir ofertas, recursos y crear recorridos de cliente. [Más información](path/marketer.md)

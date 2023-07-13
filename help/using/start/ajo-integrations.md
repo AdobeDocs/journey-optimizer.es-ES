@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,7 @@ Con Adobe Journey Optimizer puede administrar, conservar y exportar fácilmente 
 >[!NOTE]
 >
 > Adobe Journey Optimizer, que se creó en Adobe Experience Platform, está conectado de forma nativa al [perfil del cliente en tiempo real de Adobe](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}. Esta fuente de datos integrada está preconfigurada y diseñada para recuperar y utilizar datos del perfil del cliente en tiempo real (por ejemplo, comprobar si la persona que ha introducido un recorrido es cliente o no). Permite utilizar información del perfil y datos de los eventos de experiencia. [Más información](../datasource/adobe-experience-platform-data-source.md).
+>
 
 ## Adobe Customer Journey Analytics{#integration-cja}
 
@@ -34,7 +35,7 @@ Más información sobre [Journey Optimizer + Customer Journey Analytics](../repo
 
 ## Adobe Analytics{#integration-aa}
 
-Ahora puede aprovechar todos los datos de evento de comportamiento de Adobe Analytics que ya está recopilando y transmitiendo a Adobe Experience Platform para activar recorridos en tiempo real y automatizar experiencias para los clientes. Estos datos también pueden servir para crear segmentos que se puedan utilizar con Journey Optimizer.
+Ahora puede aprovechar todos los datos de evento de comportamiento de Adobe Analytics que ya está recopilando y transmitiendo a Adobe Experience Platform para activar recorridos en tiempo real y automatizar experiencias para los clientes. Estos datos también pueden utilizarse para crear audiencias que se puedan utilizar con Journey Optimizer.
 
 Obtenga más información acerca de [Journey Optimizer + Analytics](../event/about-analytics.md).
 

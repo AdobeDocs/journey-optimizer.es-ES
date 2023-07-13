@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: recorrido, integración, estándar, campaña, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 0f7a0732025e11a92292704743242f688b9629a1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '925'
 ht-degree: 4%
 
 ---
@@ -48,7 +48,7 @@ Para **[!UICONTROL Correo electrónico]** y **[!UICONTROL SMS]**, los parámetro
 
 >[!NOTE]
 >
->Al utilizar la plantilla transaccional de un perfil para el correo electrónico, el mecanismo de baja se gestiona automáticamente mediante Adobe Campaign Standard. Para implementar esto, puede incluir fácilmente una **[!UICONTROL Vínculo de baja]** bloque de contenido dentro de [la plantilla de correo electrónico transaccional](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=es). Sin embargo, si utiliza una plantilla basada en eventos (rtEvent), debe incorporar en el mensaje un vínculo que pase el correo electrónico del destinatario como parámetro de URL y que lo dirija a una página de aterrizaje de baja. Es necesario crear esta página de aterrizaje y garantizar que la decisión del destinatario de cancelar la suscripción se transmita de forma efectiva al Adobe.
+>En el caso del correo electrónico, si utiliza una plantilla transaccional de perfiles, el Campaign Standard gestiona el mecanismo de baja de suscripción. Simplemente, agregue una **[!UICONTROL Vínculo de baja]** bloque de contenido en la plantilla ([obtenga más información](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=es)). Si utiliza una plantilla basada en eventos (rtEvent), debe añadir en el mensaje un vínculo que pase el correo electrónico de la persona en el parámetro de URL y que apunte a una página de aterrizaje de baja. Debe crear esta página de aterrizaje y asegurarse de que la decisión de cancelación de suscripción de la persona se transmita al Adobe.
 
 En primer lugar, debe elegir una plantilla de mensajería transaccional.
 

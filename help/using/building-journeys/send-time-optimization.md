@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: tiempo de envío, envío, mensaje, optimización, recorrido, IA, inteligente
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '490'
 ht-degree: 36%
 
 ---
@@ -37,6 +37,10 @@ El modelo varía si se habla de puntuación o de formación. La capacitación se
 * Puntuación: la aplicación de una puntuación a perfiles individuales en función del modelo entrenado
 
 Esta información se almacena con el perfil del usuario y se hace referencia a ella en la ejecución del recorrido para indicar a Adobe Journey Optimizer cuándo enviar el mensaje.
+
+>[!CAUTION]
+>
+>Esta función no es compatible con el modo de ráfaga.
 
 ## Activación de la optimización del tiempo de envío{#activate-send-time-optimization}
 

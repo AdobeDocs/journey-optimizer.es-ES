@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: caso de uso, multicanal, mensajes, recorrido, canal, eventos, push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 1%
@@ -18,13 +18,13 @@ ht-degree: 1%
 
 # Caso de uso: Envío de mensajes multicanal{#send-multi-channel-messages}
 
-Esta sección presenta un caso de uso que combina un Segmento de lectura, un evento, eventos de reacción y mensajes de correo electrónico/push.
+Esta sección presenta un caso de uso que combina una audiencia de lectura, un evento, eventos de reacción y mensajes de correo electrónico/push.
 
 ![](assets/jo-uc1.png)
 
 ## Descripción del caso de uso
 
-En este caso de uso, queremos enviar un primer mensaje (correo electrónico y push) a todos los clientes que pertenecen a un segmento específico.
+En este caso de uso, queremos enviar un primer mensaje (correo electrónico y push) a todos los clientes que pertenecen a una audiencia específica.
 
 En función de su reacción al primer mensaje, queremos enviar mensajes específicos.
 
@@ -36,20 +36,20 @@ Después, esperamos una compra y enviamos un mensaje push para dar las gracias a
 
 Para que este caso de uso funcione, debe configurar lo siguiente:
 
-* un segmento para todos los clientes que viven en Atlanta, San Francisco o Seattle y que nacieron después de 1980.
+* una audiencia para todos los clientes que viven en Atlanta, San Francisco o Seattle y que nacieron después de 1980.
 * un evento de compra
 
-### Creación del segmento
+### Creación de la audiencia
 
-En nuestro recorrido, queremos aprovechar un segmento específico de clientes. Todos los individuos que pertenecen al segmento entran en el recorrido y siguen los diferentes pasos. En nuestro ejemplo, necesitamos un segmento que se dirija a todos los clientes que viven en Atlanta, San Francisco o Seattle y que nacieron después de 1980.
+En nuestro recorrido, queremos aprovechar una audiencia específica de clientes. Todos los individuos que pertenecen a la audiencia entran en el recorrido y siguen los diferentes pasos. En nuestro ejemplo, necesitamos una audiencia que se dirija a todos los clientes que viven en Atlanta, San Francisco o Seattle y que nacieron después de 1980.
 
-Para obtener más información sobre los segmentos, consulte [página](../segment/about-segments.md).
+Para obtener más información sobre las audiencias, consulte [página](../audience/about-audiences.md).
 
-1. En la sección del menú CUSTOMER, seleccione **[!UICONTROL Segmentos]**.
+1. En la sección del menú CUSTOMER, seleccione **[!UICONTROL Audiencias]**.
 
-1. Haga clic en **[!UICONTROL Crear segmento]** que se encuentra en la parte superior derecha de la lista de segmentos.
+1. Haga clic en **[!UICONTROL Crear audiencia]** situado en la parte superior derecha de la lista de audiencias.
 
-1. En el **[!UICONTROL Propiedades del segmento]** , introduzca un nombre para el segmento.
+1. En el **[!UICONTROL Propiedades de audiencia]** , introduzca un nombre para la audiencia.
 
 1. Arrastre y suelte los campos deseados del panel izquierdo al área de trabajo central y, a continuación, configúrelos según sus necesidades. En este ejemplo, utilizamos la variable **Ciudad** y **Año de nacimiento** campos de atributos.
 
@@ -57,7 +57,7 @@ Para obtener más información sobre los segmentos, consulte [página](../segmen
 
    ![](assets/add-attributes.png)
 
-El segmento ahora se ha creado y está listo para utilizarlo en el recorrido. Uso de un **Leer segmento** actividad, puede hacer que todas las personas que pertenecen al segmento participen en el recorrido.
+La audiencia se crea y está lista para utilizarse en el recorrido. Uso de un **Leer audiencia** actividad, puede hacer que todas las personas que pertenecen a la audiencia participen en el recorrido.
 
 ### Configuración del evento
 
@@ -85,7 +85,7 @@ El evento está ahora configurado y listo para utilizarse en el recorrido. Con l
 
 ## Diseño del recorrido
 
-1. Inicie el recorrido con una **Leer segmento** actividad. Seleccione el segmento creado anteriormente. Todas las personas que pertenecen al segmento entran en el recorrido.
+1. Inicie el recorrido con una **Leer audiencia** actividad. Seleccione la audiencia creada anteriormente. Todas las personas que pertenecen a la audiencia entran en el recorrido.
 
    ![](assets/jo-uc4.png)
 
@@ -95,7 +95,7 @@ El evento está ahora configurado y listo para utilizarse en el recorrido. Con l
 
 1. Coloque el cursor en la actividad de correo electrónico y haga clic en el símbolo &quot;+&quot; para crear una nueva ruta.
 
-1. En la primera ruta, añada un **Reacción** evento y seleccione **Push abierta**. El evento se activa cuando un individuo que pertenece al segmento abre la versión push del primer mensaje.
+1. En la primera ruta, añada un **Reacción** evento y seleccione **Push abierta**. El evento se activa cuando un individuo que pertenece a la audiencia abre la versión push del primer mensaje.
 
 1. En la segunda ruta, añada un **Reacción** evento y seleccione **Correo electrónico abierto**. El evento se activa cuando el usuario abre el correo electrónico.
 

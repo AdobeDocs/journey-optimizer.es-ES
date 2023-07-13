@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: editor de expresiones, datos, recorrido
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 76%
@@ -51,7 +51,7 @@ Puede acceder al editor de expresiones avanzadas de diferentes maneras:
 
 * Al crear una condición de fuente de datos, puede acceder al editor avanzado haciendo clic en **[!UICONTROL Modo avanzado]**.
 
-   ![](../assets/journeyuc2_33.png)
+  ![](../assets/journeyuc2_33.png)
 
 * Al crear un temporizador personalizado, se mostrará directamente el editor avanzado.
 * Cuando asigne un parámetro de acción, haga clic en **[!UICONTROL Modo avanzado]**.
@@ -65,7 +65,7 @@ Esta pantalla le permite escribir manualmente su expresión.
 En la parte izquierda de la pantalla se muestran los campos y las funciones disponibles:
 
 * **[!UICONTROL Eventos]**: elija uno de los campos recibidos del evento entrante. La lista mostrada de los campos de evento es contextual y varía según los eventos agregados en el recorrido. [Más información](../../event/about-events.md)
-* **[!UICONTROL Segmentos]**: si se ha caído un **[!UICONTROL Calificación de segmentos]** , elija el segmento que desee utilizar en la expresión. [Más información](../condition-activity.md#using-a-segment)
+* **[!UICONTROL Audiencias]**: si se ha caído un **[!UICONTROL Calificación de audiencia]** evento, elija la audiencia que desee utilizar en la expresión. [Más información](../condition-activity.md#using-a-segment)
 * **[!UICONTROL Fuentes de datos]**: elija entre la lista de campos disponibles en los grupos de campos de las fuentes de datos. [Más información](../../datasource/about-data-sources.md)
 * **[!UICONTROL propiedades del recorrido]**: esta sección reagrupa los campos técnicos relacionados con el recorrido de un perfil determinado. [Más información](journey-properties.md)
 * **[!UICONTROL Funciones]**: elija entre una lista de funciones integradas que permitan realizar filtros complejos. Las funciones están organizadas por categorías. [Más información](functions.md)

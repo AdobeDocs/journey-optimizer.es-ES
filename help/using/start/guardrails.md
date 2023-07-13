@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 93%
+source-wordcount: '1048'
+ht-degree: 74%
 
 ---
 
@@ -45,7 +45,6 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 ### Protecciones generales del recorrido {#journeys-guardrails-journeys}
 
 * El número de actividades en un recorrido ahora está limitado a 50. El número de actividades se muestra en la sección superior izquierda del lienzo de recorrido. Esto ayudará en la legibilidad, el control de calidad y la resolución de problemas.
-* A medida que publica recorridos, los ampliamos y ajustamos automáticamente para garantizar el máximo rendimiento y estabilidad. Cuando se aproxime al hito de 100 recorridos en directo al mismo tiempo, verá una notificación en la interfaz de usuario sobre este logro. Si recibe esta notificación y necesita extender sus recorridos más allá de los 100 recorridos en directo a la vez, cree un ticket para el servicio de atención al cliente y le ayudaremos a alcanzar sus objetivos.
 
 ### Acciones generales {#general-actions-g}
 
@@ -57,12 +56,12 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 
 ### Versiones de recorridos {#journey-versions-g}
 
-* Un recorrido que se inicia con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No puede iniciar un recorrido con un evento de **Calificación de segmentos**.
-* Un recorrido que se inicia con una actividad de **Calificación de segmentos** en v1 siempre debe comenzar con una **Calificación de segmentos** en versiones posteriores.
-* El segmento y el área de nombres elegidos en **Calificación de segmentos** (primer nodo) no se puede cambiar en las versiones nuevas.
+* Un recorrido que se inicia con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No se puede iniciar un recorrido con un **Calificación de audiencias** evento.
+* Un recorrido que comienza con un **Calificación de audiencias** la actividad en v1 siempre debe comenzar con una **Calificación de audiencias** en versiones posteriores.
+* La audiencia y el área de nombres elegidos en **Calificación de audiencias** (primer nodo) no se puede cambiar en las nuevas versiones.
 * La regla de reentrada debe ser la misma en todas las versiones del recorrido.
-* Un recorrido que comience por un **Segmento de lectura** no puede comenzar con otro evento en las versiones siguientes.
-* No puede crear una nueva versión de un recorrido de segmento de lectura con lectura incremental. Debe duplicar el recorrido.
+* Un recorrido que comienza con un **Leer audiencia** no puede comenzar con otro evento en las versiones siguientes.
+* No se puede crear una nueva versión de un recorrido de audiencia de lectura con lectura incremental. Debe duplicar el recorrido.
 
 ### Acciones personalizadas {#custom-actions-g}
 
@@ -76,9 +75,9 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 ### Eventos {#events-g}
 
 * En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido del cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este ID de orquestación debe añadirse a la carga útil de streaming que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
-* Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de segmentos.
-* Los recorridos unitarios (que se inician con un evento o una calificación de segmentos) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante cinco minutos. Por ejemplo, si un evento activa un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
-* Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Eventos consumidos por lotes o eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento del correo electrónico, etc.) no se puede usar para activar un recorrido. Para los casos de uso en los que no pueda obtener eventos de flujo continuo, genere un segmento basado en esos eventos y use la actividad de **Segmento de lectura** en su lugar. Técnicamente, la calificación de segmentos puede utilizarse, pero puede provocar desafíos descendentes en función de las acciones utilizadas.
+* Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de audiencia.
+* Los recorridos unitarios (que comienzan con un evento o una calificación de audiencia) incluyen una protección que evita que los recorridos se activen varias veces por error para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante cinco minutos. Por ejemplo, si un evento activa un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
+* Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Eventos consumidos por lotes o eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento del correo electrónico, etc.) no se puede usar para activar un recorrido. Para los casos de uso en los que no pueda obtener eventos de flujo continuo, cree una audiencia basada en esos eventos y use **Leer audiencia** actividad en su lugar. Técnicamente, la calificación de audiencias puede utilizarse, pero puede provocar desafíos descendentes en función de las acciones utilizadas.
 
 ### Fuentes de datos {#data-sources-g}
 
@@ -97,13 +96,13 @@ Puede elegir entre una de estas dos soluciones:
 
 * Configure un recorrido que no utilice inmediatamente el perfil. Por ejemplo, si el recorrido está diseñado para confirmar la creación de una cuenta, el evento de experiencia podría contener la información necesaria para enviar el primer mensaje de confirmación (nombre, apellidos, dirección de correo electrónico, etc.).
 
-### Lectura de segmento {#read-segment-g}
+### Lectura de audiencia {#read-segment-g}
 
-* Los segmentos transmitidos siempre están actualizados, pero los segmentos por lotes no se calcularán en el momento de la recuperación. Solo se evalúan cada día a la hora de evaluar el lote.
-* Para los recorridos que utilizan una actividad Leer segmento, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con Leer segmento, programados o que se inicien “lo antes posible”) que empiecen al mismo tiempo. Para ello, repártalos a lo largo del tiempo, por ejemplo, en intervalos de 5 y 10 minutos.
+* Las audiencias transmitidas siempre están actualizadas, pero las audiencias por lotes no se calcularán en el momento de la recuperación. Solo se evalúan cada día a la hora de evaluar el lote.
+* En el caso de los recorridos que utilizan una actividad Leer audiencia, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con Leer audiencia, programados o que se inicien &quot;lo antes posible&quot;) que empiecen al mismo tiempo. Para ello, repártalos a lo largo del tiempo, por ejemplo, en intervalos de 5 y 10 minutos.
 
 ### Editor de expresiones {#expression-editor}
 
-* Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen por un segmento de lectura, una calificación de segmentos o una actividad de evento empresarial. Debe crear un segmento nuevo y utilizar una condición de insegmentación en el recorrido.
+* Los grupos de campos de evento de experiencia no se pueden usar en recorridos que comiencen por una audiencia de lectura, una calificación de audiencia o una actividad de evento empresarial. Debe crear una audiencia nueva y utilizar una condición dentro del segmento en el recorrido.
 
 

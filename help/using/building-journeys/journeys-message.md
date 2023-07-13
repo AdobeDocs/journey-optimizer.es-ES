@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 24%
+source-wordcount: '894'
+ht-degree: 22%
 
 ---
 
@@ -31,7 +31,7 @@ También puede configurar acciones específicas para enviarle mensajes:
 
 Para añadir un mensaje en un recorrido, siga los pasos a continuación:
 
-1. Inicie el recorrido con un [Evento](general-events.md) o una actividad [Leer segmento](read-segment.md).
+1. Inicie el recorrido con un [Evento](general-events.md) o una [Leer audiencia](read-audience.md) actividad.
 
 1. Desde el **Acciones** de la paleta, arrastre y suelte una **email**, un **En la aplicación**, un **SMS** o una **Push** actividad en el lienzo.
 
@@ -115,6 +115,10 @@ El modelo varía si se habla de puntuación o de formación. La capacitación se
 * Puntuación: la aplicación de una puntuación a perfiles individuales en función del modelo entrenado
 
 Esta información se almacena con el perfil del usuario y se hace referencia a ella en la ejecución del recorrido para indicar a Adobe Journey Optimizer cuándo enviar el mensaje.
+
+>[!CAUTION]
+>
+>Esta función no es compatible con el modo de ráfaga.
 
 ### Activación de la optimización del tiempo de envío{#activate-send-time-optimization}
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 14%
@@ -71,15 +71,15 @@ Para empezar a crear la campaña web, siga los pasos a continuación.
 
    * Menú contextual para editar su contenido, diseño, inserción de vínculos o personalización, etc.
 
-      ![](assets/web-designer-contextual-bar.png)
+     ![](assets/web-designer-contextual-bar.png)
 
    * Los iconos de la parte superior del panel derecho para editar, duplicar, eliminar u ocultar cada elemento.
 
-      ![](assets/web-designer-right-panel-icons.png)
+     ![](assets/web-designer-right-panel-icons.png)
 
    * Panel derecho que cambia dinámicamente según el elemento seleccionado. Por ejemplo, puede editar el fondo, la tipografía, el borde, el tamaño, la posición, el espaciado, los efectos o los estilos en línea de un elemento.
 
-      ![](assets/web-designer-right-panel.png)
+     ![](assets/web-designer-right-panel.png)
 
 >[!NOTE]
 >
@@ -249,7 +249,7 @@ Para mostrar una vista previa de la experiencia web modificada, siga los pasos a
 
 >[!CAUTION]
 >
->Debe tener perfiles de prueba disponibles para simular qué ofertas se les enviarán. Obtenga información sobre cómo [creación de perfiles de prueba](../segment/creating-test-profiles.md).
+>Debe tener perfiles de prueba disponibles para simular qué ofertas se les enviarán. Obtenga información sobre cómo [creación de perfiles de prueba](../audience/creating-test-profiles.md).
 
 1. En la pantalla de edición de contenido de la campaña web, seleccione **[!UICONTROL Simular contenido]**.
 

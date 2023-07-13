@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 3%
@@ -111,7 +111,7 @@ curl -X POST \
 | `xdm:propositionRequests.xdm:activityId` | El identificador único de la decisión. | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
 | `xdm:itemCount` | Número de ofertas que se van a devolver. El número máximo es 30. | `"xdm:itemCount": 2` |
 | `xdm:profiles` | Este objeto contiene información sobre el perfil para el que se solicita la decisión. Para una solicitud de API, esto contiene un perfil. |
-| `xdm:profiles.xdm:identityMap` | Este objeto contiene un conjunto de identidades de usuario final basado en el código de integración de área de nombres de la identidad. El mapa de identidad puede llevar más de una identidad de cada área de nombres. Para obtener más información sobre áreas de nombres, consulte [esta página](../../../segment/get-started-identity.md). | `Email: [{"xdm:id": "123@abc.com"}]` |
+| `xdm:profiles.xdm:identityMap` | Este objeto contiene un conjunto de identidades de usuario final basado en el código de integración de área de nombres de la identidad. El mapa de identidad puede llevar más de una identidad de cada área de nombres. Para obtener más información sobre áreas de nombres, consulte [esta página](../../../audience/get-started-identity.md). | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | El ID generado por el cliente que se puede utilizar para identificar de forma exclusiva una solicitud de decisión de perfil. Este ID se recoge en la respuesta y no influye en el resultado de la decisión. | `"xdm:decisionRequestId": "0AA00002-0000-1224-c0de-cjf98Csj43"` |
 | `xdm:allowDuplicatePropositions` | Este objeto define la estructura de control de las reglas de deduplicación. Consiste en una serie de indicadores que indican si la misma opción se puede proponer en una dimensión determinada. Un indicador que se establece en true significa que se permiten duplicados y no deben eliminarse en la categoría indicada por el indicador. Un indicador establecido en false significa que el motor de decisión no debe hacer la misma propuesta en toda la dimensión y elegir la siguiente mejor opción para una de las subdecisiones. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Si se establece en true, es posible que se asignen varias decisiones a la misma opción. | `"xdm:acrossActivities": true` |

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: salto, actividad, recorrido, división, división
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 9%
@@ -58,8 +58,8 @@ En el recorrido B, el primer evento se activa internamente, a través del **[!UI
 
 * El **[!UICONTROL Saltar]** la actividad solo está disponible en recorridos que utilizan un área de nombres.
 * Solo puede saltar a un recorrido que utilice el mismo área de nombres que el recorrido de origen.
-* No puede saltar a un recorrido que comience por un **Calificación de segmentos** evento o **Leer segmento**.
-* No puede tener un **[!UICONTROL Saltar]** actividad y una **Calificación de segmentos** evento o **Leer segmento** en el mismo recorrido.
+* No puede saltar a un recorrido que comience por un **Calificación de audiencias** evento o **Leer audiencia**.
+* No puede tener un **[!UICONTROL Saltar]** actividad y una **Calificación de audiencias** evento o **Leer audiencia** en el mismo recorrido.
 * Puede incluir tantos **[!UICONTROL Saltar]** actividades que necesite en un recorrido. Después de un **[!UICONTROL Saltar]**, puede añadir cualquier actividad necesaria.
 * Puede tener tantos niveles de salto como sea necesario. Por ejemplo, el Recorrido A salta al recorrido B, que salta al recorrido C, etc.
 * El recorrido de destino también puede incluir tantos **[!UICONTROL Saltar]** actividades según sea necesario.
@@ -81,7 +81,7 @@ En el recorrido B, el primer evento se activa internamente, a través del **[!UI
    ![](assets/jump2.png)
 
 1. Haga clic dentro de **Recorrido de destino** field.
-La lista muestra todas las versiones de recorrido que son borradores, activos o en modo de prueba. Recorridos que utilizan un área de nombres diferente o que comienzan con una **Calificación de segmentos** Los eventos de no están disponibles. Los recorridos de destino que crearían un patrón de bucle también se filtran.
+La lista muestra todas las versiones de recorrido que son borradores, activos o en modo de prueba. Recorridos que utilizan un área de nombres diferente o que comienzan con una **Calificación de audiencias** Los eventos de no están disponibles. Los recorridos de destino que crearían un patrón de bucle también se filtran.
 
    ![](assets/jump3.png)
 

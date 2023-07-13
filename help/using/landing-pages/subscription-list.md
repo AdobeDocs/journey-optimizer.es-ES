@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, lista, suscripción, servicio
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 12%
@@ -76,7 +76,7 @@ Los estados posibles son los siguientes:
 
 Una vez creada la lista de suscripción, puede utilizarla en una página de aterrizaje. Los perfiles que se incluyan en el formulario de página de aterrizaje se añadirán a la lista. [Más información](design-lp.md)
 
-También puede utilizar las listas de suscripción como segmentos cuando [recorridos de construcción](../building-journeys/journey-gs.md#jo-build) y agregando personalización.
+También puede utilizar las listas de suscripción como audiencias cuando [recorridos de construcción](../building-journeys/journey-gs.md#jo-build) y agregando personalización.
 
 >[!NOTE]
 >

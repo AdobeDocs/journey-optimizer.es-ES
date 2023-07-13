@@ -5,7 +5,7 @@ title: Introducción a Journey Optimizer para los ingenieros de datos
 description: Obtenga más información sobre cómo trabajar con Journey Optimizer como ingeniero de datos
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Obtenga información sobre cómo **identificar datos y crear esquemas y conjunto
 
 Los pasos para crear un área de nombres de identidad y un conjunto de datos habilitado para perfiles y perfiles de prueba se detallan en las secciones siguientes:
 
-1. **Cree un área de nombres de identidad**. En Adobe [!DNL Journey Optimizer], las **Identidades** vinculan los consumidores con dispositivos y canales, y el resultado es un gráfico de identidad. El gráfico de identidad vinculado se utiliza para personalizar las experiencias en función de las interacciones en todos los puntos de contacto empresariales.  Obtenga más información acerca de identidades y áreas de nombres de identidad [en esta página](../../segment/get-started-identity.md).
+1. **Cree un área de nombres de identidad**. En Adobe [!DNL Journey Optimizer], las **Identidades** vinculan los consumidores con dispositivos y canales, y el resultado es un gráfico de identidad. El gráfico de identidad vinculado se utiliza para personalizar las experiencias en función de las interacciones en todos los puntos de contacto empresariales.  Obtenga más información acerca de identidades y áreas de nombres de identidad [en esta página](../../audience/get-started-identity.md).
 
 1. **Cree un esquema** y actívelo para los perfiles. Un esquema es un conjunto de reglas que representan y validan la estructura y el formato de los datos. En un nivel superior, los esquemas proporcionan una definición abstracta de un objeto del mundo real (como una persona) y describen qué datos deben incluirse en cada instancia de ese objeto (como nombre, apellido, cumpleaños, etc.).  Obtenga más información acerca de los esquemas [en esta página](../../data/get-started-schemas.md).
 
@@ -33,7 +33,7 @@ Los pasos para crear un área de nombres de identidad y un conjunto de datos hab
 
 1. **Configure conectores de fuentes**. Adobe Journey Optimizer permite la ingesta de datos desde fuentes externas, al tiempo que le ofrece la capacidad de estructurar, etiquetar y mejorar los datos entrantes mediante los servicios de Platform. Puede ingerir datos de una variedad de fuentes, como aplicaciones de Adobe, almacenamiento basado en la nube, bases de datos y muchas otras. Obtenga más información acerca de los conectores de fuentes [en esta página](../get-started-sources.md).
 
-1. **Creación de perfiles de prueba**. Los perfiles de prueba son obligatorios al usar el [modo de prueba](../../building-journeys/testing-the-journey.md) en un recorrido y para [previsualizar y probar los mensajes](../../email/preview.md) antes de enviarlos. Los pasos para crear perfiles de prueba se detallan [en esta página](../../segment/creating-test-profiles.md).
+1. **Creación de perfiles de prueba**. Los perfiles de prueba son obligatorios al usar el [modo de prueba](../../building-journeys/testing-the-journey.md) en un recorrido y para [previsualizar y probar los mensajes](../../email/preview.md) antes de enviarlos. Los pasos para crear perfiles de prueba se detallan [en esta página](../../audience/creating-test-profiles.md).
 
 
 Además, para poder enviar mensajes en recorridos, debe configurar **[!UICONTROL Fuentes de datos]**, **[!UICONTROL Eventos]** y **[!UICONTROL Acciones]**. Obtenga más información [en esta sección](../../configuration/about-data-sources-events-actions.md).

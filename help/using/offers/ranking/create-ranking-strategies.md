@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: d2f0a6db7cd86512febfd307039d06ae4b60232e
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 7%
+source-wordcount: '418'
+ht-degree: 6%
 
 ---
 
@@ -39,7 +39,7 @@ Para crear un modelo de IA, siga los pasos a continuación:
 1. Especifique un nombre único y una descripción para el modelo de IA y, a continuación, seleccione el tipo de modelo de IA que desea crear:
 
    * **[!UICONTROL Optimización automática]** optimiza las ofertas en función del rendimiento de ofertas anteriores. [Más información](auto-optimization-model.md)
-   * **[!UICONTROL Optimización personalizada]** optimiza y personaliza ofertas en función de segmentos y ofrece rendimiento. [Más información](personalized-optimization-model.md)
+   * **[!UICONTROL Personalizado]** optimiza y personaliza ofertas en función de audiencias y rendimiento de ofertas. [Más información](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -50,7 +50,6 @@ Para crear un modelo de IA, siga los pasos a continuación:
    >[!DNL Journey Optimizer] clasificar ofertas según la variable **tasa de conversión** (Tasa de conversión = Número total de eventos de conversión / Número total de eventos de impresión). La tasa de conversión se calcula mediante dos tipos de métricas:
    >* **Eventos de impresión** (ofertas que se muestran)
    >* **Eventos de conversión** (ofertas que generan clics por correo electrónico o web).
-
    >
    >Estos eventos se capturan automáticamente mediante el SDK web o el SDK móvil proporcionado. Obtenga más información sobre esto en [Información general del SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es).
 
@@ -62,15 +61,13 @@ Para crear un modelo de IA, siga los pasos a continuación:
    >
    >Solo los conjuntos de datos creados a partir de esquemas asociados a **[!UICONTROL Evento de experiencia: interacciones de propuesta]** Los grupos de campos (anteriormente conocidos como mixin) se muestran en la lista desplegable.
 
-1. Si está creando un **[!UICONTROL Optimización personalizada]** Modelo de IA, seleccione los segmentos que se utilizarán para entrenar el modelo de IA.
-
-   ➡️ [Descubra esta función en vídeo](#video)
+1. Si está creando un **[!UICONTROL Optimización personalizada]** Modelo de IA, seleccione las audiencias que se utilizarán para entrenar el modelo de IA.
 
    ![](../assets/ai-ranking-segments.png)
 
    >[!NOTE]
    >
-   >Puede seleccionar hasta cinco segmentos.
+   >Puede seleccionar hasta cinco audiencias.
 
 1. Guarde y active el modelo de IA.
 

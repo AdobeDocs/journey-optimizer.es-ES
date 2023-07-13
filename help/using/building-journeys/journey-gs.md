@@ -7,12 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: recorrido, primero, inicio, inicio rápido, segmento, evento, acción
+keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 27%
+source-wordcount: '1537'
+ht-degree: 25%
 
 ---
 
@@ -26,7 +26,7 @@ Para enviar mensajes con recorridos, se requieren las siguientes configuraciones
 
    ![](assets/jo-event7bis.png)
 
-1. **Crear un segmento**: el recorrido también puede escuchar segmentos de Adobe Experience Platform para enviar mensajes en lote a un conjunto especificado de perfiles. Para ello, debe crear segmentos. [Más información](../segment/about-segments.md).
+1. **Crear una audiencia**: el recorrido también puede escuchar a las audiencias de Adobe Experience Platform para enviar mensajes en lote a un conjunto especificado de perfiles. Para ello, debe crear audiencias. [Más información](../audience/about-audiences.md).
 
    ![](assets/segment2.png)
 
@@ -45,7 +45,7 @@ En la sección del menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTRO
 **Información general**: esta pestaña muestra un panel con métricas clave relacionadas con los recorridos:
 
 * **Perfiles procesados**: número total de perfiles procesados en las últimas 24 horas
-* **Recorridos en directo**: número total de recorridos en directo con tráfico durante las últimas 24 horas. Los recorridos activos incluyen **Recorridos unitarios** (basado en eventos) y **Recorridos por lotes** (leer segmento).
+* **Recorridos en directo**: número total de recorridos en directo con tráfico durante las últimas 24 horas. Los recorridos activos incluyen **Recorridos unitarios** (basado en eventos) y **Recorridos por lotes** (leer audiencia).
 * **Tasa de error**: proporción de todos los perfiles con error comparada con el número total de perfiles introducidos durante las últimas 24 horas.
 * **Tasa de descarte**: proporción de todos los perfiles descartados en comparación con el número total de perfiles introducidos durante las últimas 24 horas. Un perfil descartado representa a alguien que no cumple los requisitos para entrar en el recorrido, por ejemplo, debido a un área de nombres incorrecta o a reglas de reentrada.
 
@@ -59,7 +59,7 @@ En la sección del menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTRO
 
 ![](assets/journeys-browse.png)
 
-En la lista de recorridos, puede filtrarlos según su estado, tipo y versión en **[!UICONTROL Estado y versión de filtros]**. El tipo puede ser: **[!UICONTROL Evento unitario]**, **[!UICONTROL Calificación de segmentos]**, **[!UICONTROL Leer segmento]** o **[!UICONTROL Evento empresarial]**.
+En la lista de recorridos, puede filtrarlos según su estado, tipo y versión en **[!UICONTROL Estado y versión de filtros]**. El tipo puede ser: **[!UICONTROL Evento unitario]**, **[!UICONTROL Calificación de audiencia]**, **[!UICONTROL Leer audiencia]**, **[!UICONTROL Evento empresarial]** o **[!UICONTROL Ráfaga]**.
 
 Puede elegir mostrar solo los recorridos que utilizan un evento, un grupo de campos o una acción en **[!UICONTROL Filtros de actividad]** y **[!UICONTROL Filtros de datos]**. Además, la variable **[!UICONTROL Filtros de publicación]** permite seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar las versiones más recientes de recorridos en directo que se publicaron ayer. [Más información](../building-journeys/using-the-journey-designer.md).
 
@@ -88,7 +88,7 @@ Estos son los pasos principales para enviar mensajes a través de recorridos:
 
    ![](assets/jo-properties.png)
 
-1. Comience arrastrando y soltando un evento o una **Leer segmento** actividad desde la paleta al lienzo. Para obtener más información sobre el diseño de recorridos, consulte [esta sección](using-the-journey-designer.md).
+1. Comience arrastrando y soltando un evento o una **Leer audiencia** actividad desde la paleta al lienzo. Para obtener más información sobre el diseño de recorridos, consulte [esta sección](using-the-journey-designer.md).
 
    ![](assets/read-segment.png)
 
@@ -125,7 +125,7 @@ El **Copiar detalles técnicos** permite copiar información técnica sobre el r
 
 De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desmarcar las **Permitir la reentrada** opción para recorridos de &quot;una sola toma&quot;, por ejemplo, si desea ofrecer un regalo de una sola vez cuando una persona entra en una tienda.
 
-Si la variable **Permitir la reentrada** está activada, la opción **Período de espera de reentrada** se muestra el campo. Este campo permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en recorridos unitarios (empezando por un evento o una calificación de segmentos). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos.
+Si la variable **Permitir la reentrada** está activada, la opción **Período de espera de reentrada** se muestra el campo. Este campo le permite definir el tiempo de espera antes de permitir que un perfil vuelva a introducir el recorrido en recorridos unitarios (empezando por un evento o una calificación de audiencia). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos.
 
 Obtenga más información sobre la administración de entradas de perfil, en [esta sección](entry-management.md).
 
@@ -149,11 +149,11 @@ Para obtener más información sobre la administración de huso horario, consult
 
 Puede definir un **Fecha de inicio**. Si no ha especificado ninguna, se definirá automáticamente en el momento de la publicación.
 
-También puede agregar un **Fecha de finalización**. Esto permite que los perfiles salgan automáticamente cuando se alcanza la fecha. Si no especifica una fecha de finalización, los perfiles pueden permanecer hasta el tiempo de espera de recorrido predeterminado (generalmente 30 días, 7 días con la oferta de complementos de Healthcare Shield). La única excepción son los recorridos de segmentos de lectura recurrentes con **Forzar reentrada en repetición** activado, que finalizan en la fecha de inicio de la siguiente incidencia.
+También puede agregar un **Fecha de finalización**. Esto permite que los perfiles salgan automáticamente cuando se alcanza la fecha. Si no especifica una fecha de finalización, los perfiles pueden permanecer hasta el tiempo de espera de recorrido predeterminado (generalmente 30 días, 7 días con la oferta de complementos de Healthcare Shield). La única excepción son los recorridos de audiencia de lectura recurrentes con **Forzar reentrada en repetición** activado, que finalizan en la fecha de inicio de la siguiente incidencia.
 
 ### Tiempo de espera y error en actividades de recorrido {#timeout_and_error}
 
-Al editar una actividad de acción o condición, tiene la opción de especificar una ruta alternativa en caso de error o tiempo de espera. Si el procesamiento de la actividad, que implica consultar un sistema de terceros, supera la duración especificada en las propiedades del recorrido para el tiempo de espera y la administración de errores (**[!UICONTROL Tiempo de espera y error]** ), se seleccionará la segunda ruta para ejecutar una acción de reserva si es necesario.
+Al editar una actividad de acción o condición, puede definir una ruta alternativa en caso de error o tiempo de espera. Si el procesamiento de la actividad que busca un sistema de terceros supera el tiempo de espera definido en las propiedades del recorrido (**[!UICONTROL Tiempo de espera y error]** ), se elegirá la segunda ruta para realizar una posible acción de reserva.
 
 Los valores autorizados están entre 1 y 30 segundos.
 

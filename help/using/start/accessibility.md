@@ -7,10 +7,10 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -123,7 +123,7 @@ Panel de configuración de estos elementos:
   <tr>
     <td>
 
-Activar un evento en un recorrido basado en segmentos para el cual la opción **[!UICONTROL Un solo perfil a la vez]** está activada
+Almacenar en déclencheur un evento en un recorrido basado en audiencias para el que la variable **[!UICONTROL Perfil único a la vez]** La opción está activada
 
 </td>
     <td>P</td>

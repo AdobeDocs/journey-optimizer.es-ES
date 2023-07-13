@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 74db87267c2bc4a1aabfc506adaa29758467dd81
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '977'
 ht-degree: 13%
 
 ---
@@ -20,7 +20,9 @@ ht-degree: 13%
 
 [!DNL Journey Optimizer] permite controlar la frecuencia con la que los usuarios recibirán un mensaje o entrarán en un recorrido configurando reglas multicanal que excluirán automáticamente los perfiles saturados de los mensajes y las acciones.
 
-Por ejemplo, para una marca una regla podría ser no enviar más de 3 mensajes de marketing al mes a sus clientes. Para ello, puede utilizar una regla de frecuencia que limite el número de mensajes enviados en función de uno o más canales durante un periodo mensual del calendario.
+Por ejemplo: no quiere que su marca envíe más de 3 mensajes de marketing al mes a sus clientes.
+
+Para ello, puede utilizar una regla de frecuencia que limite el número de mensajes enviados en función de uno o más canales durante un periodo mensual del calendario.
 
 >[!NOTE]
 >
@@ -183,7 +185,7 @@ En esta situación, un perfil individual:
 
 >[!NOTE]
 >
->Al probar las reglas de frecuencia, se recomienda utilizar un [perfil de prueba](../segment/creating-test-profiles.md), porque una vez que se alcanza el límite de frecuencia de un perfil, no hay forma de restablecer el contador hasta el mes siguiente. Al desactivar una regla, los perfiles con límite pueden recibir mensajes, pero no se elimina ni elimina ningún incremento de contador.
+>Al probar las reglas de frecuencia, se recomienda utilizar un [perfil de prueba](../audience/creating-test-profiles.md), porque una vez que se alcanza el límite de frecuencia de un perfil, no hay forma de restablecer el contador hasta el mes siguiente. Al desactivar una regla, los perfiles con límite pueden recibir mensajes, pero no se elimina ni elimina ningún incremento de contador.
 
 ## Vídeo explicativo {#video}
 

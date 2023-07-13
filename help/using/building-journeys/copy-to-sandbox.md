@@ -9,7 +9,7 @@ role: User, Developer
 level: Intermediate
 keywords: zona protegida, recorrido, copiar, entorno
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 20%
@@ -38,7 +38,7 @@ ht-degree: 20%
 >title="Objetos dependientes"
 >abstract="Esta es la lista de objetos asociados que se utilizan en el recorrido. Esta lista muestra el nombre, el tipo de objeto y el ID interno de Journey Optimizer."
 
-Journey Optimizer permite copiar un recorrido completo de una zona protegida a otra. Por ejemplo, puede copiar un recorrido del entorno de zona protegida de ensayo en la zona protegida de producción. Además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: segmentos, superficies (es decir, ajustes preestablecidos), esquemas, eventos y acciones. Para obtener más información sobre los objetos copiados, consulte [sección](#limitations).
+Journey Optimizer permite copiar un recorrido completo de una zona protegida a otra. Por ejemplo, puede copiar un recorrido del entorno de zona protegida de ensayo en la zona protegida de producción. Además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: audiencias, superficies (es decir, ajustes preestablecidos), esquemas, eventos y acciones. Para obtener más información sobre los objetos copiados, consulte [sección](#limitations).
 
 >[!CAUTION]
 >
@@ -80,32 +80,32 @@ Es posible que todos los elementos vinculados no se copien en la zona protegida 
 
 Se copian los siguientes objetos:
 
-* Segmento
+* Audiencia 
 
-   Un segmento solo se puede copiar una vez de una zona protegida a otra. Una vez copiado un segmento, no se puede editar en la zona protegida de destino.
+  Una audiencia solo se puede copiar una vez de una zona protegida a otra. Una vez copiada una audiencia, no se puede editar en la zona protegida de destino.
 
 * Esquema
 
-   Se copian los esquemas utilizados en este recorrido.
+  Se copian los esquemas utilizados en este recorrido.
 
 * Mensaje
 
-   Las actividades de acción de canal utilizadas en el recorrido. No se comprueba la integridad de los campos utilizados para la personalización en el mensaje. Los bloques de contenido no se copian.
+  Las actividades de acción de canal utilizadas en el recorrido. No se comprueba la integridad de los campos utilizados para la personalización en el mensaje. Los bloques de contenido no se copian.
 
 * Recorrido - detalles del lienzo
 
-   Representación del recorrido en el lienzo incluidos los objetos del recorrido, como condiciones, acciones, eventos, segmentos de lectura, etc. La actividad de salto se excluye de la copia.
+  Representación del recorrido en el lienzo incluidos los objetos del recorrido, como condiciones, acciones, eventos, audiencias de lectura, etc. La actividad de salto se excluye de la copia.
 
 * Evento
 
-   Se copian los eventos y los detalles del evento utilizados en el recorrido.
+  Se copian los eventos y los detalles del evento utilizados en el recorrido.
 
 * Acción
 
-   Se copian las acciones y los detalles de acción utilizados en el recorrido.
+  Se copian las acciones y los detalles de acción utilizados en el recorrido.
 
 Las superficies (es decir, los ajustes preestablecidos) no se copian. El sistema selecciona automáticamente la coincidencia más cercana posible en la zona protegida de destino, según el tipo de mensaje y el nombre de la superficie. Si no se encuentran superficies en la zona protegida de destino, la copia de superficie fallará. Esto significa que la copia del mensaje también fallará porque un mensaje requiere que haya una superficie disponible para la configuración. En este caso, es necesario crear al menos una superficie, para el canal derecho del mensaje, para que funcione la copia.
 
-En el caso de los esquemas, las políticas de combinación y los segmentos, la segunda vez que se intente copiar estos objetos, solo se hará referencia a ellos. Se tratarán como objetos que ya existen y se copiarán de nuevo. Esto significa que estos objetos solo se pueden copiar una vez.
+En el caso de los esquemas, las políticas de combinación y las audiencias, la segunda vez que se intente copiar estos objetos, solo se hará referencia a ellos. Se tratarán como objetos que ya existen y se copiarán de nuevo. Esto significa que estos objetos solo se pueden copiar una vez.
 
-Hay un retraso de cinco minutos antes de que Adobe Journey Optimizer pueda hacer referencia a esquemas, políticas de combinación y segmentos sin ver un error en el lienzo. Espere cinco minutos y las referencias estarán disponibles.
+Hay un retraso de cinco minutos antes de que Adobe Journey Optimizer pueda hacer referencia a esquemas, políticas de combinación y audiencias sin ver un error en el lienzo. Espere cinco minutos y las referencias estarán disponibles.

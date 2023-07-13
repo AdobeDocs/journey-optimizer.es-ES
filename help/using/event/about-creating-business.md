@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: evento, recorrido, empresa, configuración
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 15%
 
 A diferencia de los eventos unitarios, los eventos empresariales no están vinculados a un perfil específico. El tipo de ID de evento siempre se basa en reglas. Más información sobre los eventos empresariales en [esta sección](../event/about-events.md).
 
-Los recorridos basados en segmentos de lectura se pueden activar de una sola vez, mediante un programador de forma regular o mediante un evento empresarial, cuando se produce el evento.
+Los recorridos basados en audiencias de lectura se pueden activar de una sola vez, mediante un planificador de forma regular o mediante un evento empresarial, cuando se produce el evento.
 
 Los eventos empresariales pueden ser &quot;un producto vuelve a estar en stock&quot;, &quot;el precio de las acciones de una empresa alcanza un determinado valor&quot;, etc.
 
@@ -39,12 +39,12 @@ Los eventos empresariales pueden ser &quot;un producto vuelve a estar en stock&q
 * El esquema de evento debe contener una identidad principal no basada en personas. Se deben seleccionar los campos siguientes al definir el evento: `_id` y `timestamp`
 * Los eventos empresariales solo se pueden eliminar como primer paso de un recorrido.
 * Al eliminar un evento empresarial como primer paso de un recorrido, el tipo de programador del recorrido será &quot;evento empresarial&quot;.
-* Solo se puede eliminar una actividad de segmento de lectura después de un evento empresarial. Se añade automáticamente como el siguiente paso.
+* Solo se puede eliminar una actividad de audiencia de lectura después de un evento empresarial. Se añade automáticamente como el siguiente paso.
 * Para permitir varias ejecuciones de eventos empresariales, active la opción correspondiente en la **[!UICONTROL Ejecución]** de las propiedades del recorrido.
-* Después de activarse un evento empresarial, se producirá un retraso para exportar el segmento de 15 minutos a hasta una hora.
+* Después de activarse un evento empresarial, se producirá un retraso para exportar la audiencia de 15 minutos a hasta una hora.
 * Al probar un evento empresarial, debe pasar los parámetros de evento y el identificador del perfil de prueba que va a introducir el recorrido en la prueba. Además, al probar un recorrido basado en eventos empresariales, solo puede almacenar en déclencheur una entrada de perfil única. Consulte [esta sección](../building-journeys/testing-the-journey.md#test-business). En el modo de prueba, no hay disponible el modo &quot;Vista de código&quot;.
 * ¿Qué les sucede a las personas que están actualmente en el recorrido si llega un nuevo evento empresarial? Se comporta de la misma manera que cuando los individuos siguen en un recorrido recurrente cuando ocurre una nueva recurrencia. Su camino ha terminado. Como resultado, los especialistas en marketing deben prestar atención para evitar crear recorridos demasiado largos si esperan eventos comerciales frecuentes.
-* Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de segmentos.
+* Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de audiencia.
 
 ## Varios eventos empresariales {#multiple-business-events}
 
@@ -54,9 +54,9 @@ Estas son algunas notas importantes que se aplican cuando se reciben varios even
 
 Los eventos empresariales siguen las reglas de reentrada del mismo modo que para los eventos unitarios. Si un recorrido permite la reentrada, se procesará el siguiente evento empresarial.
 
-**¿Cuáles son las barreras para evitar la sobrecarga de segmentos materializados?**
+**¿Cuáles son las barreras para evitar la sobrecarga de audiencias materializadas?**
 
-En el caso de eventos empresariales puntuales, para un recorrido determinado, los datos insertados por el primer trabajo de evento se reutilizan durante un periodo de tiempo de 1 hora. Para los recorridos programados, no hay ninguna protección. Obtenga más información sobre los segmentos en la [Documentación del Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+En el caso de eventos empresariales puntuales, para un recorrido determinado, los datos insertados por el primer trabajo de evento se reutilizan durante un periodo de tiempo de 1 hora. Para los recorridos programados, no hay ninguna protección. Obtenga más información sobre las audiencias en [Documentación del Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 ## Introducción a los eventos empresariales {#gs-business-events}
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 8%
@@ -55,7 +55,7 @@ Para cada dirección, el motivo básico de la supresión y la categoría de supr
 
 >[!NOTE]
 >
->Los perfiles con **[!UICONTROL Suprimido]** Los estados de se excluyen durante el proceso de envío de mensajes. Por lo tanto, mientras que la variable **informes de recorrido** mostrará estos perfiles como si se hubieran movido a través del recorrido ([Leer segmento](../building-journeys/read-segment.md) y [actividades de mensajería](../building-journeys/journeys-message.md)), el **Informes de correo electrónico** no los incluirá en la **[!UICONTROL Enviado]** las métricas tal como se filtran antes del envío de correo electrónico.
+>Los perfiles con **[!UICONTROL Suprimido]** Los estados de se excluyen durante el proceso de envío de mensajes. Por lo tanto, mientras que la variable **informes de recorrido** mostrará estos perfiles como si se hubieran movido a través del recorrido ([Leer audiencia](../building-journeys/read-audience.md) y [actividades de mensajería](../building-journeys/journeys-message.md)), el **Informes de correo electrónico** no los incluirá en la **[!UICONTROL Enviado]** las métricas tal como se filtran antes del envío de correo electrónico.
 >
 >Obtenga más información sobre [Informe en vivo](../reports/live-report.md) y [Informe global](../reports/global-report.md). Para averiguar el motivo de todos los casos de exclusión, puede utilizar el [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
 

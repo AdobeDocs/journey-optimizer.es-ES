@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2014'
 ht-degree: 3%
@@ -61,17 +61,17 @@ Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL 
 
 * **Fecha y hora de finalización**
 
-   **Campo:** endDate
-   **Título:** Fecha y hora de finalización
-   **Descripción:** La fecha final de validez de las opciones de una decisión. Las opciones que han superado su fecha de finalización ya no se pueden proponer en el proceso de toma de decisiones.
-   **Tipo:** cadena
+  **Campo:** endDate
+  **Título:** Fecha y hora de finalización
+  **Descripción:** La fecha final de validez de las opciones de una decisión. Las opciones que han superado su fecha de finalización ya no se pueden proponer en el proceso de toma de decisiones.
+  **Tipo:** cadena
 
 * **Fecha y hora de inicio**
 
-   **Campo:** startDate
-   **Título:** Fecha y hora de inicio
-   **Descripción:** La fecha de inicio de una validez de opciones de decisión. Las opciones que no han alcanzado su fecha de inicio aún no se pueden proponer en el proceso de toma de decisiones.
-   **Tipo:** cadena
+  **Campo:** startDate
+  **Título:** Fecha y hora de inicio
+  **Descripción:** La fecha de inicio de una validez de opciones de decisión. Las opciones que no han alcanzado su fecha de inicio aún no se pueden proponer en el proceso de toma de decisiones.
+  **Tipo:** cadena
 
 +++
 
@@ -102,83 +102,83 @@ Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL 
 
 * **_experience > decisioning > content > components > Content Component Type**
 
-   **Campo:** _type
-   **Título:** Tipo de componente de contenido
-   **Descripción:** Un conjunto enumerado de URI en el que cada valor se asigna a un tipo dado al componente de contenido. Algunos consumidores de las representaciones de contenido esperan que el valor @type sea una referencia al esquema que describe propiedades adicionales del componente de contenido.
-   **Tipo:** cadena
+  **Campo:** _type
+  **Título:** Tipo de componente de contenido
+  **Descripción:** Un conjunto enumerado de URI en el que cada valor se asigna a un tipo dado al componente de contenido. Algunos consumidores de las representaciones de contenido esperan que el valor @type sea una referencia al esquema que describe propiedades adicionales del componente de contenido.
+  **Tipo:** cadena
 
 * **_experience > decisioning > content > components > _dc**
 
-   **Campo:** _dc
-   **Tipo:** objeto
-   **Requerido:** &quot;format&quot;
+  **Campo:** _dc
+  **Tipo:** objeto
+  **Requerido:** &quot;format&quot;
 
    * **Formato**
 
-      **Campo:** formato
-      **Título:** Formato
-      **Descripción:** La manifestación física o digital del recurso. Normalmente, el formato debe incluir el tipo de medio del recurso. El formato se puede utilizar para determinar el software, hardware u otro equipo necesario para mostrar o utilizar el recurso. La práctica recomendada es seleccionar un valor de un vocabulario controlado (por ejemplo, la lista de [Tipos de medios de Internet](https://www.iana.org/assignments/media-types/) definición de formatos multimedia del equipo).
-      **Tipo:** cadena
-      **Ejemplo:** &quot;application/vnd.adobe.photoshop&quot;
+     **Campo:** formato
+     **Título:** Formato
+     **Descripción:** La manifestación física o digital del recurso. Normalmente, el formato debe incluir el tipo de medio del recurso. El formato se puede utilizar para determinar el software, hardware u otro equipo necesario para mostrar o utilizar el recurso. La práctica recomendada es seleccionar un valor de un vocabulario controlado (por ejemplo, la lista de [Tipos de medios de Internet](https://www.iana.org/assignments/media-types/) definición de formatos multimedia del equipo).
+     **Tipo:** cadena
+     **Ejemplo:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Idioma**
-      **Campo:** idioma
-      **Título:** Idioma
-      **Descripción:** El o los idiomas del recurso. \nLos idiomas se especifican en el código de idioma tal como se define en [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), que forma parte de BCP 47, que se utiliza en otras partes de XDM.
-      **Tipo:** matriz
-      **Ejemplos:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
+     **Campo:** idioma
+     **Título:** Idioma
+     **Descripción:** El o los idiomas del recurso. \nLos idiomas se especifican en el código de idioma tal como se define en [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), que forma parte de BCP 47, que se utiliza en otras partes de XDM.
+     **Tipo:** matriz
+     **Ejemplos:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
 * **_experience > decisioning > content > components > _repo**
 
-   **Campo:** _repo
-   **Tipo:** objeto
+  **Campo:** _repo
+  **Tipo:** objeto
 
    * **id**
 
-      **Campo:** id
-      **Descripción:** Un identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad adicional \&quot;repo:resolveUrl\&quot; para recuperar el recurso.
-      **Tipo:** cadena
-      **Ejemplo:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+     **Campo:** id
+     **Descripción:** Un identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad adicional \&quot;repo:resolveUrl\&quot; para recuperar el recurso.
+     **Tipo:** cadena
+     **Ejemplo:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
-      **Campo:** name
-      **Descripción:** Algunas sugerencias sobre dónde localizar el repositorio que almacena el recurso externo mediante el \&quot;repo:id\&quot;.
-      **Tipo:** cadena
+     **Campo:** name
+     **Descripción:** Algunas sugerencias sobre dónde localizar el repositorio que almacena el recurso externo mediante el \&quot;repo:id\&quot;.
+     **Tipo:** cadena
 
    * **repositoryID**
 
-      **Campo:** repositoryID
-      **Descripción:** Un identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad adicional \&quot;repo:resolveUrl\&quot; para recuperar el recurso.
-      **Tipo:** cadena
-      **Ejemplo:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
+     **Campo:** repositoryID
+     **Descripción:** Un identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad adicional \&quot;repo:resolveUrl\&quot; para recuperar el recurso.
+     **Tipo:** cadena
+     **Ejemplo:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
-      **Campo:** resolveURL
-      **Descripción:** Un localizador de recursos único opcional para leer el recurso en un repositorio de contenido. Esto facilitará la obtención del recurso sin que el cliente entienda dónde se administra el recurso y a qué API llamar. Esto es similar a un vínculo HAL, pero la semántica es más sencilla y útil.
-      **Tipo:** cadena
-      **Ejemplo:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
+     **Campo:** resolveURL
+     **Descripción:** Un localizador de recursos único opcional para leer el recurso en un repositorio de contenido. Esto facilitará la obtención del recurso sin que el cliente entienda dónde se administra el recurso y a qué API llamar. Esto es similar a un vínculo HAL, pero la semántica es más sencilla y útil.
+     **Tipo:** cadena
+     **Ejemplo:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experience > decisioning > content > components > content**
 
-   **Campo:** content
-   **Descripción:** Un campo opcional para guardar contenido directamente. En lugar de hacer referencia al contenido de un repositorio de recursos, el componente puede contener directamente contenido simple. Este campo no se utiliza para recursos de contenido compuesto, complejo y binario.
-   **Tipo:** cadena
+  **Campo:** content
+  **Descripción:** Un campo opcional para guardar contenido directamente. En lugar de hacer referencia al contenido de un repositorio de recursos, el componente puede contener directamente contenido simple. Este campo no se utiliza para recursos de contenido compuesto, complejo y binario.
+  **Tipo:** cadena
 
 * **_experience > decisioning > content > components > deliveryURL**
 
-   **Campo:** deliveryURL
-   **Descripción:** Un localizador de recursos único opcional para obtener el recurso de una red de entrega de contenido o un extremo de servicio. Esta URL la utiliza un agente de usuario para acceder públicamente al recurso.
-   **Tipo:** cadena
-   **Ejemplo:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Campo:** deliveryURL
+  **Descripción:** Un localizador de recursos único opcional para obtener el recurso de una red de entrega de contenido o un extremo de servicio. Esta URL la utiliza un agente de usuario para acceder públicamente al recurso.
+  **Tipo:** cadena
+  **Ejemplo:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisioning > content > components > linkURL**
 
-   **Campo:** linkURL
-   **Descripción:** Un localizador de recursos único opcional para las interacciones del usuario. Esta URL se utiliza para remitir al usuario final a en un agente de usuario y se puede rastrear.
-   **Tipo:** cadena
-   **Ejemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Campo:** linkURL
+  **Descripción:** Un localizador de recursos único opcional para las interacciones del usuario. Esta URL se utiliza para remitir al usuario final a en un agente de usuario y se puede rastrear.
+  **Tipo:** cadena
+  **Ejemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisioning > content > Placement
 
@@ -239,13 +239,13 @@ Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL 
 
 **Campo:** profileConstraintType
 **Título:** Tipo de restricción de perfil
-**Descripción:** Determina si hay restricciones establecidas actualmente y cómo se expresan las restricciones. Puede ser a través de una regla o a través de una o más suscripciones a segmentos.
+**Descripción:** Determina si hay restricciones establecidas actualmente y cómo se expresan las restricciones. Puede ser a través de una regla o a través de una o más suscripciones a audiencias.
 **Tipo:** cadena
 **Valores posibles:**
 * &quot;ninguno&quot; (predeterminado)
 * &quot;eligibilityRule&quot;: &quot;La restricción de perfil se expresa como una sola regla que debe evaluarse como true antes de permitir la acción restringida.&quot;
-* &quot;anySegments&quot;: &quot;La restricción de perfil se expresa como uno o más segmentos y el perfil debe ser miembro de al menos uno de ellos antes de que se permita la acción restringida.&quot;
-* &quot;allSegments&quot;: &quot;La restricción de perfil se expresa como uno o más segmentos y el perfil debe ser miembro de todos ellos antes de que se permita la acción restringida.&quot;
+* &quot;anySegments&quot;: &quot;La restricción de perfil se expresa como una o más audiencias y el perfil debe ser miembro de al menos una de ellas antes de que se permita la acción restringida.&quot;
+* &quot;allSegments&quot;: &quot;La restricción de perfil se expresa como una o más audiencias y el perfil debe ser miembro de todas antes de que se permita la acción restringida.&quot;
 * &quot;reglas&quot;: &quot;La restricción de perfil se expresa como una serie de reglas diferentes, por ejemplo, elegibilidad, aplicabilidad e idoneidad, que todas deben evaluar como true antes de permitir la acción restringida&quot;.
 
 +++
@@ -254,37 +254,37 @@ Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL 
 
 **Campo:** segmentIdentities
 **Título:** Identificadores de segmento
-**Descripción:** Identificadores de los segmentos
+**Descripción:** Identificadores de audiencias
 **Tipo:** matriz
 
 * **Identificador**
 
-   **Campo:** _id
-   **Título:** Identificador
-   **Descripción:** Identidad del segmento en el área de nombres relacionada.
-   **Tipo:** cadena
+  **Campo:** _id
+  **Título:** Identificador
+  **Descripción:** Identidad de las audiencias en el área de nombres relacionada.
+  **Tipo:** cadena
 
 * **Área de nombres**
 
-   **Campo:** namespace
-   **Título:** Área de nombres
-   **Descripción:** El área de nombres asociado con `xid` atributo.
-   **Tipo:** objeto
-   **Requerido:** &quot;code&quot;
+  **Campo:** namespace
+  **Título:** Área de nombres
+  **Descripción:** El área de nombres asociado con `xid` atributo.
+  **Tipo:** objeto
+  **Requerido:** &quot;code&quot;
 
    * **Código**
 
-      **Campo:** código
-      **Título:** Código
-      **Descripción:** El código es un identificador en lenguaje natural para el área de nombres y se puede usar para solicitar la identificación técnica del área de nombres que se usa para el procesamiento del gráfico de identidades.
-      **Tipo:** cadena
+     **Campo:** código
+     **Título:** Código
+     **Descripción:** El código es un identificador en lenguaje natural para el área de nombres y se puede usar para solicitar la identificación técnica del área de nombres que se usa para el procesamiento del gráfico de identidades.
+     **Tipo:** cadena
 
 * **Identificador de experiencia**
 
-   **Campo:** xid
-   **Título:** Identificador de experiencia
-   **Descripción:** Cuando está presente, este valor representa un identificador de área de nombres cruzado que es único en todos los identificadores de ámbito de área de nombres en todas las áreas de nombres.
-   **Tipo:** cadena
+  **Campo:** xid
+  **Título:** Identificador de experiencia
+  **Descripción:** Cuando está presente, este valor representa un identificador de área de nombres cruzado que es único en todos los identificadores de ámbito de área de nombres en todas las áreas de nombres.
+  **Tipo:** cadena
 
 +++
 
@@ -306,25 +306,25 @@ Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL 
 
 * **Función de puntuación**
 
-   **Campo:** función
-   **Título:** Función de puntuación
-   **Descripción:** Una referencia a una función que calcula una puntuación numérica para esta opción de decisión. Las opciones de decisión se ordenarán (clasificarán) según esa puntuación. El valor de esta propiedad es el URI (@id) de la función que se va a invocar con una opción a la vez. Consulte schema https://ns.adobe.com/experience/decisioning/function.
-   **Tipo:** cadena
+  **Campo:** función
+  **Título:** Función de puntuación
+  **Descripción:** Una referencia a una función que calcula una puntuación numérica para esta opción de decisión. Las opciones de decisión se ordenarán (clasificarán) según esa puntuación. El valor de esta propiedad es el URI (@id) de la función que se va a invocar con una opción a la vez. Consulte schema https://ns.adobe.com/experience/decisioning/function.
+  **Tipo:** cadena
 
 * **Tipo de evaluación de pedido**
 
-   **Campo:** orderEvaluationType
-   **Título:** Tipo de evaluación de pedido
-   **Descripción:** Especifica el mecanismo de evaluación de pedidos que se utiliza, la prioridad estática de las opciones de decisión, una función de puntuación que calcula un valor numérico para cada opción o una estrategia de clasificación que recibe una lista para ordenarla.
-   **Tipo:** cadena
-   **Valores posibles:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
+  **Campo:** orderEvaluationType
+  **Título:** Tipo de evaluación de pedido
+  **Descripción:** Especifica el mecanismo de evaluación de pedidos que se utiliza, la prioridad estática de las opciones de decisión, una función de puntuación que calcula un valor numérico para cada opción o una estrategia de clasificación que recibe una lista para ordenarla.
+  **Tipo:** cadena
+  **Valores posibles:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
 * **Estrategia de clasificación**
 
-   **Campo:** rankingStrategy
-   **Título:** Estrategia de clasificación
-   **Descripción:** Una referencia a una estrategia que clasifica una lista de opciones de decisión. Las opciones de decisión se devolverán en una lista ordenada. El valor de esta propiedad es el URI (@id) de la función que se va a invocar con una opción a la vez. Consulte schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
-   **Tipo:** cadena
+  **Campo:** rankingStrategy
+  **Título:** Estrategia de clasificación
+  **Descripción:** Una referencia a una estrategia que clasifica una lista de opciones de decisión. Las opciones de decisión se devolverán en una lista ordenada. El valor de esta propiedad es el URI (@id) de la función que se va a invocar con una opción a la vez. Consulte schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
+  **Tipo:** cadena
 
 +++
 

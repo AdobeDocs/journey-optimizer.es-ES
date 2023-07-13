@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: vista previa, contenido, correo electrónico, prueba, prueba, perfil
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 12%
@@ -26,7 +26,7 @@ Para detectar posibles errores en el contenido del correo electrónico o la conf
 >
 >Debe tener perfiles de prueba disponibles para poder previsualizar los mensajes y enviar pruebas.
 >
->Aprenda a crear perfiles de prueba en [esta página](../segment/creating-test-profiles.md).
+>Aprenda a crear perfiles de prueba en [esta página](../audience/creating-test-profiles.md).
 
 Para probar el contenido del correo electrónico, debe:
 
@@ -52,7 +52,7 @@ Además, aproveche la cuenta **Litmus** en [!DNL Journey Optimizer] para previsu
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=es#email-rendering" text="Procesamiento de correo electrónico"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=es#preview-email" text="Vista previa"
 
-Uso [Perfiles de prueba](../segment/creating-test-profiles.md) para dirigirse a destinatarios adicionales que no coincidan con los criterios de objetivo definidos.
+Uso [Perfiles de prueba](../audience/creating-test-profiles.md) para dirigirse a destinatarios adicionales que no coincidan con los criterios de objetivo definidos.
 
 Para seleccionar perfiles de prueba, siga los pasos a continuación:
 
@@ -68,7 +68,7 @@ Para seleccionar perfiles de prueba, siga los pasos a continuación:
 
    ![](assets/previewselect-namespace.png)
 
-   Más información sobre las Áreas de nombres de identidad de Adobe Experience Platform [en esta sección](../segment/get-started-identity.md).
+   Más información sobre las Áreas de nombres de identidad de Adobe Experience Platform [en esta sección](../audience/get-started-identity.md).
 
    En el ejemplo siguiente, utilizaremos la variable **Correo electrónico** namespace.
 

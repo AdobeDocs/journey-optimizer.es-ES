@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -56,9 +56,9 @@ Ahora puede empezar a diseñar el contenido de su mensaje SMS desde el **[!UICON
 
    ![](assets/sms_create_4.png)
 
-1. Haga clic en **[!UICONTROL Seleccionar audiencia]** para definir la audiencia de destino a partir de la lista de segmentos de Adobe Experience Platform disponibles. [Más información](../segment/about-segments.md).
+1. Haga clic en **[!UICONTROL Seleccionar audiencia]** para definir la audiencia de destino a partir de la lista de audiencias de Adobe Experience Platform disponibles. [Más información](../audience/about-audiences.md).
 
-1. En el **[!UICONTROL Área de nombres de identidad]** , elija el área de nombres que desea utilizar para identificar a los individuos del segmento seleccionado. [Más información](../event/about-creating.md#select-the-namespace).
+1. En el **[!UICONTROL Área de nombres de identidad]** , elija el área de nombres que desea utilizar para identificar a los individuos de la audiencia seleccionada. [Más información](../event/about-creating.md#select-the-namespace).
 
    ![](assets/sms_create_5.png)
 
@@ -105,7 +105,7 @@ Ahora puede empezar a diseñar el contenido de su mensaje SMS desde el **[!UICON
 
 1. En el `originalUrl` , pegue la dirección URL que desee acortar.
 
-1. Clic **[!UICONTROL Guardar]** y compruebe el mensaje en la vista previa. Puede utilizar **[!UICONTROL Simular contenido]** para previsualizar las direcciones URL abreviadas o el contenido personalizado.
+1. Haga clic en **[!UICONTROL Guardar]** y compruebe el mensaje en la vista previa. Puede utilizar **[!UICONTROL Simular contenido]** para previsualizar las direcciones URL abreviadas o el contenido personalizado.
 
    ![](assets/sms-content-preview.png)
 

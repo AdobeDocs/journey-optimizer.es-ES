@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1458'
 ht-degree: 2%
 
 ---
@@ -26,10 +26,6 @@ Asegúrese de que los campos utilizados en las consultas tengan valores asociado
 * id: único para todas las entradas de evento de paso. Dos eventos de paso diferentes no pueden tener el mismo ID.
 * instanceId: instanceID es el mismo para todos los eventos de paso asociados a un perfil dentro de una ejecución de recorrido. Si un perfil vuelve a entrar en la recorrido, se utiliza un instanceId diferente. Este nuevo instanceId es el mismo para todos los eventos de paso de la instancia reintroducida (de inicio a fin).
 * profileID: la identidad del perfil correspondiente al área de nombres de recorrido.
-
->[!NOTE]
->
->Para solucionar problemas, recomendamos utilizar journeyVersionID en lugar de journeyVersionName al consultar recorridos.
 
 ## Casos de uso básicos/consultas comunes {#common-queries}
 
@@ -431,9 +427,9 @@ ORDER BY DATE(timestamp) desc
 
 La consulta devuelve, para el periodo definido, el número de perfiles que ingresaron al recorrido cada día. Si un perfil se introduce mediante varias identidades, se cuenta dos veces. Si la reentrada está activada, el recuento de perfiles puede duplicarse en días diferentes si se vuelve a introducir en el recorrido en un día diferente.
 
-## Consultas relacionadas con el Segmento de lectura {#read-segment-queries}
+## Consultas relacionadas con la audiencia de lectura {#read-segment-queries}
 
-**Tiempo necesario para finalizar un trabajo de exportación de segmentos**
+**Tiempo empleado para finalizar un trabajo de exportación de audiencia**
 
 _Consulta de lago de datos_
 
@@ -463,7 +459,7 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
-La consulta devuelve la diferencia de tiempo, en minutos, entre el momento en que el trabajo de exportación de segmentos se puso en cola y el momento en que finalmente finalizó.
+La consulta devuelve la diferencia de tiempo, en minutos, entre el momento en que el trabajo de exportación de audiencia se puso en cola y el momento en que finalmente finalizó.
 
 **Número de perfiles que el recorrido descartó porque eran duplicados**
 
@@ -575,7 +571,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La consulta devuelve todos los ID de perfil que el recorrido descartó debido a algún error interno.
 
-**Descripción general del segmento de lectura para una versión de recorrido determinada**
+**Información general sobre la audiencia de lectura para una versión de recorrido determinada**
 
 _Consulta de lago de datos_
 
@@ -604,7 +600,7 @@ Devuelve todos los eventos de servicio relacionados con la versión de recorrido
 
 También podemos detectar problemas como:
 
-* errores en la creación de trabajos de exportación de temas (incluidos los tiempos de espera en las llamadas a la API de exportación de segmentos)
+* errores en la creación de trabajos de exportación de temas (incluidos los tiempos de espera en las llamadas de API de exportación de audiencia)
 * trabajos de exportación que se pueden atascar (en caso de que, para una versión de recorrido determinada, no tengamos ningún evento con respecto a la finalización del trabajo de exportación)
 * problemas con los trabajadores, si hemos recibido el evento de finalización del trabajo de exportación pero no el de finalización del procesamiento del trabajador
 
@@ -613,7 +609,7 @@ IMPORTANTE: si esta consulta no devuelve ningún evento, puede deberse a uno de 
 * la versión del recorrido no ha alcanzado la programación
 * si se supone que la versión de recorrido tiene que almacenar en déclencheur el trabajo de exportación llamando al orquestador, algo salió mal en el flujo ascendente: problema en la implementación de recorrido, evento empresarial o problema con el programador.
 
-**Obtener errores de Segmento de lectura para una versión de recorrido determinada**
+**Obtención de errores de audiencia de lectura para una versión de recorrido determinada**
 
 _Consulta de lago de datos_
 
@@ -728,7 +724,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**Obtener métricas agregadas (trabajos de exportación de segmentos y descartes) en todos los trabajos de exportación**
+**Obtener métricas agregadas (trabajos de exportación de audiencias y descartes) en todos los trabajos de exportación**
 
 _Consulta de lago de datos_
 
@@ -791,9 +787,9 @@ Esta consulta es diferente a la anterior.
 
 Devuelve las métricas generales de una versión de recorrido determinada, independientemente de los trabajos que se puedan haber ejecutado para ella (en caso de recorridos recurrentes, los eventos empresariales activados aprovechan la reutilización del tema).
 
-## Consultas relacionadas con la Calificación de segmentos {#segment-qualification-queries}
+## Consultas relacionadas con la calificación de audiencias {#segment-qualification-queries}
 
-**Se ha descartado el perfil debido a que la realización del segmento es diferente a la configurada**
+**Perfil descartado debido a una comprensión de audiencia diferente a la configurada**
 
 _Consulta de lago de datos_
 
@@ -815,9 +811,9 @@ _experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
-Esta consulta devuelve todos los ID de perfil que la versión de recorrido descartó debido a una realización incorrecta del segmento.
+Esta consulta devuelve todos los ID de perfil que la versión de recorrido descartó debido a una comprensión incorrecta de la audiencia.
 
-**Los eventos de calificación de segmentos se descartan por cualquier otro motivo para un perfil específico**
+**Eventos de calificación de audiencia descartados por cualquier otra razón para un perfil específico**
 
 _Consulta de lago de datos_
 
@@ -841,7 +837,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-Esta consulta devuelve todos los eventos (eventos externos / eventos de calificación de segmentos) que se descartaron debido a cualquier otro motivo para un perfil.
+Esta consulta devuelve todos los eventos (eventos externos / eventos de calificación de audiencia) que se descartaron debido a cualquier otro motivo para un perfil.
 
 ## Consultas basadas en eventos {#event-based-queries}
 

@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: expresión, editor, inicio, personalización
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 35%
+ht-degree: 28%
 
 ---
 
@@ -59,6 +59,6 @@ Aprenda a utilizar la información de evento contextual de un recorrido para per
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-Obtenga información sobre cómo añadir personalización basada en perfiles a un mensaje y cómo utilizar la inscripción a un segmento como condición previa a un bloque personalizado.
+Obtenga información sobre cómo añadir personalización basada en perfiles a un mensaje y cómo utilizar el abono a audiencia como condición previa a un bloque personalizado.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

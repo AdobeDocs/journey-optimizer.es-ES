@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Para maximizar la ventaja de utilizar la personalización automática, hay que t
 
 * **Las ofertas son lo suficientemente diferentes como para que los usuarios tengan diferentes preferencias entre las ofertas en consideración**. Si las ofertas son demasiado similares, un modelo resultante tendrá menos impacto, ya que las respuestas son aparentemente aleatorias.
 Por ejemplo, si un banco tiene dos ofertas de tarjetas de crédito y la única diferencia es el color, puede que no importe qué tarjeta se recomiende, pero si cada tarjeta tiene términos diferentes, esto proporciona una justificación de por qué determinados clientes elegirían uno y proporcionaría suficiente diferencia entre ofertas para crear un modelo más impactante.
-* **La composición del tráfico del usuario es estable**. Si la composición del tráfico del usuario cambia drásticamente durante el aprendizaje y la predicción del modelo, el rendimiento del modelo podría degradarse. Por ejemplo, supongamos que en la fase de formación del modelo solo están disponibles los datos de los usuarios del segmento A, pero el modelo entrenado se utiliza para generar predicciones para los usuarios del segmento B y, por lo tanto, el rendimiento del modelo podría verse afectado.
+* **La composición del tráfico del usuario es estable**. Si la composición del tráfico del usuario cambia drásticamente durante el aprendizaje y la predicción del modelo, el rendimiento del modelo podría degradarse. Por ejemplo, supongamos que en la fase de formación del modelo solo están disponibles los datos de los usuarios de la audiencia A, pero el modelo entrenado se utiliza para generar predicciones para los usuarios de la audiencia B y, por lo tanto, el rendimiento del modelo podría verse afectado.
 * **El rendimiento de las ofertas no cambia drásticamente en un corto periodo de tiempo** ya que este modelo se actualiza semanalmente y los cambios de rendimiento se transmiten como actualizaciones del modelo. Por ejemplo, un producto era muy popular antes, pero un informe público identifica que el producto es perjudicial para nuestra salud, y este producto se vuelve impopular extremadamente rápido. En esta situación, el modelo podría seguir prediciendo este producto hasta que se actualice con cambios en el comportamiento del usuario.
 
 ## Cómo funciona {#how}
@@ -37,8 +37,8 @@ Existen tres tipos de funciones:
 
 | Tipos de funciones | Cómo añadir funciones a los modelos |
 |--------------|----------------------------|
-| Segmentos | Se pueden añadir de 0 a 50 segmentos como funciones al crear el modelo de IA de clasificación |
 | Objetos de toma de decisiones (placementID, activityID, decisionScopeID) | Parte de los comentarios de gestión de decisiones Eventos de experiencia enviados a AEP |
+| Audiencias | Se pueden añadir de 0 a 50 audiencias como funciones al crear el modelo de inteligencia artificial aplicada a la clasificación |
 | Datos de contexto | Parte de los comentarios y eventos de experiencia de toma de decisiones enviados a AEP. Datos de contexto disponibles para agregar al esquema: Detalles de comercio, detalles de canal, detalles de aplicación, detalles web, detalles de entorno, detalles de dispositivo, placeContext. |
 
 El modelo tiene dos fases:

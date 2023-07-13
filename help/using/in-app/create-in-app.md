@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 6%
@@ -70,7 +70,7 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 1. Acceda a la **[!UICONTROL Campañas]** y haga clic en **[!UICONTROL Crear campaña]**.
 
-1. En el **[!UICONTROL Propiedades]** , seleccione cuando el tipo de ejecución de la campaña: Programada o activada por API. Obtenga más información sobre los tipos de campaña en [esta página](../campaigns/create-campaign.md#campaigntype).
+1. En el **[!UICONTROL Propiedades]** , seleccione cuando el tipo de ejecución de la campaña: Programada o activada por API. Obtenga más información acerca de los tipos de campañas en [esta página](../campaigns/create-campaign.md#campaigntype).
 
 1. En el **[!UICONTROL Acciones]** , seleccione la **[!UICONTROL Mensaje en la aplicación]** y el **[!UICONTROL Superficie de aplicación]** previamente configurado para su mensaje en la aplicación. A continuación, haga clic en **[!UICONTROL Crear]**.
 
@@ -82,11 +82,11 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 1. Para asignar etiquetas de uso de datos personalizadas o principales al mensaje en la aplicación, seleccione **[!UICONTROL Administrar acceso]**. [Más información](../administration/object-based-access.md).
 
-1. Haga clic en **[!UICONTROL Seleccionar audiencia]** para definir la audiencia de destino a partir de la lista de segmentos de Adobe Experience Platform disponibles. [Más información](../segment/about-segments.md).
+1. Haga clic en **[!UICONTROL Seleccionar audiencia]** para definir la audiencia de destino a partir de la lista de audiencias de Adobe Experience Platform disponibles. [Más información](../audience/about-audiences.md).
 
    ![](assets/in_app_create_2.png)
 
-1. En el **[!UICONTROL Área de nombres de identidad]** , elija el área de nombres que desea utilizar para identificar a los individuos del segmento seleccionado. [Más información](../event/about-creating.md#select-the-namespace).
+1. En el **[!UICONTROL Área de nombres de identidad]** , elija el área de nombres que desea utilizar para identificar a los individuos de la audiencia seleccionada. [Más información](../event/about-creating.md#select-the-namespace).
 
 1. Clic **[!UICONTROL Crear experimento]** para comenzar a configurar el experimento de contenido y crear tratamientos para medir su rendimiento e identificar la mejor opción para la audiencia de destino. [Más información](../campaigns/content-experiment.md)
 

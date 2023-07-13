@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 11%
@@ -25,7 +25,7 @@ ht-degree: 11%
 
 Utilice perfiles de prueba para probar el recorrido antes de publicarlo. Este modo le permite ejecutar una prueba del recorrido e identificar problemas mediante los perfiles de prueba.
 
-Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba. Puede crear nuevos perfiles de prueba o convertir los perfiles existentes en perfiles de prueba. Obtenga más información sobre los perfiles de prueba en [esta sección](../segment/creating-test-profiles.md).
+Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba. Puede crear nuevos perfiles de prueba o convertir los perfiles existentes en perfiles de prueba. Obtenga más información sobre los perfiles de prueba en [esta sección](../audience/creating-test-profiles.md).
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 ## Notas importantes {#important_notes}
 
 * En el modo de prueba, puede activar eventos mediante la interfaz.
-* Solo se permite a las personas marcadas como &quot;perfiles de prueba&quot; en el servicio Perfil del cliente en tiempo real entrar en el recorrido probado. Consulte esta [sección](../segment/creating-test-profiles.md).
+* Solo se permite a las personas marcadas como &quot;perfiles de prueba&quot; en el servicio Perfil del cliente en tiempo real entrar en el recorrido probado. Consulte esta [sección](../audience/creating-test-profiles.md).
 * El modo de prueba solo está disponible en recorridos de borrador que utilizan un área de nombres. El modo de prueba debe comprobar si una persona que entra en el recorrido es un perfil de prueba o no y, por lo tanto, debe poder acceder a Adobe Experience Platform.
 * El número máximo de perfiles de prueba que puede introducir un recorrido durante una sesión de prueba es de 100.
 * Al deshabilitar el modo de prueba, se vacían las recorridos de todas las personas que lo ingresaron en el pasado o que se encuentran actualmente en él. También borra la creación de informes.
@@ -114,7 +114,7 @@ Al activar un evento, la variable **Configuración de eventos** La pantalla de p
 
 ## Modo de prueba para eventos empresariales {#test-business}
 
-Cuando se utiliza un [evento empresarial](../event/about-events.md), utilice el modo de prueba para almacenar en déclencheur una sola entrada del perfil de prueba en el recorrido, simular el evento y pasar el ID de perfil correcto. Debe pasar los parámetros de evento y el identificador del perfil de prueba que va a introducir el recorrido en la prueba. No puede usar el **[!UICONTROL Hasta 100 perfiles a la vez]** opción que existe para otros recorridos basados en segmentos. En el modo de prueba, no hay ningún modo de &quot;Vista de código&quot; disponible para los recorridos basados en eventos empresariales.
+Cuando se utiliza un [evento empresarial](../event/about-events.md), utilice el modo de prueba para almacenar en déclencheur una sola entrada del perfil de prueba en el recorrido, simular el evento y pasar el ID de perfil correcto. Debe pasar los parámetros de evento y el identificador del perfil de prueba que va a introducir el recorrido en la prueba. No puede usar el **[!UICONTROL Hasta 100 perfiles a la vez]** opción que existe para otros recorridos basados en audiencias. En el modo de prueba, no hay ningún modo de &quot;Vista de código&quot; disponible para los recorridos basados en eventos empresariales.
 
 Tenga en cuenta que cuando se déclencheur un evento empresarial por primera vez, no se puede cambiar la definición de evento empresarial en la misma sesión de prueba. Solo puede hacer que la misma persona o una persona diferente entren en el recorrido pasando el mismo identificador u otro. Si desea cambiar los parámetros de evento empresarial, debe detener e iniciar de nuevo el modo de prueba.
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 146dda9b180a4767b7041b50382f9a0eac0a0058
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '1449'
 ht-degree: 2%
 
 ---
@@ -72,17 +72,17 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
 1. Utilice el **[!UICONTROL Idoneidad]** para restringir la selección de ofertas para esta ubicación.
 
-   Esta restricción se puede aplicar mediante una **regla de decisión**, o uno o varios **Segmentos de Adobe Experience Platform**. Ambos se detallan en [esta sección](../offer-library/add-constraints.md#segments-vs-decision-rules).
+   Esta restricción se puede aplicar mediante una **regla de decisión**, o uno o varios **Audiencias de Adobe Experience Platform**. Ambos se detallan en [esta sección](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
-   * Para restringir la selección de las ofertas a los miembros de un segmento de Experience Platform, seleccione **[!UICONTROL Segmentos]**, luego haga clic en **[!UICONTROL Añadir segmentos]**.
+   * Para restringir la selección de las ofertas a los miembros de una audiencia de Experience Platform, seleccione **[!UICONTROL Audiencias]**, luego haga clic en **[!UICONTROL Añadir audiencias]**.
 
      ![](../assets/activity_constraint_segment.png)
 
-     Añada uno o varios segmentos desde el panel izquierdo y combínelos con el **[!UICONTROL Y]** / **[!UICONTROL O]** operadores lógicos.
+     Añada una o varias audiencias desde el panel izquierdo y combínelas con el **[!UICONTROL Y]** / **[!UICONTROL O]** operadores lógicos.
 
      ![](../assets/activity_constraint_segment2.png)
 
-     Aprenda a trabajar con segmentos en [esta sección](../../segment/about-segments.md).
+     Aprenda a trabajar con audiencias en [esta sección](../../audience/about-audiences.md).
 
    * Si desea añadir una restricción de selección con una regla de decisión, utilice la variable **[!UICONTROL Regla de decisión]** y seleccione la regla que desee.
 
@@ -90,7 +90,7 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
      Obtenga información sobre cómo crear una regla de decisión en [esta sección](../offer-library/creating-decision-rules.md).
 
-1. Al seleccionar segmentos o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Clic **[!UICONTROL Actualizar]** para actualizar los datos.
+1. Al seleccionar audiencias o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Clic **[!UICONTROL Actualizar]** para actualizar los datos.
 
    >[!NOTE]
    >
@@ -128,18 +128,9 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
    ![](../assets/activity_new-scope.png)
 
-   >[!NOTE]
-   >
-   >Al agregar varios ámbitos de decisión, el orden de los criterios de evaluación se verá afectado. [Más información](#multiple-scopes)
-
 ### Orden de criterios de evaluación {#evaluation-criteria-order}
 
 Como se ha descrito anteriormente, un criterio de evaluación consta de una colección, restricciones de elegibilidad y un método de clasificación. Puede establecer el orden secuencial que desee para que se evalúen los criterios de evaluación, pero también puede combinar varios criterios de evaluación para que se evalúen juntos y no por separado.
-
-#### Con un ámbito {#one-scope}
-
-
-Dentro de un único ámbito de decisión, varios criterios y su agrupación determinan la prioridad de los criterios y la clasificación de las ofertas aptas. El primer criterio tiene la prioridad más alta y los criterios combinados dentro del mismo &quot;grupo&quot; tienen la misma prioridad.
 
 Por ejemplo, tiene dos colecciones, una en los criterios de evaluación A y otra en los criterios de evaluación B. La solicitud es para que se devuelvan dos ofertas. Digamos que hay dos ofertas elegibles de los criterios de evaluación A y tres ofertas elegibles de los criterios de evaluación B.
 
@@ -150,131 +141,6 @@ Por ejemplo, tiene dos colecciones, una en los criterios de evaluación A y otra
 * Si las dos colecciones son **evaluado al mismo tiempo** Sin embargo, como hay dos ofertas elegibles de los criterios de evaluación A y tres ofertas elegibles de los criterios de evaluación B, las cinco ofertas se apilarán todas juntas en función del valor determinado por los métodos de clasificación respectivos. Se solicitan dos ofertas, por lo que se devolverán las dos ofertas aptas principales de estas cinco ofertas.
 
   ![](../assets/activity_same-rank-collections.png)
-
-+++ **Ejemplo con varios criterios**
-
-Veamos un ejemplo en el que tiene varios criterios para un único ámbito dividido en diferentes grupos.
-
-Ha definido tres criterios. Los criterios 1 y 2 se combinan en el grupo 1 y el criterio 3 es independiente (grupo 2).
-
-Las ofertas elegibles para cada criterio y su prioridad (utilizadas en la evaluación de la función de clasificación) son las siguientes:
-
-* Grupo 1:
-   * Criterios 1 - (Oferta 1, Oferta 2, Oferta 3) - Prioridad 1
-   * Criterios 2 - (Oferta 3, Oferta 4, Oferta 5) - Prioridad 1
-
-* Grupo 2:
-   * Criterios 3 - (Oferta 5, Oferta 6) - Prioridad 0
-
-Las ofertas de criterios de mayor prioridad se evalúan primero y se añaden a la lista de ofertas clasificadas.
-
-**Iteración 1:**
-
-Las ofertas de Criterios 1 y Criterio 2 se evalúan juntas (Oferta 1, Oferta 2, Oferta 3, Oferta 4, Oferta 5). Digamos que el resultado es:
-
-Oferta 1 - 10 Oferta 2 - 20 Oferta 3 - 30 de Criterios 1, 45 de Criterios 2. Se tendrá en cuenta el más alto de ambos, por lo que se tienen en cuenta 45.
-Oferta 4 - 40 Oferta 5 - 50
-
-Las ofertas clasificadas ahora son las siguientes: Oferta 5, Oferta 3, Oferta 4, Oferta 2, Oferta 1.
-
-**Iteración 2:**
-
-Se evalúan las ofertas de Criterios 3 (oferta 5, oferta 6). Digamos que el resultado es:
-
-* Oferta 5: no se evaluará porque ya existe en el resultado anterior.
-* Oferta 6 - 60
-
-Las ofertas clasificadas ahora son las siguientes: Oferta 5 , Oferta 3, Oferta 4, Oferta 2, Oferta 1, Oferta 6.
-
-+++
-
-#### Con varios ámbitos {#multiple-scopes}
-
-**Si la duplicación está desactivada**
-
-Cuando se agregan varios ámbitos de decisión a una decisión y no se permite la duplicación entre ubicaciones, las ofertas aptas se seleccionan secuencialmente en el orden de los ámbitos de decisión de la solicitud.
-
->[!NOTE]
->
->El **[!UICONTROL Permitir duplicados entre ubicaciones]** El parámetro se define en el nivel de ubicación. Si la duplicación se establece en &quot;False&quot; para cualquier ubicación en una solicitud de toma de decisiones, todas las ubicaciones de la solicitud heredarán la configuración &quot;False&quot;. [Más información sobre los parámetros de duplicación](../offer-library/creating-placements.md)
-
-Veamos un ejemplo en el que agregó dos ámbitos de decisión como:
-
-* Ámbito 1: hay cuatro ofertas aptas (Oferta 1, Oferta 2, Oferta 3, Oferta 4) y la solicitud es de dos ofertas para enviarse de vuelta.
-* Ámbito 2: hay cuatro ofertas aptas (Oferta 1, Oferta 2, Oferta 3, Oferta 4) y la solicitud es de dos ofertas para enviarse de vuelta.
-
-+++ **Ejemplo 1**
-
-La selección es la siguiente:
-
-1. Se devolverán las dos ofertas principales aptas del ámbito 1 (Oferta 1, Oferta 2).
-1. Se devolverán las dos ofertas principales elegibles restantes del ámbito 2 (oferta 3, oferta 4).
-
-+++
-
-+++ **Ejemplo 2**
-
-En este ejemplo, la oferta 1 ha alcanzado su límite de frecuencia. [Más información sobre la restricción de frecuencia](../offer-library/add-constraints.md#capping)
-
-La selección es la siguiente:
-
-1. Se devolverán las dos ofertas principales elegibles restantes del ámbito 1 (oferta 2, oferta 3).
-1. Se devuelve la oferta elegible restante del ámbito 2 (oferta 4).
-
-+++
-
-+++ **Ejemplo 3**
-
-En este ejemplo, la oferta 1 y la oferta 3 alcanzaron su límite de frecuencia. [Más información sobre la restricción de frecuencia](../offer-library/add-constraints.md#capping)
-
-La selección es la siguiente:
-
-1. Se devolverán las dos ofertas principales elegibles restantes del ámbito 1 (oferta 2, oferta 4).
-1. No quedan ofertas elegibles para el ámbito 2, por lo que la variable [oferta de reserva](#add-fallback) se devuelve.
-
-+++
-
-**Si la duplicación está activada**
-
-Cuando se permite la duplicación en todas las ubicaciones, la misma oferta se puede proponer varias veces en diferentes ubicaciones. Si se habilita, el sistema considerará la misma oferta para varias ubicaciones. [Más información sobre los parámetros de duplicación](../offer-library/creating-placements.md)
-
-Veamos el mismo ejemplo que arriba, donde agregó dos ámbitos de decisión, como:
-
-* Ámbito 1: hay cuatro ofertas aptas (Oferta 1, Oferta 2, Oferta 3, Oferta 4) y la solicitud es de dos ofertas para enviarse de vuelta.
-* Ámbito 2: hay cuatro ofertas aptas (Oferta 1, Oferta 2, Oferta 3, Oferta 4) y la solicitud es de dos ofertas para enviarse de vuelta.
-
-+++ **Ejemplo 1**
-
-La selección es la siguiente:
-
-1. Se devolverán las dos ofertas principales aptas del ámbito 1 (Oferta 1, Oferta 2).
-1. Se devolverán las dos mismas ofertas principales aptas del ámbito 2 (Oferta 1, Oferta 2).
-
-+++
-
-+++ **Ejemplo 2**
-
-En este ejemplo, la oferta 1 ha alcanzado su límite de frecuencia. [Más información sobre la restricción de frecuencia](../offer-library/add-constraints.md#capping)
-
-La selección es la siguiente:
-
-1. Se devolverán las dos ofertas principales elegibles restantes del ámbito 1 (oferta 2, oferta 3).
-
-1. Se devolverán las dos ofertas principales elegibles restantes del ámbito 2 (oferta 2, oferta 3).
-
-+++
-
-+++ **Ejemplo 3**
-
-En este ejemplo, la oferta 1 y la oferta 3 alcanzaron su límite de frecuencia. [Más información sobre la restricción de frecuencia](../offer-library/add-constraints.md#capping)
-
-La selección es la siguiente:
-
-1. Se devolverán las dos ofertas principales elegibles restantes del ámbito 1 (oferta 2, oferta 4).
-
-1. Se devolverán las dos ofertas principales elegibles restantes del ámbito 2 (oferta 2, oferta 4).
-
-+++
 
 ## Añadir una oferta de reserva {#add-fallback}
 
@@ -321,7 +187,7 @@ Seleccione el **[!UICONTROL Editar]** para volver al modo de edición de decisio
 
 >[!IMPORTANT]
 >
->Si se realizan cambios en una decisión de oferta que se utiliza en el mensaje de un recorrido, se debe cancelar la publicación del recorrido y volver a publicarlo.  Esto garantizará que los cambios se incorporen al mensaje del recorrido y que el mensaje sea coherente con las últimas actualizaciones.
+>Si se realizan cambios en una decisión de oferta que se está utilizando en el mensaje de un recorrido, debe cancelar la publicación del recorrido y volver a publicarlo.  Esto garantizará que los cambios se incorporen al mensaje del recorrido y que el mensaje sea coherente con las últimas actualizaciones.
 
 Seleccione una decisión activa y haga clic en **[!UICONTROL Desactivar]** para volver a establecer el estado de decisión en **[!UICONTROL Borrador]**.
 

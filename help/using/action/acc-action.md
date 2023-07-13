@@ -9,7 +9,7 @@ role: Admin,Developer
 level: Intermediate
 keywords: campaign, acc, integration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 22%
@@ -33,7 +33,7 @@ Para cada acción configurada, hay una actividad de acción disponible en la pal
 
 ## Notas importantes {#important-notes}
 
-* No se restringen los mensajes. El sistema limita el número de mensajes que se pueden enviar a 4000 cada 5 minutos, según el SLA de Campaign actual. Por este motivo, Journey Optimizer solo debe utilizarse en casos de uso unitarios (eventos individuales, no segmentos).
+* No se restringen los mensajes. El sistema limita el número de mensajes que se pueden enviar a 4000 cada 5 minutos, según el SLA de Campaign actual. Por este motivo, Journey Optimizer solo debe utilizarse en casos de uso unitarios (eventos individuales, no audiencias).
 
 * Debe configurar una acción en el lienzo por plantilla que desee utilizar. Debe configurar una acción en Journey Optimizer para cada plantilla que desee utilizar desde Adobe Campaign.
 
@@ -41,7 +41,7 @@ Para cada acción configurada, hay una actividad de acción disponible en la pal
 
 * No se valida que la carga útil o el mensaje de Campaign sean correctos.
 
-* No puede utilizar una acción de Campaign con un evento de calificación de segmentos.
+* No puede utilizar una acción de Campaign con un evento de calificación de audiencia.
 
 ## Requisitos previos {#prerequisites}
 

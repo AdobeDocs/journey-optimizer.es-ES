@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: recorrido, descubrimiento, puesta en marcha
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 24%
+source-wordcount: '588'
+ht-degree: 21%
 
 ---
 
@@ -22,13 +22,13 @@ Uso [!DNL Journey Optimizer] para crear casos de uso de orquestación en tiempo 
 
 Diseñe escenarios avanzados de varios pasos con las siguientes capacidades:
 
-* Enviar en tiempo real **envío unitario** se activa cuando se recibe un evento, o **en lote** uso de segmentos de Adobe Experience Platform.
+* Envío en tiempo real **envío unitario** se activa cuando se recibe un evento, o **en lote** uso de audiencias de Adobe Experience Platform.
 
 * Aprovechar **datos contextuales** desde eventos, información de Adobe Experience Platform o datos de servicios API de terceros.
 
 * Utilice el **acciones integradas** para enviar mensajes diseñados en [!DNL Journey Optimizer] o crear **acciones personalizadas** si utiliza un sistema de terceros para enviar sus mensajes.
 
-* Con la variable **diseñador de recorridos**, cree sus casos de uso de varios pasos: arrastre y suelte fácilmente un evento de entrada o una actividad de segmento de lectura, agregue condiciones y envíe mensajes personalizados.
+* Con el **diseñador de recorridos**, cree sus casos de uso de varios pasos: arrastre y suelte fácilmente un evento de entrada o una actividad de audiencia de lectura, añada condiciones y envíe mensajes personalizados.
 
 
 >[!NOTE]
@@ -47,7 +47,7 @@ Adobe Journey Optimizer incluye un lienzo de orquestación omnicanal que permite
 
 Obtenga información sobre cómo iniciar y crear su primer recorrido en [esta página](journey-gs.md).
 
-El diseñador de recorridos omnicanal le ayuda a construir recorridos de varios pasos, dirigidos específicamente a audiencias e incorporando actualizaciones basadas en las interacciones comerciales o de clientes en tiempo real. También le permite crear mensajes omnicanal mediante una interfaz intuitiva de arrastrar y soltar.
+El diseñador de recorridos omnicanal le ayuda a crear recorridos de varios pasos con audiencias de destino, actualizaciones basadas en interacciones comerciales o de clientes en tiempo real, y mensajes omnicanal mediante una interfaz intuitiva de arrastrar y soltar.
 
 ![](assets/journey38.png)
 

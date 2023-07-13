@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '2595'
+source-wordcount: '2453'
 ht-degree: 95%
 
 ---
@@ -22,46 +22,47 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Regístrese para la [Newsletter trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoy y reciba las últimas actualizaciones de productos, artículos interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.
 
 
-
-## Notas de la versión de junio de 2023 {#june-rn-2023}
-
 <!--
+## June 2023 early release notes {#june-rn-2023}
+
 Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**Release date**: June 21-22, 2023-->
+**Release date**: June 21-22, 2023
 
-
-<!-- ### New capabilities{#june-2023-features}-->
+### New capabilities{#june-2023-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Campañas activadas por API para casos de uso de marketing</strong><br/></th>
+<th><strong>API-triggered campaigns for marketing use cases</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede utilizar las API para activar las campañas de marketing en Adobe Journey Optimizer desde un sistema externo.</p>
-<p>Hasta esta versión, la capacidad de campañas activadas por API cubría varias necesidades operativas y de mensajería transaccional, como los restablecimientos de contraseña o el token OTP, pero no se podía utilizar para crear campañas de marketing. Los canales disponibles para las campañas activadas por API son: correo electrónico, SMS y mensajes push.</p>
+<p>You can now use APIs to trigger marketing campaigns in Adobe Journey Optimizer from an external system.</p>
+<p>Until this release, API-triggered campaigns capability was covering various operational and transactional messaging needs like password resets or OTP token, but could not be used to create marketing campaigns. Available channels for API-triggered campaigns are: Email, SMS and Push messages.</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
-<p>Para obtener más información, consulte la <a href="../campaigns/api-triggered-campaigns.md">documentación detallada</a>.
+<p>For more information, refer to the <a href="../campaigns/api-triggered-campaigns.md">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
+
 ### Improvements {#june-2023-improvements}
 
 
 **Audiences**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.	
+
 
 **Journeys**
 
-You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.	 
+
+* A new type of system alert has been introduced. You can now get notified when a custom action fails.
 -->
 
 ## Notas de la versión de mayo de 2023 {#may-rn-2023}
@@ -79,7 +80,7 @@ You can now leverage API call responses in custom actions and orchestrate your j
 <tr>
 <td>
 <p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) to create new audiences. Newly created audiences are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged in Journey Optimizer campaigns to target customers.</p>
-<img src="../segment/assets/audiences-publish.png"/>
+<img src="../audience/assets/audiences-publish.png"/>
 <!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -170,7 +171,7 @@ You can now leverage API call responses in custom actions and orchestrate your j
 <tbody>
 <tr>
 <td>
-<p>Los modelos de clasificación de IA de optimización personalizada ahora están disponibles de forma general en Gestión de decisiones. Este nuevo tipo de modelo le permite optimizar y personalizar ofertas en función de segmentos y ofrecer rendimiento.</p>
+<p>Los modelos de clasificación de IA de optimización personalizada ahora están disponibles de forma general en Gestión de decisiones. Este nuevo tipo de modelo le permite optimizar y personalizar ofertas basadas en audiencias y ofrecer rendimiento.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Para obtener más información, consulte la <a href="../offers/ranking/personalized-optimization-model.md">documentación detallada</a>.</p>
 </td>
@@ -301,11 +302,9 @@ You can now leverage API call responses in custom actions and orchestrate your j
 
 * El lienzo del recorrido muestra ahora el ID de actividad en las actividades de mensajes y las etiquetas finales. Esto mejora la creación de informes y la segmentación
 * Se ha mejorado el diseño del panel de configuración, que aparece en acciones, fuentes de datos, eventos y recorridos.
+* Nuevo conocimiento del número de nodos en lienzo con garantías para ayudar a crecer: mantenga los recorridos fáciles de leer, realice controles de calidad y solucione problemas con un número máximo de nodos por recorrido a 50. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
 * Al añadir un [Correo electrónico](../email/create-email.md), [SMS](../sms/create-sms.md) o [Push](../push/create-push.md) en un recorrido, la superficie se rellena ahora previamente, de forma predeterminada, con la última superficie utilizada para dicho canal, en el recorrido actual.
 * Ahora puede definir parámetros de consulta estáticos o dinámicos en sus acciones personalizadas. [Más información](../action/about-custom-action-configuration.md#url-configuration)
-* Nuevas protecciones para administrar el crecimiento de las experiencias que ofrecen los Recorridos:
-   * Le recomendamos que mantenga el número de nodos limitado a 50 o menos para mantener sus recorridos funcionando, fácil de leer, realizar un control de calidad y solucionar problemas. El número de actividades se muestra en la sección superior izquierda del lienzo de recorrido. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
-   * A medida que desarrolle e inicie recorridos, le notificaremos cuando se aproxime al hito de 100 recorridos activos a la vez. Si sus planes requieren más de 100 recorridos a la vez, cree un ticket para recibir asistencia después de ver la notificación y le ayudaremos. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
 
 **Creación de informes**
 
@@ -378,8 +377,8 @@ You can now leverage API call responses in custom actions and orchestrate your j
 * El lienzo de recorrido se ha mejorado para que la experiencia del usuario sea más sencilla y mejorada. Al final de cada ruta en el lienzo, se han eliminado los marcadores vacíos. Ahora puede simplemente agregar sus actividades arrastrándolas al final de una ruta.
 * En el lienzo del recorrido, la etiqueta de **Fin** ya no se configura automáticamente con el nombre de la actividad anterior. Los usuarios pueden agregar manualmente una etiqueta personalizada si es necesario.
 * El tiempo de espera predeterminado y la duración del error en las propiedades del recorrido han cambiado de 5 a 30 segundos. [Más información](../configuration/external-systems.md#timeout)
-* La tasa de limitación predeterminada en las actividades de segmentos de lectura ha cambiado de 20 000 a 5000 mensajes por segundo. [Más información](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* Se ha añadido un mecanismo de protección al modo de prueba para escuchar solo los eventos enviados a través de la interfaz. No se tienen en cuenta los eventos enviados a través de una herramienta externa. [Más información](../building-journeys/testing-the-journey.md)
+* La tasa de regulación predeterminada en las actividades de audiencia de lectura se ha cambiado de 20 000 a 5 000 mensajes por segundo. [Más información](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* Se ha añadido un mecanismo de protección al modo de prueba para escuchar solo los eventos enviados a través de la interfaz. Los eventos enviados a través de una herramienta externa no se tienen en cuenta. [Más información](../building-journeys/testing-the-journey.md)
 
 
 <!-- 
@@ -509,9 +508,9 @@ Note that each widget can be resized and deleted as needed.
 
 **Recorridos**
 
-* El campo **Período de espera de reentrada** se ha añadido a las propiedades del recorrido. Este campo permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en recorridos unitarios (empezando por un evento o una calificación de segmentos). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos. [Más información](../building-journeys/journey-gs.md#entrance)
+* El campo **Período de espera de reentrada** se ha añadido a las propiedades del recorrido. Este campo le permite definir el tiempo de espera antes de permitir que un perfil vuelva a introducir el recorrido en recorridos unitarios (empezando por un evento o una calificación de audiencia). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos. [Más información](../building-journeys/journey-gs.md#entrance)
 
-* Se han realizado mejoras para las **fechas de inicio y finalización del recorrido**. Si no ha especificado una fecha de inicio, se añadirá ahora automáticamente en el momento de la publicación. Para los recorridos **Lectura de segmento**, ahora puede añadir una fecha de finalización. Esto permite que los perfiles salgan automáticamente cuando se alcanza la fecha. [Más información](../building-journeys/journey-gs.md#dates)
+* Se han realizado mejoras para las **fechas de inicio y finalización del recorrido**. Si no ha especificado una fecha de inicio, se añadirá ahora automáticamente en el momento de la publicación. Para **Leer audiencia** recorridos, ahora puede añadir una fecha de finalización. Esto permite que los perfiles salgan automáticamente cuando se alcanza la fecha. [Más información](../building-journeys/journey-gs.md#dates)
 
 <!--
 
@@ -585,7 +584,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Recorridos**
 
-* Al añadir **Clasificación del segmento** o **Leer segmento** en un recorrido, el área de nombres ahora se rellena previamente, de forma predeterminada, con la última utilizada. Consulte las secciones [Clasificación del segmento](../building-journeys/segment-qualification-events.md#about-segment-qualification) y [Leer segmento](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
+* Al añadir un **Calificación de audiencia** o **Leer audiencia** en un recorrido, el área de nombres ahora se rellena previamente, de forma predeterminada, con el área de nombres utilizado por última vez. Consulte la [Calificación de audiencia](../building-journeys/audience-qualification-events.md#about-segment-qualification) y [Leer audiencia](../building-journeys/read-audience.md#configuring-segment-trigger-activity) secciones.
 
 * En el lienzo del recorrido, hay un nuevo botón disponible en la barra de herramientas que le permite descargar una captura de pantalla del recorrido.
 

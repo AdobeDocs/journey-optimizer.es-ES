@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: lista de permitidos, lista, seguro, configuración
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 14%
@@ -201,7 +201,7 @@ Cuando la lista de permitidos es [activo](#enable-allow-list), se aplica la sigu
 
 >[!NOTE]
 >
->Los perfiles con **[!UICONTROL No permitido]** Los estados de se excluyen durante el proceso de envío de mensajes. Por lo tanto, mientras que la variable **informes de recorrido** mostrará estos perfiles como si se hubieran movido a través del recorrido ([Leer segmento](../building-journeys/read-segment.md) y [actividades de mensajería](../building-journeys/journeys-message.md)), el **Informes de correo electrónico** no los incluirá en la **[!UICONTROL Enviado]** las métricas tal como se filtran antes del envío de correo electrónico.
+>Los perfiles con **[!UICONTROL No permitido]** Los estados de se excluyen durante el proceso de envío de mensajes. Por lo tanto, mientras que la variable **informes de recorrido** mostrará estos perfiles como si se hubieran movido a través del recorrido ([Leer audiencia](../building-journeys/read-audience.md) y [actividades de mensajería](../building-journeys/journeys-message.md)), el **Informes de correo electrónico** no los incluirá en la **[!UICONTROL Enviado]** las métricas tal como se filtran antes del envío de correo electrónico.
 >
 >Obtenga más información sobre [Informe en vivo](../reports/live-report.md) y [Informe global](../reports/global-report.md).
 

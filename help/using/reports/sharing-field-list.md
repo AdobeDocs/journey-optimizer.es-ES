@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 19%
@@ -59,12 +59,12 @@ Este mixin contiene todos los campos correspondientes a un trabajo de exportaci�
 
 | Nombre del campo | Tipo | Descripción |
 |---|---|------------|
-| ID | Cadena | El identificador del trabajo de exportación de segmentos activado |
-| status | Cadena | El estado del trabajo de exportación de segmentos: en cola, iniciado, finalizado |
-| exportCountTotal | Número entero | El valor máximo posible del trabajo de exportación de segmentos |
-| exportCountRealized | Número entero | El número real de segmentos exportados a través del trabajo |
-| exportCountFailed | Número entero | El número de segmentos que fallaron al exportar a través del trabajo |
-| exportSegmentID | Cadena | El identificador del segmento que se exporta |
+| ID | Cadena | El identificador del trabajo de exportación de audiencia activado |
+| status | Cadena | El estado del trabajo de exportación de audiencia: en cola, iniciado, finalizado |
+| exportCountTotal | Número entero | El valor máximo posible del trabajo de exportación de audiencia |
+| exportCountRealized | Número entero | El número real de audiencias exportadas a través del trabajo |
+| exportCountFailed | Número entero | El número de audiencias que fallaron al exportar a través del trabajo |
+| exportSegmentID | Cadena | El identificador de la audiencia que se exporta |
 | eventType | Cadena | El tipo de evento que indica si es un evento de error del evento de información: Información, Error |
 | eventCode | Cadena | El código de error que indica el motivo del eventType correspondiente |
 

@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 22752a30fef53808fa9deb80a2053d5bc22abc95
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '363'
 ht-degree: 4%
 
 ---
@@ -94,7 +94,7 @@ El `elseif` especificará una nueva condición para probar si la primera instruc
    {%/if%}
    ```
 
-1. **Contenido condicional basado en el abono a segmentos**
+1. **Contenido condicional basado en la pertenencia a audiencias**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -106,7 +106,7 @@ El `elseif` especificará una nueva condición para probar si la primera instruc
 
 >[!NOTE]
 >
->Para obtener más información sobre la segmentación y el servicio de segmentación, consulte [sección](../../segment/about-segments.md).
+>Para obtener más información sobre las audiencias y el servicio de segmentación, consulte [sección](../../audience/about-audiences.md).
 
 
 ## Unless{#unless}

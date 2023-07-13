@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: volver a entrar, recorrido, finalizar, en directo, detener
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 3%
@@ -54,7 +54,7 @@ Un recorrido se puede cerrar por los siguientes motivos:
 
 * El recorrido se cierra manualmente a través de la **[!UICONTROL Cerca de nuevas entradas]** botón.
 * Un recorrido basado en segmentos de una sola toma que ha terminado de ejecutarse.
-* Después de la última aparición de un recorrido recurrente basado en segmentos.
+* Después de la última aparición de un recorrido recurrente basado en audiencias.
 
 Cerrar un recorrido manualmente garantiza que los clientes que ya han introducido el recorrido puedan finalizar su ruta, pero que los nuevos usuarios no puedan entrar en el recorrido. Cuando un recorrido está cerrado (por cualquiera de los motivos anteriores), tiene el estado **[!UICONTROL Cerrado]**. El recorrido deja de permitir que nuevas personas entren en el recorrido. Las personas que ya están en el recorrido pueden terminar el recorrido normalmente. Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará a la variable **Finalizado** estado. Consulte esta [sección](../building-journeys/journey-gs.md#global_timeout).
 

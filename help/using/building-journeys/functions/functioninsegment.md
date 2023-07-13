@@ -7,32 +7,32 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inSegment, function, expression, recorrido
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '201'
 ht-degree: 6%
 
 ---
 
 # inSegment {#inSegment}
 
-Comprueba si un individuo pertenece a un segmento determinado.
+Comprueba si un individuo pertenece a una audiencia determinada.
 
 >[!NOTE]
 >
->Puede recuperar hasta 100 segmentos.
+>Puede recuperar hasta 100 audiencias.
 
-El nombre del segmento debe ser una constante de cadena. No puede ser una referencia de campo ni una expresión.
+El nombre de la audiencia debe ser una constante de cadena. No puede ser una referencia de campo ni una expresión.
 
-Los segmentos se definen en la [Adobe Experience Platform](https://platform.adobe.com/segment/overview). El editor de expresiones proporciona una lista autocompletada de segmentos.
+Las audiencias se definen en la variable [Adobe Experience Platform](https://platform.adobe.com/audience/overview). El editor de expresiones proporciona una lista autocompletada de audiencias.
 
-Los segmentos pueden tener tres estados:
+Las audiencias pueden tener tres estados:
 
-* existente: la entidad sigue estando en el segmento.
-* realizado: la entidad se está introduciendo en el segmento.
-* saliente: la entidad sale del segmento.
+* existente: la entidad sigue estando en la audiencia.
+* realizado: la entidad se introduce en la audiencia.
+* saliente: la entidad sale de la audiencia.
 
-Solo las personas con el **Realizado** y **Existente** los estados de participación en el segmento se considerarán miembros del mismo. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
+Solo las personas con el **Realizado** y **Existente** los estados de participación de la audiencia se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [Documentación del Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` significa que tiene una pertenencia a segmento con el estado introducido/existente.
 
@@ -50,7 +50,7 @@ Adobe Experience Platform
 
 | Parámetro | Descripción | Tipo |
 |--- |--- |--- |
-| Segmento | El nombre del segmento | `<string>` |
+| Segmento | El nombre de la audiencia | `<string>` |
 
 ## Firma y tipo devuelto
 
@@ -64,4 +64,4 @@ Devuelve un valor booleano.
 
 Explicación:
 
-La función devolverá **[!UICONTROL true]** si el individuo dentro de la instancia de recorrido es parte del segmento de Adobe Experience Platform denominado &quot;hombres mayores de 50 años&quot;, **[!UICONTROL false]** de lo contrario.
+La función devolverá **[!UICONTROL true]** si el individuo dentro de la instancia de recorrido es parte de la audiencia de Adobe Experience Platform denominada &quot;hombres mayores de 50 años&quot;, **[!UICONTROL false]** de lo contrario.

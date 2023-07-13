@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: perfil, actualizar, recorrido, actividad
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 9%
@@ -58,11 +58,11 @@ Utilice el **[!UICONTROL Actualizar perfil]** actividad de acción para actualiz
 
    * Con el editor de expresiones simple, puede seleccionar un campo de una fuente de datos o del evento entrante.
 
-      ![](assets/profileupdate4.png)
+     ![](assets/profileupdate4.png)
 
    * Si desea definir un valor específico o aprovechar funciones avanzadas, haga clic en **Modo avanzado**.
 
-      ![](assets/profileupdate3.png)
+     ![](assets/profileupdate3.png)
 
 El **Actualizar perfil** ahora está configurado.
 
@@ -75,4 +75,4 @@ En el modo de prueba, la actualización de perfil no se simula. La actualizació
 
 Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba. Puede crear un nuevo perfil de prueba o convertir un perfil existente en un perfil de prueba. En Adobe Experience Platform, puede actualizar los atributos de perfiles mediante una importación de archivos csv o llamadas API. Un método más sencillo es utilizar una **Actualizar perfil** actividad de acción y cambie el campo booleano de perfil de prueba de false a true.
 
-Para obtener más información sobre cómo convertir un perfil existente en un perfil de prueba, consulte [sección](../segment/creating-test-profiles.md#create-test-profiles-csv).
+Para obtener más información sobre cómo convertir un perfil existente en un perfil de prueba, consulte [sección](../audience/creating-test-profiles.md#create-test-profiles-csv).
