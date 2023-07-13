@@ -7,14 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 91%
+source-wordcount: '273'
+ht-degree: 90%
 
 ---
 
@@ -25,22 +23,7 @@ ht-degree: 91%
 >title="Crear una composición"
 >abstract="Cree un flujo de trabajo de composición para combinar las audiencias de Adobe Experience Platform existentes en un lienzo visual y aproveche varias actividades (división, exclusión…) para crear nuevas audiencias."
 
->[!BEGINSHADEBOX]
-
-Lo que encontrará en esta documentación:
-
-* **[Introducción a Composición de audiencias](get-started-audience-orchestration.md)**
-* [Creación del primer flujo de trabajo de composición](create-compositions.md)
-* [Trabajo con el lienzo de composición](composition-canvas.md)
-* [Acceso y administración de audiencias](access-audiences.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->La composición de público solo está disponible para un grupo limitado de clientes en este momento. Si tiene alguna pregunta, póngase en contacto con el representante de Adobe.
-
-La composición de públicos le permite crear **flujos de trabajo de composición**, donde puede combinar públicos de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (división, exclusión...) para crear nuevas audiencias.
+La composición de audiencias le permite crear **flujos de trabajo de composición**, donde puede combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (divididas, excluidas...) para crear nuevas audiencias.
 
 Cuando haya finalizado, las **audiencias resultantes** se guardarán en Adobe Experience Platform junto con audiencias existentes y se podrán **aprovechar en campañas** para dirigirse a los clientes. [Descubra cómo trabajar con campañas](../campaigns/get-started-with-campaigns.md)
 

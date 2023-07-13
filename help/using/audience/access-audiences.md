@@ -7,29 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 17%
+source-wordcount: '136'
+ht-degree: 6%
 
 ---
 
 # Acceso y administración de audiencias {#access-manage-audiences}
-
->[!BEGINSHADEBOX]
-
-Lo que encontrará en esta documentación:
-
-* [Introducción a Composición de audiencias](get-started-audience-orchestration.md)
-* [Creación del primer flujo de trabajo de composición](create-compositions.md)
-* [Trabajo con el lienzo de composición](composition-canvas.md)
-* **[Acceso y administración de audiencias](access-audiences.md)**
-
->[!ENDSHADEBOX]
 
 Se puede acceder a las audiencias resultantes de la composición de audiencias desde el **[!UICONTROL Examinar]** en la pestaña **[!UICONTROL Audiencias]** menú.
 
@@ -38,8 +25,6 @@ Esta pestaña enumera todas las audiencias almacenadas en Adobe Experience Platf
 ![](assets/audiences-list.png)
 
 >[!NOTE]
->
->En esta versión beta, varios componentes o metadatos que se mostraron inicialmente en el inventario de audiencias no aparecen en esta pestaña (por ejemplo: desglose, método de evaluación, etc.).
 >
 >Para obtener más información sobre otros tipos de audiencias disponibles en Adobe Experience Platform, consulte la [Documentación del Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 

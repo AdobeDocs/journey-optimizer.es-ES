@@ -7,29 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 26%
+source-wordcount: '1354'
+ht-degree: 24%
 
 ---
 
 # Trabajo con el lienzo de composición {#composition-canvas}
-
->[!BEGINSHADEBOX]
-
-Lo que encontrará en esta documentación:
-
-* [Introducción a Composición de audiencias](get-started-audience-orchestration.md)
-* [Creación del primer flujo de trabajo de composición](create-compositions.md)
-* **[Trabajo con el lienzo de composición](composition-canvas.md)**
-* [Acceso y administración de audiencias](access-audiences.md)
-
->[!ENDSHADEBOX]
 
 Composición de audiencia proporciona un lienzo visual que le permite crear audiencias y utilizar varias actividades (dividir, enriquecer, etc.).
 
@@ -151,6 +138,8 @@ El **[!UICONTROL Excluir]** esta actividad le permite excluir perfiles de la com
 El **[!UICONTROL Enriquecer]** La actividad de le permite enriquecer su audiencia con atributos adicionales procedentes de conjuntos de datos de Adobe Experience Platform. Por ejemplo, puede añadir información relacionada con el producto comprado, como su nombre, precio o ID de fabricante, y aprovechar esta información para personalizar las entregas enviadas a la audiencia.
 
 >[!IMPORTANT]
+>
+>El enriquecimiento está disponible para **[!UICONOTROL Adobe Journey Optimizer]** solo usuarios de.
 >
 >Por ahora, las etiquetas del conjunto de datos, ya sea en el nivel del conjunto de datos o de campo, no se propagan a la audiencia recién creada. Esto puede afectar al control de acceso o al control de datos de la audiencia resultante. Por este motivo, al componer audiencias, utilice únicamente datos de prueba.
 

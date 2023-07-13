@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, publicación
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
 source-wordcount: '1583'
 ht-degree: 27%
@@ -205,7 +205,7 @@ Para definir la configuración de la subpágina, siga los pasos a continuación.
 >id="ac_preview_lp_profiles"
 >title="Previsualizar y probar la página de aterrizaje"
 >abstract="Una vez que haya definido la configuración y el contenido de la página de aterrizaje, puede utilizar perfiles de prueba para previsualizarlos."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audience/profiles/creating-test-profiles.html" text="Seleccionar perfiles de prueba"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html" text="Seleccionar perfiles de prueba"
 
 Una vez definida la configuración y el contenido de la página de aterrizaje, puede utilizar perfiles de prueba para previsualizarlo. Si ha insertado [contenido personalizado](../personalization/personalize.md), podrá comprobar cómo se muestra este contenido en la página de aterrizaje mediante los datos de perfil de prueba.
 
