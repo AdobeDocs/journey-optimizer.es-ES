@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, publicación
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1583'
 ht-degree: 27%
@@ -205,7 +205,7 @@ Para definir la configuración de la subpágina, siga los pasos a continuación.
 >id="ac_preview_lp_profiles"
 >title="Previsualizar y probar la página de aterrizaje"
 >abstract="Una vez que haya definido la configuración y el contenido de la página de aterrizaje, puede utilizar perfiles de prueba para previsualizarlos."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html?lang=es" text="Seleccionar perfiles de prueba"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audience/profiles/creating-test-profiles.html" text="Seleccionar perfiles de prueba"
 
 Una vez definida la configuración y el contenido de la página de aterrizaje, puede utilizar perfiles de prueba para previsualizarlo. Si ha insertado [contenido personalizado](../personalization/personalize.md), podrá comprobar cómo se muestra este contenido en la página de aterrizaje mediante los datos de perfil de prueba.
 
@@ -213,7 +213,7 @@ Una vez definida la configuración y el contenido de la página de aterrizaje, p
 >
 >Para poder probar las páginas de aterrizaje, debe tener el **[!UICONTROL Publicar mensajes]** permiso.
 >
->Debe tener perfiles de prueba disponibles para poder previsualizar los mensajes y enviar pruebas. Obtenga información sobre cómo [creación de perfiles de prueba](../segment/creating-test-profiles.md).
+>Debe tener perfiles de prueba disponibles para poder previsualizar los mensajes y enviar pruebas. Obtenga información sobre cómo [creación de perfiles de prueba](../audience/creating-test-profiles.md).
 
 1. En la interfaz de la página de aterrizaje, haga clic en **[!UICONTROL Simular contenido]** para acceder a la selección del perfil de prueba.
 

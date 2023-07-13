@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2385'
-ht-degree: 17%
+ht-degree: 15%
 
 ---
 
@@ -64,7 +64,7 @@ Por ejemplo, si establece las restricciones siguientes:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="Definir idoneidad"
->abstract="De forma predeterminada, cualquier perfil podrá recibir la oferta, pero puede utilizar segmentos o reglas de decisión para restringir la oferta a perfiles específicos."
+>abstract="De forma predeterminada, cualquier perfil puede optar a la presentación de la oferta, pero se pueden utilizar audiencias o reglas de decisión para restringir la oferta a perfiles específicos."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -75,21 +75,21 @@ Por ejemplo, si establece las restricciones siguientes:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
 >title="Estimación total del perfil"
->abstract="Al seleccionar segmentos o reglas de decisión, puede ver información sobre los perfiles cualificados estimados."
+>abstract="Al seleccionar audiencias o reglas de decisión, puede ver información sobre los perfiles cualificados estimados."
 
-El **[!UICONTROL Idoneidad de oferta]** permite restringir la oferta a perfiles específicos que defina mediante segmentos o reglas de decisión.
+El **[!UICONTROL Idoneidad de oferta]** permite restringir la oferta a perfiles específicos que defina mediante audiencias o reglas de decisión.
 
 >[!NOTE]
 >
->Más información sobre el uso de **segmentos** frente **reglas de decisión** in [esta sección](#segments-vs-decision-rules).
+>Más información sobre el uso de **audiencias** frente **reglas de decisión** in [esta sección](#segments-vs-decision-rules).
 
 * De forma predeterminada, la variable **[!UICONTROL Todos los visitantes]** está seleccionada, lo que significa que cualquier perfil puede optar a la presentación de la oferta.
 
   ![](../assets/offer-eligibility-default.png)
 
-* También puede limitar la presentación de la oferta a los miembros de uno o varios [Segmentos de Adobe Experience Platform](../../segment/about-segments.md).
+* También puede limitar la presentación de la oferta a los miembros de uno o varios [Audiencias de Adobe Experience Platform](../../audience/about-audiences.md).
 
-  Para ello, active la variable **[!UICONTROL Visitantes que pertenecen a uno o varios segmentos]** y, a continuación, añada uno o varios segmentos desde el panel izquierdo y combínelos con la opción **[!UICONTROL Y]** / **[!UICONTROL O]** operadores lógicos.
+  Para ello, active la variable **[!UICONTROL Visitantes de una o varias audiencias]** y, a continuación, añada una o varias audiencias desde el panel izquierdo y combínelas con la opción **[!UICONTROL Y]** / **[!UICONTROL O]** operadores lógicos.
 
   ![](../assets/offer-eligibility-segment.png)
 
@@ -101,7 +101,7 @@ El **[!UICONTROL Idoneidad de oferta]** permite restringir la oferta a perfiles 
   >
   >Actualmente no se admiten ofertas basadas en eventos en [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, no podrá aprovecharlo en una oferta de.
 
-Al seleccionar segmentos o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Clic **[!UICONTROL Actualizar]** para actualizar los datos.
+Al seleccionar audiencias o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Clic **[!UICONTROL Actualizar]** para actualizar los datos.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -109,17 +109,17 @@ Al seleccionar segmentos o reglas de decisión, puede ver información sobre los
 >
 >Las estimaciones de perfil no están disponibles cuando los parámetros de regla incluyen datos que no están en el perfil, como datos de contexto. Por ejemplo, una regla de idoneidad que requiere que el clima actual sea de ≥80 grados.
 
-### Uso de segmentos frente a reglas de decisión {#segments-vs-decision-rules}
+### Uso de audiencias o reglas de decisión {#segments-vs-decision-rules}
 
-Para aplicar una restricción, puede restringir la selección de ofertas a los miembros de una o varias **Segmentos de Adobe Experience Platform**, o puede usar una **regla de decisión**, ambas soluciones correspondientes a diferentes usos.
+Para aplicar una restricción, puede restringir la selección de ofertas a los miembros de una o varias **Audiencias de Adobe Experience Platform**, o puede usar una **regla de decisión**, ambas soluciones correspondientes a diferentes usos.
 
-Básicamente, el resultado de un segmento es una lista de perfiles, mientras que una regla de decisión es una función ejecutada a petición en un único perfil durante el proceso de toma de decisiones. A continuación se detalla la diferencia entre estos dos usos.
+Básicamente, el resultado de una audiencia es una lista de perfiles, mientras que una regla de decisión es una función ejecutada a petición en un único perfil durante el proceso de toma de decisiones. A continuación se detalla la diferencia entre estos dos usos.
 
-* **Segmentos**
+* **Audiencias**
 
-  Por un lado, los segmentos son un grupo de perfiles de Adobe Experience Platform que coinciden con una lógica determinada en función de atributos de perfil y eventos de experiencia. Sin embargo, Administración de ofertas no vuelve a calcular el segmento, que puede no estar actualizado al presentar la oferta.
+  Por un lado, las audiencias son un grupo de perfiles de Adobe Experience Platform que coinciden con una lógica determinada en función de atributos de perfil y eventos de experiencia. Sin embargo, Administración de ofertas no vuelve a calcular la audiencia, que puede no estar actualizada al presentar la oferta.
 
-  Más información sobre los segmentos en [esta sección](../../segment/about-segments.md).
+  Más información sobre las audiencias en [esta sección](../../audience/about-audiences.md).
 
 * **Reglas de decisión**
 

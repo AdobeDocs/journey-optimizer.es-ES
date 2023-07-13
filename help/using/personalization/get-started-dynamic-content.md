@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, introducción, condiciones, inicio
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 100%
+source-wordcount: '148'
+ht-degree: 68%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_conditions_list"
 >title="Condiciones"
->abstract="Las reglas condicionales permiten mostrar varias variantes de contenido en sus mensajes en función de atributos de perfil, eventos contextuales o segmentos de audiencia."
+>abstract="Las reglas condicionales permiten mostrar varias variantes de contenido en los mensajes en función de atributos de perfil, eventos contextuales o audiencias."
 
-El contenido dinámico le permite adaptar el contenido de sus mensajes en función de **reglas condicionales** que pueden estar formadas por atributos de perfil, eventos contextuales o segmentos de audiencia. Las reglas condicionales se crean mediante un generador de reglas visual dentro del Editor de expresiones, donde puede almacenarlas para su reutilización en los recorridos y campañas.
+El contenido dinámico le permite adaptar el contenido de sus mensajes en función de **reglas condicionales** que puede estar formado por atributos de perfil, eventos contextuales o audiencias. Las reglas condicionales se crean mediante un generador de reglas visual dentro del Editor de expresiones, donde puede almacenarlas para su reutilización en los recorridos y campañas.
 
 Las reglas condicionales se pueden aprovechar en el Diseñador de correo electrónico y en el editor de expresiones para **crear contenido dinámico** que se adaptará a los perfiles segmentados en los mensajes.
 

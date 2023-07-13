@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
-workflow-type: ht
-source-wordcount: '431'
-ht-degree: 100%
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 83%
 
 ---
 
@@ -21,14 +21,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campañas"
->abstract="Cree campañas para ofrecer contenido de una sola vez a un segmento específico en varios canales. Antes de crear la campaña, asegúrese de que tiene una superficie de canal (es decir, un ajuste preestablecido de mensaje) y un segmento de Adobe Experience Platform listos para usar."
+>abstract="Cree campañas para ofrecer contenido de una sola vez a una audiencia específica en varios canales. Antes de crear la campaña, asegúrese de tener una superficie de canal (es decir, un ajuste preestablecido de mensaje) y una audiencia de Adobe Experience Platform lista para usar."
 
-Utilice campañas de Journey Optimizer para ofrecer contenido único a un segmento específico mediante varios canales. Cuando se utilizan recorridos, las acciones se ejecutan en secuencia. Con las campañas, las acciones se realizan simultáneamente, ya sea de forma inmediata o en función de una programación especificada.
+Utilice campañas de Journey Optimizer para ofrecer contenido único a una audiencia específica mediante varios canales. Cuando se utilizan recorridos, las acciones se ejecutan en secuencia. Con las campañas, las acciones se realizan simultáneamente, ya sea de forma inmediata o en función de una programación especificada.
 
 Puede crear dos tipos de campañas:
 
 * **Campañas programadas** le permite comunicaciones por lotes ad-hoc sencillas para casos de uso de marketing, como ofertas promocionales, campañas de participación, anuncios, avisos legales o actualizaciones de políticas.
-* Las **campañas activadas por API** permiten que las comunicaciones de marketing lleguen a un público en el momento adecuado o que los mensajes transaccionales/operativos lleguen a una persona individual, como un restablecimiento de contraseña. Este acto puede implicar una personalización no solo mediante el uso del atributo de perfil, sino también mediante los datos de contexto en tiempo real en el activador, que es una carga útil de API de REST.
+* **Campañas activadas por API** permiten mensajes transaccionales/operativos simples con las API de REST (restablecimiento de contraseña, abandono del carro de compras, etc.), donde la necesidad puede implicar personalización mediante atributos de perfil y datos contextuales de la carga útil.
 
 Los pasos principales para crear una regla de tipología son los siguientes:
 
@@ -66,7 +66,7 @@ Compruebe los siguientes requisitos previos antes de empezar a crear la primera 
 
 +++
 
-1. **Necesita una audiencia**. Los segmentos de audiencia deben estar disponibles antes de crear la campaña. Más información sobre la creación de audiencia [en esta página](../segment/about-segments.md).
+1. **Necesita una audiencia**. Las audiencias deben estar disponibles antes de crear la campaña. Más información sobre las audiencias [en esta página](../audience/about-audiences.md).
 1. **Necesita una superficie de canal**. Para poder seleccionar un canal, debe tener la superficie del canal correspondiente (es decir, preestablecida) creada y disponible. Más información sobre los segmentos de canal [en esta página](../configuration/channel-surfaces.md).
 
 ## Vídeo explicativo {#video}
