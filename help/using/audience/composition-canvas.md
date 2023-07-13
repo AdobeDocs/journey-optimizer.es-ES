@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: 6f6fd6c032be7f86dca239d43732f3ab37223093
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1345'
 ht-degree: 24%
 
 ---
@@ -138,8 +138,6 @@ El **[!UICONTROL Excluir]** esta actividad le permite excluir perfiles de la com
 El **[!UICONTROL Enriquecer]** La actividad de le permite enriquecer su audiencia con atributos adicionales procedentes de conjuntos de datos de Adobe Experience Platform. Por ejemplo, puede añadir información relacionada con el producto comprado, como su nombre, precio o ID de fabricante, y aprovechar esta información para personalizar las entregas enviadas a la audiencia.
 
 >[!IMPORTANT]
->
->El enriquecimiento está disponible para **[!UICONOTROL Adobe Journey Optimizer]** solo usuarios de.
 >
 >Por ahora, las etiquetas del conjunto de datos, ya sea en el nivel del conjunto de datos o de campo, no se propagan a la audiencia recién creada. Esto puede afectar al control de acceso o al control de datos de la audiencia resultante. Por este motivo, al componer audiencias, utilice únicamente datos de prueba.
 
