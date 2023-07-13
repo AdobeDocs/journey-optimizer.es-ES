@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: diseño, lienzo, recorrido, interfaz, arrastrar, soltar
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 9270f706d3b0693178ffc076aea2e631ba736afe
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 5%
@@ -69,11 +69,11 @@ Al diseñar el recorrido, la primera pregunta que debe hacerse es cómo entran l
 
 1. **Iniciar con un evento**: cuando un recorrido está configurado para recibir eventos, los individuos entran al recorrido **unitariamente** en tiempo real. Los mensajes incluidos en su recorrido se envían a la persona que está entrando en el recorrido en ese momento. [Más información sobre los eventos](../event/about-events.md)
 
-1. **Empezar con un segmento de lectura**: puede configurar el recorrido para que escuche segmentos de Adobe Experience Platform. En este caso, todas las personas que pertenecen al segmento especificado entran en el recorrido. Los mensajes incluidos en su recorrido se envían a las personas que pertenecen al segmento. [Más información sobre la lectura de segmentos](read-segment.md).
+1. **Comenzar con una audiencia de lectura**: puede configurar el recorrido para que escuche audiencias de Adobe Experience Platform. En este caso, todas las personas que pertenecen a la audiencia especificada entran en el recorrido. Los mensajes incluidos en su recorrido se envían a las personas que pertenecen a la audiencia. Más información sobre [leer audiencia](read-audience.md).
 
 ## Defina los pasos siguientes{#define-next-steps}
 
-Después del primer evento o Leer segmento, puede combinar las diferentes actividades para crear sus escenarios de canales cruzados de varios pasos. Elija, en la paleta, los pasos que necesite.
+Después del primer evento o de la lectura de audiencias, puede combinar las distintas actividades para crear sus escenarios de canales cruzados de varios pasos. Elija, en la paleta, los pasos que necesite.
 
 ### Eventos{#jo-event}
 
@@ -85,13 +85,13 @@ Puede añadir **varios eventos** en el recorrido, siempre que utilicen el mismo 
 
 También puede agregar un **Reacción** evento después de un mensaje para reaccionar a los datos de seguimiento relacionados con el mensaje. Esto le permite, por ejemplo, enviar otro mensaje si el individuo abrió el mensaje anterior o hizo clic dentro de él. [Más información sobre los eventos de reacción](reaction-events.md).
 
-Uso **Calificación de segmentos** actividad de evento para hacer que los individuos entren o avancen en un recorrido basado en las entradas y salidas de segmentos de Adobe Experience Platform. Puede hacer que todos los clientes nuevos de plata entren en un recorrido y envíen mensajes personalizados. Obtenga más información en esta [sección](segment-qualification-events.md).
+Uso **Calificación de audiencias** actividad de evento para hacer que los individuos entren o avancen en un recorrido según las entradas y salidas de la audiencia de Adobe Experience Platform. Puede hacer que todos los clientes nuevos de plata entren en un recorrido y envíen mensajes personalizados. Obtenga más información en esta [sección](audience-qualification-events.md).
 
 ### Orquestación{#jo-orch}
 
 Las actividades de orquestación son condiciones diferentes que ayudan a determinar el siguiente paso del recorrido.
 
-En las actividades de orquestación, utilice el **Leer segmento** actividad para configurar el recorrido y escuchar un segmento de Adobe Experience Platform. [Descubra más información sobre la actividad Leer segmento](read-segment.md).
+En las actividades de orquestación, utilice el **Leer audiencia** actividad para configurar el recorrido y escuchar a una audiencia de Adobe Experience Platform. [Descubra más información sobre la actividad Leer audiencia](read-audience.md).
 
 Las demás actividades le permiten agregar condiciones al recorrido para definir varias rutas, establecer un tiempo de espera antes de ejecutar la siguiente actividad o finalizar el recorrido. [Más información sobre las actividades de orquestación](about-journey-activities.md#orchestration-activities).
 
