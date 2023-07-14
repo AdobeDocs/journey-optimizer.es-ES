@@ -12,7 +12,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 6f6fd6c032be7f86dca239d43732f3ab37223093
 workflow-type: tm+mt
 source-wordcount: '1345'
-ht-degree: 24%
+ht-degree: 30%
 
 ---
 
@@ -118,7 +118,7 @@ El **[!UICONTROL Excluir]** esta actividad le permite excluir perfiles de la com
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="Actividad de enriquecimiento"
->abstract="Utilice la actividad Enrich para enriquecer la audiencia con atributos adicionales procedentes de conjuntos de datos de Adobe Experience Platform. Por ejemplo, puede añadir información relacionada con el producto comprado, como su nombre, precio o ID de fabricante, y aprovechar esta información para personalizar las entregas enviadas a la audiencia."
+>abstract="Utilice la actividad Enriquecer para enriquecer al público con atributos adicionales procedentes de los conjuntos de datos de Adobe Experience Platform. Por ejemplo, puede añadir información relacionada con el producto comprado, como el nombre, precio o ID de fabricante y utilizar esta información para personalizar los envíos enviados al público."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
@@ -135,7 +135,7 @@ El **[!UICONTROL Excluir]** esta actividad le permite excluir perfiles de la com
 >title="Atributos de enriquecimiento"
 >abstract="Seleccione uno o varios atributos del conjunto de datos de enriquecimiento para asociarlos a la audiencia. Una vez publicada la composición, estos atributos se asocian a la audiencia y se pueden aprovechar en campañas para personalizar envíos."
 
-El **[!UICONTROL Enriquecer]** La actividad de le permite enriquecer su audiencia con atributos adicionales procedentes de conjuntos de datos de Adobe Experience Platform. Por ejemplo, puede añadir información relacionada con el producto comprado, como su nombre, precio o ID de fabricante, y aprovechar esta información para personalizar las entregas enviadas a la audiencia.
+El **[!UICONTROL Enriquecer]** La actividad de le permite enriquecer su audiencia con atributos adicionales procedentes de conjuntos de datos de Adobe Experience Platform. Por ejemplo, puede añadir información relacionada con el producto comprado, como el nombre, precio o ID de fabricante y utilizar esta información para personalizar los envíos enviados al público.
 
 >[!IMPORTANT]
 >
