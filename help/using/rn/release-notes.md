@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2e3335372dca8c344773eaf365e8f90589ecfd7e
+source-git-commit: 781c83a2742989eb0bf7d68411ca3d7daa1eb1e0
 workflow-type: tm+mt
 source-wordcount: '2591'
 ht-degree: 93%
@@ -34,7 +34,7 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear flujos de trabajo de composición para combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (dividir, enriquecer...) para crear nuevas audiencias. Las audiencias recién creadas se guardan y se copian en Adobe Experience Platform junto con las audiencias existentes y se pueden aprovechar en campañas de Journey Optimizer para clientes de destino.</p>
+<p>Ahora puede crear flujos de trabajo de composición para combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (dividir, enriquecer...) para crear nuevas audiencias. Las audiencias recién creadas se vuelven a guardar en Adobe Experience Platform junto con las audiencias existentes y se pueden aprovechar en campañas de Journey Optimizer para clientes de destino.</p>
 <img src="../audience/assets/audiences-publish.png"/>
 <p>Para obtener más información, consulte la <a href="../audience/get-started-audience-orchestration.md">documentación detallada</a>.</p>
 </td>
