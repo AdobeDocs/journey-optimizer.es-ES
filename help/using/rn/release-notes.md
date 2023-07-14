@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 50b917cf1cd23f46bf6b7cfd3d84226d5ad7adec
 workflow-type: tm+mt
-source-wordcount: '2453'
-ht-degree: 95%
+source-wordcount: '2594'
+ht-degree: 93%
 
 ---
 
@@ -22,45 +22,76 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Regístrese para la [Newsletter trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoy y reciba las últimas actualizaciones de productos, artículos interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.
 
 
-<!--
-## June 2023 early release notes {#june-rn-2023}
+## Actualizaciones de julio de 2023
 
-Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
-
-**Release date**: June 21-22, 2023
-
-### New capabilities{#june-2023-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>API-triggered campaigns for marketing use cases</strong><br/></th>
+<th><strong>Composición de audiencia</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now use APIs to trigger marketing campaigns in Adobe Journey Optimizer from an external system.</p>
-<p>Until this release, API-triggered campaigns capability was covering various operational and transactional messaging needs like password resets or OTP token, but could not be used to create marketing campaigns. Available channels for API-triggered campaigns are: Email, SMS and Push messages.</p>
-<img src="assets/do-not-localize/api-triggered.gif"/>
-<p>For more information, refer to the <a href="../campaigns/api-triggered-campaigns.md">detailed documentation</a>.
+<p>Ahora puede crear flujos de trabajo de composición para combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (dividir, enriquecer...) para crear nuevas audiencias. Las audiencias recién creadas se guardan y se copian en Adobe Experience Platform junto con las audiencias existentes y se pueden aprovechar en campañas de Journey Optimizer para clientes de destino.</p>
+<img src="../audience/assets/audiences-publish.png"/>
+<p>Para obtener más información, consulte la <a href="../audience/get-started-audience-orchestration.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
+## Notas de la versión de junio de 2023 {#june-rn-2023}
+
+<table>
+<thead>
+<tr>
+<th><strong>Campañas activadas por API para casos de uso de marketing</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede utilizar las API para activar las campañas de marketing en Adobe Journey Optimizer desde un sistema externo.</p>
+<p>Hasta esta versión, la capacidad de campañas activadas por API cubría varias necesidades operativas y de mensajería transaccional, como los restablecimientos de contraseña o el token OTP, pero no se podía utilizar para crear campañas de marketing. Los canales disponibles para las campañas activadas por API son: correo electrónico, SMS y mensajes push.</p>
+<img src="assets/do-not-localize/api-triggered.gif"/>
+<p>Para obtener más información, consulte la <a href="../campaigns/api-triggered-campaigns.md">documentación detallada</a>.
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
 ### Improvements {#june-2023-improvements}
 
 
 **Audiences**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.	
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.
+
+**Journeys**
+
+You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+-->
+
+## Notas de la versión de mayo de 2023 {#may-rn-2023}
+
+
+<!--
+## June 2023 early release notes {#june-rn-2023}
+
+Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
+
+**Audiences**
+
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    
 
 
 **Journeys**
 
-* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.	 
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.     
 
 * A new type of system alert has been introduced. You can now get notified when a custom action fails.
 -->
@@ -69,24 +100,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ### Nuevas funciones{#may-2023-features}
 
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Audience Composition</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) to create new audiences. Newly created audiences are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged in Journey Optimizer campaigns to target customers.</p>
-<img src="../audience/assets/audiences-publish.png"/>
-<!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
+
 
 <table>
 <thead>
