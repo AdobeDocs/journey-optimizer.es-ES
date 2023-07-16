@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: ceb37193797c69ee87f136f3abecf54b5927d6a2
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 24%
+source-wordcount: '863'
+ht-degree: 28%
 
 ---
 
@@ -32,18 +32,20 @@ Para crear una nueva campaña, acceda al **[!UICONTROL Campañas]** y haga clic 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campaña"
->abstract="Para un mensaje de marketing especificando una fecha de envío, el tipo **Programado** es el más adecuado. Sin embargo, si desea enviar mensajes transaccionales como restablecimiento de contraseña o abandono del carro de compras, el tipo **Activado por API** es la mejor opción."
+>abstract="**Campañas programadas** se ejecutan inmediatamente o en una fecha especificada y están pensadas para enviar mensajes de tipo marketing. Las campañas **activadas por API** se ejecutan mediante el uso de una llamada de API. Están destinadas a enviar mensajes de marketing o mensajes transaccionales, es decir, mensajes enviados después de una acción realizada por un particular: restablecer la contraseña, abandonar el carro de compras, etc."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Categoría de la campaña"
->abstract="El valor de categoría está asociado directamente al valor de tipo de campaña. Programar tipo de campaña para la categoría **Marketing** y tipo activado por API para la categoría **Transaccional**"
+>abstract="Si está creando una campaña programada, la variable **marketing** se selecciona automáticamente. Para campañas activadas por API, elija si quiere enviar un mensaje de **marketing** o **transaccional**, es decir, un mensaje enviado después de una acción realizada por un particular: restablecer contraseña, abandonar el carro de compras, etc."
 
 1. En el **[!UICONTROL Propiedades]** , especifique cómo desea ejecutar la campaña. Hay dos tipos de campaña disponibles:
 
-   * **[!UICONTROL Programado]**: ejecute la campaña inmediatamente o en una fecha especificada. Las campañas programadas están destinadas a enviar **marketing** escribir mensajes.
+   * **[!UICONTROL Programado]**: ejecute la campaña inmediatamente o en una fecha especificada. Las campañas programadas están destinadas a enviar **marketing** mensajes. Se configuran y ejecutan desde la interfaz de usuario de.
 
-   * **[!UICONTROL Activado por API]**: ejecute la campaña utilizando una llamada de API. Las campañas activadas por API están destinadas a enviar **transaccional** mensajes, es decir, mensajes enviados después de una acción realizada por un individuo: restablecimiento de contraseña, abandono del carro de compras, etc. [Obtenga información sobre cómo almacenar en déclencheur una campaña mediante API](api-triggered-campaigns.md)
+   * **[!UICONTROL Activado por API]**: ejecute la campaña utilizando una llamada de API. Las campañas activadas por API están destinadas a enviar lo siguiente **marketing**, o **transaccional** mensajes, es decir, mensajes enviados después de una acción realizada por un individuo: restablecimiento de contraseña, compra en el carro de compras, etc. [Obtenga información sobre cómo almacenar en déclencheur una campaña mediante API](api-triggered-campaigns.md)
+
+1. Si está creando una campaña programada, la variable **marketing** se selecciona automáticamente. Para campañas activadas por API, elija si desea enviar una **marketing** o **transaccional** Mensaje.&quot;
 
 1. En el **[!UICONTROL Acciones]** , elija el canal y la superficie de canal que desea utilizar para enviar el mensaje.
 
@@ -120,19 +122,19 @@ En el **[!UICONTROL Acciones]** , cree el mensaje que desea enviar con la campa�
 
 ## Definición de la audiencia {#audience}
 
-Haga clic en **[!UICONTROL Seleccionar audiencia]** para mostrar la lista de audiencias de Adobe Experience Platform disponibles. [Más información sobre las audiencias](../audience/about-audiences.md)
+Haga clic en **[!UICONTROL Seleccionar audiencia]** para mostrar la lista de segmentos de Adobe Experience Platform disponibles. [Más información sobre los segmentos](../audience/about-audiences.md)
 
 >[!NOTE]
 >
 >Para campañas activadas por API, la audiencia debe configurarse mediante una llamada de API. [Más información](api-triggered-campaigns.md)
 
-En el **[!UICONTROL Área de nombres de identidad]** , elija el área de nombres que desea utilizar para identificar a los individuos de la audiencia seleccionada. [Más información sobre las Áreas de nombres](../event/about-creating.md#select-the-namespace)
+En el **[!UICONTROL Área de nombres de identidad]** , elija el área de nombres que desea utilizar para identificar a los individuos del segmento seleccionado. [Más información sobre las Áreas de nombres](../event/about-creating.md#select-the-namespace)
 
 ![](assets/create-campaign-namespace.png)
 
 >[!NOTE]
 >
->Las personas que pertenezcan a una audiencia que no tenga la identidad seleccionada (área de nombres) entre sus diferentes identidades no se segmentarán con la campaña.
+>Las personas que pertenezcan a un segmento que no tenga la identidad seleccionada (área de nombres) entre sus diferentes identidades no serán el objetivo de la campaña.
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
