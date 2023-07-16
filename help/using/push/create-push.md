@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '719'
 ht-degree: 16%
 
 ---
@@ -103,7 +103,7 @@ Para crear una notificación push, siga los pasos a continuación:
 >title="Modo de envío rápido"
 >abstract="El modo de envío rápido permite realizar envíos de mensajes a alta velocidad en el canal push a un tamaño de audiencia inferior a 30 millones."
 
-El modo de envío rápido, anteriormente conocido como modo de ráfaga en recorrido, es un [!DNL Journey Optimizer] complemento que permite enviar mensajes push muy rápidamente en grandes volúmenes a través de campañas.
+El modo de envío rápido es un [!DNL Journey Optimizer] complemento que permite enviar mensajes push muy rápidamente en grandes volúmenes a través de campañas.
 
 La entrega rápida se utiliza cuando el retraso en la entrega de mensajes es crítico para la empresa, cuando desea enviar una alerta push urgente en teléfonos móviles, por ejemplo, una noticia de última hora a los usuarios que han instalado su aplicación de canal de noticias.
 

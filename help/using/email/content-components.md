@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: componentes, diseñador de correo electrónico, editor, correo electrónico
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1354'
 ht-degree: 57%
 
 ---
@@ -60,7 +60,7 @@ Para añadir componentes de contenido al correo electrónico y ajustarlos a sus 
    >
    >Puede añadir varios componentes en un único componente de estructura y en cada columna de un componente de estructura.
 
-1. Ajuste los atributos de estilo de cada componente mediante la variable **[!UICONTROL Configuración]** y **[!UICONTROL Estilo]** a la derecha. Por ejemplo, puede cambiar el estilo, el relleno o el margen del texto de cada componente. [Obtenga más información sobre la alineación y el relleno](alignment-and-padding.md)
+1. Ajuste los atributos y el estilo de cada componente mediante la variable **[!UICONTROL Configuración]** y **[!UICONTROL Estilo]** a la derecha. Por ejemplo, puede cambiar el estilo, el relleno o el margen del texto de cada componente. [Obtenga más información sobre la alineación y el relleno](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
@@ -224,4 +224,4 @@ Obtenga información sobre cómo añadir ofertas personalizadas a un correo elec
 
 >[!IMPORTANT]
 >
->Si se realizan cambios en una decisión de oferta que se está utilizando en el mensaje de un recorrido, debe cancelar la publicación del recorrido y volver a publicarlo.  Esto garantizará que los cambios se incorporen al mensaje del recorrido y que el mensaje sea coherente con las últimas actualizaciones.
+>Si se realizan cambios en una decisión de oferta que se utiliza en el mensaje de un recorrido, se debe cancelar la publicación del recorrido y volver a publicarlo.  Esto garantizará que los cambios se incorporen al mensaje del recorrido y que el mensaje sea coherente con las últimas actualizaciones.

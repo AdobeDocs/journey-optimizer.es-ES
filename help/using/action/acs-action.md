@@ -9,7 +9,7 @@ role: Admin,Developer
 level: Intermediate
 keywords: campaña, estándar, integración, límite, acción
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 5%
@@ -30,7 +30,7 @@ El mensaje transaccional del Campaign Standard y su evento asociado deben public
 
 * La integración de Adobe Campaign Standard se configura mediante una acción integrada específica en la lista de acciones. Esto debe configurarse para cada zona protegida.
 
-* No puede utilizar una acción del Campaign Standard con una actividad de calificación de audiencia o Leer audiencia.
+* No puede utilizar una acción del Campaign Standard con una actividad de calificación de audiencia o de lectura de audiencia.
 
 * Un recorrido no puede utilizar tanto mensajes como acciones del Campaign Standard.
 

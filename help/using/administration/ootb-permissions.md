@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: permisos, creación, mensajes
 exl-id: fd7a7564-bf67-4796-8182-0b9b04516f21
-source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 | Tableros | **[!DNL View license usage dashboards]**: acceso de solo lectura al panel de uso de licencias. </br>**[!DNL Manage custom dashboards]**: le permite crear un nuevo tablero o editar uno existente.</br>**[!DNL View custom dashboards]**: acceso de solo lectura a los paneles definidos por el usuario. </br>**[!DNL View standard dashboards]**: acceso de solo lectura a los paneles Perfiles, Destinos y Segmentos.</br>**[!DNL Manage standard dashboards]**: le permite crear widgets personalizados y editar el esquema de los widgets a través de la biblioteca de widgets. |
 | Recopilación de datos | **[!DNL Manage datastream]**: leer, crear y editar flujos de datos.</br>**[!DNL View datastream]**: acceso de solo lectura a flujos de datos. |
 | Gobernanza de datos | **[!DNL Manage usage labels]**: leer, crear, editar y eliminar etiquetas.</br>**[!DNL Manage data usage policies]**: leer, crear, editar y eliminar directivas de uso de datos.</br>**[!DNL View data usage policies]**: acceso de solo lectura para directivas de uso de datos que pertenecen a su organización.</br>**[!DNL View user activity log]**: acceso de solo lectura para ver los registros de auditoría registrados de las actividades de Platform. |
-| Higiene de datos | **[!DNL View data hygiene]**: acceso de solo lectura para la higiene de los datos.</br>**[!DNL Manage data hygiene]**: leer, crear, editar y eliminar el estado de los datos. |
+| Higiene de los datos | **[!DNL View data hygiene]**: acceso de solo lectura para la higiene de los datos.</br>**[!DNL Manage data hygiene]**: leer, crear, editar y eliminar el estado de los datos. |
 | Ingesta de datos | **[!DNL Manage sources]**: leer, crear, editar y deshabilitar orígenes.</br>**[!DNL View sources]**: acceso de solo lectura a los orígenes disponibles en la pestaña Catálogo y a los orígenes autenticados en la pestaña Examinar. |
 | Administración de datos | **[!DNL Manage datasets]**: leer, crear, editar y eliminar conjuntos de datos. Acceso de solo lectura para esquemas.</br>**[!DNL View datasets]**: acceso de solo lectura para conjuntos de datos y esquemas.</br>**[!DNL Data monitoring]**: acceso de solo lectura a la monitorización de conjuntos de datos y flujos. |
 | Modelado de datos | **[!DNL Manage schemas]**: lea, cree y edite esquemas XDM (Experience Data Model).</br>**[!DNL View schemas]**: acceso de solo lectura a esquemas.</br>**[!DNL Manage relationships]**: leer, crear, editar y eliminar relaciones de esquema.</br>**[!DNL Manage identity metadata]**: leer, crear, editar y eliminar metadatos de identidad para esquemas. |

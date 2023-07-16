@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: producto, perfiles, zona protegida
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 8%
@@ -109,7 +109,7 @@ Para crear su **Recorridos de solo lectura** **[!UICONTROL Rol]**:
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. Seleccione entre las diferentes funcionalidades, como **[!DNL Journeys]**, **[!DNL Segments]** <!--CHECK--> o **[!DNL Decision management]** disponible en [!DNL Journey Optimizer] aparece en el menú de la izquierda.
+1. Seleccione entre los distintos recursos, como **[!DNL Journeys]**, **[!DNL Segments]** o **[!DNL Decision management]** disponible en [!DNL Journey Optimizer] aparece en el menú de la izquierda.
 
    Aquí se selecciona la **[!UICONTROL Recorridos]** recurso.
 

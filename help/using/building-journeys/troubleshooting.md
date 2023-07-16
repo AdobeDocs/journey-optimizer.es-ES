@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: solución de problemas, solución de problemas, recorrido, comprobación, errores
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 74%
+source-wordcount: '1029'
+ht-degree: 73%
 
 ---
 
@@ -58,7 +58,7 @@ El informe de recorridos mide las entradas de la gente en un recorrido en tiempo
 
 Si se consigue enviar el evento pero no se ve ninguna entrada en el recorrido, hay un problema entre el envío del evento y la recepción del evento en el recorrido.
 
-A continuación se indican algunas cosas que el administrador debe comprobar:
+Puede comenzar la resolución de problemas con las preguntas siguientes:
 
 * ¿Está seguro de que el recorrido en el que espera el evento entrante está en modo de prueba o activo?
 * ¿Ha guardado el evento antes de copiar la carga útil de la previsualización de carga útil?

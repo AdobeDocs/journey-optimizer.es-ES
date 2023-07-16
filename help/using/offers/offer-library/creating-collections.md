@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 9%
+source-wordcount: '364'
+ht-degree: 8%
 
 ---
 
@@ -57,6 +57,10 @@ Para crear una colección, siga estos pasos:
    >Las colecciones estáticas no se actualizan automáticamente. Para añadir ofertas a una colección estática, debe editarlas y añadirlas manualmente.
 
 1. Para asignar etiquetas de uso de datos personalizadas o principales a una colección estática, seleccione **[!UICONTROL Administrar acceso]**. [Obtenga más información sobre el Control de acceso de nivel de objeto (OLAC)](../../administration/object-based-access.md)
+
+   >[!NOTE]
+   >
+   >El uso de OLAC no está disponible para colecciones dinámicas. Debe administrarse en el nivel de oferta. Por lo tanto, es posible que no vea ninguna oferta en una colección dinámica si no tiene acceso a ninguna de estas ofertas.
 
 1. Una vez creada la colección, se muestra en la lista. Puede seleccionarlo para editarlo o eliminarlo.
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '608'
 ht-degree: 9%
 
 ---
@@ -109,11 +109,19 @@ ID de la versión del recorrido. Este ID representa la referencia de identidad a
 
 Tipo: cadena
 
+>[!NOTE]
+>
+>Para solucionar problemas, recomendamos utilizar journeyVersionID en lugar de journeyVersionName al consultar recorridos.
+
 ## journeyVersionName {#journeyversionname-field}
 
 Nombre de la versión del recorrido.
 
 Tipo: cadena
+
+>[!NOTE]
+>
+>Para solucionar problemas, recomendamos utilizar journeyVersionID en lugar de journeyVersionName al consultar recorridos.
 
 ## journeyVersion {#journeyversion-field}
 

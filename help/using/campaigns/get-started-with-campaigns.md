@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 83%
+source-wordcount: '429'
+ht-degree: 84%
 
 ---
 
@@ -28,7 +28,7 @@ Utilice campañas de Journey Optimizer para ofrecer contenido único a una audie
 Puede crear dos tipos de campañas:
 
 * **Campañas programadas** le permite comunicaciones por lotes ad-hoc sencillas para casos de uso de marketing, como ofertas promocionales, campañas de participación, anuncios, avisos legales o actualizaciones de políticas.
-* **Campañas activadas por API** permiten mensajes transaccionales/operativos simples con las API de REST (restablecimiento de contraseña, abandono del carro de compras, etc.), donde la necesidad puede implicar personalización mediante atributos de perfil y datos contextuales de la carga útil.
+* Las **campañas activadas por API** permiten que las comunicaciones de marketing lleguen a un público en el momento adecuado o que los mensajes transaccionales/operativos lleguen a una persona individual, como un restablecimiento de contraseña. Este acto puede implicar una personalización no solo mediante el uso del atributo de perfil, sino también mediante los datos de contexto en tiempo real en el activador, que es una carga útil de API de REST.
 
 Los pasos principales para crear una regla de tipología son los siguientes:
 

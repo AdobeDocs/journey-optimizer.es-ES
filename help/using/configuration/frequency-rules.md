@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '980'
 ht-degree: 13%
 
 ---
@@ -20,9 +20,7 @@ ht-degree: 13%
 
 [!DNL Journey Optimizer] permite controlar la frecuencia con la que los usuarios recibirán un mensaje o entrarán en un recorrido configurando reglas multicanal que excluirán automáticamente los perfiles saturados de los mensajes y las acciones.
 
-Por ejemplo: no quiere que su marca envíe más de 3 mensajes de marketing al mes a sus clientes.
-
-Para ello, puede utilizar una regla de frecuencia que limite el número de mensajes enviados en función de uno o más canales durante un periodo mensual del calendario.
+Por ejemplo, para una marca una regla podría ser no enviar más de 3 mensajes de marketing al mes a sus clientes. Para ello, puede utilizar una regla de frecuencia que limite el número de mensajes enviados en función de uno o más canales durante un periodo mensual del calendario.
 
 >[!NOTE]
 >

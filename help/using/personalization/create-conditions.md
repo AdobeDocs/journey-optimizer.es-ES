@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, condicional, reglas
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 8%
+source-wordcount: '595'
+ht-degree: 7%
 
 ---
 
@@ -56,17 +56,17 @@ Los pasos para crear una regla condicional son los siguientes:
 
 1. Genere la regla condicional según sus necesidades. Para ello, arrastre y suelte y organice los atributos deseados del menú de la izquierda al lienzo.
 
-   Los pasos para combinar atributos en el lienzo son similares a la experiencia de creación de definiciones de segmento. Para obtener más información sobre cómo trabajar con el lienzo del generador de reglas, consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#rule-builder-canvas).
+Los pasos para combinar atributos en el lienzo son similares a la experiencia de creación de segmentos. Para obtener más información sobre cómo trabajar con el lienzo del generador de reglas, consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas).
 
-   ![](assets/conditions-create.png)
-
-   Los atributos se organizan en tres pestañas:
-
-   * **[!UICONTROL Perfil]**:
-      * **[!UICONTROL Audiencias]** enumera todos los atributos de audiencia (es decir, estado, versión, etc.) para [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
-      * **[!UICONTROL Perfiles individuales de XDM]** enumera todos los atributos de perfil asociados a [Esquema del modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es) definido en Adobe Experience Platform.
-   * **[!UICONTROL Contextual]**: cuando el mensaje se utiliza en un recorrido, los campos de recorrido contextual están disponibles a través de esta pestaña.
-   * **[!UICONTROL Audiencias]**: enumera todas las audiencias generadas a partir de las definiciones de segmentos creadas en [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+    ![](assets/conditions-create.png)
+    
+    Los atributos se organizan en tres pestañas:
+    
+    * **[!UICONTROL Perfil]**:
+    * **[!UICONTROL Audiencias]** enumera todos los atributos de audiencia (es decir, estado, versión, etc.) para [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
+    * **[!UICONTROL Perfiles individuales de XDM]** una lista de todos los atributos de perfil asociados al [esquema del modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) definido en Adobe Experience Platform.
+    * **[!UICONTROL Contextual]**: cuando el mensaje se utiliza en un recorrido, los campos de recorrido contextual están disponibles a través de esta pestaña.
+    * **[!UICONTROL Audiencias]**: enumera todas las audiencias generadas a partir de las definiciones de segmentos creadas en [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 1. Una vez que la regla condicional esté lista, puede agregarla al mensaje para crear contenido dinámico. [Aprenda a añadir contenido dinámico](dynamic-content.md)
 
