@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: e0f2a96054886737861e261173f68933cab56e99
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 74%
+source-wordcount: '1119'
+ht-degree: 75%
 
 ---
 
@@ -45,6 +45,7 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 ### Protecciones generales del recorrido {#journeys-guardrails-journeys}
 
 * El número de actividades en un recorrido ahora está limitado a 50. El número de actividades se muestra en la sección superior izquierda del lienzo de recorrido. Esto ayudará en la legibilidad, el control de calidad y la resolución de problemas.
+* A medida que publica recorridos, los ampliamos y ajustamos automáticamente para garantizar el máximo rendimiento y estabilidad. Cuando se aproxime al hito de 100 recorridos en directo al mismo tiempo, verá una notificación en la interfaz de usuario sobre este logro. Si recibe esta notificación y necesita extender sus recorridos más allá de los 100 recorridos en directo a la vez, cree un ticket para el servicio de atención al cliente y le ayudaremos a alcanzar sus objetivos.
 
 ### Acciones generales {#general-actions-g}
 
@@ -103,6 +104,5 @@ Puede elegir entre una de estas dos soluciones:
 
 ### Editor de expresiones {#expression-editor}
 
-* Los grupos de campos de evento de experiencia no se pueden usar en recorridos que comiencen por una audiencia de lectura, una calificación de audiencia o una actividad de evento empresarial. Debe crear una audiencia nueva y utilizar una condición dentro del segmento en el recorrido.
-
+* Los grupos de campos de evento de experiencia no se pueden usar en recorridos que comiencen por una audiencia de lectura, una calificación de audiencia o una actividad de evento empresarial. Debe crear una audiencia nueva y utilizar una condición dentro de la audiencia en el recorrido.
 
