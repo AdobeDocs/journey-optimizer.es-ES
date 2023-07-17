@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: recorridos, limitación
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: aced11ffd80bcc0d79ef2e094b05dde8cb9a6248
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 65%
@@ -20,7 +20,7 @@ ht-degree: 65%
 
 Estas son las limitaciones relacionadas con el uso de recorridos.
 
-## Limitaciones generales de las acciones
+## Limitaciones generales de las acciones {#action-limitations}
 
 * No hay restricciones de envío. 
 * En caso de error, se realizan tres reintentos de forma sistemática. No puede ajustar el número de reintentos según el mensaje de error recibido. 
@@ -35,7 +35,7 @@ Estas son las limitaciones relacionadas con el uso de recorridos.
 * La regla de reentrada debe ser la misma en todas las versiones del recorrido.
 * Un recorrido que comienza con un **Leer audiencia** no puede comenzar con otro evento en las versiones siguientes.
  
-## Limitaciones de acciones personalizadas
+## Limitaciones de acciones personalizadas {#custom-actions-limitations}
 
 * La URL de acción personalizada no admite parámetros dinámicos. 
 * Solo se admiten los métodos de llamada de POST y PUT. 
@@ -43,11 +43,11 @@ Estas son las limitaciones relacionadas con el uso de recorridos.
 * No se permiten direcciones IP. 
 * Las direcciones de Adobe internas (.adobe.) no se permiten.
  
-## Limitaciones de eventos
+## Limitaciones de eventos {#events-limitations}
 
 * En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido del cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este ID de orquestación debe añadirse a la carga útil de streaming que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
  
-## Limitaciones de fuentes de datos
+## Limitaciones de fuentes de datos {#data-sources-limitations}
 
 * Las fuentes de datos externas se pueden aprovechar dentro de un recorrido de cliente para buscar datos externos en tiempo real. Estas fuentes deben utilizarse mediante la API de REST, admiten JSON y pueden gestionar el volumen de solicitudes.
 
@@ -63,6 +63,6 @@ Puede elegir entre una de estas dos soluciones:
 
 * Configure un recorrido que no utilice inmediatamente el perfil. Por ejemplo, si el recorrido está diseñado para confirmar la creación de una cuenta, el evento de experiencia podría contener la información necesaria para enviar el primer mensaje de confirmación (nombre, apellidos, dirección de correo electrónico, etc).
 
-## Leer las limitaciones de audiencia
+## Leer las limitaciones de audiencia {#read-audiences-limitations}
 
 * Las audiencias transmitidas siempre están actualizadas, pero las audiencias por lotes no se calcularán en el momento de la recuperación. Solo se evalúan cada día a la hora de evaluar el lote.
