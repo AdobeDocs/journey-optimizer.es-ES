@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 6%
 
 ---
@@ -62,9 +62,9 @@ Si se pueden presentar varias ofertas en esta ubicación, la decisión utilizar�
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-También puede utilizar un sistema de modelos entrenado que clasifique automáticamente las ofertas para mostrarlas en un perfil determinado seleccionando una estrategia de clasificación. Aprenda a crear una estrategia de clasificación en [esta sección](../ranking/create-ranking-strategies.md).
+También puede utilizar un sistema de modelos entrenado que clasifique automáticamente las ofertas para un perfil determinado seleccionando un modelo de IA. Obtenga información sobre cómo crear un modelo de IA en [esta sección](../ranking/create-ranking-strategies.md).
 
-Una vez creada una estrategia de clasificación, puede asignarla a una ubicación en una decisión. Para ello, siga los pasos a continuación:
+Una vez creado un modelo de IA, puede asignarlo a una ubicación en una decisión. Para ello, siga los pasos a continuación:
 
 1. Cree una decisión o edite una existente. Consulte [Creación de decisiones](../offer-activities/create-offer-activities.md).
 
@@ -76,11 +76,11 @@ Una vez creada una estrategia de clasificación, puede asignarla a una ubicació
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
-1. Seleccione la estrategia de clasificación que ha creado. Se muestran todos los detalles de la estrategia de clasificación.
+1. Seleccione el modelo de IA que ha creado. Se muestran todos los detalles del modelo.
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. Haga clic en **[!UICONTROL Seleccionar]**. La estrategia de clasificación ahora está asociada a la ubicación.
+1. Haga clic en **[!UICONTROL Seleccionar]**. El modelo de IA ahora está asociado a la ubicación.
 
 Si se admiten varias ofertas, el sistema de modelos entrenado determinará qué oferta debe presentarse primero para una ubicación determinada.
 

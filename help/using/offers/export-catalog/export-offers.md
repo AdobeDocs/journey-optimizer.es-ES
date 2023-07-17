@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '2014'
 ht-degree: 3%
@@ -315,7 +315,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL 
 
   **Campo:** orderEvaluationType
   **Título:** Tipo de evaluación de pedido
-  **Descripción:** Especifica el mecanismo de evaluación de pedidos que se utiliza, la prioridad estática de las opciones de decisión, una función de puntuación que calcula un valor numérico para cada opción o una estrategia de clasificación que recibe una lista para ordenarla.
+  **Descripción:** Especifica qué mecanismo de evaluación de pedidos se utiliza, la prioridad estática de las opciones de decisión, una función de puntuación que calcula un valor numérico para cada opción o un modelo de IA que recibe una lista para ordenarla.
   **Tipo:** cadena
   **Valores posibles:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 

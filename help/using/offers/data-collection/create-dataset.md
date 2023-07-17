@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -42,13 +42,13 @@ Comience creando el esquema que se utilizará en el conjunto de datos:
 
    >[!CAUTION]
    >
-   >El esquema que se utilizará en el conjunto de datos debe tener el **[!UICONTROL Evento de experiencia: interacciones de propuesta]** grupo de campos asociado a él. De lo contrario, no podrá utilizarlo en su estrategia de clasificación.
+   >El esquema que se utilizará en el conjunto de datos debe tener el **[!UICONTROL Evento de experiencia: interacciones de propuesta]** grupo de campos asociado a él. De lo contrario, no podrá utilizarlo en su modelo de IA.
 
 1. Escriba un nombre y guarde el esquema.
 
 >[!NOTE]
 >
->Obtenga más información sobre la creación de esquemas en [Conceptos básicos de composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
+>Obtenga más información sobre la creación de esquemas en [Conceptos básicos de composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es#understanding-schemas){target="_blank"}.
 
 Ya está listo para crear un conjunto de datos con este esquema. Para realizar esto, siga los pasos a continuación:
 
@@ -66,4 +66,4 @@ Ya está listo para crear un conjunto de datos con este esquema. Para realizar e
 
 >[!NOTE]
 >
->Ahora se puede seleccionar este conjunto de datos para recopilar datos de evento cuando [creación de una estrategia de clasificación](#create-ranking-strategy).
+>Ahora se puede seleccionar este conjunto de datos para recopilar datos de evento cuando [creación de un modelo de IA](../ranking/create-ranking-strategies.md).

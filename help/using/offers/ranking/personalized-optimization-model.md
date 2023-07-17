@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 1%
@@ -61,8 +61,8 @@ Básicamente, esta es la idea de aprender y memorizar interacciones de caracter�
 
 El problema de inicio en frío se produce cuando no hay suficientes datos para hacer recomendaciones. Para la personalización automática, existen dos tipos de problemas de inicio en frío.
 
-* **Después de crear una nueva estrategia de clasificación sin datos históricos**, las ofertas se servirán aleatoriamente durante un período de tiempo para recopilar datos y los datos se utilizarán para entrenar el primer modelo.
-* **Después de la publicación del primer modelo**, el 10 % del tráfico total se asignará a servicios aleatorios, mientras que el 90 % del tráfico se utilizará para recomendaciones de modelos. Por lo tanto, si se agregaran nuevas ofertas a la estrategia de clasificación, se enviarían como parte del 10 % del tráfico. Los datos recopilados en esas ofertas determinarían la cantidad de veces que se selecciona entre el 90 % del tráfico a medida que el modelo se actualiza.
+* **Después de crear un nuevo modelo de IA sin datos históricos**, las ofertas se servirán aleatoriamente durante un período de tiempo para recopilar datos y los datos se utilizarán para entrenar el primer modelo.
+* **Después de la publicación del primer modelo**, el 10 % del tráfico total se asignará a servicios aleatorios, mientras que el 90 % del tráfico se utilizará para recomendaciones de modelos. Por lo tanto, si se agregaran nuevas ofertas al modelo de IA, se enviarían como parte del 10 % del tráfico. Los datos recopilados en esas ofertas determinarían la cantidad de veces que se selecciona entre el 90 % del tráfico a medida que el modelo se actualiza.
 
 ## Readiestramiento {#re-training}
 
