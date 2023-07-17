@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 6f6fd6c032be7f86dca239d43732f3ab37223093
+source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 30%
+source-wordcount: '1415'
+ht-degree: 29%
 
 ---
 
 # Trabajo con el lienzo de composición {#composition-canvas}
+
+>[!BEGINSHADEBOX]
+
+Esta documentación proporciona información detallada sobre cómo trabajar con la composición de audiencias en Adobe Journey Optimizer. Si no utiliza Adobe Journey Optimizer, [haga clic aquí](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 Composición de audiencia proporciona un lienzo visual que le permite crear audiencias y utilizar varias actividades (dividir, enriquecer, etc.).
 
@@ -137,9 +143,11 @@ El **[!UICONTROL Excluir]** esta actividad le permite excluir perfiles de la com
 
 El **[!UICONTROL Enriquecer]** La actividad de le permite enriquecer su audiencia con atributos adicionales procedentes de conjuntos de datos de Adobe Experience Platform. Por ejemplo, puede añadir información relacionada con el producto comprado, como el nombre, precio o ID de fabricante y utilizar esta información para personalizar los envíos enviados al público.
 
->[!IMPORTANT]
->
->Por ahora, las etiquetas del conjunto de datos, ya sea en el nivel del conjunto de datos o de campo, no se propagan a la audiencia recién creada. Esto puede afectar al control de acceso o al control de datos de la audiencia resultante. Por este motivo, al componer audiencias, utilice únicamente datos de prueba.
+Tenga en cuenta las siguientes limitaciones al trabajar con **[!UICONTROL Enriquecer]** actividad:
+
+* **Conjuntos de datos** para el enriquecimiento debe ser de tipo registro (a diferencia del tipo evento) y no puede ser un conjunto de datos del sistema ni estar marcado para un perfil. Deben tener menos de 1 GB.
+* **El enriquecimiento admite una unión 1:1**. Esto significa que si las claves de unión tienen más de una coincidencia en el conjunto de datos de enriquecimiento, el sistema selecciona una de las coincidencias y la utiliza para la unión 1:1.
+* **Las audiencias se pueden activar en Destinos RTCDP**, pero sus atributos de enriquecimiento, si los hay, no pueden.
 
 Para configurar la actividad, siga estos pasos:
 
