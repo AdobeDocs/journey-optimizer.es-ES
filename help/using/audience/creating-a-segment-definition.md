@@ -11,7 +11,7 @@ exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"
 >title="Crear una regla"
->abstract="El método de creación de reglas Build permite crear una nueva definición de audiencia utilizando el servicio de Audiencias de Adobe Experience Platform."
+>abstract="El método de creación Generar regla permite crear una nueva definición de público mediante el servicio de creación de público de Adobe Experience Platform."
 
 En este ejemplo, crearemos una audiencia dirigida a todos los clientes que viven en Atlanta, San Francisco o Seattle y que nacieron después de 1980. Todos estos clientes deberían haber abierto la aplicación de Luma en los últimos 7 días y luego realizar una compra en las 2 horas siguientes a la apertura de la aplicación.
 

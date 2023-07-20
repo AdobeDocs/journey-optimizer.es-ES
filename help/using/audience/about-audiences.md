@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"
 >title="Audiencia "
->abstract="Al aprovechar los datos del perfil del cliente en tiempo real, Adobe Experience Platform le permite crear fácilmente definiciones de segmentos para crear audiencias segmentadas que capturen los comportamientos y preferencias únicos de sus clientes."
+>abstract="Al aprovechar los datos del perfil del cliente en tiempo real, Adobe Experience Platform permite generar fácilmente definiciones de segmentos para crear públicos destinatarios que reflejen los comportamientos y las preferencias únicos de sus clientes."
 
 [!DNL Journey Optimizer] le permite crear y aprovechar las audiencias de Adobe Experience Platform con datos de perfil del cliente en tiempo real directamente desde el **[!UICONTROL Audiencias]** y utilícelos en sus recorridos o campañas.
 

@@ -12,7 +12,7 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
->title="Eventos de calificación de audiencia"
->abstract="Esta actividad permite al recorrido escuchar las entradas y salidas de perfiles en audiencias de Adobe Experience Platform para hacer que los individuos entren o avancen en un recorrido."
+>title="Eventos de calificación de público"
+>abstract="Esta actividad permite que un recorrido escuche las entradas y salidas de perfiles en públicos de Adobe Experience Platform para que los particulares entren o avancen en un recorrido."
 
-Esta actividad permite al recorrido escuchar las entradas y salidas de perfiles en audiencias de Adobe Experience Platform para hacer que los individuos entren o avancen en un recorrido. Para obtener más información sobre la creación de audiencias, consulte [sección](../audience/about-audiences.md).
+Esta actividad permite que un recorrido escuche las entradas y salidas de perfiles en públicos de Adobe Experience Platform para que los particulares entren o avancen en un recorrido. Para obtener más información sobre la creación de audiencias, consulte [sección](../audience/about-audiences.md).
 
 Supongamos que tiene una audiencia &quot;cliente plata&quot;. Con esta actividad, puede hacer que todos los clientes nuevos de Silver Ingresen a un recorrido y les envíen una serie de mensajes personalizados.
 

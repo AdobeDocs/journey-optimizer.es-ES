@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
->title="Leer actividad de Audience"
->abstract="La actividad Leer audiencia le permite hacer que todas las personas que pertenecen a una audiencia de Adobe Experience Platform participen en un recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular."
+>title="Actividad Leer público"
+>abstract="La actividad Leer público permite hacer que todos los particulares que pertenecen a un público de Adobe Experience Platform entren en un recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular."
 
 Utilice el **Leer audiencia** actividad para que todas las personas de una audiencia entren en el recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular.
 
