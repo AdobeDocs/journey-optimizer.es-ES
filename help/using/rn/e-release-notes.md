@@ -5,10 +5,10 @@ title: Notas de la versión
 description: Notas de la versión anteriores de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: bef5bc9f86d1e11e6b1ed5853fc0b57a6e47d4ac
+source-git-commit: 1cfa4484329355310205421072af65f5dec32b5b
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 22%
+source-wordcount: '626'
+ht-degree: 25%
 
 ---
 
@@ -55,9 +55,10 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer está ampliando sus funciones en canales múltiples al añadir compatibilidad con el canal de correo directo. El correo postal es un canal sin conexión que le permite personalizar y generar los archivos de extracción necesarios para que los proveedores de correo postal envíen correo a sus clientes.</p>
-<!--img src="assets/do-not-localize/web-authoring.gif"/>
-<p>For more information, refer to the <a href="../web/get-started-web.md">detailed documentation</a>.</p-->
+<p>Ahora puede agregar mensajes de correo postal en sus campañas y recorridos. El correo postal es un canal sin conexión que le permite personalizar y generar los archivos necesarios para que los proveedores de correo postal envíen correo a sus clientes.</p>
+<p>Al preparar una entrega de correo postal, Journey Optimizer genera un archivo que incluye todos los perfiles de destino y la información de contacto elegida (por ejemplo, una dirección postal). Después, puede enviar este archivo al proveedor de correo postal que se encarga de la entrega real.</p>
+<img src="../direct-mail/assets/direct-mail-properties.png">
+<p>Para obtener más información, consulte la <a href="../direct-mail/create-direct-mail.md">documentación detallada</a>.</p>
 </tr>
 </tbody>
 </table>
