@@ -5,10 +5,10 @@ title: Notas de la versión
 description: Notas de la versión anteriores de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: b677776becaabc15c85be0a5a46b741cebb9d87b
+source-git-commit: c9e8088cd460992b0c84e3e14e63c2388fa94fd1
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 25%
+source-wordcount: '617'
+ht-degree: 26%
 
 ---
 
@@ -90,7 +90,7 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede asignar etiquetas unificadas de Adobe Experience Platform a sus páginas de aterrizaje, plantillas, fragmentos de contenido y listas de suscripción, además de a campañas y recorridos. Esto le permite clasificarlas fácilmente y mejorar la búsqueda y la navegación en todas las listas. Esta función se encuentra actualmente en GA (General Disponible).</p>
+<p>Además de las campañas y los recorridos, ahora puede asignar Adobe Experience Platform Unified Tags a sus páginas de aterrizaje, plantillas, fragmentos de contenido y listas de suscripción. Esto le permite clasificarlas fácilmente y mejorar la búsqueda y la navegación en todas las listas. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Para obtener más información, consulte la <a href="../start/search-filter-categorize.md#tags">documentación detallada</a>.</p>
 </td>
@@ -103,6 +103,16 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 
 Esta versión incorpora las mejoras que se enumeran a continuación.
 
+**Recorridos**
+
+* Ahora puede utilizar las respuestas de llamadas de API en acciones personalizadas y organizar su recorrido en función de estas respuestas.
+
+
+**Campañas**
+
+* Los eventos contextuales relacionados con campañas ya están disponibles para su uso en el menú &quot;Atributos contextuales&quot; del editor de personalización.
+
+
 **Audiencias**
 
 Se han realizado mejoras en el selector de audiencias en recorridos o campañas, con la adición de nuevas columnas que muestran el origen y la frecuencia de actualización de las audiencias.
@@ -114,13 +124,4 @@ Con el lanzamiento del portal de composición de audiencias, Adobe Experience Pl
 
 Como resultado, dentro de Adobe Journey Optimizer y de la IU de Adobe Experience Platform, verá &quot;Segmentos&quot; reemplazado por &quot;Audiencias&quot; para reflejar esta nueva ruta de creación y administración de audiencias.
 
-
-**Recorridos**
-
-* Ahora puede utilizar las respuestas de llamadas de API en acciones personalizadas y organizar su recorrido en función de estas respuestas.
-
-
-**Campañas**
-
-* Los eventos contextuales relacionados con campañas ya están disponibles para su uso en el menú &quot;Atributos contextuales&quot; del editor de personalización.
 
