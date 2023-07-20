@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
+source-git-commit: 729150262a1e6823349e8025a1632dd37968bde9
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1623'
 ht-degree: 8%
 
 ---
@@ -30,7 +30,6 @@ Con [!DNL Journey Optimizer], puede configurar superficies de canal (es decir, a
 > * Para crear, editar y borrar superficies de canal, se debe disponer de [Administrar superficie de canal](../administration/high-low-permissions.md#manage-channel-surface) permiso.
 >
 > * Debe realizar las [Configuración de correo electrónico](../email/get-started-email-config.md), [Configuración push](../push/push-configuration.md) y [Configuración de SMS](../sms/sms-configuration.md) pasos antes de crear superficies de canal.
-
 
 Una vez configuradas las superficies de canal, puede seleccionarlas al crear mensajes desde un recorrido o una campaña.
 
@@ -99,7 +98,10 @@ Para crear una superficie de canal, siga estos pasos:
    Durante este paso, se realizarán varias comprobaciones para comprobar que se ha configurado correctamente. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
-   >Al crear la primera superficie de correo electrónico para un subdominio determinado, el tiempo de procesamiento puede ser largo **De 10 minutos a 10 días**. Si el subdominio seleccionado ya se está utilizando en otra superficie de correo electrónico, solo tardará hasta 3 horas.
+   > Al crear una superficie de correo electrónico para un subdominio, el tiempo de procesamiento varía, como se detalla a continuación:
+   >
+   > * Para los nuevos subdominios, el proceso para crear la primera superficie de canal puede llevar **De 10 min a 10 días**.
+   > * Para **zonas protegidas de no producción** o si el subdominio seleccionado es **ya se usa** en otra superficie de canal, el proceso tarda solo 3 horas.
 
    Estas comprobaciones incluyen pruebas técnicas y de configuración que realiza el equipo de Adobe:
 
