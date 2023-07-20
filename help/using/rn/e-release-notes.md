@@ -5,10 +5,10 @@ title: Notas de la versión
 description: Notas de la versión anteriores de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: c9e8088cd460992b0c84e3e14e63c2388fa94fd1
+source-git-commit: 88dff30c5128884ba72ba64cf8ca9ceb460ed4ca
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 26%
+source-wordcount: '636'
+ht-degree: 25%
 
 ---
 
@@ -106,6 +106,8 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 **Recorridos**
 
 * Ahora puede utilizar las respuestas de llamadas de API en acciones personalizadas y organizar su recorrido en función de estas respuestas.
+* Se ha introducido un nuevo tipo de alerta del sistema. Ahora puede recibir notificaciones cuando falle una acción personalizada.
+
 
 
 **Campañas**
@@ -123,5 +125,6 @@ Con el lanzamiento del portal de composición de audiencias, Adobe Experience Pl
 * Definición del segmento: en Adobe Experience Platform, las reglas utilizadas para describir las características clave o el comportamiento de un público destinatario. Este término se conocía anteriormente como &quot;segmento&quot;.
 
 Como resultado, dentro de Adobe Journey Optimizer y de la IU de Adobe Experience Platform, verá &quot;Segmentos&quot; reemplazado por &quot;Audiencias&quot; para reflejar esta nueva ruta de creación y administración de audiencias.
+
 
 
