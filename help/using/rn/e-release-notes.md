@@ -5,7 +5,7 @@ title: Notas de la versión
 description: Notas de la versión anteriores de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 1cfa4484329355310205421072af65f5dec32b5b
+source-git-commit: b677776becaabc15c85be0a5a46b741cebb9d87b
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 25%
@@ -73,7 +73,7 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <tr>
 <td>
 <p>Ahora puede importar y convertir cualquier contenido de HTML en el editor de correo electrónico de Journey Optimizer. Los bloques de contenido se identifican automáticamente y están disponibles en el diseñador de correo electrónico: utilice sus potentes funciones de diseño para actualizarlos y personalizarlos.</p>
-<!--img src="../audience/assets/audiences-publish.png"/-->
+<img src="../email/assets/html-imported_2.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
 </tr>
