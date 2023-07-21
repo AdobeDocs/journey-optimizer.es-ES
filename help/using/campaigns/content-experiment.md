@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 05284fcb3fc426bcf8bc5343a3267bd24c2a26cc
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '797'
 ht-degree: 6%
 
 ---
@@ -88,6 +88,16 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
    ![](assets/content_experiment_5.png)
 
 ## Configuración del experimento de contenido {#configure-experiment}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_dimension"
+>title="Dimensión"
+>abstract="Elija la dimensión específica que desea rastrear para el experimento, como clics específicos o vistas de páginas específicas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_success_metric"
+>title="Métrica de éxito"
+>abstract="La métrica de éxito se utiliza para rastrear y evaluar el tratamiento con mejor rendimiento de un experimento. Asegúrese de configurar el conjunto de datos para determinadas métricas antes de utilizarlo."
 
 1. Cuando la entrega se haya personalizado, en la página de resumen de Campaign, haga clic en **[!UICONTROL Crear experimento]** para comenzar a configurar el experimento de contenido.
 
