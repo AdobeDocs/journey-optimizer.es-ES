@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 208934b120d5273efc0a34ff35c254b819a84f3c
+source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2057'
 ht-degree: 2%
 
 ---
@@ -271,8 +271,6 @@ El **[!UICONTROL SMS: estadísticas de envío]** La tabla detalla el éxito de s
 
 * **[!UICONTROL Enviado]**: Número total de envíos para el envío.
 
-* **[!UICONTROL Entregado]**: Número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
-
 * **[!UICONTROL Devoluciones]**: Total de errores acumulados durante el envío y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados.
 
 * **[!UICONTROL Errores]**: Número total de errores que se han producido durante una entrega para evitar que se envíe a los perfiles.
@@ -280,8 +278,6 @@ El **[!UICONTROL SMS: estadísticas de envío]** La tabla detalla el éxito de s
 El **[!UICONTROL Resumen de SMS]** El widget detalla la información principal relativa al mensaje con un gráfico:
 
 * **[!UICONTROL Enviado]**: Número total de envíos para el envío.
-
-* **[!UICONTROL Entregado]**: Número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
 
 * **[!UICONTROL Devoluciones]**: Total de errores acumulados durante el envío y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados.
 
