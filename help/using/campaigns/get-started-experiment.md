@@ -10,9 +10,9 @@ level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1961'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ Los métodos estadísticos nos dan una forma de formalizar esta incertidumbre. U
 
 +++Formar nuevas hipótesis y realizar pruebas continuamente
 
-Para obtener verdaderas perspectivas empresariales, debe limitarse a un solo experimento. En su lugar, realice un seguimiento de los experimentos formulando nuevas hipótesis y ejecutando nuevas pruebas con diferentes cambios, en diferentes audiencias y examinando el impacto en las distintas métricas.
+Para obtener verdaderas perspectivas empresariales, debe limitarse a un solo experimento. En su lugar, realice un seguimiento de los experimentos, formulando nuevas hipótesis y ejecutando nuevas pruebas con diferentes cambios, en audiencias distintas y examinando el impacto en varias métricas.
 +++
 
 ## Interpretación de los resultados de los experimentos {#interpret-results}
@@ -172,7 +172,7 @@ Después de ejecutar el Experimento, hay varias acciones de seguimiento posibles
 
 * **Realizar análisis más profundos**
 
-  El tratamiento que funciona bien para una audiencia puede no ser a veces el mejor tratamiento para otra audiencia. Realizar análisis más profundos sobre cómo se comportaron los tratamientos para diferentes audiencias ayuda a generar ideas para nuevas pruebas.
+  El tratamiento que funciona bien para una audiencia puede no ser a veces el mejor tratamiento para otra audiencia. Realizar análisis más profundos sobre cómo se han comportado los tratamientos para diferentes audiencias ayuda a generar ideas para nuevas pruebas.
 
   Del mismo modo, estudiar el rendimiento de cada tratamiento con distintas métricas también puede proporcionar una visión más completa de sus experimentos.
 
