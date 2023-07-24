@@ -5,9 +5,9 @@ title: Notas de la versión 2022
 description: Notas de la versión de Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3575'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 **Recorridos**
 
-* El **Forzar reentrada en repetición** se ha añadido la opción en los parámetros de programación de audiencia de lectura recurrentes. Esta opción le permite hacer que todos los perfiles que aún están presentes en el recorrido se cierren automáticamente en la siguiente ejecución. Cuando la opción está desactivada, los perfiles deben finalizar el recorrido antes de poder volver a entrar en otra ocurrencia. [Más información](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* La opción **Forzar reentrada en repetición** se ha añadido en los parámetros de programación de lectura de audiencia recurrentes. Esta opción le permite hacer que todos los perfiles que aún están presentes en el recorrido se cierren automáticamente en la siguiente ejecución. Cuando la opción está desactivada, los perfiles deben finalizar el recorrido antes de poder volver a entrar en otra ocurrencia. [Más información](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Administración**
 
@@ -176,7 +176,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <tbody>
 <tr>
 <td>
-<p>Como usuario de Journey Optimizer, ahora puede acceder a las alertas del sistema a través de la interfaz de usuario para recibir notificaciones cuando los recorridos no funcionan como se esperaba. Puede ver las alertas disponibles y suscribirse a ellas. La primera alerta disponible con esta versión le avisará si una actividad Leer audiencia no ha procesado ningún perfil durante el lapso de tiempo definido. Habrá más ahora que se ha desbloqueado este flujo de trabajo.</p>
+<p>Como usuario de Journey Optimizer, ahora puede acceder a las alertas del sistema a través de la interfaz de usuario para recibir notificaciones cuando los recorridos no funcionan como se esperaba. Puede ver las alertas disponibles y suscribirse a ellas. La primera alerta disponible con esta versión le avisará si la actividad Leer audiencia no ha procesado ningún perfil durante el lapso de tiempo definido. Habrá más ahora que se ha desbloqueado este flujo de trabajo.</p>
 <!--p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -207,7 +207,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 **Recorridos**
 
 * El **Conjunto de datos de entidad** ya está disponible como un conjunto de datos predeterminado en Adobe Journey Optimizer. Este conjunto de datos de búsqueda incluye metadatos para enriquecer la información de los conjuntos de datos de seguimiento y comentarios. Esto le ayudará a mejorar sus informes y consultas con datos más comprensibles. [Más información](../data/datasets-query-examples.md#entity-dataset)
-* Se ha añadido una nueva protección a los recorridos unitarios (comenzando por un evento o una calificación de audiencia) para evitar que los recorridos se activen varias veces por error para el mismo evento. La reentrada del perfil se bloqueará temporalmente de forma predeterminada durante 5 minutos. [Más información](../start/guardrails.md#events-g)
+* Se ha añadido un nuevo mecanismo de protección a los recorridos unitarios (que comiencen por un evento o una calificación de audiencia) para evitar que los recorridos se activen varias veces por error para el mismo evento. La reentrada del perfil se bloqueará temporalmente de forma predeterminada durante 5 minutos. [Más información](../start/guardrails.md#events-g)
 
 **Administración**
 
@@ -235,8 +235,8 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 ### Otros cambios{#sept-2022-other}
 
 * El modo de ráfaga de recorrido se ha sustituido por el modo de envío rápido de Campaign. [Más información](../push/create-push.md#rapid-delivery)
-* Para mejorar el rendimiento, los grupos de campos de eventos de experiencia ya no se pueden utilizar en recorridos que comiencen por una audiencia de lectura, una calificación de audiencia o una actividad de evento empresarial. Este cambio solo se aplica a los nuevos recorridos. Los existentes mantendrán el comportamiento actual. [Más información](../start/guardrails.md#expression-editor)
-* Se ha eliminado la limitación de 1 hora para los recorridos de audiencia de lectura programados. Estos recorridos ahora se pueden ejecutar sin demora.
+* Para mejorar el rendimiento, los grupos de campos de eventos de experiencia ya no se pueden utilizar en recorridos que comiencen con las actividades Leer audiencia, Calificación de audiencia o evento empresarial. Este cambio solo se aplica a los nuevos recorridos. Los existentes mantendrán el comportamiento actual. [Más información](../start/guardrails.md#expression-editor)
+* Se ha eliminado la limitación de una hora para los recorridos de lectura de audiencia programados. Estos recorridos ahora se pueden ejecutar sin demora.
 
 
 
@@ -254,7 +254,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <tbody>
 <tr>
 <td>
-<p>Utilice campañas de Journey Optimizer para ofrecer contenido único a una audiencia específica mediante varios canales. Cuando se utilizan recorridos, las acciones están diseñadas para ejecutarse en secuencia. Con las campañas, las acciones se realizan simultáneamente, ya sea de forma inmediata o en función de una programación especificada. </p>
+<p>Utilice las campañas de Journey Optimizer para ofrecer contenido único a una audiencia específica mediante varios canales. Cuando se utilizan recorridos, las acciones están diseñadas para ejecutarse en secuencia. Con las campañas, las acciones se realizan simultáneamente, ya sea de forma inmediata o en función de una programación especificada. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
 <p>Obtenga información sobre cómo crear una campaña en <a href="../campaigns/get-started-with-campaigns.md">documentación detallada</a> y <a href="https://video.tv.adobe.com/v/346680">vídeo de funciones</a>.
 </td>
@@ -374,7 +374,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <tbody>
 <tr>
 <td>
-<p>Ahora puede utilizar sistemas de modelos de optimización personalizados en la gestión de decisiones. Este nuevo tipo de modelo le permite optimizar y personalizar ofertas basadas en audiencias y ofrecer rendimiento.</p>
+<p>Ahora puede utilizar sistemas de modelos de optimización personalizados en la gestión de decisiones. Este nuevo tipo de modelo le permite optimizar y personalizar ofertas en función de las audiencias y ofrecer rendimiento.</p>
 <p>El uso de modelos de IA de optimización personalizados está actualmente restringido a usuarios seleccionados y se implementará en todos los entornos en una versión futura.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Para obtener más información, consulte la <a href="../offers/ranking/personalized-optimization-model.md">documentación detallada</a>.</p>
@@ -408,7 +408,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 **Gestión de decisiones**
 
-* **Tamaño de audiencia** : Ahora se muestra un nuevo componente de estimación del tamaño de la audiencia en la interfaz de usuario al crear una regla de decisión, al seleccionar una audiencia o una regla para establecer la idoneidad de una oferta o al añadir una audiencia o una regla al ámbito de decisión.
+* **Tamaño de la audiencia**: ahora se muestra un nuevo componente de estimación del tamaño de la audiencia en la interfaz de usuario al crear una regla de decisión, al seleccionar una audiencia o una regla para establecer la idoneidad de una oferta o al añadir una audiencia o una regla a un ámbito de decisión.
 
 
 ## Lanzamiento de junio de 2022 {#june-2022-release}
@@ -615,7 +615,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 **Recorridos**
 
-* **Leer audiencia** : Los recorridos de audiencia de lectura de una sola toma ahora pasan al estado Finalizado 30 días después de la ejecución del recorrido. Para audiencias de lectura programadas, son 30 días después de la ejecución de la última ocurrencia. [Más información](../building-journeys/read-audience.md)
+* **Leer audiencia**: los recorridos de Leer audiencia de una sola toma ahora pasan al estado Finalizado 30 días después de la ejecución del recorrido. Para recorridos de Leer audiencia programados será 30 días después de la ejecución de la última ocurrencia. [Más información](../building-journeys/read-audience.md)
 * **Editor de expresiones**: la función [límite](../building-journeys/functions/functionlimit.md) para permitirle limitar el número de elementos de una lista. La función [ordenar](../building-journeys/functions/functionsort.md) ahora permite ordenar un objeto de lista. La compatibilidad de listObject también se ha agregado a las funciones [disctinct](../building-journeys/functions/functiondistinct.md) y [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md).
 
 **Administración**
@@ -673,7 +673,7 @@ Como cliente de Adobe Campaign Standard, ahora puede enviar correos electrónico
 **Gestión de decisiones**
 
 * Ahora puede especificar si el límite de oferta se aplica a todos los usuarios o a un perfil específico, así como a todas las ubicaciones o a una. [Más información](../offers/offer-library/add-constraints.md#capping)
-* La API de decisiones por lotes permite a las organizaciones utilizar la funcionalidad de administración de decisiones para todos los perfiles de una audiencia determinada en una llamada. El contenido de la oferta para cada perfil de la audiencia se coloca en un conjunto de datos de AEP, donde está disponible para flujos de trabajo por lotes personalizados. [Más información](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* La API de decisiones por lotes permite a las organizaciones utilizar la funcionalidad de gestión de decisiones para todos los perfiles de una audiencia determinada en una llamada. El contenido de la oferta para cada perfil de la audiencia se coloca en un conjunto de datos de AEP, donde está disponible para los flujos de trabajo por lotes personalizados. [Más información](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **Administración**
 
@@ -800,13 +800,13 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <table>
 <thead>
 <tr>
-<th><strong>Recorridos: Leer la mejora de audiencias</strong><br/></th>
+<th><strong>Recorridos: mejora de Leer audiencia</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>El <strong>Lectura incremental</strong> se ha añadido a la opción recurrente <strong>Leer audiencia</strong> actividades. Esta opción le permite dirigirse únicamente a las personas que ingresaron a la audiencia desde la última ejecución del recorrido. La primera ejecución siempre se dirige a todos los miembros de la audiencia.</p>
+<p>La opción <strong>Lectura incremental</strong> se ha añadido a las actividades <strong>Leer audiencia</strong> recurrentes. Esta opción le permite dirigirse únicamente a los particulares que entraron a la audiencia desde la última ejecución del recorrido. La primera ejecución siempre se dirige a todos los miembros de la audiencia.</p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">documentación detallada</a>.
 </td>
 </tr>
