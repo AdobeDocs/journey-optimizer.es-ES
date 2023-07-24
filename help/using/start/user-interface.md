@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 0e0c293b31e3b74b57b12e0ae06f6ea9eb4d0dc1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1283'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ Administre sus conexiones de datos con otras aplicaciones y nubes desde esta sec
 
 Administre sus audiencias y datos de perfil desde esta sección.
 
-* **[!UICONTROL Audiencias]** : Cree y administre audiencias de Experience Platform y utilícelas en sus recorridos. [Más información](../audience/about-audiences.md)
+* **[!UICONTROL Audiencias]**: cree y administre audiencias de Experience Platform para utilizarlos en sus recorridos. [Más información](../audience/about-audiences.md)
 
 * **[!UICONTROL Listas de suscripción]**: en [!DNL Journey Optimizer], los clientes que han elegido un servicio de suscripción se agrupan en una lista de suscripción. [Más información](../landing-pages/subscription-list.md)
 
