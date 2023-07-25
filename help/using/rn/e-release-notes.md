@@ -5,10 +5,10 @@ title: Notas de la versión
 description: Notas de la versión anteriores de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: c75664f9b4d58fff1b073c385bcb839e9c11c8ec
+source-git-commit: e384991599c19f72910f299350c0839fa16b4588
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 20%
+source-wordcount: '639'
+ht-degree: 27%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 20%
 [!DNL Adobe Journey Optimizer] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en la [notas de la versión](release-notes.md).
 
 Las notas de la versión anticipadas que se indican a continuación están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento. Los vínculos, las pantallas y la documentación actualizada se publican en la [notas de la versión](release-notes.md), en la fecha de lanzamiento.
-
 
 ## Notas de la versión anteriores de julio de 2023 {#july-rn-2023}
 
@@ -30,55 +29,37 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <table>
 <thead>
 <tr>
-<th><strong>API de plantillas de contenido</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede crear y administrar plantillas de contenido de Adobe Journey Optimizer mediante API dedicadas, lo que proporciona una integración perfecta con su sistema de contenido existente.</p>
-<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
 <th><strong>Composición de audiencia</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear flujos de trabajo de composición para combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (dividir, enriquecer...) para crear nuevas audiencias. Las audiencias recién creadas se vuelven a guardar en Adobe Experience Platform junto con las audiencias existentes y se pueden aprovechar en campañas de Journey Optimizer para clientes de destino.</p>
+<p>Ahora puede crear flujos de trabajo de composición para combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (división, enriquecer) para crear audiencias nuevas. Las audiencias recién creadas se vuelven a guardar en Adobe Experience Platform junto con las audiencias existentes y se pueden aprovechar en las campañas de Journey Optimizer para dirigirse a los clientes.</p>
 <img src="../audience/assets/audiences-publish.png"/>
 <p>Para obtener más información, consulte la <a href="../audience/get-started-audience-orchestration.md">documentación detallada</a>.</p>
-<p>La composición de audiencias viene totalmente integrada con el nuevo menú "Audiencias" de Adobe Experience Platform, que sirve como portal centralizado para las audiencias. Ahora puede utilizar una página de exploración que incluya un nuevo panel con tendencias de segmentos y superposiciones para encontrar nuevas perspectivas y explorar las herramientas organizativas para la carpeta y el etiquetado. Esta experiencia incluye controles de gobernanza para el etiquetado de audiencias estandarizado, así como funciones de administración del ciclo vital de las audiencias para administrar los flujos de trabajo de activación. Con esta nueva experiencia de administración, ahora puede administrar audiencias de forma fácil y segura desde un solo lugar. Para obtener más información, consulte <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html" target="_blank">Documentación de Adobe Experience Platform</a>.</p></p>
+<p>La composición de audiencias viene totalmente integrada con el nuevo menú "Audiencias" de Adobe Experience Platform, que sirve como portal centralizado para las audiencias. Ahora puede utilizar una página de exploración que incluya un nuevo panel con tendencias de segmentos y superposiciones para encontrar nuevas perspectivas y explorar las herramientas organizativas para la carpeta y el etiquetado. Esta experiencia incluye controles de gobernanza para el etiquetado de audiencias estandarizado, así como funciones de administración del ciclo vital de las audiencias para administrar los flujos de trabajo de activación. Con esta nueva experiencia de administración, ahora puede administrar audiencias de forma fácil y segura desde un solo lugar. Para obtener más información, consulte <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es" target="_blank">Documentación de Adobe Experience Platform</a>.</p></p>
 </td>
 </tr>
 </tbody>
 </table>
 
-
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Canal de correo directo</strong><br/></th>
+<th><strong>Direct mail channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede agregar mensajes de correo postal en sus campañas. El correo postal es un canal sin conexión que le permite personalizar y generar los archivos necesarios para que los proveedores de correo postal envíen correo a sus clientes.</p>
-<p>Al preparar una entrega de correo postal, Journey Optimizer genera un archivo que incluye todos los perfiles de destino y la información de contacto elegida (por ejemplo, una dirección postal). Después, puede enviar este archivo al proveedor de correo postal que se encarga de la entrega real.</p>
+<p>You can now add direct mail messages in your campaigns. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
+<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
 <img src="../direct-mail/assets/direct-mail-properties.png">
-<p>Para obtener más información, consulte la <a href="../direct-mail/create-direct-mail.md">documentación detallada</a>.</p>
+<p>For more information, refer to the <a href="../direct-mail/create-direct-mail.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -110,6 +91,23 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <p>Además de las campañas y los recorridos, ahora puede asignar Adobe Experience Platform Unified Tags a sus páginas de aterrizaje, plantillas de contenido, fragmentos y listas de suscripción. Esto le permite clasificarlas fácilmente y mejorar la búsqueda y la navegación en todas las listas. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Para obtener más información, consulte la <a href="../start/search-filter-categorize.md#tags">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>API de plantillas de contenido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede crear y administrar plantillas de contenido de Adobe Journey Optimizer mediante API dedicadas, lo que proporciona una integración perfecta con su sistema de contenido existente.</p>
+<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
@@ -149,8 +147,8 @@ Autenticación de API de Adobe Journey Optimizer: el método JWT para generar to
 
 **Otros cambios**
 
-La exportación de conjuntos de datos de Journey Optimizer a destinos de almacenamiento en la nube ya está disponible para todos los clientes. Esta función le permite establecer una conexión activa con ubicaciones de almacenamiento en la nube para exportar el contenido de sus conjuntos de datos. [Más información](../data/export-datasets.md)
+La exportación de conjuntos de datos de Journey Optimizer a destinos de almacenamiento en la nube ya está disponible para todos los clientes como una versión beta pública. Esta función le permite establecer una conexión activa con ubicaciones de almacenamiento en la nube para exportar el contenido de sus conjuntos de datos. [Más información](../data/export-datasets.md)
 
->[!AVAILABILITY]
->
->Esta función se encuentra actualmente en versión beta y sujeta a cambios.</p>
+
+
+
