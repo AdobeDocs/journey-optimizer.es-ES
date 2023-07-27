@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: ed08b21f10246ef548d991807aa31d13ad8cbccc
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '743'
 ht-degree: 6%
 
 ---
@@ -122,7 +122,7 @@ For more information on how to configure a journey, refer to [this page](../buil
       | Ciclo de aplicación | Hora del día | Se activa cuando se cumple la hora del día especificada. |
       | Places | Punto de interés actual | Se activa mediante el SDK de Places cuando el cliente introduce el punto de interés (PDI) especificado. |
       | Places | Último punto de interés | Activado por el SDK de Places en función del último punto de interés (PDI) introducido por el cliente. |
-      | Places | Último PDI saliente | Se activa mediante el SDK de Places en función del último punto de interés (PDI) de salida del cliente. |
+      | Places | Último PDI de salida | Se activa mediante el SDK de Places en función del último punto de interés (PDI) de salida del cliente. |
 
 +++
 
@@ -155,15 +155,13 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 * El siguiente vídeo muestra cómo crear, configurar y publicar mensajes en la aplicación en sus campañas.
 
-  +++Consulte el vídeo
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
-+++
+
 
 * El siguiente vídeo muestra cómo configurar y analizar experimentos de contenido para probar mensajes en la aplicación A/B.
 
-  +++Consulte el vídeo
   >[!VIDEO](https://video.tv.adobe.com/v/3419898)
-+++
+
 
 
 **Temas relacionados:**

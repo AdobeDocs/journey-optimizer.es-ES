@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 keywords: en la aplicación, mensaje, configuración, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 7de25a5e82837190ada3e67f3b202a4934c9b793
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '323'
 ht-degree: 11%
 
 ---
@@ -81,6 +81,5 @@ El canal en la aplicación ya está configurado. Puede empezar a enviar mensajes
 
 * El siguiente vídeo muestra cómo asignar el **Administrar configuración de aplicación** permiso para acceder al menú Superficies de la aplicación.
 
-  +++Consulte el vídeo
-  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
-+++
+>[!VIDEO](https://video.tv.adobe.com/v/3421607)
+
