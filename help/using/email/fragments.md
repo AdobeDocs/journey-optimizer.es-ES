@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
-source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1495'
 ht-degree: 5%
 
 ---
@@ -63,7 +63,7 @@ Desde el **[!UICONTROL Más acciones]** junto a cada fragmento, puede hacer lo s
 Para editar un fragmento, siga los pasos a continuación.
 
 1. Haga clic en el elemento que desee en **[!UICONTROL Fragmento]** lista.
-1. En las propiedades del fragmento, puede hacer lo siguiente [explorar referencias](#explore-references), [administrar su acceso](../administration/object-based-access.md) y actualice los detalles del fragmento.
+1. En las propiedades del fragmento, puede hacer lo siguiente [explorar referencias](#explore-references), [administrar su acceso](../administration/object-based-access.md)y actualice los detalles del fragmento, incluido lo siguiente [etiquetas](../start/search-filter-categorize.md#tags).
 
    ![](assets/fragment-edit-content.png)
 
@@ -143,6 +143,8 @@ Para crear un fragmento desde cero, siga los pasos a continuación.
 
 1. Para asignar etiquetas de uso de datos personalizadas o principales al fragmento, seleccione **[!UICONTROL Administrar acceso]**. [Obtenga más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
 
+1. Seleccione o cree etiquetas de Adobe Experience Platform en **[!UICONTROL Etiquetas]** para categorizar el fragmento y mejorar la búsqueda. [Más información](../start/search-filter-categorize.md#tags)
+
 1. Haga clic en **[!UICONTROL Crear]**.
 
 1. El [Diseñador de correo electrónico](get-started-email-design.md) muestra. Edite el contenido según sea necesario, del mismo modo que lo haría para cualquier correo electrónico dentro de un recorrido o una campaña.
@@ -188,6 +190,8 @@ Al diseñar una [plantilla de contenido](content-templates.md) o un [email](get-
    >Actualmente solo el **[!UICONTROL Fragmento visual]** tipo y el **Correo electrónico** son compatibles.
 
 1. Para asignar etiquetas de uso de datos personalizadas o principales al fragmento, seleccione **[!UICONTROL Administrar acceso]**. [Obtenga más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
+
+1. Seleccione o cree etiquetas de Adobe Experience Platform en **Etiquetas** para categorizar la plantilla y mejorar la búsqueda. [Más información](../start/search-filter-categorize.md#tags)
 
 1. Clic **[!UICONTROL Crear]** otra vez. El fragmento se guardará en la variable **[!UICONTROL Fragmentos]** , accesible desde el [!DNL Journey Optimizer] menú específico.
 

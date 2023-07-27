@@ -4,16 +4,22 @@ product: journey optimizer
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '2949'
-ht-degree: 99%
+source-wordcount: '3001'
+ht-degree: 97%
 
 ---
 
 # Actualizaciones de documentación {#latest-updates}
 
 Esta página enumera todas las actualizaciones de documentación de [!DNL Journey Optimizer].
+
+## Julio de 2023 {#july-2023}
+
+* La página de documentación de la actividad de espera se ha mejorado con información adicional y prácticas recomendadas relacionadas con el tiempo de espera global y el uso de reentrada. [Más información](../building-journeys/wait-activity.md)
+* Se ha mejorado la página sobre administración de entradas. [Más información](../building-journeys/entry-management.md)
+* Se ha añadido información adicional acerca de la tasa de regulación en la documentación de la actividad Leer audiencia. [Más información](../building-journeys/read-audience.md)
 
 ## Junio de 2023 {#june-2023}
 

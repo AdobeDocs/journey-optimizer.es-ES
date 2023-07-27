@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 7%
+source-wordcount: '1342'
+ht-degree: 6%
 
 ---
 
@@ -30,9 +30,11 @@ La campaña **[!UICONTROL Informe en vivo]** se mostrará con las siguientes pes
 
 * [Campaign](#campaign-live)
 * [Correo electrónico](#email-live)
+* [En la aplicación](#inapp-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
 * [Web](#web-tab)
+* [Correo directo](#direct-mail-tab)
 
 La campaña **[!UICONTROL Informe en vivo]** se divide en diferentes widgets que detallan el éxito y los errores de la campaña. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](../reports/live-report.md#modify-dashboard).
 
@@ -97,6 +99,26 @@ El **[!UICONTROL Motivos del rechazo]**, **[!UICONTROL Categorías de rechazo]**
 El **[!UICONTROL Motivos del error]** y **[!UICONTROL Razones de exclusión]** los gráficos y tablas permiten ver qué error y exclusiones se produjeron durante la entrega.
 
 El **[!UICONTROL Correo electrónico: dominio del destinatario principal]** el gráfico y la tabla detallan qué dominios son los más utilizados por los destinatarios para abrir el correo electrónico.
++++
+
+## Pestaña en la aplicación {#inapp-live}
+
+Desde la campaña **[!UICONTROL Informe en vivo]**, el **[!UICONTROL En la aplicación]** Esta pestaña detalla la información principal relativa a las entregas en la aplicación enviadas en la campaña.
+
++++Obtenga más información sobre las distintas métricas y widgets disponibles para el informe en la aplicación.
+
+El **[!UICONTROL Rendimiento en la aplicación]** Los KPI detallan la información principal relativa a la participación de los visitantes en los mensajes en la aplicación, como:
+
+* **[!UICONTROL Impresiones únicas]**: número de usuarios únicos a los que se entregó el mensaje en la aplicación.
+
+* **[!UICONTROL Impresiones]**: número total de mensajes en la aplicación entregados a todos los usuarios.
+
+El **[!UICONTROL Resumen en la aplicación]** Este gráfico muestra la evolución de las impresiones en la aplicación durante el periodo correspondiente.
+
+El **[!UICONTROL Clics por botón]** el gráfico y la tabla contienen los datos disponibles sobre el comportamiento del destinatario por botón:
+
+* **[!UICONTROL Clics]**: número total de destinatarios que interactuaron con los botones incluidos en el mensaje en la aplicación.
+
 +++
 
 ## Pestaña de notificaciones push {#push-live}
@@ -180,6 +202,25 @@ El **[!UICONTROL Rendimiento web]** Los KPI detallan la información principal r
 El **[!UICONTROL Resumen web]** Este gráfico muestra la evolución de las experiencias web (impresiones, impresiones únicas y clics) durante el periodo correspondiente.
 
 El **[!UICONTROL Clics por elemento]** La tabla detalla la información principal relativa a la participación de los visitantes en los distintos elementos de las páginas web.
++++
+
+## Ficha Correo directo {#direct-mail-tab}
+
+Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL Correo directo]** Esta pestaña detalla la información principal relativa a sus envíos de correo directo.
+
++++Obtenga más información sobre las distintas métricas y widgets disponibles para el informe Correo directo.
+
+El **[!UICONTROL Correo directo: estadísticas de envío]** La tabla detalla el éxito de su envío:
+
+* **[!UICONTROL Objetivos]**: número de perfiles de usuario que se califican como perfiles de destinatario para este envío.
+
+* **[!UICONTROL Enviado]**: Número total de envíos para el envío.
+
+* **[!UICONTROL Errores]**: Número total de errores que se han producido durante una entrega para evitar que se envíe a los perfiles.
+
+* **[!UICONTROL Excluido]**: número de perfiles de usuario, excluidos de los perfiles de destino, que no recibieron el envío.
+
+El **[!UICONTROL Correo directo: razones de exclusión]** y **[!UICONTROL Correo directo: razones de error]** los gráficos y tablas permiten ver qué error y exclusiones se produjeron durante la entrega.
 +++
 
 ## Recursos adicionales

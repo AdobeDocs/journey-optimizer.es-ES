@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: en la aplicación, mensaje, configuración, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 12%
+source-wordcount: '325'
+ht-degree: 11%
 
 ---
 
@@ -26,9 +26,14 @@ Antes de enviar mensajes en la aplicación, debe configurar el canal en la aplic
 
 1. A continuación, acceda al **[!UICONTROL Superficies de aplicación]** y haga clic en **[!UICONTROL Crear superficie de aplicación]**.
 
+   >[!NOTE]
+   >
+   > Necesita el **Administrar configuración de aplicación** permiso para tener acceso a **[!UICONTROL Superficies de aplicación]** menú. Para obtener más información, consulte [este vídeo](#video).
+
    ![](assets/inapp_config_1.png)
 
 1. Añada un nombre a su **[!UICONTROL Superficie de aplicación]**.
+
 
 1. En la lista desplegable Apple iOS, escriba su **ID de paquete de iOS**. Consulte [Documentación de Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) para obtener más información sobre **ID de paquete**.
 
@@ -70,3 +75,12 @@ El canal en la aplicación ya está configurado. Puede empezar a enviar mensajes
 * [Creación de una campaña](../campaigns/create-campaign.md)
 * [Diseño de un mensaje en la aplicación](design-in-app.md)
 * [Informe en la aplicación](../reports/campaign-global-report.md#inapp-report)
+
+
+## Vídeotutoriales{#video}
+
+* El siguiente vídeo muestra cómo asignar el **Administrar configuración de aplicación** permiso para acceder al menú Superficies de la aplicación.
+
+  +++Consulte el vídeo
+  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
++++

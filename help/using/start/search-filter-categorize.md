@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 0d09f7d7-d0a4-4831-90e8-8c2062de06b9
-source-git-commit: 8da2b22b36a21f95a49f4195c25ccec9b055bbd6
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 100%
+source-wordcount: '514'
+ht-degree: 76%
 
 ---
 
@@ -49,41 +49,52 @@ En las listas, puede realizar acciones básicas por cada elemento. Por ejemplo, 
 
 Con [Etiquetas unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=es) de Adobe Experience Platform, puede clasificar fácilmente sus recorridos y campañas de Journey Optimizer para mejorar la búsqueda en las listas.
 
->[!AVAILABILITY]
->
->Las etiquetas unificadas están actualmente en versión beta. La documentación y las funciones están sujetas a cambios.
-
 ### Añadir etiquetas a un objeto
 
-La variable **Etiquetas**, en las propiedades de [recorrido](../building-journeys/journey-gs.md#change-properties) o [campaña](../campaigns/create-campaign.md#create), permite definir etiquetas para el objeto. Puede seleccionar una etiqueta existente o crear una nueva.
+El **[!UICONTROL Etiquetas]** permite definir etiquetas para el objeto. Las etiquetas están disponibles para los siguientes objetos:
 
-Empiece a escribir el nombre de la etiqueta deseada y selecciónela en la lista. Si no está disponible, haga clic en **Crear** para crear una nueva y añadirla. Puede definir tantas etiquetas como sea necesario.
+* [Recorridos](../building-journeys/journey-gs.md#change-properties)
+* [Campañas](../campaigns/create-campaign.md#create)
+* [Plantillas](../email/content-templates.md)
+* [Fragmentos](../email/fragments.md)
+* [Listas de suscripciones](../landing-pages/subscription-list.md)
+* [Páginas de aterrizaje](../landing-pages/create-lp.md)
 
-![](assets/tags1.png)
+Puede seleccionar una etiqueta existente o crear una nueva. Para ello, siga los pasos que aparecen a continuación.
 
-La lista de etiquetas definidas se muestra debajo del campo **Etiquetas** campo.
+1. Empiece a escribir el nombre de la etiqueta deseada o selecciónela en la lista.
+
+   ![](assets/tags1.png)
+
+   >[!NOTE]
+   >
+   > Las etiquetas no distinguen entre mayúsculas y minúsculas.
+
+1. Si la etiqueta que está buscando no está disponible, haga clic en **[!UICONTROL Crear &quot;&quot;]** para definir uno nuevo: se añadirá automáticamente al objeto actual y estará disponible para todos los demás objetos.
+
+   ![](assets/tags4.png)
+
+1. La lista de las etiquetas seleccionadas o creadas se muestra debajo de **[!UICONTROL Etiquetas]** field. Puede definir tantas etiquetas como sea necesario.
 
 >[!NOTE]
->
-> Las etiquetas distinguen entre mayúsculas y minúsculas
 > 
-> Si duplica o crea una nueva versión de un recorrido o campaña, se conservan las etiquetas.
+> Si duplica o crea una nueva versión de un objeto, las etiquetas se conservan.
 
 ### Filtrar por etiquetas
 
-Las listas de recorridos y campañas muestran una columna específica para que pueda visualizar fácilmente las etiquetas.
+Cada lista de objetos muestra una columna dedicada para que pueda visualizar fácilmente sus etiquetas.
 
-Un filtro también está disponible para mostrar únicamente recorridos o campañas con determinadas etiquetas.
+Un filtro también está disponible para mostrar únicamente objetos con determinadas etiquetas.
 
 ![](assets/tags2.png)
 
-Puede añadir o eliminar etiquetas de cualquier tipo de recorrido o campaña (activa, borrador, etc.). Para ello, haga clic en el icono **Más acciones** junto al objeto y seleccione **Editar etiquetas**.
+Puede añadir o eliminar etiquetas de cualquier tipo de recorrido o campaña (activa, borrador, etc.). Para ello, haga clic en el icono **[!UICONTROL Más acciones]** junto al objeto y seleccione **[!UICONTROL Editar etiquetas]**.
 
 ![](assets/tags3.png)
 
 ### Administrar etiquetas
 
-Los administradores pueden eliminar etiquetas y organizarlas por categorías utilizando la variable **Etiquetas** en **ADMINISTRACIÓN**. Obtenga más información sobre la administración de etiquetas en [Documentación de etiquetas unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=es).
+Los administradores pueden eliminar etiquetas y organizarlas por categorías utilizando la variable **[!UICONTROL Etiquetas]** en **[!UICONTROL ADMINISTRACIÓN]**. Obtenga más información sobre la administración de etiquetas en [Documentación de etiquetas unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=es).
 
 >[!NOTE]
 >

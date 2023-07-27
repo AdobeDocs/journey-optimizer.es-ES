@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: editor de expresiones, datos, recorrido
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 76%
+source-wordcount: '647'
+ht-degree: 72%
 
 ---
 
@@ -82,7 +82,7 @@ Un mecanismo de validación de sintaxis comprueba la integridad del código. Los
 
 **Necesidad de parámetros al crear condiciones con el editor de expresiones avanzadas**
 
-Si selecciona un campo de una fuente de datos externa que requiere que se llame a un parámetro (consulte [esta página](../../datasource/external-data-sources.md). Por ejemplo, en una fuente de datos relacionada con el tiempo, un parámetro utilizado frecuentemente será &quot;city&quot; (ciudad). Como resultado, debe seleccionar dónde desea obtener este parámetro de ciudad. Las funciones también se pueden aplicar a parámetros para realizar cambios de formato o concatenaciones.
+Si selecciona un campo de una fuente de datos externa que requiere que se llame a un parámetro (consulte [esta página](../../datasource/external-data-sources.md)), aparece una nueva pestaña a la derecha para permitirle especificar este parámetro. El valor del parámetro puede proceder de los eventos colocados en el recorrido o en la fuente de datos del Experience Platform (y no de otras fuentes de datos externas). Por ejemplo, en una fuente de datos relacionada con el tiempo, un parámetro utilizado frecuentemente será &quot;city&quot; (ciudad). Como resultado, debe seleccionar dónde desea obtener este parámetro de ciudad. Las funciones también se pueden aplicar a parámetros para realizar cambios de formato o concatenaciones.
 
 ![](../assets/journeyuc2_19.png)
 

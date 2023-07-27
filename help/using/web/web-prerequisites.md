@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: d62d364571ad9528d2be50469663c6fa5ab01291
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 13%
+source-wordcount: '870'
+ht-degree: 12%
 
 ---
 
@@ -23,12 +23,17 @@ Para poder acceder y crear páginas web en [!DNL Journey Optimizer] Siga los req
 
 * Para que la experiencia web se entregue correctamente, asegúrese de definir la configuración detallada de Adobe Experience Platform [aquí](#delivery-prerequisites).
 
-## Precauciones
+## Notas de precaución {#caution-notes-web}
 
-Actualmente en [!DNL Journey Optimizer] solo puede crear experiencias web mediante **campañas**. [Más información](../campaigns/create-campaign.md#configure)
+* Actualmente en [!DNL Journey Optimizer] solo puede crear experiencias web en **campañas**. [Más información](../campaigns/create-campaign.md#configure)
+
+* [!DNL Journey Optimizer] las campañas web se dirigen a nuevos perfiles que no se han utilizado anteriormente en otros canales. Esto aumentará el recuento total de perfiles atractivos, lo que puede tener implicaciones de costes si se supera el número contractual de perfiles atractivos que ha adquirido. Las métricas de licencia de cada paquete se enumeran en la [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html) página.
 
 
-[!DNL Journey Optimizer] las campañas web se dirigen a nuevos perfiles que no se han utilizado anteriormente en otros canales. Esto aumentará el recuento total de perfiles atractivos, lo que puede tener implicaciones de costes si se supera el número contractual de perfiles atractivos que ha adquirido. Las métricas de licencia de cada paquete se enumeran en la [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html) página.
+>[!AVAILABILITY]
+>
+>Por ahora, el canal Web no está disponible para las organizaciones que han adquirido la oferta complementaria Escudo de Adobe Healthcare.
+>
 
 ## Requisitos previos de implementación {#implementation-prerequisites}
 
@@ -94,7 +99,6 @@ La extensión no tiene ninguna configuración condicional y administra todas las
 > * El sitio web se encuentra en un iframe.
 > * El control de calidad o la fase del cliente no están disponibles para el mundo exterior (el sitio es interno).
 
-
 ### Solucionar problemas de sitio web que no se carga {#troubleshooting}
 
 Al utilizar el Adobe [!DNL Journey Optimizer] diseñador web, si intenta cargar un sitio web que no se puede cargar, aparece un mensaje sugiriendo que instale el [Extensión de explorador Ayuda de edición visual](#install-visual-editing-helper).
@@ -113,15 +117,15 @@ Para que la experiencia web se entregue correctamente, se debe definir la siguie
 
 * En el [Recopilación de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es){target="_blank"}, asegúrese de que tiene un conjunto de datos definido como en **[!UICONTROL Adobe Experience Platform]** servicio que tiene el **[!UICONTROL Adobe Journey Optimizer]** opción activada.
 
-   Esto garantiza que Adobe Experience Platform Edge gestione correctamente los eventos entrantes de Journey Optimizer. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=es){target="_blank"}
+  Esto garantiza que Adobe Experience Platform Edge gestione correctamente los eventos entrantes de Journey Optimizer. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=es){target="_blank"}
 
-   ![](assets/web-aep-datastream-ajo.png)
+  ![](assets/web-aep-datastream-ajo.png)
 
 * Entrada [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
-   Esta política de combinación la utiliza [!DNL Journey Optimizer] canales entrantes para activar y publicar correctamente campañas entrantes en edge. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=es){target="_blank"}
+  Esta política de combinación la utiliza [!DNL Journey Optimizer] canales entrantes para activar y publicar correctamente campañas entrantes en edge. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=es){target="_blank"}
 
-   ![](assets/web-aep-merge-policy.png)
+  ![](assets/web-aep-merge-policy.png)
 
 ## Dominios de marca para recursos {#branded-domains-for-assets}
 

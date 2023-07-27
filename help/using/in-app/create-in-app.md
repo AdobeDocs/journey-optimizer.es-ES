@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '747'
 ht-degree: 6%
 
 ---
@@ -70,7 +70,7 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 1. Acceda a la **[!UICONTROL Campañas]** y haga clic en **[!UICONTROL Crear campaña]**.
 
-1. En el **[!UICONTROL Propiedades]** , seleccione cuando el tipo de ejecución de la campaña: Programada o activada por API. Obtenga más información sobre los tipos de campaña en [esta página](../campaigns/create-campaign.md#campaigntype).
+1. En el **[!UICONTROL Propiedades]** , seleccione cuando el tipo de ejecución de la campaña: Programada o activada por API. Obtenga más información acerca de los tipos de campañas en [esta página](../campaigns/create-campaign.md#campaigntype).
 
 1. En el **[!UICONTROL Acciones]** , seleccione la **[!UICONTROL Mensaje en la aplicación]** y el **[!UICONTROL Superficie de aplicación]** previamente configurado para su mensaje en la aplicación. A continuación, haga clic en **[!UICONTROL Crear]**.
 
@@ -90,13 +90,45 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 1. Clic **[!UICONTROL Crear experimento]** para comenzar a configurar el experimento de contenido y crear tratamientos para medir su rendimiento e identificar la mejor opción para la audiencia de destino. [Más información](../campaigns/content-experiment.md)
 
-1. Clic **[!UICONTROL Editar déclencheur]** para elegir los eventos y los criterios que almacenarán en déclencheur el mensaje:
+1. Clic **[!UICONTROL Editar déclencheur]** para elegir los eventos y los criterios que almacenarán en déclencheur el mensaje. Los creadores de reglas permiten a los usuarios especificar criterios y valores que, cuando se cumplen, almacenan en déclencheur un conjunto de acciones, como enviar un mensaje en la aplicación.
 
-   1. Clic **Añadir condición** si desea que el déclencheur considere varios eventos o criterios.
-   1. Seleccione cómo están vinculados los eventos, p. ej. elija **[!UICONTROL Y]** si lo desea **ambos** Los déclencheur deben ser verdaderos para que se muestre o se elija un mensaje **[!UICONTROL O]** si desea que se muestre el mensaje si **o bien** Todos los déclencheur son verdaderos.
+   1. Haga clic en el menú desplegable de evento para cambiar el Déclencheur si es necesario.
+
+   1. Clic **[!UICONTROL Añadir condición]** si desea que el déclencheur considere varios eventos o criterios.
+
+   1. Elija la **[!UICONTROL O]** condición si desea agregar más **[!UICONTROL Déclencheur]** para ampliar aún más la regla.
+
+      ![](assets/in_app_create_3.png)
+
+   1. Elija la **[!UICONTROL Y]** condición si desea agregar **[!UICONTROL Características]** y mejor afina tu regla.
+
+      +++Consulte Características disponibles.
+
+      | Paquete | Rasgos  | Definición |
+      |---|---|---|
+      | Información del dispositivo | Nombre del operador | Se activa cuando se cumple uno de los nombres de operador de la lista. |
+      | Información del dispositivo | Nombre del dispositivo | Se activa cuando se cumple uno de los nombres de dispositivo. |
+      | Información del dispositivo | Configuración regional | Se activa cuando se cumple uno de los idiomas de la lista. |
+      | Información del dispositivo | Versión del SO | Se activa cuando se cumple una de las versiones del sistema operativo especificadas. |
+      | Información del dispositivo | Versión anterior del sistema operativo | Se activa cuando se cumple una de las versiones anteriores del sistema operativo especificadas. |
+      | Información del dispositivo | Modo de ejecución | Se activa si el modo de ejecución es aplicación o extensión. |
+      | Ciclo de aplicación | ID de aplicación | Se activa cuando se cumple el ID de aplicación especificado. |
+      | Ciclo de aplicación | Día de la semana | Se activa cuando se cumple el día de la semana especificado. |
+      | Ciclo de aplicación | Día desde el primer uso | Se activa cuando se alcanza el número de días especificado desde que se usó por primera vez. |
+      | Ciclo de aplicación | Día desde el último uso | Se activa cuando se cumple el número de días especificado desde el último uso. |
+      | Ciclo de aplicación | Día desde la actualización | Se activa cuando se alcanza el número de días especificado desde la última actualización. |
+      | Ciclo de aplicación | Fecha de instalación | Se activa cuando se cumple la fecha de instalación especificada. |
+      | Ciclo de aplicación | Inicios | Se activa cuando se alcanza el número especificado de inicios. |
+      | Ciclo de aplicación | Hora del día | Se activa cuando se cumple la hora del día especificada. |
+      | Places | Punto de interés actual | Se activa mediante el SDK de Places cuando el cliente introduce el punto de interés (PDI) especificado. |
+      | Places | Último punto de interés | Activado por el SDK de Places en función del último punto de interés (PDI) introducido por el cliente. |
+      | Places | Último PDI saliente | Se activa mediante el SDK de Places en función del último punto de interés (PDI) de salida del cliente. |
+
++++
+
+      ![](assets/in_app_create_8.png)
+
    1. Clic **[!UICONTROL Crear grupo]** para agrupar déclencheur.
-
-   ![](assets/in_app_create_3.png)
 
 1. Elija la frecuencia del déclencheur cuando su mensaje en la aplicación esté activo. Las opciones disponibles son las siguientes:
 
@@ -121,13 +153,18 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 ## Vídeotutoriales{#video}
 
-El siguiente vídeo muestra cómo crear, configurar y publicar mensajes en la aplicación en sus campañas.
+* El siguiente vídeo muestra cómo crear, configurar y publicar mensajes en la aplicación en sus campañas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+  +++Consulte el vídeo
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
++++
 
-El siguiente vídeo muestra cómo configurar y analizar experimentos de contenido para probar mensajes en la aplicación A/B.
+* El siguiente vídeo muestra cómo configurar y analizar experimentos de contenido para probar mensajes en la aplicación A/B.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419898)
+  +++Consulte el vídeo
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898)
++++
+
 
 **Temas relacionados:**
 

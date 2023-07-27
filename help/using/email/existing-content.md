@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: correo electrónico, importación, contenido, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 52%
+source-wordcount: '228'
+ht-degree: 33%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 52%
 * Un **archivo de HTML** con una hoja de estilo incorporada;
 * A **carpeta .zip** incluyendo un archivo de HTML, la hoja de estilo (.css) y las imágenes.
 
-   >[!NOTE]
-   >
-   >No hay restricciones en la estructura de archivos .zip. Sin embargo, las referencias deben ser relativas y ajustarse a la estructura de árbol de la carpeta .zip.
+  >[!NOTE]
+  >
+  >No hay restricciones en la estructura de archivos .zip. Sin embargo, las referencias deben ser relativas y ajustarse a la estructura de árbol de la carpeta .zip.
 
 Para importar un archivo con contenido HTML, siga los pasos a continuación:
 
@@ -33,11 +33,23 @@ Para importar un archivo con contenido HTML, siga los pasos a continuación:
 
    ![](assets/import-html_2.png)
 
-1. Arrastre y suelte el archivo HTML o .zip que contiene el contenido del HTML.
+1. Arrastre y suelte el archivo HTML o .zip que contiene el contenido HTML y haga clic en **[!UICONTROL Importar]**.
 
-1. Una vez cargado el contenido HTML, puede aprovechar las funcionalidades del Diseñador de correo electrónico para editar y previsualizar el correo electrónico. [Más información](content-from-scratch.md)
+   ![](assets/html-imported_2.png)
+
+1. Una vez cargado el contenido del HTML, el contenido se encuentra en **[!UICONTROL Modo de compatibilidad]**.
+
+   En este modo, solo puede personalizar el texto, agregar vínculos o incluir recursos en el contenido.
+
+1. Para poder aprovechar los componentes de contenido del Diseñador de correo electrónico, acceda al **[!UICONTROL convertidor HTML]** y haga clic en **[!UICONTROL Convertir]**.
 
    ![](assets/html-imported.png)
+
+   >[!NOTE]
+   >
+   > Uso de un `<table>` como la primera capa de un archivo de HTML puede causar pérdida de estilo, incluida la configuración de fondo y anchura en la etiqueta de capa superior.
+
+1. Ahora puede personalizar el archivo importado según sea necesario con las funcionalidades del Diseñador de correo electrónico [Más información](content-from-scratch.md).
 
 ## Vídeo explicativo {#video}
 

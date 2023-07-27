@@ -8,10 +8,10 @@ level: Beginner
 badge: label="Beta" type="Informative"
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 7%
+source-wordcount: '585'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 >[!AVAILABILITY]
 >
->La función de exportación de conjuntos de datos se encuentra actualmente en fase beta y está disponible para todos los usuarios de Adobe Journey Optimizer. Póngase en contacto con su representante de Adobe para obtener acceso a los destinos si todavía no tiene acceso.
+>La función de exportación de conjuntos de datos se encuentra actualmente en fase beta y está disponible para todos los usuarios de Adobe Journey Optimizer.
 
 Journey Optimizer le permite establecer una conexión activa con ubicaciones de almacenamiento en la nube para exportar el contenido de sus conjuntos de datos.
 
@@ -48,7 +48,7 @@ Encontrará información detallada sobre cada destino en la documentación de Ad
 
 Compruebe los siguientes requisitos previos antes de empezar a exportar los conjuntos de datos:
 
-* Para exportar conjuntos de datos, necesita el **Administrar destinos**, **Ver destinos**, **Activar destinos**, y **Administrar y activar destinos de conjuntos de datos** [permisos de control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). Lea el [información general de control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) o póngase en contacto con el administrador del producto para obtener los permisos necesarios.
+* Para exportar conjuntos de datos, necesita el **Ver destinos** y **Administrar y activar destinos de conjuntos de datos** [permisos de control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). Lea el [información general de control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) o póngase en contacto con el administrador del producto para obtener los permisos necesarios.
 
 * Asegúrese de que el conjunto de datos que desea exportar no contenga datos de segunda generación. Esta función solo admite la exportación de datos de primera generación, es decir, datos sin procesar tal como se definen en la [Descripción del producto de Real-time Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). Los datos de primera generación incluyen conjuntos de datos traídos a través de fuentes de Adobe Experience Platform o conjuntos de datos recopilados mediante soluciones de Adobe como el conector de datos de Analytics y registros de Journey Optimizer/conjuntos de datos de informes.
 
@@ -76,7 +76,7 @@ Encontrará información detallada sobre cada paso en la documentación de Adobe
 
    <!--![](assets/dataset-export-dataset-selection.png)-->
 
-1. **Programación de la exportación** del conjunto de datos. Especifique cuándo debe iniciarse la exportación y con qué frecuencia debe producirse.
+1. **Programación de la exportación** del conjunto de datos. Especifique cuándo debe comenzar la exportación y con qué frecuencia debe producirse.
 
    <!--![](assets/dataset-export-schedule.png)-->
 

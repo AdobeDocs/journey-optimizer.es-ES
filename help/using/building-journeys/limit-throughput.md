@@ -8,10 +8,10 @@ role: User, Developer
 level: Experienced
 keywords: recorrido, fuentes de datos, límite, rendimiento, personalizado, acciones
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 3%
+source-wordcount: '675'
+ht-degree: 4%
 
 ---
 
@@ -37,7 +37,11 @@ Para obtener más información sobre cómo integrar con sistemas externos, consu
 
 ## Implementación
 
-Para **recorridos activados por la audiencia**, puede definir la tasa de regulación de su actividad Leer audiencia que afectará el rendimiento de los recorridos.  [Más información](../building-journeys/read-audience.md)
+Para **recorridos activados por la audiencia**, puede definir la tasa de regulación de su actividad Leer audiencia que afectará el rendimiento de los recorridos. [Más información](../building-journeys/read-audience.md)
+
+>[!NOTE]
+>
+> Es el número máximo de perfiles que pueden entrar en la audiencia de lectura por segundo. Esta tasa se aplica solamente a esta actividad y no a otras actividades del recorrido. [Más información](../building-journeys/read-audience.md)
 
 ![](assets/limit-throughput-1.png)
 

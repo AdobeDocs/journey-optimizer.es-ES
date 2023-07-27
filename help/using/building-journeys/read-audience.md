@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, lectura, audiencia, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 4%
+source-wordcount: '1388'
+ht-degree: 12%
 
 ---
 
@@ -31,9 +31,9 @@ Veamos como ejemplo la audiencia &quot;Apertura y cierre de compra de la aplicac
 
 >[!NOTE]
 >
->En el caso de los recorridos que utilizan una actividad Leer audiencia, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con Leer audiencia, programados o que se inicien &quot;lo antes posible&quot;) que empiecen al mismo tiempo. Para ello, repártalos a lo largo del tiempo, por ejemplo, en intervalos de 5 y 10 minutos.
+>Para los recorridos que utilizan la actividad Leer audiencia, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con Leer audiencia, programados o que se inicien “lo antes posible”) que empiecen al mismo tiempo. Para ello, repártalos a lo largo del tiempo, por ejemplo, en intervalos de 5 y 10 minutos.
 >
->Los grupos de campos de evento de experiencia no se pueden usar en recorridos que comiencen por una audiencia de lectura, una calificación de audiencia o una actividad de evento empresarial.
+>Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen con Leer audiencia, Calificación de audiencia o una actividad de evento empresarial.
 
 ### Configuración de la actividad {#configuring-segment-trigger-activity}
 
@@ -67,13 +67,13 @@ Los pasos para configurar la actividad Leer audiencia son los siguientes:
    >
    >Las personas que pertenecen a una audiencia que no tiene la identidad seleccionada (área de nombres) entre sus diferentes identidades no pueden entrar en el recorrido. Solo puede seleccionar un área de nombres de identidad basada en personas. Si ha definido un área de nombres para una tabla de búsqueda (por ejemplo: área de nombres ProductID para una búsqueda Product), no estará disponible en la **Área de nombres** lista desplegable.
 
-1. Configure las variables **[!UICONTROL Velocidad de limitación]** al límite de rendimiento de la actividad leer audiencia.
+1. Configure las variables **[!UICONTROL Velocidad de limitación]**. Es el número máximo de perfiles que pueden entrar en la audiencia de lectura por segundo. Esta tasa se aplica solamente a esta actividad. No se aplica a otras actividades del recorrido. Si desea definir una tasa de regulación en acciones personalizadas, por ejemplo, debe utilizar la API de regulación. Consulte [esta página](../configuration/throttling.md).
 
-   Este valor se almacena en la carga útil de la versión de recorrido. El valor predeterminado es de 5000 mensajes por segundo. Puede modificar este valor de 500 a 20 000 mensajes por segundo.
+   Este valor se almacena en la carga útil de la versión de recorrido. El valor predeterminado es de 5000 perfiles por segundo. Puede modificar este valor de 500 a 20 000 perfiles por segundo.
 
    >[!NOTE]
    >
-   >La tasa de regulación general por zona protegida se establece en 20 000 mensajes por segundo. Por lo tanto, la tasa de regulación de todas las audiencias de lectura que se ejecutan simultáneamente en la misma zona protegida suma como máximo 20 000 mensajes por segundo. No puede modificar este límite.
+   >La tasa de regulación general por zona protegida se establece en 20 000 perfiles por segundo. Por lo tanto, la tasa de regulación de todas las audiencias de lectura que se ejecutan simultáneamente en la misma zona protegida suma como máximo 20 000 perfiles por segundo. No puede modificar este límite.
 
 1. El **[!UICONTROL Leer audiencia]** La actividad de le permite especificar la hora a la que la audiencia entrará en el recorrido. Para ello, haga clic en el **[!UICONTROL Editar programación de recorrido]** para acceder a las propiedades del recorrido y configurar el **[!UICONTROL Tipo de planificador]** field.
 
@@ -112,7 +112,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->Los recorridos de audiencia de lectura de una sola toma pasan al estado Finalizado 30 días después de la ejecución del recorrido. Para audiencias de lectura programadas, son 30 días después de la ejecución de la última ocurrencia.
+>Los recorridos de audiencia de lectura de una sola toma pasan al estado Finalizado 30 días después de la ejecución del recorrido. Para recorridos de Leer audiencia programados será 30 días después de la ejecución de la última ocurrencia.
 
 ### Prueba y publicación del recorrido {#testing-publishing}
 

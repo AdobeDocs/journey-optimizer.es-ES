@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 03212e47a4430ce793a9389fa8cd9de0ef8d2bcc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '1065'
 ht-degree: 12%
 
 ---
@@ -22,6 +22,8 @@ Para un proceso de diseño acelerado y mejorado, puede crear plantillas independ
 Esta funcionalidad permite a los usuarios orientados a contenido trabajar en plantillas fuera de campañas o recorridos. Los usuarios de marketing pueden reutilizar y adaptar estas plantillas de contenido independientes dentro de sus propios recorridos o campañas.
 
 Por ejemplo: un usuario de su compañía solo está a cargo del contenido y, por lo tanto, no tiene acceso a campañas ni recorridos. Sin embargo, este usuario puede crear una plantilla de correo electrónico que los especialistas en marketing de su organización podrán seleccionar para utilizarla en todos los correos electrónicos como punto de partida.
+
+También puede crear y administrar plantillas de contenido mediante API. Para obtener más información, consulte [Documentación de API de Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/).
 
 ➡️ [Aprenda a crear y utilizar plantillas en este vídeo](#video-templates)
 
@@ -43,7 +45,7 @@ Puede ordenar las plantillas de contenido por fecha de creación o modificación
 
 Para editar el contenido de una plantilla, haga clic en el elemento deseado de la lista y seleccione **[!UICONTROL Editar contenido]**.
 
-![](assets/content-template-list-edit.png)
+![](assets/content-template-edit.png)
 
 Para eliminar una plantilla, seleccione el icono de papelera junto a la plantilla deseada.
 
@@ -74,7 +76,6 @@ Una vez guardada, la plantilla de contenido está disponible para usarla en una 
 >
 >* Del mismo modo, cuando las plantillas se utilizan en una campaña o un recorrido, las ediciones que realice en el contenido de la campaña y del recorrido no afectan a la plantilla de contenido utilizada anteriormente.
 
-
 ### Crear plantilla desde cero {#create-template-from-scratch}
 
 Para crear una plantilla de contenido desde cero, siga los pasos a continuación.
@@ -92,6 +93,8 @@ Para crear una plantilla de contenido desde cero, siga los pasos a continuación
    >Actualmente solo el **Correo electrónico** canal y **HTML** se admiten los tipos de.
 
 1. Para asignar etiquetas de uso de datos personalizadas o principales a la plantilla, seleccione **[!UICONTROL Administrar acceso]**. [Obtenga más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
+
+1. Seleccione o cree etiquetas de Adobe Experience Platform en **[!UICONTROL Etiquetas]** para categorizar la plantilla y mejorar la búsqueda. [Más información](../start/search-filter-categorize.md#tags)
 
 1. Clic **[!UICONTROL Crear]** y elija cómo desea diseñar la plantilla entre las distintas opciones:
 
@@ -136,6 +139,10 @@ Al diseñar un [email](get-started-email-design.md) en una campaña o un recorri
 
    ![](assets/email_designer-template-name.png)
 
+1. Para asignar etiquetas de uso de datos personalizadas o principales a la plantilla, seleccione **[!UICONTROL Administrar acceso]**. [Más información](../administration/object-based-access.md).
+
+1. Seleccione o cree una etiqueta de Adobe Experience Platform en la **Etiquetas** para categorizar la plantilla. [Más información](../start/search-filter-categorize.md#tags)
+
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 1. La plantilla se guarda en el **[!UICONTROL Plantillas de contenido]** , accesible desde el [!DNL Journey Optimizer] menú específico. Se convierte en una plantilla de contenido independiente a la que se puede acceder, editar y eliminar como cualquier otro elemento de la lista. [Más información](#access-manage-templates)
@@ -168,7 +175,7 @@ Puede probar la renderización de cualquier plantilla de contenido de correo ele
 
    * Antes de enviar la prueba, debe seleccionar [superficie de correo electrónico](../configuration/channel-surfaces.md) que se utilizará para probar el contenido.
 
-      ![](assets/content-template-stimulate-proof-surface.png)
+     ![](assets/content-template-stimulate-proof-surface.png)
 
 ## Vídeo explicativo {#video-templates}
 

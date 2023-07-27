@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: espera, actividad, recorrido, siguiente, lienzo
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 24%
+source-wordcount: '471'
+ht-degree: 19%
 
 ---
 
@@ -35,9 +35,13 @@ Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede util
 
 ## Acerca de la actividad Espera{#about_wait}
 
-La duración máxima de la espera es de 30 días. En el modo de prueba, la variable **[!UICONTROL Tiempo de espera en la prueba]** permite definir el tiempo que durará cada actividad de espera. El tiempo predeterminado es 10 segundos. Esto garantizará que obtenga los resultados de la prueba rápidamente. Consulte [esta página](../building-journeys/testing-the-journey.md)
+La duración máxima de la espera es de 30 días. En el modo de prueba, la variable **[!UICONTROL Tiempo de espera en la prueba]** permite definir el tiempo que durará cada actividad de espera. El tiempo predeterminado es 10 segundos. Esto garantizará que obtenga los resultados de la prueba rápidamente. Consulte [esta página](../building-journeys/testing-the-journey.md).
 
-Tenga cuidado al usar varias actividades de Espera en un recorrido, ya que el tiempo de espera de recorrido global es de 30 días, lo que significa que un perfil siempre abandonará el máximo de recorrido 30 días después de introducirlo.
+Tenga cuidado al usar varias actividades de Espera en un recorrido, ya que el tiempo de espera de recorrido global es de 30 días, lo que significa que un perfil siempre abandonará el máximo de recorrido 30 días después de introducirlo. Consulte [esta página](../building-journeys/journey-gs.md#global_timeout).
+
+Un individuo solo puede entrar a una actividad de espera si le queda tiempo suficiente en el recorrido recorrido para completar la duración de la espera antes del tiempo de espera de 30 días. Por ejemplo, si agrega dos actividades de espera configuradas a 20 días cada una, el sistema detectará que la segunda espera finaliza después del tiempo de espera de 30 días. Por lo tanto, la segunda espera se ignora y el individuo sale del recorrido antes de iniciarlo. En ese ejemplo, el cliente permanecerá 20 días en total en el recorrido.
+
+Se recomienda no utilizar esperas para bloquear la reentrada. En su lugar, utilice el **Permitir la reentrada** en el nivel de propiedades del recorrido. Consulte [esta página](../building-journeys/journey-gs.md#entrance).
 
 ## Duración de espera{#duration}
 
@@ -56,7 +60,7 @@ Select the date for the execution of the next activity.
 
 ## Espera personalizada{#custom}
 
-Esta opción le permite definir una fecha personalizada, por ejemplo, el 12 de julio de 2020 a las 17:00, mediante una expresión avanzada basada en un campo proveniente de un evento o una fuente de datos. No permite definir una duración personalizada, por ejemplo, de 7 días. La expresión del editor de expresiones debe proporcionar un formato dateTimeOnly. Consulte [esta página](expression/expressionadvanced.md). Para obtener más información sobre el formato dateTimeOnly, consulte esto [página](expression/data-types.md).
+Esta opción le permite definir una fecha personalizada, por ejemplo, el 12 de julio de 2020 a las 17:00, mediante una expresión avanzada basada en un campo proveniente de un evento o una fuente de datos. No permite definir una duración personalizada, por ejemplo, de 7 días. La expresión en el editor de expresiones debe proporcionar un formato dateTimeOnly. Consulte [esta página](expression/expressionadvanced.md). Para obtener más información sobre el formato dateTimeOnly, consulte esto [página](expression/data-types.md).
 
 >[!NOTE]
 >
@@ -88,4 +92,4 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
 
 ![](assets/journey57bis.png)-->
 
-
+¿Podrías por favor dibujar algo alrededor de eso?

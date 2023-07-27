@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 05284fcb3fc426bcf8bc5343a3267bd24c2a26cc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 6%
+source-wordcount: '840'
+ht-degree: 5%
 
 ---
 
@@ -108,6 +108,10 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
    Para nuestro experimento, seleccionamos **[!UICONTROL Correo electrónico abierto]** para probar si los destinatarios abrirán sus correos electrónicos si el código de promoción está en la línea de asunto.
 
    ![](assets/content_experiment_11.png)
+
+1. Al configurar un experimento con el canal en la aplicación o web y elegir la variable **[!UICONTROL Clics entrantes]**, **[!UICONTROL Clics entrantes únicos]** , **[!UICONTROL Vistas de página]** , o **[!UICONTROL Métricas de vistas de página únicas]** , el **[!UICONTROL Acción de clic]**  Esta lista desplegable le permite rastrear y monitorizar con precisión los clics y las vistas en páginas específicas.
+
+   ![](assets/content_experiment_20.png)
 
 1. Clic **[!UICONTROL Agregar tratamiento]** para crear tantos tratamientos nuevos como sea necesario.
 
