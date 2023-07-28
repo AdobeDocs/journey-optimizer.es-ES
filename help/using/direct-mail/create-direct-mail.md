@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: correo directo, mensaje, campaña
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 25e1680c54fc1cebada7c4e8e5e4d84061248528
+source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 10%
+source-wordcount: '560'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,19 @@ ht-degree: 10%
 >title="Creación de correo directo"
 >abstract="Cree mensajes de correo directo en campañas programadas y diseñe los archivos de extracción necesarios para que los proveedores de correo directo envíen correos a sus clientes."
 
+Para crear mensajes de correo postal, cree una campaña programada y configure el archivo de extracción. Los proveedores de correo postal requieren este archivo para enviar correo a sus clientes.
+
+>[!IMPORTANT]
+>
+>Antes de crear un mensaje de correo postal, asegúrese de haber configurado:
+>
+>1. A [configuración de enrutamiento de archivos](../direct-mail/direct-mail-configuration.md#file-routing-configuration) que especifica el servidor en el que se debe cargar y almacenar el archivo de extracción,
+>1. A [superficie de mensaje de correo directo](../direct-mail/direct-mail-configuration.md#direct-mail-surface) que hará referencia a la configuración de enrutamiento de archivos.
+
+
 ## Creación de una campaña de correo directo{#create-dm-campaign}
+
+Para crear una campaña de correo postal, siga estos pasos:
 
 1. Cree una nueva campaña programada y elija **[!UICONTROL Correo directo]** como la acción.
 
@@ -46,6 +58,8 @@ ht-degree: 10%
 Ahora puede empezar a configurar el archivo de extracción para enviarlo a su proveedor de correo postal.
 
 ## Configuración del archivo de extracción {#extraction-file}
+
+Los proveedores de correo postal requieren el archivo de extracción para enviar correo a sus clientes. Para definir la configuración del archivo de extracción, siga estos pasos:
 
 1. En la pantalla de configuración de la campaña, haga clic en **[!UICONTROL Editar contenido]** para configurar el contenido del archivo de extracción.
 

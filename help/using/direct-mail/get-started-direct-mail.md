@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: correo directo, mensaje, campaña
-source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
+source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,4 @@ Los pasos principales para enviar mensajes de correo postal son los siguientes:
 
 Los mensajes de correo postal solo se pueden crear en el contexto de campañas programadas. No están disponibles para su uso en campañas activadas por API ni en recorridos.
 
->[!IMPORTANT]
->
->Antes de enviar un mensaje de correo postal, asegúrese de haber configurado:
->
->1. A [configuración de enrutamiento de archivos](../direct-mail/direct-mail-configuration.md#file-routing-configuration) que especifica el servidor en el que se debe cargar y almacenar el archivo de extracción,
->1. A [superficie de mensaje de correo directo](../direct-mail/direct-mail-configuration.md#direct-mail-surface) que hará referencia a la configuración de enrutamiento de archivos.
+
