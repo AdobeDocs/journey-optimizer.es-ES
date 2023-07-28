@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2b6ba46ed7036915aff1abf3c5f54781edd9c780
+source-git-commit: 446fa1ab7d8f897aa1b6997b9cc664100e30e5a2
 workflow-type: tm+mt
-source-wordcount: '3079'
-ht-degree: 86%
+source-wordcount: '3193'
+ht-degree: 84%
 
 ---
 
@@ -44,23 +44,23 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Direct mail channel</strong><br/></th>
+<th><strong>Canal de correo directo</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now add direct mail messages in your campaigns. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
-<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
-<p>For now, Direct mail channel is not available for organizations that have purchased the Adobe Healthcare Shield add-on offering.</p>
+<p>Ahora puede agregar mensajes de correo postal en sus campañas. El correo postal es un canal sin conexión que le permite personalizar y generar los archivos necesarios para que los proveedores de correo postal envíen correo a sus clientes.</p>
+<p>Al preparar una entrega de correo postal, Journey Optimizer genera un archivo que incluye todos los perfiles de destino y la información de contacto elegida (por ejemplo, una dirección postal). Después, puede enviar este archivo al proveedor de correo postal que se encarga de la entrega real.</p>
+<p>Por ahora, el canal de correo postal no está disponible para las organizaciones que han adquirido la oferta complementaria Escudo de Adobe Healthcare.</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
-<p>For more information, refer to the <a href="../direct-mail/create-direct-mail.md">detailed documentation</a>.</p>
+<p>Para obtener más información, consulte la <a href="../direct-mail/create-direct-mail.md">documentación detallada</a>.</p>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <table>
 <thead>
