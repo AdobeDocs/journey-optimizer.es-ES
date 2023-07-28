@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bef5bc9f86d1e11e6b1ed5853fc0b57a6e47d4ac
+source-git-commit: 598a5d5ef77d7c1fe5a8487abdb54c8cfb96a2bb
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 100%
+source-wordcount: '1399'
+ht-degree: 99%
 
 ---
 
@@ -228,7 +228,9 @@ ht-degree: 100%
    + [Configuración del canal de SMS](using/sms/sms-configuration.md)
    + [Configuración de subdominios SMS](using/sms/sms-subdomains.md)
 + Correo directo {#direct-mail}
+   + [Introducción al correo directo](using/direct-mail/get-started-direct-mail.md)
    + [Creación de un correo directo](using/direct-mail/create-direct-mail.md)
+   + [Prueba y envío de un mensaje de correo directo](using/direct-mail/test-send-direct-mail.md)
    + [Configuración del correo directo](using/direct-mail/direct-mail-configuration.md)
 + Canal web{#web}
    + [Introducción al canal web](using/web/get-started-web.md)

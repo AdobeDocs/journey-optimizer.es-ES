@@ -6,14 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: correo directo, mensaje, campaña
-hide: true
-hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-badge: label="Beta" type="Informative"
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 25e1680c54fc1cebada7c4e8e5e4d84061248528
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 11%
+source-wordcount: '459'
+ht-degree: 10%
 
 ---
 
@@ -24,69 +21,58 @@ ht-degree: 11%
 >title="Creación de correo directo"
 >abstract="Cree mensajes de correo directo en campañas programadas y diseñe los archivos de extracción necesarios para que los proveedores de correo directo envíen correos a sus clientes."
 
->[!BEGINSHADEBOX]
+## Creación de una campaña de correo directo{#create-dm-campaign}
 
-Lo que encontrará en esta documentación:
+1. Cree una nueva campaña programada y elija **[!UICONTROL Correo directo]** como la acción.
 
-* **[Creación de un correo directo](create-direct-mail.md)**
-* [Configuración del correo directo](direct-mail-configuration.md)
+1. Seleccione el **[!UICONTROL Superficie de correo directo]** para usar y haga clic en **[!UICONTROL Crear]**. [Obtenga información sobre cómo crear una superficie de correo postal](direct-mail-configuration.md#direct-mail-surface).
 
->[!ENDSHADEBOX]
+   ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
->[!AVAILABILITY]
->
->El correo postal está disponible actualmente como una versión beta privada y puede estar sujeta a frecuentes actualizaciones sin previo aviso.
+1. En el **[!UICONTROL Propiedades]** , edite el de la campaña **[!UICONTROL Título]** y **[!UICONTROL Descripción]**.
 
-El correo postal es un canal sin conexión que le permite personalizar y generar los archivos de extracción necesarios para que los proveedores de correo postal envíen correo a sus clientes.
+1. Para definir la audiencia de destino, haga clic en **[!UICONTROL Seleccionar audiencia]** y elija entre las audiencias de Adobe Experience Platform disponibles. [Más información](../audience/about-audiences.md).
 
-Al crear un correo postal, Journey Optimizer genera un archivo que incluye todos los perfiles de destino y los datos seleccionados (dirección postal, atributos de perfil, por ejemplo). Su proveedor de correo postal podrá recuperar ese archivo y se encargará del envío real.
+   >[!IMPORTANT]
+   >
+   >Por ahora, la selección de audiencias está restringida a 3 millones de perfiles. Esta limitación puede levantarse si se solicita al representante del Adobe.
 
-Los mensajes de correo postal solo se pueden crear en el contexto de campañas programadas. No están disponibles para su uso en campañas activadas por API ni en recorridos.
+1. En el **[!UICONTROL Área de nombres de identidad]** , seleccione el área de nombres adecuada para identificar a los individuos dentro de la audiencia elegida. [Más información](../event/about-creating.md#select-the-namespace).
 
->[!IMPORTANT]
->
->Antes de enviar un mensaje de correo postal, asegúrese de haber configurado:
->
->1. A [configuración de enrutamiento de archivos](../direct-mail/direct-mail-configuration.md#file-routing-configuration) que especifica el servidor en el que se debe cargar y almacenar el archivo de extracción,
->1. A [superficie de mensaje de correo directo](../direct-mail/direct-mail-configuration.md#direct-mail-surface) que hará referencia a la configuración de enrutamiento de archivos.
+   ![](assets/direct-mail-campaign-properties.png){width="800" align="center"}
 
+1. Las campañas se pueden programar para una fecha específica o configurarse para que se repitan a intervalos regulares. Obtenga información sobre cómo configurar el **[!UICONTROL Programación]** de la campaña en [esta sección](../campaigns/create-campaign.md#schedule).
 
-## Creación de un mensaje de correo postal {#create}
+Ahora puede empezar a configurar el archivo de extracción para enviarlo a su proveedor de correo postal.
 
-Los pasos para crear y enviar un mensaje de correo postal son los siguientes:
+## Configuración del archivo de extracción {#extraction-file}
 
-1. Cree una nueva campaña programada, seleccione **[!UICONTROL Correo directo]** como acción y elija la superficie de canal que desea utilizar. [Obtenga información sobre cómo crear una superficie de correo postal](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
+1. En la pantalla de configuración de la campaña, haga clic en **[!UICONTROL Editar contenido]** para configurar el contenido del archivo de extracción.
 
-   ![](assets/direct-mail-campaign.png)
+1. Ajuste las propiedades del archivo de extracción:
 
-1. Clic **[!UICONTROL Crear]** a continuación, defina información básica sobre la campaña (nombre, descripción). [Obtenga información sobre cómo configurar una campaña](../campaigns/create-campaign.md)
+   1. Especifique el **[!UICONTROL Nombre de archivo]** para el archivo de extracción.
 
-1. Haga clic en **[!UICONTROL Editar contenido]** para configurar el archivo de extracción y enviarlo a su proveedor de correo postal.
+   1. Si lo desea, habilite **[!UICONTROL Anexar marca de tiempo al nombre del archivo de exportación]** si desea agregar una marca de tiempo automática al nombre de archivo especificado.
 
-1. Defina el nombre del archivo de extracción en la **[!UICONTROL Nombre de archivo]** field.
+   1. A veces quizá deba añadir información al principio o al final del archivo de extracción. Para ello, utilice el **[!UICONTROL Notas]** y especifique si desea incluir la nota como encabezado o pie de página.
 
-   A veces quizá deba añadir información al principio o al final del archivo de extracción. Para ello, utilice el **[!UICONTROL Notas]** y especifique si desea incluir la nota como encabezado o pie de página.
+      ![](assets/direct-mail-properties.png){width="800" align="center"}
 
-   <!--Click on the button to the right of the Output file field and enter the desired label. You can use personalization fields, content blocks and dynamic text (see Defining content). For example, you can complete the label with the delivery ID or the extraction date.-->
+1. Configure las columnas y la información que desea mostrar en el archivo de extracción:
 
-   ![](assets/direct-mail-properties.png)
+   1. Haga clic en **[!UICONTROL Añadir]** para crear una nueva columna.
 
-1. Utilice el área del lado izquierdo para definir la información que se mostrará como columnas en el archivo de extracción:
+   1. El **[!UICONTROL Formato]** Este panel se muestra en el lado derecho, lo que le permite configurar la columna seleccionada. Especifique un **[!UICONTROL Etiqueta]** para la columna.
 
-   1. Haga clic en **[!UICONTROL Añadir]** para añadir una nueva columna y, a continuación, selecciónela en la lista.
+   1. En el **[!UICONTROL Datos]** , seleccione los atributos de perfil que desea mostrar mediante el campo [Editor de expresiones](../personalization/personalization-build-expressions.md).
 
-   1. En el **[!UICONTROL Formato]** , especifique una etiqueta para la columna y defina los atributos de perfil que se mostrarán con la variable [Editor de expresiones](../personalization/personalization-build-expressions.md).
+   1. Para ordenar el archivo de extracción mediante una columna, seleccione la columna y active la casilla de verificación **[!UICONTROL Ordenar por]** opción. El **[!UICONTROL Ordenar por]** aparece junto a la etiqueta de la columna en la **[!UICONTROL Campos de datos]** sección.
 
-      ![](assets/direct-mail-content.png)
+      ![](assets/direct-mail-content.png){width="800" align="center"}
 
-   1. Para ordenar el archivo de extracción con la columna seleccionada, cambie el **[!UICONTROL Ordenar por]** opción activada. El **[!UICONTROL Ordenar por]** a continuación, este icono se muestra junto a la etiqueta de la columna en la estructura de archivos.
+   1. Repita estos pasos para agregar tantas columnas como sea necesario para el archivo de extracción. Tenga en cuenta que puede añadir hasta 50 columnas.
 
-1. Repita estos pasos para agregar tantas columnas como sea necesario para crear el archivo de extracción. Tenga en cuenta que puede añadir hasta 50 columnas.
+      Para cambiar la posición de una columna, arrástrela y suéltela en la ubicación deseada en la **[!UICONTROL Campo de datos]** sección. Para eliminar una columna, selecciónela y haga clic en **[!UICONTROL Eliminar]** botón en el **[!UICONTROL Formato]** panel.
 
-   Puede eliminar una columna en cualquier momento seleccionándola y haciendo clic en el **[!UICONTROL Eliminar]** del menú contextual **[!UICONTROL Formato]** sección.
-
-   ![](assets/direct-mail-complete.png)
-
-1. Una vez definido el contenido de correo postal, complete la configuración de la campaña.
-
-   Cuando se inicie la campaña, el archivo de extracción se generará automáticamente y se exportará al servidor especificado en [configuración de enrutamiento de archivos](../direct-mail/direct-mail-configuration.md).
+Ahora puede probar el mensaje de correo postal y enviarlo a su audiencia. [Obtenga información sobre cómo probar y enviar mensajes de correo directo](test-send-direct-mail.md)

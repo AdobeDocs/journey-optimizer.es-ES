@@ -6,27 +6,15 @@ topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
-hide: true
-hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-badge: label="Beta" type="Informative"
-source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
+source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 33%
+source-wordcount: '881'
+ht-degree: 31%
 
 ---
 
 # Configuración de correo directo {#direct-mail-configuration}
-
->[!BEGINSHADEBOX]
-
-Lo que encontrará en esta documentación:
-
-* [Creación de un correo directo](create-direct-mail.md)
-* **[Configuración del correo directo](direct-mail-configuration.md)**
-
->[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] permite personalizar y generar los archivos necesarios para que los proveedores de correo postal envíen correo a sus clientes.
 
@@ -80,13 +68,13 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 
 1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de enrutamiento de archivos]** > **[!UICONTROL Enrutamiento de archivos]** y haga clic en **[!UICONTROL Crear configuración de enrutamiento]**.
 
-   ![](assets/file-routing-config-button.png)
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Establezca un nombre para la configuración.
 
 1. Seleccione el **[!UICONTROL Tipo de servidor]** que desee utilizar para exportar los archivos de correo postal.
 
-   ![](assets/file-routing-config-type.png)
+   ![](assets/file-routing-config-type.png){width="800" align="center"}
 
    >[!NOTE]
    >
@@ -98,7 +86,7 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 
 1. Si ha seleccionado **[!UICONTROL Amazon S3]**, elija la **[!UICONTROL Región de AWS]** donde se ubicará la infraestructura del servidor.
 
-   ![](assets/file-routing-config-aws-region.png)
+   ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
    >[!NOTE]
    >
@@ -137,11 +125,11 @@ Una superficie de correo postal también debe incluir la configuración de enrut
 
 1. Seleccione el **[!UICONTROL Correo directo]** canal.
 
-   ![](assets/surface-direct-mail-channel.png)
+   ![](assets/surface-direct-mail-channel.png){width="800" align="center"}
 
 1. Defina la configuración de correo postal en la sección dedicada de la configuración de superficie de canal.
 
-   ![](assets/surface-direct-mail-settings.png)
+   ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
@@ -157,7 +145,7 @@ Una superficie de correo postal también debe incluir la configuración de enrut
    >
    >Si no ha configurado ninguna opción de enrutamiento de archivos, no podrá crear una superficie de correo postal. [Más información](#file-routing-configuration)
 
-   ![](assets/surface-direct-mail-file-routing.png)
+   ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
