@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
+source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
+workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ Aprenda a administrar la exclusión en los mensajes de correo electrónico y SMS
 
 Los clientes también pueden optar por no recibir contenido personalizado. Una vez que un perfil se ha excluido de la personalización, debe asegurarse de que sus datos no se utilicen para ella y debe reemplazar cualquier contenido personalizado con una variante de reserva.
 
-### En gestión de decisiones
+### En gestión de decisiones {#opt-out-decision-management}
 
 Al aprovechar las ofertas, las preferencias de personalización no se implementan automáticamente en [ámbitos de decisión](../offers/offer-activities/create-offer-activities.md#add-decision-scopes) utilizado desde una solicitud de API de [Decisioning](../offers/api-reference/offer-delivery-api/decisioning-api.md) o una solicitud de API de [Edge Decisioning](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md). En este caso, debe aplicar manualmente el consentimiento de personalización. Para ello, siga los pasos que aparecen a continuación.
 
@@ -93,9 +93,7 @@ Si un usuario:
 >
 >El consentimiento que los datos de perfil se utilicen en [modelado de datos](../offers/ranking/ai-models.md) aún no es compatible con [!DNL Journey Optimizer].
 
-## En el Editor de expresiones 
-
-<!--Expressions Editor while personalizing images, text, subject line  ( Segment in Campaigns) - UI and Headless -->
+## En el Editor de expresiones  {#opt-out-expression-editor}
 
 El [Editor de expresiones](../personalization/personalization-build-expressions.md) en sí no realiza comprobaciones de consentimiento ni su cumplimiento, ya que no participa en el envío de mensajes.
 
@@ -104,7 +102,6 @@ Sin embargo, el uso de etiquetas de control de acceso basadas en los derechos pe
 >[!NOTE]
 >
 >Obtenga más información sobre el control de acceso de nivel de objeto (OLAC) en [esta sección](../administration/object-based-access.md).
-
 
 En las campañas de [!DNL Journey Optimizer], la política de consentimiento se aplica del siguiente modo:
 
