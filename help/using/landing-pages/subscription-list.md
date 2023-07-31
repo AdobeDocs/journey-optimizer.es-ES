@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, lista, suscripción, servicio
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: b7685798cec415c8a97992ddacf8f0ebcb393107
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 12%
@@ -58,11 +58,11 @@ Para crear una lista de suscripción, siga los pasos a continuación.
    >
    >Actualmente no puede utilizar el espaciado ni introducir un nombre que ya exista para otra lista de suscripción en **[!UICONTROL Título]** field.
 
-1. Seleccione o cree etiquetas de Adobe Experience Platform en **[!UICONTROL Etiquetas]** para categorizar la página de aterrizaje y mejorar la búsqueda. [Más información](../start/search-filter-categorize.md#tags)
-
 1. Puede definir una fecha de inicio y una fecha de finalización.
 
    ![](assets/lp_subscription-list-dates.png)
+
+1. Seleccione o cree etiquetas de Adobe Experience Platform en **[!UICONTROL Etiquetas]** para categorizar la página de aterrizaje y mejorar la búsqueda. [Más información](../start/search-filter-categorize.md#tags)
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
