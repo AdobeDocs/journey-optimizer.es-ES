@@ -12,7 +12,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -97,7 +97,7 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_success_metric"
 >title="Métrica de éxito"
->abstract="La métrica de éxito se utiliza para rastrear y evaluar el tratamiento con mejor rendimiento de un experimento. Asegúrese de configurar el conjunto de datos para determinadas métricas antes de utilizarlo."
+>abstract="La métrica de éxito se utiliza para rastrear y evaluar el tratamiento con mejor rendimiento de un experimento. Asegúrese de configurar su conjunto de datos para determinadas métricas antes de utilizarlo."
 
 1. Cuando la entrega se haya personalizado, en la página de resumen de Campaign, haga clic en **[!UICONTROL Crear experimento]** para comenzar a configurar el experimento de contenido.
 
