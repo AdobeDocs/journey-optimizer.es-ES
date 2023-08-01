@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
+source-git-commit: 1534106b7ed80376060d39a445d5e706df832e05
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1219'
 ht-degree: 32%
 
 ---
@@ -44,9 +44,9 @@ Por ejemplo, supongamos que ha definido una regla de límite o limitación de 10
 
 >[!IMPORTANT]
 >
->Las **Reglas de límite** se configuran en el nivel de zona protegida, para un extremo específico (la dirección URL denominada), pero de forma global para todos los recorridos de esa zona protegida.
+>Las **Reglas de límite** se configuran en el nivel de zona protegida, para un extremo específico (la dirección URL denominada), pero de forma global para todos los recorridos de esa zona protegida. El límite está disponible tanto en fuentes de datos como en acciones personalizadas.
 >
->Las **Reglas de limitación** solo están configuradas en zonas protegidas de producción, para un extremo específico, pero de forma global para todos los recorridos de todas las zonas protegidas. Solo puede tener una configuración de limitación por organización.
+>Las **Reglas de limitación** solo están configuradas en zonas protegidas de producción, para un extremo específico, pero de forma global para todos los recorridos de todas las zonas protegidas. Solo puede tener una configuración de limitación por organización. La restricción solo está disponible en acciones personalizadas.
 
 Para obtener más información sobre cómo trabajar con las API, consulte estas secciones:
 
