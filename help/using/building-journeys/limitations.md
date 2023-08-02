@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorridos, limitación
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: aced11ffd80bcc0d79ef2e094b05dde8cb9a6248
+source-git-commit: 64abe386cd0d7b7e849fb6f6cdc70c00b4365feb
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 65%
+ht-degree: 71%
 
 ---
 
@@ -33,8 +33,8 @@ Estas son las limitaciones relacionadas con el uso de recorridos.
 * Un recorrido que comienza con un **Calificación de audiencias** la actividad en v1 siempre debe comenzar con una **Calificación de audiencias** en versiones posteriores.
 * La audiencia y el área de nombres elegidos en **Calificación de audiencias** (primer nodo) no se puede cambiar en las nuevas versiones.
 * La regla de reentrada debe ser la misma en todas las versiones del recorrido.
-* Un recorrido que comienza con un **Leer audiencia** no puede comenzar con otro evento en las versiones siguientes.
- 
+* El recorrido que comience con **Leer audiencia** no puede comenzar con otro evento en las versiones siguientes.
+
 ## Limitaciones de acciones personalizadas {#custom-actions-limitations}
 
 * La URL de acción personalizada no admite parámetros dinámicos. 
@@ -42,11 +42,11 @@ Estas son las limitaciones relacionadas con el uso de recorridos.
 * El nombre del parámetro de consulta o del encabezado no debe comenzar con &quot;.&quot; o &quot;$&quot;. 
 * No se permiten direcciones IP. 
 * Las direcciones de Adobe internas (.adobe.) no se permiten.
- 
-## Limitaciones de eventos {#events-limitations}
+
+## Eventos limitaciones {#events-limitations}
 
 * En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido del cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este ID de orquestación debe añadirse a la carga útil de streaming que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
- 
+
 ## Limitaciones de fuentes de datos {#data-sources-limitations}
 
 * Las fuentes de datos externas se pueden aprovechar dentro de un recorrido de cliente para buscar datos externos en tiempo real. Estas fuentes deben utilizarse mediante la API de REST, admiten JSON y pueden gestionar el volumen de solicitudes.
