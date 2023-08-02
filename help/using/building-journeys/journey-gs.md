@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: ca2db9343f1362d3fe3e75b74c3c7bb12bb1c30f
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1591'
 ht-degree: 27%
 
 ---
@@ -51,7 +51,7 @@ En la sección del menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTRO
 
 >[!NOTE]
 >
->Este tablero tiene en cuenta los recorridos con tráfico de las últimas 24 horas. Solo se muestran los recorridos a los que tiene acceso.
+>Este tablero tiene en cuenta los recorridos con tráfico de las últimas 24 horas. Solo se muestran los recorridos a los que tiene acceso. Las métricas se actualizan cada 30 minutos y solo cuando hay nuevos datos disponibles.
 
 ![](assets/journeys-dashboard.png)
 
