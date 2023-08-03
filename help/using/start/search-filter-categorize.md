@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 0d09f7d7-d0a4-4831-90e8-8c2062de06b9
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Con [Etiquetas unificadas](https://experienceleague.adobe.com/docs/experience-pl
 
 ### Añadir etiquetas a un objeto
 
-El **[!UICONTROL Etiquetas]** permite definir etiquetas para el objeto. Las etiquetas están disponibles para los siguientes objetos:
+El campo **[!UICONTROL Etiquetas]** le permite definir etiquetas para el objeto. Las etiquetas están disponibles para los siguientes objetos:
 
 * [Recorridos](../building-journeys/journey-gs.md#change-properties)
 * [Campañas](../campaigns/create-campaign.md#create)
@@ -62,7 +62,7 @@ El **[!UICONTROL Etiquetas]** permite definir etiquetas para el objeto. Las etiq
 
 Puede seleccionar una etiqueta existente o crear una nueva. Para ello, siga los pasos que aparecen a continuación.
 
-1. Empiece a escribir el nombre de la etiqueta deseada o selecciónela en la lista.
+1. Empiece a escribir el nombre de la etiqueta deseada y selecciónela en la lista.
 
    ![](assets/tags1.png)
 
@@ -70,15 +70,15 @@ Puede seleccionar una etiqueta existente o crear una nueva. Para ello, siga los 
    >
    > Las etiquetas no distinguen entre mayúsculas y minúsculas.
 
-1. Si la etiqueta que está buscando no está disponible, haga clic en **[!UICONTROL Crear &quot;&quot;]** para definir uno nuevo: se añadirá automáticamente al objeto actual y estará disponible para todos los demás objetos.
+1. Si la etiqueta que está buscando no está disponible, haga clic en **[!UICONTROL Crear &quot;&quot;]** para definir una nueva: se añadirá automáticamente al objeto actual y estará disponible para todos los demás objetos.
 
    ![](assets/tags4.png)
 
-1. La lista de las etiquetas seleccionadas o creadas se muestra debajo de **[!UICONTROL Etiquetas]** field. Puede definir tantas etiquetas como sea necesario.
+1. La lista de las etiquetas seleccionadas o creadas se muestra debajo del campo **[!UICONTROL Etiquetas]**. Puede definir tantas etiquetas como sea necesario.
 
 >[!NOTE]
 > 
-> Si duplica o crea una nueva versión de un objeto, las etiquetas se conservan.
+> Si duplica o crea una nueva versión de un objeto, se conservan las etiquetas.
 
 ### Filtrar por etiquetas
 
