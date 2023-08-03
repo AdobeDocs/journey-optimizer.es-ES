@@ -5,9 +5,9 @@ title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3193'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 <td>
 <p>Ahora puede añadir mensajes de correo postal en sus campañas. El correo postal es un canal sin conexión que le permite personalizar y generar los archivos necesarios para que los proveedores de correo postal envíen correo a sus clientes.</p>
 <p>Al preparar un envío de correo postal, Journey Optimizer genera un archivo con todos los perfiles de destino y la información de contacto elegida (por ejemplo, una dirección postal). Después, puede enviar este archivo al proveedor de correo postal que se encarga de la entrega real.</p>
-<p>Por ahora, el canal de correo postal no está disponible para las organizaciones que han adquirido la oferta complementaria Escudo de Adobe Healthcare.</p>
+<p>Por ahora, el canal de correo directo no está disponible para las organizaciones que han adquirido la oferta complementaria Adobe Healthcare Shield</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
 <p>Para obtener más información, consulte la <a href="../direct-mail/get-started-direct-mail.md">documentación detallada</a>.</p>
 </tr>
@@ -136,7 +136,7 @@ Se han realizado mejoras en el selector de públicos en recorridos o campañas, 
 * Audiencia: conjunto de personas, cuentas, hogares u otras entidades que comparten características y comportamientos comunes.
 * Definición del segmento: en Adobe Experience Platform, las reglas utilizadas para describir las características clave o el comportamiento de un público destinatario. Este término se conocía anteriormente como &quot;segmento&quot;.
 
-Como resultado, dentro de Adobe Journey Optimizer y de la interfaz de usuario de Adobe Experience Platform, los &quot;segmentos&quot; se sustituyen por &quot;audiencias&quot; para reflejar esta nueva ruta de creación y administración de audiencias.
+Como resultado, dentro de Adobe Journey Optimizer y de la IU de Adobe Experience Platform, los &quot;Segmentos&quot; se sustituyen por &quot;Públicos&quot; para reflejar esta nueva ruta de creación y administración de públicos.
 
 **API**
 
@@ -145,7 +145,7 @@ El método JWT para generar tokens de acceso para la autenticación de API de Ad
 
 **Otros cambios**
 
-La exportación de conjuntos de datos de Journey Optimizer a destinos de almacenamiento en la nube ya está disponible para todos los clientes como una versión beta pública. Ahora, puede establecer una conexión activa con las ubicaciones de almacenamiento en la nube para exportar el contenido de los conjuntos de datos. [Más información](../data/export-datasets.md)
+La exportación de conjuntos de datos de Journey Optimizer a destinos de almacenamiento en la nube ya está disponible para todos los clientes como beta pública. Ahora, puede establecer una conexión activa con las ubicaciones de almacenamiento en la nube para exportar el contenido de los conjuntos de datos. [Más información](../data/export-datasets.md)
 
 
 
