@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
 workflow-type: tm+mt
 source-wordcount: '3061'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -145,7 +145,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * La página Lista de supresión se ha actualizado para aclarar cierta información, incluido el hecho de que todos los caracteres ASCII comprendidos entre 32 y 126 están permitidos en el campo de motivos de supresión. [Más información](../configuration/manage-suppression-list.md)
 * Se ha añadido el vínculo a los mecanismos de protección y a los límites estáticos para la gestión de decisiones. [Más información](../start/guardrails.md)
 * Ya está disponible para todos los clientes Optimización del tiempo de envío. Se ha eliminado la mención beta. [Más información](../building-journeys/journeys-message.md#send-time-optimization)
-* La API de decisiones por lotes se ha añadido a la lista de API disponibles para entregar ofertas personalizadas. [Más información](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+* La API de decisiones por lotes se ha añadido a la lista de API disponibles para enviar ofertas personalizadas. [Más información](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## Mayo de 2022 {#may-2022}
 
