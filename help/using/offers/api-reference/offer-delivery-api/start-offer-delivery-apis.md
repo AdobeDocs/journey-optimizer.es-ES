@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 76661d574ffabf32c4c1db8d88744604e50d7b40
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 6%
+source-wordcount: '430'
+ht-degree: 4%
 
 ---
 
@@ -19,10 +19,6 @@ Puede enviar ofertas utilizando las opciones **Decisioning** o el **Edge Decisio
 
 En esta página, encontrará información sobre las funcionalidades específicas disponibles con el **Decisioning** y **Edge Decisioning** API. Aunque ambos le permiten enviar ofertas a sus clientes, recomendamos utilizar el **Edge Decisioning** API siempre que sea posible para casos de uso entrantes y para garantizar una mejor latencia y rendimiento en su plataforma.
 
-|  | Solicitudes/s | Latencia |
-|---|---|---|
-| API de decisiones | 2000 | &lt;500ms |
-| API de Edge Decisioning | 5000 | &lt;250ms |
 
 Para obtener más información sobre cómo trabajar con las API, consulte estas secciones:
 * [API de decisiones](decisioning-api.md)
