@@ -11,16 +11,16 @@ badge: label="Beta" type="Informative"
 keywords: acción, terceros, personalizado, recorrido, API
 hide: true
 hidefromtoc: true
-source-git-commit: 1674eceb1b9ae4cf8cd3f19deda26a9e72290106
+source-git-commit: d94988dd491759fe6ed8489403a3f1a295b19ef5
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 10%
+source-wordcount: '497'
+ht-degree: 5%
 
 ---
 
 # Mejoras de acciones personalizadas
 
-Ahora puede utilizar las respuestas de llamadas de API en acciones personalizadas y organizar su recorrido en función de estas respuestas.
+Ahora puede aprovechar las respuestas de llamadas de API en acciones personalizadas y organizar sus recorridos en función de estas respuestas.
 
 Esta capacidad solo estaba disponible cuando se utilizaban fuentes de datos. Ahora puede utilizarlo con acciones personalizadas.
 
@@ -55,11 +55,11 @@ El **Parámetros de acción** se ha cambiado el nombre de la sección **Cargas �
 
 1. Haga clic dentro de **Respuesta** field.
 
-   ![](assets/action-response3.png){width="70%" align="left"}
+   ![](assets/action-response3.png){width="80%" align="left"}
 
 1. Pegue un ejemplo de la carga útil devuelta por la llamada. Compruebe que los tipos de campo son correctos (cadena, entero, etc.).
 
-   ![](assets/action-response4.png){width="70%" align="left"}
+   ![](assets/action-response4.png){width="80%" align="left"}
 
 1. Haga clic en **Guardar**.
 
@@ -121,15 +121,15 @@ Simplemente, agregue la acción personalizada a un recorrido. A continuación, p
 
 Por ejemplo, puede agregar una condición para comprobar la velocidad del viento. Cuando la persona entra en la tienda de surf puede enviar un empujón si el clima es demasiado ventoso .
 
-![](assets/action-response5.png){width="70%" align="left"}
+![](assets/action-response5.png)
 
 En la condición, debe utilizar el editor avanzado para aprovechar los campos de respuesta de acción, en **Contexto** nodo.
 
-![](assets/action-response6.png){width="70%" align="left"}
+![](assets/action-response6.png)
 
 También puede aprovechar las **jo_status** código para crear una nueva ruta en caso de error.
 
-![](assets/action-response7.png){width="70%" align="left"}
+![](assets/action-response7.png)
 
 >[!WARNING]
 >
@@ -142,15 +142,19 @@ Estos son los valores posibles de este campo:
 * error de límite: **tapado**
 * error interno: **internalError**
 
+Para obtener más información sobre las actividades de recorrido, consulte [esta sección](../building-journeys/about-journey-activities.md).
+
 ### Personalización de mensajes
 
 Puede personalizar los mensajes mediante los campos de respuesta. En nuestro ejemplo, en la notificación push, personalizamos el contenido mediante el valor de velocidad.
 
-![](assets/action-response8.png){width="70%" align="left"}
+![](assets/action-response8.png)
 
 >[!NOTE]
 >
->La llamada de se realiza solo una vez por perfil en un recorrido determinado. Si hay varios mensajes, las nuevas llamadas no se almacenarán en déclencheur.
+>La llamada de se realiza solo una vez por perfil en un recorrido determinado. Si hay varios mensajes en el mismo perfil, las nuevas llamadas no se almacenarán en déclencheur.
+
+Para obtener más información sobre la personalización de mensajes, consulte [esta sección](../personalization/personalize.md).
 
 ## Sintaxis de expresión
 
@@ -175,4 +179,4 @@ A continuación se muestran algunos ejemplos:
 @action{OpenWeatherMap.main.temp, defaultValue: @{myEvent.temperature}} 
 ```
 
-
+Para obtener más información sobre las referencias de campo, consulte [esta sección](../building-journeys/expression/field-references.md).
