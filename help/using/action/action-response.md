@@ -11,28 +11,28 @@ badge: label="Beta" type="Informative"
 keywords: acción, terceros, personalizado, recorrido, API
 hide: true
 hidefromtoc: true
-source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
+source-git-commit: 1674eceb1b9ae4cf8cd3f19deda26a9e72290106
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 10%
 
 ---
 
-# Mejoras de acciones personalizadas {#configure-an-action}
+# Mejoras de acciones personalizadas
 
 Ahora puede utilizar las respuestas de llamadas de API en acciones personalizadas y organizar su recorrido en función de estas respuestas.
 
 Esta capacidad solo estaba disponible cuando se utilizaban fuentes de datos. Ahora puede utilizarlo con acciones personalizadas.
 
-> [!AVAILABILITY]
+>[!AVAILABILITY]
 >
-> Actualmente, esta función está disponible como una versión beta privada.
+>Actualmente, esta función está disponible como una versión beta privada.
 
 ## Definición de la acción personalizada
 
 Al definir la acción personalizada, se han implementado dos mejoras: la adición del método de GET y el nuevo campo de respuesta de carga útil. Las demás opciones y parámetros no cambiarán. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-### Configuración de extremo {#url-configuration}
+### Configuración de extremo
 
 El **Configuración de URL** se ha cambiado el nombre de la sección **Configuración de extremo**.
 
@@ -40,16 +40,16 @@ En el **Método** desplegable, ahora puede seleccionar **GET**.
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### Cargas útiles {#url-configuration}
+### Cargas útiles
 
 El **Parámetros de acción** se ha cambiado el nombre de la sección **Cargas útiles**. Hay dos campos disponibles:
 
 * El **Solicitud** field: este campo solo está disponible para métodos de llamada de POST y PUT.
 * El **Respuesta** campo: esta es la nueva capacidad. Este campo está disponible para todos los métodos de llamada.
 
-> [!NOTE]
+>[!NOTE]
 > 
-> Ambos campos son opcionales.
+>Ambos campos son opcionales.
 
 ![](assets/action-response2.png){width="70%" align="left"}
 
@@ -131,9 +131,9 @@ También puede aprovechar las **jo_status** código para crear una nueva ruta en
 
 ![](assets/action-response7.png){width="70%" align="left"}
 
-> [!WARNING]
+>[!WARNING]
 >
-> Solo las acciones personalizadas recién creadas incluyen este campo de forma predeterminada. Si desea utilizarlo con una acción personalizada existente, debe actualizar la acción. Por ejemplo, puede actualizar la descripción y guardar.
+>Solo las acciones personalizadas recién creadas incluyen este campo de forma predeterminada. Si desea utilizarlo con una acción personalizada existente, debe actualizar la acción. Por ejemplo, puede actualizar la descripción y guardar.
 
 Estos son los valores posibles de este campo:
 
@@ -148,9 +148,9 @@ Puede personalizar los mensajes mediante los campos de respuesta. En nuestro eje
 
 ![](assets/action-response8.png){width="70%" align="left"}
 
-> [!NOTE]
+>[!NOTE]
 >
-> La llamada de se realiza solo una vez por perfil en un recorrido determinado. Si hay varios mensajes, las nuevas llamadas no se almacenarán en déclencheur.
+>La llamada de se realiza solo una vez por perfil en un recorrido determinado. Si hay varios mensajes, las nuevas llamadas no se almacenarán en déclencheur.
 
 ## Sintaxis de expresión
 
