@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
+source-git-commit: 173ae09e48a67e0e40aa59f0f714b014eb8b8064
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '879'
 ht-degree: 31%
 
 ---
@@ -78,7 +78,7 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Actualmente, Amazon S3, SFTP y Azure son compatibles con [!DNL Journey Optimizer].
+   >Actualmente Amazon S3 y SFTP<!--and Azure--> son compatibles con [!DNL Journey Optimizer].
 
 1. Rellene los detalles y credenciales del servidor, como la dirección del servidor, la clave de acceso, etc.
 
@@ -135,7 +135,7 @@ Una superficie de correo postal también debe incluir la configuración de enrut
 
 1. Seleccione el formato de archivo: **[!UICONTROL CSV]** o **[!UICONTROL Delimitado por texto]**.
 
-1. Si selecciona **[!UICONTROL Delimitado por texto]**, defina el separador de columnas que desee: tabulación, punto y coma, barra vertical o Y comercial.
+1. Si selecciona **[!UICONTROL Delimitado por texto]**, defina el separador de columnas que desee: tabulación, punto y coma o barra vertical<!--or ampersand-->.
 
    ![](assets/surface-direct-mail-column-separator.png)
 
