@@ -11,9 +11,9 @@ badge: label="Beta" type="Informative"
 keywords: acción, terceros, personalizado, recorrido, API
 hide: true
 hidefromtoc: true
-source-git-commit: d94988dd491759fe6ed8489403a3f1a295b19ef5
+source-git-commit: 00535d5c50bb89b308a74ab95f7b68449ba5b819
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '665'
 ht-degree: 5%
 
 ---
@@ -28,7 +28,11 @@ Esta capacidad solo estaba disponible cuando se utilizaban fuentes de datos. Aho
 >
 >Actualmente, esta función está disponible como una versión beta privada.
 
-## Definición de la acción personalizada
+>[!WARNING]
+>
+>Las acciones personalizadas solo deben utilizarse con extremos privados o internos y con un límite o restricción adecuado. Consulte [esta página](../configuration/external-systems.md).
+
+## Definir la acción personalizada
 
 Al definir la acción personalizada, se han implementado dos mejoras: la adición del método de GET y el nuevo campo de respuesta de carga útil. Las demás opciones y parámetros no cambiarán. Consulte [esta página](../action/about-custom-action-configuration.md).
 
@@ -57,104 +61,80 @@ El **Parámetros de acción** se ha cambiado el nombre de la sección **Cargas �
 
    ![](assets/action-response3.png){width="80%" align="left"}
 
-1. Pegue un ejemplo de la carga útil devuelta por la llamada. Compruebe que los tipos de campo son correctos (cadena, entero, etc.).
+1. Pegue un ejemplo de la carga útil devuelta por la llamada. Compruebe que los tipos de campo son correctos (cadena, entero, etc.). Este es un ejemplo de carga útil de respuesta capturada durante la llamada. Nuestro extremo local envía el número de puntos de lealtad y el estado de un perfil.
+
+   ```
+   {
+   "customerID" : "xY12hye",    
+   "status":"gold",
+   "points": 1290 }
+   ```
 
    ![](assets/action-response4.png){width="80%" align="left"}
 
+   Cada vez que se llama a la API, el sistema recupera todos los campos incluidos en el ejemplo de carga útil.
+
+1. Vamos a añadir también customerID como parámetro de consulta.
+
+   ![](assets/action-response9.png){width="80%" align="left"}
+
 1. Haga clic en **Guardar**.
-
-Cada vez que se llama a la API, el sistema recupera todos los campos incluidos en el ejemplo de carga útil. Observe que puede hacer clic en **Pegar una nueva carga útil** si desea cambiar la carga útil que se mueve actualmente.
-
-Este es un ejemplo de una carga útil de respuesta capturada durante la llamada a un servicio de API meteorológica:
-
-```
-{
-    "coord": {
-        "lon": 2.3488,
-        "lat": 48.8534
-    },
-    "weather": [
-        {
-            "id": 800,
-            "main": "Clear",
-            "description": "clear sky",
-            "icon": "01d"
-        }
-    ],
-    "base": "stations",
-    "main": {
-        "temp": 29.78,
-        "feels_like": 29.78,
-        "temp_min": 29.92,
-        "temp_max": 30.43,
-        "pressure": 1016,
-        "humidity": 31
-    },
-    "visibility": 10000,
-    "wind": {
-        "speed": 5.66,
-        "deg": 70
-    },
-    "clouds": {
-        "all": 0
-    },
-    "dt": 1686066467,
-    "sys": {
-        "type": 1,
-        "id": 6550,
-        "country": "FR",
-        "sunrise": 1686023350,
-        "sunset": 1686080973
-    },
-    "timezone": 7200,
-    "id": 2988507,
-    "name": "Paris",
-    "cod": 200
-}
-```
 
 ## Aprovechamiento de la respuesta en un recorrido
 
 Simplemente, agregue la acción personalizada a un recorrido. A continuación, puede aprovechar los campos de carga útil de respuesta en condiciones, otras acciones y la personalización de mensajes.
 
-### Condiciones y acciones
-
-Por ejemplo, puede agregar una condición para comprobar la velocidad del viento. Cuando la persona entra en la tienda de surf puede enviar un empujón si el clima es demasiado ventoso .
+Por ejemplo, puede agregar una condición para comprobar la cantidad de puntos de lealtad. Cuando la persona entra en el restaurante, el punto final local envía una llamada con la información de fidelidad del perfil. Puede enviar una notificación push si el perfil es un cliente de oro. Y si se detecta un error en la llamada de, envíe una acción personalizada para notificarlo al administrador del sistema.
 
 ![](assets/action-response5.png)
 
-En la condición, debe utilizar el editor avanzado para aprovechar los campos de respuesta de acción, en **Contexto** nodo.
+1. Añada el evento y la acción personalizada Fidelidad creada anteriormente.
 
-![](assets/action-response6.png)
+1. En la acción personalizada Fidelidad, asigne el parámetro de consulta ID de cliente con el ID de perfil. Marque la opción **Añadir una ruta alternativa en caso de tiempo de espera o error**.
 
-También puede aprovechar las **jo_status** código para crear una nueva ruta en caso de error.
+   ![](assets/action-response10.png)
 
-![](assets/action-response7.png)
+1. En la primera rama, añada una condición y utilice el editor avanzado para aprovechar los campos de respuesta de acción, en **Contexto** nodo.
 
->[!WARNING]
->
->Solo las acciones personalizadas recién creadas incluyen este campo de forma predeterminada. Si desea utilizarlo con una acción personalizada existente, debe actualizar la acción. Por ejemplo, puede actualizar la descripción y guardar.
+   ![](assets/action-response6.png)
+
+1. A continuación, añada la notificación push y personalice el mensaje mediante los campos de respuesta. En nuestro ejemplo, personalizamos el contenido mediante la cantidad de puntos de fidelidad y el estado del cliente. Los campos de respuesta de acción están disponibles en **Atributos contextuales** > **Journey Orchestration** > **Acciones**.
+
+   ![](assets/action-response8.png)
+
+   >[!NOTE]
+   >
+   >Cada perfil que introduzca la acción personalizada almacenará en déclencheur una llamada. Incluso si la respuesta siempre es la misma, el Recorrido seguirá realizando una llamada por perfil.
+
+1. En las ramas de tiempo de espera y error, añada una condición y aproveche la variable integrada **jo_status_code** field. En nuestro ejemplo, estamos utilizando el
+   **http_400** tipo de error. Consulte [esta sección](#error-status).
+
+   ```
+   @action{ActionLoyalty.jo_status_code} == "http_400"
+   ```
+
+   ![](assets/action-response7.png)
+
+1. Añada una acción personalizada que se enviará a su organización.
+
+   ![](assets/action-response11.png)
+
+## Estado de error{#error-status}
+
+El **jo_status_code** El campo siempre está disponible aunque no se haya definido ninguna carga útil de respuesta.
 
 Estos son los valores posibles de este campo:
 
-* código de estado http: por ejemplo **http_200** o **http_400**
+* código de estado http: http_`<HTTP API call returned code>`, por ejemplo http_200 o http_400
 * error de tiempo de espera: **timeout**
 * error de límite: **tapado**
 * error interno: **internalError**
 
-Para obtener más información sobre las actividades de recorrido, consulte [esta sección](../building-journeys/about-journey-activities.md).
+Una llamada de acción se considera errónea cuando el código http devuelto es bueno que 2xx o si se produce un error. En estos casos, el recorrido fluye a la rama de tiempo de espera o error correspondiente.
 
-### Personalización de mensajes
-
-Puede personalizar los mensajes mediante los campos de respuesta. En nuestro ejemplo, en la notificación push, personalizamos el contenido mediante el valor de velocidad.
-
-![](assets/action-response8.png)
-
->[!NOTE]
+>[!WARNING]
 >
->La llamada de se realiza solo una vez por perfil en un recorrido determinado. Si hay varios mensajes en el mismo perfil, las nuevas llamadas no se almacenarán en déclencheur.
-
-Para obtener más información sobre la personalización de mensajes, consulte [esta sección](../personalization/personalize.md).
+>Solo las acciones personalizadas recién creadas incluyen las siguientes **jo_status_code** Campo listo para usar. Si desea utilizarlo con una acción personalizada existente, debe actualizar la acción. Por ejemplo, puede actualizar la descripción y guardar.
 
 ## Sintaxis de expresión
 
