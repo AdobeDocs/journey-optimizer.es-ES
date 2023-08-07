@@ -300,7 +300,7 @@ ht-degree: 100%
       + [Introducción al Informe en vivo](using/reports/live-report.md)
       + [Lista de componentes](using/reports/live-report-components.md)
       + [Informe activo de recorrido](using/reports/journey-live-report.md)
-      + [Informe en directo de la campaña](using/reports/campaign-live-report.md)
+      + [Informe en vivo de la campaña](using/reports/campaign-live-report.md)
       + [Informe en directo de la página de aterrizaje](using/reports/lp-report-live.md)
       + [Informe en directo de la lista de suscripciones](using/reports/subscription-report-live.md)
    + Informe global {#global-report}
