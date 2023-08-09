@@ -5,9 +5,9 @@ title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3061'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Julio de 2023 {#july-2023}
 
-* Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de julio de 2023 de se ha detallado en la documentación. [Más información](release-notes.md)
+* Todas las nuevas funciones y mejoras incluidas en la versión de julio de 2023 de [!DNL Journey Optimizer] se han incluido en la documentación. [Más información](release-notes.md)
 * La página de documentación de la actividad de espera se ha mejorado con información adicional y prácticas recomendadas relacionadas con el tiempo de espera global y el uso de reentrada. [Más información](../building-journeys/wait-activity.md)
 * Se ha mejorado la página sobre administración de entradas. [Más información](../building-journeys/entry-management.md)
-* Se ha añadido información adicional acerca de la tasa de regulación en la documentación de la actividad Leer audiencia. [Más información](../building-journeys/read-audience.md)
-* El **Implementación del consentimiento de personalización** se ha actualizado la sección para describir cómo aplicar manualmente el consentimiento de personalización en las campañas: puede utilizar el generador de reglas de segmentación para crear una audiencia que contenga perfiles de exclusión o añadir una actividad dividida a un flujo de trabajo de composición. [Más información](../privacy/opt-out.md#opt-out-expression-editor)
+* Se ha añadido información adicional acerca de la velocidad de limitación en la documentación de la actividad Leer público. [Más información](../building-journeys/read-audience.md)
+* La sección **Implementación del consentimiento de personalización** se ha actualizado para describir cómo aplicar manualmente el consentimiento de personalización en las campañas: puede utilizar el generador de reglas de segmentos para crear un público que contenga perfiles de exclusión o añadir una actividad de división a un flujo de trabajo de composición. [Más información](../privacy/opt-out.md#opt-out-expression-editor)
 
 ## Junio de 2023 {#june-2023}
 
