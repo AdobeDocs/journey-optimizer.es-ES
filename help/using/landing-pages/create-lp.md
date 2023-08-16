@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, publicación
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 2a443c1b264dd8c9a2a2f5082d4c2ac373cdddfa
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 27%
+source-wordcount: '1783'
+ht-degree: 24%
 
 ---
 
@@ -21,6 +21,12 @@ ht-degree: 27%
 >[!CAUTION]
 >
 >Para poder probar y publicar páginas de aterrizaje, debe tener **[!UICONTROL Publicar mensajes]** permiso.
+
+Para dirigir a los clientes a una página web definida que desee mostrar cuando hagan clic en un vínculo específico, cree una página de aterrizaje en [!DNL Journey Optimizer], configure la página principal y las subpáginas, pruébelas y publíquelas.
+
+>[!CAUTION]
+>
+>No puede acceder a la página de aterrizaje simplemente copiando y pegando en un explorador web la URL definida cuando [creación de la página](#create-landing-page), incluso si se ha publicado. En su lugar, puede probarlo con la función de previsualización como se describe en [esta sección](#test-landing-page).
 
 ## Acceso a páginas de aterrizaje {#access-landing-pages}
 
@@ -95,6 +101,10 @@ Los pasos principales para crear páginas de aterrizaje son los siguientes:
 
 Una vez que haya configurado y diseñado el [página principal](#configure-primary-page), y el [subpáginas](#configure-subpages) si existe, puede hacer lo siguiente [prueba](#test-landing-page) y [publicar](#publish-landing-page) su página de aterrizaje.
 
+>[!CAUTION]
+>
+>No puede acceder a la página de aterrizaje simplemente copiando y pegando la URL definida en un explorador web, incluso si se ha publicado. En su lugar, puede probarlo con la función de previsualización como se describe en [esta sección](#test-landing-page).
+
 ## Configuración de la página principal {#configure-primary-page}
 
 >[!CONTEXTUALHELP]
@@ -125,12 +135,10 @@ Para definir la configuración de la página principal, siga los pasos a continu
    >[!CAUTION]
    >
    >La dirección URL de la página de aterrizaje debe ser única.
-
-   ![](assets/lp_access-url.png)
-
-   >[!NOTE]
    >
    >No puede acceder a la página de aterrizaje simplemente copiando y pegando esta URL en un explorador web, aunque esté publicada. En su lugar, puede probarlo con la función de previsualización como se describe en [esta sección](#test-landing-page).
+
+   ![](assets/lp_access-url.png)
 
 1. Si desea que la página de aterrizaje precargue los datos del formulario que ya están disponibles, seleccione la **[!UICONTROL Rellenar previamente campos de formulario con información de perfil]**.
 
@@ -196,6 +204,8 @@ Para definir la configuración de la subpágina, siga los pasos a continuación.
    >[!CAUTION]
    >
    >La dirección URL de la página de aterrizaje debe ser única.
+   >
+   >No puede acceder a la subpágina simplemente copiando y pegando esta URL en un explorador web, aunque esté publicada. En su lugar, puede probarlo con la función de previsualización como se describe en [esta sección](#test-landing-page).
 
 ![](assets/lp_subpage-settings.png)
 
@@ -298,5 +308,6 @@ Ahora está activo y listo para utilizarse en un [!DNL Journey Optimizer] mensaj
 
 >[!NOTE]
 >
->Puede monitorizar el impacto de su página de aterrizaje a través de informes específicos. [Más información](../reports/lp-report-live.md)
+>No puede acceder a la página de aterrizaje simplemente copiando y pegando en un explorador web la URL definida cuando [creación de la página](#create-landing-page), incluso si se ha publicado. En su lugar, puede probarlo con la función de previsualización como se describe en [esta sección](#test-landing-page).
 
+Puede monitorizar el impacto de su página de aterrizaje a través de informes específicos. [Más información](../reports/lp-report-live.md)
