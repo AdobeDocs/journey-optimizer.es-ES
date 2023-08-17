@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: d5c9297ef3e504b0ef9462b30882cdc4dba5b106
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1113'
 ht-degree: 12%
 
 ---
@@ -176,6 +176,10 @@ Puede probar la renderización de cualquier plantilla de contenido de correo ele
    * Antes de enviar la prueba, debe seleccionar [superficie de correo electrónico](../configuration/channel-surfaces.md) que se utilizará para probar el contenido.
 
      ![](assets/content-template-stimulate-proof-surface.png)
+
+>[!CAUTION]
+>
+>Actualmente, el seguimiento no es compatible con las plantillas de contenido de prueba de correo electrónico, lo que significa que el seguimiento de eventos, parámetros de UTM y vínculos de página de aterrizaje no serán efectivos en las pruebas que se envían desde una plantilla. Para probar el seguimiento, [usar la plantilla de contenido](email-templates.md) en un correo electrónico y [enviar una prueba](preview.md#send-proofs).
 
 ## Vídeo explicativo {#video-templates}
 
