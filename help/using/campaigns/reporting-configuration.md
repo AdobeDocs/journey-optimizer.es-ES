@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: configuración, experimentación, informes, optimizador
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
+source-git-commit: cab7fb06039b2d483f403361f6a46d2aadcadff0
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 42%
+source-wordcount: '636'
+ht-degree: 45%
 
 ---
 
@@ -59,7 +59,7 @@ Antes de poder agregar un conjunto de datos a la configuración de creación de 
 
   Por ejemplo, si desea conocer el impacto de una campaña de correo electrónico en los datos de comercio, como compras o pedidos, debe crear un conjunto de datos de evento de experiencia con el grupo de campos `Commerce Details`. 
 
-  Del mismo modo, si desea crear un informe sobre interacciones móviles, debe crear un conjunto de datos de evento de experiencia con el grupo de campos Detalles de la aplicación.
+  Del mismo modo, si desea crear un informe sobre interacciones móviles, debe generar un conjunto de datos de evento de experiencia con el grupo de campos `Application Details`. 
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
