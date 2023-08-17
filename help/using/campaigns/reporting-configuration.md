@@ -9,19 +9,19 @@ role: Admin
 level: Intermediate
 keywords: configuración, experimentación, informes, optimizador
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: c83305a27d987fdf7861b7c2fc720cc4a6aa260b
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 43%
+source-wordcount: '638'
+ht-degree: 42%
 
 ---
 
-# Configuración de informes para experimentación {#reporting-configuration}
+# Configuración de informes para experimentos {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="Configuración de conjuntos de datos para creación de informes"
->abstract="La configuración de la creación de informes permite recuperar métricas adicionales que se utilizarán en la pestaña Objetivos de los informes de campaña. Debe realizarla un usuario técnico."
+>abstract="La configuración de creación de informes le permite recuperar métricas adicionales que se utilizarán en sus informes de campaña. Debe realizarla un usuario técnico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
@@ -30,7 +30,7 @@ ht-degree: 43%
 
 La configuración de la fuente de datos de creación de informes permite definir una conexión con un sistema para recuperar información adicional que se utilizará en los informes.
 
-<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports. [Learn more](content-experiment.md#objectives-global)-->
+<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports.-->
 
 >[!NOTE]
 >
@@ -49,17 +49,17 @@ Antes de poder agregar un conjunto de datos a la configuración de creación de 
 
 * Solo puede añadir conjuntos de datos de tipo evento.
 
-* Estos conjuntos de datos deben incluir **Evento de experiencia: interacciones de propuesta** [grupo de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"}.
+* Estos conjuntos de datos deben incluir `Experience Event - Proposition Interactions` [grupo de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"}.
 
-* Estos conjuntos de datos también pueden contener uno de los siguientes elementos [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"}: **Detalles de aplicación**, **Detalles de comercio**, **Detalles web**.
+* Estos conjuntos de datos también pueden contener uno de los siguientes elementos [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"}: `Application Details`, `Commerce Details`, `Web Details`.
 
   >[!NOTE]
   >
   >También se pueden incluir otros grupos de campo, pero actualmente solo los grupos de campo anteriores son compatibles con los informes de Journey Optimizer.
 
-  Por ejemplo, si desea conocer el impacto de una campaña de correo electrónico en los datos de comercio, como compras o pedidos, debe crear un conjunto de datos de evento de experiencia con **Detalles de comercio** grupo de campos.
+  Por ejemplo, si desea conocer el impacto de una campaña de correo electrónico en los datos de comercio, como compras o pedidos, debe crear un conjunto de datos de evento de experiencia con el grupo de campos `Commerce Details`. 
 
-  Del mismo modo, si desea crear un informe sobre interacciones móviles, debe crear un conjunto de datos de evento de experiencia con **Detalles de aplicación** grupo de campos.
+  Del mismo modo, si desea crear un informe sobre interacciones móviles, debe crear un conjunto de datos de evento de experiencia con el grupo de campos Detalles de la aplicación.
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
@@ -126,6 +126,12 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
    >[!CAUTION]
    >
    >Si seleccionó un conjunto de datos que no es de tipo de evento, no podrá continuar.
+
+Tenga en cuenta que para los canales web y en la aplicación, debe asegurarse de que la variable [conjunto de datos](../data/get-started-datasets.md) La configuración de configurada para la recopilación de datos de también se agrega a esta configuración de sistema de informes. De lo contrario, los datos web y en la aplicación no se mostrarán en los informes de experimento de contenido.
+
+* Obtenga más información sobre los requisitos previos del experimento de contenido para el canal web en [esta sección](../web/web-prerequisites.md#experiment-prerequisites).
+
+* Obtenga más información sobre la configuración del canal en la aplicación en [esta sección](../in-app/inapp-configuration.md).
 
 <!--
 When building your campaign reports, you can now see the metrics corresponding to the field groups used in the datasets you added. Go to the **[!UICONTROL Objectives]** tab and select the metrics of your choice to better fine-tune your reports. [Learn more](content-experiment.md#objectives-global)
