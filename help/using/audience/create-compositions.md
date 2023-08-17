@@ -11,7 +11,7 @@ exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: f924af0e1baadabb97167f42457b1b419256fa8c
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 7%
+ht-degree: 17%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 >[!BEGINSHADEBOX]
 
-Esta documentación proporciona información detallada sobre cómo trabajar con la composición de audiencias en Adobe Journey Optimizer. Si no utiliza Adobe Journey Optimizer, [haga clic aquí](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+Esta documentación proporciona información detallada sobre cómo trabajar con la composición de audiencias en Adobe Journey Optimizer. Si no utiliza Adobe Journey Optimizer, [haga clic aquí](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=es)
 
 >[!ENDSHADEBOX]
 
@@ -35,7 +35,7 @@ Para crear un flujo de trabajo de maquetación, siga estos pasos:
 
    >[!NOTE]
    >
-   >El **[!UICONTROL Generar regla]** método de creación le permite crear una nueva definición de segmento utilizando [Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   >El **[!UICONTROL Generar regla]** método de creación le permite crear una nueva definición de segmento utilizando [Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es).
 
 1. El lienzo de composición se muestra con dos actividades predeterminadas:
 

@@ -43,7 +43,7 @@ Tenga en cuenta que **[!UICONTROL Funciones]**, **[!UICONTROL Políticas]** y **
 **[!UICONTROL Funciones]** son un conjunto de usuarios que comparten los mismos permisos, etiquetas y zonas protegidas dentro de la organización. Cada usuario que pertenece a un **[!UICONTROL Rol]** tiene derecho a las aplicaciones y servicios de Adobe contenidos en el producto.
 También puede crear su propio **[!UICONTROL Funciones]** si desea ajustar el acceso de los usuarios a determinadas funcionalidades u objetos de la interfaz.
 
-Ahora queremos otorgar a los usuarios seleccionados acceso al **Nacionalidad** campo, etiquetado como C2. Para ello, es necesario crear un nuevo **[!UICONTROL Rol]** con un conjunto específico de usuarios y asígneles la etiqueta C2, permitiéndoles utilizar el **Nacionalidad** detalles en una **[!UICONTROL Recorrido]**.
+Ahora queremos otorgar a los usuarios seleccionados acceso al **Nacionalidad** campo, etiquetado como C2. Para ello, es necesario crear un nuevo **[!UICONTROL Rol]** con un conjunto específico de usuarios y concederles la etiqueta C2, que les permite utilizar el **Nacionalidad** detalles en una **[!UICONTROL Recorrido]**.
 
 1. Desde el [!DNL Permissions] producto, seleccione **[!UICONTROL Rol]** en el menú del panel izquierdo y haga clic en **[!UICONTROL Crear función]**. Tenga en cuenta que también puede añadir **[!UICONTROL Etiqueta]** a las funciones integradas.
 

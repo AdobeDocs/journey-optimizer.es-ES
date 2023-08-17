@@ -12,7 +12,7 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 28%
+ht-degree: 35%
 
 ---
 
@@ -59,6 +59,6 @@ Aprenda a utilizar la información de evento contextual de un recorrido para per
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-Obtenga información sobre cómo añadir personalización basada en perfiles a un mensaje y cómo utilizar el abono a audiencia como condición previa a un bloque personalizado.
+Obtenga información sobre cómo añadir una personalización basada en perfiles a un mensaje y cómo utilizar el abono a un público como condición previa a un bloque de personalización.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

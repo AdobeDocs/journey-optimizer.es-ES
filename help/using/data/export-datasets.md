@@ -76,7 +76,7 @@ Encontrará información detallada sobre cada paso en la documentación de Adobe
 
    <!--![](assets/dataset-export-dataset-selection.png)-->
 
-1. **Programación de la exportación** del conjunto de datos. Especifique cuándo debe comenzar la exportación y con qué frecuencia debe producirse.
+1. **Programación de la exportación** del conjunto de datos. Especifique cuándo debe iniciarse la exportación y con qué frecuencia debe producirse.
 
    <!--![](assets/dataset-export-schedule.png)-->
 

@@ -43,7 +43,6 @@ Para ello, debe elegir de la lista de subdominios ya delegados al Adobe. Obtenga
 >
 > * Cualquier modificación en un subdominio web también afectará a los entornos limitados de producción.
 
-
 Puede crear varios subdominios web, pero solo los siguientes **predeterminado** se utilizará el subdominio. Puede cambiar el subdominio web predeterminado, pero solo se puede utilizar uno a la vez.
 
 1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Canales]** menú, luego seleccione **[!UICONTROL Configuración web]** > **[!UICONTROL Subdominios web]**.

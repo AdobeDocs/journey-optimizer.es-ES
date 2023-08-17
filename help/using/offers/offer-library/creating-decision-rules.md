@@ -9,7 +9,7 @@ exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 14%
+ht-degree: 17%
 
 ---
 
@@ -41,7 +41,7 @@ Para crear una regla de decisión, siga estos pasos:
 
    >[!NOTE]
    >
-   >El Generador de segmentos que se proporciona para crear reglas de decisión presenta algunas particularidades en comparación con el que se utiliza con **[!UICONTROL Segmentación]** servicio. Sin embargo, el proceso global descrito en la [Generador de segmentos](../../audience/creating-a-segment-definition.md) La documentación de sigue siendo válida para generar reglas de decisiones de ofertas. Obtenga más información en la [Documentación del Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=es).
+   >El Generador de segmentos que se proporciona para crear reglas de decisión presenta algunas particularidades en comparación con el que se utiliza con **[!UICONTROL Segmentación]** servicio. Sin embargo, el proceso global descrito en la [Generador de segmentos](../../audience/creating-a-segment-definition.md) La documentación de sigue siendo válida para generar reglas de decisiones de ofertas. Obtenga más información en la [documentación del Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=es).
 
 1. Al añadir y configurar nuevos campos en el espacio de trabajo, la variable **[!UICONTROL Propiedades de audiencia]** Este panel muestra información sobre los perfiles estimados que pertenecen a la audiencia. Clic **[!UICONTROL Actualizar estimación]** para actualizar los datos.
 

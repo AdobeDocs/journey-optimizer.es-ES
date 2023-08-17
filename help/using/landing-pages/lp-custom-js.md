@@ -28,7 +28,7 @@ Para insertar JavaScript personalizado en el contenido de una página de aterriz
 
 * Diseñe la página de aterrizaje desde cero o desde una plantilla guardada. Arrastre y suelte el **[!UICONTROL HTML]** Componente de contenido en el lienzo y mostrar el código fuente para agregar JavaScript al componente. Aprenda a utilizar el componente HTML en [esta sección](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
-   ![](assets/lp_designer-html-component.png)
+  ![](assets/lp_designer-html-component.png)
 
 * Introduzca o pegue código JavaScript directamente en el diseñador de contenido. Aprenda a codificar su propio contenido [en esta sección](../email/code-content.md).
 

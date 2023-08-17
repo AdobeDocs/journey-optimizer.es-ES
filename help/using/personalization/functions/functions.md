@@ -410,10 +410,10 @@ Las funciones de comparación se utilizan para comparar entre diferentes expresi
         <td><a href="operators.md#equals">Es igual a</a></td><td>Esta operación comprueba si los valores son iguales</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthan">Greater than</a></td><td>Este operador comprueba si el primer valor es bueno que el segundo</td>
+        <td><a href="operators.md#greaterthan">Greater than</a></td><td>Este operador comprueba si el primer valor es mayor que el segundo</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthanorequal">Bueno o igual a</a></td><td>Este operador comprueba si el primer valor es bueno o igual al segundo valor</td>
+        <td><a href="operators.md#greaterthanorequal">Mayor o igual que</a></td><td>Este operador comprueba si el primer valor es mayor o igual que el segundo</td>
     </tr>
     <tr>
         <td><a href="operators.md#lessthanorequal">Menor o igual que</a> </td><td>Este operador comprueba si el primer valor es menor o igual que el segundo valor</td>

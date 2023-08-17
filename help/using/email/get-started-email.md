@@ -28,11 +28,11 @@ Se pueden crear envíos de correo electrónico:
 
 * En un **Recorrido**: una vez que haya añadido una actividad de **[!UICONTROL Correo electrónico]** para su recorrido y haya definido la configuración básica, utilice el panel derecho **[!UICONTROL Acciones: correo electrónico]** para crear el contenido del mensaje.
 
-   Para obtener más información sobre cómo configurar su recorrido, consulte esta [página](../building-journeys/journey-gs.md).
+  Para obtener más información sobre cómo configurar su recorrido, consulte esta [página](../building-journeys/journey-gs.md).
 
 * En una **Campaña**: una vez creada la campaña, seleccione **[!UICONTROL Correo electrónico]** como su acción y defina la configuración básica.
 
-   Para obtener más información sobre cómo configurar la cuenta, consulte esta [página](../campaigns/create-campaign.md#configure).
+  Para obtener más información sobre cómo configurar la cuenta, consulte esta [página](../campaigns/create-campaign.md#configure).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

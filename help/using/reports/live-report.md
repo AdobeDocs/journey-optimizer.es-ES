@@ -22,15 +22,15 @@ Los datos están disponibles en la **[!UICONTROL Informe en vivo]** tan pronto c
 
 * Si desea dirigirse a un recorrido en el contexto de un recorrido, desde el **[!UICONTROL Recorridos]** , acceda al recorrido y haga clic en el **[!UICONTROL Ver informe]** botón.
 
-   ![](assets/report_journey.png)
+  ![](assets/report_journey.png)
 
 * Si desea dirigirse a una campaña, en el **[!UICONTROL Campañas]** , acceda a la campaña y haga clic en **[!UICONTROL Informes]** botón.
 
-   ![](assets/report_campaign.png)
+  ![](assets/report_campaign.png)
 
 * Si desea cambiar de la **[!UICONTROL Informe global]** a la **[!UICONTROL Informe en vivo]** para la entrega, haga clic en **[!UICONTROL Últimas 24 horas]** en el conmutador de pestañas.
 
-   ![](assets/report_3.png)
+  ![](assets/report_3.png)
 
 Para obtener una lista detallada de todas las métricas disponibles en Adobe Journey Optimizer, consulte [esta página](#list-of-components-live).
 

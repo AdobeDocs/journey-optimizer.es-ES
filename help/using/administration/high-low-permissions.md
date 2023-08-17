@@ -40,6 +40,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
       * journeys.write
       * journeys.delete
       * messages.read
+
    * Específico de Adobe Experience Platform:
 
       * segments.read
@@ -64,6 +65,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
    * Específico de Journey Optimizer:
       * journeys.read
+
    * Específico de Adobe Experience Platform:
       * segments.read
       * profiles.read
@@ -84,6 +86,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
       * recorrido_actions.read
       * recorrido_actions.write
       * recorrido_actions.delete
+
    * Específico de Adobe Experience Platform:
       * schemas.read
       * datasets.read
@@ -99,6 +102,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
       * recorrido_events.read
       * recorrido_data_sources.read
       * recorrido_actions.read
+
    * Específico de Adobe Experience Platform:
       * schemas.read
       * datasets.read
@@ -113,6 +117,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
    * Específico de Journey Optimizer:
       * recorrido_report.read
       * messages_report.read
+
    * Específico de Adobe Experience Platform:
       * datasets.read
       * queries.read
@@ -154,10 +159,10 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
       * campaign.read
       * campaign.write
       * campaign.delete
-
-      <!--* experiments.read
+     <!--* experiments.read
       * experiments.write
       * experiments.delete-->
+
 +++
 
 * **[!DNL Publish campaigns]** el permiso de alto nivel permite a los usuarios publicar campañas.
@@ -168,7 +173,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
       * campaign-read
       * campaign-publish
-         <!--* experiments.activate-->
+        <!--* experiments.activate-->
 
 +++
 
@@ -179,9 +184,9 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
    * Específico de Journey Optimizer:
       * campaign.read
       * campaign-report.read
-
-      <!--* experiments.read
+     <!--* experiments.read
       * experiments_report.read-->
+
 +++
 
 ## Recurso de gestión de decisiones {#decisions-permissions}
@@ -201,6 +206,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
       * placements.write
       * placements.delete
       * ranking_strategy.read
+
    * Específico de Adobe Experience Platform:
       * datasets.read
       * datasets.write
@@ -220,6 +226,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
       * offers.read
       * placements.read
       * ranking_strategy.read
+
    * Específico de Adobe Experience Platform:
       * schemas.read
       * segment.read
@@ -242,6 +249,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
       * placements.Write
       * placements.Delete
       * ranking_strategy.read
+
    * Específico de Adobe Experience Platform:
       * schemas.read
       * segment.read
@@ -316,6 +324,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
       * messages_general_settings.read
       * messages_general_settings.write
       * messages_general_settings.delete
+
    * Específico de Adobe Experience Platform:
       * schemas.read
 
@@ -327,6 +336,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
    * Específico de Journey Optimizer:
       * messages_general_settings.read
+
    * Específico de Adobe Experience Platform:
       * schemas.read
 
@@ -376,6 +386,7 @@ The **[!DNL View channel surface]** high-level permission allows users to view c
 
    * Específico de Journey Optimizer:
       * suppression_list.view
+
    * Específico de Adobe Experience Platform:
       * profiles.read
       * datasets.read
@@ -388,6 +399,7 @@ The **[!DNL View channel surface]** high-level permission allows users to view c
 
    * Específico de Journey Optimizer:
       * suppression_list.export
+
    * Específico de Adobe Experience Platform:
       * profiles.read
       * datasets.read
@@ -427,6 +439,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * messages_presets.delete
       * subdomains_delegation.read
       * IP_pools.read
+
    * Específico de la recopilación de datos:
       * Mobile_setting.read
 
@@ -440,6 +453,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * messages_presets.read
       * subdomains_delegation.read
       * IP_pools.read
+
    * Específico de la recopilación de datos:
       * Mobile_setting.read
 
@@ -453,4 +467,5 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * sms_subdomains.read
       * sms_subdomains.write
       * sms_subdomains.delete
+
 +++

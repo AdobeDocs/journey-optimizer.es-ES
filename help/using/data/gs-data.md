@@ -67,7 +67,7 @@ Puede usar el complemento [!DNL Journey Optimizer]Flexibilidad de datos de para 
 
 * **Extracción/exportación de datos**: Puede iniciar la extracción de los datos de origen en cualquier momento mediante la API de acceso a datos sin penalizaciones ni retrasos. El [API de acceso a datos](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html){target="_blank"} proporciona a los usuarios una interfaz RESTful centrada en la detección y accesibilidad de conjuntos de datos ingeridos dentro de [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
-   Tenga en cuenta que el contenido utilizado en recorridos o campañas no se puede extraer mediante los métodos API o Destination mencionados anteriormente.
+  Tenga en cuenta que el contenido utilizado en recorridos o campañas no se puede extraer mediante los métodos API o Destination mencionados anteriormente.
 
 <!--
 * **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer’s default setting of retaining this data for up to 30 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization’s data retention policy.
@@ -77,7 +77,7 @@ Puede usar el complemento [!DNL Journey Optimizer]Flexibilidad de datos de para 
 
 * **Depuraciones y mecanismos de archivado**: la depuración de datos y el archivado se pueden definir y automatizar libremente en [!DNL Adobe Journey Optimizer] para automatizar las políticas de retención de datos. Es posible definir diferentes estrategias de caducidad para las distintas entidades de datos. También se pueden definir mecanismos de exportación para exportar automáticamente los datos de caducidad antes de depurarlos o archivarlos.
 
-   El espacio de trabajo Higiene de datos le permite crear y supervisar varias tareas de higiene de datos, incluida la eliminación de identidades de consumidores y la programación de la caducidad de conjuntos de datos. Este espacio de trabajo está disponible con el Escudo de seguridad y privacidad y con el Escudo de atención sanitaria. Obtenga más información en [esta página](../privacy/data-hygiene.md).
+  El espacio de trabajo Higiene de datos le permite crear y supervisar varias tareas de higiene de datos, incluida la eliminación de identidades de consumidores y la programación de la caducidad de conjuntos de datos. Este espacio de trabajo está disponible con el Escudo de seguridad y privacidad y con el Escudo de atención sanitaria. Obtenga más información en [esta página](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

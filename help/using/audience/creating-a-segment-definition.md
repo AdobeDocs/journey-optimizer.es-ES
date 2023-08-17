@@ -11,7 +11,7 @@ exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -30,7 +30,7 @@ En este ejemplo, crearemos una audiencia dirigida a todos los clientes que viven
 
    ![](assets/create-segment.png)
 
-   La pantalla de definición del segmento le permite configurar todos los campos obligatorios para definir la audiencia. Obtenga información sobre cómo configurar audiencias en [Documentación del Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}.
+   La pantalla de definición del segmento le permite configurar todos los campos obligatorios para definir la audiencia. Obtenga información sobre cómo configurar audiencias en [Documentación del Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es){target="_blank"}.
 
    ![](assets/segment-builder.png)
 

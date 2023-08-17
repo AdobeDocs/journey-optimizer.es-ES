@@ -79,84 +79,84 @@ Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL 
 
 * **_experience > decisioning > content > components > Content Component Type**
 
-   **Campo:** _type
-   **Título:** Tipo de componente de contenido
-   **Descripción:** Un conjunto enumerado de URI en el que cada valor se asigna a un tipo dado al componente de contenido. Algunos consumidores de las representaciones de contenido esperan que el valor @type sea una referencia al esquema que describe propiedades adicionales del componente de contenido.
-   **Tipo:** cadena
+  **Campo:** _type
+  **Título:** Tipo de componente de contenido
+  **Descripción:** Un conjunto enumerado de URI en el que cada valor se asigna a un tipo dado al componente de contenido. Algunos consumidores de las representaciones de contenido esperan que el valor @type sea una referencia al esquema que describe propiedades adicionales del componente de contenido.
+  **Tipo:** cadena
 
 * **_experience > decisioning > content > components > _dc**
 
-   **Campo:** _dc
-   **Tipo:** objeto
-   **Requerido:** &quot;format&quot;
+  **Campo:** _dc
+  **Tipo:** objeto
+  **Requerido:** &quot;format&quot;
 
    * **Formato**
 
-      **Campo:** formato
-      **Título:** Formato
-      **Descripción:** La manifestación física o digital del recurso. Normalmente, el formato debe incluir el tipo de medio del recurso. El formato se puede utilizar para determinar el software, hardware u otro equipo necesario para mostrar o utilizar el recurso. La práctica recomendada es seleccionar un valor de un vocabulario controlado (por ejemplo, la lista de [Tipos de medios de Internet](https://www.iana.org/ assignments/media-types/) definir formatos multimedia de equipos).
-      **Tipo:** cadena
-      **Ejemplo:** &quot;application/vnd.adobe.photoshop&quot;
+     **Campo:** formato
+     **Título:** Formato
+     **Descripción:** La manifestación física o digital del recurso. Normalmente, el formato debe incluir el tipo de medio del recurso. El formato se puede utilizar para determinar el software, hardware u otro equipo necesario para mostrar o utilizar el recurso. La práctica recomendada es seleccionar un valor de un vocabulario controlado (por ejemplo, la lista de [Tipos de medios de Internet](https://www.iana.org/ assignments/media-types/) definir formatos multimedia de equipos).
+     **Tipo:** cadena
+     **Ejemplo:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Idioma**
 
-      **Campo:** idioma
-      **Título:** Idioma
-      **Descripción:** El o los idiomas del recurso. \nLos idiomas se especifican en el código de idioma tal como se define en [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), que forma parte de BCP 47, que se utiliza en otras partes de XDM.
-      **Tipo:** matriz
-      **Ejemplos:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
+     **Campo:** idioma
+     **Título:** Idioma
+     **Descripción:** El o los idiomas del recurso. \nLos idiomas se especifican en el código de idioma tal como se define en [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), que forma parte de BCP 47, que se utiliza en otras partes de XDM.
+     **Tipo:** matriz
+     **Ejemplos:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
 * **_experience > decisioning > content > components > _repo**
 
-   **Campo:** _repo
-   **Tipo:** objeto
+  **Campo:** _repo
+  **Tipo:** objeto
 
    * **id**
 
-      **Campo:** id
-      **Descripción:** Un identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad adicional \&quot;repo:resolveUrl\&quot; para recuperar el recurso.
-      **Tipo:** cadena
-      **Ejemplo:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+     **Campo:** id
+     **Descripción:** Un identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad adicional \&quot;repo:resolveUrl\&quot; para recuperar el recurso.
+     **Tipo:** cadena
+     **Ejemplo:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
-      **Campo:** name
-      **Descripción:** Algunas sugerencias sobre dónde localizar el repositorio que almacena el recurso externo mediante el \&quot;repo:id\&quot;.
-      **Tipo:** cadena
+     **Campo:** name
+     **Descripción:** Algunas sugerencias sobre dónde localizar el repositorio que almacena el recurso externo mediante el \&quot;repo:id\&quot;.
+     **Tipo:** cadena
 
    * **repositoryID**
 
-      **Campo:** repositoryID
-      **Descripción:** Un identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad adicional \&quot;repo:resolveUrl\&quot; para recuperar el recurso.
-      **Tipo:** cadena
-      **Ejemplo:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
+     **Campo:** repositoryID
+     **Descripción:** Un identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad adicional \&quot;repo:resolveUrl\&quot; para recuperar el recurso.
+     **Tipo:** cadena
+     **Ejemplo:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
-      **Campo:** resolveURL
-      **Descripción:** Un localizador de recursos único opcional para leer el recurso en un repositorio de contenido. Esto facilitará la obtención del recurso sin que el cliente entienda dónde se administra el recurso y a qué API llamar. Esto es similar a un vínculo HAL, pero la semántica es más sencilla y útil.
-      **Tipo:** cadena
-      **Ejemplo:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
+     **Campo:** resolveURL
+     **Descripción:** Un localizador de recursos único opcional para leer el recurso en un repositorio de contenido. Esto facilitará la obtención del recurso sin que el cliente entienda dónde se administra el recurso y a qué API llamar. Esto es similar a un vínculo HAL, pero la semántica es más sencilla y útil.
+     **Tipo:** cadena
+     **Ejemplo:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experience > decisioning > content > components > content**
 
-   **Campo:** content
-   **Descripción:** Un campo opcional para guardar contenido directamente. En lugar de hacer referencia al contenido de un repositorio de recursos, el componente puede contener directamente contenido simple. Este campo no se utiliza para recursos de contenido compuesto, complejo y binario.
-   **Tipo:** cadena
+  **Campo:** content
+  **Descripción:** Un campo opcional para guardar contenido directamente. En lugar de hacer referencia al contenido de un repositorio de recursos, el componente puede contener directamente contenido simple. Este campo no se utiliza para recursos de contenido compuesto, complejo y binario.
+  **Tipo:** cadena
 
 * **_experience > decisioning > content > components > deliveryURL**
 
-   **Campo:** deliveryURL
-   **Descripción:** Un localizador de recursos único opcional para obtener el recurso de una red de entrega de contenido o un extremo de servicio. Esta URL la utiliza un agente de usuario para acceder públicamente al recurso.
-   **Tipo:** cadena
-   **Ejemplo:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Campo:** deliveryURL
+  **Descripción:** Un localizador de recursos único opcional para obtener el recurso de una red de entrega de contenido o un extremo de servicio. Esta URL la utiliza un agente de usuario para acceder públicamente al recurso.
+  **Tipo:** cadena
+  **Ejemplo:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisioning > content > components > linkURL**
 
-   **Campo:** linkURL
-   **Descripción:** Un localizador de recursos único opcional para las interacciones del usuario. Esta URL se utiliza para remitir al usuario final a en un agente de usuario y se puede rastrear.
-   **Tipo:** cadena
-   **Ejemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Campo:** linkURL
+  **Descripción:** Un localizador de recursos único opcional para las interacciones del usuario. Esta URL se utiliza para remitir al usuario final a en un agente de usuario y se puede rastrear.
+  **Tipo:** cadena
+  **Ejemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++
 

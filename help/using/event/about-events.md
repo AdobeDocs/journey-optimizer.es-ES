@@ -12,7 +12,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '980'
-ht-degree: 58%
+ht-degree: 65%
 
 ---
 
@@ -40,7 +40,7 @@ Puede configurar dos tipos de eventos:
 >
 >Si edita un evento utilizado en un recorrido en borrador o activo, solo puede cambiar el nombre, la descripción o agregar campos de carga útil. Limitamos estrictamente la edición de los recorridos en borrador o en directo para evitar que se rompan.
 
-Los recorridos unitarios (que comienzan con un evento o una calificación de audiencia) incluyen una protección que evita que los recorridos se activen varias veces por error para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante cinco minutos. Por ejemplo, si un evento activa un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
+Los recorridos unitarios (que se inician con un evento o una calificación de audiencia) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante cinco minutos. Por ejemplo, si un evento activa un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
 
 ➡️ [Descubra esta función en vídeo](#video)
 
@@ -60,7 +60,7 @@ Para los eventos unitarios, existen dos tipos de ID de evento:
 
 >[!NOTE]
 >
->Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Eventos consumidos por lotes o eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento del correo electrónico, etc.) no se puede usar para activar un recorrido. Para los casos de uso en los que no pueda obtener eventos de flujo continuo, cree una audiencia basada en esos eventos y use **Leer audiencia** actividad en su lugar. Técnicamente, la calificación de audiencias puede utilizarse, pero puede provocar desafíos descendentes en función de las acciones utilizadas. Estos datos no necesariamente tienen que ir al perfil en tiempo real. Si desea utilizar los eventos para la segmentación o la búsqueda en un recorrido independiente, le recomendamos que habilite el conjunto de datos para el perfil.
+>Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Eventos consumidos por lotes o eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento del correo electrónico, etc.) no se puede usar para activar un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere una audiencia basado en esos eventos y use la actividad **Leer audiencia** en su lugar. Técnicamente, la calificación de la audiencia puede utilizarse, pero puede provocar problemas posteriores en función de las acciones utilizadas. Estos datos no necesariamente tienen que ir al perfil en tiempo real. Si desea utilizar los eventos para la segmentación o la búsqueda en un recorrido independiente, le recomendamos que habilite el conjunto de datos para el perfil.
 
 ## Ciclo de datos {#data-cycle}
 
@@ -68,7 +68,7 @@ Los eventos son llamadas API POST. Los eventos se envían a Adobe Experience Pla
 
 La carga útil contiene la información requerida por las API de ingesta de transmisión para funcionar (en el encabezado) y la información requerida por [!DNL Journey Optimizer] para trabajar e información que se va a utilizar en los recorridos (en el cuerpo, por ejemplo, la cantidad de un carro de compras abandonado). Existen dos modos para la transmisión de flujo continuo: autenticado y no autenticado. Para obtener más información sobre las API de ingesta de flujos, consulte [este vínculo](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=es).
 
-Después de llegar a través de las API de ingesta de flujos, los eventos fluyen a un servicio interno llamado Canalización y, a continuación, a Adobe Experience Platform. Si el esquema de evento tiene habilitado el indicador de Servicio de Perfil del cliente en tiempo real y un ID de conjunto de datos que también tiene el indicador de Perfil del cliente en tiempo real, se desplaza al servicio de Perfil del cliente en tiempo real.
+Después de llegar a través de las API de ingesta de transmisión, los eventos fluyen a un servicio interno llamado Canalización y, a continuación, a Adobe Experience Platform. Si el esquema de evento tiene habilitado el indicador de Servicio de Perfil del cliente en tiempo real y un ID de conjunto de datos que también tiene el indicador de Perfil del cliente en tiempo real, se desplaza al servicio de Perfil del cliente en tiempo real.
 
 Para eventos generados por el sistema, la canalización filtra eventos que tienen una carga útil que contiene [!DNL Journey Optimizer] eventIDs (consulte el proceso de creación de eventos que se muestra a continuación) proporcionados por [!DNL Journey Optimizer] y contenido en la carga útil de evento. En el caso de los eventos basados en reglas, el sistema identifica el evento con la condición eventID. Estos eventos son escuchados por [!DNL Journey Optimizer] y se activa el recorrido correspondiente.
 

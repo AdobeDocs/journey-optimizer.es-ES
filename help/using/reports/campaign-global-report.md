@@ -388,4 +388,4 @@ El **[!UICONTROL Correo directo: razones de exclusión]** y **[!UICONTROL Correo
 * [Creación de una campaña](../campaigns/create-campaign.md)
 * [Creación de campañas activadas por API](../campaigns/api-triggered-campaigns.md)
 * [Modificación o detención de una campaña](../campaigns/modify-stop-campaign.md)
-* [Informe en directo de la campaña](campaign-live-report.md)
+* [Informe en vivo de la campaña](campaign-live-report.md)

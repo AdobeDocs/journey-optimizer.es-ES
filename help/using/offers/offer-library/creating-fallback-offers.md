@@ -1,5 +1,5 @@
 ---
-title: Creación de ofertas de reserva
+title: Crear ofertas de reserva
 description: Obtenga información sobre cómo crear ofertas de reserva para mostrarlas a los clientes que no cumplen los requisitos para ninguna oferta
 topic: Integrations
 role: User
@@ -12,7 +12,7 @@ ht-degree: 4%
 
 ---
 
-# Creación de ofertas de reserva {#create-fallback-offers}
+# Crear ofertas de reserva {#create-fallback-offers}
 
 La oferta de reserva se envía a los clientes si no cumplen los requisitos para otras ofertas. Los pasos para crear una oferta de reserva consisten en crear una o varias representaciones, como al crear una oferta.
 

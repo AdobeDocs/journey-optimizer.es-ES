@@ -20,6 +20,7 @@ ht-degree: 5%
 >[!AVAILABILITY]
 >
 >El nuevo **flujo de trabajo de inicio rápido de incorporación móvil** ya está disponible. Utilice esta nueva función de producto para configurar rápidamente el SDK móvil para empezar a recopilar y validar datos de eventos móviles, así como para enviar notificaciones push móviles. Se puede acceder a esta funcionalidad a través de la página de inicio de recopilación de datos como una versión beta pública. [Más información](mobile-onboarding-wf.md)
+>
 
 
 ## Antes de empezar {#before-starting}
@@ -142,7 +143,7 @@ Se requiere el registro de credenciales push de la aplicación móvil para autor
 
    * **Para iOS**
 
-      ![](assets/add-app-config-ios.png)
+     ![](assets/add-app-config-ios.png)
 
       1. Introduzca la aplicación móvil **ID de paquete** en el **[!UICONTROL ID de aplicación (ID de paquete de iOS)]** field. El ID del paquete de aplicaciones se encuentra en **General** pestaña del objetivo principal en **XCode**.
 
@@ -153,16 +154,16 @@ Se requiere el registro de credenciales push de la aplicación móvil para autor
       1. Proporcione el **ID de clave**. Es una cadena de 10 caracteres asignada durante la creación de la clave de autenticación p8. Se encuentra en **Claves** pestaña en **Certificados**, **Identificadores** y **Perfiles** página.
 
       1. Proporcione el **Identificador de equipo**. Es un valor de cadena que se puede encontrar en la pestaña Pertenencia.
+
    * **Para Android**
 
-      ![](assets/add-app-config-android.png)
+     ![](assets/add-app-config-android.png)
 
       1. Proporcione el **[!UICONTROL ID de aplicación (nombre del paquete de Android)]**: normalmente, el nombre del paquete es el id de la aplicación en su `build.gradle` archivo.
 
       1. Se ha encendido la **[!UICONTROL Credenciales push]** para añadir sus credenciales.
 
       1. Arrastre y suelte las credenciales push de FCM. Para obtener más información sobre cómo obtener las credenciales push, consulte [Documentación de Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
-
 
 
 1. Clic **[!UICONTROL Guardar]** para crear la configuración de la aplicación.

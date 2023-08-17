@@ -6,7 +6,7 @@ description: Obtenga más información sobre cómo trabajar con Journey Optimize
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
 

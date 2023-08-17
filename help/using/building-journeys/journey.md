@@ -11,7 +11,7 @@ exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 17%
+ht-degree: 24%
 
 ---
 
@@ -22,13 +22,13 @@ Uso [!DNL Journey Optimizer] para crear casos de uso de orquestación en tiempo 
 
 Diseñe escenarios avanzados de varios pasos con las siguientes capacidades:
 
-* Envío en tiempo real **envío unitario** se activa cuando se recibe un evento, o **en lote** uso de audiencias de Adobe Experience Platform.
+* Envíe en tiempo real un **envío unitario** que se activa cuando se recibe un evento, o **en lote** con las audiencias de Adobe Experience Platform.
 
 * Aprovechar **datos contextuales** desde eventos, información de Adobe Experience Platform o datos de servicios API de terceros.
 
 * Utilice el **acciones integradas** para enviar mensajes diseñados en [!DNL Journey Optimizer] o crear **acciones personalizadas** si utiliza un sistema de terceros para enviar sus mensajes.
 
-* Con el **diseñador de recorridos**, cree sus casos de uso de varios pasos: arrastre y suelte fácilmente un evento de entrada o una actividad de audiencia de lectura, añada condiciones y envíe mensajes personalizados.
+* Con el **diseñador de recorridos**, genere sus casos de uso de varios pasos: arrastre y suelte fácilmente un evento de entrada o una actividad de lectura de audiencia, agregue condiciones y envíe mensajes personalizados.
 
 
 >[!NOTE]

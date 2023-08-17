@@ -180,7 +180,7 @@ Los perfiles de prueba se han añadido y ahora se pueden utilizar para probar un
 
 ## Creación de perfiles de prueba mediante llamadas a API{#create-test-profiles-api}
 
-También puede crear perfiles de prueba mediante llamadas a la API. Obtenga más información en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}.
+También puede crear perfiles de prueba mediante llamadas a la API. Más información en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}.
 
 Debe utilizar un esquema de perfil que contenga el grupo de campos Detalles de la prueba de perfil. El indicador testProfile forma parte de este grupo de campos.
 Al crear un perfil, asegúrese de pasar el valor: testProfile = true.

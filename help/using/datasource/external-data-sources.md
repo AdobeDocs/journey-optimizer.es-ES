@@ -83,9 +83,9 @@ Para el conjunto de parámetros &quot;long/lat&quot;, creamos un grupo de campos
 * **[!UICONTROL Valores dinámicos]**: introduzca los diferentes parámetros separados por coma, &quot;long,lat&quot; en nuestro ejemplo. Dado que los valores de parámetro dependen del contexto de ejecución, se definirán en los recorridos. [Más información](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL Carga de respuesta]**: haga clic dentro de **[!UICONTROL Carga útil]** y pegue un ejemplo de la carga útil devuelta por la llamada. Para nuestro ejemplo, hemos utilizado una carga útil encontrada en un sitio web de la API meteorológica. Compruebe que los tipos de campo son correctos. Cada vez que se llama a la API, el sistema recupera todos los campos incluidos en el ejemplo de carga útil. Observe que puede hacer clic en **[!UICONTROL Pegar una nueva carga útil]** si desea cambiar la carga útil que se mueve actualmente.
 
-   >[!NOTE]
-   >
-   >Las matrices escalares no son compatibles con la definición de carga útil de respuesta.
+  >[!NOTE]
+  >
+  >Las matrices escalares no son compatibles con la definición de carga útil de respuesta.
 
 * **[!UICONTROL Carga útil enviada]**: este campo no aparece en nuestro ejemplo. Solo está disponible si selecciona el método POST. Pegue la carga útil que se enviará al sistema de terceros.
 
@@ -94,9 +94,9 @@ En caso de una llamada de GET que requiera parámetros, introduzca los parámetr
 * enumerar los parámetros que se van a pasar en el momento de la llamada en el **[!UICONTROL Valores dinámicos]** campo (en el ejemplo siguiente: &quot;identificador&quot;).
 * Especificarlos también con la misma sintaxis en el cuerpo de la carga útil enviada. Para ello, debe agregar: &quot;param&quot;: &quot;nombre del parámetro&quot; (en el ejemplo siguiente: &quot;identificador&quot;). Siga esta sintaxis:
 
-   ```
-   {"id":{"param":"identifier"}}
-   ```
+  ```
+  {"id":{"param":"identifier"}}
+  ```
 
 ![](assets/journey29.png)
 

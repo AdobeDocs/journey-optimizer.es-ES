@@ -45,7 +45,6 @@ Puede utilizar un subdominio que ya esté delegado al Adobe o puede configurar o
 >
 > * Cualquier modificación en un subdominio de página de aterrizaje también afectará a las zonas protegidas de producción.
 
-
 ## Usar un subdominio existente {#lp-use-existing-subdomain}
 
 Para utilizar un subdominio que ya se haya delegado al Adobe, siga los pasos a continuación.

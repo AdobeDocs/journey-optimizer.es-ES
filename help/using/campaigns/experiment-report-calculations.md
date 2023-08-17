@@ -66,7 +66,7 @@ Donde:
 * `N` es el número de unidades de esa variante.
 * `σ` es una estimación de muestra de la desviación estándar (definida anteriormente).
 * `α` es el nivel deseado de error de tipo I (o probabilidad de cobertura incorrecta). Siempre se establece en 0,05.
-* <sup>2</sup> es una constante que ajusta el tamaño de muestra con el que el CS es más ajustado. El Adobe ha elegido un valor universal de la<sup>2</sup> = 10<sup>-2,8</sup>, que es adecuada para los tipos de tasas de conversión de los experimentos en línea.
+* <sup>2</sup> es una constante que ajusta el tamaño de muestra con el que el CS es más ajustado. El Adobe ha elegido un valor universal de la<sup>2</sup> = 10<sup>-2,8</sup>, que es adecuada para los tipos de tasas de conversión que se ven en los experimentos en línea.
 
 ## Confianza {#confidence}
 

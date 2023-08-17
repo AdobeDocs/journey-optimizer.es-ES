@@ -23,11 +23,11 @@ Se pueden crear envíos de SMS:
 
 * En un **Recorrido**: una vez que haya añadido una actividad SMS en el recorrido y haya definido la configuración básica, utilice el panel derecho **[!UICONTROL Acciones: SMS]** para crear el contenido del mensaje SMS.
 
-   Para obtener más información sobre cómo configurar su recorrido, consulte esta [página](../building-journeys/journey-gs.md).
+  Para obtener más información sobre cómo configurar su recorrido, consulte esta [página](../building-journeys/journey-gs.md).
 
 * En una **Campaña**: una vez que haya creado una campaña, seleccione SMS como su acción y defina la configuración básica.
 
-   Para obtener más información sobre cómo configurar la cuenta , consulte esta [página](../campaigns/create-campaign.md#configure).
+  Para obtener más información sobre cómo configurar la cuenta , consulte esta [página](../campaigns/create-campaign.md#configure).
 
 
 >[!IMPORTANT]

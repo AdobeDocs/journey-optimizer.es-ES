@@ -65,7 +65,6 @@ Para guardar una expresión en la biblioteca, siga estos pasos:
 >* Las expresiones guardadas se ordenan por fecha de creación: las expresiones agregadas recientemente se mostrarán primero en la lista.
 
 
-
 Para editar una expresión existente, añádala al editor y, a continuación, modifíquela según sus necesidades. Clic **[!UICONTROL Añadir a la biblioteca]** para validar la sintaxis y guardar la expresión.
 
 Para eliminar una expresión, haga clic en el botón de puntos suspensivos y luego haga clic en **[!UICONTROL Eliminar]**.

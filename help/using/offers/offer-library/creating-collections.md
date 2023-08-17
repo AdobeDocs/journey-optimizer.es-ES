@@ -1,5 +1,5 @@
 ---
-title: Creación de colecciones
+title: Crear colecciones
 description: Obtenga información sobre cómo organizar ofertas mediante colecciones
 feature: Offers
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 ---
 
-# Creación de colecciones {#create-collections}
+# Crear colecciones {#create-collections}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_collection"

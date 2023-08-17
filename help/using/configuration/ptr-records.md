@@ -98,7 +98,6 @@ Para editar un registro PTR con un subdominio delegado al Adobe mediante [métod
    >   * Compruebe en el proveedor DNS si el registro DNS de reenvío se creó correctamente.
    >   * Es posible que los registros en el DNS no se sincronicen inmediatamente. Espere unos minutos e inténtelo de nuevo.
 
-
 1. Clic **[!UICONTROL Guardar]** para confirmar los cambios.
 
 >[!NOTE]

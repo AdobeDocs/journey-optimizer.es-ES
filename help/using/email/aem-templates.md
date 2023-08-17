@@ -13,7 +13,7 @@ badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '763'
 ht-degree: 3%
 
 ---
@@ -33,13 +33,13 @@ Antes de empezar a utilizar esta capacidad, asegúrese de estar alineado con los
 
 * **configuración del Experience Manager**
 
-   Esta capacidad está disponible con [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=es){target="_blank"}.
+  Esta capacidad está disponible con [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=es){target="_blank"}.
 
-   Como parte del programa beta, la configuración del Cloud Service se realiza mediante el Adobe en Adobe Experience Manager para conectarse a Adobe Journey Optimizer.
+  Como parte del programa beta, la configuración del Cloud Service se realiza mediante el Adobe en Adobe Experience Manager para conectarse a Adobe Journey Optimizer.
 
 * **Permisos**
 
-   Para crear, editar y eliminar plantillas de contenido en Adobe Journey Optimizer, debe tener **[!DNL Manage Library Items]** permiso incluido en el **[!DNL Content Library Manager]** perfil del producto. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
+  Para crear, editar y eliminar plantillas de contenido en Adobe Journey Optimizer, debe tener **[!DNL Manage Library Items]** permiso incluido en el **[!DNL Content Library Manager]** perfil del producto. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
 
 ## Mecanismos de protección y limitaciones{#aem-templates-limitations}
 

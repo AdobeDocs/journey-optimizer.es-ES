@@ -12,7 +12,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: af1bc66021f04dacee8cf674925af9e2d0c2f30b
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 34%
+ht-degree: 36%
 
 ---
 
@@ -63,7 +63,7 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
    * **[!UICONTROL Vínculo externo]**: inserte un vínculo a una dirección URL externa.
 
-   * **[!UICONTROL Página de aterrizaje]**: inserte un vínculo a una página de aterrizaje. [Más información ](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL Página de aterrizaje]**: inserte un vínculo a una página de aterrizaje. [Más información](../landing-pages/get-started-lp.md)
 
    * **[!UICONTROL Exclusión en un clic]**: inserte un vínculo para permitir a los usuarios cancelar rápidamente la suscripción a sus comunicaciones sin necesidad de confirmar la exclusión. [Más información](email-opt-out.md#one-click-opt-out).
 
@@ -111,7 +111,7 @@ Puede realizar ajustes en los vínculos utilizando la variable **[!UICONTROL Con
 
    ![](assets/link_1.png)
 
-1. Para cambiar el color del vínculo, haga clic en **[!UICONTROL Color del vínculo]** desde el **[!UICONTROL Estilos]** pestaña.
+1. Para cambiar el color del vínculo, haga clic en **[!UICONTROL Color del vínculo]** en la pestaña **[!UICONTROL Estilos]**.
 
    ![](assets/link_3.png)
 

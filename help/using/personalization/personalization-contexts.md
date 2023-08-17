@@ -34,11 +34,11 @@ En el Diseñador de correo electrónico, puede personalizar el contenido:
 
 * En el **message**: haga clic dentro de un bloque de texto y haga clic en **Añadir personalización** de la barra de herramientas contextual. Para obtener más información sobre la interfaz del Diseñador de correo electrónico, consulte [sección](../email/get-started-email-design.md).
 
-   ![](assets/perso_insert.png)
+  ![](assets/perso_insert.png)
 
 * Para un **vincular**: seleccione texto o imagen dentro de un bloque de texto y haga clic en **Insertar vínculo** de la barra de herramientas contextual. En la ventana, puede añadir un bloque personalizado haciendo clic en **Añadir personalización** icono.
 
-   ![](assets/perso_link.png)
+  ![](assets/perso_link.png)
 
 En ambos casos, se accede al editor de personalización.
 

@@ -11,7 +11,7 @@ exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 source-git-commit: f924af0e1baadabb97167f42457b1b419256fa8c
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 4%
+ht-degree: 28%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-Esta documentación proporciona información detallada sobre cómo trabajar con la composición de audiencias en Adobe Journey Optimizer. Si no utiliza Adobe Journey Optimizer, [haga clic aquí](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+Esta documentación proporciona información detallada sobre cómo trabajar con la composición de audiencias en Adobe Journey Optimizer. Si no utiliza Adobe Journey Optimizer, [haga clic aquí](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=es)
 
 >[!ENDSHADEBOX]
 
@@ -31,7 +31,7 @@ Esta pestaña enumera todas las audiencias almacenadas en Adobe Experience Platf
 
 >[!NOTE]
 >
->Para obtener más información sobre otros tipos de audiencias disponibles en Adobe Experience Platform, consulte la [Documentación del Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+>Para obtener más información sobre otros tipos de audiencias disponibles en Adobe Experience Platform, consulte la [Documentación del Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es).
 
 El **[!UICONTROL Recuento de perfiles]** proporciona información sobre el número de perfiles incluidos en una audiencia. Haga clic en el botón &quot;i&quot; para obtener más información sobre la fecha en la que se ha calculado esta información.
 

@@ -45,7 +45,7 @@ Haga clic en el botón + para añadir un atributo a la expresión de personaliza
 
 El menú de los tres puntos junto al icono &quot;+&quot; le permite obtener más detalles para cada variable y agregar los atributos utilizados con más frecuencia a los favoritos. [Obtenga información sobre cómo agregar atributos a favoritos](personalization-favorites.md)
 
-Además, puede definir el texto de reserva predeterminado que se mostrará si un atributo de perfil de tipo cadena está vacío. Para ello, haga clic en el botón de los tres puntos situado junto al atributo y seleccione **[!UICONTROL Insertar con texto de reserva]**. Escriba el texto que debe mostrarse de forma predeterminada si el valor del atributo está vacío para un perfil y haga clic en **[!UICONTROL Añadir]**.
+Además, puede definir el texto de reserva predeterminado que se mostrará si un atributo de perfil de tipo cadena está vacío. Para ello, haga clic en el botón de los tres puntos situado junto al atributo y seleccione **[!UICONTROL Insertar con texto de reserva]**. Escriba el texto que se debe mostrar de forma predeterminada si el valor del atributo está vacío para un perfil y haga clic en **[!UICONTROL Añadir]**.
 
 ![](assets/attribute-details.png)
 

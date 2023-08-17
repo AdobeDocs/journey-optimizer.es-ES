@@ -130,7 +130,7 @@ Estos son los valores posibles de este campo:
 * error de límite: **tapado**
 * error interno: **internalError**
 
-Una llamada de acción se considera errónea cuando el código http devuelto es bueno que 2xx o si se produce un error. En estos casos, el recorrido fluye a la rama de tiempo de espera o error correspondiente.
+Una llamada de acción se considera errónea cuando el código http devuelto es mayor que 2xx o si se produce un error. En estos casos, el recorrido fluye a la rama de tiempo de espera o error correspondiente.
 
 >[!WARNING]
 >

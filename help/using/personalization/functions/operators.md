@@ -118,7 +118,7 @@ La siguiente operación comprueba si el país de la dirección postal no es Fran
 
 ### Greater than{#greaterthan}
 
-El `>` (bueno que) se utiliza para comprobar si el primer valor es bueno que el segundo valor.
+El `>` (mayor que) se utiliza para comprobar si el primer valor es mayor que el segundo valor.
 
 **Sintaxis**
 
@@ -136,7 +136,7 @@ La siguiente operación define a las personas nacidas estrictamente después de 
 
 ### Mayor o igual que{#greaterthanorequal}
 
-El `>=` (bueno o igual que) se utiliza para comprobar si el primer valor es bueno o igual que el segundo valor.
+El `>=` (mayor o igual que) se utiliza para comprobar si el primer valor es mayor o igual que el segundo valor.
 
 **Sintaxis**
 

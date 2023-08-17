@@ -119,6 +119,5 @@ Para comprobar el estado de actualización del grupo de IP, haga clic en **[!UIC
 >* unos minutos antes de que los mensajes unitarios lo consuman,
 >* hasta el siguiente lote para que el grupo de IP sea efectivo en los mensajes por lotes.
 
-
 También puede utilizar la variable **[!UICONTROL Eliminar]** para eliminar un grupo de IP. Tenga en cuenta que no puede eliminar un grupo de IP que se haya asociado a una superficie de canal.
 

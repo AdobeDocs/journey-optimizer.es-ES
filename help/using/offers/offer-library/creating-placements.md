@@ -52,11 +52,12 @@ Para crear una ubicación, siga estos pasos:
 
    * **[!UICONTROL Permitir duplicados entre ubicaciones]**: Controle si la misma oferta se puede proponer varias veces en diferentes ubicaciones. Si se habilita, el sistema considerará la misma oferta para varias ubicaciones. De forma predeterminada, el parámetro se establece en false.
 
-      Si esta opción se establece en false para cualquier ubicación de una solicitud de toma de decisiones, todas las ubicaciones de la solicitud heredarán la configuración &quot;false&quot;.
+     Si esta opción se establece en false para cualquier ubicación de una solicitud de toma de decisiones, todas las ubicaciones de la solicitud heredarán la configuración &quot;false&quot;.
 
    * **[!UICONTROL Solicitar oferta]**: De forma predeterminada, se devuelve una oferta del ámbito de decisión para cada perfil. Puede ajustar el número de ofertas devueltas mediante esta opción. Por ejemplo, si selecciona 2, se mostrarán las 2 mejores ofertas para el ámbito de decisión seleccionado.
 
    * **[!UICONTROL Incluir contenido]** / **[!UICONTROL Incluir metadatos]**: especifique si el contenido y los metadatos de la oferta deben devolverse en la respuesta de la API. Solo puede incluir todos los metadatos o campos específicos. De forma predeterminada, el valor Include metadata se establece en true.
+
    Estos parámetros también se pueden configurar directamente en la solicitud de API si trabaja con [API de decisiones](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). Sin embargo, configurarlos en la interfaz de usuario puede ayudarle a ahorrar tiempo, ya que no tendrá que pasarlos en cada solicitud de API. Tenga en cuenta que si configura los parámetros tanto en la interfaz de usuario como en la solicitud de API, los valores de la solicitud de API prevalecerán sobre los de la interfaz.
 
    >[!NOTE]

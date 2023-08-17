@@ -9,7 +9,7 @@ keywords: correo directo, mensaje, campaña
 source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Por ahora, el canal de correo postal no está disponible para las organizaciones que han adquirido la oferta complementaria Escudo de Adobe Healthcare.
+>Por ahora, el canal de correo directo no está disponible para las organizaciones que han adquirido la oferta complementaria Adobe Healthcare Shield
 >
 
 El correo postal es un canal sin conexión que le permite personalizar y generar los archivos de extracción necesarios para que los proveedores de correo postal envíen correo a sus clientes.

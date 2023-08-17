@@ -1,5 +1,5 @@
 ---
-title: Primeros pasos
+title: Introducción
 description: Obtenga información sobre cómo empezar a utilizar la API de la biblioteca de ofertas para realizar operaciones clave mediante el motor de decisión.
 feature: Offers
 topic: Integrations

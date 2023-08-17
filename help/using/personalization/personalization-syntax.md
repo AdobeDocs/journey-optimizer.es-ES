@@ -12,7 +12,7 @@ exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -81,7 +81,7 @@ Los atributos deben definirse en el esquema antes de que se haga referencia a el
 Aprenda a aprovechar los atributos de perfil en condiciones en [esta sección](functions/helpers.md#if-function).
 
 >[!NOTE]
->Para obtener más información sobre el servicio de segmentación, consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
+>Para obtener más información sobre el servicio de segmentación, consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"}.
 
 ## Ofertas {#offers-syntax}
 

@@ -83,7 +83,7 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 
    * **[!UICONTROL Lista de suscripción]**: Debe seleccionar la lista de suscripción que se actualizará si el perfil selecciona esta casilla de verificación. Más información sobre [listas de suscripción](subscription-list.md).
 
-      <!--![](assets/lp_designer-form-subs-list.png)-->
+     <!--![](assets/lp_designer-form-subs-list.png)-->
 
    * **[!UICONTROL Canal (correo electrónico)]**: la inclusión o exclusión se aplica a todo el canal. Por ejemplo, si un perfil que se excluye tiene dos direcciones de correo electrónico, ambas se excluirán de todas las comunicaciones.
 

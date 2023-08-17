@@ -12,7 +12,7 @@ exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -56,7 +56,7 @@ Los eventos empresariales siguen las reglas de reentrada del mismo modo que para
 
 **¿Cuáles son las barreras para evitar la sobrecarga de audiencias materializadas?**
 
-En el caso de eventos empresariales puntuales, para un recorrido determinado, los datos insertados por el primer trabajo de evento se reutilizan durante un periodo de tiempo de 1 hora. Para los recorridos programados, no hay ninguna protección. Obtenga más información sobre las audiencias en [Documentación del Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+En el caso de eventos empresariales puntuales, para un recorrido determinado, los datos insertados por el primer trabajo de evento se reutilizan durante un periodo de tiempo de 1 hora. Para los recorridos programados, no hay ninguna protección. Obtenga más información sobre las audiencias en [Documentación del Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es).
 
 ## Introducción a los eventos empresariales {#gs-business-events}
 

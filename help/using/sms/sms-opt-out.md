@@ -22,6 +22,7 @@ De acuerdo con las normas y los reglamentos del sector, todos los mensajes SMS s
 >[!IMPORTANT]
 >
 >Las comunicaciones por mensajes de texto pueden estar sujetas a diversos requisitos legales de cumplimiento según su naturaleza, la ubicación desde la que se envían los mensajes de texto y la ubicación de los destinatarios. Mientras Adobe Journey Optimizer gestiona los mensajes en códigos largos y números gratuitos, como se detalla a continuación, consulte a su asesor legal para asegurarse de que sus comunicaciones de mensajería de texto cumplan todos los requisitos legales aplicables.
+>
 
 ## Palabras clave de entrada nativas{#sms-native-keywords}
 

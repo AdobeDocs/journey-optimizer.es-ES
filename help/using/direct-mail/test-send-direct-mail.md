@@ -9,7 +9,7 @@ keyword: direct, mail, configuration, direct-mail, provider
 source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 

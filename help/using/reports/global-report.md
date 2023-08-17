@@ -25,15 +25,15 @@ Utilice el **[!UICONTROL Informe global]** para medir el impacto de los recorrid
 
 * Si desea dirigirse a un recorrido o envíos en el contexto de un recorrido, desde el **[!UICONTROL Recorridos]** , acceda al recorrido y haga clic en el **[!UICONTROL Ver informe]** botón. A continuación, puede encontrar los informes globales Recorrido, Correo electrónico, SMS y Push.
 
-   ![](assets/report_journey.png)
+  ![](assets/report_journey.png)
 
 * Si desea dirigirse a una campaña, en el **[!UICONTROL Campañas]** , acceda a la campaña y haga clic en **[!UICONTROL Informes]** botón.
 
-   ![](assets/report_campaign.png)
+  ![](assets/report_campaign.png)
 
 * Si desea cambiar de la **[!UICONTROL Informe en vivo]** a la **[!UICONTROL Informe global]** para la entrega, haga clic en **[!UICONTROL Siempre]** en el conmutador de pestañas.
 
-   ![](assets/report_5.png)
+  ![](assets/report_5.png)
 
 Para obtener una lista detallada de todas las métricas disponibles en Adobe Journey Optimizer, consulte [esta página](#list-of-components-global)
 

@@ -9,7 +9,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
 workflow-type: tm+mt
 source-wordcount: '2164'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -90,7 +90,7 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
      Obtenga información sobre cómo crear una regla de decisión en [esta sección](../offer-library/creating-decision-rules.md).
 
-1. Al seleccionar audiencias o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Clic **[!UICONTROL Actualizar]** para actualizar los datos.
+1. Al seleccionar públicos o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Clic **[!UICONTROL Actualizar]** para actualizar los datos.
 
    >[!NOTE]
    >

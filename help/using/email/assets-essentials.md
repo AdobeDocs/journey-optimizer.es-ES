@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Uso de Assets Essentials en Journey Optimizer
-description: Introducción a Assets Essentials
+description: Introducción a los Assets Essentials
 feature: Overview
 topic: Content Management
 role: User

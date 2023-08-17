@@ -43,4 +43,3 @@ Si prefiere usar un contenido diferente para la versión de texto sin formato, s
 >* Los cambios realizados en la vista **[!UICONTROL Texto sin formato]** no se reflejan en la vista HTML.
 >
 >* Si vuelve a habilitar la variable **[!UICONTROL Sincronizar con el HTML]** después de actualizar el contenido de texto sin formato, los cambios se perderán y se reemplazarán por el contenido de texto generado a partir de la versión del HTML.
-

@@ -1,5 +1,5 @@
 ---
-title: Creación de ofertas personalizadas
+title: Crear ofertas personalizadas
 description: Obtenga información sobre cómo crear, configurar y administrar sus ofertas
 feature: Offers
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
-# Creación de ofertas personalizadas {#create-personalized-offers}
+# Crear ofertas personalizadas {#create-personalized-offers}
 
 Antes de crear una oferta, asegúrese de que ha creado lo siguiente:
 
@@ -69,7 +69,7 @@ Para crear un **oferta**, siga estos pasos:
 
    >[!NOTE]
    >
-   >Al seleccionar audiencias o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Clic **[!UICONTROL Actualizar]** para actualizar los datos.
+   >Al seleccionar públicos o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Clic **[!UICONTROL Actualizar]** para actualizar los datos.
    >
    >Tenga en cuenta que las estimaciones de perfil no están disponibles cuando los parámetros de regla incluyen datos que no están en el perfil, como datos de contexto. Por ejemplo, una regla de idoneidad que requiere que el clima actual sea de ≥80 grados.
 

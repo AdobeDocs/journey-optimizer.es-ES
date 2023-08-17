@@ -202,7 +202,7 @@ El `let` permite almacenar una expresión como variable para usarla posteriormen
 
 **Ejemplo**
 
-El siguiente ejemplo permite todas las sumas de totales de productos con la transacción en USD cuando la suma es buena a 100 $ y menor a 1000 $.
+El siguiente ejemplo permite todas las sumas de totales de productos con la transacción en USD donde la suma es mayor que 100 dólares y menor que 1000 dólares.
 
 ```sql
 {% let variable = expression %} {{variable}}

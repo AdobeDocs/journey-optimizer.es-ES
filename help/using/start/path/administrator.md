@@ -27,6 +27,7 @@ Obtenga información acerca de la administración de acceso en las siguientes p�
 
    >[!NOTE]
    >Como **Administrador del sistema**, si no puede ver el menú **[!UICONTROL Zonas protegidas]** en [!DNL Journey Optimizer], actualice sus permisos en [Admin Console](https://adminconsole.adobe.com/){target="_blank"}. Obtenga información sobre cómo actualizar el perfil de producto en [esta página](../../administration/permissions.md#edit-product-profile).
+   >
 
 1. **Explicación de los perfiles de producto**. Los perfiles de producto son un conjunto de derechos unitarios que permiten a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz. Obtenga más información en la sección [Perfiles de producto predeterminados](../../administration/ootb-product-profiles.md).
 
@@ -43,6 +44,7 @@ Para poder crear sus recorridos y enviar mensajes, acceda al menú **ADMINISTRAC
 
 >[!NOTE]
 >Como **Administrador del sistema**, si no puede ver el menú **[!UICONTROL Canales]** en [!DNL Journey Optimizer], actualice sus permisos en [Admin Console](https://adminconsole.adobe.com/){target="_blank"}. Obtenga información sobre cómo actualizar el perfil de producto en [esta página](../../administration/permissions.md#edit-product-profile).
+>
 
 Siga estos pasos a continuación:
 
@@ -67,7 +69,9 @@ Siga estos pasos a continuación:
 1. **Administre las listas de supresión y las listas de permitidos**: mejore la capacidad de entrega con las listas de supresión y las de permitidos
 
    * Una [lista de supresión](../../reports/suppression-list.md) consiste en las direcciones de correo electrónico que desea excluir de las entregas, ya que el envío a estos contactos podría dañar su reputación y las tasas de entrega. Puede monitorizar todas las direcciones de correo electrónico que se excluyen automáticamente del envío de un recorrido. Por ejemplo, direcciones no válidas, direcciones con mensajes devueltos no entregados de forma frecuente y que podrían afectar negativamente a su reputación de correo electrónico y destinatarios que presentan una queja de correo no deseado de algún tipo contra uno de sus mensajes por correo electrónico. Obtenga información sobre cómo administrar la [lista de supresión](../../configuration/manage-suppression-list.md) y los [reintentos](../../configuration/retries.md).
+
    ![](../assets/suppression-list-filtering-example.png)
 
    * La [lista de permitidos](../../configuration/allow-list.md) permite especificar direcciones de correo electrónico o dominios individuales que serán los únicos destinatarios o dominios autorizados para recibir los correos electrónicos que envía desde una zona protegida específica. Esto puede impedir que envíe correos electrónicos accidentalmente a direcciones de clientes reales cuando se encuentre en un entorno de prueba. Obtenga información sobre cómo [habilitar la lista de permitidos](../../configuration/allow-list.md).
+
    Obtenga más información acerca de la administración de capacidad de entrega de[!DNL Adobe Journey Optimizer] [en esta página](../../reports/deliverability.md).

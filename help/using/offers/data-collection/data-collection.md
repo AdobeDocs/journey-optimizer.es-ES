@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ## Explicación de la recopilación de datos
 
-Puede recopilar comentarios sobre el offer decisioning en Adobe Experience Platform, incluidos los que se muestran las ofertas y cómo interactúan los usuarios con ellas. Estos datos se pueden utilizar para lo siguiente:
+Puede recopilar comentarios de offers decisioning en Adobe Experience Platform, incluidos los que se muestran las ofertas y cómo interactúan los usuarios con ellas. Estos datos se pueden utilizar para lo siguiente:
 * Composición [Informes de administración de decisiones](../reports/get-started-events.md);
 * Uso de [restricción de frecuencia](../offer-library/add-constraints.md#capping) reglas;
 * Edificio [modelos de IA](../ranking/create-ranking-strategies.md) que puede utilizarse como método de clasificación.
@@ -42,14 +42,14 @@ Los comentarios sobre las impresiones y los clics se capturan según el [!DNL Jo
 
 **Correos electrónicos** creado por [!DNL Journey Optimizer] **automáticamente** rastrear impresiones y clics.
 
-Sin embargo, **la mayoría de canales** requiere que los datos de impresiones y clics se envíen a Adobe Experience Platform como **evento de experiencia**. Esto incluye:
+Sin embargo, **la mayoría de canales** requiere que los datos de impresiones y clics se envíen a Adobe Experience Platform como **evento de experiencia**. Esto incluye lo siguiente:
 
 * Páginas web que utilizan el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es){target="_blank"} para procesar ofertas
 
 * Aplicaciones móviles que utilizan [SDK de Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * Quioscos
 * Mensajes enviados a través de aplicaciones de terceros
-   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
+  <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
 
 >[!NOTE]
 >

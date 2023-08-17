@@ -24,11 +24,13 @@ En el **Editor de expresiones** pantalla, utilice el **Validate** para comprobar
 
 >[!NOTE]
 > La validación se ejecuta automáticamente al hacer clic en **Añadir** para cerrar la ventana del editor.
+>
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > Si la sintaxis de personalización no es válida, no se puede cerrar la ventana del editor de expresiones.
+>
 
 ## Errores comunes {#common-errors}
 

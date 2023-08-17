@@ -61,7 +61,7 @@ El modo simple permite realizar consultas simples basadas en una combinación de
 
 ![](assets/journey64.png)
 
-Si está utilizando el [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} para crear audiencias, puede aprovecharlas en las condiciones de recorrido. Consulte [Uso de la audiencia en condiciones](../building-journeys/condition-activity.md#using-a-segment).
+Si está utilizando el [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"} para crear audiencias, puede aprovecharlas en las condiciones de recorrido. Consulte [Uso de la audiencia en condiciones](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
@@ -138,7 +138,7 @@ La trayectoria nominal siempre tiene prioridad sobre la trayectoria alternativa,
 
 Para los recorridos activos, estos son los umbrales que se deben tener en cuenta para garantizar que se alcance el límite:
 
-* Para un límite bueno que 10000, el número de perfiles distintos a inyectar debe ser al menos 1,3 veces el límite.
+* Para un límite superior a 10000, el número de perfiles distintos a inyectar debe ser al menos 1,3 veces el límite.
 * Para un tapón por debajo de 10000, el número de perfiles distintos a inyectar debe ser de 1000 más el tapón.
 
 En el modo de prueba no se tiene en cuenta el límite de perfil.

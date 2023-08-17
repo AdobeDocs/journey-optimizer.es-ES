@@ -115,7 +115,7 @@ Para aplicar una restricción, puede restringir la selección de ofertas a los m
 
 Básicamente, el resultado de una audiencia es una lista de perfiles, mientras que una regla de decisión es una función ejecutada a petición en un único perfil durante el proceso de toma de decisiones. A continuación se detalla la diferencia entre estos dos usos.
 
-* **Audiencias**
+* **Audiences**
 
   Por un lado, las audiencias son un grupo de perfiles de Adobe Experience Platform que coinciden con una lógica determinada en función de atributos de perfil y eventos de experiencia. Sin embargo, Administración de ofertas no vuelve a calcular la audiencia, que puede no estar actualizada al presentar la oferta.
 
@@ -225,7 +225,7 @@ El **[!UICONTROL Recuento de límite]** Este campo permite especificar la cantid
 
 >[!NOTE]
 >
->El número debe ser un número entero bueno que 0.
+>El número debe ser un número entero mayor que 0.
 
 Por ejemplo, ha definido un evento de límite personalizado como, por ejemplo, el número de cierres de compra que se tiene en cuenta. Si introduce 10 en la variable **[!UICONTROL Recuento de límite]** , no se enviarán más ofertas después de 10 cierres de compra.
 

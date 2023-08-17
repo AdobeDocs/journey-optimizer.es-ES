@@ -39,7 +39,7 @@ Para ello, la organización debería:
 * **Número de trabajos por lotes en ejecución por conjunto de datos**: Se pueden ejecutar hasta cinco trabajos por lotes a la vez, por conjunto de datos. Cualquier otra solicitud por lotes con el mismo conjunto de datos de salida se agrega a la cola. Se selecciona un trabajo en cola para procesarlo una vez que el trabajo anterior ha terminado de ejecutarse.
 * **Límite de frecuencia**: Un lote se ejecuta fuera de la instantánea de perfil que se produce una vez al día. El [!DNL Batch Decisioning] La API limita la frecuencia y siempre carga perfiles de la instantánea más reciente.
 
-## Primeros pasos {#getting-started}
+## Introducción {#getting-started}
 
 Antes de utilizar esta API, asegúrese de completar los siguientes pasos previos.
 

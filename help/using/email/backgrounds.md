@@ -33,30 +33,30 @@ A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
 * Configure un **[!UICONTROL Color de fondo]** para todo el correo electrónico. Asegúrese de seleccionar la configuración del cuerpo en el árbol de navegación accesible desde la paleta izquierda.
 
-   ![](assets/background_1.png)
+  ![](assets/background_1.png)
 
 * Establezca el mismo color de fondo para todos los componentes de estructura seleccionando **[!UICONTROL Color de fondo de la ventanilla]**. Esta opción le permite seleccionar una configuración diferente del color de fondo.
 
-   ![](assets/background_2.png)
+  ![](assets/background_2.png)
 
 * Defina un color de fondo diferente para cada componente de estructura. Seleccione una estructura en el árbol de navegación accesible desde la paleta izquierda para aplicar un color de fondo específico únicamente a esa estructura.
 
-   Asegúrese de no establecer un color de fondo de ventanilla, ya que podría ocultar los colores de fondo de la estructura.
+  Asegúrese de no establecer un color de fondo de ventanilla, ya que podría ocultar los colores de fondo de la estructura.
 
-   ![](assets/background_3.png)
+  ![](assets/background_3.png)
 
 * Configure una **[!UICONTROL Imagen de fondo]** para el contenido de un componente de estructura.
 
-   >[!NOTE]
-   >
-   >Algunos programas de correo electrónico no admiten imágenes de fondo. Si no se admite, se utilizará en su lugar el color de fondo de la fila. Asegúrese de seleccionar un color de fondo alternativo adecuado en caso de que la imagen no se pueda mostrar.
+  >[!NOTE]
+  >
+  >Algunos programas de correo electrónico no admiten imágenes de fondo. Si no se admite, se utilizará en su lugar el color de fondo de la fila. Asegúrese de seleccionar un color de fondo alternativo adecuado en caso de que la imagen no se pueda mostrar.
 
-   ![](assets/background_4.png)
+  ![](assets/background_4.png)
 
 * Establezca un color de fondo en el nivel de columna.
 
-   >[!NOTE]
-   >
-   >Este es el caso de uso más común. Adobe recomienda configurar los colores de fondo en el nivel de columna, ya que esto permite una mayor flexibilidad al editar todo el contenido del correo electrónico.
+  >[!NOTE]
+  >
+  >Este es el caso de uso más común. Adobe recomienda configurar los colores de fondo en el nivel de columna, ya que esto permite una mayor flexibilidad al editar todo el contenido del correo electrónico.
 
-   También puede establecer una imagen de fondo en el nivel de columna, pero esto no se suele utilizar.
+  También puede establecer una imagen de fondo en el nivel de columna, pero esto no se suele utilizar.

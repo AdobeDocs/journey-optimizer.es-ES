@@ -57,7 +57,7 @@ Las categorías de supresión son las siguientes:
 
 * **Duro**: una devolución grave indica una dirección de correo electrónico no válida (es decir, una dirección de correo electrónico que no existe). Esto implica un mensaje de rechazo del servidor de correo electrónico receptor que indica explícitamente que la dirección no es válida. La dirección de correo electrónico se envía inmediatamente a la lista de supresión.
 
-   Cuando el error es el resultado de una queja de correo no deseado, también entra en el **Duro** categoría. La dirección de correo electrónico del destinatario que emitió la queja se envía inmediatamente a la lista de supresión.
+  Cuando el error es el resultado de una queja de correo no deseado, también entra en el **Duro** categoría. La dirección de correo electrónico del destinatario que emitió la queja se envía inmediatamente a la lista de supresión.
 
 * **Suave**: una devolución suave es una devolución temporal de un correo electrónico que se produjo para una dirección de correo electrónico válida. La dirección de correo electrónico se agrega a la lista de supresión después de varios reintentos. Los errores leves envían una dirección a la lista de supresión una vez que el contador de errores alcanza el umbral de límite. [Más información sobre los reintentos](retries.md)
 
@@ -169,6 +169,7 @@ Para añadir un grupo de direcciones de correo electrónico o un dominio a la li
    >No cambie el nombre de las columnas en la plantilla CSV.
    >
    >El tamaño del archivo no debe superar 1 MB.
+   >
 
 1. Una vez finalizado, arrastre y suelte el archivo CSV y utilice el **[!UICONTROL Enviar]** para confirmar.
 

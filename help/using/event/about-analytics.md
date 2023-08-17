@@ -31,6 +31,7 @@ Para que esto funcione con Adobe Analytics, debe:
 >Esta sección solo se aplica a los eventos basados en reglas y a los clientes que necesitan utilizar datos de Adobe Analytics o SDK web.
 > 
 >Si utiliza Adobe Customer Journey Analytics, consulte [esta página](../reports/cja-ajo.md).
+>
 
 ## Configuración de datos de Adobe Analytics o SDK web {#leverage-analytics-data}
 
@@ -105,7 +106,7 @@ En el siguiente ejemplo, aprenda a segmentar usuarios que agregaron un producto 
    * **[!UICONTROL Campos]**: seleccione los campos Carga útil. [Más información](../event/about-creating.md#define-the-payload-fields)
    * **[!UICONTROL Condición de ID de evento]**: Defina la condición para identificar los eventos que pondrán en déclencheur el recorrido.
 
-      En este caso, el Evento se activa cuando los clientes agregan un artículo a sus carros de compras.
+     En este caso, el Evento se activa cuando los clientes agregan un artículo a sus carros de compras.
    * **[!UICONTROL Identificador de perfil]**: elija un campo de los campos de carga útil o defina una fórmula para identificar a la persona asociada al evento.
 
    ![](assets/ajo-aa_6.png)

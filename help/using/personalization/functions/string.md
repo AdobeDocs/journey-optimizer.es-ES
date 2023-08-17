@@ -91,15 +91,15 @@ El `contains` se utiliza para determinar si una cadena contiene una subcadena es
 
 * La siguiente función comprobará si el nombre del perfil contiene la letra A (en mayúsculas o minúsculas). Si este es el caso, devuelve &quot;true&quot;; de lo contrario, devuelve &quot;false&quot;.
 
-   ```sql
-   {%= contains(profile.person.name.firstName, "A", false) %}
-   ```
+  ```sql
+  {%= contains(profile.person.name.firstName, "A", false) %}
+  ```
 
 * La siguiente consulta determina, con distinción de mayúsculas y minúsculas, si la dirección de correo electrónico de la persona contiene la cadena &quot;2010@gm&quot;.
 
-   ```sql
-   {%= contains(profile.person.emailAddress,"2010@gm") %}
-   ```
+  ```sql
+  {%= contains(profile.person.emailAddress,"2010@gm") %}
+  ```
 
 ## No contiene{#doesNotContain}
 
@@ -658,9 +658,10 @@ El `replaceAll` se utiliza para reemplazar todas las subcadenas de un texto que 
 
 >[!NOTE]
 >
-> Cuando la expresión tomada como segundo argumento es un carácter regex especial, utilice una doble barra invertida (`//`).  Los caracteres regex especiales son: [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
+> Cuando la expresión tomada como segundo argumento es un carácter regex especial, utilice una doble barra invertida (`//`).  Los caracteres regex especiales son: [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
 > 
 > Obtenga más información en [documentación del oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+>
 
 ## Guarnecido derecho {#rightTrim}
 

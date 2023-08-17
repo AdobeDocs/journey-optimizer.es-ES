@@ -20,11 +20,11 @@ Puede editar el contenido en la aplicación para configurar las opciones de expe
 
 * En un **[!UICONTROL Campaign]**, desde el **[!UICONTROL Acción]** , para configurar el contenido del mensaje, haga clic en **[!UICONTROL Editar contenido]** botón.
 
-   ![](assets/edit-in-app-content.png)
+  ![](assets/edit-in-app-content.png)
 
 * En un **[!UICONTROL Recorrido]**, en el menú avanzado de la aplicación **[!UICONTROL Acción]**, puede empezar a diseñar el contenido con **[!UICONTROL Editar contenido]** botón.
 
-   ![](assets/design_inapp_journey.png)
+  ![](assets/design_inapp_journey.png)
 
 El **[!UICONTROL Formato avanzado]** esta opción activa opciones adicionales para personalizar la experiencia.
 
@@ -38,21 +38,21 @@ Desde el **[!UICONTROL Diseño del mensaje]** , seleccione una de las cuatro opc
 
 * **[!UICONTROL Pantalla completa]**: este tipo de diseño cubre toda la pantalla de los dispositivos de destino.
 
-   Admite componentes multimedia (imagen, vídeo), de texto y botones.
+  Admite componentes multimedia (imagen, vídeo), de texto y botones.
 
 * **[!UICONTROL Modal]**: este diseño aparece en una ventana grande como si fuera una alerta. La aplicación sigue visible en segundo plano.
 
-   Admite componentes multimedia (imagen, vídeo), de texto y botones.
+  Admite componentes multimedia (imagen, vídeo), de texto y botones.
 
 * **[!UICONTROL Titular]**: este tipo de diseño aparece como un mensaje de alerta de sistema operativo nativo.
 
-   Solo puede agregar un **[!UICONTROL Header]** y una **[!UICONTROL Cuerpo]** a su mensaje.
+  Solo puede agregar un **[!UICONTROL Header]** y una **[!UICONTROL Cuerpo]** a su mensaje.
 
 * **[!UICONTROL Personalizado]**: el modo de mensaje personalizado le permite importar y editar directamente uno de los mensajes preconfigurados del HTML.
 
    * Seleccionar **[!UICONTROL Escribir]** para introducir o pegar el código de HTML sin procesar.
 
-      Utilice el panel izquierdo para aprovechar las funcionalidades de personalización de Journey Optimizer. Para obtener más información, consulte [esta sección](../personalization/personalize.md).
+     Utilice el panel izquierdo para aprovechar las funcionalidades de personalización de Journey Optimizer. Para obtener más información, consulte [esta sección](../personalization/personalize.md).
 
    * Seleccionar **[!UICONTROL Importar]** para importar el archivo HTML o .zip que contiene el contenido del HTML.
 
@@ -187,7 +187,7 @@ Si la variable **[!UICONTROL Modo de formato avanzado]** está activado, puede p
 
 * **[!UICONTROL Personalizar animación]**: le permite personalizar las animaciones de visualización y descarte, por ejemplo, si la notificación en la aplicación aparece desde la izquierda o desde la parte superior del dispositivo del usuario.
 
-* **[!UICONTROL Esquina de redondeo del mensaje]**: le permite añadir una esquina redonda a la notificación en la aplicación cambiando el **[!UICONTROL Radio de vértice]**.
+* **[!UICONTROL Esquina redonda del mensaje]**: le permite añadir una esquina redonda a la notificación en la aplicación cambiando el **[!UICONTROL Radio de vértice]**.
 
 +++
 

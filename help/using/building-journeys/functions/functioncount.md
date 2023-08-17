@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: count
-description: Obtenga información sobre el recuento de funciones
+description: Más información sobre el recuento de funciones
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced

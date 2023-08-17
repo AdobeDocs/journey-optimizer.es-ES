@@ -77,7 +77,7 @@ Sin embargo, la dirección de CCO se recoge para enviar comunicaciones siguiendo
 
 * Los mensajes se pueden enviar a la dirección de correo electrónico CCO antes que los destinatarios objetivo. Los mensajes BCC también se pueden enviar aunque los mensajes originales tengan [rechazado](../reports/suppression-list.md#delivery-failures).
 
-   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+  <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
 * No abra ni haga clic en los correos electrónicos enviados a la dirección de CCO, ya que se tienen en cuenta en el total de aperturas y clics del análisis de envío, lo que podría provocar algunos cálculos erróneos en [informes](../reports/global-report.md).
 

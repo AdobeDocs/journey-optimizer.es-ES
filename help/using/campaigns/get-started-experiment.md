@@ -10,7 +10,7 @@ level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1961'
 ht-degree: 100%
 
@@ -141,11 +141,11 @@ Adobe utiliza un 95 % cada vez que se usan intervalos de confianza válidos o s
 
 ### 3. Comprender el alza {#understand-lift}
 
-El resumen del informe de experimento muestra el **[!UICONTROL Alza sobre la línea de base]**, que es una medida de la mejora porcentual en la tasa de conversión de una variante determinada respecto a la línea de base. Definida con precisión, es la diferencia de rendimiento entre una variante determinada y la línea de base, dividida por el rendimiento de la línea de base, expresada como porcentaje.
+El resumen del informe de experimento muestra el **[!UICONTROL Alza sobre la línea de base]**, que es una medida de la mejora porcentual en la tasa de conversión de un tratamiento determinado respecto a la línea de base. Definida con precisión, es la diferencia de rendimiento entre un tratamiento determinado y la línea de base, dividida por el rendimiento de la línea de base, expresada como porcentaje.
 
 ### 3. Comprender la confianza {#understand-confidence}
 
-Aunque debería centrarse principalmente en el **[!UICONTROL Intervalo de confianza]** para la realización de cada tratamiento, Adobe también muestra la confianza, que es una medida probabilística de la cantidad de evidencia que existe de que un tratamiento dado es el mismo que el tratamiento de la línea de base. Una mayor confianza indica menos evidencia para el supuesto de que los tratamientos de línea de base y de no línea de base tienen un rendimiento igual. Más precisamente, la confianza que se muestra es una probabilidad (expresada como porcentaje) de que habríamos observado una diferencia menor en las tasas de conversión entre una variante determinada y la de control, si en realidad no hay diferencia en las tasas de conversión subyacentes reales. En términos de valores p, la confianza mostrada es 1 - valor p.
+Aunque debería centrarse principalmente en el **[!UICONTROL Intervalo de confianza]** para la realización de cada tratamiento, Adobe también muestra la confianza, que es una medida probabilística de la cantidad de evidencia que existe de que un tratamiento dado es el mismo que el tratamiento de la línea de base. Una mayor confianza indica menos evidencia para el supuesto de que los tratamientos de línea de base y de no línea de base tienen un rendimiento igual. Más concretamente, la confianza que se muestra es una probabilidad (expresada como porcentaje) de que habríamos observado una diferencia menor en las tasas de conversión entre un tratamiento determinado y la línea de base, si en realidad no hay diferencia en las tasas de conversión subyacentes reales. En términos de valores p, la confianza mostrada es 1 - valor p.
 
 Adobe utiliza la confianza &quot;válida en cualquier momento&quot; y los valores p &quot;válidos en cualquier momento&quot;, que concuerdan con las secuencias de confianza descritas anteriormente.
 

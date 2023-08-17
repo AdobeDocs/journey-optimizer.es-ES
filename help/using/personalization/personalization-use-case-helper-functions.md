@@ -25,7 +25,6 @@ Utilizará estos tipos de funciones de ayuda:
 * El `upperCase` función de cadena, para insertar el nombre del cliente en mayúsculas. [Más información](functions/string.md#upper).
 * El `each` asistente, para enumerar los elementos que están en el carro de compras. [Más información](functions/helpers.md#each).
 * El `if` asistente, para insertar una nota específica del producto si el producto relacionado está en el carro de compras. [Más información](functions/helpers.md#if-function).
-
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 ➡️ [Aprenda a utilizar las funciones de ayuda en este vídeo](#video)
@@ -168,7 +167,6 @@ El contenido del carro de compras es información contextual del recorrido. Por 
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
-
 
 1. Pegue este código entre las etiquetas de apertura `{{#each}}` y la de cierre `{/each}}` etiqueta:
 
