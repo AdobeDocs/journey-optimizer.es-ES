@@ -5,9 +5,9 @@ title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3171'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Agosto de 2023 {#august-2023}
 
-* Se ha añadido una nueva sección sobre los requisitos previos del experimento de contenido para el canal Web. [Más información](../web/web-prerequisites.md#experiment-prerequisites)
-* Se ha añadido una advertencia en la variable **Trabajo con plantillas de contenido** para indicar que el seguimiento actual no es compatible al probar plantillas de contenido de correo electrónico. Para probar el seguimiento, debe utilizar la plantilla de contenido en un mensaje de correo electrónico y enviar una prueba. [Más información](../email/content-templates.md#test-template)
-* Se han añadido varias advertencias en la variable **Creación y publicación de páginas de aterrizaje** para especificar que no puede acceder a la página de aterrizaje simplemente copiando y pegando en un explorador web la URL definida al crear la página, incluso si se ha publicado. En su lugar, puede probarlo con la función de previsualización. [Más información](../landing-pages/create-lp.md)
+* Se ha añadido una nueva sección sobre los requisitos previos del experimento de contenido para el canal web. [Más información](../web/web-prerequisites.md#experiment-prerequisites)
+* Se ha añadido una advertencia en la página **Trabajo con plantillas de contenido** para indicar que el seguimiento actual no es compatible al probar plantillas de contenido de correo electrónico. Para probar el seguimiento, debe utilizar la plantilla de contenido en un mensaje de correo electrónico y enviar una prueba [Más información](../email/content-templates.md#test-template)
+* Se han añadido varias advertencias en la sección **Creación y publicación de páginas de aterrizaje** para especificar que no puede acceder a ellas simplemente copiando y pegando en un explorador web la URL definida al crear la página, incluso si se ha publicado. En su lugar, puede probarlas con la función de previsualización. [Más información](../landing-pages/create-lp.md)
 
 ## Julio de 2023 {#july-2023}
 
@@ -62,7 +62,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha añadido un paso para habilitar eventos de Adobe Analytics en sus recorridos. [Más información](../event/about-analytics.md)
 * Se ha creado una nueva sección en la guía de Gestión de decisiones sobre cómo recopilar comentarios de Offer Decisioning en Adobe Experience Platform, incluidas las ofertas que se muestran y cómo interactúan los usuarios con ellas. [Más información](../offers/data-collection/data-collection.md)
 * Se ha añadido una nueva subsección a la sección **Crear decisión** para explicar la diferencia entre los criterios de evaluación en un orden secuencial o al mismo tiempo. [Más información](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
-* Se ha añadido un mecanismo de protección para recorridos de lectura de audiencias con lectura incremental. No puede crear una versión nueva, debe duplicar el recorrido. [Más información](../start/guardrails.md#journey-versions-g)
+* Se ha añadido un mecanismo de protección para recorridos de lectura de audiencia con lectura incremental. No puede crear una versión nueva, debe duplicar el recorrido. [Más información](../start/guardrails.md#journey-versions-g)
 
 ## Febrero de 2023 {#feb-2023}
 
@@ -156,7 +156,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 ## Mayo de 2022 {#may-2022}
 
 * Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de mayo de 2022 se incluyen en la documentación. [Más información](release-notes.md)
-* Se han añadido nuevos ejemplos de consultas relacionadas con la [calificación de audiencias](../reports/query-examples.md#segment-qualification-queries) y [eventos](../reports/query-examples.md#event-based-queries).
+* Se han añadido nuevos ejemplos de consultas relacionadas con la [calificación de audiencia](../reports/query-examples.md#segment-qualification-queries) y [eventos](../reports/query-examples.md#event-based-queries).
 * La sección de diseño de correo electrónico ahora menciona nuevas plantillas integradas disponibles para iniciar contenido. Se han actualizado las capturas de pantalla relacionadas. [Más información](../email/get-started-email-design.md)
 * Los vínculos a recursos clave se han actualizado en la página de inicio de la documentación de Journey Optimizer.
 * Se han actualizado las capturas de pantalla de la creación de informes de la página de aterrizaje y de la suscripción. [Más información](../reports/live-report.md)
@@ -180,7 +180,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 * Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de marzo de 2022 se han incluido en la documentación. [Más información](release-notes.md)
 * Se ha añadido una nueva página sobre cómo empezar a usar modelos de IA a la sección **Offer Decisioning**, que incluye una descripción detallada del [modelo de optimización automática](../offers/ranking/auto-optimization-model.md), el algoritmo que utiliza y más detalles técnicos. [Más información](../offers/ranking/ai-models.md)
-* La página de creación del perfil de prueba se ha trasladado a la sección **Audiencias, perfiles e identidades**. [Más información](../audience/creating-test-profiles.md)
+* La página de creación del perfil de prueba se ha trasladado a la sección **Audiencia, perfiles e identidades**. [Más información](../audience/creating-test-profiles.md)
 * Se ha añadido un ejemplo sobre cómo agregar una expresión como valor predeterminado en el editor de expresiones. [Más información](../building-journeys/expression/field-references.md#default-value)
 * La sección **Creación de ofertas personalizadas** se ha reorganizado para mejorar la legibilidad. [Más información](../offers/offer-library/creating-personalized-offers.md)
 * Se ha añadido una nueva sección para describir el impacto que puede tener el cambio de las fechas de inicio o finalización de una oferta en la restricción de frecuencia de esta. [Más información](../offers/offer-library/add-constraints.md#capping-change-date)
@@ -246,7 +246,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 * Ahora, todas las funciones de gestión de decisiones descritas en la sección dedicada, también se aplican a los usuarios de Adobe Experience Platform que aprovechan el servicio de aplicaciones de Offer Decisioning. [Más información](../offers/get-started/starting-offer-decisioning.md)
 
-* Se ha añadido una subsección para aclarar las diferencias entre el uso de audiencias y de reglas de decisión al aplicar una restricción para limitar la selección de ofertas en una ubicación determinada. [Más información](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
+* Se ha añadido una subsección para aclarar las diferencias entre el uso de audiencia y de reglas de decisión al aplicar una restricción para limitar la selección de ofertas en una ubicación determinada. [Más información](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
 * Se han añadido ejemplos específicos de fórmula de clasificación para ilustrar algunos casos de uso en la vida real. [Más información](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
@@ -259,7 +259,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Capturas de pantalla del diseñador de correo electrónico actualizadas con la IU más reciente.
 * Se ha actualizado el procedimiento de configuración para acciones personalizadas con rutas URL dinámicas y encabezados dinámicos. [Más información](../action/about-custom-action-configuration.md#url-configuration)
 * Se ha añadido una sección sobre las funciones de accesibilidad y los métodos abreviados de teclado. [Más información](../start/user-interface.md#accessibility)
-* Se ha añadido una sección acerca de métodos de evaluación de audiencias. [Más información](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
+* Se ha añadido una sección acerca de métodos de evaluación de audiencia. [Más información](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
 * Se han añadido notas a las secciones Lista de supresión, Lista de permitidos e Informe de correo electrónico global/activo para especificar que los perfiles con estados Suprimido y No permitido se excluyan de las métricas Enviado del Informe de correo electrónico. [Más información](../reports/global-report.md)
 * Se ha añadido una nueva sección para describir cómo recuperar direcciones de correo electrónico o dominios que se excluyeron de un envío porque no estaban en la lista de permitidos. [Más información](../configuration/allow-list.md#reporting)
 * Se ha actualizado la sección Habilitación de la lista de permitidos. [Más información](../configuration/allow-list.md#enable-allow-list)
