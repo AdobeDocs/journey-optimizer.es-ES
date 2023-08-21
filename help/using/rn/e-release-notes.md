@@ -5,7 +5,7 @@ title: Notas de la versión
 description: Notas de la primera versión de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 3d166f79d9f6334c6f873ba3eecd264a60b8f4ba
+source-git-commit: 2420e04143e9ac357fb0cc14fe09c07ec577e021
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 41%
@@ -102,4 +102,4 @@ Ya está disponible una nueva API para crear y administrar fragmentos de conteni
 **Correo directo**
 
 * Compatibilidad con Azure Blob como destino de enrutamiento.
-* Compatibilidad con &quot;&amp;&quot; como separador personalizado.
+* Asistencia `&` como separador personalizado.
