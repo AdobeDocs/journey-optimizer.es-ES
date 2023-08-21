@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: a68b4417c86b71d16622e8776c17625b2d061cc7
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '83'
 ht-degree: 100%
 
 ---
@@ -26,6 +26,8 @@ La exportación crea un conjunto de datos para cada objeto de la Biblioteca de o
 
 Cada vez que se modifica uno de estos objetos en la Biblioteca de ofertas, se ejecuta automáticamente un nuevo trabajo de exportación para actualizar los conjuntos de datos.
 
+<!--
 >[!NOTE]
 >
->Esta función no está activada de forma predeterminada. Si desea usarlo, póngase en contacto con el contacto de su Adobe para activarlo en su catálogo. Una vez activado, los trabajos de exportación se automatizarán y no requerirán ninguna acción por su parte.
+>This feature is not enabled by default. If you want to use it, reach out to your Adobe contact to have it activated for your catalog. Once it is enabled, export jobs will be automated and will require no action from your side.
+-->
