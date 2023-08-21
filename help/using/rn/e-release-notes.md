@@ -5,10 +5,10 @@ title: Notas de la versión
 description: Notas de la primera versión de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 36634fc3993261756c081e71c47e7408c77c65ae
+source-git-commit: 3d166f79d9f6334c6f873ba3eecd264a60b8f4ba
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 43%
+source-wordcount: '402'
+ht-degree: 41%
 
 ---
 
@@ -29,7 +29,7 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <table>
 <thead>
 <tr>
-<th><strong>Canal en la aplicación en recorrido</strong><br/></th>
+<th><strong>Envío de mensajes en la aplicación en los recorridos</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -64,13 +64,14 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <table>
 <thead>
 <tr>
-<th><strong>Asistente de contenido para texto e imágenes</strong><br/></th>
+<th><strong>Generación de texto e imágenes con el asistente de contenido</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Una vez que haya creado y personalizado el mensaje, lleve el contenido al siguiente nivel con el asistente de contenido. Ahora puede utilizar el Asistente de contenido para optimizar el impacto del mensaje experimentando con diferentes títulos e imágenes principales. Cada variante se administra como un Tratamiento único, para medir y comparar qué título genera más clics de forma eficaz.</p>
+<p>Actualmente, esta función está disponible como una versión beta privada.</p>
 <img src="assets/gen-ai-image-2.png"/>
 <!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
 </td>
@@ -96,3 +97,9 @@ Ya está disponible una nueva API para crear y administrar fragmentos de conteni
 
 * Ahora puede utilizar las respuestas de llamadas de API en acciones personalizadas y organizar su recorrido en función de estas respuestas.
 * Se ha introducido un nuevo tipo de alerta del sistema. Ahora puede recibir notificaciones cuando falle una acción personalizada.
+
+
+**Correo directo**
+
+* Compatibilidad con Azure Blob como destino de enrutamiento.
+* Compatibilidad con &quot;&amp;&quot; como separador personalizado.
