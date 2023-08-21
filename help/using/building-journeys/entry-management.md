@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: reentrada, recorrido, perfil, recurrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: c4b40d66db042e7dce1326e64b9d706f33cb01c2
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '599'
 ht-degree: 14%
 
 ---
@@ -31,13 +31,16 @@ En los recorridos unitarios, puede habilitar o deshabilitar la reentrada:
 
 * Si la reentrada está habilitada, un perfil puede entrar en un recorrido varias veces, pero no puede hacerlo hasta que salga completamente de la instancia anterior del recorrido.
 
-* Si la reentrada está desactivada, un perfil no puede introducir varias veces el mismo recorrido
+* Si la reentrada está desactivada, un perfil no puede introducir varias veces el mismo recorrido.
 
-De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desmarcar la opción para recorridos de &quot;una sola vez&quot;, por ejemplo, si desea ofrecer un regalo de una sola vez cuando una persona entra en una tienda. En ese caso, no desea que el cliente pueda volver a introducir el recorrido y recibir la oferta de nuevo. Cuando termina un recorrido, su estado es **[!UICONTROL Cerrado]**. Las nuevas personas ya no pueden entrar en el recorrido. Las personas que ya están en el recorrido terminan el recorrido normalmente. [Más información](journey-gs.md#entrance)
+De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desactivar la opción para recorridos de &quot;una sola vez&quot;, por ejemplo, si desea ofrecer un regalo de una sola vez cuando una persona visita una tienda. En ese caso, el cliente no debe poder volver a introducir el recorrido y recibir la oferta de nuevo. Cuando termina un recorrido, su estado es **[!UICONTROL Cerrado]**. Las nuevas personas ya no pueden entrar en el recorrido. Las personas que ya están en el recorrido terminan el recorrido normalmente. [Más información](journey-gs.md#entrance)
 
 ![](assets/journey-re-entrance.png)
 
-Después del tiempo de espera global predeterminado de 30 días, el recorrido cambia a **Finalizado** estado. Las nuevas personas ya no pueden entrar en el recorrido. Las personas que ya están en el recorrido finalizan el recorrido con normalidad. Debido al tiempo de espera de 30 días para el recorrido, cuando no se permite la reentrada al recorrido, no podemos asegurarnos de que el bloqueo de la reentrada funcione durante más de 30 días. De hecho, al eliminar toda la información sobre las personas que ingresaron al recorrido 30 días después de su entrada, no podemos saber la persona ingresada anteriormente, hace más de 30 días. [Más información](journey-gs.md#global_timeout).
+Después del tiempo de espera global predeterminado de 30 días, el recorrido cambia a **Finalizado** estado. Los perfiles que ya están en el recorrido finalizan el recorrido normalmente. Los nuevos perfiles ya no pueden entrar en el recorrido. Para cumplir con la privacidad, este comportamiento se establece solo para 30 días. Después de ese periodo, los perfiles pueden volver a entrar en el recorrido. Para evitarlo, añada una condición para comprobar si el perfil ya se ha introducido o no. Obtenga más información acerca del tiempo de espera de recorrido en [esta sección](journey-gs.md#global_timeout).
+
+<!--
+Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
 
 Los recorridos unitarios (que se inician con un evento o una calificación de audiencia) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante cinco minutos. Por ejemplo, si un evento activa un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
 
