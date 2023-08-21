@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: reentrada, recorrido, perfil, recurrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: b3a047977fc4ffcab6674b573ef50018076d156a
+source-git-commit: 1bcc47389b128c6eb6e768578b2ae64c4b0fea89
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '613'
 ht-degree: 14%
 
 ---
@@ -37,7 +37,7 @@ De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desa
 
 ![](assets/journey-re-entrance.png)
 
-Después del tiempo de espera global predeterminado de 30 días, el recorrido cambia a **Finalizado** estado. Los perfiles que ya están en el recorrido finalizan el recorrido normalmente. Los nuevos perfiles ya no pueden entrar en el recorrido. Este comportamiento solo se establece para 30 días (valor predeterminado de tiempo de espera de recorrido). Después de ese periodo, los perfiles pueden volver a entrar en el recorrido. Para evitarlo, añada una condición para comprobar si el perfil ya se ha introducido o no. Obtenga más información acerca del tiempo de espera de recorrido en [esta sección](journey-gs.md#global_timeout).
+Después del tiempo de espera global predeterminado de 30 días, el recorrido cambia a **Finalizado** estado. Los perfiles que ya están en el recorrido finalizan el recorrido normalmente. Los nuevos perfiles ya no pueden entrar en el recorrido. Este comportamiento solo se establece para 30 días (valor predeterminado de tiempo de espera de recorrido), ya que eliminamos toda la información sobre los perfiles que ingresaron al recorrido 30 días después de que ingresaron. Después de ese periodo, los perfiles pueden volver a entrar en el recorrido. Para evitarlo, añada una condición para comprobar si el perfil ya se ha introducido o no. Obtenga más información acerca del tiempo de espera de recorrido en [esta sección](journey-gs.md#global_timeout).
 
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
