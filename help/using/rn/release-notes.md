@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
+source-git-commit: 0ff415fa209da7996254a60817ef69998fd47903
 workflow-type: tm+mt
-source-wordcount: '3193'
+source-wordcount: '3201'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 <td>
 <p>Ahora puede importar y convertir cualquier contenido de HTML en el editor de correo electrónico de Journey Optimizer. Los bloques de contenido se identifican automáticamente y están disponibles en el diseñador de correo electrónico: utilice sus potentes funciones de diseño para actualizarlos y personalizarlos.</p>
 <img src="assets/html-convert.png">
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>Para obtener más información, consulte la <a href="../email/existing-content.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -117,11 +117,6 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 ### Mejoras {#july-2023-improvements}
 
 Esta versión incorpora las mejoras que se enumeran a continuación.
-
-<!--**Journeys**
-
-* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
-A new type of system alert has been introduced. You can now get notified when a custom action fails.-->
 
 
 **Campañas**
