@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 5d122a244b610c9dc6b53795b4e94bc2029df714
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 100%
+source-wordcount: '852'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,13 @@ De forma predeterminada, solo se muestran los conjuntos de datos que ha introduc
 
 Seleccione el nombre de un conjunto de datos para acceder a su pantalla de actividad de conjunto de datos y ver los detalles del conjunto de datos seleccionado. La pestaña actividad incluye un gráfico que visualiza la tasa de consumo de los mensajes, así como una lista de lotes correctos y fallidos.
 
-Estos son los diferentes conjuntos de datos disponibles:
+A continuación se enumeran los conjuntos de datos del sistema para Adobe Journey Optimizer.
+
+
+>[!CAUTION]
+>
+> Conjuntos de datos del sistema **no se debe modificar**. Cualquier cambio se revierte automáticamente con cada actualización de producto.
+>
 
 **Creación de informes**
 
