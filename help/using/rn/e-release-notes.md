@@ -5,10 +5,10 @@ title: Notas de la versión
 description: Notas de la primera versión de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f528c2f11000d323370f06210c70a127a99f905d
+source-git-commit: 132121b4dd9c20149e4a5b24e90ebffd4ebbdcbc
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 40%
+source-wordcount: '425'
+ht-degree: 38%
 
 ---
 
@@ -97,6 +97,7 @@ Ya está disponible una nueva API para crear y administrar fragmentos de conteni
 
 * Ahora puede utilizar las respuestas de llamadas de API en acciones personalizadas y organizar su recorrido en función de estas respuestas. Actualmente, esta función está disponible como una versión beta privada.
 * Se ha introducido un nuevo tipo de alerta del sistema. Ahora puede recibir notificaciones cuando falle una acción personalizada.
+* Al duplicar un recorrido, ahora puede definir el nombre de la copia de recorrido.
 
 
 **Correo directo**
