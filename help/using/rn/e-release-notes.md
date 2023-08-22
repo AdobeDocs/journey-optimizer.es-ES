@@ -5,10 +5,10 @@ title: Notas de la versión
 description: Notas de la primera versión de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f18fc404a238271edf9240a509f2f0df54c9503c
+source-git-commit: ca22edacfdad9b09abd742229471d23d23d2059b
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 40%
+source-wordcount: '362'
+ht-degree: 45%
 
 ---
 
@@ -52,7 +52,7 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear y administrar listas semilla en Journey Optimizer. Una lista semilla consiste en las direcciones de correo electrónico de prueba a las que se envía un correo electrónico antes de enviarlo a la audiencia real. Utilice esta capacidad para monitorizar las copias de correo electrónico enviadas y asegurarse de que todos los formatos de visualización, direcciones URL, imágenes y vínculos son correctos.</p>
+<p>Ahora puede crear y administrar listas semilla en Journey Optimizer. Una lista semilla consiste en direcciones internas que se pueden añadir a la audiencia real y recibir el mismo mensaje que los perfiles objetivo en el momento de la ejecución de la entrega. Utilice esta capacidad para monitorizar las comunicaciones enviadas y asegurarse de que todos los formatos de visualización, URL, imágenes y vínculos son correctos.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -61,23 +61,23 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Generación de texto e imágenes con el asistente de contenido</strong><br/></th>
+<th><strong>Generate text and images with the Content assistant</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Una vez que haya creado y personalizado el mensaje, lleve el contenido al siguiente nivel con el asistente de contenido. Ahora puede utilizar el Asistente de contenido para optimizar el impacto del mensaje experimentando con diferentes títulos e imágenes principales. Cada variante se administra como un Tratamiento único, para medir y comparar qué título genera más clics de forma eficaz.</p>
-<p>Actualmente, esta funcionalidad está disponible como una versión beta privada.</p>
+<p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+<p>This capability is currently available as a private beta.</p>
 <img src="assets/gen-ai-image-2.png"/>
-<!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 
@@ -91,7 +91,7 @@ Ya está disponible una nueva API para crear y administrar fragmentos de conteni
 
 **Canal de correo electrónico**
 
-* Hay una nueva opción disponible en la configuración de la superficie de correo electrónico para incluir las direcciones de correo electrónico suprimidas debido a una queja de spam en las audiencias de mensajes transaccionales. Incluso si han marcado los mensajes de marketing como correo no deseado, estos perfiles pueden recibir mensajes transaccionales, como restablecimiento de contraseña o extractos de cuenta. Esta opción está desactivada de forma predeterminada.
+Hay una nueva opción disponible en la configuración de la superficie de correo electrónico para incluir las direcciones de correo electrónico suprimidas debido a una queja de spam en las audiencias de mensajes transaccionales. Incluso si han marcado los mensajes de marketing como correo no deseado, estos perfiles pueden recibir mensajes transaccionales, como restablecimiento de contraseña o extractos de cuenta. Esta opción está desactivada de forma predeterminada.
 
 **Recorridos**
 
@@ -102,5 +102,5 @@ Ya está disponible una nueva API para crear y administrar fragmentos de conteni
 
 **Correo directo**
 
-* Compatibilidad con Azure Blob como destino de enrutamiento.
-* Asistencia `&` como separador personalizado.
+* Azure ahora se puede seleccionar como tipo de servidor en la configuración de enrutamiento de archivos.
+* Ampersand está ahora disponible como campo separador de columnas en la configuración de superficie de correo postal.
