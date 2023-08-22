@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: reentrada, recorrido, perfil, recurrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: b0cda95aee58a3dd3a0e22d09b5938ff11abcf32
+source-git-commit: 35f52afe61bf3eda897cc96f5484778522e38d45
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '620'
 ht-degree: 13%
 
 ---
@@ -37,7 +37,7 @@ De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desa
 
 ![](assets/journey-re-entrance.png)
 
-Después del valor predeterminado [tiempo de espera global](journey-gs.md#global_timeout) de 30 días, el recorrido cambia a la **Finalizado** estado. Los perfiles que ya están en el recorrido finalizan el recorrido normalmente. Los nuevos perfiles ya no pueden entrar en el recorrido. Este comportamiento solo se establece para 30 días (es decir, el valor predeterminado de tiempo de espera de recorrido), ya que toda la información sobre los perfiles que ingresaron al recorrido se elimina 30 días después de que ingresaron. Después de ese periodo, los perfiles pueden volver a entrar en el recorrido. Para evitarlo y deshabilitar completamente la reentrada para esos perfiles, puede agregar una condición para comprobar si el perfil introducido ya está o no.
+Después del valor predeterminado [tiempo de espera global](journey-gs.md#global_timeout) de 30 días, el recorrido cambia a la **Finalizado** estado. Los perfiles que ya están en el recorrido finalizan el recorrido normalmente. Los nuevos perfiles ya no pueden entrar en el recorrido. Este comportamiento solo se establece para 30 días (es decir, el valor predeterminado de tiempo de espera de recorrido), ya que toda la información sobre los perfiles que ingresaron al recorrido se elimina 30 días después de que ingresaron. Después de ese periodo, los perfiles pueden volver a entrar en el recorrido. Para evitarlo y deshabilitar completamente la reentrada para esos perfiles, puede agregar una condición para comprobar si el perfil introducido ya está o no, utilizando datos de perfil o audiencia.
 
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
