@@ -5,10 +5,10 @@ title: Notas de la versión
 description: Notas de la primera versión de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 2420e04143e9ac357fb0cc14fe09c07ec577e021
+source-git-commit: f528c2f11000d323370f06210c70a127a99f905d
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 41%
+source-wordcount: '411'
+ht-degree: 40%
 
 ---
 
@@ -71,7 +71,7 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <tr>
 <td>
 <p>Una vez que haya creado y personalizado el mensaje, lleve el contenido al siguiente nivel con el asistente de contenido. Ahora puede utilizar el Asistente de contenido para optimizar el impacto del mensaje experimentando con diferentes títulos e imágenes principales. Cada variante se administra como un Tratamiento único, para medir y comparar qué título genera más clics de forma eficaz.</p>
-<p>Actualmente, esta función está disponible como una versión beta privada.</p>
+<p>Actualmente, esta funcionalidad está disponible como una versión beta privada.</p>
 <img src="assets/gen-ai-image-2.png"/>
 <!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
 </td>
@@ -95,7 +95,7 @@ Ya está disponible una nueva API para crear y administrar fragmentos de conteni
 
 **Recorridos**
 
-* Ahora puede utilizar las respuestas de llamadas de API en acciones personalizadas y organizar su recorrido en función de estas respuestas.
+* Ahora puede utilizar las respuestas de llamadas de API en acciones personalizadas y organizar su recorrido en función de estas respuestas. Actualmente, esta función está disponible como una versión beta privada.
 * Se ha introducido un nuevo tipo de alerta del sistema. Ahora puede recibir notificaciones cuando falle una acción personalizada.
 
 
