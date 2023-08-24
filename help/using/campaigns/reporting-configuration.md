@@ -12,7 +12,7 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: cab7fb06039b2d483f403361f6a46d2aadcadff0
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 45%
+ht-degree: 48%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="Configuración de conjuntos de datos para creación de informes"
->abstract="La configuración de creación de informes le permite recuperar métricas adicionales que se utilizarán en sus informes de campaña. Debe realizarla un usuario técnico."
+>abstract="La configuración de la creación de informes permite recuperar métricas adicionales que se utilizarán en los informes de campaña. Debe realizarla un usuario técnico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
