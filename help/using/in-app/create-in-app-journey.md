@@ -1,6 +1,6 @@
 ---
 title: Creación de una notificación en la aplicación en un Recorrido
-description: Obtenga información sobre cómo crear un mensaje en la aplicación en Journey Optimizer
+description: Obtenga información sobre cómo añadir un mensaje en la aplicación en un recorrido
 feature: Overview
 topic: Content Management
 role: User
@@ -9,15 +9,17 @@ keywords: en la aplicación, mensaje, creación, inicio
 hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-badge: label="Beta" type="Informative"
-source-git-commit: e91ca6f6210fd883e7a483fe81dda59bdf6ab42a
+source-git-commit: 4ecaf60923f32e7bc2363981a1d7c0874b3b7e94
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 3%
+source-wordcount: '742'
+ht-degree: 2%
 
 ---
 
+
 # Creación de un mensaje en la aplicación en un recorrido {#create-in-app-journey}
+
+Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
 
 1. Abra el recorrido y, a continuación, arrastre y suelte un **[!UICONTROL En la aplicación]** actividad desde el **[!UICONTROL Acciones]** de la paleta.
 

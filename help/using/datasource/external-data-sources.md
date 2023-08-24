@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: externo, fuentes, datos, configuración, conexión, terceros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 458632fcae14db9fe7d099309b85550e47090340
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 70%
+source-wordcount: '1493'
+ht-degree: 67%
 
 ---
 
@@ -208,7 +208,10 @@ Este es un ejemplo del tipo de autenticación del portador:
 
 >[!NOTE]
 >
+>El token de autenticación se almacena en caché por recorrido: si dos recorridos utilizan la misma acción personalizada, cada recorrido tiene su propio token en caché. Ese token no se comparte entre esos recorridos.
+>
 >La duración de la caché ayuda a evitar demasiadas llamadas a los extremos de autenticación. La retención del token de autenticación se almacena en caché en los servicios, no hay persistencia. Si se reinicia un servicio, se inicia con una caché limpia. La duración de la caché de forma predeterminada es de 1 hora. En la carga útil de autenticación personalizada, se puede adaptar especificando otra duración de retención.
+>
 
 Este es un ejemplo del tipo de autenticación de encabezado:
 

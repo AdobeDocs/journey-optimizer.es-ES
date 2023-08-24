@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
+source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1424'
 ht-degree: 98%
 
 ---
@@ -435,22 +435,23 @@ ht-degree: 98%
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
       + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Consultas](using/data/get-started-queries.md)
-+ Configuración{#configuration}
++ Configuración {#configuration}
    + [Introducción a la configuración de Journey Optimizer](using/configuration/get-started-configuration.md)
+   + [Configuración de superficies de canal](using/configuration/channel-surfaces.md)
    + Delegación de subdominios de correo electrónico {#delegate-subdomains}
       + [Introducción a la delegación de subdominios](using/configuration/about-subdomain-delegation.md)
       + [Delegar un subdominio](using/configuration/delegate-subdomain.md)
       + [Añadir un registro TXT de Google](using/configuration/google-txt.md)
       + [Acceso y edición de registros PTR](using/configuration/ptr-records.md)
       + [Crear grupos de IP](using/configuration/ip-pools.md)
-   + [Configuración de superficies de canal](using/configuration/channel-surfaces.md)
    + Supervisar las direcciones de correo electrónico {#monitor-reputation}
       + [Lista de supresión](using/configuration/manage-suppression-list.md)
       + [Reintentos](using/configuration/retries.md)
       + [Lista de permitidos](using/configuration/allow-list.md)
+   + [Uso de listas semilla](using/configuration/seed-lists.md)
    + [Asistencia para el archivado](using/configuration/archiving-support.md)
+   + [Cambio de direcciones de ejecución](using/configuration/primary-email-addresses.md)
    + [Configuración de las reglas de frecuencia](using/configuration/frequency-rules.md)
-   + [Administrar direcciones de ejecución](using/configuration/primary-email-addresses.md)
    + Configurar recorridos {#configure-journeys}
       + [Acerca de las fuentes de datos, los eventos y las acciones](using/configuration/about-data-sources-events-actions.md)
       + Integración con sistemas externos {#external-systems}
@@ -475,7 +476,7 @@ ht-degree: 98%
          + [Configuración de una acción](using/action/about-custom-action-configuration.md)
          + [Integrar con Adobe Campaign Standard](using/action/acs-action.md)
          + [Integración con las versiones 7 y 8 de Adobe Campaign](using/action/acc-action.md)
-         + [Acerca de las acciones](using/action/action-response.md)
+         + [Uso de respuestas de llamadas de API en acciones personalizadas](using/action/action-response.md)
    + [Fuentes](using/start/get-started-sources.md)
 + Control de acceso {#access-control}
    + Información general sobre el control de acceso {#privacy}

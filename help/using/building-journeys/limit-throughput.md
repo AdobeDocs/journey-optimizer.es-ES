@@ -8,7 +8,7 @@ role: User, Developer
 level: Experienced
 keywords: recorrido, fuentes de datos, límite, rendimiento, personalizado, acciones
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: d9e6c07d8ccd3b836616c7b9813731ff7b26e7ce
+source-git-commit: e06e0585f98897cca339e7923c38d3860767dac6
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 4%
@@ -42,6 +42,7 @@ Para **recorridos activados por la audiencia**, puede definir la tasa de regulac
 >[!NOTE]
 >
 > Es el número máximo de perfiles que pueden entrar en el recorrido por segundo. Esta tasa se aplica solamente a esta actividad y a ninguna otra en el recorrido. [Más información](../building-journeys/read-audience.md)
+
 
 ![](assets/limit-throughput-1.png)
 

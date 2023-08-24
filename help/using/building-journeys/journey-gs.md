@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 2281daefaf6b45c056ef9100b58f51dcd9c87257
+source-git-commit: 91b82736b86bd01ebb24cca36da56bde7fe84b6e
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1662'
 ht-degree: 26%
 
 ---
@@ -172,3 +172,20 @@ Además de las [timeout](#timeout_and_error) cuando se utiliza en actividades de
 Debido al tiempo de espera de recorrido de 30 días, cuando no se permite la reentrada al recorrido, no podemos asegurarnos de que el bloqueo de reentrada funcione durante más de 30 días. De hecho, al eliminar toda la información sobre las personas que ingresaron al recorrido 30 días después de su entrada, no podemos saber la persona ingresada anteriormente, hace más de 30 días.
 
 Un individuo solo puede entrar a una actividad de espera si le queda tiempo suficiente en el recorrido recorrido para completar la duración de la espera antes del tiempo de espera de 30 días. Consulte [esta página](../building-journeys/wait-activity.md).
+
+## Duplicación de un recorrido {#duplicate-a-journey}
+
+Puede duplicar un recorrido existente desde el **Examinar** pestaña. Todos los objetos y configuraciones se duplican en la copia de recorrido.
+
+Para ello, siga los pasos a continuación:
+
+1. Vaya al recorrido que desee copiar y haga clic en **Más acciones** (los tres puntos junto al nombre del recorrido).
+1. Seleccione **Duplicar**.
+
+   ![Duplicación de un recorrido](assets/duplicate-jo.png)
+
+<!--1. Enter the name of the journey and confirm. 
+
+    If no name is specified, t-->The journey copy name is set to the default name, i.e. the name of the initial journey with `_copy` characters added at the end. It can be changed in the journey properties screen.
+
+1. El nuevo recorrido se crea y está disponible en la lista de recorridos.

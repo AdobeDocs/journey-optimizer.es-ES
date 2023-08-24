@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1941'
 ht-degree: 8%
 
 ---
@@ -181,6 +181,31 @@ Para ello, habilite la variable **[!UICONTROL Correo electrónico CCO]** funció
 Además, al definir la variable **[!UICONTROL Correo electrónico CCO]** , asegúrese de utilizar un subdominio que tenga una configuración de registro MX válida; de lo contrario, el procesamiento de la superficie de correo electrónico fallará.
 
 Si se produce un error al enviar la superficie de correo electrónico, significa que el registro MX no está configurado para el subdominio de la dirección introducida. Póngase en contacto con el administrador para configurar el registro MX correspondiente o use otra dirección con una configuración de registro MX válida.
+
+## Lista semilla {#seed-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_seed_list"
+>title="Adición de una lista semilla"
+>abstract="Seleccione la lista semilla que desee para incluir automáticamente direcciones semilla de correo electrónico específicas en las entregas. Estas direcciones se incluirán en el momento de la ejecución de la entrega y recibirán una copia exacta de la entrega para fines de garantía."
+
+Una lista semilla en [!DNL Journey Optimizer] permite incluir automáticamente direcciones semilla de correo electrónico específicas en las entregas. [Más información](../configuration/seed-lists.md)
+
+>[!CAUTION]
+>
+>Actualmente, esta función solo se aplica al canal de correo electrónico.
+
+Seleccione la lista que sea relevante para usted en la **[!UICONTROL Lista semilla]** sección. Obtenga información sobre cómo crear una lista semilla en [esta sección](../configuration/seed-lists.md#create-seed-list).
+
+![](../configuration/assets/seed-list-surface.png)
+
+>[!NOTE]
+>
+>Solo se puede seleccionar una lista semilla a la vez.
+
+Cuando la superficie actual se utiliza en una campaña o recorrido, las direcciones de correo electrónico de la lista semilla seleccionada se incluyen en el momento de la ejecución de la entrega, lo que significa que recibirán una copia de la entrega con fines de garantía.
+
+Aprenda a utilizar la lista semilla en una campaña o un recorrido en [esta sección](../configuration/seed-lists.md#use-seed-list).
 
 ## Parámetros de reintento de correo electrónico {#email-retry}
 

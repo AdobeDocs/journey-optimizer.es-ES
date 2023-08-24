@@ -4,10 +4,10 @@ product: journey optimizer
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
-workflow-type: ht
-source-wordcount: '3171'
-ht-degree: 100%
+source-git-commit: 5daf828c934432810c58035986df1072a0fe73e3
+workflow-type: tm+mt
+source-wordcount: '3206'
+ht-degree: 99%
 
 ---
 
@@ -17,9 +17,11 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Agosto de 2023 {#august-2023}
 
+* Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de agosto de 2023 de se ha detallado en la documentación. [Más información](release-notes.md)
 * Se ha añadido una nueva sección sobre los requisitos previos del experimento de contenido para el canal web. [Más información](../web/web-prerequisites.md#experiment-prerequisites)
 * Se ha añadido una advertencia en la página **Trabajo con plantillas de contenido** para indicar que el seguimiento actual no es compatible al probar plantillas de contenido de correo electrónico. Para probar el seguimiento, debe utilizar la plantilla de contenido en un mensaje de correo electrónico y enviar una prueba [Más información](../email/content-templates.md#test-template)
 * Se han añadido varias advertencias en la sección **Creación y publicación de páginas de aterrizaje** para especificar que no puede acceder a ellas simplemente copiando y pegando en un explorador web la URL definida al crear la página, incluso si se ha publicado. En su lugar, puede probarlas con la función de previsualización. [Más información](../landing-pages/create-lp.md)
+* Se ha añadido una nueva sección sobre cómo administrar el consentimiento para el canal de correo postal. [Más información](../direct-mail/test-send-direct-mail.md)
 
 ## Julio de 2023 {#july-2023}
 

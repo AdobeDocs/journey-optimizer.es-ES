@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5c8a985d19c82ecb79153dd8ba2e056f6a2c1f2b
+source-git-commit: 4ecaf60923f32e7bc2363981a1d7c0874b3b7e94
 workflow-type: tm+mt
-source-wordcount: '3495'
-ht-degree: 93%
+source-wordcount: '3384'
+ht-degree: 96%
 
 ---
 
@@ -22,32 +22,27 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Regístrese para la [Newsletter trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoy y reciba las últimas actualizaciones de productos, artículos interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.
 
 
-## Notas de la versión anteriores de agosto de 2023 {#aug-rn-2023}
-
-Las notas de la versión anteriores que se indican a continuación están sujetas a cambios sin previo aviso hasta la fecha de lanzamiento. Los vínculos, las pantallas y la documentación actualizada se publican en la fecha del lanzamiento.
-
-
-**Fecha de lanzamiento**: 23-24 de agosto de 2023
+## Notas de la versión de agosto de 2023 {#aug-rn-2023}
 
 ### Nuevas funciones{#aug-2023-features}
 
 Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Envío de mensajes en la aplicación en los recorridos</strong><br/></th>
+<th><strong>Send In-app messages in your journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede enviar mensajes personalizados en la aplicación a los usuarios de la misma dentro de un recorrido. Utilice Journey Optimizer para diseñar notificaciones y personalizar el diseño, la visualización, el texto y los botones del mensaje para crear una experiencia perfecta.</p>
+<p>You can now send personalized In-app messages to your app users within a journey. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
 <img src="assets/in_app_journey_1.png"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../in-app/create-in-app-journey.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <table>
@@ -61,7 +56,7 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <td>
 <p>Ahora puede crear y administrar listas semilla en Journey Optimizer. Una lista semilla consiste en direcciones internas que se pueden añadir a la audiencia real y recibir el mismo mensaje que los perfiles objetivo en el momento de la ejecución de la entrega. Utilice esta capacidad para monitorizar las comunicaciones enviadas y asegurarse de que todos los formatos de visualización, URL, imágenes y vínculos son correctos.</p>
 <img src="../configuration/assets/seed-list-details.png">
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>Para obtener más información, consulte la <a href="../configuration/seed-lists.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -92,25 +87,26 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 
 Esta versión incorpora las mejoras que se enumeran a continuación.
 
-**API**
+<!--
+**APIs**
 
-Ya está disponible una nueva API para crear y administrar fragmentos de contenido. [Más información](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.-->
 
-**Canal de correo electrónico**
+<!--**Email channel**
 
-Hay una nueva opción disponible en la configuración de la superficie de correo electrónico para incluir las direcciones de correo electrónico suprimidas debido a una queja de spam en las audiencias de mensajes transaccionales. Incluso si han marcado los mensajes de marketing como correo no deseado, estos perfiles pueden recibir mensajes transaccionales, como restablecimiento de contraseña o extractos de cuenta. Esta opción está desactivada de forma predeterminada.
+A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.-->
 
 **Recorridos**
 
-Ahora puede utilizar las respuestas de llamadas de API en acciones personalizadas y organizar su recorrido en función de estas respuestas. Actualmente, esta función está disponible como una versión beta privada.
-<!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
-* When duplicating a journey, you can now define the name of the journey copy.-->
+* Ahora puede utilizar las respuestas de llamadas de API en acciones personalizadas y organizar su recorrido en función de estas respuestas. Actualmente, esta función está disponible como una versión beta privada. [Más información](../action/action-response.md).
+* Se ha introducido un nuevo tipo de alerta del sistema. Ahora puede recibir notificaciones cuando falle una acción personalizada. [Más información](../reports/alerts.md).
+  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **Correo directo**
 
-* Azure ahora se puede seleccionar como tipo de servidor en la configuración de enrutamiento de archivos.
-* Ampersand está ahora disponible como campo separador de columnas en la configuración de superficie de correo postal.
+* Azure ahora se puede seleccionar como tipo de servidor en la configuración de enrutamiento de archivos. [Más información](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
+* Ampersand está ahora disponible como campo separador de columnas en la configuración de superficie de correo postal. [Más información](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
 
 
 

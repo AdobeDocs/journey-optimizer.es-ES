@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
-source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
+source-git-commit: 7d753a1fd71e85e29c141fc697348579eaa15380
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 6%
+source-wordcount: '460'
+ht-degree: 15%
 
 ---
 
@@ -50,3 +50,15 @@ Antes de activar la campaña de correo postal, asegúrese de que la campaña y e
 Cuando la campaña de correo postal esté lista, haga clic en **[!UICONTROL Activar]** botón. Cuando se inicia la campaña, el archivo de extracción se genera automáticamente y se exporta al servidor especificado en [configuración de enrutamiento de archivos](../direct-mail/direct-mail-configuration.md).
 
 Una vez enviada, puede medir el impacto de la campaña de correo postal dentro de los informes de campaña. Para obtener más información sobre la creación de informes, consulte esta sección.
+
+## Administración del consentimiento para correo postal {#dm-consent-management}
+
+En [!DNL Journey Optimizer], Experience Platform gestiona el consentimiento [Esquema de consentimiento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=es){target="_blank"}. De forma predeterminada, el valor del campo de consentimiento está vacío y se trata como consentimiento para recibir sus comunicaciones.
+
+Si un perfil se ha excluido de la recepción de correo postal, en los atributos de perfil del Experience Platform correspondientes, el valor de `consents.marketing.postalMail.val` será `n` y el perfil correspondiente se excluirá de las entregas posteriores.
+
+Para volver a activarlo, el atributo de perfil debe cambiarse a `consents.marketing.postalMail.val` : `y`.
+
+Para administrar los atributos de un perfil, vaya a Experience Platform y acceda al perfil seleccionando un área de nombres de identidad y un valor de identidad correspondiente. Obtenga más información en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
+
+Obtenga más información sobre la administración de la exclusión en Journey Optimizer en [esta sección](../privacy/opt-out.md).

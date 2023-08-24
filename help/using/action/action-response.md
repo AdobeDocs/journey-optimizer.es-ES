@@ -1,28 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurar una acción personalizada
-description: Obtenga información sobre cómo configurar una acción personalizada
+title: Mejoras de acciones personalizadas
+description: Obtenga más información sobre las últimas mejoras en acciones personalizadas
 feature: Actions
 topic: Administration
 role: Admin
 level: Experienced
 badge: label="Beta" type="Informative"
 keywords: acción, terceros, personalizado, recorrido, API
-hide: true
-hidefromtoc: true
-source-git-commit: a3c95497fb7304ddd0aa26435f5d0279ff8fdb0f
+source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '666'
 ht-degree: 5%
 
 ---
 
-# Mejoras de acciones personalizadas
+# Mejoras de acciones personalizadas {#custom-action-enhancements}
 
 Ahora puede aprovechar las respuestas de llamadas de API en acciones personalizadas y organizar sus recorridos en función de estas respuestas.
 
-Esta capacidad solo estaba disponible cuando se utilizaban fuentes de datos. Ahora puede utilizarlo con acciones personalizadas.
+Anteriormente, esta capacidad solo estaba disponible cuando se utilizaban fuentes de datos. Ahora puede utilizarlo con acciones personalizadas.
 
 >[!AVAILABILITY]
 >
@@ -32,11 +30,11 @@ Esta capacidad solo estaba disponible cuando se utilizaban fuentes de datos. Aho
 >
 >Las acciones personalizadas solo deben utilizarse con extremos privados o internos y con un límite o restricción adecuado. Consulte [esta página](../configuration/external-systems.md).
 
-## Definir la acción personalizada
+## Definir la acción personalizada {#define-custom-action}
 
 Al definir la acción personalizada, se han implementado dos mejoras: la adición del método de GET y el nuevo campo de respuesta de carga útil. Las demás opciones y parámetros no cambiarán. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-### Configuración de extremo
+### Configuración de extremo {#endpoint-configuration}
 
 El **Configuración de URL** se ha cambiado el nombre de la sección **Configuración de extremo**.
 
@@ -44,7 +42,7 @@ En el **Método** desplegable, ahora puede seleccionar **GET**.
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### Cargas útiles
+### Cargas útiles {#payloads-new}
 
 El **Parámetros de acción** se ha cambiado el nombre de la sección **Cargas útiles**. Hay dos campos disponibles:
 
@@ -80,7 +78,7 @@ El **Parámetros de acción** se ha cambiado el nombre de la sección **Cargas �
 
 1. Haga clic en **Guardar**.
 
-## Aprovechamiento de la respuesta en un recorrido
+## Aprovechamiento de la respuesta en un recorrido {#response-in-journey}
 
 Simplemente, agregue la acción personalizada a un recorrido. A continuación, puede aprovechar los campos de carga útil de respuesta en condiciones, otras acciones y la personalización de mensajes.
 
@@ -119,7 +117,7 @@ Por ejemplo, puede agregar una condición para comprobar la cantidad de puntos d
 
    ![](assets/action-response11.png)
 
-## Estado de error{#error-status}
+## Estado de error {#error-status}
 
 El **jo_status_code** El campo siempre está disponible aunque no se haya definido ninguna carga útil de respuesta.
 
@@ -136,7 +134,7 @@ Una llamada de acción se considera errónea cuando el código http devuelto es 
 >
 >Solo las acciones personalizadas recién creadas incluyen las siguientes **jo_status_code** Campo listo para usar. Si desea utilizarlo con una acción personalizada existente, debe actualizar la acción. Por ejemplo, puede actualizar la descripción y guardar.
 
-## Sintaxis de expresión
+## Sintaxis de expresión {#exp-syntax}
 
 Esta es la sintaxis:
 
@@ -160,3 +158,4 @@ A continuación se muestran algunos ejemplos:
 ```
 
 Para obtener más información sobre las referencias de campo, consulte [esta sección](../building-journeys/expression/field-references.md).
+

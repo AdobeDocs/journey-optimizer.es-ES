@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 173ae09e48a67e0e40aa59f0f714b014eb8b8064
+source-git-commit: 375dfbebcb37f948b468ec9689963b0ffebebecf
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '893'
 ht-degree: 31%
 
 ---
@@ -36,9 +36,7 @@ Antes de poder generar este archivo, debe crear lo siguiente:
 >id="ajo_dm_file_routing_details"
 >title="Definir la configuración de enrutamiento de archivos"
 >abstract="Después de crear un mensaje de correo directo, el archivo que contiene los datos de audiencia de destino se genera y exporta a un servidor. Debe especificar los detalles del servidor para que su proveedor de correo directo pueda acceder y utilizar ese archivo para enviar correo directo."
-
-<!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Creación de un mensaje de correo directo"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -78,7 +76,7 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Actualmente Amazon S3 y SFTP<!--and Azure--> son compatibles con [!DNL Journey Optimizer].
+   >Actualmente, Amazon S3, SFTP y Azure son compatibles con [!DNL Journey Optimizer].
 
 1. Rellene los detalles y credenciales del servidor, como la dirección del servidor, la clave de acceso, etc.
 
@@ -135,7 +133,7 @@ Una superficie de correo postal también debe incluir la configuración de enrut
 
 1. Seleccione el formato de archivo: **[!UICONTROL CSV]** o **[!UICONTROL Delimitado por texto]**.
 
-1. Si selecciona **[!UICONTROL Delimitado por texto]**, defina el separador de columnas que desee: tabulación, punto y coma o barra vertical<!--or ampersand-->.
+1. Si selecciona **[!UICONTROL Delimitado por texto]**, defina el separador de columnas que desee: tabulación, punto y coma, barra vertical o Y comercial.
 
    ![](assets/surface-direct-mail-column-separator.png)
 
