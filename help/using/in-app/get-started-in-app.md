@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 066491e19a0a3be84c3e6ca6fefe88a9beb26285
+source-git-commit: cf3e56f2c87ad39d94cb412fc605f5b235d6d1e1
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 85%
+source-wordcount: '221'
+ht-degree: 77%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 85%
 
 Los mensajes en la aplicación son notificaciones que se pueden enviar a los usuarios dentro de la aplicación y les guía a puntos de interés específicos. Estas notificaciones se pueden utilizar para distintos fines, como la promoción de nuevas funciones, la presentación de ofertas especiales o la facilitación de la incorporación del usuario. Al aprovechar los mensajes en la aplicación, puede interactuar con su audiencia y dirigirlos hacia aspectos importantes de su aplicación.
 
-Utilice Journey Optimizer para crear notificaciones en la aplicación y configurar las opciones de experiencia, incluidas las opciones de diseño y visualización de mensajes, texto y botones.
+Utilice Journey Optimizer para crear notificaciones en la aplicación y configurar las opciones de experiencia, incluidas las opciones de diseño y visualización de mensajes, texto y botones. Puede añadir mensajes en la aplicación en una campaña y en un recorrido.
 
 >[!AVAILABILITY]
 >
@@ -40,7 +40,7 @@ Cuando haya finalizado, podrá crear, configurar y enviar su primer mensaje en l
 <a href="create-in-app.md">
 <img alt="Posible cliente" src="../assets/do-not-localize/inapp-create.jpeg">
 </a>
-<div><a href="create-in-app.md"><strong>Crear un mensaje en la aplicación</strong>
+<div><a href="create-in-app.md"><strong>Creación de un mensaje en la aplicación en una campaña</strong>
 </div>
 <p>
 </td>
@@ -57,7 +57,7 @@ Cuando haya finalizado, podrá crear, configurar y enviar su primer mensaje en l
 <img alt="Validación" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="../reports/campaign-global-report.md#inapp-global"><strong>Informe en la aplicación</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>Acceso al informe en la aplicación</strong></a>
 </div>
 <p>
 </td>
