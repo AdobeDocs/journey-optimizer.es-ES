@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: cf3e56f2c87ad39d94cb412fc605f5b235d6d1e1
+source-git-commit: 7c4509c0f9fd0d3aefb88c2c5ef4ccab5d58ace8
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 77%
@@ -18,7 +18,7 @@ ht-degree: 77%
 
 Los mensajes en la aplicación son notificaciones que se pueden enviar a los usuarios dentro de la aplicación y les guía a puntos de interés específicos. Estas notificaciones se pueden utilizar para distintos fines, como la promoción de nuevas funciones, la presentación de ofertas especiales o la facilitación de la incorporación del usuario. Al aprovechar los mensajes en la aplicación, puede interactuar con su audiencia y dirigirlos hacia aspectos importantes de su aplicación.
 
-Utilice Journey Optimizer para crear notificaciones en la aplicación y configurar las opciones de experiencia, incluidas las opciones de diseño y visualización de mensajes, texto y botones. Puede añadir mensajes en la aplicación en una campaña y en un recorrido.
+Utilice Journey Optimizer para crear notificaciones en la aplicación y configurar las opciones de experiencia, incluidas las opciones de diseño y visualización de mensajes, texto y botones. Puede añadir mensajes en la aplicación [en una campaña](create-in-app.md) y [en un recorrido](create-in-app-journey.md).
 
 >[!AVAILABILITY]
 >
