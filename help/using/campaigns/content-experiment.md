@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 11%
+source-wordcount: '838'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Experimento de contenido"
->abstract="Puede elegir entre modificar el contenido del envío, el asunto o el remitente para definir varios tratamientos de envío y determinar la mejor combinación para sus audiencias."
+>abstract="Puede elegir entre variar el contenido, el asunto o el remitente del mensaje para definir varios tratamientos y determinar la mejor combinación para sus audiencias."
 
 >[!NOTE]
 >
@@ -99,13 +99,13 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
 >title="Métrica de éxito"
 >abstract="La métrica de éxito se utiliza para rastrear y evaluar el tratamiento con mejor rendimiento de un experimento. Asegúrese de configurar su conjunto de datos para determinadas métricas antes de utilizarlo."
 
-1. Cuando la entrega se haya personalizado, en la página de resumen de Campaign, haga clic en **[!UICONTROL Crear experimento]** para comenzar a configurar el experimento de contenido.
+1. Cuando el mensaje esté personalizado, en la página de resumen de la campaña, haga clic en **[!UICONTROL Crear experimento]** para comenzar a configurar el experimento de contenido.
 
    ![](assets/content_experiment_3.png)
 
 1. Seleccione el **[!UICONTROL Métrica de éxito]** que desea configurar para el experimento.
 
-   Para nuestro experimento, seleccionamos **[!UICONTROL Correo electrónico abierto]** para probar si los destinatarios abrirán sus correos electrónicos si el código de promoción está en la línea de asunto.
+   Para este ejemplo, seleccione **[!UICONTROL Correo electrónico abierto]** para probar si los perfiles abren sus correos electrónicos si el código de promoción está en la línea de asunto.
 
    ![](assets/content_experiment_11.png)
 
