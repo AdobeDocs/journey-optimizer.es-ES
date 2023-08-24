@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landing, landing page, diseño, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 13%
@@ -24,7 +24,7 @@ Para empezar a crear contenido para el aterrizaje [página principal](create-lp.
 
 A partir de ahí, puede:
 
-* **Diseñe su página de aterrizaje desde cero** mediante la interfaz del diseñador de contenido y aproveche las imágenes de [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md). Aprenda a diseñar el contenido <!--or use built-in templates--> [en esta sección](../email/content-from-scratch.md).
+* **Diseñe su página de aterrizaje desde cero** mediante la interfaz del diseñador de contenido y aproveche las imágenes de [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md). Aprenda a diseñar el contenido <!--or use built-in templates--> [en esta sección](../email/content-from-scratch.md).
 
 * **Codifique o pegue el HTML sin procesar** directamente en el diseñador de contenido. Aprenda a codificar su propio contenido [en esta sección](../email/code-content.md).
 

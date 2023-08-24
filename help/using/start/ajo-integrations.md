@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -46,7 +46,7 @@ Una los flujos de trabajo creativos y de marketing usando [!DNL Adobe Experience
 
 [!DNL Adobe Experience Manager Assets Essentials] se puede acceder directamente desde [!DNL Adobe Journey Optimizer] a través de la sección del menú de la izquierda **[!UICONTROL Recursos]**.
 
-Más información sobre [Journey Optimizer + Assets Essentials](../email/assets-essentials.md).
+Más información sobre [Journey Optimizer + Assets Essentials](../content-management/assets-essentials.md).
 
 
 ## Adobe Stock{#integration-stock}
@@ -55,12 +55,12 @@ El plugin de integración de [!DNL Adobe Stock] y [!DNL Adobe Journey Optimizer]
 
 Con [!DNL Adobe Journey Optimizer], puede cargar imágenes en sus correos electrónicos directamente desde [!DNL Adobe Stock] y agregarlos a su carpeta **[!UICONTROL Recursos]** usando la opción **[!UICONTROL Buscar fotos de Adobe Stock]**. Además, la variable **[!UICONTROL Buscar fotos de Stock similares]** le ayuda a encontrar imágenes que coincidan con el contenido, el color y la composición del recurso utilizado en el envío.
 
-Obtenga más información acerca de [Journey Optimizer + Stock](../email/stock.md).
+Obtenga más información acerca de [Journey Optimizer + Stock](../content-management/stock.md).
 
 
 ## Servicios inteligentes de Adobe{#integration-intelligent-service}
 
-Los servicios inteligentes de Adobe, nativos de la plataforma de datos del cliente en tiempo real, le permiten sacar el máximo provecho del poder que tiene la inteligencia artificial y del aprendizaje automático en casos prácticos de experiencias del cliente. Esto permite a los analistas de marketing formular predicciones concretas de las necesidades de una compañía mediante configuraciones de negocio sin necesidad de tener experiencia en la ciencia de datos.
+Los servicios inteligentes de Adobe, nativos de la plataforma de datos del cliente en tiempo real, le permiten sacar el máximo provecho del poder que tiene la inteligencia artificial y del aprendizaje automático en casos prácticos de experiencias del cliente. Esto permite a los analistas de marketing formular predicciones específicas de las necesidades de una empresa mediante configuraciones de negocio sin necesidad de tener experiencia en la ciencia de datos.
 
 La inteligencia artificial aplicada al cliente permite a las marcas crear puntuaciones de aprendizaje automático de pérdida o conversión que estarán disponibles como atributos de perfil en Adobe Experience Platform y que se pueden utilizar para personalizar un recorrido.
 

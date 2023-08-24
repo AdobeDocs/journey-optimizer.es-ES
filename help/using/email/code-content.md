@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: código, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 67%
@@ -24,7 +24,7 @@ Utilice el modo **[!UICONTROL Codifique su propio contenido]** para importar el 
 
 >[!CAUTION]
 >
-> Imágenes de [Adobe Experience Manager Assets Essentials](assets-essentials.md) no se puede hacer referencia a él al utilizar este método. Las imágenes a las que se hace referencia en el código de HTML deben almacenarse en una ubicación pública.
+> Imágenes de [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) no se puede hacer referencia a él al utilizar este método. Las imágenes a las que se hace referencia en el código de HTML deben almacenarse en una ubicación pública.
 
 1. En la página de inicio del Diseñador de correo electrónico, seleccione **[!UICONTROL Codifique su propio código]**.
 

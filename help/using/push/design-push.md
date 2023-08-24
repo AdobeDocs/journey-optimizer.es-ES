@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '1260'
 ht-degree: 14%
@@ -50,7 +50,7 @@ Hay dos opciones disponibles. Puede hacer lo siguiente:
 
 * Utilice el **[!UICONTROL Añadir medios]** para seleccionar un recurso en **[!DNL Adobe Experience Manager Assets Essentials]**.
 
-  Aprenda a utilizar **[!DNL Adobe Experience Manager Assets Essentials]** in [esta página](../email/assets-essentials.md).
+  Aprenda a utilizar **[!DNL Adobe Experience Manager Assets Essentials]** in [esta página](../content-management/assets-essentials.md).
 
 * O introduzca la URL del contenido en la **[!UICONTROL Añadir medios]** field. En ese caso, puede añadir personalización a la dirección URL.
 

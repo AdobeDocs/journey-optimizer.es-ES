@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: componentes, diseñador de correo electrónico, editor, correo electrónico
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: c4ea32bf25ab49e925d6f0610494c3729e779bf1
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 57%
@@ -121,7 +121,7 @@ Utilice el componente **[!UICONTROL Texto]** para insertar texto en el correo el
    * **Tamaño de fuente**: seleccionar el tamaño de fuente del texto en píxeles.
    * **[!UICONTROL Cambiar color de fuente]**: elija el color de la fuente.
    * **[!UICONTROL Insertar vínculo]**: añada cualquier tipo de vínculo al contenido.
-   * **[!UICONTROL Editar imagen]**: añadir una imagen o un recurso al componente de texto. [Más información sobre la administración de recursos](assets-essentials.md)
+   * **[!UICONTROL Editar imagen]**: añadir una imagen o un recurso al componente de texto. [Más información sobre la administración de recursos](../content-management/assets-essentials.md)
    * **[!UICONTROL Cambiar color de fuente]**: elija el color de la fuente.
    * **[!UICONTROL Añadir personalización]**: añadir campos de personalización para personalizar el contenido de los datos de perfiles. [Más información sobre la personalización de contenido](../personalization/personalize.md)
    * **[!UICONTROL Mostrar el código fuente]**: mostrar el código fuente del texto. No se puede modificar.
@@ -178,7 +178,7 @@ Utilice el **[!UICONTROL Imagen]** para insertar un archivo de imagen del equipo
 
    ![](assets/email_designer_10.png)
 
-1. También puede elegir **[!UICONTROL Buscar fotografías similares de Stock]**. [Más información](stock.md)
+1. También puede elegir **[!UICONTROL Buscar fotografías similares de Stock]**. [Más información](../content-management/stock.md)
 
 1. Desde el **[!UICONTROL Estilos]** , ajuste los demás atributos de estilo como margen, borde, etc. o añada un enlace para redirigir a tu audiencia a otro contenido desde el panel **[!UICONTROL Configuración de componentes]**.
 

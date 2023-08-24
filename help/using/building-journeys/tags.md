@@ -8,22 +8,17 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: recorrido, etiquetas
-badge: label="Beta" type="Informative"
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 46%
+source-wordcount: '234'
+ht-degree: 42%
 
 ---
 
 # Administración de etiquetas en recorrido {#journey_tags}
 
 Como profesional de Journey Optimizer, puede organizar sus recorridos mediante etiquetas. Las etiquetas son una forma rápida y sencilla de clasificar objetos para mejorar la búsqueda.
-
->[!AVAILABILITY]
->
-> Las etiquetas unificadas están actualmente en versión beta. La documentación y las funciones están sujetas a cambios.
 
 ## Adición de etiquetas a un recorrido
 

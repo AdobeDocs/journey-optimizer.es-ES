@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
+source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 100%
+source-wordcount: '1416'
+ht-degree: 98%
 
 ---
 
@@ -185,9 +185,6 @@ ht-degree: 100%
       + Diseño del contenido {#add-content}
          + [Uso de componentes de contenido](using/email/content-components.md)
          + [Adición de vínculos y seguimiento de mensajes](using/email/message-tracking.md)
-         + Administración de recursos {#manage-asset}
-            + [Trabajar con Assets Essentials](using/email/assets-essentials.md)
-            + [Trabajar con Adobe Stock](using/email/stock.md)
          + [Inserción de ofertas personalizadas](using/email/add-offers-email.md)
          + [Generar la versión de texto](using/email/text-version-email.md)
          + [Añadir un preencabezado](using/email/preheader.md)
@@ -251,6 +248,13 @@ ht-degree: 100%
    + Configuración de las páginas de aterrizaje {#lp-configuration}
       + [Configurar subdominios de página de aterrizaje](using/landing-pages/lp-subdomains.md)
       + [Definir ajustes preestablecidos de página de aterrizaje](using/landing-pages/lp-presets.md)
++ Administración de contenido {#content-management}
+   + [Trabajar con Assets Essentials](using/content-management/assets-essentials.md)
+   + [Trabajar con Adobe Stock](using/content-management/stock.md)
+   + Trabajar con el asistente de contenido{#content-assistant}
+      + [Introducción al Asistente de contenido](using/content-management/gs-generative.md)
+      + [Generación de títulos](using/content-management/generative-title.md)
+      + [Generación de imágenes](using/content-management/generative-image.md)
 + Personalización y contenido dinámico {#personalized-dynamic-content}
    + Personalización {#personalization}
       + [Introducción a la personalización](using/personalization/personalize.md)

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: correo electrónico, diseño, stock, activos
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
@@ -22,9 +22,9 @@ Puede importar un contenido existente en [!DNL Journey Optimizer] o aprovechar l
 
 * Utilice las [!DNL Journey Optimizer]**funcionalidades de diseño de correo electrónico de** para diseñar o importar correos electrónicos adaptables. [Más información](content-from-scratch.md)
 
-* Aproveche **Adobe Experience Manager Assets Essentials** para enriquecer los correos electrónicos, crear y administrar su propia base de datos de activos. [Más información](assets-essentials.md)
+* Aproveche **Adobe Experience Manager Assets Essentials** para enriquecer los correos electrónicos, crear y administrar su propia base de datos de activos. [Más información](../content-management/assets-essentials.md)
 
-* Encuentre **fotos de Adobe Stock** para crear su contenido y mejorar su diseño de correo electrónico. [Más información](stock.md)
+* Encuentre **fotos de Adobe Stock** para crear su contenido y mejorar su diseño de correo electrónico. [Más información](../content-management/stock.md)
 
 * Mejore la experiencia de los clientes creando mensajes y de correo electrónico personalizados en función de sus atributos de perfil. Más información sobre [personalización](../personalization/personalize.md) y [contenido dinámico](../personalization/get-started-dynamic-content.md).
 
@@ -32,7 +32,7 @@ Puede importar un contenido existente en [!DNL Journey Optimizer] o aprovechar l
 
 ## Prácticas recomendadas para el diseño de correo electrónico {#best-practices}
 
-Al enviar correos electrónicos, es importante tener en cuenta que los destinatarios pueden reenviarlos, lo que a veces puede causar problemas con la renderización del correo electrónico. Esto es especialmente cierto cuando se utilizan clases CSS que puede que no sean compatibles con el proveedor de correo electrónico utilizado para el reenvío, por ejemplo, si utiliza la clase CSS &quot;is-desktop-hidden&quot; (está oculta en el escritorio) para ocultar una imagen en dispositivos móviles.
+Al enviar correos electrónicos, es importante tener en cuenta que los destinatarios pueden reenviarlos, lo que a veces puede causar problemas con el procesamiento del correo electrónico. Esto es especialmente cierto cuando se utilizan clases CSS que es posible que el proveedor de correo electrónico no admita para el reenvío, por ejemplo, si utiliza la clase CSS &quot;is-desktop-hidden&quot; para ocultar una imagen en dispositivos móviles.
 
 Para minimizar estos problemas de renderización, se recomienda mantener la estructura de diseño del correo electrónico lo más sencilla posible. Intente utilizar un único diseño que funcione bien tanto para dispositivos de escritorio como móviles, y evite utilizar clases CSS complejas u otros elementos de diseño que puedan no ser totalmente compatibles con todos los clientes de correo electrónico. Siguiendo estas prácticas recomendadas, puede ayudar a garantizar que los mensajes de correo electrónico se procesen correctamente, independientemente de cómo los destinatarios los vean o los reenvíen.
 
@@ -46,7 +46,7 @@ Una vez que haya [añadido un correo electrónico](create-email.md) a un recorri
 
 1. En la página de inicio del Diseñador de correo electrónico, elija cómo desea diseñar el correo electrónico desde las opciones siguientes:
 
-   * **Diseñe su correo electrónico desde cero** a través de la interfaz del diseñador de correo electrónico y aproveche las imágenes de [Adobe Experience Manager Assets Essentials](assets-essentials.md). Información sobre cómo diseñar el contenido de su correo electrónico en [esta sección](content-from-scratch.md).
+   * **Diseñe su correo electrónico desde cero** a través de la interfaz del diseñador de correo electrónico y aproveche las imágenes de [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md). Información sobre cómo diseñar el contenido de su correo electrónico en [esta sección](content-from-scratch.md).
 
    * **Codifique o pegue HTML sin procesar** directamente en el diseñador de correo electrónico. Información sobre cómo codificar su propio contenido en [esta sección](code-content.md).
 

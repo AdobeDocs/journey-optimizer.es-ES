@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, diseño, formato
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 6%
@@ -84,7 +84,7 @@ El **[!UICONTROL Medios]** Este campo le permite añadir contenido multimedia al
 
 ![](assets/in_app_content_3.png)
 
-Escriba la URL de medios o haga clic en **[!UICONTROL Seleccionar recursos]** para añadir directamente a su mensaje en la aplicación los recursos almacenados en la biblioteca de recursos. [Más información sobre la administración de recursos](../email/assets-essentials.md).
+Escriba la URL de medios o haga clic en **[!UICONTROL Seleccionar recursos]** para añadir directamente a su mensaje en la aplicación los recursos almacenados en la biblioteca de recursos. [Más información sobre la administración de recursos](../content-management/assets-essentials.md).
 También puede agregar un **[!UICONTROL Texto alternativo]** para aplicaciones de lectura de pantalla.
 
 +++Más opciones con formato avanzado

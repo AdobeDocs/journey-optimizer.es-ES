@@ -5,7 +5,7 @@ title: Introducción a Journey Optimizer para expertos en marketing
 description: Obtenga más información sobre cómo trabajar con Journey Optimizer como usuario
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
@@ -24,7 +24,7 @@ Consulte las secciones siguientes para configurar su primer recorrido, agregar o
 
    ![](../assets/perso_ee2.png)
 
-1. **Creación y administración de recursos**. [!DNL Adobe Experience Manager Assets Essentials] proporciona un único repositorio centralizado de recursos que puede utilizar para completar los mensajes. Obtenga más información [en esta sección](../../email/assets-essentials.md).
+1. **Creación y administración de recursos**. [!DNL Adobe Experience Manager Assets Essentials] proporciona un único repositorio centralizado de recursos que puede utilizar para completar los mensajes. Obtenga más información [en esta sección](../../content-management/assets-essentials.md).
 
 1. **Agregar ofertas**. Utilice [!DNL Journey Optimizer] para ofrecer la mejor oferta y experiencia a sus clientes en todos los puntos de contacto y en el momento adecuado. Una vez diseñadas, las audiencias se segmentarán con ofertas personalizadas. Obtenga más información sobre la gestión de deciones [en esta sección](../../offers/get-started/starting-offer-decisioning.md).
 
