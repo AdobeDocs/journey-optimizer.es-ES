@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: lista de semillas, lista de semillas, semillas, configuración
-source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
+source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 9%
+source-wordcount: '919'
+ht-degree: 8%
 
 ---
 
@@ -71,14 +71,14 @@ Puede hacer clic en el nombre de una lista semilla para editarla. <!--Use the **
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"
->title="Definición de la lista semilla"
->abstract="Complete los detalles de la lista semilla para incluir automáticamente direcciones semilla específicas en las entregas. Estas direcciones se incluirán en el momento de la ejecución de la entrega y recibirán una copia exacta de la entrega para fines de garantía."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=es" text="Qué son las listas semilla"
+>title="Definición de una lista semilla"
+>abstract="Utilice una lista semilla para añadir automáticamente direcciones internas específicas a la audiencia de envío con fines de garantía. Las listas semilla permiten supervisar las copias de los mensajes enviados para asegurarse de que todos los elementos de visualización son correctos y proteger la lista de correo. Actualmente, esta función solo se aplica al canal de correo electrónico."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="¿Qué son las listas semilla?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
->title="Especificar las direcciones semilla que se van a utilizar"
->abstract="Añada las direcciones semilla que se incluirán automáticamente en las entregas. Puede importar un archivo CSV o introducir direcciones de correo electrónico manualmente."
+>title="Rellene la lista semilla"
+>abstract="Seleccione las direcciones que se incluirán en el momento de la ejecución de la entrega y recibirán una copia exacta del mensaje. Puede importar un archivo CSV o introducir direcciones de correo electrónico manualmente."
 
 Para crear una lista semilla, siga los pasos a continuación.
 

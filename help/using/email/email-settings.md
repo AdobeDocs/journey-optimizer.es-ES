@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
+source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1967'
 ht-degree: 8%
 
 ---
@@ -187,7 +187,10 @@ Si se produce un error al enviar la superficie de correo electrónico, significa
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="Adición de una lista semilla"
->abstract="Seleccione la lista semilla que desee para incluir automáticamente direcciones semilla de correo electrónico específicas en las entregas. Estas direcciones se incluirán en el momento de la ejecución de la entrega y recibirán una copia exacta de la entrega para fines de garantía."
+>abstract="Seleccione la lista semilla que desee para añadir automáticamente direcciones internas específicas a las audiencias. Estas direcciones semilla se incluyen en el momento de la ejecución de la entrega y reciben una copia exacta del mensaje para fines de garantía."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="¿Qué son las listas semilla?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=en#create-seed-list" text="Creación de listas semilla"
+
 
 Una lista semilla en [!DNL Journey Optimizer] permite incluir automáticamente direcciones semilla de correo electrónico específicas en las entregas. [Más información](../configuration/seed-lists.md)
 
