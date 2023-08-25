@@ -8,7 +8,7 @@ hidefromtoc: true
 source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 42%
+ht-degree: 76%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 42%
 
 Las notas de la primera versión están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento. Los vínculos, las pantallas y la documentación actualizada se publican en las [notas de la versión](release-notes.md), en la fecha de la versión.
 
-## Notas de la versión anteriores de agosto de 2023 {#aug-rn-2023}
+## Notas de la primera versión de agosto de 2023 {#aug-rn-2023}
 
 **Fecha de lanzamiento**: 23-24 de agosto de 2023
 
@@ -35,7 +35,7 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede enviar mensajes personalizados en la aplicación a los usuarios de la misma dentro de un recorrido. Utilice Journey Optimizer para diseñar notificaciones y personalizar el diseño, la visualización, el texto y los botones del mensaje para crear una experiencia perfecta.</p>
+<p>Ahora, puede enviar mensajes personalizados en la aplicación a la gente que use la aplicación y esté en un recorrido. Utilice Journey Optimizer para diseñar notificaciones y personalizar el diseño, la visualización, el texto y los botones del mensaje para crear una experiencia perfecta.</p>
 <img src="assets/in_app_journey_1.png"/>
 <p>Para obtener más información, consulte la <a href="../in-app/get-started-in-app.md">documentación detallada</a>.</p>
 </tr>
@@ -91,7 +91,7 @@ Ya está disponible una nueva API para crear y administrar fragmentos de conteni
 
 **Canal de correo electrónico**
 
-Hay una nueva opción disponible en la configuración de la superficie de correo electrónico para incluir las direcciones de correo electrónico suprimidas debido a una queja de spam en las audiencias de mensajes transaccionales. Incluso si han marcado los mensajes de marketing como correo no deseado, estos perfiles pueden recibir mensajes transaccionales, como restablecimiento de contraseña o extractos de cuenta. Esta opción está desactivada de forma predeterminada.
+Hay una nueva opción disponible en la configuración de la superficie de correo electrónico para incluir las direcciones de correo electrónico suprimidas debido a las quejas de spam del público de mensajes transaccionales. Incluso si han marcado los mensajes de marketing como spam, estos perfiles pueden recibir mensajes transaccionales, como de restablecimiento de la contraseña o extractos de la cuenta. Esta opción está desactivada de forma predeterminada.
 
 **Recorridos**
 
