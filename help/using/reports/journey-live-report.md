@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
+source-git-commit: 9245d6a93aaaa85bee56e2291a53ca7495b6ba9e
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1344'
 ht-degree: 4%
 
 ---
@@ -34,6 +34,7 @@ El recorrido **[!UICONTROL Informe en vivo]** se mostrará con las siguientes pe
 * [Correo electrónico](#email-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
+* [En la aplicación](#in-app-live)
 
 El recorrido **[!UICONTROL Informe en vivo]** se divide en diferentes widgets que detallan el éxito y los errores de su recorrido. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](live-report.md#modify-dashboard).
 
@@ -196,6 +197,14 @@ El **[!UICONTROL Razones de exclusión]** los gráficos y tablas permiten ver qu
 El **[!UICONTROL Rendimiento en la aplicación]** Los KPI detallan la información principal relativa a la participación de los visitantes en los mensajes en la aplicación, como:
 
 * **[!UICONTROL Impresiones]**: número total de mensajes en la aplicación entregados a todos los usuarios.
+
+  >[!NOTE]
+  >
+  >Para garantizar que se cuente una impresión, el usuario debe cumplir dos criterios:
+  >* Calificación dentro de la experiencia en la aplicación, que se logra al alcanzar la actividad en la aplicación específica en su recorrido.
+  >* Cumplir las condiciones especificadas en las reglas de Déclencheur.
+  > 
+  >Debido al segundo criterio, puede haber variaciones notables entre el número de perfiles objetivo y el recuento de impresiones únicas.
 
 * **[!UICONTROL Interacciones]**: número total de interacciones con el mensaje en la aplicación. Esto incluye cualquier acción realizada por los usuarios, como clics, rechazos o cualquier otra interacción.
 
