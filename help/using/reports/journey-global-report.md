@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2258'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,7 @@ El recorrido **[!UICONTROL Informe global]** se mostrará con las siguientes pes
 * [Correo electrónico](#email-global)
 * [Push](#push-global)
 * [SMS](#sms-global)
+* [En la aplicación](#in-app-global)
 
 El recorrido **[!UICONTROL Informe global]** se divide en diferentes widgets que detallan el éxito y los errores de su recorrido. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte [sección](global-report.md#modify-dashboard).
 
@@ -287,4 +288,33 @@ El **[!UICONTROL Razones de exclusión]** los gráficos y tablas permiten ver qu
 
 El **[!UICONTROL SMS: clics por vínculos]** y **[!UICONTROL SMS: estadísticas de seguimiento]** los widgets detallan la información principal relativa a la participación de los visitantes con las direcciones URL.
 
++++
+
+## Pestaña en la aplicación {#in-app-global}
+
+De tu Recorrido **[!UICONTROL Informe global]**, el **[!UICONTROL En la aplicación]** Esta pestaña detalla la información principal relativa a los envíos en la aplicación enviados en los recorridos.
+
+![](assets/in-app-journey-report.png)
+
++++Obtenga más información sobre las distintas métricas y widgets disponibles para el informe en la aplicación.
+
+El **[!UICONTROL Rendimiento en la aplicación]** Los KPI detallan la información principal relativa a la participación de los visitantes en los mensajes en la aplicación, como:
+
+* **[!UICONTROL Impresiones únicas]**: número de usuarios únicos a los que se ha mostrado el mensaje en la aplicación.
+
+* **[!UICONTROL Impresiones]**: número total de mensajes en la aplicación mostrados a todos los usuarios.
+
+  >[!NOTE]
+  >
+  >Para garantizar que se cuente una impresión, el usuario debe cumplir dos criterios:
+  >* Calificación dentro de la experiencia en la aplicación, que se logra al alcanzar la actividad en la aplicación específica en su recorrido.
+  >* Cumplir las condiciones especificadas en las reglas de Déclencheur.
+  > 
+  >Debido al segundo criterio, puede haber variaciones notables entre el número de perfiles objetivo y el recuento de impresiones únicas.
+
+* **[!UICONTROL Tasa de interacción]**: porcentaje de interacciones con el mensaje en la aplicación. Esto incluye cualquier acción realizada por los usuarios, como clics, rechazos o cualquier otra interacción.
+
+El **[!UICONTROL Resumen en la aplicación]** Este gráfico muestra la evolución de las impresiones e interacciones en la aplicación durante el periodo correspondiente.
+
+El **[!UICONTROL Interacciones por tipo]** en los gráficos y la tabla se detalla la interacción de los usuarios con el mensaje en la aplicación mediante el seguimiento de cualquier clic, despido o interacción.
 +++

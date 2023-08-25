@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1534106b7ed80376060d39a445d5e706df832e05
+source-git-commit: c01195dbee3e14a356c58353169507678aec5d30
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 100%
+source-wordcount: '1296'
+ht-degree: 86%
 
 ---
 
@@ -105,3 +105,19 @@ Puede elegir entre una de estas dos soluciones:
 
 * Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen con Leer audiencia, Calificación de audiencia o una actividad de evento empresarial. Debe crear una audiencia nueva y utilizar una condición dentro de la audiencia en el recorrido.
 
+
+### Limitaciones de actividad en la aplicación {#in-app-activity-limitations}
+
+* Actualmente, esta función no está disponible para los clientes de atención sanitaria.
+
+* La personalización solo puede contener atributos de perfil.
+
+* La visualización en la aplicación está ligada a la duración del recorrido, lo que significa que cuando el recorrido termina para un perfil, todos los mensajes en la aplicación dentro de ese recorrido dejan de mostrarse para ese perfil.  Por lo tanto, no es posible detener un mensaje en la aplicación directamente desde una actividad de recorrido. En su lugar, deberá finalizar todo el recorrido para que los mensajes en la aplicación no se muestren en el perfil.
+
+* En el modo de prueba, la visualización en la aplicación depende de la duración del recorrido. Para evitar que el recorrido termine demasiado pronto durante la prueba, ajuste el **[!UICONTROL Tiempo de espera]** valor para su **[!UICONTROL Esperar]** actividades.
+
+* **[!UICONTROL Reacción]** Las actividades de no se pueden utilizar para reaccionar ante una apertura o un clic en la aplicación.
+
+* Puede producirse un retraso de activación entre el momento en que un perfil de usuario alcanza una actividad en la aplicación en el lienzo y la hora en que comienza a ver ese mensaje en la aplicación.
+
+* El tamaño del contenido del mensaje en la aplicación está limitado a 2 Mb. La inclusión de imágenes grandes puede dificultar el proceso de publicación.

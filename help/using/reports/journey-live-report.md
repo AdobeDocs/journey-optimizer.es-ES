@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 5%
+source-wordcount: '1285'
+ht-degree: 4%
 
 ---
 
@@ -185,4 +185,22 @@ El **[!UICONTROL Resumen de SMS]** el gráfico detalla el éxito de su envío:
 * **[!UICONTROL Errores]**: Número total de errores que se han producido durante una entrega para evitar que se envíe a los perfiles.
 
 El **[!UICONTROL Razones de exclusión]** los gráficos y tablas permiten ver qué error y exclusiones se produjeron durante la entrega.
++++
+
+## Pestaña en la aplicación {#in-app-live}
+
+![](assets/journey_live_5.png)
+
++++Obtenga más información sobre las distintas métricas y widgets disponibles para el informe en la aplicación.
+
+El **[!UICONTROL Rendimiento en la aplicación]** Los KPI detallan la información principal relativa a la participación de los visitantes en los mensajes en la aplicación, como:
+
+* **[!UICONTROL Impresiones]**: número total de mensajes en la aplicación entregados a todos los usuarios.
+
+* **[!UICONTROL Interacciones]**: número total de interacciones con el mensaje en la aplicación. Esto incluye cualquier acción realizada por los usuarios, como clics, rechazos o cualquier otra interacción.
+
+El **[!UICONTROL Resumen en la aplicación]** Este gráfico muestra la evolución de las impresiones e interacciones en la aplicación durante el periodo correspondiente.
+
+El **[!UICONTROL Interacciones por tipo]** en los gráficos y la tabla se detalla la interacción de los usuarios con el mensaje en la aplicación mediante el seguimiento de cualquier clic, despido o interacción.
+
 +++

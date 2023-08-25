@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
+source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1352'
 ht-degree: 6%
 
 ---
@@ -109,15 +109,13 @@ Desde la campaña **[!UICONTROL Informe en vivo]**, el **[!UICONTROL En la aplic
 
 El **[!UICONTROL Rendimiento en la aplicación]** Los KPI detallan la información principal relativa a la participación de los visitantes en los mensajes en la aplicación, como:
 
-* **[!UICONTROL Impresiones únicas]**: número de usuarios únicos a los que se entregó el mensaje en la aplicación.
-
 * **[!UICONTROL Impresiones]**: número total de mensajes en la aplicación entregados a todos los usuarios.
 
-El **[!UICONTROL Resumen en la aplicación]** Este gráfico muestra la evolución de las impresiones en la aplicación durante el periodo correspondiente.
+* **[!UICONTROL Interacciones]**: número total de interacciones con el mensaje en la aplicación. Esto incluye cualquier acción realizada por los usuarios, como clics, rechazos o cualquier otra interacción.
 
-El **[!UICONTROL Clics por botón]** el gráfico y la tabla contienen los datos disponibles sobre el comportamiento del destinatario por botón:
+El **[!UICONTROL Resumen en la aplicación]** Este gráfico muestra la evolución de las impresiones e interacciones en la aplicación durante el periodo correspondiente.
 
-* **[!UICONTROL Clics]**: número total de destinatarios que interactuaron con los botones incluidos en el mensaje en la aplicación.
+El **[!UICONTROL Interacciones por tipo]** en los gráficos y la tabla se detalla la interacción de los usuarios con el mensaje en la aplicación mediante el seguimiento de cualquier clic, despido o interacción.
 
 +++
 
@@ -187,21 +185,19 @@ El **[!UICONTROL Razones de exclusión]**, **[!UICONTROL Razones de rechazos]** 
 
 ## Pestaña web {#web-tab}
 
-Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL Web]** La pestaña detalla la información principal relativa a sus páginas web.
+Desde la campaña **[!UICONTROL Informe en vivo]**, el **[!UICONTROL Web]** La pestaña detalla la información principal relativa a sus páginas web.
 
 +++Obtenga más información sobre las distintas métricas y widgets disponibles para el informe web.
 
 El **[!UICONTROL Rendimiento web]** Los KPI detallan la información principal relativa a la participación de los visitantes en las experiencias web, como:
 
-* **[!UICONTROL Impresiones únicas]**: número de usuarios únicos a los que se ha entregado la experiencia web.
-
 * **[!UICONTROL Impresiones]**: número total de experiencias web entregadas a todos los usuarios.
 
-* **[!UICONTROL Clics]**: número total de visitas de URL.
+* **[!UICONTROL Interacciones]**: número total de interacciones con la página web. Esto incluye cualquier acción realizada por los usuarios, como clics o cualquier otra interacción.
 
-El **[!UICONTROL Resumen web]** Este gráfico muestra la evolución de las experiencias web (impresiones, impresiones únicas y clics) durante el periodo correspondiente.
+El **[!UICONTROL Resumen web]** El gráfico muestra la evolución de las experiencias web (impresiones, impresiones únicas e interacciones) durante las últimas 24 horas.
 
-El **[!UICONTROL Clics por elemento]** La tabla detalla la información principal relativa a la participación de los visitantes en los distintos elementos de las páginas web.
+El **[!UICONTROL Interacciones por elemento]** La tabla detalla la información principal relativa a la participación de los visitantes en los distintos elementos de las páginas web.
 +++
 
 ## Ficha Correo directo {#direct-mail-tab}

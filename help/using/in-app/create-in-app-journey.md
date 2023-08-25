@@ -6,11 +6,13 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
+hide: true
+hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-source-git-commit: 7c4509c0f9fd0d3aefb88c2c5ef4ccab5d58ace8
+source-git-commit: d27fa0192b72de79fefb52b472bd06c6511a8b70
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 1%
+source-wordcount: '587'
+ht-degree: 2%
 
 ---
 
@@ -60,20 +62,6 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
 1. Una vez que el mensaje en la aplicación esté listo, finalice la configuración y publique el recorrido para activarlo.
 
 Para obtener más información sobre cómo configurar un recorrido, consulte [esta página](../building-journeys/journey-gs.md).
-
-## Limitaciones de actividad en la aplicación {#in-app-activity-limitations}
-
-* Actualmente, esta función no está disponible para los clientes de atención sanitaria.
-
-* La personalización solo puede contener atributos de perfil.
-
-* La visualización en la aplicación está ligada a la duración del recorrido, lo que significa que cuando el recorrido termina para un perfil, todos los mensajes en la aplicación dentro de ese recorrido dejan de mostrarse para ese perfil.  Por lo tanto, no es posible detener un mensaje en la aplicación directamente desde una actividad de recorrido. En su lugar, deberá finalizar todo el recorrido para que los mensajes en la aplicación no se muestren en el perfil.
-
-* En el modo de prueba, la visualización en la aplicación depende de la duración del recorrido. Para evitar que el recorrido termine demasiado pronto durante la prueba, ajuste el **[!UICONTROL Tiempo de espera]** valor para su **[!UICONTROL Esperar]** actividades.
-
-* **[!UICONTROL Reacción]** Las actividades de no se pueden utilizar para reaccionar ante una apertura o un clic en la aplicación.
-
-* Puede producirse un retraso de activación entre el momento en que un perfil de usuario alcanza una actividad en la aplicación en el lienzo y la hora en que comienza a ver ese mensaje en la aplicación.
 
 ## Informe en la aplicación {#inapp-report}
 

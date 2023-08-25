@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
+source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
 workflow-type: tm+mt
-source-wordcount: '2498'
+source-wordcount: '2472'
 ht-degree: 4%
 
 ---
@@ -219,17 +219,11 @@ El **[!UICONTROL Rendimiento en la aplicación]** Los KPI detallan la informaci�
 
 * **[!UICONTROL Impresiones]**: número total de mensajes en la aplicación entregados a todos los usuarios.
 
-* **[!UICONTROL Tasa de clics]**: porcentaje de usuarios que interactuaron con los botones incluidos en el mensaje en la aplicación comparado con los usuarios que vieron el mensaje.
+* **[!UICONTROL Tasa de interacciones]**: porcentaje de interacciones con el mensaje en la aplicación. Esto incluye cualquier acción realizada por los usuarios, como clics, rechazos o cualquier otra interacción.
 
-* **[!UICONTROL Tasa de descarte]**: porcentaje de mensajes en la aplicación que los destinatarios descartaron.
+El **[!UICONTROL Resumen en la aplicación]** Este gráfico muestra la evolución de las impresiones e interacciones en la aplicación durante el periodo correspondiente.
 
-El **[!UICONTROL Resumen en la aplicación]** Este gráfico muestra la evolución de las impresiones en la aplicación durante el periodo correspondiente.
-
-El **[!UICONTROL Clics por botón]** el gráfico y la tabla contienen los datos disponibles sobre el comportamiento del destinatario por botón:
-
-* **[!UICONTROL Clics]**: número total de destinatarios que interactuaron con los botones incluidos en el mensaje en la aplicación.
-
-* **[!UICONTROL Tasa de clics]**: porcentaje de usuarios que interactuaron con los botones incluidos en el mensaje en la aplicación comparado con los usuarios que vieron el mensaje.
+El **[!UICONTROL Interacciones por tipo]** en los gráficos y la tabla se detalla la interacción de los usuarios con el mensaje en la aplicación mediante el seguimiento de cualquier clic, despido o interacción.
 +++
 
 ## Pestaña de notificaciones push {#push-global}
@@ -354,11 +348,11 @@ El **[!UICONTROL Rendimiento web]** Los KPI detallan la información principal r
 
 * **[!UICONTROL Impresiones]**: número total de experiencias web entregadas a todos los usuarios.
 
-* **[!UICONTROL Tasa de clics]**: porcentaje de visitantes que interactuaron con los distintos elementos de las páginas web.
+* **[!UICONTROL Tasa de interacción]**: porcentaje de interacciones con la página web. Esto incluye cualquier acción realizada por los usuarios, como clics o cualquier otra interacción.
 
-El **[!UICONTROL Resumen web]** Este gráfico muestra la evolución de las experiencias web (impresiones, impresiones únicas y clics) durante el periodo correspondiente.
+El **[!UICONTROL Resumen web]** Este gráfico muestra la evolución de las experiencias web (impresiones, impresiones únicas e interacciones) durante el periodo correspondiente.
 
-El **[!UICONTROL Clics por elemento]** La tabla detalla la información principal relativa a la participación de los visitantes en los distintos elementos de las páginas web.
+El **[!UICONTROL Interacciones por elemento]** La tabla detalla la información principal relativa a la participación de los visitantes en los distintos elementos de las páginas web.
 +++
 
 ## Ficha Correo directo {#direct-mail-global}
