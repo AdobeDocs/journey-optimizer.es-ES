@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: cce45bfd11bfae07e07b69a488e58c282771d96a
+source-git-commit: 1d8d6e7f773b2bc88eeef1949af805d527911323
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1134'
 ht-degree: 4%
 
 ---
@@ -21,6 +21,8 @@ Puede añadir un mensaje en la aplicación en una campaña o en un recorrido. Si
 >[!BEGINTABS]
 
 >[!TAB Añadir un mensaje en la aplicación a un recorrido]
+
+Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
 
 1. Abra el recorrido y, a continuación, arrastre y suelte un **[!UICONTROL En la aplicación]** actividad desde el **[!UICONTROL Acciones]** de la paleta.
 
