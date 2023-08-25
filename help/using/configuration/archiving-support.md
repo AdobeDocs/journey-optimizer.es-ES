@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: archivo, mensajes, HIPAA, CCO, correos electrónicos
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 315309fdede3aa095fc59266acf765dc4b782dd9
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 8%
+source-wordcount: '1137'
+ht-degree: 7%
 
 ---
 
@@ -35,9 +35,9 @@ Las regulaciones como la HIPAA requieren que [!DNL Journey Optimizer] debe propo
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="Definir una dirección de correo electrónico CCO"
->abstract="Puede conservar una copia de los correos electrónicos enviados enviándolos a una bandeja de entrada CCO. Escriba la dirección de correo electrónico que desee para que cada correo electrónico enviado se copie de forma oculta a esta dirección de CCO. Tenga en cuenta que el dominio de la dirección de CCO no debe ser el mismo que cualquier subdominio delegado a Adobe. Esta función es opcional."
+>abstract="Puede conservar una copia de los correos electrónicos enviados enviándolos a una bandeja de entrada CCO. Escriba la dirección de correo electrónico que desee para que cada correo electrónico enviado se copie de forma oculta a esta dirección de CCO. Tenga en cuenta que el dominio de dirección de CCO debe ser diferente de cualquier subdominio delegado al Adobe. Esta función es opcional."
 
-Puede enviar una copia idéntica (o copia oculta) de un correo electrónico enviado por [!DNL Journey Optimizer] a una bandeja de entrada CCO. Esta función opcional le permite conservar copias de las comunicaciones por correo electrónico que envía a sus usuarios para fines de conformidad o archivo. Esto es invisible para los destinatarios de la entrega.
+Puede enviar una copia oculta (CCO) de un correo electrónico enviado por [!DNL Journey Optimizer] a una dirección de CCO dedicada. Esta función opcional le permite conservar copias de las comunicaciones por correo electrónico que envía a sus usuarios para fines de conformidad o archivo. La dirección CCO no es visible para otros destinatarios del mensaje.
 
 ### Habilitar correo electrónico CCO {#enable-bcc}
 
@@ -55,11 +55,11 @@ Para habilitar la variable **[!UICONTROL Correo electrónico CCO]** , introduzca
 
 ![](assets/preset-bcc.png)
 
-Todos los mensajes de correo electrónico que utilicen esta superficie se copiarán de forma oculta en la dirección de correo electrónico CCO que haya introducido. A partir de ahí, se pueden procesar y archivar mediante un sistema externo.
+Una vez completada la configuración, todos los mensajes de correo electrónico basados en esta superficie se copian de forma oculta en la dirección de correo electrónico CCO que haya introducido. A partir de ahí, los mensajes se pueden procesar y archivar mediante un sistema externo.
 
 >[!CAUTION]
 >
->El uso de las funciones de CCO se deducirá del número de mensajes para los que tiene licencia. Por lo tanto, actívelo solo en las superficies utilizadas para las comunicaciones esenciales que desee archivar. Compruebe si hay volúmenes con licencia en el contrato.
+>El uso de las funciones de CCO se deduce del número de mensajes para los que tiene licencia. Por lo tanto, actívelo solo en las superficies utilizadas para las comunicaciones esenciales que desee archivar. Compruebe si hay volúmenes con licencia en el contrato.
 
 La configuración de la dirección de correo electrónico CCO se guarda y procesa inmediatamente en el nivel de superficie. Al crear un nuevo mensaje con esta superficie, se muestra automáticamente la dirección de correo electrónico CCO.
 
