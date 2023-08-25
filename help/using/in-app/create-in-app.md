@@ -1,72 +1,68 @@
 ---
-title: Creación de una notificación en la aplicación en una campaña
-description: Obtenga información sobre cómo crear un mensaje en la aplicación en una campaña en Journey Optimizer
+title: Creación de una notificación en la aplicación en Journey Optimizer
+description: Obtenga información sobre cómo crear un mensaje en la aplicación en Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: cf3e56f2c87ad39d94cb412fc605f5b235d6d1e1
+source-git-commit: cce45bfd11bfae07e07b69a488e58c282771d96a
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 5%
+source-wordcount: '1123'
+ht-degree: 4%
 
 ---
 
-# Creación de un mensaje en la aplicación en una campaña {#create-in-app}
+# Creación de un mensaje en la aplicación  {#create-in-app}
 
-<!--
+Puede añadir un mensaje en la aplicación en una campaña o en un recorrido. Siga los pasos detallados a continuación para crear un mensaje en la aplicación en ambos contextos.
+
 >[!BEGINTABS]
 
->[!TAB Add an In-app message to a journey]
+>[!TAB Añadir un mensaje en la aplicación a un recorrido]
 
->[!AVAILABILITY]
->
->The In-app activity is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
+1. Abra el recorrido y, a continuación, arrastre y suelte un **[!UICONTROL En la aplicación]** actividad desde el **[!UICONTROL Acciones]** de la paleta.
 
-1. Open your journey, then drag and drop an **[!UICONTROL In-app]** activity from the **[!UICONTROL Actions]** section of the palette.
+   Cuando un perfil llega al final de su recorrido, los mensajes en la aplicación que se les muestren caducarán automáticamente. Por este motivo, se añade automáticamente una actividad de Espera después de la actividad en la aplicación para garantizar un tiempo de espera adecuado.
 
-    When a profile reaches the end of their journey, any in-app messages displayed to them will automatically expire. For that reason, a Wait activity is automatically added after your In-app activity to ensure proper timing.
+   ![](assets/in_app_journey_1.png)
 
-    ![](assets/in_app_journey_1.png)
+1. Introduzca una **[!UICONTROL Etiqueta]** y **[!UICONTROL Descripción]** para el mensaje.
 
-1. Enter a **[!UICONTROL Label]** and **[!UICONTROL Description]** for your message.
+1. Elija la [Superficie en la aplicación](inapp-configuration.md) para usar.
 
-1. Choose the [In-app surface](inapp-configuration.md) to use.
+   ![](assets/in_app_journey_2.png)
 
-    ![](assets/in_app_journey_2.png)
+1. Ahora puede empezar a diseñar el contenido con **[!UICONTROL Editar contenido]** botón. [Más información](design-in-app.md)
 
-1. You can now start designing your content with the **[!UICONTROL Edit content]** button. [Learn more](design-in-app.md)
+1. Clic **[!UICONTROL Editar déclencheur]** para configurar el Déclencheur.
 
-1. Click **[!UICONTROL Edit trigger]** to configure your Trigger. 
+   ![](assets/in_app_journey_4.png)
 
-    ![](assets/in_app_journey_4.png)
+1. Elija la frecuencia del déclencheur cuando su mensaje en la aplicación esté activo:
 
-1. Choose the frequency of your trigger when your In-app message is active:
+   * **[!UICONTROL Mostrar cada vez]**: Mostrar siempre el mensaje cuando los eventos seleccionados en la **[!UICONTROL Déclencheur de aplicación móvil]** se produce la lista desplegable.
+   * **[!UICONTROL Mostrar una vez]**: Mostrar solo este mensaje la primera vez que se seleccionen los eventos en la **[!UICONTROL Déclencheur de aplicación móvil]** se produce la lista desplegable.
+   * **[!UICONTROL Mostrar hasta el clic]**: Muestra este mensaje cuando los eventos seleccionados en la **[!UICONTROL Déclencheur de aplicación móvil]** se producen hasta que el SDK envía un evento de interacción con una acción de &quot;clic&quot;.
 
-    * **[!UICONTROL Show every time]**: Always show the message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
-    * **[!UICONTROL Show once]**: Only show this message the first time the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
-    * **[!UICONTROL Show until click through]**: Show this message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur until an interact event is sent by the SDK with an action of "clicked".
+1. Desde el **[!UICONTROL Déclencheur de aplicación móvil]** , elija los eventos y los criterios que van a almacenar el mensaje en déclencheur:
 
-1. From the **[!UICONTROL Mobile app trigger]** dropdown(s), choose the event(s) and criteria that will trigger your message:
+   1. En la lista desplegable izquierda, seleccione el evento necesario para almacenar el mensaje en déclencheur.
+   1. En la lista desplegable de la derecha, seleccione la validación necesaria en el evento seleccionado.
+   1. Haga clic en **[!UICONTROL Añadir]** si desea que el déclencheur tenga en cuenta varios eventos o criterios. A continuación, repita los pasos anteriores.
+   1. Seleccione cómo están vinculados los eventos, p. ej. elija **[!UICONTROL Y]** si lo desea **ambos** Los déclencheur deben ser verdaderos para que se muestre o se elija un mensaje **[!UICONTROL O]** si desea que se muestre el mensaje si **o bien** Todos los déclencheur son verdaderos.
+   1. Clic **[!UICONTROL Guardar]** cuando se hayan configurado los Déclencheur.
 
-    1. From the left drop-down, select the event required to trigger the message.
-    1. From the right drop-down, select the validation required on the selected event.
-    1. Click the **[!UICONTROL Add]** button if you want the trigger to consider multiple events or criteria. Then, repeat the steps above.
-    1. Select how your events are linked, e.g. choose **[!UICONTROL And]** if you want **both** triggers to be true in order for a message to be shown or choose **[!UICONTROL Or]** if you want the message to be shown if **either** of the triggers are true.
-    1. Click **[!UICONTROL Save]** when your Triggers have been configured.
+   ![](assets/in_app_journey_3.png)
 
-    ![](assets/in_app_journey_3.png)
-    
-1. If necessary, complete your journey flow by dragging and dropping additional actions or events. [Learn more](../building-journeys/about-journey-activities.md)
+1. Si es necesario, complete el flujo de recorrido arrastrando y soltando acciones o eventos adicionales. [Más información](../building-journeys/about-journey-activities.md)
 
-1. Once your In-app message is ready, finalize the configuration and publish your journey to activate it.
+1. Una vez que el mensaje en la aplicación esté listo, finalice la configuración y publique el recorrido para activarlo.
 
-For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md).
+Para obtener más información sobre cómo configurar un recorrido, consulte [esta página](../building-journeys/journey-gs.md).
 
->[!TAB Add an In-app message to a campaign]
--->
+>[!TAB Añadir un mensaje en la aplicación a una campaña]
 
 Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
@@ -149,9 +145,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
    ![](assets/in_app_create_4.png)
 
-<!--
 >[!ENDTABS]
--->
 
 ## Vídeotutoriales{#video}
 
