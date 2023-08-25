@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: lista de semillas, lista de semillas, semillas, configuración
-source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
+source-git-commit: 49c283fc19d90b5ced896c5854325266d80e8bc2
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '912'
 ht-degree: 8%
 
 ---
@@ -49,9 +49,14 @@ Las direcciones semilla no son perfiles reales ni perfiles de prueba, ya que no 
 
 Para acceder a las listas semilla ya creadas, vaya a **[!UICONTROL Administration]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** y seleccione **[!UICONTROL Lista semilla]**.
 
+<!--
 >[!CAUTION]
 >
->Los permisos para ver, exportar y administrar las listas semilla están restringidos a [Administradores de recorrido](../administration/ootb-product-profiles.md#journey-administrator). Más información sobre la administración de [!DNL Journey Optimizer] derechos de acceso de los usuarios en [esta sección](../administration/permissions-overview.md).
+>Permissions to view, export and manage the seed lists are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+
+>[!CAUTION]
+>
+>Para poder ver, editar y administrar listas semilla, debe tener el **[!UICONTROL Administrar lista de semilla]** permiso.
 
 ![](assets/seed-list-access.png)
 
