@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: ceb37193797c69ee87f136f3abecf54b5927d6a2
+source-git-commit: a2aaf6bff4af8dff451eb64d68700efda0892c71
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 28%
+source-wordcount: '869'
+ht-degree: 21%
 
 ---
 
@@ -32,12 +32,12 @@ Para crear una nueva campaña, acceda al **[!UICONTROL Campañas]** y haga clic 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campaña"
->abstract="**Campañas programadas** se ejecutan inmediatamente o en una fecha especificada y están pensadas para enviar mensajes de tipo marketing. Las campañas **activadas por API** se ejecutan mediante el uso de una llamada de API. Están destinadas a enviar mensajes de marketing o mensajes transaccionales, es decir, mensajes enviados después de una acción realizada por un particular: restablecer la contraseña, abandonar el carro de compras, etc."
+>abstract="**Campañas programadas** se ejecutan inmediatamente o en una fecha especificada y están pensadas para enviar mensajes de tipo marketing. Las campañas **activadas por API** se ejecutan mediante el uso de una llamada de API. Están destinados a enviar mensajes de marketing (mensajes promocionales que requieren el consentimiento del usuario) o mensajes transaccionales (mensajes no comerciales, que también se pueden enviar a perfiles sin suscribir en contextos específicos)."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Categoría de la campaña"
->abstract="Si está creando una campaña programada, la variable **marketing** se selecciona automáticamente. Para campañas activadas por API, elija si quiere enviar un mensaje de **marketing** o **transaccional**, es decir, un mensaje enviado después de una acción realizada por un particular: restablecer contraseña, abandonar el carro de compras, etc."
+>abstract="Si está creando una campaña programada, la variable **marketing** se selecciona automáticamente. Para campañas activadas por API, elija si desea enviar una **marketing** mensaje (mensaje promocional que requiere el consentimiento del usuario) o **transaccional** mensaje (mensaje no comercial, que también se puede enviar a perfiles sin suscribir en contextos específicos)."
 
 1. En el **[!UICONTROL Propiedades]** , especifique cómo desea ejecutar la campaña. Hay dos tipos de campaña disponibles:
 
