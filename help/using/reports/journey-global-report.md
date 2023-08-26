@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
+source-git-commit: d73f023a5eee538f110d044103bbeb8193a0703e
 workflow-type: tm+mt
-source-wordcount: '2258'
+source-wordcount: '2257'
 ht-degree: 2%
 
 ---
@@ -312,7 +312,7 @@ El **[!UICONTROL Rendimiento en la aplicación]** Los KPI detallan la informaci�
   > 
   >Debido al segundo criterio, puede haber variaciones notables entre el número de perfiles objetivo y el recuento de impresiones únicas.
 
-* **[!UICONTROL Tasa de interacción]**: porcentaje de interacciones con el mensaje en la aplicación. Esto incluye cualquier acción realizada por los usuarios, como clics, rechazos o cualquier otra interacción.
+* **[!UICONTROL Interacción]**: número de interacciones con el mensaje en la aplicación. Esto incluye cualquier acción realizada por los usuarios, como clics, rechazos o cualquier otra interacción.
 
 El **[!UICONTROL Resumen en la aplicación]** Este gráfico muestra la evolución de las impresiones e interacciones en la aplicación durante el periodo correspondiente.
 
