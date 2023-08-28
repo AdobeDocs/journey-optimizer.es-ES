@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: lista de semillas, lista de semillas, semillas, configuración
-source-git-commit: ddd80da2577ef3006211a7f7d108bf263f539660
+source-git-commit: f6708555d20fd04beb85574afd46e75be654d4e6
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '951'
 ht-degree: 8%
 
 ---
@@ -23,7 +23,7 @@ Listas semilla en [!DNL Journey Optimizer] permiten incluir automáticamente dir
 >
 >Actualmente, esta función solo se aplica al canal de correo electrónico.
 >
->Actualmente no se admiten variantes. Al igual que cada perfil de la audiencia de destino, las direcciones semilla reciben una sola copia del mensaje y no todas las variantes (como los diferentes tratamientos de una [experimento de contenido](../campaigns/get-started-experiment.md)).
+>Actualmente no se admiten variantes. Al igual que cada perfil de la audiencia de destino, las direcciones semilla reciben una sola copia de cada mensaje, pero no todas las variantes del mismo mensaje (como los diferentes tratamientos de un mensaje [experimento de contenido](../campaigns/get-started-experiment.md)).
 
 Las direcciones semilla se utilizan para dirigirse a los destinatarios que no coinciden con los criterios de destino definidos. De este modo, los destinatarios que estén fuera del alcance de la entrega pueden recibirlo como lo haría cualquier otro destinatario.
 
