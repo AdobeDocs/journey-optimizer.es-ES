@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
+source-git-commit: fd035fdd956c76d9183acbd0dddf6462890c4f44
 workflow-type: tm+mt
 source-wordcount: '2164'
 ht-degree: 2%
@@ -146,7 +146,7 @@ Por ejemplo, tiene dos colecciones, una en los criterios de evaluación A y otra
 
   ![](../assets/activity_consecutive-rank-collections.png)
 
-* Si las dos colecciones son **evaluado al mismo tiempo** Sin embargo, como hay dos ofertas elegibles de los criterios de evaluación A y tres ofertas elegibles de los criterios de evaluación B, las cinco ofertas se apilarán todas juntas en función del valor determinado por los métodos de clasificación respectivos. Se solicitan dos ofertas, por lo que se devolverán las dos ofertas aptas principales de estas cinco ofertas.
+* Si las dos colecciones son **evaluado al mismo tiempo** Sin embargo, como hay dos ofertas elegibles de los criterios de evaluación A y tres ofertas elegibles de los criterios de evaluación B, las cinco ofertas se apilarán en base al valor determinado por los métodos de clasificación respectivos. Se solicitan dos ofertas, por lo que se devolverán las dos ofertas aptas principales de estas cinco ofertas.
 
   ![](../assets/activity_same-rank-collections.png)
 
