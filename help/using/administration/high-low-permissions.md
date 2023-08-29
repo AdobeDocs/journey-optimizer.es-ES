@@ -8,9 +8,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: permiso, alto nivel, bajo nivel, perfil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 7ac2ae714f2d11d2559b6195af37e2dece35b17c
+source-git-commit: bb988dbc3aa8b70081c9f3de595d49904cc699b4
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
@@ -150,6 +150,19 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 ## Recurso de campaña {#campaign-capability}
 
+* **[!DNL Export suppression list]** El permiso de alto nivel permite a los usuarios descargar la lista de supresión como archivo CSV.
+
++++ Incluye los siguientes permisos de bajo nivel:
+
+   * Específico de Journey Optimizer:
+      * suppression_list.export
+
+   * Específico de Adobe Experience Platform:
+      * profiles.read
+      * datasets.read
+
++++
+
 * **[!DNL Manage campaigns]** El permiso de alto nivel permite a los usuarios crear nuevas campañas y editarlas o eliminarlas
 
 +++ Incluye los siguientes permisos de bajo nivel:
@@ -274,74 +287,6 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 ## Recurso de configuraciones de canal {#administration-permissions}
 
-* **[!DNL Manage subdomains delegation]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar delegaciones de subdominios (incluido el grupo de IP).
-
-+++ Incluye los siguientes permisos de bajo nivel:
-   * Específico de Journey Optimizer:
-
-      * subdomains_delegation.read
-      * subdomains_delegation.write
-      * subdomains_delegation.delete
-
-+++
-
-* **[!DNL Manage PTR records]** El permiso de alto nivel permite a los usuarios leer y editar registros PTR configurados en función del subdominio.
-
-+++ Incluye los siguientes permisos de bajo nivel:
-
-   * Específico de Journey Optimizer:
-      * PTR_records.read
-      * PTR_records.write
-      * subdomains_delegation.read
-
-+++
-
-* **[!DNL View PTR records]** el permiso de alto nivel permite a los usuarios ver los registros PTR que se han configurado en función del subdominio.
-
-+++ Incluye los siguientes permisos de bajo nivel:
-   * Específico de Journey Optimizer:
-
-      * PTR_records.read
-      * subdomains_delegation.read
-
-+++
-
-* **[!DNL Manage IP pools]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar la definición de afinidad.
-
-+++ Incluye los siguientes permisos de bajo nivel:
-   * Específico de Journey Optimizer:
-      * IP_pools.read
-      * IP_pools.write
-      * IP_pools.delete
-
-+++
-
-* **[!DNL Manage messages general settings]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar la configuración global en el nivel de zona protegida.
-
-+++ Incluye los siguientes permisos de bajo nivel:
-
-   * Específico de Journey Optimizer:
-      * messages_general_settings.read
-      * messages_general_settings.write
-      * messages_general_settings.delete
-
-   * Específico de Adobe Experience Platform:
-      * schemas.read
-
-+++
-
-* **[!DNL View messages general settings]** el permiso de alto nivel permite a los usuarios ver los mensajes en la configuración general, como la dirección de ejecución.
-
-+++ Incluye los siguientes permisos de bajo nivel:
-
-   * Específico de Journey Optimizer:
-      * messages_general_settings.read
-
-   * Específico de Adobe Experience Platform:
-      * schemas.read
-
-+++
-
 * **[!DNL Manage channel surface]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar superficies de canal entre canales en el nivel de zona protegida.
 
 +++ Incluye los siguientes permisos de bajo nivel:
@@ -356,53 +301,13 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-<!--
-### [!DNL View channel surface] permission {#view-channel-surface}
-
-The **[!DNL View channel surface]** high-level permission allows users to view channel surfaces in order to know which channel surfaces to use. 
-  +++ It includes the following low-level permissions:  
-
-* messages_presets.read
-* subdomains_delegation.read
-* IP_pools.read
-* mobile_setting.read (from Adobe Experience Platform Data Collection)
--->
-
-* **[!DNL Manage suppression]** el permiso de alto nivel permite a los usuarios definir el número de rechazos antes de añadir una dirección de correo electrónico a la lista de supresión, así como añadir y eliminar entradas en la lista de supresión.
+* **[!DNL Manage IP pools]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar la definición de afinidad.
 
 +++ Incluye los siguientes permisos de bajo nivel:
    * Específico de Journey Optimizer:
-      * suppression_rules.read
-      * suppression_rules.write
-      * suppression_rules.delete
-      * suppression_list.write
-      * suppression_list.delete
-
-+++
-
-* **[!DNL View suppression list]** el permiso de alto nivel permite a los usuarios ver el contenido y la configuración de la lista de supresión.
-
-+++ Incluye los siguientes permisos de bajo nivel:
-
-   * Específico de Journey Optimizer:
-      * suppression_list.view
-
-   * Específico de Adobe Experience Platform:
-      * profiles.read
-      * datasets.read
-
-+++
-
-* **[!DNL Export suppression list]** El permiso de alto nivel permite a los usuarios descargar la lista de supresión como archivo CSV.
-
-+++ Incluye los siguientes permisos de bajo nivel:
-
-   * Específico de Journey Optimizer:
-      * suppression_list.export
-
-   * Específico de Adobe Experience Platform:
-      * profiles.read
-      * datasets.read
+      * IP_pools.read
+      * IP_pools.write
+      * IP_pools.delete
 
 +++
 
@@ -421,13 +326,19 @@ The **[!DNL View channel surface]** high-level permission allows users to view c
 
 +++
 
-<!--
-### Manage web subdomain permission {#web-subdomain}
+* **[!DNL Manage messages general settings]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar la configuración global en el nivel de zona protegida.
 
-The **[!DNL Manage web subdomain]** high-level permission allows users to read, create, edit, and delete web subdomains.
++++ Incluye los siguientes permisos de bajo nivel:
 
-  +++ It includes the following low-level permissions: 
--->
+   * Específico de Journey Optimizer:
+      * messages_general_settings.read
+      * messages_general_settings.write
+      * messages_general_settings.delete
+
+   * Específico de Adobe Experience Platform:
+      * schemas.read
+
++++
 
 * **[!DNL Manage messages presets]** el permiso de alto nivel permite a los usuarios leer, crear, editar y eliminar la personalización de marca del contenido.
 
@@ -445,17 +356,25 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-* **[!DNL View messages presets]** el permiso de alto nivel permite a los usuarios ver los ajustes preestablecidos de mensajes.
+* **[!DNL Manage PTR records]** El permiso de alto nivel permite a los usuarios leer y editar registros PTR configurados en función del subdominio.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
    * Específico de Journey Optimizer:
-      * messages_presets.read
+      * PTR_records.read
+      * PTR_records.write
       * subdomains_delegation.read
-      * IP_pools.read
 
-   * Específico de la recopilación de datos:
-      * Mobile_setting.read
++++
+
+* **[!DNL Manage Seedlist]** El permiso de alto nivel permite a los usuarios leer, crear, editar y eliminar Seedlist.
+
++++ Incluye los siguientes permisos de bajo nivel:
+
+   * Específico de Journey Optimizer:
+      * seedlist.read
+      * seedlist.write
+      * seedlist.delete
 
 +++
 
@@ -469,3 +388,96 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * sms_subdomains.delete
 
 +++
+
+* **[!DNL Manage subdomains delegation]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar delegaciones de subdominios (incluido el grupo de IP).
+
++++ Incluye los siguientes permisos de bajo nivel:
+   * Específico de Journey Optimizer:
+
+      * subdomains_delegation.read
+      * subdomains_delegation.write
+      * subdomains_delegation.delete
+
++++
+
+* **[!DNL Manage suppression]** el permiso de alto nivel permite a los usuarios definir el número de rechazos antes de añadir una dirección de correo electrónico a la lista de supresión, así como añadir y eliminar entradas en la lista de supresión.
+
++++ Incluye los siguientes permisos de bajo nivel:
+   * Específico de Journey Optimizer:
+      * suppression_rules.read
+      * suppression_rules.write
+      * suppression_rules.delete
+      * suppression_list.write
+      * suppression_list.delete
+
++++
+
+* **[!DNL View PTR records]** el permiso de alto nivel permite a los usuarios ver los registros PTR que se han configurado en función del subdominio.
+
++++ Incluye los siguientes permisos de bajo nivel:
+   * Específico de Journey Optimizer:
+
+      * PTR_records.read
+      * subdomains_delegation.read
+
++++
+
+* **[!DNL View messages general settings]** el permiso de alto nivel permite a los usuarios ver los mensajes en la configuración general, como la dirección de ejecución.
+
++++ Incluye los siguientes permisos de bajo nivel:
+
+   * Específico de Journey Optimizer:
+      * messages_general_settings.read
+
+   * Específico de Adobe Experience Platform:
+      * schemas.read
+
++++
+
+* **[!DNL View messages presets]** el permiso de alto nivel permite a los usuarios ver los ajustes preestablecidos de mensajes.
+
++++ Incluye los siguientes permisos de bajo nivel:
+
+   * Específico de Journey Optimizer:
+      * messages_presets.read
+      * subdomains_delegation.read
+      * IP_pools.read
+
+   * Específico de la recopilación de datos:
+      * Mobile_setting.read
+
++++
+<!--
+### [!DNL View channel surface] permission {#view-channel-surface}
+
+The **[!DNL View channel surface]** high-level permission allows users to view channel surfaces in order to know which channel surfaces to use. 
+  +++ It includes the following low-level permissions:  
+
+* messages_presets.read
+* subdomains_delegation.read
+* IP_pools.read
+* mobile_setting.read (from Adobe Experience Platform Data Collection)
+-->
+
+
+* **[!DNL View suppression list]** el permiso de alto nivel permite a los usuarios ver el contenido y la configuración de la lista de supresión.
+
++++ Incluye los siguientes permisos de bajo nivel:
+
+   * Específico de Journey Optimizer:
+      * suppression_list.view
+
+   * Específico de Adobe Experience Platform:
+      * profiles.read
+      * datasets.read
+
++++
+
+<!--
+### Manage web subdomain permission {#web-subdomain}
+
+The **[!DNL Manage web subdomain]** high-level permission allows users to read, create, edit, and delete web subdomains.
+
+  +++ It includes the following low-level permissions: 
+-->
+

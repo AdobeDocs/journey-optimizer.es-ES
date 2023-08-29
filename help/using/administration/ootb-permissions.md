@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: permisos, creación, mensajes
 exl-id: fd7a7564-bf67-4796-8182-0b9b04516f21
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: bb988dbc3aa8b70081c9f3de595d49904cc699b4
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 6%
+source-wordcount: '689'
+ht-degree: 5%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 6%
 | Capacidad | Permisos |
 |-|-|
 | Campañas | **[!DNL Manage campaigns]**: leer, crear, editar y eliminar campañas. </br>**[!DNL Publish campaigns]**: derecho para publicar campañas.</br>**[!DNL View campaigns]**: acceso de solo lectura a las campañas. </br>**[!DNL View campaigns report]**: lea y edite informes de campaña. |
+| Configuraciones de canal | **[!DNL Export suppression list]**: acceso a la lista de supresión de exportación como archivo CSV.</br>**[!DNL Manage alerts]**: habilite/deshabilite alertas para campañas, mensajes y autorizaciones.</br> **[!DNL Manage IP pools]**: leer, crear, editar y eliminar el grupo de ip. </br>**[!DNL Manage landing page settings]**: lea, cree, edite y elimine la configuración de la página de aterrizaje.</br> **[!DNL Manage messages general settings]**: leer, crear, editar y eliminar la configuración general del mensaje.</br>**[!DNL Manage messages presets]**: leer, crear, editar y eliminar la personalización de marca del contenido.</br>**[!DNL Manage PTR records]**: leer y editar registros PTR. </br>**[!DNL Manage SMS settings]**: leer, crear, editar y eliminar la configuración de SMS.</br>**[!DNL Manage SMS subdomains]**: lea, cree, edite y elimine subdominios de SMS.</br> **[!DNL Manage Seedlist]**: lea, cree, edite y elimine Seedlist. </br> **[!DNL Manage subdomains delegation]**: lea, cree, edite y elimine la delegación de subdominios. </br>**[!DNL Manage suppression rules]**: acceda a leer, crear, editar y eliminar reglas de supresión.</br>**[!DNL View channel surfaces]**: acceso de solo lectura a las superficies de canal.</br> **[!DNL View messages general settings]**: acceso de solo lectura a la configuración general del mensaje.</br> **[!DNL View messages presets]**: acceso de solo lectura a los ajustes preestablecidos de mensajes. </br> **[!DNL View PTR records]**: acceso de solo lectura a registros PTR.</br>**[!DNL View suppression list]**: lea y exporte la lista de supresión local. |
 | Paneles | **[!DNL View license usage dashboards]**: acceso de solo lectura al panel de uso de licencias. </br>**[!DNL Manage custom dashboards]**: le permite crear un nuevo tablero o editar uno existente.</br>**[!DNL View custom dashboards]**: acceso de solo lectura a los paneles definidos por el usuario. </br>**[!DNL View standard dashboards]**: acceso de solo lectura a los paneles Perfiles, Destinos y Segmentos.</br>**[!DNL Manage standard dashboards]**: le permite crear widgets personalizados y editar el esquema de los widgets a través de la biblioteca de widgets. |
 | Recopilación de datos | **[!DNL Manage datastream]**: leer, crear y editar flujos de datos.</br>**[!DNL View datastream]**: acceso de solo lectura a flujos de datos. |
 | Gobernanza de datos | **[!DNL Manage usage labels]**: leer, crear, editar y eliminar etiquetas.</br>**[!DNL Manage data usage policies]**: leer, crear, editar y eliminar directivas de uso de datos.</br>**[!DNL View data usage policies]**: acceso de solo lectura para directivas de uso de datos que pertenecen a su organización.</br>**[!DNL View user activity log]**: acceso de solo lectura para ver los registros de auditoría registrados de las actividades de Platform. |
