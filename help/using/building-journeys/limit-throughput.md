@@ -8,7 +8,7 @@ role: User, Developer
 level: Experienced
 keywords: recorrido, fuentes de datos, límite, rendimiento, personalizado, acciones
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: e06e0585f98897cca339e7923c38d3860767dac6
+source-git-commit: 392bd63b666e4db72c2865e4b7134bb3c1711816
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 4%
@@ -37,7 +37,7 @@ Para obtener más información sobre cómo integrar con sistemas externos, consu
 
 ## Implementación
 
-Para **recorridos activados por la audiencia**, puede definir la tasa de regulación de su actividad Leer audiencia que afectará el rendimiento de los recorridos. [Más información](../building-journeys/read-audience.md)
+Para **recorridos activados por la audiencia**, puede definir la tasa de lectura de su actividad Leer audiencia que afectará el rendimiento de los recorridos. [Más información](../building-journeys/read-audience.md)
 
 >[!NOTE]
 >
