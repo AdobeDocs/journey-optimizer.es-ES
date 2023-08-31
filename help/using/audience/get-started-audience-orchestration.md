@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Se puede acceder a la composición de audiencias desde el menú **[!UICONTROL au
 
 ![](assets/audiences-browse.png)
 
-* El **[!UICONTROL Información general]** proporciona un tablero dedicado con métricas clave relacionadas con los datos de audiencia de su organización. Para obtener más información, consulte [Guía de tableros de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=es).
+* La pestaña **[!UICONTROL Información general]** proporciona un tablero específico con métricas clave relacionadas con los datos del público de su organización. Para obtener más información, consulte [Guía de tableros de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=es).
 
 * La pestaña **[!UICONTROL Examinar]** lista todas las audiencias existentes almacenadas en Adobe Experience Platform.
 
