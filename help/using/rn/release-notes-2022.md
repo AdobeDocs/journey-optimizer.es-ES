@@ -5,7 +5,7 @@ title: Notas de la versión 2022
 description: Notas de la versión de Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3575'
 ht-degree: 100%
 
@@ -790,7 +790,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tbody>
 <tr>
 <td>
-<p>Al configurar una actividad de <strong>Condición</strong> en un recorrido, ahora puede definir un límite de perfil. Este nuevo tipo de condición le permite establecer un número máximo de perfiles para una ruta de recorrido. Cuando se alcanza este límite, los perfiles que se introducen toman una ruta alternativa. Esto le permite aumentar el volumen de los envíos (aumento de IP). Por ejemplo, puede que desee ampliar las entregas en un dominio dividiendo la ejecución: enviar 1000 mensajes el día 1, 2000 el día 2, etc.</p>
+<p>Al configurar una actividad de <strong>Condición</strong> en un recorrido, ahora puede definir un límite de perfil. Este nuevo tipo de condición le permite establecer un número máximo de perfiles para una ruta de recorrido. Cuando se alcanza este límite, los perfiles que se introducen toman una ruta alternativa. Esto le permite aumentar el volumen de los envíos (aumento de IP). Por ejemplo, puede que desee ampliar los envíos en un dominio dividiendo la ejecución: enviar 1000 mensajes el día 1, 2000 el día 2, etc.</p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/condition-activity.md#profile_cap">documentación detallada</a> y el <a href="../building-journeys/ramp-up-deliveries-uc.md">ejemplo de uso</a> relacionado.</p>
 </td>
 </tr>
