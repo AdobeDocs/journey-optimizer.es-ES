@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Obtenga más información acerca de [Journey Optimizer + Stock](../content-manag
 
 ## Servicios inteligentes de Adobe{#integration-intelligent-service}
 
-Los servicios inteligentes de Adobe, nativos de la plataforma de datos del cliente en tiempo real, le permiten sacar el máximo provecho del poder que tiene la inteligencia artificial y del aprendizaje automático en casos prácticos de experiencias del cliente. Esto permite a los analistas de marketing formular predicciones específicas de las necesidades de una empresa mediante configuraciones de negocio sin necesidad de tener experiencia en la ciencia de datos.
+Los servicios inteligentes de Adobe, nativos de la plataforma de datos del cliente en tiempo real, le permiten sacar el máximo provecho del poder que tiene la inteligencia artificial y del aprendizaje automático en casos prácticos de experiencias del cliente. Esto permite a analistas de marketing formular predicciones concretas de las necesidades de una compañía mediante configuraciones de negocio sin necesidad de tener experiencia en la ciencia de datos.
 
 La inteligencia artificial aplicada al cliente permite a las marcas crear puntuaciones de aprendizaje automático de pérdida o conversión que estarán disponibles como atributos de perfil en Adobe Experience Platform y que se pueden utilizar para personalizar un recorrido.
 
