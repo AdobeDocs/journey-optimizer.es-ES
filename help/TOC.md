@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: e75e24852c5be51565706dc8844a90a8a9b7f8cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1417'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -325,8 +325,8 @@ ht-degree: 98%
          + [Campos de captura de datos](using/reports/sharing-fetch-fields.md)
          + [Campos de identidad](using/reports/sharing-identity-fields.md)
       + [Ejemplos de consultas](using/reports/query-examples.md)
-   + Capacidad de entrega {#deliverability}
-      + [Introducción a la capacidad de entrega](using/reports/deliverability.md)
+   + Entregabilidad {#deliverability}
+      + [Introducción a la Entregabilidad](using/reports/deliverability.md)
       + [Explicación de la lista de supresión](using/reports/suppression-list.md)
    + [Alertas](using/reports/alerts.md)
    + [Uso de Customer Journey Analytics](using/reports/cja-ajo.md)
