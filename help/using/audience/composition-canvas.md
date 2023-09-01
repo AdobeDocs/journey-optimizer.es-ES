@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
+source-git-commit: a6e46e7ff5a84ebb59dcb7825fa71df09b0f9a98
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 31%
+source-wordcount: '1482'
+ht-degree: 30%
 
 ---
 
@@ -116,9 +116,13 @@ El **[!UICONTROL Excluir]** esta actividad le permite excluir perfiles de la com
 
   Seleccione el atributo que desea buscar y especifique el valor que desea excluir. En este ejemplo, se excluyen de la composición perfiles cuya dirección postal está en Japón.
 
+  >[!NOTE]
+  >
+  >Solo se puede especificar un valor de exclusión.
+
   ![](assets/audiences-exclude-attribute.png)
 
-### Enriquecer {#enrich}
+### Actividad de enriquecimiento {#enrich}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
@@ -220,9 +224,16 @@ Hay dos tipos de operaciones de división disponibles:
 
   ![](assets/audiences-split.png)
 
-  >[!NOTE]
-  >
-  >El **[!UICONTROL Otros perfiles]** permite crear una ruta adicional con los perfiles restantes que no coinciden con ninguna de las condiciones especificadas en las otras rutas.
+  Para configurar una actividad de división basada en atributos:
+
+   1. haga clic en el botón situado junto al **[!UICONTROL Atributo]** para elegir el atributo que se va a elegir como criterio.
+   1. Añada tantas rutas como desee y, a continuación, especifique para cada ruta una etiqueta y el valor que se utilizará para seleccionar los perfiles que desea incluir en la ruta.
+
+      >[!NOTE]
+      >
+      >Solo se puede especificar un valor para cada ruta.
+
+   1. Alternar en **[!UICONTROL Otros perfiles]** para crear una ruta adicional con los perfiles restantes que no coincidan con ninguna de las condiciones especificadas en las otras rutas.
 
 ## Guarde las audiencias {#save}
 
