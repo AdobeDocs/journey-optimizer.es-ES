@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: a6e46e7ff5a84ebb59dcb7825fa71df09b0f9a98
+source-git-commit: cfe7c04d6a45e468933a3e79f36365754d1e15d9
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1493'
 ht-degree: 30%
 
 ---
@@ -224,10 +224,10 @@ Hay dos tipos de operaciones de división disponibles:
 
   ![](assets/audiences-split.png)
 
-  Para configurar una actividad de división basada en atributos:
+  Para configurar una actividad de división basada en atributos, siga estos pasos:
 
-   1. haga clic en el botón situado junto al **[!UICONTROL Atributo]** para elegir el atributo que se va a elegir como criterio.
-   1. Añada tantas rutas como desee y, a continuación, especifique para cada ruta una etiqueta y el valor que se utilizará para seleccionar los perfiles que desea incluir en la ruta.
+   1. Haga clic en el botón situado junto al **[!UICONTROL Atributo]** para seleccionar el atributo que se utilizará como criterio de división.
+   1. Añada tantas rutas como sea necesario. Para cada ruta, proporcione una etiqueta y especifique el valor que se utilizará para determinar qué perfiles deben incluirse en esa ruta en particular.
 
       >[!NOTE]
       >
