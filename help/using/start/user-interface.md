@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
-workflow-type: ht
+source-git-commit: b58bc332886e37b8d8eb2e439fd8ddb459dbe356
+workflow-type: tm+mt
 source-wordcount: '1283'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -116,7 +116,7 @@ Controle la administración de la privacidad y las solicitudes desde esta secci�
 
 * **[!UICONTROL Políticas]**: Adobe Experience Platform le permite etiquetar los campos y crear acciones de marketing para cada canal. A continuación, defina una política de gobernanza vinculada a una etiqueta y a una acción de marketing. [Más información](../action/action-privacy.md)
 
-* **[!UICONTROL Solicitudes]**: las solicitudes de privacidad se administran en Adobe Experience Platform Privacy Service. Proporciona una API de RESTful y una interfaz de usuario para ayudarle a administrar las solicitudes de datos de los clientes. [Más información](../privacy/requests.md)
+* **[!UICONTROL Solicitudes]** - Las solicitudes de privacidad se administran en Adobe Experience Platform Privacy Service. Proporciona una API de RESTful y una interfaz de usuario para ayudarle a administrar las solicitudes de datos de los clientes. [Más información](../privacy/requests.md)
 
 * **[!UICONTROL Auditoría]**: vaya a esta sección para comprobar los registros de actividad. [Más información](../privacy/audit-logs.md)
 
