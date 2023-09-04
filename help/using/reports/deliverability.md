@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introducción a la capacidad de entrega
+title: Introducción a la Entregabilidad
 description: Conozca las directrices de entrega
 feature: Deliverability
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 28%
 
 ---
 
-# Introducción a la capacidad de entrega {#manage-deliverability}
+# Introducción a la Entregabilidad {#manage-deliverability}
 
 La capacidad de entrega es una medida del éxito de los envíos que llegan a las bandejas de entrada de los destinatarios.
 
