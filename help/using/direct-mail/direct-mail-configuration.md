@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 375dfbebcb37f948b468ec9689963b0ffebebecf
 workflow-type: tm+mt
 source-wordcount: '893'
-ht-degree: 31%
+ht-degree: 32%
 
 ---
 
@@ -36,7 +36,7 @@ Antes de poder generar este archivo, debe crear lo siguiente:
 >id="ajo_dm_file_routing_details"
 >title="Definir la configuración de enrutamiento de archivos"
 >abstract="Después de crear un mensaje de correo directo, el archivo que contiene los datos de audiencia de destino se genera y exporta a un servidor. Debe especificar los detalles del servidor para que su proveedor de correo directo pueda acceder y utilizar ese archivo para enviar correo directo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Creación de un mensaje de correo directo"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html?lang=es" text="Crear un mensaje de correo directo"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
