@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
+source-git-commit: ea56d3cac5e4c4bc95560734fa3b9e8f410c8691
 workflow-type: tm+mt
-source-wordcount: '2472'
+source-wordcount: '2466'
 ht-degree: 4%
 
 ---
@@ -145,9 +145,9 @@ El **[!UICONTROL Estadísticas de envío de correo electrónico]** el gráfico d
 
 El **[!UICONTROL Correo electrónico: estadísticas de seguimiento]** widget contiene los datos disponibles para la actividad de destinatario del envío:
 
-* **[!UICONTROL Aperturas]**: Número de veces que se abrió la entrega en una entrega.
+* **[!UICONTROL Aperturas]**: Número de veces que se abrió el correo electrónico.
 
-* **[!UICONTROL Aperturas únicas]**: porcentaje de envíos abiertos.
+* **[!UICONTROL Aperturas únicas]**: porcentaje de correos electrónicos abiertos.
 
 * **[!UICONTROL Tasa de apertura]**: Número total de correos electrónicos abiertos en comparación con el número de correos electrónicos enviados.
 
@@ -196,7 +196,9 @@ El **[!UICONTROL Correo electrónico: dominio del destinatario principal]** el g
 El **[!UICONTROL Optimizado frente a no optimizado]** El gráfico detalla la información principal relativa al mensaje, estén optimizados o no:
 
 * **[!UICONTROL Enviado]**: Número total de envíos para el envío.
-* **[!UICONTROL Aperturas]**: Número de veces que se abrió la entrega en una entrega.
+
+* **[!UICONTROL Aperturas]**: Número de veces que se abrió el mensaje.
+
 * **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en un correo electrónico.
 
 El **[!UICONTROL Optimización del tiempo de envío]** detalla el éxito de su envío según el método de envío: optimizado o normal.
