@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e75e24852c5be51565706dc8844a90a8a9b7f8cd
+source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
 workflow-type: tm+mt
 source-wordcount: '1417'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -252,7 +252,7 @@ ht-degree: 100%
    + [Trabajar con Adobe Stock](using/content-management/stock.md)
    + Trabajar con el asistente de contenido{#content-assistant}
       + [Introducción al Asistente de contenido](using/content-management/gs-generative.md)
-      + [Generación de títulos](using/content-management/generative-title.md)
+      + [Generación de contenido](using/content-management/generative-content.md)
       + [Generación de imágenes](using/content-management/generative-image.md)
 + Personalización y contenido dinámico {#personalized-dynamic-content}
    + Personalización {#personalization}
