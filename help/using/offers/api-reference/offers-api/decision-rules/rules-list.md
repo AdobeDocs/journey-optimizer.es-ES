@@ -6,29 +6,27 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
-source-git-commit: 40cd9df5b41fd622b8e447d7fc672502e9e29787
+source-git-commit: 3568e86015ee7b2ec59a7fa95e042449fb5a0693
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 6%
+source-wordcount: '199'
+ht-degree: 8%
 
 ---
 
 # Enumerar reglas de decisión {#list-decision-rules}
 
-Las reglas de decisión son restricciones agregadas a una oferta personalizada y aplicadas a un perfil para determinar la elegibilidad. Puede ver una lista de reglas de decisión existentes dentro de un contenedor realizando una única solicitud de GET a [!DNL Offer Library] API.
+Las reglas de decisión son restricciones agregadas a una oferta personalizada y aplicadas a un perfil para determinar la elegibilidad. Puede ver una lista de reglas de decisión existentes realizando una única solicitud de GET al [!DNL Offer Library] API.
 
 **Formato de API**
 
 ```http
-GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILITY_RULE}&{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/offer-rules?{QUERY_PARAMS}
 ```
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | El contenedor donde se encuentran las reglas de decisión. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ELIGIBILITY_RULE}` | Define el esquema asociado a las reglas de decisión. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
-| `{QUERY_PARAMS}` | Parámetros de consulta opcionales por los que filtrar los resultados. | `limit=1` |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API de persistencia. | `https://platform.adobe.io/data/core/dps` |
+| `{QUERY_PARAMS}` | Parámetros de consulta opcionales por los que filtrar los resultados. | `limit=2` |
 
 ## Uso de parámetros de consulta {#using-query-parameters}
 
@@ -40,128 +38,74 @@ Los parámetros de consulta más comunes para la paginación incluyen:
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `q` | Una cadena de consulta opcional para buscar en los campos seleccionados. La cadena de consulta debe estar en minúsculas y puede estar rodeada de comillas dobles para evitar que se muestre con tokens y para que salga de los caracteres especiales. Los caracteres `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` tienen un significado especial y deben evitarse con una barra invertida cuando aparecen en la cadena de consulta. | `default` |
-| `qop` | Aplica el operador AND u OR a los valores del parámetro de cadena de consulta q. | `AND` / `OR` |
-| `field` | Lista opcional de campos para limitar la búsqueda. Este parámetro se puede repetir como se indica a continuación: field=field1[,field=field2,...] y (las expresiones de ruta tienen la forma de rutas separadas por puntos, como _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Ordene los resultados por una propiedad específica. Adición de un `-` antes del título (`orderby=-title`) ordenará los elementos por título en orden descendente (Z-A). | `-repo:createdDate` |
-| `limit` | Limitar el número de reglas de decisión devueltas. | `limit=5` |
+| `property` | Un filtro de propiedad opcional: <br> <ul> : las propiedades se agrupan por operación AND. <br><br> - Los parámetros se pueden repetir como se indica a continuación: property=<property-expr>[&amp;property=<property-expr2>...] o property=<property-expr1>[,<property-expr2>...] <br><br> - Las expresiones de propiedad están en formato [!]campo[op]valor, con op in [¡==!=,&lt;=,>=,&lt;,>,~], que admiten expresiones regulares | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | Ordene los resultados por una propiedad específica. Si se agrega un - antes del nombre (orderby=-name), los elementos se ordenarán por nombre en orden descendente (Z-A). Las expresiones de ruta tienen la forma de rutas separadas por puntos. Este parámetro se puede repetir de esta manera: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
+| `limit` | Limite el número de entidades devueltas. | `limit=5` |
 
 **Solicitud**
 
 ```shell
-curl -X GET \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3&limit=1' \
-  -H 'Accept: *,application/vnd.adobe.platform.xcore.hal+json; schema="https://ns.adobe.com/experience/xcore/hal/results"' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X GET 'https://platform.adobe.io/data/core/dps/offer-rules?limit=2' \
+-H 'Accept: *,application/json' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 **Respuesta**
 
-Una respuesta correcta devuelve una lista de reglas de decisión que están presentes dentro del contenedor al que tiene acceso.
+Una respuesta correcta devuelve una lista de reglas de decisión a las que tiene acceso.
 
 ```json
 {
-    "containerId": "e0bd8463-0913-4ca1-bd84-6309134ca1f6",
-    "schemaNs": "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3",
-    "requestTime": "2020-10-22T04:14:12.676802Z",
-    "_embedded": {
-        "results": [
-            {
-                "instanceId": "36693c30-0377-11eb-9dd8-d781cc064407",
-                "schemas": [
-                    "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"
-                ],
-                "productContexts": [
-                    "acp"
-                ],
-                "repo:etag": 3,
-                "repo:createdDate": "2020-09-30T23:46:51.379003Z",
-                "repo:lastModifiedDate": "2020-10-02T05:06:36.780806Z",
-                "repo:createdBy": "{CREATED_BY}",
-                "repo:lastModifiedBy": "{MODIFIED_BY}",
-                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
-                "_instance": {
-                    "xdm:name": "Qualified for mortgage products",
-                    "offerui:segmentModel": {
-                        "name": "Qualified for mortgage products",
-                        "canHaveFolder": true,
-                        "isMissingAnsibleModel": false,
-                        "description": "",
-                        "deprecated": {
-                            "reason": "",
-                            "status": false
-                        },
-                        "schema": {
-                            "name": "_xdm.context.profile",
-                            "id": "some id"
-                        },
-                        "schemaName": "",
-                        "expression": {
-                            "xEventAttributesContainer": {
-                                "itemType": "eventTypeCardContainer",
-                                "logicalOperator": "then",
-                                "exclude": false,
-                                "items": []
-                            },
-                            "logicalOperator": "and",
-                            "isValid": true,
-                            "profileAttributesContainer": {
-                                "itemType": "segmentContainer",
-                                "logicalOperator": "and",
-                                "exclude": false,
-                                "items": [
-                                    {
-                                        "component": {
-                                            "__entity__": true,
-                                            "id": "profile._xcoree2etesting.productCategory",
-                                            "type": "n"
-                                        },
-                                        "isPlaceholder": false,
-                                        "comparisonType": "equals",
-                                        "value": [
-                                            "mortgage"
-                                        ]
-                                    }
-                                ]
-                            }
-                        },
-                        "mergePolicyId": "3558157a-19cb-40b4-ba13-a5f5ce31b011",
-                        "namespace": "ups"
-                    },
-                    "xdm:condition": {
-                        "xdm:format": "pql/text",
-                        "xdm:type": "PQL",
-                        "xdm:value": "_xcoree2etesting.productCategory.equals(\"mortgage\", false)"
-                    },
-                    "xdm:definedOn": {},
-                    "xdm:description": "",
-                    "@id": "xcore:eligibility-rule:12333714edbf49e6"
-                },
-                "_links": {
-                    "self": {
-                        "name": "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3#36693c30-0377-11eb-9dd8-d781cc064407",
-                        "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/36693c30-0377-11eb-9dd8-d781cc064407",
-                        "@type": "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"
-                    }
-                },
-                "sandboxName": "ode-prod-va7-edge-testing"
+    "results": [
+        {
+            "created": "2022-09-16T18:59:53.651+00:00",
+            "modified": "2022-09-16T18:59:53.651+00:00",
+            "etag": 1,
+            "schemas": [
+                "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"
+            ],
+            "createdBy": "{CREATED_BY}",
+            "lastModifiedBy": "{MODIFIED_BY}",
+            "id": "offerRule1234",
+            "name": "Californians with one or more purchases greater than $1000",
+            "condition": {
+                "type": "PQL",
+                "format": "pql/text",
+                "value": "homeAddress.stateProvince.equals(\"CA\", false) and (select var1 from xEvent where var1.eventType.equals(\"purchase\", true) and (var1.commerce.order.priceTotal = 1000.0 and var1.commerce.order.currencyCode.equals(\"USD\", false)))"
             }
-        ],
-        "total": 8,
-        "count": 1
-    },
+        },
+        {
+            "created": "2023-03-06T15:11:42.178+00:00",
+            "modified": "2023-03-06T15:11:42.178+00:00",
+            "etag": 1,
+            "schemas": [
+                "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"
+            ],
+            "createdBy": "{CREATED_BY}",
+            "lastModifiedBy": "{MODIFIED_BY}",
+            "id": "offerRule5678",
+            "name": "People born after 1981",
+            "description": "Persons with the birth date after 1981",
+            "condition": {
+                "type": "PQL",
+                "format": "pql/text",
+                "value": "person.birthDate occurs after date(1981, 1, 1)"
+            }
+        }
+    ],
+    "count": 2,
+    "total": 25,
     "_links": {
         "self": {
-            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3&limit=1",
-            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
+            "href": "/offer-rules?href={SELF_HREF}&limit=2",
+            "type": "application/json"
         },
         "next": {
-            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?start=36693c30-0377-11eb-9dd8-d781cc064407&orderby=instanceId&schema=https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3&limit=1",
-            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
+            "href": "/offer-rules?href={NEXT_HREF}&limit=2",
+            "type": "application/json"
         }
     }
 }

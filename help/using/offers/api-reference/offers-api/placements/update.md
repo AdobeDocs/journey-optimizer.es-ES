@@ -6,85 +6,81 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6990918c-e736-4f28-9ac6-9ac3101b069f
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: e8fe3ffd936c4954e8b17f58f1a2628bea0e2e79
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '147'
 ht-degree: 9%
 
 ---
 
 # Actualizar una ubicación {#update-placement}
 
-Puede modificar o actualizar una ubicación en el contenedor realizando una solicitud de PATCH a la variable [!DNL Offer Library] API.
+Se puede modificar o actualizar una posición realizando una petición de PATCH a la variable [!DNL Offer Library] API.
 
 Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte el [Documentación de parches de JSON](https://jsonpatch.com/).
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* y *Aceptar* campos en el encabezado de la solicitud:
+La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* en el encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
+| Content-Type | `application/json` |
 
 **Formato de API**
 
 ```http
-PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
+PATCH /{ENDPOINT_PATH}/placements/{ID}
 ```
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | El contenedor donde se encuentran las ubicaciones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | El ID de instancia de la ubicación que desea actualizar. | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API de persistencia. | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | El ID de la entidad que desea actualizar. | `offerPlacement1234` |
 
 **Solicitud**
 
 ```shell
-curl -X PATCH \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/9aa58fd0-13d7-11eb-928b-576735ea4db8' \
-  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
-  -H 'Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}'\
-  -d '[
-        {
-            "op": "replace",
-            "path": "/_instance/xdm:name",
-            "value": "Sales and Promotions Placement"
-        },
-        {
-            "op": "replace",
-            "path": "/_instance/xdm:description",
-            "value": "A test placement to contain offers of sales and discounts"
-        }
-    ]'
+curl -X PATCH 'https://platform.adobe.io/data/core/dps/placements/offerPlacement1234' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer  {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}' \
+-d '[
+    {
+        "op": "replace",
+        "path": "/name",
+        "value": "Updated placement"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "Updated placement description"
+    }
+]'
 ```
 
 | Parámetro | Descripción |
 | --------- | ----------- |
-| `op` | La llamada de operación utilizada para definir la acción necesaria para actualizar la conexión. Las operaciones incluyen: `add`, `replace`, y `remove`. |
+| `op` | La llamada de operación utilizada para definir la acción necesaria para actualizar la conexión. Las operaciones incluyen: `add`, `replace`, `remove`, `copy` y `test`. |
 | `path` | Ruta del parámetro que se va a actualizar. |
 | `value` | El nuevo valor con el que desea actualizar el parámetro. |
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles actualizados de la ubicación, incluidos su ID de instancia y su ubicación únicos `@id`.
+Una respuesta correcta devuelve los detalles actualizados de la ubicación, incluidos su ID de instancia y su ubicación únicos `id`.
 
 ```json
 {
-    "instanceId": "9aa58fd0-13d7-11eb-928b-576735ea4db8",
-    "@id": "xcore:offer-placement:124e0be5699743d3",
-    "repo:etag": 2,
-    "repo:createdDate": "2020-10-21T19:57:09.837456Z",
-    "repo:lastModifiedDate": "2020-10-21T19:59:10.700149Z",
-    "repo:createdBy": "{CREATED_BY}",
-    "repo:lastModifiedBy": "{MODIFIED_BY}",
-    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+    "etag": 2,
+    "createdBy": "{CREATED_BY}",
+    "lastModifiedBy": "{MODIFIED_BY}",
+    "id": "{ID}",
+    "sandboxId": "{SANDBOX_ID}",
+    "createdDate": "2023-05-31T15:09:11.771Z",
+    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
+    "createdByClientId": "{CREATED_CLIENT_ID}",
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```

@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 76661d574ffabf32c4c1db8d88744604e50d7b40
+source-git-commit: 9778f401876f09e3a28dc787ecfd2438c0e1b173
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 4%
+source-wordcount: '641'
+ht-degree: 5%
 
 ---
 
@@ -24,6 +24,86 @@ Para obtener más información sobre cómo trabajar con las API, consulte estas 
 * [API de decisiones](decisioning-api.md)
 * [API de Edge Decisioning](edge-decisioning-api.md)
 * [API de decisiones por lotes](batch-decisioning-api.md)
+
+## Administración del acceso a un contenedor {#manage-access-to-container}
+
+Un contenedor es un mecanismo de aislamiento para mantener separadas las diferentes preocupaciones. El ID de contenedor es el primer elemento de ruta para todas las API del repositorio. Todos los objetos de toma de decisiones residen en un contenedor.
+
+Un administrador puede agrupar entidades principales, recursos y permisos de acceso similares en perfiles. Esto reduce la carga administrativa y está respaldado por [Adobe Admin Console](https://adminconsole.adobe.com/). Debe ser administrador de productos de Adobe Experience Platform en su organización para crear perfiles y asignarles usuarios. Es suficiente con crear perfiles de producto que coincidan con determinados permisos en un solo paso y luego simplemente añadir usuarios a esos perfiles. Los perfiles actúan como grupos a los que se han concedido permisos y cada usuario real o técnico de ese grupo hereda esos permisos.
+
+Con privilegios de administrador, puede conceder o retirar permisos a los usuarios a través del [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}. For more information, see the [Access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=es){target="_blank"}.
+
+### Enumerar contenedores accesibles para usuarios e integraciones {#list-containers-accessible-to-users-and-integrations}
+
+**Formato de API**
+
+```http
+GET /{ENDPOINT_PATH}?product={PRODUCT_CONTEXT}&property={PROPERTY}==decisioning
+```
+
+| Parámetro | Descripción | Ejemplo |
+| --------- | ----------- | ------- |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{PRODUCT_CONTEXT}` | Filtra la lista de contenedores por su asociación a contextos de producto. | `acp` |
+| `{PROPERTY}` | Filtra el tipo de contenedor que se devuelve. | `_instance.containerType==decisioning` |
+
+**Solicitud**
+
+```shell
+curl -X GET \
+  'https://platform.adobe.io/data/core/xcore/?product=acp&property=_instance.containerType==decisioning' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}'
+```
+
+**Respuesta**
+
+Una respuesta correcta devuelve información sobre los contenedores de administración de decisiones. Esto incluye un `instanceId` atributo, cuyo valor es su ID de contenedor.
+
+```json
+{
+    "_embedded": {
+        "https://ns.adobe.com/experience/xcore/container": [
+            {
+                "instanceId": "{INSTANCE_ID}",
+                "schemas": [
+                    "https://ns.adobe.com/experience/xcore/container;version=0.5"
+                ],
+                "productContexts": [
+                    "acp"
+                ],
+                "repo:etag": 2,
+                "repo:createdDate": "2020-09-16T07:54:28.319959Z",
+                "repo:lastModifiedDate": "2020-09-16T07:54:32.098139Z",
+                "repo:createdBy": "{CREATED_BY}",
+                "repo:lastModifiedBy": "{MODIFIED_BY}",
+                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
+                "_instance": {
+                    "containerType": "decisioning",
+                    "repo:name": "{REPO_NAME}",
+                    "dataCenter": "{DATA_CENTER}",
+                    "parentName": "{PARENT_NAME}",
+                    "parentId": "{PARENT_ID}"
+                },
+                "_links": {
+                    "self": {
+                        "href": "/containers/{INSTANCE_ID}"
+                    }
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": {
+            "href": "/?product=acp&property=_instance.containerType==decisioning",
+            "@type": "https://ns.adobe.com/experience/xcore/hal/home"
+        }
+    }
+}
+```
 
 ## Funciones de API de Edge Decisioning {#edge}
 
