@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
-source-git-commit: 9b9ca28b185a342d908eeb53d772f9d011105aba
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 16%
+source-wordcount: '289'
+ht-degree: 12%
 
 ---
 
@@ -17,17 +17,19 @@ ht-degree: 16%
 
 Las ubicaciones son contenedores que se utilizan para mostrar sus ofertas. Una ubicación ayuda a garantizar que el contenido de oferta correcto se muestre en la ubicación correcta dentro del mensaje. Al agregar contenido a una oferta, se le pedirá que seleccione una ubicación en la que se pueda mostrar dicho contenido.
 
-Puede ver una lista de todas las ubicaciones realizando una única solicitud de GET a [!DNL Offer Library] API.
+Puede ver una lista de todas las ubicaciones dentro de un contenedor realizando una sola solicitud de GET a la variable [!DNL Offer Library] API.
 
 **Formato de API**
 
 ```http
-GET /{ENDPOINT_PATH}/placements?{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT}&{QUERY_PARAMS}
 ```
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/dps` |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | El contenedor donde se encuentran las ubicaciones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `SCHEMA_PLACEMENT}` | Define el esquema asociado a las ubicaciones. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
 | `{QUERY_PARAMS}` | Parámetros de consulta opcionales por los que filtrar los resultados. | `limit=2` |
 
 ## Uso de parámetros de consulta {#using-query-parameters}
@@ -40,93 +42,107 @@ Los parámetros de consulta más comunes para la paginación incluyen:
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `property` | Un filtro de propiedad opcional: <br> <ul> : las propiedades se agrupan por operación AND. <br><br> - Los parámetros se pueden repetir como se indica a continuación: property=<property-expr>[&amp;property=<property-expr2>...] o property=<property-expr1>[,<property-expr2>...] <br><br> - Las expresiones de propiedad están en formato [!]campo[op]valor, con op in [¡==!=,&lt;=,>=,&lt;,>,~], que admiten expresiones regulares | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | Ordene los resultados por una propiedad específica. Si se agrega un - antes del nombre (orderby=-name), los elementos se ordenarán por nombre en orden descendente (Z-A). Las expresiones de ruta tienen la forma de rutas separadas por puntos. Este parámetro se puede repetir de esta manera: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
+| `q` | Una cadena de consulta opcional para buscar en los campos seleccionados. La cadena de consulta debe estar en minúsculas y puede estar rodeada de comillas dobles para evitar que se muestre con tokens y para que salga de los caracteres especiales. Los caracteres `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` tienen un significado especial y deben evitarse con una barra invertida cuando aparecen en la cadena de consulta. | Sitio web JSON |
+| `qop` | Aplica el operador AND u OR a los valores del parámetro de cadena de consulta q. | `AND` / `OR` |
+| `field` | Lista opcional de campos para limitar la búsqueda. Este parámetro se puede repetir como se indica a continuación: field=field1[,field=field2,...] y (las expresiones de ruta tienen la forma de rutas separadas por puntos, como _instance.xdm:name) | `_instance.xdm:name` |
+| `orderBy` | Ordene los resultados por una propiedad específica. Adición de un `-` antes del título (`orderby=-title`) ordenará los elementos por título en orden descendente (Z-A). | `-repo:createdDate` |
 | `limit` | Limite el número de ubicaciones devueltas. | `limit=5` |
 
 **Solicitud**
 
 ```shell
-curl -X GET 'https://platform.adobe.io/data/core/dps/placements?limit=2' \
--H 'Accept: *,application/json' \
--H 'Authorization: Bearer {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X GET \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4&limit=2' \
+  -H 'Accept: *,application/json' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 **Respuesta**
 
-Una respuesta correcta devuelve una lista de ubicaciones que están presentes y a las que tiene acceso.
+Una respuesta correcta devuelve una lista de ubicaciones que están presentes dentro del contenedor al que tiene acceso.
 
 ```json
 {
-    "results": [
-        {
-            "created": "2023-05-15T11:22:50.031+00:00",
-            "modified": "2023-05-15T11:22:50.031+00:00",
-            "etag": 1,
-            "schemas": [
-                "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.5"
-            ],
-            "createdBy": "{CREATED_BY}",
-            "lastModifiedBy": "{MODIFIED_BY}",
-            "id": "offerPlacement5678",
-            "name": "Placement one",
-            "description": "Placement description",
-            "componentType": "html",
-            "channel": "https://ns.adobe.com/xdm/channel-types/web",
-            "itemCount": 1,
-            "allowDuplicatePlacements": false,
-            "returnContent": false,
-            "returnMetaData": {
-                "decisionName": true,
-                "offerName": true,
-                "offerAttributes": true,
-                "offerPriority": true,
-                "placementName": true,
-                "channelType": true,
-                "contentType": true
+    "containerId": "e0bd8463-0913-4ca1-bd84-6309134ca1f6",
+    "schemaNs": "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4",
+    "requestTime": "2020-10-21T19:48:51.843067Z",
+    "_embedded": {
+        "results": [
+            {
+                "instanceId": "0feb6a80-0f32-11eb-8110-e17787c335b5",
+                "schemas": [
+                    "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"
+                ],
+                "productContexts": [
+                    "acp"
+                ],
+                "repo:etag": 2,
+                "repo:createdDate": "2020-10-15T22:02:05.480449Z",
+                "repo:lastModifiedDate": "2020-10-15T22:13:00.278175Z",
+                "repo:createdBy": "{CREATED_BY}",
+                "repo:lastModifiedBy": "{MODIFIED_BY}",
+                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
+                "_instance": {
+                    "xdm:name": "New placement name",
+                    "xdm:componentType": "https://ns.adobe.com/experience/offer-management/content-component-html",
+                    "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
+                    "xdm:description": "Updated placement description",
+                    "@id": "xcore:offer-placement:12466ef35fc5baa0"
+                },
+                "_links": {
+                    "self": {
+                        "name": "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4#0feb6a80-0f32-11eb-8110-e17787c335b5",
+                        "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/0feb6a80-0f32-11eb-8110-e17787c335b5",
+                        "@type": "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"
+                    }
+                }
+            },
+            {
+                "instanceId": "269192b0-f8f2-11ea-8723-916b9fbadc53",
+                "schemas": [
+                    "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"
+                ],
+                "productContexts": [
+                    "acp"
+                ],
+                "repo:etag": 1,
+                "repo:createdDate": "2020-09-17T14:29:10.107121Z",
+                "repo:lastModifiedDate": "2020-09-17T14:29:10.107121Z",
+                "repo:createdBy": "{CREATED_BY}",
+                "repo:lastModifiedBy": "{MODIFIED_BY}",
+                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
+                "_instance": {
+                    "xdm:componentType": "https://ns.adobe.com/experience/offer-management/content-component-html",
+                    "xdm:name": "demo placement",
+                    "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
+                    "@id": "xcore:offer-placement:1221fac4e7340521"
+                },
+                "_links": {
+                    "self": {
+                        "name": "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4#269192b0-f8f2-11ea-8723-916b9fbadc53",
+                        "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/269192b0-f8f2-11ea-8723-916b9fbadc53",
+                        "@type": "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"
+                    }
+                },
+                "sandboxName": "ode-prod-va7-edge-testing"
             }
-        },
-        {
-            "created": "2023-05-19T08:29:15.875+00:00",
-            "modified": "2023-05-19T08:29:15.875+00:00",
-            "etag": 1,
-            "schemas": [
-                "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.5"
-            ],
-            "createdBy": "{CREATED_BY}",
-            "lastModifiedBy": "{MODIFIED_BY}",
-            "id": "offerPlacement1234",
-            "name": "Placement two",
-            "description": "Placement description",
-            "componentType": "html",
-            "channel": "https://ns.adobe.com/xdm/channel-types/email",
-            "itemCount": 1,
-            "allowDuplicatePlacements": false,
-            "returnContent": false,
-            "returnMetaData": {
-                "decisionName": true,
-                "offerName": true,
-                "offerAttributes": true,
-                "offerPriority": true,
-                "placementName": true,
-                "channelType": true,
-                "contentType": true
-            }
-        }
-    ],
-    "count": 2,
-    "total": 4,
+        ],
+        "total": 17,
+        "count": 2
+    },
     "_links": {
         "self": {
-            "href": "/placements?href={SELF_HREF}&limit=2",
-            "type": "application/json"
+            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4&limit=2",
+            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
         },
         "next": {
-            "href": "/placements?href={NEXT_HREF}&limit=2",
-            "type": "application/json"
+            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?start=269192b0-f8f2-11ea-8723-916b9fbadc53&orderby=instanceId&schema=https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4&limit=2",
+            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
         }
     }
 }

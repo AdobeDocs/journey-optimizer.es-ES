@@ -6,74 +6,84 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
-source-git-commit: 3568e86015ee7b2ec59a7fa95e042449fb5a0693
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 13%
+source-wordcount: '139'
+ht-degree: 12%
 
 ---
 
 # Crear una oferta de reserva {#create-fallback-offer}
 
-Puede crear una oferta de reserva realizando una solicitud de POST a [!DNL Offer Library] API.
+Puede crear una oferta de reserva realizando una solicitud de POST a [!DNL Offer Library] API, al tiempo que proporciona su ID de contenedor.
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* en el encabezado de la solicitud:
+La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* y *Aceptar* campos en el encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
-| Content-Type | `application/json` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
 
 **Formato de API**
 
 ```http
-POST /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
+POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 ```
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Ruta de extremo para las API de persistencia. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | El ID de la entidad que desea actualizar. | `fallbackOffer1234` |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | Contenedor donde se encuentran las ofertas de reserva. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Solicitud**
 
 ```shell
-curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?offer-type=fallback' \
--H 'Content-Type: application/json' \
--H 'Authorization: Bearer  {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}' \
--d '[
-    {
-        "op": "replace",
-        "path": "/name",
-        "value": "Updated fallback offer"
-    },
-    {
-        "op": "replace",
-        "path": "/description",
-        "value": "Updated fallback offer description"
-    }
-]'
+curl -X POST \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Content-Type: application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}' \
+  -d '{
+        "xdm:status": "approved",
+        "xdm:name": "Fallback for sales",
+        "xdm:representations": [
+            {
+                "xdm:components": [
+                    {
+                        "dc:language": [
+                            "en"
+                        ],
+                        "@type": "https://ns.adobe.com/experience/offer-management/content-component-html",
+                        "dc:format": "text/html"
+                    }
+                ],
+                "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
+                "xdm:placement": "xcore:offer-placement:124e0be5699743d3"
+            }
+        ]
+}'
 ```
 
 **Respuesta**
 
-Una respuesta correcta devuelve información sobre la oferta de reserva recién creada, incluida su oferta de reserva única `id`. Puede usar el complemento `id` en pasos posteriores para actualizar o eliminar la oferta de reserva o para crear una decisión en un tutorial posterior.
+Una respuesta correcta devuelve información sobre la oferta de reserva recién creada, incluido su ID de instancia y ubicación únicos `@id`. Puede usar el ID de instancia en pasos posteriores para actualizar o eliminar la oferta de reserva. Puede utilizar su oferta de reserva única `@id` en un tutorial posterior para crear una decisión.
 
 
 ```json
 {
-    "etag": 2,
-    "createdBy": "{CREATED_BY}",
-    "lastModifiedBy": "{MODIFIED_BY}",
-    "id": "{ID}",
-    "sandboxId": "{SANDBOX_ID}",
-    "createdDate": "2023-05-31T15:09:11.771Z",
-    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
-    "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+    "instanceId": "b3966680-13ec-11eb-9c20-8323709cfc65",
+    "@id": "xcore:fallback-offer:124e2e764b1ac1b9",
+    "repo:etag": 1,
+    "repo:createdDate": "2020-10-21T22:28:11.111732Z",
+    "repo:lastModifiedDate": "2020-10-21T22:28:11.111732Z",
+    "repo:createdBy": "{CREATED_BY}",
+    "repo:lastModifiedBy": "{MODIFIED_BY}",
+    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```

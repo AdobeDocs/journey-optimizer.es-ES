@@ -6,41 +6,43 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
-source-git-commit: e8fe3ffd936c4954e8b17f58f1a2628bea0e2e79
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 12%
+source-wordcount: '153'
+ht-degree: 9%
 
 ---
 
 # Eliminar una oferta de reserva {#delete-fallback-offer}
 
-En ocasiones puede ser necesario eliminar (DELETE) una oferta de reserva. Esto se hace realizando una solicitud de DELETE a [!DNL Offer Library] API con el ID de la oferta de reserva que desea eliminar.
+En ocasiones puede ser necesario eliminar (DELETE) una oferta de reserva. Solo se pueden eliminar las ofertas de reserva que cree en el contenedor de inquilino. Esto se hace realizando una solicitud de DELETE a [!DNL Offer Library] API que utiliza el $id de la oferta de reserva que desea eliminar.
 
 **Formato de API**
 
 ```http
-DELETE /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
+DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Ruta de extremo para las API de persistencia. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | El ID de la entidad que desea eliminar. | `fallbackOffer1234` |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | Contenedor donde se encuentran las ofertas de reserva. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | El ID de instancia de la oferta de reserva. | `b3966680-13ec-11eb-9c20-8323709cfc65` |
 
 **Solicitud**
 
 ```shell
-curl -X DELETE 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?offer-type=fallback' \
--H 'Content-Type: application/json' \
--H 'Authorization: Bearer  {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X DELETE \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/b3966680-13ec-11eb-9c20-8323709cfc65' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 **Respuesta**
 
-Una respuesta correcta devuelve el estado HTTP 200 y un cuerpo en blanco.
+Una respuesta correcta devuelve el estado HTTP 202 (sin contenido) y un cuerpo en blanco.
 
-Puede confirmar la eliminación intentando una solicitud de búsqueda (GET) para la oferta y debe recibir el estado HTTP 404 (no encontrado) porque se ha eliminado la oferta de reserva.
+Puede confirmar la eliminación intentando una solicitud de búsqueda (GET) a la oferta de reserva. Deberá incluir un encabezado Aceptar en la solicitud, pero deberá recibir el estado HTTP 404 (no encontrado) porque la oferta de reserva se ha eliminado del contenedor.

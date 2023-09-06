@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: e8fe3ffd936c4954e8b17f58f1a2628bea0e2e79
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 15%
+source-wordcount: '115'
+ht-degree: 13%
 
 ---
 
 # Crear una decisión {#create-decision}
 
-Puede crear una decisión realizando una solicitud de POST a [!DNL Offer Library] API.
+Puede crear una decisión realizando una solicitud de POST a [!DNL Offer Library] API, al tiempo que proporciona su ID de contenedor.
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
@@ -29,67 +29,61 @@ La siguiente tabla muestra los valores válidos que componen la variable *Conten
 **Formato de API**
 
 ```http
-POST /{ENDPOINT_PATH}/offer-decisions
+POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 ```
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Ruta de extremo para las API de persistencia. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | El contenedor en el que se encuentran las decisiones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Solicitud**
 
 ```shell
-curl -X POST 'https://platform.adobe.io/data/core/offer-decisions' \
--H 'Content-Type: application/json' \
--H 'Authorization: Bearer {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}' \
--d '{
-    "name": "Test Offer Decision",
-    "description": "Offer Decision description",
-    "status": "live",
-    "startDate": "2021-08-23T07:00:00.000+00:00",
-    "endDate": "2021-08-25T07:00:00.000+00:00",
-    "fallback": "fallbackOffer1234",
-    "criteria": [
-        {
-            "placements": [
-                "offerPlacement1234",
-                "offerPlacement5678"
-            ],
-            "rank": {
-                "priority": 0,
-                "order": {
-                    "orderEvaluationType": "ranking-strategy",
-                    "rankingStrategy": "123456789123"
-                }
-            },
-            "profileConstraint": {
-                "profileConstraintType": "none"
-            },
-            "optionSelection": {
-                "filter": "offerCollection1234"
-            }
-        }
-    ]
-}'
+curl -X POST \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Content-Type: application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}' \
+  -d '{
+      "_instance": {
+          "xdm:name": "Test API",
+          "xdm:startDate": "2022-01-20T16:00:00Z",
+          "xdm:endDate": "2022-01-27T16:00:00Z",
+          "xdm:status": "live",
+          "xdm:criteria": [
+              {
+                  "xdm:placements": [
+                      "xcore:offer-placement:1457f9322f005194"
+                  ],
+                  "xdm:optionSelection": {
+                      "xdm:filter": "xcore:offer-filter:1457f93227d0b6f0"
+                  }
+              }
+          ],
+          "xdm:fallback": "xcore:fallback-offer:13c259399d8bf013"
+      },
+      "_links": {}
+  }'
 ```
 
 **Respuesta**
 
-Una respuesta correcta devuelve información sobre la decisión recién creada, incluido su ID de instancia y ubicación únicos `@id`. Puede usar el ID en pasos posteriores para actualizar o eliminar su decisión.
+Una respuesta correcta devuelve información sobre la decisión recién creada, incluido su ID de instancia y ubicación únicos `@id`. Puede usar el ID de instancia en pasos posteriores para actualizar o eliminar su decisión.
 
 ```json
 {
-    "etag": 1,
-    "createdBy": "{CREATED_BY}",
-    "lastModifiedBy": "{MODIFIED_BY}",
-    "id": "{ID}",
-    "sandboxId": "{SANDBOX_ID}",
-    "createdDate": "2023-05-31T15:09:11.771Z",
-    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
-    "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+    "instanceId": "f88c9be0-1245-11eb-8622-b77b60702882",
+    "@id": "xcore:offer-activity:124b79dc3ce2d720",
+    "repo:etag": 1,
+    "repo:createdDate": "2020-10-19T20:02:09.694067Z",
+    "repo:lastModifiedDate": "2020-10-19T20:02:09.694067Z",
+    "repo:createdBy": "{CREATED_BY}",
+    "repo:lastModifiedBy": "{MODIFIED_BY}",
+    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```

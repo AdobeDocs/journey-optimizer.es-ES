@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: 9b9ca28b185a342d908eeb53d772f9d011105aba
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 8%
+source-wordcount: '262'
+ht-degree: 6%
 
 ---
 
@@ -17,28 +17,31 @@ ht-degree: 8%
 
 Una oferta personalizada es un mensaje de marketing personalizable basado en reglas de elegibilidad y restricciones.
 
-Puede ver una lista de todas las ofertas personalizadas realizando una única solicitud de GET a [!DNL Offer Library] API.
+Puede ver una lista de todas las ofertas personalizadas dentro de un contenedor realizando una única solicitud de GET a [!DNL Offer Library] API.
 
 **Formato de API**
 
 ```http
-GET /{ENDPOINT_PATH}/offers?offer-type=personalized&{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALIZED_OFFER}&{QUERY_PARAMS}
 ```
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Ruta de extremo para las API de persistencia. | `https://platform.adobe.io/data/core/dps` |
-| `{QUERY_PARAMS}` | Parámetros de consulta opcionales por los que filtrar los resultados. | `limit=2` |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | El contenedor donde se encuentran las ofertas personalizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_PERSONALIZED_OFFER}` | Define el esquema asociado a las ofertas personalizadas. | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
+| `{QUERY_PARAMS}` | Parámetros de consulta opcionales por los que filtrar los resultados. | `limit=1` |
 
 **Solicitud**
 
 ```shell
-curl -X GET 'https://platform.adobe.io/data/core/dps/offers?offer-type=personalized&limit=2' \
--H 'Accept: *,application/json' \
--H 'Authorization: Bearer {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X GET \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5&limit=1' \
+  -H 'Accept: *,application/vnd.adobe.platform.xcore.hal+json; schema="https://ns.adobe.com/experience/xcore/hal/results"' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 ## Uso de parámetros de consulta {#using-query-parameters}
@@ -51,77 +54,118 @@ Los parámetros de consulta más comunes para la paginación incluyen:
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `property` | Un filtro de propiedad opcional: <br> <ul> : las propiedades se agrupan por operación AND. <br><br> - Los parámetros se pueden repetir como se indica a continuación: property=<property-expr>[&amp;property=<property-expr2>...] o property=<property-expr1>[,<property-expr2>...] <br><br> - Las expresiones de propiedad están en formato [!]campo[op]valor, con op in [¡==!=,&lt;=,>=,&lt;,>,~], que admiten expresiones regulares | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | Ordene los resultados por una propiedad específica. Si se agrega un - antes del nombre (orderby=-name), los elementos se ordenarán por nombre en orden descendente (Z-A). Las expresiones de ruta tienen la forma de rutas separadas por puntos. Este parámetro se puede repetir de esta manera: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
-| `limit` | Limite el número de ubicaciones devueltas. | `limit=5` |
+| `q` | Una cadena de consulta opcional para buscar en los campos seleccionados. La cadena de consulta debe estar en minúsculas y puede estar rodeada de comillas dobles para evitar que se muestre con tokens y para que salga de los caracteres especiales. Los caracteres `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` tienen un significado especial y deben evitarse con una barra invertida cuando aparecen en la cadena de consulta. | `discounted offers` |
+| `qop` | Aplica el operador AND u OR a los valores del parámetro de cadena de consulta q. | `AND` / `OR` |
+| `field` | Lista opcional de campos para limitar la búsqueda. Este parámetro se puede repetir como se indica a continuación: field=field1[,field=field2,...] y (las expresiones de ruta tienen la forma de rutas separadas por puntos, como _instance.xdm:name) | `_instance.xdm:name` |
+| `orderBy` | Ordene los resultados por una propiedad específica. Adición de un `-` antes del título (`orderby=-title`) ordenará los elementos por título en orden descendente (Z-A). | `-repo:createdDate` |
+| `limit` | Limite el número de ofertas personalizadas devueltas. | `limit=5` |
 
 **Respuesta**
 
-Una respuesta correcta devuelve una lista de ofertas personalizadas que están presentes junto con las que tiene acceso a.
+Una respuesta correcta devuelve una lista de ofertas personalizadas que están presentes dentro del contenedor al que tiene acceso.
 
 ```json
 {
-    "results": [
-        {
-            "created": "2023-05-15T14:35:16.781+00:00",
-            "modified": "2023-05-15T14:38:26.691+00:00",
-            "etag": 2,
-            "schemas": [
-                "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.15"
-            ],
-            "createdBy": "{CREATED_BY}",
-            "lastModifiedBy": "{MODIFIED_BY}",
-            "id": "personalizedOffer1234",
-            "name": "Test personalized offer with frequency constraint",
-            "status": "draft",
-            "representations": [
-                {
-                    "channel": "https://ns.adobe.com/xdm/channel-types/web",
-                    "placement": "offerPlacement1234",
-                    "components": [
+    "containerId": "e0bd8463-0913-4ca1-bd84-6309134ca1f6",
+    "schemaNs": "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5",
+    "requestTime": "2020-10-22T20:36:50.408105Z",
+    "_embedded": {
+        "results": [
+            {
+                "instanceId": "2cdb4d10-149e-11eb-b1a9-a779d2fe8690",
+                "schemas": [
+                    "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"
+                ],
+                "productContexts": [
+                    "acp"
+                ],
+                "repo:etag": 2,
+                "repo:createdDate": "2020-10-22T19:38:35.489354Z",
+                "repo:lastModifiedDate": "2020-10-22T19:45:43.839088Z",
+                "repo:createdBy": "{CREATED_BY}",
+                "repo:lastModifiedBy": "{MODIFIED_BY}",
+                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
+                "_instance": {
+                    "xdm:name": "Checking Advanced",
+                    "xdm:representations": [
                         {
-                            "type": "html",
-                            "format": "text/html",
-                            "language": [
-                                "en-us"
+                            "xdm:components": [
+                                {
+                                    "dc:format": "image/png",
+                                    "repo:id": "urn:aaid:sc:US:7db21be9-89ee-472a-b2c9-91f7a39ada51",
+                                    "repo:resolveURL": "https://platform-cs-va6.adobe.io/content/storage/id/urn:aaid:sc:US:7db21be9-89ee-472a-b2c9-91f7a39ada51/:rendition;size=300",
+                                    "repo:name": "mobile-check-deposit.png",
+                                    "dc:language": [
+                                        "en-us"
+                                    ],
+                                    "@type": "https://ns.adobe.com/experience/offer-management/content-component-imagelink",
+                                    "xdm:deliveryURL": ""
+                                }
                             ],
-                            "content": "Hello You qualify for our Discount of 60%"
+                            "xdm:channel": "https://ns.adobe.com/xdm/channel-types/offline",
+                            "xdm:placement": "xcore:offer-placement:124f4e33724bb15f"
+                        },
+                        {
+                            "xdm:components": [
+                                {
+                                    "dc:format": "text/html",
+                                    "repo:name": "my content",
+                                    "dc:language": [
+                                        "en-us"
+                                    ],
+                                    "xdm:content": "{\n\"foo\": \"bar\"\n}",
+                                    "@type": "https://ns.adobe.com/experience/offer-management/content-component-html"
+                                }
+                            ],
+                            "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
+                            "xdm:placement": "xcore:offer-placement:124e0be5699743d3"
                         }
-                    ]
-                }
-            ],
-            "selectionConstraint": {
-                "startDate": "2022-07-27T05:00:00.000+00:00",
-                "endDate": "2023-07-29T05:00:00.000+00:00",
-                "profileConstraintType": "none"
-            },
-            "rank": {
-                "priority": 0
-            },
-            "cappingConstraint": {},
-            "frequencyCappingConstraints": [
-                {
-                    "enabled": false,
-                    "limit": 1,
-                    "startDate": "2023-05-15T14:25:49.622+00:00",
-                    "endDate": "2023-05-25T14:25:49.622+00:00",
-                    "scope": "global",
-                    "entity": "offer",
-                    "repeat": {
-                        "enabled": false,
-                        "unit": "month",
-                        "unitCount": 1
+                    ],
+                    "xdm:rank": {
+                        "xdm:priority": 10
+                    },
+                    "xdm:characteristics": {
+                        "PROD": "checking",
+                        "offer_code": "CHECK200",
+                        "region": "NA"
+                    },
+                    "xdm:selectionConstraint": {
+                        "xdm:startDate": "2020-10-22T07:00:00.000Z",
+                        "xdm:endDate": "2020-12-31T08:00:00.000Z",
+                        "xdm:eligibilityRule": "xcore:eligibility-rule:124f4f57259caba5"
+                    },
+                    "xdm:status": "draft",
+                    "xdm:cappingConstraint": {
+                        "xdm:globalCap": 1000
+                    },
+                    "xdm:tags": [
+                        "xcore:tag:124f4e5c8a00cd92",
+                        "xcore:tag:1229cf47455177b1"
+                    ],
+                    "@id": "xcore:personalized-offer:124f513c290bb16e"
+                },
+                "_links": {
+                    "self": {
+                        "name": "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5#2cdb4d10-149e-11eb-b1a9-a779d2fe8690",
+                        "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/2cdb4d10-149e-11eb-b1a9-a779d2fe8690",
+                        "@type": "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"
                     }
-                }
-            ]
-        }
-    ],
-    "count": 1,
-    "total": 1,
+                },
+                "sandboxName": "ode-prod-va7-edge-testing"
+            }
+        ],
+        "total": 15,
+        "count": 1
+    },
     "_links": {
         "self": {
-            "href": "/offers?offer-type=personalized&href={SELF_HREF}",
-            "type": "application/json"
+            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5&orderby=-repo:createdDate&limit=1",
+            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
+        },
+        "next": {
+            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?start=1603395515489%2C2cdb4d10-149e-11eb-b1a9-a779d2fe8690&schema=https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5&orderby=-repo%3AcreatedDate%2CinstanceId&limit=1",
+            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
         }
     }
 }

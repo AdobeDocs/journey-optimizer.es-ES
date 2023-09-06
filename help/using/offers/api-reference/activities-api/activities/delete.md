@@ -6,41 +6,43 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
-source-git-commit: 3568e86015ee7b2ec59a7fa95e042449fb5a0693
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 9%
+source-wordcount: '141'
+ht-degree: 7%
 
 ---
 
 # Eliminar una decisión {#delete-decision}
 
-Ocasionalmente puede ser necesario eliminar (DELETE) una decisión. Esto se hace realizando una solicitud de DELETE a [!DNL Offer Library] API con el `id` de la decisión que desea eliminar.
+Ocasionalmente puede ser necesario eliminar (DELETE) una decisión. Solo se pueden eliminar las decisiones que cree en el contenedor de inquilino. Esto se hace realizando una solicitud de DELETE a [!DNL Offer Library] API que utiliza el $id de la oferta de reserva que desea eliminar.
 
 **Formato de API**
 
 ```http
-DELETE /{ENDPOINT_PATH}/offer-decisions/{ID}
+DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Ruta de extremo para las API de persistencia. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | El ID de la entidad que desea eliminar. | `offerDecision1234` |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | El contenedor en el que se encuentran las decisiones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | El ID de instancia de la decisión. | `f88c9be0-1245-11eb-8622-b77b60702882` |
 
 **Solicitud**
 
 ```shell
-curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-decisions/offerDecision1234' \
--H 'Content-Type: application/json' \
--H 'Authorization: Bearer  {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X DELETE \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/f88c9be0-1245-11eb-8622-b77b60702882' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 **Respuesta**
 
-Una respuesta correcta devuelve el estado HTTP 200 y un cuerpo en blanco.
+Una respuesta correcta devuelve el estado HTTP 202 (sin contenido) y un cuerpo en blanco.
 
-Para confirmar la eliminación, intente realizar una solicitud de búsqueda (GET) para confirmar la decisión. Debe recibir el estado HTTP 404 (no encontrado) porque la decisión se ha eliminado.
+Para confirmar la eliminación, intente realizar una solicitud de búsqueda (GET) para confirmar la decisión. Deberá incluir un encabezado Aceptar en la solicitud, pero deberá recibir el estado HTTP 404 (no encontrado) porque la decisión se ha eliminado del contenedor.

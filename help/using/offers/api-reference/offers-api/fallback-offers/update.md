@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
-source-git-commit: 3568e86015ee7b2ec59a7fa95e042449fb5a0693
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 12%
+source-wordcount: '169'
+ht-degree: 11%
 
 ---
 
@@ -31,13 +31,14 @@ La siguiente tabla muestra los valores válidos que componen la variable *Conten
 **Formato de API**
 
 ```http
-PATCH /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
+PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Ruta de extremo para las API de persistencia. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | El ID de la entidad que desea actualizar. | `fallbackOffer1234` |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | Contenedor donde se encuentran las ofertas de reserva. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | El ID de instancia de la oferta de reserva. | `b3966680-13ec-11eb-9c20-8323709cfc65` |
 
 **Solicitud**
 
@@ -61,7 +62,7 @@ curl -X PATCH \
 
 | Parámetro | Descripción |
 | --------- | ----------- |
-| `op` | La llamada de operación utilizada para definir la acción necesaria para actualizar la conexión. Las operaciones incluyen: `add`, `replace`, `remove`, `copy` y `test`. |
+| `op` | La llamada de operación utilizada para definir la acción necesaria para actualizar la conexión. Las operaciones incluyen: `add`, `replace`, y `remove`. |
 | `path` | Ruta del parámetro que se va a actualizar. |
 | `value` | El nuevo valor con el que desea actualizar el parámetro. |
 
