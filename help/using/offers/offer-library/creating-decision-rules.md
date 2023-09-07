@@ -6,20 +6,31 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: ce0cba88c5649b3efd557d6d539ffd7dc2c8f193
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 17%
+source-wordcount: '427'
+ht-degree: 14%
 
 ---
 
 # Crear reglas de decisión {#create-decision-rules}
+
+## Acerca de las reglas decisión {#about}
 
 Puede crear reglas de decisión de ofertas basadas en los datos disponibles en Adobe Experience Platform. Las reglas de decisión determinan a quién se puede mostrar una oferta.
 
 Por ejemplo, puede especificar que solo desea que se muestre una “Oferta de ropa de invierno femenina” cuando (Sexo = &#39;Mujer&#39;) y (Región = &#39;Noreste&#39;).
 
 ➡️ [Descubra esta función en vídeo](#video)
+
+Esta es una lista de limitaciones que deben tenerse en cuenta al trabajar con reglas de decisión:
+
+* Al crear una regla, puede utilizar eventos históricos, pero existen limitaciones en cuanto a cuándo se pueden utilizar estas reglas.
+* La toma de decisiones perimetral utiliza el perfil perimetral que no almacena eventos, por lo que cualquier regla utilizada en una decisión perimetral no será válida.
+* Los recorridos que utilicen Decisiones de oferta no consultarán los eventos históricos, por lo que estas reglas no serán válidas.
+* Las solicitudes de decisión que utilicen el perfil de concentrador consultarán los últimos 100 eventos de experiencia del perfil para evaluar las reglas que hacen referencia a eventos de experiencia históricos.
+
+## Crear una regla de decisión {#create}
 
 Se puede acceder a la lista de reglas de decisión creadas en el **[!UICONTROL Componentes]** menú.
 
