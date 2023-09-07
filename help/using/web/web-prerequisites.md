@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
+source-git-commit: cfa797146c4f6f87a55e72393f45c271480cf7f5
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1054'
 ht-degree: 11%
 
 ---
@@ -107,13 +107,15 @@ La extensión no tiene ninguna configuración condicional y administra todas las
 
 Al utilizar el Adobe [!DNL Journey Optimizer] diseñador web, si intenta cargar un sitio web que no se puede cargar, aparece un mensaje sugiriendo que instale el [Extensión de explorador Ayuda de edición visual](#install-visual-editing-helper).
 
-Si la extensión del explorador Ayuda de edición visual está instalada correctamente, pero el sitio web sigue fallando al cargar o se comporta de forma inesperada, una posible corrección es abrir el sitio web en el explorador y aceptar cookies antes de intentar cargarlo en el [!DNL Journey Optimizer] diseñador web.
+1. Asegúrese de que la extensión del explorador Ayuda de edición visual esté instalada correctamente.
+
+1. Si el sitio web sigue comportándose de forma inesperada, asegúrese de que las cookies de terceros estén permitidas en el explorador; de lo contrario, la página web no se puede cargar dentro de [!DNL Journey Optimizer] diseñador web.
 
 En el caso de las páginas que se están autenticando, si la página de inicio de sesión no se puede cargar o si, después de intentar iniciar sesión, aún no ha iniciado sesión:
 
-* Intente iniciar sesión primero en una nueva pestaña del explorador, vaya a la página deseada, copie la URL e intente abrirla en la [!DNL Journey Optimizer] diseñador web.
+1. Intente iniciar sesión primero en una nueva pestaña del explorador, vaya a la página deseada, copie la URL e intente abrirla en la [!DNL Journey Optimizer] diseñador web.
 
-* Si sigue sin poder cargar el sitio web en [!DNL Journey Optimizer] Diseñador web, póngase en contacto con el Servicio de atención al cliente de Adobe para informar del problema. Asegúrese de especificar la dirección URL que falla.
+2. Si sigue sin poder cargar el sitio web en [!DNL Journey Optimizer] Diseñador web, póngase en contacto con el Servicio de atención al cliente de Adobe para informar del problema. Asegúrese de especificar la dirección URL que falla.
 
 ## Requisitos previos de envío {#delivery-prerequisites}
 
