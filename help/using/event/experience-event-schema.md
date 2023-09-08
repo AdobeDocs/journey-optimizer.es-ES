@@ -3,13 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Esquemas de ExperienceEvent para eventos de recorrido
 description: Obtenga información sobre los esquemas de ExperienceEvent para eventos de recorrido
-feature: Schemas
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: esquemas, XDM, plataforma, flujo, ingesta, recorrido
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 7e66450900d0625530025c6e17ef037e27da728e
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 4%
@@ -20,11 +19,11 @@ ht-degree: 4%
 
 [!DNL Journey Optimizer] Los eventos son eventos de experiencia XDM que se envían a Adobe Experience Platform mediante la ingesta de flujos.
 
-Como tal, un requisito previo importante para configurar eventos para [!DNL Journey Optimizer] Esto le indica que está familiarizado con el modelo de datos de Experience de Adobe Experience Platform (o XDM) y con cómo componer esquemas de evento de experiencia XDM, así como con cómo transmitir datos con formato XDM a Adobe Experience Platform.
+Como tal, un requisito previo importante para configurar eventos para [!DNL Journey Optimizer] Esto le indica que está familiarizado con el modelo de datos de Experience de Adobe Experience Platform (o XDM) y con cómo componer esquemas de evento de Experience XDM, así como con cómo transmitir datos con formato XDM a Adobe Experience Platform.
 
 ## Requisitos de esquema para [!DNL Journey Optimizer] Eventos  {#schema-requirements}
 
-El primer paso para configurar un evento de [!DNL Journey Optimizer] es garantizar que tiene un esquema XDM definido para representar el evento y un conjunto de datos creado para registrar instancias del evento en Adobe Experience Platform. Tener un conjunto de datos para sus eventos no es estrictamente necesario, pero enviar los eventos a un conjunto de datos específico le permitirá mantener el historial de eventos de los usuarios para referencias y análisis futuros, por lo que siempre es una buena idea. Si aún no tiene un esquema y un conjunto de datos adecuados para su evento, ambas tareas se pueden realizar en la interfaz web de Adobe Experience Platform.
+El primer paso para configurar un evento de [!DNL Journey Optimizer] es garantizar que tiene un esquema XDM definido para representar el evento y un conjunto de datos creado para registrar instancias del evento en Adobe Experience Platform. Tener un conjunto de datos para los eventos no es estrictamente necesario, pero enviar los eventos a un conjunto de datos específico le permitirá mantener el historial de eventos de los usuarios para referencias y análisis futuros, por lo que siempre es una buena idea. Si aún no tiene un esquema y un conjunto de datos adecuados para su evento, ambas tareas se pueden realizar en la interfaz web de Adobe Experience Platform.
 
 ![](assets/schema1.png)
 
