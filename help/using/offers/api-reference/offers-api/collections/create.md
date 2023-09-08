@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '148'
 ht-degree: 10%
 
 ---
@@ -36,8 +36,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | El contenedor donde se encuentran las colecciones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API de persistencia. | `https://platform.adobe.io/data/core/dps/` |
 
 **Solicitud**
 
