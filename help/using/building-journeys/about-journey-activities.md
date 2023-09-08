@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorridos, actividades, introducción, eventos, acción
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 865f8c3a2a598bdb90ab3cb85104684c160a560f
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 18%
+source-wordcount: '536'
+ht-degree: 17%
 
 ---
 
@@ -71,6 +71,10 @@ Si ha configurado acciones personalizadas, estas también aparecerán aquí. [M�
 La mayoría de las actividades de le permiten definir una **[!UICONTROL Etiqueta]**. Esto añade un sufijo al nombre que aparecerá bajo su actividad en el lienzo. Esto resulta útil si utiliza la misma actividad varias veces en el recorrido y desea identificarla más fácilmente. También facilita la depuración en caso de errores y la lectura de los informes. También puede añadir un **[!UICONTROL Descripción]**.
 
 ![](assets/journey-action-label.png)
+
+>[!NOTE]
+>
+>En algunas actividades, su ID también se puede ver en el panel. Este ID se puede utilizar en los informes como una clave más estable que la etiqueta, la cual puede cambiar.
 
 ### Administrar los parámetros avanzados {#advanced-parameters}
 
