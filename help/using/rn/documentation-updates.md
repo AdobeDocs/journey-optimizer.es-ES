@@ -4,7 +4,7 @@ product: journey optimizer
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f6a9234b64247f7d1aef95eb3f1d1bf299be4710
+source-git-commit: 605354d25e5d6f74a6a3119ab88ff4ed89aff883
 workflow-type: tm+mt
 source-wordcount: '3597'
 ht-degree: 92%
@@ -99,7 +99,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha añadido información sobre los extremos de autenticación personalizados en la documentación de límite. [Más información](../configuration/external-systems.md)
 * Se ha añadido un nuevo ejemplo de autenticación personalizada en la sección de fuentes de datos externas. [Más información](../datasource/external-data-sources.md#custom-authentication-mode)
 * Se ha añadido una nota sobre el servicio principal de recopilación de datos (DCCS) para recorridos activados por eventos. [Más información](../start/guardrails.md#events-g)
-* Se ha añadido una nota sobre la recuperación del área de nombres de identidad en la [Leer audiencia](../building-journeys/read-audience.md), [Calificación de segmentos](../building-journeys/segment-qualification-events.md) y [Creación de eventos](../event/about-creating.md) secciones.
+* Se ha añadido una nota sobre la recuperación del área de nombres de identidad en la [Leer audiencia](../building-journeys/read-audience.md), [Calificación de audiencia](../building-journeys/audience-qualification-events.md) y [Creación de eventos](../event/about-creating.md) secciones.
 * Las funciones de accesibilidad en [!DNL Journey Optimizer] ahora se agrupan en una página dedicada a ello. [Más información](../start/accessibility.md)
 * Los ejemplos se han actualizado en la sección Operadores de la documentación avanzada del editor de expresiones. [Más información](../building-journeys/expression/operators.md)
 * Se ha añadido una nota sobre la limitación de la búsqueda con una matriz de objetos. [Más información](../event/experience-event-schema.md#relationships_limitations)
