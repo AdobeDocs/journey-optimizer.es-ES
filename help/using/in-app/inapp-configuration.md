@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: en la aplicación, mensaje, configuración, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
+source-git-commit: 6f92f9ce0a4785f0359658f00150d283f1326900
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 10%
+source-wordcount: '551'
+ht-degree: 8%
 
 ---
 
@@ -36,20 +36,47 @@ Antes de enviar mensajes en la aplicación, debe configurar el canal en la aplic
    >
    > Necesita el **Administrar configuración de aplicación** permiso para tener acceso a **[!UICONTROL Superficies de aplicación]** menú. Para obtener más información, consulte [este vídeo](#video).
 
-   >[!NOTE]
-   >
-   > Necesita el **Administrar configuración de aplicación** permiso para tener acceso a **[!UICONTROL Superficies de aplicación]** menú. Para obtener más información, consulte [este vídeo](#video).
-
    ![](assets/inapp_config_1.png)
 
 1. Añada un nombre a su **[!UICONTROL Superficie de aplicación]**.
 
+   ![](assets/inapp_config_2b.png)
 
-1. En la lista desplegable Apple iOS, escriba su **ID de paquete de iOS**. Consulte [Documentación de Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) para obtener más información sobre **ID de paquete**.
+1. Desde el **[!UICONTROL Apple iOS]** , configure su aplicación móvil para Apple iOS.
 
-   ![](assets/inapp_config_2.png)
++++ Más información
 
-1. En la lista desplegable de Android, escriba su **Nombre del paquete de Android**. Consulte [Documentación de Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) para obtener más información sobre **Nombre del paquete**.
+   1. Escriba su **[!UICONTROL ID de paquete de iOS]**. Consulte [Documentación de Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) para obtener más información sobre **ID de paquete**.
+
+   1. (opcional) Elija la **[!UICONTROL Sandbox]** desde donde desea enviar notificaciones push. Tenga en cuenta que la selección de una zona protegida específica requiere los permisos de acceso necesarios.
+
+      Para obtener más información sobre la administración de zonas protegidas, consulte [esta página](../administration/sandboxes.md#assign-sandboxes).
+
+   1. Habilite la **[!UICONTROL Credenciales push]** opción para arrastrar y soltar el archivo de clave de autenticación .p8 si es necesario.
+
+      También puede activar la variable **[!UICONTROL Introduzca manualmente las credenciales push]** para copiar y pegar la clave de autenticación de APN directamente.
+
+   1. Introduzca su **[!UICONTROL ID de clave]** y **[!UICONTROL Identificador de equipo]**.
+
+      ![](assets/inapp_config_2.png)
+
++++
+
+1. Desde el **[!UICONTROL Android]** , configure su aplicación móvil para Android.
+
++++ Más información
+
+   1. Escriba su **[!UICONTROL Nombre del paquete de Android]**. Consulte [Documentación de Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) para obtener más información sobre **Nombre del paquete**.
+
+   1. (opcional) Elija la **[!UICONTROL Sandbox]** desde donde desea enviar notificaciones push. Tenga en cuenta que la selección de una zona protegida específica requiere los permisos de acceso necesarios.
+
+      Para obtener más información sobre la administración de zonas protegidas, consulte [esta página](../administration/sandboxes.md#assign-sandboxes).
+
+   1. Habilite la **[!UICONTROL Credenciales push]** opción para arrastrar y soltar el archivo de clave privada .json si es necesario.
+
+      También puede activar la variable **[!UICONTROL Introduzca manualmente las credenciales push]** para copiar y pegar la clave privada de FCM directamente.
+
+      ![](assets/inapp_config_7.png)
 
 1. Clic **[!UICONTROL Guardar]** cuando haya terminado la configuración de su **[!UICONTROL Superficie de aplicación]**.
 
