@@ -17,7 +17,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Septiembre de 2023 (#september-2023)
 
-* Se ha añadido a la documentación de administración de decisiones una lista de limitaciones que se deben tener en cuenta al crear reglas de decisión. [Más información](../offers/offer-library/creating-decision-rules.md)
+* Se ha añadido a la documentación de gestión de decisiones una lista de limitaciones que se deben tener en cuenta al crear reglas de decisión. [Más información](../offers/offer-library/creating-decision-rules.md)
 
 ## Agosto de 2023 {#august-2023}
 
