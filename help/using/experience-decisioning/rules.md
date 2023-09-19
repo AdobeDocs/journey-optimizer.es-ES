@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 4aea5c1434caa07aad26445c49a3d5c6274502ec
+source-git-commit: 9b7280c33ce8238b54f7fd1865545f865ffb72ed
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 5%
@@ -39,7 +39,7 @@ Por ejemplo, consideremos un escenario en el que tenga elementos de decisión qu
 
 Se puede acceder a la lista de reglas de decisión en la **[!UICONTROL Configuración]** / **[!UICONTROL Reglas de decisiones]** menú.
 
-![](assets/decision-rules-list.png)
+<!--![](assets/decision-rules-list.png)-->
 
 >[!IMPORTANT]
 >

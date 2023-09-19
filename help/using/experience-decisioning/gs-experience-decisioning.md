@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 4aea5c1434caa07aad26445c49a3d5c6274502ec
+source-git-commit: 9b7280c33ce8238b54f7fd1865545f865ffb72ed
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 6%
+source-wordcount: '339'
+ht-degree: 5%
 
 ---
 
@@ -66,6 +66,4 @@ Los pasos principales para trabajar con Experience Decisioning son los siguiente
 
 1. **Incrustar una política de decisión en la campaña basada en código**: las políticas de decisión combinan varias estrategias de selección para determinar los elementos de decisión aptos que se mostrarán a la audiencia objetivo.
 
-## Glosario
-
-Brandon para proporcionar términos.
+<!--## Glossary-->
