@@ -1,0 +1,119 @@
+---
+title: Crear estrategias de selección
+description: Aprenda a crear estrategias de selección
+feature: Offers
+topic: Integrations
+role: User
+level: Intermediate
+hide: true
+hidefromtoc: true
+source-git-commit: 4aea5c1434caa07aad26445c49a3d5c6274502ec
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 2%
+
+---
+
+# Crear estrategias de selección {#selection-strategies}
+
+>[!BEGINSHADEBOX]
+
+Lo que encontrará en esta guía de documentación:
+
+* [Introducción a Experience Decisioning](gs-experience-decisioning.md)
+* Administrar los elementos de decisión
+   * [Configurar el catálogo de artículos](catalogs.md)
+   * [Crear elementos de decisión](items.md)
+   * [Administrar colecciones de elementos](collections.md)
+* Configurar la selección de elementos
+   * [Crear reglas de decisión](rules.md)
+   * [Crear métodos de clasificación](ranking.md)
+* **[Crear estrategias de selección](selection-strategies.md)**
+* [Crear directivas de decisión](create-decision.md)
+
+>[!ENDSHADEBOX]
+
+Una estrategia de selección es un elemento reutilizable, que consiste en una colección asociada con una restricción de elegibilidad y un método de clasificación para determinar las ofertas que se mostrarán cuando se seleccionen en una [política decisión](create-decision.md).
+
+## Acceso y administración de estrategias de selección
+
+1. Ir a **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Configuración]** > **[!UICONTROL Estrategias de selección]**.
+
+1. Se muestran todas las estrategias de selección creadas hasta el momento. Hay filtros disponibles para ayudarle a recuperar estrategias según el método de clasificación.
+
+   ![](assets/strategy-list-filters.png)
+
+1. Haga clic en el nombre de una estrategia de selección para editarla.
+
+1. También se muestran la recopilación, el método de clasificación y la idoneidad seleccionada para cada estrategia. Puede hacer clic en el icono situado junto al nombre de cada colección para editar directamente una colección.
+
+   ![](assets/strategy-list-edit-collection.png)
+
+## Crear una estrategia de selección
+
+Para crear una estrategia de selección, siga los pasos a continuación.
+
+1. Desde el **[!UICONTROL Estrategias de selección]** inventario, haga clic en **[!UICONTROL Crear estrategia de selección]**.
+
+   ![](assets/strategy-create-button.png)
+
+1. Añada un nombre para la estrategia.
+
+   >[!NOTE]
+   >
+   >Actualmente solo es el valor predeterminado **[!UICONTROL Ofertas]** catálogo disponible.
+
+1. Complete los detalles de la estrategia de selección, empezando por el nombre.
+
+   ![](assets/strategy-create-screen.png)
+
+1. Seleccione la oferta [colección](collections.md) que contiene las ofertas que se deben tener en cuenta.
+
+1. Utilice el **[!UICONTROL Idoneidad]** para restringir la selección de ofertas para esta estrategia de selección.
+
+   ![](assets/strategy-create-eligibility.png)
+
+   * Para restringir la selección de las ofertas a los miembros de una audiencia de Experience Platform, seleccione **[!UICONTROL Audiencias]** y elija una audiencia de la lista. [Aprenda a trabajar con audiencias](../audience/about-audiences.md)
+
+   * Si desea añadir una restricción de selección con una regla de decisión, utilice la variable **[!UICONTROL Regla de decisión]** y seleccione la regla que desee. [Obtenga información sobre cómo crear una regla](rules.md)
+
+1. Defina el método de clasificación que desee utilizar para seleccionar la mejor oferta para cada perfil. [Más información](#select-ranking-method)
+
+   ![](assets/strategy-create-ranking.png)
+
+   * De forma predeterminada, si pueden utilizarse varias ofertas para esta estrategia, la variable [Prioridad de ofertas](#offer-priority) utiliza el valor definido en las ofertas.
+
+   * Si desea utilizar una puntuación calculada específica para elegir qué oferta apta para enviar, seleccione [Fórmula](#ranking-formula) o [modelo de IA](#ai-ranking).
+
+1. Haga clic en **[!UICONTROL Crear]**. Ahora está listo para utilizarse en un [decisión](create-decision.md)
+
+## Seleccione un método de clasificación {#select-ranking-method}
+
+Si se pueden seleccionar varias ofertas para una estrategia de selección determinada, se puede elegir el método que seleccione la mejor oferta para cada perfil al crear una estrategia de selección. Puede clasificar ofertas por:
+
+* [Prioridad de ofertas](#offer-priority)
+* [Fórmula](#ranking-formula)
+* [Clasificación de IA](#ai-ranking)
+
+### Prioridad de ofertas {#offer-priority}
+
+De forma predeterminada, cuando varias ofertas son aptas para una ubicación determinada en una decisión, los artículos con la mayor cantidad **priority** primero se entregarán a los clientes.
+
+![](assets/item-priority.png)
+
+Las puntuaciones de prioridad de las ofertas se asignan al crear una [elemento de decisión](items.md).
+
+### Fórmula de clasificación {#ranking-formula}
+
+Además de la prioridad de oferta, Journey Optimizer permite crear **clasificación de fórmulas**. Son fórmulas que determinan qué oferta debe presentarse primero para una ubicación determinada, en lugar de tener en cuenta las puntuaciones de prioridad de las ofertas.
+
+Por ejemplo, puede aumentar la prioridad de todas las ofertas en las que la fecha de finalización sea inferior a 24 horas a partir de ahora o aumentar las ofertas de la categoría &quot;en ejecución&quot; si el punto de interés del perfil es &quot;en ejecución&quot;. Obtenga información sobre cómo crear una fórmula de clasificación en [esta sección](ranking.md).
+
+Una vez creada, puede utilizar esta fórmula en una estrategia de selección. Si se pueden presentar varias ofertas al utilizar esta estrategia de selección, la decisión utilizará la fórmula seleccionada para calcular qué oferta se ofrece primero.
+
+### Clasificación de IA {#ai-ranking}
+
+También puede utilizar un sistema de modelos entrenado que clasifique automáticamente las ofertas para un perfil determinado seleccionando un modelo de IA. Obtenga información sobre cómo crear un modelo de IA en [esta sección](ranking.md).
+
+Una vez creado un modelo de IA, puede utilizarlo en una estrategia de selección. Si se admiten varias ofertas, el sistema de modelos entrenado determinará qué oferta debe presentarse primero para esta estrategia de selección.
+
