@@ -5,10 +5,10 @@ title: Notas de la versión
 description: Notas de la primera versión de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 2e9a7bd5244feddddefb531dab42a25cf5935bcf
+source-git-commit: e5e4825996359cbe6c5bf0a06fc32a2ef116d906
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 29%
+source-wordcount: '540'
+ht-degree: 22%
 
 ---
 
@@ -26,20 +26,6 @@ Las notas de la primera versión están sujetas a cambios sin previo aviso hasta
 
 Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 
-<table>
-<thead>
-<tr>
-<th><strong>Almacenamiento de credenciales de aplicación móvil por zona protegida</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Esta nueva función le permite administrar y asociar fácilmente credenciales push con una zona protegida dedicada en las superficies de la aplicación.</p>
-<p>Para obtener más información, consulte la <a href="../in-app/inapp-configuration.md">documentación detallada</a>.</p>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -75,6 +61,20 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Almacenamiento de credenciales de aplicación móvil por zona protegida</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Esta nueva función le permite administrar y asociar fácilmente credenciales push con una zona protegida dedicada en las superficies de la aplicación.</p>
+<p>Para obtener más información, consulte la <a href="../in-app/inapp-configuration.md">documentación detallada</a>.</p>
+</tr>
+</tbody>
+</table>
 
 ### Mejoras {#sept-2023-improvements}
 
@@ -83,7 +83,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 **Audiences**
 
 * Ahora puede segmentar audiencias cargadas desde un archivo CSV a recorridos y campañas.
-* Se han realizado mejoras en el selector de públicos en recorridos o campañas, añadiendo nuevas columnas que muestran el origen y la frecuencia de actualización de los públicos.
+  <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 * Ahora puede segmentar audiencias resultantes de flujos de trabajo de maquetación en recorridos.
 
 **Personalización**
@@ -111,6 +111,6 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 Una nueva opción en la configuración de superficie de correo electrónico permite elegir enviar mensajes transaccionales a perfiles incluso si sus direcciones de correo electrónico están en la lista de supresión de Adobe Journey Optimizer.
 
-**Gestión de decisiones**
+<!--**Decision management**
 
-Se han realizado mejoras en el selector de públicos en recorridos o campañas, añadiendo nuevas columnas que muestran el origen y la frecuencia de actualización de los públicos.
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
