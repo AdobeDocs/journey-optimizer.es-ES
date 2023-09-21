@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, grupos, grupo, subdominios, capacidad de entrega
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '283'
 ht-degree: 27%
 
 ---
@@ -73,4 +73,4 @@ Los pasos clave para implementar un plan de calentamiento de IP son los siguient
 
 1. Cree un plan de calentamiento de IP y cargue su plan. [Más información](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
 
-1. Ajuste cada fase del plan y active las ejecuciones. [Más información](ip-warmup-running.md)
+1. Seleccione una campaña para cada fase del plan y active las ejecuciones correspondientes. [Más información](ip-warmup-running.md)
