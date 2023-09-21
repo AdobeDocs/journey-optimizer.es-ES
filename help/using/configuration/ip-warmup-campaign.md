@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP, grupos, grupo, subdominios, capacidad de entrega
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: d42284a73469b86d15e9f2237f4eeb3a8797584b
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 3%
@@ -43,7 +43,7 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Obtenga información sobre cómo seleccionar el dominio y las direcciones IP que se utilizarán en una superficie de correo electrónico en [esta sección](using/email/email-settings.md#subdomains-and-ip-pools).
+   >Obtenga información sobre cómo seleccionar el dominio y las direcciones IP que se utilizarán en una superficie de correo electrónico en [esta sección](../email/email-settings.md#subdomains-and-ip-pools).
 
 1. Crear un [campaña](../campaigns/create-campaign.md) y seleccione la [Correo electrónico](../email/create-email.md#create-email-journey-campaign) acción.
 
@@ -69,3 +69,4 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 
 Para obtener más información sobre cómo configurar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
+<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?>
