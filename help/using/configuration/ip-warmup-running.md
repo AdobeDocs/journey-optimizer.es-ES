@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, grupos, grupo, subdominios, capacidad de entrega
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '791'
 ht-degree: 1%
 
 ---
@@ -58,25 +58,29 @@ En el nivel de fase, el sistema garantiza que los perfiles objetivo anteriorment
 
    * No puede seleccionar una campaña que ya esté en uso en otra campaña de calentamiento de IP.
 
-1. Para cada fase, se aplica lo siguiente:
+1. En el **[!UICONTROL Exclusión de perfil]** , puede ver que los perfiles de las ejecuciones anteriores de esa fase siempre se excluyen. Por ejemplo, si en #1 de ejecución se cubrió un perfil en las primeras 4800 personas objetivo, el sistema se asegurará automáticamente de que el mismo perfil no reciba el correo electrónico en #2 de ejecución.
 
-   * **[!UICONTROL Exclusión de perfil]** - Los perfiles de las ejecuciones anteriores de esa fase siempre se excluyen. Por ejemplo, si en una carrera #1 Leo se cubrió con las primeras 6300 personas objetivo, el sistema se asegurará automáticamente de que Leo no reciba el correo en la #2 de ejecución.
+1. Desde el **[!UICONTROL Audiencias de campaña excluidas]** , seleccione las audiencias de otros <!--executed/live?-->campañas que desee excluir de la fase actual.
 
-   * **[!UICONTROL Audiencias de campaña excluidas]** - Seleccionar las audiencias de otros <!--executed/live?-->campañas que desee excluir de la fase actual.
+   ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
-     Por ejemplo, es posible que esté ejecutando una fase y tenga que dividirla por cualquier motivo. En tal caso, en la fase 2, le gustaría incluir la campaña utilizada en la fase 1 en esta sección para que en la fase 2, las personas contactadas anteriormente desde la fase 1 no estén incluidas. Esto se puede hacer no solo con las campañas utilizadas en el mismo plan de calentamiento de IP, sino también desde otro plan de calentamiento de IP.
+   Por ejemplo, al ejecutar la fase 1, tenía que [dividirlo](#split-phase) por cualquier razón. Por lo tanto, puede excluir la campaña utilizada en la fase 1, de modo que los perfiles contactados anteriormente desde la fase 1 no se incluyan en la fase 2. También puede excluir campañas de otros planes de calentamiento de IP.
 
-   * **[!UICONTROL Dominios y grupos excluidos]** : seleccione los dominios que desee excluir de esa fase, por ejemplo, Gmail. <!--??-->
+1. Desde el **[!UICONTROL Dominios y grupos excluidos]** , seleccione los dominios que desea excluir de esa fase.
 
-     Después de ejecutar el calentamiento de IP durante algunos días, se da cuenta de que la reputación del ISP con un dominio dice que hotmail no es bueno y desea resolverlo con el ISP, pero no desea detener el plan de calentamiento de IP. En tal caso, puede colocar el grupo de dominios hotmail en la categoría excluida.
+   ![](assets/ip-warmup-plan-exclude-domains.png)
 
-     >[!NOTE]
-     >
-     >La exclusión de dominios requiere una fase no ejecutada, por lo que es posible que tenga que dividir una fase en ejecución para agregar exclusiones. Del mismo modo, si el grupo de dominio no es un grupo de dominio OOTB, es posible que tenga que crear un grupo de dominio en Excel, cargarlo y luego excluirlo.
+   Por ejemplo, después de ejecutar el calentamiento de la IP durante algunos días, se da cuenta de que la reputación del ISP con un dominio (es decir, un Adobe) no es buena y desea resolverla sin detener su plan de calentamiento de la IP. En tal caso, puede excluir el grupo de dominios de Adobe.
+
+   >[!NOTE]
+   >
+   >La exclusión de dominios requiere una fase no ejecutada, por lo que es posible que tenga que dividir una fase en ejecución para agregar exclusiones. Del mismo modo, si el grupo de dominios no es un grupo de dominios OOTB, debe agregar este grupo de dominios al archivo de Excel, cargarlo y luego excluir el dominio.
 
    ![](assets/ip-warmup-plan-phase-1.png)
 
-1. Puede agregar una fase si es necesario: se agregará después de la última fase actual. Utilice el **[!UICONTROL Eliminar fase]** para eliminar cualquier fase no deseada.
+1. Puede agregar una fase si es necesario. Se agregará después de la última fase actual.
+
+1. Utilice el **[!UICONTROL Eliminar fase]** para eliminar cualquier fase no deseada.
 
    ![](assets/ip-warmup-plan-add-delete-phases.png)
 
@@ -92,7 +96,7 @@ En el nivel de fase, el sistema garantiza que los perfiles objetivo anteriorment
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Seleccione una hora de finalización, que básicamente significa la ventana en la que podemos ejecutar la campaña de calentamiento en caso de que haya algún retraso en el trabajo de audiencia. Si no se especifica, se intentará en el momento de inicio y se producirá un error. Si se proporciona la hora de finalización, ejecutaremos la ejecución entre esa ventana.
+1. Seleccione un tiempo de finalización, que define la ventana dentro de la cual se puede ejecutar la campaña de calentamiento de IP en caso de que haya algún retraso en la ejecución del trabajo de segmentación de audiencia. Si no se especifica ninguna hora de finalización, la ejecución se intenta en el momento de inicio y fallará si la segmentación no se ha completado.
 
 1. Activar cada ejecución. Asegúrese de programar con suficiente antelación para permitir que se ejecute el trabajo de segmentación. <!--explain how you can evaluate a proper time-->
 
@@ -100,11 +104,13 @@ En el nivel de fase, el sistema garantiza que los perfiles objetivo anteriorment
    >
    >Cada ejecución debe activarse al menos 12 horas antes de la hora de envío real. De lo contrario, es posible que la segmentación no se complete. <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
-<!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
+   <!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
 
 1. Si la ejecución de la campaña no se ha iniciado, puede detener una ejecución.<!--why?-->
 
-   Una vez iniciada la ejecución de la campaña, **[!UICONTROL Detener]** El botón deja de estar disponible. <!--TBC in UI-->
+   >[!NOTE]
+   >
+   >Una vez iniciada la ejecución de la campaña, **[!UICONTROL Detener]** El botón deja de estar disponible. <!--TBC in UI-->
 
    ![](assets/ip-warmup-plan-stop-run.png)
 
@@ -112,9 +118,13 @@ En el nivel de fase, el sistema garantiza que los perfiles objetivo anteriorment
 
    ![](assets/ip-warmup-plan-run-more-actions.png)
 
-1. En cualquier momento, si desea utilizar una campaña diferente que comience desde una ejecución específica, seleccione **[!UICONTROL Dividir en una nueva opción de fase]** desde el icono de tres puntos. Se crea una nueva fase para las ejecuciones restantes de la fase actual. Siga los pasos [superior](#define-phases) para definir la nueva fase.
+## Dividir una fase {#split-phase}
 
-   Por ejemplo, si selecciona esta opción para ejecutar #4, las ejecuciones #4 a #8 se moverán a una nueva fase.
+En cualquier momento, si desea utilizar una campaña diferente que comience desde una ejecución específica, seleccione **[!UICONTROL Dividir en una nueva opción de fase]** desde el icono de tres puntos.
+
+Se crea una nueva fase para las ejecuciones restantes de la fase actual. Siga los pasos [superior](#define-phases) para definir la nueva fase.
+
+Por ejemplo, si selecciona esta opción para Ejecutar #4, las ejecuciones #4 a #8 se moverán a una nueva fase.
 
 <!--
 You don't have to decide the campaign upfront. You can do a split later. It's a work in progress plan: you activate one run at a time with a campaign and you always have the flexibility to modify it while working on it.
