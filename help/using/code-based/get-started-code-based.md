@@ -8,10 +8,10 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1171'
+ht-degree: 7%
 
 ---
 
@@ -111,7 +111,7 @@ Para ejecutar casos de uso web, puede utilizar el canal web o la experiencia bas
 * Se centra en el experto en marketing.
 
 **Experiencia basada en código**
-* Edite el contenido con la variable [editor de código](create-code-based.md#edit-code).
+* Edite el contenido con la variable [Editor de expresiones](create-code-based.md#edit-code).
 * La experiencia basada en código requiere un trabajo de desarrollo previo en la implementación para garantizar que las superficies puedan interpretar y entregar el contenido publicado en Edge de la siguiente manera [!DNL Journey Optimizer] para estas superficies. [Más información](#surface-definition)
 * Requiere más planificación y solo puede cambiar las cosas que especifican los desarrolladores. Por lo tanto, es esencial identificar los componentes (titular de inicio, imagen a pantalla completa, barra de menús, etc.) en las superficies que deben modificarse para la personalización o la prueba, y trabaje con su equipo de desarrollo para crear la implementación necesaria para gestionar estos cambios.
 * Le permite utilizar contenido con código JSON.
@@ -133,7 +133,7 @@ Los pasos clave para implementar una campaña basada en código son los siguient
 
 1. Defina un [emerger](#surface-definition), que es básicamente la ubicación en la que desea añadir la experiencia basada en código y crear una campaña en [!DNL Journey Optimizer] utilizando esta superficie. [Descubra cómo](create-code-based.md#create-code-based-campaign)
 
-1. Componga una experiencia especificando contenido para la superficie seleccionada utilizando [!DNL Journey Optimizer] editor de código. [Descubra cómo](create-code-based.md#edit-code)
+1. Componga una experiencia especificando contenido para la superficie seleccionada utilizando [!DNL Journey Optimizer] Editor de expresiones. [Descubra cómo](create-code-based.md#edit-code)
 
 1. El equipo de implementación de la aplicación realiza llamadas explícitas de API o SDK para recuperar contenido para las superficies con nombre, como &quot;Texto del titular&quot; o &quot;Bandeja de Recommendations 1&quot;, o puntos de decisión no relacionados con la interfaz de usuario en una aplicación, como &quot;parámetros de algoritmo de búsqueda&quot;. En este caso, el equipo de implementación es responsable de procesar o interpretar de otra manera y actuar sobre el contenido devuelto.<!--TBC with Robert - should link to a new section with API/SDK call samples-->
 
