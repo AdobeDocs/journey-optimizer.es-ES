@@ -5,10 +5,10 @@ title: Notas de la versión
 description: Notas de la primera versión de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 8aeb0c252a2c24442098fa1e88a75eb0e0a94d4e
+source-git-commit: 2e9a7bd5244feddddefb531dab42a25cf5935bcf
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 38%
+source-wordcount: '594'
+ht-degree: 29%
 
 ---
 
@@ -29,13 +29,28 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <table>
 <thead>
 <tr>
+<th><strong>Almacenamiento de credenciales de aplicación móvil por zona protegida</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Esta nueva función le permite administrar y asociar fácilmente credenciales push con una zona protegida dedicada en las superficies de la aplicación.</p>
+<p>Para obtener más información, consulte la <a href="../in-app/inapp-configuration.md">documentación detallada</a>.</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Informes de canales consolidados</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La función Informe de canal ofrece a analistas y expertos en marketing una descripción general completa de las métricas de tráfico y participación a nivel de canal. Para acceder al menú "Informe", debe tener el permiso **Ver informes de canal**.</p>
+<p>La función Informe de canal ofrece a analistas y expertos en marketing una descripción general completa de las métricas de tráfico y participación a nivel de canal. Para acceder al menú "Informe", debe tener el permiso "Ver informes de canal".</p>
 <img src="assets/channel-reports.png"/>
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
@@ -78,7 +93,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Alerta**
 
-Se ha introducido un nuevo tipo de alerta del sistema. Ahora puede recibir notificaciones cuando falle un segmento de lectura.
+* Se han introducido dos nuevos tipos de alertas del sistema. Ahora puede recibir notificaciones cuando falle una acción personalizada o un segmento de lectura.
 
 **Canal web**
 
@@ -88,9 +103,9 @@ Se ha introducido un nuevo tipo de alerta del sistema. Ahora puede recibir notif
 
 **Recorridos**
 
-* Se ha introducido un nuevo tipo de alerta del sistema. Ahora puede recibir notificaciones cuando falle una acción personalizada.
+* Las capacidades de respuesta de acción personalizadas ahora son GA. Esto le permite aprovechar las respuestas de llamadas de API en acciones personalizadas y organizar el recorrido en función de estas respuestas. Además, se ha añadido una nueva protección para limitar todas las acciones aduaneras a 5000 llamadas/s por punto final.
 * Al duplicar un recorrido, ahora puede definir el nombre de la copia de recorrido.
-
+* La duración máxima que puede definir en la actividad Espera ahora es 29 días en lugar de 30.
 
 **Canal de correo electrónico**
 
