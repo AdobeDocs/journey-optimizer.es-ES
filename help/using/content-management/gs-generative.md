@@ -10,14 +10,20 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
+source-git-commit: b99d77138f22839b40414979d36e26d7304947b1
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '238'
 ht-degree: 100%
 
 ---
 
 # Introducción al Asistente de contenido {#gs-content-assistant}
+
+>[!CONTEXTUALHELP]
+>id="ajo_content_generation"
+>title="Creación de contenido de correo electrónico"
+>abstract="El Asistente de contenido de Adobe Journey Optimizer ofrece sugerencias proactivas de variación de contenido para texto e imágenes. Está disponible para canales de correo electrónico, push, SMS y web. Esta nueva funcionalidad proporciona una generación de texto e imágenes basada en solicitudes."
+
 
 >[!BEGINSHADEBOX]
 
