@@ -5,10 +5,10 @@ title: Notas de la versión
 description: Notas de la primera versión de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: c9be63086b63fb5f4d6094d8bc7690464cf6b768
+source-git-commit: 91d40b697b7f70f0b27454684e7a0bfa3e6488c6
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 21%
+source-wordcount: '550'
+ht-degree: 24%
 
 ---
 
@@ -92,7 +92,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Alerta**
 
-* Se han introducido dos nuevos tipos de alertas del sistema. Ahora puede recibir notificaciones cuando falle una acción personalizada o un segmento de lectura.
+* Se ha introducido un nuevo tipo de alerta del sistema. Ahora puede recibir notificaciones cuando falle una audiencia de lectura.
 
 **Canal web**
 
@@ -103,13 +103,20 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Recorridos**
 
-* Las capacidades de respuesta de acción personalizadas ahora son GA. Esto le permite aprovechar las respuestas de llamadas de API en acciones personalizadas y organizar el recorrido en función de estas respuestas. Además, se ha añadido una nueva protección para limitar todas las acciones aduaneras a 5000 llamadas/s por punto final.
+* La compatibilidad con las respuestas de acciones personalizadas ahora es GA. Esto le permite aprovechar las respuestas de llamadas de API en acciones personalizadas y organizar el recorrido en función de estas respuestas. Además, se ha añadido una nueva protección para limitar todas las acciones aduaneras a 5000 llamadas/s por punto final.
 * Al duplicar un recorrido, ahora puede definir el nombre de la copia de recorrido.
-* La duración máxima que puede definir en la actividad Espera ahora es 29 días en lugar de 30.
+
+<!--
+* The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
+-->
 
 **Canal de correo electrónico**
 
 Una nueva opción en la configuración de superficie de correo electrónico permite elegir enviar mensajes transaccionales a perfiles incluso si sus direcciones de correo electrónico están en la lista de supresión de Adobe Journey Optimizer.
+
+**Creación de informes**
+
+Ahora puede exportar informes de Journey Optimizer como archivo CSV. [Más información](../reports/global-report.md#export-reports)
 
 <!--**Decision management**
 
