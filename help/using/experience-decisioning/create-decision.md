@@ -8,10 +8,10 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1242'
+ht-degree: 5%
 
 ---
 
@@ -181,11 +181,11 @@ Las ofertas clasificadas ahora son las siguientes: Oferta 5 , Oferta 3, Oferta 4
 
 ## Uso de la política de decisión en el editor de código {#use-decision-policy}
 
-Una vez creada, la política de decisión se puede utilizar en el [editor de código](../code-based/create-code-based.md#edit-code). Para ello, siga los pasos que aparecen a continuación.
+Una vez creada, la política de decisión se puede utilizar en el [Editor de expresiones](../code-based/create-code-based.md#edit-code). Para ello, siga los pasos que aparecen a continuación.
 
 >[!NOTE]
 >
->El editor de código aprovecha el [!DNL Journey Optimizer] Editor de expresiones con todas sus capacidades de personalización y creación. [Más información](../personalization/personalization-build-expressions.md)
+>La experiencia basada en código aprovecha las [!DNL Journey Optimizer] Editor de expresiones con todas sus capacidades de personalización y creación. [Más información](../personalization/personalization-build-expressions.md)
 
 1. Haga clic en el icono +. Se agrega el código correspondiente a la política de decisión. Ahora puede agregar todos los atributos de decisión que desee dentro de ese código.
 
@@ -197,7 +197,7 @@ Una vez creada, la política de decisión se puede utilizar en el [editor de có
 
 1. Haga clic en la política de decisión. Se muestran los atributos de decisión.
 
-   Estos atributos se almacenan en **[!UICONTROL Ofertas]** esquema del catálogo. Los atributos personalizados se almacenan en **_cjmstage** carpeta y atributos estándar en la **_experience** carpeta. [Más información sobre el esquema del catálogo de ofertas](catalogs.md)
+   Estos atributos se almacenan en **[!UICONTROL Ofertas]** esquema del catálogo. Los atributos personalizados se almacenan en **`_<imsOrg`>** carpeta y atributos estándar en la **`_experience`** carpeta. [Más información sobre el esquema del catálogo de ofertas](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
 

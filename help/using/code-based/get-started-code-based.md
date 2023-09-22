@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 7%
@@ -168,10 +168,10 @@ En la tabla siguiente se muestran algunos ejemplos de definiciones de URI de sup
 | Web | web://domain.com/*#element | Superficie comodín: representa un elemento individual en cada una de las páginas bajo un dominio específico. |
 | Escritorio | desktop://com.vendor.bundle | Representa una aplicación de escritorio específica. |
 | Escritorio | desktop://com.vendor.bundle#element | Representa un elemento específico dentro de una aplicación, como un botón, un menú, un banner a pantalla completa, etc. |
-| Aplicación iOS | ios://com.vendor.bundle | Representa una aplicación móvil específica para una sola plataforma, en este caso una aplicación de iOS. |
-| Aplicación iOS | ios://com.vendor.bundle/activity | Representa una actividad específica (vista) dentro de una aplicación móvil. |
-| Aplicación iOS | ios://com.vendor.bundle/activity#element | Representa un elemento específico dentro de una actividad, como un botón u otro elemento de vista. |
-| aplicación de Android | android://com.vendor.bundle | Representa una aplicación móvil específica para una sola plataforma, en este caso una aplicación de Android. |
+| Aplicación iOS | mobileapp://com.vendor.bundle | Representa una aplicación móvil específica para una sola plataforma, en este caso una aplicación de iOS. |
+| Aplicación iOS | mobileapp://com.vendor.bundle/activity | Representa una actividad específica (vista) dentro de una aplicación móvil. |
+| Aplicación iOS | mobileapp://com.vendor.bundle/activity#element | Representa un elemento específico dentro de una actividad, como un botón u otro elemento de vista. |
+| aplicación de Android | mobileapp://com.vendor.bundle | Representa una aplicación móvil específica para una sola plataforma, en este caso una aplicación de Android. |
 | aplicación de tvOS | tvos://com.vendor.bundle | Representa una aplicación de tvOS específica. |
 | aplicación de TV | tvcd://com.vendor.bundle | Representa una aplicación de dispositivo conectada a una TV inteligente o TV específica: ID de paquete. |
 | Service | service://servicename | Representa un proceso del lado del servidor u otra entidad manual. |
