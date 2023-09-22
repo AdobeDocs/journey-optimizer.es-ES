@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: ae00c13e66247ba1e894609bec2bd21a44398431
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%
@@ -27,7 +27,7 @@ Los canales disponibles para las campañas activadas por API son correo electró
 
 >[!NOTE]
 >
->Por ahora, Envío rápido no es compatible con campañas activadas por API de notificación push.
+>Por ahora, el modo de envío rápido no es compatible con campañas activadas por API de notificaciones push.
 
 ## Creación de una campaña activada por API {#create}
 
