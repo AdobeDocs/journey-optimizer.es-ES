@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 95%
+source-wordcount: '1502'
+ht-degree: 94%
 
 ---
 
@@ -233,7 +233,10 @@ ht-degree: 95%
    + [Introducción al canal web](using/web/get-started-web.md)
    + [Requisitos previos de canal web](using/web/web-prerequisites.md)
    + [Creación de experiencias web](using/web/create-web.md)
-   + [Creación de páginas web](using/web/author-web.md)
+   + Creación de páginas web {#author-web-pages}
+      + [Editar contenido de página web](using/web/edit-web-content.md)
+      + [Administración de modificaciones](using/web/manage-web-modifications.md)
+      + [Monitorización de campañas web](using/web/monitor-web-campaigns.md)
    + [Configuración de subdominios web](using/web/web-delegated-subdomains.md)
 + Experiencia basada en código {#code-based-experience}
    + [Introducción al canal basado en código](using/code-based/get-started-code-based.md)

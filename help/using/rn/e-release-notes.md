@@ -5,9 +5,9 @@ title: Notas de la versión
 description: Notas de la primera versión de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 3df2e550c9ab2c83e6fa9c26dc62a882a523229a
+source-git-commit: 1bf010b247b3683c6171bc387c9b94ab1b5dcefc
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '588'
 ht-degree: 23%
 
 ---
@@ -96,9 +96,9 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Canal web**
 
-* SPA Ahora, las aplicaciones de una sola página () se pueden crear en el editor visual web. Ahora puede seleccionar a qué vistas específicas desea aplicar las modificaciones de la página web. Una vista puede definirse como un sitio completo o como un grupo de elementos visuales en un sitio, como la página de inicio, la totalidad del sitio de productos o el marco de preferencias de envío en todas las páginas de cierre de compra. Se necesita una configuración de desarrollador única para definir las vistas en la implementación del SDK web de Adobe Experience Platform, lo que permite a los especialistas en marketing crear y ejecutar campañas web de Adobe Journey Optimizer SPA en el tiempo de ejecución de las campañas web de la.
+* SPA Ahora, las aplicaciones de una sola página () se pueden crear en el editor visual del diseñador web. Ahora puede seleccionar a qué vistas específicas desea aplicar las modificaciones de la página web. Una vista puede definirse como un sitio completo o como un grupo de elementos visuales en un sitio, como la página de inicio, la totalidad del sitio de productos o el marco de preferencias de envío en todas las páginas de cierre de compra. Se necesita una configuración de desarrollador única para definir las vistas en la implementación del SDK web de Adobe Experience Platform; esto permite a los especialistas en marketing crear y ejecutar campañas web de Adobe Journey Optimizer SPA en el momento de la creación de las campañas web de la.
 
-* Al editar una página con el diseñador web, ahora puede agregar nuevos cambios al contenido directamente desde el panel Modificaciones, sin necesidad de seleccionar un componente y editarlo desde la interfaz del diseñador.
+* Al editar una página con el diseñador web, ahora puede agregar nuevos cambios al contenido directamente desde el **Modificaciones** panel: sin necesidad de seleccionar un componente y editarlo desde la interfaz del diseñador.
 * Al configurar subdominios web, ahora tiene la opción de agregar su propio subdominio, además de utilizar un subdominio ya delegado al Adobe.
 
 **Recorridos**

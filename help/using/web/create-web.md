@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 21%
+source-wordcount: '829'
+ht-degree: 19%
 
 ---
 
@@ -79,13 +79,44 @@ Para empezar a crear una experiencia web a través de una campaña, siga los pas
 
 Para obtener más información sobre cómo configurar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
+## Prueba de la campaña web {#test-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_preview"
+>title="Previsualizar la experiencia web"
+>abstract="Obtenga una simulación del aspecto que tendrá su experiencia web."
+
+Una vez que [ha creado su experiencia web](edit-web-content.md) con el diseñador web, puede mostrar una vista previa de las páginas web modificadas antes de activar la campaña. Para ello, siga los pasos que aparecen a continuación.
+
+>[!CAUTION]
+>
+>Debe tener perfiles de prueba disponibles para simular qué ofertas se les enviarán. Obtenga información sobre cómo [creación de perfiles de prueba](../audience/creating-test-profiles.md).
+
+1. En la pantalla de edición de contenido de la campaña web o en el diseñador web, seleccione **[!UICONTROL Simular contenido]**.
+
+   <!--![](assets/web-designer-simulate.png)-->
+
+   ![](assets/web-campaign-simulate.png)
+
+1. Clic **[!UICONTROL Administración de perfiles de prueba]** para seleccionar uno o varios perfiles de prueba.
+1. Se muestra una vista previa de la página web modificada.
+
+   ![](assets/web-designer-preview.png)
+
+1. También puede abrirlo en el explorador predeterminado o copiar la dirección URL de prueba para pegarla en cualquier explorador. Esto le permite compartir el vínculo con su equipo y las partes interesadas, que pueden obtener una vista previa de la nueva experiencia web en cualquier explorador antes de que la campaña se ponga en marcha.
+
+   >[!NOTE]
+   >
+   >Al copiar la dirección URL de prueba, el contenido mostrado es el personalizado para el perfil de prueba utilizado cuando se generó la simulación de contenido en [!DNL Journey Optimizer].
+
 ## Activación de la campaña web {#activate-web-campaign}
 
-Una vez que haya definido su [configuración de campañas web](#configure-web-campaign) y ha editado el contenido como ha deseado utilizando la variable [diseñador web](author-web.md), puede revisar y activar su campaña web. Complete los siguientes pasos.
+Una vez que haya definido su [configuración de campañas web](#configure-web-campaign) y ha editado el contenido como ha deseado utilizando la variable [diseñador web](edit-web-content.md#work-with-web-designer), puede revisar y activar su campaña web. Complete los siguientes pasos.
 
+<!--
 >[!NOTE]
 >
->También puede previsualizar el contenido de la campaña web antes de activarlo. [Más información](author-web.md#test-web-campaign)
+>You can also preview your web campaign content before activating it. [Learn more](#test-web-campaign)-->
 
 1. En la campaña web, seleccione **[!UICONTROL Revisar para activar]**.
 

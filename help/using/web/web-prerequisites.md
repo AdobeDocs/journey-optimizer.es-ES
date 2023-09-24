@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: cfa797146c4f6f87a55e72393f45c271480cf7f5
+source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 11%
@@ -85,13 +85,7 @@ Para descargar e instalar la extensión del explorador Ayuda de edición visual,
 
    ![](assets/web-visual-editing-extension-edge.png)
 
-<!--1. Launch [!DNL Journey Optimizer] in a new tab of your browser with the extension installed.
-
-1. Create a web channel campaign in [!DNL Journey Optimizer]. [Learn how](author-web.md#create-web-campaign)
-
-1. Open the [!DNL Journey Optimizer] web designer to start authoring your web experience. [Learn more](author-web.md)-->
-
-El Asistente de edición visual de Adobe Experience Cloud ahora se habilita automáticamente cuando se abre un sitio web en [!DNL Journey Optimizer] diseñador web para la creación de contenido.
+El Asistente de edición visual de Adobe Experience Cloud ahora se habilita automáticamente cuando se abre un sitio web en [!DNL Journey Optimizer] [diseñador web](edit-web-content.md#work-with-web-designer) para la creación de contenido.
 
 La extensión no tiene ninguna configuración condicional y administra todas las configuraciones automáticamente, incluida la configuración de cookies de SameSite.
 
