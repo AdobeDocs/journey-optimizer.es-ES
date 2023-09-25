@@ -10,10 +10,10 @@ level: Experienced
 keywords: IP, grupos, grupo, subdominios, capacidad de entrega
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 27%
+source-wordcount: '293'
+ht-degree: 26%
 
 ---
 
@@ -71,6 +71,6 @@ Los pasos clave para implementar un plan de calentamiento de IP son los siguient
 
 1. Primero debe crear una o más campañas con la opción Calentamiento de IP habilitada. [Más información](ip-warmup-campaign.md) <!--this is usually done by a marketer persona??)-->
 
-1. Cree un plan de calentamiento de IP y cargue su plan. [Más información](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
+1. Creación de un plan de calentamiento de IP en [!DNL Journey Optimizer] y cargue la hoja de Excel previamente rellenada con los datos de calentamiento de IP. [Más información](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
 
 1. Seleccione una campaña para cada fase del plan y active las ejecuciones correspondientes. [Más información](ip-warmup-running.md)

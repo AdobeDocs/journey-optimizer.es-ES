@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, grupos, grupo, subdominios, capacidad de entrega
 hide: true
 hidefromtoc: true
-source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '798'
 ht-degree: 5%
 
 ---
@@ -30,7 +30,57 @@ Lo que encontrará en esta guía de documentación:
 
 >[!ENDSHADEBOX]
 
-Una vez que [ha creado una o más campañas](ip-warmup-campaign.md) con una superficie dedicada y la opción calentamiento de IP habilitada, puede empezar a crear su plan de calentamiento de IP.
+Una vez que haya creado una o más [Campañas de calentamiento de IP](ip-warmup-campaign.md) con una superficie dedicada y la opción correspondiente habilitada, puede empezar a crear su plan de calentamiento de IP.
+
+## Rellene la plantilla de calentamiento de IP {#upload-plan}
+
+Antes de poder crear un plan de calentamiento de IP en la interfaz de Journey Optimizer, debe rellenar una plantilla en formato Excel con todos los datos que alimentan su plan.
+
+>[!CAUTION]
+>
+>Póngase en contacto con el consultor del equipo de entrega para asegurarse de que el archivo del plan de calentamiento de IP esté correctamente configurado.
+
+A continuación se muestra un ejemplo de un archivo que contiene un plan de calentamiento de IP.
+
+![](assets/ip-warmup-sample-file.png)
+
+### Pestaña Plan de calentamiento de IP
+
+El calentamiento de IP es una actividad que consiste en aumentar gradualmente el volumen de correos electrónicos que salen de sus IP y dominios a los principales proveedores de servicios de Internet (ISP) para establecer su reputación como remitente legítimo.
+
+Esta actividad se suele realizar con la ayuda de un consultor o experto en capacidad de envío que prepara un plan bien pensado en función del dominio del sector, el caso de uso, la región, los ISP y varios otros factores.
+
+* En este ejemplo, se ha preparado un plan que abarca más de 17 días y para alcanzar un volumen objetivo de perfiles xxx.
+
+* Este plan se ejecuta en 6 fases.
+
+* Puede tener tantas columnas como desee para los dominios a los que desee enviar. En este ejemplo, el plan se divide en cuatro columnas que corresponden a los grupos de dominio que se utilizan en el plan: Gmail, Adobe, Yahoo y otros.
+
+La idea es tener más ejecuciones en las primeras fases y aumentar progresivamente el número de direcciones objetivo al mismo tiempo que se reduce el número de ejecuciones.
+
+La lista de dominios predeterminados es la siguiente:
+
+* Gmail
+* Adobe
+* WP
+* Comcast
+* Yahoo
+* Estanque Grande
+* Naranja
+* Softbank
+* Docomo
+* Internet Unido
+* Microsoft
+* KDDI
+* Italia Online
+* La Poste
+* Apple
+
+### Pestaña Grupo de dominios personalizado
+
+También puede agregar más columnas con sus grupos de dominio personalizados.
+
+Utilice el **[!UICONTROL Grupo de dominio personalizado]** para definir un nuevo dominio y para cada dominio se pueden añadir todos los subdominios que cubre.<!--TBC-->
 
 ## Acceso y administración de planes de calentamiento de IP {#manage-ip-warmup-plans}
 
@@ -40,10 +90,10 @@ Una vez que [ha creado una o más campañas](ip-warmup-campaign.md) con una supe
 
 1. Puede filtrar por el estado. Los diferentes estados son:
 
-   * **Sin iniciar**: no se ha producido ninguna ejecución
-   * **En curso**: tan pronto como se ha iniciado una ejecución <!--or is done?-->
-   * **En pausa**
-   * **Completado**: todas las ejecuciones del plan han finalizado
+   * **Sin iniciar**: aún no se ha activado ninguna ejecución. [Más información](ip-warmup-running.md#define-runs)
+   * **En curso / Activo**: el plan toma este estado en cuanto se activa correctamente la primera ejecución de la primera fase. [Más información](ip-warmup-running.md#define-runs)
+   * **Completado**: el plan se ha marcado como completado. Esta opción sólo está disponible si todas las ejecuciones del plan se encuentran en **[!UICONTROL Correcto]** o **[!UICONTROL Borrador]** estado (no se puede ejecutar **[!UICONTROL Activo]**). [Más información](ip-warmup-running.md#define-runs#mark-as-completed)
+   * **En pausa**<!--: to check (user action)-->
 
 1. Para eliminar un plan de calentamiento de IP, seleccione la **[!UICONTROL Eliminar]** junto a un elemento de la lista y confirme la eliminación.
 
@@ -99,7 +149,7 @@ Cuando una o más campañas en directo con **[!UICONTROL Activación del plan de
 
    ![](assets/ip-warmup-plan-phases.png)
 
-### Volver a cargar un plan de calentamiento de IP {#re-upload-plan}
+## Volver a cargar un plan de calentamiento de IP {#re-upload-plan}
 
 Puede volver a cargar otro plan de calentamiento de IP con el botón correspondiente.
 
@@ -108,17 +158,3 @@ Puede volver a cargar otro plan de calentamiento de IP con el botón correspondi
 >[!NOTE]
 >
 >Los detalles del plan de calentamiento de IP cambiarán según el archivo recién cargado. Las ejecuciones completas y las ejecuciones activadas no se ven afectadas.
-
-### Cargue el archivo que contiene el plan {#upload-plan}
-
-A continuación se muestra un ejemplo de un archivo que contiene un plan de calentamiento de IP.
-
-![](assets/ip-warmup-sample-file.png)
-
-Cada fase corresponde a un periodo compuesto por varias ejecuciones, a las que se asigna una sola campaña.
-
-Para cada ejecución, tiene un determinado número de destinatarios y definirá una fecha en la que se ejecutará.
-
-Puede tener tantas columnas como desee para los dominios a los que desee enviar. En este ejemplo, tiene tres columnas: Gmail, Adobe y Otros, lo que significa que
-
-La idea es tener más ejecuciones en las primeras fases y aumentar progresivamente el número de direcciones objetivo al mismo tiempo que se reduce el número de ejecuciones.
