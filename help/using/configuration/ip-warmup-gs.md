@@ -7,12 +7,12 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Experienced
-keywords: IP, grupos, grupo, subdominios, capacidad de entrega
+keywords: IP, capacidad de entrega
 hide: true
 hidefromtoc: true
-source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '295'
 ht-degree: 26%
 
 ---
@@ -33,7 +33,7 @@ Lo que encontrará en esta guía de documentación:
 * **[Introducción al calentamiento de IP](ip-warmup-gs.md)**
 * [Creación de campañas de calentamiento de IP](ip-warmup-campaign.md)
 * [Crear un plan de calentamiento de IP](ip-warmup-plan.md)
-* [Ejecutar el plan de calentamiento de IP](ip-warmup-running.md)
+* [Ejecución del plan de calentamiento de IP](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ Con [!DNL Journey Optimizer], puede realizar fácilmente flujos de trabajo de ca
 
 Cuando se envían correos electrónicos utilizando una plataforma nueva, los proveedores de servicios de Internet (ISP) sospechan de las direcciones IP desconocidas. Si se envían, de repente, grandes volúmenes de correos electrónicos, los ISP suelen marcarlos como correo no deseado.
 
-Para evitar que se lo considere correo no deseado, puede aumentar progresivamente el volumen enviado mediante la función de plan de calentamiento de IP. Una nueva opción de la variable **[!UICONTROL Administration]** El menú le permite hacerlo más suavemente en lugar de crear recorridos diarios complejos. Esto debería garantizar un desarrollo uniforme de la fase de inicio y permitir reducir la velocidad total de direcciones no válidas.
+Para evitar que se lo considere correo no deseado, puede aumentar progresivamente el volumen enviado mediante la función de plan de calentamiento de IP. Esta nueva opción de la **[!UICONTROL Administration]** El menú le permite hacerlo más fácilmente de una manera consolidada en lugar de crear recorridos diarios complejos. Esto debería garantizar un desarrollo uniforme de la fase de inicio y permitir reducir la velocidad total de direcciones no válidas.
 
 >[!NOTE]
 >
@@ -69,8 +69,8 @@ Benefits
 
 Los pasos clave para implementar un plan de calentamiento de IP son los siguientes:
 
-1. Primero debe crear una o más campañas con la opción Calentamiento de IP habilitada. [Más información](ip-warmup-campaign.md) <!--this is usually done by a marketer persona??)-->
+1. Primero debe crear una o más campañas con la opción Calentamiento de IP habilitada. [Más información](ip-warmup-campaign.md)
 
-1. Creación de un plan de calentamiento de IP en [!DNL Journey Optimizer] y cargue la hoja de Excel previamente rellenada con los datos de calentamiento de IP. [Más información](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
+1. Creación de un plan de calentamiento de IP en [!DNL Journey Optimizer] y cargue la hoja de Excel preparada con la ayuda del consultor del equipo de entrega. [Más información](ip-warmup-plan.md)
 
-1. Seleccione una campaña para cada fase del plan y active las ejecuciones correspondientes. [Más información](ip-warmup-running.md)
+1. Seleccione una campaña para cada fase del plan y active las ejecuciones correspondientes. [Más información](ip-warmup-execution.md)

@@ -6,13 +6,13 @@ description: Obtenga información sobre cómo crear una campaña de calentamient
 feature: Application Settings
 topic: Administration
 role: Admin
-level: Experienced
-keywords: IP, grupos, grupo, subdominios, capacidad de entrega
+level: Intermediate
+keywords: IP, grupos, capacidad de entrega
 hide: true
 hidefromtoc: true
-source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '348'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
 >title="Activar la opción de plan de calentamiento IP"
->abstract="Seleccione la opción de activación del plan de calentamiento IP. Una vez que la campaña está activa, puede asociarse con un plan de calentamiento de IP."
+>abstract="Al seleccionar esta opción, la campaña se puede utilizar en un plan de calentamiento de IP. La programación de campaña se basa en el plan de calentamiento de IP con el que está asociado."
 
 >[!BEGINSHADEBOX]
 
@@ -31,7 +31,7 @@ Lo que encontrará en esta guía de documentación:
 * [Introducción al calentamiento de IP](ip-warmup-gs.md)
 * **[Creación de campañas de calentamiento de IP](ip-warmup-campaign.md)**
 * [Crear un plan de calentamiento de IP](ip-warmup-plan.md)
-* [Ejecutar el plan de calentamiento de IP](ip-warmup-running.md)
+* [Ejecución del plan de calentamiento de IP](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
    >
    >Obtenga información sobre cómo seleccionar el dominio y las direcciones IP que se utilizarán en una superficie de correo electrónico en [esta sección](../email/email-settings.md#subdomains-and-ip-pools).
    >
-   >Si es necesario, póngase en contacto con el consultor del equipo de entrega para identificar el dominio y las direcciones IP que se utilizarán para el plan de calentamiento de IP.<!--TBC-->
+   >Póngase en contacto con su consultor del equipo de entrega para identificar el dominio y las direcciones IP que se utilizarán para su plan de calentamiento de IP.<!--TBC-->
 
 1. Crear un [campaña](../campaigns/create-campaign.md) y seleccione la [Correo electrónico](../email/create-email.md#create-email-journey-campaign) acción.
 
@@ -73,9 +73,9 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Para una campaña en directo con el plan de calentamiento de IP activado, la variable **[!UICONTROL Eliminar]** está disponible hasta que se asocia con un plan de calentamiento de IP. Una vez utilizada en un plan de calentamiento de IP, la campaña ya no se puede eliminar.
+   >Para una campaña en directo con el plan de calentamiento de IP activado, la variable **[!UICONTROL Eliminar]** está disponible hasta que se asocia con un plan de calentamiento de IP. Una vez utilizada en un plan, la campaña ya no se puede eliminar.
 
-1. La campaña se muestra en la **[!UICONTROL Campañas]** lista. Para recuperar fácilmente todas las campañas de calentamiento de IP creadas en la zona protegida actual, puede filtrar por la opción de campaña **[!UICONTROL Preparación de IP]**.
+1. La campaña se muestra en la **[!UICONTROL Campañas]** lista. Para recuperar fácilmente todas las campañas de calentamiento de IP creadas en la zona protegida actual, puede filtrar la variable **[!UICONTROL Preparación de IP]** Opción de campaña.
 
    ![](assets/ip-warmup-campaign-filter.png)
 
