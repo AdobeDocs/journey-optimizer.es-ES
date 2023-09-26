@@ -13,7 +13,7 @@ hidefromtoc: true
 source-git-commit: 4c148733f2c6046c352135757d4a378b4bbb948e
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ Cada fase está compuesta por varias ejecuciones, a las que se asigna una sola c
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="Excluir audiencias de campaña"
->abstract="Seleccione las audiencias de otras campañas que desee excluir de la fase actual. Esto sirve para evitar que los perfiles contactados anteriormente desde otras fases u otros planes de calentamiento de IP vuelvan a segmentarse."
+>abstract="Seleccione los públicos de otras campañas que desee excluir de la fase actual. Esto sirve para evitar que los perfiles contactados anteriormente desde otras fases u otros planes de calentamiento de IP vuelvan a segmentarse."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
