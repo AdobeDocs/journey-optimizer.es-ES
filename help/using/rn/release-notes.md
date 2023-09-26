@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e0564971b18932d311d44a31a0b3acafa467e809
+source-git-commit: 28c98b8982123f0538ca86870a82bdd6228dd674
 workflow-type: tm+mt
-source-wordcount: '3976'
-ht-degree: 88%
+source-wordcount: '4024'
+ht-degree: 87%
 
 ---
 
@@ -30,6 +30,23 @@ Las notas de la primera versión están sujetas a cambios sin previo aviso hasta
 ### Nuevas funciones{#sept-2023-features}
 
 Esta versión incorpora las nuevas funciones que se enumeran a continuación.
+
+<table>
+<thead>
+<tr>
+<th><strong>Atributos calculados</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Los atributos calculados permiten resumir fácilmente los datos de evento en atributos de perfil a través de una interfaz de usuario intuitiva para mejorar la segmentación, personalización y activación basada en el comportamiento. Con esta función, puede crear atributos calculados de forma automática, administrarlos y utilizarlos en segmentación, destinos de perfil del cliente en tiempo real o Journey Optimizer.<br/><br/>
+Además, los atributos calculados simplifican la segmentación y los flujos de trabajo de recorrido para ayudarle a ofrecer sin problemas experiencias relevantes. Obtenga más información en la <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">documentación detallada</a>.</p>
+<img src="assets/computed-attributes.png">
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -92,7 +109,6 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 **Personalización**
 
 * Además de los fragmentos visuales, ahora es posible crear, guardar y reutilizar fragmentos de expresiones desde la interfaz de Journey Optimizer a través del Editor de expresiones. Los fragmentos de expresión reemplazan a las expresiones guardadas anteriormente.
-* Ahora puede utilizar atributos calculados de Adobe Experience Platform para la personalización en Journey Optimizer. Los atributos calculados son valores agregados que se calculan en función de conjuntos de datos de evento de experiencia con perfil habilitado introducidos en Adobe Experience Platform.
 
 **Alerta**
 
