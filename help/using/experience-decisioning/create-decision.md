@@ -11,7 +11,7 @@ badge: label="Beta"
 source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 5%
+ht-degree: 17%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
 >title="¿Qué es una decisión?"
->abstract="Las políticas de decisión aprovechan el motor de toma de decisiones de experiencia para elegir el mejor contenido que se ofrece, según la audiencia."
+>abstract="Las políticas de decisión aprovechan el motor de toma de decisiones de experiencia para elegir el mejor contenido que se ofrece, según el público."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=es" text="Acerca de Experience Decisioning"
 
 >[!BEGINSHADEBOX]
@@ -50,13 +50,13 @@ Las políticas de decisión son contenedores para sus ofertas que aprovechan el 
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
->title="Defina el número de elementos que desea devolver"
+>title="Definición del número de elementos que desea devolver"
 >abstract="Seleccione el número de elementos de decisión que desea que se devuelvan. Por ejemplo, si selecciona 2, se presentarán las dos mejores ofertas aptas para la superficie actual."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
->title="Seleccionar una reserva"
->abstract="Un elemento de reserva se muestra al usuario cuando no se cumple ninguna de las estrategias de selección definidas para esa directiva de decisión."
+>title="Selección de una reserva"
+>abstract="Un elemento de reserva se muestra al usuario cuando no se cumple ninguna de las estrategias de selección definidas para esa política de decisión."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_strategy"

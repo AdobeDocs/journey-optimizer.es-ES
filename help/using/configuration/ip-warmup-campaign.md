@@ -13,7 +13,7 @@ hidefromtoc: true
 source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
->title="Activar la opción de plan de calentamiento IP"
+>title="Activación de la opción de plan de calentamiento de IP"
 >abstract="Al seleccionar esta opción, la campaña se puede utilizar en un plan de calentamiento de IP. La programación de campaña se basa en el plan de calentamiento de IP con el que está asociado."
 
 >[!BEGINSHADEBOX]

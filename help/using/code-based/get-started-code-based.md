@@ -11,7 +11,7 @@ badge: label="Beta"
 source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
 source-wordcount: '1172'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -141,7 +141,7 @@ Los pasos clave para implementar una campaña basada en código son los siguient
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"
->title="Definir una superficie de experiencia basada en código"
+>title="Definición de una superficie de experiencia basada en código"
 >abstract="Una superficie basada en código es cualquier entidad diseñada para la interacción del usuario o del sistema, que se identifica de forma exclusiva mediante un URI."
 
 A **superficie de experiencia basada en código** es cualquier entidad diseñada para la interacción del usuario o del sistema<!--ask Robert to explain further-->, que se identifica de forma exclusiva mediante una **URI**.

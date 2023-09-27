@@ -13,7 +13,7 @@ hidefromtoc: true
 source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 4%
+ht-degree: 14%
 
 ---
 
@@ -110,8 +110,8 @@ Por ejemplo, si agrega el dominio personalizado Luma, desea que se incluyan los 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
->title="Especifique el plan de calentamiento de IP"
->abstract="Descargue la plantilla CSV y rellénela con datos de las fases de calentamiento de la IP y el número de destinatarios de los perfiles."
+>title="Especificación del plan de calentamiento de IP"
+>abstract="Descargue la plantilla CSV y rellénela con datos de las fases de calentamiento de IP y el número de destino de los perfiles."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
