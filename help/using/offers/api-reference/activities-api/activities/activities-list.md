@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
-source-git-commit: 0d2a5d566a9bc328ebe8ec0f88bb6a7127f6624d
+source-git-commit: 8071bcf194a7cbf1ba00011e5deba1e6296cf708
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 7%
+source-wordcount: '184'
+ht-degree: 8%
 
 ---
 
@@ -49,13 +49,11 @@ Puede utilizar parámetros de consulta para paginar y filtrar los resultados al 
 
 Los parámetros de consulta más comunes para la paginación incluyen:
 
-| Descripción del parámetro | Ejemplo |
-|------------|-----------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
-| `property` | Un filtro de propiedad opcional: |
-: las propiedades se agrupan por operación AND.
-- Los parámetros se pueden repetir de esta manera: `property=<property-expr>[&property=<property-expr2>...]` o `property=<property-expr1>[,<property-expr2>...]`
-- Las expresiones de propiedad tienen el formato `[!]field[op]value`, con op in `[==,!=,<=,>=,<,>,~]`, que admiten expresiones regulares | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` | | `orderBy`  | Ordenar los resultados por una propiedad específica. Adición de un `-` antes del nombre (orderby=-name) ordenará los elementos por nombre en orden descendente (Z-A). Las expresiones de ruta tienen la forma de rutas separadas por puntos. Este parámetro se puede repetir de esta manera: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name`                    | | `limit`    | Limitar el número de entidades devueltas. | `limit=5`                                |
-
+| Parámetro | Descripción | Ejemplo |
+| --------- | ----------- | ------- |
+| `property` | Un filtro de propiedad opcional: <br> <ul> : las propiedades se agrupan por operación AND. <br><br> - Los parámetros se pueden repetir como se indica a continuación: property=<property-expr>[&amp;property=<property-expr2>...] o property=<property-expr1>[&amp;<property-expr2>...] <br><br> - Las expresiones de propiedad están en formato [!]campo[op]valor, con op in [¡==!=,&lt;=,>=,&lt;,>,~], que admiten expresiones regulares | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | Ordene los resultados por una propiedad específica. Si se agrega un - antes del nombre (orderby=-name), los elementos se ordenarán por nombre en orden descendente (Z-A). Las expresiones de ruta tienen la forma de rutas separadas por puntos. Este parámetro se puede repetir de esta manera: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
+| `limit` | Limite el número de entidades devueltas. | `limit=5` |
 
 **Respuesta**
 
