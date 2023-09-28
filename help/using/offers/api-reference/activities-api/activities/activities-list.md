@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
-source-git-commit: b1dc5aba32e3b736d837563f384a320bb3382b4f
+source-git-commit: c00a93d223cf71ce616fa7f68c4fffc11b5dbf4e
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 8%
 
 ---
@@ -51,9 +51,10 @@ Los parámetros de consulta más comunes para la paginación incluyen:
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `property` | Un filtro de propiedad opcional: <ul><li> Las propiedades se agrupan por operación AND. <br><br> - Los parámetros se pueden repetir como se indica a continuación: property=`<property-expr>`[&amp;property=`<property-expr2>`...] o property=`<property-expr1>`[&amp;`<property-expr2>`...] <br><br> - Las expresiones de propiedad están en formato [!]campo[op]valor, con op in [¡==!=,&lt;=,>=,&lt;,>,~], que admiten expresiones regulares </li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | Un filtro de propiedad opcional: <ul><li> Las propiedades se agrupan por operación AND. <br><br> - Los parámetros se pueden repetir como se indica a continuación: property=`<property-expr>`[&amp;property=`<property-expr2>`...] o property=`<property-expr1>`[&amp;`<property-expr2>`...] <br><br> - Las expresiones de propiedad están en formato `[!]field[op]` valor, con op in `[==,!=,'<=',>=,<,>,~]`, que admiten expresiones regulares  </li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | Ordene los resultados por una propiedad específica. Si se agrega un - antes del nombre (orderby=-name), los elementos se ordenarán por nombre en orden descendente (Z-A). Las expresiones de ruta tienen la forma de rutas separadas por puntos. Este parámetro se puede repetir de esta manera: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | Limite el número de entidades devueltas. | `limit=5` |
+
 
 **Respuesta**
 
