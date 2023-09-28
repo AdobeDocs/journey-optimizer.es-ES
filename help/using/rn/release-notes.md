@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cd6fbe0367f54f68814ffd9a8eb13c887ae057b3
+source-git-commit: 94ad48537e6c13b17130f9f31d747bd9749e982c
 workflow-type: tm+mt
-source-wordcount: '4059'
-ht-degree: 86%
+source-wordcount: '4014'
+ht-degree: 87%
 
 ---
 
@@ -137,10 +137,6 @@ Dos campos nuevos, **Mensaje de inclusión** y **Mensaje de ayuda**, se han agre
 **Canal de correo directo**
 
 Ahora tiene la capacidad de cifrar archivos destinados a sus proveedores de correo postal cuando se transfieren a un servidor. Para ello, hay un nuevo campo disponible en la pantalla de configuración de enrutamiento de archivos, que le permite copiar y pegar la clave de cifrado. [Más información](../direct-mail/direct-mail-configuration.md)
-
-**Canal de correo directo**
-
-Ahora tiene la capacidad de cifrar archivos destinados a sus proveedores de correo postal cuando se transfieren a un servidor. Para ello, hay un nuevo campo disponible en la pantalla de configuración de enrutamiento de archivos, que le permite copiar y pegar la clave de cifrado.
 
 **Creación de informes**
 
