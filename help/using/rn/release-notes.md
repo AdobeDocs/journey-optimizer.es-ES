@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a5cb591a3340f2af27806967e5a1403be9fe26e4
+source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
 workflow-type: tm+mt
-source-wordcount: '4010'
+source-wordcount: '4018'
 ht-degree: 87%
 
 ---
@@ -140,7 +140,7 @@ Ahora tiene la capacidad de cifrar archivos destinados a sus proveedores de corr
 
 **Creación de informes**
 
-Ahora puede exportar informes de Journey Optimizer como archivo CSV. [Más información](../reports/global-report.md#export-reports)
+Ahora puede exportar informes de Journey Optimizer como archivo CSV. Obtenga más información en la [documentación detallada](../reports/global-report.md#export-reports) y el [vídeo explicativo](../reports/global-report.md#video-csv).
 
 **Recursos**
 

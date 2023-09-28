@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 92cf1d4a350359adbbad93c4006ec7a0e3902397
+source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 0%
+source-wordcount: '569'
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,10 @@ El tablero se ha guardado. Los diferentes cambios se volverán a aplicar para un
 
 ## Exportación de informes {#export-reports}
 
-Puede exportar fácilmente los distintos informes a los formatos PDF o CSV, lo que le permite compartirlos o imprimirlos.
+Puede exportar fácilmente los distintos informes a los formatos PDF o CSV, lo que le permite compartirlos o imprimirlos. Los pasos para exportar informes se detallan en las pestañas siguientes.
+
+➡️ [Descubra esta función en vídeo](#video-csv)
+
 
 >[!BEGINTABS]
 
@@ -110,3 +113,11 @@ El informe ya está disponible para su visualización o uso compartido en un arc
 
 
 >[!ENDTABS]
+
+
+### Exportación de informes (vídeo) {#video-csv}
+
+Obtenga información sobre cómo descargar un informe CSV para un informe y para un widget único en el siguiente vídeo explicativo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424603?quality=12)
+
