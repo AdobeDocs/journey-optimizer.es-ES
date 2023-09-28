@@ -6,9 +6,9 @@ description: Aprenda a trabajar con atributos calculados.
 feature: Profiles
 role: User
 level: Beginner
-source-git-commit: d2619b3b3871073b35faf04adba71dbb1ddd29a1
+source-git-commit: 608394da88d42095a1adc517a067c725eac52707
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '546'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Cada atributo calculado es un atributo de perfil que puede aprovechar para la se
 
 Para crear atributos calculados, vaya a **[!UICONTROL Atributos calculados]** en la pestaña **[!UICONTROL Perfiles]** situado en el lado izquierdo.
 
-Desde esta pantalla, puede construir atributos calculados generando reglas que combinen atributos de evento y funciones agregadas, además de un periodo retrospectivo especificado. Por ejemplo, puede calcular la suma de las compras realizadas en los últimos tres meses, identificar el artículo más reciente que vio un perfil con el que no realizó una compra en la última semana o calcular el total de puntos de recompensa acumulados por cada perfil.
+Desde esta pantalla, puede construir atributos calculados mediante la creación de reglas que combinen atributos de evento y funciones de agregado, además de un periodo retrospectivo especificado. Por ejemplo, puede calcular la suma de las compras realizadas en los últimos tres meses, identificar el artículo más reciente que vio un perfil que no realizó una compra en la última semana o contar el total de puntos de recompensa acumulados por cada perfil.
 
 ![](assets/computed-attributes.png)
 
@@ -66,6 +66,6 @@ Encontrará información detallada sobre cómo agregar grupos de campos a la fue
 
 Los atributos calculados ofrecen un conjunto versátil de funciones dentro de Recorrido Optimizer. Puede utilizarlas para varios fines, como personalizar el contenido del mensaje, crear nuevas audiencias o dividir recorridos en función de un atributo calculado específico. Por ejemplo, puede dividir la ruta de un recorrido en función de las compras totales de un perfil en las últimas tres semanas, agregando un único atributo calculado en una actividad Condición. También puede personalizar un correo electrónico mostrando el elemento visualizado más recientemente para cada perfil.
 
-Dado que los atributos calculados son campos de atributos de perfil creados en el esquema de unión de perfiles, puede acceder a ellos desde el Editor de expresiones dentro de **SystemComputedAttributes** grupo de campos. A partir de ahí, puede agregar un atributo calculado a las expresiones, tratándolas como cualquier otro atributo de perfil para realizar las operaciones deseadas.
+Dado que los atributos calculados son campos de atributos de perfil creados en el esquema de unión de perfiles, puede acceder a ellos desde el Editor de expresiones dentro de **SystemComputedAttributes** grupo de campos. Desde allí, puede agregar un atributo calculado a las expresiones, tratándolas como cualquier otro atributo de perfil para realizar las operaciones deseadas.
 
 ![](assets/computed-attributes-ajo.png)
