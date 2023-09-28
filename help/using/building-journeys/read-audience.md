@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, lectura, audiencia, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 392bd63b666e4db72c2865e4b7134bb3c1711816
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 12%
+source-wordcount: '1267'
+ht-degree: 13%
 
 ---
 
@@ -116,23 +116,17 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### Prueba y publicación del recorrido {#testing-publishing}
 
-El **[!UICONTROL Leer audiencia]** La actividad de le permite probar el recorrido en un perfil unitario o en 100 perfiles de prueba aleatorios seleccionados entre los perfiles cualificados para la audiencia.
+El **[!UICONTROL Leer audiencia]** La actividad de le permite probar el recorrido en un perfil unitario.
 
-Para ello, active el modo de prueba y seleccione la opción que desee en el panel izquierdo.
+Para ello, active el modo de prueba.
 
 ![](assets/read-segment-test-mode.png)
 
-A continuación, puede configurar y ejecutar el modo de prueba como de costumbre. [Obtenga información sobre cómo probar un recorrido](testing-the-journey.md).
+Configure y ejecute el modo de prueba como de costumbre. [Obtenga información sobre cómo probar un recorrido](testing-the-journey.md).
 
-Una vez que se esté ejecutando la prueba, el **[!UICONTROL Mostrar registros]** permite ver los resultados de la prueba según la opción de prueba seleccionada:
+Una vez que se esté ejecutando la prueba, el **[!UICONTROL Mostrar registros]** permite ver los resultados de la prueba. Para obtener más información, consulte [esta sección](testing-the-journey.md#viewing_logs)
 
-* **[!UICONTROL Perfil único a la vez]**: los registros de prueba muestran la misma información que al utilizar el modo de prueba unitario. Para obtener más información, consulte [esta sección](testing-the-journey.md#viewing_logs)
-
-* **[!UICONTROL Hasta 100 perfiles a la vez]**: los registros de prueba permiten rastrear la progresión de la exportación de audiencias desde Adobe Experience Platform, así como el progreso individual de todas las personas que ingresaron al recorrido.
-
-  Tenga en cuenta que probar el recorrido con hasta 100 perfiles a la vez no le permite rastrear el progreso de las personas en el recorrido mediante el flujo visual.
-
-  ![](assets/read-segment-log.png)
+![](assets/read-segment-log.png)
 
 Una vez realizadas las pruebas correctamente, puede publicar el recorrido (consulte [Publicación del recorrido](publishing-the-journey.md)). Las personas que pertenezcan a la audiencia introducirán el recorrido en la fecha y hora especificadas en las propiedades del recorrido **[!UICONTROL Planificador]** sección.
 

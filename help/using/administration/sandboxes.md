@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: zonas protegidas, virtual, entornos, organización, plataforma
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 57%
+source-wordcount: '336'
+ht-degree: 60%
 
 ---
 
@@ -36,7 +36,7 @@ Puede encontrar el control del conmutador de simulador de pruebas en la parte su
 
 >[!IMPORTANT]
 >
-> La administración de zonas protegidas solo puede realizarla un **[!UICONTROL Product]** o **[!UICONTROL Sistema]** administrador. Para obtener más información, consulte la [Documentación de Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
+> La administración de zonas protegidas solo puede realizarla un **[!UICONTROL Product]** o **[!UICONTROL Sistema]** administrador.
 
 Puede elegir asignar diferentes zonas protegidas a listas para usar o a entornos personalizados **[!UICONTROL Funciones]**.
 

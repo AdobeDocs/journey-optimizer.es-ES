@@ -8,9 +8,10 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+exl-id: 398b5ac6-0bdc-402f-8b13-7edd9b524808
+source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '823'
 ht-degree: 5%
 
 ---
@@ -114,7 +115,7 @@ Si tiene una implementación del lado del servidor, puede utilizar una de la API
 ### Funcionamiento
 
 1. La página web se solicita y cualquier cookie previamente almacenada por el explorador lleva el prefijo `kndctr_` están incluidos.
-1. Cuando se solicita la página desde el servidor de aplicaciones, se envía un evento a [punto final de recopilación de datos interactivos](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=en) para recuperar contenido de personalización. Esta aplicación de ejemplo utiliza algunos métodos de ayuda para simplificar la creación y el envío de solicitudes a la API (consulte [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Pero la solicitud es simplemente una `POST` con una carga útil que contiene un evento y una consulta. Las cookies (si están disponibles) del paso anterior se incluyen con la solicitud en el `meta>state>entries` matriz.
+1. Cuando se solicita la página desde el servidor de aplicaciones, se envía un evento a [punto final de recopilación de datos interactivos](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) para recuperar contenido de personalización. Esta aplicación de ejemplo utiliza algunos métodos de ayuda para simplificar la creación y el envío de solicitudes a la API (consulte [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Pero la solicitud es simplemente una `POST` con una carga útil que contiene un evento y una consulta. Las cookies (si están disponibles) del paso anterior se incluyen con la solicitud en el `meta>state>entries` matriz.
 
    ```javascript
    fetch(
@@ -275,4 +276,3 @@ Si tiene una implementación híbrida, consulte los vínculos siguientes.
 
 * Adobe Tech Blog: [Personalización híbrida en el SDK web de Adobe Experience Platform](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
 * Documentación de SDK: [Personalización híbrida mediante SDK web y API de servidor de red perimetral](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
-

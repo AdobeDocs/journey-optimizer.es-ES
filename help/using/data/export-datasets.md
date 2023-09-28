@@ -5,25 +5,20 @@ title: Exportación de conjuntos de datos a ubicaciones de almacenamiento en la 
 description: Obtenga información sobre cómo exportar conjuntos de datos mediante destinos de almacenamiento en la nube de Adobe Experience Platform.
 role: User
 level: Beginner
-badge: label="Beta" type="Informative"
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 08f24547237c01c581248d675c55c834c261b173
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 4%
+source-wordcount: '999'
+ht-degree: 6%
 
 ---
 
 # Exportación de conjuntos de datos a ubicaciones de almacenamiento en la nube {#export-datasets}
 
->[!AVAILABILITY]
->
->La función de exportación de conjuntos de datos se encuentra actualmente en fase beta y está disponible para todos los usuarios de Adobe Journey Optimizer.
-
 Journey Optimizer le permite establecer una conexión activa con ubicaciones de almacenamiento en la nube para exportar el contenido de sus conjuntos de datos.
 
-Al exportar periódicamente los datos, puede asegurarse de que dispone de un registro completo y actualizado de las interacciones con los clientes, de que utiliza esta información con fines de informes o análisis y de que cumple los requisitos legales.
+Al exportar periódicamente los datos, puede asegurarse de que dispone de un registro completo y actualizado de las interacciones de los clientes, lo que lo hace fácilmente disponible para fines de creación de informes, archivado o análisis de datos.
 
 ## Destinos de almacenamiento en la nube disponibles {#destinations}
 
@@ -44,13 +39,19 @@ Encontrará información detallada sobre cada destino en la documentación de Ad
 * [Almacenamiento de Google Cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html)
 * [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html)
 
+## Conjuntos de datos de Journey Optimizer disponibles para exportar {#datasets}
+
+En la tabla siguiente, obtenga información sobre los conjuntos de datos de Journey Optimizer que puede exportar según su nivel de producto (consulte [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}) |Conjunto de datos|Descripción|Nivel| | ------- | ------- | ------- | | Conjunto de datos de evento de comentarios CCO de AJO | Conjunto de datos de evento de comentarios CCO de AJO | Prime | | Conjunto de datos de clasificación AJO | Conjunto de datos para la ingesta de eventos de comentarios de aplicaciones push y de correo electrónico desde Journey Optimizer. Creado mediante SDK. | Prime | | Conjunto de datos del servicio de consentimiento AJO | Almacena la información de consentimiento de un perfil. | Prime | | Conjunto de datos de evento de experiencia de seguimiento de correo electrónico AJO | Registros de interacción del canal de correo electrónico que se utilizan para fines de creación de informes y audiencias.  | Prime | | Conjunto de datos de entidad AJO | Conjunto de datos para almacenar metadatos de entidad para los mensajes enviados al usuario final.  | Prime | | Conjunto de datos de evento de actividad entrante de AJO | Conjunto de datos para canales web y de la aplicación de Journey Optimizer para eventos de envío e interacción. | Prime | | Conjunto de datos del perfil de mensajería interactiva AJO | Almacena perfiles creados para admitir campañas activadas por API | Prime | | Conjunto de datos de evento de comentarios de mensajes AJO | Registros de envío de mensajes. Información sobre el envío de mensajes desde Journey Optimizer con fines de creación de informes y audiencias. Los comentarios de los ISP de correo electrónico sobre los rechazos también se registran en este conjunto de datos. | Prime | | Extensión de contadores de perfiles AJO | Contiene un mapa de objetos que contienen counter_value y expiryDate, marcados con counter_id | Prime | | Conjunto de datos del perfil push de AJO | Almacena tokens push de un perfil. | Prime | | Conjunto de datos de evento de experiencia de seguimiento push AJO | Registros de interacción del canal push que se utilizan para fines de creación de informes y audiencias.  | Prime | | Conjunto de datos de superficies AJO | Conjunto de datos vacío relacionado con el esquema de superficies entrantes de Journey Optimizer | Prime | | AOOutputForUPSDataset | Contiene todas las pertenencias a audiencias de AO que se van a escribir en UPS | Prime | | Conjunto de datos del perfil de Audience Orchestration | Generado por composición de audiencia para audiencias de Composición de audiencia. Contiene todas las audiencias de Composición de audiencias, sus atributos y datos de enriquecimiento | Prime | | Repositorio de objetos de decisión: actividades | también conocido como Decisiones en la interfaz de usuario. Pero estos son los objetos que crea un usuario que reúne todos los componentes, incluida la lógica de toma de decisiones. Por ejemplo, para una ubicación concreta (ubicación), qué ofertas deben considerarse (colección de ofertas) y qué método de clasificación utilizar en esas ofertas. | Ultimate | | Repositorio de objetos de decisión: ofertas de reserva | este es el repositorio para el otro tipo de oferta que crea un usuario. Específicamente, si no cumplen los requisitos para ver una oferta personalizada y necesitan ver algo, al menos verán la oferta de reserva. Este conjunto de datos contiene los atributos para este tipo de oferta | Ultimate | | Repositorio de objetos de decisión: ofertas personalizadas | este es el repositorio de un tipo de oferta que crea un usuario. Por lo tanto, este conjunto de datos contiene los atributos sobre este tipo de oferta | Ultimate | | Repositorio de objetos de decisión: ubicaciones | este es el repositorio de objetos que definen la ubicación de donde debe mostrarse una oferta. | Ultimate | | Eventos de paso de Recorrido | Registra todos los eventos de experiencia de los pasos de Recorrido generados desde Journey Optimizer que deben consumir servicios como Informes. | Prime | | RECORRIDOS | Conjunto de datos de metadatos que contiene información de cada paso de un recorrido | Prime | | ODE DecisionEvents - toma de decisiones de producción | Cada vez que tomamos una decisión basada en una solicitud, la consideramos un evento de decisión | Ultimate |
+
 ## Requisitos previos {#prerequisites}
 
-Compruebe los siguientes requisitos previos antes de empezar a exportar los conjuntos de datos:
+Para exportar conjuntos de datos, necesita el [permisos de control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions) se enumera a continuación. Lea el [información general de control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) o póngase en contacto con el administrador del producto para obtener los permisos necesarios.
 
-* Para exportar conjuntos de datos, necesita el **Ver destinos** y **Administrar y activar destinos de conjuntos de datos** [permisos de control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). Lea el [información general de control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) o póngase en contacto con el administrador del producto para obtener los permisos necesarios.
-
-* Asegúrese de que el conjunto de datos que desea exportar no contenga datos de segunda generación. Esta función solo admite la exportación de datos de primera generación, es decir, datos sin procesar tal como se definen en la [Descripción del producto de Real-time Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). Los datos de primera generación incluyen conjuntos de datos traídos a través de fuentes de Adobe Experience Platform o conjuntos de datos recopilados mediante soluciones de Adobe como el conector de datos de Analytics y registros de Journey Optimizer/conjuntos de datos de informes.
+| Categoría | Permiso |
+|--|--|
+| Destinos | Administrar y activar destinos de conjuntos de datos |
+| Administración de datos | Ver conjuntos de datos |
+| Destinos | Ver destinos |
 
 ## Pasos principales para exportar conjuntos de datos {#main-steps}
 
@@ -72,7 +73,7 @@ Encontrará información detallada sobre cada paso en la documentación de Adobe
    >
    >Si utiliza Adobe Journey Optimizer junto con los perfiles del cliente en tiempo real, las tarjetas de destino mostrarán un botón &quot;Activar&quot;, que le permitirá exportar conjuntos de datos y activar audiencias para este destino, según los permisos que haya activado.
 
-1. **Seleccionar los conjuntos de datos** que desea exportar al destino seleccionado.
+1. **Seleccionar los conjuntos de datos** que desea exportar al destino seleccionado. [Obtenga más información sobre los conjuntos de datos de Journey Optimizer disponibles para exportar](#datasets)
 
    <!--![](assets/dataset-export-dataset-selection.png)-->
 

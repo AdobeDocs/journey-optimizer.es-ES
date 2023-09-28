@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorrido, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 15%
+source-wordcount: '1277'
+ht-degree: 12%
 
 ---
 
@@ -34,6 +34,16 @@ Las acciones personalizadas incluyen algunas limitaciones enumeradas en [esta p�
 En los parámetros de acción personalizados, puede pasar una colección simple, así como una colección de objetos. Obtenga más información acerca de las limitaciones de recopilación en [esta página](../building-journeys/collections.md#limitations).
 
 Tenga en cuenta también que los parámetros de acciones personalizadas tienen un formato esperado (por ejemplo: cadena, decimal, etc.). Debe tener cuidado de respetar estos formatos esperados. Obtenga más información en esta [caso de uso](../building-journeys/collections.md).
+
+## Prácticas recomendadas{#custom-action-enhancements-best-practices}
+
+Se define un límite de 5000 llamadas/s para todas las acciones personalizadas. Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Debe tener esto en cuenta en los recorridos basados en audiencias definiendo una tasa de lectura adecuada (5000 perfiles/s cuando se utilizan acciones personalizadas). Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción. Consulte [esta página](../configuration/external-systems.md).
+
+No debe segmentar los extremos públicos con acciones personalizadas por varios motivos:
+
+* Sin un límite o una restricción adecuados, existe el riesgo de enviar demasiadas llamadas a un punto final público que puede no admitir ese volumen.
+* Los datos de perfil se pueden enviar mediante acciones personalizadas, por lo que la segmentación de un extremo público podría llevar a compartir información personal de forma involuntaria de forma externa.
+* No tiene control sobre los datos que devuelven los extremos públicos. Si un extremo cambia su API o comienza a enviar información incorrecta, esta estará disponible en las comunicaciones enviadas, con posibles impactos negativos.
 
 ## Consentimiento y control de datos {#privacy}
 
@@ -70,11 +80,11 @@ Estos son los pasos principales necesarios para configurar una acción personali
    >
    >Cuando se utiliza una acción personalizada en un recorrido, la mayoría de los parámetros son de solo lectura. Solo puede modificar la variable **[!UICONTROL Nombre]**, **[!UICONTROL Descripción]**, **[!UICONTROL URL]** y el **[!UICONTROL Autenticación]** sección.
 
-## Configuración de URL {#url-configuration}
+## Configuración de extremo {#url-configuration}
 
-Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL Configuración de URL]** parámetros:
+Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL Configuración de extremo]** parámetros:
 
-![](assets/journeyurlconfiguration.png)
+![](assets/action-response1bis.png){width="70%" align="left"}
 
 1. En el **[!UICONTROL URL]** , especifique la URL del servicio externo:
 
@@ -92,7 +102,7 @@ Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL
    >
    >Solo se permiten los puertos predeterminados al definir una acción personalizada: 80 para http y 443 para https.
 
-1. Seleccione la llamada **[!UICONTROL Método]**: puede ser cualquiera de las siguientes **[!UICONTROL POST]** o **[!UICONTROL PUT]**.
+1. Seleccione la llamada **[!UICONTROL Método]**: puede ser cualquiera de las siguientes **[!UICONTROL POST]**, **[!UICONTROL GET]** o **[!UICONTROL PUT]**.
 
    >[!NOTE]
    >
@@ -118,11 +128,17 @@ Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL
    >
    >Los encabezados se validan según las reglas de análisis de campos. Obtenga más información en [esta documentación](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
-## Defina los parámetros de acción {#define-the-message-parameters}
+## Definición de los parámetros de carga útil {#define-the-message-parameters}
 
-En el **[!UICONTROL Parámetros de acción]** , pegue un ejemplo de la carga útil JSON para enviar al servicio externo.
+1. En el **[!UICONTROL Solicitud]** , pegue un ejemplo de la carga útil JSON para enviar al servicio externo. Este campo es opcional y solo está disponible para los métodos de llamada de POST y PUT.
 
-![](assets/messageparameterssection.png)
+1. En el **[!UICONTROL Respuesta]** , pegue un ejemplo de la carga útil devuelta por la llamada. Este campo es opcional y está disponible para todos los métodos de llamada. Para obtener información detallada sobre cómo aprovechar las respuestas de llamadas de API en las acciones del cliente, consulte [esta página](../action/action-response.md).
+
+>[!NOTE]
+>
+>La capacidad de respuesta está disponible actualmente en versión beta.
+
+![](assets/action-response2bis.png){width="70%" align="left"}
 
 >[!NOTE]
 >

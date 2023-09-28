@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 375dfbebcb37f948b468ec9689963b0ffebebecf
+source-git-commit: 280e311ca4515d2147f451af0fffbe6d5fc8029c
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 32%
+source-wordcount: '914'
+ht-degree: 31%
 
 ---
 
@@ -22,7 +22,7 @@ Cuándo [creación de un mensaje de correo directo](../direct-mail/create-direct
 
 Antes de poder generar este archivo, debe crear lo siguiente:
 
-1. A [configuración de enrutamiento de archivos](#file-routing-configuration) para especificar el servidor donde se exportará el archivo.
+1. A [configuración de enrutamiento de archivos](#file-routing-configuration) para especificar el servidor donde se exportará el archivo y cifrar el archivo, si es necesario.
 
 1. A [superficie de correo directo](#direct-mail-surface) que hará referencia a la configuración de enrutamiento de archivos.
 
@@ -89,6 +89,8 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
    >[!NOTE]
    >
    >Las regiones de AWS son áreas geográficas que AWS utiliza para alojar su infraestructura en la nube. Como práctica general, se prefiere elegir la región más cercana a la ubicación de su proveedor de correo postal.
+
+1. Para cifrar el archivo, copie y pegue la clave de cifrado en **[!UICONTROL Clave de cifrado PGP/GPG]** field.
 
 1. Seleccione **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se crea con la variable **[!UICONTROL Activo]** estado. Ahora está listo para utilizarse en un [superficie de correo directo](#direct-mail-surface).
 

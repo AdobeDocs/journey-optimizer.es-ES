@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: caso de uso, multicanal, mensajes, recorrido, canal, eventos, push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '850'
 ht-degree: 1%
 
 ---
@@ -115,6 +115,6 @@ El evento está ahora configurado y listo para utilizarse en el recorrido. Con l
 
 1. Antes de probar el recorrido, compruebe que es válido y que no hay error.
 
-1. Haga clic en **Prueba** active el modo de prueba en la esquina superior derecha. Defina cómo desea que los perfiles de prueba entren en la prueba: un solo perfil o hasta 100 a la vez. Consulte esta sección [sección](testing-the-journey.md) para aprender a utilizar el modo de prueba.
+1. Haga clic en **Prueba** active el modo de prueba en la esquina superior derecha. Consulte esta sección [sección](testing-the-journey.md) para aprender a utilizar el modo de prueba.
 
 1. Cuando el recorrido esté listo, publíquelo con el **Publish** botón, situado en la esquina superior derecha.

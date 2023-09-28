@@ -4,10 +4,10 @@ product: journey optimizer
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a75dea16748a6628c3e21f1846a2ac9872cc55cb
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '3596'
-ht-degree: 92%
+source-wordcount: '3695'
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,19 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Septiembre de 2023 {#september-2023}
 
+* Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de septiembre de 2023 se ha detallado en la documentación. [Más información](release-notes.md)
+* Se ha añadido una nueva página con prácticas recomendadas de escalado y directrices de vinculación en tiempo real. [Más información](../start/best-practices.md)
+
+<!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
+
+* Se ha añadido una sección de preguntas más frecuentes para la optimización del tiempo de envío. [Más información](../building-journeys/journeys-message.md#faq-send-time)
+* Se ha añadido una nota para la actividad de calificación de audiencias. Puede tardar hasta 10 minutos en estar activo y escuchar los perfiles que entran o salen de la audiencia. [Más información](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * Se ha añadido a la documentación de gestión de decisiones una lista de limitaciones que se deben tener en cuenta al crear reglas de decisión. [Más información](../offers/offer-library/creating-decision-rules.md)
+* Se han actualizado los vínculos a la documentación de control de acceso. [Más información](../administration/permissions.md)
+* Los requisitos previos del canal en la aplicación se han actualizado con los detalles de recopilación de datos de Adobe Experience Platform. [Más información](../in-app/inapp-configuration.md)
+
+
+
 
 ## Agosto de 2023 {#august-2023}
 

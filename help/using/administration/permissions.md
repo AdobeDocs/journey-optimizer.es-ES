@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: producto, perfiles, zona protegida
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '764'
 ht-degree: 8%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
-> Cada uno de los procedimientos detallados a continuación solo se puede llevar a cabo mediante una **[!UICONTROL Product]** o **[!UICONTROL Sistema]** administrador. Para obtener más información, consulte la [Documentación de Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html).
+> Cada uno de los procedimientos detallados a continuación solo se puede llevar a cabo mediante una **[!UICONTROL Product]** o **[!UICONTROL Sistema]** administrador.
 
 **[!UICONTROL Funciones]** consulte una colección de usuarios que comparten los mismos permisos y entornos limitados. Estas funciones le permiten administrar fácilmente el acceso y los permisos para diferentes grupos de usuarios dentro de su organización.
 
@@ -48,13 +48,13 @@ Para asignar un **[!UICONTROL Rol]**:
 
 1. Escriba el nombre o la dirección de correo electrónico del usuario o seleccione el usuario en la lista y haga clic en **[!UICONTROL Guardar]**.
 
-   Si el usuario no se ha creado anteriormente en [!DNL Admin Console], consulte la [Documentación de Adición de usuarios](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   Si el usuario no se ha creado anteriormente en [!DNL Admin Console], consulte la [Documentación de Adición de usuarios](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html).
 
    ![](assets/do-not-localize/access_control_4.png)
 
 El usuario debería recibir entonces un correo electrónico que le redirija a su instancia.
 
-Para obtener más información sobre la administración de usuarios, consulte la [Documentación del Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
+Para obtener más información sobre la administración de usuarios, consulte la [Documentación de control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=es).
 
 Al acceder a la instancia, el usuario verá una vista específica en función de los permisos asignados en la variable **[!UICONTROL Rol]**. Si el usuario no tiene acceso correcto a una función, aparecerá el siguiente mensaje:
 
@@ -125,4 +125,4 @@ Para crear su **Recorridos de solo lectura** **[!UICONTROL Rol]**:
 
 Su **[!UICONTROL Rol]** ahora se crea y configura. Ahora debe asignarlo a los usuarios.
 
-Para obtener más información sobre la creación y administración de funciones, consulte la [Documentación del Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=es).
+Para obtener más información sobre la creación y administración de funciones, consulte la [Documentación del Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html).

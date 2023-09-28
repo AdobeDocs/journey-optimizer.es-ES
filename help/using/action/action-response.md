@@ -9,55 +9,99 @@ role: Admin
 level: Experienced
 badge: label="Beta" type="Informative"
 keywords: acción, terceros, personalizado, recorrido, API
-source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
+exl-id: 8f47b605-7179-4522-b50c-0ea34b09bd22
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 6%
+source-wordcount: '610'
+ht-degree: 8%
 
 ---
 
-# Mejoras de acciones personalizadas {#custom-action-enhancements}
+# Uso de respuestas de llamadas de API en acciones personalizadas {#custom-action-enhancements}
 
-Ahora puede aprovechar las respuestas de llamadas de API en acciones personalizadas y organizar sus recorridos en función de estas respuestas.
-
-Anteriormente, esta capacidad solo estaba disponible cuando se utilizaban fuentes de datos. Ahora puede utilizarlo con acciones personalizadas.
+Puede aprovechar las respuestas de llamadas de API en acciones personalizadas y organizar sus recorridos en función de estas respuestas.
 
 >[!AVAILABILITY]
 >
->Actualmente, esta función está disponible como una versión beta privada.
+>Actualmente, esta funcionalidad está disponible en la versión beta.
 
->[!WARNING]
->
->Las acciones personalizadas solo deben utilizarse con extremos privados o internos y con un límite o restricción adecuado. Consulte [esta página](../configuration/external-systems.md).
+<!--
+You can now leverage API call responses in custom actions and orchestrate your journeys based on these responses.
 
-## Definir la acción personalizada {#define-custom-action}
+This capability was previously only available when using data sources. You can now use it with custom actions. 
+-->
 
-Al definir la acción personalizada, se han implementado dos mejoras: la adición del método de GET y el nuevo campo de respuesta de carga útil. Las demás opciones y parámetros no cambiarán. Consulte [esta página](../action/about-custom-action-configuration.md).
+## Notas importantes{#custom-action-enhancements-notes}
 
-### Configuración de extremo {#endpoint-configuration}
+<!--
+* Custom actions should only be used with private or internal endpoints, and used with an appropriate capping or throttling limit. See [this page](../configuration/external-systems.md). 
+-->
 
-El **Configuración de URL** se ha cambiado el nombre de la sección **Configuración de extremo**.
+* Las matrices escalares son compatibles con la carga útil de respuesta:
 
-En el **Método** desplegable, ahora puede seleccionar **GET**.
+  ```
+  "dummyScalarArray": [
+  "val1",
+  "val2"
+  ]
+  ```
+
+* Las matrices heterogéneas no son compatibles con la carga útil de respuesta:
+
+  ```
+  "dummyRandomArray": [
+  20,
+  "aafw",
+  false
+  ]
+  ```
+
+<!--
+## Best practices{#custom-action-enhancements-best-practices}
+
+A capping limit of 5000 calls/s is defined for all custom actions. This limit has been set based on customers usage, to protect external endpoints targeted by custom actions. You need to take this into account in your audience-based journeys by defining an appropriate reading rate (5000 profiles/s when custom actions are used). If needed, you can override this setting by defining a greater capping or throttling limit through our Capping/Throttling APIs. See [this page](../configuration/external-systems.md).
+
+You should not target public endpoints with custom actions for various reasons:
+
+* Without proper capping or throttling, there is a risk of sending too many calls to a public endpoint that may not support such volume.
+* Profile data can be sent through custom actions, so targeting a public endpoint could lead to inadvertently sharing personal information externally.
+* You have no control on the data being returned by public endpoints. If an endpoint changes its API or starts sending incorrect information, those will be made available in communications sent, with potential negative impacts.
+-->
+
+<!--
+## Define the custom action {#define-custom-action}
+
+When defining the custom action, two enhancements have been made available: the addition of the GET method and the new payload response field. The other options and parameters are unchanged. See [this page](../action/about-custom-action-configuration.md).
+
+### Endpoint configuration {#endpoint-configuration}
+
+The **URL configuration** section has been renamed **Endpoint configuration**.
+
+In the **Method** drop-down, you can now select **GET**.
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### Cargas útiles {#payloads-new}
+### Payloads {#payloads-new}
 
-El **Parámetros de acción** se ha cambiado el nombre de la sección **Cargas útiles**. Hay dos campos disponibles:
+The **Action parameters** section has been renamed **Payloads**. Two fields are available:
 
-* El **Solicitud** field: este campo solo está disponible para métodos de llamada de POST y PUT.
-* El **Respuesta** campo: esta es la nueva capacidad. Este campo está disponible para todos los métodos de llamada.
+* The **Request** field: this field is only available for POST and PUT calling methods.
+* The **Response** field: this is the new capability. This field as available for all calling methods.
 
 >[!NOTE]
 > 
->Ambos campos son opcionales.
+>Both these fields are optional.
 
 ![](assets/action-response2.png){width="70%" align="left"}
+-->
+
+## Configurar la acción personalizada {#config-response}
+
+1. Cree la acción personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
 1. Haga clic dentro de **Respuesta** field.
 
-   ![](assets/action-response3.png){width="80%" align="left"}
+   ![](assets/action-response2.png){width="80%" align="left"}
 
 1. Pegue un ejemplo de la carga útil devuelta por la llamada. Compruebe que los tipos de campo son correctos (cadena, entero, etc.). Este es un ejemplo de carga útil de respuesta capturada durante la llamada. Nuestro extremo local envía el número de puntos de lealtad y el estado de un perfil.
 
@@ -117,6 +161,12 @@ Por ejemplo, puede agregar una condición para comprobar la cantidad de puntos d
 
    ![](assets/action-response11.png)
 
+## Registros del modo de prueba {#test-mode-logs}
+
+Puede acceder, a través del modo de prueba, a los registros de estado relacionados con las respuestas de acciones personalizadas. Si ha definido acciones personalizadas con respuestas en el recorrido, verá un **actionsHistory** de los registros que muestran la carga útil devuelta por el extremo externo (como respuesta de esa acción personalizada). Esto puede resultar muy útil en términos de depuración.
+
+![](assets/action-response12.png)
+
 ## Estado de error {#error-status}
 
 El **jo_status_code** El campo siempre está disponible aunque no se haya definido ninguna carga útil de respuesta.
@@ -158,4 +208,3 @@ A continuación se muestran algunos ejemplos:
 ```
 
 Para obtener más información sobre las referencias de campo, consulte [esta sección](../building-journeys/expression/field-references.md).
-

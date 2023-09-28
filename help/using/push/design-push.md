@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: 19440c38d5d663a6b5ea7e99817ee65496bb43e6
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1282'
 ht-degree: 14%
 
 ---
@@ -62,17 +62,15 @@ Cree una notificación procesable añadiendo botones al contenido push.
 
 Si la pantalla del dispositivo está bloqueada, estos botones no se muestran: solo el **Título** y el **Mensaje** de la notificación son visibles. Si su dispositivo está desbloqueado, los destinatarios verán los botones.
 
-En la versión de iOS, puede añadir hasta cuatro botones. En la versión de Android, puede añadir hasta tres botones.
+En la versión de Android, puede añadir hasta tres botones.
 
->[!NOTE]
->
->Para iOS, utilice el **[!UICONTROL categoría iOS]** para asociar acciones con una categoría de notificación.
+En la versión de iOS, se especifica un identificador de categoría de notificación. Las categorías de notificación deben preconfigurarse en la aplicación de iOS, que define los botones que se muestran y las acciones que se realizan. Consulte la [Documentación de Apple](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types) para obtener más información.
 
 1. Utilice el **[!UICONTROL Botón Añadir]** para definir la configuración: etiqueta y acción asociada. Las acciones posibles son las mismas que para [comportamiento al hacer clic](#on-click-behavior).
 
 1. Utilice el **[!UICONTROL Expandir vista]** debajo de la imagen de vista previa central para previsualizar los botones personalizados.
 
-![](assets/push_buttons.png)
+   ![](assets/push_buttons.png)
 
 ## Enviar una notificación silenciosa {#silent-notification}
 

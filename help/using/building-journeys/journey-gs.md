@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 91b82736b86bd01ebb24cca36da56bde7fe84b6e
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 26%
+source-wordcount: '1689'
+ht-degree: 25%
 
 ---
 
@@ -184,8 +184,8 @@ Para ello, siga los pasos a continuación:
 
    ![Duplicación de un recorrido](assets/duplicate-jo.png)
 
-<!--1. Enter the name of the journey and confirm. 
+1. Introduzca el nombre del recorrido y confírmelo. También puede cambiar el nombre en la pantalla de propiedades del recorrido. De forma predeterminada, el nombre se establece de la siguiente manera: `[JOURNEY-NAME]_copy`
 
-    If no name is specified, t-->The journey copy name is set to the default name, i.e. the name of the initial journey with `_copy` characters added at the end. It can be changed in the journey properties screen.
+   ![](assets/duplicate-jo2.png)
 
 1. El nuevo recorrido se crea y está disponible en la lista de recorridos.

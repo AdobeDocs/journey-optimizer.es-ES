@@ -9,10 +9,10 @@ role: Admin, Architect
 level: Intermediate
 keywords: permisos, derechos, restricciones, acceso, zona protegida
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 16%
+source-wordcount: '177'
+ht-degree: 12%
 
 ---
 
@@ -29,8 +29,6 @@ Administración de usuarios en [!DNL Journey Optimizer] se basa en tres concepto
 * **[!UICONTROL Permisos]**: Derechos unitarios que le permiten definir las autorizaciones asignadas a **[!UICONTROL Funciones]**. Cada permiso se recopila en recursos como, por ejemplo, Recorrido u Ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Consulte la [Niveles de permisos](high-low-permissions.md) sección.
 
 * **[!UICONTROL Sandbox]**: zonas protegidas virtuales que dividen instancias en entornos virtuales independientes y aislados. Consulte la [Uso de zonas protegidas](sandboxes.md).
-
-Cada concepto se puede administrar mediante **[!UICONTROL Administradores de productos]** que tengan acceso a Admin Console. [Obtenga más información acerca de Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
 
 ![](assets/do-not-localize/permissions_2.png)
 

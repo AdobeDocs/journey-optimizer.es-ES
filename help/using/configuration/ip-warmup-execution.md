@@ -10,7 +10,8 @@ level: Experienced
 keywords: IP, grupo, subdominios, capacidad de entrega
 hide: true
 hidefromtoc: true
-source-git-commit: 4c148733f2c6046c352135757d4a378b4bbb948e
+exl-id: 0fd0ba66-8ad2-4239-a6e0-ea29ea2a4a15
+source-git-commit: 1d5bc1de8a33401c165eeee4c8159fc19087c9c9
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 3%
@@ -45,7 +46,7 @@ Cada fase está compuesta por varias ejecuciones, a las que se asigna una sola c
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="Excluir grupos de dominio"
 >abstract="Seleccione los dominios que desea excluir de la fase actual. La exclusión de dominios requiere una fase no ejecutada, por lo que es posible que tenga que dividir una fase en ejecución para agregar exclusiones."
->additional-url="https://experienceleague.corp.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="Dividir una fase"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="Dividir una fase"
 
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 

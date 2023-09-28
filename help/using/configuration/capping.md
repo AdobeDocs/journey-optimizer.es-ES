@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: cb5f3b042c1902add9b22d28eb24e2b6e8f1a20b
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 28%
+source-wordcount: '639'
+ht-degree: 26%
 
 ---
 
@@ -62,6 +62,8 @@ Esta es la estructura básica de una configuración de extremo:
 >El **maxHttpConnections** El parámetro es opcional. Permite restringir el número de conexiones que Journey Optimizer abrirá al sistema externo.
 >
 >El valor máximo que se puede establecer es 400. Si no se especifica nada, el sistema puede abrir varios miles de conexiones en función del escalado dinámico del sistema.
+>
+>Cuando se implementa la configuración de límite, si no se ha proporcionado ningún valor &quot;maxHttpConnection&quot;, se agrega un valor predeterminado &quot;maxHttpConnection = -1&quot; a la configuración implementada, lo que significa que Journey Optimizer utilizará el valor predeterminado del sistema.
 
 ### Por ejemplo:
 
@@ -73,14 +75,12 @@ Esta es la estructura básica de una configuración de extremo:
   ],
   "services": {
     "dataSource": {
-      "maxHttpConnections": 50,
       "rating": {
         "maxCallsCount": 500,
         "periodInMs": 1000
       }
     }
-  },
-  "orgId": "<IMS Org Id>"
+  }
 }
 ```
 

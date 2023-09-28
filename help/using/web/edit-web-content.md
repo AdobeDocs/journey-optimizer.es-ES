@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 17%
+source-wordcount: '1114'
+ht-degree: 16%
 
 ---
 
@@ -166,6 +166,8 @@ Puede intercambiar desde el valor predeterminado **[!UICONTROL Diseño]** al mod
 Desde el **[!UICONTROL Examinar]** En este modo, puede navegar hasta la página exacta desde la superficie seleccionada que desee personalizar.
 
 Resulta especialmente útil cuando se tratan páginas que están detrás de la autenticación o que no están disponibles desde el principio en una dirección URL determinada. Por ejemplo: podrá autenticarse, navegar a la página de su cuenta o a la página del carro de compras y, a continuación, volver a cambiar a **[!UICONTROL Diseño]** para realizar los cambios en la página deseada.
+
+Uso de **[!UICONTROL Examinar]** Este modo también permite navegar por todas las vistas del sitio web al crear aplicaciones de una sola página. [Más información](web-spa.md)
 
 ### Cambiar el tamaño del dispositivo {#change-device-size}
 

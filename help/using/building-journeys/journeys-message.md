@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 22%
+source-wordcount: '1108'
+ht-degree: 18%
 
 ---
 
@@ -119,6 +119,24 @@ Esta información se almacena con el perfil del usuario y se hace referencia a e
 >[!CAUTION]
 >
 >Esta función no es compatible con el modo de ráfaga.
+
+### Preguntas más frecuentes {#faq-send-time}
+
+¿Qué puede hacer la optimización del tiempo de envío? ¿Cómo gestiona los nuevos perfiles? ¿Distribuye el envío en un periodo de 6/12/24 horas?
+
+La optimización del tiempo de envío intenta predecir el mejor momento para interactuar con los clientes y optimizar las tasas de apertura y clics de los correos electrónicos. La puntuación está en un formato de `3*7*24` atributos para cada perfil. El `7*24` Los atributos describen la clasificación del mejor momento previsto para enviar correos electrónicos al destinatario y 3 es para optimizar la tasa de apertura de los correos electrónicos, la tasa de clics en los correos electrónicos y la tasa de apertura push.
+
+¿Dónde puedo ver el tiempo de envío esperado para cada perfil?
+
+Puede ver la puntuación general en la **Perfiles** interfaz. Para cada uno de los tres conjuntos de 168 puntuaciones, los rangos van de -83 a 84. Cuanto mayor sea la clasificación, mejor será el momento de interactuar con el destinatario. Dado que puede definir el inicio y la duración de un recorrido, es posible que la mejor clasificación (84) no caiga en esa ventana de tiempo. En este caso, se recomienda elegir una hora con el valor de clasificación más alto.
+
+¿Qué informes están disponibles?
+
+Acceda al recorrido y haga clic en **Ver informe** en la parte superior derecha y seleccione el botón **Recorrido** pestaña de la izquierda. [Más información](../reports/journey-global-report.md)
+
+¿Cómo afectan los datos de optimización del tiempo de envío a la riqueza de perfiles?
+
+La optimización del tiempo de envío agrega la puntuación/atributos a cada perfil, pero no se crea ningún perfil nuevo.
 
 ### Activación de la optimización del tiempo de envío{#activate-send-time-optimization}
 

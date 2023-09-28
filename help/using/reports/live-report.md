@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 5%
+source-wordcount: '527'
+ht-degree: 3%
 
 ---
 
@@ -68,11 +68,15 @@ El tablero se ha guardado. Los diferentes cambios se volverán a aplicar para un
 
 ## Exportación de informes {#export-reports}
 
-Los distintos informes se pueden exportar fácilmente al formato de PDF, lo que permite compartirlos o imprimirlos.
+Puede exportar fácilmente los distintos informes a los formatos PDF o CSV, lo que le permite compartirlos o imprimirlos.
 
-1. En el informe, haga clic en **[!UICONTROL Exportar]**.
+>[!BEGINTABS]
 
-   ![](assets/export_2.png)
+>[!TAB Exportación del informe como archivo de PDF]
+
+1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL archivo de PDF]**.
+
+   ![](assets/export_6.png)
 
 1. En la ventana Imprimir, configure el documento según sea necesario. Tenga en cuenta que las opciones pueden variar según el explorador.
 
@@ -81,3 +85,21 @@ Los distintos informes se pueden exportar fácilmente al formato de PDF, lo que 
 1. Busque la carpeta en la que desea guardar el archivo, cambie su nombre si es necesario y haga clic en Guardar.
 
 El informe ya está disponible para su visualización o uso compartido en un archivo pdf.
+
+>[!TAB Exportación del informe como archivo CSV]
+
+1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL Archivo CSV]** para generar un archivo CSV en el nivel de informe general.
+
+   ![](assets/export_4.png)
+
+1. También puede elegir exportar datos de un widget específico. Clic **[!UICONTROL Exportar datos de widget a CSV]** situado junto al widget seleccionado.
+
+   ![](assets/export_5.png)
+
+1. El archivo se descargará automáticamente y se podrá encontrar en los archivos locales.
+
+   Si ha generado el archivo en el nivel de informe, contiene información detallada para cada widget, incluidos su título y datos.
+
+   Si ha generado el archivo en el nivel de widget, proporciona específicamente datos para el widget seleccionado.
+
+>[!ENDTABS]

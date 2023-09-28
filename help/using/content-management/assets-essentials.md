@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: recursos, essentials, experience manager, integración
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 1f4a49f9fc53cea21391d0e77bc151ebf84cc4f9
+source-git-commit: 8673391de8ac5c91bfbd28d23f7ab9a1416f4a83
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 19%
+source-wordcount: '522'
+ht-degree: 17%
 
 ---
 
@@ -44,6 +44,19 @@ Para obtener más información sobre cómo cargar recursos, consulte [Documentac
 1. Desde [!DNL Adobe Journey Optimizer] página principal, seleccione la **[!UICONTROL Assets]** debajo de la pestaña **[!UICONTROL Gestión de contenido]** menú para acceder [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
+
+1. Elija el repositorio para sus recursos en Journey Optimizer. Puede optar por un repositorio de Assets Essentials o un repositorio as a Cloud Service de Assets, siempre que sea el propietario de esta solución.
+
+   ![](assets/media_library_4.png)
+
++++
+Obtenga información sobre cómo cambiar de repositorio de recursos.
+
+   Para cambiar el repositorio de Assets, seleccione el icono Cuenta en la esquina superior derecha y haga clic en **[!UICONTROL Seleccionar repositorio]**.
+
+   ![](assets/media_library_3.png)
+
++++
 
 1. Haga doble clic en una carpeta desde la sección central o desde la vista de árbol para abrirla.
 

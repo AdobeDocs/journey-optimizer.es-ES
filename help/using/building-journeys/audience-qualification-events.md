@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: calificación, eventos, audiencia, recorrido, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '970'
 ht-degree: 10%
 
 ---
@@ -31,14 +31,17 @@ Supongamos que tiene una audiencia de “clientes plata”. Con esta actividad, 
 
 Este tipo de evento se puede colocar como primer paso o más tarde en el recorrido.
 
->[!IMPORTANT]
->
->Tenga en cuenta que las audiencias de Adobe Experience Platform se calculan una vez al día (**lote** audiencias) o en tiempo real (**transmitido** mediante la opción Audiencias de alta frecuencia de Adobe Experience Platform).
->
->Si la audiencia seleccionada se transmite por secuencias, las personas que pertenecen a esta audiencia podrían entrar en el recorrido en tiempo real. Si la audiencia es por lotes, las personas recién cualificadas para esta audiencia podrían entrar en el recorrido cuando el cálculo de audiencia se ejecute en Adobe Experience Platform.
->
->Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen con Leer audiencia, Calificación de audiencia o una actividad de evento empresarial.
+### Notas importantes{#important-notes-segment-qualification}
 
+* Tenga en cuenta que las audiencias de Adobe Experience Platform se calculan una vez al día (**lote** audiencias) o en tiempo real (**transmitido** mediante la opción Audiencias de alta frecuencia de Adobe Experience Platform).
+
+* Si la audiencia seleccionada se transmite por secuencias, las personas que pertenecen a esta audiencia podrían entrar en el recorrido en tiempo real. Si la audiencia es por lotes, las personas recién cualificadas para esta audiencia podrían entrar en el recorrido cuando el cálculo de audiencia se ejecute en Adobe Experience Platform.
+
+* Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen con Leer audiencia, Calificación de audiencia o una actividad de evento empresarial.
+
+* Cuando se utiliza una calificación de audiencia en un recorrido, esa actividad de calificación de audiencia puede tardar hasta 10 minutos en estar activa y en escuchar los perfiles que entran o salen de la audiencia.
+
+### Configuración de la actividad{#cnfigure-segment-qualification}
 
 1. Despliegue el **[!UICONTROL Eventos]** categoría y suelte un **[!UICONTROL Calificación de audiencias]** actividad en el lienzo.
 
