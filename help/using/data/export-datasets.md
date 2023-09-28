@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 08f24547237c01c581248d675c55c834c261b173
+source-git-commit: a5cb591a3340f2af27806967e5a1403be9fe26e4
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '988'
 ht-degree: 6%
 
 ---
@@ -26,9 +26,6 @@ Puede exportar conjuntos de datos a 6 destinos de almacenamiento en la nube a lo
 
 ![](assets/dataset-export-setup.png)
 
->[!AVAILABILITY]
->
->Todos estos destinos están disponibles en versión beta y sujetos a cambios.
 
 Encontrará información detallada sobre cada destino en la documentación de Adobe Experience Platform:
 
