@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
+source-git-commit: 92cf1d4a350359adbbad93c4006ec7a0e3902397
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%
@@ -77,20 +77,6 @@ Puede exportar fácilmente los distintos informes a los formatos PDF o CSV, lo q
 
 >[!BEGINTABS]
 
->[!TAB Exportación del informe como archivo de PDF]
-
-1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL archivo de PDF]**.
-
-   ![](assets/export_2.png)
-
-1. En la ventana Imprimir, configure el documento según sea necesario. Tenga en cuenta que las opciones pueden variar según el explorador.
-
-1. Elija imprimir o guardar el informe como PDF.
-
-1. Busque la carpeta en la que desea guardar el archivo, cambie su nombre si es necesario y haga clic en Guardar.
-
-El informe ya está disponible para su visualización o uso compartido en un archivo pdf.
-
 >[!TAB Exportación del informe como archivo CSV]
 
 1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL Archivo CSV]** para generar un archivo CSV en el nivel de informe general.
@@ -106,5 +92,21 @@ El informe ya está disponible para su visualización o uso compartido en un arc
    Si ha generado el archivo en el nivel de informe, contiene información detallada para cada widget, incluidos su título y datos.
 
    Si ha generado el archivo en el nivel de widget, proporciona específicamente datos para el widget seleccionado.
+
+>[!TAB Exportación del informe como archivo de PDF]
+
+1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL archivo de PDF]**.
+
+   ![](assets/export_2.png)
+
+1. En la ventana Imprimir, configure el documento según sea necesario. Tenga en cuenta que las opciones pueden variar según el explorador.
+
+1. Elija imprimir o guardar el informe como PDF.
+
+1. Busque la carpeta en la que desea guardar el archivo, cambie su nombre si es necesario y haga clic en Guardar.
+
+El informe ya está disponible para su visualización o uso compartido en un archivo pdf.
+
+
 
 >[!ENDTABS]
