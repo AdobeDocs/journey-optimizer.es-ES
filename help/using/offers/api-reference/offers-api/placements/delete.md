@@ -6,43 +6,41 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 6%
+source-wordcount: '107'
+ht-degree: 9%
 
 ---
 
 # Eliminar una ubicación {#delete-placement}
 
-Ocasionalmente puede ser necesario eliminar (DELETE) una ubicación. Solo se pueden eliminar las ubicaciones que cree en el contenedor de inquilino. Esto se hace realizando una solicitud de DELETE a [!DNL Offer Library] API que utiliza el ID de instancia de la ubicación que desea eliminar.
+Ocasionalmente puede ser necesario eliminar (DELETE) una ubicación. Esto se hace realizando una solicitud de DELETE a [!DNL Offer Library] API con el ID de la ubicación que desea eliminar.
 
 **Formato de API**
 
 ```http
-DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
+DELETE /{ENDPOINT_PATH}/placements/{ID}
 ```
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | El contenedor donde se encuentran las ubicaciones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | El ID de instancia de la ubicación que desea actualizar. | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API de persistencia. | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | El ID de instancia de la ubicación que desea actualizar. | `offerPlacement1234` |
 
 **Solicitud**
 
 ```shell
-curl -X DELETE \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/9aa58fd0-13d7-11eb-928b-576735ea4db8' \
-  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X DELETE 'https://platform.adobe.io/data/core/dps/placements/offerPlacement1234' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer  {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 **Respuesta**
 
-Una respuesta correcta devuelve el estado HTTP 202 (sin contenido) y un cuerpo en blanco.
+Una respuesta correcta devuelve el estado HTTP 200 y un cuerpo en blanco.
 
-Para confirmar la eliminación, intente una solicitud de búsqueda (GET) en la ubicación. Deberá incluir un encabezado Aceptar en la solicitud, pero deberá recibir el estado HTTP 404 (no encontrado) porque la ubicación se ha eliminado del contenedor.
+Puede confirmar la eliminación intentando una solicitud de búsqueda (GET) en la ubicación y debe recibir un estado HTTP 404 (no encontrado) porque la ubicación se ha eliminado.
