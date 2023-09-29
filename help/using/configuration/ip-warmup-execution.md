@@ -11,9 +11,9 @@ keywords: IP, grupo, subdominios, capacidad de entrega
 hide: true
 hidefromtoc: true
 exl-id: 0fd0ba66-8ad2-4239-a6e0-ea29ea2a4a15
-source-git-commit: b657f4380026988ac324ee87c96375734a9b3961
+source-git-commit: c7a36d895927e616591627a6afc05d1fa43b7c51
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1679'
 ht-degree: 3%
 
 ---
@@ -47,6 +47,11 @@ Cada fase está compuesta por varias ejecuciones, a las que se asigna una sola c
 >title="Excluir grupos de dominio"
 >abstract="Seleccione los dominios que desea excluir de la fase actual. La exclusión de dominios requiere una fase no ejecutada, por lo que es posible que tenga que dividir una fase en ejecución para agregar exclusiones."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="Dividir una fase"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_phases"
+>title="Defina las fases de su plan"
+>abstract="Cada fase está compuesta por varias ejecuciones, a las que se asigna una sola campaña."
 
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
@@ -103,6 +108,31 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >Si elimina todas las fases del plan de calentamiento de IP, se recomienda volver a cargar un plan. [Más información](#re-upload-plan)
 
 ## Definición de las ejecuciones {#define-runs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_run"
+>title="Definir cada ejecución"
+>abstract="Defina y active cada ejecución para todas las fases."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_last_engagement"
+>title="Filtrar por participación"
+>abstract="Esta columna es un filtro que se dirige únicamente a los usuarios comprometidos con su marca en los últimos 20 días, por ejemplo. También puede cambiar esta configuración a través del **Editar ejecución** opción."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_retry"
+>title="Establecer una ventana de tiempo"
+>abstract="Puede definir un período de tiempo durante el cual se puede ejecutar la campaña de calentamiento de IP en caso de que haya algún retraso en el trabajo de segmentación."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_pause"
+>title="Cancelar ejecuciones con errores de audiencia"
+>abstract="Seleccione esta opción para cancelar una ejecución si los perfiles cualificados son inferiores a los perfiles de destino una vez que la audiencia haya sido evaluada para esa ejecución."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_qualified"
+>title="Ver los perfiles cualificados"
+>abstract="Esta columna muestra el número de perfiles cualificados. Una vez que la audiencia ha sido evaluada para una ejecución, si hay más perfiles objetivo que perfiles cualificados, la ejecución se sigue ejecutando, a menos que el **Pausa para errores** La opción está activada. En este caso, la ejecución se cancela."
 
 1. Seleccione una programación para cada ejecución.
 
