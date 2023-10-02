@@ -10,7 +10,8 @@ level: Experienced
 keywords: IP, grupo, subdominios, capacidad de entrega
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
+source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 14%
@@ -85,6 +86,8 @@ Utilice el **[!UICONTROL Grupo de dominio personalizado]** para definir un nuevo
 
 Por ejemplo, si agrega el dominio personalizado Luma, desea que se incluyan los siguientes subdominios: luma.com, luma.co.uk, luma.it, luma.fr, luma.de, etc.
 
+![](assets/ip-warmup-sample-file-custom.png)
+
 ## Acceso y administración de planes de calentamiento de IP {#manage-ip-warmup-plans}
 
 1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Canales]** > **[!UICONTROL planes de calentamiento de IP]** menú. Se muestran todos los planes de calentamiento de IP creados hasta el momento.
@@ -95,7 +98,7 @@ Por ejemplo, si agrega el dominio personalizado Luma, desea que se incluyan los 
 
    * **Sin iniciar**: aún no se ha activado ninguna ejecución. [Más información](ip-warmup-execution.md#define-runs)
    * **Activo**: el plan cambia a este estado en cuanto se activa correctamente la primera ejecución de la primera fase. [Más información](ip-warmup-execution.md#define-runs)
-   * **Completado**: el plan se ha marcado como completado. Esta opción sólo está disponible si todas las ejecuciones del plan se encuentran en **[!UICONTROL Correcto]** o **[!UICONTROL Borrador]** estado (no se puede ejecutar **[!UICONTROL Activo]**). [Más información](ip-warmup-execution.md#define-runs#mark-as-completed)
+   * **Completado**: el plan se ha marcado como completado. Esta opción sólo está disponible si todas las ejecuciones del plan se encuentran en **[!UICONTROL Completado]** o **[!UICONTROL Borrador]** estado (no se puede ejecutar **[!UICONTROL Activo]**). [Más información](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
 1. Para eliminar un plan de calentamiento de IP, seleccione la **[!UICONTROL Eliminar]** junto al nombre de un plan y confirme la eliminación.

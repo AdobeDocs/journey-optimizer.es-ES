@@ -11,9 +11,9 @@ keywords: IP, grupo, subdominios, capacidad de entrega
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1696'
 ht-degree: 3%
 
 ---
@@ -138,11 +138,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. De forma opcional, puede definir un periodo durante el cual se puede ejecutar la campaña de calentamiento de IP en caso de que haya algún retraso en el trabajo de segmentación. Para ello, haga clic en el icono Properties en la parte superior izquierda, junto al nombre del plan y utilice la variable **[!UICONTROL Reintentar tiempo de ejecución]** para seleccionar una duración: hasta 240 minutos (4 horas).
+1. De forma opcional, puede definir un intervalo de tiempo durante el cual se puede ejecutar la campaña de calentamiento de IP en caso de que haya algún retraso en la [segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} trabajo. Para ello, haga clic en el icono Properties en la parte superior izquierda, junto al nombre del plan y utilice la variable **[!UICONTROL Reintentar tiempo de ejecución]** para seleccionar una duración: hasta 240 minutos (4 horas).
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 
-   Por ejemplo, si establece una hora de envío en un día determinado a las 21:00 h y selecciona 120 minutos como tiempo de ejecución de reintento, esto permite que se ejecute un intervalo de oportunidades de dos horas para el trabajo de segmentación.
+   Por ejemplo, si establece una hora de envío en un día determinado a las 9 a. m. y selecciona 120 minutos como tiempo de ejecución de reintento, esto permite ejecutar un intervalo de oportunidades de 2 horas (de 9 a. m. a 11 a. m.) para el trabajo de segmentación.
 
    >[!NOTE]
    >
@@ -158,7 +158,9 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 1. **[!UICONTROL Activar]** la corrida. [Más información](#activate-run)
 
-1. El estado de esta ejecución cambia a **[!UICONTROL Activo]**. Los diferentes estados de ejecución se enumeran en [esta sección](#monitor-plan). Si la ejecución de la campaña no ha comenzado, puede detener una ejecución activa.<!--why?-->
+1. El estado de esta ejecución cambia a **[!UICONTROL Activo]**. Los diferentes estados de ejecución se enumeran en [esta sección](#monitor-plan).
+
+1. Si la ejecución de la campaña no ha comenzado, puede detener una ejecución activa.<!--why?-->
 
    ![](assets/ip-warmup-plan-stop-run.png)
 
@@ -166,7 +168,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Una vez iniciada la ejecución de la campaña, **[!UICONTROL Detener]** El botón deja de estar disponible.
 
-1. Para añadir una ejecución, seleccione **[!UICONTROL Agregar una ejecución a continuación]** desde el icono de tres puntos.
+1. Para añadir una ejecución, seleccione **[!UICONTROL Agregar una ejecución a continuación]** en el icono Más acciones.
 
    ![](assets/ip-warmup-plan-run-more-actions.png)
 
@@ -174,7 +176,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 Para activar una ejecución, seleccione la **[!UICONTROL Activar]** botón.
 
-Asegúrese de haber programado el tiempo suficiente para permitir que se ejecute el trabajo de segmentación.
+Asegúrese de que ha programado tiempo suficiente para permitir el [segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} trabajo a ejecutar.
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -182,17 +184,17 @@ Asegúrese de haber programado el tiempo suficiente para permitir que se ejecute
 >
 >Cada ejecución debe activarse al menos 12 horas antes de la hora de envío real. De lo contrario, es posible que la segmentación no se complete.
 
-Al activar una ejecución, se crean automáticamente varios segmentos:
+Al activar una ejecución, se crean varios segmentos automáticamente.
 
 * Si activa la primera ejecución de una fase:
 
-   * Se crea un segmento para las audiencias de campaña excluidas (si las hay).
+   * A [segmento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=es){target="_blank"} se crea para las audiencias de campaña excluidas (si las hay).
    * Se crea otro segmento para los grupos de dominios excluidos (si los hay).
 
 * Al activar cualquier ejecución:
 
    * Se crea otro segmento para el último filtro de participación.
-   * Se crea una composición de audiencia correspondiente a la audiencia a la que se enviará la campaña.
+   * Un [composición de audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=es){target="_blank"} se crea correspondiente a la audiencia a la que se envía la campaña.
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
@@ -200,14 +202,13 @@ Al activar una ejecución, se crean automáticamente varios segmentos:
 
 <!--Upon activation, when the segment evaluation happens, more segments will be created by the IP warmup service and will be leveraged in an audience composition and a new audience will be created for each run splitted into the different selected domains.-->
 
-
 ## Administrar su plan {#manage-plan}
 
 En cualquier momento, si el plan de calentamiento de la IP no funciona como se espera, puede realizar las siguientes acciones.
 
 ### Dividir una fase {#split-phase}
 
-Si desea añadir una nueva fase empezando desde una ejecución específica, seleccione la **[!UICONTROL Dividir en una nueva opción de fase]** desde el icono de tres puntos.
+Si desea añadir una nueva fase empezando desde una ejecución específica, seleccione la **[!UICONTROL Dividir en una nueva opción de fase]** en el icono Más acciones.
 
 ![](assets/ip-warmup-plan-run-split-run.png)
 
@@ -257,7 +258,7 @@ Veamos un ejemplo:
 
 * Con el plan inicial de calentamiento de IP, la Fase 2 tuvo 9 ejecuciones.
 
-* Se ejecutaron 4 ejecuciones (no importa si fallaron, completaron o cancelaron: siempre y cuando se haya intentado una ejecución, se trata de una ejecución ejecutada).
+* Se ejecutaron 4 ejecuciones (sin importar si fallaron, se completaron o se cancelaron)<!--as long as a run has been attempted, it is an executed run-->).
 
 * Si vuelve a cargar un plan nuevo, la fase 2 con las primeras 4 ejecuciones ejecutadas pasará al modo de solo lectura.
 
@@ -276,5 +277,5 @@ Una ejecución puede tener los siguientes estados:
 * **[!UICONTROL Borrador]** : cada vez que se crea una ejecución, ya sea cuando [creación de un nuevo plan](ip-warmup-plan.md) o [adición de una ejecución](#define-runs) desde la interfaz de usuario, toma el **[!UICONTROL Borrador]** estado.
 * **[!UICONTROL Activo]**: cada vez que se activa una ejecución, se necesita el **[!UICONTROL Activo]** estado.
 * **[!UICONTROL Completado]**: la ejecución de la campaña para esta ejecución ha finalizado. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
-* **[!UICONTROL Cancelado]**: a **[!UICONTROL Activo]** la ejecución se ha cancelado utilizando **[!UICONTROL Detener]** botón. Este botón solo está disponible si la ejecución de la campaña no se ha iniciado. [Más información](#define-runs)
+* **[!UICONTROL Cancelado]**: a **[!UICONTROL Activo]** la ejecución se ha cancelado utilizando **[!UICONTROL Detener]** o ha activado el botón **[!UICONTROL Pausa para errores]** y se produjo un error. [Más información](#define-runs)
 * **[!UICONTROL Error]**: el sistema ha encontrado un error o la campaña utilizada para la fase actual se ha detenido. Si una ejecución falla, puede programar otra ejecución para el día siguiente.

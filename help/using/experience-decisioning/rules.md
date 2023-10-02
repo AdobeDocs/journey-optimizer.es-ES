@@ -8,10 +8,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
+source-git-commit: 7437268e87cc2c71bec394fbef1b512b31946cf5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '283'
+ht-degree: 6%
 
 ---
 
@@ -37,6 +38,8 @@ Lo que encontrará en esta guía de documentación:
 Las reglas de decisión permiten definir la audiencia de los elementos de decisión mediante la aplicación de restricciones, ya sea directamente en el nivel del elemento de decisión o dentro de una estrategia de selección específica. Esto le permite controlar con precisión qué elementos se deben presentar a quién.
 
 Por ejemplo, consideremos un escenario en el que tenga elementos de decisión que presenten productos relacionados con el yoga diseñados para mujeres. Con las reglas de decisión, puede especificar que estos elementos solo deben mostrarse a perfiles cuyo sexo sea &quot;Mujer&quot; y que hayan indicado un &quot;Punto de interés&quot; en &quot;Yoga&quot;.
+
+Además de las reglas de decisión a nivel de elemento y de estrategia de selección, también puede crear parámetros adicionales para la audiencia deseada en el nivel de campaña. [Más información](../campaigns/create-campaign.md)
 
 Se puede acceder a la lista de reglas de decisión en la **[!UICONTROL Configuración]** / **[!UICONTROL Reglas de decisiones]** menú.
 
