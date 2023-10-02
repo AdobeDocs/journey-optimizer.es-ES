@@ -4,9 +4,9 @@ product: journey optimizer
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: eee717b9fb0ceec72df449abcf3e37b41fe31e15
 workflow-type: tm+mt
-source-wordcount: '3695'
+source-wordcount: '3711'
 ht-degree: 90%
 
 ---
@@ -20,16 +20,14 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de septiembre de 2023 se ha detallado en la documentación. [Más información](release-notes.md)
 * Se ha añadido una nueva página con prácticas recomendadas de escalado y directrices de vinculación en tiempo real. [Más información](../start/best-practices.md)
 
-<!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
+  <!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
 
 * Se ha añadido una sección de preguntas más frecuentes para la optimización del tiempo de envío. [Más información](../building-journeys/journeys-message.md#faq-send-time)
 * Se ha añadido una nota para la actividad de calificación de audiencias. Puede tardar hasta 10 minutos en estar activo y escuchar los perfiles que entran o salen de la audiencia. [Más información](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * Se ha añadido a la documentación de gestión de decisiones una lista de limitaciones que se deben tener en cuenta al crear reglas de decisión. [Más información](../offers/offer-library/creating-decision-rules.md)
 * Se han actualizado los vínculos a la documentación de control de acceso. [Más información](../administration/permissions.md)
 * Los requisitos previos del canal en la aplicación se han actualizado con los detalles de recopilación de datos de Adobe Experience Platform. [Más información](../in-app/inapp-configuration.md)
-
-
-
+* Se han actualizado algunas expresiones presentadas en ejemplos de fórmulas de clasificación para evitar errores de validación. [Más información](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
 ## Agosto de 2023 {#august-2023}
 
@@ -42,7 +40,6 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha añadido una advertencia en la página **Trabajo con plantillas de contenido** para indicar que el seguimiento actual no es compatible al probar plantillas de contenido de correo electrónico. Para probar el seguimiento, debe utilizar la plantilla de contenido en un mensaje de correo electrónico y enviar una prueba [Más información](../email/content-templates.md#test-template)
 * Se han añadido varias advertencias en la sección **Creación y publicación de páginas de aterrizaje** para especificar que no puede acceder a ellas simplemente copiando y pegando en un explorador web la URL definida al crear la página, incluso si se ha publicado. En su lugar, puede probarlas con la función de previsualización. [Más información](../landing-pages/create-lp.md)
 * Se ha añadido una nueva sección sobre cómo **administrar el consentimiento** para el canal de correo postal. [Más información](../direct-mail/test-send-direct-mail.md)
-
 
 ## Julio de 2023 {#july-2023}
 

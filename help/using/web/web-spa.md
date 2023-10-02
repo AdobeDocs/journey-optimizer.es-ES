@@ -5,9 +5,10 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
+source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '464'
 ht-degree: 6%
 
 ---
@@ -22,7 +23,9 @@ ht-degree: 6%
 >abstract="Los cambios se aplicarán solamente a las vistas seleccionadas. Las vistas se pueden descubrir utilizando la variable **Examinar** y navegue hasta ellos. ¿No encuentra la vista que busca?"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es" text="Más información"
 
-**Aplicaciones de una sola página** SPA (ahora) se puede crear en el editor visual del diseñador web. Esto le permite seleccionar a qué vistas específicas desea aplicar las modificaciones de la página web.
+**Aplicaciones de una sola página** SPA (ahora) se puede crear en el editor visual del diseñador web. Esto le permite seleccionar qué **vistas** desea aplicar las modificaciones de la página web a.
+
+[Aprenda a crear aplicaciones de una sola página en este vídeo](#video)
 
 Una vista puede definirse como un sitio completo o como un grupo de elementos visuales en un sitio, como la página de inicio, la totalidad del sitio de productos o el marco de preferencias de envío en todas las páginas de cierre de compra.
 
@@ -54,7 +57,7 @@ SPA Una vez completada la configuración en la implementación del SDK web de Ad
 
 ## Aplicar modificaciones a otras vistas {#apply-modifications-views}
 
-Una vez que haya añadido una modificación mientras se encuentra en una vista específica, puede aplicarla a otras vistas seleccionadas. Complete los siguientes pasos.
+Una vez añadida una modificación mientras se encuentra en una vista específica, puede aplicarla a otras vistas seleccionadas. Complete los siguientes pasos.
 
 >[!CAUTION]
 >
@@ -77,3 +80,14 @@ Una vez que haya añadido una modificación mientras se encuentra en una vista e
 1. Cambiar a **[!UICONTROL Examinar]** modo para comprobar que las modificaciones se aplican en las páginas deseadas.
 
    ![](assets/web-designer-modifications-applied-view.png)
+
+## Vídeo explicativo{#video}
+
+En este vídeo se explica cómo:
+
+* SPA Descubre vistas de la vista usando **[!UICONTROL Examinar]** modo
+* Crear en la vista actual
+* Aplicar modificaciones del sitio web a varias vistas o a todas las vistas detectadas
+* Realizar acciones masivas en las modificaciones
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)
