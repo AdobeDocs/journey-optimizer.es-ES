@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: 439813d0e7430d2e009b1af6abb7a027b10a427c
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 12%
+source-wordcount: '157'
+ht-degree: 11%
 
 ---
 
@@ -26,7 +26,6 @@ La siguiente tabla muestra los valores válidos que componen la variable *Conten
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
 | Content-Type | `application/json` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
 **Formato de API**
 
@@ -113,4 +112,4 @@ Una respuesta correcta devuelve los detalles de la oferta personalizada recién 
 
 ## Limitaciones {#limitations}
 
-Actualmente, las representaciones de oferta y algunas restricciones de oferta no son compatibles con Mobile [!DNL Experience Edge] flujos de trabajo, por ejemplo `Capping`. El `Capping` el valor del campo especifica el número de veces que se puede presentar una oferta entre todos los usuarios. Para obtener más información, consulte [Documentación de restricciones y reglas de idoneidad de ofertas](../../../offer-library/creating-personalized-offers.md).
+Actualmente, las representaciones de oferta y algunas restricciones de oferta no son compatibles con Mobile [!DNL Experience Edge] flujos de trabajo, por ejemplo `Capping`. El `Capping` el valor del campo especifica el número de veces que se puede presentar una oferta entre todos los usuarios. Para obtener más información, consulte [Documentación de restricciones y reglas de idoneidad de ofertas](../../../../offers/offer-library/creating-personalized-offers.md).

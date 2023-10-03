@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 10%
+source-wordcount: '128'
+ht-degree: 11%
 
 ---
 
@@ -61,7 +61,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-collections' \
 
 **Respuesta**
 
-Una respuesta correcta devuelve información sobre la colección recién creada, incluido su ID de instancia y ubicación únicos `@id`. Puede usar el ID de instancia en pasos posteriores para actualizar o eliminar la colección. Puede utilizar su colección única `@id` en un tutorial posterior para crear una decisión.
+Una respuesta correcta devuelve información sobre la colección recién creada, incluida su `id`. Puede usar el complemento `id` en pasos posteriores para actualizar o eliminar la colección o en un tutorial posterior para crear una decisión.
 
 ```json
 {
