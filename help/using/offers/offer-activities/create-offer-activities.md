@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: fd035fdd956c76d9183acbd0dddf6462890c4f44
+source-git-commit: 18d44b689a524dc2b031a32b8b79ac755d680e23
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2225'
 ht-degree: 2%
 
 ---
@@ -123,6 +123,12 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
    Ahora tienen el mismo rango y, por lo tanto, se evaluarán al mismo tiempo. [Más información](#evaluation-criteria-order)
 
    ![](../assets/activity_same-rank-collections.png)
+
+   >[!CAUTION]
+   >
+   >* If [modelo de IA](../ranking/ai-models.md) se utiliza en un grupo de criterios de evaluación, todos los criterios de evaluación de ese grupo deben utilizar el método de clasificación de IA y deben utilizar el mismo modelo de IA específico.
+   >
+   >* Solo un grupo de criterios de evaluación puede utilizar el modelo de IA. Cualquier otro grupo dentro de un ámbito de decisión debe utilizar otros métodos de clasificación (prioridad o fórmula). [Más información sobre los métodos de clasificación](../offer-activities/configure-offer-selection.md)
 
 1. Para agregar otra ubicación para sus ofertas como parte de esta decisión, utilice el **[!UICONTROL Nuevo ámbito]** botón. Repita los pasos anteriores para cada ámbito de decisión.
 
@@ -320,7 +326,7 @@ Seleccione el **[!UICONTROL Editar]** para volver al modo de edición de decisio
 
 >[!IMPORTANT]
 >
->Si se realizan cambios en una decisión de oferta que se está utilizando en el mensaje de un recorrido, debe cancelar la publicación del recorrido y volver a publicarlo.  Esto garantizará que los cambios se incorporen al mensaje del recorrido y que el mensaje sea coherente con las últimas actualizaciones.
+>Si se realizan cambios en una decisión de oferta que se utiliza en el mensaje de un recorrido, se debe cancelar la publicación del recorrido y volver a publicarlo.  Esto garantizará que los cambios se incorporen al mensaje del recorrido y que el mensaje sea coherente con las últimas actualizaciones.
 
 Seleccione una decisión activa y haga clic en **[!UICONTROL Desactivar]** para volver a establecer el estado de decisión en **[!UICONTROL Borrador]**.
 
