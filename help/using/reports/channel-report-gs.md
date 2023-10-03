@@ -7,7 +7,8 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: e812621c0b365e07432f6b517a012cf59c37f01f
+exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
+source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 2%
@@ -40,7 +41,7 @@ Para asignar el permiso correspondiente a su **[!UICONTROL Rol]**:
 
    ![](assets/channel_permission_1.png)
 
-1. Arrastre y suelte el **[!UICONTROL Informe]** recurso para asignar permiso.
+1. Arrastre y suelte el **[!UICONTROL Informes]** recurso para asignar permiso.
 
    Desde el **[!UICONTROL Informe]** menú desplegable de recursos, seleccione **[!UICONTROL Ver informes de canal]** permiso.
 
