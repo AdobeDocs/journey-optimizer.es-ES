@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b58bc332886e37b8d8eb2e439fd8ddb459dbe356
-workflow-type: ht
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
+workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 100%
 
@@ -74,9 +74,9 @@ Cree y administre contenido desde esta sección.
 
 * **[!UICONTROL Recursos]** : [!DNL Adobe Experience Manager Assets Essentials] es un repositorio centralizado de recursos que puede utilizar para rellenar los mensajes. [Más información](../content-management/assets-essentials.md)
 
-* **[!UICONTROL Plantillas de contenido]**: para un proceso de diseño acelerado y mejorado, cree plantillas independientes para reutilizar fácilmente el contenido personalizado en las campañas y recorridos de Journey Optimizer. [Más información](../email/content-templates.md)
+* **[!UICONTROL Plantillas de contenido]**: para un proceso de diseño acelerado y mejorado, cree plantillas independientes para reutilizar fácilmente el contenido personalizado en las campañas y recorridos de Journey Optimizer. [Más información](../content-management/content-templates.md)
 
-* **[!UICONTROL Fragmentos]**: cree y administre fragmentos para suavizar el proceso de diseño de correo electrónico: cree bloques de contenido personalizados que se puedan utilizar para combinar rápidamente el contenido del correo electrónico. [Más información](../email/fragments.md)
+* **[!UICONTROL Fragmentos]**: cree y administre fragmentos para suavizar el proceso de diseño de correo electrónico: cree bloques de contenido personalizados que se puedan utilizar para combinar rápidamente el contenido del correo electrónico. [Más información](../content-management/fragments.md)
 
 ### [!UICONTROL ADMINISTRACIÓN DE DATOS] {#left-nav-data}
 

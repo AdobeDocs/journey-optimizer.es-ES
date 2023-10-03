@@ -4,8 +4,8 @@ product: journey optimizer
 title: Notas de la versión 2022
 description: Notas de la versión de Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
-workflow-type: ht
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
+workflow-type: tm+mt
 source-wordcount: '3575'
 ht-degree: 100%
 
@@ -514,7 +514,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 **Correo electrónico**
 
-* **Guardar como plantilla**: ahora puede guardar un contenido de correo electrónico como plantilla y reutilizarlo al crear otros mensajes. [Más información](../email/email-templates.md)
+* **Guardar como plantilla**: ahora puede guardar un contenido de correo electrónico como plantilla y reutilizarlo al crear otros mensajes. [Más información](../content-management/content-templates.md#save-as-template)
 
 
 **Administración**
@@ -682,7 +682,7 @@ Como cliente de Adobe Campaign Standard, ahora puede enviar correos electrónico
 
 **Personalización**
 
-* Ahora puede guardar más de 40 expresiones de personalización en la biblioteca. [Más información](../personalization/personalization-library.md)
+* Ahora puede guardar más de 40 expresiones de personalización en la biblioteca. [Más información](../personalization/use-expression-fragments.md)
 
 ## Lanzamiento de febrero de 2022 {#feb-2022-release}
 
@@ -714,7 +714,7 @@ Como cliente de Adobe Campaign Standard, ahora puede enviar correos electrónico
 <tr>
 <td>
 <p>Journey Optimizer ahora proporciona una biblioteca en la que puede acceder a expresiones de personalización predefinidas. Estas expresiones las configuran los usuarios administradores.</p>
-<p>Para obtener más información, consulte la <a href="../personalization/personalization-library.md">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../personalization/use-expression-fragments.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>

@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 3%
@@ -97,7 +97,7 @@ Una vez que la plantilla de Experience Manager esté disponible en Journey Optim
    >
    > Si desea editar y personalizar la plantilla, solo podrá utilizar el modo de compatibilidad.
 
-1. Cuando la plantilla de contenido esté lista, [prueba y validación](content-templates.md#test-template).
+1. Cuando la plantilla de contenido esté lista, [prueba y validación](../content-management/content-templates.md#test-template).
 
 1. Una vez definido el contenido, puede utilizarlo al crear nuevos correos electrónicos explorando el **[!UICONTROL Plantillas guardadas]** colección. A continuación, seleccione **[!UICONTROL Usar esta plantilla]**.
 

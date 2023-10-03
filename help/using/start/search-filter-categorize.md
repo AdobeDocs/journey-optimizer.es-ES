@@ -7,8 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: 0d09f7d7-d0a4-4831-90e8-8c2062de06b9
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 100%
@@ -55,8 +55,8 @@ El campo **[!UICONTROL Etiquetas]** le permite definir etiquetas para el objeto.
 
 * [Recorridos](../building-journeys/journey-gs.md#change-properties)
 * [Campañas](../campaigns/create-campaign.md#create)
-* [Plantillas](../email/content-templates.md)
-* [Fragmentos](../email/fragments.md)
+* [Plantillas](../content-management/content-templates.md)
+* [Fragmentos](../content-management/fragments.md)
 * [Listas de suscripciones](../landing-pages/subscription-list.md)
 * [Páginas de aterrizaje](../landing-pages/create-lp.md)
 
