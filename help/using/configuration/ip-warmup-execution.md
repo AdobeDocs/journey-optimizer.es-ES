@@ -14,7 +14,7 @@ exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -40,12 +40,12 @@ Cada fase está compuesta por varias ejecuciones, a las que se asigna una sola c
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="Excluir audiencias de campaña"
->abstract="Seleccione los públicos de otras campañas que desee excluir de la fase actual. Esto sirve para evitar que los perfiles contactados anteriormente desde otras fases u otros planes de calentamiento de IP vuelvan a segmentarse."
+>abstract="Seleccione los públicos de otras campañas que desee excluir de la fase actual. Esto sirve para evitar que se establezcan como objetivo perfiles con los que ya se ha contactado anteriormente desde otras fases u otros planes de calentamiento de IP."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="Excluir grupos de dominio"
->abstract="Seleccione los dominios que desea excluir de la fase actual. La exclusión de dominios requiere una fase no ejecutada, por lo que es posible que tenga que dividir una fase en ejecución para agregar exclusiones."
+>abstract="Seleccione los dominios que desea excluir de la fase actual. La exclusión de dominios requiere una fase no ejecutada, por lo que es posible que tenga que dividir una fase en ejecución para añadir exclusiones."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="Dividir una fase"
 
 >[!CONTEXTUALHELP]

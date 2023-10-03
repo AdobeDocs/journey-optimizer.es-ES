@@ -8,10 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -68,7 +69,7 @@ Para empezar a crear una experiencia basada en código a través de una campaña
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
->title="Uso del Editor de expresiones"
+>title="Utilice el editor de expresiones"
 >abstract="Inserte y edite el código que desea enviar como parte de esta acción de experiencia basada en código."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=es" text="Introducción al editor de expresiones"
 

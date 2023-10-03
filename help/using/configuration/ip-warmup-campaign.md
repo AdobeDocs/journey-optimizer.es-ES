@@ -10,10 +10,11 @@ level: Intermediate
 keywords: IP, grupos, capacidad de entrega
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 8%
+ht-degree: 17%
 
 ---
 
@@ -22,7 +23,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
 >title="Activación de la opción de plan de calentamiento de IP"
->abstract="Al seleccionar esta opción, la campaña se puede utilizar en un plan de calentamiento de IP. La programación de campaña se basa en el plan de calentamiento de IP con el que está asociado."
+>abstract="Al seleccionar esta opción, la campaña se puede utilizar en un plan de calentamiento de IP. La programación de la campaña se regirá por el plan de calentamiento de IP con el que está asociada."
 
 >[!BEGINSHADEBOX]
 
@@ -82,4 +83,3 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 Una vez activa, la campaña está lista para utilizarse en un plan de calentamiento de IP. [Más información](ip-warmup-plan.md)
 
 <!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
-
