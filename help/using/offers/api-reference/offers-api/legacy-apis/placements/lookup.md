@@ -5,12 +5,13 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 4%
 
 ---
+
 
 # Búsqueda de una ubicación {#look-up-placement}
 
@@ -19,7 +20,7 @@ Puede buscar ubicaciones específicas realizando una solicitud de GET a [!DNL Of
 **Formato de API**
 
 ```http
-GET /{ENDPOINT_PATH}/placements/{ID}
+GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT}&{QUERY_PARAMS}
 ```
 
 | Parámetro | Descripción | Ejemplo |
