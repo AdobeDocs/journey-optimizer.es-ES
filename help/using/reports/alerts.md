@@ -8,18 +8,18 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 78085934a00f4e365b49012b426e57a218bf48ba
+source-git-commit: d46ed2b5bb5402ab5ce8d3c033261d0366a5de34
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '464'
 ht-degree: 1%
 
 ---
 
 # Introducción a las alertas {#alerts}
 
-## Funcionalidades de alerta {#alerting-capabilities}
+## Alertas de acceso y suscripción {#alerting-capabilities}
 
-Puede acceder a las alertas del sistema a través de la interfaz de usuario o recibir un correo electrónico cuando se produce un error. Desde el **Alertas** , puede ver las alertas disponibles y suscribirse a ellas. Cuando se alcanza un determinado conjunto de condiciones en las operaciones (como un problema potencial cuando el sistema incumple un umbral), los mensajes de alerta se envían a cualquier usuario de la organización que se haya suscrito a ellos.
+Cuando se produce un error, puede recibir alertas del sistema en el centro de notificaciones de Journey Optimizer y recibir un correo electrónico. Desde el **Alertas** , puede ver las alertas disponibles y suscribirse a ellas. Cuando se alcanza un determinado conjunto de condiciones en las operaciones (como un problema potencial cuando el sistema incumple un umbral), los mensajes de alerta se envían a cualquier usuario de la organización que se haya suscrito a ellos.
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
