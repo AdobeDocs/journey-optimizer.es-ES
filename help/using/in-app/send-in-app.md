@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 17%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Para ello, siga los pasos a continuación:
 
 1. Desde el **[!UICONTROL Conectar con el dispositivo]** , haga clic en **[!UICONTROL Inicio]**.
 
-1. Escriba en **[!UICONTROL URL básica]** de la aplicación y haga clic en **[!UICONTROL Siguiente]**.
+1. Introduzca el **[!UICONTROL URL básica]** de la aplicación y haga clic en **[!UICONTROL Siguiente]**.
 
    ![](assets/in_app_create_7.png)
 

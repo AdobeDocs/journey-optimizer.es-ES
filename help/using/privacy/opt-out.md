@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
+source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -141,11 +141,11 @@ También puede añadir una comprobación de consentimiento de personalización a
 
 1. Añada la audiencia inicial con el botón específico de la derecha.
 
-1. Haga clic en el icono + y seleccione **[!UICONTROL División]** para crear una audiencia dividida. [Más información sobre la actividad División](../audience/composition-canvas.md#split)
+1. Haga clic en **+** y seleccione un **[!UICONTROL Split]** actividad para crear una audiencia dividida. [Más información sobre la actividad División](../audience/composition-canvas.md#split)
 
    ![](assets/perso-consent-audience-split.png)
 
-1. Seleccione **[!UICONTROL División de atributos]** como el tipo de división en el panel derecho.
+1. En el panel derecho, seleccione **[!UICONTROL División de atributos]** como el tipo de división.
 
    ![](assets/perso-consent-audience-attribute-split.png)
 
