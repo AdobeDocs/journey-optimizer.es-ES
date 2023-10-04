@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 4f4912530f6d39ba937b346f9eaccceff4b974dd
+source-git-commit: 78085934a00f4e365b49012b426e57a218bf48ba
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
@@ -31,13 +31,13 @@ Puede suscribirse a cada alerta individualmente desde la interfaz de usuario, se
 
 ![](assets/alert-subscribe.png)
 
-También puede suscribirse a alertas mediante [Notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}Sin embargo, las reglas de alerta están organizadas en diferentes paquetes de suscripción.
+También puede suscribirse a alertas mediante [Notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Las reglas de alerta se organizan en diferentes paquetes de suscripción. A continuación, se detallan las suscripciones a eventos correspondientes a las alertas de Journey Optimizer específicas.
 
 Si se produce un comportamiento inesperado, se envía una notificación de alerta a los suscriptores. En función de las preferencias del usuario, las alertas se envían por correo electrónico, o directamente en el centro de notificaciones de Journey Optimizer, en la esquina superior derecha de la interfaz de usuario.
 
 Cuando se resuelve una alerta, los suscriptores reciben una notificación &quot;Resuelto&quot;.
 
->[!WARNING]
+>[!CAUTION]
 >
 >Las alertas específicas de Adobe Journey Optimizer solo se aplican a **live** recorridos. Las alertas no se activan para los recorridos en el modo de prueba.
 
@@ -51,7 +51,7 @@ Las alertas de acciones personalizadas se resuelven cuando, en los últimos 5 mi
 
 * no se ha producido ningún error en esa acción personalizada (o errores por debajo del umbral del 1 %),
 
-* O bien, ningún perfil ha alcanzado esa acción personalizada.
+* o bien, ningún perfil ha alcanzado esa acción personalizada.
 
 El nombre de suscripción de evento de E/S correspondiente a la alerta de acción personalizada es **Error de acción personalizada de recorrido**.
 
