@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
-source-git-commit: ef22b6183c7646cca8636f4a7e4dd87c8f88e8ce
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 10%
+source-wordcount: '158'
+ht-degree: 9%
 
 ---
 
@@ -19,7 +19,9 @@ Puede modificar o actualizar una decisión en el contenedor realizando una solic
 
 Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte el [Documentación de parches de JSON](https://jsonpatch.com/).
 
-    @@ -19,61 +19,62 @@ La siguiente tabla muestra los valores válidos que comprenden el *Content-Type* y
+## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
+
+La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* y *Aceptar* campos en el encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |

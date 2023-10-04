@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 6%
@@ -25,10 +25,12 @@ Puede ver una lista de todas las ofertas personalizadas dentro de un contenedor 
 ```http
 GET /{ENDPOINT_PATH}/offers?offer-type=personalized&{QUERY_PARAMS}
 ```
+
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API de persistencia. | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | Parámetros de consulta opcionales por los que filtrar los resultados. | `limit=2` |
+
 **Solicitud**
 
 ```shell
@@ -40,9 +42,13 @@ curl -X GET \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
+
 ## Uso de parámetros de consulta {#using-query-parameters}
+
 Puede utilizar parámetros de consulta para paginar y filtrar los resultados al enumerar recursos.
+
 ### Paginación {#paging}
+
 Los parámetros de consulta más comunes para la paginación incluyen:
 
 | Parámetro | Descripción | Ejemplo |

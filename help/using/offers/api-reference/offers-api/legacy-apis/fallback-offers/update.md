@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
-source-git-commit: 54b92b19f2e3a6afa6557ffeff0d971a4c411510
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 9%
+source-wordcount: '172'
+ht-degree: 11%
 
 ---
 
@@ -42,7 +42,26 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 **Solicitud**
 
-    @@ -58,7 +57,7 @@ curl -X PATCH &#39;https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
+```shell
+curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?offer-type=fallback' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer  {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}' \
+-d '[
+    {
+        "op": "replace",
+        "path": "/name",
+        "value": "Updated fallback offer"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "Updated fallback offer description"
+    }
+]'
+```
 
 | Parámetro | Descripción |
 | --------- | ----------- |
@@ -53,6 +72,7 @@ ens35577 marcó esta conversación como resuelta.
 Mostrar resuelto
 
 **Respuesta**
+
 Una respuesta correcta devuelve los detalles actualizados de la oferta de reserva, incluida su instancia única `id`.
 
 ```json

@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
-source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '272'
 ht-degree: 5%
 
 ---
@@ -56,10 +56,10 @@ Los parámetros de consulta más comunes para la paginación incluyen:
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `q` | Una cadena de consulta opcional para buscar en los campos seleccionados. La cadena de consulta debe estar en minúsculas y puede estar rodeada de comillas dobles para evitar que se muestre con tokens y para que salga de los caracteres especiales. Los caracteres + - = &amp;&amp; |  | > &lt; ! ( ) { } [ ] ^ \&quot; ~ * ? : \ / tiene un significado especial y debe escribirse con una barra invertida cuando aparece en la cadena de consulta. colección de demostración |
-| `qop` | Aplicable `AND` o `OR` operador a valores en `q` parámetro de cadena de consulta. | `AND` / `OR` |
-| field | Lista opcional de campos para limitar la búsqueda. Este parámetro se puede repetir como se indica a continuación: field=field1[,field=field2,...] y (las expresiones de ruta tienen la forma de rutas separadas por puntos, como _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Ordene los resultados por una propiedad específica. Si se agrega un - antes del título (orderby=-title), los elementos se ordenarán por título en orden descendente (Z-A). | `-repo:createdDate` |
+| `q` | Una cadena de consulta opcional para buscar en los campos seleccionados. La cadena de consulta debe estar en minúsculas y puede estar rodeada de comillas dobles para evitar que se muestre con tokens y para que salga de los caracteres especiales. Los caracteres `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` tienen un significado especial y deben evitarse con una barra invertida cuando aparecen en la cadena de consulta. | `demo collection` |
+| `qop` | Aplica el operador AND u OR a los valores del parámetro de cadena de consulta q. | `AND` / `OR` |
+| `field` | Lista opcional de campos para limitar la búsqueda. Este parámetro se puede repetir como se indica a continuación: field=field1[,field=field2,...] y (las expresiones de ruta tienen la forma de rutas separadas por puntos, como _instance.xdm:name) | `_instance.xdm:name` |
+| `orderBy` | Ordene los resultados por una propiedad específica. Adición de un `-` antes del título (`orderby=-title`) ordenará los elementos por título en orden descendente (Z-A). | `-repo:createdDate` |
 | `limit` | Limitar el número de colecciones devueltas. | `limit=5` |
 
 **Respuesta**
