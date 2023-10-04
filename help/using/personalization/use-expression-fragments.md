@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, biblioteca, personalización
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: b65547efb2041bbb49b61cb23c15936ee2bab973
+source-git-commit: 623aa2ee317553eaebfb16c350a69672de2866a1
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Para añadir fragmentos de expresión al contenido, siga los pasos a continuaci�
 
 >[!NOTE]
 >
->Si crea un fragmento de expresión que contiene varios saltos de línea y lo utiliza en [SMS](../sms/create-sms.md#sms-content) o [push](../push/design-push.md) contenido, se conservan los saltos de línea. Por lo tanto, asegúrese de previsualizar y probar su [SMS](../sms/send-sms.md) o [push](../push/send-push.md) antes de enviarlo.
+>Si crea un fragmento de expresión que contiene varios saltos de línea y lo utiliza en [SMS](../sms/create-sms.md#sms-content) o [push](../push/design-push.md) contenido, se conservan los saltos de línea. Por lo tanto, asegúrese de probar su [SMS](../sms/send-sms.md) o [push](../push/send-push.md) antes de enviarlo.
 
 ## Romper herencia {#break-inheritance}
 
