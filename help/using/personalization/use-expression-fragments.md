@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, biblioteca, personalización
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: b65547efb2041bbb49b61cb23c15936ee2bab973
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,7 @@ ht-degree: 0%
 
 Al utilizar el Editor de expresiones, puede aprovechar todos los fragmentos de expresiones que se han creado o guardado en la zona protegida actual.
 
->[!NOTE]
->
->Obtenga información sobre cómo crear y administrar fragmentos en [esta sección](../content-management/fragments.md).
+Obtenga información sobre cómo crear y administrar fragmentos en [esta sección](../content-management/fragments.md).
 
 ➡️ [Aprenda a administrar, crear y utilizar fragmentos en este vídeo](../content-management/fragments.md#video-fragments)
 
@@ -68,6 +66,10 @@ Para añadir fragmentos de expresión al contenido, siga los pasos a continuaci�
 
 1. A continuación, puede personalizar y validar el contenido de la forma habitual mediante todas las funcionalidades de personalización y creación de la [Editor de expresiones](personalization-build-expressions.md).
 
+>[!NOTE]
+>
+>Si crea un fragmento de expresión que contiene varios saltos de línea y lo utiliza en [SMS](../sms/create-sms.md#sms-content) o [push](../push/design-push.md) contenido, se conservan los saltos de línea. Por lo tanto, asegúrese de previsualizar y probar su [SMS](../sms/send-sms.md) o [push](../push/send-push.md) antes de enviarlo.
+
 ## Romper herencia {#break-inheritance}
 
 Al agregar un ID de fragmento al Editor de expresiones, se sincronizan los cambios realizados en el fragmento de expresión original.
@@ -79,13 +81,4 @@ Sin embargo, también puede pegar el contenido de un fragmento de expresión en 
 En ese caso, la herencia del fragmento original se interrumpe. El contenido del fragmento se copia en el editor y los cambios ya no se sincronizan.
 
 Se convierte en un elemento independiente que ya no está vinculado al fragmento original; puede editarlo como cualquier otro elemento del código.
-
-<!--
-TO REPLACE WITH UPDATED VIDEO ON EXPRESSION FRAGMENTS
-## How-to video{#video}
-
-Learn how to use saved personalization library items in a message and how to create and manage personalization library items.
-
->[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
--->
 
