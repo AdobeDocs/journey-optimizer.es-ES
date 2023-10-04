@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 01bc2351b08fc7226c5e5633820f476c8621e404
+source-git-commit: 4f4912530f6d39ba937b346f9eaccceff4b974dd
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '450'
 ht-degree: 1%
 
 ---
@@ -57,12 +57,12 @@ El nombre de suscripción de evento de E/S correspondiente a la alerta de acció
 
 ## Déclencheur de segmentos leído incorrecto {#alert-read-audiences}
 
-Esta alerta le advierte si **Leer segmento** la actividad no ha procesado ningún perfil 10 minutos después de la hora programada de ejecución. Este error puede deberse a problemas técnicos o a que la audiencia está vacía.
+Esta alerta le advierte si **Leer audiencia** la actividad no ha procesado ningún perfil 10 minutos después de la hora programada de ejecución. Este error puede deberse a problemas técnicos o a que la audiencia está vacía.
 
 ![](assets/alerts1.png)
 
-Alertas el **Leer segmento** Las actividades de solo se aplican a recorridos recurrentes. **Leer segmento** actividades en recorridos activos que tienen una programación para ejecutarse **Una** o **Lo antes posible** se ignoran.
+Alertas el **Leer audiencia** Las actividades de solo se aplican a recorridos recurrentes. **Leer audiencia** actividades en recorridos activos que tienen una programación para ejecutarse **Una** o **Lo antes posible** se ignoran.
 
-Alertas el **Leer segmento** se resuelven cuando un perfil introduce en **Leer segmento** nodo.
+Alertas el **Leer audiencia** se resuelven cuando un perfil introduce en **Leer audiencia** nodo.
 
-El nombre de la suscripción del evento de E/S correspondiente a **Leer segmento** la alerta es **Retrasos, errores y errores del segmento de lectura de recorrido**.
+El nombre de la suscripción del evento de E/S correspondiente a **Déclencheur de segmentos leído incorrecto** la alerta es **Retrasos, errores y errores del segmento de lectura de recorrido**.

@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 29bd838e42d82c87a03e36012a280b5f56ae3ad0
+source-git-commit: c6f0e43fd2dacbc1aa79aee3605f6a30c5f9c7b4
 workflow-type: tm+mt
-source-wordcount: '4143'
+source-wordcount: '4141'
 ht-degree: 85%
 
 ---
@@ -105,7 +105,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Alerta**
 
-* Se ha introducido un nuevo tipo de alerta del sistema. Ahora puede recibir notificaciones cuando falle una audiencia de lectura. [Más información](../reports/alerts.md).
+* Se ha introducido un nuevo tipo de alerta del sistema. Ahora puede recibir una notificación cuando **Leer audiencia** falla la actividad. [Más información](../reports/alerts.md).
 
 **Canal web**
 
@@ -117,7 +117,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Recorridos**
 
-Al duplicar un recorrido, ahora puede definir el nombre de la copia de recorrido. [Más información](../building-journeys/journey-gs.md#uplicate-a-journey)
+* Al duplicar un recorrido, ahora puede definir el nombre de la copia de recorrido. [Más información](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 
 <!--
@@ -127,7 +127,7 @@ Al duplicar un recorrido, ahora puede definir el nombre de la copia de recorrido
 
 **Canal de correo electrónico**
 
-Una nueva opción en la configuración de la superficie de correo electrónico permite elegir enviar mensajes transaccionales a perfiles incluso si sus direcciones de correo electrónico están en el Adobe [!DNL Journey Optimizer] lista de supresión. [Más información](../email/email-settings.md#send-to-suppressed-email-addresses)
+* Una nueva opción en la configuración de la superficie de correo electrónico permite elegir enviar mensajes transaccionales a perfiles incluso si sus direcciones de correo electrónico están en el Adobe [!DNL Journey Optimizer] lista de supresión. [Más información](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **Canal de SMS**
 
@@ -137,15 +137,15 @@ Una nueva opción en la configuración de la superficie de correo electrónico p
 
 **Canal de correo directo**
 
-Ahora tiene la capacidad de cifrar archivos destinados a sus proveedores de correo postal cuando se transfieren a un servidor. Para ello, hay un nuevo campo disponible en la pantalla de configuración de enrutamiento de archivos, que le permite copiar y pegar la clave de cifrado. [Más información](../direct-mail/direct-mail-configuration.md)
+* Ahora puede cifrar archivos destinados a sus proveedores de correo postal cuando se transfieren a un servidor. Para ello, hay un nuevo campo disponible en la pantalla de configuración de enrutamiento de archivos, que le permite copiar y pegar la clave de cifrado. [Más información](../direct-mail/direct-mail-configuration.md)
 
 **Creación de informes**
 
-Ahora puede exportar informes de Journey Optimizer como archivo CSV. Obtenga más información en la [documentación detallada](../reports/global-report.md#export-reports) y el [vídeo explicativo](../reports/global-report.md#video-csv).
+* Ahora puede exportar informes de Journey Optimizer como archivo CSV. Obtenga más información en la [documentación detallada](../reports/global-report.md#export-reports) y el [vídeo explicativo](../reports/global-report.md#video-csv).
 
 **Recursos**
 
-Una nueva opción para Recursos le permite elegir el repositorio de sus Recursos en Journey Optimizer. Puede optar por un repositorio de Assets Essentials o un repositorio as a Cloud Service de Assets, siempre que sea el propietario de esta solución. [Más información](../content-management/assets-essentials.md)
+* Una nueva opción para Recursos le permite elegir el repositorio de sus Recursos en Journey Optimizer. Puede optar por un repositorio de Assets Essentials o un repositorio as a Cloud Service de Assets, siempre que sea el propietario de esta solución. [Más información](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 
