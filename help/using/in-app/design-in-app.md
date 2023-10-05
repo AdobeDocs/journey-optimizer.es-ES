@@ -7,14 +7,19 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, diseño, formato
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 6%
+source-wordcount: '1147'
+ht-degree: 4%
 
 ---
 
 # Diseño del contenido en la aplicación {#design-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_content"
+>title="Definición del contenido en la aplicación"
+>abstract="Personalice el contenido y el estilo de los mensajes en la aplicación. También puede añadir medios y botones de acción para que sus mensajes sean más atractivos y eficaces."
 
 Puede editar el contenido en la aplicación para configurar las opciones de experiencia:
 
@@ -31,6 +36,11 @@ El **[!UICONTROL Formato avanzado]** esta opción activa opciones adicionales pa
 Una vez creado el mensaje en la aplicación, y definido y personalizado su contenido, puede revisarlo y activarlo. Las notificaciones se envían según la programación de campaña. Obtenga más información en [esta página](send-in-app.md).
 
 ## Diseño del mensaje {#message-layout}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_layout"
+>title="Definición del contenido en la aplicación"
+>abstract="El diseño del mensaje le proporciona plantillas comúnmente utilizadas para enmarcar el mensaje. El diseño personalizado proporciona opciones para cargar o componer mensajes personalizados del HTML."
 
 Desde el **[!UICONTROL Diseño del mensaje]** , seleccione una de las cuatro opciones de diseño diferentes para elegir según sus necesidades de mensajería.
 
@@ -58,9 +68,14 @@ Desde el **[!UICONTROL Diseño del mensaje]** , seleccione una de las cuatro opc
 
 ## Pestaña Contenido {#content-tab}
 
-Desde el **Contenido** puede definir y personalizar: el contenido de la notificación y el estilo de la **Cerrar** botón. También puede añadir contenido multimedia a la notificación en la aplicación y añadir botones de acción desde esta pestaña.
+Desde el **Contenido** pestaña, puede definir y personalizar el contenido de la notificación y el estilo de la **Cerrar** botón. También puede añadir contenido multimedia a la notificación en la aplicación y añadir botones de acción desde esta pestaña.
 
 ### Botón Cerrar {#close-button}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_close"
+>title="Elija el estilo del botón Cerrar."
+>abstract="La sección del botón Cerrar ofrece opciones para seleccionar variaciones del botón Cerrar mensaje y una opción para cargar una imagen personalizada."
 
 ![](assets/in_app_content_2.png)
 
@@ -80,6 +95,11 @@ Si la variable **[!UICONTROL Modo de formato avanzado]** está activada, puede c
 
 ### Medios {#add-media}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_media"
+>title="Añada contenido multimedia al mensaje en la aplicación para crear una experiencia atractiva para el usuario final."
+>abstract="Proporcione un vínculo directo al contenido o utilice el selector de recursos para seleccionar medios en Asset Essentials y añadirlos a su mensaje."
+
 El **[!UICONTROL Medios]** Este campo le permite añadir contenido multimedia al mensaje en la aplicación para crear una experiencia atractiva para el usuario final.
 
 ![](assets/in_app_content_3.png)
@@ -94,6 +114,11 @@ Si la variable **[!UICONTROL Modo de formato avanzado]** está activada, puede p
 +++
 
 ### Encabezado y cuerpo {#title-body}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_content"
+>title="Para redactar el mensaje, introduzca el contenido en los campos Header y Body."
+>abstract="Aquí se pueden agregar tanto el encabezado como el texto independiente. Para incluir tokens de personalización, abra el cuadro de diálogo de personalización."
 
 Para redactar el mensaje, introduzca el contenido en la **[!UICONTROL Header]** y **[!UICONTROL Cuerpo]** campos.
 
@@ -112,6 +137,11 @@ Si la variable **[!UICONTROL Modo de formato avanzado]** está activado, puede e
 +++
 
 ### Botones {#add-buttons}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_buttons"
+>title="Agregue botones para que los usuarios interactúen con el mensaje en la aplicación."
+>abstract="Esta sección le permite agregar botones de llamada a la acción al mensaje. Puede incluir texto personalizado y destinos para cada botón."
 
 Agregue botones para que los usuarios interactúen con el mensaje en la aplicación.
 
@@ -147,6 +177,11 @@ Desde el **Configuración** pestaña, puede definir el diseño del mensaje y pre
 
 ### Vista previa {#preview-tab}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_preview"
+>title="Previsualice el mensaje en la aplicación."
+>abstract="Esta es la imagen de vista previa que se mostrará cuando el mensaje se envíe al resumen de mensajes del dispositivo."
+
 ![](assets/in_app_content_6.png)
 
 El **[!UICONTROL Vista previa de aplicación]** le permite añadir un fondo detrás del mensaje en la aplicación:
@@ -159,6 +194,11 @@ El **[!UICONTROL Vista previa de aplicación]** le permite añadir un fondo detr
 
 ### Diseño {#layout-options}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_layout"
+>title="Defina el diseño del mensaje del mensaje en la aplicación."
+>abstract="Esta sección le permite añadir un fondo al mensaje en la aplicación. Esto requiere que la adquisición de la IU esté habilitada."
+
 ![](assets/in_app_content_7.png)
 
 El **[!UICONTROL Imagen de fondo]** Este campo le permite añadir un fondo al mensaje en la aplicación:
@@ -168,6 +208,11 @@ El **[!UICONTROL Imagen de fondo]** Este campo le permite añadir un fondo al me
 * Un color de fondo.
 
 ### Mensaje {#message-tab}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_message_advanced"
+>title="Defina la configuración avanzada del mensaje."
+>abstract="Esta sección le permite mejorar la personalización del contenido en la aplicación, especialmente cuando tiene activado el Formato avanzado."
 
 ![](assets/in_app_content_8.png)
 
