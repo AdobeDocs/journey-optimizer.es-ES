@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorrido, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
+source-git-commit: 2874acfda5947bedd6c390468ded294cf07f9383
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 12%
@@ -132,7 +132,7 @@ Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL
 
 1. En el **[!UICONTROL Solicitud]** , pegue un ejemplo de la carga útil JSON para enviar al servicio externo. Este campo es opcional y solo está disponible para los métodos de llamada de POST y PUT.
 
-1. En el **[!UICONTROL Respuesta]** , pegue un ejemplo de la carga útil devuelta por la llamada. Este campo es opcional y está disponible para todos los métodos de llamada. Para obtener información detallada sobre cómo aprovechar las respuestas de llamadas de API en las acciones del cliente, consulte [esta página](../action/action-response.md).
+1. En el **[!UICONTROL Respuesta]** , pegue un ejemplo de la carga útil devuelta por la llamada. Este campo es opcional y está disponible para todos los métodos de llamada. Para obtener información detallada sobre cómo aprovechar las respuestas de llamadas de API en acciones personalizadas, consulte [esta página](../action/action-response.md).
 
 >[!NOTE]
 >
