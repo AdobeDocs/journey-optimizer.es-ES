@@ -9,18 +9,19 @@ role: User
 level: Beginner
 keywords: correo electrónico, inicio, creación, vista previa
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: ce6dc6eec59ad61bec2c00e811f6f6e006eb20da
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 93%
 
 ---
 
 # Introducción al correo electrónico {#get-started-email}
 
->[!IMPORTANT]
->
->Si es la primera vez que crea un correo electrónico, asegúrese de que el canal de correo electrónico esté configurado. [Más información](email-settings.md)
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card4"
+>title="Diseño de correos electrónicos"
+>abstract="Uso **Adobe Journey Optimizer** para enviar mensajes de correo electrónico a sus clientes. Puede crear, personalizar y previsualizar mensajes en el Diseñador de correo electrónico."
 
 Utilice [!DNL Journey Optimizer] para enviar mensajes de correo electrónico a sus clientes. Puede crear, personalizar y previsualizar mensajes en el Diseñador de correo electrónico.
 
@@ -34,10 +35,16 @@ Se pueden crear envíos de correo electrónico:
 
   Para obtener más información sobre cómo configurar la cuenta, consulte esta [página](../campaigns/create-campaign.md#configure).
 
+
+>[!IMPORTANT]
+>
+>Si es la primera vez que crea un correo electrónico, asegúrese de que el canal de correo electrónico esté configurado. [Más información](email-settings.md)
+
+
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-email.md">
-<img alt="Posible cliente" src="../assets/do-not-localize/email-create.jpeg">
+<img alt="Crear" src="../assets/do-not-localize/email-create.jpeg">
 </a>
 <div><a href="create-email.md"><strong>Creación de un correo electrónico</strong>
 </div>
@@ -45,7 +52,7 @@ Se pueden crear envíos de correo electrónico:
 </td>
 <td>
 <a href="get-started-email-design.md">
-<img alt="Poco frecuente" src="../assets/do-not-localize/email-design.jpg">
+<img alt="Diseño" src="../assets/do-not-localize/email-design.jpg">
 </a>
 <div>
 <a href="get-started-email-design.md"><strong>Cree un correo electrónico</strong></a>
@@ -53,7 +60,7 @@ Se pueden crear envíos de correo electrónico:
 <p></td>
 <td>
 <a href="email-opt-out.md">
-<img alt="Validación" src="../assets/do-not-localize/email-opt-out.jpg">
+<img alt="Opción de exclusión" src="../assets/do-not-localize/email-opt-out.jpg">
 </a>
 <div>
 <a href="email-opt-out.md"><strong>Administración de exclusión de correo electrónico</strong></a>
@@ -62,7 +69,7 @@ Se pueden crear envíos de correo electrónico:
 </td>
 <td>
 <a href="email-settings.md">
-<img alt="Validación" src="../assets/do-not-localize/email-config.jpg">
+<img alt="Configurar" src="../assets/do-not-localize/email-config.jpg">
 </a>
 <div>
 <a href="email-settings.md"><strong>Configurar canal de correo electrónico</strong></a>

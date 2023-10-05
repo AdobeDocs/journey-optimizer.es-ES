@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '1689'
+source-wordcount: '1710'
 ht-degree: 25%
 
 ---
 
 # Creación de su primer recorrido{#jo-quick-start}
+
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card2"
+>title="Creación de recorridos"
+>abstract="Uso **Adobe Journey Optimizer** para crear casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos."
 
 ## Requisitos previos{#start-prerequisites}
 

@@ -7,13 +7,12 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Experienced
-badge: label="Beta" type="Informative"
 keywords: acción, terceros, personalizado, recorrido, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 8%
+source-wordcount: '602'
+ht-degree: 7%
 
 ---
 
