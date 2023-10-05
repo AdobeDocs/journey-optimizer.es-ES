@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: recursos, essentials, experience manager, integración
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 8673391de8ac5c91bfbd28d23f7ab9a1416f4a83
+source-git-commit: f6404776cc4cd2b83373617ce6d5e18c960d0371
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 17%
@@ -49,8 +49,7 @@ Para obtener más información sobre cómo cargar recursos, consulte [Documentac
 
    ![](assets/media_library_4.png)
 
-+++
-Obtenga información sobre cómo cambiar de repositorio de recursos.
++++ Obtenga información sobre cómo cambiar de repositorio de recursos.
 
    Para cambiar el repositorio de Assets, seleccione el icono Cuenta en la esquina superior derecha y haga clic en **[!UICONTROL Seleccionar repositorio]**.
 
