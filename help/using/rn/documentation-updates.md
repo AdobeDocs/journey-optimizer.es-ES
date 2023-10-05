@@ -4,10 +4,10 @@ product: journey optimizer
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 16367587716c73c63c2f2207c29090b41500ecf8
 workflow-type: tm+mt
-source-wordcount: '3711'
-ht-degree: 90%
+source-wordcount: '3765'
+ht-degree: 88%
 
 ---
 
@@ -28,6 +28,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se han actualizado los vínculos a la documentación de control de acceso. [Más información](../administration/permissions.md)
 * Los requisitos previos del canal en la aplicación se han actualizado con los detalles de recopilación de datos de Adobe Experience Platform. [Más información](../in-app/inapp-configuration.md)
 * Se han actualizado algunas expresiones presentadas en ejemplos de fórmulas de clasificación para evitar errores de validación. [Más información](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
+* Se ha añadido una advertencia a **Definir ámbitos de decisión** para especificar que si el modelo de IA se utiliza en un grupo de criterios de evaluación, todos los criterios de evaluación de ese grupo deben utilizar el método de clasificación de IA, con el mismo modelo de IA específico. Además, solo un grupo de criterios de evaluación puede utilizar el modelo de IA. [Más información](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## Agosto de 2023 {#august-2023}
 
