@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: e5dec38e5dc38904378fc0685f4b056e097f29a3
+source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 6%
+source-wordcount: '1859'
+ht-degree: 4%
 
 ---
 
@@ -40,9 +40,9 @@ La campaña **[!UICONTROL Informe en vivo]** se divide en diferentes widgets que
 
 Para obtener una lista detallada de todas las métricas disponibles en Adobe Journey Optimizer, consulte [esta página](live-report.md#list-of-components-live).
 
-## Pestaña Campaña {#campaign-global}
+## Pestaña Campaña {#campaign-live}
 
-### envío {#delivery-global}
+### envío {#delivery-live}
 
 El **[!UICONTROL Estadísticas de campaña]** El widget detalla la información principal relativa a la campaña:
 
@@ -103,6 +103,21 @@ El **[!UICONTROL Correo electrónico: dominio del destinatario principal]** el g
 
 ## Pestaña en la aplicación {#inapp-live}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_inapp_performance"
+>title="Rendimiento en la aplicación"
+>abstract="Los KPI de rendimiento en la aplicación proporcionan una perspectiva esencial de la participación de los visitantes con los mensajes en la aplicación en las últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_inapp_interactions"
+>title="Interacciones por tipo"
+>abstract="La tabla Interacciones por tipo detalla la interacción de los usuarios con el mensaje en la aplicación mediante el seguimiento de cualquier clic, despido o interacción de las últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_inapp_summary"
+>title="Resumen en la aplicación"
+>abstract="El gráfico de resumen en la aplicación ilustra la progresión de las impresiones e interacciones en la aplicación durante las últimas 24 horas."
+
 Desde la campaña **[!UICONTROL Informe en vivo]**, el **[!UICONTROL En la aplicación]** Esta pestaña detalla la información principal relativa a las entregas en la aplicación enviadas en la campaña.
 
 +++Obtenga más información sobre las distintas métricas y widgets disponibles para el informe en la aplicación.
@@ -121,13 +136,43 @@ El **[!UICONTROL Interacciones por tipo]** en los gráficos y la tabla se detall
 
 ## Pestaña de notificaciones push {#push-live}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_sending_performance"
+>title="Notificación push: rendimiento de envío"
+>abstract="El gráfico Rendimiento de envío de notificaciones push resume los datos esenciales sobre las notificaciones push, como los errores o los mensajes enviados de las últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_statistics"
+>title="Notificación push: estadísticas"
+>abstract="La tabla Estadísticas push proporciona datos sobre la actividad del destinatario durante la entrega en las últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_sending_summary"
+>title="Notificación push: resumen de envío"
+>abstract="El gráfico Resumen de envío de notificaciones push muestra los datos disponibles para las notificaciones push enviadas desde las últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_excluded_reasons"
+>title="Notificación push: razones de exclusión"
+>abstract="Los gráficos y la tabla de motivos de exclusión ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos de la audiencia de destino, no recibieran el mensaje en las últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_error_reasons"
+>title="Notificación push: razones de error"
+>abstract="Los gráficos y la tabla de motivos de error permiten identificar los errores específicos que se produjeron en las últimas 24 horas durante la entrega."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_breakdown_platform"
+>title="Notificación push: desglose por plataforma"
+>abstract="Los gráficos y la tabla Desglose por plataforma proporcionan un desglose del éxito de las notificaciones push en las últimas 24 horas en función del sistema operativo del destinatario."
+
 Desde la campaña **[!UICONTROL Informe en vivo]**, el **[!UICONTROL Notificación push]** Esta pestaña detalla la información principal relativa a las entregas push enviadas en la campaña.
 
 ![](assets/campaign_report_live_2.png)
 
 +++Obtenga más información sobre las distintas métricas y widgets disponibles para el informe push.
 
-**[!UICONTROL Rendimiento de envío de notificaciones push]**, **[!UICONTROL Resumen de notificaciones push]** y **[!UICONTROL Envío de métricas: por notificación push]** los widgets detallan la información principal relativa al mensaje:
+**[!UICONTROL Rendimiento de envío de notificaciones push]**, **[!UICONTROL Resumen de notificaciones push]** y **[!UICONTROL Notificación push: estadísticas]** los widgets detallan la información principal relativa al mensaje:
 
 * **[!UICONTROL Enviado]**: Número total de envíos para el envío.
 
@@ -151,6 +196,31 @@ El **[!UICONTROL Seguimiento por plataforma]**, **[!UICONTROL Envío por platafo
 +++
 
 ## Pestaña SMS {#sms-live}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_statistics"
+>title="SMS: estadísticas"
+>abstract="La tabla Estadísticas de envío de SMS resume los datos esenciales sobre sus mensajes SMS, como los mensajes dirigidos o enviados desde las últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_performance"
+>title="SMS: rendimiento por fecha"
+>abstract="El widget Rendimiento por fecha de SMS proporciona información clave de las últimas 24 horas sobre sus mensajes a través de una representación gráfica."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_error_reasons"
+>title="SMS: razones de error"
+>abstract="Los gráficos y la tabla SMS: motivos de error le permiten identificar los errores específicos que se produjeron en las últimas 24 horas durante la entrega."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_excluded_reasons"
+>title="SMS: razones de exclusión"
+>abstract="Los gráficos y la tabla de motivos de exclusión ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos de la audiencia de destino, no recibieran el mensaje en las últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_bounces_reasons"
+>title="SMS: motivos de rechazos"
+>abstract="Los gráficos y la tabla de motivos de rechazos contienen los datos disponibles de las últimas 24 horas relacionados con los mensajes rechazados."
 
 Desde la campaña **[!UICONTROL Informe en vivo]**, el **[!UICONTROL SMS]** Esta pestaña detalla la información principal relativa a los envíos SMS enviados en la campaña.
 
@@ -185,6 +255,21 @@ El **[!UICONTROL Razones de exclusión]**, **[!UICONTROL Razones de rechazos]** 
 
 ## Pestaña web {#web-tab}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_web_performance"
+>title="Rendimiento web"
+>abstract="Los KPI de rendimiento web proporcionan información completa sobre la participación de los visitantes con las experiencias web de las últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_web_summary"
+>title="Resumen web"
+>abstract="El gráfico Resumen web ilustra la progresión de las experiencias web, incluidas las impresiones, las impresiones únicas y las interacciones, desde las últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_web_interactions"
+>title="Interacciones por elemento"
+>abstract="La tabla Interacciones por elemento proporciona información clave sobre la participación de los visitantes con diferentes elementos de las páginas web en las últimas 24 horas."
+
 Desde la campaña **[!UICONTROL Informe en vivo]**, el **[!UICONTROL Web]** La pestaña detalla la información principal relativa a sus páginas web.
 
 +++Obtenga más información sobre las distintas métricas y widgets disponibles para el informe web.
@@ -202,7 +287,22 @@ El **[!UICONTROL Interacciones por elemento]** La tabla detalla la información 
 
 ## Ficha Correo directo {#direct-mail-tab}
 
-Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL Correo directo]** Esta pestaña detalla la información principal relativa a sus envíos de correo directo.
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_direct_sending_statistics"
+>title="Correo directo: estadísticas de envío"
+>abstract="La tabla Estadísticas de envío de correo directo resume los datos esenciales de las últimas 24 horas sobre sus mensajes de correo directo, como los mensajes dirigidos o enviados."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_direct_error_reasons"
+>title="Correo directo: razones de error"
+>abstract="Los gráficos y la tabla Correo directo: motivos de error le permiten identificar los errores específicos que se han producido en las últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_direct_excluded_reasons"
+>title="Correo directo: razones de exclusión"
+>abstract="Los gráficos y la tabla de motivos de exclusión de correo directo ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos de la audiencia de destino, no recibieran el mensaje en las últimas 24 horas."
+
+Desde la campaña **[!UICONTROL Informe en vivo]**, el **[!UICONTROL Correo directo]** Esta pestaña detalla la información principal relativa a sus envíos de correo directo.
 
 ![](assets/direct-mail-report_2.png)
 

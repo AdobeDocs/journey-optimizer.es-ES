@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 2ae9cc843d613bf22e1413b1903e151faf3f8f76
+source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
-source-wordcount: '2466'
-ht-degree: 4%
+source-wordcount: '2955'
+ht-degree: 3%
 
 ---
 
@@ -45,6 +45,11 @@ Para obtener una lista detallada de todas las métricas disponibles en Adobe Jou
 ## Pestaña Campaña {#campaign-global}
 
 ### envío {#delivery-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_delivery_global"
+>title="Estadísticas de Campaign"
+>abstract="El widget de estadísticas de campaña detalla la información principal relativa a la campaña, como los perfiles introducidos y las acciones entregadas."
 
 ![](assets/campaign_report_global_1.png)
 
@@ -209,6 +214,21 @@ El **[!UICONTROL Optimización del tiempo de envío]** detalla el éxito de su e
 
 ## Pestaña en la aplicación {#inapp-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_performance"
+>title="Rendimiento en la aplicación"
+>abstract="Los KPI de rendimiento en la aplicación proporcionan información esencial sobre la participación de los visitantes en los mensajes en la aplicación."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_interactions"
+>title="Interacciones por tipo"
+>abstract="La tabla Interacciones por tipo detalla la interacción de los usuarios con el mensaje en la aplicación mediante el seguimiento de cualquier clic, rechazo o interacción."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_summary"
+>title="Resumen en la aplicación"
+>abstract="El gráfico de resumen en la aplicación ilustra la progresión de las impresiones e interacciones en la aplicación durante el periodo especificado."
+
 Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL En la aplicación]** Esta pestaña detalla la información principal relativa a las entregas en la aplicación enviadas en la campaña.
 
 ![](assets/campaign_report_global_6.png)
@@ -223,20 +243,50 @@ El **[!UICONTROL Rendimiento en la aplicación]** Los KPI detallan la informaci�
 
 * **[!UICONTROL Tasa de interacciones]**: porcentaje de interacciones con el mensaje en la aplicación. Esto incluye cualquier acción realizada por los usuarios, como clics, rechazos o cualquier otra interacción.
 
-El **[!UICONTROL Resumen en la aplicación]** Este gráfico muestra la evolución de las impresiones e interacciones en la aplicación durante el periodo correspondiente.
-
 El **[!UICONTROL Interacciones por tipo]** en los gráficos y la tabla se detalla la interacción de los usuarios con el mensaje en la aplicación mediante el seguimiento de cualquier clic, despido o interacción.
+
+El **[!UICONTROL Resumen en la aplicación]** Este gráfico muestra la evolución de las impresiones e interacciones en la aplicación durante el periodo correspondiente.
 +++
 
 ## Pestaña de notificaciones push {#push-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_sending_statistics"
+>title="Notificación push: estadísticas de envío"
+>abstract="La tabla Estadísticas de envío de notificaciones push resume los datos esenciales sobre las notificaciones push, como los mensajes dirigidos o enviados."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_tracking_statistics"
+>title="Notificación push: estadísticas de seguimiento"
+>abstract="Las estadísticas de seguimiento push proporcionan datos sobre la actividad del destinatario para su envío."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_sending_summary"
+>title="Notificación push: resumen de envío"
+>abstract="El gráfico Resumen de envío de notificaciones push muestra los datos disponibles para las notificaciones push enviadas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_excluded_reasons"
+>title="Notificación push: razones de exclusión"
+>abstract="Los gráficos y la tabla de motivos de exclusión ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos de la audiencia de destino, no recibieran el mensaje."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_error_reasons"
+>title="Notificación push: razones de error"
+>abstract="Los gráficos y la tabla de motivos de error permiten identificar los errores específicos que se produjeron durante la entrega."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_breakdown_platform"
+>title="Notificación push: desglose por plataforma"
+>abstract="Los gráficos y la tabla Desglose por plataforma proporcionan un desglose del éxito de las notificaciones push en función del sistema operativo del destinatario."
+
 Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL Notificación push]** Esta pestaña detalla la información principal relativa a las entregas push enviadas en la campaña.
 
-![](assets/campaign_report_global_3.png)
+![](assets/campaign_report_global_3.png)Los KPI de rendimiento en la aplicación detallan la información principal relativa a la participación de los visitantes en los mensajes en la aplicación.
 
 +++Obtenga más información sobre las distintas métricas y widgets disponibles para el informe push.
 
-El **[!UICONTROL Notificación push: estadísticas de envío]** Esta tabla detalla la información principal relativa a las notificaciones push con gráficos y KPI:
+El **[!UICONTROL Notificación push: estadísticas de envío]** La tabla detalla la información principal relativa a las notificaciones push
 
 * **[!UICONTROL Objetivos]**: Número total de mensajes procesados durante el análisis de envío.
 
@@ -295,14 +345,44 @@ El **[!UICONTROL Optimización del tiempo de envío]** detalla el éxito de su e
 * **[!UICONTROL Entregado]**: Número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
 * **[!UICONTROL Devoluciones]**: Total de errores acumulados durante el envío y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados.
 
-El **[!UICONTROL Motivos del error]** El gráfico y la tabla permiten ver qué error se produjo durante la entrega.
+El **[!UICONTROL Motivos del error]** los gráficos y la tabla permiten ver qué error se produjo durante la entrega.
 
-El **[!UICONTROL Razones de exclusión]** el gráfico y la tabla muestran los diferentes motivos que impidieron que los perfiles de usuario, excluidos de los perfiles de destino, recibieran el mensaje.
+El **[!UICONTROL Razones de exclusión]** los gráficos y las tablas muestran los diferentes motivos que impidieron que los perfiles de usuario, excluidos de los perfiles de destino, recibieran el mensaje.
 
-El **[!UICONTROL Seguimiento por plataforma]**, **[!UICONTROL Envío por plataforma]** y **[!UICONTROL Desglose por plataforma]** los gráficos y tablas detallan el éxito de la notificación push según el sistema operativo del destinatario.
+El **[!UICONTROL Desglose por plataforma]** el gráfico y la tabla detallan el éxito de la notificación push en función del sistema operativo del destinatario.
 +++
 
 ## Pestaña SMS {#sms-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_sending_statistics"
+>title="SMS: estadísticas de envío"
+>abstract="La tabla Estadísticas de envío de SMS resume los datos esenciales sobre sus mensajes SMS, como los mensajes dirigidos o enviados."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_error_reasons"
+>title="SMS: razones de error"
+>abstract="Los gráficos y la tabla SMS: motivos de error le permiten identificar los errores específicos que se produjeron durante la entrega."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_performance"
+>title="SMS: rendimiento por fecha"
+>abstract="El widget Rendimiento por fecha de SMS proporciona información clave sobre los mensajes a través de una representación gráfica."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_excluded_reasons"
+>title="SMS: razones de exclusión"
+>abstract="Los gráficos y la tabla de motivos de exclusión ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos de la audiencia de destino, no recibieran el mensaje."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_bounces_reasons"
+>title="SMS: motivos de rechazos"
+>abstract="Los gráficos y la tabla de motivos de rechazos contienen los datos disponibles relacionados con los mensajes rechazados."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_clicks_links"
+>title="SMS: clics por vínculos"
+>abstract="El widget SMS: clics por vínculos proporciona una información esencial sobre la participación de los visitantes con las direcciones URL de los mensajes"
 
 Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL SMS]** Esta pestaña detalla la información principal relativa a los envíos SMS enviados en la campaña.
 
@@ -330,13 +410,28 @@ El **[!UICONTROL Rendimiento de SMS por fecha]** El widget detalla la informaci�
 
 * **[!UICONTROL Errores]**: Número total de errores que se han producido durante una entrega para evitar que se envíe a los perfiles.
 
-El **[!UICONTROL Razones de exclusión]**, **[!UICONTROL Razones de rechazos]** y **[!UICONTROL Motivos del error]** los gráficos y tablas permiten ver qué error y exclusiones se produjeron durante la entrega.
+El **[!UICONTROL Razones de exclusión]** y **[!UICONTROL Razones de rechazos]** y **[!UICONTROL Motivos del error]** los gráficos y tablas permiten ver qué error y exclusiones se produjeron durante la entrega.
 
-El **[!UICONTROL SMS: clics por vínculos]** y **[!UICONTROL SMS: estadísticas de seguimiento]** los widgets detallan la información principal relativa a la participación de los visitantes con las direcciones URL.
+El **[!UICONTROL SMS: clics por vínculos]** Los widgets detallan la información principal relativa a la participación de los visitantes en las direcciones URL.
 
 +++
 
 ## Pestaña web {#web-tab}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_performance"
+>title="Rendimiento web"
+>abstract="Los KPI de rendimiento web proporcionan información completa sobre la participación de los visitantes en las experiencias web."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_summary"
+>title="Resumen web"
+>abstract="El gráfico Resumen web ilustra la progresión de las experiencias web, incluidas las impresiones, las impresiones únicas y las interacciones, durante el periodo especificado."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_interactions"
+>title="Interacciones por elemento"
+>abstract="La tabla Interacciones por elemento proporciona información clave sobre la participación de los visitantes con diferentes elementos de las páginas web."
 
 Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL Web]** La pestaña detalla la información principal relativa a sus páginas web.
 
@@ -358,6 +453,21 @@ El **[!UICONTROL Interacciones por elemento]** La tabla detalla la información 
 +++
 
 ## Ficha Correo directo {#direct-mail-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_sending_statistics"
+>title="Correo directo: estadísticas de envío"
+>abstract="La tabla Estadísticas de envío de correo directo resume los datos esenciales sobre sus mensajes de correo directo, como los mensajes dirigidos o enviados."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_error_reasons"
+>title="Correo directo: razones de error"
+>abstract="Los gráficos y la tabla Correo directo: motivos de error le permiten identificar los errores específicos que se produjeron durante la entrega."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_excluded_reasons"
+>title="Correo directo: razones de exclusión"
+>abstract="Los gráficos y la tabla de motivos de exclusión de correo postal ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos de la audiencia de destino, no recibieran el mensaje."
 
 Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL Correo directo]** Esta pestaña detalla la información principal relativa a sus envíos de correo directo.
 
