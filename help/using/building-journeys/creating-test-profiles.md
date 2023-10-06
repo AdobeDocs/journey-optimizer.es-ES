@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: perfiles de prueba, prueba, prueba, recorrido
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1367'
 ht-degree: 4%
 
 ---
@@ -42,18 +42,18 @@ Hasta **creación de un esquema**, siga estos pasos:
 
 1. En la sección del menú DATA MANAGEMENT, haga clic en **[!UICONTROL Esquemas]**.
    ![](assets/test-profiles-0.png)
-1. Clic **[!UICONTROL Crear esquema]**, en la parte superior derecha, seleccione un tipo de esquema, por ejemplo **Perfil individual de XDM**.
+1. Clic **[!UICONTROL Crear esquema]**, en la parte superior derecha, seleccione un tipo de esquema, por ejemplo **Perfil individual** y haga clic en **Siguiente**.
    ![](assets/test-profiles-1.png)
-1. Seleccione los grupos de campos adecuados. Asegúrese de añadir la variable **Detalles de prueba de perfil** grupo de campos.
+1. Introduzca un nombre para el esquema y haga clic en **Finalizar**.
+   ![](assets/test-profiles-1-bis.png)
+1. En el **Grupos de campos** , a la izquierda, haga clic en **Add$$ y seleccione los grupos de campos adecuados. Asegúrese de añadir la variable **Detalles de prueba de perfil** grupo de campos.
    ![](assets/test-profiles-1-ter.png)
 Una vez finalizado, haga clic en **[!UICONTROL Adición de grupos de campos]**: la lista de grupos de campos se muestra en la pantalla de información general del esquema.
    ![](assets/test-profiles-2.png)
 
    >[!NOTE]
    >
-   >* Haga clic en el nombre del esquema para cambiarlo y actualizar sus propiedades.
-   >
-   >* Haga clic en **[!UICONTROL Añadir]** en la sección Grupos de campos para seleccionar otros grupos de campos para añadirlos al esquema
+   >Haga clic en el nombre del esquema para actualizar sus propiedades.
 
 1. En la lista de campos, haga clic en el campo que desee definir como identidad principal.
    ![](assets/test-profiles-3.png)

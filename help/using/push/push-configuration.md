@@ -6,9 +6,9 @@ description: Aprenda a configurar su entorno para enviar notificaciones push con
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1609'
 ht-degree: 5%
 
 ---
@@ -267,20 +267,20 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 Para que este recorrido funcione, debe crear un esquema XDM. Para obtener más información, consulte [Documentación de XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}.
 
-1. En el menú de la izquierda, busque **[!UICONTROL Esquemas]**.
-
-1. Clic **[!UICONTROL Crear esquema]** luego seleccione **[!UICONTROL ExperienceEvent de XDM]**.
-
+1. En la sección del menú DATA MANAGEMENT, haga clic en **[!UICONTROL Esquemas]**.
+   ![](assets/test_push_1.png)
+1. Clic **[!UICONTROL Crear esquema]**, en la parte superior derecha, seleccione **[!UICONTROL Evento de experiencia]** y haga clic en **Siguiente**.
    ![](assets/test_push_2.png)
-
-1. Seleccionar **[!UICONTROL Crear un nuevo grupo de campos]**.
+1. Introduzca un nombre y una descripción para el esquema y haga clic en **Finalizar**.
+   ![](assets/test_push_3.png)
+1. En el **Grupos de campos** , a la izquierda, haga clic en **Añadir** y seleccione **[!UICONTROL Crear un nuevo grupo de campos]**.
 
 1. Introduzca una **[!UICONTROL Nombre para mostrar]** y una **[!UICONTROL Descripción]**. Clic **[!UICONTROL Adición de grupos de campos]** cuando termine. Para obtener más información sobre cómo crear grupos de campos, consulte [Documentación del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es){target="_blank"}.
 
 
    ![](assets/test_push_4.png)
 
-1. En el lado izquierdo, seleccione el esquema. En el panel derecho, introduzca el nombre del esquema y la descripción. Habilitar este esquema para **[!UICONTROL Perfil]**.
+1. En el lado izquierdo, seleccione el esquema. En el panel derecho, habilite este esquema para **[!UICONTROL Perfil]**.
 
    ![](assets/test_push_4b.png)
 

@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '266'
 ht-degree: 17%
 
 ---
@@ -20,15 +20,18 @@ Para recopilar eventos de experiencia, primero debe crear un conjunto de datos a
 
 Comience creando el esquema que se utilizará en el conjunto de datos:
 
-1. Desde el **[!UICONTROL Administración de datos]** menú, seleccione **[!UICONTROL Esquema]** y vaya a la **[!UICONTROL Examinar]** pestaña.
+1. Desde el **[!UICONTROL Administración de datos]** menú, seleccione **[!UICONTROL Esquema]**.
 
-1. Clic **[!UICONTROL Crear esquema]** y elija **[!UICONTROL ExperienceEvent de XDM]**.
+1. Clic **[!UICONTROL Crear esquema]**, en la parte superior derecha, seleccione **[!UICONTROL Evento de experiencia]** y haga clic en **Siguiente**.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
    >Obtenga más información sobre los esquemas XDM y los grupos de campos en la [Documentación de información general del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
+
+1. Introduzca un nombre y una descripción para el esquema y haga clic en **Finalizar**.
+   ![](../assets/ai-ranking-xdm-event-2.png)
 
 1. Desde el **[!UICONTROL Grupos de campos]** en la parte izquierda, seleccione **[!UICONTROL Añadir]**.
 
@@ -44,7 +47,7 @@ Comience creando el esquema que se utilizará en el conjunto de datos:
    >
    >El esquema que se utilizará en el conjunto de datos debe tener el **[!UICONTROL Evento de experiencia: interacciones de propuesta]** grupo de campos asociado a él. De lo contrario, no podrá utilizarlo en su modelo de IA.
 
-1. Escriba un nombre y guarde el esquema.
+1. Guarde el esquema.
 
 >[!NOTE]
 >
