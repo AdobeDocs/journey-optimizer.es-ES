@@ -1,24 +1,28 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Trabajo con atributos calculados
+title: Trabajo con atributos de varios valores
 description: Aprenda a trabajar con atributos calculados.
 feature: Profiles
 role: User
 level: Beginner
-source-git-commit: 608394da88d42095a1adc517a067c725eac52707
+exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
-
-# Trabajo con atributos calculados {#computed-attributes}
+# Trabajo con atributos de varios valores {#computed-attributes}
 
 Los atributos calculados permiten resumir eventos de comportamiento individuales en atributos de perfil calculados disponibles en Adobe Experience Platform. Estos atributos calculados se basan en conjuntos de datos de evento de experiencia con perfil habilitado introducidos en Adobe Experience Platform y sirven como puntos de datos agregados almacenados en perfiles de clientes.
 
 Cada atributo calculado es un atributo de perfil que puede aprovechar para la segmentación, personalización y activación en recorridos y campañas. Esta simplificación mejora la capacidad de ofrecer experiencias personalizadas oportunas y significativas a sus clientes.
+
+
+![](../rn/assets/do-not-localize/computed-attributes.gif)
+
 
 >[!NOTE]
 >
@@ -34,7 +38,7 @@ Desde esta pantalla, puede construir atributos calculados mediante la creación 
 
 Una vez que la regla esté lista, publique el atributo calculado para que esté disponible en otros servicios de flujo descendente, incluido Journey Optimizer.
 
-Encontrará información detallada sobre cómo crear y administrar atributos calculados en la [Documentación de atributos calculados](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html)
+Encontrará información detallada sobre cómo crear y administrar atributos calculados en la [Documentación de atributos calculados](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html?lang=es)
 
 ## Añadir atributos calculados a la fuente de datos de Adobe Experience Platform {#source}
 

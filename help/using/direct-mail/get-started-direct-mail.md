@@ -6,7 +6,8 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: correo directo, mensaje, campaña
-source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
+exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 17%
@@ -24,10 +25,11 @@ El correo postal es un canal sin conexión que le permite personalizar y generar
 
 Al crear una campaña de correo postal, Journey Optimizer genera automáticamente un archivo que contiene todos los perfiles de destino y los datos seleccionados, como las direcciones postales y los atributos de perfil. Este archivo se envía al servidor de su elección para que el proveedor de correo postal elegido pueda acceder a él, quien se encargará del proceso de envío real.
 
+![](../rn/assets/do-not-localize/gif-dm.gif)
+
+
 Los pasos principales para enviar mensajes de correo postal son los siguientes:
 
 ![](assets/dm-creation-process.png)
 
 Los mensajes de correo postal solo se pueden crear en el contexto de campañas programadas. No están disponibles para su uso en campañas activadas por API ni en recorridos.
-
-

@@ -4,10 +4,10 @@ product: journey optimizer
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 16367587716c73c63c2f2207c29090b41500ecf8
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
-source-wordcount: '3765'
-ht-degree: 88%
+source-wordcount: '3815'
+ht-degree: 97%
 
 ---
 
@@ -15,15 +15,22 @@ ht-degree: 88%
 
 Esta página enumera todas las actualizaciones de documentación de [!DNL Journey Optimizer].
 
+
+
+## Octubre de 2023 {#oct-2023}
+
+* Se han añadido GIF para ilustrar algunas funciones clave, como: [Plantillas de contenido](../content-management/content-templates.md), [Fragmentos](../content-management/fragments.md), [Atributos calculados](../audience/computed-attributes.md), [Correo directo](../direct-mail/get-started-direct-mail.md), [Etiquetas](../start/search-filter-categorize.md#tags), [Modelos de optimización de administración de decisiones](../offers/ranking/personalized-optimization-model.md), [Campañas activadas por API](../campaigns/api-triggered-campaigns.md), y [Experimento de contenido](../campaigns/content-experiment.md).
+* El proceso de creación del esquema se ha actualizado para reflejar las últimas actualizaciones en la interfaz de usuario, incluidas las modificaciones de Adobe Experience Platform. [Más información](../audience/creating-test-profiles.md)
+
 ## Septiembre de 2023 {#september-2023}
 
-* Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de septiembre de 2023 se ha detallado en la documentación. [Más información](release-notes.md)
+* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de septiembre de 2023 se detallan en la documentación. [Más información](release-notes.md)
 * Se ha añadido una nueva página con prácticas recomendadas de escalado y directrices de vinculación en tiempo real. [Más información](../start/best-practices.md)
 
   <!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
 
 * Se ha añadido una sección de preguntas más frecuentes para la optimización del tiempo de envío. [Más información](../building-journeys/journeys-message.md#faq-send-time)
-* Se ha añadido una nota para la actividad de calificación de audiencias. Puede tardar hasta 10 minutos en estar activo y escuchar los perfiles que entran o salen de la audiencia. [Más información](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
+* Se ha añadido una nota para la actividad de calificación de público. Puede tardar hasta 10 minutos en activarse para escuchar los perfiles que entran o salen del público. [Más información](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * Se ha añadido a la documentación de gestión de decisiones una lista de limitaciones que se deben tener en cuenta al crear reglas de decisión. [Más información](../offers/offer-library/creating-decision-rules.md)
 * Se han actualizado los vínculos a la documentación de control de acceso. [Más información](../administration/permissions.md)
 * Los requisitos previos del canal en la aplicación se han actualizado con los detalles de recopilación de datos de Adobe Experience Platform. [Más información](../in-app/inapp-configuration.md)
@@ -48,15 +55,15 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * La página de documentación de la actividad de espera se ha mejorado con información adicional y prácticas recomendadas relacionadas con el tiempo de espera global y el uso de reentrada. [Más información](../building-journeys/wait-activity.md)
 * Se ha mejorado la página sobre administración de entradas. [Más información](../building-journeys/entry-management.md)
 * Se ha añadido información adicional acerca de la velocidad de limitación en la documentación de la actividad Leer público. [Más información](../building-journeys/read-audience.md)
-* Se ha añadido información adicional acerca de los reintentos. [Más información](../start/guardrails.md#general-actions-g)
+* Se ha añadido información adicional sobre los reintentos. [Más información](../start/guardrails.md#general-actions-g)
 * La sección **Implementación del consentimiento de personalización** se ha actualizado para describir cómo aplicar manualmente el consentimiento de personalización en las campañas: puede utilizar el generador de reglas de segmentos para crear un público que contenga perfiles de exclusión o añadir una actividad de división a un flujo de trabajo de composición. [Más información](../privacy/opt-out.md#opt-out-expression-editor)
 
 ## Junio de 2023 {#june-2023}
 
 * Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de junio de 2023 se han incluido en la documentación. [Más información](release-notes.md)
-* Se ha añadido información acerca de la proporción de tasa de descarte en la pantalla de información general de Recorridos. [Más información](../building-journeys/journey-gs.md#journey-access)
-* Se ha añadido una nota con los pasos a seguir si modifica el esquema con nuevos valores de enumeración después de crear un evento [Más información](../event/about-creating.md)
-* Se ha agregado una recomendación para utilizar journeyVersionID en lugar de journeyVersionName al consultar recorridos. [Más información](../reports/sharing-common-fields.md#journeyversionid-field)
+* Se ha añadido información sobre el cociente de tasas de descarte en la pantalla de información general de Recorridos. [Más información](../building-journeys/journey-gs.md#journey-access)
+* Se ha añadido una nota con los pasos a seguir si modifica el esquema con nuevos valores de enumeración después de crear el evento [Más información](../event/about-creating.md)
+* Se ha añadido una recomendación para utilizar journeyVersionID en lugar de journeyVersionName al consultar recorridos. [Más información](../reports/sharing-common-fields.md#journeyversionid-field)
 * Se han añadido ejemplos adicionales sobre el orden de los criterios de evaluación a la sección de **Creación de decisiones** para ilustrar casos en los que se utilizan varios criterios y ámbitos de decisión. [Más información](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
 * La documentación de gestión de decisiones se ha aclarado con una nota que especifica que el uso de control de acceso de nivel de objeto no está disponible para colecciones dinámicas. [Más información](../offers/offer-library/creating-collections.md)
 
@@ -73,9 +80,9 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 ## Abril de 2023 {#apr-2023}
 
 * Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de abril de 2023 se han incluido en la documentación. [Más información](release-notes.md)
-* Se ha agregado una nota para especificar que no se pueden eliminar las acciones integradas. [Más información](../start/guardrails.md#custom-actions-g)
+* Se ha añadido una nota para especificar que no se pueden eliminar las acciones integradas. [Más información](../start/guardrails.md#custom-actions-g)
 * Se ha añadido información sobre serviceEvents, así como un ejemplo de consulta para comprobar los detalles de un serviceEvent. [Más información](../reports/query-examples.md#common-queries)
-* Se ha agregado una nota para especificar que no puede realizar consultas en series temporales. [Más información](../building-journeys/condition-activity.md)
+* Se ha añadido una nota para especificar que no puede realizar consultas en series temporales. [Más información](../building-journeys/condition-activity.md)
 * Adobe Experience Manager Assets Essentials y Adobe Stock se han añadido a la página de integración de varias soluciones. [Más información](../start/ajo-integrations.md)
 * La advertencia sobre los subdominios de correo electrónico de varios niveles que no están permitidos se ha eliminado, ya que ahora son compatibles. [Más información](../configuration/delegate-subdomain.md)
 * Se ha añadido una nota para especificar que, si se realizan cambios en una decisión de oferta que se está utilizando en el mensaje de un recorrido, debe cancelar la publicación del recorrido y volver a publicarlo. [Más información](../building-journeys/publishing-the-journey.md)
@@ -91,15 +98,15 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha creado una nueva sección en la guía de Gestión de decisiones sobre cómo recopilar comentarios de Offer Decisioning en Adobe Experience Platform, incluidas las ofertas que se muestran y cómo interactúan los usuarios con ellas. [Más información](../offers/data-collection/data-collection.md)
 * Se ha añadido una nueva subsección a la sección **Crear decisión** para explicar la diferencia entre los criterios de evaluación en un orden secuencial o al mismo tiempo. [Más información](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
 * Se ha añadido un mecanismo de protección para recorridos de lectura de audiencia con lectura incremental. No puede crear una versión nueva, debe duplicar el recorrido. [Más información](../start/guardrails.md#journey-versions-g)
-* El caso de uso sobre cómo limitar el rendimiento colocado se ha actualizado con información sobre las capacidades de regulación. [Más información](../building-journeys/limit-throughput.md)
+* El caso de uso sobre cómo limitar el rendimiento colocado se ha actualizado con información sobre la funcionalidad de regulación. [Más información](../building-journeys/limit-throughput.md)
 * Se ha añadido una nota para especificar que las matrices escalares no son compatibles con la definición de carga útil de respuesta. [Más información](../datasource/external-data-sources.md)
 * Se ha actualizado la sección sobre las condiciones del límite del perfil. [Más información](../building-journeys/condition-activity.md#profile_cap)
 
 ## Febrero de 2023 {#feb-2023}
 
 * Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de febrero de 2023 se han incluido en la documentación. [Más información](release-notes.md)
-* Se ha añadido información acerca de la barra de herramientas de lienzo. [Más información](../building-journeys/using-the-journey-designer.md#gs-journey-design)
-* Se ha añadido información para indicar que las direcciones de Adobe internas no están permitidas en las direcciones URL y API. [Más información](../start/guardrails.md)
+* Se ha añadido información sobre la barra de herramientas del lienzo. [Más información](../building-journeys/using-the-journey-designer.md#gs-journey-design)
+* Se ha añadido información para indicar que las direcciones de Adobe internas no están permitidas en las direcciones URL y las API. [Más información](../start/guardrails.md)
 * Se ha añadido una nota en la documentación de campañas activadas por API para especificar que los atributos contextuales pasados a la solicitud no pueden superar los 50 kb. [Más información](../campaigns/api-triggered-campaigns.md#contextual)
 * Se ha añadido información sobre cómo se almacena la información de exclusión en el **Conjunto de datos del servicio de consentimiento** después de cancelar la suscripción de los destinatarios a través de una página de aterrizaje. [Más información](../landing-pages/lp-use-cases.md#configure-opt-out)
 
@@ -109,9 +116,9 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha añadido información sobre los extremos de autenticación personalizados en la documentación de límite. [Más información](../configuration/external-systems.md)
 * Se ha añadido un nuevo ejemplo de autenticación personalizada en la sección de fuentes de datos externas. [Más información](../datasource/external-data-sources.md#custom-authentication-mode)
 * Se ha añadido una nota sobre el servicio principal de recopilación de datos (DCCS) para recorridos activados por eventos. [Más información](../start/guardrails.md#events-g)
-* Se ha añadido una nota sobre la recuperación del área de nombres de identidad en la [Leer audiencia](../building-journeys/read-audience.md), [Calificación de audiencia](../building-journeys/audience-qualification-events.md) y [Creación de eventos](../event/about-creating.md) secciones.
+* Se ha añadido una nota sobre la recuperación del área de nombres de identidad en las secciones [Público de lectura](../building-journeys/read-audience.md), [Calificación de público](../building-journeys/audience-qualification-events.md) y [Creación de eventos](../event/about-creating.md).
 * Las funciones de accesibilidad en [!DNL Journey Optimizer] ahora se agrupan en una página dedicada a ello. [Más información](../start/accessibility.md)
-* Los ejemplos se han actualizado en la sección Operadores de la documentación avanzada del editor de expresiones. [Más información](../building-journeys/expression/operators.md)
+* Los ejemplos se han actualizado en la sección Operadores de la documentación del editor de expresiones avanzado. [Más información](../building-journeys/expression/operators.md)
 * Se ha añadido una nota sobre la limitación de la búsqueda con una matriz de objetos. [Más información](../event/experience-event-schema.md#relationships_limitations)
 * Se ha añadido una nueva página sobre la administración de datos en [!DNL Journey Optimizer]. [Más información](../data/gs-data.md)
 * Se ha añadido una tabla que enumera todos los códigos que se pueden devolver en la respuesta al enviar ofertas mediante la API de decisiones. [Más información](../offers/api-reference/offer-delivery-api/decisioning-api.md)
