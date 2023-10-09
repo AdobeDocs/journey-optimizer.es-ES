@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 5e58db84275d78c5248f1d617328799d71bb10d1
 workflow-type: tm+mt
 source-wordcount: '2258'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -219,7 +219,7 @@ Una vez activada esta opción, aunque un cliente haya marcado su correo electró
 >title="Añadir una lista semilla"
 >abstract="Seleccione la lista semilla que desee para añadir automáticamente direcciones internas específicas a sus públicos. Estas direcciones semilla se incluirán en el momento de la ejecución de la entrega y recibirán una copia exacta del mensaje con fines de garantía."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list?lang=es" text="¿Qué son las listas semilla?"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#create-seed-list" text="Crear listas semilla"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=es#create-seed-list" text="Crear listas semilla"
 
 
 Una lista semilla en [!DNL Journey Optimizer] permite incluir automáticamente direcciones semilla de correo electrónico específicas en las entregas. [Más información](../configuration/seed-lists.md)
