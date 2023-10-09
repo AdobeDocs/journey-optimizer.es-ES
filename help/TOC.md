@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
 workflow-type: tm+mt
 source-wordcount: '1656'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -233,16 +233,16 @@ ht-degree: 92%
    + [Requisitos previos de canal web](using/web/web-prerequisites.md)
    + [Creación de experiencias web](using/web/create-web.md)
    + Creación de páginas web {#author-web-pages}
-      + [Editar contenido de página web](using/web/edit-web-content.md)
+      + [Edición de contenido de página web](using/web/edit-web-content.md)
       + [Administración de modificaciones](using/web/manage-web-modifications.md)
-      + [Monitorización de campañas web](using/web/monitor-web-campaigns.md)
+      + [Monitorización de sus campañas web](using/web/monitor-web-campaigns.md)
       + [Creación de aplicaciones de una sola página](using/web/web-spa.md)
    + [Configuración de subdominios web](using/web/web-delegated-subdomains.md)
 + Experiencia basada en código {#code-based-experience}
    + [Introducción al canal basado en código](using/code-based/get-started-code-based.md)
    + [Requisitos previos basados en código](using/code-based/code-based-prerequisites.md)
    + [Ejemplos de implementación basada en código](using/code-based/code-based-implementation-samples.md)
-   + [Crear experiencias basadas en código](using/code-based/create-code-based.md)
+   + [Creación de experiencias basadas en código](using/code-based/create-code-based.md)
 + Páginas de aterrizaje {#landing-pages}
    + [Introducción a las páginas de aterrizaje](using/landing-pages/get-started-lp.md)
    + [Creación de una página de aterrizaje](using/landing-pages/create-lp.md)
@@ -306,7 +306,7 @@ ht-degree: 92%
    + Perfiles{#profiles}
       + [Introducción a los perfiles](using/audience/get-started-profiles.md)
       + [Creación de perfiles de prueba](using/audience/creating-test-profiles.md)
-      + [Trabajo con atributos calculados](using/audience/computed-attributes.md)
+      + [Trabajo con atributos de varios valores](using/audience/computed-attributes.md)
    + [Identidades](using/audience/get-started-identity.md)
    + [Uso de licencias](using/audience/license-usage.md)
 + Seguimiento y monitorización {#reporting}
@@ -485,15 +485,15 @@ ht-degree: 92%
          + [API de decisiones por lotes](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Experience Decisioning {#experience-decisioning}
    + [Introducción a Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
-   + Administrar los elementos de decisión {#decision-items}
-      + [Configurar el catálogo de artículos](using/experience-decisioning/catalogs.md)
-      + [Crear elementos de decisión](using/experience-decisioning/items.md)
-      + [Administrar colecciones de elementos](using/experience-decisioning/collections.md)
-   + Configurar la selección de elementos {#selection}
+   + Administración de los elementos de decisión {#decision-items}
+      + [Configuración del catálogo de elementos](using/experience-decisioning/catalogs.md)
+      + [Creación de elementos de decisión](using/experience-decisioning/items.md)
+      + [Administración de colecciones de elementos](using/experience-decisioning/collections.md)
+   + Configuración de la selección de elementos {#selection}
       + [Crear reglas de decisión](using/experience-decisioning/rules.md)
-      + [Crear métodos de clasificación](using/experience-decisioning/ranking.md)
-   + [Crear estrategias de selección](using/experience-decisioning/selection-strategies.md)
-   + [Crear directivas de decisión](using/experience-decisioning/create-decision.md)
+      + [Creación de métodos de clasificación](using/experience-decisioning/ranking.md)
+   + [Creación de estrategias de selección](using/experience-decisioning/selection-strategies.md)
+   + [Creación de políticas de decisión](using/experience-decisioning/create-decision.md)
 + Administración de datos {#data-management}
    + [Introducción a la administración de datos](using/data/gs-data.md)
    + [Usar esquemas](using/data/get-started-schemas.md)
@@ -516,7 +516,7 @@ ht-degree: 92%
       + [Introducción a los planes de calentamiento de IP](using/configuration/ip-warmup-gs.md)
       + [Creación de campañas de calentamiento de IP](using/configuration/ip-warmup-campaign.md)
       + [Creación de un plan de calentamiento de IP](using/configuration/ip-warmup-plan.md)
-      + [Ejecutar el plan de calentamiento de IP](using/configuration/ip-warmup-execution.md)
+      + [Ejecución del plan de calentamiento de IP](using/configuration/ip-warmup-execution.md)
    + Supervisar las direcciones de correo electrónico {#monitor-reputation}
       + [Lista de supresión](using/configuration/manage-suppression-list.md)
       + [Reintentos](using/configuration/retries.md)

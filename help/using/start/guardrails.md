@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: ad590f7fedad10c49f5c45b34cc687df063e35a8
 workflow-type: tm+mt
 source-wordcount: '1402'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -46,7 +46,7 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 
 * El número de actividades en un recorrido ahora está limitado a 50. El número de actividades se muestra en la sección superior izquierda del lienzo de recorrido. Esto ayudará en la legibilidad, el control de calidad y la resolución de problemas.
 * A medida que publica recorridos, los ampliamos y ajustamos automáticamente para garantizar el máximo rendimiento y estabilidad. Cuando se aproxime al hito de 100 recorridos en directo al mismo tiempo, verá una notificación en la interfaz de usuario sobre este logro. Si recibe esta notificación y necesita extender sus recorridos más allá de los 100 recorridos en directo a la vez, cree un ticket para el servicio de atención al cliente y le ayudaremos a alcanzar sus objetivos.
-* Cuando se utiliza una calificación de audiencia en un recorrido, esa actividad de calificación de audiencia puede tardar hasta 10 minutos en estar activa y en escuchar los perfiles que entran o salen de la audiencia.
+* Cuando se utiliza una calificación de público en un recorrido, esa actividad de calificación de público puede tardar hasta 10 minutos en estar activa y en escuchar los perfiles que entran o salen del público.
 
 ### Acciones generales {#general-actions-g}
 
