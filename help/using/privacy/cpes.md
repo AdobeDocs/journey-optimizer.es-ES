@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: be372f8f80d304067748d539fb8e210df6280721
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '583'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Para crear una audiencia dividida en composición de audiencia, siga estos pasos
 
 1. En Ruta 1: elija una etiqueta para definir la audiencia no personalizada.
 
-1. Elija el valor apropiado de esta lista: https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values
+1. Elija el valor apropiado en esta lista: https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=es#choice-values
 
    En este caso, utilizaremos una &quot;n&quot; para indicar NO como opción de exclusión para la personalización
 
