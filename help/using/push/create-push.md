@@ -101,7 +101,7 @@ Para crear una notificación push, siga los pasos a continuación:
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="Modo de envío rápido"
->abstract="El modo de envío rápido permite realizar envíos de mensajes a alta velocidad en el canal push a un tamaño de audiencia inferior a 30 millones."
+>abstract="El modo de envío rápido permite realizar envíos de mensajes a alta velocidad en el canal push a un tamaño de público inferior a 30 millones."
 
 El modo de envío rápido es un [!DNL Journey Optimizer] complemento que permite enviar mensajes push muy rápidamente en grandes volúmenes a través de campañas.
 
