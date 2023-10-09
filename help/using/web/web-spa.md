@@ -9,7 +9,7 @@ exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 6%
+ht-degree: 28%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications_views"
 >title="Aplicar cambios a las vistas seleccionadas"
->abstract="Los cambios se aplicarán solamente a las vistas seleccionadas. Las vistas se pueden descubrir utilizando la variable **Examinar** y navegue hasta ellos. ¿No encuentra la vista que busca?"
+>abstract="Los cambios se aplicarán solamente a las vistas seleccionadas. Las vistas se pueden descubrir utilizando el modo **Examinar** y navegando hasta ellas. ¿No encuentra la vista que busca?"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es" text="Más información"
 
 **Aplicaciones de una sola página** SPA (ahora) se puede crear en el editor visual del diseñador web. Esto le permite seleccionar qué **vistas** desea aplicar las modificaciones de la página web a.
 
 [Aprenda a crear aplicaciones de una sola página en este vídeo](#video)
 
-Una vista puede definirse como un sitio completo o como un grupo de elementos visuales en un sitio, como la página de inicio, la totalidad del sitio de productos o el marco de preferencias de envío en todas las páginas de cierre de compra.
+Una vista puede definirse como un sitio completo o un grupo de elementos visuales en un sitio, como la página de inicio, la totalidad de productos del sitio o el marco de preferencias de envío en todas las páginas de cierre de compra.
 
 Se necesita una configuración de desarrollador única para definir las vistas en la implementación del SDK web de Adobe Experience Platform. Esto le permite crear y ejecutar campañas web de Adobe Journey Optimizer SPA en el tiempo de ejecución de la.
 
@@ -87,7 +87,7 @@ En este vídeo se explica cómo:
 
 * SPA Descubre vistas de la vista usando **[!UICONTROL Examinar]** modo
 * Crear en la vista actual
-* Aplicar modificaciones del sitio web a varias vistas o a todas las vistas detectadas
+* Aplicar modificaciones del sitio web a varias vistas o a todas las vistas descubiertas
 * Realizar acciones masivas en las modificaciones
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

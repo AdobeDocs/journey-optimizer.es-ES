@@ -6,11 +6,11 @@ description: Obtenga información sobre cómo configurar subdominios web con Jou
 role: Admin
 level: Intermediate
 keywords: web, subdominios, configuración
-exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: e26f45c1c08e1e5c88daf72cafdcd979753cc692
+exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 13%
+ht-degree: 21%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="Delegación de un subdominio web"
->abstract="Si agrega contenido procedente de Adobe Experience Manager Assets Essentials a sus experiencias web, debe configurar el subdominio que se utilizará para publicar este contenido. Seleccione entre los subdominios ya delegados en el Adobe o configure un nuevo subdominio."
+>abstract="Si agrega contenido procedente de Adobe Experience Manager Assets Essentials a sus experiencias web, debe configurar el subdominio que se utilizará para publicar este contenido. Seleccione entre los subdominios ya delegados a Adobe o configure un nuevo subdominio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
@@ -100,7 +100,7 @@ Para utilizar un subdominio que ya se haya delegado al Adobe, siga los pasos a c
 >[!CONTEXTUALHELP]
 >id="ajo_admin_web_subdomain_dns"
 >title="Generar el registro DNS coincidente"
->abstract="Para configurar un nuevo subdominio web, debe copiar la información del servidor de nombres de Adobe que se muestra en la interfaz de Journey Optimizer y pegarla en la solución de alojamiento de dominios para generar el registro DNS correspondiente. Una vez realizadas las comprobaciones correctamente, el subdominio está listo para utilizarse para publicar contenido procedente de la biblioteca de Experience Manager Assets Essentials."
+>abstract="Para configurar un nuevo subdominio web, debe copiar la información del servidor de nombres de Adobe que se muestra en la interfaz de Journey Optimizer y pegarla en la solución de alojamiento de dominios para generar el registro DNS coincidente. Una vez realizadas las comprobaciones correctamente, el subdominio está listo para utilizarse para publicar contenido procedente de la biblioteca de Experience Manager Assets Essentials."
 
 Para configurar un nuevo subdominio, siga los pasos a continuación.
 
