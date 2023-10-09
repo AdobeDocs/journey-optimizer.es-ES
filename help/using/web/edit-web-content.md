@@ -9,7 +9,7 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -29,7 +29,7 @@ Acceda a las siguientes secciones para obtener más información sobre cada tema
 
 * [Administración de modificaciones](manage-web-modifications.md)
 
-* [Monitorización de campañas web](monitor-web-campaigns.md)
+* [Monitorización de sus campañas web](monitor-web-campaigns.md)
 
 ## Trabajar con el diseñador web {#work-with-web-designer}
 

@@ -10,8 +10,8 @@ hidefromtoc: true
 badge: label="Beta"
 source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '399'
+ht-degree: 18%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 0%
 Lo que encontrará en esta guía de documentación:
 
 * [Introducción a Experience Decisioning](gs-experience-decisioning.md)
-* Administrar los elementos de decisión
-   * [Configurar el catálogo de artículos](catalogs.md)
-   * [Crear elementos de decisión](items.md)
-   * [Administrar colecciones de elementos](collections.md)
-* Configurar la selección de elementos
+* Administración de los elementos de decisión
+   * [Configuración del catálogo de elementos](catalogs.md)
+   * [Creación de elementos de decisión](items.md)
+   * [Administración de colecciones de elementos](collections.md)
+* Configuración de la selección de elementos
    * [Crear reglas de decisión](rules.md)
-   * [Crear métodos de clasificación](ranking.md)
-* [Crear estrategias de selección](selection-strategies.md)
-* [Crear directivas de decisión](create-decision.md)
+   * [Creación de métodos de clasificación](ranking.md)
+* [Creación de estrategias de selección](selection-strategies.md)
+* [Creación de políticas de decisión](create-decision.md)
 * **[Obtenga información mediante un caso de uso](experience-decisioning-uc.md)**
 
 >[!ENDSHADEBOX]
@@ -54,7 +54,7 @@ Primero debe crear elementos, agruparlos en colecciones, configurar reglas y mé
 
 1. Generar **estrategias de selección** que aprovechan las colecciones, las reglas de decisión y los métodos de clasificación para identificar los elementos de decisión adecuados para mostrarlos a los perfiles. [Más información](selection-strategies.md)
 
-## Crear directivas de decisión
+## Creación de políticas de decisión
 
 Para presentar la mejor oferta dinámica y experiencia a los visitantes de su sitio web o aplicación móvil, agregue una política de decisión a una campaña basada en código.
 

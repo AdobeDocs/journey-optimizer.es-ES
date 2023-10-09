@@ -8,11 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-exl-id: 398b5ac6-0bdc-402f-8b13-7edd9b524808
-source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
+exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ Lo que encontrará en esta guía de documentación:
 * [Introducción al canal basado en código](get-started-code-based.md)
 * [Requisitos previos basados en código](code-based-prerequisites.md)
 * **[Ejemplos de implementación basada en código](code-based-implementation-samples.md)**
-* [Crear experiencias basadas en código](create-code-based.md)
+* [Creación de experiencias basadas en código](create-code-based.md)
 
 >[!ENDSHADEBOX]
 

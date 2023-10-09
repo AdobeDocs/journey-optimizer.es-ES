@@ -1,5 +1,5 @@
 ---
-title: Crear experiencias basadas en código
+title: Creación de experiencias basadas en código
 description: Aprenda a crear experiencias basadas en código en Journey Optimizer
 feature: Offers
 topic: Content Management
@@ -12,11 +12,11 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
-# Crear experiencias basadas en código {#create-code-based}
+# Creación de experiencias basadas en código {#create-code-based}
 
 >[!BEGINSHADEBOX]
 
@@ -25,13 +25,13 @@ Lo que encontrará en esta guía de documentación:
 * [Introducción al canal basado en código](get-started-code-based.md)
 * [Requisitos previos basados en código](code-based-prerequisites.md)
 * [Ejemplos de implementación basada en código](code-based-implementation-samples.md)
-* **[Crear experiencias basadas en código](create-code-based.md)**
+* **[Creación de experiencias basadas en código](create-code-based.md)**
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->El canal de experiencia basado en código está disponible actualmente como una versión beta solo para usuarios seleccionados. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.
+>Actualmente, el canal de experiencias basado en código está disponible en versión beta y solo para usuarios seleccionados. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 ## Creación de una campaña basada en código {#create-code-based-campaign}
 

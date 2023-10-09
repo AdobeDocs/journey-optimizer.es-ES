@@ -14,7 +14,7 @@ exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 17%
+ht-degree: 21%
 
 ---
 
@@ -31,7 +31,7 @@ Lo que encontrará en esta guía de documentación:
 
 * [Introducción al calentamiento de IP](ip-warmup-gs.md)
 * **[Creación de campañas de calentamiento de IP](ip-warmup-campaign.md)**
-* [Crear un plan de calentamiento de IP](ip-warmup-plan.md)
+* [Creación de un plan de calentamiento de IP](ip-warmup-plan.md)
 * [Ejecución del plan de calentamiento de IP](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]

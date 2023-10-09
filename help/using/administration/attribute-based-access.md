@@ -12,7 +12,7 @@ exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ El control de acceso basado en atributos (ABAC) permite definir autorizaciones p
 
 En Adobe Journey Optimizer, ABAC le permite proteger datos y conceder acceso específico a elementos de campo específicos, incluidos esquemas del Modelo de datos de experiencia (XDM), atributos de perfil y audiencias.
 
-Para obtener una lista más detallada de la terminología utilizada con ABAC, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html).
+Para obtener una lista más detallada de la terminología utilizada con ABAC, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=es).
 
 En este ejemplo, queremos añadir una etiqueta a **Nacionalidad** Campo de esquema para restringir el uso de usuarios no autorizados. Para que esto funcione, debe realizar los siguientes pasos:
 

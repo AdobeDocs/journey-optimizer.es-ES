@@ -8,10 +8,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '179'
+ht-degree: 25%
 
 ---
 
@@ -22,15 +23,15 @@ ht-degree: 0%
 Lo que encontrará en esta guía de documentación:
 
 * [Introducción a Experience Decisioning](gs-experience-decisioning.md)
-* Administrar los elementos de decisión
-   * [Configurar el catálogo de artículos](catalogs.md)
-   * [Crear elementos de decisión](items.md)
-   * [Administrar colecciones de elementos](collections.md)
-* Configurar la selección de elementos
+* Administración de los elementos de decisión
+   * [Configuración del catálogo de elementos](catalogs.md)
+   * [Creación de elementos de decisión](items.md)
+   * [Administración de colecciones de elementos](collections.md)
+* Configuración de la selección de elementos
    * [Crear reglas de decisión](rules.md)
-   * **[Crear métodos de clasificación](ranking.md)**
-* [Crear estrategias de selección](selection-strategies.md)
-* [Crear directivas de decisión](create-decision.md)
+   * **[Creación de métodos de clasificación](ranking.md)**
+* [Creación de estrategias de selección](selection-strategies.md)
+* [Creación de políticas de decisión](create-decision.md)
 
 >[!ENDSHADEBOX]
 

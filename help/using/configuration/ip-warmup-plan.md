@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Crear un plan de calentamiento de IP
+title: Creación de un plan de calentamiento de IP
 description: Obtenga información sobre cómo crear un plan de calentamiento de IP en Journey Optimizer
 feature: Application Settings
 topic: Administration
@@ -14,11 +14,11 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
-# Crear un plan de calentamiento de IP {#ip-warmup}
+# Creación de un plan de calentamiento de IP {#ip-warmup}
 
 >[!BEGINSHADEBOX]
 
@@ -26,7 +26,7 @@ Lo que encontrará en esta guía de documentación:
 
 * [Introducción al calentamiento de IP](ip-warmup-gs.md)
 * [Creación de campañas de calentamiento de IP](ip-warmup-campaign.md)
-* **[Crear un plan de calentamiento de IP](ip-warmup-plan.md)**
+* **[Creación de un plan de calentamiento de IP](ip-warmup-plan.md)**
 * [Ejecución del plan de calentamiento de IP](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
@@ -109,7 +109,7 @@ Por ejemplo, si agrega el dominio personalizado Luma, desea que se incluyan los 
    >
    >El plan de calentamiento de IP seleccionado se eliminará de forma permanente.
 
-## Crear un plan de calentamiento de IP {#create-ip-warmup-plan}
+## Creación de un plan de calentamiento de IP {#create-ip-warmup-plan}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"

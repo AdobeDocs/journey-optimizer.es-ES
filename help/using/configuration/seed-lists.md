@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: lista de semillas, lista de semillas, semillas, configuración
-source-git-commit: f6708555d20fd04beb85574afd46e75be654d4e6
+exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 22%
@@ -154,4 +155,3 @@ Ahora, cada vez que se envía un mensaje de correo electrónico a sus clientes a
 >[!NOTE]
 >
 >En el caso de los recorridos, la entrega por correo electrónico se envía a las direcciones semilla solo en la primera ejecución del recorrido.
-

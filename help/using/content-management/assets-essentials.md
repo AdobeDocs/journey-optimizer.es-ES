@@ -12,7 +12,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 6295b7d5379b3a81d7917a8f1a6dba2a34fc3cde
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -45,7 +45,7 @@ Para obtener más información sobre cómo cargar recursos, consulte [Documentac
 
    ![](assets/media_library_1.png)
 
-1. Elija el repositorio para sus recursos en Journey Optimizer. Puede optar por un repositorio de Assets Essentials o un repositorio as a Cloud Service de Assets, siempre que sea el propietario de esta solución.
+1. Elija el repositorio para sus recursos en Journey Optimizer. Puede optar por un repositorio de Assets Essentials o de Assets as a Cloud Service, siempre que sea el propietario de esta solución.
 
    ![](assets/media_library_4.png)
 

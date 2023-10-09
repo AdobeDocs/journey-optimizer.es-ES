@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 5b69e8d8539e37f42d44383e32b85e651e412937
+exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 5%
@@ -65,6 +66,3 @@ Puede adoptar una serie de prácticas recomendadas que le ayudarán a mantenerse
 * Si las mismas condiciones se repiten en varios recorridos (comprobaciones de consentimiento, supresiones), considere la posibilidad de moverlas como parte de la definición del segmento. Por ejemplo, si tiene una condición para comprobar que la dirección de correo electrónico no está vacía en varios recorridos, incluya esa condición como parte de la definición del segmento.
 * Si el recorrido tiene varias condiciones para dividir la audiencia y ver los números en cada paso, considere la posibilidad de utilizar un Customer Journey Analytics u otra solución de creación de informes que sea más adecuada para el análisis.
 * Si se acerca al límite de nodos en el lienzo, considere la posibilidad de consolidar acciones con parámetros dinámicos o contenido para ofrecer el contenido correcto en lugar de nodos explícitos.
-
-
-

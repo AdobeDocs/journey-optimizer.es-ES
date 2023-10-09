@@ -1,5 +1,5 @@
 ---
-title: Crear estrategias de selección
+title: Creación de estrategias de selección
 description: Aprenda a crear estrategias de selección
 feature: Offers
 topic: Integrations
@@ -8,29 +8,30 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '637'
+ht-degree: 8%
 
 ---
 
-# Crear estrategias de selección {#selection-strategies}
+# Creación de estrategias de selección {#selection-strategies}
 
 >[!BEGINSHADEBOX]
 
 Lo que encontrará en esta guía de documentación:
 
 * [Introducción a Experience Decisioning](gs-experience-decisioning.md)
-* Administrar los elementos de decisión
-   * [Configurar el catálogo de artículos](catalogs.md)
-   * [Crear elementos de decisión](items.md)
-   * [Administrar colecciones de elementos](collections.md)
-* Configurar la selección de elementos
+* Administración de los elementos de decisión
+   * [Configuración del catálogo de elementos](catalogs.md)
+   * [Creación de elementos de decisión](items.md)
+   * [Administración de colecciones de elementos](collections.md)
+* Configuración de la selección de elementos
    * [Crear reglas de decisión](rules.md)
-   * [Crear métodos de clasificación](ranking.md)
-* **[Crear estrategias de selección](selection-strategies.md)**
-* [Crear directivas de decisión](create-decision.md)
+   * [Creación de métodos de clasificación](ranking.md)
+* **[Creación de estrategias de selección](selection-strategies.md)**
+* [Creación de políticas de decisión](create-decision.md)
 
 >[!ENDSHADEBOX]
 
@@ -117,4 +118,3 @@ Una vez creada, puede utilizar esta fórmula en una estrategia de selección. Si
 También puede utilizar un sistema de modelos entrenado que clasifique automáticamente las ofertas para un perfil determinado seleccionando un modelo de IA. Obtenga información sobre cómo crear un modelo de IA en [esta sección](ranking.md).
 
 Una vez creado un modelo de IA, puede utilizarlo en una estrategia de selección. Si se admiten varias ofertas, el sistema de modelos entrenado determinará qué oferta debe presentarse primero para esta estrategia de selección.
-

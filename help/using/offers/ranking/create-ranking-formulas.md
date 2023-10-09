@@ -9,7 +9,7 @@ exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: 5083536950e43fc2df66a6bb46e69173245acf18
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 9%
 
 **Fórmulas de clasificación** le permite definir reglas que determinen qué oferta se debe presentar primero para una ubicación determinada, en lugar de tener en cuenta las puntuaciones de prioridad de las ofertas.
 
-Las fórmulas de clasificación se expresan en **Sintaxis PQL** y pueden aprovechar atributos de perfil, datos de contexto y atributos de oferta. Para obtener más información sobre cómo utilizar la sintaxis PQL, consulte la [documentación dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
+Las fórmulas de clasificación se expresan en **Sintaxis PQL** y pueden aprovechar atributos de perfil, datos de contexto y atributos de oferta. Para obtener más información sobre cómo utilizar la sintaxis PQL, consulte la [documentación dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=es).
 
 Una vez creada una fórmula de clasificación, puede asignarla a una ubicación en una decisión. Para obtener más información, consulte [Configurar la selección de ofertas en decisiones](../offer-activities/configure-offer-selection.md).
 

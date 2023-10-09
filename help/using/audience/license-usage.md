@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Tablero de uso de licencias
+title: Panel de uso de licencias
 description: Obtenga información acerca del tablero de uso de licencias de Journey Optimizer
 feature: Overview
 topic: Content Management

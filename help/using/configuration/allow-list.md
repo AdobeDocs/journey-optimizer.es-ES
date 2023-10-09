@@ -32,7 +32,7 @@ Además, cuando la lista de permitidos está activa pero vacía, no se envía ni
 
 >[!CAUTION]
 >
->Esta función solo se aplica al canal de correo electrónico.
+>Actualmente, esta función solo se aplica al canal de correo electrónico.
 
 ## Acceso a la lista de permitidos {#access-allowed-list}
 

@@ -12,7 +12,7 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
 source-wordcount: '970'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -39,7 +39,7 @@ Este tipo de evento se puede colocar como primer paso o más tarde en el recorri
 
 * Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen con Leer audiencia, Calificación de audiencia o una actividad de evento empresarial.
 
-* Cuando se utiliza una calificación de audiencia en un recorrido, esa actividad de calificación de audiencia puede tardar hasta 10 minutos en estar activa y en escuchar los perfiles que entran o salen de la audiencia.
+* Cuando se utiliza una calificación de público en un recorrido, esa actividad de calificación de público puede tardar hasta 10 minutos en estar activa y en escuchar los perfiles que entran o salen del público.
 
 ### Configuración de la actividad{#cnfigure-segment-qualification}
 
