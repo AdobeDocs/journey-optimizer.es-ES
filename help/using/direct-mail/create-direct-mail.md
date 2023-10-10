@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: correo directo, mensaje, campaña
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
+source-git-commit: 86385c0c36a54985bb4624f90e475d1a0229f8cd
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 10%
+source-wordcount: '721'
+ht-degree: 8%
 
 ---
 
@@ -58,6 +58,32 @@ Para crear una campaña de correo postal, siga estos pasos:
 Ahora puede empezar a configurar el archivo de extracción para enviarlo a su proveedor de correo postal.
 
 ## Configuración del archivo de extracción {#extraction-file}
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_data_fields"
+>title="Campos de datos"
+>abstract="Añada y configure las columnas y la información que desea mostrar en el archivo de extracción requerido por los proveedores de correo postal para enviar correo a sus clientes. Se pueden añadir hasta 50 columnas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_sort"
+>title="Formato del archivo de extracción"
+>abstract="El <b>Ordenar por</b> permite utilizar el campo seleccionado para ordenar las columnas del archivo de extracción. Cuando esta opción está deshabilitada, las columnas se ordenan automáticamente según el campo ID de perfil."
+
+1. Configure las columnas y la información que desea mostrar en el archivo de extracción:
+
+   1. Haga clic en **[!UICONTROL Añadir]** para crear una nueva columna.
+
+   1. El **[!UICONTROL Formato]** Este panel se muestra en el lado derecho, lo que le permite configurar la columna seleccionada. Especifique un **[!UICONTROL Etiqueta]** para la columna.
+
+   1. En el **[!UICONTROL Datos]** , seleccione los atributos de perfil que desea mostrar mediante el campo [Editor de expresiones](../personalization/personalization-build-expressions.md).
+
+   1. Para ordenar el archivo de extracción mediante una columna, seleccione la columna y active la casilla de verificación **[!UICONTROL Ordenar por]** opción. El **[!UICONTROL Ordenar por]** aparece junto a la etiqueta de la columna en la **[!UICONTROL Campos de datos]** sección.
+
+
+
+
+
+
 
 Los proveedores de correo postal requieren el archivo de extracción para enviar correo a sus clientes. Para definir la configuración del archivo de extracción, siga estos pasos:
 
