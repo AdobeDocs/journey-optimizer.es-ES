@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: ad590f7fedad10c49f5c45b34cc687df063e35a8
+source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 95%
+source-wordcount: '1615'
+ht-degree: 83%
 
 ---
 
@@ -123,3 +123,32 @@ Puede elegir entre una de estas dos soluciones:
 * Puede producirse un retraso de activación entre el momento en que un perfil de usuario alcanza una actividad en la aplicación en el lienzo y la hora en que comienza a ver ese mensaje en la aplicación.
 
 * El tamaño del contenido del mensaje en la aplicación está limitado a 2 Mb. La inclusión de imágenes grandes puede dificultar el proceso de publicación.
+
+## Gestión de decisiones {#decision-management}
+
+### Protecciones de rendimiento {#performance-guardrails}
+
+El rendimiento de entrega corresponde al número de respuestas de decisión que puede entregar el servicio de aplicaciones de gestión de decisiones en un período de tiempo especificado. En el cuadro que figura a continuación se indica el número de decisiones por segundo.
+
+| API | Decisiones por segundo |
+|---------|----------|
+| Decisiones sobre solicitudes de API | 500 por segundo |
+| Solicitudes de API de Edge Decisioning | 5000 por segundo |
+
+### Limitaciones {#offers-limitations}
+
+Las limitaciones de Administración de decisiones se enumeran a continuación.
+
+* **Ofertas personalizadas aprobadas + Ofertas de reserva** - Hasta 10 000 ofertas personalizadas aprobadas combinadas y ofertas de reserva aprobadas.
+* **Decisiones** - Hasta 10.000 Decisiones.
+* **Decisiones en directo** : El servicio de aplicaciones de Offer decisioning admite hasta 1000 decisiones en directo.
+* **Ofertas devueltas por respuesta** : el Offer decisioning admite hasta 100 ofertas devueltas por solicitud en todos los ámbitos de decisión de la solicitud.
+* **Colecciones** - Hasta 10.000 Colecciones.
+* **Colecciones por decisión** - Hasta 30 colecciones por decisión.
+* **Reglas de decisión + Funciones de clasificación** Hasta 10.000 reglas de decisión y funciones de clasificación combinadas.
+* **Ubicaciones** - Hasta 1.000 ubicaciones.
+* **Ubicaciones por decisión** - Hasta 30 ubicaciones por decisión.
+* **Método de clasificación por decisión** - El servicio de aplicaciones de Offer decisioning admite hasta 30 funciones de clasificación por decisión.
+* **Modelo de clasificación de IA** - El servicio de aplicaciones para Offers decisioning admite hasta 5 modelos de clasificación de IA.
+* **Calificador de colección por oferta o colección** - El servicio de aplicaciones de Offer decisioning admite hasta 20 calificadores de recopilación en cualquier oferta personalizada o colección única.
+* **Cualificadores de colección total** - El servicio de aplicaciones de Offer decisioning admite hasta 1000 calificadores de colección.

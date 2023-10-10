@@ -4,9 +4,9 @@ product: journey optimizer
 title: Actualizaciones de documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
 workflow-type: tm+mt
-source-wordcount: '3815'
+source-wordcount: '3829'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 * Se han añadido GIF para ilustrar algunas funciones clave, como: [Plantillas de contenido](../content-management/content-templates.md), [Fragmentos](../content-management/fragments.md), [Atributos calculados](../audience/computed-attributes.md), [Correo directo](../direct-mail/get-started-direct-mail.md), [Etiquetas](../start/search-filter-categorize.md#tags), [Modelos de optimización de administración de decisiones](../offers/ranking/personalized-optimization-model.md), [Campañas activadas por API](../campaigns/api-triggered-campaigns.md), y [Experimento de contenido](../campaigns/content-experiment.md).
 * El proceso de creación del esquema se ha actualizado para reflejar las últimas actualizaciones en la interfaz de usuario, incluidas las modificaciones de Adobe Experience Platform. [Más información](../audience/creating-test-profiles.md)
+* Se han agregado protecciones de Administración de decisiones a la página Protecciones y limitaciones. [Más información](../start/guardrails.md#decision-management)
 
 ## Septiembre de 2023 {#september-2023}
 
