@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: correo electrónico, plantillas, diseño
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: f728c55f1616acbd1bc0cabd766200fdc3e825c9
+source-git-commit: b00a4e174e978121687428147b5b3861077c5182
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 25%
@@ -22,7 +22,7 @@ ht-degree: 25%
 >id="ajo_use_template"
 >title="Generación de contenido a partir de una plantilla"
 >abstract="Para empezar a crear el contenido del correo electrónico, seleccione una plantilla predeterminada o una existente personalizada, creada desde cero o guardada como plantilla a partir de un correo electrónico anterior."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/content-templates.html#create-content-templates" text="Creación de plantillas de contenido"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/reusable-content/content-templates.html#create-content-templates" text="Creación de plantillas de contenido"
 
 Desde el **[!UICONTROL Cree su correo electrónico]** pantalla, utilice el **[!UICONTROL Seleccionar plantilla de diseño]** para comenzar a crear el contenido a partir de una plantilla.
 
