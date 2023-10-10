@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 298562247af79b9dd504a957c197856d702d0f6b
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '627'
+ht-degree: 93%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 100%
 >id="ajo_campaigns_content_experiment_segment"
 >title="Audiencia "
 >abstract="Al aprovechar los datos del perfil del cliente en tiempo real, Adobe Experience Platform permite generar fácilmente definiciones de segmentos para crear audiencias destinatarias que reflejen los comportamientos y preferencias únicas de sus clientes."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_audience"
+>title="Selección de la audiencia de campaña"
+>abstract="Esta lista muestra todas las audiencias de Adobe Experience Platform disponibles. Seleccione la audiencia a la que se dirige la campaña. El mensaje configurado en la campaña se envía a todas las personas que pertenecen a la audiencia seleccionada. [Más información sobre las audiencias](../audience/about-audiences.md)"
 
 [!DNL Journey Optimizer] le permite generar y aprovechar las audiencias de Adobe Experience Platform con datos de perfil del cliente en tiempo real directamente desde el menú **[!UICONTROL audiencias]** y utilizarlos en sus recorridos o campañas.
 
