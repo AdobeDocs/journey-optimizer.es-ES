@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: correo directo, mensaje, campaña
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 86385c0c36a54985bb4624f90e475d1a0229f8cd
+source-git-commit: 804ff95d2a19601d036e739bb1d5a629930247b9
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '720'
 ht-degree: 8%
 
 ---
@@ -65,9 +65,9 @@ Ahora puede empezar a configurar el archivo de extracción para enviarlo a su pr
 >abstract="Añada y configure las columnas y la información que desea mostrar en el archivo de extracción requerido por los proveedores de correo postal para enviar correo a sus clientes. Se pueden añadir hasta 50 columnas."
 
 >[!CONTEXTUALHELP]
->id="ajo_direct_mail_sort"
+>id="ajo_direct_mail_formatting"
 >title="Formato del archivo de extracción"
->abstract="El <b>Ordenar por</b> permite utilizar el campo seleccionado para ordenar las columnas del archivo de extracción. Cuando esta opción está deshabilitada, las columnas se ordenan automáticamente según el campo ID de perfil."
+>abstract="Para cada campo, especifique una etiqueta y la información que desea mostrar con el Editor de expresiones. <br/><br/> El <b>Ordenar por</b> permite utilizar el campo seleccionado para ordenar las columnas del archivo de extracción."
 
 1. Configure las columnas y la información que desea mostrar en el archivo de extracción:
 
