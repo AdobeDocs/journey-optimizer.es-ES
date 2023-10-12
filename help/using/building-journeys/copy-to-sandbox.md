@@ -9,7 +9,7 @@ role: User, Developer
 level: Intermediate
 keywords: zona protegida, recorrido, copiar, entorno
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: aaa9dcbfc691eac0fd9d06e905c2e1d7612d854a
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 20%
