@@ -9,14 +9,19 @@ role: Admin
 level: Intermediate
 keywords: recorrido, integración, estándar, campaña, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 4%
+source-wordcount: '961'
+ht-degree: 6%
 
 ---
 
 # Acciones de Adobe Campaign Standard {#using_campaign_action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_custom_acs"
+>title="Acciones personalizadas"
+>abstract="Una integración está disponible si tiene Adobe Campaign Standard. Permite enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de Adobe Campaign."
 
 Si tiene Adobe Campaign Standard, están disponibles las siguientes actividades de acción integradas: **[!UICONTROL Correo electrónico]**, **[!UICONTROL Push]** y **[!UICONTROL SMS]**.
 

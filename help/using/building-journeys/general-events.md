@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: personalizado, general, eventos, recorrido
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 20%
@@ -20,7 +20,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"
->title="Eventos generales"
+>title="Eventos unitarios"
 >abstract="Los Eventos le permiten activar sus recorridos de forma unitaria para enviar mensajes, en tiempo real, a la persona que entra en el recorrido. Para este tipo de evento, solo puede añadir una etiqueta y una descripción. La configuración de eventos la realiza un ingeniero de datos y no se puede editar."
 
 Los Eventos le permiten activar sus recorridos de forma unitaria para enviar mensajes, en tiempo real, a la persona que entra en el recorrido.

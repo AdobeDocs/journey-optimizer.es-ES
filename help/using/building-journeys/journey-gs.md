@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 25%
+source-wordcount: '1727'
+ht-degree: 24%
 
 ---
 
@@ -44,6 +44,11 @@ Para enviar mensajes con recorridos, se requieren las siguientes configuraciones
    ![](assets/custom2.png)
 
 ## Recorridos de acceso {#journey-access}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_create"
+>title="Recorridos"
+>abstract="Diseñar recorridos de clientes para ofrecer experiencias personalizadas y contextuales. Journey Optimizer permite crear casos de uso de orquestación en tiempo real con datos contextuales almacenados en eventos o fuentes de datos. El **Información general** La pestaña muestra un tablero con métricas clave relacionadas con los recorridos. El **Examinar** La pestaña muestra la lista de recorridos existentes."
 
 En la sección del menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTROL Recorridos]**. Hay dos pestañas disponibles:
 
@@ -77,11 +82,6 @@ En los paneles Evento, Fuente de datos y Configuración de acciones, el campo **
 ![](assets/journey3bis.png)
 
 ## Cree su recorrido{#jo-build}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_create"
->title="Cree su recorrido"
->abstract="Esta pantalla muestra la lista de recorridos existentes. Abra un recorrido o haga clic en &quot;Crear recorrido&quot; y combine las diferentes actividades de evento, orquestación y acción para crear sus escenarios de varios pasos en canales múltiples."
 
 Este paso lo realiza el **usuario empresarial**. Aquí es donde se crean los recorridos. Combine las distintas actividades de evento, orquestación y acción para crear sus escenarios de canal cruzado de varios pasos.
 
