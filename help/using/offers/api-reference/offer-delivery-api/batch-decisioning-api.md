@@ -1,12 +1,12 @@
 ---
 title: API de decisiones por lotes
 description: Aprenda a utilizar la API de decisiones por lotes para seleccionar las mejores ofertas para los perfiles de las audiencias dentro de un ámbito de decisión predefinido.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: be372f8f80d304067748d539fb8e210df6280721
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 4%

@@ -1,11 +1,12 @@
 ---
 title: Crear ofertas de reserva
 description: Obtenga información sobre cómo crear ofertas de reserva para mostrarlas a los clientes que no cumplen los requisitos para ninguna oferta
+Feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 4%

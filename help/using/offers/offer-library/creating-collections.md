@@ -1,12 +1,12 @@
 ---
 title: Crear colecciones
 description: Obtenga información sobre cómo organizar ofertas mediante colecciones
-feature: Offers
+feature: Offers, Collections
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 8%

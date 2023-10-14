@@ -1,12 +1,12 @@
 ---
 title: Creación de un cualificador de colección
 description: Los calificadores de colección le permiten organizar y ordenar mejor sus ofertas.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 84f0efa5-28af-4569-994c-12d87828a277
-source-git-commit: d312410ce2a91d3084d99e3caceb53ce4ada87b8
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 12%

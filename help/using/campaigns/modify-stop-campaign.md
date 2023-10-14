@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Modificación o detención de una campaña
 description: Aprenda a modificar, detener o duplicar campañas en directo en Journey Optimizer
-feature: Overview
+Feature: Campaigns
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner
 keywords: administrar campañas, estado, programación, acceso, optimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 2%

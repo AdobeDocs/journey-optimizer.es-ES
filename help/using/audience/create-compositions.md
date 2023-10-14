@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Creación del primer flujo de trabajo de composición
 description: Aprenda a crear flujos de trabajo de composición para combinar y organizar audiencias existentes.
-feature: Journeys
+feature: Audiences, Profiles
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 17%

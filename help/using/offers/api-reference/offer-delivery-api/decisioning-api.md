@@ -1,12 +1,12 @@
 ---
 title: Entrega de ofertas
 description: Gestión de decisiones es una colección de servicios y programas de interfaz de usuario que permite a los especialistas en marketing crear y ofrecer experiencias de oferta personalizadas al usuario final en canales y aplicaciones mediante la lógica empresarial y las reglas de decisión.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 5%

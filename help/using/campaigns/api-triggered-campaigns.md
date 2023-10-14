@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Activación de campañas mediante las API
 description: Obtenga información sobre cómo almacenar en déclencheur las campañas mediante las API de Journey Optimizer
+Feature: Campaigns, API
 topic: Content Management
 role: Developer, Admin
-level: Intermediate, Experienced
+level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%

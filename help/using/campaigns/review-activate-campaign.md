@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Revisión y activación de una campaña
 description: Obtenga información sobre cómo revisar y activar campañas en Journey Optimizer
-feature: Overview
+Feature: Campaigns
 topic: Content Management
 role: User
 level: Intermediate
 keywords: campaña, revisión, validación, activación, activación, optimizador
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 7%

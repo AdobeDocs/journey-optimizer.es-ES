@@ -1,12 +1,12 @@
 ---
 title: Fórmulas de clasificación
 description: Obtenga información sobre cómo crear fórmulas para clasificar ofertas
-feature: Offers
+feature: Ranking Formulas, Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 5083536950e43fc2df66a6bb46e69173245acf18
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 10%

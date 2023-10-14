@@ -1,12 +1,12 @@
 ---
 title: Buscar un calificador de colección
 description: Los calificadores de colección le permiten organizar y ordenar mejor sus ofertas.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f31e6a17-c99a-4db9-a301-426a1f0bcc92
-source-git-commit: d312410ce2a91d3084d99e3caceb53ce4ada87b8
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 7%
