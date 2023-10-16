@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -42,7 +42,7 @@ Examine las pestañas siguientes para aprender a añadir un mensaje SMS en una c
 
    El **[!UICONTROL Superficie]** de forma predeterminada, el campo está rellenado previamente con la última superficie que el usuario utilizó para ese canal.
 
-Ahora puede empezar a diseñar el contenido de su mensaje SMS desde el **[!UICONTROL Editar contenido]** botón. [Definición del contenido del SMS](#sms-content)
+Ahora puede empezar a diseñar el contenido de su mensaje SMS desde el **[!UICONTROL Editar contenido]** botón. [Definición del contenido de los SMS](#sms-content)
 
 >[!TAB Adición de un mensaje SMS a una campaña]
 
@@ -79,12 +79,12 @@ Ahora puede empezar a diseñar el contenido de su mensaje SMS desde el **[!UICON
 
 >[!ENDTABS]
 
-## Definición del contenido del SMS{#sms-content}
+## Definición del contenido de los SMS{#sms-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
->title="Definición del contenido del SMS"
->abstract="Personalice y personalice sus mensajes SMS con el editor de expresiones para definir el contenido e incorporar elementos dinámicos."
+>title="Definición del contenido de los SMS"
+>abstract="Personalice sus mensajes SMS con el editor de expresiones para definir el contenido e incorporar elementos dinámicos."
 
 1. En la pantalla de configuración del recorrido o la campaña, haga clic en **[!UICONTROL Editar contenido]** para configurar el contenido del SMS.
 

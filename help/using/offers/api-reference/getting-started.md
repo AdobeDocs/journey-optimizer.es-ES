@@ -9,7 +9,7 @@ exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 87%
 
 >[!CONTEXTUALHELP]
 >id="od_api_support"
->title="Nuevas API de administración de decisiones"
->abstract="Ya están disponibles nuevas API para la creación y administración de objetos de administración de decisiones. Las api heredadas serán compatibles hasta el 27/03/2024."
+>title="Nuevas API de gestión de decisiones"
+>abstract="Ya están disponibles las nuevas API para la creación y administración de objetos de gestión de decisiones. Las API heredadas serán compatibles hasta el 27/03/2024."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_api_support"
->title="Nuevas API de administración de decisiones"
->abstract="Ya están disponibles nuevas API para la creación y administración de objetos de administración de decisiones. Las api heredadas serán compatibles hasta el 27/03/2024."
+>title="Nuevas API de gestión de decisiones"
+>abstract="Ya están disponibles las nuevas API para la creación y administración de objetos de gestión de decisiones. Las API heredadas serán compatibles hasta el 27/03/2024."
 
 Esta guía para desarrolladores proporciona pasos para ayudarle a utilizar la API de [!DNL Offer Library]. A continuación, la guía proporciona llamadas de API de muestra para realizar operaciones clave mediante el motor de toma de decisiones.
 

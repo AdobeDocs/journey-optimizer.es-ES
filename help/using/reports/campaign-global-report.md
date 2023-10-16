@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
 workflow-type: tm+mt
 source-wordcount: '3192'
-ht-degree: 3%
+ht-degree: 16%
 
 ---
 
@@ -49,7 +49,7 @@ Para obtener una lista detallada de todas las métricas disponibles en Adobe Jou
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_delivery_global"
 >title="Estadísticas de Campaign"
->abstract="El widget de estadísticas de campaña detalla la información principal relativa a la campaña, como los perfiles introducidos y las acciones entregadas."
+>abstract="El widget de estadísticas de Campaign detalla la información principal relativa a la campaña, como los perfiles introducidos y las acciones enviadas."
 
 ![](assets/campaign_report_global_1.png)
 
@@ -153,7 +153,7 @@ Para profundizar en estos resultados y en cómo interpretarlos, consulte [esta p
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_excluded_reasons"
 >title="Correo electrónico: razones de exclusión"
->abstract="Los gráficos y la tabla de motivos de exclusión ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos de la audiencia de destino, no recibieran el mensaje."
+>abstract="Los gráficos y la tabla Motivos excluidos ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos del público destinatario, no recibieran el mensaje."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_top_url"
@@ -268,17 +268,17 @@ El **[!UICONTROL Optimización del tiempo de envío]** detalla el éxito del cor
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_performance"
 >title="Rendimiento en la aplicación"
->abstract="Los KPI de rendimiento en la aplicación proporcionan información esencial sobre la participación de los visitantes en los mensajes en la aplicación."
+>abstract="Los KPI de rendimiento en la aplicación proporcionan información esencial sobre la participación de los visitantes en los mensajes de la aplicación."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_interactions"
 >title="Interacciones por tipo"
->abstract="La tabla Interacciones por tipo detalla la interacción de los usuarios con el mensaje en la aplicación mediante el seguimiento de cualquier clic, rechazo o interacción."
+>abstract="La tabla Interacciones por tipo detalla la interacción de los usuarios con el mensaje de la aplicación mediante el seguimiento de cualquier clic, rechazo o interacción."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_summary"
->title="Resumen en la aplicación"
->abstract="El gráfico de resumen en la aplicación ilustra la progresión de las impresiones e interacciones en la aplicación durante el periodo especificado."
+>title="Resumen de la aplicación"
+>abstract="El gráfico de resumen de la aplicación ilustra la progresión de las impresiones e interacciones de la aplicación durante el período especificado."
 
 Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL En la aplicación]** Esta pestaña detalla la información principal relativa a las entregas en la aplicación enviadas en la campaña.
 
@@ -313,17 +313,17 @@ El **[!UICONTROL Resumen en la aplicación]** Este gráfico muestra la evolució
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_sending_summary"
->title="Notificación push: resumen de envío"
->abstract="El gráfico Resumen de envío de notificaciones push muestra los datos disponibles para las notificaciones push enviadas."
+>title="Notificación push: resumen del envío"
+>abstract="El gráfico Resumen del envío de notificaciones push muestra los datos disponibles para las notificaciones push enviadas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_excluded_reasons"
->title="Notificación push: razones de exclusión"
->abstract="Los gráficos y la tabla de motivos de exclusión ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos de la audiencia de destino, no recibieran el mensaje."
+>title="Notificación push: motivos excluidos"
+>abstract="Los gráficos y la tabla Motivos excluidos ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos del público destinatario, no recibieran el mensaje."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_error_reasons"
->title="Notificación push: razones de error"
+>title="Notificación push: motivos del error"
 >abstract="Los gráficos y la tabla Motivos del error permiten identificar los errores específicos que se produjeron durante el proceso de envío."
 
 >[!CONTEXTUALHELP]
@@ -411,11 +411,11 @@ El **[!UICONTROL Desglose por plataforma]** el gráfico y la tabla detallan el �
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
 >title="SMS: estadísticas de envío"
->abstract="La tabla Estadísticas de envío de SMS resume los datos esenciales sobre sus mensajes SMS, como los mensajes dirigidos o enviados."
+>abstract="La tabla Estadísticas del envío de SMS resume los datos esenciales sobre sus mensajes SMS, como los mensajes segmentados o enviados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_error_reasons"
->title="SMS: razones de error"
+>title="SMS: motivos de error"
 >abstract="Los gráficos y la tabla SMS: motivos de error le permiten identificar los errores específicos que se produjeron durante el proceso de envío."
 
 >[!CONTEXTUALHELP]
@@ -425,18 +425,18 @@ El **[!UICONTROL Desglose por plataforma]** el gráfico y la tabla detallan el �
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_excluded_reasons"
->title="SMS: razones de exclusión"
->abstract="Los gráficos y la tabla de motivos de exclusión ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos de la audiencia de destino, no recibieran el mensaje."
+>title="SMS: motivos excluidos"
+>abstract="Los gráficos y la tabla Motivos excluidos ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos del público destinatario, no recibieran el mensaje."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_bounces_reasons"
 >title="SMS: motivos de rechazos"
->abstract="Los gráficos y la tabla de motivos de rechazos contienen los datos disponibles relacionados con los mensajes rechazados."
+>abstract="Los gráficos y la tabla Motivos de rechazos contienen los datos disponibles relacionados con los mensajes rechazados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
 >title="SMS: clics por vínculos"
->abstract="El widget SMS: clics por vínculos proporciona una información esencial sobre la participación de los visitantes con las direcciones URL de los mensajes"
+>abstract="El widget SMS: clics por vínculos proporciona información esencial sobre la participación de los visitantes en las direcciones URL de los mensajes"
 
 Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL SMS]** Esta pestaña detalla la información principal relativa a los envíos SMS enviados en la campaña.
 
@@ -480,12 +480,12 @@ El **[!UICONTROL SMS: clics por vínculos]** Los widgets detallan la informació
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_web_summary"
 >title="Resumen web"
->abstract="El gráfico Resumen web ilustra la progresión de las experiencias web, incluidas las impresiones, las impresiones únicas y las interacciones, durante el periodo especificado."
+>abstract="El gráfico Resumen web ilustra la progresión de las experiencias web, incluidas las impresiones, las impresiones únicas y las interacciones, durante el período especificado."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_web_interactions"
 >title="Interacciones por elemento"
->abstract="La tabla Interacciones por elemento proporciona información clave sobre la participación de los visitantes con diferentes elementos de las páginas web."
+>abstract="La tabla Interacciones por elemento proporciona información clave sobre la participación de los visitantes en diferentes elementos de las páginas web."
 
 Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL Web]** La pestaña detalla la información principal relativa a sus páginas web.
 
@@ -510,18 +510,18 @@ El **[!UICONTROL Interacciones por elemento]** La tabla detalla la información 
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_sending_statistics"
->title="Correo directo: estadísticas de envío"
->abstract="La tabla Estadísticas de envío de correo directo resume los datos esenciales sobre sus mensajes de correo directo, como los mensajes dirigidos o enviados."
+>title="Correo directo: estadísticas del envío"
+>abstract="La tabla Estadísticas del envío de correo directo resume los datos esenciales sobre sus mensajes de correo directo, como los mensajes segmentados o enviados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_error_reasons"
->title="Correo directo: razones de error"
+>title="Correo directo: motivos de error"
 >abstract="Los gráficos y la tabla Correo directo: motivos de error le permiten identificar los errores específicos que se produjeron durante el proceso de envío."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_excluded_reasons"
->title="Correo directo: razones de exclusión"
->abstract="Los gráficos y la tabla de motivos de exclusión de correo postal ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos de la audiencia de destino, no recibieran el mensaje."
+>title="Correo directo: motivos excluidos"
+>abstract="Los gráficos y la tabla Motivos excluidos del correo directo ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos del público destinatario, no recibieran el mensaje."
 
 Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL Correo directo]** Esta pestaña detalla la información principal relativa a sus envíos de correo directo.
 

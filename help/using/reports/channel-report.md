@@ -11,7 +11,7 @@ exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
 workflow-type: tm+mt
 source-wordcount: '2664'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -71,7 +71,7 @@ La página del informe se muestra con las siguientes pestañas:
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_reasons"
 >title="Motivos del rechazo"
->abstract="Los gráficos y la tabla de motivos de rechazos contienen los datos disponibles relacionados con los mensajes rechazados."
+>abstract="Los gráficos y la tabla Motivos de rechazos contienen los datos disponibles relacionados con los mensajes rechazados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_error_reasons"
@@ -81,7 +81,7 @@ La página del informe se muestra con las siguientes pestañas:
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_excluded_reasons"
 >title="Razones de exclusión"
->abstract="Los gráficos y la tabla de motivos de exclusión ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos de la audiencia de destino, no recibieran el mensaje."
+>abstract="Los gráficos y la tabla Motivos excluidos ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos del público destinatario, no recibieran el mensaje."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_delivered_domains"
@@ -203,7 +203,7 @@ El **[!UICONTROL Razones de rechazo por dominio]**, **[!UICONTROL Enviados y ent
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_excluded_reasons"
 >title="Razones de exclusión"
->abstract="Los gráficos y la tabla de motivos de exclusión ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos de la audiencia de destino, no recibieran el mensaje."
+>abstract="Los gráficos y la tabla Motivos excluidos ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos del público destinatario, no recibieran el mensaje."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_error_reasons"
@@ -302,12 +302,12 @@ El **[!UICONTROL Seguimiento por plataforma]** y **[!UICONTROL Envío por plataf
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_excluded_reasons"
 >title="Razones de exclusión"
->abstract="Los gráficos y la tabla de motivos de exclusión ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos de la audiencia de destino, no recibieran el mensaje."
+>abstract="Los gráficos y la tabla Motivos excluidos ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos del público destinatario, no recibieran el mensaje."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_bounce_reasons"
 >title="Motivos del rechazo"
->abstract="Los gráficos y la tabla de motivos de rechazos contienen los datos disponibles relacionados con los mensajes rechazados."
+>abstract="Los gráficos y la tabla Motivos de rechazos contienen los datos disponibles relacionados con los mensajes rechazados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_error_reasons"
@@ -372,7 +372,7 @@ El **[!UICONTROL Razones de exclusión]**, **[!UICONTROL Razones de rechazos]** 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_excluded_reasons"
 >title="Razones de exclusión"
->abstract="Los gráficos y la tabla de motivos de exclusión ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos de la audiencia de destino, no recibieran el mensaje."
+>abstract="Los gráficos y la tabla Motivos excluidos ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos del público destinatario, no recibieran el mensaje."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_error_reasons"

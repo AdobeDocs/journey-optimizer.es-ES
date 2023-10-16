@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 9de7c9e6cf4a581ca089785467bf838f8e9943a7
 workflow-type: tm+mt
 source-wordcount: '4254'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="Novedades"
->abstract="**Adobe Journey Optimizer** ofrece continuamente nuevas funciones, mejoras en las funciones existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión."
+>abstract="**Adobe Journey Optimizer** ofrece continuamente nuevas funciones, mejoras de las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión."
 
 [!DNL Adobe Journey Optimizer] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión.
 
@@ -107,7 +107,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Gestión de decisiones**
 
-* Ya están disponibles nuevas API para la creación y administración de objetos de administración de decisiones. Estas API ofrecen un rendimiento mejorado y una experiencia de usuario mejorada. Las API heredadas serán compatibles hasta el 27 de marzo de 2024. [Más información](../offers/api-reference/getting-started.md)
+* Ya están disponibles las nuevas API para la creación y administración de objetos de gestión de decisiones. Estas API ofrecen un rendimiento mejorado y una experiencia de usuario mejorada. Las API heredadas serán compatibles hasta el 27 de marzo de 2024. [Más información](../offers/api-reference/getting-started.md)
 
 **Personalización**
 

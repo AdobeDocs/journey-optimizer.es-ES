@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: b00a4e174e978121687428147b5b3861077c5182
 workflow-type: tm+mt
 source-wordcount: '1548'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -259,9 +259,9 @@ Ahora puede utilizar este fragmento al crear cualquier [email](../email/get-star
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="Guardar como fragmento de expresión"
->abstract="El [!DNL Journey Optimizer] El editor de expresiones permite guardar contenido como fragmentos de expresiones. Estas expresiones están disponibles para crear contenido personalizado."
+>abstract="El Editor de expresiones de [!DNL Journey Optimizer] permite guardar contenido como fragmentos de expresiones. Estas expresiones están disponibles para crear contenido personalizado."
 
-El [!DNL Journey Optimizer] El editor de expresiones permite guardar contenido como fragmentos de expresiones. Estas expresiones están disponibles para crear contenido personalizado.
+El Editor de expresiones de [!DNL Journey Optimizer] permite guardar contenido como fragmentos de expresiones. Estas expresiones están disponibles para crear contenido personalizado.
 
 Para guardar contenido como un fragmento de expresión, siga los pasos a continuación.
 
