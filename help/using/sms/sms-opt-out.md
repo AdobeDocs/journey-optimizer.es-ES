@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
+source-git-commit: 43a1c170882c13c692d73fd78eac9989b1e5006d
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 27%
+source-wordcount: '447'
+ht-degree: 26%
 
 ---
 
@@ -21,12 +21,12 @@ De acuerdo con las normas y los reglamentos del sector, todos los mensajes SMS s
 
 >[!IMPORTANT]
 >
->Las comunicaciones por mensajes de texto pueden estar sujetas a diversos requisitos legales de cumplimiento según su naturaleza, la ubicación desde la que se envían los mensajes de texto y la ubicación de los destinatarios. Mientras Adobe Journey Optimizer gestiona los mensajes en códigos largos y números gratuitos, como se detalla a continuación, consulte a su asesor legal para asegurarse de que sus comunicaciones de mensajería de texto cumplan todos los requisitos legales aplicables.
+>Las comunicaciones por mensajes de texto pueden estar sujetas a diversos requisitos legales de cumplimiento según su naturaleza, la ubicación desde la que se envían los mensajes de texto y la ubicación de los destinatarios. Mientras Adobe Journey Optimizer gestiona los mensajes en códigos cortos, códigos largos y números gratuitos, como se detalla a continuación, consulte a su asesor legal para asegurarse de que sus comunicaciones de mensajería de texto cumplan todos los requisitos legales aplicables.
 >
 
 ## Palabras clave de entrada nativas {#sms-native-keywords}
 
-De forma predeterminada, Adobe Journey Optimizer administra los siguientes mensajes de respuesta estándar en inglés para mensajes de código largo y gratuito: STOP, UNSTOP, START, QUIT, CANCEL, END y UNSUBSCRIBE. Tenga en cuenta que solo Sinch e Infobip admiten palabras clave nativas cuando se utilizan con Journey Optimizer.
+De forma predeterminada, Adobe Journey Optimizer gestiona los siguientes mensajes de respuesta estándar en inglés para mensajes de códigos cortos, gratuitos y de código largo: STOP, UNSTOP, START, QUIT, CANCEL, END y UNSUBSCRIBE. Tenga en cuenta que solo Sinch e Infobip admiten palabras clave nativas cuando se utilizan con Journey Optimizer.
 
 Estas palabras clave suelen almacenar en déclencheur una respuesta estándar automática de su proveedor de terceros. Puede confirmar esto directamente con su proveedor o a través de su sitio de documentación.
 
