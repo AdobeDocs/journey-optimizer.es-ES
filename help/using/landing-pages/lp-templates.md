@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Trabajo con plantillas de página de aterrizaje
 description: Descubra cómo guardar una página de aterrizaje como plantilla y reutilizarla en Journey Optimizer
-feature: Landing Pages
+feature: Landing Pages, Templates
 topic: Content Management
 role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, plantillas
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 12%

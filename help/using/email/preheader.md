@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Añadir un preencabezado en Journey Optimizer
 description: Aprenda a diseñar el contenido de sus correos electrónicos
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate
 keywords: preencabezado, editor, resumen, correo electrónico
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 86%

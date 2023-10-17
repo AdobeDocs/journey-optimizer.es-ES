@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Informe global de la página de aterrizaje
 description: Aprenda a utilizar los datos del informe global de páginas de aterrizaje
-feature: Journeys
+feature: Reporting, Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 10%

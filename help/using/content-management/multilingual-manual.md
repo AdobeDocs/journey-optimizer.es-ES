@@ -3,14 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Introducción al contenido multilingüe
 description: Obtenga más información sobre el contenido multilingüe en Journey Optimizer
-feature: Overview
+feature: Multilingual Content
 topic: Content Management
 role: User
 level: Beginner
 keywords: introducción, inicio, contenido, experimento
 hide: true
 hidefromtoc: true
-source-git-commit: 42b1243f713743d299a60aa93546ed99d4dcf156
+exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 1%

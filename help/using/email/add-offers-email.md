@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Adición de ofertas personalizadas
 description: Aprenda a añadir ofertas personalizadas a los mensajes
-feature: Journeys
+feature: Email Design, Offers
 topic: Content Management
 role: User
 level: Intermediate
 keywords: ofertas, decisión, correos electrónicos, personalización, decisión
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Por ejemplo, puede añadir una decisión que muestre en el correo electrónico u
 
 >[!IMPORTANT]
 >
->Si se realizan cambios en una decisión de oferta que se está utilizando en el mensaje de un recorrido, debe cancelar la publicación del recorrido y volver a publicarlo.  Esto garantizará que los cambios se incorporen al mensaje del recorrido y que el mensaje sea coherente con las últimas actualizaciones.
+>Si se realizan cambios en una decisión de oferta que se utiliza en el mensaje de un recorrido, se debe cancelar la publicación del recorrido y volver a publicarlo.  Esto garantizará que los cambios se incorporen al mensaje del recorrido y que el mensaje sea coherente con las últimas actualizaciones.
 
 * Para obtener más información sobre cómo crear y administrar ofertas, consulte [esta sección](../offers/get-started/starting-offer-decisioning.md).
 * Para un **ejemplo completo de extremo a extremo** Para mostrar cómo configurar ofertas, utilizarlas en una decisión y aprovechar esta decisión en un correo electrónico, consulte [esta sección](../offers/offers-e2e.md#insert-decision-in-email).

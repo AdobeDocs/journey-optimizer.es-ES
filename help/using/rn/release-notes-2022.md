@@ -3,9 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Notas de la versión 2022
 description: Notas de la versión de Journey Optimizer 2022
+feature: Release Notes
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
-workflow-type: ht
+source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+workflow-type: tm+mt
 source-wordcount: '3575'
 ht-degree: 100%
 

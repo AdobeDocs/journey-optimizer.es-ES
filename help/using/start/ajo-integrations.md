@@ -3,11 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Integración con otras soluciones
 description: Obtenga más información sobre cómo integrar Journey Optimizer con otras soluciones
-topic: Content Management
+feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
+source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Con Adobe Journey Optimizer puede administrar, conservar y exportar fácilmente 
 > Adobe Journey Optimizer, que se creó en Adobe Experience Platform, está conectado de forma nativa al [perfil del cliente en tiempo real de Adobe](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}. Esta fuente de datos integrada está preconfigurada y diseñada para recuperar y utilizar datos del perfil del cliente en tiempo real (por ejemplo, comprobar si la persona que ha introducido un recorrido es cliente o no). Permite utilizar información del perfil y datos de los eventos de experiencia. [Más información](../datasource/adobe-experience-platform-data-source.md).
 >
 
-## Adobe Customer Journey Analytics{#integration-cja}
+## Adobe Customer Journey Analytics {#integration-cja}
 
 Puede utilizar Customer Journey Analytics para llevar a cabo análisis avanzados de los datos generados por Journey Optimizer.
 
@@ -33,14 +33,14 @@ Después de crear el recorrido en Journey Optimizer, Customer Journey Analytics 
 
 Más información sobre [Journey Optimizer + Customer Journey Analytics](../reports/cja-ajo.md).
 
-## Adobe Analytics{#integration-aa}
+## Adobe Analytics {#integration-aa}
 
 Ahora puede aprovechar todos los datos de evento de comportamiento de Adobe Analytics que ya está recopilando y transmitiendo a Adobe Experience Platform para activar recorridos en tiempo real y automatizar experiencias para los clientes. Estos datos también pueden servir para crear audiencias que se puedan involucrar con Journey Optimizer.
 
 Obtenga más información acerca de [Journey Optimizer + Analytics](../event/about-analytics.md).
 
 
-## Adobe Experience Manager Assets Essentials{#integration-assets}
+## Adobe Experience Manager Assets Essentials {#integration-assets}
 
 Una los flujos de trabajo creativos y de marketing usando [!DNL Adobe Experience Manager Assets Essentials]. Integrado de forma nativa con [!DNL Adobe Journey Optimizer], acceso [!DNL Assets Essentials] para almacenar, administrar, descubrir y distribuir recursos digitales. Proporciona un único repositorio centralizado de recursos que puede utilizar para completar los mensajes.
 
@@ -49,7 +49,7 @@ Una los flujos de trabajo creativos y de marketing usando [!DNL Adobe Experience
 Más información sobre [Journey Optimizer + Assets Essentials](../content-management/assets-essentials.md).
 
 
-## Adobe Stock{#integration-stock}
+## Adobe Stock {#integration-stock}
 
 El plugin de integración de [!DNL Adobe Stock] y [!DNL Adobe Journey Optimizer] Diseñador de correos electrónicos proporciona a los clientes una forma sencilla de navegar, obtener licencias y guardar imágenes para utilizarlas en la creación de mensajes.
 
@@ -58,7 +58,7 @@ Con [!DNL Adobe Journey Optimizer], puede cargar imágenes en sus correos electr
 Obtenga más información acerca de [Journey Optimizer + Stock](../content-management/stock.md).
 
 
-## Servicios inteligentes de Adobe{#integration-intelligent-service}
+## Servicios inteligentes de Adobe {#integration-intelligent-service}
 
 Los servicios inteligentes de Adobe, nativos de la plataforma de datos del cliente en tiempo real, le permiten sacar el máximo provecho del poder que tiene la inteligencia artificial y del aprendizaje automático en casos prácticos de experiencias del cliente. Esto permite a analistas de marketing formular predicciones concretas de las necesidades de una compañía mediante configuraciones de negocio sin necesidad de tener experiencia en la ciencia de datos.
 
@@ -67,7 +67,7 @@ La inteligencia artificial aplicada al cliente permite a las marcas crear puntua
 [Más información](../building-journeys/ai-services-overview.md).
 
 
-## Adobe Campaign{#integration-ac}
+## Adobe Campaign {#integration-ac}
 
 Una integración está disponible si tiene Adobe Campaign v7 o v8. Utilice esta integración para enviar correos electrónicos, notificaciones automáticas y SMS mediante las funcionalidades de mensajería transaccional de Adobe Campaign.
 
@@ -75,9 +75,9 @@ Obtenga más información acerca de [Journey Optimizer + Campaign](../building-j
 
 También puede configurar una integración con Adobe Campaign Standard para enviar mensajes en los recorridos.
 
-Más información sobre [Journey Optimizer + Campaign Standard](../building-journeys/ajo-ac.md).
+Más información sobre [Journey Optimizer + Campaign Standard](../building-journeys/using-adobe-campaign-standard.md).
 
-## Canales personalizados{#integration-custom}
+## Canales personalizados {#integration-custom}
 
 Si utiliza un sistema de terceros para enviar mensajes o si desea que los recorridos envíen llamadas de API a un sistema de terceros, utilice acciones personalizadas para conectarse a su recorrido. Por ejemplo, puede conectarse a los siguientes sistemas con las acciones personalizadas: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, etc.
 
@@ -85,7 +85,7 @@ Las acciones personalizadas son acciones adicionales definidas por usuarios téc
 
 Más información sobre las [acciones personalizadas](../action/about-custom-action-configuration.md).
 
-## Fuentes de datos externas{#integration-external-systems}
+## Fuentes de datos externas {#integration-external-systems}
 
 Journey Optimizer le permite configurar conexiones a sistemas externos mediante fuentes de datos y acciones personalizadas. Esto hace que, por ejemplo, pueda enriquecer recorridos con datos procedentes de un sistema de reservas externo.
 

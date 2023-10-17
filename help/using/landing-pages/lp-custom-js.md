@@ -5,11 +5,11 @@ title: Uso de JavaScript personalizado en una página de aterrizaje
 description: Aprenda a diseñar el contenido de una página de aterrizaje en Journey Optimizer
 feature: Landing Pages
 topic: Content Management
-role: User
-level: Beginner
+role: Developer
+level: Experienced
 keywords: landing, landing page, javascript, code
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 2%

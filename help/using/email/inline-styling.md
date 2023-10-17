@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Añadir atributos de estilo en línea
 description: Aprenda a añadir atributos de estilo en línea
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: en línea, estilo, atributos, editor
 exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 36%

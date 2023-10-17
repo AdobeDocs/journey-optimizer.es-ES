@@ -1,13 +1,13 @@
 ---
 title: Diseño del contenido en la aplicación
 description: Aprenda a diseñar el contenido en la aplicación en Journey Optimizer
-feature: Overview
+feature: In App
 topic: Content Management
 role: User
 level: Beginner
 keywords: en la aplicación, mensaje, diseño, formato
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 144afbd925301ea1eeb690adee335d205fded394
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 28%

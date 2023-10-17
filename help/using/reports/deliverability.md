@@ -5,10 +5,10 @@ title: Introducción a la Entregabilidad
 description: Conozca las directrices de entrega
 feature: Deliverability
 topic: Content Management
-role: User
-level: Intermediate
+role: Admin
+level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 28%

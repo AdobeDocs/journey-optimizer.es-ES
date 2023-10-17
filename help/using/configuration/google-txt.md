@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Adición de un registro TXT de Google a un subdominio
 description: Obtenga información sobre cómo agregar un registro TXT de Google a un subdominio
-feature: Application Settings
+feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: subdominio, google, txt, registro, gmail, envío
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 24%

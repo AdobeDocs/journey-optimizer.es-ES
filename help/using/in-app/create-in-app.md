@@ -1,13 +1,13 @@
 ---
 title: Creación de una notificación en la aplicación en Journey Optimizer
 description: Obtenga información sobre cómo crear un mensaje en la aplicación en Journey Optimizer
-feature: Overview
+feature: In App
 topic: Content Management
 role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1987'
 ht-degree: 14%

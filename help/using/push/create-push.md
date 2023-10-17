@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Configuración de una notificación push
 description: Obtenga información sobre cómo crear una notificación push en Journey Optimizer
-feature: Overview
+feature: Push
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 16%
@@ -101,7 +101,7 @@ Para crear una notificación push, siga los pasos a continuación:
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="Modo de envío rápido"
->abstract="El modo de envío rápido permite realizar envíos de mensajes a alta velocidad en el canal push a un tamaño de audiencia inferior a 30 millones."
+>abstract="El modo de envío rápido permite realizar envíos de mensajes a alta velocidad en el canal push a un tamaño de público inferior a 30 millones."
 
 El modo de envío rápido es un [!DNL Journey Optimizer] complemento que permite enviar mensajes push muy rápidamente en grandes volúmenes a través de campañas.
 

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Uso de Assets Essentials en Journey Optimizer
 description: Introducción a los Assets Essentials
-feature: Overview
-topic: Content Management
+feature: Assets, Integrations
+topic: Content Management, Integrations
 role: User
 level: Beginner
 keywords: recursos, essentials, experience manager, integración
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 00bd3a2fb35ef2c634ed631b358a5256f47c7e58
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 20%

@@ -2,10 +2,11 @@
 title: Requisitos previos del canal en la aplicación
 description: Aprenda a configurar su entorno para enviar mensajes en la aplicación con Journey Optimizer
 role: Admin
+feature: In App
 level: Intermediate
 keywords: en la aplicación, mensaje, configuración, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 42a1efc45268688d371d83efbafef2aab9d757ac
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 11%

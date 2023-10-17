@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Ejemplos de consultas
 description: Ejemplos de consultas
-feature: Reporting
+feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Asegúrese de que los campos utilizados en las consultas tengan valores asociado
 
 * id: único para todas las entradas de evento de paso. Dos eventos de paso diferentes no pueden tener el mismo ID.
 * instanceId: instanceID es el mismo para todos los eventos de paso asociados a un perfil dentro de una ejecución de recorrido. Si un perfil vuelve a entrar en la recorrido, se utiliza un instanceId diferente. Este nuevo instanceId es el mismo para todos los eventos de paso de la instancia reintroducida (de inicio a fin).
-* profileID: la identidad del perfil correspondiente al área de nombres de recorrido.
+* profileID: la identidad del perfil que corresponde al área de nombres de recorrido.
 
 >[!NOTE]
 >

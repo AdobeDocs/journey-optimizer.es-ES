@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Crear grupos de IP
 description: Obtenga información sobre cómo administrar grupos de IP
-feature: Application Settings
+feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: IP, grupos, grupo, subdominios, capacidad de entrega
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 11%

@@ -3,10 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Configuración del canal SMS
 description: Aprenda a configurar su entorno para enviar SMS con Journey Optimizer
+feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: ef9d50ba9806ade40cfa9db7bb6b9e31274a208f
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 17%

@@ -2,11 +2,10 @@
 title: Campos XDM de eventos de acceso
 description: Obtenga más información acerca del esquema XDM DecisioningEvents.
 feature: Offers, Datasets
-topic: Integrations
 role: User
 level: Intermediate
 exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
-source-git-commit: 00bd3a2fb35ef2c634ed631b358a5256f47c7e58
+source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 67%
