@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
-source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
+source-git-commit: fb05b110fc1bd205810e7d85be4071644f52b191
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 20%
+source-wordcount: '481'
+ht-degree: 27%
 
 ---
 
@@ -33,9 +33,9 @@ Se necesita una configuración de desarrollador única para definir las vistas e
 
 ## Definir vistas en la implementación del SDK web {#define-views}
 
-Las vistas XDM se pueden aprovechar en el Adobe [!DNL Journey Optimizer] SPA para permitir a los especialistas en marketing ejecutar campañas de personalización y experimentación web en el editor visual web de la aplicación de la manera más rápida y eficaz. [Más información](web-spa-implementation.md)
+Las vistas XDM se pueden aprovechar en el Adobe [!DNL Journey Optimizer] SPA para permitir a los especialistas en marketing ejecutar campañas de personalización y experimentación web en el editor visual web de la aplicación de la manera más rápida y eficaz. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 
-Para poder acceder y crear vistas en la [!DNL Journey Optimizer] interfaz de usuario, asegúrese de seguir los pasos que se indican en [esta sección](web-spa-implementation.md#implement-xdm-views).
+Para poder acceder y crear vistas en la [!DNL Journey Optimizer] interfaz de usuario, asegúrese de seguir los pasos que se indican en [esta sección](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
 
 ## Descubra vistas en el diseñador web {#discover-views}
 
