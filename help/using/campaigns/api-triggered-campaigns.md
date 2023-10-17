@@ -9,14 +9,19 @@ role: Developer, Admin
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 7064d9e6dce2c2b96a0c0b4df5eff24e91d42260
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '936'
 ht-degree: 1%
 
 ---
 
 # Activación de campañas mediante las API {#trigger-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_api_profile_creation"
+>title="Tipo de campaña"
+>abstract="Para utilizar la función de disponibilidad limitada para enviar mensajes sin crear perfiles, siga los pasos detallados en la documentación."
 
 ## Acerca de las campañas activadas por API {#about}
 
