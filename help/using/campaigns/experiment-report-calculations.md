@@ -1,12 +1,11 @@
 ---
 title: Cálculos estadísticos Utilizados en el Informe de Experimentación
 description: Obtenga más información acerca de los cálculos estadísticos utilizados al ejecutar informes de experimentos
-feature: A/B Testing
-topic: Content Management
+feature: A/B Testing, Experimentation
 role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 1%
@@ -45,7 +44,7 @@ El panel Experimentación con Recorridos muestra intervalos de confianza &quot;v
 
 La secuencia de confianza para una variante individual `ν` es fundamental para la metodología estadística utilizada por el Adobe. Puede encontrar su definición en [esta página](https://doi.org/10.48550/arXiv.2103.06476) (reproducido desde [Waudby-Smith y otros.]).
 
-Si le interesa calcular un parámetro de destinatario `ψ` como la tasa de conversión de una variante en un experimento, la dicotomía entre una secuencia de intervalos de confianza (IC) de tiempo fijo y una secuencia de confianza uniforme en el tiempo puede resumirse de la siguiente manera:
+Si le interesa calcular un parámetro de destinatario `ψ` como la tasa de conversión de una variante en un experimento, la dicotomía entre una secuencia de intervalos de confianza (CI) de &quot;tiempo fijo&quot; y una secuencia de confianza uniforme en el tiempo (CC) se puede resumir de la siguiente manera:
 
 ![](assets/statistical_4.png){width="500" align="center"}
 

@@ -3,9 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Introducción a Journey Optimizer para administradores de sistemas
 description: Obtenga más información sobre cómo trabajar con Journey Optimizer como administrador de sistemas
+feature: Get Started
+role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 9f67172f31ddc1caef9d014c365f71e470e45390
+source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
