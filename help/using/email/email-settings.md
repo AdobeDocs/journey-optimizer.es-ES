@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: aa71769719dce607e5392c9d8167f3afe3884d5f
 workflow-type: tm+mt
-source-wordcount: '2258'
+source-wordcount: '2340'
 ht-degree: 12%
 
 ---
@@ -121,7 +121,12 @@ En el **[!UICONTROL Parámetros de encabezado]** , introduzca los nombres de rem
 
 * **[!UICONTROL Responder a (correo electrónico)]**: La dirección de correo electrónico que se utilizará cuando el destinatario haga clic en el **Responder** en el software de cliente de correo electrónico. [Más información](#reply-to-email)
 
-* **[!UICONTROL Correo electrónico de error]**: Todos los errores generados por los ISP después de unos días de envío del correo (devoluciones asincrónicas) se reciben en esta dirección.
+* **[!UICONTROL Correo electrónico de error]**: Todos los errores generados por los ISP después de unos días de envío del correo (devoluciones asincrónicas) se reciben en esta dirección. Las notificaciones fuera de la oficina y las respuestas a las preguntas y respuestas de desafío también se reciben en esta dirección.
+
+  >[!NOTE]
+  >
+  >Si desea recibir notificaciones fuera de la oficina y respuestas de desafío en una dirección de correo electrónico específica que no se delega al Adobe, debe configurar un [proceso de reenvío](#forward-email). En ese caso, asegúrese de tener una solución manual o automatizada para procesar los correos electrónicos que llegan a esta bandeja de entrada.
+
 
 >[!CAUTION]
 >
@@ -137,9 +142,9 @@ En el **[!UICONTROL Parámetros de encabezado]** , introduzca los nombres de rem
 
 Al definir la variable **[!UICONTROL Responder a (correo electrónico)]** dirección, puede especificar cualquier dirección de correo electrónico siempre que sea una dirección válida, en el formato correcto y sin errores tipográficos.
 
-Para garantizar una administración de respuestas adecuada, siga las recomendaciones a continuación:
+La bandeja de entrada utilizada para las respuestas recibirá todos los correos electrónicos de respuesta, excepto las notificaciones de fuera de la oficina y las respuestas de desafío, que se reciben en la **[!UICONTROL Correo electrónico de error]** dirección.
 
-* La bandeja de entrada utilizada para las respuestas recibirá todos los correos electrónicos de respuesta, incluidas las notificaciones fuera de la oficina y las respuestas de desafío. Por lo tanto, asegúrese de tener un proceso manual o automatizado para procesar los correos electrónicos que llegan a esta bandeja de entrada.
+Para garantizar una administración de respuestas adecuada, siga las recomendaciones a continuación:
 
 * Asegúrese de que la bandeja de entrada dedicada tenga suficiente capacidad de recepción para recibir todos los correos electrónicos de respuesta enviados mediante la superficie de correo electrónico. Si la bandeja de entrada devuelve devoluciones, es posible que algunas respuestas de sus clientes no se reciban.
 
@@ -157,18 +162,26 @@ Si se produce un error al enviar la superficie de correo electrónico, significa
 
 ### Reenviar correo electrónico {#forward-email}
 
-Si desea reenviar a una dirección de correo electrónico específica todos los correos electrónicos recibidos por [!DNL Journey Optimizer] para el subdominio delegado, póngase en contacto con el Servicio de atención al cliente de Adobe. Deberá proporcionar lo siguiente:
+Para reenviar a una dirección de correo electrónico específica todos los correos electrónicos recibidos por [!DNL Journey Optimizer] para el subdominio delegado, póngase en contacto con el Servicio de atención al cliente de Adobe.
+
+>[!NOTE]
+>
+>Si el subdominio utilizado para **[!UICONTROL Responder a (correo electrónico)]** La dirección no se ha delegado al Adobe. El reenvío no puede funcionar con esta dirección.
+
+Debe proporcionar lo siguiente:
 
 * La dirección de correo electrónico de reenvío que elija. Tenga en cuenta que el dominio de dirección de correo electrónico de reenvío no puede coincidir con ningún subdominio delegado al Adobe.
 * Nombre de la zona protegida.
-* Nombre de la superficie para la que se utilizará la dirección de correo electrónico de reenvío.
-* El actual **[!UICONTROL Responder a (correo electrónico)]** dirección definida en el nivel de superficie de canal.
+* El nombre de la superficie o subdominio para el que se utilizará la dirección de correo electrónico de reenvío.
+  <!--* The current **[!UICONTROL Reply to (email)]** address or **[!UICONTROL Error email]** address set at the channel surface level.-->
 
 >[!NOTE]
 >
 >Solo puede haber una dirección de correo electrónico de reenvío por subdominio. Por lo tanto, si varias superficies utilizan el mismo subdominio, se debe utilizar la misma dirección de correo electrónico de reenvío para todas ellas.
 
 La dirección de correo electrónico de reenvío se configura por Adobe. Esto puede tardar de 3 a 4 días.
+
+Una vez finalizado, todos los mensajes recibidos en la **[!UICONTROL Responder a (correo electrónico)]** y **[!UICONTROL Correo electrónico de error]** Las direcciones se reenvían a la dirección de correo electrónico específica proporcionada.
 
 ## Correo electrónico CCO {#bcc-email}
 
