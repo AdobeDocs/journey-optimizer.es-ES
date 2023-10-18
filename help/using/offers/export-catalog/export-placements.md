@@ -1,12 +1,12 @@
 ---
 title: Conjunto de datos de ubicaciones
 description: Esta sección enumera todos los campos utilizados en el conjunto de datos exportado para las ubicaciones
-feature: Offers, Datasets
+feature: Decision Management, Datasets
 topic: Integrations
-role: User
+role: User, Data Engineer
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 5%

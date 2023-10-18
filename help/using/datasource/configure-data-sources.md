@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Configuración de una fuente de datos
 description: Obtenga información sobre cómo configurar una fuente de datos
-feature: Data Sources
+feature: Journeys, Data Sources
 topic: Administration
-role: Admin
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Intermediate, Experienced
 keywords: datos, fuente, configuración, campo
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 8%

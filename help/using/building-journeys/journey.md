@@ -3,22 +3,22 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Introducción a los recorridos
 description: Introducción a los recorridos
-feature: Journeys
+feature: Journeys, Get Started, Overview
 role: User
-level: Beginner
+level: Beginner, Intermediate
 keywords: recorrido, descubrimiento, puesta en marcha
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 24%
+ht-degree: 27%
 
 ---
 
 
 # Introducción a los recorridos{#jo-general-principle}
 
-Uso [!DNL Journey Optimizer] para crear casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos.
+Utilice [!DNL Journey Optimizer] para crear casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos.
 
 Diseñe escenarios avanzados de varios pasos con las siguientes capacidades:
 

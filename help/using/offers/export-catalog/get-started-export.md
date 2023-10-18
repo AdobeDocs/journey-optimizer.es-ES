@@ -1,13 +1,13 @@
 ---
 title: Introducción a la exportación del catálogo de ofertas
 description: Obtenga información sobre cómo exportar el catálogo de ofertas como un conjunto de datos
-feature: Offers, Datasets
+feature: Decision Management, Datasets
 topic: Integrations
-role: User
+role: User, Data Engineer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
-workflow-type: ht
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 100%
 

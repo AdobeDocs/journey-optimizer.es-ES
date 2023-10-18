@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Adición de un mensaje en un recorrido
 description: Obtenga información sobre cómo agregar un mensaje en un recorrido
-feature: Journeys
+feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 17%

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Creación de un perfil de prueba
 description: Aprenda a crear un perfil de prueba
-feature: Journeys
+feature: Test Profiles, Profiles
 topic: Content Management
-role: User
+role: User, Data Engineer
 level: Intermediate
 keywords: perfiles de prueba, prueba, prueba, recorrido
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 4%

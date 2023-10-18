@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Creación de campañas de calentamiento de IP
 description: Obtenga información sobre cómo crear una campaña de calentamiento de IP
-feature: Channel Configuration
+feature: Campaigns, IP Warmup Plans
 topic: Administration
 role: Admin
 level: Intermediate
@@ -11,7 +11,7 @@ keywords: IP, grupos, capacidad de entrega
 hide: true
 hidefromtoc: true
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 82c189545ab4f37a2e4b1044c0b8cfeb539aed13
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 21%

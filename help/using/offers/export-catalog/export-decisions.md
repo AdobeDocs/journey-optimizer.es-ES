@@ -1,12 +1,12 @@
 ---
 title: Conjunto de datos de decisiones
 description: Esta sección enumera todos los campos utilizados en el conjunto de datos exportado para tomar decisiones
-feature: Offers, Datasets
+feature: Decision Management, Datasets
 topic: Integrations
-role: User
+role: User, Data Engineer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 3%

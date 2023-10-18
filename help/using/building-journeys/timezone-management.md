@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Administración de husos horarios
 description: Obtenga información acerca de la administración de husos horarios
-feature: Journeys
+feature: Journeys, Profiles
 topic: Content Management
 role: User
 level: Intermediate
 keywords: zona horaria, propiedades, recorrido, condición, hora, fecha, personalizado
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 2%

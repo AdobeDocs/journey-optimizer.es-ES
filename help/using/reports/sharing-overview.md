@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Información general sobre el uso compartido de los pasos del recorrido
 description: Información general sobre el uso compartido de los pasos del recorrido
-feature: Reporting, Journeys
+feature: Journeys, Reporting
 topic: Content Management
-role: User
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Experienced
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 7%

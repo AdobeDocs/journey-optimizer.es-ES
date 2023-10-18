@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Trabajar con políticas de consentimiento
 description: Aprenda a trabajar con las directivas de consentimiento de Adobe Experience Platform
-feature: Privacy
+feature: Journeys, Actions, Custom Actions, Privacy, Consent Management
 topic: Administration
-role: Admin,Developer
+role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: directivas, gobernanza, plataforma, escudo de atención sanitaria, consentimiento
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 77565a88d23f241a54a8622ceed0cd26fc4a31b2
-workflow-type: ht
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 100%
 

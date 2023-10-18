@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Actividad final
 description: Aprenda a utilizar la actividad final
-feature: Journeys
+feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: recorrido, actividad y final
 exl-id: 76c74ca3-edaa-48c5-8d6a-0906120e31a1
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 78%
