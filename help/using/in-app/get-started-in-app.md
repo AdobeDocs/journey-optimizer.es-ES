@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 100%
+source-wordcount: '211'
+ht-degree: 89%
 
 ---
 
@@ -22,8 +22,7 @@ Utilice Journey Optimizer para crear notificaciones en la aplicación y configur
 
 >[!AVAILABILITY]
 >
->Por ahora, el canal en la aplicación no está disponible para las organizaciones que hayan adquirido la oferta complementaria Adobe Healthcare Shield.
->
+>Por ahora, el canal en la aplicación no está disponible para las organizaciones que han adquirido el Adobe **Healthcare Shield** y **Escudo de seguridad y privacidad** ofertas de complementos.
 
 ## Requisitos previos{#prerequisites-in-app}
 
