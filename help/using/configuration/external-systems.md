@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Integración de Journey Optimizer con sistemas externos
 description: Conozca las prácticas recomendadas al integrar Journey Optimizer con sistemas externos
+feature: Integrations
 role: User
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 1534106b7ed80376060d39a445d5e706df832e05
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 32%

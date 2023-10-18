@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Exportación de conjuntos de datos a ubicaciones de almacenamiento en la nube
 description: Obtenga información sobre cómo exportar conjuntos de datos mediante destinos de almacenamiento en la nube de Adobe Experience Platform.
+feature: Datasets
 role: User
 level: Beginner
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: a5cb591a3340f2af27806967e5a1403be9fe26e4
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 6%
