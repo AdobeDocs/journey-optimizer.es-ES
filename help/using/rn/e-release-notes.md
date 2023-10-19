@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 62f3836494ae40cb4676f3e62ad4c8de2daa3ed9
+source-git-commit: b5d489779b150bdd3b9d7382b5710f7430620233
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '414'
 ht-degree: 24%
 
 ---
@@ -31,24 +31,6 @@ Las notas de la primera versión están sujetas a cambios sin previo aviso hasta
 
 Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 
-
-<table>
-<thead>
-<tr>
-<th><strong>Servicio de mensajes multimedia (MMS) en SMS (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del servicio de mensajes multimedia (MMS), lo que permite compartir imágenes, GIF o vídeos con sus clientes. Tenga en cuenta que esta función solo está disponible actualmente en versión beta con Sinch.</p>
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
-
-
 <table>
 <thead>
 <tr>
@@ -66,7 +48,38 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Audiencias compuestas en recorridos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede utilizar audiencias creadas en flujos de trabajo de maquetación en los recorridos para segmentar clientes. Una vez publicada una composición de audiencia y guardada la audiencia, utilice una actividad Leer audiencia para seleccionar esta nueva audiencia en el lienzo de recorrido.</p>
+<!--img src="assets/channel-reports.png"/-->
+<p>Para obtener más información, consulte la <a href="../audience/get-started-audience-orchestration.md">documentación detallada</a>.</p>
+</tr>
+</tbody>
+</table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Servicio de mensajes multimedia (MMS) en SMS (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del servicio de mensajes multimedia (MMS), lo que permite compartir imágenes, GIF o vídeos con sus clientes. Tenga en cuenta que esta función solo está disponible actualmente en versión beta con Sinch.</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 ### Mejoras {#oct-2023-improvements}
 
@@ -75,7 +88,6 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 **Audiences**
 
 * Ahora puede segmentar audiencias cargadas desde un archivo CSV a recorridos y campañas.
-* Ahora puede segmentar audiencias resultantes de flujos de trabajo de maquetación en sus recorridos.
 
 **Puntuación de spam para correos electrónicos**
 
