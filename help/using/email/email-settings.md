@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: aa71769719dce607e5392c9d8167f3afe3884d5f
+source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
 workflow-type: tm+mt
 source-wordcount: '2340'
 ht-degree: 12%
@@ -123,10 +123,7 @@ En el **[!UICONTROL Parámetros de encabezado]** , introduzca los nombres de rem
 
 * **[!UICONTROL Correo electrónico de error]**: Todos los errores generados por los ISP después de unos días de envío del correo (devoluciones asincrónicas) se reciben en esta dirección. Las notificaciones fuera de la oficina y las respuestas a las preguntas y respuestas de desafío también se reciben en esta dirección.
 
-  >[!NOTE]
-  >
-  >Si desea recibir notificaciones fuera de la oficina y respuestas de desafío en una dirección de correo electrónico específica que no se delega al Adobe, debe configurar un [proceso de reenvío](#forward-email). En ese caso, asegúrese de tener una solución manual o automatizada para procesar los correos electrónicos que llegan a esta bandeja de entrada.
-
+  Si desea recibir notificaciones fuera de la oficina y respuestas de desafío en una dirección de correo electrónico específica que no se delega al Adobe, debe configurar un [proceso de reenvío](#forward-email). En ese caso, asegúrese de tener una solución manual o automatizada para procesar los correos electrónicos que llegan a esta bandeja de entrada.
 
 >[!CAUTION]
 >
