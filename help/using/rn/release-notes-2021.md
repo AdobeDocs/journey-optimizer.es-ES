@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 88%
@@ -275,7 +275,7 @@ Consulte también [Notas de la versión de Adobe Experience Platform de octubre]
 
 **Diseño de contenido**
 
-* **Contexto**: las imágenes de fondo ahora se admiten en la vista previa en vivo. [Más información](../email/preview.md)
+* **Contexto**: las imágenes de fondo ahora se admiten en la vista previa en vivo. [Más información](../content-management/preview-test.md)
 * **Vínculo de no participación de un clic**: puede insertar un nuevo tipo de vínculo en el contenido del correo electrónico, el de **Exclusión**, que permite a los usuarios cancelar la suscripción de recibir sus comunicaciones con solo un clic, sin que se les redirija a una página de aterrizaje para confirmar la exclusión. [Más información](../privacy/opt-out.md#one-click-opt-out-link)
 
 **Personalización**
@@ -350,9 +350,9 @@ Consulte también [Notas de la versión de Adobe Experience Platform de octubre]
 
 **Previsualización y prueba**
 
-* La identidad y el área de nombres ahora son visibles en la **[!UICONTROL Previsualizar]** pantalla. [Más información](../email/preview.md#preview-your-messages)
+* La identidad y el área de nombres ahora son visibles en la **[!UICONTROL Previsualizar]** pantalla. [Más información](../content-management/preview-test.md#preview-your-messages)
 * El número de correos electrónicos de prueba para pruebas ahora está restringido a 10.
-* Los caracteres permitidos para el **Prefijo de línea de asunto** en las pruebas ahora están limitados. [Más información](../email/preview.md#send-proofs)
+* Los caracteres permitidos para el **Prefijo de línea de asunto** en las pruebas ahora están limitados. [Más información](../content-management/preview-test.md#send-proofs)
 
 **Editor de expresiones de personalización**
 

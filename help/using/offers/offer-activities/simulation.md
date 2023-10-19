@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 13%
@@ -85,8 +85,6 @@ En primer lugar, se deben seleccionar los perfiles de prueba que se van a utiliz
    >Los perfiles seleccionados permanecerán enumerados como perfiles de prueba en la **[!UICONTROL Simulación]** tabulador de sesión en sesión hasta que se eliminan mediante **[!UICONTROL Administrar perfil]**.
 
 1. Puede hacer clic en **[!UICONTROL Detalles del perfil]** vínculo para mostrar los datos de perfil seleccionados.
-
-<!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
 ## Agregar ámbitos de decisión {#add-decision-scopes}
 

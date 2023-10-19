@@ -1,40 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Previsualización y prueba del mensaje SMS
-description: Obtenga información sobre cómo previsualizar y probar su mensaje SMS en Journey Optimizer
+title: Comprobación y prueba del mensaje SMS
+description: Obtenga información sobre cómo comprobar y enviar su mensaje SMS en Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 12%
+source-wordcount: '257'
+ht-degree: 6%
 
 ---
 
-# Previsualización y prueba del mensaje SMS {#send-sms}
+# Compruebe y envíe su mensaje SMS {#send-sms}
 
 ## Previsualización de SMS {#preview-sms}
 
-Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje con los datos del perfil de prueba.
+Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizar su contenido. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje con los datos del perfil de prueba.
 
-1. Clic **[!UICONTROL Simular contenido]**.
+Para ello, haga clic en **[!UICONTROL Simular contenido]** a continuación, añada un perfil de prueba para comprobar el mensaje con los datos del perfil de prueba.
 
-1. Clic **[!UICONTROL Administración de perfiles de prueba]** para añadir un perfil de prueba.
+![](assets/sms_preview_2.png)
 
-1. Busque el perfil de prueba con la variable **[!UICONTROL Área de nombres de identidad]** y **[!UICONTROL Valor de identidad]** campos. A continuación, haga clic en **[!UICONTROL Añadir perfil]**.
-
-   ![](assets/sms_preview_3.png)
-
-1. Una vez seleccionado el perfil de prueba, puede cerrar el **[!UICONTROL Añadir perfil de prueba]** ventana.
-
-1. Desde el **Previsualización y prueba** , los datos de perfil de prueba se añaden al contenido del mensaje.
-
-   ![](assets/sms_preview_2.png)
-
+Encontrará información detallada sobre cómo seleccionar perfiles de prueba y previsualizar el contenido en el [Gestión de contenido](../content-management/preview-test.md) sección.
 
 ## Validar el SMS{#sms-validate}
 

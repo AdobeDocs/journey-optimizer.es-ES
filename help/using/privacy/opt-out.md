@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 97%
@@ -97,7 +97,7 @@ Si un usuario:
 
 El [Editor de expresiones](../personalization/personalization-build-expressions.md) en sí no realiza comprobaciones de consentimiento ni su cumplimiento, ya que no participa en el envío de mensajes.
 
-Sin embargo, el uso de etiquetas de control de acceso basadas en los derechos permite restringir qué campos se pueden utilizar para la personalización. La [previsualización del mensaje](../email/preview.md#preview-email) y [el servicio de procesamiento de correo electrónico](../email/preview.md#email-rendering) enmascararán los campos identificados con información confidencial.
+Sin embargo, el uso de etiquetas de control de acceso basadas en los derechos permite restringir qué campos se pueden utilizar para la personalización. La [previsualización del mensaje](../content-management/preview.md) y [el servicio de procesamiento de correo electrónico](../content-management/rendering.md) enmascararán los campos identificados con información confidencial.
 
 >[!NOTE]
 >

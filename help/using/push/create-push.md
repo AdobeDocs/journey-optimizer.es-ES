@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 16%
+source-wordcount: '717'
+ht-degree: 11%
 
 ---
 
@@ -46,7 +46,7 @@ Para crear una notificación push, siga los pasos a continuación:
 
 1. En la pantalla de configuración del recorrido, haga clic en **[!UICONTROL Editar contenido]** para configurar el contenido push. [Diseño de una notificación push](design-push.md)
 
-1. Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo.
+1. Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizar su contenido.
 
 1. Cuando la notificación push esté lista, complete la configuración de su [recorrido](../building-journeys/journey-gs.md) para enviarlo.
 
@@ -83,7 +83,7 @@ Para crear una notificación push, siga los pasos a continuación:
 
 1. En la pantalla de configuración de la campaña, haga clic en **[!UICONTROL Editar contenido]** para configurar el contenido push. [Diseño de una notificación push](design-push.md)
 
-1. Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo.
+1. Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizar su contenido.
 
 1. Cuando la notificación push esté lista, complete la configuración de su [campaña](../campaigns/create-campaign.md) para enviarlo.
 

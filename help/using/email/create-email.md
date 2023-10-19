@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: creación, correo electrónico, inicio, recorrido, campaña
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 9%
+source-wordcount: '916'
+ht-degree: 8%
 
 ---
 
@@ -146,11 +146,15 @@ Pueden producirse dos tipos de alertas:
 >
 >Para poder probar o activar el recorrido/campaña mediante el correo electrónico, debe resolver todos los **error** alertas.
 
-## Previsualización y envío del correo electrónico
+## Compruebe y envíe su correo electrónico
 
-Una vez definido el contenido del mensaje, puede previsualizarlo para controlar la renderización del correo electrónico y comprobar la configuración de personalización con perfiles de prueba. [Más información](preview.md)
+Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo, enviar pruebas y controlar su renderización en clientes populares de escritorio, móviles y web. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje con los datos del perfil de prueba.
+
+Para ello, haga clic en **[!UICONTROL Simular contenido]** a continuación, añada un perfil de prueba para comprobar el mensaje con los datos del perfil de prueba.
 
 ![](assets/email_designer_edit_simulate.png)
+
+Encontrará información detallada sobre cómo seleccionar perfiles de prueba y previsualizar el contenido en el [Gestión de contenido](../content-management/preview-test.md) sección.
 
 Cuando el correo electrónico esté listo, complete la configuración de su [recorrido](../building-journeys/journey-gs.md) o [campaña](../campaigns/create-campaign.md)y actívelo para enviar el mensaje.
 

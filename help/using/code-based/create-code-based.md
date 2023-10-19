@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1031'
 ht-degree: 12%
 
 ---
@@ -108,7 +108,7 @@ Ahora, tan pronto como el desarrollador realice una llamada de API o SDK para re
 >title="Previsualización de la experiencia basada en código"
 >abstract="Obtenga una simulación del aspecto que tendrá su experiencia basada en código."
 
-Para mostrar una previsualización de la experiencia basada en código modificada, siga los pasos a continuación.
+Para mostrar una previsualización de la experiencia basada en código modificada, siga los pasos a continuación. Encontrará información detallada sobre cómo seleccionar perfiles de prueba y previsualizar el contenido en el  [Previsualización y prueba de la página de contenido](../content-management/preview-test.md).
 
 >[!CAUTION]
 >

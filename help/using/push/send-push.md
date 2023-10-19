@@ -1,44 +1,33 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Previsualización y prueba de la notificación push
-description: Obtenga información sobre cómo previsualizar y probar las notificaciones push en Journey Optimizer
+title: Compruebe y envíe su notificación push
+description: Obtenga información sobre cómo comprobar y enviar la notificación push en Journey Optimizer
 feature: Push
 topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 9%
+source-wordcount: '356'
+ht-degree: 5%
 
 ---
 
-# Previsualización y prueba de la notificación push {#send-push}
+# Compruebe y envíe su notificación push {#send-push}
 
 ## Previsualización de la notificación push {#preview-push}
 
-Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje con los datos del perfil de prueba.
+Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizar su contenido. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje con los datos del perfil de prueba.
 
-1. Clic **[!UICONTROL Simular contenido]**.
+Para ello, haga clic en **[!UICONTROL Simular contenido]** a continuación, añada un perfil de prueba. A continuación, puede seleccionar el tipo de dispositivo para obtener una vista previa del contenido: **[!UICONTROL iOS]** o **[!UICONTROL Android]**.
 
-1. Clic **[!UICONTROL Administración de perfiles de prueba]** para añadir un perfil de prueba.
+![](assets/push_preview_3.png)
 
-1. Busque el perfil de prueba con la variable **[!UICONTROL Área de nombres de identidad]** y **[!UICONTROL Valor de identidad]** campos. A continuación, haga clic en **[!UICONTROL Añadir perfil]**.
-
-   ![](assets/push_preview_1.png)
-
-1. Una vez seleccionado el perfil de prueba, puede cerrar el **[!UICONTROL Añadir perfil de prueba]** ventana.
-
-1. Desde el **Previsualización y prueba** , los datos de perfil de prueba se añaden al contenido del mensaje.
-
-   Seleccione el tipo de dispositivo para previsualizar el contenido: **[!UICONTROL iOS]** o **[!UICONTROL Android]**.
-
-   ![](assets/push_preview_3.png)
+Encontrará información detallada sobre cómo seleccionar perfiles de prueba y previsualizar el contenido en el [Gestión de contenido](../content-management/preview-test.md) sección.
 
 ## Validación de la notificación push {#push-validate}
-
 
 Debe comprobar las alertas en la sección superior del editor. Algunas son simples advertencias, pero otras pueden impedir que envíe el mensaje. Pueden producirse dos tipos de alertas: advertencias y errores.
 

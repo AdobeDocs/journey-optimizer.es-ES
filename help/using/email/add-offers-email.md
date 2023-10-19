@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: ofertas, decisión, correos electrónicos, personalización, decisión
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -74,10 +74,6 @@ Puede obtener una vista previa de las diferentes ofertas que forman parte de la 
 ![](assets/deliver-offer-preview.png)
 
 Para mostrar las diferentes ofertas que forman parte de la decisión con un perfil de cliente, siga los pasos a continuación.
-
->[!NOTE]
->
->Debe tener perfiles de prueba disponibles para poder previsualizar los mensajes. Obtenga información sobre cómo [creación de perfiles de prueba](../audience/creating-test-profiles.md).
 
 1. Seleccione los perfiles de prueba que se utilizarán para previsualizar la oferta:
 

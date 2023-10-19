@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 1490ac2efd39c6bf9b6ca97e682750463e9f054d
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 11%
@@ -154,7 +154,7 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
 
    ![](assets/content_experiment_19.png)
 
-1. Una vez definido el contenido del mensaje, haga clic en **[!UICONTROL Simular contenido]** para controlar la renderización del envío y comprobar la configuración de personalización con perfiles de prueba. [Más información](../email/preview.md)
+1. Una vez definido el contenido del mensaje, haga clic en **[!UICONTROL Simular contenido]** para controlar la renderización del envío y comprobar la configuración de personalización con perfiles de prueba. [Más información](../content-management/preview-test.md)
 
 1. Cuando el experimento de contenido esté listo, puede hacer clic en en la página de resumen de Campaign **[!UICONTROL Revisar para activar]** para mostrar un resumen de la campaña. Las alertas se muestran si algún parámetro es incorrecto o falta.
 

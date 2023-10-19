@@ -11,7 +11,7 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: b524d0026f32eaf2d7421bb85188d01199cbf843
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 6%
@@ -80,7 +80,7 @@ En este ejemplo en particular, aprenda a enviar una atractiva notificación push
 
    ![](assets/gen-ai-title-7.png)
 
-1. Después de definir el contenido del mensaje, haga clic en **[!UICONTROL Simular contenido]** para controlar el procesamiento y comprobar la configuración de personalización con perfiles de prueba. [Más información](../email/preview.md)
+1. Después de definir el contenido del mensaje, haga clic en **[!UICONTROL Simular contenido]** para controlar el procesamiento y comprobar la configuración de personalización con perfiles de prueba. [Más información](../content-management/preview-test.md)
 
 1. Cuando el experimento de contenido esté listo, puede hacer clic en en la página de resumen de la campaña **[!UICONTROL Revisar para activar]** para mostrar un resumen de la campaña. Las alertas se muestran si algún parámetro es incorrecto o falta.
 

@@ -9,7 +9,7 @@ role: User, Data Engineer
 level: Intermediate
 keywords: perfiles de prueba, prueba, prueba, recorrido
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 4%
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 # Creación de perfiles de prueba {#create-test-profiles}
 
-Los perfiles de prueba son obligatorios al utilizar [modo de prueba](../building-journeys/testing-the-journey.md) en un recorrido y a [previsualización y prueba del contenido](../email/preview.md).
+Los perfiles de prueba son obligatorios al utilizar [modo de prueba](../building-journeys/testing-the-journey.md) en un recorrido y a [previsualización y prueba del contenido](../content-management/preview-test.md).
 
 Existen varias formas de crear perfiles de prueba. Puede encontrar en esta página los detalles para:
 

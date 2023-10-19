@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 100%
+source-wordcount: '455'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ Consulte las secciones siguientes para configurar su primer recorrido, agregar o
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **Prueba y validación**. Una vez definido el contenido, puede utilizar perfiles de prueba para previsualizarlo y probarlo. Si ha insertado [contenido personalizado](../../personalization/personalize.md), podrá comprobar cómo se muestra este en el mensaje con los datos del perfil de prueba. Además, aproveche la cuenta **Litmus** en [!DNL Journey Optimizer] para previsualizar instantáneamente su **procesamiento de correo electrónico** en clientes de correo electrónico populares. A continuación, puede asegurarse de que el contenido del correo electrónico tenga buen aspecto y funcione correctamente en cada bandeja de entrada. Obtenga información sobre cómo probar y validar los mensajes [en esta sección](../../email/preview.md).
+1. **Prueba y validación**. Una vez definido el contenido, puede utilizar perfiles de prueba para previsualizar su contenido. Si ha insertado [contenido personalizado](../../personalization/personalize.md), podrá comprobar cómo se muestra este en el mensaje con los datos del perfil de prueba. Además, aproveche la cuenta **Litmus** en [!DNL Journey Optimizer] para previsualizar instantáneamente su **procesamiento de correo electrónico** en clientes de correo electrónico populares. A continuación, puede asegurarse de que el contenido del correo electrónico tenga buen aspecto y funcione correctamente en cada bandeja de entrada. Obtenga información sobre cómo probar y validar los mensajes [en esta sección](../../content-management/preview-test.md).
 
 1. **Diseñar recorridos de clientes** para ofrecer experiencias personalizadas y contextuales. [!DNL Journey Optimizer] permiten crear casos prácticos de orquestación en tiempo real con información contextual almacenada en eventos o fuentes de datos. Diseñe escenarios avanzados de varios pasos con las siguientes capacidades:
 

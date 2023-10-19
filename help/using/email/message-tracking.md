@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: vínculos, seguimiento, monitorización, correo electrónico
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 36%
@@ -135,7 +135,7 @@ Una vez enviado el correo electrónico, cuando los destinatarios hacen clic en e
 
 >[!NOTE]
 >
->En el [prueba](preview.md#send-proofs) enviado a los perfiles de prueba, el vínculo a la página espejo no está activo. Solo se activa en los mensajes finales.
+>En el [prueba](../content-management/proofs.md) enviado a los perfiles de prueba, el vínculo a la página espejo no está activo. Solo se activa en los mensajes finales.
 
 El período de retención de una página espejo es de 60 días. Después de este retraso, la página espejo ya no estará disponible.
 
@@ -186,4 +186,4 @@ Ahora, cuando se envía el correo electrónico, este parámetro se anexa automá
 
 >[!NOTE]
 >
->Para verificar la dirección URL final, puede hacer lo siguiente [enviar una prueba](preview.md#send-proofs) y haga clic en el vínculo en el contenido del correo electrónico una vez que reciba la prueba. La dirección URL debe mostrar el parámetro de seguimiento. En el ejemplo anterior, la dirección URL final es: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+>Para verificar la dirección URL final, puede hacer lo siguiente [enviar una prueba](../content-management/preview-test.md#send-proofs) y haga clic en el vínculo en el contenido del correo electrónico una vez que reciba la prueba. La dirección URL debe mostrar el parámetro de seguimiento. En el ejemplo anterior, la dirección URL final es: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>

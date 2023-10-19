@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 19%
+source-wordcount: '832'
+ht-degree: 18%
 
 ---
 
@@ -86,28 +86,19 @@ Para obtener más información sobre cómo configurar una campaña, consulte [es
 >title="Previsualizar la experiencia web"
 >abstract="Obtenga una simulación del aspecto que tendrá su experiencia web."
 
-Una vez que [ha creado su experiencia web](edit-web-content.md) con el diseñador web, puede mostrar una vista previa de las páginas web modificadas antes de activar la campaña. Para ello, siga los pasos que aparecen a continuación.
+Una vez que [ha creado su experiencia web](edit-web-content.md) con el diseñador web, puede utilizar perfiles de prueba para obtener una vista previa de las páginas web modificadas. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este mediante los datos del perfil de prueba.
 
->[!CAUTION]
+Para ello, haga clic en **[!UICONTROL Simular contenido]** desde la pantalla editar contenido de la campaña web o el diseñador web, añada un perfil de prueba para comprobar la página web con los datos del perfil de prueba.
+
+![](assets/web-designer-preview.png)
+
+También puede abrirlo en el explorador predeterminado o copiar la dirección URL de prueba para pegarla en cualquier explorador. Esto le permite compartir el vínculo con su equipo y las partes interesadas, que pueden obtener una vista previa de la nueva experiencia web en cualquier explorador antes de que la campaña se ponga en marcha.
+
+>[!NOTE]
 >
->Debe tener perfiles de prueba disponibles para simular qué ofertas se les enviarán. Obtenga información sobre cómo [creación de perfiles de prueba](../audience/creating-test-profiles.md).
+>Al copiar la dirección URL de prueba, el contenido mostrado es el personalizado para el perfil de prueba utilizado cuando se generó la simulación de contenido en [!DNL Journey Optimizer].
 
-1. En la pantalla de edición de contenido de la campaña web o en el diseñador web, seleccione **[!UICONTROL Simular contenido]**.
-
-   <!--![](assets/web-designer-simulate.png)-->
-
-   ![](assets/web-campaign-simulate.png)
-
-1. Clic **[!UICONTROL Administración de perfiles de prueba]** para seleccionar uno o varios perfiles de prueba.
-1. Se muestra una vista previa de la página web modificada.
-
-   ![](assets/web-designer-preview.png)
-
-1. También puede abrirlo en el explorador predeterminado o copiar la dirección URL de prueba para pegarla en cualquier explorador. Esto le permite compartir el vínculo con su equipo y las partes interesadas, que pueden obtener una vista previa de la nueva experiencia web en cualquier explorador antes de que la campaña se ponga en marcha.
-
-   >[!NOTE]
-   >
-   >Al copiar la dirección URL de prueba, el contenido mostrado es el personalizado para el perfil de prueba utilizado cuando se generó la simulación de contenido en [!DNL Journey Optimizer].
+Encontrará información detallada sobre cómo seleccionar perfiles de prueba y previsualizar el contenido en el [Gestión de contenido](../content-management/preview-test.md) sección.
 
 ## Activación de la campaña web {#activate-web-campaign}
 

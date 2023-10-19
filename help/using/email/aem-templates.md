@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 3%
@@ -109,7 +109,7 @@ Una vez que la plantilla de Experience Manager esté disponible en Journey Optim
 
 1. Si ha añadido contenido personalizado a la plantilla de Experience Manager, haga clic en **[!UICONTROL Simular contenido]** para previsualizar cómo aparecerá en el mensaje mediante perfiles de prueba.
 
-[Más información sobre la vista previa y los perfiles de prueba](../email/preview.md)
+[Más información sobre la vista previa y los perfiles de prueba](../content-management/preview-test.md)
 
    ![](assets/aem_ajo_6.png)
 

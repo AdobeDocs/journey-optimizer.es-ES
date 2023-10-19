@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: f63f9d6ffd28d276f8a3dadbf8dc6b947b8331e7
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1106'
 ht-degree: 12%
 
 ---
@@ -164,21 +164,17 @@ Ahora puede utilizar esta plantilla al crear cualquier [email](../email/get-star
 
 Puede probar la renderización de cualquier plantilla de contenido de correo electrónico, ya se cree desde cero o desde un correo electrónico. Para ello, siga los pasos que aparecen a continuación.
 
->[!CAUTION]
->
->Para simular contenido, debe tener el **[!DNL Manage Simulate Content]** permiso incluido en el **[!DNL Content Library Manager]** perfil del producto. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
-
 1. Acceda a la lista de plantillas de contenido a través de **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Plantillas de contenido]** y seleccione cualquier plantilla.
 
 1. Clic **[!UICONTROL Editar contenido]** desde el **[!UICONTROL Propiedades de plantilla]**.
 
-1. Clic **[!UICONTROL Simular contenido]** y seleccione un perfil de prueba para comprobar el procesamiento de correo electrónico. Puede elegir la vista de escritorio o la vista móvil. [Más información](../email/preview.md)
+1. Clic **[!UICONTROL Simular contenido]** y seleccione un perfil de prueba para comprobar el procesamiento de correo electrónico. Puede elegir la vista de escritorio o la vista móvil. [Más información](../content-management/preview-test.md)
 
    ![](../email/assets/content-template-stimulate.png)
 
 1. Puede enviar una prueba para probar el contenido y que sea aprobado por algunos usuarios internos antes de utilizarlo en un recorrido o una campaña.
 
-   * Para ello, haga clic en el **[!UICONTROL Enviar prueba]** y siga los pasos descritos en [esta sección](../email/preview.md#send-proofs).
+   * Para ello, haga clic en el **[!UICONTROL Enviar prueba]** y siga los pasos descritos en [esta sección](../content-management/proofs.md).
 
    * Antes de enviar la prueba, debe seleccionar [superficie de correo electrónico](../configuration/channel-surfaces.md) que se utilizará para probar el contenido.
 
@@ -186,7 +182,7 @@ Puede probar la renderización de cualquier plantilla de contenido de correo ele
 
 >[!CAUTION]
 >
->Actualmente, el seguimiento no es compatible con las plantillas de contenido de prueba de correo electrónico, lo que significa que el seguimiento de eventos, parámetros de UTM y vínculos de página de aterrizaje no serán efectivos en las pruebas que se envían desde una plantilla. Para probar el seguimiento, [usar la plantilla de contenido](../email/use-email-templates.md) en un correo electrónico y [enviar una prueba](../email/preview.md#send-proofs).
+>Actualmente, el seguimiento no es compatible con las plantillas de contenido de prueba de correo electrónico, lo que significa que el seguimiento de eventos, parámetros de UTM y vínculos de página de aterrizaje no serán efectivos en las pruebas que se envían desde una plantilla. Para probar el seguimiento, [usar la plantilla de contenido](../email/use-email-templates.md) en un correo electrónico y [enviar una prueba](../content-management/preview-test.md#send-proofs).
 
 ## Vídeo explicativo {#video-templates}
 
