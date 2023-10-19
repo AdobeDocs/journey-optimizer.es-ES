@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 62f3836494ae40cb4676f3e62ad4c8de2daa3ed9
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 24%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 100%
 
 Las notas de la primera versión están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento. Los vínculos, las pantallas y la documentación actualizada se publican en las [notas de la versión](release-notes.md), en la fecha de la versión.
 
-## Notas de la versión anticipada de septiembre de 2023 {#sept-rn-2023}
+## Notas de la versión de octubre de 2023 {#oct-rn-2023}
 
-**Fecha de la versión**: 26-27 de septiembre de 2023
+**Fecha de lanzamiento**: 25-26 de octubre de 2023
 
-### Nuevas funciones{#sept-2023-features}
+### Nuevas funciones{#oct-2023-features}
 
 Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 
@@ -35,14 +35,14 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <table>
 <thead>
 <tr>
-<th><strong>Informes de los canales consolidados</strong><br/></th>
+<th><strong>Servicio de mensajes multimedia (MMS) en SMS (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La funcionalidad Informe de canal ofrece a los analistas y expertos en marketing información general completa de las métricas de tráfico y de participación a nivel de canal. Para acceder al menú “Informe”, debe tener el permiso “Ver informes de canal”.</p>
-<img src="assets/channel-reports.png"/>
+<p>Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del servicio de mensajes multimedia (MMS), lo que permite compartir imágenes, GIF o vídeos con sus clientes. Tenga en cuenta que esta función solo está disponible actualmente en versión beta con Sinch.</p>
+<!--img src="assets/channel-reports.png"/-->
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
@@ -52,97 +52,51 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <table>
 <thead>
 <tr>
-<th><strong>Destinos de exportación del conjunto de datos (GA)</strong><br/></th>
+<th><strong>Herramientas de espacio aislado</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La exportación de conjuntos de datos de Journey Optimizer a destinos de almacenamiento en la nube ya está disponible de forma general. Esta funcionalidad le permite establecer una conexión activa con las ubicaciones de almacenamiento en la nube para exportar el contenido de los conjuntos de datos.</p>
-<img src="../data/assets/dataset-export-setup.png">
+<p>Puede utilizar la función de herramientas de zona protegida de Adobe Journey Optimizer para seleccionar diferentes objetos y exportarlos a un paquete. Un paquete puede constar de un solo objeto, varios objetos o una zona protegida completa. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.</p>
+<!--img src="../data/assets/dataset-export-setup.png"-->
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Almacenamiento de las credenciales de aplicación móvil por zona protegida</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Esta nueva funcionalidad le permite administrar y asociar fácilmente las credenciales push con una zona protegida en las superficies de la aplicación.</p>
-<p>Para obtener más información, consulte la <a href="../in-app/inapp-configuration.md">documentación detallada</a>.</p>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Atributos calculados</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Los atributos calculados permiten que la funcionalidad resuma fácilmente los datos de evento en atributos de perfil a través de una interfaz de usuario intuitiva para mejorar la segmentación, personalización y activación basada en el comportamiento. Con esta funcionalidad, puede crear atributos calculados de forma automática, administrarlos y utilizarlos en segmentación, destinos de perfil del cliente en tiempo real o Journey Optimizer.<br/><br/>
-Además, los atributos calculados simplifican la segmentación y los flujos de trabajo del recorrido para ofrecer experiencias relevantes. Obtenga más información en la <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html?lang=es">documentación detallada</a>.</p>
-<img src="assets/do-not-localize/computed-attributes.gif">
-</tr>
-</tbody>
-</table>
 
 
-### Mejoras {#sept-2023-improvements}
+### Mejoras {#oct-2023-improvements}
 
 Esta versión incorpora las mejoras que se enumeran a continuación.
 
-<!--**Audiences**
+**Audiences**
 
-* You can now target audiences uploaded from a CSV file into journeys and campaigns.
-* You can now target audiences resulting from composition workflows into journeys. -->
+* Ahora puede segmentar audiencias cargadas desde un archivo CSV a recorridos y campañas.
+* Ahora puede segmentar audiencias resultantes de flujos de trabajo de maquetación en sus recorridos.
 
-**Personalización**
+**Puntuación de spam para correos electrónicos**
 
-* Además de los fragmentos visuales, ahora es posible crear, guardar y reutilizar fragmentos de expresiones desde la interfaz de Journey Optimizer a través del editor de expresiones. Los fragmentos de expresión reemplazan a las expresiones guardadas anteriormente.
+* Al simular el contenido de un correo electrónico, una nueva opción le permite comprobar el rendimiento del contenido frente al filtrado de correo no deseado de las bandejas de entrada. Actualmente, esta función se propone solo a un conjunto de clientes (disponibilidad limitada) y está disponible para el canal de correo electrónico.
 
 **Alerta**
 
-* Se ha introducido un nuevo tipo de alerta del sistema. Ahora puede recibir notificaciones cuando falle un público de lectura.
+* Las nuevas alertas relacionadas con campañas de Journey Optimizer ya están disponibles en el **Alertas** menú.
 
-**Canal web**
+**Campañas**
 
-* Ahora, se pueden crear las aplicaciones de una sola página (SPA) en el editor visual del diseñador web, lo que le permite seleccionar a qué vistas específicas desea aplicar las modificaciones de la página web. Una vista puede definirse como un sitio completo o un grupo de elementos visuales en un sitio, como la página de inicio, la totalidad de productos del sitio o el marco de preferencias de envío en todas las páginas de cierre de compra. Para crear y ejecutar campañas web de Adobe Journey Optimizer en SPA, se necesita una configuración de desarrollador única para definir las vistas en la implementación del SDK web de Adobe Experience Platform.
-
-* Al editar una página con el diseñador web, ahora puede añadir nuevos cambios al contenido directamente desde el panel **Modificaciones**, sin necesidad de seleccionar un componente y editarlo desde la interfaz del diseñador.
-* A la hora de configurar los subdominios web, tiene la opción de añadir su propio subdominio, además de utilizar uno ya delegado a Adobe.
+* Ahora puede detener una campaña única activa, realizar modificaciones y reanudarla de nuevo. Esta mejora está disponible en versión beta.
 
 **Recorridos**
 
-* La compatibilidad con las respuestas de acciones personalizadas ahora es GA. Esto permite aprovechar las respuestas de las llamadas de la API en acciones personalizadas y organizar su recorrido en función de estas respuestas. Además, se ha añadido un nuevo mecanismo de protección para limitar todas las acciones habituales a 5000 llamadas por extremo.
-* Al duplicar un recorrido, puede definir el nombre de la copia.
+* La duración máxima que puede definir en la actividad Espera ahora es 29 días en lugar de 30.
 
-<!--
-* The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
--->
+**Páginas de aterrizaje**
 
-**Canal de correo electrónico**
+* Al utilizar el componente de formulario de página de aterrizaje, ahora puede agregar un campo de correo electrónico con sus propias opciones específicas.
 
-Una nueva opción en la configuración de la superficie del correo electrónico permite elegir el envío de los mensajes transaccionales a perfiles, incluso si sus direcciones de correo electrónico están en la lista de supresión de Adobe Journey Optimizer.
+**Consentimiento en la configuración del canal**
 
-**Canal de SMS**
-
-Dos campos nuevos, **Mensaje de inclusión** y **Mensaje de ayuda**, se han añadido a la pantalla de configuración de la API, lo que permite a los usuarios personalizar las respuestas para las palabras clave entrantes. Tenga en cuenta que esto solo está disponible para el proveedor de SMS de Sinch.
-
-**Creación de informes**
-
-Ahora puede exportar informes de Journey Optimizer como un archivo CSV. [Más información](../reports/global-report.md#export-reports)
-
-<!--**Decision management**
-
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
+* Ahora puede seleccionar una acción de marketing en el nivel de superficie de canal. Cuando se utilizan en una superficie, todas las políticas de consentimiento asociadas con esa acción de marketing se aprovechan para respetar las preferencias de los clientes.
