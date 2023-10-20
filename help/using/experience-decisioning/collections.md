@@ -9,14 +9,29 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 17%
+source-wordcount: '393'
+ht-degree: 13%
 
 ---
 
 # Colecciones {#collections}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_collections"
+>title="Crear colecciones"
+>abstract="Las colecciones le permiten categorizar y agrupar los elementos de decisión según sus preferencias. Estas categorías se crean creando reglas que aprovechan los atributos de los elementos de decisión."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_collection_rules"
+>title="Definir reglas para la colección"
+>abstract="Agregue una o varias reglas para determinar los elementos que se incluirán en la colección. Elija un atributo de elemento para utilizarlo como criterio. Seleccione el operador deseado e introduzca el valor por el que filtrar. Añada tantas reglas como sea necesario."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_strategy_collection"
+>title="Elija una colección"
+>abstract="Seleccione la colección que contiene las ofertas que se deben tener en cuenta. Este paso es obligatorio al crear una estrategia de selección. Las colecciones le permiten categorizar y agrupar los elementos de decisión según sus preferencias. Por ejemplo, puede crear una colección que incluya todos los elementos de decisión con el valor &quot;Yoga&quot; en el atributo personalizado &quot;Categoría&quot;."
 
 >[!BEGINSHADEBOX]
 

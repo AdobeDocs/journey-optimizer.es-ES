@@ -9,14 +9,19 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 17%
+source-wordcount: '323'
+ht-degree: 15%
 
 ---
 
 # Reglas de decisión {#rules}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_config_rules"
+>title="Crear reglas de decisión"
+>abstract="Las reglas de decisión permiten definir la audiencia de los elementos de decisión mediante la aplicación de restricciones, ya sea directamente en el nivel del elemento de decisión o dentro de una estrategia de selección específica. Esto le permite controlar con precisión qué elementos se deben presentar a quién."
 
 >[!BEGINSHADEBOX]
 

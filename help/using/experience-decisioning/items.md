@@ -9,14 +9,20 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '1014'
 ht-degree: 7%
 
 ---
 
 # Elementos de decisión {#items}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_items"
+>title="Administrar elementos de decisión"
+>abstract="Journey Optimizer le permite crear ofertas de marketing, conocidas como elementos de decisión, que puede crear y organizar en un catálogo y colecciones centralizados. Actualmente, todos los elementos de decisión creados se consolidan dentro de un único catálogo &quot;Ofertas&quot;. Desde esta pantalla, también puede acceder al esquema del catálogo mediante el **Editar esquema** y cree atributos personalizados para los elementos de decisión."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="Configuración del catálogo de elementos"
 
 >[!BEGINSHADEBOX]
 
@@ -40,6 +46,24 @@ Journey Optimizer le permite crear ofertas de marketing, conocidas como elemento
 Antes de crear un elemento de decisión, asegúrese de haber creado un **regla de decisión** si desea establecer condiciones para determinar a quién se puede mostrar el elemento de decisión. [Obtenga información sobre cómo crear reglas de decisión](rules.md).
 
 ## Creación de su primer elemento de decisión
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_priority"
+>title="Definir la prioridad del elemento de decisión"
+>abstract="Si un perfil cumple los requisitos para varios elementos, la prioridad permite comparar este elemento de decisión con otros. Una prioridad mayor otorga al elemento prioridad sobre otros."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_custom_attributes"
+>title="Definición de los atributos personalizados"
+>abstract="Los atributos personalizados son atributos específicos adaptados a sus necesidades que puede asignar a un elemento de decisión. Se crean en el esquema de catálogo de los elementos de decisión. Esta sección solo se muestra si ha añadido al menos un atributo personalizado al esquema del catálogo."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="Configuración del catálogo de elementos"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_constraints"
+>title="Adición de audiencias o reglas de decisión"
+>abstract="De forma predeterminada, todos los perfiles son aptos para recibir el elemento de decisión, pero puede utilizar audiencias o reglas para restringir el elemento únicamente a perfiles específicos."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Usar audiencias"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="Usar reglas de decisión"
 
 Para crear un elemento de decisión, siga estos pasos:
 
@@ -71,7 +95,7 @@ Para crear un elemento de decisión, siga estos pasos:
 
    ![](assets/item-constraints.png)
 
-   * Para limitar la presentación del elemento de decisión a los miembros de una o varias audiencias de Adobe Experience Platform, seleccione la **[!UICONTROL Visitantes de una o varias audiencias]** y, a continuación, añada una o varias audiencias desde el panel izquierdo y combínelas con la opción **[!UICONTROL Y]** / **[!UICONTROL O]** operadores lógicos. [Más información sobre las audiencias](../audience/about-audiences.md).
+   * Para limitar la presentación del elemento de decisión a los miembros de una o varias audiencias de Adobe Experience Platform, seleccione la **[!UICONTROL Visitantes de una o varias audiencias]** y, a continuación, añada una o varias audiencias desde el panel izquierdo y combínelas con la opción **[!UICONTROL Y]** / **[!UICONTROL O]** operadores lógicos. [Más información sobre los públicos](../audience/about-audiences.md).
 
    * Para asociar una regla de decisión específica al elemento de decisión, seleccione **[!UICONTROL Por regla]** A continuación, arrastre la regla deseada desde el panel izquierdo al área central. [Más información sobre las reglas de decisión](rules.md).
 
