@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1727'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -48,7 +48,7 @@ Para enviar mensajes con recorridos, se requieren las siguientes configuraciones
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Recorridos"
->abstract="Diseñar recorridos de clientes para ofrecer experiencias personalizadas y contextuales. Journey Optimizer permite crear casos de uso de orquestación en tiempo real con datos contextuales almacenados en eventos o fuentes de datos. El **Información general** La pestaña muestra un tablero con métricas clave relacionadas con los recorridos. El **Examinar** La pestaña muestra la lista de recorridos existentes."
+>abstract="Diseñar recorridos de clientes para ofrecer experiencias personalizadas y contextuales. Journey Optimizer permite crear casos prácticos de orquestación en tiempo real con información contextual almacenada en eventos o fuentes de datos. La pestaña **Información general** muestra un panel con métricas clave relacionadas con los recorridos. La pestaña **Examinar** muestra la lista de recorridos existentes."
 
 En la sección del menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTROL Recorridos]**. Hay dos pestañas disponibles:
 

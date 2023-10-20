@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
 workflow-type: tm+mt
 source-wordcount: '3192'
-ht-degree: 16%
+ht-degree: 25%
 
 ---
 
@@ -122,48 +122,48 @@ Para profundizar en estos resultados y en cómo interpretarlos, consulte [esta p
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_statistics"
->title="Correo electrónico: estadísticas de envío"
->abstract="La tabla de estadísticas Correo electrónico: envío resume los datos esenciales sobre el correo electrónico, como Segmentado o Enviado."
+>title="Correo electrónico: Estadísticas de envío"
+>abstract="La tabla Correo electrónico: Estadísticas de envío resume los datos esenciales sobre sus correos electrónicos, como los segmentados o enviados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_tracking_statistics"
->title="Correo electrónico: estadísticas de seguimiento"
->abstract="La tabla de estadísticas Correo electrónico: seguimiento proporciona datos sobre la actividad de perfil del correo electrónico."
+>title="Correo electrónico: Estadísticas de seguimiento"
+>abstract="La tabla Correo electrónico: Estadísticas de seguimiento proporciona datos sobre la actividad del perfil del Correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_performance"
->title="Correo electrónico: rendimiento de envío"
->abstract="El gráfico de rendimiento Correo electrónico: envío presenta datos completos sobre los correos electrónicos enviados, ofreciendo perspectivas sobre métricas clave como envíos y devoluciones, lo que permite un análisis detallado del proceso de envío de correo electrónico."
+>title="Correo electrónico: Rendimiento de envío"
+>abstract="El gráfico Correo electrónico: Rendimiento de envío presenta datos completos sobre los correos electrónicos enviados, ofreciendo perspectivas sobre métricas clave como envíos y rechazos, lo que permite un análisis detallado del proceso de envío de correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounce_categories"
->title="Correo electrónico: categorías de rechazo"
->abstract="Los gráficos y la tabla Correo electrónico: categorías de rechazo proporcionan datos sobre errores temporales y permanentes."
+>title="Correo electrónico: Categorías de Rechazo"
+>abstract="Los gráficos y la tabla Correo electrónico: Categorías de rechazo proporcionan datos sobre errores tanto temporales como permanentes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounce_reasons"
->title="Correo electrónico: motivos de rechazos"
->abstract="Los gráficos y la tabla de motivos de rechazos de correo electrónico contienen los datos disponibles relacionados con los mensajes rechazados."
+>title="Correo electrónico: motivos de los Rechazos"
+>abstract="El correo electrónico: los gráficos y la tabla Motivos de rechazos contienen los datos disponibles relacionados con los mensajes rechazados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_error_reasons"
->title="Correo electrónico: razones de error"
->abstract="Los gráficos y la tabla Correo electrónico: motivos de error permiten identificar los errores específicos que se produjeron durante el proceso de envío."
+>title="Correo electrónico: Motivos de error"
+>abstract="El correo electrónico: los gráficos y la tabla Motivos de error permiten le permiten identificar los errores específicos que se produjeron durante el envío."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_excluded_reasons"
->title="Correo electrónico: razones de exclusión"
+>title="Correo electrónico: Motivos excluidos"
 >abstract="Los gráficos y la tabla Motivos excluidos ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos del público destinatario, no recibieran el mensaje."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_top_url"
 >title="Correo electrónico: URL principal"
->abstract="El gráfico y la tabla Correo electrónico: URL principales ofrecen una visión general de las direcciones URL del correo electrónico que reciben el mayor tráfico de visitantes, lo que le permite identificar los vínculos más populares."
+>abstract="Correo electrónico: el gráfico y la tabla URL principal ofrecen una visión general de las direcciones URL dentro del correo electrónico que reciben el mayor tráfico de visitantes, lo que le permite identificar los vínculos más populares."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_best_recipient"
->title="Correo electrónico: dominio del mejor destinatario"
->abstract="El gráfico y la tabla Correo electrónico: el mejor dominio de destinatario proporcionan un desglose detallado de los dominios que los destinatarios utilizan con más frecuencia para abrir el correo electrónico, lo que ofrece información valiosa sobre el comportamiento de los destinatarios."
+>title="Correo electrónico: Dominio del mejor destinatario"
+>abstract="Correo electrónico: el gráfico y la tabla Dominio del mejor destinatario proporcionan un desglose detallado de los dominios que los destinatarios utilizan con más frecuencia para abrir el correo electrónico, lo que ofrece información valiosa sobre el comportamiento de los destinatarios."
 
 ![](assets/campaign_report_global_2.png)
 
@@ -309,7 +309,7 @@ El **[!UICONTROL Resumen en la aplicación]** Este gráfico muestra la evolució
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_tracking_statistics"
 >title="Notificación push: estadísticas de seguimiento"
->abstract="Las estadísticas de seguimiento push proporcionan datos sobre la actividad del perfil para la notificación push."
+>abstract="Las Estadísticas de seguimiento push proporcionan datos sobre la actividad del perfil de su notificación push."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_sending_summary"
@@ -324,7 +324,7 @@ El **[!UICONTROL Resumen en la aplicación]** Este gráfico muestra la evolució
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_error_reasons"
 >title="Notificación push: motivos del error"
->abstract="Los gráficos y la tabla Motivos del error permiten identificar los errores específicos que se produjeron durante el proceso de envío."
+>abstract="Los gráficos y la tabla Motivos del error le permiten identificar los errores específicos que se produjeron durante el proceso de envío."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
@@ -416,7 +416,7 @@ El **[!UICONTROL Desglose por plataforma]** el gráfico y la tabla detallan el �
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_error_reasons"
 >title="SMS: motivos de error"
->abstract="Los gráficos y la tabla SMS: motivos de error le permiten identificar los errores específicos que se produjeron durante el proceso de envío."
+>abstract="SMS: los gráficos y la tabla Motivos de error le permiten identificar los errores específicos que se produjeron durante el proceso de envío."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
@@ -516,7 +516,7 @@ El **[!UICONTROL Interacciones por elemento]** La tabla detalla la información 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_error_reasons"
 >title="Correo directo: motivos de error"
->abstract="Los gráficos y la tabla Correo directo: motivos de error le permiten identificar los errores específicos que se produjeron durante el proceso de envío."
+>abstract="Los gráficos y la tabla Correo directo: motivos de error le permiten identificar los errores específicos que se produjeron durante el envío."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_excluded_reasons"

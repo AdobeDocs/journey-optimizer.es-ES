@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 25%
+ht-degree: 39%
 
 ---
 
@@ -58,43 +58,43 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_sending_statistics"
->title="Correo electrónico: estadísticas de envío"
->abstract="El gráfico Estadísticas de envío por correo electrónico resume los datos esenciales sobre su correo electrónico, como los mensajes dirigidos o enviados en las últimas 24 horas."
+>title="Correo electrónico: Estadísticas de envío"
+>abstract="El gráfico Estadísticas del envío de correo electrónico resume los datos esenciales sobre sus correos electrónicos, como los segmentados o enviados en las últimas 24 horas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_statistics"
->title="Correo electrónico: estadísticas"
->abstract="La tabla Correo electrónico: estadísticas proporciona datos sobre la actividad del perfil del correo electrónico de las últimas 24 horas."
+>title="Correo electrónico: Estadísticas"
+>abstract="La tabla Correo electrónico: Estadísticas proporciona datos sobre la actividad del perfil de su correo electrónico en las últimas 24 horas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_bounce_categories"
->title="Correo electrónico: categorías de rechazo"
->abstract="Los gráficos y la tabla de categorías de rechazo de correo electrónico proporcionan datos sobre errores temporales y permanentes de las últimas 24 horas."
+>title="Correo electrónico: Categorías de Rechazo"
+>abstract="Los gráficos y la tabla de categorías de Rechazo de correo electrónico proporcionan datos sobre errores temporales y permanentes de las últimas 24 horas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_performance_bydate"
->title="Correo electrónico: rendimiento por fecha"
->abstract="El gráfico Correo electrónico: rendimiento por fecha presenta datos completos de las últimas 24 horas sobre los correos electrónicos enviados, ofreciendo información sobre métricas clave como envíos y devoluciones, lo que permite un análisis detallado del proceso de envío de correo electrónico."
+>title="Correo electrónico: Rendimiento por fecha"
+>abstract="El gráfico Correo electrónico: Rendimiento por fecha presenta datos completos de las últimas 24 horas sobre los correos electrónicos enviados, ofreciendo información sobre métricas clave como envíos y devoluciones, lo que permite un análisis detallado del proceso de envío de correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_bounce_reasons"
->title="Correo electrónico: motivos de rechazos"
->abstract="Los gráficos y la tabla de motivos de rechazos de correo electrónico contienen los datos disponibles relacionados con los mensajes rechazados de las últimas 24 horas."
+>title="Correo electrónico: motivos de los Rechazos"
+>abstract="Los gráficos y la tabla Correo electrónico: Motivos de rechazos contienen los datos disponibles relacionados con los mensajes rechazados de las últimas 24 horas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_error_reasons"
->title="Correo electrónico: razones de error"
->abstract="Los gráficos y la tabla Correo electrónico: motivos de error permiten identificar los errores específicos que se produjeron durante el proceso de envío en las últimas 24 horas."
+>title="Correo electrónico: Motivos de error"
+>abstract="Los gráficos y la tabla Correo electrónico: Motivos de error permiten identificar los errores específicos que se han producido en las últimas 24 horas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_excluded_reasons"
->title="Correo electrónico: razones de exclusión"
+>title="Correo electrónico: Motivos excluidos"
 >abstract="Los gráficos y la tabla Motivos de exclusión ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos del público destinatario, no recibieran el mensaje en las últimas 24 horas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_best_recipient"
->title="Correo electrónico: dominio del mejor destinatario"
->abstract="El gráfico y la tabla Correo electrónico: el mejor dominio de destinatario proporcionan un desglose detallado de los dominios que los destinatarios utilizan con más frecuencia para abrir el correo electrónico, lo que ofrece información valiosa sobre el comportamiento de los destinatarios desde las últimas 24 horas."
+>title="Correo electrónico: Dominio del mejor destinatario"
+>abstract="El gráfico y la tabla Correo electrónico: el mejor dominio de destinatario proporcionan un desglose detallado de los dominios que los destinatarios utilizan con más frecuencia para abrir el correo electrónico, lo que ofrece información valiosa sobre el comportamiento de los destinatarios en las últimas 24 horas."
 
 Desde la campaña **[!UICONTROL Informe en vivo]**, el **[!UICONTROL Correo electrónico]** Esta pestaña detalla la información principal relativa al correo electrónico enviado en la campaña.
 
@@ -179,12 +179,12 @@ El **[!UICONTROL Interacciones por tipo]** en los gráficos y la tabla se detall
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_sending_performance"
 >title="Notificación push: rendimiento del envío"
->abstract="El gráfico Rendimiento de envío de notificaciones push resume los datos esenciales sobre la notificación push, como los errores o los mensajes enviados de las últimas 24 horas."
+>abstract="El gráfico Rendimiento del envío de notificación push resume los datos esenciales sobre la notificación push, como los errores o los mensajes enviados en las últimas 24 horas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_statistics"
 >title="Notificación push: estadísticas"
->abstract="La tabla Estadísticas push proporciona datos sobre la actividad del destinatario para la notificación push de las últimas 24 horas."
+>abstract="La tabla Estadísticas push proporciona datos sobre la actividad del destinatario referente a la notificación push en las últimas 24 horas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_sending_summary"
@@ -199,7 +199,7 @@ El **[!UICONTROL Interacciones por tipo]** en los gráficos y la tabla se detall
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_error_reasons"
 >title="Notificación push: motivos del error"
->abstract="Los gráficos y la tabla Motivos del error permiten identificar los errores específicos que se produjeron en las últimas 24 horas durante el proceso de envío."
+>abstract="Los gráficos y la tabla Motivos de error permiten identificar los errores específicos que se produjeron en las últimas 24 horas durante el envío."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_breakdown_platform"
@@ -250,7 +250,7 @@ El **[!UICONTROL Seguimiento por plataforma]**, **[!UICONTROL Envío por platafo
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
 >title="SMS: motivos de error"
->abstract="Los gráficos y la tabla SMS: motivos de error le permiten identificar los errores específicos que se produjeron en las últimas 24 horas durante el proceso de envío."
+>abstract="Los gráficos y la tabla SMS: Motivos de error permiten identificar los errores específicos que se produjeron en las últimas 24 horas durante el envío."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"

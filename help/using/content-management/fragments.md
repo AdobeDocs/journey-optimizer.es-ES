@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1548'
-ht-degree: 6%
+ht-degree: 13%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
->title="Definir sus propios fragmentos"
+>title="Defina sus propios fragmentos"
 >abstract="Cree y administre fragmentos independientes para que el contenido se pueda reutilizar en varios recorridos y campañas."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="Creación de fragmentos"
 
@@ -162,9 +162,9 @@ Para crear un fragmento desde cero, siga los pasos a continuación.
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_visual_fragment"
->title="Seleccionar el tipo visual"
+>title="Selección del tipo visual"
 >abstract="Cree un fragmento visual independiente para que el contenido se pueda reutilizar en un correo electrónico dentro de un recorrido, una campaña o una plantilla de contenido."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="Añadir fragmentos visuales a los correos electrónicos"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=es" text="Añadir fragmentos visuales a los correos electrónicos"
 
 1. [Crear un fragmento](#create-from-scratch) desde el **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Fragmentos]** menú de la izquierda y seleccione **[!UICONTROL Fragmento visual]** escriba.
 
@@ -192,7 +192,7 @@ Este fragmento ya está listo para utilizarse al crear cualquier [email](../emai
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
->title="Seleccione el tipo de expresión"
+>title="Selección del tipo de expresión"
 >abstract="Cree un fragmento de expresión independiente para que el contenido se pueda reutilizar en varios recorridos y campañas. Al utilizar el Editor de expresiones, puede aprovechar todos los fragmentos de expresiones que se han creado en la zona protegida actual."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Aprovechamiento de fragmentos de expresiones"
 

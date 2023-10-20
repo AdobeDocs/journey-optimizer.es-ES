@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 27%
+ht-degree: 34%
 
 ---
 
@@ -122,7 +122,7 @@ En el **[!UICONTROL Acciones]** , cree el mensaje que desea enviar con la campa�
 
 ## Definición de la audiencia {#audience}
 
-Haga clic en **[!UICONTROL Seleccionar audiencia]** para mostrar la lista de audiencias de Adobe Experience Platform disponibles. [Más información sobre las audiencias](../audience/about-audiences.md)
+Haga clic en **[!UICONTROL Seleccionar audiencia]** para mostrar la lista de audiencias de Adobe Experience Platform disponibles. [Más información sobre los públicos](../audience/about-audiences.md)
 
 >[!NOTE]
 >
@@ -143,7 +143,7 @@ En el **[!UICONTROL Área de nombres de identidad]** , elija el área de nombres
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="Programación de campañas"
->abstract="De forma predeterminada, las campañas se inician tras la activación manual y finalizan inmediatamente después de enviar el mensaje una vez. Sin embargo, tiene la flexibilidad de establecer una fecha y hora específicas para que se envíe el mensaje. Además, puede especificar una fecha de finalización para campañas recurrentes o activadas por API. En los déclencheur de acción, también puede configurar la frecuencia de envío de mensajes para adaptarla a sus preferencias."
+>abstract="De forma predeterminada, las campañas se inician tras la activación manual y finalizan inmediatamente después de enviar el mensaje una vez. Sin embargo, tiene la flexibilidad de establecer una fecha y hora específicas para que se envíe el mensaje. Además, puede especificar una fecha de finalización para campañas recurrentes o activadas por API. En los Activadores de acción, también puede configurar la frecuencia de envío de mensajes para adaptarla a sus preferencias."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"

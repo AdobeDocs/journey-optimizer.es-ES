@@ -11,7 +11,7 @@ exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
 workflow-type: tm+mt
 source-wordcount: '2664'
-ht-degree: 7%
+ht-degree: 32%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_level_report"
 >title="Informe de nivel de canal"
->abstract="Los informes de canal ofrecen una completa descripción general del tráfico y las métricas de participación en todos los canales. Los informes se dividen en diferentes widgets que detallan la campaña y los recorridos de éxito y error. Cada tablero de informes se puede modificar cambiando el tamaño de los widgets o eliminándolos."
+>abstract="Los informes de canal ofrecen una completa descripción general del tráfico y las métricas de participación en todos los canales. Los informes se dividen en diferentes widgets que detallan la campaña y los recorridos de éxito y error. Cada tablero de creación de informes se puede modificar cambiando el tamaño de los widgets o eliminándolos."
 
 >[!IMPORTANT]
 >
@@ -46,22 +46,22 @@ La página del informe se muestra con las siguientes pestañas:
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics"
 >title="Correo electrónico: estadísticas de envío totales"
->abstract="Los KPI de las estadísticas de envío por correo electrónico - Total resumen los datos esenciales sobre las notificaciones push, como los mensajes dirigidos o enviados."
+>abstract="Los KPI de Correo electrónico: Estadísticas totales de envío resumen los datos esenciales sobre las notificaciones push, como los mensajes dirigidos o enviados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_tracking_statistics"
->title="Correo electrónico: estadísticas totales de seguimiento"
->abstract="Los KPI de las estadísticas de seguimiento Correo electrónico - Total proporcionan datos sobre la actividad de perfil de los correos electrónicos."
+>title="Correo electrónico: Estadísticas totales de seguimiento"
+>abstract="Los KPI de Correo electrónico: Estadísticas totales de seguimiento, proporcionan datos sobre la actividad de perfil de los correos electrónicos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics_overtime"
->title="Correo electrónico: estadísticas de envío a lo largo del tiempo"
->abstract="El gráfico Estadísticas de envío por correo electrónico a lo largo del tiempo presenta datos sobre los correos electrónicos enviados, desglosados por hora, día, semana o mes."
+>title="Correo electrónico: Estadísticas de envío a lo largo del tiempo"
+>abstract="El gráfico Correo electrónico: Estadísticas de envío a lo largo del tiempo, presenta datos sobre los correos electrónicos enviados, desglosados por hora, día, semana o mes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_tracking_statistics_overtime"
->title="Correo electrónico: estadísticas de seguimiento a lo largo del tiempo"
->abstract="El gráfico de estadísticas de seguimiento de correo electrónico a lo largo del tiempo proporciona datos sobre la actividad del perfil de los correos electrónicos, desglosados por hora, día, semana o mes."
+>title="Correo electrónico: Estadísticas de seguimiento a lo largo del tiempo"
+>abstract="El gráfico Correo electrónico: Estadísticas de seguimiento a lo largo del tiempo, proporciona datos sobre la actividad del perfil de los correos electrónicos, desglosados por hora, día, semana o mes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_categories"
@@ -70,17 +70,17 @@ La página del informe se muestra con las siguientes pestañas:
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_reasons"
->title="Motivos del rechazo"
+>title="Motivos de rechazo"
 >abstract="Los gráficos y la tabla Motivos de rechazos contienen los datos disponibles relacionados con los mensajes rechazados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_error_reasons"
->title="Motivos del error"
->abstract="Los gráficos y la tabla Motivos del error permiten identificar los errores específicos que se produjeron durante el proceso de envío."
+>title="Motivos de error"
+>abstract="Los gráficos y la tabla Motivos del error le permiten identificar los errores específicos que se produjeron durante el proceso de envío."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_excluded_reasons"
->title="Razones de exclusión"
+>title="Motivos excluidos"
 >abstract="Los gráficos y la tabla Motivos excluidos ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos del público destinatario, no recibieran el mensaje."
 
 >[!CONTEXTUALHELP]
@@ -90,18 +90,18 @@ La página del informe se muestra con las siguientes pestañas:
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounces_errors_domains"
->title="Devoluciones y errores por dominios"
->abstract="El gráfico y la tabla Devoluciones y errores por dominios representan el desglose a nivel de dominio de errores específicos que se produjeron durante el proceso de envío."
+>title="Rechazos y errores por dominios"
+>abstract="El gráfico y la tabla Rechazos y errores por dominios representan el desglose a nivel de dominio de errores específicos que se produjeron durante el proceso de envío."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_open_clicks_domains"
->title="Abrir y hacer clic por dominios"
->abstract="El gráfico y la tabla Abrir y hacer clic por dominios representan el desglose a nivel de dominio de la participación de los visitantes con el correo electrónico."
+>title="Aperturas y clics por dominios"
+>abstract="El gráfico y la tabla Aperturas y clics por dominios representan el desglose a nivel de dominio de la participación de los visitantes con el correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_reasons_domains"
 >title="Razones de rechazo por dominio"
->abstract="El gráfico y la tabla de motivos de rechazo por dominio por dominios representan el desglose de datos a nivel de dominio sobre errores temporales y permanentes."
+>abstract="El gráfico y la tabla Motivos de rechazo por dominio por dominios representan el desglose de datos a nivel de dominio sobre errores temporales y permanentes."
 
 En los informes de canal, el menú Correo electrónico detalla la información principal relativa a los correos electrónicos enviados en las campañas y Recorridos. Las métricas se detallan a continuación.
 
@@ -183,7 +183,7 @@ El **[!UICONTROL Razones de rechazo por dominio]**, **[!UICONTROL Enviados y ent
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics"
 >title="Notificaciones push: estadísticas de envío totales"
->abstract="Las notificaciones push: los KPI de las estadísticas de envío totales resumen los datos esenciales sobre las notificaciones push, como las dirigidas o las enviadas."
+>abstract="Los KPI Notificaciones push: estadísticas de envío totales resumen los datos esenciales sobre las notificaciones push, como las dirigidas o las enviadas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics"
@@ -193,7 +193,7 @@ El **[!UICONTROL Razones de rechazo por dominio]**, **[!UICONTROL Enviados y ent
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics_overtime"
 >title="Notificaciones push: estadísticas de envío a lo largo del tiempo"
->abstract="El gráfico de estadísticas de envío de notificaciones push a lo largo del tiempo presenta datos sobre las notificaciones push enviadas, desglosados por hora, día, semana o mes."
+>abstract="El gráfico de estadísticas de Envío de notificaciones push a lo largo del tiempo presenta datos sobre las notificaciones push enviadas, desglosados por hora, día, semana o mes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_overtime"
@@ -202,13 +202,13 @@ El **[!UICONTROL Razones de rechazo por dominio]**, **[!UICONTROL Enviados y ent
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_excluded_reasons"
->title="Razones de exclusión"
+>title="Motivos excluidos"
 >abstract="Los gráficos y la tabla Motivos excluidos ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos del público destinatario, no recibieran el mensaje."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_error_reasons"
->title="Motivos del error"
->abstract="Los gráficos y la tabla Motivos del error permiten identificar los errores específicos que se produjeron durante el proceso de envío."
+>title="Motivos de error"
+>abstract="Los gráficos y la tabla Motivos del error le permiten identificar los errores específicos que se produjeron durante el proceso de envío."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_platform"
@@ -217,7 +217,7 @@ El **[!UICONTROL Razones de rechazo por dominio]**, **[!UICONTROL Enviados y ent
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics_platform"
->title="Envío de estadísticas por plataforma"
+>title="Estadísticas de envío por plataforma"
 >abstract="La tabla y el gráfico Enviar estadísticas por plataforma presentan los datos sobre las notificaciones push enviadas."
 
 En los informes de Canal, el menú Notificaciones push detalla la información principal relativa a las notificaciones push enviadas en las Campañas y Recorridos. Las métricas se detallan a continuación.
@@ -282,12 +282,12 @@ El **[!UICONTROL Seguimiento por plataforma]** y **[!UICONTROL Envío por plataf
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_sending_statistics"
 >title="SMS: estadísticas de envío totales"
->abstract="Los KPI de las estadísticas de envío total de SMS resumen los datos esenciales sobre sus mensajes SMS, como segmentados o enviados."
+>abstract="Los KPI SMS: estadísticas de envío totales resumen los datos esenciales sobre los mensajes SMS, como los mensajes segmentados o enviados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_tracking_statistics"
 >title="SMS: estadísticas de seguimiento totales"
->abstract="Las estadísticas de seguimiento SMS - Total proporcionan datos sobre la actividad del perfil para sus mensajes SMS."
+>abstract="Las estadísticas de seguimiento totales de SMS proporcionan datos sobre la actividad del perfil para los mensajes SMS."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_sending_statistics_overtime"
@@ -296,23 +296,23 @@ El **[!UICONTROL Seguimiento por plataforma]** y **[!UICONTROL Envío por plataf
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_tracking_statistics_overtime"
->title="SMS: estadísticas de seguimiento a lo largo del tiempo"
->abstract="El gráfico SMS: estadísticas de seguimiento a lo largo del tiempo proporciona datos sobre la actividad del perfil de sus mensajes SMS, desglosados por hora, día, semana o mes."
+>title="SMS: Estadísticas de seguimiento a lo largo del tiempo"
+>abstract="El gráfico SMS: estadísticas de seguimiento a lo largo del tiempo proporciona datos sobre la actividad del perfil de los mensajes SMS, desglosados por hora, día, semana o mes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_excluded_reasons"
->title="Razones de exclusión"
+>title="Motivos excluidos"
 >abstract="Los gráficos y la tabla Motivos excluidos ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos del público destinatario, no recibieran el mensaje."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_bounce_reasons"
->title="Motivos del rechazo"
+>title="Motivos de rechazo"
 >abstract="Los gráficos y la tabla Motivos de rechazos contienen los datos disponibles relacionados con los mensajes rechazados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_error_reasons"
->title="Motivos del error"
->abstract="Los gráficos y la tabla Motivos del error permiten identificar los errores específicos que se produjeron durante el proceso de envío."
+>title="Motivos de error"
+>abstract="Los gráficos y la tabla Motivos del error le permiten identificar los errores específicos que se produjeron durante el proceso de envío."
 
 En los informes de canal, el menú SMS detalla la información principal relativa a los SMS enviados en sus campañas y Recorridos. Las métricas se detallan a continuación.
 
@@ -367,17 +367,17 @@ El **[!UICONTROL Razones de exclusión]**, **[!UICONTROL Razones de rechazos]** 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_sending_statistics"
 >title="Correo directo: estadísticas de envío totales"
->abstract="Los KPI de las estadísticas de envío Correo directo: total resumen los datos esenciales sobre sus mensajes de correo directo, como Direccionado o Entregado."
+>abstract="Los KPI Correo directo: estadísticas de envío totales resume los datos esenciales sobre sus mensajes de correo directo, como los mensajes segmentados o enviados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_excluded_reasons"
->title="Razones de exclusión"
+>title="Motivos excluidos"
 >abstract="Los gráficos y la tabla Motivos excluidos ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos del público destinatario, no recibieran el mensaje."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_error_reasons"
->title="Motivos del error"
->abstract="Los gráficos y la tabla Motivos del error permiten identificar los errores específicos que se produjeron durante el proceso de envío."
+>title="Motivos de error"
+>abstract="Los gráficos y la tabla Motivos del error le permiten identificar los errores específicos que se produjeron durante el proceso de envío."
 
 En sus informes de canal, el menú Correo directo detalla la información principal relativa a los mensajes de correo directo enviados en sus campañas y Recorridos. Las métricas se detallan a continuación.
 
@@ -407,12 +407,12 @@ El **[!UICONTROL Razones de exclusión]** y **[!UICONTROL Motivos del error]** l
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement"
 >title="En la aplicación: participación total"
->abstract="Los KPI de participación total en la aplicación proporcionan información completa sobre la participación de los visitantes en los mensajes en la aplicación, incluidas métricas como Impresiones e Interacciones."
+>abstract="Los KPI En la aplicación: participación total proporcionan información completa sobre la participación de los visitantes en los mensajes en la aplicación, incluidas métricas como Impresiones e Interacciones."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement_overtime"
 >title="En la aplicación: tiempo extra de participación"
->abstract="El gráfico Tiempo extra de participación en la aplicación rastrea las impresiones e interacciones en la aplicación, y proporciona desgloses por hora, diario, semanal y mensual."
+>abstract="El gráfico En la aplicación: tiempo extra de participación rastrea las impresiones e interacciones en la aplicación, y proporciona desgloses por hora, día, semanal y mensual."
 
 En los informes de canal, el menú en la aplicación detalla la información principal relativa a los mensajes en la aplicación enviados en las campañas y Recorridos. Las métricas se detallan a continuación.
 
@@ -439,12 +439,12 @@ El **[!UICONTROL Horas extra de participación en la aplicación]** Este gráfic
 >[!CONTEXTUALHELP]
 >id="ajo_channel_web_engagement"
 >title="Web: participación total"
->abstract="Los KPI de participación web - total proporcionan información completa sobre la participación de los visitantes en sus páginas web, incluidas métricas como Impresiones e Interacciones."
+>abstract="Los KPI Web: participación total proporcionan información completa sobre la participación de los visitantes en sus páginas web, incluidas métricas como Impresiones e Interacciones."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_web_engagement_overtime"
->title="Web: tiempo extra de participación total"
->abstract="El gráfico Web: horas extra de participación rastrea las impresiones e interacciones de las páginas web, y proporciona desgloses por hora, día, semana y mes."
+>title="Web: Tiempo extra de participación total"
+>abstract="El gráfico Web: tiempo extra de participación rastrea las impresiones e interacciones de las páginas web, y proporciona desgloses por hora, día, semana y mes."
 
 En los informes de canal, el menú web detalla la información principal relativa a las páginas web incluidas en las campañas y Recorridos. Las métricas se detallan a continuación.
 
