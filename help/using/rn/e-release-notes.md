@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: bf85321377568aae1d28de8cd494d91d9eac601e
+source-git-commit: 1c7c854d9a9a316890380d9ff84de1d6b739b006
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 24%
+source-wordcount: '364'
+ht-degree: 27%
 
 ---
 
@@ -48,21 +48,21 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 </tbody>
 </table>
 
-<table>
+<!-- table>
 <thead>
 <tr>
-<th><strong>Audiencias compuestas en recorridos</strong><br/></th>
+<th><strong>Composed audiences in journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede utilizar audiencias creadas en flujos de trabajo de maquetación en los recorridos para segmentar clientes. Una vez publicada una composición de audiencia y guardada la audiencia, utilice una actividad Leer audiencia para seleccionar esta nueva audiencia en el lienzo de recorrido.</p>
+<p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
 <!--img src="assets/channel-reports.png"/-->
 <p>Para obtener más información, consulte la <a href="../audience/get-started-audience-orchestration.md">documentación detallada</a>.</p>
 </tr>
 </tbody>
-</table>
+&lt;/table --&gt;
 
 
 <table>
