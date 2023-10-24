@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1b37da28e6dbb03c8c76dd9a6637dfd95447eb7e
+source-git-commit: 74a4de20ae14923139cf6bf81676819355944ceb
 workflow-type: tm+mt
-source-wordcount: '4606'
+source-wordcount: '4605'
 ht-degree: 91%
 
 ---
@@ -108,13 +108,10 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 * When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
 
-**Alerta**
-
-* Cuando se produce un error en una de las campañas, ahora aparece un icono de advertencia en la lista de campañas junto con el estado de la campaña.
-
 **Campañas**
 
 * Ahora puede detener una campaña única activa, realizar modificaciones y reanudarla de nuevo. Esta mejora está disponible en versión beta.
+* Cuando se produce un error en una de las campañas, ahora aparece un icono de advertencia en la lista de campañas junto con el estado de la campaña.
 
 **Recorridos**
 
