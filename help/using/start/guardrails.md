@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
+source-git-commit: 59693650e3745471729a2d37998d6622a1a3c521
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 83%
+source-wordcount: '1650'
+ht-degree: 81%
 
 ---
 
@@ -124,7 +124,11 @@ Puede elegir entre una de estas dos soluciones:
 
 * El tamaño del contenido del mensaje en la aplicación está limitado a 2 Mb. La inclusión de imágenes grandes puede dificultar el proceso de publicación.
 
-## Gestión de decisiones {#decision-management}
+## Protecciones de audiencias {#audience}
+
+* Puede publicar hasta 10 composiciones de audiencia en una zona protegida determinada. Si ha alcanzado este umbral, debe eliminar una composición para liberar espacio y publicar una nueva.
+
+## Mecanismos de protección de gestión de decisiones {#decision-management}
 
 ### Protecciones de rendimiento {#performance-guardrails}
 
