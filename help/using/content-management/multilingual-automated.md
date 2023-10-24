@@ -10,9 +10,9 @@ level: Beginner
 keywords: introducción, inicio, contenido, experimento
 hide: true
 hidefromtoc: true
-source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
+source-git-commit: 8c95f35049da1b7ced9a5ecd9e267a8847c12481
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1260'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,10 @@ Inicie el proyecto de traducción especificando la configuración regional de Ta
 
    ![](assets/translation_project_2.png)
 
-1. Seleccione si las traducciones se publican automáticamente después de la aprobación y si desea habilitar el flujo de trabajo de revisión.
+1. Seleccione si desea activar las siguientes opciones:
+
+   * **[!UICONTROL Publicar automáticamente las traducciones aprobadas]**: una vez aprobadas las traducciones, se integran automáticamente en la campaña sin necesidad de intervención manual.
+   * **[!UICONTROL Habilitar flujo de trabajo de revisión]**: solo se aplica a configuraciones regionales traducidas por humanos. Esto permite a un revisor interno evaluar y aprobar o rechazar de forma eficaz el contenido traducido. [Más información](#review-translation-project)
 
 1. Clic **[!UICONTROL Añadir configuración regional]** para acceder al menú y definir los idiomas de su proyecto de traducción.
 
@@ -87,6 +90,8 @@ Inicie el proyecto de traducción especificando la configuración regional de Ta
 1. Seleccione en la lista su **[!UICONTROL Configuración regional(es) de destino]** y elija cuál **[!UICONTROL Proveedor de traducción]** que desee utilizar para cada configuración regional.
 
 1. Clic **[!UICONTROL Añadir una configuración regional]** cuando haya terminado de vincular la configuración regional de Target con el proveedor de traducción correcto. A continuación, haga clic en **[!UICONTROL Guardar]**.
+
+   Tenga en cuenta que si un proveedor está atenuado para una configuración regional de destino, indica que el proveedor no admite esa configuración regional en particular.
 
    ![](assets/translation_project_4.png)
 
@@ -192,12 +197,33 @@ La campaña está activada. El mensaje configurado en la campaña se envía inme
 
 Una vez enviado, puede medir el impacto de las campañas en los informes de campañas.
 
+## Administrar proyectos de traducción internos {#manage-ht-project}
+
+Si seleccionó la traducción interna al configurar los ajustes de Idioma, puede traducir el contenido directamente en el proyecto de traducción.
+
+1. De su **[!UICONTROL Proyecto de traducción]**, acceda al **[!UICONTROL Más acciones]** y seleccione **[!UICONTROL Traducción interna]**.
+
+   ![](assets/inhouse-translation-1.png)
+
+1. Puede exportar el archivo CSV para su traducción mediante un software de traducción externo. También puede volver a importar el archivo CSV en el proyecto de traducción haciendo clic en **[!UICONTROL Importar CSV]** botón.
+
+   ![](assets/inhouse-translation-3.png)
+
+1. Clic **[!UICONTROL Editar]** para añadir el contenido de traducción.
+
+   ![](assets/inhouse-translation-2.png)
+
+1. Si está listo para publicar el texto traducido, haga clic en **[!UICONTROL Finalizar]**.
+
 ## Revisión del proyecto de traducción {#review-translation-project}
 
-Si seleccionó la **[!UICONTROL Habilitar flujo de trabajo de revisión]** en su **[!UICONTROL Proyecto de traducción]**Además, puede revisar la traducción directamente en Journey Optimizer una vez que el proveedor de traducción seleccionado la haya completado.
-Tenga en cuenta que si esta opción está desactivada, una vez que el proveedor haya terminado la traducción, el estado de la tarea de traducción se establece automáticamente como **[!UICONTROL Revisado]**, lo que le permite continuar rápidamente haciendo clic en **[!UICONTROL Enviar al producto]**.
+Si seleccionó la **[!UICONTROL Habilitar flujo de trabajo de revisión]** en su **[!UICONTROL Proyecto de traducción]** Además, puede revisar la traducción directamente en Journey Optimizer una vez que el proveedor de traducción seleccionado la haya completado.
+
+Tenga en cuenta que si esta opción está desactivada, una vez que el proveedor haya terminado la traducción, el estado de la tarea de traducción se establece automáticamente como **[!UICONTROL Revisado]**, lo que le permite continuar rápidamente haciendo clic en **[!UICONTROL Publish]**.
 
 1. Una vez que su proveedor de servicios haya completado la traducción, puede acceder a la traducción para revisarla desde su **[!UICONTROL Proyecto de traducción]** o directamente desde su **[!UICONTROL Campaign]**.
+
+   Desde el **[!UICONTROL Más acciones]** , haga clic en **[!UICONTROL Revisar]**.
 
    ![](assets/translation_review_1.png)
 
@@ -219,7 +245,7 @@ Tenga en cuenta que si esta opción está desactivada, una vez que el proveedor 
 
 1. Clic **[!UICONTROL Previsualizar]** para comprobar la renderización del contenido traducido en cada idioma.
 
-1. Cuando esté satisfecho con la traducción, haga clic en **[!UICONTROL Finalizar]**.
+1. Si está listo para publicar el texto traducido, haga clic en **[!UICONTROL Finalizar]**.
 
    ![](assets/translation_review_5.png)
 
@@ -229,7 +255,7 @@ Tenga en cuenta que si esta opción está desactivada, una vez que el proveedor 
 
 1. Una vez que **[!UICONTROL Proyecto de traducción]** Si el estado se establece en Revisado, puede enviarlo a su Campaña.
 
-   En el menú avanzado, haga clic en **[!UICONTROL Publish]**.
+   Desde el **[!UICONTROL Más acciones]** , haga clic en **[!UICONTROL Publish]**.
 
    ![](assets/translation_review_7.png)
 
