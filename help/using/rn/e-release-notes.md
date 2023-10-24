@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: be1d0fef5e10073553a7437671820314923e0f25
+source-git-commit: 1b37da28e6dbb03c8c76dd9a6637dfd95447eb7e
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 33%
+source-wordcount: '371'
+ht-degree: 24%
 
 ---
 
@@ -58,11 +58,27 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <tr>
 <td>
 <p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
-<!--img src="assets/channel-reports.png"/-->
-<p>Para obtener más información, consulte la <a href="../audience/get-started-audience-orchestration.md">documentación detallada</a>.</p>
+<img src="assets/channel-reports.png"/>
+<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-&lt;/table --&gt;
+</table -->
+
+<table>
+<thead>
+<tr>
+<th><strong>Servicio de mensajes multimedia (MMS) en SMS (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del servicio de mensajes multimedia (MMS), lo que permite compartir imágenes, GIF o vídeos con sus clientes. Tenga en cuenta que esta función solo está disponible actualmente en versión beta con Sinch.</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 ### Mejoras {#oct-2023-improvements}
 
@@ -71,14 +87,20 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 **Audiences**
 
 * Ahora puede segmentar audiencias cargadas desde un archivo CSV a recorridos y campañas.
+* Ahora puede segmentar audiencias creadas mediante la composición de audiencias y aprovechar los atributos de enriquecimiento en los Recorridos.
 
-**Puntuación de spam para correos electrónicos**
+>[!AVAILABILITY]
+>
+>Estas funcionalidades están disponibles actualmente como una versión beta privada.
 
-* Al simular el contenido de un correo electrónico, una nueva opción le permite comprobar el rendimiento del contenido frente al filtrado de correo no deseado de las bandejas de entrada. Actualmente, esta función se propone solo a un conjunto de clientes (disponibilidad limitada) y está disponible para el canal de correo electrónico.
+<!--
+**Spam scoring for emails**
+
+* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
 
 **Alerta**
 
-* Las nuevas alertas relacionadas con campañas de Journey Optimizer ya están disponibles en el **Alertas** menú.
+* Cuando se produce un error en una de las campañas, ahora aparece un icono de advertencia en la lista de campañas junto con el estado de la campaña.
 
 **Campañas**
 
@@ -86,8 +108,16 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Recorridos**
 
-* La duración máxima que puede definir en la actividad Espera ahora es 29 días en lugar de 30.
+* La duración máxima que puede definir en cualquier tiempo de espera ahora es de 29 días, en lugar de 30. Esto se aplica a:
+
+   * el **Cantidad de tiempo** en el campo [actividad de espera](../building-journeys/wait-activity.md)
+   * el **Período de espera de reentrada** in [propiedades del recorrido](../building-journeys/journey-gs.md#entrance)
+   * el **Esperar a** en la definición de tiempo de espera de [general](../building-journeys/general-events.md#events-specific-time) y [reacción](../building-journeys/reaction-events.md) eventos.
 
 **Consentimiento en la configuración del canal**
 
 * Ahora puede seleccionar una acción de marketing en el nivel de superficie de canal. Cuando se utilizan en una superficie, todas las políticas de consentimiento asociadas con esa acción de marketing se aprovechan para respetar las preferencias de los clientes.
+
+**Gestión de decisiones**
+
+* Se han actualizado varias etiquetas relacionadas con la restricción de ofertas en la interfaz de administración de decisiones.

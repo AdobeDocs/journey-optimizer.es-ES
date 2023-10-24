@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 1b37da28e6dbb03c8c76dd9a6637dfd95447eb7e
 workflow-type: tm+mt
-source-wordcount: '4254'
-ht-degree: 98%
+source-wordcount: '4606'
+ht-degree: 91%
 
 ---
 
@@ -31,6 +31,110 @@ Las notas de la versión anteriores están disponibles en [esta página](release
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Regístrese para la [Newsletter trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoy y reciba las últimas actualizaciones de productos, artículos interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.
 
+## Notas de la versión de octubre de 2023 {#oct-rn-2023}
+
+Las notas de la primera versión están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento. Los vínculos, las pantallas y la documentación actualizada se publican en la fecha del lanzamiento.
+
+**Fecha de lanzamiento**: 25-26 de octubre de 2023
+
+### Nuevas funciones{#oct-2023-features}
+
+Esta versión incorpora las nuevas funciones que se enumeran a continuación.
+
+<table>
+<thead>
+<tr>
+<th><strong>Herramientas de espacio aislado</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La herramienta de zona protegida permite copiar objetos en varias zonas protegidas aprovechando la exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.</p>
+<!--img src="../data/assets/dataset-export-setup.png"-->
+<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<!-- table>
+<thead>
+<tr>
+<th><strong>Composed audiences in journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
+<img src="assets/channel-reports.png"/>
+<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
+</tr>
+</tbody>
+</table -->
+
+<table>
+<thead>
+<tr>
+<th><strong>Servicio de mensajes multimedia (MMS) en SMS (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del servicio de mensajes multimedia (MMS), lo que permite compartir imágenes, GIF o vídeos con sus clientes. Tenga en cuenta que esta función solo está disponible actualmente en versión beta con Sinch.</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+### Mejoras {#oct-2023-improvements}
+
+Esta versión incorpora las mejoras que se enumeran a continuación.
+
+**Audiences**
+
+* Ahora puede segmentar audiencias cargadas desde un archivo CSV a recorridos y campañas.
+* Ahora puede segmentar audiencias creadas mediante la composición de audiencias y aprovechar los atributos de enriquecimiento en los Recorridos.
+
+>[!AVAILABILITY]
+>
+>Estas funcionalidades están disponibles actualmente como una versión beta privada.
+
+<!--
+**Spam scoring for emails**
+
+* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
+
+**Alerta**
+
+* Cuando se produce un error en una de las campañas, ahora aparece un icono de advertencia en la lista de campañas junto con el estado de la campaña.
+
+**Campañas**
+
+* Ahora puede detener una campaña única activa, realizar modificaciones y reanudarla de nuevo. Esta mejora está disponible en versión beta.
+
+**Recorridos**
+
+* La duración máxima que puede definir en cualquier tiempo de espera ahora es de 29 días, en lugar de 30. Esto se aplica a:
+
+   * el **Cantidad de tiempo** en el campo [actividad de espera](../building-journeys/wait-activity.md)
+   * el **Período de espera de reentrada** in [propiedades del recorrido](../building-journeys/journey-gs.md#entrance)
+   * el **Esperar a** en la definición de tiempo de espera de [general](../building-journeys/general-events.md#events-specific-time) y [reacción](../building-journeys/reaction-events.md) eventos.
+
+**Páginas de aterrizaje**
+
+* Al utilizar el componente de formulario de página de aterrizaje, ahora puede agregar un campo de correo electrónico con sus propias opciones específicas.
+
+**Consentimiento en la configuración del canal**
+
+* Ahora puede seleccionar una acción de marketing en el nivel de superficie de canal. Cuando se utilizan en una superficie, todas las políticas de consentimiento asociadas con esa acción de marketing se aprovechan para respetar las preferencias de los clientes.
+
+**Gestión de decisiones**
+
+* Se han actualizado varias etiquetas relacionadas con la restricción de ofertas en la interfaz de administración de decisiones.
 
 ## Notas de la versión de septiembre de 2023 {#sept-rn-2023}
 
