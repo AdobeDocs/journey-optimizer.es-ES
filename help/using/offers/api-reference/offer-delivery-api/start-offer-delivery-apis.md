@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '631'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 5%
 Puede enviar ofertas utilizando las opciones **Decisioning** o el **Edge Decisioning** API. Además, la variable **Toma de decisiones por lotes** La API permite enviar ofertas a todos los perfiles de una audiencia determinada en una llamada. El contenido de la oferta para cada perfil de la audiencia se coloca en un conjunto de datos de Adobe Experience Platform, donde está disponible para flujos de trabajo por lotes personalizados.
 
 En esta página, encontrará información sobre las funcionalidades específicas disponibles con el **Decisioning** y **Edge Decisioning** API. Aunque ambos le permiten enviar ofertas a sus clientes, recomendamos utilizar el **Edge Decisioning** API siempre que sea posible para casos de uso entrantes y para garantizar una mejor latencia y rendimiento en su plataforma.
-
 
 Para obtener más información sobre cómo trabajar con las API, consulte estas secciones:
 * [API de decisiones](decisioning-api.md)
@@ -127,7 +126,6 @@ Al pasar datos de contexto con una solicitud de API de Edge Decisioning, los dat
 
 Las funcionalidades enumeradas a continuación solo están disponibles con la API de Decisioning. Si necesita aprovechar uno de ellos para satisfacer sus necesidades, utilice la API de decisiones. De lo contrario, recomendamos utilizar las API de Edge Decisioning.
 
-* **Eventos de experiencia**: aproveche los eventos de experiencia para crear reglas de toma de decisiones.
 * **Contenido y características de la oferta**: puede optar por no devolver el contenido y las características de una oferta mediante una opción dedicada.
 * **Metadatos de ofertas**: active una opción para devolver los metadatos de una oferta.
 * **Política de combinación**: utilice en la solicitud una política de combinación diferente de la asociada a la zona protegida.

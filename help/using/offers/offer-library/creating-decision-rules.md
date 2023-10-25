@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '419'
 ht-degree: 14%
 
 ---
@@ -25,10 +25,9 @@ Por ejemplo, puede especificar que solo desea que se muestre una “Oferta de ro
 
 Esta es una lista de limitaciones que deben tenerse en cuenta al trabajar con reglas de decisión:
 
-* Al crear una regla, puede utilizar eventos históricos, pero existen limitaciones en cuanto a cuándo se pueden utilizar estas reglas.
 * La toma de decisiones perimetral utiliza el perfil perimetral que no almacena eventos, por lo que cualquier regla utilizada en una decisión perimetral no será válida.
-* Los recorridos que utilicen Decisiones de oferta no consultarán los eventos históricos, por lo que estas reglas no serán válidas.
-* Las solicitudes de decisión que utilicen el perfil de concentrador consultarán los últimos 100 eventos de experiencia del perfil para evaluar las reglas que hacen referencia a eventos de experiencia históricos.
+* Al crear una regla de decisión, no se admite retroceder a un período de tiempo anterior. Por ejemplo, si especifica un evento de experiencia que se produjo en el último mes como componente de la regla. Cualquier intento de incluir un periodo retrospectivo durante la creación de la regla generará un déclencheur de error al guardarla.
+  <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
 
 ## Crear una regla de decisión {#create}
 

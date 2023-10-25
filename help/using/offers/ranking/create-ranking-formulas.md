@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 10%
+source-wordcount: '536'
+ht-degree: 9%
 
 ---
 
@@ -40,6 +40,10 @@ Para crear una fórmula de clasificación, siga los pasos a continuación:
    En este ejemplo, queremos aumentar la prioridad de todas las ofertas con el atributo &quot;hot&quot; si el tiempo real es caluroso. Para ello, la variable **contextData.weather=hot** se pasó en la llamada de toma de decisiones.
 
    ![](../assets/ranking-syntax.png)
+
+   >[!IMPORTANT]
+   >
+   >Al crear una fórmula de clasificación, no se admite retroceder a un período de tiempo anterior. Por ejemplo, si especifica un evento de experiencia que se produjo durante el último mes como componente de la fórmula. Cualquier intento de incluir un período retroactivo durante la creación de la fórmula generará un déclencheur de error al guardarla.
 
 1. Haga clic en **[!UICONTROL Guardar]**. Cuando se crea la fórmula de clasificación, puede seleccionarla en la lista para obtener detalles y editarla o eliminarla.
 
