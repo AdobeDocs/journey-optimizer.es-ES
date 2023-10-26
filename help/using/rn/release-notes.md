@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ed42c04d8c653226e8512ced761519995ebd72c7
+source-git-commit: c4178c9954e94b64954a8631a49dc0cffccbaaee
 workflow-type: tm+mt
-source-wordcount: '4537'
-ht-degree: 92%
+source-wordcount: '4477'
+ht-degree: 94%
 
 ---
 
@@ -110,7 +110,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Campañas**
 
-* Ahora puede detener una campaña única activa, realizar modificaciones y reanudarla de nuevo. Esta mejora está disponible en versión beta.
+<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
 * Cuando se produce un error en una de las campañas, ahora aparece un icono de advertencia en la lista de campañas junto con el estado de la campaña.
 
 **Recorridos**
@@ -121,9 +121,10 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
    * el **Período de espera de reentrada** in [propiedades del recorrido](../building-journeys/journey-gs.md#entrance)
    * el **Esperar a** en la definición de tiempo de espera de [general](../building-journeys/general-events.md#events-specific-time) y [reacción](../building-journeys/reaction-events.md) eventos.
 
-**Consentimiento en la configuración del canal**
+<!--
+**Consent in channel configuration**
 
-* Ahora puede seleccionar una acción de marketing en el nivel de superficie de canal. Cuando se utilizan en una superficie, todas las políticas de consentimiento asociadas con esa acción de marketing se aprovechan para respetar las preferencias de los clientes.
+* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
 
 **Gestión de decisiones**
 
