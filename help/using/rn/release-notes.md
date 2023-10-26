@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9e7b08db00ab6333bd5a20815e05bca48075dca3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '4477'
-ht-degree: 94%
+source-wordcount: '4558'
+ht-degree: 92%
 
 ---
 
@@ -52,7 +52,7 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <td>
 <p>La herramienta de zona protegida permite copiar objetos en varias zonas protegidas aprovechando la exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>Para obtener más información, consulte la <a href="../building-journeys/copy-to-sandbox.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -74,18 +74,18 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 </tbody>
 </table -->
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Multimedia Message Service (MMS) in SMS (Beta)</strong><br/></th>
+<th><strong>Servicio de mensajes multimedia (MMS) en SMS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>With the SMS Channel, you can now enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. Note that this feature is currently available in Beta with Sinch only.</p>-->
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del servicio de mensajes multimedia (MMS), lo que permite compartir imágenes, GIF o vídeos con sus clientes. Tenga en cuenta que esta función solo está disponible actualmente con Sinch.</p>
+<img src="assets/do-not-localize/mms.gif"/>
+<p>Para obtener más información, consulte la <a href="../sms/create-sms.md#sms-content">documentación detallada</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -97,7 +97,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 **Audiences**
 
 * Ahora puede segmentar audiencias cargadas desde un archivo CSV a recorridos y campañas.
-* Ahora puede segmentar audiencias creadas mediante la composición de audiencias y aprovechar los atributos de enriquecimiento en los Recorridos.
+* Ahora puede segmentar audiencias creadas mediante la composición de audiencias y aprovechar los atributos de enriquecimiento en los Recorridos. [Más información](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
 >
@@ -111,11 +111,11 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 **Campañas**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* Cuando se produce un error en una de las campañas, ahora aparece un icono de advertencia en la lista de campañas junto con el estado de la campaña.
+* Cuando se produce un error en una de las campañas, ahora aparece un icono de advertencia en la lista de campañas junto con el estado de la campaña. [Más información](../campaigns/modify-stop-campaign.md#statuses)
 
 **Recorridos**
 
-* La duración máxima que puede definir en cualquier tiempo de espera ahora es de 29 días, en lugar de 30. Esto se aplica a:
+* La duración máxima que puede definir en cualquier tiempo de espera ahora es de 29 días, en lugar de 30. Esta mejora se ha introducido para evitar que la duración de la espera supere los 30 días de vida útil del recorrido. Esto se aplica a:
 
    * el **Cantidad de tiempo** en el campo [actividad de espera](../building-journeys/wait-activity.md)
    * el **Período de espera de reentrada** in [propiedades del recorrido](../building-journeys/journey-gs.md#entrance)
@@ -128,7 +128,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Gestión de decisiones**
 
-* Se han actualizado varias etiquetas relacionadas con la restricción de ofertas en la interfaz de administración de decisiones.
+* Se han actualizado varias etiquetas relacionadas con la restricción de ofertas en la interfaz de administración de decisiones. [Más información](../offers/offer-library/add-constraints.md#capping)
 
 ## Notas de la versión de septiembre de 2023 {#sept-rn-2023}
 

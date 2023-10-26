@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: reentrada, recorrido, perfil, recurrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 13%
+source-wordcount: '598'
+ht-degree: 5%
 
 ---
 
@@ -35,6 +35,8 @@ En los recorridos unitarios, puede habilitar o deshabilitar la reentrada:
 
 De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desactivar la opción para recorridos de &quot;una sola vez&quot;, por ejemplo, si desea ofrecer un regalo de una sola vez cuando una persona visita una tienda. En ese caso, el cliente no debe poder volver a introducir el recorrido y recibir la oferta de nuevo. Cuando termina un recorrido, su estado es **[!UICONTROL Cerrado]**. Las nuevas personas ya no pueden entrar en el recorrido. Las personas que ya están en el recorrido terminan el recorrido normalmente. [Más información](journey-gs.md#entrance)
 
+Si la variable **Permitir la reentrada** está activada, la opción **Período de espera de reentrada** Este campo permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido. Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos. La duración máxima es de 29 días.
+
 ![](assets/journey-re-entrance.png)
 
 Después del valor predeterminado [tiempo de espera global](journey-gs.md#global_timeout) de 30 días, el recorrido cambia a la **Finalizado** estado. Los perfiles que ya están en el recorrido finalizan el recorrido normalmente. Los nuevos perfiles ya no pueden entrar en el recorrido. Este comportamiento solo se establece para 30 días (es decir, el valor predeterminado de tiempo de espera de recorrido), ya que toda la información sobre los perfiles que ingresaron al recorrido se elimina 30 días después de que ingresaron. Después de ese periodo, los perfiles pueden volver a entrar en el recorrido. Para evitarlo y deshabilitar completamente la reentrada para esos perfiles, puede agregar una condición para comprobar si el perfil introducido ya está o no, utilizando datos de perfil o audiencia.
@@ -42,9 +44,7 @@ Después del valor predeterminado [tiempo de espera global](journey-gs.md#global
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
 
-Los recorridos unitarios (que se inician con un evento o una calificación de audiencia) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante cinco minutos. Por ejemplo, si un evento activa un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
-
-La clave también se utiliza para comprobar que una persona está en un recorrido. De hecho, una persona no puede estar en dos lugares diferentes en el mismo recorrido. Como resultado, el sistema no permite que la misma clave, por ejemplo la clave CRMID=3224, esté en diferentes lugares del mismo recorrido.
+La clave se utiliza para comprobar que una persona está en un recorrido. De hecho, una persona no puede estar en dos lugares diferentes en el mismo recorrido. Como resultado, el sistema no permite que la misma clave, por ejemplo la clave CRMID=3224, esté en diferentes lugares del mismo recorrido.
 
 ## Leer recorridos de audiencia{#entry-read-segment}
 

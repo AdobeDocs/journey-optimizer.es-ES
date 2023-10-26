@@ -9,9 +9,9 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: caso de uso, multicanal, mensajes, recorrido, canal, eventos, push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '759'
 ht-degree: 1%
 
 ---
@@ -24,13 +24,13 @@ Esta sección presenta un caso de uso que combina una audiencia de lectura, un e
 
 ## Descripción del caso de uso
 
-En este caso de uso, queremos enviar un primer mensaje (correo electrónico y push) a todos los clientes que pertenecen a una audiencia específica.
+En este caso de uso, queremos enviar un primer mensaje de correo electrónico a todos los clientes que pertenecen a una audiencia específica.
 
 En función de su reacción al primer mensaje, queremos enviar mensajes específicos.
 
-Después del primer mensaje, esperamos un día a que los clientes abran el mensaje push o de correo electrónico. Si no hay reacción, les enviamos un correo electrónico de seguimiento.
+Si el cliente abre el correo electrónico, esperamos una compra y enviamos un mensaje push para darle las gracias al cliente.
 
-Después, esperamos una compra y enviamos un mensaje push para dar las gracias al cliente.
+Si no hay reacción, les enviamos un correo electrónico de seguimiento.
 
 ## Requisitos previos
 
@@ -93,21 +93,13 @@ El evento está ahora configurado y listo para utilizarse en el recorrido. Con l
 
    ![](assets/jo-uc5.png)
 
-1. Coloque el cursor en la actividad de correo electrónico y haga clic en el símbolo &quot;+&quot; para crear una nueva ruta.
+1. Añadir un **Reacción** evento y seleccione **Correo electrónico abierto**. El evento se activa cuando un individuo que pertenece a la audiencia abre el correo electrónico.
 
-1. En la primera ruta, añada un **Reacción** evento y seleccione **Push abierta**. El evento se activa cuando un individuo que pertenece a la audiencia abre la versión push del primer mensaje.
-
-1. En la segunda ruta, añada un **Reacción** evento y seleccione **Correo electrónico abierto**. El evento se activa cuando el usuario abre el correo electrónico.
-
-1. En una de las actividades de reacción, compruebe el **Definir el tiempo de espera del evento** , defina una duración (1 día en nuestro ejemplo) y marque **Establecer una ruta de tiempo de espera**. Esto crea otra ruta para las personas que no abren el primer mensaje push o de correo electrónico.
-
-   >[!NOTE]
-   >
-   >Al configurar un tiempo de espera en varios eventos (las dos reacciones en este caso), solo es necesario configurar el tiempo de espera en uno de estos eventos.
+1. Compruebe la **Definir el tiempo de espera del evento** , defina una duración (1 día en nuestro ejemplo) y marque **Establecer una ruta de tiempo de espera**. Esto crea otra ruta para las personas que no abren el primer mensaje push o de correo electrónico.
 
 1. En la ruta de tiempo de espera, suelte un **Correo electrónico** actividad de acción y definir el contenido del mensaje de &quot;seguimiento&quot;. Este mensaje se envía a las personas que no abren el correo electrónico ni insertan el primer mensaje al día siguiente. Consulte esta sección [sección](../email/create-email.md) para aprender a configurar y diseñar un correo electrónico.
 
-1. Conecte las tres rutas al evento de compra creado anteriormente. El evento se activa cuando un individuo realiza una compra.
+1. En la primera ruta, añada el evento de compra creado anteriormente. El evento se activa cuando un individuo realiza una compra.
 
 1. Después del evento, suelte un **Push** actividad de acción y defina el contenido del mensaje &quot;gracias&quot;. Consulte esta sección [sección](../push/create-push.md) para aprender a configurar y diseñar una notificación push.
 

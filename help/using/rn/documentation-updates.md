@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 37fda274025135f0577fd551971583e1b6d5c469
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '3845'
-ht-degree: 96%
+source-wordcount: '3956'
+ht-degree: 94%
 
 ---
 
@@ -21,10 +21,15 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 ## Octubre de 2023 {#oct-2023}
 
+* Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de octubre de 2023 se ha detallado en la documentación. [Más información](release-notes.md)
 * Se han añadido GIF para ilustrar algunas funciones clave, como: [Plantillas de contenido](../content-management/content-templates.md), [Fragmentos](../content-management/fragments.md), [Atributos calculados](../audience/computed-attributes.md), [Correo directo](../direct-mail/get-started-direct-mail.md), [Etiquetas](../start/search-filter-categorize.md#tags), [Modelos de optimización de administración de decisiones](../offers/ranking/personalized-optimization-model.md), [Campañas activadas por API](../campaigns/api-triggered-campaigns.md), y [Experimento de contenido](../campaigns/content-experiment.md).
 * El proceso de creación del esquema se ha actualizado para reflejar las últimas actualizaciones en la interfaz de usuario, incluidas las modificaciones de Adobe Experience Platform. [Más información](../audience/creating-test-profiles.md)
 * Se han agregado protecciones de Administración de decisiones a la página Protecciones y limitaciones. [Más información](../start/guardrails.md#decision-management)
+* La sección Parámetros de encabezado se ha actualizado para reflejar cómo se gestionan las notificaciones fuera de la oficina y las respuestas de desafío (se reciben en el **[!UICONTROL Correo electrónico de error]**). [Más información](../email/email-settings.md#email-header)
 * Se ha creado una nueva sección sobre cómo previsualizar y probar el contenido. [Más información](../content-management/preview-test.md)
+* La página Implementación de aplicaciones de una sola página se ha trasladado a la documentación del SDK web de Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
+* La sección Restricción se ha actualizado para reflejar los cambios de etiqueta relacionados con la restricción de ofertas en la interfaz de administración de decisiones. [Más información](../offers/offer-library/add-constraints.md#capping)
+* La opción Añadir contenido dinámico en correos electrónicos se ha actualizado con detalles sobre cómo eliminar una variante. [Más información](../personalization/dynamic-content.md#emails)
 
 ## Septiembre de 2023 {#september-2023}
 
@@ -39,7 +44,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se han actualizado los vínculos a la documentación de control de acceso. [Más información](../administration/permissions.md)
 * Los requisitos previos del canal en la aplicación se han actualizado con los detalles de recopilación de datos de Adobe Experience Platform. [Más información](../in-app/inapp-configuration.md)
 * Se han actualizado algunas expresiones presentadas en ejemplos de fórmulas de clasificación para evitar errores de validación. [Más información](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
-* Se ha añadido una advertencia a **Definir ámbitos de decisión** para especificar que si el modelo de IA se utiliza en un grupo de criterios de evaluación, todos los criterios de evaluación de ese grupo deben utilizar el método de clasificación de IA, con el mismo modelo de IA específico. Además, solo un grupo de criterios de evaluación puede utilizar el modelo de IA. [Más información](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* Se ha agregado una advertencia a la sección Definición de ámbitos de decisión para especificar que si el modelo de IA se utiliza en un grupo de criterios de evaluación, todos los criterios de evaluación de ese grupo deben utilizar el método de clasificación de IA, con el mismo modelo de IA específico. Además, solo un grupo de criterios de evaluación puede utilizar el modelo de IA. [Más información](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## Agosto de 2023 {#august-2023}
 

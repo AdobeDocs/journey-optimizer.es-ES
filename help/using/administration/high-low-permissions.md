@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: permiso, alto nivel, bajo nivel, perfil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 Cada función está compuesta por permisos que permiten a los usuarios acceder a las distintas funciones.
 Se pueden dividir en dos tipos:
 
-* **Permiso de alto nivel**: representa los diferentes permisos que se pueden asignar a **[!UICONTROL Rol]** en el [!DNL Admin console], como **[!DNL Publish journeys]** y **[!DNL Manage subdomains delegation]**. Los permisos de alto nivel abarcan permisos de bajo nivel.
+* **Permiso de alto nivel**: representa los diferentes permisos que se pueden asignar a **[!UICONTROL Rol]**, como **[!DNL Publish journeys]** y **[!DNL Manage subdomains delegation]**. Los permisos de alto nivel abarcan permisos de bajo nivel. Los permisos de alto nivel se detallan en [esta página](ootb-permissions.md).
 
 * **Permiso de bajo nivel**: representa los diferentes permisos que provienen del permiso de alto nivel.
 

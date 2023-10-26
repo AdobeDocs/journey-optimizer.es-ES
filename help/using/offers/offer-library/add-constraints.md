@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '2381'
+source-wordcount: '2386'
 ht-degree: 17%
 
 ---
@@ -95,7 +95,7 @@ El **[!UICONTROL Idoneidad de oferta]** permite restringir la oferta a perfiles 
 
 * Si desea asociar una [regla de decisión](../offer-library/creating-decision-rules.md) para añadir la oferta, seleccione **[!UICONTROL Por regla de decisión definida]**, luego arrastre la regla deseada del panel izquierdo al **[!UICONTROL Regla de decisión]** área.
 
-  ![](../assets/offer_rule.png)
+  ![](../assets/offer-rule.png)
 
   >[!CAUTION]
   >
@@ -146,7 +146,7 @@ Limitar el número de veces que los usuarios obtienen ofertas específicas le pe
 
 Para definir el límite, siga los pasos principales a continuación.
 
-1. Asegúrese de que la **[!UICONTROL Incluir límite]** el botón de alternancia está seleccionado. El límite se incluye de forma predeterminada.
+1. Asegúrese de que la **[!UICONTROL Habilitar límite]** el botón de alternancia está seleccionado. El límite está habilitado de forma predeterminada.
 
    >[!CAUTION]
    >
@@ -160,7 +160,7 @@ Para definir el límite, siga los pasos principales a continuación.
 
 1. Configure las variables **[!UICONTROL Frecuencia]** para definir la frecuencia con la que se restablece el recuento límite. [Más información](#frequency-capping)
 
-1. Si ha definido varios [representaciones](add-representations.md) para la oferta, especifique si desea aplicar un límite **[!UICONTROL En todas las ubicaciones]** o **[!UICONTROL Para cada ubicación]**. [Más información](#placements)
+1. Si ha definido varios [representaciones](add-representations.md) para la oferta, especifique si desea aplicar un límite **en todas las ubicaciones** o **a cada ubicación**. [Más información](#placements)
 
 1. Una vez guardada y aprobada, si la oferta se ha presentado el número de veces especificado en este campo según los criterios y el periodo de tiempo definido, se detendrá su entrega.
 
@@ -179,7 +179,7 @@ El número de veces que se propone una oferta se calcula en el momento de la pre
 >title="Impresión"
 >abstract="El uso de impresiones como eventos de límite solo está disponible para canales entrantes."
 
-El **[!UICONTROL Evento de límite]** permite definir qué campo **[!UICONTROL Evento de límite]** se tendrán en cuenta para aumentar el contador:
+El **[!UICONTROL Evento de límite]** Este campo permite definir qué evento se tendrá en cuenta para aumentar el contador:
 
 ![](../assets/offer-capping-event.png)
 
@@ -219,7 +219,7 @@ El **[!UICONTROL Evento de límite]** permite definir qué campo **[!UICONTROL E
 
 ### Recuento de límite {#capping-count}
 
-El **[!UICONTROL Recuento de límite]** Este campo permite especificar la cantidad de veces que se puede presentar la oferta.
+El **[!UICONTROL Límite de recuento límite]** Este campo permite especificar la cantidad de veces que se puede presentar la oferta.
 
 ![](../assets/offer-capping-times.png)
 
@@ -227,7 +227,7 @@ El **[!UICONTROL Recuento de límite]** Este campo permite especificar la cantid
 >
 >El número debe ser un número entero mayor que 0.
 
-Por ejemplo, ha definido un evento de límite personalizado como, por ejemplo, el número de cierres de compra que se tiene en cuenta. Si introduce 10 en la variable **[!UICONTROL Recuento de límite]** , no se enviarán más ofertas después de 10 cierres de compra.
+Por ejemplo, ha definido un evento de límite personalizado como, por ejemplo, el número de cierres de compra que se tiene en cuenta. Si introduce 10 en la variable **[!UICONTROL Límite de recuento límite]** , no se enviarán más ofertas después de 10 cierres de compra.
 
 ### Tipo de límite {#capping-type}
 
@@ -258,7 +258,7 @@ El **[!UICONTROL Frecuencia]** permite definir la frecuencia con la que se resta
 >
 >El restablecimiento se produce a las 12:00 UTC, el día que haya definido o el primer día de la semana o del mes, cuando corresponda. El día de inicio de la semana es domingo. Cualquier duración que elija no puede exceder de 2 años (es decir, el número correspondiente de meses, semanas o días).
 
-Por ejemplo, si desea que el recuento de límite se restablezca cada 2 semanas, seleccione **[!UICONTROL Semanalmente]** desde el **[!UICONTROL Repetir]** lista desplegable y tipo **2** en el otro campo. El reinicio se realizará cada dos domingos a las 12 p. m. UTC.
+Por ejemplo, si desea que el recuento de límite se restablezca cada 2 semanas, seleccione **[!UICONTROL Semanalmente]** en la lista desplegable correspondiente y escriba **2** en el otro campo. El reinicio se realizará cada dos domingos a las 12 p. m. UTC.
 
 >[!CAUTION]
 >
@@ -268,15 +268,15 @@ Por ejemplo, si desea que el recuento de límite se restablezca cada 2 semanas, 
 
 ### Límite y ubicaciones {#placements}
 
-Si ha definido varios [representaciones](add-representations.md) para la oferta, especifique si desea aplicar un límite **[!UICONTROL En todas las ubicaciones]** o **[!UICONTROL Para cada ubicación]**.
+Si ha definido varios [representaciones](add-representations.md) para la oferta, especifique si desea aplicar un límite en todas las ubicaciones o en cada ubicación.
 
 ![](../assets/offer-capping-placement.png)
 
-* **[!UICONTROL En todas las ubicaciones]**: los recuentos de límite totalizarán todas las decisiones en las ubicaciones asociadas con la oferta.
+* **[!UICONTROL Aplicar límite en todas las ubicaciones]**: los recuentos de límite totalizarán todas las decisiones en las ubicaciones asociadas con la oferta.
 
   Por ejemplo, si una oferta tiene un **Correo electrónico** ubicación y una **Web** y se establece el límite en **2 por perfil en todas las ubicaciones**, cada perfil podría recibir la oferta hasta dos veces en total, independientemente de la combinación de ubicaciones.
 
-* **[!UICONTROL Para cada ubicación]**: los recuentos de límite aplicarán recuentos de decisión para cada ubicación por separado.
+* **[!UICONTROL Aplicar límite a cada ubicación]**: los recuentos de límite aplicarán recuentos de decisión para cada ubicación por separado.
 
   Por ejemplo, si una oferta tiene un **Correo electrónico** ubicación y una **Web** y se establece el límite en **2 por perfil para cada ubicación**, cada perfil podría recibir la oferta hasta dos veces para la ubicación de correo electrónico y otras dos veces para la ubicación web.
 

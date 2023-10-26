@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 18%
+source-wordcount: '707'
+ht-degree: 17%
 
 ---
 
@@ -108,7 +108,23 @@ Ahora puede empezar a diseñar el contenido de su mensaje SMS desde el **[!UICON
 
    ![](assets/sms_tracking_2.png)
 
-1. En el `originalUrl` , pegue la dirección URL que desee acortar.
+1. En el `originalUrl` , pegue la dirección URL que desee acortar y haga clic en **[!UICONTROL Guardar]**.
+
+1. Habilite la opción MMS para añadir contenido multimedia al contenido de SMS.
+
+   MMS incluye algunas limitaciones que se enumeran en [esta página](../start/guardrails.md#sms-guardrails).
+
+   >[!NOTE]
+   >
+   > La opción MMS solo está disponible con Sinch. Debe crear una credencial de API específica para crear MMS. [Más información](sms-configuration.md#create-new-api)
+
+   ![](assets/sms_create_6.png)
+
+1. Añadir un **[!UICONTROL Título]** a sus medios.
+
+1. Introduzca la URL del contenido en la **[!UICONTROL Medios]** field.
+
+   ![](assets/sms_create_7.png)
 
 1. Haga clic en **[!UICONTROL Guardar]** y compruebe el mensaje en la vista previa. Puede utilizar **[!UICONTROL Simular contenido]** para previsualizar las direcciones URL abreviadas o el contenido personalizado.
 

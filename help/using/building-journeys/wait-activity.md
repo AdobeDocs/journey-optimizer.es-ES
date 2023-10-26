@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: espera, actividad, recorrido, siguiente, lienzo
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '469'
 ht-degree: 19%
 
 ---
@@ -45,7 +45,7 @@ Se recomienda no utilizar esperas para bloquear la reentrada. En su lugar, utili
 
 ## Duración de espera{#duration}
 
-Seleccione la duración de la espera antes de la ejecución de la siguiente actividad.
+Seleccione la duración de la espera antes de la ejecución de la siguiente actividad. La duración máxima es de 29 días.
 
 ![](assets/journey55.png)
 

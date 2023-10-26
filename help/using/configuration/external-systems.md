@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1227'
 ht-degree: 32%
 
 ---
@@ -41,13 +41,15 @@ Las API de recorridos admiten hasta 5000 eventos por segundo, pero es posible qu
 
 Cada vez que recorrido realiza una llamada a la API, esta pasa por el motor de API. Si se alcanza el límite establecido en la API, la llamada se rechaza si se utiliza la API de límite, o se pone en cola durante un máximo de 6 horas y se procesa lo antes posible en el orden en que se recibió si se utiliza la API de limitación.
 
-Por ejemplo, supongamos que ha definido una regla de límite o limitación de 100 llamadas por segundo para su sistema externo. Una acción personalizada llama al sistema en 10 recorridos diferentes. Si un recorrido recibe 200 llamadas por segundo, utilizará las 100 ranuras disponibles y descartará o pondrá en cola las 100 restantes. Como la velocidad máxima se ha superado, los otros 9 recorridos no tendrán ninguna ranura. Esta granularidad ayuda a proteger el sistema externo de sobrecargas y caídas.
+Por ejemplo, supongamos que ha definido una regla de límite o limitación de 200 llamadas por segundo para su sistema externo. Una acción personalizada llama al sistema en 10 recorridos diferentes. Si un recorrido recibe 300 llamadas por segundo, utilizará las 200 ranuras disponibles y descartará o pondrá en cola las 100 restantes. Como la velocidad máxima se ha superado, los otros 9 recorridos no tendrán ninguna ranura. Esta granularidad ayuda a proteger el sistema externo de sobrecargas y caídas.
 
 >[!IMPORTANT]
 >
 >Las **Reglas de límite** se configuran en el nivel de zona protegida, para un extremo específico (la dirección URL denominada), pero de forma global para todos los recorridos de esa zona protegida. El límite está disponible tanto en fuentes de datos como en acciones personalizadas.
 >
 >Las **Reglas de limitación** solo están configuradas en zonas protegidas de producción, para un extremo específico, pero de forma global para todos los recorridos de todas las zonas protegidas. Solo puede tener una configuración de limitación por organización. La restricción solo está disponible en acciones personalizadas.
+>
+>El **maxCallsCount** el valor debe ser mayor que 1.
 
 Para obtener más información sobre cómo trabajar con las API, consulte estas secciones:
 
@@ -64,7 +66,7 @@ Para **fuentes de datos externas**, el número máximo de llamadas por segundo e
 >
 >Si una fuente de datos utiliza una autenticación personalizada con un extremo diferente al que se usa para la fuente de datos, debe ponerse en contacto con Adobe para incluir en la lista de permitidos también este.
 
-Para **acciones personalizadas**, debe evaluar la capacidad de su API externa. Por ejemplo, si Journey Optimizer envía 1000 llamadas por segundo y el sistema solo puede admitir 100, debe definir una configuración de límite o de limitación para que el sistema no se sature. [Obtenga información sobre cómo configurar acciones](../action/action.md)
+Para **acciones personalizadas**, debe evaluar la capacidad de su API externa. Por ejemplo, si Journey Optimizer envía 1000 llamadas por segundo y el sistema solo puede admitir 200, debe definir una configuración de límite o de limitación para que el sistema no se sature. [Obtenga información sobre cómo configurar acciones](../action/action.md)
 
 ## Tiempo de espera y reintentos{#timeout}
 

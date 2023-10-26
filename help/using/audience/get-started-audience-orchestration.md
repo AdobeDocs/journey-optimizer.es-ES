@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
-workflow-type: ht
-source-wordcount: '313'
-ht-degree: 100%
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 94%
 
 ---
 
@@ -36,7 +36,7 @@ Cuando haya finalizado, las **audiencias resultantes** se guardarán en Adobe Ex
 
 >[!IMPORTANT]
 >
->Las audiencias resultantes de los flujos de trabajo de composición solo se pueden dirigir a campañas de Journey Optimizer. No están disponibles para su uso en recorridos.
+>Por ahora, el uso de audiencias resultantes de flujos de trabajo de composición en recorridos está disponible como una versión beta privada. Para obtener más información, contacte con su representante de Adobe.
 >
 >Las campañas de Adobe Journey Optimizer aún no están integradas con el servicio de aplicación de políticas. Por lo tanto, las etiquetas de uso de datos que aplique a sus atributos de público no se aplicarán a las campañas de Journey Optimizer.
 

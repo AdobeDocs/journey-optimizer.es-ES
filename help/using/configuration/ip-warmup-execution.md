@@ -11,9 +11,9 @@ keywords: IP, grupo, subdominios, capacidad de entrega
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1710'
 ht-degree: 19%
 
 ---
@@ -152,6 +152,10 @@ At phase level, system ensures that previously targeted + new profiles are picke
 1. Si es necesario, seleccione **[!UICONTROL Editar ejecución]** en el icono Más acciones. Se pueden actualizar los números de direcciones de cada columna. También puede actualizar el **[!UICONTROL Último compromiso]** para dirigirse únicamente a los usuarios comprometidos con su marca durante los últimos 20 días, por ejemplo.
 
    ![](assets/ip-warmup-plan-edit-run.png)
+
+   >[!NOTE]
+   >
+   >Si no desea aplicar la variable **[!UICONTROL Último compromiso]** para la ejecución actual, establézcalo en 0.
 
 1. Seleccione el **[!UICONTROL Pausa para errores]** para cancelar una ejecución si los perfiles cualificados son inferiores a los perfiles de destino una vez que la audiencia ha sido evaluada para esa ejecución.
 

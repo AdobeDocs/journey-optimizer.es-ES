@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, lectura, audiencia, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1307'
 ht-degree: 13%
 
 ---
@@ -29,11 +29,13 @@ Utilice el **Leer audiencia** actividad para que todas las personas de una audie
 
 Veamos como ejemplo la audiencia &quot;Apertura y cierre de compra de la aplicación de Luma&quot; creada en el [Crear audiencias](../audience/about-audiences.md) caso de uso. Con la actividad Leer audiencia, puede hacer que todas las personas que pertenecen a esta audiencia entren en un recorrido y se conviertan en recorridos individualizados que aprovecharán todas las funcionalidades del recorrido: condiciones, temporizadores, eventos y acciones.
 
->[!NOTE]
->
->Para los recorridos que utilizan la actividad Leer audiencia, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con Leer audiencia, programados o que se inicien “lo antes posible”) que empiecen al mismo tiempo. Para ello, repártalos a lo largo del tiempo, por ejemplo, en intervalos de 5 y 10 minutos.
->
->Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen con Leer audiencia, Calificación de audiencia o una actividad de evento empresarial.
+## Lectura obligatoria {#must-read}
+
+* Para los recorridos que utilizan la actividad Leer audiencia, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con Leer audiencia, programados o que se inicien “lo antes posible”) que empiecen al mismo tiempo. Para ello, repártalos a lo largo del tiempo, por ejemplo, en intervalos de 5 y 10 minutos.
+
+* Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen con Leer audiencia, Calificación de audiencia o una actividad de evento empresarial.
+
+* Por ahora, el uso de audiencias [importado de un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o resultantes de [flujos de trabajo de composición](../audience/get-started-audience-orchestration.md) en recorrido está disponible como una versión beta privada. Para obtener más información, contacte con su representante de Adobe.
 
 ### Configuración de la actividad {#configuring-segment-trigger-activity}
 

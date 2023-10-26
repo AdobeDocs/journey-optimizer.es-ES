@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 7%
+source-wordcount: '1068'
+ht-degree: 10%
 
 ---
 
@@ -152,7 +152,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
 </tr> 
   <tr> 
    <td> Clics únicos<br/> </td> 
-   <td> Número de destinatarios que hicieron clic en un contenido de un correo electrónico.<br/> </td> 
+   <td> Número de destinatarios que hicieron clic en un contenido de un correo electrónico.<br> Tenga en cuenta que al calcular clics únicos, se tienen en cuenta los últimos 10 días. Si un perfil registra varios clics dentro del periodo de 10 días, se contarán como clics únicos. Sin embargo, si un perfil tiene 2 clics con una diferencia de más de 10 días, no se considerarán como clics únicos.<br/> </td> 
 </tr> 
   <tr> 
    <td>Tasa de clics únicos<br/> </td> 
@@ -160,7 +160,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
 </tr>
   <tr> 
    <td> Aperturas únicas<br/> </td> 
-   <td>Número de destinatarios que abrieron la entrega.<br/> </td> 
+   <td>Número de destinatarios que abrieron la entrega. <br> Tenga en cuenta que al calcular las aperturas únicas, se tienen en cuenta los últimos 10 días. Si un perfil registra varias aperturas dentro del periodo de 10 días, se contarán como aperturas únicas. Sin embargo, si un perfil tiene 2 aperturas separadas por más de 10 días, no se considerarán como aperturas únicas.<br/> </td> 
 </tr> 
   <tr> 
    <td> Bajas<br/> </td> 

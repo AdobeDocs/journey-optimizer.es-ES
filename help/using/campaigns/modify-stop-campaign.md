@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: administrar campañas, estado, programación, acceso, optimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 2%
+source-wordcount: '572'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ De forma predeterminada, la lista muestra todas las campañas con el **[!UICONTR
 
 Además, puede filtrar la lista en función del tipo de campaña y canal, o las etiquetas que se hayan asignado a las campañas al crearlas. [Obtenga información sobre cómo asignar etiquetas a una campaña](create-campaign.md#create)
 
-## Estados de campaña {#statuses}
+## Estados de campaña y alertas {#statuses}
 
 Las campañas pueden tener varios estados:
 
@@ -47,6 +47,10 @@ Las campañas pueden tener varios estados:
 >[!NOTE]
 >
 >El icono &quot;Abrir versión de borrador&quot; junto a una **[!UICONTROL Activo]** o **[!UICONTROL Programado]** El estado indica que se ha creado una nueva versión de la campaña y que aún no se ha activado. [Más información](modify-stop-campaign.md#modify).
+
+Cuando se produce un error en una de las campañas, aparece un icono de advertencia junto al estado de la campaña. Haga clic en ella para mostrar información sobre la alerta. Estas alertas pueden producirse en varias situaciones, como cuando el mensaje de la campaña no se ha publicado o si la superficie elegida es incorrecta.
+
+![](assets/campaign-alerts.png)
 
 ## Modificación de una campaña recurrente {#modify}
 
