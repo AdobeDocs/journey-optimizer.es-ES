@@ -7,7 +7,7 @@ level: Beginner
 source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 2%
+ht-degree: 16%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"
->title="Uso de perfiles de prueba para comprobar el contenido"
+>title="Utilice perfiles de prueba para comprobar el contenido"
 >abstract="Utilice perfiles de prueba para previsualizar y probar el contenido. Si ha añadido campos personalizados, puede comprobar cómo se muestran utilizando datos de perfil de prueba."
 
 Antes de previsualizar o probar el contenido, primero debe seleccionar perfiles de prueba, que son destinatarios adicionales que no coinciden con los criterios de objetivo definidos. [Obtenga información sobre cómo crear perfiles de prueba](../audience/creating-test-profiles.md)
