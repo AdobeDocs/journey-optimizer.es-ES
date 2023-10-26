@@ -11,10 +11,10 @@ keywords: IP, grupo, subdominios, capacidad de entrega
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 18%
+source-wordcount: '1111'
+ht-degree: 11%
 
 ---
 
@@ -33,30 +33,46 @@ Lo que encontrará en esta guía de documentación:
 
 Una vez que haya creado una o más [Campañas de calentamiento de IP](ip-warmup-campaign.md) con una superficie dedicada y la opción correspondiente habilitada, puede empezar a crear su plan de calentamiento de IP.
 
+>[!CAUTION]
+>
+>Para acceder, crear, editar y eliminar los planes de calentamiento de IP, debe tener **[!UICONTROL Consultor de capacidad de entrega]** permiso. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+
 ## Preparar el archivo de plan de calentamiento de IP {#prepare-file}
 
 El calentamiento de IP es una actividad que consiste en aumentar gradualmente el volumen de correos electrónicos que salen de sus IP y dominios a los principales proveedores de servicios de Internet (ISP), con el fin de establecer su reputación como remitente legítimo.
 
 Esta actividad se realiza típicamente con la ayuda de un experto en capacidad de envío que ayuda a preparar un plan bien pensado basado en los dominios del sector, casos de uso, regiones, ISP y varios otros factores.
 
-Al trabajar con [!DNL Journey Optimizer] Función de calentamiento IP, este plan adopta la forma de un archivo de Excel que debe contener una serie de columnas predefinidas. Antes de poder crear un plan de calentamiento de IP en la [!DNL Journey Optimizer] interfaz, debe rellenar esta plantilla con todos los datos que alimentan su plan.
+<!--When working with the [!DNL Journey Optimizer] IP warmup feature, this plan takes the form of an Excel file that must contain a number of predefined columns.-->
+
+Antes de poder crear un plan de calentamiento de IP en la [!DNL Journey Optimizer] , debe rellenar una plantilla de Excel con todos los datos que alimentan su plan.
 
 >[!CAUTION]
 >
 >Póngase en contacto con el consultor del equipo de entrega para asegurarse de que el archivo del plan de calentamiento de IP esté correctamente configurado.
+>
+>Asegúrese de utilizar el formato proporcionado en la plantilla.
 
 A continuación se muestra un ejemplo de un archivo que contiene un plan de calentamiento de IP.
 
 ![](assets/ip-warmup-sample-file.png)
 
-### Pestaña Plan de calentamiento de IP
+>[!NOTE]
+>
+>Por ahora, debería dejar el **Propiedades** y **Valor** células intactas.
 
-* En este ejemplo, se ha preparado un plan que abarca más de 17 días (denominado &quot;**ejecuciones**&quot;) para alcanzar un volumen objetivo de más de 1 millón de perfiles.
+### Pestaña Plan de calentamiento de IP {#ip-warmup-plan-tab}
 
-* Este planificado se ejecuta a través del 6 **fases**, cada uno de ellos con al menos una ejecución.
+* En este ejemplo, se ha preparado un plan que abarca más de 17 días (denominado &quot;**ejecuciones**&quot;) para alcanzar un volumen objetivo de más de un millón de perfiles.
 
-* Puede tener tantas columnas como desee para los dominios a los que desee enviar. En este ejemplo, el plan se divide en 6 columnas: 5 de las cuales corresponden a la variable **grupos de dominio principales** para usar en su plan (Gmail, Microsoft, Yahoo, Orange y Apple) y en la sexta columna, **Otros**, contiene todas las direcciones restantes de otros dominios.
-* El **Días de participación** Esta columna muestra que solo se segmentan los perfiles comprometidos con su marca durante los últimos 30 días.
+* Este planificado se ejecuta a través de seis **fases**, cada uno de ellos con al menos una ejecución.
+
+* Puede tener tantas columnas como desee para los dominios a los que desee enviar. En este ejemplo, el plan se divide en seis columnas:
+
+   * Cuatro de los cuales corresponden a **grupos de dominio listos para usar** para usar en su plan (Gmail, Microsoft, Yahoo y Orange).
+   * Uno corresponde a un grupo de dominio personalizado (que debe agregar mediante el [Grupo de dominio personalizado](#custom-domain-group-tab) pestaña).
+   * La sexta columna, **Otros**, contiene todas las direcciones restantes de otros dominios que no están cubiertos explícitamente en el plan. Esta columna es opcional: si se omite, los correos electrónicos solo irán a los dominios especificados.
+* El **Días de participación** Esta columna muestra que solo están segmentados los perfiles comprometidos con su marca durante el último periodo introducido.
 
 La idea es aumentar progresivamente el número de direcciones objetivo en cada ejecución, al mismo tiempo que se reduce el número de ejecuciones para cada fase.
 
@@ -78,7 +94,53 @@ Los grupos de dominios principales listos para usar que puede agregar a su plan 
 * La Poste
 * Apple
 
-### Pestaña Grupo de dominios personalizado
+<!--
++++ Gmail
+gmail.com;gmail.fr;gmail.de;gmail.co.uk;gmail.it
++++
+
++++ Adobe
+adobe.com;adobe.fr;adobe.es
++++
+
++++WP
++++
+
++++Comcast
++++
+
++++Yahoo
++++
+
++++Bigpond
++++
+
++++Orange
++++
+
++++Softbank
++++
+
++++Docomo
++++
+
++++United Internet
++++
+
++++Microsoft
++++
+
++++KDDI
++++
+
++++Italia Online
++++
+
++++La Poste
++++
+-->
+
+### Pestaña Grupo de dominios personalizado {#custom-domain-group-tab}
 
 También puede agregar más columnas al plan incluyendo grupos de dominio personalizados.
 
@@ -87,6 +149,51 @@ Utilice el **[!UICONTROL Grupo de dominio personalizado]** para definir un nuevo
 Por ejemplo, si agrega el dominio personalizado Luma, desea que se incluyan los siguientes subdominios: luma.com, luma.co.uk, luma.it, luma.fr, luma.de, etc.
 
 ![](assets/ip-warmup-sample-file-custom.png)
+
+### Ejemplo {#example}
+
+Supongamos que desea tener dos grupos de dominios personalizados:
+
+* Uno solo para dominios de Hotmail.
+* Uno para todos los demás dominios del grupo de dominios Microsoft (excluyendo así todos los dominios de Hotmail).
+
+Tenga en cuenta que todos los demás dominios se recopilarán en **[!UICONTROL Otros]** columna.
+
+1. En el **[!UICONTROL Grupo de dominio personalizado]** , cree la pestaña **Hotmail** grupo de dominios.
+
+1. Agregue todos los dominios de Hotmail en la misma fila.
+
+   Puede [copiar y pegar](#copy-paste) todos los dominios de Hotmail enumerados en la [Pestaña Plan de calentamiento de IP](#ip-warmup-plan-tab) sección.
+
+1. Añada otra fila.
+
+1. Cree el **Microsoft_X** grupo de dominios.
+
+1. Agregue todos los dominios de Microsoft que no sean Hotmail en la misma fila. Del mismo modo, puede copiarlos y pegarlos de la lista anterior. [Más información](#copy-paste)
+
+1. Vuelva a la **[!UICONTROL Plan de calentamiento de IP]** pestaña.
+
+1. Cree tres columnas: una para **Hotmail**, uno para **Microsoft_X** y uno para **Otros**.
+
+1. Rellene las columnas según sus necesidades.
+
+>[!NOTE]
+>
+>Una vez cargado el plan de calentamiento de IP en [!DNL Journey Optimizer], no es necesario excluir los grupos de dominio de Microsoft.
+
+<!--Only the domain groups listed in the **[!UICONTROL IP Warmup Plan]** tab will be taken into account.-->
+
+### Copiar y pegar dominios predeterminados {#copy-paste}
+
+Si desea crear un grupo de dominios personalizado que contenga todos los dominios de Hotmail, por ejemplo, puede copiar y pegar los dominios de la lista predeterminada proporcionada [superior](#ip-warmup-plan-tab).
+
+A continuación, utilice la herramienta de conversión de Excel para convertir texto en columnas:
+
+1. Seleccionar **[!UICONTROL Datos]** > **[!UICONTROL Texto a columnas...]**, elija **[!UICONTROL Delimitado]** y seleccione **[!UICONTROL Siguiente]**.
+
+1. Seleccionar **[!UICONTROL Punto y coma]**, haga clic en **[!UICONTROL Siguiente]** y **[!UICONTROL Finalizar]**.
+
+Cada dominio ahora se muestra en una columna diferente en la misma fila.
 
 ## Acceso y administración de planes de calentamiento de IP {#manage-ip-warmup-plans}
 
@@ -98,10 +205,14 @@ Por ejemplo, si agrega el dominio personalizado Luma, desea que se incluyan los 
 
    * **Sin iniciar**: aún no se ha activado ninguna ejecución. [Más información](ip-warmup-execution.md#define-runs)
    * **Activo**: el plan cambia a este estado en cuanto se activa correctamente la primera ejecución de la primera fase. [Más información](ip-warmup-execution.md#define-runs)
-   * **Completado**: el plan se ha marcado como completado. Esta opción sólo está disponible si todas las ejecuciones del plan se encuentran en **[!UICONTROL Completado]** o **[!UICONTROL Borrador]** estado (no se puede ejecutar **[!UICONTROL Activo]**). [Más información](ip-warmup-execution.md#mark-as-completed)
+   * **Completado**: el plan se ha marcado como completado. <!--This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**).--> [Más información](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
 1. Para eliminar un plan de calentamiento de IP, seleccione la **[!UICONTROL Eliminar]** junto al nombre de un plan y confirme la eliminación.
+
+   >[!NOTE]
+   >
+   >Solo planes con el **Sin iniciar** se puede eliminar el estado.
 
    ![](assets/ip-warmup-delete-plan.png)
 
@@ -123,11 +234,7 @@ Por ejemplo, si agrega el dominio personalizado Luma, desea que se incluyan los 
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=es" text="Configuración de superficies de canal"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=es" text="Creación de campañas de calentamiento de IP"
 
-Cuando una o más campañas en directo con **[!UICONTROL Activación del plan de calentamiento IP]** activada, puede asociarlas a un plan de calentamiento de IP.
-
->[!CAUTION]
->
->Para crear, editar y eliminar los planes de calentamiento de IP, debe tener **[!UICONTROL Consultor de capacidad de entrega]** permiso. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+Para crear un plan de calentamiento de IP, siga los pasos a continuación.
 
 1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Canales]** > **[!UICONTROL planes de calentamiento de IP]** y haga clic en **[!UICONTROL Crear plan de calentamiento de IP]**.
 
@@ -137,11 +244,11 @@ Cuando una o más campañas en directo con **[!UICONTROL Activación del plan de
 
    ![](assets/ip-warmup-plan-details.png)
 
-1. Seleccione una [emerger](channel-surfaces.md). Solo las superficies de marketing están disponibles para su selección. [Más información sobre el tipo de correo electrónico](../email/email-settings.md#email-type)
+1. Seleccione el [emerger](channel-surfaces.md) que usted quiere calentar. Solo las superficies de marketing están disponibles para su selección. [Más información sobre el tipo de correo electrónico](../email/email-settings.md#email-type)
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >Debe seleccionar la misma superficie que la seleccionada en la campaña que desea asociar con su plan de calentamiento de IP. [Obtenga información sobre cómo crear una campaña de calentamiento de IP](ip-warmup-campaign.md)
+   >Las campañas que desee asociar con su plan de calentamiento de IP deben utilizar la misma superficie. [Obtenga información sobre cómo crear una campaña de calentamiento de IP](ip-warmup-campaign.md)
 
 1. Cargue el archivo de Excel que contiene el plan de calentamiento de IP. [Más información](#prepare-file)
 
@@ -150,6 +257,12 @@ Cuando una o más campañas en directo con **[!UICONTROL Activación del plan de
 
    ![](assets/ip-warmup-upload-success.png)
 
-1. Haga clic en **[!UICONTROL Crear]**. Todas las fases, ejecuciones, columnas y su contenido definido en el archivo cargado se muestran automáticamente en [!DNL Journey Optimizer] interfaz. [Más información](ip-warmup-execution.md)
+   >[!NOTE]
+   >
+   >En caso de que la carga falle, asegúrese de que está utilizando el formato y el formato de archivo correctos (.xls o .xlsx). Utilice la muestra que le proporciona el Adobe.
+
+1. Haga clic en **[!UICONTROL Crear]**. Todas las fases, ejecuciones, columnas y su contenido definido en el archivo cargado se muestran automáticamente en [!DNL Journey Optimizer] interfaz.
 
    ![](assets/ip-warmup-plan-uploaded.png)
+
+Ya está listo para ejecutar su plan de calentamiento de IP. [Más información](ip-warmup-execution.md)

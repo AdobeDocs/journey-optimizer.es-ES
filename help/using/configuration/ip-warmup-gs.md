@@ -11,9 +11,9 @@ keywords: IP, entregabilidad
 hide: true
 hidefromtoc: true
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ Con [!DNL Journey Optimizer], puede realizar fácilmente flujos de trabajo de c
 
 Cuando se envían correos electrónicos utilizando una plataforma nueva, los proveedores de servicios de Internet (ISP) sospechan de las direcciones IP desconocidas. Si se envían, de repente, grandes volúmenes de correos electrónicos, los ISP suelen marcarlos como correo no deseado.
 
-Para evitar que se considere correo no deseado, puede aumentar progresivamente el volumen enviado mediante la función de plan de calentamiento de IP. Esta nueva opción del menú **[!UICONTROL Administración]** le permite hacerlo más fácilmente de una manera consolidada en lugar de crear recorridos diarios complejos. Esto debería garantizar un desarrollo uniforme de la fase de inicio y permitir reducir la velocidad total de direcciones no válidas.
+Para evitar que se considere correo no deseado, puede aumentar progresivamente el volumen enviado mediante la función de plan de calentamiento de IP. Esta nueva opción del menú **[!UICONTROL Administración]** le permite hacerlo más fácilmente de una manera consolidada en lugar de crear recorridos diarios complejos.
 
 >[!NOTE]
 >

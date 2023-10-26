@@ -11,10 +11,10 @@ keywords: IP, grupos, capacidad de entrega
 hide: true
 hidefromtoc: true
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 21%
+source-wordcount: '407'
+ht-degree: 18%
 
 ---
 
@@ -36,7 +36,7 @@ Lo que encontrará en esta guía de documentación:
 
 >[!ENDSHADEBOX]
 
-Antes de crear el propio plan de calentamiento de IP en [!DNL Journey Optimizer], primero debe crear una o más campañas con la opción dedicada habilitada para que se puedan usar en un plan de calentamiento de IP.
+Antes de crear el propio plan de calentamiento de IP en [!DNL Journey Optimizer], primero debe crear una o más campañas diseñadas específicamente para usarlas en un plan de calentamiento de IP<!--through a dedicated option-->.
 
 Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 
@@ -48,8 +48,9 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
    >
    >Póngase en contacto con su consultor del equipo de entrega para identificar el dominio y las direcciones IP que se utilizarán para su plan de calentamiento de IP.<!--TBC-->
 
-1. Crear un [campaña](../campaigns/create-campaign.md) y seleccione la [Correo electrónico](../email/create-email.md#create-email-journey-campaign) acción.
+1. Creación de un marketing programado [campaña](../campaigns/create-campaign.md) y seleccione la [Correo electrónico](../email/create-email.md#create-email-journey-campaign) acción.
 
+   <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.>
 1. Seleccione la superficie que ha creado para el calentamiento de IP.
 
    ![](assets/ip-warmup-campaign-surface.png)
@@ -70,7 +71,7 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
    >
    >Para obtener más información sobre cómo configurar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
-1. [Activar](../campaigns/review-activate-campaign.md) la campaña.
+1. [Activar](../campaigns/review-activate-campaign.md) la campaña. Su estado cambia a **[!UICONTROL Activo]**.
 
    >[!NOTE]
    >
@@ -82,4 +83,9 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 
 Una vez activa, la campaña está lista para utilizarse en un plan de calentamiento de IP. [Más información](ip-warmup-plan.md)
 
-<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
+Una campaña de calentamiento de IP solo se puede utilizar en un plan de calentamiento de IP. Sin embargo, la misma campaña se puede utilizar en una o más fases del mismo plan de calentamiento de IP. [Más información](ip-warmup-plan.md#define-phases)
+
+>[!NOTE]
+>
+>Cuando se utiliza una campaña en directo en un plan de calentamiento de IP, después de que el plan sea [marcado como completado](ip-warmup-execution.md#mark-as-completed), el estado de esa campaña cambia a **[!UICONTROL Detenido]**.
+
