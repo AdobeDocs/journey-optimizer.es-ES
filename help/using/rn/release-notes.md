@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c4178c9954e94b64954a8631a49dc0cffccbaaee
+source-git-commit: f9cb0156020fbf23a21c8840403230df77fad4a7
 workflow-type: tm+mt
-source-wordcount: '4477'
+source-wordcount: '4438'
 ht-degree: 94%
 
 ---
@@ -94,14 +94,14 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 
 Esta versión incorpora las mejoras que se enumeran a continuación.
 
-**Audiences**
+<!--**Audiences**
 
-* Ahora puede segmentar audiencias cargadas desde un archivo CSV a recorridos y campañas.
-* Ahora puede segmentar audiencias creadas mediante la composición de audiencias y aprovechar los atributos de enriquecimiento en los Recorridos.
+* You can now target audiences uploaded from a CSV file into journeys and campaigns.
+* You can now target audiences created through audience composition and leverage enrichment attributes in Journeys. 
 
 >[!AVAILABILITY]
 >
->Estas funcionalidades están disponibles actualmente como una versión beta privada.
+>These capabilities are currently available as a private beta.-->
 
 <!--
 **Spam scoring for emails**
