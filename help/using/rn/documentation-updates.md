@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: b2a9a118b663c757a026c62b18e00d1f53e26317
 workflow-type: tm+mt
-source-wordcount: '3956'
-ht-degree: 94%
+source-wordcount: '4011'
+ht-degree: 93%
 
 ---
 
@@ -30,6 +30,10 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * La página Implementación de aplicaciones de una sola página se ha trasladado a la documentación del SDK web de Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * La sección Restricción se ha actualizado para reflejar los cambios de etiqueta relacionados con la restricción de ofertas en la interfaz de administración de decisiones. [Más información](../offers/offer-library/add-constraints.md#capping)
 * La opción Añadir contenido dinámico en correos electrónicos se ha actualizado con detalles sobre cómo eliminar una variante. [Más información](../personalization/dynamic-content.md#emails)
+* Se ha actualizado el ejemplo de para configuraciones de límite y regulación. [Más información](../configuration/external-systems.md)
+* La limitación con respecto a las matrices escalares se ha eliminado de la sección de fuentes de datos externas. [Más información](../datasource/external-data-sources.md)
+* Se ha actualizado el caso de uso de recorrido multicanal. [Más información](../building-journeys/journeys-uc.md)
+* El conjunto de documentación de Journey Optimizer se ha actualizado para reflejar el nuevo proceso de creación de esquemas de Experience Platform.
 
 ## Septiembre de 2023 {#september-2023}
 

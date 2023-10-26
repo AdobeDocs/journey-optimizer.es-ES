@@ -9,7 +9,7 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: zona protegida, recorrido, copiar, entorno
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: b2a9a118b663c757a026c62b18e00d1f53e26317
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 7%
@@ -85,7 +85,7 @@ El **Añadir a paquete** se muestra la ventana.
 
    ![](assets/journey-sandbox9.png)
 
-## Importación del recorrido {#export}
+## Importación del recorrido {#import}
 
 1. En la lista de paquetes, haga clic en el icono + junto al nombre del paquete.
 
