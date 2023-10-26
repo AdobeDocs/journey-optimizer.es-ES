@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
+source-git-commit: b6872806b3961bb2afbfc03999d984384492cc6d
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1706'
 ht-degree: 94%
 
 ---
@@ -306,6 +306,7 @@ ht-degree: 94%
       + [Previsualización del contenido](using/content-management/preview.md)
       + [Envío de pruebas de correo electrónico](using/content-management/proofs.md)
       + [Prueba del procesamiento de correo electrónico](using/content-management/rendering.md)
+      + [Usar informe de spam](using/content-management/spam-report.md)
 + Audiencias, perfiles e identidad{#audiences-profiles-identities}
    + Audiencias {#audiences}
       + [Introducción a las audiencias](using/audience/about-audiences.md)
