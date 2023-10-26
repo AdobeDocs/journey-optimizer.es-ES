@@ -11,7 +11,7 @@ keywords: IP, grupos, capacidad de entrega
 hide: true
 hidefromtoc: true
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 77d8da88b72cada82d30afa8bab5a63ab435f625
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 18%
@@ -50,7 +50,8 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 
 1. Creación de un marketing programado [campaña](../campaigns/create-campaign.md) y seleccione la [Correo electrónico](../email/create-email.md#create-email-journey-campaign) acción.
 
-   <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.>
+   <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.-->
+
 1. Seleccione la superficie que ha creado para el calentamiento de IP.
 
    ![](assets/ip-warmup-campaign-surface.png)
