@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: espera, actividad, recorrido, siguiente, lienzo
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: ce1e43ce2c439b02e5c263f26de5531b26dc0980
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 19%
@@ -35,7 +35,7 @@ Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede util
 
 ## Acerca de la actividad Espera{#about_wait}
 
-La duración máxima de la espera es de 30 días. En el modo de prueba, la variable **[!UICONTROL Tiempo de espera en la prueba]** permite definir el tiempo que durará cada actividad de espera. El tiempo predeterminado es 10 segundos. Esto garantizará que obtenga los resultados de la prueba rápidamente. Consulte [esta página](../building-journeys/testing-the-journey.md).
+La duración máxima de la espera es de 29 días. En el modo de prueba, la variable **[!UICONTROL Tiempo de espera en la prueba]** permite definir el tiempo que durará cada actividad de espera. El tiempo predeterminado es 10 segundos. Esto garantizará que obtenga los resultados de la prueba rápidamente. Consulte [esta página](../building-journeys/testing-the-journey.md).
 
 Tenga cuidado al usar varias actividades de Espera en un recorrido, ya que el tiempo de espera de recorrido global es de 30 días, lo que significa que un perfil siempre abandonará el máximo de recorrido 30 días después de introducirlo. Consulte [esta página](../building-journeys/journey-gs.md#global_timeout).
 
