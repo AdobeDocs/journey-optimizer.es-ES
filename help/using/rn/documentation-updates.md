@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
 workflow-type: tm+mt
 source-wordcount: '4010'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -22,9 +22,9 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 ## Octubre de 2023 {#oct-2023}
 
 * Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de octubre de 2023 se ha detallado en la documentación. [Más información](release-notes.md)
-* Se han añadido GIF para ilustrar algunas funciones clave, como: [Plantillas de contenido](../content-management/content-templates.md), [Fragmentos](../content-management/fragments.md), [Atributos calculados](../audience/computed-attributes.md), [Correo directo](../direct-mail/get-started-direct-mail.md), [Etiquetas](../start/search-filter-categorize.md#tags), [Modelos de optimización de administración de decisiones](../offers/ranking/personalized-optimization-model.md), [Campañas activadas por API](../campaigns/api-triggered-campaigns.md), y [Experimento de contenido](../campaigns/content-experiment.md).
-* El proceso de creación del esquema se ha actualizado para reflejar las últimas actualizaciones en la interfaz de usuario, incluidas las modificaciones de Adobe Experience Platform. [Más información](../audience/creating-test-profiles.md)
-* Se han agregado protecciones de Administración de decisiones a la página Protecciones y limitaciones. [Más información](../start/guardrails.md#decision-management)
+* Se han añadido GIF para ilustrar algunas funcionalidades clave, como [Plantillas de contenido](../content-management/content-templates.md), [Fragmentos](../content-management/fragments.md), [Atributos calculados](../audience/computed-attributes.md), [Correo directo](../direct-mail/get-started-direct-mail.md), [Etiquetas](../start/search-filter-categorize.md#tags), [Modelos de optimización de gestión de decisiones](../offers/ranking/personalized-optimization-model.md), [Campañas activadas por API](../campaigns/api-triggered-campaigns.md) y [Experimento de contenido](../campaigns/content-experiment.md).
+* El proceso de creación del Esquema se ha actualizado para reflejar las últimas actualizaciones en la interfaz de usuario, incluidas las modificaciones de Adobe Experience Platform. [Más información](../audience/creating-test-profiles.md)
+* Se han añadido protecciones de gestión de decisiones a la página Protecciones y limitaciones. [Más información](../start/guardrails.md#decision-management)
 * La sección Parámetros de encabezado se ha actualizado para reflejar cómo se gestionan las notificaciones fuera de la oficina y las respuestas de desafío (se reciben en el **[!UICONTROL Correo electrónico de error]**). [Más información](../email/email-settings.md#email-header)
 * Se ha creado una nueva sección sobre cómo previsualizar y probar el contenido. [Más información](../content-management/preview-test.md)
 * La página Implementación de aplicaciones de una sola página se ha trasladado a la documentación del SDK web de Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}

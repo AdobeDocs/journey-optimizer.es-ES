@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '1710'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -182,7 +182,7 @@ ht-degree: 94%
          + [Diseño de contenido desde cero](using/email/content-from-scratch.md)
          + [Importe el contenido](using/email/existing-content.md)
          + [Codifique su propio contenido](using/email/code-content.md)
-         + [Usar plantillas de correo electrónico](using/email/use-email-templates.md)
+         + [Uso de plantillas de correo electrónico](using/email/use-email-templates.md)
       + Diseño del contenido {#add-content}
          + [Uso de componentes de contenido](using/email/content-components.md)
          + [Aprovechamiento de fragmentos visuales](using/email/use-visual-fragments.md)

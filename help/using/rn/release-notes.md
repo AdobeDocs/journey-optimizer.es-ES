@@ -11,7 +11,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 70c82f625903720e81cb73b226aaea98b2eb94b0
 workflow-type: tm+mt
 source-wordcount: '4525'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -205,7 +205,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Gestión de decisiones**
 
-* Ya están disponibles las nuevas API para la creación y administración de objetos de gestión de decisiones. Estas API ofrecen un rendimiento mejorado y una experiencia de usuario mejorada. Las API heredadas serán compatibles hasta el 27 de marzo de 2024. [Más información](../offers/api-reference/getting-started.md)
+* Ya están disponibles las nuevas API para la creación y administración de objetos de gestión de decisiones. Estas API ofrecen un rendimiento y una experiencia de usuario mejorada. Las API heredadas serán compatibles hasta el 27/03/2024. [Más información](../offers/api-reference/getting-started.md)
 
 **Personalización**
 
@@ -213,7 +213,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Alerta**
 
-* Se ha introducido un nuevo tipo de alerta del sistema. Ahora puede recibir una notificación cuando **Leer audiencia** falla la actividad. [Más información](../reports/alerts.md).
+* Se ha introducido un nuevo tipo de alerta del sistema. Ahora puede recibir notificaciones cuando falle una actividad de **Público de lectura**. [Más información](../reports/alerts.md).
 
 **Canal web**
 
@@ -229,7 +229,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 
 
-* La compatibilidad con las respuestas de acciones personalizadas ahora es GA. Esta capacidad le permite aprovechar las respuestas de llamadas de API en acciones personalizadas y organizar su recorrido en función de estas respuestas. Además, se ha añadido una nueva protección para limitar todas las acciones aduaneras a 150 000 llamadas en 30 segundos por punto final. [Más información](../action/action-response.md)
+* La compatibilidad con las respuestas de acciones personalizadas ahora es GA. Esto permite aprovechar las respuestas de las llamadas de la API en acciones personalizadas y organizar su recorrido en función de estas respuestas. Además, se ha añadido un nuevo mecanismo de protección para limitar todas las acciones habituales a 150 000 llamadas en 30 segundos por extremo. [Más información](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
@@ -246,7 +246,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Canal de correo directo**
 
-* Ahora puede cifrar archivos destinados a sus proveedores de correo postal cuando se transfieren a un servidor. Para ello, hay un nuevo campo disponible en la pantalla de configuración de enrutamiento de archivos, que le permite copiar y pegar la clave de cifrado. [Más información](../direct-mail/direct-mail-configuration.md)
+* Ahora puede cifrar archivos destinados a sus proveedores de correo directo cuando se transfieren a un servidor. Para ello, hay un nuevo campo disponible en la pantalla de configuración de enrutamiento de archivos, que le permite copiar y pegar la clave de cifrado. [Más información](../direct-mail/direct-mail-configuration.md)
 
 **Creación de informes**
 

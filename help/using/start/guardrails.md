@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '1698'
-ht-degree: 79%
+ht-degree: 95%
 
 ---
 
@@ -73,7 +73,7 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 
 ### Acciones personalizadas {#custom-actions-g}
 
-* Se define un límite de 150 000 llamadas durante 30 segundos para todas las acciones personalizadas. Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Debe tener esto en cuenta en los recorridos basados en audiencias definiendo una tasa de lectura adecuada (5000 perfiles/s cuando se utilizan acciones personalizadas). Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción. Consulte [esta página](../configuration/external-systems.md).
+* Se define un límite de 150 000 llamadas en 30 segundos para todas las acciones personalizadas. Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Debe tener esto en cuenta en los recorridos basados en públicos definiendo una tasa de lectura adecuada (5000 perfiles/s cuando se utilizan acciones personalizadas). Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción. Consulte [esta página](../configuration/external-systems.md).
 * La URL de acción personalizada no admite parámetros dinámicos.
 * Se admiten los métodos POST, PUT y llamada de GET
 * El nombre del parámetro de consulta o del encabezado no debe comenzar con &quot;.&quot; o &quot;$&quot;
@@ -139,27 +139,27 @@ Puede elegir entre una de estas dos soluciones:
 
 ### Protecciones de rendimiento {#performance-guardrails}
 
-El rendimiento de entrega corresponde al número de respuestas de decisión que puede entregar el servicio de aplicaciones de gestión de decisiones en un período de tiempo especificado. En el cuadro que figura a continuación se indica el número de decisiones por segundo.
+El rendimiento de envío corresponde al número de respuestas de decisión que puede entregar el servicio de aplicaciones de gestión de decisiones en un período de tiempo especificado. En el cuadro que figura a continuación se indica el número de decisiones por segundo.
 
 | API | Decisiones por segundo |
 |---------|----------|
-| Decisiones sobre solicitudes de API | 500 por segundo |
+| Solicitudes de decisiones de API | 500 por segundo |
 | Solicitudes de API de Edge Decisioning | 5000 por segundo |
 
 ### Limitaciones {#offers-limitations}
 
-Las limitaciones de Administración de decisiones se enumeran a continuación.
+Las limitaciones de Gestión de decisiones se indican a continuación.
 
-* **Ofertas personalizadas aprobadas + Ofertas de reserva** - Hasta 10 000 ofertas personalizadas aprobadas combinadas y ofertas de reserva aprobadas.
-* **Decisiones** - Hasta 10.000 Decisiones.
-* **Decisiones en directo** : El servicio de aplicaciones de Offer decisioning admite hasta 1000 decisiones en directo.
-* **Ofertas devueltas por respuesta** : el Offer decisioning admite hasta 100 ofertas devueltas por solicitud en todos los ámbitos de decisión de la solicitud.
-* **Colecciones** - Hasta 10.000 Colecciones.
-* **Colecciones por decisión** - Hasta 30 colecciones por decisión.
-* **Reglas de decisión + Funciones de clasificación** Hasta 10.000 reglas de decisión y funciones de clasificación combinadas.
-* **Ubicaciones** - Hasta 1.000 ubicaciones.
-* **Ubicaciones por decisión** - Hasta 30 ubicaciones por decisión.
-* **Método de clasificación por decisión** - El servicio de aplicaciones de Offer decisioning admite hasta 30 funciones de clasificación por decisión.
-* **Modelo de clasificación de IA** - El servicio de aplicaciones para Offers decisioning admite hasta 5 modelos de clasificación de IA.
-* **Calificador de colección por oferta o colección** - El servicio de aplicaciones de Offer decisioning admite hasta 20 calificadores de recopilación en cualquier oferta personalizada o colección única.
-* **Cualificadores de colección total** - El servicio de aplicaciones de Offer decisioning admite hasta 1000 calificadores de colección.
+* **Ofertas personalizadas aprobadas + Ofertas de reserva**: hasta 10 000 ofertas personalizadas aprobadas combinadas y ofertas de reserva aprobadas.
+* **Decisiones**: hasta 10.000 Decisiones.
+* **Decisiones en directo**: el servicio de la aplicación Offer Decisioning admite hasta 1000 decisiones en directo.
+* **Ofertas devueltas por respuesta**: Offer Decisioning admite hasta 100 ofertas devueltas por solicitud en todos los ámbitos de decisión de la solicitud.
+* **Colecciones**: hasta 10 000 colecciones.
+* **Colecciones por decisión**: hasta 30 colecciones por decisión.
+* **Reglas de decisión + Funciones de clasificación** Hasta 10 000 reglas de decisión y funciones de clasificación combinadas.
+* **Ubicaciones**: hasta 1000 ubicaciones.
+* **Ubicaciones por decisión**: hasta 30 ubicaciones por decisión.
+* **Método de clasificación por decisión**: el servicio de aplicación Offer Decisioning admite hasta 30 funciones de clasificación por decisión.
+* **Modelo de clasificaciones de IA**: el servicio de aplicación Offer Decisioning admite hasta 5 modelos de clasificaciones de IA.
+* **Calificador de colección por oferta o colección**: el servicio de aplicación Offer Decisioning admite hasta 20 Calificadores de colección en cualquier Oferta personalizada o Colección única.
+* **Calificadores de colección total**: el servicio de aplicaciones Offer Decisioning admite hasta 1000 Calificadores de colección.
