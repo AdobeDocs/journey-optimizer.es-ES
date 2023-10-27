@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 2344d53a331cb883a81a051ce1e06e8c42824cb7
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 17%
+source-wordcount: '461'
+ht-degree: 15%
 
 ---
 
@@ -74,7 +74,9 @@ Para crear un flujo de trabajo de maquetación, siga estos pasos:
 >title="Publicar la audiencia"
 >abstract="Publique la composición para guardar las audiencias resultantes en Adobe Experience Platform."
 
-Se puede acceder a todas las composiciones creadas desde el **[!UICONTROL Composiciones]** pestaña. Pueden tener varios estados:
+Se puede acceder a todas las composiciones creadas desde el **[!UICONTROL Composiciones]** pestaña. Puede duplicar o eliminar una composición existente en cualquier momento mediante el botón de puntos suspensivos de la lista.
+
+Las composiciones pueden tener varios estados:
 
 * **[!UICONTROL Borrador]**: la composición está en curso y no se ha publicado.
 * **[!UICONTROL Publicado]**: la composición se ha publicado, las audiencias resultantes se han guardado y están disponibles para su uso.
@@ -83,4 +85,4 @@ Se puede acceder a todas las composiciones creadas desde el **[!UICONTROL Compos
 
 >[!NOTE]
 >
->Puede duplicar o eliminar una composición existente en cualquier momento mediante el botón de puntos suspensivos de la lista.
+>La composición de audiencia no está integrada actualmente con la capacidad de restablecimiento de la zona protegida. Antes de iniciar el restablecimiento de una zona protegida, debe eliminar las composiciones manualmente para asegurarse de que los datos de audiencia asociados se limpien correctamente. Encontrará información detallada en Adobe Experience Platform [Documentación de zona protegida](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)
