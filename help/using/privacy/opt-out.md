@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1041'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -141,7 +141,7 @@ También puede añadir una comprobación de consentimiento de personalización a
 
 1. Añada la audiencia inicial con el botón específico de la derecha.
 
-1. Haga clic en **+** y seleccione un **[!UICONTROL Split]** actividad para crear una audiencia dividida. [Más información sobre la actividad División](../audience/composition-canvas.md#split)
+1. Haga clic en el icono **+** y seleccione la actividad **[!UICONTROL División]** para crear un público dividido. [Más información sobre la actividad División](../audience/composition-canvas.md#split)
 
    ![](assets/perso-consent-audience-split.png)
 
