@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: zona protegida, recorrido, copiar, entorno
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: b2a9a118b663c757a026c62b18e00d1f53e26317
+source-git-commit: 25306e8300942d2d4683771a6d66ed6c5e5823fc
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 7%
+source-wordcount: '718'
+ht-degree: 6%
 
 ---
 
@@ -44,6 +44,10 @@ La herramienta de zona protegida permite copiar objetos en varias zonas protegid
 
 En esta página se describe el caso de uso de las herramientas de entorno limitado en el contexto de Journey Optimizer. Para obtener más información sobre la propia función, consulte la [Documentación del Experience Platform](https://experienceleague.corp.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
+>[!NOTE]
+>
+>Esta función requiere los siguientes permisos: manage-sandbox (o view-sandbox) y manage-package.
+
 ## Introducción a las herramientas para espacios aislados{#sandbox-gs}
 
 Journey Optimizer permite copiar un recorrido completo de una zona protegida a otra. Por ejemplo, puede copiar un recorrido del entorno de zona protegida de ensayo en la zona protegida de producción. Además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: audiencias, esquemas, eventos y acciones. Para obtener más información sobre los objetos copiados, consulte [sección](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
@@ -54,19 +58,24 @@ Journey Optimizer permite copiar un recorrido completo de una zona protegida a o
 
 Los objetos copiados en la zona protegida de destino son únicos y no hay riesgo de sobrescribir elementos existentes. Tanto el recorrido como los mensajes dentro del recorrido se transfieren en modo de borrador. Esto le permite realizar una validación completa antes de la publicación en la zona protegida de destino. El proceso de copia solo copia los metadatos sobre el recorrido y los objetos de ese Recorrido. No se están copiando datos de perfil o conjunto de datos como parte de este proceso.
 
-## Exportación del recorrido {#export}
+El proceso de copia se lleva a cabo mediante una exportación de paquetes y una importación entre las zonas protegidas de origen y destino. Estos son los pasos generales para copiar un recorrido de una zona protegida a otra:
 
-Para copiar un recorrido en otra zona protegida, siga estos pasos:
+1. Añada el recorrido como paquete en la zona protegida de origen.
+1. Exporte el paquete a la zona protegida de destino.
+
+## Añadir el recorrido como paquete{#export}
+
+Para copiar un recorrido en otra zona protegida, primero debe agregar el recorrido como paquete en la zona protegida de origen. Siga estos pasos:
 
 1. En la sección del menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTROL Recorridos]**. Se muestra la lista de recorridos.
 
 1. Busque el recorrido que desea copiar y haga clic en el icono **Más acciones** (los tres puntos junto al nombre del recorrido) y haga clic en **Añadir a paquete**.
 
-![](assets/journey-sandbox1.png)
+   ![](assets/journey-sandbox1.png)
 
-El **Añadir a paquete** se muestra la ventana.
+   El **Añadir a paquete** se muestra la ventana.
 
-![](assets/journey-sandbox2.png)
+   ![](assets/journey-sandbox2.png)
 
 1. Seleccione si desea añadir el recorrido a un paquete existente o crear un nuevo paquete:
 
@@ -85,9 +94,11 @@ El **Añadir a paquete** se muestra la ventana.
 
    ![](assets/journey-sandbox9.png)
 
-## Importación del recorrido {#import}
+## Exportación del paquete a la zona protegida de destino {#import}
 
-1. En la lista de paquetes, haga clic en el icono + junto al nombre del paquete.
+Una vez publicado el paquete, debe exportarlo a la zona protegida de destino.
+
+1. En la zona protegida de origen, haga clic en **[!UICONTROL Zonas protegidas]** , seleccione la opción **Paquetes** y haga clic en el icono + situado junto al paquete que desea exportar.
 
    ![](assets/journey-sandbox5.png)
 
