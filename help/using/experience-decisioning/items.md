@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1034'
 ht-degree: 7%
 
 ---
@@ -76,6 +76,10 @@ Para crear un elemento de decisión, siga estos pasos:
    1. Configure las variables **[!UICONTROL Prioridad]** del elemento de decisión en comparación con otros, si un perfil cumple los requisitos para varios elementos. Una prioridad mayor otorga al elemento prioridad sobre otros.
 
    ![](assets/item-attributes.png)
+
+   >[!NOTE]
+   >
+   >La prioridad es un tipo de datos entero. Todos los atributos que son tipos de datos enteros deben contener valores enteros (sin decimales).
 
 1. Los atributos personalizados son atributos específicos adaptados a sus necesidades que puede asignar a un elemento de decisión. Se definen en el esquema de catálogo de los elementos de decisión. [Aprenda a trabajar con catálogos](catalogs.md)
 
