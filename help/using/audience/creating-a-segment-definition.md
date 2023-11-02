@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '347'
 ht-degree: 14%
 
 ---
@@ -26,7 +26,7 @@ En este ejemplo, crearemos una audiencia dirigida a todos los clientes que viven
 
 ➡️ [Aprenda a crear audiencias en este vídeo](#video-segment)
 
-1. Acceda a la **[!UICONTROL Audiencias]** , luego haga clic en el **[!UICONTROL Crear audiencia]** botón.
+1. Desde el **[!UICONTROL Audiencias]** , haga clic en el **[!UICONTROL Crear audiencia]** y seleccione **[!UICONTROL Generar regla]**.
 
    ![](assets/create-segment.png)
 

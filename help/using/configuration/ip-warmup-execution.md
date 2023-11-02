@@ -11,7 +11,7 @@ keywords: IP, grupo, subdominios, capacidad de entrega
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
 workflow-type: tm+mt
 source-wordcount: '1730'
 ht-degree: 19%
@@ -190,7 +190,7 @@ Asegúrese de que ha programado tiempo suficiente para permitir el [segmentació
 >
 >Cada ejecución debe activarse al menos 12 horas antes de la hora de envío real. De lo contrario, es posible que la segmentación no se complete.
 
-Al activar una ejecución, se crean varios segmentos automáticamente.
+Al activar una ejecución, se crean varias audiencias automáticamente.
 
 * Si activa la primera ejecución de una fase:
 
