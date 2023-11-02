@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: lista de permitidos, lista, seguro, configuración
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 14%
+source-wordcount: '1165'
+ht-degree: 15%
 
 ---
 
@@ -22,17 +22,15 @@ Es posible definir una lista específica de seguridad de envío en [espacio aisl
 
 Esta lista de permitidos le permite especificar direcciones de correo electrónico o dominios individuales que serán los únicos destinatarios o dominios autorizados para recibir los correos electrónicos que envía desde una zona protegida específica.
 
->[!NOTE]
+>[!CAUTION]
 >
->Esta función está disponible en entornos limitados de producción y sin producción.
+>Actualmente, esta función solo se aplica al canal de correo electrónico. Está disponible en entornos limitados de producción y sin producción.
 
 Por ejemplo, en una instancia que no es de producción, donde pueden producirse errores, la lista de permitidos garantiza que no tendrá riesgo de enviar mensajes no deseados a direcciones de clientes reales y, por lo tanto, proporciona un entorno seguro para realizar pruebas.
 
 Además, cuando la lista de permitidos está activa pero vacía, no se envía ningún correo. Por lo tanto, si encuentra algún problema importante, puede utilizar esta función para detener todas las comunicaciones salientes de [!DNL Journey Optimizer] hasta que arregles el problema. Obtenga más información sobre [lógica de lista de permitidos](#logic).
 
->[!CAUTION]
->
->Actualmente, esta función solo se aplica al canal de correo electrónico.
+Además, puede aprovechar Journey Optimizer **API de REST de supresión** para controlar los mensajes salientes mediante supresión y listas de permitidos. [Aprenda a trabajar con la API de REST de supresión](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=es)
 
 ## Acceso a la lista de permitidos {#access-allowed-list}
 
