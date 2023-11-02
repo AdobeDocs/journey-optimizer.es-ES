@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, lectura, audiencia, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: fd7e32d05b656f61488a53efb15b3bd86c6f99aa
+source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1356'
 ht-degree: 13%
 
 ---
@@ -47,13 +47,13 @@ Los pasos para configurar la actividad Leer audiencia son los siguientes:
 
 1. Añadir un **[!UICONTROL Etiqueta]** a la actividad (opcional).
 
-1. En el **[!UICONTROL Audiencia]** , elija la audiencia de Adobe Experience Platform que entrará en el recorrido y haga clic en **[!UICONTROL Guardar]**.
-
-   Tenga en cuenta que puede personalizar las columnas mostradas en la lista y ordenarlas.
+1. En el **[!UICONTROL Audiencia]** , elija la audiencia de Adobe Experience Platform que entrará en el recorrido y haga clic en **[!UICONTROL Guardar]**. Puede seleccionar cualquier audiencia de Adobe Experience Platform generada mediante [definiciones de segmentos](../audience/creating-a-segment-definition.md).
 
    >[!NOTE]
    >
-   >Solo las personas con el **Realizado** y **Existente** los estados de participación de la audiencia entrarán en el recorrido. Para obtener más información sobre cómo evaluar una audiencia, consulte la [Documentación del Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Además, también puede segmentar audiencias de Adobe Experience Platform creadas con [composiciones de audiencia](../audience/get-started-audience-orchestration.md) o [cargado desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. Estas funcionalidades están disponibles actualmente como una versión beta privada.
+
+   Tenga en cuenta que puede personalizar las columnas mostradas en la lista y ordenarlas.
 
    ![](assets/read-segment-selection.png)
 
@@ -62,6 +62,10 @@ Los pasos para configurar la actividad Leer audiencia son los siguientes:
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/read-segment-copy.png)
+
+   >[!NOTE]
+   >
+   >Solo las personas con el **Realizado** y **Existente** los estados de participación de la audiencia entrarán en el recorrido. Para obtener más información sobre cómo evaluar una audiencia, consulte la [Documentación del Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. En el **[!UICONTROL Área de nombres]** , elija el área de nombres que desea utilizar para identificar a los individuos. De forma predeterminada, el campo está rellenado previamente con el último área de nombres utilizado. [Más información sobre las Áreas de nombres](../event/about-creating.md#select-the-namespace).
 

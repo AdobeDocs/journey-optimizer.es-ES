@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 100%
+source-wordcount: '680'
+ht-degree: 92%
 
 ---
 
@@ -27,11 +27,15 @@ ht-degree: 100%
 >title="Selección del público de la campaña"
 >abstract="Esta lista muestra todos los públicos de Adobe Experience Platform disponibles. Seleccione el público al que se dirige la campaña. El mensaje configurado en la campaña se envía a todas las personas que pertenecen al público seleccionado. [Más información sobre los públicos](../audience/about-audiences.md)"
 
-[!DNL Journey Optimizer] le permite generar y aprovechar las audiencias de Adobe Experience Platform con datos de perfil del cliente en tiempo real directamente desde el menú **[!UICONTROL audiencias]** y utilizarlos en sus recorridos o campañas.
-
-Obtenga más información en la [documentación del Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es).
+[!DNL Journey Optimizer] le permite generar y aprovechar las audiencias de Adobe Experience Platform con datos de perfil del cliente en tiempo real directamente desde el menú **[!UICONTROL audiencias]** y utilizarlos en sus recorridos o campañas. Obtenga más información en la [documentación del Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es).
 
 ## Uso de audiencias en [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+
+Puede seleccionar en campañas y recorridos cualquier audiencia de Adobe Experience Platform generada mediante [definiciones de segmentos](../audience/creating-a-segment-definition.md).
+
+>[!NOTE]
+>
+>Además, también puede segmentar audiencias de Adobe Experience Platform creadas con [composiciones de audiencia](../audience/get-started-audience-orchestration.md) o [cargado desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. Estas funcionalidades están disponibles actualmente como una versión beta privada.
 
 Puede aprovechar las audiencias en **[!DNL Journey Optimizer]** de maneras diferentes:
 
