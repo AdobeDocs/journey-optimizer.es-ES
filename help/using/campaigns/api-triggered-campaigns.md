@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: 4729ceba99d0a1d356e1e44ee601c7b9eb871719
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '967'
 ht-degree: 3%
 
 ---
@@ -36,6 +36,8 @@ Los canales disponibles para las campañas activadas por API son correo electró
 >[!NOTE]
 >
 >Por ahora, el modo de envío rápido no es compatible con campañas activadas por API de notificaciones push.
+
+➡️ [Descubra esta función en vídeo](#video)
 
 ## Creación de una campaña activada por API {#create}
 
@@ -132,3 +134,9 @@ Para activar la creación de perfiles en la ejecución de la campaña, cambie el
 >[!NOTE]
 >
 >Los perfiles desconocidos se crean en **Conjunto de datos del perfil de mensajería interactiva AJO** , en tres áreas de nombres predeterminadas (correo electrónico, teléfono y ECID) respectivamente para cada canal saliente (correo electrónico, SMS y push).
+
+## Vídeo explicativo {#video}
+
+Obtenga información sobre cómo crear una campaña y almacenarla en déclencheur desde un sistema externo basado en las interacciones del usuario, mediante la API de REST de ejecución de mensaje interactivo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
