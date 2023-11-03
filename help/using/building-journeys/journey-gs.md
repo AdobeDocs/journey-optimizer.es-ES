@@ -43,7 +43,7 @@ Para enviar mensajes con recorridos, se requieren las siguientes configuraciones
 
    ![](assets/custom2.png)
 
-## Recorridos de acceso {#journey-access}
+## Acceso a recorridos {#journey-access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"

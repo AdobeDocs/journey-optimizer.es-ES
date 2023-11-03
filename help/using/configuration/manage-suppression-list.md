@@ -12,7 +12,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
 source-wordcount: '1595'
-ht-degree: 23%
+ht-degree: 24%
 
 ---
 
@@ -91,7 +91,7 @@ Los posibles motivos de un error de entrega son:
 Desde el **[!UICONTROL Lista de supresión]** , también puede editar el parámetro de reintento asociado a las reglas de supresión desde el **[!UICONTROL Editar reglas de supresión]** botón. Utilice esta opción para actualizar el umbral de reintentos para la zona protegida actual. [Más información sobre los reintentos](retries.md).
 
 
-## Adición de direcciones y dominios a la lista de supresión{#add-addresses-and-domains}
+## Añadir direcciones o dominios a la lista de supresión{#add-addresses-and-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
@@ -234,7 +234,7 @@ Una vez identificadas las direcciones de correo electrónico afectadas, filtre l
 
 A continuación, puede eliminar las direcciones de correo electrónico en cuarentena de la lista de supresión mediante el **[!UICONTROL Eliminar]** botón.
 
-## Descargar la lista de supresión {#download-suppression-list}
+## Descarga de la lista de supresión {#download-suppression-list}
 
 <!--
 >[!CONTEXTUALHELP]

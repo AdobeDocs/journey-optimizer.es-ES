@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
@@ -54,7 +54,7 @@ El **[!UICONTROL Estadísticas de campaña]** El widget detalla la información 
 From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
 -->
 
-## Pestaña Correo electrónico {#email-live}
+## Pestaña de correo electrónico {#email-live}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_sending_statistics"
@@ -174,7 +174,7 @@ El **[!UICONTROL Interacciones por tipo]** en los gráficos y la tabla se detall
 
 +++
 
-## Pestaña de notificaciones push {#push-live}
+## Pestaña de notificación push {#push-live}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_sending_performance"
@@ -325,7 +325,7 @@ El **[!UICONTROL Resumen web]** El gráfico muestra la evolución de las experie
 El **[!UICONTROL Interacciones por elemento]** La tabla detalla la información principal relativa a la participación de los visitantes en los distintos elementos de las páginas web.
 +++
 
-## Ficha Correo directo {#direct-mail-tab}
+## Pestaña de correo directo {#direct-mail-tab}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_sending_statistics"

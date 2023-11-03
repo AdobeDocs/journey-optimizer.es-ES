@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -160,7 +160,7 @@ Para crear un fragmento desde cero, siga los pasos a continuación.
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
-### Crear un fragmento visual {#create-visual-fragment}
+### Creación de un fragmento visual {#create-visual-fragment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_visual_fragment"

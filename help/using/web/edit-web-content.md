@@ -9,7 +9,7 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -152,7 +152,7 @@ En esta sección se detallan las distintas formas de desplazarse por el diseñad
 
 1. Puede navegar fácilmente a cualquier elemento principal, del mismo nivel o secundario dentro del editor visual.
 
-### Cambiar a modo Examinar {#browse-mode}
+### Cambiar al modo Examinar {#browse-mode}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"

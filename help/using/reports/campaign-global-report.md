@@ -118,7 +118,7 @@ El último widget proporciona datos relacionados con el **[!UICONTROL Métrica d
 
 Para profundizar en estos resultados y en cómo interpretarlos, consulte [esta página](../campaigns/get-started-experiment.md#interpret-results).
 
-## Pestaña Correo electrónico {#email-global}
+## Pestaña de correo electrónico {#email-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_statistics"
@@ -299,7 +299,7 @@ El **[!UICONTROL Interacciones por tipo]** en los gráficos y la tabla se detall
 El **[!UICONTROL Resumen en la aplicación]** Este gráfico muestra la evolución de las impresiones e interacciones en la aplicación durante el periodo correspondiente.
 +++
 
-## Pestaña de notificaciones push {#push-global}
+## Pestaña de notificación push {#push-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_sending_statistics"
@@ -506,7 +506,7 @@ El **[!UICONTROL Resumen web]** Este gráfico muestra la evolución de las exper
 El **[!UICONTROL Interacciones por elemento]** La tabla detalla la información principal relativa a la participación de los visitantes en los distintos elementos de las páginas web.
 +++
 
-## Ficha Correo directo {#direct-mail-global}
+## Pestaña de correo directo {#direct-mail-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_sending_statistics"

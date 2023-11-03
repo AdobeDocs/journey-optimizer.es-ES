@@ -12,7 +12,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
 source-wordcount: '1034'
-ht-degree: 7%
+ht-degree: 33%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
->title="Administrar elementos de decisión"
->abstract="Journey Optimizer le permite crear ofertas de marketing, conocidas como elementos de decisión, que puede crear y organizar en un catálogo y colecciones centralizados. Actualmente, todos los elementos de decisión creados se consolidan dentro de un único catálogo &quot;Ofertas&quot;. Desde esta pantalla, también puede acceder al esquema del catálogo mediante el **Editar esquema** y cree atributos personalizados para los elementos de decisión."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="Configuración del catálogo de elementos"
+>title="Administración de elementos de decisión"
+>abstract="Journey Optimizer le permite crear ofertas de marketing, conocidas como elementos de decisión, que puede crear y organizar en un catálogo y colecciones centralizados. Actualmente, todos los elementos de decisión creados se consolidan dentro de un único catálogo &quot;Ofertas&quot;. Desde esta pantalla, también puede acceder al esquema del catálogo mediante el botón **Editar esquema** y crear atributos personalizados para los elementos de decisión."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=es" text="Configuración del catálogo de elementos"
 
 >[!BEGINSHADEBOX]
 
@@ -49,21 +49,21 @@ Antes de crear un elemento de decisión, asegúrese de haber creado un **regla d
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_priority"
->title="Definir la prioridad del elemento de decisión"
+>title="Definición de la prioridad del elemento de decisión"
 >abstract="Si un perfil cumple los requisitos para varios elementos, la prioridad permite comparar este elemento de decisión con otros. Una prioridad mayor otorga al elemento prioridad sobre otros."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
 >title="Definición de los atributos personalizados"
 >abstract="Los atributos personalizados son atributos específicos adaptados a sus necesidades que puede asignar a un elemento de decisión. Se crean en el esquema de catálogo de los elementos de decisión. Esta sección solo se muestra si ha añadido al menos un atributo personalizado al esquema del catálogo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="Configuración del catálogo de elementos"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=es" text="Configuración del catálogo de elementos"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
->title="Adición de audiencias o reglas de decisión"
->abstract="De forma predeterminada, todos los perfiles son aptos para recibir el elemento de decisión, pero puede utilizar audiencias o reglas para restringir el elemento únicamente a perfiles específicos."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Usar audiencias"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="Usar reglas de decisión"
+>title="Añadir públicos o reglas de decisión"
+>abstract="De forma predeterminada, todos los perfiles podrán recibir el elemento de decisión, pero puede utilizar públicos o reglas para reservar el elemento únicamente a perfiles específicos."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=es" text="Uso de públicos"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.hltml?lang=es" text="Uso de reglas de decisión"
 
 Para crear un elemento de decisión, siga estos pasos:
 
@@ -115,7 +115,7 @@ Para crear un elemento de decisión, siga estos pasos:
 
    ![](assets/item-approve.png)
 
-## Administrar elementos de decisión
+## Administración de elementos de decisión
 
 Desde la lista de elementos de decisión, puede editar un elemento de decisión y cambiar su estado (**Borrador**, **Aprobado**, **Archivado**), duplíquelo o elimínelo.
 

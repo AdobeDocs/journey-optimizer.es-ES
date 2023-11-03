@@ -18,7 +18,7 @@ ht-degree: 13%
 
 # Uso de una audiencia en un recorrido {#segment-trigger-activity}
 
-## Añadir una actividad Leer audiencia {#about-segment-trigger-actvitiy}
+## Añadir una actividad Generar público {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
@@ -170,7 +170,7 @@ Esta exclusión puede producirse justo después de la recuperación de la audien
 
 ![](assets/read-segment-audience2.png)
 
-**Union**
+**Unión**
 
 Los recorridos le permiten crear N ramas y unirlas después de una segmentación.
 

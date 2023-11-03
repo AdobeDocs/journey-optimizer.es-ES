@@ -76,7 +76,7 @@ Puede añadir tantas como desee **[!UICONTROL Audiencia]** y **[!UICONTROL Exclu
 
 Puede quitar una actividad del lienzo en cualquier momento haciendo clic en el botón Eliminar en el panel derecho.  Si la actividad que desea eliminar es una actividad principal de otras actividades de la composición, se muestra un mensaje que le permite especificar si desea eliminar solamente la actividad seleccionada o todas sus actividades secundarias.
 
-### Actividad de audiencia {#audience}
+### Actividad de público {#audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_audience"

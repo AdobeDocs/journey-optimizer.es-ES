@@ -1,5 +1,5 @@
 ---
-title: Adición de representaciones a una oferta
+title: Añadir representaciones a una oferta
 description: Obtenga información sobre cómo añadir representaciones a las ofertas
 feature: Decision Management
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
-# Adición de representaciones a una oferta {#add-representations}
+# Añadir representaciones a una oferta {#add-representations}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"

@@ -65,7 +65,7 @@ Para empezar a crear una experiencia basada en código a través de una campaña
 
    ![](assets/code-based-campaign-edit-content.png)
 
-## Editar el contenido del código {#edit-code}
+## Edición del contenido del código {#edit-code}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"

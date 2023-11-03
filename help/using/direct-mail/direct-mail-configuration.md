@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 00bd3a2fb35ef2c634ed631b358a5256f47c7e58
 workflow-type: tm+mt
 source-wordcount: '914'
-ht-degree: 31%
+ht-degree: 32%
 
 ---
 
@@ -98,7 +98,7 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
    >
    >También puede seleccionar **[!UICONTROL Guardar como borrador]** para crear la configuración de enrutamiento de archivos, pero no podrá seleccionarla en una superficie hasta que **[!UICONTROL Activo]**.
 
-## Creación de una superficie de correo postal {#direct-mail-surface}
+## Creación de una superficie de correo directo {#direct-mail-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
@@ -121,7 +121,7 @@ Para poder enviar correo postal con [!DNL Journey Optimizer], debe crear una sup
 
 Una superficie de correo postal también debe incluir la configuración de enrutamiento de archivos que define el servidor donde se exportará el archivo de correo postal.
 
-1. Cree una superficie de canal. [Más información](../configuration/channel-surfaces.md)
+1. Creación de una superficie de canal. [Más información](../configuration/channel-surfaces.md)
 
 1. Seleccione el **[!UICONTROL Correo directo]** canal.
 

@@ -12,7 +12,7 @@ exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1522'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -72,7 +72,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 * Para optimizar el rendimiento y evitar el uso de recursos obsoletos, todos los recorridos del modo de prueba que no se hayan activado durante una semana volverán al **Borrador** estado.
 * Los eventos activados por el modo de prueba se almacenan en conjuntos de datos dedicados. Estos conjuntos de datos están etiquetados de la siguiente manera: `JOtestmode - <schema of your event>`
 
-## Déclencheur de eventos {#firing_events}
+## Activación de eventos {#firing_events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Cambio de las direcciones de ejecución
+title: Cambio de direcciones de ejecución
 description: Obtenga información sobre cómo determinar qué dirección de correo electrónico utilizar desde el servicio de perfil.
 feature: Application Settings
 topic: Administration
@@ -12,11 +12,11 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 23%
+ht-degree: 25%
 
 ---
 
-# Cambio de las direcciones de ejecución {#change-primary-email}
+# Cambio de direcciones de ejecución {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"

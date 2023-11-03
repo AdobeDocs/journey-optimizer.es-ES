@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '1050'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -32,7 +32,7 @@ El uso de los servicios SMS estará sujeto a términos y condiciones adicionales
 >
 >Para acceder y editar subdominios SMS, debe tener los siguientes **[!UICONTROL Administrar subdominios de SMS]** en la zona protegida de producción.
 
-## Crear nueva credencial de API {#create-api}
+## Creación de una nueva credencial de API {#create-api}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
@@ -94,7 +94,7 @@ Para configurar el proveedor de SMS con Journey Optimizer, siga estos pasos:
 
 Después de crear y configurar las credenciales de la API, debe crear una superficie de canal (es decir, un ajuste preestablecido de mensaje) para los mensajes SMS.
 
-## Creación de una superficie SMS {#message-preset-sms}
+## Creación de una superficie de SMS {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"

@@ -12,13 +12,13 @@ exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: f63f9d6ffd28d276f8a3dadbf8dc6b947b8331e7
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
 # Listas de suscripciones {#create-subscription-list}
 
-## ¿Qué es una lista de suscripción? {#subscription-list-definition}
+## ¿Qué es una lista de suscripción?  {#subscription-list-definition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_list"

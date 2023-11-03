@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurar una acción personalizada
+title: Configuración de una acción personalizada
 description: Obtenga información sobre cómo configurar una acción personalizada
 feature: Journeys, Actions, Custom Actions
 topic: Administration
@@ -12,11 +12,11 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1278'
-ht-degree: 14%
+ht-degree: 19%
 
 ---
 
-# Configurar una acción personalizada {#configure-an-action}
+# Configuración de una acción personalizada {#configure-an-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_configuration"
@@ -37,7 +37,7 @@ Tenga en cuenta también que los parámetros de acciones personalizadas tienen u
 
 ## Prácticas recomendadas{#custom-action-enhancements-best-practices}
 
-Se define un límite de 150 000 llamadas durante 30 segundos para todas las acciones personalizadas. Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Debe tener esto en cuenta en los recorridos basados en audiencias definiendo una tasa de lectura adecuada (5000 perfiles/s cuando se utilizan acciones personalizadas). Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción. Consulte [esta página](../configuration/external-systems.md).
+Se define un límite de 150 000 llamadas en 30 segundos para todas las acciones personalizadas. Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Debe tener esto en cuenta en los recorridos basados en públicos definiendo una tasa de lectura adecuada (5000 perfiles/s cuando se utilizan acciones personalizadas). Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción. Consulte [esta página](../configuration/external-systems.md).
 
 No debe segmentar los extremos públicos con acciones personalizadas por varios motivos:
 

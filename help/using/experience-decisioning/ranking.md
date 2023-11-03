@@ -12,7 +12,7 @@ exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 21%
+ht-degree: 64%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
 >title="Crear fórmulas de clasificación"
->abstract="Las fórmulas permiten definir reglas que determinan qué elemento debe presentarse primero, en lugar de tener en cuenta las puntuaciones de prioridad del elemento. Una vez creado un método de clasificación, puede asignarlo a una estrategia de decisión para definir qué artículos se deben seleccionar primero."
+>abstract="Fórmulas le permite definir reglas que determinarán qué elemento se debe presentar primero, en lugar de tener en cuenta las puntuaciones de prioridad del elemento. Una vez creado un método de clasificación, puede asignarlo a una estrategia de decisión para definir qué elementos se deben seleccionar primero."
 
 >[!BEGINSHADEBOX]
 
@@ -40,11 +40,11 @@ Lo que encontrará en esta guía de documentación:
 
 >[!ENDSHADEBOX]
 
-Los métodos de clasificación permiten clasificar los elementos que se muestran en un perfil determinado. Una vez creado un método de clasificación, puede asignarlo a una estrategia de decisión para definir qué artículos se deben seleccionar primero.
+Los métodos de clasificación permiten clasificar los elementos que se muestran en un perfil determinado. Una vez creado un método de clasificación, puede asignarlo a una estrategia de decisión para definir qué elementos se deben seleccionar primero.
 
 Los métodos de clasificación son accesibles desde el **[!UICONTROL Configuración]** / **[!UICONTROL Métodos de clasificación]** menú. Hay dos tipos de métodos de clasificación disponibles:
 
-* **Fórmulas** permite definir reglas que determinan qué elemento debe presentarse primero, en lugar de tener en cuenta las puntuaciones de prioridad del elemento.
+* **Fórmulas le permite definir reglas que determinarán qué elemento se debe presentar primero, en lugar de tener en cuenta las puntuaciones de prioridad del elemento.**
 
 * **modelos de IA** le permite utilizar sistemas de modelos formados que aprovecharán varios puntos de datos para determinar qué elemento se debe presentar primero.
 

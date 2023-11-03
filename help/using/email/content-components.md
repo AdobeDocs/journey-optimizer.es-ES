@@ -16,7 +16,7 @@ ht-degree: 57%
 
 ---
 
-# Uso de los componentes de contenido del Diseñador de correo electrónico {#content-components}
+# Uso de los componentes de contenido del diseñador de correo electrónico {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"

@@ -102,7 +102,7 @@ Para agregar nuevas direcciones de correo electrónico o dominios a la lista de 
 >
 >La lista de permitidos puede contener hasta 1000 entradas.
 
-### Rellenar manualmente la lista de permitidos {#manually-populate-list}
+### Rellenado manual de la lista de permitidos {#manually-populate-list}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add_header"
@@ -182,7 +182,7 @@ Para exportar la lista de permitidos como archivo CSV, siga los pasos a continua
    >
    >El vínculo es válido durante 24 horas.
 
-## lógica de lista de permitidos {#logic}
+## Lógica de lista de permitidos {#logic}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"

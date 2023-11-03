@@ -12,13 +12,13 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '970'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
 # Eventos de calificación de audiencias {#segment-qualification}
 
-## Acerca de los eventos de cualificación de audiencia{#about-segment-qualification}
+## Acerca de los eventos de cualificación de público{#about-segment-qualification}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"

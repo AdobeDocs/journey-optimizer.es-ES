@@ -30,12 +30,12 @@ Las regulaciones como la HIPAA requieren que [!DNL Journey Optimizer] debe propo
 >
 >[!DNL Journey Optimizer] no es compatible con los requisitos de archivo de SMS. Para obtener soporte de archivo dedicado, trabaje con su proveedor de SMS (Synch o Twilio).
 
-## Cómo usar CCO para correos electrónicos {#bcc-email}
+## Cómo utilizar CCO para correos electrónicos {#bcc-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="Definir una dirección de correo electrónico CCO"
->abstract="Puede conservar una copia de los correos electrónicos enviados enviándolos a una bandeja de entrada CCO. Escriba la dirección de correo electrónico que desee para que cada correo electrónico enviado se copie de forma oculta a esta dirección de CCO. Tenga en cuenta que el dominio de la dirección CCO debe ser diferente de cualquier subdominio delegado a Adobe. Esta función es opcional."
+>abstract="Puede conservar una copia de los correos electrónicos enviados enviándolos a una bandeja de entrada CCO. Escriba la dirección de correo electrónico que desee para que cada correo electrónico enviado se copie de forma oculta a esta dirección de CCO. Tenga en cuenta que el dominio de la dirección CCO debe ser diferente de cualquier subdominio delegado a Adobe. Esta funcionalidad es opcional."
 
 Puede enviar una copia oculta (CCO) de un correo electrónico enviado por [!DNL Journey Optimizer] a una dirección de CCO dedicada. Esta función opcional le permite conservar copias de las comunicaciones por correo electrónico que envía a sus usuarios para fines de conformidad o archivo. La dirección CCO no es visible para otros destinatarios del mensaje.
 

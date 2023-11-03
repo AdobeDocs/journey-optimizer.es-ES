@@ -12,11 +12,11 @@ exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
-# Usar plantillas de correo electrónico {#email-templates}
+# Uso de plantillas de correo electrónico {#email-templates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_use_template"

@@ -12,7 +12,7 @@ exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
 source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 13%
+ht-degree: 61%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_collection_rules"
->title="Definir reglas para la colección"
->abstract="Agregue una o varias reglas para determinar los elementos que se incluirán en la colección. Elija un atributo de elemento para utilizarlo como criterio. Seleccione el operador deseado e introduzca el valor por el que filtrar. Añada tantas reglas como sea necesario."
+>title="Definición de reglas para la colección"
+>abstract="Añada una o varias reglas para determinar los elementos que se incluirán en la colección. Elija un atributo de elemento para utilizarlo como criterio. Seleccione el operador deseado e introduzca el valor por el que desea filtrar. Añada tantas relaciones como sea necesario."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_collection"
@@ -60,10 +60,10 @@ Para crear una colección, siga estos pasos:
 
 1. Vaya a **[!UICONTROL Elementos]** > **[!UICONTROL Colecciones]** y haga clic en **[!UICONTROL Crear colección]**.
 1. Proporcione un nombre y una descripción para la colección.
-1. Agregue una o varias reglas para determinar los elementos que se incluirán en la colección. Para ello:
+1. Añada una o varias reglas para determinar los elementos que se incluirán en la colección. Para ello:
 
    1. Elija un atributo de elemento para utilizarlo como criterio. La lista de atributos incluye todos los atributos estándar y personalizados definidos en el esquema del catálogo. [Más información sobre el catálogo de artículos](catalogs.md)
-   1. Seleccione el operador deseado e introduzca el valor por el que filtrar.
+   1. Seleccione el operador deseado e introduzca el valor por el que desea filtrar.
    1. Repita estos pasos para agregar tantas reglas como sea necesario. Cuando se añaden varias reglas, puede elegir entre las siguientes **Y** y **O** operadores para combinarlos. Para ello, haga clic en el distintivo del operador para cambiar entre las dos opciones.
 
    ![](assets/collection-create.png)

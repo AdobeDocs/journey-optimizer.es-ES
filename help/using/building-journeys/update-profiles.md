@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Actualizar perfil
+title: Actualización de perfil
 description: Aprenda a utilizar la actividad Actualizar perfil en un recorrido
 feature: Journeys, Profiles, Activities
 topic: Content Management
@@ -12,11 +12,11 @@ exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
-# Actualizar perfil {#update-profile}
+# Actualización de perfil {#update-profile}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
