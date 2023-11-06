@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 004eb41b084f32993ec437f589e4e3d2cf7500d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 26%
 
 Las notas de la primera versión están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento. Los vínculos, las pantallas y la documentación actualizada se publican en las [notas de la versión](release-notes.md), en la fecha de la versión.
 
-## Notas de la versión de octubre de 2023 {#oct-rn-2023}
+## Notas de la versión preliminar de octubre de 2023 {#oct-rn-2023}
 
-**Fecha de lanzamiento**: 25-26 de octubre de 2023
+**Fecha de la versión**: 25-26 de octubre de 2023
 
 ### Nuevas funciones{#oct-2023-features}
 
@@ -34,13 +34,13 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <table>
 <thead>
 <tr>
-<th><strong>Herramientas de espacio aislado</strong><br/></th>
+<th><strong>Herramientas de zona protegida</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La herramienta de zona protegida permite copiar objetos en varias zonas protegidas aprovechando la exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.</p>
+<p>Las herramientas de zona protegida permiten copiar objetos en varias zonas protegidas aprovechando la exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -73,7 +73,7 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <tbody>
 <tr>
 <td>
-<p>Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del servicio de mensajes multimedia (MMS), lo que permite compartir imágenes, GIF o vídeos con sus clientes. Tenga en cuenta que esta función solo está disponible actualmente en versión beta con Sinch.</p>
+<p>Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del servicio de mensajes multimedia (MMS), lo que le permite compartir imágenes, GIF o vídeos con sus clientes. Tenga en cuenta que esta función solo está disponible actualmente en versión beta con Sinch.</p>
 <!--img src="assets/channel-reports.png"/-->
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
@@ -84,14 +84,14 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 
 Esta versión incorpora las mejoras que se enumeran a continuación.
 
-**Audiences**
+**Públicos**
 
-* Ahora puede segmentar audiencias cargadas desde un archivo CSV a recorridos y campañas.
-* Ahora puede segmentar audiencias creadas mediante la composición de audiencias y aprovechar los atributos de enriquecimiento en los Recorridos.
+* Ahora puede segmentar públicos destinatarios cargados desde un archivo CSV en recorridos y campañas.
+* Ahora puede dirigirse a públicos destinatarios creados mediante la composición de públicos y aprovechar los atributos de enriquecimiento de los recorridos.
 
 >[!AVAILABILITY]
 >
->Estas funcionalidades están disponibles actualmente como una versión beta privada.
+>Estas funcionalidades están disponibles actualmente como una versión Private Beta.
 
 <!--
 **Spam scoring for emails**
@@ -107,9 +107,9 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 * La duración máxima que puede definir en cualquier tiempo de espera ahora es de 29 días, en lugar de 30. Esto se aplica a:
 
-   * el **Cantidad de tiempo** en el campo [actividad de espera](../building-journeys/wait-activity.md)
-   * el **Período de espera de reentrada** in [propiedades del recorrido](../building-journeys/journey-gs.md#entrance)
-   * el **Esperar a** en la definición de tiempo de espera de [general](../building-journeys/general-events.md#events-specific-time) y [reacción](../building-journeys/reaction-events.md) eventos.
+   * la **Cantidad de tiempo** en el campo [actividad de espera](../building-journeys/wait-activity.md)
+   * el **Período de espera de reentrada** en [propiedades del recorrido](../building-journeys/journey-gs.md#entrance)
+   * el campo **Esperar a** en la definición de tiempo de espera de los eventos [general](../building-journeys/general-events.md#events-specific-time) y [reacción](../building-journeys/reaction-events.md).
 
 **Consentimiento en la configuración del canal**
 
@@ -117,4 +117,4 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Gestión de decisiones**
 
-* Se han actualizado varias etiquetas relacionadas con la restricción de ofertas en la interfaz de administración de decisiones.
+* Se han actualizado varias etiquetas relacionadas con el límite de ofertas en la interfaz de gestión de decisiones.
