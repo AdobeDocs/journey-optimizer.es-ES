@@ -63,7 +63,7 @@ Antes de crear un elemento de decisión, asegúrese de haber creado un **regla d
 >title="Añadir públicos o reglas de decisión"
 >abstract="De forma predeterminada, todos los perfiles podrán recibir el elemento de decisión, pero puede utilizar públicos o reglas para reservar el elemento únicamente a perfiles específicos."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=es" text="Uso de públicos"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.hltml?lang=es" text="Uso de reglas de decisión"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=es" text="Uso de reglas de decisión"
 
 Para crear un elemento de decisión, siga estos pasos:
 
