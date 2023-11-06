@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1698'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 * No puede agregar un preencabezado a una página de aterrizaje.
 * No puede seleccionar la opción **Programar usted mismo** al diseñar una página de aterrizaje principal.
 
-## Protecciones SMS {#sms-guardrails}
+## Protecciones de los SMS {#sms-guardrails}
 
 * La funcionalidad MMS solo está disponible para Sinch.
 * Los archivos multimedia para MMS se pueden incluir a través de una dirección URL compatible. Asegúrese de que el archivo multimedia se cargue por separado.
@@ -131,9 +131,9 @@ Puede elegir entre una de estas dos soluciones:
 
 * El tamaño del contenido del mensaje en la aplicación está limitado a 2 Mb. La inclusión de imágenes grandes puede dificultar el proceso de publicación.
 
-## Protecciones de audiencias {#audience}
+## Protecciones de públicos {#audience}
 
-* Puede publicar hasta 10 composiciones de audiencia en una zona protegida determinada. Si ha alcanzado este umbral, debe eliminar una composición para liberar espacio y publicar una nueva.
+* Puede publicar hasta 10 composiciones de público en una zona protegida determinada. Si ha alcanzado este umbral, debe eliminar una composición para liberar espacio y publicar una nueva.
 
 ## Mecanismos de protección de gestión de decisiones {#decision-management}
 
