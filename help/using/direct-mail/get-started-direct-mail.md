@@ -8,9 +8,9 @@ level: Beginner
 keywords: correo directo, mensaje, campaña
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 85%
 
 >[!IMPORTANT]
 >
->Por ahora, el canal de correo postal no está disponible para las organizaciones que han adquirido el Adobe **Healthcare Shield** y **Escudo de seguridad y privacidad** ofertas de complementos.
+>Por ahora, el canal de correo directo no está disponible para las organizaciones que han adquirido las ofertas complementarias del **programa de protección sanitaria** y del **programa de protección de la seguridad y la privacidad** de Adobe.
 
 El correo directo es un canal sin conexión que le permite personalizar y generar los archivos de extracción necesarios para que los proveedores de correo directo envíen correo a sus clientes.
 
