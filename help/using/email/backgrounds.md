@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: fondo, correo electrónico, color, editor
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ En cuanto a la configuración de fondos con el Diseñador de correo electrónico
 
 A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
-* Configure un **[!UICONTROL Color de fondo]** para todo el correo electrónico. Asegúrese de seleccionar la configuración del cuerpo en el árbol de navegación accesible desde la paleta izquierda.
+* Configure un **[!UICONTROL Color de fondo]** para todo el correo electrónico. Asegúrese de seleccionar la configuración de cuerpo en el árbol de navegación accesible desde la paleta izquierda.
 
   ![](assets/background_1.png)
 
@@ -39,7 +39,7 @@ A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
   ![](assets/background_2.png)
 
-* Defina un color de fondo diferente para cada componente de estructura. Seleccione una estructura en el árbol de navegación accesible desde la paleta izquierda para aplicar un color de fondo específico únicamente a esa estructura.
+* Defina un color de fondo diferente para cada componente de estructura. Seleccione una estructura en el árbol de navegación accesible desde la paleta izquierda para aplicar un color de fondo específico solo a esa estructura.
 
   Asegúrese de no establecer un color de fondo de ventanilla, ya que podría ocultar los colores de fondo de la estructura.
 
@@ -49,7 +49,7 @@ A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
   >[!NOTE]
   >
-  >Algunos programas de correo electrónico no admiten imágenes de fondo. Si no se admite, se utilizará en su lugar el color de fondo de la fila. Asegúrese de seleccionar un color de fondo alternativo adecuado en caso de que la imagen no se pueda mostrar.
+  >Algunos programas de correo electrónico no admiten imágenes de fondo. Cuando no se admite, se utiliza el color de fondo de la fila. Asegúrese de seleccionar un color de fondo alternativo adecuado en caso de que la imagen no se pueda mostrar.
 
   ![](assets/background_4.png)
 
