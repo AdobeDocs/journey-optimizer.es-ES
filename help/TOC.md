@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -210,7 +210,7 @@ ht-degree: 96%
    + [Introducción a las notificaciones push](using/push/get-started-push.md)
    + [Crear una notificación push](using/push/create-push.md)
    + [Diseño de la notificación push](using/push/design-push.md)
-   + [Compruebe y envíe su notificación push](using/push/send-push.md)
+   + [Comprobación y envío de la notificación push](using/push/send-push.md)
    + Configuración de notificaciones push{#push-config}
       + [Flujo de notificaciones push](using/push/push-gs.md)
       + [Configurar el canal de notificaciones push](using/push/push-configuration.md)
@@ -219,7 +219,7 @@ ht-degree: 96%
    + [Introducción a los SMS](using/sms/get-started-sms.md)
    + [Creación de un mensaje SMS](using/sms/create-sms.md)
    + [Creación de un mensaje MMS](using/sms/create-mms.md)
-   + [Compruebe y envíe su SMS](using/sms/send-sms.md)
+   + [Comprobación y envío del SMS](using/sms/send-sms.md)
    + [Administrar la exclusión de SMS](using/sms/sms-opt-out.md)
    + [Configuración del canal de SMS](using/sms/sms-configuration.md)
    + [Configuración de subdominios SMS](using/sms/sms-subdomains.md)
@@ -301,13 +301,13 @@ ht-degree: 96%
       + [Introducción al contenido dinámico](using/personalization/get-started-dynamic-content.md)
       + [Creación de reglas condicionales](using/personalization/create-conditions.md)
       + [Crear contenido dinámico](using/personalization/dynamic-content.md)
-   + Previsualización y prueba del contenido {#preview-test}
-      + [Introducción a la vista previa y las pruebas](using/content-management/preview-test.md)
+   + Vista previa y prueba del contenido {#preview-test}
+      + [Introducción a la vista previa y prueba](using/content-management/preview-test.md)
       + [Seleccionar perfiles de prueba](using/content-management/test-profiles.md)
-      + [Previsualización del contenido](using/content-management/preview.md)
+      + [Vista previa del contenido](using/content-management/preview.md)
       + [Envío de pruebas de correo electrónico](using/content-management/proofs.md)
       + [Prueba del procesamiento de correo electrónico](using/content-management/rendering.md)
-      + [Usar informe de spam](using/content-management/spam-report.md)
+      + [Uso del informe de spam](using/content-management/spam-report.md)
 + Audiencias, perfiles e identidad{#audiences-profiles-identities}
    + Audiencias {#audiences}
       + [Introducción a las audiencias](using/audience/about-audiences.md)
