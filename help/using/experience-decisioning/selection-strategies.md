@@ -29,7 +29,7 @@ ht-degree: 27%
 >title="Restricción de los perfiles aptos"
 >abstract="Puede restringir la selección de ofertas para esta estrategia de selección. De forma predeterminada, todos los perfiles son aptos, pero puede utilizar públicos o reglas para limitar la selección de ofertas solo a perfiles específicos."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=es" text="Uso de públicos"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.hltml?lang=es" text="Uso de reglas de decisión"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=es" text="Uso de reglas de decisión"
 
 >[!BEGINSHADEBOX]
 
