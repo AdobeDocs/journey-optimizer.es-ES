@@ -10,9 +10,9 @@ level: Intermediate
 keywords: preencabezado, editor, resumen, correo electrónico
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Para definir el encabezado previo del correo electrónico, siga los pasos a cont
 
    ![](assets/preheader_body.png)
 
-1. Desde el **[!UICONTROL Configuración]** , haga clic en el icono de personalización situado junto al **[!UICONTROL Preencabezado]** para añadir contenido.
+1. En la pestaña **[!UICONTROL Configuración]**, haga clic en el icono de personalización situado junto al campo **[!UICONTROL Preencabezado]** para añadir contenido.
 
    ![](assets/preheader_body_settings.png)
 
