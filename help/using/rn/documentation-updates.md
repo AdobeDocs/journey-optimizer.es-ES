@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
-workflow-type: ht
-source-wordcount: '4010'
-ht-degree: 100%
+source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
+workflow-type: tm+mt
+source-wordcount: '4103'
+ht-degree: 97%
 
 ---
 
 # Actualizaciones de documentación {#latest-updates}
 
 Esta página enumera todas las actualizaciones de documentación de [!DNL Journey Optimizer].
+
+## Noviembre de 2023 {#nov-2023}
+
+* La protección que limita todas las acciones personalizadas se ha cambiado de 150 000 llamadas en 30 segundos a 300 000 llamadas en un minuto. Además, el límite predeterminado ya no se aplica a cada extremo. Ahora se realiza por host y por zona protegida. Por ejemplo, en una zona protegida, si tiene dos extremos con el mismo host (p. ej., `https://www.adobe.com/endpoint1` y `https://www.adobe.com/endpoint2`), el límite se aplicará a todos los puntos de conexión del host adobe.com. &quot;endpoint1&quot; y &quot;endpoint2&quot; compartirán la misma configuración de límite y hacer que un extremo alcance el límite tendrá un impacto en el otro extremo. [Más información](../action/about-custom-action-configuration.md)
 
 ## Octubre de 2023 {#oct-2023}
 
