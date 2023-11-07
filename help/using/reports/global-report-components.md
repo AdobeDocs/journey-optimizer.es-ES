@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1100'
 ht-degree: 10%
 
 ---
@@ -89,6 +89,11 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
   <tr> 
    <td> Tasa de error<br/> </td> 
    <td> Porcentaje de errores que se han producido durante una entrega para evitar que se envíe en comparación con los correos electrónicos enviados.<br/> </td> 
+</tr>
+</tr> 
+  <tr> 
+   <td> Motivo del error<br/> </td> 
+   <td> Nombre de la causa original específica del error. <a href="error-list.md">Más información sobre los motivos de error</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Excluido<br/> </td> 
@@ -332,7 +337,11 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
   <tr> 
    <td> Tasa de error<br/> </td> 
    <td> Porcentaje de errores que se han producido durante una entrega para evitar que se envíe en comparación con las notificaciones push enviadas.<br/> </td> 
-</tr> 
+</tr>
+  <tr> 
+   <td> Motivo del error<br/> </td> 
+   <td> Nombre de la causa original específica del error. <a href="error-list.md">Más información sobre los motivos de error</a>.<br/> </td> 
+</tr>
   <tr> 
    <td> Excluido<br/> </td> 
    <td> Número de perfiles que Adobe Journey Optimizer ha excluido.<br/> </td> 
@@ -356,7 +365,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
  </tbody> 
 </table>
 
-### Métricas de página de aterrizaje {#landing-page-metrics}
+## Métricas de página de aterrizaje {#landing-page-metrics}
 
 <table> 
  <thead> 

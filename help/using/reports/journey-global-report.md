@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2408'
 ht-degree: 2%
 
 ---
@@ -74,7 +74,7 @@ Para obtener más información sobre las acciones personalizadas, consulte [la d
 Tenga en cuenta que para que estos widgets aparezcan en los informes de Recorrido, deberá restablecer los paneles. Para ello, haga clic en **[!UICONTROL Modificar]** entonces **[!UICONTROL Restablecer]** en la parte superior del informe.
 +++
 
-## Pestaña Correo electrónico {#email-global}
+## Pestaña de correo electrónico {#email-global}
 
 De tu recorrido **[!UICONTROL Informe global]**, el **[!UICONTROL Correo electrónico]** Esta pestaña detalla la información principal relativa a los envíos de correo electrónico realizados en el recorrido.
 
@@ -83,6 +83,8 @@ De tu recorrido **[!UICONTROL Informe global]**, el **[!UICONTROL Correo electr�
 +++Obtenga más información sobre las distintas métricas y widgets disponibles para el informe de correo electrónico.
 
 El **[!UICONTROL Estadísticas de envío de correo electrónico]** el gráfico detalla el éxito de su envío:
+
+* **[!UICONTROL Tiempo de ejecución]**: Hora de inicio de cada ejecución del correo electrónico recurrente en el recorrido. Para dirigirse solo a uno o varios correos electrónicos recurrentes, selecciónelos en la **[!UICONTROL Tiempo de ejecución]** menú desplegable.
 
 * **[!UICONTROL Objetivos]**: Número de perfiles dirigidos para cualquier acción, como enviar correos electrónicos o SMS.
 
@@ -101,6 +103,8 @@ El **[!UICONTROL Estadísticas de envío de correo electrónico]** el gráfico d
 * **[!UICONTROL Tasa de error]**: porcentaje de errores que se han producido durante una entrega para evitar que se envíe en comparación con los correos electrónicos enviados.
 
 El **[!UICONTROL Correo electrónico: estadísticas de seguimiento]** contiene los datos disponibles de la actividad del destinatario para la entrega:
+
+* **[!UICONTROL Tiempo de ejecución]**: Hora de inicio de cada ejecución del correo electrónico recurrente en el recorrido. Para dirigirse solo a uno o varios correos electrónicos recurrentes, selecciónelos en la **[!UICONTROL Tiempo de ejecución]** menú desplegable.
 
 * **[!UICONTROL Aperturas]**: Número de veces que se abrió la entrega en una entrega.
 
@@ -184,7 +188,7 @@ El **[!UICONTROL Estadísticas detalladas de ofertas]** contiene los datos dispo
 * **[!UICONTROL Tasa de pulsaciones de oferta]**: porcentaje de usuarios que interactuaron con la oferta.
 +++
 
-## Pestaña de notificaciones push {#push-global}
+## Pestaña de notificación push {#push-global}
 
 De tu recorrido **[!UICONTROL Informe global]**, el **[!UICONTROL Notificación push]** La pestaña detalla la información principal relativa a las entregas push enviadas en el recorrido.
 
@@ -193,6 +197,8 @@ De tu recorrido **[!UICONTROL Informe global]**, el **[!UICONTROL Notificación 
 +++Obtenga más información sobre las distintas métricas y widgets disponibles para el informe push.
 
 El **[!UICONTROL Notificación push: estadísticas de envío]** Esta tabla detalla la información principal relativa a las notificaciones push con gráficos y KPI:
+
+* **[!UICONTROL Tiempo de ejecución]**: Hora de inicio de cada ejecución de la notificación push recurrente en el recorrido. Para segmentar solo una o varias notificaciones push recurrentes, selecciónelas en el **[!UICONTROL Tiempo de ejecución]** menú desplegable.
 
 * **[!UICONTROL Objetivos]**: Número de perfiles dirigidos para cualquier acción, como enviar correos electrónicos o SMS.
 
@@ -211,6 +217,8 @@ El **[!UICONTROL Notificación push: estadísticas de envío]** Esta tabla detal
 * **[!UICONTROL Tasa de error]**: porcentaje de errores que se produjeron durante una entrega y que impiden su envío en comparación con las notificaciones push enviadas.
 
 El **[!UICONTROL Push: estadísticas de seguimiento]** contiene los datos disponibles de la actividad del destinatario para la entrega:
+
+* **[!UICONTROL Tiempo de ejecución]**: Hora de inicio de cada ejecución de la notificación push recurrente en el recorrido. Para segmentar solo una o varias notificaciones push recurrentes, selecciónelas en el **[!UICONTROL Tiempo de ejecución]** menú desplegable.
 
 * **[!UICONTROL Aperturas]**: Número de veces que se ha abierto un mensaje en una entrega.
 
@@ -265,6 +273,8 @@ El SMS **[!UICONTROL Informe global]** se divide en diferentes widgets que detal
 +++Obtenga más información sobre las distintas métricas y widgets disponibles para el informe SMS.
 
 El **[!UICONTROL SMS: estadísticas de envío]** La tabla detalla el éxito de su envío:
+
+* **[!UICONTROL Tiempo de ejecución]**: Hora de inicio de cada ejecución del mensaje SMS recurrente en el recorrido. Para dirigirse solo a uno o varios mensajes SMS recurrentes, selecciónelos en la **[!UICONTROL Tiempo de ejecución]** menú desplegable.
 
 * **[!UICONTROL Objetivos]**: número de perfiles de usuario que se califican como perfiles de destinatario para este envío.
 

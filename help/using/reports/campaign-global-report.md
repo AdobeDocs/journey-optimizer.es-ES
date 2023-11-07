@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '3192'
-ht-degree: 25%
+source-wordcount: '3357'
+ht-degree: 24%
 
 ---
 
@@ -173,6 +173,8 @@ Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL Correo elect
 
 El **[!UICONTROL Estadísticas de envío de correo electrónico]** el gráfico detalla el éxito de su correo electrónico:
 
+* **[!UICONTROL Tiempo de ejecución]**: Hora de inicio de cada ejecución del correo electrónico recurrente. Para dirigirse solo a uno o varios correos electrónicos recurrentes, selecciónelos en la **[!UICONTROL Tiempo de ejecución]** menú desplegable.
+
 * **[!UICONTROL Objetivos]**: Número total de mensajes procesados durante el proceso de envío.
 
 * **[!UICONTROL Enviado]**: Número total de envíos del correo electrónico.
@@ -194,6 +196,8 @@ El **[!UICONTROL Estadísticas de envío de correo electrónico]** el gráfico d
 * **[!UICONTROL Excluido]**: Número de perfiles que han sido excluidos por Adobe Journey Optimizer.
 
 El **[!UICONTROL Correo electrónico: estadísticas de seguimiento]** El widget contiene los datos disponibles para la actividad de perfil del correo electrónico:
+
+* **[!UICONTROL Tiempo de ejecución]**: Hora de inicio de cada ejecución del correo electrónico recurrente. Para dirigirse solo a uno o varios correos electrónicos recurrentes, selecciónelos en la **[!UICONTROL Tiempo de ejecución]** menú desplegable.
 
 * **[!UICONTROL Aperturas]**: Número de veces que se abrió el correo electrónico.
 
@@ -243,7 +247,7 @@ El **[!UICONTROL Correo electrónico: dominio del destinatario principal]** el g
 >
 > El **[!UICONTROL Correo electrónico: dominio del destinatario principal]** El widget tiene una tasa de precisión del 99,95 %.
 
-El **[!UICONTROL Optimizado frente a no optimizado]** El gráfico detalla la información principal relativa al mensaje, estén optimizados o no:
+El **[!UICONTROL Correo electrónico: optimizado frente a normal]** El gráfico detalla la información principal relativa al mensaje, estén optimizados o no:
 
 * **[!UICONTROL Enviado]**: Número total de envíos.
 
@@ -251,7 +255,7 @@ El **[!UICONTROL Optimizado frente a no optimizado]** El gráfico detalla la inf
 
 * **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en un correo electrónico.
 
-El **[!UICONTROL Optimización del tiempo de envío]** detalla el éxito del correo electrónico según el método de envío: optimizado o normal.
+El **[!UICONTROL Correo electrónico: optimización del tiempo de envío]** detalla el éxito del correo electrónico según el método de envío: optimizado o normal.
 
 * **[!UICONTROL Entregado]**: Número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
 
@@ -337,7 +341,9 @@ Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL Notificació
 
 +++Obtenga más información sobre las distintas métricas y widgets disponibles para el informe push.
 
-El **[!UICONTROL Notificación push: estadísticas de envío]** La tabla detalla la información principal relativa a las notificaciones push
+El **[!UICONTROL Notificación push: estadísticas de envío]** Esta tabla detalla la información principal relativa a las notificaciones push:
+
+* **[!UICONTROL Tiempo de ejecución]**: Hora de inicio de cada ejecución de la notificación push recurrente. Para segmentar solo una o varias notificaciones push recurrentes, selecciónelas en el **[!UICONTROL Tiempo de ejecución]** menú desplegable.
 
 * **[!UICONTROL Objetivos]**: Número total de mensajes procesados durante el análisis.
 
@@ -358,6 +364,8 @@ El **[!UICONTROL Notificación push: estadísticas de envío]** La tabla detalla
 * **[!UICONTROL Excluido]**: Número de perfiles que han sido excluidos por Adobe Journey Optimizer.
 
 El **[!UICONTROL Push: estadísticas de seguimiento]** contiene los datos disponibles de la actividad de perfil de la notificación push:
+
+* **[!UICONTROL Tiempo de ejecución]**: Hora de inicio de cada ejecución de la notificación push recurrente. Para segmentar solo una o varias notificaciones push recurrentes, selecciónelas en el **[!UICONTROL Tiempo de ejecución]** menú desplegable.
 
 * **[!UICONTROL Aperturas]**: Número de veces que se abrió la notificación push.
 
@@ -446,6 +454,8 @@ Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL SMS]** Esta 
 
 El **[!UICONTROL SMS: estadísticas de envío]** La tabla detalla el éxito del mensaje SMS:
 
+* **[!UICONTROL Tiempo de ejecución]**: Hora de inicio de cada ejecución del mensaje SMS recurrente. Para dirigirse solo a uno o varios mensajes SMS recurrentes, selecciónelos en la **[!UICONTROL Tiempo de ejecución]** menú desplegable.
+
 * **[!UICONTROL Objetivos]**: número de perfiles de usuario que se califican como perfiles de destinatario.
 
 * **[!UICONTROL Excluido]**: número de perfiles de usuario, excluidos de los perfiles de destino, que no recibieron el mensaje.
@@ -530,6 +540,8 @@ Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL Correo direc
 +++Obtenga más información sobre las distintas métricas y widgets disponibles para el informe Correo directo.
 
 El **[!UICONTROL Correo directo: estadísticas de envío]** Esta tabla detalla el éxito de su correo postal:
+
+* **[!UICONTROL Tiempo de ejecución]**: Hora de inicio de cada ejecución del correo postal recurrente. Para dirigirse solo a uno o varios correos postales recurrentes, selecciónelos en la **[!UICONTROL Tiempo de ejecución]** menú desplegable.
 
 * **[!UICONTROL Objetivos]**: número de perfiles de usuario que se califican como perfiles de destinatario para este correo postal.
 

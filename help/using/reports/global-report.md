@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
@@ -44,6 +44,12 @@ Para modificar cada tablero de informes, cambie el período de tiempo y cambie e
 1. En el informe global, seleccione una hora de inicio y otra de finalización para segmentar datos específicos.
 
    ![](assets/report_modify_1.png)
+
+1. Para los informes de Recorrido que implican varias configuraciones **[!UICONTROL Acciones]**, elija una específica **[!UICONTROL Acción]** en el menú desplegable.
+
+1. Si solo desea enviar uno o varios mensajes recurrentes, selecciónelos en la **[!UICONTROL Tiempo de ejecución]** menú desplegable.
+
+   ![](assets/report_modify_12.png)
 
 1. Elija si desea excluir los eventos de prueba de los informes con la barra de alternancia. Para obtener más información sobre los eventos de prueba, consulte [esta página](../building-journeys/testing-the-journey.md).
 
