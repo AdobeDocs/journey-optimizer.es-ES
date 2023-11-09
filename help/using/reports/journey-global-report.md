@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: 523c0cf8dd32eb9a1d2616258a7f5a142fd3499c
 workflow-type: tm+mt
-source-wordcount: '2408'
+source-wordcount: '2394'
 ht-degree: 2%
 
 ---
@@ -84,7 +84,7 @@ De tu recorrido **[!UICONTROL Informe global]**, el **[!UICONTROL Correo electr�
 
 El **[!UICONTROL Estadísticas de envío de correo electrónico]** el gráfico detalla el éxito de su envío:
 
-* **[!UICONTROL Tiempo de ejecución]**: Hora de inicio de cada ejecución del correo electrónico recurrente en el recorrido. Para dirigirse solo a uno o varios correos electrónicos recurrentes, selecciónelos en la **[!UICONTROL Tiempo de ejecución]** menú desplegable.
+* **[!UICONTROL Tiempo de ejecución]**: Hora de inicio de cada ejecución de recorrido en caso de recorridos recurrentes. Para segmentar solo una o varias recurrencias, selecciónelas en la **[!UICONTROL Tiempo de ejecución]** menú desplegable.
 
 * **[!UICONTROL Objetivos]**: Número de perfiles dirigidos para cualquier acción, como enviar correos electrónicos o SMS.
 
@@ -198,7 +198,7 @@ De tu recorrido **[!UICONTROL Informe global]**, el **[!UICONTROL Notificación 
 
 El **[!UICONTROL Notificación push: estadísticas de envío]** Esta tabla detalla la información principal relativa a las notificaciones push con gráficos y KPI:
 
-* **[!UICONTROL Tiempo de ejecución]**: Hora de inicio de cada ejecución de la notificación push recurrente en el recorrido. Para segmentar solo una o varias notificaciones push recurrentes, selecciónelas en el **[!UICONTROL Tiempo de ejecución]** menú desplegable.
+* **[!UICONTROL Tiempo de ejecución]**: Hora de inicio de cada ejecución de recorrido en caso de recorridos recurrentes. Para segmentar solo una o varias recurrencias, selecciónelas en la **[!UICONTROL Tiempo de ejecución]** menú desplegable.
 
 * **[!UICONTROL Objetivos]**: Número de perfiles dirigidos para cualquier acción, como enviar correos electrónicos o SMS.
 
@@ -218,7 +218,7 @@ El **[!UICONTROL Notificación push: estadísticas de envío]** Esta tabla detal
 
 El **[!UICONTROL Push: estadísticas de seguimiento]** contiene los datos disponibles de la actividad del destinatario para la entrega:
 
-* **[!UICONTROL Tiempo de ejecución]**: Hora de inicio de cada ejecución de la notificación push recurrente en el recorrido. Para segmentar solo una o varias notificaciones push recurrentes, selecciónelas en el **[!UICONTROL Tiempo de ejecución]** menú desplegable.
+* **[!UICONTROL Tiempo de ejecución]**: Hora de inicio de cada ejecución de recorrido en caso de recorridos recurrentes. Para segmentar solo una o varias recurrencias, selecciónelas en la **[!UICONTROL Tiempo de ejecución]** menú desplegable.
 
 * **[!UICONTROL Aperturas]**: Número de veces que se ha abierto un mensaje en una entrega.
 
@@ -274,7 +274,7 @@ El SMS **[!UICONTROL Informe global]** se divide en diferentes widgets que detal
 
 El **[!UICONTROL SMS: estadísticas de envío]** La tabla detalla el éxito de su envío:
 
-* **[!UICONTROL Tiempo de ejecución]**: Hora de inicio de cada ejecución del mensaje SMS recurrente en el recorrido. Para dirigirse solo a uno o varios mensajes SMS recurrentes, selecciónelos en la **[!UICONTROL Tiempo de ejecución]** menú desplegable.
+* **[!UICONTROL Tiempo de ejecución]**: Hora de inicio de cada ejecución de recorrido en caso de recorridos recurrentes. Para segmentar solo una o varias recurrencias, selecciónelas en la **[!UICONTROL Tiempo de ejecución]** menú desplegable.
 
 * **[!UICONTROL Objetivos]**: número de perfiles de usuario que se califican como perfiles de destinatario para este envío.
 
