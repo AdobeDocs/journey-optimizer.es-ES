@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: subdominio, PTR, registros, DNS, dominio, correo
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 10%
+source-wordcount: '777'
+ht-degree: 8%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
 >title="Registros PTR de los subdominios"
->abstract="Una vez delegado un subdominio a Adobe en Journey Optimizer, se crea automáticamente un registro PTR y se asocia a este subdominio."
+>abstract="Una vez delegado el primer subdominio al Adobe en Journey Optimizer, los registros PTR se crean automáticamente."
 
 ## Acerca de los registros PTR {#about-ptr-records}
 
@@ -36,7 +36,7 @@ Con los registros PTR, los servidores de correo receptores pueden comprobar la a
 
 ## Acceso a los registros PTR de los subdominios {#access-ptr-records}
 
-Una [se ha delegado un subdominio](delegate-subdomain.md) en Adobe Journey Optimizer, se crea automáticamente un registro PTR y se asocia a este subdominio. Puede acceder a ella desde el **[!UICONTROL Administration]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** > **[!UICONTROL Registros PTR]** menú.
+Una vez que [delegar](delegate-subdomain.md) su primer subdominio en el que se almacenará el Adobe [!DNL Journey Optimizer], los registros PTR se crean automáticamente para sus direcciones IP. Puede acceder a ellas desde el **[!UICONTROL Administration]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** > **[!UICONTROL Registros PTR]** menú.
 
 ![](assets/ptr-records.png)
 

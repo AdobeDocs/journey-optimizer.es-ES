@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 8%
@@ -27,7 +27,7 @@ Con [!DNL Journey Optimizer], puede configurar superficies de canal (es decir, a
 
 >[!CAUTION]
 >
-> * Para crear, editar y borrar superficies de canal, se debe disponer de [Administrar superficie de canal](../administration/high-low-permissions.md#manage-channel-surface) permiso.
+> * Para crear, editar y borrar superficies de canal, se debe disponer de [Administrar ajustes preestablecidos de mensajes](../administration/high-low-permissions.md#administration-permissions) permiso.
 >
 > * Debe realizar las [Configuración de correo electrónico](../email/get-started-email-config.md), [Configuración push](../push/push-configuration.md) y [Configuración de SMS](../sms/sms-configuration.md) pasos antes de crear superficies de canal.
 
@@ -47,7 +47,7 @@ Una vez configuradas las superficies de canal, puede seleccionarlas al crear men
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Configuración de la superficie de canal"
->abstract="Para poder crear acciones como correos electrónicos desde un recorrido o una campaña, primero debe crear una superficie de canal que defina toda la configuración técnica necesaria para los mensajes. Debe tener el permiso Administrar superficie de canal para crear, editar y eliminar superficies de canal."
+>abstract="Para poder crear acciones como correos electrónicos desde un recorrido o una campaña, primero debe crear una superficie de canal que defina toda la configuración técnica necesaria para los mensajes. Debe tener el permiso Administrar mensajes de ajustes preestablecidos para crear, editar y eliminar superficies de canal."
 
 Para crear una superficie de canal, siga estos pasos:
 

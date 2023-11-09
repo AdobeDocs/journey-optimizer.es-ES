@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: permiso, alto nivel, bajo nivel, perfil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -288,20 +288,6 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 ## Recurso de configuraciones de canal {#administration-permissions}
 
-* **[!DNL Manage channel surface]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar superficies de canal entre canales en el nivel de zona protegida.
-
-+++ Incluye los siguientes permisos de bajo nivel:
-
-   * Específico de Journey Optimizer:
-      * messages_presets.read
-      * messages_presets.write
-      * messages_presets.delete
-      * subdomains_delegation.read
-      * IP_pools.read
-      * mobile_setting.read (de Adobe Experience Platform Launch)
-
-+++
-
 * **[!DNL Manage IP pools]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar la definición de afinidad.
 
 +++ Incluye los siguientes permisos de bajo nivel:
@@ -341,7 +327,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL Manage messages presets]** el permiso de alto nivel permite a los usuarios leer, crear, editar y eliminar la personalización de marca del contenido.
+* **[!DNL Manage messages presets]** el permiso de nivel superior permite a los usuarios leer, crear, editar y eliminar superficies de canal entre canales en el nivel de zona protegida.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -353,7 +339,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
       * IP_pools.read
 
    * Específico de la recopilación de datos:
-      * Mobile_setting.read
+      * Mobile_setting.read <!--(from Adobe Experience Platform Launch)-->
 
 +++
 
@@ -390,7 +376,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL Manage subdomains delegation]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar delegaciones de subdominios (incluido el grupo de IP).
+* **[!DNL Manage subdomains delegations]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar delegaciones de subdominios (incluido el grupo de IP).
 
 +++ Incluye los siguientes permisos de bajo nivel:
    * Específico de Journey Optimizer:
