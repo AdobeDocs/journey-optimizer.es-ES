@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: componentes, diseñador de correo electrónico, editor, correo electrónico
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 607dd050b4e340bf6ae80fec76be8a64f3962645
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 57%
+source-wordcount: '1405'
+ht-degree: 54%
 
 ---
 
@@ -167,11 +167,17 @@ Utilice el **[!UICONTROL Imagen]** para insertar un archivo de imagen del equipo
 
    ![](assets/email_designer_image_content.png)
 
-1. Haga clic en **[!UICONTROL Examinar]** para elegir un archivo de imagen de sus recursos.
+1. Desde el **[!UICONTROL Configuración]** pestaña, haga clic en **[!UICONTROL Examinar]** para elegir un archivo de imagen de sus recursos o **[!UICONTROL Importar medios]** para cargar un recurso en Assets Essentials.
 
    Para obtener más información sobre [!DNL Assets Essentials], consulte [Documentación de Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
-1. Haga clic en el componente recién agregado y configure las propiedades de la imagen desde el **[!UICONTROL Configuración]** pestaña:
+   >[!NOTE]
+   >
+   > Para garantizar que los vínculos permanezcan activos y evitar problemas de caducidad, se recomienda utilizar Recursos de Adobe en lugar de depender de una URL de origen para las imágenes.
+
+1. También puede buscar directamente en Adobe Stock con la variable **[!UICONTROL Buscar fotos de Adobe Stock]** opción.
+
+1. Haga clic en el componente recién agregado y configure las propiedades de la imagen:
 
    * **[!UICONTROL Título de la imagen]** permite definir un título para la imagen.
    * **[!UICONTROL Texto alternativo]** permite definir el pie de ilustración vinculado a la imagen. Esto corresponde al atributo HTML alt.
