@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
-workflow-type: ht
-source-wordcount: '173'
-ht-degree: 100%
+source-git-commit: b4f6acb294c7a62f87525f1a1a8500dd57cefd6e
+workflow-type: tm+mt
+source-wordcount: '159'
+ht-degree: 92%
 
 ---
 
@@ -21,13 +21,9 @@ Utilice [!DNL Journey Optimizer] para enviar mensajes de texto a sus clientes en
 
 Se pueden crear envíos de SMS:
 
-* En un **Recorrido**: una vez que haya añadido una actividad SMS en el recorrido y haya definido la configuración básica, utilice el panel derecho **[!UICONTROL Acciones: SMS]** para crear el contenido del mensaje SMS.
+* En un **Recorrido**: una vez que haya añadido una actividad SMS en el recorrido y haya definido la configuración básica, utilice el panel derecho **[!UICONTROL Acciones: SMS]** para crear el contenido del mensaje SMS. [Obtenga información sobre cómo crear un recorrido](../building-journeys/journey-gs.md)
 
-  Para obtener más información sobre cómo configurar su recorrido, consulte esta [página](../building-journeys/journey-gs.md).
-
-* En una **Campaña**: una vez que haya creado una campaña, seleccione SMS como su acción y defina la configuración básica.
-
-  Para obtener más información sobre cómo configurar la cuenta , consulte esta [página](../campaigns/create-campaign.md#configure).
+* En una **Campaña**: una vez que haya creado una campaña, seleccione SMS como su acción y defina la configuración básica. [Obtenga información sobre cómo crear una campaña](../campaigns/create-campaign.md#configure)
 
 
 >[!IMPORTANT]
