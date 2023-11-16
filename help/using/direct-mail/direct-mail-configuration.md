@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 00bd3a2fb35ef2c634ed631b358a5256f47c7e58
+source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '929'
 ht-degree: 32%
 
 ---
@@ -24,11 +24,11 @@ Antes de poder generar este archivo, debe crear lo siguiente:
 
 1. A [configuración de enrutamiento de archivos](#file-routing-configuration) para especificar el servidor donde se exportará el archivo y cifrar el archivo, si es necesario.
 
-1. A [superficie de correo directo](#direct-mail-surface) que hará referencia a la configuración de enrutamiento de archivos.
+   >[!CAUTION]
+   >
+   >Para crear una configuración de enrutamiento de archivos, debe tener el **[!DNL Manage file routing]** permiso integrado. [Más información](../administration/ootb-product-profiles.md#content-library-manager).
 
->[!CAUTION]
->
->Si no ha configurado ninguna opción de enrutamiento de archivos, no podrá crear una superficie de correo postal.
+1. A [superficie de correo directo](#direct-mail-surface) que hará referencia a la configuración de enrutamiento de archivos. Si no ha configurado ninguna opción de enrutamiento de archivos, no podrá crear una superficie de correo postal.
 
 ## Configurar el enrutamiento de archivos {#file-routing-configuration}
 
