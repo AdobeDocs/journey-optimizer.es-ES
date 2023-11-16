@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: permiso, alto nivel, bajo nivel, perfil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -288,6 +288,17 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 ## Recurso de configuraciones de canal {#administration-permissions}
 
+* **[!DNL Manage file routing]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar configuraciones de enrutamiento de archivos.
+
++++ Incluye los siguientes permisos de bajo nivel:
+   * Específico de Journey Optimizer:
+
+      * file_routing.read
+      * file_routing.write
+      * file_routing.delete
+
++++
+
 * **[!DNL Manage IP pools]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar la definición de afinidad.
 
 +++ Incluye los siguientes permisos de bajo nivel:
@@ -399,13 +410,12 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL View PTR records]** el permiso de alto nivel permite a los usuarios ver los registros PTR que se han configurado en función del subdominio.
+* **[!DNL View file routing]** el permiso de alto nivel permite a los usuarios ver las configuraciones de enrutamiento de archivos.
 
 +++ Incluye los siguientes permisos de bajo nivel:
    * Específico de Journey Optimizer:
 
-      * PTR_records.read
-      * subdomains_delegation.read
+      * file_routing.read
 
 +++
 
@@ -434,6 +444,17 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
       * Mobile_setting.read
 
 +++
+
+* **[!DNL View PTR records]** el permiso de alto nivel permite a los usuarios ver los registros PTR que se han configurado en función del subdominio.
+
++++ Incluye los siguientes permisos de bajo nivel:
+   * Específico de Journey Optimizer:
+
+      * PTR_records.read
+      * subdomains_delegation.read
+
++++
+
 <!--
 ### [!DNL View channel surface] permission {#view-channel-surface}
 
