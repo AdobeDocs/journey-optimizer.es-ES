@@ -47,7 +47,7 @@ Una vez configuradas las superficies de canal, puede seleccionarlas al crear men
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Configuración de la superficie de canal"
->abstract="Para poder crear acciones como correos electrónicos desde un recorrido o una campaña, primero debe crear una superficie de canal que defina toda la configuración técnica necesaria para los mensajes. Debe tener el permiso Administrar mensajes de ajustes preestablecidos para crear, editar y eliminar superficies de canal."
+>abstract="Para poder crear acciones como correos electrónicos desde un recorrido o una campaña, primero debe crear una superficie de canal que defina toda la configuración técnica necesaria para los mensajes. Debe tener el permiso Administrar ajustes preestablecidos de mensajes para crear, editar y eliminar superficies de canal."
 
 Para crear una superficie de canal, siga estos pasos:
 
