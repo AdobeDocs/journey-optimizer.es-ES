@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
+source-git-commit: 1d7e8fde57d0397891aecad4979b1008a3c10a47
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 98%
+source-wordcount: '1730'
+ht-degree: 97%
 
 ---
 
@@ -47,6 +47,11 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 * Actualmente, la sincronización de comentarios de mensajes no está disponible para MMS.
 * La administración de consentimientos funciona en el nivel de canal SMS para MMS.
 
+## Protecciones de fragmentos {#fragments-guardrails}
+
+* Los fragmentos visuales solo están disponibles para el canal de correo electrónico.
+* Los fragmentos de expresiones no están disponibles para los canales web y en la aplicación.
+
 ## Mecanismos de protección de recorridos {#journeys-guardrails}
 
 ### Protecciones generales del recorrido {#journeys-guardrails-journeys}
@@ -64,12 +69,12 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 
 ### Versiones de recorridos {#journey-versions-g}
 
-* Un recorrido que se inicia con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No puede iniciar un recorrido con un evento de **Calificación de audiencia**.
-* Un recorrido que se inicia con una actividad de **Calificación de audiencia** en la versión 1 siempre debe comenzar con una **Calificación de audiencia** en versiones posteriores.
-* La audiencia y el área de nombres elegidos en la **Calificación de audiencias** (primer nodo) no se pueden cambiar en las versiones nuevas.
+* Un recorrido que se inicia con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No puede iniciar un recorrido con un evento de **Calificación de público**.
+* Un recorrido que se inicia con una actividad de **Calificación de público** en la versión 1 siempre debe comenzar con una **Calificación de público** en versiones posteriores.
+* El público y el área de nombres elegidos en la **Calificación de públicos** (primer nodo) no se pueden cambiar en las versiones nuevas.
 * La regla de reentrada debe ser la misma en todas las versiones del recorrido.
-* El recorrido que comience con **Leer audiencia** no puede comenzar con otro evento en las versiones siguientes.
-* No se puede crear una nueva versión de un recorrido de lectura de audiencia con lectura incremental. Debe duplicar el recorrido.
+* El recorrido que comience con **Leer público** no puede comenzar con otro evento en las versiones siguientes.
+* No se puede crear una nueva versión de un recorrido de lectura de público con lectura incremental. Debe duplicar el recorrido.
 
 ### Acciones personalizadas {#custom-actions-g}
 
@@ -84,9 +89,9 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 ### Eventos {#events-g}
 
 * En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido del cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este ID de orquestación debe añadirse a la carga útil de streaming que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
-* Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de audiencia.
-* Los recorridos unitarios (que se inician con un evento o una calificación de audiencia) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante cinco minutos. Por ejemplo, si un evento activa un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
-* Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Eventos consumidos por lotes o eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento del correo electrónico, etc.) no se puede usar para activar un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere una audiencia basado en esos eventos y use la actividad **Leer audiencia** en su lugar. Técnicamente, la calificación de la audiencia puede utilizarse, pero puede provocar problemas posteriores en función de las acciones utilizadas.
+* Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de público.
+* Los recorridos unitarios (que se inician con un evento o una calificación de público) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante cinco minutos. Por ejemplo, si un evento activa un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
+* Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Eventos consumidos por lotes o eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento del correo electrónico, etc.) no se puede usar para activar un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere un público basado en esos eventos y use la actividad **Leer público** en su lugar. Técnicamente, la calificación del público puede utilizarse, pero puede provocar problemas posteriores en función de las acciones utilizadas.
 
 ### Fuentes de datos {#data-sources-g}
 
@@ -105,14 +110,14 @@ Puede elegir entre una de estas dos soluciones:
 
 * Configure un recorrido que no utilice inmediatamente el perfil. Por ejemplo, si el recorrido está diseñado para confirmar la creación de una cuenta, el evento de experiencia podría contener la información necesaria para enviar el primer mensaje de confirmación (nombre, apellidos, dirección de correo electrónico, etc.).
 
-### Lectura de audiencia {#read-segment-g}
+### Lectura de público {#read-segment-g}
 
-* Las audiencias transmitidas siempre están actualizadas, pero las audiencias por lotes no se calcularán en el momento de la recuperación. Solo se evalúan cada día a la hora de evaluar el lote.
-* Para los recorridos que utilizan la actividad Leer audiencia, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con Leer audiencia, programados o que se inicien “lo antes posible”) que empiecen al mismo tiempo. Para ello, repártalos a lo largo del tiempo, por ejemplo, en intervalos de 5 y 10 minutos.
+* Los públicos transmitidos siempre están actualizados, pero los públicos por lotes no se calcularán en el momento de la recuperación. Solo se evalúan cada día a la hora de evaluar el lote.
+* Para los recorridos que utilizan la actividad Leer público, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con Leer público, programados o que se inicien “lo antes posible”) que empiecen al mismo tiempo. Para ello, repártalos a lo largo del tiempo, por ejemplo, en intervalos de 5 y 10 minutos.
 
 ### Editor de expresiones {#expression-editor}
 
-* Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen con Leer audiencia, Calificación de audiencia o una actividad de evento empresarial. Debe crear una audiencia nueva y utilizar una condición dentro de la audiencia en el recorrido.
+* Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen con Leer público, Calificación de público o una actividad de evento empresarial. Debe crear un público nuevo y utilizar una condición dentro del público en el recorrido.
 
 
 ### Limitaciones de actividad en la aplicación {#in-app-activity-limitations}
