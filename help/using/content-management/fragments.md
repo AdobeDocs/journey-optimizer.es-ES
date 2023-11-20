@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+source-git-commit: 1cfe9f6cb6e7c3e9a5d9b808c10ae4dfe77a92a2
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 15%
@@ -41,7 +41,9 @@ Además, puede aprovechar Journey Optimizer **API de REST de contenido** para ad
 
 ## Antes de empezar {#fragment-prerequisites}
 
-Para crear, editar y archivar fragmentos, debe tener el **[!DNL Manage Library Items]** permiso incluido en el **[!DNL Content Library Manager]** perfil del producto. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
+>[!CAUTION]
+>
+>Para crear, editar y archivar fragmentos, debe tener el **[!DNL Manage library items]** permiso incluido en el **[!DNL Content Library Manager]** perfil del producto. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
 
 En esta versión, se aplican las siguientes limitaciones:
 

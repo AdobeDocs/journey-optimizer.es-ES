@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: permisos, creación, mensajes
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: 1cfe9f6cb6e7c3e9a5d9b808c10ae4dfe77a92a2
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1172'
 ht-degree: 6%
 
 ---
@@ -142,6 +142,6 @@ Esta función incluye los siguientes permisos:
 
 | Capacidad | Permisos |
 |-|-|
-| Biblioteca de Journey Optimizer | <ul><li>**[!DNL Manage library items]**: leer, crear, editar y eliminar elementos de la biblioteca de Journey Optimizer.</li><li>**[!DNL Manage simulate content]**: acceso al **[!UICONTROL Simular contenido]** para vista previa y prueba.</li></ul> |
+| Biblioteca de Journey Optimizer | <ul><li>**[!DNL Manage library items]**: leer, crear, editar y eliminar elementos de la biblioteca de Journey Optimizer, incluidas plantillas de contenido y fragmentos.</li><li>**[!DNL Manage simulate content]**: acceso al **[!UICONTROL Simular contenido]** para vista previa y prueba.</li></ul> |
 | Administración de decisiones | <ul><li>**[!DNL Manage decisions]**: leer, crear, editar y eliminar entidades de toma de decisiones.</li><li>**[!DNL Manage ranking strategies]**: leer, crear, editar y eliminar informes personalizados y utilizar funciones de acción.</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**: leer, crear, editar y eliminar definiciones de segmentos.</li><li>**[!DNL Manage profiles]**: leer, crear, editar y eliminar perfiles.</li><li>**[!DNL Read datasets]**: acceso de solo lectura a conjuntos de datos.</li><li>**[!DNL Read schemas]**: acceso de solo lectura a esquemas.</li><li>**[!DNL Manage merge policies]**: leer, crear, editar y eliminar políticas de combinación.</li></ul> |
