@@ -39,8 +39,8 @@ Cada fase está compuesta por varias ejecuciones, a las que se asigna una sola c
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
->title="Excluir audiencias de campaña"
->abstract="Seleccione campañas para excluir sus audiencias de la fase actual. Esto sirve para evitar que se establezcan como objetivo perfiles con los que ya se ha contactado anteriormente desde otras fases u otros planes de calentamiento de IP."
+>title="Excluir públicos de la campaña"
+>abstract="Seleccione campañas para excluir sus públicos de la fase actual. Esto sirve para evitar que se establezcan como objetivo perfiles con los que ya se ha contactado anteriormente desde otras fases u otros planes de calentamiento de IP."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
