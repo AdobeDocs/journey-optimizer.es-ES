@@ -6,7 +6,7 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1712'
 ht-degree: 100%
 
@@ -54,10 +54,10 @@ ht-degree: 100%
       + [Introducción a actividades de recorrido](using/building-journeys/about-journey-activities.md)
       + [Eventos generales](using/building-journeys/general-events.md)
       + [Reacción](using/building-journeys/reaction-events.md)
-      + [Calificación de la audiencia](using/building-journeys/audience-qualification-events.md)
+      + [Calificación del público](using/building-journeys/audience-qualification-events.md)
       + [Condición](using/building-journeys/condition-activity.md)
       + [Espera](using/building-journeys/wait-activity.md)
-      + [Lectura de audiencia](using/building-journeys/read-audience.md)
+      + [Lectura de público](using/building-journeys/read-audience.md)
       + [Correo electrónico, en la aplicación, push, SMS](using/building-journeys/journeys-message.md)
       + [Acciones personalizadas](using/building-journeys/using-custom-actions.md)
       + [Acciones de Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
@@ -308,15 +308,15 @@ ht-degree: 100%
       + [Envío de pruebas de correo electrónico](using/content-management/proofs.md)
       + [Prueba del procesamiento de correo electrónico](using/content-management/rendering.md)
       + [Uso del informe de spam](using/content-management/spam-report.md)
-+ Audiencias, perfiles e identidad{#audiences-profiles-identities}
-   + Audiencias {#audiences}
-      + [Introducción a las audiencias](using/audience/about-audiences.md)
++ Públicos, perfiles e identidad{#audiences-profiles-identities}
+   + Públicos {#audiences}
+      + [Introducción a los públicos](using/audience/about-audiences.md)
       + [Generar definiciones de segmentos](using/audience/creating-a-segment-definition.md)
-      + Componer audiencias {#audience-orchestration}
-         + [Introducción a Composición de audiencias](using/audience/get-started-audience-orchestration.md)
+      + Componer públicos {#audience-orchestration}
+         + [Introducción a Composición de públicos](using/audience/get-started-audience-orchestration.md)
          + [Creación de flujos de trabajo de composición](using/audience/create-compositions.md)
          + [Trabajo con el lienzo de composición](using/audience/composition-canvas.md)
-         + [Acceso y administración de audiencias](using/audience/access-audiences.md)
+         + [Acceso y administración de públicos](using/audience/access-audiences.md)
    + Perfiles{#profiles}
       + [Introducción a los perfiles](using/audience/get-started-profiles.md)
       + [Creación de perfiles de prueba](using/audience/creating-test-profiles.md)
