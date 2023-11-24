@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
+source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 93%
+source-wordcount: '939'
+ht-degree: 53%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 93%
 >title="Selección del público de la campaña"
 >abstract="Esta lista muestra todos los públicos de Adobe Experience Platform disponibles. Seleccione el público al que se dirige la campaña. El mensaje configurado en la campaña se envía a todas las personas que pertenecen al público seleccionado. [Más información sobre los públicos](../audience/about-audiences.md)"
 
-[!DNL Journey Optimizer] le permite generar y aprovechar los públicos de Adobe Experience Platform con datos de perfil del cliente en tiempo real directamente desde el menú **[!UICONTROL Públicos]** y utilizarlos en sus recorridos o campañas. Obtenga más información en la [documentación del Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es).
+[!DNL Journey Optimizer] le permite generar y aprovechar los públicos de Adobe Experience Platform con datos de perfil del cliente en tiempo real directamente desde el menú **[!UICONTROL Públicos]** y utilizarlos en sus recorridos o campañas. Obtenga más información en la [documentación del Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"}.
 
 ## Uso de públicos en [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
@@ -53,24 +53,68 @@ Puede aprovechar los públicos en **[!DNL Journey Optimizer]** de maneras difere
 
 ## Métodos de evaluación de públicos{#evaluation-method-in-journey-optimizer}
 
-En Adobe Journey Optimizer, los públicos se generan a partir de definiciones de segmentos mediante uno de los dos métodos de evaluación:
+En Adobe Journey Optimizer, las audiencias se generan a partir de las definiciones de segmentos mediante uno de los tres métodos de evaluación siguientes.
 
-* **Segmentación de streaming**: la lista de perfiles de públicos se mantiene actualizada en tiempo real a medida que ingresan nuevos datos al sistema.
++++ Segmentación de streaming
 
-  La segmentación de streaming es un proceso continuo de selección de datos que actualiza los públicos en respuesta a la actividad de los usuarios. Una vez que se ha creado una definición de segmento y se ha guardado el público resultante, la definición del segmento se aplica a los datos entrantes en Journey Optimizer. Esto significa que los particulares se añaden o eliminan del público a medida que cambian sus datos de perfil, lo que garantiza que el público destinatario siempre sea relevante.
+La lista de perfiles de la audiencia se mantiene actualizada en tiempo real a medida que ingresan nuevos datos al sistema.
 
-* **Segmentación por lotes**: la lista de perfiles del público se evalúa cada 24 horas.
+La segmentación de streaming es un proceso continuo de selección de datos que actualiza los públicos en respuesta a la actividad de los usuarios. Una vez que se ha creado una definición de segmento y se ha guardado el público resultante, la definición del segmento se aplica a los datos entrantes en Journey Optimizer. Esto significa que los particulares se añaden o eliminan del público a medida que cambian sus datos de perfil, lo que garantiza que el público destinatario siempre sea relevante. [Más información](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html#query-types){target="_blank"}
 
-  La segmentación por lotes es una alternativa a la segmentación de streaming que procesa todos los datos de perfil a la vez mediante definiciones de segmento. Esto crea una instantánea del público que se puede guardar y exportar para su uso. Sin embargo, a diferencia de la segmentación de streaming, la segmentación por lotes no actualiza continuamente la lista de públicos en tiempo real, y los nuevos datos que llegan después del proceso por lotes no se reflejarán en el público hasta el siguiente proceso por lotes.
+>[!NOTE]
+>
+>Asegúrese de utilizar los eventos adecuados como criterios de segmentación de flujo continuo. [Más información](#open-and-send-event-guardrails)
 
-El sistema determina la segmentación por lotes o la segmentación de streaming para cada público en función de la complejidad y el coste de evaluar la regla de definición del segmento. Puede ver el método de evaluación de cada público en la columna **[!UICONTROL Método de evaluación]** de la lista de públicos.
++++
 
++++ Segmentación por lotes
+
+La lista de perfiles de la audiencia se evalúa cada 24 horas.
+
+La segmentación por lotes es una alternativa a la segmentación de streaming que procesa todos los datos de perfil a la vez mediante definiciones de segmento. Esto crea una instantánea del público que se puede guardar y exportar para su uso. Sin embargo, a diferencia de la segmentación por secuencias, la segmentación por lotes no actualiza continuamente la lista de audiencias en tiempo real, y los nuevos datos que llegan después del proceso por lotes no se reflejarán en la audiencia hasta el siguiente proceso por lotes. [Más información](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
+
++++
+
++++ Segmentación de Edge
+
+La segmentación de Edge es la capacidad de evaluar segmentos en Adobe Experience Platform de forma instantánea [en el borde](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es){target="_blank"}, enabling same-page and next-page personalization use cases. Currently only select query types can be evaluated with edge segmentation. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
+
++++
+
+Si sabe qué método de evaluación desea utilizar, selecciónelo en la lista desplegable. También puede hacer clic en el icono de examinar icono de la carpeta con una lupa para ver una lista de los métodos de evaluación de definición de segmentos disponibles. [Más información](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#segment-properties){target="_blank"}
+
+![](assets/evaluation-methods.png)
+
+<!--The determination between batch segmentation and streaming segmentation is made by the system for each audience, based on the complexity and the cost of evaluating the segment definition rule. You can view the evaluation method for each audience in the **[!UICONTROL Evaluation method]** column of the audience list.
+    
 ![](assets/evaluation-method.png)
 
 >[!NOTE]
 >
->Si la columna **[!UICONTROL Método de evaluación]** no se muestra, debe añadirla mediante el botón de configuración en la parte superior derecha de la lista.
+>If the **[!UICONTROL Evaluation method]** column does not display, you  need to add it using configuration button on the top right of the list.-->
 
 Una vez que haya definido un público por primera vez, los perfiles se añaden cuando este cumple los requisitos.
 
 Rellenar el público a partir de datos anteriores puede tardar hasta 24 horas. Una vez que se ha rellenado el público, se mantiene actualizado continuamente y siempre está listo para la segmentación.
+
+### Uso de eventos con segmentación de streaming {#open-and-send-event-guardrails}
+
+La segmentación por streaming es útil para la personalización en tiempo real con casos de uso de alto valor. Sin embargo, es importante elegir la opción correcta [eventos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"} para usar como criterios de segmentación.
+
+Por lo tanto, para un rendimiento óptimo de la segmentación de streaming, evite utilizar los siguientes eventos:
+
+* **Mensaje abierto** Evento de tipo de interacción
+
+  Al crear la audiencia, el uso de **Mensaje abierto** los eventos de interacción pasaron a ser poco fiables, ya que no son indicadores reales de la actividad del usuario y pueden afectar negativamente al rendimiento de la segmentación. Descubra por qué en esto [Publicación de blog de Adobe](https://blog.adobe.com/en/publish/2021/06/24/what-apples-mail-privacy-protection-means-for-email-marketers){target="_blank"}.
+
+  Por lo tanto, el Adobe recomienda no utilizar **Mensaje abierto** eventos de interacción con segmentación de flujo continuo. En su lugar, utilice señales reales de actividad del usuario como clics, compras o datos de señalizaciones.
+
+* **Mensaje enviado** Evento de estado de comentarios
+
+  El **Mensaje enviado** el evento de comentarios se utiliza a menudo para comprobar la frecuencia o la supresión antes de enviar un correo electrónico. El Adobe recomienda evitarlo si es posible, ya que ocupa espacio en la capacidad general actual de cuántos eventos se pueden transmitir por segundo.
+
+  Por lo tanto, para la frecuencia o la lógica de supresión, utilice reglas empresariales en lugar de **Mensaje enviado** eventos de comentarios. Tenga en cuenta que pronto estarán disponibles los límites de frecuencia diarios para perfiles individuales, lo que complementa la cadencia mensual existente para reglas comerciales.
+
+>[!NOTE]
+>
+>Puede utilizar **Mensaje abierto** y **Mensaje enviado** eventos en la segmentación por lotes sin problemas de rendimiento.

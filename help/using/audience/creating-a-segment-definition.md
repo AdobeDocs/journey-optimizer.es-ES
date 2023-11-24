@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: f64388673b5a3b2a8702026ce09b39e928ac2ab4
+source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 13%
+source-wordcount: '401'
+ht-degree: 18%
 
 ---
 
@@ -56,6 +56,10 @@ En este ejemplo, crearemos una audiencia dirigida a todos los clientes que viven
 
      ![](assets/add-events.png)
 
+     >[!NOTE]
+     >
+     >El Adobe recomienda no utilizar abrir y enviar eventos con segmentación de flujo continuo. En su lugar, utilice señales reales de actividad del usuario como clics, compras o datos de señalizaciones. Para la lógica de frecuencia o supresión, utilice reglas empresariales en lugar de enviar eventos. [Más información](about-audiences.md#open-and-send-event-guardrails)
+
 1. Al añadir y configurar nuevos campos en el espacio de trabajo, la variable **[!UICONTROL Propiedades de audiencia]** Este panel se actualiza automáticamente con información sobre los perfiles estimados que pertenecen a la audiencia.
 
    ![](assets/segment-estimate.png)
@@ -66,6 +70,6 @@ Ahora, la audiencia se puede utilizar en los recorridos. Para obtener más infor
 
 ## Vídeo explicativo{#video-segment}
 
-Descubra cómo Journey Optimizer utiliza reglas para generar audiencias y aprenda a utilizar atributos, eventos y audiencias existentes para crear una audiencia.
+Descubra cómo Journey Optimizer utiliza reglas para generar público y aprenda a utilizar atributos, eventos y audiencias existentes para crear público.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
