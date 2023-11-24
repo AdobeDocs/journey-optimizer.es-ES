@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1078'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,13 +26,13 @@ Proporcionar a los destinatarios la capacidad de cancelar la suscripción a la r
 
 ## Administración de bajas en recorridos y campañas {#opt-out-ajo}
 
-Al enviar mensajes desde recorridos o campañas, siempre debe asegurarse de que los clientes puedan cancelar la suscripción a comunicaciones futuras. Una vez cancelada la suscripción, los perfiles se eliminan automáticamente de la audiencia de futuros mensajes de marketing.
+Al enviar mensajes desde recorridos o campañas, siempre debe asegurarse de que los clientes puedan cancelar la suscripción a comunicaciones futuras. Una vez cancelada la suscripción, los perfiles se eliminan automáticamente del público de futuros mensajes de marketing.
 
 Mientras **[!DNL Journey Optimizer]** proporciona formas de administrar la exclusión en correos electrónicos y mensajes SMS, las notificaciones push no requieren ninguna acción por su parte, ya que los destinatarios pueden cancelar la suscripción a través de sus propios dispositivos. Por ejemplo, al descargar o al usar la aplicación, pueden seleccionar detener las notificaciones. Del mismo modo, pueden cambiar la configuración de notificación a través del sistema operativo móvil.
 
 >[!NOTE]
 >
->Además, puede aprovechar Journey Optimizer **API de REST de supresión** para controlar los mensajes salientes mediante supresión y listas de permitidos. [Aprenda a trabajar con la API de REST de supresión](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=es)
+>Además, puede aprovechar la **API de REST de supresión** de Journey Optimizer para controlar los mensajes salientes mediante supresión y listas de permitidos. [Obtenga información sobre cómo trabajar con la API de REST de supresión](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=es)
 
 
 Aprenda a administrar la exclusión en los mensajes de correo electrónico y SMS de Journey Optimizer en estas secciones:
@@ -72,11 +72,11 @@ Al aprovechar las ofertas, las preferencias de personalización no se implementa
 >
 >Los ámbitos de decisión utilizados en los canales creados de [!DNL Journey Optimizer] cumplen este requisito desde el recorrido o la campaña a los que pertenecen.
 
-1. Cree una [audiencia de Adobe Experience Platform](../audience/access-audiences.md) usando el [Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es){target="_blank"} y utilice un atributo de perfil como **[!UICONTROL Personalizar contenido = Sí (inclusión)]** para dirigirse a los usuarios que hayan aceptado la personalización.
+1. Cree un [público de Adobe Experience Platform](../audience/access-audiences.md) usando el [Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es){target="_blank"} y utilice un atributo de perfil como **[!UICONTROL Personalizar contenido = Sí (inclusión)]** para dirigirse a los usuarios que hayan aceptado la personalización.
 
    ![](assets/perso-consent-od-audience.png)
 
-1. Al crear una [decisión](../offers/offer-activities/create-offer-activities.md), agregue un ámbito de decisión y defina una restricción de idoneidad basada en esta audiencia o para cada recopilación de criterios de evaluación que contenga ofertas personalizadas.
+1. Al crear una [decisión](../offers/offer-activities/create-offer-activities.md), agregue un ámbito de decisión y defina una restricción de idoneidad basada en este público o para cada recopilación de criterios de evaluación que contenga ofertas personalizadas.
 
    ![](assets/perso-consent-od-audience-decision.png)
 
@@ -110,7 +110,7 @@ Sin embargo, el uso de etiquetas de control de acceso basadas en los derechos pe
 
 En las campañas de [!DNL Journey Optimizer], la política de consentimiento se aplica del siguiente modo:
 
-* Puede incluir definiciones de directivas de consentimiento como parte de la creación de audiencias para asegurarse de que la audiencia seleccionada para la campaña ya haya **filtrado los perfiles que no coinciden con los criterios de consentimiento**.
+* Puede incluir definiciones de directivas de consentimiento como parte de la creación de públicos para asegurarse de que el público seleccionado para la campaña ya haya **filtrado los perfiles que no coinciden con los criterios de consentimiento**.
 
 * [!DNL Journey Optimizer] realizará una comprobación de consentimiento general a nivel de canal para **garantizar que los perfiles hayan elegido** recibir comunicaciones de marketing en el canal específico.
 
@@ -122,7 +122,7 @@ Para aplicar manualmente el consentimiento de personalización en las campañas,
 
 ### Uso del generador de reglas de segmentos
 
-Puede usar el generador de reglas de segmentos para crear una audiencia que contenga perfiles de exclusión.
+Puede usar el generador de reglas de segmentos para crear un público que contenga perfiles de exclusión.
 
 1. Cree un [público de Adobe Experience Platform](../audience/access-audiences.md) con el [Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es){target="_blank"}.
 
@@ -134,17 +134,17 @@ Puede usar el generador de reglas de segmentos para crear una audiencia que cont
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-Ahora puede utilizar esta audiencia para filtrar los perfiles que no hayan dado su consentimiento para la personalización de sus campañas.
+Ahora puede utilizar este público para filtrar los perfiles que no hayan dado su consentimiento para la personalización de sus campañas.
 
 ### Uso de una actividad de división en un flujo de trabajo de composición
 
-También puede añadir una comprobación de consentimiento de personalización a una audiencia añadiendo una actividad de división a un flujo de trabajo de composición.
+También puede añadir una comprobación de consentimiento de personalización a un público añadiendo una actividad de división a un flujo de trabajo de composición.
 
-1. Cree una audiencia con la opción **[!UICONTROL Componer audiencia]**. [Más información sobre la creación de un flujo de trabajo de composición](../audience/create-compositions.md)
+1. Cree un público con la opción **[!UICONTROL Componer público]**. [Más información sobre la creación de un flujo de trabajo de composición](../audience/create-compositions.md)
 
    ![](assets/perso-consent-audience-compose.png)
 
-1. Añada la audiencia inicial con el botón específico de la derecha.
+1. Añada el público inicial con el botón específico de la derecha.
 
 1. Haga clic en el icono **+** y seleccione la actividad **[!UICONTROL División]** para crear un público dividido. [Más información sobre la actividad División](../audience/composition-canvas.md#split)
 
@@ -160,7 +160,7 @@ También puede añadir una comprobación de consentimiento de personalización a
 
    ![](assets/perso-consent-audience-consent-attribute.png)
 
-1. **[!UICONTROL Ruta 1]** será la audiencia no personalizada. Elija una etiqueta relevante.
+1. **[!UICONTROL Ruta 1]** será el público no personalizado. Elija una etiqueta relevante.
 
 1. Elija el valor apropiado de esta [lista](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=es#choice-values){target="_blank"}.
 
@@ -170,12 +170,12 @@ También puede añadir una comprobación de consentimiento de personalización a
 
 1. Puede crear una ruta independiente para otros valores de opción. También puede optar por eliminar las rutas restantes y activar **[!UICONTROL Otros perfiles]** para incluir todos los demás perfiles que no tengan un valor de opción de `n`.
 
-1. Una vez finalizado, haga clic en **[!UICONTROL Guardar audiencia]** para cada ruta y así guardar el resultado del flujo de trabajo en una nueva audiencia. Se guardará una audiencia en Adobe Experience Platform para cada ruta.
+1. Una vez finalizado, haga clic en **[!UICONTROL Guardar público]** para cada ruta y así guardar el resultado del flujo de trabajo en un nuevo público. Se guardará un público en Adobe Experience Platform para cada ruta.
 
 1. Una vez finalizado, publique el flujo de trabajo de composición.
 
-Ahora puede utilizar esta audiencia para filtrar los perfiles que no hayan dado su consentimiento para la personalización de sus campañas.
+Ahora puede utilizar este público para filtrar los perfiles que no hayan dado su consentimiento para la personalización de sus campañas.
 
 >[!NOTE]
 >
->Tenga en cuenta que si crea una audiencia que no haya dado su consentimiento para la personalización y luego selecciona esta audiencia en una campaña, las herramientas de personalización permanecerán disponibles. Es responsabilidad de los usuarios de marketing comprender que, si trabajan con una audiencia que no haya dado su consentimiento para recibir personalización, no deberían utilizar las herramientas de personalización.
+>Tenga en cuenta que si crea un público que no haya dado su consentimiento para la personalización y luego selecciona este público en una campaña, las herramientas de personalización permanecerán disponibles. Es responsabilidad de los usuarios de marketing comprender que, si trabajan con un público que no haya dado su consentimiento para recibir personalización, no deberían utilizar las herramientas de personalización.
