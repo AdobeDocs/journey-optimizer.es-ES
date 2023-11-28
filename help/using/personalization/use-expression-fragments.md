@@ -9,16 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, biblioteca, personalización
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Aprovechamiento de fragmentos de expresiones {#use-expression-fragments}
 
-Al utilizar el Editor de expresiones, puede aprovechar todos los fragmentos de expresiones que se han creado o guardado en la zona protegida actual.
+Al usar el **Editor de expresiones** Además, puede aprovechar todos los fragmentos de expresiones que se han creado o guardado en la zona protegida actual.
 
 Obtenga información sobre cómo crear y administrar fragmentos en [esta sección](../content-management/fragments.md).
 
