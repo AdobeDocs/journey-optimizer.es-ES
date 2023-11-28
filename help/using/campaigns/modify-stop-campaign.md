@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: administrar campañas, estado, programación, acceso, optimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: b9630c922ff67b0a402af5f950ee4e5a442bb1b1
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '587'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,7 @@ Las campañas pueden tener varios estados:
 
 * **[!UICONTROL Borrador]**: la campaña se está editando y no se ha activado.
 * **[!UICONTROL Activando]**: la campaña se está activando.
+* **[!UICONTROL Procesando]** *(solo campañas de correo electrónico)*: la exportación de la audiencia se ha completado y la campaña se está publicando.
 * **[!UICONTROL Activo]**: la campaña se ha activado.
 * **[!UICONTROL Programado]**: la campaña está configurada para activarse en una fecha de inicio específica.
 * **[!UICONTROL Detenido]**: la campaña se ha detenido manualmente. Ya no puede activarlo ni reutilizarlo. [Obtenga información sobre cómo detener una campaña](modify-stop-campaign.md#stop)
