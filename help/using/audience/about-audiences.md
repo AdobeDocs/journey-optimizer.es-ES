@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: de7c09fd5dcba80f23d136c067c2527fc4ec5f2e
+source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 53%
@@ -51,7 +51,7 @@ Puede aprovechar los públicos en **[!DNL Journey Optimizer]** de maneras difere
 
 * Utilice la actividad **Condición** en un recorrido para crear condiciones basadas en el abono del público. [Aprenda a utilizar los públicos en condiciones](../building-journeys/condition-activity.md#using-a-segment).
 
-## Métodos de evaluación de públicos{#evaluation-method-in-journey-optimizer}
+## Métodos de evaluación de públicos {#evaluation-method-in-journey-optimizer}
 
 En Adobe Journey Optimizer, las audiencias se generan a partir de las definiciones de segmentos mediante uno de los tres métodos de evaluación siguientes.
 
@@ -97,7 +97,7 @@ Una vez que haya definido un público por primera vez, los perfiles se añaden c
 
 Rellenar el público a partir de datos anteriores puede tardar hasta 24 horas. Una vez que se ha rellenado el público, se mantiene actualizado continuamente y siempre está listo para la segmentación.
 
-### Uso de eventos con segmentación de streaming {#open-and-send-event-guardrails}
+### Uso de eventos con segmentación de streaming {#streaming-segmentation-events-guardrails}
 
 La segmentación por streaming es útil para la personalización en tiempo real con casos de uso de alto valor. Sin embargo, es importante elegir la opción correcta [eventos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"} para usar como criterios de segmentación.
 
