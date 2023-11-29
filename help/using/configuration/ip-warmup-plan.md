@@ -11,9 +11,9 @@ keywords: IP, grupo, subdominios, capacidad de entrega
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 8eeceb48882ab6198628ce09a5a52aa8d8da4f26
+source-git-commit: 94a3eb47d3b1cd8bafe146f65843acf8393fa69c
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1540'
 ht-degree: 8%
 
 ---
@@ -170,6 +170,9 @@ Los grupos de dominios principales listos para usar que puede agregar a su plan 
 +++
 
 +++La Poste laposte.net
++++
+
++++Apple mac.com;icloud.com;apple.com;me.com
 +++
 
 ### Pestaña Grupo de dominios personalizado {#custom-domain-group-tab}
