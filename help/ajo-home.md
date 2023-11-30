@@ -5,7 +5,7 @@ description: Aprenda a utilizar Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 5e1f1aa76d03dd4a54267c09b75f7d165553d81e
+source-git-commit: 5dfdded39444678ef0266540d47e004b47f7e88d
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 38%
@@ -59,7 +59,7 @@ Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del ser
 
 ## Explorar la documentación
 
-<table style="table-layout:fixed">
+<table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-quick-start.svg" width="70px">
