@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: ht
 source-wordcount: '1283'
 ht-degree: 100%
@@ -53,7 +53,7 @@ Utilice los vínculos de la parte inferior de la página principal para aprender
 
 Cree campañas y recorridos desde esta sección.
 
-* **[!UICONTROL Campañas]**: cree, configure y organice campañas para entregar contenido de una sola vez a una audiencia específica mediante varios canales. [Más información](../campaigns/get-started-with-campaigns.md)
+* **[!UICONTROL Campañas]**: cree, configure y organice campañas para entregar contenido de una sola vez a un público específico mediante varios canales. [Más información](../campaigns/get-started-with-campaigns.md)
 
 * **[!UICONTROL Recorridos]**: cree, configure y organice sus recorridos con los clientes: combine los eventos, la orquestación y las actividades de acción para crear sus escenarios de canales cruzados de varios pasos. [Más información](../building-journeys/journey-gs.md#jo-build)
 
@@ -72,7 +72,7 @@ Cree ofertas y componentes desde esta sección.
 
 Cree y administre contenido desde esta sección.
 
-* **[!UICONTROL Recursos]** : [!DNL Adobe Experience Manager Assets Essentials] es un repositorio centralizado de recursos que puede utilizar para rellenar los mensajes. [Más información](../content-management/assets-essentials.md)
+* **[!UICONTROL Recursos]** : [!DNL Adobe Experience Manager Assets] es un repositorio centralizado de recursos que puede utilizar para rellenar los mensajes. [Más información](../content-management/assets.md)
 
 * **[!UICONTROL Plantillas de contenido]**: para un proceso de diseño acelerado y mejorado, cree plantillas independientes para reutilizar fácilmente el contenido personalizado en las campañas y recorridos de Journey Optimizer. [Más información](../content-management/content-templates.md)
 
@@ -100,9 +100,9 @@ Administre sus conexiones de datos con otras aplicaciones y nubes desde esta sec
 
 ### [!UICONTROL CLIENTE] {#left-nav-customers}
 
-Administre sus audiencias y datos de perfil desde esta sección.
+Administre sus públicos y datos de perfil desde esta sección.
 
-* **[!UICONTROL Audiencias]**: cree y administre audiencias de Experience Platform para utilizarlos en sus recorridos. [Más información](../audience/about-audiences.md)
+* **[!UICONTROL Públicos]**: cree y administre públicos de Experience Platform para utilizarlos en sus recorridos. [Más información](../audience/about-audiences.md)
 
 * **[!UICONTROL Listas de suscripción]**: en [!DNL Journey Optimizer], los clientes que han elegido un servicio de suscripción se agrupan en una lista de suscripción. [Más información](../landing-pages/subscription-list.md)
 
