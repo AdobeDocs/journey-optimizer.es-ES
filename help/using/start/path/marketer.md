@@ -7,7 +7,7 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: ht
 source-wordcount: '455'
 ht-degree: 100%
@@ -20,15 +20,15 @@ Como **Experto en marketing** o **en Journey** es responsable de crear ofertas y
 
 Consulte las secciones siguientes para configurar su primer recorrido, agregar ofertas y recursos, y enviar mensajes:
 
-1. **Crear audiencias**. Journey Optimizer le permite crear audiencias mediante definiciones de segmentos directamente desde el menú **Audiencias** y aprovecharlos en sus recorridos.  Más información sobre las audiencias [en esta página](../../audience/about-audiences.md). Descubra cómo generar segmentos [en esta muestra](../../audience/creating-a-segment-definition.md).
+1. **Crear públicos**. Journey Optimizer le permite crear públicos mediante definiciones de segmentos directamente desde el menú **Públicos** y aprovecharlos en sus recorridos.  Más información sobre los públicos [en esta página](../../audience/about-audiences.md). Descubra cómo generar segmentos [en esta muestra](../../audience/creating-a-segment-definition.md).
 
-1. **Añadir personalización y contenido dinámico**. Aproveche las funcionalidades de personalización y contenido dinámico de Journey Optimizer para adaptar el mensaje a su audiencia. Más información sobre [personalización](../../personalization/personalize.md) y [contenido dinámico](../../personalization/get-started-dynamic-content.md).
+1. **Añadir personalización y contenido dinámico**. Aproveche las funcionalidades de personalización y contenido dinámico de Journey Optimizer para adaptar el mensaje a su público. Más información sobre [personalización](../../personalization/personalize.md) y [contenido dinámico](../../personalization/get-started-dynamic-content.md).
 
    ![](../assets/perso_ee2.png)
 
-1. **Creación y administración de recursos**. [!DNL Adobe Experience Manager Assets Essentials] proporciona un único repositorio centralizado de recursos que puede utilizar para completar los mensajes. Obtenga más información [en esta sección](../../content-management/assets-essentials.md).
+1. **Creación y administración de recursos**. [!DNL Adobe Experience Manager Assets] proporciona un único repositorio centralizado de recursos que puede utilizar para completar los mensajes. Obtenga más información [en esta sección](../../content-management/assets.md).
 
-1. **Agregar ofertas**. Utilice [!DNL Journey Optimizer] para ofrecer la mejor oferta y experiencia a sus clientes en todos los puntos de contacto y en el momento adecuado. Una vez diseñadas, las audiencias se segmentarán con ofertas personalizadas. Obtenga más información sobre la gestión de deciones [en esta sección](../../offers/get-started/starting-offer-decisioning.md).
+1. **Agregar ofertas**. Utilice [!DNL Journey Optimizer] para ofrecer la mejor oferta y experiencia a sus clientes en todos los puntos de contacto y en el momento adecuado. Una vez diseñados, los públicos se segmentarán con ofertas personalizadas. Obtenga más información sobre la gestión de deciones [en esta sección](../../offers/get-started/starting-offer-decisioning.md).
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
@@ -36,13 +36,13 @@ Consulte las secciones siguientes para configurar su primer recorrido, agregar o
 
 1. **Diseñar recorridos de clientes** para ofrecer experiencias personalizadas y contextuales. [!DNL Journey Optimizer] permiten crear casos prácticos de orquestación en tiempo real con información contextual almacenada en eventos o fuentes de datos. Diseñe escenarios avanzados de varios pasos con las siguientes capacidades:
 
-   * Envíe en tiempo real un **envío unitario** que se activa cuando se recibe un evento, o **en lote** con las audiencias de Adobe Experience Platform.
+   * Envíe en tiempo real un **envío unitario** que se activa cuando se recibe un evento, o **en lote** con los públicos de Adobe Experience Platform.
 
    * Aprovechar **datos contextuales** desde eventos, información de Adobe Experience Platform o datos de servicios API de terceros.
 
    * Utilice las **acciones de canal integradas** (correo electrónico, SMS, push) para enviar mensajes elaborados en [!DNL Journey Optimizer] o crear **acciones personalizadas** si utiliza un sistema de terceros para enviar mensajes.
 
-   * Con el **diseñador de recorridos**, genere sus casos de uso de varios pasos: arrastre y suelte fácilmente un evento de entrada o una actividad de lectura de audiencia, agregue condiciones y envíe mensajes personalizados.
+   * Con el **diseñador de recorridos**, genere sus casos de uso de varios pasos: arrastre y suelte fácilmente un evento de entrada o una actividad de lectura de público, agregue condiciones y envíe mensajes personalizados.
 
    ![](../assets/journey-design.png)
 
