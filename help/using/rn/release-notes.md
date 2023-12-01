@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: db3c2e368812563d12276f8a1ac0e06ccc03e8d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '4527'
 ht-degree: 100%
 
