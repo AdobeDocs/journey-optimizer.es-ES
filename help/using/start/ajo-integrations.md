@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+workflow-type: tm+mt
+source-wordcount: '715'
+ht-degree: 98%
 
 ---
 
@@ -35,18 +35,18 @@ Más información sobre [Journey Optimizer + Customer Journey Analytics](../repo
 
 ## Adobe Analytics {#integration-aa}
 
-Ahora puede aprovechar todos los datos de evento de comportamiento de Adobe Analytics que ya está recopilando y transmitiendo a Adobe Experience Platform para activar recorridos en tiempo real y automatizar experiencias para los clientes. Estos datos también pueden servir para crear audiencias que se puedan involucrar con Journey Optimizer.
+Ahora puede aprovechar todos los datos de evento de comportamiento de Adobe Analytics que ya está recopilando y transmitiendo a Adobe Experience Platform para activar recorridos en tiempo real y automatizar experiencias para los clientes. Estos datos también pueden servir para crear públicos que se puedan involucrar con Journey Optimizer.
 
 Obtenga más información acerca de [Journey Optimizer + Analytics](../event/about-analytics.md).
 
 
-## Adobe Experience Manager Assets Essentials {#integration-assets}
+## Adobe Experience Manager Assets {#integration-assets}
 
-Una los flujos de trabajo creativos y de marketing usando [!DNL Adobe Experience Manager Assets Essentials]. Integrado de forma nativa con [!DNL Adobe Journey Optimizer], acceso [!DNL Assets Essentials] para almacenar, administrar, descubrir y distribuir recursos digitales. Proporciona un único repositorio centralizado de recursos que puede utilizar para completar los mensajes.
+Una los flujos de trabajo creativos y de marketing usando [!DNL Adobe Experience Manager Assets]. Integrado de forma nativa con [!DNL Adobe Journey Optimizer], acceso [!DNL Adobe Experience Manager Assets] para almacenar, administrar, descubrir y distribuir recursos digitales. Proporciona un único repositorio centralizado de recursos que puede utilizar para completar los mensajes.
 
-[!DNL Adobe Experience Manager Assets Essentials] se puede acceder directamente desde [!DNL Adobe Journey Optimizer] a través de la sección del menú de la izquierda **[!UICONTROL Recursos]**.
+[!DNL Adobe Experience Manager Assets] se puede acceder directamente desde [!DNL Adobe Journey Optimizer] a través de la sección del menú de la izquierda **[!UICONTROL Recursos]**.
 
-Más información sobre [Journey Optimizer + Assets Essentials](../content-management/assets-essentials.md).
+Más información sobre [JOURNEY OPTIMIZER + ADOBE EXPERIENCE MANAGER ASSETS](../content-management/assets.md).
 
 
 ## Adobe Stock {#integration-stock}

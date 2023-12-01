@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: componentes, diseñador de correo electrónico, editor, correo electrónico
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 607dd050b4e340bf6ae80fec76be8a64f3962645
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1406'
 ht-degree: 54%
 
 ---
@@ -78,7 +78,7 @@ Por ejemplo, agregue el componente **[!UICONTROL Contenedor]** y el componente [
 
 ## Botón {#button}
 
-Utilice el componente **[!UICONTROL Botón]** para insertar uno o varios botones en el correo electrónico y redirigir la audiencia de correo electrónico a otra página.
+Utilice el componente **[!UICONTROL Botón]** para insertar uno o varios botones en el correo electrónico y redirigir el público de correo electrónico a otra página.
 
 1. En **[!UICONTROL Componentes de contenido]**, arrastre y suelte el componente **[!UICONTROL Botón]** en un **[!UICONTROL Componente de estructura]**.
 
@@ -121,7 +121,7 @@ Utilice el componente **[!UICONTROL Texto]** para insertar texto en el correo el
    * **Tamaño de fuente**: seleccionar el tamaño de fuente del texto en píxeles.
    * **[!UICONTROL Cambiar color de fuente]**: elija el color de la fuente.
    * **[!UICONTROL Insertar vínculo]**: añada cualquier tipo de vínculo al contenido.
-   * **[!UICONTROL Editar imagen]**: añadir una imagen o un recurso al componente de texto. [Más información sobre la administración de recursos](../content-management/assets-essentials.md)
+   * **[!UICONTROL Editar imagen]**: añadir una imagen o un recurso al componente de texto. [Más información sobre la administración de recursos](../content-management/assets.md)
    * **[!UICONTROL Cambiar color de fuente]**: elija el color de la fuente.
    * **[!UICONTROL Añadir personalización]**: añadir campos de personalización para personalizar el contenido de los datos de perfiles. [Más información sobre la personalización de contenido](../personalization/personalize.md)
    * **[!UICONTROL Mostrar el código fuente]**: mostrar el código fuente del texto. No se puede modificar.
@@ -167,9 +167,9 @@ Utilice el **[!UICONTROL Imagen]** para insertar un archivo de imagen del equipo
 
    ![](assets/email_designer_image_content.png)
 
-1. Desde el **[!UICONTROL Configuración]** pestaña, haga clic en **[!UICONTROL Examinar]** para elegir un archivo de imagen de sus recursos o **[!UICONTROL Importar medios]** para cargar un recurso en Assets Essentials.
+1. Desde el **[!UICONTROL Configuración]** pestaña, haga clic en **[!UICONTROL Examinar]** para elegir un archivo de imagen de sus recursos o **[!UICONTROL Importar medios]** para cargar un recurso en Adobe Experience Manager Assets.
 
-   Para obtener más información sobre [!DNL Assets Essentials], consulte [Documentación de Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
+   Para obtener más información sobre [!DNL Adobe Experience Manager Assets], consulte [Documentación de Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
    >[!NOTE]
    >
@@ -186,7 +186,7 @@ Utilice el **[!UICONTROL Imagen]** para insertar un archivo de imagen del equipo
 
 1. También puede elegir **[!UICONTROL Buscar fotografías similares de Stock]**. [Más información](../content-management/stock.md)
 
-1. Desde el **[!UICONTROL Estilos]** , ajuste los demás atributos de estilo como margen, borde, etc. o añada un enlace para redirigir a tu audiencia a otro contenido desde el panel **[!UICONTROL Configuración de componentes]**.
+1. Desde el **[!UICONTROL Estilos]** , ajuste los demás atributos de estilo como margen, borde, etc. o añada un enlace para redirigir a su público a otro contenido desde el panel **[!UICONTROL Configuración de componentes]**.
 
 ## Social {#social}
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: stock, imágenes, integración, fotos
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 13%
 
 ---
@@ -30,7 +30,7 @@ Con [!DNL Adobe Journey Optimizer], puede cargar imágenes en sus correos electr
 
 El **[!UICONTROL Buscar fotos de Adobe Stock]** y **[!UICONTROL Buscar imagen similar]** Las opciones de están disponibles para los usuarios con acceso a un perfil de producto de AEM Assets Essentials.
 
-Para obtener más información, consulte [Documentación esencial de Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
+Para obtener más información, consulte [Documentación de Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
 
 ## Inserción de una imagen desde [!DNL Adobe Stock] {#add-stock-image}
 
@@ -96,7 +96,7 @@ Para obtener una licencia y descargar la imagen, siga los pasos a continuación:
 
    ![](assets/stock_6.png)
 
-1. Seleccione en qué carpeta almacenar el recurso. Para obtener más información sobre [!DNL Assets Essentials], consulte esta [página](assets-essentials.md#get-started-assets-essentials).
+1. Seleccione en qué carpeta almacenar el recurso. Para obtener más información sobre [!DNL Experience Manager Assets], consulte esta [página](assets.md#get-started-assets).
 
 ## Temas relacionados{#stock-related-topics}
 
