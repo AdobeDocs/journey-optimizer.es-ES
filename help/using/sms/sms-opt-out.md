@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Administración de exclusión de SMS
-description: Obtenga información sobre cómo administrar la exclusión con mensajes SMS
+title: Administración de la exclusión para mensajes de texto
+description: Descubra cómo administrar la exclusión con mensajes SMS/MMS
 feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
+source-git-commit: 31c3ed854b38e287850895176f8416bc62739cb0
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 26%
+source-wordcount: '452'
+ht-degree: 25%
 
 ---
 
-# Administración de exclusión de SMS {#sms-opt-out}
+# Administración de la exclusión para mensajes de texto {#sms-opt-out}
 
 De acuerdo con las normas y los reglamentos del sector, todos los mensajes SMS sobre marketing deben contener una forma para que los destinatarios puedan cancelar la suscripción fácilmente. [Más información sobre la administración de la privacidad y la exclusión](../privacy/opt-out.md)
 
@@ -46,7 +46,7 @@ Sin embargo, Journey Optimizer admite exclusiones globales basadas en palabras c
 
 ## ID de remitente alfanumérico {#alphanumeric}
 
-Los ID de remitente alfanuméricos solo se utilizan en la mensajería unidireccional y no pueden recibir mensajes. Como resultado, STOP, START y HELP, las palabras clave de SMS de Adobe Journey Optimizer, no son aplicables a los ID de remitente alfa. Debe proporcionar otras instrucciones, como escribir al Equipo de Soporte, llamar a una línea telefónica de asistencia o enviar un mensaje de texto a otro número de teléfono o código para permitir a los usuarios excluirse de los mensajes enviados a través de un ID de remitente alfanumérico.
+Los ID de remitente alfanuméricos solo se utilizan en la mensajería unidireccional y no pueden recibir mensajes. Como resultado, STOP, START y HELP, las palabras clave de SMS de Adobe Journey Optimizer, no son aplicables a los ID de remitente de Alpha. Debe proporcionar otras instrucciones, como escribir al Equipo de Soporte, llamar a una línea telefónica de asistencia o enviar un mensaje de texto a otro número de teléfono o código para permitir a los usuarios excluirse de los mensajes enviados a través de un ID de remitente alfanumérico.
 
 ## Vídeo {#video-sms}
 

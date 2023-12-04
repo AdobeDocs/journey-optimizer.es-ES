@@ -5,32 +5,32 @@ description: Aprenda a utilizar Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 38%
+source-wordcount: '354'
+ht-degree: 30%
 
 ---
 
 # Documentación de Adobe [!DNL Journey Optimizer] {#cjm-documentation}
 
-## Novedades
+## ¿Qué hay de nuevo?
 
 Eche un vistazo a las mejoras más recientes en el producto y la documentación de Journey Optimizer. Para obtener una lista completa de funciones, mejoras y correcciones, consulte la [Notas de versión](using/rn/release-notes.md).  Manténgase al tanto de los cambios más recientes en nuestra documentación. Para ello, visite el [página actualizaciones de documentación](using/rn/documentation-updates.md).
 
 >[!BEGINTABS]
 
->[!TAB Herramientas de zona protegida]
+>[!TAB Herramientas de espacio aislado]
 
 Las herramientas de zona protegida permiten copiar objetos en varias zonas protegidas aprovechando la exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.
 
-[![imagen](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
+[![image](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
 
->[!TAB Servicio de mensajes multimedia (MMS) en SMS]
+>[!TAB Servicio de mensajes multimedia (MMS)]
 
 Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del servicio de mensajes multimedia (MMS), lo que le permite compartir imágenes, GIF o vídeos con sus clientes. Tenga en cuenta que esta funcionalidad solo está disponible actualmente con Sinch.
 
-[![imagen](using/assets/do-not-localize/learn-more-button.svg)](using/sms/create-sms.md#sms-content)
+[![image](using/assets/do-not-localize/learn-more-button.svg)](using/sms/create-sms.md#sms-content)
 
 >[!ENDTABS]
 

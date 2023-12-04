@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 99%
+source-wordcount: '1717'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 99%
    + [Notas de la versión preliminar](using/rn/e-release-notes.md)
    + [Últimas notas de la versión](using/rn/release-notes.md)
    + Notas de la versión anterior {#previous-rn-new}
+      + [Notas de la versión 2023](using/rn/release-notes-2023.md)
       + [Notas de la versión de 2022](using/rn/release-notes-2022.md)
       + [Notas de la versión de 2021](using/rn/release-notes-2021.md)
    + [Actualizaciones de documentación](using/rn/documentation-updates.md)
@@ -215,12 +216,12 @@ ht-degree: 99%
       + [Flujo de notificaciones push](using/push/push-gs.md)
       + [Configurar el canal de notificaciones push](using/push/push-configuration.md)
       + [Flujo de trabajo de inicio rápido de incorporación al dispositivo móvil](using/push/mobile-onboarding-wf.md)
-+ Canal de SMS{#sms}
-   + [Introducción a los SMS](using/sms/get-started-sms.md)
-   + [Creación de un mensaje SMS](using/sms/create-sms.md)
++ Canal de SMS/MMS{#sms}
+   + [Introducción a los mensajes de texto](using/sms/get-started-sms.md)
+   + [Crear un mensaje de texto](using/sms/create-sms.md)
    + [Creación de un mensaje MMS](using/sms/create-mms.md)
-   + [Comprobación y envío del SMS](using/sms/send-sms.md)
-   + [Administrar la exclusión de SMS](using/sms/sms-opt-out.md)
+   + [Compruebe y envíe sus mensajes de texto](using/sms/send-sms.md)
+   + [Administrar la exclusión de mensajes de texto](using/sms/sms-opt-out.md)
    + [Configuración del canal de SMS](using/sms/sms-configuration.md)
    + [Configuración de subdominios SMS](using/sms/sms-subdomains.md)
 + Correo directo {#direct-mail}
@@ -567,7 +568,7 @@ ht-degree: 99%
          + [Uso de respuestas de llamadas de API en acciones personalizadas](using/action/action-response.md)
    + [Fuentes](using/start/get-started-sources.md)
 + Control de acceso {#access-control}
-   + Información general sobre el control de acceso {#privacy}
+   + Información general de control de acceso {#privacy}
       + [Introducción a la administración de usuarios](using/administration/permissions-overview.md)
       + [Funciones integradas](using/administration/ootb-product-profiles.md)
       + [Permisos integrados](using/administration/ootb-permissions.md)
