@@ -10,8 +10,8 @@ keywords: web, subdominios, configuración
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 19%
+source-wordcount: '842'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="Delegación de un subdominio web"
->abstract="Si agrega contenido procedente de Adobe Experience Manager Assets a sus experiencias web, debe configurar el subdominio que se utilizará para publicar este contenido. Seleccione entre los subdominios ya delegados a Adobe o configure un nuevo subdominio."
+>abstract="Si agrega contenido procedente de Adobe Experience Manager Assets a las experiencias web, debe configurar el subdominio que se utilizará para publicar este contenido. Seleccione entre los subdominios ya delegados a Adobe o configure un nuevo subdominio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
@@ -90,7 +90,7 @@ Para utilizar un subdominio que ya se haya delegado al Adobe, siga los pasos a c
    >
    >Solo el **predeterminado** se utilizará el subdominio.
 
-1. Haga clic en **[!UICONTROL Enviar]**. El subdominio obtiene el **[!UICONTROL Correcto]** estado. Está listo para utilizarse para las experiencias web.
+1. Clic **[!UICONTROL Enviar]**. El subdominio obtiene el **[!UICONTROL Correcto]** estado. Está listo para utilizarse para las experiencias web.
 
    >[!NOTE]
    >

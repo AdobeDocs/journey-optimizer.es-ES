@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adición de un mensaje en un recorrido
+title: Añadir un mensaje en un recorrido
 description: Obtenga información sobre cómo agregar un mensaje en un recorrido
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
@@ -9,21 +9,21 @@ role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 898ad9dadd2d9e71e6881113730ac469a36257bc
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 24%
+source-wordcount: '1167'
+ht-degree: 15%
 
 ---
 
-# Correo electrónico, en la aplicación, push, SMS{#add-a-message-in-a-journey}
+# Correo electrónico, en la aplicación, push, SMS/MMS{#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Actividad de mensaje"
->abstract="Journey Optimizer incluye funcionalidades de mensajería integradas. Puede simplemente añadir en el recorrido una actividad de mensaje push, SMS, en la aplicación o de correo electrónico y definir la configuración y el contenido. A continuación, se ejecuta y se envía en el contexto del recorrido."
+>abstract="Journey Optimizer incluye funcionalidades de mensajería integradas. Solo tiene que añadir, en el recorrido, una notificación push, un mensaje de texto (SMS/MMS), una actividad de mensajería en la aplicación o por correo electrónico y definir la configuración y el contenido. A continuación, se ejecuta y se envía en el contexto del recorrido."
 
-[!DNL Journey Optimizer] incluye funciones de mensajes integradas. Puede simplemente añadir en el recorrido una actividad de mensaje push, SMS, en la aplicación o de correo electrónico y definir la configuración y el contenido. A continuación, se ejecuta y se envía en el contexto del recorrido.
+[!DNL Journey Optimizer] incluye funciones de mensajes integradas. Puede simplemente añadir en el recorrido una actividad push, un SMS/MMS, una actividad de mensaje en la aplicación o de correo electrónico y definir la configuración y el contenido. A continuación, se ejecuta y se envía en el contexto del recorrido.
 
 También puede configurar acciones específicas para enviarle mensajes:
 
@@ -74,7 +74,7 @@ Para añadir un mensaje en un recorrido, siga los pasos a continuación:
    <img alt="Validación" src="../assets/do-not-localize/sms.jpg">
    </a>
    <div>
-   <a href="../sms/create-sms.md"><strong>Creación de mensajes SMS</strong></a>
+   <a href="../sms/create-sms.md"><strong>Creación de mensajes de texto (SMS/MMS)</strong></a>
    </div>
    <p>
    </td>
@@ -106,7 +106,7 @@ Tenga en cuenta que para la actividad en la aplicación, cualquier cambio se pue
 
 ### Acerca de la optimización del tiempo de envío {#about-send-time}
 
-La función de optimización del tiempo de envío de Adobe Journey Optimizer, con tecnología de los servicios de IA de Adobe, puede predecir el mejor momento para enviar un mensaje push o de correo electrónico para maximizar la participación en función de las tasas históricas de apertura y clics. Utilice nuestro modelo de aprendizaje automático para programar tiempos de envío personalizados para cada usuario y, así, aumentar las tasas de apertura y de clics de sus mensajes.
+La función de optimización del tiempo de envío de Adobe Journey Optimizer, con tecnología de los servicios de IA de Adobe, puede predecir el mejor momento para enviar un mensaje push o de correo electrónico para maximizar la participación en función de la apertura histórica y las tasas de clics. Utilice nuestro modelo de aprendizaje automático para programar tiempos de envío personalizados para cada usuario y, así, aumentar las tasas de apertura y de clics de sus mensajes.
 
 El modelo de optimización del tiempo de envío ingiere los datos de Adobe Journey Optimizer y observa las tasas de apertura a nivel de usuario (para correo electrónico y push) y clics (para correo electrónico) para determinar cuándo es más probable que los clientes interactúen con los mensajes. La optimización del tiempo de envío requiere un mínimo de un mes de datos de seguimiento de mensajes para hacer recomendaciones informadas. Para cada usuario, el sistema seleccionará automáticamente el mejor momento con las siguientes puntuaciones:
 
@@ -159,7 +159,7 @@ Habilite la optimización del tiempo de envío en un mensaje push o de correo el
 
 ![](../building-journeys/assets/jo-message5.png)
 
-Para los mensajes de correo electrónico, seleccione si desea optimizar las aperturas de correo electrónico o las pulsaciones de correo electrónico seleccionando el botón de opción adecuado. Los mensajes push tienen por defecto la opción de apertura, ya que los clics no se aplican a la mensajería push.
+Para los mensajes de correo electrónico, seleccione si desea optimizar las aperturas de correo electrónico o las pulsaciones de correo electrónico seleccionando el botón de opción adecuado. Los mensajes push usan de forma predeterminada la opción de aperturas, ya que los clics no son aplicables a los mensajes push.
 
 También puede elegir entre corchetes los tiempos de envío utilizados por el sistema introduciendo un valor para **Enviar en el siguiente** opción. Si elige &quot;seis horas&quot; como valor, [!DNL Journey Optimizer] comprobará cada perfil de usuario y elegirá el tiempo de envío óptimo en un plazo de seis horas desde el momento en que se ejecuta el recorrido.
 
