@@ -8,8 +8,8 @@ level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 18%
+source-wordcount: '833'
+ht-degree: 17%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
->title="Creación de páginas que coincidan con una regla"
+>title="Creación de regla de coincidencia de páginas"
 >abstract="Una regla de coincidencia de páginas permite dirigirse a varias direcciones URL que se ajusten a la misma regla; por ejemplo, si desea aplicar los cambios a un banner principal en todo un sitio web o agregar una imagen superior que se muestre en todas las páginas de producto de un sitio web."
 
 Para empezar a crear una experiencia web a través de una campaña, siga los pasos a continuación.
@@ -41,11 +41,11 @@ Para empezar a crear una experiencia web a través de una campaña, siga los pas
 >
 >Si es la primera vez que crea una experiencia web, asegúrese de seguir los requisitos previos descritos en [esta sección](web-prerequisites.md).
 
-1. Creación de una campaña. [Más información](../campaigns/create-campaign.md)
+1. Cree una campaña. [Más información](../campaigns/create-campaign.md)
 
 1. Seleccione el **[!UICONTROL Web]** acción.
 
-1. Definir una superficie web.
+1. Defina una superficie web.
 
    >[!NOTE]
    >
@@ -102,7 +102,7 @@ Encontrará información detallada sobre cómo seleccionar perfiles de prueba y 
 
 ## Activación de la campaña web {#activate-web-campaign}
 
-Una vez que haya definido su [configuración de campañas web](#configure-web-campaign) y ha editado el contenido como ha deseado utilizando la variable [diseñador web](edit-web-content.md#work-with-web-designer), puede revisar y activar su campaña web. Complete los siguientes pasos.
+Una vez que haya definido su [configuración de campañas web](#configure-web-campaign) y ha editado el contenido como ha deseado utilizando la variable [diseñador web](edit-web-content.md#work-with-web-designer), puede revisar y activar su campaña web. Siga los pasos a continuación.
 
 <!--
 >[!NOTE]
@@ -133,7 +133,7 @@ Obtenga más información sobre la activación de campañas en [esta sección](.
 
 ## Detener una campaña web {#stop-web-campaign}
 
-Cuando una campaña web está activa, puede detenerla para evitar que la audiencia vea las modificaciones. Complete los siguientes pasos.
+Cuando una campaña web está activa, puede detenerla para evitar que la audiencia vea las modificaciones. Siga los pasos a continuación.
 
 1. Seleccione una campaña en directo en la lista.
 
