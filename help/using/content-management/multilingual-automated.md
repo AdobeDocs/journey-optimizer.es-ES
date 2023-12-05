@@ -10,10 +10,11 @@ level: Beginner
 keywords: introducción, inicio, contenido, experimento
 hide: true
 hidefromtoc: true
-source-git-commit: 8c95f35049da1b7ced9a5ecd9e267a8847c12481
+exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
+source-git-commit: 75dd439fc221257a2480ea7bdcb94f56227ce1d3
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 1%
+source-wordcount: '1315'
+ht-degree: 3%
 
 ---
 
@@ -62,7 +63,7 @@ Al configurar los ajustes de idioma, tal como se describe en la sección [Cree l
 
    ![](assets/locale_2.png)
 
-## Creación del proyecto de traducción {#translation-project}
+## Crear proyecto de traducción {#translation-project}
 
 Inicie el proyecto de traducción especificando la configuración regional de Target e indicando el idioma o la región específicos para el contenido. A continuación, puede elegir su proveedor de traducción.
 
@@ -88,6 +89,14 @@ Inicie el proyecto de traducción especificando la configuración regional de Ta
    ![](assets/translation_project_3.png)
 
 1. Seleccione en la lista su **[!UICONTROL Configuración regional(es) de destino]** y elija cuál **[!UICONTROL Proveedor de traducción]** que desee utilizar para cada configuración regional.
+
+   **[!UICONTROL Proveedor de traducción]** se puede acceder a la configuración desde el **[!UICONTROL Traducción]** en el menú **[!UICONTROL Administration]** sección de menú.
+
+   >[!NOTE]
+   >
+   >La administración de contratos con el proveedor de traducción está fuera del ámbito de esta función. Asegúrese de tener un contrato válido y activo con el socio de traducción designado.
+   >
+   ></br>El proveedor de traducción es propietario de la calidad del contenido traducido.
 
 1. Clic **[!UICONTROL Añadir una configuración regional]** cuando haya terminado de vincular la configuración regional de Target con el proveedor de traducción correcto. A continuación, haga clic en **[!UICONTROL Guardar]**.
 
