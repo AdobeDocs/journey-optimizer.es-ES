@@ -5,9 +5,9 @@ description: Aprenda a utilizar Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
+source-git-commit: ab63c39b07e6501c4fd9c5578d4e63730ae8a558
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '356'
 ht-degree: 30%
 
 ---
@@ -26,7 +26,7 @@ Las herramientas de zona protegida permiten copiar objetos en varias zonas prote
 
 [![image](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
 
->[!TAB Servicio de mensajes multimedia (MMS)]
+>[!TAB Servicio de mensajes multimedia (MMS) en SMS]
 
 Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del servicio de mensajes multimedia (MMS), lo que le permite compartir imágenes, GIF o vídeos con sus clientes. Tenga en cuenta que esta funcionalidad solo está disponible actualmente con Sinch.
 
@@ -39,22 +39,29 @@ Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del ser
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a></a>
+    <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a>
     <div><strong>Guías de inicio rápido</strong><br/>Aprenda a lograr sus objetivos más rápido en Journey Optimizer con su enfoque personalizado según su función.</div>
     </td>
     <td>
     <a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/start-interface.jpeg"></a>
-    <div><strong>Interfaz de usuario</strong><br/>Aprenda a navegar y optimizar su experiencia en Journey Optimizer.</div><br/>
+    <div><strong>Interfaz de usuario</strong><br/>Aprenda a navegar y optimizar su experiencia en Journey Optimizer.</div>
     </td>
     <td>
     <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
     <div><strong>Creación de su primer recorrido</strong><br/>Diseñe y organice recorridos omnicanal personalizados para armonizar el alcance del marketing con la participación individual del cliente. 
-    </div></td>
+    </div>
+    </td>
     <td>
     <a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/start-campaign.jpeg"></a>
     <div><strong>Inicie su primera campaña</strong><br/>Cree e inicie su primera campaña en Journey Optimizer para entregar contenido de destino único a una audiencia específica.</div>
     </td>
   </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="using/sms/create-sms.md#sms-content"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="using/sms/create-sms.md#sms-content"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="using/sms/create-sms.md#sms-content"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="using/sms/create-sms.md#sms-content"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    </tr>
 </table>
 
 ## Explorar la documentación
@@ -62,40 +69,29 @@ Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del ser
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
-      <img src="using/assets/do-not-localize/icon-quick-start.svg" width="70px">
-    <td>
+      <img src="using/assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
       <strong>Experiencia del cliente</strong><br/><a href="using/building-journeys/journey.md">Recorridos</a> - <a href="using/campaigns/get-started-with-campaigns.md">Campañas</a> - <a href="using/landing-pages/get-started-lp.md">Páginas de aterrizaje</a> - <a href="using/reports/live-report.md">Informes</a> - <a href="using/offers/get-started/starting-offer-decisioning.md">Administración de decisiones</a>
     </td>
     <td>
-      <img src="using/assets/do-not-localize/icon-configure.svg" width="70px">
+      <img src="using/assets/do-not-localize/icon-configure.svg" width="35px"><br/>
+      <strong>Configuración<br/>administración</strong><br/><a href="using/configuration/channel-surfaces.md">Superficies de canal</a> - <a href="using/configuration/about-data-sources-events-actions.md">Configuración de recorridos</a>  - <a href="using/administration/permissions-overview.md">Control de acceso</a> - <a href="using/administration/sandboxes.md">Administración de zonas protegidas</a>
     </td>
     <td>
-      <strong>Configuración y administración</strong><br/><a href="using/configuration/channel-surfaces.md">Superficies de canal</a> - <a href="using/configuration/about-data-sources-events-actions.md">Configuración de recorridos</a>  - <a href="using/administration/permissions-overview.md">Control de acceso</a> - <a href="using/administration/sandboxes.md">Administración de zonas protegidas</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon-campaign.svg" width="70px">
-    </td>
-    <td>
+      <img src="using/assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
       <strong>Canales de comunicación</strong><br/><a href="using/email/get-started-email.md">Correo electrónico</a> - <a href="using/sms/get-started-sms.md">SMS</a> - <a href="using/in-app/get-started-in-app.md">En la aplicación</a> - <a href="using/push/get-started-push.md">Notificaciones push</a> - <a href="using/direct-mail/get-started-direct-mail.md">Correo directo</a> - <a href="using/web/get-started-web.md">Web</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="using/assets/do-not-localize/icon-content.svg" width="70px">
+      <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
+      <strong>Gestión de contenido</strong><br/><a href="using/content-management/assets-essentials.md">Recursos e imágenes</a> - <a href="using/personalization/personalize.md">Personalización</a> - <a href="using/content-management/content-templates.md">Reutilizable</a> &amp; <a href="using/personalization/dynamic-content.md">dinámico</a> content - <a href="using/content-management/preview-test.md">Contenido de prueba y previsualización</a>
     </td>
     <td>
-      <strong>Gestión de contenido</strong><br/><a href="using/content-management/assets.md">Recursos e imágenes</a> - <a href="using/personalization/personalize.md">Personalización</a> - <a href="using/content-management/content-templates.md">Reutilizable</a> &amp; <a href="using/personalization/dynamic-content.md">dinámico</a> content - <a href="using/content-management/preview-test.md">Contenido de prueba y previsualización</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="70px">
-    </td>
-    <td>
+      <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
       <strong>Perfiles y audiencias</strong><br/><a href="using/audience/about-audiences.md">Audiencias</a> - <a href="using/audience/get-started-profiles.md">Perfiles</a> - <a href="using/audience/get-started-identity.md">Identidades</a> - <a href="using/audience/license-usage.md">Uso de licencias</a> - <a href="using/privacy/get-started-privacy.md">Administración de privacidad</a>
     </td>
     <td>
-      <img src="using/assets/do-not-localize/icon-data.svg" width="70px">
-    </td>
-    <td>
+      <img src="using/assets/do-not-localize/icon-data.svg" width="35px"><br/>
       <strong>Administración de datos</strong><br/><a href="using/data/get-started-schemas.md">Esquemas</a> - <a href="using/data/get-started-datasets.md">Conjuntos de datos</a> - <a href="using/data/get-started-queries.md">Consultas</a>
     </td>
   </tr>
@@ -114,4 +110,3 @@ Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del ser
 
 <table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
 <b>Manténgase informado y mejore su experiencia con Adobe Journey Optimizer.</b><br/>Suscríbase a nuestra newsletter trimestral. Obtenga acceso exclusivo a las últimas actualizaciones de productos, historias cautivadoras, casos de uso reales, sugerencias valiosas y mucho más; todo se envía directamente a su bandeja de entrada cada trimestre. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Regístrese hoy mismo.</a></td></tr></table>
-
