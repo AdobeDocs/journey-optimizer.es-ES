@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: creación, correo electrónico, inicio, recorrido, campaña
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 18b9a19bbd37927430c50da63f54cbdbbeed5606
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 8%
+source-wordcount: '919'
+ht-degree: 7%
 
 ---
 
@@ -21,13 +21,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="Creación de correo electrónico"
->abstract="Defina sus parámetros de correo electrónico en solo tres pasos simples."
+>abstract="Defina la línea de asunto del correo electrónico y abra el Diseñador de correo electrónico para crear el contenido del correo electrónico."
 
-Para crear un correo electrónico en [!DNL Journey Optimizer], siga los pasos a continuación.
 
-## Creación de un correo electrónico en un recorrido o una campaña {#create-email-journey-campaign}
+## Añadir una acción de correo electrónico {#email-action}
 
-Añadir un **[!UICONTROL Correo electrónico]** Acción a un recorrido o una campaña y siga los pasos a continuación según su caso.
+Para crear un correo electrónico en [!DNL Journey Optimizer], añada un **[!UICONTROL Correo electrónico]** a un recorrido o a una campaña. A continuación, siga los pasos que se indican a continuación según su caso.
 
 >[!BEGINTABS]
 
@@ -86,13 +85,13 @@ Para obtener más información sobre cómo configurar una campaña, consulte [es
 
    ![](assets/email_campaign_edit_content.png)
 
-1. En el **[!UICONTROL Header]** de la sección **[!UICONTROL Editar contenido]** pantalla, la **[!UICONTROL Nombre de remitente]**, **[!UICONTROL Desde correo electrónico]** y **[!UICONTROL CCO]** provienen de la superficie de correo electrónico que ha seleccionado. [Más información](email-settings.md) <!--check if same for journey-->
+   En el **[!UICONTROL Header]** de la sección **[!UICONTROL Editar contenido]** pantalla, la **[!UICONTROL Nombre de remitente]**, **[!UICONTROL Desde correo electrónico]** y **[!UICONTROL CCO]** se configuran en la superficie de correo electrónico seleccionada. [Más información](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. Puede añadir una línea de asunto. Escriba texto sin formato directamente en el campo correspondiente o utilice el [Editor de expresiones](../personalization/personalization-build-expressions.md) para personalizar la línea de asunto.
+1. Añada una línea de asunto al mensaje. Para configurar y personalizar la línea de asunto con el editor de expresiones, haga clic en **[!UICONTROL Abrir diálogo de personalización]** icono. [Más información](../personalization/personalization-build-expressions.md)
 
-1. Haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]** para empezar a crear contenido con el botón [!DNL Journey Optimizer] Diseñador de correo electrónico. [Más información](get-started-email-design.md)
+1. Haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]** para acceder al Diseñador de correo electrónico y comenzar a crear el contenido. [Más información](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
