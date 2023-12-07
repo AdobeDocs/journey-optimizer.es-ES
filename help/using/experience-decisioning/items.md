@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 33%
+source-wordcount: '1007'
+ht-degree: 26%
 
 ---
 
@@ -24,18 +24,11 @@ ht-degree: 33%
 >abstract="Journey Optimizer le permite crear ofertas de marketing, conocidas como elementos de decisión, que puede crear y organizar en un catálogo y colecciones centralizados. Actualmente, todos los elementos de decisión creados se consolidan dentro de un único catálogo &quot;Ofertas&quot;. Desde esta pantalla, también puede acceder al esquema del catálogo mediante el botón **Editar esquema** y crear atributos personalizados para los elementos de decisión."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=es" text="Configuración del catálogo de elementos"
 
->[!BEGINSHADEBOX]
-
-Lo que encontrará en esta guía de documentación:
+>[!BEGINSHADEBOX &quot;Lo que encontrará en esta guía de documentación&quot;]
 
 * [Introducción a Experience Decisioning](gs-experience-decisioning.md)
-* Administración de los elementos de decisión
-   * [Configuración del catálogo de elementos](catalogs.md)
-   * **[Creación de elementos de decisión](items.md)**
-   * [Administración de colecciones de elementos](collections.md)
-* Configuración de la selección de elementos
-   * [Crear reglas de decisión](rules.md)
-   * [Creación de métodos de clasificación](ranking.md)
+* Administrar los elementos de decisión: [Configurar el catálogo de artículos](catalogs.md) - **[Crear elementos de decisión](items.md)** - [Administrar colecciones de elementos](collections.md)
+* Configurar la selección de elementos: [Creación de reglas de decisión](rules.md) - [Crear métodos de clasificación](ranking.md)
 * [Creación de estrategias de selección](selection-strategies.md)
 * [Creación de políticas de decisión](create-decision.md)
 
@@ -99,11 +92,11 @@ Para crear un elemento de decisión, siga estos pasos:
 
    ![](assets/item-constraints.png)
 
-   * Para limitar la presentación del elemento de decisión a los miembros de una o varias audiencias de Adobe Experience Platform, seleccione la **[!UICONTROL Visitantes de una o varias audiencias]** y, a continuación, añada una o varias audiencias desde el panel izquierdo y combínelas con la opción **[!UICONTROL Y]** / **[!UICONTROL O]** operadores lógicos. [Más información sobre los públicos](../audience/about-audiences.md).
+   * Para limitar la presentación del elemento de decisión a los miembros de una o varias audiencias de Adobe Experience Platform, seleccione la **[!UICONTROL Visitantes de una o varias audiencias]** y, a continuación, añada una o varias audiencias desde el panel izquierdo y combínelas con la opción **[!UICONTROL Y]** / **[!UICONTROL O]** operadores lógicos. [Más información sobre las audiencias](../audience/about-audiences.md).
 
    * Para asociar una regla de decisión específica al elemento de decisión, seleccione **[!UICONTROL Por regla]** A continuación, arrastre la regla deseada desde el panel izquierdo al área central. [Más información sobre las reglas de decisión](rules.md).
 
-   Al seleccionar públicos o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Clic **[!UICONTROL Actualizar]** para actualizar los datos.
+   Al seleccionar audiencias o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Clic **[!UICONTROL Actualizar]** para actualizar los datos.
 
    >[!NOTE]
    >
@@ -130,6 +123,6 @@ Al seleccionar un elemento de decisión o hacer clic en el botón de puntos susp
 
   >[!IMPORTANT]
   >
-  >Una vez eliminado, el elemento de decisión y su contenido ya no son accesibles. No se puede deshacer esta acción. Si el elemento de decisión se utiliza en una colección o una decisión, no se puede eliminar. Primero debe quitar el elemento de decisión de los objetos.
+  >Una vez eliminado, el elemento de decisión y su contenido ya no son accesibles. Esta acción no se puede deshacer. Si el elemento de decisión se utiliza en una colección o una decisión, no se puede eliminar. Primero debe quitar el elemento de decisión de los objetos.
 
 * **[!UICONTROL Archivar]**: establece el estado del elemento de decisión en **[!UICONTROL Archivado]**. El elemento de decisión aún está disponible en la lista, pero no puede volver a establecer su estado en **[!UICONTROL Borrador]** o **[!UICONTROL Aprobado]**. Solo puede duplicarlo o eliminarlo.

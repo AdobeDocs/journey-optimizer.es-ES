@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 40%
+ht-degree: 31%
 
 ---
 
@@ -23,18 +23,11 @@ ht-degree: 40%
 >title="Crear reglas de decisión"
 >abstract="Las reglas de decisión permiten definir el público de los elementos de decisión mediante la aplicación de restricciones, ya sea directamente en el nivel del elemento de decisión o dentro de una estrategia de selección específica. Esto le permite controlar con precisión qué elementos se deben presentar a quién."
 
->[!BEGINSHADEBOX]
-
-Lo que encontrará en esta guía de documentación:
+>[!BEGINSHADEBOX &quot;Lo que encontrará en esta guía de documentación&quot;]
 
 * [Introducción a Experience Decisioning](gs-experience-decisioning.md)
-* Administración de los elementos de decisión
-   * [Configuración del catálogo de elementos](catalogs.md)
-   * [Creación de elementos de decisión](items.md)
-   * [Administración de colecciones de elementos](collections.md)
-* Configuración de la selección de elementos
-   * **[Crear reglas de decisión](rules.md)**
-   * [Creación de métodos de clasificación](ranking.md)
+* Administrar los elementos de decisión: [Configurar el catálogo de artículos](catalogs.md) - [Crear elementos de decisión](items.md) - [Administrar colecciones de elementos](collections.md)
+* Configurar la selección de elementos: **[Creación de reglas de decisión](rules.md)** - [Crear métodos de clasificación](ranking.md)
 * [Creación de estrategias de selección](selection-strategies.md)
 * [Creación de políticas de decisión](create-decision.md)
 

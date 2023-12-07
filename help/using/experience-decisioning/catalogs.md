@@ -9,27 +9,20 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 16%
+source-wordcount: '314'
+ht-degree: 5%
 
 ---
 
 # Catálogo de artículos {#catalog}
 
->[!BEGINSHADEBOX]
-
-Lo que encontrará en esta guía de documentación:
+>[!BEGINSHADEBOX &quot;Lo que encontrará en esta guía de documentación&quot;]
 
 * [Introducción a Experience Decisioning](gs-experience-decisioning.md)
-* Administración de los elementos de decisión
-   * **[Configuración del catálogo de elementos](catalogs.md)**
-   * [Creación de elementos de decisión](items.md)
-   * [Administración de colecciones de elementos](collections.md)
-* Configuración de la selección de elementos
-   * [Crear reglas de decisión](rules.md)
-   * [Creación de métodos de clasificación](ranking.md)
+* Administrar los elementos de decisión: **[Configurar el catálogo de artículos](catalogs.md)** - [Crear elementos de decisión](items.md) - [Administrar colecciones de elementos](collections.md)
+* Configurar la selección de elementos: [Creación de reglas de decisión](rules.md) - [Crear métodos de clasificación](ranking.md)
 * [Creación de estrategias de selección](selection-strategies.md)
 * [Creación de políticas de decisión](create-decision.md)
 

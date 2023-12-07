@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 61%
+ht-degree: 50%
 
 ---
 
@@ -33,18 +33,11 @@ ht-degree: 61%
 >title="Elija una colección"
 >abstract="Seleccione la colección que contiene las ofertas que se deben tener en cuenta. Este paso es obligatorio al crear una estrategia de selección. Las colecciones le permiten categorizar y agrupar los elementos de decisión según sus preferencias. Por ejemplo, puede crear una colección que incluya todos los elementos de decisión con el valor &quot;Yoga&quot; en el atributo personalizado &quot;Categoría&quot;."
 
->[!BEGINSHADEBOX]
-
-Lo que encontrará en esta guía de documentación:
+>[!BEGINSHADEBOX &quot;Lo que encontrará en esta guía de documentación&quot;]
 
 * [Introducción a Experience Decisioning](gs-experience-decisioning.md)
-* Administración de los elementos de decisión
-   * [Configuración del catálogo de elementos](catalogs.md)
-   * [Creación de elementos de decisión](items.md)
-   * **[Administración de colecciones de elementos](collections.md)**
-* Configuración de la selección de elementos
-   * [Crear reglas de decisión](rules.md)
-   * [Creación de métodos de clasificación](ranking.md)
+* Administrar los elementos de decisión: [Configurar el catálogo de artículos](catalogs.md) - [Crear elementos de decisión](items.md) - **[Administrar colecciones de elementos](collections.md)**
+* Configurar la selección de elementos: [Creación de reglas de decisión](rules.md) - [Crear métodos de clasificación](ranking.md)
 * [Creación de estrategias de selección](selection-strategies.md)
 * [Creación de políticas de decisión](create-decision.md)
 
@@ -63,7 +56,7 @@ Para crear una colección, siga estos pasos:
 1. Añada una o varias reglas para determinar los elementos que se incluirán en la colección. Para ello:
 
    1. Elija un atributo de elemento para utilizarlo como criterio. La lista de atributos incluye todos los atributos estándar y personalizados definidos en el esquema del catálogo. [Más información sobre el catálogo de artículos](catalogs.md)
-   1. Seleccione el operador deseado e introduzca el valor por el que desea filtrar.
+   1. Seleccione el operador deseado e introduzca el valor por el que filtrar.
    1. Repita estos pasos para agregar tantas reglas como sea necesario. Cuando se añaden varias reglas, puede elegir entre las siguientes **Y** y **O** operadores para combinarlos. Para ello, haga clic en el distintivo del operador para cambiar entre las dos opciones.
 
    ![](assets/collection-create.png)

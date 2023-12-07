@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 64%
+ht-degree: 39%
 
 ---
 
@@ -23,18 +23,11 @@ ht-degree: 64%
 >title="Crear fórmulas de clasificación"
 >abstract="Fórmulas le permite definir reglas que determinarán qué elemento se debe presentar primero, en lugar de tener en cuenta las puntuaciones de prioridad del elemento. Una vez creado un método de clasificación, puede asignarlo a una estrategia de decisión para definir qué elementos se deben seleccionar primero."
 
->[!BEGINSHADEBOX]
-
-Lo que encontrará en esta guía de documentación:
+>[!BEGINSHADEBOX &quot;Lo que encontrará en esta guía de documentación&quot;]
 
 * [Introducción a Experience Decisioning](gs-experience-decisioning.md)
-* Administración de los elementos de decisión
-   * [Configuración del catálogo de elementos](catalogs.md)
-   * [Creación de elementos de decisión](items.md)
-   * [Administración de colecciones de elementos](collections.md)
-* Configuración de la selección de elementos
-   * [Crear reglas de decisión](rules.md)
-   * **[Creación de métodos de clasificación](ranking.md)**
+* Administrar los elementos de decisión: [Configurar el catálogo de artículos](catalogs.md) - [Crear elementos de decisión](items.md) - [Administrar colecciones de elementos](collections.md)
+* Configurar la selección de elementos: [Creación de reglas de decisión](rules.md) - **[Crear métodos de clasificación](ranking.md)**
 * [Creación de estrategias de selección](selection-strategies.md)
 * [Creación de políticas de decisión](create-decision.md)
 
@@ -44,7 +37,7 @@ Los métodos de clasificación permiten clasificar los elementos que se muestran
 
 Los métodos de clasificación son accesibles desde el **[!UICONTROL Configuración]** / **[!UICONTROL Métodos de clasificación]** menú. Hay dos tipos de métodos de clasificación disponibles:
 
-* **Fórmulas le permite definir reglas que determinarán qué elemento se debe presentar primero, en lugar de tener en cuenta las puntuaciones de prioridad del elemento.**
+* **Fórmulas** permite definir reglas que determinan qué elemento debe presentarse primero, en lugar de tener en cuenta las puntuaciones de prioridad del elemento.
 
 * **modelos de IA** le permite utilizar sistemas de modelos formados que aprovecharán varios puntos de datos para determinar qué elemento se debe presentar primero.
 
@@ -53,4 +46,4 @@ Los métodos de clasificación son accesibles desde el **[!UICONTROL Configuraci
 Encontrará información detallada sobre cada tipo de método de clasificación y cómo crearlos en la documentación de gestión de decisiones disponible aquí:
 
 * [Fórmulas de clasificación](../offers/ranking/create-ranking-formulas.md)
-* [Modelos de IA](../offers/ranking/ai-models.md)
+* [modelos de IA](../offers/ranking/ai-models.md)

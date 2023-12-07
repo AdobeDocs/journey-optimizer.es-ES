@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 19%
+source-wordcount: '1290'
+ht-degree: 14%
 
 ---
 
@@ -24,20 +24,13 @@ ht-degree: 19%
 >abstract="Las políticas de decisión aprovechan el motor de toma de decisiones de experiencia para elegir el mejor contenido que se ofrece, según el público."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=es" text="Acerca de Experience Decisioning"
 
->[!BEGINSHADEBOX]
-
-Lo que encontrará en esta guía de documentación:
+>[!BEGINSHADEBOX &quot;Lo que encontrará en esta guía de documentación&quot;]
 
 * [Introducción a Experience Decisioning](gs-experience-decisioning.md)
-* Administración de los elementos de decisión
-   * [Configuración del catálogo de elementos](catalogs.md)
-   * [Creación de elementos de decisión](items.md)
-   * [Administración de colecciones de elementos](collections.md)
-* Configuración de la selección de elementos
-   * [Crear reglas de decisión](rules.md)
-   * [Creación de métodos de clasificación](ranking.md)
+* Administrar los elementos de decisión: [Configurar el catálogo de artículos](catalogs.md) - [Crear elementos de decisión](items.md) - [Administrar colecciones de elementos](collections.md)
+* Configurar la selección de elementos: [Creación de reglas de decisión](rules.md) - [Crear métodos de clasificación](ranking.md)
 * [Creación de estrategias de selección](selection-strategies.md)
-* **[Creación de políticas de decisión](create-decision.md)**
+* **[Crear directivas de decisión](create-decision.md)**
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +79,7 @@ Para presentar la mejor oferta dinámica y experiencia a los visitantes de su si
 
    ![](assets/decision-code-based-details.png)
 
-1. Seleccione el número de elementos que desea que se devuelvan. Por ejemplo, si selecciona 2, se presentarán las dos mejores ofertas aptas para la superficie actual. Haga clic en **[!UICONTROL Siguiente]**
+1. Seleccione el número de elementos que desea que se devuelvan. Por ejemplo, si selecciona 2, se presentarán las dos mejores ofertas aptas para la superficie actual. Clic **[!UICONTROL Siguiente]**
 
 1. Utilice el **[!UICONTROL Agregar estrategia]** para definir las estrategias de selección de la política de decisión. Cada estrategia consiste en una colección de ofertas asociada con una restricción de elegibilidad y un método de clasificación para determinar las ofertas que se van a mostrar. [Más información](selection-strategies.md)
 

@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 27%
+source-wordcount: '773'
+ht-degree: 19%
 
 ---
 
@@ -31,19 +31,12 @@ ht-degree: 27%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=es" text="Uso de públicos"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=es" text="Uso de reglas de decisión"
 
->[!BEGINSHADEBOX]
-
-Lo que encontrará en esta guía de documentación:
+>[!BEGINSHADEBOX &quot;Lo que encontrará en esta guía de documentación&quot;]
 
 * [Introducción a Experience Decisioning](gs-experience-decisioning.md)
-* Administración de los elementos de decisión
-   * [Configuración del catálogo de elementos](catalogs.md)
-   * [Creación de elementos de decisión](items.md)
-   * [Administración de colecciones de elementos](collections.md)
-* Configuración de la selección de elementos
-   * [Crear reglas de decisión](rules.md)
-   * [Creación de métodos de clasificación](ranking.md)
-* **[Creación de estrategias de selección](selection-strategies.md)**
+* Administrar los elementos de decisión: [Configurar el catálogo de artículos](catalogs.md) - [Crear elementos de decisión](items.md) - [Administrar colecciones de elementos](collections.md)
+* Configurar la selección de elementos: [Creación de reglas de decisión](rules.md) - [Crear métodos de clasificación](ranking.md)
+* **[Crear estrategias de selección](selection-strategies.md)**
 * [Creación de políticas de decisión](create-decision.md)
 
 >[!ENDSHADEBOX]
@@ -83,6 +76,8 @@ Para crear una estrategia de selección, siga los pasos a continuación.
    ![](assets/strategy-create-screen.png)
 
 1. Seleccione el [colección](collections.md) que contiene las ofertas que se deben tener en cuenta.
+
+1. Seleccione la oferta [colección](collections.md) que contiene las ofertas que se deben tener en cuenta.
 
 1. Utilice el **[!UICONTROL Idoneidad]** para restringir la selección de ofertas para esta estrategia de selección.
 
