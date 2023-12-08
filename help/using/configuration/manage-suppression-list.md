@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: supresión, lista, rechazo, correo electrónico, optimizador, cuarentena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+source-git-commit: 0ba1af43f5447df861e419b56f34a418cfbce241
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 24%
+source-wordcount: '1599'
+ht-degree: 21%
 
 ---
 
@@ -28,9 +28,9 @@ Obtenga más información sobre el concepto y el uso de la lista de supresión e
 >
 >El Adobe mantiene una lista actualizada de direcciones incorrectas conocidas que han demostrado ser perjudiciales para la participación y la reputación de correo electrónico, y garantiza que no se les envíen correos electrónicos. Esta lista se administra en una lista de supresión global que es común para todos los clientes de Adobe. Las direcciones y los nombres de dominio contenidos en la lista de supresión global están ocultos. En los informes de envío solo se indica el número de destinatarios excluidos.
 
-Además, puede aprovechar Journey Optimizer **API de REST de supresión** para controlar los mensajes salientes mediante supresión y listas de permitidos. [Aprenda a trabajar con la API de REST de supresión](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=es)
+Además, puede aprovechar Journey Optimizer **API de REST de supresión** para controlar los mensajes salientes mediante supresión y listas de permitidos. [Aprenda a trabajar con la API de REST de supresión](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
-## Acceso a la lista de supresión  {#access-suppression-list}
+## Acceso a la lista de supresión {#access-suppression-list}
 
 Para acceder a la lista detallada de direcciones de correo electrónico y dominios excluidos, vaya a **[!UICONTROL Administration]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** y seleccione **[!UICONTROL Lista de supresión]**.
 
@@ -74,7 +74,7 @@ Los posibles motivos de un error de entrega son:
 | Motivo | Descripción | Categoría |
 | --- | --- | --- |
 | **[!UICONTROL Destinatario no válido]** | El destinatario no es válido o no existe. | Grave |
-| **[!UICONTROL Mensajes devueltos no entregados]** | El mensaje rebotó suavemente por un motivo distinto a los errores leves enumerados en esta tabla, como al enviar a través de la tasa permitida recomendada por un ISP. | Leve |
+| **[!UICONTROL Rechazo suave]** | El mensaje rebotó suavemente por un motivo distinto a los errores leves enumerados en esta tabla, como al enviar a través de la tasa permitida recomendada por un ISP. | Leve |
 | **[!UICONTROL Error de DNS]** | El mensaje se ha devuelto debido a un error de DNS. | Leve |
 | **[!UICONTROL Buzón lleno]** | El mensaje se ha devuelto porque el buzón del destinatario está lleno y no puede aceptar más mensajes. | Leve |
 | **[!UICONTROL Retransmisión denegada]** | El destinatario bloqueó el mensaje porque no se permite la retransmisión. | Leve |
@@ -138,7 +138,7 @@ Para añadir una dirección de correo electrónico o un dominio a la lista de su
    >
    >Asegúrese de introducir una dirección de correo electrónico válida (como abc@compañía.com) o un dominio (como abc.compañía.com).
 
-1. (opcional) Introduzca un motivo. En este campo se permiten todos los caracteres imprimibles ASCII comprendidos entre 32 y 126.
+1. (opcional) Introduzca un motivo. Todos los caracteres imprimibles ASCII comprendidos entre 32 y 126 están permitidos en este campo.
 
 1. Utilice el **[!UICONTROL Enviar]** para confirmar.
 
