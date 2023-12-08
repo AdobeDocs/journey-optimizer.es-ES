@@ -10,11 +10,12 @@ level: Experienced
 keywords: IP, grupo, subdominios, capacidad de entrega
 hide: true
 hidefromtoc: true
+badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 2483f53982acc920676190c1bc7fef5abf3c2331
+source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
 workflow-type: tm+mt
-source-wordcount: '2149'
-ht-degree: 15%
+source-wordcount: '2141'
+ht-degree: 14%
 
 ---
 
@@ -332,7 +333,7 @@ Siga los pasos [superior](#define-phases) para definir las fases del nuevo plan.
 >
 >Los detalles del plan de calentamiento de IP cambiarán según el archivo recién cargado. Las ejecuciones ejecutadas anteriormente (independientemente de su [status](#monitor-plan)) no se ven afectados.
 
-Veamos un ejemplo:
+Veamos un ejemplo...
 
 * Con el plan inicial de calentamiento de IP, la Fase 2 tuvo 9 ejecuciones.
 

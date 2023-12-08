@@ -10,22 +10,16 @@ level: Experienced
 keywords: IP, entregabilidad
 hide: true
 hidefromtoc: true
+badge: label="Beta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
-workflow-type: ht
-source-wordcount: '275'
-ht-degree: 100%
+source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+workflow-type: tm+mt
+source-wordcount: '295'
+ht-degree: 91%
 
 ---
 
 # Introducción a los planes de calentamiento de IP {#ip-warmup-gs}
-
-<!--
->[!CONTEXTUALHELP]
->id="ajo_admin_ip_warmup_plan"
->title="Define your IP warmup plan"
->abstract="You can perform IP warmup workflows directly from the Journey Optimizer interface in a standardized and efficient way that follows the best practices for optimal deliverability."
--->
 
 >[!BEGINSHADEBOX]
 
@@ -43,6 +37,8 @@ Lo que encontrará en esta guía de documentación:
 >Actualmente, la funcionalidad de calentamiento de IP está disponible en versión beta solo para usuarios seleccionados. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 Con [!DNL Journey Optimizer], puede realizar fácilmente flujos de trabajo de calentamiento de IP directamente desde la interfaz de usuario de una manera estandarizada y eficaz que siga las prácticas recomendadas para una entregabilidad óptima.
+
+➡️ [Obtenga información sobre cómo crear y ejecutar un plan de calentamiento de IP en este vídeo](#video)
 
 >[!CAUTION]
 >
@@ -75,3 +71,9 @@ Los pasos clave para implementar un plan de calentamiento de IP son los siguient
 1. Cree un plan de calentamiento de IP en [!DNL Journey Optimizer] y cargue la hoja de Excel preparada con la ayuda del consultor del equipo de entrega. [Más información](ip-warmup-plan.md)
 
 1. Seleccione una campaña para cada fase del plan y active las ejecuciones correspondientes. [Más información](ip-warmup-execution.md)
+
+## Vídeo explicativo {#video}
+
+Obtenga información sobre cómo crear y ejecutar un plan de calentamiento de IP.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)
