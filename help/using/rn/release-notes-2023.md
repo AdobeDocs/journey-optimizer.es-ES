@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Notas de la versión 2023
+title: Notas de la versión de 2023
 description: Notas de la versión de Journey Optimizer 2023
 feature: Release Notes
 topic: Content Management
@@ -11,13 +11,13 @@ exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 001117b273355b18a2f429ed686c30afd6d99e89
 workflow-type: tm+mt
 source-wordcount: '4125'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Notas de la versión de 2023 {#release-notes-2023}
 
-Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] lanzado en 2023.
+Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] lanzadas en 2023.
 
 ## Notas de la versión de septiembre de 2023 {#sept-rn-2023}
 

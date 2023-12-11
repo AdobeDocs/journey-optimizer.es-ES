@@ -8,19 +8,19 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 85c700271b49150a8796d58748a2d78b20587ee1
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 30%
+ht-degree: 78%
 
 ---
 
 # Documentación de Adobe [!DNL Journey Optimizer] {#cjm-documentation}
 
-## ¿Qué hay de nuevo?
+## Novedades
 
-Eche un vistazo a las mejoras más recientes en el producto y la documentación de Journey Optimizer. Para obtener una lista completa de funciones, mejoras y correcciones, consulte la [Notas de versión](using/rn/release-notes.md). Manténgase al tanto de los cambios más recientes en nuestra documentación. Para ello, visite el [página actualizaciones de documentación](using/rn/documentation-updates.md).
+Eche un vistazo a las mejoras más recientes del producto y a la documentación de Journey Optimizer. Para obtener una lista completa de funciones, mejoras y correcciones, consulte la [Notas de versión](using/rn/release-notes.md). Manténgase al tanto de los cambios más recientes en nuestra documentación. Para ello, visite la [página de actualizaciones de la documentación](using/rn/documentation-updates.md).
 
 >[!BEGINTABS]
 
->[!TAB Herramientas de espacio aislado]
+>[!TAB Herramientas de la zona protegida]
 
 Las herramientas de zona protegida permiten copiar objetos en varias zonas protegidas aprovechando la exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.
 
@@ -48,12 +48,12 @@ Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del ser
     </td>
     <td>
     <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>Creación de su primer recorrido</strong><br/>Diseñe y organice recorridos omnicanal personalizados para armonizar el alcance del marketing con la participación individual del cliente. 
+    <div><strong>Cree su primer recorrido</strong><br/>Diseñe y organice recorridos omnicanal personalizados para armonizar el alcance del marketing con una participación individual del cliente. 
     </div>
     </td>
     <td>
     <a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/start-campaign.jpeg"></a>
-    <div><strong>Inicie su primera campaña</strong><br/>Cree e inicie su primera campaña en Journey Optimizer para entregar contenido de destino único a una audiencia específica.</div>
+    <div><strong>Inicie su primera campaña</strong><br/>Cree e inicie su primera campaña en Journey Optimizer para enviar contenido segmentado único a una audiencia específica.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -64,7 +64,7 @@ Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del ser
     </tr>
 </table>
 
-## Explorar la documentación
+## Explore la documentación
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
@@ -101,12 +101,12 @@ Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del ser
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=es" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descripción del producto</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Información general de seguridad (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">Referencia de API</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=es" target="_blank">Tutoriales</a> - <a href="https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descripción del producto</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Información general de seguridad (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">Referencia de las API</a>
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es" target="_blank">Documentación</a> - <a href="https://www.adobe.com/es/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es" target="_blank">Documentación</a> - <a href="https://www.adobe.com/es/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>
 </td>
 </tr></table>
 
 <table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
-<b>Manténgase informado y mejore su experiencia con Adobe Journey Optimizer.</b><br/>Suscríbase a nuestra newsletter trimestral. Obtenga acceso exclusivo a las últimas actualizaciones de productos, historias cautivadoras, casos de uso reales, sugerencias valiosas y mucho más; todo se envía directamente a su bandeja de entrada cada trimestre. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Regístrese hoy mismo.</a></td></tr></table>
+<b>Manténgase al tanto y mejore su experiencia con Adobe Journey Optimizer.</b><br/>Suscríbase a nuestra Newsletter trimestral. Obtenga acceso exclusivo a las últimas actualizaciones de productos, historias interesantes, casos de uso reales, consejos valiosos y mucho más.Todo se envía directamente a su bandeja de entrada cada trimestre. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Regístrese hoy mismo.</a></td></tr></table>
