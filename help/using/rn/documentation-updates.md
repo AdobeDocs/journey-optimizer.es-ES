@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
-workflow-type: tm+mt
-source-wordcount: '4174'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '4216'
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 
 * El mecanismo de protección que limita todas las acciones personalizadas se ha cambiado de 150 000 llamadas en 30 segundos a 300 000 llamadas en un minuto. Además, la restricción predeterminada ya no se aplica a cada extremo. Ahora se realiza por host y por zona protegida. Por ejemplo, en una zona protegida, si tiene dos puntos finales con el mismo host (p. ej., `https://www.adobe.com/endpoint1` y `https://www.adobe.com/endpoint2`), la restricción se aplicará a todos los extremos del host adobe.com. &quot;endpoint1&quot; y &quot;endpoint2&quot; compartirán la misma configuración de restricción y hacer que un punto final alcance el límite tendrá un impacto en el otro punto final. [Más información](../action/about-custom-action-configuration.md)
 * Se ha añadido un nuevo estado para las campañas de correo electrónico a la lista de estados de las campañas. [Más información](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
-* La sección Introducción a las audiencias de Adobe Experience Platform se ha actualizado para reflejar los métodos de evaluación de audiencias disponibles y cómo seleccionarlos. [Más información](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
-* Se ha añadido una nueva subsección para especificar qué eventos deben evitarse al crear la audiencia si utiliza el método de evaluación de segmentación por flujo continuo. [Más información](../audience/about-audiences.md#streaming-segmentation-events-guardrails)
+* La sección Introducción a las audiencias de Adobe Experience Platform se ha actualizado para reflejar los métodos de evaluación de audiencias disponibles y cómo seleccionarlas. [Más información](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
+* Se ha añadido una nueva subsección para especificar qué eventos deben evitarse al crear la audiencia si utiliza el método de evaluación de segmentación de streaming. [Más información](../audience/about-audiences.md#streaming-segmentation-events-guardrails)
 
 ## Octubre de 2023 {#oct-2023}
 
