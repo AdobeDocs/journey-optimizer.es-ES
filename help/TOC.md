@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1717'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
    + [Notas de la versión preliminar](using/rn/e-release-notes.md)
    + [Últimas notas de la versión](using/rn/release-notes.md)
    + Notas de la versión anterior {#previous-rn-new}
-      + [Notas de la versión 2023](using/rn/release-notes-2023.md)
+      + [Notas de la versión de 2023](using/rn/release-notes-2023.md)
       + [Notas de la versión de 2022](using/rn/release-notes-2022.md)
       + [Notas de la versión de 2021](using/rn/release-notes-2021.md)
    + [Actualizaciones de documentación](using/rn/documentation-updates.md)
@@ -217,11 +217,11 @@ ht-degree: 97%
       + [Configurar el canal de notificaciones push](using/push/push-configuration.md)
       + [Flujo de trabajo de inicio rápido de incorporación al dispositivo móvil](using/push/mobile-onboarding-wf.md)
 + Canal de SMS/MMS{#sms}
-   + [Introducción a los mensajes de texto](using/sms/get-started-sms.md)
-   + [Crear un mensaje de texto](using/sms/create-sms.md)
+   + [Introducción a la mensajería de texto](using/sms/get-started-sms.md)
+   + [Creación de un mensaje de texto](using/sms/create-sms.md)
    + [Creación de un mensaje MMS](using/sms/create-mms.md)
-   + [Compruebe y envíe sus mensajes de texto](using/sms/send-sms.md)
-   + [Administrar la exclusión de mensajes de texto](using/sms/sms-opt-out.md)
+   + [Comprobación y envío de los mensajes de texto](using/sms/send-sms.md)
+   + [Administración de la exclusión de mensajes de texto](using/sms/sms-opt-out.md)
    + [Configuración del canal de SMS](using/sms/sms-configuration.md)
    + [Configuración de subdominios SMS](using/sms/sms-subdomains.md)
 + Correo directo {#direct-mail}
@@ -235,7 +235,7 @@ ht-degree: 97%
       + [Requisitos previos de canal web](using/web/web-prerequisites.md)
       + [Configuración de subdominios web](using/web/web-delegated-subdomains.md)
    + [Creación de experiencias web](using/web/create-web.md)
-   + Creación de páginas web {#author-web-pages}
+   + Creación de páginas web {#author-web-pages}
       + [Edición de contenido de página web](using/web/edit-web-content.md)
       + [Administración de modificaciones](using/web/manage-web-modifications.md)
       + [Monitorización de sus campañas web](using/web/monitor-web-campaigns.md)
@@ -269,7 +269,7 @@ ht-degree: 97%
       + [Creación de contenido multilingüe con traducción automática](using/content-management/multilingual-automated.md)
       + [Informe de campaña multilingüe](using/content-management/multilingual-report.md)
    + Recursos/Imágenes {#assets-images}
-      + [Trabajo con Experience Manager Assets](using/content-management/assets.md)
+      + [Trabajar con Experience Manager Assets](using/content-management/assets.md)
       + [Trabajar con Adobe Stock](using/content-management/stock.md)
    + Personalización {#personalization}
       + [Introducción a la personalización](using/personalization/personalize.md)
@@ -543,7 +543,7 @@ ht-degree: 97%
    + [Configuración de las reglas de frecuencia](using/configuration/frequency-rules.md)
    + Configurar recorridos {#configure-journeys}
       + [Acerca de las fuentes de datos, los eventos y las acciones](using/configuration/about-data-sources-events-actions.md)
-      + Integración con sistemas externos {#external-systems}
+      + Integración con sistemas externos {#external-systems}
          + [Integración de recorridos con sistemas externos](using/configuration/external-systems.md)
          + [API de límite](using/configuration/capping.md)
          + [API de limitación](using/configuration/throttling.md)
@@ -568,7 +568,7 @@ ht-degree: 97%
          + [Uso de respuestas de llamadas de API en acciones personalizadas](using/action/action-response.md)
    + [Fuentes](using/start/get-started-sources.md)
 + Control de acceso {#access-control}
-   + Información general de control de acceso {#privacy}
+   + Información general sobre el control de acceso {#privacy}
       + [Introducción a la administración de usuarios](using/administration/permissions-overview.md)
       + [Funciones integradas](using/administration/ootb-product-profiles.md)
       + [Permisos integrados](using/administration/ootb-permissions.md)
