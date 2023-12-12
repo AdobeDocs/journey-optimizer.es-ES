@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: lista de permitidos, lista, seguro, configuración
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1143'
 ht-degree: 15%
 
 ---
@@ -24,13 +24,13 @@ Esta lista de permitidos le permite especificar direcciones de correo electróni
 
 >[!CAUTION]
 >
->Actualmente, esta función solo se aplica al canal de correo electrónico. Está disponible en entornos limitados de producción y sin producción.
+>Esta función solo se aplica al canal de correo electrónico. Está disponible en entornos limitados de producción y sin producción.
 
 Por ejemplo, en una instancia que no es de producción, donde pueden producirse errores, la lista de permitidos garantiza que no tendrá riesgo de enviar mensajes no deseados a direcciones de clientes reales y, por lo tanto, proporciona un entorno seguro para realizar pruebas.
 
 Además, cuando la lista de permitidos está activa pero vacía, no se envía ningún correo. Por lo tanto, si encuentra algún problema importante, puede utilizar esta función para detener todas las comunicaciones salientes de [!DNL Journey Optimizer] hasta que arregles el problema. Obtenga más información sobre [lógica de lista de permitidos](#logic).
 
-Además, puede aprovechar Journey Optimizer **API de REST de supresión** para controlar los mensajes salientes mediante supresión y listas de permitidos. [Aprenda a trabajar con la API de REST de supresión](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=es)
+Además, puede aprovechar la **API de REST de supresión** de Journey Optimizer para controlar los mensajes salientes mediante supresión y listas de permitidos. [Aprenda a trabajar con la API de REST de supresión](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## Acceso a la lista de permitidos {#access-allowed-list}
 
