@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
-source-wordcount: '2396'
-ht-degree: 17%
+source-wordcount: '2405'
+ht-degree: 16%
 
 ---
 
@@ -78,7 +78,7 @@ Por ejemplo, si establece las restricciones siguientes:
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
->title="Estimación total del perfil"
+>title="Estimación de perfiles totales"
 >abstract="Al seleccionar públicos o reglas de decisión, puede ver información sobre los perfiles cualificados estimados."
 
 El **[!UICONTROL Idoneidad de oferta]** permite restringir la oferta a perfiles específicos que defina mediante audiencias o reglas de decisión.
@@ -105,7 +105,7 @@ El **[!UICONTROL Idoneidad de oferta]** permite restringir la oferta a perfiles 
   >
   >Actualmente no se admiten ofertas basadas en eventos en [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, no podrá aprovecharlo en una oferta de.
 
-Al seleccionar públicos o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Clic **[!UICONTROL Actualizar]** para actualizar los datos.
+Al seleccionar audiencias o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Clic **[!UICONTROL Actualizar]** para actualizar los datos.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -119,7 +119,7 @@ Para aplicar una restricción, puede restringir la selección de ofertas a los m
 
 Básicamente, el resultado de una audiencia es una lista de perfiles, mientras que una regla de decisión es una función ejecutada a petición en un único perfil durante el proceso de toma de decisiones. A continuación se detalla la diferencia entre estos dos usos.
 
-* **Audiences**
+* **Públicos**
 
   Por un lado, las audiencias son un grupo de perfiles de Adobe Experience Platform que coinciden con una lógica determinada en función de atributos de perfil y eventos de experiencia. Sin embargo, Administración de ofertas no vuelve a calcular la audiencia, que puede no estar actualizada al presentar la oferta.
 
