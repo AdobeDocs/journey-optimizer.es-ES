@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 85c700271b49150a8796d58748a2d78b20587ee1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 78%
 
 ## Novedades
 
-Eche un vistazo a las mejoras más recientes del producto y a la documentación de Journey Optimizer. Para obtener una lista completa de funciones, mejoras y correcciones, consulte la [Notas de versión](using/rn/release-notes.md). Manténgase al tanto de los cambios más recientes en nuestra documentación. Para ello, visite la [página de actualizaciones de la documentación](using/rn/documentation-updates.md).
+Eche un vistazo a las mejoras más recientes del producto y a la documentación de Journey Optimizer. Para obtener una lista completa de funciones, mejoras y correcciones, consulte los detalles de las [Notas de la versión](using/rn/release-notes.md). Manténgase al tanto de los cambios más recientes en nuestra documentación. Para ello, visite la [página de actualizaciones de la documentación](using/rn/documentation-updates.md).
 
 >[!BEGINTABS]
 
@@ -70,11 +70,11 @@ Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del ser
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong>Experiencia del cliente</strong><br/><a href="using/building-journeys/journey.md">Recorridos</a> - <a href="using/campaigns/get-started-with-campaigns.md">Campañas</a> - <a href="using/landing-pages/get-started-lp.md">Páginas de aterrizaje</a> - <a href="using/reports/live-report.md">Informes</a> - <a href="using/offers/get-started/starting-offer-decisioning.md">Administración de decisiones</a>
+      <strong>Experiencia del cliente</strong><br/><a href="using/building-journeys/journey.md">Recorridos</a> - <a href="using/campaigns/get-started-with-campaigns.md">Campañas</a> - <a href="using/landing-pages/get-started-lp.md">Páginas de aterrizaje</a> - <a href="using/reports/live-report.md">Creación de informes</a> - <a href="using/offers/get-started/starting-offer-decisioning.md">Gestión de decisiones</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>Configuración<br/>administración</strong><br/><a href="using/configuration/channel-surfaces.md">Superficies de canal</a> - <a href="using/configuration/about-data-sources-events-actions.md">Configuración de recorridos</a>  - <a href="using/administration/permissions-overview.md">Control de acceso</a> - <a href="using/administration/sandboxes.md">Administración de zonas protegidas</a>
+      <strong>Configuración<br/>y administración</strong><br/><a href="using/configuration/channel-surfaces.md">Superficies de canal</a> - <a href="using/configuration/about-data-sources-events-actions.md">Configuración de recorridos</a>  - <a href="using/administration/permissions-overview.md">Control de acceso</a> - <a href="using/administration/sandboxes.md">Administración de zonas protegidas</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
@@ -84,11 +84,11 @@ Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del ser
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>Gestión de contenido</strong><br/><a href="using/content-management/assets.md">Recursos e imágenes</a> - <a href="using/personalization/personalize.md">Personalización</a> - <a href="using/content-management/content-templates.md">Reutilizable</a> &amp; <a href="using/personalization/dynamic-content.md">dinámico</a> content - <a href="using/content-management/preview-test.md">Contenido de prueba y previsualización</a>
+      <strong>Administración de contenido</strong><br/><a href="using/content-management/assets.md">Recursos e imágenes</a> - <a href="using/personalization/personalize.md">Personalización</a> - <a href="using/content-management/content-templates.md">Contenido </a>reutilizable<a href="using/personalization/dynamic-content.md"> y </a>dinámico - <a href="using/content-management/preview-test.md">Prueba y vista previa de contenido</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
-      <strong>Perfiles y audiencias</strong><br/><a href="using/audience/about-audiences.md">Audiencias</a> - <a href="using/audience/get-started-profiles.md">Perfiles</a> - <a href="using/audience/get-started-identity.md">Identidades</a> - <a href="using/audience/license-usage.md">Uso de licencias</a> - <a href="using/privacy/get-started-privacy.md">Administración de privacidad</a>
+      <strong>Perfiles y públicos</strong><br/><a href="using/audience/about-audiences.md">Públicos</a> - <a href="using/audience/get-started-profiles.md">Perfiles</a> - <a href="using/audience/get-started-identity.md">Identidades</a> - <a href="using/audience/license-usage.md">Uso de licencias</a> - <a href="using/privacy/get-started-privacy.md">Administración de privacidad</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon-data.svg" width="35px"><br/>
