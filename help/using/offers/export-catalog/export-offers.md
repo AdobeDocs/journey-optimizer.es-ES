@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '2014'
-ht-degree: 3%
+source-wordcount: '1962'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL 
 
 +++
 
-+++ _experiencia {#experience}
++++ _experience {#experience}
 
 **Campo:** _experience
 **Tipo:** objeto

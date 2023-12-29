@@ -8,8 +8,8 @@ level: Experienced
 exl-id: ef95a51b-1f14-470e-8229-3564bff9c67b
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 7%
+source-wordcount: '170'
+ht-degree: 6%
 
 ---
 
@@ -25,7 +25,7 @@ La siguiente tabla muestra los valores válidos que componen la variable *Conten
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Aceptar | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
 
 **Formato de API**
@@ -34,7 +34,7 @@ La siguiente tabla muestra los valores válidos que componen la variable *Conten
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-| Parámetro | Descripción | Ejemplo | | `{ENDPOINT_PATH}` | La ruta del extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` | | `{CONTAINER_ID}` | El contenedor donde se encuentran las etiquetas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` | | `{INSTANCE_ID}` | El ID de instancia de la etiqueta que desea actualizar. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| Parámetro | Descripción | Ejemplo | | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` | | `{CONTAINER_ID}` | El contenedor donde se encuentran las etiquetas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` | | `{INSTANCE_ID}` | El ID de instancia de la etiqueta que desea actualizar. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **Solicitud**
 

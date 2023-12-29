@@ -11,8 +11,8 @@ keywords: recorrido, eventos, reaction, seguimiento, platform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 21%
+source-wordcount: '378'
+ht-degree: 20%
 
 ---
 

@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '3357'
+source-wordcount: '3359'
 ht-degree: 24%
 
 ---
@@ -44,7 +44,7 @@ Para obtener una lista detallada de todas las métricas disponibles en Adobe Jou
 
 ## Pestaña Campaña {#campaign-global}
 
-### envío {#delivery-global}
+### Envío {#delivery-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_delivery_global"

@@ -11,7 +11,7 @@ keywords: actividad, condición, lienzo, recorrido
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1452'
 ht-degree: 17%
 
 ---

@@ -12,7 +12,7 @@ exl-id: 76c74ca3-edaa-48c5-8d6a-0906120e31a1
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 78%
+ht-degree: 57%
 
 ---
 
@@ -23,6 +23,6 @@ ht-degree: 78%
 >title="Actividad final"
 >abstract="La actividad final permite marcar el final de cada ruta del recorrido. No es obligatorio, pero se recomienda para la claridad visual. De hecho, si el recorrido tiene varias actividades finales, le recomendamos que agregue una etiqueta en cada final para facilitar la lectura de los informes."
 
-El **[!UICONTROL Fin]** La actividad de le permite marcar el final de cada ruta del recorrido. No es obligatorio, pero se recomienda para la claridad visual. De hecho, si el recorrido tiene varias actividades finales, le recomendamos que agregue una etiqueta en cada final para facilitar la lectura de los informes. Consulte [esta página](../reports/live-report.md).
+El **[!UICONTROL Fin]** La actividad de le permite marcar el final de cada ruta del recorrido. No es obligatorio, pero se recomienda para la claridad visual. De hecho, si el recorrido tiene varias actividades finales, le recomendamos que agregue una etiqueta a cada extremo para facilitar la lectura de los informes. Consulte [esta página](../reports/live-report.md).
 
 ![](assets/journey54.png)

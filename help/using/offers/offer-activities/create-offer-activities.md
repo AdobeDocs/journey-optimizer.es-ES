@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '2225'
-ht-degree: 2%
+source-wordcount: '2355'
+ht-degree: 1%
 
 ---
 
@@ -90,7 +90,7 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
      Obtenga información sobre cómo crear una regla de decisión en [esta sección](../offer-library/creating-decision-rules.md).
 
-1. Al seleccionar públicos o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Clic **[!UICONTROL Actualizar]** para actualizar los datos.
+1. Al seleccionar audiencias o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Clic **[!UICONTROL Actualizar]** para actualizar los datos.
 
    >[!NOTE]
    >
@@ -228,7 +228,7 @@ La selección es la siguiente:
 
 +++
 
-+++ **Ejemplo 3**
++++ **Ejemplo: 3**
 
 En este ejemplo, la oferta 1 y la oferta 3 alcanzaron su límite de frecuencia. [Más información sobre la restricción de frecuencia](../offer-library/add-constraints.md#capping)
 
@@ -269,7 +269,7 @@ La selección es la siguiente:
 
 +++
 
-+++ **Ejemplo 3**
++++ **Ejemplo: 3**
 
 En este ejemplo, la oferta 1 y la oferta 3 alcanzaron su límite de frecuencia. [Más información sobre la restricción de frecuencia](../offer-library/add-constraints.md#capping)
 
@@ -293,7 +293,7 @@ Para ello, selecciónela en la lista de ofertas de reserva disponibles para las 
 >
 >Puede hacer clic en **[!UICONTROL Abrir biblioteca de ofertas]** para mostrar la lista de ofertas en una nueva pestaña.
 
-## Revisar y guardar la decisión {#review}
+## Revise y guarde la decisión {#review}
 
 Si todo está configurado correctamente, se muestra un resumen de las propiedades de la decisión.
 

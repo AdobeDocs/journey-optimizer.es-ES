@@ -11,14 +11,14 @@ keywords: recorridos, actividades, introducción, eventos, acción
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 17%
+source-wordcount: '538'
+ht-degree: 14%
 
 ---
 
 # Introducción a actividades de recorrido {#about-journey-activities}
 
-Combine las distintas actividades de evento, orquestación y acción para crear sus escenarios de canal cruzado de varios pasos.
+Combine las distintas actividades de evento, orquestación y acción para crear sus escenarios de canales cruzados de varios pasos.
 
 ## Actividades de eventos {#event-activities}
 

@@ -11,7 +11,7 @@ keywords: solución de problemas, solución de problemas, recorrido, comprobaci�
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1021'
 ht-degree: 73%
 
 ---
@@ -60,7 +60,7 @@ Si se consigue enviar el evento pero no se ve ninguna entrada en el recorrido, h
 
 Puede comenzar la resolución de problemas con las preguntas siguientes:
 
-* ¿Está seguro de que el recorrido en el que espera el evento entrante está en modo de prueba o activo?
+* ¿Seguro que el recorrido en el que espera el evento entrante está en modo de prueba o activo?
 * ¿Ha guardado el evento antes de copiar la carga útil de la previsualización de carga útil?
 * ¿Su carga útil de evento contiene un ID de evento?
 * ¿Ha marcado la dirección URL correcta?

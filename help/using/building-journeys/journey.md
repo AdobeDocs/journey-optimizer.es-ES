@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: recorrido, descubrimiento, introducción
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Utilice [!DNL Journey Optimizer] para crear casos de uso de orquestación en tie
 
 Diseñe escenarios avanzados de varios pasos con las siguientes capacidades:
 
-* Envíe en tiempo real un **envío unitario** que se activa cuando se recibe un evento, o **en lote** con las audiencias de Adobe Experience Platform.
+* Envíe en tiempo real un **envío unitario** que se activa cuando se recibe un evento, o **en lote** con los públicos de Adobe Experience Platform.
 
 * Aprovechar **datos contextuales** desde eventos, información de Adobe Experience Platform o datos de servicios API de terceros.
 

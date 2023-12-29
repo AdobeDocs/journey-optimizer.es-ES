@@ -10,8 +10,8 @@ level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: 1490ac2efd39c6bf9b6ca97e682750463e9f054d
-workflow-type: ht
-source-wordcount: '1961'
+workflow-type: tm+mt
+source-wordcount: '1980'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ Para los experimentos de contenido en Adobe Journey Optimizer, puede probar idea
 
 ### Asignación aleatoria
 
-La experimentación de contenido en Adobe Journey Optimizer utiliza un hash pseudoaleatorio de la identidad del visitante para realizar una asignación aleatoria de usuarios en el público destinatario a uno de los tratamientos que ha definido. El mecanismo de hash garantiza que, en los casos en los que el visitante entra en una campaña varias veces, reciba el mismo tratamiento de forma determinada.
+La experimentación de contenido en Adobe Journey Optimizer utiliza un hash pseudoaleatorio de la identidad del visitante para realizar una asignación aleatoria de usuarios en el público de destino a uno de los tratamientos que ha definido. El mecanismo de hash garantiza que, en los casos en los que el visitante entra en una campaña varias veces, reciba el mismo tratamiento de forma determinada.
 
 En detalle, el algoritmo de 32 bits MumurHash3 se usa para hash la cadena de identidad del usuario en uno de los 10 000 bloques. En un experimento de contenido con el 50 % del tráfico asignado a cada tratamiento, los usuarios que caigan en bloques de 1 a 5000 recibirán el primer tratamiento, mientras que los usuarios de los bloques de 5001 a 10 000 recibirán el segundo tratamiento. Dado que se utiliza un hash pseudoaleatorio, las divisiones de visitante que observe pueden no ser exactamente 50-50; sin embargo, la división será estadísticamente equivalente al porcentaje de división objetivo.
 
@@ -87,7 +87,7 @@ Determine la métrica a la que desea dirigirse y si los cambios que está realiz
 Por ejemplo, es poco probable que el cambio de contenido del cuerpo del mensaje afecte a las tasas de apertura del correo electrónico.
 +++
 
-+++Ejecute la prueba con el tamaño de audiencia adecuado o durante el tiempo suficiente
++++Ejecute la prueba con el tamaño de público adecuado o durante el tiempo suficiente
 
 Si realiza las pruebas durante más tiempo, podrá detectar diferencias menores en la métrica objetivo entre tratamientos. Sin embargo, si el valor de la línea de base de la métrica de objetivos es pequeño, necesitará muestras de mayor tamaño.
 El número de usuarios que debe incluirse en el experimento depende del tamaño del efecto que desee detectar, la variación o propagación de la métrica de objetivos, así como la tolerancia de errores de falsos positivos y falsos negativos. En los experimentos clásicos, puede utilizar una [calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es){_blank} para determinar cuánto tiempo debe ejecutar la prueba.
@@ -101,7 +101,7 @@ Los métodos estadísticos nos dan una forma de formalizar esta incertidumbre. U
 
 +++Formar nuevas hipótesis y realizar pruebas continuamente
 
-Para obtener verdaderas perspectivas empresariales, debe limitarse a un solo experimento. En su lugar, realice un seguimiento de los experimentos, formulando nuevas hipótesis y ejecutando nuevas pruebas con diferentes cambios, en audiencias distintas y examinando el impacto en varias métricas.
+Para obtener verdaderas perspectivas empresariales, debe limitarse a un solo experimento. En su lugar, realice un seguimiento de los experimentos, formulando nuevas hipótesis y ejecutando nuevas pruebas con diferentes cambios, en públicos distintos y examinando el impacto en varias métricas.
 +++
 
 ## Interpretación de los resultados de los experimentos {#interpret-results}
@@ -168,11 +168,11 @@ Después de ejecutar el Experimento, hay varias acciones de seguimiento posibles
 
   A veces los resultados de sus experimentos pueden no ser concluyentes, ya sea porque no se incluyeron suficientes perfiles para detectar cualquier diferencia en los tratamientos, o porque los tratamientos que definió no eran suficientemente diferentes.
 
-  Si la hipótesis que probaba sigue siendo relevante, ejecutar una prueba de seguimiento en una audiencia mayor o diferente, o modificar los tratamientos para que haya diferencias más claras puede ser la mejor acción de seguimiento.
+  Si la hipótesis que probaba sigue siendo relevante, ejecutar una prueba de seguimiento en un público mayor o diferente, o modificar los tratamientos para que haya diferencias más claras puede ser la mejor acción de seguimiento.
 
 * **Realizar análisis más profundos**
 
-  El tratamiento que funciona bien para una audiencia puede no ser a veces el mejor tratamiento para otra audiencia. Realizar análisis más profundos sobre cómo se han comportado los tratamientos para diferentes audiencias ayuda a generar ideas para nuevas pruebas.
+  El tratamiento que funciona bien para un público puede no ser a veces el mejor tratamiento para otro público. Realizar análisis más profundos sobre cómo se han comportado los tratamientos para diferentes públicos ayuda a generar ideas para nuevas pruebas.
 
   Del mismo modo, estudiar el rendimiento de cada tratamiento con distintas métricas también puede proporcionar una visión más completa de sus experimentos.
 

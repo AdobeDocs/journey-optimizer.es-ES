@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adición de ofertas personalizadas
+title: Añadir ofertas personalizadas
 description: Aprenda a añadir ofertas personalizadas a los mensajes
 feature: Email Design, Offers
 topic: Content Management
@@ -11,12 +11,12 @@ keywords: ofertas, decisión, correos electrónicos, personalización, decisión
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 1%
+source-wordcount: '622'
+ht-degree: 0%
 
 ---
 
-# Adición de ofertas personalizadas {#deliver-personalized-offers}
+# Añadir ofertas personalizadas {#deliver-personalized-offers}
 
 Entrada [!DNL Journey Optimizer] Por medio de correos electrónicos, puede insertar decisiones que aprovechen el motor de administración de decisiones para elegir la mejor oferta que se ofrezca a sus clientes.
 

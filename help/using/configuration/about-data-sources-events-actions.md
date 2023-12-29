@@ -11,8 +11,8 @@ keywords: configuración, recorrido, tablero, fuentes de datos, eventos, accione
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 80%
+source-wordcount: '405'
+ht-degree: 65%
 
 ---
 
@@ -33,7 +33,7 @@ La configuración de la fuente de datos permite definir una conexión con un sis
 
 ## Eventos {#events}
 
-Los Eventos le permiten activar sus recorridos de forma unitaria para enviar mensajes, en tiempo real, a la persona que entra en el recorrido.
+Los eventos le permiten almacenar en déclencheur sus recorridos de forma unitaria para enviar mensajes, en tiempo real, a la persona que entra en el recorrido.
 
 En la configuración de eventos, se configuran los eventos esperados en los recorridos. Los datos entrantes de los eventos se normalizan siguiendo el modelo de datos de experiencia de Adobe (XDM). Los eventos provienen de las API de ingesta de transmisión para eventos autenticados y no autenticados (como eventos del SDK de Adobe Mobile). [Más información](../../using/event/about-events.md)
 
@@ -41,7 +41,7 @@ En la configuración de eventos, se configuran los eventos esperados en los reco
 
 Las funciones de los mensajes de Journey Optimizer están integradas: solo necesita añadir una actividad de acción del canal al recorrido. Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción personalizada. [Más información](../../using/action/action.md)
 
-## Navegación por los campos de Adobe Experience Platform {#friendly-names-display}
+## Examinar los campos de Adobe Experience Platform {#friendly-names-display}
 
 Al definir la [carga útil de evento](../event/about-creating.md#define-the-payload-fields), la [carga útil de grupo de campos](../datasource/configure-data-sources.md#define-field-groups) y seleccionar los campos en el [editor de expresiones](../building-journeys/expression/expressionadvanced.md), se muestra el nombre para mostrar además del nombre del campo. Esta información se recupera de la definición de esquema del modelo de datos de Experience.
 

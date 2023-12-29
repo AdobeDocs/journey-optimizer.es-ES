@@ -11,8 +11,8 @@ keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 33%
+source-wordcount: '960'
+ht-degree: 34%
 
 ---
 
@@ -120,7 +120,7 @@ En el **[!UICONTROL Acciones]** , cree el mensaje que desea enviar con la campa�
 
    Se podrá acceder a los resultados de seguimiento desde el informe de campaña una vez que se haya ejecutado la campaña. [Más información sobre los informes de campaña](../reports/campaign-global-report.md)
 
-## Definición de la audiencia {#audience}
+## Definición del público {#audience}
 
 Haga clic en **[!UICONTROL Seleccionar audiencia]** para mostrar la lista de audiencias de Adobe Experience Platform disponibles. [Más información sobre los públicos](../audience/about-audiences.md)
 

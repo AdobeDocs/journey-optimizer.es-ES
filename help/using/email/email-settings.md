@@ -11,7 +11,7 @@ keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
 workflow-type: tm+mt
-source-wordcount: '2340'
+source-wordcount: '2322'
 ht-degree: 12%
 
 ---
@@ -73,7 +73,7 @@ Una vez seleccionado un grupo de IP, la información de PTR se ve al pasar el ra
 >
 >Si no se ha configurado un registro PTR, póngase en contacto con el representante del Adobe.
 
-## Cancelación de suscripción a una lista {#list-unsubscribe}
+## Cancelación de suscripción a lista {#list-unsubscribe}
 
 Tras [selección de un subdominio](#subdomains-and-ip-pools) de la lista, la variable **[!UICONTROL Habilitar cancelación de suscripción a lista]** se muestra la opción.
 
@@ -284,7 +284,7 @@ Obtenga más información sobre reintentos en [esta sección](../configuration/r
 >title="Previsualizar los parámetros de seguimiento de URL"
 >abstract="Revise cómo se adjuntarán los parámetros de seguimiento a las direcciones URL presentes en el contenido del correo electrónico."
 
-Puede utilizar **[!UICONTROL Parámetros de seguimiento de URL]** para medir la eficacia de sus esfuerzos de marketing entre canales. Esta función es opcional.
+Puede utilizar **[!UICONTROL Parámetros de seguimiento de URL]** para medir la eficacia de sus esfuerzos de marketing entre canales. Esta funcionalidad es opcional.
 
 Los parámetros definidos en esta sección se adjuntan al final de las direcciones URL incluidas en el contenido del mensaje de correo electrónico. A continuación, puede capturar estos parámetros en herramientas de análisis web como Adobe Analytics o Google Analytics y crear varios informes de rendimiento.
 

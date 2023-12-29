@@ -11,7 +11,7 @@ keywords: subdominio, PTR, registros, DNS, dominio, correo
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: d2d9913e41a183ef4a2cd41622ed67b0a559444f
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '775'
 ht-degree: 10%
 
 ---
@@ -144,7 +144,7 @@ Durante el proceso de validación, el subdominio antiguo sigue asociado a la dir
 
 Una vez que el proceso de validación se realiza correctamente, el nuevo subdominio se asocia automáticamente a la dirección IP.
 
-### Fallido {#failes}
+### Error {#failes}
 
 Si falla el proceso de validación, se muestra el registro PTR más antiguo. El subdominio válido asociado anteriormente a la dirección IP permanece sin cambios.
 

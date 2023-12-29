@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '714'
 ht-degree: 11%
 
 ---
@@ -76,7 +76,7 @@ Para crear una notificación push, siga los pasos a continuación:
 
 1. Desde el **[!UICONTROL Déclencheur de acción]** , seleccione la opción **[!UICONTROL Frecuencia]** de la notificación push:
 
-   * Una vez
+   * Una
    * Diario
    * Semanal
    * Mensual
@@ -94,7 +94,7 @@ Para crear una notificación push, siga los pasos a continuación:
 **Temas relacionados**
 
 * [Configuración del canal push](push-gs.md)
-* [Adición de un mensaje en un recorrido](../building-journeys/journeys-message.md)
+* [Añadir un mensaje en un recorrido](../building-journeys/journeys-message.md)
 
 ## Modo de envío rápido {#rapid-delivery}
 

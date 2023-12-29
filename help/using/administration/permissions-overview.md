@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Información general sobre la administración de usuarios
+title: Resumen de administración de usuarios
 description: Obtenga información sobre cómo definir y administrar permisos
 feature: Access Management
 topic: Administration
@@ -11,14 +11,14 @@ keywords: permisos, derechos, restricciones, acceso, zona protegida
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 12%
+source-wordcount: '178'
+ht-degree: 5%
 
 ---
 
 # Introducción a la administración de usuarios {#permissions-overview}
 
-[!DNL Journey Optimizer] le permite definir y administrar los permisos asignados a distintos usuarios. Los permisos son un conjunto de derechos y restricciones que autorizan o deniegan el acceso a las funciones y capacidades internas del producto.
+[!DNL Journey Optimizer] permite definir y administrar los permisos asignados a distintos usuarios. Los permisos son un conjunto de derechos y restricciones que autorizan o deniegan el acceso a las funciones y capacidades internas del producto.
 
 ➡️ [Obtenga más información acerca del control de acceso en Adobe Journey Optimizer en este vídeo](#video)
 

@@ -11,8 +11,8 @@ keywords: expresión, editor, validación, errores, personalización
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 2%
+source-wordcount: '315'
+ht-degree: 1%
 
 ---
 
@@ -85,7 +85,7 @@ La validación se realiza durante la validación del contenido de personalizaci�
 <table> 
  <thead> 
   <tr> 
-   <th> Título de error<br /> </th> 
+   <th> Título del error<br /> </th> 
    <th> Validación/resolución <br /> </th> 
   </tr> 
  </thead> 

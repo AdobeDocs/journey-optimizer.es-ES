@@ -11,7 +11,7 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 73%
+ht-degree: 71%
 
 ---
 
@@ -63,7 +63,7 @@ Esta es la lista de funciones compatibles.
 | Fecha | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | Lista | [distinct](../functions/functiondistinct.md) |
 | Lista | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| Lista | [filter](../functions/functionfilter.md) |
+| Lista | [filtro](../functions/functionfilter.md) |
 | Lista | [getListItem](../functions/functiongetlistitem.md) |
 | Lista | [en](../functions/functionin.md) |
 | Lista | [intersect](../functions/functionintersect.md) |

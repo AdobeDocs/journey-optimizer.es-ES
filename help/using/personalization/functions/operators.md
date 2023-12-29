@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 11%
+source-wordcount: '308'
+ht-degree: 6%
 
 ---
 
@@ -116,7 +116,7 @@ La siguiente operación comprueba si el país de la dirección postal no es Fran
 {%= profile.homeAddress.country != "France" %}
 ```
 
-### Greater than{#greaterthan}
+### Mayor que{#greaterthan}
 
 El `>` (mayor que) se utiliza para comprobar si el primer valor es mayor que el segundo valor.
 
@@ -152,7 +152,7 @@ La siguiente operación define a las personas nacidas en o después de 1970.
 {%= profile.person.birthYear >= 1970 %}
 ```
 
-### Menos de{#lessthan}
+### Menor que{#lessthan}
 
 El `<` (menor que) se utiliza la función de comparación para comprobar si el primer valor es menor que el segundo valor.
 
@@ -170,7 +170,7 @@ La siguiente operación define a las personas nacidas antes del año 2000.
 {%= profile.person.birthYear < 2000 %}
 ```
 
-### Less than or equal to{#lessthanorequal}
+### Menor o igual que{#lessthanorequal}
 
 El `<=` (menor o igual que) se utiliza para comprobar si el primer valor es menor o igual que el segundo valor.
 

@@ -10,8 +10,8 @@ level: Beginner
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
-workflow-type: ht
-source-wordcount: '468'
+workflow-type: tm+mt
+source-wordcount: '467'
 ht-degree: 100%
 
 ---
@@ -27,9 +27,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campañas"
->abstract="Cree campañas para ofrecer contenido de una sola vez a una audiencia específica en varios canales. Antes de crear la campaña, asegúrese de tener una superficie de canal (es decir, un ajuste prestablecido de mensajes) y una audiencia de Adobe Experience Platform listos para usar."
+>abstract="Cree campañas para ofrecer contenido de una sola vez a un público específico en varios canales. Antes de crear la campaña, asegúrese de tener una superficie de canal (es decir, un ajuste prestablecido de mensajes) y un público de Adobe Experience Platform listos para usar."
 
-Utilice las campañas de Journey Optimizer para ofrecer contenido único a una audiencia específica mediante varios canales. Cuando se utilizan recorridos, las acciones se ejecutan en secuencia. Con las campañas, las acciones se realizan simultáneamente, ya sea de forma inmediata o en función de una programación especificada.
+Utilice las campañas de Journey Optimizer para ofrecer contenido único a un público específico mediante varios canales. Cuando se utilizan recorridos, las acciones se ejecutan en secuencia. Con las campañas, las acciones se realizan simultáneamente, ya sea de forma inmediata o en función de una programación especificada.
 
 Puede crear dos tipos de campañas:
 
@@ -72,7 +72,7 @@ Compruebe los siguientes requisitos previos antes de empezar a crear la primera 
 
 +++
 
-1. **Necesita una audiencia**. Las audiencias deben estar disponibles antes de crear la campaña. Más información sobre las audiencias [en esta página](../audience/about-audiences.md).
+1. **Necesita un público**. Los públicos deben estar disponibles antes de crear la campaña. Más información sobre los públicos [en esta página](../audience/about-audiences.md).
 1. **Necesita una superficie de canal**. Para poder seleccionar un canal, debe tener la superficie del canal correspondiente (es decir, preestablecida) creada y disponible. Más información sobre los segmentos de canal [en esta página](../configuration/channel-surfaces.md).
 
 ## Vídeo explicativo {#video}

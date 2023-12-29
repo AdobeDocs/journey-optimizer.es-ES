@@ -8,8 +8,8 @@ level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 11%
+source-wordcount: '954'
+ht-degree: 9%
 
 ---
 
@@ -56,7 +56,7 @@ Puede administrar fácilmente todos los componentes, ajustes y estilos que agreg
 
 ## Agregar modificaciones desde el panel dedicado {#add-modifications}
 
-Al editar una página con el diseñador web, puede agregar nuevos cambios al contenido directamente desde el **[!UICONTROL Modificaciones]** panel: sin necesidad de seleccionar un componente y editarlo desde la interfaz del diseñador web. Complete los siguientes pasos.
+Al editar una página con el diseñador web, puede agregar nuevos cambios al contenido directamente desde el **[!UICONTROL Modificaciones]** panel: sin necesidad de seleccionar un componente y editarlo desde la interfaz del diseñador web. Siga los pasos a continuación.
 
 1. Desde el **[!UICONTROL Modificaciones]** , haga clic en el **[!UICONTROL Más acciones]** botón.
 
@@ -116,7 +116,7 @@ Para agregar un **Página`<head>`** Realice una modificación, siga los pasos a 
 
    >[!CAUTION]
    >
-   >Solo puede añadir `<script>` y `<style>` elementos a la `<head>` sección. Si agrega las etiquetas `<div>` y otros elementos, los restantes elementos de `<head>` podrían saltar a la sección `<body>`. 
+   >Solo puede añadir `<script>` y `<style>` elementos a la `<head>` sección. Agregando `<div>` las etiquetas y otros elementos pueden causar lo siguiente `<head>` elementos para abrir el `<body>`.
 
 1. Haga clic en **[!UICONTROL Opciones de edición avanzadas]** botón. Se abre el Editor de expresiones.
 

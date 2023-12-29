@@ -9,7 +9,7 @@ exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
@@ -35,7 +35,7 @@ La siguiente operación devuelve el precio medio de todos los pedidos.
 {%=average(orders.order.price)%}
 ```
 
-## Count{#count}
+## Recuento{#count}
 
 El `count` función devuelve el número de elementos dentro de la matriz determinada.
 

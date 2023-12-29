@@ -11,7 +11,7 @@ exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ Para obtener una lista detallada de todas las métricas disponibles en Adobe Jou
 
 ## Personalizar tablero {#modify-dashboard}
 
-Cada tablero de informes se puede modificar cambiando el tamaño de los widgets o eliminándolos. Cambiar los widgets solo afecta al tablero del usuario actual. Otros usuarios verán sus propios tableros o los establecidos de forma predeterminada.
+Se puede modificar cada tablero de informes cambiando el tamaño o eliminando widgets. Cambiar los widgets solo afecta al tablero del usuario actual. Otros usuarios verán sus propios tableros o los establecidos de forma predeterminada.
 
 1. Desde el **[!UICONTROL Acciones]** , elija si desea informar sobre una acción en particular de sus recorridos.
 

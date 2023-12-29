@@ -11,8 +11,8 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 004eb41b084f32993ec437f589e4e3d2cf7500d3
-workflow-type: ht
-source-wordcount: '350'
+workflow-type: tm+mt
+source-wordcount: '356'
 ht-degree: 100%
 
 ---
@@ -107,7 +107,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 * La duración máxima que puede definir en cualquier tiempo de espera ahora es de 29 días, en lugar de 30. Esto se aplica a:
 
-   * la **Cantidad de tiempo** en el campo [actividad de espera](../building-journeys/wait-activity.md)
+   * el campo **Cantidad de tiempo** en la [actividad de espera](../building-journeys/wait-activity.md)
    * el **Período de espera de reentrada** en [propiedades del recorrido](../building-journeys/journey-gs.md#entrance)
    * el campo **Esperar a** en la definición de tiempo de espera de los eventos [general](../building-journeys/general-events.md#events-specific-time) y [reacción](../building-journeys/reaction-events.md).
 

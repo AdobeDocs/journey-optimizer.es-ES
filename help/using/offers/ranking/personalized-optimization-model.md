@@ -9,7 +9,7 @@ level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '801'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Existen tres tipos de funciones:
 | Tipos de funciones | Cómo añadir funciones a los modelos |
 |--------------|----------------------------|
 | Objetos de toma de decisiones (placementID, activityID, decisionScopeID) | Parte de los comentarios de gestión de decisiones Eventos de experiencia enviados a AEP |
-| Audiencias | Se pueden añadir de 0 a 50 audiencias como funciones al crear el modelo de inteligencia artificial aplicada a la clasificación |
+| Públicos | Se pueden añadir de 0 a 50 audiencias como funciones al crear el modelo de inteligencia artificial aplicada a la clasificación |
 | Datos de contexto | Parte de los comentarios y eventos de experiencia de toma de decisiones enviados a AEP. Datos de contexto disponibles para agregar al esquema: Detalles de comercio, detalles de canal, detalles de aplicación, detalles web, detalles de entorno, detalles de dispositivo, placeContext. |
 
 El modelo tiene dos fases:

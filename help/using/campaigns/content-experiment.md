@@ -11,8 +11,8 @@ keywords: contenido, experimento, múltiple, audiencia, tratamiento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 11%
+source-wordcount: '843'
+ht-degree: 12%
 
 ---
 
@@ -68,7 +68,7 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
    * **[!UICONTROL Nombre]**
    * **[!UICONTROL Descripción]**
 
-1. Defina la audiencia a la que se dirige. Para ello, haga clic en el **[!UICONTROL Seleccionar audiencia]** para mostrar la lista de audiencias de Adobe Experience Platform disponibles. [Más información sobre las audiencias](../audience/about-audiences.md)
+1. Defina la audiencia a la que se dirige. Para ello, haga clic en el **[!UICONTROL Seleccionar audiencia]** para mostrar la lista de audiencias de Adobe Experience Platform disponibles. [Más información sobre los públicos](../audience/about-audiences.md)
 
    En el **[!UICONTROL Área de nombres de identidad]** , elija el área de nombres que desea utilizar para identificar a los individuos de la audiencia seleccionada. [Más información](get-started-experiment.md#content-experiment-work)
 

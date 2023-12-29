@@ -9,8 +9,8 @@ keywords: toDateTimeOnly, función, expresión, recorrido
 exl-id: db54c119-5080-403a-b254-43645be6b4a8
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 15%
+source-wordcount: '63'
+ht-degree: 14%
 
 ---
 

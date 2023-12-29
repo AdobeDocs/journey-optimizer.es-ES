@@ -11,8 +11,8 @@ badge: label="Beta" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 9%
+source-wordcount: '357'
+ht-degree: 8%
 
 ---
 
@@ -63,7 +63,7 @@ Revise y compruebe la implementación para validarla. Puede enviar una notificac
 ![](assets/mobile-wf-valid.png)
 
 
-## Consulte {#review-mobile-wf}
+## Revisión {#review-mobile-wf}
 
 La configuración automatizada ha finalizado. Ahora puede visitar la propiedad móvil de la etiqueta, configurar las reglas o el elemento de datos y empezar a enviar notificaciones push con Adobe Journey Optimizer.
 

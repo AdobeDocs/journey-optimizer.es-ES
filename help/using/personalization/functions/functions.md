@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
 workflow-type: tm+mt
-source-wordcount: '1828'
-ht-degree: 4%
+source-wordcount: '1834'
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,7 @@ Haga clic en `...` para ver la descripción de la función y añadirla a sus fav
         <td><a href="aggregation.md#average">Promedio</a></td><td>Esta función devuelve la media aritmética de todos los valores seleccionados dentro de la matriz</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count">Count</a></td><td>Esta función devuelve el número de elementos dentro de la matriz determinada</td>
+        <td><a href="aggregation.md#count">Recuento</a></td><td>Esta función devuelve el número de elementos dentro de la matriz determinada</td>
     </tr>
     <tr>
         <td><a href="aggregation.md#count-only-null">Contar Solo Nulo</a></td><td>Esta función cuenta el número de valores nulos de la lista.</td>
@@ -61,7 +61,7 @@ Haga clic en `...` para ver la descripción de la función y añadirla a sus fav
         <td><a href="arrays-list.md#first-n">Primer n en matriz</a></td><td>Esta función devuelve los primeros elementos "N" de una matriz, cuando se ordenan en orden ascendente en función de la expresión numérica dada</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">En</a></td><td>Esta función se utiliza para determinar si un elemento es miembro de una matriz o lista</td>
+        <td><a href="arrays-list.md#in">Entrada</a></td><td>Esta función se utiliza para determinar si un elemento es miembro de una matriz o lista</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#includes">Incluye</a></td><td>Esta función determina si una matriz o lista contiene un elemento determinado</td>
@@ -135,7 +135,7 @@ Haga clic en `...` para ver la descripción de la función y añadirla a sus fav
 
 <table>
     <tr>
-        <td><a href="maps.md#get">Obtenga</a></td><td>Esta función se utiliza para recuperar el valor de un mapa para una clave determinada</td>
+        <td><a href="maps.md#get">Obtener</a></td><td>Esta función se utiliza para recuperar el valor de un mapa para una clave determinada</td>
     </tr>
     <tr>
         <td><a href="maps.md#keys">Claves</a></td><td>Esta función se utiliza para recuperar todas las claves de un mapa determinado</td>
@@ -210,7 +210,7 @@ Haga clic en `...` para ver la descripción de la función y añadirla a sus fav
         <td><a href="string.md#doesNotEndWith">No termina por</a></td><td>Esta función se utiliza para determinar si una cadena no termina con una subcadena especificada</td>
     </tr>
     <tr>
-        <td><a href="string.md#doesNotStartWith">Does not start with</a></td><td>Esta función se utiliza para determinar si una cadena no comienza con una subcadena especificada</td>
+        <td><a href="string.md#doesNotStartWith">No empieza con</a></td><td>Esta función se utiliza para determinar si una cadena no comienza con una subcadena especificada</td>
     </tr>
     <tr>
         <td><a href="string.md#encode64">Codificar 64</a></td><td>Esta función se utiliza para codificar o descodificar una cadena</td>
@@ -274,7 +274,7 @@ Haga clic en `...` para ver la descripción de la función y añadirla a sus fav
         <td><a href="string.md#md5">MD5</a></td><td>Esta función devuelve el hash md5 de la cadena de entrada.</td>
     </tr>
     <tr>
-        <td><a href="string.md#notEqualTo">Not equal to</a></td><td>Esta función se utiliza para determinar si una cadena no es igual a la cadena especificada</td>
+        <td><a href="string.md#notEqualTo">No igual a</a></td><td>Esta función se utiliza para determinar si una cadena no es igual a la cadena especificada</td>
     </tr>
     <tr>
         <td><a href="string.md#not-equal-with-ignore-case">No Igual Con Ignorar Mayúsculas y Minúsculas</a></td><td>Esta función compara dos cadenas ignorando mayúsculas y minúsculas.</td>
@@ -292,7 +292,7 @@ Haga clic en `...` para ver la descripción de la función y añadirla a sus fav
         <td><a href="string.md#rightTrim">Guarnecido derecho</a></td><td>Esta función elimina los espacios en blanco del final de una cadena. </td>
     </tr>
     <tr>
-        <td><a href="string.md#split">Split</a></td><td>Esta función se utiliza para dividir una cadena por un carácter determinado</td>
+        <td><a href="string.md#split">División</a></td><td>Esta función se utiliza para dividir una cadena por un carácter determinado</td>
     </tr>
     <tr>
         <td><a href="string.md#startsWith">Comienza con</a></td><td>Esta función se utiliza para determinar si una cadena empieza con una subcadena especificada</td>
@@ -410,7 +410,7 @@ Las funciones de comparación se utilizan para comparar entre diferentes expresi
         <td><a href="operators.md#equals">Es igual a</a></td><td>Esta operación comprueba si los valores son iguales</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthan">Greater than</a></td><td>Este operador comprueba si el primer valor es mayor que el segundo</td>
+        <td><a href="operators.md#greaterthan">Mayor que</a></td><td>Este operador comprueba si el primer valor es mayor que el segundo</td>
     </tr>
     <tr>
         <td><a href="operators.md#greaterthanorequal">Mayor o igual que</a></td><td>Este operador comprueba si el primer valor es mayor o igual que el segundo</td>

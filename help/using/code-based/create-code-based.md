@@ -11,8 +11,8 @@ badge: label="Beta"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 12%
+source-wordcount: '1026'
+ht-degree: 11%
 
 ---
 
@@ -25,7 +25,7 @@ Lo que encontrará en esta guía de documentación:
 * [Introducción al canal basado en código](get-started-code-based.md)
 * [Requisitos previos basados en código](code-based-prerequisites.md)
 * [Ejemplos de implementación basada en código](code-based-implementation-samples.md)
-* **[Creación de experiencias basadas en código](create-code-based.md)**
+* **[Crear experiencias basadas en código](create-code-based.md)**
 
 >[!ENDSHADEBOX]
 
@@ -41,7 +41,7 @@ Para empezar a crear una experiencia basada en código a través de una campaña
 >
 >Actualmente en [!DNL Journey Optimizer] solo puede crear experiencias basadas en código utilizando **campañas**.
 
-1. Creación de una campaña. [Más información](../campaigns/create-campaign.md)
+1. Cree una campaña. [Más información](../campaigns/create-campaign.md)
 
 1. Seleccione el **[!UICONTROL Experiencia basada en código (Beta)]** acción.
 
@@ -131,7 +131,7 @@ Para mostrar una previsualización de la experiencia basada en código modificad
 
 ## Activar la campaña basada en código {#activate-code-based-campaign}
 
-Una vez que haya definido la campaña basada en código y haya editado el contenido según sus preferencias utilizando [editor basado en código](#edit-code), puede revisarlo y activarlo. Complete los siguientes pasos.
+Una vez que haya definido la campaña basada en código y haya editado el contenido según sus preferencias utilizando [editor basado en código](#edit-code), puede revisarlo y activarlo. Siga los pasos a continuación.
 
 >[!NOTE]
 >
@@ -163,7 +163,7 @@ Obtenga más información sobre la activación de campañas en [esta sección](.
 
 ## Detener una campaña basada en código {#stop-code-based-campaign}
 
-Cuando una campaña basada en código está activa, puede detenerla para evitar que la audiencia vea las modificaciones. Complete los siguientes pasos.
+Cuando una campaña basada en código está activa, puede detenerla para evitar que la audiencia vea las modificaciones. Siga los pasos a continuación.
 
 1. Seleccione una campaña en directo en la lista.
 

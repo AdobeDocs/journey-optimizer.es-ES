@@ -11,8 +11,8 @@ keywords: aterrizaje, página de aterrizaje, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 16%
+source-wordcount: '942'
+ht-degree: 12%
 
 ---
 
@@ -48,7 +48,7 @@ Por ejemplo, supongamos que organiza un evento el mes que viene y que desea inic
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [Publicar la página de aterrizaje.](create-lp.md#publish)
+1. [Publish](create-lp.md#publish) la página de aterrizaje.
 
 1. En un [recorrido](../building-journeys/journey.md), añada un **Correo electrónico** actividad para dirigir el tráfico a la página de aterrizaje de registro.
 
@@ -129,7 +129,7 @@ Para permitir que los destinatarios de un correo electrónico cancelen su suscri
 
 1. [Crear un mensaje de correo electrónico](../email/get-started-email-design.md) en un recorrido.
 
-1. Seleccione texto en el contenido e [inserte un vínculo](../email/message-tracking.md#insert-links) utilizando la barra de herramientas contextual. También puede utilizar un vínculo en un botón.
+1. Seleccione texto en el contenido y [insertar un vínculo](../email/message-tracking.md#insert-links) uso de la barra de herramientas contextual. También puede utilizar un vínculo en un botón.
 
 1. Seleccionar **[!UICONTROL Página de aterrizaje]** desde el **[!UICONTROL Tipo de vínculo]** y seleccione la opción [página de aterrizaje](create-lp.md#configure-primary-page) que ha creado para la exclusión.
 
@@ -151,7 +151,7 @@ Para permitir que los destinatarios de un correo electrónico cancelen su suscri
 
    * Los datos del perfil se actualizan y no recibirán comunicaciones de su marca a menos que se vuelva a suscribir.
 
-Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y acceda al perfil seleccionando un área de nombres de identidad y un valor de identidad correspondiente. Obtenga más información en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
+Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y acceda al perfil seleccionando un área de nombres de identidad y un valor de identidad correspondiente. Obtenga más información en la [Documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
 
 ![](assets/lp_opt-out-profile-choice.png)
 

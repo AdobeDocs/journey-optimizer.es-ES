@@ -11,8 +11,8 @@ keywords: contenido, experimento, estadística, cálculo
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
 source-git-commit: 1490ac2efd39c6bf9b6ca97e682750463e9f054d
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 2%
+source-wordcount: '1067'
+ht-degree: 0%
 
 ---
 
@@ -52,7 +52,7 @@ La mayoría de las técnicas de inferencia estadística requieren que arregle el
 
 ## Metodología Estadística Del Adobe: Secuencias De Confianza Válidas En Cualquier Momento
 
-A **Secuencia de confianza** es un análogo secuencial de un **Intervalo de confianza**, por ejemplo, si repite los experimentos cien veces y calcula una estimación de la métrica media y su secuencia de confianza del 95 % asociada para cada nuevo usuario que entra en el experimento. Una secuencia de confianza del 95 % incluirá el valor verdadero de la métrica en 95 de los 100 experimentos que ejecutó. Un intervalo de confianza del 95 % solo se podía calcular una vez por experimento para ofrecer la misma garantía de cobertura del 95 %; no con cada nuevo usuario. Por lo tanto, las secuencias de confianza le permiten monitorizar continuamente los experimentos, sin aumentar las tasas de error de los falsos positivos.
+A **Secuencia de confianza** es un análogo secuencial de un **Intervalo de confianza**, por ejemplo, si repite los experimentos cien veces y calcula una estimación de la métrica media y su secuencia de confianza del 95 % asociada para cada nuevo usuario que entra en el experimento. Una secuencia de confianza del 95 % incluirá el valor verdadero de la métrica en 95 de los 100 experimentos que ejecutó. Un intervalo de confianza del 95 % solo se podía calcular una vez por experimento para ofrecer la misma garantía de cobertura del 95 %; no con cada nuevo usuario. Por lo tanto, las secuencias de confianza le permiten monitorizar continuamente los experimentos, sin aumentar las tasas de error de los falsos positivos.
 
 La diferencia entre las secuencias de confianza y los intervalos de confianza para un único experimento se muestra en la siguiente animación:
 

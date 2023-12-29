@@ -6,14 +6,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b6872806b3961bb2afbfc03999d984384492cc6d
+exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 2%
+source-wordcount: '317'
+ht-degree: 3%
 
 ---
 
-# Usar informe de spam {#spam-report}
+# Uso del informe de spam {#spam-report}
 
 >[!AVAILABILITY]
 >
@@ -79,6 +80,3 @@ They should also get suggestions on how to improve the score better to be confid
 
     ![](assets/spam-report-alert.png)
 -->
-
-
-

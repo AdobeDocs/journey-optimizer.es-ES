@@ -10,8 +10,8 @@ keywords: reentrada, recorrido, perfil, recurrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 5%
+source-wordcount: '604'
+ht-degree: 4%
 
 ---
 
@@ -56,6 +56,6 @@ En un recorrido de audiencia de lectura:
 
 >[!NOTE]
 >
->Hay dos opciones disponibles para recorridos de audiencia de lectura recurrentes. El **Forzar reentrada en repetición** hace que todos los perfiles que aún están presentes en la recorrido se cierren automáticamente en la siguiente ejecución. El **Lectura incremental** solo se dirige a las personas que ingresaron a la audiencia desde la última ejecución del recorrido. Consulte esta [sección](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+>Hay dos opciones disponibles para recorridos de audiencia de lectura recurrentes. El **Forzar reentrada en repetición** hace que todos los perfiles que aún están presentes en la recorrido se cierren automáticamente en la siguiente ejecución. El **Lectura incremental** solo se dirige a las personas que ingresaron a la audiencia desde la última ejecución del recorrido. Consulte esta sección [sección](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 En recorridos de eventos empresariales que comienzan por una **Leer audiencia** actividad: sabiendo que este recorrido se basa en la recepción de un evento empresarial, si el perfil está cualificado en la audiencia esperada, introducirán el recorrido para cada evento empresarial recibido, lo que significa que este perfil puede ser varias veces en el mismo recorrido, al mismo tiempo, pero en el contexto de diferentes eventos empresariales.

@@ -12,7 +12,7 @@ exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 36%
+ht-degree: 17%
 
 ---
 
@@ -22,9 +22,9 @@ En este ejemplo, se ajusta el relleno y la alineación vertical dentro de un com
 
 1. Seleccione el componente de estructura directamente en el correo electrónico o mediante la variable **[!UICONTROL Árbol de navegación]** disponible en el menú de la izquierda.
 
-1. En la barra de herramientas , haga clic en **[!UICONTROL Seleccionar una columna]** y elija la que desea editar. También puede seleccionarlo en el árbol de estructura.
+1. En la barra de herramientas, haga clic en **[!UICONTROL Seleccionar una columna]** y elija el que desee editar. También puede seleccionarlo en el árbol de estructura.
 
-   Los parámetros editables para esa columna se muestran en la pestaña **[!UICONTROL Estilos.]**
+   Los parámetros editables para esa columna se muestran en la variable **[!UICONTROL Estilos]** pestaña.
 
    ![](assets/alignment_2.png)
 

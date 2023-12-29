@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 9245d6a93aaaa85bee56e2291a53ca7495b6ba9e
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 4%
+source-wordcount: '1349'
+ht-degree: 5%
 
 ---
 
@@ -67,7 +67,7 @@ El **[!UICONTROL Acción ejecutada en las últimas 24 horas]** y **[!UICONTROL A
 * **[!UICONTROL Error en acciones]**: Número total de errores que se produjeron para las acciones.
 +++
 
-## Pestaña Correo electrónico {#email-live}
+## Pestaña de correo electrónico {#email-live}
 
 De tu recorrido **[!UICONTROL Informe en vivo]**, el **[!UICONTROL Correo electrónico]** Esta pestaña detalla la información principal relativa a los envíos de correo electrónico realizados en el recorrido.
 
@@ -126,7 +126,7 @@ El **[!UICONTROL Estadísticas de ofertas]** y **[!UICONTROL Estadísticas de of
 * **[!UICONTROL Clics de oferta]**: Número de veces que se hizo clic en una oferta en una entrega.
 +++
 
-## Pestaña de notificaciones push {#push-live}
+## Pestaña de notificación push {#push-live}
 
 De tu recorrido **[!UICONTROL Informe en vivo]**, el **[!UICONTROL Notificación push]** La pestaña detalla la información principal relativa a las entregas push enviadas en el recorrido.
 

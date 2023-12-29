@@ -11,8 +11,8 @@ keywords: lista de semillas, lista de semillas, semillas, configuración
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 22%
+source-wordcount: '946'
+ht-degree: 21%
 
 ---
 

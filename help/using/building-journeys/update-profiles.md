@@ -11,8 +11,8 @@ keywords: perfil, actualizar, recorrido, actividad
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 10%
+source-wordcount: '476'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 10%
 
 Utilice el **[!UICONTROL Actualizar perfil]** actividad de acción para actualizar un perfil de Adobe Experience Platform existente con información proveniente de un evento, una fuente de datos o con un valor específico.
 
-## Recommendations
+## Recomendaciones
 
 * El **Actualizar perfil** la acción solo se puede utilizar en recorridos que comiencen por un evento que tenga un área de nombres.
 * La acción solo actualiza los campos existentes, no crea nuevos campos de perfil.

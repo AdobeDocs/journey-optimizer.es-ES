@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
-source-wordcount: '1857'
-ht-degree: 7%
+source-wordcount: '1846'
+ht-degree: 6%
 
 ---
 
@@ -150,7 +150,7 @@ La siguiente consulta determina, con distinción entre mayúsculas y minúsculas
 doesNotEndWith(person.emailAddress,".com")
 ```
 
-## Does not start with{#doesNotStartWith}
+## No empieza con{#doesNotStartWith}
 
 El `doesNotStartWith` se utiliza para determinar si una cadena no comienza con una subcadena especificada.
 
@@ -552,7 +552,7 @@ El `md5` se utiliza para calcular y devolver el hash md5 de una cadena.
 
 Devuelve &quot;5eb63bbbe01eeed093cb22bb8f5acdc3&quot;
 
-## Not equal to{#notEqualTo}
+## No igual a{#notEqualTo}
 
 El `notEqualTo` se utiliza para determinar si una cadena no es igual a la cadena especificada.
 
@@ -673,7 +673,7 @@ El `rightTrim` se utiliza para eliminar los espacios en blanco del final de una 
 {%= rightTrim(string) %}
 ```
 
-## Split {#split}
+## División {#split}
 
 El `split` se utiliza para dividir una cadena por un carácter determinado.
 

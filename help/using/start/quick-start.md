@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Inicio rápido {#cjm-quick-start}
 
-Con [!DNL Adobe Journey Optimizer], puede importar contenido existente y diseñar contenido nuevo, personalizar mensajes con datos de perfil del cliente, crear eventos para activar mensajes, definir audiencias, crear y añadir ofertas, y acceder a un conjunto completo de herramientas de creación de informes y monitorización para medir el impacto de sus mensajes y recorridos del cliente.
+Con [!DNL Adobe Journey Optimizer], puede importar contenido existente y diseñar contenido nuevo, personalizar mensajes con datos de perfil del cliente, crear eventos para activar mensajes, definir públicos, crear y añadir ofertas, y acceder a un conjunto completo de herramientas de creación de informes y monitorización para medir el impacto de sus mensajes y recorridos del cliente.
 
 En función de su organización, puede definir varios tipos de usuarios y concederles acceso a determinadas capacidades dependiendo de sus permisos.
 
@@ -31,7 +31,7 @@ Para conocer y descubrir el poder de Adobe Journey Optimizer con instrucciones p
 
 * Soy **ingeniero de datos**
 
-  Importar perfiles, crear audiencias y esquemas y conjuntos de datos. [Más información](path/data-engineer.md)
+  Importar perfiles, crear públicos y esquemas y conjuntos de datos. [Más información](path/data-engineer.md)
 
 * Soy **experto en marketing**
 

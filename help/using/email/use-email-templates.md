@@ -11,8 +11,8 @@ keywords: correo electrónico, plantillas, diseño
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 29%
+source-wordcount: '269'
+ht-degree: 21%
 
 ---
 
@@ -42,7 +42,7 @@ Para empezar a crear contenido con una de las plantillas de ejemplo o guardadas,
 
 1. [Acceso al Diseñador de correo electrónico](get-started-email-design.md) desde el correo electrónico **[!UICONTROL Editar contenido]** pantalla.
 
-1. En la pantalla **[!UICONTROL Cree su correo electrónico]**, la pestaña **[!UICONTROL Plantillas de ejemplo]** está seleccionada de forma predeterminada.
+1. En el **[!UICONTROL Cree su correo electrónico]** pantalla, la **[!UICONTROL Plantillas de muestra]** está seleccionada de forma predeterminada.
 
 1. Para utilizar una plantilla personalizada, vaya a **[!UICONTROL Plantillas guardadas]** pestaña.
 

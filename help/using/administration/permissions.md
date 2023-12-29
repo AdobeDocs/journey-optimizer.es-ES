@@ -11,8 +11,8 @@ level: Intermediate
 keywords: producto, perfiles, zona protegida
 source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 8%
+source-wordcount: '740'
+ht-degree: 4%
 
 ---
 
@@ -91,7 +91,7 @@ Si es necesario, también puede crear una nueva función con permisos específic
 
 [!DNL Journey Optimizer] le permite crear su propio **[!UICONTROL Funciones]** y asigne un conjunto de permisos y entornos limitados a los usuarios. Con **[!UICONTROL Funciones]**, puede autorizar o denegar el acceso a determinadas funcionalidades u objetos de la interfaz.
 
-Para obtener más información sobre cómo crear y administrar zonas protegidas, consulte la documentación de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es){target="_blank"}.
+Para obtener más información sobre cómo crear y administrar entornos limitados, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es){target="_blank"}.
 
 En este ejemplo, crearemos una función denominada **Recorridos de solo lectura** donde concederemos derechos de solo lectura a la función Recorrido. Los usuarios solo podrán acceder y ver los recorridos, y no podrán acceder a otras funciones, como **[!DNL  Decision management]** in [!DNL Journey Optimizer].
 
@@ -125,4 +125,4 @@ Para crear su **Recorridos de solo lectura** **[!UICONTROL Rol]**:
 
 Su **[!UICONTROL Rol]** ahora se crea y configura. Ahora debe asignarlo a los usuarios.
 
-Para obtener más información sobre la creación y administración de funciones, consulte la [Documentación del Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html).
+Para obtener más información sobre la creación y administración de funciones, consulte la [Documentación del Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=es).

@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 6%
 
 ---
@@ -80,7 +80,7 @@ Una vez creado un modelo de IA, puede asignarlo a una ubicación en una decisió
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. Haga clic en **[!UICONTROL Seleccionar]**. El modelo de IA ahora está asociado a la ubicación.
+1. Clic **[!UICONTROL Seleccionar]**. El modelo de IA ahora está asociado a la ubicación.
 
 Si se admiten varias ofertas, el sistema de modelos entrenado determinará qué oferta debe presentarse primero para una ubicación determinada.
 

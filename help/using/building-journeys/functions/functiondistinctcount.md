@@ -9,8 +9,8 @@ keywords: distinctCount, función, expresión, recorrido
 exl-id: 8796ba91-5c64-43c2-a444-27ac8b719c86
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 30%
+source-wordcount: '54'
+ht-degree: 29%
 
 ---
 

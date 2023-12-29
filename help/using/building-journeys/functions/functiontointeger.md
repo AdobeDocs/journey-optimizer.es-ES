@@ -9,8 +9,8 @@ keywords: toInteger, función, expresión, recorrido
 exl-id: 901a91d1-13dd-4283-b87f-223196eb072f
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 14%
+source-wordcount: '79'
+ht-degree: 13%
 
 ---
 

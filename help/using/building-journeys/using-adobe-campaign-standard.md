@@ -11,8 +11,8 @@ keywords: recorrido, integración, estándar, campaña, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 7%
+source-wordcount: '943'
+ht-degree: 5%
 
 ---
 

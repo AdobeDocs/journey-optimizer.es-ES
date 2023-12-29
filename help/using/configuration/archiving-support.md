@@ -11,8 +11,8 @@ keywords: archivo, mensajes, HIPAA, CCO, correos electrónicos
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 8%
+source-wordcount: '1131'
+ht-degree: 7%
 
 ---
 
@@ -113,7 +113,7 @@ Para realizar esto, siga los pasos a continuación.
 
 >[!NOTE]
 >
->Obtenga más información sobre la administración de la privacidad y las regulaciones aplicables en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es){target="_blank"}.
+>Obtenga más información sobre la administración de la privacidad y las regulaciones aplicables en la [Documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es){target="_blank"}.
 
 ### Datos de informes de CCO {#bcc-reporting}
 

@@ -9,8 +9,8 @@ keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '1987'
-ht-degree: 14%
+source-wordcount: '1939'
+ht-degree: 13%
 
 ---
 
@@ -77,7 +77,7 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
 
       +++Consulte Características disponibles.
 
-      | Paquete | Rasgos  | Definición |
+      | Paquete | Características | Definición |
       |---|---|---|
       | Información del dispositivo | Nombre del operador | Se activa cuando se cumple uno de los nombres de operador de la lista. |
       | Información del dispositivo | Nombre del dispositivo | Se activa cuando se cumple uno de los nombres de dispositivo. |
@@ -85,7 +85,7 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
       | Información del dispositivo | Versión del SO | Se activa cuando se cumple una de las versiones del sistema operativo especificadas. |
       | Información del dispositivo | Versión anterior del sistema operativo | Se activa cuando se cumple una de las versiones anteriores del sistema operativo especificadas. |
       | Información del dispositivo | Modo de ejecución | Se activa si el modo de ejecución es aplicación o extensión. |
-      | Ciclo de aplicación | ID de aplicación | Se activa cuando se cumple el ID de aplicación especificado. |
+      | Ciclo de aplicación | ID de la aplicación | Se activa cuando se cumple el ID de aplicación especificado. |
       | Ciclo de aplicación | Día de la semana | Se activa cuando se cumple el día de la semana especificado. |
       | Ciclo de aplicación | Día desde el primer uso | Se activa cuando se alcanza el número de días especificado desde que se usó por primera vez. |
       | Ciclo de aplicación | Día desde el último uso | Se activa cuando se cumple el número de días especificado desde el último uso. |
@@ -175,7 +175,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
       +++Consulte Características disponibles.
 
-      | Paquete | Rasgos  | Definición |
+      | Paquete | Características | Definición |
       |---|---|---|
       | Información del dispositivo | Nombre del operador | Se activa cuando se cumple uno de los nombres de operador de la lista. |
       | Información del dispositivo | Nombre del dispositivo | Se activa cuando se cumple uno de los nombres de dispositivo. |
@@ -183,7 +183,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
       | Información del dispositivo | Versión del SO | Se activa cuando se cumple una de las versiones del sistema operativo especificadas. |
       | Información del dispositivo | Versión anterior del sistema operativo | Se activa cuando se cumple una de las versiones anteriores del sistema operativo especificadas. |
       | Información del dispositivo | Modo de ejecución | Se activa si el modo de ejecución es aplicación o extensión. |
-      | Ciclo de aplicación | ID de aplicación | Se activa cuando se cumple el ID de aplicación especificado. |
+      | Ciclo de aplicación | ID de la aplicación | Se activa cuando se cumple el ID de aplicación especificado. |
       | Ciclo de aplicación | Día de la semana | Se activa cuando se cumple el día de la semana especificado. |
       | Ciclo de aplicación | Día desde el primer uso | Se activa cuando se alcanza el número de días especificado desde que se usó por primera vez. |
       | Ciclo de aplicación | Día desde el último uso | Se activa cuando se cumple el número de días especificado desde el último uso. |

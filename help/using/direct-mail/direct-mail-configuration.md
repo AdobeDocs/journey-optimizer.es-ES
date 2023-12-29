@@ -9,8 +9,8 @@ keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 32%
+source-wordcount: '918'
+ht-degree: 31%
 
 ---
 
@@ -92,7 +92,7 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 
 1. Para cifrar el archivo, copie y pegue la clave de cifrado en **[!UICONTROL Clave de cifrado PGP/GPG]** field.
 
-1. Seleccione **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se crea con la variable **[!UICONTROL Activo]** estado. Ahora está listo para utilizarse en un [superficie de correo directo](#direct-mail-surface).
+1. Seleccionar **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se crea con la variable **[!UICONTROL Activo]** estado. Ahora está listo para utilizarse en un [superficie de correo directo](#direct-mail-surface).
 
    >[!NOTE]
    >
@@ -121,7 +121,7 @@ Para poder enviar correo postal con [!DNL Journey Optimizer], debe crear una sup
 
 Una superficie de correo postal también debe incluir la configuración de enrutamiento de archivos que define el servidor donde se exportará el archivo de correo postal.
 
-1. Creación de una superficie de canal. [Más información](../configuration/channel-surfaces.md)
+1. Cree una superficie de canal. [Más información](../configuration/channel-surfaces.md)
 
 1. Seleccione el **[!UICONTROL Correo directo]** canal.
 

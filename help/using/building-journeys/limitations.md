@@ -11,8 +11,8 @@ keywords: recorridos, limitación
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 71%
+source-wordcount: '512'
+ht-degree: 47%
 
 ---
 
@@ -33,7 +33,7 @@ Estas son las limitaciones relacionadas con el uso de recorridos.
 * Un recorrido que comienza con un **Calificación de audiencias** la actividad en v1 siempre debe comenzar con una **Calificación de audiencias** en versiones posteriores.
 * La audiencia y el área de nombres elegidos en **Calificación de audiencias** (primer nodo) no se puede cambiar en las nuevas versiones.
 * La regla de reentrada debe ser la misma en todas las versiones del recorrido.
-* El recorrido que comience con **Leer audiencia** no puede comenzar con otro evento en las versiones siguientes.
+* El recorrido que comience con **Leer público** no puede comenzar con otro evento en las versiones siguientes.
 
 ## Limitaciones de acciones personalizadas {#custom-actions-limitations}
 
@@ -43,9 +43,9 @@ Estas son las limitaciones relacionadas con el uso de recorridos.
 * No se permiten direcciones IP. 
 * Las direcciones de Adobe internas (.adobe.) no se permiten.
 
-## Eventos limitaciones {#events-limitations}
+## Limitaciones de eventos {#events-limitations}
 
-* En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido del cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este ID de orquestación debe añadirse a la carga útil de streaming que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
+* En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido de cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este ID de orquestación debe añadirse a la carga útil de streaming que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
 
 ## Limitaciones de fuentes de datos {#data-sources-limitations}
 
@@ -61,8 +61,8 @@ Puede elegir entre una de estas dos soluciones:
 
 * Agregue una actividad de espera después del primer evento para que Adobe Experience Platform tenga el tiempo necesario para realizar la ingesta en el servicio de perfil.
 
-* Configure un recorrido que no utilice inmediatamente el perfil. Por ejemplo, si el recorrido está diseñado para confirmar la creación de una cuenta, el evento de experiencia podría contener la información necesaria para enviar el primer mensaje de confirmación (nombre, apellidos, dirección de correo electrónico, etc).
+* Configure un recorrido que no utilice inmediatamente el perfil. Por ejemplo, si el recorrido está diseñado para confirmar la creación de una cuenta, el evento de experiencia podría contener la información necesaria para enviar el primer mensaje de confirmación (nombre, apellidos, dirección de correo electrónico, etc.).
 
 ## Leer las limitaciones de audiencia {#read-audiences-limitations}
 
-* Las audiencias transmitidas siempre están actualizadas, pero las audiencias por lotes no se calcularán en el momento de la recuperación. Solo se evalúan cada día a la hora de evaluar el lote.
+* Los públicos transmitidos siempre están actualizados, pero los públicos por lotes no se calcularán en el momento de la recuperación. Solo se evalúan cada día a la hora de evaluar el lote.

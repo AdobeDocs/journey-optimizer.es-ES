@@ -13,8 +13,8 @@ badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 3%
+source-wordcount: '734'
+ht-degree: 2%
 
 ---
 

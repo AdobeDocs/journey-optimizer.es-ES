@@ -11,8 +11,8 @@ keywords: aterrizaje, página de aterrizaje, creación, página, formulario, com
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 12%
+source-wordcount: '1308'
+ht-degree: 10%
 
 ---
 
@@ -172,7 +172,7 @@ Por ejemplo, si vincula una casilla de verificación <!-- or the submission of t
 
 Supongamos que vincula dos casillas de verificación en la página principal a dos listas de suscripción diferentes. Si un usuario se suscribe a uno de estos, desea mostrar un mensaje específico al enviar el formulario, en función de la casilla de verificación que haya seleccionado.
 
-Para ello, siga los pasos que aparecen a continuación:
+Para ello, siga los pasos a continuación:
 
 1. En la página principal, vincule cada casilla de verificación del **[!UICONTROL Form]** a la lista de suscripción correspondiente. [Más información](#use-form-component).
 

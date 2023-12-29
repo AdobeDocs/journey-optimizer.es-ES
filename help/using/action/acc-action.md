@@ -11,7 +11,7 @@ keywords: campaign, acc, integration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '497'
 ht-degree: 22%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 22%
 >title="Acciones de Adobe Campaign v7/v8"
 >abstract="Esta integración está disponible para Adobe Campaign Classic v7 y v8. Permite enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de Adobe Campaign. Adobe configura la conexión entre las instancias de Journey Optimizer y Campaign en el momento del aprovisionamiento."
 
-Esta integración está disponible para Adobe Campaign Classic v7 a partir de la versión 7.1 y para Adobe Campaign v8. Permite enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de Adobe Campaign.
+Esta integración está disponible para Adobe Campaign Classic v7 a partir de la versión 7.1 y para Adobe Campaign v8. Permite enviar correos electrónicos, notificaciones push y SMS mediante las funcionalidades de mensajería transaccional de Adobe Campaign.
 
 Adobe configura la conexión entre las instancias de Journey Optimizer y Campaign en el momento del aprovisionamiento.
 

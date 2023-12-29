@@ -4,7 +4,8 @@ description: Obtenga información sobre cómo seleccionar perfiles de prueba par
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
+exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 16%

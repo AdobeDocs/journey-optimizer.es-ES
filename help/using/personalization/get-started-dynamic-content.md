@@ -23,7 +23,7 @@ ht-degree: 100%
 >title="Condiciones"
 >abstract="Las reglas condicionales permiten mostrar numerosas variantes de contenido en sus mensajes en función de atributos de perfil, eventos contextuales o públicos."
 
-El contenido dinámico le permite adaptar el contenido de sus mensajes en función de las **reglas condicionales** que pueden estar formadas por atributos de perfil, eventos contextuales o audiencias. Las reglas condicionales se crean mediante un generador de reglas visual dentro del Editor de expresiones, donde puede almacenarlas para su reutilización en los recorridos y campañas.
+El contenido dinámico le permite adaptar el contenido de sus mensajes en función de las **reglas condicionales** que pueden estar formadas por atributos de perfil, eventos contextuales o públicos. Las reglas condicionales se crean mediante un generador de reglas visual dentro del Editor de expresiones, donde puede almacenarlas para su reutilización en los recorridos y campañas.
 
 Las reglas condicionales se pueden aprovechar en el Diseñador de correo electrónico y en el editor de expresiones para **crear contenido dinámico** que se adaptará a los perfiles segmentados en los mensajes.
 

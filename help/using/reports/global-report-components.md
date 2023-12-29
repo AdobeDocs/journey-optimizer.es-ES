@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
 source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 10%
+source-wordcount: '1106'
+ht-degree: 2%
 
 ---
 
@@ -75,7 +75,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td> Número de veces que se hizo clic en un contenido en un correo electrónico.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Entregados <br/> </td> 
+   <td> Entregado <br/> </td> 
    <td> Número de mensajes enviados correctamente en relación con el número total de mensajes enviados.<br/></td> 
 </tr> 
   <tr> 
@@ -140,7 +140,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td> Número de correos electrónicos en cola para reintentos.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Enviados<br/> </td> 
+   <td> Enviado<br/> </td> 
    <td> Número total de envíos para el envío.<br/> </td> 
 </tr>
   <tr> 
@@ -148,7 +148,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td> Número total de errores temporales, como una bandeja de entrada llena.<br/> </td> 
 </tr>
   <tr> 
-   <td> Reclamaciones por correo no deseado<br/> </td> 
+   <td> Quejas de spam<br/> </td> 
    <td> Número de veces que un mensaje se ha declarado como correo no deseado.<br/> </td> 
 </tr>
   <tr> 
@@ -315,7 +315,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td> Porcentaje de notificaciones push que rebotaron en comparación con las notificaciones push enviadas.<br/> </td>
 </tr>
   <tr> 
-   <td> Entregados<br/> </td> 
+   <td> Entrega<br/> </td> 
    <td> Número de mensajes enviados correctamente en relación con el número total de mensajes enviados.<br/> </td> 
 </tr> 
   <tr> 
@@ -355,7 +355,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td> Porcentaje de notificaciones push abiertas.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Enviados<br/> </td> 
+   <td> Enviado<br/> </td> 
    <td> Número total de envíos para el envío.<br/> </td> 
 </tr> 
   <tr> 
@@ -380,7 +380,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td>Número de personas que no interactuaron con la página de aterrizaje y no completaron la acción de suscripción.<br/> </td> 
 </tr>
  <tr> 
-   <td>Porcentaje de rebote<br/> </td> 
+   <td>Tasa de devoluciones<br/> </td> 
    <td>Número de personas que no interactuaron con la página de aterrizaje y no completaron la acción de suscripción en relación con el número total de visitas.<br/> </td> 
 </tr>
  <tr>

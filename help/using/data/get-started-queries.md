@@ -9,8 +9,8 @@ level: Beginner
 keywords: consultas, plataforma, datos, exploración
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
-workflow-type: ht
-source-wordcount: '120'
+workflow-type: tm+mt
+source-wordcount: '103'
 ht-degree: 100%
 
 ---

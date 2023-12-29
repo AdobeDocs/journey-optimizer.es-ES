@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 11%
+source-wordcount: '971'
+ht-degree: 6%
 
 ---
 
@@ -128,7 +128,7 @@ Para que la experiencia web se entregue correctamente, se debe definir la siguie
 
 ## Requisitos previos del experimento de contenido {#experiment-prerequisites}
 
-Para habilitar los experimentos de contenido para el canal Web, debe asegurarse de que la variable [conjunto de datos](../data/get-started-datasets.md) se utiliza en la implementación web [secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=es){target="_blank"} también se incluye en la configuración de informes.
+Para habilitar los experimentos de contenido para el canal Web, debe asegurarse de que la variable [conjunto de datos](../data/get-started-datasets.md) se utiliza en la implementación web [secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} también se incluye en la configuración de informes.
 
 En otras palabras, al configurar los informes de experimentos, si agrega un conjunto de datos que no está presente en el conjunto de datos web, estos no se mostrarán en los informes de experimentos de contenido.
 

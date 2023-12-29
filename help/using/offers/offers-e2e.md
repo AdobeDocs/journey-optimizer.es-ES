@@ -8,12 +8,12 @@ level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 6%
+source-wordcount: '1100'
+ht-degree: 4%
 
 ---
 
-# Caso de uso: Configurar ofertas personalizadas para utilizarlas en un correo electrónico {#configure-add-personalized-offers-email}
+# Caso de uso: Configuración de ofertas personalizadas para utilizarlas en un correo electrónico {#configure-add-personalized-offers-email}
 
 Esta sección presenta un ejemplo completo para mostrar cómo configurar ofertas y utilizarlas en un mensaje de correo electrónico, en función de una decisión que haya creado anteriormente.
 
@@ -25,12 +25,12 @@ A continuación se enumeran los pasos clave para configurar ofertas, incluirlas 
 
    * Crear ubicaciones
    * Crear reglas de decisión
-   * Crear calificadores de colección (anteriormente conocido como &quot;etiquetas&quot;)
+   * Crear calificadores de colección (anteriormente conocidos como &quot;etiquetas&quot;)
    * Crear clasificaciones (opcional)
 
 1. [Configuración de las ofertas](#configure-offers)
 
-   * Cree ofertas
+   * Creación de ofertas
    * Para cada oferta:
 
       * Cree representaciones y seleccione una colocación y un recurso para cada representación
@@ -110,11 +110,11 @@ Los encontrará debajo de la **[!UICONTROL Gestión de decisiones]** > **[!UICON
    >
    >En este ejemplo, solo utilizaremos las puntuaciones de prioridad. Más información sobre [reglas de elegibilidad y restricciones](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
 
-## Configurar ofertas {#configure-offers}
+## Configuración de ofertas {#configure-offers}
 
 Ahora puede crear y configurar sus ofertas. En este ejemplo, creará cuatro ofertas que desea mostrar según cada perfil específico.
 
-1. Crear una oferta. Obtenga más información en [esta sección](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
+1. Cree una oferta. Obtenga más información en [esta sección](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
 
 1. En esta oferta, cree tres representaciones. Cada representación debe ser una combinación de una ubicación que haya creado anteriormente y un recurso:
 
@@ -195,7 +195,7 @@ El motor de decisión utilizará esta combinación para encontrar la mejor ofert
 
 Para crear y configurar una decisión de oferta, siga los pasos principales a continuación:
 
-1. Crear una decisión. Obtenga más información en [esta sección](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
+1. Cree una decisión. Obtenga más información en [esta sección](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
 
 1. Seleccione el *Web: imagen*, *Correo electrónico: imagen* y *No digital: texto* ubicaciones.
 

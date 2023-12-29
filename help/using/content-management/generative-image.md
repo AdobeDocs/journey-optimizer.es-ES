@@ -14,7 +14,7 @@ exl-id: b5582601-5804-4413-b548-a0b34cc38090
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 11%
 
 * [Introducción al Asistente de contenido](gs-generative.md)
 * [Generación de texto con el Asistente de contenido](generative-content.md)
-* **[Generación de imágenes con el Asistente de contenido](generative-image.md)**
+* **[Generación de imágenes con el asistente de contenido](generative-image.md)**
 
 >[!ENDSHADEBOX]
 

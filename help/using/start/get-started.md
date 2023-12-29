@@ -9,8 +9,8 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
-workflow-type: ht
-source-wordcount: '682'
+workflow-type: tm+mt
+source-wordcount: '662'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ## Casos de uso {#use-cases}
 
-* Los especialistas en marketing pueden utilizar [!DNL Adobe Journey Optimizer] para enviar comunicaciones individualizadas y comunicaciones por lotes basadas en audiencias. Por ejemplo: una tienda de ropa suele enviar estudios posteriores a la compra a todos los clientes que han comprado productos en la última semana. Debido a las inclemencias del tiempo, algunos envíos experimentaron retrasos. Al ver que la clientela no ha recibido sus envíos, la tienda de ropa puede excluirla del envío de satisfacción del cliente programado y, en su lugar, hacerles llegar un correo electrónico personalizado pidiendo disculpas por el retraso y ofreciéndoles un código de descuento con recomendaciones de productos basadas en las compras anteriores del cliente.
+* Los especialistas en marketing pueden utilizar [!DNL Adobe Journey Optimizer] para enviar comunicaciones individualizadas y comunicaciones por lotes basadas en públicos. Por ejemplo: una tienda de ropa suele enviar estudios posteriores a la compra a todos los clientes que han comprado productos en la última semana. Debido a las inclemencias del tiempo, algunos envíos experimentaron retrasos. Al ver que la clientela no ha recibido sus envíos, la tienda de ropa puede excluirla del envío de satisfacción del cliente programado y, en su lugar, hacerles llegar un correo electrónico personalizado pidiendo disculpas por el retraso y ofreciéndoles un código de descuento con recomendaciones de productos basadas en las compras anteriores del cliente.
 
   Los expertos en marketing también pueden utilizar la aplicación para enviar comunicaciones basadas en comportamientos en tiempo real. Por ejemplo, el mismo minorista podría atraer a un cliente fiel que entra en el aparcamiento de la tienda en tiempo real enviándole una notificación push acerca de un suéter que vuelve a estar en existencias con su talla.
 

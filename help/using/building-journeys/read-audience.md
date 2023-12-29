@@ -11,8 +11,8 @@ keywords: actividad, recorrido, lectura, audiencia, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 13%
+source-wordcount: '1347'
+ht-degree: 11%
 
 ---
 
@@ -31,9 +31,9 @@ Veamos como ejemplo la audiencia &quot;Apertura y cierre de compra de la aplicac
 
 ## Lectura obligatoria {#must-read}
 
-* Para los recorridos que utilizan la actividad Leer audiencia, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con Leer audiencia, programados o que se inicien “lo antes posible”) que empiecen al mismo tiempo. Para ello, repártalos a lo largo del tiempo, por ejemplo, en intervalos de 5 y 10 minutos.
+* Para los recorridos que utilizan la actividad Leer público, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con Leer público, programados o que se inicien “lo antes posible”) que empiecen al mismo tiempo. Para ello, repártalos a lo largo del tiempo, por ejemplo, en intervalos de 5 y 10 minutos.
 
-* Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen con Leer audiencia, Calificación de audiencia o una actividad de evento empresarial.
+* Los grupos de campos de evento de experiencia no se pueden usar en recorridos que comiencen por una audiencia de lectura, una calificación de audiencia o una actividad de evento empresarial.
 
 * Por ahora, el uso de audiencias [importado de un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o resultantes de [flujos de trabajo de composición](../audience/get-started-audience-orchestration.md) en recorrido está disponible como una versión beta privada. Para obtener más información, contacte con su representante de Adobe.
 
@@ -51,7 +51,7 @@ Los pasos para configurar la actividad Leer audiencia son los siguientes:
 
    >[!NOTE]
    >
-   >Además, también puede segmentar audiencias de Adobe Experience Platform creadas con [composiciones de audiencia](../audience/get-started-audience-orchestration.md) o [cargado desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. Estas funcionalidades están disponibles actualmente como una versión beta privada.
+   >Además, también puede segmentar audiencias de Adobe Experience Platform creadas con [composiciones de audiencia](../audience/get-started-audience-orchestration.md) o [cargado desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. Estas funcionalidades están disponibles actualmente como una versión Private Beta.
 
    Tenga en cuenta que puede personalizar las columnas mostradas en la lista y ordenarlas.
 
@@ -118,7 +118,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->Los recorridos de audiencia de lectura de una sola toma pasan al estado Finalizado 30 días después de la ejecución del recorrido. Para recorridos de Leer audiencia programados será 30 días después de la ejecución de la última ocurrencia.
+>Los recorridos de audiencia de lectura de una sola toma pasan al estado Finalizado 30 días después de la ejecución del recorrido. Para audiencias de lectura programadas, son 30 días después de la ejecución de la última ocurrencia.
 
 ## Prueba y publicación del recorrido {#testing-publishing}
 
@@ -170,7 +170,7 @@ Esta exclusión puede producirse justo después de la recuperación de la audien
 
 ![](assets/read-segment-audience2.png)
 
-**Unión**
+**Union**
 
 Los recorridos le permiten crear N ramas y unirlas después de una segmentación.
 

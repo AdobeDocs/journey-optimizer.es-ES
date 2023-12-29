@@ -11,8 +11,8 @@ keywords: configuración, experimentación, informes, optimizador
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: 1490ac2efd39c6bf9b6ca97e682750463e9f054d
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 48%
+source-wordcount: '592'
+ht-degree: 29%
 
 ---
 
@@ -45,7 +45,7 @@ Para esta configuración, debe agregar uno o más conjuntos de datos que conteng
 ## Requisitos previos
 
 
-Antes de poder agregar un conjunto de datos a la configuración de creación de informes, debe crearlo. Obtenga más información en la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
+Antes de poder agregar un conjunto de datos a la configuración de creación de informes, debe crearlo. Aprenda a hacerlo en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
 
 * Solo puede añadir conjuntos de datos de tipo evento.
 
@@ -57,9 +57,9 @@ Antes de poder agregar un conjunto de datos a la configuración de creación de 
   >
   >También se pueden incluir otros grupos de campo, pero actualmente solo los grupos de campo anteriores son compatibles con los informes de Journey Optimizer.
 
-  Por ejemplo, si desea conocer el impacto de una campaña de correo electrónico en los datos de comercio, como compras o pedidos, debe crear un conjunto de datos de evento de experiencia con el grupo de campos `Commerce Details`. 
+  Por ejemplo, si desea conocer el impacto de una campaña de correo electrónico en los datos de comercio, como compras o pedidos, debe crear un conjunto de datos de evento de experiencia con `Commerce Details` grupo de campos.
 
-  Del mismo modo, si desea crear un informe sobre interacciones móviles, debe generar un conjunto de datos de evento de experiencia con el grupo de campos `Application Details`. 
+  Del mismo modo, si desea crear un informe sobre interacciones móviles, debe crear un conjunto de datos de evento de experiencia con `Application Details` grupo de campos.
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
@@ -67,7 +67,7 @@ Antes de poder agregar un conjunto de datos a la configuración de creación de 
 
 >[!NOTE]
 >
->Obtenga más información sobre los esquemas XDM y los grupos de campos en la [Documentación de información general del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
+>Obtenga más información sobre esquemas XDM y grupos de campos en la [Documentación general del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
 
 <!--
 ## Objectives corresponding to each field group {#objective-list}
@@ -119,7 +119,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-namespace.png)
 
-   Obtenga más información acerca de las áreas de nombres en la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es){target="_blank"}.
+   Obtenga más información sobre áreas de nombres en la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es){target="_blank"}.
 
 1. Guarde los cambios para añadir el conjunto de datos seleccionado a la lista de configuración de creación de informes.
 

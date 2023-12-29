@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 3f9d85dc77d3c572b1bad751646153874a5584c8
 workflow-type: tm+mt
-source-wordcount: '2664'
-ht-degree: 33%
+source-wordcount: '2665'
+ht-degree: 32%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 33%
 
 >[!IMPORTANT]
 >
-> Para acceder al menú **Informe**, debe tener el permiso **[!UICONTROL Ver informes de canal.]** [Más información](channel-report-gs.md#before-starting-manage-reports-prereq)
+> Para acceder a **Informe** menú, debe tener el **[!UICONTROL Ver informes de canal]** permiso. [Más información](channel-report-gs.md#before-starting-manage-reports-prereq)
 
 Los informes de canal proporcionan a los usuarios una visión general completa de las métricas de tráfico y participación a nivel de canal. Las métricas se agregan para presentar valores consolidados para acciones que se originan en el canal elegido, abarcando varias campañas y recorridos.
 

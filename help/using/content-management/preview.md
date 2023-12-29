@@ -1,17 +1,18 @@
 ---
-title: Previsualización del contenido
+title: Vista previa del contenido
 description: Obtenga información sobre cómo previsualizar el contenido.
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+exl-id: 6477270c-0309-411a-8254-c7ffc4419492
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
-# Previsualización del contenido {#preview}
+# Vista previa del contenido {#preview}
 
 Una [perfiles de prueba](test-profiles.md) están seleccionados, puede obtener una vista previa del contenido. Complete los siguientes pasos:
 

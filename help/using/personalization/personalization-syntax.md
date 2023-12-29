@@ -11,8 +11,8 @@ keywords: expresión, editor, sintaxis, personalización
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 10%
+source-wordcount: '719'
+ht-degree: 8%
 
 ---
 
@@ -46,7 +46,7 @@ Las palabras **true**, **false**, **null** y **indefinido** solo se permiten en 
 
 En Handlebars, los valores devueltos por el {{expression}} son **escapado por el HTML**. Si la expresión contiene `&`, la salida devuelta con escape de HTML se genera como `&amp;`. Si no desea que Handlebars escape un valor, utilice la &quot;pila triple&quot;.
 
-En cuanto a los argumentos de funciones literales, el analizador de lenguajes de plantilla no admite una sola barra invertida sin escape (`\`símbolo ). Este carácter debe tener una barra invertida adicional (`\`símbolo ). Por ejemplo :
+En cuanto a los argumentos de funciones literales, el analizador de lenguajes de plantilla no admite una sola barra invertida sin escape (`\`símbolo ). Este carácter debe tener una barra invertida adicional (`\`símbolo ). Ejemplo :
 
 `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
@@ -76,7 +76,7 @@ Los atributos deben definirse en el esquema antes de que se haga referencia a el
 
 `{{profile.faxPhone.number}}`
 
-## Audiencias{#perso-segments}
+## Públicos{#perso-segments}
 
 Aprenda a aprovechar los atributos de perfil en condiciones en [esta sección](functions/helpers.md#if-function).
 

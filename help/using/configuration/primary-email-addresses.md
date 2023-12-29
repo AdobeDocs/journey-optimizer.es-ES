@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 25%
+ht-degree: 18%
 
 ---
 
@@ -78,7 +78,7 @@ En algunos contextos específicos, puede anular este valor mediante la variable 
 
 >[!CAUTION]
 >
->La anulación de direcciones de correo electrónico solo debe utilizarse para casos de uso específicos. La mayoría de las veces, no es necesario cambiar la dirección de correo electrónico porque el valor definido como la dirección principal en los **[!UICONTROL Campos de ejecución]** es el que debe usarse.
+>La anulación de direcciones de correo electrónico solo debe utilizarse para casos de uso específicos. La mayoría de las veces, no es necesario cambiar la dirección de correo electrónico porque el valor definido como la dirección principal en la variable **[!UICONTROL Campos de ejecución]** es el que debe usarse.
 
 Anular este valor puede resultar útil, por ejemplo, para lo siguiente:
 

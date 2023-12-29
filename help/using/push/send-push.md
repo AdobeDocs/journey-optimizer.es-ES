@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Compruebe y envíe su notificación push
+title: Comprobación y envío de la notificación push
 description: Obtenga información sobre cómo comprobar y enviar la notificación push en Journey Optimizer
 feature: Push
 topic: Content Management
@@ -11,11 +11,11 @@ exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
-# Compruebe y envíe su notificación push {#send-push}
+# Comprobación y envío de la notificación push {#send-push}
 
 ## Previsualización de la notificación push {#preview-push}
 
@@ -57,6 +57,6 @@ Cuando el mensaje push esté listo, complete la configuración de su [recorrido]
 * [Configuración del canal push](push-configuration.md)
 * [Informe de notificaciones push](../reports/journey-global-report.md#push-global)
 * [Crear una notificación push](create-push.md)
-* [Adición de un mensaje en un recorrido](../building-journeys/journeys-message.md)
+* [Añadir un mensaje en un recorrido](../building-journeys/journeys-message.md)
 * [Añadir un mensaje en una campaña](../campaigns/create-campaign.md)
 

@@ -10,8 +10,8 @@ keywords: recorrido, campo, expresión, evento
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 4%
+source-wordcount: '562'
+ht-degree: 2%
 
 ---
 
@@ -43,7 +43,7 @@ Se utiliza un color de sintaxis para distinguir visualmente campos de eventos (v
 
 ## Valores predeterminados para referencias de campo {#default-value}
 
-Se puede asociar un valor predeterminado con un nombre de campo. La sintaxis de la es la siguiente:
+Se puede asociar un valor predeterminado con un nombre de campo. La sintaxis es la siguiente:
 
 ```json
 // event field
@@ -101,7 +101,7 @@ Puede agregar cualquier tipo de expresión como valor predeterminado. La única 
 
 Se hace referencia a los elementos definidos dentro de colecciones utilizando las funciones específicas `all`, `first` y `last`. Para obtener más información, consulte [esta página](../expression/collection-management-functions.md).
 
-Por ejemplo :
+Ejemplo :
 
 ```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
@@ -109,7 +109,7 @@ Por ejemplo :
 
 ## Referencia a un campo definido en un mapa
 
-### Función  de `entry`
+### `entry` función
 
 Para recuperar un elemento en un mapa, utilizamos la función de entrada con una clave determinada. Por ejemplo, se utiliza al definir la clave de un evento, según el área de nombres seleccionada. Para obtener más información, consulte [esta página](../../event/about-creating.md#select-the-namespace).
 
@@ -119,7 +119,7 @@ Para recuperar un elemento en un mapa, utilizamos la función de entrada con una
 
 En esta expresión, se obtiene la entrada para la clave &quot;Email&quot; del campo &quot;IdentityMap&quot; de un evento. La entrada &quot;Correo electrónico&quot; es una colección, de la que tomamos el &quot;id&quot; en el primer elemento utilizando &quot;first()&quot;. Para obtener más información, consulte [esta página](../expression/collection-management-functions.md).
 
-### Función  de `firstEntryKey`
+### `firstEntryKey` función
 
 Para recuperar la primera clave de entrada de un mapa, utilice la variable `firstEntryKey` función.
 
@@ -131,7 +131,7 @@ Este ejemplo muestra cómo recuperar la primera dirección de correo electrónic
 
 En este ejemplo, la lista de suscripción se denomina `daily-email`. Las direcciones de correo electrónico se definen como claves en la variable `subscribers` map, que está vinculado al mapa de la lista de suscripción.
 
-### Función  de `keys`
+### `keys` función
 
 Para recuperar todas las claves de un mapa, utilice el `keys` función.
 

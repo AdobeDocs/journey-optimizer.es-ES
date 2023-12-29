@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 14%
+source-wordcount: '408'
+ht-degree: 8%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 14%
 
 Puede crear reglas de decisión de ofertas basadas en los datos disponibles en Adobe Experience Platform. Las reglas de decisión determinan a quién se puede mostrar una oferta.
 
-Por ejemplo, puede especificar que solo desea que se muestre una “Oferta de ropa de invierno femenina” cuando (Sexo = &#39;Mujer&#39;) y (Región = &#39;Noreste&#39;).
+Por ejemplo, puede especificar que solo desea que se muestre una &quot;Oferta de ropa de invierno femenina&quot; cuando (Sexo = &quot;Mujer&quot;) y (Región = &quot;Noreste&quot;).
 
 ➡️ [Descubra esta función en vídeo](#video)
 

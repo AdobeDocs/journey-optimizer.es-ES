@@ -10,8 +10,8 @@ keywords: volver a entrar, recorrido, finalizar, en directo, detener
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 3%
+source-wordcount: '619'
+ht-degree: 1%
 
 ---
 

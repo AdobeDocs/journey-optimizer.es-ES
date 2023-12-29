@@ -11,8 +11,8 @@ keywords: componentes, diseñador de correo electrónico, editor, correo electr�
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 54%
+source-wordcount: '1401'
+ht-degree: 52%
 
 ---
 
@@ -121,11 +121,11 @@ Utilice el componente **[!UICONTROL Texto]** para insertar texto en el correo el
    * **Tamaño de fuente**: seleccionar el tamaño de fuente del texto en píxeles.
    * **[!UICONTROL Cambiar color de fuente]**: elija el color de la fuente.
    * **[!UICONTROL Insertar vínculo]**: añada cualquier tipo de vínculo al contenido.
-   * **[!UICONTROL Editar imagen]**: añadir una imagen o un recurso al componente de texto. [Más información sobre la administración de recursos](../content-management/assets.md)
+   * **[!UICONTROL Editar imagen]**: agregue una imagen o un recurso al componente de texto. [Más información sobre la administración de recursos](../content-management/assets.md)
    * **[!UICONTROL Cambiar color de fuente]**: elija el color de la fuente.
-   * **[!UICONTROL Añadir personalización]**: añadir campos de personalización para personalizar el contenido de los datos de perfiles. [Más información sobre la personalización de contenido](../personalization/personalize.md)
+   * **[!UICONTROL Añadir personalización]**: añada campos de personalización para personalizar el contenido de los datos de perfiles. [Más información sobre la personalización de contenido](../personalization/personalize.md)
    * **[!UICONTROL Mostrar el código fuente]**: mostrar el código fuente del texto. No se puede modificar.
-   * **[!UICONTROL Habilitar contenido condicional]**: añadir contenido condicional para adaptar el contenido del componente a los perfiles de destino. [Más información sobre el contenido dinámico](../personalization/get-started-dynamic-content.md)
+   * **[!UICONTROL Habilitar contenido condicional]**: agregue contenido condicional para adaptar el contenido del componente a los perfiles de destino. [Más información sobre el contenido dinámico](../personalization/get-started-dynamic-content.md)
    * **[!UICONTROL Duplicar]**: añadir una copia del componente de texto.
    * **[!UICONTROL Eliminar]**: eliminar el componente de texto seleccionado del correo electrónico.
 

@@ -11,8 +11,8 @@ keywords: reintentos, rebote, suave, optimizador, error
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 13%
+source-wordcount: '467'
+ht-degree: 11%
 
 ---
 

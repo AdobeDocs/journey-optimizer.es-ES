@@ -11,7 +11,7 @@ exl-id: 12168cdf-f517-49b5-958b-ba689ade6982
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 8%
+ht-degree: 3%
 
 ---
 
@@ -75,7 +75,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td> Número de veces que se hizo clic en un contenido en un correo electrónico.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Entregados <br/> </td> 
+   <td> Entregado <br/> </td> 
    <td> Número de mensajes enviados correctamente.<br/></td> 
 </tr> 
   <tr> 
@@ -135,7 +135,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td> Número de correos electrónicos en cola para reintentos.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Enviados<br/> </td> 
+   <td> Enviado<br/> </td> 
    <td> Número total de envíos para el envío.<br/> </td> 
 </tr>
   <tr> 
@@ -143,7 +143,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td> Número total de errores temporales, como una bandeja de entrada llena.<br/> </td> 
 </tr>
   <tr> 
-   <td> Reclamaciones por correo no deseado<br/> </td> 
+   <td> Quejas de spam<br/> </td> 
    <td> Número de veces que un mensaje se ha declarado como correo no deseado.<br/> </td> 
 </tr>
   <tr> 
@@ -234,7 +234,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td> Total de errores acumulados durante el envío y el procesamiento automático de devoluciones.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Entregados<br/> </td> 
+   <td> Entrega<br/> </td> 
    <td> Número de mensajes enviados correctamente.<br/> </td> 
 </tr> 
   <tr> 
@@ -254,7 +254,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td> Número total de notificaciones push enviadas al dispositivo y en las que los usuarios hicieron clic al abrir la aplicación. Esto es similar al clic push, excepto que una apertura push no se activa si se descarta la notificación.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Enviados<br/> </td> 
+   <td> Enviado<br/> </td> 
    <td> Número total de envíos para el envío.<br/> </td> 
 </tr> 
   <tr> 

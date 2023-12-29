@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 1cfe9f6cb6e7c3e9a5d9b808c10ae4dfe77a92a2
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 12%
+source-wordcount: '1105'
+ht-degree: 11%
 
 ---
 
@@ -109,7 +109,7 @@ Para crear una plantilla de contenido desde cero, siga los pasos a continuación
 
    * [Codifique o copie y pegue el HTML sin procesar](../email/code-content.md) directamente en el Diseñador de correo electrónico.
 
-   * [Importe contenido de HTML existente](../email/existing-content.md) desde un archivo o una carpeta .zip.
+   * [Importación de contenido de HTML existente](../email/existing-content.md) desde un archivo o una carpeta .zip.
 
    * Utilice contenido existente de una lista de plantillas integradas o personalizadas. Los pasos para utilizar una plantilla de contenido en un correo electrónico se describen en [esta sección](../email/use-email-templates.md).
 

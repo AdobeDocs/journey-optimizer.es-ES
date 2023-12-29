@@ -11,7 +11,7 @@ keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1624'
 ht-degree: 8%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
 >title="Superficie"
->abstract="Una superficie es una configuración que ha definido un Administrador del sistema. Contiene todos los parámetros técnicos para enviar el mensaje, como parámetros de encabezado, subdominio, aplicaciones móviles, etc."
+>abstract="Una superficie es una configuración que ha definido un administrador del sistema. Contiene todos los parámetros técnicos para enviar el mensaje, como parámetros de encabezado, subdominio, aplicaciones móviles, etc."
 
 Con [!DNL Journey Optimizer], puede configurar superficies de canal (es decir, ajustes preestablecidos de mensaje) que definan todos los parámetros técnicos necesarios para sus mensajes: tipo de correo electrónico, nombre y correo electrónico del remitente, aplicaciones móviles, configuración de SMS, etc.
 
@@ -235,7 +235,7 @@ Una vez que el proceso de validación se realiza correctamente, la nueva versió
 * unos minutos antes de que los mensajes unitarios lo consuman,
 * hasta el siguiente lote para que la superficie sea efectiva en los mensajes por lotes.
 
-#### Fallido {#failed}
+#### Error {#failed}
 
 Si el proceso de validación falla, se seguirá utilizando la versión anterior de la superficie.
 

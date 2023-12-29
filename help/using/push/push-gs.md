@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 10%
+source-wordcount: '729'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Esta página le ayuda a configurar y comprender los servicios y flujos de trabaj
 
 >[!AVAILABILITY]
 >
->El nuevo **flujo de trabajo de inicio rápido de incorporación móvil** ya está disponible. Utilice esta nueva función de producto para configurar rápidamente el SDK móvil para empezar a recopilar y validar datos de eventos móviles, así como para enviar notificaciones push móviles. Se puede acceder a esta funcionalidad a través de la página de inicio de recopilación de datos como una versión beta pública. [Más información](mobile-onboarding-wf.md)
+>El nuevo **flujo de trabajo de inicio rápido de incorporación móvil** ya está disponible. Utilice esta nueva función de producto para configurar rápidamente el SDK móvil para empezar a recopilar y validar datos de eventos móviles, así como para enviar notificaciones push móviles. Se puede acceder a esta funcionalidad a través de la página de inicio de la recopilación de datos como una versión beta pública. [Más información](mobile-onboarding-wf.md)
 >
 
 Obtenga información sobre cómo crear notificaciones push en [esta página](create-push.md).
@@ -62,7 +62,7 @@ La siguiente ilustración muestra los sistemas y servicios involucrados con los 
    * Crear una propiedad móvil del lado del cliente y agregar extensiones. El SDK se integra estrechamente con estas extensiones para ofrecer una experiencia de recopilación de datos fluida.
    * Registro del identificador del paquete de aplicaciones móviles y de las credenciales de la aplicación
 
-* **Perfil del cliente en tiempo real de Adobe Experience Platform**  mantiene una vista integral de cada cliente individual mediante la combinación de datos de varios canales, incluidos la web, móvil, CRM y de terceros. El perfil le permite consolidar los datos de sus clientes en una vista unificada que ofrece una cuenta procesable con marca de tiempo de cada interacción del cliente. El token push de un usuario determinado de la aplicación se almacena en el perfil del usuario como datos de registro, mientras que las interacciones que el usuario realiza con las notificaciones push se rastrean como datos de eventos de series temporales. [Obtenga más información sobre el Perfil del cliente en tiempo real de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}.
+* **Perfil del cliente en tiempo real de Adobe Experience Platform**  mantiene una vista integral de cada cliente individual mediante la combinación de datos de varios canales, incluidos la web, móvil, CRM y de terceros. El perfil le permite consolidar los datos de sus clientes en una vista unificada, lo que ofrece una cuenta procesable con marca de tiempo de cada interacción con los clientes. El token push de un usuario determinado de la aplicación se almacena en el perfil del usuario como datos de registro, mientras que las interacciones que el usuario realiza con las notificaciones push se rastrean como datos de eventos de series temporales. [Obtenga más información sobre el Perfil del cliente en tiempo real de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}.
 
 * **[!DNL Adobe Journey Optimizer]** : una vez que las integraciones de la aplicación móvil con los componentes mencionados anteriormente estén implementadas y los perfiles del cliente estén disponibles en Adobe Experience Platform, puede crear y organizar notificaciones push en [!DNL Adobe Journey Optimizer] para interactuar con los usuarios.
 
@@ -77,5 +77,5 @@ La siguiente ilustración muestra los distintos pasos, de extremo a extremo, nec
 * [Configuración del canal push](push-configuration.md)
 * [Informe de notificaciones push](../reports/journey-global-report.md#push-global)
 * [Crear una notificación push](create-push.md)
-* [Adición de un mensaje en un recorrido](../building-journeys/journeys-message.md)
+* [Añadir un mensaje en un recorrido](../building-journeys/journeys-message.md)
 * [Añadir un mensaje en una campaña](../campaigns/create-campaign.md)

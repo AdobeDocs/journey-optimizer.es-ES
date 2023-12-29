@@ -10,7 +10,7 @@ keywords: externo, API, optimizador, límite
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '769'
 ht-degree: 91%
 
 ---
@@ -143,7 +143,7 @@ Esta colección de Postman se ha configurado para compartir la colección de var
 
 Una vez descargado y cargado en Postman, debe añadir tres variables: `{JO_HOST}`,`{BASE_PATH}` y `{SANDBOX_NAME}`.
 * `{JO_HOST}`: URL de puerta de enlace de [!DNL Journey Optimizer]
-* `{BASE_PATH}`: punto de entrada para la API. 
+* `{BASE_PATH}` : punto de entrada para la API.
 * `{SANDBOX_NAME}`: el encabezado **x-sandbox-name** (por ejemplo, “prod”) correspondiente al nombre de la zona protegida donde se realizarán las operaciones de API. Consulte la [información general sobre las zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) para obtener más detalles.
 
 En la siguiente sección, encontrará la lista ordenada de llamadas a la API de REST para ejecutar el caso de uso.

@@ -11,13 +11,13 @@ exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 6%
+ht-degree: 2%
 
 ---
 
 # atributos de propiedades de recorrido {#journey-properties}
 
-En el editor de expresiones avanzadas, encontrará el **Propiedades de recorrido** debajo de las categorías de evento y fuente de datos. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información recuperada por el sistema de los recorridos activos, como el ID de recorrido o los errores específicos encontrados.
+En el editor de expresiones avanzadas, encontrará el **Propiedades de recorrido** debajo de las categorías de evento y fuente de datos. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información recuperada por el sistema de las recorridos activas, como el ID de recorrido o los errores específicos encontrados.
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Estos son algunos ejemplos de casos de uso:
 | Instancia de recorrido | instanceUID | Identificador de instancia de recorrido | ID de la instancia |
 | | externalKey | Clave externa | Identificador individual que activa el recorrido |
 | | organizationId | Identificador de organización | Organización de la marca |
-| | sandboxName | Nombre de la zona protegida | Nombre de la zona protegida |
+| | sandboxName | Nombre de zona protegida | Nombre de la zona protegida |
 | Identidad | profileId | Identificador de identidad del perfil | Identificador del perfil en el recorrido |
 | | namespace | Área de nombres de identidad de perfil | Área de nombres del perfil en la recorrido (ejemplo: ECID) |
 | Nodo actual | currentNodeId | Identificador del nodo actual | Identificador de la actividad actual (nodo) |

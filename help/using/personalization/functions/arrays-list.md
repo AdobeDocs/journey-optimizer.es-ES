@@ -8,7 +8,7 @@ level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '564'
 ht-degree: 6%
 
 ---
@@ -131,7 +131,7 @@ La siguiente operación devuelve los cinco primeros pedidos con el precio más b
 {%= topN(orders,price, 5) %}
 ```
 
-## En{#in}
+## Entrada{#in}
 
 El `in` se utiliza para determinar si un elemento es miembro de una matriz o lista.
 

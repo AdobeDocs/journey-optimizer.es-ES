@@ -4,10 +4,11 @@ description: Obtenga información sobre cómo previsualizar y probar el contenid
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
+exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 1%
+source-wordcount: '309'
+ht-degree: 25%
 
 ---
 

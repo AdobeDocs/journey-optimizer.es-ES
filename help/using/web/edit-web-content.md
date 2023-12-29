@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 18%
+source-wordcount: '1101'
+ht-degree: 17%
 
 ---
 
@@ -73,7 +73,7 @@ Para empezar a crear la campaña web, siga los pasos a continuación.
 
 1. Seleccione cualquier elemento del lienzo, como imagen, botón, párrafo, texto, contenedor, encabezado, vínculo, etc. [Más información](#content-components)
 
-1. En su lugar, utilice:
+1. Utilice:
 
    * Menú contextual para editar su contenido, diseño, inserción de vínculos o personalización, etc.
 

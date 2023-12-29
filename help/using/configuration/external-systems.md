@@ -10,8 +10,8 @@ keywords: externo, API, optimizador, límite
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 32%
+source-wordcount: '1250'
+ht-degree: 29%
 
 ---
 
@@ -45,9 +45,9 @@ Por ejemplo, supongamos que ha definido una regla de límite o limitación de 20
 
 >[!IMPORTANT]
 >
->Las **Reglas de límite** se configuran en el nivel de zona protegida, para un extremo específico (la dirección URL denominada), pero de forma global para todos los recorridos de esa zona protegida. El límite está disponible tanto en fuentes de datos como en acciones personalizadas.
+>**Reglas de límite** se configuran en el nivel de entorno limitado, para un punto de conexión específico (la dirección URL llamada ) pero son globales para todos los recorridos de dicho entorno limitado. El límite está disponible tanto en fuentes de datos como en acciones personalizadas.
 >
->Las **Reglas de limitación** solo están configuradas en zonas protegidas de producción, para un extremo específico, pero de forma global para todos los recorridos de todas las zonas protegidas. Solo puede tener una configuración de limitación por organización. La restricción solo está disponible en acciones personalizadas.
+>Las **Reglas de limitación** solo están configuradas en zonas protegidas de producción, para un extremo específico, pero de forma global para todos los recorridos de todas las zonas protegidas. Solo puede tener una configuración de restricción por organización. La restricción solo está disponible en acciones personalizadas.
 >
 >El **maxCallsCount** el valor debe ser mayor que 1.
 

@@ -9,7 +9,7 @@ exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 14%
+ht-degree: 11%
 
 ---
 
@@ -21,7 +21,7 @@ A continuación se presentan los pasos principales para crear, configurar y admi
 
 Para ver un ejemplo completo de extremo a extremo que muestra cómo configurar ofertas, utilizarlas en una decisión y aprovechar esta decisión en un correo electrónico, consulte [esta página](../offers-e2e.md).
 
-## Crear componentes {#create-components}
+## Creación de componentes {#create-components}
 
 Antes de empezar a crear ofertas, debe definir varios componentes que utilizará en las ofertas.
 
@@ -65,7 +65,7 @@ Antes de empezar a crear ofertas, debe definir varios componentes que utilizará
 </tr>
 </table>
 
-## Crear y administrar ofertas {#create-and-manage-offers}
+## Creación y administración de ofertas {#create-and-manage-offers}
 
 1. **Creación de ofertas** y configurar su contenido y propiedades.
 
@@ -78,7 +78,7 @@ Antes de empezar a crear ofertas, debe definir varios componentes que utilizará
 <td>
 <img src="../../assets/do-not-localize/icon-offer.svg" width="60px">
 <div>
-<a href="../offer-library/creating-personalized-offers.md">Cree ofertas</a>
+<a href="../offer-library/creating-personalized-offers.md">Creación de ofertas</a>
 </div>
 <p>
 </td>

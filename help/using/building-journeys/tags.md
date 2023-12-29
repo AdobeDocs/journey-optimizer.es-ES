@@ -11,8 +11,8 @@ keywords: recorrido, etiquetas
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 42%
+source-wordcount: '229'
+ht-degree: 30%
 
 ---
 

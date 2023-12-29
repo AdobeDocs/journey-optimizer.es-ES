@@ -11,8 +11,8 @@ keywords: subdominio, google, txt, registro, gmail, envío
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 32%
+source-wordcount: '208'
+ht-degree: 30%
 
 ---
 

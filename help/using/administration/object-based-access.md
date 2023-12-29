@@ -11,8 +11,8 @@ keywords: objeto, nivel, acceso, control, etiquetas, olac, autorización
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 15%
+source-wordcount: '415'
+ht-degree: 12%
 
 ---
 
@@ -44,7 +44,7 @@ En Adobe Journey Optimizer, OLAC permite proteger los datos y conceder acceso es
 >
 >Para poder crear etiquetas, debe formar parte de una función con el **[!UICONTROL Administrar etiquetas de uso]** permiso.
 
-**[!UICONTROL Las etiquetas permiten clasificar los conjuntos de datos y campos según las directivas de uso que se aplican a esos datos.]** **[!UICONTROL Etiquetas]** se puede aplicar en cualquier momento, lo que proporciona flexibilidad en la forma en que se decide administrar los datos.
+**[!UICONTROL Etiquetas]** permiten categorizar conjuntos de datos y campos según las políticas de uso que se aplican a esos datos. **[!UICONTROL Etiquetas]** se puede aplicar en cualquier momento, lo que proporciona flexibilidad en la forma en que se decide administrar los datos.
 
 Puede crear etiquetas en la variable [!DNL Permissions] producto. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html).
 
