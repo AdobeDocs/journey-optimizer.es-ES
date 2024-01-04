@@ -11,7 +11,7 @@ exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 14%
+ht-degree: 24%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
 >title="Delegación de un subdominio de SMS/MMS"
->abstract="Configure su subdominio para mensajes de texto (SMS/MMS). Puede utilizar un subdominio que ya esté delegado al Adobe o configurar un nuevo subdominio."
+>abstract="Configure su subdominio para mensajes de texto (SMS/MMS). Puede utilizar un subdominio que ya se haya delegado a Adobe o bien configurar uno nuevo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
 >title="Delegación de un subdominio de SMS/MMS"
->abstract="Debe configurar un subdominio para utilizarlo en los mensajes de texto, ya que necesita este subdominio para crear una superficie SMS. Puede utilizar un subdominio ya delegado al Adobe o configurar un nuevo subdominio."
+>abstract="Debe configurar un subdominio para utilizarlo en sus mensajes de texto, ya que lo necesitará para crear una superficie SMS. Seleccione entre los subdominios ya delegados a Adobe o configure un nuevo subdominio."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=es#message-preset-sms" text="Creación de superficies SMS"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
->title="Seleccionar un subdominio de SMS/MMS"
+>title="Selección de un subdominio SMS/MMS"
 >abstract="Para poder crear una superficie SMS, asegúrese de haber configurado previamente al menos un subdominio de SMS para seleccionarlo en la lista de nombres Subdominio."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=es#message-preset-sms" text="Creación de superficies SMS"
 
