@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: ba870af16a92ffd5aae2bb4e0abb8f0cdbb8dc80
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 24%
+source-wordcount: '1779'
+ht-degree: 23%
 
 ---
 
@@ -140,13 +140,9 @@ Para asignar etiquetas de uso de datos personalizadas o principales al recorrido
 
 ![](assets/journeys-manage-access.png)
 
-### Zona horaria y zona horaria del perfil {#timezone}
+### Zonas horarias de recorrido y perfil {#timezone}
 
-La zona horaria se define en el nivel de recorrido.
-
-Puede introducir una zona horaria fija o utilizar perfiles de Adobe Experience Platform para definir la zona horaria de recorrido.
-
-Si se define una zona horaria en el perfil de Adobe Experience Platform, se puede recuperar en la recorrido.
+La zona horaria se define en el nivel de recorrido. Puede introducir una zona horaria fija o utilizar perfiles de Adobe Experience Platform para definir la zona horaria de recorrido. Si se define una zona horaria en el perfil de Adobe Experience Platform, se puede recuperar en la recorrido.
 
 Para obtener más información sobre la administración de huso horario, consulte [esta página](../building-journeys/timezone-management.md).
 
@@ -154,7 +150,7 @@ Para obtener más información sobre la administración de huso horario, consult
 
 Puede definir un **Fecha de inicio**. Si no ha especificado ninguna, se definirá automáticamente en el momento de la publicación.
 
-También puede agregar un **Fecha de finalización**. Esto permite que los perfiles salgan automáticamente cuando se alcanza la fecha. Si no especifica una fecha de finalización, los perfiles pueden permanecer hasta el tiempo de espera de recorrido predeterminado (generalmente 30 días, 7 días con la oferta de complementos de Healthcare Shield). La única excepción son los recorridos de audiencia de lectura recurrentes con **Forzar reentrada en repetición** activado, que finalizan en la fecha de inicio de la siguiente incidencia.
+También puede agregar un **Fecha de finalización**. Esto permite que los perfiles salgan automáticamente cuando se alcanza la fecha. Si no se especifica una fecha de finalización, los perfiles pueden permanecer hasta la [tiempo de espera de recorrido global](#global_timeout) (que generalmente es de 30 días y se reduce a 7 días con las ofertas adicionales de Healthcare Shield y Security and Privacy Shield). La única excepción son los recorridos de audiencia de lectura recurrentes con **Forzar reentrada en repetición** activado, que finalizan en la fecha de inicio de la siguiente incidencia.
 
 ### Tiempo de espera y error en actividades de recorrido {#timeout_and_error}
 
@@ -168,7 +164,9 @@ Recorrido también utiliza un tiempo de espera global. Consulte la [sección sig
 
 ### Tiempo de espera de recorrido global {#global_timeout}
 
-Además de las [timeout](#timeout_and_error) cuando se utiliza en actividades de recorrido, también se agota el tiempo de espera de recorrido global, que no se muestra en la interfaz y no se puede cambiar. Este tiempo de espera detiene el progreso de las personas en el recorrido 30 días después de su entrada. Esto significa que el recorrido de una persona no puede durar más de 30 días. Después del periodo de espera de 30 días, se eliminan los datos del individuo. Las personas que sigan fluyendo en el recorrido al final del periodo de tiempo de espera se detendrán y no se tendrán en cuenta en los informes. Por lo tanto, podría ver más personas entrando en el recorrido que saliendo.
+Además de las [timeout](#timeout_and_error) cuando se utiliza en actividades de recorrido, también se agota el tiempo de espera de recorrido global, que no se muestra en la interfaz y no se puede cambiar.
+
+Este tiempo de espera global detiene el progreso de los individuos en el recorrido **30 días** después de que entren. Este tiempo de espera se reduce a **7 días** con Healthcare Shield y ofertas adicionales de Privacy and Security Shield. Esto significa que el recorrido de una persona no puede durar más de 30 días (o 7 días). Después de este período de tiempo de espera, se eliminan los datos del individuo. Las personas que sigan fluyendo en el recorrido al final del periodo de tiempo de espera se detendrán y no se tendrán en cuenta en los informes. Por lo tanto, podría ver más personas entrando en el recorrido que saliendo.
 
 >[!NOTE]
 >
