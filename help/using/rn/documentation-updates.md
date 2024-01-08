@@ -8,16 +8,22 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
+source-git-commit: f5013f40735d424d49c2642ac824cbc6f68a3cb9
 workflow-type: tm+mt
-source-wordcount: '4216'
-ht-degree: 100%
+source-wordcount: '4236'
+ht-degree: 99%
 
 ---
 
 # Actualizaciones de documentación {#latest-updates}
 
 Esta página enumera todas las actualizaciones de documentación de [!DNL Journey Optimizer].
+
+## Enero de 2024 {#jan-2024}
+
+* Se ha detallado la administración del tiempo de espera del recorrido [en la sección siguiente](../building-journeys/journey-gs.md#global_timeout).
+* Journey Optimizer [inicio de documentación](../../ajo-home.md) se ha rediseñado la página.
+
 
 ## Noviembre de 2023 {#nov-2023}
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: ba870af16a92ffd5aae2bb4e0abb8f0cdbb8dc80
+source-git-commit: f5013f40735d424d49c2642ac824cbc6f68a3cb9
 workflow-type: tm+mt
-source-wordcount: '1779'
-ht-degree: 23%
+source-wordcount: '1769'
+ht-degree: 24%
 
 ---
 
@@ -150,7 +150,7 @@ Para obtener más información sobre la administración de huso horario, consult
 
 Puede definir un **Fecha de inicio**. Si no ha especificado ninguna, se definirá automáticamente en el momento de la publicación.
 
-También puede agregar un **Fecha de finalización**. Esto permite que los perfiles salgan automáticamente cuando se alcanza la fecha. Si no se especifica una fecha de finalización, los perfiles pueden permanecer hasta la [tiempo de espera de recorrido global](#global_timeout) (que generalmente es de 30 días y se reduce a 7 días con las ofertas adicionales de Healthcare Shield y Security and Privacy Shield). La única excepción son los recorridos de audiencia de lectura recurrentes con **Forzar reentrada en repetición** activado, que finalizan en la fecha de inicio de la siguiente incidencia.
+También puede agregar un **Fecha de finalización**. Esto permite que los perfiles salgan automáticamente cuando se alcanza la fecha. Si no se especifica una fecha de finalización, los perfiles pueden permanecer hasta la [tiempo de espera de recorrido global](#global_timeout) (que generalmente es de 30 días y se reduce a 7 días con la oferta complementaria Escudo de atención sanitaria). La única excepción son los recorridos de audiencia de lectura recurrentes con **Forzar reentrada en repetición** activado, que finalizan en la fecha de inicio de la siguiente incidencia.
 
 ### Tiempo de espera y error en actividades de recorrido {#timeout_and_error}
 
@@ -166,7 +166,7 @@ Recorrido también utiliza un tiempo de espera global. Consulte la [sección sig
 
 Además de las [timeout](#timeout_and_error) cuando se utiliza en actividades de recorrido, también se agota el tiempo de espera de recorrido global, que no se muestra en la interfaz y no se puede cambiar.
 
-Este tiempo de espera global detiene el progreso de los individuos en el recorrido **30 días** después de que entren. Este tiempo de espera se reduce a **7 días** con Healthcare Shield y ofertas adicionales de Privacy and Security Shield. Esto significa que el recorrido de una persona no puede durar más de 30 días (o 7 días). Después de este período de tiempo de espera, se eliminan los datos del individuo. Las personas que sigan fluyendo en el recorrido al final del periodo de tiempo de espera se detendrán y no se tendrán en cuenta en los informes. Por lo tanto, podría ver más personas entrando en el recorrido que saliendo.
+Este tiempo de espera global detiene el progreso de los individuos en el recorrido **30 días** después de que entren. Este tiempo de espera se reduce a **7 días** con la oferta complementaria Escudo de atención sanitaria. Esto significa que el recorrido de una persona no puede durar más de 30 días (o 7 días). Después de este período de tiempo de espera, se eliminan los datos del individuo. Las personas que sigan fluyendo en el recorrido al final del periodo de tiempo de espera se detendrán y no se tendrán en cuenta en los informes. Por lo tanto, podría ver más personas entrando en el recorrido que saliendo.
 
 >[!NOTE]
 >
