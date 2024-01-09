@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: aterrizaje, página de aterrizaje, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '943'
 ht-degree: 12%
 
 ---
@@ -92,7 +92,9 @@ Todos los usuarios que se hayan registrado en su evento recibirán el correo ele
 
 Para permitir que los destinatarios cancelen su suscripción a las comunicaciones, puede incluir en sus correos electrónicos un vínculo a una página de aterrizaje de exclusión.
 
-Obtenga más información sobre la administración del consentimiento de los destinatarios y por qué esto es importante en [esta sección](../privacy/opt-out.md).
+>[!NOTE]
+>
+>Obtenga más información sobre la administración del consentimiento de los destinatarios y por qué esto es importante en [esta sección](../privacy/opt-out.md).
 
 ### Administración de exclusiones {#opt-out-management}
 
@@ -103,7 +105,7 @@ Por lo tanto, siempre debe incluir un **enlace para cancelar la suscripción** e
 * Al hacer clic en este vínculo, los destinatarios se dirigen a una página de aterrizaje que incluye un botón para confirmar la exclusión.
 * Al hacer clic en el botón de exclusión, los datos de perfil se actualizan con esta información.
 
-### Configuración de la exclusión {#configure-opt-out}
+### Configuración de la exclusión de correo electrónico {#configure-opt-out}
 
 Para permitir que los destinatarios de un correo electrónico cancelen su suscripción a las comunicaciones a través de una página de aterrizaje, siga los pasos a continuación.
 
