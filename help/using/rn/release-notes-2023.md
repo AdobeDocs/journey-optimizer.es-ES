@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 001117b273355b18a2f429ed686c30afd6d99e89
+source-git-commit: fa641124777093914e1d9bc03b28dbf42d9764d6
 workflow-type: tm+mt
-source-wordcount: '4125'
-ht-degree: 100%
+source-wordcount: '4121'
+ht-degree: 99%
 
 ---
 
@@ -118,11 +118,9 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Recorridos**
 
-* Al duplicar un recorrido, puede definir el nombre de la copia. [Más información](../building-journeys/journey-gs.md#uplicate-a-journey)
+* Al duplicar un recorrido, puede definir el nombre de la copia. [Más información](../building-journeys/journey-gs.md#duplicate-a-recorrido
 
-
-
-* La compatibilidad con las respuestas de acciones personalizadas ahora es GA. Esto permite aprovechar las respuestas de las llamadas de la API en acciones personalizadas y organizar su recorrido en función de estas respuestas. Además, se ha añadido un nuevo mecanismo de protección para limitar todas las acciones habituales a 150 000 llamadas en 30 segundos por extremo. [Más información](../action/action-response.md)
+* La compatibilidad con las respuestas de acciones personalizadas ahora es GA. Esto permite aprovechar las respuestas de las llamadas de la API en acciones personalizadas y organizar su recorrido en función de estas respuestas. Además, una [nueva protección de cierre](../start/guardrails.md#custom-actions-g) se ha agregado para limitar automáticamente las llamadas de acción personalizadas. [Más información](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
