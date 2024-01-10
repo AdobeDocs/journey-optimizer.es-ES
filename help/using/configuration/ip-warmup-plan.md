@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+source-git-commit: 2060b18bfcc62e02127776f05de1448378a7a06a
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 7%
+source-wordcount: '1558'
+ht-degree: 6%
 
 ---
 
@@ -81,6 +81,10 @@ Esta actividad se realiza típicamente con la ayuda de un experto en capacidad d
 <!--When working with the [!DNL Journey Optimizer] IP warmup feature, this plan takes the form of an Excel file that must contain a number of predefined columns.-->
 
 Antes de poder crear un plan de calentamiento de IP en la [!DNL Journey Optimizer] , debe rellenar una plantilla de Excel con todos los datos que alimentan su plan.
+
+* Aquí puede descargar el espacio en blanco [Plantilla de plan de calentamiento IP de Excel](assets/ip-warmup-csv.zip) para rellenar.
+
+* También puede descargar una [plantilla de plan de calentamiento de IP de muestra](assets/sample-ip-warmup-plan.zip) ya se ha rellenado con algunos datos que puede utilizar como ejemplo.
 
 >[!CAUTION]
 >
@@ -295,7 +299,7 @@ Para crear un plan de calentamiento de IP, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >En caso de que la carga falle, asegúrese de que está utilizando el formato y el formato de archivo correctos (.xls o .xlsx). Utilice la muestra que le proporciona el Adobe.
+   >En caso de que la carga falle, asegúrese de que está utilizando el formato y el formato de archivo correctos (.xls o .xlsx). Utilice el [muestra](assets/ip-warmup-csv.zip) que le proporcione el Adobe.
 
 1. Haga clic en **[!UICONTROL Crear]**. Todas las fases, ejecuciones, columnas y su contenido definido en el archivo cargado se muestran automáticamente en [!DNL Journey Optimizer] interfaz.
 
