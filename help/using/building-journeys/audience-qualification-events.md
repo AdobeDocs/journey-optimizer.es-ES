@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: calificación, eventos, audiencia, recorrido, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1011'
 ht-degree: 8%
 
 ---
@@ -40,6 +40,8 @@ Este tipo de evento se puede colocar como primer paso o más tarde en el recorri
 * Los grupos de campos de evento de experiencia no se pueden usar en recorridos que comiencen por una audiencia de lectura, una calificación de audiencia o una actividad de evento empresarial.
 
 * Cuando se utiliza una calificación de público en un recorrido, esa actividad de calificación de público puede tardar hasta 10 minutos en estar activa y en escuchar los perfiles que entran o salen del público.
+
+* Como práctica recomendada, le recomendamos que solo utilice audiencias de streaming para **Calificación de audiencia** actividad. Para casos de uso por lotes, utilice **[Leer audiencia](read-audience.md)** actividad.
 
 ### Configuración de la actividad{#cnfigure-segment-qualification}
 

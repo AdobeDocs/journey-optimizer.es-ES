@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, lectura, audiencia, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
+source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 11%
+source-wordcount: '1398'
+ht-degree: 10%
 
 ---
 
@@ -34,6 +34,8 @@ Veamos como ejemplo la audiencia &quot;Apertura y cierre de compra de la aplicac
 * Para los recorridos que utilizan la actividad Leer público, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con Leer público, programados o que se inicien “lo antes posible”) que empiecen al mismo tiempo. Para ello, repártalos a lo largo del tiempo, por ejemplo, en intervalos de 5 y 10 minutos.
 
 * Los grupos de campos de evento de experiencia no se pueden usar en recorridos que comiencen por una audiencia de lectura, una calificación de audiencia o una actividad de evento empresarial.
+
+* Como práctica recomendada, le recomendamos que solo utilice audiencias por lotes en un **Leer audiencia** actividad. Esto proporciona un recuento fiable y coherente de las audiencias utilizadas en un recorrido. La audiencia de lectura está diseñada para casos de uso por lotes. Si su caso de uso necesita datos en tiempo real, utilice **[Calificación de audiencia](audience-qualification-events.md)** actividad.
 
 * Por ahora, el uso de audiencias [importado de un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o resultantes de [flujos de trabajo de composición](../audience/get-started-audience-orchestration.md) en recorrido está disponible como una versión beta privada. Para obtener más información, contacte con su representante de Adobe.
 
