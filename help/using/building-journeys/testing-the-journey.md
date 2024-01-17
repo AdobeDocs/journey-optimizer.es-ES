@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1535'
 ht-degree: 10%
 
 ---
@@ -61,7 +61,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 
 ## Notas importantes {#important_notes}
 
-* En el modo de prueba, puede activar eventos mediante la interfaz.
+* En el modo de prueba, puede activar eventos mediante la interfaz. Los eventos no se pueden activar desde sistemas externos mediante una API.
 * Solo se permite a las personas marcadas como &quot;perfiles de prueba&quot; en el servicio Perfil del cliente en tiempo real entrar en el recorrido probado. Consulte esta [sección](../audience/creating-test-profiles.md).
 * El modo de prueba solo está disponible en recorridos de borrador que utilizan un área de nombres. El modo de prueba debe comprobar si una persona que entra en el recorrido es un perfil de prueba o no y, por lo tanto, debe poder acceder a Adobe Experience Platform.
 * El número máximo de perfiles de prueba que puede introducir un recorrido durante una sesión de prueba es de 100.
@@ -126,7 +126,7 @@ Tenga en cuenta que cuando se déclencheur un evento empresarial por primera vez
 >title="Registros del modo de prueba"
 >abstract="El botón Mostrar registro muestra los resultados de las pruebas en formato JSON. Estos resultados muestran el número de particulares dentro del recorrido y su estado."
 
-El **[!UICONTROL Mostrar registro]** permite ver los resultados de la prueba. Esta página muestra la información actual del recorrido en formato JSON. Un botón permite copiar nodos completos. Debe actualizar manualmente la página para actualizar los resultados de la prueba de la recorrido.
+El **[!UICONTROL Mostrar registro]** permite ver los resultados de la prueba. Esta página muestra la información actual del recorrido en formato JSON. Un botón permite copiar nodos completos. Debe actualizar manualmente la página para actualizar los resultados de la prueba del recorrido.
 
 ![](assets/journeytest3.png)
 
@@ -139,7 +139,7 @@ Se muestra el número de individuos (técnicamente, se denominan instancias) que
 
 * _Id_: el ID interno del individuo en la recorrido. Se puede utilizar con fines de depuración.
 * _etapa actual_: la etapa en la que el individuo se encuentra en el recorrido. Recomendamos añadir etiquetas a las actividades para identificarlas más fácilmente.
-* _etapa actual_ > fase: el estado del recorrido de la persona (en ejecución, terminado, error o tiempo de espera agotado). Para obtener más información, vaya más abajo.
+* _etapa actual_ > fase: el estado del recorrido del individuo (en ejecución, terminado, error o tiempo de espera agotado). Para obtener más información, vaya más abajo.
 * _etapa actual_ > _extraInfo_: descripción del error y otra información contextual.
 * _etapa actual_ > _fetchErrors_: información sobre los errores de recuperación de datos que se produjeron durante este paso.
 * _externalKeys_: el valor de la fórmula clave definida en el evento.

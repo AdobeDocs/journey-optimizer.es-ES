@@ -7,9 +7,9 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '297'
 ht-degree: 100%
 
 ---
@@ -47,7 +47,6 @@ La siguiente tabla indica qué acciones sobre qué recursos de Journey Optimizer
 | Plantilla HTML de página de aterrizaje de AJO | Creación/eliminación/actualización |
 | Ajuste preestablecido de página de aterrizaje de AJO | Creación/eliminación/actualización |
 | Subdominio de página de aterrizaje de AJO | Creación/eliminación/actualización |
-| Mensaje de AJO | Creación/eliminación/actualización/publicación |
 | Ajuste preestablecido de mensaje de AJO | Creación/eliminación/actualización |
 | Registro de PTR de AJO | Creación/eliminación/actualización |
 | Plantilla de expresión guardada de AJO | Creación/eliminación/actualización |
