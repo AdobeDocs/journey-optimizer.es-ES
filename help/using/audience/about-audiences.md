@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: a53af66d052ee8041164184755ba80e4ab3cca0a
+source-git-commit: cdcce470481393c821d1c5df95639602510a690a
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 44%
+source-wordcount: '991'
+ht-degree: 43%
 
 ---
 
@@ -37,14 +37,17 @@ Las audiencias se pueden generar mediante diferentes métodos:
 * **Importación de archivo CSV**: importe una audiencia mediante un archivo CSV. Obtenga información sobre cómo importar audiencias en Adobe Experience Platform [Documentación del Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 * **Composición de audiencia**: Cree un flujo de trabajo de composición para combinar las audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (dividir, excluir...) para crear nuevas audiencias. [Introducción a Composición de públicos](get-started-audience-orchestration.md)
 
-## Uso de públicos en [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+## Audiencias de Target en [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
 Puede seleccionar en campañas y recorridos cualquier audiencia de Adobe Experience Platform generada mediante [definiciones de segmentos](../audience/creating-a-segment-definition.md).
 
 >[!NOTE]
 >
->Además, también puede segmentar audiencias de Adobe Experience Platform creadas con [composiciones de audiencia](../audience/get-started-audience-orchestration.md) o [cargado desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. Estas funcionalidades están disponibles actualmente como una versión Private Beta.
-
+>Por ahora, las audiencias resultantes de [composiciones de audiencia](../audience/get-started-audience-orchestration.md) solo se puede segmentar en campañas de. Esta capacidad está disponible como una versión beta privada para recorridos.
+>
+>El uso de audiencias [cargado desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} en campañas y recorridos está disponible actualmente como una versión beta privada.
+>
+>Para obtener más información, contacte con su representante de Adobe.
 
 Puede aprovechar los públicos en **[!DNL Journey Optimizer]** de maneras diferentes:
 
