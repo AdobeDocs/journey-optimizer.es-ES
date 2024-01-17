@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d18b24f6afcd64745fe7bd3b3bc9832342b91c7b
+source-git-commit: a53af66d052ee8041164184755ba80e4ab3cca0a
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 47%
+source-wordcount: '970'
+ht-degree: 44%
 
 ---
 
@@ -27,9 +27,15 @@ ht-degree: 47%
 >title="Selección del público de la campaña"
 >abstract="Esta lista muestra todos los públicos de Adobe Experience Platform disponibles. Seleccione el público al que se dirige la campaña. El mensaje configurado en la campaña se envía a todas las personas que pertenecen al público seleccionado. [Más información sobre los públicos](../audience/about-audiences.md)"
 
-Una audiencia es un conjunto de personas que comparten comportamientos o características similares. Adobe Experience Platform puede generarlos utilizando definiciones de segmentos o composición de audiencias, o importarlos desde un archivo CSV. Obtenga más información sobre las audiencias en [Documentación del Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"}.
+Una audiencia es un conjunto de personas que comparten comportamientos o características similares. Obtenga más información sobre las audiencias en [Documentación del Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"}.
 
 [!DNL Journey Optimizer] le permite crear audiencias de Adobe Experience Platform directamente desde el **[!UICONTROL Audiencias]** y aprovecharlos en sus recorridos o campañas.
+
+Las audiencias se pueden generar mediante diferentes métodos:
+
+* **Definiciones de segmentos**: cree una nueva definición de audiencia con el servicio de segmentación de Adobe Experience Platform. [Obtenga información sobre cómo crear definiciones de segmentos](creating-a-segment-definition.md)
+* **Importación de archivo CSV**: importe una audiencia mediante un archivo CSV. Obtenga información sobre cómo importar audiencias en Adobe Experience Platform [Documentación del Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
+* **Composición de audiencia**: Cree un flujo de trabajo de composición para combinar las audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (dividir, excluir...) para crear nuevas audiencias. [Introducción a Composición de públicos](get-started-audience-orchestration.md)
 
 ## Uso de públicos en [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
