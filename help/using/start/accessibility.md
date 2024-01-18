@@ -7,10 +7,10 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 72e192538b6dd2f0cf50e4d6ce8d5b2b789308d4
+source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 100%
+source-wordcount: '535'
+ht-degree: 96%
 
 ---
 
@@ -88,8 +88,7 @@ Puede utilizar estos métodos abreviados en áreas específicas de la [!DNL Jour
     <td>MAYÚS + teclas de FLECHA</td>
   </tr>  
   <tr>
-
-<td rowspan="3">
+  <td rowspan="3">
   Panel de configuración de estos elementos:
 <ul>
   <li>Actividad en un recorrido</li>
@@ -97,8 +96,7 @@ Puede utilizar estos métodos abreviados en áreas específicas de la [!DNL Jour
   <li>Fuente de datos</li>
   <li>Acción</li>
 </ul>
-
-</td>
+  </td>
     <td>Mover al campo siguiente que se va a configurar</td>
     <td>Tabulación</td>
   </tr>
@@ -120,11 +118,7 @@ Puede utilizar estos métodos abreviados en áreas específicas de la [!DNL Jour
     <td>E</td>
   </tr>
   <tr>
-    <td>
-
-Activación de un evento en un recorrido basado en el público para el cual la opción **[!UICONTROL Un solo perfil a la vez]** está activada
-
-</td>
+    <td>Almacenar en déclencheur un evento en un recorrido basado en audiencias para el cual la opción **[!UICONTROL Un solo perfil a la vez]** está activada</td>
     <td>P</td>
   </tr>
   <tr>
