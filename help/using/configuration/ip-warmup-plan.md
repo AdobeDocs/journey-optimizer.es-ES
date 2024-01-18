@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: da90e817edac44712f6f137d13574165c834e53a
+source-git-commit: a5b3cd4eba18789d6014a7288ce6b0678a07982e
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 6%
+source-wordcount: '1577'
+ht-degree: 5%
 
 ---
 
@@ -82,9 +82,14 @@ Esta actividad se realiza típicamente con la ayuda de un experto en capacidad d
 
 Antes de poder crear un plan de calentamiento de IP en la [!DNL Journey Optimizer] , debe rellenar una plantilla de Excel con todos los datos que alimentan su plan.
 
-* Desde la interfaz de usuario puede descargar el archivo de Excel en blanco [Plantilla de plan de calentamiento de IP](assets/IPWarmupPlan-Template.xlsx) para rellenar.
+<!--
+* From the user interface you can download the blank Excel [IP warmup plan template](assets/IPWarmupPlan-Template.xlsx) to fill in.
 
-* También puede descargar una [ejemplo de plan de calentamiento de IP](assets/IPWarmupPlan-Sample.xlsx) ya se ha rellenado con algunos datos que puede utilizar como ejemplo.
+* You can also download a [sample IP warmup plan](assets/IPWarmupPlan-Sample.xlsx) already filled in with some data you can use as an example.-->
+
+* Desde la interfaz de usuario puede descargar la plantilla de plan de calentamiento IP de Excel en blanco para rellenarla.
+
+* También puede descargar un ejemplo de plan de calentamiento de IP ya rellenado con algunos datos que puede utilizar como ejemplo.
 
 >[!CAUTION]
 >
@@ -265,7 +270,8 @@ Cada dominio ahora se muestra en una columna diferente en la misma fila.
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="Especificación del plan de calentamiento de IP"
->abstract="Descargue la plantilla CSV y rellénela con datos de las fases de calentamiento de IP y el número de destino de los perfiles."
+>abstract="Rellene la plantilla de Excel con todos los datos que alimentan el plan, como las fases de calentamiento de IP y el número de destinatarios de perfiles, y cárguelo aquí."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="Preparar el archivo de plan de calentamiento de IP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
