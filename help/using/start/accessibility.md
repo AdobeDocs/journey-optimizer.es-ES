@@ -7,7 +7,7 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 1f747604a8658a285c5ec67018c70cd58d2fb068
+source-git-commit: 72e192538b6dd2f0cf50e4d6ce8d5b2b789308d4
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 100%
@@ -88,10 +88,9 @@ Puede utilizar estos métodos abreviados en áreas específicas de la [!DNL Jour
     <td>MAYÚS + teclas de FLECHA</td>
   </tr>  
   <tr>
-  <td rowspan="3">
 
-Panel de configuración de estos elementos:
-
+<td rowspan="3">
+  Panel de configuración de estos elementos:
 <ul>
   <li>Actividad en un recorrido</li>
   <li>Evento</li>
