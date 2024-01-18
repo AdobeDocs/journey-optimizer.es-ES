@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bf7f09f644beb869cf30733e57754d8cf0408c9e
+source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
 workflow-type: tm+mt
-source-wordcount: '4247'
+source-wordcount: '4258'
 ht-degree: 99%
 
 ---
@@ -24,7 +24,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha añadido una protección sobre el tamaño del recorrido. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
 * Se ha detallado la administración del tiempo de espera del recorrido [en la sección siguiente](../building-journeys/journey-gs.md#global_timeout).
 * Journey Optimizer [inicio de documentación](../../ajo-home.md) se ha rediseñado la página.
-
+* Se ha añadido Recommendations acerca de la actividad Actualizar perfiles. [Más información](../building-journeys/update-profiles.md)
 
 ## Noviembre de 2023 {#nov-2023}
 

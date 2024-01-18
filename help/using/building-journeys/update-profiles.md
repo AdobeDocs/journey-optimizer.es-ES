@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: perfil, actualizar, recorrido, actividad
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 8%
+source-wordcount: '535'
+ht-degree: 7%
 
 ---
 
@@ -33,6 +33,8 @@ Utilice el **[!UICONTROL Actualizar perfil]** actividad de acción para actualiz
 * Al igual que cualquier otra acción, puede definir una ruta alternativa en caso de error o tiempo de espera, y no puede colocar dos acciones en paralelo.
 * La solicitud de actualización enviada a Adobe Experience Platform es inmediata o está en un segundo. Tardará normalmente unos segundos, pero a veces más sin garantía. Como resultado, por ejemplo, si una acción utiliza &quot;campo 1&quot; actualizado por un **Actualizar perfil** acción colocada justo antes, no debería esperar que el &quot;campo 1&quot; se actualice en la acción.
 * El **Actualizar perfil** La actividad no admite campos XDM definidos como una enumeración.
+* El **[!UICONTROL Actualizar perfil]** la actividad solo actualiza el [Almacenamiento de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, no el lago de datos.
+* Al seleccionar un conjunto de datos en la **[!UICONTROL Actualizar perfil]** actividad, se recomienda utilizar una no dirigida por los flujos de ingesta de datos. **[!UICONTROL Actualizar perfil]** las actualizaciones solo se almacenan en [Almacenamiento de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}Sin embargo, existe el riesgo de sobrescribir este cambio con un flujo de ingesta de datos.
 
 ## Uso de la actualización de perfiles
 
