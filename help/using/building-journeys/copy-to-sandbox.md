@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: zona protegida, recorrido, copiar, entorno
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+source-git-commit: b7c31db7a126eb134c353e26c9e263a9bd1674a6
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '743'
 ht-degree: 9%
 
 ---
@@ -46,7 +46,7 @@ En esta página se describe el caso de uso de las herramientas de entorno limita
 
 >[!NOTE]
 >
->Esta función requiere los siguientes permisos: manage-sandbox (o view-sandbox) y manage-package.
+>Esta función requiere los siguientes permisos del **Administración de zona protegida** Capacidad: Administrar zonas protegidas (o Ver zonas protegidas) y Administrar paquetes. [Más información](../administration/ootb-permissions.md)
 
 ## Introducción a las herramientas para espacios aislados{#sandbox-gs}
 

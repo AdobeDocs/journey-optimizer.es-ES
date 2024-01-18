@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: permisos, creación, mensajes
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
+source-git-commit: b7c31db7a126eb134c353e26c9e263a9bd1674a6
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '746'
 ht-degree: 2%
 
 ---
@@ -40,6 +40,6 @@ Los permisos integrados representan los diferentes permisos que se pueden asigna
 | Recorridos | **[!DNL Manage journeys]**: leer, crear, editar y eliminar recorridos.</br>**[!DNL View journeys]**: acceso de solo lectura a recorridos.</br>**[!DNL Publish journeys]**: publicar recorridos.</br>**[!DNL Manage journeys events, data sources and actions]**: leer, crear, editar y eliminar eventos, fuentes o acciones.</br>**[!DNL View journeys events, data sources and actions]**: Acceso de solo lectura a eventos de recorrido, acciones personalizadas de recorrido y fuentes de datos de recorrido.</br>**[!DNL View journeys report]**: lea y edite el informe recorridos.</br> |
 | Administración de perfiles | **[!DNL Manage profiles]**: lea, cree, edite y elimine conjuntos de datos que se utilizan para perfiles de clientes. Acceso de solo lectura a perfiles disponibles.</br>**[!DNL View profiles]**: acceso de solo lectura a perfiles disponibles.</br>**[!DNL Export audience segments]**: exporte un segmento de audiencia evaluado a un conjunto de datos.</br>**[!DNL View segments]**: acceso de solo lectura a audiencias disponibles.</br>**[!DNL Evaluate a segment to an audience]**: genere perfiles para una audiencia mediante la evaluación de una definición de segmento.</br>**[!DNL Manage merge policies]**: leer, crear, editar y eliminar políticas de combinación.</br>**[!DNL View merge policies]**: acceso de solo lectura a las políticas de combinación disponibles. |
 | Servicio de consultas | **[!DNL Manage queries]**: leer, crear, editar y eliminar consultas SQL estructuradas para datos de Platform.</br>**[!DNL Manage query service integration]**: cree, actualice y elimine credenciales que no caduquen para el acceso al Servicio de consultas. |
-| Administración de zona protegida | **[!DNL Manage sandboxes]**: leer, crear, editar y eliminar entornos limitados.</br>**[!DNL View sandboxes]**: acceso de solo lectura para zonas protegidas que pertenecen a su organización.</br>**[!DNL Reset sandboxes]**: capacidad para restablecer una zona protegida.</br>**[!DNL Export sandboxes]**: capacidad para exportar una zona protegida. |
+| Administración de zona protegida | **[!DNL Manage sandboxes]**: leer, crear, editar y eliminar entornos limitados.</br>**[!DNL View sandboxes]**: acceso de solo lectura para zonas protegidas que pertenecen a su organización.</br>**[!DNL Reset sandboxes]**: capacidad para restablecer una zona protegida.</br>**[!DNL Export sandboxes]**: capacidad para exportar una zona protegida.</br>**[!DNL Manage packages]**: leer, crear, editar y eliminar paquetes. |
 
 {style="table-layout:fixed"}
