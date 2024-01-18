@@ -6,36 +6,34 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 6%
+source-wordcount: '122'
+ht-degree: 9%
 
 ---
 
 
 # Eliminación de un cualificador de colección {#delete-tag}
 
-En ocasiones puede ser necesario quitar (DELETE) un calificador de colección (anteriormente conocido como &quot;etiqueta&quot;). Solo se pueden eliminar los calificadores de colección que cree en el contenedor de inquilino. Esto se hace realizando una solicitud de DELETE a [!DNL Offer Library] API que utiliza el $id del calificador de recopilación que desea eliminar.
+En ocasiones puede ser necesario quitar (DELETE) un calificador de colección (anteriormente conocido como &quot;etiqueta&quot;). Para ello, realice una solicitud de DELETE a la API de la biblioteca de ofertas utilizando el ID del calificador de colección que desee eliminar.
 
 **Formato de API**
 
 ```http
-DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
+DELETE /{ENDPOINT_PATH}/tags/{ID}
 ```
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | El contenedor donde se encuentran los calificadores de colección. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | El ID de instancia del calificador de recopilación que desea actualizar. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API de persistencia. | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | El ID de la entidad que desea eliminar. | `tag1234` |
 
 **Solicitud**
 
 ```shell
-curl -X DELETE \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/d48fd160-13dc-11eb-bc55-c11be7252432' \
-  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+curl -X DELETE 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
+-H 'Content-Type: application/json' \
 -H 'Authorization: Bearer  {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
@@ -44,6 +42,6 @@ curl -X DELETE \
 
 **Respuesta**
 
-Una respuesta correcta devuelve el estado HTTP 202 (sin contenido) y un cuerpo en blanco.
+Una respuesta correcta devuelve el estado HTTP 200 y un cuerpo en blanco.
 
-Para confirmar la eliminación, intente realizar una solicitud de búsqueda (GET) al calificador de recopilación. Deberá incluir un encabezado Aceptar en la solicitud, pero deberá recibir el estado HTTP 404 (no encontrado) porque el calificador de recopilación se ha eliminado del contenedor.
+Para confirmar la eliminación, intente realizar una solicitud de búsqueda (GET) al calificador de recopilación. Debe recibir el estado HTTP 404 (no encontrado) porque se ha eliminado el calificador de recopilación.

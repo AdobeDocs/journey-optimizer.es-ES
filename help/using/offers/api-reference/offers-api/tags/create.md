@@ -6,68 +6,65 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 11%
+source-wordcount: '121'
+ht-degree: 13%
 
 ---
 
 
 # Creación de un cualificador de colección {#create-tag}
 
-Puede crear un calificador de colección (anteriormente conocido como &quot;etiqueta&quot;) realizando una solicitud de POST a [!DNL Offer Library] API, al tiempo que proporciona su ID de contenedor.
+Puede crear un calificador de colección (anteriormente conocido como &quot;etiqueta&quot;) realizando una solicitud de POST a la API de la biblioteca de ofertas.
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* y *Aceptar* campos en el encabezado de la solicitud:
+La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* campos en el encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
-| Aceptar | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
+| Content-Type | `application/json` |
 
 **Formato de API**
 
 ```http
-POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
+POST /{ENDPOINT_PATH}/tags
 ```
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | El contenedor donde se encuentran los calificadores de colección. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API de persistencia. | `https://platform.adobe.io/data/core/dps/` |
 
 **Solicitud**
 
 ```shell
-curl -X POST \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances' \
-  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
-  -H 'Content-Type: application/schema-instance+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"' \
+curl -X POST 'https://platform.adobe.io/data/core/dps/tags' \
+-H 'Content-Type: application/json' \
 -H 'Authorization: Bearer {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
 -H 'x-sandbox-name: {SANDBOX_NAME}' \
 -d '{        
-        "xdm:name": "Holiday sales and promotions"
+    "name": "Black Friday",
+    "description": "Tag for black friday"
 }'
 ```
 
 **Respuesta**
 
-Una respuesta correcta devuelve información sobre el cualificador de recopilación recién creado, incluido su ID de instancia y ubicación únicos `@id`. Puede usar el ID de instancia en pasos posteriores para actualizar o eliminar el calificador de recopilación. Puede utilizar el calificador de colección único `@id` en tutoriales posteriores para crear colecciones y ofertas personalizadas.
+Una respuesta correcta devuelve información sobre el calificador de colección recién creado, incluido su identificador único `id`. Puede usar el complemento `id` en pasos posteriores para actualizar o eliminar el calificador de recopilación. Puede utilizar el calificador de colección único `id` en tutoriales posteriores para crear colecciones y ofertas personalizadas.
 
 ```json
 {
-    "instanceId": "d48fd160-13dc-11eb-bc55-c11be7252432",
-    "@id": "xcore:tag:124e147572cd7866",
-    "repo:etag": 1,
-    "repo:createdDate": "2020-10-21T20:34:34.486296Z",
-    "repo:lastModifiedDate": "2020-10-21T20:34:34.486296Z",
-    "repo:createdBy": "{CREATED_BY}",
-    "repo:lastModifiedBy": "{MODIFIED_BY}",
-    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+    "id": "{ID}",
+    "sandboxId": "{SANDBOX_ID}",
+    "etag": 1,
+    "createdDate": "2023-09-07T12:36:26.602Z",
+    "lastModifiedDate": "2023-09-07T12:36:26.602Z",
+    "createdBy": "{CREATED_BY}",
+    "lastModifiedBy": "{MODIFIED_BY}",
+    "createdByClientId": "{CREATED_CLIENT_ID}",
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
