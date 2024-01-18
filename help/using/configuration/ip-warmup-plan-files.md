@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Archivos de plan de calentamiento de IP
+description: Archivos de plan de calentamiento de IP
 feature: IP Warmup Plans
 topic: Administration
 role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 9b8a8b8727a55c662400dce79d6bc5bd2bad0a94
+source-git-commit: a20318a2c38d3ee97e3347439e6b02e2ef04acf6
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
