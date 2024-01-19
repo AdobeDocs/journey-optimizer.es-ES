@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: subdominio, delegación, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
+source-git-commit: ff7494b5f9ece7943aecf2628c6a338e9ee7d4b0
 workflow-type: tm+mt
-source-wordcount: '1827'
-ht-degree: 21%
+source-wordcount: '1749'
+ht-degree: 22%
 
 ---
 
@@ -85,8 +85,6 @@ Para delegar completamente un nuevo subdominio al Adobe, siga los pasos a contin
    >
    >Puede crear los registros y enviar la configuración del subdominio más adelante mediante el **[!UICONTROL Guardar como borrador]** botón. A continuación, podrá reanudar la delegación de subdominios abriéndola desde la lista de subdominios.
 
-1. Si el subdominio no tiene registros DMARC, puede establecerlos aquí. Si el subdominio tenía registros DMARC existentes y si los recuperó [!DNL Journey Optimizer], puede utilizar los mismos valores o cambiarlos según sea necesario. Más información
-
 1. Una vez enviada la delegación completa del subdominio, este se muestra en la lista con el **[!UICONTROL Procesando]** estado. Para obtener más información sobre los estados de los subdominios, consulte [esta sección](about-subdomain-delegation.md#access-delegated-subdomains).
 
    ![](assets/subdomain-processing.png)
@@ -156,8 +154,6 @@ Para delegar un subdominio mediante CNAME, siga los pasos a continuación:
    >[!NOTE]
    >
    >Puede crear los registros más adelante utilizando **[!UICONTROL Guardar como borrador]** botón. En este momento, podrá reanudar la delegación de subdominios abriéndola desde la lista de subdominios.
-
-1. Si el subdominio no tiene registros DMARC, puede establecerlos aquí. Si el subdominio tenía registros DMARC existentes y si los recuperó [!DNL Journey Optimizer], puede utilizar los mismos valores o cambiarlos según sea necesario. Más información
 
 1. Espere hasta que el Adobe compruebe que estos registros se generan sin errores en la solución de alojamiento. Este proceso puede tardar hasta 2 minutos.
 
