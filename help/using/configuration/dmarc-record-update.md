@@ -8,9 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdominio, dominio, correo, dmarc, registro
-source-git-commit: 7cbd6a9e80a8d6b87b3c3011db80549a3b5f6e73
+hide: true
+hidefromtoc: true
+source-git-commit: f9d3234a64ad659660c2d2c4ad24ab5c240cb857
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -20,7 +22,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="Obtenga más información sobre la actualización obligatoria de DMARC"
->abstract="Como parte de las prácticas recomendadas del sector, Google y Yahoo requerirán que tenga un **Registro DMARC** para cualquier dominio que utilice para enviarles correos electrónicos. Este nuevo requisito comienza el **1 de febrero de 2024**. <br>Por lo tanto, Adobe recomienda encarecidamente que se asegure de que tiene configurado el registro DMARC para todos los subdominios que ha delegado en Adobe en Journey Optimizer."
+>abstract="Como parte de las prácticas recomendadas del sector, Google y Yahoo requerirán que tenga un **Registro DMARC** para cualquier dominio que utilice para enviarles correo electrónico, a partir del **1 de febrero de 2024**. <br>Por lo tanto, debe asegurarse de tener configurado el registro DMARC para todos los subdominios que ha delegado en Adobe en Journey Optimizer."
 
 Como parte de las prácticas recomendadas del sector, Google y Yahoo requerirán que tenga un **Registro DMARC** para cualquier dominio que utilice para enviarles correos electrónicos. Este nuevo requisito comienza el **1 de febrero de 2024**.
 
@@ -32,9 +34,9 @@ Obtenga más información sobre los requisitos de Google y Yahoo en [esta secci�
 
 Por lo tanto, Adobe recomienda encarecidamente que se asegure de que tiene configurado el registro DMARC para todos los subdominios que ha delegado en Adobe en [!DNL Journey Optimizer]. Siga una de las dos opciones a continuación:
 
-* Configure DMARC en los subdominios o en el dominio principal de los subdominios, **en su solución de alojamiento**.
+* Configure DMARC en los subdominios o en el dominio principal de los subdominios, **en su solución de alojamiento**. Puedes hacerlo a partir de ahora.
 
-* Configuración de DMARC en los subdominios delegados **uso de la próxima función de [!DNL Journey Optimizer] IU de administración** - sin trabajo adicional en su solución de alojamiento.
+* Configuración de DMARC en los subdominios delegados **uso de la próxima función de [!DNL Journey Optimizer] IU de administración** - sin trabajo adicional en su solución de alojamiento. Esta función estará disponible el 30 de enero de 2024.
 
   >[!CAUTION]
   >
