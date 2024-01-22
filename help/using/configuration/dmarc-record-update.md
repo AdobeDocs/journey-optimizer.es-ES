@@ -10,7 +10,7 @@ level: Experienced
 keywords: subdominio, dominio, correo, dmarc, registro
 hide: true
 hidefromtoc: true
-source-git-commit: b67b53b7a3ea6d2daee223a5579696d0e5637c44
+source-git-commit: a93f1c81cceaee4f55cd7555284c4d8016ed4e21
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Por lo tanto, Adobe recomienda encarecidamente que se asegure de que tiene confi
    * Configure DMARC en los subdominios o en el dominio principal de los subdominios **en su solución de alojamiento**.
    * Configuración de DMARC en los subdominios delegados **uso de la próxima función de [!DNL Journey Optimizer] IU de administración**. Sin embargo, también requerirá la entrada en su solución de alojamiento. Por lo tanto, asegúrese de coordinarse con su departamento de TI para que pueda realizar la actualización en cuanto el [!DNL Journey Optimizer] Esta función está disponible (el 30 de enero). <!--and be ready on February 1st, 2024-->
 
-Más detalles sobre la [!DNL Journey Optimizer] La próxima función de DMARC llegará pronto.
+**Más detalles sobre la [!DNL Journey Optimizer] La próxima función de DMARC llegará pronto.**
 
 >[!NOTE]
 >
