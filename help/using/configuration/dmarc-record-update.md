@@ -10,9 +10,9 @@ level: Experienced
 keywords: subdominio, dominio, correo, dmarc, registro
 hide: true
 hidefromtoc: true
-source-git-commit: f9d3234a64ad659660c2d2c4ad24ab5c240cb857
+source-git-commit: b67b53b7a3ea6d2daee223a5579696d0e5637c44
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -32,30 +32,31 @@ Obtenga más información sobre los requisitos de Google y Yahoo en [esta secci�
 >
 >Si no se cumple este nuevo requisito de Gmail y Yahoo, se espera que el resultado sea que los correos electrónicos lleguen a la carpeta de correo no deseado o que se bloqueen.
 
-Por lo tanto, Adobe recomienda encarecidamente que se asegure de que tiene configurado el registro DMARC para todos los subdominios que ha delegado en Adobe en [!DNL Journey Optimizer]. Siga una de las dos opciones a continuación:
-
-* Configure DMARC en los subdominios o en el dominio principal de los subdominios, **en su solución de alojamiento**. Puedes hacerlo a partir de ahora.
-
-* Configuración de DMARC en los subdominios delegados **uso de la próxima función de [!DNL Journey Optimizer] IU de administración** - sin trabajo adicional en su solución de alojamiento. Esta función estará disponible el 30 de enero de 2024.
-
-  >[!CAUTION]
-  >
-  >Si ha configurado [Delegación CNAME](delegate-subdomain.md#cname-subdomain-delegation) para los subdominios de envío, también se requiere alguna entrada en la solución de alojamiento. Asegúrese de coordinar con su departamento de TI para que pueda realizar la actualización tan pronto como el [!DNL Journey Optimizer] Esta función está disponible (el 30 de enero de 2024). <!--and be ready on February 1st, 2024-->
-
-  Más detalles sobre la [!DNL Journey Optimizer] La próxima función de DMARC llegará pronto.
+Por lo tanto, Adobe recomienda encarecidamente que se asegure de que tiene configurado el registro DMARC para todos los subdominios que ha delegado en Adobe en [!DNL Journey Optimizer]. Siga los pasos a continuación que se aplican a su caso:
 
 <!--
-* If you have [fully delegated](delegate-subdomain.md#full-subdomain-delegation) your sending subdomains to Adobe, follow either one of the two options below:
+* Set up DMARC on your subdomains, or on the parent domain of your subdomains, **in your hosting solution**. You can do it as of now.
 
-    * Set up DMARC on your subdomains or on the parent domain of your subdomains **in your hosting solution**.
+* Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI** - with no extra work on your hosting solution. This feature will be available on January 30, 2024.
 
-    * Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI** - with no extra work on your hosting solution.
+    >[!CAUTION]
+    >
+    >If you have set up [CNAME delegation](delegate-subdomain.md#cname-subdomain-delegation) for your sending subdomains, it will also require some entry into your hosting solution. Make sure you coordinate with your IT department so that they can perform the update as soon as the [!DNL Journey Optimizer] feature is available (on January 30, 2024). (and be ready on February 1st, 2024)
 
-* If you have set up [CNAME delegation](delegate-subdomain.md#cname-subdomain-delegation) for your sending subdomains, follow either one of the two options below:
-    * Set up DMARC on your subdomains or on the parent domain of your subdomains **in your hosting solution**.
-    * Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI**. However, it will also require entry in your hosting solution. Consequently, make sure you coordinate with your IT department so that they can perform the update as soon as the [!DNL Journey Optimizer] feature is available (on January, 30) - and be ready on February 1st, 2024.
-    
+    More details on the [!DNL Journey Optimizer] DMARC upcoming feature will come soon.
 -->
+
+* Si tiene [totalmente delegado](delegate-subdomain.md#full-subdomain-delegation) Para enviar subdominios al Adobe, siga una de las dos opciones a continuación:
+
+   * Configure DMARC en el dominio principal de los subdominios delegados **en su solución de alojamiento**.
+
+   * Configuración de DMARC en los subdominios delegados **uso de la próxima función de [!DNL Journey Optimizer] IU de administración** - sin trabajo adicional en su solución de alojamiento.
+
+* Si ha configurado [Delegación CNAME](delegate-subdomain.md#cname-subdomain-delegation) para los subdominios de envío, siga una de las dos opciones a continuación:
+   * Configure DMARC en los subdominios o en el dominio principal de los subdominios **en su solución de alojamiento**.
+   * Configuración de DMARC en los subdominios delegados **uso de la próxima función de [!DNL Journey Optimizer] IU de administración**. Sin embargo, también requerirá la entrada en su solución de alojamiento. Por lo tanto, asegúrese de coordinarse con su departamento de TI para que pueda realizar la actualización en cuanto el [!DNL Journey Optimizer] Esta función está disponible (el 30 de enero). <!--and be ready on February 1st, 2024-->
+
+Más detalles sobre la [!DNL Journey Optimizer] La próxima función de DMARC llegará pronto.
 
 >[!NOTE]
 >
