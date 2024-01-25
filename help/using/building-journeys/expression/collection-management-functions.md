@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: consulta, colecciones, funciones, carga útil, recorrido
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2ab738463ebad087c9fe9768b7bc7f634cf46ea6
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '633'
 ht-degree: 3%
 
 ---
@@ -169,10 +169,11 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** solo está disponible al manipular colecciones de eventos y **currentDataPackField**
->al manipular colecciones de fuentes de datos. Al procesar colecciones con **[!UICONTROL todo]**, **[!UICONTROL primero]** y **[!UICONTROL último]**, nosotros
->en cada elemento de la colección uno a uno. **[!UICONTROL currentEventField]** y **currentDataPackField**
->corresponde al elemento que se está reproduciendo en bucle.
+>**[!UICONTROL currentEventField]** solo está disponible al manipular colecciones de eventos, **[!UICONTROL currentDataPackField]**
+al manipular colecciones de fuentes de datos y **[!UICONTROL currentActionField]** al manipular colecciones de respuestas de acciones personalizadas.
+>
+>Al procesar colecciones con **[!UICONTROL todo]**, **[!UICONTROL primero]** y **[!UICONTROL último]**, nosotros
+>en cada elemento de la colección uno a uno. **[!UICONTROL currentEventField]**, **currentDataPackField** y **[!UICONTROL currentActionField]** corresponde al elemento que se está reproduciendo en bucle.
 
 **Las funciones &quot;first(`<condition>`)&quot; y &quot;last(`<condition>`)&quot;**
 
