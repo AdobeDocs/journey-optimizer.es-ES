@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorrido, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 5d20a720ddfb2907a1f3ebaff3c67b9f5628f9d7
+source-git-commit: 410db8a56781c5442122f92fa692a3ce4e03a5f9
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 4%
+source-wordcount: '619'
+ht-degree: 6%
 
 ---
 
@@ -212,4 +212,9 @@ currentActionField.description == "abc"
 )
 ```
 
-Para obtener más información sobre las referencias de campo, consulte [esta sección](../building-journeys/expression/field-references.md).
+## Recursos adicionales
+
+Para obtener más información, consulte estas páginas:
+
+* [Referencias de campo](../building-journeys/expression/field-references.md).
+* [Funciones de administración de colecciones](../building-journeys/expression/collection-management-functions.md)
