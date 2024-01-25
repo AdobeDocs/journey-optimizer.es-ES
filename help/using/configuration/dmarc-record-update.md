@@ -11,7 +11,7 @@ keywords: subdominio, dominio, correo, dmarc, registro
 source-git-commit: 7d5a2a9b80110505688b5bfda2e286c7a6432441
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
->title="Obtenga más información sobre la actualización obligatoria de DMARC"
->abstract="Como parte de las prácticas recomendadas del sector, Google y Yahoo requerirán que tenga un **Registro DMARC** para cualquier dominio que utilice para enviarles correo electrónico, a partir del **1 de febrero de 2024**. <br>Por lo tanto, debe asegurarse de tener configurado el registro DMARC para todos los subdominios que ha delegado en Adobe en Journey Optimizer."
+>title="Más información sobre la actualización obligatoria de DMARC"
+>abstract="Como parte del cumplimiento de las prácticas recomendadas del sector, Google y Yahoo requerirán que tenga un **registro DMARC** para cualquier dominio que utilice para enviarles correo electrónico, a partir del **1 de febrero de 2024**. <br>Por lo tanto, asegúrese de tener configurado el registro DMARC para todos los subdominios que ha delegado en Adobe en Journey Optimizer."
 
 Como parte de las prácticas recomendadas del sector, Google y Yahoo requerirán que tenga un **Registro DMARC** para cualquier dominio que utilice para enviarles correos electrónicos. Este nuevo requisito comienza el **1 de febrero de 2024**.
 

@@ -15,7 +15,7 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: a5b3cd4eba18789d6014a7288ce6b0678a07982e
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -72,7 +72,7 @@ Para asignar la función correspondiente a un **[!UICONTROL Usuario]**:
 
 +++
 
-## Preparar el archivo de plan de calentamiento de IP {#prepare-file}
+## Preparación del archivo de plan de calentamiento de IP {#prepare-file}
 
 El calentamiento de IP es una actividad que consiste en aumentar gradualmente el volumen de correos electrónicos que salen de sus IP y dominios a los principales proveedores de servicios de Internet (ISP), con el fin de establecer su reputación como remitente legítimo.
 
@@ -270,8 +270,8 @@ Cada dominio ahora se muestra en una columna diferente en la misma fila.
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="Especificación del plan de calentamiento de IP"
->abstract="Rellene la plantilla de Excel con todos los datos que alimentan el plan, como las fases de calentamiento de IP y el número de destinatarios de perfiles, y cárguelo aquí."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="Preparar el archivo de plan de calentamiento de IP"
+>abstract="Rellene la plantilla de Excel con todos los datos que alimentan el plan, como las fases de calentamiento de IP y el número de destino de los perfiles, y cárguela aquí."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=es#prepare-file" text="Preparación del archivo de plan de calentamiento de IP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
