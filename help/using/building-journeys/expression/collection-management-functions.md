@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: consulta, colecciones, funciones, carga útil, recorrido
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 2ab738463ebad087c9fe9768b7bc7f634cf46ea6
+source-git-commit: 7204b475dffe9977a7af6b633cdd92a50fa39a64
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 3%
@@ -169,8 +169,7 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** solo está disponible al manipular colecciones de eventos, **[!UICONTROL currentDataPackField]**
-al manipular colecciones de fuentes de datos y **[!UICONTROL currentActionField]** al manipular colecciones de respuestas de acciones personalizadas.
+>**[!UICONTROL currentEventField]** solo está disponible al manipular colecciones de eventos, **[!UICONTROL currentDataPackField]** al manipular colecciones de fuentes de datos y **[!UICONTROL currentActionField]** al manipular colecciones de respuestas de acciones personalizadas.
 >
 >Al procesar colecciones con **[!UICONTROL todo]**, **[!UICONTROL primero]** y **[!UICONTROL último]**, nosotros
 >en cada elemento de la colección uno a uno. **[!UICONTROL currentEventField]**, **currentDataPackField** y **[!UICONTROL currentActionField]** corresponde al elemento que se está reproduciendo en bucle.
