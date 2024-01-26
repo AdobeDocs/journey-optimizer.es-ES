@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 004eb41b084f32993ec437f589e4e3d2cf7500d3
+source-git-commit: 6683bfbb5569d197a2a746620cd7edc10f45b5d1
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '474'
+ht-degree: 21%
 
 ---
 
@@ -23,98 +23,61 @@ ht-degree: 100%
 
 Las notas de la primera versión están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento. Los vínculos, las pantallas y la documentación actualizada se publican en las [notas de la versión](release-notes.md), en la fecha de la versión.
 
-## Notas de la versión preliminar de octubre de 2023 {#oct-rn-2023}
+## Notas de la versión anteriores de enero de 2024 {#oct-jan-2024}
 
-**Fecha de la versión**: 25-26 de octubre de 2023
+**Fecha de lanzamiento**: 20-31 de enero de 2024
 
-### Nuevas funciones{#oct-2023-features}
+### Nuevas funciones{#jan-2024-features}
 
 Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 
-<table>
-<thead>
-<tr>
-<th><strong>Herramientas de zona protegida</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Las herramientas de zona protegida permiten copiar objetos en varias zonas protegidas aprovechando la exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.</p>
-<!--img src="../data/assets/dataset-export-setup.png"-->
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-<!-- table>
-<thead>
-<tr>
-<th><strong>Composed audiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
-<img src="assets/channel-reports.png"/>
-<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table -->
 
 <table>
 <thead>
 <tr>
-<th><strong>Servicio de mensajes multimedia (MMS) en SMS (Beta)</strong><br/></th>
+<th><strong>Actualizaciones de entrega</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del servicio de mensajes multimedia (MMS), lo que le permite compartir imágenes, GIF o vídeos con sus clientes. Tenga en cuenta que esta función solo está disponible actualmente en versión beta con Sinch.</p>
+<p>Journey Optimizer ahora admite la tecnología de autenticación DMARC.</p>
+<p>A partir del 1 de febrero de 2024, Google y Yahoo! requerirá que tenga un registro DMARC para cualquier dominio que utilice para enviarles correo electrónico. Asegúrese de tener configurado el registro DMARC para todos los subdominios que ha delegado o que está delegando al Adobe en Journey Optimizer.</p>
 <!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>Para obtener más información, consulte la <a href="../configuration/dmarc-record-update.md">documentación detallada</a>.</p>
 </tr>
 </tbody>
 </table>
 
-### Mejoras {#oct-2023-improvements}
+
+
+### Mejoras {#jan-2024-improvements}
 
 Esta versión incorpora las mejoras que se enumeran a continuación.
 
-**Públicos**
+**Creación de informes**
 
-* Ahora puede segmentar públicos destinatarios cargados desde un archivo CSV en recorridos y campañas.
-* Ahora puede dirigirse a públicos destinatarios creados mediante la composición de públicos y aprovechar los atributos de enriquecimiento de los recorridos.
+* **Informes de canal por dominio** - Se han añadido nuevos widgets para mejorar los informes de Campaign y de Recorrido. El **Razones de rechazo por dominio**, **Enviados y entregados por dominios**, **Aperturas y clics por dominio** y **Rechazos y errores por dominio** los widgets proporcionan un desglose detallado a nivel de dominio para las métricas clave de envío y seguimiento de correo electrónico. [Más información](../reports/channel-report.md)
 
->[!AVAILABILITY]
->
->Estas funcionalidades están disponibles actualmente como una versión Private Beta.
+**Canal de SMS**
 
-<!--
-**Spam scoring for emails**
+* **Inclusión doble** : el flujo de trabajo de inclusión doble para SMS garantiza que los usuarios se incluyan explícitamente en la recepción de mensajes cuando la solicitud se inicie desde su dispositivo. Los usuarios inician el proceso de consentimiento enviando un mensaje SMS entrante. Al confirmar su consentimiento, se envía un mensaje de seguimiento en el que se solicita la verificación final. Si no existe ningún perfil de usuario, se crea tras una confirmación correcta.
 
-* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
-
-**Campañas**
-
-<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* Cuando se produce un error en una de las campañas, ahora aparece un icono de advertencia en la lista de campañas junto con el estado de la campaña.
+  Tenga en cuenta que esto solo se aplica a los proveedores de SMS de Sinch e Infobip.
 
 **Recorridos**
 
-* La duración máxima que puede definir en cualquier tiempo de espera ahora es de 29 días, en lugar de 30. Esto se aplica a:
+* **Duración de eventos de reacción** - La duración máxima que puede definir en la variable **Eventos de reacción** ahora es 29 días en lugar de 30. [Más información](../building-journeys/reaction-events.md)
 
-   * el campo **Cantidad de tiempo** en la [actividad de espera](../building-journeys/wait-activity.md)
-   * el **Período de espera de reentrada** en [propiedades del recorrido](../building-journeys/journey-gs.md#entrance)
-   * el campo **Esperar a** en la definición de tiempo de espera de los eventos [general](../building-journeys/general-events.md#events-specific-time) y [reacción](../building-journeys/reaction-events.md).
+* **Filtros de fecha** - Ahora puede utilizar fechas personalizadas para filtrar el inventario de recorridos, además de los filtros de fecha predefinidos existentes. Esto le permite refinar la lista mostrando recorridos publicados en una fecha específica, dentro de un mes en particular, a lo largo de un año completo o dentro de intervalos de tiempo especificados.
 
-**Consentimiento en la configuración del canal**
+* **Leer audiencia**  : la actividad Leer audiencia ahora se basa en el conjunto de datos de instantánea de perfil para segmentos por lotes, que solo se genera una vez, un día después de ejecutar el trabajo por lotes diario programado.
 
-* Ahora puede seleccionar una acción de marketing en el nivel de superficie de canal. Cuando se utilizan en una superficie, todas las políticas de consentimiento asociadas con esa acción de marketing se aprovechan para respetar las preferencias de los clientes.
+**Reglas de frecuencia**
+
+* **Límite de frecuencia semanal y diaria** : Ahora puede especificar el número máximo de mensajes enviados a un perfil de cliente en una semana o un día, además del mes. El límite de frecuencia se basa en el periodo de calendario seleccionado y se restablece al principio del lapso de tiempo correspondiente.
+
 
 **Gestión de decisiones**
 
-* Se han actualizado varias etiquetas relacionadas con el límite de ofertas en la interfaz de gestión de decisiones.
+* **Límite de frecuencia en Edge** : El contador de límite de frecuencia ahora se actualiza y está disponible en una decisión de API de Edge Decisioning en menos de 3 segundos.
