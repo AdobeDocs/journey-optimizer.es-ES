@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
+source-git-commit: 31d9189e8afd732875556b9caaa8e874f53597bb
 workflow-type: tm+mt
-source-wordcount: '4258'
-ht-degree: 99%
+source-wordcount: '4295'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,7 @@ Esta página enumera todas las actualizaciones de documentación de [!DNL Journe
 * Se ha detallado la administración del tiempo de espera del recorrido [en la sección siguiente](../building-journeys/journey-gs.md#global_timeout).
 * Se ha rediseñado la [página de inicio de documentación](../../ajo-home.md) de Journey Optimizer.
 * Se ha añadido Recommendations acerca de la actividad Actualizar perfiles. [Más información](../building-journeys/update-profiles.md)
+* Se ha añadido información sobre el comportamiento de los tiempos de espera en las actividades de evento de los recorridos. Cuando no se recibe ningún evento durante el período de tiempo de espera especificado, las personas continuarán el recorrido si no se define ninguna ruta de tiempo de espera. [Más información](../building-journeys/general-events.md#events-specific-time)
 
 ## Noviembre de 2023 {#nov-2023}
 
