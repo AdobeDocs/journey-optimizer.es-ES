@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: ad00f6c43e66a221385a83b8e6710fddd64233f2
+source-git-commit: fae367cbbacffbbecde4cdbf7b39b1baeec452d1
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 20%
@@ -71,7 +71,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 * **Filtros de fecha** - Ahora puede utilizar fechas personalizadas para filtrar el inventario de recorridos, además de los filtros de fecha predefinidos existentes. Esto le permite refinar la lista mostrando recorridos publicados en una fecha específica, dentro de un mes en particular, a lo largo de un año completo o dentro de intervalos de tiempo especificados.
 
-* **Leer audiencia**  : la actividad Leer audiencia ahora se basa en el conjunto de datos de instantánea de perfil para segmentos por lotes, que solo se genera una vez, un día después de ejecutar el trabajo por lotes diario programado.
+* **Leer audiencia**  : la actividad Leer audiencia ahora se basa en el conjunto de datos de instantánea de perfil para segmentos por lotes, que solo se genera una vez al día después de ejecutar el trabajo por lotes diario programado.
 
 **Reglas de frecuencia**
 
