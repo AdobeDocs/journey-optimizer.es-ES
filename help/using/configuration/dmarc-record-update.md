@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Actualización obligatoria de DMARC
+title: Cumplir con el nuevo requisito de DMARC
 description: Descubra por qué y cuándo debe establecer el registro DMARC en Journey Optimizer
 feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: subdominio, dominio, correo, dmarc, registro
-source-git-commit: 7d5a2a9b80110505688b5bfda2e286c7a6432441
+source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 14%
+source-wordcount: '526'
+ht-degree: 7%
 
 ---
 
-# Actualización obligatoria de DMARC {#dmarc-record-update}
+# Cumplir con el nuevo requisito de DMARC {#dmarc-record-update}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="Más información sobre la actualización obligatoria de DMARC"
->abstract="Como parte del cumplimiento de las prácticas recomendadas del sector, Google y Yahoo requerirán que tenga un **registro DMARC** para cualquier dominio que utilice para enviarles correo electrónico, a partir del **1 de febrero de 2024**. <br>Por lo tanto, asegúrese de tener configurado el registro DMARC para todos los subdominios que ha delegado en Adobe en Journey Optimizer."
+>abstract="Como parte de las prácticas recomendadas del sector, Google y Yahoo requerirán que tenga un **Registro DMARC** para cualquier dominio que utilice para enviarles correo electrónico, a partir del **1 de febrero de 2024**.<br>Por lo tanto, asegúrese de tener configurado el registro DMARC para todos los subdominios que ha delegado en Adobe en Journey Optimizer."
 
 Como parte de las prácticas recomendadas del sector, Google y Yahoo requerirán que tenga un **Registro DMARC** para cualquier dominio que utilice para enviarles correos electrónicos. Este nuevo requisito comienza el **1 de febrero de 2024**.
 
@@ -36,13 +36,15 @@ Por lo tanto, Adobe recomienda encarecidamente que se asegure de que tiene confi
 
    * Configure DMARC en el dominio principal de los subdominios delegados **en su solución de alojamiento**.
 
-   * Configuración de DMARC en los subdominios delegados **uso de la próxima función de [!DNL Journey Optimizer] IU de administración** - sin trabajo adicional en su solución de alojamiento.
+   * Configuración de DMARC en los subdominios delegados **en el [!DNL Journey Optimizer] IU de administración** - sin trabajo adicional en su solución de alojamiento. [Descubra cómo](dmarc-record.md#implement-dmarc)
 
-* Si ha configurado [Delegación CNAME](delegate-subdomain.md#cname-subdomain-delegation) para los subdominios de envío, siga una de las dos opciones a continuación:
+* Si ha configurado los subdominios de envío con [CNAME](delegate-subdomain.md#cname-subdomain-delegation), siga una de las dos opciones siguientes:
    * Configure DMARC en los subdominios o en el dominio principal de los subdominios **en su solución de alojamiento**.
-   * Configuración de DMARC en los subdominios delegados **uso de la próxima función de [!DNL Journey Optimizer] IU de administración**. Sin embargo, también requerirá la entrada en su solución de alojamiento. Por lo tanto, asegúrese de coordinarse con su departamento de TI para que pueda realizar la actualización en cuanto el [!DNL Journey Optimizer] Esta función está disponible (el 30 de enero). <!--and be ready on February 1st, 2024-->
+   * Configuración de DMARC en los subdominios delegados **en el [!DNL Journey Optimizer] IU de administración**. [Descubra cómo](dmarc-record.md#implement-dmarc)
 
-**Más detalles sobre la [!DNL Journey Optimizer] La próxima función de DMARC llegará pronto.**
+     Sin embargo, con la delegación CNAME, también se requerirá la entrada en la solución de alojamiento. Por lo tanto, asegúrese de coordinarse con su departamento de TI para que pueda realizar la actualización en cuanto el [!DNL Journey Optimizer] Esta función está disponible (el 30 de enero). [Más información](dmarc-record.md#implement-dmarc)
+
+**Más detalles sobre la [!DNL Journey Optimizer] Las próximas funciones de DMARC están disponibles en [esta sección](dmarc-record.md).**
 
 >[!NOTE]
 >
