@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdominio, dominio, correo, dmarc, registro
-source-git-commit: b077a19b93d27205d0133372357ee48fa9caf527
+source-git-commit: 2a1fccd05c960aca6a2764844f96e161c798d404
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 1%
@@ -111,7 +111,7 @@ Para asegurarse de que tiene configurado el registro DMARC para todos los subdom
 
 1. Guarde los cambios.
 
-## Configuración de DMARC para nuevos subdominios {#set-up-dmarc}
+### Configuración de DMARC para nuevos subdominios {#set-up-dmarc}
 
 Al delegar nuevos subdominios al Adobe en [!DNL Journey Optimizer], se creará un registro DMARC en DNS para su dominio. Siga los pasos a continuación para implementar DMARC.
 
