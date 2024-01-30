@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2757da51cf2a75855c4136cc42e06a5a00237699
+source-git-commit: bb8afe94e3a2df2b52f5190acd82265c2f780b5e
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 20%
+source-wordcount: '537'
+ht-degree: 18%
 
 ---
 
@@ -47,7 +47,21 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 </tbody>
 </table>
 
-
+<table>
+<thead>
+<tr>
+<th><strong>Manuales de casos de uso</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Aproveche un catálogo de libros de reproducción de casos de uso específicos del sector en Real-Time CDP y Journey Optimizer para abordar casos de uso comunes que puede realizar con Adobe Experience Platform y Adobe Recorrido Optimizer.</p><p>Una vez que haya elegido el manual que mejor se adapte a sus necesidades, puede habilitarlo para generar los recursos necesarios para admitir su caso de uso, como recorridos, mensajes, esquemas o segmentos.</p>
+<img src="assets/playbooks-detail.png"/>
+<!--<p>For more information, refer to the <a href="../start/">detailed documentation</a>.</p>-->
+</tr>
+</tbody>
+</table>
 
 ### Mejoras {#jan-2024-improvements}
 
