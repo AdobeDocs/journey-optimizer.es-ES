@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4b38fb1d49ad7202034752b116baff35d8ad5cc1
+source-git-commit: c650efb7a2ded5e78e3b11577a250773cec71fd3
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '549'
 ht-degree: 17%
 
 ---
@@ -56,7 +56,7 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <tbody>
 <tr>
 <td>
-<p>Aproveche un catálogo de libros de reproducción de casos de uso específicos del sector en Real-Time CDP y Journey Optimizer para abordar casos de uso comunes que puede realizar con Adobe Experience Platform y Adobe Recorrido Optimizer.</p><p>Una vez que haya elegido el manual que mejor se adapte a sus necesidades, puede habilitarlo para generar los recursos necesarios para admitir su caso de uso, como recorridos, mensajes, esquemas o segmentos.</p>
+<p>Aproveche un catálogo de libros de reproducción de casos de uso específicos del sector en Real-Time CDP y Journey Optimizer para abordar casos de uso comunes que puede realizar con Adobe Experience Platform y Adobe Recorrido Optimizer.</p><p>Una vez que haya elegido el libro de reproducción que mejor se adapte a sus necesidades, puede habilitarlo para generar los recursos necesarios para admitir su caso de uso, como recorridos, mensajes, esquemas o segmentos, y personalizarlos a su esquema para obtener un tiempo de valor más rápido.</p>
 <img src="assets/playbooks-detail.png"/>
 <!--<p>For more information, refer to the <a href="../start/">detailed documentation</a>.</p>-->
 </tr>
