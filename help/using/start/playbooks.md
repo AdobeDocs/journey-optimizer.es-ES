@@ -7,14 +7,22 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 96367ab7b3d272368b1241321932a5e53c0654d7
+source-git-commit: a16de75b2b0604d7a0d6224d03b7c53715903c07
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
 # Manuales de casos de uso {#playbooks}
+
+>[!PREREQUISITES]
+>
+>Se requieren los siguientes pasos de configuración antes de trabajar con libros de reproducción de casos de uso. Encontrará información detallada sobre cada paso en la documentación de manuales de casos de uso [Introducción a](https://experienceleague.corp.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html){target="_blank"} página.
+>
+>* Creación de una zona protegida
+>* Configuración de permisos de usuario
+>* Configuración de las superficies de canal de Journey Optimizer para notificaciones por correo electrónico, push y SMS
 
 Los libros de reproducción de casos de uso son flujos de trabajo predefinidos que tratan casos de uso comunes que puede realizar con Adobe Experience Platform y Journey Optimizer.
 
