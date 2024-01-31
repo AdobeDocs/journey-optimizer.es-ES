@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1110'
 ht-degree: 2%
 
 ---
@@ -64,7 +64,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
  <tbody>
   <tr> 
    <td> Devoluciones<br/> </td> 
-   <td> Total de errores acumulados durante el envío y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados.<br/> </td> 
+   <td> Total de errores acumulados durante el proceso de envío y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados.<br/> </td> 
 </tr> 
   <tr> 
    <td> Tasa de devoluciones<br/> </td> 
@@ -84,16 +84,16 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
 </tr>
   <tr> 
    <td> Errores<br/> </td> 
-   <td> Número total de errores que se han producido durante una entrega para evitar que se envíe a los perfiles.<br/> </td> 
+   <td> Número total de errores que se produjeron durante el proceso de envío para evitar que se enviara a los perfiles.<br/> </td> 
 </tr> 
   <tr> 
    <td> Tasa de error<br/> </td> 
-   <td> Porcentaje de errores que se han producido durante una entrega para evitar que se envíe en comparación con los correos electrónicos enviados.<br/> </td> 
+   <td> Porcentaje de errores que se produjeron durante el proceso de envío y que impiden su envío en comparación con los correos electrónicos enviados.<br/> </td> 
 </tr>
 </tr> 
   <tr> 
    <td> Motivo del error<br/> </td> 
-   <td> Nombre de la causa original específica del error. <a href="error-list.md">Más información sobre los motivos de error</a>.<br/> </td> 
+   <td> Nombre de la causa original específica del error. <a href="exclusion-list.md">Más información sobre los motivos de error</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Excluido<br/> </td> 
@@ -340,7 +340,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
 </tr>
   <tr> 
    <td> Motivo del error<br/> </td> 
-   <td> Nombre de la causa original específica del error. <a href="error-list.md">Más información sobre los motivos de error</a>.<br/> </td> 
+   <td> Nombre de la causa original específica del error. <a href="exclusion-list.md">Más información sobre los motivos de error</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Excluido<br/> </td> 
