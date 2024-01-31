@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f5013f40735d424d49c2642ac824cbc6f68a3cb9
+source-git-commit: a5027f4558526c2f3516816c12803e741c7f8dac
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 24%
+source-wordcount: '1787'
+ht-degree: 17%
 
 ---
 
@@ -50,6 +50,8 @@ Para enviar mensajes con recorridos, se requieren las siguientes configuraciones
 >title="Recorridos"
 >abstract="Diseñar recorridos de clientes para ofrecer experiencias personalizadas y contextuales. Journey Optimizer permite crear casos prácticos de orquestación en tiempo real con información contextual almacenada en eventos o fuentes de datos. La pestaña **Información general** muestra un panel con métricas clave relacionadas con los recorridos. La pestaña **Examinar** muestra la lista de recorridos existentes."
 
+### Métricas clave y lista de recorridos {#access-metrics}
+
 En la sección del menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTROL Recorridos]**. Hay dos pestañas disponibles:
 
 **Información general**: esta pestaña muestra un panel con métricas clave relacionadas con los recorridos:
@@ -69,15 +71,27 @@ En la sección del menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTRO
 
 ![](assets/journeys-browse.png)
 
-En la lista de recorridos, puede filtrarlos según su estado, tipo y versión en **[!UICONTROL Estado y versión de filtros]**. El tipo puede ser: **[!UICONTROL Evento unitario]**, **[!UICONTROL Calificación de audiencia]**, **[!UICONTROL Leer audiencia]**, **[!UICONTROL Evento empresarial]** o **[!UICONTROL Ráfaga]**.
+### Filtrar recorridos {#filter}
 
-Puede elegir mostrar solo los recorridos que utilizan un evento, un grupo de campos o una acción en **[!UICONTROL Filtros de actividad]** y **[!UICONTROL Filtros de datos]**. Además, la variable **[!UICONTROL Filtros de publicación]** permite seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar las versiones más recientes de recorridos en directo que se publicaron ayer. [Más información](../building-journeys/using-the-journey-designer.md).
+En la lista de recorridos, puede aprovechar varios filtros para restringir la lista de recorridos y mejorar la legibilidad.
 
 ![](assets/filter-journeys.png)
 
-Utilice las columnas **[!UICONTROL Última actualización]** y **[!UICONTROL Última actualización hecha por]** para comprobar cuándo se produjo la última actualización de los recorridos y quién los guardó.
+Estas son las distintas operaciones de filtrado que puede realizar:
 
-En los paneles Evento, Fuente de datos y Configuración de acciones, el campo **[!UICONTROL Utilizado en]** muestra el número de recorridos que utilizan ese evento, grupo de campos o acción en particular. Puede hacer clic en el botón **[!UICONTROL Ver recorridos]** para mostrar la lista de los recorridos correspondientes.
+* Filtre los recorridos según su estado, tipo, versión y etiquetas asignadas en **[!UICONTROL Filtros de estado y versión]**.
+
+  El tipo puede ser: **[!UICONTROL Evento unitario]**, **[!UICONTROL Calificación de audiencia]**, **[!UICONTROL Leer audiencia]**, **[!UICONTROL Evento empresarial]** o **[!UICONTROL Ráfaga]**.
+
+* Utilice el **[!UICONTROL Filtros de creación]** para filtrar los recorridos según su fecha de creación o el usuario que los ha creado.
+
+* Mostrar recorridos que utilizan un evento, un grupo de campos o una acción específicos del **[!UICONTROL Filtros de actividad]** y **[!UICONTROL Filtros de datos]**.
+
+* Utilice el **[!UICONTROL Filtros de publicación]** para seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar las versiones más recientes de recorridos en directo que se publicaron ayer.
+
+  <!--To filter journeys based on a specific date range, select **[!UICONTROL Custom]** from the **[!UICONTROL Published]** drop-down list.-->
+
+Además, en los paneles Evento, Fuente de datos y Configuración de acciones, la variable **[!UICONTROL Utilizado en]** El campo muestra el número de recorridos que utilizan ese evento, grupo de campos o acción en particular. Puede hacer clic en el botón **[!UICONTROL Ver recorridos]** para mostrar la lista de los recorridos correspondientes.
 
 ![](assets/journey3bis.png)
 
@@ -134,7 +148,7 @@ Si la variable **Permitir la reentrada** está activada, la opción **Período d
 
 Obtenga más información acerca de la administración de entrada y reentrada de perfiles, en [esta sección](entry-management.md).
 
-### Administrar acceso {#access}
+### Administrar acceso {#manage-access}
 
 Para asignar etiquetas de uso de datos personalizadas o principales al recorrido, haga clic en **[!UICONTROL Administrar acceso]** botón. [Más información sobre el Control de acceso de nivel de objeto (OLA)](../administration/object-based-access.md)
 
