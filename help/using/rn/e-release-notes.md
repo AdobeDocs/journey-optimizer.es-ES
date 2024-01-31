@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 570f50a86288378c26f967f4861f19b9da9f96cf
+source-git-commit: 97967e8043df9b75d3120e4a7bfccff700f5d57f
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '558'
 ht-degree: 16%
 
 ---
@@ -88,6 +88,8 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 * **Leer audiencia**  : la actividad Leer audiencia ahora se basa en el conjunto de datos de instantánea de perfil para segmentos por lotes, que solo se genera una vez al día después de ejecutar el trabajo por lotes diario programado, por lo que los datos se actualizarán hasta ese último trabajo por lotes diario.
 
 * **Grupos de campos** - Se ha solucionado un problema que bloqueaba los grupos de campos para poder guardarlos en determinados casos.
+
+* **Editor de expresiones** - Ahora se admite el tipo de datos listObject en todas las expresiones y en funciones adicionales. [Más información](../building-journeys/expression/functions.md)
 
 **Reglas de frecuencia**
 
