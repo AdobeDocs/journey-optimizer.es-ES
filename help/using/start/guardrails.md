@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6a2b3c988168d8ff6f5671718cd0defb6ad8c258
+source-git-commit: 0d010bbb46887546d524726606764b564c352064
 workflow-type: tm+mt
-source-wordcount: '1860'
-ht-degree: 94%
+source-wordcount: '1960'
+ht-degree: 89%
 
 ---
 
@@ -87,6 +87,10 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 * No se permiten direcciones IP
 * Las direcciones de Adobe internas (`.adobe.*`) no están permitidas en las direcciones URL y las API.
 * Las acciones personalizadas integradas no se pueden eliminar.
+* Al elegir un punto final como destino mediante una acción personalizada, asegúrese de que:
+
+   * Este punto de conexión puede admitir el rendimiento del recorrido mediante configuraciones del [API de restricción](../configuration/throttling.md) o [API de límite](../configuration/capping.md) para limitarlo. Tenga cuidado de que una configuración de restricción no pueda pasar por debajo de 200 TPS. Cualquier punto de conexión objetivo deberá admitir al menos 200 TPS.
+   * Este extremo necesita tener un tiempo de respuesta lo más bajo posible. Según el rendimiento esperado, tener un tiempo de respuesta alto podría afectar al rendimiento real.
 
 ### Eventos {#events-g}
 
@@ -99,6 +103,10 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 
 * Las fuentes de datos externas se pueden aprovechar dentro de un recorrido del cliente para buscar datos externos en tiempo real. Estas fuentes deben utilizarse mediante la API de REST, admiten JSON y pueden gestionar el volumen de solicitudes.
 * Las direcciones de Adobe internas (`.adobe.*`) no están permitidas en las direcciones URL y las API.
+
+>[!NOTE]
+>
+>Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas.
 
 ### Creación de recorridos y perfiles {#journeys-limitation-profile-creation}
 

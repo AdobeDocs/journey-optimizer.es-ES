@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: c4b8a74541a3fb9fea054bd1145592d75c62b165
+source-git-commit: ff25658bd69b83cfd1869490c24710f84d4a4ffc
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 12%
+source-wordcount: '1135'
+ht-degree: 10%
 
 ---
 
@@ -79,13 +79,27 @@ Para crear una regla nueva, siga los pasos a continuación.
    >
    >Actualmente solo el **[!UICONTROL Marketing]** La categoría está disponible.
 
-1. Establezca el límite de la regla, es decir, el número máximo de mensajes que se pueden enviar a un perfil de usuario individual cada mes.
+1. Seleccione el lapso de tiempo en el que se aplicará el límite.
 
-   ![](assets/message-rules-capping.png)
+   ![](assets/message-rules-capping-duration.png)
+
+   El límite de frecuencia se basa en el periodo de calendario seleccionado. Se restablece al principio del lapso de tiempo correspondiente.
+
+   La caducidad del contador para cada período es la siguiente:
+
+   * **[!UICONTROL Diario]**: el límite de frecuencia es válido para el día hasta el 23:59:59 UTC y se restablece en 0 al principio del día siguiente.
+
+   * **[!UICONTROL Semanalmente]**: El límite de frecuencia es válido hasta el sábado 23:59:59 UTC de esa semana, ya que la semana del calendario comienza el domingo. La caducidad es independiente de la creación de la regla. Por ejemplo, si la regla se crea el jueves, es válida hasta el sábado a las 23:59:59.
+
+   * **[!UICONTROL Mensual]**: el límite de frecuencia es válido hasta el último día del mes a las 23:59:59 UTC. Por ejemplo, la caducidad mensual para enero es del 31 al 01 23:59:59 UTC.
 
    >[!NOTE]
    >
-   >El límite de frecuencia se basa en un período de calendario mensual. Se restablece al principio de cada mes.
+   >Cuando se trata de [segmentación por lotes](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} se recomienda. <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
+
+1. Establezca el límite de la regla, es decir, el número máximo de mensajes que se pueden enviar a un perfil de usuario individual cada mes, semana o día, según la selección anterior.
+
+   ![](assets/message-rules-capping.png)
 
 1. Seleccione el canal que desee utilizar para esta regla: **[!UICONTROL Correo electrónico]** o **[!UICONTROL Notificación push]**.
 
@@ -97,7 +111,7 @@ Para crear una regla nueva, siga los pasos a continuación.
 
 1. Seleccione varios canales si desea aplicar un límite a todos los canales seleccionados como recuento total.
 
-   Por ejemplo, establezca el límite en 15 y seleccione los canales push y de correo electrónico. Si un perfil ya ha recibido 10 correos electrónicos de marketing y 5 notificaciones push de marketing, este perfil se excluirá de la siguiente entrega de cualquier correo electrónico de marketing o notificación push.
+   Por ejemplo, establezca el límite en 15 y seleccione los canales push y de correo electrónico. Si un perfil ya ha recibido 10 correos electrónicos de marketing y 5 notificaciones push de marketing para el periodo seleccionado, este perfil se excluye de la siguiente entrega de cualquier correo electrónico de marketing o notificación push.
 
 1. Clic **[!UICONTROL Guardar como borrador]** para confirmar la creación de la regla. El mensaje se añade a la lista de reglas, con el **[!UICONTROL Borrador]** estado.
 

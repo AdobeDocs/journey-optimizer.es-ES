@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: espera, actividad, recorrido, siguiente, lienzo
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: ce1e43ce2c439b02e5c263f26de5531b26dc0980
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 18%
+source-wordcount: '489'
+ht-degree: 17%
 
 ---
 
@@ -64,7 +64,7 @@ Esta opción le permite definir una fecha personalizada, por ejemplo, el 12 de j
 
 >[!NOTE]
 >
->Puede aprovechar una expresión dateTimeOnly o utilizar una función para convertirla en dateTimeOnly. Por ejemplo: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), siendo el campo del evento del formulario 2016-08-12T09:46:06Z.
+>Puede aprovechar una expresión dateTimeOnly o utilizar una función para convertirla en dateTimeOnly. Por ejemplo: toDateTimeOnly(@event{Event.offerOpened.activity.endTime}), siendo el campo del evento del formulario 2016-08-12T09:46:06Z.
 >
 >El **zona horaria** se espera en las propiedades del recorrido. Como resultado, hoy en día no es posible desde la interfaz apuntar directamente a una marca de tiempo ISO-8601 completa mezclando la hora y el desplazamiento de zona horaria como 2016-08-12T09:46:06.982-05. Consulte [esta página](../building-journeys/timezone-management.md).
 
@@ -74,7 +74,7 @@ Para validar que la actividad de espera funciona según lo esperado, puede utili
 
 <!--## Email send time optimization{#email_send_time_optimization}
 
-This type of wait uses a score calculated in Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
+This type of wait uses a score calculated in Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you'll be notified that the default time applies.
 
 >[!NOTE]
 >

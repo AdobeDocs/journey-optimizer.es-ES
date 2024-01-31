@@ -5,10 +5,10 @@ description: Aprenda a utilizar Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 1124de3e38eee72eb545c6d5a40a5a8f5de80181
+source-git-commit: dc5655d05a491568ee2a9f4a4a75939cfcc812e7
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 81%
+source-wordcount: '435'
+ht-degree: 68%
 
 ---
 
@@ -20,23 +20,27 @@ Eche un vistazo a las mejoras más recientes del producto y a la documentación 
 
 >[!BEGINTABS]
 
+>[!TAB Ya está aquí la versión de enero.]
+
+Descubra las nuevas funciones y mejoras incluidas en la versión 24.1 de Adobe Journey Optimizer.
+
+[![Imagen](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
 >[!TAB Actualización obligatoria de DMARC]
 
-Como parte de las prácticas recomendadas del sector, Google y Yahoo requerirán que tenga un **Registro DMARC** para cualquier dominio que utilice para enviarles correo electrónico, a partir del **1 de febrero de 2024**. Asegúrese de tener configurado el registro DMARC para todos los subdominios que ha delegado en Adobe en Journey Optimizer.
+Como parte del cumplimiento de las prácticas recomendadas del sector, Google y Yahoo requerirán que tenga un **registro DMARC** para cualquier dominio que utilice para enviarles correo electrónico, a partir del **1 de febrero de 2024**. Asegúrese de tener configurado el registro DMARC para todos los subdominios que ha delegado en Adobe en Journey Optimizer.
 
 [![Imagen](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
->[!TAB Herramientas de la zona protegida]
+>[!TAB Manuales de casos de uso]
 
-Las herramientas de zona protegida permiten copiar objetos en varias zonas protegidas aprovechando la exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.
+Aproveche un catálogo de libros de reproducción de casos de uso específicos del sector en Real-Time CDP y Journey Optimizer para abordar casos de uso comunes que puede realizar con Adobe Experience Platform y Adobe Recorrido Optimizer.
 
-[![image](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
+Una vez que haya elegido el libro de reproducción que mejor se adapte a sus necesidades, puede habilitarlo para generar los recursos necesarios para admitir su caso de uso, como recorridos, mensajes, esquemas o segmentos, y personalizarlos a su esquema para obtener un tiempo de valor más rápido.
 
->[!TAB MMS en SMS]
+![imagen animada que muestra libros de casos de uso](using/rn/assets/do-not-localize/playbooks.gif)
 
-Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del servicio de mensajes multimedia (MMS), lo que le permite compartir imágenes, GIF o vídeos con sus clientes. Tenga en cuenta que esta funcionalidad solo está disponible actualmente con Sinch.
-
-[![image](using/assets/do-not-localize/learn-more-button.svg)](using/sms/create-sms.md#mms-content)
+[![image](using/assets/do-not-localize/learn-more-button.svg)](using/start/playbooks.md)
 
 >[!ENDTABS]
 

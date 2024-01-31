@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: e411810196c591727fb1049826dc761e3807ed03
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '982'
 ht-degree: 4%
 
 ---
@@ -65,3 +65,5 @@ Puede adoptar una serie de prácticas recomendadas que le ayudarán a mantenerse
 * Si las mismas condiciones se repiten en varios recorridos (comprobaciones de consentimiento, supresiones), considere la posibilidad de moverlas como parte de la definición del segmento. Por ejemplo, si tiene una condición para comprobar que la dirección de correo electrónico no está vacía en varios recorridos, incluya esa condición como parte de la definición del segmento.
 * Si el recorrido tiene varias condiciones para dividir la audiencia y ver los números en cada paso, considere la posibilidad de utilizar un Customer Journey Analytics u otra solución de creación de informes que sea más adecuada para el análisis.
 * Si se acerca al límite de nodos en el lienzo, considere la posibilidad de consolidar acciones con parámetros dinámicos o contenido para ofrecer el contenido correcto en lugar de nodos explícitos.
+
+* Si tiene una **Leer audiencia** recorrido con el segmento por lotes (A) y si utiliza dentro del recorrido en el segmento de flujo de audiencia (B) para excluir (es decir, realizar la A-B), considere mover esa lógica a la lógica de segmentación y utilice la exclusión como parte de la propia lógica de segmentación.

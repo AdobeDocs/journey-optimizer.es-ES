@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
+source-git-commit: 03e93e6a6652ffbe1cfdea3361e0a0d517cc39d8
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2424'
 ht-degree: 16%
 
 ---
@@ -258,9 +258,12 @@ El **[!UICONTROL Frecuencia]** permite definir la frecuencia con la que se resta
 
 ![](../assets/offer-capping-frequency.png)
 
+
 >[!NOTE]
 >
 >El restablecimiento se produce a las 12:00 UTC, el día que haya definido o el primer día de la semana o del mes, cuando corresponda. El día de inicio de la semana es domingo. Cualquier duración que elija no puede exceder de 2 años (es decir, el número correspondiente de meses, semanas o días).
+>
+>El contador de límite de frecuencia se actualiza y está disponible en una decisión de API de Edge Decisioning en menos de 3 segundos.
 
 Por ejemplo, si desea que el recuento de límite se restablezca cada 2 semanas, seleccione **[!UICONTROL Semanalmente]** en la lista desplegable correspondiente y escriba **2** en el otro campo. El reinicio se realizará cada dos domingos a las 12 p. m. UTC.
 

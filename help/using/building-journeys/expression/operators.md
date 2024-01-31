@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expresión, sintaxis, operadores, editor, recorrido
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 5%
@@ -23,17 +23,17 @@ Existen dos tipos de operadores: operadores unarios y operadores binarios. Hay o
 // left-hand unary operators
 // <operator> <operand> 
 // operand is an expression
-not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
+not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
 // right-hand unary operators
 // <operator> <operand> 
 // operand is an expression
-@{LobbyBeacon.endUserIDs._experience.emailid.id} is not null
+@event{LobbyBeacon.endUserIDs._experience.emailid.id} is not null
 
 // binary operators
 // <operand1> <operator> <operand2>
 // operand is an expression
-(@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example1@adobe.com") or (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com") 
+(@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example1@adobe.com") or (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com") 
 ```
 
 ## Notas importantes{#important-notes}
@@ -101,7 +101,7 @@ Tenga en cuenta que nulo significa que la expresión no tiene ningún valor eval
 Por ejemplo:
 
 ```json
-@{BarBeacon.location} is null
+@event{BarBeacon.location} is null
 ```
 
 ### no es nulo
@@ -117,7 +117,7 @@ Tenga en cuenta que nulo significa que la expresión no tiene ningún valor eval
 Por ejemplo:
 
 ```json
-@{BarBeacon.location} is not null
+@event{BarBeacon.location} is not null
 ```
 
 ### tiene null

@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 3b1a359427a76780bd3130e292cf2658eb6df03c
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '469'
 ht-degree: 3%
 
 ---
@@ -65,4 +65,6 @@ El flujo de trabajo general es:
 * [!DNL Customer Journey Analytics] incorpora el conjunto de datos &quot;Evento de paso de Recorrido&quot;.
 * El **profileID** El campo del &quot;esquema de evento de paso de Recorrido para el Journey Orchestration&quot; asociado se define como un campo de identidad. Entrada [!DNL Customer Journey Analytics]A continuación, puede vincular este conjunto de datos a cualquier otro conjunto de datos que tenga el mismo valor que el identificador basado en personas.
 * Para usar este conjunto de datos en [!DNL Customer Journey Analytics], para el análisis de recorrido entre canales, consulte [Documentación del Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
+
+➡️ [Trabajo con el Customer Journey Analytics](cja-ajo.md){target="_blank"}
 

@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expresión, condición, casos de uso, eventos
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 1%
@@ -105,7 +105,7 @@ A partir de ahí, puede añadir otra ruta en el recorrido para los casos en los 
 Esta condición recupera solo los eventos de geovalla activados en &quot;Arlington&quot;:
 
 ```json
-        @{GeofenceEntry
+        @event{GeofenceEntry
                     .placeContext
                     .POIinteraction
                     .POIDetail
@@ -117,7 +117,7 @@ Explicación: Es una comparación de cadenas estricta (con distinción de mayús
 La misma consulta con `Is sensitive` si no se selecciona, se genera la siguiente expresión en modo avanzado:
 
 ```json
-        equalIgnoreCase(@{GeofenceEntry
+        equalIgnoreCase(@event{GeofenceEntry
                         .placeContext
                         .POIinteraction
                         .POIDetail
@@ -130,13 +130,13 @@ La siguiente expresión le permite definir el CRM ID en un campo de personalizac
 
 ```json
 substr(
-   @{MobileAppLaunch
+   @event{MobileAppLaunch
    ._myorganization
    .identification
    .crmid},
    1, 
    lastIndexOf(
-     @{MobileAppLaunch
+     @event{MobileAppLaunch
      ._myorganization
      .identification
      .crmid},

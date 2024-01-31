@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: setDays, función, expresión, recorrido
 exl-id: c2757e41-8206-44f7-9dbb-1fa79c0ba6e6
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 12%
@@ -50,4 +50,4 @@ Devuelve una fecha y hora sin considerar la zona horaria.
 
 Devuelve 2010-12-25T01:11:00Z.
 
-`setDays(toDateTimeOnly(@{MyEvent.registrationDate}), 1)`
+`setDays(toDateTimeOnly(@event{MyEvent.registrationDate}), 1)`

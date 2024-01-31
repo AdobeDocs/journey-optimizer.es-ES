@@ -6,9 +6,9 @@ feature: In App
 level: Intermediate
 keywords: en la aplicación, mensaje, configuración, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '663'
 ht-degree: 6%
 
 ---
@@ -28,6 +28,10 @@ Para que los mensajes en la aplicación se entreguen correctamente, se debe defi
 * Entrada [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}, make sure you have the default merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   Esta política de combinación la utiliza [!DNL Journey Optimizer] canales entrantes para activar y publicar correctamente campañas entrantes en edge. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=es){target="_blank"}
+
+  >[!NOTE]
+  >
+  >Al utilizar un personalizado **[!UICONTROL Preferencia de conjunto de datos]** política de combinación, asegúrese de añadir la variable **[!UICONTROL Recorrido entrante]** conjunto de datos dentro de la política de combinación especificada.
 
   ![](assets/inapp_config_8.png)
 

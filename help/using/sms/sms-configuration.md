@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 1a3a67571ef839bf8e1942e4c9599aa52ea7e2dc
+source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 16%
+source-wordcount: '1266'
+ht-degree: 13%
 
 ---
 
@@ -69,7 +69,7 @@ Para configurar su proveedor de SMS/MMS con Journey Optimizer, siga estos pasos:
 
    ![](assets/sms_7.png)
 
-   * En el caso de **[!DNL Sinch]**:
+   * +++ Para **[!DNL Sinch]**
 
       * **[!UICONTROL Nombre]**: elija un nombre para la credencial de la API.
 
@@ -77,15 +77,24 @@ Para configurar su proveedor de SMS/MMS con Journey Optimizer, siga estos pasos:
 
       * **[!UICONTROL Mensaje de inclusión]**: introduzca la respuesta personalizada que se envía automáticamente como **[!UICONTROL Mensaje de inclusión]**.
 
+      * **[!UICONTROL Mensaje de exclusión]**: introduzca la respuesta personalizada que se envía automáticamente como **[!UICONTROL Mensaje de exclusión]**.
+
       * **[!UICONTROL Mensaje de ayuda]**: introduzca la respuesta personalizada que se envía automáticamente como **Mensaje de ayuda**.
 
-   * En el caso de **[!DNL Sinch MMS]**:
+      * **[!UICONTROL Palabras clave de inclusión doble]**: introduzca las palabras clave que almacenan en déclencheur el proceso de inclusión doble. Si no existe ningún perfil de usuario, se crea tras una confirmación correcta. Para varias palabras clave, utilice valores separados por comas.
+
+      * **[!UICONTROL Mensaje de inclusión doble]**: introduzca la respuesta personalizada que se envía automáticamente en respuesta a la confirmación de inclusión doble.
++++
+
+   * +++ Para **[!DNL Sinch MMS]**
 
       * **[!UICONTROL Nombre]**: elija un nombre para la credencial de la API.
 
       * **[!UICONTROL Identificador de proyecto]**, **[!UICONTROL ID de aplicación]** y **[!UICONTROL Token de API]**: en el menú API de conversación, puede encontrar sus credenciales en el menú Aplicación. Obtenga más información en [Documentación de Sinch](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
 
-   * En el caso de **[!DNL Twilio]**:
++++
+
+   * +++ Para **[!DNL Twilio]**
 
       * **[!UICONTROL Nombre]**: elija un nombre para la credencial de la API.
 
@@ -93,12 +102,26 @@ Para configurar su proveedor de SMS/MMS con Journey Optimizer, siga estos pasos:
 
       * **[!UICONTROL SID de mensaje]**: introduzca el identificador único asignado a cada mensaje creado por la API de Twilio. Obtenga más información en [Documentación de Twilio](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
 
-   * En el caso de **[!DNL Infobip]**:
++++
+
+   * +++ Para **[!DNL Infobip]**
 
       * **[!UICONTROL Nombre]**: elija un nombre para la credencial de la API.
 
       * **[!UICONTROL URL base de API]** y **[!UICONTROL Token de API]**: acceda a la página de inicio de la interfaz web o a la página de administración de claves de API para encontrar sus credenciales. Obtenga más información en [Documentación de Infobip](https://www.infobip.com/docs/api){target="_blank"}.
 
+      * **[!UICONTROL Palabras clave de inclusión doble]**: introduzca las palabras clave que almacenan en déclencheur el proceso de inclusión doble. Si no existe ningún perfil de usuario, se crea tras una confirmación correcta. Para varias palabras clave, utilice valores separados por comas.
+
+      * **[!UICONTROL Mensaje de inclusión doble]**: introduzca la respuesta personalizada que se envía automáticamente en respuesta a la confirmación de inclusión doble.
+
+      * **[!UICONTROL ID de entidad principal]**: introduzca el ID de entidad principal de DLT asignado.
+
+      * **[!UICONTROL ID de plantilla de contenido]**: introduzca su ID de plantilla de contenido DLT registrado.
+
+      * **[!UICONTROL Período de validez]**: introduzca el periodo de validez del mensaje en horas. En caso de que los mensajes no se puedan enviar dentro de este periodo de tiempo, el sistema intentará reenviarlos de nuevo. El periodo de validez predeterminado es de 48 horas.
+
+      * **[!UICONTROL Datos de llamada de retorno]**: introduzca los datos de cliente adicionales que se enviarán en la dirección URL de notificación.
++++
 
 1. Clic **[!UICONTROL Enviar]** cuando haya terminado de configurar las credenciales de la API.
 

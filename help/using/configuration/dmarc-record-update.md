@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdominio, dominio, correo, dmarc, registro
-source-git-commit: 11d42198436319cebb67446527e9fd8d0f80cfbc
+source-git-commit: c5da9e9cfd5c03d7c6898e492582e5cc3e466447
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '576'
 ht-degree: 6%
 
 ---
@@ -45,9 +45,8 @@ o
 o
    * Configuración de DMARC en los subdominios delegados **en el[!DNL Journey Optimizer]** interfaz de usuario de configuración. [Descubra cómo](dmarc-record.md#implement-dmarc)
 
-     Sin embargo, con la delegación CNAME, también se requerirá la entrada en la solución de alojamiento. Por lo tanto, asegúrese de coordinarse con su departamento de TI para que pueda realizar la actualización en cuanto el [!DNL Journey Optimizer] Esta función está disponible (el 30 de enero). [Más información](dmarc-record.md#implement-dmarc)
+  Sin embargo, con la delegación CNAME, también se requerirá la entrada en la solución de alojamiento. Por lo tanto, asegúrese de coordinarse con su departamento de TI para que pueda realizar la actualización detallada en [esta sección](dmarc-record.md#implement-dmarc).
 
-**A partir del 30 de enero tendrá a su disposición una interfaz de autoservicio para la implementación de DMARC. Obtenga más información en [esta sección](dmarc-record.md#implement-dmarc).**
 
 Las escalas de tiempo más recientes compartidas por Google y Yahoo son las siguientes:
 

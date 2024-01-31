@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 359846ac00fc8e3ad16eca41b6b3c345cad4aa65
+source-git-commit: 03e93e6a6652ffbe1cfdea3361e0a0d517cc39d8
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '891'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ El SDK web de Experience Platform admite la consulta de las soluciones de person
 
 Existen dos maneras de implementar la administración de decisiones con [SDK web de Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). Una forma está dirigida a los desarrolladores y requiere conocimientos de sitios web y programación. La otra forma es utilizar la interfaz de usuario de Adobe Experience Platform para configurar ofertas, lo que solo requiere que se haga referencia a un pequeño script en el encabezado de la página del HTML.
 
-Consulte la documentación sobre [gestión de decisiones](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning) para obtener más información sobre cómo entregar ofertas personalizadas mediante el SDK web de Adobe Experience Platform.
+Consulte la documentación de Adobe Experience Platform sobre [gestión de decisiones](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning) para obtener más información sobre cómo entregar ofertas personalizadas mediante el SDK web de Adobe Experience Platform.
 
 ## SDK web de Adobe Experience Platform {#aep-web-sdk}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: fa641124777093914e1d9bc03b28dbf42d9764d6
-workflow-type: ht
-source-wordcount: '4121'
+source-git-commit: 110fd5f1055455ec040ab8de0b599a343e8de298
+workflow-type: tm+mt
+source-wordcount: '4398'
 ht-degree: 100%
 
 ---
@@ -18,6 +18,90 @@ ht-degree: 100%
 # Notas de la versión de 2023 {#release-notes-2023}
 
 Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] lanzadas en 2023.
+
+
+## Notas de la versión de octubre de 2023 {#oct-rn-2023}
+
+### Nuevas funciones{#oct-2023-features}
+
+Esta versión incorpora las nuevas funciones que se enumeran a continuación.
+
+<table>
+<thead>
+<tr>
+<th><strong>Herramientas de zona protegida</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Las herramientas de zona protegida permiten copiar objetos en varias zonas protegidas aprovechando la exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.</p>
+<!--img src="../data/assets/dataset-export-setup.png"-->
+<p>Para obtener más información, consulte la <a href="../building-journeys/copy-to-sandbox.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Servicio de mensajes multimedia (MMS) en SMS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del servicio de mensajes multimedia (MMS), lo que le permite compartir imágenes, GIF o vídeos con sus clientes. Tenga en cuenta que esta funcionalidad solo está disponible actualmente con Sinch.</p>
+<img src="assets/do-not-localize/mms.gif"/>
+<p>Para obtener más información, consulte la <a href="../sms/create-sms.md#mms-content">documentación detallada</a>.</p>
+</tr>
+</tbody>
+</table>
+
+### Mejoras {#oct-2023-improvements}
+
+Esta versión incorpora las mejoras que se enumeran a continuación.
+
+**Públicos**
+
+* Ahora puede dirigirse a públicos destinatarios cargados desde un archivo CSV en recorridos y campañas. [Más información](../audience/about-audiences.md#segments-in-journey-optimizer)
+* Ahora puede dirigirse a públicos destinatarios creados mediante la composición de públicos y aprovechar los atributos de enriquecimiento de los recorridos. [Más información](../building-journeys/read-audience.md)
+
+>[!AVAILABILITY]
+>
+>Estas funcionalidades están disponibles actualmente como una versión Private Beta.
+
+<!--
+**Spam scoring for emails**
+
+* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
+
+**Campañas**
+
+<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
+* Cuando se produce un error en una de las campañas, ahora aparece un icono de advertencia en la lista de campañas junto con el estado de la campaña. [Más información](../campaigns/modify-stop-campaign.md#statuses)
+
+**Recorridos**
+
+* La duración máxima que puede definir en cualquier tiempo de espera ahora es de 29 días, en lugar de 30. Esta mejora se ha introducido para evitar que la duración de la espera supere los 30 días de vida útil del recorrido. Esto se aplica a:
+
+   * el campo **Cantidad de tiempo** en la [actividad de espera](../building-journeys/wait-activity.md)
+   * el **Período de espera de reentrada** en [propiedades del recorrido](../building-journeys/journey-gs.md#entrance)
+   * el campo **Esperar a** en la definición de tiempo de espera de las [actividades de eventos](../building-journeys/general-events.md#events-specific-time).
+
+<!--
+**Consent in channel configuration**
+
+* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
+
+**Gestión de decisiones**
+
+* Se han actualizado varias etiquetas relacionadas con el límite de ofertas en la interfaz de gestión de decisiones. [Más información](../offers/offer-library/add-constraints.md#capping)
+
+
 
 ## Notas de la versión de septiembre de 2023 {#sept-rn-2023}
 

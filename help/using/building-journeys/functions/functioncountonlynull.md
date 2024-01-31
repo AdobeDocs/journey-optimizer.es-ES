@@ -7,16 +7,18 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: countOnlyNull, función, expresión, recorrido
 exl-id: d06fc594-33dd-48ce-8c62-2f2892a867da
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 30%
+source-wordcount: '56'
+ht-degree: 14%
 
 ---
 
 # countOnlyNull {#countOnlyNull}
 
 Cuenta el número de valores nulos de la lista.
+
+Observe que el parámetro `<listObject>` no es compatible con esta función.
 
 ## Categoría
 
@@ -30,14 +32,7 @@ Agregación
 
 | Parámetro | Tipo |
 |-----------|------------------|
-| Lista | listString |
-| Lista | listBoolean |
-| Lista | listInteger |
-| Lista | listDecimal |
-| Lista | listDuration |
-| Lista | listDateTime |
-| Lista | listDateTimeOnly |
-| Lista | listDateOnly |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly |
 
 ## Firma y tipo devuelto
 

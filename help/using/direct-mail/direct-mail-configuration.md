@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
+source-git-commit: 3686127299107eb19db8e9290be1b737c1c87ec3
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '903'
 ht-degree: 31%
 
 ---
@@ -155,9 +155,7 @@ Ahora puede [creación de un mensaje de correo directo](../direct-mail/create-di
 
 >[!NOTE]
 >
->Las filas duplicadas se eliminarán automáticamente.
->
->Si el número máximo de registros (es decir, filas) para cada archivo que contiene datos de perfil es demasiado alto, se creará automáticamente otro archivo para los registros restantes.
+>Las filas duplicadas en las que todos los valores de la fila son iguales se eliminan automáticamente del archivo.
 
 <!--
     In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.

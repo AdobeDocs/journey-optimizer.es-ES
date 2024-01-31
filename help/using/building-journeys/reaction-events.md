@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, eventos, reaction, seguimiento, platform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 110fd5f1055455ec040ab8de0b599a343e8de298
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '377'
 ht-degree: 20%
 
 ---
@@ -40,7 +40,7 @@ Estos son los pasos para configurar los eventos de reacción:
 1. Añadir un **[!UICONTROL Etiqueta]** a la reacción. Este paso es opcional.
 1. En la lista desplegable, seleccione la actividad de acción a la que desee reaccionar. Puede seleccionar cualquier actividad de acción colocada en los pasos anteriores de la ruta.
 1. En función de la acción seleccionada, elija a qué desea reaccionar.
-1. Puede definir un tiempo de espera de evento (entre 40 segundos y 30 días) y una ruta de tiempo de espera. Esto creará una segunda ruta para las personas que no reaccionaron dentro de la duración definida. Al probar un recorrido que utiliza un evento de reacción, el modo de prueba **[!UICONTROL Tiempo de espera]** el valor predeterminado y mínimo es de 40 segundos. Consulte [esta sección](../building-journeys/testing-the-journey.md).
+1. Puede definir un tiempo de espera de evento (entre 40 segundos y 29 días) y una ruta de tiempo de espera. Esto crea una segunda ruta para las personas que no reaccionaron dentro de la duración definida. Al probar un recorrido que utiliza un evento de reacción, el modo de prueba **[!UICONTROL Tiempo de espera]** el valor predeterminado y mínimo es de 40 segundos. Consulte [esta sección](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >

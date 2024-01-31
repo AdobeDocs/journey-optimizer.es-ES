@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: recorrido, integración, estándar, campaña, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 5%
@@ -102,7 +102,7 @@ En esta sección, debe definir la variable **[!UICONTROL Plataforma push]**. La 
 También debe definir la variable **[!UICONTROL Token de registro]**. La expresión depende de cómo se defina el token en la carga útil de evento o en otras [!DNL Journey Optimizer] información. Puede ser un campo simple o una expresión más compleja en el caso de que el token se defina en una colección, por ejemplo:
 
 ```
-@{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
+@event{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
 ```
 
 **[!UICONTROL Datos de personalización]**

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorrido, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
+source-git-commit: 0d010bbb46887546d524726606764b564c352064
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 18%
+source-wordcount: '1422'
+ht-degree: 17%
 
 ---
 
@@ -36,6 +36,11 @@ En los parámetros de acción personalizados, puede pasar una colección simple,
 Tenga en cuenta también que los parámetros de acciones personalizadas tienen un formato esperado (por ejemplo: cadena, decimal, etc.). Debe tener cuidado de respetar estos formatos esperados. Obtenga más información en esta [caso de uso](../building-journeys/collections.md).
 
 ## Prácticas recomendadas{#custom-action-enhancements-best-practices}
+
+Al elegir un punto final como destino mediante una acción personalizada, asegúrese de que:
+
+* Este punto de conexión puede admitir el rendimiento del recorrido mediante configuraciones del [API de restricción](../configuration/throttling.md) o [API de límite](../configuration/capping.md) para limitarlo. Tenga cuidado de que una configuración de restricción no pueda pasar por debajo de 200 TPS. Cualquier punto de conexión objetivo deberá admitir al menos 200 TPS.
+* Este extremo necesita tener un tiempo de respuesta lo más bajo posible. Según el rendimiento esperado, tener un tiempo de respuesta alto podría afectar al rendimiento real.
 
 Se define un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas. Además, el límite predeterminado se realiza por host y por zona protegida. Por ejemplo, en una zona protegida, si tiene dos puntos finales con el mismo host (p. ej., `https://www.adobe.com/endpoint1` y `https://www.adobe.com/endpoint2`), la restricción se aplicará a todos los extremos del host adobe.com. &quot;endpoint1&quot; y &quot;endpoint2&quot; compartirán la misma configuración de límite y hacer que un extremo alcance el límite tendrá un impacto en el otro extremo.
 

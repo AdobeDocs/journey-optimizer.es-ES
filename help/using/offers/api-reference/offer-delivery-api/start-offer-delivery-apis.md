@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
+source-git-commit: d9d2e763b04ec725cc389b1d535df4df06103018
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '673'
 ht-degree: 4%
 
 ---
@@ -121,6 +121,10 @@ Al pasar datos de contexto con una solicitud de API de Edge Decisioning, los dat
 >[!NOTE]
 >
 >Para que se almacenen los datos de contexto, debe tener configurado un esquema XDM dedicado.
+
+**Actualización del contador de límite de frecuencia**
+
+Si se ha habilitado el límite de frecuencia para algunas de las ofertas a fin de definir la frecuencia con la que se restablece su recuento de límite, el contador se actualiza y está disponible en una decisión de la API de Edge Decisioning en menos de 3 segundos. [Obtenga información sobre cómo añadir restricciones a una oferta](../../offer-library/add-constraints.md)
 
 ## Funciones de API de decisiones {#decisioning}
 

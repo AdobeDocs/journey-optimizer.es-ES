@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: notEqualIgnoreCase, función, expresión, recorrido
 exl-id: 74f8cae0-7d2f-4f5e-bc13-837c9bc69ad9
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 12%
@@ -38,4 +38,4 @@ Devuelve un valor booleano.
 
 ## Ejemplo
 
-`notEqualIgnoreCase(@{iOSPushPermissionAllowed.device.model}, "iPad")`
+`notEqualIgnoreCase(@event{iOSPushPermissionAllowed.device.model}, "iPad")`

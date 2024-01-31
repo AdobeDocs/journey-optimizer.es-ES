@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externo, fuentes, datos, configuración, conexión, terceros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 67fbfe9c2ffb40a420cc3f28a775d9c6b3ee5553
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 67%
+source-wordcount: '1489'
+ht-degree: 64%
 
 ---
 
@@ -28,6 +28,10 @@ Las fuentes de datos externas permiten definir una conexión a sistemas de terce
 >[!NOTE]
 >
 >Las protecciones cuando se trabaja con sistemas externos se enumeran en [esta página](../configuration/external-systems.md).
+
+>[!NOTE]
+>
+>Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas.
 
 Las API de REST que utilizan POST o GET y arrojan JSON son compatibles. Se admiten los modos de autenticación básica y personalizada de la clave de API.
 
@@ -122,9 +126,12 @@ Con esta autenticación, la ejecución de la acción es un proceso de dos pasos:
 1. Llame al extremo para generar el token de acceso.
 1. Llame a la API de REST mediante la inyección adecuada del token de acceso.
 
-Esta autenticación consta de dos partes.
 
-Definición del extremo al que se va a llamar para generar el token de acceso:
+>[!NOTE]
+>
+>**Esta autenticación consta de dos partes.**
+
+### Definición del extremo al que se va a llamar para generar el token de acceso
 
 * extremo: dirección URL que se utilizará para generar el extremo
 * método de la petición HTTP en el extremo (GET o POST)
@@ -133,7 +140,7 @@ Definición del extremo al que se va a llamar para generar el token de acceso:
    * &#39;form&#39;: lo que significa que el tipo de contenido será application/x-www-form-urlencoded (charset UTF-8) y que los pares clave-valor se serializarán tal cual: key1=value1&amp;key2=value2&amp;...
    * &#39;json&#39;: lo que significa que el tipo de contenido será application/json (charset UTF-8) y que los pares clave-valor se serializarán como un objeto json tal cual: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
-Definición de la forma en que se debe insertar el token de acceso en la petición HTTP de la acción:
+### Definición de la forma en que se debe insertar el token de acceso en la petición HTTP de la acción
 
 * authorizationType: define cómo se debe insertar el token de acceso generado en la llamada HTTP para la acción. Los valores posibles son:
 
@@ -150,8 +157,6 @@ El formato de esta autenticación es:
 ```
 {
     "type": "customAuthorization",
-    "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
-    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
     "endpoint": "<URL of the authentication endpoint>",
     "method": "<HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
     (optional) "headers": {
@@ -163,10 +168,16 @@ El formato de esta autenticación es:
         "bodyParams": {
             "param1": value1,
             ...
-
         }
     },
-    "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'"
+    "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'",
+    "cacheDuration": {
+        (optional, mutually exclusive with 'duration') "expiryInResponse": "<json selector in format 'json://<field path to expiry>'",
+        (optional, mutually exclusive with 'expiryInResponse') "duration": <integer value>,
+        "timeUnit": "<unit in 'milliseconds', 'seconds', 'minutes', 'hours', 'days', 'months', 'years'>"
+    },
+    "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
+    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
 }
 ```
 
@@ -228,14 +239,19 @@ Este es un ejemplo del tipo de autenticación de encabezado:
       "username": "any value"
     }
   },
-  "tokenInResponse": "json://token"
-} 
+  "tokenInResponse": "json://token",
+  "cacheDuration": {
+    "expiryInResponse": "json://expiryDuration",
+    "timeUnit": "minutes"
+  }
+}
 ```
 
 A continuación, se muestra un ejemplo de la respuesta de la llamada de API de inicio de sesión:
 
 ```
 {
-  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S"
+  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S",
+  "expiryDuration" : 5
 }
 ```

@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: recorrido, campo, expresión, evento
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '557'
 ht-degree: 2%
 
 ---
@@ -29,8 +29,8 @@ Por ejemplo, si el campo es _3 h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;}
 
 ```json
 // event field
-@{<event name>.<XDM path to the field>}
-@{LobbyBeacon.endUserIDs._experience.emailid.id}
+@event{<event name>.<XDM path to the field>}
+@event{LobbyBeacon.endUserIDs._experience.emailid.id}
 
 // field group
 #{<data source name>.<field group name>.<path to the field>}
@@ -47,8 +47,8 @@ Se puede asociar un valor predeterminado con un nombre de campo. La sintaxis es 
 
 ```json
 // event field
-@{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
-@{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
+@event{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
+@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
 // field group
 #{<data source name>.<field group name>.<path to the field>, defaultValue: <default value expression>}
 #{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address, defaultValue: "example@adobe.com"}
@@ -56,7 +56,7 @@ Se puede asociar un valor predeterminado con un nombre de campo. La sintaxis es 
 
 >[!NOTE]
 >
->El tipo de campo y el valor predeterminado deben ser el mismo. Por ejemplo, @{LobbyBeacon.endUserIDs._experience.email.id, defaultValue : 2} no será válido porque el valor predeterminado es un entero, mientras que el valor esperado debe ser una cadena.
+>El tipo de campo y el valor predeterminado deben ser el mismo. Por ejemplo, `@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}` no es válido porque el valor predeterminado es un entero, mientras que el valor esperado debe ser una cadena.
 
 Ejemplos:
 
@@ -67,9 +67,9 @@ Ejemplos:
 }
  
 expression example:
-- @{OrderEvent.orderId}                                    -> "12345"
-- @{OrderEvent.producdId, defaultValue : "not specified" } -> "not specified" // default value, productId is not a field present in the payload
-- @{OrderEvent.productId}                                  -> null
+- @event{OrderEvent.orderId}                                    -> "12345"
+- @event{OrderEvent.producdId, defaultValue : "not specified" } -> "not specified" // default value, productId is not a field present in the payload
+- @event{OrderEvent.productId}                                  -> null
  
  
 // for an entity 'Profile' on datasource 'ACP' having fields person/lastName, with fetched data such as:
@@ -104,7 +104,7 @@ Se hace referencia a los elementos definidos dentro de colecciones utilizando la
 Ejemplo :
 
 ```json
-@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
+@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
 ## Referencia a un campo definido en un mapa
@@ -114,10 +114,10 @@ Ejemplo :
 Para recuperar un elemento en un mapa, utilizamos la función de entrada con una clave determinada. Por ejemplo, se utiliza al definir la clave de un evento, según el área de nombres seleccionada. Para obtener más información, consulte [esta página](../../event/about-creating.md#select-the-namespace).
 
 ```json
-@{MyEvent.identityMap.entry('Email').first().id}
+@event{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-En esta expresión, se obtiene la entrada para la clave &quot;Email&quot; del campo &quot;IdentityMap&quot; de un evento. La entrada &quot;Correo electrónico&quot; es una colección, de la que tomamos el &quot;id&quot; en el primer elemento utilizando &quot;first()&quot;. Para obtener más información, consulte [esta página](../expression/collection-management-functions.md).
+En esta expresión, se obtiene la entrada para la clave &quot;Email&quot; del campo &quot;IdentityMap&quot; de un evento. La entrada &quot;Email&quot; es una colección, de la cual tomamos el &quot;id&quot; en el primer elemento usando &quot;first()&quot;. Para obtener más información, consulte [esta página](../expression/collection-management-functions.md).
 
 ### `firstEntryKey` función
 
@@ -163,6 +163,6 @@ Utilice la siguiente sintaxis:
 Por ejemplo:
 
 ```json
-#{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}
-#{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @{Profile.address.city}}}}}
+#{Weather.main.temperature, params: {localisation: @event{Profile.address.localisation}}}
+#{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @event{Profile.address.city}}}}}
 ```

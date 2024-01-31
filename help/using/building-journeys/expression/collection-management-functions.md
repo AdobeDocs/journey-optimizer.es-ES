@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: consulta, colecciones, funciones, carga útil, recorrido
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 5812ca4974ca52073ede993063217ab4453ba2b7
+source-git-commit: b58d6bbcf2311be3f841f7eef0c0bf10692f1704
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 3%
@@ -78,7 +78,7 @@ En una actividad de Condición de fuente de datos puede comprobar si el resultad
 Queremos comprobar si un usuario ha instalado una versión específica de una aplicación. Para esto, obtenemos todos los tokens de notificaciones push asociados con aplicaciones móviles para las que la versión es 1.0. Luego, realizamos una condición con el **[!UICONTROL count]** para comprobar que la lista devuelta de tokens contiene al menos un elemento.
 
 ```json
-count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
+count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
 ```
 
 El resultado es true.
@@ -88,7 +88,7 @@ El resultado es true.
 Aquí utilizamos el **[!UICONTROL count]** para comprobar si hay tokens de notificaciones push en la colección.
 
 ```json
-count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
+count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
 ```
 
 El resultado será true.
@@ -96,20 +96,20 @@ El resultado será true.
 <!--Alternatively, you can check if there is no token in the collection:
 
    ```json
-   count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) == 0
+   count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) == 0
    ```
 
 The result will be false.
 
 Here we use the count function in a condition to count the number of push notification tokens in the event.
 
-`count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token})`
+`count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token})`
 
 The result is true.
 
 Note that when the condition in the **all()** function is empty, the filter will return all the elements in the list. Hence, the expression above is equivalent to:
 
-`count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.application.name})`
+`count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.application.name})`
 
 In both cases, the result of the expression is **3**.
 
@@ -122,7 +122,7 @@ earlier timestamp) in order to only consider prior events.-->
 
 
 ```json
-count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
+count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
 ```
 
 El resultado de la expresión es **3**.
@@ -153,7 +153,7 @@ count(
 
 <!--**"All + Count" example 4:** here we use the count function in a boolean expression to see if there is push notification tokens in the collection.
 
-`count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name}) > 0`
+`count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name}) > 0`
 
 The result will be:
 
@@ -161,7 +161,7 @@ The result will be:
 
 Alternatively, you can check if there is NO token in the collection:
 
-`count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name}) =0`
+`count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name}) =0`
 
 The result will be:
 
@@ -186,7 +186,7 @@ _`<listExpression>.last(<condition>)`_
 Esta expresión devuelve el primer token de notificación push asociado a aplicaciones móviles para las que la versión es 1.0.
 
 ```json
-@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
+@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
 ```
 
 El resultado es &quot;token_1&quot;.
@@ -196,7 +196,7 @@ El resultado es &quot;token_1&quot;.
 Esta expresión devuelve el último token de notificación push asociado a aplicaciones móviles para las que la versión es 1.0.
 
 ```json
-@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last(currentEventField.application.version == "1.0").token}
+@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last(currentEventField.application.version == "1.0").token}
 ```
 
 El resultado es &quot;token_2&quot;.
@@ -229,7 +229,7 @@ _`<listExpression>`.at()`<index>`)_
 Esta expresión devuelve el segundo token de notificación push de la lista.
 
 ```json
-@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
+@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
 ```
 
 El resultado es &quot;token_2&quot;.

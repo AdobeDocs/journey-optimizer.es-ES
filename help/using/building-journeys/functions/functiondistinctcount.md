@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: distinctCount, función, expresión, recorrido
 exl-id: 8796ba91-5c64-43c2-a444-27ac8b719c86
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 29%
+source-wordcount: '138'
+ht-degree: 7%
 
 ---
 
@@ -28,16 +28,10 @@ Agregación
 
 ## Parámetros
 
-| Parámetro | Tipo |
-|-----------|------------------|
-| Lista | listString |
-| Lista | listBoolean |
-| Lista | listInteger |
-| Lista | listDecimal |
-| Lista | listDuration |
-| Lista | listDateTime |
-| Lista | listDateTimeOnly |
-| Lista | listDateOnly |
+| Parámetro | Tipo | Descripción |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Lista para procesar. Para listObject, debe ser una referencia de campo. |
+| keyAttributeName | string | Este parámetro es opcional y solo para listObject. Si no se proporciona el parámetro, un objeto se considera duplicado si todos los atributos tienen los mismos valores. De lo contrario, un objeto se considera duplicado si el atributo dado tiene el mismo valor. |
 
 ## Firma y tipo devuelto
 
@@ -45,8 +39,23 @@ Agregación
 
 Devuelve un entero.
 
+`distinctCount(<listObject>)`
+
+`distinctCount(<listObject>,<string>)`
+
+Devuelve una lista de objetos.
+
+
 ## Ejemplo
 
 `distinctCount([10,2,10,null])`
 
 Devuelve 2.
+
+`distinctCount(@event{my_event.productListItems})`
+
+Devuelve el número de objetos estrictamente distintos en la matriz de objetos determinada (tipo listObject).
+
+`distinctCount(@event{my_event.productListItems}, "SKU")`
+
+Devuelve el número de objetos que tienen un valor de atributo SKU distinto{}.
