@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 84bb42083dc6b6c4e79014ea0b2d4632825350e7
+source-git-commit: 50ca60555c66a0a3f87c46301bb76545427c2780
 workflow-type: tm+mt
-source-wordcount: '4574'
+source-wordcount: '4586'
 ht-degree: 93%
 
 ---
@@ -22,10 +22,10 @@ Esta página enumera todas las actualizaciones más recientes de [!DNL Journey O
 ## Enero de 2024 {#jan-2024}
 
 * Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de enero de 2024 se ha detallado en la documentación. [Más información](release-notes.md)
-* Se ha añadido una protección sobre el tamaño del recorrido. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
+* Se ha añadido un mecanismo de protección sobre el tamaño del recorrido. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
 * Se ha detallado la administración del tiempo de espera del recorrido [en la sección siguiente](../building-journeys/journey-gs.md#global_timeout).
 * Se ha rediseñado la [página de inicio de documentación](../../ajo-home.md) de Journey Optimizer.
-* Se ha añadido Recommendations acerca de la actividad Actualizar perfiles. [Más información](../building-journeys/update-profiles.md)
+* Se han añadido recomendaciones sobre la actividad Actualizar perfiles. [Más información](../building-journeys/update-profiles.md)
 * Se ha añadido información sobre el comportamiento de los tiempos de espera en las actividades de evento de los recorridos. Cuando no se recibe ningún evento durante el período de tiempo de espera especificado, las personas continuarán el recorrido si no se define ninguna ruta de tiempo de espera. [Más información](../building-journeys/general-events.md#events-specific-time)
 * Los requisitos previos de configuración del canal en la aplicación se han actualizado con una nota sobre el uso de una política de combinación de preferencias de conjunto de datos personalizada. [Más información](../in-app/inapp-configuration.md)
 * Se han añadido más detalles acerca de cómo manipular colecciones en una respuesta de acción personalizada. [Más información](../action/action-response.md#exp-syntax).
@@ -41,6 +41,7 @@ Esta página enumera todas las actualizaciones más recientes de [!DNL Journey O
 * Actualice el **duration** en el campo `toString` función. [Más información](../building-journeys/functions/functiontostring.md)
 * En algunos casos de uso de fuentes de datos externas, se recomienda el uso de acciones personalizadas.
 * Se ha actualizado la sintaxis del campo Evento. La siguiente sintaxis está obsoleta `@(my_event.myfield}` y se sustituye por `@event{my_event.myfield}`. [Más información](../building-journeys/expression/field-references.md)
+* Se han reorganizado las guías Informe global e Informe en vivo. [Más información](../reports/campaign-global-report.md)
 
 
 ## Noviembre de 2023 {#nov-2023}
