@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0c428b18469eb98392fe6c49d5892a4699477457
+source-git-commit: 146a142afeb47debac0d56963e48225a85b0f2c4
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 27%
+source-wordcount: '605'
+ht-degree: 28%
 
 ---
 
@@ -35,7 +35,6 @@ ht-degree: 27%
 ### Nuevas funciones{#jan24-features}
 
 Esta versión incorpora las nuevas funciones que se enumeran a continuación.
-
 
 <table>
 <thead>
@@ -90,7 +89,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 <!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
 
-* **Leer audiencia**  - El **Leer audiencia** la actividad ahora depende del conjunto de datos de instantánea de perfil para segmentos de lote, que solo se genera una vez al día después de ejecutar el trabajo por lotes diario programado, por lo que los datos se actualizarán hasta ese último trabajo por lotes diario.
+* **Leer audiencia**  - El **Leer audiencia** la actividad ahora depende del conjunto de datos de instantánea de perfil para segmentos de lote, que solo se genera una vez al día después de ejecutar el trabajo por lotes diario programado, por lo que los datos se actualizarán hasta ese último trabajo por lotes diario. [Más información](../building-journeys/read-audience.md)
 
 * **Grupos de campos** - Esta versión corrige un problema que bloqueaba que los grupos de campo se guardaran en ciertos casos.
 
@@ -100,4 +99,4 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Gestión de decisiones**
 
-* **Límite de frecuencia en Edge** : El contador de límite de frecuencia ahora se actualiza y está disponible en una decisión de API de Edge Decisioning en menos de 3 segundos.
+* **Límite de frecuencia en Edge** : El contador de límite de frecuencia ahora se actualiza y está disponible en una decisión de API de Edge Decisioning en menos de 3 segundos. [Más información](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
