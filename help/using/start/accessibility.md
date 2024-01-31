@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ Puede utilizar estos métodos abreviados en áreas específicas de la [!DNL Jour
     <td>E</td>
   </tr>
   <tr>
-    <td>Almacenar en déclencheur un evento en un recorrido basado en audiencias para el cual la opción **[!UICONTROL Un solo perfil a la vez]** está activada</td>
+    <td>Activación de un evento en un recorrido basado en el público para el cual la opción **[!UICONTROL Perfil único a la vez]** está activada</td>
     <td>P</td>
   </tr>
   <tr>
