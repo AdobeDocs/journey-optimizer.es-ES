@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: f6b158ffdde66d6e6d9d706a6b067a2746a9be1d
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 25%
@@ -50,4 +50,4 @@ También debe tener perfiles de prueba disponibles para poder previsualizar los 
 
 Obtenga información sobre cómo probar el procesamiento de correos electrónicos en varias bandejas de entrada, previsualizar los correos electrónicos personalizados con perfiles de prueba y enviar pruebas.
 
->[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
