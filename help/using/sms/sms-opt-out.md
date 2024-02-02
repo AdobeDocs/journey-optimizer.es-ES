@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
+source-git-commit: 099e65cfa4ecbf2e4f4e706415c7fed3313246aa
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 24%
+source-wordcount: '471'
+ht-degree: 19%
 
 ---
 
@@ -58,6 +58,18 @@ Los ID de remitente alfanuméricos solo se utilizan en la mensajería unidirecci
 
 ## Vídeo {#video-sms}
 
-Para obtener más información sobre cómo funciona la compatibilidad con palabras clave entrantes nativas (START, STOP y UNSTOP) para SMS, mire el siguiente vídeo:
+* El siguiente vídeo muestra cómo funciona la compatibilidad con palabras clave entrantes nativas (START, STOP y UNSTOP) para SMS.
 
->[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
++++ Ver vídeo
+
+  >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
+
++++
+
+* El siguiente vídeo le ayuda a configurar la doble inclusión para SMS.
+
++++ Ver vídeo
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
+
++++
