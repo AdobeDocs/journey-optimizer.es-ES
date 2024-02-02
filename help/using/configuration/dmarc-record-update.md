@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdominio, dominio, correo, dmarc, registro
-source-git-commit: c5da9e9cfd5c03d7c6898e492582e5cc3e466447
+source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '575'
 ht-degree: 6%
 
 ---
@@ -20,10 +20,9 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="Más información sobre la actualización obligatoria de DMARC"
->abstract="Como parte de las prácticas recomendadas del sector, Google y Yahoo requerirán que tenga un **Registro DMARC** para cualquier dominio que utilice para enviarles correo electrónico, a partir del **1 de febrero de 2024**.<br>Por lo tanto, asegúrese de tener configurado el registro DMARC para todos los subdominios que ha delegado en Adobe en Journey Optimizer."
+>abstract="Como parte de las prácticas recomendadas del sector, tanto Google como Yahoo requieren que tenga un **Registro DMARC** para cualquier dominio que utilice para enviarles correo electrónico, a partir del **1 de febrero de 2024**.<br>Por lo tanto, asegúrese de tener configurado el registro DMARC para todos los subdominios que ha delegado en Adobe en Journey Optimizer."
 
 Autenticación de mensajes, creación de informes y conformidad basados en dominio (DMARC) es un método de autenticación por correo electrónico que permite a los propietarios de dominios proteger su dominio contra el uso no autorizado. Al ofrecer una política clara a los proveedores de correo electrónico/ISP, ayuda a evitar que actores maliciosos envíen correos electrónicos que afirman ser de su dominio. La implementación de DMARC reduce el riesgo de que los correos electrónicos legítimos se marquen como correo no deseado o se rechacen, y mejora la capacidad de envío de correos electrónicos.
-
 
 Como parte de las prácticas recomendadas del sector, Google y Yahoo! exigen que un **Registro DMARC** para cualquier dominio que utilice para enviarles correos electrónicos. Este nuevo requisito se aplica a partir de **1 de febrero de 2024**. [Más información](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}
 
@@ -48,7 +47,7 @@ o
   Sin embargo, con la delegación CNAME, también se requerirá la entrada en la solución de alojamiento. Por lo tanto, asegúrese de coordinarse con su departamento de TI para que pueda realizar la actualización detallada en [esta sección](dmarc-record.md#implement-dmarc).
 
 
-Las escalas de tiempo más recientes compartidas por Google y Yahoo son las siguientes:
+Las cronologías más recientes compartidas por Google y Yahoo! son los siguientes:
 
 * Google:
 
@@ -58,7 +57,7 @@ Las escalas de tiempo más recientes compartidas por Google y Yahoo son las sigu
 
    * **1 de junio de 2024** : Cualquier remitente que no cumpla totalmente los requisitos experimentará un bloqueo.
 
-* Yahoo no ha proporcionado fechas exactas, pero ha dicho que &quot;el despliegue de la aplicación comenzará en febrero de 2024. La aplicación se implantará gradualmente&quot;.
+* Yahoo! no ha proporcionado fechas exactas, pero ha dicho que &quot;el despliegue de la aplicación comenzará en febrero de 2024. La aplicación se implantará gradualmente&quot;.
 
 >[!NOTE]
 >
