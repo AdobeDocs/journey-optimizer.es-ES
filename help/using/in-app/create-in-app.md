@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 97e925529f5b61138474d53f7df404ff6ea44ba9
 workflow-type: tm+mt
-source-wordcount: '1939'
+source-wordcount: '1961'
 ht-degree: 13%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 13%
 >abstract="Controle de forma eficaz sus Activadores seleccionando los eventos y criterios específicos que activarán sus mensajes. Con el Generador de reglas, los usuarios pueden definir condiciones y valores precisos. Cuando se cumplen estas condiciones, inician una serie de acciones, incluido el envío de mensajes en la aplicación."
 
 Puede añadir un mensaje en la aplicación en una campaña o en un recorrido. Siga los pasos detallados a continuación para crear un mensaje en la aplicación en ambos contextos.
+
+Tenga en cuenta que los mensajes en la aplicación no se ven afectados por la opción del usuario de incluirse o excluirse de las notificaciones push en el sistema operativo.
 
 >[!BEGINTABS]
 
