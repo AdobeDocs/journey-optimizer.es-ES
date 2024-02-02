@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: ff25658bd69b83cfd1869490c24710f84d4a4ffc
+source-git-commit: 718854c5ab51ad55fde7629415b954a079647c0b
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1137'
 ht-degree: 10%
 
 ---
@@ -174,14 +174,14 @@ Puede combinar varias reglas de frecuencia de mensajes, como se describe en el e
 1. [Creación de una regla](#create-new-rule) llamado *Límite general de marketing*:
 
    * Seleccione Canales push y de correo electrónico.
-   * Establezca el límite en 12.
+   * Establezca un límite de 12 al mes.
 
    ![](assets/message-rules-ex-overall-cap.png)
 
 1. Para restringir aún más el número de notificaciones push basadas en marketing que se envían a un usuario, cree una segunda regla llamada *Límite de marketing push*:
 
    * Seleccione Canal push.
-   * Establezca el límite en 4.
+   * Establezca un límite de 4 al mes.
 
    ![](assets/message-rules-ex-push-cap.png)
 
