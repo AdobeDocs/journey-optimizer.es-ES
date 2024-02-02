@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
-source-wordcount: '4648'
-ht-degree: 19%
+source-wordcount: '4806'
+ht-degree: 17%
 
 ---
 
@@ -270,9 +270,14 @@ Consulte [esta página](exclusion-list.md) para obtener la lista completa de mot
 
 ### Enviados y entregados por dominios {#sent-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_sent_domains"
+>title="Enviados y entregados por dominios"
+>abstract="La tabla y el gráfico Enviados y entregados por dominios ofrecen un desglose de los correos electrónicos clasificados por dominios, y ofrecen información exhaustiva sobre el rendimiento general de sus comunicaciones por correo electrónico."
+
 ![](assets/campaign_email_sent_domains.png)
 
-El  **[!UICONTROL Enviados y entregados por dominios]** La tabla y el gráfico proporcionan un desglose detallado de los correos electrónicos en el nivel de dominio, lo que ofrece información completa sobre el rendimiento de los correos electrónicos.
+El **[!UICONTROL Enviados y entregados por dominios]** La tabla y el gráfico proporcionan un desglose detallado de los correos electrónicos en el nivel de dominio, lo que ofrece información completa sobre el rendimiento de los correos electrónicos.
 
 +++ Más información sobre las Métricas de Enviado y entregado por dominios
 
@@ -284,9 +289,14 @@ El  **[!UICONTROL Enviados y entregados por dominios]** La tabla y el gráfico p
 
 ### Rechazos y errores por dominios {#bounces-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounces_domains"
+>title="Rechazos y errores por dominios"
+>abstract="El gráfico y la tabla Devoluciones y errores por dominios proporcionan un desglose granular a nivel de dominio, y ofrecen perspectivas de errores específicos encontrados durante el proceso de envío de correo electrónico."
+
 ![](assets/campaign_email_bounce_domains.png)
 
-El  **[!UICONTROL Devoluciones y errores por dominios]** El gráfico y la tabla ofrecen un desglose a nivel de dominio de los errores específicos encontrados durante el proceso de envío, lo que proporciona un análisis detallado de los problemas que se han producido.
+El **[!UICONTROL Devoluciones y errores por dominios]** El gráfico y la tabla ofrecen un desglose a nivel de dominio de los errores específicos encontrados durante el proceso de envío, lo que proporciona un análisis detallado de los problemas que se han producido.
 
 +++ Más información sobre las Métricas Devoluciones y errores por dominios
 
@@ -298,9 +308,14 @@ El  **[!UICONTROL Devoluciones y errores por dominios]** El gráfico y la tabla 
 
 ### Aperturas y clics por dominios {#opens-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_open_domains"
+>title="Aperturas y clics por dominios"
+>abstract="El gráfico y la tabla Abrir y clics por dominios ofrecen un desglose detallado a nivel de dominio, y presentan una vista completa de cómo la audiencia interactúa con los correos electrónicos."
+
 ![](assets/campaign_email_open_domains.png)
 
-El  **[!UICONTROL Abrir y hacer clic por dominios]** los gráficos y las tablas muestran un desglose a nivel de dominio de la participación de sus perfiles con su correo electrónico, lo que proporciona una valiosa perspectiva de cómo los distintos dominios interactúan con su contenido.
+El **[!UICONTROL Abrir y hacer clic por dominios]** los gráficos y las tablas muestran un desglose a nivel de dominio de la participación de sus perfiles con su correo electrónico, lo que proporciona una valiosa perspectiva de cómo los distintos dominios interactúan con su contenido.
 
 +++ Más información sobre las métricas Abrir y clics por dominios
 
@@ -312,9 +327,14 @@ El  **[!UICONTROL Abrir y hacer clic por dominios]** los gráficos y las tablas 
 
 ### Razones de rechazo por dominio {#bounce-reasons-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounces_reasons_domains"
+>title="Razones de rechazo por dominio"
+>abstract="El gráfico y la tabla Razones de rechazo por dominio proporciona un desglose a nivel de dominio, lo que ofrece una perspectiva completa de los errores temporales y permanentes. Este análisis detallado le proporciona información valiosa sobre los motivos específicos detrás de los mensajes rechazados."
+
 ![](assets/campaign_email_bounce_reasons_domains.png)
 
-El  **[!UICONTROL Razones de rechazo por dominio]** los gráficos y las tablas ofrecen un desglose de datos a nivel de dominio sobre los errores temporales y permanentes, lo que proporciona una perspectiva detallada de los motivos que subyacen a los mensajes rechazados.
+El **[!UICONTROL Razones de rechazo por dominio]** los gráficos y las tablas ofrecen un desglose de datos a nivel de dominio sobre los errores temporales y permanentes, lo que proporciona una perspectiva detallada de los motivos que subyacen a los mensajes rechazados.
 
 +++ Más información sobre los Motivos de rechazo por métricas de dominio
 
@@ -366,7 +386,7 @@ El **[!UICONTROL Correo electrónico: dominio del mejor destinatario]** el gráf
 
 >[!NOTE]
 >
->El **[!UICONTROL Optimizado frente a no optimizado]** y **[!UICONTROL Optimización del tiempo de envío]**  Los widgets solo están disponibles si la opción Optimización del tiempo de envío está activada para el correo electrónico. Para obtener más información sobre la optimización del tiempo de envío, consulte [esta página](../building-journeys/journeys-message.md#send-time-optimization).
+>El **[!UICONTROL Optimizado frente a no optimizado]** y **[!UICONTROL Optimización del tiempo de envío]** Los widgets solo están disponibles si la opción Optimización del tiempo de envío está activada para el correo electrónico. Para obtener más información sobre la optimización del tiempo de envío, consulte [esta página](../building-journeys/journeys-message.md#send-time-optimization).
 
 El **[!UICONTROL Optimizado frente a no optimizado]** y **[!UICONTROL Optimización del tiempo de envío]** los widgets detallan la información principal relativa al mensaje, estén optimizados o no.
 
@@ -554,7 +574,7 @@ El **[!UICONTROL Notificación push: resumen de envío]** el gráfico ofrece una
 
 >[!NOTE]
 >
->El **[!UICONTROL Optimizado frente a no optimizado]** y **[!UICONTROL Optimización del tiempo de envío]**  Los widgets solo están disponibles si la opción Optimización del tiempo de envío está activada para la notificación push. Para obtener más información sobre la optimización del tiempo de envío, consulte [esta página](../building-journeys/journeys-message.md#send-time-optimization).
+>El **[!UICONTROL Optimizado frente a no optimizado]** y **[!UICONTROL Optimización del tiempo de envío]** Los widgets solo están disponibles si la opción Optimización del tiempo de envío está activada para la notificación push. Para obtener más información sobre la optimización del tiempo de envío, consulte [esta página](../building-journeys/journeys-message.md#send-time-optimization).
 
 El **[!UICONTROL Optimizado frente a no optimizado]** y **[!UICONTROL Optimización del tiempo de envío]** los widgets detallan la información principal relativa al mensaje, estén optimizados o no.
 
@@ -599,7 +619,7 @@ Consulte [esta página](exclusion-list.md) para obtener la lista completa de mot
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="Notificación push: desglose por plataforma"
->abstract="Los gráficos y la tabla Desglose por plataforma proporcionan un desglose del éxito de las notificaciones push en función del sistema operativo del perfil."
+>abstract="Los gráficos y la tabla Notificación push: desglose por plataforma proporcionan un desglose del éxito de las notificaciones push en función del sistema operativo del perfil."
 
 ![](assets/campaign_push_breakdown.png)
 
@@ -632,7 +652,7 @@ Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL SMS]** Esta 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
 >title="SMS: estadísticas de envío"
->abstract="La tabla Estadísticas del envío de SMS resume los datos esenciales sobre sus mensajes SMS, como los mensajes segmentados o enviados."
+>abstract="La tabla SMS: estadísticas de envío resume los datos esenciales sobre sus mensajes SMS, como mensajes dirigidos o enviados."
 
 ![](assets/campaign_sms_sending.png)
 
@@ -656,6 +676,11 @@ El **[!UICONTROL SMS: estadísticas de envío]** La tabla proporciona un resumen
 
 ### SMS: estadísticas de seguimiento {#sms-tracking-statistics}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_sms_tracking_statistics"
+>title="SMS: estadísticas de seguimiento"
+>abstract="El widget SMS: estadísticas de seguimiento proporciona una visión general completa de la información esencial relacionada con la interacción de los visitantes con la dirección URL."
+
 ![](assets/campaign_sms_tracking.png)
 
 El **[!UICONTROL SMS: estadísticas de seguimiento]** Este widget proporciona una descripción detallada de la información clave relacionada con la participación de los visitantes con las direcciones URL, lo que ofrece perspectivas sobre la eficacia de los mensajes SMS.
@@ -673,7 +698,7 @@ El **[!UICONTROL SMS: estadísticas de seguimiento]** Este widget proporciona un
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
 >title="SMS: rendimiento por fecha"
->abstract="El widget Rendimiento por fecha de SMS proporciona información clave sobre los mensajes a través de una representación gráfica."
+>abstract="El widget Rendimiento por fecha - SMS proporciona información clave sobre sus mensajes a través de una representación gráfica."
 
 ![](assets/campaign_sms_performance.png)
 
@@ -727,7 +752,7 @@ El **[!UICONTROL Razones de rechazos]** Los gráficos y la tabla proporcionan un
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
 >title="SMS: clics por vínculos"
->abstract="El widget SMS: clics por vínculos proporciona información esencial sobre la participación de los visitantes en las direcciones URL de los mensajes"
+>abstract="El widget SMS: clics por vínculos proporciona una información esencial sobre la participación de los visitantes con las direcciones URL de los mensajes."
 
 ![](assets/campaign_sms_clicks.png)
 

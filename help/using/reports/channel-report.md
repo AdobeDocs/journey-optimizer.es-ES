@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '3683'
 ht-degree: 25%
@@ -214,7 +214,7 @@ Consulte [esta página](exclusion-list.md) para obtener la lista completa de mot
 
 ![](assets/channel_email_sent_domains.png)
 
-El  **[!UICONTROL Enviados y entregados por dominios]** La tabla y el gráfico proporcionan un desglose detallado de los envíos de correo electrónico en el nivel de dominio, lo que ofrece información completa sobre el rendimiento de los correos electrónicos.
+El **[!UICONTROL Enviados y entregados por dominios]** La tabla y el gráfico proporcionan un desglose detallado de los envíos de correo electrónico en el nivel de dominio, lo que ofrece información completa sobre el rendimiento de los correos electrónicos.
 
 +++ Más información sobre las Métricas de Enviado y entregado por dominios
 
@@ -233,7 +233,7 @@ El  **[!UICONTROL Enviados y entregados por dominios]** La tabla y el gráfico p
 
 ![](assets/channel_email_bounces_domain.png)
 
-El  **[!UICONTROL Devoluciones y errores por dominios]** El gráfico y la tabla ofrecen un desglose a nivel de dominio de los errores específicos encontrados durante el proceso de envío, lo que proporciona un análisis detallado de los problemas que se han producido.
+El **[!UICONTROL Devoluciones y errores por dominios]** El gráfico y la tabla ofrecen un desglose a nivel de dominio de los errores específicos encontrados durante el proceso de envío, lo que proporciona un análisis detallado de los problemas que se han producido.
 
 +++ Más información sobre las Métricas Devoluciones y errores por dominios
 
@@ -252,7 +252,7 @@ El  **[!UICONTROL Devoluciones y errores por dominios]** El gráfico y la tabla 
 
 ![](assets/channel_email_open_domains.png)
 
-El  **[!UICONTROL Abrir y hacer clic por dominios]** los gráficos y las tablas muestran un desglose a nivel de dominio de la participación de los visitantes con el correo electrónico, lo que proporciona una valiosa perspectiva de cómo los distintos dominios interactúan con el contenido.
+El **[!UICONTROL Abrir y hacer clic por dominios]** los gráficos y las tablas muestran un desglose a nivel de dominio de la participación de los visitantes con el correo electrónico, lo que proporciona una valiosa perspectiva de cómo los distintos dominios interactúan con el contenido.
 
 +++ Más información sobre las métricas Abrir y clics por dominios
 
@@ -271,7 +271,7 @@ El  **[!UICONTROL Abrir y hacer clic por dominios]** los gráficos y las tablas 
 
 ![](assets/channel_email_bounce_domain.png)
 
-El  **[!UICONTROL Razones de rechazo por dominio]** los gráficos y las tablas ofrecen un desglose de datos a nivel de dominio sobre los errores temporales y permanentes, lo que proporciona una perspectiva detallada de los motivos que subyacen a los mensajes rechazados.
+El **[!UICONTROL Razones de rechazo por dominio]** los gráficos y las tablas ofrecen un desglose de datos a nivel de dominio sobre los errores temporales y permanentes, lo que proporciona una perspectiva detallada de los motivos que subyacen a los mensajes rechazados.
 
 Para obtener más información sobre las devoluciones, consulte [Lista de supresión](../reports/suppression-list.md) página.
 
