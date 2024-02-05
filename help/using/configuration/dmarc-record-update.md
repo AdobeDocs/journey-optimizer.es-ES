@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Cumplir con el nuevo requisito de DMARC
+title: Cumplimiento del nuevo requisito de DMARC
 description: Descubra por qué y cuándo debe establecer el registro DMARC en Journey Optimizer
 feature: Subdomains, Channel Configuration, Deliverability
 topic: Administration
@@ -11,11 +11,11 @@ keywords: subdominio, dominio, correo, dmarc, registro
 source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
-# Cumplir con el nuevo requisito de DMARC {#dmarc-record-update}
+# Cumplimiento del nuevo requisito de DMARC {#dmarc-record-update}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
