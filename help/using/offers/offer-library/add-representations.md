@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 10%
+source-wordcount: '730'
+ht-degree: 8%
 
 ---
 
@@ -136,3 +136,42 @@ También puede insertar contenido de tipo texto al seleccionar una ubicación co
    >
    >Solo el **[!UICONTROL Atributos de perfil]**, **[!UICONTROL Audiencias]** y **[!UICONTROL Funciones de ayuda]** Hay fuentes de disponibles para Gestión de decisiones.
 
+## Personalizar representaciones basadas en datos de contexto{#context-data}
+
+Cuando los datos de contexto se pasan en [Edge Decisioning](../api-reference/offer-delivery-api/edge-decisioning-api.md) Al llamar a, puede aprovechar estos datos para personalizar las representaciones de forma dinámica. Por ejemplo, puede adaptar la representación de una oferta en función de factores en tiempo real como las condiciones meteorológicas actuales en el momento en que se toma la decisión.
+
+Para ello, incorpore la variable de datos de contexto directamente dentro del contenido de representación utilizando `profile.timeSeriesEvents.` namespace.
+
+Este es un ejemplo de sintaxis utilizado para personalizar la representación de una oferta en función de los sistemas operativos de los usuarios:
+
+```
+ {%#if profile.timeSeriesEvents.device.model = "Apple"%}ios{%else%}android{%/if%} 
+```
+
+La solicitud de Edge Decisioning correspondiente, incluidos los datos de contexto, es la siguiente:
+
+```
+{
+    "body": {
+        "xdm": {
+            "identityMap": {
+                "Email": [
+                    {
+                        "id": "xyz@abc.com"
+                    }
+                ]
+            },
+            "device": {
+                "model": "Apple"
+            }
+        },
+        "extra": {
+            "query": {
+                "decisionScopes": [
+                    "eyJ4ZG06..."
+                ]
+            }
+        }
+    }
+}
+```
