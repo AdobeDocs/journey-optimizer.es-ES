@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
+source-git-commit: 63a849b50ff7f02da07e6fd74d00f3d9360ad012
 workflow-type: tm+mt
 source-wordcount: '4606'
 ht-degree: 92%
@@ -21,7 +21,7 @@ Esta página enumera todas las actualizaciones más recientes de [!DNL Journey O
 
 ## Febrero de 2024 (#feb-2024)
 
-* Se ha añadido información sobre cómo personalizar las representaciones de las ofertas en función de los datos de contexto [Más información](../offers/offer-library/add-representations.md#context-data)
+* Se ha añadido información sobre cómo personalizar las representaciones de las ofertas en función de los datos de contexto. [Más información](../offers/offer-library/add-representations.md#context-data)
 
 ## Enero de 2024 {#jan-2024}
 
