@@ -7,7 +7,7 @@ feature: Privacy, Monitoring
 role: Developer, User, Admin, Leader
 level: Intermediate
 exl-id: f0985d1f-0bcf-452f-bd46-dfeca0424f01
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a939d06d26d64a72eaec0ddc7f22b074ad463150
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
@@ -25,7 +25,6 @@ Con Adobe Journey Optimizer, los clientes del [programa de protección sanitaria
 El proceso de configuración de Journey Optimizer consta de dos partes, que aprovechan la tecnología tanto de Adobe Experience Platform como de Customer Journey Analytics (CJA):
 
 * Siga los pasos descritos en la documentación [Claves gestionadas por el cliente en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html?lang=es).
-
 * Siga los pasos descritos en la documentación [Claves gestionadas por el cliente en Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/cmk.html?lang=es).
 
   Completar este proceso de configuración es necesario, incluso si no ha adquirido Customer Journey Analytics (CJA), ya que ciertos componentes de CJA se utilizan en segundo plano.
