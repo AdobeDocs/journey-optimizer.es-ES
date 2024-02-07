@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1731'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
       + [Notas de la versión de 2023](using/rn/release-notes-2023.md)
       + [Notas de la versión de 2022](using/rn/release-notes-2022.md)
       + [Notas de la versión de 2021](using/rn/release-notes-2021.md)
-   + [Actualizaciones de documentación](using/rn/documentation-updates.md)
+   + [Actualizaciones de la documentación](using/rn/documentation-updates.md)
 + Introducción{#get-started}
    + [Qué es Journey Optimizer](using/start/get-started.md)
    + Guías de inicio rápido{#quick-start}
@@ -34,7 +34,7 @@ ht-degree: 99%
    + [Interfaz de usuario](using/start/user-interface.md)
    + [Buscar, filtrar, categorizar](using/start/search-filter-categorize.md)
    + [Accesibilidad](using/start/accessibility.md)
-   + [Manuales de casos de uso](using/start/playbooks.md)
+   + [Manuales de tácticas de casos de uso](using/start/playbooks.md)
    + [Integraciones](using/start/ajo-integrations.md)
    + [Mecanismos de protección](using/start/guardrails.md)
    + [Prácticas recomendadas](using/start/best-practices.md)
@@ -527,7 +527,7 @@ ht-degree: 99%
    + Delegación de subdominios de correo electrónico {#delegate-subdomains}
       + [Introducción a la delegación de subdominios](using/configuration/about-subdomain-delegation.md)
       + [Delegar un subdominio](using/configuration/delegate-subdomain.md)
-      + [Configuración del registro DMARC](using/configuration/dmarc-record.md)
+      + [Configurar el registro DMARC](using/configuration/dmarc-record.md)
       + [Añadir un registro TXT de Google](using/configuration/google-txt.md)
       + [Acceso y edición de registros PTR](using/configuration/ptr-records.md)
       + [Crear grupos de IP](using/configuration/ip-pools.md)
