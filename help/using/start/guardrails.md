@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 0d010bbb46887546d524726606764b564c352064
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1960'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -87,9 +87,9 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 * No se permiten direcciones IP
 * Las direcciones de Adobe internas (`.adobe.*`) no están permitidas en las direcciones URL y las API.
 * Las acciones personalizadas integradas no se pueden eliminar.
-* Al elegir un punto final como destino mediante una acción personalizada, asegúrese de que:
+* Al elegir un extremo como destino mediante una acción personalizada, asegúrese de lo siguiente:
 
-   * Este punto de conexión puede admitir el rendimiento del recorrido mediante configuraciones del [API de restricción](../configuration/throttling.md) o [API de límite](../configuration/capping.md) para limitarlo. Tenga cuidado de que una configuración de restricción no pueda pasar por debajo de 200 TPS. Cualquier punto de conexión objetivo deberá admitir al menos 200 TPS.
+   * Este extremo puede admitir el rendimiento del recorrido mediante las configuraciones de la [API de límite](../configuration/throttling.md) o la [API de cierre](../configuration/capping.md) para limitarlo. Tenga cuidado ya que una configuración de limitación no puede estar por debajo de 200 TPS. Cualquier extremo segmentado deberá admitir al menos 200 TPS.
    * Este extremo necesita tener un tiempo de respuesta lo más bajo posible. Según el rendimiento esperado, tener un tiempo de respuesta alto podría afectar al rendimiento real.
 
 ### Eventos {#events-g}
