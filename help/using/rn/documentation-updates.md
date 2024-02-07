@@ -11,13 +11,13 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 7ce415308bd516eb51799890c76b4469558087ee
 workflow-type: tm+mt
 source-wordcount: '4604'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
-# Actualizaciones de documentación {#latest-updates}
+# Actualizaciones de la documentación {#latest-updates}
 
-Esta página enumera todas las actualizaciones más recientes de [!DNL Journey Optimizer] documentación.
+Esta página enumera todas las últimas actualizaciones de la documentación de [!DNL Journey Optimizer].
 
 ## Febrero de 2024 {#feb-2024}
 
@@ -25,27 +25,27 @@ Esta página enumera todas las actualizaciones más recientes de [!DNL Journey O
 
 ## Enero de 2024 {#jan-2024}
 
-* Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de enero de 2024 se ha detallado en la documentación. [Más información](release-notes.md)
+* Todas las nuevas funciones y mejoras incluidas en la versión de enero de 2024 de [!DNL Journey Optimizer] se han incluido en la documentación. [Más información](release-notes.md)
 * Se ha añadido un mecanismo de protección sobre el tamaño del recorrido. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
 * Se ha detallado la administración del tiempo de espera del recorrido [en la sección siguiente](../building-journeys/journey-gs.md#global_timeout).
 * Se ha rediseñado la [página de inicio de documentación](../../ajo-home.md) de Journey Optimizer.
 * Se han añadido recomendaciones sobre la actividad Actualizar perfiles. [Más información](../building-journeys/update-profiles.md)
-* Se ha añadido información sobre el comportamiento de los tiempos de espera en las actividades de evento de los recorridos. Cuando no se recibe ningún evento durante el período de tiempo de espera especificado, las personas continuarán el recorrido si no se define ninguna ruta de tiempo de espera. [Más información](../building-journeys/general-events.md#events-specific-time)
-* Los requisitos previos de configuración del canal en la aplicación se han actualizado con una nota sobre el uso de una política de combinación de preferencias de conjunto de datos personalizada. [Más información](../in-app/inapp-configuration.md)
+* Se ha añadido información sobre el comportamiento de los tiempos de espera en las actividades de evento de los recorridos. Cuando no se recibe ningún evento durante el período de tiempo de espera especificado, las personas continúan el recorrido si no se define ninguna ruta de tiempo de espera. [Más información](../building-journeys/general-events.md#events-specific-time)
+* Los requisitos previos de configuración de canal en la aplicación se han actualizado con una nota sobre el uso de una política de combinación de preferencias de conjunto de datos personalizada. [Más información](../in-app/inapp-configuration.md)
 * Se han añadido más detalles acerca de cómo manipular colecciones en una respuesta de acción personalizada. [Más información](../action/action-response.md#exp-syntax).
-* Un vínculo a la [Diccionario de esquemas para Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es) se ha añadido a la página de inicio.
-* Se ha eliminado una referencia obsoleta al recurso de mensaje AJO de la lista de recursos disponibles en el registro de auditoría. Cuando se realiza una actualización de un mensaje en un recorrido, una **Recorrido** se ha creado el registro. [Más información](../privacy/audit-logs.md)
-* Se han añadido recomendaciones adicionales sobre el uso del **Leer audiencia** actividad. [Más información](../building-journeys/read-audience.md#must-read)
-* La página Introducción a las audiencias de Adobe Experience Platform se ha mejorado con una lista de métodos de generación de audiencias. [Más información](../audience/about-audiences.md)
-* Se han añadido prácticas recomendadas al elegir un punto final como destino mediante una acción personalizada. [Más información](../action/about-custom-action-configuration.md)
+* Se ha añadido a la página de inicio un vínculo al [Diccionario de esquemas para Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es).
+* Se ha eliminado una referencia obsoleta al recurso Mensaje de AJO de la lista de recursos disponibles en el registro de auditoría. Cuando se realiza una actualización de un mensaje en un recorrido, se crea un registro **Recorrido**. [Más información](../privacy/audit-logs.md)
+* Se han añadido recomendaciones adicionales sobre el uso de la actividad **Leer público**. [Más información](../building-journeys/read-audience.md#must-read)
+* La página Introducción a los públicos de Adobe Experience Platform se ha mejorado con una lista de métodos de generación de públicos. [Más información](../audience/about-audiences.md)
+* Se han añadido prácticas recomendadas cuando se elige un extremo como destino mediante una acción personalizada. [Más información](../action/about-custom-action-configuration.md)
 * Se ha añadido una nota para notificar a los usuarios de que los eventos no se pueden activar desde sistemas externos mediante una API. [Más información](../building-journeys/testing-the-journey.md#important-notes)
-* Información sobre la **currentActionField** se ha añadido la función a la lista de [funciones de administración de colecciones](../building-journeys/expression/collection-management-functions.md). Se ha añadido una muestra de expresión que aprovecha la función en [Uso de respuestas de llamadas de API en acciones personalizadas](../action/action-response.md) página.
+* Se ha añadido información sobre la función **currentActionField** a la lista de [funciones de administración de colecciones](../building-journeys/expression/collection-management-functions.md). Se ha añadido un ejemplo de expresión que aprovecha la función en la página [Uso de respuestas de llamadas de la API en acciones personalizadas](../action/action-response.md).
 * Actualice el documento de autenticación personalizada con respecto a la duración de la caché. [Más información] (../datasource/external-data-sources.md)
-* Compatibilidad con `<listObject>` se ha modificado en varias funciones.
-* Actualice el **duration** en el campo `toString` función. [Más información](../building-journeys/functions/functiontostring.md)
+* Se ha modificado la compatibilidad con `<listObject>` en varias funciones.
+* Actualice el parámetro **duración** en la función de `toString`. [Más información](../building-journeys/functions/functiontostring.md)
 * En algunos casos de uso de fuentes de datos externas, se recomienda el uso de acciones personalizadas.
-* Se ha actualizado la sintaxis del campo Evento. La siguiente sintaxis está obsoleta `@(my_event.myfield}` y se sustituye por `@event{my_event.myfield}`. [Más información](../building-journeys/expression/field-references.md)
-* Se han reorganizado las guías Informe global e Informe en vivo. [Más información](../reports/campaign-global-report.md)
+* Se ha actualizado la sintaxis del campo Evento. La siguiente sintaxis está obsoleta `@(my_event.myfield}` y se ha sustituido por `@event{my_event.myfield}`. [Más información](../building-journeys/expression/field-references.md)
+* Se han reorganizado las guías de Informe global e Informe activo. [Más información](../reports/campaign-global-report.md)
 
 
 ## Noviembre de 2023 {#nov-2023}

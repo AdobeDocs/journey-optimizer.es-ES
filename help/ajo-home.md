@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 0144a772f67ffa03e39a70de41c54a6cf88cdd69
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 68%
+ht-degree: 94%
 
 ---
 
@@ -28,17 +28,17 @@ Descubra las nuevas funciones y mejoras incluidas en la versión 24.1 de Adobe J
 
 >[!TAB Actualización obligatoria de DMARC]
 
-Como parte de las prácticas recomendadas del sector, Google y Yahoo! Ambos requerirán que usted tenga un. **Registro DMARC** para cualquier dominio que utilice para enviarles correo electrónico, a partir del **1 de febrero de 2024**. Asegúrese de tener configurado el registro DMARC para todos los subdominios que haya delegado a Adobe en Journey Optimizer.
+Como parte del cumplimiento de las prácticas recomendadas del sector, Google y Yahoo! Ambos requerirán que usted tenga un. **Registro DMARC** para cualquier dominio que utilice para enviarles correo electrónico, a partir del **1 de febrero de 2024**. Asegúrese de tener configurado el registro DMARC para todos los subdominios que haya delegado a Adobe en Journey Optimizer.
 
 [![Imagen](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
->[!TAB Manuales de casos de uso]
+>[!TAB Manuales de tácticas de casos de uso]
 
-Aproveche un catálogo de libros de reproducción de casos de uso específicos del sector en Real-Time CDP y Journey Optimizer para abordar casos de uso comunes que puede realizar con Adobe Experience Platform y Adobe Recorrido Optimizer.
+Utilice un catálogo de manuales de tácticas de casos de uso específicos del sector en Real-Time CDP y Journey Optimizer para abordar casos de uso comunes que puede realizar con Adobe Experience Platform y Adobe Journey Optimizer.
 
-Una vez que haya elegido el libro de reproducción que mejor se adapte a sus necesidades, puede habilitarlo para generar los recursos necesarios para admitir su caso de uso, como recorridos, mensajes, esquemas o segmentos, y personalizarlos a su esquema para obtener un tiempo de valor más rápido.
+Una vez que haya elegido el manual de tácticas que mejor se adapte a sus necesidades, puede habilitarlo para generar los recursos necesarios compatibles con su caso de uso, como recorridos, mensajes, esquemas o segmentos, y personalizarlos según su esquema para acelerar la obtención de valor.
 
-![imagen animada que muestra libros de casos de uso](using/rn/assets/do-not-localize/playbooks.gif)
+![imagen animada que muestra manuales de tácticas de casos de uso](using/rn/assets/do-not-localize/playbooks.gif)
 
 [![image](using/assets/do-not-localize/learn-more-button.svg)](using/start/playbooks.md)
 
