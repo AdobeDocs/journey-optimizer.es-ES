@@ -11,7 +11,7 @@ exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '3683'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -50,7 +50,7 @@ En los informes de canal, el menú Correo electrónico detalla la información p
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics"
 >title="Correo electrónico: estadísticas de envío totales"
->abstract="Los KPI de las estadísticas de envío Correo electrónico - Total resumen los datos esenciales sobre sus correos electrónicos, como los mensajes dirigidos o enviados."
+>abstract="Los indicadores clave de rendimiento (KPI) de Correo electrónico: estadísticas totales de envío totales resumen los datos esenciales sobre los correos electrónicos, como los mensajes dirigidos o entregados."
 
 ![](assets/channel_email_total_sending.png)
 
@@ -80,11 +80,11 @@ El **[!UICONTROL Estadísticas de envío totales de correo electrónico]** Este 
 
 +++
 
-### Correo electrónico: Estadísticas totales de seguimiento {#email-total-tracking}
+### Correo electrónico: estadísticas totales de seguimiento {#email-total-tracking}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_tracking_statistics"
->title="Correo electrónico: Estadísticas totales de seguimiento"
+>title="Correo electrónico: estadísticas totales de seguimiento"
 >abstract="Los KPI de Correo electrónico: Estadísticas totales de seguimiento, proporcionan datos sobre la actividad de perfil de los correos electrónicos."
 
 ![](assets/channel_email_total_tracking.png)
@@ -262,11 +262,11 @@ El **[!UICONTROL Abrir y hacer clic por dominios]** los gráficos y las tablas m
 
 +++
 
-### Razones de rechazo por dominio {#bounce-reasons-domains}
+### Motivos de rechazo por dominio {#bounce-reasons-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_reasons_domains"
->title="Razones de rechazo por dominio"
+>title="Motivos de rechazo por dominio"
 >abstract="El gráfico y la tabla Motivos de rechazo por dominio por dominios representan el desglose de datos a nivel de dominio sobre errores temporales y permanentes."
 
 ![](assets/channel_email_bounce_domain.png)
@@ -375,7 +375,7 @@ El **[!UICONTROL Notificaciones push: estadísticas de seguimiento a lo largo de
 
 +++
 
-### Notificaciones push: razones de exclusión {#push-excluded-reasons}
+### Notificaciones push: motivos de la exclusión {#push-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_excluded_reasons"
@@ -388,7 +388,7 @@ El **[!UICONTROL Razones de exclusión]** los gráficos y las tablas muestran lo
 
 Consulte [esta página](exclusion-list.md) para obtener la lista completa de motivos de exclusión.
 
-### Notificaciones push: razones de error {#push-error-reasons}
+### Notificaciones push: motivos del error {#push-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_error_reasons"
@@ -616,7 +616,7 @@ El **[!UICONTROL Participación total en la aplicación]** Los KPI ofrecen una v
 
 +++
 
-### Horas extra de participación en la aplicación {#inapp-engagement-overtime}
+### Tiempo extra de participación en la aplicación {#inapp-engagement-overtime}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement_overtime"

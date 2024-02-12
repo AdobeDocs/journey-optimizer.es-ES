@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '4806'
-ht-degree: 17%
+ht-degree: 23%
 
 ---
 
@@ -190,12 +190,12 @@ El **[!UICONTROL Correo electrónico: estadísticas de seguimiento]** Esta tabla
 
 +++
 
-### Correo electrónico: rendimiento de envío {#sending-performance-email}
+### Correo electrónico: rendimiento del envío {#sending-performance-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_performance"
->title="Correo electrónico: Rendimiento de envío"
->abstract="El gráfico de rendimiento Correo electrónico: envío presenta datos completos sobre los correos electrónicos enviados, ofreciendo perspectivas sobre métricas clave como envíos y devoluciones, lo que permite un análisis detallado del proceso de envío de correo electrónico."
+>title="Correo electrónico: rendimiento del envío"
+>abstract="El gráfico Correo electrónico: rendimiento del envío presenta datos completos sobre los correos electrónicos enviados, ofreciendo perspectivas sobre métricas clave como envíos y rechazos, lo que permite realizar un análisis detallado del proceso de entrega del correo electrónico."
 
 ![](assets/campaign_email_sending_performance.png)
 
@@ -242,11 +242,11 @@ Para obtener más información sobre las devoluciones, consulte [Lista de supres
 +++
 
 
-### Correo electrónico: Motivos de error {#errors-email}
+### Correo electrónico: motivos del error {#errors-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_error_reasons"
->title="Correo electrónico: Motivos de error"
+>title="Correo electrónico: motivos del error"
 >abstract="El correo electrónico: los gráficos y la tabla Motivos de error permiten le permiten identificar los errores específicos que se produjeron durante el envío."
 
 ![](assets/campaign_email_error_reasons.png)
@@ -273,7 +273,7 @@ Consulte [esta página](exclusion-list.md) para obtener la lista completa de mot
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sent_domains"
 >title="Enviados y entregados por dominios"
->abstract="La tabla y el gráfico Enviados y entregados por dominios ofrecen un desglose de los correos electrónicos clasificados por dominios, y ofrecen información exhaustiva sobre el rendimiento general de sus comunicaciones por correo electrónico."
+>abstract="La tabla y el gráfico Enviados y entregados por dominios ofrecen un desglose de los correos electrónicos categorizados por dominios, presentando una visión en profundidad del rendimiento general de sus comunicaciones por correo electrónico."
 
 ![](assets/campaign_email_sent_domains.png)
 
@@ -292,7 +292,7 @@ El **[!UICONTROL Enviados y entregados por dominios]** La tabla y el gráfico pr
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounces_domains"
 >title="Rechazos y errores por dominios"
->abstract="El gráfico y la tabla Devoluciones y errores por dominios proporcionan un desglose granular a nivel de dominio, y ofrecen perspectivas de errores específicos encontrados durante el proceso de envío de correo electrónico."
+>abstract="El gráfico y la tabla Rechazos y errores por dominios proporcionan un desglose granular a nivel de dominio, ofreciendo perspectivas sobre errores específicos encontrados durante el proceso de envío del correo electrónico."
 
 ![](assets/campaign_email_bounce_domains.png)
 
@@ -311,7 +311,7 @@ El **[!UICONTROL Devoluciones y errores por dominios]** El gráfico y la tabla o
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_open_domains"
 >title="Aperturas y clics por dominios"
->abstract="El gráfico y la tabla Abrir y clics por dominios ofrecen un desglose detallado a nivel de dominio, y presentan una vista completa de cómo la audiencia interactúa con los correos electrónicos."
+>abstract="El gráfico y la tabla Aperturas y clics por dominios ofrecen un desglose detallado a nivel de dominio, presentando una vista completa de cómo su público interactúa con sus correos electrónicos."
 
 ![](assets/campaign_email_open_domains.png)
 
@@ -325,12 +325,12 @@ El **[!UICONTROL Abrir y hacer clic por dominios]** los gráficos y las tablas m
 
 +++
 
-### Razones de rechazo por dominio {#bounce-reasons-domains}
+### Motivos de rechazo por dominio {#bounce-reasons-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounces_reasons_domains"
->title="Razones de rechazo por dominio"
->abstract="El gráfico y la tabla Razones de rechazo por dominio proporciona un desglose a nivel de dominio, lo que ofrece una perspectiva completa de los errores temporales y permanentes. Este análisis detallado le proporciona información valiosa sobre los motivos específicos detrás de los mensajes rechazados."
+>title="Motivos de rechazo por dominio"
+>abstract="El gráfico y la tabla Motivos de rechazo por dominio proporcionan un desglose a nivel de dominio, ofreciendo una visión completa de los errores temporales y permanentes. Este análisis detallado le proporciona información valiosa sobre las razones específicas de los mensajes rechazados."
 
 ![](assets/campaign_email_bounce_reasons_domains.png)
 
@@ -601,11 +601,11 @@ El **[!UICONTROL Optimizado frente a no optimizado]** y **[!UICONTROL Optimizaci
 
 El **[!UICONTROL Motivos del error]** La tabla y los gráficos le permiten identificar los errores específicos que se produjeron durante el proceso de envío de las notificaciones push, lo que ofrece información detallada sobre cualquier problema que se haya encontrado durante el proceso.
 
-### Notificación push: motivos excluidos {#excluded-push}
+### Notificación push: motivos de exclusión {#excluded-push}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_excluded_reasons"
->title="Notificación push: motivos excluidos"
+>title="Notificación push: motivos de exclusión"
 >abstract="Los gráficos y la tabla Motivos excluidos ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos del público destinatario, no recibieran el mensaje."
 
 ![](assets/campaign_push_excluded.png)
@@ -619,7 +619,7 @@ Consulte [esta página](exclusion-list.md) para obtener la lista completa de mot
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="Notificación push: desglose por plataforma"
->abstract="Los gráficos y la tabla Notificación push: desglose por plataforma proporcionan un desglose del éxito de las notificaciones push en función del sistema operativo del perfil."
+>abstract="La notificación push: los gráficos y la tabla Desglose por plataforma proporcionan un desglose del éxito de las notificaciones push en función del sistema operativo del perfil."
 
 ![](assets/campaign_push_breakdown.png)
 
@@ -652,7 +652,7 @@ Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL SMS]** Esta 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
 >title="SMS: estadísticas de envío"
->abstract="La tabla SMS: estadísticas de envío resume los datos esenciales sobre sus mensajes SMS, como mensajes dirigidos o enviados."
+>abstract="La tabla SMS: estadísticas del envío resume los datos esenciales sobre sus mensajes SMS, como los mensajes segmentados o los entregados."
 
 ![](assets/campaign_sms_sending.png)
 
@@ -679,7 +679,7 @@ El **[!UICONTROL SMS: estadísticas de envío]** La tabla proporciona un resumen
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_sms_tracking_statistics"
 >title="SMS: estadísticas de seguimiento"
->abstract="El widget SMS: estadísticas de seguimiento proporciona una visión general completa de la información esencial relacionada con la interacción de los visitantes con la dirección URL."
+>abstract="El widget SMS: estadísticas de seguimiento proporciona información general completa de la información esencial relacionada con la interacción de sus visitantes con su URL."
 
 ![](assets/campaign_sms_tracking.png)
 
@@ -698,7 +698,7 @@ El **[!UICONTROL SMS: estadísticas de seguimiento]** Este widget proporciona un
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
 >title="SMS: rendimiento por fecha"
->abstract="El widget Rendimiento por fecha - SMS proporciona información clave sobre sus mensajes a través de una representación gráfica."
+>abstract="El widget SMS: rendimiento por fecha proporciona información clave sobre los mensajes a través de una representación gráfica."
 
 ![](assets/campaign_sms_performance.png)
 
@@ -714,22 +714,22 @@ El **[!UICONTROL Rendimiento de SMS por fecha]** El widget ofrece una descripci�
 
 +++
 
-### SMS: motivos de error {#sms-error}
+### SMS: motivos del error {#sms-error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_error_reasons"
->title="SMS: motivos de error"
+>title="SMS: motivos del error"
 >abstract="SMS: los gráficos y la tabla Motivos de error le permiten identificar los errores específicos que se produjeron durante el proceso de envío."
 
 ![](assets/campaign_sms_error_reasons.png)
 
 El **[!UICONTROL Motivos del error]** Los gráficos y las tablas le permiten identificar los errores específicos que se produjeron durante el proceso de envío de sus mensajes SMS, lo que facilita un análisis exhaustivo de cualquier problema encontrado.
 
-### SMS: motivos excluidos {#sms-excluded-reasons}
+### SMS: motivos de exclusión {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_excluded_reasons"
->title="SMS: motivos excluidos"
+>title="SMS: motivos de exclusión"
 >abstract="Los gráficos y la tabla Motivos excluidos ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos del público destinatario, no recibieran el mensaje."
 
 ![](assets/campaign_sms_excluded.png)
@@ -752,7 +752,7 @@ El **[!UICONTROL Razones de rechazos]** Los gráficos y la tabla proporcionan un
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
 >title="SMS: clics por vínculos"
->abstract="El widget SMS: clics por vínculos proporciona una información esencial sobre la participación de los visitantes con las direcciones URL de los mensajes."
+>abstract="El widget SMS: clics por vínculos proporciona información esencial de la participación de los visitantes en las direcciones URL de los mensajes."
 
 ![](assets/campaign_sms_clicks.png)
 
@@ -852,22 +852,22 @@ El **[!UICONTROL Correo directo: estadísticas de envío]** proporciona un resum
 
 +++
 
-### Correo directo: motivos de error {#direct-mail-error}
+### Correo directo: motivos del error {#direct-mail-error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_error_reasons"
->title="Correo directo: motivos de error"
+>title="Correo directo: motivos del error"
 >abstract="Los gráficos y la tabla Correo directo: motivos de error le permiten identificar los errores específicos que se produjeron durante el envío."
 
 ![](assets/direct-mail-report_1.png)
 
 El **[!UICONTROL Correo directo: razones de error]** los gráficos y tablas proporcionan los medios para identificar errores específicos que se produjeron durante el proceso de envío de sus mensajes de correo postal, lo que permite un análisis detallado de cualquier problema encontrado.
 
-### Correo directo: motivos excluidos {#direct-mail-excluded}
+### Correo directo: motivos de la exclusión {#direct-mail-excluded}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_excluded_reasons"
->title="Correo directo: motivos excluidos"
+>title="Correo directo: motivos de la exclusión"
 >abstract="Los gráficos y la tabla Motivos excluidos del correo directo ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos del público destinatario, no recibieran el mensaje."
 
 ![](assets/campaign_direct_excluded.png)

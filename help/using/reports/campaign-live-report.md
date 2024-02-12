@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '3484'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -68,7 +68,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 Desde la campaña **[!UICONTROL Informe en vivo]**, el **[!UICONTROL Correo electrónico]** Esta pestaña detalla la información principal relativa al correo electrónico enviado en la campaña.
 
-### Correo electrónico: Rendimiento de envío {#email-sending-performance}
+### Correo electrónico: rendimiento del envío {#email-sending-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_sending_statistics"
@@ -161,7 +161,7 @@ Para obtener más información sobre las devoluciones, consulte [Lista de supres
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_performance_bydate"
 >title="Correo electrónico: Rendimiento por fecha"
->abstract="El gráfico Correo electrónico: rendimiento por fecha presenta datos completos de las últimas 24 horas sobre los correos electrónicos enviados, ofreciendo información sobre métricas clave como envíos y devoluciones, lo que permite un análisis detallado del proceso de envío de correo electrónico."
+>abstract="El gráfico Correo electrónico: rendimiento por fecha presenta datos completos de las últimas 24 horas sobre los correos electrónicos enviados, ofreciendo información sobre métricas clave como las entregas y los rechazos, lo que permite realizar un análisis detallado del proceso de envío del correo electrónico."
 
 ![](assets/campaign_email_live_performance.png)
 
@@ -191,14 +191,14 @@ El **[!UICONTROL Correo electrónico: rendimiento por fecha]** El widget ofrece 
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_error_reasons"
->title="Correo electrónico: Motivos de error"
+>title="Correo electrónico: motivos del error"
 >abstract="Los gráficos y la tabla Correo electrónico: Motivos de error permiten identificar los errores específicos que se han producido en las últimas 24 horas."
 
 ![](assets/campaign_email_live_error.png)
 
 El **[!UICONTROL Motivos del error]** los gráficos y tablas proporcionan una perspectiva de los errores específicos que se produjeron durante el proceso de envío en las últimas 24 horas. Esta información es valiosa para comprender la naturaleza y la frecuencia de los errores.
 
-### Razones de exclusión {#email-exclude-reasons}
+### Motivos de la exclusión  {#email-exclude-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_excluded_reasons"
@@ -366,11 +366,11 @@ El **[!UICONTROL Notificación push: estadísticas]** el gráfico ofrece una rep
 
 +++
 
-### Notificación push: motivos excluidos {#push-excluded}
+### Notificación push: motivos de exclusión {#push-excluded}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_excluded_reasons"
->title="Notificación push: motivos excluidos"
+>title="Notificación push: motivos de exclusión"
 >abstract="Los gráficos y la tabla Motivos de exclusión ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos del público destinatario, no recibieran el mensaje en las últimas 24 horas."
 
 El **[!UICONTROL Razones de exclusión]** los gráficos y la tabla muestran los diferentes motivos que impidieron que los perfiles de usuario, excluidos de los perfiles de destino, recibieran notificaciones push en las últimas 24 horas.
@@ -467,20 +467,20 @@ El **[!UICONTROL Rendimiento de SMS por fecha]** El widget ofrece una descripci�
 
 +++
 
-### SMS: razones de error {#sms-error-reasons}
+### SMS: motivos del error {#sms-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
->title="SMS: motivos de error"
+>title="SMS: motivos del error"
 >abstract="Los gráficos y la tabla SMS: Motivos de error permiten identificar los errores específicos que se produjeron en las últimas 24 horas durante el envío."
 
 El **[!UICONTROL Razones de exclusión]** Los gráficos y la tabla le permiten identificar los errores específicos que se produjeron durante el proceso de envío de sus mensajes SMS en las últimas 24 horas, lo que facilita un análisis exhaustivo de cualquier problema encontrado.
 
-### SMS: razones de exclusión {#sms-excluded-reasons}
+### SMS: motivos de exclusión {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
->title="SMS: motivos excluidos"
+>title="SMS: motivos de exclusión"
 >abstract="Los gráficos y la tabla Motivos de exclusión ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos del público destinatario, no recibieran el mensaje en las últimas 24 horas."
 
 ![](assets/campaign_live_sms_excluded.png)
@@ -576,22 +576,22 @@ El **[!UICONTROL Correo directo: estadísticas de envío]** proporciona un resum
 
 +++
 
-### Correo directo: motivos de error {#direct-mail-error-reasons}
+### Correo directo: motivos del error {#direct-mail-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_error_reasons"
->title="Correo directo: motivos de error"
+>title="Correo directo: motivos del error"
 >abstract="Los gráficos y la tabla Correo directo: los motivos del error permiten identificar los errores específicos que se han producido en las últimas 24 horas."
 
 ![](assets/campaign_live_error_reasons.png)
 
 El **[!UICONTROL Correo directo: razones de error]** los gráficos y tablas proporcionan los medios para identificar errores específicos que se produjeron durante el proceso de envío de sus mensajes de correo postal, lo que permite un análisis detallado de cualquier problema encontrado en las últimas 24 horas.
 
-### Correo directo: motivos excluidos {#direct-mail-excluded-reasons}
+### Correo directo: motivos de la exclusión {#direct-mail-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"
->title="Correo directo: motivos excluidos"
+>title="Correo directo: motivos de la exclusión"
 >abstract="Los gráficos y la tabla Motivos de exclusión de correo directo ilustran los distintos factores que llevaron a que los perfiles de usuario, excluidos del público destinatario, no recibieran el mensaje en las últimas 24 horas."
 
 ![](assets/campaign_live_directmail_excluded.png)
