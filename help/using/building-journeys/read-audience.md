@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, lectura, audiencia, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
+source-git-commit: 5b2db1a07030fe688abfed04680d7b31584a526b
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 6%
+source-wordcount: '1438'
+ht-degree: 8%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 6%
 Utilice el **Leer audiencia** actividad para que todas las personas de una audiencia entren en el recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular.
 
 Veamos como ejemplo la audiencia &quot;Apertura y cierre de compra de la aplicación de Luma&quot; creada en el [Crear audiencias](../audience/about-audiences.md) caso de uso. Con la actividad Leer audiencia, puede hacer que todas las personas que pertenecen a esta audiencia entren en un recorrido y se conviertan en recorridos individualizados que aprovecharán todas las funcionalidades del recorrido: condiciones, temporizadores, eventos y acciones.
+
+➡️ [Descubra esta función en vídeo](#video)
 
 ## Lectura obligatoria {#must-read}
 
@@ -183,3 +185,9 @@ Por ejemplo, después de seguir una experiencia diferente durante diez días en 
 Después de una unión, puede volver a dividir la audiencia realizando una segmentación o una exclusión.
 
 ![](assets/read-segment-audience3.png)
+
+## Vídeo explicativo {#video}
+
+Comprenda los casos de uso pertinentes para un recorrido que se desencadena por la actividad de lectura del público. Obtenga información sobre cómo crear recorridos basados en lotes y qué prácticas recomendadas aplicar.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
