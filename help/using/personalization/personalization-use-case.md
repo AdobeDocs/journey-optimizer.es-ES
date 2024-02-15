@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, caso de uso, personalización
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
+source-git-commit: f6d56d1d23cca425f01e4c45532d500f3e2d4e2e
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 2%
+source-wordcount: '532'
+ht-degree: 3%
 
 ---
 
@@ -30,6 +30,8 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 
 * configure un evento de pedido que incluya el número de pedido, el estado y el nombre del elemento. Consulte esta [sección](../event/about-events.md).
 * crear una decisión, consulte esto [sección](../offers/offer-activities/create-offer-activities.md).
+
+➡️ [Descubra un caso de uso similar en vídeo](#video)
 
 ## Paso 1: Creación del recorrido {#create-journey}
 
@@ -103,3 +105,10 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
    ![](assets/perso-uc19.png)
 
 1. Compruebe que no haya ningún error y publique el recorrido.
+
+## Vídeo explicativo {#video}
+
+El siguiente vídeo muestra un caso de uso similar que aprovecha los datos contextuales de un recorrido para personalizar un correo electrónico.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
+
