@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9eb0e37b0547a3eb00802711825ecff63ab5f4a6
+source-git-commit: d945e22af664876bf5f5403e7e466a1e383e9501
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 20%
+source-wordcount: '510'
+ht-degree: 19%
 
 ---
 
@@ -71,7 +71,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Públicos**
 
-* Ahora se admiten variantes al usar **listas semilla**. Al igual que cada perfil de la audiencia de destino, las direcciones semilla reciben una copia de todas las variantes del mismo mensaje (como los diferentes tratamientos de un experimento de contenido).
+* **Listas semilla** - Ahora se admiten variantes al utilizar **listas semilla**. Al igual que cada perfil de la audiencia de destino, las direcciones semilla reciben una copia de todas las variantes del mismo mensaje (como los diferentes tratamientos de un experimento de contenido).
 
 Anteriormente disponible como Beta, las siguientes mejoras ya están disponibles para todos los usuarios:
 
@@ -80,25 +80,25 @@ Anteriormente disponible como Beta, las siguientes mejoras ya están disponibles
 
 **Recorridos**
 
-* Ahora puede utilizar **fechas personalizadas para filtrar los recorridos** inventario, además de los filtros de fecha predefinidos existentes. Esto le permite refinar la lista mostrando recorridos publicados en una fecha específica, dentro de un mes en particular, a lo largo de un año completo o dentro de intervalos de tiempo especificados.
-* Ahora puede actualizar el encabezado &quot;tipo de contenido&quot; en **acciones personalizadas**.
-* El atributo identityMap de stepEvents ya está rellenado previamente. La identidad principal se define como &quot;primary = true&quot;.
-* La barra superior, en las pantallas de recorrido, se ha reorganizado para mejorar la experiencia. Entre las diferentes actualizaciones, observe que el icono de &quot;lápiz&quot; que le permite acceder a las propiedades del recorrido ahora se muestra a la izquierda de la barra superior, junto al nombre del recorrido.
+* **Filtrar sus recorridos** - Ahora puede utilizar **fechas personalizadas para filtrar los recorridos** inventario, además de los filtros de fecha predefinidos existentes. Esto le permite refinar la lista mostrando recorridos publicados en una fecha específica, dentro de un mes en particular, a lo largo de un año completo o dentro de intervalos de tiempo especificados.
+* **Acciones personalizadas** - Ahora puede actualizar el encabezado &quot;tipo de contenido&quot; en **acciones personalizadas**.
+* **Configuración** - El atributo identityMap de stepEvents ya está rellenado previamente. La identidad principal se define como &quot;primary = true&quot;.
+* **Interfaz de usuario** - La barra superior, en pantallas de recorrido, se ha reorganizado para mejorar la experiencia. Entre las diferentes actualizaciones, observe que el icono de &quot;lápiz&quot; que le permite acceder a las propiedades del recorrido ahora se muestra a la izquierda de la barra superior, junto al nombre del recorrido.
 
 
 **Canal de SMS**
 
-* Al configurar el canal SMS, ahora puede personalizar la variable **Palabras clave de inclusión y exclusión** según sus preferencias. Journey Optimizer almacena en déclencheur la respuesta en función de estas palabras clave especificadas.
+* **Palabras clave de inclusión/exclusión** : Al configurar el canal SMS, ahora puede personalizar la variable **Palabras clave de inclusión y exclusión** según sus preferencias. Journey Optimizer almacena en déclencheur la respuesta en función de estas palabras clave especificadas.
 
 **Campañas**
 
-* Se ha añadido información en la sección &quot;solicitud cURL&quot; de **Campañas activadas por API** que están en estado &quot;Borrador&quot;, para especificar que la solicitud cURL de ejemplo solo sea visible una vez que se ha publicado y ejecutado la campaña.
+* **Campañas activadas por API** - Se ha añadido información en la **Solicitud cURL** sección de **Campañas activadas por API** que se encuentran en **Borrador** para especificar que la solicitud cURL de ejemplo solo sea visible una vez que se ha publicado y ejecutado la campaña.
 
 **Gestión de decisiones**
 
-* Ahora puede añadir **varias reglas de límite** para una oferta. Esto le permite aumentar el nivel de control sobre la forma en que se envían las ofertas.
+* **Reglas de límite** - Ahora puede añadir **varias reglas de límite** para una oferta. Esto le permite aumentar el nivel de control sobre la forma en que se envían las ofertas.
 
 **Plantillas de contenido**
 
-* A **vista de miniaturas** ya está disponible para plantillas de contenido y fragmentos para mejorar el acceso visual.
-* Las plantillas de contenido ya están disponibles para **todos los canales**, excepto Web.
+* **Miniatura** - A **vista de miniaturas** ya está disponible para plantillas de contenido y fragmentos para mejorar el acceso visual.
+* **Canales** : las plantillas de contenido ya están disponibles para **todos los canales**, excepto Web.
