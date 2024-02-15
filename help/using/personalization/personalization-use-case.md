@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, caso de uso, personalización
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: f6d56d1d23cca425f01e4c45532d500f3e2d4e2e
+source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 3%
@@ -111,4 +111,3 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 El siguiente vídeo muestra un caso de uso similar que aprovecha los datos contextuales de un recorrido para personalizar un correo electrónico.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
-

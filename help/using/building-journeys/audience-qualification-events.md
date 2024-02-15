@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: calificación, eventos, audiencia, recorrido, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
+source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 8%
+source-wordcount: '1043'
+ht-degree: 11%
 
 ---
 
@@ -30,6 +30,8 @@ Esta actividad permite al recorrido escuchar las entradas y salidas de perfiles 
 Supongamos que tiene un público de “clientes plata”. Con esta actividad, puede hacer que todos los clientes nuevos de Silver Ingresen a un recorrido y les envíen una serie de mensajes personalizados.
 
 Este tipo de evento se puede colocar como primer paso o más tarde en el recorrido.
+
+➡️ [Descubra esta función en vídeo](#video)
 
 ### Notas importantes{#important-notes-segment-qualification}
 
@@ -126,3 +128,9 @@ Establezca una regla de límite para las fuentes de datos y las acciones utiliza
 Antes de usar la audiencia en un recorrido de producción, evalúe siempre primero el volumen de personas que cumplen los requisitos para esta audiencia todos los días. Para ello, puede consultar la **[!UICONTROL Audiencia]** menú, abra la audiencia y observe la **[!UICONTROL Perfiles a lo largo del tiempo]** gráfico.
 
 ![](assets/segment-overload.png)
+
+## Vídeo explicativo {#video}
+
+Comprenda los casos de uso aplicables para los recorridos de calificación de público. Obtenga información sobre cómo crear un recorrido con la calificación de público y qué prácticas recomendadas aplicar.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
