@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+source-git-commit: f34eabfb4eb6d7486819cbc8435844b1ef983af3
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 14%
@@ -205,7 +205,7 @@ Ya está listo para enviar mensajes de texto con Journey Optimizer.
 
 **Temas relacionados**
 
-* [Creación de mensajes de texto](create-sms.md)
+* [Creación de un mensaje de texto](create-sms.md)
 * [Añadir un mensaje en un recorrido](../building-journeys/journeys-message.md)
 * [Añadir un mensaje en una campaña](../campaigns/create-campaign.md)
 
