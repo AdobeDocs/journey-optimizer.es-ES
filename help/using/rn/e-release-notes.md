@@ -6,9 +6,9 @@ description: Notas de la primera versión de Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1c65043965d1335297127f6cc6c23ec9a7893463
+source-git-commit: a0a4d39519f7f02265c52934db401e036ea12df6
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '609'
 ht-degree: 16%
 
 ---
@@ -80,8 +80,8 @@ Anteriormente disponible como Beta, las siguientes mejoras ya están disponibles
 
 **Recorridos**
 
-* **Filtrar sus recorridos** - Ahora puede utilizar **fechas personalizadas para filtrar los recorridos** inventario, además de los filtros de fecha predefinidos existentes. Esto le permite refinar la lista mostrando recorridos publicados en una fecha específica, dentro de un mes en particular, a lo largo de un año completo o dentro de intervalos de tiempo especificados.
-* **Acciones personalizadas** - Ahora puede actualizar el encabezado &quot;tipo de contenido&quot; en **acciones personalizadas**.
+* **Filtrar sus recorridos** - Ahora puede utilizar **fechas personalizadas para filtrar los recorridos** inventario, además de los filtros de fecha predefinidos existentes. Esto le permite refinar la lista mostrando los recorridos creados o publicados en una fecha específica, dentro de un mes en particular, a lo largo de un año completo o dentro de intervalos de tiempo especificados.
+* **Acciones personalizadas** - Ahora puede actualizar el **content-type** encabezado. Esta nueva **content-type** debe hacer referencia al contenido JSON.
 * **Configuración** - El atributo identityMap de stepEvents ya está rellenado previamente. La identidad principal se define como &quot;primary = true&quot;.
 * **Interfaz de usuario** - La barra superior, en pantallas de recorrido, se ha reorganizado para mejorar la experiencia. Entre las diferentes actualizaciones, observe que el icono de &quot;lápiz&quot; que le permite acceder a las propiedades del recorrido ahora se muestra a la izquierda de la barra superior, junto al nombre del recorrido.
 
@@ -103,6 +103,6 @@ Anteriormente disponible como Beta, las siguientes mejoras ya están disponibles
 
   >[!AVAILABILITY]
   >
-  >Esta capacidad se implanta progresivamente en los entornos de los clientes a partir de esta versión.
+  >Esta capacidad se lanza con disponibilidad limitada (LA) para un pequeño conjunto de clientes.
 
 * **Plantillas de varios canales** : las plantillas de contenido ya están disponibles para **todos los canales**, excepto Web. Para Correo electrónico, ahora puede seleccionar el tipo (HTML o Contenido).
