@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdominio, optimizador, delegación
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 636c86d91d349104388849bbfc4e18bbbe2e4093
+source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '892'
 ht-degree: 27%
 
 ---
@@ -44,10 +44,6 @@ Aunque estos requisitos se administran mediante componentes alojados por el Adob
 * Obtenga información sobre cómo [delegar los subdominios](delegate-subdomain.md) directamente desde la interfaz de
 * Obtenga información sobre cómo [añadir registros TXT de Google](google-txt.md) a sus subdominios para garantizar el envío correcto de correos electrónicos a las direcciones de Gmail
 * Obtenga información sobre cómo [acceso a los registros PTR](ptr-records.md) generados para sus subdominios, lo que permite verificarlos enviando servidores de correo
-
->[!NOTE]
->
->Para implementar DMARC para sus subdominios, póngase en contacto con [Adobe del Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 ## Métodos de configuración de subdominios {#subdomain-delegation-methods}
 

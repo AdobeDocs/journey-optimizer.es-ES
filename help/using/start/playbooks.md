@@ -7,10 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a16de75b2b0604d7a0d6224d03b7c53715903c07
-workflow-type: ht
+source-git-commit: 21e7d416548dd9220d5535573bc6ff17dd0479ec
+workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!PREREQUISITES]
 >
->Se requieren los siguientes pasos de configuración para trabajar con manuales de tácticas de casos de uso. Encontrará información detallada sobre cada paso en la página [Introducción](https://experienceleague.corp.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html?lang=es){target="_blank"} de la documentación de manuales de tácticas de casos de uso.
+>Se requieren los siguientes pasos de configuración para trabajar con manuales de tácticas de casos de uso. Encontrará información detallada sobre cada paso en la página [Introducción](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html){target="_blank"} de la documentación de manuales de tácticas de casos de uso.
 >
 >* Creación de una zona protegida
 >* Configuración de permisos de usuario

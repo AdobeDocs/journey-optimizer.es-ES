@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 0d010bbb46887546d524726606764b564c352064
-workflow-type: ht
-source-wordcount: '1960'
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+workflow-type: tm+mt
+source-wordcount: '1912'
 ht-degree: 100%
 
 ---
@@ -40,12 +40,14 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 * No puede agregar un preencabezado a una página de aterrizaje.
 * No puede seleccionar la opción **Programar usted mismo** al diseñar una página de aterrizaje principal.
 
-## Protecciones de los SMS {#sms-guardrails}
+<!--
+## SMS guardrails {#sms-guardrails}
 
-* La funcionalidad MMS solo está disponible para Sinch.
-* Los archivos multimedia para MMS se pueden incluir a través de una dirección URL compatible. Asegúrese de que el archivo multimedia se cargue por separado.
-* Actualmente, la sincronización de comentarios de mensajes no está disponible para MMS.
-* La administración de consentimientos funciona en el nivel de canal SMS para MMS.
+* MMS Capability is only available for Sinch.
+* Media files for MMS can be included through a supported URL. Please ensure that the media file is uploaded separately.
+* Message feedback syncing is not currently available for MMS.
+* Consent management operates at the SMS channel level for MMS.
+-->
 
 ## Protecciones de fragmentos {#fragments-guardrails}
 

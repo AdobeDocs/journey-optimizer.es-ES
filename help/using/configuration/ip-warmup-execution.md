@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+source-git-commit: 17ddd9042b6fb4f078bf858c3a855e7fb604b0d2
 workflow-type: tm+mt
-source-wordcount: '2141'
+source-wordcount: '2152'
 ht-degree: 14%
 
 ---
@@ -104,7 +104,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!NOTE]
       >
-      >Solo puede excluir un grupo de dominios (ya sea predeterminado o personalizado) que se haya agregado a [Plantilla de plan de calentamiento de IP](ip-warmup-plan.md#prepare-file). Si no es así, actualice la plantilla con el grupo de dominios que desee excluir y [volver a cargar el plan](#re-upload-plan).
+      >Solo puede excluir un grupo de dominio personalizado que se haya agregado a [Plantilla de plan de calentamiento de IP](ip-warmup-plan.md#prepare-file). Si no es así, actualice la plantilla con el grupo de dominios personalizados que desee excluir y [volver a cargar el plan](#re-upload-plan).
 
 1. Si es necesario, puede reemplazar la campaña utilizando **[!UICONTROL Reemplazar campaña]** botón.
 
@@ -162,6 +162,10 @@ At phase level, system ensures that previously targeted + new profiles are picke
    ![](assets/ip-warmup-plan-send-time.png)
 
 1. De forma opcional, puede definir un período de tiempo durante el cual se puede ejecutar la campaña de calentamiento de IP en caso de que haya algún retraso en la [evaluación de audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}. Para ello, haga clic en el icono Properties en la parte superior izquierda, junto al nombre del plan y utilice la variable **[!UICONTROL Reintentar tiempo de ejecución]** para seleccionar una duración: hasta 240 minutos (4 horas).
+
+   >[!NOTE]
+   >
+   >Los reintentos se producen cada 30 minutos hasta el final de la ventana de tiempo definida.
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 

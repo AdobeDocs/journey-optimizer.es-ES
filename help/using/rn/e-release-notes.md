@@ -5,15 +5,11 @@ title: Notas de la versión
 description: Notas de la primera versión de Journey Optimizer
 feature: Release Notes
 topic: Content Management
-role: User
-level: Beginner, Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2afb293dfa772967417781e9a3ee6840db262594
+source-git-commit: 1c65043965d1335297127f6cc6c23ec9a7893463
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 18%
+source-wordcount: '602'
+ht-degree: 16%
 
 ---
 
@@ -25,7 +21,7 @@ Las notas de la primera versión están sujetas a cambios sin previo aviso hasta
 
 ## Notas de la versión anteriores de febrero de 2024 {#e-2024}
 
-**Fecha de lanzamiento**: 20-21 de febrero de 2024
+**Fecha de lanzamiento**: 21-22 de febrero de 2024
 
 ### Nuevas funciones{#e-features}
 
@@ -51,19 +47,17 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <table>
 <thead>
 <tr>
-<th><strong>Reglas empresariales (beta)</strong><br/></th>
+<th><strong>Reglas de frecuencia para SMS y correo directo</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear reglas de restricción de frecuencia que se apliquen a los canales de SMS y correo directo. Además, puede establecer reglas de límite de frecuencia por tipo de comunicación.<br/><br/></p>
-<!--img src="assets/do-not-localize/computed-attributes.gif"-->
+<p>Ahora puede crear reglas de frecuencia para canales de SMS y de correo directo. Las reglas de frecuencia excluyen automáticamente los perfiles saturados de los mensajes y las acciones cuando se alcanza el límite de frecuencia. <br/><br/></p>
+<img src="assets/do-not-localize/sms-dm-rules.gif">
 </tr>
 </tbody>
 </table>
-
-
 
 ### Mejoras {#e-improvements}
 
@@ -75,12 +69,14 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 Anteriormente disponible como Beta, las siguientes mejoras ya están disponibles para todos los usuarios:
 
-* Ahora puede segmentar **audiencias cargadas desde un archivo CSV** en recorridos y campañas. [Más información](../audience/about-audiences.md#segments-in-journey-optimizer)
 * Ahora puede segmentar **audiencias creadas mediante composición de audiencia** y aprovechan los atributos de enriquecimiento en Recorrido. [Más información](../building-journeys/read-audience.md)
 
->[!AVAILABILITY]
->
->El uso de audiencias y atributos de composición de audiencias y carga personalizada (archivo CSV) no está disponible actualmente para su uso con Healthcare Shield o Privacy and Security Shield.
+* Ahora puede segmentar **audiencias cargadas desde un archivo CSV** en recorridos y campañas. [Más información](../audience/about-audiences.md#segments-in-journey-optimizer)
+
+  >[!AVAILABILITY]
+  >
+  >* El uso de audiencias y atributos de composición de audiencias y carga personalizada (archivo CSV) no está disponible actualmente para su uso con Healthcare Shield o Privacy and Security Shield.
+  >* Tenga en cuenta que la carga de audiencias desde un archivo CSV se implementará gradualmente durante varios días después de la publicación inicial. Aunque algunos usuarios tendrán acceso inmediato, otros pueden experimentar un retraso antes de que esté disponible en sus cuentas.
 
 **Recorridos**
 
@@ -95,7 +91,7 @@ Anteriormente disponible como Beta, las siguientes mejoras ya están disponibles
 
 **Campañas**
 
-* **Campañas activadas por API** - Se ha añadido información en la **Solicitud cURL** sección de **Campañas activadas por API** que se encuentran en **Borrador** para especificar que la solicitud cURL de ejemplo solo sea visible una vez que se ha publicado y ejecutado la campaña.
+* **Campañas activadas por API** : Se ha mejorado el código cURL generado después de activar una campaña activada por una API. Ahora incluye todas las variables de personalización (perfil y contexto) utilizadas en el mensaje.
 
 **Gestión de decisiones**
 
@@ -104,4 +100,9 @@ Anteriormente disponible como Beta, las siguientes mejoras ya están disponibles
 **Plantillas de contenido**
 
 * **Miniatura** - A **vista de miniaturas** ya está disponible para plantillas de contenido y fragmentos para mejorar el acceso visual.
-* **Plantillas de varios canales** : las plantillas de contenido ya están disponibles para **todos los canales**, excepto Web.
+
+  >[!AVAILABILITY]
+  >
+  >Esta capacidad se implanta progresivamente en los entornos de los clientes a partir de esta versión.
+
+* **Plantillas de varios canales** : las plantillas de contenido ya están disponibles para **todos los canales**, excepto Web. Para Correo electrónico, ahora puede seleccionar el tipo (HTML o Contenido).
