@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: lista de semillas, lista de semillas, semillas, configuración
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 21%
+source-wordcount: '936'
+ht-degree: 22%
 
 ---
 
@@ -23,8 +23,6 @@ Listas semilla en [!DNL Journey Optimizer] permiten incluir automáticamente dir
 >[!CAUTION]
 >
 >Actualmente, esta función solo se aplica al canal de correo electrónico.
->
->Actualmente no se admiten variantes. Al igual que cada perfil de la audiencia de destino, las direcciones semilla reciben una sola copia de cada mensaje, pero no todas las variantes del mismo mensaje (como los diferentes tratamientos de un mensaje [experimento de contenido](../campaigns/get-started-experiment.md)).
 
 Las direcciones semilla se utilizan para dirigirse a los destinatarios que no coinciden con los criterios de destino definidos. De este modo, los destinatarios que estén fuera del alcance de la entrega pueden recibirlo como lo haría cualquier otro destinatario.
 
@@ -47,6 +45,10 @@ Las direcciones semilla no son perfiles reales ni perfiles de prueba, ya que no 
 +++
 
 * Otra razón para utilizar listas semilla es la protección de la lista de correo. La inclusión de direcciones semilla en la lista de la campaña de correo le permite recibir una notificación si la está utilizando un tercero, ya que las direcciones que contiene reciben las entregas enviadas a la misma.
+
+>[!NOTE]
+>
+>Se admiten variantes. Las direcciones semilla reciben una sola copia de cada variante del mismo mensaje (por ejemplo, los diferentes tratamientos de un mensaje [experimento de contenido](../campaigns/get-started-experiment.md)).
 
 ## Acceso a las listas semilla {#access-seed-lists}
 
@@ -128,7 +130,7 @@ Ahora que la lista de reasignación se ha creado, puede utilizarla en cualquier 
 
 >[!CAUTION]
 >
->Los mensajes enviados a las direcciones semilla no se incluyen en los informes.
+>Los mensajes enviados a las direcciones semilla no se incluyen en los informes de recorrido o de campaña.
 
 1. Cree una superficie y seleccione la **[!UICONTROL Correo electrónico]** canal. [Más información](../email/email-settings.md)
 

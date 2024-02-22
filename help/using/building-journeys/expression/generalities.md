@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: sintaxis, editor, recorrido
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 3%
@@ -35,7 +35,7 @@ Las expresiones se evalúan de izquierda a derecha. Se debe aplicar la asociativ
 Estas son las diferentes reglas de distinción de mayúsculas y minúsculas:
 
 * Todos los operadores (y, o, etc.) debe escribirse en minúsculas. Por ejemplo, _`<expression1>`y`<expression2>`_ es una expresión válida, mientras que _`<expression1>`Y`<expression2>`_ no es.
-* Todos los nombres de función distinguen entre mayúsculas y minúsculas. Por ejemplo, _inSegment()_ es válida, mientras que la función _INSEGMENT()_ no es.
+* Todos los nombres de función distinguen entre mayúsculas y minúsculas. Por ejemplo, _inAudience()_ es válida, mientras que la función _INAUDIENCE()_ no es.
 * Las referencias de campo y los valores constantes distinguen entre mayúsculas y minúsculas: no son elementos integrados del lenguaje (a diferencia de operadores y funciones), son creados por el usuario final.
 
 ## Tipo de expresión devuelto{#returned-expression-type}

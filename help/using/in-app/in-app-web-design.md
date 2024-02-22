@@ -1,46 +1,41 @@
 ---
-title: Diseño del contenido en la aplicación
-description: Aprenda a diseñar el contenido en la aplicación en Journey Optimizer
+title: Diseño del contenido web en la aplicación
+description: Aprenda a diseñar el contenido web en la aplicación
 feature: In App
 topic: Content Management
 role: User
 level: Beginner
-keywords: en la aplicación, mensaje, diseño, formato
-exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
+keywords: en la aplicación, mensaje, creación, inicio
+hide: true
+hidefromtoc: true
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 28%
+source-wordcount: '780'
+ht-degree: 7%
 
 ---
 
-# Diseño del contenido en la aplicación {#design-content}
+# Diseño del contenido web en la aplicación {#in-app-web-design}
 
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_content"
->title="Definir el contenido en la aplicación"
->abstract="Personalice el contenido y el estilo de los mensajes en la aplicación. También puede añadir medios y botones de acción para que sus mensajes sean más atractivos y eficaces."
+>[!BEGINSHADEBOX]
 
-Puede editar el contenido en la aplicación para configurar las opciones de experiencia:
+**Tabla de contenido**
 
-* En un **[!UICONTROL Campaign]**, desde el **[!UICONTROL Acción]** , para configurar el contenido del mensaje, haga clic en **[!UICONTROL Editar contenido]** botón.
+* [Configuración del canal web en la aplicación](configure-in-app-web.md)
+* [Creación de la campaña de mensajes en la aplicación web](create-in-app-web.md)
+* **[Diseño del contenido web en la aplicación](#in-app-web-design)**
 
-  ![](assets/edit-in-app-content.png)
+>[!ENDSHADEBOX]
 
-* En un **[!UICONTROL Recorrido]**, en el menú avanzado de la aplicación **[!UICONTROL Acción]**, puede empezar a diseñar el contenido con **[!UICONTROL Editar contenido]** botón.
+Para editar el contenido del mensaje en la aplicación, haga clic en **[!UICONTROL Editar contenido]** del menú contextual **[!UICONTROL Acción]** del menú de Campaign.
 
-  ![](assets/design_inapp_journey.png)
+![](assets/in_app_web_surface_7.png)
 
 El **[!UICONTROL Formato avanzado]** esta opción activa opciones adicionales para personalizar la experiencia.
 
 Una vez creado el mensaje en la aplicación, y definido y personalizado su contenido, puede revisarlo y activarlo. Las notificaciones se envían según la programación de campaña. Obtenga más información en [esta página](send-in-app.md).
 
 ## Diseño del mensaje {#message-layout}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_message_layout"
->title="Definir el contenido en la aplicación"
->abstract="El diseño del mensaje le proporciona plantillas comúnmente utilizadas para enmarcar su mensaje. El diseño personalizado proporciona opciones para cargar o componer mensajes HTML personalizados."
 
 Desde el **[!UICONTROL Diseño del mensaje]** , seleccione una de las cuatro opciones de diseño diferentes para elegir según sus necesidades de mensajería.
 
@@ -72,11 +67,6 @@ Desde el **Contenido** pestaña, puede definir y personalizar el contenido de la
 
 ### Botón Cerrar {#close-button}
 
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_close"
->title="Elija el estilo de su botón Cerrar."
->abstract="La sección del botón Cerrar ofrece opciones para seleccionar variaciones del botón Cerrar del mensaje y una opción para cargar una imagen personalizada."
-
 ![](assets/in_app_web_design_2.png)
 
 Elija la **[!UICONTROL Estilo]** de su **[!UICONTROL Botón Cerrar]**.
@@ -95,16 +85,11 @@ Si la variable **[!UICONTROL Modo de formato avanzado]** está activada, puede c
 
 ### Medios {#add-media}
 
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_media"
->title="Añada medios al mensaje en la aplicación para crear una experiencia atractiva para el usuario final."
->abstract="Proporcione un vínculo directo al contenido o utilice el selector de recursos para seleccionar medios en Asset Essentials y añadirlos a su mensaje."
-
 El **[!UICONTROL Medios]** Este campo le permite añadir contenido multimedia al mensaje en la aplicación para crear una experiencia atractiva para el usuario final.
 
 ![](assets/in_app_web_design_3.png)
 
-Escriba la URL de medios o haga clic en **[!UICONTROL Seleccionar recursos]** para añadir directamente a su mensaje en la aplicación los recursos almacenados en la biblioteca de recursos. [Más información sobre la administración de recursos](../content-management/assets.md).
+Escriba la URL de medios o haga clic en **[!UICONTROL Seleccionar recursos]** para añadir directamente a su mensaje en la aplicación los recursos almacenados en la biblioteca de recursos. [Más información sobre la administración de recursos](../content-management/assets-essentials.md).
 También puede agregar un **[!UICONTROL Texto alternativo]** para aplicaciones de lectura de pantalla.
 
 +++Más opciones con formato avanzado
@@ -114,11 +99,6 @@ Si la variable **[!UICONTROL Modo de formato avanzado]** está activada, puede p
 +++
 
 ### Contenido {#title-body}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_content"
->title="Para redactar el mensaje, introduzca el contenido en los campos Encabezado y Cuerpo."
->abstract="Aquí se pueden añadir tanto el encabezado como el texto del cuerpo. Para incluir tókenes de personalización, abra el cuadro de diálogo de personalización."
 
 Para redactar el mensaje, introduzca el contenido en la **[!UICONTROL Header]** y **[!UICONTROL Cuerpo]** campos.
 
@@ -137,11 +117,6 @@ Si la variable **[!UICONTROL Modo de formato avanzado]** está activado, puede e
 +++
 
 ### Botones {#add-buttons}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_buttons"
->title="Añada botones para que los usuarios interactúen con el mensaje en la aplicación."
->abstract="Esta sección le permite añadir botones de llamada a la acción al mensaje. Puede incluir texto personalizado y destinos para cada botón."
 
 Añada botones para que los usuarios interactúen con el mensaje en la aplicación.
 
@@ -175,33 +150,7 @@ Si la variable **[!UICONTROL Modo de formato avanzado]** está activado, puede e
 
 Desde el **Configuración** pestaña, puede definir el diseño del mensaje y previsualizar el mensaje en la aplicación. También puede acceder a las opciones de formato avanzadas.
 
-### Vista previa {#preview-tab}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_preview"
->title="Previsualice el mensaje en la aplicación."
->abstract="Esta es la imagen de vista previa que se mostrará cuando el mensaje se envíe al resumen del mensaje del dispositivo."
-
->[!NOTE]
->
->La vista previa solo está disponible para mensajes móviles en la aplicación.
-
-![](assets/in_app_content_6.png)
-
-El **[!UICONTROL Vista previa de aplicación]** le permite añadir un fondo detrás del mensaje en la aplicación:
-
-* Un contenido de un vínculo URL.
-
-* Un recurso de su biblioteca de recursos.
-
-* Un color de fondo.
-
 ### Diseño {#layout-options}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_layout"
->title="Defina el diseño del mensaje en la aplicación."
->abstract="Esta sección le permite añadir un fondo al mensaje en la aplicación. Esto requiere que la adquisición de la IU esté habilitada."
 
 ![](assets/in_app_web_design_6.png)
 
@@ -213,11 +162,6 @@ El **[!UICONTROL Imagen de fondo]** Este campo le permite añadir un fondo al me
 
 ### Mensaje {#message-tab}
 
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_message_advanced"
->title="Defina la configuración avanzada del mensaje."
->abstract="Esta sección le permite mejorar la personalización del contenido en la aplicación, especialmente cuando tiene activado el Formato avanzado."
-
 ![](assets/in_app_web_design_7.png)
 
 La opción de IU activada de forma predeterminada, permite oscurecer el fondo del mensaje en la aplicación para resaltar el enfoque en el contenido.
@@ -226,15 +170,11 @@ La opción de IU activada de forma predeterminada, permite oscurecer el fondo de
 
 Si la variable **[!UICONTROL Modo de formato avanzado]** está activado, puede personalizar aún más el mensaje con las siguientes opciones:
 
-* **[!UICONTROL Personalizar gestos]**: le permite personalizar qué es la interacción de barrido de usuario. Si se selecciona desechar, se puede añadir un evento de interacción personalizado o un destino de destino.
-
 * **[!UICONTROL Personalizar adquisición de IU]**: permite seleccionar un color para mostrarlo en el fondo y su opacidad.
 
 * **[!UICONTROL Personalizar tamaño]**: le permite ajustar la anchura y altura de la notificación en la aplicación.
 
 * **[!UICONTROL Personalizar posición]**: le permite personalizar la posición de los mensajes en la aplicación en la pantalla de los usuarios. Puede cambiar las alineaciones Vertical y Horizontal.
-
-* **[!UICONTROL Personalizar animación]**: le permite personalizar las animaciones de visualización y descarte, por ejemplo, si la notificación en la aplicación aparece desde la izquierda o desde la parte superior del dispositivo del usuario.
 
 * **[!UICONTROL Esquina redonda del mensaje]**: le permite añadir una esquina redonda a la notificación en la aplicación cambiando el **[!UICONTROL Radio de vértice]**.
 
@@ -242,12 +182,6 @@ Si la variable **[!UICONTROL Modo de formato avanzado]** está activado, puede p
 
 **Temas relacionados:**
 
-* [Crear mensaje en la aplicación](create-in-app.md)
+* [Prueba y envío de un mensaje en la aplicación](send-in-app.md)
 * [Informe en la aplicación](../reports/campaign-global-report.md#inapp-report)
 * [Configuración en la aplicación](inapp-configuration.md)
-
-## Vídeo explicativo{#video}
-
-El siguiente vídeo muestra cómo crear y probar los mensajes en la aplicación.
-
->[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

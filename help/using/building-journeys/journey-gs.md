@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: a5027f4558526c2f3516816c12803e741c7f8dac
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1803'
 ht-degree: 17%
 
 ---
@@ -89,7 +89,7 @@ Estas son las distintas operaciones de filtrado que puede realizar:
 
 * Utilice el **[!UICONTROL Filtros de publicación]** para seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar las versiones más recientes de recorridos en directo que se publicaron ayer.
 
-  <!--To filter journeys based on a specific date range, select **[!UICONTROL Custom]** from the **[!UICONTROL Published]** drop-down list.-->
+  Para filtrar recorridos basados en un intervalo de fechas específico, seleccione **[!UICONTROL Personalizado]** desde el **[!UICONTROL Publicado]** lista desplegable.
 
 Además, en los paneles Evento, Fuente de datos y Configuración de acciones, la variable **[!UICONTROL Utilizado en]** El campo muestra el número de recorridos que utilizan ese evento, grupo de campos o acción en particular. Puede hacer clic en el botón **[!UICONTROL Ver recorridos]** para mostrar la lista de los recorridos correspondientes.
 
@@ -130,7 +130,7 @@ Estos son los pasos principales para enviar mensajes a través de recorridos:
 >title="Propiedades del recorrido"
 >abstract="Esta sección muestra las propiedades del recorrido. De forma predeterminada, los parámetros de solo lectura están ocultos. La configuración disponible depende del estado del recorrido, de los permisos y de la configuración del producto."
 
-Haga clic en el icono de lápiz, en la parte superior derecha para acceder a las propiedades del recorrido.
+Haga clic en el recorrido de lápiz, junto al nombre, para acceder a sus propiedades.
 
 Puede cambiar el nombre del recorrido, añadir una descripción, permitir la reentrada, elegir las fechas de inicio y finalización y, como usuario administrador, definir una **[!UICONTROL Tiempo de espera y error]** duración. También puede asignar etiquetas unificadas de Adobe Experience Platform al recorrido. Esto le permite clasificarlos fácilmente y mejorar la búsqueda desde la lista de campañas. [Descubra cómo trabajar con campañas](../start/search-filter-categorize.md#tags)
 

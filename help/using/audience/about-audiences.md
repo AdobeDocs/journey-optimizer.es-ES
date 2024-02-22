@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: cdcce470481393c821d1c5df95639602510a690a
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 43%
+source-wordcount: '1087'
+ht-degree: 38%
 
 ---
 
@@ -39,15 +39,11 @@ Las audiencias se pueden generar mediante diferentes métodos:
 
 ## Audiencias de Target en [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-Puede seleccionar en campañas y recorridos cualquier audiencia de Adobe Experience Platform generada mediante [definiciones de segmentos](../audience/creating-a-segment-definition.md).
+Puede seleccionar en campañas y recorridos cualquier audiencia generada mediante definiciones de segmentos, flujos de trabajo de composición o importación de archivos CSV.
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->Por ahora, las audiencias resultantes de [composiciones de audiencia](../audience/get-started-audience-orchestration.md) solo se puede segmentar en campañas de. Esta capacidad está disponible como una versión beta privada para recorridos.
->
->El uso de audiencias [cargado desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} en campañas y recorridos está disponible actualmente como una versión beta privada.
->
->Para obtener más información, contacte con su representante de Adobe.
+>El uso de audiencias y atributos de composición de audiencias y carga personalizada (archivo CSV) no está disponible actualmente para su uso con Healthcare Shield o Privacy and Security Shield. [Aprenda a utilizar los atributos de enriquecimiento de audiencias en Journey Optimizer](../audience/about-audiences.md#enrichment)
 
 Puede aprovechar los públicos en **[!DNL Journey Optimizer]** de maneras diferentes:
 
@@ -62,6 +58,18 @@ Puede aprovechar los públicos en **[!DNL Journey Optimizer]** de maneras difere
   Por ejemplo, puede hacer que todos los “clientes plata” nuevos entren en el recorrido para enviarles mensajes. Para obtener más información sobre cómo utilizar esta actividad, consulte [Obtener información sobre cómo configurar una actividad Calificación de público](../building-journeys/audience-qualification-events.md).
 
 * Utilice la actividad **Condición** en un recorrido para crear condiciones basadas en el abono del público. [Aprenda a utilizar los públicos en condiciones](../building-journeys/condition-activity.md#using-a-segment).
+
+## Uso de atributos de enriquecimiento de audiencias en Journey Optimizer {#enrichment}
+
+Al segmentar una audiencia generada mediante flujos de trabajo de composición o carga personalizada (archivo CSV), puede aprovechar los atributos de enriquecimiento de estas audiencias para crear el recorrido y personalizar los mensajes.
+
+* Cree varias rutas en un recorrido basado en reglas que aprovechen los atributos de enriquecimiento de la audiencia objetivo. Para ello, oriente la audiencia mediante una [Leer audiencia](../building-journeys/read-audience.md) actividad y luego crear reglas en una [Condición](../building-journeys/condition-activity.md) actividad basada en los atributos de enriquecimiento de la audiencia.
+
+  ![](assets/audience-enrichment-attribute-condition.png){zoomable=&quot;yes&quot;}
+
+* Personalice los mensajes en recorridos o campañas agregando atributos de enriquecimiento de la audiencia de destino en el editor de expresiones. [Aprenda a trabajar con el Editor de expresiones](../personalization/personalization-build-expressions.md)
+
+  ![](assets/audience-enrichment-attribute-perso.png){zoomable=&quot;yes&quot;}
 
 ## Métodos de evaluación de públicos {#evaluation-method-in-journey-optimizer}
 

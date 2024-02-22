@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 29%
+source-wordcount: '1521'
+ht-degree: 28%
 
 ---
 
@@ -151,6 +151,7 @@ Tenga en cuenta las siguientes limitaciones al trabajar con **[!UICONTROL Enriqu
 * **Conjuntos de datos** para el enriquecimiento debe ser de tipo registro (a diferencia del tipo evento) y no puede ser un conjunto de datos del sistema ni estar marcado para un perfil. Deben tener menos de 1 GB.
 * **El enriquecimiento admite una unión 1:1**. Esto significa que si las claves de unión tienen más de una coincidencia en el conjunto de datos de enriquecimiento, el sistema selecciona una de las coincidencias y la utiliza para la unión 1:1.
 * **Las audiencias se pueden activar en Destinos RTCDP**, pero sus atributos de enriquecimiento, si los hay, no pueden.
+* Los atributos de enriquecimiento aún no están integrados con el servicio de aplicación de políticas. Por lo tanto, las etiquetas de uso de datos que aplique a los atributos de enriquecimiento no se aplicarán a las campañas o recorridos de Journey Optimizer.
 
 Para configurar la actividad, siga estos pasos:
 

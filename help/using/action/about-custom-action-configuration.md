@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorrido, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 0d010bbb46887546d524726606764b564c352064
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1422'
-ht-degree: 17%
+source-wordcount: '1451'
+ht-degree: 22%
 
 ---
 
@@ -35,11 +35,13 @@ En los parámetros de acción personalizados, puede pasar una colección simple,
 
 Tenga en cuenta también que los parámetros de acciones personalizadas tienen un formato esperado (por ejemplo: cadena, decimal, etc.). Debe tener cuidado de respetar estos formatos esperados. Obtenga más información en esta [caso de uso](../building-journeys/collections.md).
 
+Las acciones personalizadas solo admiten el formato JSON al utilizar [solicitud](../action/about-custom-action-configuration.md#define-the-message-parameters) o [cargas de respuesta](../action/action-response.md).
+
 ## Prácticas recomendadas{#custom-action-enhancements-best-practices}
 
-Al elegir un punto final como destino mediante una acción personalizada, asegúrese de que:
+Al elegir un extremo como destino mediante una acción personalizada, asegúrese de lo siguiente:
 
-* Este punto de conexión puede admitir el rendimiento del recorrido mediante configuraciones del [API de restricción](../configuration/throttling.md) o [API de límite](../configuration/capping.md) para limitarlo. Tenga cuidado de que una configuración de restricción no pueda pasar por debajo de 200 TPS. Cualquier punto de conexión objetivo deberá admitir al menos 200 TPS.
+* Este extremo puede admitir el rendimiento del recorrido mediante las configuraciones de la [API de límite](../configuration/throttling.md) o la [API de cierre](../configuration/capping.md) para limitarlo. Tenga cuidado ya que una configuración de limitación no puede estar por debajo de 200 TPS. Cualquier extremo segmentado deberá admitir al menos 200 TPS.
 * Este extremo necesita tener un tiempo de respuesta lo más bajo posible. Según el rendimiento esperado, tener un tiempo de respuesta alto podría afectar al rendimiento real.
 
 Se define un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas. Además, el límite predeterminado se realiza por host y por zona protegida. Por ejemplo, en una zona protegida, si tiene dos puntos finales con el mismo host (p. ej., `https://www.adobe.com/endpoint1` y `https://www.adobe.com/endpoint2`), la restricción se aplicará a todos los extremos del host adobe.com. &quot;endpoint1&quot; y &quot;endpoint2&quot; compartirán la misma configuración de límite y hacer que un extremo alcance el límite tendrá un impacto en el otro extremo.
@@ -117,7 +119,9 @@ Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL
 
 1. Defina los encabezados y los parámetros de consulta:
 
-   * En el **[!UICONTROL Encabezados]** , haga clic en **[!UICONTROL Añadir un campo de encabezado]** para definir los encabezados HTTP del mensaje de solicitud que se va a enviar al servicio externo. El **[!UICONTROL Content-Type]** y **[!UICONTROL Charset]** los campos de encabezado están configurados de forma predeterminada. Estos campos no se pueden modificar ni eliminar.
+   * En el **[!UICONTROL Encabezados]** , haga clic en **[!UICONTROL Añadir un campo de encabezado]** para definir los encabezados HTTP del mensaje de solicitud que se va a enviar al servicio externo. El **[!UICONTROL Content-Type]** y **[!UICONTROL Charset]** los campos de encabezado están configurados de forma predeterminada. Estos campos no se pueden eliminar. Solo el **[!UICONTROL Content-Type]** puede por modificación. Su valor debe respetar el formato JSON. Este es el valor predeterminado:
+
+   ![](assets/content-type-header.png)
 
    * En el **[!UICONTROL Parámetros de consulta]** , haga clic en **[!UICONTROL Agregar un campo de parámetro de consulta]** para definir los parámetros que desea añadir en la dirección URL.
 

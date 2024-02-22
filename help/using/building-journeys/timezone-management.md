@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: zona horaria, propiedades, recorrido, condición, hora, fecha, personalizado
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '291'
 ht-degree: 2%
 
 ---
@@ -32,11 +32,7 @@ Esta zona horaria se utilizará para cada actividad del recorrido que contenga u
 * [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 -->
 
-Puede seleccionar una zona horaria o elegir utilizar la zona horaria definida en el perfil de usuario.
-
->[!NOTE]
->
->La zona horaria del perfil funciona con **timeZone** campo existente en **Detalles de preferencia** grupo de campos.
+Puede seleccionar una [zona horaria fija](#fixed-timezone) o elija utilizar la zona horaria [definido en el perfil de usuario](#timezone-from-profiles).
 
 ## Definir una zona horaria fija {#fixed-timezone}
 
@@ -53,6 +49,10 @@ Si el evento de entrada del recorrido tiene un área de nombres, lo que signific
 Si se ha definido una zona horaria para un perfil, el recorrido la recuperará y la utilizará. Si no es así, la zona horaria utilizada será la definida en el campo timezone.
 
 ![](assets/journey73.png)
+
+>[!NOTE]
+>
+>La zona horaria del perfil funciona con **timeZone** campo existente en **Detalles de preferencia** grupo de campos.
 
 ## Uso de zonas horarias en expresiones {#timezone-in-expressions}
 

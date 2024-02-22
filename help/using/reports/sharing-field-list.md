@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '320'
 ht-degree: 18%
 
 ---
@@ -23,6 +23,8 @@ Los campos de eventos de paso están organizados por categoría.
 * Campos del recorrido
 * Campos de perfil
 * Campos de evento de servicio
+
+Para el atributo identityMap, la identidad principal se define de forma predeterminada como &quot;primary = true&quot;.
 
 ## debugInfo {#debuginfo-field}
 

@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f34eabfb4eb6d7486819cbc8435844b1ef983af3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 14%
+source-wordcount: '1518'
+ht-degree: 11%
 
 ---
 
@@ -59,7 +59,73 @@ El uso de los servicios de mensajería de texto está sujeto a términos y condi
 >title="Seleccione la configuración del proveedor de SMS"
 >abstract="Seleccione las credenciales de API configuradas para su proveedor de SMS."
 
-Para configurar su proveedor de SMS con Journey Optimizer, siga estos pasos:
+### Sinch {#sinch-api}
+
+Para configurar Sinch con Journey Optimizer, siga estos pasos:
+
+1. En el carril izquierdo, vaya a **[!UICONTROL Administration]** > **[!UICONTROL Canales]** y seleccione la **[!UICONTROL Credenciales de API]** menú. Haga clic en **[!UICONTROL Crear nuevas credenciales de API]** botón.
+
+   ![](assets/sms_6.png)
+
+1. Configure las credenciales de la API de SMS como se detalla a continuación:
+
+   * **[!UICONTROL Nombre]**: elija un nombre para la credencial de la API.
+
+   * **[!UICONTROL ID de servicio]** y **[!UICONTROL Token de API]**: acceda a la página de las API y encontrará sus credenciales en la pestaña SMS. Obtenga más información en [Documentación de Sinch](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
+
+   * **[!UICONTROL Palabras clave de inclusión]**: introduzca las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su **[!UICONTROL Mensaje de inclusión]**. Para varias palabras clave, utilice valores separados por comas.
+
+   * **[!UICONTROL Mensaje de inclusión]**: introduzca la respuesta personalizada que se envía automáticamente como **[!UICONTROL Mensaje de inclusión]**.
+
+   * **[!UICONTROL Palabras clave de exclusión]**: introduzca las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su **[!UICONTROL Mensaje de exclusión]**. Para varias palabras clave, utilice valores separados por comas.
+
+   * **[!UICONTROL Mensaje de exclusión]**: introduzca la respuesta personalizada que se envía automáticamente como **[!UICONTROL Mensaje de exclusión]**.
+
+   * **[!UICONTROL Palabras clave de ayuda]**: introduzca las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su **Mensaje de ayuda**. Para varias palabras clave, utilice valores separados por comas.
+
+   * **[!UICONTROL Mensaje de ayuda]**: introduzca la respuesta personalizada que se envía automáticamente como **Mensaje de ayuda**.
+
+   * **[!UICONTROL Palabras clave de inclusión doble]**: introduzca las palabras clave que almacenan en déclencheur el proceso de inclusión doble. Si no existe ningún perfil de usuario, se crea tras una confirmación correcta. Para varias palabras clave, utilice valores separados por comas. [Obtenga más información sobre la inclusión doble de SMS](https://video.tv.adobe.com/v/3427129/?learn=on).
+
+   * **[!UICONTROL Mensaje de inclusión doble]**: introduzca la respuesta personalizada que se envía automáticamente en respuesta a la confirmación de inclusión doble.
+
+1. Clic **[!UICONTROL Enviar]** cuando haya terminado de configurar las credenciales de la API.
+
+Después de crear y configurar las credenciales de la API, debe crear una superficie de canal (es decir, un ajuste preestablecido de mensaje) para los mensajes SMS.
+
+<!--
+### Sinch MMS
+
+For **[!DNL Sinch MMS]**
+
+        * **[!UICONTROL Name]**: choose a name for your API Credential.
+
+        * **[!UICONTROL Project ID]**, **[!UICONTROL App ID]** and **[!UICONTROL API Token]**: from the Conversation API menu, you can find your credentials in the App menu. Learn more in [Sinch Documentation](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
+-->
+
+### Twilio {#twilio-api}
+
+Para configurar Twilio con Journey Optimizer, siga estos pasos:
+
+1. En el carril izquierdo, vaya a **[!UICONTROL Administration]** > **[!UICONTROL Canales]** y seleccione la **[!UICONTROL Credenciales de API]** menú. Haga clic en **[!UICONTROL Crear nuevas credenciales de API]** botón.
+
+   ![](assets/sms_6.png)
+
+1. Configure las credenciales de la API de SMS como se detalla a continuación:
+
+   * **[!UICONTROL Nombre]**: elija un nombre para la credencial de la API.
+
+   * **[!UICONTROL SID de cuenta]** y **[!UICONTROL Token de autenticación]**: acceda al **Información de cuenta** Panel de control de la consola Twilio para buscar sus credenciales.
+
+   * **[!UICONTROL SID de mensaje]**: introduzca el identificador único asignado a cada mensaje creado por la API de Twilio. Obtenga más información en [Documentación de Twilio](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
+
+1. Clic **[!UICONTROL Enviar]** cuando haya terminado de configurar las credenciales de la API.
+
+Después de crear y configurar las credenciales de la API, debe crear una superficie de canal (es decir, un ajuste preestablecido de mensaje) para los mensajes SMS.
+
+### Infobip {#infobip-api}
+
+Para configurar Infobip con Journey Optimizer, siga estos pasos:
 
 1. En el carril izquierdo, vaya a **[!UICONTROL Administration]** > **[!UICONTROL Canales]** y seleccione la **[!UICONTROL Credenciales de API]** menú. Haga clic en **[!UICONTROL Crear nuevas credenciales de API]** botón.
 
@@ -67,63 +133,34 @@ Para configurar su proveedor de SMS con Journey Optimizer, siga estos pasos:
 
 1. Configure las credenciales de la API de SMS como se detalla a continuación.
 
-   ![](assets/sms_7.png)
+   * **[!UICONTROL Nombre]**: elija un nombre para la credencial de la API.
 
-   * +++ Para **[!DNL Sinch]**
+   * **[!UICONTROL URL base de API]** y **[!UICONTROL Clave de API]**: acceda a la página de inicio de la interfaz web o a la página de administración de claves de API para encontrar sus credenciales. Obtenga más información en [Documentación de Infobip](https://www.infobip.com/docs/api){target="_blank"}.
 
-      * **[!UICONTROL Nombre]**: elija un nombre para la credencial de la API.
+   * **[!UICONTROL Palabras clave de inclusión]**: introduzca las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su **[!UICONTROL Mensaje de inclusión]**. Para varias palabras clave, utilice valores separados por comas.
 
-      * **[!UICONTROL ID de servicio]** y **[!UICONTROL Token de API]**: acceda a la página de las API y encontrará sus credenciales en la pestaña SMS. Obtenga más información en [Documentación de Sinch](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
+   * **[!UICONTROL Mensaje de inclusión]**: introduzca la respuesta personalizada que se envía automáticamente como **[!UICONTROL Mensaje de inclusión]**.
 
-      * **[!UICONTROL Mensaje de inclusión]**: introduzca la respuesta personalizada que se envía automáticamente como **[!UICONTROL Mensaje de inclusión]**.
+   * **[!UICONTROL Palabras clave de exclusión]**: introduzca las palabras clave predeterminadas o que almacenarán en déclencheur automáticamente su **[!UICONTROL Mensaje de exclusión]**. Para varias palabras clave, utilice valores separados por comas.
 
-      * **[!UICONTROL Mensaje de exclusión]**: introduzca la respuesta personalizada que se envía automáticamente como **[!UICONTROL Mensaje de exclusión]**.
+   * **[!UICONTROL Mensaje de exclusión]**: introduzca la respuesta personalizada que se envía automáticamente como **[!UICONTROL Mensaje de exclusión]**.
 
-      * **[!UICONTROL Mensaje de ayuda]**: introduzca la respuesta personalizada que se envía automáticamente como **Mensaje de ayuda**.
+   * **[!UICONTROL Palabras clave de ayuda]**: introduzca las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su **Mensaje de ayuda**. Para varias palabras clave, utilice valores separados por comas.
 
-      * **[!UICONTROL Palabras clave de inclusión doble]**: introduzca las palabras clave que almacenan en déclencheur el proceso de inclusión doble. Si no existe ningún perfil de usuario, se crea tras una confirmación correcta. Para varias palabras clave, utilice valores separados por comas. [Obtenga más información sobre la inclusión doble de SMS](https://video.tv.adobe.com/v/3427129/?learn=on).
+   * **[!UICONTROL Mensaje de ayuda]**: introduzca la respuesta personalizada que se envía automáticamente como **Mensaje de ayuda**.
 
-      * **[!UICONTROL Mensaje de inclusión doble]**: introduzca la respuesta personalizada que se envía automáticamente en respuesta a la confirmación de inclusión doble.
-+++
+   * **[!UICONTROL Palabras clave de inclusión doble]**: introduzca las palabras clave que almacenan en déclencheur el proceso de inclusión doble. Si no existe ningún perfil de usuario, se crea tras una confirmación correcta. Para varias palabras clave, utilice valores separados por comas.
 
-   * +++ Para **[!DNL Twilio]**
+   * **[!UICONTROL Mensaje de inclusión doble]**: introduzca la respuesta personalizada que se envía automáticamente en respuesta a la confirmación de inclusión doble.
 
-      * **[!UICONTROL Nombre]**: elija un nombre para la credencial de la API.
+   * **[!UICONTROL ID de entidad principal]**: introduzca el ID de entidad principal de DLT asignado.
 
-      * **[!UICONTROL SID de cuenta]** y **[!UICONTROL Token de autenticación]**: acceda al panel Información de cuenta de la página Twilio Console Dashboard para buscar sus credenciales.
+   * **[!UICONTROL ID de plantilla de contenido]**: introduzca su ID de plantilla de contenido DLT registrado.
 
-      * **[!UICONTROL SID de mensaje]**: introduzca el identificador único asignado a cada mensaje creado por la API de Twilio. Obtenga más información en [Documentación de Twilio](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
+   * **[!UICONTROL Período de validez]**: introduzca el periodo de validez del mensaje en horas. En caso de que los mensajes no se puedan enviar dentro de este periodo de tiempo, el sistema intentará reenviarlos de nuevo. El periodo de validez predeterminado es de 48 horas.
 
-+++
+   * **[!UICONTROL Datos de llamada de retorno]**: introduzca los datos de cliente adicionales que se enviarán en la dirección URL de notificación.
 
-   * +++ Para **[!DNL Infobip]**
-
-      * **[!UICONTROL Nombre]**: elija un nombre para la credencial de la API.
-
-      * **[!UICONTROL URL base de API]** y **[!UICONTROL Token de API]**: acceda a la página de inicio de la interfaz web o a la página de administración de claves de API para encontrar sus credenciales. Obtenga más información en [Documentación de Infobip](https://www.infobip.com/docs/api){target="_blank"}.
-
-      * **[!UICONTROL Palabras clave de inclusión doble]**: introduzca las palabras clave que almacenan en déclencheur el proceso de inclusión doble. Si no existe ningún perfil de usuario, se crea tras una confirmación correcta. Para varias palabras clave, utilice valores separados por comas.
-
-      * **[!UICONTROL Mensaje de inclusión doble]**: introduzca la respuesta personalizada que se envía automáticamente en respuesta a la confirmación de inclusión doble.
-
-      * **[!UICONTROL ID de entidad principal]**: introduzca el ID de entidad principal de DLT asignado.
-
-      * **[!UICONTROL ID de plantilla de contenido]**: introduzca su ID de plantilla de contenido DLT registrado.
-
-      * **[!UICONTROL Período de validez]**: introduzca el periodo de validez del mensaje en horas. En caso de que los mensajes no se puedan enviar dentro de este periodo de tiempo, el sistema intentará reenviarlos de nuevo. El periodo de validez predeterminado es de 48 horas.
-
-      * **[!UICONTROL Datos de llamada de retorno]**: introduzca los datos de cliente adicionales que se enviarán en la dirección URL de notificación.
-+++
-
-<!--
-    * +++ For **[!DNL Sinch MMS]**
-
-        * **[!UICONTROL Name]**: choose a name for your API Credential.
-
-        * **[!UICONTROL Project ID]**, **[!UICONTROL App ID]** and **[!UICONTROL API Token]**: from the Conversation API menu, you can find your credentials in the App menu. Learn more in [Sinch Documentation](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
-
-        +++ 
--->
 1. Clic **[!UICONTROL Enviar]** cuando haya terminado de configurar las credenciales de la API.
 
 Después de crear y configurar las credenciales de la API, debe crear una superficie de canal (es decir, un ajuste preestablecido de mensaje) para los mensajes SMS.

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7ce415308bd516eb51799890c76b4469558087ee
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '4604'
-ht-degree: 99%
+source-wordcount: '4729'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,13 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 ## Febrero de 2024 {#feb-2024}
 
 * Se ha añadido información sobre cómo personalizar las representaciones de las ofertas en función de los datos de contexto. [Más información](../offers/offer-library/add-representations.md#context-data)
+* La página de protecciones se ha actualizado con una nota sobre acciones personalizadas que solo admiten el formato JSON cuando se utilizan cargas útiles de solicitud o respuesta. [Más información](../start/guardrails.md#custom-actions-g)
+* Se ha añadido información adicional acerca del tipo de autenticación básica en fuentes de datos externas. [Más información](../datasource/external-data-sources.md)
+* Se ha añadido una nota para diferenciar claramente la variable [editor de expresiones de recorrido](../building-journeys/expression/expressionadvanced.md) desde el [Editor de personalización](../personalization/functions/functions.md).
+* Se ha actualizado la lista de funciones disponibles en el editor de expresiones avanzadas. [Más información](../building-journeys/expression/functions.md)
+* Se ha actualizado la página de la función Split. [Más información](../building-journeys/functions/functioninaudience.md)
+* Se ha añadido información sobre el impacto de la inclusión o la exclusión de notificaciones push en los mensajes en la aplicación. [Más información](../in-app/create-in-app.md)
+* La página Reglas de frecuencia de mensaje se ha actualizado para reflejar las opciones de Duración disponibles en la interfaz de usuario (semanal o mensual). [Más información](../configuration/frequency-rules.md)
 
 ## Enero de 2024 {#jan-2024}
 
@@ -321,7 +328,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 ## Septiembre de 2021 {#september-2021}
 
-* Se han actualizado las siguientes páginas de funciones: [sethours](../building-journeys/functions/functionsethours.md), [getListItem](../building-journeys/functions/functiongetlistitem.md), [inSegment](../building-journeys/functions/functioninsegment.md)
+* Se han actualizado las siguientes páginas de funciones: [sethours](../building-journeys/functions/functionsethours.md), [getListItem](../building-journeys/functions/functiongetlistitem.md), [inSegment](../building-journeys/functions/functioninaudience.md)
 
 * Se han añadido las siguientes funciones: [filter](../building-journeys/functions/functionfilter.md), [intersect](../building-journeys/functions/functionintersect.md), [toDateOnly](../building-journeys/functions/functiontodateonly.md)
 

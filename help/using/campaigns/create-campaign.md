@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 34%
+source-wordcount: '969'
+ht-degree: 32%
 
 ---
 
@@ -126,9 +126,9 @@ Haga clic en **[!UICONTROL Seleccionar audiencia]** para mostrar la lista de aud
 
 >[!IMPORTANT]
 >
->Por ahora, el uso de audiencias [importado de un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) en campañas está disponible como una versión beta privada. Para obtener más información, contacte con su representante de Adobe.
+>El uso de audiencias y atributos de [composición de audiencia](../audience/get-started-audience-orchestration.md) y [carga personalizada (archivo CSV)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) actualmente no está disponible para su uso con Healthcare Shield o Privacy and Security Shield. [Aprenda a utilizar los atributos de enriquecimiento de audiencias en Journey Optimizer](../audience/about-audiences.md#enrichment)
 >
->Para campañas activadas por API, la audiencia debe configurarse mediante una llamada de API. [Más información](api-triggered-campaigns.md)
+>Para campañas activadas por API, la audiencia debe configurarse mediante una llamada de API.
 
 En el **[!UICONTROL Área de nombres de identidad]** , elija el área de nombres que desea utilizar para identificar a los individuos del segmento seleccionado.
 

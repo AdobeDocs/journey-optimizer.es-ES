@@ -9,16 +9,16 @@ role: Admin
 level: Experienced
 keywords: reintentos, rebote, suave, optimizador, error
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 11%
+source-wordcount: '578'
+ht-degree: 9%
 
 ---
 
 # Reintentos {#retries}
 
-Cuando un mensaje de correo electrónico falla debido a un error temporal **Rechazo suave** error, se realizan varios reintentos. Cada error incrementa un contador de errores. Cuando este contador alcanza el umbral de límite, la dirección se agrega a la lista de supresión.
+Cuando un mensaje de correo electrónico falla debido a un error temporal **Rechazo suave** error para una dirección determinada, se realizan varios reintentos. Cada error incrementa un contador de errores. Cuando este contador alcanza el umbral de límite, la dirección de correo electrónico se agrega a la lista de supresión.
 
 >[!NOTE]
 >
@@ -28,9 +28,17 @@ En la configuración predeterminada, el umbral se establece en 5 errores.
 
 * Para el mismo envío, en el quinto error encontrado en la variable [período de tiempo de reintento](#retry-duration), la dirección se suprime.
 
-* Si hay diferentes envíos y se producen dos errores al menos con una diferencia de 24 horas, el contador de errores se incrementa con cada error y la dirección también se suprime en el quinto intento.
+* Si hay diferentes envíos y se producen dos errores al menos con una diferencia de 24 horas, el contador de errores se incrementa con cada error y la dirección también se suprime en el quinto intento. Los errores son acumulativos para cada dirección.
 
 Si una entrega se realiza correctamente después de un reintento, se reinicia el contador de errores de la dirección.
+
+Por ejemplo:
+
+* Envía un correo electrónico el lunes con un periodo de reintento establecido en 24 horas. La dirección emma.jones@mail.com no se puede entregar. El correo electrónico se vuelve a intentar hasta tres veces y deja de intentarlo al alcanzar el periodo de reintento de 24 horas.
+
+* Envía otro correo electrónico el miércoles. El emma.jones@mail.com, que ya tiene un recuento de tres errores, también está segmentado y, de nuevo, no se entrega: dos veces. Se contabilizan dos errores más.
+
+Siempre que no se haya intentado realizar ninguna otra entrega y que la entrega se haya realizado correctamente entre esos dos correos electrónicos, la dirección emma.jones@mail.com se añade a la lista de supresión debido al impacto acumulado de los errores 3 + 2.
 
 ## Reintentar edición de umbral {#edit-retry-threshold}
 

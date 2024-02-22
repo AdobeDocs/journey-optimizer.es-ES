@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: función, expresiones, editor, recorrido
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 71%
+source-wordcount: '185'
+ht-degree: 70%
 
 ---
 
@@ -29,7 +29,7 @@ Esta es la lista de funciones compatibles.
 
 | Categoría | Función |
 |-------------|-----------------------|
-| Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
+| Adobe Experience Platform | [inAudience](../functions/functioninaudience.md) |
 | Agregación | [avg](../functions/functionavg.md) |
 | Agregación | [count](../functions/functioncount.md) |
 | Agregación | [countOnlyNull](../functions/functioncountonlynull.md) |
@@ -67,7 +67,7 @@ Esta es la lista de funciones compatibles.
 | Lista | [getListItem](../functions/functiongetlistitem.md) |
 | Lista | [en](../functions/functionin.md) |
 | Lista | [intersect](../functions/functionintersect.md) |
-| Lista | [listSize](../functions/functionlimit.md) |
+| Lista | [límite](../functions/functionlimit.md) |
 | Lista | [listSize](../functions/functionlistsize.md) |
 | Lista | [serializeList](../functions/functionserializelist.md) |
 | Lista | [sort](../functions/functionsort.md) |
@@ -89,6 +89,7 @@ Esta es la lista de funciones compatibles.
 | Cadena | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
 | Cadena | [replace](../functions/functionreplace.md) |
 | Cadena | [replaceAll](../functions/functionreplaceall.md) |
+| Cadena | [split](../functions/functionsplit.md) |
 | Cadena | [startWith](../functions/functionstartwith.md) |
 | Cadena | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
 | Cadena | [substr](../functions/functionsubstr.md) |

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 100%
+source-wordcount: '320'
+ht-degree: 67%
 
 ---
 
@@ -28,17 +28,17 @@ Esta documentación proporciona información detallada sobre cómo trabajar con 
 
 >[!ENDSHADEBOX]
 
-La composición de públicos le permite crear **flujos de trabajo de composición**, donde puede combinar públicos de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (divididas, excluidas...) para crear nuevos públicos.
+La composición de públicos le permite crear **flujos de trabajo de composición**, donde puede combinar públicos de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (división, exclusión...) para crear nuevas audiencias.
 
-Cuando haya finalizado, los **públicos  resultantes** se guardarán en Adobe Experience Platform junto con públicos existentes y se podrán **aprovechar en campañas** para dirigirse a los clientes. [Descubra cómo trabajar con campañas](../campaigns/get-started-with-campaigns.md)
+Una vez finalizado, la variable **audiencias resultantes** se guardan y se respaldan en Adobe Experience Platform junto con las audiencias existentes y se pueden aprovechar en campañas y recorridos de Journey Optimizer para clientes de destino. [Obtenga información sobre cómo segmentar audiencias en Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->Por ahora, el uso de públicos como resultado de los flujos de trabajo de composición en recorridos está disponible como una versión Private Beta. Para obtener más información, contacte con su representante de Adobe.
+>El uso de audiencias y atributos de Composición de audiencia y Carga personalizada no está disponible actualmente para su uso con Healthcare Shield o Privacy and Security Shield. [Aprenda a utilizar los atributos de enriquecimiento de audiencias en Journey Optimizer](../audience/about-audiences.md#enrichment)
 >
->Las campañas de Adobe Journey Optimizer aún no están integradas con el servicio de aplicación de políticas. Por lo tanto, las etiquetas de uso de datos que aplique a sus atributos de público no se aplicarán a las campañas de Journey Optimizer.
+>Los atributos de enriquecimiento aún no están integrados con el servicio de aplicación de políticas. Por lo tanto, las etiquetas de uso de datos que aplique a los atributos de enriquecimiento no se aplicarán a las campañas o recorridos de Journey Optimizer.
 
 Se puede acceder a la composición de públicos desde el menú **[!UICONTROL Públicos]** de Adobe Journey Optimizer:
 

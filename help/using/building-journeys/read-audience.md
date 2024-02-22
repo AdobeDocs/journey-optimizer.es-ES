@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, lectura, audiencia, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 5b2db1a07030fe688abfed04680d7b31584a526b
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 8%
+source-wordcount: '1427'
+ht-degree: 7%
 
 ---
 
@@ -39,7 +39,7 @@ Veamos como ejemplo la audiencia &quot;Apertura y cierre de compra de la aplicac
 
 * Como práctica recomendada, le recomendamos que solo utilice audiencias por lotes en un **Leer audiencia** actividad. Esto proporciona un recuento fiable y coherente de las audiencias utilizadas en un recorrido. La audiencia de lectura está diseñada para casos de uso por lotes. Si su caso de uso necesita datos en tiempo real, utilice **[Calificación de audiencia](audience-qualification-events.md)** actividad.
 
-* Por ahora, el uso de audiencias [importado de un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o resultantes de [flujos de trabajo de composición](../audience/get-started-audience-orchestration.md) en recorrido está disponible como una versión beta privada. Para obtener más información, contacte con su representante de Adobe.
+* Audiencias [importado de un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o resultantes de [flujos de trabajo de composición](../audience/get-started-audience-orchestration.md) se puede seleccionar en la **Leer audiencia** actividad. Estas audiencias no están disponibles en el **Calificación de audiencias** actividad.
 
 ## Configuración de la actividad {#configuring-segment-trigger-activity}
 
@@ -55,7 +55,7 @@ Los pasos para configurar la actividad Leer audiencia son los siguientes:
 
    >[!NOTE]
    >
-   >Además, también puede segmentar audiencias de Adobe Experience Platform creadas con [composiciones de audiencia](../audience/get-started-audience-orchestration.md) o [cargado desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. Estas funcionalidades están disponibles actualmente como una versión Private Beta.
+   >Además, también puede segmentar audiencias de Adobe Experience Platform creadas con [composiciones de audiencia](../audience/get-started-audience-orchestration.md) o [cargado desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 
    Tenga en cuenta que puede personalizar las columnas mostradas en la lista y ordenarlas.
 

@@ -9,19 +9,14 @@ role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: a0a4d39519f7f02265c52934db401e036ea12df6
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 4%
+source-wordcount: '954'
+ht-degree: 2%
 
 ---
 
 # Activación de campañas mediante las API {#trigger-campaigns}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_api_profile_creation"
->title="Tipo de campaña"
->abstract="Para utilizar la funcionalidad de disponibilidad limitada para enviar mensajes sin crear perfiles, siga los pasos detallados en la documentación."
 
 ## Acerca de las campañas activadas por API {#about}
 
@@ -79,7 +74,7 @@ Ya está listo para ejecutar la campaña desde las API. [Más información](#exe
 
 Una vez activada la campaña, debe recuperar la solicitud cURL de muestra generada y utilizarla en la API para crear la carga útil y almacenar la campaña en déclencheur.
 
-1. Abra la campaña y copie y pegue la solicitud de ejemplo desde el **[!UICONTROL Solicitud cURL]** sección.
+1. Abra la campaña y copie y pegue la solicitud de carga útil del **[!UICONTROL Solicitud cURL]** sección. Esta carga útil incluye todas las variables de personalización (perfil y contexto) utilizadas en el mensaje. Está disponible una vez que la campaña está activa.
 
    ![](assets/api-triggered-curl.png)
 
