@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 56505b6b698568678434510643433fa0ad639cbd
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 9%
@@ -41,7 +41,7 @@ También puede crear y administrar plantillas de contenido mediante API. Para ob
 
 Para acceder a la lista de plantillas de contenido, seleccione **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Plantillas de contenido]** en el menú de la izquierda.
 
-![](../email/assets/content-template-list.png)
+![](assets/content-template-list.png)
 
 Todas las plantillas que se crearon en la zona protegida actual, ya sea desde un recorrido o desde una campaña utilizando **[!UICONTROL Guardar como plantilla]** , ya sea desde la opción **[!UICONTROL Plantillas de contenido]** menú: se muestran. [Aprenda a crear plantillas](#create-content-templates)
 
@@ -67,7 +67,7 @@ When you update a content, you may have to wait a few seconds before the changes
 
 * Para editar el contenido de una plantilla, haga clic en el elemento deseado de la lista y seleccione **[!UICONTROL Editar contenido]**.
 
-  ![](../email/assets/content-template-edit.png)
+  ![](assets/content-template-edit.png)
 
 * Para eliminar una plantilla, seleccione la **[!UICONTROL Más acciones]** junto a la plantilla deseada y seleccione **[!UICONTROL Eliminar]**.
 
@@ -202,7 +202,7 @@ Puede probar la renderización de algunas de las plantillas de correo electróni
 
 1. Clic **[!UICONTROL Simular contenido]** y seleccione un perfil de prueba para comprobar la renderización. [Más información](../content-management/preview-test.md)
 
-   ![](../email/assets/content-template-stimulate.png)
+   ![](assets/content-template-stimulate.png)
 
 1. Puede enviar una prueba para probar el contenido y que sea aprobado por algunos usuarios internos antes de utilizarlo en un recorrido o una campaña.
 
@@ -210,7 +210,7 @@ Puede probar la renderización de algunas de las plantillas de correo electróni
 
    * Antes de enviar la prueba, debe seleccionar [superficie de correo electrónico](../configuration/channel-surfaces.md) que se utilizará para probar el contenido.
 
-     ![](../email/assets/content-template-stimulate-proof-surface.png)
+     ![](assets/content-template-stimulate-proof-surface.png)
 
 >[!CAUTION]
 >
