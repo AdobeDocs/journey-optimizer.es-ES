@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '1518'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -41,17 +41,17 @@ El uso de los servicios de mensajería de texto está sujeto a términos y condi
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="Configuración del proveedor de SMS con Journey Optimizer"
->abstract="Adobe Journey Optimizer envía mensajes de texto a través de proveedores de servicios de SMS. Seleccione su proveedor y rellene sus credenciales de API."
+>abstract="Adobe Journey Optimizer envía mensajes de texto a través de proveedores de servicios de SMS. Seleccione su proveedor y cumplimente sus credenciales de API."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
 >title="Configurar el proveedor de MMS con Journey Optimizer"
->abstract="Adobe Journey Optimizer envía contenido de medios a través de proveedores de servicios de MMS. Seleccione su proveedor y rellene sus credenciales de API."
+>abstract="Adobe Journey Optimizer envía contenido de medios a través de proveedores de servicios de MMS. Seleccione su proveedor y cumplimente sus credenciales de API."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
 >title="Configuración del proveedor de SMS con Journey Optimizer"
->abstract="Antes de enviar mensajes de texto, debe integrar la configuración del proveedor con Journey Optimizer. Una vez finalizado, debe crear una superficie de SMS. Estos pasos debe realizarlos un administrador del sistema de Adobe Journey Optimizer."
+>abstract="Antes de enviar mensajes de texto, debe integrar la configuración del proveedor con Journey Optimizer. Una vez finalizado, deberá crear una superficie SMS. Estos pasos debe realizarlos un administrador del sistema de Adobe Journey Optimizer."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=es#message-preset-sms" text="Crear una superficie de canal SMS"
 
 >[!CONTEXTUALHELP]
