@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: principal, ejecución, correo electrónico, destinatario, perfil, optimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 9cc263d127fdc56f808770d908030b1d14b1f784
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 18%
+ht-degree: 14%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address_header"
 >title="Definir qué dirección utilizar"
->abstract="Edite los campos utilizados para determinar la dirección de correo electrónico o el número de teléfono de los perfiles que desea priorizar para el envío."
+>abstract="Edite los campos utilizados para determinar la dirección de correo electrónico o el número de teléfono del perfil que desea priorizar para el envío."
 
 Al segmentar un perfil, pueden estar disponibles en la base de datos varias direcciones de correo electrónico o números de teléfono (dirección de correo electrónico profesional, número de teléfono personal, etc.).
 
