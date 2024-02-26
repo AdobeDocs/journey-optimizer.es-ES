@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: eef253f35bf93edbe5b64b47754e16e4c590f862
+source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
 workflow-type: tm+mt
-source-wordcount: '4743'
-ht-degree: 97%
+source-wordcount: '4778'
+ht-degree: 96%
 
 ---
 
@@ -30,6 +30,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * Se ha actualizado la página de la función Split. [Más información](../building-journeys/functions/functioninaudience.md)
 * Se ha añadido información sobre el impacto de la inclusión o la exclusión de notificaciones push en los mensajes en la aplicación. [Más información](../in-app/create-in-app.md)
 * La página Reglas de frecuencia de mensaje se ha actualizado para reflejar las opciones de Duración disponibles en la interfaz de usuario (semanal o mensual). [Más información](../configuration/frequency-rules.md)
+* La sección Editar un registro PTR se ha actualizado para aclarar el hecho de que los registros PTR no se pueden crear manualmente y de que debe editar los registros PTR para asignarles nuevos subdominios. [Más información](using/configuration/ptr-records.md#edit-ptr-record)
 
 ## Enero de 2024 {#jan-2024}
 
