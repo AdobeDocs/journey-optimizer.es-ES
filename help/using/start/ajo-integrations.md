@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: eef253f35bf93edbe5b64b47754e16e4c590f862
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 100%
+source-wordcount: '767'
+ht-degree: 92%
 
 ---
 
@@ -76,6 +76,15 @@ Obtenga más información acerca de [Journey Optimizer + Campaign](../building-j
 También puede configurar una integración con Adobe Campaign Standard para enviar mensajes en los recorridos.
 
 Más información sobre [Journey Optimizer + Campaign Standard](../building-journeys/using-adobe-campaign-standard.md).
+
+
+## Adobe Workfront {#integration-workfront}
+
+Utilice los módulos de Adobe Journey Optimizer en Adobe Workfront para crear, leer, actualizar o eliminar registros, o realizar una llamada de API personalizada a la API de Adobe Journey Optimizer.
+
+Se encuentra disponible una descripción general del paso clave de esta integración [en esta publicación de blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
+
+Más información sobre Journey Optimizer + Adobe Workfront [en la documentación de Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html){target="_blank"}.
 
 ## Canales personalizados {#integration-custom}
 
