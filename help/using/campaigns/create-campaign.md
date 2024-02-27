@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 32%
+source-wordcount: '960'
+ht-degree: 33%
 
 ---
 
@@ -126,7 +126,7 @@ Haga clic en **[!UICONTROL Seleccionar audiencia]** para mostrar la lista de aud
 
 >[!IMPORTANT]
 >
->El uso de audiencias y atributos de [composición de audiencia](../audience/get-started-audience-orchestration.md) y [carga personalizada (archivo CSV)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) actualmente no está disponible para su uso con Healthcare Shield o Privacy and Security Shield. [Aprenda a utilizar los atributos de enriquecimiento de audiencias en Journey Optimizer](../audience/about-audiences.md#enrichment)
+>El uso de audiencias y atributos de [composición de audiencia](../audience/get-started-audience-orchestration.md) y [audiencias de carga personalizada (archivo CSV)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) actualmente no está disponible para su uso con Healthcare Shield o Privacy and Security Shield.
 >
 >Para campañas activadas por API, la audiencia debe configurarse mediante una llamada de API.
 

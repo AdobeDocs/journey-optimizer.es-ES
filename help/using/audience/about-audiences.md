@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 38%
+source-wordcount: '1083'
+ht-degree: 39%
 
 ---
 
@@ -43,7 +43,7 @@ Puede seleccionar en campañas y recorridos cualquier audiencia generada mediant
 
 >[!AVAILABILITY]
 >
->El uso de audiencias y atributos de composición de audiencias y carga personalizada (archivo CSV) no está disponible actualmente para su uso con Healthcare Shield o Privacy and Security Shield. [Aprenda a utilizar los atributos de enriquecimiento de audiencias en Journey Optimizer](../audience/about-audiences.md#enrichment)
+>El uso de audiencias y atributos de audiencias de composición de audiencias y carga personalizada (archivo CSV) no está disponible actualmente para su uso con Healthcare Shield o Privacy and Security Shield. [Aprenda a utilizar los atributos de enriquecimiento de audiencias en Journey Optimizer](../audience/about-audiences.md#enrichment)
 
 Puede aprovechar los públicos en **[!DNL Journey Optimizer]** de maneras diferentes:
 
@@ -61,7 +61,7 @@ Puede aprovechar los públicos en **[!DNL Journey Optimizer]** de maneras difere
 
 ## Uso de atributos de enriquecimiento de audiencias en Journey Optimizer {#enrichment}
 
-Al segmentar una audiencia generada mediante flujos de trabajo de composición o carga personalizada (archivo CSV), puede aprovechar los atributos de enriquecimiento de estas audiencias para crear el recorrido y personalizar los mensajes.
+Al segmentar una audiencia generada mediante flujos de trabajo de composición, puede aprovechar los atributos de enriquecimiento de estas audiencias para crear el recorrido y personalizar los mensajes.
 
 * Cree varias rutas en un recorrido basado en reglas que aprovechen los atributos de enriquecimiento de la audiencia objetivo. Para ello, oriente la audiencia mediante una [Leer audiencia](../building-journeys/read-audience.md) actividad y luego crear reglas en una [Condición](../building-journeys/condition-activity.md) actividad basada en los atributos de enriquecimiento de la audiencia.
 
