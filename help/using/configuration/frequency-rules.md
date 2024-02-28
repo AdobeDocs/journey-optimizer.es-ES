@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: d8d007fb6a67e8716a07df04895684c2c1cfefaa
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 10%
+source-wordcount: '1125'
+ht-degree: 7%
 
 ---
 
@@ -58,7 +58,7 @@ Puede obtener más información sobre permisos en [esta sección](../administrat
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="Establezca el límite de la regla"
->abstract="Especifique el número máximo de mensajes enviados a un perfil de cliente cada mes. El límite de frecuencia se basará en un período de calendario mensual y se restablecerá al principio de cada mes."
+>abstract="Especifique el número máximo de mensajes enviados a un perfil de cliente en el lapso de tiempo seleccionado. El límite de frecuencia se basará en el periodo de calendario seleccionado y se restablecerá al principio del lapso de tiempo correspondiente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
