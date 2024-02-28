@@ -11,7 +11,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 16%
+ht-degree: 90%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 16%
 
 Las notas de la primera versión están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento. Los vínculos, las pantallas y la documentación actualizada se publican en las [notas de la versión](release-notes.md) y en la fecha.
 
-## Notas de la versión anteriores de febrero de 2024 {#e-2024}
+## Notas de la versión preliminar de febrero de 2024 {#e-2024}
 
-**Fecha de lanzamiento**: 21-22 de febrero de 2024
+**Fecha de la versión**: 21-22 de febrero de 2024
 
 ### Nuevas funciones{#e-features}
 
@@ -39,7 +39,7 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede utilizar la nueva capacidad Mensajería en la aplicación web para mostrar contenido personalizado directamente en sitios web, a través de mensajes de superposición modal. Esta función le permite interactuar de forma eficaz con los visitantes web, lo que mejora la interacción del usuario, la retención y las tasas de conversión.<br/><br/></p>
+<p>Ahora puede utilizar la nueva función de mensajería en la aplicación web para mostrar contenido personalizado directamente en sitios web, a través de mensajes de superposición modal. Esta función le permite interactuar de forma eficaz con los visitantes web, lo que mejora la interacción del usuario, la retención y las tasas de conversión.<br/><br/></p>
 <img src="assets/do-not-localize/web_inapp.gif">
 </tr>
 </tbody>
@@ -67,44 +67,44 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Públicos**
 
-* **Listas semilla** - Ahora se admiten variantes al utilizar **listas semilla**. Al igual que cada perfil de la audiencia de destino, las direcciones semilla reciben una copia de todas las variantes del mismo mensaje (como los diferentes tratamientos de un experimento de contenido).
+* **Listas semilla**: ahora se admiten variantes al utilizar **listas semilla**. Al igual que cada perfil del público destinatario, las direcciones semilla reciben una copia de todas las variantes del mismo mensaje (como los diferentes tratamientos de un experimento de contenido).
 
-Anteriormente disponible como Beta, las siguientes mejoras ya están disponibles para todos los usuarios:
+Las siguientes mejoras, anteriormente disponibles como versión beta, ya están disponibles para todos los usuarios:
 
-* Ahora puede segmentar **audiencias creadas mediante composición de audiencia** y aprovechan los atributos de enriquecimiento en Recorrido. [Más información](../building-journeys/read-audience.md)
+* Ahora puede dirigirse a **públicos destinatarios creados mediante la composición de públicos** y aprovechar los atributos de enriquecimiento de los recorridos. [Más información](../building-journeys/read-audience.md)
 
-* Ahora puede segmentar **audiencias cargadas desde un archivo CSV** en recorridos y campañas. [Más información](../audience/about-audiences.md#segments-in-journey-optimizer)
+* Ahora puede dirigirse a **públicos destinatarios cargados desde un archivo CSV** en recorridos y campañas. [Más información](../audience/about-audiences.md#segments-in-journey-optimizer)
 
   >[!AVAILABILITY]
   >
-  >* El uso de audiencias y atributos de composición de audiencias y carga personalizada (archivo CSV) no está disponible actualmente para su uso con Healthcare Shield o Privacy and Security Shield.
-  >* Tenga en cuenta que la carga de audiencias desde un archivo CSV se implementará gradualmente durante varios días después de la publicación inicial. Aunque algunos usuarios tendrán acceso inmediato, otros pueden experimentar un retraso antes de que esté disponible en sus cuentas.
+  >* El uso de públicos y atributos de composición de públicos y carga personalizada (archivo CSV) no está disponible actualmente para su uso con Healthcare Shield o Privacy and Security Shield.
+  >* Tenga en cuenta que la carga de públicos desde un archivo CSV se implementará gradualmente durante varios días después del lanzamiento inicial. Aunque algunos usuarios tendrán acceso inmediato, otros pueden experimentar un retraso antes de que esté disponible en sus cuentas.
 
 **Recorridos**
 
-* **Filtrar sus recorridos** - Ahora puede utilizar **fechas personalizadas para filtrar los recorridos** inventario, además de los filtros de fecha predefinidos existentes. Esto le permite refinar la lista mostrando los recorridos creados o publicados en una fecha específica, dentro de un mes en particular, a lo largo de un año completo o dentro de intervalos de tiempo especificados.
+* **Filtre los recorridos**: ahora puede utilizar **fechas personalizadas para filtrar el inventario de recorridos**, además de los filtros de fecha predefinidos existentes. Esto le permite refinar la lista mostrando los recorridos creados o publicados en una fecha específica, dentro de un mes en particular, a lo largo de un año completo o dentro de intervalos de tiempo especificados.
 * **Acciones personalizadas** - Ahora puede actualizar el **content-type** encabezado. Esta nueva **content-type** debe hacer referencia al contenido JSON.
-* **Configuración** - El atributo identityMap de stepEvents ya está rellenado previamente. La identidad principal se define como &quot;primary = true&quot;.
-* **Interfaz de usuario** - La barra superior, en pantallas de recorrido, se ha reorganizado para mejorar la experiencia. Entre las diferentes actualizaciones, observe que el icono de &quot;lápiz&quot; que le permite acceder a las propiedades del recorrido ahora se muestra a la izquierda de la barra superior, junto al nombre del recorrido.
+* **Configuración**: ahora el atributo identityMap de stepEvents se rellena previamente. La identidad principal se define como &quot;primary = true&quot;.
+* **Interfaz de usuario**: la barra superior, en pantallas de recorrido, se ha reorganizado para mejorar la experiencia. Entre las diferentes actualizaciones, observe que el icono de “lápiz” que le permite acceder a las propiedades del recorrido ahora se muestra a la izquierda de la barra superior, junto al nombre del recorrido.
 
 **Canal de SMS**
 
-* **Palabras clave de inclusión/exclusión** : Al configurar el canal SMS, ahora puede personalizar la variable **Palabras clave de inclusión y exclusión** según sus preferencias. Journey Optimizer almacena en déclencheur la respuesta en función de estas palabras clave especificadas.
+* **Palabras clave de inclusión/exclusión**: al configurar el canal de SMS, ahora puede personalizar la variable **Palabras clave de inclusión y exclusión** según sus preferencias. Journey Optimizer activa la respuesta en función de estas palabras clave especificadas.
 
 **Campañas**
 
-* **Campañas activadas por API** : Se ha mejorado el código cURL generado después de activar una campaña activada por una API. Ahora incluye todas las variables de personalización (perfil y contexto) utilizadas en el mensaje.
+* **Campañas activadas por API**: se ha mejorado el código cURL generado después de activar una campaña activada por API. Ahora incluye todas las variables de personalización (perfil y contexto) utilizadas en el mensaje.
 
 **Gestión de decisiones**
 
-* **Reglas de límite** - Ahora puede añadir **varias reglas de límite** para una oferta. Esto le permite aumentar el nivel de control sobre la forma en que se envían las ofertas.
+* **Reglas de límite**: ahora puede añadir **varias reglas de límite** para una oferta. De este modo, aumenta el nivel de control sobre la forma en que se envían las ofertas.
 
 **Plantillas de contenido**
 
-* **Miniatura** - A **vista de miniaturas** ya está disponible para plantillas de contenido y fragmentos para mejorar el acceso visual.
+* **Miniatura**: ahora, hay una **vista de miniaturas** disponible para fragmentos y plantillas de contenido a fin de mejorar el acceso visual.
 
   >[!AVAILABILITY]
   >
   >Esta capacidad se lanza con disponibilidad limitada (LA) para un pequeño conjunto de clientes.
 
-* **Plantillas de varios canales** : las plantillas de contenido ya están disponibles para **todos los canales**, excepto Web. Para Correo electrónico, ahora puede seleccionar el tipo (HTML o Contenido).
+* **Plantillas multicanal**: ahora las plantillas de contenido están disponibles para **todos los canales**, excepto Web. Para Correo electrónico, ahora puede seleccionar el tipo (HTML o Contenido).
