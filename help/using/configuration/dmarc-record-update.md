@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdominio, dominio, correo, dmarc, registro
 source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 87%
 
 La autenticación de mensajes basada en dominios, sistemas de informes y conformidad (DMARC) es un método de autenticación por correo electrónico que permite a los propietarios de dominios proteger su dominio contra el uso no autorizado. Al ofrecer una política clara a los proveedores de correo electrónico/ISP, ayuda a evitar que actores maliciosos envíen correos electrónicos que afirman ser de su dominio. La implementación de DMARC reduce el riesgo de que los correos electrónicos legítimos se marquen como correo no deseado o se rechacen y mejora su entregabilidad
 
-Como parte del cumplimiento de las prácticas recomendadas del sector, Google y Yahoo! requieren un ajuste de **Registro DMARC** para cualquier dominio que utilice para enviarles correos electrónicos. Este nuevo requisito se aplica desde el **1 de febrero de 2024**. [Más información](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=es#dmarc){target="_blank"}
+Como parte del cumplimiento de las prácticas recomendadas del sector, Google y Yahoo! exigen el **registro DMARC** para cualquier dominio que se utilice para enviarles correos electrónicos. Este nuevo requisito se aplica desde el **1 de febrero de 2024**. [Más información](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=es#dmarc){target="_blank"}
 
 >[!CAUTION]
 >
@@ -46,9 +46,9 @@ o
 
   >[!IMPORTANT]
   >
-  >Sin embargo, la configuración de CNAME también requiere alguna entrada adicional en la solución de alojamiento. Por lo tanto, asegúrese de coordinar con su departamento de TI para que puedan realizar la actualización detallada en [esta sección](dmarc-record.md#implement-dmarc).
+  >Sin embargo, la configuración CNAME también requiere algunas entradas adicionales en la solución de alojamiento. Por lo tanto, asegúrese de coordinar con su departamento de TI para que puedan realizar la actualización detallada en [esta sección](dmarc-record.md#implement-dmarc).
 
-Las cronologías más recientes compartidas por Google y Yahoo! son los siguientes:
+Las cronologías más recientes compartidas por Google y Yahoo son las siguientes:
 
 * Google:
 
@@ -58,7 +58,7 @@ Las cronologías más recientes compartidas por Google y Yahoo! son los siguient
 
    * **1 de junio de 2024**: cualquier remitente que no cumpla totalmente los requisitos experimentará un bloqueo.
 
-* Yahoo! no ha proporcionado fechas exactas, pero ha dicho que &quot;el despliegue de la aplicación comenzará en febrero de 2024. La aplicación se implantará gradualmente”.
+* Yahoo no ha proporcionado fechas exactas, pero ha dicho que “el despliegue de la implementación comenzará en febrero de 2024. La aplicación se implantará gradualmente”.
 
 >[!NOTE]
 >
@@ -68,5 +68,5 @@ Las cronologías más recientes compartidas por Google y Yahoo! son los siguient
 
 * Obtenga más información sobre DMARC en la [Guía de prácticas recomendadas sobre la entregabilidad](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=es#about){target="_blank"}
 * Encuentre más ayuda sobre estos cambios en la [Guía de prácticas recomendadas sobre la entregabilidad](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=es){target="_blank"}
-* Lea el [Anuncio de Google Gmail](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
-* Lea el [Yahoo! el anuncio de Yahoo!](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
+* Lea el [anuncio de Google Gmail](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
+* Lea [ el anuncio de Yahoo!](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
