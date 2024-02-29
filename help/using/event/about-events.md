@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Acerca de los eventos
-description: Más información sobre los eventos
+title: Trabajo con eventos de recorrido
+description: Aprenda a trabajar con eventos en sus recorridos
 feature: Journeys, Events
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: eventos, evento, recorrido, definición, inicio
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 2f2b53fd74a51e96e61ddaf9e489c07bd359294f
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 58%
+source-wordcount: '989'
+ht-degree: 55%
 
 ---
 
-# Acerca de los eventos{#about-events}
+# Trabajo con eventos de recorrido {#about-events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
->title="Acerca de los eventos"
+>title="eventos de recorrido"
 >abstract="Un evento está vinculado a una persona. Se refiere al comportamiento de una persona (por ejemplo, una persona compró un producto, visitó una tienda, salió de un sitio web, etc.) o algo que suceda vinculado a una persona (por ejemplo, una persona alcanzó 10 000 puntos de fidelidad). Esto es lo que Journey Optimizer escucha en los recorridos para orquestar las mejores próximas acciones."
 
 La configuración de eventos permite definir la información que [!DNL Journey Optimizer] recibirá como eventos. Puede utilizar varios eventos (en diferentes pasos de un recorrido) y varios recorridos pueden utilizar el mismo evento.
