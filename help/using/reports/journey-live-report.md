@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 045a2f930f27728fd0add6ed8fa77f9b728ebae5
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '3668'
+source-wordcount: '3659'
 ht-degree: 31%
 
 ---
@@ -507,8 +507,6 @@ El **[!UICONTROL SMS: estadísticas]** La tabla proporciona un resumen conciso d
 * **[!UICONTROL Excluido]**: número de perfiles de usuario, excluidos de los perfiles de destino, que no recibieron el mensaje.
 
 * **[!UICONTROL Enviado]**: Número total de mensajes SMS enviados.
-
-* **[!UICONTROL Aperturas]**: Número de veces que se abrieron sus mensajes SMS.
 
 * **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus mensajes SMS.
 
