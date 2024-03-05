@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdominio, dominio, correo, dmarc, registro
-source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
-workflow-type: ht
-source-wordcount: '577'
-ht-degree: 100%
+source-git-commit: 745474d6232f01ee959db8d706110477ed0220e2
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 La autenticación de mensajes basada en dominios, sistemas de informes y conformidad (DMARC) es un método de autenticación por correo electrónico que permite a los propietarios de dominios proteger su dominio contra el uso no autorizado. Al ofrecer una política clara a los proveedores de correo electrónico/ISP, ayuda a evitar que actores maliciosos envíen correos electrónicos que afirman ser de su dominio. La implementación de DMARC reduce el riesgo de que los correos electrónicos legítimos se marquen como correo no deseado o se rechacen y mejora su entregabilidad
 
-Como parte del cumplimiento de las prácticas recomendadas del sector, Google y Yahoo! exigen el **registro DMARC** para cualquier dominio que se utilice para enviarles correos electrónicos. Este nuevo requisito se aplica desde el **1 de febrero de 2024**. [Más información](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=es#dmarc){target="_blank"}
+Como parte del cumplimiento de las prácticas recomendadas del sector, Google y Yahoo! exigen el **registro DMARC** para cualquier dominio que se utilice para enviarles correos electrónicos. Este nuevo requisito se aplica a partir de **1 de febrero de 2024**.
 
 >[!CAUTION]
 >
@@ -67,6 +67,7 @@ Las cronologías más recientes compartidas por Google y Yahoo son las siguiente
 **Vínculos útiles**
 
 * Obtenga más información sobre DMARC en la [Guía de prácticas recomendadas sobre la entregabilidad](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=es#about){target="_blank"}
-* Encuentre más ayuda sobre estos cambios en la [Guía de prácticas recomendadas sobre la entregabilidad](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=es){target="_blank"}
 * Lea el [anuncio de Google Gmail](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
 * Lea [ el anuncio de Yahoo!](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
+
+<!--Find more guidance about these changes in the [Deliverability Best Practice Guide]-->
