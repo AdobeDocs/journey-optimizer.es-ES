@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: conjunto de datos, optimizador, casos de uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b3cb1a06b200961030ff22c2ee6f42173f83606f
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '844'
 ht-degree: 2%
 
 ---
@@ -164,7 +164,7 @@ WHERE
 ORDER BY timestamp DESC;
 ```
 
-donde el formato de las fechas es: AAAA-MM-DD HH:MM:SS.
+donde el formato de las fechas es: `YYYY-MM-DD HH:MM:SS`.
 
 Una vez identificadas, elimine esas direcciones de la lista de supresión de Journey Optimizer. [Más información](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
