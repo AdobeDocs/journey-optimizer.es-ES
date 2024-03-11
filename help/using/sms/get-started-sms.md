@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '253'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer envía mensajes de texto a través de proveedores de ser
 
 ## Vídeo explicativo
 
-* El siguiente vídeo muestra cómo configurar, crear e incluir mensajes SMS en las recorridos de cliente.
+* El vídeo siguiente le muestra cómo configurar, crear e incluir mensajes SMS en sus recorridos de cliente.
 
   +++Consulte el vídeo
 

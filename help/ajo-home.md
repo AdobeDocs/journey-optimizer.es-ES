@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Descubra las nuevas funciones y mejoras incluidas en la versión 24.2 de Adobe J
 
 >[!TAB Mensajería en la aplicación web]
 
-Ahora puede utilizar la nueva capacidad Mensajería en la aplicación web para mostrar contenido personalizado directamente en sitios web, a través de mensajes de superposición modal. Esta función le permite interactuar de forma eficaz con los visitantes web, lo que mejora la interacción del usuario, la retención y las tasas de conversión.
+Ahora puede utilizar la nueva función de mensajería en la aplicación web para mostrar contenido personalizado directamente en sitios web, a través de mensajes de superposición modal. Esta función le permite interactuar de forma eficaz con los visitantes web, lo que mejora la interacción del usuario, la retención y las tasas de conversión.
 
 ![](using/rn/assets/do-not-localize/web_inapp.gif)
 
@@ -36,7 +36,7 @@ Ahora puede utilizar la nueva capacidad Mensajería en la aplicación web para m
 
 >[!TAB Plantillas de contenido multicanal]
 
-Además del correo electrónico, las plantillas de contenido ya están disponibles para los siguientes canales: push, en la aplicación, SMS y correo directo, y cada canal tiene tipos de plantilla dedicados. Para Correo electrónico, ahora puede seleccionar el Tipo de contenido, que le permite guardar la línea de asunto como parte de la plantilla de correo electrónico.
+Además del correo electrónico, las plantillas de contenido ya están disponibles para los siguientes canales: push, en la aplicación, SMS y correo directo, y cada canal tiene tipos de plantilla dedicados. Para correo electrónico, ahora puede seleccionar el tipo de contenido, que le permite guardar la línea de asunto como parte de la plantilla de correo electrónico.
 
 ![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
 

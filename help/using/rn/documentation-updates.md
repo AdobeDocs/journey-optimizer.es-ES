@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bfe377e6a362b9e9f1ce417a8ddfd7581845d342
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4778'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * Se ha añadido información sobre cómo personalizar las representaciones de las ofertas en función de los datos de contexto. [Más información](../offers/offer-library/add-representations.md#context-data)
 * La página de protecciones se ha actualizado con una nota sobre acciones personalizadas que solo admiten el formato JSON cuando se utilizan cargas útiles de solicitud o respuesta. [Más información](../start/guardrails.md#custom-actions-g)
 * Se ha añadido información adicional acerca del tipo de autenticación básica en fuentes de datos externas. [Más información](../datasource/external-data-sources.md)
-* Se ha añadido una nota para diferenciar claramente la variable [editor de expresiones de recorrido](../building-journeys/expression/expressionadvanced.md) desde el [Editor de personalización](../personalization/functions/functions.md).
+* Se ha añadido una nota para diferenciar claramente el [editor de expresiones de recorrido](../building-journeys/expression/expressionadvanced.md) desde el [Editor de personalización](../personalization/functions/functions.md).
 * Se ha actualizado la lista de funciones disponibles en el editor de expresiones avanzadas. [Más información](../building-journeys/expression/functions.md)
 * Se ha actualizado la página de la función Split. [Más información](../building-journeys/functions/functioninaudience.md)
 * Se ha añadido información sobre el impacto de la inclusión o la exclusión de notificaciones push en los mensajes en la aplicación. [Más información](../in-app/create-in-app.md)
-* La página Reglas de frecuencia de mensaje se ha actualizado para reflejar las opciones de Duración disponibles en la interfaz de usuario (semanal o mensual). [Más información](../configuration/frequency-rules.md)
+* La página de reglas de frecuencia de mensaje se ha actualizado para reflejar las opciones de Duración disponibles en la interfaz de usuario (semanal o mensual). [Más información](../configuration/frequency-rules.md)
 * La sección Editar un registro PTR se ha actualizado para aclarar el hecho de que los registros PTR no se pueden crear manualmente y de que debe editar los registros PTR para asignarles nuevos subdominios. [Más información](../configuration/ptr-records.md#edit-ptr-record)
 
 ## Enero de 2024 {#jan-2024}
