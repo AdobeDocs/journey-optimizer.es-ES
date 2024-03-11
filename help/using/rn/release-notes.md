@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ee33923ff5bfb73974935864c7e241ea4b0353c5
+source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 74%
+source-wordcount: '1146'
+ht-degree: 71%
 
 ---
 
@@ -191,8 +191,11 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Reglas de frecuencia**
 
-* **Límite de frecuencia semanal y diaria**: ahora puede especificar el número máximo de mensajes enviados a un perfil de cliente en una semana o un día, además del mes. El límite de frecuencia se basa en el período de calendario seleccionado y se restablece al principio del lapso de tiempo correspondiente. [Más información](../configuration/frequency-rules.md#create-new-rule)
+* **Límite de frecuencia semanal** : Ahora puede especificar el número máximo de mensajes enviados a un perfil de cliente por semana, además del mes. El límite de frecuencia se basa en el período de calendario seleccionado y se restablece al principio del lapso de tiempo correspondiente. [Más información](../configuration/frequency-rules.md#create-new-rule)
 
+  >[!NOTE]
+  >
+  >El límite diario de frecuencia también está disponible bajo demanda. Póngase en contacto con el representante del Adobe.
 
 **Gestión de decisiones**
 
