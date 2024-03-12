@@ -12,7 +12,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: 2f2b53fd74a51e96e61ddaf9e489c07bd359294f
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 55%
+ht-degree: 56%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 55%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
->title="eventos de recorrido"
+>title="Eventos de recorrido"
 >abstract="Un evento está vinculado a una persona. Se refiere al comportamiento de una persona (por ejemplo, una persona compró un producto, visitó una tienda, salió de un sitio web, etc.) o algo que suceda vinculado a una persona (por ejemplo, una persona alcanzó 10 000 puntos de fidelidad). Esto es lo que Journey Optimizer escucha en los recorridos para orquestar las mejores próximas acciones."
 
 La configuración de eventos permite definir la información que [!DNL Journey Optimizer] recibirá como eventos. Puede utilizar varios eventos (en diferentes pasos de un recorrido) y varios recorridos pueden utilizar el mismo evento.

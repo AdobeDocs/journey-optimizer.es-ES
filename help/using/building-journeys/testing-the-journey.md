@@ -12,7 +12,7 @@ exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
 workflow-type: tm+mt
 source-wordcount: '1535'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -124,7 +124,7 @@ Tenga en cuenta que cuando se déclencheur un evento empresarial por primera vez
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
 >title="Registros del modo de prueba"
->abstract="El **Mostrar registro** muestra los resultados de la prueba en formato JSON. Estos resultados muestran el número de particulares dentro del recorrido y su estado."
+>abstract="El botón **Mostrar registro** muestra los resultados de las pruebas en formato JSON. Estos resultados muestran el número de particulares dentro del recorrido y su estado."
 
 El **[!UICONTROL Mostrar registro]** permite ver los resultados de la prueba. Esta página muestra la información actual del recorrido en formato JSON. Un botón permite copiar nodos completos. Debe actualizar manualmente la página para actualizar los resultados de la prueba del recorrido.
 

@@ -12,7 +12,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
 source-wordcount: '1213'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -58,7 +58,7 @@ Puede obtener más información sobre permisos en [esta sección](../administrat
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="Establezca el límite de la regla"
->abstract="Especifique el número máximo de mensajes enviados a un perfil de cliente en el lapso de tiempo seleccionado. El límite de frecuencia se basará en el periodo de calendario seleccionado y se restablecerá al principio del lapso de tiempo correspondiente."
+>abstract="Especifique el número máximo de mensajes enviados a un perfil de cliente en el lapso de tiempo elegido. El límite de frecuencia se basará en el período de calendario seleccionado y se restablecerá al principio del lapso de tiempo correspondiente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
