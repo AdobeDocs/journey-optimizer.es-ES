@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: pasos, configuración, recorrido, eventos, flujo, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 3%
@@ -75,7 +75,7 @@ Este es un ejemplo de evento de API de ingesta de transmisión:
                 ]
             },
             "_id": "string",
-            "timestamp": "2018-05-29T00:00:00.000Z",
+            "timestamp": "2023-05-29T00:00:00.000Z",
             "_experience": {
                 "campaign": {
                     "orchestration": {

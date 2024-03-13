@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inLastMonths, función, expresión, recorrido
 exl-id: 4933ef43-66b8-462d-867c-03edd4c34947
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 18%
@@ -41,6 +41,6 @@ Devuelve un valor booleano.
 
 ## Ejemplos
 
-`inLastMonths(toDateTime('2010-12-12T01:11:00Z'), 4)`
+`inLastMonths(toDateTime('2023-12-12T01:11:00Z'), 4)`
 
 Devuelve verdadero.

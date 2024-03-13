@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: toDateTimeOnly, función, expresión, recorrido
 exl-id: db54c119-5080-403a-b254-43645be6b4a8
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 14%
@@ -45,9 +45,9 @@ Devuelve una fecha y hora sin tener en cuenta la zona horaria.
 
 ## Ejemplos
 
-`toDateTimeOnly ("2016-08-18")`
+`toDateTimeOnly ("2023-08-18")`
 
-devuelve un valor dateTime que representa el 18T00 de 8 de 2016:00:00,000
+devuelve un valor dateTime que representa el 18T00 de 2023-08:00:00,000
 
 `toDateTimeOnly(now())`
 

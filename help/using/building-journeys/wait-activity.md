@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: espera, actividad, recorrido, siguiente, lienzo
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 17%
@@ -60,13 +60,13 @@ Select the date for the execution of the next activity.
 
 ## Espera personalizada{#custom}
 
-Esta opción le permite definir una fecha personalizada, por ejemplo, el 12 de julio de 2020 a las 17:00, mediante una expresión avanzada basada en un campo proveniente de un evento o una fuente de datos. No permite definir una duración personalizada, por ejemplo, de 7 días. La expresión en el editor de expresiones debe proporcionar un formato dateTimeOnly. Consulte esta sección [página](expression/expressionadvanced.md). Para obtener más información sobre el formato dateTimeOnly, consulte esto [página](expression/data-types.md).
+Esta opción le permite definir una fecha personalizada, por ejemplo, el 12 de julio de 2023 a las 17:00, mediante una expresión avanzada basada en un campo proveniente de un evento o una fuente de datos. No permite definir una duración personalizada, por ejemplo, de 7 días. La expresión en el editor de expresiones debe proporcionar un formato dateTimeOnly. Consulte esta sección [página](expression/expressionadvanced.md). Para obtener más información sobre el formato dateTimeOnly, consulte esto [página](expression/data-types.md).
 
 >[!NOTE]
 >
->Puede aprovechar una expresión dateTimeOnly o utilizar una función para convertirla en dateTimeOnly. Por ejemplo: toDateTimeOnly(@event{Event.offerOpened.activity.endTime}), siendo el campo del evento del formulario 2016-08-12T09:46:06Z.
+>Puede aprovechar una expresión dateTimeOnly o utilizar una función para convertirla en dateTimeOnly. Por ejemplo: toDateTimeOnly(@event{Event.offerOpened.activity.endTime}), siendo el campo del evento del formulario 2023-08-12T09:46:06Z.
 >
->El **zona horaria** se espera en las propiedades del recorrido. Como resultado, hoy en día no es posible desde la interfaz apuntar directamente a una marca de tiempo ISO-8601 completa mezclando la hora y el desplazamiento de zona horaria como 2016-08-12T09:46:06.982-05. Consulte [esta página](../building-journeys/timezone-management.md).
+>El **zona horaria** se espera en las propiedades del recorrido. Como resultado, hoy en día no es posible desde la interfaz señalar directamente a una marca de tiempo ISO-8601 completa que mezcle la hora y el desplazamiento de zona horaria como 2023-08-12T09:46:06.982-05. Consulte [esta página](../building-journeys/timezone-management.md).
 
 ![](assets/journey57.png)
 

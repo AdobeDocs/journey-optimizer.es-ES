@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: toString, function, expression, recorrido
 exl-id: 06727146-2a44-4b74-aac4-be60e9e0e37c
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 9%
@@ -61,7 +61,7 @@ Devuelve &quot;4&quot;.
 
 `toString(#{ExperiencePlatform.test_date.person.birthDate}))`
 
-Devuelve la representación de cadena del campo dateOnly dado (campo XDM Date), por ejemplo &quot;2016-08-18&quot;.
+Devuelve la representación de cadena del campo dateOnly dado (campo de fecha XDM), por ejemplo &quot;2023-08-18&quot;.
 
 `toString(toDuration(1520))`
 
