@@ -8,16 +8,22 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bfe377e6a362b9e9f1ce417a8ddfd7581845d342
-workflow-type: ht
-source-wordcount: '4778'
-ht-degree: 100%
+source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
+workflow-type: tm+mt
+source-wordcount: '4831'
+ht-degree: 99%
 
 ---
 
 # Actualizaciones de la documentación {#latest-updates}
 
 Esta página enumera todas las últimas actualizaciones de la documentación de [!DNL Journey Optimizer].
+
+## Marzo de 2024 {#march-2024}
+
+* La página Reglas de frecuencia de mensaje se ha actualizado con una nueva subsección sobre el límite de frecuencia diario, que está disponible bajo demanda además del límite semanal o mensual. [Más información](../configuration/frequency-rules.md#daily-frequency-cap)
+* Se ha mejorado y actualizado la página Trabajar con directivas de consentimiento con vínculos útiles a la documentación del Experience Platform. [Más información](../action/consent.md)
+  <!--* The Access and manage templates section has been updated to reflect the fact that you can display content templates as a thumbnails with the Grid view mode. [Read more](../content-management/content-templates.md#template-thumbnails)-->
 
 ## Febrero de 2024 {#feb-2024}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 56505b6b698568678434510643433fa0ad639cbd
+source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 9%
+source-wordcount: '1425'
+ht-degree: 10%
 
 ---
 
@@ -55,16 +55,6 @@ También puede elegir mostrar únicamente los elementos que ha creado o modifica
 
 ![](assets/content-template-list-filters.png)
 
-<!--Select the **[!UICONTROL Grid view]** mode to display each template as a thumbnail. 
-
->[!NOTE]
->
->Currently proper thumbnails can only be generated for HTML-type email content templates.
-
-When you update a content, you may have to wait a few seconds before the changes are reflected in the thumbnail.
-
-![](assets/content-template-grid-view.png)-->
-
 * Para editar el contenido de una plantilla, haga clic en el elemento deseado de la lista y seleccione **[!UICONTROL Editar contenido]**.
 
   ![](assets/content-template-edit.png)
@@ -76,6 +66,22 @@ When you update a content, you may have to wait a few seconds before the changes
 >[!NOTE]
 >
 >Cuando se edita o elimina una plantilla, las campañas o los recorridos, incluido el contenido creado con esta plantilla, no se ven afectados.
+
+### Mostrar plantillas como miniaturas {#template-thumbnails}
+
+Seleccione el **[!UICONTROL Vista de cuadrícula]** para mostrar cada plantilla como una miniatura.
+
+>[!AVAILABILITY]
+>
+>Esta capacidad se lanza con disponibilidad limitada (LA) para un pequeño conjunto de clientes.
+
+![](assets/content-template-grid-view.png)
+
+>[!NOTE]
+>
+>Actualmente, solo se pueden generar las miniaturas adecuadas para plantillas de contenido de correo electrónico de tipo HTML.
+
+Al actualizar un contenido, es posible que tenga que esperar unos segundos antes de que los cambios se reflejen en la miniatura.
 
 ## Creación de plantillas de contenido {#create-content-templates}
 
