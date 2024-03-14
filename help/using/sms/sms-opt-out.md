@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: d7b784f10e267878fd0df9360ed0d1be24699a53
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '484'
 ht-degree: 19%
 
 ---
@@ -37,6 +37,8 @@ De forma predeterminada, Adobe Journey Optimizer gestiona los siguientes mensaje
 * **Ayuda**: AYUDA.
 
 Estas palabras clave suelen almacenar en déclencheur una respuesta estándar automática de su proveedor de terceros. Puede confirmar esto directamente con su proveedor o a través de su sitio de documentación.
+
+Cuando utilice Infobip, asegúrese de que la acción Reenvío está establecida en Configuración de extracción.
 
 No se requiere ningún paso para garantizar que las funcionalidades de exclusión de SMS funcionen en Adobe Journey Optimizer, ya que STOP, UNSTOP, START, QUIT, CANCEL, END y UNSUBSCRIBE de las respuestas de palabras clave se reconocen automáticamente. Los estados de exclusión de perfiles se actualizan en tiempo real en Adobe Journey Optimizer.
 
