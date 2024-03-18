@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 02b5886dc9d32d3b06dd4930da882019e344bab3
+source-git-commit: 4b3ec38154d01eb3f15c30c26b427ee34a324be7
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 27%
@@ -44,7 +44,7 @@ Esta versión incorpora la nueva funcionalidad detallada a continuación.
 <li>Precisión de edición granular: editar contenido específico en ubicaciones individuales dentro de sus aplicaciones o páginas web</li>
 <li>Implementación versátil: compatibilidad con métodos de implementación del lado del servidor, basados en API o basados en SDK para integrarse sin problemas con su entorno de desarrollo.</li></ul></p>
 <p>Para obtener más información, consulte la <a href="../code-based/get-started-code-based.md">documentación detallada</a>.</p>
-<!--img src="assets/do-not-localize/web_inapp.gif"-->
+<img src="assets/do-not-localize/code-based.gif">
 </tr>
 </tbody>
 </table>
