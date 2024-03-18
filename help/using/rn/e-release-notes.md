@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4f7a62cdfbd90b2d33341342f6fba769e8bf0132
+source-git-commit: 2dfcbd1631c7fefccaf02782a3218c9a1c1dc7aa
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 26%
+source-wordcount: '311'
+ht-degree: 29%
 
 ---
 
@@ -55,7 +55,11 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Plantillas de contenido**
 
-* **Miniatura** - A **vista de miniaturas** ya está disponible para plantillas de contenido y fragmentos para mejorar el acceso visual. [Más información](../content-management/content-templates.md#template-thumbnails)
+* **Miniaturas** - A **Vista de cuadrícula** El modo ya está disponible para plantillas de contenido y muestra miniaturas para mejorar el acceso visual. Actualmente solo se admiten plantillas de HTML de correo electrónico. [Más información](../content-management/content-templates.md#template-thumbnails)
+
+  >[!AVAILABILITY]
+  >
+  >Esta capacidad se lanza con disponibilidad limitada (LA) para un pequeño conjunto de clientes.
 
 **Recorridos**
 
