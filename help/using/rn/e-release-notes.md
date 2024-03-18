@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4b3ec38154d01eb3f15c30c26b427ee34a324be7
+source-git-commit: 4f7a62cdfbd90b2d33341342f6fba769e8bf0132
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 27%
+source-wordcount: '289'
+ht-degree: 26%
 
 ---
 
@@ -64,3 +64,5 @@ Se han añadido nuevos estados intermedios al ciclo vital de creación de recorr
 * **Publicación** estado entre las variables **Borrador** estado y el **Activo** status
 * **Deteniendo** estado entre las variables **Activo** estado y el **Detenido** status
 * **Activando modo de prueba** o **Desactivando modo de prueba** estados entre los **Borrador** estado y el **Borrador (pruebas)** status
+
+Cuando un recorrido está en un estado intermedio, es de solo lectura.
