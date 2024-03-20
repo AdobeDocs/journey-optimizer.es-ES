@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: f2d4531bd3b0b84dc1b52e818cbbeee36733314f
+source-git-commit: 83751eae9f703a89a57cb337492377ff2478d4a0
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '864'
 ht-degree: 9%
 
 ---
@@ -67,7 +67,7 @@ Comprenda, a partir de la tabla siguiente, qué conjuntos de datos de Journey Op
 
 ## Requisitos previos {#prerequisites}
 
-Para exportar conjuntos de datos, necesita el [permisos de control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions) se enumera a continuación. Lea el [información general de control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) o póngase en contacto con el administrador del producto para obtener los permisos necesarios.
+Para exportar conjuntos de datos, necesita el [permisos de control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"} listed below. Read the [access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"} o póngase en contacto con el administrador del producto para obtener los permisos necesarios.
 
 | Categoría | Permiso |
 |--|--|
@@ -75,15 +75,15 @@ Para exportar conjuntos de datos, necesita el [permisos de control de acceso](ht
 | Administración de datos | Ver conjuntos de datos |
 | Destinos | Ver destinos |
 
-## Pasos principales para exportar conjuntos de datos {#main-steps}
+## Pasos clave para exportar conjuntos de datos {#main-steps}
 
 Los pasos principales para exportar un conjunto de datos a una ubicación de almacenamiento en la nube son los siguientes:
 
 ![](assets/dataset-export-process.png)
 
-Encontrará información detallada sobre cada paso en la documentación de Adobe Experience Platform: [Exportar conjuntos de datos a destinos de almacenamiento en la nube](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html).
+Encontrará información detallada sobre cada paso en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}.
 
-1. **Configure su destino de almacenamiento en la nube**. Si aún no lo ha hecho, conéctese a un destino de almacenamiento en la nube desde el catálogo de destinos. [Obtenga información sobre cómo crear una nueva conexión de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup)
+1. **Configure su destino de almacenamiento en la nube**. Si aún no lo ha hecho, conéctese a un destino de almacenamiento en la nube desde el catálogo de destinos. Obtenga información sobre cómo crear una nueva conexión de destino en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}.
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -93,7 +93,7 @@ Encontrará información detallada sobre cada paso en la documentación de Adobe
 
    >[!NOTE]
    >
-   >Si utiliza Adobe Journey Optimizer junto con los perfiles del cliente en tiempo real, las tarjetas de destino mostrarán un botón &quot;Activar&quot;, que le permitirá exportar conjuntos de datos y activar audiencias para este destino, según los permisos que haya activado.
+   >Si utiliza Adobe Journey Optimizer junto con perfiles de clientes en tiempo real, las tarjetas de destino mostrarán un **Activar** , que permite exportar conjuntos de datos y activar audiencias para este destino, según los permisos que haya habilitado.
 
 1. **Seleccionar los conjuntos de datos** que desea exportar al destino seleccionado. [Obtenga más información sobre los conjuntos de datos de Journey Optimizer disponibles para exportar](#datasets)
 
@@ -107,4 +107,4 @@ Encontrará información detallada sobre cada paso en la documentación de Adobe
 
    <!--![](assets/dataset-export-review.png)-->
 
-Una vez completada la exportación, el contenido del conjunto de datos se deposita en la ubicación de almacenamiento en la nube según la programación configurada. [Obtenga información sobre cómo verificar la exportación de conjuntos de datos correcta](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify)
+Una vez completada la exportación, el contenido del conjunto de datos se deposita en la ubicación de almacenamiento en la nube según la programación configurada. [Obtenga información sobre cómo verificar la exportación de conjuntos de datos correcta](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}.
