@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1803'
-ht-degree: 17%
+source-wordcount: '1977'
+ht-degree: 15%
 
 ---
 
@@ -79,17 +79,30 @@ En la lista de recorridos, puede aprovechar varios filtros para restringir la li
 
 Estas son las distintas operaciones de filtrado que puede realizar:
 
-* Filtre los recorridos según su estado, tipo, versión y etiquetas asignadas en **[!UICONTROL Filtros de estado y versión]**.
+Filtre los recorridos según su estado, tipo, versión y etiquetas asignadas en **[!UICONTROL Filtros de estado y versión]**.
 
-  El tipo puede ser: **[!UICONTROL Evento unitario]**, **[!UICONTROL Calificación de audiencia]**, **[!UICONTROL Leer audiencia]**, **[!UICONTROL Evento empresarial]** o **[!UICONTROL Ráfaga]**.
+El tipo puede ser: **[!UICONTROL Evento unitario]**, **[!UICONTROL Calificación de audiencia]**, **[!UICONTROL Leer audiencia]**, **[!UICONTROL Evento empresarial]** o **[!UICONTROL Ráfaga]**.
 
-* Utilice el **[!UICONTROL Filtros de creación]** para filtrar los recorridos según su fecha de creación o el usuario que los ha creado.
+El estado puede ser el siguiente:
 
-* Mostrar recorridos que utilizan un evento, un grupo de campos o una acción específicos del **[!UICONTROL Filtros de actividad]** y **[!UICONTROL Filtros de datos]**.
+* **Cerrado**: el recorrido se ha cerrado utilizando el **Cerca de nuevas entradas** botón. El recorrido deja de permitir que nuevas personas entren en el recorrido. Las personas que ya están en el recorrido pueden terminar el recorrido normalmente.
+* **Borrador**: el recorrido se encuentra en su primera fase. Aún no se ha publicado.
+* **Borrador (Pruebas)**: el modo de prueba se ha activado utilizando la variable **Modo de prueba** botón.
+* **Finalizado**: el recorrido cambia automáticamente a este estado después del tiempo de espera global predeterminado de 30 días. Los perfiles que ya están en el recorrido finalizan el recorrido normalmente. Los nuevos perfiles ya no pueden entrar en el recorrido.
+* **Activo**: el recorrido se ha publicado utilizando la variable **Publish** botón.
+* **Detenido**: el recorrido se ha apagado usando el **Detener** botón. Todos los individuos abandonan el recorrido al instante.
 
-* Utilice el **[!UICONTROL Filtros de publicación]** para seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar las versiones más recientes de recorridos en directo que se publicaron ayer.
+>[!NOTE]
+>
+>El ciclo de vida de creación de Recorridos también incluye un conjunto de estados intermedios que no están disponibles para el filtrado: &quot;Publicación&quot; (entre &quot;Borrador&quot; y &quot;Activo&quot;), &quot;Activación del modo de prueba&quot; o &quot;Desactivación del modo de prueba&quot; (entre &quot;Borrador&quot; y &quot;Borrador (prueba)&quot;) y &quot;Detención&quot; entre &quot;Activo&quot; y &quot;Detenido&quot;). Cuando un recorrido está en un estado intermedio, es de solo lectura.
 
-  Para filtrar recorridos basados en un intervalo de fechas específico, seleccione **[!UICONTROL Personalizado]** desde el **[!UICONTROL Publicado]** lista desplegable.
+Utilice el **[!UICONTROL Filtros de creación]** para filtrar los recorridos según su fecha de creación o el usuario que los ha creado.
+
+Mostrar recorridos que utilizan un evento, un grupo de campos o una acción específicos del **[!UICONTROL Filtros de actividad]** y **[!UICONTROL Filtros de datos]**.
+
+Utilice el **[!UICONTROL Filtros de publicación]** para seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar las versiones más recientes de recorridos en directo que se publicaron ayer.
+
+Para filtrar recorridos basados en un intervalo de fechas específico, seleccione **[!UICONTROL Personalizado]** desde el **[!UICONTROL Publicado]** lista desplegable.
 
 Además, en los paneles Evento, Fuente de datos y Configuración de acciones, la variable **[!UICONTROL Utilizado en]** El campo muestra el número de recorridos que utilizan ese evento, grupo de campos o acción en particular. Puede hacer clic en el botón **[!UICONTROL Ver recorridos]** para mostrar la lista de los recorridos correspondientes.
 

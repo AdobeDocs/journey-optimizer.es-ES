@@ -5,33 +5,19 @@ feature: Code-based Experiences
 topic: Content Management
 role: User, Developer, Admin
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 100%
+source-wordcount: '1205'
+ht-degree: 88%
 
 ---
 
 # Introducción al canal basado en código {#get-sarted-code-based}
 
->[!BEGINSHADEBOX]
-
-Lo que encontrará en esta guía de documentación:
-
-* **[Introducción al canal basado en código](get-started-code-based.md)**
-* [Requisitos previos basados en código](code-based-prerequisites.md)
-* [Ejemplos de implementación basada en código](code-based-implementation-samples.md)
-* [Creación de experiencias basadas en código](create-code-based.md)
-
->[!ENDSHADEBOX]
-
 >[!AVAILABILITY]
 >
->Actualmente, el canal de experiencias basado en código está disponible en versión beta y solo para usuarios seleccionados. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.
+>Por ahora, el canal de experiencia basada en código no está disponible para las organizaciones que han adquirido el Adobe **Healthcare Shield** y **Escudo de seguridad y privacidad** ofertas de complementos.
 
 [!DNL Journey Optimizer] le permite personalizar y probar las experiencias que desee ofrecer a sus clientes en todos sus puntos de contacto, como aplicaciones web, móviles y de escritorio, vídeoconsolas, servicios conectados al TV, televisores inteligentes, quioscos, cajeros automáticos, asistentes de voz, dispositivos IoT, etc.
 
@@ -39,11 +25,15 @@ Con la funcionalidad de la **experiencia basada en código** puede definir las e
 
 <!--[!DNL Journey Optimizer] allows you to compose and deliver content on any inbound surface in a developer-focused workflow. You can leverage all the personalization capabilities, and preview what will be published. The content can be static (images, text, JSON, HTML) or dynamic (offers, decisions, recommendations). You can also insert custom content actions in your omni-channel journeys.-->
 
-Cuando [vaya a crear una campaña](../campaigns/create-campaign.md#configure), seleccione **Experiencia basada en código (Beta)** como su acción y defina la configuración básica.
+>[!CAUTION]
+>
+>Actualmente en [!DNL Journey Optimizer] solo puede crear experiencias basadas en código utilizando **campañas**.
+
+Cuando usted [creación de una campaña](../campaigns/create-campaign.md#configure), seleccione **Experiencia basada en código** como su acción y defina la configuración básica.
 
 >[!NOTE]
 >
->Si es la primera vez que crea una experiencia web, asegúrese de seguir los requisitos previos descritos en [esta sección](code-based-prerequisites.md).
+>Si es la primera vez que crea una experiencia basada en código, asegúrese de seguir los requisitos previos descritos en [esta sección](code-based-prerequisites.md).
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 
@@ -74,17 +64,15 @@ Cuando [vaya a crear una campaña](../campaigns/create-campaign.md#configure), s
 </div>
 <p></td>
 <td>
-<a href="create-code-based.md#edit-code">
+<a href="code-based-implementation-samples.md">
 <img alt="Validación" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="create-code-based.md#edit-code"><strong>Edición del código</strong></a>
+<a href="code-based-implementation-samples.md"><strong>Muestras de implementación</strong></a>
 </div>
 <p>
 </td>
 </tr></table>
-
-
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
@@ -156,25 +144,42 @@ Es decir, una superficie puede verse como un contenedor en cualquier nivel de je
 * También puede ser una superficie comodín que coincida con una variedad de definiciones de superficie de cliente (por ejemplo, una ubicación de imagen principal en cada página del sitio web podría traducirse en un URI de superficie como: web://mydomain.com/*#hero_image).
 
 Básicamente, un URI de superficie está compuesto por varias secciones:
-1. **Tipo**: web, aplicación móvil, servicio, quiosco, tvcd, etc.
-1. **Propiedad**: dominio o paquete de aplicaciones
-1. **Ruta**: actividad de página/aplicación ± ubicación en la actividad de página/aplicación <!--to clarify-->
+1. **Tipo**: web, ios, android, atm, quiosco, tvcd, servicio, etc.
+1. **Propiedad**: URL de página o paquete de aplicación
+1. **Contenedor**: ubicación en la actividad de la página/aplicación
 
-En la tabla siguiente se muestran algunos ejemplos de definiciones de URI de superficie para varios dispositivos.
+En las tablas siguientes se muestran algunos ejemplos de definiciones de URI de superficie para varios dispositivos.
+
+**Web y móviles**
 
 | Tipo | URI | Descripción |
-| --------- | ----------- | ------- |   
+| --------- | ----------- | ------- | 
 | Web | web://domain.com/path/page.html | Representa una ruta de acceso y una página individuales de un sitio web. |
 | Web | web://domain.com/path/page.html#element | Representa un elemento individual dentro de una página específica de un dominio específico. |
 | Web | web://domain.com/*#element | Superficie comodín: representa un elemento individual en cada una de las páginas bajo un dominio específico. |
-| Escritorio | desktop://com.vendor.bundle | Representa una aplicación de escritorio específica. |
-| Escritorio | desktop://com.vendor.bundle#element | Representa un elemento específico dentro de una aplicación, como un botón, un menú, un titular principal, etc. |
 | Aplicación iOS | mobileapp://com.vendor.bundle | Representa una aplicación móvil específica para una sola plataforma, en este caso una aplicación de iOS. |
 | Aplicación iOS | mobileapp://com.vendor.bundle/activity | Representa una actividad específica (vista) dentro de una aplicación móvil. |
 | Aplicación iOS | mobileapp://com.vendor.bundle/activity#element | Representa un elemento específico dentro de una actividad, como un botón u otro elemento de vista. |
 | Aplicación de Android | mobileapp://com.vendor.bundle | Representa una aplicación móvil específica para una sola plataforma, en este caso una aplicación de Android. |
+
+**Otros tipos de dispositivos**
+
+| Tipo | URI | Descripción |
+| --------- | ----------- | ------- | 
+| Escritorio | desktop://com.vendor.bundle | Representa una aplicación de escritorio específica. |
+| Escritorio | desktop://com.vendor.bundle#element | Representa un elemento específico dentro de una aplicación, como un botón, un menú, un titular principal, etc. |
 | Aplicación de tvOS | tvos://com.vendor.bundle | Representa una aplicación de tvOS específica. |
 | Aplicación de TV | tvcd://com.vendor.bundle | Representa una aplicación de dispositivo conectada a una TV inteligente o TV específica: ID de paquete. |
 | Service | service://servicename | Representa un proceso del lado del servidor u otra entidad manual. |
 | Quiosco | kiosk://location/screen | Ejemplo de posibles tipos de superficie adicionales que se pueden añadir fácilmente. |
 | ATM | atm://location/screen | Ejemplo de posibles tipos de superficie adicionales que se pueden añadir fácilmente. |
+
+**Superficies comodín**
+
+| Tipo | URI | Descripción |
+| --------- | ----------- | ------- | 
+| Web comodín | comodín:web://domain.com/`*`#element | Superficie comodín: representa un elemento individual en cada una de las páginas bajo un dominio específico. |
+| Web comodín | comodín:web://`*`domain.com/`*`#element | Superficie comodín: representa un elemento individual en cada una de las páginas de todos los dominios que terminan con &quot;domain.com&quot;. |
+
+
+

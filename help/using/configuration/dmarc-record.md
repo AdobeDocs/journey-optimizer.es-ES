@@ -8,10 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdominio, dominio, correo, dmarc, registro
-source-git-commit: 745474d6232f01ee959db8d706110477ed0220e2
+exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 13%
+source-wordcount: '1353'
+ht-degree: 12%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 13%
 
 ## ¿Qué es DMARC? {#what-is-dmarc}
 
-La autenticación de mensajes basada en dominios, sistemas de informes y conformidad (DMARC) es un método de autenticación por correo electrónico que permite a los propietarios de dominios proteger su dominio contra el uso no autorizado. Al ofrecer una política clara a los proveedores de correo electrónico/ISP, ayuda a evitar que actores maliciosos envíen correos electrónicos que afirman ser de su dominio. La implementación de DMARC reduce el riesgo de que los correos electrónicos legítimos se marquen como correo no deseado o se rechacen y mejora su entregabilidad
+La autenticación de mensajes basada en dominios, sistemas de informes y conformidad (DMARC) es un método de autenticación por correo electrónico que permite a los propietarios de dominios proteger su dominio contra el uso no autorizado. Al ofrecer una política clara a los proveedores de correo electrónico y de servicios de Internet (ISP), ayuda a evitar que actores maliciosos envíen correos electrónicos que afirman ser de su dominio. La implementación de DMARC reduce el riesgo de que los correos electrónicos legítimos se marquen como correo no deseado o se rechacen y mejora su entregabilidad
 
 DMARC también ofrece informes sobre los mensajes que no superan la autenticación, junto con control sobre el tratamiento de los correos electrónicos que no superan la validación DMARC. Según el implementado [directiva DMARC](#dmarc-policies)Sin embargo, estos correos electrónicos se pueden monitorizar, poner en cuarentena o rechazar. Estas funcionalidades le permiten realizar acciones para mitigar y abordar posibles errores.
 
@@ -61,7 +62,7 @@ Si un correo electrónico no supera la autenticación DMARC, puede decidir qué 
 
 ## Actualización de requisitos de DMARC {#dmarc-update}
 
-Como parte del cumplimiento de las prácticas recomendadas del sector, Google y Yahoo! requiere que tenga un... **Registro DMARC** para cualquier dominio que utilice para enviarles correos electrónicos. Este nuevo requisito se aplica a partir de **1 de febrero de 2024**.
+Como parte del cumplimiento de las prácticas recomendadas del sector, Google y Yahoo! requiere que tenga un... **Registro DMARC** para cualquier dominio que utilice para enviarles correos electrónicos. Este nuevo requisito se aplica desde el **1 de febrero de 2024**. 
 
 >[!CAUTION]
 >
@@ -194,10 +195,3 @@ The key benefits or DMARC are as folllows:
 * This increased visibility allows for steps to be taken to mitigate further errors. It gives senders a degree of control over what happens with mail that does not pass either of these authentication methods.
 
 -->
-
-
-
-
-
-
-

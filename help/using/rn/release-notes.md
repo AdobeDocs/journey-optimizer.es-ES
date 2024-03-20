@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2dfcbd1631c7fefccaf02782a3218c9a1c1dc7aa
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 96%
+source-wordcount: '1392'
+ht-degree: 83%
 
 ---
 
@@ -25,6 +25,56 @@ ht-degree: 96%
 [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información acerca de estos cambios en [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Regístrese para la [Newsletter trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoy y reciba las últimas actualizaciones de productos, artículos interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.
+
+## Notas de la versión de marzo de 2024 {#mar-2024}
+
+**Fecha de lanzamiento**: 19 y 20 de marzo de 2024
+
+### Nueva capacidad {#mar-features}
+
+Esta versión incorpora la nueva funcionalidad detallada a continuación.
+
+<table>
+<thead>
+<tr>
+<th><strong>Experiencias basadas en código</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Con el nuevo canal de experiencia basado en código, Adobe Journey Optimizer le permite realizar personalizaciones y pruebas avanzadas para cualquiera de sus propiedades de entrada, lo que permite ofrecer experiencias adaptadas en diversos puntos de contacto, como aplicaciones web, aplicaciones móviles, aplicaciones de escritorio, consolas de vídeo, dispositivos conectados a TV, televisores inteligentes, quioscos, cajeros automáticos, dispositivos IoT y mucho más.</p>
+<P>Las funcionalidades clave incluyen:</p>
+<ul><li> Personalización universal: Amplíe las experiencias personalizadas en todos los puntos de contacto, lo que garantiza un recorrido de usuario coherente y personalizado</li>
+<li>Precisión de edición granular: editar contenido específico en ubicaciones individuales dentro de sus aplicaciones o páginas web</li>
+<li>Implementación versátil: compatibilidad con métodos de implementación del lado del servidor, basados en API o basados en SDK para integrarse sin problemas con su entorno de desarrollo.</li></ul></p>
+<p>Para obtener más información, consulte la <a href="../code-based/get-started-code-based.md">documentación detallada</a>.</p>
+<img src="assets/do-not-localize/code-based.gif">
+</tr>
+</tbody>
+</table>
+
+### Mejoras {#mar-improvements}
+
+Esta versión incorpora las mejoras que se enumeran a continuación.
+
+**Plantillas de contenido**
+
+* **Miniaturas** - A **Vista de cuadrícula** El modo ya está disponible para plantillas de contenido y muestra miniaturas para mejorar el acceso visual. Actualmente solo se admiten plantillas de HTML de correo electrónico. [Más información](../content-management/content-templates.md#template-thumbnails)
+
+  >[!AVAILABILITY]
+  >
+  >Esta capacidad se lanza con disponibilidad limitada (LA) para un pequeño conjunto de clientes.
+
+**Recorridos**
+
+Se han añadido nuevos estados intermedios al ciclo vital de creación de recorridos:
+
+* **Publicación** estado entre las variables **Borrador** estado y el **Activo** status
+* **Deteniendo** estado entre las variables **Activo** estado y el **Detenido** status
+* **Activando modo de prueba** o **Desactivando modo de prueba** estados entre los **Borrador** estado y el **Borrador (pruebas)** status
+
+Cuando un recorrido está en un estado intermedio, es de solo lectura. [Más información](../building-journeys/journey-gs.md#filter)
 
 ## Notas de la versión de febrero de 2024 {#feb-2024}
 

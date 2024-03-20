@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '3602'
-ht-degree: 100%
+source-wordcount: '3603'
+ht-degree: 99%
 
 ---
 
@@ -765,7 +765,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 **Recorridos**
 
 * Para optimizar el rendimiento, todos los recorridos en modo de prueba que no se hayan activado durante una semana volverán al estado Borrador. [Más información](../building-journeys/testing-the-journey.md#important_notes)
-* La integración entre Journey Optimizer y Adobe Campaign Classic se ha optimizado para mejorar el rendimiento. La configuración predeterminada de límite se ha cambiado a 4000 llamadas/cinco minutos.    [Más información](../action/acc-action.md#important-notes)
+* La integración entre Journey Optimizer y Adobe Campaign v7/v8 se ha optimizado para mejorar el rendimiento. La configuración predeterminada de límite se ha cambiado a 4000 llamadas cada cinco minutos. [Más información](../action/acc-action.md#important-notes)
 
 **Creación de informes**
 

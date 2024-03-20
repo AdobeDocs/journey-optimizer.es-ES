@@ -7,9 +7,9 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
-workflow-type: ht
-source-wordcount: '535'
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+workflow-type: tm+mt
+source-wordcount: '470'
 ht-degree: 100%
 
 ---
@@ -49,11 +49,6 @@ Puede utilizar estos métodos abreviados en áreas específicas de la [!DNL Jour
       <th>Acceso directo</th>
     </tr>
   </thead>
-  <tr>
-    <td>Lista de recorridos, acciones, fuentes de datos o eventos</td>
-    <td>Crear un recorrido, una acción, una fuente de datos o un evento</td>
-    <td>C</td>
-  </tr>
   <tr>
     <td rowspan="8">Lienzo de recorrido en estado de borrador</td>
     <td>Añadir una actividad de la paleta izquierda en la primera posición disponible, de arriba a abajo</td>
@@ -107,23 +102,6 @@ Puede utilizar estos métodos abreviados en áreas específicas de la [!DNL Jour
   <tr>
     <td>Descartar cambios y cerrar el panel de configuración</td>
     <td>ESC</td>
-  </tr>
-  <tr>
-    <td rowspan="4">Recorrido en modo de prueba</td>
-    <td>Habilitar o deshabilitar el modo de prueba</td>
-    <td>T</td>
-  </tr>
-  <tr>
-    <td>Activa un evento en un recorrido basado en eventos</td>
-    <td>E</td>
-  </tr>
-  <tr>
-    <td>Activación de un evento en un recorrido basado en el público para el cual la opción **[!UICONTROL Perfil único a la vez]** está activada</td>
-    <td>P</td>
-  </tr>
-  <tr>
-    <td>Mostrar los registros de prueba</td>
-    <td>L</td>
   </tr>
 <!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
   <tr>

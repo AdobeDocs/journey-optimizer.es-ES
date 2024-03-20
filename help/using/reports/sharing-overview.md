@@ -7,9 +7,10 @@ feature: Journeys, Reporting
 topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
-source-git-commit: c82e0a4f44cda4afeb88f7dd8e645e967e4a878f
+exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '522'
 ht-degree: 3%
 
 ---
@@ -25,6 +26,11 @@ Además de [informes en tiempo real](live-report.md) y integrados [funciones de 
 Por ejemplo, ha configurado un recorrido que envía varios correos electrónicos. Esta capacidad le permite combinar lo siguiente [!DNL Journey Optimizer] datos con datos de evento descendente como cuántas conversiones se produjeron, cuánta participación se produjo en el sitio web o cuántas transacciones se produjeron en la tienda. La información de recorrido se puede combinar con los datos de Adobe Experience Platform, ya sea desde otras propiedades digitales o desde propiedades sin conexión para proporcionar una vista más completa del rendimiento.
 
 [!DNL Journey Optimizer] crea automáticamente los esquemas y flujos necesarios en conjuntos de datos a Adobe Experience Platform para cada paso que realiza un individuo en un recorrido. Un evento de paso corresponde a un individuo que se mueve de un nodo a otro en un recorrido. Por ejemplo, en un recorrido que tiene un evento, una condición y una acción, se envían tres eventos de paso a Adobe Experience Platform.
+
+Hay casos en los que se pueden crear varios eventos para el mismo nodo. Por ejemplo, en el caso de la actividad Wait:
+
+* Se genera un evento cuando el perfil introduce la espera (el atributo journeyNodeProcessed es igual a false)
+* Se genera un evento cuando el perfil lo abandona (el atributo journeyNodeProcessed es igual a true)
 
 La lista de campos XDM que se pasan es completa. Algunos contienen códigos generados por el sistema y otros tienen nombres descriptivos en lenguaje natural. Algunos ejemplos son la etiqueta de la actividad de recorrido o el estado del paso: cuántas veces se ha superado el tiempo de espera de una acción o ha finalizado en error.
 
@@ -66,4 +72,3 @@ El flujo de trabajo general es:
 * Para usar este conjunto de datos en [!DNL Customer Journey Analytics], para el análisis de recorrido entre canales, consulte [Documentación del Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 
 ➡️ [Trabajo con el Customer Journey Analytics](cja-ajo.md){target="_blank"}
-

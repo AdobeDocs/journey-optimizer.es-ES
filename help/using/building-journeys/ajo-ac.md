@@ -9,27 +9,27 @@ role: Admin, Data Engineer, User
 level: Intermediate, Experienced
 keywords: recorrido, mensaje, campaña, integración
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 2%
 
 ---
 
-# Caso de uso: Envío de un mensaje mediante Campaign v7/v8 {#campaign-classic-use-case}
+# Caso de uso: Envío de un mensaje mediante Campaign v7/v8 {#campaign-v7-v8-use-case}
 
-Este caso de uso presenta todos los pasos necesarios para enviar un correo electrónico mediante la integración con Adobe Campaign Classic v7 y Adobe Campaign v8.
+Este caso de uso presenta todos los pasos necesarios para enviar un correo electrónico mediante la integración con Adobe Campaign v7 y Adobe Campaign v8.
 
 >[!NOTE]
 >
->Para utilizar esta integración, debe tener la compilación 9125 o superior de Campaign Classic.
+>Para utilizar esta integración, debe tener Campaign v7/v8 compilación 9125 o superior.
 
 Primero crearemos una plantilla de correo electrónico transaccional en Campaign. A continuación, en Journey Optimizer, crearemos el evento, la acción y diseñaremos el recorrido.
 
 Para obtener más información sobre la integración de Campaign, consulte estas páginas:
 
 * [Creación de una acción de campaña](../action/acc-action.md)
-* [Uso de la acción en un recorrido](../building-journeys/using-adobe-campaign-classic.md).
+* [Uso de la acción en un recorrido](../building-journeys/using-adobe-campaign-v7-v8.md).
 
 **Adobe Campaign**
 

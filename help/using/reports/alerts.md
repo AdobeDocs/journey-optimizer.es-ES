@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Las alertas de acciones personalizadas se resuelven cuando, en los últimos 5 mi
 
 El nombre de suscripción de evento de E/S correspondiente a la alerta de acción personalizada es **Error de acción personalizada de recorrido**.
 
-## Déclencheur de segmentos leído incorrecto {#alert-read-audiences}
+## Error al leer Déclencheur de audiencia {#alert-read-audiences}
 
 Esta alerta le advierte si **Leer audiencia** la actividad no ha procesado ningún perfil 10 minutos después de la hora programada de ejecución. Este error puede deberse a problemas técnicos o a que la audiencia está vacía.
 
@@ -68,3 +68,24 @@ Alertas el **Leer audiencia** Las actividades de solo se aplican a recorridos re
 Alertas el **Leer audiencia** se resuelven cuando un perfil introduce en **Leer audiencia** nodo.
 
 El nombre de la suscripción del evento de E/S correspondiente a **Déclencheur de segmentos leído incorrecto** la alerta es **Retrasos, errores y errores del segmento de lectura de recorrido**.
+
+## Resolución de problemas {#alert-troubleshooting}
+
+Para solucionar problemas **Leer audiencia** alertas, compruebe el recuento de audiencias en la interfaz del Experience Platform.
+
+![](assets/alert-troubleshooting-0.png)
+
+![](assets/alert-troubleshooting-1.png)
+
+Para solucionar problemas **Acción personalizada** alertas:
+
+* Compruebe la acción personalizada mediante el modo de prueba en otro recorrido:
+
+  ![](assets/alert-troubleshooting-2.png)
+
+* Consulte el informe de recorridos para ver los motivos de error al realizar la acción.
+
+  ![](assets/alert-troubleshooting-3.png)
+
+* Compruebe los stepEvents de recorrido para buscar más información sobre &quot;failureReason&quot;.
+* Compruebe la configuración de la acción personalizada y compruebe que la autenticación sigue siendo correcta. Realice una comprobación manual con Postman, por ejemplo.

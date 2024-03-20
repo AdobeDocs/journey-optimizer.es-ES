@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 12%
+source-wordcount: '828'
+ht-degree: 11%
 
 ---
 
@@ -41,7 +41,7 @@ Los destinatarios cuyas direcciones de correo electrónico están suprimidas se 
 
 Las direcciones se agregan a la lista de supresión de la siguiente manera:
 
-* Todo **rechazos graves** y **quejas por spam** enviar automáticamente las direcciones correspondientes a la lista de supresión después de una sola incidencia.
+* Todo **rechazos graves** y **quejas por spam** enviar automáticamente las direcciones correspondientes a la lista de supresión después de una sola incidencia. Obtenga más información sobre las quejas de spam en [esta sección](#spam-complaints).
 
 * **Rechazos leves** no envían inmediatamente una dirección a la lista de supresión, sino que se suman a un contador de errores. Varios [reintentos](../configuration/retries.md) y cuando el contador de errores alcanza el umbral, la dirección se agrega a la lista de supresión.
 
@@ -81,3 +81,5 @@ La lista de supresión recopila direcciones de correo electrónico que marcan el
 Enviar a los destinatarios después de que envíen una queja de correo no deseado puede tener un gran impacto en su reputación de envío, ya que informa a los ISP de que puede enviar correos electrónicos no deseados y puede no escuchar a sus destinatarios.
 
 Esto podría provocar que se bloqueara su dirección IP o dominio de envío, lo que se puede evitar con estas direcciones en la lista de supresión.
+
+Algunos ISP ofrecen un bucle de comentarios (FBL) que permite notificar automáticamente al remitente del correo electrónico cuando el usuario que lo recibe decide marcarlo como correo no deseado. [Más información](deliverability.md#feedback-loops)

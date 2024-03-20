@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 12%
+source-wordcount: '2378'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,11 @@ ht-degree: 12%
 
 Para empezar a crear un correo electrónico, debe configurar las superficies de canal de correo electrónico que definan todos los parámetros técnicos necesarios para los mensajes. [Aprenda a crear superficies](../configuration/channel-surfaces.md)
 
-Defina la configuración de correo electrónico en la sección dedicada de la configuración de la superficie de canal.
+>[!NOTE]
+>
+>Para preservar su reputación y mejorar su capacidad de entrega, configure los subdominios que utilizará para enviar correos electrónicos antes de crear una superficie de correo electrónico. [Más información](../configuration/about-subdomain-delegation.md)
+
+Defina la configuración de correo electrónico en la sección dedicada de la configuración de superficie de canal, como se detalla a continuación.
 
 ![](assets/preset-email-settings.png)
 
@@ -51,27 +55,29 @@ Al crear un mensaje, debe elegir una superficie de canal válida que coincida co
 
 ## Subdominios y grupos de IP {#subdomains-and-ip-pools}
 
-En el **Subdominios y grupos de IP** , debe:
+En el **Subdominios y grupos de IP** , rellene los campos obligatorios como se indica a continuación.
 
-1. Seleccione el subdominio que desea utilizar para enviar los correos electrónicos. [Más información](../configuration/about-subdomain-delegation.md)
+1. Seleccione el subdominio que desea utilizar para enviar los correos electrónicos.
+
+   Para preservar la reputación de su dominio, acelerar el proceso de calentamiento de IP y mejorar la capacidad de entrega, delegue los subdominios de envío al Adobe. [Más información](../configuration/about-subdomain-delegation.md)
 
 1. Seleccione el grupo de IP que se asociará a la superficie. [Más información](../configuration/ip-pools.md)
 
-![](assets/preset-subdomain-ip-pool.png)
+   ![](assets/preset-subdomain-ip-pool.png)
 
-No se puede continuar con la creación de superficies mientras el grupo de IP seleccionado se encuentra en [edición](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Procesando]** estado) y nunca se ha asociado con el subdominio seleccionado. De lo contrario, se seguirá utilizando la versión más antigua de la asociación de subdominios/grupos de IP. En este caso, guarde la superficie como borrador y vuelva a intentarlo una vez que el grupo de IP tenga el valor **[!UICONTROL Correcto]** estado.
+   No se puede continuar con la creación de superficies mientras el grupo de IP seleccionado se encuentra en [edición](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Procesando]** estado) y nunca se ha asociado con el subdominio seleccionado. De lo contrario, se seguirá utilizando la versión más antigua de la asociación de subdominios/grupos de IP. En este caso, guarde la superficie como borrador y vuelva a intentarlo una vez que el grupo de IP tenga el valor **[!UICONTROL Correcto]** estado.
 
->[!NOTE]
->
->En los entornos que no son de producción, Adobe no crea subdominios de prueba predeterminados ni concede acceso a un grupo de IP de envío compartido. Tienes que hacerlo [delegar sus propios subdominios](../configuration/delegate-subdomain.md) y utilice las direcciones IP del grupo asignado a su organización.
+   >[!NOTE]
+   >
+   >En los entornos que no son de producción, Adobe no crea subdominios de prueba predeterminados ni concede acceso a un grupo de IP de envío compartido. Tienes que hacerlo [delegar sus propios subdominios](../configuration/delegate-subdomain.md) y utilice las direcciones IP del grupo asignado a su organización.
 
-Una vez seleccionado un grupo de IP, la información de PTR se ve al pasar el ratón por encima de las direcciones IP que se muestran debajo de la lista desplegable Grupo de IP. [Más información sobre los registros PTR](../configuration/ptr-records.md)
+1. Una vez seleccionado un grupo de IP, la información de PTR se ve al pasar el ratón por encima de las direcciones IP que se muestran debajo de la lista desplegable Grupo de IP. [Más información sobre los registros PTR](../configuration/ptr-records.md)
 
-![](assets/email-surface-ptr-record.png)
+   ![](assets/email-surface-ptr-record.png)
 
->[!NOTE]
->
->Si no se ha configurado un registro PTR, póngase en contacto con el representante del Adobe.
+   >[!NOTE]
+   >
+   >Si no se ha configurado un registro PTR, póngase en contacto con el representante del Adobe.
 
 ## Cancelación de suscripción a lista {#list-unsubscribe}
 

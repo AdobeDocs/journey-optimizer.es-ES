@@ -5,29 +5,15 @@ feature: Code-based Experiences
 topic: Content Management
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 6%
+source-wordcount: '753'
+ht-degree: 3%
 
 ---
 
 # Ejemplos de métodos de implementación basados en código {#implementation-samples}
-
->[!BEGINSHADEBOX]
-
-Lo que encontrará en esta guía de documentación:
-
-* [Introducción al canal basado en código](get-started-code-based.md)
-* [Requisitos previos basados en código](code-based-prerequisites.md)
-* **[Ejemplos de implementación basada en código](code-based-implementation-samples.md)**
-* [Creación de experiencias basadas en código](create-code-based.md)
-
->[!ENDSHADEBOX]
 
 La experiencia basada en código admite cualquier tipo de implementación del cliente. En esta página puede encontrar ejemplos para cada método de implementación:
 
@@ -35,7 +21,9 @@ La experiencia basada en código admite cualquier tipo de implementación del cl
 * [Lado del servidor](#server-side-implementation)
 * [Híbrido](#hybrid-implementation)
 
-También puede seguir a [este vínculo](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} para encontrar implementaciones de muestra para diferentes casos de uso de personalización y experimentación. Compruébelos y ejecútelos para comprender mejor cuáles son los pasos de implementación necesarios y cómo funciona el flujo de personalización de principio a fin.
+>[!IMPORTANT]
+>
+>Seguir [este vínculo](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} para encontrar implementaciones de muestra para diferentes casos de uso de personalización y experimentación. Compruébelos y ejecútelos para comprender mejor cuáles son los pasos de implementación necesarios y cómo funciona el flujo de personalización de principio a fin.
 
 ## Implementación del lado del cliente {#client-side-implementation}
 
@@ -77,6 +65,38 @@ function sendDisplayEvent(decision) {
               scopeDetails: scopeDetails,
             },
           ],
+        },
+      },
+    },
+  });
+}
+```
+
+1. Para las campañas de experiencia basadas en código, los eventos de interacción deben enviarse manualmente para indicar cuándo un usuario ha interactuado con el contenido. Esto se realiza mediante la variable `sendEvent` comando.
+
+```javascript
+function sendInteractEvent(label, proposition) {
+  const { id, scope, scopeDetails = {} } = proposition;
+
+  alloy("sendEvent", {
+    
+    xdm: {
+      eventType: "decisioning.propositionInteract",
+      _experience: {
+        decisioning: {
+          propositions: [
+            {
+              id: id,
+              scope: scope,
+              scopeDetails: scopeDetails,
+            },
+          ],
+          propositionEventType: {
+            interact: 1
+          },
+          propositionAction: {
+            label: label
+          },
         },
       },
     },
