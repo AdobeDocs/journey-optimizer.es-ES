@@ -5,10 +5,10 @@ description: Aprenda a utilizar Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
-workflow-type: ht
-source-wordcount: '385'
-ht-degree: 100%
+source-git-commit: 55d9b8f0fc7e048c9f9cb506d8153f27595aaa3f
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 84%
 
 ---
 
@@ -20,11 +20,19 @@ Eche un vistazo a las mejoras más recientes del producto y a la documentación 
 
 >[!BEGINTABS]
 
->[!TAB Ya está aquí la versión de febrero.]
+>[!TAB Ya está aquí la versión de marzo.]
 
-Descubra las nuevas funciones y mejoras incluidas en la versión 24.2 de Adobe Journey Optimizer.
+Descubra las nuevas funciones y mejoras incluidas en la versión 24.3 de Adobe Journey Optimizer.
 
 [![obtenga más información](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB Experiencias basadas en código]
+
+Con el nuevo canal de experiencia basado en código, Adobe Journey Optimizer le permite realizar personalizaciones y pruebas avanzadas para cualquiera de sus propiedades de entrada, lo que permite ofrecer experiencias adaptadas en diversos puntos de contacto, como aplicaciones web, aplicaciones móviles, aplicaciones de escritorio, consolas de vídeo, dispositivos conectados a TV, televisores inteligentes, quioscos, cajeros automáticos, dispositivos IoT y mucho más.
+
+![](using/rn/assets/do-not-localize/code-based.gif)
+
+[![obtenga más información](using/assets/do-not-localize/learn-more-button.svg)](using/code-based/get-started-code-based.md)
 
 >[!TAB Mensajería en la aplicación web]
 
@@ -33,14 +41,6 @@ Ahora puede utilizar la nueva función de mensajería en la aplicación web para
 ![](using/rn/assets/do-not-localize/web_inapp.gif)
 
 [![obtenga más información](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
-
->[!TAB Plantillas de contenido multicanal]
-
-Además del correo electrónico, las plantillas de contenido ya están disponibles para los siguientes canales: push, en la aplicación, SMS y correo directo, y cada canal tiene tipos de plantilla dedicados. Para correo electrónico, ahora puede seleccionar el tipo de contenido, que le permite guardar la línea de asunto como parte de la plantilla de correo electrónico.
-
-![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
-
-[![obtenga más información](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/content-templates.md)
 
 >[!ENDTABS]
 
