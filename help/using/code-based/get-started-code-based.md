@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 9d21ea489e62254eb3e4665198149e284b78296e
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 88%
+source-wordcount: '1138'
+ht-degree: 80%
 
 ---
 
@@ -144,37 +144,31 @@ Es decir, una superficie puede verse como un contenedor en cualquier nivel de je
 * También puede ser una superficie comodín que coincida con una variedad de definiciones de superficie de cliente (por ejemplo, una ubicación de imagen principal en cada página del sitio web podría traducirse en un URI de superficie como: web://mydomain.com/*#hero_image).
 
 Básicamente, un URI de superficie está compuesto por varias secciones:
-1. **Tipo**: web, ios, android, atm, quiosco, tvcd, servicio, etc.
+1. **Tipo**: web, aplicación móvil, atm, quiosco, tvcd, servicio, etc.
 1. **Propiedad**: URL de página o paquete de aplicación
 1. **Contenedor**: ubicación en la actividad de la página/aplicación
 
 En las tablas siguientes se muestran algunos ejemplos de definiciones de URI de superficie para varios dispositivos.
 
-**Web y móviles**
+### Web y móviles
 
 | Tipo | URI | Descripción |
 | --------- | ----------- | ------- | 
-| Web | web://domain.com/path/page.html | Representa una ruta de acceso y una página individuales de un sitio web. |
-| Web | web://domain.com/path/page.html#element | Representa un elemento individual dentro de una página específica de un dominio específico. |
-| Web | web://domain.com/*#element | Superficie comodín: representa un elemento individual en cada una de las páginas bajo un dominio específico. |
-| Aplicación iOS | mobileapp://com.vendor.bundle | Representa una aplicación móvil específica para una sola plataforma, en este caso una aplicación de iOS. |
-| Aplicación iOS | mobileapp://com.vendor.bundle/activity | Representa una actividad específica (vista) dentro de una aplicación móvil. |
-| Aplicación iOS | mobileapp://com.vendor.bundle/activity#element | Representa un elemento específico dentro de una actividad, como un botón u otro elemento de vista. |
-| Aplicación de Android | mobileapp://com.vendor.bundle | Representa una aplicación móvil específica para una sola plataforma, en este caso una aplicación de Android. |
+| Web | web://domain.com/path/page.html#element | Representa un elemento individual dentro de una página específica de un dominio específico, donde un elemento puede ser una etiqueta como en los ejemplos siguientes: hero_banner, top_nav, menu, footer, etc. |
+| Aplicación iOS | mobileapp://com.vendor.bundle/activity#element | Representa un elemento específico dentro de una actividad de aplicación nativa, como un botón u otro elemento de vista. |
+| Aplicación de Android | mobileapp://com.vendor.bundle#element | Representa un elemento específico dentro de una aplicación nativa. |
 
-**Otros tipos de dispositivos**
+### Otros tipos de dispositivos
 
 | Tipo | URI | Descripción |
 | --------- | ----------- | ------- | 
-| Escritorio | desktop://com.vendor.bundle | Representa una aplicación de escritorio específica. |
 | Escritorio | desktop://com.vendor.bundle#element | Representa un elemento específico dentro de una aplicación, como un botón, un menú, un titular principal, etc. |
-| Aplicación de tvOS | tvos://com.vendor.bundle | Representa una aplicación de tvOS específica. |
-| Aplicación de TV | tvcd://com.vendor.bundle | Representa una aplicación de dispositivo conectada a una TV inteligente o TV específica: ID de paquete. |
-| Service | service://servicename | Representa un proceso del lado del servidor u otra entidad manual. |
-| Quiosco | kiosk://location/screen | Ejemplo de posibles tipos de superficie adicionales que se pueden añadir fácilmente. |
-| ATM | atm://location/screen | Ejemplo de posibles tipos de superficie adicionales que se pueden añadir fácilmente. |
+| Aplicación de TV | tvcd://com.vendor.bundle#element | Representa un elemento específico dentro de una aplicación de dispositivo conectada a Smart TV o TV: ID de paquete. |
+| Service | service://servicename#element | Representa un proceso del lado del servidor u otra entidad manual. |
+| Quiosco | kiosk://location/screen#element | Ejemplo de posibles tipos de superficie adicionales que se pueden añadir fácilmente. |
+| ATM | atm://location/screen#element | Ejemplo de posibles tipos de superficie adicionales que se pueden añadir fácilmente. |
 
-**Superficies comodín**
+### Superficies comodín
 
 | Tipo | URI | Descripción |
 | --------- | ----------- | ------- | 
