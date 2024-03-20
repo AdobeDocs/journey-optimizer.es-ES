@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 9d21ea489e62254eb3e4665198149e284b78296e
+source-git-commit: 3cdef96e383448b462f6e3781e36d3c9a57bd637
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 80%
@@ -174,6 +174,5 @@ En las tablas siguientes se muestran algunos ejemplos de definiciones de URI de 
 | --------- | ----------- | ------- | 
 | Web comodín | comodín:web://domain.com/`*`#element | Superficie comodín: representa un elemento individual en cada una de las páginas bajo un dominio específico. |
 | Web comodín | comodín:web://`*`domain.com/`*`#element | Superficie comodín: representa un elemento individual en cada una de las páginas de todos los dominios que terminan con &quot;domain.com&quot;. |
-
 
 
