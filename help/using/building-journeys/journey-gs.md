@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
 workflow-type: tm+mt
-source-wordcount: '1977'
-ht-degree: 15%
+source-wordcount: '1983'
+ht-degree: 16%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 15%
 >id="ajo_homepage_card2"
 >title="Creación de recorridos"
 >abstract="Utilice **Adobe Journey Optimizer** para crear casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos."
+
+
 
 ## Requisitos previos{#start-prerequisites}
 
@@ -111,6 +113,8 @@ Además, en los paneles Evento, Fuente de datos y Configuración de acciones, la
 ## Cree su recorrido{#jo-build}
 
 Este paso lo realiza el **usuario empresarial**. Aquí es donde se crean los recorridos. Combine las distintas actividades de evento, orquestación y acción para crear sus escenarios de canales cruzados de varios pasos.
+
+➡️ [Descubra esta función en vídeo](journey.md#video)
 
 Estos son los pasos principales para enviar mensajes a través de recorridos:
 

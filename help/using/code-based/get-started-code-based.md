@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 3cdef96e383448b462f6e3781e36d3c9a57bd637
+source-git-commit: 430af6da50e74c7375be92242ca869d187b63a54
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 80%
@@ -150,7 +150,7 @@ Básicamente, un URI de superficie está compuesto por varias secciones:
 
 En las tablas siguientes se muestran algunos ejemplos de definiciones de URI de superficie para varios dispositivos.
 
-### Web y móviles
+**Web y móviles**
 
 | Tipo | URI | Descripción |
 | --------- | ----------- | ------- | 
@@ -158,7 +158,7 @@ En las tablas siguientes se muestran algunos ejemplos de definiciones de URI de 
 | Aplicación iOS | mobileapp://com.vendor.bundle/activity#element | Representa un elemento específico dentro de una actividad de aplicación nativa, como un botón u otro elemento de vista. |
 | Aplicación de Android | mobileapp://com.vendor.bundle#element | Representa un elemento específico dentro de una aplicación nativa. |
 
-### Otros tipos de dispositivos
+**Otros tipos de dispositivos**
 
 | Tipo | URI | Descripción |
 | --------- | ----------- | ------- | 
@@ -168,7 +168,7 @@ En las tablas siguientes se muestran algunos ejemplos de definiciones de URI de 
 | Quiosco | kiosk://location/screen#element | Ejemplo de posibles tipos de superficie adicionales que se pueden añadir fácilmente. |
 | ATM | atm://location/screen#element | Ejemplo de posibles tipos de superficie adicionales que se pueden añadir fácilmente. |
 
-### Superficies comodín
+**Superficies comodín**
 
 | Tipo | URI | Descripción |
 | --------- | ----------- | ------- | 

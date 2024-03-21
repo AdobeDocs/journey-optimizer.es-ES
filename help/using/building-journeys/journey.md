@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: recorrido, descubrimiento, introducción
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 100%
+source-wordcount: '613'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,6 @@ Diseñe escenarios avanzados de varios pasos con las siguientes capacidades:
 
 * Con el **diseñador de recorridos**, genere sus casos de uso de varios pasos: arrastre y suelte fácilmente un evento de entrada o una actividad de lectura de público, agregue condiciones y envíe mensajes personalizados.
 
-
 >[!NOTE]
 >
 >En [esta página](../start/guardrails.md) se detallan los mecanismos de protección y limitaciones de los recorridos
@@ -40,6 +39,8 @@ Diseñe escenarios avanzados de varios pasos con las siguientes capacidades:
 Utilice Adobe Journey Optimizer para diseñar y organizar recorridos personalizados desde un solo lienzo. Los pasos principales para crear un recorrido son los siguientes:
 
 ![](assets/journey-creation-process.png)
+
+➡️ [Descubra esta función en vídeo](#video)
 
 Adobe Journey Optimizer incluye un lienzo de orquestación omnicanal que permite a los expertos en marketing armonizar el alcance del marketing con la participación individual del cliente. La interfaz de usuario permite arrastrar y soltar fácilmente actividades de la paleta en el lienzo para crear el recorrido.
 
@@ -103,3 +104,9 @@ Desde el momento en que se publique el recorrido, las personas empezarán a flui
 Las versiones de recorrido se pueden detener individualmente. Todas las versiones de los recorridos tienen el mismo nombre.
 
 Cuando se publica una nueva versión de un recorrido, la versión anterior finaliza automáticamente y cambia al estado **Cerrado.**. No puede haber ninguna entrada en el recorrido. Aunque detenga la versión más reciente, la versión anterior permanecerá cerrada.
+
+## Vídeo explicativo {#video}
+
+Descubra los componentes de un recorrido y comprenda los conceptos básicos para construir un recorrido en el lienzo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
