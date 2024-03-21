@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generación de contenido con el asistente de contenido
-description: Introducción al asistente de contenido
+title: Generación de contenido con el asistente de IA
+description: Introducción al asistente de IA
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -11,28 +11,28 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 6%
+source-wordcount: '408'
+ht-degree: 3%
 
 ---
 
-# Generación de contenido con el asistente de contenido {#title-content-assistant}
+# Generación de contenido con el asistente de IA {#title-content-assistant}
 
 >[!BEGINSHADEBOX]
 
 **Tabla de contenido**
 
-* [Introducción al Asistente de contenido](gs-generative.md)
-* **[Generación de contenido con el asistente de contenido](generative-content.md)**
-* [Generación de imágenes con el Asistente de contenido](generative-image.md)
+* [Introducción al asistente de IA](gs-generative.md)
+* **[Generación de contenido con el asistente de IA](generative-content.md)**
+* [Generación de imágenes con el asistente de IA](generative-image.md)
 
 >[!ENDSHADEBOX]
 
-Una vez que haya creado y personalizado los mensajes, lleve el contenido al siguiente nivel con el asistente de contenido.
+Una vez que haya creado y personalizado sus mensajes, lleve su contenido al siguiente nivel con Journey Optimizer AI Assistant.
 
-Al aprovechar el Asistente de contenido, tiene la oportunidad de optimizar el impacto del mensaje experimentando con contenido diferente. Cada variante se considera un Tratamiento único, para medir y comparar qué contenido genera de forma eficaz más clics.
+Al aprovechar el asistente de IA, tiene la oportunidad de optimizar el impacto de su mensaje experimentando con diferentes contenidos. Cada variante se considera un Tratamiento único, para medir y comparar qué contenido genera de forma eficaz más clics.
 
 En este ejemplo en particular, aprenda a enviar una atractiva notificación push mediante Experimento de contenido. Siga estos pasos:
 
@@ -48,7 +48,7 @@ En este ejemplo en particular, aprenda a enviar una atractiva notificación push
 
    * **[!UICONTROL Resumir]**: utilice esta opción para acortar un texto y mantener lo esencial.
 
-   * **[!UICONTROL Elaborado]**: utilice esta opción para ampliar el contenido con variantes creativas adicionales del asistente de contenido.
+   * **[!UICONTROL Elaborado]**: utilice esta opción para ampliar el contenido con variantes creativas adicionales del asistente de IA.
 
    ![](assets/gen-ai-title-2.png)
 
@@ -62,7 +62,7 @@ En este ejemplo en particular, aprenda a enviar una atractiva notificación push
 
    ![](assets/gen-ai-title-4.png)
 
-1. Después de personalizar el **[!UICONTROL Cuerpo]** de la notificación push, seleccione **[!UICONTROL Mostrar asistente de contenido]**.
+1. Después de personalizar el **[!UICONTROL Cuerpo]** de la notificación push, seleccione **[!UICONTROL Mostrar asistente de IA]**.
 
    Aquí, ya hay disponible una lista de variaciones que utilizan el contenido original.
 
@@ -70,7 +70,7 @@ En este ejemplo en particular, aprenda a enviar una atractiva notificación push
 
 1. Ajuste el contenido describiendo lo que desea generar.
 
-   Habilite la **[!UICONTROL Mejorar con contenido actual]** para que el asistente de contenido personalice el nuevo contenido en función del mensaje, el nombre de la campaña y la audiencia seleccionada.
+   Habilite la **[!UICONTROL Mejorar con contenido actual]** para que el asistente de IA personalice el nuevo contenido en función del mensaje, el nombre de la campaña y la audiencia seleccionada.
 
 1. Clic **[!UICONTROL Reemplazar]** para cambiar el contenido o seleccionar varios **[!UICONTROL Variante]** para crear **[!UICONTROL Tratamientos]** para su Experimentación y haga clic en **Agregar tratamiento(s) X**.
 
