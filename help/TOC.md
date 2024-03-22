@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
-source-wordcount: '1739'
-ht-degree: 100%
+source-wordcount: '1740'
+ht-degree: 99%
 
 ---
 
@@ -244,8 +244,8 @@ ht-degree: 100%
       + [Creación de aplicaciones de una sola página](using/web/web-spa.md)
 + Experiencia basada en código {#code-based-experience}
    + [Introducción al canal basado en código](using/code-based/get-started-code-based.md)
-   + [Requisitos previos basados en código](using/code-based/code-based-prerequisites.md)
-   + [Ejemplos de implementación basada en código](using/code-based/code-based-implementation-samples.md)
+   + [Protecciones y requisitos previos](using/code-based/code-based-prerequisites.md)
+   + [Ejemplos de métodos de implementación](using/code-based/code-based-implementation-samples.md)
    + [Creación de experiencias basadas en código](using/code-based/create-code-based.md)
 + Páginas de aterrizaje {#landing-pages}
    + [Introducción a las páginas de aterrizaje](using/landing-pages/get-started-lp.md)

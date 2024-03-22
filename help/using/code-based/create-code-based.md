@@ -6,14 +6,18 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1001'
 ht-degree: 7%
 
 ---
 
 # Creación de experiencias basadas en código {#create-code-based}
+
+Actualmente en [!DNL Journey Optimizer] solo puede crear experiencias basadas en código en **campañas**.
+
+Las protecciones y recomendaciones se detallan en [esta página](code-based-prerequisites.md).
 
 >[!AVAILABILITY]
 >
@@ -22,10 +26,6 @@ ht-degree: 7%
 ## Creación de una campaña basada en código {#create-code-based-campaign}
 
 Para empezar a crear una experiencia basada en código a través de una campaña, siga los pasos a continuación.
-
->[!CAUTION]
->
->Actualmente en [!DNL Journey Optimizer] solo puede crear experiencias basadas en código utilizando **campañas**.
 
 1. Cree una campaña. [Más información](../campaigns/create-campaign.md)
 
@@ -41,11 +41,7 @@ Para empezar a crear una experiencia basada en código a través de una campaña
 
 1. Seleccione **[!UICONTROL Crear]**.
 
-1. Complete los pasos para crear una campaña, como las propiedades de la campaña, [audiencia](../audience/about-audiences.md), y [programación](../campaigns/create-campaign.md#schedule).
-
-   >[!NOTE]
-   >
-   >Para obtener más información sobre cómo configurar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
+1. Complete los pasos para crear una campaña, como las propiedades de la campaña, [audiencia](../audience/about-audiences.md), y [programación](../campaigns/create-campaign.md#schedule). Para obtener más información sobre cómo configurar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
 1. Edite el contenido como desee mediante el Editor de expresiones. [Más información](#edit-code)
 
@@ -100,7 +96,7 @@ Ahora, tan pronto como el desarrollador realice una llamada de API o SDK para re
 >title="Previsualización de la experiencia basada en código"
 >abstract="Obtenga una simulación del aspecto que tendrá su experiencia basada en código."
 
-Para mostrar una previsualización de la experiencia basada en código modificada, siga los pasos a continuación. Encontrará información detallada sobre cómo seleccionar perfiles de prueba y previsualizar el contenido en el  [Previsualización y prueba de la página de contenido](../content-management/preview-test.md).
+Para mostrar una previsualización de la experiencia basada en código modificada, siga los pasos a continuación. Encontrará información detallada sobre cómo seleccionar perfiles de prueba y previsualizar el contenido en el [Previsualización y prueba de la página de contenido](../content-management/preview-test.md).
 
 >[!CAUTION]
 >

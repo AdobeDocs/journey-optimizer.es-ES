@@ -6,20 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 3%
 
 ---
 
-# Requisitos previos y protecciones {#web-prerequisites}
+# Protecciones y requisitos previos {#web-prerequisites}
 
 Para poder usar acciones de experiencia basadas en código en [!DNL Journey Optimizer] y enviar una carga útil de contenido de código que puedan utilizar las aplicaciones, siga los requisitos previos siguientes:
 
 * Para agregar modificaciones a las aplicaciones, debe tener una implementación específica. [Más información](#implementation-prerequisites)
 
 * Para que las experiencias basadas en código se entreguen correctamente, asegúrese de definir la configuración detallada de Adobe Experience Platform [aquí](#delivery-prerequisites).
+
 
 ## Notas de precaución {#caution-notes-web}
 
