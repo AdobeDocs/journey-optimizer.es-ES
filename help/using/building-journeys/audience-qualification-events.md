@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: calificación, eventos, audiencia, recorrido, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 11%
+source-wordcount: '1081'
+ht-degree: 10%
 
 ---
 
@@ -37,13 +37,18 @@ Este tipo de evento se puede colocar como primer paso o más tarde en el recorri
 
 * Tenga en cuenta que las audiencias de Adobe Experience Platform se calculan una vez al día (**lote** audiencias) o en tiempo real (**transmitido** mediante la opción Audiencias de alta frecuencia de Adobe Experience Platform).
 
-* Si la audiencia seleccionada se transmite por secuencias, las personas que pertenecen a esta audiencia podrían entrar en el recorrido en tiempo real. Si la audiencia es por lotes, las personas recién cualificadas para esta audiencia podrían entrar en el recorrido cuando el cálculo de audiencia se ejecute en Adobe Experience Platform.
+   * Si la audiencia seleccionada se transmite por secuencias, las personas que pertenecen a esta audiencia podrían entrar en el recorrido en tiempo real.
+   * Si la audiencia es por lotes, las personas recién cualificadas para esta audiencia podrían entrar en el recorrido cuando el cálculo de audiencia se ejecute en Adobe Experience Platform.
+
+  Por lo tanto, como práctica recomendada, solo se recomienda utilizar audiencias de streaming en un **Calificación de audiencia** actividad. Para casos de uso por lotes, utilice un **[Leer audiencia](read-audience.md)** actividad.
+
+  >[!NOTE]
+  >
+  >Debido a la naturaleza de lote de las audiencias creadas mediante flujos de trabajo de composición y carga personalizada, no puede dirigirse a estas audiencias en una actividad &quot;Calificación de audiencias&quot;. En esta actividad solo se pueden aprovechar las audiencias creadas con definiciones de segmento.
 
 * Los grupos de campos de evento de experiencia no se pueden usar en recorridos que comiencen por una audiencia de lectura, una calificación de audiencia o una actividad de evento empresarial.
 
 * Cuando se utiliza una calificación de público en un recorrido, esa actividad de calificación de público puede tardar hasta 10 minutos en estar activa y en escuchar los perfiles que entran o salen del público.
-
-* Como práctica recomendada, le recomendamos que solo utilice audiencias de streaming para **Calificación de audiencia** actividad. Para casos de uso por lotes, utilice **[Leer audiencia](read-audience.md)** actividad.
 
 ### Configuración de la actividad{#cnfigure-segment-qualification}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '5046'
-ht-degree: 96%
+source-wordcount: '5073'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 ## Marzo de 2024 {#march-2024}
 
+* Se ha añadido una sección de preguntas más frecuentes para abordar preguntas comunes sobre el uso de la composición de audiencias y las audiencias de carga personalizadas en Journey Optimizer. [Más información](../audience/about-audiences.md#faq)
 * Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de marzo de 2024 se ha detallado en la documentación. [Más información](release-notes.md)
 * Se ha mejorado la página de administración de entrada de perfiles. [Más información](../building-journeys/entry-management.md)
 * Se ha añadido información sobre la resolución de problemas a la página Alertas. [Más información](../reports/alerts.md#alert-troubleshooting)

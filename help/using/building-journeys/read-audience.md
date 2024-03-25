@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, lectura, audiencia, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1463'
 ht-degree: 7%
 
 ---
@@ -99,6 +99,10 @@ Los pasos para configurar la actividad Leer audiencia son los siguientes:
 
    **Lectura incremental** opción: cuando un recorrido con una **Leer audiencia** se ejecuta por primera vez, todos los perfiles de la audiencia entran en el recorrido. Esta opción le permite dirigirse, después de la primera aparición, solo a las personas que ingresaron a la audiencia desde la última ejecución del recorrido.
 
+       >[!NOTA]
+       >
+       >Si va a segmentar una [audiencia de carga personalizada](../audience/about-audiences.md#segments-in-recorrido-optimizer) en su recorrido, los perfiles solo se recuperan en la primera periodicidad si esta opción está habilitada en un recorrido recurrente, ya que estas audiencias son fijas.
+   
    **Forzar reentrada en repetición**: esta opción permite hacer que todos los perfiles que aún están presentes en la recorrido se cierren automáticamente en la siguiente ejecución. Por ejemplo, si tiene una espera de 2 días en un recorrido diario recurrente, al activar esta opción, los perfiles siempre se moverán en la siguiente ejecución de recorrido (por lo que al día siguiente), estén o no en la siguiente audiencia de ejecución. Si la duración de los perfiles en este recorrido puede ser mayor que la periodicidad, no active esta opción para asegurarse de que los perfiles puedan finalizar su recorrido.
 
 <!--

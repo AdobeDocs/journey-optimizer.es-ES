@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
-workflow-type: ht
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+workflow-type: tm+mt
 source-wordcount: '4398'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -426,7 +426,7 @@ Los eventos contextuales relacionados con campañas ya están disponibles para s
 
 **Públicos**
 
-Se han realizado mejoras en el selector de públicos en recorridos o campañas, añadiendo nuevas columnas que muestran el origen y la frecuencia de actualización de los públicos. Con el lanzamiento del portal de composición de audiencia, Adobe Experience Platform y Adobe Journey Optimizer han actualizado el uso de &quot;públicos&quot; y &quot;segmento&quot; dentro del sistema y la documentación.
+Se han realizado mejoras en el selector de públicos en recorridos o campañas, añadiendo nuevas columnas que muestran el origen y la frecuencia de actualización de los públicos. Con la publicación del portal de composición de audiencias, Adobe Experience Platform y Adobe Journey Optimizer han actualizado el uso de &quot;audiencias&quot; y &quot;segmentos&quot; en el sistema y en la documentación.
 
 * Público: conjunto de personas, cuentas, hogares u otras entidades que comparten características y comportamientos comunes.
 * Definición del segmento: en Adobe Experience Platform, las reglas utilizadas para describir las características clave o el comportamiento de un público destinatario. Este término se conocía anteriormente como &quot;segmento&quot;.

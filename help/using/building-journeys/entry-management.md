@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: reentrada, recorrido, perfil, recurrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '680'
 ht-degree: 5%
 
 ---
@@ -78,6 +78,10 @@ Los recorridos de audiencia de lectura pueden ser recurrentes o de una sola toma
 Hay dos opciones disponibles para los recorridos de lectura de audiencia recurrentes:
 
 * **Lectura incremental** opción: cuando un recorrido con una **Leer audiencia** se ejecuta por primera vez, todos los perfiles de la audiencia entran en el recorrido. Esta opción le permite dirigirse, después de la primera incidencia, solo a las personas que ingresaron a la audiencia desde la última ejecución del recorrido.
+
+  >[!NOTE]
+  >
+  >Si va a segmentar un [audiencia de carga personalizada](../audience/about-audiences.md#segments-in-journey-optimizer) en el recorrido, los perfiles solo se recuperan en la primera periodicidad si esta opción está habilitada en un recorrido recurrente, ya que estas audiencias son fijas.
 
 * **Forzar reentrada en repetición**: esta opción permite hacer que todos los perfiles que aún están presentes en la recorrido se cierren automáticamente en la siguiente ejecución. Si la duración de los perfiles en este recorrido puede ser mayor que la periodicidad (por ejemplo, si utiliza actividades de espera), no active esta opción para asegurarse de que los perfiles puedan finalizar su recorrido.
 
