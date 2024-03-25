@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1651'
 ht-degree: 8%
 
 ---
@@ -49,6 +49,11 @@ Una vez configuradas las superficies de canal, puede seleccionarlas al crear men
 >title="Configuración de la superficie de canal"
 >abstract="Para poder crear acciones como correos electrónicos desde un recorrido o una campaña, primero debe crear una superficie de canal que defina toda la configuración técnica necesaria para los mensajes. Debe tener el permiso Administrar ajustes preestablecidos de mensajes para crear, editar y eliminar superficies de canal."
 
+>[!CONTEXTUALHELP]
+>id="ajo_surface_marketing_action"
+>title="Seleccionar una acción de marketing"
+>abstract="Elija una acción de marketing en la superficie para asociar una política de consentimiento con el mensaje."
+
 Para crear una superficie de canal, siga estos pasos:
 
 1. Acceda a la **[!UICONTROL Canales]** > **[!UICONTROL Marca]** > **[!UICONTROL Superficies de canal]** y haga clic en **[!UICONTROL Crear superficie de canal]**.
@@ -82,6 +87,19 @@ Para crear una superficie de canal, siga estos pasos:
    >[!NOTE]
    >
    >Para obtener más información sobre cómo configurar su entorno para enviar mensajes SMS, consulte [esta sección](../sms/sms-configuration.md).
+
+<!--
+1. Select a **[!UICONTROL Marketing action]** to associate consent policies to the messages using this surface. All consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers. [Learn more](../action/consent.md#marketing-actions)
+
+    >[!NOTE]
+    >
+    >Consent policies are currently only available for organizations that have purchased the **Healthcare Shield** and **Privacy and Security Shield** add-on offerings. [Learn more](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html){target="_blank"}
+
+    ![](assets/surface-marketing-action.png)
+
+    >[!NOTE]
+    >
+    >You can only select one marketing action.-->
 
 1. Una vez configurados todos los parámetros, haga clic en **[!UICONTROL Enviar]** para confirmar. También se puede guardar la superficie de canal como inclinación y reanudar su configuración más adelante.
 
