@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
 source-wordcount: '1392'
-ht-degree: 83%
+ht-degree: 99%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 83%
 
 **Fecha de lanzamiento**: 19 y 20 de marzo de 2024
 
-### Nueva capacidad {#mar-features}
+### Nuevas funciones {#mar-features}
 
-Esta versión incorpora la nueva funcionalidad detallada a continuación.
+Esta versión incorpora las nuevas funciones que se indican a continuación.
 
 <table>
 <thead>
@@ -45,7 +45,7 @@ Esta versión incorpora la nueva funcionalidad detallada a continuación.
 <td>
 <p>Con el nuevo canal de experiencia basado en código, Adobe Journey Optimizer le permite realizar personalizaciones y pruebas avanzadas para cualquiera de sus propiedades de entrada, lo que permite ofrecer experiencias adaptadas en diversos puntos de contacto, como aplicaciones web, aplicaciones móviles, aplicaciones de escritorio, consolas de vídeo, dispositivos conectados a TV, televisores inteligentes, quioscos, cajeros automáticos, dispositivos IoT y mucho más.</p>
 <P>Las funcionalidades clave incluyen:</p>
-<ul><li> Personalización universal: Amplíe las experiencias personalizadas en todos los puntos de contacto, lo que garantiza un recorrido de usuario coherente y personalizado</li>
+<ul><li> Personalización universal: amplíe las experiencias personalizadas en todos los puntos de contacto, lo que garantiza un recorrido de usuario coherente y personalizado</li>
 <li>Precisión de edición granular: editar contenido específico en ubicaciones individuales dentro de sus aplicaciones o páginas web</li>
 <li>Implementación versátil: compatibilidad con métodos de implementación del lado del servidor, basados en API o basados en SDK para integrarse sin problemas con su entorno de desarrollo.</li></ul></p>
 <p>Para obtener más información, consulte la <a href="../code-based/get-started-code-based.md">documentación detallada</a>.</p>
@@ -60,7 +60,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Plantillas de contenido**
 
-* **Miniaturas** - A **Vista de cuadrícula** El modo ya está disponible para plantillas de contenido y muestra miniaturas para mejorar el acceso visual. Actualmente solo se admiten plantillas de HTML de correo electrónico. [Más información](../content-management/content-templates.md#template-thumbnails)
+* **Miniaturas**: ahora, hay un modo **Vista de cuadrícula** disponible para plantillas de contenido, mostrando miniaturas a fin de mejorar el acceso visual. Actualmente, solo se admiten plantillas de HTML de correo electrónico. [Más información](../content-management/content-templates.md#template-thumbnails)
 
   >[!AVAILABILITY]
   >
@@ -70,9 +70,9 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 Se han añadido nuevos estados intermedios al ciclo vital de creación de recorridos:
 
-* **Publicación** estado entre las variables **Borrador** estado y el **Activo** status
-* **Deteniendo** estado entre las variables **Activo** estado y el **Detenido** status
-* **Activando modo de prueba** o **Desactivando modo de prueba** estados entre los **Borrador** estado y el **Borrador (pruebas)** status
+* Estado de **Publicación** entre el estado **Borrador** y el estado **Activo**
+* Estado **Deteniendo** entre los estados **Activo** y **Detenido**
+* Estados **Activando modo de prueba** o **Desactivando modo de prueba** entre el estado **Borrador** y el estado **Borrador (pruebas)**
 
 Cuando un recorrido está en un estado intermedio, es de solo lectura. [Más información](../building-journeys/journey-gs.md#filter)
 
@@ -231,11 +231,11 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Reglas de frecuencia**
 
-* **Límite de frecuencia semanal** : Ahora puede especificar el número máximo de mensajes enviados a un perfil de cliente por semana, además del mes. El límite de frecuencia se basa en el período de calendario seleccionado y se restablece al principio del lapso de tiempo correspondiente. [Más información](../configuration/frequency-rules.md#create-new-rule)
+* **Límite de frecuencia semanal**: ahora puede especificar el número máximo de mensajes enviados a un perfil de cliente en una semana, además del mes. El límite de frecuencia se basa en el período de calendario seleccionado y se restablece al principio del lapso de tiempo correspondiente. [Más información](../configuration/frequency-rules.md#create-new-rule)
 
   >[!NOTE]
   >
-  >El límite diario de frecuencia también está disponible bajo demanda. Póngase en contacto con el representante del Adobe.
+  >El límite diario de frecuencia también está disponible bajo demanda. Póngase en contacto con su representante de Adobe. 
 
 **Gestión de decisiones**
 
