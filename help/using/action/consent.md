@@ -10,9 +10,9 @@ level: Experienced
 keywords: directivas, gobernanza, plataforma, escudo de atención sanitaria, consentimiento
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: d549e4fdb7cd71e450cd00e4fa8707ae03ce0aff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '961'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -22,20 +22,20 @@ ht-degree: 82%
 
 In Journey Optimizer, you can apply these consent policies to your custom actions. For example, you can define consent policies to exclude customers who have not consented to receive email, push or SMS communication.-->
 
-Sus datos pueden estar sujetos a restricciones de uso definidas por su organización o por regulaciones legales. Por lo tanto, es importante asegurarse de que las operaciones de datos de Journey Optimizer cumplan con lo siguiente [políticas de uso de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=es){target="_blank"}. These policies are Adobe Experience Platform rules defining which [marketing actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#marketing-actions){target="_blank"} tiene permiso para realizar tareas en los datos.
+Sus datos pueden estar sujetos a restricciones de uso definidas por su organización o por la normativa legal. Por lo tanto, es importante asegurarse de que las operaciones de datos de Journey Optimizer cumplan con las [políticas de uso de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=es){target="_blank"}. These policies are Adobe Experience Platform rules defining which [marketing actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=es#marketing-actions){target="_blank"} y que tiene permiso para realizar tareas en los datos.
 
-Un tipo de políticas de uso de datos disponibles es **directivas de consentimiento**. Permiten adoptar y aplicar fácilmente políticas de marketing que respeten las preferencias de consentimiento de los clientes. [Más información sobre la aplicación de políticas](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html){target="_blank"}
+Un tipo de políticas de uso de datos disponibles es **políticas de consentimiento**. Le permiten adoptar y aplicar fácilmente políticas de marketing que respeten las preferencias de consentimiento de sus clientes. [Más información sobre la aplicación de políticas](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html?lang=es){target="_blank"}
 
 >[!IMPORTANT]
 >
->Actualmente, las políticas de consentimiento solo están disponibles para las organizaciones que han adquirido el Adobe **Healthcare Shield** o **Escudo de seguridad y privacidad** ofertas de complementos.
+>Actualmente, las políticas de consentimiento solo están disponibles para las organizaciones que han adquirido las ofertas sobre el programa de **Protección sanitaria** y el programa de **Protección de la seguridad y la privacidad**.
 
-Por ejemplo, puede [crear directivas de consentimiento](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=es#consent-policy){target="_blank"} en Experience Platform para excluir a los clientes que no hayan aceptado recibir comunicaciones por correo electrónico, push o SMS.
+Por ejemplo, puede [crear políticas de consentimiento](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=es#consent-policy){target="_blank"} en Experience Platform para excluir a los clientes que no hayan aceptado recibir comunicaciones por correo electrónico, push o SMS.
 
 En Journey Optimizer, el consentimiento se define en varios niveles. Puede aplicar directivas de consentimiento a las acciones personalizadas de recorrido:
 
-* Cuándo **configuración de una acción personalizada**, puede definir un canal y una acción de marketing. [Más información](#consent-custom-action)
-* Al añadir la variable **acción personalizada en un recorrido**, puede definir una acción de marketing adicional. [Más información](#consent-journey)
+* Al **configurar una acción personalizada**, puede definir un canal y una acción de marketing. [Más información](#consent-custom-action)
+* Al añadir la **acción personalizada en un recorrido**, puede definir una acción de marketing adicional. [Más información](#consent-journey)
 
 ## Notas importantes {#important-notes}
 
