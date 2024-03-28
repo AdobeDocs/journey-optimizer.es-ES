@@ -14,7 +14,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 57%
+ht-degree: 68%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="ajo_content_generation"
 >title="Creación de contenido de correo electrónico"
->abstract="El Asistente de IA del Optimizador de Recorrido de Adobe ofrece sugerencias proactivas de variación de contenido para texto e imágenes. Está disponible para canales de correo electrónico, push, SMS y web. Esta nueva funcionalidad proporciona una generación de texto e imágenes basada en solicitudes."
+>abstract="El asistente de IA de Adobe Journey Optimizer ofrece sugerencias proactivas de variación de contenido para texto e imágenes. Está disponible para canales de correo electrónico, push, SMS y web. Esta nueva funcionalidad proporciona una generación de texto e imágenes basada en solicitudes."
 
 >[!BEGINSHADEBOX]
 
