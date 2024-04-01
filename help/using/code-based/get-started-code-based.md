@@ -6,9 +6,9 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: bb9ebf5900f38c3729321330eee176489a86cd8e
+source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1080'
 ht-degree: 84%
 
 ---
@@ -147,15 +147,15 @@ En las tablas siguientes se muestran algunos ejemplos de definiciones de URI de 
 | --------- | ----------- | ------- | 
 | Web | web://domain.com/path/page.html#element | Representa un elemento individual dentro de una página específica de un dominio específico, donde un elemento puede ser una etiqueta como en los ejemplos siguientes: hero_banner, top_nav, menu, footer, etc. |
 | Aplicación iOS | mobileapp://com.vendor.bundle/activity#element | Representa un elemento específico dentro de una actividad de aplicación nativa, como un botón u otro elemento de vista. |
-| Aplicación de Android | mobileapp://com.vendor.bundle#element | Representa un elemento específico dentro de una aplicación nativa. |
+| Aplicación de Android | mobileapp://com.vendor.bundle/#element | Representa un elemento específico dentro de una aplicación nativa. |
 
 **Otros tipos de dispositivos**
 
 | Tipo | URI | Descripción |
 | --------- | ----------- | ------- | 
-| Escritorio | desktop://com.vendor.bundle#element | Representa un elemento específico dentro de una aplicación, como un botón, un menú, un titular principal, etc. |
-| Aplicación de TV | tvcd://com.vendor.bundle#element | Representa un elemento específico dentro de una aplicación de dispositivo conectada a Smart TV o TV: ID de paquete. |
-| Service | service://servicename#element | Representa un proceso del lado del servidor u otra entidad manual. |
+| Escritorio | desktop://com.vendor.bundle/#element | Representa un elemento específico dentro de una aplicación, como un botón, un menú, un titular principal, etc. |
+| Aplicación de TV | tvcd://com.vendor.bundle/#element | Representa un elemento específico dentro de una aplicación de dispositivo conectada a Smart TV o TV: ID de paquete. |
+| Service | service://servicename/#element | Representa un proceso del lado del servidor u otra entidad manual. |
 | Quiosco | kiosk://location/screen#element | Ejemplo de posibles tipos de superficie adicionales que se pueden añadir fácilmente. |
 | ATM | atm://location/screen#element | Ejemplo de posibles tipos de superficie adicionales que se pueden añadir fácilmente. |
 
@@ -163,7 +163,5 @@ En las tablas siguientes se muestran algunos ejemplos de definiciones de URI de 
 
 | Tipo | URI | Descripción |
 | --------- | ----------- | ------- | 
-| Web comodín | comodín:web://domain.com/`*`#element | Superficie comodín: representa un elemento individual en cada una de las páginas bajo un dominio específico. |
-| Web comodín | comodín:web://`*`domain.com/`*`#element | Superficie comodín: representa un elemento individual en cada una de las páginas de todos los dominios que terminan con &quot;domain.com&quot;. |
-
-
+| Web comodín | `wildcard:web://domain.com/*#element` | Superficie comodín: representa un elemento individual en cada una de las páginas bajo un dominio específico. |
+| Web comodín | `wildcard:web://*domain.com/*#element` | Superficie comodín: representa un elemento individual en cada una de las páginas de todos los dominios que terminan con &quot;domain.com&quot;. |
