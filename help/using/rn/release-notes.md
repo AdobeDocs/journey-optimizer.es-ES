@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 99%
@@ -49,7 +49,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <li>Precisión de edición granular: editar contenido específico en ubicaciones individuales dentro de sus aplicaciones o páginas web</li>
 <li>Implementación versátil: compatibilidad con métodos de implementación del lado del servidor, basados en API o basados en SDK para integrarse sin problemas con su entorno de desarrollo.</li></ul></p>
 <p>Para obtener más información, consulte la <a href="../code-based/get-started-code-based.md">documentación detallada</a>.</p>
-<img src="assets/do-not-localize/code-based.gif">
+<img src="assets/do-not-localize/code-based.gif"> 
 </tr>
 </tbody>
 </table>
@@ -113,7 +113,7 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <td>
 <p>Además del correo electrónico, las plantillas de contenido ya están disponibles para los siguientes canales: push, en la aplicación, SMS y correo directo, y cada canal tiene tipos de plantilla dedicados. Para correo electrónico, ahora puede seleccionar el tipo de contenido, que le permite guardar la línea de asunto como parte de la plantilla de correo electrónico. <br/><br/></p>
 <p>Para obtener más información, consulte la <a href="../content-management/content-templates.md">documentación detallada</a>.<br></br></p>
-<img src="assets/do-not-localize/multi-chan-templates.gif">
+<img src="assets/do-not-localize/multi-chan-templates.gif"> 
 </tr>
 </tbody>
 </table>
