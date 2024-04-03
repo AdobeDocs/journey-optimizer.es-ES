@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Actualizaciones de documentación
+title: Actualizaciones de la documentación
 description: Más información acerca de las últimas actualizaciones de documentación
 feature: Release Notes
 topic: Content Management
@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5073'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,25 +21,25 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 ## Marzo de 2024 {#march-2024}
 
-* Se ha añadido una sección de preguntas más frecuentes para abordar preguntas comunes sobre el uso de la composición de audiencias y las audiencias de carga personalizadas en Journey Optimizer. [Más información](../audience/about-audiences.md#faq)
-* Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de marzo de 2024 se ha detallado en la documentación. [Más información](release-notes.md)
-* Se ha mejorado la página de administración de entrada de perfiles. [Más información](../building-journeys/entry-management.md)
-* Se ha añadido información sobre la resolución de problemas a la página Alertas. [Más información](../reports/alerts.md#alert-troubleshooting)
-* Se ha añadido información sobre la actividad de espera a la página sobre informes de recorrido. [Más información](../reports/sharing-overview.md)
+* Se ha añadido una sección de preguntas más frecuentes para abordar preguntas comunes sobre el uso de la composición de públicos y los públicos de carga personalizados en Journey Optimizer. [Más información](../audience/about-audiences.md#faq)
+* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de marzo de 2024 se han incluido en la documentación. [Más información](release-notes.md)
+* Se ha mejorado la página sobre administración de entradas de perfil. [Más información](../building-journeys/entry-management.md)
+* Se ha añadido información sobre la resolución de problemas en la página Alertas. [Más información](../reports/alerts.md#alert-troubleshooting)
+* Se ha añadido información sobre la actividad de espera en la página sobre informes de recorrido. [Más información](../reports/sharing-overview.md)
 * Para los Recorridos en modo de prueba, se han deshabilitado los siguientes métodos abreviados:
    * T: acceso directo para activar o desactivar el modo de prueba.
-   * E: método abreviado utilizado para almacenar en déclencheur un evento en un recorrido basado en eventos.
-   * P: acceso directo para almacenar en déclencheur un evento en un recorrido basado en audiencias para el cual la opción Un solo perfil a la vez está activada.
+   * E: método abreviado utilizado para activar un evento en un recorrido basado en eventos.
+   * P: método abreviado para activar un evento en un recorrido basado en el público para el cual la opción Un solo perfil a la vez está activada.
    * L: acceso directo designado para mostrar los registros de prueba.
 * La página Reglas de frecuencia de mensaje se ha actualizado con una nueva subsección sobre el límite de frecuencia diario, que está disponible bajo demanda además del límite semanal o mensual. [Más información](../configuration/frequency-rules.md#daily-frequency-cap)
 * Se ha mejorado y actualizado la página Trabajar con directivas de consentimiento con vínculos útiles a la documentación del Experience Platform. [Más información](../action/consent.md)
 * Se ha añadido una nueva sección para reflejar el hecho de que puede mostrar plantillas de contenido de correo electrónico de HTML como miniaturas con el modo de vista de cuadrícula (disponibilidad limitada). [Más información](../content-management/content-templates.md#template-thumbnails)
-* Se ha añadido una nueva sección a la página Entrega para explicar qué son los bucles de comentarios y cómo aprovecharlos. [Más información](../reports/deliverability.md#feedback-loops)
-* Se ha añadido una nota a la sección Creación de ofertas personalizadas para especificar que el tamaño de una oferta, incluidas todas sus representaciones, no puede superar los 300 KB. [Más información](../offers/offer-library/creating-personalized-offers.md#create-offer)
+* Se ha añadido una nueva sección en la página Entregabilidad para explicar qué son los bucles de comentarios y cómo aprovecharlos. [Más información](../reports/deliverability.md#feedback-loops)
+* Se ha añadido una nota en la sección Creación de ofertas personalizadas para especificar que el tamaño de una oferta, incluidas todas sus representaciones, no puede superar los 300 KB. [Más información](../offers/offer-library/creating-personalized-offers.md#create-offer)
 
 ## Febrero de 2024 {#feb-2024}
 
-* Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de febrero de 2024 se ha detallado en la documentación. [Más información](release-notes.md)
+* Todas las nuevas funciones y mejoras incluidas en la versión de febrero de 2024 de [!DNL Journey Optimizer] se han incluido en la documentación. [Más información](release-notes.md)
 * La integración de Journey Optimizer + Workfront se ha añadido a la página de integraciones. [Más información](../start/ajo-integrations.md)
 * Se ha añadido información sobre cómo personalizar las representaciones de las ofertas en función de los datos de contexto. [Más información](../offers/offer-library/add-representations.md#context-data)
 * La página de protecciones se ha actualizado con una nota sobre acciones personalizadas que solo admiten el formato JSON cuando se utilizan cargas útiles de solicitud o respuesta. [Más información](../start/guardrails.md#custom-actions-g)

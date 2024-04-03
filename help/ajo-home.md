@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 55d9b8f0fc7e048c9f9cb506d8153f27595aaa3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Eche un vistazo a las mejoras más recientes del producto y a la documentación 
 
 >[!BEGINTABS]
 
->[!TAB Ya está aquí la versión de marzo.]
+>[!TAB ¡Ya está aquí la versión de marzo!]
 
 Descubra las nuevas funciones y mejoras incluidas en la versión 24.3 de Adobe Journey Optimizer.
 

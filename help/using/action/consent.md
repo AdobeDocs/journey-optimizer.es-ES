@@ -10,9 +10,9 @@ level: Experienced
 keywords: directivas, gobernanza, plataforma, escudo de atención sanitaria, consentimiento
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 334527cbad3363b77d14dd447e06d4e8da79daec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Por ejemplo, puede [crear políticas de consentimiento](https://experienceleague
     
     To apply a custom policy, you need to define a marketing action in that policy and associate it to a channel surface. [Learn more](#marketing-actions)-->
 
-En el nivel de recorrido, puede aplicar directivas de consentimiento a sus acciones personalizadas:
+En el nivel de recorrido, puede aplicar estas políticas de consentimiento a sus acciones personalizadas. 
 
 * Al **configurar una acción personalizada**, puede definir un canal y una acción de marketing. [Más información](#consent-custom-action)
 * Al añadir la **acción personalizada en un recorrido**, puede definir una acción de marketing adicional. [Más información](#consent-journey)
@@ -87,7 +87,7 @@ Therefore, in this example, any [email](../email/create-email.md) using that sur
 
 ### Notas importantes {#important-notes}
 
-En Journey Optimizer, el consentimiento <!--also -->aprovecharse de en acciones personalizadas. Si desea utilizarlo con las funciones de mensajes integrados, debe utilizar una actividad de condición para filtrar a los clientes en su recorrido.
+En Journey Optimizer, el consentimiento se puede<!--also -->aprovechar en las acciones personalizadas. Si desea utilizarlo con las funciones de mensajes integrados, debe utilizar una actividad de condición para filtrar a los clientes en su recorrido.
 
 Con la administración de consentimiento, se analizan dos actividades de recorrido:
 
@@ -118,11 +118,11 @@ There are two types of latency regarding the use of consent policies:
 
 Al configurar una acción personalizada, se pueden utilizar dos campos para la administración de consentimiento.
 
-El campo **Canal** permite seleccionar el canal relacionado con esta acción personalizada: **Correo electrónico**, **SMS** o **Notificaciones automáticas**. Prefiere el **Acción de marketing requerida** con la acción de marketing predeterminada para el canal seleccionado. Si selecciona **otro** Sin embargo, no hay ninguna acción de marketing definida de forma predeterminada.
+El campo **Canal** permite seleccionar el canal relacionado con esta acción personalizada: **Correo electrónico**, **SMS** o **Notificaciones push**. Rellena automáticamente el campo **Acción de marketing necesaria** con la acción de marketing predeterminada para el canal seleccionado. Si selecciona **otros**, no se define ninguna acción de marketing de forma predeterminada.
 
 ![](assets/consent1.png)
 
-La **Acción de marketing necesaria** permite definir la acción de marketing relacionada con la acción personalizada. Por ejemplo, si utiliza esa acción personalizada para enviar correos electrónicos, puede seleccionar **Segmentación por correo electrónico**. Cuando se utilizan en un recorrido de, todas las políticas de consentimiento asociadas con esa acción de marketing se recuperan y aprovechan. Se selecciona una acción de marketing predeterminada, pero puede hacer clic en la flecha abajo para seleccionar cualquier acción de marketing disponible en la lista.
+La **Acción de marketing necesaria** permite definir la acción de marketing relacionada con la acción personalizada. Por ejemplo, si utiliza esa acción personalizada para enviar correos electrónicos, puede seleccionar **Segmentación por correo electrónico**. Cuando se utilizan en un recorrido, todas las directivas de consentimiento asociadas a esa acción de marketing se recuperan y se aprovechan. Se selecciona una acción de marketing predeterminada, pero puede hacer clic en la flecha abajo para seleccionar cualquier acción de marketing disponible en la lista.
 
 ![](assets/consent2.png)
 
@@ -153,7 +153,7 @@ La variable **Canal** y **Acción de marketing necesaria**, definida al configur
 
 ![](assets/consent4.png)
 
-Puede definir una **Acción de marketing adicional** para establecer el tipo de acción personalizada. Esto le permite definir el propósito de la acción personalizada en este recorrido. Además de la acción de marketing necesaria, que suele ser específica de un canal, puede definir una acción de marketing adicional que sea específica de la acción personalizada en este recorrido en particular. Por ejemplo: una comunicación de entrenamiento, una newsletter, una comunicación de fitness, etc. Se aplican la acción de marketing necesaria y la acción de marketing adicional.
+Puede definir una **Acción de marketing adicional** para establecer el tipo de acción personalizada. Esto le permite definir el propósito de la acción personalizada en este recorrido. Además de la acción de marketing necesaria, que suele ser específica de un canal, puede definir una acción de marketing adicional que es específica de la acción personalizada en este recorrido en particular. Por ejemplo: una comunicación de entrenamiento, una Newsletter, una comunicación de fitness, etc. Se aplican la acción de marketing necesaria y la acción de marketing adicional.
 
 ![](assets/consent3.png)
 

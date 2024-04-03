@@ -10,9 +10,9 @@ level: Experienced
 keywords: datos, gobernanza, DULE, etiquetas, etiquetado, plataforma, directiva
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '877'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Para obtener más información sobre el marco de trabajo de control de datos y c
 
 ## Notas importantes {#important-notes}
 
-* El control de datos solo se aplica a acciones personalizadas en los recorridos. No se admiten las acciones de Campaign v7/v8 y Campaign Standard.
+* El control de datos solo se aplica a acciones personalizadas en los recorridos. No se admiten acciones de Campaign v7/v8 y Campaign Standard.
 * Las políticas de gobernanza solo se aplican cuando una acción de marketing (obligatoria o adicional) se establece en el nivel de acción personalizada.
 
 ## Definir políticas de gobernanza {#governance-policies}
@@ -85,7 +85,7 @@ La variable **Canal** y **Acción de marketing necesaria**, definida al configur
 
 ![](assets/action-privacy7.png)
 
-Puede definir una **Acción de marketing adicional** para establecer el tipo de acción personalizada. Esto le permite definir el propósito de la acción personalizada en este recorrido. Además de la acción de marketing necesaria, que suele ser específica de un canal, puede definir una acción de marketing adicional que será específica de la acción personalizada en este recorrido en particular. Por ejemplo: una comunicación de entrenamiento, una newsletter, una comunicación de fitness, etc. Se aplicarán la acción de marketing necesaria y la acción de marketing adicional.
+Puede definir una **Acción de marketing adicional** para establecer el tipo de acción personalizada. Esto le permite definir el propósito de la acción personalizada en este recorrido. Además de la acción de marketing necesaria, que suele ser específica de un canal, puede definir una acción de marketing adicional que será específica de la acción personalizada en este recorrido en particular. Por ejemplo: una comunicación de entrenamiento, una Newsletter, una comunicación de fitness, etc. Se aplicarán la acción de marketing necesaria y la acción de marketing adicional.
 
 En nuestro ejemplo, no utilizamos una acción de marketing adicional.
 
