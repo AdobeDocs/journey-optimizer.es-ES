@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 5a80d7c9b12cb9d354b725b7f83f557fc15e6a90
+source-git-commit: 55391594cc7479edf83b2d2193de42756744f70d
 workflow-type: tm+mt
 source-wordcount: '2617'
 ht-degree: 15%
@@ -260,24 +260,22 @@ El **[!UICONTROL Frecuencia]** permite definir la frecuencia con la que se resta
 
 >[!NOTE]
 >
->El restablecimiento del contador de límite de frecuencia se produce en **12:00 UTC**, en el día que haya definido o en el primer día de la semana/mes, si corresponde. El día de inicio de la semana es **Domingo**.
+>El restablecimiento del contador de límite de frecuencia se produce en **12:00 UTC**, en el día que haya definido o en el primer día de la semana/mes, si corresponde. El día de inicio de la semana es **Domingo**. Cualquier duración que elija no puede superar **2 años** (es decir, el número correspondiente de meses, semanas o días).
 >
->Cualquier duración que elija no puede superar **2 años** (es decir, el número correspondiente de meses, semanas o días).
-
-Después de publicar la oferta, no podrá cambiar el período de tiempo (mensual, semanal o diario) seleccionado para la frecuencia. Puede seguir editando el límite de frecuencia si la oferta tiene el **[!UICONTROL Borrador]** estado y nunca antes se habían publicado con la restricción de frecuencia habilitada.
+>Después de publicar la oferta, no podrá cambiar el período de tiempo (mensual, semanal o diario) seleccionado para la frecuencia. Puede seguir editando el límite de frecuencia si la oferta tiene el **[!UICONTROL Borrador]** estado y nunca antes se habían publicado con la restricción de frecuencia habilitada.
 
 +++ **Lectura obligatoria: límite de frecuencia y API de Edge Decisioning**
 
-* El contador de límite de frecuencia se actualiza y está disponible en una decisión de API de Edge Decisioning en menos de 3 segundos.
+El contador de límite de frecuencia se actualiza y está disponible en una decisión de API de Edge Decisioning en menos de 3 segundos.
 
-* Cada región concentradora está asociada con una o más regiones perimetrales. Las reglas de límite de frecuencia se generan y exportan desde cada región de concentrador a sus regiones de límite asociadas. Siempre que se toma una decisión mediante la API de Edge Decisioning, el sistema aplica las reglas disponibles en la misma región de Edge:
+Cada región concentradora está asociada con una o más regiones perimetrales. Las reglas de límite de frecuencia se generan y exportan desde cada región de concentrador a sus regiones de límite asociadas. Siempre que se toma una decisión mediante la API de Edge Decisioning, el sistema aplica las reglas disponibles en la misma región de Edge:
 
-   * Si hay una regla que coincida, se incrementa el contador de límite de frecuencia del perfil.
-   * De lo contrario, no se crea ningún contador para el perfil y no se aplica la regla de límite de frecuencia. Por lo tanto, el perfil seguirá recibiendo ofertas personalizadas incluso si se supera el umbral de límite.
+* Si hay una regla que coincida, se incrementa el contador de límite de frecuencia del perfil.
+* De lo contrario, no se crea ningún contador para el perfil y no se aplica la regla de límite de frecuencia. Por lo tanto, el perfil seguirá recibiendo ofertas personalizadas incluso si se supera el umbral de límite.
 
-  Por ejemplo, consideremos la región central de su organización como *NLD2* y envía una solicitud de toma de decisiones desde Europa (*IRL1* edge region). En este escenario, la solicitud de toma de decisiones incrementará el contador del perfil, ya que las reglas están disponibles en (Irlanda) *IRL1* región. Sin embargo, si la solicitud de toma de decisiones procede de una región como Japón (*JPN3*), que no es una región fronteriza vinculada a (Países Bajos) *NLD2* región central, no se creará ningún contador y no se aplicarán las reglas de límite de frecuencia.
+Por ejemplo, consideremos la región central de su organización como *NLD2* y envía una solicitud de toma de decisiones desde Europa (*IRL1* edge region). En este escenario, la solicitud de toma de decisiones incrementará el contador del perfil, ya que las reglas están disponibles en (Irlanda) *IRL1* región. Sin embargo, si la solicitud de toma de decisiones procede de una región como Japón (*JPN3*), que no es una región fronteriza vinculada a (Países Bajos) *NLD2* región central, no se creará ningún contador y no se aplicarán las reglas de límite de frecuencia.
 
-  Para obtener más información sobre las regiones centrales y perimetrales asociadas a su organización, póngase en contacto con el representante del Adobe.
+Para obtener más información sobre las regiones centrales y perimetrales asociadas a su organización, póngase en contacto con el representante del Adobe.
 
 +++
 
