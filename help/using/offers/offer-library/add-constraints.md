@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 03e93e6a6652ffbe1cfdea3361e0a0d517cc39d8
+source-git-commit: 5a80d7c9b12cb9d354b725b7f83f557fc15e6a90
 workflow-type: tm+mt
-source-wordcount: '2424'
-ht-degree: 16%
+source-wordcount: '2617'
+ht-degree: 15%
 
 ---
 
@@ -254,24 +254,32 @@ También puede especificar si desea que el límite se aplique a todos los usuari
 >title="Definir la frecuencia de límite"
 >abstract="Puede elegir restablecer el contador de límite de ofertas de forma diaria, semanal o mensual. Tenga en cuenta que después de publicar la oferta con la restricción de frecuencia habilitada, no podrá cambiar la frecuencia que ha sido definida."
 
-El **[!UICONTROL Frecuencia]** permite definir la frecuencia con la que se restablece el recuento de límite. Para ello, defina el periodo de tiempo para el recuento (diario, semanal o mensual) e introduzca el número de días/semanas/meses de su elección.
+El **[!UICONTROL Frecuencia]** permite definir la frecuencia con la que se restablece el recuento de límite. Para ello, defina el periodo de tiempo para el recuento (diario, semanal o mensual) e introduzca el número de días/semanas/meses de su elección. Por ejemplo, si desea que el recuento de límite se restablezca cada 2 semanas, seleccione **[!UICONTROL Semanalmente]** en la lista desplegable correspondiente y escriba **2** en el otro campo.
 
 ![](../assets/offer-capping-frequency.png)
 
-
 >[!NOTE]
 >
->El restablecimiento se produce a las 12:00 UTC, el día que haya definido o el primer día de la semana o del mes, cuando corresponda. El día de inicio de la semana es domingo. Cualquier duración que elija no puede exceder de 2 años (es decir, el número correspondiente de meses, semanas o días).
+>El restablecimiento del contador de límite de frecuencia se produce en **12:00 UTC**, en el día que haya definido o en el primer día de la semana/mes, si corresponde. El día de inicio de la semana es **Domingo**.
 >
->El contador de límite de frecuencia se actualiza y está disponible en una decisión de API de Edge Decisioning en menos de 3 segundos.
+>Cualquier duración que elija no puede superar **2 años** (es decir, el número correspondiente de meses, semanas o días).
 
-Por ejemplo, si desea que el recuento de límite se restablezca cada 2 semanas, seleccione **[!UICONTROL Semanalmente]** en la lista desplegable correspondiente y escriba **2** en el otro campo. El reinicio se realizará cada dos domingos a las 12 p. m. UTC.
+Después de publicar la oferta, no podrá cambiar el período de tiempo (mensual, semanal o diario) seleccionado para la frecuencia. Puede seguir editando el límite de frecuencia si la oferta tiene el **[!UICONTROL Borrador]** estado y nunca antes se habían publicado con la restricción de frecuencia habilitada.
 
->[!CAUTION]
->
->Después de publicar la oferta, no podrá cambiar el período de tiempo (mensual, semanal o diario) seleccionado para la frecuencia.
->
->Puede seguir editando el límite de frecuencia si la oferta tiene el **[!UICONTROL Borrador]** estado y nunca antes se habían publicado con la restricción de frecuencia habilitada.
++++ **Lectura obligatoria: límite de frecuencia y API de Edge Decisioning**
+
+* El contador de límite de frecuencia se actualiza y está disponible en una decisión de API de Edge Decisioning en menos de 3 segundos.
+
+* Cada región concentradora está asociada con una o más regiones perimetrales. Las reglas de límite de frecuencia se generan y exportan desde cada región de concentrador a sus regiones de límite asociadas. Siempre que se toma una decisión mediante la API de Edge Decisioning, el sistema aplica las reglas disponibles en la misma región de Edge:
+
+   * Si hay una regla que coincida, se incrementa el contador de límite de frecuencia del perfil.
+   * De lo contrario, no se crea ningún contador para el perfil y no se aplica la regla de límite de frecuencia. Por lo tanto, el perfil seguirá recibiendo ofertas personalizadas incluso si se supera el umbral de límite.
+
+  Por ejemplo, consideremos la región central de su organización como *NLD2* y envía una solicitud de toma de decisiones desde Europa (*IRL1* edge region). En este escenario, la solicitud de toma de decisiones incrementará el contador del perfil, ya que las reglas están disponibles en (Irlanda) *IRL1* región. Sin embargo, si la solicitud de toma de decisiones procede de una región como Japón (*JPN3*), que no es una región fronteriza vinculada a (Países Bajos) *NLD2* región central, no se creará ningún contador y no se aplicarán las reglas de límite de frecuencia.
+
+  Para obtener más información sobre las regiones centrales y perimetrales asociadas a su organización, póngase en contacto con el representante del Adobe.
+
++++
 
 ### Límite y ubicaciones {#placements}
 
