@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 2ef555bd10d7b8fa32c1324b201d55d2a4b1aec7
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 3%
+source-wordcount: '742'
+ht-degree: 4%
 
 ---
 
@@ -54,7 +54,6 @@ Todo [!DNL Batch Decisioning] Las solicitudes de requieren los siguientes encabe
 * `Content-Type`: `application/json`
 * `x-request-id`: una cadena única que identifica la solicitud.
 * `x-sandbox-name`: Nombre de la zona protegida.
-* `x-sandbox-id`: ID de la zona protegida.
 
 ## Iniciar un proceso por lotes {#start-a-batch-process}
 
@@ -67,18 +66,17 @@ Para iniciar una carga de trabajo para procesar las decisiones por lotes, realic
 **Formato de API**
 
 ```https
-POST {ENDPOINT_PATH}/{CONTAINER_ID}/workloads/decisions
+POST {ENDPOINT_PATH}/workloads/decisions
 ```
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/ode` |
-| `{CONTAINER_ID}` | El contenedor en el que se encuentran las decisiones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/dwm` |
 
 **Solicitud**
 
 ```shell
-curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909c6b93b5a2/workloads/decisions' \
+curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 -H 'x-request-id: f671a589-eb7b-432f-b6b9-23d5b796b4dc' \
 -H 'Content-Type: application/json' \
 -H 'x-api-key: {API_KEY}' \
@@ -120,7 +118,6 @@ Consulte la [Documentación de Gestión de decisiones](../../get-started/startin
 {
     "@id": "47efef25-4bcf-404f-96e2-67c4f784a1f5",
     "xdm:imsOrgId": "9GTO98D5F@AdobeOrg",
-    "xdm:containerId": "0948b1c5-fff8-3b76-ba17-909c6b93b5a2",
     "ode:createDate": 1648078924834,
     "ode:status": "QUEUED"
 }
@@ -141,19 +138,19 @@ Para recuperar información sobre una decisión específica, realice una solicit
 **Formato de API**
 
 ```https
-GET  {ENDPOINT_PATH}/{CONTAINER_ID}/workloads/decisions/{WORKLOAD_ID}
+GET  {ENDPOINT_PATH}/workloads/decisions/{WORKLOAD_ID}
 ```
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/ode` |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/dwm` |
 | `{CONTAINER_ID}` | El contenedor en el que se encuentran las decisiones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{WORKLOAD_ID}` | El UUID generado por la administración de decisiones que identifica una sola carga de trabajo. | `47efef25-4bcf-404f-96e2-67c4f784a1f5` |
 
 **Solicitud**
 
 ```shell
-curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909c6b93b5a2/workloads/decisions/f395ab1f-dfaf-48d4-84c9-199ad6354591' \
+curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1f-dfaf-48d4-84c9-199ad6354591' \
 -H 'x-request-id: 7832a42a-d4e5-413b-98e8-e49bef056436' \
 -H 'Content-Type: application/json' \
 -H 'x-api-key: {API_KEY}' \
@@ -167,9 +164,8 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 
 ```json
 {
-    "@id": "f395ab1f-dfaf-48d4-84c9-199ad6354591",
+   "@id": "f395ab1f-dfaf-48d4-84c9-199ad6354591",
     "xdm:imsOrgId": "{IMS_ORG}",
-    "xdm:containerId": "0948b1c5-fff8-3b76-ba17-909c6b93b5a2",
     "ode:createDate": 1648076994405,
     "ode:status": "COMPLETED"
 }
