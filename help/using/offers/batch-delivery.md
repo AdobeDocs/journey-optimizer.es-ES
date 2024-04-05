@@ -100,7 +100,7 @@ El tamaño de la audiencia es el factor principal que afecta al tiempo de decisi
 
 Con el límite de frecuencia habilitado para las ofertas aptas:
 
-| Tamaño de audiencia | Tiempo de procesamiento de extremo a extremo |
+| Tamaño de público | Tiempo de procesamiento de extremo a extremo |
 |--------------|----------------------------|
 | 10 000 perfiles o menos | 7 minutos |
 | 1 millón de perfiles o menos | 30 minutos |
@@ -108,7 +108,7 @@ Con el límite de frecuencia habilitado para las ofertas aptas:
 
 Sin límite de frecuencia para ofertas aptas:
 
-| Tamaño de audiencia | Tiempo de procesamiento de extremo a extremo |
+| Tamaño de público | Tiempo de procesamiento de extremo a extremo |
 |--------------|----------------------------|
 | 10 000 perfiles o menos | 6 minutos |
 | 1 millón de perfiles o menos | 8 minutos |

@@ -92,7 +92,7 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 
 1. Para cifrar el archivo, copie y pegue la clave de cifrado en **[!UICONTROL Clave de cifrado PGP/GPG]** field.
 
-1. Seleccionar **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se crea con la variable **[!UICONTROL Activo]** estado. Ahora está listo para utilizarse en un [superficie de correo directo](#direct-mail-surface).
+1. Selecciona **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se crea con la variable **[!UICONTROL Activo]** estado. Ahora está listo para utilizarse en un [superficie de correo directo](#direct-mail-surface).
 
    >[!NOTE]
    >

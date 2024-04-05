@@ -33,7 +33,7 @@ El uso de los servicios de mensajería de texto está sujeto a términos y condi
 
 >[!CAUTION]
 >
->Para acceder y editar subdominios SMS, debe tener los siguientes **[!UICONTROL Administrar subdominios de SMS]** en la zona protegida de producción. Más información sobre los permisos en [esta página](../administration/high-low-permissions.md#administration-permissions).
+>Para acceder y editar subdominios SMS, debe tener los siguientes **[!UICONTROL Administrar subdominios de SMS]** en la zona protegida de producción. Obtenga más información acerca de los permisos en [esta página](../administration/high-low-permissions.md#administration-permissions).
 >
 
 ## Creación de nuevas credenciales de API {#create-api}

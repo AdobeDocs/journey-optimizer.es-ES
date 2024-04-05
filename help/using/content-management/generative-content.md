@@ -14,7 +14,7 @@ exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
 source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 3%
 
 **Tabla de contenido**
 
-* [Introducción al asistente de IA](gs-generative.md)
+* [Introducción al Asistente de IA](gs-generative.md)
 * **[Generación de contenido con el asistente de IA](generative-content.md)**
-* [Generación de imágenes con el asistente de IA](generative-image.md)
+* [Generación de imágenes con el Asistente de IA](generative-image.md)
 
 >[!ENDSHADEBOX]
 

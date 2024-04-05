@@ -6,7 +6,8 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
+source-git-commit: 61bd9ce680c56b0eb8737804fb013dbad430f1cc
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 5%

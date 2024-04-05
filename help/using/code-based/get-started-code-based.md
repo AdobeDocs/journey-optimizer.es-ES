@@ -9,7 +9,7 @@ exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
 workflow-type: tm+mt
 source-wordcount: '1055'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Con la funcionalidad de la **experiencia basada en código** puede definir las e
 <img alt="Validación" src="../assets/do-not-localize/web-prerequisites.jpg">
 </a>
 <div>
-<a href="code-based-prerequisites.md"><strong>Protecciones y requisitos previos</strong></a>
+<a href="code-based-prerequisites.md"><strong>Mecanismos de protección y limitaciones</strong></a>
 </div>
 <p>
 </td>
@@ -135,18 +135,18 @@ Es decir, una superficie puede verse como un contenedor en cualquier nivel de je
 * También puede ser una superficie comodín que coincida con una variedad de definiciones de superficie de cliente (por ejemplo, una ubicación de imagen principal en cada página del sitio web podría traducirse en un URI de superficie como: web://mydomain.com/*#hero_image).
 
 Básicamente, un URI de superficie está compuesto por varias secciones:
-1. **Tipo**: web, aplicación móvil, atm, quiosco, tvcd, servicio, etc.
-1. **Propiedad**: URL de página o paquete de aplicación
+1. **Tipo**: web, aplicación móvil, atm, quiosco, tvcd, servicio etc.
+1. **Propiedad**: URL de página o paquete de aplicaciones
 1. **Contenedor**: ubicación en la actividad de la página/aplicación
 
-En las tablas siguientes se muestran algunos ejemplos de definiciones de URI de superficie para varios dispositivos.
+En la tabla siguiente se muestran algunos ejemplos de definiciones de URI de superficie para varios dispositivos.
 
-**Web y móviles**
+**Web y móvil**
 
 | Tipo | URI | Descripción |
 | --------- | ----------- | ------- | 
 | Web | `web://domain.com/path/page.html#element` | Representa un elemento individual dentro de una página específica de un dominio específico, donde un elemento puede ser una etiqueta como en los ejemplos siguientes: hero_banner, top_nav, menu, footer, etc. |
-| Aplicación iOS | `mobileapp://com.vendor.bundle/activity#element` | Representa un elemento específico dentro de una actividad de aplicación nativa, como un botón u otro elemento de vista. |
+| Aplicación iOS | `mobileapp://com.vendor.bundle/activity#element` | Representa un elemento específico dentro de una actividad, como un botón u otro elemento de vista. |
 | Aplicación de Android | `mobileapp://com.vendor.bundle/#element` | Representa un elemento específico dentro de una aplicación nativa. |
 
 **Otros tipos de dispositivos**
@@ -154,8 +154,8 @@ En las tablas siguientes se muestran algunos ejemplos de definiciones de URI de 
 | Tipo | URI | Descripción |
 | --------- | ----------- | ------- | 
 | Escritorio | `desktop://com.vendor.bundle/#element` | Representa un elemento específico dentro de una aplicación, como un botón, un menú, un titular principal, etc. |
-| Aplicación de TV | `tvcd://com.vendor.bundle/#element` | Representa un elemento específico dentro de una aplicación de dispositivo conectada a Smart TV o TV: ID de paquete. |
-| Service | `service://servicename/#element` | Representa un proceso del lado del servidor u otra entidad manual. |
+| Aplicación de TV | `tvcd://com.vendor.bundle/#element` | Representa un elemento específico en una TV inteligente o TV conectado a una aplicación de dispositivo: ID de paquete. |
+| Servicio | `service://servicename/#element` | Representa un proceso del lado del servidor u otra entidad manual. |
 | Quiosco | `kiosk://location/screen#element` | Ejemplo de posibles tipos de superficie adicionales que se pueden añadir fácilmente. |
 | ATM | `atm://location/screen#element` | Ejemplo de posibles tipos de superficie adicionales que se pueden añadir fácilmente. |
 
@@ -164,4 +164,4 @@ En las tablas siguientes se muestran algunos ejemplos de definiciones de URI de 
 | Tipo | URI | Descripción |
 | --------- | ----------- | ------- | 
 | Web comodín | `wildcard:web://domain.com/*#element` | Superficie comodín: representa un elemento individual en cada una de las páginas bajo un dominio específico. |
-| Web comodín | `wildcard:web://*domain.com/*#element` | Superficie comodín: representa un elemento individual en cada una de las páginas de todos los dominios que terminan con &quot;domain.com&quot;. |
+| Web comodín | `wildcard:web://*domain.com/*#element` | Superficie comodín: representa un elemento individual en cada una de las páginas bajo todos los dominios que acaba con &quot;domain.com&quot;. |

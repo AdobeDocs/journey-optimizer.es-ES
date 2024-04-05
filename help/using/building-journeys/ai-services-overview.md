@@ -7,10 +7,11 @@ feature: Journeys, Integrations
 role: User
 level: Intermediate
 keywords: artificial, IA, inteligente, recorrido, servicio
-source-git-commit: c82e0a4f44cda4afeb88f7dd8e645e967e4a878f
+exl-id: 20da09e1-0611-4d27-a589-30552011e06c
+source-git-commit: 61bd9ce680c56b0eb8737804fb013dbad430f1cc
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -22,11 +23,10 @@ La integración con **[!DNL Adobe Intelligent Services]** le permite aprovechar 
 
 Integración entre [!DNL Journey Optimizer] y [!DNL Intelligent Services] le permite aprovechar las predicciones de los clientes.
 
-La inteligencia artificial aplicada al cliente forma parte de [!DNL Adobe Intelligent Services]. Ayuda a predecir qué es lo más probable que haga un cliente. Consulte la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html){target="_blank"}.
+La inteligencia artificial aplicada al cliente forma parte de [!DNL Adobe Intelligent Services]. Ayuda a predecir qué es lo más probable que haga un cliente. Consulte la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=es){target="_blank"}.
 
 La inteligencia artificial aplicada al cliente permite a las marcas crear puntuaciones de aprendizaje automático de pérdida o conversión que estarán disponibles como atributos de perfil en perfiles de Adobe Experience Platform (perfil del cliente en tiempo real).
 
 Como resultado, se pueden utilizar como cualquier otro atributo de perfil en las condiciones (para tomar las mejores decisiones), acciones o creación de segmentos de Journey Optimizer.
 
 ![](assets/customer-ai.png)
-

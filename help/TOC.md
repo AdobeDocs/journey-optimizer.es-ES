@@ -245,7 +245,7 @@ ht-degree: 99%
       + [Creación de aplicaciones de una sola página](using/web/web-spa.md)
 + Experiencia basada en código {#code-based-experience}
    + [Introducción al canal basado en código](using/code-based/get-started-code-based.md)
-   + [Protecciones y requisitos previos](using/code-based/code-based-prerequisites.md)
+   + [Mecanismos de protección y requisitos previos](using/code-based/code-based-prerequisites.md)
    + [Ejemplos de métodos de implementación](using/code-based/code-based-implementation-samples.md)
    + [Creación de experiencias basadas en código](using/code-based/create-code-based.md)
 + Páginas de aterrizaje {#landing-pages}

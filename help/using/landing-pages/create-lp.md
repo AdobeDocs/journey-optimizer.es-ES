@@ -16,7 +16,7 @@ ht-degree: 21%
 
 ---
 
-# Creación y publicación de páginas de aterrizaje {#create-lp}
+# Creación y publicación de páginas de destino {#create-lp}
 
 >[!CAUTION]
 >

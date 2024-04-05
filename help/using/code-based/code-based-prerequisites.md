@@ -9,11 +9,11 @@ exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Protecciones y requisitos previos {#web-prerequisites}
+# Mecanismos de protección y requisitos previos {#web-prerequisites}
 
 Para poder usar acciones de experiencia basadas en código en [!DNL Journey Optimizer] y enviar una carga útil de contenido de código que puedan utilizar las aplicaciones, siga los requisitos previos siguientes:
 

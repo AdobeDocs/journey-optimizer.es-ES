@@ -83,7 +83,7 @@ Para asignar etiquetas de uso de datos personalizadas o principales a los objeto
 
 1. Desde el **[!UICONTROL Administrar acceso]** , seleccione las etiquetas de uso de datos personalizadas o principales para administrar el acceso a este objeto.
 
-   Para obtener más información sobre las etiquetas de uso de datos principales, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html).
+   Para obtener más información sobre las etiquetas de uso de datos principales, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=es).
 
    ![](assets/olac_4.png)
 

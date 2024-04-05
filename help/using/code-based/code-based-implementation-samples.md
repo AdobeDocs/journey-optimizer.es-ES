@@ -18,7 +18,7 @@ ht-degree: 3%
 La experiencia basada en código admite cualquier tipo de implementación del cliente. En esta página puede encontrar ejemplos para cada método de implementación:
 
 * [Lado del cliente](#client-side-implementation)
-* [Lado del servidor](#server-side-implementation)
+* [Del lado del servidor](#server-side-implementation)
 * [Híbrido](#hybrid-implementation)
 
 >[!IMPORTANT]
