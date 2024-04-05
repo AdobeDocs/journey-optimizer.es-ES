@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
+source-git-commit: 90b08388d3b43ad8d8cfc7efec119217f531860f
 workflow-type: tm+mt
-source-wordcount: '4368'
-ht-degree: 27%
+source-wordcount: '4412'
+ht-degree: 26%
 
 ---
 
@@ -54,6 +54,8 @@ De tu recorrido **[!UICONTROL Informe global]**, el **[!UICONTROL Recorrido]** l
 ![](assets/journey_performance.png)
 
 El **[!UICONTROL Rendimiento de recorrido]** Este widget permite rastrear visualmente la trayectoria de los perfiles de destino a medida que navegan por el recorrido.
+
+Tenga en cuenta que el recuento de perfiles de un nodo solo se actualiza una vez que el perfil lo ha completado, no al introducirlo. Por ejemplo, un perfil en una **Esperar** El nodo solo se cuenta una vez que se alcanza la fecha especificada y el perfil se ha salido del nodo.
 
 ### Estadísticas del recorrido {#journey-statistics}
 
