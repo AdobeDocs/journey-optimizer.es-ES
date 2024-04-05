@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, subdominios, configuración
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: bfb9e797757a96b1e39736f532ee9308f87bb71f
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 21%
+source-wordcount: '894'
+ht-degree: 20%
 
 ---
 
@@ -105,6 +105,10 @@ Para utilizar un subdominio que ya se haya delegado al Adobe, siga los pasos a c
 
 Para configurar un nuevo subdominio, siga los pasos a continuación.
 
+>[!NOTE]
+>
+>De forma predeterminada, [!DNL Journey Optimizer] permite delegar hasta 10 subdominios en total (que abarcan tanto el correo electrónico como los canales web). Sin embargo, según el contrato de licencia, puede delegar hasta 100 subdominios. Póngase en contacto con el contacto de Adobe para obtener más información sobre el número de subdominios a los que está autorizado.
+
 1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Canales]** menú, luego seleccione **[!UICONTROL configuración web]** > **[!UICONTROL subdominios web]**.
 
 1. Clic **[!UICONTROL Configuración del subdominio]**.
@@ -152,7 +156,6 @@ Para configurar un nuevo subdominio, siga los pasos a continuación.
 1. Una vez realizadas las comprobaciones correctamente, el subdominio obtiene el **[!UICONTROL Correcto]** estado. Está listo para utilizarse para crear superficies de canal web.
 
    Observe que el subdominio se marcará como **[!UICONTROL Error]** si no puede crear el registro de validación en la solución de alojamiento.
-
 
 <!--
 Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
