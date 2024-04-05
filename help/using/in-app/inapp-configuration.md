@@ -1,19 +1,29 @@
 ---
-title: Requisitos previos del canal en la aplicación
+title: Requisitos previos y configuración del canal en la aplicación
 description: Aprenda a configurar su entorno para enviar mensajes en la aplicación con Journey Optimizer
 role: Admin
 feature: In App
 level: Intermediate
 keywords: en la aplicación, mensaje, configuración, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
+source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 6%
+source-wordcount: '819'
+ht-degree: 10%
 
 ---
 
-# Requisitos previos del canal en la aplicación {#inapp-configuration}
+# Requisitos previos y configuración {#inapp-configuration}
+
+Para poder enviar recorridos y campañas de mensajes en la aplicación en [!DNL Journey Optimizer], debe seguir los siguientes pasos de configuración.
+
+1. Asegúrese de tener los permisos correctos en las campañas de Journey Optimizer antes de empezar, incluso si planea usar únicamente mensajes en la aplicación en los recorridos. Los permisos de Campaign siguen siendo necesarios. [Más información](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+1. Habilite Adobe Journey Optimizer en el flujo de datos de recopilación de datos de Adobe Experience Platform y compruebe su política de combinación predeterminada en Adobe Experience Platform, tal como se detalla en la [Requisitos previos de envío](#delivery-prerequisites) más abajo.
+1. Cree y configure una superficie de aplicación en la recopilación de datos de Adobe Experience Platform, como se detalla en [esta sección](#channel-prerequisites). Se debe conceder un permiso específico para acceder a **Superficies de aplicación** menú en Recopilación de datos de Adobe Experience Platform. Obtenga más información en [este vídeo](#video).
+1. Si utiliza experimentos de contenido, asegúrese de seguir los requisitos enumerados en [esta sección](#experiment-prerequisite).
+
+Cuando haya finalizado, podrá crear, configurar y enviar su primer mensaje en la aplicación. Obtenga información sobre cómo enviar mensajes en [esta sección](create-in-app.md).
+
 
 ## Requisitos previos de envío {#delivery-prerequisites}
 
@@ -127,13 +137,11 @@ Si es usted **no** utilizando los siguientes elementos predefinidos [grupos de c
 
 ## Vídeotutoriales{#video}
 
-* El siguiente vídeo muestra cómo asignar el **Administrar configuración de aplicación** permiso para acceder al menú Superficies de la aplicación.
+El siguiente vídeo muestra cómo asignar el **Administrar configuración de aplicación** permiso para acceder al menú Superficies de la aplicación.
 
-  +++Consulte el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
+>[!VIDEO](https://video.tv.adobe.com/v/3421607)
 
-+++
 
 **Temas relacionados:**
 
