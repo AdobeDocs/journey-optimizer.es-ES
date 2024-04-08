@@ -11,7 +11,8 @@ keywords: configuración, correo electrónico, configuración, subdominio
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: e63823dc2f901b870f11b0478e682e2af61b5b98
+exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
+source-git-commit: 94d39089d94b4fe42eb3fb95603426012b104517
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 0%
@@ -81,7 +82,7 @@ Para definir subdominios dinámicos en una superficie de canal de correo electr�
 
    ![](assets/surface-email-add-dynamic-subdomain.png)
 
-<!--Select the [IP pool](../configuration/ip-pools.md) to associate with the surface. [Learn more](email-settings.md#subdomains-and-ip-pools)-->
+   <!--Select the [IP pool](../configuration/ip-pools.md) to associate with the surface. [Learn more](email-settings.md#subdomains-and-ip-pools)-->
 
 1. Definir todos los demás [configuración de correo electrónico](email-settings.md) y [enviar](../configuration/channel-surfaces.md#create-channel-surface) su superficie.
 
@@ -154,7 +155,7 @@ Al utilizar una superficie con configuración personalizada en una campaña o su
 
    ![](assets/campaign-view-surface-details.png)
 
-1. El **[!UICONTROL Configuración de envío]** se muestra la ventana. Se puede ver toda la configuración de la superficie, incluidos los subdominios dinámicos y los parámetros de encabezado personalizados.
+1. El **[!UICONTROL Configuración de envío]** se muestra la ventana. Se pueden ver todos los ajustes de superficie, incluidos los subdominios dinámicos y los parámetros de cabecera personalizados.
 
    >[!NOTE]
    >
@@ -163,4 +164,3 @@ Al utilizar una superficie con configuración personalizada en una campaña o su
 1. Seleccionar **[!UICONTROL Expandir]** para mostrar los detalles de los subdominios dinámicos.
 
    ![](assets/campaign-delivery-settings-subdomain-expand.png)
-
