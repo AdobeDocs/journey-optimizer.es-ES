@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '971'
 ht-degree: 2%
 
 ---
@@ -128,7 +128,7 @@ Para activar la creación de perfiles en la ejecución de la campaña, cambie el
 
 >[!NOTE]
 >
->Los perfiles desconocidos se crean en **Conjunto de datos del perfil de mensajería interactiva AJO** , en tres áreas de nombres predeterminadas (correo electrónico, teléfono y ECID) respectivamente para cada canal saliente (correo electrónico, SMS y push).
+>Los perfiles desconocidos se crean en **Conjunto de datos del perfil de mensajería interactiva AJO** , en tres áreas de nombres predeterminadas (correo electrónico, teléfono y ECID) respectivamente para cada canal saliente (correo electrónico, SMS y push). Sin embargo, si utiliza un área de nombres personalizada, la identidad se crea con el mismo área de nombres personalizada.
 
 ## Vídeo explicativo {#video}
 
