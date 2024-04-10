@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
 workflow-type: tm+mt
 source-wordcount: '5140'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 * Se han detallado los pasos de configuración para la mensajería en la aplicación. [Más información](../in-app/inapp-configuration.md)
 * Documentación para [API de offer decisioning](../offers/api-reference/offer-delivery-api/decisioning-api.md) y [API de decisiones por lotes](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) se han actualizado.
-* Se ha añadido información en la documentación de Administración de decisiones sobre la administración de regiones perimetrales y centrales al utilizar el límite de frecuencia con la API de Edge Decisioning. [Más información](../offers/offer-library/add-constraints.md#frequency-capping)
+* Se ha añadido información en la documentación de gestión de decisiones sobre la gestión de regiones periféricas y centrales cuando se utiliza la restricción de frecuencia con la API de Edge Decisioning. [Más información](../offers/offer-library/add-constraints.md#frequency-capping)
 * Se ha añadido información sobre la creación de identidades con áreas de nombres personalizadas al trabajar con campañas activadas por API. [Más información](../campaigns/api-triggered-campaigns.md)
 
 ## Marzo de 2024 {#march-2024}
