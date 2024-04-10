@@ -8,9 +8,9 @@ level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Utilice Journey Optimizer para crear notificaciones en la aplicación y configur
 
 >[!AVAILABILITY]
 >
->El canal en la aplicación no está disponible para organizaciones que hayan adquirido el Adobe **Healthcare Shield** y **Escudo de seguridad y privacidad** ofertas de complementos.
+>El canal en la aplicación no está disponible para las organizaciones que han adquirido las ofertas complementarias **Healthcare Shield** y **Privacy and Security Shield** de Adobe.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -31,7 +31,7 @@ Utilice Journey Optimizer para crear notificaciones en la aplicación y configur
 <img alt="Validación" src="../assets/do-not-localize/inapp-config.jpg">
 </a>
 <div>
-<a href="inapp-configuration.md"><strong>Configuración del canal en la aplicación</strong></a>
+<a href="inapp-configuration.md"><strong>Configurar el canal en la aplicación</strong></a>
 </div>
 <p>
 </td>
@@ -39,7 +39,7 @@ Utilice Journey Optimizer para crear notificaciones en la aplicación y configur
 <a href="create-in-app.md">
 <img alt="Posible cliente" src="../assets/do-not-localize/inapp-create.jpeg">
 </a>
-<div><a href="create-in-app.md"><strong>Creación de un mensaje en la aplicación</strong>
+<div><a href="create-in-app.md"><strong>Creación de un mensaje en la aplicación</strong> 
 </div>
 <p>
 </td>
