@@ -83,7 +83,7 @@ Puede hacer clic en el nombre de una lista semilla para editarla. <!--Use the **
 >id="ajo_seed_list_details"
 >title="Definir una lista semilla"
 >abstract="Utilice una lista semilla para añadir automáticamente direcciones internas específicas a su público de entrega con fines de garantía. Las listas semilla le permiten monitorizar las copias de los mensajes enviados para asegurarse de que todos los elementos de visualización son correctos y proteger su lista de campaña de correo. Actualmente, esta función solo se aplica al canal de correo electrónico."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list?lang=es" text="¿Qué son las listas semilla?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=es#use-seed-list" text="¿Qué son las listas semilla?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
