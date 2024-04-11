@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
+source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
 workflow-type: tm+mt
-source-wordcount: '1983'
+source-wordcount: '2005'
 ht-degree: 16%
 
 ---
@@ -146,6 +146,11 @@ Estos son los pasos principales para enviar mensajes a través de recorridos:
 >id="ajo_journey_properties"
 >title="Propiedades del recorrido"
 >abstract="Esta sección muestra las propiedades del recorrido. De forma predeterminada, los parámetros de solo lectura están ocultos. La configuración disponible depende del estado del recorrido, de los permisos y de la configuración del producto."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_exit_criterias"
+>title="criterios de salida de recorrido"
+>abstract="Esta sección muestra las opciones de criterios de salida. Puede crear una o varias reglas de criterios de salida para el recorrido."
 
 Haga clic en el recorrido de lápiz, junto al nombre, para acceder a sus propiedades.
 
