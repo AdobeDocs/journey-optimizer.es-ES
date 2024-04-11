@@ -10,8 +10,7 @@ level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 hide: true
 hidefromtoc: true
-exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 31bc5a42897d19871737b1d07e1337b888f29461
+source-git-commit: f780ce38be21a53e5fbaba1cf373bdd9db9d07de
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 85%
