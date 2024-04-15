@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 75dcd6d4a36b09809cdf4db3a0ae3ba3a1cb35b5
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '783'
 ht-degree: 3%
 
 ---
@@ -27,9 +27,17 @@ La experiencia basada en código admite cualquier tipo de implementación del cl
 
 ## Implementación del lado del cliente {#client-side-implementation}
 
-Si tiene una implementación del lado del cliente, puede utilizar uno de los SDK de cliente de AEP: SDK web de AEP o SDK móvil de AEP. Los pasos siguientes describen el proceso de recuperar el contenido publicado en Edge por las campañas de experiencia basadas en código en una implementación de SDK web de muestra y mostrar el contenido personalizado.
+Si tiene una implementación del lado del cliente, puede utilizar uno de los SDK de cliente de AEP: SDK web de AEP o SDK móvil de AEP.
 
-### Funcionamiento
+* Los pasos [abajo](#client-side-how) describa el proceso de obtención del contenido publicado en edge por las campañas de experiencia basadas en código en un ejemplo **SDK web** y mostrar el contenido personalizado.
+
+* Los pasos para implementar un canal basado en código mediante **Mobile SDK** se describen en [este tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+
+  >[!NOTE]
+  >
+  >Hay implementaciones de muestra para casos de uso móviles disponibles para [aplicación de iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} and [Android app](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
+
+### Cómo funciona: SDK web {#client-side-how}
 
 1. [SDK web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es){target="_blank"} se incluye en la página.
 
@@ -48,61 +56,61 @@ Si tiene una implementación del lado del cliente, puede utilizar uno de los SDK
 
 1. Para las campañas de experiencia basadas en código, los eventos de visualización deben enviarse manualmente para indicar cuándo se ha mostrado el contenido. Esto se realiza mediante la variable `sendEvent` comando.
 
-```javascript
-function sendDisplayEvent(decision) {
-  const { id, scope, scopeDetails = {} } = decision;
-
-  alloy("sendEvent", {
-
-    xdm: {
-      eventType: "decisioning.propositionDisplay",
-      _experience: {
-        decisioning: {
-          propositions: [
-            {
-              id: id,
-              scope: scope,
-              scopeDetails: scopeDetails,
-            },
-          ],
-        },
-      },
-    },
-  });
-}
-```
+   ```javascript
+   function sendDisplayEvent(decision) {
+     const { id, scope, scopeDetails = {} } = decision;
+   
+     alloy("sendEvent", {
+   
+       xdm: {
+         eventType: "decisioning.propositionDisplay",
+         _experience: {
+           decisioning: {
+             propositions: [
+               {
+                 id: id,
+                 scope: scope,
+                 scopeDetails: scopeDetails,
+               },
+             ],
+           },
+         },
+       },
+     });
+   }
+   ```
 
 1. Para las campañas de experiencia basadas en código, los eventos de interacción deben enviarse manualmente para indicar cuándo un usuario ha interactuado con el contenido. Esto se realiza mediante la variable `sendEvent` comando.
 
-```javascript
-function sendInteractEvent(label, proposition) {
-  const { id, scope, scopeDetails = {} } = proposition;
-
-  alloy("sendEvent", {
-    
-    xdm: {
-      eventType: "decisioning.propositionInteract",
-      _experience: {
-        decisioning: {
-          propositions: [
-            {
-              id: id,
-              scope: scope,
-              scopeDetails: scopeDetails,
-            },
-          ],
-          propositionEventType: {
-            interact: 1
-          },
-          propositionAction: {
-            label: label
-          },
-        },
-      },
-    },
-  });
-}
-```
+   ```javascript
+   function sendInteractEvent(label, proposition) {
+     const { id, scope, scopeDetails = {} } = proposition;
+   
+     alloy("sendEvent", {
+   
+       xdm: {
+         eventType: "decisioning.propositionInteract",
+         _experience: {
+           decisioning: {
+             propositions: [
+               {
+                 id: id,
+                 scope: scope,
+                 scopeDetails: scopeDetails,
+               },
+             ],
+             propositionEventType: {
+               interact: 1
+             },
+             propositionAction: {
+               label: label
+             },
+           },
+         },
+       },
+     });
+   }
+   ```
 
 ### Observaciones clave
 
@@ -130,7 +138,9 @@ Las solicitudes a la API de Adobe Experience Platform son necesarias para obtene
 
 ## Implementación del lado del servidor {#server-side-implementation}
 
-Si tiene una implementación del lado del servidor, puede utilizar una de la API de red de AEP Edge. Los pasos siguientes describen el proceso de recuperar el contenido publicado en Edge por las campañas de experiencia basadas en código en una implementación de API de red perimetral de ejemplo para una página web y mostrar el contenido personalizado.
+Si tiene una implementación del lado del servidor, puede utilizar una de la API de red de AEP Edge.
+
+Los pasos siguientes describen el proceso de recuperar el contenido publicado en Edge por las campañas de experiencia basadas en código en una implementación de API de red perimetral de ejemplo para una página web y mostrar el contenido personalizado.
 
 ### Funcionamiento
 
