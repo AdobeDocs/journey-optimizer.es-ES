@@ -156,7 +156,7 @@ En esta sección se detallan las distintas formas de desplazarse por el diseñad
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
->title="Usar el modo de exploración"
+>title="Usar el modo Examinar"
 >abstract="Desde este modo, puede desplazarse a la página exacta desde la superficie seleccionada que desee personalizar."
 
 Puede intercambiar desde el valor predeterminado **[!UICONTROL Diseño]** al modo **[!UICONTROL Examinar]** mediante el botón dedicado.
