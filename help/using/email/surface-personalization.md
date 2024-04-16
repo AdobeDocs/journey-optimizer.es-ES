@@ -15,7 +15,7 @@ exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 94d39089d94b4fe42eb3fb95603426012b104517
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -27,21 +27,21 @@ Para obtener una mayor flexibilidad y control sobre la configuración de correo 
 >
 >Actualmente, esta funcionalidad está disponible como una versión beta para seleccionar solo usuarios. <!--To join the beta program, contact Adobe Customer Care.-->
 
-## Adición de subdominios dinámicos {#dynamic-subdomains}
+## Añadir subdominios dinámicos {#dynamic-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
 >title="Personalización no disponible"
->abstract="Esta superficie se creó sin atributos de personalización. Consulte la documentación para ver los pasos que debe seguir si es necesaria la personalización."
+>abstract="Esta superficie se ha creado sin ningún atributo de personalización. Consulte la documentación para ver los pasos que debe seguir en caso de que sea necesaria la personalización."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
->title="Habilitar subdominios dinámicos"
->abstract="Al crear una superficie de correo electrónico, puede configurar subdominios dinámicos basados en condiciones que defina con el Editor de expresiones. Puede añadir hasta 50 subdominios dinámicos."
+>title="Habilitación de subdominios dinámicos"
+>abstract="Al crear una superficie de correo electrónico, puede configurar subdominios dinámicos basados en condiciones que defina con el editor de expresiones. Se pueden añadir hasta 50 subdominios dinámicos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
->title="Algunos subdominios pueden no estar disponibles"
+>title="Algunos subdominios podrían no estar disponibles"
 >abstract="Algunos subdominios no están disponibles actualmente para su selección debido a que está pendiente el registro del bucle de comentarios. Este proceso puede tardar hasta 10 días hábiles. Una vez finalizado, puede elegir entre todos los subdominios disponibles."
 
 Al crear una superficie de correo electrónico, puede configurar subdominios dinámicos basados en condiciones específicas.
