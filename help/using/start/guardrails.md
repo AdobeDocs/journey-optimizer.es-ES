@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2029'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 
 De forma predeterminada, [!DNL Journey Optimizer] permite delegar hasta 10 subdominios en total (que abarcan tanto el correo electrónico como los canales web).
 
-Sin embargo, según el contrato de licencia, puede delegar hasta 100 subdominios. Póngase en contacto con el contacto de Adobe para obtener más información sobre el número de subdominios a los que está autorizado.
+Sin embargo, según el contrato de licencia, puede delegar hasta 100 subdominios. Póngase en contacto con la persona de contacto de Adobe para obtener más información sobre el número de subdominios a los que tiene derecho.
 
 ## Protecciones de fragmentos {#fragments-guardrails}
 
