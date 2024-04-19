@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
 workflow-type: tm+mt
 source-wordcount: '2005'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -149,8 +149,8 @@ Estos son los pasos principales para enviar mensajes a través de recorridos:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
->title="criterios de salida de recorrido"
->abstract="Esta sección muestra las opciones de criterios de salida. Puede crear una o varias reglas de criterios de salida para el recorrido."
+>title="Criterios de salida del recorrido"
+>abstract="En esta sección se muestran las opciones de criterios de salida. Puede crear una o varias reglas de criterios de salida para el recorrido."
 
 Haga clic en el recorrido de lápiz, junto al nombre, para acceder a sus propiedades.
 
