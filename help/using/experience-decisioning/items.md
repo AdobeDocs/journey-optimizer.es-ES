@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 50d3be8fb8ae04e1cab747f6ba4b1024c5e3ec97
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 26%
+source-wordcount: '1039'
+ht-degree: 25%
 
 ---
 
@@ -67,6 +67,7 @@ Para crear un elemento de decisión, siga estos pasos:
    1. Proporcione un nombre y una descripción.
    1. Especifique las fechas de inicio y finalización. El motor de decisión solo considerará el elemento en estas fechas.
    1. Configure las variables **[!UICONTROL Prioridad]** del elemento de decisión en comparación con otros, si un perfil cumple los requisitos para varios elementos. Una prioridad mayor otorga al elemento prioridad sobre otros.
+   1. El **Etiquetas** permite asignar etiquetas unificadas de Adobe Experience Platform a los elementos de decisión. Esto le permite clasificarlos fácilmente y mejorar la búsqueda. [Descubra cómo trabajar con campañas](../start/search-filter-categorize.md#tags)
 
    ![](assets/item-attributes.png)
 
