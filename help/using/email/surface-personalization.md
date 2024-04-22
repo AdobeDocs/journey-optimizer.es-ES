@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuración de subdominios dinámicos de correo electrónico
-description: Obtenga información sobre cómo configurar subdominios dinámicos en el nivel de superficie de canal de correo electrónico
+title: Personalizar configuración de superficie de correo electrónico
+description: Aprenda a definir valores personalizados para su configuración en el nivel de superficie de canal de correo electrónico
 feature: Surface, Subdomains
 topic: Administration
 role: Admin
@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 94d39089d94b4fe42eb3fb95603426012b104517
+source-git-commit: 513fddf21eaf7958df45d97f028103519c77ec44
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '818'
 ht-degree: 13%
 
 ---
