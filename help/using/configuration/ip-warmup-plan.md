@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
+source-git-commit: c7dca8dd0d2761b204636020b427d76b617da26c
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1600'
 ht-degree: 8%
 
 ---
@@ -48,7 +48,7 @@ Para asignar el permiso correspondiente a un elemento específico **[!UICONTROL 
 
 1. Arrastre y suelte el **[!UICONTROL Configuraciones de calentamiento de IP]** recurso para asignar permiso.
 
-1. Desde el **[!UICONTROL Configuraciones de calentamiento de IP]** menú desplegable de recursos, seleccione los permisos que necesita el usuario.
+1. Desde el **[!UICONTROL Configuraciones de calentamiento de IP]** menú desplegable de recursos, seleccione los permisos que necesita el usuario: **[!UICONTROL Ver planes de calentamiento de IP]**, **[!UICONTROL Administrar planes de calentamiento de IP]**, y/o **[!UICONTROL Ver informes de calentamiento de IP]**. Puede seleccionarlos todos a la vez si es necesario.
 
    ![](assets/ip_permissions_2.png)
 
