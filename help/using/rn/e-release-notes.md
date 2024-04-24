@@ -8,9 +8,9 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: f11f935f6c6576af0b7c653a37b3dbf8e061df0d
+source-git-commit: 409aaf7f8458a118e0f8d3aae481c2af047b3251
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '546'
 ht-degree: 32%
 
 ---
@@ -182,6 +182,7 @@ Desde la versión beta a LA, se han realizado las siguientes mejoras:
 * Ya está disponible un nuevo permiso para &quot;Administrar decisiones de experiencia&quot; para el recurso Administración de decisiones. Permite administrar derechos relacionados con Experience Decisioning.
 * Ahora puede agregar varias reglas de límite para una oferta. De este modo, aumenta el nivel de control sobre la forma en que se envían las ofertas.
 * Ahora puede agregar varias reglas de límite para un elemento de decisión determinado en Experience Decisioning. De este modo, aumenta el nivel de control sobre la forma en que se envían las ofertas.
+* Ahora puede crear paneles de informes personalizados de campañas de Experience Decisioning mediante [!DNL Customer Journey Analytics].
 
 **Recorridos**
 
