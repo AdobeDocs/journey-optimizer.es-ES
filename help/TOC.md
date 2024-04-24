@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 513fddf21eaf7958df45d97f028103519c77ec44
+source-git-commit: c1eef06b0edc4e1bcd1b145f8f822295924b205c
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1754'
 ht-degree: 99%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 99%
             + [inAudience](using/building-journeys/functions/functioninaudience.md)
          + Agregación {#aggregation}
             + [avg](using/building-journeys/functions/functionavg.md)
-            + [count](using/building-journeys/functions/functioncount.md)
+            + [recuento](using/building-journeys/functions/functioncount.md)
             + [countOnlyNull](using/building-journeys/functions/functioncountonlynull.md)
             + [countWithNull](using/building-journeys/functions/functioncountwithnull.md)
             + [distinctCount](using/building-journeys/functions/functiondistinctcount.md)
@@ -549,6 +549,7 @@ ht-degree: 99%
    + [Asistencia para el archivado](using/configuration/archiving-support.md)
    + [Cambio de direcciones de ejecución](using/configuration/primary-email-addresses.md)
    + [Configuración de las reglas de frecuencia](using/configuration/frequency-rules.md)
+   + [Trabajo con reglas empresariales](using/configuration/business-rules.md)
    + Configurar recorridos {#configure-journeys}
       + [Acerca de las fuentes de datos, los eventos y las acciones](using/configuration/about-data-sources-events-actions.md)
       + Integración con sistemas externos {#external-systems}
