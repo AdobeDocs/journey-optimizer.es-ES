@@ -8,73 +8,85 @@ description: Nueva interfaz de recorrido
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 3944c7b96baf227e4c0c1e7e1a225c1ce1ad0142
+source-git-commit: f6b9060ed512d6abff37102fa1316b43736bebd5
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 0%
+source-wordcount: '686'
+ht-degree: 1%
 
 ---
 
-# Nueva interfaz de recorrido {#new-canvas}
+# Bienvenido al Diseñador de Recorridos mejorado {#new-canvas}
 
 >[!CONTEXTUALHELP]
 >id="ajo_new_canvas"
 >title="Novedades"
 >abstract="Nuevo lienzo"
 
-Hemos trabajado en una simplificación del modelo de recorrido con el objetivo de facilitar algunos procesos internos. Este cambio de modelo por sí solo es transparente para usted, excepto que aprovechamos la oportunidad para introducir nuevas funciones junto con:
+Bienvenido al diseñador de recorridos mejorado.
 
-* Un nuevo diseño de lienzo de Recorrido
-* Live Reporting en accesible en el lienzo de Recorrido
-* Mejore la legibilidad del lienzo de recorrido y haga que el diseño de la actividad sea más escalable, lo que nos permite proporcionar más información a nivel de actividad para las mejoras actuales y futuras.
+Hemos desarrollado un **modelo de recorrido simplificado** que busca mejorar los procesos internos. Aunque este nuevo modelo supone una mejora del servidor, nuestro equipo aprovechó la oportunidad para añadir funciones que son visibles y beneficiosas para los usuarios de Journey Optimizer:
+
+A **lienzo de recorrido rediseñado** para una experiencia de interfaz de usuario modernizada A **live reporting** IU directamente disponible en el lienzo del recorrido
 
 ## Actualizaciones en el modelo de recorrido
 
-El nuevo modelo de recorrido vivirá junto al existente, lo que significa que habrá recorridos que usarán dos modelos diferentes:
+El nuevo modelo de recorrido vivirá junto al existente, lo que significa que habrá recorridos utilizando **dos modelos diferentes**:
 
 * El antiguo, llamado &quot;v1&quot;
 * Y el nuevo, llamado &quot;v2&quot;
 
-Todos los recorridos de la versión 1 permanecerán en la versión 1. Aún puede editarlos, probarlos o publicarlos. Cualquier nueva versión creada a partir de una versión 1 permanecerá en la versión 1. No hay cambios funcionales en los recorridos de la versión 1.
+Todos los recorridos de la versión 1 permanecerán en la versión 1. Aún puede editarlos, probarlos o publicarlos. Cualquier nueva versión creada a partir de una versión 1 también permanecerá en la versión 1. No hay **sin cambios funcionales** alrededor de recorridos v1.
 
-Se puede ver que un recorrido está en la versión 1 con su diseño de lienzo:
+Como puede ver en la siguiente captura de pantalla, los nodos tienen forma redondeada, que es la interfaz de usuario antigua para recorridos del modelo v1.
 
-[CAPTURA DE PANTALLA]
+![](assets/new-canvas.png)
 
-Si contiene actividades de redondeo, es una versión 1.
+Sin embargo, cuando **Crear un nuevo recorrido** o **duplicar uno existente**, será un recorrido v2.  Planeamos seguir admitiendo los recorridos de la versión 1 hasta que la mayoría de los clientes pasen a los recorridos de la versión 2.
 
-Sin embargo, cuando cree un nuevo recorrido o duplique uno existente, será un recorrido de la versión 2. Debido a esto, esperamos ver cada vez menos recorridos de la versión 1 con el paso del tiempo. Asegúrese de que aún admitiremos los recorridos en directo de la versión 1 existentes.
+El nuevo modelo de recorrido tiene una limitación: **no se pueden copiar y pegar actividades de un recorrido v1 en un v2 y viceversa**. Si desea hacerlo, le recomendamos que duplique el recorrido de la versión 1 para convertirlo en una versión 2 y, a continuación, copie las actividades.
 
-Como hemos mencionado, este nuevo modelo es transparente para los usuarios, excepto por una limitación: no será posible copiar y pegar actividades de un recorrido v1 a un v2 y viceversa. Le recomendamos que duplique su recorrido de v1 para obtener automáticamente uno de v2.
+En la siguiente captura de pantalla, puede ver la interfaz de usuario rediseñada para el lienzo de recorrido (solo disponible con el modelo v2):
 
-Se puede ver que hay un recorrido en la versión 2 con el nuevo diseño de lienzo (véase más abajo):
+![](assets/new-canvas2.png)
 
-[CAPTURA DE PANTALLA]
+**Cualquier nueva función añadida al diseñador de recorridos (incluidos los informes en directo) solo estará disponible para los recorridos de la versión 2 a partir de este momento.**
 
-Cualquier nueva función alrededor del lienzo del recorrido (incluido Live Reporting) estará disponible exclusivamente en los recorridos de la versión 2.
+## Diseño de lienzo de recorrido mejorado
 
-## Nuevo diseño de lienzo de Recorrido
+Con el nuevo modelo de recorrido presentamos un nuevo y mejorado **IU del lienzo de recorrido**, que se adapta perfectamente al ecosistema de soluciones y aplicaciones de Adobe Experience Cloud, lo que ofrece una experiencia de usuario intuitiva y eficaz. Cualquier recorrido de la pila de la versión 2 se basará en ese nuevo diseño.
 
-Con el nuevo modelo de recorrido presentamos un lienzo de Recorrido rediseñado, que se adapta perfectamente al ecosistema de soluciones y aplicaciones de Adobe Experience Cloud, lo que ofrece una experiencia de usuario intuitiva y eficaz. Cualquier recorrido de la pila de la versión 2 se basará en ese nuevo diseño.
+![](assets/new-canvas3.gif)
 
-[CAPTURA DE PANTALLA]
-
-Las actividades ahora se representarán mediante cuadros cuadrados con:
+Las actividades ahora se representan mediante cuadros cuadrados con las siguientes capacidades:
 
 * La primera línea que representa el tipo de actividad que a menudo se sobrescribe con información más contextual (p. ej.: en Audiencias leídas, contendrá el nombre de la audiencia seleccionada) o con una etiqueta personalizada si define una.
-* El segundo activo siempre representa el tipo de actividad.
+* La segunda línea siempre representa el tipo de actividad.
 
-[CAPTURA DE PANTALLA]
+![](assets/new-canvas4.png)
 
-Este nuevo diseño mejora la legibilidad del lienzo de recorrido al...
+Esta nueva interfaz de usuario mejora la legibilidad del lienzo de recorrido al proporcionar lo siguiente **etiquetas y tipos de actividades más claros**.
 
-También es más escalable, lo que nos permite proporcionar más información a nivel de actividad, como empezamos a hacer con los informes en directo.
+También permite al equipo de productos añadir más información en el lienzo con menos clics. Un ejemplo de &quot;más información&quot; sería la inclusión de informes en directo en el lienzo de recorrido, donde puede ver perfiles que entran y salen de sus actividades debido a errores.
 
-[CAPTURA DE PANTALLA]
+![](assets/new-canvas5.png)
 
-¡Espere ver nuevos cambios en los próximos meses en torno a ese nuevo diseño!
 
-## Informes en vivo
+## Creación de informes en directo en el lienzo de recorrido
 
-* GIF
-* live reporting
+Junto con el diseño mejorado de lona de recorrido, estamos introduciendo la capacidad de ver **últimas 24 horas métricas de informes** (lo que se denomina creación de informes en directo) directamente en el lienzo de recorrido.
+
+![](assets/new-canvas6.png)
+
+Con cada recorrido en directo del nuevo modelo, podrá ver dos tipos de información de creación de informes: las &quot;últimas 24 horas&quot;.
+
+* En un **nuevo inserto**, verá lo siguiente:
+   * El número de perfiles que se han exportado para recorridos activados por la audiencia. Verá el número de perfiles disponibles en el último trabajo de exportación a lo largo del tiempo en que se realizó la exportación.
+   * El número de perfiles que salieron del recorrido
+   * El porcentaje de errores
+     ![](assets/new-canvas7.png)
+* **En cada actividad**, verá el número de perfiles que ingresaron a esa actividad y el número de personas que salieron debido a un error:
+  ![](assets/new-canvas8.png)
+
+La interfaz de usuario se actualiza automáticamente cada minuto.
+
+Tenga en cuenta que puede ver diferencias entre el número de perfiles exportados y el número de perfiles que fluyen a través del recorrido. El recuento de perfiles exportados solo proporciona información sobre el último trabajo de exportación que se realiza, mientras que el número de perfiles que entran en una actividad solo contiene perfiles que lo han hecho en las últimas 24 horas. Esto puede ser especialmente visible en los recorridos diarios recurrentes, ya que podría haber una superposición de datos entre dos días.
