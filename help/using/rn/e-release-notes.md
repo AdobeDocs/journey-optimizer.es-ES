@@ -8,7 +8,7 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 409aaf7f8458a118e0f8d3aae481c2af047b3251
+source-git-commit: 3c9619c25f3e70e492e3fbb35521e10a66537a6a
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 32%
@@ -141,10 +141,6 @@ Esta versión incorpora las nuevas funciones detalladas a continuación.
 
 Esta versión incorpora las mejoras que se enumeran a continuación.
 
-<!--
-* **ExD reporting in AEP**: TBD
--->
-
 **Públicos**
 
 * Ahora puede utilizar audiencias y atributos de la composición de audiencias con Healthcare Shield y Privacy &amp; Security Shield.
@@ -175,9 +171,6 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 Desde la versión beta a LA, se han realizado las siguientes mejoras:
 
-<!-- TO CONFIRM * Experience Decisioning left navigation menus have been renamed:
-    * "Items" is now "Catalogs"
-    * "Configuration" is now "Strategy setup"-->
 * Ahora puede aprovechar los datos de contexto de Adobe Experience Platform en las reglas de decisión utilizando **Datos de contexto** pestaña.
 * Ya está disponible un nuevo permiso para &quot;Administrar decisiones de experiencia&quot; para el recurso Administración de decisiones. Permite administrar derechos relacionados con Experience Decisioning.
 * Ahora puede agregar varias reglas de límite para una oferta. De este modo, aumenta el nivel de control sobre la forma en que se envían las ofertas.
