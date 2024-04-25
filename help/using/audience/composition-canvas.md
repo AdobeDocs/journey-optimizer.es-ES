@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 28%
@@ -74,7 +74,7 @@ Las actividades disponibles son:
 
 Puede añadir tantas como desee **[!UICONTROL Audiencia]** y **[!UICONTROL Excluir]** actividades según sea necesario en la composición. Sin embargo, no se puede añadir ninguna actividad adicional después de **[!UICONTROL Rango]** y **[!UICONTROL Split]** actividades.
 
-Puede quitar una actividad del lienzo en cualquier momento haciendo clic en el botón Eliminar en el panel derecho.  Si la actividad que desea eliminar es una actividad principal de otras actividades de la composición, se muestra un mensaje que le permite especificar si desea eliminar solamente la actividad seleccionada o todas sus actividades secundarias.
+Puede quitar una actividad del lienzo en cualquier momento haciendo clic en el botón Eliminar en el panel derecho.  Si la actividad que desea eliminar es una actividad principal de otras actividades de la composición, se muestra un mensaje que le permite especificar si desea eliminar sólo la actividad seleccionada o todas sus actividades secundarias.
 
 ### Actividad de público {#audience}
 
