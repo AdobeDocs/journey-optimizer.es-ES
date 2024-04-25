@@ -8,9 +8,9 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 281387d650dc3a6c67ba365cd804f2b875dcd60b
+source-git-commit: 882af161383a54a1f9b09d2a8d0cab84abbf7dcd
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '502'
 ht-degree: 34%
 
 ---
@@ -164,7 +164,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Experience Decisioning**
 
-Desde la versión beta a LA, se han realizado las siguientes mejoras:
+De la versión beta a LA, se han agregado las siguientes mejoras:
 
 * Ahora puede aprovechar los datos de contexto de Adobe Experience Platform en las reglas de decisión utilizando **Datos de contexto** pestaña.
 * Ya está disponible un nuevo permiso para &quot;Administrar decisiones de experiencia&quot; para el recurso Administración de decisiones. Permite administrar derechos relacionados con Experience Decisioning.
@@ -174,12 +174,12 @@ Desde la versión beta a LA, se han realizado las siguientes mejoras:
 
 **Recorridos**
 
-* **Diseñador de Recorridos mejorado**:
+* **Diseñador de Recorridos mejorado**
 
    * La interfaz de usuario del lienzo mejorada proporciona una experiencia de usuario más intuitiva y eficaz.
    * Las actividades son más claras y presentan más información en el lienzo del recorrido con menos clics.
 
-* **Nuevos informes en directo**: Ahora se puede acceder a los informes de recorridos a través de la aplicación Informes en vivo. Esta es una aplicación que proporciona muchas perspectivas para la ejecución del recorrido.
+* **Nuevos informes en directo**: Ahora se puede acceder directamente a los informes de recorrido de las últimas 24 horas en el lienzo de Recorrido.
 
 Configuración de ****
 
