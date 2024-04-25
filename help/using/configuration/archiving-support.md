@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: archivo, mensajes, HIPAA, CCO, correos electrónicos
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1132'
 ht-degree: 7%
 
 ---
@@ -28,7 +28,7 @@ Las regulaciones como la HIPAA requieren que [!DNL Journey Optimizer] debe propo
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] no es compatible con los requisitos de archivo de SMS. Para obtener soporte de archivo dedicado, trabaje con su proveedor de SMS (Synch o Twilio).
+>[!DNL Journey Optimizer] no es compatible con los requisitos de archivo de SMS. Para obtener soporte de archivo dedicado, trabaje con su proveedor de SMS (Synch, Infobip o Twilio).
 
 ## Cómo utilizar CCO para correos electrónicos {#bcc-email}
 
