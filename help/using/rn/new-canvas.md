@@ -8,9 +8,9 @@ description: Nueva interfaz de recorrido
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 59f41003183e155632124fde294bea575fb0f493
+source-git-commit: 55e002b00d0b605a868088fa3f5e1a15be64800c
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Como puede ver en la siguiente captura de pantalla, los nodos tienen forma redon
 
 ![](assets/new-canvas.png)
 
-Sin embargo, cuando **Crear un nuevo recorrido** o **duplicar uno existente**, será un recorrido v2.  Planeamos seguir admitiendo los recorridos de la versión 1 hasta que la mayoría de los clientes pasen a los recorridos de la versión 2.
+Sin embargo, cuando **crear un nuevo recorrido** o **duplicar uno existente**, será un recorrido v2.  Planeamos seguir admitiendo los recorridos de la versión 1 hasta que la mayoría de los clientes pasen a los recorridos de la versión 2.
 
 El nuevo modelo de recorrido tiene una limitación: **no se pueden copiar y pegar actividades de un recorrido v1 en un v2 y viceversa**. Si desea hacerlo, le recomendamos que duplique el recorrido de la versión 1 para convertirlo en una versión 2 y, a continuación, copie las actividades.
 
