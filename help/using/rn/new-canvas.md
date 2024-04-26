@@ -8,16 +8,16 @@ description: Nueva interfaz de recorrido
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: b40ca1f681ebbaf976ab211c96eb2987cc44f5b8
+source-git-commit: f9183f0ef3dbc13f39e5442405e7b0011621e773
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '555'
 ht-degree: 1%
 
 ---
 
 # Bienvenido al Diseñador de Recorridos mejorado {#new-canvas}
 
-Journey Optimizer ahora ofrece un **modelo de recorrido simplificado** que busca mejorar los procesos internos. Aunque este nuevo modelo supone una mejora del servidor, nuestro equipo aprovechó la oportunidad para añadir funciones que son visibles y beneficiosas para los usuarios de Journey Optimizer:
+Journey Optimizer ahora ofrece un **modelo de recorrido simplificado** que tiene como objetivo mejorar la experiencia del usuario y los procesos internos. A partir de la versión de abril, podrá beneficiarse de las siguientes funciones:
 
 * A **lienzo de recorrido rediseñado** diseñado para una experiencia de interfaz de usuario modernizada
 * A **live reporting** IU directamente disponible en el lienzo del recorrido
