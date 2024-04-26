@@ -6,7 +6,7 @@ description: Notas de la primera versión de Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d5fa80ee2823131bb69bae0f366b92bf1fae3020
+source-git-commit: 1505c21bb66cb08d6f0d864aa92afb3a04ed3fa5
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 53%
@@ -103,7 +103,7 @@ Esta versión incorpora las nuevas funciones detalladas a continuación.
 <img src="assets/new-canvas3.gif"/>
 <p>Junto con el diseño mejorado del lienzo del recorrido, presentamos la capacidad de ver las métricas de informes de las últimas 24 horas directamente en el lienzo del recorrido. </p>
 <img src="assets/new-canvas6bis.png"/>
-<p><br>Nota</br>: Este cambio se implementará gradualmente. Es posible que no vea los cambios de inmediato en su entorno.</p>
+<p><strong>Nota</strong>: Este cambio se implementará gradualmente. Es posible que no vea los cambios de inmediato en su entorno.</p>
 <p>Para obtener más información, consulte la <a href="new-canvas.md">documentación detallada</a>.</p>
 </td>
 </tr>
