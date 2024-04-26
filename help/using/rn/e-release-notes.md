@@ -6,10 +6,10 @@ description: Notas de la primera versión de Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
+source-git-commit: f133a33237fccacbf800de445c27684de4f42453
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 34%
+source-wordcount: '478'
+ht-degree: 33%
 
 ---
 
@@ -166,7 +166,6 @@ De la versión beta a LA, se han agregado las siguientes mejoras:
 
 * Ahora puede aprovechar los datos de contexto de Adobe Experience Platform en las reglas de decisión utilizando **Datos de contexto** pestaña.
 * Ya está disponible un nuevo permiso para &quot;Administrar decisiones de experiencia&quot; para el recurso Administración de decisiones. Permite administrar derechos relacionados con Experience Decisioning.
-* Ahora puede agregar varias reglas de límite para una oferta. De este modo, aumenta el nivel de control sobre la forma en que se envían las ofertas.
 * Ahora puede agregar varias reglas de límite para un elemento de decisión determinado en Experience Decisioning. De este modo, aumenta el nivel de control sobre la forma en que se envían las ofertas.
 * Ahora puede crear paneles de informes personalizados de campañas de Experience Decisioning mediante [!DNL Customer Journey Analytics].
 
