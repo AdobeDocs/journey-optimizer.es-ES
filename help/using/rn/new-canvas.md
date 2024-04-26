@@ -8,16 +8,16 @@ description: Nueva interfaz de recorrido
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 55e002b00d0b605a868088fa3f5e1a15be64800c
+source-git-commit: 87e3ba96d05d41c87f314773e95eb0fcf0a2cfe3
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
 
 # Bienvenido al Diseñador de Recorridos mejorado {#new-canvas}
 
-Hemos desarrollado un **modelo de recorrido simplificado** que busca mejorar los procesos internos. Aunque este nuevo modelo supone una mejora del servidor, nuestro equipo aprovechó la oportunidad para añadir funciones que son visibles y beneficiosas para los usuarios de Journey Optimizer:
+Journey Optimizer ahora ofrece un **modelo de recorrido simplificado** que busca mejorar los procesos internos. Aunque este nuevo modelo supone una mejora del servidor, nuestro equipo aprovechó la oportunidad para añadir funciones que son visibles y beneficiosas para los usuarios de Journey Optimizer:
 
 * A **lienzo de recorrido rediseñado** diseñado para una experiencia de interfaz de usuario modernizada
 * A **live reporting** IU directamente disponible en el lienzo del recorrido
@@ -30,28 +30,28 @@ Hemos desarrollado un **modelo de recorrido simplificado** que busca mejorar los
 
 El nuevo modelo de recorrido vivirá junto al existente, lo que significa que habrá recorridos utilizando **dos modelos diferentes**:
 
-* El antiguo, llamado &quot;v1&quot;
-* Y el nuevo, llamado &quot;v2&quot;
+* El modelo heredado
+* El nuevo modelo
 
-Todos los recorridos de la versión 1 permanecerán en la versión 1. Aún puede editarlos, probarlos o publicarlos. Cualquier nueva versión creada a partir de una versión 1 también permanecerá en la versión 1. No hay **sin cambios funcionales** alrededor de recorridos v1.
+Todos los recorridos del modelo heredado permanecerán en él. Aún puede editarlos, probarlos o publicarlos. Cualquier nueva versión creada a partir de un recorrido en el modelo heredado también permanecerá en él. No hay **sin cambios funcionales** alrededor de esos recorridos.
 
-Como puede ver en la siguiente captura de pantalla, los nodos tienen forma redondeada, que es la interfaz de usuario antigua para recorridos del modelo v1.
+Como puede ver en la siguiente captura de pantalla, los nodos tienen forma redondeada, que es la interfaz de usuario antigua para recorridos en el modelo heredado.
 
 ![](assets/new-canvas.png)
 
-Sin embargo, cuando **crear un nuevo recorrido** o **duplicar uno existente**, será un recorrido v2.  Planeamos seguir admitiendo los recorridos de la versión 1 hasta que la mayoría de los clientes pasen a los recorridos de la versión 2.
+Sin embargo, cuando **crear un nuevo recorrido** o **duplicar uno existente**, estará en el nuevo modelo. Los recorridos en el modelo heredado seguirán siendo compatibles hasta que la mayoría de los clientes pasen al nuevo.
 
-El nuevo modelo de recorrido tiene una limitación: **no se pueden copiar y pegar actividades de un recorrido v1 en un v2 y viceversa**. Si desea hacerlo, le recomendamos que duplique el recorrido de la versión 1 para convertirlo en una versión 2 y, a continuación, copie las actividades.
+El nuevo modelo de recorrido tiene una limitación: **no se pueden copiar y pegar actividades del modelo heredado en el nuevo y viceversa**. Si desea hacerlo, le recomendamos que duplique el recorrido heredado para cambiarlo al nuevo modelo y, a continuación, copie las actividades.
 
-En la siguiente captura de pantalla, puede ver la interfaz de usuario rediseñada para el lienzo de recorrido (solo disponible con el modelo v2):
+En la siguiente captura de pantalla, puede ver la interfaz de usuario rediseñada para el lienzo de recorrido (solo disponible con el nuevo modelo):
 
 ![](assets/new-canvas2.png)
 
-**Cualquier nueva función añadida al diseñador de recorridos (incluidos los informes en directo) solo estará disponible para los recorridos de la versión 2 a partir de este momento.**
+**Cualquier nueva función añadida al diseñador de recorridos (incluidos los informes en directo) solo estará disponible para los recorridos del nuevo modelo a partir de este momento.**
 
 ## Diseño de lienzo de recorrido mejorado
 
-Con el nuevo modelo de recorrido presentamos un nuevo y mejorado **IU del lienzo de recorrido**, que se adapta perfectamente al ecosistema de soluciones y aplicaciones de Adobe Experience Cloud, lo que ofrece una experiencia de usuario intuitiva y eficaz. Cualquier recorrido de la pila de la versión 2 se basará en ese nuevo diseño.
+Con el nuevo modelo de recorrido, presentamos un nuevo y mejorado **IU del lienzo de recorrido**, que se adapta perfectamente al ecosistema de soluciones y aplicaciones de Adobe Experience Cloud, lo que ofrece una experiencia de usuario intuitiva y eficaz. Cualquier recorrido en el nuevo modelo estará en ese nuevo diseño.
 
 ![](assets/new-canvas3.gif)
 
