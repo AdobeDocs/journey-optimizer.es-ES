@@ -6,10 +6,10 @@ description: Notas de la primera versión de Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f133a33237fccacbf800de445c27684de4f42453
+source-git-commit: 4257fafef5d6c6f5f9c7f4af9c9b06510b1e9037
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 33%
+source-wordcount: '261'
+ht-degree: 57%
 
 ---
 
@@ -42,22 +42,22 @@ Esta versión incorpora las nuevas funciones detalladas a continuación.
 </tbody>
 </table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Experience Decisioning: disponibilidad limitada</strong><br/></th>
+<th><strong>Experience Decisioning - Limited Availability</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Experience Decisioning simplifica la personalización al ofrecer un catálogo centralizado de ofertas de marketing conocidas como "elementos de decisión" y un motor de decisión sofisticado. Este motor aprovecha las reglas y los criterios de clasificación para seleccionar y presentar los elementos de decisión más relevantes a cada individuo.</p>
-<p>Estos elementos de decisión se integran perfectamente en una amplia gama de superficies entrantes a través del nuevo canal de experiencia basado en código, ahora accesible dentro de las campañas de Journey Optimizer. Las políticas de decisión de Experience Decisioning solo están disponibles para su uso en campañas de experiencia basadas en código.</p>
-<p>Actualmente, Experience Decisioning solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con el representante del Adobe.</p>
+<p>Experience Decisioning simplifies personalization by offering a centralized catalog of marketing offers known as 'decision items' and a sophisticated decision engine. This engine leverages rules and ranking criteria to select and present the most relevant decision items to each individual.</p>
+<p>These decision items are seamlessly integrated into a wide range of inbound surfaces through the new code-based experience channel, now accessible within Journey Optimizer campaigns. Experience Decisioning decision policies are available for use in code-based experience campaigns only.</p>
+<p>Experience Decisioning is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
@@ -85,6 +85,25 @@ Esta versión incorpora las nuevas funciones detalladas a continuación.
 <td>
 <p>Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del servicio de mensajes multimedia (MMS), lo que le permite compartir imágenes, GIF o vídeos con sus clientes. Inicialmente solo disponible con Sinch, MMS ahora también está disponible con Infobip y Twilio.</p>
 <img src="assets/do-not-localize/mms.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Diseñador de Recorridos y sistema de informes en directo mejorados</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Esta versión incorpora una interfaz de usuario de lienzo mejorada para recorridos y proporciona una experiencia de usuario más intuitiva y eficaz. Las actividades son más claras y presentan más información en el lienzo del recorrido con menos clics.</p>
+<img src="assets/new-canvas3.gif"/>
+<p>Junto con el diseño mejorado del lienzo del recorrido, presentamos la capacidad de ver las métricas de informes de las últimas 24 horas directamente en el lienzo del recorrido. </p>
+<img src="assets/new-canvas6bis.png"/>
+<p>Para obtener más información, consulte la <a href="new-canvas.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -156,27 +175,22 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 * **List-Unsubscribe updates**: Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. 
 -->
 
-**Gestión de decisiones**
+<!--
+**Decision management** 
 
-* El **Registro de cambios** que le permite ver todos los cambios realizados en una oferta o que se ha eliminado una decisión. Los cambios relacionados con ofertas y decisiones ahora se pueden ver en la **Auditorías** menú.
+* The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu.
 
-**Experience Decisioning**
+**Experience decisionning**
 
-De la versión beta a LA, se han agregado las siguientes mejoras:
+From beta to LA, the following improvements that have been added:
 
-* Ahora puede aprovechar los datos de contexto de Adobe Experience Platform en las reglas de decisión utilizando **Datos de contexto** pestaña.
-* Ya está disponible un nuevo permiso para &quot;Administrar decisiones de experiencia&quot; para el recurso Administración de decisiones. Permite administrar derechos relacionados con Experience Decisioning.
-* Ahora puede agregar varias reglas de límite para un elemento de decisión determinado en Experience Decisioning. De este modo, aumenta el nivel de control sobre la forma en que se envían las ofertas.
-* Ahora puede crear paneles de informes personalizados de campañas de Experience Decisioning mediante [!DNL Customer Journey Analytics].
+* You can now leverage context data from Adobe Experience Platform in your decision rules using the **Context data** tab.  
+* A new "Manage Experience decisions" permission is now available for the Decision Management resource. It allows you to manage rights related to Experience Decisioning.   
+* You can now add multiple capping rules for a given decision item in Experience Decisioning. This allows you to increase the level of control over the way offers are sent.
+* You can now create custom reporting dashboards of Experience Decisioning campaigns using [!DNL Customer Journey Analytics].
+-->
 
-**Recorridos**
 
-* **Diseñador de Recorridos mejorado**
-
-   * La interfaz de usuario del lienzo mejorada proporciona una experiencia de usuario más intuitiva y eficaz.
-   * Las actividades son más claras y presentan más información en el lienzo del recorrido con menos clics.
-
-* **Nuevos informes en directo**: Ahora se puede acceder directamente a los informes de recorrido de las últimas 24 horas en el lienzo de Recorrido.
 
 Configuración de ****
 
