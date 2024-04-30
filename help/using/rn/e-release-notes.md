@@ -9,7 +9,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: a93dd80a15087a4ce7737757d5552ea1fc4f2a2a
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 54%
+ht-degree: 70%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 54%
 
 Las notas de la versión preliminar están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento. Los vínculos, las pantallas y la documentación actualizada se publican en las [notas de la versión](release-notes.md) y en la fecha.
 
-## Notas de la versión anteriores de abril de 2024 {#e-2024}
+## Notas de la versión preliminar de abril de 2024 {#e-2024}
 
-**Fecha de lanzamiento**: 30 de abril de 2024
+**Fecha de la versión**: 30 de abril de 2024
 
 ### Nuevas funciones {#e-features}
 
-Esta versión incorpora las nuevas funciones detalladas a continuación.
+Esta versión incorpora las nuevas funciones que se indican a continuación.
 
 <!--table>
 <thead>
@@ -196,5 +196,5 @@ From beta to LA, the following improvements that have been added:
 Configuración de ****
 
 * Ahora puede seleccionar una acción de marketing en el nivel de superficie de canal. Cuando se utilizan en una superficie, todas las políticas de consentimiento asociadas con esa acción de marketing se aprovechan para respetar las preferencias de los clientes.
-* El uso del Control de acceso de nivel de objeto ya está disponible para superficies de canal.
+* El uso del Control de acceso a nivel de objeto ya está disponible para las superficies de canal.
 
