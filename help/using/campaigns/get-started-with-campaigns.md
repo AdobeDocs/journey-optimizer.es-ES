@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 74%
 
 ---
 
@@ -46,29 +46,19 @@ Los pasos principales para crear una regla de tipología son los siguientes:
 
 Compruebe los siguientes requisitos previos antes de empezar a crear la primera campaña en Journey Optimizer:
 
-1. **Necesita los permisos adecuados**. Esta función solo está disponible para usuarios con acceso a un **[!UICONTROL Perfil de producto]** relacionado con Campaign, como administrador de Campaign, aprobador de Campaign, administrador de Campaign y/o visualizador de Campaign.
+1. **Necesita los permisos adecuados**. Las campañas solo están disponibles para usuarios con acceso a campañas relacionadas **[!UICONTROL Perfil del producto]** como el administrador de campañas, el aprobador de campañas, el administrador de campañas o el visor de campañas. Si no puede acceder a las campañas, debe ampliar sus permisos.
 
-   Si no puede acceder a las campañas, sus permisos deben ampliarse. Si tiene acceso a [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} para su organización, siga los pasos siguientes. De lo contrario, póngase en contacto con el administrador de Journey Optimizer.
+   +++Obtenga información sobre cómo asignar una función relacionada con la campaña
 
-   +++Obtenga información sobre cómo asignar permisos de campaña
+   1. Para asignar una función a un usuario en [!DNL Permissions] producto, vaya a la **[!UICONTROL Funciones]** y seleccione una de las campañas integradas relacionadas con **[!UICONTROL Funciones]**: administrador de campaña, aprobador de campaña, administrador de campaña o visualizador de campañas.
 
-   Para asignar el **[!UICONTROL Perfil del producto]** a sus usuarios:
+   1. Desde el **[!UICONTROL Usuarios]** pestaña, haga clic en **[!UICONTROL Agregar usuario]**.
 
-   1. En [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}, seleccione el producto de [!DNL Adobe Experience Platform].
+   1. Escriba el nombre o la dirección de correo electrónico del usuario o seleccione el usuario en la lista y haga clic en **[!UICONTROL Guardar]**.
 
-   1. Vaya a la pestaña **[!UICONTROL Perfil del producto]** , seleccione una de las campañas integradas relacionadas **[!UICONTROL Perfil del producto]**: Administrador de campañas, aprobador de campañas, administrador de campañas o visualizador de campañas.
+      Si el usuario no se ha creado anteriormente, consulte la [Documentación de Adición de usuarios](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
-      Para obtener más información sobre la campaña de Journey Optimizer **[!UICONTROL Perfiles de producto]** y **[!UICONTROL Permisos]**, [consulte esta página](../administration/ootb-product-profiles.md).
-
-      ![](assets/do-not-localize/admin_1.png)
-
-   1. Haga clic en **[!UICONTROL Agregar usuario]** para asignar al usuario el **[!UICONTROL Perfil del producto]**.
-
-      ![](assets/do-not-localize/admin_2.png)
-
-   1. Escriba el nombre del usuario, el grupo o la dirección de correo electrónico y haga clic en **[!UICONTROL Guardar]**.
-
-   El usuario ahora puede acceder a **[!UICONTROL Campañas]**.
+   El usuario debería recibir entonces un correo electrónico que le redirija a su instancia.
 
 +++
 
