@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Personalizar configuración de superficie de correo electrónico
+title: Personalización de la configuración de superficie del correo electrónico
 description: Aprenda a definir valores personalizados para su configuración en el nivel de superficie de canal de correo electrónico
 feature: Surface, Subdomains
 topic: Administration
@@ -15,11 +15,11 @@ exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 56c2708408d15286f008c9f2c16581ce0f0a1c4e
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
-# Personalizar configuración de superficie de correo electrónico {#surface-personalization}
+# Personalización de la configuración de superficie del correo electrónico {#surface-personalization}
 
 Para obtener una mayor flexibilidad y control sobre la configuración de correo electrónico, [!DNL Journey Optimizer] permite definir valores personalizados para subdominios y encabezados<!--and URL tracking parameters--> al crear superficies de correo electrónico.
 
@@ -43,7 +43,7 @@ Para obtener una mayor flexibilidad y control sobre la configuración de correo 
 >id="ajo_surface_dynamic_subdomain_list"
 >title="Algunos subdominios podrían no estar disponibles"
 >abstract="Algunos subdominios no están disponibles actualmente para su selección debido a que está pendiente el registro del bucle de comentarios. Este proceso puede tardar hasta 10 días hábiles. Una vez finalizado, puede elegir entre todos los subdominios disponibles."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Introducción a la delegación de subdominios"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Introducción a la delegación de subdominios"
 
 Al crear una superficie de correo electrónico, puede configurar subdominios dinámicos basados en condiciones específicas.
 
