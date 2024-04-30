@@ -3,29 +3,24 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Notas de la versión
 description: Notas de la primera versión de Journey Optimizer
-feature: Release Notes
-topic: Content Management
-exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-hide: true
-hidefromtoc: true
 source-git-commit: c14ed9196d003cee893eb809a0edbdeebe36555f
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 69%
+source-wordcount: '315'
+ht-degree: 73%
 
 ---
 
-# Notas de la versión preliminar {#e-release-notes}
+# Notas de la versión preliminar {#early-release-notes}
 
 [!DNL Adobe Journey Optimizer] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en las [notas de la versión](release-notes.md).
 
 Las notas de la versión preliminar están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento. Los vínculos, las pantallas y la documentación actualizada se publican en las [notas de la versión](release-notes.md) y en la fecha.
 
-## Notas de la versión preliminar de abril de 2024 {#e-2024}
+## Notas de la versión preliminar de abril de 2024 {#early-2024}
 
 **Fecha de lanzamiento**: 2 de mayo de 2024
 
-### Nuevas funciones {#e-features}
+### Nuevas funciones {#early-features}
 
 Esta versión incorpora las nuevas funciones que se indican a continuación.
 
@@ -157,7 +152,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 </tbody>
 </table-->
 
-### Mejoras {#e-improvements}
+### Mejoras {#early-improvements}
 
 Esta versión incorpora las mejoras que se enumeran a continuación.
 
@@ -179,9 +174,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 -->
 
 <!--
-**Decision management** 
 
-* The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu.
 
 **Experience decisionning**
 
@@ -193,6 +186,9 @@ From beta to LA, the following improvements that have been added:
 * You can now create custom reporting dashboards of Experience Decisioning campaigns using [!DNL Customer Journey Analytics].
 -->
 
+**Gestión de decisiones**
+
+* Se ha quitado la pestaña **Registro de cambios** que permite ver todos los cambios que se han realizado en una oferta o una decisión. Los cambios relacionados con ofertas y decisiones ahora se pueden ver en el menú **Auditorías**.
 
 
 Configuración de ****
