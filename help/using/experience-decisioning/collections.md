@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 50%
@@ -47,11 +47,11 @@ Las colecciones le permiten categorizar y agrupar los elementos de decisión seg
 
 Por ejemplo, supongamos que ha agregado un atributo personalizado &quot;Categoría&quot; al esquema de catálogo de los elementos de decisión. Esto le permite crear una colección que incluye todos los elementos de decisión con el valor &quot;Yoga&quot; en el atributo &quot;Categoría&quot;.
 
-Se puede acceder a la lista de colecciones desde el **[!UICONTROL Elementos]** menú.
+Se puede acceder a la lista de colecciones desde el **[!UICONTROL Catálogos]** menú.
 
 Para crear una colección, siga estos pasos:
 
-1. Vaya a **[!UICONTROL Elementos]** > **[!UICONTROL Colecciones]** y haga clic en **[!UICONTROL Crear colección]**.
+1. Vaya a **[!UICONTROL Catálogos]** > **[!UICONTROL Colecciones]** y haga clic en **[!UICONTROL Crear colección]**.
 1. Proporcione un nombre y una descripción para la colección.
 1. Añada una o varias reglas para determinar los elementos que se incluirán en la colección. Para ello:
 

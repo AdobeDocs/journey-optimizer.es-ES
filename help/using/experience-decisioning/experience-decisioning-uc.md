@@ -8,7 +8,7 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 11%
@@ -33,7 +33,7 @@ En este caso de uso, se definen dos tratamientos de entrega, cada uno de los cua
 
 Primero debe crear elementos, agruparlos en colecciones, configurar reglas y métodos de clasificación. Estos elementos le permiten crear estrategias de selección.
 
-1. Vaya a **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Elementos]** y cree varios elementos de oferta. Establezca restricciones utilizando audiencias o reglas para restringir cada elemento solo a perfiles específicos. [Más información](items.md)
+1. Vaya a **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Catálogos]** y cree varios elementos de oferta. Establezca restricciones utilizando audiencias o reglas para restringir cada elemento solo a perfiles específicos. [Más información](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
