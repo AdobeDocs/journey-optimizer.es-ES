@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: personalizado, general, eventos, recorrido
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 31d9189e8afd732875556b9caaa8e874f53597bb
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 13%
+source-wordcount: '547'
+ht-degree: 12%
 
 ---
 
@@ -45,17 +45,20 @@ Para configurar un tiempo de espera para un evento, siga estos pasos:
 
 1. Especifique la cantidad de tiempo que el recorrido esperará el evento. La duración máxima es de 29 días.
 
-1. Si desea enviar a las personas a una ruta de tiempo de espera cuando no se reciba ningún evento dentro del tiempo de espera especificado, habilite la opción **[!UICONTROL Establecer una ruta de tiempo de espera]** opción. Si esta opción no está habilitada, el recorrido continuará para el individuo una vez que se alcance el tiempo de espera.
+1. Si desea enviar a las personas a una ruta de tiempo de espera cuando no se reciba ningún evento dentro del tiempo de espera especificado, habilite la opción **[!UICONTROL Establecer una ruta de tiempo de espera]** opción. Si esta opción no está habilitada, el recorrido continuará para el individuo una vez que se alcance el tiempo de espera. Le recomendamos que siempre habilite la variable **Establecer una ruta de tiempo de espera** opción.
 
    ![](assets/event-timeout.png)
 
-En este ejemplo, el recorrido envía una primera notificación push de bienvenida a un cliente. A continuación, envía una notificación push de descuento en la comida solo si el cliente entra en el restaurante dentro del día siguiente. Por lo tanto, configuramos el evento del restaurante con un tiempo de espera de 1 día:
+En este ejemplo, el recorrido envía un primer correo electrónico de bienvenida a un cliente después de que entre en el vestíbulo. A continuación, envía un correo electrónico de descuento en la comida solo si el cliente entra en el restaurante dentro del día siguiente. Por lo tanto, configuramos el evento del restaurante con un tiempo de espera de 1 día:
 
-* Si el evento del restaurante se recibe menos de 1 día después de la notificación push de bienvenida, se envía la actividad push de descuento en la comida.
+* Si el evento del restaurante se recibe menos de 1 día después del correo electrónico de bienvenida, se envía el correo electrónico de descuento en la comida.
 * Si no se recibe ningún evento de restaurante al día siguiente, la persona pasa por la ruta de tiempo de espera.
 
 Tenga en cuenta que si desea configurar un tiempo de espera en varios eventos colocados después de una **[!UICONTROL Esperar]** actividad, solo debe configurar el tiempo de espera en uno de estos eventos.
 
-El tiempo de espera se aplicará a todos los eventos colocados después de **[!UICONTROL Esperar]** actividad. Si no se recibe ningún evento antes del tiempo de espera especificado, los individuos fluirán en una sola ruta de tiempo de espera o continuarán ese recorrido a través de la rama que sale de la actividad en la que se han definido esos ajustes de tiempo de espera.
+El tiempo de espera definido se aplica a todos los eventos colocados después de **[!UICONTROL Esperar]** actividad:
+
+* Si se revisa un evento dentro de la duración del tiempo de espera, el individuo fluye a la ruta del evento recibido.
+* Si no se recibe ningún evento dentro de la duración del tiempo de espera, el individuo fluye a la rama de tiempo de espera del evento en la que se ha definido el tiempo de espera.
 
 ![](assets/event-timeout-group.png)

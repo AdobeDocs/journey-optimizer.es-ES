@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1411'
 ht-degree: 10%
 
 ---
@@ -197,10 +197,6 @@ Ahora puede utilizar esta plantilla al crear cualquier contenido en [!DNL Journe
 ## Prueba de plantillas de contenido de correo electrónico {#test-template}
 
 Puede probar la renderización de algunas de las plantillas de correo electrónico, tanto si se crean desde cero como a partir de contenido existente. Para ello, siga los pasos que aparecen a continuación.
-
->[!CAUTION]
->
->Actualmente, probar plantillas de contenido solo está disponible para **[!UICONTROL Correo electrónico]** plantillas con el **[!UICONTROL HTML]** escriba.
 
 1. Acceda a la lista de plantillas de contenido a través de **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Plantillas de contenido]** y seleccione cualquier plantilla de correo electrónico.
 

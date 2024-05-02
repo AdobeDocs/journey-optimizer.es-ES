@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
@@ -26,10 +26,6 @@ Los mensajes de texto se pueden crear y enviar en un recorrido o en una campaña
 * En una **campaña**. Cree una campaña, seleccione SMS como acción, defina la configuración básica y, a continuación, edite el contenido del mensaje para definir el mensaje SMS/MMS que desea enviar. Aprenda a crear una campaña en [esta página](../campaigns/create-campaign.md#configure).
 
 Adobe Journey Optimizer envía mensajes de texto a través de proveedores de servicios de SMS (o proveedores de puertas de enlace de SMS). Antes de crear el mensaje SMS/MMS, configure su proveedor de servicios para mensajes de texto con Journey Optimizer. [Más información](sms-configuration.md).
-
->[!IMPORTANT]
->
-> El envío del servicio de mensajes multimedia (MMS) con Adobe Journey Optimizer solo se admite al integrarse con **Sinch**.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

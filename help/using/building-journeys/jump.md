@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: salto, actividad, recorrido, división, división
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 9%
+source-wordcount: '842'
+ht-degree: 10%
 
 ---
 
@@ -112,7 +112,7 @@ Cuando un **[!UICONTROL Saltar]** la actividad se configura en un recorrido, un 
 
 ## Resolución de problemas
 
-Cuando el recorrido se publique o esté en modo de prueba, se producirán errores si:
+Se producirán errores si:
 * el recorrido de destino ya no existe
 * el recorrido de destino es borrador, está cerrado o detenido
 * si el primer evento del recorrido de destino ha cambiado y la asignación está dañada

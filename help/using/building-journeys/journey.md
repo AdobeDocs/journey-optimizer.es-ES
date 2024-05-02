@@ -8,8 +8,8 @@ role: User
 level: Beginner, Intermediate
 keywords: recorrido, descubrimiento, introducción
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
-workflow-type: ht
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 100%
 
@@ -96,8 +96,6 @@ Si necesita modificar a un recorrido activo, cree una nueva versión del recorri
    >Solo puede crear una nueva versión a partir de la última versión de un recorrido.
 
 1. Realice las modificaciones necesarias, haga clic en **[!UICONTROL Publicar]** y confirme.
-
-   ![](assets/journeyversions3.png)
 
 Desde el momento en que se publique el recorrido, las personas empezarán a fluir hacia la última versión del recorrido. Las personas que ya han accedido a una versión anterior permanecerán en ella hasta que finalicen el recorrido. Si más tarde vuelven a entrar en el mismo recorrido, accederán a la versión más reciente.
 

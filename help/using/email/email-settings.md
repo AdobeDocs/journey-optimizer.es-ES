@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: e63823dc2f901b870f11b0478e682e2af61b5b98
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '2373'
-ht-degree: 11%
+source-wordcount: '2415'
+ht-degree: 10%
 
 ---
 
@@ -42,58 +42,56 @@ La configuración de la superficie de correo electrónico se recoge para enviar 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="Definir la categoría del correo electrónico"
+>title="Definición del tipo de correo electrónico"
 >abstract="Seleccione el tipo de correos electrónicos que se enviarán al utilizar esta superficie: Marketing para correos electrónicos promocionales, que requieren el consentimiento del usuario, o Transaccional para correos electrónicos no comerciales, que también se pueden enviar a perfiles cuya suscripción se haya cancelado en contextos específicos."
 
-En el **TIPO DE CORREO** , seleccione el tipo de mensaje que se enviará con la superficie: **[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**.
+En el **Tipo de correo electrónico** , seleccione el tipo de mensaje para la superficie: **[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**.
 
-* Elegir **Marketing** para correo electrónico promocional, como promociones semanales de una tienda minorista. Estos mensajes requieren el consentimiento del usuario.
+* Seleccionar **Marketing** para correo electrónico promocional, como promociones semanales de una tienda minorista. Estos mensajes requieren el consentimiento del usuario.
 
-* Elegir **Transaccional** para correos electrónicos no comerciales, como confirmaciones de pedidos, notificaciones de restablecimiento de contraseña o información de entrega, por ejemplo. Estos correos electrónicos se pueden enviar a perfiles que **cancelado** de comunicaciones de marketing. Estos mensajes solo se pueden enviar en contextos específicos.
+* Seleccionar **Transaccional** para correos electrónicos no comerciales, como confirmaciones de pedidos, notificaciones de restablecimiento de contraseña o información de entrega, por ejemplo. Estos correos electrónicos se pueden enviar a perfiles que **cancelado** de comunicaciones de marketing. Estos mensajes solo se pueden enviar en contextos específicos.
 
 Al crear un mensaje, debe elegir una superficie de canal válida que coincida con la categoría seleccionada para el correo electrónico.
 
-## Subdominios y grupos de IP {#subdomains-and-ip-pools}
+## Subdomain {#subdomains}
 
-En el **Subdominios y grupos de IP** , rellene los campos obligatorios como se indica a continuación.
+Seleccione el subdominio que desea utilizar para enviar los correos electrónicos.
 
-1. Seleccione el subdominio que desea utilizar para enviar los correos electrónicos.
-
-   Para preservar la reputación de su dominio, acelerar el proceso de calentamiento de IP y mejorar la capacidad de entrega, delegue los subdominios de envío al Adobe. [Más información](../configuration/about-subdomain-delegation.md)
+Para preservar la reputación de su dominio, acelerar el proceso de calentamiento de IP y mejorar la capacidad de entrega, delegue los subdominios de envío al Adobe. [Más información](../configuration/about-subdomain-delegation.md)
 
 <!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
 
-1. Seleccione el grupo de IP que se asociará a la superficie. [Más información](../configuration/ip-pools.md)
 
-   ![](assets/preset-subdomain-ip-pool.png)
+## Detalles del grupo de IP {#ip-pools}
 
-   No se puede continuar con la creación de superficies mientras el grupo de IP seleccionado se encuentra en [edición](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Procesando]** estado) y nunca se ha asociado con el subdominio seleccionado. De lo contrario, se seguirá utilizando la versión más antigua de la asociación de subdominios/grupos de IP. En este caso, guarde la superficie como borrador y vuelva a intentarlo una vez que el grupo de IP tenga el valor **[!UICONTROL Correcto]** estado.
 
-   >[!NOTE]
-   >
-   >En los entornos que no son de producción, Adobe no crea subdominios de prueba predeterminados ni concede acceso a un grupo de IP de envío compartido. Tienes que hacerlo [delegar sus propios subdominios](../configuration/delegate-subdomain.md) y utilice las direcciones IP del grupo asignado a su organización.
+Seleccione el grupo de IP que se asociará a la superficie. [Más información](../configuration/ip-pools.md)
 
-1. Una vez seleccionado un grupo de IP, la información de PTR se ve al pasar el ratón por encima de las direcciones IP que se muestran debajo de la lista desplegable Grupo de IP. [Más información sobre los registros PTR](../configuration/ptr-records.md)
+![](assets/preset-subdomain-ip-pool.png){width="50%" align="left"}
 
-   ![](assets/email-surface-ptr-record.png)
+No se puede continuar con la creación de superficies mientras el grupo de IP seleccionado se encuentra en [edición](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Procesando]** estado) y nunca se ha asociado con el subdominio seleccionado. De lo contrario, se seguirá utilizando la versión más antigua de la asociación de subdominios/grupos de IP. En este caso, guarde la superficie como borrador y vuelva a intentarlo una vez que el grupo de IP tenga el valor **[!UICONTROL Correcto]** estado.
 
-   >[!NOTE]
-   >
-   >Si no se ha configurado un registro PTR, póngase en contacto con el representante del Adobe.
+>[!NOTE]
+>
+>En los entornos que no son de producción, Adobe no crea subdominios de prueba predeterminados ni concede acceso a un grupo de IP de envío compartido. Tienes que hacerlo [delegar sus propios subdominios](../configuration/delegate-subdomain.md) y utilice las direcciones IP del grupo asignado a su organización.
 
-## Cancelación de suscripción a lista {#list-unsubscribe}
+Una vez seleccionado un grupo de IP, la información de PTR se ve al pasar el ratón por encima de las direcciones IP que se muestran debajo de la lista desplegable Grupo de IP. [Más información sobre los registros PTR](../configuration/ptr-records.md)
+
+>[!NOTE]
+>
+>Si no se ha configurado un registro PTR, póngase en contacto con el representante del Adobe.
+
+## Cancelar suscripción a lista {#list-unsubscribe}
 
 Tras [selección de un subdominio](#subdomains-and-ip-pools) de la lista, la variable **[!UICONTROL Habilitar cancelación de suscripción a lista]** se muestra la opción.
 
-![](assets/preset-list-unsubscribe.png)
-
-Esta opción está habilitada de manera predeterminada.
-
-Si lo deja habilitado, se incluirá automáticamente un vínculo para cancelar la suscripción en el encabezado del correo electrónico, como:
+Esta opción está habilitada de forma predeterminada. Si lo deja habilitado, se incluirá automáticamente un vínculo para cancelar la suscripción en el encabezado del correo electrónico, como:
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-Si desactiva esta opción, no se mostrará ningún vínculo para cancelar la suscripción en el encabezado del correo electrónico.
+Si desactiva esta opción, no se muestra ningún vínculo para cancelar la suscripción en el encabezado del correo electrónico.
+
+Puede seleccionar el nivel de consentimiento en **Nivel de consentimiento** lista desplegable. Puede ser específico del canal o de la identidad del perfil. En función de esta configuración, cuando un usuario cancela la suscripción mediante el vínculo de encabezado Cancelar la suscripción de lista de un correo electrónico, el consentimiento se actualiza en Adobe Journey Optimizer en el nivel de canal o de ID.
 
 El vínculo de cancelación de suscripción consta de dos elementos:
 
@@ -101,7 +99,7 @@ El vínculo de cancelación de suscripción consta de dos elementos:
 
   Entrada [!DNL Journey Optimizer], la dirección de correo electrónico para cancelar la suscripción es la predeterminada **[!UICONTROL Mailto (cancelar la suscripción)]** dirección mostrada en la superficie de canal, basada en la variable [subdominio seleccionado](#subdomains-and-ip-pools).
 
-  ![](assets/preset-list-unsubscribe-mailto.png)
+  ![](assets/preset-list-unsubscribe-mailto.png){width="50%" align="left"}
 
 * El **URL de cancelación de suscripción**, que es la dirección URL de la página de aterrizaje a la que se redirige al usuario una vez cancelada la suscripción.
 
@@ -124,13 +122,9 @@ Obtenga más información sobre cómo añadir un vínculo de cancelación de sus
 En el **[!UICONTROL Parámetros de encabezado]** , introduzca los nombres de remitente y direcciones de correo electrónico asociados al tipo de correos electrónicos enviados mediante esa superficie.
 
 * **[!UICONTROL Nombre del remitente]**: Nombre del remitente, como el nombre de la marca.
-
 * **[!UICONTROL Correo electrónico del remitente]**: la dirección de correo electrónico que desea utilizar para sus comunicaciones.
-
 * **[!UICONTROL Responder a (nombre)]**: Nombre que se utilizará cuando el destinatario haga clic en el **Responder** en el software de cliente de correo electrónico.
-
 * **[!UICONTROL Responder a (correo electrónico)]**: La dirección de correo electrónico que se utilizará cuando el destinatario haga clic en el **Responder** en el software de cliente de correo electrónico. [Más información](#reply-to-email)
-
 * **[!UICONTROL Correo electrónico de error]**: Todos los errores generados por los ISP después de unos días de envío del correo (devoluciones asincrónicas) se reciben en esta dirección. Las notificaciones fuera de la oficina y las respuestas a las preguntas y respuestas de desafío también se reciben en esta dirección.
 
   Si desea recibir notificaciones fuera de la oficina y respuestas de desafío en una dirección de correo electrónico específica que no se delega al Adobe, debe configurar un [proceso de reenvío](#forward-email). En ese caso, asegúrese de tener una solución manual o automatizada para procesar los correos electrónicos que llegan a esta bandeja de entrada.

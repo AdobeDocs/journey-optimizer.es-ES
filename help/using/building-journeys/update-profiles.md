@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: perfil, actualizar, recorrido, actividad
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 9010b173eb5126fff72d71aa582b265cc05fddf0
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '610'
 ht-degree: 6%
 
 ---
@@ -27,7 +27,7 @@ Utilice el **[!UICONTROL Actualizar perfil]** actividad de acción para actualiz
 
 ## Recomendaciones
 
-* El **Actualizar perfil** la acción solo se puede utilizar en recorridos que comiencen por un evento que tenga un área de nombres.
+* El **Actualizar perfil** la acción solo se puede utilizar en recorridos que tengan un área de nombres.
 * La acción solo actualiza los campos existentes, no crea nuevos campos de perfil.
 * No puede usar el **Actualizar perfil** acción para generar eventos de experiencia, por ejemplo una compra.
 * Al igual que cualquier otra acción, puede definir una ruta alternativa en caso de error o tiempo de espera, y no puede colocar dos acciones en paralelo.

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorrido, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 22%
+source-wordcount: '1450'
+ht-degree: 21%
 
 ---
 
@@ -74,7 +74,7 @@ Estos son los pasos principales necesarios para configurar una acción personali
 
    >[!NOTE]
    >
-   >No utilice espacios ni caracteres especiales. No utilice más de 30 caracteres.
+   >Solo se permiten caracteres alfanuméricos y guiones bajos. La longitud máxima es de 30 caracteres.
 
 1. Añada una descripción a la acción. Este paso es opcional.
 1. El número de recorridos que utilizan esta acción se muestra en la variable **[!UICONTROL Utilizado en]** field. Puede hacer clic en **[!UICONTROL Ver recorridos]** para mostrar la lista de recorridos con esta acción.

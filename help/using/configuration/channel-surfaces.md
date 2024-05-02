@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1738'
 ht-degree: 9%
 
 ---
@@ -68,6 +68,8 @@ Para crear una superficie de canal, siga estos pasos:
    >
    > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar guiones bajos `_`, punto`.` y guiones `-` caracteres.
 
+1. Para asignar etiquetas de uso de datos personalizadas o principales a la superficie, puede seleccionar **[!UICONTROL Administrar acceso]**. [Obtenga más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
+
 1. Si seleccionó la **[!UICONTROL Correo electrónico]** canal, configure los ajustes tal como se describe en [esta sección](../email/email-settings.md).
 
    ![](assets/preset-email.png)
@@ -80,7 +82,7 @@ Para crear una superficie de canal, siga estos pasos:
    >
    >Para obtener más información sobre cómo configurar su entorno para enviar notificaciones push, consulte [esta sección](../push/push-gs.md).
 
-1. Para el **[!UICONTROL SMS]** canal, defina su configuración como se detalla en [esta sección](../sms/sms-configuration.md#message-preset-sms).
+1. Para el **[!UICONTROL SMS]** canal, defina su configuración como se detalla en [esta sección](../sms/sms-configuration.md).
 
    ![](assets/preset-sms.png)
 
@@ -88,18 +90,17 @@ Para crear una superficie de canal, siga estos pasos:
    >
    >Para obtener más información sobre cómo configurar su entorno para enviar mensajes SMS, consulte [esta sección](../sms/sms-configuration.md).
 
-<!--
-1. Select a **[!UICONTROL Marketing action]** to associate consent policies to the messages using this surface. All consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers. [Learn more](../action/consent.md#marketing-actions)
+1. Seleccione una **[!UICONTROL Acción de marketing]** para asociar directivas de consentimiento a los mensajes que utilizan esta superficie. Todas las políticas de consentimiento asociadas con esa acción de marketing se aprovechan para respetar las preferencias de los clientes. [Más información](../action/consent.md#surface-marketing-actions)
 
-    >[!NOTE]
-    >
-    >Consent policies are currently only available for organizations that have purchased the **Healthcare Shield** and **Privacy and Security Shield** add-on offerings. [Learn more](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html){target="_blank"}
+   >[!NOTE]
+   >
+   >Actualmente, las políticas de consentimiento solo están disponibles para las organizaciones que han adquirido el **Healthcare Shield** y **Escudo de seguridad y privacidad** ofertas de complementos.
 
-    ![](assets/surface-marketing-action.png)
+   ![](assets/surface-marketing-action.png)
 
-    >[!NOTE]
-    >
-    >You can only select one marketing action.-->
+   >[!NOTE]
+   >
+   >Solo puede seleccionar una acción de marketing.
 
 1. Una vez configurados todos los parámetros, haga clic en **[!UICONTROL Enviar]** para confirmar. También se puede guardar la superficie de canal como inclinación y reanudar su configuración más adelante.
 

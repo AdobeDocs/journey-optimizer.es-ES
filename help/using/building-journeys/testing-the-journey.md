@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1536'
 ht-degree: 10%
 
 ---
@@ -33,7 +33,7 @@ Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba.
 
 Para utilizar el modo de prueba, siga estos pasos:
 
-1. Para activar el modo de prueba, active la variable **[!UICONTROL Prueba]** , situado en la esquina superior derecha.
+1. Para activar el modo de prueba, haga clic en **[!UICONTROL Modo de prueba]** botón, situado en la esquina superior derecha.
 
    ![](assets/journeytest1.png)
 

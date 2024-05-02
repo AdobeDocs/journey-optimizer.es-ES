@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 17%
+source-wordcount: '1177'
+ht-degree: 18%
 
 ---
 
@@ -104,6 +104,10 @@ Tenga en cuenta que para la actividad en la aplicación, cualquier cambio se pue
 >title="Acerca de la optimización del tiempo de envío"
 >abstract="La función de optimización del tiempo de envío de Adobe Journey Optimizer, con tecnología de los servicios de IA de Adobe, puede predecir el mejor momento para enviar un mensaje push o de correo electrónico para maximizar la participación en función de las tasas históricas de apertura y clics."
 
+>[!NOTE]
+>
+>Esta función no está activada de forma predeterminada. Póngase en contacto con el representante del Adobe para activarlo.
+
 ### Acerca de la optimización del tiempo de envío {#about-send-time}
 
 La función de optimización del tiempo de envío de Adobe Journey Optimizer, con tecnología de los servicios de IA de Adobe, puede predecir el mejor momento para enviar un mensaje push o de correo electrónico para maximizar la participación en función de la apertura histórica y las tasas de clics. Utilice nuestro modelo de aprendizaje automático para programar tiempos de envío personalizados para cada usuario y, así, aumentar las tasas de apertura y de clics de sus mensajes.
@@ -120,10 +124,6 @@ El modelo varía si se habla de puntuación o de formación. La capacitación se
 * Puntuación: la aplicación de una puntuación a perfiles individuales en función del modelo entrenado
 
 Esta información se almacena con el perfil del usuario y se hace referencia a ella en la ejecución del recorrido para indicar a Adobe Journey Optimizer cuándo enviar el mensaje.
-
->[!CAUTION]
->
->Esta función no es compatible con el modo de ráfaga.
 
 ### Preguntas más frecuentes {#faq-send-time}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '467'
 ht-degree: 19%
 
 ---
@@ -59,14 +59,6 @@ Sin embargo, Journey Optimizer admite exclusiones globales basadas en palabras c
 Los ID de remitente alfanuméricos solo se utilizan en la mensajería unidireccional y no pueden recibir mensajes. Como resultado, STOP, START y HELP, las palabras clave de SMS de Adobe Journey Optimizer, no son aplicables a los ID de remitente de Alpha. Debe proporcionar otras instrucciones, como escribir al Equipo de Soporte, llamar a una línea telefónica de asistencia o enviar un mensaje de texto a otro número de teléfono o código para permitir a los usuarios excluirse de los mensajes enviados a través de un ID de remitente alfanumérico.
 
 ## Vídeo {#video-sms}
-
-* El siguiente vídeo muestra cómo funciona la compatibilidad con palabras clave entrantes nativas (START, STOP y UNSTOP) para SMS.
-
-+++ Ver vídeo
-
-  >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
-
-+++
 
 * El siguiente vídeo le ayuda a configurar la doble inclusión para SMS.
 

@@ -5,17 +5,15 @@ title: Nueva interfaz de recorrido
 feature: Release Notes
 topic: Content Management
 description: Nueva interfaz de recorrido
-hide: true
-hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: b6b3f710d08fb7f0949e75521ce126fa43d6cdc5
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '556'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Bienvenido al Diseñador de Recorridos mejorado {#new-canvas}
+# Bienvenido al Diseñador de recorridos mejorado {#new-canvas}
 
 Journey Optimizer ahora ofrece un **modelo de recorrido simplificado** que tiene como objetivo mejorar la experiencia del usuario y los procesos internos. A partir de la versión de abril, podrá beneficiarse de las siguientes funciones:
 
@@ -68,12 +66,12 @@ También permite al equipo de productos añadir más información en el lienzo c
 
 ![](assets/new-canvas5.png)
 
-
 ## Creación de informes en directo en el lienzo de recorrido
 
 Además de la presentación mejorada del lienzo de recorrido, se está introduciendo una nueva función para permitir a los usuarios ver las métricas de informes en tiempo real de **las últimas 24 horas**, denominados informes en directo, directamente en el lienzo del recorrido.
 
 Para cada actividad dentro de cada recorrido activo que utilice el nuevo modelo, tiene acceso a:
+
 
 * Recuento de perfiles que entran en esta actividad.
 * Recuento de perfiles que salen de esta actividad debido a un error.

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: actividad, condición, lienzo, recorrido
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 17%
@@ -154,11 +154,10 @@ En esta sección se explica cómo utilizar una audiencia en una condición de re
 Para utilizar una audiencia en una condición de recorrido, siga estos pasos:
 
 1. Abra un recorrido y suelte un **[!UICONTROL Condición]** y elija la **Condición de fuente de datos**.
-   ![](assets/journey47.png)
-
-1. Clic **[!UICONTROL Añadir una ruta]** para cada ruta adicional necesaria. Para cada ruta, haga clic en **[!UICONTROL Expresión]** field.
 
    ![](assets/segment3.png)
+
+1. Clic **[!UICONTROL Añadir una ruta]** para cada ruta adicional necesaria. Para cada ruta, haga clic en **[!UICONTROL Expresión]** field.
 
 1. En el lado izquierdo, despliegue **[!UICONTROL Audiencias]** nodo. Arrastre y suelte la audiencia que desee utilizar para la condición. De forma predeterminada, la condición de la audiencia es verdadera.
 
