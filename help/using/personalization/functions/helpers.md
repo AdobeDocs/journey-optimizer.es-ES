@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 3b9822121390548546ab6628504ea9dd1101fb48
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 4%
@@ -135,7 +135,7 @@ Some edu specific content Content
 
 El `each` El asistente se utiliza para iterar en una matriz.
 La sintaxis del asistente es ```{{#each ArrayName}}``` Su contenido {{/each}}
-Podemos hacer referencia a los elementos de matriz individuales utilizando la palabra clave **esta** dentro del bloque. El índice del elemento de la matriz se puede procesar utilizando {{@index}}.
+Podemos hacer referencia a los elementos de matriz individuales utilizando la palabra clave **esta** dentro del bloque. El índice del elemento de la matriz se puede representar mediante {{@index}}.
 
 **Sintaxis**
 
@@ -205,5 +205,11 @@ El `let` permite almacenar una expresión como variable para usarla posteriormen
 El siguiente ejemplo permite todas las sumas de totales de productos con la transacción en USD donde la suma es mayor que 100 dólares y menor que 1000 dólares.
 
 ```sql
-{% let variable = expression %} {{variable}}
+{% let sum = 0%}
+    {{#each profile.productsInCart as |p|}}
+        {%#if p.price>100 and p.price<1000%}
+            {%let sum = sum + p.price %}
+        {%/if%}
+    {{/each}}
+{{sum}}
 ```
