@@ -10,9 +10,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: fd58a52a652243a411e61c5b83a329f988348265
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 10%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 10%
 
 >[!ENDSHADEBOX]
 
-Una vez que haya creado y personalizado los mensajes, eleve el contenido con el Journey Optimizer AI Assistant, que incluye la función Experimento de contenido. Esta herramienta le permite definir varios tratamientos de entrega, con contenido variable, para medir el rendimiento de la audiencia de destino.
+Una vez que haya creado y personalizado sus mensajes, eleve su contenido con el asistente de IA en Adobe Journey Optimizer, que incluye la función Experimento de contenido. Esta herramienta le permite definir varios tratamientos de entrega, con contenido variable, para medir el rendimiento de la audiencia de destino.
 
 1. Cree su campaña y utilice el asistente de IA para generar sus variantes.
 
