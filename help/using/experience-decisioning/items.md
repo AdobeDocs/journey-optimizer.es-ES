@@ -12,7 +12,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '1786'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -40,7 +40,7 @@ Antes de crear un elemento de decisión, asegúrese de haber creado un **regla d
 
 Para crear un elemento de decisión, vaya a **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Catálogos]**, luego haga clic en **[!UICONTROL Crear elemento]** a continuación, siga los pasos detallados en las secciones siguientes.
 
-## Definir los atributos del elemento de decisión {#attributes}
+## Definición de los atributos del elemento de decisión {#attributes}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_priority"
@@ -70,7 +70,7 @@ Comience por definir los atributos estándar y personalizados del elemento de de
 
 1. Una vez definidos los atributos del elemento de decisión, haga clic en **[!UICONTROL Siguiente]**.
 
-## Configurar la idoneidad del elemento de decisión {#eligibility}
+## Configuración de la idoneidad del elemento de decisión {#eligibility}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
