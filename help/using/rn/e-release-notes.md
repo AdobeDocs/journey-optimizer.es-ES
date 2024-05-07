@@ -11,7 +11,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Las notas de la versión preliminar están sujetas a cambios sin previo aviso ha
 
 ## Notas de la versión preliminar de abril de 2024 {#e-2024}
 
-**Fecha de lanzamiento**: 2 de mayo de 2024
+**Fecha de la versión**: 2 de mayo de 2024
 
 ### Nuevas funciones {#e-features}
 
@@ -85,7 +85,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <tbody>
 <tr>
 <td>
-<p>Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del servicio de mensajes multimedia (MMS), lo que le permite compartir imágenes, GIF o vídeos con sus clientes. Inicialmente solo disponible con Sinch, MMS ahora también está disponible con Infobip y Twilio.</p>
+<p>Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del servicio de mensajes multimedia (MMS), lo que le permite compartir imágenes, GIF o vídeos con sus clientes. Inicialmente, solo disponible con Sinch, MMS también está ahora disponible con Infobip y Twilio.</p>
 <img src="assets/do-not-localize/mms.gif"/>
 </td>
 </tr>
@@ -95,17 +95,17 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <table>
 <thead>
 <tr>
-<th><strong>Diseñador de Recorridos y sistema de informes en directo mejorados</strong><br/></th>
+<th><strong>Diseñador de recorridos optimizado y sistema de informes en directo</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Esta versión incorpora una interfaz de usuario de lienzo mejorada para recorridos y proporciona una experiencia de usuario más intuitiva y eficaz. Las actividades son más claras y presentan más información en el lienzo del recorrido con menos clics.</p>
+<p>Esta versión incorpora una interfaz de usuario de lienzo mejorada para los recorridos y proporciona una experiencia del usuario más intuitiva y eficaz. Las actividades son más claras y presentan más información en el lienzo del recorrido con menos clics.</p>
 <img src="assets/new-canvas3.gif"/>
-<p>Junto con el diseño mejorado del lienzo del recorrido, presentamos la capacidad de ver las métricas de informes de las últimas 24 horas directamente en el lienzo del recorrido. </p>
+<p>Junto con el diseño mejorado del lienzo de recorrido, presentamos la capacidad de ver las métricas de creación de informes de las últimas 24 horas directamente en el lienzo de recorrido. </p>
 <img src="assets/new-canvas6bis.png"/>
-<p><strong>Nota</strong>: Estos cambios se implementarán gradualmente en todos los entornos a partir de la versión de abril.</p>
+<p><strong>Nota</strong>: estos cambios se implementarán gradualmente en todos los entornos a partir de la versión de abril.</p>
 <p>Para obtener más información, consulte la <a href="new-canvas.md">documentación detallada</a>.</p>
 </td>
 </tr>
