@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: aa53f96068e0cfa84c1ac5ddd32d36b3fb4bbd03
-workflow-type: ht
-source-wordcount: '533'
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+workflow-type: tm+mt
+source-wordcount: '535'
 ht-degree: 100%
 
 ---
@@ -61,12 +61,13 @@ Con [Etiquetas unificadas](https://experienceleague.adobe.com/docs/experience-pl
 
 El campo **[!UICONTROL Etiquetas]** le permite definir etiquetas para el objeto. Las etiquetas están disponibles para los siguientes objetos:
 
-* [Recorridos](../building-journeys/journey-gs.md#change-properties)
 * [Campañas](../campaigns/create-campaign.md#create)
-* [Plantillas](../content-management/content-templates.md)
+* [Elementos de decisión](../experience-decisioning/items.md)
 * [Fragmentos](../content-management/fragments.md)
-* [Listas de suscripciones](../landing-pages/subscription-list.md)
+* [Recorridos](../building-journeys/journey-gs.md#change-properties)
 * [Páginas de aterrizaje](../landing-pages/create-lp.md)
+* [Listas de suscripciones](../landing-pages/subscription-list.md)
+* [Plantillas](../content-management/content-templates.md)
 
 Puede seleccionar una etiqueta existente o crear una nueva. Para ello, siga los pasos que aparecen a continuación.
 

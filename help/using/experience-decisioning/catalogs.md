@@ -5,28 +5,16 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 5%
+source-wordcount: '307'
+ht-degree: 0%
 
 ---
 
 # Catálogo de artículos {#catalog}
-
->[!BEGINSHADEBOX &quot;Lo que encontrará en esta guía de documentación&quot;]
-
-* [Introducción a Experience Decisioning](gs-experience-decisioning.md)
-* Administrar los elementos de decisión: **[Configurar el catálogo de artículos](catalogs.md)** - [Crear elementos de decisión](items.md) - [Administrar colecciones de elementos](collections.md)
-* Configurar la selección de elementos: [Creación de reglas de decisión](rules.md) - [Crear métodos de clasificación](ranking.md)
-* [Creación de estrategias de selección](selection-strategies.md)
-* [Creación de políticas de decisión](create-decision.md)
-
->[!ENDSHADEBOX]
 
 En Experience Decisioning, los catálogos sirven como contenedores centrales para organizar los elementos de decisión. Cada catálogo está vinculado a un esquema de Adobe Experience Platform, que incluye todos los atributos asignables a un elemento de decisión.
 
@@ -53,10 +41,9 @@ Para acceder al esquema del catálogo donde se almacenan los atributos de los el
 
    >[!CAUTION]
    >
-   >Por ahora, Experience Decisioning admite exclusivamente los tipos de datos enumerados a continuación. Cualquier campo que no pertenezca a estos tipos de datos no estará disponible para su uso al crear un elemento de decisión.
-   >* Cadena
-   >* Booleano
-   >* Número
+   >Por ahora, Experience Decisioning admite exclusivamente los siguientes tipos de datos: cadena, entero, booleano, fecha, hora y recurso de toma de decisiones. Cualquier campo que no pertenezca a estos tipos de datos no estará disponible para su uso durante la creación de un elemento de decisión o un catálogo.
+
+   El valor que se introduce en un atributo con el atributo de recurso de toma de decisiones es una URL pública. La mayoría de las veces esto apuntaría a una imagen.
 
    Encontrará información detallada sobre cómo trabajar con esquemas de Adobe Experience Platform en la [Documentación del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=es).
 

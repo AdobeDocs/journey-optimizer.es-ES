@@ -5,14 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 19%
+source-wordcount: '722'
+ht-degree: 15%
 
 ---
 
@@ -21,7 +19,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
 >title="Definición de las estrategias de selección"
->abstract="Una estrategia de selección es un elemento reutilizable, que consiste en una colección asociada con una restricción de idoneidad y un método de clasificación para determinar las ofertas que se mostrarán cuando se seleccionen en una política de decisión."
+>abstract="Una estrategia de selección es reutilizable y consiste en una colección asociada con una restricción de elegibilidad y un método de clasificación para determinar las ofertas que se mostrarán cuando se seleccionen en una política de decisión."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html?lang=es" text="Creación de políticas de decisión"
 
 >[!CONTEXTUALHELP]
@@ -31,21 +29,11 @@ ht-degree: 19%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=es" text="Uso de públicos"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=es" text="Uso de reglas de decisión"
 
->[!BEGINSHADEBOX &quot;Lo que encontrará en esta guía de documentación&quot;]
-
-* [Introducción a Experience Decisioning](gs-experience-decisioning.md)
-* Administrar los elementos de decisión: [Configurar el catálogo de artículos](catalogs.md) - [Crear elementos de decisión](items.md) - [Administrar colecciones de elementos](collections.md)
-* Configurar la selección de elementos: [Creación de reglas de decisión](rules.md) - [Crear métodos de clasificación](ranking.md)
-* **[Crear estrategias de selección](selection-strategies.md)**
-* [Creación de políticas de decisión](create-decision.md)
-
->[!ENDSHADEBOX]
-
-Una estrategia de selección es un elemento reutilizable, que consiste en una colección asociada con una restricción de elegibilidad y un método de clasificación para determinar las ofertas que se mostrarán cuando se seleccionen en una [política decisión](create-decision.md).
+Una estrategia de selección es reutilizable y consiste en una colección asociada con una restricción de elegibilidad y un método de clasificación para determinar las ofertas que se mostrarán cuando se seleccionen en una [política decisión](create-decision.md).
 
 ## Acceso y administración de estrategias de selección
 
-1. Ir a **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Configuración]** > **[!UICONTROL Estrategias de selección]**.
+1. Ir a **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Configuración de estrategia]** > **[!UICONTROL Estrategias de selección]**.
 
 1. Se muestran todas las estrategias de selección creadas hasta el momento. Hay filtros disponibles para ayudarle a recuperar estrategias según el método de clasificación.
 
@@ -77,8 +65,6 @@ Para crear una estrategia de selección, siga los pasos a continuación.
 
 1. Seleccione el [colección](collections.md) que contiene las ofertas que se deben tener en cuenta.
 
-1. Seleccione la oferta [colección](collections.md) que contiene las ofertas que se deben tener en cuenta.
-
 1. Utilice el **[!UICONTROL Idoneidad]** para restringir la selección de ofertas para esta estrategia de selección.
 
    ![](assets/strategy-create-eligibility.png)
@@ -95,7 +81,7 @@ Para crear una estrategia de selección, siga los pasos a continuación.
 
    * Si desea utilizar una puntuación calculada específica para elegir qué oferta apta para enviar, seleccione [Fórmula](#ranking-formula) o [modelo de IA](#ai-ranking).
 
-1. Haga clic en **[!UICONTROL Crear]**. Ahora está listo para utilizarse en un [decisión](create-decision.md)
+1. Haga clic en **[!UICONTROL Crear]**. Ahora está listo para utilizarse en un [política decisión](create-decision.md)
 
 ## Seleccione un método de clasificación {#select-ranking-method}
 
@@ -113,7 +99,7 @@ Si se pueden seleccionar varias ofertas para una estrategia de selección determ
 
 ### Prioridad de ofertas {#offer-priority}
 
-De forma predeterminada, cuando varias ofertas son aptas para una ubicación determinada en una decisión, los artículos con la mayor cantidad **priority** primero se entregarán a los clientes.
+De forma predeterminada, cuando varias ofertas son elegibles para una ubicación determinada en una política de decisión, los elementos con la mayor cantidad **priority** primero se entregarán a los clientes.
 
 ![](assets/item-priority.png)
 

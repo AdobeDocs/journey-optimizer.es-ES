@@ -5,14 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 50%
+source-wordcount: '370'
+ht-degree: 51%
 
 ---
 
@@ -33,16 +31,6 @@ ht-degree: 50%
 >title="Elija una colección"
 >abstract="Seleccione la colección que contiene las ofertas que se deben tener en cuenta. Este paso es obligatorio al crear una estrategia de selección. Las colecciones le permiten categorizar y agrupar los elementos de decisión según sus preferencias. Por ejemplo, puede crear una colección que incluya todos los elementos de decisión con el valor &quot;Yoga&quot; en el atributo personalizado &quot;Categoría&quot;."
 
->[!BEGINSHADEBOX &quot;Lo que encontrará en esta guía de documentación&quot;]
-
-* [Introducción a Experience Decisioning](gs-experience-decisioning.md)
-* Administrar los elementos de decisión: [Configurar el catálogo de artículos](catalogs.md) - [Crear elementos de decisión](items.md) - **[Administrar colecciones de elementos](collections.md)**
-* Configurar la selección de elementos: [Creación de reglas de decisión](rules.md) - [Crear métodos de clasificación](ranking.md)
-* [Creación de estrategias de selección](selection-strategies.md)
-* [Creación de políticas de decisión](create-decision.md)
-
->[!ENDSHADEBOX]
-
 Las colecciones le permiten categorizar y agrupar los elementos de decisión según sus preferencias. Estas categorías se crean creando reglas que aprovechan los atributos de los elementos de decisión.
 
 Por ejemplo, supongamos que ha agregado un atributo personalizado &quot;Categoría&quot; al esquema de catálogo de los elementos de decisión. Esto le permite crear una colección que incluye todos los elementos de decisión con el valor &quot;Yoga&quot; en el atributo &quot;Categoría&quot;.
@@ -58,6 +46,7 @@ Para crear una colección, siga estos pasos:
    1. Elija un atributo de elemento para utilizarlo como criterio. La lista de atributos incluye todos los atributos estándar y personalizados definidos en el esquema del catálogo. [Más información sobre el catálogo de artículos](catalogs.md)
    1. Seleccione el operador deseado e introduzca el valor por el que filtrar.
    1. Repita estos pasos para agregar tantas reglas como sea necesario. Cuando se añaden varias reglas, puede elegir entre las siguientes **Y** y **O** operadores para combinarlos. Para ello, haga clic en el distintivo del operador para cambiar entre las dos opciones.
+   1. Haga clic en **[!UICONTROL Previsualizar colección]** para mostrar los elementos que cumplen las reglas definidas.
 
    ![](assets/collection-create.png)
 
