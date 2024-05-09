@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introducción al contenido multilingüe
+title: Creación de contenido multilingüe con traducción automática
 description: Obtenga más información sobre el contenido multilingüe en Journey Optimizer
 feature: Multilingual Content
 topic: Content Management
@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Beta" type="Informative"
-source-git-commit: d8926076d30fb07ea10e06ea8ee025b04ba5bb85
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 3%
+source-wordcount: '1371'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 * [Introducción al contenido multilingüe](multilingual-gs.md)
 * [Creación de contenido multilingüe con traducción manual](multilingual-manual.md)
-* **[Creación de contenido multilingüe con traducción automática](multilingual-automated.md)**
+* Creación de contenido multilingüe con traducción automática
 * [Informe de campaña multilingüe](multilingual-report.md)
 
 >[!ENDSHADEBOX]
