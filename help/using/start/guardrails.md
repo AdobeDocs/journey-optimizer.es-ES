@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
 workflow-type: tm+mt
-source-wordcount: '2022'
-ht-degree: 100%
+source-wordcount: '2020'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ Sin embargo, según el contrato de licencia, puede delegar hasta 100 subdominios
 ## Protecciones de fragmentos {#fragments-guardrails}
 
 * Los fragmentos visuales solo están disponibles para el canal de correo electrónico.
-* Los fragmentos de expresiones no están disponibles para los canales web y en la aplicación.
+* Los fragmentos de expresiones no están disponibles para el canal en la aplicación.
 
 ## Mecanismos de protección de recorridos {#journeys-guardrails}
 

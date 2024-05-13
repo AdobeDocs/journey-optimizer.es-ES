@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: dbe8ea3a8655f180576dafc5d1a65feb58fb57df
+source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1561'
 ht-degree: 13%
 
 ---
@@ -53,7 +53,7 @@ En esta versión, se aplican las siguientes limitaciones:
 
 * Los fragmentos visuales solo están disponibles para el canal de correo electrónico
 
-* Los fragmentos de expresiones no están disponibles para los canales web y en la aplicación
+* Los fragmentos de expresiones no están disponibles para el canal en la aplicación
 
 ## Acceso y administración de fragmentos {#access-manage-fragments}
 
