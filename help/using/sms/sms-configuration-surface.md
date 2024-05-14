@@ -6,14 +6,15 @@ description: Aprenda a configurar su superficie de SMS/MMS para enviar mensajes 
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 0d541520-016e-468f-b011-808712847556
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
-# Crear una superficie SMS/MMS {#message-preset-sms}
+# Crear una superficie de SMS/MMS {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
@@ -87,4 +88,3 @@ Para crear una superficie de canal, siga estos pasos:
    ![](assets/preset-active.png)
 
 Ya está listo para enviar mensajes de texto con Journey Optimizer.
-
