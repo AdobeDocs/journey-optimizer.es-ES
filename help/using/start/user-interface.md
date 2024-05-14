@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: e9a32d396b3ebca1e0c7d115f12024eef55aeaa4
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 100%
+source-wordcount: '1317'
+ht-degree: 97%
 
 ---
 
@@ -193,3 +193,66 @@ Para cambiar el idioma:
 * A continuación, haga clic en el idioma mostrado debajo de su dirección de correo electrónico
 * Seleccione el idioma que prefiera y haga clic en **Guardar**. Puede elegir un segundo idioma en caso de que el componente que utilice no esté localizado en su primero.
   ![](assets/select-language.png)
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_name"
+>title="Nombre de configuración móvil y web"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_swift_dependencies_add"
+>title="Añadir dependencias"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_swift_initialization_code"
+>title="Añadir código de inicialización"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_validate_assurance"
+>title="Validar con Assurance"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_javascript_code"
+>title="Código JavaScript"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_javascript_site"
+>title="Lanzamiento del sitio y validación"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_token"
+>title="Recuperar el token del dispositivo"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_xcode"
+>title="Inicie la aplicación desde Xcode."
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_certificate"
+>title="Proporcionar un certificado push"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_key_id"
+>title="ID de clave"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_team_id"
+>title="Identificador de equipo"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_inapp_tag_property"
+>title="Elija su propiedad de etiquetas"
+>abstract="Continuará"
+
+
