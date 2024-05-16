@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
+source-git-commit: cf751ea0e2a6b02ab996c712ac1309ac06b32979
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 34%
+source-wordcount: '764'
+ht-degree: 31%
 
 ---
 
@@ -85,33 +85,17 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <table>
 <thead>
 <tr>
-<th><strong>Compatibilidad con varias entidades para la búsqueda local: beta</strong><br/></th>
+<th><strong>Datos de personalización extendidos: beta</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Por determinar</p>
+<p>Ahora puede buscar y recuperar valores de datos dentro de conjuntos de datos de Adobe Experience Platform y utilizar estos valores para crear condiciones en Adobe Journey Optimizer. Puede aprovechar los datos de un conjunto de datos de búsqueda cuando se ha definido una relación con un atributo dentro de una matriz de objetos. Los valores de búsqueda estarán disponibles en las condiciones de sus recorridos, las acciones personalizadas y la personalización de mensajes.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Email Surface Personalization - Private beta </strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now define dynamic subdomains and personalized header parameters when creating email channel surfaces, for increased flexibility and control over your email settings.</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 ### Mejoras {#e-improvements}
 
@@ -137,7 +121,7 @@ Desde la versión beta a LA, se han añadido las siguientes mejoras:
 **Canal de correo electrónico**
 
 * **Cancelación de suscripción a lista** - Después de los recientes anuncios de Gmail y Yahoo para remitentes masivos, Journey Optimizer admite la opción de cancelación de suscripción a una lista &quot;posterior/1 clic&quot;.
-* **Puntuación de spam** : Ahora puede comprobar la puntuación de correo no deseado del contenido en un informe de correo no deseado dedicado. Con SpamAssassin, Adobe Journey Optimizer ahora puede probar el contenido del correo electrónico y asignarle una puntuación para indicar si los proveedores de ISP lo considerarán como correo no deseado o no. [Más información](../content-management/spam-report.md)
+* **Puntuación de spam** (Beta): Ahora puede comprobar la puntuación de correo no deseado del contenido en un informe de correo no deseado dedicado. Con SpamAssassin, Adobe Journey Optimizer ahora puede probar el contenido del correo electrónico y asignarle una puntuación para indicar si los proveedores de ISP lo considerarán como correo no deseado o no. [Más información](../content-management/spam-report.md)
 
 
 **Públicos**
@@ -146,10 +130,10 @@ Desde la versión beta a LA, se han añadido las siguientes mejoras:
 
 **Personalización**
 
-* **Tabla de búsqueda** - Ahora puede aprovechar los datos de un conjunto de datos de búsqueda cuando se ha definido una relación con un atributo dentro de una matriz de objetos. Los valores de búsqueda estarán disponibles en recorridos (condiciones, acciones personalizadas, etc.) y personalización de mensajes.
-* **Fragmento de expresión** : Los fragmentos de expresiones ya están disponibles para el canal en la aplicación.
+* **Fragmento de expresión** - Los fragmentos de expresiones ya están disponibles para **Canal en la aplicación**. [Más información](../personalization/use-expression-fragments.md)
 
 **Recorridos**
 
 * **Políticas de combinación** - Las políticas de combinación ahora se pueden configurar y utilizar en los recorridos.
 * **Compatibilidad con mTLS** : el protocolo mTLS ahora se admite en las API de Journey Optimizer y en las acciones personalizadas.
+* **Tablas de búsqueda en eventos** - Ahora puede aprovechar los datos de un conjunto de datos de búsqueda cuando se ha definido una relación con un atributo dentro de una matriz de objetos. Los valores de búsqueda estarán disponibles en recorridos (condiciones, acciones personalizadas, etc.) y personalización de mensajes.
