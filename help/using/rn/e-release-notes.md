@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: cf751ea0e2a6b02ab996c712ac1309ac06b32979
+source-git-commit: 2eb1ffff7101362b52ae91f1a7277188664b2954
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '778'
 ht-degree: 31%
 
 ---
@@ -91,7 +91,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede buscar y recuperar valores de datos dentro de conjuntos de datos de Adobe Experience Platform y utilizar estos valores para crear condiciones en Adobe Journey Optimizer. Puede aprovechar los datos de un conjunto de datos de búsqueda cuando se ha definido una relación con un atributo dentro de una matriz de objetos. Los valores de búsqueda estarán disponibles en las condiciones de sus recorridos, las acciones personalizadas y la personalización de mensajes.</p>
+<p>Ahora puede buscar y recuperar valores de datos dentro de conjuntos de datos de Adobe Experience Platform y utilizar estos valores para crear condiciones en Adobe Journey Optimizer. Puede aprovechar los datos de un conjunto de datos de búsqueda cuando se ha definido una relación con un atributo dentro de una matriz de objetos. Puede especificar conjuntos de datos que no tengan perfil habilitado para la búsqueda. Una vez habilitado, puede utilizar un atributo de perfil como clave de unión al conjunto de datos especificado para recuperar más datos para personalizar.</p>
 </td>
 </tr>
 </tbody>
