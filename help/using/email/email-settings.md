@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
 workflow-type: tm+mt
 source-wordcount: '2415'
 ht-degree: 11%
@@ -145,7 +145,7 @@ Al definir la variable **[!UICONTROL Responder a (correo electrónico)]** direcc
 
 La bandeja de entrada utilizada para las respuestas recibirá todos los correos electrónicos de respuesta, excepto las notificaciones de fuera de la oficina y las respuestas de desafío, que se reciben en la **[!UICONTROL Correo electrónico de error]** dirección.
 
-Para garantizar una administración de respuestas adecuada, siga las recomendaciones a continuación:
+Para garantizar una administración de respuestas adecuada, siga las recomendaciones siguientes:
 
 * Asegúrese de que la bandeja de entrada dedicada tenga suficiente capacidad de recepción para recibir todos los correos electrónicos de respuesta enviados mediante la superficie de correo electrónico. Si la bandeja de entrada devuelve devoluciones, es posible que algunas respuestas de sus clientes no se reciban.
 

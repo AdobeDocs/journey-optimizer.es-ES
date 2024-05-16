@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: personalizado, general, eventos, recorrido
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 12%
@@ -58,7 +58,7 @@ Tenga en cuenta que si desea configurar un tiempo de espera en varios eventos co
 
 El tiempo de espera definido se aplica a todos los eventos colocados después de **[!UICONTROL Esperar]** actividad:
 
-* Si se revisa un evento dentro de la duración del tiempo de espera, el individuo fluye a la ruta del evento recibido.
+* Si se recibe un evento dentro de la duración del tiempo de espera, el individuo fluye a la ruta del evento recibido.
 * Si no se recibe ningún evento dentro de la duración del tiempo de espera, el individuo fluye a la rama de tiempo de espera del evento en la que se ha definido el tiempo de espera.
 
 ![](assets/event-timeout-group.png)
