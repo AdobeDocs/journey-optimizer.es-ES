@@ -8,7 +8,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
+source-git-commit: 4c1dca7815594bbbf5a2d84682338e8b2d743965
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -30,8 +30,7 @@ Esto le permite determinar si un mensaje corre el riesgo de que las herramientas
 >
 >* Por ahora, el análisis del informe de correo no deseado solo se puede realizar para el contenido en inglés.
 >
->* >
->El informe de correo no deseado es informativo y no impide enviar mensajes con una puntuación incorrecta.
+>* El informe de correo no deseado es informativo y no impide enviar mensajes con una puntuación incorrecta.
 
 Para acceder a **[!UICONTROL Informe de spam]**, siga los pasos a continuación.
 
