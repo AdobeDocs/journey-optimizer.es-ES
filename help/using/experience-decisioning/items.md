@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 badge: label="Disponibilidad limitada"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
+source-git-commit: b6c5bb09d7a1cb7f61a532cd5ffd262436e09039
 workflow-type: tm+mt
 source-wordcount: '1746'
 ht-degree: 14%
@@ -121,7 +121,7 @@ Para establecer las reglas de límite para el elemento de decisión, haga clic e
 
    * Seleccionar **[!UICONTROL En total]** para definir cuántas veces se puede proponer el elemento en la audiencia de destino combinada, es decir, en todos los usuarios. Por ejemplo, si es un minorista de electrónica con una &quot;oferta de venta de televisores&quot;, quiere que la oferta solo se devuelva 200 veces en todos los perfiles.
 
-* Seleccionar **[!UICONTROL Por perfil]** para definir cuántas veces se puede proponer la oferta al mismo usuario. Por ejemplo, si es un banco con una oferta de &quot;tarjeta de crédito Platinum&quot;, no desea que esta oferta se muestre más de 5 veces por perfil. De hecho, cree que si el usuario ha visto la oferta 5 veces y no ha actuado en consecuencia, tiene una mayor oportunidad de actuar en la siguiente mejor oferta.
+   * Seleccionar **[!UICONTROL Por perfil]** para definir cuántas veces se puede proponer la oferta al mismo usuario. Por ejemplo, si es un banco con una oferta de &quot;tarjeta de crédito Platinum&quot;, no desea que esta oferta se muestre más de 5 veces por perfil. De hecho, cree que si el usuario ha visto la oferta 5 veces y no ha actuado en consecuencia, tiene una mayor oportunidad de actuar en la siguiente mejor oferta.
 
 1. En el **[!UICONTROL Límite de recuento límite]** , especifique el número de veces que la oferta se puede presentar a todos los usuarios o por perfiles, según el tipo de límite seleccionado. El número debe ser un número entero mayor que 0.
 
