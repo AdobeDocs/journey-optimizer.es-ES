@@ -6,10 +6,10 @@ description: Notas de la primera versión de Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7addbcaf12611860c0dde239b68be54493b99bb9
+source-git-commit: 72bf2933ad8e6a627b762c2eec62191d85d7e0cf
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 25%
+source-wordcount: '649'
+ht-degree: 28%
 
 ---
 
@@ -64,22 +64,22 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Reglas empresariales: beta</strong><br/></th>
+<th><strong>Business rules - Beta</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear reglas de límite de frecuencia granulares y aplicarlas a diferentes tipos de comunicaciones de marketing a través de conjuntos de reglas. Esta nueva funcionalidad le permite controlar la frecuencia con la que las audiencias reciben un mensaje configurando reglas en canales múltiples que excluyen automáticamente los perfiles saturados de los mensajes y las acciones.</p>
-<p>La funcionalidad de reglas empresariales está disponible actualmente como una versión beta. Para unirse al programa beta, póngase en contacto con el representante del Adobe.</p>
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+<p>You can now create granular frequency capping rules, and apply them to different types of marketing communications through rule sets. This new capability lets you control how often your audiences receive a message by setting cross-channel rules, that automatically exclude over-solicited profiles from messages and actions.</p>
+<p>Business rules capability is currently available as a beta. To join the beta program, contact your Adobe representative.</p>
+<p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <!--table>
