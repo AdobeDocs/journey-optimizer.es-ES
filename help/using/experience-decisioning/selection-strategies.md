@@ -10,7 +10,7 @@ exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 15%
+ht-degree: 19%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
 >title="Definición de las estrategias de selección"
->abstract="Una estrategia de selección es reutilizable y consiste en una colección asociada con una restricción de elegibilidad y un método de clasificación para determinar las ofertas que se mostrarán cuando se seleccionen en una política de decisión."
+>abstract="Una estrategia de selección es reutilizable y consiste en una colección asociada con una restricción de idoneidad y un método de clasificación para determinar las ofertas que se mostrarán cuando se seleccionen en una política de decisión."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="Creación de políticas de decisión"
 
 >[!CONTEXTUALHELP]

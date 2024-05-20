@@ -10,7 +10,7 @@ exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 12%
+ht-degree: 27%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
 >title="Crear fórmulas de clasificación"
->abstract="Fórmulas le permite definir reglas que determinarán qué elemento se debe presentar primero, en lugar de tener en cuenta las puntuaciones de prioridad del elemento. Una vez creado un método de clasificación, puede asignarlo a una estrategia de selección para definir qué elementos deben seleccionarse primero."
+>abstract="Fórmulas le permite definir reglas que determinarán qué elemento se debe presentar primero, en lugar de tener en cuenta las puntuaciones de prioridad del elemento. Una vez creado un método de clasificación, puede asignarlo a una estrategia de selección para definir qué elementos se deben seleccionar primero."
 
-Los métodos de clasificación permiten clasificar los elementos que se muestran en un perfil determinado. Una vez creado un método de clasificación, puede asignarlo a una estrategia de selección para definir qué elementos deben seleccionarse primero.
+Los métodos de clasificación permiten clasificar los elementos que se muestran en un perfil determinado. Una vez creado un método de clasificación, puede asignarlo a una estrategia de selección para definir qué elementos se deben seleccionar primero.
 
 Hay dos tipos de métodos de clasificación disponibles:
 

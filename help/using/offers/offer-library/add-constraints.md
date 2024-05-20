@@ -142,7 +142,7 @@ Básicamente, el resultado de una audiencia es una lista de perfiles, mientras q
 >id="ajo_decisioning_capping"
 >title="Usar límite"
 >abstract="Para evitar un exceso de solicitudes a sus clientes, utilice la función de límite para definir el número máximo de veces que se puede presentar una oferta."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="Cambiar fechas puede afectar al límite"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="Cambiar las fechas puede afectar al límite"
 
 El límite se utiliza como restricción para definir el número máximo de veces que se puede presentar una oferta.
 
@@ -297,7 +297,7 @@ Si ha definido varios [representaciones](add-representations.md) para la oferta,
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="Cambiar fechas puede afectar al límite"
+>title="Cambiar las fechas puede afectar al límite"
 >abstract="Si se aplica un límite a esta oferta, este se puede ver afectado al cambiar la fecha de inicio o de finalización."
 
 Debe proceder con cuidado al cambiar la fecha de una oferta, ya que esto puede tener un impacto en el límite si se cumplen las siguientes condiciones:
