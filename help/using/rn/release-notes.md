@@ -7,9 +7,9 @@ topic: Content Management
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '675'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 61%
 <tr>
 <td>
 <p>La toma de decisiones sobre experiencias simplifica la personalización al ofrecer un catálogo centralizado de ofertas de marketing conocidas como “elementos de decisión” y un motor de decisión sofisticado. Este motor aprovecha las reglas y los criterios de clasificación para seleccionar y presentar a cada persona los elementos de decisión más relevantes.</p>
-<p>Estos elementos de decisión se integran perfectamente en una amplia gama de superficies entrantes a través del nuevo canal de experiencia basado en código, ahora accesible dentro de las campañas de Journey Optimizer. Las políticas de decisión de Experience Decisioning solo están disponibles para su uso en campañas de experiencia basadas en código.</p>
+<p>Estos elementos de decisión se integran perfectamente en una amplia gama de superficies entrantes a través del nuevo canal de experiencia basado en código, ahora accesible dentro de las campañas de Journey Optimizer. Las políticas de decisión respecto a la toma de decisiones sobre experiencias solo se pueden utilizar en campañas de experiencias basadas en código.</p>
 <p>Ahora mismo, la toma de decisiones sobre experiencias solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>Para obtener más información, consulte la <a href="../experience-decisioning/gs-experience-decisioning.md">documentación detallada</a>.</p>
@@ -51,11 +51,11 @@ ht-degree: 61%
 
 Desde la versión beta a LA, se han añadido las siguientes mejoras:
 
-* **Experience Decisioning + Experiencias basadas en código (LA)**: Ahora puede aprovechar la función Experience Decisioning para utilizar elementos de decisión en sus campañas basadas en código. Nota: El canal de experiencia basado en código y Experience Decisioning no están disponibles para las organizaciones que han adquirido las ofertas adicionales Escudo de Adobe Healthcare y Escudo de privacidad y seguridad. [Más información](../code-based/get-started-code-based.md)
+* **Toma de decisiones sobre experiencias + Experiencias basadas en código (LA)**: ahora puede aprovechar la función de toma de decisiones sobre experiencias para utilizar elementos de decisión en sus campañas basadas en código. Nota: El canal de experiencia basado en código y la toma de decisiones sobre experiencias no están disponibles en las organizaciones que han adquirido las ofertas complementarias Healthcare Shield y Privacy y Security Shield de Adobe. [Más información](../code-based/get-started-code-based.md)
 * Ahora puede aprovechar los datos de contexto de Adobe Experience Platform en las reglas de decisión y fórmulas de clasificación. [Más información](../experience-decisioning/context-data.md)
-* Ya está disponible un nuevo permiso para “Administrar decisiones sobre experiencias” para el recurso Gestión de decisiones. Permite administrar derechos relacionados con Experience Decisioning. [Más información](../experience-decisioning/gs-experience-decisioning.md)
+* Ya está disponible un nuevo permiso para “Administrar decisiones sobre experiencias” para el recurso Gestión de decisiones. Le permite administrar derechos relacionados con la toma de decisiones sobre experiencias. [Más información](../experience-decisioning/gs-experience-decisioning.md)
 * Ahora puede añadir varias reglas de límite para un elemento de decisión determinado en la toma de decisiones sobre experiencias. Esto le permite aumentar el nivel de control sobre la forma en que se envían las ofertas. [Más información](../experience-decisioning/items.md#capping)
-* Ahora puede crear paneles de informes personalizados de campañas de Experience Decisioning mediante [!DNL Customer Journey Analytics]. [Más información](../experience-decisioning/cja-reporting.md)
+* Ahora puede crear paneles de informes personalizados de campañas sobre la toma de decisiones sobre experiencias mediante [!DNL Customer Journey Analytics]. [Más información](../experience-decisioning/cja-reporting.md)
 
 ## Notas de la versión de abril de 2024 {#apr-2024}
 
@@ -196,14 +196,14 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 Configuración de ****
 
-* Ahora puede seleccionar una acción de marketing en el nivel de superficie de canal. Cuando se utilizan en una superficie, todas las políticas de consentimiento asociadas con esa acción de marketing se aprovechan para respetar las preferencias de los clientes. [Más información](../action/consent.md#surface-marketing-actions)
-* El uso del Control de acceso de nivel de objeto ya está disponible para superficies de canal. [Más información](../configuration/channel-surfaces.md#create-channel-surface)
+* Ahora puede seleccionar una acción de marketing en el nivel de superficie de canal. Cuando se utilizan en una superficie, se aprovechan todas las políticas de consentimiento asociadas con esa acción de marketing para respetar las preferencias de los clientes. [Más información](../action/consent.md#surface-marketing-actions)
+* El uso del Control de acceso a nivel de objeto ya está disponible en las superficies de canal. [Más información](../configuration/channel-surfaces.md#create-channel-surface)
 * Al habilitar la cancelación de suscripción a una lista en una superficie de canal, ahora puede definir el nivel de consentimiento para alinearlo con la forma en que administra el consentimiento de todas las demás fuentes. [Más información](../email/email-settings.md#list-unsubscribe)
 
-**Gestión de contenido**
+**Administración de contenido**
 
 * Ahora puede simular plantillas de contenido para todos los canales. [Más información](../content-management/content-templates.md#test-templates)
 
 **Personalización**
 
-* El nuevo **toInt** La función de ayuda de está disponible en el Editor de expresiones. Permite convertir cualquiera de estos tipos (número, doble, int, largo, flotante, corto, byte, booleano, cadena) en un entero. [Más información](../personalization/functions/math.md#to-int)
+* La nueva función de ayuda **toInt** está disponible en el editor de expresiones. Permite convertir cualquiera de estos tipos (número, doble, ent, largo, flotante, corto, byte, booleano, cadena) en un entero. [Más información](../personalization/functions/math.md#to-int)

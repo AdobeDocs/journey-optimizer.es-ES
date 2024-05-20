@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ Descubra las nuevas funciones y mejoras incluidas en la versión 24.3 de Adobe J
 
 [![obtenga más información](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Nueva experiencia de recorrido]
+>[!TAB Nueva experiencia de recorridos]
 
-Esta versión incorpora una interfaz de usuario de lienzo mejorada para recorridos y proporciona una experiencia de usuario más intuitiva y eficaz. Las actividades son más claras y presentan más información en el lienzo del recorrido con menos clics.
+Esta versión incorpora una interfaz de usuario de lienzo mejorada para los recorridos y proporciona una experiencia del usuario más intuitiva y eficaz. Las actividades son más claras y presentan más información en el lienzo del recorrido con menos clics.
 
 ![](using/rn/assets/new-canvas3.gif)
 
@@ -36,7 +36,7 @@ Esta versión incorpora una interfaz de usuario de lienzo mejorada para recorrid
 
 >[!TAB MMS para todos los proveedores]
 
-Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del servicio de mensajes multimedia (MMS), lo que le permite compartir imágenes, GIF o vídeos con sus clientes. Inicialmente solo disponible con Sinch, MMS ahora también está disponible con Infobip y Twilio.
+Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del servicio de mensajes multimedia (MMS), lo que le permite compartir imágenes, GIF o vídeos con sus clientes. Inicialmente, solo disponible con Sinch, MMS también está ahora disponible con Infobip y Twilio.
 
 ![](using/rn/assets/do-not-localize/mms.gif)
 

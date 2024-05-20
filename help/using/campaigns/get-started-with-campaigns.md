@@ -10,9 +10,9 @@ level: Beginner
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -46,17 +46,17 @@ Los pasos principales para crear una regla de tipología son los siguientes:
 
 Compruebe los siguientes requisitos previos antes de empezar a crear la primera campaña en Journey Optimizer:
 
-1. **Necesita los permisos adecuados**. Las campañas solo están disponibles para usuarios con acceso a campañas relacionadas **[!UICONTROL Perfil del producto]** como el administrador de campañas, el aprobador de campañas, el administrador de campañas o el visor de campañas. Si no puede acceder a las campañas, debe ampliar sus permisos.
+1. **Necesita los permisos adecuados**. Las campañas solo están disponibles para los usuarios con acceso a un **[!UICONTROL Perfil de producto]** relacionado con una campaña como el administrador de campañas, aprobador de campañas, gestor de campañas o visualizador de campañas. Si no puede acceder a las campañas, deberá ampliar los permisos.
 
-   +++Obtenga información sobre cómo asignar una función relacionada con la campaña
+   +++Más información sobre cómo asignar una función relacionada con la campaña
 
-   1. Para asignar una función a un usuario en [!DNL Permissions] producto, vaya a la **[!UICONTROL Funciones]** y seleccione una de las campañas integradas relacionadas con **[!UICONTROL Funciones]**: administrador de campaña, aprobador de campaña, administrador de campaña o visualizador de campañas.
+   1. Para asignar una función a un usuario en el producto [!DNL Permissions], vaya a la pestaña **[!UICONTROL Funciones]** y seleccione una de las **[!UICONTROL Funciones]** integradas relacionadas con las campañas: Administrador de campañas, Aprobador de campañas, Gestor de campañas o Visualizador de campañas.
 
-   1. Desde el **[!UICONTROL Usuarios]** pestaña, haga clic en **[!UICONTROL Agregar usuario]**.
+   1. En la pestaña **[!UICONTROL Usuarios]**, haga clic en **[!UICONTROL Añadir usuario]**.
 
-   1. Escriba el nombre o la dirección de correo electrónico del usuario o seleccione el usuario en la lista y haga clic en **[!UICONTROL Guardar]**.
+   1. Introduzca el nombre o la dirección de correo electrónico del usuario o selecciónelo de la lista y haga clic en **[!UICONTROL Guardar]**.
 
-      Si el usuario no se ha creado anteriormente, consulte la [Documentación de Adición de usuarios](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+      Si el usuario no se ha creado previamente, consulte la [documentación de Añadir usuarios](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/users).
 
    El usuario debería recibir entonces un correo electrónico que le redirija a su instancia.
 

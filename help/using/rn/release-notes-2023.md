@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 2b9d8cd80664abc2743c985ee1cd858ffa0344ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4396'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 >[!AVAILABILITY]
 >
->Estas funcionalidades están disponibles actualmente como una versión beta.
+>Estas funcionalidades están disponibles actualmente como versión Beta.
 
 <!--
 **Spam scoring for emails**
@@ -309,7 +309,7 @@ A new option is available in the email surface settings to include email address
 
 **Recorridos**
 
-* Ahora puede utilizar las respuestas de llamadas de API en acciones personalizadas y organizar su recorrido en función de estas respuestas. Actualmente, esta función está disponible como una versión beta. [Más información](../action/action-response.md).
+* Ahora puede utilizar las respuestas de llamadas de API en acciones personalizadas y organizar su recorrido en función de estas respuestas. Actualmente, esta función está disponible como versión Beta. [Más información](../action/action-response.md).
 * Se ha introducido un nuevo tipo de alerta del sistema. Ahora puede recibir notificaciones cuando falle una acción personalizada. [Más información](../reports/alerts.md).
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
