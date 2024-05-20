@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
 workflow-type: tm+mt
 source-wordcount: '5230'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 ## Mayo de 2024 {#may-2024}
 
-* Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de abril de 2024 se ha detallado en la documentación. [Más información](release-notes.md)
+* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de abril de 2024 se han detallado en la documentación. [Más información](release-notes.md)
 
 
 ## Abril de 2024 {#april-2024}
@@ -30,10 +30,10 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * La documentación de las [API de toma de decisiones sobre ofertas](../offers/api-reference/offer-delivery-api/decisioning-api.md) y las [API de tomas de decisiones por lotes](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) se ha actualizado.
 * Se ha añadido información en la documentación de gestión de decisiones sobre la gestión de regiones periféricas y centrales cuando se utiliza la restricción de frecuencia con la API de Edge Decisioning. [Más información](../offers/offer-library/add-constraints.md#frequency-capping)
 * Se ha añadido información sobre la creación de identidades con áreas de nombres personalizados cuando se trabaja en campañas activadas por la API. [Más información](../campaigns/api-triggered-campaigns.md)
-* Se han actualizado las capturas de pantalla para reflejar la mejora del lienzo de Recorrido.
-* Las restricciones de nomenclatura se han actualizado en la siguiente página: [Configuración de un evento unitario](../event/about-creating.md), [Configuración de un evento empresarial](../event/about-creating-business.md#gs-business-events), [Configurar una acción personalizada](../action/about-custom-action-configuration.md#configuration-steps), [Fuentes de datos externas](../datasource/external-data-sources.md)
+* Se han actualizado las capturas de pantalla para reflejar la mejora del lienzo del recorrido.
+* Las restricciones de nomenclatura se han actualizado en la siguiente página: [Configuración de un evento unitario](../event/about-creating.md), [Configuración de un evento empresarial](../event/about-creating-business.md#gs-business-events), [Configuración de una acción personalizada](../action/about-custom-action-configuration.md#configuration-steps) y [Fuentes de datos externas](../datasource/external-data-sources.md)
 * Se ha añadido una nota sobre la disponibilidad de la optimización del tiempo de envío. [Más información](../building-journeys/journeys-message.md#send-time-optimization)
-* Se ha añadido un nuevo caso de uso técnico sobre cómo crear una acción personalizada para enviar datos al Experience Platform. [Más información](../building-journeys/custom-action-aep.md)
+* Se ha añadido un nuevo caso de uso técnico sobre cómo crear una acción personalizada para enviar datos a Experience Platform. [Más información](../building-journeys/custom-action-aep.md)
 
 ## Marzo de 2024 {#march-2024}
 

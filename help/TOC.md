@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
 workflow-type: tm+mt
 source-wordcount: '1804'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 96%
          + [Paso de colecciones de forma dinámica mediante acciones personalizadas](using/building-journeys/collections.md)
          + [Aumento de envíos](using/building-journeys/ramp-up-deliveries-uc.md)
          + [Limitación del rendimiento con fuentes de datos externas y acciones personalizadas](using/building-journeys/limit-throughput.md)
-         + [Utilice acciones personalizadas para escribir eventos de Recorrido en Experience Platform](using/building-journeys/custom-action-aep.md)
+         + [Utilice acciones personalizadas para escribir los eventos de recorrido en Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campañas{#campaigns}
    + [Introducción a las campañas](using/campaigns/get-started-with-campaigns.md)
    + [Creación de una campaña](using/campaigns/create-campaign.md)
@@ -229,11 +229,11 @@ ht-degree: 96%
    + [Creación de un mensaje de texto (SMS/MMS)](using/sms/create-sms.md)
    + [Comprobación y envío de los mensajes de texto](using/sms/send-sms.md)
    + [Administración de la exclusión de mensajes de texto](using/sms/sms-opt-out.md)
-   + [Configuración de subdominios SMS](using/sms/sms-subdomains.md)
-   + Configuración del canal SMS/MMS{#configure-sms}
+   + [Configuración de subdominios de SMS](using/sms/sms-subdomains.md)
+   + Configuración de canal de SMS/MMS{#configure-sms}
       + [Introducción a la configuración de SMS](using/sms/sms-configuration.md)
-      + [Configuración del proveedor de Sinch](using/sms/sms-configuration-sinch.md)
-      + [Configuración del proveedor de Infobip](using/sms/sms-configuration-infobip.md)
+      + [Configuración del proveedor Sinch](using/sms/sms-configuration-sinch.md)
+      + [Configuración del proveedor Infobip](using/sms/sms-configuration-infobip.md)
       + [Configuración del proveedor Twilio](using/sms/sms-configuration-twilio.md)
       + [Creación de una superficie de SMS](using/sms/sms-configuration-surface.md)
 + Correo directo {#direct-mail}
@@ -271,10 +271,10 @@ ht-degree: 96%
       + [Configurar subdominios de página de aterrizaje](using/landing-pages/lp-subdomains.md)
       + [Definir ajustes preestablecidos de página de aterrizaje](using/landing-pages/lp-presets.md)
 + Gestión de contenido {#content-management}
-   + Trabajar con el asistente de IA{#ai-assistant}
-      + [Introducción al Asistente de IA](using/content-management/gs-generative.md)
+   + Trabajo con el asistente de IA{#ai-assistant}
+      + [Introducción al asistente de IA](using/content-management/gs-generative.md)
       + [Generación de correo electrónico](using/content-management/generative-email.md)
-      + [Generación push](using/content-management/generative-push.md)
+      + [Generación de push](using/content-management/generative-push.md)
       + [Generación de SMS](using/content-management/generative-sms.md)
       + [Experimento de contenido con el asistente de IA](using/content-management/generative-experimentation.md)
    + Trabajo con contenido multilingüe{#content-multilingual}
@@ -375,7 +375,7 @@ ht-degree: 96%
    + [Alertas](using/reports/alerts.md)
    + [Uso de Customer Journey Analytics](using/reports/cja-ajo.md)
    + [Motivos de exclusión](using/reports/exclusion-list.md)
-+ Decisioning {#decisioning}
++ Toma de decisiones {#decisioning}
    + Gestión de decisiones {#offer-decisioning}
       + Introducción a la Gestión de decisiones {#get-started-decision}
          + [Acerca de la Gestión de decisiones](using/offers/get-started/starting-offer-decisioning.md)
@@ -515,19 +515,19 @@ ht-degree: 96%
             + [API de decisiones](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [API de Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [API de decisiones por lotes](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-   + Experience Decisioning (LA) {#experience-decisioning}
-      + [Introducción a Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
+   + Toma de decisiones sobre experiencias (LA) {#experience-decisioning}
+      + [Introducción a Toma de decisiones sobre experiencias](using/experience-decisioning/gs-experience-decisioning.md)
       + Administrar elementos de decisión {#decision-items}
-         + [Configurar el catálogo de artículos](using/experience-decisioning/catalogs.md)
+         + [Configuración del catálogo de elementos](using/experience-decisioning/catalogs.md)
          + [Creación de elementos de decisión](using/experience-decisioning/items.md)
-         + [Administrar colecciones de elementos](using/experience-decisioning/collections.md)
-      + Configurar la selección de elementos {#selection}
+         + [Administración de colecciones de elementos](using/experience-decisioning/collections.md)
+      + Configuración de la selección de elementos {#selection}
          + [Crear reglas de decisión](using/experience-decisioning/rules.md)
          + [Creación de métodos de clasificación](using/experience-decisioning/ranking.md)
-         + [Aprovechamiento de datos de contexto](using/experience-decisioning/context-data.md)
+         + [Uso de datos de contexto](using/experience-decisioning/context-data.md)
       + [Creación de estrategias de selección](using/experience-decisioning/selection-strategies.md)
       + [Creación de políticas de decisión](using/experience-decisioning/create-decision.md)
-      + [Informes en Customer Journey Analytics](using/experience-decisioning/cja-reporting.md)
+      + [Creación de informes en Customer Journey Analytics](using/experience-decisioning/cja-reporting.md)
 + Administración de datos {#data-management}
    + [Introducción a la administración de datos](using/data/gs-data.md)
    + [Usar esquemas](using/data/get-started-schemas.md)
