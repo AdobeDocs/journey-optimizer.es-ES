@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: e9a32d396b3ebca1e0c7d115f12024eef55aeaa4
+source-git-commit: 7cef45750889572f1684aa2b98c1eab1d668896a
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 97%
+source-wordcount: '1358'
+ht-degree: 94%
 
 ---
 
@@ -255,4 +255,47 @@ Para cambiar el idioma:
 >title="Elija su propiedad de etiquetas"
 >abstract="Continuará"
 
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_push_certificate_fcm"
+>title="Proporcionar un certificado push"
+>abstract="Continuará"
 
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_android_dependencies_add"
+>title="Añadir dependencias"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_android_dependencies_import"
+>title="Importar dependencias"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_android_initialization_code"
+>title="Añadir código de inicialización"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_validate_assurance_android"
+>title="Validar con Assurance"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_token_android"
+>title="Recuperar el token del dispositivo"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_android_studio"
+>title="Inicie la aplicación desde Android Studio."
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_load_library"
+>title="Cargar biblioteca de forma asíncrona"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_library_code"
+>title="Etiqueta Head del documento"
+>abstract="Continuará"
