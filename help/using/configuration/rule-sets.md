@@ -12,9 +12,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b69c75e0a8a35635a67065412e443a2af0d3b09f
+source-git-commit: 60b29231a097bde3e451549eac9c2aead9452cf4
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1605'
 ht-degree: 8%
 
 ---
@@ -157,8 +157,6 @@ Cuando se crea una regla, tiene el **[!UICONTROL Borrador]** estado y aún no af
 También debe activar el conjunto de reglas para poder acceder a él en campañas/recorridos y aplicarlo a los mensajes.
 
 ![](assets/rule-set-activate-set.png)
-
-La activación de un conjunto de reglas afectará a cualquier mensaje al que se aplique en su próxima ejecución. Obtenga información sobre cómo [aplicación de un conjunto de reglas a un mensaje](#apply-rule-set).
 
 >[!NOTE]
 >
