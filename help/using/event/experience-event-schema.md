@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: esquemas, XDM, plataforma, flujo, ingesta, recorrido
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '831'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Puede definir una relación de esquema en una matriz de cadenas como, por ejempl
 
 ![](assets/schema15.png)
 
-Sin embargo, no se puede definir una relación de esquema con un atributo dentro de una matriz de objetos; por ejemplo, una lista de información de compra (ID de producto, nombre de producto, precio, descuento). Los valores de búsqueda no estarán disponibles en recorridos (condiciones, acciones personalizadas, etc.) y personalización de mensajes.
+También puede definir una relación de esquema con un atributo dentro de una matriz de objetos, por ejemplo, una lista de información de compra (ID de producto, nombre de producto, precio, descuento). Los valores de búsqueda estarán disponibles en recorridos (condiciones, acciones personalizadas, etc.) y personalización de mensajes.
 
 ![](assets/schema16.png)
 

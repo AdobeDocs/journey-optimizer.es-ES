@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: lista de semillas, lista de semillas, semillas, configuración
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 22%
+source-wordcount: '945'
+ht-degree: 21%
 
 ---
 
@@ -156,4 +156,4 @@ Ahora, cada vez que se envía un mensaje de correo electrónico a sus clientes a
 
 >[!NOTE]
 >
->En el caso de los recorridos, la entrega por correo electrónico se envía a las direcciones semilla solo en la primera ejecución del recorrido.
+>En el caso de los recorridos recurrentes, la entrega por correo electrónico se envía a las direcciones semilla en cada ejecución de recorrido, siempre que al menos un perfil llegue al nodo de correo electrónico.

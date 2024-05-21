@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: personalizado, general, eventos, recorrido
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 12%
+source-wordcount: '605'
+ht-degree: 14%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 12%
 >id="ajo_journey_event_custom"
 >title="Eventos unitarios"
 >abstract="Los eventos permiten activar sus recorridos de forma unitaria para enviar mensajes, en tiempo real, al particular que entra en el recorrido. Para este tipo de evento, solo puede añadir una etiqueta y una descripción. La configuración de eventos la realiza un ingeniero de datos y no se puede editar."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_business_canvas"
+>title="Eventos empresariales"
+>abstract="Estos eventos le permiten iniciar un recorrido utilizando un evento no relacionado con el perfil. Cuando se active ese evento, podrá enviar mensajes a una audiencia de perfiles. Para este tipo de evento, solo puede añadir una etiqueta y una descripción. La configuración de evento la realiza un usuario técnico y no se puede editar."
 
 Los eventos le permiten almacenar en déclencheur sus recorridos de forma unitaria para enviar mensajes, en tiempo real, a la persona que entra en el recorrido.
 

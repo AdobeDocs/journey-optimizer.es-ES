@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: cef6970e611a33b71b803fdb247f566cb8a8a708
+source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1674'
 ht-degree: 8%
 
 ---
@@ -37,6 +37,10 @@ Una vez que haya creado una o más [Campañas de calentamiento de IP](ip-warmup-
 Para acceder, crear, editar y eliminar los planes de calentamiento de IP, debe tener **[!UICONTROL Consultor de capacidad de entrega]** función o planes de calentamiento de IP permisos relacionados.
 
 +++Obtenga información sobre cómo asignar la función de consultor de capacidad de entrega o los permisos relacionados con los planes de calentamiento de IP
+
+El control de acceso a nivel de objeto le permite proteger los datos y conceder acceso específico para ver y administrar sus planes. Si no se ha asignado ninguna etiqueta a su plan de calentamiento de IP, estará abierta para que la vean y editen todos los usuarios.
+
+Concesión de la **[!UICONTROL Ver planes de calentamiento de IP]** restringe el acceso a solo visualización y publicación, al asignar el **[!UICONTROL Administrar planes de calentamiento de IP]** permite a los usuarios ver y editar el plan.
 
 Para asignar el permiso correspondiente a un elemento específico **[!UICONTROL Rol]**:
 
@@ -76,7 +80,7 @@ Para asignar la función correspondiente a un **[!UICONTROL Usuario]**:
 
 El calentamiento de IP es una actividad que consiste en aumentar gradualmente el volumen de correos electrónicos que salen de sus IP y dominios a los principales proveedores de servicios de Internet (ISP), con el fin de establecer su reputación como remitente legítimo.
 
-Esta actividad se realiza típicamente con la ayuda de un experto en capacidad de envío que ayuda a preparar un plan bien pensado basado en los dominios del sector, casos de uso, regiones, ISP y varios otros factores.
+Esta actividad se suele realizar con la ayuda de un experto en capacidad de envío que ayuda a preparar un plan bien pensado basado en los dominios del sector, casos de uso, regiones, ISP y varios otros factores.
 
 <!--When working with the [!DNL Journey Optimizer] IP warmup feature, this plan takes the form of an Excel file that must contain a number of predefined columns.-->
 
@@ -102,10 +106,6 @@ A continuación se muestra un ejemplo de un archivo que contiene un plan de cale
 
 ![](assets/ip-warmup-sample-file.png)
 
->[!NOTE]
->
->Por ahora, debería dejar el **Propiedades** y **Valor** células intactas.
-
 ### Pestaña Plan de calentamiento de IP {#ip-warmup-plan-tab}
 
 * En este ejemplo, se ha preparado un plan que abarca más de 17 días (denominado &#39;**ejecuciones**&#39;) para alcanzar un volumen objetivo de más de un millón de perfiles.
@@ -117,7 +117,6 @@ A continuación se muestra un ejemplo de un archivo que contiene un plan de cale
    * Cuatro de los cuales corresponden a **grupos de dominio listos para usar** para usar en su plan (Gmail, Microsoft, Yahoo y Orange).
    * Uno corresponde a un grupo de dominio personalizado (que debe agregar mediante el [Grupo de dominio personalizado](#custom-domain-group-tab) pestaña).
    * La sexta columna, **Otros**, contiene todas las direcciones restantes de otros dominios que no están cubiertos explícitamente en el plan. Esta columna es opcional: si se omite, los correos electrónicos solo irán a los dominios especificados.
-* El **Días de participación** Esta columna muestra que solo están segmentados los perfiles comprometidos con su marca durante el último periodo introducido.
 
 La idea es aumentar progresivamente el número de direcciones objetivo en cada ejecución, al mismo tiempo que se reduce el número de ejecuciones para cada fase.
 
@@ -188,6 +187,8 @@ Los grupos de dominios principales listos para usar que puede agregar a su plan 
 También puede agregar más columnas al plan incluyendo grupos de dominio personalizados.
 
 Utilice el **[!UICONTROL Grupo de dominio personalizado]** para definir un nuevo grupo de dominios. Para cada dominio, puede agregar todos los subdominios que cubre.<!--TBC-->
+
+Asegúrese de que cada dominio sea único para su grupo de dominios y no se superponga con otros grupos de dominios. Dado que los grupos de dominio globales se definen automáticamente, los usuarios deben tenerlo en cuenta al crear grupos de dominio personalizados.
 
 Por ejemplo, si agrega el dominio personalizado Luma, desea que se incluyan los siguientes subdominios: luma.com, luma.co.uk, luma.it, luma.fr, luma.de, etc.
 

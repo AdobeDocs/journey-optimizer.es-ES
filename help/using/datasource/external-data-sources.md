@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externo, fuentes, datos, configuración, conexión, terceros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
 workflow-type: tm+mt
-source-wordcount: '1531'
-ht-degree: 62%
+source-wordcount: '1541'
+ht-degree: 61%
 
 ---
 
@@ -139,7 +139,7 @@ Con esta autenticación, la ejecución de la acción es un proceso de dos pasos:
 >
 >**Esta autenticación consta de dos partes.**
 
-### Definición del extremo al que se va a llamar para generar el token de acceso
+### Definición del extremo al que se va a llamar para generar el token de acceso{#custom-authentication-endpoint}
 
 * extremo: dirección URL que se utilizará para generar el extremo
 * método de la petición HTTP en el extremo (GET o POST)
@@ -148,7 +148,7 @@ Con esta autenticación, la ejecución de la acción es un proceso de dos pasos:
    * &#39;form&#39;: lo que significa que el tipo de contenido será application/x-www-form-urlencoded (charset UTF-8) y que los pares clave-valor se serializarán tal cual: key1=value1&amp;key2=value2&amp;...
    * &#39;json&#39;: lo que significa que el tipo de contenido será application/json (charset UTF-8) y que los pares clave-valor se serializarán como un objeto json tal cual: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
-### Definición de la forma en que se debe insertar el token de acceso en la petición HTTP de la acción
+### Definición de la forma en que se debe insertar el token de acceso en la petición HTTP de la acción{#custom-authentication-access-token}
 
 * authorizationType: define cómo se debe insertar el token de acceso generado en la llamada HTTP para la acción. Los valores posibles son:
 
@@ -189,6 +189,10 @@ El formato de esta autenticación es:
 }
 ```
 
+>[!NOTE]
+>
+>Encode64 es la única función disponible en la carga útil de autenticación.
+
 Puede cambiar la duración de caché del token para una fuente de datos de autenticación personalizada. A continuación se muestra un ejemplo de una carga útil de autenticación personalizada. La duración de caché se define en el parámetro &quot;cacheDuration&quot;. Especifica la duración de retención del token generado en la caché. La unidad puede ser milisegundos, segundos, minutos, horas, días, meses, años.
 
 Este es un ejemplo del tipo de autenticación del portador:
@@ -198,7 +202,7 @@ Este es un ejemplo del tipo de autenticación del portador:
   "authentication": {
     "type": "customAuthorization",
     "authorizationType": "Bearer",
-    "endpoint": "https://localhost:${port}/epsilon/oauth2/access_token",
+    "endpoint": "https://<your_auth_endpoint>/epsilon/oauth2/access_token",
     "method": "POST",
     "headers": {
       "Authorization": "Basic EncodeBase64(<epsilon Client Id>:<epsilon Client Secret>)"

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: c68e72d170792fc0ea3b6eb09b3acf818ec2cfd5
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2086'
 ht-degree: 17%
 
 ---
@@ -211,6 +211,21 @@ Este tiempo de espera global detiene el progreso de los individuos en el recorri
 Debido al tiempo de espera de recorrido de 30 días, cuando no se permite la reentrada al recorrido, no podemos asegurarnos de que el bloqueo de reentrada funcione durante más de 30 días. De hecho, al eliminar toda la información sobre las personas que ingresaron al recorrido 30 días después de su entrada, no podemos saber la persona ingresada anteriormente, hace más de 30 días.
 
 Un individuo solo puede entrar a una actividad de espera si le queda tiempo suficiente en el recorrido recorrido para completar la duración de la espera antes del tiempo de espera de 30 días. Consulte [esta página](../building-journeys/wait-activity.md).
+
+### Políticas de combinación {#merge-policies}
+
+El recorrido de utiliza políticas de combinación al recuperar datos de perfil de Adobe Experience Platform. Según el tipo de recorrido, se utilizan distintas políticas de combinación:
+
+* En Leer recorridos de cualificación de audiencias o audiencias: se utiliza la política de combinación de la audiencia
+* En recorridos activados por eventos: se utiliza la política de combinación predeterminada
+
+Recorrido respetará la política de combinación utilizada en todo el recorrido.
+
+>[!NOTE]
+>
+>Esta capacidad solo está disponible en disponibilidad limitada (LA) para clientes seleccionados.
+
+Para obtener más información sobre las políticas de combinación, consulte [página](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
 
 ## Duplicación de un recorrido {#duplicate-a-journey}
 

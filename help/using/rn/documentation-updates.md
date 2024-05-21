@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
 workflow-type: tm+mt
-source-wordcount: '5230'
-ht-degree: 99%
+source-wordcount: '5290'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,10 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 ## Mayo de 2024 {#may-2024}
 
 * Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de abril de 2024 se han detallado en la documentación. [Más información](release-notes.md)
-
+* La sección sobre listas semilla se ha actualizado en relación con los recorridos recurrentes. [Más información](../configuration/seed-lists.md#use-seed-list)
+* Se ha actualizado la sección sobre fuentes de datos externas. [Más información](../datasource/external-data-sources.md#custom-authentication-access-token)
+* El tiempo de espera de recorrido global de 30 días se ha agregado a la página Protección y limitación. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
+* La sección sobre la integración de Adobe Campaign v7/v8 se ha actualizado con información sobre el aprovisionamiento. [Más información](../action/acc-action.md#access)
 
 ## Abril de 2024 {#april-2024}
 

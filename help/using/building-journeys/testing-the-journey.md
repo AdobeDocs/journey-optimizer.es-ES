@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
 source-wordcount: '1536'
 ht-degree: 10%
@@ -71,6 +71,10 @@ Para utilizar el modo de prueba, siga estos pasos:
 * Al llegar a una división, siempre se elige la rama superior. Puede reorganizar la posición de las ramas divididas si desea que la prueba elija una ruta diferente.
 * Para optimizar el rendimiento y evitar el uso de recursos obsoletos, todos los recorridos del modo de prueba que no se hayan activado durante una semana volverán al **Borrador** estado.
 * Los eventos activados por el modo de prueba se almacenan en conjuntos de datos dedicados. Estos conjuntos de datos están etiquetados de la siguiente manera: `JOtestmode - <schema of your event>`
+
+<!--
+* Fields from related entities are hidden from the test mode.
+-->
 
 ## Activación de eventos {#firing_events}
 
