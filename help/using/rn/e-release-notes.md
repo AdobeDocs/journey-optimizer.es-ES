@@ -4,12 +4,14 @@ product: journey optimizer
 title: Notas de la versión
 description: Notas de la primera versión de Journey Optimizer
 feature: Release Notes
+hide: true
+hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: de9aba41b6351bc7bad18f3d774612a03673f185
+source-git-commit: bd4e352378ba9f895a192b467a650013af669c4d
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 25%
+ht-degree: 37%
 
 ---
 
@@ -38,7 +40,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <tr>
 <td>
 <p>La toma de decisiones sobre experiencias simplifica la personalización al ofrecer un catálogo centralizado de ofertas de marketing conocidas como “elementos de decisión” y un motor de decisión sofisticado. Este motor aprovecha las reglas y los criterios de clasificación para seleccionar y presentar a cada persona los elementos de decisión más relevantes.</p>
-<p>Estos elementos de decisión se integran perfectamente en una amplia gama de superficies entrantes a través del nuevo canal de experiencia basado en código, ahora accesible dentro de las campañas de Journey Optimizer. Las políticas de decisión de Experience Decisioning solo están disponibles para su uso en campañas de experiencia basadas en código.</p>
+<p>Estos elementos de decisión se integran perfectamente en una amplia gama de superficies entrantes a través del nuevo canal de experiencia basado en código, ahora accesible dentro de las campañas de Journey Optimizer. Las políticas de decisión respecto a la toma de decisiones sobre experiencias solo se pueden utilizar en campañas de experiencias basadas en código.</p>
 <p>Ahora mismo, la toma de decisiones sobre experiencias solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>Para obtener más información, consulte la <a href="../experience-decisioning/gs-experience-decisioning.md">documentación detallada</a>.</p>
@@ -106,9 +108,9 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 Desde la versión beta hasta esta versión, se han añadido las siguientes mejoras:
 
-* **Experience Decisioning + Experiencias basadas en código** : Ahora puede aprovechar la función Experience Decisioning para utilizar elementos de decisión en sus campañas basadas en código. Nota: El canal de experiencia basado en código y Experience Decisioning no están disponibles para las organizaciones que han adquirido las ofertas adicionales Escudo de Adobe Healthcare y Escudo de privacidad y seguridad. [Más información](../code-based/get-started-code-based.md)
+* **Experience Decisioning + Experiencias basadas en código** : Ahora puede aprovechar la función Experience Decisioning para utilizar elementos de decisión en sus campañas basadas en código. Nota: El canal de experiencia basado en código y la toma de decisiones sobre experiencias no están disponibles en las organizaciones que han adquirido las ofertas complementarias Healthcare Shield y Privacy y Security Shield de Adobe. [Más información](../code-based/get-started-code-based.md)
 * **Datos de contexto** : ahora puede aprovechar los datos de contexto de Adobe Experience Platform en las reglas de decisión y fórmulas de clasificación. [Más información](../experience-decisioning/context-data.md)
-* **Nuevo permiso** : Ya está disponible un nuevo permiso para &quot;Administrar decisiones de experiencia&quot; para el recurso Administración de decisiones. Permite administrar derechos relacionados con Experience Decisioning. [Más información](../experience-decisioning/gs-experience-decisioning.md)
+* **Nuevo permiso** : Ya está disponible un nuevo permiso para &quot;Administrar decisiones de experiencia&quot; para el recurso Administración de decisiones. Le permite administrar derechos relacionados con la toma de decisiones sobre experiencias. [Más información](../experience-decisioning/gs-experience-decisioning.md)
 * **Reglas de límite** : Ahora puede agregar varias reglas de límite para un elemento de decisión determinado en Experience Decisioning. Esto le permite aumentar el nivel de control sobre la forma en que se envían las ofertas. [Más información](../experience-decisioning/items.md#capping)
 * **Informes** : Ahora puede crear paneles de informes personalizados de campañas de Experience Decisioning mediante [!DNL Customer Journey Analytics]. [Más información](../experience-decisioning/cja-reporting.md)
 
