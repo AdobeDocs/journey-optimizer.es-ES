@@ -1,5 +1,5 @@
 ---
-title: Usar informe de spam
+title: Usar informe de correo no deseado
 description: Aprenda a utilizar el informe de correo no deseado.
 feature: Preview
 role: User
@@ -8,29 +8,29 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 4c1dca7815594bbbf5a2d84682338e8b2d743965
+source-git-commit: d0973e623de8f26b4e9dc5809251f9705333adb9
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 0%
+source-wordcount: '363'
+ht-degree: 2%
 
 ---
 
 # Informe de correo no deseado {#spam-report}
 
-[!DNL Journey Optimizer] le permite comprobar el rendimiento del contenido frente al filtrado de correo no deseado y asegurarse de que los mensajes se dirijan a las bandejas de entrada de los clientes, no al correo no deseado.
+>[!CONTEXTUALHELP]
+>id="ajo_simulate_spam_report"
+>title="Informe de correo no deseado"
+>abstract="El informe Spam permite comprobar la puntuación de spam del contenido del correo electrónico. Esta puntuación indica si los ISP o proveedores de buzones de correo considerarán su mensaje como correo no deseado o no. Cuanto más bajo sea el resultado, mejor. Si la puntuación del contenido del correo electrónico es superior a 2, debe considerar la posibilidad de corregir los problemas que causan que las pruebas fallen."
+
+Puede comprobar la puntuación de correo no deseado del contenido del correo electrónico en un informe de correo no deseado específico. Uso de [SpamAssassin](https://spamassassin.apache.org/){target="_blank"}, Adobe Journey Optimizer puede probar el contenido del correo electrónico y asignarle una puntuación para indicar si los ISP o proveedores de buzones de correo lo considerarán como correo no deseado o no.
+
+>[!AVAILABILITY]
+>
+>Actualmente, esta funcionalidad está en versión beta y solo está disponible para los clientes de la versión beta. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 Al editar o previsualizar el contenido del correo electrónico, la variable **[!UICONTROL Informe de spam]** proporciona una puntuación y consejos para mejorar las puntuaciones de cada elemento individual de la lista.
 
-Esto le permite determinar si un mensaje corre el riesgo de que las herramientas de filtrado de correo no deseado utilizadas durante la recepción lo consideren como no deseado, y realizar acciones en caso contrario. Muchos proveedores de bandejas de entrada de correo electrónico utilizan herramientas como parte de su proceso de filtrado de correo no deseado. El envío de correos electrónicos con una mala puntuación puede afectar gravemente a la capacidad de entrega.
-
-
->[!CAUTION]
->
->* Actualmente, esta función solo está disponible como una versión beta privada.
->
->* Por ahora, el análisis del informe de correo no deseado solo se puede realizar para el contenido en inglés.
->
->* El informe de correo no deseado es informativo y no impide enviar mensajes con una puntuación incorrecta.
+Esta capacidad le permite determinar si las herramientas de filtrado de correo no deseado utilizadas durante la recepción pueden considerar un mensaje como no deseado y, en ese caso, realizar acciones. Muchos proveedores de bandejas de entrada de correo electrónico utilizan herramientas como parte de su proceso de filtrado de correo no deseado. El envío de correos electrónicos con una mala puntuación puede afectar gravemente a la capacidad de entrega.
 
 Para acceder a **[!UICONTROL Informe de spam]**, siga los pasos a continuación.
 
@@ -50,7 +50,7 @@ Para acceder a **[!UICONTROL Informe de spam]**, siga los pasos a continuación.
 
 1. Compruebe las puntuaciones y descripciones de cada elemento.
 
-   Cuanto más bajo sea el resultado, mejor. Si la puntuación es mayor de 5, se muestra una advertencia: indica que algunos mensajes pueden bloquearse o marcarse como correo no deseado cuando se reciben.
+   Cuanto más bajo sea el resultado, mejor. Si la puntuación es mayor de 5, se muestra una advertencia: indica que algunos mensajes pueden bloquearse o marcarse como correo no deseado cuando se reciben. La práctica recomendada es tener una puntuación inferior a 2.
 
 1. En función de esa puntuación, si considera que algunos elementos se pueden mejorar, edite el contenido en [Diseñador de correo electrónico](../email/content-from-scratch.md) y realice las actualizaciones necesarias.
 
