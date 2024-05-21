@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 45fe3ebd3039353697acdf574d18f9409ce17639
+source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1811'
 ht-degree: 99%
 
 ---
@@ -289,6 +289,7 @@ ht-degree: 99%
       + [Introducción a la personalización](using/personalization/personalize.md)
       + [Contextos de personalización](using/personalization/personalization-contexts.md)
       + [Sintaxis de personalización](using/personalization/personalization-syntax.md)
+      + [Uso de datos de Adobe Experience Platform para la personalización](using/personalization/lookup-aep-data.md)
       + Trabajo con el Editor de expresiones {#expression-editor}
          + [Acerca del Editor de expresiones](using/personalization/personalization-build-expressions.md)
          + [Adición de atributos a favoritos](using/personalization/personalization-favorites.md)
