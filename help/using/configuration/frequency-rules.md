@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
+source-git-commit: 8253b4f3fdc177f5e5f19ab19de748b78456137b
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1252'
 ht-degree: 6%
 
 ---
@@ -22,11 +22,6 @@ ht-degree: 6%
 >id="ajo_business_rules_message_frequency_rules"
 >title="Reglas comerciales"
 >abstract="Utilice reglas empresariales para controlar la frecuencia con la que los usuarios recibirán un mensaje o entrarán en un recorrido configurando reglas multicanal que excluirán automáticamente los perfiles saturados de mensajes y acciones."
-
->[!CONTEXTUALHELP]
->id="ajo_business_rules_message_frequency_rules"
->title="Reglas comerciales"
->abstract="Descripción de reglas empresariales"
 
 [!DNL Journey Optimizer] permite controlar la frecuencia con la que los usuarios recibirán un mensaje o entrarán en un recorrido configurando reglas multicanal que excluirán automáticamente los perfiles saturados de los mensajes y las acciones.
 
