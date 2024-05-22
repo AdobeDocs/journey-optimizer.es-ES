@@ -9,14 +9,14 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, publicación
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 7122dff12aea6c5954087e2667b28bbc9f7695de
 workflow-type: tm+mt
 source-wordcount: '1716'
-ht-degree: 21%
+ht-degree: 2%
 
 ---
 
-# Creación y publicación de páginas de destino {#create-lp}
+# Creación y publicación de páginas de aterrizaje {#create-lp}
 
 >[!CAUTION]
 >
@@ -58,16 +58,16 @@ Haga clic en los tres puntos junto a una página de aterrizaje para seleccionar 
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_create"
->title="Definir y configurar la página de aterrizaje"
->abstract="Para crear una página de aterrizaje, debe seleccionar un ajuste preestablecido, configurar la página principal y las subpáginas y, por último, probar la página antes de publicarla."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=es#lp-create-preset" text="Crear ajustes preestablecidos de la página de aterrizaje"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html?lang=es#publish-landing-page" text="Publicar la página de aterrizaje"
+>title="Defina y configure su página de aterrizaje"
+>abstract="Para crear una página de aterrizaje, debe seleccionar un ajuste preestablecido, configurar la página principal y las subpáginas y, finalmente, probar la página antes de publicarla."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Crear ajustes preestablecidos de página de aterrizaje"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="Publicación de la página de aterrizaje"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_management_labels"
->title="Asignar etiquetas a la página de aterrizaje"
->abstract="Para proteger los recursos digitales confidenciales, puede definir autorizaciones para administrar el acceso a los datos en la página de aterrizaje mediante etiquetas."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=es" text="Control de acceso de nivel de objeto"
+>title="Asignación de etiquetas a la página de aterrizaje"
+>abstract="Para proteger los recursos digitales confidenciales, puede definir autorizaciones para administrar el acceso a los datos a su página de aterrizaje mediante etiquetas."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Control de acceso de nivel de objeto"
 
 Los pasos principales para crear páginas de aterrizaje son los siguientes:
 
@@ -109,16 +109,16 @@ Una vez que haya configurado y diseñado el [página principal](#configure-prima
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_primary_page"
->title="Definir la configuración de la página principal"
->abstract="La página principal se muestra inmediatamente a los usuarios después de hacer clic en el vínculo a la página de aterrizaje, por ejemplo, desde un correo electrónico o un sitio web."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=es" text="Diseñar el contenido de la página de aterrizaje"
+>title="Defina la configuración de la página principal"
+>abstract="La página principal se muestra inmediatamente a los usuarios después de hacer clic en el vínculo a la página de aterrizaje, como desde un correo electrónico o un sitio web."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Diseño del contenido de la página de aterrizaje"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
->title="Definir la dirección URL de la página de aterrizaje"
->abstract="En esta sección, defina una dirección URL de página de aterrizaje única. La primera parte de la dirección URL requiere que haya configurado previamente un subdominio de página de aterrizaje como parte del ajuste preestablecido que ha seleccionado."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html?lang=es" text="Configurar subdominios de página de aterrizaje"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=es#lp-create-preset" text="Crear ajustes preestablecidos de la página de aterrizaje"
+>title="Defina la dirección URL de la página de aterrizaje"
+>abstract="En esta sección, defina una dirección URL de página de aterrizaje única. La primera parte de la URL requiere que haya configurado previamente un subdominio de página de aterrizaje como parte del ajuste preestablecido que ha seleccionado."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="Configurar subdominios de página de aterrizaje"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Crear ajustes preestablecidos de página de aterrizaje"
 
 La página principal es la página que se muestra inmediatamente a los usuarios después de hacer clic en el vínculo a la página de aterrizaje, como desde un correo electrónico o un sitio web.
 
@@ -177,17 +177,17 @@ Para definir la configuración de la página principal, siga los pasos a continu
 >[!CONTEXTUALHELP]
 >id="ajo_lp_subpage"
 >title="Definir la configuración de la subpágina"
->abstract="Se pueden añadir hasta dos subpáginas. Por ejemplo, puede crear una página de agradecimiento que se mostrará una vez que los usuarios envíen el formulario, y puede definir una página de error a la que se llamará si se produce un problema con la página de aterrizaje."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=es" text="Diseñar el contenido de la página de aterrizaje"
+>abstract="Puede agregar hasta dos subpáginas. Por ejemplo, puede crear una página de &quot;agradecimiento&quot; que se mostrará una vez que los usuarios envíen el formulario y puede definir una página de error a la que se llamará si se produce un problema con la página de aterrizaje."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp" text="Diseño del contenido de la página de aterrizaje"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"
->title="Definir la dirección URL de la página de aterrizaje"
->abstract="En esta sección, defina una dirección URL de página de aterrizaje única. La primera parte de la dirección URL requiere que haya configurado previamente un subdominio de página de aterrizaje como parte del ajuste preestablecido que ha seleccionado."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html?lang=es" text="Configurar subdominios de página de aterrizaje"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=es#lp-create-preset" text="Crear ajustes preestablecidos de la página de aterrizaje"
+>title="Defina la dirección URL de la página de aterrizaje"
+>abstract="En esta sección, defina una dirección URL de página de aterrizaje única. La primera parte de la URL requiere que haya configurado previamente un subdominio de página de aterrizaje como parte del ajuste preestablecido que ha seleccionado."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="Configurar subdominios de página de aterrizaje"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Crear ajustes preestablecidos de página de aterrizaje"
 
-Se pueden añadir hasta dos subpáginas. Por ejemplo, puede crear una página de agradecimiento que se mostrará una vez que los usuarios envíen el formulario, y puede definir una página de error a la que se llamará si se produce un problema con la página de aterrizaje.
+Puede agregar hasta dos subpáginas. Por ejemplo, puede crear una página de &quot;agradecimiento&quot; que se mostrará una vez que los usuarios envíen el formulario y puede definir una página de error a la que se llamará si se produce un problema con la página de aterrizaje.
 
 Para definir la configuración de la subpágina, siga los pasos a continuación.
 
@@ -213,9 +213,9 @@ Para definir la configuración de la subpágina, siga los pasos a continuación.
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_lp_profiles"
->title="Previsualizar y probar la página de aterrizaje"
->abstract="Una vez que haya definido la configuración y el contenido de la página de aterrizaje, puede utilizar perfiles de prueba para previsualizarlos."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html?lang=es" text="Seleccionar perfiles de prueba"
+>title="Previsualización y prueba de la página de aterrizaje"
+>abstract="Una vez definida la configuración y el contenido de la página de aterrizaje, puede utilizar perfiles de prueba para previsualizarlo."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html" text="Seleccionar perfiles de prueba"
 
 Una vez definida la configuración y el contenido de la página de aterrizaje, puede utilizar perfiles de prueba para previsualizarlo. Si ha insertado [contenido personalizado](../personalization/personalize.md), podrá comprobar cómo se muestra este contenido en la página de aterrizaje mediante los datos de perfil de prueba.
 
@@ -288,7 +288,7 @@ Pueden producirse dos tipos de alertas:
 > To be able to publish your message, you must resolve all **error** alerts.
 -->
 
-## Publicar la página de aterrizaje {#publish-landing-page}
+## Publicación de la página de aterrizaje {#publish-landing-page}
 
 >[!CAUTION]
 >
