@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: acciones, recorrido, mensajes, envío, conexiones
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6277d3aff540d2ce19a13f9a3174c0aef10f7180
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 43%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"
 >title="Acerca de las acciones"
->abstract="Aquí se define la conexión con el sistema que enviará los mensajes. Las acciones definidas aquí estarán disponibles en la paleta izquierda del recorrido, en la categoría Acción."
+>abstract="Aquí es donde define la conexión con el sistema que enviará los mensajes. Las acciones definidas aquí estarán disponibles en la paleta izquierda del recorrido, en la categoría Acción."
 
 Las acciones son conexiones a través de las cuales se ofrecen experiencias personalizadas en tiempo real a clientes, como notificaciones push, correo electrónico o cualquier otro medio de participación digital de su negocio.
 
@@ -33,7 +33,7 @@ Si tiene Adobe Campaign v7 o v8, hay una integración disponible bajo petición.
 
 Si utiliza un sistema de terceros para enviar mensajes como Epsilon, Facebook, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, etc., se debe añadir y configurar una acción personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-Las acciones personalizadas permiten configurar la conexión de un sistema de terceros para enviar mensajes o llamadas API. Se puede configurar una acción con cualquier servicio de cualquier proveedor al que se pueda llamar mediante una API REST con carga útil en formato JSON.
+Las acciones personalizadas le permiten configurar la conexión de un sistema de terceros para enviar mensajes o llamadas API. Se puede configurar una acción con cualquier servicio de cualquier proveedor al que se pueda llamar mediante una API REST con carga útil en formato JSON.
 
 >[!CAUTION]
 >
@@ -49,4 +49,4 @@ Para ver la lista de acciones o configurar una nueva acción, seleccione **[!UIC
 
 Obtenga información sobre cómo configurar acciones personalizadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/334257?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
