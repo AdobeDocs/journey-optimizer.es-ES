@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: bd4e352378ba9f895a192b467a650013af669c4d
+source-git-commit: ae9a315f6c9d2c2408788a7e4b32cdbd516f41d6
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 37%
+source-wordcount: '656'
+ht-degree: 40%
 
 ---
 
@@ -50,21 +50,21 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Flujo de trabajo de preparación IP</strong><br/></th>
+<th><strong>IP Warmup Workflow</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Si envía correos electrónicos en una dirección IP completamente nueva, ahora puede realizar fácilmente flujos de trabajo de calentamiento de IP directamente desde la interfaz de usuario. Adobe Journey Optimizer ofrece una forma estandarizada y eficaz de calentar las direcciones IP que sigue las prácticas recomendadas para lograr una entrega óptima.</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<p>If you are sending email on a brand new IP address, you can now easily perform IP warmup workflows directly from the user interface. Adobe Journey Optimizer offers a standardized and efficient way to warm up your IP adresses that follows the best practices for optimal deliverability.</p>
+<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
@@ -115,37 +115,44 @@ Desde la versión beta hasta esta versión, se han añadido las siguientes mejor
 * **Informes** : Ahora puede crear paneles de informes personalizados de campañas de Experience Decisioning mediante [!DNL Customer Journey Analytics]. [Más información](../experience-decisioning/cja-reporting.md)
 
 
-**Gestión de decisiones**
+<!--**Decision Management**
 
-* **Compatibilidad con varias reglas** : Ahora puede añadir hasta 10 reglas de límite para una oferta determinada en Gestión de decisiones. Esto le permite aumentar el nivel de control sobre la forma en que se envían las ofertas.
-* **Auditorías** - El **Registro de cambios** que le permite ver todos los cambios realizados en una oferta o que se ha eliminado una decisión. Los cambios relacionados con ofertas y decisiones ahora se pueden ver en el menú **Auditorías**.
+* **Multi-rule support** - You can now add up to 10 capping rules for a given offer in Decision Management. This allows you to increase the level of control over the way offers are sent.
+* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
 
 **Canal de correo electrónico**
 
-* **Cancelación de suscripción a lista** - Después de los recientes anuncios de Gmail y Yahoo para remitentes masivos, Journey Optimizer admite la opción de cancelación de suscripción a una lista &quot;posterior/1 clic&quot;.
-* **Puntuación de spam** (Beta): Ahora puede comprobar la puntuación de correo no deseado del contenido en un informe de correo no deseado dedicado. Con SpamAssassin, Adobe Journey Optimizer ahora puede probar el contenido del correo electrónico y asignarle una puntuación para indicar si los ISP o proveedores de buzones de correo lo considerarán como correo no deseado o no. Actualmente, esta funcionalidad está en versión beta y solo está disponible para los clientes de la versión beta. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.
+<!--
+* **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)
+-->
 
+* **Puntuación de spam** (Beta): Ahora puede comprobar la puntuación de correo no deseado del contenido en un informe de correo no deseado dedicado. Con SpamAssassin, Adobe Journey Optimizer ahora puede probar el contenido del correo electrónico y asignarle una puntuación para indicar si los ISP o proveedores de buzones de correo lo considerarán como correo no deseado o no. [Más información](../content-management/spam-report.md)
 
-<!--[Read more](../content-management/spam-report.md)-->
+  >[!AVAILABILITY]
+  >
+  >Actualmente, esta funcionalidad está en versión beta y solo está disponible para los clientes de la versión beta. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 <!--
 **Audiences**
 
 * The use of audiences and attributes from audience composition and custom upload (CSV file) is now available for use with Healthcare Shield or Privacy and Security Shield.-->
 
-**Personalización**
+<!--**Personalization**
 
-* **Fragmento de expresión** - Los fragmentos de expresiones ya están disponibles para **Canal en la aplicación**.
-  <!--[Read more](../personalization/use-expression-fragments.md)-->
+* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
 **Recorridos**
 
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
-* **Compatibilidad con mTLS** - La autenticación mTLS ahora se admite en acciones personalizadas. No se requiere ninguna configuración adicional en la acción personalizada o en el recorrido para activar mTLS; se produce automáticamente cuando se detecta un punto de conexión habilitado para mTLS.
-* **Tablas de búsqueda en eventos** - Ahora puede aprovechar los datos de un conjunto de datos de búsqueda cuando se ha definido una relación con un atributo dentro de una matriz de objetos. Los valores de búsqueda estarán disponibles en recorridos (condiciones, acciones personalizadas, etc.) y personalización de mensajes.
-* **Editor de expresiones avanzadas en Configuración de eventos** : Ahora puede aprovechar el editor de expresiones avanzadas al configurar un evento, lo que le permite definir expresiones más complejas o utilizar funciones en la condición de ID de evento.
+* **Compatibilidad con mTLS** - La autenticación mTLS ahora se admite en acciones personalizadas. No se requiere ninguna configuración adicional en la acción personalizada o en el recorrido para activar mTLS; se produce automáticamente cuando se detecta un punto de conexión habilitado para mTLS. [Más información](../action/about-custom-action-configuration.md#mtls-protocol-support)
+* **Tablas de búsqueda en eventos** - Ahora puede aprovechar los datos de un conjunto de datos de búsqueda cuando se ha definido una relación con un atributo dentro de una matriz de objetos. Los valores de búsqueda estarán disponibles en recorridos (condiciones, acciones personalizadas, etc.) y personalización de mensajes. [Más información](../event/experience-event-schema.md#relationships_limitations)
+* **Editor de expresiones avanzadas en Configuración de eventos** (LA): Ahora puede aprovechar el editor de expresiones avanzadas al configurar un evento, lo que le permite definir expresiones más complejas o utilizar funciones en la condición de ID de evento. Esta capacidad se lanza con disponibilidad limitada para clientes seleccionados. [Más información](../event/about-creating.md)
+* **Políticas de combinación** (LA) - Las políticas de combinación utilizadas por un Recorrido ahora son visibles y coherentes en todo el recorrido. Esta capacidad se lanza con disponibilidad limitada para clientes seleccionados. [Más información](../building-journeys/journey-gs.md#merge-policies)
 
 **Globalización**
 
-En nuestro esfuerzo continuo por ofrecer una experiencia de usuario unificada, armonizamos la terminología utilizada en los productos y las aplicaciones de Adobe Experience Cloud. Esto afecta al término alemán &quot;Title&quot;, que se cambia a &quot;Label&quot; cuando se relaciona con el nombre de un objeto. Los cambios se implementarán progresivamente en la interfaz de usuario y en la documentación de.
+Como parte de nuestro esfuerzo continuo por ofrecer una experiencia de usuario unificada, armonizamos la terminología utilizada en los productos y las aplicaciones de Adobe Experience Cloud. Esto afecta al término alemán &quot;Title&quot;, que se cambia a &quot;Label&quot; cuando se relaciona con el nombre de un objeto. Los cambios se implementarán progresivamente en la interfaz de usuario y en la documentación de.
+
+
+
