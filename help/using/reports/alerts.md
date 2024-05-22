@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: ddf9465fb940706fb38dc05038336ac22abecbc0
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Desde el **Alertas** , puede ver las alertas disponibles y suscribirse a ellas. 
 
 Obtenga más información sobre las alertas en Adobe Experience Platform en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=es){target="_blank"}.
 
-En el menú de la izquierda, debajo de **Administration**, haga clic en **Alertas**. Hay dos alertas preconfiguradas para Journey Optimizer disponibles: la [Error de acción personalizada de recorrido](#alert-custom-actions) alerta y el [Déclencheur de segmentos leído incorrecto](#alert-read-audiences) alerta. Estas alertas se detallan a continuación.
+En el menú de la izquierda, debajo de **Administration**, haga clic en **Alertas**. Hay dos alertas preconfiguradas para Journey Optimizer disponibles: la [Error de acción personalizada de recorrido](#alert-custom-actions) alerta y el [Error al leer Déclencheur de audiencia](#alert-read-audiences) alerta. Estas alertas se detallan a continuación.
 
 Puede suscribirse a cada alerta individualmente desde la interfaz de usuario, seleccionando la **Suscribirse** de la opción **Alertas** panel. Utilice el mismo método para cancelar la suscripción.
 
@@ -67,7 +67,7 @@ Alertas el **Leer audiencia** Las actividades de solo se aplican a recorridos re
 
 Alertas el **Leer audiencia** se resuelven cuando un perfil introduce en **Leer audiencia** nodo.
 
-El nombre de la suscripción del evento de E/S correspondiente a **Déclencheur de segmentos leído incorrecto** la alerta es **Retrasos, errores y errores del segmento de lectura de recorrido**.
+El nombre de la suscripción del evento de E/S correspondiente a **Error al leer Déclencheur de audiencia** la alerta es **Recorrido de retrasos, errores y errores de lectura de audiencia**.
 
 ## Resolución de problemas {#alert-troubleshooting}
 
