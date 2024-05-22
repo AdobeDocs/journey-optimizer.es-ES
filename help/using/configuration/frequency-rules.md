@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Reglas de frecuencia
+title: Reglas empresariales
 description: Obtenga información sobre cómo definir reglas de frecuencia
 feature: Rules
 topic: Content Management
@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 2e6d55b5e26ca8486289b4b5c5df0b2e898a9992
+source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 11%
+source-wordcount: '1257'
+ht-degree: 6%
 
 ---
 
-# Reglas de frecuencia de mensaje {#frequency-rules}
+# Reglas empresariales {#frequency-rules}
+
+>[!CONTEXTUALHELP]
+>id="ajo_business_rules_message_frequency_rules"
+>title="Reglas comerciales"
+>abstract="Utilice reglas empresariales para controlar la frecuencia con la que los usuarios recibirán un mensaje o entrarán en un recorrido configurando reglas multicanal que excluirán automáticamente los perfiles saturados de mensajes y acciones."
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
@@ -25,54 +30,52 @@ ht-degree: 11%
 
 [!DNL Journey Optimizer] permite controlar la frecuencia con la que los usuarios recibirán un mensaje o entrarán en un recorrido configurando reglas multicanal que excluirán automáticamente los perfiles saturados de los mensajes y las acciones.
 
-Por ejemplo, para una marca una regla podría ser no enviar más de 4 mensajes de marketing al mes a sus clientes. Para ello, puede utilizar una regla de frecuencia que limite el número de mensajes enviados en función de uno o más canales durante un periodo mensual del calendario.
+Por ejemplo, para una marca una regla podría ser no enviar más de 4 mensajes de marketing al mes a sus clientes. Para ello, puede utilizar una regla de negocio que limite el número de mensajes enviados en función de uno o más canales durante un periodo mensual del calendario.
 
 ![](assets/do-not-localize/sms-dm-rules.gif)
 
 >[!NOTE]
 >
->Las reglas de frecuencia de mensajes son diferentes de la administración de exclusión, que permite a los usuarios cancelar la suscripción y evitar recibir comunicaciones de una marca. [Más información](../privacy/opt-out.md#opt-out-management)
+>Las reglas empresariales son diferentes de la administración de la exclusión, que permite a los usuarios cancelar la suscripción y evitar recibir comunicaciones de una marca. [Más información](../privacy/opt-out.md#opt-out-management)
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-## Reglas de acceso {#access-rules}
+## Acceso a reglas empresariales {#access-rules}
 
-Las reglas están disponibles en **[!UICONTROL Administration]** > **[!UICONTROL Reglas]** menú. Todas las reglas se enumeran y se ordenan por fecha de modificación.
-
-Utilice el icono de filtro para filtrar por categoría, estado o canal. También puede buscar en la etiqueta del mensaje.
+Las reglas de negocio están disponibles en **[!UICONTROL Administration]** > **[!UICONTROL Reglas empresariales]** menú. Todas las reglas se enumeran y se ordenan por fecha de modificación. Utilice el icono de filtro para filtrar por categoría, estado o canal. También puede buscar en la etiqueta del mensaje.
 
 ![](assets/message-rules-filter.png)
 
 ### Permisos{#permissions-frequency-rules}
 
-Para acceder, crear, editar o eliminar reglas de frecuencia de mensajes, debe tener el **[!UICONTROL Administrar reglas de frecuencia]** permiso.
+Para acceder, crear, editar o eliminar reglas de negocio, debe tener **[!UICONTROL Administrar reglas de frecuencia]** permiso.
 
 Usuarios con **[!UICONTROL Ver reglas de frecuencia]** Los permisos de pueden ver las reglas, pero no modificarlas ni eliminarlas.
 
 ![](assets/message-rules-access.png)
 
-Puede obtener más información sobre permisos en [esta sección](../administration/high-low-permissions.md).
+Más información sobre los permisos en [esta sección](../administration/high-low-permissions.md).
 
-## Crear una regla {#create-new-rule}
+## Crear una regla de negocio {#create-new-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_category"
 >title="Seleccione la categoría de regla de mensaje"
->abstract="Cuando está activada y se aplica a un mensaje, todas las reglas de frecuencia que coincidan con la categoría seleccionada se aplican automáticamente a este mensaje. Actualmente solo está disponible la categoría Marketing."
+>abstract="Cuando se activa y se aplica a un mensaje, todas las reglas de negocio que coincidan con la categoría seleccionada se aplicarán automáticamente a este mensaje. Actualmente solo está disponible la categoría Marketing."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
->title="Establezca el límite de la regla"
->abstract="Especifique el número máximo de mensajes enviados a un perfil de cliente en el lapso de tiempo elegido. El límite de frecuencia se basará en el período de calendario seleccionado y se restablecerá al principio del lapso de tiempo correspondiente."
+>title="Establezca el límite de la regla de negocio"
+>abstract="Especifique el número máximo de mensajes enviados a un perfil de cliente en el lapso de tiempo elegido. El límite de frecuencia se basará en el período de calendario seleccionado y se restablecerá al comienzo del lapso de tiempo correspondiente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
->title="Definir los canales a los que se aplica la regla"
->abstract="Seleccione al menos un canal. El límite se aplica a todos los canales como un recuento total."
+>title="Defina los canales a los que se aplica la regla de negocio"
+>abstract="Seleccione al menos un canal. El límite se aplica a todos los canales como recuento total."
 
-Para crear una regla nueva, siga los pasos a continuación.
+Para crear una nueva regla de negocio, siga los pasos a continuación.
 
-1. Acceda a la **[!UICONTROL Reglas de frecuencia de mensaje]** y haga clic en **[!UICONTROL Crear regla]**.
+1. Acceda a la **[!UICONTROL Reglas empresariales]** y haga clic en **[!UICONTROL Crear regla]**.
 
    ![](assets/message-rules-create.png)
 
@@ -134,19 +137,19 @@ El límite diario de frecuencia es válido durante el día hasta el 23 de abril:
 >
 >Para garantizar la precisión de las reglas diarias de límite de frecuencia, se debe utilizar [segmentación por streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} se recomienda. Obtenga más información sobre los métodos de evaluación de audiencias en [esta sección](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
-## Activar una regla {#activate-rule}
+## Activar una regla de negocio {#activate-rule}
 
-Cuando se crea, una regla de frecuencia de mensaje tiene el **[!UICONTROL Borrador]** estado y aún no afecta a ningún mensaje. Para habilitarlo, haga clic en los puntos suspensivos junto a la regla y seleccione **[!UICONTROL Activar]**.
+Cuando se crea una regla de negocio, **[!UICONTROL Borrador]** estado y aún no afecta a ningún mensaje. Para habilitarlo, haga clic en los puntos suspensivos junto a la regla y seleccione **[!UICONTROL Activar]**.
 
 ![](assets/message-rules-activate.png)
 
-La activación de una regla afectará a cualquier mensaje al que se aplique en su próxima ejecución. Obtenga información sobre cómo [aplicación de una regla de frecuencia a un mensaje](#apply-frequency-rule).
+La activación de una regla afectará a cualquier mensaje al que se aplique en su próxima ejecución. Obtenga información sobre cómo [aplicación de una regla de negocio a un mensaje](#apply-frequency-rule).
 
 >[!NOTE]
 >
 >Una regla puede tardar hasta 10 minutos en activarse completamente. No es necesario modificar los mensajes ni volver a publicar los recorridos para que una regla surta efecto.
 
-Para desactivar una regla de frecuencia de mensaje, haga clic en los puntos suspensivos junto a la regla y seleccione **[!UICONTROL Desactivar]**.
+Para desactivar una regla de negocio, haga clic en los puntos suspensivos junto a la regla y seleccione **[!UICONTROL Desactivar]**.
 
 ![](assets/message-rules-deactivate.png)
 
@@ -156,9 +159,9 @@ El estado de la regla cambiará a **[!UICONTROL Inactivo]** y la regla no se apl
 >
 >La desactivación de una regla no afecta ni restablece ningún recuento en perfiles individuales.
 
-## Aplicación de una regla de frecuencia a un mensaje {#apply-frequency-rule}
+## Aplicación de una regla de negocio a un mensaje {#apply-frequency-rule}
 
-Para aplicar una regla de frecuencia a un mensaje, siga los pasos a continuación.
+Para aplicar una regla de negocio a un mensaje, siga los pasos a continuación.
 
 1. Al crear un [recorrido](../building-journeys/journey-gs.md), añada un mensaje seleccionando uno de los canales definidos para la regla.
 
@@ -168,17 +171,17 @@ Para aplicar una regla de frecuencia a un mensaje, siga los pasos a continuació
 
    >[!NOTE]
    >
-   >Actualmente solo el **[!UICONTROL Marketing]** está disponible para reglas de frecuencia de mensajes.
+   >Actualmente solo el **[!UICONTROL Marketing]** La categoría está disponible para reglas de negocio.
 
 1. Puede hacer clic en **[!UICONTROL Regla de frecuencia]** para ver la pantalla de reglas de frecuencia en una nueva pestaña. [Más información](#access-rules)
 
-   Todas las reglas de frecuencia que coincidan con la categoría y los canales seleccionados se aplicarán automáticamente a este mensaje.
+   Todas las reglas que coincidan con la categoría y los canales seleccionados se aplicarán automáticamente a este mensaje.
 
    >[!NOTE]
    >
    >Mensajes en los que se selecciona la categoría **[!UICONTROL Transaccional]** no se evaluarán con reglas de frecuencia.
 
-1. Puede ver el número de perfiles excluidos del envío en la [Informe global](../reports/global-report.md), y en el [Informe en vivo](../reports/live-report.md), donde las reglas de frecuencia se enumerarán como un posible motivo para excluir a los usuarios del envío.
+1. Puede ver el número de perfiles excluidos del envío en la [Informe global](../reports/global-report.md), y en el [Informe en vivo](../reports/live-report.md), donde las reglas empresariales se enumerarán como un posible motivo para que los usuarios se excluyan de la entrega.
 
 >[!NOTE]
 >
@@ -186,9 +189,9 @@ Para aplicar una regla de frecuencia a un mensaje, siga los pasos a continuació
 
 ## Ejemplo: combinar varias reglas {#frequency-rule-example}
 
-Puede combinar varias reglas de frecuencia de mensajes, como se describe en el ejemplo siguiente.
+Puede combinar varias reglas de negocio, como se describe en el ejemplo siguiente.
 
-1. [Creación de una regla](#create-new-rule) llamado *Límite general de marketing*:
+1. [Crear una regla de negocio](#create-new-rule) llamado *Límite general de marketing*:
 
    * Seleccione todos los canales.
    * Establezca un límite de 12 al mes.
@@ -204,7 +207,7 @@ Puede combinar varias reglas de frecuencia de mensajes, como se describe en el e
 
 1. Guardar y [activar](#activate-rule) la regla.
 
-1. [Creación de un mensaje](../building-journeys/journeys-message.md) para cada canal con el que desee comunicarse y seleccione **[!UICONTROL Marketing]** categoría para cada mensaje. [Aprenda a aplicar una regla de frecuencia](#apply-frequency-rule)
+1. [Creación de un mensaje](../building-journeys/journeys-message.md) para cada canal con el que desee comunicarse y seleccione **[!UICONTROL Marketing]** categoría para cada mensaje. [Obtenga información sobre cómo aplicar una regla de negocio](#apply-frequency-rule)
 
    ![](assets/journey-message-category.png)
 
@@ -231,10 +234,10 @@ En esta situación, un perfil individual:
 
 >[!NOTE]
 >
->Al probar las reglas de frecuencia, se recomienda utilizar un [perfil de prueba](../audience/creating-test-profiles.md), porque una vez que se alcanza el límite de frecuencia de un perfil, no hay forma de restablecer el contador hasta el mes siguiente. Al desactivar una regla, los perfiles con límite pueden recibir mensajes, pero no se elimina ni elimina ningún incremento de contador.
+>Al probar las reglas empresariales, se recomienda utilizar un recién creado [perfil de prueba](../audience/creating-test-profiles.md), porque una vez que se alcanza el límite de frecuencia de un perfil, no hay forma de restablecer el contador hasta el mes siguiente. Al desactivar una regla, los perfiles con límite pueden recibir mensajes, pero no se elimina ni elimina ningún incremento de contador.
 
 ## Vídeo explicativo {#video}
 
-Obtenga información sobre cómo crear, activar, probar e informar sobre reglas de frecuencia.
+Obtenga información sobre cómo crear, activar, probar e informar sobre reglas empresariales.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

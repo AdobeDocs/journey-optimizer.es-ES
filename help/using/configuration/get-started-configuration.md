@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuración, configurar, mensajes, canal, zona protegida, optimizador
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ Para poder crear sus recorridos y enviar mensajes, debe seguir los pasos de conf
 
    * Active la **Opción de correo electrónico de BBC** para mantener una copia de los mensajes enviados a personas. [Más información](archiving-support.md#enable-bcc)
 
-   * Configure **reglas de frecuencia** para evitar saturar a los destinatarios. [Más información](frequency-rules.md)
+   * Configurar **reglas empresariales** para evitar solicitar en exceso a los destinatarios. [Más información](frequency-rules.md)
 
    * Determine la dirección de correo electrónico o el número de teléfono que se utilizará con prioridad para los destinatarios cuando haya varias direcciones o números disponibles en Adobe Experience Platform. [Más información](primary-email-addresses.md)
 

@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
+source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
 workflow-type: tm+mt
 source-wordcount: '1811'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 99%
             + [toInteger](using/building-journeys/functions/functiontointeger.md)
             + [toString](using/building-journeys/functions/functiontostring.md)
          + Fecha {#date}
-            + [currentTimeInMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
+            + [currentTime: InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
             + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
             + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
             + [inLastMonths](using/building-journeys/functions/functioninlastmonths.md)
@@ -153,8 +153,8 @@ ht-degree: 99%
             + [split](using/building-journeys/functions/functionsplit.md)
             + [startWith](using/building-journeys/functions/functionstartwith.md)
             + [startWithIgnoreCase](using/building-journeys/functions/functionstartwithignorecase.md)
-            + [substr](using/building-journeys/functions/functionsubstr.md)
-            + [trim](using/building-journeys/functions/functiontrim.md)
+            + [sustr](using/building-journeys/functions/functionsubstr.md)
+            + [recortar](using/building-journeys/functions/functiontrim.md)
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Casos de uso {#journey-use-cases}
@@ -424,7 +424,7 @@ ht-degree: 99%
          + [Conjunto de datos de reserva](using/offers/export-catalog/export-fallback.md)
       + Referencia de API {#api-reference}
          + [Introducción](using/offers/api-reference/getting-started.md)
-         + Crear y administrar ofertas mediante API {#offers-api}
+         + Creación y administración de ofertas mediante API {#offers-api}
             + Ubicaciones {#placements}
                + [Enumerar ubicaciones](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [Buscar una ubicación](using/offers/api-reference/offers-api/placements/lookup.md)
@@ -561,7 +561,7 @@ ht-degree: 99%
    + [Uso de listas semilla](using/configuration/seed-lists.md)
    + [Asistencia para el archivado](using/configuration/archiving-support.md)
    + [Cambio de direcciones de ejecución](using/configuration/primary-email-addresses.md)
-   + [Configuración de las reglas de frecuencia](using/configuration/frequency-rules.md)
+   + [Configurar reglas empresariales](using/configuration/frequency-rules.md)
    + [Trabajo con conjuntos de reglas](using/configuration/rule-sets.md)
    + Configurar recorridos {#configure-journeys}
       + [Acerca de las fuentes de datos, los eventos y las acciones](using/configuration/about-data-sources-events-actions.md)
