@@ -14,7 +14,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 644e0959ee0d0ec8ee0c4ec54c3bcd1cc3c4dda9
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 96%
+ht-degree: 67%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
 >title="Asistente de IA"
->abstract="Una vez que haya creado y personalizado su envío, puede utilizar el Asistente de IA para mejorar el contenido.  Esta funcionalidad simplifica el proceso de personalización y mejora del contenido, ya que le permite ajustar el contenido al describir lo que desea generar."
+>abstract="Una vez que haya creado y personalizado su envío, puede utilizar el asistente de IA para mejorar su contenido. Esta función simplifica el proceso de personalización y mejora de contenido, ya que le permite ajustar el contenido al describir lo que desea generar."
 
 
 >[!CONTEXTUALHELP]
@@ -34,9 +34,9 @@ ht-degree: 96%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
->title="Términos de la IA generativa de Adobe"
->abstract="El acceso a esta función está sujeto a su acuerdo con las directrices de usuario de IA generativa de Adobe Experience Cloud. Cualquier indicación, contexto, información complementaria u otra información que proporcione a esta función debe estar vinculada a un contexto específico, que puede incluir materiales de promoción de la marca, contenido del sitio web, datos, esquemas para dichos datos, plantillas u otros documentos de confianza y no deben contener información personal (la información personal incluye cualquier cosa que pueda vincularse de nuevo a una persona específica). Debe revisar cualquier resultado de esta función para comprobar su precisión y asegurarse de que sea adecuado para su caso de uso."
->additional-url="https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Directrices del usuario de IA generativa de Adobe"
+>title="Adobe Términos de IA generativa"
+>abstract="El acceso a esta función está sujeto a su acuerdo con las Directrices de usuario de IA generativa de Adobe Experience Cloud. Cualquier solicitud, contexto, información complementaria u otra información que proporcione a esta función debe estar vinculada a un contexto específico, que puede incluir materiales de promoción de la marca, contenido del sitio web, datos, esquemas para dichos datos, plantillas u otros documentos de confianza y no debe contener información personal (la información personal incluye cualquier cosa que pueda vincularse de nuevo a una persona específica). Debe revisar cualquier resultado de esta función para comprobar su precisión y asegurarse de que sea adecuado para su caso de uso"
+>additional-url="https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Directrices del usuario de IA generativa"
 
 >[!BEGINSHADEBOX]
 

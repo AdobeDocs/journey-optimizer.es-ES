@@ -10,7 +10,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: b6c5bb09d7a1cb7f61a532cd5ffd262436e09039
 workflow-type: tm+mt
 source-wordcount: '1746'
-ht-degree: 15%
+ht-degree: 0%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
->title="Administración de elementos de decisión"
->abstract="Journey Optimizer le permite crear ofertas de marketing, conocidas como elementos de decisión, que puede crear y organizar en un catálogo y colecciones centralizados. Actualmente, todos los elementos de decisión creados se consolidan dentro de un único catálogo &quot;Ofertas&quot;. Desde esta pantalla, también puede acceder al esquema del catálogo mediante el botón **Editar esquema** y crear atributos personalizados para los elementos de decisión."
+>title="Administrar elementos de decisión"
+>abstract="Journey Optimizer le permite crear ofertas de marketing, conocidas como elementos de decisión, que puede crear y organizar en un catálogo y colecciones centralizados. Actualmente, todos los elementos de decisión creados se consolidan dentro de un único catálogo &quot;Ofertas&quot;. Desde esta pantalla, también puede acceder al esquema del catálogo mediante el **Editar esquema** y cree atributos personalizados para los elementos de decisión."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="Configuración del catálogo de elementos"
 
 Journey Optimizer le permite crear ofertas de marketing, conocidas como elementos de decisión, que puede crear y organizar en un catálogo y colecciones centralizados. Están formadas por atributos estándar y personalizados diseñados para ajustarse con precisión a sus necesidades. Además, incorporan restricciones de perfil que le permiten definir a quién se puede mostrar un elemento de decisión.
@@ -28,11 +28,11 @@ Antes de crear un elemento de decisión, asegúrese de haber creado un **regla d
 
 Para crear un elemento de decisión, vaya a **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Catálogos]**, luego haga clic en **[!UICONTROL Crear elemento]** a continuación, siga los pasos detallados en las secciones siguientes.
 
-## Definición de los atributos del elemento de decisión {#attributes}
+## Definir los atributos del elemento de decisión {#attributes}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_priority"
->title="Definición de la prioridad del elemento de decisión"
+>title="Definir la prioridad del elemento de decisión"
 >abstract="Si un perfil cumple los requisitos para varios elementos, la prioridad permite comparar este elemento de decisión con otros. Una prioridad mayor otorga al elemento prioridad sobre otros."
 
 >[!CONTEXTUALHELP]
@@ -58,14 +58,14 @@ Comience por definir los atributos estándar y personalizados del elemento de de
 
 1. Una vez definidos los atributos del elemento de decisión, haga clic en **[!UICONTROL Siguiente]**.
 
-## Configuración de la idoneidad del elemento de decisión {#eligibility}
+## Configurar la idoneidad del elemento de decisión {#eligibility}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
->title="Añadir públicos o reglas de decisión"
->abstract="De forma predeterminada, todos los perfiles podrán recibir el elemento de decisión, pero puede utilizar públicos o reglas para reservar el elemento únicamente a perfiles específicos."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=es" text="Uso de públicos"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="Uso de reglas de decisión"
+>title="Adición de audiencias o reglas de decisión"
+>abstract="De forma predeterminada, todos los perfiles son aptos para recibir el elemento de decisión, pero puede utilizar audiencias o reglas para restringir el elemento únicamente a perfiles específicos."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Usar audiencias"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="Usar reglas de decisión"
 
 De forma predeterminada, todos los perfiles pueden recibir el elemento de decisión, pero puede utilizar audiencias o reglas para restringir el elemento solo a perfiles específicos, ambas soluciones correspondientes a usos diferentes. Expanda la sección siguiente para obtener más información:
 
@@ -148,7 +148,7 @@ Para establecer las reglas de límite para el elemento de decisión, haga clic e
 <!--* Identifying how many times a given customer has been shown a decision item. 
 If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
 
-## Administración de elementos de decisión {#manage}
+## Administrar elementos de decisión {#manage}
 
 Desde la lista de elementos de decisión, puede editar un elemento de decisión y cambiar su estado (**Borrador**, **Aprobado**, **Archivado**), duplíquelo o elimínelo.
 
