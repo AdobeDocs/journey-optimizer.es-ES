@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 11%
+ht-degree: 6%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
->title="Creación de mensajes push"
->abstract="Añada el mensaje push y comience a personalizarlo con el editor de expresiones."
+>title="Creación de mensaje push"
+>abstract="Añada el mensaje push y empiece a personalizarlo con el editor de personalización."
 
 ## Creación de la notificación push en un recorrido o una campaña {#create}
 
@@ -76,8 +76,8 @@ Para crear una notificación push, siga los pasos a continuación:
 
 1. Desde el **[!UICONTROL Déclencheur de acción]** , seleccione la opción **[!UICONTROL Frecuencia]** de la notificación push:
 
-   * Una
-   * Diario
+   * Una vez
+   * Diaria
    * Semanal
    * Mensual
 
@@ -101,7 +101,7 @@ Para crear una notificación push, siga los pasos a continuación:
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="Modo de envío rápido"
->abstract="El modo de envío rápido permite realizar envíos de mensajes a alta velocidad en el canal push a un tamaño de público inferior a 30 millones."
+>abstract="El modo de envío rápido permite realizar envíos de mensajes de alta velocidad en el canal push a un tamaño de audiencia inferior a 30 millones."
 
 El modo de envío rápido es un [!DNL Journey Optimizer] complemento que permite enviar mensajes push muy rápidamente en grandes volúmenes a través de campañas.
 

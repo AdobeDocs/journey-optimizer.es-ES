@@ -7,10 +7,10 @@ role: User
 level: Experienced
 badge: label="Disponibilidad limitada"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 18%
+ht-degree: 2%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
->title="¿Qué es una decisión?"
->abstract="Las políticas de decisión contienen toda la lógica de selección para que el motor de decisión elija el mejor contenido. Las políticas de decisión son específicas de la campaña. Su meta es seleccionar las mejores ofertas para cada perfil, mientras que la creación de campañas le permite indicar cómo se deben presentar los elementos de decisión seleccionados, incluidos los atributos de elemento que se deben incluir en el mensaje."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Acerca de la Toma de decisiones sobre experiencias"
+>title="¿Qué es una decisón?"
+>abstract="Las políticas de decisión contienen toda la lógica de selección para que el motor de decisión elija el mejor contenido. Las políticas de decisión son específicas de la campaña. Su objetivo es seleccionar las mejores ofertas para cada perfil, mientras que la creación de campañas le permite indicar cómo se deben presentar los elementos de decisión seleccionados, incluidos los atributos de elemento que se deben incluir en el mensaje."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Acerca de Experience Decisioning"
 
 Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de decisión de experiencias para elegir el mejor contenido que se ofrece, según la audiencia.
 
-Las políticas de decisión contienen toda la lógica de selección para que el motor de decisión elija el mejor contenido. Las políticas de decisión son específicas de la campaña. Su meta es seleccionar las mejores ofertas para cada perfil, mientras que la creación de campañas le permite indicar cómo se deben presentar los elementos de decisión seleccionados, incluidos los atributos de elemento que se deben incluir en el mensaje.
+Las políticas de decisión contienen toda la lógica de selección para que el motor de decisión elija el mejor contenido. Las políticas de decisión son específicas de la campaña. Su objetivo es seleccionar las mejores ofertas para cada perfil, mientras que la creación de campañas le permite indicar cómo se deben presentar los elementos de decisión seleccionados, incluidos los atributos de elemento que se deben incluir en el mensaje.
 
 >[!NOTE]
 >
@@ -34,13 +34,13 @@ Las políticas de decisión contienen toda la lógica de selección para que el 
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
->title="Definición del número de elementos que desea devolver"
+>title="Defina el número de elementos que desea devolver"
 >abstract="Seleccione el número de elementos de decisión que desea que se devuelvan. Por ejemplo, si selecciona 2, se presentarán las dos mejores ofertas aptas para la superficie actual."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
->title="Selección de una reserva"
->abstract="Un elemento de reserva se muestra al usuario cuando no se cumple ninguna de las estrategias de selección definidas para esa política de decisión."
+>title="Seleccionar una reserva"
+>abstract="Un elemento de reserva se muestra al usuario cuando no se cumple ninguna de las estrategias de selección definidas para esa directiva de decisión."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_strategy"
@@ -159,11 +159,11 @@ Las ofertas clasificadas ahora son las siguientes: Oferta 5 , Oferta 3, Oferta 4
 
 ## Uso de la política de decisión en el editor de código {#use-decision-policy}
 
-Una vez creada, la política de decisión se puede utilizar en el [Editor de expresiones](../code-based/create-code-based.md#edit-code). Para ello, siga los pasos que aparecen a continuación.
+Una vez creada, la política de decisión se puede utilizar en el [editor de personalización](../code-based/create-code-based.md#edit-code). Para ello, siga los pasos que aparecen a continuación.
 
 >[!NOTE]
 >
->La experiencia basada en código aprovecha las [!DNL Journey Optimizer] Editor de expresiones con todas sus capacidades de personalización y creación. [Más información](../personalization/personalization-build-expressions.md)
+>La experiencia basada en código aprovecha las [!DNL Journey Optimizer] editor de personalización con todas sus funcionalidades de personalización y creación. [Más información](../personalization/personalization-build-expressions.md)
 
 1. Haga clic en **[!UICONTROL Insertar política]** botón. Se agrega el código correspondiente a la política de decisión.
 
@@ -186,11 +186,11 @@ Una vez creada, la política de decisión se puede utilizar en el [Editor de exp
 
    ![](assets/decision-code-based-add-decision-attributes.png)
 
-1. También puede agregar cualquier otro atributo disponible en el Editor de expresiones, como atributos de perfil.
+1. También puede añadir cualquier otro atributo disponible en el editor de personalización, como atributos de perfil.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-## Informes en Customer Journey Analytics {#cja}
+## Creación de informes en Customer Journey Analytics {#cja}
 
 Si trabaja con Customer Journey Analytics, puede crear paneles de informes personalizados para sus campañas basadas en código aprovechando Experience Decisioning.
 

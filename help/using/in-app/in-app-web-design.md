@@ -8,10 +8,10 @@ level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 hide: true
 hidefromtoc: true
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '780'
-ht-degree: 7%
+ht-degree: 4%
 
 ---
 
@@ -104,7 +104,7 @@ Para redactar el mensaje, introduzca el contenido en la **[!UICONTROL Header]** 
 
 ![](assets/in_app_web_design_4.png)
 
-Utilice el **[!UICONTROL Personalización]** para añadir personalización. Obtenga más información acerca de la personalización en el Editor de expresiones de Adobe Journey Optimizer [en esta sección](../personalization/personalize.md).
+Utilice el **[!UICONTROL Personalización]** para añadir personalización. Obtenga más información sobre personalización en el editor de personalización de Adobe Journey Optimizer [en esta sección](../personalization/personalize.md).
 
 +++Más opciones con formato avanzado
 
@@ -118,7 +118,7 @@ Si la variable **[!UICONTROL Modo de formato avanzado]** está activado, puede e
 
 ### Botones {#add-buttons}
 
-Añada botones para que los usuarios interactúen con el mensaje en la aplicación.
+Agregue botones para que los usuarios interactúen con el mensaje en la aplicación.
 
 ![](assets/in_app_web_design_5.png)
 

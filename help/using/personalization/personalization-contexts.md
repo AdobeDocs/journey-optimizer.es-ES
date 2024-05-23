@@ -9,18 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, contexto, personalización
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 15%
+ht-degree: 14%
 
 ---
 
 # Contextos de personalización{#personalization-areas}
 
-El contenido y la visualización de los mensajes enviados por [!DNL Journey Optimizer] se puede personalizar de varias formas diferentes.
-
-En todos los campos con el icono del editor, puede abrir el editor de personalización (también conocido como editor de expresiones) y definir la personalización.
+El contenido y la visualización de los mensajes enviados por [!DNL Journey Optimizer] se puede personalizar de varias formas diferentes. En todos los campos con el icono del editor, puede abrir el editor de personalización (también conocido como editor de personalización) y definir la personalización.
 
 ![](assets/perso_icon.png)
 
@@ -58,7 +56,7 @@ También puede personalizar su **Notificaciones push** en los campos siguientes:
 
 Obtenga más información acerca de la configuración de notificaciones push en [esta sección](../push/push-gs.md).
 
-## Personalización de las ofertas {#personalize-offers}
+## Personalizar sus ofertas {#personalize-offers}
 
 También puede acceder al editor de personalización al añadir contenido de tipo texto a las representaciones de las ofertas.
 

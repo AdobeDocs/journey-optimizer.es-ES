@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Seguimiento de mensajes
-description: Obtenga información sobre cómo añadir vínculos y rastrear los mensajes enviados
+description: Obtenga información sobre cómo añadir vínculos y rastrear mensajes enviados
 feature: Email Design, Monitoring
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: vínculos, seguimiento, monitorización, correo electrónico
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 35%
+ht-degree: 3%
 
 ---
 
@@ -45,9 +45,9 @@ Esto permite rastrear el comportamiento de los destinatarios a través de:
 * **[!UICONTROL Aperturas de correo electrónico]**: Mensajes que se han abierto.
 * **[!UICONTROL Haga clic en el correo electrónico]**: hace clic en los vínculos de un correo electrónico.
 
-## Inserción de vínculos {#insert-links}
+## Insertar vínculos {#insert-links}
 
-Al diseñar un mensaje, puede agregar vínculos al contenido.
+Al diseñar un mensaje, puede añadir vínculos al contenido.
 
 >[!NOTE]
 >
@@ -95,13 +95,13 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
 Puede realizar ajustes en los vínculos utilizando la variable **[!UICONTROL Configuración]** y **[!UICONTROL Estilos]** paneles a la derecha. Puede subrayar un vínculo, editar su color y seleccionar su destino.
 
-1. En un componente de **[!UICONTROL Texto]** donde se inserta un vínculo, seleccione el vínculo.
+1. En un **[!UICONTROL Texto]** componente donde se inserta un vínculo, seleccione el vínculo.
 
 1. Desde el **[!UICONTROL Configuración]** pestaña, elija cómo se redirigirá la audiencia con el **[!UICONTROL Target]** lista desplegable:
 
-   * **[!UICONTROL Ninguna]**: abre el vínculo en el mismo marco en el que se hizo clic (predeterminado).
-   * **[!UICONTROL En blanco]**: abre el vínculo en una nueva ventana o pestaña.
-   * **[!UICONTROL Propio]**: abre el vínculo en el mismo marco en el que se hizo clic.
+   * **[!UICONTROL Ninguno]**: abre el vínculo en el mismo fotograma en el que se hizo clic (valor predeterminado).
+   * **[!UICONTROL Vacío]**: abre el vínculo en una nueva ventana o pestaña.
+   * **[!UICONTROL Self]**: abre el vínculo en el mismo fotograma en el que se hizo clic.
    * **[!UICONTROL Principal]**: abre el vínculo en el marco principal.
    * **[!UICONTROL Superior]**: abre el vínculo en todo el cuerpo de la ventana.
 
@@ -111,7 +111,7 @@ Puede realizar ajustes en los vínculos utilizando la variable **[!UICONTROL Con
 
    ![](assets/link_1.png)
 
-1. Para cambiar el color del vínculo, haga clic en **[!UICONTROL Color del vínculo]** en la pestaña **[!UICONTROL Estilos]**.
+1. Para cambiar el color del vínculo, haga clic en **[!UICONTROL Color del vínculo]** desde el **[!UICONTROL Estilos]** pestaña.
 
    ![](assets/link_3.png)
 
@@ -119,7 +119,7 @@ Puede realizar ajustes en los vínculos utilizando la variable **[!UICONTROL Con
 
 ## Vínculo a una página espejo {#mirror-page}
 
-La página espejo es una página HTML a la que se puede acceder en línea mediante un navegador web. Su contenido es idéntico al contenido del correo electrónico.
+La página espejo es una página de HTML accesible en línea mediante un explorador web. Su contenido es idéntico al contenido del correo electrónico.
 
 Para añadir un vínculo a una página espejo en el correo electrónico, [insertar un vínculo](#insert-links) y seleccione **[!UICONTROL Página espejo]** como tipo de vínculo.
 
@@ -129,9 +129,9 @@ La página espejo se crea automáticamente.
 
 >[!IMPORTANT]
 >
->Los vínculos de páginas espejo se generan automáticamente y no se pueden editar. Contienen todos los datos personalizados cifrados necesarios para procesar el correo electrónico original. Como resultado, el uso de atributos personalizados con valores grandes puede generar direcciones URL de páginas espejo largas, lo que puede impedir que el vínculo funcione en exploradores web que tengan una longitud máxima de direcciones URL.
+>Los vínculos de las páginas espejo se generan automáticamente y no se pueden editar. Contienen todos los datos personalizados cifrados necesarios para procesar el correo electrónico original. Como resultado, el uso de atributos personalizados con valores grandes puede generar direcciones URL de páginas espejo largas, lo que puede impedir que el vínculo funcione en exploradores web que tengan una longitud de URL máxima.
 
-Una vez enviado el correo electrónico, cuando los destinatarios hacen clic en el vínculo de la página espejo, el contenido del correo electrónico se muestra en su navegador web predeterminado.
+Una vez enviado el correo electrónico, cuando los destinatarios hacen clic en el vínculo de la página espejo, el contenido del correo electrónico se muestra en el explorador web predeterminado.
 
 >[!NOTE]
 >
@@ -139,26 +139,26 @@ Una vez enviado el correo electrónico, cuando los destinatarios hacen clic en e
 
 El período de retención de una página espejo es de 60 días. Después de este retraso, la página espejo ya no estará disponible.
 
-## Administrar seguimiento {#manage-tracking}
+## Administración del seguimiento {#manage-tracking}
 
-El [Diseñador de correo electrónico](content-from-scratch.md) le permite administrar las direcciones URL rastreadas, como editar el tipo de seguimiento para cada vínculo.
+El [Diseñador de correo electrónico](content-from-scratch.md) permite administrar las direcciones URL rastreadas, como editar el tipo de seguimiento para cada vínculo.
 
 1. Haga clic en **[!UICONTROL Vínculos]** del panel izquierdo para mostrar la lista de todas las direcciones URL del contenido de las que se realizará un seguimiento.
 
-   Esta lista permite tener una vista centralizada y localizar cada URL en el contenido del correo electrónico.
+   Esta lista le permite tener una vista centralizada y localizar cada dirección URL en el contenido del correo electrónico.
 
 1. Para editar un vínculo, haga clic en el icono de lápiz correspondiente.
 
-1. Puede modificar el **[!UICONTROL Tipo de seguimiento]** si es necesario:
+1. Puede modificar la variable **[!UICONTROL Tipo de seguimiento]** si es necesario:
 
    ![](assets/message-tracking-edit-a-link.png)
 
-   Para cada URL individual, puede definir el modo de seguimiento en uno de estos valores:
+   Para cada URL rastreada, puede establecer el modo de seguimiento en uno de estos valores:
 
-   * **[!UICONTROL Habilitado]**: activa el seguimiento en esta dirección URL.
-   * **[!UICONTROL Exclusión]**: considera esta URL como una de exclusión o de baja.
-   * **[!UICONTROL Página espejo]**: considera esta URL como una de página espejo.
-   * **[!UICONTROL Nunca]**: nunca se activa el seguimiento de esta URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL Rastreado]**: activa el seguimiento en esta dirección URL.
+   * **[!UICONTROL Opción de exclusión]**: Considera esta URL como una URL de exclusión o de baja.
+   * **[!UICONTROL Página espejo]**: Considera esta URL como una URL de página espejo.
+   * **[!UICONTROL Nunca]**: Nunca activa el seguimiento de esta dirección URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 Los informes sobre aperturas y clics están disponibles en la [Informe en vivo](../reports/live-report.md) y en el [Informe global](../reports/global-report.md).
 
@@ -174,7 +174,7 @@ Para añadir parámetros de seguimiento de URL personalizados a los vínculos, s
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. Añada el parámetro de seguimiento de URL y seleccione el atributo de perfil que desee en el editor de expresiones.
+1. Añada el parámetro de seguimiento de URL y seleccione el atributo de perfil que desee en el editor de personalización.
 
    ![](assets/message-tracking-perso-parameter.png)
 

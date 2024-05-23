@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '5290'
+source-wordcount: '5317'
 ht-degree: 98%
 
 ---
@@ -26,6 +26,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * Se ha actualizado la sección sobre fuentes de datos externas. [Más información](../datasource/external-data-sources.md#custom-authentication-access-token)
 * El tiempo de espera de recorrido global de 30 días se ha agregado a la página Protección y limitación. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
 * La sección sobre la integración de Adobe Campaign v7/v8 se ha actualizado con información sobre el aprovisionamiento. [Más información](../action/acc-action.md#access)
+* El nombre del editor de expresiones utilizado para personalizar el contenido se ha cambiado en la documentación a &quot;editor de personalización&quot; para diferenciarlo claramente del editor de expresiones [editor de expresiones de recorrido](../building-journeys/expression/expressionadvanced.md). [Más información](../personalization/personalization-build-expressions.md)
 
 ## Abril de 2024 {#april-2024}
 
@@ -63,7 +64,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * Se ha añadido información sobre cómo personalizar las representaciones de las ofertas en función de los datos de contexto. [Más información](../offers/offer-library/add-representations.md#context-data)
 * La página de protecciones se ha actualizado con una nota sobre acciones personalizadas que solo admiten el formato JSON cuando se utilizan cargas útiles de solicitud o respuesta. [Más información](../start/guardrails.md#custom-actions-g)
 * Se ha añadido información adicional acerca del tipo de autenticación básica en fuentes de datos externas. [Más información](../datasource/external-data-sources.md)
-* Se ha añadido una nota para diferenciar claramente el [editor de expresiones de recorrido](../building-journeys/expression/expressionadvanced.md) desde el [Editor de personalización](../personalization/functions/functions.md).
+* Se ha añadido una nota para diferenciar claramente la variable [editor de expresiones de recorrido](../building-journeys/expression/expressionadvanced.md) desde el [editor de personalización](../personalization/functions/functions.md).
 * Se ha actualizado la lista de funciones disponibles en el editor de expresiones avanzadas. [Más información](../building-journeys/expression/functions.md)
 * Se ha actualizado la página de la función Split. [Más información](../building-journeys/functions/functioninaudience.md)
 * Se ha añadido información sobre el impacto de la inclusión o la exclusión de notificaciones push en los mensajes en la aplicación. [Más información](../in-app/create-in-app.md)

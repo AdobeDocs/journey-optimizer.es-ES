@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1872'
-ht-degree: 3%
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,7 @@ Uso [!DNL Journey Optimizer] crear plantillas de lenguaje para realizar operacio
 
 ➡️ [Aprenda a utilizar las funciones de ayuda en este vídeo](#video)
 
-El lenguaje de plantilla se aprovecha de las funciones de ayuda disponibles en la lista desplegable de personalización del editor de Personalización, como se muestra a continuación:
+El lenguaje de plantilla se aprovecha de las funciones de ayuda disponibles en la lista desplegable de personalización del editor de personalización, como se muestra a continuación:
 
 ![](../assets/access-helper-functions.png)
 
@@ -29,7 +29,7 @@ El lenguaje de plantilla se aprovecha de las funciones de ayuda disponibles en l
 >
 >Las funciones y capacidades disponibles en el editor de personalización difieren de las disponibles en la variable [editor de expresiones avanzadas de recorrido](../../building-journeys/expression/expressionadvanced.md).
 
-En el [!DNL Journey Optimizer] Las funciones de ayuda del editor de personalización se agrupan en tres categorías: [Funciones](#functions-helper), [Ayudantes](#helper-helper) y [Operadores](#operators-helper).
+En el [!DNL Journey Optimizer] editor de personalización, las funciones de ayuda se agrupan en tres categorías: [Funciones](#functions-helper), [Ayudantes](#helper-helper) y [Operadores](#operators-helper).
 
 Seleccione una categoría para acceder a subcategorías y funciones.
 
@@ -46,7 +46,7 @@ Haga clic en `...` para ver la descripción de la función y añadirla a sus fav
         <td><a href="aggregation.md#average">Promedio</a></td><td>Esta función devuelve la media aritmética de todos los valores seleccionados dentro de la matriz</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count">Recuento</a></td><td>Esta función devuelve el número de elementos dentro de la matriz determinada</td>
+        <td><a href="aggregation.md#count">Cuenta</a></td><td>Esta función devuelve el número de elementos dentro de la matriz determinada</td>
     </tr>
     <tr>
         <td><a href="aggregation.md#count-only-null">Contar Solo Nulo</a></td><td>Esta función cuenta el número de valores nulos de la lista.</td>
@@ -58,7 +58,7 @@ Haga clic en `...` para ver la descripción de la función y añadirla a sus fav
         <td><a href="arrays-list.md#distinct">Distinto</a></td><td>Esta función obtiene valores de una matriz o una lista con valores duplicados eliminados</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#distinct-count-with-null">Recuento Distinto Con Nulo</a></td><td>Esta función cuenta el número de valores diferentes, incluidos los valores nulos</td>
+        <td><a href="arrays-list.md#distinct-count-with-null">Contar Distinto Con Nulo</a></td><td>Esta función cuenta el número de valores diferentes, incluidos los valores nulos</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#head">Primer elemento</a></td><td>Esta función devuelve el primer elemento de una matriz o lista</td>
@@ -67,13 +67,13 @@ Haga clic en `...` para ver la descripción de la función y añadirla a sus fav
         <td><a href="arrays-list.md#first-n">Primer n en matriz</a></td><td>Esta función devuelve los primeros elementos "N" de una matriz, cuando se ordenan en orden ascendente en función de la expresión numérica dada</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">Entrada</a></td><td>Esta función se utiliza para determinar si un elemento es miembro de una matriz o lista</td>
+        <td><a href="arrays-list.md#in">En</a></td><td>Esta función se utiliza para determinar si un elemento es miembro de una matriz o lista</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#includes">Incluye</a></td><td>Esta función determina si una matriz o lista contiene un elemento determinado</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#intersects">Intersecciones</a></td><td>Esta función determina si dos matrices o listas tienen al menos un miembro común</td>
+        <td><a href="arrays-list.md#intersects">Interseca</a></td><td>Esta función determina si dos matrices o listas tienen al menos un miembro común</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#last-n">Último n en matriz</a></td><td>Esta función devuelve los últimos elementos "N" de una matriz, cuando se ordenan en orden ascendente en función de la expresión numérica dada</td>
@@ -117,16 +117,16 @@ Haga clic en `...` para ver la descripción de la función y añadirla a sus fav
         <td><a href="dates.md#day-year">Día del año</a></td><td>Esta función recupera el día del año.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#format-date">Formato de fecha</a></td><td>Esta función da formato a un valor de fecha y hora</td>
+        <td><a href="dates.md#format-date">Dar formato a fecha</a></td><td>Esta función da formato a un valor de fecha y hora</td>
     </tr>
     <tr>
         <td><a href="dates.md#format-date-locale">Formato de fecha con compatibilidad con configuración regional</a></td><td>Esta función da formato a un valor de fecha y hora en su representación sensible al idioma correspondiente, es decir, en una configuración regional deseada.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-days">Definir días</a></td><td>Esta función establece el día del mes para la fecha y hora determinadas</td>
+        <td><a href="dates.md#set-days">Configurar Días</a></td><td>Esta función establece el día del mes para la fecha y hora determinadas</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-hours">Establecer horas</a></td><td>Esta función establece la hora de la fecha y hora</td>
+        <td><a href="dates.md#set-hours">Establecer Horas</a></td><td>Esta función establece la hora de la fecha y hora</td>
     </tr>
     <tr>
         <td><a href="dates.md#to-utc">A UTC</a></td><td>Esta función convierte una fecha y hora en UTC.</td>
@@ -155,7 +155,7 @@ Haga clic en `...` para ver la descripción de la función y añadirla a sus fav
 
 <table>
     <tr>
-        <td><a href="math.md#absolute">Absoluta  </a></td><td>Esta función da formato a cualquier número en su representación sensible al idioma.</td>
+        <td><a href="math.md#absolute">Absoluto</a></td><td>Esta función da formato a cualquier número en su representación sensible al idioma.</td>
     </tr>
     <tr>
         <td><a href="math.md#format-number">Número de formato</a></td><td>Esta función da formato a cualquier número en su representación sensible al idioma.</td>
@@ -164,7 +164,7 @@ Haga clic en `...` para ver la descripción de la función y añadirla a sus fav
         <td><a href="math.md#random">Aleatorio</a></td><td>Esta función devuelve un valor aleatorio entre 0 y 1.</td>
     </tr>
     <tr>
-        <td><a href="math.md#round-down">Redondear hacia abajo</a></td><td>Esta función redondea un número a la baja</td>
+        <td><a href="math.md#round-down">Redondear a la baja</a></td><td>Esta función redondea un número.</td>
     </tr>
     <tr>
         <td><a href="math.md#round-up">Redondear al alza</a></td><td>Esta función redondea un número al alza</td>
@@ -219,20 +219,20 @@ Haga clic en `...` para ver la descripción de la función y añadirla a sus fav
         <td><a href="string.md#doesNotEndWith">No termina por</a></td><td>Esta función se utiliza para determinar si una cadena no termina con una subcadena especificada</td>
     </tr>
     <tr>
-        <td><a href="string.md#doesNotStartWith">No empieza con</a></td><td>Esta función se utiliza para determinar si una cadena no comienza con una subcadena especificada</td>
+        <td><a href="string.md#doesNotStartWith">No empieza por</a></td><td>Esta función se utiliza para determinar si una cadena no comienza con una subcadena especificada</td>
     </tr>
     <tr>
         <td><a href="string.md#encode64">Codificar 64</a></td><td>Esta función se utiliza para codificar o descodificar una cadena</td>
     </tr>
     <tr>
-        <td><a href="string.md#endsWith">Finaliza con</a></td><td>Esta función se utiliza para determinar si una cadena termina con una subcadena especificada</td>
+        <td><a href="string.md#endsWith">Termina con</a></td><td>Esta función se utiliza para determinar si una cadena termina con una subcadena especificada</td>
     </tr>
         </tr>
     <tr>
         <td><a href="string.md#equals">Es igual a</a></td><td>Esta función se utiliza para determinar si una cadena no comienza con una subcadena especificada, con distinción de mayúsculas y minúsculas</td>
     </tr>
     <tr>
-        <td><a href="string.md#equalsIgnoreCase">Ignorar mayúsculas y minúsculas</a></td><td>Esta función se utiliza para determinar si una cadena no comienza con una subcadena especificada, sin distinción de mayúsculas y minúsculas</td>
+        <td><a href="string.md#equalsIgnoreCase">Igual a Ignorar Mayúsculas y Minúsculas</a></td><td>Esta función se utiliza para determinar si una cadena no comienza con una subcadena especificada, sin distinción de mayúsculas y minúsculas</td>
     </tr>
     <tr>
         <td><a href="string.md#extractEmailDomain">Extraer dominio de correo electrónico</a></td><td>Esta función se utiliza para extraer el dominio de una dirección de correo electrónico</td>
@@ -256,7 +256,7 @@ Haga clic en `...` para ver la descripción de la función y añadirla a sus fav
         <td><a href="string.md#isEmpty">IsEmpty</a></td><td>Esta función se utiliza para comprobar si una cadena o expresión está vacía.</td>
     </tr>
     <tr>
-        <td><a href="string.md#is-not-empty">Is Not Empty</a></td><td>Esta función devuelve true si la cadena del parámetro no está vacía.</td>
+        <td><a href="string.md#is-not-empty">No está vacío</a></td><td>Esta función devuelve true si la cadena del parámetro no está vacía.</td>
     </tr>
     <tr>
         <td><a href="string.md#last-index-of">Último Índice De</a></td><td>Esta función devuelve la posición (en el primer argumento) de la última aparición del segundo parámetro. Devuelve -1 si no hay ninguna coincidencia.</td>
@@ -265,10 +265,10 @@ Haga clic en `...` para ver la descripción de la función y añadirla a sus fav
         <td><a href="string.md#leftTrim">Guarnecido izquierdo</a></td><td>Esta función elimina los espacios en blanco del principio de una cadena.</td>
     </tr>
     <tr>
-        <td><a href="string.md#length">Length</a></td><td>Esta función se utiliza para obtener el número de caracteres de una cadena o expresión</td>
+        <td><a href="string.md#length">Longitud</a></td><td>Esta función se utiliza para obtener el número de caracteres de una cadena o expresión</td>
     </tr>
     <tr>
-        <td><a href="string.md#like">Like</a></td><td>Esta función se utiliza para determinar si una cadena coincide con un patrón especificado</td>
+        <td><a href="string.md#like">Me gusta</a></td><td>Esta función se utiliza para determinar si una cadena coincide con un patrón especificado</td>
     </tr>
     <tr>
         <td><a href="string.md#lower">Minúsculas</a></td><td>Esta función convierte una cadena en letras minúsculas.</td>
@@ -277,7 +277,7 @@ Haga clic en `...` para ver la descripción de la función y añadirla a sus fav
         <td><a href="string.md#mask">Máscara</a></td><td>Esta función se utiliza para reemplazar una parte de una cadena con caracteres "X".</td>
     </tr>
     <tr>
-        <td><a href="string.md#matches">Devuelve como resultado </a></td><td>Esta función se utiliza para determinar si una cadena coincide con una expresión regular específica</td>
+        <td><a href="string.md#matches">Iguala</a></td><td>Esta función se utiliza para determinar si una cadena coincide con una expresión regular específica.</td>
     </tr>
     <tr>
         <td><a href="string.md#md5">MD5</a></td><td>Esta función devuelve el hash md5 de la cadena de entrada.</td>
@@ -310,7 +310,7 @@ Haga clic en `...` para ver la descripción de la función y añadirla a sus fav
         <td><a href="string.md#string-to-date">Cadena a fecha</a></td><td>Esta función convierte un valor de cadena en un valor de fecha y hora.</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-integer">Cadena a entero</a></td><td>Esta función Convierte un valor de cadena en un valor entero.</td>
+        <td><a href="string.md#string-to-integer">Cadena a entero</a></td><td>Esta función convierte un valor de cadena en un valor entero.</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-number">Cadena a número</a></td><td>Esta función se utiliza para convertir una cadena en número. Devuelve la misma cadena como salida para la entrada no válida.</td>
@@ -337,10 +337,10 @@ Haga clic en `...` para ver la descripción de la función y añadirla a sus fav
         <td><a href="string.md#upper">Mayúsculas</a></td><td>Esta función convierte una cadena en letras mayúsculas.</td>
     </tr>
     <tr>
-        <td><a href="string.md#url-decode">Descodificación de URL</a></td><td>Esta función se utiliza para descodificar una cadena con codificación URL.</td>
+        <td><a href="string.md#url-decode">Descifrar URL</a></td><td>Esta función se utiliza para descodificar una cadena con codificación URL.</td>
     </tr>
     <tr>
-        <td><a href="string.md#url-encode">Codificación de URL</a></td><td>Esta función se utiliza para codificar una cadena mediante URL.</td>
+        <td><a href="string.md#url-encode">Cifrar URL</a></td><td>Esta función se utiliza para codificar una cadena mediante URL.</td>
     </tr>
 </table>
 
@@ -355,7 +355,7 @@ Los ayudantes se detallan en [esta página](helpers.md).
         <td><a href="helpers.md#default">Valor de reserva predeterminado</a></td><td>Esta función se utiliza para procesar una variable de forma predeterminada</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#each">Cada</a></td><td>Esta función se utiliza para repetir una matriz</td>
+        <td><a href="helpers.md#each">Each</a></td><td>Esta función se utiliza para repetir una matriz</td>
     </tr>
     <tr>
         <td><a href="helpers.md#if-function">Si</a></td><td>Esta función se utiliza para definir un bloque condicional: si la evaluación de la expresión devuelve true, se procesa el bloque</td>
@@ -367,7 +367,7 @@ Los ayudantes se detallan en [esta página](helpers.md).
         <td><a href="helpers.md#unless">Unless</a></td><td>Esta función se utiliza para definir un bloque condicional: si la evaluación de la expresión devuelve false, se procesa el bloque</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#with">con</a></td><td>Esta función se utiliza para cambiar el token de evaluación de la plantilla-parte</td>
+        <td><a href="helpers.md#with">With</a></td><td>Esta función se utiliza para cambiar el token de evaluación de la plantilla-parte</td>
     </tr>
 </table>
 
@@ -379,7 +379,7 @@ Las funciones aritméticas se utilizan para realizar cálculos básicos sobre lo
 
 <table>
     <tr>
-        <td><a href="arithmetic-functions.md#add">Adición</a></td><td>Este operador se utiliza para encontrar la suma de dos expresiones de argumento</td>
+        <td><a href="arithmetic-functions.md#add">Suma</a></td><td>Este operador se utiliza para encontrar la suma de dos expresiones de argumento</td>
     </tr>
     <tr>
         <td><a href="arithmetic-functions.md#divide">Dividir</a></td><td>Este operador se utiliza para encontrar el cociente de dos expresiones de argumento</td>

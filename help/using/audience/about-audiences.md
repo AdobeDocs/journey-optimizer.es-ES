@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '1835'
-ht-degree: 20%
+source-wordcount: '1855'
+ht-degree: 17%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
->title="Selección del público de la campaña"
->abstract="Esta lista muestra todos los públicos de Adobe Experience Platform disponibles. Seleccione el público al que se dirige la campaña. El mensaje configurado en la campaña se envía a todas las personas que pertenecen al público seleccionado. [Más información sobre los públicos](../audience/about-audiences.md)"
+>title="Selección de la audiencia de campaña"
+>abstract="Esta lista muestra todas las audiencias de Adobe Experience Platform disponibles. Seleccione la audiencia a la que se dirige la campaña. El mensaje configurado en la campaña se envía a todas las personas que pertenecen a la audiencia seleccionada. [Más información sobre las audiencias](../audience/about-audiences.md)"
 
 Una audiencia es un conjunto de personas que comparten comportamientos o características similares. Obtenga más información sobre las audiencias en [Documentación del Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"}.
 
@@ -86,7 +86,7 @@ Una vez añadidos los atributos de enriquecimiento a un grupo de campos, puede a
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 
-* **Personalizar los mensajes** en recorridos o campañas, añadiendo atributos de enriquecimiento de la audiencia de destino en el Editor de expresiones. [Aprenda a trabajar con el Editor de expresiones](../personalization/personalization-build-expressions.md)
+* **Personalizar los mensajes** en recorridos o campañas, añadiendo atributos de enriquecimiento de la audiencia de destino en el editor de personalización. [Aprenda a trabajar con el editor de personalización](../personalization/personalization-build-expressions.md)
 
   ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
 
@@ -120,7 +120,7 @@ La segmentación por lotes es una alternativa a la segmentación de streaming qu
 
 +++ Segmentación de Edge
 
-La segmentación de Edge es la capacidad de evaluar segmentos en Adobe Experience Platform de forma instantánea [en el borde](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es){target="_blank"}, enabling same-page and next-page personalization use cases. Currently only select query types can be evaluated with edge segmentation. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
+La segmentación de Edge es la capacidad de evaluar segmentos en Adobe Experience Platform de forma instantánea [en el borde](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}, habilitando casos de uso de personalización de la misma página y de la siguiente. Actualmente, solo los tipos de consulta seleccionados se pueden evaluar con la segmentación de Edge. [Más información](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
 
 +++
 
@@ -175,7 +175,7 @@ Las audiencias de composición de audiencias y carga personalizada se pueden seg
   >
   >Para las audiencias de carga personalizadas, si &quot;Lectura incremental&quot; está habilitado en un recorrido recurrente, los perfiles solo se recuperan en la primera periodicidad, ya que estas audiencias son fijas.
 
-Además, estas audiencias están disponibles para usarlas en el Editor de expresiones para personalizar sus mensajes en recorridos y campañas. [Aprenda a trabajar con el Editor de expresiones](../personalization/personalization-build-expressions.md)
+Además, estas audiencias están disponibles para su uso en el editor de personalización para personalizar sus mensajes en recorridos y campañas. [Aprenda a trabajar con el editor de personalización](../personalization/personalization-build-expressions.md)
 
 +++
 

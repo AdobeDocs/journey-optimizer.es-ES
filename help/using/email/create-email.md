@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: creación, correo electrónico, inicio, recorrido, campaña
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: f2037f559826d7cca243092de200c97841c49b35
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '908'
-ht-degree: 9%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="Creación de correo electrónico"
->abstract="Defina la línea de asunto del correo electrónico y abra el diseñador de correo electrónico para crear su contenido."
+>abstract="Defina la línea de asunto del correo electrónico y abra el Diseñador de correo electrónico para crear el contenido del correo electrónico."
 
 
 ## Añadir una acción de correo electrónico {#email-action}
@@ -78,8 +78,8 @@ Para obtener más información sobre cómo configurar una campaña, consulte [es
 
 >[!CONTEXTUALHELP]
 >id="test_id"
->title="Configurar el contenido del correo electrónico"
->abstract="Cree el contenido del correo electrónico. Defina su asunto y, a continuación, aproveche el diseñador de correo electrónico para crear y personalizar el cuerpo del correo electrónico."
+>title="Configuración del contenido de correo electrónico"
+>abstract="Cree el contenido del correo electrónico. Defina su asunto y, a continuación, aproveche el Diseñador de correo electrónico para crear y personalizar el cuerpo del correo electrónico."
 
 1. En la pantalla de configuración del recorrido o la campaña, haga clic en **[!UICONTROL Editar contenido]** para configurar el contenido del correo electrónico. [Más información](get-started-email-design.md)
 
@@ -89,7 +89,7 @@ Para obtener más información sobre cómo configurar una campaña, consulte [es
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. Añada una línea de asunto al mensaje. Para configurar y personalizar la línea de asunto con el editor de expresiones, haga clic en **[!UICONTROL Abrir diálogo de personalización]** icono. [Más información](../personalization/personalization-build-expressions.md)
+1. Añada una línea de asunto al mensaje. Para configurar y personalizar la línea de asunto con el editor de personalización, haga clic en **[!UICONTROL Abrir diálogo de personalización]** icono. [Más información](../personalization/personalization-build-expressions.md)
 
 1. Haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]** para acceder al Diseñador de correo electrónico y comenzar a crear el contenido. [Más información](get-started-email-design.md)
 
@@ -169,7 +169,7 @@ Use [!DNL Journey Optimizer] Email Designer to [design your email from scratch](
 
 [!DNL Journey Optimizer] comes with a set of [built-in templates](email-templates.md) to help you start. Any email can also be saved as a template.
 
-Use [!DNL Journey Optimizer] Expression editor to personalize your messages with profiles' data. For more on personalization, refer to [this section](../personalization/personalize.md).
+Use [!DNL Journey Optimizer] personalization editor to personalize your messages with profiles' data. For more on personalization, refer to [this section](../personalization/personalize.md).
 
 Adapt the content of your messages to the targeted profiles by using [!DNL Journey Optimizer] dynamic content capabilities. [Get started with dynamic content](../personalization/get-started-dynamic-content.md)
 

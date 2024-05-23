@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 2%
@@ -97,7 +97,7 @@ Veamos este ejemplo en el que los clientes desean restablecer su contraseña y u
 >
 >A diferencia de los eventos habilitados para perfiles, los datos contextuales pasados en la API de REST se utilizan para una comunicación única y no se almacenan en el perfil. Como máximo, el perfil se crea con los detalles del área de nombres, si se ha encontrado que falta.
 
-Para utilizar estos datos en sus campañas, debe pasarlos a la carga útil de la API y añadirlos en su mensaje mediante el Editor de expresiones. Para ello, utilice el `{{context.<contextualAttribute>}}` sintaxis, donde `<contextualAttribute>` debe coincidir con el nombre de la variable en la carga útil de API que contiene los datos que desea pasar.
+Para utilizar estos datos en sus campañas, debe pasarlos a la carga útil de la API y añadirlos en su mensaje mediante el editor de personalización. Para ello, utilice el `{{context.<contextualAttribute>}}` sintaxis, donde `<contextualAttribute>` debe coincidir con el nombre de la variable en la carga útil de API que contiene los datos que desea pasar.
 
 El `{{context.<contextualAttribute>}}` La sintaxis solo se asigna a un tipo de datos de cadena.
 

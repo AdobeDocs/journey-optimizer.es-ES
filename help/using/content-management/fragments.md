@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1561'
-ht-degree: 13%
+ht-degree: 3%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
->title="Defina sus propios fragmentos"
+>title="Definir sus propios fragmentos"
 >abstract="Cree y administre fragmentos independientes para que el contenido se pueda reutilizar en varios recorridos y campañas."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html?lang=es#create-fragments" text="Creación de fragmentos"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="Creación de fragmentos"
 
 Un fragmento es un componente reutilizable al que se puede hacer referencia en uno o varios correos electrónicos [!DNL Journey Optimizer] campañas y recorridos.
 
@@ -39,7 +39,7 @@ Para aprovechar al máximo los fragmentos:
 
 >[!NOTE]
 >
->**Fragmentos visuales** se puede utilizar en el [Diseñador de correo electrónico](../email/get-started-email-design.md), mientras que **fragmentos de expresión** son accesibles a través de la [Editor de expresiones](../personalization/personalization-build-expressions.md).
+>**Fragmentos visuales** se puede utilizar en el [Diseñador de correo electrónico](../email/get-started-email-design.md), mientras que **fragmentos de expresión** son accesibles a través de la [editor de personalización](../personalization/personalization-build-expressions.md).
 
 Además, puede aprovechar Journey Optimizer **API de REST de contenido** para administrar fragmentos de contenido. Para obtener más información, consulte [Documentación de API de Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
@@ -164,13 +164,13 @@ Para crear un fragmento desde cero, siga los pasos a continuación.
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
-### Creación de un fragmento visual {#create-visual-fragment}
+### Crear un fragmento visual {#create-visual-fragment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_visual_fragment"
->title="Selección del tipo visual"
+>title="Seleccionar el tipo visual"
 >abstract="Cree un fragmento visual independiente para que el contenido se pueda reutilizar en un correo electrónico dentro de un recorrido, una campaña o una plantilla de contenido."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=es" text="Añadir fragmentos visuales a los correos electrónicos"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="Añadir fragmentos visuales a los correos electrónicos"
 
 1. [Crear un fragmento](#create-from-scratch) desde el **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Fragmentos]** menú de la izquierda y seleccione **[!UICONTROL Fragmento visual]** escriba.
 
@@ -198,9 +198,9 @@ Este fragmento ya está listo para utilizarse al crear cualquier [email](../emai
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
->title="Selección del tipo de expresión"
->abstract="Cree un fragmento de expresión independiente para que el contenido se pueda reutilizar en varios recorridos y campañas. Al utilizar el Editor de expresiones, puede aprovechar todos los fragmentos de expresiones que se han creado en la zona protegida actual."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html?lang=es" text="Aprovechamiento de fragmentos de expresiones"
+>title="Seleccione el tipo de expresión"
+>abstract="Cree un fragmento de expresión independiente para que el contenido se pueda reutilizar en varios recorridos y campañas. Al utilizar el editor de personalización, puede aprovechar todos los fragmentos de expresiones que se han creado en la zona protegida actual."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Aprovechamiento de fragmentos de expresiones"
 
 1. [Crear un fragmento](#create-from-scratch) desde el **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Fragmentos]** menú de la izquierda y seleccione **[!UICONTROL Fragmento de expresión]** escriba.
 
@@ -210,9 +210,9 @@ Este fragmento ya está listo para utilizarse al crear cualquier [email](../emai
 
    <!--Expression fragments can be used in any channel.-->
 
-1. Haga clic en **[!UICONTROL Crear]**. Se abre el Editor de expresiones.
+1. Clic **[!UICONTROL Crear]**. Se abre el editor de personalización.
 
-1. Puede aprovechar las [!DNL Journey Optimizer] Editor de expresiones con todas sus capacidades de personalización y creación. [Más información](../personalization/personalization-build-expressions.md)
+1. Puede aprovechar las [!DNL Journey Optimizer] editor de personalización con todas sus funcionalidades de personalización y creación. [Más información](../personalization/personalization-build-expressions.md)
 
    ![](assets/fragment-expression-editor.png)
 
@@ -220,7 +220,7 @@ Este fragmento ya está listo para utilizarse al crear cualquier [email](../emai
 
 1. Si es necesario, haga clic en la flecha situada junto al nombre del fragmento para volver al **[!UICONTROL Detalles]** y editarlo en pantalla.
 
-Este fragmento ya está listo para utilizarse al crear contenido dentro de [!DNL Journey Optimizer] Editor de expresiones. [Descubra cómo](../personalization/use-expression-fragments.md)
+Este fragmento ya está listo para utilizarse al crear contenido dentro de [!DNL Journey Optimizer] editor de personalización. [Descubra cómo](../personalization/use-expression-fragments.md)
 
 ## Guardar como fragmento {#save-as-fragment}
 
@@ -244,7 +244,7 @@ Al diseñar una [plantilla de contenido](content-templates.md) o un [email](../e
 
    ![](assets/fragment-save-as-screen.png)
 
-1. Haga clic en **[!UICONTROL Crear]**. Complete los detalles del fragmento, es decir, el nombre y la descripción (si es necesario).
+1. Clic **[!UICONTROL Crear]**. Complete los detalles del fragmento, es decir, el nombre y la descripción (si es necesario).
 
 1. Para asignar etiquetas de uso de datos personalizadas o principales al fragmento, seleccione **[!UICONTROL Administrar acceso]**. [Obtenga más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
 
@@ -265,13 +265,13 @@ Ahora puede utilizar este fragmento al crear cualquier [email](../email/get-star
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="Guardar como fragmento de expresión"
->abstract="El Editor de expresiones de [!DNL Journey Optimizer] permite guardar contenido como fragmentos de expresiones. Estas expresiones están disponibles para crear contenido personalizado."
+>abstract="El [!DNL Journey Optimizer] el editor de personalización permite guardar contenido como fragmentos de expresión. Estas expresiones están disponibles para crear contenido personalizado."
 
-El Editor de expresiones de [!DNL Journey Optimizer] permite guardar contenido como fragmentos de expresiones. Estas expresiones están disponibles para crear contenido personalizado.
+El [!DNL Journey Optimizer] el editor de personalización permite guardar contenido como fragmentos de expresión. Estas expresiones están disponibles para crear contenido personalizado.
 
 Para guardar contenido como un fragmento de expresión, siga los pasos a continuación.
 
-1. En el [Editor de expresiones](../personalization/personalization-build-expressions.md) interfaz, cree una expresión y haga clic en **[!UICONTROL Guardar como fragmento]**.
+1. En el [editor de personalización](../personalization/personalization-build-expressions.md) interfaz, cree una expresión y haga clic en **[!UICONTROL Guardar como fragmento]**.
 
 1. En el panel derecho, escriba un nombre y una descripción para la expresión con el fin de ayudar a los usuarios a encontrarla más fácilmente.
 

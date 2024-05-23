@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 56c2708408d15286f008c9f2c16581ce0f0a1c4e
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 15%
+ht-degree: 2%
 
 ---
 
@@ -27,23 +27,23 @@ Para obtener una mayor flexibilidad y control sobre la configuración de correo 
 >
 >Actualmente, esta funcionalidad está disponible como una versión beta para seleccionar solo usuarios. <!--To join the beta program, contact Adobe Customer Care.-->
 
-## Añadir subdominios dinámicos {#dynamic-subdomains}
+## Adición de subdominios dinámicos {#dynamic-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
 >title="Personalización no disponible"
->abstract="Esta superficie se ha creado sin ningún atributo de personalización. Consulte la documentación para ver los pasos que debe seguir en caso de que sea necesaria la personalización."
+>abstract="Esta superficie se creó sin atributos de personalización. Consulte la documentación para ver los pasos que debe seguir si es necesaria la personalización."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
->title="Habilitación de subdominios dinámicos"
->abstract="Al crear una superficie de correo electrónico, puede configurar subdominios dinámicos basados en condiciones que defina con el editor de expresiones. Se pueden añadir hasta 50 subdominios dinámicos."
+>title="Habilitar subdominios dinámicos"
+>abstract="Al crear una superficie de correo electrónico, puede configurar subdominios dinámicos basados en condiciones que defina con el editor de personalización. Puede añadir hasta 50 subdominios dinámicos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
->title="Algunos subdominios podrían no estar disponibles"
+>title="Algunos subdominios pueden no estar disponibles"
 >abstract="Algunos subdominios no están disponibles actualmente para su selección debido a que está pendiente el registro del bucle de comentarios. Este proceso puede tardar hasta 10 días hábiles. Una vez finalizado, puede elegir entre todos los subdominios disponibles."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Introducción a la delegación de subdominios"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Introducción a la delegación de subdominios"
 
 Al crear una superficie de correo electrónico, puede configurar subdominios dinámicos basados en condiciones específicas.
 
@@ -65,7 +65,7 @@ Para definir subdominios dinámicos en una superficie de canal de correo electr�
 
 1. Seleccione el icono Editar junto al primero **[!UICONTROL Condición]** field.
 
-1. El [Editor de expresiones](../personalization/personalization-build-expressions.md) abre. En este ejemplo, defina una condición como `Country` igual a `US`.
+1. El [editor de personalización](../personalization/personalization-build-expressions.md) abre. En este ejemplo, defina una condición como `Country` igual a `US`.
 
    ![](assets/surface-email-edit-condition.png)
 
@@ -118,7 +118,7 @@ Para utilizar variables personalizadas para los parámetros de encabezado de sup
 
    ![](assets/surface-email-personalize-header.png)
 
-1. El [Editor de expresiones](../personalization/personalization-build-expressions.md) abre. Defina la condición como desee y guarde los cambios.
+1. El [editor de personalización](../personalization/personalization-build-expressions.md) abre. Defina la condición como desee y guarde los cambios.
 
    Por ejemplo, configure una condición como que cada destinatario reciba un correo electrónico de su propio representante de marca.
 
@@ -137,7 +137,7 @@ Para utilizar variables personalizadas para los parámetros de encabezado de sup
 
 To use personalized URL tracking prameters, follow the steps below.
 
-1. Select the profile attribute of your choice from the expression editor.
+1. Select the profile attribute of your choice from the personalization editor.
 
 1. Repeat the steps above for each tracking parameter you want to personalize.
 

@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, sintaxis, personalización
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -144,7 +144,7 @@ Los bloques son expresiones que tienen una apertura de bloque ({{# }}) and closi
 | ------- | ---------- |
 | Cadena | Un tipo de datos compuesto por caracteres entre comillas dobles. <br>Ejemplos: `"prospect"`, `"jobs"`, `"articles"` |
 | Booleano | Un tipo de datos que puede ser verdadero o falso. |
-| Número entero | Un tipo de datos que representa un número entero. Puede ser positivo, negativo o cero. <br>Ejemplos: `-201`, `0`, `412` |
+| Entero | Un tipo de datos que representa un número entero. Puede ser positivo, negativo o cero. <br>Ejemplos: `-201`, `0`, `412` |
 | Matriz | Un tipo de datos que se comprende como un grupo de otros valores literales. Utiliza corchetes para agrupar y comas para delimitar entre distintos valores. <br> **Nota:** No puede acceder directamente a las propiedades de los elementos de una matriz. <br> Ejemplos: `[1, 4, 7]`, `["US", "FR"]` |
 
 >[!CAUTION]
@@ -164,7 +164,7 @@ Journey Optimizer le permite personalizar una o varias direcciones URL del mensa
 
 >[!NOTE]
 >
->En el editor de expresiones, cuando se edita una dirección URL personalizada, las funciones de ayuda y la pertenencia a audiencias se desactivan por motivos de seguridad.
+>En el editor de personalización, cuando se edita una dirección URL personalizada, las funciones de ayuda y la pertenencia a audiencias se desactivan por motivos de seguridad.
 >
 
 **URL personalizadas de ejemplo**

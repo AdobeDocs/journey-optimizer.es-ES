@@ -1,26 +1,26 @@
 ---
-title: Añadir representaciones a una oferta
+title: Adición de representaciones a una oferta
 description: Obtenga información sobre cómo añadir representaciones a las ofertas
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 8%
+source-wordcount: '763'
+ht-degree: 0%
 
 ---
 
-# Añadir representaciones a una oferta {#add-representations}
+# Adición de representaciones a una oferta {#add-representations}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="Representaciones"
->abstract="Añada representaciones para definir dónde se mostrará la oferta en el mensaje. Cuantas más representaciones tenga una oferta, más oportunidades habrá de utilizar la oferta en diferentes contextos de ubicación."
+>abstract="Añada representaciones para definir dónde se mostrará la oferta en el mensaje. Cuantas más representaciones tenga una oferta, más oportunidades habrá de utilizarla en diferentes contextos de colocación."
 
-Una oferta se puede mostrar en diferentes lugares de un mensaje: en un banner superior con una imagen, como texto en un párrafo, como un bloque HTML, etc. Cuantas más representaciones tenga una oferta, más oportunidades habrá de utilizar la oferta en diferentes contextos de ubicación.
+Una oferta se puede mostrar en diferentes lugares de un mensaje: en un banner superior con una imagen, como texto en un párrafo, como un bloque HTML, etc. Cuantas más representaciones tenga una oferta, más oportunidades habrá de utilizarla en diferentes contextos de colocación.
 
 ## Configuración de las representaciones de la oferta {#representations}
 
@@ -66,13 +66,13 @@ Se pueden añadir distintos tipos de contenido a una representación.
 >
 >Solo el contenido correspondiente al tipo de contenido de la ubicación está disponible para su uso.
 
-### Adición de imágenes {#images}
+### Añadir imágenes {#images}
 
 Si la ubicación seleccionada es de tipo imagen, puede añadir contenido procedente del **Recurso de Adobe Experience Cloud** biblioteca, un repositorio centralizado de recursos proporcionado por [!DNL Adobe Experience Manager Assets].
 
 >[!NOTE]
 >
-> Para trabajar con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
+> Para trabajar con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, debe implementar [!DNL Assets Essentials] para su organización y asegúrese de que los usuarios forman parte de **Usuarios consumidores de Assets Essentials** o/y **Usuarios de Assets Essentials** Perfiles de producto. Más información sobre [esta página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
 
 1. Elija la **[!UICONTROL Biblioteca de recursos]** opción.
 
@@ -82,7 +82,7 @@ Si la ubicación seleccionada es de tipo imagen, puede añadir contenido procede
 
 1. Examine los recursos para seleccionar la imagen que desee
 
-1. Haga clic en **[!UICONTROL Seleccionar]**.
+1. Clic **[!UICONTROL Seleccionar]**.
 
    ![](../assets/offer-select-asset.png)
 
@@ -100,13 +100,13 @@ Para reutilizar el contenido en una representación, examine la **Biblioteca de 
 
 Para añadir contenido desde una ubicación pública externa, seleccione **[!UICONTROL URL]** A continuación, introduzca la dirección URL del contenido que desea añadir.
 
-Puede personalizar las direcciones URL mediante el Editor de expresiones. Más información sobre [personalización](../../personalization/personalize.md#use-expression-editor).
+Puede personalizar las direcciones URL mediante el editor de personalización. Más información sobre [personalización](../../personalization/personalize.md#use-expression-editor).
 
 ![](../assets/offer-content-url.png)
 
 Por ejemplo, se desea personalizar la imagen que se muestra como oferta. Desea que los usuarios que favorecen las vacaciones en la ciudad vean el horizonte de Nueva York y los usuarios que favorecen las vacaciones en la playa vean la costa norte de Hawai.
 
-Utilice el Editor de expresiones para recuperar atributos de perfil almacenados en Adobe Experience Platform mediante esquemas de unión. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
+Utilice el editor de personalización para recuperar los atributos de perfil almacenados en Adobe Experience Platform mediante esquemas de unión. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
 
 ![](../assets/offer-content-url-personalization.png)
 
@@ -128,7 +128,7 @@ También puede insertar contenido de tipo texto al seleccionar una ubicación co
 
    ![](../assets/offer-text-content.png)
 
-   Puede personalizar el contenido mediante el Editor de expresiones. Más información sobre [personalización](../../personalization/personalize.md#use-expression-editor).
+   Puede personalizar el contenido mediante el editor de personalización. Más información sobre [personalización](../../personalization/personalize.md#use-expression-editor).
 
    ![](../assets/offer-personalization.png)
 

@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1846'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
 # Funciones de cadena {#string}
 
-Aprenda a utilizar las funciones de cadena en el Editor de expresiones.
+Aprenda a utilizar las funciones de cadena en el editor de personalización.
 
 ## Camel Case {#camelCase}
 
@@ -150,7 +150,7 @@ La siguiente consulta determina, con distinción entre mayúsculas y minúsculas
 doesNotEndWith(person.emailAddress,".com")
 ```
 
-## No empieza con{#doesNotStartWith}
+## No empieza por{#doesNotStartWith}
 
 El `doesNotStartWith` se utiliza para determinar si una cadena no comienza con una subcadena especificada.
 
@@ -184,7 +184,7 @@ El `encode64` se utiliza para codificar una cadena para conservar la informació
 {%= encode64(string) %}
 ```
 
-## Finaliza con{#endsWith}
+## Termina con{#endsWith}
 
 El `endsWith` se utiliza para determinar si una cadena termina con una subcadena especificada.
 
@@ -232,7 +232,7 @@ La siguiente consulta determina, con distinción entre mayúsculas y minúsculas
 {%=equals(profile.person.name,"John") %}
 ```
 
-## Ignorar mayúsculas y minúsculas{#equalsIgnoreCase}
+## Igual a Ignorar Mayúsculas y Minúsculas{#equalsIgnoreCase}
 
 El `equalsIgnoreCase` se utiliza para determinar si una cadena es igual a la cadena especificada, sin distinción de mayúsculas y minúsculas.
 
@@ -386,7 +386,7 @@ La siguiente función devuelve &quot;true&quot; si el número de teléfono móvi
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
 
-## Is Not Empty {#is-not-empty}
+## No está vacío {#is-not-empty}
 
 El `isNotEmpty` se utiliza para determinar si una cadena no está vacía.
 
@@ -437,7 +437,7 @@ El `leftTrim` se utiliza para eliminar espacios en blanco del principio de una c
 {%= leftTrim(string) %}
 ```
 
-## Length {#length}
+## Longitud {#length}
 
 El `length` se utiliza para obtener el número de caracteres de una cadena o expresión.
 
@@ -455,7 +455,7 @@ La siguiente función devuelve la longitud del nombre de ciudad del perfil.
 {%= length(profile.homeAddress.city) %}
 ```
 
-## Like{#like}
+## Me gusta{#like}
 
 El `like` se utiliza para determinar si una cadena coincide con un patrón especificado.
 
@@ -496,7 +496,7 @@ Esta función convierte el nombre del perfil en letras minúsculas.
 {%= lowerCase(profile.person.name.firstName) %}
 ```
 
-## Devuelve como resultado {#matches}
+## Iguala{#matches}
 
 El `matches` se utiliza para determinar si una cadena coincide con una expresión regular específica. Consulte la [este documento](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) para obtener más información sobre los patrones de coincidencia en expresiones regulares.
 
@@ -790,7 +790,7 @@ El `toDateTime` se utiliza para convertir la cadena a fecha. Devuelve la fecha e
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## A Fecha Hora Solamente {#to-date-time-only}
+## A Fecha Hora Solo {#to-date-time-only}
 
 El `toDateTimeOnly` se utiliza para convertir un valor de argumento en un valor de solo fecha y hora. Devuelve la fecha epoch como salida para una entrada no válida. Esta función acepta tipos de campo string, date, long e int.
 
@@ -828,7 +828,7 @@ Esta función convierte los apellidos del perfil en letras mayúsculas.
 {%= upperCase(profile.person.name.lastName) %}
 ```
 
-## Descodificación de URL {#url-decode}
+## Descifrar URL {#url-decode}
 
 El `urlDecode` se utiliza para descodificar una cadena con codificación url.
 
@@ -838,7 +838,7 @@ El `urlDecode` se utiliza para descodificar una cadena con codificación url.
 {%= urlDecode(string) %}: string
 ```
 
-## Codificación de URL {#url-encode}
+## Cifrar URL {#url-encode}
 
 El `Count only null` se utiliza para codificar una cadena mediante url.
 

@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, introducción, condiciones, inicio
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 100%
+ht-degree: 64%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 100%
 >title="Condiciones"
 >abstract="Las reglas condicionales permiten mostrar numerosas variantes de contenido en sus mensajes en función de atributos de perfil, eventos contextuales o públicos."
 
-El contenido dinámico le permite adaptar el contenido de sus mensajes en función de las **reglas condicionales** que pueden estar formadas por atributos de perfil, eventos contextuales o públicos. Las reglas condicionales se crean mediante un generador de reglas visual dentro del Editor de expresiones, donde puede almacenarlas para su reutilización en los recorridos y campañas.
+El contenido dinámico le permite adaptar el contenido de sus mensajes en función de las **reglas condicionales** que pueden estar formadas por atributos de perfil, eventos contextuales o públicos. Las reglas condicionales se crean mediante un generador de reglas visual dentro del editor de personalización, donde puede almacenarlas para su reutilización en los recorridos y campañas.
 
-Las reglas condicionales se pueden aprovechar en el Diseñador de correo electrónico y en el editor de expresiones para **crear contenido dinámico** que se adaptará a los perfiles segmentados en los mensajes.
+Las reglas condicionales se pueden aprovechar en el Diseñador de correo electrónico y en el editor de personalización para **creación de contenido dinámico** que se adaptará a los perfiles objetivo en sus mensajes.
 
 ![](assets/conditions-overview.png)
 

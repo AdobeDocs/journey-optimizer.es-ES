@@ -7,10 +7,10 @@ feature: Audiences, Profiles
 role: User
 level: Intermediate
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 4%
+ht-degree: 1%
 
 ---
 
@@ -44,7 +44,7 @@ Encontrará información detallada sobre cómo crear y administrar atributos cal
 
 Para poder aprovechar los atributos calculados en Journey Optimizer, primero debe agregarlos a Journey Optimizer **Experience Platform** fuente de datos.
 
-La fuente de datos de Adobe Experience Platform define la conexión con el perfil del cliente en tiempo real de Adobe. Esta fuente de datos está diseñada para recuperar datos de perfil y datos de eventos de experiencia del servicio de perfil del cliente en tiempo real.
+La fuente de datos de Adobe Experience Platform define la conexión con el Perfil del cliente en tiempo real de Adobe. Esta fuente de datos está diseñada para recuperar datos de perfil y datos de eventos de experiencia del servicio de perfil del cliente en tiempo real.
 
 Para agregar atributos calculados a la fuente de datos, siga estos pasos:
 
@@ -70,6 +70,6 @@ Encontrará información detallada sobre cómo agregar grupos de campos a la fue
 
 Los atributos calculados ofrecen un conjunto versátil de funciones dentro de Recorrido Optimizer. Puede utilizarlas para varios fines, como personalizar el contenido del mensaje, crear nuevas audiencias o dividir recorridos en función de un atributo calculado específico. Por ejemplo, puede dividir la ruta de un recorrido en función de las compras totales de un perfil en las últimas tres semanas, agregando un único atributo calculado en una actividad Condición. También puede personalizar un correo electrónico mostrando el elemento visualizado más recientemente para cada perfil.
 
-Dado que los atributos calculados son campos de atributos de perfil creados en el esquema de unión de perfiles, puede acceder a ellos desde el Editor de expresiones dentro de **SystemComputedAttributes** grupo de campos. Desde allí, puede agregar un atributo calculado a las expresiones, tratándolas como cualquier otro atributo de perfil para realizar las operaciones deseadas.
+Dado que los atributos calculados son campos de atributos de perfil creados en el esquema de unión de perfiles, puede acceder a ellos desde el editor de personalización dentro de **SystemComputedAttributes** grupo de campos. Desde allí, puede agregar un atributo calculado a las expresiones, tratándolas como cualquier otro atributo de perfil para realizar las operaciones deseadas.
 
 ![](assets/computed-attributes-ajo.png)

@@ -6,18 +6,18 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 7%
+ht-degree: 11%
 
 ---
 
 # Funciones matemáticas {#math}
 
-Aprenda a utilizar las funciones matemáticas en el editor de expresiones.
+Aprenda a utilizar las funciones matemáticas en el editor de personalización.
 
-## Absoluta   {#absolute}
+## Absoluto {#absolute}
 
 El `absolute` se utiliza para convertir un número en su valor absoluto.
 
@@ -59,7 +59,7 @@ El `random` se utiliza para devolver un valor aleatorio entre 0 y 1.
 {%= random() %}: double
 ```
 
-## Redondear hacia abajo {#round-down}
+## Redondear a la baja {#round-down}
 
 El `roundDown` se utiliza para redondear hacia abajo un número.
 

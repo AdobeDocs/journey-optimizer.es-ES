@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, validación, errores, personalización
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ## Mecanismos de validación {#validation-mechanisms}
 
-En el **Editor de expresiones** pantalla, utilice el **Validate** para comprobar la sintaxis de personalización.
+En el **editor de personalización** pantalla, utilice el **Validate** para comprobar la sintaxis de personalización.
 
 >[!NOTE]
 > La validación se ejecuta automáticamente al hacer clic en **Añadir** para cerrar la ventana del editor.
@@ -29,7 +29,7 @@ En el **Editor de expresiones** pantalla, utilice el **Validate** para comprobar
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> Si la sintaxis de personalización no es válida, no se puede cerrar la ventana del editor de expresiones.
+> Si la sintaxis de personalización no es válida, no se puede cerrar la ventana del editor de personalización.
 >
 
 ## Errores comunes {#common-errors}
@@ -80,7 +80,7 @@ Los errores relacionados con la integración de ofertas en un mensaje de correo 
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-La validación se realiza durante la validación del contenido de personalización en el Editor de expresiones.
+La validación se realiza durante la validación del contenido de personalización en el editor de personalización.
 
 <table> 
  <thead> 

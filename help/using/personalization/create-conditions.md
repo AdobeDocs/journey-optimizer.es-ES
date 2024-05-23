@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, condicional, reglas
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 8%
 
 Las reglas condicionales son conjuntos de reglas que definen qué contenido debe mostrarse en los mensajes, según varios criterios como atributos de perfiles, pertenencia a audiencias o eventos contextuales.
 
-Las reglas condicionales se crean mediante el editor de expresiones y se pueden almacenar si desea reutilizarlas en el contenido. [Obtenga información sobre cómo guardar una regla condicional en la biblioteca](#save)
+Las reglas condicionales se crean mediante el editor de personalización y se pueden almacenar si desea reutilizarlas en el contenido. [Obtenga información sobre cómo guardar una regla condicional en la biblioteca](#save)
 
 >[!NOTE]
 >
@@ -28,13 +28,13 @@ Las reglas condicionales se crean mediante el editor de expresiones y se pueden 
 
 ## Acceso al generador de reglas condicionales {#access}
 
-Las reglas condicionales se crean a partir de **[!UICONTROL Condiciones]** dentro del editor de expresiones, al que se puede acceder desde:
+Las reglas condicionales se crean a partir de **[!UICONTROL Condiciones]** menú dentro del editor de personalización, al que se puede acceder desde:
 
 * Desde el Diseñador de correo electrónico, al habilitar el contenido dinámico para un componente en el cuerpo del correo electrónico. [Aprenda a añadir contenido dinámico a los correos electrónicos](dynamic-content.md#emails)
 
   ![](assets/conditions-access-email.png)
 
-* En cualquier campo en el que se pueda añadir personalización utilizando la variable [Editor de expresiones](personalization-build-expressions.md).
+* En cualquier campo en el que se pueda añadir personalización utilizando la variable [editor de personalización](personalization-build-expressions.md).
 
   ![](assets/conditions-access-editor.png)
 
@@ -52,7 +52,7 @@ Las reglas condicionales se crean a partir de **[!UICONTROL Condiciones]** dentr
 
 Los pasos para crear una regla condicional son los siguientes:
 
-1. Acceda a la **[!UICONTROL Condiciones]** en el Editor de expresiones o el Diseñador de correo electrónico y, a continuación, haga clic en **[!UICONTROL Crear nuevo]**.
+1. Acceda a la **[!UICONTROL Condiciones]** en el editor de personalización o en el Diseñador de correo electrónico y, a continuación, haga clic en **[!UICONTROL Crear nuevo]**.
 
 1. Genere la regla condicional según sus necesidades. Para ello, arrastre y suelte y organice los atributos deseados del menú de la izquierda al lienzo.
 

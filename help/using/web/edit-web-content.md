@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 17%
+ht-degree: 2%
 
 ---
 
@@ -35,13 +35,13 @@ Acceda a las siguientes secciones para obtener más información sobre cada tema
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="Confirmar la dirección URL para editar"
->abstract="Confirme la dirección URL de la página web específica que se utilizará para editar el contenido que se aplicará en la superficie web definida anteriormente. La página web debe implementarse mediante el SDK web de Adobe Experience Platform."
+>title="Confirme la dirección URL que desea editar"
+>abstract="Confirme la dirección URL de la página web específica que desea utilizar para editar el contenido que se aplicará en la superficie web definida anteriormente. La página web debe implementarse mediante el SDK web de Adobe Experience Platform."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es" text="Más información"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
->title="Introduzca la dirección URL para editar"
+>title="Introduzca la URL que desea editar"
 >abstract="Introduzca la dirección URL de una página web específica que se utilizará para editar el contenido que se aplicará a todas las páginas que coincidan con la regla. La página web debe implementarse mediante el SDK web de Adobe Experience Platform."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es" text="Más información"
 
@@ -96,7 +96,7 @@ Para empezar a crear la campaña web, siga los pasos a continuación.
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_components"
 >title="Añadir componentes a la página web"
->abstract="Puede añadir varios componentes a la página web y editarlos según sea necesario."
+>abstract="Puede agregar varios componentes a la página web y editarlos según sea necesario."
 
 1. Desde el **[!UICONTROL Componentes]** panel de la izquierda, seleccione un elemento. Puede añadir los siguientes componentes a la página web y editarlos según sea necesario:
 
@@ -128,7 +128,7 @@ Para empezar a crear la campaña web, siga los pasos a continuación.
 
 ## Añadir personalización y ofertas
 
-Para añadir personalización, seleccione un contenedor y seleccione el icono de personalización de la barra de menús contextual que se muestra. Añada los cambios con el Editor de expresiones. [Más información](../personalization/personalization-build-expressions.md)
+Para añadir personalización, seleccione un contenedor y seleccione el icono de personalización de la barra de menús contextual que se muestra. Añada los cambios con el editor de personalización. [Más información](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
 
@@ -152,12 +152,12 @@ En esta sección se detallan las distintas formas de desplazarse por el diseñad
 
 1. Puede navegar fácilmente a cualquier elemento principal, del mismo nivel o secundario dentro del editor visual.
 
-### Cambiar al modo Examinar {#browse-mode}
+### Cambiar a modo Examinar {#browse-mode}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
->title="Usar el modo Examinar"
->abstract="Desde este modo, puede desplazarse a la página exacta desde la superficie seleccionada que desee personalizar."
+>title="Uso del modo Examinar"
+>abstract="Desde este modo, puede navegar hasta la página exacta desde la superficie seleccionada que desee personalizar."
 
 Puede intercambiar desde el valor predeterminado **[!UICONTROL Diseño]** al modo **[!UICONTROL Examinar]** mediante el botón dedicado.
 

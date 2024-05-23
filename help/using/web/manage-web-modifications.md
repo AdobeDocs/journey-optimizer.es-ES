@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '954'
-ht-degree: 9%
+ht-degree: 0%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
->title="Administrar fácilmente todos los cambios"
->abstract="Con este tablero, puede desplazarse por la página web y administrar todos los ajustes y estilos que haya agregado a ella."
+>title="Administre fácilmente todos sus cambios"
+>abstract="Con este panel, puede desplazarse por todos los ajustes y estilos agregados a la página web y administrarlos."
 
 Puede administrar fácilmente todos los componentes, ajustes y estilos que agregó a su página web. También puede agregar modificaciones directamente desde el panel dedicado.
 
@@ -98,7 +98,7 @@ Para agregar un **Selector de CSS** Realice una modificación, siga los pasos a 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_head"
 >title="Añadir código personalizado"
->abstract="El elemento HEAD es un contenedor de metadatos que se coloca entre las etiquetas HTML y BODY. Añada solo elementos SCRIPT y STYLE. Si añade las etiquetas DIV y otros elementos, los elementos de HEAD restantes podrían saltar a la sección BODY."
+>abstract="El elemento HEAD es un contenedor de metadatos que se coloca entre las etiquetas HTML y BODY. Añada solo elementos SCRIPT y STYLE. Si agrega etiquetas DIV y otros elementos, es posible que el resto de elementos del HEAD salten al BODY."
 
 Puede agregar código personalizado mediante la variable **[!UICONTROL Página`<head>`]** tipo de modificación.
 
@@ -118,11 +118,11 @@ Para agregar un **Página`<head>`** Realice una modificación, siga los pasos a 
    >
    >Solo puede añadir `<script>` y `<style>` elementos a la `<head>` sección. Agregando `<div>` las etiquetas y otros elementos pueden causar lo siguiente `<head>` elementos para abrir el `<body>`.
 
-1. Haga clic en **[!UICONTROL Opciones de edición avanzadas]** botón. Se abre el Editor de expresiones.
+1. Haga clic en **[!UICONTROL Opciones de edición avanzadas]** botón. Se abre el editor de personalización.
 
    ![](assets/web-designer-add-modification-head-advanced.png)
 
-   Puede aprovechar las [!DNL Journey Optimizer] Editor de expresiones con todas sus capacidades de personalización y creación. [Más información](../personalization/personalization-build-expressions.md)
+   Puede aprovechar las [!DNL Journey Optimizer] editor de personalización con todas sus funcionalidades de personalización y creación. [Más información](../personalization/personalization-build-expressions.md)
 
 #### Ejemplos de código personalizado {#custom-code-examples}
 

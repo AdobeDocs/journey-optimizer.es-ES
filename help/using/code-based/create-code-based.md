@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1018'
-ht-degree: 8%
+ht-degree: 3%
 
 ---
 
@@ -39,23 +39,23 @@ Para empezar a crear una experiencia basada en código a través de una campaña
 
 1. Complete los pasos para crear una campaña, como las propiedades de la campaña, [audiencia](../audience/about-audiences.md), y [programación](../campaigns/create-campaign.md#schedule). Para obtener más información sobre cómo configurar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
-1. Edite el contenido como desee mediante el Editor de expresiones. [Más información](#edit-code)
+1. Edite el contenido como desee mediante el editor de personalización. [Más información](#edit-code)
 
    ![](assets/code-based-campaign-edit-content.png)
 
-## Edición del contenido del código {#edit-code}
+## Editar el contenido del código {#edit-code}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
->title="Utilice el editor de expresiones"
+>title="Uso del editor de personalización"
 >abstract="Inserte y edite el código que desea enviar como parte de esta acción de experiencia basada en código."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=es" text="Introducción al editor de expresiones"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="Introducción al editor de personalización"
 
 1. En la pantalla de la edición de la campaña, seleccione **[!UICONTROL Editar código]**.
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. El [Editor de expresiones](../personalization/personalization-build-expressions.md) abre. Es una interfaz de creación de experiencias no visual que le permite crear su código.
+1. El [editor de personalización](../personalization/personalization-build-expressions.md) abre. Es una interfaz de creación de experiencias no visual que le permite crear su código.
 
 1. Puede cambiar el modo de creación de HTML a JSON y viceversa.
 
@@ -65,7 +65,7 @@ Para empezar a crear una experiencia basada en código a través de una campaña
    >
    >Cambiar el modo de creación resultará en la pérdida de todo el código actual, por lo que asegúrese de cambiar de modo antes de comenzar la creación.
 
-1. Introduzca el código según sea necesario. Puede aprovechar las [!DNL Journey Optimizer] Editor de expresiones con todas sus capacidades de personalización y creación. [Más información](../personalization/personalization-build-expressions.md)
+1. Introduzca el código según sea necesario. Puede aprovechar las [!DNL Journey Optimizer] editor de personalización con todas sus funcionalidades de personalización y creación. [Más información](../personalization/personalization-build-expressions.md)
 
 1. Puede agregar fragmentos de expresiones JSON o HTML si es necesario. [Descubra cómo](../personalization/use-expression-fragments.md)
 
@@ -89,7 +89,7 @@ Ahora, tan pronto como el desarrollador realice una llamada de API o SDK para re
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
 >title="Previsualización de la experiencia basada en código"
->abstract="Obtenga una simulación del aspecto que tendrá su experiencia basada en código."
+>abstract="Obtenga una simulación del aspecto que tendrá la experiencia basada en código."
 
 Para mostrar una previsualización de la experiencia basada en código modificada, siga los pasos a continuación. Encontrará información detallada sobre cómo seleccionar perfiles de prueba y previsualizar el contenido en el [Previsualización y prueba de la página de contenido](../content-management/preview-test.md).
 
@@ -97,7 +97,7 @@ Para mostrar una previsualización de la experiencia basada en código modificad
 >
 >Debe tener perfiles de prueba disponibles para simular qué ofertas se les enviarán. Obtenga información sobre cómo [creación de perfiles de prueba](../audience/creating-test-profiles.md).
 
-1. En el Editor de expresiones o en la pantalla Editar contenido, seleccione **[!UICONTROL Simular contenido]**.
+1. En el editor de personalización o en la pantalla Editar contenido, seleccione **[!UICONTROL Simular contenido]**.
 
    ![](assets/code-based-campaign-simulate.png)
 

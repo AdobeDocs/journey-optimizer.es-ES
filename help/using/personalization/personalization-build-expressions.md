@@ -1,31 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Acerca del Editor de expresiones
-description: Aprenda a trabajar con el Editor de expresiones.
+title: Acerca del editor de personalización
+description: Aprenda a trabajar con el editor de personalización.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 10%
+ht-degree: 2%
 
 ---
 
-# Introducción al editor de expresiones {#build-personalization-expressions}
+# Introducción al editor de personalización {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
->title="Acerca del Editor de expresiones"
->abstract="El editor de expresiones permite seleccionar, organizar, personalizar y validar todos los datos para crear una personalización ajustada del contenido."
+>title="Acerca del editor de personalización"
+>abstract="El editor de personalización permite seleccionar, organizar, personalizar y validar todos los datos para crear una personalización personalizada para el contenido."
 
-El Editor de expresiones es la pieza central de la personalización de en [!DNL Journey Optimizer]. Está disponible en todos los contextos en los que necesita definir la personalización, como correos electrónicos, notificaciones push y ofertas.
+El editor de personalización es la pieza central de la personalización en [!DNL Journey Optimizer]. Está disponible en todos los contextos en los que necesita definir la personalización, como correos electrónicos, notificaciones push y ofertas.
 
-En la interfaz del editor de expresiones, se pueden seleccionar, organizar, personalizar y validar todos los datos para crear una personalización personalizada del contenido.
+En la interfaz del editor de personalización, se seleccionan, organizan, personalizan y validan todos los datos para crear una personalización personalizada para el contenido.
 
 ![](assets/perso_ee1.png)
 
@@ -53,8 +53,8 @@ Además, puede definir el texto de reserva predeterminado que se mostrará si un
 
 ![](assets/attribute-details.png)
 
-En el siguiente ejemplo, el editor de expresiones le permite seleccionar los perfiles que tienen su cumpleaños hoy y luego completar la personalización insertando una oferta específica correspondiente a este día.
+En el siguiente ejemplo, el editor de personalización le permite seleccionar los perfiles que tienen su cumpleaños hoy y luego completar la personalización insertando una oferta específica correspondiente a este día.
 
 ![](assets/perso_ee2.png)
 
-Una vez que la expresión personalizada está lista, el Editor de expresiones debe validarla. Obtenga más información en [esta sección](personalization-validation.md).
+Una vez que la expresión personalizada está lista, el editor de personalización debe validarla. Obtenga más información en [esta sección](personalization-validation.md).

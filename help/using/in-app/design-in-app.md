@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, diseño, formato
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1154'
-ht-degree: 28%
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_content"
->title="Definir el contenido en la aplicación"
+>title="Definición del contenido en la aplicación"
 >abstract="Personalice el contenido y el estilo de los mensajes en la aplicación. También puede añadir medios y botones de acción para que sus mensajes sean más atractivos y eficaces."
 
 Puede editar el contenido en la aplicación para configurar las opciones de experiencia:
@@ -39,8 +39,8 @@ Una vez creado el mensaje en la aplicación, y definido y personalizado su conte
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_message_layout"
->title="Definir el contenido en la aplicación"
->abstract="El diseño del mensaje le proporciona plantillas comúnmente utilizadas para enmarcar su mensaje. El diseño personalizado proporciona opciones para cargar o componer mensajes HTML personalizados."
+>title="Definición del contenido en la aplicación"
+>abstract="El diseño del mensaje le proporciona plantillas comúnmente utilizadas para enmarcar el mensaje. El diseño personalizado proporciona opciones para cargar o componer mensajes personalizados del HTML."
 
 Desde el **[!UICONTROL Diseño del mensaje]** , seleccione una de las cuatro opciones de diseño diferentes para elegir según sus necesidades de mensajería.
 
@@ -74,8 +74,8 @@ Desde el **Contenido** pestaña, puede definir y personalizar el contenido de la
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_close"
->title="Elija el estilo de su botón Cerrar."
->abstract="La sección del botón Cerrar ofrece opciones para seleccionar variaciones del botón Cerrar del mensaje y una opción para cargar una imagen personalizada."
+>title="Elija el estilo del botón Cerrar."
+>abstract="La sección del botón Cerrar ofrece opciones para seleccionar variaciones del botón Cerrar mensaje y una opción para cargar una imagen personalizada."
 
 ![](assets/in_app_web_design_2.png)
 
@@ -97,7 +97,7 @@ Si la variable **[!UICONTROL Modo de formato avanzado]** está activada, puede c
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_media"
->title="Añada medios al mensaje en la aplicación para crear una experiencia atractiva para el usuario final."
+>title="Añada contenido multimedia al mensaje en la aplicación para crear una experiencia atractiva para el usuario final."
 >abstract="Proporcione un vínculo directo al contenido o utilice el selector de recursos para seleccionar medios en Asset Essentials y añadirlos a su mensaje."
 
 El **[!UICONTROL Medios]** Este campo le permite añadir contenido multimedia al mensaje en la aplicación para crear una experiencia atractiva para el usuario final.
@@ -117,14 +117,14 @@ Si la variable **[!UICONTROL Modo de formato avanzado]** está activada, puede p
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_content"
->title="Para redactar el mensaje, introduzca el contenido en los campos Encabezado y Cuerpo."
->abstract="Aquí se pueden añadir tanto el encabezado como el texto del cuerpo. Para incluir tókenes de personalización, abra el cuadro de diálogo de personalización."
+>title="Para redactar el mensaje, introduzca el contenido en los campos Header y Body."
+>abstract="Aquí se pueden agregar tanto el encabezado como el texto independiente. Para incluir tokens de personalización, abra el cuadro de diálogo de personalización."
 
 Para redactar el mensaje, introduzca el contenido en la **[!UICONTROL Header]** y **[!UICONTROL Cuerpo]** campos.
 
 ![](assets/in_app_web_design_4.png)
 
-Utilice el **[!UICONTROL Personalización]** para añadir personalización. Obtenga más información acerca de la personalización en el Editor de expresiones de Adobe Journey Optimizer [en esta sección](../personalization/personalize.md).
+Utilice el **[!UICONTROL Personalización]** para añadir personalización. Obtenga más información sobre personalización en el editor de personalización de Adobe Journey Optimizer [en esta sección](../personalization/personalize.md).
 
 +++Más opciones con formato avanzado
 
@@ -140,10 +140,10 @@ Si la variable **[!UICONTROL Modo de formato avanzado]** está activado, puede e
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_buttons"
->title="Añada botones para que los usuarios interactúen con el mensaje en la aplicación."
->abstract="Esta sección le permite añadir botones de llamada a la acción al mensaje. Puede incluir texto personalizado y destinos para cada botón."
+>title="Agregue botones para que los usuarios interactúen con el mensaje en la aplicación."
+>abstract="Esta sección le permite agregar botones de llamada a la acción al mensaje. Puede incluir texto personalizado y destinos para cada botón."
 
-Añada botones para que los usuarios interactúen con el mensaje en la aplicación.
+Agregue botones para que los usuarios interactúen con el mensaje en la aplicación.
 
 ![](assets/in_app_web_design_5.png)
 
@@ -180,7 +180,7 @@ Desde el **Configuración** pestaña, puede definir el diseño del mensaje y pre
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_preview"
 >title="Previsualice el mensaje en la aplicación."
->abstract="Esta es la imagen de vista previa que se mostrará cuando el mensaje se envíe al resumen del mensaje del dispositivo."
+>abstract="Esta es la imagen de vista previa que se mostrará cuando el mensaje se envíe al resumen de mensajes del dispositivo."
 
 >[!NOTE]
 >
@@ -200,7 +200,7 @@ El **[!UICONTROL Vista previa de aplicación]** le permite añadir un fondo detr
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_layout"
->title="Defina el diseño del mensaje en la aplicación."
+>title="Defina el diseño del mensaje del mensaje en la aplicación."
 >abstract="Esta sección le permite añadir un fondo al mensaje en la aplicación. Esto requiere que la adquisición de la IU esté habilitada."
 
 ![](assets/in_app_web_design_6.png)

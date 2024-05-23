@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '2415'
-ht-degree: 11%
+ht-degree: 1%
 
 ---
 
@@ -42,8 +42,8 @@ La configuración de la superficie de correo electrónico se recoge para enviar 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="Definir el tipo de correo electrónico"
->abstract="Seleccione el tipo de correos electrónicos que se enviarán al utilizar esta superficie: marketing para correos electrónicos promocionales, que requieren el consentimiento del usuario, o Transaccional para correos electrónicos no comerciales, que también se pueden enviar a perfiles cuya suscripción se haya cancelado en contextos específicos."
+>title="Definición del tipo de correo electrónico"
+>abstract="Seleccione el tipo de correos electrónicos que se enviarán al utilizar esta superficie: Marketing para correos electrónicos promocionales, que requieren el consentimiento del usuario, o Transaccional para correos electrónicos no comerciales, que también se pueden enviar a perfiles sin suscribir en contextos específicos."
 
 En el **Tipo de correo electrónico** , seleccione el tipo de mensaje para la superficie: **[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**.
 
@@ -230,9 +230,9 @@ Una vez activada esta opción, aunque un cliente haya marcado su correo electró
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
->title="Añadir una lista semilla"
->abstract="Seleccione la lista semilla que desee para añadir automáticamente direcciones internas específicas a sus públicos. Estas direcciones semilla se incluirán en el momento de la ejecución de la entrega y recibirán una copia exacta del mensaje con fines de garantía."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=es#use-seed-list" text="¿Qué son las listas semilla?"
+>title="Adición de una lista semilla"
+>abstract="Seleccione la lista semilla que desee para añadir automáticamente direcciones internas específicas a las audiencias. Estas direcciones semilla se incluyen en el momento de la ejecución de la entrega y reciben una copia exacta del mensaje para fines de garantía."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="¿Qué son las listas semilla?"
 
 Una lista semilla en [!DNL Journey Optimizer] permite incluir automáticamente direcciones semilla de correo electrónico específicas en las entregas. [Más información](../configuration/seed-lists.md)
 
@@ -257,8 +257,8 @@ Aprenda a utilizar la lista semilla en una campaña o un recorrido en [esta secc
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
 >title="Ajustar el período de tiempo de reintento"
->abstract="Los reintentos se realizan durante 3,5 días (84 horas) cuando falla el envío de un correo electrónico debido a un error temporal de mensaje devuelto no entregado. Puede ajustar este período de tiempo de reintento predeterminado para adaptarlo mejor a sus necesidades."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=es" text="Acerca de los reintentos"
+>abstract="Los reintentos se realizan durante 3,5 días (84 horas) cuando falla una entrega de correo electrónico debido a un error temporal de devolución suave. Puede ajustar este período de tiempo de reintento predeterminado para adaptarlo mejor a sus necesidades."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="Acerca de los reintentos"
 
 Puede configurar las variables **Parámetros de reintento de correo electrónico**.
 
@@ -278,15 +278,15 @@ Obtenga más información sobre reintentos en [esta sección](../configuration/r
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="Definir los parámetros de seguimiento de URL"
->abstract="Utilice esta sección para adjuntar automáticamente parámetros de seguimiento a las direcciones URL presentes en el contenido del correo electrónico. Esta función es opcional."
+>title="Definir parámetros de seguimiento de URL"
+>abstract="Utilice esta sección para anexar automáticamente parámetros de seguimiento a las direcciones URL presentes en el contenido del correo electrónico. Esta función es opcional."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
->title="Previsualizar los parámetros de seguimiento de URL"
+>title="Previsualizar parámetros de seguimiento de URL"
 >abstract="Revise cómo se adjuntarán los parámetros de seguimiento a las direcciones URL presentes en el contenido del correo electrónico."
 
-Puede utilizar **[!UICONTROL Parámetros de seguimiento de URL]** para medir la eficacia de sus esfuerzos de marketing entre canales. Esta funcionalidad es opcional.
+Puede utilizar **[!UICONTROL Parámetros de seguimiento de URL]** para medir la eficacia de sus esfuerzos de marketing entre canales. Esta función es opcional.
 
 Los parámetros definidos en esta sección se adjuntan al final de las direcciones URL incluidas en el contenido del mensaje de correo electrónico. A continuación, puede capturar estos parámetros en herramientas de análisis web como Adobe Analytics o Google Analytics y crear varios informes de rendimiento.
 
@@ -296,11 +296,11 @@ Puede añadir hasta 10 parámetros de seguimiento con la variable **[!UICONTROL 
 
 Para configurar un parámetro de seguimiento de URL, puede introducir directamente los valores deseados en **[!UICONTROL Nombre]** y **[!UICONTROL Valor]** campos.
 
-También puede editar cada **[!UICONTROL Valor]** mediante el campo [Editor de expresiones](../personalization/personalization-build-expressions.md). Haga clic en el icono de edición para abrir el editor. Desde allí, puede seleccionar los atributos contextuales disponibles o editar directamente el texto.
+También puede editar cada **[!UICONTROL Valor]** mediante el campo [editor de personalización](../personalization/personalization-build-expressions.md). Haga clic en el icono de edición para abrir el editor. Desde allí, puede seleccionar los atributos contextuales disponibles o editar directamente el texto.
 
 ![](assets/preset-url-tracking-editor.png)
 
-Los siguientes valores predefinidos están disponibles a través del Editor de expresiones:
+Los siguientes valores predefinidos están disponibles a través del editor de personalización:
 
 * **ID de acción de origen**: ID de la acción de correo electrónico agregada al recorrido o la campaña.
 
@@ -316,7 +316,7 @@ Los siguientes valores predefinidos están disponibles a través del Editor de e
 
 >[!NOTE]
 >
->Puede combinar la escritura de valores de texto y el uso de atributos contextuales desde el Editor de expresiones. Cada **[!UICONTROL Valor]** El campo puede contener un número de caracteres hasta el límite de 5 KB.
+>Puede combinar la escritura de valores de texto y el uso de atributos contextuales desde el editor de personalización. Cada **[!UICONTROL Valor]** El campo puede contener un número de caracteres hasta el límite de 5 KB.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

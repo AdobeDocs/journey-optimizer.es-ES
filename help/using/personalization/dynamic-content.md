@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, dinámico, contenido
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 10%
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
 
 Adobe Journey Optimizer le permite aprovechar las reglas condicionales creadas en la biblioteca para añadir contenido dinámico a los mensajes.
 
-Se puede crear contenido dinámico en cualquier campo donde se pueda añadir personalización mediante el Editor de expresiones. Esto incluye la línea de asunto, los vínculos, el contenido de notificaciones push o las representaciones de ofertas de tipo texto. [Más información sobre los contextos de personalización](personalization-contexts.md)
+Se puede crear contenido dinámico en cualquier campo donde se pueda añadir personalización mediante el editor de personalización. Esto incluye la línea de asunto, los vínculos, el contenido de notificaciones push o las representaciones de ofertas de tipo texto. [Más información sobre los contextos de personalización](personalization-contexts.md)
 
 Además, puede utilizar reglas condicionales en el Diseñador de correo electrónico para crear varias variantes de un componente de contenido.
 
@@ -28,7 +28,7 @@ Además, puede utilizar reglas condicionales en el Diseñador de correo electró
 
 Los pasos para agregar contenido dinámico en expresiones son los siguientes:
 
-1. Desplácese hasta el campo en el que desee añadir contenido dinámico y, a continuación, abra el Editor de expresiones.
+1. Vaya al campo donde desea añadir contenido dinámico y, a continuación, abra el editor de personalización.
 
 1. Seleccione el **[!UICONTROL Condiciones]** para mostrar la lista de reglas condicionales disponibles. Haga clic en el botón + situado junto a una regla para añadirla a la expresión actual.
 
@@ -46,7 +46,7 @@ Los pasos para agregar contenido dinámico en expresiones son los siguientes:
 
    ![](assets/conditions-preview.png)
 
-## Añadir contenido dinámico a correos electrónicos {#emails}
+## Adición de contenido dinámico a correos electrónicos {#emails}
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content"
