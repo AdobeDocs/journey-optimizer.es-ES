@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ec3d49dbd8587c788b67a9172205a8688088837e
+source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 47%
+source-wordcount: '768'
+ht-degree: 42%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="Novedades"
->abstract="**Adobe Journey Optimizer** ofrece continuamente nuevas funciones, mejoras de las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión."
+>abstract="**Adobe Journey Optimizer** ofrece continuamente nuevas funciones, mejoras en las funciones existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión."
 
 [!DNL Adobe Journey Optimizer] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión.
 
@@ -50,6 +50,24 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <p>Ahora mismo, la toma de decisiones sobre experiencias solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>Para obtener más información, consulte la <a href="../experience-decisioning/gs-experience-decisioning.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Personalización de la superficie de correo electrónico: disponibilidad limitada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede definir subdominios dinámicos y parámetros de encabezado personalizados al crear superficies de canal de correo electrónico para aumentar la flexibilidad y el control sobre la configuración del correo electrónico.</p>
+<p>Actualmente, la personalización de la superficie de correo electrónico solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<p>Para obtener más información, consulte la <a href="../email/surface-personalization.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -137,7 +155,7 @@ Desde la versión beta hasta esta versión, se han añadido las siguientes mejor
 
   >[!AVAILABILITY]
   >
-  >Actualmente, esta funcionalidad está en versión beta y solo está disponible para los clientes de la versión beta. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.
+  >Actualmente, esta funcionalidad está en versión beta y solo está disponible para los clientes de la versión beta. Para unirse al programa beta, póngase en contacto con el representante del Adobe.
 
 <!--
 **Audiences**
