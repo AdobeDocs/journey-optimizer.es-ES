@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 2b31a75595e076bfac2023f8e58ddfbcc14bace1
 workflow-type: tm+mt
-source-wordcount: '5317'
-ht-degree: 98%
+source-wordcount: '5335'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 ## Mayo de 2024 {#may-2024}
 
-* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de abril de 2024 se han detallado en la documentación. [Más información](release-notes.md)
+* Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de mayo de 2024 se ha detallado en la documentación. [Más información](release-notes.md)
 * La sección sobre listas semilla se ha actualizado en relación con los recorridos recurrentes. [Más información](../configuration/seed-lists.md#use-seed-list)
 * Se ha actualizado la sección sobre fuentes de datos externas. [Más información](../datasource/external-data-sources.md#custom-authentication-access-token)
 * El tiempo de espera de recorrido global de 30 días se ha agregado a la página Protección y limitación. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
@@ -30,6 +30,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 ## Abril de 2024 {#april-2024}
 
+* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de abril de 2024 se han detallado en la documentación. [Más información](release-notes.md#apr-2024)
 * Se han detallado los pasos de configuración para la mensajería en la aplicación. [Más información](../in-app/inapp-configuration.md)
 * La documentación de las [API de toma de decisiones sobre ofertas](../offers/api-reference/offer-delivery-api/decisioning-api.md) y las [API de tomas de decisiones por lotes](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) se ha actualizado.
 * Se ha añadido información en la documentación de gestión de decisiones sobre la gestión de regiones periféricas y centrales cuando se utiliza la restricción de frecuencia con la API de Edge Decisioning. [Más información](../offers/offer-library/add-constraints.md#frequency-capping)
@@ -42,7 +43,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 ## Marzo de 2024 {#march-2024}
 
 * Se ha añadido una sección de preguntas más frecuentes para abordar preguntas comunes sobre el uso de la composición de públicos y los públicos de carga personalizados en Journey Optimizer. [Más información](../audience/about-audiences.md#faq)
-* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de marzo de 2024 se han incluido en la documentación. [Más información](release-notes.md)
+* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de marzo de 2024 se han incluido en la documentación. [Más información](release-notes.md#mar-2024)
 * Se ha mejorado la página sobre administración de entradas de perfil. [Más información](../building-journeys/entry-management.md)
 * Se ha añadido información sobre la resolución de problemas en la página Alertas. [Más información](../reports/alerts.md#alert-troubleshooting)
 * Se ha añadido información sobre la actividad de espera en la página sobre informes de recorrido. [Más información](../reports/sharing-overview.md)
@@ -59,7 +60,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 ## Febrero de 2024 {#feb-2024}
 
-* Todas las nuevas funciones y mejoras incluidas en la versión de febrero de 2024 de [!DNL Journey Optimizer] se han incluido en la documentación. [Más información](release-notes.md)
+* Todas las nuevas funciones y mejoras incluidas en la versión de febrero de 2024 de [!DNL Journey Optimizer] se han incluido en la documentación. [Más información](release-notes.md#feb-2024)
 * La integración de Journey Optimizer + Workfront se ha añadido a la página de integraciones. [Más información](../start/ajo-integrations.md)
 * Se ha añadido información sobre cómo personalizar las representaciones de las ofertas en función de los datos de contexto. [Más información](../offers/offer-library/add-representations.md#context-data)
 * La página de protecciones se ha actualizado con una nota sobre acciones personalizadas que solo admiten el formato JSON cuando se utilizan cargas útiles de solicitud o respuesta. [Más información](../start/guardrails.md#custom-actions-g)
