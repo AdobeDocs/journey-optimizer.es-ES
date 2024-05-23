@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 keywords: recorrido, descubrimiento, introducción
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '613'
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+workflow-type: tm+mt
+source-wordcount: '610'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,6 @@ Casos de uso empresariales:
 Casos de uso técnicos:
 
 * [Paso de colecciones de forma dinámica mediante acciones personalizadas](collections.md)
-* [Aumento de envíos](ramp-up-deliveries-uc.md)
 * [Limitación del rendimiento con fuentes de datos externas y acciones personalizadas](limit-throughput.md)
 
 ## Versiones de recorridos{#journey-versions}

@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 4461100b19bd84a75f036e300e88c47b9b20db9b
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
 workflow-type: tm+mt
-source-wordcount: '3603'
+source-wordcount: '3598'
 ht-degree: 100%
 
 ---
@@ -796,7 +796,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tr>
 <td>
 <p>Al configurar una actividad de <strong>Condición</strong> en un recorrido, ahora puede definir un límite de perfil. Este nuevo tipo de condición le permite establecer un número máximo de perfiles para una ruta de recorrido. Cuando se alcanza este límite, los perfiles que se introducen toman una ruta alternativa. Esto le permite aumentar el volumen de los envíos (aumento de IP). Por ejemplo, puede que desee ampliar los envíos en un dominio dividiendo la ejecución: enviar 1000 mensajes el día 1, 2000 el día 2, etc.</p>
-<p>Para obtener más información, consulte la <a href="../building-journeys/condition-activity.md#profile_cap">documentación detallada</a> y el <a href="../building-journeys/ramp-up-deliveries-uc.md">ejemplo de uso</a> relacionado.</p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/condition-activity.md#profile_cap">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>

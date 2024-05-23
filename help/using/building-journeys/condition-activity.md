@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: actividad, condición, lienzo, recorrido
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 17%
+source-wordcount: '1466'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="Actividad de condición"
->abstract="Esta actividad permite definir cómo fluirá el particular en el recorrido. Se crearán varias rutas basadas en distintos criterios. También puede crear una ruta alternativa en caso de que se agote el tiempo de espera o se produzca un error."
+>abstract="Esta actividad le permite definir cómo fluirá el individuo en el recorrido. Se crearán varias rutas en función de varios criterios. También puede crear una ruta alternativa en caso de tiempo de espera o error."
 
 Estos tipos de condiciones están disponibles:
 
@@ -38,7 +38,7 @@ Estos tipos de condiciones están disponibles:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
 >title="Acerca del editor de expresiones simple"
->abstract="El modo de editor de expresiones simple permite realizar consultas simples basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Arrastre y suelte los campos en la zona principal. Para combinar los diferentes elementos, conéctelos entre sí para crear diferentes grupos o niveles de grupo. A continuación, puede seleccionar un operador lógico para combinar elementos en el mismo nivel."
+>abstract="El modo de editor de expresiones simple permite realizar consultas simples basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Arrastre y coloque campos en la zona principal. Para combinar los diferentes elementos, conéctelos entre sí para crear diferentes grupos o niveles de grupo. A continuación, puede seleccionar un operador lógico para combinar elementos en el mismo nivel."
 
 Al utilizar varias condiciones en un recorrido, puede definir etiquetas para cada una de ellas para identificarlas más fácilmente.
 
@@ -54,7 +54,7 @@ VIP Por ejemplo, veamos el ejemplo de la condición de una primera ruta &quot;La
 
 Puede crear otra ruta para las audiencias que no cumplan los requisitos para las condiciones definidas marcando **[!UICONTROL Mostrar ruta para otros casos distintos del anterior]**. Tenga en cuenta que esta opción no está disponible en condiciones de división. Consulte [División porcentual](#percentage_split).
 
-El modo simple permite realizar consultas simples basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Arrastre y suelte los campos en la zona principal. Para combinar los diferentes elementos, conéctelos entre sí para crear diferentes grupos o niveles de grupo. A continuación, puede seleccionar un operador lógico para combinar elementos en el mismo nivel:
+El modo simple permite realizar consultas simples basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Arrastre y coloque campos en la zona principal. Para combinar los diferentes elementos, conéctelos entre sí para crear diferentes grupos o niveles de grupo. A continuación, puede seleccionar un operador lógico para combinar elementos en el mismo nivel:
 
 * Y: una intersección de dos criterios. Solo se tienen en cuenta los elementos que coinciden con todos los criterios.
 * OR: una unión de dos criterios. Se tienen en cuenta los elementos que coinciden con al menos uno de los dos criterios.
@@ -128,7 +128,7 @@ Utilice este tipo de condición para establecer un número máximo de perfiles p
 >
 >Le recomendamos que defina un límite de perfil de alto valor. La precisión y la probabilidad de que una población alcance el número máximo exacto solo aumentan a medida que aumenta el límite. En el caso de los números pequeños (por ejemplo, un máximo de 50), los números no siempre coinciden, ya que es posible que no se alcance el límite antes de que los perfiles sigan una ruta alternativa.
 
-Puede utilizar este tipo de condición para aumentar el volumen de los envíos. Ver esto [caso de uso](ramp-up-deliveries-uc.md).
+<!--You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).-->
 
 El límite predeterminado es 1000.
 

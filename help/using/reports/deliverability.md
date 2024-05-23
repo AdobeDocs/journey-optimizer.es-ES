@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 13%
+source-wordcount: '945'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ La capacidad de entrega es una medida del éxito de los envíos que llegan a las
 >
 >Para los clientes que obtienen una licencia de Healthcare Shield, Adobe utiliza Transport Layer Security (TLS) 1.2 para proteger el intercambio de datos entre los sistemas de los usuarios (destinatarios) y Journey Optimizer (remitente). Si el servidor de correo receptor no es compatible con TLS 1.2, los clientes experimentarán problemas de envío, incluido el rebote de correo electrónico al remitente original.
 
-**Entrega de correo electrónico** hace referencia al conjunto de características que determinan la capacidad de un mensaje para llegar a su destino a través de una dirección de correo electrónico personal, en poco tiempo y con la calidad esperada en términos de contenido y formato. Estas características se dividen en cuatro categorías principales: calidad de datos, mensaje y contenido, infraestructura de envío y reputación. Juntas forman la base del éxito de un programa de envío de correo electrónico.
+**Entrega de correo electrónico** hace referencia al conjunto de características que determinan la capacidad de un mensaje para llegar a su destino a través de una dirección de correo electrónico personal, en poco tiempo y con la calidad esperada en términos de contenido y formato. Estas características se dividen en cuatro categorías principales: calidad de datos, mensaje y contenido, infraestructura de envío y reputación. Juntos, forman la base de un programa de envío de correo electrónico exitoso.
 
 El **tasa de entrega** es el número de mensajes que llegan a las bandejas de entrada de los destinatarios en comparación con el número de mensajes enviados. Depende de numerosos factores, en particular:
 
@@ -31,15 +31,15 @@ El **tasa de entrega** es el número de mensajes que llegan a las bandejas de en
 * Tasas de devolución duras bajas
 * Calidad de las direcciones objetivo
 * Contenido del mensaje
-* Conocimiento del remitente
+* Reputación del remitente
 
 Para optimizar la entrega de su [!DNL Journey Optimizer] experiencias, recomendamos utilizar las prácticas recomendadas enumeradas en esta sección. Los problemas de entrega generalmente están vinculados a la protección contra el correo no deseado implementada por los proveedores de servicios de Internet (ISP) y los administradores de servidores de correo.
 
-Para profundizar en lo que es la capacidad de entrega y obtener más información sobre los términos, conceptos y enfoques clave de la capacidad de entrega, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es){target="_blank"}.
+Para profundizar en lo que es la capacidad de entrega y obtener más información sobre los términos, conceptos y enfoques clave de la capacidad de entrega, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target="_blank"}.
 
 ## Reducir la tasa de quejas {#reduce-complaint-rate}
 
-Los proveedores de servicios de Internet generalmente tienen un medio prominente para informar un mensaje recibido como correo no deseado. Esto permite identificar fuentes no fiables. Al cumplir rápidamente con las solicitudes de exclusión y, por lo tanto, mostrar que es un remitente confiable, puede reducir las tasas de quejas. [Más información acerca de la administración de la exclusión](../privacy/opt-out.md#opt-out-management)
+Los ISP suelen tener un medio prominente para informar un mensaje recibido como correo no deseado. Esto permite identificar fuentes no fiables. Al cumplir rápidamente con las solicitudes de exclusión y, por lo tanto, mostrar que es un remitente confiable, puede reducir las tasas de quejas. [Más información acerca de la administración de la exclusión](../privacy/opt-out.md#opt-out-management)
 
 Como regla general, no intente interferir con los destinatarios que deseen optar por la exclusión obligándolos a rellenar campos como, por ejemplo, su dirección de correo electrónico o su nombre. La página de aterrizaje de baja solo debe tener un botón de validación.
 
@@ -77,7 +77,7 @@ Para mejorar la tasa de entrega y asegurarse de que los correos electrónicos ll
 
 Si se ha trasladado recientemente a otro proveedor de servicios de correo electrónico, dirección IP o dominio o subdominio de correo electrónico, debe establecer su reputación como remitente. De lo contrario, los envíos podrían bloquearse o moverse a la carpeta de correo no deseado del buzón de los destinatarios.
 
-Para calentar la IP, puede aumentar gradualmente la cantidad de envíos. Obtenga más información en esta [caso de uso](../building-journeys/ramp-up-deliveries-uc.md).
+<!--To warm up your IP, you can gradually ramp up the number of your deliveries. Learn more in this [use case](../building-journeys/ramp-up-deliveries-uc.md).-->
 
 ## Implementación de DMARC {#dmarc}
 
