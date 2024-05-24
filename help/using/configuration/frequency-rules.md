@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 8253b4f3fdc177f5e5f19ab19de748b78456137b
+source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1262'
 ht-degree: 6%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
 >title="Reglas comerciales"
->abstract="Utilice reglas empresariales para controlar la frecuencia con la que los usuarios recibirán un mensaje o entrarán en un recorrido configurando reglas multicanal que excluirán automáticamente los perfiles saturados de mensajes y acciones."
+>abstract="Las reglas de frecuencia de mensajes son un tipo de regla empresarial que restringe el número de veces que los usuarios reciben mensajes o entran en recorridos a través de uno o varios canales. Estas reglas entre canales excluyen automáticamente los perfiles saturados de mensajes y acciones."
 
-[!DNL Journey Optimizer] permite controlar la frecuencia con la que los usuarios recibirán un mensaje o entrarán en un recorrido configurando reglas multicanal que excluirán automáticamente los perfiles saturados de los mensajes y las acciones.
+[!DNL Journey Optimizer] permite controlar la frecuencia con la que los usuarios recibirán un mensaje o entrarán en un recorrido a través de uno o varios canales. Reglas de frecuencia de mensajes que excluyen automáticamente los perfiles saturados de mensajes y acciones.
 
 Por ejemplo, para una marca una regla podría ser no enviar más de 4 mensajes de marketing al mes a sus clientes. Para ello, puede utilizar una regla de negocio que limite el número de mensajes enviados en función de uno o más canales durante un periodo mensual del calendario.
 
