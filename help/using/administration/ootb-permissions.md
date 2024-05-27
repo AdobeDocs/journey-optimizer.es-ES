@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: permisos, creación, mensajes
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: aba2d6a1b55f5948da5ded3ae2cab721651caa94
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '755'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,6 @@ Los permisos integrados representan los diferentes permisos que se pueden asigna
 | Administración de decisiones | **[!DNL Manage decisions]**: leer, crear, editar y eliminar entidades de toma de decisiones.</br>**[!DNL Manage offers]**: lea, cree, edite y elimine todas las ofertas, componentes, decisiones de lectura y colecciones.</br>**[!DNL Manage ranking strategies]**: leer, crear, editar y eliminar informes personalizados y utilizar funciones de acción.</br>**[!DNL View decisions]**: acceso de solo lectura a entidades de ofertas.<!--**[!DNL Manage Experience decisions]**: read, create, edit, and delete Experience decisioning entities.</br>--> |
 | Destinos | **[!DNL Activate destinations]**: permite a los usuarios activar audiencias en destinos existentes.</br>**[!DNL Activate segment without mapping]**: permite a los usuarios activar audiencias en destinos existentes, sin mostrar el paso de asignación. Los usuarios pueden agregar y eliminar audiencias en flujos de trabajo de activación, pero no pueden agregar ni eliminar atributos o identidades asignados.</br>**[!DNL Destination authoring]**: destinos de autor que utilizan Adobe Experience Platform Destination SDK.</br>**[!DNL Manage and activate dataset destination]**: leer, crear, editar y deshabilitar flujos de exportación de conjuntos de datos. Capacidad para activar también datos en conjuntos de datos activos que se han creado.</br>**[!DNL Manage destinations]**: lea, cree y elimine flujos de activación de destino y cuentas de destino.</br>**[!DNL View destinations]**: acceso de solo lectura a los destinos disponibles en la pestaña Catálogo y a los destinos autenticados en la pestaña Examinar. |
 | Administración de identidad | **[!DNL Manage identity namespaces]**: leer, crear y editar áreas de nombres de identidad.</br>**[!DNL Manage identity settings]**: leer, crear y editar la configuración de identidad.</br>**[!DNL View identity namespaces]**: acceso de solo lectura a áreas de nombres de identidad.</br>**[!DNL View identity settings]**: acceso de solo lectura a la configuración de identidad.</br>**[!DNL View identity graph]**: acceso de solo lectura para gráficos de identidad. |
-| Configuraciones de calentamiento de IP | **[!DNL Manage IP warmup plans]**: lea, cree y edite planes de calentamiento de IP.</br>**[!DNL View IP warmup plans]**: acceso de solo lectura a los planes de calentamiento de IP.</br>**[!DNL View IP warmup reports]**: lea y edite los informes de Calentamiento de IP. |
 | Biblioteca de Journey Optimizer | **[!DNL Manage Library Items]**: agregue y elimine expresiones guardadas en [!DNL Journey Optimizer] Biblioteca.</br>**[!DNL Simulate content]**: acceso a la opción Simular contenido para previsualización y prueba. |
 | Reglas de Journey Optimizer | **[!DNL Manage frequency rules]**: acceda, cree, edite o elimine reglas de frecuencia de mensajes.</br>**[!DNL View frequency rules]**: acceso de solo lectura a reglas. |
 | Recorridos | **[!DNL Manage journeys]**: leer, crear, editar y eliminar recorridos. Para acceder y administrar recorridos, combine este permiso con **[!DNL View journeys events, data sources and actions]**.</br>**[!DNL Manage journeys events, data sources and actions]**: leer, crear, editar y eliminar eventos, fuentes o acciones.</br>**[!DNL Publish journeys]**: publicar recorridos.</br>**[!DNL View journeys]**: acceso de solo lectura a recorridos.</br>**[!DNL View journeys events, data sources and actions]**: Acceso de solo lectura a eventos de recorrido, acciones personalizadas de recorrido y fuentes de datos de recorrido.</br>**[!DNL View journeys report]**: lea y edite el informe recorridos.</br> |
@@ -44,3 +43,5 @@ Los permisos integrados representan los diferentes permisos que se pueden asigna
 | Administración de zona protegida | **[!DNL Export sandboxes]**: capacidad para exportar una zona protegida.</br>**[!DNL Manage packages]**: leer, crear, editar y eliminar paquetes.</br>**[!DNL Manage sandboxes]**: leer, crear, editar y eliminar entornos limitados.</br>**[!DNL View sandboxes]**: acceso de solo lectura para zonas protegidas que pertenecen a su organización.</br>**[!DNL Reset sandboxes]**: capacidad para restablecer una zona protegida. |
 
 {style="table-layout:fixed"}
+
+<!--|IP warmup configurations|**[!DNL Manage IP warmup plans]**: read, create, and edit IP warmup plans.</br>**[!DNL View IP warmup plans]**: read-only access to IP warmup plans.</br>**[!DNL View IP warmup reports]**: read and edit IP Warmup reports. |-->
