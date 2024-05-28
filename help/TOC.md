@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: d1eeb72bfe5a621a5814790c785eac399534e011
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1803'
 ht-degree: 95%
 
 ---
@@ -20,10 +20,10 @@ ht-degree: 95%
    + [Notas de la versión preliminar](using/rn/early-release-notes.md)
    + [Últimas notas de la versión](using/rn/release-notes.md)
    + Notas de la versión anterior {#previous-rn-new}
-      + [Notas de la versión de 2024](using/rn/release-notes-2024.md)
-      + [Notas de la versión de 2023](using/rn/release-notes-2023.md)
-      + [Notas de la versión de 2022](using/rn/release-notes-2022.md)
-      + [Notas de la versión de 2021](using/rn/release-notes-2021.md)
+      + [2024](using/rn/release-notes-2024.md)
+      + [2023](using/rn/release-notes-2023.md)
+      + [2022](using/rn/release-notes-2022.md)
+      + [2021](using/rn/release-notes-2021.md)
    + [Actualizaciones de la documentación](using/rn/documentation-updates.md)
    + [Nuevo lienzo de recorrido](using/rn/new-canvas.md)
 + Introducción{#get-started}
