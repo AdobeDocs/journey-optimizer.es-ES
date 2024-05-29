@@ -6,10 +6,11 @@ description: Aprenda a configurar su entorno para enviar mensajes de texto con J
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: d6f74566-c913-4727-83b9-473a798a0158
+source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 1%
+source-wordcount: '151'
+ht-degree: 5%
 
 ---
 
@@ -19,9 +20,9 @@ Para configurar Twilio con Journey Optimizer, debe crear una nueva credencial de
 
 1. En el carril izquierdo, vaya a **[!UICONTROL Administration]** > **[!UICONTROL Canales]** y seleccione la **[!UICONTROL Credenciales de API]** menú. Haga clic en **[!UICONTROL Crear nuevas credenciales de API]** botón.
 
-   ![](assets/sms_6.png)
-
 1. Configure las credenciales de la API de SMS como se detalla a continuación:
+
+   * **[!UICONTROL Proveedor de SMS]**: Twilio.
 
    * **[!UICONTROL Nombre]**: elija un nombre para la credencial de la API.
 
@@ -32,4 +33,3 @@ Para configurar Twilio con Journey Optimizer, debe crear una nueva credencial de
 1. Clic **[!UICONTROL Enviar]** cuando haya terminado de configurar las credenciales de la API.
 
 Después de crear y configurar las credenciales de la API, debe crear una superficie de canal para los mensajes SMS y MMS. [Más información](sms-configuration-surface.md)
-
