@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: cc68e45e0da3cd65df74c7a484934af6da64b255
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1348'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ Controle la administración de la privacidad y las solicitudes desde esta secci�
 
   También puede acceder a la sección **Creación de informes** para configurar la creación de informes para la experimentación de campañas. [Más información](../campaigns/reporting-configuration.md)
 
-* **[!UICONTROL Reglas empresariales]** : utilice esta sección para crear reglas empresariales multicanal para controlar la frecuencia con la que los usuarios reciben un mensaje o entran en un recorrido. [Más información](../configuration/frequency-rules.md)
+* **[!UICONTROL Reglas empresariales]**: utilice esta sección para crear reglas empresariales entre canales para controlar la frecuencia con la que los usuarios reciben un mensaje o entran en un recorrido. [Más información](../configuration/frequency-rules.md)
 
 * **[!UICONTROL Alertas]**: la interfaz de usuario le permite ver un historial de alertas recibidas en función de las métricas reveladas por Adobe Experience Platform Observability Insights. La IU también le permite ver, habilitar y deshabilitar las reglas de alerta disponibles. [Más información](../reports/alerts.md)
 
@@ -198,95 +198,95 @@ Para cambiar el idioma:
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
 >title="Nombre de configuración móvil y web"
->abstract="TBC"
+>abstract="Por confirmar"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_add"
 >title="Añadir dependencias"
->abstract="TBC"
+>abstract="Por confirmar"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_initialization_code"
 >title="Añadir código de inicialización"
->abstract="TBC"
+>abstract="Por confirmar"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="Validar con Assurance"
->abstract="TBC"
+>abstract="Por confirmar"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
->title="Código JavaScript"
->abstract="TBC"
+>title="Código JavaScript "
+>abstract="Por confirmar"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_site"
->title="Lanzamiento del sitio y validación"
->abstract="TBC"
+>title="Iniciar sitio y validar"
+>abstract="Por confirmar"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
 >title="Recuperar el token del dispositivo"
->abstract="TBC"
+>abstract="Por confirmar"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
->title="Inicie la aplicación desde Xcode."
->abstract="TBC"
+>title="Iniciar la aplicación desde Xcode"
+>abstract="Por confirmar"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_certificate"
 >title="Proporcionar un certificado push"
->abstract="TBC"
+>abstract="Por confirmar"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_key_id"
 >title="ID de clave"
->abstract="TBC"
+>abstract="Por confirmar"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_team_id"
->title="Identificador de equipo"
->abstract="TBC"
+>title="ID de equipo"
+>abstract="Por confirmar"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_inapp_tag_property"
->title="Elija su propiedad de etiquetas"
->abstract="TBC"
+>title="Elija la propiedad de sus etiquetas"
+>abstract="Por confirmar"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"
 >title="Proporcionar un certificado push"
->abstract="TBC"
+>abstract="Por confirmar"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_add"
 >title="Añadir dependencias"
->abstract="TBC"
+>abstract="Por confirmar"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_import"
 >title="Importar dependencias"
->abstract="TBC"
+>abstract="Por confirmar"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_import"
 >title="Importar dependencias"
->abstract="TBC"
+>abstract="Por confirmar"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_initialization_code"
 >title="Añadir código de inicialización"
->abstract="TBC"
+>abstract="Por confirmar"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token_android"
 >title="Recuperar el token del dispositivo"
->abstract="TBC"
+>abstract="Por confirmar"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_android_studio"
->title="Inicie la aplicación desde Android Studio."
->abstract="TBC"
+>title="Iniciar la aplicación desde Android Studio"
+>abstract="Por confirmar"

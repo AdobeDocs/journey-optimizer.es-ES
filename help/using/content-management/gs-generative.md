@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 644e0959ee0d0ec8ee0c4ec54c3bcd1cc3c4dda9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '658'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -23,28 +23,28 @@ ht-degree: 67%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
 >title="Asistente de IA"
->abstract="Una vez que haya creado y personalizado su envío, puede utilizar el asistente de IA para mejorar su contenido. Esta función simplifica el proceso de personalización y mejora de contenido, ya que le permite ajustar el contenido al describir lo que desea generar."
+>abstract="Una vez que haya elaborado y personalizado su entrega, puede utilizar el Asistente de IA para mejorar el contenido. Esta función simplifica el proceso de personalización y mejora del contenido al permitirle refinarlo describiendo lo que desea generar."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
->title="Definir contexto con el asistente de IA"
->abstract="Para utilizar el contenido seleccionado como entrada para la generación de contenido, active la variable **Usar contenido original** alternar. También puede cargar los recursos de su marca para utilizarlos como fuente. Si no utiliza el contenido seleccionado, es obligatorio cargar y seleccionar recursos de una marca."
+>title="Definir el contexto con el Asistente de IA"
+>abstract="Para utilizar el contenido seleccionado como entrada para la generación de contenido, active el conmutador **Utilizar el contenido original**. También puede cargar los recursos de su marca para utilizarlos como fuente. Si no utiliza el contenido seleccionado, es obligatorio cargar y seleccionar un recurso de marca."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
->title="Adobe Términos de IA generativa"
->abstract="El acceso a esta función está sujeto a su acuerdo con las Directrices de usuario de IA generativa de Adobe Experience Cloud. Cualquier solicitud, contexto, información complementaria u otra información que proporcione a esta función debe estar vinculada a un contexto específico, que puede incluir materiales de promoción de la marca, contenido del sitio web, datos, esquemas para dichos datos, plantillas u otros documentos de confianza y no debe contener información personal (la información personal incluye cualquier cosa que pueda vincularse de nuevo a una persona específica). Debe revisar cualquier resultado de esta función para comprobar su precisión y asegurarse de que sea adecuado para su caso de uso"
->additional-url="https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Directrices del usuario de IA generativa"
+>title="Términos de IA generativa de Adobe"
+>abstract="El acceso a esta función está sujeto a su aceptación de las Directrices del usuario de IA generativa de Adobe Experience Cloud. Todas las indicaciones, los contextos, la información complementaria u otros datos que proporcione a esta función deben estar vinculados a un contexto específico, como por ejemplo, materiales de personalización de marca, contenido del sitio web, datos, esquemas para dichos datos, plantillas u otros documentos de confianza, y no deben contener ninguna información personal (información personal es cualquier cosa que pueda vincularse a una persona en concreto). Debe comprobar la exactitud de los resultados de esta función y asegurarse de que son adecuados para su caso de uso"
+>additional-url="https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Directrices del usuario de IA generativa de Adobe"
 
 >[!BEGINSHADEBOX]
 
 **Tabla de contenido**
 
 * Introducción al asistente de IA
-* [Generación de correo electrónico con el asistente de IA](generative-email.md)
-* [Generación de SMS con el asistente de IA](generative-sms.md)
+* [Generación de correo electrónico con el Asistente de IA](generative-email.md)
+* [Generación de SMS con el Asistente de IA](generative-sms.md)
 * [Generación de push con el asistente de IA](generative-push.md)
 * [Experimento de contenido con el asistente de IA](generative-experimentation.md)
 
