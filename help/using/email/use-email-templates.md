@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: correo electrónico, plantillas, diseño
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 08f12adf384b98dfa1d69cbc2d684c3bf58d31fa
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 21%
+ht-degree: 3%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 21%
 
 >[!CONTEXTUALHELP]
 >id="ajo_use_template"
->title="Generación de contenido a partir de una plantilla"
->abstract="Para empezar a crear el contenido del correo electrónico, seleccione una plantilla predeterminada o una existente personalizada, creada desde cero o guardada como plantilla a partir de un correo electrónico anterior."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/content-templates.html?lang=es#create-content-templates" text="Creación de plantillas de contenido"
+>title="Creación de contenido desde una plantilla"
+>abstract="Para empezar a crear el contenido del correo electrónico, seleccione una plantilla predeterminada o una plantilla existente personalizada: creada desde cero o guardada como plantilla de un correo electrónico anterior."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates#create-content-templates" text="Creación de plantillas de contenido"
 
 Desde el **[!UICONTROL Cree su correo electrónico]** pantalla, utilice el **[!UICONTROL Seleccionar plantilla de diseño]** para comenzar a crear el contenido a partir de una plantilla.
 
@@ -48,7 +48,7 @@ Para empezar a crear contenido con una de las plantillas de ejemplo o guardadas,
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. La lista de todos [plantillas de contenido](../content-management/content-templates.md#create-content-templates) se muestra la creación en la zona protegida actual. Puede ordenarlas **[!UICONTROL Por nombre]**, **[!UICONTROL Última modificación]** y **[!UICONTROL Última creación]**.
+1. La lista de todos [plantillas de contenido](../content-management/content-templates.md#create-content-templates) se muestra la creación en la zona protegida actual. Puede ordenarlos. **[!UICONTROL Por nombre]**, **[!UICONTROL Última modificación]** y **[!UICONTROL Última creación]**.
 
    ![](assets/email_designer-saved-templates-filter.png)
 
