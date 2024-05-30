@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
 workflow-type: tm+mt
 source-wordcount: '1817'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 93%
          + [Generalidades](using/building-journeys/expression/generalities.md)
          + [Instrucción condicional](using/building-journeys/expression/conditional-instruction.md)
          + [Tipos de datos](using/building-journeys/expression/data-types.md)
-         + [Referencias de campo](using/building-journeys/expression/field-references.md)
+         + [Referencias del campo](using/building-journeys/expression/field-references.md)
          + [Funciones de administración de colecciones](using/building-journeys/expression/collection-management-functions.md)
          + [Operadores](using/building-journeys/expression/operators.md)
          + [Propiedades del recorrido](using/building-journeys/expression/journey-properties.md)
@@ -106,7 +106,7 @@ ht-degree: 93%
             + [toInteger](using/building-journeys/functions/functiontointeger.md)
             + [toString](using/building-journeys/functions/functiontostring.md)
          + Fecha {#date}
-            + [currentTime: InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
+            + [currentTime&#x200B;InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
             + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
             + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
             + [inLastMonths](using/building-journeys/functions/functioninlastmonths.md)
@@ -130,12 +130,12 @@ ht-degree: 93%
             + [límite](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
-            + [sort](using/building-journeys/functions/functionsort.md)
+            + [ordenar](using/building-journeys/functions/functionsort.md)
          + Math {#math}
             + [random](using/building-journeys/functions/functionrandom.md)
             + [round](using/building-journeys/functions/functionround.md)
          + Cadena {#string}
-            + [concat](using/building-journeys/functions/functionconcat.md)
+            + [concatena](using/building-journeys/functions/functionconcat.md)
             + [contain](using/building-journeys/functions/functioncontain.md)
             + [containIgnoreCase](using/building-journeys/functions/functioncontainwithignorecase.md)
             + [endWith](using/building-journeys/functions/functionendwith.md)
@@ -154,10 +154,10 @@ ht-degree: 93%
             + [split](using/building-journeys/functions/functionsplit.md)
             + [startWith](using/building-journeys/functions/functionstartwith.md)
             + [startWithIgnoreCase](using/building-journeys/functions/functionstartwithignorecase.md)
-            + [sustr](using/building-journeys/functions/functionsubstr.md)
-            + [recortar](using/building-journeys/functions/functiontrim.md)
+            + [substr](using/building-journeys/functions/functionsubstr.md)
+            + [trim](using/building-journeys/functions/functiontrim.md)
             + [upper](using/building-journeys/functions/functionupper.md)
-            + [uuid](using/building-journeys/functions/functionuuid.md)
+            + [UUID](using/building-journeys/functions/functionuuid.md)
    + Casos de uso {#journey-use-cases}
       + Casos de uso empresariales {#business-use-cases}
          + [Envío de mensajes multicanal](using/building-journeys/journeys-uc.md)
@@ -327,7 +327,7 @@ ht-degree: 93%
       + [Vista previa del contenido](using/content-management/preview.md)
       + [Envío de pruebas de correo electrónico](using/content-management/proofs.md)
       + [Prueba del procesamiento de correo electrónico](using/content-management/rendering.md)
-      + [Informe de correo no deseado](using/content-management/spam-report.md)
+      + [Informe de correo electrónico no deseado](using/content-management/spam-report.md)
 + Públicos, perfiles e identidad{#audiences-profiles-identities}
    + Públicos {#audiences}
       + [Introducción a los públicos](using/audience/about-audiences.md)
@@ -566,7 +566,7 @@ ht-degree: 93%
    + [Asistencia para el archivado](using/configuration/archiving-support.md)
    + [Cambio de direcciones de ejecución](using/configuration/primary-email-addresses.md)
    + [Configurar reglas empresariales](using/configuration/frequency-rules.md)
-   + [Trabajo con conjuntos de reglas](using/configuration/rule-sets.md)
+   + [Trabajar con conjuntos de reglas](using/configuration/rule-sets.md)
    + Configurar recorridos {#configure-journeys}
       + [Acerca de las fuentes de datos, los eventos y las acciones](using/configuration/about-data-sources-events-actions.md)
       + Integración con sistemas externos {#external-systems}

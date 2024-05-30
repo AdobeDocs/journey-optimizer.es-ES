@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 2b31a75595e076bfac2023f8e58ddfbcc14bace1
 workflow-type: tm+mt
 source-wordcount: '5335'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de mayo de 2024 se ha detallado en la documentación. [Más información](release-notes.md)
 * La sección sobre listas semilla se ha actualizado en relación con los recorridos recurrentes. [Más información](../configuration/seed-lists.md#use-seed-list)
 * Se ha actualizado la sección sobre fuentes de datos externas. [Más información](../datasource/external-data-sources.md#custom-authentication-access-token)
-* El tiempo de espera de recorrido global de 30 días se ha agregado a la página Protección y limitación. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
+* El tiempo de espera del recorrido global de 30 días se ha añadido a la página Mecanismo de protección y límite. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
 * La sección sobre la integración de Adobe Campaign v7/v8 se ha actualizado con información sobre el aprovisionamiento. [Más información](../action/acc-action.md#access)
 * El nombre del editor de expresiones utilizado para personalizar el contenido se ha cambiado en la documentación a &quot;editor de personalización&quot; para diferenciarlo claramente del editor de expresiones [editor de expresiones de recorrido](../building-journeys/expression/expressionadvanced.md). [Más información](../personalization/personalization-build-expressions.md)
 
