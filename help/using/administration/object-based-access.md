@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: objeto, nivel, acceso, control, etiquetas, olac, autorización
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 12%
+source-wordcount: '413'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="Control de acceso de nivel de objeto"
->abstract="Si aplica etiquetas a las que no tiene acceso, se revocará el acceso a este objeto."
+>abstract="Para mantener el acceso a este objeto, aplique solo las etiquetas para las que tenga permiso."
 
 El control de acceso a nivel de objeto (OLAC) permite definir autorizaciones para administrar el acceso a datos a una selección de objetos:
 
@@ -85,7 +85,7 @@ Para asignar etiquetas de uso de datos personalizadas o principales a los objeto
 
 1. Desde el **[!UICONTROL Administrar acceso]** , seleccione las etiquetas de uso de datos personalizadas o principales para administrar el acceso a este objeto.
 
-   Para obtener más información sobre las etiquetas de uso de datos principales, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=es).
+   Para obtener más información sobre las etiquetas de uso de datos principales, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html).
 
    ![](assets/olac_4.png)
 
