@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: vínculos, seguimiento, monitorización, correo electrónico
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 3%
@@ -158,7 +158,7 @@ El [Diseñador de correo electrónico](content-from-scratch.md) permite administ
    * **[!UICONTROL Rastreado]**: activa el seguimiento en esta dirección URL.
    * **[!UICONTROL Opción de exclusión]**: Considera esta URL como una URL de exclusión o de baja.
    * **[!UICONTROL Página espejo]**: Considera esta URL como una URL de página espejo.
-   * **[!UICONTROL Nunca]**: Nunca activa el seguimiento de esta dirección URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL Nunca]**: Nunca activa el seguimiento de esta dirección URL.
 
 Los informes sobre aperturas y clics están disponibles en la [Informe en vivo](../reports/live-report.md) y en el [Informe global](../reports/global-report.md).
 

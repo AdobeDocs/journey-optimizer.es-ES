@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 4461100b19bd84a75f036e300e88c47b9b20db9b
+source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
 workflow-type: tm+mt
-source-wordcount: '2078'
+source-wordcount: '2035'
 ht-degree: 100%
 
 ---
@@ -277,7 +277,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 **Diseño de contenido**
 
 * **Contexto**: las imágenes de fondo ahora se admiten en la vista previa en vivo. [Más información](../content-management/preview-test.md)
-* **Vínculo de no participación de un clic**: puede insertar un nuevo tipo de vínculo en el contenido del correo electrónico, el de **Exclusión**, que permite a los usuarios cancelar la suscripción de recibir sus comunicaciones con solo un clic, sin que se les redirija a una página de aterrizaje para confirmar la exclusión. [Más información](../privacy/opt-out.md#one-click-opt-out-link)
+  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)-->
 
 **Personalización**
 
