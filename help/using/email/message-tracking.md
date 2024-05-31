@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: vínculos, seguimiento, monitorización, correo electrónico
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
+source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 3%
@@ -187,3 +187,4 @@ Ahora, cuando se envía el correo electrónico, este parámetro se anexa automá
 >[!NOTE]
 >
 >Para verificar la dirección URL final, puede hacer lo siguiente [enviar una prueba](../content-management/preview-test.md#send-proofs) y haga clic en el vínculo en el contenido del correo electrónico una vez que reciba la prueba. La dirección URL debe mostrar el parámetro de seguimiento. En el ejemplo anterior, la dirección URL final es: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+

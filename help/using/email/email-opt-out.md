@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: exclusión, correo electrónico, vínculo, cancelación de suscripción
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
+source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 26%
@@ -31,7 +31,6 @@ Para insertar un vínculo de baja en el contenido del correo electrónico, puede
 * Habilite la **vínculo de no participación de un clic** para su correo electrónico.  [Obtenga información sobre cómo añadir un vínculo de no participación de un clic](#one-click-opt-out)
 
 * Inserte una **vínculo a una página de aterrizaje**. [Obtenga información sobre cómo añadir una página de aterrizaje de exclusión](#opt-out-external-lp)
-
 
 ## Opción de exclusión en un paso {#opt-out-one-step}
 
