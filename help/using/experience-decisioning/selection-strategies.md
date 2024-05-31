@@ -10,7 +10,7 @@ exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 19%
+ht-degree: 3%
 
 ---
 
@@ -18,16 +18,16 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
->title="Definición de las estrategias de selección"
->abstract="Una estrategia de selección es reutilizable y consiste en una colección asociada con una restricción de idoneidad y un método de clasificación para determinar las ofertas que se mostrarán cuando se seleccionen en una política de decisión."
+>title="Definir las estrategias de selección"
+>abstract="Una estrategia de selección es reutilizable y consiste en una colección asociada con una restricción de elegibilidad y un método de clasificación para determinar las ofertas que se mostrarán cuando se seleccionen en una política de decisión."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="Creación de políticas de decisión"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
->title="Restricción de los perfiles aptos"
->abstract="Puede restringir la selección de ofertas para esta estrategia de selección. De forma predeterminada, todos los perfiles son aptos, pero puede utilizar públicos o reglas para limitar la selección de ofertas solo a perfiles específicos."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=es" text="Uso de públicos"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="Uso de reglas de decisión"
+>title="Restringir los perfiles aptos"
+>abstract="Puede restringir la selección de ofertas para esta estrategia de selección. De forma predeterminada, todos los perfiles son aptos, pero puede utilizar audiencias o reglas para limitar la selección de ofertas solo a perfiles específicos."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Usar audiencias"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="Usar reglas de decisión"
 
 Una estrategia de selección es reutilizable y consiste en una colección asociada con una restricción de elegibilidad y un método de clasificación para determinar las ofertas que se mostrarán cuando se seleccionen en una [política decisión](create-decision.md).
 
@@ -81,14 +81,14 @@ Para crear una estrategia de selección, siga los pasos a continuación.
 
    * Si desea utilizar una puntuación calculada específica para elegir qué oferta apta para enviar, seleccione [Fórmula](#ranking-formula) o [modelo de IA](#ai-ranking).
 
-1. Haga clic en **[!UICONTROL Crear]**. Ahora está listo para utilizarse en un [política decisión](create-decision.md)
+1. Clic **[!UICONTROL Crear]**. Ahora está listo para utilizarse en un [política decisión](create-decision.md)
 
 ## Seleccione un método de clasificación {#select-ranking-method}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_ranking"
 >title="Definición de cómo clasificar ofertas"
->abstract="Si se pueden seleccionar varias ofertas para una estrategia de selección determinada, elija el método que seleccionará la mejor oferta para cada perfil a la hora de crear una estrategia de selección: fórmula de prioridad o clasificación."
+>abstract="Si se pueden seleccionar varias ofertas para una estrategia de selección determinada, elija el método que seleccionará la mejor oferta para cada perfil al crear una estrategia de selección: fórmula de prioridad o clasificación."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="Creación de políticas de decisión"
 
 Si se pueden seleccionar varias ofertas para una estrategia de selección determinada, se puede elegir el método que seleccione la mejor oferta para cada perfil al crear una estrategia de selección. Puede clasificar ofertas por:

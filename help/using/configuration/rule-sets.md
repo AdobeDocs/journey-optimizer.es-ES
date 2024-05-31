@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Trabajo con conjuntos de reglas
+title: Trabajar con conjuntos de reglas
 description: Obtenga información sobre cómo crear y aplicar conjuntos de reglas
 feature: Rules
 topic: Content Management
@@ -15,11 +15,11 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
 workflow-type: tm+mt
 source-wordcount: '1593'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Trabajo con conjuntos de reglas {#rule-sets}
+# Trabajar con conjuntos de reglas {#rule-sets}
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
