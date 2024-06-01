@@ -9,7 +9,7 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: correo electrónico, configuración, superficie, subdominios
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
+source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 100%
@@ -29,6 +29,7 @@ Para poder enviar correos electrónicos a través de recorridos y campañas en [
    ![](../configuration/assets/ip-pool-create.png)
 
 1. Cree superficies de canal y seleccione el canal **[!UICONTROL Correo electrónico]**. [Más información](../configuration/channel-surfaces.md)
+
 
    ![](../configuration/assets/preset-general.png)
 
