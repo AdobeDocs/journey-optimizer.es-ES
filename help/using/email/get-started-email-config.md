@@ -9,7 +9,7 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: correo electrónico, configuración, superficie, subdominios
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 100%
@@ -37,7 +37,7 @@ Para poder enviar correos electrónicos a través de recorridos y campañas en [
 
    * Aquí es donde se selecciona el subdominio que se utilizará para enviar los correos electrónicos y los grupos de IP que se asociarán con la superficie. [Más información](email-settings.md#subdomains-and-ip-pools)
 
-   ![](assets/surface-subdomain-ip-pool.png)
+   ![](assets/preset-subdomain-ip-pool.png)
 
    * Las direcciones **[!UICONTROL Correo electrónico del remitente]** y **[!UICONTROL Correo electrónico de error]** deben utilizar el subdominio delegado seleccionado actualmente. [Más información](email-settings.md#email-header)
 
