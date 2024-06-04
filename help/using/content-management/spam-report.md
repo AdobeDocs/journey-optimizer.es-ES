@@ -9,7 +9,7 @@ exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
 source-git-commit: 5f69b252f5812f43b3d0a6fed0aac074ece0d10f
 workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ Puede comprobar la puntuación de correo no deseado del contenido del correo ele
 
 >[!AVAILABILITY]
 >
->Actualmente, esta funcionalidad está en versión beta y solo está disponible para los clientes de la versión beta. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.
+>Actualmente, esta función está en versión beta y solo se encuentra disponible para los clientes de dicha versión. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 Al editar o previsualizar el contenido del correo electrónico, la variable **[!UICONTROL Informe de spam]** proporciona una puntuación y consejos para mejorar las puntuaciones de cada elemento individual de la lista.
 
