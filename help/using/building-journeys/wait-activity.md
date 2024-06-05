@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: espera, actividad, recorrido, siguiente, lienzo
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 505a418819b7a8ac9883d78a4f3d05a78cf5aa31
+source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 6%
+source-wordcount: '545'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,9 @@ ht-degree: 6%
 >title="Actividad de espera"
 >abstract="Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar una actividad Wait. Permite definir el momento en que se ejecutará la siguiente actividad. Hay dos opciones disponibles: duración y personalizado."
 
-Puede usar un **[!UICONTROL Esperar]** actividad para definir una duración antes de ejecutar la siguiente actividad. Las opciones disponibles son las siguientes:
+Puede usar un **[!UICONTROL Esperar]** actividad para definir una duración antes de ejecutar la siguiente actividad.  La duración máxima de espera es **29 días**.
+
+Están disponibles los siguientes tipos:
 
 * [Duración](#duration)
 * [Personalizado](#custom)
@@ -33,19 +35,26 @@ Puede usar un **[!UICONTROL Esperar]** actividad para definir una duración ante
 * [Fixed date](#fixed_date) 
 -->
 
-## Acerca de la actividad Espera {#about_wait}
+## Recomendaciones  {#wait-recommendations}
 
-La duración máxima de la espera es de 29 días. En el modo de prueba, la variable **[!UICONTROL Tiempo de espera en la prueba]** permite definir el tiempo que durará cada actividad de espera. El tiempo predeterminado es 10 segundos. Esto garantizará que obtenga los resultados de la prueba rápidamente. Obtenga más información en [esta página](../building-journeys/testing-the-journey.md).
+### Varias actividades de espera {#multiple-wait-activities}
 
-Tenga cuidado al utilizar varios **Esperar** actividades en un recorrido, ya que el tiempo de espera de recorrido global es de 30 días, lo que significa que un perfil siempre abandonará el recorrido máximo 30 días después de introducirlo. Obtenga más información en [esta página](../building-journeys/journey-gs.md#global_timeout).
+Cuando se usan varios **Esperar** en las actividades de un recorrido, tenga en cuenta que el tiempo de espera de recorrido global es de 30 días, lo que significa que los perfiles siempre abandonan el máximo de recorrido 30 días después de que hayan entrado en él. Obtenga más información en [esta página](../building-journeys/journey-gs.md#global_timeout).
 
 Un individuo puede introducir una **Esperar** actividad solo si le queda tiempo suficiente en el recorrido recorrido para completar la espera antes del tiempo de espera de 30 días. Por ejemplo, si agrega dos **Esperar** actividades configuradas en 20 días cada una, el sistema detecta que la segunda **Esperar** la actividad finalizará después del tiempo de espera de 30 días. El segundo **Esperar** por lo tanto, la actividad se ignorará y la persona abandonará el recorrido antes de iniciarla. En ese ejemplo, el cliente permanecerá 20 días en total en el recorrido.
 
+### Espera y vuelve a entrar {#wait-re-entrance}
+
 Una práctica recomendada que no debe utilizar **Esperar** actividades para bloquear la reentrada. En su lugar, utilice el **Permitir la reentrada** en el nivel de propiedades del recorrido. Obtenga más información en [esta página](../building-journeys/journey-gs.md#entrance).
+
+### Modo de espera y prueba {#wait-test-modd}
+
+En el modo de prueba, la variable **[!UICONTROL Tiempo de espera en la prueba]** permite definir la hora a la que cada **Esperar** la actividad durará. El tiempo predeterminado es 10 segundos. Esto garantizará que obtenga los resultados de la prueba rápidamente. Obtenga más información en [esta página](../building-journeys/testing-the-journey.md).
+
 
 ## Duración de espera {#duration}
 
-Seleccione la duración de la espera antes de la ejecución de la siguiente actividad. La duración máxima es de 29 días.
+Seleccione el **Duración** escriba para establecer la duración de la espera antes de la ejecución de la siguiente actividad. La duración máxima es **29 días**.
 
 ![Definición de la duración de espera](assets/journey55.png)
 
@@ -60,7 +69,7 @@ Select the date for the execution of the next activity.
 
 ## Espera personalizada {#custom}
 
-Utilice el **Personalizado** escriba para definir una fecha personalizada, utilizando una expresión avanzada basada en un campo proveniente de un evento o una respuesta de acción personalizada. No puede definir una duración relativa directamente, por ejemplo, 7 días, pero puede utilizar funciones para calcularla si es necesario (p. ej.: 2 días después de la compra).
+Seleccione el **Personalizado** escriba para definir una fecha personalizada, utilizando una expresión avanzada basada en un campo proveniente de un evento o una respuesta de acción personalizada. No puede definir una duración relativa directamente, por ejemplo, 7 días, pero puede utilizar funciones para calcularla si es necesario (p. ej.: 2 días después de la compra).
 
 ![Definir una espera personalizada con una expresión](assets/journey57.png)
 
