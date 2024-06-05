@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: d4a91dcd032af03504ab7bbf97b2e19338c32397
+source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 100%
+source-wordcount: '894'
+ht-degree: 70%
 
 ---
 
@@ -37,7 +37,7 @@ Los beneficios incluyen:
 
 >[!NOTE]
 >
->Si es un usuario de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target="_blank"} que aprovecha el servicio de aplicaciones de **Offer Decisioning**, también se le aplican todas las funciones de Gestión de decisiones que se describen en esta sección.
+>Si es un [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target="_blank"} usuario que aprovecha **Offer decisioning** , también se le aplican todas las funciones de Gestión de decisiones descritas en esta sección.
 
 ## Acerca de las ofertas y las decisiones {#about-offers-and-decisions}
 
@@ -79,19 +79,19 @@ Los permisos específicos de Gestión de decisiones se enumeran en [esta secció
 
 A continuación, se muestra la lista de los conceptos principales con los que trabajará al utilizar la gestión de decisiones.
 
-* **Límite** o **Restricción de frecuencia**: el límite se utiliza como restricción para definir cuántas veces se presenta una oferta. Existen dos tipos de límite: la cantidad de veces que se puede proponer una oferta en el público de destinatario combinada, también conocida como &quot;Límites totales&quot; y la cantidad de veces que se puede proponer una oferta al mismo usuario final, también conocida como &quot;Límite de perfil&quot;.
+* **Límite** o **Límite de frecuencia**: el límite se utiliza como restricción para definir cuántas veces se presenta una oferta. Existen dos tipos de límite: la cantidad de veces que se puede proponer una oferta en la audiencia de destinatario combinada, también conocida como &quot;Límites totales&quot; y la cantidad de veces que se puede proponer una oferta al mismo usuario final, también conocida como &quot;Límite de perfil&quot;.
 
-* **Colecciones**: las colecciones son subconjuntos de ofertas basados en condiciones predefinidas definidas por un experto en marketing, como la categoría de la oferta.
+* **Colecciones**: las colecciones son subconjuntos de ofertas basados en condiciones predefinidas definidas definidas por un experto en marketing, como la categoría de la oferta.
 
 * **Decisión**: una decisión contiene la lógica que indica la selección de una oferta.
 
-* **Regla de decisión**: las reglas de decisión son restricciones agregadas a una oferta personalizada y aplicadas a un perfil para determinar la elegibilidad.
+* **Regla de decisión**: Las reglas de decisión son restricciones agregadas a una oferta personalizada y aplicadas a un perfil para determinar la elegibilidad.
 
-* **Oferta elegible**: una oferta elegible cumple con las restricciones definidas por adelantado que pueden ofrecerse de forma coherente a un perfil.
+* **Oferta elegible**: Una oferta elegible cumple con las restricciones definidas por adelantado que pueden ofrecerse de forma coherente a un perfil.
 
 * **Gestión de decisiones**: Permite crear y ofrecer experiencias de oferta personalizadas para el usuario final en varios canales y aplicaciones mediante la lógica empresarial y las reglas de decisión.
 
-* **Ofertas de reserva**: una oferta de reserva es la oferta predeterminada que se muestra cuando un usuario final no cumple los requisitos para ninguna de las ofertas personalizadas de la colección.
+* **Ofertas de reserva**: Una oferta de reserva es la oferta predeterminada que se muestra cuando un usuario final no cumple los requisitos para ninguna de las ofertas personalizadas de la colección.
 
 * **Oferta**: una oferta es un mensaje de marketing que puede tener reglas asociadas que especifican quién puede ver la oferta.
 
@@ -103,7 +103,7 @@ A continuación, se muestra la lista de los conceptos principales con los que tr
 
 * **Prioridad**: la prioridad se utiliza para clasificar ofertas que cumplen todas las restricciones, como elegibilidad, calendario y límite.
 
-* **Representaciones**: una representación es la información que usa un canal, como la ubicación o el idioma para mostrar una oferta.
+* **Representaciones**: una representación es información utilizada por un canal, como la ubicación o el idioma para mostrar una oferta.
 
 ## Vídeotutoriales{#video}
 
