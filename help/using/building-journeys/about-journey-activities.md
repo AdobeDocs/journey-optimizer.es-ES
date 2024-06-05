@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: recorridos, actividades, introducción, eventos, acción
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 14%
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ Combine las distintas actividades de evento, orquestación y acción para crear 
 
 ## Actividades de eventos {#event-activities}
 
-Los eventos son el déclencheur de un recorrido personalizado, como una compra en línea. Una vez que alguien entra en un recorrido, se mueve como un individuo, y no dos individuos se mueven a la misma velocidad o a lo largo del mismo camino. Cuando se inicia el recorrido con un evento, el recorrido se activa cuando se recibe el evento. Cada persona del recorrido sigue, individualmente, los siguientes pasos definidos en el recorrido.
+Los recorridos personalizados se activan mediante eventos, como una compra en línea. Una vez que un perfil entra en un recorrido, se mueve como un individuo y no hay dos individuos que se muevan a la misma velocidad o por el mismo camino. Cuando se inicia el recorrido con un evento, el recorrido se activa cuando se recibe el evento. Cada persona del recorrido sigue, individualmente, los siguientes pasos definidos en el recorrido.
 
 Eventos configurados por el usuario técnico (consulte [esta página](../event/about-events.md)) se muestran todos en la primera categoría de la paleta, en el lado izquierdo de la pantalla. Las siguientes actividades de eventos están disponibles:
 
