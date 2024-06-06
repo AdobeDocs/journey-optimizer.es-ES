@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 100%
+source-wordcount: '660'
+ht-degree: 98%
 
 ---
 
@@ -61,9 +61,9 @@ Comprenda la arquitectura básica de [!DNL Adobe Journey Optimizer], los puntos 
 > También debe tener en cuenta los [mecanismos de protección para los datos del perfil del cliente en tiempo real antes de comenzar](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es).
 
 
-**Consulte también**
-
-* [Pasos clave para comenzar](quick-start.md)
-* [Diseño de recorridos y envío de mensajes](../building-journeys/journey-gs.md)
-* [Informes en directo](../reports/live-report.md)
-* [Información general sobre la seguridad de Journey Optimizer](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)
+>[!MORELIKETHIS]
+>
+>* [Pasos clave para el inicio](quick-start.md)
+>* [Diseño de recorridos y envío de mensajes](../building-journeys/journey-gs.md)
+>* [Informes en vivo](../reports/live-report.md)
+>* [Información general sobre la seguridad de Journey Optimizer](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)

@@ -8,9 +8,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '804'
 ht-degree: 100%
 
 ---
@@ -103,7 +103,7 @@ Aprenda a utilizar la interfaz de usuario de conjuntos de datos en la [Documenta
 
 [Aquí](../data/datasets-query-examples.md) dispone de una lista de casos de uso con ejemplos de consulta.
 
-**Consulte también**
-
-* [Información general sobre la ingesta de flujo continuo](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es){target="_blank"}
-* [Introducción de datos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=es){target="_blank"}
+>[!MORELIKETHIS]
+>
+>* [Información general sobre la ingesta de flujo continuo](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es){target="_blank"}
+>* [Introducción de datos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=es){target="_blank"}
