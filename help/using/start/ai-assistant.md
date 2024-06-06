@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 02a3ed25c7047ce709271a386d9ab4c2e976e42f
+source-git-commit: f64cf166d5fa732ae0353414b5638c97d43099a1
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -30,14 +30,18 @@ Para acceder al asistente de IA, haga clic en el icono de la barra superior. El 
 
 En Adobe Journey Optimizer, tiene acceso a los siguientes casos de uso:
 
-* Conocimiento del producto (disponibilidad general) Las preguntas de conocimiento del producto tratan sobre conceptos de Adobe relacionados con aspectos de Adobe Journey Optimizer. Algunos ejemplos de preguntas sobre el conocimiento del producto son:
+* **Conocimiento del producto** (Disponibilidad general)
+
+  Las preguntas sobre conocimientos del producto tratan sobre conceptos de Adobe relacionados con aspectos de Adobe Journey Optimizer. Algunos ejemplos de preguntas sobre el conocimiento del producto son:
 
    * ¿Cuántas actividades en directo puedo tener en una zona protegida de Adobe Journey Optimizer?
    * ¿Cómo configuro una campaña en Adobe Journey Optimizer?
    * ¿Cómo se crea una acción personalizada para usarla en Adobe Journey Optimizer recorrido?
 
 
-* Perspectivas operativas en recorrido (Beta) Las preguntas de perspectiva operativa se refieren a los objetos de recorrido de la zona protegida de su organización. Algunos ejemplos de preguntas o mensajes de perspectiva operativa son los siguientes:
+* **Perspectivas operativas** en recorridos (Beta)
+
+  Las preguntas de perspectiva operativa se refieren a los objetos de recorrido de la zona protegida de su organización. Algunos ejemplos de preguntas o mensajes de perspectiva operativa son los siguientes:
 
    * ¿Cuántos recorridos en directo tengo en Adobe Journey Optimizer?
    * Dame una lista de todos los recorridos programados
@@ -50,11 +54,11 @@ En Adobe Journey Optimizer, tiene acceso a los siguientes casos de uso:
 
 Para hacer una pregunta, introdúzcala en el campo situado en la parte inferior de la pantalla y pulse Intro.
 
-![](assets/do-not-localize/ai-assistant-ask.png){width="300" align="left"}
+![](assets/do-not-localize/ai-assistant-ask.png){width="50%" align="left"}
 
 Compruebe la respuesta y utilice el **Mostrar orígenes** para obtener vínculos directos a la documentación del producto y más información.
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="300" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="left"}
 
 Utilice el pulgar hacia arriba o hacia abajo para valorar la respuesta.
 
