@@ -7,20 +7,20 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
+source-git-commit: 82c58753b0beb1c6c60b4e1a8188725b3cb83390
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 8%
+source-wordcount: '420'
+ht-degree: 0%
 
 ---
 
-# Crear una superficie de SMS/MMS {#message-preset-sms}
+# Crear una superficie SMS/MMS {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
->title="Definir la categoría de mensaje"
->abstract="Seleccione el tipo de mensajes de texto con esta superficie: Marketing para mensajes promocionales, que requieren el consentimiento del usuario, o Transaccional para mensajes SMS no comerciales, como el restablecimiento de contraseña."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=es#sms-opt-out-management" text="Exclusión en mensajes de texto de marketing"
+>title="Definición de la categoría del mensaje"
+>abstract="Seleccione el tipo de mensajes de texto que utiliza esta superficie: Marketing para mensajes promocionales, que requieren el consentimiento del usuario, o Transaccional para mensajes no comerciales, como el restablecimiento de contraseña."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="Exclusión en mensajes de texto de marketing"
 
 Una vez configurado el canal SMS/MMS, debe crear una superficie de canal para poder enviar mensajes SMS y MMS desde **[!DNL Journey Optimizer]**.
 
@@ -67,12 +67,13 @@ Para crear una superficie de canal, siga estos pasos:
    >
    >Para poder seleccionar un subdominio, asegúrese de haber configurado previamente al menos un subdominio SMS/MMS. [Descubra cómo](sms-subdomains.md)
 
-1. Introduzca el **[!UICONTROL Número de exclusión]** que desee utilizar para esta superficie. Cuando los perfiles se excluyen de este número, aún puede enviarles mensajes de otros números que pueda estar utilizando para enviar mensajes de texto con [!DNL Journey Optimizer].
+<!--
+1. Enter the **[!UICONTROL Opt-out number]** you want to use for this surface. When profiles opt out from this number, you are still able to send them messages from other numbers you may be using to send out text messages with [!DNL Journey Optimizer].
 
-   >[!NOTE]
-   >
-   >Entrada [!DNL Journey Optimizer]Por lo tanto, la exclusión de mensajes de texto ya no se administra en el nivel de canal. Ahora es específico de un número.
-
+    >[!NOTE]
+    >
+    >In [!DNL Journey Optimizer], opt-out for text messages is no longer managed at the channel level. It is now specific to a number.
+-->
 1. Una vez configurados todos los parámetros, haga clic en **[!UICONTROL Enviar]** para confirmar. También se puede guardar la superficie de canal como inclinación y reanudar su configuración más adelante.
 
    ![](assets/sms-submit-surface.png)
