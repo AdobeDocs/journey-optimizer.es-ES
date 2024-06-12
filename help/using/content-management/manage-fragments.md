@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 4f238177485ccc5ab53b48488dd1f2084d34d684
+source-git-commit: 16c079bbb4c6847720716bcbaf1937d1c401aeae
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '536'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Nuevos estados de fragmentos"
->abstract="Desde **Borrador** y **Activo** Los estados se han introducido con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado Borrador, incluso si se utilizan en un recorrido o una campaña. Si realiza cualquier cambio en estos fragmentos, debe publicarlos para que estén &quot;activos&quot; y propagar los cambios a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla."
+>abstract="Desde **Borrador** y **Activo** Los estados se han introducido con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado Borrador, incluso si se utilizan en un recorrido o una campaña. Si realiza cualquier cambio en estos fragmentos, debe publicarlos para que estén &quot;activos&quot; y propagar los cambios a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. La publicación requiere un permiso de usuario."
 
 Para administrar los fragmentos, acceda a la lista de fragmentos desde el **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Fragmentos]** menú izquierdo.
 
