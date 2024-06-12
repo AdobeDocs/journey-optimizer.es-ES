@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: en la aplicación, mensaje, configuración, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
+source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 10%
+source-wordcount: '956'
+ht-degree: 9%
 
 ---
 
@@ -34,11 +34,11 @@ Para que los mensajes en la aplicación se entreguen correctamente, se debe defi
 
 * En el [Recopilación de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es){target="_blank"}, asegúrese de que tiene un conjunto de datos definido como en **[!UICONTROL Adobe Experience Platform]** servicio tiene Adobe Experience Platform Edge y **[!UICONTROL Adobe Journey Optimizer]** opción activada.
 
-  Esto garantiza que Adobe Experience Platform Edge gestione correctamente los eventos entrantes de Journey Optimizer. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=es){target="_blank"}
+  Esto garantiza que Adobe Experience Platform Edge gestione correctamente los eventos entrantes de Journey Optimizer. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
   ![](assets/inapp_config_6.png)
 
-* Entrada [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}, make sure you have the default merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+* Entrada [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}, asegúrese de que tiene la política de combinación predeterminada con **[!UICONTROL Política de combinación activa en Edge]** opción activada. Para ello, seleccione una política en **[!UICONTROL Cliente]** > **[!UICONTROL Perfiles]** > **[!UICONTROL Políticas de combinación]** menú Experience Platform. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   Esta política de combinación la utiliza [!DNL Journey Optimizer] canales entrantes para activar y publicar correctamente campañas entrantes en edge. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=es){target="_blank"}
 
@@ -47,6 +47,12 @@ Para que los mensajes en la aplicación se entreguen correctamente, se debe defi
   >Al utilizar un personalizado **[!UICONTROL Preferencia de conjunto de datos]** política de combinación, asegúrese de añadir la variable **[!UICONTROL Recorrido entrante]** conjunto de datos dentro de la política de combinación especificada.
 
   ![](assets/inapp_config_8.png)
+
+* Para solucionar los problemas de entrega de las experiencias móviles de Journey Optimizer, puede usar la variable **Entrega en Edge** ver en **Adobe Experience Platform Assurance**. Este complemento le permite inspeccionar en detalle las llamadas de solicitud, comprobar si las llamadas perimetrales esperadas se producen según lo previsto y examinar los datos de perfil, incluidos los mapas de identidad, las suscripciones a segmentos y la configuración de consentimiento. Además, puede revisar las actividades para las que la solicitud cumple los requisitos e identificar las que no.
+
+  Uso del **Entrega en Edge** Este complemento le ayuda a obtener la información necesaria para comprender y solucionar problemas de las implementaciones entrantes de forma eficaz.
+
+  [Más información sobre la Vista de entrega de Edge](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
 
 ## Requisitos previos de configuración de canal {#channel-prerequisites}
 
@@ -132,7 +138,7 @@ Aprenda a añadir conjuntos de datos para la creación de informes de experiment
 >
 >El conjunto de datos lo utiliza solo lectura el [!DNL Journey Optimizer] sistema de informes de y no afecta a la recopilación ni a la ingesta de datos.
 
-Si es usted **no** utilizando los siguientes elementos predefinidos [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), asegúrese de añadir los siguientes grupos de campos: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, y `Web Details`. Estas son necesarias para [!DNL Journey Optimizer] los informes de experimentos de contenido, ya que rastrean en qué experimentos y tratamientos participa cada perfil.
+Si es usted **no** utilizando los siguientes elementos predefinidos [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"} para el esquema del conjunto de datos: `AEP Web SDK ExperienceEvent` y `Consumer Experience Event` (tal como se define en [esta página](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), asegúrese de añadir los siguientes grupos de campos: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, y `Web Details`. Estas son necesarias para [!DNL Journey Optimizer] los informes de experimentos de contenido, ya que rastrean en qué experimentos y tratamientos participa cada perfil.
 
 >[!NOTE]
 >
