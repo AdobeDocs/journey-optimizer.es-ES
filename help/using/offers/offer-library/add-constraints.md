@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 260b9ec0a70526ac37da444e183fc1d01b97b22b
+source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
-source-wordcount: '2617'
-ht-degree: 15%
+source-wordcount: '2636'
+ht-degree: 3%
 
 ---
 
@@ -18,22 +18,22 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
 >title="Acerca de las restricciones de oferta"
->abstract="Con las restricciones, se puede especificar cómo se prioriza la oferta y cómo se presenta al usuario en comparación con otras ofertas."
+>abstract="Con las restricciones, se puede especificar cómo se prioriza y presenta la oferta al usuario en comparación con otras ofertas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_constraints"
 >title="Acerca de las restricciones de oferta"
->abstract="Con las restricciones, se puede especificar cómo se prioriza la oferta y cómo se presenta al usuario en comparación con otras ofertas."
+>abstract="Con las restricciones, se puede especificar cómo se prioriza y presenta la oferta al usuario en comparación con otras ofertas."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
->title="Acerca de la prioridad de las ofertas"
->abstract="En este campo, se puede especificar la configuración de prioridad de la oferta. La prioridad es un número que se utiliza para clasificar ofertas que cumplen todas las restricciones, como idoneidad, fechas y límite."
+>title="Acerca de la prioridad de oferta"
+>abstract="En este campo, se puede especificar la configuración de prioridad para la oferta. Prioridad es un número que se utiliza para clasificar ofertas que cumplen todas las restricciones, como elegibilidad, fechas y límite."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
 >title="Establecer prioridad"
->abstract="La prioridad ayuda a definir la prioridad de la oferta en comparación con otras si el usuario cumple los requisitos para más de una oferta. Cuanto mayor sea la prioridad de una oferta, mayor será su prioridad en comparación con otras ofertas."
+>abstract="La prioridad ayuda a definir la prioridad de la oferta en comparación con otras si el usuario cumple los requisitos para más de una oferta. Cuanto más alta sea la prioridad de una oferta, más alta será su prioridad en comparación con otras ofertas."
 
 Las restricciones permiten definir las condiciones en las que se mostrará una oferta.
 
@@ -41,7 +41,7 @@ Las restricciones permiten definir las condiciones en las que se mostrará una o
 
    ![](../assets/offer-eligibility.png)
 
-1. Defina el **[!UICONTROL Prioridad]** de la oferta comparada con otras si el usuario cumple los requisitos para más de una oferta. Cuanto mayor sea la prioridad de una oferta, mayor será su prioridad en comparación con otras ofertas.
+1. Defina el **[!UICONTROL Prioridad]** de la oferta comparada con otras si el usuario cumple los requisitos para más de una oferta. Cuanto más alta sea la prioridad de una oferta, más alta será su prioridad en comparación con otras ofertas.
 
    ![](../assets/offer-priority.png)
 
@@ -68,17 +68,17 @@ Por ejemplo, si establece las restricciones siguientes:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="Definir idoneidad"
->abstract="Por defecto, cualquier perfil podrá recibir la oferta, pero puede utilizar públicos o reglas de decisión para reservarla a perfiles específicos."
+>abstract="De forma predeterminada, cualquier perfil puede optar a la presentación de la oferta, pero se pueden utilizar audiencias o reglas de decisión para restringir la oferta a perfiles específicos."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
->title="Acerca de la idoneidad de la oferta"
->abstract="En esta sección, puede utilizar reglas de decisión para determinar qué usuarios podrán recibir la oferta."
+>title="Acerca de los requisitos de oferta"
+>abstract="En esta sección, puede utilizar reglas de decisión para determinar qué usuarios cumplen los requisitos para la oferta."
 >additional-url="https://video.tv.adobe.com/v/329373" text="Ver vídeo de demostración"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
->title="Estimación de perfiles totales"
+>title="Estimación total del perfil"
 >abstract="Al seleccionar públicos o reglas de decisión, puede ver información sobre los perfiles cualificados estimados."
 
 El **[!UICONTROL Idoneidad de oferta]** permite restringir la oferta a perfiles específicos que defina mediante audiencias o reglas de decisión.
@@ -141,26 +141,22 @@ Básicamente, el resultado de una audiencia es una lista de perfiles, mientras q
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
 >title="Usar límite"
->abstract="Para evitar un exceso de solicitudes a sus clientes, utilice la función de límite para definir el número máximo de veces que se puede presentar una oferta."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="Cambiar las fechas puede afectar al límite"
+>abstract="Para evitar saturar a sus clientes, utilice la restricción para definir el número máximo de veces que se puede presentar una oferta. Se pueden crear hasta 10 reglas de límite para una oferta determinada."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="Cambiar fechas puede afectar al límite"
 
-El límite se utiliza como restricción para definir el número máximo de veces que se puede presentar una oferta.
+El límite se utiliza como restricción para definir el número máximo de veces que se puede presentar una oferta. Limitar el número de veces que los usuarios obtienen ofertas específicas le permite evitar saturar a sus clientes y, por lo tanto, optimizar cada punto de contacto con la mejor oferta.
 
-Limitar el número de veces que los usuarios obtienen ofertas específicas le permite evitar saturar a sus clientes y, por lo tanto, optimizar cada punto de contacto con la mejor oferta.
+Se pueden añadir hasta 10 reglas de límite para una oferta determinada. Para definir una regla de límite, haga clic en **[!UICONTROL Crear límite]** a continuación, siga los pasos a continuación:
 
-Para definir el límite, siga los pasos principales a continuación.
-
-1. Asegúrese de que la **[!UICONTROL Habilitar límite]** el botón de alternancia está seleccionado. El límite está habilitado de forma predeterminada.
-
-   >[!CAUTION]
-   >
-   >No es posible habilitar o deshabilitar el límite de frecuencia para ofertas creadas anteriormente. Para ello, debe crear una nueva oferta.
+>[!CAUTION]
+>
+>No es posible habilitar o deshabilitar el límite de frecuencia para ofertas creadas anteriormente. Para ello, debe crear una nueva oferta.
 
 1. Definir qué **[!UICONTROL Evento de límite]** se tendrán en cuenta para aumentar el contador. [Más información](#capping-event)
 
-1. Defina el número de veces que se puede presentar la oferta. [Más información](#capping-count)
-
 1. Elija si desea que el límite se aplique a todos los usuarios o solo a un perfil. [Más información](#capping-type)
+
+1. Defina el número de veces que se puede presentar la oferta. [Más información](#capping-count)
 
 1. Configure las variables **[!UICONTROL Frecuencia]** para definir la frecuencia con la que se restablece el recuento límite. [Más información](#frequency-capping)
 
@@ -176,25 +172,25 @@ El número de veces que se propone una oferta se calcula en el momento de la pre
 >
 >Los contadores de límite se restablecerán cuando la oferta caduque o 2 años después de la fecha de inicio de la oferta, lo que ocurra primero. Obtenga información sobre cómo definir la fecha de una oferta en [esta sección](creating-personalized-offers.md#create-offer).
 
-### Evento de límite {#capping-event}
+### Evento límite {#capping-event}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping_impression"
 >title="Impresión"
 >abstract="El uso de impresiones como eventos de límite solo está disponible para canales entrantes."
 
-El **[!UICONTROL Evento de límite]** Este campo permite definir qué evento se tendrá en cuenta para aumentar el contador:
+El **[!UICONTROL Elegir evento de límite]** Este campo permite definir qué evento se tendrá en cuenta para aumentar el contador:
 
 ![](../assets/offer-capping-event.png)
 
 * **[!UICONTROL Evento de decisión]** (valor predeterminado): Número máximo de veces que se puede presentar una oferta.
+* **[!UICONTROL Clics]**: Número máximo de veces que un usuario puede hacer clic en la oferta.
 * **[!UICONTROL Impresión]**: Número máximo de veces que la oferta se puede mostrar a un usuario.
 
   >[!NOTE]
   >
   >El uso de impresiones como eventos de límite está disponible para **canales entrantes** solo.
 
-* **[!UICONTROL Clics]**: Número máximo de veces que un usuario puede hacer clic en la oferta.
 * **[!UICONTROL Evento personalizado]**: Puede definir un evento personalizado que se utilizará para limitar el número de ofertas enviadas. Por ejemplo, puede limitar el número de canjes hasta que sean iguales a 10000 o hasta que un perfil determinado se haya canjeado 1 vez. Para ello, utilice [ADOBE EXPERIENCE PLATFORM XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"} esquemas para crear una regla de evento personalizada.
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
@@ -202,8 +198,6 @@ El **[!UICONTROL Evento de límite]** Este campo permite definir qué evento se 
   En el siguiente ejemplo, desea limitar el número de cierres de compra.
 
    1. Seleccionar **[!UICONTROL Evento personalizado]** de la lista y utilice el **[!UICONTROL Añadir evento personalizado]** botón.
-
-      ![](../assets/offer-capping-custom-event-add.png)
 
    1. Utilice el **[!UICONTROL Creación de reglas de eventos personalizadas]** para seleccionar el evento correspondiente. Puede elegir cualquier acción del usuario sobre la que desee limitar las ofertas.
 
@@ -221,21 +215,9 @@ El **[!UICONTROL Evento de límite]** Este campo permite definir qué evento se 
 >
 >Para asegurarse de que se rastrea y contabiliza cada evento de límite en el contador de límite, asegúrese de que el esquema utilizado para recopilar eventos de experiencia incluya el grupo de campos correcto para ese evento. [Más información](../data-collection/schema-requirement.md)
 
-### Recuento de límite {#capping-count}
-
-El **[!UICONTROL Límite de recuento límite]** Este campo permite especificar la cantidad de veces que se puede presentar la oferta.
-
-![](../assets/offer-capping-times.png)
-
->[!NOTE]
->
->El número debe ser un número entero mayor que 0.
-
-Por ejemplo, ha definido un evento de límite personalizado como, por ejemplo, el número de cierres de compra que se tiene en cuenta. Si introduce 10 en la variable **[!UICONTROL Límite de recuento límite]** , no se enviarán más ofertas después de 10 cierres de compra.
-
 ### Tipo de límite {#capping-type}
 
-También puede especificar si desea que el límite se aplique a todos los usuarios o a un perfil específico:
+Puede especificar si desea que el límite se aplique a todos los usuarios o a un perfil específico:
 
 ![](../assets/offer-capping-total.png)
 
@@ -247,14 +229,26 @@ También puede especificar si desea que el límite se aplique a todos los usuari
 
   Por ejemplo, si es un banco con una oferta de &quot;tarjeta de crédito Platinum&quot;, no desea que esta oferta se muestre más de 5 veces por perfil. De hecho, cree que si el usuario ha visto la oferta 5 veces y no ha actuado en consecuencia, tiene una mayor oportunidad de actuar en la siguiente mejor oferta.
 
+### Recuento límite {#capping-count}
+
+El **[!UICONTROL Límite de recuento límite]** Este campo permite especificar la cantidad de veces que se puede presentar la oferta.
+
+![](../assets/offer-capping-times.png)
+
+>[!NOTE]
+>
+>El número debe ser un número entero mayor que 0.
+
+Por ejemplo, ha definido un evento de límite personalizado como, por ejemplo, el número de cierres de compra que se tiene en cuenta. Si introduce 10 en la variable **[!UICONTROL Límite de recuento límite]** , no se enviarán más ofertas después de 10 cierres de compra.
+
 ### Restricción de frecuencia {#frequency-capping}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
->title="Definir la frecuencia de límite"
->abstract="Puede elegir restablecer el contador de límite de ofertas de forma diaria, semanal o mensual. Tenga en cuenta que después de publicar la oferta con la restricción de frecuencia habilitada, no podrá cambiar la frecuencia que ha sido definida."
+>title="Definición de la frecuencia de límite"
+>abstract="Puede elegir restablecer el contador de límite de oferta diariamente, semanalmente o mensualmente. Tenga en cuenta que después de publicar la oferta con la restricción de frecuencia habilitada, no podrá cambiar la frecuencia definida."
 
-El **[!UICONTROL Frecuencia]** permite definir la frecuencia con la que se restablece el recuento de límite. Para ello, defina el periodo de tiempo para el recuento (diario, semanal o mensual) e introduzca el número de días/semanas/meses de su elección. Por ejemplo, si desea que el recuento de límite se restablezca cada 2 semanas, seleccione **[!UICONTROL Semanalmente]** en la lista desplegable correspondiente y escriba **2** en el otro campo.
+El **[!UICONTROL Restablecer frecuencia de límite]** permite definir la frecuencia con la que se restablece el recuento de límite. Para ello, defina el periodo de tiempo para el recuento (diario, semanal o mensual) e introduzca el número de días/semanas/meses de su elección. Por ejemplo, si desea que el recuento de límite se restablezca cada 2 semanas, seleccione **[!UICONTROL Semanalmente]** en la lista desplegable correspondiente y escriba **2** en el otro campo.
 
 ![](../assets/offer-capping-frequency.png)
 
@@ -297,8 +291,8 @@ Si ha definido varios [representaciones](add-representations.md) para la oferta,
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="Cambiar las fechas puede afectar al límite"
->abstract="Si se aplica un límite a esta oferta, este se puede ver afectado al cambiar la fecha de inicio o de finalización."
+>title="Cambiar fechas puede afectar al límite"
+>abstract="Si se aplica un límite a esta oferta, este puede verse afectado al cambiar la fecha de inicio o finalización."
 
 Debe proceder con cuidado al cambiar la fecha de una oferta, ya que esto puede tener un impacto en el límite si se cumplen las siguientes condiciones:
 
