@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 88%
 
 ## Actualizaciones de junio de 2024
 
-* Ahora puede trabajar con el Adobe Experience Platform AI Assistant en Adobe Journey Optimizer. [Más información](../start/ai-assistant.md)
+* Ahora puede trabajar con el Asistente de IA de Adobe Experience Platform en Adobe Journey Optimizer. [Más información](../start/ai-assistant.md)
 
 * **Compatibilidad con varias reglas en Administración de decisiones** : Ahora puede añadir hasta 10 reglas de límite para una oferta determinada en Gestión de decisiones. Esto le permite aumentar el nivel de control sobre la forma en que se envían las ofertas. [Más información](../offers/offer-library/add-constraints.md#capping)
 
@@ -68,8 +68,8 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede definir subdominios dinámicos y parámetros de encabezado personalizados al crear superficies de canal de correo electrónico para aumentar la flexibilidad y el control sobre la configuración del correo electrónico.</p>
-<p>Actualmente, la personalización de la superficie de correo electrónico solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<p>Ahora puede definir subdominios dinámicos y parámetros de encabezado personalizados al crear superficies de canal de correo electrónico para disponer de mayor flexibilidad y control sobre la configuración del correo electrónico.</p>
+<p>Actualmente, la personalización de la superficie del correo electrónico solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 <p>Para obtener más información, consulte la <a href="../email/surface-personalization.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -157,7 +157,7 @@ Desde la versión beta hasta esta, se han añadido las siguientes mejoras:
 
   >[!AVAILABILITY]
   >
-  >Actualmente, esta función está en versión beta y solo se encuentra disponible para los clientes de dicha versión. Para unirse al programa beta, póngase en contacto con el representante del Adobe.
+  >Actualmente, esta función está en versión beta y solo se encuentra disponible para los clientes de dicha versión. Para unirse al programa beta, póngase en contacto con su representante de Adobe.
 
 <!--
 **Audiences**
