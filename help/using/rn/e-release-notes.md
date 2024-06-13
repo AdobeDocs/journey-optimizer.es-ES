@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c6daa2aef557943374a3eff005eda34dad214a5d
+source-git-commit: 553743d6d041cd719eb3c8bf7f02288595d8c2a5
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 23%
+source-wordcount: '640'
+ht-degree: 24%
 
 ---
 
@@ -169,6 +169,9 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 * El tiempo de espera global de recorrido ha aumentado de 30 a 91 días.
 * Adobe Journey Optimizer ahora admite solicitudes de eliminación/acceso de privacidad.
 * Ahora puede cambiar el tamaño de las columnas en el inventario de recorridos.
+* **Editor de expresiones avanzadas en Configuración de eventos** is now GA: ahora puede aprovechar el editor de expresiones avanzadas al configurar un evento, lo que le permite definir expresiones más complejas o utilizar funciones en la condición de ID de evento. Esta función se lanza con disponibilidad limitada para determinados clientes. [Más información](../event/about-creating.md)
+* **Políticas de combinación** son ahora GA: las políticas de combinación utilizadas por un Recorrido ahora son visibles y coherentes en todo el recorrido. Esta función se lanza con disponibilidad limitada para determinados clientes. [Más información](../building-journeys/journey-gs.md#merge-policies)
+
 
 
 **Campañas**
@@ -183,7 +186,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 **Canal de SMS**
 
 * Ahora puede añadir códigos cortos únicos para cada zona protegida con una sola configuración de API, lo que hace que el proceso sea más eficiente y optimizado.
-* Ahora puede modificar las configuraciones de SMS existentes.
+  <!--* You can now modify existing SMS configurations.-->
 
 **Canal en la aplicación**
 
