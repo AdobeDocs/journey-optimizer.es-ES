@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1086'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -73,9 +73,9 @@ Con la funcionalidad de la **experiencia basada en código** puede definir las e
 
 ¿Cuándo utilizar el canal basado en código en lugar de otros canales de [!DNL Journey Optimizer]?
 
-* Puede considerar la posibilidad de utilizar experiencias basadas en código en cualquier momento en el que no se acceda a su propiedad digital a través de un explorador web o una aplicación móvil, casos en los que probablemente pueda utilizar mejor el [!DNL Journey Optimizer] [canal web](../web/get-started-web.md){target="_blank"} o el [!DNL Journey Optimizer] [mensajería en la aplicación](../in-app/get-started-in-app.md){target="_blank"} canal.
+* Puede considerar la posibilidad de utilizar experiencias basadas en código siempre que no haya accedido a su propiedad digital a través de un explorador web o una aplicación móvil, casos en los que probablemente puede interesarle más utilizar el [canal web](../web/get-started-web.md){target="_blank"} de [!DNL Journey Optimizer] o el canal de [mensajería en la aplicación](../in-app/get-started-in-app.md){target="_blank"} de [!DNL Journey Optimizer].
 
-* Puede utilizar el canal basado en código como alternativa al [!DNL Journey Optimizer] canal web si el sitio web no se puede cargar en [diseñador web](../web/edit-web-content.md#work-with-web-designer){target="_blank"} editor visual o si no puede utilizar el [extensión del explorador](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} que potencia la creación visual para el canal web.
+* Puede utilizar el canal basado en código como alternativa al canal web de [!DNL Journey Optimizer] si no puede cargar su sitio web en el editor visual del [diseñador web](../web/edit-web-content.md#work-with-web-designer){target="_blank"} o si no puede usar la [extensión del explorador](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} que hace posible la creación visual para el canal web.
 
 * También puede utilizar el canal basado en código como alternativa a los canales web o de la aplicación de [!DNL Journey Optimizer] en caso de que tenga una implementación basada en API, sin encabezado o del lado del servidor.
 
@@ -85,13 +85,13 @@ Para ejecutar casos de uso web, puede utilizar el canal web o la experiencia bas
 
 **Web**
 * Edite el contenido utilizando el editor visual del [diseñador web](../web/edit-web-content.md#work-with-web-designer){target="_blank"}.
-* Necesita el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"} implementación y el [Ayuda de edición visual de Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extensión instalada en el explorador web. [Más información](../web/web-prerequisites.md){target="_blank"}
+* Necesita la implementación de [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"} y la extensión [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} instalada en el explorador web. [Más información](../web/web-prerequisites.md){target="_blank"}
 * El canal web permite modificar todo lo que hay en la página y tiene una lista predefinida de acciones que puede utilizar para realizar cambios. [Más información](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
 * Es fácil de configurar y poner en marcha rápidamente.
 * Se centra en el experto en marketing.
 
 **Experiencia basada en código**
-* Edite el contenido con la variable [editor de personalización](create-code-based.md#edit-code).
+* Edite el contenido utilizando el [editor de personalización](create-code-based.md#edit-code).
 * La experiencia basada en código requiere un trabajo de desarrollo previo en la implementación para garantizar que las superficies puedan interpretar y entregar el contenido publicado en el perímetro por [!DNL Journey Optimizer] para estas superficies. [Más información](#surface-definition)
 * Requiere más planificación y solo puede cambiar las cosas que especifican los desarrolladores. Por lo tanto, es esencial identificar los componentes (titular de inicio, imagen principal, barra de menús, etc.) en las superficies que deben modificarse para la personalización o la prueba, y trabajar con su equipo de desarrollo para crear la implementación necesaria para gestionar estos cambios.
 * Le permite utilizar contenido con código JSON.
@@ -113,7 +113,7 @@ Los pasos clave para implementar una campaña basada en código se explican a co
 
 1. Defina una [superficie](#surface-definition), que es básicamente la ubicación en la que desea añadir la experiencia basada en código y cree una campaña en [!DNL Journey Optimizer] utilizando esta superficie. [Descubra cómo](create-code-based.md#create-code-based-campaign)
 
-1. Componga una experiencia especificando contenido para la superficie seleccionada utilizando [!DNL Journey Optimizer] editor de personalización. [Descubra cómo](create-code-based.md#edit-code)
+1. Componga una experiencia especificando contenido para la superficie seleccionada mediante el editor de personalización de [!DNL Journey Optimizer]. [Descubra cómo](create-code-based.md#edit-code)
 
 1. El equipo de implementación de la aplicación realiza llamadas explícitas a la API o SDK para recuperar el contenido de las superficies con nombre, como “Texto del titular” o “Bandeja de recomendaciones 1”, o los puntos de decisión no relacionados con la interfaz de usuario en una aplicación, como, por ejemplo, los “parámetros de algoritmo de búsqueda”. En este caso, el equipo de implementación es responsable de procesar o interpretar de otra manera y actuar sobre el contenido devuelto.<!--TBC with Robert - should link to a new section with API/SDK call samples-->
 

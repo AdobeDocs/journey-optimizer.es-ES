@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5355'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,16 +21,16 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 ## Junio de 2024 {#june-2024}
 
-* La página sobre cómo configurar un **Esperar** se ha reorganizado y mejorado la actividad en un recorrido. [Más información](../building-journeys/wait-activity.md)
+* La página sobre cómo configurar una actividad **Espera** en un recorrido se ha reorganizado y mejorado. [Más información](../building-journeys/wait-activity.md)
 
 ## Mayo de 2024 {#may-2024}
 
-* Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de mayo de 2024 se ha detallado en la documentación. [Más información](release-notes.md)
+* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de mayo de 2024 se detallan en la documentación. [Más información](release-notes.md)
 * La sección sobre listas semilla se ha actualizado en relación con los recorridos recurrentes. [Más información](../configuration/seed-lists.md#use-seed-list)
 * Se ha actualizado la sección sobre fuentes de datos externas. [Más información](../datasource/external-data-sources.md#custom-authentication-access-token)
 * El tiempo de espera del recorrido global de 30 días se ha añadido a la página Mecanismo de protección y límite. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
 * La sección sobre la integración de Adobe Campaign v7/v8 se ha actualizado con información sobre el aprovisionamiento. [Más información](../action/acc-action.md#access)
-* El nombre del editor de expresiones utilizado para personalizar el contenido se ha cambiado en la documentación a &quot;editor de personalización&quot; para diferenciarlo claramente del editor de expresiones [editor de expresiones de recorrido](../building-journeys/expression/expressionadvanced.md). [Más información](../personalization/personalization-build-expressions.md)
+* El nombre del editor de expresiones utilizado para personalizar el contenido se ha cambiado en la documentación a “editor de personalización” para diferenciarlo claramente del [editor de expresiones de recorrido](../building-journeys/expression/expressionadvanced.md). [Más información](../personalization/personalization-build-expressions.md)
 
 ## Abril de 2024 {#april-2024}
 
@@ -69,7 +69,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * Se ha añadido información sobre cómo personalizar las representaciones de las ofertas en función de los datos de contexto. [Más información](../offers/offer-library/add-representations.md#context-data)
 * La página de protecciones se ha actualizado con una nota sobre acciones personalizadas que solo admiten el formato JSON cuando se utilizan cargas útiles de solicitud o respuesta. [Más información](../start/guardrails.md#custom-actions-g)
 * Se ha añadido información adicional acerca del tipo de autenticación básica en fuentes de datos externas. [Más información](../datasource/external-data-sources.md)
-* Se ha añadido una nota para diferenciar claramente la variable [editor de expresiones de recorrido](../building-journeys/expression/expressionadvanced.md) desde el [editor de personalización](../personalization/functions/functions.md).
+* Se ha añadido una nota para diferenciar claramente el [editor de expresiones de recorrido](../building-journeys/expression/expressionadvanced.md) del [editor de personalización](../personalization/functions/functions.md).
 * Se ha actualizado la lista de funciones disponibles en el editor de expresiones avanzadas. [Más información](../building-journeys/expression/functions.md)
 * Se ha actualizado la página de la función Split. [Más información](../building-journeys/functions/functioninaudience.md)
 * Se ha añadido información sobre el impacto de la inclusión o la exclusión de notificaciones push en los mensajes en la aplicación. [Más información](../in-app/create-in-app.md)
@@ -395,7 +395,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 * Se ha mejorado la página **Inicio rápido** con pasos para diferentes personalidades. [Más información](../start/quick-start.md)
 
-* Ahora, todas las funciones de Gestión de decisiones descritas en la sección dedicada, también se aplican a los usuarios de Adobe Experience Platform que aprovechan la aplicación de Offer decisioning. [Más información](../offers/get-started/starting-offer-decisioning.md)
+* Ahora, todas las funciones de gestión de decisiones descritas en la sección dedicada también se aplican a los usuarios de Adobe Experience Platform que aprovechan la aplicación Offer Decisioning. [Más información](../offers/get-started/starting-offer-decisioning.md)
 
 * PúblicoSe ha añadido una subsección para aclarar las diferencias entre el uso de público y de reglas de decisión al aplicar una restricción para limitar la selección de ofertas en una ubicación determinada. [Más información](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
