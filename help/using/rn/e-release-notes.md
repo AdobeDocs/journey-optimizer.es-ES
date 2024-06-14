@@ -6,10 +6,10 @@ description: Notas de la primera versión de Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: cf4437dd9018466aea9b03b0decab76abb696952
+source-git-commit: f34e7e246339371be8c19c54b9fff921177f5ace
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 25%
+source-wordcount: '454'
+ht-degree: 22%
 
 ---
 
@@ -167,7 +167,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 * El tiempo de espera global de recorrido ha aumentado de 30 a 91 días.
 * Adobe Journey Optimizer ahora admite solicitudes de eliminación/acceso de privacidad, así como solicitudes de administración del ciclo de vida de datos.
 * Ahora puede cambiar el tamaño de las columnas en el inventario de recorridos.
-* **Editor de expresiones avanzadas en Configuración de eventos** is now GA: ahora puede aprovechar el editor de expresiones avanzadas al configurar un evento, lo que le permite definir expresiones más complejas o utilizar funciones en la condición de ID de evento. Esta función se lanza con disponibilidad limitada para determinados clientes. [Más información](../event/about-creating.md)
+* **Editor de expresiones avanzadas en Configuración de eventos** is now GA: ahora puede aprovechar el editor de expresiones avanzadas al configurar un evento, lo que le permite definir expresiones más complejas o utilizar funciones en la condición de ID de evento. Esta capacidad se lanza con disponibilidad limitada para clientes seleccionados. <!--[Read more](../event/about-creating.md)-->
 * **Políticas de combinación** son ahora GA: las políticas de combinación utilizadas por un Recorrido ahora son visibles y coherentes en todo el recorrido. Esta capacidad se lanza con disponibilidad limitada para clientes seleccionados. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
@@ -188,7 +188,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Canal en la aplicación**
 
-* **Fragmento de expresión** - Los fragmentos de expresiones ya están disponibles para **Canal en la aplicación**. [Más información](../personalization/use-expression-fragments.md)
+* **Fragmento de expresión** - Los fragmentos de expresiones ya están disponibles para **Canal en la aplicación**. <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 
 * Ahora puede utilizar el complemento Edge Delivery para obtener la información necesaria para comprender y solucionar problemas de las implementaciones entrantes.
