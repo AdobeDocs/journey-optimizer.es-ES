@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 11cae07d061b67136f50201e89c0e349e919620d
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 2%
+source-wordcount: '1057'
+ht-degree: 3%
 
 ---
 
@@ -106,7 +106,6 @@ Para empezar a crear la campaña web, siga los pasos a continuación.
    * Encabezado: el uso de este componente es similar al uso de la variable **[!UICONTROL Texto]** en el diseñador de correo electrónico. [Más información](../email/content-components.md#text)
    * Párrafo: El uso de este componente es similar al uso del **[!UICONTROL Texto]** en el diseñador de correo electrónico. [Más información](../email/content-components.md#text)
    * Vínculo
-   * [Decisión de oferta](../email/add-offers-email.md)
 
    ![](assets/web-designer-components.png)
 
@@ -126,15 +125,11 @@ Para empezar a crear la campaña web, siga los pasos a continuación.
 
    ![](assets/web-designer-header-style.png)
 
-## Añadir personalización y ofertas
+## Adición de personalización
 
 Para añadir personalización, seleccione un contenedor y seleccione el icono de personalización de la barra de menús contextual que se muestra. Añada los cambios con el editor de personalización. [Más información](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
-
-Utilice el **[!UICONTROL Decisión de oferta]** componente a insertar [ofertas](../offers/get-started/starting-offer-decisioning.md) en sus páginas web. El proceso es el mismo que cuando [adición de una oferta a un correo electrónico](../email/add-offers-email.md). Aprovechará Administración de decisiones para elegir la mejor oferta que se ofrezca a sus clientes.
-
-![](assets/web-designer-offer.png)
 
 ## Navegar por el diseñador web {#navigate-web-designer}
 
