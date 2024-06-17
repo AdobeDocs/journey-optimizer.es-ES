@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 68c09769a32aeb1132f09e0f9082c7ccb6d17a8b
+source-git-commit: 0e5d1e7a7520579b1fae7898f67cb10ee3915e1c
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 71%
@@ -33,7 +33,7 @@ ht-degree: 71%
 
 **Fecha de lanzamiento**: 18 y 19 de junio de 2024
 
-### Nuevas funciones {#june24-features}
+### Nuevas funciones {#june-24-features}
 
 Esta versión incorpora las nuevas funciones que se indican a continuación.
 
@@ -114,6 +114,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <tr>
 <td>
 <p>You can now effortlessly create content in multiple languages within a single campaign or journey. With this feature, you can switch between languages when editing your campaign or your journey, streamlining the entire editing process and improving your capability to efficiently manage multilingual content.</p>
+<p>Multilingual content is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
@@ -130,6 +131,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <tr>
 <td>
 <p>Already available in campaigns, Adobe Journey Optimizer now supports experiments in journeys. Experiments are randomized trials, which in the context of online testing, means that you expose some randomly selected users to a given variation of a message, and another randomly selected set of users to some other variation or treatment. After exposure, you can then measure the outcome metrics you are interested in, such as opens of emails, subscriptions, or purchases.</p>
+<p>Experimentation in journeys is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
@@ -174,7 +176,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Recorridos**
 
-* El tiempo de espera global de recorrido ha aumentado de 30 a 91 días.
+* El tiempo de espera global de recorrido ha aumentado de 30 a 90 días.
 * Adobe Journey Optimizer ahora admite solicitudes de eliminación/acceso de privacidad, así como solicitudes de administración del ciclo de vida de datos.
 * Ahora puede cambiar el tamaño de las columnas en el inventario de recorridos.
 * **Editor de expresiones avanzadas en Configuración de eventos** is now GA: ahora puede aprovechar el editor de expresiones avanzadas al configurar un evento, lo que le permite definir expresiones más complejas o utilizar funciones en la condición de ID de evento. Esta capacidad se lanza con disponibilidad limitada para clientes seleccionados. <!--[Read more](../event/about-creating.md)-->
