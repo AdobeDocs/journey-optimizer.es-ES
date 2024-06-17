@@ -269,7 +269,7 @@ Cada dominio ahora se muestra en una columna diferente en la misma fila.
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="Especificación del plan de calentamiento de IP"
->abstract="Rellene la plantilla de Excel con todos los datos que alimentan el plan, como las fases de calentamiento de IP y el número de destino de los perfiles, y cárguela aquí."
+>abstract="Rellene la plantilla de Excel con todos los datos que alimentan el plan, como las fases de calentamiento de IP y el número objetivo de perfiles, y cárguela aquí."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=es#prepare-file" text="Preparación del archivo de plan de calentamiento de IP"
 
 >[!CONTEXTUALHELP]

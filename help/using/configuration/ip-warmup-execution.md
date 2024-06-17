@@ -15,7 +15,7 @@ exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 666af4bbc3731f16ce1d5c11ceb7e704996f5a68
 workflow-type: tm+mt
 source-wordcount: '2513'
-ht-degree: 1%
+ht-degree: 12%
 
 ---
 
@@ -40,14 +40,14 @@ Cada fase está compuesta por varias ejecuciones, a las que se asigna una sola c
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
->title="Excluir audiencias de campaña"
->abstract="Seleccione campañas para excluir sus audiencias de la fase actual. Esto sirve para evitar que los perfiles contactados anteriormente desde otras fases u otros planes de calentamiento de IP vuelvan a segmentarse."
+>title="Excluir públicos de campañas"
+>abstract="Seleccione campañas para excluir sus públicos de la fase actual. Esto sirve para evitar que los perfiles contactados anteriormente desde otras fases u otros planes de calentamiento de IP vuelvan a segmentarse."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="Excluir grupos de dominio"
->abstract="Seleccione los dominios que desea excluir de la fase actual. La exclusión de dominios requiere una fase no ejecutada, por lo que es posible que tenga que dividir una fase en ejecución para agregar exclusiones."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="Dividir una fase"
+>abstract="Seleccione los dominios que desea excluir de la fase actual. La exclusión de dominios requiere una fase no ejecutada, por lo que es posible que tenga que dividir una fase en ejecución para añadir exclusiones."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=es#split-phase" text="Dividir una fase"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
@@ -151,22 +151,22 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_last_engagement"
 >title="Filtrar por participación"
->abstract="Esta columna es un filtro que se dirige únicamente a los usuarios comprometidos con su marca en los últimos 20 días, por ejemplo. También puede cambiar esta configuración a través del **Editar ejecución** opción."
+>abstract="Esta columna es un filtro que se dirige únicamente a los usuarios comprometidos con su marca en los últimos 20 días, por ejemplo. También puede cambiar esta configuración a través de la opción **Editar ejecución**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_retry"
->title="Establecer una ventana de tiempo"
->abstract="Puede definir un período de tiempo durante el cual se puede ejecutar la campaña de calentamiento de IP en caso de que haya algún retraso en el trabajo de segmentación."
+>title="Establecer un periodo de tiempo"
+>abstract="Puede definir un periodo de tiempo durante el cual se puede ejecutar la campaña de calentamiento de IP en caso de que haya algún retraso en el trabajo de segmentación."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_pause"
->title="Cancelar ejecuciones con errores de audiencia"
->abstract="Seleccione esta opción para cancelar una ejecución si los perfiles cualificados son inferiores a los perfiles de destino una vez que la audiencia haya sido evaluada para esa ejecución."
+>title="Cancelar ejecuciones con errores de público"
+>abstract="Seleccione esta opción para cancelar una ejecución si los perfiles cualificados son inferiores a los perfiles de destino una vez que el público haya sido evaluado para esa ejecución."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
 >title="Ver los perfiles cualificados"
->abstract="Esta columna muestra el número de perfiles cualificados. Una vez que la audiencia ha sido evaluada para una ejecución, si hay más perfiles objetivo que perfiles cualificados, la ejecución se sigue ejecutando, a menos que el **Cancelar las ejecuciones activadas en caso de errores** La opción está activada. En este caso, la ejecución se cancela."
+>abstract="Esta columna muestra el número de perfiles cualificados. Una vez que el público ha sido evaluado para una ejecución, si hay más perfiles objetivo que perfiles cualificados, la ejecución se sigue ejecutando, a menos que la opción **Cancelar ejecuciones activadas en caso de errores** esté habilitada. En este caso, la ejecución se cancela."
 
 1. Seleccione una programación para cada ejecución para asegurarse de que se ejecuta a la hora especificada.
 
