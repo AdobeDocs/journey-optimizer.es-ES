@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 354c05746b6aa45356969fab9af6ffdcee6b9e66
+source-git-commit: d2e53b85638a7ca5defcbe67aff6e19bc029f9a0
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 71%
+source-wordcount: '1321'
+ht-degree: 62%
 
 ---
 
@@ -166,13 +166,17 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
-<!--**Content fragments**
+**Fragmentos de contenido**
 
-* Fragments can now be edited, and changes can be propagated across all live journeys and campaigns where they are used.
-* New statuses for content fragments have been introduced: **Draft**, **Live**, **Publishing**, and **Archived**. 
-* To use a fragment in a journey or campaign, it must now be in the **Live** status. A new step has been added to the fragment creation process, allowing the fragment to be published and made available for use in journeys and campaigns. Note that fragment publishing requires a new permission.
-   
-   **CAUTION** - Since **Draft** and **Live** statuses have been introduced with Journey Optimizer June release, all fragments created before this release have the **Draft** status, even if they are used in a journey or campaign. Learn how to update your existing fragments in this section.-->
+>[!AVAILABILITY]
+>
+>Tenga en cuenta que estas mejoras se implementarán gradualmente durante varios días después de la publicación inicial. Aunque algunos usuarios tendrán acceso inmediato, otros pueden experimentar un retraso antes de que esté disponible en sus entornos.
+
+* Ahora, los fragmentos se pueden editar y los cambios se pueden propagar a todos los recorridos activos y campañas en las que se utilicen.
+* Se han introducido nuevos estados para los fragmentos de contenido: **Borrador**, **Activo**, **Publicación**, y **Archivado**.
+* Para utilizar un fragmento en un recorrido o campaña, ahora debe estar en **Activo** estado. Se ha añadido un nuevo paso al proceso de creación de fragmentos, que permite publicar el fragmento y ponerlo a disposición para utilizarlo en recorridos y campañas. Tenga en cuenta que la publicación de fragmentos requiere un nuevo permiso.
+
+  **PRECAUCIÓN** - Desde **Borrador** y **Activo** Los estados se han incorporado con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el siguiente estado: **Borrador** estado, incluso si se utilizan en un recorrido o una campaña. Obtenga información sobre cómo actualizar los fragmentos existentes en esta sección.
 
 **Recorridos**
 
