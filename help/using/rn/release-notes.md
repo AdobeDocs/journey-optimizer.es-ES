@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d2e53b85638a7ca5defcbe67aff6e19bc029f9a0
 workflow-type: tm+mt
 source-wordcount: '1321'
-ht-degree: 62%
+ht-degree: 93%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 62%
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Regístrese para la [Newsletter trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoy y reciba las últimas actualizaciones de productos, artículos interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.
 
 
-## Notas de la versión anteriores de junio de 2024 {#24-6-2024}
+## Notas de la versión preliminar de junio de 2024 {#24-6-2024}
 
 **Las notas de la versión anteriores siguientes están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento**.
 
@@ -40,13 +40,13 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <table>
 <thead>
 <tr>
-<th><strong>Flujo de trabajo de preparación IP</strong><br/></th>
+<th><strong>Flujo de trabajo de calentamiento de IP</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Si envía correos electrónicos en una dirección IP completamente nueva, ahora puede realizar fácilmente flujos de trabajo de calentamiento de IP directamente desde la interfaz de usuario. Adobe Journey Optimizer ofrece una forma estandarizada y eficaz de calentar las direcciones IP que sigue las prácticas recomendadas para lograr una entrega óptima.</p>
+<p>Si envía un correo electrónico a una dirección de IP completamente nueva, ahora puede ejecutar fácilmente los flujos de trabajo de calentamiento de IP directamente desde la interfaz de usuario. Adobe Journey Optimizer ofrece una forma estandarizada y eficaz de añadir las direcciones IP que siguen las prácticas recomendadas para lograr una entrega óptima.</p>
 <!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -74,13 +74,13 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <table>
 <thead>
 <tr>
-<th><strong>Asistente de IA en Adobe Journey Optimizer</strong><br/></th>
+<th><strong>Asistente de IA de Adobe Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>El asistente de IA es una función de la interfaz de usuario que puede utilizar para navegar, comprender los conceptos del Adobe y obtener perspectivas operativas para su entorno específico. Está disponible en varios productos de Adobe Experience Cloud, incluido Adobe Journey Optimizer.</p>
+<p>El asistente de IA es una función de la interfaz de usuario que se puede utilizar para navegar, comprender los conceptos de Adobe y obtener perspectivas operativas de su entorno específico. Está disponible en varios productos de Adobe Experience Cloud, incluido Adobe Journey Optimizer.</p>
 <p>Para obtener más información, consulte la <a href="../start/ai-assistant.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -162,7 +162,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Gestión de decisiones**
 
-* **Compatibilidad con varias reglas en Administración de decisiones** : Ahora puede añadir hasta 10 reglas de límite para una oferta determinada en Gestión de decisiones. Esto le permite aumentar el nivel de control sobre la forma en que se envían las ofertas. [Más información](../offers/offer-library/add-constraints.md#capping)
+* **Compatibilidad con varias reglas de gestión de decisiones**: ahora puede añadir hasta 10 reglas límite para una oferta determinada de Gestión de decisiones. Esto le permite aumentar el nivel de control sobre la forma en que se envían las ofertas. [Más información](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
@@ -173,18 +173,18 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 >Tenga en cuenta que estas mejoras se implementarán gradualmente durante varios días después de la publicación inicial. Aunque algunos usuarios tendrán acceso inmediato, otros pueden experimentar un retraso antes de que esté disponible en sus entornos.
 
 * Ahora, los fragmentos se pueden editar y los cambios se pueden propagar a todos los recorridos activos y campañas en las que se utilicen.
-* Se han introducido nuevos estados para los fragmentos de contenido: **Borrador**, **Activo**, **Publicación**, y **Archivado**.
-* Para utilizar un fragmento en un recorrido o campaña, ahora debe estar en **Activo** estado. Se ha añadido un nuevo paso al proceso de creación de fragmentos, que permite publicar el fragmento y ponerlo a disposición para utilizarlo en recorridos y campañas. Tenga en cuenta que la publicación de fragmentos requiere un nuevo permiso.
+* Se han introducido nuevos estados para los fragmentos de contenido: **Borrador**, **Activo**, **Publicación** y **Archivado**.
+* Para utilizar un fragmento de un recorrido o una campaña, ahora debe tener el estado **Activo**. Se ha añadido un nuevo paso al proceso de creación de fragmentos, que permite publicar el fragmento y se puede utilizar en recorridos y campañas. Tenga en cuenta que la publicación de fragmentos requiere un nuevo permiso.
 
-  **PRECAUCIÓN** - Desde **Borrador** y **Activo** Los estados se han incorporado con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el siguiente estado: **Borrador** estado, incluso si se utilizan en un recorrido o una campaña. Obtenga información sobre cómo actualizar los fragmentos existentes en esta sección.
+  **PRECAUCIÓN**: puesto que los estados **Borrador** y **Activo** se han incorporado con la versión de junio de Journey Optimizer, el estado de todos los fragmentos creados antes de esta versión es **Borrador**, incluso si se utilizan en un recorrido o una campaña. Aprenda actualizar sus fragmentos existentes en esta sección.
 
 **Recorridos**
 
-* El tiempo de espera global de recorrido ha aumentado de 30 a 90 días.
+* El tiempo de espera global del recorrido ha aumentado de 30 a 90 días.
 * Adobe Journey Optimizer ahora admite solicitudes de eliminación/acceso de privacidad, así como solicitudes de administración del ciclo de vida de datos.
 * Ahora puede cambiar el tamaño de las columnas en el inventario de recorridos.
-* **Editor de expresiones avanzadas en Configuración de eventos** is now GA: ahora puede aprovechar el editor de expresiones avanzadas al configurar un evento, lo que le permite definir expresiones más complejas o utilizar funciones en la condición de ID de evento. Esta capacidad se lanza con disponibilidad limitada para clientes seleccionados. <!--[Read more](../event/about-creating.md)-->
-* **Políticas de combinación** son ahora GA: las políticas de combinación utilizadas por un Recorrido ahora son visibles y coherentes en todo el recorrido. Esta capacidad se lanza con disponibilidad limitada para clientes seleccionados. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
+* El **editor de expresiones avanzadas de la configuración de eventos** es de disponibilidad general (GA): ahora puede aprovechar el editor de expresiones avanzadas mientras configura un evento, lo que le permite definir expresiones más complejas o utilizar funciones en la condición de ID de evento. Esta capacidad se lanza con disponibilidad limitada para clientes seleccionados. <!--[Read more](../event/about-creating.md)-->
+* Las **políticas de combinación** ahora son de disponibilidad general (GA): las políticas de combinación que Journey utiliza ahora son visibles y homogéneas en todo el recorrido. Esta capacidad se lanza con disponibilidad limitada para clientes seleccionados. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
 

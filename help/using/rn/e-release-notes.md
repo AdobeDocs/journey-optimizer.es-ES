@@ -7,10 +7,11 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 topic: Content Management
-source-git-commit: 68c09769a32aeb1132f09e0f9082c7ccb6d17a8b
+exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
+source-git-commit: fdfdafbecf938c300a866bdf95a8ac6492fbdcb8
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 27%
+ht-degree: 92%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 27%
 
 **Las notas de la versión preliminar están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento**. Los vínculos, las pantallas y la documentación actualizada se publican en las [notas de la versión](release-notes.md) y en la fecha.
 
-## Notas de la versión anteriores de junio de 2024 {#e-2024}
+## Notas de la versión preliminar de junio de 2024 {#e-2024}
 
 **Fecha de lanzamiento**: 18 y 19 de junio de 2024
 
@@ -31,13 +32,13 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <table>
 <thead>
 <tr>
-<th><strong>Flujo de trabajo de preparación IP</strong><br/></th>
+<th><strong>Flujo de trabajo de calentamiento de IP</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Si envía correos electrónicos en una dirección IP completamente nueva, ahora puede realizar fácilmente flujos de trabajo de calentamiento de IP directamente desde la interfaz de usuario. Adobe Journey Optimizer ofrece una forma estandarizada y eficaz de calentar las direcciones IP que sigue las prácticas recomendadas para lograr una entrega óptima.</p>
+<p>Si envía un correo electrónico a una dirección de IP completamente nueva, ahora puede ejecutar fácilmente los flujos de trabajo de calentamiento de IP directamente desde la interfaz de usuario. Adobe Journey Optimizer ofrece una forma estandarizada y eficaz de añadir las direcciones IP que siguen las prácticas recomendadas para lograr una entrega óptima.</p>
 <!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -65,13 +66,13 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <table>
 <thead>
 <tr>
-<th><strong>Asistente de IA en Adobe Journey Optimizer</strong><br/></th>
+<th><strong>Asistente de IA de Adobe Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>El asistente de IA es una función de la interfaz de usuario que puede utilizar para navegar, comprender los conceptos del Adobe y obtener perspectivas operativas para su entorno específico. Está disponible en varios productos de Adobe Experience Cloud, incluido Adobe Journey Optimizer.</p>
+<p>El asistente de IA es una función de la interfaz de usuario que se puede utilizar para navegar, comprender los conceptos de Adobe y obtener perspectivas operativas de su entorno específico. Está disponible en varios productos de Adobe Experience Cloud, incluido Adobe Journey Optimizer.</p>
 <p>Para obtener más información, consulte la <a href="../start/ai-assistant.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -151,7 +152,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Gestión de decisiones**
 
-* **Compatibilidad con varias reglas en Administración de decisiones** : Ahora puede añadir hasta 10 reglas de límite para una oferta determinada en Gestión de decisiones. Esto le permite aumentar el nivel de control sobre la forma en que se envían las ofertas. [Más información](../offers/offer-library/add-constraints.md#capping)
+* **Compatibilidad con varias reglas de gestión de decisiones**: ahora puede añadir hasta 10 reglas límite para una oferta determinada de Gestión de decisiones. Esto le permite aumentar el nivel de control sobre la forma en que se envían las ofertas. [Más información](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
@@ -165,11 +166,11 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Recorridos**
 
-* El tiempo de espera global de recorrido ha aumentado de 30 a 91 días.
+* El tiempo de espera global del recorrido ha aumentado de 30 a 91 días.
 * Adobe Journey Optimizer ahora admite solicitudes de eliminación/acceso de privacidad, así como solicitudes de administración del ciclo de vida de datos.
 * Ahora puede cambiar el tamaño de las columnas en el inventario de recorridos.
-* **Editor de expresiones avanzadas en Configuración de eventos** is now GA: ahora puede aprovechar el editor de expresiones avanzadas al configurar un evento, lo que le permite definir expresiones más complejas o utilizar funciones en la condición de ID de evento. Esta capacidad se lanza con disponibilidad limitada para clientes seleccionados. <!--[Read more](../event/about-creating.md)-->
-* **Políticas de combinación** son ahora GA: las políticas de combinación utilizadas por un Recorrido ahora son visibles y coherentes en todo el recorrido. Esta capacidad se lanza con disponibilidad limitada para clientes seleccionados. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
+* El **editor de expresiones avanzadas de la configuración de eventos** es de disponibilidad general (GA): ahora puede aprovechar el editor de expresiones avanzadas mientras configura un evento, lo que le permite definir expresiones más complejas o utilizar funciones en la condición de ID de evento. Esta capacidad se lanza con disponibilidad limitada para clientes seleccionados. <!--[Read more](../event/about-creating.md)-->
+* Las **políticas de combinación** ahora son de disponibilidad general (GA): las políticas de combinación que Journey utiliza ahora son visibles y homogéneas en todo el recorrido. Esta capacidad se lanza con disponibilidad limitada para clientes seleccionados. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
 
@@ -193,5 +194,3 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 
 * Ahora puede utilizar el complemento Edge Delivery para obtener la información necesaria para comprender y solucionar problemas de las implementaciones entrantes.
-
-
