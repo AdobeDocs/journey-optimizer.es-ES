@@ -7,75 +7,99 @@ feature: Fragments
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
+exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
+source-git-commit: c843ca5bda10aa5f3ee8a676630d78c5ec092b14
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 1%
+source-wordcount: '709'
+ht-degree: 13%
 
 ---
 
-
-# Crear un fragmento desde cero {#create-fragments}
+# Crear un fragmento {#create-fragments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_visual_fragment"
->title="Seleccionar el tipo visual"
+>title="Selección del tipo visual"
 >abstract="Cree un fragmento visual independiente para que el contenido se pueda reutilizar en un correo electrónico dentro de un recorrido, una campaña o una plantilla de contenido."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="Añadir fragmentos visuales a los correos electrónicos"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=es" text="Añadir fragmentos visuales a los correos electrónicos"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
->title="Seleccione el tipo de expresión"
+>title="Selección del tipo de expresión"
 >abstract="Cree un fragmento de expresión independiente para que el contenido se pueda reutilizar en varios recorridos y campañas. Al utilizar el editor de personalización, puede aprovechar todos los fragmentos de expresiones que se han creado en la zona protegida actual."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Aprovechamiento de fragmentos de expresiones"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html?lang=es" text="Aprovechamiento de fragmentos de expresiones"
 
-Los fragmentos se crean a partir de **[!UICONTROL Fragmentos]** menú izquierdo. Además, también puede guardar una parte del contenido existente como fragmento al diseñar contenido. [Descubra cómo](#save-as-fragment)
+Los fragmentos se pueden crear desde cero desde el **[!UICONTROL Fragmentos]** menú izquierdo. Además, también puede guardar una parte del contenido existente como fragmento al diseñar contenido. [Descubra cómo](#save-as-fragment)
 
-Una vez guardado, el fragmento está disponible para utilizarlo en un recorrido, una campaña o una plantilla. Ahora puede utilizar este fragmento al crear contenido dentro de [!DNL Journey Optimizer]. Consulte [Añadir fragmentos visuales](../email/use-visual-fragments.md) y [Aprovechamiento de fragmentos de expresiones](../personalization/use-expression-fragments.md)
+Una vez guardado, el fragmento está disponible para utilizarlo en un recorrido, una campaña o una plantilla. Puede utilizar este fragmento al crear contenido dentro de recorridos y campañas. Consulte [Añadir fragmentos visuales](../email/use-visual-fragments.md) y [Aprovechamiento de fragmentos de expresiones](../personalization/use-expression-fragments.md)
 
-Para crear un fragmento desde cero, siga los pasos a continuación.
+Para crear un fragmento, siga los pasos a continuación.
 
-1. [Acceso a la lista de fragmentos](#access-manage-fragments) a través de **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Fragmentos]** menú izquierdo.
+## Definir las propiedades del fragmento {#properties}
 
-1. Seleccionar **[!UICONTROL Crear fragmento]**.
+1. Acceda a la lista de fragmentos a través de **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Fragmentos]** menú izquierdo.
 
-1. Complete los detalles del fragmento, es decir, el nombre y la descripción (si es necesario).
+1. Seleccionar **[!UICONTROL Crear fragmento]** y rellene el nombre y la descripción del fragmento (si es necesario).
 
    ![](assets/fragment-details.png)
 
-1. Seleccione o cree etiquetas de Adobe Experience Platform en **[!UICONTROL Etiquetas]** para categorizar el fragmento y mejorar la búsqueda. [Más información](../start/search-filter-categorize.md#tags)
+1. Seleccione o cree etiquetas de Adobe Experience Platform en **[!UICONTROL Etiquetas]** para categorizar el fragmento y mejorar la búsqueda. [Aprenda a trabajar con etiquetas unificadas](../start/search-filter-categorize.md#tags)
 
-1. Seleccione el tipo de fragmento: [Fragmento visual](#create-visual-fragment) o [Fragmento de expresión](#create-expression-fragment).
+1. Seleccione el tipo de fragmento: **Fragmento visual** o **Fragmento de expresión**. [Más información sobre los fragmentos visuales y de expresión](../content-management/fragments.md#visual-expression)
 
    >[!NOTE]
    >
-   >Actualmente solo para fragmentos visuales la variable **Correo electrónico** El canal es compatible.
+   >Por ahora, los fragmentos visuales están disponibles para **Correo electrónico** solo canal.
 
 1. Si está creando un fragmento de expresión, seleccione el tipo de código que desea utilizar: **[!UICONTROL HTML]**, **[!UICONTROL JSON]** o **[!UICONTROL Texto]**.
 
    ![](assets/fragment-expression-type.png)
 
-1. Para asignar etiquetas de uso de datos personalizadas o principales al fragmento, seleccione **[!UICONTROL Administrar acceso]**. [Obtenga más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
+1. Para asignar etiquetas de uso de datos personalizadas o principales al fragmento, haga clic en **[!UICONTROL Administrar acceso]** en la sección superior de la pantalla. [Obtenga más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
 
-1. Haga clic en **[!UICONTROL Crear]**.
+1. Clic **[!UICONTROL Crear]** para diseñar el contenido del fragmento.
 
-1. El [Diseñador de correo electrónico](../email/get-started-email-design.md) o se abrirá el editor de personalización, en función del tipo de fragmento que esté creando.
+## Diseño del contenido del fragmento {#content}
 
-   * Para los fragmentos visuales, edite el contenido según sea necesario, del mismo modo que lo haría para cualquier correo electrónico dentro de un recorrido o una campaña.
+Después de configurar las propiedades del fragmento, se abre el Diseñador de correo electrónico o el editor de personalización en función del tipo de fragmento que esté creando.
 
-     >[!NOTE]
-     >
-     >Puede añadir campos de personalización y contenido dinámico, pero los atributos contextuales no son compatibles con los fragmentos.
+* Para los fragmentos visuales, edite el contenido según sea necesario, del mismo modo que lo haría para cualquier correo electrónico dentro de un recorrido o una campaña. [Más información](../email/get-started-email-design.md)
 
-     ![](assets/fragment-designer.png)
+  ![](assets/fragment-designer.png)
 
-   * Para fragmentos de expresiones, aproveche la variable [!DNL Journey Optimizer] editor de personalización con todas sus funcionalidades de personalización y creación para crear el contenido del fragmento. [Más información](../personalization/personalization-build-expressions.md)
+* Para fragmentos de expresiones, aproveche la variable [!DNL Journey Optimizer] editor de personalización con todas sus funcionalidades de personalización y creación para crear el contenido del fragmento. [Más información](../personalization/personalization-build-expressions.md)
 
-     ![](assets/fragment-expression-editor.png)
+  ![](assets/fragment-expression-editor.png)
 
-1. Cuando el fragmento esté listo, haga clic en **[!UICONTROL Guardar]**.
+Cuando el contenido esté listo, haga clic en **Guardar** botón. El fragmento se crea y se añade a la lista de fragmentos con la variable **Borrador** estado. Puede previsualizarlo y publicarlo para que esté disponible en recorridos y campañas.
 
-El fragmento se añade a [lista de fragmentos](#access-manage-fragments). Ahora está listo para utilizarse al crear cualquier contenido dentro de [!DNL Journey Optimizer] Diseñador de correo electrónico o editor de personalización.
+>[!NOTE]
+>
+>La publicación de fragmentos se está implementando gradualmente durante varios días después de la publicación de Journey Optimizer en junio. Aunque algunos usuarios tendrán acceso inmediato, otros pueden experimentar un retraso antes de que esté disponible en sus entornos. Si esta mejora aún no está disponible en su entorno, tenga en cuenta que la publicación de fragmentos no es necesaria para utilizar fragmentos en sus recorridos y campañas.
+
+## Previsualización y publicación del fragmento {#publish}
+
+>[!NOTE]
+>
+>Para publicar un fragmento, debe tener **Publicar fragmento** permiso relacionado. [Más información sobre los permisos](../administration/ootb-permissions.md)
+
+Si el fragmento está listo para su publicación, puede previsualizarlo y publicarlo para que esté disponible en sus recorridos y campañas. Para ello, siga estos pasos:
+
+1. Vuelva a la pantalla de creación de fragmentos después de diseñar su contenido o ábralo desde la lista de fragmentos.
+
+1. Una vista previa del fragmento está disponible en la **Etiquetas** , lo que permite comprobar su renderización. Si necesita realizar algún cambio, haga clic en **Editar** en la sección superior de la pantalla para abrir el Diseñador de correo electrónico o el editor de personalización en función del tipo de fragmento.
+
+   ![](assets/fragment-preview.png)
+
+1. Haga clic en **Publish** en la esquina superior derecha para publicar el fragmento.
+
+   Si el fragmento se está utilizando en un recorrido o campaña en directo, se abre un mensaje para informarle. Haga clic en **Ver más** para acceder a la lista de recorridos o campañas donde se hace referencia. [Aprenda a explorar referencias de un fragmento](../content-management/manage-fragments.md#explore-references)
+
+   Clic **Confirmar** para publicar el fragmento y actualizarlo en los recorridos o campañas en directo que lo estén utilizando.
+
+   ![](assets/fragment-publish.png){width="70%" align="center"}
+
+El fragmento ahora está **Activo** y está disponible al crear contenido dentro de la variable [!DNL Journey Optimizer] Diseñador de correo electrónico o editor de personalización:
 
 * [Aprenda a utilizar fragmentos visuales](../email/use-visual-fragments.md)
 * [Aprenda a utilizar fragmentos de expresiones](../personalization/use-expression-fragments.md)

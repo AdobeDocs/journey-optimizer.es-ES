@@ -8,70 +8,97 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 16c079bbb4c6847720716bcbaf1937d1c401aeae
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 2%
+source-wordcount: '968'
+ht-degree: 17%
 
 ---
 
 # Administrar fragmentos {#manage-fragments}
 
->[!CONTEXTUALHELP]
->id="ajo_fragment_statuses"
->title="Nuevos estados de fragmentos"
->abstract="Desde **Borrador** y **Activo** Los estados se han introducido con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado Borrador, incluso si se utilizan en un recorrido o una campaña. Si realiza cualquier cambio en estos fragmentos, debe publicarlos para que estén &quot;activos&quot; y propagar los cambios a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. La publicación requiere un permiso de usuario."
-
 Para administrar los fragmentos, acceda a la lista de fragmentos desde el **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Fragmentos]** menú izquierdo.
-
-![](assets/fragment-list.png)
 
 Todos los fragmentos creados en la zona protegida actual: o bien [desde el **[!UICONTROL Fragmentos]** menú](#create-fragments), ya sea con la variable [Guardar como fragmento](#save-as-fragment) opción - se muestran.
 
+![](assets/fragment-list-filters.png)
+
 Puede filtrar fragmentos según sus características:
 
-* Tipo: **[!UICONTROL Visual]** o **[!UICONTROL Expresión]**
-* Etiquetas
+* Estado (Borrador o Activo)
+* Tipo (visual o expresión)
 * Fecha de creación o modificación
+* Estado (archivado o no)
+* Etiquetas
 
-Puede elegir mostrar todos los fragmentos o solo los elementos que el usuario actual ha creado o modificado.
-
-También puede mostrar el **[!UICONTROL Archivado]** fragmentos. [Más información](#archive-fragments)
-
-![](assets/fragment-list-filters.png)
+También puede elegir mostrar todos los fragmentos o solo los elementos que el usuario actual ha creado o modificado.
 
 Desde el **[!UICONTROL Más acciones]** junto a cada fragmento, puede hacer lo siguiente:
 
 * Duplique un fragmento.
-
 * Utilice el **[!UICONTROL Explorar referencias]** para ver los recorridos, campañas o plantillas donde se utiliza. [Más información](#explore-references)
-
 * Archivar un fragmento. [Más información](#archive-fragments)
-
-* Edición del contenido de un fragmento [etiquetas](../start/search-filter-categorize.md#tags).
+* Edición de las etiquetas de un fragmento [Aprenda a trabajar con etiquetas unificadas](../start/search-filter-categorize.md#tags).
 
 ![](assets/fragment-list-more-actions.png)
+
+## Estados de los fragmentos
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragment_statuses"
+>title="Nuevos estados de fragmentos"
+>abstract="Al haberse introducido el **borrador** y los estados **activos** con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado “Borrador”, incluso si se utilizan en un recorrido o una campaña. Si realiza cualquier cambio en estos fragmentos, debe publicarlos para que estén “activos” y propagar los cambios a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. La publicación requiere un permiso de usuario."
+
+>[!AVAILABILITY]
+>
+> Tenga en cuenta que los estados de los fragmentos se están implementando gradualmente durante varios días después de la versión de junio de Journey Optimizer. Aunque algunos usuarios tendrán acceso inmediato, otros pueden experimentar un retraso antes de que esté disponible en sus entornos. Si esta mejora aún no está disponible en su entorno, tenga en cuenta que el fragmento no requiere que **Activo** para su uso en recorridos y campañas.
+
+Los fragmentos pueden tener varios estados:
+
+* **[!UICONTROL Borrador]**: el fragmento se está editando y no se ha aprobado.
+
+* **[!UICONTROL Activo]**: el fragmento se ha aprobado y está activo. [Obtenga información sobre cómo publicar un fragmento](../content-management/create-fragments.md#publish)
+
+  Cuando se edita un fragmento activo, aparece un icono específico junto a su estado. Haga clic en este icono para abrir la versión de borrador del fragmento.
+
+* **[!UICONTROL Publicación]**: el fragmento se ha aprobado y se está publicando.
+* **[!UICONTROL Archivado]**: se ha archivado el fragmento. [Obtenga información sobre cómo archivar fragmentos](#archive-fragments)
+
+>[!CAUTION]
+>
+>Al haberse introducido el **borrador** y los estados **activos** con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado “Borrador”, incluso si se utilizan en un recorrido o una campaña. Si realiza cualquier cambio en estos fragmentos, debe publicarlos para que estén “activos” y propagar los cambios a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. La publicación requiere un permiso de usuario.
 
 ## Editar fragmentos {#edit-fragments}
 
 Para editar un fragmento, siga los pasos a continuación.
 
-1. Haga clic en el elemento que desee en **[!UICONTROL Fragmentos]** lista.
-1. En las propiedades del fragmento, puede hacer lo siguiente [explorar referencias](#explore-references), [administrar su acceso](../administration/object-based-access.md)y actualice los detalles del fragmento, incluido lo siguiente [etiquetas](../start/search-filter-categorize.md#tags).
+1. Haga clic en el fragmento deseado en **[!UICONTROL Fragmentos]** lista.
 
-   ![](../email/assets/fragment-edit-content.png)
+1. Las propiedades del fragmento se abren con una previsualización de su contenido.
 
-1. Seleccione el botón correspondiente para editar el contenido como lo haría al crear un fragmento desde cero. [Más información](#create-from-scratch)
+1. Si el fragmento que se está editando tiene la variable **Activo** estado, haga clic en **Modificar** para crear una versión de borrador del fragmento. La versión actual del fragmento seguirá activa hasta que publique la versión de borrador.
 
->[!NOTE]
+1. Realice los cambios deseados en el fragmento. Para editar el contenido, haga clic en **Editar** a continuación, edite el contenido como lo haría al crear un fragmento desde cero. [Aprenda a crear un fragmento](#create-from-scratch)
+
+   >[!NOTE]
+   >
+   >Al editar un fragmento de expresión, puede eliminar cualquier campo de personalización, pero no puede añadir nuevos al contenido del fragmento. Si desea agregar campos de personalización, duplique el fragmento para crear uno nuevo.
+
+   También puede comprobar la lista de los recorridos, campañas y plantillas de contenido donde se está utilizando el fragmento seleccionando el **Referencias del explorador** opción. [Más información](#explore-references)
+
+   ![](assets/fragment-edit.png)
+
+1. Una vez que los cambios estén listos, haga clic en **Publish** para activar las modificaciones.
+
+Al editar un fragmento, los cambios se propagan automáticamente a todo el contenido mediante ese fragmento, incluidos los recorridos activos y las campañas, excepto en el contenido en el que se ha roto la herencia del fragmento original. Obtenga información sobre cómo interrumpir la herencia en [Añadir fragmentos visuales a los correos electrónicos](../email/use-visual-fragments.md#break-inheritance) y [Aprovechamiento de fragmentos de expresiones](../personalization/use-expression-fragments.md#break-inheritance) secciones.
+
+>[!AVAILABILITY]
 >
->Al editar un fragmento, los cambios se propagan automáticamente a todo el contenido mediante ese fragmento, excepto al contenido utilizado en **[!UICONTROL Activo]** recorridos o campañas. También puede interrumpir la herencia del fragmento original. Obtenga más información en la [Añadir fragmentos visuales a los correos electrónicos](../email/use-visual-fragments.md#break-inheritance) y [Aprovechamiento de fragmentos de expresiones](../personalization/use-expression-fragments.md#break-inheritance) secciones.
+>Tenga en cuenta que la propagación de cambios de fragmentos en recorridos y campañas en directo se está implementando gradualmente durante los días siguientes a la publicación de Journey Optimizer en junio. Aunque algunos usuarios tendrán acceso inmediato, otros pueden experimentar un retraso antes de que esté disponible en sus entornos. Si esta mejora aún no está disponible en su entorno, los cambios no se propagarán al contenido utilizado en recorridos o campañas en directo.
 
 ## Explorar referencias {#explore-references}
 
-Puede mostrar la lista de los recorridos, campañas y plantillas de contenido que están utilizando actualmente un fragmento.
-
-Para ello, seleccione **[!UICONTROL Explorar referencias]** ya sea desde el **[!UICONTROL Más acciones]** en la lista de fragmentos o en la pantalla de propiedades del fragmento.
+Puede mostrar la lista de los recorridos, campañas y plantillas de contenido que están utilizando actualmente un fragmento. Para ello, seleccione **[!UICONTROL Explorar referencias]** ya sea desde el **[!UICONTROL Más acciones]** en la lista de fragmentos o en la pantalla de propiedades del fragmento.
 
 ![](assets/fragment-explore-references.png)
 
