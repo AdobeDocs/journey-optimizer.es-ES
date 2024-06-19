@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: ef32423dafa33406244e09f6dddd760e44e4edbf
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '1005'
 ht-degree: 2%
 
 ---
@@ -59,6 +59,10 @@ Para crear una campaña activada por API, siga los pasos a continuación. Encont
 1. En el **[!UICONTROL Audiencia]** , especifique el área de nombres que se utilizará para identificar a los individuos.
 
    * Si está creando un **transaccional** del tipo, los perfiles objetivo deben definirse en la llamada de API. El **[!UICONTROL Creación de nuevos perfiles]** permite crear automáticamente perfiles que no existen en la base de datos. [Obtenga más información sobre la creación de perfiles en la ejecución de campañas](#profile-creation)
+
+     >[!NOTE]
+     >
+     >Una sola llamada de API admite hasta 20 destinatarios únicos. Cada destinatario debe tener un ID de usuario único, no se permiten ID de usuario duplicados. Obtenga más información en la [Documentación de la API de ejecución de mensaje interactivo](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"}
 
    * Para **marketing** Campañas de tipo, haga clic en **[!UICONTROL Audiencia]** para elegir el público objetivo.
 
