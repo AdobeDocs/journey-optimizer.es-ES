@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, lectura, audiencia, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1465'
 ht-degree: 7%
 
 ---
@@ -126,7 +126,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->Los recorridos de audiencia de lectura de una sola toma pasan al estado Finalizado 30 días después de la ejecución del recorrido. Para audiencias de lectura programadas, son 30 días después de la ejecución de la última ocurrencia.
+>Los recorridos de audiencia de lectura de una sola toma se trasladan a la **Finalizado** estado 91 días ([tiempo de espera predeterminado](journey-gs.md#global_timeout)) después de la ejecución del recorrido. Para audiencias de lectura programadas, son 91 días después de la ejecución de la última ocurrencia.
 
 ## Prueba y publicación del recorrido {#testing-publishing}
 
@@ -178,7 +178,7 @@ Esta exclusión puede producirse justo después de la recuperación de la audien
 
 ![](assets/read-segment-audience2.png)
 
-**Union**
+**Unión**
 
 Los recorridos le permiten crear N ramas y unirlas después de una segmentación.
 

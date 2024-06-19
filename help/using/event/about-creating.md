@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evento, unitario, crear, recorrido
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 0f1c4b96e930e8e473463002c1d8ef66341a07c4
+source-git-commit: 531662b7d5e2455a017d68d6037c44b6950cc894
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1613'
 ht-degree: 12%
 
 ---
@@ -61,20 +61,17 @@ Estos son los primeros pasos para configurar un nuevo evento:
    >
    >Al seleccionar la variable **[!UICONTROL Sistema generado]** Tipo, solo están disponibles los esquemas que tienen el campo de tipo eventID. Al seleccionar la variable **[!UICONTROL Basado en reglas]** Tipo, todos los esquemas de Evento de experiencia están disponibles.
 
-1. Para los eventos basados en reglas, haga clic dentro de **[!UICONTROL Condición de ID de evento]** field. Con el editor de expresiones simples o avanzadas, defina la condición que el sistema utilizará para identificar los eventos que almacenarán en déclencheur el recorrido.
-   ![](assets/jo-event6.png)
+1. Para los eventos basados en reglas, haga clic dentro de **[!UICONTROL Condición de ID de evento]** field. Uso del <!--simple or advanced--> editor de expresiones, defina la condición que utilizará el sistema para identificar los eventos que almacenarán en déclencheur el recorrido.
 
-   >[!NOTE]
-   >
-   >El editor de expresiones avanzado de la configuración de eventos está disponible en Disponibilidad limitada para los clientes seleccionados.
+![](assets/jo-event6.png)
 
-   En nuestro ejemplo, escribimos una condición basada en la ciudad del perfil. Esto significa que siempre que el sistema reciba un evento que coincida con esta condición (**[!UICONTROL Ciudad]** field y **[!UICONTROL París]** ), se lo transmitirá a los recorridos.
+En nuestro ejemplo, escribimos una condición basada en la ciudad del perfil. Esto significa que siempre que el sistema reciba un evento que coincida con esta condición (**[!UICONTROL Ciudad]** field y **[!UICONTROL París]** ), se lo transmitirá a los recorridos.
 
-   >[!NOTE]
-   >
-   >En el editor de expresiones simple, no todos los operadores están disponibles, sino que dependen del tipo de datos. Por ejemplo, para un tipo de cadena de campo, puede utilizar &quot;contiene&quot; o &quot;es igual a&quot;.
-   >
-   >Si modifica el esquema con nuevos valores de enumeración después de crear el evento, debe seguir estos pasos para aplicar los cambios al evento existente: anule la selección del campo de enumeración de los campos de evento, confirme la selección y, a continuación, seleccione de nuevo el campo de enumeración. Ahora se muestra el nuevo valor de enumeración.
+>[!NOTE]
+>
+>En el editor de expresiones simple, no todos los operadores están disponibles, sino que dependen del tipo de datos. Por ejemplo, para un tipo de cadena de campo, puede utilizar &quot;contiene&quot; o &quot;es igual a&quot;.
+>
+>Si modifica el esquema con nuevos valores de enumeración después de crear el evento, debe seguir estos pasos para aplicar los cambios al evento existente: anule la selección del campo de enumeración de los campos de evento, confirme la selección y, a continuación, seleccione de nuevo el campo de enumeración. Ahora se muestra el nuevo valor de enumeración.
 
 1. Añada un área de nombres. Este paso es opcional, pero se recomienda, ya que la adición de un área de nombres le permite aprovechar la información almacenada en el servicio de Perfil del cliente en tiempo real. Define el tipo de clave que tiene el evento. Consulte [esta sección](../event/about-creating.md#select-the-namespace).
 
@@ -159,14 +156,23 @@ Si necesita utilizar una clave diferente, como un ID de CRM o una dirección de 
 
    ![](assets/journey16.png)
 
-1. Seleccione el campo elegido como clave en la lista de campos de carga útil. También puede cambiar al editor de expresiones avanzadas para crear claves más complejas (por ejemplo, una concatenación de dos campos de los eventos).
-
-   ![](assets/journey20.png)
+1. Seleccione el campo elegido como clave en la lista de campos de carga útil.
 
 Cuando se recibe el evento, el valor de la clave permite al sistema identificar a la persona asociada al evento. Asociado a un área de nombres (consulte [esta sección](../event/about-creating.md#select-the-namespace)), la clave se puede utilizar para realizar consultas en Adobe Experience Platform. Consulte [esta página](../building-journeys/about-journey-activities.md#orchestration-activities).
 La clave también se utiliza para comprobar que una persona está en un recorrido. De hecho, una persona no puede estar en dos lugares diferentes en el mismo recorrido. Como resultado, el sistema no permite que la misma clave, por ejemplo la clave CRMID=3224, esté en diferentes lugares del mismo recorrido.
 
-También tiene acceso a las funciones de expresión avanzadas (**[!UICONTROL Modo avanzado]**) si desea realizar manipulaciones adicionales. Estas funciones permiten manipular los valores utilizados para llevar a cabo consultas específicas, como cambiar de formato, o realizar concatenaciones de campos, teniendo en cuenta solo una parte de un campo (por ejemplo, los 10 primeros caracteres). Consulte esta [página](../building-journeys/expression/expressionadvanced.md).
+### Editor de expresiones avanzadas {#adv-exp-editor}
+
+
+Al definir el Identificador de perfil, puede cambiar al editor de expresiones avanzadas para crear claves más complejas (por ejemplo, una concatenación de dos campos de los eventos).
+
+![](assets/journey20.png)
+
+Tiene acceso a las funciones de expresión avanzadas desde el **[!UICONTROL Modo avanzado]** si desea realizar manipulaciones adicionales. Estas funciones permiten manipular los valores utilizados para llevar a cabo consultas específicas, como cambiar de formato, o realizar concatenaciones de campos, teniendo en cuenta solo una parte de un campo (por ejemplo, los 10 primeros caracteres). Consulte esta [página](../building-journeys/expression/expressionadvanced.md).
+
+>[!AVAILABILITY]
+>
+>El editor de expresiones avanzadas solo está disponible para un conjunto de organizaciones (LA).
 
 ## Previsualización de la carga útil {#preview-the-payload}
 

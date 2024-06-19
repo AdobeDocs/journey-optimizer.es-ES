@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: espera, actividad, recorrido, siguiente, lienzo
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 846c601c02a28119dddb3029e5273cfccf141a2c
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="Actividad de espera"
->abstract="Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar una actividad Wait. Permite definir el momento en que se ejecutará la siguiente actividad. Hay dos opciones disponibles: duración y personalizado."
+>abstract="Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar una actividad de espera. Permite definir el momento en el que se ejecutará la siguiente actividad. Hay dos opciones disponibles: duración y personalizado."
 
 Puede usar un **[!UICONTROL Esperar]** actividad para definir una duración antes de ejecutar la siguiente actividad.  La duración máxima de espera es **29 días**.
 
@@ -35,13 +35,13 @@ Puede establecer dos tipos de **Esperar** actividad:
 * [Fixed date](#fixed_date) 
 -->
 
-## Recomendaciones  {#wait-recommendations}
+## Recomendaciones {#wait-recommendations}
 
 ### Varias actividades de espera {#multiple-wait-activities}
 
-Cuando se usan varios **Esperar** en las actividades de un recorrido, tenga en cuenta que el tiempo de espera de recorrido global es de 30 días, lo que significa que los perfiles siempre abandonan el máximo de recorrido 30 días después de que hayan entrado en él. Obtenga más información en [esta página](../building-journeys/journey-gs.md#global_timeout).
+Cuando se usan varios **Esperar** actividades en un recorrido, tenga en cuenta que la variable [tiempo de espera de recorrido global](journey-gs.md#global_timeout) tiene un valor de 91 días, lo que significa que los perfiles siempre abandonan el recorrido máximo 91 días después de introducirlo. Obtenga más información en [esta página](../building-journeys/journey-gs.md#global_timeout).
 
-Un individuo puede introducir una **Esperar** actividad solo si le queda tiempo suficiente en el recorrido recorrido para completar la espera antes del tiempo de espera de 30 días. Por ejemplo, si agrega dos **Esperar** actividades configuradas en 20 días cada una, el sistema detecta que la segunda **Esperar** la actividad finalizará después del tiempo de espera de 30 días. El segundo **Esperar** por lo tanto, la actividad se ignorará y la persona abandonará el recorrido antes de iniciarla. En ese ejemplo, el cliente permanecerá 20 días en total en el recorrido.
+Un individuo puede introducir una **Esperar** actividad solo si le queda tiempo suficiente en el recorrido recorrido para completar la espera antes del tiempo de espera de 91 días. Por ejemplo, si agrega dos **Esperar** actividades configuradas en 20 días cada una, el sistema detecta que la segunda **Esperar** la actividad finalizará después del tiempo de espera de 91 días. El segundo **Esperar** por lo tanto, la actividad se ignorará y la persona abandonará el recorrido antes de iniciarla. En ese ejemplo, el cliente permanecerá 20 días en total en el recorrido.
 
 ### Espera y vuelve a entrar {#wait-re-entrance}
 

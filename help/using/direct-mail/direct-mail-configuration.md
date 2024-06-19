@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 3686127299107eb19db8e9290be1b737c1c87ec3
+source-git-commit: c7d8dd94bde49e8d02fe553fbac3942f55bf73fe
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 31%
+source-wordcount: '1272'
+ht-degree: 22%
 
 ---
 
@@ -58,11 +58,19 @@ Antes de poder generar este archivo, debe crear lo siguiente:
 >title="Elegir la región de AWS"
 >abstract="Seleccione la región geográfica del servidor de AWS donde desea exportar los archivos de correo directo. Como práctica general, se prefiere elegir la región más cercana a la ubicación del proveedor de correo directo."
 
+>[!NOTE]
+>
+>Actualmente, Amazon S3, SFTP y Azure son compatibles con [!DNL Journey Optimizer].
+
 Para enviar un mensaje de correo postal, [!DNL Journey Optimizer] genera y exporta el archivo que contiene los datos de la audiencia de destino a un servidor.
 
 Debe especificar los detalles del servidor para que su proveedor de correo postal pueda acceder a ese archivo y utilizarlo para enviar correo.
 
 Para configurar el enrutamiento de archivos, siga los pasos a continuación.
+
+>[!BEGINTABS]
+
+>[!TAB Amazon S3]
 
 1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de enrutamiento de archivos]** > **[!UICONTROL Enrutamiento de archivos]** y haga clic en **[!UICONTROL Crear configuración de enrutamiento]**.
 
@@ -70,33 +78,89 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 
 1. Establezca un nombre para la configuración.
 
-1. Seleccione el **[!UICONTROL Tipo de servidor]** que desee utilizar para exportar los archivos de correo postal.
+1. Seleccionar **Amazon S3** como el **[!UICONTROL Tipo de servidor]** para utilizar para exportar los archivos de correo postal.
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
-   >[!NOTE]
-   >
-   >Actualmente, Amazon S3, SFTP y Azure son compatibles con [!DNL Journey Optimizer].
+1. Rellene los detalles y las credenciales del servidor
 
-1. Rellene los detalles y credenciales del servidor, como la dirección del servidor, la clave de acceso, etc.
+   * **Nombre del contenedor de AWS**:Para saber dónde encontrar el nombre del contenedor de AWS, consulte [esta página](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
-   ![](assets/file-routing-config-sftp-details.png)
+   * **Clave de acceso de AWS**: Para saber dónde encontrar el ID de clave de acceso de AWS, consulte [esta página](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
-1. Si ha seleccionado **[!UICONTROL Amazon S3]**, elija la **[!UICONTROL Región de AWS]** donde se ubicará la infraestructura del servidor.
+   * **Clave secreta de AWS**: Para saber dónde encontrar la clave secreta de AWS, consulte [esta página](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+
+   * **Región de AWS**: elija el **[!UICONTROL Región de AWS]** donde se ubicará la infraestructura del servidor. Las regiones de AWS son áreas geográficas que AWS utiliza para alojar su infraestructura en la nube. Como práctica general, se prefiere elegir la región más cercana a la ubicación de su proveedor de correo postal.
 
    ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
-   >[!NOTE]
-   >
-   >Las regiones de AWS son áreas geográficas que AWS utiliza para alojar su infraestructura en la nube. Como práctica general, se prefiere elegir la región más cercana a la ubicación de su proveedor de correo postal.
+1. Para cifrar el archivo, copie y pegue la clave de cifrado en **[!UICONTROL Clave de cifrado PGP/GPG]** field.
+
+1. Seleccionar **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se crea con la variable **[!UICONTROL Activo]** estado. Ahora está listo para utilizarse en un [superficie de correo directo](#direct-mail-surface).
+
+   También puede seleccionar **[!UICONTROL Guardar como borrador]** para crear la configuración de enrutamiento de archivos, pero no podrá seleccionarla en una superficie hasta que **[!UICONTROL Activo]**.
+
+>[!TAB SFTP]
+
+1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de enrutamiento de archivos]** > **[!UICONTROL Enrutamiento de archivos]** y haga clic en **[!UICONTROL Crear configuración de enrutamiento]**.
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. Establezca un nombre para la configuración.
+
+1. Seleccionar SFTP como **[!UICONTROL Tipo de servidor]** para utilizar para exportar los archivos de correo postal.
+
+   ![](assets/file-routing-config-type-sftp.png){width="800" align="center"}
+
+1. Rellene los detalles y credenciales del servidor:
+
+   * **Cuenta**: Nombre de cuenta utilizado para conectarse al servidor SFTP.
+
+   * **Dirección del servidor**: &#x200B;URL del servidor SFTP.
+
+   * **Puerto**: Número de puerto de conexión FTP.
+
+   * **Contraseña**:&#x200B; Contraseña utilizada para conectarse al servidor SFTP.
+
+   ![](assets/file-routing-config-sftp-detail.png)
 
 1. Para cifrar el archivo, copie y pegue la clave de cifrado en **[!UICONTROL Clave de cifrado PGP/GPG]** field.
 
-1. Selecciona **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se crea con la variable **[!UICONTROL Activo]** estado. Ahora está listo para utilizarse en un [superficie de correo directo](#direct-mail-surface).
+1. Seleccionar **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se crea con la variable **[!UICONTROL Activo]** estado. Ahora está listo para utilizarse en un [superficie de correo directo](#direct-mail-surface).
 
-   >[!NOTE]
-   >
-   >También puede seleccionar **[!UICONTROL Guardar como borrador]** para crear la configuración de enrutamiento de archivos, pero no podrá seleccionarla en una superficie hasta que **[!UICONTROL Activo]**.
+   También puede seleccionar **[!UICONTROL Guardar como borrador]** para crear la configuración de enrutamiento de archivos, pero no podrá seleccionarla en una superficie hasta que **[!UICONTROL Activo]**.
+
+>[!TAB Azure]
+
+1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de enrutamiento de archivos]** > **[!UICONTROL Enrutamiento de archivos]** y haga clic en **[!UICONTROL Crear configuración de enrutamiento]**.
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. Establezca un nombre para la configuración.
+
+1. Seleccionar Azure **[!UICONTROL Tipo de servidor]** para utilizar para exportar los archivos de correo postal.
+
+   ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
+
+1. Rellene los detalles y credenciales del servidor:
+
+   * **Cadena de conexión de Azure**: Para encontrar su **Cadena de conexión de Azure**, consulte [esta página](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
+
+     El **Cadena de conexión de Azure** debe seguir el formato siguiente:
+
+     `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
+
+   * **Nombre de contenedor**: Para encontrar su **Nombre de contenedor**, consulte [esta página](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
+
+     El **Nombre de contenedor** debe contener solo el nombre del contenedor sin barras oblicuas. Para especificar una ruta de acceso dentro del contenedor para guardar el archivo, actualice el nombre de archivo de la campaña de correo directo para incluir la ruta de acceso deseada.
+
+1. Para cifrar el archivo, copie y pegue la clave de cifrado en **[!UICONTROL Clave de cifrado PGP/GPG]** field.
+
+1. Seleccionar **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se crea con la variable **[!UICONTROL Activo]** estado. Ahora está listo para utilizarse en un [superficie de correo directo](#direct-mail-surface).
+
+   También puede seleccionar **[!UICONTROL Guardar como borrador]** para crear la configuración de enrutamiento de archivos, pero no podrá seleccionarla en una superficie hasta que **[!UICONTROL Activo]**.
+
+>[!ENDTABS]
 
 ## Creación de una superficie de correo directo {#direct-mail-surface}
 

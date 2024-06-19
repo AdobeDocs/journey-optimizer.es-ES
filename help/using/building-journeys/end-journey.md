@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: volver a entrar, recorrido, finalizar, en directo, detener
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Un recorrido se puede cerrar por los siguientes motivos:
 
 Cerrar un recorrido manualmente garantiza que los clientes que ya han introducido el recorrido puedan finalizar su ruta, pero que los nuevos usuarios no puedan entrar en el recorrido. Cuando un recorrido está cerrado (por cualquiera de los motivos anteriores), tiene el estado **[!UICONTROL Cerrado]**. El recorrido deja de permitir que nuevas personas entren en el recorrido. Las personas que ya están en el recorrido pueden terminar el recorrido normalmente.
 
-Después de 30 días, el recorrido Leer audiencia cambia a **Finalizado** estado. Este comportamiento solo se establece para 30 días (es decir, el valor predeterminado de tiempo de espera de recorrido), ya que toda la información sobre los perfiles que ingresaron al recorrido se elimina 30 días después de que ingresaron. Las personas que siguen en el recorrido se ven afectadas automáticamente. Salen del recorrido después del tiempo de espera de 30 días.
+Después de los 91 días [tiempo de espera predeterminado](journey-gs.md#global_timeout), un recorrido de Lectura de audiencia cambia a **Finalizado** estado. Este comportamiento se establece solo para 91 días (es decir, [valor predeterminado de tiempo de espera de recorrido](journey-gs.md#global_timeout)), ya que toda la información sobre los perfiles que ingresaron al recorrido se elimina 91 días después de su entrada. Las personas que siguen en el recorrido se ven afectadas automáticamente. Salen del recorrido después del tiempo de espera de 91 días.
 
 Consulte esta [sección](../building-journeys/journey-gs.md#global_timeout).
 

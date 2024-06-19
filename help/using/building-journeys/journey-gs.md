@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: c68e72d170792fc0ea3b6eb09b3acf818ec2cfd5
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '2086'
-ht-degree: 17%
+source-wordcount: '2623'
+ht-degree: 13%
 
 ---
 
@@ -90,13 +90,13 @@ El estado puede ser el siguiente:
 * **Cerrado**: el recorrido se ha cerrado utilizando el **Cerca de nuevas entradas** botón. El recorrido deja de permitir que nuevas personas entren en el recorrido. Las personas que ya están en el recorrido pueden terminar el recorrido normalmente.
 * **Borrador**: el recorrido se encuentra en su primera fase. Aún no se ha publicado.
 * **Borrador (Pruebas)**: el modo de prueba se ha activado utilizando la variable **Modo de prueba** botón.
-* **Finalizado**: el recorrido cambia automáticamente a este estado después del tiempo de espera global predeterminado de 30 días. Los perfiles que ya están en el recorrido finalizan el recorrido normalmente. Los nuevos perfiles ya no pueden entrar en el recorrido.
+* **Finalizado**: el recorrido cambia automáticamente a este estado después del día 91 [tiempo de espera predeterminado](journey-gs.md#global_timeout). Los perfiles que ya están en el recorrido finalizan el recorrido normalmente. Los nuevos perfiles ya no pueden entrar en el recorrido.
 * **Activo**: el recorrido se ha publicado utilizando la variable **Publish** botón.
 * **Detenido**: el recorrido se ha apagado usando el **Detener** botón. Todos los individuos abandonan el recorrido al instante.
 
 >[!NOTE]
 >
->El ciclo de vida de creación de Recorridos también incluye un conjunto de estados intermedios que no están disponibles para el filtrado: &quot;Publicación&quot; (entre &quot;Borrador&quot; y &quot;Activo&quot;), &quot;Activación del modo de prueba&quot; o &quot;Desactivación del modo de prueba&quot; (entre &quot;Borrador&quot; y &quot;Borrador (prueba)&quot;) y &quot;Detención&quot; entre &quot;Activo&quot; y &quot;Detenido&quot;). Cuando un recorrido está en un estado intermedio, es de solo lectura.
+>El ciclo de vida de creación de Recorridos también incluye un conjunto de estados intermedios que no están disponibles para el filtrado: &quot;Publicación&quot; (entre &quot;Borrador&quot; y &quot;Activo&quot;), &quot;Activación del modo de prueba&quot; o &quot;Desactivación del modo de prueba&quot; (entre &quot;Borrador&quot; y &quot;Borrador (prueba)&quot;) y &quot;Detención&quot; (entre &quot;Activo&quot; y &quot;Detenido&quot;). Cuando un recorrido está en un estado intermedio, es de solo lectura.
 
 Utilice el **[!UICONTROL Filtros de creación]** para filtrar los recorridos según su fecha de creación o el usuario que los ha creado.
 
@@ -186,7 +186,7 @@ Para obtener más información sobre la administración de huso horario, consult
 
 Puede definir un **Fecha de inicio**. Si no ha especificado ninguna, se definirá automáticamente en el momento de la publicación.
 
-También puede agregar un **Fecha de finalización**. Esto permite que los perfiles salgan automáticamente cuando se alcanza la fecha. Si no se especifica una fecha de finalización, los perfiles pueden permanecer hasta la [tiempo de espera de recorrido global](#global_timeout) (que generalmente es de 30 días y se reduce a 7 días con la oferta complementaria Escudo de atención sanitaria). La única excepción son los recorridos de audiencia de lectura recurrentes con **Forzar reentrada en repetición** activado, que finalizan en la fecha de inicio de la siguiente incidencia.
+También puede agregar un **Fecha de finalización**. Esto permite que los perfiles salgan automáticamente cuando se alcanza la fecha. Si no se especifica una fecha de finalización, los perfiles pueden permanecer hasta la [tiempo de espera de recorrido global](#global_timeout) (que generalmente es de 91 días, y se reduce a 7 días con la oferta complementaria Escudo de atención sanitaria). La única excepción son los recorridos de audiencia de lectura recurrentes con **Forzar reentrada en repetición** activado, que finalizan en la fecha de inicio de la siguiente incidencia.
 
 ### Tiempo de espera y error en actividades de recorrido {#timeout_and_error}
 
@@ -202,15 +202,123 @@ Recorrido también utiliza un tiempo de espera global. Consulte la [sección sig
 
 Además de las [timeout](#timeout_and_error) cuando se utiliza en actividades de recorrido, también se agota el tiempo de espera de recorrido global, que no se muestra en la interfaz y no se puede cambiar.
 
-Este tiempo de espera global detiene el progreso de los individuos en el recorrido **30 días** después de que entren. Este tiempo de espera se reduce a **7 días** con la oferta complementaria Escudo de atención sanitaria. Esto significa que el recorrido de una persona no puede durar más de 30 días (o 7 días). Después de este período de tiempo de espera, se eliminan los datos del individuo. Las personas que sigan fluyendo en el recorrido al final del periodo de tiempo de espera se detendrán y no se tendrán en cuenta en los informes. Por lo tanto, podría ver más personas entrando en el recorrido que saliendo.
+Este tiempo de espera global detiene el progreso de los individuos en el recorrido **91 días** después de que entren. Este tiempo de espera se reduce a **7 días** con la oferta complementaria Escudo de atención sanitaria. Esto significa que el recorrido de una persona no puede durar más de 91 días (o 7 días). Después de este período de tiempo de espera, se eliminan los datos del individuo. Las personas que sigan fluyendo en el recorrido al final del periodo de tiempo de espera se detendrán y no se tendrán en cuenta en los informes. Por lo tanto, podría ver más personas entrando en el recorrido que saliendo.
 
 >[!NOTE]
 >
->Los recorridos no reaccionan directamente a las solicitudes de exclusión, acceso o eliminación de privacidad. Sin embargo, el tiempo de espera global garantiza que las personas nunca permanezcan más de 30 días en ningún recorrido.
+>Los recorridos no reaccionan directamente a las solicitudes de exclusión, acceso o eliminación de privacidad. Sin embargo, el tiempo de espera global garantiza que las personas nunca permanezcan más de 91 días en ningún recorrido.
 
-Debido al tiempo de espera de recorrido de 30 días, cuando no se permite la reentrada al recorrido, no podemos asegurarnos de que el bloqueo de reentrada funcione durante más de 30 días. De hecho, al eliminar toda la información sobre las personas que ingresaron al recorrido 30 días después de su entrada, no podemos saber la persona ingresada anteriormente, hace más de 30 días.
+Debido al tiempo de espera de recorrido de 91 días, cuando no se permite la reentrada al recorrido, no podemos asegurarnos de que el bloqueo de reentrada funcione más de 91 días. De hecho, al eliminar toda la información sobre las personas que ingresaron al recorrido 91 días después de su entrada, no podemos saber la persona ingresada anteriormente, hace más de 91 días.
 
-Un individuo solo puede entrar a una actividad de espera si le queda tiempo suficiente en el recorrido recorrido para completar la duración de la espera antes del tiempo de espera de 30 días. Consulte [esta página](../building-journeys/wait-activity.md).
+Una persona solo puede entrar en una actividad de espera si le queda tiempo suficiente en el recorrido recorrido para completar la duración de la espera antes del tiempo de espera de 91 días. Consulte [esta página](../building-journeys/wait-activity.md).
+
+
+#### Preguntas frecuentes sobre el tiempo de vida (TTL) y la retención de datos {#timeout-faq}
+
+**Para Recorridos unitarios**
+<table style="table-layout:auto">
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede con los recorridos publicados después de que se implemente la extensión TTL?</p>
+    </td>
+    <td>
+      <p>Los perfiles que entren en el nuevo recorrido tendrán automáticamente un TTL de 91 días.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede con un perfil que introduce un recorrido publicado antes del lanzamiento de la extensión TTL?</p>
+    </td>
+    <td>
+      <p>El perfil tendrá un TTL de 91 días (7 días para HIPAA), coherente con el momento en que se publicó originalmente el recorrido.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué les sucede a los perfiles que ya han entrado en un recorrido cuando se inicia la extensión TTL?</p>
+    </td>
+    <td>
+      <p>El perfil conservará un TTL de 91 días (7 días para HIPAA), según el tiempo de publicación original del recorrido.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede con un perfil de una versión de recorrido anterior que se vuelve a publicar después del lanzamiento de la extensión TTL?</p>
+    </td>
+    <td>
+      <p>El perfil mantendrá un TTL de 91 días (7 días para HIPAA), alineado con el tiempo de publicación de la versión del recorrido original.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede si un nuevo perfil introduce una versión de recorrido republicada después del inicio de la extensión TTL?</p>
+    </td>
+    <td>
+      <p>El perfil tendrá un TTL de 91 días, que coincide con el TTL de la versión del recorrido recién publicada.</p>
+    </td>
+  </tr>
+</table>
+
+**Para Recorridos de Déclencheur de segmentos**
+
+<table style="table-layout:auto">
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede con los nuevos recorridos únicos publicados después de la extensión TTL?</p>
+    </td>
+    <td>
+      <p>Los perfiles que entren en el nuevo recorrido tendrán un TTL de 91 días automáticamente.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede con los nuevos recorridos recurrentes sin reentrada forzada publicados después de la extensión TTL?</p>
+    </td>
+    <td>
+      <p>Los perfiles que entren en el nuevo recorrido tendrán un TTL de 91 días automáticamente.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede con los nuevos recorridos recurrentes con reentrada forzada publicados después de la extensión TTL?</p>
+    </td>
+    <td>
+      <p>Los perfiles que entren en el nuevo recorrido tendrán un TTL igual al periodo de periodicidad. Por ejemplo, si el recorrido se ejecuta a diario, el TTL será de 1 día.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede con un perfil que introduce un recorrido publicado antes del lanzamiento de la extensión TTL?</p>
+    </td>
+    <td>
+      <p>El perfil tendrá un TTL de 91 días (7 días para HIPAA), coherente con el tiempo de publicación original. Para los recorridos recurrentes con reentrada forzada, el TTL coincidirá con el período de periodicidad.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede con un perfil que se ejecuta a través de un recorrido cuando se inicia la extensión TTL?</p>
+    </td>
+    <td>
+      <p>El perfil conservará un TTL de 91 días (7 días para HIPAA), según el tiempo de publicación original del recorrido. Para los recorridos recurrentes con reentrada forzada, el TTL coincidirá con el período de periodicidad.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede con un perfil en ejecución en una versión de recorrido anterior que se vuelve a publicar después del lanzamiento de la extensión TTL?</p>
+    </td>
+    <td>
+      <p>El perfil mantendrá un TTL de 91 días (7 días para HIPPA), alineado con el tiempo de publicación de la versión original del recorrido. Para los recorridos recurrentes con reentrada forzada, el TTL coincidirá con el período de periodicidad.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede si un nuevo perfil introduce una versión de recorrido republicada después del inicio de la extensión TTL?</p>
+    </td>
+    <td>
+      <p>El perfil tendrá un TTL de 91 días, que coincide con el TTL de la versión del recorrido recién publicada. Para los recorridos recurrentes con reentrada forzada, el TTL coincidirá con el período de periodicidad.</p>
+    </td>
+  </tr>
+</table>
 
 ### Políticas de combinación {#merge-policies}
 
@@ -219,13 +327,9 @@ El recorrido de utiliza políticas de combinación al recuperar datos de perfil 
 * En Leer recorridos de cualificación de audiencias o audiencias: se utiliza la política de combinación de la audiencia
 * En recorridos activados por eventos: se utiliza la política de combinación predeterminada
 
-Recorrido respetará la política de combinación utilizada en todo el recorrido.
+Recorrido respetará la política de combinación utilizada en todo el recorrido. Por lo tanto, si se utilizan varias audiencias en un recorrido (p. ej.: en funciones &quot;inAudience&quot;), lo que crea incoherencias con la política de combinación utilizada por el recorrido, se genera un error y la publicación se bloquea. Sin embargo, si se utiliza una audiencia incoherente en la personalización de mensajes, no se genera una alerta, a pesar de la incoherencia. Por este motivo, es muy recomendable comprobar la política de combinación asociada a su audiencia cuando esta audiencia se utiliza en la personalización de mensajes.
 
->[!NOTE]
->
->Esta capacidad solo está disponible en disponibilidad limitada (LA) para clientes seleccionados.
-
-Para obtener más información sobre las políticas de combinación, consulte [página](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+Para obtener más información sobre las políticas de combinación, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 ## Duplicación de un recorrido {#duplicate-a-journey}
 

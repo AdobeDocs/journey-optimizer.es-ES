@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: e7ff784d51da48c1970841e416c655c02cfafb7c
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 2%
+source-wordcount: '324'
+ht-degree: 15%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
->title="Definir sus propios fragmentos"
+>title="Defina sus propios fragmentos"
 >abstract="Cree y administre fragmentos independientes para que el contenido se pueda reutilizar en varios recorridos y campañas."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="Creación de fragmentos"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="Creación de fragmentos"
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_update_campaigns"
@@ -46,9 +46,7 @@ Para aprovechar al máximo los fragmentos:
 
 ## Antes de empezar {#fragment-prerequisites}
 
->[!NOTE]
->
->Para crear, editar y archivar fragmentos, debe tener el **[!DNL Manage library items]** permiso incluido en el **[!DNL Content Library Manager]** perfil del producto. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
+Para crear, editar y archivar fragmentos, debe tener el **[!DNL Manage library items]** permiso incluido en el **[!DNL Content Library Manager]** perfil del producto. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
 
 En esta versión, se aplican las siguientes limitaciones:
 
@@ -62,17 +60,16 @@ Hay dos tipos de fragmentos disponibles:
 * **Fragmentos visuales** son bloques visuales predefinidos que se pueden reutilizar en varios envíos de correo electrónico con la variable [Diseñador de correo electrónico](../email/get-started-email-design.md), o en [plantillas de contenido](../email/use-email-templates.md).
 * **Fragmentos de expresión** son expresiones predefinidas que están disponibles en una entrada dedicada en la [editor de personalización](../personalization/personalization-build-expressions.md).
 
-
-Se puede acceder a todos los fragmentos desde **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Fragmentos]**  menú izquierdo.
+Todos los fragmentos creados son accesibles desde el **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Fragmentos]**  menú izquierdo. [Obtenga información sobre cómo administrar fragmentos](../content-management/manage-fragments.md)
 
 ![](assets/fragment-list.png)
 
 ## Vídeo explicativo {#video-fragments}
 
-Aprenda a administrar, crear y utilizar fragmentos visuales en [!DNL Journey Optimizer].
+Obtenga información sobre cómo administrar, crear y utilizar **fragmentos visuales** in [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
-Obtenga información sobre cómo administrar, crear y utilizar fragmentos de expresiones en [!DNL Journey Optimizer].
+Obtenga información sobre cómo administrar, crear y utilizar **fragmentos de expresión** in [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

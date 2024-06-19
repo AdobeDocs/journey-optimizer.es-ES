@@ -8,24 +8,27 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 4%
+source-wordcount: '612'
+ht-degree: 2%
 
 ---
 
 # Añadir fragmentos visuales a los correos electrónicos {#use-visual-fragments}
 
-Puede utilizar un fragmento visual en una [email](get-started-email-design.md) dentro de un recorrido o una campaña, o en una [plantilla de contenido](../content-management/content-templates.md).
-
->[!NOTE]
->
->Obtenga información sobre cómo crear y administrar fragmentos en [esta sección](../content-management/fragments.md).
+Un fragmento es un componente reutilizable al que se puede hacer referencia en uno o varios correos electrónicos en campañas de Journey Optimizer, recorridos o plantillas de contenido. Esta funcionalidad permite crear previamente varios bloques de contenido personalizados que los usuarios de marketing pueden utilizar para ensamblar rápidamente el contenido del correo electrónico en un proceso de diseño mejorado. [Obtenga información sobre cómo crear y administrar fragmentos](../content-management/fragments.md).
 
 ➡️ [Aprenda a administrar, crear y utilizar fragmentos en este vídeo](../content-management/fragments.md#video-fragments)
 
 ## Usar un fragmento {#use-fragment}
+
+Para utilizar un fragmento en un correo electrónico, siga los pasos a continuación.
+
+>[!NOTE]
+>
+>Puede añadir hasta 30 fragmentos en una entrega determinada. Los fragmentos solo se pueden anidar hasta 1 nivel.
+
 
 1. Abra cualquier contenido de correo electrónico o plantilla con la variable [Diseñador de correo electrónico](get-started-email-design.md).
 
@@ -33,17 +36,12 @@ Puede utilizar un fragmento visual en una [email](get-started-email-design.md) d
 
    ![](assets/fragments-in-designer.png)
 
-1. Se muestra la lista de todos los fragmentos visuales creados en la zona protegida actual. Puede hacer lo siguiente:
+1. Se muestra la lista de todos los fragmentos visuales creados en la zona protegida actual. Se ordenan por fecha de creación: los fragmentos visuales añadidos recientemente se muestran primero en la lista. Puede hacer lo siguiente:
 
    * Busque un fragmento específico escribiendo su etiqueta.
    * Ordene los fragmentos en orden ascendente o descendente.
    * Cambie la forma en que se muestran los fragmentos (tarjetas o vista de lista).
-
-   >[!NOTE]
-   >
-   >Los fragmentos se ordenan por fecha de creación: los fragmentos visuales añadidos recientemente se muestran primero en la lista.
-
-1. Puede buscar y actualizar la lista.
+   * Actualice la lista.
 
    >[!NOTE]
    >
@@ -52,6 +50,12 @@ Puede utilizar un fragmento visual en una [email](get-started-email-design.md) d
 1. Arrastre y suelte cualquier fragmento de la lista en el área en la que desee insertarlo.
 
    ![](assets/fragment-insert.png)
+
+   >[!CAUTION]
+   >
+   >Puede añadir cualquiera **Borrador** o **Activo** a su contenido. Sin embargo, no podrá activar su recorrido o campaña si se está utilizando un fragmento con el estado Borrador. En el momento de la publicación del recorrido o de la campaña, los fragmentos de borrador mostrarán un error y deberá aprobarlos para poder publicarlos.
+   >
+   > Tenga en cuenta que los estados de los fragmentos se están implementando gradualmente durante varios días después de la versión de junio de Journey Optimizer. Aunque algunos usuarios tendrán acceso inmediato, otros pueden experimentar un retraso antes de que esté disponible en sus entornos. Si esta mejora aún no está disponible en su entorno, tenga en cuenta que el fragmento no requiere que **Activo** para su uso en recorridos y campañas.
 
 1. Al igual que cualquier otro componente, puede mover el fragmento por el contenido.
 
@@ -73,15 +77,9 @@ Puede utilizar un fragmento visual en una [email](get-started-email-design.md) d
 
 ## Romper herencia {#break-inheritance}
 
-Al editar un fragmento visual, los cambios se sincronizan. Se propagan automáticamente a todos los **[!UICONTROL Borrador]** recorridos/campañas y plantillas de contenido que contienen ese fragmento.
+Al editar un fragmento visual, los cambios se sincronizan. Se propagan automáticamente a todos los recorridos o campañas en borrador o activos y a las plantillas de contenido que contengan ese fragmento.
 
->[!NOTE]
->
->Los cambios no se propagan a los correos electrónicos utilizados en **[!UICONTROL Activo]** recorridos o campañas.
-
-Cuando se añaden a un correo electrónico o a una plantilla de contenido, los fragmentos se sincronizan de forma predeterminada.
-
-Sin embargo, puede romper la herencia del fragmento original. En ese caso, el contenido del fragmento se copia en el diseño actual y los cambios ya no se sincronizan.
+Cuando se añaden a un correo electrónico o a una plantilla de contenido, los fragmentos se sincronizan de forma predeterminada. Sin embargo, puede romper la herencia del fragmento original. En ese caso, el contenido del fragmento se copia en el diseño actual y los cambios ya no se sincronizan.
 
 Para interrumpir la herencia, siga los pasos a continuación:
 

@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
+source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '382'
 ht-degree: 5%
 
 ---
@@ -51,6 +51,8 @@ Para configurar Infobip con Journey Optimizer, siga estos pasos:
    * **[!UICONTROL Período de validez]**: introduzca el periodo de validez del mensaje en horas. En caso de que los mensajes no se puedan enviar dentro de este periodo de tiempo, el sistema intentará reenviarlos de nuevo. El periodo de validez predeterminado es de 48 horas.
 
    * **[!UICONTROL Datos de llamada de retorno]**: introduzca los datos de cliente adicionales que se enviarán en la dirección URL de notificación.
+
+   * **[!UICONTROL Número entrante]**: añada su número de entrada único. Esto le permite utilizar las mismas credenciales de API en diferentes zonas protegidas, cada una con su propio número de entrada.
 
 1. Clic **[!UICONTROL Enviar]** cuando haya terminado de configurar las credenciales de la API.
 
