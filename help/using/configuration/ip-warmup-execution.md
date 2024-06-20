@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 666af4bbc3731f16ce1d5c11ceb7e704996f5a68
+source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '2513'
-ht-degree: 12%
+source-wordcount: '2558'
+ht-degree: 11%
 
 ---
 
@@ -41,7 +41,7 @@ Cada fase está compuesta por varias ejecuciones, a las que se asigna una sola c
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="Excluir públicos de campañas"
->abstract="Seleccione campañas para excluir sus públicos de la fase actual. Esto sirve para evitar que los perfiles contactados anteriormente desde otras fases u otros planes de calentamiento de IP vuelvan a segmentarse."
+>abstract="Seleccione campañas para excluir sus públicos de la fase actual. Esto evita que los perfiles contactados anteriormente vuelvan a ser objetivos; solo se excluirá a los que hayan recibido comunicación a través del recorrido."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
@@ -60,7 +60,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 <!--![](assets/ip-warmup-plan-phase-1.png)-->
 
-1. Para cada fase, seleccione la campaña que desee asociar con esta fase del plan de calentamiento de IP.
+1. Seleccione la campaña que desee asociar con la primera fase del plan de calentamiento de IP.
 
    >[!NOTE]
    >
@@ -72,7 +72,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >* Solo las campañas con el **[!UICONTROL Activación del plan de calentamiento IP]** Las opciones activadas están disponibles para seleccionarlas. [Más información](#create-ip-warmup-campaign)
    >
-   >* Debe seleccionar una campaña que utilice la misma superficie que la seleccionada para el plan de calentamiento de IP actual.
+   >* Solo se pueden seleccionar las campañas que utilicen la misma superficie que el plan de calentamiento de IP seleccionado.
 
 1. Una vez seleccionada una campaña para la fase actual, se muestran las secciones para excluir perfiles, audiencias de campaña y grupos de dominios.
 
@@ -84,7 +84,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!NOTE]
       >
-      >La exclusión de dominios requiere una fase no ejecutada, por lo que es posible que tenga que [dividir una fase en ejecución](#split-phase) para añadir exclusiones.
+      >La exclusión de dominios requiere una fase sin ejecutar, por lo que es posible que necesite [dividir una fase en ejecución](#split-phase) para añadir exclusiones.
 
       ![](assets/ip-warmup-plan-exclude-domains.png)
 
@@ -117,7 +117,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >Esta sección no se puede editar.
 
-1. Si es necesario, puede reemplazar la campaña utilizando **[!UICONTROL Reemplazar]** botón. También puede borrar la campaña seleccionada utilizando la variable **[!UICONTROL Borrar]** botón. A continuación, puede elegir una nueva campaña inmediatamente o más tarde.
+1. Si es necesario, puede reemplazar la campaña utilizando **[!UICONTROL Reemplazar]** botón. También puede **[!UICONTROL Borrar]** la campaña seleccionada utilizando el **[!UICONTROL Borrar]** botón. Esta acción no solo borrará la campaña, sino también otras propiedades de nivel de fase, como la Exclusión de grupos de dominios, la Campaña, la Exclusión de Recorridos, etc. Después de borrar, puede elegir una nueva campaña inmediatamente o más tarde.
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -125,7 +125,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Esta acción solo es posible antes de activar la primera ejecución de la fase. Una vez activada una ejecución, la campaña no se puede reemplazar, a menos que [dividir la ejecución](#split-phase) a una nueva fase.
 
-1. Puede agregar una fase si es necesario. Se agregará después de la última fase actual.
+1. Puede agregar una fase si es necesario. Se añadirá después de la última fase.
 
    ![](assets/ip-warmup-plan-add-phase.png)
 
@@ -236,9 +236,9 @@ Al activar una ejecución, se crean varias audiencias automáticamente.
 
 * Si activa la primera ejecución de una fase:
 
-   * Un [audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"} se crea para las audiencias de campaña excluidas (si las hay), con la siguiente convención de nombres: `<warmupName>_Phase<phaseNo>-Audience Exclusion`.
+   * Un [audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=es){target="_blank"} se crea para las audiencias de campaña excluidas (si las hay), con la siguiente convención de nombres: `<warmupName>-Phase<phaseNo>-Audience Exclusion `.
 
-   * Se crea una audiencia para los grupos de dominios excluidos (si los hay), con la siguiente convención de nombres: `<warmupName>_Phase<phaseNo>-Domain Exclusion`.
+   * Se crea una audiencia para los grupos de dominios excluidos (si los hay), con la siguiente convención de nombres: `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
 
    * Se crea otra audiencia para las audiencias de recorrido excluidas (si las hay), con la siguiente convención de nombres: `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`.
 
@@ -246,11 +246,11 @@ Al activar una ejecución, se crean varias audiencias automáticamente.
   >
   >Las audiencias se limpian después de que el plan de calentamiento se marque como completado.
   >
-  >El sistema no crea una audiencia nueva en caso de que no haya cambios en las audiencias de campaña excluidas o los grupos de dominio para las fases posteriores.
+  >El sistema no crea una audiencia nueva en caso de que no haya cambios en las audiencias de campaña excluidas, las audiencias de recorrido excluidas o los grupos de dominio para las fases posteriores.
 
 * Al activar cualquier ejecución:
 
-   * Se crea otra audiencia para el último filtro de participación, con la siguiente convención de nombres: `<warmupName>_Phase<phaseNo>_Run<runNo>-Engagement Filter`.
+   * Se crea otra audiencia para el último filtro de participación, con la siguiente convención de nombres: `<warmupName>-Phase<phaseNo>_Run<runNo>-Engagement Filter`.
 
      >[!NOTE]
      >
@@ -298,9 +298,9 @@ Una ejecución puede tener los siguientes estados:
 
 * **[!UICONTROL Borrador]** : cada vez que se crea una ejecución, ya sea cuando [creación de un nuevo plan](ip-warmup-plan.md) o [adición de una ejecución](#define-runs) desde la interfaz de usuario, toma el **[!UICONTROL Borrador]** estado.
 * **[!UICONTROL Activo]**: cada vez que se activa una ejecución, se necesita el **[!UICONTROL Activo]** estado. Significa que el sistema ha aceptado la solicitud para programar la ejecución, no que se haya iniciado el envío. En esta fase puede observar el estado de la ejecución activa haciendo clic en el icono **[!UICONTROL Ver estado]** dentro de la tabla. Esto le permite hacer un seguimiento de cuántos perfiles de destino cumplen los requisitos.
-* **[!UICONTROL Completado]**: la ejecución de la campaña para esta ejecución ha finalizado. Para acceder a un informe de ejecución detallado, haga clic en **[!UICONTROL Ver informe]** en la tabla. Esta opción permite rastrear el estado de envío de correo electrónico de la ejecución, incluidos los desgloses específicos de los grupos de dominios para una monitorización mejorada. [Más información](#reports)
-* **[!UICONTROL Cancelado]**: a **[!UICONTROL Activo]** la ejecución se ha cancelado utilizando **[!UICONTROL Detener]** o ha activado el botón **[!UICONTROL Cancelar las ejecuciones activadas en caso de errores]** y se produjo un error. [Más información](#define-runs)
-* **[!UICONTROL Error]**: el sistema ha encontrado un error o la campaña utilizada para la fase actual se ha detenido. Si una ejecución falla, puede programar otra ejecución para el día siguiente.
+* **[!UICONTROL Completado]**: la ejecución de la campaña para esta ejecución ha finalizado. Para acceder a un informe de ejecución detallado, haga clic en **[!UICONTROL Ver informe]** en la tabla. Esta opción permite rastrear el estado de envío de correo electrónico de la ejecución, incluidos los desgloses específicos de los grupos de dominios para una monitorización mejorada. Tenga en cuenta que la campaña asociada a él se establecerá como Detenida.[Más información](#reports)
+* **[!UICONTROL Cancelado]**: a **[!UICONTROL Activo]** la ejecución se ha cancelado utilizando **[!UICONTROL Cancelar]** botón.[Más información](#define-runs)
+* **[!UICONTROL Error]**: el sistema ha encontrado un error o la campaña utilizada para la fase actual se ha detenido, o ha habilitado el **[!UICONTROL Cancelar las ejecuciones activadas en caso de errores]** y se produjo un error. Si una ejecución falla, puede programar otra ejecución para el día siguiente.
 
 ### Uso de informes {#reports}
 
@@ -363,7 +363,7 @@ Veamos un ejemplo...
 
 ### Marcar un plan como completado {#mark-as-completed}
 
-Si el plan no está funcionando lo suficientemente bien o si desea soltarlo para crear otro, puede marcarlo como completado.
+Si sus IP se calentaron con el volumen deseado, o si su plan no está funcionando lo suficientemente bien o si desea soltarlo para crear otro, puede marcarlo como completado.
 
 Para ello, haga clic en el **[!UICONTROL Más]** en la parte superior derecha del plan de calentamiento de IP y seleccione **[!UICONTROL Marcar como completado]**.
 
