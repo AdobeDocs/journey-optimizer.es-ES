@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '1250'
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
@@ -41,7 +41,7 @@ Las API de recorridos admiten hasta 5000 eventos por segundo, pero es posible qu
 
 Cada vez que recorrido realiza una llamada a la API, esta pasa por el motor de API. Si se alcanza el límite establecido en la API, la llamada se rechaza si se utiliza la API de límite, o se pone en cola durante un máximo de 6 horas y se procesa lo antes posible en el orden en que se recibió si se utiliza la API de limitación.
 
-Por ejemplo, supongamos que ha definido una regla de límite o limitación de 200 llamadas por segundo para su sistema externo. Una acción personalizada llama al sistema en 10 recorridos diferentes. Si un recorrido recibe 300 llamadas por segundo, utilizará las 200 ranuras disponibles y descartará o pondrá en cola las 100 restantes. Como la velocidad máxima se ha superado, los otros 9 recorridos no tendrán ninguna ranura. Esta granularidad ayuda a proteger el sistema externo de sobrecargas y caídas.
+Por ejemplo, supongamos que ha definido una regla de límite o restricción de 200 llamadas por segundo para el sistema externo. Una acción personalizada llama al sistema en 10 recorridos diferentes. Si un recorrido recibe 300 llamadas por segundo, utilizará las 200 ranuras disponibles y descartará o pondrá en cola las 100 restantes. Como la velocidad máxima se ha superado, los otros 9 recorridos no tendrán ninguna ranura. Esta granularidad ayuda a proteger el sistema externo de sobrecargas y caídas.
 
 >[!IMPORTANT]
 >
@@ -72,7 +72,7 @@ Para **acciones personalizadas**, debe evaluar la capacidad de su API externa. P
 
 Si se cumple la regla de límite o restricción, se aplica la regla de tiempo de espera.
 
-En cada recorrido, puede definir una duración de tiempo de espera. Esto le permite establecer una duración máxima al llamar a un sistema externo. La duración del tiempo de espera se configura en las propiedades de un recorrido. Consulte [esta página](../building-journeys/journey-gs.md#timeout_and_error).
+En cada recorrido, puede definir una duración de tiempo de espera. Esto le permite establecer una duración máxima al llamar a un sistema externo. La duración del tiempo de espera se configura en las propiedades de un recorrido. Consulte [esta página](../building-journeys/journey-properties.md#timeout_and_error).
 
 Este tiempo de espera es global para todas las llamadas externas (llamadas a API externas en acciones personalizadas y fuentes de datos personalizadas). De forma predeterminada, se establece en 30 segundos.
 
@@ -102,4 +102,4 @@ Para una llamada determinada, se puede realizar un máximo de tres reintentos de
 
 **¿Dónde puedo configurar el tiempo de espera? ¿Hay un valor máximo?**
 
-En cada recorrido, puede definir una duración de tiempo de espera. La duración del tiempo de espera se configura en las propiedades de un recorrido. La duración del tiempo de espera debe estar entre 1 segundo y 30 segundos. Consulte [esta sección](../configuration/external-systems.md#timeout) y [esta página](../building-journeys/journey-gs.md#timeout_and_error).
+En cada recorrido, puede definir una duración de tiempo de espera. La duración del tiempo de espera se configura en las propiedades de un recorrido. La duración del tiempo de espera debe estar entre 1 segundo y 30 segundos. Consulte [esta sección](../configuration/external-systems.md#timeout) y [esta página](../building-journeys/journey-properties.md#timeout_and_error).

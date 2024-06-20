@@ -7,7 +7,7 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: c1dc3f3805bc0677a24466687026fac0d4990a5b
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 4%
@@ -98,7 +98,7 @@ Para asignar esto **[!UICONTROL Perfil del producto]** para los usuarios de, sig
 
 1. Seleccione el configurado anteriormente **[!UICONTROL Perfil del producto]**.
 
-1. Desde el **[!UICONTROL Usuarios]** pestaña, haga clic en **[!UICONTROL Agregar usuario]**.
+1. En la pestaña **[!UICONTROL Usuarios]**, haga clic en **[!UICONTROL Añadir usuario]**.
 
    ![](assets/push_product_6.png)
 
@@ -332,7 +332,7 @@ El evento se habrá creado y podrá utilizarlo en un recorrido.
 
 1. Clic **[!UICONTROL Crear Recorrido]** para crear un nuevo recorrido.
 
-1. Edite las propiedades del recorrido en el panel de configuración que se muestra en el lado derecho. Obtenga más información en esta [sección](../building-journeys/journey-gs.md#change-properties).
+1. Edite las propiedades del recorrido en el panel de configuración que se muestra en el lado derecho. Obtenga más información en esta [sección](../building-journeys/journey-properties.md).
 
 1. Comience arrastrando y soltando el evento creado en los pasos anteriores desde el **[!UICONTROL Eventos]** menú desplegable.
 
@@ -350,7 +350,7 @@ El evento se habrá creado y podrá utilizarlo en un recorrido.
 
    ![](assets/test_push_13.png)
 
-1. Haga clic en **[!UICONTROL Enviar]**.
+1. Clic **[!UICONTROL Enviar]**.
 
 Se activará el evento y recibirá una notificación push a su aplicación móvil.
 

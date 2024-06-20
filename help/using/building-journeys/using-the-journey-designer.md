@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: diseño, lienzo, recorrido, interfaz, arrastrar, soltar
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 5%
@@ -47,7 +47,7 @@ El **lienzo** es la zona central del diseñador de recorridos. Es en esta zona d
 
 ![](assets/journey39.png)
 
-El **toolbar**, situado en la esquina superior derecha del lienzo, le permite mostrar/ocultar la cuadrícula, ampliar/reducir y descargar una captura de pantalla del lienzo. Consulte esta [sección](../building-journeys/journey-gs.md#timeout_and_error).
+El **toolbar**, situado en la esquina superior derecha del lienzo, le permite mostrar/ocultar la cuadrícula, ampliar/reducir y descargar una captura de pantalla del lienzo. Consulte esta [sección](../building-journeys/journey-properties.md#timeout_and_error).
 
 <!--and show/hide timeout and error paths-->
 
@@ -107,7 +107,7 @@ Desde las actividades de acción, utilice acciones personalizadas para enviar me
 
 Puede definir una acción de reserva en caso de error o tiempo de espera para las siguientes actividades de recorrido: **[!UICONTROL Condición]** y **[!UICONTROL Acción]**.
 
-Para añadir una acción de reserva para una actividad, seleccione la **[!UICONTROL Añadir una ruta alternativa en caso de tiempo de espera o error]** en las propiedades de la actividad: se añade otra ruta después de la actividad. La duración del tiempo de espera la definen los usuarios administradores en la variable [propiedades del recorrido](../building-journeys/journey-gs.md#change-properties). Por ejemplo, si un correo electrónico tarda demasiado en enviarse o presenta un error, puede decidir enviar una notificación push.
+Para añadir una acción de reserva para una actividad, seleccione la **[!UICONTROL Añadir una ruta alternativa en caso de tiempo de espera o error]** en las propiedades de la actividad: se añade otra ruta después de la actividad. La duración del tiempo de espera la definen los usuarios administradores en la variable [propiedades del recorrido](../building-journeys/journey-properties.md). Por ejemplo, si un correo electrónico tarda demasiado en enviarse o presenta un error, puede decidir enviar una notificación push.
 
 ![](assets/journey42.png)
 

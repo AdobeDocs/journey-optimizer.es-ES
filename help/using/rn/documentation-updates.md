@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
 workflow-type: tm+mt
 source-wordcount: '5389'
 ht-degree: 99%
@@ -22,7 +22,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 ## Junio de 2024 {#june-2024}
 
 * Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de junio de 2024 se ha detallado en la documentación. [Más información](release-notes.md)
-* Se ha añadido una nota sobre el uso de las políticas de combinación en recorrido en [esta página](../building-journeys/journey-gs.md#merge-policies).
+* Se ha añadido una nota sobre el uso de las políticas de combinación en recorrido en [esta página](../building-journeys/journey-properties.md#merge-policies).
 * La página sobre cómo configurar una actividad **Espera** en un recorrido se ha reorganizado y mejorado. [Más información](../building-journeys/wait-activity.md)
 
 ## Mayo de 2024 {#may-2024}
@@ -82,7 +82,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 * Todas las nuevas funciones y mejoras incluidas en la versión de enero de 2024 de [!DNL Journey Optimizer] se han incluido en la documentación. [Más información](release-notes.md)
 * Se ha añadido un mecanismo de protección sobre el tamaño del recorrido. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
-* Se ha detallado la administración del tiempo de espera del recorrido [en la sección siguiente](../building-journeys/journey-gs.md#global_timeout).
+* Se ha detallado la administración del tiempo de espera del recorrido [en la sección siguiente](../building-journeys/journey-properties.md#global_timeout).
 * Se ha rediseñado la [página de inicio de documentación](../../ajo-home.md) de Journey Optimizer.
 * Se han añadido recomendaciones sobre la actividad Actualizar perfiles. [Más información](../building-journeys/update-profiles.md)
 * Se ha añadido información sobre el comportamiento de los tiempos de espera en las actividades de evento de los recorridos. Cuando no se recibe ningún evento durante el período de tiempo de espera especificado, las personas continúan el recorrido si no se define ninguna ruta de tiempo de espera. [Más información](../building-journeys/general-events.md#events-specific-time)
