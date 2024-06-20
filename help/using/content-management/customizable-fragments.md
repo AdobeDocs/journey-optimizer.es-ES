@@ -7,9 +7,9 @@ feature: Fragments
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: c84c09aac2d888c689591f2517269c88bee0cda6
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Los elementos siguientes pueden convertirse en campos editables en un componente
 
 Por ejemplo, en el siguiente código, cada elemento resaltado en rojo puede convertirse en una propiedad:
 
-![](assets/fragment-html.png){width=&quot;70%}
+![](assets/fragment-html.png){width="70%"}
 
 +++
 
