@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: db841b1378a6b897c68809fe19f1f0b90d7fd9c5
 workflow-type: tm+mt
-source-wordcount: '2623'
+source-wordcount: '2642'
 ht-degree: 13%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 13%
 >id="ajo_homepage_card2"
 >title="Creación de recorridos"
 >abstract="Utilice **Adobe Journey Optimizer** para crear casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos."
-
 
 
 ## Requisitos previos{#start-prerequisites}
@@ -326,6 +325,7 @@ El recorrido de utiliza políticas de combinación al recuperar datos de perfil 
 
 * En Leer recorridos de cualificación de audiencias o audiencias: se utiliza la política de combinación de la audiencia
 * En recorridos activados por eventos: se utiliza la política de combinación predeterminada
+* En recorridos de eventos empresariales: se utiliza la política de combinación de la audiencia de destino en la siguiente actividad Leer audiencia
 
 Recorrido respetará la política de combinación utilizada en todo el recorrido. Por lo tanto, si se utilizan varias audiencias en un recorrido (p. ej.: en funciones &quot;inAudience&quot;), lo que crea incoherencias con la política de combinación utilizada por el recorrido, se genera un error y la publicación se bloquea. Sin embargo, si se utiliza una audiencia incoherente en la personalización de mensajes, no se genera una alerta, a pesar de la incoherencia. Por este motivo, es muy recomendable comprobar la política de combinación asociada a su audiencia cuando esta audiencia se utiliza en la personalización de mensajes.
 
