@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, biblioteca, personalización
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,22 @@ Para añadir fragmentos de expresión al contenido, siga los pasos a continuaci�
 >[!NOTE]
 >
 >Si crea un fragmento de expresión que contiene varios saltos de línea y lo utiliza en [SMS](../sms/create-sms.md#sms-content) o [push](../push/design-push.md) contenido, se conservan los saltos de línea. Por lo tanto, asegúrese de probar su [SMS](../sms/send-sms.md) o [push](../push/send-push.md) antes de enviarlo.
+
+## Personalizar campos editables {#customize-fields}
+
+Si se han hecho editables ciertas partes de un fragmento de expresión mediante variables, puede anular sus valores predeterminados con una sintaxis específica. [Aprenda a personalizar los fragmentos](../content-management/customizable-fragments.md)
+
+Para personalizar los campos, siga estos pasos:
+
+1. Inserte el fragmento en el código desde el **Fragmentos** menú.
+
+1. Utilice el `<fieldId>="<value>"` código al final de la sintaxis para anular el valor predeterminado de la variable.
+
+   En el ejemplo siguiente, anulamos el valor de una variable cuyo ID es &quot;sports&quot; con el valor &quot;yoga&quot;. Esto mostrará &quot;yoga&quot; en el contenido del fragmento en todas partes donde se haga referencia a la variable &quot;sport&quot;.
+
+   ![](../content-management/assets/fragment-expression-use.png)
+
+Un ejemplo que muestra cómo añadir campos editables a fragmentos de expresión y anular sus valores al crear un correo electrónico está disponible en [esta sección](../content-management/customizable-fragments.md#example).
 
 ## Romper herencia {#break-inheritance}
 
