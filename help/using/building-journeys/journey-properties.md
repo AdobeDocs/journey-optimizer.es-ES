@@ -1,0 +1,224 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Defina las propiedades de su recorrido
+description: Obtenga información sobre cómo establecer las propiedades del recorrido con Adobe Journey Optimizer
+feature: Journeys, Get Started
+topic: Content Management
+role: User
+level: Intermediate
+keywords: recorrido, configuración, propiedades
+source-git-commit: 67032a4bcbfd56552d783f3ef78593375bfcc378
+workflow-type: tm+mt
+source-wordcount: '1568'
+ht-degree: 8%
+
+---
+
+# Establezca las propiedades del recorrido {#jo-properties}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties"
+>title="Propiedades del recorrido"
+>abstract="Esta sección muestra las propiedades del recorrido. De forma predeterminada, los parámetros de solo lectura están ocultos. La configuración disponible depende del estado del recorrido, de los permisos y de la configuración del producto."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_exit_criterias"
+>title="Criterios de salida del recorrido"
+>abstract="En esta sección se muestran las opciones de criterios de salida. Puede crear una o varias reglas de criterios de salida para el recorrido."
+
+Las propiedades del recorrido están centralizadas en el carril derecho del recorrido. Esta sección se muestra de forma predeterminada al crear un nuevo recorrido. Para los recorridos existentes, haga clic en el icono de lápiz, junto al nombre del recorrido para acceder a sus propiedades.
+
+
+Utilice esta sección para definir el nombre del recorrido, añadir una descripción y:
+
+* administrar [entrada y reentrada](#entrance),
+* elegir inicio y final [fechas](#dates),
+* administrar [acceso a los datos](#manage-access),
+* defina una [tiempo de espera](#timeout) en actividades de recorrido (solo para usuarios administradores),
+* seleccionar el recorrido y el perfil [husos horarios](#timezone)
+* asigne etiquetas unificadas de Adobe Experience Platform a su recorrido para clasificarlas fácilmente y mejorar la búsqueda desde la lista de campañas. [Descubra cómo trabajar con campañas](../start/search-filter-categorize.md#tags)
+
+![](assets/journey32.png)
+
+>[!NOTE]
+>
+>Para los recorridos activos, esta pantalla muestra solo la fecha de publicación y el nombre del usuario que publicó el recorrido.
+
+El **Copiar detalles técnicos** permite copiar información técnica sobre el recorrido que el equipo de asistencia puede utilizar para solucionar problemas. Se copia la siguiente información: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+
+
+## Entrada y reentrada {#entrance}
+
+De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desmarcar las **Permitir la reentrada** opción para recorridos de &quot;una sola toma&quot;, por ejemplo, si desea ofrecer un regalo de una sola vez cuando una persona entra en una tienda.
+
+Si la variable **Permitir la reentrada** está activada, la opción **Período de espera de reentrada** se muestra el campo. Este campo permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en el caso de recorridos unitarios (empezando con un evento o una calificación de público). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos. La duración máxima es de 29 días.
+
+Obtenga más información acerca de la administración de entrada y reentrada de perfiles, en [esta sección](entry-management.md).
+
+## Administrar acceso {#manage-access}
+
+Para asignar etiquetas de uso de datos personalizadas o principales al recorrido, haga clic en **[!UICONTROL Administrar acceso]** botón. [Obtenga más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md)
+
+![](assets/journeys-manage-access.png)
+
+## Zonas horarias de recorrido y perfil {#timezone}
+
+La zona horaria se define en el nivel de recorrido. Puede introducir una zona horaria fija o utilizar perfiles de Adobe Experience Platform para definir la zona horaria de recorrido. Si se define una zona horaria en el perfil de Adobe Experience Platform, se puede recuperar en la recorrido.
+
+Para obtener más información sobre la administración de huso horario, consulte [esta página](../building-journeys/timezone-management.md).
+
+## Fechas de inicio y finalización {#dates}
+
+Puede definir un **Fecha de inicio**. Si no ha especificado ninguna, se definirá automáticamente en el momento de la publicación.
+
+También puede agregar un **Fecha de finalización**. Esto permite que los perfiles salgan automáticamente cuando se alcanza la fecha. Si no se especifica una fecha de finalización, los perfiles pueden permanecer hasta la [tiempo de espera de recorrido global](#global_timeout) (que generalmente es de 91 días, y se reduce a 7 días con la oferta complementaria Escudo de atención sanitaria). La única excepción son los recorridos de audiencia de lectura recurrentes con **Forzar reentrada en repetición** activado, que finalizan en la fecha de inicio de la siguiente incidencia.
+
+## Tiempo de espera {#timeout}
+
+### Tiempo de espera o error en actividades de recorrido {#timeout_and_error}
+
+Al editar una actividad de acción o condición, puede definir una ruta alternativa en caso de error o tiempo de espera. Si el procesamiento de la actividad que busca un sistema de terceros supera la duración de tiempo de espera definida en **[!UICONTROL Tiempo de espera o error]** de las propiedades del recorrido, se elegirá la segunda ruta para realizar una posible acción de reserva.
+
+Los valores autorizados están entre 1 y 30 segundos.
+
+Le recomendamos que defina una variable muy corta **[!UICONTROL Tiempo de espera o error]** valor si el recorrido distingue entre tiempo y minúsculas (por ejemplo: reacción a la ubicación en tiempo real de una persona) porque no puede retrasar la acción más de unos segundos. Si el recorrido distingue menos del tiempo, puede utilizar un valor más largo para dar más tiempo al sistema llamado para enviar una respuesta válida.
+
+Recorrido también utiliza un tiempo de espera global como se detalla a continuación.
+
+### Tiempo de espera de recorrido global {#global_timeout}
+
+Además de las [timeout](#timeout_and_error) cuando se utiliza en actividades de recorrido, se aplica un tiempo de espera de recorrido global. No se muestra en la interfaz y no se puede cambiar.
+
+Este tiempo de espera global detiene el progreso de los individuos en el recorrido **91 días** después de que entren. Este tiempo de espera se reduce a **7 días** con la oferta complementaria Escudo de atención sanitaria. Esto significa que el recorrido de una persona no puede durar más de 91 días (o 7 días). Después de este período de tiempo de espera, se eliminan los datos del individuo. Las personas que sigan fluyendo en el recorrido al final del periodo de tiempo de espera se detendrán y no se tendrán en cuenta en los informes. Por lo tanto, podría ver más personas entrando en el recorrido que saliendo.
+
+>[!NOTE]
+>
+>Los recorridos no reaccionan directamente a las solicitudes de exclusión, acceso o eliminación de privacidad. Sin embargo, el tiempo de espera global garantiza que las personas nunca permanezcan más de 91 días en ningún recorrido.
+
+Debido al tiempo de espera de recorrido de 91 días, cuando no se permite la reentrada al recorrido, no podemos asegurarnos de que el bloqueo de reentrada funcione más de 91 días. De hecho, al eliminar toda la información sobre las personas que ingresaron al recorrido 91 días después de su entrada, no podemos saber la persona ingresada anteriormente, hace más de 91 días.
+
+Una persona solo puede entrar en una actividad de espera si le queda tiempo suficiente en el recorrido recorrido para completar la duración de la espera antes del tiempo de espera de 91 días. Consulte [esta página](../building-journeys/wait-activity.md).
+
+
+#### Preguntas frecuentes sobre el tiempo de vida (TTL) y la retención de datos {#timeout-faq}
+
+A partir de la versión de junio de 2024 de Adobe Journey Optimizer, el tiempo de espera global de recorrido ha pasado de 30 a 91 días. Los impactos se enumeran en las preguntas frecuentes a continuación:
+
+**Para Recorridos unitarios**
+<table style="table-layout:auto">
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede con los recorridos publicados después de que se implemente la extensión TTL?</p>
+    </td>
+    <td>
+      <p>Los perfiles que entren en el nuevo recorrido tendrán automáticamente un TTL de 91 días.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede con un perfil que introduce un recorrido publicado antes del lanzamiento de la extensión TTL?</p>
+    </td>
+    <td>
+      <p>El perfil tendrá un TTL de 91 días (7 días para HIPAA), coherente con el momento en que se publicó originalmente el recorrido.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué les sucede a los perfiles que ya han entrado en un recorrido cuando se inicia la extensión TTL?</p>
+    </td>
+    <td>
+      <p>El perfil conservará un TTL de 91 días (7 días para HIPAA), según el tiempo de publicación original del recorrido.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede con un perfil de una versión de recorrido anterior que se vuelve a publicar después del lanzamiento de la extensión TTL?</p>
+    </td>
+    <td>
+      <p>El perfil mantendrá un TTL de 91 días (7 días para HIPAA), alineado con el tiempo de publicación de la versión del recorrido original.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede si un nuevo perfil introduce una versión de recorrido republicada después del inicio de la extensión TTL?</p>
+    </td>
+    <td>
+      <p>El perfil tendrá un TTL de 91 días, que coincide con el TTL de la versión del recorrido recién publicada.</p>
+    </td>
+  </tr>
+</table>
+
+**Para Recorridos de Déclencheur de segmentos**
+
+<table style="table-layout:auto">
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede con los nuevos recorridos únicos publicados después de la extensión TTL?</p>
+    </td>
+    <td>
+      <p>Los perfiles que entren en el nuevo recorrido tendrán un TTL de 91 días automáticamente.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede con los nuevos recorridos recurrentes sin reentrada forzada publicados después de la extensión TTL?</p>
+    </td>
+    <td>
+      <p>Los perfiles que entren en el nuevo recorrido tendrán un TTL de 91 días automáticamente.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede con los nuevos recorridos recurrentes con reentrada forzada publicados después de la extensión TTL?</p>
+    </td>
+    <td>
+      <p>Los perfiles que entren en el nuevo recorrido tendrán un TTL igual al periodo de periodicidad. Por ejemplo, si el recorrido se ejecuta a diario, el TTL será de 1 día.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede con un perfil que introduce un recorrido publicado antes del lanzamiento de la extensión TTL?</p>
+    </td>
+    <td>
+      <p>El perfil tendrá un TTL de 91 días (7 días para HIPAA), coherente con el tiempo de publicación original. Para los recorridos recurrentes con reentrada forzada, el TTL coincidirá con el período de periodicidad.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede con un perfil que se ejecuta a través de un recorrido cuando se inicia la extensión TTL?</p>
+    </td>
+    <td>
+      <p>El perfil conservará un TTL de 91 días (7 días para HIPAA), según el tiempo de publicación original del recorrido. Para los recorridos recurrentes con reentrada forzada, el TTL coincidirá con el período de periodicidad.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede con un perfil en ejecución en una versión de recorrido anterior que se vuelve a publicar después del lanzamiento de la extensión TTL?</p>
+    </td>
+    <td>
+      <p>El perfil mantendrá un TTL de 91 días (7 días para HIPPA), alineado con el tiempo de publicación de la versión original del recorrido. Para los recorridos recurrentes con reentrada forzada, el TTL coincidirá con el período de periodicidad.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Qué sucede si un nuevo perfil introduce una versión de recorrido republicada después del inicio de la extensión TTL?</p>
+    </td>
+    <td>
+      <p>El perfil tendrá un TTL de 91 días, que coincide con el TTL de la versión del recorrido recién publicada. Para los recorridos recurrentes con reentrada forzada, el TTL coincidirá con el período de periodicidad.</p>
+    </td>
+  </tr>
+</table>
+
+## Políticas de combinación {#merge-policies}
+
+El recorrido de utiliza políticas de combinación al recuperar datos de perfil de Adobe Experience Platform. Según el tipo de recorrido, se utilizan distintas políticas de combinación:
+
+* En Leer recorridos de cualificación de audiencias o audiencias: se utiliza la política de combinación de la audiencia
+* En recorridos de eventos unitarios: se utiliza la política de combinación predeterminada
+* En recorridos de eventos empresariales: se utiliza la política de combinación de la audiencia de destino en la siguiente actividad Leer audiencia
+
+Recorrido respetará la política de combinación utilizada en todo el recorrido. Por lo tanto, si se utilizan varias audiencias en un recorrido (p. ej.: en funciones &quot;inAudience&quot;), lo que crea incoherencias con la política de combinación utilizada por el recorrido, se genera un error y la publicación se bloquea. Sin embargo, si se utiliza una audiencia incoherente en la personalización de mensajes, no se genera una alerta, a pesar de la incoherencia. Por este motivo, es muy recomendable comprobar la política de combinación asociada a su audiencia cuando esta audiencia se utiliza en la personalización de mensajes.
+
+Para obtener más información sobre las políticas de combinación, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+
