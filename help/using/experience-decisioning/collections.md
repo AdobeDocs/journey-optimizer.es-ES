@@ -9,8 +9,8 @@ badge: label="Disponibilidad limitada"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 49%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 49%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_collection_rules"
 >title="Definición de reglas para la colección"
->abstract="Añada una o varias reglas para determinar los elementos que se incluirán en la colección. Elija un atributo de elemento para utilizarlo como criterio. Seleccione el operador deseado e introduzca el valor por el que desea filtrar. Añada tantas relaciones como sea necesario."
+>abstract="Añada una o varias reglas para determinar los elementos que se incluirán en la colección. Elija un atributo de elemento para utilizarlo como criterio. Seleccione el operador deseado e introduzca el valor por el que desea filtrar. Añada tantas reglas como sea necesario."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_collection"
