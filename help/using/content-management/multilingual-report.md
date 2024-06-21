@@ -8,29 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: introducción, inicio, contenido, experimento
-hide: true
-hidefromtoc: true
 exl-id: 662681ad-5044-4025-aff1-204626fee052
-badge: label="Beta" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 16%
+source-wordcount: '191'
+ht-degree: 5%
 
 ---
 
 # Informe de campaña multilingüe {#multilingual-campaign-report}
-
->[!BEGINSHADEBOX]
-
-**Tabla de contenido**
-
-* [Introducción al contenido multilingüe](multilingual-gs.md)
-* [Creación de contenido multilingüe con traducción manual](multilingual-manual.md)
-* [Creación de contenido multilingüe con traducción automática](multilingual-automated.md)
-* Informe de campaña multilingüe
-
->[!ENDSHADEBOX]
 
 Informes globales, accesibles desde **Siempre** pestaña, muestra los eventos que se produjeron hace al menos dos horas y cubre los eventos durante un periodo de tiempo seleccionado. Se puede acceder al informe global de Campaign directamente desde la campaña con la variable **[!UICONTROL Ver informe]** botón.
 

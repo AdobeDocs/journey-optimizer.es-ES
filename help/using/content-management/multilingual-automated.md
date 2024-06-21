@@ -8,29 +8,20 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: introducción, inicio, contenido, experimento
-hide: true
-hidefromtoc: true
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-badge: label="Beta" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+badge: label="Disponibilidad limitada" type="Informative"
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 4%
+source-wordcount: '1331'
+ht-degree: 3%
 
 ---
 
 # Creación de contenido multilingüe con traducción automática {#multilingual-automated}
 
->[!BEGINSHADEBOX]
-
-**Tabla de contenido**
-
-* [Introducción al contenido multilingüe](multilingual-gs.md)
-* [Creación de contenido multilingüe con traducción manual](multilingual-manual.md)
-* Creación de contenido multilingüe con traducción automática
-* [Informe de campaña multilingüe](multilingual-report.md)
-
->[!ENDSHADEBOX]
+>[!AVAILABILITY]
+>
+>Actualmente, el contenido multilingüe solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 Con el flujo automatizado, simplemente puede seleccionar el idioma de destino y el proveedor de idioma. A continuación, el contenido se envía directamente a la traducción, listo para una revisión final una vez finalizado.
 
@@ -42,7 +33,7 @@ Siga estos pasos para crear contenido multilingüe mediante traducción automát
 
 1. [Crear configuración de idioma](#create-language-settings).
 
-1. [Creación de una campaña multilingüe](#create-a-multilingual-campaign).
+1. [Creación de contenido multilingüe](#create-a-multilingual-campaign).
 
 1. [Revise la tarea de traducción (opcional)](#review-translation-project).
 
@@ -50,9 +41,7 @@ Siga estos pasos para crear contenido multilingüe mediante traducción automát
 
 Al configurar los ajustes de idioma, tal como se describe en la sección [Cree la configuración de idioma](#language-settings) , si una configuración regional específica no está disponible para el contenido multilingüe, tiene la flexibilidad de crear tantas configuraciones regionales nuevas como sea necesario utilizando **[!UICONTROL Traducción]** menú.
 
-1. Desde el **[!UICONTROL Administration]** menú, acceso **[!UICONTROL Canal]**.
-
-   El menú de traducciones le permite acceder a la lista de configuraciones regionales activadas.
+1. Desde el **[!UICONTROL Gestión de contenido]** menú, acceso **[!UICONTROL Traducción]**.
 
 1. Desde el **[!UICONTROL Diccionario de configuración regional]** pestaña, haga clic en **[!UICONTROL Añadir configuración regional]**.
 
@@ -68,7 +57,7 @@ Al configurar los ajustes de idioma, tal como se describe en la sección [Cree l
 
 Inicie el proyecto de traducción especificando la configuración regional de Target e indicando el idioma o la región específicos para el contenido. A continuación, puede elegir su proveedor de traducción.
 
-1. Desde el **[!UICONTROL Proyectos de traducción]** menú debajo de **[!UICONTROL Gestión de contenido]**, haga clic en **[!UICONTROL Crear proyecto]**.
+1. Desde el **[!UICONTROL Traducción]** menú debajo de **[!UICONTROL Gestión de contenido]**, haga clic en **[!UICONTROL Crear proyecto]** en el **[!UICONTROL Proyectos]** pestaña.
 
    ![](assets/translation_project_1.png)
 
@@ -149,11 +138,11 @@ En esta sección, puede establecer el idioma principal y sus configuraciones reg
 1. Select your **[!UICONTROL Locales dictionary]** and add as many as needed.
 -->
 
-## Creación de una campaña multilingüe {#create-multilingual-campaign}
+## Creación de contenido multilingüe {#create-multilingual-campaign}
 
-Una vez que haya configurado el proyecto de traducción y la configuración de idioma, estará listo para crear la campaña y personalizar el contenido para las diferentes configuraciones regionales.
+Una vez que haya configurado el proyecto de traducción y la configuración de idioma, estará listo para crear la campaña o el recorrido y personalizar el contenido para las diferentes configuraciones regionales.
 
-1. Comience creando y configurando su campaña de notificaciones por correo electrónico, SMS o push según sus necesidades. [Más información](../campaigns/create-campaign.md)
+1. Comience creando y configurando las notificaciones push, de correo electrónico o SMS [campaña](../campaigns/create-campaign.md) o [recorrido](../building-journeys/journeys-message.md) según sus necesidades.
 
 1. Una vez creado el contenido principal, haga clic en **[!UICONTROL Guardar]** y vuelva a la pantalla de configuración de la campaña.
 
@@ -211,9 +200,7 @@ Una vez que haya configurado el proyecto de traducción y la configuración de i
 
 1. Compruebe que la campaña esté configurada correctamente y haga clic en **[!UICONTROL Activar]**.
 
-La campaña está activada. El mensaje configurado en la campaña se envía inmediatamente o en la fecha especificada. Tenga en cuenta que, tan pronto como la campaña esté activa, no se puede modificar. Para reutilizar contenido, puede duplicar la campaña.
-
-Una vez enviado, puede medir el impacto de las campañas en los informes de campañas.
+Ahora puede activar la campaña o el recorrido. Una vez enviada, puede medir el impacto del recorrido o la campaña multilingüe dentro de los informes.
 
 ## Administrar proyectos de traducción internos {#manage-ht-project}
 
