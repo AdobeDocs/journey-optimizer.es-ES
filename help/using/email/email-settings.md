@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
 workflow-type: tm+mt
-source-wordcount: '2415'
-ht-degree: 1%
+source-wordcount: '2532'
+ht-degree: 10%
 
 ---
 
@@ -26,24 +26,24 @@ Para empezar a crear un correo electrónico, debe configurar las superficies de 
 
 Defina la configuración de correo electrónico en la sección dedicada de la configuración de superficie de canal, como se detalla a continuación.
 
-![](assets/preset-email-settings.png)
+![](assets/surface-email-settings.png){width="50%" align="left"}
 
 La configuración de la superficie de correo electrónico se recoge para enviar comunicaciones siguiendo la lógica siguiente:
 
-* Para los recorridos por lotes, no se aplica a la ejecución por lotes que ya se había iniciado antes de configurar la superficie de correo electrónico. Los cambios se recogerán en la próxima periodicidad o en la nueva ejecución.
+* Para los recorridos por lotes, no se aplica a la ejecución por lotes que ya se había iniciado antes de configurar la superficie de correo electrónico. Los cambios se recogen en la siguiente periodicidad o nueva ejecución.
 
 * En el caso de los mensajes transaccionales, el cambio se recoge inmediatamente para la siguiente comunicación (con un retraso de hasta cinco minutos).
 
 >[!NOTE]
 >
->La configuración actualizada de la superficie de correo electrónico se recoge automáticamente en los recorridos o campañas en los que se utiliza la superficie.
+>La configuración actualizada de la superficie de correo electrónico se recoge automáticamente en los recorridos o campañas donde se utiliza la superficie.
 
 ## Tipo de correo electrónico {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="Definición del tipo de correo electrónico"
->abstract="Seleccione el tipo de correos electrónicos que se enviarán al utilizar esta superficie: Marketing para correos electrónicos promocionales, que requieren el consentimiento del usuario, o Transaccional para correos electrónicos no comerciales, que también se pueden enviar a perfiles sin suscribir en contextos específicos."
+>title="Definir el tipo de correo electrónico"
+>abstract="Seleccione el tipo de correos electrónicos que se enviarán al utilizar esta superficie: marketing para correos electrónicos promocionales, que requieren el consentimiento del usuario, o Transaccional para correos electrónicos no comerciales, que también se pueden enviar a perfiles cuya suscripción se haya cancelado en contextos específicos."
 
 En el **Tipo de correo electrónico** , seleccione el tipo de mensaje para la superficie: **[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**.
 
@@ -67,7 +67,7 @@ Para preservar la reputación de su dominio, acelerar el proceso de calentamient
 
 Seleccione el grupo de IP que se asociará a la superficie. [Más información](../configuration/ip-pools.md)
 
-![](assets/preset-subdomain-ip-pool.png){width="50%" align="left"}
+![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
 No se puede continuar con la creación de superficies mientras el grupo de IP seleccionado se encuentra en [edición](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Procesando]** estado) y nunca se ha asociado con el subdominio seleccionado. De lo contrario, se seguirá utilizando la versión más antigua de la asociación de subdominios/grupos de IP. En este caso, guarde la superficie como borrador y vuelva a intentarlo una vez que el grupo de IP tenga el valor **[!UICONTROL Correcto]** estado.
 
@@ -81,41 +81,48 @@ Una vez seleccionado un grupo de IP, la información de PTR se ve al pasar el ra
 >
 >Si no se ha configurado un registro PTR, póngase en contacto con el representante del Adobe.
 
-## Cancelar suscripción a lista {#list-unsubscribe}
+## Encabezado Cancelar suscripción a lista{#list-unsubscribe}
+
+<!--Do not modify - Legal Review Done -->
+
 
 Tras [selección de un subdominio](#subdomains-and-ip-pools) de la lista, la variable **[!UICONTROL Habilitar cancelación de suscripción a lista]** se muestra la opción.
 
-Esta opción está habilitada de forma predeterminada. Si lo deja habilitado, se incluirá automáticamente un vínculo para cancelar la suscripción en el encabezado del correo electrónico, como:
+Esta opción está habilitada de forma predeterminada para incluir una URL de cancelación de suscripción de un solo clic en el encabezado del correo electrónico, como:
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-Si desactiva esta opción, no se muestra ningún vínculo para cancelar la suscripción en el encabezado del correo electrónico.
+Si desactiva esta opción, no se mostrará la URL &quot;Cancelar la suscripción&quot; con un solo clic en el encabezado del correo electrónico.
 
-Puede seleccionar el nivel de consentimiento en **Nivel de consentimiento** lista desplegable. Puede ser específico del canal o de la identidad del perfil. En función de esta configuración, cuando un usuario cancela la suscripción mediante el vínculo de encabezado Cancelar la suscripción de lista de un correo electrónico, el consentimiento se actualiza en Adobe Journey Optimizer en el nivel de canal o de ID.
+Puede seleccionar el nivel de consentimiento en **[!UICONTROL Nivel de consentimiento]** lista desplegable. Puede ser específico del canal o de la identidad del perfil. En función de esta configuración, cuando un usuario cancela la suscripción mediante la URL de cancelación de suscripción de lista en el encabezado de un correo electrónico, el consentimiento se actualiza en Adobe Journey Optimizer en el nivel de canal o de ID.
 
-El vínculo de cancelación de suscripción consta de dos elementos:
+El encabezado Cancelar la suscripción a una lista ofrece dos funciones (Mailto y URL de cancelación de suscripción con un clic, como se explica a continuación) que están habilitadas de forma predeterminada a menos que desactive una o ambas funciones:
 
-* Un **cancelar suscripción de dirección de correo electrónico**, a los que se envían todas las solicitudes de cancelación de suscripción.
+* A **Mailto (cancelar la suscripción)** la dirección, que es la dirección de destino a la que se dirigen las solicitudes de cancelación de suscripción para el procesamiento automático.
 
-  Entrada [!DNL Journey Optimizer], la dirección de correo electrónico para cancelar la suscripción es la predeterminada **[!UICONTROL Mailto (cancelar la suscripción)]** dirección mostrada en la superficie de canal, basada en la variable [subdominio seleccionado](#subdomains-and-ip-pools).
+  En Journey Optimizer, la dirección de correo electrónico para cancelar la suscripción es la predeterminada **Mailto (cancelar la suscripción)** dirección mostrada en la superficie de canal, en función de [subdominio seleccionado](#subdomains-and-ip-pools).
 
-  ![](assets/preset-list-unsubscribe-mailto.png){width="50%" align="left"}
+  ![](assets/surface-list-unsubscribe-mailto.png){width="50%" align="left"}
 
-* El **URL de cancelación de suscripción**, que es la dirección URL de la página de aterrizaje a la que se redirige al usuario una vez cancelada la suscripción.
 
-  Si agrega un [vínculo de no participación de un clic](../privacy/opt-out.md#one-click-opt-out) Para agregar un mensaje creado con esta superficie, la URL de cancelación de suscripción será la URL definida para el vínculo de no participación de un solo clic.
+* El **URL de cancelación de suscripción de un clic**, que de forma predeterminada es el encabezado Cancelar la suscripción a una lista generado por una URL con un solo clic, según el subdominio que establezca y configure en la Configuración de superficie de canal.
 
-  ![](assets/preset-list-unsubscribe-opt-out-url.png)
+<!--
+    >[!AVAILABILITY]
+    >
+    >One-click Unsubscribe URL Header will be available in Adobe Journey Optimizer starting June 3, 2024.
+    >
+-->
 
-  >[!NOTE]
-  >
-  >Si no agrega un vínculo de no participación de un clic al contenido del mensaje, no se mostrará ninguna página de aterrizaje al usuario.
+El **[!UICONTROL Mailto (cancelar la suscripción)]** y la función **[!UICONTROL URL de cancelación de suscripción de un clic]** son opcionales. Si no desea utilizar la URL de cancelación de suscripción generada de un solo clic predeterminada, puede desactivar la función. En el caso de que la variable **[!UICONTROL Configuración de exclusión]** está activada y la opción **[!UICONTROL URL de cancelación de suscripción de un clic]** función está desactivada si añade una [vínculo de no participación de un clic](../privacy/opt-out.md#one-click-opt-out) Para añadir un mensaje creado con esta superficie, el encabezado de cancelación de suscripción a la lista recoge el vínculo de no participación de un solo clic que ha insertado en el cuerpo del correo electrónico y lo utiliza como valor de URL de cancelación de suscripción de un clic.
 
-Obtenga más información sobre cómo añadir un vínculo de cancelación de suscripción de encabezado a los mensajes en [esta sección](../privacy/opt-out.md#unsubscribe-header).
+![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-<!--If you have added one or more dynamic subdomains, URLs will be populated based on the resolved dynamic subdomain. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
+>[!NOTE]
+>
+>Si no agrega un vínculo de no participación de un clic al contenido del mensaje y la URL predeterminada de cancelación de suscripción de un clic no está marcada en la Configuración de superficie de canal, no se pasará ninguna URL al encabezado del correo electrónico como parte del encabezado Cancelación de suscripción a una lista.
 
-<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
+Obtenga más información sobre la administración de las funciones de cancelación de suscripción en sus mensajes en [esta sección](../email/email-opt-out.md#unsubscribe-header).
 
 ## Parámetros de encabezado {#email-header}
 
@@ -230,9 +237,9 @@ Una vez activada esta opción, aunque un cliente haya marcado su correo electró
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
->title="Adición de una lista semilla"
->abstract="Seleccione la lista semilla que desee para añadir automáticamente direcciones internas específicas a las audiencias. Estas direcciones semilla se incluyen en el momento de la ejecución de la entrega y reciben una copia exacta del mensaje para fines de garantía."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="¿Qué son las listas semilla?"
+>title="Añadir una lista semilla"
+>abstract="Seleccione la lista semilla que desee para añadir automáticamente direcciones internas específicas a sus públicos. Estas direcciones semilla se incluirán en el momento de la ejecución de la entrega y recibirán una copia exacta del mensaje con fines de garantía."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=es#use-seed-list" text="¿Qué son las listas semilla?"
 
 Una lista semilla en [!DNL Journey Optimizer] permite incluir automáticamente direcciones semilla de correo electrónico específicas en las entregas. [Más información](../configuration/seed-lists.md)
 
@@ -257,8 +264,8 @@ Aprenda a utilizar la lista semilla en una campaña o un recorrido en [esta secc
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
 >title="Ajustar el período de tiempo de reintento"
->abstract="Los reintentos se realizan durante 3,5 días (84 horas) cuando falla una entrega de correo electrónico debido a un error temporal de devolución suave. Puede ajustar este período de tiempo de reintento predeterminado para adaptarlo mejor a sus necesidades."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="Acerca de los reintentos"
+>abstract="Los reintentos se realizan durante 3,5 días (84 horas) cuando falla el envío de un correo electrónico debido a un error temporal de mensaje devuelto no entregado. Puede ajustar este período de tiempo de reintento predeterminado para adaptarlo mejor a sus necesidades."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=es" text="Acerca de los reintentos"
 
 Puede configurar las variables **Parámetros de reintento de correo electrónico**.
 
@@ -278,15 +285,15 @@ Obtenga más información sobre reintentos en [esta sección](../configuration/r
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="Definir parámetros de seguimiento de URL"
->abstract="Utilice esta sección para anexar automáticamente parámetros de seguimiento a las direcciones URL presentes en el contenido del correo electrónico. Esta función es opcional."
+>title="Definir los parámetros de seguimiento de URL"
+>abstract="Utilice esta sección para adjuntar automáticamente parámetros de seguimiento a las direcciones URL presentes en el contenido del correo electrónico. Esta función es opcional."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
->title="Previsualizar parámetros de seguimiento de URL"
+>title="Previsualizar los parámetros de seguimiento de URL"
 >abstract="Revise cómo se adjuntarán los parámetros de seguimiento a las direcciones URL presentes en el contenido del correo electrónico."
 
-Puede utilizar **[!UICONTROL Parámetros de seguimiento de URL]** para medir la eficacia de sus esfuerzos de marketing entre canales. Esta función es opcional.
+Puede utilizar **[!UICONTROL Parámetros de seguimiento de URL]** para medir la eficacia de sus esfuerzos de marketing entre canales. Esta funcionalidad es opcional.
 
 Los parámetros definidos en esta sección se adjuntan al final de las direcciones URL incluidas en el contenido del mensaje de correo electrónico. A continuación, puede capturar estos parámetros en herramientas de análisis web como Adobe Analytics o Google Analytics y crear varios informes de rendimiento.
 

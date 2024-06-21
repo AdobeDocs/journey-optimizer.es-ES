@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: aterrizaje, página de aterrizaje, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '979'
 ht-degree: 12%
 
 ---
@@ -88,7 +88,7 @@ Todos los usuarios que se hayan registrado en su evento recibirán el correo ele
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 
-## Exclusión {#opt-out}
+## Página de aterrizaje de exclusión {#opt-out}
 
 Para permitir que los destinatarios cancelen su suscripción a las comunicaciones, puede incluir en sus correos electrónicos un vínculo a una página de aterrizaje de exclusión.
 
@@ -107,7 +107,7 @@ Por lo tanto, siempre debe incluir un **enlace para cancelar la suscripción** e
 
 ### Configuración de la exclusión de correo electrónico {#configure-opt-out}
 
-Para permitir que los destinatarios de un correo electrónico cancelen su suscripción a las comunicaciones a través de una página de aterrizaje, siga los pasos a continuación.
+Para permitir que los destinatarios de un correo electrónico cancelen su suscripción a las comunicaciones a través de una página de aterrizaje, siga los pasos a continuación:
 
 1. Cree su página de aterrizaje. [Más información](create-lp.md)
 
@@ -167,6 +167,12 @@ La información de exclusión se almacena en el **Conjunto de datos del servicio
 >
 >Incluso si no se han agregado lotes a este conjunto de datos, seguirá conteniendo la información de inclusión/exclusión.
 
+
+
+**Consulte también:**
+
+* [Opción de exclusión en un clic](../email/email-opt-out.md#one-click-opt-out-link)
+* [Vínculo de no participación en el encabezado del correo electrónico](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
 
