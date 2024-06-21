@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
-source-git-commit: 67032a4bcbfd56552d783f3ef78593375bfcc378
+exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
+source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1726'
 ht-degree: 8%
 
 ---
@@ -50,7 +51,23 @@ El **Copiar detalles técnicos** permite copiar información técnica sobre el r
 
 ## Entrada y reentrada {#entrance}
 
+### Permitir la reentrada  {#allow-re-entrance}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_entrance"
+>title="Permitir la reentrada"
+>abstract="De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desmarcar las **Permitir la reentrada** opción para recorridos de &quot;una sola toma&quot;, por ejemplo, si desea ofrecer un regalo de una sola vez cuando una persona entra en una tienda."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Administración de la entrada del perfil"
+
 De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desmarcar las **Permitir la reentrada** opción para recorridos de &quot;una sola toma&quot;, por ejemplo, si desea ofrecer un regalo de una sola vez cuando una persona entra en una tienda.
+
+### Período de espera de reentrada  {#re-entrance-wait}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_re-entrance_wait"
+>title="Período de espera de reentrada"
+>abstract=" Establezca el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en recorridos unitarios. Esto evita que los usuarios vuelvan a entrar en el recorrido durante un tiempo determinado. Duración máxima: 29 días."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Administración de la entrada del perfil"
 
 Si la variable **Permitir la reentrada** está activada, la opción **Período de espera de reentrada** se muestra el campo. Este campo permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en el caso de recorridos unitarios (empezando con un evento o una calificación de público). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos. La duración máxima es de 29 días.
 
@@ -70,6 +87,17 @@ Para obtener más información sobre la administración de huso horario, consult
 
 ## Fechas de inicio y finalización {#dates}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_start_date"
+>title="Fecha de inicio"
+>abstract="Elija la fecha en la que puede comenzar la entrada en el recorrido. Si no se especifica ninguna fecha de inicio, se establece automáticamente en el momento de la publicación."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_end_date"
+>title="Fecha final"
+>abstract="Elija la fecha de finalización del recorrido. Cuando llega esa fecha, los perfiles de ese recorrido lo abandonan automáticamente y los nuevos ya no pueden entrar en él."
+
 Puede definir un **Fecha de inicio**. Si no ha especificado ninguna, se definirá automáticamente en el momento de la publicación.
 
 También puede agregar un **Fecha de finalización**. Esto permite que los perfiles salgan automáticamente cuando se alcanza la fecha. Si no se especifica una fecha de finalización, los perfiles pueden permanecer hasta la [tiempo de espera de recorrido global](#global_timeout) (que generalmente es de 91 días, y se reduce a 7 días con la oferta complementaria Escudo de atención sanitaria). La única excepción son los recorridos de audiencia de lectura recurrentes con **Forzar reentrada en repetición** activado, que finalizan en la fecha de inicio de la siguiente incidencia.
@@ -77,6 +105,12 @@ También puede agregar un **Fecha de finalización**. Esto permite que los perfi
 ## Tiempo de espera {#timeout}
 
 ### Tiempo de espera o error en actividades de recorrido {#timeout_and_error}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_timout"
+>title="Tiempo de espera"
+>abstract="Defina la cantidad de tiempo durante la cual el recorrido intentará ejecutar una acción o comprobar una condición antes de considerarla como tiempo de espera."
+
 
 Al editar una actividad de acción o condición, puede definir una ruta alternativa en caso de error o tiempo de espera. Si el procesamiento de la actividad que busca un sistema de terceros supera la duración de tiempo de espera definida en **[!UICONTROL Tiempo de espera o error]** de las propiedades del recorrido, se elegirá la segunda ruta para realizar una posible acción de reserva.
 
@@ -221,4 +255,3 @@ El recorrido de utiliza políticas de combinación al recuperar datos de perfil 
 Recorrido respetará la política de combinación utilizada en todo el recorrido. Por lo tanto, si se utilizan varias audiencias en un recorrido (p. ej.: en funciones &quot;inAudience&quot;), lo que crea incoherencias con la política de combinación utilizada por el recorrido, se genera un error y la publicación se bloquea. Sin embargo, si se utiliza una audiencia incoherente en la personalización de mensajes, no se genera una alerta, a pesar de la incoherencia. Por este motivo, es muy recomendable comprobar la política de combinación asociada a su audiencia cuando esta audiencia se utiliza en la personalización de mensajes.
 
 Para obtener más información sobre las políticas de combinación, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
-
