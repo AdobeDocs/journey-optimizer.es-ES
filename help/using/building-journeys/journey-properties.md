@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
+source-git-commit: 87fa5875dfdbae091b36129812948362324f2516
 workflow-type: tm+mt
-source-wordcount: '1726'
+source-wordcount: '1722'
 ht-degree: 8%
 
 ---
@@ -56,7 +56,7 @@ El **Copiar detalles técnicos** permite copiar información técnica sobre el r
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Permitir la reentrada"
->abstract="De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desmarcar las **Permitir la reentrada** opción para recorridos de &quot;una sola toma&quot;, por ejemplo, si desea ofrecer un regalo de una sola vez cuando una persona entra en una tienda."
+>abstract="De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desmarcar las **Permitir la reentrada** opción por ejemplo, si desea ofrecer un regalo de una sola vez cuando una persona entra en una tienda."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Administración de la entrada del perfil"
 
 De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desmarcar las **Permitir la reentrada** opción para recorridos de &quot;una sola toma&quot;, por ejemplo, si desea ofrecer un regalo de una sola vez cuando una persona entra en una tienda.
@@ -107,7 +107,7 @@ También puede agregar un **Fecha de finalización**. Esto permite que los perfi
 ### Tiempo de espera o error en actividades de recorrido {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_timout"
+>id="ajo_journey_properties_timeout"
 >title="Tiempo de espera"
 >abstract="Defina la cantidad de tiempo durante la cual el recorrido intentará ejecutar una acción o comprobar una condición antes de considerarla como tiempo de espera."
 
