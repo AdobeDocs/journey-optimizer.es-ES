@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Beta" type="Informative"
-source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 4%
@@ -50,7 +50,7 @@ El **[!UICONTROL Estadísticas de la campaña]** El widget detalla la informaci�
 
 El **[!UICONTROL Objetivos]** Esta pestaña le permite ajustar mejor los informes de las entregas dirigiéndose a una métrica específica.
 
-El **[!UICONTROL Objetivos]** los elementos enumerados están vinculados a **[!UICONTROL Conjuntos de datos]** que definen una conexión a un sistema para recuperar información adicional. Una lista de componentes integrados **[!UICONTROL Objetivos]** está disponible, pero puede agregar los suyos propios agregando nuevos **[!UICONTROL Conjunto de datos]**. Para ver el procedimiento detallado, consulte [sección](../campaigns/reporting-configuration.md).
+El **[!UICONTROL Objetivos]** los elementos enumerados están vinculados a **[!UICONTROL Conjuntos de datos]** que definen una conexión a un sistema para recuperar información adicional. Una lista de componentes integrados **[!UICONTROL Objetivos]** está disponible, pero puede agregar los suyos propios agregando nuevos **[!UICONTROL Conjunto de datos]**. Para ver el procedimiento detallado, consulte [sección](../content-management/reporting-configuration.md).
 
 Después de seleccionar los Objetivos en los que desea centrarse, se muestran los dos **[!UICONTROL Resumen de rendimiento]** y **[!UICONTROL Objetivo de campaña]** los widgets proporcionan un resumen detallado del rendimiento de su envío.
 
@@ -72,7 +72,7 @@ La tabla presenta las siguientes métricas:
 
 * **[!UICONTROL Alza sobre la línea base]**: Medida de la mejora porcentual en la tasa de conversión de un tratamiento determinado respecto al valor basal.
 
-* **[!UICONTROL Confianza]**: Evidencia de que un tratamiento dado es el mismo que el tratamiento basal. [Más información](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Confianza]**: Evidencia de que un tratamiento dado es el mismo que el tratamiento basal. [Más información](../content-management/experiment-calculations.md#understand-confidence)
 
 * **[!UICONTROL Clics salientes únicos]**: Recuento total de clics en los canales salientes.
 
@@ -80,7 +80,7 @@ La tabla presenta las siguientes métricas:
 
 * **[!UICONTROL Clics/perfiles salientes únicos]**: Valor total de la métrica de éxito, seleccionada anteriormente al crear los experimentos, dividido por el número de perfiles.
 
-El **[!UICONTROL Intervalo de confianza]** el gráfico mide la incertidumbre en torno a la mejora. Detalla la diferencia porcentual en el rendimiento entre la línea de base y el tratamiento con mejor rendimiento. [Más información](../campaigns/experiment-calculations.md#confidence-intervals).
+El **[!UICONTROL Intervalo de confianza]** el gráfico mide la incertidumbre en torno a la mejora. Detalla la diferencia porcentual en el rendimiento entre la línea de base y el tratamiento con mejor rendimiento. [Más información](../content-management/experiment-calculations.md#confidence-intervals).
 +++
 
-Para profundizar en estos resultados y en cómo interpretarlos, consulte [esta página](../campaigns/get-started-experiment.md#interpret-results).
+Para profundizar en estos resultados y en cómo interpretarlos, consulte [esta página](../content-management/get-started-experiment.md#interpret-results).

@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1848'
 ht-degree: 98%
 
 ---
@@ -174,13 +174,6 @@ ht-degree: 98%
    + [Creación de una campaña](using/campaigns/create-campaign.md)
    + [Revisión y activación de una campaña](using/campaigns/review-activate-campaign.md)
    + [Administración de campañas](using/campaigns/modify-stop-campaign.md)
-   + Experimento de contenido {#content-experiment}
-      + [Introducción al experimento de contenido](using/campaigns/get-started-experiment.md)
-      + [Creación de un experimento de contenido](using/campaigns/content-experiment.md)
-      + [Configurar informes de experimentación](using/campaigns/reporting-configuration.md)
-      + Notas técnicas {#technotes}
-         + [Comprensión de los cálculos estadísticos](using/campaigns/experiment-calculations.md)
-         + [Explicación de los cálculos estadísticos en el informe de experimentación](using/campaigns/experiment-report-calculations.md)
    + [Activación de campañas mediante las API](using/campaigns/api-triggered-campaigns.md)
 + Canal de correo electrónico {#email}
    + [Empezar con correos electrónicos](using/email/get-started-email.md)
@@ -283,6 +276,13 @@ ht-degree: 98%
       + [Introducción al contenido multilingüe](using/content-management/multilingual-gs.md)
       + [Creación de contenido multilingüe con traducción manual](using/content-management/multilingual-manual.md)
       + [Creación de contenido multilingüe con traducción automática](using/content-management/multilingual-automated.md)
+   + Trabajo con el experimento de contenido {#content-experiment}
+      + [Introducción al experimento de contenido](using/content-management/get-started-experiment.md)
+      + [Creación de un experimento de contenido](using/content-management/content-experiment.md)
+      + [Configurar informes de experimentación](using/content-management/reporting-configuration.md)
+      + Notas técnicas {#technotes}
+         + [Comprensión de los cálculos estadísticos](using/content-management/experiment-calculations.md)
+         + [Explicación de los cálculos estadísticos en el informe de experimentación](using/content-management/experiment-report-calculations.md)
    + Recursos/Imágenes {#assets-images}
       + [Trabajar con Experience Manager Assets](using/content-management/assets.md)
       + [Trabajar con Adobe Stock](using/content-management/stock.md)

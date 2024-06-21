@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
->title="Creación de mensaje push"
->abstract="Añada el mensaje push y empiece a personalizarlo con el editor de personalización."
+>title="Creación de mensajes push"
+>abstract="Añada el mensaje push y comience a personalizarlo con el editor de personalización."
 
 ## Creación de la notificación push en un recorrido o una campaña {#create}
 
@@ -70,7 +70,7 @@ Para crear una notificación push, siga los pasos a continuación:
 
    ![](assets/push_create_5.png)
 
-1. Clic **[!UICONTROL Crear experimento]** para comenzar a configurar el experimento de contenido y crear tratamientos para medir su rendimiento e identificar la mejor opción para la audiencia de destino. [Más información](../campaigns/content-experiment.md)
+1. Clic **[!UICONTROL Crear experimento]** para comenzar a configurar el experimento de contenido y crear tratamientos para medir su rendimiento e identificar la mejor opción para la audiencia de destino. [Más información](../content-management/content-experiment.md)
 
 1. Las campañas están diseñadas para ejecutarse en una fecha específica o en una frecuencia recurrente. Obtenga información sobre cómo configurar el **[!UICONTROL Programación]** de la campaña en [esta sección](../campaigns/create-campaign.md#schedule).
 
@@ -101,7 +101,7 @@ Para crear una notificación push, siga los pasos a continuación:
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="Modo de envío rápido"
->abstract="El modo de envío rápido permite realizar envíos de mensajes de alta velocidad en el canal push a un tamaño de audiencia inferior a 30 millones."
+>abstract="El modo de envío rápido permite realizar envíos de mensajes a alta velocidad en el canal push a un tamaño de público inferior a 30 millones."
 
 El modo de envío rápido es un [!DNL Journey Optimizer] complemento que permite enviar mensajes push muy rápidamente en grandes volúmenes a través de campañas.
 

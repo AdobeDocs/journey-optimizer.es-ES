@@ -11,10 +11,10 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 10%
+ht-degree: 22%
 
 ---
 
@@ -24,10 +24,10 @@ ht-degree: 10%
 
 **Tabla de contenido**
 
-* [Introducción al Asistente de IA](gs-generative.md)
-* [Generación de correo electrónico con el asistente de IA](generative-email.md)
-* [Generación de SMS con el asistente de IA](generative-sms.md)
-* [Generación push con el asistente de IA](generative-push.md)
+* [Introducción al asistente de IA](gs-generative.md)
+* [Generación de correo electrónico con el Asistente de IA](generative-email.md)
+* [Generación de SMS con el Asistente de IA](generative-sms.md)
+* [Generación de push con el asistente de IA](generative-push.md)
 * Experimento de contenido con el asistente de IA
 
 >[!ENDSHADEBOX]
@@ -52,11 +52,11 @@ Una vez que haya creado y personalizado sus mensajes, eleve su contenido con el 
 
    ![](assets/experiment-genai-3.png)
 
-1. En la ventana Experimento de contenido, acceda al **[!UICONTROL Configuración del experimento]** para configurar el experimento. [Más información sobre el Experimento de contenido](../campaigns/content-experiment.md)
+1. En la ventana Experimento de contenido, acceda al **[!UICONTROL Configuración del experimento]** para configurar el experimento. [Más información sobre el Experimento de contenido](../content-management/content-experiment.md)
 
    ![](assets/experiment-genai-4.png)
 
-1. Cuando el experimento de contenido esté listo, en la página de resumen de la campaña, puede hacer clic en **[!UICONTROL Revisar para activar]** para mostrar un resumen de la campaña. Las alertas se muestran si algún parámetro es incorrecto o falta. [Más información](../campaigns/content-experiment.md#treatment-experiment)
+1. Cuando el experimento de contenido esté listo, en la página de resumen de la campaña, puede hacer clic en **[!UICONTROL Revisar para activar]** para mostrar un resumen de la campaña. Las alertas se muestran si algún parámetro es incorrecto o falta. [Más información](../content-management/content-experiment.md#treatment-experiment)
 
 1. Antes de iniciar la campaña, compruebe que todas las configuraciones sean correctas y haga clic en **[!UICONTROL Activar]**.
 

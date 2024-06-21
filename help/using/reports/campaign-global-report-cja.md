@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '4251'
 ht-degree: 2%
@@ -134,7 +135,7 @@ El **[!UICONTROL Experimentación]** Los indicadores clave de rendimiento (KPI) 
 
 * **[!UICONTROL Alza]**: Medida de la mejora porcentual en la tasa de conversión de un tratamiento determinado respecto al valor basal.
 
-* **[!UICONTROL Confianza]**: Evidencia de que un tratamiento dado es el mismo que el tratamiento basal. [Más información](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Confianza]**: Evidencia de que un tratamiento dado es el mismo que el tratamiento basal. [Más información](../content-management/experiment-calculations.md#understand-confidence)
 
 +++
 
@@ -143,7 +144,7 @@ El **[!UICONTROL Experimentación]** Los indicadores clave de rendimiento (KPI) 
 ![](assets/cja-experimentation-variants.png)
 
 El **[!UICONTROL Variante por clics entrantes]** widget detalla el rendimiento de cada variante.
-Para profundizar en estos resultados y en cómo interpretarlos, consulte [esta página](../campaigns/get-started-experiment.md#interpret-results).
+Para profundizar en estos resultados y en cómo interpretarlos, consulte [esta página](../content-management/get-started-experiment.md#interpret-results).
 
 +++ Más información sobre las métricas Variante por clics entrantes
 
@@ -155,7 +156,7 @@ Para profundizar en estos resultados y en cómo interpretarlos, consulte [esta p
 
 * **[!UICONTROL Alza]**: Medida de la mejora porcentual en la tasa de conversión de un tratamiento determinado respecto al valor basal.
 
-* **[!UICONTROL Confianza]**: Evidencia de que un tratamiento dado es el mismo que el tratamiento basal. [Más información](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Confianza]**: Evidencia de que un tratamiento dado es el mismo que el tratamiento basal. [Más información](../content-management/experiment-calculations.md#understand-confidence)
 
 <!--
 * **[!UICONTROL Confidence Upper bound]**:
@@ -167,7 +168,7 @@ Para profundizar en estos resultados y en cómo interpretarlos, consulte [esta p
 
 ![](assets/cja-experimentation-conversion.png)
 
-El **[!UICONTROL Intervalo de confianza]** el gráfico mide la incertidumbre en torno a la mejora. Detalla la diferencia porcentual en el rendimiento entre la línea de base y el tratamiento con mejor rendimiento. [Más información](../campaigns/experiment-calculations.md#confidence-intervals).
+El **[!UICONTROL Intervalo de confianza]** el gráfico mide la incertidumbre en torno a la mejora. Detalla la diferencia porcentual en el rendimiento entre la línea de base y el tratamiento con mejor rendimiento. [Más información](../content-management/experiment-calculations.md#confidence-intervals).
 
 ## Correo electrónico {#email-global}
 
@@ -784,4 +785,3 @@ El **[!UICONTROL URL de vínculos rastreados]** proporciona una visión general 
 * **[!UICONTROL Visualizaciones únicas]**: Número de veces que se abrió el mensaje, no se tienen en cuenta varias interacciones de un perfil.
 
 +++
-

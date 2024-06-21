@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 61bd9ce680c56b0eb8737804fb013dbad430f1cc
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 5%
@@ -76,7 +76,7 @@ Para configurar el canal web en la aplicación, siga los pasos a continuación:
 
 1. En el **[!UICONTROL Acción]** , puede encontrar los ajustes configurados previamente como **[!UICONTROL Superficie de aplicación]**. Puede realizar cambios aquí si es necesario o actualizar la regla haciendo clic en **[!UICONTROL Editar regla]**.
 
-1. Clic **[!UICONTROL Crear experimento]** para comenzar a configurar el experimento de contenido y crear tratamientos para medir su rendimiento e identificar la mejor opción para la audiencia de destino. [Más información](../campaigns/content-experiment.md)
+1. Clic **[!UICONTROL Crear experimento]** para comenzar a configurar el experimento de contenido y crear tratamientos para medir su rendimiento e identificar la mejor opción para la audiencia de destino. [Más información](../content-management/content-experiment.md)
 
 1. Clic **[!UICONTROL Editar déclencheur]** para elegir los eventos y los criterios que almacenarán en déclencheur el mensaje. Los creadores de reglas permiten a los usuarios especificar criterios y valores que, cuando se cumplen, almacenan en déclencheur un conjunto de acciones, como enviar un mensaje en la aplicación.
 
@@ -84,7 +84,7 @@ Para configurar el canal web en la aplicación, siga los pasos a continuación:
 
       +++Consulte los Déclencheur disponibles.
 
-      | Paquete | Activador | Definición |
+      | Paquete | Déclencheur | Definición |
       |---|---|---|
       | Plataforma | Datos enviados a Platform | Se activa cuando la aplicación móvil emite un evento de experiencia Edge para enviar datos a Adobe Experience Platform. Normalmente, la llamada de API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) desde la extensión AEP Edge. |
       | Manual | Déclencheur manual | Dos elementos de datos asociados: una clave, que es una constante que define el conjunto de datos (por ejemplo, sexo, color, precio), y un valor, que es una variable que pertenece al conjunto (por ejemplo, hombre/mujer, verde, 100). |

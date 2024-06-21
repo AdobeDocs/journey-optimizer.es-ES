@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '5371'
 ht-degree: 99%
@@ -114,7 +114,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 ## Octubre de 2023 {#oct-2023}
 
 * Todas las nuevas funciones y mejoras disponibles con la versión de [!DNL Journey Optimizer] octubre de 2023 se han detallado en la documentación. [Más información](release-notes.md)
-* Se han añadido GIF para ilustrar algunas funcionalidades clave, como [Plantillas de contenido](../content-management/content-templates.md), [Fragmentos](../content-management/fragments.md), [Atributos calculados](../audience/computed-attributes.md), [Correo directo](../direct-mail/get-started-direct-mail.md), [Etiquetas](../start/search-filter-categorize.md#tags), [Modelos de optimización de gestión de decisiones](../offers/ranking/personalized-optimization-model.md), [Campañas activadas por API](../campaigns/api-triggered-campaigns.md) y [Experimento de contenido](../campaigns/content-experiment.md).
+* Se han añadido GIF para ilustrar algunas funcionalidades clave, como [Plantillas de contenido](../content-management/content-templates.md), [Fragmentos](../content-management/fragments.md), [Atributos calculados](../audience/computed-attributes.md), [Correo directo](../direct-mail/get-started-direct-mail.md), [Etiquetas](../start/search-filter-categorize.md#tags), [Modelos de optimización de gestión de decisiones](../offers/ranking/personalized-optimization-model.md), [Campañas activadas por API](../campaigns/api-triggered-campaigns.md) y [Experimento de contenido](../content-management/content-experiment.md).
 * El proceso de creación del Esquema se ha actualizado para reflejar las últimas actualizaciones en la interfaz de usuario, incluidas las modificaciones de Adobe Experience Platform. [Más información](../audience/creating-test-profiles.md)
 * Se han añadido protecciones de gestión de decisiones a la página Protecciones y limitaciones. [Más información](../start/guardrails.md#decision-management)
 * La sección Parámetros de encabezado se ha actualizado para reflejar cómo se gestionan las notificaciones fuera de la oficina y las respuestas de reto (se reciben en el **[!UICONTROL Correo electrónico de error]**). [Más información](../email/email-settings.md#email-header)

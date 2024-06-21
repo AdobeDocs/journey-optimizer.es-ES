@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 97e925529f5b61138474d53f7df404ff6ea44ba9
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '1961'
 ht-degree: 13%
@@ -53,7 +53,7 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
 
       +++Consulte los Déclencheur disponibles.
 
-      | Paquete | Activador | Definición |
+      | Paquete | Déclencheur | Definición |
       |---|---|---|
       | Envío de datos a Platform | Datos enviados a Platform | Se activa cuando la aplicación móvil emite un evento de experiencia Edge para enviar datos a Adobe Experience Platform. Normalmente, la llamada de API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) desde la extensión AEP Edge. |
       | Seguimiento principal | Seguimiento de acciones | Se activa cuando la funcionalidad heredada se ofrece en la API de código móvil [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) se llama. |
@@ -79,7 +79,7 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
 
       +++Consulte Características disponibles.
 
-      | Paquete | Características | Definición |
+      | Paquete | Rasgos | Definición |
       |---|---|---|
       | Información del dispositivo | Nombre del operador | Se activa cuando se cumple uno de los nombres de operador de la lista. |
       | Información del dispositivo | Nombre del dispositivo | Se activa cuando se cumple uno de los nombres de dispositivo. |
@@ -87,13 +87,13 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
       | Información del dispositivo | Versión del SO | Se activa cuando se cumple una de las versiones del sistema operativo especificadas. |
       | Información del dispositivo | Versión anterior del sistema operativo | Se activa cuando se cumple una de las versiones anteriores del sistema operativo especificadas. |
       | Información del dispositivo | Modo de ejecución | Se activa si el modo de ejecución es aplicación o extensión. |
-      | Ciclo de aplicación | ID de la aplicación | Se activa cuando se cumple el ID de aplicación especificado. |
+      | Ciclo de aplicación | ID de aplicación | Se activa cuando se cumple el ID de aplicación especificado. |
       | Ciclo de aplicación | Día de la semana | Se activa cuando se cumple el día de la semana especificado. |
       | Ciclo de aplicación | Día desde el primer uso | Se activa cuando se alcanza el número de días especificado desde que se usó por primera vez. |
       | Ciclo de aplicación | Día desde el último uso | Se activa cuando se cumple el número de días especificado desde el último uso. |
       | Ciclo de aplicación | Día desde la actualización | Se activa cuando se alcanza el número de días especificado desde la última actualización. |
       | Ciclo de aplicación | Fecha de instalación | Se activa cuando se cumple la fecha de instalación especificada. |
-      | Ciclo de aplicación | Inicios | Se activa cuando se alcanza el número especificado de inicios. |
+      | Ciclo de aplicación | Lanzamientos | Se activa cuando se alcanza el número especificado de inicios. |
       | Ciclo de aplicación | Hora del día | Se activa cuando se cumple la hora del día especificada. |
       | Places | Punto de interés actual | Se activa mediante el SDK de Places cuando el cliente introduce el punto de interés (PDI) especificado. |
       | Places | Último punto de interés | Activado por el SDK de Places en función del último punto de interés (PDI) introducido por el cliente. |
@@ -143,7 +143,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
 1. En el **[!UICONTROL Área de nombres de identidad]** , elija el área de nombres que desea utilizar para identificar a los individuos de la audiencia seleccionada. [Más información](../event/about-creating.md#select-the-namespace).
 
-1. Clic **[!UICONTROL Crear experimento]** para comenzar a configurar el experimento de contenido y crear tratamientos para medir su rendimiento e identificar la mejor opción para la audiencia de destino. [Más información](../campaigns/content-experiment.md)
+1. Clic **[!UICONTROL Crear experimento]** para comenzar a configurar el experimento de contenido y crear tratamientos para medir su rendimiento e identificar la mejor opción para la audiencia de destino. [Más información](../content-management/content-experiment.md)
 
 1. Clic **[!UICONTROL Editar déclencheur]** para elegir los eventos y los criterios que almacenarán en déclencheur el mensaje. Los creadores de reglas permiten a los usuarios especificar criterios y valores que, cuando se cumplen, almacenan en déclencheur un conjunto de acciones, como enviar un mensaje en la aplicación.
 
@@ -151,7 +151,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
       +++Consulte los Déclencheur disponibles.
 
-      | Paquete | Activador | Definición |
+      | Paquete | Déclencheur | Definición |
       |---|---|---|
       | Envío de datos a Platform | Datos enviados a Platform | Se activa cuando la aplicación móvil emite un evento de experiencia Edge para enviar datos a Adobe Experience Platform. Normalmente, la llamada de API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) desde la extensión AEP Edge. |
       | Seguimiento principal | Seguimiento de acciones | Se activa cuando la funcionalidad heredada se ofrece en la API de código móvil [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) se llama. |
@@ -177,7 +177,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
       +++Consulte Características disponibles.
 
-      | Paquete | Características | Definición |
+      | Paquete | Rasgos | Definición |
       |---|---|---|
       | Información del dispositivo | Nombre del operador | Se activa cuando se cumple uno de los nombres de operador de la lista. |
       | Información del dispositivo | Nombre del dispositivo | Se activa cuando se cumple uno de los nombres de dispositivo. |
@@ -185,13 +185,13 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
       | Información del dispositivo | Versión del SO | Se activa cuando se cumple una de las versiones del sistema operativo especificadas. |
       | Información del dispositivo | Versión anterior del sistema operativo | Se activa cuando se cumple una de las versiones anteriores del sistema operativo especificadas. |
       | Información del dispositivo | Modo de ejecución | Se activa si el modo de ejecución es aplicación o extensión. |
-      | Ciclo de aplicación | ID de la aplicación | Se activa cuando se cumple el ID de aplicación especificado. |
+      | Ciclo de aplicación | ID de aplicación | Se activa cuando se cumple el ID de aplicación especificado. |
       | Ciclo de aplicación | Día de la semana | Se activa cuando se cumple el día de la semana especificado. |
       | Ciclo de aplicación | Día desde el primer uso | Se activa cuando se alcanza el número de días especificado desde que se usó por primera vez. |
       | Ciclo de aplicación | Día desde el último uso | Se activa cuando se cumple el número de días especificado desde el último uso. |
       | Ciclo de aplicación | Día desde la actualización | Se activa cuando se alcanza el número de días especificado desde la última actualización. |
       | Ciclo de aplicación | Fecha de instalación | Se activa cuando se cumple la fecha de instalación especificada. |
-      | Ciclo de aplicación | Inicios | Se activa cuando se alcanza el número especificado de inicios. |
+      | Ciclo de aplicación | Lanzamientos | Se activa cuando se alcanza el número especificado de inicios. |
       | Ciclo de aplicación | Hora del día | Se activa cuando se cumple la hora del día especificada. |
       | Places | Punto de interés actual | Se activa mediante el SDK de Places cuando el cliente introduce el punto de interés (PDI) especificado. |
       | Places | Último punto de interés | Activado por el SDK de Places en función del último punto de interés (PDI) introducido por el cliente. |
