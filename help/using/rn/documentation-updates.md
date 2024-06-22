@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '5371'
+source-wordcount: '5383'
 ht-degree: 99%
 
 ---
@@ -24,6 +24,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de junio de 2024 se ha detallado en la documentación. [Más información](release-notes.md)
 * Se ha añadido una nota sobre el uso de las políticas de combinación en recorrido en [esta página](../building-journeys/journey-properties.md#merge-policies).
 * La página sobre cómo configurar una actividad **Espera** en un recorrido se ha reorganizado y mejorado. [Más información](../building-journeys/wait-activity.md)
+* Se ha creado una nueva página para detallar las propiedades del recorrido. [Más información](../building-journeys/journey-properties.md)
 
 ## Mayo de 2024 {#may-2024}
 

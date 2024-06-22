@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 87fa5875dfdbae091b36129812948362324f2516
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '1722'
-ht-degree: 8%
+source-wordcount: '1756'
+ht-degree: 7%
 
 ---
 
@@ -28,10 +28,12 @@ ht-degree: 8%
 >title="Criterios de salida del recorrido"
 >abstract="En esta sección se muestran las opciones de criterios de salida. Puede crear una o varias reglas de criterios de salida para el recorrido."
 
-Las propiedades del recorrido están centralizadas en el carril derecho del recorrido. Esta sección se muestra de forma predeterminada al crear un nuevo recorrido. Para los recorridos existentes, haga clic en el icono de lápiz, junto al nombre del recorrido para acceder a sus propiedades.
 
+## Acceso a las propiedades de un recorrido {#access-properties}
 
-Utilice esta sección para definir el nombre del recorrido, añadir una descripción y:
+Las propiedades de un recorrido están centralizadas en el carril derecho. Esta sección se muestra de forma predeterminada al crear un nuevo recorrido. Para los recorridos existentes, haga clic en el icono de lápiz situado junto al nombre del recorrido para abrirlo.
+
+Desde esta sección, puede definir el nombre del recorrido, añadir una descripción y:
 
 * administrar [entrada y reentrada](#entrance),
 * elegir inicio y final [fechas](#dates),
@@ -50,6 +52,10 @@ El **Copiar detalles técnicos** permite copiar información técnica sobre el r
 
 
 ## Entrada y reentrada {#entrance}
+
+El modo de entrada de perfil se define en el nivel de recorrido, en el panel de configuración derecho. A continuación se describe la configuración.
+
+La administración de la entrada del perfil depende del tipo de recorridos. Obtenga más información acerca de la administración de entrada y reentrada de perfiles, en [esta página](entry-management.md).
 
 ### Permitir la reentrada  {#allow-re-entrance}
 
@@ -71,7 +77,6 @@ De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desm
 
 Si la variable **Permitir la reentrada** está activada, la opción **Período de espera de reentrada** se muestra el campo. Este campo permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en el caso de recorridos unitarios (empezando con un evento o una calificación de público). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos. La duración máxima es de 29 días.
 
-Obtenga más información acerca de la administración de entrada y reentrada de perfiles, en [esta sección](entry-management.md).
 
 ## Administrar acceso {#manage-access}
 

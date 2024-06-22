@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: reentrada, recorrido, perfil, recurrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '701'
 ht-degree: 5%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 5%
 
 # Administración de la entrada del perfil {#entry-management}
 
-Existen cuatro tipos de recorridos:
+La administración de la entrada del perfil depende del tipo de recorrido. En Adobe Journey Optimizer, están disponibles los siguientes tipos de recorridos:
 
 * **Evento unitario** recorridos: estos recorridos comienzan con un evento unitario. Cuando se recibe el evento, el perfil asociado entra en el recorrido. [Más información](#entry-unitary)
 
-* **Evento empresarial** recorridos: estos recorridos comienzan con un evento empresarial inmediatamente seguido de una audiencia de lectura. Cuando se recibe el evento, los perfiles pertenecientes a la audiencia de destino entran en el recorrido. Se creará una instancia de este recorrido para cada perfil. [Más información](#entry-business)
+* **Evento empresarial** recorridos: estos recorridos comienzan con un evento empresarial inmediatamente seguido de una **Leer audiencia** actividad. Cuando se recibe el evento, los perfiles pertenecientes a la audiencia de destino entran en el recorrido. Se crea una instancia de este recorrido para cada perfil. [Más información](#entry-business)
 
-* **Leer audiencia** recorridos: estos recorridos comienzan con una audiencia de lectura. Cuando se ejecuta el recorrido, los perfiles pertenecientes a la audiencia de destino entran en el recorrido. Se creará una instancia de este recorrido para cada perfil. Estos recorridos pueden ser recurrentes o de una sola toma. [Más información](#entry-read-audience)
+* **Leer audiencia** recorridos: estos recorridos comienzan con una **Leer audiencia** actividad. Cuando se ejecuta el recorrido, los perfiles pertenecientes a la audiencia de destino entran en el recorrido. Se crea una instancia de este recorrido para cada perfil. Estos recorridos pueden ser recurrentes o &quot;únicos&quot;. [Más información](#entry-read-audience)
 
 * **Calificación de audiencia** recorridos: estos recorridos comienzan con un evento de calificación de audiencia. Estos recorridos escuchan las entradas y salidas de perfiles en las audiencias. Cuando esto sucede, el perfil asociado entra en el recorrido. [Más información](#entry-unitary)
 
@@ -32,7 +32,7 @@ En todos los tipos de recorrido, un perfil no puede estar presente varias veces 
 
 ## Recorridos de calificación de eventos unitarios y audiencias{#entry-unitary}
 
-En los recorridos de calificación de eventos unitarios y audiencias, puede habilitar o deshabilitar la reentrada:
+Entrada **Evento unitario** y **Calificación de audiencia** recorridos, puede habilitar o deshabilitar la reentrada:
 
 * Si la reentrada está habilitada, un perfil puede entrar en un recorrido varias veces, pero no puede hacerlo hasta que salga completamente de la instancia anterior del recorrido.
 
@@ -51,13 +51,13 @@ Después del periodo de reentrada, los perfiles pueden volver a entrar en el rec
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->
 
-## Recorridos empresariales{#entry-business}
+## Recorridos empresariales {#entry-business}
 
 <!--
 Business events follow re-entrance rules in the same way as for unitary events. If a journey allows re-entrance, the next business event will be processed.
 -->
 
-Para permitir varias ejecuciones de eventos empresariales, active la opción correspondiente en la **[!UICONTROL Ejecución]** de las propiedades del recorrido.
+Entrada **Recorridos empresariales**, para permitir varias ejecuciones de eventos empresariales, active la opción correspondiente en la **[!UICONTROL Ejecución]** de las propiedades del recorrido.
 
 ![](assets/business-entry.png)
 
@@ -67,11 +67,11 @@ Un perfil puede estar presente varias veces en el mismo recorrido, al mismo tiem
 
 Para obtener más información, consulte [sección](../event/about-creating-business.md)
 
-## Leer recorridos de audiencia{#entry-read-audience}
+## Leer recorridos de audiencia {#entry-read-audience}
 
-Los recorridos de audiencia de lectura pueden ser recurrentes o de una sola toma:
+**Leer audiencia** Los recorridos pueden ser recurrentes o &quot;únicos&quot;:
 
-* Para recorridos no recurrentes: el perfil introduce una vez y solo una vez el recorrido.
+* Para recorridos no recurrentes/de una sola toma: el perfil introduce una vez y solo una vez en el recorrido.
 
 * Para recorridos recurrentes: de forma predeterminada, todos los perfiles pertenecientes a la audiencia introducen el recorrido en cada periodicidad. Deben finalizar el recorrido antes de poder volver a entrar en otra ocurrencia.
 

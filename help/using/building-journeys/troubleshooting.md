@@ -9,18 +9,18 @@ role: User
 level: Intermediate
 keywords: solución de problemas, solución de problemas, recorrido, comprobación, errores
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 73%
+source-wordcount: '1019'
+ht-degree: 63%
 
 ---
 
-# Resolución de problemas del recorrido{#troubleshooting}
+# Resolución de problemas del recorrido {#troubleshooting}
 
-En esta sección, encontrará cómo solucionar problemas de recorridos antes de realizar pruebas o publicar. Todas las comprobaciones que se indican a continuación se pueden realizar cuando el recorrido está en modo de prueba o cuando el recorrido está activo. La recomendación es realizar todas las comprobaciones siguientes en el modo de prueba y luego proceder a la publicación. Consulte [esta página](../building-journeys/testing-the-journey.md).
+En esta sección, aprenderá a solucionar problemas de recorridos antes de realizar pruebas o publicar. Todas las comprobaciones que se indican a continuación se pueden realizar cuando el recorrido está en modo de prueba o cuando el recorrido está activo. La recomendación es realizar todas las comprobaciones siguientes en el modo de prueba y luego proceder a la publicación. Consulte [esta página](../building-journeys/testing-the-journey.md).
 
-## Compruebe si hay errores antes de probar{#checking-for-errors-before-testing}
+## Compruebe si hay errores antes de probar {#checking-for-errors-before-testing}
 
 Antes de probar y publicar el recorrido, compruebe que todas las actividades estén correctamente configuradas. No puede realizar pruebas ni publicaciones si el sistema sigue detectando errores.
 
@@ -44,7 +44,7 @@ Los errores y las advertencias que son globales para el recorrido aparecen prime
 
 Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera de continuar es marcar la casilla **[!UICONTROL Añadir una ruta alternativa en caso de tiempo de espera o error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
 
-## Compruebe que los eventos se envían correctamente{#checking-that-events-are-properly-sent}
+## Compruebe que los eventos se envían correctamente {#checking-that-events-are-properly-sent}
 
 El punto de partida de un recorrido es siempre un evento. Puede hacer pruebas con herramientas como Postman.
 
@@ -52,7 +52,7 @@ Puede comprobar si la llamada API que envía a través de estas herramientas se 
 
 Los eventos no se insertan directamente del origen a los recorridos. De hecho, los recorridos dependen de las API de ingesta de transmisión de Adobe Experience Platform. Como resultado, en caso de problemas relacionados con el evento, puede consultar [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} para la solución de problemas de API de ingesta de transmisión.
 
-## Comprobar si las personas entran en el recorrido{#checking-if-people-enter-the-journey}
+## Comprobar si las personas entran en el recorrido {#checking-if-people-enter-the-journey}
 
 El informe de recorridos mide las entradas de la gente en un recorrido en tiempo real.
 
@@ -72,7 +72,7 @@ Puede comenzar la resolución de problemas con las preguntas siguientes:
   Content-type - application/json
   ```
 
-## Comprobar cómo navegan las personas por el recorrido{#checking-how-people-navigate-through-the-journey}
+## Comprobar cómo navegan las personas por el recorrido {#checking-how-people-navigate-through-the-journey}
 
 La creación de informes de recorrido mide el progreso de las personas dentro de un recorrido. Es fácil identificar dónde y por qué detuvieron a una persona.
 
@@ -81,7 +81,7 @@ A continuación se presentan algunas cosas para comprobar:
 * ¿Se debe a una condición que excluye a la persona? Por ejemplo, la condición es &quot;género = hombre&quot; y la persona es mujer. Esta comprobación puede realizarla un usuario empresarial si la condición no es demasiado compleja.
 * ¿Se debe a que una llamada a una fuente de datos no responde? Cuando el recorrido está en prueba, esta información se puede ver en los registros del modo de prueba. Cuando el recorrido está activo, un administrador puede probar las llamadas directas a la fuente de datos y comprobar la respuesta recibida. Un administrador también puede realizar el duplicado del recorrido y probarlo.
 
-## Comprobar que los mensajes se envíen correctamente{#checking-that-messages-are-sent-successfully}
+## Comprobar que los mensajes se envíen correctamente {#checking-that-messages-are-sent-successfully}
 
 Si los individuos recorren el recorrido correcto, pero no reciben mensajes que deberían recibir, puede comprobar lo siguiente:
 
