@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: espera, actividad, recorrido, siguiente, lienzo
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 14%
+source-wordcount: '508'
+ht-degree: 15%
 
 ---
 
@@ -39,9 +39,9 @@ Puede establecer dos tipos de **Esperar** actividad:
 
 ### Varias actividades de espera {#multiple-wait-activities}
 
-Cuando se usan varios **Esperar** actividades en un recorrido, tenga en cuenta que la variable [tiempo de espera global](journey-properties.md#global_timeout) para recorridos es 91 días, lo que significa que los perfiles siempre abandonan el recorrido máximo 91 días después de introducirlo. Obtenga más información en [esta página](journey-properties.md#global_timeout).
+Cuando se usan varios **Esperar** actividades en un recorrido, tenga en cuenta que la variable [tiempo de espera global](journey-properties.md#global_timeout) para recorridos es 90 días, lo que significa que los perfiles siempre abandonan el recorrido máximo 90 días después de introducirlo. Obtenga más información en [esta página](journey-properties.md#global_timeout).
 
-Un individuo puede introducir una **Esperar** actividad solo si le queda tiempo suficiente en el recorrido recorrido para completar la espera antes del tiempo de espera de 91 días. Por ejemplo, si agrega dos **Esperar** actividades configuradas en 20 días cada una, el sistema detecta que la segunda **Esperar** la actividad finalizará después del tiempo de espera de 91 días. El segundo **Esperar** por lo tanto, la actividad se ignorará y la persona abandonará el recorrido antes de iniciarla. En ese ejemplo, el cliente permanecerá 20 días en total en el recorrido.
+Un individuo puede introducir una **Esperar** actividad solo si le queda tiempo suficiente en el recorrido recorrido para completar la espera antes del tiempo de espera de 90 días.
 
 ### Espera y vuelve a entrar {#wait-re-entrance}
 
