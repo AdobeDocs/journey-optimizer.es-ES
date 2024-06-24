@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1777'
 ht-degree: 7%
 
 ---
@@ -49,6 +49,8 @@ Desde esta sección, puede definir el nombre del recorrido, añadir una descripc
 >Para los recorridos activos, esta pantalla muestra solo la fecha de publicación y el nombre del usuario que publicó el recorrido.
 
 El **Copiar detalles técnicos** permite copiar información técnica sobre el recorrido que el equipo de asistencia puede utilizar para solucionar problemas. Se copia la siguiente información: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+
+Obtenga más información sobre los campos técnicos relacionados con un recorrido para un perfil determinado y cómo utilizarlos [en esta página](expression/journey-properties.md).
 
 
 ## Entrada y reentrada {#entrance}

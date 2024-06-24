@@ -8,16 +8,22 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 26%
+source-wordcount: '78'
+ht-degree: 10%
 
 ---
 
 # Campos del recorrido {#sharing-journey-fields}
 
-Este grupo de campos se utiliza en el esquema de recorrido (en relación con journeyStepEvent). Contiene los siguientes campos:
+Este grupo de campos se utiliza en **recorrido** esquema (en relación con **journeyStepEvent**). Contiene los campos que se enumeran a continuación.
+
+
+>[!NOTE]
+>
+>Más información sobre los atributos de propiedades de recorrido [en esta sección](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+
 
 ## journeyID {#journeyid-field}
 

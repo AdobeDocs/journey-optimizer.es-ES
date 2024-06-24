@@ -8,33 +8,31 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: recorrido, expresión, editor, propiedades
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '589'
 ht-degree: 2%
 
 ---
 
 # atributos de propiedades de recorrido {#journey-properties}
 
-En el editor de expresiones avanzadas, encontrará el **Propiedades de recorrido** debajo de las categorías de evento y fuente de datos. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información recuperada por el sistema de las recorridos activas, como el ID de recorrido o los errores específicos encontrados.
-
->[!NOTE]
->
->Los atributos de las propiedades de recorrido también están disponibles en el editor de expresiones simple. Consulte esta [sección](../condition-activity.md#about_condition)
+En el [editor de expresiones simple](../condition-activity.md#about_condition), y en el [editor de expresiones avanzadas](../expression/expressionadvanced.md), debajo de **Evento** y **Fuente de datos** categorías, puede acceder a las **Propiedades de recorrido** categoría. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información recuperada por el sistema de las recorridos activas, como el ID de recorrido, o los errores específicos encontrados.
 
 ![](../assets/journey-properties.png)
 
-Encontrará información, por ejemplo, sobre lo siguiente:
+Contiene información, por ejemplo, sobre:
 
 * versión de recorrido: uid de recorrido, uid de versión de recorrido, uid de instancia, etc.
 * errores: captura de datos, ejecución de acciones, etc.
 * paso actual, último paso actual, etc.
 * perfiles descartados
 
-Puede utilizar estos campos para crear expresiones. Durante la ejecución del recorrido, los valores se recuperan directamente de la recorrido.
+  La lista de campos está disponible [en esta sección](#journey-properties-fields).
 
-Estos son algunos ejemplos de casos de uso:
+Puede utilizar estos campos para crear expresiones. Durante la ejecución del recorrido, los valores se recuperan directamente del recorrido.
+
+A continuación se muestran algunos ejemplos de casos de uso:
 
 * **Registrar perfiles descartados**: puede enviar todos los perfiles excluidos de un mensaje mediante una regla de límite a un sistema de terceros para el registro. Para ello, se configura una ruta en caso de tiempo de espera y error y se añade una condición para filtrar por un tipo de error específico, por ejemplo: &quot;descartar personas por regla de límite&quot;. A continuación, puede insertar los perfiles descartados en un sistema de terceros mediante una acción personalizada.
 
@@ -53,7 +51,7 @@ Estos son algunos ejemplos de casos de uso:
 | | journeyVersion | Versión de recorrido | |
 | Instancia de recorrido | instanceUID | Identificador de instancia de recorrido | ID de la instancia |
 | | externalKey | Clave externa | Identificador individual que activa el recorrido |
-| | organizationId | Identificador de organización | Organización de la marca |
+| | organizationId | Identificador de la organización | Organización de la marca |
 | | sandboxName | Nombre de zona protegida | Nombre de la zona protegida |
 | Identidad | profileId | Identificador de identidad del perfil | Identificador del perfil en el recorrido |
 | | namespace | Área de nombres de identidad de perfil | Área de nombres del perfil en la recorrido (ejemplo: ECID) |

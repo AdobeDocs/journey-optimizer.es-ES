@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: actividad, condición, lienzo, recorrido
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
 source-wordcount: '1466'
-ht-degree: 3%
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="Actividad de condición"
->abstract="Esta actividad le permite definir cómo fluirá el individuo en el recorrido. Se crearán varias rutas en función de varios criterios. También puede crear una ruta alternativa en caso de tiempo de espera o error."
+>abstract="Esta actividad permite definir cómo fluirá el particular en el recorrido. Se crearán varias rutas basadas en distintos criterios. También puede crear una ruta alternativa en caso de que se agote el tiempo de espera o se produzca un error."
 
 Estos tipos de condiciones están disponibles:
 
@@ -38,7 +38,7 @@ Estos tipos de condiciones están disponibles:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
 >title="Acerca del editor de expresiones simple"
->abstract="El modo de editor de expresiones simple permite realizar consultas simples basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Arrastre y coloque campos en la zona principal. Para combinar los diferentes elementos, conéctelos entre sí para crear diferentes grupos o niveles de grupo. A continuación, puede seleccionar un operador lógico para combinar elementos en el mismo nivel."
+>abstract="El modo de editor de expresiones simple permite realizar consultas simples basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Arrastre y suelte los campos en la zona principal. Para combinar los diferentes elementos, conéctelos entre sí para crear diferentes grupos o niveles de grupo. A continuación, puede seleccionar un operador lógico para combinar elementos en el mismo nivel."
 
 Al utilizar varias condiciones en un recorrido, puede definir etiquetas para cada una de ellas para identificarlas más fácilmente.
 
@@ -54,7 +54,7 @@ VIP Por ejemplo, veamos el ejemplo de la condición de una primera ruta &quot;La
 
 Puede crear otra ruta para las audiencias que no cumplan los requisitos para las condiciones definidas marcando **[!UICONTROL Mostrar ruta para otros casos distintos del anterior]**. Tenga en cuenta que esta opción no está disponible en condiciones de división. Consulte [División porcentual](#percentage_split).
 
-El modo simple permite realizar consultas simples basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Arrastre y coloque campos en la zona principal. Para combinar los diferentes elementos, conéctelos entre sí para crear diferentes grupos o niveles de grupo. A continuación, puede seleccionar un operador lógico para combinar elementos en el mismo nivel:
+El modo simple permite realizar consultas simples basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Arrastre y suelte los campos en la zona principal. Para combinar los diferentes elementos, conéctelos entre sí para crear diferentes grupos o niveles de grupo. A continuación, puede seleccionar un operador lógico para combinar elementos en el mismo nivel:
 
 * Y: una intersección de dos criterios. Solo se tienen en cuenta los elementos que coinciden con todos los criterios.
 * OR: una unión de dos criterios. Se tienen en cuenta los elementos que coinciden con al menos uno de los dos criterios.
@@ -140,8 +140,8 @@ La trayectoria nominal siempre tiene prioridad sobre la trayectoria alternativa,
 
 Para los recorridos activos, estos son los umbrales que se deben tener en cuenta para garantizar que se alcance el límite:
 
-* Para un límite superior a 10000, el número de perfiles distintos a inyectar debe ser al menos 1,3 veces el límite.
-* Para un tapón por debajo de 10000, el número de perfiles distintos a inyectar debe ser de 1000 más el tapón.
+* Para un capuchón superior a 10 000, el número de perfiles distintos a inyectar debe ser al menos 1,3 veces el capuchón.
+* Para un límite inferior a 10 000, el número de perfiles distintos a inyectar debe ser de 1000 más el límite.
 
 En el modo de prueba no se tiene en cuenta el límite de perfil.
 
