@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 3f7d71eecf282b21eb09423378008c3b9ccd7edc
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 3%
+source-wordcount: '1024'
+ht-degree: 10%
 
 ---
 
@@ -43,13 +43,13 @@ Para empezar a crear una experiencia basada en código a través de una campaña
 
    ![](assets/code-based-campaign-edit-content.png)
 
-## Editar el contenido del código {#edit-code}
+## Edición del contenido del código {#edit-code}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
->title="Uso del editor de personalización"
+>title="Utilice el editor de personalización"
 >abstract="Inserte y edite el código que desea enviar como parte de esta acción de experiencia basada en código."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="Introducción al editor de personalización"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=es" text="Introducción al editor de personalización"
 
 1. En la pantalla de la edición de la campaña, seleccione **[!UICONTROL Editar código]**.
 
@@ -77,7 +77,7 @@ Para empezar a crear una experiencia basada en código a través de una campaña
 
    >[!NOTE]
    >
-   >Actualmente, la función Experience Decisioning está disponible como una versión beta solo para usuarios seleccionados.
+   >Ahora mismo, la toma de decisiones sobre experiencias solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 
 1. Clic **[!UICONTROL Guardar y cerrar]** para confirmar los cambios.
@@ -89,7 +89,7 @@ Ahora, tan pronto como el desarrollador realice una llamada de API o SDK para re
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
 >title="Previsualización de la experiencia basada en código"
->abstract="Obtenga una simulación del aspecto que tendrá la experiencia basada en código."
+>abstract="Obtenga una simulación del aspecto que tendrá su experiencia basada en código."
 
 Para mostrar una previsualización de la experiencia basada en código modificada, siga los pasos a continuación. Encontrará información detallada sobre cómo seleccionar perfiles de prueba y previsualizar el contenido en el [Previsualización y prueba de la página de contenido](../content-management/preview-test.md).
 
