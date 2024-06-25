@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: datos, fuente, recorrido, plataforma
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 74%
+source-wordcount: '339'
+ht-degree: 66%
 
 ---
 
@@ -41,7 +41,7 @@ Existen dos tipos de fuentes de datos:
 
 >[!NOTE]
 >
->Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas.
+>Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas. Para obtener más información sobre las respuestas, consulte [sección](../action/action-response.md)
 
 Para cada fuente de datos, se define la información que se recuperará mediante grupos de campos. Los grupos de campos son conjuntos de campos que se pueden recuperar desde una fuente de datos. Consulte [esta página](../datasource/configure-data-sources.md#define-field-groups).
 

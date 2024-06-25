@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externo, fuentes, datos, configuración, conexión, terceros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
+source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 61%
+source-wordcount: '1549'
+ht-degree: 60%
 
 ---
 
@@ -31,7 +31,7 @@ Las fuentes de datos externas permiten definir una conexión a sistemas de terce
 
 >[!NOTE]
 >
->Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas.
+>Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas. Para obtener más información sobre las respuestas, consulte [sección](../action/action-response.md)
 
 Las API de REST que utilizan POST o GET y arrojan JSON son compatibles. Se admiten los modos de autenticación básica y personalizada de la clave de API.
 

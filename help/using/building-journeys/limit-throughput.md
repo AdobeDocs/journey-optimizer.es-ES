@@ -8,9 +8,9 @@ role: Developer, Data Engineer
 level: Experienced
 keywords: recorrido, fuentes de datos, límite, rendimiento, personalizado, acciones
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: bf937d9c7198c3a9d31fe93d0cfec6f41df70e28
+source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '754'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,10 @@ Esto se puede hacer con:
 * **Fuentes de datos**: para recopilar información de sistemas externos y utilizarla en el contexto del recorrido, por ejemplo, para obtener información meteorológica sobre la ciudad del perfil y tener un flujo de recorrido dedicado basado en eso.
 
 * **Acciones personalizadas**: para enviar información a sistemas externos como, por ejemplo, para enviar correos electrónicos a través de una solución externa mediante las funciones de orquestación de Journey Optimizer, junto con información de perfil, datos de audiencia y contexto de recorrido.
+
+>[!NOTE]
+>
+>Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas. Para obtener más información sobre las respuestas, consulte [sección](../action/action-response.md)
 
 Si está trabajando con fuentes de datos externas o acciones personalizadas, es posible que desee proteger los sistemas externos limitando el rendimiento de recorrido: hasta 5000 instancias/segundo para recorridos unitarios y hasta 20000 instancias/segundo para los activados por audiencia.
 

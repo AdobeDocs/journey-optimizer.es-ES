@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
 workflow-type: tm+mt
-source-wordcount: '1250'
-ht-degree: 28%
+source-wordcount: '1278'
+ht-degree: 27%
 
 ---
 
@@ -67,6 +67,10 @@ Para **fuentes de datos externas**, el número máximo de llamadas por segundo e
 >Si una fuente de datos utiliza una autenticación personalizada con un extremo diferente al que se usa para la fuente de datos, debe ponerse en contacto con Adobe para incluir en la lista de permitidos también este.
 
 Para **acciones personalizadas**, debe evaluar la capacidad de su API externa. Por ejemplo, si Journey Optimizer envía 1000 llamadas por segundo y el sistema solo puede admitir 200, debe definir una configuración de límite o de limitación para que el sistema no se sature. [Obtenga información sobre cómo configurar acciones](../action/action.md)
+
+>[!NOTE]
+>
+>Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas. Para obtener más información sobre las respuestas, consulte [sección](../action/action-response.md)
 
 ## Tiempo de espera y reintentos{#timeout}
 
