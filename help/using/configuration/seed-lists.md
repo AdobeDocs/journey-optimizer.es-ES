@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: lista de semillas, lista de semillas, semillas, configuración
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '959'
 ht-degree: 21%
 
 ---
@@ -48,7 +48,7 @@ Las direcciones semilla no son perfiles reales ni perfiles de prueba, ya que no 
 
 >[!NOTE]
 >
->Se admiten variantes. Las direcciones semilla reciben una sola copia de cada variante del mismo mensaje (por ejemplo, los diferentes tratamientos de un mensaje [experimento de contenido](../content-management/get-started-experiment.md)).
+>Se admiten variantes, incluidas las multilingües y de experimentación. Cada dirección semilla recibe una sola copia de cada variante del mismo mensaje; por ejemplo, versiones diferentes de una [experimento de contenido](../content-management/get-started-experiment.md). Tenga en cuenta que no se envían correos electrónicos semilla independientes para el contenido condicional.
 
 ## Acceso a las listas semilla {#access-seed-lists}
 
