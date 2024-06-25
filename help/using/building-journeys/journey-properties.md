@@ -16,7 +16,7 @@ ht-degree: 8%
 
 ---
 
-# Establezca las propiedades del recorrido {#jo-properties}
+# Establecimiento de las propiedades del recorrido {#jo-properties}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
