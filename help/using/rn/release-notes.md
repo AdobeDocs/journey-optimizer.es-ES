@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 25cedf0f900d6625e766f90d95393d704b5e156d
+source-git-commit: 024e43468cade1f2ac4ca6f8e21bcbc71f6c771b
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 83%
+source-wordcount: '1050'
+ht-degree: 75%
 
 ---
 
@@ -28,8 +28,6 @@ ht-degree: 83%
 
 
 ## Notas de la versión de junio de 2024 {#24-6-2024}
-
-**Las notas de la versión preliminar están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento**. 
 
 **Fecha de lanzamiento**: 18 y 19 de junio de 2024
 
@@ -53,6 +51,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 </tbody>
 </table-->
 
+#### Personalización de fragmentos de contenido
 
 <table>
 <thead>
@@ -72,7 +71,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 </table>
 
 
-
+#### Informes con el Customer Journey Analytics
 
 <table>
 <thead>
@@ -91,6 +90,8 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 </tbody>
 </table>
 
+#### Asistente de IA
+
 <table>
 <thead>
 <tr>
@@ -106,6 +107,8 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 </tr>
 </tbody>
 </table>
+
+#### Mensajes multilingües en recorridos y campañas
 
 <table>
 <thead>
@@ -123,6 +126,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 </tbody>
 </table>
 
+#### Experimentación en recorridos
 
 <table>
 <thead>
@@ -160,13 +164,13 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 
 Esta versión incorpora las mejoras que se enumeran a continuación.
 
-**Gestión de decisiones**
+#### Gestión de decisiones
 
 * **Compatibilidad con varias reglas de gestión de decisiones**: ahora puede añadir hasta 10 reglas límite para una oferta determinada de Gestión de decisiones. Esto le permite aumentar el nivel de control sobre la forma en que se envían las ofertas. [Más información](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
-**Fragmentos de contenido**
+#### Fragmentos de contenido
 
 >[!AVAILABILITY]
 >
@@ -180,7 +184,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 Obtenga más información en la documentación de [fragmento de contenido](../content-management/fragments.md).
 
-**Recorridos**
+#### Recorridos
 
 * El tiempo de espera global de los Recorridos se ha ampliado a 91 días. [Más información](../building-journeys/journey-properties.md#global_timeout)
 
@@ -194,16 +198,17 @@ Obtenga más información en la documentación de [fragmento de contenido](../co
 
 
 
-**Campañas**
+#### Campañas
 
 * Al crear una campaña en Adobe Journey Optimizer, ahora puede elegir el tipo de campaña (programada o activada) en un nuevo modal. [Más información](../campaigns/create-campaign.md)
 
-**Canal de correo electrónico**
+#### Canal de correo electrónico
 
 * **Cancelación de suscripción a lista** - Después de los recientes anuncios de Gmail y Yahoo para remitentes masivos, Journey Optimizer admite la opción de cancelación de suscripción a una lista &quot;posterior/1 clic&quot;. Consulte las siguientes páginas: [Administración de exclusión de correo electrónico](../email/email-opt-out.md#unsubscribe-header) y [Configuración de correo electrónico](../email/email-settings.md#list-unsubscribe).
 
+  **NOTA** : Para cualquier superficie de canal nueva, de forma predeterminada se activa la opción de encabezado Cancelar suscripción de lista. Para las superficies existentes, la opción Cancelar la suscripción a URL con un solo clic de la configuración de superficie de canal está desactivada de forma predeterminada. Si anteriormente utilizaba una URL de exclusión de un clic en el cuerpo del correo electrónico, esta configuración sigue siendo válida. Si la opción Cancelar la suscripción a una URL con un solo clic está activada en la configuración de la superficie de canal, Adobe Journey Optimizer utilizará la URL de cancelación de suscripción con un solo clic generada de forma predeterminada en la configuración de la superficie de canal.
 
-**Canal de SMS**
+#### Canal de SMS
 
 * Ahora puede añadir códigos cortos únicos para cada zona protegida con una sola configuración de API, lo que hace que el proceso sea más eficiente y optimizado. [Más información](../sms/sms-configuration.md)
 
@@ -211,13 +216,13 @@ Obtenga más información en la documentación de [fragmento de contenido](../co
 
 <!--* You can now modify existing SMS configurations.-->
 
-**Canal en la aplicación**
+#### Canal en la aplicación
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
 * Ahora puede utilizar el complemento Edge Delivery para obtener la información necesaria para comprender y solucionar problemas de las implementaciones entrantes. [Más información sobre la vista de Edge Delivery](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
-**Canal de correo directo**
+#### Canal de correo directo
 
 * El canal de correo postal ya está disponible para todos los clientes. [Más información](../direct-mail/get-started-direct-mail.md)
