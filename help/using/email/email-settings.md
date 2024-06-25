@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 975bb9d37a69fe8df02bc39ce2ccdf2da9953ebb
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 10%
@@ -102,7 +102,7 @@ El encabezado Cancelar la suscripción a una lista ofrece dos funciones (Mailto 
 
   En Journey Optimizer, la dirección de correo electrónico para cancelar la suscripción es la predeterminada **Mailto (cancelar la suscripción)** dirección mostrada en la superficie de canal, en función de [subdominio seleccionado](#subdomains-and-ip-pools).
 
-  ![](assets/surface-list-unsubscribe-mailto.png){width="50%" align="left"}
+  ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
 
 
 * El **URL de cancelación de suscripción de un clic**, que de forma predeterminada es el encabezado Cancelar la suscripción a una lista generado por una URL con un solo clic, según el subdominio que establezca y configure en la Configuración de superficie de canal.
