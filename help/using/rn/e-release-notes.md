@@ -11,7 +11,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -156,8 +156,8 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 * El tiempo de espera global del recorrido ha aumentado de 30 a 91 días.
 * Adobe Journey Optimizer ahora admite solicitudes de eliminación/acceso de privacidad, así como solicitudes de administración del ciclo de vida de datos.
 * Ahora puede cambiar el tamaño de las columnas en el inventario de recorridos.
-* El **editor de expresiones avanzadas de la configuración de eventos** es de disponibilidad general (GA): ahora puede aprovechar el editor de expresiones avanzadas mientras configura un evento, lo que le permite definir expresiones más complejas o utilizar funciones en la condición de ID de evento. Esta capacidad se lanza con disponibilidad limitada para clientes seleccionados. <!--[Read more](../event/about-creating.md)-->
-* Las **políticas de combinación** ahora son de disponibilidad general (GA): las políticas de combinación que Journey utiliza ahora son visibles y homogéneas en todo el recorrido. Esta capacidad se lanza con disponibilidad limitada para clientes seleccionados. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
+* El **editor de expresiones avanzadas de la configuración de eventos** es de disponibilidad general (GA): ahora puede aprovechar el editor de expresiones avanzadas mientras configura un evento, lo que le permite definir expresiones más complejas o utilizar funciones en la condición de ID de evento. Esta función se lanza con disponibilidad limitada para determinados clientes. <!--[Read more](../event/about-creating.md)-->
+* Las **políticas de combinación** ahora son de disponibilidad general (GA): las políticas de combinación que Journey utiliza ahora son visibles y homogéneas en todo el recorrido. Esta función se lanza con disponibilidad limitada para determinados clientes. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
 
@@ -177,7 +177,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Canal en la aplicación**
 
-* **Fragmento de expresión** - Los fragmentos de expresiones ya están disponibles para **Canal en la aplicación**. <!--[Read more](../personalization/use-expression-fragments.md)-->
+* **Fragmento de expresión**: los fragmentos de expresiones ya están disponibles en el **canal en la aplicación**. <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 
 * Ahora puede utilizar el complemento Edge Delivery para obtener la información necesaria para comprender y solucionar problemas de las implementaciones entrantes.

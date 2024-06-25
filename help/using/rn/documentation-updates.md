@@ -21,8 +21,8 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 ## Junio de 2024 {#june-2024}
 
-* Todas las nuevas funciones y mejoras incluidas en [!DNL Journey Optimizer] La versión de junio de 2024 se ha detallado en la documentación. [Más información](release-notes.md)
-* Se ha añadido una nota sobre el uso de las políticas de combinación en recorrido en [esta página](../building-journeys/journey-properties.md#merge-policies).
+* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de junio de 2024 se han incluido en la documentación. [Más información](release-notes.md)
+* Se ha añadido una nota sobre el uso de las políticas de combinación en recorridos en [esta página](../building-journeys/journey-properties.md#merge-policies).
 * La página sobre cómo configurar una actividad **Espera** en un recorrido se ha reorganizado y mejorado. [Más información](../building-journeys/wait-activity.md)
 * Se ha creado una nueva página para detallar las propiedades del recorrido. [Más información](../building-journeys/journey-properties.md)
 

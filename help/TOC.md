@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '1848'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 98%
    + [Introducción a los recorridos](using/building-journeys/journey.md)
    + Creación de un recorrido{#create-journey}
       + [Creación de su primer recorrido](using/building-journeys/journey-gs.md)
-      + [Establezca las propiedades del recorrido](using/building-journeys/journey-properties.md)
+      + [Establecimiento de las propiedades del recorrido](using/building-journeys/journey-properties.md)
       + [Diseño de un recorrido](using/building-journeys/using-the-journey-designer.md)
       + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
       + [Simulación del recorrido](using/building-journeys/journey-simulation.md)
@@ -381,14 +381,14 @@ ht-degree: 98%
    + [Alertas](using/reports/alerts.md)
    + [Uso de Customer Journey Analytics](using/reports/cja-ajo.md)
    + [Motivos de exclusión](using/reports/exclusion-list.md)
-+ Nueva interfaz de informes (beta){#channel-report}
-   + [Introducción a la nueva interfaz de informes](using/reports/report-gs-cja.md)
-   + [Administrar los informes](using/reports/report-cja-manage.md)
++ Nueva interfaz de sistema de informes (Beta){#channel-report}
+   + [Introducción a la nueva interfaz de sistema de informes](using/reports/report-gs-cja.md)
+   + [Administración de informes](using/reports/report-cja-manage.md)
    + [Informe de recorrido](using/reports/journey-global-report-cja.md)
    + [Informe de campaña](using/reports/campaign-global-report-cja.md)
    + [Informe de información general](using/reports/channel-report-cja.md)
    + [Informe de página de aterrizaje](using/reports/lp-report-global-cja.md)
-   + [Informe de lista de suscripción](using/reports/subscription-report-global-cja.md)
+   + [Informe de la lista de suscripciones](using/reports/subscription-report-global-cja.md)
 + Toma de decisiones {#decisioning}
    + Gestión de decisiones {#offer-decisioning}
       + Introducción a la Gestión de decisiones {#get-started-decision}

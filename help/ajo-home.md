@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 83%
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,7 @@ Eche un vistazo a las mejoras más recientes del producto y a la documentación 
 
 >[!BEGINTABS]
 
->[!TAB ¡La versión de junio está activa!]
+>[!TAB Ya está aquí la versión de junio.]
 
 Descubra las nuevas funciones y mejoras incluidas en la versión de mayo de Adobe Journey Optimizer.
 
@@ -34,7 +34,7 @@ La creación de informes de Journey Optimizer ofrece una interoperabilidad mejor
 
 >[!TAB Asistente de IA]
 
-El asistente de IA es una función de la interfaz de usuario que puede utilizar para navegar, comprender los conceptos del Adobe y obtener perspectivas operativas para su entorno específico.
+El Asistente de IA es una función de la interfaz de usuario que se puede utilizar para navegar, comprender los conceptos de Adobe y obtener perspectivas operativas de su entorno específico.
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](/help/using/start/ai-assistant.md)
 

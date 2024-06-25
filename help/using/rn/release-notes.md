@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 25cedf0f900d6625e766f90d95393d704b5e156d
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 58%
+ht-degree: 83%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 58%
 
 ## Notas de la versión de junio de 2024 {#24-6-2024}
 
-**Las notas de la versión anteriores siguientes están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento**.
+**Las notas de la versión preliminar están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento**. 
 
 **Fecha de lanzamiento**: 18 y 19 de junio de 2024
 
@@ -170,7 +170,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 >[!AVAILABILITY]
 >
->Tenga en cuenta que estas mejoras se implementarán gradualmente durante varios días después de la publicación inicial. Aunque algunos usuarios tendrán acceso inmediato, otros pueden experimentar un retraso antes de que esté disponible en sus entornos.
+>Tenga en cuenta que estas mejoras se implementarán gradualmente durante varios días después del lanzamiento inicial. Aunque algunos usuarios tendrán acceso inmediato, otros pueden experimentar un retraso antes de que esté disponible en sus cuentas.
 
 * Ahora, los fragmentos se pueden editar y los cambios se pueden propagar a todos los recorridos activos y campañas en las que se utilicen.
 * Se han introducido nuevos estados para los fragmentos de contenido: **Borrador**, **Activo**, **Publicación** y **Archivado**.
@@ -178,7 +178,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
   **PRECAUCIÓN**: puesto que los estados **Borrador** y **Activo** se han incorporado con la versión de junio de Journey Optimizer, el estado de todos los fragmentos creados antes de esta versión es **Borrador**, incluso si se utilizan en un recorrido o una campaña. Aprenda actualizar sus fragmentos existentes en esta sección.
 
-Obtenga más información en la [fragmento de contenido](../content-management/fragments.md) documentación.
+Obtenga más información en la documentación de [fragmento de contenido](../content-management/fragments.md).
 
 **Recorridos**
 
@@ -207,7 +207,7 @@ Obtenga más información en la [fragmento de contenido](../content-management/f
 
 * Ahora puede añadir códigos cortos únicos para cada zona protegida con una sola configuración de API, lo que hace que el proceso sea más eficiente y optimizado. [Más información](../sms/sms-configuration.md)
 
-* Después de la creación, la variable **Token de API** en el campo **Detalles de credenciales de API** La página está ahora enmascarada.
+* Después de la creación, el campo **Token de API** en la página **Detalles de credenciales de API** está ahora enmascarada.
 
 <!--* You can now modify existing SMS configurations.-->
 
@@ -215,7 +215,7 @@ Obtenga más información en la [fragmento de contenido](../content-management/f
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* Ahora puede utilizar el complemento Edge Delivery para obtener la información necesaria para comprender y solucionar problemas de las implementaciones entrantes. [Más información sobre la Vista de entrega de Edge](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+* Ahora puede utilizar el complemento Edge Delivery para obtener la información necesaria para comprender y solucionar problemas de las implementaciones entrantes. [Más información sobre la vista de Edge Delivery](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
 **Canal de correo directo**
