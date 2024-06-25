@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 source-git-commit: 41717213cb75185476f054bd076e67f942be0f1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
@@ -33,33 +33,33 @@ Para obtener más información sobre Privacy Service y cómo crear y administrar
 
 Puede enviar solicitudes individuales para acceder a los datos de consumo y eliminarlos de Adobe Journey Optimizer de dos formas:
 
-* A través de **IU de Privacy Service**. Consulte la documentación [aquí](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide#_blank).
-* A través de **API de Privacy Service**. Consulte la documentación [aquí](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank) e información de API [aquí](https://developer.adobe.com/experience-platform-apis/#_blank).
+* A través de la **IU de Privacy Service**. Consulte la documentación [aquí](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/ui/user-guide#_blank).
+* A través de la **API de Privacy Service**. Consulte la documentación [aquí](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank) y la información de la API [aquí](https://developer.adobe.com/experience-platform-apis/#_blank).
 
-El Privacy Service admite dos tipos de solicitudes: **acceso a datos** y **eliminación de datos**.
+Privacy Service admite dos tipos de solicitudes: **acceso a datos** y **eliminación de datos**.
 
 >[!NOTE]
 >
->Esta guía solo explica cómo realizar solicitudes de privacidad para Adobe Journey Optimizer. Si también planea realizar solicitudes de privacidad para el lago de datos de Platform, consulte esto [guía](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/privacy) además de este tutorial. Para el perfil del cliente en tiempo real, consulte esta sección [guía](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy) y para el servicio de identidad, consulte esta [guía](https://experienceleague.adobe.com/en/docs/experience-platform/identity/privacy). Para las solicitudes de eliminación y acceso, debe llamar a estos sistemas individuales para asegurarse de que cada uno de ellos gestiona las solicitudes. Realizar una solicitud de privacidad a Adobe Journey Optimizer no eliminará datos de todos estos sistemas.
+>Esta guía solo explica cómo realizar solicitudes de privacidad para Adobe Journey Optimizer. Si también planea realizar solicitudes de privacidad para el lago de datos de Platform, consulte esta [guía](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/privacy) además de este tutorial. Para el perfil del cliente en tiempo real, consulte esta [guía](https://experienceleague.adobe.com/es/docs/experience-platform/profile/privacy) y para el servicio de identidad, esta [guía](https://experienceleague.adobe.com/es/docs/experience-platform/identity/privacy). Para las solicitudes de eliminación y acceso, debe llamar a estos sistemas individuales para asegurarse de que cada uno de ellos gestiona las solicitudes. Realizar una solicitud de privacidad a Adobe Journey Optimizer no eliminará datos de todos estos sistemas.
 
-Para **solicitudes de acceso**, especifique &quot;Adobe Journey Optimizer&quot; en la interfaz de usuario (o &quot;CJM&quot; como código de producto en la API).
+Para **solicitudes de acceso**, especifique “Adobe Journey Optimizer” en la interfaz de usuario (o “CJM” como código de producto en la API).
 
-Para **eliminar solicitudes** Además de la solicitud &quot;Adobe Journey Optimizer&quot;, también debe enviar solicitudes de eliminación a tres servicios ascendentes para evitar que Journey Optimizer vuelva a insertar los datos eliminados. Si no se especifican estos servicios ascendentes, la solicitud de &quot;Adobe Journey Optimizer&quot; permanecerá en el estado &quot;procesando&quot; hasta que se creen solicitudes de eliminación para los servicios ascendentes.
+Para **eliminar solicitudes**, además de la solicitud “Adobe Journey Optimizer”, también debe enviar solicitudes de eliminación a tres servicios ascendentes para evitar que Journey Optimizer vuelva a insertar los datos eliminados. Si no se especifican estos servicios ascendentes, la solicitud de “Adobe Journey Optimizer” permanecerá en el estado “procesando” hasta que se creen solicitudes de eliminación para los servicios ascendentes.
 
-Los tres servicios ascendentes son:
+Los tres servicios ascendentes son los siguientes:
 
-* Perfil (código de producto: &quot;profileService&quot;)
-* Lago de datos de AEP (código de producto: &quot;AdobeCloudPlatform&quot;)
-* Identidad (código de producto: &quot;identidad&quot;)
+* Perfil (código de producto: “profileService”)
+* Lago de datos de AEP (código de producto: “AdobeCloudPlatform”)
+* Identidad (código de producto: “identidad”)
 
 ## Creación de solicitudes de acceso y eliminación
 
 ### Requisitos previos
 
-Para realizar solicitudes de acceso y eliminación de datos para Adobe Journey Optimizer, debe tener:
+Para realizar solicitudes de acceso y eliminación de datos para Adobe Journey Optimizer, deberá poseer lo siguiente:
 
 * un ID de organización de IMS
-* un identificador de identidad de la persona sobre la que desea actuar y las áreas de nombres correspondientes. Para obtener más información sobre áreas de nombres de identidad en Adobe Journey Optimizer y Experience Platform, consulte la [información general del área de nombres de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces).
+* un identificador de identidad de la persona sobre la que desea actuar y las áreas de nombres correspondientes. Para obtener más información sobre áreas de nombres de identidad en Adobe Journey Optimizer y Experience Platform, consulte la [información general del espacio de nombres de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces).
 
 ### Valores de campo requeridos en Adobe Journey Optimizer para solicitudes de API
 
