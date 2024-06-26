@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: espera, actividad, recorrido, siguiente, lienzo
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
+source-git-commit: cae6d394ad1c2356e55bd5f1cb4ad7494c9623dd
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 15%
@@ -23,7 +23,7 @@ ht-degree: 15%
 >title="Actividad de espera"
 >abstract="Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar una actividad de espera. Permite definir el momento en el que se ejecutará la siguiente actividad. Hay dos opciones disponibles: duración y personalizado."
 
-Puede usar un **[!UICONTROL Esperar]** actividad para definir una duración antes de ejecutar la siguiente actividad.  La duración máxima de espera es **29 días**.
+Puede usar un **[!UICONTROL Esperar]** actividad para definir una duración antes de ejecutar la siguiente actividad.  La duración máxima de espera es **90 días**.
 
 Puede establecer dos tipos de **Esperar** actividad:
 
@@ -55,7 +55,7 @@ En el modo de prueba, la variable **[!UICONTROL Tiempo de espera en la prueba]**
 
 ### Duración de espera {#duration}
 
-Seleccione el **Duración** escriba para establecer la duración relativa de la espera antes de la ejecución de la siguiente actividad. La duración máxima es **29 días**.
+Seleccione el **Duración** escriba para establecer la duración relativa de la espera antes de la ejecución de la siguiente actividad. La duración máxima es **90 días**.
 
 ![Definición de la duración de espera](assets/journey55.png)
 
