@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c843ca5bda10aa5f3ee8a676630d78c5ec092b14
+source-git-commit: ffeaa49cde2871b28c85598469e62f4d9acbf060
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 13%
@@ -21,7 +21,7 @@ ht-degree: 13%
 >id="ajo_create_visual_fragment"
 >title="Selección del tipo visual"
 >abstract="Cree un fragmento visual independiente para que el contenido se pueda reutilizar en un correo electrónico dentro de un recorrido, una campaña o una plantilla de contenido."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=es" text="Añadir fragmentos visuales a los correos electrónicos"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="Añadir fragmentos visuales a los correos electrónicos"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
@@ -61,7 +61,7 @@ Para crear un fragmento, siga los pasos a continuación.
 
 ## Diseño del contenido del fragmento {#content}
 
-Después de configurar las propiedades del fragmento, se abre el Diseñador de correo electrónico o el editor de personalización en función del tipo de fragmento que esté creando.
+Después de configurar las propiedades del fragmento, se abre Email Designer o el editor de personalización, según el tipo de fragmento que esté creando.
 
 * Para los fragmentos visuales, edite el contenido según sea necesario, del mismo modo que lo haría para cualquier correo electrónico dentro de un recorrido o una campaña. [Más información](../email/get-started-email-design.md)
 
@@ -81,13 +81,13 @@ Cuando el contenido esté listo, haga clic en **Guardar** botón. El fragmento s
 
 >[!NOTE]
 >
->Para publicar un fragmento, debe tener **Publicar fragmento** permiso relacionado. [Más información sobre los permisos](../administration/ootb-permissions.md)
+>Para publicar un fragmento, debe tener **Fragmento de Publish** permiso relacionado. [Más información sobre los permisos](../administration/ootb-permissions.md)
 
 Si el fragmento está listo para su publicación, puede previsualizarlo y publicarlo para que esté disponible en sus recorridos y campañas. Para ello, siga estos pasos:
 
 1. Vuelva a la pantalla de creación de fragmentos después de diseñar su contenido o ábralo desde la lista de fragmentos.
 
-1. Una vista previa del fragmento está disponible en la **Etiquetas** , lo que permite comprobar su renderización. Si necesita realizar algún cambio, haga clic en **Editar** en la sección superior de la pantalla para abrir el Diseñador de correo electrónico o el editor de personalización en función del tipo de fragmento.
+1. Una vista previa del fragmento está disponible en la **Etiquetas** , lo que permite comprobar su renderización. Si necesita realizar algún cambio, haga clic en **Editar** en la sección superior de la pantalla para abrir el Designer de correo electrónico o el editor de personalización en función del tipo de fragmento.
 
    ![](assets/fragment-preview.png)
 
@@ -99,7 +99,7 @@ Si el fragmento está listo para su publicación, puede previsualizarlo y public
 
    ![](assets/fragment-publish.png){width="70%" align="center"}
 
-El fragmento ahora está **Activo** y está disponible al crear contenido dentro de la variable [!DNL Journey Optimizer] Diseñador de correo electrónico o editor de personalización:
+El fragmento ahora está **Activo** y está disponible al crear contenido dentro de la variable [!DNL Journey Optimizer] Correo electrónico del editor de Designer o personalización:
 
 * [Aprenda a utilizar fragmentos visuales](../email/use-visual-fragments.md)
 * [Aprenda a utilizar fragmentos de expresiones](../personalization/use-expression-fragments.md)
