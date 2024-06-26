@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
+source-git-commit: a43179e67a7d5387e67bd3f6bb3ac3f24dd6325a
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 8%
@@ -157,7 +157,7 @@ A partir de la versión de junio de 2024 de Adobe Journey Optimizer, el tiempo d
       <p>¿Qué sucede con un perfil que introduce un recorrido publicado antes del lanzamiento de la extensión TTL?</p>
     </td>
     <td>
-      <p>El perfil tendrá un TTL de 91 días (7 días para HIPAA), coherente con el momento en que se publicó originalmente el recorrido.</p>
+      <p>El perfil tendrá un TTL de 30 días (7 días para HIPAA), coherente con el momento en que se publicó originalmente el recorrido.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -165,7 +165,7 @@ A partir de la versión de junio de 2024 de Adobe Journey Optimizer, el tiempo d
       <p>¿Qué les sucede a los perfiles que ya han entrado en un recorrido cuando se inicia la extensión TTL?</p>
     </td>
     <td>
-      <p>El perfil conservará un TTL de 91 días (7 días para HIPAA), según el tiempo de publicación original del recorrido.</p>
+      <p>El perfil conservará un TTL de 30 días (7 días para HIPAA), según la hora de publicación original del recorrido.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -173,7 +173,7 @@ A partir de la versión de junio de 2024 de Adobe Journey Optimizer, el tiempo d
       <p>¿Qué sucede con un perfil de una versión de recorrido anterior que se vuelve a publicar después del lanzamiento de la extensión TTL?</p>
     </td>
     <td>
-      <p>El perfil mantendrá un TTL de 91 días (7 días para HIPAA), alineado con el tiempo de publicación de la versión del recorrido original.</p>
+      <p>El perfil mantendrá un TTL de 30 días (7 días para HIPAA), alineado con el tiempo de publicación de la versión del recorrido original.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -218,7 +218,7 @@ A partir de la versión de junio de 2024 de Adobe Journey Optimizer, el tiempo d
       <p>¿Qué sucede con un perfil que introduce un recorrido publicado antes del lanzamiento de la extensión TTL?</p>
     </td>
     <td>
-      <p>El perfil tendrá un TTL de 91 días (7 días para HIPAA), coherente con el tiempo de publicación original. Para los recorridos recurrentes con reentrada forzada, el TTL coincidirá con el período de periodicidad.</p>
+      <p>El perfil tendrá un TTL de 30 días (7 días para HIPAA), coherente con el tiempo de publicación original. Para los recorridos recurrentes con reentrada forzada, el TTL coincidirá con el período de periodicidad.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -226,7 +226,7 @@ A partir de la versión de junio de 2024 de Adobe Journey Optimizer, el tiempo d
       <p>¿Qué sucede con un perfil que se ejecuta a través de un recorrido cuando se inicia la extensión TTL?</p>
     </td>
     <td>
-      <p>El perfil conservará un TTL de 91 días (7 días para HIPAA), según el tiempo de publicación original del recorrido. Para los recorridos recurrentes con reentrada forzada, el TTL coincidirá con el período de periodicidad.</p>
+      <p>El perfil conservará un TTL de 30 días (7 días para HIPAA), según la hora de publicación original del recorrido. Para los recorridos recurrentes con reentrada forzada, el TTL coincidirá con el período de periodicidad.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -234,7 +234,7 @@ A partir de la versión de junio de 2024 de Adobe Journey Optimizer, el tiempo d
       <p>¿Qué sucede con un perfil en ejecución en una versión de recorrido anterior que se vuelve a publicar después del lanzamiento de la extensión TTL?</p>
     </td>
     <td>
-      <p>El perfil mantendrá un TTL de 91 días (7 días para HIPPA), alineado con el tiempo de publicación de la versión original del recorrido. Para los recorridos recurrentes con reentrada forzada, el TTL coincidirá con el período de periodicidad.</p>
+      <p>El perfil mantendrá un TTL de 30 días (7 días para HIPPA), alineado con el tiempo de publicación de la versión original del recorrido. Para los recorridos recurrentes con reentrada forzada, el TTL coincidirá con el período de periodicidad.</p>
     </td>
   </tr>
   <tr style="border: 1;">
