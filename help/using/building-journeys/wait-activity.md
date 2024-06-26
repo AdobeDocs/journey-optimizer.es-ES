@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: espera, actividad, recorrido, siguiente, lienzo
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
+source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 15%
@@ -39,9 +39,9 @@ Puede establecer dos tipos de **Esperar** actividad:
 
 ### Varias actividades de espera {#multiple-wait-activities}
 
-Cuando se usan varios **Esperar** actividades en un recorrido, tenga en cuenta que la variable [tiempo de espera global](journey-properties.md#global_timeout) para recorridos es 90 días, lo que significa que los perfiles siempre abandonan el recorrido máximo 90 días después de introducirlo. Obtenga más información en [esta página](journey-properties.md#global_timeout).
+Cuando se usan varios **Esperar** actividades en un recorrido, tenga en cuenta que la variable [tiempo de espera global](journey-properties.md#global_timeout) para recorridos es 91 días, lo que significa que los perfiles siempre abandonan el recorrido máximo 91 días después de introducirlo. Obtenga más información en [esta página](journey-properties.md#global_timeout).
 
-Un individuo puede introducir una **Esperar** actividad solo si le queda tiempo suficiente en el recorrido recorrido para completar la espera antes del tiempo de espera de 90 días.
+Un individuo puede introducir una **Esperar** actividad solo si le queda tiempo suficiente en el recorrido recorrido para completar la espera antes del tiempo de espera de 91 días.
 
 ### Espera y vuelve a entrar {#wait-re-entrance}
 
