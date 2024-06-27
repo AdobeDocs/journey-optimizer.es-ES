@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 0ee93c3f3e922d0640b2867dcf5ebb83d67aa826
+source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '315'
 ht-degree: 11%
 
 ---
@@ -36,7 +36,7 @@ Para aprovechar al máximo los fragmentos:
 
 ## Antes de empezar {#fragment-prerequisites}
 
-Para crear, editar y archivar fragmentos, debe tener el **[!DNL Manage library items]** permiso incluido en el **[!DNL Content Library Manager]** perfil del producto. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
+Para crear, editar, archivar y publicar fragmentos, necesita el **[!DNL Manage library items]** y **[Fragmento de Publish]** permisos incluidos en la **[!DNL Content Library Manager]** perfil del producto. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
 
 En esta versión, se aplican las siguientes limitaciones:
 
@@ -47,7 +47,7 @@ En esta versión, se aplican las siguientes limitaciones:
 
 Hay dos tipos de fragmentos disponibles:
 
-* **Fragmentos visuales** son bloques visuales predefinidos que se pueden reutilizar en varios envíos de correo electrónico con la variable [Diseñador de correo electrónico](../email/get-started-email-design.md), o en [plantillas de contenido](../email/use-email-templates.md).
+* **Fragmentos visuales** son bloques visuales predefinidos que se pueden reutilizar en varios envíos de correo electrónico con la variable [Correo electrónico Designer](../email/get-started-email-design.md), o en [plantillas de contenido](../email/use-email-templates.md).
 * **Fragmentos de expresión** son expresiones predefinidas que están disponibles en una entrada dedicada en la [editor de personalización](../personalization/personalization-build-expressions.md).
 
 Todos los fragmentos creados son accesibles desde el **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Fragmentos]**  menú izquierdo. [Obtenga información sobre cómo administrar fragmentos](../content-management/manage-fragments.md)
