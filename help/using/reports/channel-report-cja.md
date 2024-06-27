@@ -7,10 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
-source-git-commit: 2a5c04477b38e2fccdde86af56714261c6638160
+badge: label="Disponibilidad limitada" type="Informative"
+exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '637'
 ht-degree: 1%
 
 ---
@@ -27,7 +28,7 @@ La página del informe se muestra con las siguientes pestañas:
 * [Campañas](#campaign)
 * [Canales](#channel)
 
-Para obtener más información sobre el espacio de trabajo del Customer Journey Analytics y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Características destacadas {#highlights}
 

@@ -7,10 +7,11 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+badge: label="Disponibilidad limitada" type="Informative"
+exl-id: d43ae701-6e3b-4dcf-8da1-11c07be10fcf
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '4175'
+source-wordcount: '4176'
 ht-degree: 2%
 
 ---
@@ -33,7 +34,7 @@ El **[!UICONTROL informe de recorrido]** se mostrará con las siguientes pestañ
 * [Web](#web-cja)
 * [Correo directo](#direct-mail-cja)
 
-Para obtener más información sobre el espacio de trabajo del Customer Journey Analytics y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Información general del recorrido {#journey-global}
 

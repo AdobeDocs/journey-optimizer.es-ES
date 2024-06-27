@@ -7,10 +7,11 @@ feature: Reporting, Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+badge: label="Disponibilidad limitada" type="Informative"
+exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '792'
 ht-degree: 2%
 
 ---
@@ -114,10 +115,3 @@ El **[!UICONTROL Canal]** La tabla muestra el número de visitas a su página de
 El **[!UICONTROL Vínculos más visitados]** La tabla proporciona perspectivas sobre cómo los visitantes interactúan con el envío, destacando qué vínculos reciben la mayor participación y atención de la audiencia.
 
 * **[!UICONTROL Clics en páginas de aterrizaje]**: Número de veces que se hizo clic en un contenido en la página de aterrizaje.
-
-
-
-
-
-
-
