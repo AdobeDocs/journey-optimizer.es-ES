@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 8ca75a149db65ee65bf28fe6c0688ee18488fcec
+source-git-commit: 09287aaa41664cc497060df9a10a7d46985e4ae4
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 16%
+source-wordcount: '1044'
+ht-degree: 15%
 
 ---
 
@@ -47,7 +47,7 @@ Desde el **[!UICONTROL Más acciones]** junto a cada fragmento, puede hacer lo s
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Nuevos estados de fragmentos"
->abstract="Al haberse introducido el **borrador** y los estados **activos** con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado “Borrador”, incluso si se utilizan en un recorrido o una campaña. Si realiza cualquier cambio en estos fragmentos, debe publicarlos para que estén “activos” y propagar los cambios a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. La publicación requiere un permiso de usuario."
+>abstract="Al haberse introducido el **borrador** y los estados **activos** con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado “Borrador”, incluso si se utilizan en un recorrido o una campaña. Si realiza cualquier cambio en estos fragmentos, debe publicarlos para que estén “activos” y propagar los cambios a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. La publicación requiere el permiso de usuario Fragmento de Publish."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Más información sobre los permisos de fragmentos de contenido"
 
 >[!AVAILABILITY]
@@ -67,7 +67,7 @@ Los fragmentos pueden tener varios estados:
 
 >[!CAUTION]
 >
->Al haberse introducido el **borrador** y los estados **activos** con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado “Borrador”, incluso si se utilizan en un recorrido o una campaña. Si realiza cualquier cambio en estos fragmentos, debe publicarlos para que estén “activos” y propagar los cambios a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. La publicación requiere un permiso de usuario.
+>Al haberse introducido el **borrador** y los estados **activos** con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado “Borrador”, incluso si se utilizan en un recorrido o una campaña. Si realiza cualquier cambio en estos fragmentos, debe publicarlos para que estén “activos” y propagar los cambios a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. La publicación requiere lo siguiente [Fragmento de Publish](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager)** permiso de usuario.
 
 ## Editar fragmentos {#edit-fragments}
 
