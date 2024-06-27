@@ -1,56 +1,55 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Acerca del editor de expresiones avanzadas
+title: Trabajo con el editor de expresiones avanzadas
 description: Aprenda a crear expresiones avanzadas
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
 keywords: editor de expresiones, datos, recorrido
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 1%
+source-wordcount: '665'
+ht-degree: 61%
 
 ---
 
-# Acerca del editor de expresiones avanzadas {#about-the-advanced-expression-editor}
+# Trabajo con el editor de expresiones avanzadas {#about-the-advanced-expression-editor}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_advanced"
 >title="Acerca del editor de expresiones avanzadas"
->abstract="Utilice el editor de expresiones avanzadas para crear expresiones avanzadas en varias pantallas de la interfaz. Por ejemplo, puede generar expresiones al configurar y utilizar recorridos, y al definir una condición de fuente de datos."
+>abstract="Utilice el editor de expresiones avanzadas para crear expresiones avanzadas en varias pantallas de la interfaz. Por ejemplo, se pueden generar expresiones al configurar y utilizar recorridos y al definir una condición de fuente de datos."
 
-Utilice el editor de expresiones avanzadas de Recorrido para crear expresiones avanzadas en varias pantallas de la interfaz. Por ejemplo, puede generar expresiones al configurar y utilizar recorridos, y al definir una condición de fuente de datos.
+Utilice el editor de expresiones avanzadas de Recorrido para crear expresiones avanzadas en varias pantallas de la interfaz. Por ejemplo, se pueden generar expresiones al configurar y utilizar recorridos y al definir una condición de fuente de datos.
+
+También está disponible cada vez que necesite definir parámetros de acción que requieran manipulaciones de datos específicas. Puede aprovechar los datos procedentes de los eventos o la información adicional recuperada del origen de datos. En un viaje, la lista mostrada de los campos de evento es contextual y varía según los eventos agregados en el recorrido.
+
+![](../assets/journey65.png)
+
+
+El editor de expresiones avanzadas oferta un conjunto de funciones y operadores integrados que le permiten manipular valores, y definir una expresión que se ajuste específicamente a sus necesidades. El editor de expresiones avanzadas también permite definir los valores del parámetro de fuente de datos externo, y manipular los campos y colecciones de mapas, como los eventos de experiencia.
 
 >[!NOTE]
 >
 >Las funciones y capacidades disponibles en el editor de expresiones avanzadas de Recorrido difieren de las disponibles en el [editor de personalización](../../personalization/functions/functions.md).
 
-También está disponible cada vez que necesite definir parámetros de acción que requieran manipulaciones de datos específicas. Puede aprovechar los datos procedentes de los eventos o la información adicional recuperada de la fuente de datos. En un recorrido, la lista mostrada de los campos de evento es contextual y varía según los eventos agregados en el recorrido.
-
-El editor de expresiones avanzadas ofrece un conjunto de funciones y operadores integrados que le permiten manipular valores y definir una expresión que se ajuste específicamente a sus necesidades. El editor de expresiones avanzadas también permite definir los valores del parámetro de fuente de datos externo, y manipular los campos y colecciones de mapas, como los eventos de experiencia.
-
-![](../assets/journey65.png)
-
-_Interfaz avanzada del editor de expresiones_
+## Acceso al editor de expresiones avanzadas {#accessing-the-advanced-expression-editor}
 
 El editor de expresiones avanzadas se puede utilizar para lo siguiente:
 
-* crear [condiciones avanzadas](../condition-activity.md#about_condition) sobre fuentes de datos e información de eventos
-* definir personalizado [actividades de espera](../wait-activity.md#custom)
+* crear [condiciones avanzadas ](../condition-activity.md#about_condition) en fuentes de datos e información de evento
+* definir [actividades de espera personalizadas](../wait-activity.md#custom)
 * definir asignación de parámetros de acción
 
-Si es posible, puede cambiar entre los dos modos con el **[!UICONTROL Modo avanzado]** / **[!UICONTROL Modo simple]** botón. Se describe el modo simple [aquí](../condition-activity.md#about_condition).
+Si es posible, puede cambiar entre los dos modos con el **[!UICONTROL Modo avanzado]** / **[!UICONTROL Modo simple]** botón. El modo simple se describe [aquí](../condition-activity.md#about_condition).
 
 >[!NOTE]
 >
 >Las condiciones se pueden definir en el editor de expresiones simples o avanzadas. Siempre devuelven un tipo booleano.
 >
 >Los parámetros de acción se pueden definir seleccionando campos o mediante el editor de expresiones avanzadas. Devuelven un tipo de datos específico según su expresión.
-
-## Acceso al editor de expresiones avanzadas {#accessing-the-advanced-expression-editor}
 
 Puede acceder al editor de expresiones avanzadas de diferentes maneras:
 
@@ -61,7 +60,7 @@ Puede acceder al editor de expresiones avanzadas de diferentes maneras:
 * Al crear un temporizador personalizado, se mostrará directamente el editor avanzado.
 * Cuando asigne un parámetro de acción, haga clic en **[!UICONTROL Modo avanzado]**.
 
-## Descubrir la interfaz{#discovering-the-interface}
+## Descubra la interfaz {#discovering-the-interface}
 
 Esta pantalla le permite escribir manualmente su expresión.
 
