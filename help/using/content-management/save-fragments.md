@@ -8,22 +8,22 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 8%
+source-wordcount: '460'
+ht-degree: 11%
 
 ---
 
 # Guardar contenido como fragmento {#save-as-fragment}
 
-Al editar contenido en [!DNL Journey Optimizer], puede guardar todo o parte del contenido como fragmento para su reutilización futura. Puede guardar el contenido como fragmento [desde el Diseñador de correo electrónico](#save-as-visual-fragment), o [desde el editor de expresiones](#save-as-expression-fragment).
+Al editar contenido en [!DNL Journey Optimizer], puede guardar todo o parte del contenido como fragmento para su reutilización futura. Puede guardar el contenido como fragmento [desde Email Designer](#save-as-visual-fragment), o [desde el editor de expresiones](#save-as-expression-fragment).
 
 ## Guardar como fragmento visual {#save-as-visual-fragment}
 
-Para guardar contenido del Diseñador de correo electrónico como fragmento, siga estos pasos:
+Para guardar contenido del Designer de correo electrónico como fragmento, siga estos pasos:
 
-1. En el [Diseñador de correo electrónico](../email/get-started-email-design.md), haga clic en los puntos suspensivos en la parte superior derecha de la pantalla.
+1. En el [Correo electrónico Designer](../email/get-started-email-design.md), haga clic en los puntos suspensivos en la parte superior derecha de la pantalla.
 
 1. Seleccionar **[!UICONTROL Guardar como fragmento]** en el menú desplegable.
 
@@ -50,10 +50,6 @@ Para guardar contenido del Diseñador de correo electrónico como fragmento, sig
    >Cualquier cambio en ese nuevo fragmento no se propaga al correo electrónico o a la plantilla de los que proviene. Del mismo modo, cuando el contenido original se edita dentro de ese correo electrónico o plantilla, el nuevo fragmento no se modifica.
 
 1. Para poder utilizar el fragmento en sus recorridos y campañas, debe habilitarlo. [Obtenga información sobre cómo obtener una vista previa y publicar un fragmento](../content-management/create-fragments.md#publish)
-
->[!NOTE]
->
->La publicación de fragmentos se está implementando gradualmente durante varios días después de la publicación de Journey Optimizer en junio. Aunque algunos usuarios tendrán acceso inmediato, otros pueden experimentar un retraso antes de que esté disponible en sus entornos. Si esta mejora aún no está disponible en su entorno, tenga en cuenta que la publicación de fragmentos no es necesaria para utilizar fragmentos en sus recorridos y campañas.
 
 ## Guardar como fragmento de expresión {#save-as-expression-fragment}
 
@@ -83,7 +79,3 @@ Para guardar contenido como un fragmento de expresión, siga los pasos a continu
 1. El fragmento se añade a [lista de fragmentos](#access-manage-fragments) con el **Borrador** estado. Se convierte en un fragmento independiente que se puede utilizar como cualquier otro fragmento de expresión de esa lista.
 
 1. Para poder utilizar el fragmento en sus recorridos y campañas, debe habilitarlo. [Obtenga información sobre cómo obtener una vista previa y publicar un fragmento](../content-management/create-fragments.md#publish)
-
->[!NOTE]
->
->La publicación de fragmentos se está implementando gradualmente durante varios días después de la publicación de Journey Optimizer en junio. Aunque algunos usuarios tendrán acceso inmediato, otros pueden experimentar un retraso antes de que esté disponible en sus entornos. Si esta mejora aún no está disponible en su entorno, tenga en cuenta que la publicación de fragmentos no es necesaria para utilizar fragmentos en sus recorridos y campañas.

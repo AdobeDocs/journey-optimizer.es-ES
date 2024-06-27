@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 152d637b631650e99c67df9be179ab1f5b5e682b
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 15%
+source-wordcount: '905'
+ht-degree: 18%
 
 ---
 
@@ -49,10 +49,6 @@ Desde el **[!UICONTROL Más acciones]** junto a cada fragmento, puede hacer lo s
 >title="Nuevos estados de fragmentos"
 >abstract="Al haberse introducido el **borrador** y los estados **activos** con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado “Borrador”, incluso si se utilizan en un recorrido o una campaña. Si realiza cualquier cambio en estos fragmentos, debe publicarlos para que estén “activos” y propagar los cambios a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. La publicación requiere el permiso de usuario Fragmento de Publish."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Más información sobre los permisos de fragmentos de contenido"
-
->[!AVAILABILITY]
->
-> Tenga en cuenta que los estados de los fragmentos se están implementando gradualmente durante varios días después de la versión de junio de Journey Optimizer. Aunque algunos usuarios tendrán acceso inmediato, otros pueden experimentar un retraso antes de que esté disponible en sus entornos. Si esta mejora aún no está disponible en su entorno, tenga en cuenta que el fragmento no requiere que **Activo** para su uso en recorridos y campañas.
 
 Los fragmentos pueden tener varios estados:
 
@@ -102,10 +98,6 @@ Para editar un fragmento, siga los pasos a continuación.
 1. Una vez que los cambios estén listos, haga clic en **Publish** para activar las modificaciones.
 
 Al editar un fragmento, los cambios se propagan automáticamente a todo el contenido mediante ese fragmento, incluidos los recorridos activos y las campañas, excepto en el contenido en el que se ha roto la herencia del fragmento original. Obtenga información sobre cómo interrumpir la herencia en [Añadir fragmentos visuales a los correos electrónicos](../email/use-visual-fragments.md#break-inheritance) y [Aprovechamiento de fragmentos de expresiones](../personalization/use-expression-fragments.md#break-inheritance) secciones.
-
->[!AVAILABILITY]
->
->Tenga en cuenta que la propagación de cambios de fragmentos en recorridos y campañas en directo se está implementando gradualmente durante los días siguientes a la publicación de Journey Optimizer en junio. Aunque algunos usuarios tendrán acceso inmediato, otros pueden experimentar un retraso antes de que esté disponible en sus entornos. Si esta mejora aún no está disponible en su entorno, los cambios no se propagarán al contenido utilizado en recorridos o campañas en directo.
 
 ## Explorar referencias {#explore-references}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '669'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ Para utilizar un fragmento en un correo electrónico, siga los pasos a continuac
 >Puede añadir hasta 30 fragmentos en una entrega determinada. Los fragmentos solo se pueden anidar hasta 1 nivel.
 
 
-1. Abra cualquier contenido de correo electrónico o plantilla con la variable [Diseñador de correo electrónico](get-started-email-design.md).
+1. Abra cualquier contenido de correo electrónico o plantilla con la variable [Correo electrónico Designer](get-started-email-design.md).
 
 1. Seleccione el **[!UICONTROL Fragmentos]** del carril izquierdo.
 
@@ -54,8 +54,6 @@ Para utilizar un fragmento en un correo electrónico, siga los pasos a continuac
    >[!CAUTION]
    >
    >Puede añadir cualquiera **Borrador** o **Activo** a su contenido. Sin embargo, no podrá activar su recorrido o campaña si se está utilizando un fragmento con el estado Borrador. En el momento de la publicación del recorrido o de la campaña, los fragmentos de borrador mostrarán un error y deberá aprobarlos para poder publicarlos.
-   >
-   > Tenga en cuenta que los estados de los fragmentos se están implementando gradualmente durante varios días después de la versión de junio de Journey Optimizer. Aunque algunos usuarios tendrán acceso inmediato, otros pueden experimentar un retraso antes de que esté disponible en sus entornos. Si esta mejora aún no está disponible en su entorno, tenga en cuenta que el fragmento no requiere que **Activo** para su uso en recorridos y campañas.
 
 1. Al igual que cualquier otro componente, puede mover el fragmento por el contenido.
 

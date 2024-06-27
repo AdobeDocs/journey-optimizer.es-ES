@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, biblioteca, personalización
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -51,8 +51,6 @@ Para añadir fragmentos de expresión al contenido, siga los pasos a continuaci�
    >[!CAUTION]
    >
    >Puede añadir cualquiera **Borrador** o **Activo** a su contenido. Sin embargo, no podrá activar su recorrido o campaña si se está utilizando un fragmento con el estado Borrador. En el momento de la publicación del recorrido o de la campaña, los fragmentos de borrador mostrarán un error y deberá aprobarlos para poder publicarlos.
-   >
-   > Tenga en cuenta que los estados de los fragmentos se están implementando gradualmente durante varios días después de la versión de junio de Journey Optimizer. Aunque algunos usuarios tendrán acceso inmediato, otros pueden experimentar un retraso antes de que esté disponible en sus entornos. Si esta mejora aún no está disponible en su entorno, tenga en cuenta que el fragmento no requiere que **Activo** para su uso en recorridos y campañas.
 
 1. Una vez agregado el ID de fragmento, si abre el fragmento de expresión correspondiente y [editarlo](../content-management/fragments.md#edit-fragments) desde la interfaz de, los cambios se sincronizan. Se propagan automáticamente a todos los recorridos o campañas en borrador o activos que contengan ese ID de fragmento.
 
