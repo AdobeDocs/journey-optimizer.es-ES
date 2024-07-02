@@ -12,7 +12,7 @@ exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 1%
+ht-degree: 28%
 
 ---
 
@@ -53,7 +53,7 @@ Para ello, en la variable **[!UICONTROL Propiedades de recorrido]** , seleccione
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_profile_time_zone"
 >title="Usar zona horaria del perfil"
->abstract="Marque la casilla para utilizar la zona horaria del perfil en tiempo real en las actividades de espera y condición. Si se ha definido una zona horaria para un perfil, el recorrido la recuperará y la utilizará. Si no es así, la zona horaria será la definida en el campo de zona horaria anterior."
+>abstract="Marque el cuadro para utilizar la zona horaria del perfil en tiempo real en las actividades de espera y condición. Si se ha definido una zona horaria para un perfil, el recorrido la recuperará y la utilizará. De lo contrario, la zona horaria será la definida en el campo de zona horaria anterior."
 
 Si el evento de entrada del recorrido tiene un área de nombres, lo que significa que el recorrido puede llegar al servicio Perfil del cliente en tiempo real de Adobe Experience Platform, es posible que desee utilizar la zona horaria definida en el nivel de perfil. Para ello, en **Propiedades**, marque **Usar zona horaria del perfil en esperas y condiciones**. Esta opción no está activada de forma predeterminada.
 

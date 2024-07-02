@@ -12,7 +12,7 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 38496b93f073c0e9cb208b0c62e6c4cb8a2d8c03
 workflow-type: tm+mt
 source-wordcount: '1341'
-ht-degree: 26%
+ht-degree: 28%
 
 ---
 
@@ -35,14 +35,14 @@ Para insertar un vínculo de baja en el contenido del correo electrónico, puede
 
 ## Opción de exclusión en un paso {#opt-out-one-step}
 
-### URL de cancelación de suscripción de un clic en el encabezado del correo electrónico {#unsubscribe-header}
+### URL Cancelar la suscripción de un clic en el encabezado del correo electrónico {#unsubscribe-header}
 
 <!--Do not modify - Legal Review Done -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="Añadir URL de cancelación de suscripción en el encabezado del correo electrónico"
->abstract="Active el encabezado Cancelación de suscripción a una lista para agregar una URL de cancelación de suscripción en el encabezado del correo electrónico. Para establecer la URL &quot;Cancelar la suscripción&quot;, inserte un vínculo de no participación de un solo clic en el contenido del correo electrónico."
+>title="Añadir la URL Cancelar la suscripción en el encabezado del correo electrónico"
+>abstract="Habilite Cancelar la suscripción a la lista para añadir una URL Cancelar la suscripción al encabezado del correo electrónico. Para establecer la URL &quot;Cancelar la suscripción&quot;, inserte un vínculo de no participación de un solo clic en el contenido del correo electrónico."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=es#one-click-opt-out" text="Opción de exclusión en un clic"
 
 La URL &quot;Cancelar la suscripción&quot; de una lista de un clic es un vínculo o botón &quot;Cancelar la suscripción&quot; que se muestra junto a la información del remitente del correo electrónico y permite a los destinatarios excluirse instantáneamente de sus listas de correo con un solo clic. En Adobe Journey Optimizer, cuando la variable **Habilitar cancelación de suscripción a lista** está activada, el encabezado del correo electrónico incluye un mailto y/o una URL de forma predeterminada que los destinatarios pueden utilizar para cancelar la suscripción a su lista de correo.

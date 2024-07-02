@@ -11,8 +11,8 @@ keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1724'
+ht-degree: 17%
 
 ---
 
@@ -64,8 +64,8 @@ La administración de la entrada del perfil depende del tipo de recorridos. Obte
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Permitir la reentrada"
->abstract="De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desmarcar las **Permitir la reentrada** opción por ejemplo, si desea ofrecer un regalo de una sola vez cuando una persona entra en una tienda."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Administración de la entrada del perfil"
+>abstract="De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desmarcar la opción **Permitir la reentrada** por ejemplo, si desea ofrecer un regalo puntual cuando una persona entra en una tienda."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Administración de la entrada del perfil"
 
 De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desmarcar las **Permitir la reentrada** opción para recorridos de &quot;una sola toma&quot;, por ejemplo, si desea ofrecer un regalo de una sola vez cuando una persona entra en una tienda.
 
@@ -75,7 +75,7 @@ De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desm
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Período de espera de reentrada"
 >abstract=" Establezca el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en recorridos unitarios. Esto evita que los usuarios vuelvan a entrar en el recorrido durante un tiempo determinado. Duración máxima: 90 días."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Administración de la entrada del perfil"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Administración de la entrada del perfil"
 
 Si la variable **Permitir la reentrada** está activada, la opción **Período de espera de reentrada** se muestra el campo. Este campo permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en el caso de recorridos unitarios (empezando con un evento o una calificación de público). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos. La duración máxima es de 90 días.
 
@@ -92,12 +92,12 @@ La zona horaria se define en el nivel de recorrido. Puede introducir una zona ho
 
 Para obtener más información sobre la administración de huso horario, consulte [esta página](../building-journeys/timezone-management.md).
 
-## Fechas de inicio y finalización {#dates}
+## Fecha de inicio y de finalización {#dates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Fecha de inicio"
->abstract="Elija la fecha en la que puede comenzar la entrada en el recorrido. Si no se especifica ninguna fecha de inicio, se establece automáticamente en el momento de la publicación."
+>abstract="Elija la fecha en la que puede empezar la entrada en el recorrido. Si no se especifica ninguna fecha de inicio, se establece automáticamente en el momento de la publicación."
 
 
 >[!CONTEXTUALHELP]
