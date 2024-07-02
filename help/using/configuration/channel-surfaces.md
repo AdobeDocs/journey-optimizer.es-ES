@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 9af49f0a47ad5bc1d2cea3e822ec20e2930140d3
 workflow-type: tm+mt
-source-wordcount: '1738'
-ht-degree: 9%
+source-wordcount: '1758'
+ht-degree: 10%
 
 ---
 
@@ -22,6 +22,36 @@ ht-degree: 9%
 >id="ajo_admin_channel_surfaces"
 >title="Superficie de canal"
 >abstract="Una superficie de canal es una configuración que ha definido un administrador del sistema. Contiene todos los parámetros técnicos para enviar el mensaje, como parámetros de encabezado, subdominio, aplicaciones móviles, etc."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_marketing_action"
+>title="Acción de marketing"
+>abstract="Por confirmar"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_app_id"
+>title="ID de aplicación"
+>abstract="Por confirmar"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_location"
+>title="Ubicación en la página"
+>abstract="Por confirmar"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_page_rule"
+>title="Regla de coincidencia de páginas"
+>abstract="Por confirmar"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_url"
+>title="URL predeterminada"
+>abstract="Por confirmar"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_surface_uri"
+>title="URI de superficie"
+>abstract="Por confirmar"
 
 Con [!DNL Journey Optimizer], puede configurar superficies de canal (es decir, ajustes preestablecidos de mensaje) que definan todos los parámetros técnicos necesarios para sus mensajes: tipo de correo electrónico, nombre y correo electrónico del remitente, aplicaciones móviles, configuración de SMS, etc.
 
