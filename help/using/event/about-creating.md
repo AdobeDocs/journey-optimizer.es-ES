@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evento, unitario, crear, recorrido
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 65a1672c2440a3498ec1fc1c7db62080aa306cf4
+source-git-commit: ca80a7bc1fbf819d27db2d9518832c9345cdaa18
 workflow-type: tm+mt
-source-wordcount: '1608'
+source-wordcount: '1610'
 ht-degree: 12%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 12%
 
 Los eventos unitarios están vinculados a un perfil específico. Pueden basarse en reglas o en sistemas generados.  Más información sobre el evento unitario [esta sección](../event/about-events.md).
 
-Estos son los primeros pasos para configurar un nuevo evento:
+A continuación se muestran los primeros pasos para configurar un nuevo evento:
 
-1. En la sección del menú ADMINISTRACIÓN, seleccione **[!UICONTROL Configuraciones]**. En el  **[!UICONTROL Eventos]** , haga clic en **[!UICONTROL Administrar]**. Se muestra la lista de eventos.
+1. En la sección del menú ADMINISTRACIÓN, vaya a **[!UICONTROL Configuraciones]**, y en el  **[!UICONTROL Eventos]** , haga clic en **[!UICONTROL Administrar]**. Se muestra la lista de eventos.
 
    ![](assets/jo-event1.png)
 
