@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evento, unitario, crear, recorrido
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 60a7e79a5a40eada7645c1b6b94d8b165d2453b4
+source-git-commit: 852b79a7a2cdcaeac700e2bb8b0cf1aa0d421bc9
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1603'
 ht-degree: 12%
 
 ---
@@ -43,35 +43,35 @@ Estos son los primeros pasos para configurar un nuevo evento:
    >
    >Solo se permiten caracteres alfanuméricos y guiones bajos. La longitud máxima es de 30 caracteres.
 
-1. En el **[!UICONTROL Tipo]** , elija **Unitario**.
+1. En el **[!UICONTROL campo Tipo]** , elija **Unitario**.
 
    ![](assets/jo-event3bis.png)
 
-1. En el **[!UICONTROL Tipo de ID de evento]** , seleccione el tipo de ID de evento que desee utilizar: **Basado en reglas** o **Sistema generado**. Obtenga más información sobre los tipos de ID de evento en [esta sección](../event/about-events.md#event-id-type).
+1. En el **[!UICONTROL campo Tipo de ID]** de evento, seleccione el tipo de ID de evento que desee utilizar: **Basado en** reglas o **Generado por** el sistema. Lea más sobre ID de evento tipos en [esta sección](../event/about-events.md#event-id-type).
 
    ![](assets/jo-event4.png)
 
-1. El número de recorridos que utilizan este evento se muestra en la variable **[!UICONTROL Utilizado en]** field. Puede hacer clic en **[!UICONTROL Ver recorridos]** para mostrar la lista de recorridos con este evento.
+1. El número de viajes que utilizan este evento se muestra en el **[!UICONTROL campo Utilizado en]** . Puede hacer clic en el **[!UICONTROL icono de]** Ver viajes para mostrar los lista de los viajes que utilizan este evento.
 
-1. Defina los campos esquema y carga útil: aquí es donde selecciona la información de evento (generalmente denominada carga útil) que recorrido espera recibir. Podrá utilizar esta información en su recorrido. Consulte [esta sección](../event/about-creating.md#define-the-payload-fields).
+1. Defina los campos esquema y carga útil: aquí es donde selecciona la información evento (generalmente llamada carga útil) que los viajes esperan recibir. Podrá utilizar esta información en su recorrido. Consulte [esta sección](../event/about-creating.md#define-the-payload-fields).
 
    ![](assets/jo-event5.png)
 
    >[!NOTE]
    >
-   >Al seleccionar la variable **[!UICONTROL Sistema generado]** Tipo, solo están disponibles los esquemas que tienen el campo de tipo eventID. Al seleccionar la variable **[!UICONTROL Basado en reglas]** Tipo, todos los esquemas de Evento de experiencia están disponibles.
+   >Cuando selecciona el tipo Generado por ]**el**[!UICONTROL  sistema, solo están disponibles los esquemas que tienen el campo de tipo eventID. Cuando selecciona el **[!UICONTROL tipo Basado en]** reglas, se encuentran disponibles todos los esquemas de Eventos de experiencia.
 
-1. Para los eventos basados en reglas, haga clic dentro de **[!UICONTROL Condición de ID de evento]** field. Con el editor de expresiones simples o avanzadas, defina la condición que el sistema utilizará para identificar los eventos que almacenarán en déclencheur el recorrido.
+1. Para eventos basados en regla, haga clic dentro del campo Condición ]**de ID de**[!UICONTROL  evento. Usando el expresión editor simple o avanzado, defina la condición que utilizará el sistema para identificar los eventos que desencadenarán su viaje.
 
-![](assets/jo-event6.png)
+   ![](assets/jo-event6.png)
 
-En nuestro ejemplo, escribimos una condición basada en la ciudad del perfil. Esto significa que siempre que el sistema reciba un evento que coincida con esta condición (**[!UICONTROL Ciudad]** field y **[!UICONTROL París]** ), se lo transmitirá a los recorridos.
+   En nuestro ejemplo, escribimos una condición basada en la ciudad del perfil. Esto significa que siempre que el sistema reciba un evento que coincida con esta condición (**[!UICONTROL campo de ciudad]** y **[!UICONTROL valor de París]** ), lo pasará a los viajes.
 
->[!NOTE]
->
->En el editor de expresiones simple, no todos los operadores están disponibles, sino que dependen del tipo de datos. Por ejemplo, para un tipo de cadena de campo, puede utilizar &quot;contiene&quot; o &quot;es igual a&quot;.
->
->Si modifica el esquema con nuevos valores de enumeración después de crear el evento, debe seguir estos pasos para aplicar los cambios al evento existente: anule la selección del campo de enumeración de los campos de evento, confirme la selección y, a continuación, seleccione de nuevo el campo de enumeración. Ahora se muestra el nuevo valor de enumeración.
+   >[!NOTE]
+   >
+   >En el expresión editor simple, no todos los operadores están disponibles, dependen del tipo de datos. Por ejemplo, para un tipo de cadena de campo, puede utilizar &quot;contiene&quot; o &quot;es igual a&quot;.
+   >
+   >Si modifica el esquema con nuevos valores de enumeración después de crear el evento, debe seguir estos pasos para aplicar los cambios al evento existente: anule la selección del campo de enumeración de los campos de evento, confirme la selección y, a continuación, seleccione de nuevo el campo de enumeración. Ahora se muestra el nuevo valor de enumeración.
 
 1. Añada un área de nombres. Este paso es opcional, pero se recomienda, ya que la adición de un área de nombres le permite aprovechar la información almacenada en el servicio de Perfil del cliente en tiempo real. Define el tipo de clave que tiene el evento. Consulte [esta sección](../event/about-creating.md#select-the-namespace).
 
@@ -158,29 +158,25 @@ Si necesita utilizar una clave diferente, como un ID de CRM o una dirección de 
 
 1. Seleccione el campo elegido como clave en la lista de campos de carga útil.
 
-Cuando se recibe el evento, el valor de la clave permite al sistema identificar a la persona asociada al evento. Asociado a un área de nombres (consulte [esta sección](../event/about-creating.md#select-the-namespace)), la clave se puede utilizar para realizar consultas en Adobe Experience Platform. Consulte [esta página](../building-journeys/about-journey-activities.md#orchestration-activities).
-La clave también se utiliza para comprobar que una persona está en un recorrido. De hecho, una persona no puede estar en dos lugares diferentes en el mismo recorrido. Como resultado, el sistema no permite que la misma clave, por ejemplo la clave CRMID=3224, esté en diferentes lugares del mismo recorrido.
+Cuando se recibe el evento, el valor de la clave permite al sistema identificar a la persona asociada al evento. Asociada a un espacio de nombres (consulte [esta sección](../event/about-creating.md#select-the-namespace)), la clave se puede utilizar para realizar consultas en Adobe Experience Platform. Consulte [este Página](../building-journeys/about-journey-activities.md#orchestration-activities).
+La llave también se utiliza para comprobar que una persona está en un viaje. De hecho, una persona no puede estar en dos lugares diferentes en el mismo viaje. Como resultado, el sistema no permite que la misma clave, por ejemplo la clave CRMID=3224, esté en diferentes lugares en el mismo viaje.
 
 ### Editor de expresiones avanzadas {#adv-exp-editor}
-
 
 Al definir el Identificador de perfil, puede cambiar al editor de expresiones avanzadas para crear claves más complejas (por ejemplo, una concatenación de dos campos de los eventos).
 
 ![](assets/journey20.png)
 
-Tiene acceso a las funciones de expresión avanzadas desde el **[!UICONTROL Modo avanzado]** si desea realizar manipulaciones adicionales. Estas funciones permiten manipular los valores utilizados para llevar a cabo consultas específicas, como cambiar de formato, o realizar concatenaciones de campos, teniendo en cuenta solo una parte de un campo (por ejemplo, los 10 primeros caracteres). Consulte esta [página](../building-journeys/expression/expressionadvanced.md).
+Tiene acceso a las funciones de expresión avanzadas desde el **[!UICONTROL modo]** Avanzadas botón si desea realizar manipulaciones adicionales. Estas funciones le permiten manipular los valores utilizados para llevar a cabo consultas específicas, como cambiar formatos, realizar concatenaciones de campos, tomar en cuenta solo una parte de un campo (por ejemplo, los 10 primeros caracteres). Consulte esta [página](../building-journeys/expression/expressionadvanced.md).
 
->[!AVAILABILITY]
->
->El editor de expresiones avanzadas solo está disponible para un conjunto de organizaciones (LA).
 
-## Previsualización de la carga útil {#preview-the-payload}
+## Vista previa la carga útil {#preview-the-payload}
 
-La previsualización de carga útil permite validar la definición de carga útil.
+El previsualización carga útil permite validar la definición de carga útil.
 
 >[!NOTE]
 >
->En el caso de los eventos generados por el sistema, al crear un evento, antes de ver la previsualización de carga útil, guarde el evento y vuelva a abrirlo. Este paso es necesario para generar un ID de evento en la carga útil.
+>Para eventos generados por el sistema, cuando cree un evento, antes de ver el previsualización de carga útil, guarde el evento y vuelva a abrirlo. Este paso es necesario para generar un ID de evento en la carga útil.
 
 1. Haga clic en **[!UICONTROL Ver carga útil]** para previsualizar la carga útil esperada por el sistema.
 
