@@ -1,14 +1,14 @@
 ---
 keywords: Journey Optimizer;inicio;temas populares
-title: Documentación del producto de Journey Optimizer
+title: Documentación del producto Journey Optimizer
 description: Aprenda a utilizar Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 695296b6aa6f2da0390648be13efb8a83fe287ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Descubra las nuevas funciones y mejoras incluidas en la versión de mayo de Adob
 
 >[!TAB Creación de informes con Customer Journey Analytics (Beta)]
 
-La creación de informes de Journey Optimizer ofrece una interoperabilidad mejorada con funciones de Customer Journey Analytics, estandarización de los informes en ambas plataformas y mejora de la coherencia y fiabilidad de los datos.
+La creación de informes en Journey Optimizer cuentan con una interoperabilidad mejorada con las funciones de Customer Journey Analytics, estandarizando la creación de informes en ambas plataformas y mejorando la coherencia y fiabilidad de los datos.
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/reports/cja-ajo.md)
 

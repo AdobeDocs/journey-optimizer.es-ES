@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1873'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 98%
       + [Salto](using/building-journeys/jump.md)
       + [Actualización de perfil](using/building-journeys/update-profiles.md)
    + Expresiones de compilación {#building-advanced-conditions-journeys}
-      + [Trabajo con el editor de expresiones avanzadas](using/building-journeys/expression/expressionadvanced.md)
+      + [Trabajo con el editor de expresiones avanzado](using/building-journeys/expression/expressionadvanced.md)
       + Sintaxis {#syntax}
          + [Sintaxis avanzada del editor de expresiones](using/building-journeys/expression/generalities.md)
          + [Instrucción condicional](using/building-journeys/expression/conditional-instruction.md)
@@ -315,7 +315,7 @@ ht-degree: 98%
       + [Introducción a las plantillas de contenido](using/content-management/content-templates.md)
       + [Acceso y administración de plantillas](using/content-management/access-content-templates.md)
       + [Creación de plantillas de contenido](using/content-management/create-content-templates.md)
-      + [Prueba de plantillas de contenido](using/content-management/test-content-templates.md)
+      + [Plantillas de contenido de prueba](using/content-management/test-content-templates.md)
       + [Uso de plantillas de contenido](using/content-management/use-content-templates.md)
    + Fragmentos de contenido reutilizables {#fragments}
       + [Introducción a los fragmentos](using/content-management/fragments.md)
@@ -386,7 +386,7 @@ ht-degree: 98%
    + [Alertas](using/reports/alerts.md)
    + [Uso de Customer Journey Analytics](using/reports/cja-ajo.md)
    + [Motivos de exclusión](using/reports/exclusion-list.md)
-+ Nueva interfaz de informes (LA){#channel-report}
++ Nueva interfaz de creación de informes (LA){#channel-report}
    + [Introducción a la nueva interfaz de sistema de informes](using/reports/report-gs-cja.md)
    + [Administración de informes](using/reports/report-cja-manage.md)
    + [Informe de recorrido](using/reports/journey-global-report-cja.md)
