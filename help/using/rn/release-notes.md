@@ -8,8 +8,8 @@ description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 55666c0fc3e4efb3785de96b96e58ba44016f33d
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 70%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -80,13 +80,13 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <table>
 <thead>
 <tr>
-<th><strong>Informes con el Customer Journey Analytics (disponibilidad limitada)</strong><br/></th>
+<th><strong>Creación de informes con Customer Journey Analytics (disponibilidad limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La creación de informes de Journey Optimizer ofrece una interoperabilidad mejorada con funciones de Customer Journey Analytics, estandarización de los informes en ambas plataformas y mejora de la coherencia y fiabilidad de los datos. Esta integración perfecta entre Journey Optimizer y Customer Journey Analytics proporciona una visión más clara de las métricas de rendimiento, lo que permite a los usuarios tomar decisiones más informadas.</p>
+<p>La creación de informes en Journey Optimizer cuenta con una interoperabilidad mejorada con las funciones de Customer Journey Analytics, estandariza la creación de informes en ambas plataformas y mejora la coherencia y fiabilidad de los datos. Esta integración perfecta entre Journey Optimizer y Customer Journey Analytics proporciona una visión más clara de las métricas de rendimiento, lo que permite a los usuarios tomar decisiones más informadas.</p>
 <img src="assets/do-not-localize/ajo-cja.gif"/>
 <p>Para obtener más información, consulte la <a href="../reports/report-gs-cja.md">documentación detallada</a>.</p>
 </td>
@@ -122,7 +122,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <tr>
 <td>
 <p>Ahora puede crear contenido sin esfuerzo en varios idiomas dentro de una sola campaña o recorrido. Con esta función, puede cambiar entre idiomas al editar su campaña o su recorrido, lo que optimiza todo el proceso de edición y mejora su capacidad para administrar de forma eficaz el contenido multilingüe.</p>
-<p>Actualmente, el contenido multilingüe solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<p>Ahora mismo, el contenido multilingüe solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -132,14 +132,14 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <table>
 <thead>
 <tr>
-<th><strong>Experimentación en recorridos (disponibilidad limitada)</strong><br/></th>
+<th><strong>Experimentación en los recorridos (disponibilidad limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ya disponible en campañas, Adobe Journey Optimizer ahora admite experimentos en recorridos. Los experimentos son ensayos aleatorios, lo que en el contexto de las pruebas en línea significa que expone a algunos usuarios seleccionados aleatoriamente a una variación determinada de un mensaje y a otro conjunto de usuarios seleccionados aleatoriamente a otra variación o tratamiento. Después de la exposición, puede medir las métricas de resultado que le interesan, como aperturas de correos electrónicos, suscripciones o compras.</p>
-<p>Actualmente, la experimentación en recorrido solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<p>Adobe Journey Optimizer, que ya estaba disponible en las campañas, ahora admite experimentos en los recorridos. Los experimentos son ensayos aleatorios, lo que en el contexto de las pruebas en línea significa que expone a algunos usuarios seleccionados aleatoriamente a una variación determinada de un mensaje y a otro conjunto de usuarios seleccionados aleatoriamente a otra variación o tratamiento. Después de la exposición, puede medir las métricas de resultado que le interesan, como aperturas de correos electrónicos, suscripciones o compras.</p>
+<p>La experimentación en los recorridos solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -205,9 +205,9 @@ Obtenga más información en la documentación de [fragmento de contenido](../co
 
 #### Canal de correo electrónico
 
-* **Cancelación de suscripción a lista** - Después de los recientes anuncios de Gmail y Yahoo para remitentes masivos, Journey Optimizer admite la opción de cancelación de suscripción a una lista &quot;posterior/1 clic&quot;. Consulte las siguientes páginas: [Administración de exclusión de correo electrónico](../email/email-opt-out.md#unsubscribe-header) y [Configuración de correo electrónico](../email/email-settings.md#list-unsubscribe).
+* **Habilitar cancelación de suscripción a lista**: después de los recientes anuncios de Gmail y Yahoo para remitentes masivos, Journey Optimizer admite la opción de Habilitar cancelación de suscripción a lista “después de 1 clic”. Consulte las siguientes páginas: [Administrar la exclusión de correo electrónico](../email/email-opt-out.md#unsubscribe-header) y [Configuración de correo electrónico](../email/email-settings.md#list-unsubscribe).
 
-  **NOTA** : Para cualquier superficie de canal nueva, de forma predeterminada se activa la opción de encabezado Cancelar suscripción de lista. Para las superficies existentes, la opción Cancelar la suscripción a URL con un solo clic de la configuración de superficie de canal está desactivada de forma predeterminada. Si anteriormente utilizaba una URL de exclusión de un clic en el cuerpo del correo electrónico, esta configuración sigue siendo válida. Si la opción Cancelar la suscripción a una URL con un solo clic está activada en la configuración de la superficie de canal, Adobe Journey Optimizer utilizará la URL de cancelación de suscripción con un solo clic generada de forma predeterminada en la configuración de la superficie de canal.
+  **NOTA**: Para cualquier superficie de canal nueva, de forma predeterminada, se activa la opción de encabezado de cancelación de suscripción a lista. Para las superficies existentes, de forma predeterminada, la opción de URL de cancelación de suscripción con un clic en la configuración de la superficie de canal no está marcada. Si anteriormente utilizaba una URL de exclusión con un clic en el cuerpo del correo electrónico, esta configuración sigue siendo válida. Si la opción de URL de cancelación de suscripción con un clic está marcada en la configuración de la superficie de canal, Adobe Journey Optimizer utilizará la URL de cancelación de suscripción con un clic generada de forma predeterminada en la configuración de la superficie de canal.
 
 #### Canal de SMS
 
@@ -226,4 +226,4 @@ Obtenga más información en la documentación de [fragmento de contenido](../co
 
 #### Canal de correo directo
 
-* El canal de correo postal ya está disponible para todos los clientes. [Más información](../direct-mail/get-started-direct-mail.md)
+* El canal de correo directo ya está disponible para todos los clientes. [Más información](../direct-mail/get-started-direct-mail.md)
