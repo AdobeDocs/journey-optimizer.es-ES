@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 0ccc6453594aaf501f15e5342331b1649346bfa3
 workflow-type: tm+mt
 source-wordcount: '1348'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -132,9 +132,9 @@ Controle la administración de la privacidad y las solicitudes desde esta secci�
 
 * **[!UICONTROL Alertas]**: la interfaz de usuario le permite ver un historial de alertas recibidas en función de las métricas reveladas por Adobe Experience Platform Observability Insights. La IU también le permite ver, habilitar y deshabilitar las reglas de alerta disponibles. [Más información](../reports/alerts.md)
 
-* **[!UICONTROL Zonas protegidas]**: Adobe Experience Platform proporciona entornos limitados que dividen una sola instancia en entornos virtuales independientes para ayudarle a desarrollar aplicaciones de experiencia digital y hacer que evolucionen. Examine esta sección para administrar las zonas protegidas. [Más información](../administration/sandboxes.md)
+* **[!UICONTROL Zonas protegidas]**: Adobe Experience Platform proporciona entornos limitados que dividen una sola instancia en entornos virtuales independientes para ayudarle a desarrollar aplicaciones de experiencia digital y hacer que evolucionen. Examine esta sección para administrar los entornos limitados. [Más información](../administration/sandboxes.md)
 
-* **[!UICONTROL Canales]**: utilice esta sección para configurar sus canales, incluidos los subdominios, las superficies y la configuración de entregabilidad. [Más información](../configuration/get-started-configuration.md)
+* **[!UICONTROL Canales]** : Utilice esta sección para configurar los canales, incluidos los subdominios, las superficies y la configuración de envío. [Más información](../configuration/get-started-configuration.md)
 
 * **[!UICONTROL Etiquetas]**: con etiquetas unificadas, puede clasificar fácilmente sus recorridos y campañas para mejorar la búsqueda en las listas. [Más información](../start/search-filter-categorize.md#work-with-unified-tags)
 
