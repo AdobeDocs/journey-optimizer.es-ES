@@ -55,7 +55,7 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
 
       | Paquete | Déclencheur | Definición |
       |---|---|---|
-      | Envío de datos a Platform | Datos enviados a Platform | Se activa cuando la aplicación móvil emite un evento de experiencia Edge para enviar datos a Adobe Experience Platform. Normalmente, la llamada de API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) desde la extensión AEP Edge. |
+      | Envío de datos a Platform | Datos enviados a Platform | Se activa cuando la aplicación móvil emite un evento de experiencia Edge para enviar datos a Adobe Experience Platform. Normalmente, la llamada de API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) desde la extensión Edge de AEP. |
       | Seguimiento principal | Seguimiento de acciones | Se activa cuando la funcionalidad heredada se ofrece en la API de código móvil [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) se llama. |
       | Seguimiento principal | Estado de seguimiento | Se activa cuando la funcionalidad heredada se ofrece en la API de código móvil [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) se llama. |
       | Seguimiento principal | Recopilar PII | Se activa cuando la funcionalidad heredada se ofrece en la API de código móvil [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) se llama. |
@@ -87,7 +87,7 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
       | Información del dispositivo | Versión del SO | Se activa cuando se cumple una de las versiones del sistema operativo especificadas. |
       | Información del dispositivo | Versión anterior del sistema operativo | Se activa cuando se cumple una de las versiones anteriores del sistema operativo especificadas. |
       | Información del dispositivo | Modo de ejecución | Se activa si el modo de ejecución es aplicación o extensión. |
-      | Ciclo de aplicación | ID de aplicación | Se activa cuando se cumple el ID de aplicación especificado. |
+      | Ciclo de aplicación | ID de la aplicación | Se activa cuando se cumple el ID de aplicación especificado. |
       | Ciclo de aplicación | Día de la semana | Se activa cuando se cumple el día de la semana especificado. |
       | Ciclo de aplicación | Día desde el primer uso | Se activa cuando se alcanza el número de días especificado desde que se usó por primera vez. |
       | Ciclo de aplicación | Día desde el último uso | Se activa cuando se cumple el número de días especificado desde el último uso. |
@@ -153,7 +153,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
       | Paquete | Déclencheur | Definición |
       |---|---|---|
-      | Envío de datos a Platform | Datos enviados a Platform | Se activa cuando la aplicación móvil emite un evento de experiencia Edge para enviar datos a Adobe Experience Platform. Normalmente, la llamada de API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) desde la extensión AEP Edge. |
+      | Envío de datos a Platform | Datos enviados a Platform | Se activa cuando la aplicación móvil emite un evento de experiencia Edge para enviar datos a Adobe Experience Platform. Normalmente, la llamada de API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) desde la extensión Edge de AEP. |
       | Seguimiento principal | Seguimiento de acciones | Se activa cuando la funcionalidad heredada se ofrece en la API de código móvil [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) se llama. |
       | Seguimiento principal | Estado de seguimiento | Se activa cuando la funcionalidad heredada se ofrece en la API de código móvil [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) se llama. |
       | Seguimiento principal | Recopilar PII | Se activa cuando la funcionalidad heredada se ofrece en la API de código móvil [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) se llama. |
@@ -185,7 +185,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
       | Información del dispositivo | Versión del SO | Se activa cuando se cumple una de las versiones del sistema operativo especificadas. |
       | Información del dispositivo | Versión anterior del sistema operativo | Se activa cuando se cumple una de las versiones anteriores del sistema operativo especificadas. |
       | Información del dispositivo | Modo de ejecución | Se activa si el modo de ejecución es aplicación o extensión. |
-      | Ciclo de aplicación | ID de aplicación | Se activa cuando se cumple el ID de aplicación especificado. |
+      | Ciclo de aplicación | ID de la aplicación | Se activa cuando se cumple el ID de aplicación especificado. |
       | Ciclo de aplicación | Día de la semana | Se activa cuando se cumple el día de la semana especificado. |
       | Ciclo de aplicación | Día desde el primer uso | Se activa cuando se alcanza el número de días especificado desde que se usó por primera vez. |
       | Ciclo de aplicación | Día desde el último uso | Se activa cuando se cumple el número de días especificado desde el último uso. |

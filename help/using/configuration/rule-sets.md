@@ -15,7 +15,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
 workflow-type: tm+mt
 source-wordcount: '1593'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Conjuntos de reglas"
->abstract="Utilice conjuntos de reglas para aplicar límites de frecuencia a diferentes tipos de comunicaciones de marketing. Por ejemplo, puede crear un conjunto de reglas para limitar el número de **comunicaciones promocionales** enviado a sus clientes y cree otro conjunto de reglas para limitar el número de **boletines** enviado a ellos."
+>abstract="Utilice conjuntos de reglas para aplicar límites de frecuencia a diferentes tipos de comunicaciones de marketing. Por ejemplo, puede crear un conjunto de reglas para limitar el número de **comunicaciones promocionales** que se han enviado a sus clientes y crear otro conjunto de reglas para limitar el número de **boletines** que se les ha enviado."
 
 >[!AVAILABILITY]
 >
->Actualmente, los conjuntos de reglas solo están disponibles como una versión beta para los usuarios seleccionados. Póngase en contacto con el representante del Adobe para que se incluya en la versión beta.
+>Actualmente, los conjuntos de reglas solo están disponibles como una versión beta para los usuarios seleccionados. Póngase en contacto con el representante del Adobe para que se le incluya en el Beta.
 
 ## ¿Qué son los conjuntos de reglas? {#what}
 
@@ -38,7 +38,7 @@ Por ejemplo, puede crear un conjunto de reglas para limitar el número de **comu
 
 ## Conjuntos de reglas globales y personalizadas {#global-custom}
 
-Al acceder a los conjuntos de reglas por primera vez desde el **[!UICONTROL Administration]** > **[!UICONTROL Reglas empresariales (beta)]** menú, un conjunto de reglas predeterminado está creado previamente y activo: **Conjunto de reglas globales predeterminadas**.
+Al acceder a los conjuntos de reglas por primera vez desde el **[!UICONTROL Administration]** > **[!UICONTROL Reglas empresariales (Beta)]** menú, un conjunto de reglas predeterminado está creado previamente y activo: **Conjunto de reglas globales predeterminadas**.
 
 Este conjunto de reglas contiene reglas globales que puede aplicar para controlar la frecuencia con la que los usuarios reciben mensajes a través de uno o varios canales, de forma similar a como funcionan las reglas empresariales actuales. Todas las reglas definidas en este conjunto de reglas se aplican a todos los canales seleccionados, independientemente de si las comunicaciones se envían desde un recorrido o desde una campaña. [Aprenda a trabajar con reglas empresariales](frequency-rules.md)
 
@@ -74,27 +74,27 @@ Para crear un conjunto de reglas, siga los pasos a continuación.
 
 1. Ahora puede [definir las reglas](#create-new-rule) desea agregar a este conjunto de reglas.
 
-### Agregar reglas al conjunto de reglas {#create-new-rule}
+### Añadir reglas al conjunto de reglas {#create-new-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_category"
 >title="Seleccione la categoría de regla de mensaje"
->abstract="Cuando se activan y se aplican a un mensaje, todas las reglas de frecuencia que coinciden con la categoría seleccionada se aplican automáticamente a este mensaje. Actualmente solo está disponible la categoría Marketing."
+>abstract="Cuando está activada y se aplica a un mensaje, todas las reglas de frecuencia que coincidan con la categoría seleccionada se aplican automáticamente a este mensaje. Actualmente, solo está disponible la categoría Marketing."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_capping"
 >title="Establezca el límite de la regla"
->abstract="Especifique el número máximo de mensajes enviados a un perfil de cliente en el lapso de tiempo elegido. El límite de frecuencia se basará en el período de calendario seleccionado y se restablecerá al comienzo del lapso de tiempo correspondiente."
+>abstract="Especifique el número máximo de mensajes enviados a un perfil de cliente en el lapso de tiempo elegido. El límite de frecuencia se basará en el período de calendario seleccionado y se restablecerá al principio del lapso de tiempo correspondiente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
->title="Defina los canales a los que se aplica la regla"
->abstract="Seleccione al menos un canal. El límite se aplica a todos los canales como recuento total."
+>title="Definir los canales a los que se aplica la regla"
+>abstract="Seleccione al menos un canal. El límite se aplica a todos los canales como un recuento total."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
 >title="Seleccione la categoría de regla de mensaje"
->abstract="Cuando se activan y se aplican a un mensaje, todas las reglas de frecuencia que coinciden con la categoría seleccionada se aplican automáticamente a este mensaje. Actualmente solo está disponible la categoría Marketing."
+>abstract="Cuando está activada y se aplica a un mensaje, todas las reglas de frecuencia que coincidan con la categoría seleccionada se aplican automáticamente a este mensaje. Actualmente, solo está disponible la categoría Marketing."
 
 Para agregar una regla a un conjunto de reglas, siga los pasos a continuación.
 
@@ -176,7 +176,7 @@ Su estado cambiará a **[!UICONTROL Inactivo]** y la regla no se aplicará a fut
 
 ## Acceso y administración de conjuntos de reglas {#access-rule-sets}
 
-Todos los conjuntos de reglas creados se muestran en **[!UICONTROL Administration]** > **[!UICONTROL Reglas empresariales (beta)]** menú. Se ordenan por fecha de la última modificación.
+Todos los conjuntos de reglas creados se muestran en **[!UICONTROL Administration]** > **[!UICONTROL Reglas empresariales (Beta)]** menú. Se ordenan por fecha de la última modificación.
 
 ![](assets/rule-sets-list.png)
 

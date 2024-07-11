@@ -286,7 +286,7 @@ Obtenga más información sobre reintentos en [esta sección](../configuration/r
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
 >title="Definir los parámetros de seguimiento de URL"
->abstract="Utilice esta sección para adjuntar automáticamente parámetros de seguimiento a las direcciones URL presentes en el contenido del correo electrónico. Esta función es opcional."
+>abstract="Utilice esta sección para adjuntar automáticamente parámetros de seguimiento a las direcciones URL presentes en el contenido del correo electrónico. Esta funcionalidad es opcional."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
@@ -309,15 +309,15 @@ También puede editar cada **[!UICONTROL Valor]** mediante el campo [editor de p
 
 Los siguientes valores predefinidos están disponibles a través del editor de personalización:
 
-* **ID de acción de origen**: ID de la acción de correo electrónico agregada al recorrido o la campaña.
+* **id de acción de Source**: ID de la acción de correo electrónico agregada al recorrido o la campaña.
 
-* **Nombre de acción de origen**: nombre de la acción de correo electrónico agregada al recorrido o a la campaña.
+* **Nombre de acción de Source**: nombre de la acción de correo electrónico agregada al recorrido o a la campaña.
 
-* **ID de origen**: ID del recorrido o campaña con la que se envió el correo electrónico.
+* **Source id**: ID del recorrido o campaña con la que se envió el correo electrónico.
 
-* **Nombre de origen**: nombre del recorrido o campaña con la que se envió el correo electrónico.
+* **Nombre de Source**: nombre del recorrido o campaña con la que se envió el correo electrónico.
 
-* **ID de versión de origen**: ID de la versión de recorrido o campaña con la que se envió el correo electrónico.
+* **ID de versión de Source**: ID de la versión de recorrido o campaña con la que se envió el correo electrónico.
 
 * **ID de oferta**: ID de la oferta utilizada en el correo electrónico.
 

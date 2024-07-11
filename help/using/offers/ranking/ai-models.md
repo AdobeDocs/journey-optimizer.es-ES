@@ -26,7 +26,7 @@ Por ejemplo, puede seleccionar un modelo de IA para el canal de correo electrón
 >
 >Por ahora, los modelos de clasificación no son compatibles con los canales creados por Journey Optimizer.
 
-## Tipos de modelos de IA  {#ai-model-types}
+## Tipos de modelos de IA {#ai-model-types}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_ai_model_type"

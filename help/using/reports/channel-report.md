@@ -20,7 +20,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_level_report"
 >title="Informe de nivel de canal"
->abstract="Los informes de canal ofrecen una completa descripción general del tráfico y las métricas de participación en todos los canales. Los informes se dividen en diferentes widgets que detallan la campaña y los recorridos de éxito y error. Cada tablero de creación de informes se puede modificar cambiando el tamaño de los widgets o eliminándolos."
+>abstract="Los informes de canal ofrecen una completa descripción general del tráfico y las métricas de participación en todos los canales. Los informes se dividen en diferentes widgets que detallan la campaña y los recorridos de éxito y error. Cada tablero de informes se puede modificar cambiando el tamaño de los widgets o eliminándolos."
 
 >[!IMPORTANT]
 >

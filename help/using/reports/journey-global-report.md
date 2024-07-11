@@ -62,7 +62,7 @@ Tenga en cuenta que el recuento de perfiles de un nodo solo se actualiza una vez
 >[!CONTEXTUALHELP]
 >id="ajo_journey_statistics"
 >title="Estadísticas del recorrido"
->abstract="Los indicadores clave de rendimiento (KPI) de las estadísticas del recorrido sirven como un panel completo, proporcionando un análisis en profundidad de las métricas esenciales relacionadas con su recorrido. "
+>abstract="Los indicadores clave de rendimiento (KPI) de las estadísticas del recorrido sirven como un panel completo, proporcionando un análisis en profundidad de las métricas esenciales relacionadas con su recorrido."
 
 ![](assets/journey_statistics.png)
 

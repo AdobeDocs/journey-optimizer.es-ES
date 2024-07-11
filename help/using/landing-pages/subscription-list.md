@@ -18,7 +18,7 @@ ht-degree: 11%
 
 # Listas de suscripciones {#create-subscription-list}
 
-## ¿Qué es una lista de suscripción?  {#subscription-list-definition}
+## ¿Qué es una lista de suscripción? {#subscription-list-definition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_list"

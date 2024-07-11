@@ -11,7 +11,7 @@ exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
 source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 18%
+ht-degree: 27%
 
 ---
 
@@ -47,8 +47,8 @@ Desde el **[!UICONTROL Más acciones]** junto a cada fragmento, puede hacer lo s
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Nuevos estados de fragmentos"
->abstract="Al haberse introducido los estados “**Activo**” y “**Borrador**” con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado “Borrador”, incluso si se utilizan en un recorrido o una campaña. Si realiza cualquier cambio en estos fragmentos, debe publicarlos para que tengan el estado “Activo” y propagar los cambios a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. <br/>La publicación requiere lo siguiente <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Fragmento de Publish</a> permiso de usuario."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Más información sobre los permisos de fragmentos de contenido"
+>abstract="Al haberse introducido los estados “**Activo**” y “**Borrador**” con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado “Borrador”, incluso si se utilizan en un recorrido o una campaña. Si realiza cualquier cambio en estos fragmentos, debe publicarlos para que tengan el estado “Activo” y propagar los cambios a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. <br/>La publicación requiere el permiso de usuario para <a href="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Publicar fragmento</a>."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Más información sobre los permisos de fragmentos de contenido"
 
 Los fragmentos pueden tener varios estados:
 
@@ -69,13 +69,13 @@ Los fragmentos pueden tener varios estados:
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_update_campaigns"
->title="Actualización de fragmentos en campañas"
->abstract="Esta campaña no se actualizará si publica cambios en el fragmento. Requiere que se publique una nueva versión para que se pueda admitir la funcionalidad de actualización de fragmentos."
+>title="Actualización de fragmentos de las campañas"
+>abstract="Esta campaña no se actualizará si publica cambios en el fragmento. Requiere que se publique una nueva versión para poder admitir la funcionalidad de actualización de fragmentos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_update_journeys"
->title="Actualización de fragmentos en recorrido"
->abstract="Este recorrido no se actualizará si publica cambios en el fragmento. Requiere que se publique una nueva versión para que se pueda admitir la funcionalidad de actualización de fragmentos."
+>title="Actualización de fragmentos de los recorridos"
+>abstract="Este recorrido no se actualizará si publica cambios en el fragmento. Requiere que se publique una nueva versión para poder admitir la funcionalidad de actualización de fragmentos."
 
 Para editar un fragmento, siga los pasos a continuación.
 
