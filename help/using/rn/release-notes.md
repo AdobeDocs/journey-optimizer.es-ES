@@ -7,9 +7,9 @@ topic: Content Management
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 55666c0fc3e4efb3785de96b96e58ba44016f33d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1104'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 **Última actualización**: 8 de julio de 2024
 
-**Editor de expresiones avanzadas en la configuración de eventos de recorrido** : Ahora puede aprovechar el editor de expresiones avanzadas al configurar un evento, lo que le permite definir expresiones más complejas o utilizar funciones en la condición ID de evento. [Más información](../event/about-creating.md#adv-exp-editor)
+**Editor de expresiones avanzadas de la configuración de eventos del recorrido**: ahora puede aprovechar el editor de expresiones avanzadas mientras configura un evento, lo que le permite definir expresiones más complejas o utilizar funciones en la condición de ID del evento. [Más información](../event/about-creating.md#adv-exp-editor)
 
 
 ## Notas de la versión de junio de 2024 {#24-6-2024}
@@ -181,7 +181,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 * Se han introducido nuevos estados para los fragmentos de contenido: **Borrador**, **Activo**, **Publicación** y **Archivado**.
 * Para utilizar un fragmento de un recorrido o una campaña, ahora debe tener el estado **Activo**. Se ha añadido un nuevo paso al proceso de creación de fragmentos, que permite publicar el fragmento y se puede utilizar en recorridos y campañas. Tenga en cuenta que la publicación de fragmentos requiere un nuevo permiso.
 
-  **PRECAUCIÓN**: puesto que los estados **Borrador** y **Activo** se han incorporado con la versión de junio de Journey Optimizer, el estado de todos los fragmentos creados antes de esta versión es **Borrador**, incluso si se utilizan en un recorrido o una campaña. Si realiza cualquier cambio en estos fragmentos, debe hacer lo siguiente [publicarlos](../content-management/create-fragments.md#publish) para convertirlos en &quot;Live&quot; y propagar los cambios a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla.
+  **PRECAUCIÓN**: puesto que los estados **Borrador** y **Activo** se han incorporado con la versión de junio de Journey Optimizer, el estado de todos los fragmentos creados antes de esta versión es **Borrador**, incluso si se utilizan en un recorrido o una campaña. Si realiza algún cambio en estos fragmentos, debe [publicarlos](../content-management/create-fragments.md#publish) para que tengan el estado “Activo” y propagarlos a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. 
 
 Obtenga más información en la documentación de [fragmento de contenido](../content-management/fragments.md).
 
