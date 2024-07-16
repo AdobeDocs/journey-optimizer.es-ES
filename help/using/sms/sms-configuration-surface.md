@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
+source-git-commit: 080928d14a9d6ec116286386748b77a6a25e76f8
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 8%
+source-wordcount: '420'
+ht-degree: 10%
 
 ---
 
@@ -26,7 +26,7 @@ Una vez configurado el canal SMS/MMS, debe crear una superficie de canal para po
 
 Para crear una superficie de canal, siga estos pasos:
 
-1. En el carril izquierdo, vaya a **[!UICONTROL Administration]** > **[!UICONTROL Canales]** y seleccione **[!UICONTROL Marca]** > **[!UICONTROL Superficies de canal]**. Haga clic en **[!UICONTROL Crear superficie de canal]** botón.
+1. En el carril izquierdo, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Canales]** y seleccione **[!UICONTROL Marca]** > **[!UICONTROL Superficies de canal]**. Haga clic en el botón **[!UICONTROL Crear superficie de canal]**.
 
    ![](assets/preset-create.png)
 
@@ -36,54 +36,48 @@ Para crear una superficie de canal, siga estos pasos:
 
    >[!NOTE]
    >
-   > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar guiones bajos `_`, punto`.` y guiones `-` caracteres.
+   > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto`.` y guión `-`.
 
-1. Defina el **Configuración de SMS**.
+1. Defina la **configuración de SMS**.
 
    ![](assets/sms-surface-settings.png)
 
-   Comience por seleccionar la **[!UICONTROL Tipo de SMS]** que se enviarán con la superficie: **[!UICONTROL Transaccional]** o **[!UICONTROL Marketing]**.
+   Comience por seleccionar el **[!UICONTROL tipo de SMS]** que se enviará con la superficie: **[!UICONTROL Transaccional]** o **[!UICONTROL Marketing]**.
 
-   * Elegir **Marketing** para mensajes de texto promocionales: estos mensajes requieren el consentimiento del usuario.
-   * Elegir **Transaccional** para mensajes no comerciales, como confirmaciones de pedidos, notificaciones de restablecimiento de contraseña o información de entrega, por ejemplo.
+   * Elija **Marketing** para los mensajes de texto promocionales: estos mensajes requieren el consentimiento del usuario.
+   * Elija **Transaccional** para mensajes no comerciales como confirmaciones de pedidos, notificaciones de restablecimiento de contraseña o información de entrega, por ejemplo.
 
    Al crear un SMS/MMS, debe elegir una superficie de canal válida que coincida con la categoría seleccionada para el mensaje.
 
    >[!CAUTION]
    >
-   >**Transaccional** los mensajes se pueden enviar a perfiles que cancelaron la suscripción a comunicaciones de marketing. Estos mensajes solo se pueden enviar en contextos específicos.
+   >**Los mensajes transaccionales** se pueden enviar a perfiles que cancelaron la suscripción a comunicaciones de marketing. Estos mensajes solo se pueden enviar en contextos específicos.
 
-1. Seleccione el **[!UICONTROL Configuración de SMS]** para asociarlo con la superficie.
+1. Seleccione la **[!UICONTROL configuración de SMS]** que desea asociar con la superficie.
 
    Para obtener más información sobre cómo configurar su entorno para enviar mensajes SMS, consulte [esta sección](#create-api).
 
-1. Introduzca el **[!UICONTROL Número de remitente]** &#x200B;desea utilizar para sus comunicaciones.
+1. Escriba el **[!UICONTROL número de remitente]** &#x200B;que desee usar para sus comunicaciones.
 
-1. Seleccione su **[!UICONTROL Campo de ejecución de SMS]** para seleccionar **[!UICONTROL Atributo de perfil]** asociado a los números de teléfono de los perfiles.
+1. Seleccione su **[!UICONTROL campo de ejecución de SMS]** para seleccionar el **[!UICONTROL atributo de perfil]** asociado a los números de teléfono de los perfiles.
 
-1. Si desea utilizar la función de acortamiento de URL en los mensajes SMS, seleccione un elemento del **[!UICONTROL Subdominio]** lista.
+1. Si deseas usar la función de acortamiento de URL en tus mensajes SMS, selecciona un elemento de la lista **[!UICONTROL Subdominio]**.
 
    >[!NOTE]
    >
    >Para poder seleccionar un subdominio, asegúrese de haber configurado previamente al menos un subdominio SMS/MMS. [Descubra cómo](sms-subdomains.md)
 
-1. Introduzca el **[!UICONTROL Número de exclusión]** que desee utilizar para esta superficie. Cuando los perfiles se excluyen de este número, aún puede enviarles mensajes de otros números que pueda estar utilizando para enviar mensajes de texto con [!DNL Journey Optimizer].
-
-   >[!NOTE]
-   >
-   >Entrada [!DNL Journey Optimizer]Por lo tanto, la exclusión de mensajes de texto ya no se administra en el nivel de canal. Ahora es específico de un número.
-
 1. Una vez configurados todos los parámetros, haga clic en **[!UICONTROL Enviar]** para confirmar. También se puede guardar la superficie de canal como inclinación y reanudar su configuración más adelante.
 
    ![](assets/sms-submit-surface.png)
 
-1. Una vez creada la superficie de canal, esta se muestra en la lista con el **[!UICONTROL Procesando]** estado.
+1. Una vez creada la superficie de canal, se muestra en la lista con el estado **[!UICONTROL Procesando]**.
 
    >[!NOTE]
    >
    >Si las comprobaciones no se realizan correctamente, obtenga más información sobre los posibles motivos de error en [esta sección](#monitor-channel-surfaces).
 
-1. Una vez que las comprobaciones son correctas, la superficie de canal obtiene el **[!UICONTROL Activo]** estado. Está listo para utilizarse para enviar mensajes.
+1. Una vez que las comprobaciones son correctas, la superficie de canal obtiene el estado **[!UICONTROL Activo]**. Está listo para utilizarse para enviar mensajes.
 
    ![](assets/preset-active.png)
 
