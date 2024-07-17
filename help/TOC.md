@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
-workflow-type: ht
-source-wordcount: '1873'
-ht-degree: 100%
+source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
+workflow-type: tm+mt
+source-wordcount: '1877'
+ht-degree: 99%
 
 ---
 
@@ -311,6 +311,7 @@ ht-degree: 100%
       + Casos de uso de personalización{#personalization-use-cases}
          + [Notificación del estado del pedido](using/personalization/personalization-use-case.md)
          + [Correo electrónico de abandono del carro de compras](using/personalization/personalization-use-case-helper-functions.md)
+         + [Correo electrónico de prescripciones del plan de salud](using/personalization/perso-uc-plan-prescriptions.md)
    + Plantillas de contenido {#content-templates}
       + [Introducción a las plantillas de contenido](using/content-management/content-templates.md)
       + [Acceso y administración de plantillas](using/content-management/access-content-templates.md)

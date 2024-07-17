@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
-workflow-type: ht
-source-wordcount: '5383'
-ht-degree: 100%
+source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
+workflow-type: tm+mt
+source-wordcount: '5407'
+ht-degree: 99%
 
 ---
 
 # Actualizaciones de la documentación {#latest-updates}
 
 Esta página enumera todas las últimas actualizaciones de la documentación de [!DNL Journey Optimizer].
+
+## Julio de 2024 {#july-2024}
+
+* Se ha añadido un caso de uso personalizado sobre cómo personalizar un correo electrónico con información relacionada con planes de salud y prescripciones. [Más información](../personalization/perso-uc-plan-prescriptions.md)
 
 ## Junio de 2024 {#june-2024}
 
