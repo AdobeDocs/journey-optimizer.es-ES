@@ -52,18 +52,18 @@ Esta sección le guiará en la escala con las dos limitaciones siguientes:
 
 Puede adoptar una serie de prácticas recomendadas que le ayudarán a mantenerse dentro de las barreras y a utilizar el sistema de forma eficaz.
 
-* Si se acerca al límite de recorridos en directo, el primer paso que puede realizar es ir a la **Información general** pestaña debajo de **Recorridos** para ver cuántos recorridos estuvieron activos en las últimas 24 horas (recorridos que tenían perfiles activos). Puede comprobar el número de perfiles que entran y salen del recorrido en esta sección para determinar eso.
+* Si se acerca al límite de recorridos activos, el primer paso que puede dar es ir a la ficha **Información general** en **Recorridos** para ver cuántos recorridos estuvieron activos en las últimas 24 horas (recorridos que tenían perfiles activos). Puede comprobar el número de perfiles que entran y salen del recorrido en esta sección para determinar eso.
 
   ![](assets/journey-guardrails2.png)
 
-* A continuación, en la sección Inventario de Recorridos, puede filtrar todos los recorridos por Estado = &quot;Activo&quot; y Tipo = &quot;Leer audiencia&quot;. A continuación, ordene por Fecha de publicación (de más antigua a más reciente). Haga clic en el recorrido y vaya a la programación. Detener todos los recorridos activos que tenían una programación para ejecutarse **Una** o **Lo antes posible** que tengan más de un día y solo tengan una acción.
+* A continuación, en la sección Inventario de Recorridos, puede filtrar todos los recorridos por Estado = &quot;Activo&quot; y Tipo = &quot;Leer audiencia&quot;. A continuación, ordene por Fecha de publicación (de más antigua a más reciente). Haga clic en el recorrido y vaya a la programación. Detener todos los recorridos activos que tengan una programación para ejecutarse **Una vez** o **Tan pronto como sea posible** que tengan más de un día y solo tengan una acción.
 
   ![](assets/journey-guardrails1.png)
 
-* Si su **Leer audiencia** El recorrido solo tiene una acción, sin esperas/decisiones, ni optimización del tiempo de envío, considere moverlas a Campañas de Journey Optimizer. Las campañas son más adecuadas para la participación de una sola etapa. Una de las diferencias clave entre Campaign y Recorrido es si cree que es importante escuchar activamente la participación del usuario para determinar el siguiente paso y comprometerse con otra acción.
+* Si el recorrido de **Leer audiencia** solo tiene una acción, no tiene esperas/decisiones ni optimización del tiempo de envío, considere la posibilidad de moverlos a Campañas de Journey Optimizer. Las campañas son más adecuadas para la participación de una sola etapa. Una de las diferencias clave entre Campaign y Recorrido es si cree que es importante escuchar activamente la participación del usuario para determinar el siguiente paso y comprometerse con otra acción.
 * Para reducir el número de actividades dentro de un recorrido, compruebe los pasos de condición. Habrá muchas instancias en las que puede mover las condiciones a la definición de segmento o a la composición de audiencia.
 * Si las mismas condiciones se repiten en varios recorridos (comprobaciones de consentimiento, supresiones), considere la posibilidad de moverlas como parte de la definición del segmento. Por ejemplo, si tiene una condición para comprobar que la dirección de correo electrónico no está vacía en varios recorridos, incluya esa condición como parte de la definición del segmento.
 * Si el recorrido tiene varias condiciones para dividir la audiencia y ver los números en cada paso, considere la posibilidad de utilizar un Customer Journey Analytics u otra solución de creación de informes que sea más adecuada para el análisis.
 * Si se acerca al límite de nodos en el lienzo, considere la posibilidad de consolidar acciones con parámetros dinámicos o contenido para ofrecer el contenido correcto en lugar de nodos explícitos.
 
-* Si tiene una **Leer audiencia** recorrido con el segmento por lotes (A) y si utiliza dentro del recorrido en el segmento de flujo de audiencia (B) para excluir (es decir, realizar la A-B), considere mover esa lógica a la lógica de segmentación y utilice la exclusión como parte de la propia lógica de segmentación.
+* Si tiene un recorrido de **Leer audiencia** con segmento por lotes (A) y usa dentro del recorrido en el segmento de flujo de audiencia (B) para excluir (es decir, realizar A-B), considere mover esa lógica a la lógica de segmentación y use la exclusión como parte de la propia lógica de segmentación.

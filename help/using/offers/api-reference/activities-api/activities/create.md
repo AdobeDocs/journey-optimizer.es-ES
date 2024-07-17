@@ -9,17 +9,17 @@ exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
 # Crear una decisión {#create-decision}
 
-Puede crear una decisión realizando una solicitud de POST a [!DNL Offer Library] API.
+Puede crear una decisión realizando una solicitud de POST a la API [!DNL Offer Library].
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* y *Aceptar* campos en el encabezado de la solicitud:
+En la tabla siguiente se muestran los valores válidos que comprenden los campos *Content-Type* y *Accept* del encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -77,7 +77,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-decisions' \
 
 **Respuesta**
 
-Una respuesta correcta devuelve información sobre la decisión recién creada, incluido su contenido único `id`. Puede usar el complemento `id` en pasos posteriores para actualizar o eliminar su decisión.
+Una respuesta correcta devuelve información sobre la decisión recién creada, incluido su `id` único. Puede usar `id` en pasos posteriores para actualizar o eliminar su decisión.
 
 ```json
 {

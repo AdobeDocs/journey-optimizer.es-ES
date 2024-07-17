@@ -9,7 +9,7 @@ exl-id: 12c49f4c-a1b5-4841-ab98-663b4c771fb6
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -19,7 +19,7 @@ Las reglas de decisión son restricciones agregadas a una oferta personalizada y
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* y *Aceptar* campos en el encabezado de la solicitud:
+En la tabla siguiente se muestran los valores válidos que comprenden los campos *Content-Type* y *Accept* del encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -72,7 +72,7 @@ curl -X POST \
 
 **Respuesta**
 
-Una respuesta correcta devuelve información sobre la regla de decisión recién creada, incluido su ID de instancia y ubicación únicos `@id`. Puede utilizar el ID de instancia en pasos posteriores para actualizar o eliminar la regla de decisión. Puede utilizar la regla de decisión única `@id` en un tutorial posterior para crear ofertas personalizadas.
+Una respuesta correcta devuelve información sobre la regla de decisión recién creada, incluido su ID de instancia único y la ubicación `@id`. Puede utilizar el ID de instancia en pasos posteriores para actualizar o eliminar la regla de decisión. Puede utilizar la regla de decisión única `@id` en un tutorial posterior para crear ofertas personalizadas.
 
 ```json
 {

@@ -50,10 +50,10 @@ Esta información se almacena con el perfil del usuario y se hace referencia a e
 >title="Activación de la optimización del tiempo de envío"
 >abstract="Los mensajes push tienen por defecto la opción de apertura, ya que los clics no se aplican a la mensajería push. También puede optar por poner entre paréntesis los tiempos de envío utilizados por el sistema introduciendo un valor para la opción Enviar dentro de los próximos."
 
-Habilite la optimización del tiempo de envío en un mensaje push o de correo electrónico seleccionando la variable **Optimización del tiempo de envío** cambie de los parámetros de actividad.
+Habilite la optimización del tiempo de envío en un mensaje push o de correo electrónico seleccionando el conmutador **Optimización del tiempo de envío** entre los parámetros de actividad.
 
 ![](../building-journeys/assets/jo-message5.png)
 
 Para los mensajes de correo electrónico, seleccione si desea optimizar las aperturas de correo electrónico o las pulsaciones de correo electrónico seleccionando el botón de opción adecuado. Los mensajes push usan de forma predeterminada la opción de aperturas, ya que los clics no son aplicables a los mensajes push.
 
-También puede elegir entre corchetes los tiempos de envío utilizados por el sistema introduciendo un valor para **Enviar en el siguiente** opción. Si elige &quot;seis horas&quot; como valor, [!DNL Journey Optimizer] comprobará cada perfil de usuario y elegirá el tiempo de envío óptimo en un plazo de seis horas desde el momento en que se ejecuta el recorrido.
+También puede optar por poner entre corchetes los tiempos de envío que utiliza el sistema al escribir un valor para la opción **Send en la siguiente**. Si elige &quot;seis horas&quot; como valor, [!DNL Journey Optimizer] comprobará cada perfil de usuario y elegirá el tiempo de envío óptimo en un plazo de seis horas a partir del momento de ejecución del recorrido.

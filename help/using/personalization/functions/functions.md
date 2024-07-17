@@ -15,7 +15,7 @@ ht-degree: 22%
 
 # Introducción a las funciones de ayuda{#functions}
 
-Uso [!DNL Journey Optimizer] crear plantillas de lenguaje para realizar operaciones en los datos, como cálculos, conversiones o formato de datos, condiciones y manipularlas en el contexto de la personalización. Conozca las directrices de sintaxis de personalización en [esta página](../personalization-syntax.md).
+Utilice el lenguaje de plantilla [!DNL Journey Optimizer] para realizar operaciones con los datos, como cálculos, conversiones o formato de datos, condiciones y manipularlos en el contexto de la personalización. Conozca las directrices de sintaxis de personalización en [esta página](../personalization-syntax.md).
 
 
 
@@ -27,15 +27,15 @@ El lenguaje de plantilla se aprovecha de las funciones de ayuda disponibles en l
 
 >[!NOTE]
 >
->Las funciones y capacidades disponibles en el editor de personalización difieren de las disponibles en la variable [editor de expresiones avanzadas de recorrido](../../building-journeys/expression/expressionadvanced.md).
+>Las funciones y capacidades disponibles en el editor de personalización difieren de las disponibles en el [editor de expresiones avanzadas de Recorrido](../../building-journeys/expression/expressionadvanced.md).
 
-En el [!DNL Journey Optimizer] editor de personalización, las funciones de ayuda se agrupan en tres categorías: [Funciones](#functions-helper), [Ayudantes](#helper-helper) y [Operadores](#operators-helper).
+En el editor de personalización [!DNL Journey Optimizer], las funciones de ayuda se agrupan en tres categorías: [Funciones](#functions-helper), [Ayudantes](#helper-helper) y [Operadores](#operators-helper).
 
 Seleccione una categoría para acceder a subcategorías y funciones.
 
-Para acceder a las subcategorías, haga clic en `>` icono. Seleccione una función haciendo clic en `+` icono: la función se añade automáticamente a la pantalla de personalización.
+Acceda a subcategorías haciendo clic en el icono `>`. Seleccione una función haciendo clic en el icono `+`: la función se agrega automáticamente a la pantalla de personalización.
 
-Haga clic en `...` para ver la descripción de la función y añadirla a sus favoritos. [Más información](../personalize.md#fav)
+Haga clic en el icono `...` para ver la descripción de la función y agregarla a sus favoritos. [Más información](../personalize.md#fav)
 
 ## Funciones{#functions-helper}
 
@@ -347,7 +347,7 @@ Haga clic en `...` para ver la descripción de la función y añadirla a sus fav
 
 ## Ayudantes{#helper-helper}
 
-Los ayudantes se detallan en [esta página](helpers.md).
+Los ayudantes se encuentran detallados en [esta página](helpers.md).
 
 
 <table>
@@ -388,7 +388,7 @@ Las funciones aritméticas se utilizan para realizar cálculos básicos sobre lo
         <td><a href="arithmetic-functions.md#multiply">Multiplicación</a></td><td>Este operador se utiliza para encontrar el producto de dos expresiones de argumento</td>
     </tr>
     <tr>
-        <td><a href="arithmetic-functions.md#remainder">Resto</a> </td><td>Este operador se utiliza para encontrar el resto después de dividir las dos expresiones de argumento</td>
+        <td><a href="arithmetic-functions.md#remainder">Restante</a> </td><td>Este operador se utiliza para encontrar el resto después de dividir las dos expresiones de argumento</td>
     </tr>
     <tr>
         <td><a href="arithmetic-functions.md#substract">Resta</a> </td><td>Este operador encuentra la diferencia entre dos expresiones</td>

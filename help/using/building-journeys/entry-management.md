@@ -20,25 +20,25 @@ ht-degree: 5%
 
 La administración de la entrada del perfil depende del tipo de recorrido. En Adobe Journey Optimizer, están disponibles los siguientes tipos de recorridos:
 
-* **Evento unitario** recorridos: estos recorridos comienzan con un evento unitario. Cuando se recibe el evento, el perfil asociado entra en el recorrido. [Más información](#entry-unitary)
+* **recorridos de evento unitario**: estos recorridos comienzan con un evento unitario. Cuando se recibe el evento, el perfil asociado entra en el recorrido. [Más información](#entry-unitary)
 
-* **Evento empresarial** recorridos: estos recorridos comienzan con un evento empresarial inmediatamente seguido de una **Leer audiencia** actividad. Cuando se recibe el evento, los perfiles pertenecientes a la audiencia de destino entran en el recorrido. Se crea una instancia de este recorrido para cada perfil. [Más información](#entry-business)
+* recorridos de **evento empresarial**: estos recorridos comienzan con un evento empresarial seguido inmediatamente por una actividad de **lectura de audiencia**. Cuando se recibe el evento, los perfiles pertenecientes a la audiencia de destino entran en el recorrido. Se crea una instancia de este recorrido para cada perfil. [Más información](#entry-business)
 
-* **Leer audiencia** recorridos: estos recorridos comienzan con una **Leer audiencia** actividad. Cuando se ejecuta el recorrido, los perfiles pertenecientes a la audiencia de destino entran en el recorrido. Se crea una instancia de este recorrido para cada perfil. Estos recorridos pueden ser recurrentes o &quot;únicos&quot;. [Más información](#entry-read-audience)
+* **Leer audiencia** recorridos: estos recorridos comienzan con una actividad de **Leer audiencia**. Cuando se ejecuta el recorrido, los perfiles pertenecientes a la audiencia de destino entran en el recorrido. Se crea una instancia de este recorrido para cada perfil. Estos recorridos pueden ser recurrentes o &quot;únicos&quot;. [Más información](#entry-read-audience)
 
-* **Calificación de audiencia** recorridos: estos recorridos comienzan con un evento de calificación de audiencia. Estos recorridos escuchan las entradas y salidas de perfiles en las audiencias. Cuando esto sucede, el perfil asociado entra en el recorrido. [Más información](#entry-unitary)
+* **recorridos de calificación de audiencias**: estos recorridos comienzan con un evento de calificación de audiencias. Estos recorridos escuchan las entradas y salidas de perfiles en las audiencias. Cuando esto sucede, el perfil asociado entra en el recorrido. [Más información](#entry-unitary)
 
 En todos los tipos de recorrido, un perfil no puede estar presente varias veces en el mismo recorrido y al mismo tiempo. Para comprobar que una persona está en un recorrido, la identidad del perfil se utiliza como clave. El sistema no permite que la misma clave, por ejemplo la clave CRMID=3224, esté en diferentes lugares del mismo recorrido.
 
 ## Recorridos de calificación de eventos unitarios y audiencias{#entry-unitary}
 
-Entrada **Evento unitario** y **Calificación de audiencia** recorridos, puede habilitar o deshabilitar la reentrada:
+En los recorridos **Evento unitario** y **Calificación de audiencias**, puede habilitar o deshabilitar la reentrada:
 
 * Si la reentrada está habilitada, un perfil puede entrar en un recorrido varias veces, pero no puede hacerlo hasta que salga completamente de la instancia anterior del recorrido.
 
 * Si la reentrada está desactivada, un perfil no puede introducir varias veces el mismo recorrido, dentro del periodo de tiempo de espera de recorrido global. Consulte esta [sección](../building-journeys/journey-properties.md#global_timeout).
 
-De forma predeterminada, los recorridos permiten la reentrada. Si la variable **Permitir la reentrada** está activada, la opción **Período de espera de reentrada** se muestra el campo. Permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido. Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos. La duración máxima es de 91 días ([tiempo de espera global](journey-properties.md#global_timeout)).
+De forma predeterminada, los recorridos permiten la reentrada. Cuando la opción **Permitir la reentrada** está activada, se muestra el campo **Período de espera de reentrada**. Permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido. Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos. La duración máxima es de 91 días ([tiempo de espera global](journey-properties.md#global_timeout)).
 
 <!--
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
@@ -57,7 +57,7 @@ Due to the 30-day journey timeout, when journey re-entrance is not allowed, we c
 Business events follow re-entrance rules in the same way as for unitary events. If a journey allows re-entrance, the next business event will be processed.
 -->
 
-Entrada **Recorridos empresariales**, para permitir varias ejecuciones de eventos empresariales, active la opción correspondiente en la **[!UICONTROL Ejecución]** de las propiedades del recorrido.
+En **recorridos empresariales**, para permitir varias ejecuciones de eventos empresariales, active la opción correspondiente en la sección **[!UICONTROL Ejecución]** de las propiedades del recorrido.
 
 ![](assets/business-entry.png)
 
@@ -65,11 +65,11 @@ En el caso de los eventos empresariales, para un recorrido determinado, los dato
 
 Un perfil puede estar presente varias veces en el mismo recorrido, al mismo tiempo, pero en el contexto de diferentes eventos empresariales.
 
-Para obtener más información, consulte [sección](../event/about-creating-business.md)
+Para obtener más información, consulte esta [sección](../event/about-creating-business.md)
 
 ## Leer recorridos de audiencia {#entry-read-audience}
 
-**Leer audiencia** Los recorridos pueden ser recurrentes o &quot;únicos&quot;:
+**Leer audiencia** los recorridos pueden ser recurrentes o de una sola toma:
 
 * Para recorridos no recurrentes/de una sola toma: el perfil introduce una vez y solo una vez en el recorrido.
 
@@ -77,17 +77,17 @@ Para obtener más información, consulte [sección](../event/about-creating-busi
 
 Hay dos opciones disponibles para los recorridos de lectura de audiencia recurrentes:
 
-* **Lectura incremental** opción: cuando un recorrido con una **Leer audiencia** se ejecuta por primera vez, todos los perfiles de la audiencia entran en el recorrido. Esta opción le permite dirigirse, después de la primera incidencia, solo a las personas que ingresaron a la audiencia desde la última ejecución del recorrido.
+* Opción **Lectura incremental**: cuando se ejecuta por primera vez un recorrido con una **Audiencia de lectura** recurrente, todos los perfiles de la audiencia entran en el recorrido. Esta opción le permite dirigirse, después de la primera incidencia, solo a las personas que ingresaron a la audiencia desde la última ejecución del recorrido.
 
   >[!NOTE]
   >
-  >Si va a segmentar un [audiencia de carga personalizada](../audience/about-audiences.md#segments-in-journey-optimizer) en el recorrido, los perfiles solo se recuperan en la primera periodicidad si esta opción está habilitada en un recorrido recurrente, ya que estas audiencias son fijas.
+  >Si va a segmentar una [audiencia de carga personalizada](../audience/about-audiences.md#segments-in-journey-optimizer) en su recorrido, los perfiles solo se recuperan en la primera periodicidad si esta opción está habilitada en un recorrido recurrente, ya que estas audiencias son fijas.
 
-* **Forzar reentrada en repetición**: esta opción permite hacer que todos los perfiles que aún están presentes en la recorrido se cierren automáticamente en la siguiente ejecución. Si la duración de los perfiles en este recorrido puede ser mayor que la periodicidad (por ejemplo, si utiliza actividades de espera), no active esta opción para asegurarse de que los perfiles puedan finalizar su recorrido.
+* **Forzar reentrada en repetición**: esta opción le permite hacer que todos los perfiles que aún están presentes en el recorrido se cierren automáticamente en la siguiente ejecución. Si la duración de los perfiles en este recorrido puede ser mayor que la periodicidad (por ejemplo, si utiliza actividades de espera), no active esta opción para asegurarse de que los perfiles puedan finalizar su recorrido.
 
 ![](assets/read-audience-options.png)
 
-Para obtener más información, consulte [sección](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+Para obtener más información, consulte esta [sección](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 <!--
 After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 

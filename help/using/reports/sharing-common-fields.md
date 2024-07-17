@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # campos comunes de eventos de recorridos {#sharing-common-fields}
 
-Este grupo de campos se compartirá mediante los siguientes eventos: **journeyStepEvent** y **journeyStepProfileEvent**.
+Este grupo de campos será compartido por los eventos siguientes: **journeyStepEvent** y **journeyStepProfileEvent**.
 
 Estos son los campos XDM comunes que [!DNL Journey Optimizer] envía a Adobe Experience Platform. Se envían campos comunes para cada paso que se procesa en un recorrido. Se utilizan campos más específicos para acciones personalizadas y enriquecimientos.
 
@@ -26,7 +26,7 @@ Algunos de estos campos solo están disponibles en patrones de procesamiento esp
 
 >[!NOTE]
 >
->Más información sobre los atributos de propiedades de recorrido [en esta sección](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>Obtenga más información acerca de los atributos de propiedades de recorrido [en esta sección](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
 
 
 ## entrada {#entrance-field}

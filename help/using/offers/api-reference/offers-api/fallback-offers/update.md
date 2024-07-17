@@ -9,19 +9,19 @@ exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
 # Actualizar una oferta de reserva {#update-fallback-offer}
 
-Puede modificar o actualizar una oferta de reserva en el contenedor realizando una solicitud del PATCH a [!DNL Offer Library] API.
+Puede modificar o actualizar una oferta de reserva en su contenedor realizando una solicitud de PATCH a la API [!DNL Offer Library].
 
-Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte el [Documentación de parches de JSON](https://jsonpatch.com/).
+Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte la [documentación oficial del parche JSON](https://jsonpatch.com/).
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* y *Aceptar* campos en el encabezado de la solicitud:
+En la tabla siguiente se muestran los valores válidos que comprenden los campos *Content-Type* y *Accept* del encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |

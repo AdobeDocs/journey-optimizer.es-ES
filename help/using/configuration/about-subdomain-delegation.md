@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Delegación de subdominios en [!DNL Journey Optimizer]
+title: Delegación de subdominios en  [!DNL Journey Optimizer]
 description: Obtenga información sobre cómo delegar los subdominios
 feature: Subdomains
 topic: Administration
@@ -29,7 +29,7 @@ Si comparte un dominio y se bloquea o se agrega a la lista de bloqueados, podrí
 
 >[!NOTE]
 >
->No puede utilizar el mismo dominio de envío para enviar mensajes desde [!DNL Adobe Journey Optimizer] y de otro producto, como [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage].
+>No puede usar el mismo dominio de envío para enviar mensajes desde [!DNL Adobe Journey Optimizer] y desde otro producto, como [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage].
 
 ## ¿Por qué configurar subdominios?  {#why-set-up-subdomains}
 
@@ -48,17 +48,17 @@ Aunque estos requisitos se administran mediante componentes alojados por el Adob
 
 **Más información**
 
-* Obtenga información sobre cómo [delegar los subdominios](delegate-subdomain.md) directamente desde la interfaz de
-* Obtenga información sobre cómo [añadir registros TXT de Google](google-txt.md) a sus subdominios para garantizar el envío correcto de correos electrónicos a las direcciones de Gmail
-* Obtenga información sobre cómo [acceso a los registros PTR](ptr-records.md) generados para sus subdominios, lo que permite verificarlos enviando servidores de correo
+* Aprenda a [delegar sus subdominios](delegate-subdomain.md) directamente desde la interfaz
+* Aprenda a [añadir registros TXT de Google](google-txt.md) a sus subdominios para garantizar el envío correcto de correos electrónicos a las direcciones de Gmail
+* Obtenga información sobre cómo [acceder a los registros PTR](ptr-records.md) generados para sus subdominios, lo que permite verificarlos enviando servidores de correo
 
 ## Métodos de configuración de subdominios {#subdomain-delegation-methods}
 
 La configuración de subdominios le permite configurar una subsección de su dominio (técnicamente, una &quot;zona DNS&quot;) para utilizarla con Adobe Campaign. Los métodos de configuración disponibles son estos:
 
-* **Delegación de subdominios completa en el Adobe** (recomendado): El subdominio se delega completamente al Adobe. El Adobe puede controlar y mantener todos los aspectos de DNS necesarios para enviar, procesar y rastrear mensajes. [Más información sobre la delegación de subdominios completa](delegate-subdomain.md#full-subdomain-delegation)
+* **Delegación de subdominios completa al Adobe** (recomendado): el subdominio se ha delegado completamente al Adobe. El Adobe puede controlar y mantener todos los aspectos de DNS necesarios para enviar, procesar y rastrear mensajes. [Más información sobre la delegación de subdominios completa](delegate-subdomain.md#full-subdomain-delegation)
 
-* **Uso de CNAME**: cree un subdominio y utilice CNAME para señalar registros específicos de Adobe. Con esta configuración, tanto usted como Adobe comparten la responsabilidad de mantener DNS. [Obtenga más información sobre la delegación de subdominios CNAME](delegate-subdomain.md#cname-subdomain-delegation)
+* **Uso de CNAME**: cree un subdominio y utilice CNAME para señalar registros específicos de Adobe. Con esta configuración, tanto usted como Adobe comparten la responsabilidad de mantener DNS. [Más información sobre la delegación de subdominios CNAME](delegate-subdomain.md#cname-subdomain-delegation)
 
 >[!CAUTION]
 >
@@ -79,18 +79,18 @@ Si tiene alguna pregunta acerca de los métodos de configuración de subdominios
 
 ## Acceder a subdominios delegados {#access-delegated-subdomains}
 
-Todos los subdominios delegados se muestran en la **[!UICONTROL Administration]** > **[!UICONTROL Canales]** > **[!UICONTROL Subdominios]** menú. Los filtros están disponibles para ayudarle a refinar la lista (fecha de delegación, usuario o estado).
+Todos los subdominios delegados se muestran en el menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Subdominios]**. Los filtros están disponibles para ayudarle a refinar la lista (fecha de delegación, usuario o estado).
 
 ![](assets/subdomain-list.png)
 
-El **[!UICONTROL Estado]** proporciona información sobre el proceso de delegación de subdominios:
+La columna **[!UICONTROL Estado]** proporciona información sobre el proceso de delegación de subdominios:
 
 * **[!UICONTROL Borrador]**: la delegación de subdominios se ha guardado como borrador. Haga clic en el nombre del subdominio para reanudar el proceso de delegación.
-* **[!UICONTROL Procesando]**: el subdominio está pasando por varias comprobaciones de configuración antes de poder utilizarse,
-* **[!UICONTROL Correcto]**: el subdominio ha pasado por las comprobaciones correctamente y puede utilizarse para enviar mensajes,
+* **[!UICONTROL Procesando]**: el subdominio está pasando por varias comprobaciones de configuración antes de poder usarse,
+* **[!UICONTROL Éxito]**: el subdominio ha pasado correctamente por las comprobaciones y se puede utilizar para enviar mensajes,
 * **[!UICONTROL Error]**: una o varias comprobaciones han fallado después de enviar la delegación de subdominios.
 
-Para acceder a información detallada sobre un subdominio con **[!UICONTROL Correcto]** estado, ábralo desde la lista.
+Para obtener información detallada sobre un subdominio con el estado **[!UICONTROL Correcto]**, ábralo en la lista.
 
 ![](assets/subdomain-delegated.png)
 
@@ -98,7 +98,7 @@ Puede hacer lo siguiente:
 
 * Recupere el nombre de subdominio (solo lectura) configurado durante el proceso de delegación, así como las direcciones URL generadas (recursos, páginas espejo y direcciones URL de seguimiento).
 
-* Agregue un registro TXT de verificación del sitio de Google al subdominio para asegurarse de que se verifica (consulte ). [Adición de un registro TXT de Google a un subdominio](google-txt.md)).
+* Agregue un registro TXT de verificación del sitio de Google al subdominio para asegurarse de que está verificado (consulte [Agregar un registro TXT de Google a un subdominio](google-txt.md)).
 
 
 >[!CAUTION]

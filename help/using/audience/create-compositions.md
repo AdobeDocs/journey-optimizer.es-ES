@@ -19,7 +19,7 @@ ht-degree: 15%
 
 >[!BEGINSHADEBOX]
 
-Esta documentación proporciona información detallada sobre cómo trabajar con la composición de públicos en Adobe Journey Optimizer. Si no utiliza Adobe Journey Optimizer, [haga clic aquí](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=es){target="_blank"}.
+Esta documentación proporciona información detallada sobre cómo trabajar con la composición de públicos en Adobe Journey Optimizer. Si no usa Adobe Journey Optimizer, [haga clic aquí](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=es){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -27,15 +27,15 @@ Esta documentación proporciona información detallada sobre cómo trabajar con 
 
 Para crear un flujo de trabajo de maquetación, siga estos pasos:
 
-1. Acceda a la **[!UICONTROL Audiencias]** y seleccione **[!UICONTROL Crear audiencia]**.
+1. Acceda al menú **[!UICONTROL Audiencias]** y seleccione **[!UICONTROL Crear audiencia]**.
 
-1. Seleccionar **[!UICONTROL Componer audiencia]**.
+1. Seleccione **[!UICONTROL Componer audiencia]**.
 
    ![](assets/audiences-create.png)
 
    >[!NOTE]
    >
-   >El **[!UICONTROL Generar regla]** método de creación le permite crear una nueva definición de segmento utilizando [Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es).
+   >El método de creación de la regla de compilación **[!UICONTROL Build]** le permite crear una nueva definición de segmento mediante el [servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es).
 
 1. El lienzo de composición se muestra con dos actividades predeterminadas:
 
@@ -43,7 +43,7 @@ Para crear un flujo de trabajo de maquetación, siga estos pasos:
 
    * **[!UICONTROL Guardar]**: el último paso de la composición. Esta actividad le permite guardar el resultado del flujo de trabajo en una nueva audiencia.
 
-   Para obtener más información sobre cómo configurar actividades en el lienzo del flujo de trabajo de composición, consulte [Trabajo con el lienzo de composición](composition-canvas.md).
+   Para obtener más información sobre cómo configurar actividades en el lienzo del flujo de trabajo de composición, consulte [Trabajar con el lienzo de composición](composition-canvas.md).
 
 1. Abra las propiedades de la composición para especificar un título y una descripción.
 
@@ -51,11 +51,11 @@ Para crear un flujo de trabajo de maquetación, siga estos pasos:
 
    ![](assets/audiences-properties.png)
 
-1. Configure la composición añadiendo tantas actividades como sea necesario entre las etiquetas **[!UICONTROL Audiencia]** y **[!UICONTROL Guardar]** actividades. [Aprenda a trabajar con el lienzo de composición](composition-canvas.md)
+1. Configure su composición agregando tantas actividades como sea necesario entre las actividades **[!UICONTROL Audience]** y **[!UICONTROL Save]**. [Aprenda a trabajar con el lienzo de composición](composition-canvas.md)
 
    ![](assets/audiences-publish.png)
 
-1. Una vez que la composición esté lista, haga clic en **[!UICONTROL Publish]** para publicar la maquetación y guardar las audiencias resultantes en Adobe Experience Platform.
+1. Una vez que la composición esté lista, haga clic en el botón **[!UICONTROL Publish]** para publicar la composición y guardar las audiencias resultantes en Adobe Experience Platform.
 
    >[!IMPORTANT]
    >
@@ -65,7 +65,7 @@ Para crear un flujo de trabajo de maquetación, siga estos pasos:
 
    ![](assets/audiences-alerts.png)
 
-1. La composición se publica. Las audiencias resultantes se guardan en Adobe Experience Platform y están listas para segmentarse en Journey Optimizer. [Obtenga información sobre cómo segmentar audiencias en Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
+1. La composición se publica. Las audiencias resultantes se guardan en Adobe Experience Platform y están listas para segmentarse en Journey Optimizer. [Aprenda a segmentar audiencias en Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ## Acceso a composiciones {#access}
 
@@ -74,7 +74,7 @@ Para crear un flujo de trabajo de maquetación, siga estos pasos:
 >title="Publicar la audiencia"
 >abstract="Publique la composición para guardar las audiencias resultantes en Adobe Experience Platform."
 
-Se puede acceder a todas las composiciones creadas desde el **[!UICONTROL Composiciones]** pestaña. Puede duplicar o eliminar una composición existente en cualquier momento mediante el botón de puntos suspensivos de la lista.
+Se puede acceder a todas las composiciones creadas desde la pestaña **[!UICONTROL Composiciones]**. Puede duplicar o eliminar una composición existente en cualquier momento mediante el botón de puntos suspensivos de la lista.
 
 Las composiciones pueden tener varios estados:
 
@@ -85,4 +85,4 @@ Las composiciones pueden tener varios estados:
 
 >[!NOTE]
 >
->La composición de audiencia no está integrada actualmente con la capacidad de restablecimiento de la zona protegida. Antes de iniciar el restablecimiento de una zona protegida, debe eliminar las composiciones manualmente para asegurarse de que los datos de audiencia asociados se limpien correctamente. Encontrará información detallada en Adobe Experience Platform [Documentación de zona protegida](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)
+>La composición de audiencia no está integrada actualmente con la capacidad de restablecimiento de la zona protegida. Antes de iniciar el restablecimiento de una zona protegida, debe eliminar las composiciones manualmente para asegurarse de que los datos de audiencia asociados se limpien correctamente. Encontrará información detallada en [Documentación de espacio aislado](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions) de Adobe Experience Platform

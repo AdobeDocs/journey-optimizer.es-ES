@@ -16,7 +16,7 @@ ht-degree: 19%
 
 # matchRegExp {#matchRegExp}
 
-Devuelve true si la cadena del primer parámetro coincide con la expresión regular del segundo parámetro. Para obtener más información, consulte [esta página](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+Devuelve true si la cadena del primer parámetro coincide con la expresión regular del segundo parámetro. Para obtener más información, vea [esta página](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
 
 ## Categoría
 
@@ -30,8 +30,8 @@ Cadena
 
 | Parámetro | Tipo |
 |--- |--- |
-| string | string |
-| regexp | string |
+| cadena | cadena |
+| regexp | cadena |
 
 ## Firma y tipo devuelto
 

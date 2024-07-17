@@ -18,17 +18,17 @@ ht-degree: 2%
 
 # Creación de perfiles de prueba {#create-test-profiles}
 
-Los perfiles de prueba son obligatorios al utilizar [modo de prueba](../building-journeys/testing-the-journey.md) en un recorrido y a [previsualización y prueba del contenido](../content-management/preview-test.md).
+Se requieren perfiles de prueba al usar el [modo de prueba](../building-journeys/testing-the-journey.md) en un recorrido, y para [previsualizar y probar el contenido](../content-management/preview-test.md).
 
 Existen varias formas de crear perfiles de prueba. Puede encontrar en esta página los detalles para:
 
-* Convierta un [perfil existente](#turning-profile-into-test) en un perfil de prueba
+* Convertir un [perfil existente](#turning-profile-into-test) en un perfil de prueba
 
-* Creación de perfiles de prueba cargando un [archivo csv](#create-test-profiles-csv) o usando [Llamadas de API](#create-test-profiles-api).
+* Cree perfiles de prueba cargando un [archivo csv](#create-test-profiles-csv) o usando [llamadas API](#create-test-profiles-api).
 
-  Además de estos dos métodos, Adobe Journey Optimizer incluye un [caso de uso dentro del producto](#use-case-1) para facilitar la creación del perfil de prueba.
+  Además de estos dos métodos, Adobe Journey Optimizer incluye un [caso de uso específico en el producto](#use-case-1) para facilitar la creación del perfil de prueba.
 
-También puede cargar un archivo json en un conjunto de datos existente. Para obtener más información, consulte [Documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}.
+También puede cargar un archivo json en un conjunto de datos existente. Para obtener más información, consulte la [documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}.
 
 Tenga en cuenta que la creación de un perfil de prueba es similar a la creación de perfiles normales en Adobe Experience Platform. Para obtener más información, consulte la [Documentación del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}.
 
@@ -36,19 +36,19 @@ Tenga en cuenta que la creación de un perfil de prueba es similar a la creació
 
 ## Requisitos previos {#test-profile-prerequisites}
 
-Para poder crear perfiles, primero debe crear un esquema y un conjunto de datos en Adobe [!DNL Journey Optimizer].
+Para poder crear perfiles, primero debe crear un esquema y un conjunto de datos en el Adobe [!DNL Journey Optimizer].
 
-Hasta **creación de un esquema**, siga estos pasos:
+Para **crear un esquema**, siga estos pasos:
 
-1. En la sección del menú DATA MANAGEMENT, haga clic en **[!UICONTROL Esquemas]**.
+1. En la sección de menú ADMINISTRACIÓN DE DATOS, haga clic en **[!UICONTROL Esquemas]**.
    ![](assets/test-profiles-0.png)
-1. Clic **[!UICONTROL Crear esquema]**, en la parte superior derecha, seleccione un tipo de esquema, por ejemplo **Perfil individual** y haga clic en **Siguiente**.
+1. Haga clic en **[!UICONTROL Crear esquema]**, en la parte superior derecha, seleccione un tipo de esquema, por ejemplo **Perfil individual** y haga clic en **Siguiente**.
    ![](assets/test-profiles-1.png)
-1. Introduzca un nombre para el esquema y haga clic en **Finalizar**.
+1. Escriba un nombre para el esquema y haga clic en **Finalizar**.
    ![](assets/test-profiles-1-bis.png)
-1. En el **Grupos de campos** , a la izquierda, haga clic en **Add$$ y seleccione los grupos de campos adecuados. Asegúrese de añadir la variable **Detalles de prueba de perfil** grupo de campos.
+1. En la sección **Grupos de campos**, a la izquierda, haga clic en **Agregar$$ y seleccione los grupos de campos correspondientes. Asegúrese de agregar el grupo de campos **Detalles de la prueba del perfil**.
    ![](assets/test-profiles-1-ter.png)
-Una vez finalizado, haga clic en **[!UICONTROL Adición de grupos de campos]**: la lista de grupos de campos se muestra en la pantalla de información general del esquema.
+Una vez finalizado, haga clic en **[!UICONTROL Agregar grupos de campos]**: la lista de grupos de campos se muestra en la pantalla de información general del esquema.
    ![](assets/test-profiles-2.png)
 
    >[!NOTE]
@@ -57,32 +57,32 @@ Una vez finalizado, haga clic en **[!UICONTROL Adición de grupos de campos]**: 
 
 1. En la lista de campos, haga clic en el campo que desee definir como identidad principal.
    ![](assets/test-profiles-3.png)
-1. En el **[!UICONTROL Propiedades del campo]** en el panel derecho, marque **[!UICONTROL Identidad]** y **[!UICONTROL Identidad principal]** y seleccione un área de nombres. Si desea que la identidad principal sea una dirección de correo electrónico, elija la **[!UICONTROL Correo electrónico]** namespace. Haga clic en **[!UICONTROL Aplicar]**.
+1. En el panel derecho de **[!UICONTROL Propiedades del campo]**, compruebe las opciones **[!UICONTROL Identidad]** e **[!UICONTROL Identidad principal]** y seleccione un área de nombres. Si desea que la identidad principal sea una dirección de correo electrónico, elija el área de nombres **[!UICONTROL Correo electrónico]**. Haga clic en **[!UICONTROL Aplicar]**.
    ![](assets/test-profiles-4bis.png)
-1. Seleccione el esquema y habilite la variable **[!UICONTROL Perfil]** en la opción **[!UICONTROL Propiedades del esquema]** panel.
+1. Seleccione el esquema y habilite la opción **[!UICONTROL Perfil]** en el panel **[!UICONTROL Propiedades del esquema]**.
    ![](assets/test-profiles-5.png)
 1. Haga clic en **Guardar**.
 
 >[!NOTE]
 >
->Para obtener más información sobre la creación de esquemas, consulte la [Documentación de XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}.
+>Para obtener más información sobre la creación de esquemas, consulte la [documentación de XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}.
 
-Entonces tienes que **crear el conjunto de datos** en el que se importarán los perfiles. Siga estos pasos:
+Entonces necesita **crear el conjunto de datos** en el que se importarán los perfiles. Siga estos pasos:
 
-1. Navegar a **[!UICONTROL Conjuntos de datos]**, luego haga clic en **[!UICONTROL Crear conjunto de datos]**.
+1. Vaya a **[!UICONTROL Conjuntos de datos]** y, a continuación, haga clic en **[!UICONTROL Crear conjunto de datos]**.
    ![](assets/test-profiles-6.png)
-1. Elegir **[!UICONTROL Crear conjunto de datos a partir de esquema]**.
+1. Elija **[!UICONTROL Crear conjunto de datos a partir del esquema]**.
    ![](assets/test-profiles-7.png)
 1. Seleccione el esquema creado anteriormente y haga clic en **[!UICONTROL Siguiente]**.
    ![](assets/test-profiles-8.png)
 1. Elija un nombre y haga clic en **[!UICONTROL Finalizar]**.
    ![](assets/test-profiles-9.png)
-1. Habilite la **[!UICONTROL Perfil]** opción.
+1. Habilite la opción **[!UICONTROL Perfil]**.
    ![](assets/test-profiles-10.png)
 
 >[!NOTE]
 >
-> Para obtener más información sobre la creación de conjuntos de datos, consulte la [Documentación del servicio de catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}.
+> Para obtener más información sobre la creación de conjuntos de datos, consulte la [documentación del servicio de catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}.
 
 ## Caso de uso dentro del producto{#use-case-1}
 
@@ -94,19 +94,19 @@ Haga clic en el botón **[!UICONTROL Comenzar]** para iniciar el caso de uso.
 
 Se requiere la siguiente información:
 
-1. **Área de nombres de identidad**: La [área de nombres de identidad](../audience/get-started-identity.md) se utiliza para identificar los perfiles de prueba de forma exclusiva. Por ejemplo, si se utiliza el correo electrónico para identificar los perfiles de prueba, el área de nombres de identidad **Correo electrónico** debe estar seleccionado. Si el identificador único es el número de teléfono, el área de nombres de identidad **Teléfono** debe estar seleccionado.
+1. **Área de nombres de identidad**: El [área de nombres de identidad](../audience/get-started-identity.md) se usa para identificar los perfiles de prueba de forma única. Por ejemplo, si se usa el correo electrónico para identificar los perfiles de prueba, se debe seleccionar el área de nombres de identidad **Correo electrónico**. Si el identificador único es el número de teléfono, se debe seleccionar el área de nombres de identidad **Teléfono**.
 
-2. **Archivo CSV**: Un archivo separado por comas que contiene la lista de perfiles de prueba que se van a crear. El caso de uso espera un formato predefinido para el archivo CSV que contiene la lista de perfiles de prueba que se van a crear. Cada fila del archivo debe incluir los siguientes campos en el orden correcto como se indica a continuación:
+2. **archivo CSV**: un archivo separado por comas que contiene la lista de perfiles de prueba que se van a crear. El caso de uso espera un formato predefinido para el archivo CSV que contiene la lista de perfiles de prueba que se van a crear. Cada fila del archivo debe incluir los siguientes campos en el orden correcto como se indica a continuación:
 
-   1. **ID de persona**: Identificador único del perfil de prueba. Los valores de este campo deben reflejar el área de nombres de identidad seleccionada. (Por ejemplo, si **Teléfono** se selecciona para el área de nombres de identidad, los valores de este campo deben ser números de teléfono. Del mismo modo si **Correo electrónico** se selecciona, los valores de este campo deben ser correos electrónicos)
-   1. **Correo electrónico**: dirección de correo electrónico del perfil de prueba. (La **ID de persona** y el **Correo electrónico** podría contener los mismos valores si **Correo electrónico** está seleccionado como el área de nombres de identidad)
+   1. **Id. de persona**: Identificador único del perfil de prueba. Los valores de este campo deben reflejar el área de nombres de identidad seleccionada. (Por ejemplo, si **Phone** está seleccionado para el área de nombres de identidad, los valores de este campo deben ser números de teléfono. Del mismo modo, si se selecciona **Correo electrónico**, los valores de este campo deben ser correos electrónicos)
+   1. **Dirección de correo electrónico**: dirección de correo electrónico del perfil de prueba. (El campo **ID de persona** y el campo **Dirección de correo electrónico** podrían contener los mismos valores si se selecciona **Correo electrónico** como área de nombres de identidad)
    1. **Nombre**: Nombre del perfil de prueba.
-   1. **Apellidos**: Apellidos del perfil de prueba.
-   1. **Ciudad**: Ciudad de residencia del perfil de prueba
-   1. **País**: País de residencia del perfil de prueba
-   1. **Sexo**: Género del perfil de prueba. Los valores disponibles son **masculino**, **femenino** y **non_specified**
+   1. **Apellido**: Apellido del perfil de prueba.
+   1. **Ciudad**: perfil de prueba ciudad de residencia
+   1. **País**: perfil de prueba del país de residencia
+   1. **Sexo**: género del perfil de prueba. Los valores disponibles son **hombre**, **mujer** y **no especificado**
 
-Después de seleccionar el área de nombres de identidad y proporcionar el archivo CSV en función del formato anterior, haga clic en **[!UICONTROL Ejecutar]** en la parte superior derecha. El caso de uso puede tardar unos minutos en completarse. Una vez que el caso de uso termina de procesar y crear los perfiles de prueba, se envía una notificación al usuario.
+Después de seleccionar el área de nombres de identidad y proporcionar el archivo CSV en función del formato anterior, haga clic en el botón **[!UICONTROL Ejecutar]** en la parte superior derecha. El caso de uso puede tardar unos minutos en completarse. Una vez que el caso de uso termina de procesar y crear los perfiles de prueba, se envía una notificación al usuario.
 
 >[!NOTE]
 >
@@ -116,38 +116,38 @@ Después de seleccionar el área de nombres de identidad y proporcionar el archi
 
 Puede convertir un perfil existente en un perfil de prueba: puede actualizar los atributos de perfiles del mismo modo que cuando crea un perfil.
 
-Una forma sencilla de hacerlo es mediante una **[!UICONTROL Actualizar perfil]** actividad de acción en un recorrido y cambie el **testProfile** campo booleano de false a true.
+Una manera sencilla de hacerlo es usar una actividad de acción **[!UICONTROL Actualizar perfil]** en un recorrido y cambiar el campo booleano **testProfile** de falso a verdadero.
 
-Su recorrido estará compuesto por un **[!UICONTROL Leer audiencia]** y un **[!UICONTROL Actualizar perfil]** actividad. Primero debe crear una audiencia dirigida a los perfiles que desea convertir en perfiles de prueba.
+El recorrido estará compuesto por una actividad **[!UICONTROL Leer audiencia]** y **[!UICONTROL Actualizar perfil]**. Primero debe crear una audiencia dirigida a los perfiles que desea convertir en perfiles de prueba.
 
 >[!NOTE]
 >
-> Dado que va a actualizar el **testProfile** , los perfiles elegidos deben incluir este campo. El esquema relacionado debe tener **Detalles de prueba de perfil** grupo de campos. Consulte [esta sección](../audience/creating-test-profiles.md#test-profiles-prerequisites).
+> Como va a actualizar el campo **testProfile**, los perfiles elegidos deben incluir este campo. El esquema relacionado debe tener el grupo de campos **Detalles de prueba del perfil**. Consulte [esta sección](../audience/creating-test-profiles.md#test-profiles-prerequisites).
 
-1. Navegar a **Audiencias**, entonces **Crear audiencia**, en la parte superior derecha.
+1. Vaya a **Audiencias** y luego a **Crear audiencia**, en la parte superior derecha.
    ![](assets/test-profiles-22.png)
 1. Defina un nombre para la audiencia y genere la audiencia: elija los campos y los valores para segmentar los perfiles que desee.
    ![](assets/test-profiles-23.png)
-1. Clic **Guardar** y compruebe que la audiencia se dirige correctamente a los perfiles.
+1. Haga clic en **Guardar** y compruebe que la audiencia se ha dirigido correctamente a los perfiles.
    ![](assets/test-profiles-24.png)
 
    >[!NOTE]
    >
-   > El cálculo de audiencias puede tardar un poco. Más información sobre las audiencias en [esta sección](../audience/about-audiences.md).
+   > El cálculo de audiencias puede tardar un poco. Obtenga más información sobre las audiencias en [esta sección](../audience/about-audiences.md).
 
-1. Ahora cree un nuevo recorrido y comience con una **[!UICONTROL Leer audiencia]** actividad de orquestación.
+1. Ahora cree un nuevo recorrido y comience con una actividad de orquestación **[!UICONTROL Leer audiencia]**.
 1. Elija la audiencia creada anteriormente y el área de nombres que utilizan los perfiles.
    ![](assets/test-profiles-25.png)
-1. Añadir un **[!UICONTROL Actualizar perfil]** actividad de acción.
-1. Seleccione el esquema y la variable **testProfiles** , el conjunto de datos y establezca el valor en **Verdadero**. Para ello, en la **[!UICONTROL VALOR]** , haga clic en el **Pluma** en la parte derecha, seleccione **[!UICONTROL Modo avanzado]** y escriba **true**.
+1. Agregue una actividad de acción **[!UICONTROL Actualizar perfil]**.
+1. Seleccione el esquema, el campo **testProfiles**, el conjunto de datos y establezca el valor en **True**. Para ello, en el campo **[!UICONTROL VALUE]**, haga clic en el icono **Pluma** de la derecha, seleccione **[!UICONTROL Modo avanzado]** y escriba **true**.
    ![](assets/test-profiles-26.png)
-1. Haga clic en **[!UICONTROL Publicar]**.
-1. En el **[!UICONTROL Audiencias]** , compruebe que los perfiles se hayan actualizado correctamente.
+1. Haga clic en **[!UICONTROL Publish]**.
+1. En la sección **[!UICONTROL Audiencias]**, compruebe que los perfiles se hayan actualizado correctamente.
    ![](assets/test-profiles-28.png)
 
    >[!NOTE]
    >
-   > Para obtener más información sobre **[!UICONTROL Actualizar perfil]** actividad, consulte [esta sección](../building-journeys/update-profiles.md).
+   > Para obtener más información sobre la actividad **[!UICONTROL Actualizar perfil]**, consulte [esta sección](../building-journeys/update-profiles.md).
 
 ## Creación de un perfil de prueba con un archivo csv{#create-test-profiles-csv}
 
@@ -159,17 +159,17 @@ En Adobe Experience Platform, puede crear perfiles cargando un archivo csv que c
 1. Añada una línea por perfil y rellene los valores de cada campo.
    ![](assets/test-profiles-12.png)
 1. Guarde la hoja de cálculo como archivo csv. Asegúrese de que se utilizan comas como separadores.
-1. Navegar a Adobe Experience Platform **Flujos de trabajo**.
+1. Vaya a Adobe Experience Platform **Workflows**.
    ![](assets/test-profiles-14.png)
-1. Elegir **Asignar CSV a esquema XDM**, luego haga clic en **Launch**.
+1. Elija **Asignar CSV al esquema XDM** y, a continuación, haga clic en **Iniciar**.
    ![](assets/test-profiles-16.png)
-1. Seleccione el conjunto de datos en el que desea importar los perfiles. Haga clic en **Siguiente**.
+1. Seleccione el conjunto de datos en el que desea importar los perfiles. Haga clic en **Next**.
    ![](assets/test-profiles-17.png)
-1. Clic **Elegir archivos** y seleccione el archivo csv. Cuando cargue el archivo, haga clic en **Siguiente**.
+1. Haga clic en **Elegir archivos** y seleccione el archivo CSV. Cuando se cargue el archivo, haga clic en **Siguiente**.
    ![](assets/test-profiles-18.png)
 1. Asigne los campos csv de origen a los campos de esquema y haga clic en **Finalizar**.
    ![](assets/test-profiles-19.png)
-1. Comienza la importación de datos. El estado pasará de **Procesando** hasta **Correcto**. Clic **Previsualizar conjunto de datos**, en la parte superior derecha.
+1. Comienza la importación de datos. El estado pasará de **Procesando** a **Correcto**. Haga clic en **Vista previa del conjunto de datos**, en la parte superior derecha.
    ![](assets/test-profiles-20.png)
 1. Compruebe que los perfiles de prueba se hayan agregado correctamente.
    ![](assets/test-profiles-21.png)
@@ -177,7 +177,7 @@ En Adobe Experience Platform, puede crear perfiles cargando un archivo csv que c
 Los perfiles de prueba se han añadido y ahora se pueden utilizar para probar un recorrido. Consulte [esta sección](../building-journeys/testing-the-journey.md).
 >[!NOTE]
 >
-> Para obtener más información sobre las importaciones de csv, consulte la [Documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
+> Para obtener más información sobre las importaciones de csv, consulte la [documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
 
 ## Creación de perfiles de prueba mediante llamadas a API{#create-test-profiles-api}
 

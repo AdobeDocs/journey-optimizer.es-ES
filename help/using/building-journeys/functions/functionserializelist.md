@@ -31,7 +31,7 @@ Lista
 | Parámetro | Tipo | Descripción |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | Lista para convertir en cadena. |
-| separador | string | Separador entre cada elemento de lista en la cadena de salida. |
+| separador | cadena | Separador entre cada elemento de lista en la cadena de salida. |
 | addQuotes | Booleano | Este parámetro indica si cada elemento de la cadena de salida debe incluir comillas (true) o no (false). |
 
 ## Firma y tipo devuelto

@@ -19,15 +19,15 @@ ht-degree: 16%
 >title="Utilice perfiles de prueba para comprobar el contenido"
 >abstract="Utilice perfiles de prueba para previsualizar y probar el contenido. Si ha añadido campos personalizados, puede comprobar cómo se muestran utilizando datos de perfil de prueba."
 
-Antes de previsualizar o probar el contenido, primero debe seleccionar perfiles de prueba, que son destinatarios adicionales que no coinciden con los criterios de objetivo definidos. [Obtenga información sobre cómo crear perfiles de prueba](../audience/creating-test-profiles.md)
+Antes de previsualizar o probar el contenido, primero debe seleccionar perfiles de prueba, que son destinatarios adicionales que no coinciden con los criterios de objetivo definidos. [Aprenda a crear perfiles de prueba](../audience/creating-test-profiles.md)
 
 Para seleccionar perfiles de prueba, siga estos pasos:
 
-1. En la pantalla de edición de contenido del mensaje o en el Diseñador de correo electrónico, haga clic en **[!UICONTROL Simular contenido]** botón.
+1. En la pantalla Editar contenido del mensaje o en el Designer de correo electrónico, haga clic en el botón **[!UICONTROL Simular contenido]**.
 
-1. Haga clic en **[!UICONTROL Administración de perfiles de prueba]** a continuación, seleccione el área de nombres que se utilizará para identificar los perfiles de prueba haciendo clic en el **[!UICONTROL Área de nombres de identidad]** icono de selección. [Más información sobre las Áreas de nombres de identidad de Adobe Experience Platform](../audience/get-started-identity.md).
+1. Haga clic en el botón **[!UICONTROL Administrar perfiles de prueba]** y, a continuación, seleccione el área de nombres que se utilizará para identificar los perfiles de prueba haciendo clic en el icono de selección **[!UICONTROL Área de nombres de identidad]**. [Obtenga más información acerca de áreas de nombres de identidad de Adobe Experience Platform](../audience/get-started-identity.md).
 
-   En el ejemplo siguiente, utilizamos el **Correo electrónico** namespace.
+   En el ejemplo siguiente, utilizamos el área de nombres **Email**.
 
    ![](../email/assets/previewselect-namespace.png)
 
@@ -35,7 +35,7 @@ Para seleccionar perfiles de prueba, siga estos pasos:
 
    ![](../email/assets/preview-email-namespace.png)
 
-1. En el **[!UICONTROL Valor de identidad]** , introduzca el valor (aquí la dirección de correo electrónico) para identificar el perfil de prueba y haga clic en **[!UICONTROL Añadir perfil]**.
+1. En el campo **[!UICONTROL Valor de identidad]**, ingrese el valor (aquí la dirección de correo electrónico) para identificar el perfil de prueba y haga clic en **[!UICONTROL Agregar perfil]**.
 
    <!--![](assets/preview-identity-value.png)-->
 

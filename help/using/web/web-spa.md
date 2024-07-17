@@ -9,7 +9,7 @@ exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 17%
+ht-degree: 16%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 17%
 >abstract="Los cambios se aplicarán solamente a las vistas seleccionadas. Las vistas se pueden descubrir utilizando el modo **Examinar** y navegando hasta ellas. ¿No encuentra la vista que busca?"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es" text="Más información"
 
-**Aplicaciones de una sola página** SPA (ahora) se puede crear en el editor visual del diseñador web. Esto le permite seleccionar qué **vistas** desea aplicar las modificaciones de la página web a.
+SPA Ahora se pueden crear **aplicaciones de una sola página** () en el editor visual del diseñador web. Esto le permite seleccionar a qué **vistas** específicas desea aplicar las modificaciones de la página web.
 
 [Aprenda a crear aplicaciones de una sola página en este vídeo](#video)
 
@@ -33,21 +33,21 @@ Se necesita una configuración de desarrollador única para definir las vistas e
 
 ## Definir vistas en la implementación del SDK web {#define-views}
 
-Las vistas XDM se pueden aprovechar en el Adobe [!DNL Journey Optimizer] SPA para permitir a los especialistas en marketing ejecutar campañas de personalización y experimentación web en el editor visual web de la aplicación de la manera más rápida y eficaz. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=es){target="_blank"}
+Las vistas XDM se pueden aprovechar en el Adobe SPA [!DNL Journey Optimizer] para que los especialistas en marketing puedan ejecutar campañas de personalización y experimentación web en mediante el editor visual web. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=es){target="_blank"}
 
-Para poder acceder y crear vistas en la [!DNL Journey Optimizer] interfaz de usuario, asegúrese de seguir los pasos que se indican en [esta sección](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
+Para poder acceder y crear vistas en la interfaz de usuario de [!DNL Journey Optimizer], asegúrese de seguir los pasos enumerados en [esta sección](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
 
 ## Descubra vistas en el diseñador web {#discover-views}
 
 SPA Una vez completada la configuración en la implementación del SDK web de Adobe Experience Platform, debe navegar por todas las vistas del sitio web a las que desee aplicar las modificaciones. Siga los pasos a continuación.
 
-1. [Creación de una campaña web](create-web.md) y acceder a [diseñador web](edit-web-content.md).
+1. [Cree una campaña web](create-web.md) y acceda al [diseñador web](edit-web-content.md).
 
    La vista en la que se encuentra actualmente se muestra en la parte superior izquierda.
 
    ![](assets/web-designer-view-home.png)
 
-1. Cambiar a **[!UICONTROL Examinar]** modo. [Más información](../web/edit-web-content.md#browse-mode)
+1. Cambiar al modo **[!UICONTROL Examinar]**. [Más información](../web/edit-web-content.md#browse-mode)
 
    ![](assets/web-designer-view-browse.png)
 
@@ -61,13 +61,13 @@ Una vez añadida una modificación mientras se encuentra en una vista específic
 
 >[!CAUTION]
 >
->Si no ha descubierto vistas utilizando **[!UICONTROL Examinar]** modo, no podrá seleccionarlos para aplicar las modificaciones. [Más información](#discover-views)
+>Si no ha descubierto vistas usando el modo **[!UICONTROL Examinar]**, no podrá seleccionarlas para aplicar las modificaciones. [Más información](#discover-views)
 
-1. Seleccione el **[!UICONTROL Modificaciones]** para mostrar el panel correspondiente a la izquierda.
+1. Seleccione el icono **[!UICONTROL Modificaciones]** para mostrar el panel correspondiente a la izquierda.
 
    ![](assets/web-designer-view-modifications-pane.png)
 
-1. Seleccione cualquier modificación y haga clic en **[!UICONTROL Más acciones]** botón situado junto a él. Seleccionar **[!UICONTROL Aplicar a más vistas]**.
+1. Seleccione cualquier modificación y haga clic en el botón **[!UICONTROL Más acciones]** que está junto a ella. Seleccione **[!UICONTROL Aplicar a más vistas]**.
 
    ![](assets/web-designer-modifications-more-actions.png)
 
@@ -77,7 +77,7 @@ Una vez añadida una modificación mientras se encuentra en una vista específic
 
 1. Haga clic en **[!UICONTROL Aplicar]**.
 
-1. Cambiar a **[!UICONTROL Examinar]** modo para comprobar que las modificaciones se aplican en las páginas deseadas.
+1. Cambie al modo **[!UICONTROL Examinar]** para comprobar que las modificaciones se aplican en las páginas deseadas.
 
    ![](assets/web-designer-modifications-applied-view.png)
 
@@ -85,7 +85,7 @@ Una vez añadida una modificación mientras se encuentra en una vista específic
 
 En este vídeo se explica cómo:
 
-* SPA Descubre vistas de la vista usando **[!UICONTROL Examinar]** modo
+* SPA Detectar vistas de la vista utilizando el modo **[!UICONTROL Examinar]**
 * Crear en la vista actual
 * Aplicar modificaciones del sitio web a varias vistas o a todas las vistas descubiertas
 * Realizar acciones masivas en las modificaciones

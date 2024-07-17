@@ -9,17 +9,17 @@ exl-id: 33da2c42-0c6c-49d3-bad8-1a85a5172cd8
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
 # Actualizar una regla de decisión {#update-decision-rule}
 
-Puede crear una oferta de reserva realizando una solicitud de POST a [!DNL Offer Library] API, al tiempo que proporciona su ID de contenedor.
+Puede crear una oferta de reserva realizando una solicitud de POST a la API [!DNL Offer Library], al tiempo que proporciona su ID de contenedor.
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* y *Aceptar* campos en el encabezado de la solicitud:
+En la tabla siguiente se muestran los valores válidos que comprenden los campos *Content-Type* y *Accept* del encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -60,7 +60,7 @@ curl -X PATCH \
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles actualizados de la regla de decisión, incluidos su ID de instancia único y la regla de decisión `@id`.
+Una respuesta correcta devuelve los detalles actualizados de la regla de decisión, incluido su ID de instancia único y la regla de decisión `@id`.
 
 
 ```json

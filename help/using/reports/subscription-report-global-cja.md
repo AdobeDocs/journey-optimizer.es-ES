@@ -18,74 +18,74 @@ ht-degree: 2%
 
 # Informe de suscripción {#subscription-report-global-cja}
 
-El **Informe de suscripción** ofrece perspectivas esenciales sobre las suscripciones y bajas de perfiles asociadas con listas específicas, lo que le ayuda a comprender la eficacia de las diferentes campañas e iniciativas de suscripción para impulsar la participación y las conversiones.
+El **informe de suscripciones** ofrece información esencial sobre las suscripciones y bajas de perfiles asociadas con listas particulares, lo que le ayuda a comprender la eficacia de diferentes campañas e iniciativas de suscripción para impulsar la participación y las conversiones.
 
-Para acceder a sus informes, haga clic en **[!UICONTROL Informe]** de la lista de suscripción seleccionada en el menú avanzado.
+Para acceder a tus informes, haz clic en el icono **[!UICONTROL Informe]** de la lista de suscripción seleccionada en el menú avanzado.
 
 ![](assets/cja-sub-access.png)
 
-Para obtener más información sobre el espacio de trabajo del Customer Journey Analytics y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Para obtener más información sobre el espacio de trabajo del Customer Journey Analytics y cómo filtrar y analizar los datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## La lista de suscripción agrega
 
 ![](assets/cja-sub-add.png)
 
-El **[!UICONTROL La lista de suscripción agrega]** KPI proporciona una visión general del número total de suscripciones adquiridas durante el periodo especificado. Esta métrica destaca el crecimiento y la adquisición de nuevos suscriptores, lo que ofrece información valiosa sobre la eficacia de sus campañas o iniciativas de suscripción.
+La lista de suscripción **[!UICONTROL agrega]** KPI proporciona una descripción general del número total de suscripciones adquiridas durante el período especificado. Esta métrica destaca el crecimiento y la adquisición de nuevos suscriptores, lo que ofrece información valiosa sobre la eficacia de sus campañas o iniciativas de suscripción.
 
 ## La lista de suscripción elimina
 
 ![](assets/cja-sub-add-remove.png)
 
-El **[!UICONTROL La lista de suscripción elimina]** KPI proporciona un desglose del número total de bajas de suscripción que se produjeron durante el periodo especificado. Esta métrica ofrece información valiosa sobre la desvinculación de los suscriptores.
+La lista de suscripción **[!UICONTROL elimina]** KPI proporciona un desglose del número total de bajas de suscripción que se produjeron durante el período especificado. Esta métrica ofrece información valiosa sobre la desvinculación de los suscriptores.
 
 ## Aumento de suscripciones con el tiempo
 
 ![](assets/cja-sub-growth.png)
 
-El **[!UICONTROL Aumento de suscripciones con el tiempo]** El gráfico muestra visualmente la progresión de las suscripciones durante el periodo especificado, lo que proporciona una comprensión clara de cómo ha evolucionado la base de suscriptores.
+El gráfico **[!UICONTROL Crecimiento de las suscripciones con el paso del tiempo]** muestra visualmente la progresión de las suscripciones durante el período especificado, lo que proporciona una comprensión clara de la evolución de la base de suscriptores.
 
-* **[!UICONTROL La lista de suscripción agrega]**: Número total de suscripciones durante el periodo correspondiente.
+* **[!UICONTROL La lista de suscripciones agrega]**: Número total de suscripciones durante el período correspondiente.
 
-* **[!UICONTROL La lista de suscripción elimina]**: Número total de bajas de suscripción durante el periodo correspondiente.
+* **[!UICONTROL La lista de suscripciones elimina]**: Número total de bajas de suscripción durante el periodo correspondiente.
 
-* **[!UICONTROL Crecimiento de lista de suscripción]**: Tasa de crecimiento de la lista de suscriptores durante un periodo de tiempo específico.
+* **[!UICONTROL Crecimiento de la lista de suscripciones]**: Velocidad a la que aumenta la lista de suscriptores durante un período de tiempo específico.
 
 ## Listas de suscripciones
 
 ![](assets/cja-sub-lists.png)
 
-El **[!UICONTROL Listas de suscripción]** proporciona información esencial sobre las suscripciones y bajas de suscripción de sus perfiles asociadas a listas de suscripción específicas. Esta información le ayuda a comprender la eficacia de las distintas listas de suscripción para impulsar la participación y las conversiones.
+La tabla **[!UICONTROL Listas de suscripción]** proporciona información esencial sobre las suscripciones y bajas de suscripción de sus perfiles asociadas con listas de suscripción específicas. Esta información le ayuda a comprender la eficacia de las distintas listas de suscripción para impulsar la participación y las conversiones.
 
-* **[!UICONTROL La lista de suscripción agrega]**: Número total de suscripciones durante el periodo correspondiente.
+* **[!UICONTROL La lista de suscripciones agrega]**: Número total de suscripciones durante el período correspondiente.
 
-* **[!UICONTROL La lista de suscripción elimina]**: Número total de bajas de suscripción durante el periodo correspondiente.
+* **[!UICONTROL La lista de suscripciones elimina]**: Número total de bajas de suscripción durante el periodo correspondiente.
 
 ## Recorridos
 
 ![](assets/cja-sub-journeys.png)
 
-El **[!UICONTROL Recorrido]** ofrece una vista extensa, presentando detalles intrincados de las suscripciones de sus visitantes como parte de su recorrido de usuario.
+La tabla de **[!UICONTROL Recorrido]** ofrece una vista extensa y presenta detalles intrincados de las suscripciones de los visitantes como parte de su recorrido de usuario.
 
-* **[!UICONTROL La lista de suscripción agrega]**: Número total de suscripciones durante el periodo correspondiente.
+* **[!UICONTROL La lista de suscripciones agrega]**: Número total de suscripciones durante el período correspondiente.
 
-* **[!UICONTROL La lista de suscripción elimina]**: Número total de bajas de suscripción durante el periodo correspondiente.
+* **[!UICONTROL La lista de suscripciones elimina]**: Número total de bajas de suscripción durante el periodo correspondiente.
 
 ## Campañas
 
 ![](assets/cja-sub-campaigns.png)
 
-El **[!UICONTROL Campañas]** ofrece una valiosa perspectiva de las suscripciones y bajas de suscripción de sus perfiles activadas por campañas específicas. Esta vista completa le permite medir la eficacia de sus campañas y rastrear la participación con el contenido de su página de aterrizaje de forma eficaz.
+La tabla **[!UICONTROL Campañas]** ofrece información valiosa sobre las suscripciones y bajas de sus perfiles activadas por campañas específicas. Esta vista completa le permite medir la eficacia de sus campañas y rastrear la participación con el contenido de su página de aterrizaje de forma eficaz.
 
-* **[!UICONTROL La lista de suscripción agrega]**: Número total de suscripciones durante el periodo correspondiente.
+* **[!UICONTROL La lista de suscripciones agrega]**: Número total de suscripciones durante el período correspondiente.
 
-* **[!UICONTROL La lista de suscripción elimina]**: Número total de bajas de suscripción durante el periodo correspondiente.
+* **[!UICONTROL La lista de suscripciones elimina]**: Número total de bajas de suscripción durante el periodo correspondiente.
 
 ## Canal
 
 ![](assets/cja-sub-channels.png)
 
-El **[!UICONTROL Canal]** La tabla muestra el número de perfiles, suscripciones y bajas clasificados por cada canal.
+La tabla **[!UICONTROL Channel]** muestra el número de perfiles, suscripciones y bajas clasificados por cada canal.
 
-* **[!UICONTROL La lista de suscripción agrega]**: Número total de suscripciones durante el periodo correspondiente.
+* **[!UICONTROL La lista de suscripciones agrega]**: Número total de suscripciones durante el período correspondiente.
 
-* **[!UICONTROL La lista de suscripción elimina]**: Número total de bajas de suscripción durante el periodo correspondiente.
+* **[!UICONTROL La lista de suscripciones elimina]**: Número total de bajas de suscripción durante el periodo correspondiente.

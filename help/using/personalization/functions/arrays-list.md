@@ -9,7 +9,7 @@ exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -19,7 +19,7 @@ Utilice estas funciones para facilitar la interacción con matrices, listas y ca
 
 ## Contar solo nulo {#count-only-null}
 
-El `countOnlyNull` se utiliza para contar el número de valores nulos de una lista.
+La función `countOnlyNull` se usa para contar el número de valores nulos de una lista.
 
 **Sintaxis**
 
@@ -37,7 +37,7 @@ Devuelve 3.
 
 ## Contar Con Nulo {#count-with-null}
 
-El `countWithNull` se utiliza para contar todos los elementos de una lista, incluidos los valores nulos.
+La función `countWithNull` se usa para contar todos los elementos de una lista, incluidos los valores nulos.
 
 **Sintaxis**
 
@@ -55,7 +55,7 @@ Devuelve 6.
 
 ## Distinto{#distinct}
 
-El `distinct` se utiliza para obtener valores de una matriz o lista con valores duplicados eliminados.
+La función `distinct` se usa para obtener valores de una matriz o lista con valores duplicados eliminados.
 
 **Sintaxis**
 
@@ -71,9 +71,9 @@ La siguiente operación especifica las personas que han realizado pedidos en má
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
 
-## Recuento Distinto Con Nulo {#distinct-count-with-null}
+## Contar Distinto Con Nulo {#distinct-count-with-null}
 
-El `distinctCountWithNull` se utiliza para contar el número de valores diferentes en una lista, incluidos los valores nulos.
+La función `distinctCountWithNull` se usa para contar el número de valores diferentes en una lista, incluidos los valores nulos.
 
 **Sintaxis**
 
@@ -91,7 +91,7 @@ Devuelve 3.
 
 ## Primer elemento{#head}
 
-El `head` se utiliza para devolver el primer elemento de una matriz o lista.
+La función `head` se usa para devolver el primer elemento de una matriz o lista.
 
 **Sintaxis**
 
@@ -101,15 +101,15 @@ El `head` se utiliza para devolver el primer elemento de una matriz o lista.
 
 **Ejemplo**
 
-La siguiente operación devuelve el primero de los cinco pedidos principales con el precio más alto. Más información sobre la `topN` se puede encontrar en la [primero `n` en matriz](#first-n) sección.
+La siguiente operación devuelve el primero de los cinco pedidos principales con el precio más alto. Encontrará más información sobre la función `topN` en la sección [primeros `n` de la matriz](#first-n).
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## Primero `n` en matriz {#first-n}
+## Primer `n` en matriz {#first-n}
 
-El `topN` se utiliza para devolver la primera función `N` elementos de una matriz, cuando se ordenan en orden ascendente según la expresión numérica dada.
+La función `topN` se usa para devolver los primeros `N` elementos de una matriz, cuando se ordenan en orden ascendente en función de la expresión numérica dada.
 
 **Sintaxis**
 
@@ -131,9 +131,9 @@ La siguiente operación devuelve los cinco primeros pedidos con el precio más b
 {%= topN(orders,price, 5) %}
 ```
 
-## Entrada{#in}
+## En{#in}
 
-El `in` se utiliza para determinar si un elemento es miembro de una matriz o lista.
+La función `in` se usa para determinar si un elemento es miembro de una matriz o lista.
 
 **Sintaxis**
 
@@ -151,7 +151,7 @@ La siguiente operación define a las personas con cumpleaños en marzo, junio o 
 
 ## Incluye{#includes}
 
-El `includes` se utiliza para determinar si una matriz o lista contiene un elemento determinado.
+La función `includes` se usa para determinar si una matriz o lista contiene un elemento determinado.
 
 **Sintaxis**
 
@@ -167,9 +167,9 @@ La siguiente operación define a las personas cuyo color favorito incluye el roj
 {%= includes(person.favoriteColors,"red") %}
 ```
 
-## Intersecciones{#intersects}
+## Interseca{#intersects}
 
-El `intersects` se utiliza para determinar si dos matrices o listas tienen al menos un miembro común.
+La función `intersects` se usa para determinar si dos matrices o listas tienen al menos un miembro común.
 
 **Sintaxis**
 
@@ -205,9 +205,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## Último `n` en matriz{#last-n}
+## Últimos `n` en matriz{#last-n}
 
-El `bottomN` se utiliza para devolver el último `N` elementos de una matriz, cuando se ordenan en orden ascendente según la expresión numérica dada.
+La función `bottomN` se usa para devolver los últimos `N` elementos de una matriz, cuando se ordenan en orden ascendente en función de la expresión numérica dada.
 
 **Sintaxis**
 
@@ -231,11 +231,11 @@ La siguiente operación devuelve los últimos cinco pedidos con el precio más a
 
 ## No en{#notin}
 
-El `notIn` se utiliza para determinar si un elemento no es miembro de una matriz o lista.
+La función `notIn` se usa para determinar si un elemento no es miembro de una matriz o lista.
 
 >[!NOTE]
 >
->El `notIn` función *también* garantiza que ninguno de los valores sea igual a nulo. Por lo tanto, los resultados no son una negación exacta de la `in` función.
+>La función *also* de `notIn` garantiza que ninguno de los valores es igual a nulo. Por lo tanto, los resultados no son una negación exacta de la función `in`.
 
 **Sintaxis**
 
@@ -254,7 +254,7 @@ La siguiente operación define a las personas con cumpleaños que no se celebran
 
 ## Subconjunto de{#subset}
 
-El `subsetOf` se utiliza para determinar si una matriz específica (matriz A) es un subconjunto de otra matriz (matriz B). En otras palabras, que todos los elementos de la matriz A son elementos de la matriz B.
+La función `subsetOf` se usa para determinar si una matriz específica (matriz A) es un subconjunto de otra matriz (matriz B). En otras palabras, que todos los elementos de la matriz A son elementos de la matriz B.
 
 **Sintaxis**
 
@@ -272,7 +272,7 @@ La siguiente operación define a las personas que han visitado todas sus ciudade
 
 ## Superconjunto de{#superset}
 
-El `supersetOf` se utiliza para determinar si una matriz específica (matriz A) es un superconjunto de otra matriz (matriz B). En otras palabras, esa matriz A contiene todos los elementos de la matriz B.
+La función `supersetOf` se usa para determinar si una matriz específica (matriz A) es un superconjunto de otra matriz (matriz B). En otras palabras, esa matriz A contiene todos los elementos de la matriz B.
 
 **Sintaxis**
 

@@ -19,7 +19,7 @@ ht-degree: 91%
 
 La API de restricción le ayuda a crear, configurar y supervisar sus configuraciones de restricción para limitar el número de eventos enviados por segundo.
 
-Esta sección proporciona información global sobre cómo trabajar con la API. Hay disponible una descripción detallada de la API en [Documentación de API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
+Esta sección proporciona información global sobre cómo trabajar con la API. Hay disponible una descripción detallada de la API en [Documentación de las API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
 
 >[!IMPORTANT]
 >

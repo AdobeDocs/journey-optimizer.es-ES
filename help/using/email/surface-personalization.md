@@ -13,35 +13,35 @@ exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 3%
+ht-degree: 17%
 
 ---
 
 # Personalización de la configuración de superficie del correo electrónico {#surface-personalization}
 
-Para obtener una mayor flexibilidad y control sobre la configuración de correo electrónico, [!DNL Journey Optimizer] permite definir valores personalizados para subdominios y encabezados<!--and URL tracking parameters--> al crear superficies de correo electrónico.
+Para obtener una mayor flexibilidad y control sobre la configuración del correo electrónico, [!DNL Journey Optimizer] le permite definir valores personalizados para subdominios y encabezados<!--and URL tracking parameters--> al crear superficies de correo electrónico.
 
 >[!AVAILABILITY]
 >
->Actualmente, la personalización de la superficie de correo electrónico solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+>Actualmente, la personalización de la superficie del correo electrónico solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
-## Adición de subdominios dinámicos {#dynamic-subdomains}
+## Añadir subdominios dinámicos {#dynamic-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
 >title="Personalización no disponible"
->abstract="Esta superficie se creó sin atributos de personalización. Consulte la documentación para ver los pasos que debe seguir si es necesaria la personalización."
+>abstract="Esta superficie se ha creado sin ningún atributo de personalización. Consulte la documentación para ver los pasos que debe seguir en caso de que sea necesaria la personalización."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
->title="Habilitar subdominios dinámicos"
->abstract="Al crear una superficie de correo electrónico, puede configurar subdominios dinámicos basados en condiciones que defina con el editor de personalización. Puede añadir hasta 50 subdominios dinámicos."
+>title="Habilitación de subdominios dinámicos"
+>abstract="Al crear una superficie de correo electrónico, puede configurar subdominios dinámicos basados en condiciones que defina con el editor de personalización. Se pueden añadir hasta 50 subdominios dinámicos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
->title="Algunos subdominios pueden no estar disponibles"
+>title="Algunos subdominios podrían no estar disponibles"
 >abstract="Algunos subdominios no están disponibles actualmente para su selección debido a que está pendiente el registro del bucle de comentarios. Este proceso puede tardar hasta 10 días hábiles. Una vez finalizado, puede elegir entre todos los subdominios disponibles."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Introducción a la delegación de subdominios"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Introducción a la delegación de subdominios"
 
 Al crear una superficie de correo electrónico, puede configurar subdominios dinámicos basados en condiciones específicas.
 
@@ -55,15 +55,15 @@ Para definir subdominios dinámicos en una superficie de canal de correo electr�
 
 1. Cree una superficie de canal. [Descubra cómo](../configuration/channel-surfaces.md)
 
-1. Seleccione el **[!UICONTROL Correo electrónico]** canal.
+1. Seleccione el canal **[!UICONTROL Correo electrónico]**.
 
-1. En el **Subdominio** , habilite la sección **[!UICONTROL Subdominio dinámico]** opción.
+1. En la sección **Subdominio**, habilite la opción **[!UICONTROL Subdominio dinámico]**.
 
    ![](assets/surface-email-dynamic-subdomain.png)
 
-1. Seleccione el icono Editar junto al primero **[!UICONTROL Condición]** field.
+1. Seleccione el icono Editar junto al primer campo **[!UICONTROL Condición]**.
 
-1. El [editor de personalización](../personalization/personalization-build-expressions.md) abre. En este ejemplo, defina una condición como `Country` igual a `US`.
+1. Se abre [editor de personalización](../personalization/personalization-build-expressions.md). En este ejemplo, establezca una condición como `Country` igual a `US`.
 
    ![](assets/surface-email-edit-condition.png)
 
@@ -71,7 +71,7 @@ Para definir subdominios dinámicos en una superficie de canal de correo electr�
 
    >[!NOTE]
    >
-   >Algunos subdominios no están disponibles actualmente para su selección debido a que están pendientes [bucle de retroalimentación](../reports/deliverability.md#feedback-loops) registro. Este proceso puede tardar hasta 10 días hábiles. Una vez finalizado, puede elegir entre todos los subdominios disponibles. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >Algunos subdominios no están disponibles actualmente para su selección debido al registro pendiente de [feedback loop](../reports/deliverability.md#feedback-loops). Este proceso puede tardar hasta 10 días hábiles. Una vez finalizado, puede elegir entre todos los subdominios disponibles. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 
@@ -83,31 +83,31 @@ Para definir subdominios dinámicos en una superficie de canal de correo electr�
 
    <!--Select the [IP pool](../configuration/ip-pools.md) to associate with the surface. [Learn more](email-settings.md#subdomains-and-ip-pools)-->
 
-1. Definir todos los demás [configuración de correo electrónico](email-settings.md) y [enviar](../configuration/channel-surfaces.md#create-channel-surface) su superficie.
+1. Defina el resto de la [configuración de correo electrónico](email-settings.md) y [envíe](../configuration/channel-surfaces.md#create-channel-surface) su superficie.
 
 Una vez que haya agregado uno o más subdominios dinámicos a una superficie, se rellenarán los siguientes elementos en función del subdominio dinámico resuelto para esta superficie:
 
 * Todas las direcciones URL (URL de recurso, URL de página espejo y URL de seguimiento)
 
-* El [URL de cancelación de suscripción](email-settings.md#list-unsubscribe)
+* La [URL para cancelar la suscripción](email-settings.md#list-unsubscribe)
 
-* El **Desde correo electrónico** y **Correo electrónico de error** sufijos
+* Los sufijos **De correo electrónico** y **Correo electrónico de error**
 
 >[!NOTE]
 >
->Si configura subdominios dinámicos y, a continuación, deshabilita la variable **[!UICONTROL Subdominio dinámico]** opción, se eliminan todos los valores dinámicos. Seleccione un subdominio y envíe la superficie para que los cambios surtan efecto.
+>Si configura subdominios dinámicos y luego deshabilita la opción **[!UICONTROL Subdominio dinámico]**, se eliminarán todos los valores dinámicos. Seleccione un subdominio y envíe la superficie para que los cambios surtan efecto.
 
 ## Personalice el encabezado {#personalize-header}
 
 También se puede utilizar la personalización para todos los parámetros de cabecera definidos en una superficie.
 
-Por ejemplo, si tiene varias marcas, puede crear una sola superficie y utilizar valores personalizados para los encabezados de correo electrónico. Esto le permite asegurarse de que todos los correos electrónicos enviados desde sus diferentes marcas se dirijan a cada uno de sus clientes con la dirección correcta **Desde** nombres y correos electrónicos. Del mismo modo, cuando los destinatarios pulsen el botón **Responder** en el software de cliente de correo electrónico, desea el **Responder a** los nombres y correos electrónicos corresponden a la marca correcta del usuario correcto.
+Por ejemplo, si tiene varias marcas, puede crear una sola superficie y utilizar valores personalizados para los encabezados de correo electrónico. Esto le permite asegurarse de que todos los correos electrónicos enviados desde sus diferentes marcas se dirijan a cada uno de sus clientes con los nombres y correos electrónicos correctos de **From**. Del mismo modo, cuando los destinatarios presionen el botón **Responder** en el software de cliente de correo electrónico, querrá que los nombres y correos electrónicos de **Responder a** correspondan a la marca correcta para el usuario correcto.
 
 Para utilizar variables personalizadas para los parámetros de encabezado de superficie, siga los pasos a continuación.
 
 >[!NOTE]
 >
->Puede personalizar todas las **[!UICONTROL Parámetros de encabezado]** campos, excepto el **[!UICONTROL Error de prefijo de correo electrónico]** field.
+>Puede personalizar todos los campos **[!UICONTROL Parámetros de encabezado]**, excepto el campo **[!UICONTROL Prefijo de correo electrónico de error]**.
 
 
 1. Defina los parámetros de encabezado como lo haría normalmente. [Descubra cómo](email-settings.md#email-header)
@@ -116,19 +116,19 @@ Para utilizar variables personalizadas para los parámetros de encabezado de sup
 
    ![](assets/surface-email-personalize-header.png)
 
-1. El [editor de personalización](../personalization/personalization-build-expressions.md) abre. Defina la condición como desee y guarde los cambios.
+1. Se abre [editor de personalización](../personalization/personalization-build-expressions.md). Defina la condición como desee y guarde los cambios.
 
    Por ejemplo, configure una condición como que cada destinatario reciba un correo electrónico de su propio representante de marca.
 
    >[!NOTE]
    >
-   >Solo puede seleccionar **[!UICONTROL Atributos de perfil]** y **[!UICONTROL Funciones de ayuda]**.
+   >Solo puede seleccionar **[!UICONTROL atributos de perfil]** y **[!UICONTROL funciones de ayuda]**.
 
 1. Repita los pasos anteriores para cada parámetro al que desee agregar personalización.
 
 >[!NOTE]
 >
->Si ha añadido uno o más subdominios dinámicos a la superficie, la variable **Desde correo electrónico** y **Correo electrónico de error** los sufijos se rellenarán en función del [subdominio dinámico](#dynamic-subdomains).
+>Si agregó uno o más subdominios dinámicos a su superficie, los sufijos **De correo electrónico** y **Error de correo electrónico** se rellenarán en función del [subdominio dinámico](#dynamic-subdomains) resuelto.
 
 <!--
 ## Use personalized URL tracking {#personalize-url-tracking}
@@ -146,20 +146,20 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 Al utilizar una superficie con configuración personalizada en una campaña o superficie, puede mostrar los detalles de la superficie directamente dentro de la campaña o superficie. Siga los pasos a continuación.
 
-1. Creación de un correo electrónico [campaña](../campaigns/create-campaign.md) o [recorrido](../building-journeys/journey-gs.md).
+1. Crear un correo electrónico [campaña](../campaigns/create-campaign.md) o [recorrido](../building-journeys/journey-gs.md).
 
-1. Seleccione el **[!UICONTROL Editar contenido]** botón.
+1. Seleccione el botón **[!UICONTROL Editar contenido]**.
 
-1. Haga clic en **[!UICONTROL Ver detalles de superficie]** botón.
+1. Haga clic en el botón **[!UICONTROL Ver detalles de superficie]**.
 
    ![](assets/campaign-view-surface-details.png)
 
-1. El **[!UICONTROL Configuración de envío]** se muestra la ventana. Se pueden ver todos los ajustes de superficie, incluidos los subdominios dinámicos y los parámetros de cabecera personalizados.
+1. Se muestra la ventana **[!UICONTROL Configuración de envío]**. Se pueden ver todos los ajustes de superficie, incluidos los subdominios dinámicos y los parámetros de cabecera personalizados.
 
    >[!NOTE]
    >
    >Toda la información de esta pantalla es de solo lectura.
 
-1. Seleccionar **[!UICONTROL Expandir]** para mostrar los detalles de los subdominios dinámicos.
+1. Seleccione **[!UICONTROL Expand]** para mostrar los detalles de los subdominios dinámicos.
 
    ![](assets/campaign-delivery-settings-subdomain-expand.png)

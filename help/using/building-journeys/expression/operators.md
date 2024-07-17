@@ -38,9 +38,9 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
 ## Notas importantes{#important-notes}
 
-* Cuando se utiliza una multiplicación (`*`), ambos campos de operación deben tener el mismo tipo, ya sea entero o decimal. Ejemplo :
+* Al utilizar una multiplicación (`*`), ambos campos de operación deben tener el mismo tipo, ya sea entero o decimal. Ejemplo :
    * el siguiente ejemplo es correcto: `3.0 * 4.0`
-   * `3 * 4.0` dará lugar a un error
+   * `3 * 4.0` generará un error
 
 ## Lógico  {#logical}
 
@@ -50,7 +50,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 <expression1> and <expression2>
 ```
 
-Ambos &lt;expression1> y &lt;expression2> debe ser booleano. El resultado es booleano.
+Tanto &lt;expression1> como &lt;expression2> deben ser booleanas. El resultado es booleano.
 
 Por ejemplo:
 
@@ -64,7 +64,7 @@ Por ejemplo:
 <expression1> or <expression2>
 ```
 
-Ambos &lt;expression1> y &lt;expression2> debe ser booleano. El resultado es booleano.
+Tanto &lt;expression1> como &lt;expression2> deben ser booleanas. El resultado es booleano.
 
 Por ejemplo:
 
@@ -368,7 +368,7 @@ Por ejemplo:
 
 Devuelve 1.
 
-## Math {#math}
+## Matemáticas {#math}
 
 ### es numérico
 
@@ -434,7 +434,7 @@ Por ejemplo:
 "the current time is " + (now())
 ```
 
-Devuelve &quot;la hora actual es 2023-09-23T09:30:06,693Z&quot;
+Devuelve &quot;la hora actual es 2023-09-23T09:30:06.693Z&quot;
 
 ```json
 (now()) + " is the current time"
@@ -464,22 +464,22 @@ Por ejemplo:
 (toDateTime("2023-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-Devuelve un _dateTime_ 03T15-12-2023:30:30Z
+Devuelve _dateTime_ 2023-12-03T15:30:30Z
 
 ```json
 (toDateTimeOnly("2023-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
-Devuelve un _dateTimeOnly_ 03T15-12-2023:30:30
+Devuelve _dateTimeOnly_ 2023-12-03T15:30:30
 
 ```json
 (now()) + (toDuration("PT1H"))
 ```
 
-Devuelve un _dateTime_ (con zona horaria UTC) una hora más tarde que la hora actual
+Devuelve _dateTime_ (con zona horaria UTC) una hora más tarde de la hora actual
 
 ```json
 (toDuration("PT1H")) + (toDuration("PT1H"))
 ```
 
-Devuelve un _duration_ PT2H
+Devuelve _duration_ PT2H

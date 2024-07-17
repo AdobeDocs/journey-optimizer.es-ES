@@ -31,7 +31,7 @@ Las funciones de accesibilidad de Adobe Experience Platform se detallan [en esta
 
 Los siguientes métodos abreviados del teclado están disponibles en [!DNL Journey Optimizer]:
 
-| Acción | Acceso directo |
+| Acción | Método abreviado |
 | --- | --- |
 | Desplazamiento entre elementos, secciones y grupos de menús de la interfaz de usuario | Tabulación |
 | Retroceder entre elementos, secciones y grupos de menús de la interfaz de usuario | Mayús + Tab |
@@ -46,7 +46,7 @@ Puede utilizar estos métodos abreviados en áreas específicas de la [!DNL Jour
     <tr>
       <th>Elemento de interfaz</th>
       <th>Acción</th>
-      <th>Acceso directo</th>
+      <th>Método abreviado</th>
     </tr>
   </thead>
   <tr>

@@ -30,7 +30,7 @@ Cadena
 
 | Parámetro | Tipo |
 |-----------|------------------|
-| string | string |
+| cadena | cadena |
 
 ## Firma y tipo devuelto
 

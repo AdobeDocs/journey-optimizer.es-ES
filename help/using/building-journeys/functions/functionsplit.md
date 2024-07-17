@@ -30,8 +30,8 @@ Cadena
 
 | Parámetro | Tipo |
 |-----------|------------------|
-| cadena de entrada | string |
-| cadena de separación | string |
+| cadena de entrada | cadena |
+| cadena de separación | cadena |
 
 ## Firmas y tipo devuelto
 

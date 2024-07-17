@@ -21,10 +21,10 @@ ht-degree: 2%
 En esta página, encontrará la lista de conjuntos de datos de Adobe Journey Optimizer y casos de uso relacionados:
 
 [Conjunto de datos de evento de experiencia de seguimiento de correo electrónico](#email-tracking-experience-event-dataset)
-[Conjunto de datos de evento de comentarios](#message-feedback-event-dataset)
-[Conjunto de datos de evento de experiencia de seguimiento push](#push-tracking-experience-event-dataset)
-[Evento de paso de recorrido](#journey-step-event)
-[Conjunto de datos de evento](#ode-decisionevents)
+[Conjunto de datos de evento de comentarios de mensajes](#message-feedback-event-dataset)
+[Conjunto De Datos De Evento De Experiencia De Seguimiento Push](#push-tracking-experience-event-dataset)
+[Evento de paso de Recorrido](#journey-step-event)
+[Conjunto de datos de evento de toma de decisiones](#ode-decisionevents)
 [Conjunto de datos de evento de comentarios CCO](#bcc-feedback-event-dataset)
 [Conjunto de datos de entidad](#entity-dataset)
 
@@ -32,7 +32,7 @@ Para ver la lista completa de campos y atributos para cada esquema, consulte el 
 
 ## Conjunto de datos de evento de experiencia de seguimiento de correo electrónico{#email-tracking-experience-event-dataset}
 
-_Nombre en la interfaz: Conjunto de datos de evento de experiencia de seguimiento de correo electrónico AJO_
+_Nombre en la interfaz: conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO_
 
 Conjunto de datos del sistema para la ingesta de eventos de experiencia de seguimiento de correo electrónico de Journey Optimizer.
 
@@ -72,11 +72,11 @@ limit 100;
 
 ## Conjunto de datos de evento de comentarios{#message-feedback-event-dataset}
 
-_Nombre en la interfaz: Conjunto de datos de evento de comentarios de mensajes AJO_
+_Nombre en la interfaz: conjunto de datos de evento de comentarios de mensajes de AJO_
 
 Conjunto de datos para la ingesta de eventos de comentarios de aplicaciones push y de correo electrónico desde Journey Optimizer.
 
-El esquema relacionado es Esquema de evento de comentarios de mensajes de AJO.
+El esquema relacionado es AJO Message Feedback Event Schema.
 
 Esta consulta muestra el recuento de diferentes estados de comentarios de correo electrónico (enviados, rechazados, etc.) para un mensaje determinado:
 
@@ -170,7 +170,7 @@ Una vez identificadas, elimine esas direcciones de la lista de supresión de Jou
 
 ## Conjunto de datos de evento de experiencia de seguimiento push {#push-tracking-experience-event-dataset}
 
-_Nombre en la interfaz: Conjunto de datos de evento de experiencia de seguimiento push de AJO_
+_Nombre en la interfaz: conjunto de datos de evento de experiencia de seguimiento push de AJO_
 
 Conjunto de datos para la ingesta de eventos de experiencia de seguimiento móvil para notificaciones push desde Journey Optimizer.
 
@@ -188,7 +188,7 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
 
 ## Evento de paso de recorrido{#journey-step-event}
 
-_Nombre interno: Eventos de paso de Recorrido (conjunto de datos del sistema)_
+_Nombre interno: eventos de paso de Recorrido (conjunto de datos del sistema)_
 
 Conjunto de datos para la ingesta de eventos de paso en el recorrido.
 
@@ -291,7 +291,7 @@ select value.marketing.email.val FROM (
 
 ## Conjunto de datos de evento de comentarios CCO{#bcc-feedback-event-dataset}
 
-_Nombre en la interfaz: Conjunto de datos de evento de comentarios CCO de AJO (conjunto de datos del sistema)_
+_Nombre en la interfaz: conjunto de datos de evento de comentarios BCC de AJO (conjunto de datos del sistema)_
 
 Conjunto de datos para almacenar información para mensajes CCO.
 
@@ -338,7 +338,7 @@ _Nombre en la interfaz: ajo_entity_dataset (conjunto de datos del sistema)_
 
 Conjunto de datos para almacenar metadatos de entidad para mensajes enviados al usuario final.
 
-El esquema relacionado es Esquema de entidad AJO.
+El esquema relacionado es AJO Entity Schema.
 
 Este conjunto de datos le da acceso a metadatos definidos por expertos en marketing, lo que le permite obtener mejores perspectivas de creación de informes cuando los conjuntos de datos de Journey Optimizer se exportan para la visualización de informes en herramientas externas. Esto se logra mediante el atributo messageID, que ayuda a unir varios conjuntos de datos, como conjuntos de datos de comentarios de mensajes y conjuntos de datos de seguimiento de eventos de experiencia, para obtener detalles de una entrega de mensajes desde el envío hasta el seguimiento a nivel de perfil.
 

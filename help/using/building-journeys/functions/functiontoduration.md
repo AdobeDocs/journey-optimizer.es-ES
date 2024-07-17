@@ -30,7 +30,7 @@ Conversión
 
 | Parámetro | Descripción |
 |--- |--- |
-| string | formatos basados en el formato de duración ISO-8601 PnDTnHnMn.nS con días considerados exactamente 24 horas |
+| cadena | formatos basados en el formato de duración ISO-8601 PnDTnHnMn.nS con días considerados exactamente 24 horas |
 | entero | número de milisegundos |
 
 Expresión de cadena If: los formatos aceptados se basan en el formato de duración ISO-8601 PnDTnHnMn.nS con días considerados exactamente 24 horas.

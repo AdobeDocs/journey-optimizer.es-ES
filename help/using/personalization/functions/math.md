@@ -19,7 +19,7 @@ Aprenda a utilizar las funciones matemáticas en el editor de personalización.
 
 ## Absoluto {#absolute}
 
-El `absolute` se utiliza para convertir un número en su valor absoluto.
+La función `absolute` se usa para convertir un número en su valor absoluto.
 
 **Sintaxis**
 
@@ -29,7 +29,7 @@ El `absolute` se utiliza para convertir un número en su valor absoluto.
 
 ## formatNumber {#format-number}
 
-El `formatNumber` se utiliza para dar formato a cualquier número en su representación sensible al idioma.
+La función `formatNumber` se usa para dar formato a cualquier número en su representación con distinción de idioma.
 
 Acepta un número y una cadena que representa la configuración regional y devuelve una cadena con formato del número de la configuración regional deseada.
 
@@ -39,7 +39,7 @@ Acepta un número y una cadena que representa la configuración regional y devue
 {%= formatNumber(number/double,string) %}: string
 ```
 
-Puede utilizar formatos y configuraciones regionales válidas, tal como se resume en [documentación del oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) y [Configuraciones regionales compatibles](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+Puede usar formato y configuraciones regionales válidas, tal como se resume en [Documentación de Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) y [Configuraciones regionales compatibles](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **Ejemplo**
 
@@ -51,7 +51,7 @@ Esta consulta devuelve una cadena con formato en árabe correspondiente a 123456
 
 ## Aleatorio {#random}
 
-El `random` se utiliza para devolver un valor aleatorio entre 0 y 1.
+La función `random` se usa para devolver un valor aleatorio entre 0 y 1.
 
 **Sintaxis**
 
@@ -61,7 +61,7 @@ El `random` se utiliza para devolver un valor aleatorio entre 0 y 1.
 
 ## Redondear a la baja {#round-down}
 
-El `roundDown` se utiliza para redondear hacia abajo un número.
+La función `roundDown` se usa para redondear hacia abajo un número.
 
 **Sintaxis**
 
@@ -71,7 +71,7 @@ El `roundDown` se utiliza para redondear hacia abajo un número.
 
 ## Redondear al alza {#round-up}
 
-El `Count only null` se utiliza para redondear un número.
+La función `Count only null` se usa para redondear un número.
 
 **Sintaxis**
 
@@ -81,7 +81,7 @@ El `Count only null` se utiliza para redondear un número.
 
 ## A la cadena hexadecimal {#to-hex-string}
 
-El `toHexString` convierte cualquier número en su cadena hexadecimal.
+La función `toHexString` convierte cualquier número en su cadena hexadecimal.
 
 **Sintaxis**
 
@@ -99,7 +99,7 @@ Esta consulta devuelve el valor hexadecimal de 158, es decir 9e.
 
 ## A Int {#to-int}
 
-El `toInt` se utiliza para convertir cualquiera de estos tipos (número, doble, int, largo, flotante, corto, byte, booleano, cadena) en un entero.
+La función `toInt` se usa para convertir cualquiera de estos tipos (número, doble, int, largo, flotante, corto, byte, booleano, cadena) en un entero.
 
 **Sintaxis**
 
@@ -117,7 +117,7 @@ Esta consulta devuelve el valor entero de 42,6, es decir, 42.
 
 ## A Porcentaje {#to-percentage}
 
-El `toPercentage` se utiliza para convertir un número en porcentaje.
+La función `toPercentage` se usa para convertir un número en porcentaje.
 
 **Sintaxis**
 
@@ -127,7 +127,7 @@ El `toPercentage` se utiliza para convertir un número en porcentaje.
 
 ## A Precisión {#to-precision}
 
-El `toPrecision` se utiliza para convertir un número en una precisión requerida.
+La función `toPrecision` se usa para convertir un número en una precisión requerida.
 
 **Sintaxis**
 
@@ -137,7 +137,7 @@ El `toPrecision` se utiliza para convertir un número en una precisión requerid
 
 ## Para crear una cadena {#to-string}
 
-El **toString** convierte cualquier número en su representación de cadena.
+La función **toString** convierte cualquier número en su representación de cadena.
 
 **Sintaxis**
 

@@ -9,19 +9,19 @@ exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
 # Actualizar una regla de decisión {#update-decision-rule}
 
-Puede modificar o actualizar las reglas de decisión realizando una solicitud de PATCH a [!DNL Offer Library] API.
+Puede modificar o actualizar las reglas de decisión realizando una solicitud de PATCH a la API [!DNL Offer Library].
 
-Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte el [Documentación de parches de JSON](https://jsonpatch.com/).
+Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte la [documentación oficial del parche JSON](https://jsonpatch.com/).
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* en el encabezado de la solicitud:
+La siguiente tabla muestra los valores válidos que comprenden el campo *Content-Type* del encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |

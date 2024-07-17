@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Buscar ofertas de reserva {#look-up-fallback-offers}
 
-Puede buscar ofertas de reserva específicas realizando una solicitud de GET a [!DNL Offer Library] API que incluye la oferta de reserva `@id` o el nombre de la oferta de reserva en la ruta de solicitud.
+Puede buscar ofertas de reserva específicas realizando una solicitud de GET a la API [!DNL Offer Library] que incluya la oferta de reserva `@id` o el nombre de la oferta de reserva en la ruta de solicitud.
 
 **Formato de API**
 
@@ -28,7 +28,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Contenedor donde se encuentran las ofertas de reserva. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FALLBACK_OFFER}` | Define el esquema asociado a las ofertas de reserva. | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
-| `id` | Una cadena utilizada para hacer coincidir el `@id` propiedad de las entidades. La cadena coincide exactamente. Los parámetros `id` y `name` no se pueden usar juntos. | `xcore:fallback-offer:122206064e0d98df` |
+| `id` | Cadena utilizada para coincidir con la propiedad `@id` de las entidades. La cadena coincide exactamente. Los parámetros `id` y `name` no se pueden usar juntos. | `xcore:fallback-offer:122206064e0d98df` |
 | `name` | Cadena utilizada para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se pueden usar juntos | `F1: Web fallback` |
 
 **Solicitud**
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles de la ubicación, incluida la información acerca del ID de contenedor, el ID de instancia y la oferta de reserva única `@id`.
+Una respuesta correcta devuelve los detalles de la ubicación, incluida la información sobre el ID de contenedor, el ID de instancia y la oferta de reserva única `@id`.
 
 ```json
 {

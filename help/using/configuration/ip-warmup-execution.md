@@ -28,11 +28,11 @@ Lo que encontrará en esta guía de documentación:
 * [Introducción a los planes de calentamiento de IP](ip-warmup-gs.md)
 * [Creación de campañas de calentamiento de IP](ip-warmup-campaign.md)
 * [Creación de un plan de calentamiento de IP](ip-warmup-plan.md)
-* **[Ejecución del plan de calentamiento de IP](ip-warmup-execution.md)**
+* **[Ejecutar el plan de calentamiento de IP](ip-warmup-execution.md)**
 
 >[!ENDSHADEBOX]
 
-Una vez que haya [creó un plan de calentamiento de IP](ip-warmup-plan.md) y cargó el archivo preparado con el consultor de capacidad de entrega, puede definir las fases y ejecuciones en el plan.
+Una vez que haya [creado un plan de calentamiento de IP](ip-warmup-plan.md) y subido el archivo preparado con su consultor de capacidad de entrega, puede definir las fases y ejecuciones de su plan.
 
 Cada fase está compuesta por varias ejecuciones, a las que se asigna una sola campaña.
 
@@ -70,7 +70,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!IMPORTANT]
    >
-   >* Solo las campañas con el **[!UICONTROL Activación del plan de calentamiento IP]** Las opciones activadas están disponibles para seleccionarlas. [Más información](#create-ip-warmup-campaign)
+   >* Solo se pueden seleccionar las campañas que tienen habilitada la opción **[!UICONTROL activación del plan de calentamiento de IP]**. [Más información](#create-ip-warmup-campaign)
    >
    >* Solo se pueden seleccionar las campañas que utilicen la misma superficie que el plan de calentamiento de IP seleccionado.
 
@@ -78,13 +78,13 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >Una vez activada una ejecución, las exclusiones ya no se pueden modificar a menos que [dividir la ejecución](#split-phase) a una nueva fase.
+   >Una vez que se activa una ejecución, las exclusiones ya no se pueden modificar a menos que [divida la ejecución](#split-phase) en una nueva fase.
 
-   1. Desde el **[!UICONTROL Grupos de dominio excluidos]** , seleccione los dominios que desea excluir de esa fase.
+   1. En la sección **[!UICONTROL Grupos de dominio excluidos]**, seleccione los dominios que desee excluir de esa fase.
 
       >[!NOTE]
       >
-      >La exclusión de dominios requiere una fase sin ejecutar, por lo que es posible que necesite [dividir una fase en ejecución](#split-phase) para añadir exclusiones.
+      >La exclusión de dominios requiere una fase sin ejecutar, por lo que es posible que necesite [dividir una fase en ejecución](#split-phase) para agregar exclusiones.
 
       ![](assets/ip-warmup-plan-exclude-domains.png)
 
@@ -92,48 +92,48 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!NOTE]
       >
-      >Solo puede excluir un grupo de dominio personalizado que se haya agregado a [Plantilla de plan de calentamiento de IP](ip-warmup-plan.md#prepare-file). Si no es así, actualice la plantilla con el grupo de dominios personalizados que desee excluir y [volver a cargar el plan](#re-upload-plan).
+      >Solo puede excluir un grupo de dominio personalizado que se haya agregado a la [plantilla de plan de calentamiento de IP](ip-warmup-plan.md#prepare-file). Si no es así, actualice la plantilla con el grupo de dominios personalizado que desee excluir y [vuelva a cargar el plan](#re-upload-plan).
 
-   1. Desde el **[!UICONTROL Campaña para la exclusión de perfiles]** , seleccione las campañas cuyas audiencias desee excluir de la fase actual.
+   1. En la sección **[!UICONTROL Campaña para la exclusión de perfiles]**, seleccione las campañas cuyas audiencias desee excluir de la fase actual.
 
       ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
-      Por ejemplo, al ejecutar la fase 1, tenía que [dividirlo](#split-phase) por cualquier razón. Por lo tanto, puede excluir la campaña utilizada en la fase 1 para que los perfiles contactados anteriormente desde la fase 1 no se incluyan en la fase 2. También puede excluir campañas de otros planes de calentamiento de IP.
+      Por ejemplo, mientras ejecutaba la fase 1, tenía que [dividirla](#split-phase) por cualquier motivo. Por lo tanto, puede excluir la campaña utilizada en la fase 1 para que los perfiles contactados anteriormente desde la fase 1 no se incluyan en la fase 2. También puede excluir campañas de otros planes de calentamiento de IP.
 
-   1. Desde el **[!UICONTROL Recorridos para la exclusión de perfiles]** , seleccione los recorridos con las audiencias que desee excluir de la fase actual.
+   1. En la sección **[!UICONTROL Recorridos para la exclusión de perfiles]**, seleccione los recorridos con las audiencias que desee excluir de la fase actual.
 
 +++ Para utilizar la opción Recorridos para la exclusión de perfiles, debe establecer una relación entre los esquemas Evento de comentarios de mensajes de AJO y Registro de entidad de AJO.
 
-      1. Crear un personalizado **Área de nombres** que servirá como tipo de identidad para los pasos siguientes.
+      1. Cree un **espacio de nombres** personalizado que servirá como tipo de identidad para los pasos siguientes.
 
-      1. Acceda a Adobe Experience Platform desde el **Esquemas** , seleccione la opción **Esquema de registro de entidad AJO** y configure el **_id** como identidad principal y seleccione el área de nombres creado anteriormente como **Área de nombres de identidad**.
+      1. Acceda a Adobe Experience Platform, en el menú **Esquemas**, seleccione el **Esquema de registro de entidad de AJO**, establezca el campo **_id** como identidad principal y seleccione el área de nombres creada anteriormente como **Área de nombres de identidad**.
 
-      1. Desde el **Esquemas** , seleccione la opción **Esquema de evento de comentarios de mensajes AJO** y vaya a la **_messageID** field. Seleccionar **Agregar relación** y elija **Esquema de registro de entidad AJO** como el **Esquema de referencia** y su área de nombres creada anteriormente como **Área de nombres de identidad**.
+      1. En el menú **Esquemas**, seleccione el **Esquema de evento de comentarios de mensajes de AJO** y vaya al campo **_messageID**. Seleccione **Agregar relación** y elija **Esquema de registro de entidad de AJO** como **esquema de referencia** y el área de nombres creada anteriormente como **área de nombres de identidad de referencia**.
 +++
 
-   1. En el **[!UICONTROL Perfiles segmentados en ejecuciones anteriores]** , puede ver que los perfiles de las ejecuciones anteriores de esa fase siempre se excluyen. Por ejemplo, si en #1 de ejecución se cubrió un perfil en las primeras 4800 personas objetivo, el sistema se asegurará automáticamente de que el mismo perfil no reciba el correo electrónico en #2 de ejecución.
+   1. En la sección **[!UICONTROL Perfiles segmentados en ejecuciones anteriores]**, puede ver que los perfiles de las ejecuciones anteriores de esa fase siempre se excluyen. Por ejemplo, si en #1 de ejecución se cubrió un perfil en las primeras 4800 personas objetivo, el sistema se asegurará automáticamente de que el mismo perfil no reciba el correo electrónico en #2 de ejecución.
 
       >[!NOTE]
       >
       >Esta sección no se puede editar.
 
-1. Si es necesario, puede reemplazar la campaña utilizando **[!UICONTROL Reemplazar]** botón. También puede **[!UICONTROL Borrar]** la campaña seleccionada utilizando el **[!UICONTROL Borrar]** botón. Esta acción no solo borrará la campaña, sino también otras propiedades de nivel de fase, como la Exclusión de grupos de dominios, la Campaña, la Exclusión de Recorridos, etc. Después de borrar, puede elegir una nueva campaña inmediatamente o más tarde.
+1. Si es necesario, puede reemplazar la campaña usando el botón **[!UICONTROL Reemplazar]**. También puede **[!UICONTROL Borrar]** la campaña seleccionada con el botón **[!UICONTROL Borrar]**. Esta acción no solo borrará la campaña, sino también otras propiedades de nivel de fase, como la Exclusión de grupos de dominios, la Campaña, la Exclusión de Recorridos, etc. Después de borrar, puede elegir una nueva campaña inmediatamente o más tarde.
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
    >[!NOTE]
    >
-   >Esta acción solo es posible antes de activar la primera ejecución de la fase. Una vez activada una ejecución, la campaña no se puede reemplazar, a menos que [dividir la ejecución](#split-phase) a una nueva fase.
+   >Esta acción solo es posible antes de activar la primera ejecución de la fase. Una vez activada una ejecución, la campaña no se puede reemplazar, a menos que [divida la ejecución](#split-phase) en una nueva fase.
 
 1. Puede agregar una fase si es necesario. Se añadirá después de la última fase.
 
    ![](assets/ip-warmup-plan-add-phase.png)
 
-1. Utilice el **[!UICONTROL Eliminar fase]** para eliminar cualquier fase no deseada. Esta acción solo está disponible si no se ejecuta en una fase. <!--Once a run is executed, deletion is not allowed.-->
+1. Utilice el botón **[!UICONTROL Eliminar fase]** para eliminar cualquier fase no deseada. Esta acción solo está disponible si no se ejecuta en una fase. <!--Once a run is executed, deletion is not allowed.-->
 
    >[!CAUTION]
    >
-   >No se puede deshacer la acción **[!UICONTROL Eliminar fase]** acción.
+   >No puede deshacer la acción **[!UICONTROL Eliminar fase]**.
 
    ![](assets/ip-warmup-plan-delete-phase.png)
 
@@ -172,7 +172,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. De forma opcional, puede definir un período de tiempo durante el cual se puede ejecutar la campaña de calentamiento de IP en caso de que haya algún retraso en la [evaluación de audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}. Para ello, haga clic en el icono Properties en la parte superior izquierda, junto al nombre del plan y utilice la variable **[!UICONTROL Reintentar tiempo de ejecución]** para seleccionar una duración: hasta 240 minutos (4 horas).
+1. Opcionalmente, puede definir un período de tiempo durante el cual se puede ejecutar la campaña de calentamiento de IP en caso de que haya algún retraso en la [evaluación de audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}. Para ello, haga clic en el icono Propiedades en la parte superior izquierda, junto al nombre del plan, y utilice la lista desplegable **[!UICONTROL Reintentar tiempo de ejecución]** para seleccionar una duración: hasta 240 minutos (4 horas).
 
    >[!NOTE]
    >
@@ -186,7 +186,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Si no se especifica ningún periodo de tiempo, la ejecución se intenta en el momento del envío y falla si la evaluación de la audiencia no se completa.
 
-1. Si es necesario, seleccione **[!UICONTROL Editar ejecución]** en el icono Más acciones. Se pueden actualizar los números de direcciones de cada columna. También puede actualizar el **[!UICONTROL Último compromiso]** para dirigirse únicamente a los usuarios comprometidos con su marca durante los últimos 20 días, por ejemplo.
+1. Si es necesario, seleccione **[!UICONTROL Editar ejecución]** del icono Más acciones. Se pueden actualizar los números de direcciones de cada columna. También puede actualizar el campo **[!UICONTROL Último compromiso]** para que se dirija únicamente a los usuarios relacionados con su marca en los últimos 20 días, por ejemplo.
 
    >[!NOTE]
    >
@@ -196,15 +196,15 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >Si no desea aplicar ningún periodo de participación a una ejecución, introduzca 0 en la **[!UICONTROL Último compromiso]** field.
+   >Si no desea aplicar ningún período de participación a una ejecución, escriba 0 en el campo **[!UICONTROL Último compromiso]**.
 
-1. Seleccione el **[!UICONTROL Cancelar las ejecuciones activadas en caso de errores]** para cancelar una ejecución si los perfiles cualificados son inferiores a los perfiles de destino una vez que la audiencia ha sido evaluada para esa ejecución. En ese caso, la ejecución toma la **[!UICONTROL Error]** estado.
+1. Seleccione la opción **[!UICONTROL Cancelar ejecuciones activadas en caso de errores]** para cancelar una ejecución si los perfiles calificados son inferiores a los perfiles de destino una vez que la audiencia se haya evaluado para esa ejecución. En ese caso, la ejecución toma el estado **[!UICONTROL Failed]**.
 
    ![](assets/ip-warmup-plan-pause.png)
 
-1. **[!UICONTROL Activar]** la corrida. [Más información](#activate-run)
+1. **[!UICONTROL Activar]** la ejecución. [Más información](#activate-run)
 
-1. El estado de esta ejecución cambia a **[!UICONTROL Activo]**, lo que significa que el sistema ha aceptado la solicitud para programar la ejecución.
+1. El estado de esta ejecución cambia a **[!UICONTROL Live]**, lo que significa que el sistema ha aceptado la solicitud para programar la ejecución.
 
    >[!NOTE]
    >
@@ -214,17 +214,17 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-stop-run.png)
 
-1. Para duplicar cualquier borrador, ejecución activa o completada, seleccione **[!UICONTROL Duplicar ejecución]**. Tras la duplicación, aparece el menú Editar ejecución, que permite a los usuarios ajustar la variable **[!UICONTROL Total de perfiles de destinatario]** y el **[!UICONTROL Hora de envío]** según sea necesario.
+1. Para duplicar cualquier borrador, ejecución activa o completada, seleccione **[!UICONTROL Duplicar ejecución]**. Tras la duplicación, aparece el menú Editar ejecución, que permite a los usuarios ajustar los **[!UICONTROL Perfiles de destino totales]** y el **[!UICONTROL Tiempo de envío]** según sea necesario.
 
    ![](assets/ip-warmup-duplicate.png)
 
 ## Activar ejecuciones {#activate-run}
 
-Para activar una ejecución, seleccione la **[!UICONTROL Activar]** botón. A continuación, puede activar las siguientes ejecuciones diariamente.
+Para activar una ejecución, selecciona el botón **[!UICONTROL Activar]**. A continuación, puede activar las siguientes ejecuciones diariamente.
 
 Al ejecutar varios planes de calentamiento de IP de forma simultánea, todos dirigidos al mismo grupo de IP y dominios, es crucial anticipar las posibles consecuencias. Por ejemplo, si un ISP aplica un límite diario de 100 correos electrónicos, la ejecución de varios planes dirigidos a los mismos dominios puede superar este umbral.
 
-Asegúrese de que ha programado tiempo suficiente para permitir el [evaluación de audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} para ejecutar.
+Asegúrese de haber programado tiempo suficiente para permitir que se ejecute la [evaluación de audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}.
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -236,7 +236,7 @@ Al activar una ejecución, se crean varias audiencias automáticamente.
 
 * Si activa la primera ejecución de una fase:
 
-   * Un [audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=es){target="_blank"} se crea para las audiencias de campaña excluidas (si las hay), con la siguiente convención de nombres: `<warmupName>-Phase<phaseNo>-Audience Exclusion `.
+   * Se crea una [audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=es){target="_blank"} para las audiencias de campaña excluidas (si las hay), con la siguiente convención de nombres: `<warmupName>-Phase<phaseNo>-Audience Exclusion `.
 
    * Se crea una audiencia para los grupos de dominios excluidos (si los hay), con la siguiente convención de nombres: `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
 
@@ -258,7 +258,7 @@ Al activar una ejecución, se crean varias audiencias automáticamente.
      >
      >El sistema no crea una audiencia nueva en caso de que no haya cambios en el último filtro de participación para las fases siguientes.
 
-   * Un [composición de audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=es){target="_blank"} se crea de forma correspondiente a la audiencia a la que se envía la campaña, con la siguiente convención de nombres: `<warmupName>-Phase<phaseNo>-Run<runNo>`.
+   * Se crea una [composición de audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=es){target="_blank"} correspondiente a la audiencia a la que se enviará la campaña, con la siguiente convención de nombres: `<warmupName>-Phase<phaseNo>-Run<runNo>`.
 
      >[!NOTE]
      >
@@ -280,7 +280,7 @@ Para ejecutar correctamente su plan de calentamiento de IP, debe monitorizar los
 
 ### Utilice la sección Aspectos destacados {#highlights}
 
-Una vez activada la primera ejecución para una fase, la variable **[!UICONTROL Características destacadas]** se muestra la sección.
+Una vez activada la primera ejecución para una fase, se muestra la sección **[!UICONTROL Características destacadas]**.
 
 Proporciona una visión general rápida de la ejecución actual y de la próxima ejecución. Desde esta sección también puede editar y activar la siguiente ejecución.
 
@@ -288,7 +288,7 @@ Proporciona una visión general rápida de la ejecución actual y de la próxima
 
 ### Comprobación de los estados de ejecución {#run-statuses}
 
-El propio plan de calentamiento de la IP sirve como informe consolidado en un solo lugar. Puede comprobar elementos como el número de **[!UICONTROL Activo]** o **[!UICONTROL Completado]** se ejecuta para cada fase y visualiza el progreso de su plan de calentamiento de IP.
+El propio plan de calentamiento de la IP sirve como informe consolidado en un solo lugar. Puede comprobar elementos como el número de ejecuciones de **[!UICONTROL Live]** o **[!UICONTROL Completed]** para cada fase y ver cómo progresa su plan de calentamiento de IP.
 
 >[!NOTE]
 >
@@ -296,19 +296,19 @@ El propio plan de calentamiento de la IP sirve como informe consolidado en un so
 
 Una ejecución puede tener los siguientes estados:
 
-* **[!UICONTROL Borrador]** : cada vez que se crea una ejecución, ya sea cuando [creación de un nuevo plan](ip-warmup-plan.md) o [adición de una ejecución](#define-runs) desde la interfaz de usuario, toma el **[!UICONTROL Borrador]** estado.
-* **[!UICONTROL Activo]**: cada vez que se activa una ejecución, se necesita el **[!UICONTROL Activo]** estado. Significa que el sistema ha aceptado la solicitud para programar la ejecución, no que se haya iniciado el envío. En esta fase puede observar el estado de la ejecución activa haciendo clic en el icono **[!UICONTROL Ver estado]** dentro de la tabla. Esto le permite hacer un seguimiento de cuántos perfiles de destino cumplen los requisitos.
-* **[!UICONTROL Completado]**: la ejecución de la campaña para esta ejecución ha finalizado. Para acceder a un informe de ejecución detallado, haga clic en **[!UICONTROL Ver informe]** en la tabla. Esta opción permite rastrear el estado de envío de correo electrónico de la ejecución, incluidos los desgloses específicos de los grupos de dominios para una monitorización mejorada. Tenga en cuenta que la campaña asociada a él se establecerá como Detenida.[Más información](#reports)
-* **[!UICONTROL Cancelado]**: a **[!UICONTROL Activo]** la ejecución se ha cancelado utilizando **[!UICONTROL Cancelar]** botón.[Más información](#define-runs)
-* **[!UICONTROL Error]**: el sistema ha encontrado un error o la campaña utilizada para la fase actual se ha detenido, o ha habilitado el **[!UICONTROL Cancelar las ejecuciones activadas en caso de errores]** y se produjo un error. Si una ejecución falla, puede programar otra ejecución para el día siguiente.
+* **[!UICONTROL Borrador]** : cada vez que se crea una ejecución, ya sea al [crear un nuevo plan](ip-warmup-plan.md) o al [agregar una ejecución](#define-runs) desde la interfaz de usuario, toma el estado **[!UICONTROL Borrador]**.
+* **[!UICONTROL Activo]**: cada vez que se activa una ejecución, se obtiene el estado **[!UICONTROL Activo]**. Significa que el sistema ha aceptado la solicitud para programar la ejecución, no que se haya iniciado el envío. En esta etapa puede observar el estado de la ejecución activa al hacer clic en el botón **[!UICONTROL Ver estado]** dentro de la tabla. Esto le permite hacer un seguimiento de cuántos perfiles de destino cumplen los requisitos.
+* **[!UICONTROL Completada]**: la ejecución de la campaña de esta ejecución ha finalizado. Puede acceder a un informe de ejecución detallado si hace clic en el botón **[!UICONTROL Ver informe]** de la tabla. Esta opción permite rastrear el estado de envío de correo electrónico de la ejecución, incluidos los desgloses específicos de los grupos de dominios para una monitorización mejorada. Tenga en cuenta que la campaña asociada a él se establecerá como Detenida.[Más información](#reports)
+* **[!UICONTROL Cancelada]**: se canceló una ejecución de **[!UICONTROL Live]** con el botón **[!UICONTROL Cancelar]**.[Más información](#define-runs)
+* **[!UICONTROL Error]**: el sistema encontró un error o se detuvo la campaña utilizada para la fase actual, o habilitó la opción **[!UICONTROL Cancelar ejecuciones activadas en caso de errores]** y se produjo un error. Si una ejecución falla, puede programar otra ejecución para el día siguiente.
 
 ### Uso de informes {#reports}
 
-De forma más general, para medir el impacto de su plan, puede comprobar el rendimiento de sus campañas de calentamiento de IP mediante [!DNL Journey Optimizer] informes de campaña. Para ello, para cada ejecución completada, puede hacer clic en el icono **[!UICONTROL Ver informes]** botón. Obtenga más información sobre el correo electrónico de la campaña [informe en vivo](../reports/campaign-live-report.md#email-live) y [informe global](../reports/campaign-global-report.md#email-global).
+De forma más general, para medir el impacto de su plan, puede comprobar el rendimiento de sus campañas de calentamiento de IP mediante los informes de campaña [!DNL Journey Optimizer]. Para ello, en cada ejecución completada, puede hacer clic en el botón **[!UICONTROL Ver informes]**. Obtenga más información sobre el correo electrónico de campaña [informe en vivo](../reports/campaign-live-report.md#email-live) y [informe global](../reports/campaign-global-report.md#email-global).
 
 ![](assets/ip-warmup-plan-reports.png)
 
-También puede acceder a los informes desde el [Menú Campañas](../campaigns/modify-stop-campaign.md#access) ya que su plan puede utilizar diferentes campañas.
+También puedes acceder a los informes desde el [menú Campañas](../campaigns/modify-stop-campaign.md#access), ya que tu plan podría usar diferentes campañas.
 
 
 ## Administrar su plan {#manage-plan}
@@ -317,7 +317,7 @@ En cualquier momento, si el plan de calentamiento de la IP no funciona como se e
 
 ### Dividir una fase {#split-phase}
 
-Si desea añadir una nueva fase empezando desde una ejecución específica, seleccione la **[!UICONTROL La división se ejecuta en una nueva fase]** del icono Más acciones.
+Si desea agregar una nueva fase que comience desde una ejecución específica, seleccione la opción **[!UICONTROL Dividir ejecuciones a una nueva fase]** del icono Más acciones.
 
 ![](assets/ip-warmup-plan-run-split-run.png)
 
@@ -325,11 +325,11 @@ Se crea una nueva fase para las ejecuciones restantes de la fase actual.
 
 Por ejemplo, si selecciona esta opción para Ejecutar #4, las ejecuciones #4 a #8 se moverán a una nueva fase justo después de la fase actual.
 
-Siga los pasos [superior](#define-phases) para definir la nueva fase.
+Siga los pasos [anteriores](#define-phases) para definir la nueva fase.
 
-* Puede usar el complemento **[!UICONTROL Reemplazar]** o **[!UICONTROL Borrar]** opciones para esa nueva fase.
+* Puede usar las opciones **[!UICONTROL Reemplazar]** o **[!UICONTROL Borrar]** para esa nueva fase.
 
-* También puede excluir la campaña anterior o un dominio que no tenga un buen rendimiento. Descubra cómo en [esta sección](#define-phases).
+* También puede excluir la campaña anterior o un dominio que no tenga un buen rendimiento. Aprenda en [esta sección](#define-phases).
 
 <!--
 You don't have to decide the campaign upfront. You can do a split later. It's a work in progress plan: you activate one run at a time with a campaign and you always have the flexibility to modify it while working on it.
@@ -345,17 +345,17 @@ Si el plan de calentamiento de la IP no funciona como se espera (por ejemplo, si
 
 Todas las ejecuciones ejecutadas anteriormente serán de solo lectura. El nuevo plan se muestra en el primer plan.
 
-Siga los pasos [superior](#define-phases) para definir las fases del nuevo plan.
+Siga los pasos [anteriores](#define-phases) para definir las fases del nuevo plan.
 
 >[!NOTE]
 >
->Los detalles del plan de calentamiento de IP cambiarán según el archivo recién cargado. Las ejecuciones ejecutadas anteriormente (independientemente de su [status](#monitor-plan)) no se ven afectados.
+>Los detalles del plan de calentamiento de IP cambiarán según el archivo recién cargado. Las ejecuciones ejecutadas anteriormente (independientemente de su [estado](#monitor-plan)) no se ven afectadas.
 
 Veamos un ejemplo...
 
 * Con el plan inicial de calentamiento de IP, la Fase 2 tuvo 9 ejecuciones.
 
-* Se ejecutaron 4 ejecuciones (sin importar si fallaron, se completaron o se cancelaron)<!--as long as a run has been attempted, it is an executed run-->).
+* Se ejecutaron 4 ejecuciones (no importa si fallaron, se completaron o se cancelaron <!--as long as a run has been attempted, it is an executed run-->).
 
 * Si vuelve a cargar un plan nuevo, la fase 2 con las primeras 4 ejecuciones ejecutadas pasará al modo de solo lectura.
 
@@ -365,11 +365,11 @@ Veamos un ejemplo...
 
 Si sus IP se calentaron con el volumen deseado, o si su plan no está funcionando lo suficientemente bien o si desea soltarlo para crear otro, puede marcarlo como completado.
 
-Para ello, haga clic en el **[!UICONTROL Más]** en la parte superior derecha del plan de calentamiento de IP y seleccione **[!UICONTROL Marcar como completado]**.
+Para ello, haga clic en el botón **[!UICONTROL Más]** en la parte superior derecha del plan de calentamiento de IP y seleccione **[!UICONTROL Marcar como completado]**.
 
 ![](assets/ip-warmup-plan-mark-completed.png)
 
-Esta opción sólo está disponible si todas las ejecuciones del plan se encuentran en **[!UICONTROL Completado]** o **[!UICONTROL Borrador]** estado. Si una ejecución es **[!UICONTROL Activo]**, la opción aparece atenuada.
+Esta opción solo está disponible si todas las ejecuciones del plan están en estado **[!UICONTROL Completado]** o **[!UICONTROL Borrador]**. Si una ejecución es **[!UICONTROL Live]**, la opción aparecerá atenuada.
 
 Los diferentes estados de ejecución se enumeran en [esta sección](#monitor-plan).
 

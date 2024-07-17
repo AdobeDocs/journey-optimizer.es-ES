@@ -17,7 +17,7 @@ ht-degree: 3%
 
 Las colecciones son subconjuntos de ofertas basados en condiciones predefinidas definidas definidas por un experto en marketing, como la categoría de la oferta.
 
-Puede buscar colecciones específicas realizando una solicitud de GET a la variable [!DNL Offer Library] API que incluye la colección `@id` o el nombre de la colección en la ruta de solicitud.
+Puede buscar colecciones específicas realizando una solicitud de GET a la API [!DNL Offer Library] que incluya la colección `@id` o el nombre de la colección en la ruta de solicitud.
 
 **Formato de API**
 
@@ -30,7 +30,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | El contenedor donde se encuentran las colecciones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FILTER}` | Define el esquema asociado a las colecciones. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | Una cadena utilizada para hacer coincidir el `@id` propiedad de las entidades. La cadena coincide exactamente. Los parámetros `id` y `name` no se pueden usar juntos. | `xcore:offer-filter:124bd44648f17ec1` |
+| `id` | Cadena utilizada para coincidir con la propiedad `@id` de las entidades. La cadena coincide exactamente. Los parámetros `id` y `name` no se pueden usar juntos. | `xcore:offer-filter:124bd44648f17ec1` |
 | `name` | Cadena utilizada para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se pueden usar juntos | `Mobile demo` |
 
 **Solicitud**
@@ -47,7 +47,7 @@ curl -X GET \
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles de la ubicación, incluida la información acerca del ID de contenedor, el ID de instancia y la colección única `@id`.
+Una respuesta correcta devuelve los detalles de la ubicación, incluida la información sobre el ID de contenedor, el ID de instancia y la colección única `@id`.
 
 ```json
 {

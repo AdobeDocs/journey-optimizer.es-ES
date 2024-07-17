@@ -38,15 +38,15 @@ El mensaje transaccional del Campaign Standard y su evento asociado deben public
 
 Estos son los pasos para configurarlo:
 
-1. Seleccionar **[!UICONTROL Configuraciones]** en la sección del menú ADMINISTRACIÓN. En el  **[!UICONTROL Acciones]** , haga clic en **[!UICONTROL Administrar]**. Se muestra la lista de acciones.
+1. Seleccione **[!UICONTROL Configuraciones]** en la sección del menú ADMINISTRACIÓN. En la sección **[!UICONTROL Acciones]**, haga clic en **[!UICONTROL Administrar]**. Se muestra la lista de acciones.
 
-1. Seleccione el integrado **[!UICONTROL Adobe Campaign Standard]** acción. El panel de configuración de acción se abre en el lado derecho de la pantalla.
+1. Seleccione la acción integrada **[!UICONTROL AdobeCampaignStandard]**. El panel de configuración de acción se abre en el lado derecho de la pantalla.
 
    ![](assets/actioncampaign.png)
 
-1. Copie la URL de instancia de Adobe Campaign Standard y péguela en **[!UICONTROL URL]** field.
+1. Copie la URL de instancia de Adobe Campaign Standard y péguela en el campo **[!UICONTROL URL]**.
 
-1. Haga clic en **[!UICONTROL Prueba de la URL de instancia]** para probar la validez de la instancia.
+1. Haga clic en **[!UICONTROL Probar la URL de instancia]** para probar la validez de la instancia.
 
    >[!NOTE]
    >
@@ -58,10 +58,10 @@ Estos son los pasos para configurarlo:
    >
    >La ORG asociada a la instancia de este Adobe Campaign Standard es la misma que la ORG de Journey Optimizer.
 
-Al diseñar el recorrido, habrá tres acciones disponibles en el **[!UICONTROL Acción]** categoría: **[!UICONTROL Correo electrónico]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Uso de acciones de Adobe Campaign](../building-journeys/using-adobe-campaign-standard.md)).
+Al diseñar el recorrido, habrá tres acciones disponibles en la categoría **[!UICONTROL Acción]**: **[!UICONTROL Correo electrónico]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Uso de acciones de Adobe Campaign](../building-journeys/using-adobe-campaign-standard.md)).
 
 ![](assets/journey58.png)
 
-Puede usar un **Reacciones** evento para reaccionar a los datos de seguimiento relacionados con un mensaje del Campaign Standard enviado dentro del mismo recorrido. Para las notificaciones push, puede reaccionar a los mensajes en los que se ha hecho clic, enviados o fallidos. En el caso de los mensajes SMS, puede reaccionar a los mensajes enviados o fallidos. En el caso de los correos electrónicos, puede reaccionar a los mensajes en los que se ha hecho clic, enviados, abiertos o fallidos. Consulte [Eventos de reacciones](../building-journeys/reaction-events.md).
+Puede usar un evento **Reactions** para reaccionar a los datos de seguimiento relacionados con un mensaje del Campaign Standard enviado dentro del mismo recorrido. Para las notificaciones push, puede reaccionar a los mensajes en los que se ha hecho clic, enviados o fallidos. En el caso de los mensajes SMS, puede reaccionar a los mensajes enviados o fallidos. En el caso de los correos electrónicos, puede reaccionar a los mensajes en los que se ha hecho clic, enviados, abiertos o fallidos. Ver [eventos de reacción](../building-journeys/reaction-events.md).
 
 Si utiliza un sistema de terceros para enviar mensajes, debe agregar y configurar una acción personalizada. Consulte [Acerca de la configuración de acciones personalizadas](../action/about-custom-action-configuration.md).

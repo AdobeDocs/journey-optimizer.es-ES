@@ -32,7 +32,7 @@ Fecha
 |--- |--- |
 | fecha y hora | dateTime |
 | fecha y hora sin considerar la zona horaria | dateTimeOnly |
-| days | entero |
+| días | entero |
 
 ## Firmas y tipo devuelto
 

@@ -22,19 +22,19 @@ ht-degree: 23%
 
 La asociación de calificadores de colección (anteriormente conocidos como &quot;etiquetas&quot;) a sus ofertas facilita su organización. Por ejemplo, puede etiquetar las ofertas de Black Friday con el calificador de colección Black Friday. A continuación, puede utilizar la funcionalidad de búsqueda de la biblioteca de ofertas para localizar fácilmente todas las ofertas con ese calificador de colección.
 
-Los calificadores de colección también se pueden utilizar para agrupar ofertas en colecciones de ofertas. Consulte [Creación de colecciones](../offer-library/creating-collections.md).
+Los calificadores de colección también se pueden utilizar para agrupar ofertas en colecciones de ofertas. Consulte [Crear colecciones](../offer-library/creating-collections.md).
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-Se puede acceder a la lista de calificadores de colección creados en el **[!UICONTROL Componentes]** menú.
+Se puede acceder a la lista de calificadores de colección creados en el menú **[!UICONTROL Componentes]**.
 
 ![](../assets/tags_list.png)
 
 Para crear un cualificador de recopilación, siga estos pasos:
 
-1. Vaya a la **[!UICONTROL Cualificadores de colección]** y haga clic en **[!UICONTROL Crear calificador de colección]**.
+1. Vaya a la ficha **[!UICONTROL Calificadores de colección]** y, a continuación, haga clic en **[!UICONTROL Crear calificador de colección]**.
 
-1. Especifique el nombre del cualificador de la colección y haga clic en **[!UICONTROL Guardar]**.
+1. Especifique el nombre del calificador de la colección y haga clic en **[!UICONTROL Guardar]**.
 
    ![](../assets/tags_create.png)
 

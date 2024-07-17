@@ -17,19 +17,19 @@ ht-degree: 11%
 
 # Guardar contenido como fragmento {#save-as-fragment}
 
-Al editar contenido en [!DNL Journey Optimizer], puede guardar todo o parte del contenido como fragmento para su reutilización futura. Puede guardar el contenido como fragmento [desde Email Designer](#save-as-visual-fragment), o [desde el editor de expresiones](#save-as-expression-fragment).
+Al editar contenido en [!DNL Journey Optimizer], puede guardar todo o parte del contenido como fragmento para su reutilización futura. Puede guardar contenido como fragmento [desde el Designer de correo electrónico](#save-as-visual-fragment) o [desde el editor de expresiones](#save-as-expression-fragment).
 
 ## Guardar como fragmento visual {#save-as-visual-fragment}
 
 Para guardar contenido del Designer de correo electrónico como fragmento, siga estos pasos:
 
-1. En el [Correo electrónico Designer](../email/get-started-email-design.md), haga clic en los puntos suspensivos en la parte superior derecha de la pantalla.
+1. En [Email Designer](../email/get-started-email-design.md), haga clic en los puntos suspensivos en la parte superior derecha de la pantalla.
 
-1. Seleccionar **[!UICONTROL Guardar como fragmento]** en el menú desplegable.
+1. Seleccione **[!UICONTROL Guardar como fragmento]** en el menú desplegable.
 
    ![](assets/fragment-save-as.png)
 
-1. El **[!UICONTROL Guardar como fragmento]** se muestra. Seleccione los elementos que desee incluir en el fragmento, incluidos los campos de personalización y el contenido dinámico. Tenga en cuenta que los atributos contextuales no son compatibles con los fragmentos.
+1. Se muestra la pantalla **[!UICONTROL Guardar como fragmento]**. Seleccione los elementos que desee incluir en el fragmento, incluidos los campos de personalización y el contenido dinámico. Tenga en cuenta que los atributos contextuales no son compatibles con los fragmentos.
 
    ![](assets/fragment-save-as-screen.png)
 
@@ -37,13 +37,13 @@ Para guardar contenido del Designer de correo electrónico como fragmento, siga 
    >
    >Sólo se pueden seleccionar secciones adyacentes entre sí. No puede seleccionar una estructura vacía u otro fragmento.
 
-1. Clic **[!UICONTROL Crear]** y rellene el nombre y la descripción del fragmento (si es necesario).
+1. Haga clic en **[!UICONTROL Crear]** y rellene el nombre y la descripción del fragmento (si es necesario).
 
-1. Para asignar etiquetas de uso de datos personalizadas o principales al fragmento, haga clic en **[!UICONTROL Administrar acceso]** en la sección superior de la pantalla. [Obtenga más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
+1. Para asignar etiquetas de uso de datos principales o personalizadas al fragmento, haga clic en el botón **[!UICONTROL Administrar acceso]** en la sección superior de la pantalla. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
 
-1. Seleccione o cree etiquetas de Adobe Experience Platform en **Etiquetas** para categorizar la plantilla y mejorar la búsqueda. [Más información](../start/search-filter-categorize.md#tags)
+1. Seleccione o cree etiquetas Adobe Experience Platform en el campo **Etiquetas** para categorizar la plantilla y mejorar la búsqueda. [Más información](../start/search-filter-categorize.md#tags)
 
-1. Haga clic en **[!UICONTROL Crear]**. El fragmento se añade a [lista de fragmentos](#access-manage-fragments) con el **Borrador** estado. Se convierte en un fragmento independiente que se puede utilizar como cualquier otro fragmento visual de esa lista.
+1. Haga clic en **[!UICONTROL Crear]**. El fragmento se agrega a la [lista de fragmentos](#access-manage-fragments) con el estado **Borrador**. Se convierte en un fragmento independiente que se puede utilizar como cualquier otro fragmento visual de esa lista.
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ El Editor de personalización de [!DNL Journey Optimizer] permite guardar conten
 
 Para guardar contenido como un fragmento de expresión, siga los pasos a continuación.
 
-1. En el [editor de personalización](../personalization/personalization-build-expressions.md) interfaz, cree una expresión y haga clic en **[!UICONTROL Guardar como fragmento]**.
+1. En la interfaz de [editor de personalización](../personalization/personalization-build-expressions.md), cree una expresión y haga clic en **[!UICONTROL Guardar como fragmento]**.
 
    >[!NOTE]
    >
@@ -72,10 +72,10 @@ Para guardar contenido como un fragmento de expresión, siga los pasos a continu
 
    ![](assets/expression-fragment-save-as.png)
 
-1. Clic **[!UICONTROL Guardar fragmento]**.
+1. Haga clic en **[!UICONTROL Guardar fragmento]**.
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 
-1. El fragmento se añade a [lista de fragmentos](#access-manage-fragments) con el **Borrador** estado. Se convierte en un fragmento independiente que se puede utilizar como cualquier otro fragmento de expresión de esa lista.
+1. El fragmento se agrega a la [lista de fragmentos](#access-manage-fragments) con el estado **Borrador**. Se convierte en un fragmento independiente que se puede utilizar como cualquier otro fragmento de expresión de esa lista.
 
 1. Para poder utilizar el fragmento en sus recorridos y campañas, debe habilitarlo. [Obtenga información sobre cómo obtener una vista previa y publicar un fragmento](../content-management/create-fragments.md#publish)

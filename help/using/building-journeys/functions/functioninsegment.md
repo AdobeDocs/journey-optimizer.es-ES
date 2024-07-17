@@ -24,7 +24,7 @@ Comprueba si un individuo pertenece a una audiencia determinada.
 
 El nombre de la audiencia debe ser una constante de cadena. No puede ser una referencia de campo ni una expresión.
 
-Las audiencias se definen en la variable [Adobe Experience Platform](https://platform.adobe.com/audience/overview). El editor de expresiones proporciona una lista autocompletada de audiencias.
+Las audiencias se definen en [Adobe Experience Platform](https://platform.adobe.com/audience/overview). El editor de expresiones proporciona una lista autocompletada de audiencias.
 
 Las audiencias pueden tener tres estados:
 
@@ -32,11 +32,11 @@ Las audiencias pueden tener tres estados:
 * realizado: la entidad se introduce en la audiencia.
 * saliente: la entidad sale de la audiencia.
 
-Solo las personas con el **Realizado** y **Existente** los estados de participación de la audiencia se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [Documentación del Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
+Solo las personas con los estados de participación de audiencia **Realized** y **Existing** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
 
-`IF inSegment('segmentName') == true` significa que tiene una pertenencia a segmento con el estado introducido/existente.
+`IF inSegment('segmentName') == true` significa que tiene un segmentMembership con el estado introducido/existente.
 
-`ELSE inSegment('segmentName') == false` significa que tiene un segmentMembership del estado de salida.
+`ELSE inSegment('segmentName') == false` significa que usted tiene un segmentMembership del estado saliente.
 
 ## Categoría
 
@@ -64,4 +64,4 @@ Devuelve un valor booleano.
 
 Explicación:
 
-La función devolverá **[!UICONTROL true]** si el individuo dentro de la instancia de recorrido es parte de la audiencia de Adobe Experience Platform denominada &quot;hombres mayores de 50 años&quot;, **[!UICONTROL false]** de lo contrario.
+La función devolverá **[!UICONTROL true]** si el individuo de la instancia de recorrido es parte de la audiencia de Adobe Experience Platform denominada &quot;hombres de más de 50 años&quot;, **[!UICONTROL false]** en caso contrario.

@@ -25,7 +25,7 @@ ht-degree: 18%
 
 Esta integración está disponible para las versiones 7 y 8 de Adobe Campaign a partir de la versión 7.1 y para la versión 8 de Adobe Campaign. Permite enviar correos electrónicos, notificaciones push y SMS mediante las funcionalidades de mensajería transaccional de Adobe Campaign.
 
-En este documento se presenta un caso de uso completo [sección](../building-journeys/ajo-ac.md).
+Se presenta un caso de uso de extremo a extremo en esta [sección](../building-journeys/ajo-ac.md).
 
 Para cada acción configurada, hay una actividad de acción disponible en la paleta del diseñador de recorridos. Consulte esta [sección](../building-journeys/using-adobe-campaign-v7-v8.md).
 
@@ -58,7 +58,7 @@ Desde Adobe Campaign:
 
 ## Requisitos previos {#prerequisites}
 
-En Campaign, es necesario crear y publicar un mensaje transaccional y su evento asociado. Consulte la [Documentación de Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target="_blank"}.
+En Campaign, es necesario crear y publicar un mensaje transaccional y su evento asociado. Consulte la [documentación de Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target="_blank"}.
 
 Puede crear la carga útil JSON correspondiente a cada mensaje siguiendo el patrón siguiente. A continuación, pegue esta carga útil al configurar la acción en Journey Optimizer (a continuación)
 
@@ -75,7 +75,7 @@ Vea el siguiente ejemplo:
 }
 ```
 
-* **canal**: el canal definido para la plantilla transaccional de Campaign
+* **canal**: el canal definido para su plantilla transaccional de Campaign
 * **eventType**: el nombre interno del evento de Campaign
 * **ctx**: variable basada en la personalización que tiene en el mensaje.
 
@@ -85,8 +85,8 @@ En Journey Optimizer, debe configurar una acción por mensaje transaccional. Sig
 
 1. Cree una nueva acción. Consulte esta [sección](../action/action.md).
 1. Introduzca un nombre y una descripción.
-1. En el **Tipo de acción** , seleccione **Adobe Campaign Classic**.
-1. Haga clic en en **Carga útil** y pegue un ejemplo de la carga útil JSON correspondiente al mensaje de Campaign. Póngase en contacto con el Adobe para obtener esta carga útil.
+1. En el campo **Tipo de acción**, seleccione **Adobe Campaign Classic**.
+1. Haga clic en el campo **Carga útil** y pegue un ejemplo de la carga útil JSON correspondiente al mensaje de Campaign. Póngase en contacto con el Adobe para obtener esta carga útil.
 1. Ajuste los distintos campos para que sean estáticos o variables, según si desea asignarlos en el lienzo de Recorrido. Algunos campos, como los parámetros de canal para la dirección de correo electrónico y los campos de personalización (ctx), probablemente desee definirlos como variables para su asignación en el contexto del recorrido.
 1. Haga clic en **Guardar**.
 

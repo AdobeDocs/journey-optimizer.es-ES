@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Búsqueda de una decisión {#look-up-decision}
 
-Puede buscar decisiones específicas realizando una solicitud de GET a [!DNL Offer Library] API que incluye las decisiones `@id` o el nombre de la decisión en la ruta de solicitud.
+Puede buscar decisiones específicas realizando una solicitud de GET a la API [!DNL Offer Library] que incluya las decisiones `@id` o el nombre de la decisión en la ruta de solicitud.
 
 **Formato de API**
 
@@ -28,7 +28,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | El contenedor en el que se encuentran las decisiones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ACTIVITIES}` | Define el esquema asociado a las decisiones. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
-| `id` | Una cadena utilizada para hacer coincidir el `@id` propiedad de las entidades. La cadena coincide exactamente. Los parámetros `id` y `name` no se pueden usar juntos. | `xcore:offer-activity:124527ab00b2ebbc` |
+| `id` | Cadena utilizada para coincidir con la propiedad `@id` de las entidades. La cadena coincide exactamente. Los parámetros `id` y `name` no se pueden usar juntos. | `xcore:offer-activity:124527ab00b2ebbc` |
 | `name` | Cadena utilizada para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros &quot;id&quot; y &quot;name&quot; no se pueden usar juntos | `LBAR` |
 
 **Solicitud**
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles de la ubicación, incluida la información acerca del ID de contenedor, el ID de instancia y la decisión única `@id`.
+Una respuesta correcta devuelve los detalles de la ubicación, incluida la información sobre el ID de contenedor, el ID de instancia y la decisión única `@id`.
 
 ```json
 {

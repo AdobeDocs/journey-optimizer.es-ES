@@ -9,7 +9,7 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 7e7ff2f6451947d4d52efb2963d940ba3f50819f
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## Valor de reserva predeterminado{#default-value}
 
-El `Default Fallback Value` El asistente se utiliza para devolver un valor de reserva predeterminado si un atributo está vacío o es nulo. Este mecanismo funciona para atributos de perfil y eventos de Recorrido.
+El asistente `Default Fallback Value` se usa para devolver un valor de reserva predeterminado si un atributo está vacío o es nulo. Este mecanismo funciona para atributos de perfil y eventos de Recorrido.
 
 **Sintaxis**
 
@@ -25,11 +25,11 @@ El `Default Fallback Value` El asistente se utiliza para devolver un valor de re
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-En este ejemplo, el valor `there` se muestra si la variable `firstName` el atributo de este perfil está vacío o es nulo.
+En este ejemplo, el valor `there` se muestra si el atributo `firstName` de este perfil está vacío o es nulo.
 
 ## Condiciones{#if-function}
 
-El `if` El asistente de se utiliza para definir un bloque condicional.
+El asistente `if` se usa para definir un bloque condicional.
 Si la evaluación de la expresión devuelve true, se procesa el bloque; de lo contrario, se omite.
 
 **Sintaxis**
@@ -39,8 +39,8 @@ Si la evaluación de la expresión devuelve true, se procesa el bloque; de lo co
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-Siguiendo las `if` asistente, puede introducir un `else` para especificar un bloque de código que se va a ejecutar, si la misma condición es falsa.
-El `elseif` especificará una nueva condición para probar si la primera instrucción devuelve el valor &quot;false&quot;.
+Después del asistente `if`, puede escribir una instrucción `else` para especificar un bloque de código que se va a ejecutar, si la misma condición es falsa.
+La instrucción `elseif` especificará una nueva condición para comprobar si la primera instrucción devuelve el valor &quot;False&quot;.
 
 
 **Formato**
@@ -58,7 +58,7 @@ El `elseif` especificará una nueva condición para probar si la primera instruc
 
 **Ejemplos**
 
-1. **Procesar diferentes vínculos de almacenamiento basados en expresiones condicionales**
+1. **Procesar vínculos de almacén diferentes basados en expresiones condicionales**
 
    ```sql
    {%#if profile.homeAddress.countryCode = "FR"%}
@@ -80,7 +80,7 @@ El `elseif` especificará una nueva condición para probar si la primera instruc
    {%/if%}
    ```
 
-1. **Adición de un vínculo condicional**
+1. **Agregar un vínculo condicional**
 
    La siguiente operación añade un vínculo al sitio web www.adobe.com/academia&#39; solo para perfiles con direcciones de correo electrónico &quot;.edu&quot;, al sitio web www.adobe.com/org&#39; para perfiles con direcciones de correo electrónico &quot;.org&quot; y a la URL predeterminada www.adobe.com/users&#39; para el resto de perfiles:
 
@@ -106,12 +106,12 @@ El `elseif` especificará una nueva condición para probar si la primera instruc
 
 >[!NOTE]
 >
->Para obtener más información sobre las audiencias y el servicio de segmentación, consulte [sección](../../audience/about-audiences.md).
+>Para obtener más información acerca de las audiencias y el servicio de segmentación, consulte esta [sección](../../audience/about-audiences.md).
 
 
 ## Unless{#unless}
 
-El `unless` El asistente de se utiliza para definir un bloque condicional. Por oposición a la Ley `if`  asistente, si la evaluación de la expresión devuelve false, se procesa el bloque.
+El asistente `unless` se usa para definir un bloque condicional. Por oposición al asistente `if`, si la evaluación de la expresión devuelve false, se procesará el bloque.
 
 **Sintaxis**
 
@@ -131,11 +131,11 @@ Some edu specific content Content
 {%/unless%}
 ```
 
-## Cada{#each}
+## Each{#each}
 
-El `each` El asistente se utiliza para iterar en una matriz.
-La sintaxis del asistente es ```{{#each ArrayName}}``` Su contenido {{/each}}
-Podemos hacer referencia a los elementos de matriz individuales utilizando la palabra clave **esta** dentro del bloque. El índice del elemento de la matriz se puede representar mediante {{@index}}.
+El asistente `each` se usa para iterar en una matriz.
+La sintaxis del asistente es ```{{#each ArrayName}}``` YourContent {{/each}}
+Podemos hacer referencia a los elementos de matriz individuales usando la palabra clave **this** dentro del bloque. El índice del elemento de la matriz se puede representar con {{@index}}.
 
 **Sintaxis**
 
@@ -165,9 +165,9 @@ Procese una lista de productos que este usuario tiene en el carro de compras:
 {{/each}}
 ```
 
-## con{#with}
+## With{#with}
 
-El `with` El asistente se utiliza para cambiar el token de evaluación de la plantilla-parte.
+El asistente `with` se usa para cambiar el token de evaluación de la plantilla-parte.
 
 **Sintaxis**
 
@@ -177,7 +177,7 @@ El `with` El asistente se utiliza para cambiar el token de evaluación de la pla
 {{/with}}
 ```
 
-El `with` El asistente de es útil para definir una variable de acceso directo también.
+El ayudante `with` también resulta útil para definir una variable de acceso directo.
 
 **Ejemplo**
 
@@ -192,7 +192,7 @@ Use con para asignar nombres de variables largos a otros más cortos:
 
 ## Let{#let}
 
-El `let` permite almacenar una expresión como variable para usarla posteriormente en una consulta.
+La función `let` permite almacenar una expresión como variable para usarla posteriormente en una consulta.
 
 **Sintaxis**
 

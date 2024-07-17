@@ -21,7 +21,7 @@ Esta sección presenta un ejemplo completo para mostrar cómo configurar ofertas
 
 A continuación se enumeran los pasos clave para configurar ofertas, incluirlas en una decisión y aprovechar esta decisión en un correo electrónico:
 
-1. Antes de crear ofertas, [definir los componentes](#define-components)
+1. Antes de crear ofertas, [defina los componentes](#define-components)
 
    * Crear ubicaciones
    * Crear reglas de decisión
@@ -30,7 +30,7 @@ A continuación se enumeran los pasos clave para configurar ofertas, incluirlas 
 
 1. [Configuración de las ofertas](#configure-offers)
 
-   * Creación de ofertas
+   * Crear ofertas
    * Para cada oferta:
 
       * Cree representaciones y seleccione una colocación y un recurso para cada representación
@@ -39,7 +39,7 @@ A continuación se enumeran los pasos clave para configurar ofertas, incluirlas 
 
 1. [Crear una oferta de reserva](#create-fallback)
 
-1. [Crear una colección](#create-collection) para incluir las ofertas personalizadas creadas
+1. [Crear una colección](#create-collection) para incluir las ofertas personalizadas que creó
 
 1. [Configurar la decisión](#configure-decision)
 
@@ -63,7 +63,7 @@ El proceso general de Gestión de decisiones para utilizar ofertas en un correo 
 
 Antes de empezar a crear ofertas, debe definir varios componentes que utilizará en las ofertas.
 
-Los encontrará debajo de la **[!UICONTROL Gestión de decisiones]** > **[!UICONTROL Menú Componentes]**.
+Los encontrará en el **[!UICONTROL menú Administración de decisiones]** > **[!UICONTROL Componentes]**.
 
 1. Comience creando **ubicaciones** para sus ofertas.
 
@@ -71,9 +71,9 @@ Los encontrará debajo de la **[!UICONTROL Gestión de decisiones]** > **[!UICON
 
    En este ejemplo, cree tres ubicaciones con los siguientes tipos de canal y contenido:
 
-   * *Web: imagen*
+   * *Web - Imagen*
    * *Correo electrónico: imagen*
-   * *No digital: texto*
+   * *No digital - Texto*
 
    ![](assets/offers-e2e-placements.png)
 
@@ -83,7 +83,7 @@ Los encontrará debajo de la **[!UICONTROL Gestión de decisiones]** > **[!UICON
 
    Las reglas de decisión proporcionarán la mejor oferta a un perfil en Adobe Experience Platform.
 
-   Configure dos reglas simples mediante el **[!UICONTROL Perfil individual de XDM > Persona > Sexo]** atributo:
+   Configure dos reglas simples usando el atributo **[!UICONTROL XDM Individual Profile > Person > Gender]**:
 
    * *Clientes mujeres*
    * *Clientes masculinos*
@@ -96,7 +96,7 @@ Los encontrará debajo de la **[!UICONTROL Gestión de decisiones]** > **[!UICON
 
    A continuación, podrá asociarlo a sus ofertas y utilizar este calificador de recopilación para agrupar sus ofertas en una colección.
 
-   En este ejemplo, cree la variable *Yoga* calificador de colección.
+   En este ejemplo, cree el calificador de colección *Yoga*.
 
    ![](assets/offers-e2e-tag.png)
 
@@ -118,36 +118,36 @@ Ahora puede crear y configurar sus ofertas. En este ejemplo, creará cuatro ofer
 
 1. En esta oferta, cree tres representaciones. Cada representación debe ser una combinación de una ubicación que haya creado anteriormente y un recurso:
 
-   * Uno correspondiente al *Web: imagen* ubicación
-   * Uno correspondiente al *Correo electrónico: imagen* ubicación
-   * Uno correspondiente al *No digital: texto* ubicación
+   * Uno correspondiente a la ubicación *Web - Image*
+   * Uno correspondiente a la ubicación *Correo electrónico: imagen*
+   * Uno correspondiente a la ubicación *No digital - Texto*
 
    >[!NOTE]
    >
    >Una oferta se puede mostrar en diferentes lugares de un mensaje para crear más oportunidades de utilizar la oferta en diferentes contextos de colocación.
 
-   Más información sobre las representaciones en [esta sección](../../using/offers/offer-library/creating-personalized-offers.md#representations).
+   Obtenga más información sobre las representaciones en [esta sección](../../using/offers/offer-library/creating-personalized-offers.md#representations).
 
-1. Seleccione una imagen adecuada para las dos primeras ubicaciones. Escriba texto personalizado para *No digital: texto* ubicación.
+1. Seleccione una imagen adecuada para las dos primeras ubicaciones. Escriba texto personalizado para la ubicación *No digital - Texto*.
 
    ![](assets/offers-e2e-representations.png)
 
-1. En el **[!UICONTROL Idoneidad de oferta]** , seleccione **[!UICONTROL Por regla de decisión definida]** y arrastre y suelte la regla que desee.
+1. En la sección **[!UICONTROL Elegibilidad para la oferta]**, seleccione **[!UICONTROL Por regla de decisión definida]** y arrastre y suelte la regla que elija.
 
    ![](assets/offers-e2e-eligibility.png)
 
-1. Rellene el **[!UICONTROL Prioridad]**. En este ejemplo, añada *25*.
+1. Rellene **[!UICONTROL Prioridad]**. En este ejemplo, agregue *25*.
 
-1. Revise la oferta y haga clic en **[!UICONTROL Guardar y aprobar]**.
+1. Revisa tu oferta y luego haz clic en **[!UICONTROL Guardar y aprobar]**.
 
    ![](assets/offers-e2e-review.png)
 
 1. En este ejemplo, cree tres ofertas más con las mismas representaciones, pero con recursos diferentes. Asígneles reglas y prioridades diferentes, como, por ejemplo:
 
-   * Primera oferta: regla de decisión: *Clientes mujeres*, Prioridad: *25*
-   * Segunda oferta: Regla de decisión: *Clientes mujeres*, Prioridad: *15*
-   * Tercera oferta: regla de decisión: *Clientes masculinos*, Prioridad: *25*
-   * Cuarta oferta: Regla de decisión: *Clientes masculinos*, Prioridad: *15*
+   * Primera oferta - Regla de decisión: *Clientes mujeres*, Prioridad: *25*
+   * Segunda oferta - Regla de decisión: *Clientes mujeres*, Prioridad: *15*
+   * Tercera oferta - Regla de decisión: *Clientes masculinos*, Prioridad: *25*
+   * Cuarta oferta - Regla de decisión: *Clientes masculinos*, Prioridad: *15*
 
    ![](assets/offers-e2e-offers-created.png)
 
@@ -161,13 +161,13 @@ Los pasos detallados para crear y configurar ofertas se describen en [esta secci
 
    Cada representación debe ser una combinación de una ubicación que haya creado anteriormente y un recurso:
 
-   * Uno correspondiente al *Web: imagen* ubicación
-   * Uno correspondiente al *Correo electrónico: imagen* ubicación
-   * Uno correspondiente al *No digital: texto* ubicación
+   * Uno correspondiente a la ubicación *Web - Image*
+   * Uno correspondiente a la ubicación *Correo electrónico: imagen*
+   * Uno correspondiente a la ubicación *No digital - Texto*
 
    ![](assets/offers-e2e-fallback-representations.png)
 
-1. Revise la oferta de reserva y haga clic en **[!UICONTROL Guardar y aprobar]**.
+1. Revisa tu oferta de reserva y luego haz clic en **[!UICONTROL Guardar y aprobar]**.
 
 ![](assets/offers-e2e-fallback.png)
 
@@ -181,7 +181,7 @@ Al configurar la decisión, deberá agregar sus ofertas personalizadas como part
 
 1. Para acelerar el proceso de decisión, cree una colección dinámica.
 
-1. Utilice el *Yoga* cualificador de recopilación para seleccionar las cuatro ofertas personalizadas creadas anteriormente.
+1. Use el calificador de la colección *Yoga* para seleccionar las cuatro ofertas personalizadas que creó anteriormente.
 
    ![](assets/offers-e2e-collection-using-tag.png)
 
@@ -197,7 +197,7 @@ Para crear y configurar una decisión de oferta, siga los pasos principales a co
 
 1. Cree una decisión. Obtenga más información en [esta sección](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
 
-1. Seleccione el *Web: imagen*, *Correo electrónico: imagen* y *No digital: texto* ubicaciones.
+1. Seleccione las ubicaciones *Web - Imagen*, *Correo electrónico - Imagen* y *No digital - Texto*.
 
    ![](assets/offers-e2e-decision-placements.png)
 
@@ -205,7 +205,7 @@ Para crear y configurar una decisión de oferta, siga los pasos principales a co
 
    ![](assets/offers-e2e-decision-collection.png)
 
-1. Si definió una clasificación cuando [creación de componentes](#define-components), puede asignarlo a una ubicación en la decisión. Si se pueden presentar varias ofertas en esta ubicación, la decisión utilizará esta fórmula para calcular qué oferta se entregará primero.
+1. Si definió una clasificación al [crear sus componentes](#define-components), puede asignarla a una ubicación en la decisión. Si se pueden presentar varias ofertas en esta ubicación, la decisión utilizará esta fórmula para calcular qué oferta se entregará primero.
 
    Los pasos detallados para asignar una fórmula de clasificación a una ubicación se describen en [esta sección](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula).
 
@@ -213,7 +213,7 @@ Para crear y configurar una decisión de oferta, siga los pasos principales a co
 
    ![](assets/offers-e2e-decision-fallback.png)
 
-1. Revise su decisión y haga clic en **[!UICONTROL Guardar y aprobar]**.
+1. Revisa tu decisión y luego haz clic en **[!UICONTROL Guardar y aprobar]**.
 
    ![](assets/offers-e2e-review-decision.png)
 

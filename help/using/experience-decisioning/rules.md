@@ -31,7 +31,7 @@ Por ejemplo, consideremos un escenario en el que tenga elementos de decisión qu
 >
 >Además de las reglas de decisión a nivel de elemento y de estrategia de selección, también puede definir la audiencia a nivel de campaña. [Más información](../campaigns/create-campaign.md#audience)
 
-Se puede acceder a la lista de reglas de decisión en la **[!UICONTROL Configuración de estrategia]** menú.
+Se puede acceder a la lista de reglas de decisión en el menú **[!UICONTROL Configuración de estrategia]**.
 
 ![](assets/decision-rules-list.png)
 
@@ -39,7 +39,7 @@ Se puede acceder a la lista de reglas de decisión en la **[!UICONTROL Configura
 
 Para crear una regla de decisión, siga estos pasos:
 
-1. Vaya a **[!UICONTROL Configuración de estrategia]** / **[!UICONTROL Reglas de decisión]** luego haga clic en **[!UICONTROL Crear regla]** botón.
+1. Vaya a **[!UICONTROL Configuración de estrategia]** / **[!UICONTROL Reglas de decisión]** y haga clic en el botón **[!UICONTROL Crear regla]**.
 
 1. Se abre la pantalla de creación de reglas de decisión. Especifique un nombre para la regla y una descripción.
 
@@ -49,13 +49,13 @@ Para crear una regla de decisión, siga estos pasos:
 
    >[!NOTE]
    >
-   >El Generador de segmentos que se proporciona para crear reglas de decisión presenta algunas particularidades en comparación con el que se utiliza con el servicio de segmentación de Adobe Experience Platform.  Sin embargo, el proceso global descrito en la documentación sigue siendo válido para generar reglas de decisiones. [Obtenga información sobre cómo crear definiciones de segmentos](../audience/creating-a-segment-definition.md)
+   >El Generador de segmentos que se proporciona para crear reglas de decisión presenta algunas particularidades en comparación con el que se utiliza con el servicio de segmentación de Adobe Experience Platform.  Sin embargo, el proceso global descrito en la documentación sigue siendo válido para generar reglas de decisiones. [Obtenga información sobre cómo generar definiciones de segmentos](../audience/creating-a-segment-definition.md)
 
-1. Al añadir y configurar nuevos campos en el espacio de trabajo, la variable **[!UICONTROL Propiedades de audiencia]** Este panel muestra información sobre los perfiles estimados que pertenecen a la audiencia. Clic **[!UICONTROL Actualizar estimación]** para actualizar los datos.
+1. A medida que agrega y configura nuevos campos en el área de trabajo, el panel **[!UICONTROL Propiedades de la audiencia]** muestra información sobre los perfiles estimados que pertenecen a la audiencia. Haga clic en **[!UICONTROL Actualizar estimación]** para actualizar los datos.
 
    >[!NOTE]
    >
    >Las estimaciones de perfil no están disponibles cuando los parámetros de regla incluyen datos que no están en el perfil, como datos de contexto.
 
-1. Una vez preparada la regla de decisión, haga clic en **[!UICONTROL Guardar]**. La regla creada aparece en la lista y está disponible para su uso en elementos de decisión y estrategias de selección para regular la presentación de elementos de decisión a perfiles.
+1. Una vez que la regla de decisión esté lista, haga clic en **[!UICONTROL Guardar]**. La regla creada aparece en la lista y está disponible para su uso en elementos de decisión y estrategias de selección para regular la presentación de elementos de decisión a perfiles.
 

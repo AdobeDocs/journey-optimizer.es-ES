@@ -11,7 +11,7 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 70%
+ht-degree: 68%
 
 ---
 
@@ -65,14 +65,14 @@ Esta es la lista de funciones compatibles.
 | Lista | [distinctWithNull](../functions/functiondistinctwithnull.md) |
 | Lista | [filtro](../functions/functionfilter.md) |
 | Lista | [getListItem](../functions/functiongetlistitem.md) |
-| Lista | [en](../functions/functionin.md) |
-| Lista | [intersect](../functions/functionintersect.md) |
+| Lista | [in](../functions/functionin.md) |
+| Lista | [intersección](../functions/functionintersect.md) |
 | Lista | [límite](../functions/functionlimit.md) |
 | Lista | [listSize](../functions/functionlistsize.md) |
 | Lista | [serializeList](../functions/functionserializelist.md) |
 | Lista | [sort](../functions/functionsort.md) |
-| Math | [random](../functions/functionrandom.md) |
-| Math | [round](../functions/functionround.md) |
+| Matemáticas | [random](../functions/functionrandom.md) |
+| Matemáticas | [round](../functions/functionround.md) |
 | Cadena | [concat](../functions/functionconcat.md) |
 | Cadena | [contain](../functions/functioncontain.md) |
 | Cadena | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |

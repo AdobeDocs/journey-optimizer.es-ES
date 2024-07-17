@@ -24,14 +24,14 @@ Estas son las limitaciones relacionadas con el uso de recorridos.
 
 * No hay restricciones de envío. 
 * En caso de error, se realizan tres reintentos de forma sistemática. No puede ajustar el número de reintentos según el mensaje de error recibido. 
-* La función integrada **Reacción** Este evento le permite reaccionar a las acciones listas para usar (consulte esto [página](../building-journeys/reaction-events.md)). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado. 
+* El evento **Reaction** integrado le permite reaccionar a las acciones listas para usar (consulte esta [página](../building-journeys/reaction-events.md)). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado. 
 * No puede colocar dos acciones en paralelo, debe agregarlas una tras otra.
 
 ## Limitaciones de versiones de recorrido {#journey-versions-limitations}
 
-* Un recorrido que se inicia con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No se puede iniciar un recorrido con un **Calificación de audiencias** evento.
-* Un recorrido que comienza con un **Calificación de audiencias** la actividad en v1 siempre debe comenzar con una **Calificación de audiencias** en versiones posteriores.
-* La audiencia y el área de nombres elegidos en **Calificación de audiencias** (primer nodo) no se puede cambiar en las nuevas versiones.
+* Un recorrido que se inicia con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No puede iniciar un recorrido con un evento **Calificación de audiencias**.
+* Un recorrido que comience con una actividad de **Calificación de audiencias** en v1 siempre debe comenzar con una **Calificación de audiencias** en versiones posteriores.
+* La audiencia y el área de nombres elegidos en **Calificación de audiencias** (primer nodo) no se pueden cambiar en las nuevas versiones.
 * La regla de reentrada debe ser la misma en todas las versiones del recorrido.
 * El recorrido que comience con **Leer público** no puede comenzar con otro evento en las versiones siguientes.
 

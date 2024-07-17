@@ -12,7 +12,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '908'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -21,22 +21,22 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="Creación de correo electrónico"
->abstract="Defina la línea de asunto del correo electrónico y abra el Diseñador de correo electrónico para crear el contenido del correo electrónico."
+>abstract="Defina la línea de asunto del correo electrónico y abra el diseñador de correo electrónico para crear su contenido."
 
 
 ## Añadir una acción de correo electrónico {#email-action}
 
-Para crear un correo electrónico en [!DNL Journey Optimizer], añada un **[!UICONTROL Correo electrónico]** a un recorrido o a una campaña. A continuación, siga los pasos que se indican a continuación según su caso.
+Para crear un correo electrónico en [!DNL Journey Optimizer], agregue una acción **[!UICONTROL Enviar correo electrónico]** a un recorrido o a una campaña. A continuación, siga los pasos que se indican a continuación según su caso.
 
 >[!BEGINTABS]
 
->[!TAB Adición de un correo electrónico a un recorrido]
+>[!TAB Agregar un correo electrónico a un recorrido]
 
-1. Abra el recorrido y, a continuación, arrastre y suelte un **[!UICONTROL Correo electrónico]** actividad desde el **[!UICONTROL Acciones]** de la paleta.
+1. Abra el recorrido y, a continuación, arrastre y suelte una actividad **[!UICONTROL Correo electrónico]** desde la sección **[!UICONTROL Acciones]** de la paleta.
 
 1. Proporcione información básica sobre el mensaje (etiqueta, descripción, categoría).
 
-1. Elija la [superficie de correo electrónico](email-settings.md) para usar.
+1. Elija la [superficie de correo electrónico](email-settings.md) que desea utilizar.
 
    ![](assets/email_journey.png)
 
@@ -48,17 +48,17 @@ Para crear un correo electrónico en [!DNL Journey Optimizer], añada un **[!UIC
 
 Para obtener más información sobre cómo configurar un recorrido, consulte [esta página](../building-journeys/journey-gs.md).
 
->[!TAB Añadir un correo electrónico a una campaña]
+>[!TAB Agregar un correo electrónico a una campaña]
 
-1. Cree una nueva campaña programada o activada por API y seleccione **[!UICONTROL Correo electrónico]** como su acción.
+1. Cree una nueva campaña programada o desencadenada por API y seleccione **[!UICONTROL Correo electrónico]** como acción.
 
-1. Elija la [superficie de correo electrónico](email-settings.md) para usar.
+1. Elija la [superficie de correo electrónico](email-settings.md) que desea utilizar.
 
    ![](assets/email_campaign.png)
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
-1. Complete los pasos para crear una campaña de correo electrónico, como las propiedades de campaña, [audiencia](../audience/about-audiences.md), y [programación](../campaigns/create-campaign.md#schedule).
+1. Complete los pasos para crear una campaña de correo electrónico, como las propiedades de campaña, [audiencia](../audience/about-audiences.md) y [programación](../campaigns/create-campaign.md#schedule).
 
    ![](assets/email_campaign_steps.png)
 
@@ -78,30 +78,30 @@ Para obtener más información sobre cómo configurar una campaña, consulte [es
 
 >[!CONTEXTUALHELP]
 >id="test_id"
->title="Configuración del contenido de correo electrónico"
->abstract="Cree el contenido del correo electrónico. Defina su asunto y, a continuación, aproveche el Diseñador de correo electrónico para crear y personalizar el cuerpo del correo electrónico."
+>title="Configurar el contenido del correo electrónico"
+>abstract="Cree el contenido del correo electrónico. Defina su asunto y, a continuación, aproveche el diseñador de correo electrónico para crear y personalizar el cuerpo del correo electrónico."
 
-1. En la pantalla de configuración del recorrido o la campaña, haga clic en **[!UICONTROL Editar contenido]** para configurar el contenido del correo electrónico. [Más información](get-started-email-design.md)
+1. En la pantalla de configuración del recorrido o la campaña, haga clic en el botón **[!UICONTROL Editar contenido]** para configurar el contenido del correo electrónico. [Más información](get-started-email-design.md)
 
    ![](assets/email_campaign_edit_content.png)
 
-   En el **[!UICONTROL Header]** de la sección **[!UICONTROL Editar contenido]** pantalla, la **[!UICONTROL Nombre de remitente]**, **[!UICONTROL Desde correo electrónico]** y **[!UICONTROL CCO]** se configuran en la superficie de correo electrónico seleccionada. [Más información](email-settings.md) <!--check if same for journey-->
+   En la sección **[!UICONTROL Header]** de la pantalla **[!UICONTROL Edit content]**, el campo **[!UICONTROL From name]**, **[!UICONTROL From email]** y **[!UICONTROL BCC]** están configurados en la superficie de correo electrónico que seleccionó. [Más información](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. Añada una línea de asunto al mensaje. Para configurar y personalizar la línea de asunto con el editor de personalización, haga clic en **[!UICONTROL Abrir diálogo de personalización]** icono. [Más información](../personalization/personalization-build-expressions.md)
+1. Añada una línea de asunto al mensaje. Para configurar y personalizar la línea de asunto con el editor de personalización, haga clic en el icono **[!UICONTROL Abrir diálogo de personalización]**. [Más información](../personalization/personalization-build-expressions.md)
 
-1. Haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]** para acceder al Diseñador de correo electrónico y comenzar a crear el contenido. [Más información](get-started-email-design.md)
+1. Haga clic en el botón **[!UICONTROL Editar cuerpo del correo electrónico]** para acceder al Designer de correo electrónico y comenzar a crear su contenido. [Más información](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
-1. Si está en una campaña, también puede hacer clic en **[!UICONTROL Editor de código]** para codificar su propio contenido en un HTML sin formato mediante la ventana emergente que se muestra.
+1. Si está en una campaña, también puede hacer clic en el botón **[!UICONTROL Editor de código]** para codificar su propio contenido en un HTML sin formato mediante la ventana emergente que se muestra.
 
    ![](assets/email_designer_edit_code_editor.png)
 
    >[!NOTE]
    >
-   >Si ya ha creado o importado contenido a través del Diseñador de correo electrónico, este contenido se mostrará en el HTML.
+   >Si ya ha creado o importado contenido a través de Designer de correo electrónico, este contenido se mostrará en HTML.
 
 ## Comprobación de alertas {#check-email-alerts}
 
@@ -117,49 +117,49 @@ A continuación se enumeran los ajustes y elementos comprobados por el sistema. 
 
 Pueden producirse dos tipos de alertas:
 
-* **Advertencias** consulte recomendaciones y prácticas recomendadas, como:
+* **Advertencias** hacen referencia a recomendaciones y prácticas recomendadas, como:
 
-   * **[!UICONTROL El vínculo de no participación no está presente en el cuerpo del correo electrónico]**: Se recomienda añadir un vínculo de baja de suscripción al cuerpo del correo electrónico. Obtenga información sobre cómo configurarlo en [esta sección](../privacy/opt-out.md#opt-out-management).
+   * **[!UICONTROL El vínculo de no participación no está presente en el cuerpo del correo electrónico]**: se recomienda agregar un vínculo para darse de baja al cuerpo del correo electrónico. Aprenda a configurarla en [esta sección](../privacy/opt-out.md#opt-out-management).
 
      >[!NOTE]
      >
-     >Los mensajes de correo electrónico de tipo marketing deben incluir un vínculo de no participación, que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**) se define en [superficie de canal](email-settings.md#email-type) nivel y cuándo [creación del mensaje](#create-email-journey-campaign) de un recorrido o una campaña.
+     >Los mensajes de correo electrónico de tipo marketing deben incluir un vínculo de no participación, que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**) se define en el nivel de [superficie de canal](email-settings.md#email-type) y cuando [crea el mensaje](#create-email-journey-campaign) a partir de un recorrido o una campaña.
 
-   * **[!UICONTROL La versión de texto del HTML está vacía]**: no olvide definir una versión de texto de su cuerpo del correo electrónico, ya que se utilizará cuando el contenido del HTML no se pueda mostrar. Aprenda a crear la versión de texto en [esta sección](text-version-email.md).
+   * **[!UICONTROL La versión de texto del HTML está vacía]**: no olvide definir una versión de texto de su cuerpo de correo electrónico, ya que se utilizará cuando no se pueda mostrar el contenido del HTML. Aprenda a crear la versión de texto en [esta sección](text-version-email.md).
 
-   * **[!UICONTROL El vínculo vacío está presente en el cuerpo del correo electrónico]**: compruebe que todos los vínculos del correo electrónico sean correctos. Obtenga información sobre cómo administrar contenido y vínculos en [esta sección](content-from-scratch.md).
+   * **[!UICONTROL El vínculo vacío está presente en el cuerpo del correo electrónico]**: compruebe que todos los vínculos del correo electrónico sean correctos. Aprenda a administrar contenido y vínculos en [esta sección](content-from-scratch.md).
 
-   * **[!UICONTROL El tamaño del correo electrónico ha superado el límite de 100 KB]**: para una entrega óptima, asegúrese de que el tamaño del correo electrónico no supere los 100 KB. Obtenga información sobre cómo editar el contenido de correo electrónico en [esta sección](content-from-scratch.md).
+   * **[!UICONTROL El tamaño del correo electrónico ha superado el límite de 100 KB]**: para una entrega óptima, asegúrese de que el tamaño del correo electrónico no supere los 100 KB. Aprenda a editar el contenido del correo electrónico en [esta sección](content-from-scratch.md).
 
-* **Errores** evite probar o activar el recorrido o la campaña siempre que no se resuelvan, como por ejemplo:
+* **Los errores** le impiden probar o activar el recorrido o la campaña siempre y cuando no se resuelvan, por ejemplo:
 
-   * **[!UICONTROL Falta la línea de asunto]**: la línea de asunto del correo electrónico es obligatoria. Obtenga información sobre cómo definirlo y personalizarlo en [esta sección](create-email.md).
+   * **[!UICONTROL Falta la línea de asunto]**: la línea de asunto del correo electrónico es obligatoria. Aprenda a definirlo y personalizarlo en [esta sección](create-email.md).
 
   <!--HTML is empty when Amp HTML is present-->
 
-   * **[!UICONTROL La versión de correo electrónico del mensaje está vacía]**: este error se muestra cuando el contenido del correo electrónico no se ha configurado. Aprenda a diseñar contenido de correo electrónico en [esta sección](get-started-email-design.md).
+   * **[!UICONTROL La versión de correo electrónico del mensaje está vacía]**: este error se muestra cuando no se ha configurado el contenido del correo electrónico. Aprenda a diseñar contenido de correo electrónico en [esta sección](get-started-email-design.md).
 
-   * **[!UICONTROL La superficie no existe]**: no puede utilizar el mensaje si la superficie seleccionada se elimina después de la creación del mensaje. Si se produce este error, seleccione otra superficie en el mensaje **[!UICONTROL Propiedades]**. Obtenga más información sobre las superficies de canal en [esta sección](../configuration/channel-surfaces.md).
+   * **[!UICONTROL La superficie no existe]**: no puede usar el mensaje si la superficie seleccionada se elimina después de la creación del mensaje. Si se produce este error, seleccione otra superficie en el mensaje **[!UICONTROL Propiedades]**. Obtenga más información sobre las superficies de canal en [esta sección](../configuration/channel-surfaces.md).
 
 >[!CAUTION]
 >
->Para poder probar o activar el recorrido/campaña mediante el correo electrónico, debe resolver todos los **error** alertas.
+>Para poder probar o activar el recorrido o la campaña por correo electrónico, debes resolver todas las alertas de **error**.
 
 ## Compruebe y envíe su correo electrónico
 
 Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo, enviar pruebas y controlar su renderización en clientes populares de escritorio, móviles y web. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje con los datos del perfil de prueba.
 
-Para ello, haga clic en **[!UICONTROL Simular contenido]** a continuación, añada un perfil de prueba para comprobar el mensaje con los datos del perfil de prueba.
+Para ello, haga clic en **[!UICONTROL Simular contenido]** y añada un perfil de prueba para comprobar el mensaje con los datos del perfil de prueba.
 
 ![](assets/email_designer_edit_simulate.png)
 
-Encontrará información detallada sobre cómo seleccionar perfiles de prueba y previsualizar el contenido en el [Gestión de contenido](../content-management/preview-test.md) sección.
+Encontrará información detallada sobre cómo seleccionar perfiles de prueba y obtener una vista previa del contenido en la sección [Administración de contenido](../content-management/preview-test.md).
 
-Cuando el correo electrónico esté listo, complete la configuración de su [recorrido](../building-journeys/journey-gs.md) o [campaña](../campaigns/create-campaign.md)y actívelo para enviar el mensaje.
+Cuando el correo electrónico esté listo, completa la configuración de tu [recorrido](../building-journeys/journey-gs.md) o [campaña](../campaigns/create-campaign.md) y actívalo para enviar el mensaje.
 
 >[!NOTE]
 >
->Para realizar un seguimiento del comportamiento de los destinatarios a través de las aperturas de correo electrónico o las interacciones, asegúrese de que las opciones dedicadas en la **[!UICONTROL Seguimiento]** están habilitadas en la sección de recorrido de [actividad de correo electrónico](../building-journeys/journeys-message.md) o en el correo electrónico [campaña](../campaigns/create-campaign.md).<!--to move?-->
+>Para realizar un seguimiento del comportamiento de los destinatarios a través de aperturas de correo electrónico o interacciones, asegúrese de que las opciones específicas de la sección **[!UICONTROL Seguimiento]** estén habilitadas en la [actividad de correo electrónico](../building-journeys/journeys-message.md) del recorrido o en el correo electrónico [campaña](../campaigns/create-campaign.md).<!--to move?-->
 
 <!--
 

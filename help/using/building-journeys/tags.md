@@ -22,7 +22,7 @@ Como profesional de Journey Optimizer, puede organizar sus recorridos mediante e
 
 ## Adición de etiquetas a un recorrido
 
-El **Etiquetas** , en las propiedades del recorrido, permite definir las etiquetas del recorrido. Puede seleccionar una etiqueta existente o crear una nueva. Empiece a escribir el nombre de la etiqueta deseada y selecciónela en la lista. Si no está disponible, haga clic en **Crear** para crear uno nuevo y agregarlo al recorrido. Puede definir tantas etiquetas como sea necesario.
+El campo **Etiquetas**, en las propiedades del recorrido, le permite definir etiquetas para el recorrido. Puede seleccionar una etiqueta existente o crear una nueva. Empiece a escribir el nombre de la etiqueta deseada y selecciónela en la lista. Si no está disponible, haz clic en **Crear** para crear uno nuevo y agregarlo al recorrido. Puede definir tantas etiquetas como sea necesario.
 
 ![](assets/tags1.png)
 
@@ -42,13 +42,13 @@ También hay un filtro disponible para mostrar solo los recorridos con determina
 
 ![](assets/tags2.png)
 
-Puede añadir o quitar recorridos de cualquier tipo (activo, borrador, etc.). Haga clic en **Más acciones** junto al recorrido y seleccione. **Editar etiquetas**.
+Puede añadir o quitar recorridos de cualquier tipo (activo, borrador, etc.). Haga clic en el icono **Más acciones** que está junto al recorrido y seleccione **Editar etiquetas**.
 
 ![](assets/tags3.png)
 
 ## Administrar etiquetas
 
-Los administradores pueden eliminar etiquetas y organizarlas por categorías utilizando la variable **Etiquetas** en **ADMINISTRACIÓN**. Consulte esta sección [documentación](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=es).
+Los administradores pueden eliminar etiquetas y organizarlas por categorías utilizando la variable **Etiquetas** en **ADMINISTRACIÓN**. Consulte esta [documentación](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=es).
 
 >[!NOTE]
 >

@@ -30,7 +30,7 @@ Conversión
 
 | Parámetro | Descripción |
 |--- |--- |
-| string | convierte el valor de cadena como decimal |
+| cadena | convierte el valor de cadena como decimal |
 | dateTime | convierte la fecha como el número de milisegundos (epoch milisegundos) |
 | Booleano | convierte el valor booleano como 1 si es verdadero, 0 si es falso |
 | entero | convierte a decimal (ejemplo).: 1 se convierte en 1,0) |

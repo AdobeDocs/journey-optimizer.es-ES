@@ -43,7 +43,7 @@ El editor de expresiones avanzadas se puede utilizar para lo siguiente:
 * definir [actividades de espera personalizadas](../wait-activity.md#custom)
 * definir asignación de parámetros de acción
 
-Si es posible, puede cambiar entre los dos modos con el **[!UICONTROL Modo avanzado]** / **[!UICONTROL Modo simple]** botón. El modo simple se describe [aquí](../condition-activity.md#about_condition).
+Si es posible, puede cambiar entre los dos modos con el botón **[!UICONTROL Modo avanzado]** / **[!UICONTROL Modo simple]**. El modo simple se describe [aquí](../condition-activity.md#about_condition).
 
 >[!NOTE]
 >
@@ -69,9 +69,9 @@ Esta pantalla le permite escribir manualmente su expresión.
 En la parte izquierda de la pantalla se muestran los campos y las funciones disponibles:
 
 * **[!UICONTROL Eventos]**: elija uno de los campos recibidos del evento entrante. La lista mostrada de los campos de evento es contextual y varía según los eventos agregados en el recorrido. [Más información](../../event/about-events.md)
-* **[!UICONTROL Audiencias]**: si se ha caído un **[!UICONTROL Calificación de audiencia]** evento, elija la audiencia que desee utilizar en la expresión. [Más información](../condition-activity.md#using-a-segment)
+* **[!UICONTROL Audiencias]**: si ha eliminado un evento de **[!UICONTROL calificación de audiencias]**, elija la audiencia que desee utilizar en la expresión. [Más información](../condition-activity.md#using-a-segment)
 * **[!UICONTROL Fuentes de datos]**: elija entre la lista de campos disponibles en los grupos de campos de las fuentes de datos. [Más información](../../datasource/about-data-sources.md)
-* **[!UICONTROL propiedades del recorrido]**: esta sección reagrupa los campos técnicos relacionados con el recorrido de un perfil determinado. [Más información](journey-properties.md)
+* **[!UICONTROL propiedades de Recorrido]**: esta sección reagrupa los campos técnicos relacionados con el recorrido de un perfil determinado. [Más información](journey-properties.md)
 * **[!UICONTROL Funciones]**: elija entre una lista de funciones integradas que permitan realizar filtros complejos. Las funciones están organizadas por categorías. [Más información](functions.md)
 
 ![](../assets/journey65.png)
@@ -86,7 +86,7 @@ Un mecanismo de validación de sintaxis comprueba la integridad del código. Los
 
 **Necesidad de parámetros al crear condiciones con el editor de expresiones avanzadas**
 
-Si selecciona un campo de una fuente de datos externa que requiere que se llame a un parámetro (consulte [esta página](../../datasource/external-data-sources.md)), aparece una nueva pestaña a la derecha para permitirle especificar este parámetro. El valor del parámetro puede proceder de los eventos colocados en el recorrido o en la fuente de datos del Experience Platform (y no de otras fuentes de datos externas). Por ejemplo, en una fuente de datos relacionada con el tiempo, un parámetro utilizado frecuentemente será &quot;city&quot; (ciudad). Como resultado, debe seleccionar dónde desea obtener este parámetro de ciudad. Las funciones también se pueden aplicar a parámetros para realizar cambios de formato o concatenaciones.
+Si selecciona un campo de un origen de datos externo que requiere que se llame a un parámetro (consulte [esta página](../../datasource/external-data-sources.md)), aparecerá una nueva pestaña a la derecha que le permitirá especificar este parámetro. El valor del parámetro puede proceder de los eventos colocados en el recorrido o en la fuente de datos del Experience Platform (y no de otras fuentes de datos externas). Por ejemplo, en una fuente de datos relacionada con el tiempo, un parámetro utilizado frecuentemente será &quot;city&quot; (ciudad). Como resultado, debe seleccionar dónde desea obtener este parámetro de ciudad. Las funciones también se pueden aplicar a parámetros para realizar cambios de formato o concatenaciones.
 
 ![](../assets/journeyuc2_19.png)
 

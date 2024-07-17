@@ -21,13 +21,13 @@ En este caso de uso se explica cómo escribir eventos personalizados en Adobe Ex
 
 ## Configuración de un proyecto de IO
 
-1. En la consola de Adobe Developer, haga clic en **Proyecto** y abra el proyecto de IO.
+1. En Adobe Developer Console, haga clic en **Proyecto** y abra su proyecto de E/S.
 
-1. En el **Credenciales** , haga clic en **Servidor a servidor OAuth**.
+1. En la sección **Credenciales**, haga clic en **Servidor a servidor de OAuth**.
 
    ![](assets/custom-action-aep-1.png)
 
-1. Clic **Ver comando cURL**.
+1. Haga clic en **Ver comando cURL**.
 
    ![](assets/custom-action-aep-2.png)
 
@@ -39,21 +39,21 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Después de crear el proyecto en la consola de Adobe Developer, asegúrese de otorgar al desarrollador y al control de acceso de la API los permisos adecuados. Obtenga más información en la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Después de crear el proyecto en Adobe Developer Console, asegúrese de otorgar al desarrollador y al control de acceso de la API los permisos adecuados. Obtenga más información en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
-## Configurar el origen mediante la entrada de la API HTTP
+## Configuración de Source mediante la entrada de API HTTP
 
 1. Cree un extremo en Adobe Experience Platform para escribir los datos de los recorridos.
 
-1. En Adobe Experience Platform, haga clic en **Fuentes**, en **Conexiones** en el menú izquierdo. En **API HTTP**, haga clic en **Añadir datos**.
+1. En Adobe Experience Platform, haga clic en **Fuentes**, en **Conexiones** en el menú de la izquierda. En la **API HTTP**, haga clic en **Agregar datos**.
 
    ![](assets/custom-action-aep-3.png)
 
-1. Seleccionar **Nueva cuenta** y habilite la autenticación. Haga clic en **Conectar con el origen**.
+1. Seleccione **Nueva cuenta** y habilite la autenticación. Haz clic en **Conectar con Source**.
 
    ![](assets/custom-action-aep-4.png)
 
-1. Haga clic en **Siguiente** y seleccione el Conjunto de datos donde desea escribir los datos. Clic **Siguiente** y **Finalizar**.
+1. Haga clic en **Siguiente** y seleccione el conjunto de datos donde desea escribir los datos. Haga clic en **Siguiente** y **Finalizar**.
 
    ![](assets/custom-action-aep-5.png)
 
@@ -96,7 +96,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 ## Configuración de la acción personalizada
 
-1. Abra Adobe Journey Optimizer y haga clic en **Configuraciones**, en **Administration** en el menú izquierdo. En **Acciones**, haga clic en **Administrar** y haga clic en **Crear acción**.
+1. Abra Adobe Journey Optimizer y haga clic en **Configuraciones**, en **Administración** en el menú de la izquierda. En **Acciones**, haga clic en **Administrar** y luego en **Crear acción**.
 
 1. Establezca la dirección URL y seleccione el método Post.
 
@@ -108,7 +108,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 ### Configurar la autenticación
 
-1. Seleccione el **Tipo** as **Personalizado** con la siguiente carga útil.
+1. Seleccione **Type** como **Custom** con la siguiente carga útil.
 
 1. Pegue client_secret, client_id, scope y grant_type (desde la carga útil del proyecto de IO utilizada anteriormente).
 
@@ -136,13 +136,13 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. Utilice el **Haga clic en para probar la autenticación** para probar la conexión.
+1. Use **Haga clic para probar el botón de autenticación** y probar la conexión.
 
    ![](assets/custom-action-aep-8.png)
 
 ### Configuración de la carga útil
 
-1. En el **Solicitud** y **Respuesta** , pegue la carga útil de la conexión de origen utilizada anteriormente.
+1. En los campos **Solicitud** y **Respuesta**, pegue la carga útil de la conexión de origen utilizada anteriormente.
 
    ```
    {
@@ -167,7 +167,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. Cambiar la configuración del campo de **Constante** hasta **Variable** para campos que se rellenarán dinámicamente. Guarde la acción personalizada.
+1. Cambie la configuración del campo de **Constant** a **Variable** para los campos que se rellenarán dinámicamente. Guarde la acción personalizada.
 
 ##  Recorrido 
 

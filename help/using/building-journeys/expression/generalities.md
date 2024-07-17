@@ -11,13 +11,13 @@ exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 # Sintaxis avanzada del editor de expresiones {#syntax}
 
-Conceptos básicos de sintaxis al usar [Editor de expresiones avanzadas](expressionadvanced.md) se enumeran a continuación. Hay ejemplos de uso del editor de expresiones avanzadas disponibles en [esta página](advanced-editor-use-cases.md).
+A continuación se enumeran los conceptos básicos de sintaxis al usar el [Editor de expresiones avanzadas](expressionadvanced.md). Hay ejemplos de uso del editor de expresiones avanzadas disponibles en [esta página](advanced-editor-use-cases.md).
 
 ## Paréntesis y prioridad de expresión {#parentheses-and-expression-priority}
 
@@ -36,8 +36,8 @@ Las expresiones se evalúan de izquierda a derecha. Se debe aplicar la asociativ
 
 Estas son las diferentes reglas de distinción de mayúsculas y minúsculas:
 
-* Todos los operadores (y, o, etc.) debe escribirse en minúsculas. Por ejemplo, _`<expression1>`y`<expression2>`_ es una expresión válida, mientras que _`<expression1>`Y`<expression2>`_ no es.
-* Todos los nombres de función distinguen entre mayúsculas y minúsculas. Por ejemplo, _inAudience()_ es válida, mientras que la función _INAUDIENCE()_ no es.
+* Todos los operadores (y, o, etc.) debe escribirse en minúsculas. Por ejemplo, _`<expression1>`y`<expression2>`_ son una expresión válida, mientras que la expresión _`<expression1>`Y`<expression2>`_ no lo son.
+* Todos los nombres de función distinguen entre mayúsculas y minúsculas. Por ejemplo, _inAudience()_ es válida, mientras que la función _INAUDIENCE()_ no lo es.
 * Las referencias de campo y los valores constantes distinguen entre mayúsculas y minúsculas: no son elementos integrados del lenguaje (a diferencia de operadores y funciones), son creados por el usuario final.
 
 ## Tipo de expresión devuelto {#returned-expression-type}

@@ -25,25 +25,25 @@ Por ejemplo, puede especificar que solo desea que se muestre una &quot;Oferta de
 
 Esta es una lista de limitaciones que deben tenerse en cuenta al trabajar con reglas de decisión:
 
-* La toma de decisiones perimetral utiliza el perfil perimetral que no almacena eventos, por lo que cualquier regla utilizada en una decisión perimetral no será válida.
+* Edge Decisioning utiliza el perfil Edge que no almacena eventos, por lo que cualquier regla utilizada en una decisión Edge no será válida.
 * Al crear una regla de decisión, no se admite retroceder a un período de tiempo anterior. Por ejemplo, si especifica un evento de experiencia que se produjo en el último mes como componente de la regla. Cualquier intento de incluir un periodo retrospectivo durante la creación de la regla generará un déclencheur de error al guardarla.
   <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
 
 ## Crear una regla de decisión {#create}
 
-Se puede acceder a la lista de reglas de decisión creadas en el **[!UICONTROL Componentes]** menú.
+Se puede acceder a la lista de reglas de decisión creadas en el menú **[!UICONTROL Componentes]**.
 
 ![](../assets/decision_rules_list.png)
 
 Para crear una regla de decisión, siga estos pasos:
 
-1. Vaya a la **[!UICONTROL Reglas]** y haga clic en **[!UICONTROL Crear regla]**.
+1. Vaya a la pestaña **[!UICONTROL Reglas]** y luego haga clic en **[!UICONTROL Crear regla]**.
 
    ![](../assets/offers_decision_rule_creation.png)
 
 1. Asigne un nombre a la regla, proporcione una descripción y, a continuación, configure la regla según sus necesidades.
 
-   Para ello, utilice la Adobe Experience Platform **Generador de segmentos** está disponible para ayudarle a crear las condiciones de la regla. [Obtenga información sobre cómo crear definiciones de segmentos](../../audience/creating-a-segment-definition.md)
+   Para ello, está disponible el **Generador de segmentos** de Adobe Experience Platform que le ayudará a generar las condiciones de la regla. [Obtenga información sobre cómo generar definiciones de segmentos](../../audience/creating-a-segment-definition.md)
 
    <!--In this example, the rule will target customers that have the "Gold" loyalty level.-->
 
@@ -51,9 +51,9 @@ Para crear una regla de decisión, siga estos pasos:
 
    >[!NOTE]
    >
-   >El Generador de segmentos que se proporciona para crear reglas de decisión presenta algunas particularidades en comparación con el que se utiliza con **[!UICONTROL Segmentación]** servicio. Sin embargo, el proceso global descrito en la [Generador de segmentos](../../audience/creating-a-segment-definition.md) La documentación de sigue siendo válida para generar reglas de decisiones de ofertas. Obtenga más información en la [documentación del Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=es).
+   >El Generador de segmentos proporcionado para crear reglas de decisión presenta algunas características específicas en comparación con el utilizado con el servicio **[!UICONTROL Segmentation]**. Sin embargo, el proceso global descrito en la documentación de [Generador de segmentos](../../audience/creating-a-segment-definition.md) sigue siendo válido para generar reglas de decisiones de ofertas. Obtenga más información en la [documentación del Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=es).
 
-1. Al añadir y configurar nuevos campos en el espacio de trabajo, la variable **[!UICONTROL Propiedades de audiencia]** Este panel muestra información sobre los perfiles estimados que pertenecen a la audiencia. Clic **[!UICONTROL Actualizar estimación]** para actualizar los datos.
+1. A medida que agrega y configura nuevos campos en el área de trabajo, el panel **[!UICONTROL Propiedades de la audiencia]** muestra información sobre los perfiles estimados que pertenecen a la audiencia. Haga clic en **[!UICONTROL Actualizar estimación]** para actualizar los datos.
 
    ![](../assets/offers_decision_rule_creation_estimate.png)
 
@@ -63,13 +63,13 @@ Para crear una regla de decisión, siga estos pasos:
 
 1. Haga clic en **[!UICONTROL Guardar]** para confirmar.
 
-1. Una vez creada la regla, se muestra en el **[!UICONTROL Reglas]** lista. Puede seleccionarlo para mostrar sus propiedades y editarlo o eliminarlo.
+1. Una vez creada la regla, se muestra en la lista **[!UICONTROL Reglas]**. Puede seleccionarlo para mostrar sus propiedades y editarlo o eliminarlo.
 
    ![](../assets/rule_created.png)
 
 >[!CAUTION]
 >
->Actualmente no se admiten ofertas basadas en eventos en [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, no podrá aprovecharlo en una oferta de.
+>Actualmente no se admiten ofertas basadas en eventos en [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, no podrá aprovecharla en una oferta.
 
 ## Tutorial en vídeo {#video}
 

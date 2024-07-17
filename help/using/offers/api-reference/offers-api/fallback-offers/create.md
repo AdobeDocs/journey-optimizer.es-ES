@@ -9,17 +9,17 @@ exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
 # Crear una oferta de reserva {#create-fallback-offer}
 
-Puede crear una oferta de reserva realizando una solicitud de POST a [!DNL Offer Library] API.
+Puede crear una oferta de reserva realizando una solicitud de POST a la API [!DNL Offer Library].
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* en el encabezado de la solicitud:
+La siguiente tabla muestra los valores válidos que comprenden el campo *Content-Type* del encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -74,7 +74,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=fallback
 
 **Respuesta**
 
-Una respuesta correcta devuelve información sobre la oferta de reserva recién creada, incluida su oferta de reserva única `id`. Puede usar el complemento `id` en pasos posteriores para actualizar o eliminar la oferta de reserva o para crear una decisión en un tutorial posterior.
+Una respuesta correcta devuelve información sobre la oferta de reserva recién creada, incluida su oferta de reserva única `id`. Puede usar `id` en pasos posteriores para actualizar o eliminar la oferta de reserva o para crear una decisión en un tutorial posterior.
 
 
 ```json

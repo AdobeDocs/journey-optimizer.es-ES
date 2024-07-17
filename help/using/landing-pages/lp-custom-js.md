@@ -22,11 +22,11 @@ Puede definir el contenido de la página de aterrizaje mediante JavaScript perso
 
 ## Inserción de código JavaScript en una página de aterrizaje
 
-Para insertar JavaScript personalizado en el contenido de una página de aterrizaje, puede hacer lo siguiente:
+Para insertar JavaScript personalizado en el contenido de la página de aterrizaje, puede hacer lo siguiente:
 
-* Importe contenido existente del HTML al empezar a crear el contenido y seleccione el archivo que incluye el código JavaScript personalizado. Obtenga información sobre cómo importar contenido [en esta sección](../email/existing-content.md).
+* Importe contenido existente del HTML al empezar a crear el contenido y seleccione el archivo que incluye el código personalizado de JavaScript. Obtenga información sobre cómo importar contenido [en esta sección](../email/existing-content.md).
 
-* Diseñe la página de aterrizaje desde cero o desde una plantilla guardada. Arrastre y suelte el **[!UICONTROL HTML]** Componente de contenido en el lienzo y mostrar el código fuente para agregar JavaScript al componente. Aprenda a utilizar el componente HTML en [esta sección](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* Diseñe la página de aterrizaje desde cero o desde una plantilla guardada. Arrastre y suelte el componente de contenido **[!UICONTROL HTML]** en el lienzo y muestre el código fuente para agregar su JavaScript al componente. Aprenda a utilizar el componente HTML en [esta sección](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
   ![](assets/lp_designer-html-component.png)
 
@@ -34,15 +34,15 @@ Para insertar JavaScript personalizado en el contenido de una página de aterriz
 
 >[!NOTE]
 >
->Actualmente no puede mostrar JavaScript en acción cuando [previsualización de la página de aterrizaje](create-lp.md#test-landing-page).
+>Actualmente no puedes mostrar JavaScript en acción al [obtener una vista previa de la página de aterrizaje](create-lp.md#test-landing-page).
 
 Para que la página de aterrizaje se muestre correctamente, utilice la siguiente sintaxis, tal como se describe en las secciones siguientes.
 
 ## Inicialización de código
 
-Para inicializar el código JavaScript, debe utilizar el `lpRuntimeReady` evento. Este evento se activará después de la inicialización correcta de la biblioteca. La llamada de retorno se ejecutará con la variable `lpRuntime` para exponer el método de biblioteca y los vínculos.
+Para inicializar el código JavaScript, debe utilizar el evento `lpRuntimeReady`. Este evento se activará después de la inicialización correcta de la biblioteca. La llamada de retorno se ejecutará con el objeto `lpRuntime` para exponer el método de biblioteca y los vínculos.
 
-`LpRuntime` significa &quot;Landing page Runtime&quot;. Este objeto es el identificador de biblioteca principal. Expondrá los vínculos, los métodos de envío de formularios y otros métodos de utilidad que se pueden utilizar en JavaScript personalizado.
+`LpRuntime` significa &quot;Runtime de la página de aterrizaje&quot;. Este objeto es el identificador de biblioteca principal. Expondrá los vínculos, los métodos de envío de formularios y otros métodos de utilidad que se pueden utilizar en JavaScript personalizado.
 
 **Ejemplo:**
 
@@ -87,7 +87,7 @@ Los métodos enumerados a continuación se utilizan para realizar envíos de for
 
 >[!NOTE]
 >
->Dado que el envío del formulario se administra mediante JavaScript personalizado, el envío predeterminado debe deshabilitarse explícitamente mediante la configuración de una variable global `disableDefaultFormSubmission` hasta `true`.
+>Dado que el envío del formulario lo administra JavaScript personalizado, el envío predeterminado debe deshabilitarse explícitamente estableciendo una variable global `disableDefaultFormSubmission` en `true`.
 
 | Nombre | Descripción |
 |--- |--- |
@@ -113,7 +113,7 @@ lpRuntime.submitFormPartial(formSubmissionData,{   // This will not trigger the 
 
 | Nombre | Descripción |
 |--- |--- |
-| getFormData | Este método se puede utilizar para obtener la variable `formData` en forma de objeto JSON. Este objeto se puede pasar a `submitForm` para el envío de formularios. |
+| getFormData | Este método se puede usar para obtener `formData` en forma de objeto JSON. Este objeto se puede pasar a `submitForm` para el envío del formulario. |
 
 **Ejemplo:**
 
@@ -195,7 +195,7 @@ Por ejemplo, tiene un formulario con varias casillas de verificación en la pág
 
 ### Caso de uso 3: Etiquetas de análisis personalizadas
 
-Con JavaScript, puede añadir oyentes de campos de entrada y adjuntar un déclencheur de llamada de Analytics personalizado.
+Con JavaScript puede añadir oyentes de campos de entrada y adjuntar un déclencheur de llamada de análisis personalizado.
 
 ```
 <html>

@@ -24,25 +24,25 @@ Las colecciones le permiten organizar sus ofertas reagrupándolas en categorías
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-Se puede acceder a la lista de colecciones de ofertas en la **[!UICONTROL Ofertas]** menú.
+Se puede acceder a la lista de colecciones de ofertas en el menú **[!UICONTROL Ofertas]**.
 
 ![](../assets/collections_list.png)
 
 Puede crear dos tipos de colecciones:
 
-* **Colecciones dinámicas** son colecciones de ofertas basadas en calificadores de colección (anteriormente conocidas como &quot;etiquetas&quot;). Estas colecciones se actualizan automáticamente. Por ejemplo, si se crea una oferta nueva con el calificador de recopilación seleccionado, esta se agrega automáticamente a la colección.
+* **Las colecciones dinámicas** son colecciones de ofertas basadas en calificadores de colección (anteriormente conocidas como &quot;etiquetas&quot;). Estas colecciones se actualizan automáticamente. Por ejemplo, si se crea una oferta nueva con el calificador de recopilación seleccionado, esta se agrega automáticamente a la colección.
 
-* **Colecciones estáticas** son colecciones creadas seleccionando manualmente ofertas individuales para incluirlas en la colección. La colección solo se puede actualizar añadiendo manualmente más ofertas.
+* **Las colecciones estáticas** son colecciones creadas seleccionando manualmente ofertas individuales para incluirlas en la colección. La colección solo se puede actualizar añadiendo manualmente más ofertas.
 
 Para crear una colección, siga estos pasos:
 
-1. Vaya a la **[!UICONTROL Colecciones]** y haga clic en **[!UICONTROL Crear colección]**.
+1. Vaya a la ficha **[!UICONTROL Colecciones]** y, a continuación, haga clic en **[!UICONTROL Crear colección]**.
 
 1. Especifique el nombre y el tipo de colección que desea crear.
 
    ![](../assets/collection_create.png)
 
-1. Para crear una colección dinámica, utilice el panel izquierdo para seleccionar el calificador de colección de las ofertas que desea agregar a la colección y haga clic en **[!UICONTROL Guardar]**. Todas las ofertas con el calificador de colección seleccionado se guardarán en la colección.
+1. Para crear una colección dinámica, usa el panel izquierdo para seleccionar el calificador de colección de las ofertas que se agregarán a la colección y luego haz clic en **[!UICONTROL Guardar]**. Todas las ofertas con el calificador de colección seleccionado se guardarán en la colección.
 
    Para obtener más información sobre la creación de calificadores de colección, consulte [Crear calificadores de colección](../offer-library/creating-tags.md).
 
@@ -56,7 +56,7 @@ Para crear una colección, siga estos pasos:
    >
    >Las colecciones estáticas no se actualizan automáticamente. Para añadir ofertas a una colección estática, debe editarlas y añadirlas manualmente.
 
-1. Para asignar etiquetas de uso de datos personalizadas o principales a una colección estática, seleccione **[!UICONTROL Administrar acceso]**. [Obtenga más información sobre el Control de acceso de nivel de objeto (OLAC)](../../administration/object-based-access.md)
+1. Para asignar etiquetas de uso de datos principales o personalizadas a una colección estática, selecciona **[!UICONTROL Administrar acceso]**. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../../administration/object-based-access.md)
 
    >[!NOTE]
    >

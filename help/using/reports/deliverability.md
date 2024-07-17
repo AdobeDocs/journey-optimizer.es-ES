@@ -11,7 +11,7 @@ exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
 workflow-type: tm+mt
 source-wordcount: '945'
-ht-degree: 1%
+ht-degree: 14%
 
 ---
 
@@ -23,23 +23,23 @@ La capacidad de entrega es una medida del éxito de los envíos que llegan a las
 >
 >Para los clientes que obtienen una licencia de Healthcare Shield, Adobe utiliza Transport Layer Security (TLS) 1.2 para proteger el intercambio de datos entre los sistemas de los usuarios (destinatarios) y Journey Optimizer (remitente). Si el servidor de correo receptor no es compatible con TLS 1.2, los clientes experimentarán problemas de envío, incluido el rebote de correo electrónico al remitente original.
 
-**Entrega de correo electrónico** hace referencia al conjunto de características que determinan la capacidad de un mensaje para llegar a su destino a través de una dirección de correo electrónico personal, en poco tiempo y con la calidad esperada en términos de contenido y formato. Estas características se dividen en cuatro categorías principales: calidad de datos, mensaje y contenido, infraestructura de envío y reputación. Juntos, forman la base de un programa de envío de correo electrónico exitoso.
+**La capacidad de envío de correo electrónico** hace referencia al conjunto de características que determinan la capacidad de un mensaje para llegar a su destino a través de una dirección de correo electrónico personal, en poco tiempo y con la calidad esperada en términos de contenido y formato. Estas características se dividen en cuatro categorías principales: calidad de datos, mensaje y contenido, infraestructura de envío y reputación. Juntas forman la base del éxito de un programa de envío de correo electrónico.
 
-El **tasa de entrega** es el número de mensajes que llegan a las bandejas de entrada de los destinatarios en comparación con el número de mensajes enviados. Depende de numerosos factores, en particular:
+La **tasa de entrega** es el número de mensajes que llegan a las bandejas de entrada de los destinatarios en comparación con el número de mensajes que se entregaron. Depende de numerosos factores, en particular:
 
 * Quejas de spam limitadas
 * Tasas de devolución duras bajas
 * Calidad de las direcciones objetivo
 * Contenido del mensaje
-* Reputación del remitente
+* Conocimiento del remitente
 
-Para optimizar la entrega de su [!DNL Journey Optimizer] experiencias, recomendamos utilizar las prácticas recomendadas enumeradas en esta sección. Los problemas de entrega generalmente están vinculados a la protección contra el correo no deseado implementada por los proveedores de servicios de Internet (ISP) y los administradores de servidores de correo.
+Para optimizar la entrega de sus experiencias de [!DNL Journey Optimizer], recomendamos que utilice las prácticas recomendadas que se enumeran en esta sección. Los problemas de entrega generalmente están vinculados a la protección contra el correo no deseado implementada por los proveedores de servicios de Internet (ISP) y los administradores de servidores de correo.
 
-Para profundizar en lo que es la capacidad de entrega y obtener más información sobre los términos, conceptos y enfoques clave de la capacidad de entrega, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target="_blank"}.
+Para profundizar en lo que es la capacidad de entrega y obtener más información sobre los términos, conceptos y enfoques clave de la capacidad de entrega, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es){target="_blank"}.
 
 ## Reducir la tasa de quejas {#reduce-complaint-rate}
 
-Los ISP suelen tener un medio prominente para informar un mensaje recibido como correo no deseado. Esto permite identificar fuentes no fiables. Al cumplir rápidamente con las solicitudes de exclusión y, por lo tanto, mostrar que es un remitente confiable, puede reducir las tasas de quejas. [Más información acerca de la administración de la exclusión](../privacy/opt-out.md#opt-out-management)
+Los proveedores de servicios de Internet generalmente tienen un medio prominente para informar un mensaje recibido como correo no deseado. Esto permite identificar fuentes no fiables. Al cumplir rápidamente con las solicitudes de exclusión y, por lo tanto, mostrar que es un remitente confiable, puede reducir las tasas de quejas. [Más información acerca de la administración de la exclusión](../privacy/opt-out.md#opt-out-management)
 
 Como regla general, no intente interferir con los destinatarios que deseen optar por la exclusión obligándolos a rellenar campos como, por ejemplo, su dirección de correo electrónico o su nombre. La página de aterrizaje de baja solo debe tener un botón de validación.
 
@@ -55,9 +55,9 @@ Para proteger la capacidad de entrega, los destinatarios cuyas direcciones está
 
 ## Uso de herramientas de monitorización {#monitoring-tools}
 
-Utilice las funciones que ofrece [!DNL Journey Optimizer] para monitorizar la capacidad de envío.
+Use las características que ofrece [!DNL Journey Optimizer] para supervisar su capacidad de entrega.
 
-El **[!UICONTROL Ejecuciones]** de la lista de mensajes le permite comprobar el rendimiento de sus envíos a través de un conjunto de indicadores en tiempo real. Entre otras cosas, se muestra esta pestaña:
+La ficha **[!UICONTROL Ejecuciones]** de la lista de mensajes le permite comprobar el rendimiento de las entregas a través de un conjunto de indicadores en tiempo real. Entre otras cosas, se muestra esta pestaña:
 * Número de mensajes que se ejecutan, envían y entregan correctamente.
 * El número de mensajes que se han abierto y el número de mensajes/vínculos en los que se ha hecho clic.
 
@@ -69,7 +69,7 @@ Para mejorar la tasa de entrega y asegurarse de que los correos electrónicos ll
 
 * **Nombre y dirección del remitente**: la dirección debe identificar explícitamente al remitente. El dominio debe ser propiedad del remitente y estar registrado por él. El registro de dominios no debe privatizarse.
 
-* **Vínculo de cancelación de suscripción y página de aterrizaje**: el vínculo &quot;Cancelar la suscripción&quot; es esencial. Debe ser visible y válido, y el formulario debe ser funcional.
+* **Vínculo de cancelación de suscripción y página de aterrizaje**: El vínculo de cancelación de suscripción es esencial. Debe ser visible y válido, y el formulario debe ser funcional.
 
 [Más información sobre el diseño de contenido de correo electrónico](../email/get-started-email-design.md)
 
@@ -81,7 +81,7 @@ Si se ha trasladado recientemente a otro proveedor de servicios de correo electr
 
 ## Implementación de DMARC {#dmarc}
 
-Para ayudarle a mitigar el riesgo de que los correos electrónicos legítimos se marquen como correo no deseado o se rechacen, y evitar problemas de envío, [!DNL Journey Optimizer] permite configurar el registro DMARC para todos los subdominios delegados en Adobe.
+Para ayudarle a mitigar el riesgo de que los correos electrónicos legítimos se marquen como correo no deseado o se rechacen, y para evitar problemas de envío, [!DNL Journey Optimizer] le permite configurar el registro DMARC para todos los subdominios que delega en el Adobe.
 
 Autenticación de mensajes, creación de informes y conformidad basados en dominio (DMARC) es un método de autenticación por correo electrónico que permite a los propietarios de dominios proteger su dominio del uso no autorizado por agentes malintencionados.
 
@@ -91,7 +91,7 @@ Autenticación de mensajes, creación de informes y conformidad basados en domin
 
 Un bucle de comentarios (FBL) es un servicio ofrecido por algunos ISP que permite notificar automáticamente al remitente del correo electrónico cuando el usuario que lo recibe decide marcarlo como correo no deseado (también conocido como &quot;queja&quot;).
 
-Una vez que un usuario final genera una queja que el ISP devuelve al Adobe, la dirección de correo electrónico se agrega automáticamente al [lista de supresión](../reports/suppression-list.md) y se excluyen de futuros entregas. De hecho, enviar correos electrónicos a usuarios que los marcaron como correo no deseado afecta negativamente a la reputación del remitente y puede causar problemas de envío. [Más información sobre las quejas por spam](../reports/suppression-list.md#spam-complaints)
+Una vez que un usuario final genera una queja que el ISP devuelve al Adobe, la dirección de correo electrónico se agrega automáticamente a la [lista de supresión](../reports/suppression-list.md) y se excluye de futuros envíos. De hecho, enviar correos electrónicos a usuarios que los marcaron como correo no deseado afecta negativamente a la reputación del remitente y puede causar problemas de envío. [Más información sobre quejas por spam](../reports/suppression-list.md#spam-complaints)
 
 >[!IMPORTANT]
 >

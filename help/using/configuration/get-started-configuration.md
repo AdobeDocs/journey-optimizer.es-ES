@@ -41,7 +41,7 @@ Para poder crear sus recorridos y enviar mensajes, debe seguir los pasos de conf
 
    * Active la **Opción de correo electrónico de BBC** para mantener una copia de los mensajes enviados a personas. [Más información](archiving-support.md#enable-bcc)
 
-   * Configurar **reglas empresariales** para evitar solicitar en exceso a los destinatarios. [Más información](frequency-rules.md)
+   * Configure **reglas comerciales** para evitar saturar a los destinatarios. [Más información](frequency-rules.md)
 
    * Determine la dirección de correo electrónico o el número de teléfono que se utilizará con prioridad para los destinatarios cuando haya varias direcciones o números disponibles en Adobe Experience Platform. [Más información](primary-email-addresses.md)
 

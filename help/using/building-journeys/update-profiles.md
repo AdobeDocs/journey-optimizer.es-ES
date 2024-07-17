@@ -23,20 +23,20 @@ ht-degree: 6%
 >title="Actividad Actualizar perfil"
 >abstract="La actividad de la acción Actualizar perfil permite actualizar un perfil de Adobe Experience Platform existente con información proveniente del evento, una fuente de datos o con un valor específico."
 
-Utilice el **[!UICONTROL Actualizar perfil]** actividad de acción para actualizar un perfil de Adobe Experience Platform existente con información proveniente de un evento, una fuente de datos o con un valor específico.
+Utilice la actividad de acción **[!UICONTROL Actualizar perfil]** para actualizar un perfil de Adobe Experience Platform existente con información proveniente de un evento, una fuente de datos o con un valor específico.
 
 ## Recomendaciones
 
-* El **Actualizar perfil** la acción solo se puede utilizar en recorridos que tengan un área de nombres.
+* La acción **Actualizar perfil** solo se puede usar en recorridos que tengan un área de nombres.
 * La acción solo actualiza los campos existentes, no crea nuevos campos de perfil.
-* No puede usar el **Actualizar perfil** acción para generar eventos de experiencia, por ejemplo una compra.
+* No puede usar la acción **Actualizar perfil** para generar eventos de experiencia, por ejemplo una compra.
 * Al igual que cualquier otra acción, puede definir una ruta alternativa en caso de error o tiempo de espera, y no puede colocar dos acciones en paralelo.
-* La solicitud de actualización enviada a Adobe Experience Platform es inmediata o está en un segundo. Tardará normalmente unos segundos, pero a veces más sin garantía. Como resultado, por ejemplo, si una acción utiliza &quot;campo 1&quot; actualizado por un **Actualizar perfil** acción colocada justo antes, no debería esperar que el &quot;campo 1&quot; se actualice en la acción.
-* El **Actualizar perfil** La actividad no admite campos XDM definidos como una enumeración.
-* El **[!UICONTROL Actualizar perfil]** la actividad solo actualiza el [Almacenamiento de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, no el lago de datos.
-* Al seleccionar un conjunto de datos en la **[!UICONTROL Actualizar perfil]** actividad, se recomienda utilizar una no dirigida por los flujos de ingesta de datos. Porque **Actualizar perfil** Las actualizaciones de solo se almacenan en [Almacenamiento de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}Sin embargo, existe el riesgo de sobrescribir estos cambios con un flujo de ingesta de datos.
+* La solicitud de actualización enviada a Adobe Experience Platform es inmediata o está en un segundo. Tardará normalmente unos segundos, pero a veces más sin garantía. Como resultado, por ejemplo, si una acción está usando &quot;campo 1&quot; actualizado por una acción **Actualizar perfil** colocada justo antes, no debería esperar que &quot;campo 1&quot; se actualice en la acción.
+* La actividad **Actualizar perfil** no admite campos XDM definidos como una enumeración.
+* La actividad **[!UICONTROL Actualizar perfil]** solo actualiza el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, no el lago de datos.
+* Al seleccionar un conjunto de datos en la actividad **[!UICONTROL Actualizar perfil]**, se recomienda utilizar uno no segmentado por los flujos de ingesta de datos. Dado que las actualizaciones del **perfil de actualización** solo se almacenan en el [almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, existe el riesgo de sobrescribir dichos cambios con un flujo de ingesta de datos.
 
-  Además, la variable **Actualizar perfil** la configuración de la actividad no requiere un área de nombres de identidad. De este modo, asegúrese de que el conjunto de datos seleccionado utilice el mismo área de nombres de identidad que utilizó la acción que inició el recorrido, ya que es este área de nombres el que utilizarán estas actualizaciones. El conjunto de datos seleccionado también puede utilizar el mapa de identidad. Si no se selecciona un conjunto de datos con el área de nombres correcta o uno que utiliza el mapa de identidad, el **Actualizar perfil** la actividad fallará.
+  Además, la configuración de la actividad **Actualizar perfil** no requiere un área de nombres de identidad. De este modo, asegúrese de que el conjunto de datos seleccionado utilice el mismo área de nombres de identidad que utilizó la acción que inició el recorrido, ya que es este área de nombres el que utilizarán estas actualizaciones. El conjunto de datos seleccionado también puede utilizar el mapa de identidad. Si no se selecciona un conjunto de datos con el área de nombres correcta o uno que usa el mapa de identidad, la actividad **Actualizar perfil** fallará.
 
 
 
@@ -44,7 +44,7 @@ Utilice el **[!UICONTROL Actualizar perfil]** actividad de acción para actualiz
 
 1. Diseñe su recorrido empezando con un evento. Consulte esta [sección](../building-journeys/journey.md).
 
-1. En el **Acción** de la paleta, suelte el **Actualizar perfil** actividad en el lienzo.
+1. En la sección **Acción** de la paleta, suelte la actividad **Actualizar perfil** en el lienzo.
 
    ![](assets/profileupdate0.png)
 
@@ -58,9 +58,9 @@ Utilice el **[!UICONTROL Actualizar perfil]** actividad de acción para actualiz
 
    >[!NOTE]
    >
-   >El **Actualizar perfil** esta acción actualiza los datos de perfil en tiempo real, pero no actualiza los conjuntos de datos. La selección del conjunto de datos es necesaria, ya que el perfil es un registro relacionado con un conjunto de datos.
+   >La acción **Actualizar perfil** actualiza los datos del perfil en tiempo real, pero no actualiza los conjuntos de datos. La selección del conjunto de datos es necesaria, ya que el perfil es un registro relacionado con un conjunto de datos.
 
-1. Haga clic en **Valor** para definir el valor que desea utilizar:
+1. Haga clic en el campo **Valor** para definir el valor que desea utilizar:
 
    * Con el editor de expresiones simple, puede seleccionar un campo de una fuente de datos o del evento entrante.
 
@@ -70,7 +70,7 @@ Utilice el **[!UICONTROL Actualizar perfil]** actividad de acción para actualiz
 
      ![](assets/profileupdate3.png)
 
-El **Actualizar perfil** ahora está configurado.
+El **perfil de actualización** ya está configurado.
 
 ![](assets/profileupdate1.png)
 
@@ -79,6 +79,6 @@ El **Actualizar perfil** ahora está configurado.
 
 En el modo de prueba, la actualización de perfil no se simula. La actualización se realizará en el perfil de prueba.
 
-Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba. Puede crear un nuevo perfil de prueba o convertir un perfil existente en un perfil de prueba. En Adobe Experience Platform, puede actualizar los atributos de perfiles mediante una importación de archivos csv o llamadas API. Un método más sencillo es utilizar una **Actualizar perfil** actividad de acción y cambie el campo booleano de perfil de prueba de false a true.
+Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba. Puede crear un nuevo perfil de prueba o convertir un perfil existente en un perfil de prueba. En Adobe Experience Platform, puede actualizar los atributos de perfiles mediante una importación de archivos csv o llamadas API. Un método más sencillo consiste en usar una actividad de acción **Actualizar perfil** y cambiar el campo booleano del perfil de prueba de falso a verdadero.
 
-Para obtener más información sobre cómo convertir un perfil existente en un perfil de prueba, consulte [sección](../audience/creating-test-profiles.md#create-test-profiles-csv).
+Para obtener más información sobre cómo convertir un perfil existente en un perfil de prueba, consulte esta [sección](../audience/creating-test-profiles.md#create-test-profiles-csv).

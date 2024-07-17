@@ -37,11 +37,11 @@ ht-degree: 16%
 
 Las restricciones permiten definir las condiciones en las que se mostrará una oferta.
 
-1. Configure las variables **[!UICONTROL Idoneidad de oferta]**. [Más información](#eligibility)
+1. Configurar la **[!UICONTROL idoneidad de la oferta]**. [Más información](#eligibility)
 
    ![](../assets/offer-eligibility.png)
 
-1. Defina el **[!UICONTROL Prioridad]** de la oferta comparada con otras si el usuario cumple los requisitos para más de una oferta. Cuanto mayor sea la prioridad de una oferta, mayor será su prioridad en comparación con otras ofertas.
+1. Defina la **[!UICONTROL Prioridad]** de la oferta en comparación con otras si el usuario cumple los requisitos para más de una oferta. Cuanto mayor sea la prioridad de una oferta, mayor será su prioridad en comparación con otras ofertas.
 
    ![](../assets/offer-priority.png)
 
@@ -49,11 +49,11 @@ Las restricciones permiten definir las condiciones en las que se mostrará una o
    >
    >La prioridad de oferta debe ser un valor entero (sin decimales).
 
-1. Especifique la oferta **[!UICONTROL Límite]**, es decir, el número de veces que se presentará la oferta. [Más información](#capping)
+1. Especifique la **[!UICONTROL restricción]** de la oferta, es decir, el número de veces que se presentará la oferta. [Más información](#capping)
 
    ![](../assets/offer-capping.png)
 
-1. Clic **[!UICONTROL Siguiente]** para confirmar todas las restricciones definidas.
+1. Haga clic en **[!UICONTROL Siguiente]** para confirmar todas las restricciones que definió.
 
 Por ejemplo, si establece las restricciones siguientes:
 
@@ -81,31 +81,31 @@ Por ejemplo, si establece las restricciones siguientes:
 >title="Estimación de perfiles totales"
 >abstract="Al seleccionar públicos o reglas de decisión, puede ver información sobre los perfiles calificados estimados."
 
-El **[!UICONTROL Idoneidad de oferta]** permite restringir la oferta a perfiles específicos que defina mediante audiencias o reglas de decisión.
+La sección **[!UICONTROL idoneidad de la oferta]** le permite restringir la oferta a perfiles específicos que defina mediante audiencias o reglas de decisión.
 
 >[!NOTE]
 >
->Más información sobre el uso de **audiencias** frente **reglas de decisión** in [esta sección](#segments-vs-decision-rules).
+>Más información sobre cómo usar **audiencias** en comparación con **reglas de decisión** en [esta sección](#segments-vs-decision-rules).
 
-* De forma predeterminada, la variable **[!UICONTROL Todos los visitantes]** está seleccionada, lo que significa que cualquier perfil puede optar a la presentación de la oferta.
+* De manera predeterminada, la opción **[!UICONTROL Todos los visitantes]** está seleccionada, lo que significa que cualquier perfil podrá recibir la oferta.
 
   ![](../assets/offer-eligibility-default.png)
 
-* También puede limitar la presentación de la oferta a los miembros de uno o varios [Audiencias de Adobe Experience Platform](../../audience/about-audiences.md).
+* También puede limitar la presentación de la oferta a los miembros de una o varias [audiencias de Adobe Experience Platform](../../audience/about-audiences.md).
 
-  Para ello, active la variable **[!UICONTROL Visitantes de una o varias audiencias]** y, a continuación, añada una o varias audiencias desde el panel izquierdo y combínelas con la opción **[!UICONTROL Y]** / **[!UICONTROL O]** operadores lógicos.
+  Para ello, active la opción **[!UICONTROL Visitantes que pertenecen a una o varias audiencias]**, luego agregue una o varias audiencias desde el panel izquierdo y combínelas con los operadores lógicos **[!UICONTROL And]** / **[!UICONTROL Or]**.
 
   ![](../assets/offer-eligibility-segment.png)
 
-* Si desea asociar una [regla de decisión](../offer-library/creating-decision-rules.md) para añadir la oferta, seleccione **[!UICONTROL Por regla de decisión definida]**, luego arrastre la regla deseada del panel izquierdo al **[!UICONTROL Regla de decisión]** área.
+* Si desea asociar una [regla de decisión](../offer-library/creating-decision-rules.md) específica a la oferta, seleccione **[!UICONTROL Por regla de decisión definida]** y luego arrastre la regla deseada del panel izquierdo al área **[!UICONTROL Regla de decisión]**.
 
   ![](../assets/offer-rule.png)
 
   >[!CAUTION]
   >
-  >Actualmente no se admiten ofertas basadas en eventos en [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, no podrá aprovecharlo en una oferta de.
+  >Actualmente no se admiten ofertas basadas en eventos en [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, no podrá aprovecharla en una oferta.
 
-Al seleccionar audiencias o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Clic **[!UICONTROL Actualizar]** para actualizar los datos.
+Al seleccionar audiencias o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Actualizar]** para actualizar los datos.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -115,7 +115,7 @@ Al seleccionar audiencias o reglas de decisión, puede ver información sobre lo
 
 ### Uso de audiencias o reglas de decisión {#segments-vs-decision-rules}
 
-Para aplicar una restricción, puede restringir la selección de ofertas a los miembros de una o varias **Audiencias de Adobe Experience Platform**, o puede usar una **regla de decisión**, ambas soluciones correspondientes a diferentes usos.
+Para aplicar una restricción, puede restringir la selección de ofertas a los miembros de una o varias **audiencias de Adobe Experience Platform**, o puede usar una **regla de decisión**, ambas soluciones correspondientes a usos diferentes.
 
 Básicamente, el resultado de una audiencia es una lista de perfiles, mientras que una regla de decisión es una función ejecutada a petición en un único perfil durante el proceso de toma de decisiones. A continuación se detalla la diferencia entre estos dos usos.
 
@@ -123,7 +123,7 @@ Básicamente, el resultado de una audiencia es una lista de perfiles, mientras q
 
   Por un lado, las audiencias son un grupo de perfiles de Adobe Experience Platform que coinciden con una lógica determinada en función de atributos de perfil y eventos de experiencia. Sin embargo, Administración de ofertas no vuelve a calcular la audiencia, que puede no estar actualizada al presentar la oferta.
 
-  Más información sobre las audiencias en [esta sección](../../audience/about-audiences.md).
+  Obtenga más información sobre las audiencias en [esta sección](../../audience/about-audiences.md).
 
 * **Reglas de decisión**
 
@@ -146,21 +146,21 @@ Básicamente, el resultado de una audiencia es una lista de perfiles, mientras q
 
 El límite se utiliza como restricción para definir el número máximo de veces que se puede presentar una oferta. Limitar el número de veces que los usuarios obtienen ofertas específicas le permite evitar saturar a sus clientes y, por lo tanto, optimizar cada punto de contacto con la mejor oferta.
 
-Se pueden añadir hasta 10 reglas de límite para una oferta determinada. Para definir una regla de límite, haga clic en **[!UICONTROL Crear límite]** a continuación, siga los pasos a continuación:
+Se pueden añadir hasta 10 reglas de límite para una oferta determinada. Para establecer una regla de límite, haga clic en el botón **[!UICONTROL Crear límite]** y siga los pasos a continuación:
 
 >[!CAUTION]
 >
 >No es posible habilitar o deshabilitar el límite de frecuencia para ofertas creadas anteriormente. Para ello, debe crear una nueva oferta.
 
-1. Definir qué **[!UICONTROL Evento de límite]** se tendrán en cuenta para aumentar el contador. [Más información](#capping-event)
+1. Defina qué **[!UICONTROL evento de límite]** se tendrá en cuenta para aumentar el contador. [Más información](#capping-event)
 
 1. Elija si desea que el límite se aplique a todos los usuarios o solo a un perfil. [Más información](#capping-type)
 
 1. Defina el número de veces que se puede presentar la oferta. [Más información](#capping-count)
 
-1. Configure las variables **[!UICONTROL Frecuencia]** para definir la frecuencia con la que se restablece el recuento límite. [Más información](#frequency-capping)
+1. Establezca la **[!UICONTROL Frecuencia]** para definir la frecuencia con la que se restablecerá el recuento límite. [Más información](#frequency-capping)
 
-1. Si ha definido varios [representaciones](add-representations.md) para la oferta, especifique si desea aplicar un límite **en todas las ubicaciones** o **a cada ubicación**. [Más información](#placements)
+1. Si ha definido varias [representaciones](add-representations.md) para su oferta, especifique si desea aplicar un límite de **en todas las ubicaciones** o **a cada ubicación**. [Más información](#placements)
 
 1. Una vez guardada y aprobada, si la oferta se ha presentado el número de veces especificado en este campo según los criterios y el periodo de tiempo definido, se detendrá su entrega.
 
@@ -170,7 +170,7 @@ El número de veces que se propone una oferta se calcula en el momento de la pre
 
 >[!NOTE]
 >
->Los contadores de límite se restablecerán cuando la oferta caduque o 2 años después de la fecha de inicio de la oferta, lo que ocurra primero. Obtenga información sobre cómo definir la fecha de una oferta en [esta sección](creating-personalized-offers.md#create-offer).
+>Los contadores de límite se restablecerán cuando la oferta caduque o 2 años después de la fecha de inicio de la oferta, lo que ocurra primero. Aprenda a definir la fecha de una oferta en [esta sección](creating-personalized-offers.md#create-offer).
 
 ### Evento de límite {#capping-event}
 
@@ -179,7 +179,7 @@ El número de veces que se propone una oferta se calcula en el momento de la pre
 >title="Impresión"
 >abstract="El uso de impresiones como eventos de límite solo está disponible para canales entrantes."
 
-El **[!UICONTROL Elegir evento de límite]** Este campo permite definir qué evento se tendrá en cuenta para aumentar el contador:
+El campo **[!UICONTROL Elegir evento de límite]** le permite definir qué evento se tendrá en cuenta para aumentar el contador:
 
 ![](../assets/offer-capping-event.png)
 
@@ -189,23 +189,23 @@ El **[!UICONTROL Elegir evento de límite]** Este campo permite definir qué eve
 
   >[!NOTE]
   >
-  >El uso de impresiones como eventos de límite está disponible para **canales entrantes** solo.
+  >El uso de impresiones como eventos de límite solo está disponible para **canales entrantes**.
 
-* **[!UICONTROL Evento personalizado]**: Puede definir un evento personalizado que se utilizará para limitar el número de ofertas enviadas. Por ejemplo, puede limitar el número de canjes hasta que sean iguales a 10000 o hasta que un perfil determinado se haya canjeado 1 vez. Para ello, utilice [ADOBE EXPERIENCE PLATFORM XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"} esquemas para crear una regla de evento personalizada.
+* **[!UICONTROL Evento personalizado]**: puede definir un evento personalizado que se utilizará para limitar el número de ofertas enviadas. Por ejemplo, puede limitar el número de canjes hasta que sean iguales a 10000 o hasta que un perfil determinado se haya canjeado 1 vez. Para ello, use [esquemas XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"} de Adobe Experience Platform para generar una regla de evento personalizada.
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
   En el siguiente ejemplo, desea limitar el número de cierres de compra.
 
-   1. Seleccionar **[!UICONTROL Evento personalizado]** de la lista y utilice el **[!UICONTROL Añadir evento personalizado]** botón.
+   1. Seleccione **[!UICONTROL Custom Event]** de la lista y use el botón **[!UICONTROL Agregar evento personalizado]**.
 
-   1. Utilice el **[!UICONTROL Creación de reglas de eventos personalizadas]** para seleccionar el evento correspondiente. Puede elegir cualquier acción del usuario sobre la que desee limitar las ofertas.
+   1. Use el generador **[!UICONTROL Crear reglas de evento personalizadas]** para seleccionar el evento correspondiente. Puede elegir cualquier acción del usuario sobre la que desee limitar las ofertas.
 
-      Aquí elija **[!UICONTROL Comercio]** > **[!UICONTROL Cierres de compra]** > **[!UICONTROL Valor]** y seleccione **[!UICONTROL existe]** en la lista desplegable.
+      Aquí elige **[!UICONTROL Commerce]** > **[!UICONTROL Cierres de compra]** > **[!UICONTROL Value]** y selecciona **[!UICONTROL exists]** en la lista desplegable.
 
       ![](../assets/offer-capping-custom-event.png)
 
-   1. Una vez creada la regla, se muestra en el **[!UICONTROL Consulta de evento personalizado]** field.
+   1. Una vez creada la regla, se muestra en el campo **[!UICONTROL Consulta de evento personalizado]**.
 
       ![](../assets/offer-capping-custom-event-query.png)
 
@@ -221,17 +221,17 @@ Puede especificar si desea que el límite se aplique a todos los usuarios o a un
 
 ![](../assets/offer-capping-total.png)
 
-* Seleccionar **[!UICONTROL En total]** para definir cuántas veces se puede proponer una oferta en la audiencia de destinatario combinada, es decir, en todos los usuarios.
+* Seleccione **[!UICONTROL En total]** para definir cuántas veces se puede proponer una oferta en la audiencia de destinatario combinada, es decir, en todos los usuarios.
 
   Por ejemplo, si es un minorista de electrónica con una &quot;oferta de venta de televisores&quot;, quiere que la oferta solo se devuelva 200 veces en todos los perfiles.
 
-* Seleccionar **[!UICONTROL Por perfil]** para definir cuántas veces se puede proponer una oferta al mismo usuario.
+* Seleccione **[!UICONTROL Por perfil]** para definir cuántas veces se puede proponer una oferta al mismo usuario.
 
   Por ejemplo, si es un banco con una oferta de &quot;tarjeta de crédito Platinum&quot;, no desea que esta oferta se muestre más de 5 veces por perfil. De hecho, cree que si el usuario ha visto la oferta 5 veces y no ha actuado en consecuencia, tiene una mayor oportunidad de actuar en la siguiente mejor oferta.
 
 ### Recuento límite {#capping-count}
 
-El **[!UICONTROL Límite de recuento límite]** Este campo permite especificar la cantidad de veces que se puede presentar la oferta.
+El campo **[!UICONTROL Límite de recuento de límite]** le permite especificar la cantidad de veces que se puede presentar la oferta.
 
 ![](../assets/offer-capping-times.png)
 
@@ -239,7 +239,7 @@ El **[!UICONTROL Límite de recuento límite]** Este campo permite especificar l
 >
 >El número debe ser un número entero mayor que 0.
 
-Por ejemplo, ha definido un evento de límite personalizado como, por ejemplo, el número de cierres de compra que se tiene en cuenta. Si introduce 10 en la variable **[!UICONTROL Límite de recuento límite]** , no se enviarán más ofertas después de 10 cierres de compra.
+Por ejemplo, ha definido un evento de límite personalizado como, por ejemplo, el número de cierres de compra que se tiene en cuenta. Si introduce 10 en el campo **[!UICONTROL Límite de recuento de límite]**, no se enviarán más ofertas después de 10 cierres de compra.
 
 ### Restricción de frecuencia {#frequency-capping}
 
@@ -248,26 +248,26 @@ Por ejemplo, ha definido un evento de límite personalizado como, por ejemplo, e
 >title="Definir la frecuencia de límite"
 >abstract="Puede elegir restablecer el contador de límite de ofertas de forma diaria, semanal o mensual. Tenga en cuenta que después de publicar la oferta con la restricción de frecuencia habilitada, no podrá cambiar la frecuencia que ha sido definida."
 
-El **[!UICONTROL Restablecer frecuencia de límite]** permite definir la frecuencia con la que se restablece el recuento de límite. Para ello, defina el periodo de tiempo para el recuento (diario, semanal o mensual) e introduzca el número de días/semanas/meses de su elección. Por ejemplo, si desea que el recuento de límite se restablezca cada 2 semanas, seleccione **[!UICONTROL Semanalmente]** en la lista desplegable correspondiente y escriba **2** en el otro campo.
+El campo **[!UICONTROL Restablecer frecuencia límite]** le permite definir la frecuencia con la que se restablece el recuento límite. Para ello, defina el periodo de tiempo para el recuento (diario, semanal o mensual) e introduzca el número de días/semanas/meses de su elección. Por ejemplo, si desea que el recuento límite se restablezca cada 2 semanas, seleccione **[!UICONTROL Semanalmente]** en la lista desplegable correspondiente y escriba **2** en el otro campo.
 
 ![](../assets/offer-capping-frequency.png)
 
 >[!NOTE]
 >
->El restablecimiento del contador de límite de frecuencia se produce en **12:00 UTC**, en el día que haya definido o en el primer día de la semana/mes, si corresponde. El día de inicio de la semana es **Domingo**. Cualquier duración que elija no puede superar **2 años** (es decir, el número correspondiente de meses, semanas o días).
+>El restablecimiento del contador de límite de frecuencia se produce a las **12 a. m. UTC**, el día que haya definido o el primer día de la semana o del mes, según corresponda. El día de inicio de la semana es **domingo**. Cualquier duración que elija no puede exceder de **2 años** (es decir, el número correspondiente de meses, semanas o días).
 >
->Después de publicar la oferta, no podrá cambiar el período de tiempo (mensual, semanal o diario) seleccionado para la frecuencia. Puede seguir editando el límite de frecuencia si la oferta tiene el **[!UICONTROL Borrador]** estado y nunca antes se habían publicado con la restricción de frecuencia habilitada.
+>Después de publicar la oferta, no podrá cambiar el período de tiempo (mensual, semanal o diario) seleccionado para la frecuencia. Puede seguir editando la restricción de frecuencia si la oferta tiene el estado **[!UICONTROL Borrador]** y nunca antes se había publicado con la restricción de frecuencia habilitada.
 
-+++ **Lectura obligatoria: límite de frecuencia y API de Edge Decisioning**
++++ **Lectura obligatoria: Límite de frecuencia y API de decisiones de Edge**
 
 El contador de límite de frecuencia se actualiza y está disponible en una decisión de API de Edge Decisioning en menos de 3 segundos.
 
-Cada región concentradora está asociada con una o más regiones perimetrales. Las reglas de límite de frecuencia se generan y exportan desde cada región de concentrador a sus regiones de límite asociadas. Siempre que se toma una decisión mediante la API de Edge Decisioning, el sistema aplica las reglas disponibles en la misma región de Edge:
+Cada región concentradora está asociada con una o más regiones perimetrales. Las reglas de límite de frecuencia se generan y exportan desde cada región de concentrador a sus regiones de límite asociadas. Siempre que se toma una decisión mediante la API de Edge Decisioning, el sistema aplica las reglas disponibles en la misma región perimetral:
 
 * Si hay una regla que coincida, se incrementa el contador de límite de frecuencia del perfil.
 * De lo contrario, no se crea ningún contador para el perfil y no se aplica la regla de límite de frecuencia. Por lo tanto, el perfil seguirá recibiendo ofertas personalizadas incluso si se supera el umbral de límite.
 
-Por ejemplo, consideremos la región central de su organización como *NLD2* y envía una solicitud de toma de decisiones desde Europa (*IRL1* edge region). En este escenario, la solicitud de toma de decisiones incrementará el contador del perfil, ya que las reglas están disponibles en (Irlanda) *IRL1* región. Sin embargo, si la solicitud de toma de decisiones procede de una región como Japón (*JPN3*), que no es una región fronteriza vinculada a (Países Bajos) *NLD2* región central, no se creará ningún contador y no se aplicarán las reglas de límite de frecuencia.
+Por ejemplo, consideremos la región central de su organización como *NLD2* y está enviando una solicitud de toma de decisiones desde Europa (*IRL1* región perimetral). En este escenario, la solicitud de toma de decisiones incrementará el contador del perfil, ya que las reglas están disponibles en la región *IRL1* de (Irlanda). Sin embargo, si la solicitud de toma de decisiones se origina en una región como Japón (*JPN3*), que no es una región perimetral vinculada a la región concentradora *NLD2* de (Países Bajos), no se creará ningún contador y no se aplicarán las reglas de límite de frecuencia.
 
 Para obtener más información sobre las regiones centrales y perimetrales asociadas a su organización, póngase en contacto con el representante del Adobe.
 
@@ -275,17 +275,17 @@ Para obtener más información sobre las regiones centrales y perimetrales asoci
 
 ### Límite y ubicaciones {#placements}
 
-Si ha definido varios [representaciones](add-representations.md) para la oferta, especifique si desea aplicar un límite en todas las ubicaciones o en cada ubicación.
+Si ha definido varias [representaciones](add-representations.md) para la oferta, especifique si desea aplicar un límite en todas las ubicaciones o en cada una de ellas.
 
 ![](../assets/offer-capping-placement.png)
 
-* **[!UICONTROL Aplicar límite en todas las ubicaciones]**: los recuentos de límite totalizarán todas las decisiones en las ubicaciones asociadas con la oferta.
+* **[!UICONTROL Aplicar límite en todas las ubicaciones]**: el recuento de límite totalizará todas las decisiones en las ubicaciones asociadas con la oferta.
 
-  Por ejemplo, si una oferta tiene un **Correo electrónico** ubicación y una **Web** y se establece el límite en **2 por perfil en todas las ubicaciones**, cada perfil podría recibir la oferta hasta dos veces en total, independientemente de la combinación de ubicaciones.
+  Por ejemplo, si una oferta tiene una ubicación **Email** y **Web**, y establece el límite en **2 por perfil en todas las ubicaciones**, entonces cada perfil podría recibir la oferta hasta dos veces en total, independientemente de la combinación de ubicaciones.
 
 * **[!UICONTROL Aplicar límite a cada ubicación]**: los recuentos de límite aplicarán recuentos de decisión para cada ubicación por separado.
 
-  Por ejemplo, si una oferta tiene un **Correo electrónico** ubicación y una **Web** y se establece el límite en **2 por perfil para cada ubicación**, cada perfil podría recibir la oferta hasta dos veces para la ubicación de correo electrónico y otras dos veces para la ubicación web.
+  Por ejemplo, si una oferta tiene una ubicación **Email** y **Web**, y establece el límite en **2 por perfil para cada ubicación**, cada perfil podría recibir la oferta hasta 2 veces por la ubicación de correo electrónico y otras 2 veces por la ubicación web.
 
 ### Impacto del cambio de fechas en el límite {#capping-change-date}
 
@@ -296,19 +296,19 @@ Si ha definido varios [representaciones](add-representations.md) para la oferta,
 
 Debe proceder con cuidado al cambiar la fecha de una oferta, ya que esto puede tener un impacto en el límite si se cumplen las siguientes condiciones:
 
-* La oferta es [aprobado](#review).
-* [Límite](#capping) ya se ha aplicado a la oferta.
+* La oferta está [aprobada](#review).
+* [El límite](#capping) ya se ha aplicado a la oferta.
 * El límite se define por perfil.
 
 >[!NOTE]
 >
->Obtenga información sobre cómo definir la fecha de una oferta en [esta sección](creating-personalized-offers.md#create-offer).
+>Aprenda a definir la fecha de una oferta en [esta sección](creating-personalized-offers.md#create-offer).
 
 Límite por perfil almacena los recuentos de límite de cada perfil. Al cambiar la fecha de inicio y finalización de una oferta aprobada, el recuento de límite de algunos perfiles podría verse afectado según los diferentes escenarios que se describen a continuación.
 
 ![](../assets/offer-capping-change-date.png)
 
-Estos son los posibles escenarios en los que **cambio de una fecha de inicio de oferta**:
+Estos son los escenarios posibles cuando **se cambia la fecha de inicio de una oferta**:
 
 | Escenario:<br>Si... | Qué sucede:<br>entonces... | Posible impacto en el recuento de límite |
 |--- |--- |--- |
@@ -316,7 +316,7 @@ Estos son los posibles escenarios en los que **cambio de una fecha de inicio de 
 | ... la nueva fecha de inicio es anterior a la fecha de finalización actual, | ... el límite seguirá con una nueva fecha de inicio y se arrastrará el recuento de límite anterior de cada perfil. | No |
 | ... la nueva fecha de inicio es posterior a la fecha de finalización actual, | ... el límite actual caducará y el nuevo recuento de límite volverá a empezar desde 0 para todos los perfiles en la nueva fecha de inicio. | Sí |
 
-Estos son los posibles escenarios en los que **ampliación de una fecha de finalización de oferta**:
+Estos son los posibles escenarios al **ampliar una fecha de finalización de oferta**:
 
 | Escenario:<br>Si... | Qué sucede:<br>entonces... | Posible impacto en el recuento de límite |
 |--- |--- |--- |
@@ -325,13 +325,13 @@ Estos son los posibles escenarios en los que **ampliación de una fecha de final
 
 **Ejemplo**
 
-Supongamos que tiene una oferta con una fecha de inicio original establecida en **Enero de 1**, con caducidad para **Enero de 31**.
+Supongamos que tiene una oferta con una fecha de inicio original establecida en **Enero de 1** y que caduca el **31 de enero**.
 
 1. Los perfiles X, Y y Z se presentan en la oferta.
-1. Activado **Enero de 10**, la fecha de finalización de la oferta se cambia a **15 de febrero**.
-1. **Del 11 de enero al 31 de enero**, solo se presenta el perfil Z en la oferta.
+1. El **10 de enero**, la fecha de finalización de la oferta cambia al **15 de febrero**.
+1. **Del 11 de enero al 31 de enero**, solo se presenta la oferta en el perfil Z.
 
-   * Debido a que una solicitud de toma de decisiones se produjo antes de la fecha de finalización original **para el perfil Z**, la fecha de finalización de la oferta se puede ampliar a **15 de febrero**.
-   * Sin embargo, como no se produjo ninguna actividad antes de la fecha de finalización original de **Perfiles X e Y**, sus contadores caducarán y sus recuentos de límite se restablecerán a 0 en **Enero de 31**.
+   * Debido a que se produjo una solicitud de toma de decisiones antes de la fecha de finalización original **para el perfil Z**, la fecha de finalización de la oferta se puede ampliar al **15 de febrero**.
+   * Sin embargo, como no se produjo ninguna actividad antes de la fecha de finalización original de los **perfiles X e Y**, sus contadores caducarán y sus recuentos de límite se restablecerán a 0 el **31 de enero**.
 
 ![](../assets/offer-capping-change-date-ex.png)

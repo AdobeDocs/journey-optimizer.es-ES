@@ -22,15 +22,15 @@ ht-degree: 17%
 >title="Crear ajustes preestablecidos de la página de aterrizaje"
 >abstract="Para crear una página de aterrizaje y aprovecharla mediante Journey Optimizer, debe crear un ajuste preestablecido de página de aterrizaje que incluya el subdominio que se va a utilizar."
 
-Cuándo [creación de una página de aterrizaje](../landing-pages/create-lp.md#create-a-lp), debe seleccionar un ajuste preestablecido de página de aterrizaje para poder crear la página de aterrizaje y aprovecharla **[!DNL Journey Optimizer]**.
+Al [crear una página de aterrizaje](../landing-pages/create-lp.md#create-a-lp), debe seleccionar un ajuste preestablecido de página de aterrizaje para poder generar la página de aterrizaje y aprovecharla a través de **[!DNL Journey Optimizer]**.
 
 ## Acceder a ajustes preestablecidos de página de aterrizaje {#access-lp-presets}
 
 Para acceder a los ajustes preestablecidos de la página de aterrizaje, siga los pasos a continuación.
 
-1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Canales]** menú.
+1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]**.
 
-1. Seleccionar **[!UICONTROL Marca]** > **[!UICONTROL Ajustes preestablecidos de página de destino]**.
+1. Seleccione **[!UICONTROL Marca]** > **[!UICONTROL Ajustes preestablecidos de página de aterrizaje]**.
 
    ![](assets/lp_presets-access.png)
 
@@ -46,9 +46,9 @@ Para crear un ajuste preestablecido de página de aterrizaje, siga los pasos a c
 >
 >Para poder crear un ajuste preestablecido, asegúrese de haber configurado previamente al menos un subdominio de página de aterrizaje. [Descubra cómo](lp-subdomains.md)
 
-1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Canales]** menú, luego seleccione **[!UICONTROL Marca]** > **[!UICONTROL Ajustes preestablecidos de página de destino]**.
+1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** y, a continuación, seleccione **[!UICONTROL Marca]** > **[!UICONTROL Ajustes preestablecidos de página de aterrizaje]**.
 
-1. Seleccionar **[!UICONTROL Crear ajuste preestablecido de página de aterrizaje]**.
+1. Seleccione **[!UICONTROL Crear ajuste preestablecido de página de aterrizaje]**.
 
    ![](assets/lp_create-preset-temp.png)
 
@@ -56,7 +56,7 @@ Para crear un ajuste preestablecido de página de aterrizaje, siga los pasos a c
 
    >[!NOTE]
    >
-   > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar guiones bajos `_`, punto`.` y guiones `-` caracteres.
+   > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto`.` y guión `-`.
 
 1. Seleccione un subdominio de página de aterrizaje de la lista desplegable.
 
@@ -68,21 +68,21 @@ Para crear un ajuste preestablecido de página de aterrizaje, siga los pasos a c
 
    Se muestra la configuración correspondiente al subdominio seleccionado.
 
-1. Si desea seleccionar el subdominio de página de aterrizaje para la URL de seguimiento, consulte la **[!UICONTROL Igual que el subdominio de página de aterrizaje]** opción. [Más información sobre el seguimiento](../email/message-tracking.md)
+1. Si desea seleccionar el subdominio de página de aterrizaje para la URL de seguimiento, marque la opción **[!UICONTROL Igual que el subdominio de página de aterrizaje]**. [Más información sobre el seguimiento](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
    Por ejemplo, si la dirección URL de la página de aterrizaje es &quot;pages.mail.luma.com&quot; y la dirección URL de seguimiento es &quot;data.mail.luma.com&quot;, puede elegir &quot;pages.mail.luma.com&quot; para utilizarlo como subdominio de seguimiento.
 
-1. Clic **[!UICONTROL Enviar]** para confirmar la creación del ajuste preestablecido de página de aterrizaje. <!--You can also save the preset as draft and resume its configuration later on.-->
+1. Haga clic en **[!UICONTROL Enviar]** para confirmar la creación del ajuste preestablecido de página de aterrizaje. <!--You can also save the preset as draft and resume its configuration later on.-->
 
    <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 
-1. Una vez creado el ajuste preestablecido de página de aterrizaje, se muestra en la lista con el **[!UICONTROL Activo]** estado. Está listo para utilizarse para sus páginas de aterrizaje.
+1. Una vez creado el ajuste preestablecido de página de aterrizaje, se muestra en la lista con el estado **[!UICONTROL Activo]**. Está listo para utilizarse para sus páginas de aterrizaje.
 
    ![](assets/lp-preset-active-temp.png)
 
-Ya está listo para [creación de páginas de aterrizaje](../landing-pages/create-lp.md) in [!DNL Journey Optimizer].
+Ya está listo para [crear páginas de aterrizaje](../landing-pages/create-lp.md) en [!DNL Journey Optimizer].
 <!--
 >[!NOTE]
 >

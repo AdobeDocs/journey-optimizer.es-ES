@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: concat
+title: concatena
 description: Obtenga información acerca de la función concat.
 feature: Journeys
 role: Data Engineer, Architect
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 ---
 
-# concat {#concat}
+# concatena {#concat}
 
 Concatena dos parámetros de cadena o una lista de cadenas.
 
@@ -31,7 +31,7 @@ Cadena
 | Parámetro | Tipo |
 |-----------|------------------|
 | Lista | listString |
-| string | string |
+| cadena | cadena |
 
 ## Firma y tipo devuelto
 

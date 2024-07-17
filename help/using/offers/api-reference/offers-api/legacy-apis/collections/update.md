@@ -9,19 +9,19 @@ exl-id: bf12d22f-e6c0-45fd-a2b2-149d3f4cf882
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
 # Actualizar una colección {#update-collection}
 
-Puede modificar o actualizar una colección realizando una solicitud de PATCH a [!DNL Offer Library] API
+Puede modificar o actualizar una colección realizando una solicitud de PATCH a la API [!DNL Offer Library]
 
-Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte el [Documentación de parches de JSON](https://jsonpatch.com/).
+Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte la [documentación oficial del parche JSON](https://jsonpatch.com/).
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* y *Aceptar* campos en el encabezado de la solicitud:
+En la tabla siguiente se muestran los valores válidos que comprenden los campos *Content-Type* y *Accept* del encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -67,13 +67,13 @@ curl -X PATCH \
 
 | Parámetro | Descripción |
 | --------- | ----------- |
-| `op` | La llamada de operación utilizada para definir la acción necesaria para actualizar la conexión. Las operaciones incluyen: `add`, `replace`, y `remove`. |
+| `op` | La llamada de operación utilizada para definir la acción necesaria para actualizar la conexión. Las operaciones incluyen: `add`, `replace` y `remove`. |
 | `path` | Ruta del parámetro que se va a actualizar. |
 | `value` | El nuevo valor con el que desea actualizar el parámetro. |
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles actualizados de la colección, incluidos su ID de instancia y su colección únicos `@id`.
+Una respuesta correcta devuelve los detalles actualizados de la colección, incluido su identificador de instancia único y la colección `@id`.
 
 ```json
 {

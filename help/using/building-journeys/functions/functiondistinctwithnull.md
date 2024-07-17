@@ -18,7 +18,7 @@ ht-degree: 7%
 
 Devuelve los distintos valores u objetos de una lista determinada. Si la lista tiene al menos una entrada nula, aparecerá una entrada nula en la lista devuelta.
 
-Observe que el parámetro `<listObject>` no es compatible con esta función.
+Tenga en cuenta que el parámetro `<listObject>` no se admite en esta función.
 
 ## Categoría
 
@@ -72,4 +72,4 @@ Devuelve una lista de duraciones.
 
 `distinctWithNull([10,2,10,null])`
 
-Devuelve [10, 2, nulo]
+Devuelve [10, 2, null]

@@ -20,10 +20,10 @@ ht-degree: 2%
 
 ## Mecanismos de validación {#validation-mechanisms}
 
-En el **editor de personalización** pantalla, utilice el **Validate** para comprobar la sintaxis de personalización.
+En la pantalla del **editor de personalización**, use el botón **Validar** para comprobar la sintaxis de personalización.
 
 >[!NOTE]
-> La validación se ejecuta automáticamente al hacer clic en **Añadir** para cerrar la ventana del editor.
+> La validación se ejecuta automáticamente al hacer clic en el botón **Agregar** para cerrar la ventana del editor.
 >
 
 ![](assets/perso_validation1.png)
@@ -38,17 +38,17 @@ En el **editor de personalización** pantalla, utilice el **Validate** para comp
 
 Al intentar hacer referencia a un campo que no está definido en el esquema.
 
-En este caso **firstName1** no se define como atributo en el esquema de perfil:
+En este caso **firstName1** no está definido como atributo en el esquema de perfil:
 
 ```
 {{profile.person.name.firstName1}}
 ```
 
-* **No coinciden los tipos para la variable &quot;XYZ&quot;. Matriz esperada. Cadena encontrada.**
+* **No coinciden los tipos para la variable &quot;XYZ&quot;. Matriz esperada. Se encontró la cadena.**
 
 Al intentar repetir una cadena en lugar de una matriz:
 
-En este caso **producto** no es una matriz:
+En este caso **product** no es una matriz:
 
 ```
 {{each profile.person.name.firstName as |product|}}
@@ -56,7 +56,7 @@ En este caso **producto** no es una matriz:
 {{/each}}
 ```
 
-* **Sintaxis de handlebars no válida. Encontrado`‘[XYZ}}’`**
+* **Sintaxis de handlebars no válida. Se encontró`‘[XYZ}}’`**
 
 Cuando se utiliza sintaxis de handlebars no válida.
 
@@ -85,13 +85,13 @@ La validación se realiza durante la validación del contenido de personalizaci�
 <table> 
  <thead> 
   <tr> 
-   <th> Título del error<br /> </th> 
+   <th> Título del error <br /> </th> 
    <th> Validación/resolución <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>No se ha encontrado el recurso con ID de colocación y tipo OfferPlacement <br/>
+   <td>No se encontró el recurso con id placementID y tipo OfferPlacement <br/>
 No se ha encontrado el recurso con ID de actividad y tipo de actividad de oferta<br/></td> 
    <td>Comprobar si ActivityID o PlacementID están disponibles</td> 
   </tr> 

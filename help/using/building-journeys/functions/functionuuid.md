@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: uuid
+title: UUID
 description: Obtenga información acerca del uuid de función
 feature: Journeys
 role: Data Engineer, Architect
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 ---
 
-# uuid {#uuid}
+# UUID {#uuid}
 
 Genera un UUID aleatorio (identificador único universal).
 

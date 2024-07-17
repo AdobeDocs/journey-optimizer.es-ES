@@ -25,17 +25,17 @@ Los métodos de clasificación permiten clasificar los elementos que se muestran
 
 Hay dos tipos de métodos de clasificación disponibles:
 
-* **Fórmulas** permite definir reglas que determinan qué elemento debe presentarse primero, en lugar de tener en cuenta las puntuaciones de prioridad del elemento.
+* **Las fórmulas** le permiten definir reglas que determinan qué elemento se debe presentar primero, en lugar de tener en cuenta las puntuaciones de prioridad del elemento.
 
-* **modelos de IA** le permite utilizar sistemas de modelos formados que aprovecharán varios puntos de datos para determinar qué elemento se debe presentar primero.
+* **modelos de IA** le permiten usar sistemas de modelos entrenados que aprovecharán varios puntos de datos para determinar qué elemento se debe presentar primero.
 
 ## Creación de métodos de clasificación {#create}
 
 Para crear un método de clasificación, siga estos pasos:
 
-1. Vaya a **[!UICONTROL Configuración de estrategia]** y, a continuación, seleccione **[!UICONTROL Fórmulas]** o **[!UICONTROL modelos de IA]** según el tipo de clasificación que desee utilizar.
+1. Vaya al menú **[!UICONTROL Configuración de estrategia]** y, a continuación, seleccione el menú **[!UICONTROL Fórmulas]** o **[!UICONTROL Modelos de IA]** según el tipo de clasificación que desee utilizar.
 
-1. Haga clic en **[!UICONTROL Crear fórmula]** o **[!UICONTROL Crear modelo de IA]** en la esquina superior derecha de la pantalla.
+1. Haga clic en el botón **[!UICONTROL Crear fórmula]** o **[!UICONTROL Crear modelo de IA]** en la esquina superior derecha de la pantalla.
 
    ![](assets/ranking-create.png)
 
@@ -49,7 +49,7 @@ Para crear un método de clasificación, siga estos pasos:
 
 ## Aprovechamiento de atributos de elementos de decisión en fórmulas {#items}
 
-Las fórmulas de clasificación se expresan en **Sintaxis PQL** y pueden aprovechar varios atributos, como atributos de perfil, [datos de contexto](context-data.md) y atributos relacionados con los elementos de decisión.
+Las fórmulas de clasificación se expresan en **sintaxis de PQL** y pueden aprovechar varios atributos, como atributos de perfil, [datos de contexto](context-data.md) y atributos relacionados con los elementos de decisión.
 
 Para aprovechar los atributos relacionados con los elementos de decisión en las fórmulas, asegúrese de seguir la sintaxis siguiente en el código de la fórmula de clasificación. Expanda cada sección para obtener más información:
 

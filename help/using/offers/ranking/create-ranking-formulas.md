@@ -17,9 +17,9 @@ ht-degree: 3%
 
 ## Acerca de las fórmulas de clasificación {#about-ranking-formulas}
 
-**Clasificar fórmulas** permite definir reglas que determinan qué oferta debe presentarse primero para una ubicación determinada, en lugar de tener en cuenta las puntuaciones de prioridad de las ofertas.
+**Las fórmulas de clasificación** le permiten definir reglas que determinan qué oferta debe presentarse primero para una ubicación determinada, en lugar de tener en cuenta las puntuaciones de prioridad de las ofertas.
 
-Las fórmulas de clasificación se expresan en **Sintaxis PQL** y pueden aprovechar atributos de perfil, datos de contexto y atributos de oferta. Para obtener más información sobre cómo utilizar la sintaxis PQL, consulte la [documentación dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=es).
+Las fórmulas de clasificación se expresan en **sintaxis de PQL** y pueden aprovechar atributos de perfil, datos de contexto y atributos de oferta. Para obtener más información sobre cómo usar la sintaxis de PQL, consulte la [documentación específica](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=es).
 
 Una vez creada una fórmula de clasificación, puede asignarla a una ubicación en una decisión. Para obtener más información, consulte [Configurar la selección de ofertas en decisiones](../offer-activities/configure-offer-selection.md).
 
@@ -27,17 +27,17 @@ Una vez creada una fórmula de clasificación, puede asignarla a una ubicación 
 
 Para crear una fórmula de clasificación, siga los pasos a continuación:
 
-1. Acceda a la **[!UICONTROL Componentes]** y, a continuación, seleccione la **[!UICONTROL Clasificación]** pestaña. El **[!UICONTROL Fórmulas]** está seleccionada de forma predeterminada. Se muestra la lista de fórmulas creadas anteriormente.
+1. Acceda al menú **[!UICONTROL Componentes]** y, a continuación, seleccione la ficha **[!UICONTROL Clasificación]**. La ficha **[!UICONTROL Fórmulas]** está seleccionada de manera predeterminada. Se muestra la lista de fórmulas creadas anteriormente.
 
    ![](../assets/rankings-list.png)
 
-1. Clic **[!UICONTROL Crear clasificación]** para crear una nueva fórmula de clasificación.
+1. Haga clic en **[!UICONTROL Crear clasificación]** para crear una nueva fórmula de clasificación.
 
    ![](../assets/ranking-create-formula.png)
 
 1. Especifique el nombre, la descripción y la fórmula de la fórmula.
 
-   En este ejemplo, queremos aumentar la prioridad de todas las ofertas con el atributo &quot;hot&quot; si el tiempo real es caluroso. Para ello, la variable **contextData.weather=hot** se pasó en la llamada de toma de decisiones.
+   En este ejemplo, queremos aumentar la prioridad de todas las ofertas con el atributo &quot;hot&quot; si el tiempo real es caluroso. Para ello, se pasó **contextData.weather=hot** en la llamada de toma de decisiones.
 
    ![](../assets/ranking-syntax.png)
 
@@ -47,7 +47,7 @@ Para crear una fórmula de clasificación, siga los pasos a continuación:
 
 1. Haga clic en **[!UICONTROL Guardar]**. Cuando se crea la fórmula de clasificación, puede seleccionarla en la lista para obtener detalles y editarla o eliminarla.
 
-   Ahora está listo para utilizarse en una decisión para clasificar ofertas aptas para una ubicación (consulte [Configuración de la selección de ofertas en decisiones](../offer-activities/configure-offer-selection.md)).
+   Ahora está listo para utilizarse en una decisión para clasificar ofertas aptas para una ubicación (consulte [Configurar la selección de ofertas en decisiones](../offer-activities/configure-offer-selection.md)).
 
    ![](../assets/ranking-formula-created.png)
 
@@ -107,7 +107,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 ### Aumente las ofertas con ciertos atributos de oferta según los datos de contexto
 
-Impulse determinadas ofertas en función de los datos de contexto que se pasan en la llamada de toma de decisiones. Por ejemplo, si la variable `contextData.weather=hot` se pasa en la llamada de decisión, la prioridad de todas las ofertas con `attribute=hot` debe ser potenciado.
+Impulse determinadas ofertas en función de los datos de contexto que se pasan en la llamada de toma de decisiones. Por ejemplo, si se pasa `contextData.weather=hot` en la llamada de decisión, se debe aumentar la prioridad de todas las ofertas con `attribute=hot`.
 
 **Fórmula de clasificación:**
 
@@ -118,7 +118,7 @@ and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;ver
 
 Tenga en cuenta que, al utilizar la API de decisiones, los datos de contexto se añaden al elemento de perfil en el cuerpo de la solicitud, como en el ejemplo siguiente.
 
-**Fragmento del cuerpo de la solicitud:**
+**Fragmento del cuerpo de solicitud:**
 
 ```
 "xdm:profiles": [
@@ -173,7 +173,7 @@ Las ofertas contendrían un atributo para *propensityType* que coincide con la c
 
 ![](../assets/ranking-example-propensityType.png)
 
-La fórmula de clasificación puede establecer la prioridad de cada oferta para que sea igual a los clientes *propensityScore* por eso *propensityType*. Si no se encuentra ninguna puntuación, utilice la prioridad estática establecida en la oferta:
+La fórmula de clasificación puede establecer la prioridad de cada oferta para que sea igual a la *puntuación de tendencia* de los clientes para ese *tipo de tendencia*. Si no se encuentra ninguna puntuación, utilice la prioridad estática establecida en la oferta:
 
 ```
 let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring

@@ -30,7 +30,7 @@ ht-degree: 11%
 
 ## Acerca de los grupos de IP {#about-ip-pools}
 
-Con [!DNL Journey Optimizer], puede crear grupos de IP para agrupar las direcciones IP de los subdominios.
+Con [!DNL Journey Optimizer], puede crear grupos de IP para agrupar las direcciones IP de sus subdominios.
 
 Se recomienda crear grupos de IP para la entrega por correo electrónico. Al hacerlo, puede evitar que la reputación de un subdominio afecte a los demás subdominios.
 
@@ -44,7 +44,7 @@ Por ejemplo, una práctica recomendada es tener un grupo de IP para los mensajes
 
 Para crear un grupo de IP, siga estos pasos:
 
-1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Canales]** > **[!UICONTROL Grupos de IP]** y haga clic en **[!UICONTROL Crear grupo de IP]**.
+1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Grupos de IP]** y haga clic en **[!UICONTROL Crear grupo de IP]**.
 
    ![](assets/ip-pool-create.png)
 
@@ -54,7 +54,7 @@ Para crear un grupo de IP, siga estos pasos:
    >
    >El nombre debe comenzar por una letra (A-Z) e incluir solo caracteres alfanuméricos o caracteres especiales ( _, ., - ).
 
-1. Seleccione las direcciones IP que desea incluir en el grupo de la lista desplegable y haga clic en **[!UICONTROL Enviar]**.
+1. Seleccione las direcciones IP que desea incluir en el grupo en la lista desplegable y luego haga clic en **[!UICONTROL Enviar]**.
 
    ![](assets/ip-pool-config.png)
 
@@ -100,16 +100,16 @@ Para editar un grupo de IP, siga los pasos a continuación.
 
 1. Guarde los cambios.
 
-La actualización es efectiva de inmediato o de forma asíncrona, según el grupo de IP que se asocie a una [superficie de canal](channel-surfaces.md) o no:
+La actualización es efectiva inmediatamente o de forma asíncrona, dependiendo de si el grupo de IP está asociado o no a una [superficie de canal](channel-surfaces.md):
 
-* Si el grupo de IP es **no** asociada a cualquier superficie de canal, la actualización es instantánea (**[!UICONTROL Correcto]** status).
-* Si el grupo de IP **es** asociado a una superficie de canal, la actualización puede tardar hasta tres horas (**[!UICONTROL Procesando]** status).
+* Si el grupo de IP es **no** y está asociado a cualquier superficie de canal, la actualización es instantánea (estado **[!UICONTROL Correcto]**).
+* Si el grupo de IP **está** asociado con una superficie de canal, la actualización puede tardar hasta tres horas (estado **[!UICONTROL Procesando]**).
 
 >[!NOTE]
 >
->Cuándo [creación de una superficie de canal](channel-surfaces.md#create-channel-surface), si selecciona un grupo de IP que se encuentra en edición (**[!UICONTROL Procesando]** estado) y nunca se ha asociado al subdominio seleccionado para esa superficie, no se puede continuar con la creación de superficies. [Más información](channel-surfaces.md#subdomains-and-ip-pools)
+>Al [crear una superficie de canal](channel-surfaces.md#create-channel-surface), si selecciona un grupo de IP que está en edición (estado **[!UICONTROL Procesando]**) y nunca se ha asociado con el subdominio seleccionado para esa superficie, no podrá continuar con la creación de la superficie. [Más información](channel-surfaces.md#subdomains-and-ip-pools)
 
-Para comprobar el estado de actualización del grupo de IP, haga clic en **[!UICONTROL Más acciones]** y seleccione **[!UICONTROL Actualizaciones recientes]**.
+Para comprobar el estado de actualización del grupo de IP, haga clic en el botón **[!UICONTROL Más acciones]** y seleccione **[!UICONTROL Actualizaciones recientes]**.
 
 ![](assets/ip-pool-recent-update.png)
 
@@ -119,5 +119,5 @@ Para comprobar el estado de actualización del grupo de IP, haga clic en **[!UIC
 >* unos minutos antes de que los mensajes unitarios lo consuman,
 >* hasta el siguiente lote para que el grupo de IP sea efectivo en los mensajes por lotes.
 
-También puede utilizar la variable **[!UICONTROL Eliminar]** para eliminar un grupo de IP. Tenga en cuenta que no puede eliminar un grupo de IP que se haya asociado a una superficie de canal.
+También puede usar el botón **[!UICONTROL Eliminar]** para eliminar un grupo de IP. Tenga en cuenta que no puede eliminar un grupo de IP que se haya asociado a una superficie de canal.
 

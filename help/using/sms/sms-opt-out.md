@@ -32,9 +32,9 @@ De acuerdo con las normas y los reglamentos del sector, todos los mensajes SMS s
 
 De forma predeterminada, Adobe Journey Optimizer gestiona los siguientes mensajes de respuesta estándar en inglés para mensajes de códigos cortos, gratuitos y de código largo:
 
-* **Opción de exclusión**: DETENER, SALIR, CANCELAR, FINALIZAR, CANCELAR SUSCRIPCIÓN, NO.
-* **Opt-in**: SUSCRIBIRSE, SÍ, NO DETENER, INICIAR, CONTINUAR, REANUDAR, INICIAR.
-* **Ayuda**: AYUDA.
+* **Exclusión**: DETENER, SALIR, CANCELAR, FINALIZAR, CANCELAR SUSCRIPCIÓN, NO.
+* **Inclusión**: SUSCRIBIRSE, SÍ, NO DETENER, INICIAR, CONTINUAR, REANUDAR, INICIAR.
+* **Ayuda**: HELP.
 
 Estas palabras clave suelen almacenar en déclencheur una respuesta estándar automática de su proveedor de terceros. Puede confirmar esto directamente con su proveedor o a través de su sitio de documentación.
 
@@ -45,7 +45,7 @@ No se requiere ningún paso para garantizar que las funcionalidades de exclusió
 
 ## Listas de bloqueados {#sms-blocklists}
 
-Además de detener el envío con Adobe Journey Optimizer en función del estado de exclusión (para integraciones directas con Twilio, Infobip o Sinch), la mayoría de los proveedores de puertas de enlace por SMS también mantienen una lista de bloqueados que garantiza que un mensaje SMS no se envíe a una persona que haya elegido excluirse. Si utiliza un proveedor que no sea Sinch o Twilio y envía un SMS a través de [canal personalizado](../building-journeys/using-custom-actions.md), debe confirmarlo con su proveedor.
+Además de detener el envío con Adobe Journey Optimizer en función del estado de exclusión (para integraciones directas con Twilio, Infobip o Sinch), la mayoría de los proveedores de puertas de enlace por SMS también mantienen una lista de bloqueados que garantiza que un mensaje SMS no se envíe a una persona que haya elegido excluirse. Si utiliza un proveedor que no sea Sinch o Twilio y envía un SMS a través del [canal personalizado](../building-journeys/using-custom-actions.md), debe confirmarlo con su proveedor.
 
 
 ## Códigos cortos {#short-codes}

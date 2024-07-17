@@ -18,7 +18,7 @@ ht-degree: 21%
 
 # Uso de listas semilla {#seed-lists}
 
-Listas semilla en [!DNL Journey Optimizer] permiten incluir automáticamente direcciones semilla específicas en las entregas.
+Las listas semilla de [!DNL Journey Optimizer] permiten incluir automáticamente direcciones semilla específicas en los envíos.
 
 >[!CAUTION]
 >
@@ -48,11 +48,11 @@ Las direcciones semilla no son perfiles reales ni perfiles de prueba, ya que no 
 
 >[!NOTE]
 >
->Se admiten variantes, incluidas las multilingües y de experimentación. Cada dirección semilla recibe una sola copia de cada variante del mismo mensaje; por ejemplo, versiones diferentes de una [experimento de contenido](../content-management/get-started-experiment.md). Tenga en cuenta que no se envían correos electrónicos semilla independientes para el contenido condicional.
+>Se admiten variantes, incluidas las multilingües y de experimentación. Cada dirección semilla recibe una sola copia de todas las variantes del mismo mensaje; por ejemplo, versiones diferentes de un [experimento de contenido](../content-management/get-started-experiment.md). Tenga en cuenta que no se envían correos electrónicos semilla independientes para el contenido condicional.
 
 ## Acceso a las listas semilla {#access-seed-lists}
 
-Para acceder a las listas semilla ya creadas, vaya a **[!UICONTROL Administration]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** y seleccione **[!UICONTROL Lista semilla]**.
+Para acceder a las listas semilla ya creadas, ve a **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** y selecciona **[!UICONTROL Lista semilla]**.
 
 <!--
 >[!CAUTION]
@@ -61,7 +61,7 @@ Para acceder a las listas semilla ya creadas, vaya a **[!UICONTROL Administratio
 
 >[!CAUTION]
 >
->Para poder ver, editar y administrar listas semilla, debe tener el **[!UICONTROL Administrar lista de semilla]** permiso.
+>Para poder ver, editar y administrar listas semilla, debe tener el permiso **[!UICONTROL Administrar lista semilla]**.
 
 ![](assets/seed-list-access.png)
 
@@ -69,11 +69,11 @@ Puede buscar listas semilla por nombre o filtrar por el usuario que ha creado la
 
 ![](assets/seed-list-filtering.png)
 
-Utilice el **[!UICONTROL Eliminar]** para eliminar una entrada de forma permanente.
+Use el botón **[!UICONTROL Eliminar]** para quitar una entrada de forma permanente.
 
 >[!CAUTION]
 >
->No es posible eliminar una lista semilla que se utilice en un activo [campaña](../campaigns/review-activate-campaign.md) o [recorrido](../building-journeys/publishing-the-journey.md). Se debe desactivar la campaña o el recorrido, o editarlo para utilizar otra superficie que no tenga seleccionada la lista semilla. [Más información sobre el uso de una lista semilla](#use-seed-list)
+>No es posible eliminar una lista semilla que se use en una [campaña](../campaigns/review-activate-campaign.md) o [recorrido](../building-journeys/publishing-the-journey.md) activos. Se debe desactivar la campaña o el recorrido, o editarlo para utilizar otra superficie que no tenga seleccionada la lista semilla. [Más información sobre cómo usar una lista semilla](#use-seed-list)
 
 Puede hacer clic en el nombre de una lista semilla para editarla. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -92,9 +92,9 @@ Puede hacer clic en el nombre de una lista semilla para editarla. <!--Use the **
 
 Para crear una lista semilla, siga los pasos a continuación.
 
-1. Acceda a la **[!UICONTROL Administration]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** > **[!UICONTROL Lista semilla]** menú.
+1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** > **[!UICONTROL Lista semilla]**.
 
-1. Seleccione el **[!UICONTROL Creación de una lista semilla]** botón.
+1. Seleccione el botón **[!UICONTROL Crear lista semilla]**.
 
    ![](assets/seed-list-create-button.png)
 
@@ -122,7 +122,7 @@ Para crear una lista semilla, siga los pasos a continuación.
    >
    >Puede combinar ambas opciones, pero el número total de direcciones en una lista semilla no puede superar las 50.
 
-1. Clic **[!UICONTROL Crear]** para confirmar. La lista semilla recién creada se muestra en la variable [Pantalla de lista semilla](#access-seed-lists).
+1. Haga clic en **[!UICONTROL Crear]** para confirmar. La lista semilla recién creada se muestra en la [pantalla Lista semilla](#access-seed-lists).
 
 ## Uso de una lista semilla en una campaña o recorrido {#use-seed-list}
 
@@ -132,9 +132,9 @@ Ahora que la lista de reasignación se ha creado, puede utilizarla en cualquier 
 >
 >Los mensajes enviados a las direcciones semilla no se incluyen en los informes de recorrido o de campaña.
 
-1. Cree una superficie y seleccione la **[!UICONTROL Correo electrónico]** canal. [Más información](../email/email-settings.md)
+1. Cree una superficie y seleccione el canal **[!UICONTROL Correo electrónico]**. [Más información](../email/email-settings.md)
 
-1. Seleccione la lista semilla que desee en la [sección correspondiente](../email/email-settings.md#seed-list).
+1. Seleccione la lista semilla que elija en la [sección correspondiente](../email/email-settings.md#seed-list).
 
    >[!NOTE]
    >
@@ -144,13 +144,13 @@ Ahora que la lista de reasignación se ha creado, puede utilizarla en cualquier 
 
 1. Envíe la superficie.
 
-1. Crear un [campaña](../campaigns/create-campaign.md) o una [recorrido](../building-journeys/journey-gs.md).
+1. Crear una [campaña](../campaigns/create-campaign.md) o un [recorrido](../building-journeys/journey-gs.md).
 
-1. Seleccione el **[!UICONTROL Correo electrónico]** y seleccione la opción [emerger](channel-surfaces.md) incluida la lista semilla que sea relevante para usted.
+1. Seleccione la acción **[!UICONTROL Correo electrónico]** y seleccione la [superficie](channel-surfaces.md) que incluye la lista semilla que le interesa.
 
    ![](assets/seed-list-campaign-email.png)
 
-1. Activar su [campaña](../campaigns/review-activate-campaign.md) o publique su [recorrido](../building-journeys/publishing-the-journey.md).
+1. Activar [campaign](../campaigns/review-activate-campaign.md) o publicar [recorrido](../building-journeys/publishing-the-journey.md).
 
 Ahora, cada vez que se envía un mensaje de correo electrónico a sus clientes a través de esa campaña o recorrido, las direcciones de correo electrónico de la lista semilla seleccionada también lo reciben en las mismas condiciones, al mismo tiempo y con el mismo contenido que los destinatarios objetivo.
 

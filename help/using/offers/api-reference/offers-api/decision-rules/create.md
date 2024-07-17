@@ -9,7 +9,7 @@ exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,7 @@ Las reglas de decisión son restricciones agregadas a una oferta personalizada y
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* en el encabezado de la solicitud:
+La siguiente tabla muestra los valores válidos que comprenden el campo *Content-Type* del encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -68,7 +68,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **Respuesta**
 
-Una respuesta correcta devuelve información sobre la regla de decisión recién creada `id`. Puede usar el complemento `id` en pasos posteriores para actualizar o eliminar la regla de decisión o utilizarla en un tutorial posterior para crear decisiones, reglas de decisión y ofertas de reserva.
+Una respuesta correcta devuelve información sobre la regla de decisión `id` recién creada. Puede usar `id` en pasos posteriores para actualizar o eliminar la regla de decisión o usarla en un tutorial posterior para crear decisiones, reglas de decisión y ofertas de reserva.
 
 ```json
 {

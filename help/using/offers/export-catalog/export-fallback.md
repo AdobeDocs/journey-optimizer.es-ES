@@ -9,7 +9,7 @@ exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1016'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -25,20 +25,20 @@ El lote exitoso más reciente en el conjunto de datos se muestra a la derecha. L
 >
 >Obtenga información sobre cómo acceder a los conjuntos de datos exportados para cada objeto de la biblioteca de ofertas en [esta sección](../export-catalog/access-dataset.md).
 
-Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL Repositorio de objetos de decisión: ofertas de reserva]** conjunto de datos.
+Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL Repositorio de objetos de decisión - Ofertas de reserva]** conjunto de datos.
 
 +++ Identificador
 
 **Campo:** _id
 **Título:** Identificador
-**Descripción:** Un identificador único del registro.
+**Descripción:** Identificador único del registro.
 **Tipo:** cadena
 
 +++
 
 +++ _experience
 
-**Campo:** _experience
+**Campo:** _experiencia
 **Tipo:** objeto
 
 +++
@@ -53,8 +53,8 @@ Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL 
 +++ _experience > decisioning > features
 
 **Campo:** características
-**Título:** Características de opción de decisión
-**Descripción:** Propiedades o atributos adicionales que pertenecen a esta opción de decisión en particular. Las distintas instancias pueden tener diferentes características (claves en el mapa). Las características son pares de nombre-valor que se utilizan para distinguir una opción de decisión de otras. Las características se utilizan como valores en el contenido que representa esta opción de decisión y como características para analizar y optimizar el rendimiento de una opción. Cuando cada instancia tiene el mismo atributo o propiedad, ese aspecto debe modelarse como un esquema de extensión que derive del detalle de la opción de decisión.
+**Título:** Características de la opción de decisión
+**Descripción:** propiedades o atributos adicionales que pertenecen a esta opción de decisión en particular. Las distintas instancias pueden tener diferentes características (claves en el mapa). Las características son pares de nombre-valor que se utilizan para distinguir una opción de decisión de otras. Las características se utilizan como valores en el contenido que representa esta opción de decisión y como características para analizar y optimizar el rendimiento de una opción. Cuando cada instancia tiene el mismo atributo o propiedad, ese aspecto debe modelarse como un esquema de extensión que derive del detalle de la opción de decisión.
 **Tipo:** objeto
 
 +++
@@ -63,9 +63,9 @@ Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL 
 
 +++ _experience > decisioning > content
 
-**Campo:** índice
-**Título:** Detalles del contenido
-**Descripción:** Elementos de contenido para procesar el elemento de decisión en diferentes contextos. Una sola opción de decisión puede tener varias variantes de contenido. El contenido es información dirigida a una audiencia para su consumo en una experiencia (digital). El contenido se entrega a través de canales a una ubicación particular.
+**Campo:** contenido
+**Título:** Detalles de contenido
+**Descripción:** elementos de contenido para procesar el elemento de decisión en diferentes contextos. Una sola opción de decisión puede tener varias variantes de contenido. El contenido es información dirigida a una audiencia para su consumo en una experiencia (digital). El contenido se entrega a través de canales a una ubicación particular.
 **Tipo:** matriz
 
 +++
@@ -77,24 +77,24 @@ Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL 
 **Tipo:** matriz
 **Requerido:** &quot;_type&quot;, &quot;_dc&quot; <!--TBC?-->
 
-* **_experience > decisioning > content > components > Content Component Type**
+* **_experience > toma de decisiones > content > components > Content Component Type**
 
-  **Campo:** _type
+  **Campo:** _tipo
   **Título:** Tipo de componente de contenido
-  **Descripción:** Un conjunto enumerado de URI en el que cada valor se asigna a un tipo dado al componente de contenido. Algunos consumidores de las representaciones de contenido esperan que el valor @type sea una referencia al esquema que describe propiedades adicionales del componente de contenido.
+  **Descripción:** Un conjunto enumerado de URI donde cada valor se asigna a un tipo dado al componente de contenido. Algunos consumidores de las representaciones de contenido esperan que el valor @type sea una referencia al esquema que describe propiedades adicionales del componente de contenido.
   **Tipo:** cadena
 
-* **_experience > decisioning > content > components > _dc**
+* **_experiencia > toma de decisiones > contenido > componentes > _dc**
 
   **Campo:** _dc
   **Tipo:** objeto
-  **Requerido:** &quot;format&quot;
+  **Requerido:** &quot;formato&quot;
 
    * **Formato**
 
-     **Campo:** formato
-     **Título:** Formato
-     **Descripción:** La manifestación física o digital del recurso. Normalmente, el formato debe incluir el tipo de medio del recurso. El formato se puede utilizar para determinar el software, hardware u otro equipo necesario para mostrar o utilizar el recurso. La práctica recomendada es seleccionar un valor de un vocabulario controlado (por ejemplo, la lista de [Tipos de medios de Internet](https://www.iana.org/ assignments/media-types/) definir formatos multimedia de equipos).
+     Formato **Campo:**
+     Formato **Título:**
+     **Descripción:** La manifestación física o digital del recurso. Normalmente, el formato debe incluir el tipo de medio del recurso. El formato se puede utilizar para determinar el software, hardware u otro equipo necesario para mostrar o utilizar el recurso. La práctica recomendada es seleccionar un valor de un vocabulario controlado (por ejemplo, la lista de [tipos de medios de Internet](https://www.iana.org/) que definen formatos de medios informáticos).
      **Tipo:** cadena
      **Ejemplo:** &quot;application/vnd.adobe.photoshop&quot;
 
@@ -102,32 +102,32 @@ Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL 
 
      **Campo:** idioma
      **Título:** Idioma
-     **Descripción:** El o los idiomas del recurso. \nLos idiomas se especifican en el código de idioma tal como se define en [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), que forma parte de BCP 47, que se utiliza en otras partes de XDM.
+     **Descripción:** Idioma o idiomas del recurso. \nLos idiomas se especifican en el código de idioma tal como se definen en [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), que forma parte de BCP 47, que se usa en otras partes de XDM.
      **Tipo:** matriz
      **Ejemplos:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
-* **_experience > decisioning > content > components > _repo**
+* **_experience > toma de decisiones > content > components > _repo**
 
-  **Campo:** _repo
+  **Campo:** _repositorio
   **Tipo:** objeto
 
    * **id**
 
-     **Campo:** id
-     **Descripción:** Un identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad adicional \&quot;repo:resolveUrl\&quot; para recuperar el recurso.
+     **Campo:** id.
+     **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad adicional \&quot;repo:resolveUrl\&quot; para recuperar el recurso.
      **Tipo:** cadena
      **Ejemplo:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
-     **Campo:** name
-     **Descripción:** Algunas sugerencias sobre dónde localizar el repositorio que almacena el recurso externo mediante el \&quot;repo:id\&quot;.
+     **Campo:** nombre
+     **Descripción:** Algunas sugerencias sobre dónde ubicar el repositorio que almacena el recurso externo mediante el \&quot;repo:id\&quot;.
      **Tipo:** cadena
 
-   * **repositoryID**
+   * **ID de repositorio**
 
      **Campo:** repositoryID
-     **Descripción:** Un identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad adicional \&quot;repo:resolveUrl\&quot; para recuperar el recurso.
+     **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad adicional \&quot;repo:resolveUrl\&quot; para recuperar el recurso.
      **Tipo:** cadena
      **Ejemplo:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
@@ -138,9 +138,9 @@ Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL 
      **Tipo:** cadena
      **Ejemplo:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
-* **_experience > decisioning > content > components > content**
+* **_experience > toma de decisiones > content > components > content**
 
-  **Campo:** content
+  **Campo:** contenido
   **Descripción:** Un campo opcional para guardar contenido directamente. En lugar de hacer referencia al contenido de un repositorio de recursos, el componente puede contener directamente contenido simple. Este campo no se utiliza para recursos de contenido compuesto, complejo y binario.
   **Tipo:** cadena
 
@@ -151,7 +151,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL 
   **Tipo:** cadena
   **Ejemplo:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-* **_experience > decisioning > content > components > linkURL**
+* **_experience > toma de decisiones > content > components > linkURL**
 
   **Campo:** linkURL
   **Descripción:** Un localizador de recursos único opcional para las interacciones del usuario. Esta URL se utiliza para remitir al usuario final a en un agente de usuario y se puede rastrear.
@@ -163,8 +163,8 @@ Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL 
 +++ _experience > decisioning > content > Placement
 
 **Campo:** ubicación
-**Título:** Ubicación
-**Descripción:** Ubicación para cumplir. El valor es el URI (@id) de la ubicación de oferta a la que se hace referencia. Consulte schema https://ns.adobe.com/experience/decisioning/placement.
+**Título:** ubicación
+**Descripción:** ubicación para cumplir. El valor es el URI (@id) de la ubicación de oferta a la que se hace referencia. Consulte schema https://ns.adobe.com/experience/decisioning/placement.
 **Tipo:** cadena
 
 +++
@@ -173,7 +173,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL 
 
 **Campo:** lifecycleStatus
 **Título:** Estado del ciclo vital
-**Descripción:** El estado del ciclo vital permite que los flujos de trabajo se realicen con un objeto. El estado puede afectar a dónde un objeto es visible o se considera relevante. Los cambios de estado son dirigidos por los clientes o servicios que utilizan los objetos.
+**Descripción:** El estado del ciclo de vida permite que los flujos de trabajo se realicen con un objeto. El estado puede afectar a dónde un objeto es visible o se considera relevante. Los cambios de estado son dirigidos por los clientes o servicios que utilizan los objetos.
 **Tipo:** cadena
 **Valores posibles:** &quot;Borrador&quot; (predeterminado), &quot;Aprobado&quot;, &quot;Activo&quot;, &quot;Completado&quot;, &quot;Archivado&quot;
 
@@ -181,7 +181,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL 
 
 +++ _experience > decisioning > Nombre de opción de decisión
 
-**Campo:** name
+**Campo:** nombre
 **Título:** Nombre de opción de decisión
 **Descripción:** Nombre de opción que se muestra en varias interfaces de usuario.
 **Tipo:** cadena
@@ -192,7 +192,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL 
 
 **Campo:** etiquetas
 **Título:** Etiquetas
-**Descripción:** El conjunto de calificadores de colección (anteriormente conocidos como &quot;etiquetas&quot;) asociados a esta entidad. Los calificadores de recopilación se utilizan en expresiones de filtro para restringir el inventario general a un subconjunto (categoría).
+**Descripción:** conjunto de calificadores de colección (anteriormente conocidos como &quot;etiquetas&quot;) asociados a esta entidad. Los calificadores de recopilación se utilizan en expresiones de filtro para restringir el inventario general a un subconjunto (categoría).
 **Tipo:** matriz
 
 +++
@@ -201,7 +201,7 @@ Esta es la lista de todos los campos que se pueden utilizar en la **[!UICONTROL 
 
 +++ _repo
 
-**Campo:** _repo
+**Campo:** _repositorio
 **Tipo:** objeto
 
 +++

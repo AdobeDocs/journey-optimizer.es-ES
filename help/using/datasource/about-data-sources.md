@@ -41,7 +41,7 @@ Existen dos tipos de fuentes de datos:
 
 >[!NOTE]
 >
->Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas. Para obtener más información sobre las respuestas, consulte [sección](../action/action-response.md)
+>Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas. Para obtener más información sobre las respuestas, consulte esta [sección](../action/action-response.md)
 
 Para cada fuente de datos, se define la información que se recuperará mediante grupos de campos. Los grupos de campos son conjuntos de campos que se pueden recuperar desde una fuente de datos. Consulte [esta página](../datasource/configure-data-sources.md#define-field-groups).
 
@@ -49,7 +49,7 @@ Para cada fuente de datos, se define la información que se recuperará mediante
 >
 >Las relaciones de esquema no son compatibles con las fuentes de datos.
 
-Para obtener más información sobre cómo configurar una fuente de datos de Adobe Experience Platform y una fuente de datos externa, y cómo buscar y utilizar datos en un recorrido, consulte esta sección [tutorial en vídeo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
+Para obtener más información sobre cómo configurar un Source de datos de Adobe Experience Platform y una fuente de datos externa, y cómo buscar y usar datos en un recorrido, vea este [tutorial en vídeo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
 ## Vídeo explicativo {#video}
 

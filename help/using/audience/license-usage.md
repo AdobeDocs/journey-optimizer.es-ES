@@ -17,18 +17,18 @@ ht-degree: 7%
 
 # Panel de uso de licencias {#license-usage}
 
-El [!DNL Adobe Journey Optimizer] [interfaz de usuario](../start/user-interface.md) proporciona un tablero que muestra información importante sobre el uso de licencias de su organización, tal y como se captura durante una instantánea diaria.
+La [!DNL Adobe Journey Optimizer] [interfaz de usuario](../start/user-interface.md) proporciona un panel que muestra información importante sobre el uso de licencias de su organización, tal como se captura durante una instantánea diaria.
 
-Para acceder a este panel, vaya a **[!UICONTROL Administration]** > **[!UICONTROL Uso de licencias]**. Esto abre el **[!UICONTROL Información general]** pestaña que muestra el tablero.
+Para acceder a este tablero, ve a **[!UICONTROL Administración]** > **[!UICONTROL Uso de licencias]**. Se abrirá la ficha **[!UICONTROL Información general]** que muestra el tablero.
 
 ![](assets/license-usage-dashboard.png)
 
 >[!NOTE]
 >
->Para poder ver el panel, se le debe otorgar el [Ver tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"} permiso.
+>Para poder ver el panel, se le debe otorgar el permiso [Ver panel de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}.
 
 Obtenga más información en la documentación de Adobe Experience Platform:
 
 * [Resumen del tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
-* [Exploración del tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [Explorando el tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
 * [Métricas disponibles](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=es#available-metrics){target="_blank"}

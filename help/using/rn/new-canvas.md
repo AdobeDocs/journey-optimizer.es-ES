@@ -17,10 +17,10 @@ ht-degree: 2%
 
 # Bienvenido al Diseñador de recorridos mejorado {#new-canvas}
 
-Journey Optimizer ahora ofrece un **modelo de recorrido simplificado** que tiene como objetivo mejorar la experiencia del usuario y los procesos internos. A partir de la versión de abril, podrá beneficiarse de las siguientes funciones:
+Journey Optimizer ahora ofrece **modelo de recorrido simplificado** con el objetivo de mejorar la experiencia del usuario y los procesos internos. A partir de la versión de abril, podrá beneficiarse de las siguientes funciones:
 
-* A **lienzo de recorrido rediseñado** diseñado para una experiencia de interfaz de usuario modernizada
-* A **live reporting** IU directamente disponible en el lienzo del recorrido
+* Un lienzo de recorrido **rediseñado** se ha diseñado para ofrecer una experiencia de interfaz de usuario modernizada
+* Una interfaz de usuario de **creación de informes en vivo** disponible directamente en el lienzo del recorrido
 
 >[!NOTE]
 >
@@ -28,30 +28,30 @@ Journey Optimizer ahora ofrece un **modelo de recorrido simplificado** que tiene
 
 ## Actualizaciones en el modelo de recorrido
 
-El nuevo modelo de recorrido vivirá junto al existente, lo que significa que habrá recorridos utilizando **dos modelos diferentes**:
+El nuevo modelo de recorrido estará activo junto al existente, lo que significa que habrá recorridos que usen **dos modelos diferentes**:
 
 * El modelo heredado
 * El nuevo modelo
 
-Todos los recorridos del modelo heredado permanecerán en él. Aún puede editarlos, probarlos o publicarlos. Cualquier nueva versión creada a partir de un recorrido en el modelo heredado también permanecerá en él. No hay **sin cambios funcionales** alrededor de esos recorridos.
+Todos los recorridos del modelo heredado permanecerán en él. Aún puede editarlos, probarlos o publicarlos. Cualquier nueva versión creada a partir de un recorrido en el modelo heredado también permanecerá en él. No hay **cambios funcionales** alrededor de esos recorridos.
 
 Como puede ver en la siguiente captura de pantalla, los nodos tienen forma redondeada, que es la interfaz de usuario antigua para recorridos en el modelo heredado.
 
 ![](assets/new-canvas.png)
 
-Sin embargo, cuando **crear un nuevo recorrido** o **duplicar uno existente**, estará en el nuevo modelo. Los recorridos en el modelo heredado seguirán siendo compatibles hasta que la mayoría de los clientes pasen al nuevo.
+Sin embargo, cuando **cree un nuevo recorrido** o **duplique uno existente**, estará en el nuevo modelo. Los recorridos en el modelo heredado seguirán siendo compatibles hasta que la mayoría de los clientes pasen al nuevo.
 
-El nuevo modelo de recorrido tiene una limitación: **no se pueden copiar y pegar actividades del modelo heredado en el nuevo y viceversa**. Si desea hacerlo, le recomendamos que duplique el recorrido heredado para cambiarlo al nuevo modelo y, a continuación, copie las actividades.
+Hay una limitación al nuevo modelo de recorrido; **no será posible copiar y pegar actividades del modelo heredado en el nuevo y viceversa**. Si desea hacerlo, le recomendamos que duplique el recorrido heredado para cambiarlo al nuevo modelo y, a continuación, copie las actividades.
 
 En la siguiente captura de pantalla, puede ver la interfaz de usuario rediseñada para el lienzo de recorrido (solo disponible con el nuevo modelo):
 
 ![](assets/new-canvas2.png)
 
-**Cualquier nueva función añadida al diseñador de recorridos (incluidos los informes en directo) solo estará disponible para los recorridos del nuevo modelo a partir de este momento.**
+**Cualquier característica nueva agregada al diseñador de recorrido (incluidos los informes en vivo) solo estará disponible para los recorridos en el nuevo modelo a partir de este momento.**
 
 ## Diseño de lienzo de recorrido mejorado
 
-Con el nuevo modelo de recorrido, presentamos un nuevo y mejorado **IU del lienzo de recorrido**, que se adapta perfectamente al ecosistema de soluciones y aplicaciones de Adobe Experience Cloud, lo que ofrece una experiencia de usuario intuitiva y eficaz. Cualquier recorrido en el nuevo modelo estará en ese nuevo diseño.
+Con el nuevo modelo de recorrido presentamos una nueva y mejorada **interfaz de usuario de lienzo de recorrido**, que se adapta perfectamente al ecosistema de aplicaciones y soluciones de Adobe Experience Cloud, para ofrecer una experiencia de usuario intuitiva y eficiente. Cualquier recorrido en el nuevo modelo estará en ese nuevo diseño.
 
 ![](assets/new-canvas3.gif)
 
@@ -62,7 +62,7 @@ Las actividades ahora se representan mediante cuadros cuadrados con las siguient
 
 ![](assets/new-canvas4.png)
 
-Esta nueva interfaz de usuario mejora la legibilidad del lienzo de recorrido al proporcionar lo siguiente **etiquetas y tipos de actividades más claros**.
+Esta nueva interfaz de usuario mejora la legibilidad del lienzo de recorrido al proporcionar **tipos y etiquetas de actividad más claros**.
 
 También permite al equipo de productos añadir más información en el lienzo con menos clics. Un ejemplo de &quot;más información&quot; sería la inclusión de informes en directo en el lienzo de recorrido, donde puede ver perfiles que entran y salen de sus actividades debido a errores.
 
@@ -70,7 +70,7 @@ También permite al equipo de productos añadir más información en el lienzo c
 
 ## Creación de informes en directo en el lienzo de recorrido
 
-Además de la presentación mejorada del lienzo de recorrido, se está introduciendo una nueva función para permitir a los usuarios ver las métricas de informes en tiempo real de **las últimas 24 horas**, denominados informes en directo, directamente en el lienzo del recorrido.
+Además de la distribución mejorada del lienzo de recorrido, se está presentando una nueva característica para permitir que los usuarios vean las métricas de informes en tiempo real de **las últimas 24 horas**, llamada informes en vivo, directamente dentro del lienzo de recorrido.
 
 Para cada actividad dentro de cada recorrido activo que utilice el nuevo modelo, tiene acceso a:
 

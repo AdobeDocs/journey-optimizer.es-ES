@@ -24,11 +24,11 @@ ht-degree: 27%
 
 >[!IMPORTANT]
 >
-> Para acceder a **Informe** menú, debe tener el **[!UICONTROL Ver informes de canal]** permiso. [Más información](channel-report-gs.md#before-starting-manage-reports-prereq)
+> Para acceder al menú **Informe**, debe tener el permiso **[!UICONTROL Ver informes de canal]**. [Más información](channel-report-gs.md#before-starting-manage-reports-prereq)
 
 Los informes de canal proporcionan a los usuarios una visión general completa de las métricas de tráfico y participación a nivel de canal. Las métricas se agregan para presentar valores consolidados para acciones que se originan en el canal elegido, abarcando varias campañas y recorridos.
 
-Puede acceder a los informes de canal navegando hasta el **Informes** menú dentro de **Administración de recorrido** sección. Es totalmente personalizable, puede filtrar los datos según la fecha del informe o la acción. [Más información](channel-report-gs.md)
+Puede acceder a los informes de canal navegando al menú **Informes** dentro de la sección **Administración de Recorrido**. Es totalmente personalizable, puede filtrar los datos según la fecha del informe o la acción. [Más información](channel-report-gs.md)
 
 La página del informe se muestra con las siguientes pestañas:
 
@@ -54,29 +54,29 @@ En los informes de canal, el menú Correo electrónico detalla la información p
 
 ![](assets/channel_email_total_sending.png)
 
-El **[!UICONTROL Estadísticas de envío totales de correo electrónico]** Este widget ofrece una descripción general completa del rendimiento del correo electrónico, y muestra indicadores clave de rendimiento (KPI) que resumen los datos esenciales sobre los correos electrónicos.
+El widget **[!UICONTROL Estadísticas totales de envío de correo electrónico]** ofrece una descripción general completa del rendimiento del correo electrónico, y muestra indicadores clave de rendimiento (KPI) que resumen datos esenciales sobre los correos electrónicos.
 
 +++ Obtenga más información sobre las métricas Estadísticas de envío totales de correo electrónico
 
-* **[!UICONTROL Objetivos]**: Número total de correos electrónicos procesados.
+* **[!UICONTROL Destinatarios]**: Número total de correos electrónicos procesados.
 
 * **[!UICONTROL Enviado]**: Número total de envíos.
 
-* **[!UICONTROL Entregado]**: Número de correos electrónicos enviados correctamente, en relación con el número total de mensajes enviados.
+* **[!UICONTROL Entregado]**: número de correos electrónicos enviados correctamente en relación con el número total de mensajes enviados.
 
-* **[!UICONTROL Tasa de entrega]**: porcentaje de correos electrónicos enviados correctamente.
+* **[!UICONTROL Tasa de entrega]**: Porcentaje de correos electrónicos enviados correctamente.
 
-* **[!UICONTROL Devoluciones]**: Total de errores acumulados y procesamiento automático de devolución en relación con el número total de mensajes enviados.
+* **[!UICONTROL Devoluciones]**: Total de errores acumulados y procesamiento automático de devoluciones en relación con el número total de mensajes enviados.
 
-* **[!UICONTROL Tasa de devoluciones]**: porcentaje de correos electrónicos que rebotaron en comparación con los enviados.
+* **[!UICONTROL Tasa de salida hacia otro sitio]**: Porcentaje de correos electrónicos que se rebotaron en comparación con los enviados.
 
-* **[!UICONTROL Errores]**: Número total de errores que han impedido su envío a los perfiles.
+* **[!UICONTROL Errores]**: Número total de errores que impidieron que se enviara a los perfiles.
 
-* **[!UICONTROL Tasa de error]**: porcentaje de errores que han impedido su envío en comparación con los correos electrónicos enviados.
+* **[!UICONTROL Tasa de errores]**: Porcentaje de errores que impidieron que se enviara en comparación con los mensajes de correo electrónico enviados.
 
-* **[!UICONTROL Excluido]**: Número de perfiles que han sido excluidos por Adobe Journey Optimizer.
+* **[!UICONTROL Excluido]**: número de perfiles que han sido excluidos por Adobe Journey Optimizer.
 
-* **[!UICONTROL Tasa de exclusión]**: porcentaje de perfiles que han sido excluidos por Adobe Journey Optimizer.
+* **[!UICONTROL Tasa de exclusión]**: porcentaje de perfiles que Adobe Journey Optimizer ha excluido.
 
 +++
 
@@ -89,25 +89,25 @@ El **[!UICONTROL Estadísticas de envío totales de correo electrónico]** Este 
 
 ![](assets/channel_email_total_tracking.png)
 
-El **[!UICONTROL Estadísticas de seguimiento total de correo electrónico]** El widget ofrece una instantánea detallada de la actividad del perfil vinculada a sus correos electrónicos, lo que proporciona perspectivas esenciales sobre la participación y la eficacia del correo electrónico.
+El widget **[!UICONTROL Estadísticas totales de seguimiento de correo electrónico]** ofrece una instantánea detallada de la actividad del perfil vinculada a sus correos electrónicos, lo que proporciona información esencial sobre la participación y la eficacia del correo electrónico.
 
 +++ Más información sobre las métricas de las Estadísticas de seguimiento totales de correo electrónico
 
 * **[!UICONTROL Aperturas]**: Número de veces que se abrió el mensaje.
 
-* **[!UICONTROL Tasa de apertura]**: Número total de correos electrónicos abiertos en comparación con el número de correos electrónicos enviados.
+* **[!UICONTROL Tasa de apertura]**: Cantidad total de correos electrónicos abiertos en comparación con la cantidad de correos electrónicos enviados.
 
 * **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido de un mensaje.
 
-* **[!UICONTROL Tasa de clics]**: porcentaje de usuarios que interactuaron con el correo electrónico.
+* **[!UICONTROL Tasa de clics]**: Porcentaje de usuarios que interactuaron con el correo electrónico.
 
-* **[!UICONTROL Quejas de spam]**: Número de veces que un mensaje se declaró como correo no deseado.
+* **[!UICONTROL Quejas por correo no deseado]**: Número de veces que un mensaje se declaró como correo no deseado.
 
-* **[!UICONTROL Tasa de quejas de spam]**: porcentaje de mensajes declarados como correo no deseado o no deseado comparado con el número de correos electrónicos enviados.
+* **[!UICONTROL Tasa de quejas de correo no deseado]**: porcentaje de mensajes declarados como correo no deseado en comparación con el número de correos electrónicos enviados.
 
-* **[!UICONTROL Cancela la suscripción]**: Número de clics en el vínculo de suscripción.
+* **[!UICONTROL Cancela la suscripción]**: número de clics en el vínculo de suscripción.
 
-* **[!UICONTROL Tasa de cancelación de suscripción]**: porcentaje de baja comparado con el número de correos electrónicos enviados.
+* **[!UICONTROL Tasa de cancelación de suscripción]**: porcentaje de cancelación de suscripción comparado con el número de correos electrónicos enviados.
 
 +++
 
@@ -120,7 +120,7 @@ El **[!UICONTROL Estadísticas de seguimiento total de correo electrónico]** El
 
 ![](assets/channel_email_sending_statistics.png)
 
-El **[!UICONTROL Correo electrónico: estadísticas de envío a lo largo del tiempo]** El gráfico de ofrece una representación dinámica que muestra un análisis de la actividad de correo electrónico. Esta representación gráfica proporciona un desglose completo de los correos electrónicos enviados, lo que le permite observar tendencias y patrones en una escala horaria, diaria, semanal o mensual.
+El gráfico **[!UICONTROL Correo electrónico: estadísticas de envío a lo largo del tiempo]** ofrece una representación dinámica que muestra un análisis de su actividad de correo electrónico. Esta representación gráfica proporciona un desglose completo de los correos electrónicos enviados, lo que le permite observar tendencias y patrones en una escala horaria, diaria, semanal o mensual.
 
 +++ Más información sobre el Correo electrónico: Envío de estadísticas con métricas temporales
 
@@ -130,7 +130,7 @@ El **[!UICONTROL Correo electrónico: estadísticas de envío a lo largo del tie
 
 * **[!UICONTROL Devoluciones]**: Total de errores acumulados y procesamiento automático de devoluciones en relación con el número total de correos electrónicos enviados.
 
-* **[!UICONTROL Errores]**: Número total de errores que han impedido su envío a los perfiles.
+* **[!UICONTROL Errores]**: Número total de errores que impidieron que se enviara a los perfiles.
 
 +++
 
@@ -143,7 +143,7 @@ El **[!UICONTROL Correo electrónico: estadísticas de envío a lo largo del tie
 
 ![](assets/channel_email_tracking_overtime.png)
 
-El **[!UICONTROL Correo electrónico: estadísticas de seguimiento a lo largo del tiempo]** El gráfico proporciona una descripción detallada de la actividad del perfil relacionada con los correos electrónicos. Esta representación gráfica desglosa los datos por hora, día, semana o mes, lo que ofrece una valiosa perspectiva de cómo evoluciona la participación de los destinatarios en diferentes intervalos de tiempo.
+El gráfico **[!UICONTROL Correo electrónico: estadísticas de seguimiento a lo largo del tiempo]** proporciona una descripción detallada de la actividad del perfil relacionada con sus correos electrónicos. Esta representación gráfica desglosa los datos por hora, día, semana o mes, lo que ofrece una valiosa perspectiva de cómo evoluciona la participación de los destinatarios en diferentes intervalos de tiempo.
 
 +++ Más información sobre el Correo electrónico: estadísticas de seguimiento a lo largo del tiempo
 
@@ -167,17 +167,17 @@ El **[!UICONTROL Correo electrónico: estadísticas de seguimiento a lo largo de
 
 ![](assets/channel_email_bounce_categories.png)
 
-El **[!UICONTROL Categorías de rechazo]** y **[!UICONTROL Motivos del rechazo]** los widgets encapsulan los datos asociados con los mensajes rechazados, proporcionando una visión general de las distintas categorías y motivos específicos detrás de los rechazos de mensajes
+Los widgets de **[!UICONTROL Categorías de rechazo]** y **[!UICONTROL Motivos de rechazo]** encapsulan los datos asociados con los mensajes rechazados, proporcionando una visión general de las diversas categorías y motivos específicos detrás de los rechazos de mensajes
 
-Para obtener más información sobre las devoluciones, consulte [Lista de supresión](../reports/suppression-list.md) página.
+Para obtener más información sobre las devoluciones, consulte la página [Lista de supresión](../reports/suppression-list.md).
 
 +++ Más información sobre las Métricas de categorías de rechazo
 
-* **[!UICONTROL Rechazo duro]**: el número total de errores permanentes, como una dirección de correo electrónico incorrecta. Esto implica un mensaje de error que indica explícitamente que la dirección no es válida, como Usuario desconocido.
+* **[!UICONTROL Rechazo grave]**: El número total de errores permanentes, como una dirección de correo electrónico incorrecta. Esto implica un mensaje de error que indica explícitamente que la dirección no es válida, como Usuario desconocido.
 
-* **[!UICONTROL Rechazo suave]**: el número total de errores temporales, como una bandeja de entrada llena.
+* **[!UICONTROL Devolución suave]**: El número total de errores temporales, como una bandeja de entrada completa.
 
-* **[!UICONTROL Ignorado]**: el número total de mensajes temporales, como Fuera de la oficina, o un error técnico, por ejemplo, si el tipo de remitente es administrador de correo.
+* **[!UICONTROL Omitido]**: El número total de mensajes temporales, como Fuera de la oficina, o un error técnico, por ejemplo, si el tipo de remitente es administrador de correo.
 
 +++
 
@@ -190,7 +190,7 @@ Para obtener más información sobre las devoluciones, consulte [Lista de supres
 
 ![](assets/channel_email_error.png)
 
-El **[!UICONTROL Motivos del error]** los gráficos y las tablas le permiten identificar los errores precisos que se produjeron a lo largo del proceso de envío, lo que facilita una comprensión clara de los problemas encontrados.
+Los gráficos y la tabla **[!UICONTROL Motivos del error]** le permiten identificar los errores precisos que se produjeron durante el proceso de envío, lo que facilita una comprensión clara de los problemas encontrados.
 
 ### Motivos excluidos {#excluded-reasons}
 
@@ -201,9 +201,9 @@ El **[!UICONTROL Motivos del error]** los gráficos y las tablas le permiten ide
 
 ![](assets/channel_email_excluded.png)
 
-El **[!UICONTROL Razones de exclusión]** los gráficos y la tabla presentan una vista completa de los diferentes factores que resultaron en la exclusión de perfiles de usuario de la audiencia de destino, lo que da como resultado que el mensaje no se reciba.
+Los gráficos y la tabla de **[!UICONTROL Motivos de exclusión]** presentan una vista completa de los diferentes factores que tuvieron como resultado la exclusión de perfiles de usuario de la audiencia de destino, lo que hizo que no se recibiera el mensaje.
 
-Consulte [esta página](exclusion-list.md) para obtener la lista completa de motivos de exclusión.
+Consulte [esta página](exclusion-list.md) para obtener una lista completa de motivos de exclusión.
 
 ### Enviados y entregados por dominios {#sent-delivered-domains}
 
@@ -214,13 +214,13 @@ Consulte [esta página](exclusion-list.md) para obtener la lista completa de mot
 
 ![](assets/channel_email_sent_domains.png)
 
-El **[!UICONTROL Enviados y entregados por dominios]** La tabla y el gráfico proporcionan un desglose detallado de los envíos de correo electrónico en el nivel de dominio, lo que ofrece información completa sobre el rendimiento de los correos electrónicos.
+La tabla y el gráfico de **[!UICONTROL Enviados y entregados por dominios]** proporcionan un desglose detallado de los envíos de correo electrónico en el nivel de dominio, lo que ofrece una perspectiva completa del rendimiento de sus correos electrónicos.
 
 +++ Más información sobre las Métricas de Enviado y entregado por dominios
 
 * **[!UICONTROL Enviado]**: Número total de envíos del correo electrónico.
 
-* **[!UICONTROL Entregado]**: Número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
+* **[!UICONTROL Entregado]**: número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
 
 +++
 
@@ -233,13 +233,13 @@ El **[!UICONTROL Enviados y entregados por dominios]** La tabla y el gráfico pr
 
 ![](assets/channel_email_bounces_domain.png)
 
-El **[!UICONTROL Devoluciones y errores por dominios]** El gráfico y la tabla ofrecen un desglose a nivel de dominio de los errores específicos encontrados durante el proceso de envío, lo que proporciona un análisis detallado de los problemas que se han producido.
+El gráfico y la tabla **[!UICONTROL Devoluciones y errores por dominios]** ofrecen un desglose a nivel de dominio de los errores específicos encontrados durante el proceso de envío, lo que proporciona un análisis detallado de los problemas que se produjeron.
 
 +++ Más información sobre las Métricas Devoluciones y errores por dominios
 
 * **[!UICONTROL Devoluciones]**: Total de errores acumulados durante el proceso de envío y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados.
 
-* **[!UICONTROL Errores]**: Número total de errores que se produjeron durante el proceso de envío y que impiden su envío a los perfiles.
+* **[!UICONTROL Errores]**: Número total de errores que se produjeron durante el proceso de envío para evitar que se enviara a los perfiles.
 
 +++
 
@@ -252,7 +252,7 @@ El **[!UICONTROL Devoluciones y errores por dominios]** El gráfico y la tabla o
 
 ![](assets/channel_email_open_domains.png)
 
-El **[!UICONTROL Abrir y hacer clic por dominios]** los gráficos y las tablas muestran un desglose a nivel de dominio de la participación de los visitantes con el correo electrónico, lo que proporciona una valiosa perspectiva de cómo los distintos dominios interactúan con el contenido.
+El gráfico y la tabla **[!UICONTROL Abrir y clics por dominios]** muestran un desglose a nivel de dominio de la participación de los visitantes con el correo electrónico, lo que proporciona información valiosa sobre cómo los distintos dominios interactúan con el contenido.
 
 +++ Más información sobre las métricas Abrir y clics por dominios
 
@@ -271,13 +271,13 @@ El **[!UICONTROL Abrir y hacer clic por dominios]** los gráficos y las tablas m
 
 ![](assets/channel_email_bounce_domain.png)
 
-El **[!UICONTROL Razones de rechazo por dominio]** los gráficos y las tablas ofrecen un desglose de datos a nivel de dominio sobre los errores temporales y permanentes, lo que proporciona una perspectiva detallada de los motivos que subyacen a los mensajes rechazados.
+El gráfico y la tabla de **[!UICONTROL motivos de rechazo por dominio]** ofrecen un desglose de datos a nivel de dominio sobre los errores temporales y permanentes, lo que proporciona información detallada sobre los motivos detrás de los mensajes rechazados.
 
-Para obtener más información sobre las devoluciones, consulte [Lista de supresión](../reports/suppression-list.md) página.
+Para obtener más información sobre las devoluciones, consulte la página [Lista de supresión](../reports/suppression-list.md).
 
 ## Notificación push {#push}
 
-En los informes de canal, la variable **Notificación push** El menú detalla la información principal relativa a las notificaciones push enviadas en sus campañas y Recorridos. Las métricas se detallan a continuación.
+En los informes de canal, el menú **Notificaciones push** detalla la información principal relativa a las notificaciones push enviadas en las campañas y Recorridos. Las métricas se detallan a continuación.
 
 ### Notificaciones push: estadísticas de envío totales {#push-total-sending}
 
@@ -288,7 +288,7 @@ En los informes de canal, la variable **Notificación push** El menú detalla la
 
 ![](assets/channel_push_total_sending.png)
 
-El **[!UICONTROL Notificaciones push: estadísticas de envío totales]** Los KPI sirven como un resumen completo, encapsulando datos esenciales relacionados con las notificaciones push. Estas métricas incluyen perspectivas detalladas sobre la audiencia objetivo y el estado de entrega real, lo que proporciona una vista completa de la eficacia y el alcance de las notificaciones push.
+Las **[!UICONTROL notificaciones push - estadísticas de envío totales]** KPI sirven como un resumen completo, encapsulando datos esenciales relacionados con sus notificaciones push. Estas métricas incluyen perspectivas detalladas sobre la audiencia objetivo y el estado de entrega real, lo que proporciona una vista completa de la eficacia y el alcance de las notificaciones push.
 
 +++ Más información sobre las notificaciones push: métricas de estadísticas de envío total
 
@@ -300,17 +300,17 @@ El **[!UICONTROL Notificaciones push: estadísticas de envío totales]** Los KPI
 
 * **[!UICONTROL Tasa de entrega]**: porcentaje de notificaciones push enviadas correctamente.
 
-* **[!UICONTROL Devoluciones]**: Total de errores acumulados y procesamiento automático de devolución en relación con el número total de mensajes enviados.
+* **[!UICONTROL Devoluciones]**: Total de errores acumulados y procesamiento automático de devoluciones en relación con el número total de mensajes enviados.
 
 * **[!UICONTROL Tasa de devoluciones]**: porcentaje de notificaciones push que rebotaron en comparación con las notificaciones push enviadas.
 
-* **[!UICONTROL Errores]**: Número total de errores que han impedido su envío a los perfiles.
+* **[!UICONTROL Errores]**: Número total de errores que impidieron que se enviara a los perfiles.
 
-* **[!UICONTROL Tasa de error]**: porcentaje de errores que se produjeron al evitar que se enviara en comparación con las notificaciones push enviadas.
+* **[!UICONTROL Tasa de errores]**: Porcentaje de errores que impidieron que se enviara en comparación con las notificaciones push enviadas.
 
-* **[!UICONTROL Excluido]**: Número de perfiles que han sido excluidos por Adobe Journey Optimizer.
+* **[!UICONTROL Excluido]**: número de perfiles que han sido excluidos por Adobe Journey Optimizer.
 
-* **[!UICONTROL Tasa de exclusión]**: porcentaje de perfiles que han sido excluidos por Adobe Journey Optimizer.
+* **[!UICONTROL Tasa de exclusión]**: porcentaje de perfiles que Adobe Journey Optimizer ha excluido.
 
 +++
 
@@ -321,15 +321,15 @@ El **[!UICONTROL Notificaciones push: estadísticas de envío totales]** Los KPI
 >title="Notificación push: estadísticas de seguimiento totales"
 >abstract="Notificación push: las estadísticas de seguimiento totales proporcionan datos sobre la actividad del perfil para las notificaciones push."
 
-El **[!UICONTROL Notificación push: estadísticas de seguimiento totales]** El widget ofrece una instantánea detallada de la actividad del perfil vinculada a las notificaciones push, lo que proporciona una información esencial sobre la participación y la eficacia de las notificaciones push.
+El widget **[!UICONTROL Notificación push: estadísticas totales de seguimiento]** ofrece una instantánea detallada de la actividad del perfil vinculada a las notificaciones push, lo que proporciona información esencial sobre la participación y la eficacia de las notificaciones push.
 
 +++ Más información sobre las notificaciones push: métricas de estadísticas de seguimiento totales
 
 * **[!UICONTROL Aperturas]**: Número de veces que se abrió una notificación push.
 
-* **[!UICONTROL Tasa de apertura]**: porcentaje de notificaciones push abiertas.
+* **[!UICONTROL Tasa de apertura]**: Porcentaje de notificaciones push abiertas.
 
-* **[!UICONTROL Acciones]**: Número total de acciones en la notificación push entregada, por ejemplo, clic en el botón o despido.
+* **[!UICONTROL Acciones]**: Número total de acciones en la notificación de inserción entregada, por ejemplo, clic en el botón o despido.
 
 * **[!UICONTROL Tasa de acción]**: porcentaje de acciones en la notificación push entregada en comparación con las notificaciones push enviadas.
 
@@ -344,7 +344,7 @@ El **[!UICONTROL Notificación push: estadísticas de seguimiento totales]** El 
 
 ![](assets/channel_push_sending_statistics.png)
 
-El **[!UICONTROL Notificaciones push: estadísticas de envío a lo largo del tiempo]** el gráfico ofrece una representación dinámica que muestra un análisis de la actividad de notificaciones push. Esta representación gráfica proporciona un desglose completo de las notificaciones push enviadas, lo que le permite observar tendencias y patrones en una escala horaria, diaria, semanal o mensual.
+El gráfico **[!UICONTROL Notificaciones push: estadísticas de envío a lo largo del tiempo]** ofrece una representación dinámica que muestra un análisis de su actividad de notificaciones push. Esta representación gráfica proporciona un desglose completo de las notificaciones push enviadas, lo que le permite observar tendencias y patrones en una escala horaria, diaria, semanal o mensual.
 
 +++ Más información sobre las Notificaciones push: estadísticas de envío a lo largo del tiempo
 
@@ -352,9 +352,9 @@ El **[!UICONTROL Notificaciones push: estadísticas de envío a lo largo del tie
 
 * **[!UICONTROL Entregado]**: Número de notificaciones push enviadas correctamente, en relación con el número total de notificaciones push enviadas.
 
-* **[!UICONTROL Devoluciones]**: Total de errores acumulados y procesamiento automático de devolución en relación con el número total de mensajes enviados.
+* **[!UICONTROL Devoluciones]**: Total de errores acumulados y procesamiento automático de devoluciones en relación con el número total de mensajes enviados.
 
-* **[!UICONTROL Errores]**: Número total de errores que han impedido su envío a los perfiles.
+* **[!UICONTROL Errores]**: Número total de errores que impidieron que se enviara a los perfiles.
 
 +++
 
@@ -365,13 +365,13 @@ El **[!UICONTROL Notificaciones push: estadísticas de envío a lo largo del tie
 >title="Notificaciones push: estadísticas de seguimiento a lo largo del tiempo"
 >abstract="El gráfico Notificaciones push: estadísticas de seguimiento a lo largo del tiempo proporciona datos sobre la actividad del perfil para las notificaciones push, desglosados por hora, día, semana o mes."
 
-El **[!UICONTROL Notificaciones push: estadísticas de seguimiento a lo largo del tiempo]** Este gráfico proporciona información general detallada sobre la actividad del perfil relacionada con las notificaciones push. Esta representación gráfica desglosa los datos por hora, día, semana o mes, lo que ofrece una valiosa perspectiva de cómo evoluciona la participación de los destinatarios en diferentes intervalos de tiempo.
+El gráfico **[!UICONTROL Notificaciones push: estadísticas de seguimiento a lo largo del tiempo]** proporciona una descripción detallada de la actividad del perfil relacionada con sus notificaciones push. Esta representación gráfica desglosa los datos por hora, día, semana o mes, lo que ofrece una valiosa perspectiva de cómo evoluciona la participación de los destinatarios en diferentes intervalos de tiempo.
 
 +++ Más información sobre las Notificaciones push: estadísticas de seguimiento a lo largo del tiempo
 
 * **[!UICONTROL Aperturas]**: Número de veces que se abrió la notificación push.
 
-* **[!UICONTROL Acciones]**: Número total de acciones en la notificación push entregada, por ejemplo, clic en el botón o despido.
+* **[!UICONTROL Acciones]**: Número total de acciones en la notificación de inserción entregada, por ejemplo, clic en el botón o despido.
 
 +++
 
@@ -384,9 +384,9 @@ El **[!UICONTROL Notificaciones push: estadísticas de seguimiento a lo largo de
 
 ![](assets/channel_push_excluded.png)
 
-El **[!UICONTROL Razones de exclusión]** los gráficos y las tablas muestran los diferentes motivos que han impedido que los perfiles de usuario, excluidos de los perfiles de destino, reciban las notificaciones push.
+El gráfico y la tabla **[!UICONTROL Razones de exclusión]** muestran las diferentes razones que impidieron que los perfiles de usuario, excluidos de los perfiles de destino, recibieran sus notificaciones push.
 
-Consulte [esta página](exclusion-list.md) para obtener la lista completa de motivos de exclusión.
+Consulte [esta página](exclusion-list.md) para obtener una lista completa de motivos de exclusión.
 
 ### Notificaciones push: motivos del error {#push-error-reasons}
 
@@ -397,7 +397,7 @@ Consulte [esta página](exclusion-list.md) para obtener la lista completa de mot
 
 ![](assets/channel_push_error.png)
 
-El **[!UICONTROL Motivos del error]** los gráficos y las tablas le permiten identificar los errores específicos que se produjeron durante el proceso de envío de las notificaciones push, lo que ofrece información detallada sobre cualquier problema que se haya encontrado durante el proceso.
+Los gráficos y la tabla de **[!UICONTROL Motivos del error]** le permiten identificar los errores específicos que se produjeron durante el proceso de envío de las notificaciones push, lo que ofrece una perspectiva detallada de los problemas que se detectaron durante el proceso.
 
 ### Notificaciones push: seguimiento por plataforma {#push-tracking-platform}
 
@@ -406,7 +406,7 @@ El **[!UICONTROL Motivos del error]** los gráficos y las tablas le permiten ide
 >title="Estadísticas de seguimiento por plataforma"
 >abstract="Las estadísticas de seguimiento por gráfico y tabla de plataforma proporcionan datos sobre la actividad del perfil para las notificaciones push según el sistema operativo del perfil."
 
-El **[!UICONTROL Notificaciones push: seguimiento por plataforma]** los gráficos y las tablas detallan la actividad de los destinatarios de la notificación push según el sistema operativo del perfil.
+Los gráficos y tablas de **[!UICONTROL Notificaciones push - Seguimiento por plataforma]** detallan la actividad de los destinatarios de las notificaciones push en función del sistema operativo del perfil.
 
 ### Notificaciones push: envío por plataforma {#push-sending-platform}
 
@@ -417,11 +417,11 @@ El **[!UICONTROL Notificaciones push: seguimiento por plataforma]** los gráfico
 
 ![](assets/channel_push_sending_platform.png)
 
-El **[!UICONTROL Notificaciones push: envío por plataforma]** los gráficos y las tablas proporcionan un desglose completo, en el que se detalla el éxito de las notificaciones push en relación con los sistemas operativos de los perfiles. Este análisis detallado ofrece información valiosa sobre la eficacia de las notificaciones push en diferentes plataformas.
+El gráfico y las tablas de **[!UICONTROL Notificaciones push - Envío por plataforma]** proporcionan un desglose completo, en el que se detalla el éxito de las notificaciones push en relación con los sistemas operativos de sus perfiles. Este análisis detallado ofrece información valiosa sobre la eficacia de las notificaciones push en diferentes plataformas.
 
 ## SMS {#sms}
 
-De su **Canal** En los informes de, el menú SMS detalla la información principal relativa a los SMS enviados en sus campañas y Recorridos. Las métricas se detallan a continuación.
+Desde tus informes de **Channel**, el menú SMS detalla la información principal relacionada con los SMS enviados en tus campañas y Recorridos. Las métricas se detallan a continuación.
 
 ### SMS: estadísticas de envío totales {#sms-sending-statistics}
 
@@ -432,29 +432,29 @@ De su **Canal** En los informes de, el menú SMS detalla la información princip
 
 ![](assets/channel_sms_total_sending.png)
 
-El **[!UICONTROL SMS: estadísticas de envío totales]** Los KPI sirven como un resumen completo, encapsulando datos esenciales relacionados con su SMS. Estas métricas incluyen perspectivas detalladas sobre la audiencia objetivo y el estado de entrega real, lo que proporciona una vista completa de la eficacia y el alcance de sus mensajes SMS.
+Los KPI **[!UICONTROL SMS - estadísticas de envío totales]** sirven como un resumen completo, encapsulando datos esenciales relacionados con su SMS. Estas métricas incluyen perspectivas detalladas sobre la audiencia objetivo y el estado de entrega real, lo que proporciona una vista completa de la eficacia y el alcance de sus mensajes SMS.
 
 +++ Más información sobre las notificaciones push: métricas de estadísticas de envío total
 
-* **[!UICONTROL Objetivos]**: Número de perfiles de usuario que se califican como perfiles de destinatario para el canal SMS.
+* **[!UICONTROL Segmentado]**: número de perfiles de usuario que cumplen los requisitos como perfiles de destinatario para el canal SMS.
 
 * **[!UICONTROL Enviado]**: Número total de mensajes SMS enviados.
 
-* **[!UICONTROL Entregado]**: Número de mensajes SMS enviados correctamente en relación con el número total de mensajes SMS enviados.
+* **[!UICONTROL Entregado]**: número de mensajes SMS enviados correctamente en relación con el número total de mensajes SMS enviados.
 
 * **[!UICONTROL Tasa de entrega]**: porcentaje de mensajes SMS enviados correctamente.
 
-* **[!UICONTROL Devoluciones]**: Total de errores acumulados y procesamiento automático de devolución en relación con el número total de mensajes SMS enviados.
+* **[!UICONTROL Devoluciones]**: Total de errores acumulados y procesamiento automático de devoluciones en relación con el número total de mensajes SMS enviados.
 
-* **[!UICONTROL Tasa de devoluciones]**: porcentaje de mensajes SMS que se rebotaron en comparación con los mensajes SMS enviados.
+* **[!UICONTROL Tasa de salida hacia otro sitio]**: Porcentaje de mensajes SMS que se rebotaron en comparación con los enviados por SMS.
 
-* **[!UICONTROL Errores]**: Número total de errores que han impedido su envío a los perfiles.
+* **[!UICONTROL Errores]**: Número total de errores que impidieron que se enviara a los perfiles.
 
-* **[!UICONTROL Tasa de error]**: porcentaje de errores que impidieron su envío en comparación con los mensajes SMS enviados.
+* **[!UICONTROL Tasa de errores]**: Porcentaje de errores que impidieron que se enviara en comparación con los mensajes SMS enviados.
 
 * **[!UICONTROL Excluido]**: número de perfiles de usuario, excluidos de los perfiles de destino, que no recibieron el mensaje.
 
-* **[!UICONTROL Tasa de exclusión]**: porcentaje de perfiles que han sido excluidos por Adobe Journey Optimizer.
+* **[!UICONTROL Tasa de exclusión]**: porcentaje de perfiles que Adobe Journey Optimizer ha excluido.
 
 +++
 
@@ -467,7 +467,7 @@ El **[!UICONTROL SMS: estadísticas de envío totales]** Los KPI sirven como un 
 
 ![](assets/channel_sms_tracking.png)
 
-El **[!UICONTROL SMS: estadísticas de seguimiento totales]** Este widget proporciona una descripción detallada de la información clave relacionada con la participación de los visitantes con las direcciones URL, lo que ofrece perspectivas sobre la eficacia de los mensajes SMS:
+El widget **[!UICONTROL SMS - Estadísticas totales de seguimiento]** proporciona una descripción detallada de la información clave relacionada con la participación de los visitantes con las direcciones URL, lo que ofrece perspectivas sobre la eficacia de los mensajes SMS:
 
 * **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en el mensaje SMS.
 
@@ -480,15 +480,15 @@ El **[!UICONTROL SMS: estadísticas de seguimiento totales]** Este widget propor
 
 ![](assets/channel_sms_sending_overtime.png)
 
-El **[!UICONTROL SMS: estadísticas de envío a lo largo del tiempo]** Este gráfico ofrece una vista completa de los mensajes SMS enviados, y proporciona datos desglosados por hora, día, semana o mes. Esta representación gráfica le permite rastrear y analizar las tendencias en su actividad de mensajería SMS en diferentes intervalos de tiempo.
+El gráfico **[!UICONTROL SMS - estadísticas de envío a lo largo del tiempo]** ofrece una vista completa de los mensajes SMS enviados, que proporciona datos desglosados por hora, día, semana o mes. Esta representación gráfica le permite rastrear y analizar las tendencias en su actividad de mensajería SMS en diferentes intervalos de tiempo.
 
 +++ Más información sobre los SMS: estadísticas de envío a lo largo del tiempo
 
 * **[!UICONTROL Enviado]**: Número total de mensajes SMS enviados.
 
-* **[!UICONTROL Devoluciones]**: Total de errores acumulados y procesamiento automático de devolución en relación con el número total de mensajes SMS enviados.
+* **[!UICONTROL Devoluciones]**: Total de errores acumulados y procesamiento automático de devoluciones en relación con el número total de mensajes SMS enviados.
 
-* **[!UICONTROL Errores]**: Número total de errores que han impedido su envío a los perfiles.
+* **[!UICONTROL Errores]**: Número total de errores que impidieron que se enviara a los perfiles.
 
 +++
 
@@ -501,7 +501,7 @@ El **[!UICONTROL SMS: estadísticas de envío a lo largo del tiempo]** Este grá
 
 ![](assets/channel_sms_tracking_overtime.png)
 
-El **[!UICONTROL SMS: estadísticas de seguimiento a lo largo del tiempo]** Este gráfico proporciona datos sobre la actividad del perfil relacionada con sus mensajes SMS, y ofrece un desglose detallado por hora, día, semana o mes. Esta representación gráfica le permite analizar y comprender los patrones de participación del usuario en diferentes intervalos de tiempo.
+El gráfico **[!UICONTROL SMS - Estadísticas de seguimiento a lo largo del tiempo]** proporciona datos sobre la actividad del perfil relacionada con sus mensajes SMS, y ofrece un desglose detallado por hora, día, semana o mes. Esta representación gráfica le permite analizar y comprender los patrones de participación del usuario en diferentes intervalos de tiempo.
 
 * **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en el mensaje SMS.
 
@@ -514,9 +514,9 @@ El **[!UICONTROL SMS: estadísticas de seguimiento a lo largo del tiempo]** Este
 
 ![](assets/channel_sms_excluded.png)
 
-El **[!UICONTROL Excluye motivos]** Los gráficos y tablas muestran visualmente los diversos factores que llevaron a la exclusión de perfiles de usuario de la audiencia de destino, lo que les impidió recibir sus mensajes SMS.
+Los gráficos y la tabla **[!UICONTROL Excluye Reasons]** muestran visualmente los diversos factores que llevaron a la exclusión de perfiles de usuarios de la audiencia de destino, lo que les impidió recibir sus mensajes SMS.
 
-Consulte [esta página](exclusion-list.md) para obtener la lista completa de motivos de exclusión.
+Consulte [esta página](exclusion-list.md) para obtener una lista completa de motivos de exclusión.
 
 ### Motivos de rechazo {#sms-bounce-reasons}
 
@@ -527,7 +527,7 @@ Consulte [esta página](exclusion-list.md) para obtener la lista completa de mot
 
 ![](assets/channel_sms_bounce_reasons.png)
 
-El **[!UICONTROL Razones de rechazos]** Los gráficos y la tabla proporcionan una visión general completa de los datos relacionados con los mensajes SMS rechazados, lo que ofrece una valiosa perspectiva de las razones específicas detrás de las instancias de rechazos de mensajes SMS.
+Los gráficos y la tabla de **[!UICONTROL Motivos de rechazos]** proporcionan una visión general completa de los datos relacionados con los mensajes SMS rechazados, lo que proporciona información valiosa sobre los motivos específicos detrás de los rechazos de mensajes SMS.
 
 ### Motivos de error {#sms-error-reasons}
 
@@ -536,11 +536,11 @@ El **[!UICONTROL Razones de rechazos]** Los gráficos y la tabla proporcionan un
 >title="Motivos de error"
 >abstract="Los gráficos y la tabla Motivos del error le permiten identificar los errores específicos que se produjeron durante el proceso de envío."
 
-El **[!UICONTROL Motivos del error]** Los gráficos y las tablas le permiten identificar los errores específicos que se produjeron durante el proceso de envío de sus mensajes SMS, lo que facilita un análisis exhaustivo de cualquier problema encontrado.
+Los gráficos y la tabla **[!UICONTROL Motivos del error]** le permiten identificar los errores específicos que se produjeron durante el proceso de envío de sus mensajes SMS, lo que facilita un análisis exhaustivo de cualquier problema que se haya encontrado.
 
 ## Correo directo {#direct-mail}
 
-De su **Canal** informes, el **Correo directo** El menú detalla la información principal relativa a los mensajes de correo postal enviados en su **Campañas** y **Recorridos**. Las métricas se detallan a continuación.
+Desde tus informes de **Channel**, el menú de **Direct mail** detalla la información principal relativa a los mensajes de Direct mail enviados en tus **Campañas** y **Recorridos**. Las métricas se detallan a continuación.
 
 ### Correo directo: estadísticas de envío totales {#direct-mail-total-sending}
 
@@ -551,21 +551,21 @@ De su **Canal** informes, el **Correo directo** El menú detalla la información
 
 ![](assets/channel_direct_sending.png)
 
-El **[!UICONTROL Correo directo: estadísticas de envío totales]** Este widget ofrece una descripción general completa del rendimiento de los mensajes de correo postal y muestra indicadores clave de rendimiento (KPI) que resumen datos esenciales sobre los mensajes de correo postal.
+El widget **[!UICONTROL Correo directo: estadísticas de envío totales]** ofrece una descripción general completa del rendimiento de los mensajes de correo postal y muestra indicadores clave de rendimiento (KPI) que resumen datos esenciales sobre los mensajes de correo postal.
 
 +++ Más información sobre el Correo directo: métricas de estadísticas de envío total
 
-* **[!UICONTROL Objetivos]**: Número de perfiles de usuario que se califican como perfiles de destino para sus mensajes de correo postal.
+* **[!UICONTROL Segmentación]**: número de perfiles de usuario que cumplen los requisitos para ser destinatarios de sus mensajes de correo postal.
 
 * **[!UICONTROL Enviado]**: Número total de envíos.
 
-* **[!UICONTROL Errores]**: Número total de errores que han impedido su envío a los perfiles.
+* **[!UICONTROL Errores]**: Número total de errores que impidieron que se enviara a los perfiles.
 
-* **[!UICONTROL Tasa de error]**: porcentaje de errores que se produjeron al evitar que se enviara en comparación con las notificaciones push enviadas.
+* **[!UICONTROL Tasa de errores]**: Porcentaje de errores que impidieron que se enviara en comparación con las notificaciones push enviadas.
 
 * **[!UICONTROL Excluido]**: número de perfiles de usuario, excluidos de los perfiles de destino, que no recibieron el mensaje.
 
-* **[!UICONTROL Tasa de exclusión]**: porcentaje de perfiles que han sido excluidos por Adobe Journey Optimizer.
+* **[!UICONTROL Tasa de exclusión]**: porcentaje de perfiles que Adobe Journey Optimizer ha excluido.
 
 +++
 
@@ -578,9 +578,9 @@ El **[!UICONTROL Correo directo: estadísticas de envío totales]** Este widget 
 
 ![](assets/channel_direct_excluded.png)
 
-El **[!UICONTROL Correo directo: razones de exclusión]** los gráficos y las tablas ilustran visualmente los distintos factores que resultaron en la exclusión de perfiles de usuario de la audiencia de destino, lo que les impide recibir sus mensajes de correo postal.
+Los gráficos y la tabla de **[!UICONTROL Correo directo: razones de exclusión]** ilustran visualmente los diversos factores que resultaron en la exclusión de perfiles de usuarios de la audiencia de destino, lo que les impide recibir sus mensajes de correo postal.
 
-Consulte [esta página](exclusion-list.md) para obtener la lista completa de motivos de exclusión.
+Consulte [esta página](exclusion-list.md) para obtener una lista completa de motivos de exclusión.
 
 ### Motivos de error {#direct-mail-error-reasons}
 
@@ -591,7 +591,7 @@ Consulte [esta página](exclusion-list.md) para obtener la lista completa de mot
 
 ![](assets/channel_direct_error.png)
 
-El **[!UICONTROL Correo directo: razones de error]** proporcionar los medios para identificar errores específicos que se produjeron durante el proceso de envío de sus mensajes de correo postal, lo que permite un análisis detallado de cualquier problema encontrado.
+**[!UICONTROL Correo directo: razones de error]** proporcionan los medios para identificar errores específicos que se produjeron durante el proceso de envío de los mensajes de correo postal, lo que permite un análisis detallado de cualquier problema que se encuentre.
 
 ## En la aplicación {#in-app}
 
@@ -606,13 +606,13 @@ En los informes de canal, el menú en la aplicación detalla la información pri
 
 ![](assets/channel_inapp_engagement.png)
 
-El **[!UICONTROL Participación total en la aplicación]** Los KPI ofrecen una visión completa de la participación de los visitantes en los mensajes en la aplicación, lo que incluye métricas clave como las siguientes **Impresiones** y **Interacciones**.
+Los KPI de **[!UICONTROL participación total en la aplicación]** ofrecen una perspectiva completa de la participación de los visitantes con los mensajes en la aplicación, que incluye métricas clave como **Impresiones** e **Interacciones**.
 
 +++ Obtenga más información sobre las métricas de participación total en la aplicación.
 
 * **[!UICONTROL Impresiones]**: Número total de mensajes en la aplicación enviados a todos los usuarios.
 
-* **[!UICONTROL Interacciones]**: Número total de interacciones con el mensaje en la aplicación. Esto incluye cualquier acción realizada por los usuarios, como clics, rechazos o cualquier otra interacción.
+* **[!UICONTROL Interacciones]**: Número total de interacciones con su mensaje en la aplicación. Esto incluye cualquier acción realizada por los usuarios, como clics, rechazos o cualquier otra interacción.
 
 +++
 
@@ -625,19 +625,19 @@ El **[!UICONTROL Participación total en la aplicación]** Los KPI ofrecen una v
 
 ![](assets/channel_inapp_engagement_overtime.png)
 
-El **[!UICONTROL Horas extra de participación en la aplicación]** Este gráfico muestra la evolución de las impresiones e interacciones en la aplicación durante el periodo correspondiente mediante el seguimiento de cualquier impresión, rechazo o interacción.
+El gráfico **[!UICONTROL Tiempo extra de participación en la aplicación]** muestra la evolución de las impresiones e interacciones en la aplicación durante el período correspondiente al rastrear cualquier impresión, rechazo o interacción.
 
 +++ Más información sobre las Métricas de horas extra de participación en la aplicación
 
 * **[!UICONTROL Impresiones]**: Número total de mensajes en la aplicación enviados a todos los usuarios.
 
-* **[!UICONTROL Interacciones]**: Número total de interacciones con el mensaje en la aplicación. Esto incluye cualquier acción realizada por los usuarios, como clics, rechazos o cualquier otra interacción.
+* **[!UICONTROL Interacciones]**: Número total de interacciones con su mensaje en la aplicación. Esto incluye cualquier acción realizada por los usuarios, como clics, rechazos o cualquier otra interacción.
 
 +++
 
 ## Web {#web}
 
-De su **Canal** , el menú Web detalla la información principal relativa a las páginas Web incluidas en el **Campañas** y **Recorridos**. Las métricas se detallan a continuación.
+A partir de sus informes de **Channel**, el menú web detalla la información principal relativa a las páginas web incluidas en sus **Campañas** y **Recorridos**. Las métricas se detallan a continuación.
 
 ### Web: participación total {#web-engagement-total}
 
@@ -648,13 +648,13 @@ De su **Canal** , el menú Web detalla la información principal relativa a las 
 
 ![](assets/channel_web_engagement.png)
 
-El **[!UICONTROL Participación total en web]** Los KPI ofrecen una amplia perspectiva de la participación de los visitantes en sus páginas web, lo que incluye métricas clave como Impresiones e Interacciones.
+Los KPI de **[!UICONTROL participación total en la web]** ofrecen una amplia perspectiva de la participación de los visitantes en sus páginas web, e incluyen métricas clave como Impresiones e Interacciones.
 
 +++ Obtenga más información sobre las métricas de participación totales en web
 
 * **[!UICONTROL Impresiones]**: Número total de experiencias web entregadas a todos los usuarios.
 
-* **[!UICONTROL Interacciones]**: Número total de interacciones con la página web. Esto incluye cualquier acción realizada por los usuarios, como clics o cualquier otra interacción.
+* **[!UICONTROL Interacciones]**: Número total de interacciones con su página web. Esto incluye cualquier acción realizada por los usuarios, como clics o cualquier otra interacción.
 
 +++
 
@@ -667,13 +667,13 @@ El **[!UICONTROL Participación total en web]** Los KPI ofrecen una amplia persp
 
 ![](assets/channel_web_engagement_overtime.png)
 
-El **[!UICONTROL Horas extra de participación web]** El gráfico supervisa los **Impresiones** y **Interacciones** de sus páginas web, que ofrecen desgloses detallados por hora, día, semana y mes.
+El gráfico **[!UICONTROL Tiempo extra de participación en la web]** supervisa las **Impresiones** e **Interacciones** de sus páginas web, y ofrece desgloses detallados por hora, día, semana y mes.
 
 +++ Más información sobre las métricas de horas extra de participación en web
 
 * **[!UICONTROL Impresiones]**: Número total de experiencias web entregadas a todos los usuarios.
 
-* **[!UICONTROL Interacciones]**: Número total de interacciones con la página web. Esto incluye cualquier acción realizada por los usuarios, como clics o cualquier otra interacción.
+* **[!UICONTROL Interacciones]**: Número total de interacciones con su página web. Esto incluye cualquier acción realizada por los usuarios, como clics o cualquier otra interacción.
 
 +++
 

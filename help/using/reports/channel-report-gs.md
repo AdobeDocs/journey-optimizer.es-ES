@@ -25,31 +25,31 @@ Obtenga más información sobre las distintas métricas y widgets disponibles pa
 
 ## Antes de empezar {#manage-reports-prereq}
 
-Antes de empezar, compruebe que tiene acceso a **[!UICONTROL Informes]** menú.
+Antes de comenzar, compruebe que tiene acceso al menú **[!UICONTROL Informes]**.
 
-Si no puede ver el **[!UICONTROL Informes]** , los derechos de acceso deben ampliarse para incluir el **[!UICONTROL Ver informes de canal]** permiso. Puede ampliar sus propios permisos si tiene acceso a Adobe Experience Platform [Permisos](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=es){target="_blank"} para su organización. Si no es así, póngase en contacto con el administrador de Adobe Journey Optimizer.
+Si no puede ver el menú **[!UICONTROL Informes]**, sus derechos de acceso deben ampliarse para incluir el permiso **[!UICONTROL Ver informes de canal]**. Puede ampliar sus propios permisos si tiene acceso a los [permisos](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=es){target="_blank"} de Adobe Experience Platform para su organización. Si no es así, póngase en contacto con el administrador de Adobe Journey Optimizer.
 
 +++Obtenga información sobre cómo asignar permisos de informe
 
-Tenga en cuenta que este permiso está incluido en el siguiente complemento integrado **[!UICONTROL Funciones]**: administrador de campañas, aprobador de campañas, visor de campañas y administrador de campañas.
+Tenga en cuenta que este permiso está incluido en los siguientes **[!UICONTROL roles]** integrados: Administrador de campañas, Aprobador de campañas, Visor de campañas y Administrador de campañas.
 
 Para asignar el permiso correspondiente a su **[!UICONTROL Rol]**:
 
-1. Desde el [!DNL Permissions] producto, vaya a la **[!UICONTROL Funciones]** y seleccione la función que desea actualizar con el nuevo **[!UICONTROL Ver informes de canal]** permiso.
+1. En el producto [!DNL Permissions], vaya al menú **[!UICONTROL Roles]** y seleccione el rol que desea actualizar con el nuevo permiso **[!UICONTROL Ver informes de canal]**.
 
-1. De su **[!UICONTROL Rol]** panel, haga clic en **[!UICONTROL Editar]**.
+1. En el panel **[!UICONTROL Rol]**, haga clic en **[!UICONTROL Editar]**.
 
    ![](assets/channel_permission_1.png)
 
-1. Arrastre y suelte el **[!UICONTROL Informes]** recurso para asignar permiso.
+1. Arrastre y suelte el recurso **[!UICONTROL Informes]** para asignar el permiso.
 
-   Desde el **[!UICONTROL Informe]** menú desplegable de recursos, seleccione **[!UICONTROL Ver informes de canal]** permiso.
+   En el menú desplegable de recursos **[!UICONTROL Informe]**, seleccione el permiso **[!UICONTROL Ver informes de canal]**.
 
    ![](assets/channel_permission_2.png)
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-Usuarios asignados a esto **[!UICONTROL Rol]** ahora pueden acceder a la **[!UICONTROL Informes]** menú.
+Los usuarios asignados a este **[!UICONTROL Rol]** ahora pueden acceder al menú **[!UICONTROL Informes]**.
 
 +++
 
@@ -57,17 +57,17 @@ Usuarios asignados a esto **[!UICONTROL Rol]** ahora pueden acceder a la **[!UIC
 
 Para acceder y administrar los informes de canal, siga estos pasos:
 
-1. Vaya a **[!UICONTROL Informes]** menú dentro de **[!UICONTROL Administración de recorrido]** sección.
+1. Vaya al menú **[!UICONTROL Informes]** dentro de la sección **[!UICONTROL Administración de Recorrido]**.
 
    ![](assets/channel_report_1.png)
 
-1. En el tablero, elija una **Inicio** y **[!UICONTROL Hora de finalización]** para segmentar datos específicos.
+1. En el tablero, elija **Inicio** y **[!UICONTROL Hora de finalización]** para segmentar datos específicos.
 
-1. Desde el **[!UICONTROL Acción desde]** , seleccione si quiere segmentar campañas, Recorridos o ambos.
+1. En el menú desplegable **[!UICONTROL Acción de]**, seleccione si quiere segmentar campañas, Recorridos o ambos.
 
    ![](assets/channel_report_2.png)
 
-1. Clic **[!UICONTROL Modificar]** para cambiar el tamaño o quitar widgets y crear un tablero que satisfaga sus necesidades específicas.
+1. Haga clic en **[!UICONTROL Modificar]** para cambiar el tamaño de los widgets o quitarlos y crear un tablero que satisfaga sus necesidades específicas.
 
    ![](assets/channel_report_3.png)
 
@@ -85,7 +85,7 @@ Puede exportar fácilmente los distintos informes a los formatos PDF o CSV, lo q
 
 >[!BEGINTABS]
 
->[!TAB Exportación del informe como archivo de PDF]
+>[!TAB Exporte su informe como archivo de PDF]
 
 1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL archivo de PDF]**.
 
@@ -97,11 +97,11 @@ Puede exportar fácilmente los distintos informes a los formatos PDF o CSV, lo q
 
 El informe ya está disponible para su visualización o uso compartido en un archivo pdf.
 
->[!TAB Exportación del informe como archivo CSV]
+>[!TAB Exporte su informe como archivo CSV]
 
-1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL Archivo CSV]** para generar un archivo CSV en el nivel de informe general.
+1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL archivo CSV]** para generar un archivo CSV en el nivel de informe general.
 
-1. También puede elegir exportar datos de un widget específico. Clic **[!UICONTROL Exportar datos de widget a CSV]** situado junto al widget seleccionado.
+1. También puede elegir exportar datos de un widget específico. Haga clic en **[!UICONTROL Exportar datos de widget a CSV]** junto al widget seleccionado.
 
 1. El archivo se descargará automáticamente y se podrá encontrar en los archivos locales.
 

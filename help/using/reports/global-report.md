@@ -11,7 +11,7 @@ exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 3%
+ht-degree: 28%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 3%
 >
 > Si las consultas personalizadas se realizan mediante API al utilizar el servicio de consulta, espere algún retraso para los informes.
 
-Utilice el **[!UICONTROL Informe global]** para medir el impacto de los recorridos y envíos durante un periodo seleccionado.
+Use el **[!UICONTROL informe global]** para medir el impacto de sus recorridos y envíos durante un período de tiempo seleccionado.
 
-* Si desea dirigirse a un recorrido o envíos en el contexto de un recorrido, desde el **[!UICONTROL Recorridos]** , acceda al recorrido y haga clic en el **[!UICONTROL Ver informe]** botón. A continuación, puede encontrar los informes globales Recorrido, Correo electrónico, SMS y Push.
+* Si desea direccionar un recorrido o envíos en el contexto de un recorrido, en el menú **[!UICONTROL Recorridos]**, acceda al recorrido y haga clic en el botón **[!UICONTROL Ver informe]**. A continuación, puede encontrar los informes globales Recorrido, Correo electrónico, SMS y Push.
 
   ![](assets/report_journey.png)
 
-* Si desea dirigirse a una campaña, en el **[!UICONTROL Campañas]** , acceda a la campaña y haga clic en **[!UICONTROL Informes]** botón.
+* Si desea segmentar una campaña, en el menú **[!UICONTROL Campañas]**, acceda a su campaña y haga clic en el botón **[!UICONTROL Informes]**.
 
   ![](assets/report_campaign.png)
 
-* Si desea cambiar de la **[!UICONTROL Informe en vivo]** a la **[!UICONTROL Informe global]** para la entrega, haga clic en **[!UICONTROL Siempre]** en el conmutador de pestañas.
+* Si desea cambiar del **[!UICONTROL informe en vivo]** al **[!UICONTROL informe global]** para su envío, haga clic en **[!UICONTROL Todo el tiempo]** desde el conmutador de pestañas.
 
   ![](assets/report_5.png)
 
@@ -45,19 +45,19 @@ Para modificar cada tablero de informes, cambie el período de tiempo y cambie e
 
    ![](assets/report_modify_1.png)
 
-1. Para los informes de Recorrido que implican varias configuraciones **[!UICONTROL Acciones]**, elija una específica **[!UICONTROL Acción]** en el menú desplegable.
+1. Para los informes de Recorrido que implican varias **[!UICONTROL acciones]** configuradas, elija una **[!UICONTROL acción]** específica en el menú desplegable.
 
-1. Si solo desea enviar uno o varios mensajes recurrentes, selecciónelos en la **[!UICONTROL Tiempo de ejecución]** menú desplegable.
+1. Si solo desea enviar uno o varios mensajes recurrentes, selecciónelos en la lista desplegable **[!UICONTROL Hora de ejecución]**.
 
    ![](assets/report_modify_12.png)
 
 1. Elija si desea excluir los eventos de prueba de los informes con la barra de alternancia. Para obtener más información sobre los eventos de prueba, consulte [esta página](../building-journeys/testing-the-journey.md).
 
-   Tenga en cuenta que la variable **[!UICONTROL Excluir eventos de prueba]** Esta opción solo está disponible para informes de Recorrido.
+   Tenga en cuenta que la opción **[!UICONTROL Excluir eventos de prueba]** solo está disponible para los informes de Recorrido.
 
    ![](assets/report_modify_2.png)
 
-1. Clic **[!UICONTROL Modificar]** para empezar a personalizar el tablero.
+1. Haga clic en **[!UICONTROL Modificar]** para comenzar a personalizar el tablero.
 
    ![](assets/report_modify_3.png)
 
@@ -65,7 +65,7 @@ Para modificar cada tablero de informes, cambie el período de tiempo y cambie e
 
    ![](assets/report_modify_4.png)
 
-1. Clic **[!UICONTROL Eliminar]** para eliminar cualquier widget que no necesite.
+1. Haz clic en **[!UICONTROL Quitar]** para quitar cualquier widget que no necesites.
 
    ![](assets/report_modify_5.png)
 
@@ -75,7 +75,7 @@ Para modificar cada tablero de informes, cambie el período de tiempo y cambie e
 
    ![](assets/report_modify_10.png)
 
-El tablero se ha guardado. Los diferentes cambios se volverán a aplicar para un uso posterior de los informes activos. Si es necesario, utilice el **[!UICONTROL Restablecer]** para restaurar el orden predeterminado de los widgets y widgets.
+El tablero se ha guardado. Los diferentes cambios se volverán a aplicar para un uso posterior de los informes activos. Si es necesario, use la opción **[!UICONTROL Restablecer]** para restaurar el orden predeterminado de los widgets y widgets.
 
 ## Exportación de informes {#export-reports}
 
@@ -86,13 +86,13 @@ Puede exportar fácilmente los distintos informes a los formatos PDF o CSV, lo q
 
 >[!BEGINTABS]
 
->[!TAB Exportación del informe como archivo CSV]
+>[!TAB Exporte su informe como archivo CSV]
 
-1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL Archivo CSV]** para generar un archivo CSV en el nivel de informe general.
+1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL archivo CSV]** para generar un archivo CSV en el nivel de informe general.
 
    ![](assets/export_1.png)
 
-1. También puede elegir exportar datos de un widget específico. Clic **[!UICONTROL Exportar datos de widget a CSV]** situado junto al widget seleccionado.
+1. También puede elegir exportar datos de un widget específico. Haga clic en **[!UICONTROL Exportar datos de widget a CSV]** junto al widget seleccionado.
 
    ![](assets/export_3.png)
 
@@ -102,7 +102,7 @@ Puede exportar fácilmente los distintos informes a los formatos PDF o CSV, lo q
 
    Si ha generado el archivo en el nivel de widget, proporciona específicamente datos para el widget seleccionado.
 
->[!TAB Exportación del informe como archivo de PDF]
+>[!TAB Exporte su informe como archivo de PDF]
 
 1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL archivo de PDF]**.
 
@@ -142,7 +142,7 @@ Obtenga información sobre cómo descargar un informe CSV para un informe y para
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_delivered"
 >title="Entregados"
->abstract="Widget entregado"
+>abstract="Widget de enviados"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_overview"
@@ -152,7 +152,7 @@ Obtenga información sobre cómo descargar un informe CSV para un informe y para
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_funnel"
 >title="Resultados del canal de Campaign"
->abstract="Widget de resultados de embudo de Campaign"
+>abstract="Widget de resultados del canal de Campaign"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_tracking_link"
@@ -168,17 +168,17 @@ Obtenga información sobre cómo descargar un informe CSV para un informe y para
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_delivered_click"
->title="Tendencia de envíos y clics"
->abstract="Widget de tendencias de Entregado y clic"
+>title="Tendencia de enviados y clics"
+>abstract="Widget de tendencia de enviados y clics"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_delivery_status"
 >title="Estado del envío"
->abstract="Widget del estado de envío"
+>abstract="Widget de estado del envío"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_sending_statistics"
->title="Envío de estadísticas"
+>title="Estadísticas de envío"
 >abstract="Widget de estadísticas de envío"
 
 >[!CONTEXTUALHELP]
@@ -188,33 +188,33 @@ Obtenga información sobre cómo descargar un informe CSV para un informe y para
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_domains"
->title="dominios de correo electrónico"
+>title="Dominios de correo electrónico"
 >abstract="Widget de dominios de correo electrónico"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_tracked_link"
 >title="Etiquetas de vínculos rastreados"
->abstract="Widget de etiquetas de vínculos de seguimiento"
+>abstract="Widget de etiquetas de vínculos rastreados"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_tracked_link_urls"
 >title="URL de vínculos rastreados"
->abstract="Widget de direcciones URL de vínculos rastreados"
+>abstract="Widget de URL de vínculos rastreados"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_subjects"
->title="Temas de correo electrónico"
+>title="Asuntos de correo electrónico"
 >abstract="Widget de asuntos de correo electrónico"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_bounce_reasons"
->title="Motivos del rechazo"
+>title="Motivos de rechazo"
 >abstract="Widget de motivos de rechazo"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_exclude"
->title="Razones de exclusión"
->abstract="Widget de razones de exclusión"
+>title="Motivos excluidos"
+>abstract="Widget de motivos de exclusión"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_error"
@@ -226,7 +226,7 @@ Obtenga información sobre cómo descargar un informe CSV para un informe y para
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_sending_statistics"
->title="Envío de estadísticas"
+>title="Estadísticas de envío"
 >abstract="Widget de estadísticas de envío"
 
 >[!CONTEXTUALHELP]
@@ -237,22 +237,22 @@ Obtenga información sobre cómo descargar un informe CSV para un informe y para
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_tracked_link"
 >title="Etiquetas de vínculos rastreados"
->abstract="Widget de etiquetas de vínculos de seguimiento"
+>abstract="Widget de etiquetas de vínculos rastreados"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_tracked_link_urls"
 >title="URL de vínculos rastreados"
->abstract="Widget de direcciones URL de vínculos rastreados"
+>abstract="Widget de URL de vínculos rastreados"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_bounce_reasons"
->title="Motivos del rechazo"
+>title="Motivos de rechazo"
 >abstract="Widget de motivos de rechazo"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_exclude"
->title="Motivos de exclusión"
->abstract="Widget de razones de exclusión"
+>title="Motivos excluidos"
+>abstract="Widget de motivos de exclusión"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_email_error"
@@ -265,7 +265,7 @@ Obtenga información sobre cómo descargar un informe CSV para un informe y para
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_impression"
 >title="Tendencia de impresión y clics"
->abstract="Widget de tendencias de impresión y clics"
+>abstract="Widget de tendencia de impresión y clics"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_clicks"
@@ -290,40 +290,40 @@ Obtenga información sobre cómo descargar un informe CSV para un informe y para
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_tracked_link_urls"
 >title="URL de vínculos rastreados"
->abstract="Widget de direcciones URL de vínculos rastreados"
+>abstract="Widget de URL de vínculos rastreados"
 
 <!--campaign sms-->
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_delivered_click"
->title="Tendencia de envíos y clics"
->abstract="Widget de tendencias de Entregado y clic"
+>title="Tendencia de enviados y clics"
+>abstract="Widget de tendencia de enviados y clics"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_delivery_status"
 >title="Estado del envío"
->abstract="Widget del estado de envío"
+>abstract="Widget de estado del envío"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_tracked_link"
 >title="Etiquetas de vínculos rastreados"
->abstract="Widget de etiquetas de vínculos de seguimiento"
+>abstract="Widget de etiquetas de vínculos rastreados"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_tracked_link_urls"
 >title="URL de vínculos rastreados"
->abstract="Widget de direcciones URL de vínculos rastreados"
+>abstract="Widget de URL de vínculos rastreados"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_inbound"
->title="Mensaje entrante de SMS"
+>title="Mensaje entrante SMS"
 >abstract="Widget del mensaje entrante SMS"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_message_type"
 >title="Tipo de mensaje SMS"
->abstract="Widget del tipo de mensaje SMS"
+>abstract="Widget de tipo de mensaje SMS"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_providers"
@@ -332,13 +332,13 @@ Obtenga información sobre cómo descargar un informe CSV para un informe y para
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_bounce"
->title="Motivos del rechazo"
+>title="Motivos de rechazo"
 >abstract="Widget de motivos de rechazo"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_exclude"
->title="Razones de exclusión"
->abstract="Widget de razones de exclusión"
+>title="Motivos excluidos"
+>abstract="Widget de motivos de exclusión"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_error"

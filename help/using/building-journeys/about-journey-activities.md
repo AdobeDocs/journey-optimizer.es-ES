@@ -12,7 +12,7 @@ exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 8%
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,7 @@ Combine las distintas actividades de evento, orquestación y acción para crear 
 
 Los recorridos personalizados se activan mediante eventos, como una compra en línea. Una vez que un perfil entra en un recorrido, se mueve como un individuo y no hay dos individuos que se muevan a la misma velocidad o por el mismo camino. Cuando se inicia el recorrido con un evento, el recorrido se activa cuando se recibe el evento. Cada persona del recorrido sigue, individualmente, los siguientes pasos definidos en el recorrido.
 
-Eventos configurados por el usuario técnico (consulte [esta página](../event/about-events.md)) se muestran todos en la primera categoría de la paleta, en el lado izquierdo de la pantalla. Las siguientes actividades de eventos están disponibles:
+Los eventos configurados por el usuario técnico (vea [esta página](../event/about-events.md)) se muestran todos en la primera categoría de la paleta, a la izquierda de la pantalla. Las siguientes actividades de eventos están disponibles:
 
 * [Eventos generales](../building-journeys/general-events.md)
 * [Reacción](../building-journeys/reaction-events.md)
@@ -52,7 +52,7 @@ En la paleta, en el lado izquierdo de la pantalla, están disponibles las siguie
 
 Las acciones son lo que desea que ocurra como resultado de algún tipo de déclencheur, como enviar un mensaje. Es el recorrido que el cliente experimenta.
 
-En la paleta, en el lado izquierdo de la pantalla, debajo de **[!UICONTROL Eventos]** y **[!UICONTROL Orquestación]**, puede encontrar el **[!UICONTROL Acciones]** categoría. Estas son las actividades de acción disponibles:
+En la paleta, en la parte izquierda de la pantalla, debajo de **[!UICONTROL Eventos]** y **[!UICONTROL Orquestación]**, se encuentra la categoría **[!UICONTROL Acciones]**. Estas son las actividades de acción disponibles:
 
 * [Correo electrónico, SMS, push](../building-journeys/journeys-message.md)
 * [Acciones personalizadas](../building-journeys/using-custom-actions.md)
@@ -68,7 +68,7 @@ Si ha configurado acciones personalizadas, estas también aparecerán aquí. [M�
 
 ### Añadir una etiqueta
 
-La mayoría de las actividades de le permiten definir una **[!UICONTROL Etiqueta]**. Esto añade un sufijo al nombre que aparecerá bajo su actividad en el lienzo. Esto resulta útil si utiliza la misma actividad varias veces en el recorrido y desea identificarla más fácilmente. También facilita la depuración en caso de errores y la lectura de los informes. También puede añadir un **[!UICONTROL Descripción]**.
+La mayoría de las actividades le permiten definir **[!UICONTROL Label]**. Esto añade un sufijo al nombre que aparecerá bajo su actividad en el lienzo. Esto resulta útil si utiliza la misma actividad varias veces en el recorrido y desea identificarla más fácilmente. También facilita la depuración en caso de errores y la lectura de los informes. También puede agregar una **[!UICONTROL descripción]** opcional.
 
 ![](assets/journey-action-label.png)
 
@@ -82,7 +82,7 @@ La mayoría de las actividades muestran una serie de parámetros avanzados o té
 
 ![](assets/journey-advanced-parameters.png)
 
-Para mejorar la legibilidad, puede ocultar estos parámetros con la variable **[!UICONTROL Ocultar campos de solo lectura]** botón.
+Para mejorar la legibilidad, puede ocultar estos parámetros con el botón **[!UICONTROL Ocultar campos de solo lectura]**.
 
 ![](assets/journey-hide-read-only-fields.png)
 
@@ -92,6 +92,6 @@ En algunos contextos particulares, puede anular los valores de estos parámetros
 
 ### Añadir una ruta alternativa
 
-Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera de continuar es marcar la casilla **[!UICONTROL Añadir una ruta alternativa en caso de tiempo de espera o error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
+Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera de continuar es marcar la casilla **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
 
 ![](assets/journey42.png)

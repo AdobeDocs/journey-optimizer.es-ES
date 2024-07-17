@@ -9,19 +9,19 @@ exl-id: ef95a51b-1f14-470e-8229-3564bff9c67b
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
 # Actualización de un cualificador colección {#update-collection-qualifier}
 
-Puede modificar o actualizar un calificador de colección (anteriormente conocido como &quot;etiqueta&quot;) en su contenedor realizando una solicitud de PATCH a [!DNL Offer Library] API.
+Puede modificar o actualizar un calificador de colección (anteriormente conocido como &quot;etiqueta&quot;) en su contenedor realizando una solicitud de PATCH a la API [!DNL Offer Library].
 
-Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte el [Documentación de parches de JSON](https://jsonpatch.com/).
+Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte la [documentación oficial del parche JSON](https://jsonpatch.com/).
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* y *Aceptar* campos en el encabezado de la solicitud:
+En la tabla siguiente se muestran los valores válidos que comprenden los campos *Content-Type* y *Accept* del encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -34,7 +34,10 @@ La siguiente tabla muestra los valores válidos que componen la variable *Conten
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-| Parámetro | Descripción | Ejemplo | | `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` | | `{CONTAINER_ID}` | El contenedor donde se encuentran las etiquetas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` | | `{INSTANCE_ID}` | El ID de instancia de la etiqueta que desea actualizar. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| Parámetro | Descripción | Ejemplo |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API del repositorio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | El contenedor donde se encuentran las etiquetas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | El ID de instancia de la etiqueta que desea actualizar. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **Solicitud**
 
@@ -64,7 +67,7 @@ curl -X PATCH \
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles actualizados del calificador de recopilación, incluidos su ID de instancia único y el calificador de recopilación `@id`.
+Una respuesta correcta devuelve los detalles actualizados del calificador de recopilación, incluidos su identificador de instancia único y el calificador de recopilación `@id`.
 
 ```json
 {

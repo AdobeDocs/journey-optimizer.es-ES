@@ -20,13 +20,13 @@ ht-degree: 1%
 Un recorrido puede finalizar para un individuo en dos contextos específicos:
 
 * La persona llega a la última actividad de una ruta.
-* La persona llega a un **Condición** actividad (o una **Esperar** actividad con una condición ) y no coincide con ninguna de las condiciones.
+* La persona llega a una actividad **Condition** (o a una actividad **Wait** con una condición) y no coincide con ninguna de las condiciones.
 
-La persona puede volver a entrar en el recorrido si se permite la reentrada. Consulte [esta página](../building-journeys/journey-properties.md#entrance)
+La persona puede volver a entrar en el recorrido si se permite la reentrada. Ver [esta página](../building-journeys/journey-properties.md#entrance)
 
-Para finalizar un recorrido activo, le recomendamos que lo cierre. La llegada de nuevos clientes al recorrido se bloqueará. Los clientes que ya han introducido el recorrido pueden experimentarlo hasta el final. Consulte [esta sección](../building-journeys/journey.md#close-journey)
+Para finalizar un recorrido activo, le recomendamos que lo cierre. La llegada de nuevos clientes al recorrido se bloqueará. Los clientes que ya han introducido el recorrido pueden experimentarlo hasta el final. Ver [esta sección](../building-journeys/journey.md#close-journey)
 
-Sólo puede detener un recorrido si se ha producido una emergencia y es necesario finalizar inmediatamente todo el procesamiento en un recorrido. Las personas que ya han entrado en un recorrido se detienen en su progreso. Consulte [esta sección](../building-journeys/journey.md#stop-journey)
+Sólo puede detener un recorrido si se ha producido una emergencia y es necesario finalizar inmediatamente todo el procesamiento en un recorrido. Las personas que ya han entrado en un recorrido se detienen en su progreso. Ver [esta sección](../building-journeys/journey.md#stop-journey)
 
 >[!NOTE]
 >
@@ -52,30 +52,30 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 
 Un recorrido se puede cerrar por los siguientes motivos:
 
-* El recorrido se cierra manualmente a través de la **[!UICONTROL Cerca de nuevas entradas]** botón.
+* El recorrido se cierra manualmente mediante el botón **[!UICONTROL Cerrar a nuevas entradas]**.
 * Un recorrido basado en segmentos de una sola toma que ha terminado de ejecutarse.
 * Después de la última aparición de un recorrido recurrente basado en audiencias.
 
-Cerrar un recorrido manualmente garantiza que los clientes que ya han introducido el recorrido puedan finalizar su ruta, pero que los nuevos usuarios no puedan entrar en el recorrido. Cuando un recorrido está cerrado (por cualquiera de los motivos anteriores), tiene el estado **[!UICONTROL Cerrado]**. El recorrido deja de permitir que nuevas personas entren en el recorrido. Las personas que ya están en el recorrido pueden terminar el recorrido normalmente.
+Cerrar un recorrido manualmente garantiza que los clientes que ya han introducido el recorrido puedan finalizar su ruta, pero que los nuevos usuarios no puedan entrar en el recorrido. Cuando un recorrido está cerrado (por cualquiera de las razones anteriores), tendrá el estado **[!UICONTROL Cerrado]**. El recorrido deja de permitir que nuevas personas entren en el recorrido. Las personas que ya están en el recorrido pueden terminar el recorrido normalmente.
 
-Después de los 91 días [tiempo de espera global](journey-properties.md#timeout), un recorrido de Lectura de audiencia cambia a **Finalizado** estado. Este comportamiento se establece solo para 91 días (es decir, [valor de tiempo de espera global de recorrido](journey-properties.md#global_timeout)), ya que toda la información sobre los perfiles que ingresaron al recorrido se elimina 91 días después de su entrada. Las personas que siguen en el recorrido se ven afectadas automáticamente. Salen del recorrido después del tiempo de espera de 91 días.
+Después del tiempo de espera global [de 91 días](journey-properties.md#timeout), un recorrido de audiencia de lectura cambia al estado **Finalizado**. Este comportamiento se establece solo para 91 días (es decir, [valor de tiempo de espera global de recorrido](journey-properties.md#global_timeout)) ya que toda la información sobre los perfiles que ingresaron al recorrido se elimina 91 días después de que ingresaron. Las personas que siguen en el recorrido se ven afectadas automáticamente. Salen del recorrido después del tiempo de espera de 91 días.
 
 Consulte esta [sección](../building-journeys/journey-properties.md#global_timeout).
 
 No se puede reiniciar ni eliminar una versión de recorrido cerrado. Puede crear una nueva versión del mismo o duplicarlo. Solo se pueden eliminar los recorridos finalizados.
 
-Para cerrar un recorrido de la lista de recorridos, haga clic en **[!UICONTROL Puntos suspensivos]** situado a la derecha del nombre del recorrido y seleccione **[!UICONTROL Cerca de nuevas entradas]**.
+Para cerrar un recorrido de la lista de recorridos, haga clic en el botón **[!UICONTROL Puntos suspensivos]** que se encuentra a la derecha del nombre del recorrido y seleccione **[!UICONTROL Cerca de nuevas entradas]**.
 
 ![](assets/journey-finish-quick-action.png)
 
 También puede:
 
-1. En el **[!UICONTROL Recorridos]** , haga clic en el recorrido que desee cerrar.
+1. En la lista **[!UICONTROL Recorridos]**, haga clic en el recorrido que desee cerrar.
 1. En la parte superior derecha, haga clic en la flecha hacia abajo.
 
    ![](assets/finish_drop_down_list.png)
 
-1. Clic **[!UICONTROL Cerca de nuevas entradas]** y confirme en el cuadro de diálogo.
+1. Haga clic en **[!UICONTROL Cerrar a nuevas entradas]** y confirme en el cuadro de diálogo.
 
 ## Detener un recorrido{#stop-journey}
 
@@ -85,15 +85,15 @@ No se puede reiniciar una versión de recorrido detenida.
 
 Cuando está detenido, el estado del recorrido se establece en **[!UICONTROL Detenido]**.
 
-Puede detener un recorrido, por ejemplo, si un experto en marketing se da cuenta de que el recorrido se dirige a la audiencia incorrecta o si una acción personalizada que se supone que debe enviar mensajes no funciona correctamente. Para detener un recorrido de la lista de recorridos, haga clic en **[!UICONTROL Puntos suspensivos]** situado a la derecha del nombre del recorrido y seleccione **[!UICONTROL Detener]**.
+Puede detener un recorrido, por ejemplo, si un experto en marketing se da cuenta de que el recorrido se dirige a la audiencia incorrecta o si una acción personalizada que se supone que debe enviar mensajes no funciona correctamente. Para detener un recorrido de la lista de recorridos, haga clic en el botón **[!UICONTROL Puntos suspensivos]** que se encuentra a la derecha del nombre del recorrido y seleccione **[!UICONTROL Detener]**.
 
 ![](assets/journey-finish-quick-action.png)
 
 También puede:
 
-1. En el **[!UICONTROL Recorridos]** , haga clic en el recorrido que desee detener.
+1. En la lista **[!UICONTROL Recorridos]**, haga clic en el recorrido que desee detener.
 1. En la parte superior derecha, haga clic en la flecha hacia abajo.
 
    ![](assets/finish_drop_down_list2.png)
 
-1. Clic **[!UICONTROL Detener]** y confirme en el cuadro de diálogo.
+1. Haga clic en **[!UICONTROL Detener]** y confirme en el cuadro de diálogo.

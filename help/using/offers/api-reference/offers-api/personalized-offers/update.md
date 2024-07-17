@@ -9,19 +9,19 @@ exl-id: 9d8f2df6-aa04-4e66-8555-d51c2e409063
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
 # Actualizar una oferta personalizada {#update-personalized-offer}
 
-Puede modificar o actualizar una oferta personalizada realizando una solicitud al PATCH de la [!DNL Offer Library] API
+Puede modificar o actualizar una oferta personalizada realizando una solicitud de PATCH a la API [!DNL Offer Library]
 
-Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte el [Documentación de parches de JSON](https://jsonpatch.com/).
+Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte la [documentación oficial del parche JSON](https://jsonpatch.com/).
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* en el encabezado de la solicitud:
+La siguiente tabla muestra los valores válidos que comprenden el campo *Content-Type* del encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |

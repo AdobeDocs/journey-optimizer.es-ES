@@ -12,23 +12,23 @@ exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
 # Introducción a la administración de usuarios {#permissions-overview}
 
-[!DNL Journey Optimizer] permite definir y administrar los permisos asignados a distintos usuarios. Los permisos son un conjunto de derechos y restricciones que autorizan o deniegan el acceso a las funciones y capacidades internas del producto.
+[!DNL Journey Optimizer] le permite definir y administrar los permisos asignados a distintos usuarios. Los permisos son un conjunto de derechos y restricciones que autorizan o deniegan el acceso a las funciones y capacidades internas del producto.
 
 ➡️ [Obtenga más información acerca del control de acceso en Adobe Journey Optimizer en este vídeo](#video)
 
-Administración de usuarios en [!DNL Journey Optimizer] se basa en tres conceptos:
+La administración de usuarios en [!DNL Journey Optimizer] se basa en tres conceptos:
 
-* **[!UICONTROL Rol]**: conjunto de derechos unitarios que permite a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz. Consulte la [Funciones listas para usar](ootb-product-profiles.md) sección.
+* **[!UICONTROL Rol]**: conjunto de derechos unitarios que permite a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz. Consulte la sección [Funciones integradas](ootb-product-profiles.md).
 
-* **[!UICONTROL Permisos]**: Derechos unitarios que le permiten definir las autorizaciones asignadas a **[!UICONTROL Funciones]**. Cada permiso se recopila en recursos como, por ejemplo, Recorrido u Ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Consulte la [Niveles de permisos](high-low-permissions.md) sección.
+* **[!UICONTROL Permisos]**: derechos unitarios que le permiten definir las autorizaciones asignadas a **[!UICONTROL roles]**. Cada permiso se recopila en recursos como, por ejemplo, Recorrido u Ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Consulte la sección [Niveles de permisos](high-low-permissions.md).
 
-* **[!UICONTROL Sandbox]**: zonas protegidas virtuales que dividen instancias en entornos virtuales independientes y aislados. Consulte la [Uso de zonas protegidas](sandboxes.md).
+* **[!UICONTROL espacio aislado]**: zonas protegidas virtuales que dividen instancias en entornos virtuales independientes y aislados. Consulte [Uso de zonas protegidas](sandboxes.md).
 
 ![](assets/do-not-localize/permissions_2.png)
 

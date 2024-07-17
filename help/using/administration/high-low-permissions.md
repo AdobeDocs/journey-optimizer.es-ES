@@ -27,11 +27,11 @@ Se pueden dividir en dos tipos:
 
 * **Permiso de bajo nivel**: representa los diferentes permisos que provienen del permiso de alto nivel.
 
-Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asignada la función **[!DNL Manage journeys]** permiso. De este permiso se obtienen los permisos de bajo nivel que permitirán al administrador del Recorrido escribir, leer y eliminar recorridos.
+Por ejemplo, el rol **[!DNL Journey administrator]** tiene asignado el permiso **[!DNL Manage journeys]**. De este permiso se obtienen los permisos de bajo nivel que permitirán al administrador del Recorrido escribir, leer y eliminar recorridos.
 
 ## recurso de recorrido {#journey-capability}
 
-* **[!DNL Manage journeys]** el permiso de alto nivel permite a los usuarios crear Recorridos nuevos y editar/eliminar los existentes, así como acceder a los objetos utilizados en el lienzo de recorrido para crear el flujo de recorrido.
+* El permiso de alto nivel **[!DNL Manage journeys]** permite a los usuarios crear Recorridos nuevos, editar o eliminar los existentes, así como acceder a los objetos que se utilizan en el lienzo de recorrido para generar el flujo de recorrido.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -51,7 +51,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL Publish journeys]** el permiso de alto nivel permite a los usuarios publicar recorridos.
+* El permiso de alto nivel **[!DNL Publish journeys]** permite a los usuarios publicar recorridos.
 
 +++ Incluye los siguientes permisos de bajo nivel:
    * Específico de Journey Optimizer:
@@ -60,7 +60,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL View journeys]** el permiso de alto nivel permite a los usuarios examinar y ver los recorridos.
+* El permiso de alto nivel **[!DNL View journeys]** permite a los usuarios examinar y ver recorridos.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -73,7 +73,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL Manage journeys events, data sources and actions]** el permiso de alto nivel permite a los usuarios configurar configuraciones de datos y eventos.
+* El permiso de alto nivel **[!DNL Manage journeys events, data sources and actions]** permite a los usuarios configurar configuraciones de datos y eventos.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -95,7 +95,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL View journeys events, data sources and actions]** el permiso de alto nivel permite a los usuarios utilizar eventos y datos en el flujo de recorrido.
+* El permiso de alto nivel **[!DNL View journeys events, data sources and actions]** permite a los usuarios utilizar eventos y datos en el flujo de recorrido.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -111,7 +111,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL View journeys report]** el permiso de alto nivel permite a los usuarios crear informes de recorrido de solo lectura.
+* El permiso de alto nivel **[!DNL View journeys report]** permite a los usuarios generar un informe de recorrido de solo lectura.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -129,7 +129,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 ## recurso de reglas de Journey Optimizer {#journey-rules-capability}
 
-* **[!DNL Manage frequency rules]** el permiso de alto nivel permite a los usuarios leer, crear, editar, eliminar y activar/desactivar reglas de frecuencia.
+* El permiso de alto nivel **[!DNL Manage frequency rules]** permite a los usuarios leer, crear, editar, eliminar y activar o desactivar reglas de frecuencia.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -140,7 +140,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL View frequency rules]** el permiso de alto nivel permite a los usuarios ver las reglas de frecuencia.
+* El permiso de alto nivel **[!DNL View frequency rules]** permite a los usuarios ver reglas de frecuencia.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -151,7 +151,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 ## Recurso de campaña {#campaign-capability}
 
-* **[!DNL Export suppression list]** El permiso de alto nivel permite a los usuarios descargar la lista de supresión como archivo CSV.
+* El permiso de alto nivel **[!DNL Export suppression list]** permite a los usuarios descargar la lista de supresión como archivo CSV.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -164,7 +164,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL Manage campaigns]** El permiso de alto nivel permite a los usuarios crear nuevas campañas y editarlas o eliminarlas
+* El permiso de alto nivel **[!DNL Manage campaigns]** permite a los usuarios crear nuevas campañas y editarlas o eliminarlas
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -179,7 +179,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL Publish campaigns]** el permiso de alto nivel permite a los usuarios publicar campañas.
+* El permiso de alto nivel **[!DNL Publish campaigns]** permite a los usuarios publicar campañas.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -191,7 +191,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL View campaigns report]** el permiso de alto nivel permite a los usuarios leer y editar el informe de campañas.
+* El permiso de alto nivel **[!DNL View campaigns report]** permite a los usuarios leer y editar el informe de campañas.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -205,7 +205,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 ## Recurso de gestión de decisiones {#decisions-permissions}
 
-* **[!DNL Manage decisions]** el permiso de alto nivel permite a los usuarios crear nuevos y editar/eliminar los existentes **[!DNL Activity entities]**, así como administrar los objetos que se utilizan en esas actividades para tomar las decisiones.
+* El permiso de alto nivel **[!DNL Manage decisions]** permite a los usuarios crear, editar o eliminar **[!DNL Activity entities]** nuevos y administrar los objetos que se usan en esas actividades para tomar las decisiones.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -231,7 +231,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL View decisions]** El permiso de alto nivel permite a los usuarios utilizar una actividad existente y objetos empresariales relacionados para tomar las decisiones.
+* El permiso de alto nivel **[!DNL View decisions]** permite a los usuarios utilizar una actividad existente y objetos empresariales relacionados para tomar las decisiones.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -250,7 +250,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL Manage offers]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar todas las ofertas, componentes, decisiones de lectura y colecciones.
+* El permiso de alto nivel **[!DNL Manage offers]** permite a los usuarios crear, editar y eliminar todas las ofertas, componentes, decisiones de lectura y colecciones.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -272,7 +272,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL Manage ranking strategies]** el permiso de alto nivel permite a los usuarios leer, crear, editar y eliminar estrategias de clasificación.
+* El permiso de alto nivel **[!DNL Manage ranking strategies]** permite a los usuarios leer, crear, editar y eliminar estrategias de clasificación.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -310,7 +310,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
   +++
 -->
 
-* **[!DNL Manage file routing]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar configuraciones de enrutamiento de archivos.
+* El permiso de alto nivel **[!DNL Manage file routing]** permite a los usuarios crear, editar y eliminar configuraciones de enrutamiento de archivos.
 
 +++ Incluye los siguientes permisos de bajo nivel:
    * Específico de Journey Optimizer:
@@ -321,7 +321,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL Manage IP pools]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar la definición de afinidad.
+* El permiso de alto nivel **[!DNL Manage IP pools]** permite a los usuarios crear, editar y eliminar la definición de afinidad.
 
 +++ Incluye los siguientes permisos de bajo nivel:
    * Específico de Journey Optimizer:
@@ -331,7 +331,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL Manage landing page settings]** el permiso de alto nivel permite a los usuarios leer, crear y editar subdominios de páginas de aterrizaje y ajustes preestablecidos.
+* El permiso de alto nivel **[!DNL Manage landing page settings]** permite a los usuarios leer, crear y editar subdominios de páginas de aterrizaje y ajustes preestablecidos.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -346,7 +346,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL Manage messages general settings]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar la configuración global en el nivel de zona protegida.
+* El permiso de alto nivel **[!DNL Manage messages general settings]** permite a los usuarios crear, editar y eliminar la configuración global en el nivel de zona protegida.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -360,7 +360,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL Manage messages presets]** el permiso de nivel superior permite a los usuarios leer, crear, editar y eliminar superficies de canal entre canales en el nivel de zona protegida.
+* El permiso de alto nivel **[!DNL Manage messages presets]** permite a los usuarios leer, crear, editar y eliminar superficies de canal entre canales en el nivel de zona protegida.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -376,7 +376,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL Manage PTR records]** El permiso de alto nivel permite a los usuarios leer y editar registros PTR configurados en función del subdominio.
+* El permiso de alto nivel **[!DNL Manage PTR records]** permite a los usuarios leer y editar registros PTR que se hayan configurado en función del subdominio.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -387,7 +387,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL Manage Seedlist]** El permiso de alto nivel permite a los usuarios leer, crear, editar y eliminar Seedlist.
+* El permiso de alto nivel **[!DNL Manage Seedlist]** permite a los usuarios leer, crear, editar y eliminar Seedlist.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -398,7 +398,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL Manage SMS subdomains]** El permiso de alto nivel permite a los usuarios leer, crear, editar y eliminar subdominios SMS.
+* El permiso de alto nivel **[!DNL Manage SMS subdomains]** permite a los usuarios leer, crear, editar y eliminar subdominios de SMS.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -409,7 +409,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL Manage subdomains delegations]** el permiso de alto nivel permite a los usuarios crear, editar y eliminar delegaciones de subdominios (incluido el grupo de IP).
+* El permiso de alto nivel **[!DNL Manage subdomains delegations]** permite a los usuarios crear, editar y eliminar delegaciones de subdominios (incluido el grupo de IP).
 
 +++ Incluye los siguientes permisos de bajo nivel:
    * Específico de Journey Optimizer:
@@ -420,7 +420,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL Manage suppression]** el permiso de alto nivel permite a los usuarios definir el número de rechazos antes de añadir una dirección de correo electrónico a la lista de supresión, así como añadir y eliminar entradas en la lista de supresión.
+* El permiso de alto nivel **[!DNL Manage suppression]** permite a los usuarios definir el número de rechazos antes de que se agregue una dirección de correo electrónico a la lista de supresión, así como agregar y eliminar entradas en la lista de supresión.
 
 +++ Incluye los siguientes permisos de bajo nivel:
    * Específico de Journey Optimizer:
@@ -432,7 +432,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL View file routing]** el permiso de alto nivel permite a los usuarios ver las configuraciones de enrutamiento de archivos.
+* El permiso de alto nivel **[!DNL View file routing]** permite a los usuarios ver las configuraciones de enrutamiento de archivos.
 
 +++ Incluye los siguientes permisos de bajo nivel:
    * Específico de Journey Optimizer:
@@ -441,7 +441,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL View messages general settings]** el permiso de alto nivel permite a los usuarios ver los mensajes en la configuración general, como la dirección de ejecución.
+* El permiso de alto nivel **[!DNL View messages general settings]** permite a los usuarios ver los mensajes en la configuración general, como la dirección de ejecución.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -453,7 +453,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL View messages presets]** el permiso de alto nivel permite a los usuarios ver los ajustes preestablecidos de mensajes.
+* El permiso de alto nivel **[!DNL View messages presets]** permite a los usuarios ver los ajustes preestablecidos de los mensajes.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 
@@ -467,7 +467,7 @@ Por ejemplo, la variable **[!DNL Journey administrator]** La función tiene asig
 
 +++
 
-* **[!DNL View PTR records]** el permiso de alto nivel permite a los usuarios ver los registros PTR que se han configurado en función del subdominio.
+* El permiso de alto nivel **[!DNL View PTR records]** permite a los usuarios ver los registros PTR que se han configurado en función del subdominio.
 
 +++ Incluye los siguientes permisos de bajo nivel:
    * Específico de Journey Optimizer:
@@ -490,7 +490,7 @@ The **[!DNL View channel surface]** high-level permission allows users to view c
 -->
 
 
-* **[!DNL View suppression list]** el permiso de alto nivel permite a los usuarios ver el contenido y la configuración de la lista de supresión.
+* El permiso de alto nivel **[!DNL View suppression list]** permite a los usuarios ver el contenido y la configuración de la lista de supresión.
 
 +++ Incluye los siguientes permisos de bajo nivel:
 

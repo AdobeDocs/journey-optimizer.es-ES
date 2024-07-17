@@ -18,20 +18,20 @@ ht-degree: 13%
 
 # Diseñar el contenido de la página de aterrizaje {#design-lp}
 
-Para empezar a crear contenido para el aterrizaje [página principal](create-lp.md#configure-primary-page) o [subpágina](create-lp.md#configure-subpages), pase el ratón sobre el contenido de su página y haga clic en **[!UICONTROL Abrir Diseñador]**. También puede hacer clic en el botón correspondiente de la paleta derecha.
+Para empezar a crear contenido para tu [página principal](create-lp.md#configure-primary-page) o [subpágina](create-lp.md#configure-subpages) de aterrizaje, pasa el ratón sobre el contenido de tu página y haz clic en **[!UICONTROL Abrir Designer]**. También puede hacer clic en el botón correspondiente de la paleta derecha.
 
 ![](assets/lp_open-designer.png)
 
 A partir de ahí, puede:
 
-* **Diseñe su página de aterrizaje desde cero** mediante la interfaz del diseñador de contenido y aproveche las imágenes de [Adobe Experience Manager Assets](../content-management/assets.md). Aprenda a diseñar el contenido <!--or use built-in templates--> [en esta sección](../email/content-from-scratch.md).
+* **Diseña tu página de aterrizaje desde cero** a través de la interfaz del diseñador de contenido y aprovecha las imágenes de [Adobe Experience Manager Assets](../content-management/assets.md). Aprenda a diseñar el contenido <!--or use built-in templates--> [en esta sección](../email/content-from-scratch.md).
 
 * **Codifique o pegue el HTML sin procesar** directamente en el diseñador de contenido. Aprenda a codificar su propio contenido [en esta sección](../email/code-content.md).
 
 * **Importe contenido de HTML existente** desde un archivo o una carpeta .zip. Obtenga información sobre cómo importar contenido [en esta sección](../email/existing-content.md).
 
-* **Usar una plantilla de página de aterrizaje guardada** creado en [!DNL Journey Optimizer]. [Más información](lp-templates.md)
+* **Use una plantilla de página de aterrizaje guardada** creada en [!DNL Journey Optimizer]. [Más información](lp-templates.md)
 
 >[!NOTE]
 >
->El diseñador de contenido de páginas de aterrizaje es casi siempre similar al diseñador de correo electrónico. Más información sobre [diseño de contenido con [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>El diseñador de contenido de páginas de aterrizaje es casi siempre similar al diseñador de correo electrónico. Más información sobre [diseñar contenido con [!DNL Journey Optimizer]](../email/get-started-email-design.md).

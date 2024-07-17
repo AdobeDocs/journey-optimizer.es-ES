@@ -9,7 +9,7 @@ exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -20,7 +20,7 @@ Puede crear un calificador de colección (anteriormente conocido como &quot;etiq
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* campos en el encabezado de la solicitud:
+La siguiente tabla muestra los valores válidos que comprenden los campos *Content-Type* del encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -53,7 +53,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/tags' \
 
 **Respuesta**
 
-Una respuesta correcta devuelve información sobre el calificador de colección recién creado, incluido su identificador único `id`. Puede usar el complemento `id` en pasos posteriores para actualizar o eliminar el calificador de recopilación. Puede utilizar el calificador de colección único `id` en tutoriales posteriores para crear colecciones y ofertas personalizadas.
+Una respuesta correcta devuelve información sobre el calificador de colección recién creado, incluido su `id` único. Puede usar `id` en pasos posteriores para actualizar o eliminar el calificador de colección. Puede usar el calificador de colección única `id` en tutoriales posteriores para crear colecciones y ofertas personalizadas.
 
 ```json
 {

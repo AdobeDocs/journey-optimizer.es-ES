@@ -28,9 +28,9 @@ Esta documentación proporciona información detallada sobre cómo trabajar con 
 
 >[!ENDSHADEBOX]
 
-La composición de audiencias le permite crear **flujos de trabajo de composición**, donde puede combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (dividir, excluir...) para crear nuevas audiencias.
+La composición de audiencias le permite crear **flujos de trabajo de composición**, donde puede combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar diversas actividades (dividir, excluir...) para crear nuevas audiencias.
 
-Una vez finalizado, la variable **audiencias resultantes** se guardan y se respaldan en Adobe Experience Platform junto con las audiencias existentes y se pueden aprovechar en campañas y recorridos de Journey Optimizer para clientes de destino. [Obtenga información sobre cómo segmentar audiencias en Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
+Una vez finalizado, las **audiencias resultantes** se guardan y se copian en Adobe Experience Platform junto con las audiencias existentes, y se pueden aprovechar en campañas y recorridos de Journey Optimizer para segmentar clientes. [Aprenda a segmentar audiencias en Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ![](assets/audiences-process.png)
 

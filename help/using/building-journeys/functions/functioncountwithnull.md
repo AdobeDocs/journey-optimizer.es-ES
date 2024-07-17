@@ -18,7 +18,7 @@ ht-degree: 14%
 
 Cuenta todos los elementos de la lista, incluidos los valores nulos.
 
-Observe que el parámetro `<listObject>` no es compatible con esta función.
+Tenga en cuenta que el parámetro `<listObject>` no se admite en esta función.
 
 ## Categoría
 

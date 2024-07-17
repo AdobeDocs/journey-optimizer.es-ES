@@ -1,5 +1,5 @@
 ---
-title: Adición de representaciones a una oferta
+title: Añadir representaciones a una oferta
 description: Obtenga información sobre cómo añadir representaciones a las ofertas
 feature: Decision Management
 topic: Integrations
@@ -9,54 +9,54 @@ exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '763'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# Adición de representaciones a una oferta {#add-representations}
+# Añadir representaciones a una oferta {#add-representations}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="Representaciones"
->abstract="Añada representaciones para definir dónde se mostrará la oferta en el mensaje. Cuantas más representaciones tenga una oferta, más oportunidades habrá de utilizarla en diferentes contextos de colocación."
+>abstract="Añada representaciones para definir dónde se mostrará la oferta en el mensaje. Cuantas más representaciones tenga una oferta, más oportunidades habrá de utilizar la oferta en diferentes contextos de ubicación."
 
-Una oferta se puede mostrar en diferentes lugares de un mensaje: en un banner superior con una imagen, como texto en un párrafo, como un bloque HTML, etc. Cuantas más representaciones tenga una oferta, más oportunidades habrá de utilizarla en diferentes contextos de colocación.
+Una oferta se puede mostrar en diferentes lugares de un mensaje: en un banner superior con una imagen, como texto en un párrafo, como un bloque HTML, etc. Cuantas más representaciones tenga una oferta, más oportunidades habrá de utilizar la oferta en diferentes contextos de ubicación.
 
 ## Configuración de las representaciones de la oferta {#representations}
 
 Para añadir una o varias representaciones a la oferta y configurarlas, siga los pasos a continuación.
 
-1. Para la primera representación, comience seleccionando la **[!UICONTROL Canal]** que se utilizará.
+1. Para la primera representación, comience por seleccionar el **[!UICONTROL canal]** que se utilizará.
 
    ![](../assets/channel-placement.png)
 
    >[!NOTE]
    >
-   >En la pantalla solo se muestran las ubicaciones disponibles para el canal seleccionado **[!UICONTROL Ubicación]** lista desplegable.
+   >Solo se muestran las ubicaciones disponibles para el canal seleccionado en la lista desplegable **[!UICONTROL Ubicación]**.
 
 1. Seleccione una ubicación de la lista.
 
-   También puede utilizar el botón situado junto al **[!UICONTROL Ubicación]** para examinar todas las ubicaciones.
+   También puede usar el botón que se encuentra junto a la lista desplegable **[!UICONTROL Ubicación]** para examinar todas las ubicaciones.
 
    ![](../assets/browse-button-placements.png)
 
-   Allí aún puede filtrar las ubicaciones según su canal o tipo de contenido. Seleccione una ubicación y haga clic en **[!UICONTROL Seleccionar]**.
+   Allí aún puede filtrar las ubicaciones según su canal o tipo de contenido. Elija una ubicación y haga clic en **[!UICONTROL Seleccionar]**.
 
    ![](../assets/browse-placements.png)
 
-1. Añada contenido a su representación. Descubra cómo en [esta sección](#content).
+1. Añada contenido a su representación. Aprenda en [esta sección](#content).
 
-1. Al agregar contenido, como una imagen o una dirección URL, puede especificar un **[!UICONTROL Vínculo de destino]**: los usuarios que hacen clic en la oferta se dirigen a la página correspondiente.
+1. Al agregar contenido, como una imagen o una dirección URL, puede especificar un **[!UICONTROL vínculo de destino]**: los usuarios que hagan clic en la oferta se dirigirán a la página correspondiente.
 
    ![](../assets/offer-destination-link.png)
 
 1. Finalmente, seleccione el idioma de su elección para identificar y administrar qué mostrar a los usuarios.
 
-1. Para añadir otra representación, utilice el **[!UICONTROL Añadir representación]** y añada tantas representaciones como sea necesario.
+1. Para agregar otra representación, use el botón **[!UICONTROL Agregar representación]** y agregue tantas representaciones como sea necesario.
 
    ![](../assets/offer-add-representation.png)
 
-1. Una vez añadidas todas las representaciones, seleccione **[!UICONTROL Siguiente]**.
+1. Una vez que hayas agregado todas tus representaciones, selecciona **[!UICONTROL Siguiente]**.
 
 ## Definición del contenido de las representaciones {#content}
 
@@ -66,39 +66,39 @@ Se pueden añadir distintos tipos de contenido a una representación.
 >
 >Solo el contenido correspondiente al tipo de contenido de la ubicación está disponible para su uso.
 
-### Añadir imágenes {#images}
+### Adición de imágenes {#images}
 
-Si la ubicación seleccionada es de tipo imagen, puede añadir contenido procedente del **Recurso de Adobe Experience Cloud** biblioteca, un repositorio centralizado de recursos proporcionado por [!DNL Adobe Experience Manager Assets].
+Si la ubicación seleccionada es de tipo imagen, puede agregar contenido procedente de la biblioteca **Adobe Experience Cloud Asset**, un repositorio centralizado de recursos proporcionado por [!DNL Adobe Experience Manager Assets].
 
 >[!NOTE]
 >
-> Para trabajar con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, debe implementar [!DNL Assets Essentials] para su organización y asegúrese de que los usuarios forman parte de **Usuarios consumidores de Assets Essentials** o/y **Usuarios de Assets Essentials** Perfiles de producto. Más información sobre [esta página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
+> Para trabajar con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, debes implementar [!DNL Assets Essentials] para tu organización y asegurarte de que los usuarios sean parte de los perfiles de producto de **Usuarios consumidores Assets Essentials** o **Usuarios Assets Essentials**. Más información sobre [esta página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
 
-1. Elija la **[!UICONTROL Biblioteca de recursos]** opción.
+1. Elija la opción **[!UICONTROL Biblioteca de recursos]**.
 
-1. Seleccionar **[!UICONTROL Examinar]**.
+1. Seleccione **[!UICONTROL Examinar]**.
 
    ![](../assets/offer-browse-asset-library.png)
 
 1. Examine los recursos para seleccionar la imagen que desee
 
-1. Clic **[!UICONTROL Seleccionar]**.
+1. Haga clic en **[!UICONTROL Seleccionar]**.
 
    ![](../assets/offer-select-asset.png)
 
 ### Añadir archivos HTML o JSON {#html-json}
 
-Si la ubicación seleccionada es de tipo HTML, también puede añadir contenido JSON o de HTML procedente del [Biblioteca de recursos de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}).
+Si la ubicación seleccionada es de tipo HTML, también puede agregar contenido JSON o de HTML proveniente de la [biblioteca de recursos de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}).
 
-Por ejemplo, ha creado una plantilla de correo electrónico de HTML en [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} y desea utilizar ese archivo para el contenido de la oferta. En lugar de crear un nuevo archivo, simplemente puede cargar la plantilla en el **Biblioteca de recursos** para poder reutilizarlo en las representaciones de la oferta.
+Por ejemplo, creó una plantilla de correo electrónico para HTML en [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} y desea usar ese archivo para el contenido de la oferta. En lugar de crear un nuevo archivo, simplemente puede cargar la plantilla en la **Biblioteca de recursos** para poder reutilizarla en las representaciones de la oferta.
 
-Para reutilizar el contenido en una representación, examine la **Biblioteca de recursos** como se describe en [esta sección](#images) y seleccione el HTML o el archivo JSON de su elección.
+Para reutilizar el contenido en una representación, examine la **Biblioteca de recursos** tal como se describe en [esta sección](#images) y seleccione el HTML o archivo JSON que elija.
 
 ![](../assets/offer-browse-asset-library-json.png)
 
 ### Añadir URL {#urls}
 
-Para añadir contenido desde una ubicación pública externa, seleccione **[!UICONTROL URL]** A continuación, introduzca la dirección URL del contenido que desea añadir.
+Para agregar contenido desde una ubicación pública externa, seleccione **[!UICONTROL URL]** y luego ingrese la dirección URL del contenido que desea agregar.
 
 Puede personalizar las direcciones URL mediante el editor de personalización. Más información sobre [personalización](../../personalization/personalize.md#use-expression-editor).
 
@@ -110,13 +110,13 @@ Utilice el editor de personalización para recuperar los atributos de perfil alm
 
 ![](../assets/offer-content-url-personalization.png)
 
-Si especifica un **[!UICONTROL Vínculo de destino]** Además, también puede personalizar la dirección URL a la que se dirigirán los usuarios que hacen clic en la oferta.
+Si especifica un **[!UICONTROL vínculo de destino]**, también puede personalizar la dirección URL a la que se dirigirán los usuarios que hagan clic en la oferta.
 
 ### Añadir texto personalizado {#custom-text}
 
 También puede insertar contenido de tipo texto al seleccionar una ubicación compatible.
 
-1. Seleccione el **[!UICONTROL Personalizado]** y haga clic en **[!UICONTROL Añadir contenido]**.
+1. Seleccione la opción **[!UICONTROL Personalizado]** y haga clic en **[!UICONTROL Agregar contenido]**.
 
    ![](../assets/offer-add-content.png)
 
@@ -134,13 +134,13 @@ También puede insertar contenido de tipo texto al seleccionar una ubicación co
 
    >[!NOTE]
    >
-   >Solo el **[!UICONTROL Atributos de perfil]**, **[!UICONTROL Audiencias]** y **[!UICONTROL Funciones de ayuda]** Hay fuentes de disponibles para Gestión de decisiones.
+   >Solo los orígenes de **[!UICONTROL atributos de perfil]**, **[!UICONTROL Audiencias]** y **[!UICONTROL Funciones de ayuda]** están disponibles para Administración de decisiones.
 
 ## Personalizar representaciones basadas en datos de contexto{#context-data}
 
-Cuando los datos de contexto se pasan en [Edge Decisioning](../api-reference/offer-delivery-api/edge-decisioning-api.md) Al llamar a, puede aprovechar estos datos para personalizar las representaciones de forma dinámica. Por ejemplo, puede adaptar la representación de una oferta en función de factores en tiempo real como las condiciones meteorológicas actuales en el momento en que se toma la decisión.
+Cuando se pasan datos de contexto en la llamada a [Edge Decisioning](../api-reference/offer-delivery-api/edge-decisioning-api.md), puede aprovechar estos datos para personalizar representaciones de forma dinámica. Por ejemplo, puede adaptar la representación de una oferta en función de factores en tiempo real como las condiciones meteorológicas actuales en el momento en que se toma la decisión.
 
-Para ello, incorpore la variable de datos de contexto directamente dentro del contenido de representación utilizando `profile.timeSeriesEvents.` namespace.
+Para ello, incorpore la variable de datos de contexto directamente dentro del contenido de representación utilizando el espacio de nombres `profile.timeSeriesEvents.`.
 
 Este es un ejemplo de sintaxis utilizado para personalizar la representación de una oferta en función de los sistemas operativos de los usuarios:
 

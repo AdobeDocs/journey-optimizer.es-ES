@@ -9,17 +9,17 @@ exl-id: 7cb906b9-8925-4482-9915-448a41e11d9d
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
 # Crear una decisión {#create-decision}
 
-Puede crear una decisión realizando una solicitud de POST a [!DNL Offer Library] API, al tiempo que proporciona su ID de contenedor.
+Puede crear una decisión realizando una solicitud de POST a la API [!DNL Offer Library], mientras proporciona su ID de contenedor.
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* y *Aceptar* campos en el encabezado de la solicitud:
+En la tabla siguiente se muestran los valores válidos que comprenden los campos *Content-Type* y *Accept* del encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -71,7 +71,7 @@ curl -X POST \
 
 **Respuesta**
 
-Una respuesta correcta devuelve información sobre la decisión recién creada, incluido su contenido único `id`. Puede utilizar `id` en pasos posteriores para actualizar o eliminar su decisión.
+Una respuesta correcta devuelve información sobre la decisión recién creada, incluido su `id` único. Puede usar `id` en pasos posteriores para actualizar o eliminar su decisión.
 
 ```json
 {

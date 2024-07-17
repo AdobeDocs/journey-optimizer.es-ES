@@ -19,7 +19,7 @@ Aprenda a utilizar las funciones de cadena en el editor de personalización.
 
 ## Camel Case {#camelCase}
 
-El `camelCase` La función pone en mayúscula la primera letra de cada palabra de una cadena.
+La función `camelCase` pone en mayúscula la primera letra de cada palabra de una cadena.
 
 **Sintaxis**
 
@@ -37,7 +37,7 @@ La siguiente función pone en mayúscula la primera letra de la dirección del p
 
 ## Código Char en {#char-code-at}
 
-El `charCodeAt` devuelve el valor ASCII de un carácter, como la función charCodeAt de JavaScript. Toma una cadena y un entero (que define la posición del carácter) como argumentos de entrada y devuelve su valor ASCII correspondiente.
+La función `charCodeAt` devuelve el valor ASCII de un carácter, como la función charCodeAt de JavaScript. Toma una cadena y un entero (que define la posición del carácter) como argumentos de entrada y devuelve su valor ASCII correspondiente.
 
 **Sintaxis**
 
@@ -55,7 +55,7 @@ La siguiente función devuelve el valor ASCII o, es decir 111.
 
 ## Concat {#concate}
 
-El `concat` La función combina dos cadenas en una.
+La función `concat` combina dos cadenas en una.
 
 **Sintaxis**
 
@@ -73,7 +73,7 @@ La siguiente función combinará ciudad y país de perfil en una sola cadena.
 
 ## Contains {#contains}
 
-El `contains` se utiliza para determinar si una cadena contiene una subcadena especificada.
+La función `contains` se usa para determinar si una cadena contiene una subcadena especificada.
 
 **Sintaxis**
 
@@ -103,7 +103,7 @@ El `contains` se utiliza para determinar si una cadena contiene una subcadena es
 
 ## No contiene{#doesNotContain}
 
-El `doesNotContain` se utiliza para determinar si una cadena no contiene una subcadena especificada.
+La función `doesNotContain` se usa para determinar si una cadena no contiene una subcadena especificada.
 
 **Sintaxis**
 
@@ -128,7 +128,7 @@ La siguiente consulta determina, con distinción de mayúsculas y minúsculas, s
 
 ## No termina por{#doesNotEndWith}
 
-El `doesNotEndWith` se utiliza para determinar si una cadena no termina con una subcadena especificada.
+La función `doesNotEndWith` se usa para determinar si una cadena no termina con una subcadena especificada.
 
 **Sintaxis**
 
@@ -152,7 +152,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## No empieza por{#doesNotStartWith}
 
-El `doesNotStartWith` se utiliza para determinar si una cadena no comienza con una subcadena especificada.
+La función `doesNotStartWith` se usa para determinar si una cadena no comienza con una subcadena especificada.
 
 **Sintaxis**
 
@@ -176,7 +176,7 @@ La siguiente consulta determina, con distinción entre mayúsculas y minúsculas
 
 ## Codificar 64{#encode64}
 
-El `encode64` se utiliza para codificar una cadena para conservar la información personal (PI) si se va a incluir, por ejemplo, en una URL.
+La función `encode64` se usa para codificar una cadena para conservar la información personal (PI) si se va a incluir, por ejemplo, en una dirección URL.
 
 **Sintaxis**
 
@@ -186,7 +186,7 @@ El `encode64` se utiliza para codificar una cadena para conservar la informació
 
 ## Termina con{#endsWith}
 
-El `endsWith` se utiliza para determinar si una cadena termina con una subcadena especificada.
+La función `endsWith` se usa para determinar si una cadena termina con una subcadena especificada.
 
 **Sintaxis**
 
@@ -211,7 +211,7 @@ La siguiente consulta determina, con distinción entre mayúsculas y minúsculas
 
 ## Es igual a{#equals}
 
-El `equals` se utiliza para determinar si una cadena es igual a la cadena especificada, con distinción de mayúsculas y minúsculas.
+La función `equals` se usa para determinar si una cadena es igual a la cadena especificada, con distinción entre mayúsculas y minúsculas.
 
 **Sintaxis**
 
@@ -234,7 +234,7 @@ La siguiente consulta determina, con distinción entre mayúsculas y minúsculas
 
 ## Igual a Ignorar Mayúsculas y Minúsculas{#equalsIgnoreCase}
 
-El `equalsIgnoreCase` se utiliza para determinar si una cadena es igual a la cadena especificada, sin distinción de mayúsculas y minúsculas.
+La función `equalsIgnoreCase` se usa para determinar si una cadena es igual a la cadena especificada, sin distinción de mayúsculas y minúsculas.
 
 **Sintaxis**
 
@@ -257,7 +257,7 @@ La siguiente consulta determina, sin distinción entre mayúsculas y minúsculas
 
 ## Extraer dominio de correo electrónico {#extractEmailDomain}
 
-El `extractEmailDomain` para extraer el dominio de una dirección de correo electrónico.
+La función `extractEmailDomain` se usa para extraer el dominio de una dirección de correo electrónico.
 
 **Sintaxis**
 
@@ -275,7 +275,7 @@ La siguiente consulta extrae el dominio de correo electrónico de la dirección 
 
 ## Formato de moneda {#format-currency}
 
-El `formatCurrency` se utiliza para convertir cualquier número en su correspondiente representación de moneda sensible al idioma según la configuración regional pasada como cadena en el segundo argumento.
+La función `formatCurrency` se usa para convertir cualquier número en su correspondiente representación de moneda con distinción de idioma, en función de la configuración regional pasada como cadena en el segundo argumento.
 
 **Sintaxis**
 
@@ -293,7 +293,7 @@ Esta consulta devuelve 56 £
 
 ## Obtener host de URL {#get-url-host}
 
-El `getUrlHost` se utiliza para recuperar el nombre de host de una dirección URL.
+La función `getUrlHost` se usa para recuperar el nombre de host de una dirección URL.
 
 **Sintaxis**
 
@@ -311,7 +311,7 @@ Devuelve &quot;www.myurl.com&quot;
 
 ## Obtener ruta de URL {#get-url-path}
 
-El `getUrlPath` se utiliza para recuperar la ruta después del nombre de dominio de una dirección URL.
+La función `getUrlPath` se usa para recuperar la ruta de acceso después del nombre de dominio de una dirección URL.
 
 **Sintaxis**
 
@@ -329,7 +329,7 @@ Devuelve &quot;/contact.html&quot;
 
 ## Obtener protocolo de URL {#get-url-protocol}
 
-El `getUrlProtocol` se utiliza para recuperar el protocolo de una dirección URL.
+La función `getUrlProtocol` se usa para recuperar el protocolo de una dirección URL.
 
 **Sintaxis**
 
@@ -347,7 +347,7 @@ Devuelve &quot;http&quot;
 
 ## Índice De {#index-of}
 
-El `indexOf` se utiliza para devolver la posición (en el primer argumento) de la primera aparición del segundo parámetro. Devuelve -1 si no hay ninguna coincidencia.
+La función `indexOf` se usa para devolver la posición (en el primer argumento) de la primera aparición del segundo parámetro. Devuelve -1 si no hay ninguna coincidencia.
 
 **Sintaxis**
 
@@ -370,7 +370,7 @@ Devuelve 6.
 
 ## Is empty {#isEmpty}
 
-El `isEmpty` se utiliza para determinar si una cadena está vacía.
+La función `isEmpty` se usa para determinar si una cadena está vacía.
 
 **Sintaxis**
 
@@ -388,7 +388,7 @@ La siguiente función devuelve &quot;true&quot; si el número de teléfono móvi
 
 ## No está vacío {#is-not-empty}
 
-El `isNotEmpty` se utiliza para determinar si una cadena no está vacía.
+La función `isNotEmpty` se usa para determinar si una cadena no está vacía.
 
 **Sintaxis**
 
@@ -406,7 +406,7 @@ La siguiente función devuelve &quot;true&quot; si el número de teléfono móvi
 
 ## Último Índice De {#last-index-of}
 
-El `lastIndexOf` se utiliza para devolver la posición (en el primer argumento) de la última aparición del segundo parámetro. Devuelve -1 si no hay ninguna coincidencia.
+La función `lastIndexOf` se usa para devolver la posición (en el primer argumento) de la última aparición del segundo parámetro. Devuelve -1 si no hay ninguna coincidencia.
 
 **Sintaxis**
 
@@ -429,7 +429,7 @@ Devuelve 7.
 
 ## Guarnecido izquierdo {#leftTrim}
 
-El `leftTrim` se utiliza para eliminar espacios en blanco del principio de una cadena.
+La función `leftTrim` se usa para quitar espacios en blanco del principio de una cadena.
 
 **Sintaxis**
 
@@ -439,7 +439,7 @@ El `leftTrim` se utiliza para eliminar espacios en blanco del principio de una c
 
 ## Longitud {#length}
 
-El `length` se utiliza para obtener el número de caracteres de una cadena o expresión.
+La función `length` se usa para obtener el número de caracteres de una cadena o expresión.
 
 **Sintaxis**
 
@@ -457,7 +457,7 @@ La siguiente función devuelve la longitud del nombre de ciudad del perfil.
 
 ## Me gusta{#like}
 
-El `like` se utiliza para determinar si una cadena coincide con un patrón especificado.
+La función `like` se usa para determinar si una cadena coincide con un patrón especificado.
 
 **Sintaxis**
 
@@ -468,7 +468,7 @@ El `like` se utiliza para determinar si una cadena coincide con un patrón espec
 | Argumento | Descripción |
 | --------- | ----------- |
 | `{STRING_1}` | Cadena en la que se realizará la comprobación. |
-| `{STRING_2}` | La expresión que debe coincidir con la primera cadena. Existen dos caracteres especiales admitidos para crear una expresión: `%` y `_`. <ul><li>`%` se utiliza para representar cero o más caracteres.</li><li>`_` se utiliza para representar exactamente un carácter.</li></ul> |
+| `{STRING_2}` | La expresión que debe coincidir con la primera cadena. Existen dos caracteres especiales admitidos para crear una expresión: `%` y `_`. <ul><li>`%` se usa para representar cero o más caracteres.</li><li>`_` se usa para representar exactamente un carácter.</li></ul> |
 
 **Ejemplo**
 
@@ -480,7 +480,7 @@ La siguiente consulta recupera todas las ciudades en las que residen los perfile
 
 ## Minúsculas{#lower}
 
-El `lowerCase` convierte una cadena en letras minúsculas.
+La función `lowerCase` convierte una cadena en letras minúsculas.
 
 **Sintaxis**
 
@@ -498,7 +498,7 @@ Esta función convierte el nombre del perfil en letras minúsculas.
 
 ## Iguala{#matches}
 
-El `matches` se utiliza para determinar si una cadena coincide con una expresión regular específica. Consulte la [este documento](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) para obtener más información sobre los patrones de coincidencia en expresiones regulares.
+La función `matches` se usa para determinar si una cadena coincide con una expresión regular específica. Consulte [este documento](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) para obtener más información sobre los patrones coincidentes en las expresiones regulares.
 
 **Sintaxis**
 
@@ -516,7 +516,7 @@ La siguiente consulta determina, sin distinción entre mayúsculas y minúsculas
 
 ## Máscara {#mask}
 
-El `Mask` se utiliza para reemplazar una parte de una cadena con caracteres &quot;X&quot;.
+La función `Mask` se usa para reemplazar una parte de una cadena con caracteres &quot;X&quot;.
 
 **Sintaxis**
 
@@ -536,7 +536,7 @@ La consulta devuelve `1XXXXXX89`.
 
 ## MD5 {#md5}
 
-El `md5` se utiliza para calcular y devolver el hash md5 de una cadena.
+La función `md5` se usa para calcular y devolver el hash md5 de una cadena.
 
 **Sintaxis**
 
@@ -554,7 +554,7 @@ Devuelve &quot;5eb63bbbe01eeed093cb22bb8f5acdc3&quot;
 
 ## No igual a{#notEqualTo}
 
-El `notEqualTo` se utiliza para determinar si una cadena no es igual a la cadena especificada.
+La función `notEqualTo` se usa para determinar si una cadena no es igual a la cadena especificada.
 
 **Sintaxis**
 
@@ -577,7 +577,7 @@ La siguiente consulta determina, con distinción entre mayúsculas y minúsculas
 
 ## No Igual Con Ignorar Mayúsculas y Minúsculas {#not-equal-with-ignore-case}
 
-El `notEqualWithIgnoreCase` se utiliza para comparar dos cadenas ignorando mayúsculas y minúsculas.
+La función `notEqualWithIgnoreCase` se usa para comparar dos cadenas ignorando mayúsculas y minúsculas.
 
 **Sintaxis**
 
@@ -600,7 +600,7 @@ La siguiente consulta determina si el nombre de la persona no es &quot;john&quot
 
 ## Grupo de expresiones regulares{#regexGroup}
 
-El `Group` se utiliza para extraer información específica, basada en la expresión regular proporcionada.
+La función `Group` se usa para extraer información específica, basada en la expresión regular proporcionada.
 
 **Sintaxis**
 
@@ -624,7 +624,7 @@ La siguiente consulta se utiliza para extraer el nombre de dominio de una direcc
 
 ## Reemplazar {#replace}
 
-El `replace` se utiliza para reemplazar una subcadena determinada de una cadena con otra subcadena.
+La función `replace` se usa para reemplazar una subcadena determinada de una cadena con otra subcadena.
 
 **Sintaxis**
 
@@ -648,7 +648,7 @@ Devuelve &quot;Hola Mark, aquí tienes tu newsletter mensual&quot;.
 
 ## Reemplazar todo{#replaceAll}
 
-El `replaceAll` se utiliza para reemplazar todas las subcadenas de un texto que coincide con la expresión &quot;regex&quot; con la cadena &quot;replace&quot; literal especificada. Regex tiene un manejo especial de &quot;\&quot; y &quot;+&quot; y todas las expresiones regex siguen la estrategia de escape PQL. La sustitución se realiza desde el principio de la cadena hasta el final, por ejemplo, si se sustituye &quot;a&quot; por &quot;b&quot; en la cadena &quot;aaa&quot;, el resultado será &quot;ba&quot; en lugar de &quot;ab&quot;.
+La función `replaceAll` se usa para reemplazar todas las subcadenas de un texto que coincide con la expresión &quot;regex&quot; con la cadena &quot;replace&quot; literal especificada. Regex tiene un manejo especial de &quot;\&quot; y &quot;+&quot; y todas las expresiones regex siguen la estrategia de escape de PQL. La sustitución se realiza desde el principio de la cadena hasta el final, por ejemplo, si se sustituye &quot;a&quot; por &quot;b&quot; en la cadena &quot;aaa&quot;, el resultado será &quot;ba&quot; en lugar de &quot;ab&quot;.
 
 **Sintaxis**
 
@@ -658,14 +658,14 @@ El `replaceAll` se utiliza para reemplazar todas las subcadenas de un texto que 
 
 >[!NOTE]
 >
-> Cuando la expresión tomada como segundo argumento es un carácter regex especial, utilice una doble barra invertida (`//`).  Los caracteres regex especiales son: [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
+> Cuando la expresión tomada como segundo argumento sea un carácter regex especial, utilice una doble barra invertida (`//`).  Los caracteres regex especiales son: [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
 > 
-> Obtenga más información en [documentación del oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+> Obtenga más información en [Documentación del Oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 >
 
 ## Guarnecido derecho {#rightTrim}
 
-El `rightTrim` se utiliza para eliminar los espacios en blanco del final de una cadena.
+La función `rightTrim` utilizada elimina los espacios en blanco del final de una cadena.
 
 **Sintaxis**
 
@@ -675,7 +675,7 @@ El `rightTrim` se utiliza para eliminar los espacios en blanco del final de una 
 
 ## División {#split}
 
-El `split` se utiliza para dividir una cadena por un carácter determinado.
+La función `split` se usa para dividir una cadena entre un carácter determinado.
 
 **Sintaxis**
 
@@ -685,7 +685,7 @@ El `split` se utiliza para dividir una cadena por un carácter determinado.
 
 ## Comienza con{#startsWith}
 
-El `startsWith` se utiliza para determinar si una cadena empieza con una subcadena especificada.
+La función `startsWith` se usa para determinar si una cadena empieza con una subcadena especificada.
 
 **Sintaxis**
 
@@ -709,7 +709,7 @@ La siguiente consulta determina, con distinción entre mayúsculas y minúsculas
 
 ## Cadena a fecha {#string-to-date}
 
-El `stringToDate` convierte un valor de cadena en un valor de fecha y hora. Se necesitan dos argumentos: la representación de cadena de una fecha y hora y la representación de cadena del formateador.
+La función `stringToDate` convierte un valor de cadena en un valor de fecha y hora. Se necesitan dos argumentos: la representación de cadena de una fecha y hora y la representación de cadena del formateador.
 
 **Sintaxis**
 
@@ -725,7 +725,7 @@ El `stringToDate` convierte un valor de cadena en un valor de fecha y hora. Se n
 
 ## Cadena a entero {#string-to-integer}
 
-El `string_to_integer` se utiliza para convertir un valor de cadena en un valor entero.
+La función `string_to_integer` se usa para convertir un valor de cadena en un valor entero.
 
 **Sintaxis**
 
@@ -735,7 +735,7 @@ El `string_to_integer` se utiliza para convertir un valor de cadena en un valor 
 
 ## Cadena a número {#string-to-number}
 
-El `stringToNumber` se utiliza para convertir una cadena en número. Devuelve la misma cadena como salida para la entrada no válida.
+La función `stringToNumber` se usa para convertir una cadena en número. Devuelve la misma cadena como salida para la entrada no válida.
 
 **Sintaxis**
 
@@ -745,7 +745,7 @@ El `stringToNumber` se utiliza para convertir una cadena en número. Devuelve la
 
 ## Subcadena {#sub-string}
 
-El `Count string` se utiliza para devolver la subcadena de la expresión de cadena entre el índice inicial y el índice final.
+La función `Count string` se usa para devolver la subcadena de la expresión de cadena entre el índice inicial y el índice final.
 **Sintaxis**
 
 ```sql
@@ -754,7 +754,7 @@ El `Count string` se utiliza para devolver la subcadena de la expresión de cade
 
 ## Caso de título{#titleCase}
 
-El **titleCase** se utiliza para poner en mayúscula las primeras letras de cada palabra de una cadena.
+La función **titleCase** se usa para poner en mayúsculas las primeras letras de cada palabra de una cadena.
 
 **Sintaxis**
 
@@ -772,7 +772,7 @@ Si la persona vive en Washington High Street, esta función devolverá Washingto
 
 ## A Bool {#to-bool}
 
-El `toBool` se utiliza para convertir un valor de argumento en un valor booleano, según su tipo.
+La función `toBool` se usa para convertir un valor de argumento en un valor booleano, según su tipo.
 
 **Sintaxis**
 
@@ -782,7 +782,7 @@ El `toBool` se utiliza para convertir un valor de argumento en un valor booleano
 
 ## A Fecha Hora {#to-date-time}
 
-El `toDateTime` se utiliza para convertir la cadena a fecha. Devuelve la fecha epoch como salida para una entrada no válida.
+La función `toDateTime` se usa para convertir la cadena a fecha. Devuelve la fecha epoch como salida para una entrada no válida.
 
 **Sintaxis**
 
@@ -792,7 +792,7 @@ El `toDateTime` se utiliza para convertir la cadena a fecha. Devuelve la fecha e
 
 ## A Fecha Hora Solo {#to-date-time-only}
 
-El `toDateTimeOnly` se utiliza para convertir un valor de argumento en un valor de solo fecha y hora. Devuelve la fecha epoch como salida para una entrada no válida. Esta función acepta tipos de campo string, date, long e int.
+La función `toDateTimeOnly` se usa para convertir un valor de argumento en un valor de solo fecha y hora. Devuelve la fecha epoch como salida para una entrada no válida. Esta función acepta tipos de campo string, date, long e int.
 
 **Sintaxis**
 
@@ -802,7 +802,7 @@ El `toDateTimeOnly` se utiliza para convertir un valor de argumento en un valor 
 
 ## Recortar {#trim}
 
-El **recortar** elimina todos los espacios en blanco del principio y al final de una cadena.
+La función **trim** elimina todos los espacios en blanco del principio y del final de una cadena.
 
 **Sintaxis**
 
@@ -812,7 +812,7 @@ El **recortar** elimina todos los espacios en blanco del principio y al final de
 
 ## Mayúsculas{#upper}
 
-El **upperCase** convierte una cadena en letras mayúsculas.
+La función **upperCase** convierte una cadena en letras mayúsculas.
 
 **Sintaxis**
 
@@ -830,7 +830,7 @@ Esta función convierte los apellidos del perfil en letras mayúsculas.
 
 ## Descifrar URL {#url-decode}
 
-El `urlDecode` se utiliza para descodificar una cadena con codificación url.
+La función `urlDecode` se usa para descodificar una cadena con codificación URL.
 
 **Sintaxis**
 
@@ -840,7 +840,7 @@ El `urlDecode` se utiliza para descodificar una cadena con codificación url.
 
 ## Cifrar URL {#url-encode}
 
-El `Count only null` se utiliza para codificar una cadena mediante url.
+La función `Count only null` se usa para codificar una cadena mediante URL.
 
 **Sintaxis**
 

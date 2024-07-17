@@ -21,11 +21,11 @@ ht-degree: 3%
 
 Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizar su contenido. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje con los datos del perfil de prueba.
 
-Para ello, haga clic en **[!UICONTROL Simular contenido]** a continuación, añada un perfil de prueba para comprobar el mensaje con los datos del perfil de prueba.
+Para ello, haga clic en **[!UICONTROL Simular contenido]** y añada un perfil de prueba para comprobar el mensaje con los datos del perfil de prueba.
 
 ![](assets/sms_preview_2.png)
 
-Encontrará información detallada sobre cómo seleccionar perfiles de prueba y previsualizar el contenido en el [Gestión de contenido](../content-management/preview-test.md) sección.
+Encontrará información detallada sobre cómo seleccionar perfiles de prueba y obtener una vista previa del contenido en la sección [Administración de contenido](../content-management/preview-test.md).
 
 ## Validación del contenido {#sms-validate}
 
@@ -33,9 +33,9 @@ Debe comprobar las alertas en la sección superior del editor. Algunas son simpl
 
 ![](assets/sms-alert-button.png)
 
-* **Advertencias** consulte recomendaciones y prácticas recomendadas. Por ejemplo, se muestra un mensaje de advertencia si el mensaje de texto está vacío.
+* **Advertencias** se refieren a recomendaciones y prácticas recomendadas. Por ejemplo, se muestra un mensaje de advertencia si el mensaje de texto está vacío.
 
-* **Errores** evite probar o activar el recorrido, o publicar la campaña, siempre que no se resuelvan. Por ejemplo, un mensaje de error le advierte cuando falta la línea de asunto.
+* **Los errores** le impiden probar o activar la recorrido o publicar la campaña, siempre y cuando no se resuelvan. Por ejemplo, un mensaje de error le advierte cuando falta la línea de asunto.
 
 
 >[!NOTE]
@@ -44,7 +44,7 @@ Debe comprobar las alertas en la sección superior del editor. Algunas son simpl
 
 ## Envíe sus mensajes de texto {#sms-send}
 
-Cuando el mensaje de texto esté listo, complete la configuración de su [recorrido](../building-journeys/journey-gs.md) o [campaña](../campaigns/create-campaign.md) para enviarlo.
+Cuando el mensaje de texto esté listo, completa la configuración de tu [recorrido](../building-journeys/journey-gs.md) o [campaña](../campaigns/create-campaign.md) para enviarlo.
 
 **Temas relacionados**
 

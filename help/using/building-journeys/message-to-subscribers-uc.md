@@ -20,17 +20,17 @@ ht-degree: 17%
 
 El propósito de este caso de uso es crear un recorrido para enviar un mensaje a los suscriptores de una lista.
 
-En este ejemplo, la variable **[!UICONTROL Detalles de consentimiento y preferencia]** grupo de campos de [!DNL Adobe Experience Platform] se utiliza. Para buscar este grupo de campos, en **[!UICONTROL Administración de datos]** menú, elija **[!UICONTROL Esquemas]**. En el **[!UICONTROL Grupos de campos]** pestaña, introduzca el nombre del grupo de campos en el campo de búsqueda.
+En este ejemplo, se usa el grupo de campos **[!UICONTROL Detalles de consentimiento y preferencia]** de [!DNL Adobe Experience Platform]. Para encontrar este grupo de campos, en el menú **[!UICONTROL Administración de datos]**, elija **[!UICONTROL Esquemas]**. En la ficha **[!UICONTROL Grupos de campos]**, escriba el nombre del grupo de campos en el campo de búsqueda.
 
 ![Este grupo de campos incluye el elemento subscriptions](assets/consent-and-preference-details-field-group.png)
 
 Para configurar este recorrido, siga estos pasos:
 
-1. Cree un recorrido que comience con una **[!UICONTROL Leer]** actividad. [Más información](journey-gs.md).
-1. Añadir un **[!UICONTROL Correo electrónico]** actividad de acción al recorrido. [Más información](journeys-message.md).
-1. En el **[!UICONTROL Parámetros de correo electrónico]** de la sección **[!UICONTROL Correo electrónico]** configuración de actividad, sustituya la dirección de correo electrónico predeterminada (`PersonalEmail.adress`) con la dirección de correo electrónico de los suscriptores de la lista:
+1. Cree un recorrido que comience con una actividad **[!UICONTROL Read]**. [Más información](journey-gs.md).
+1. Agregue una actividad de acción **[!UICONTROL Correo electrónico]** al recorrido. [Más información](journeys-message.md).
+1. En la sección **[!UICONTROL Parámetros de correo electrónico]** de la configuración de la actividad **[!UICONTROL Correo electrónico]**, reemplace la dirección de correo electrónico predeterminada (`PersonalEmail.adress`) por la dirección de correo electrónico de los suscriptores de la lista:
 
-   1. Haga clic en **[!UICONTROL Habilitar anulación de parámetros]** en la parte derecha del icono **[!UICONTROL Dirección]** y haga clic en el campo **[!UICONTROL Editar]** icono.
+   1. Haga clic en el icono **[!UICONTROL Habilitar anulación de parámetros]** a la derecha del campo **[!UICONTROL Dirección]** y, a continuación, haga clic en el icono **[!UICONTROL Editar]**.
 
       ![](assets/message-to-subscribers-uc-1.png)
 
@@ -49,13 +49,13 @@ Para configurar este recorrido, siga estos pasos:
       | `entry` | Hacer referencia a un elemento de mapa según el área de nombres seleccionada | Consulte una lista de suscripción específica |
       | `firstEntryKey` | Recuperación de la primera clave de entrada de un mapa | Recuperación de la primera dirección de correo electrónico de los suscriptores |
 
-      En este ejemplo, la lista de suscripción se denomina `daily-email`. Las direcciones de correo electrónico se definen como claves en la variable `subscribers` map, que está vinculado al mapa de la lista de suscripción.
+      En este ejemplo, la lista de suscripción se denomina `daily-email`. Las direcciones de correo electrónico se definen como claves en el mapa `subscribers`, que está vinculado al mapa de la lista de suscripción.
 
       Más información sobre [referencias a campos](expression/field-references.md) en expresiones.
 
       ![](assets/message-to-subscribers-uc-2.png)
 
-   1. En el **[!UICONTROL Añadir una expresión]** , haga clic en **[!UICONTROL Ok]**.
+   1. En el cuadro de diálogo **[!UICONTROL Agregar una expresión]**, haga clic en **[!UICONTROL Aceptar]**.
 
 >[!CAUTION]
 >

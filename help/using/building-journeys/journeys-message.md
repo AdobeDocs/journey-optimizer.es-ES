@@ -23,7 +23,7 @@ ht-degree: 18%
 >title="Actividad de mensaje"
 >abstract="Journey Optimizer incluye funcionalidades de mensajería integradas. Puede simplemente añadir en el recorrido una actividad de mensaje push, de mensaje de texto (SMS/MMS), de mensaje de la aplicación o de correo electrónico y definir la configuración y el contenido. A continuación, se ejecuta y envía en el contexto del recorrido."
 
-[!DNL Journey Optimizer] incluye funciones de mensajes integradas. Puede simplemente añadir en el recorrido una actividad push, un SMS/MMS, una actividad de mensaje en la aplicación o de correo electrónico y definir la configuración y el contenido. A continuación, se ejecuta y envía en el contexto del recorrido.
+[!DNL Journey Optimizer] viene con funcionalidades de mensajes integradas. Puede simplemente añadir en el recorrido una actividad push, un SMS/MMS, una actividad de mensaje en la aplicación o de correo electrónico y definir la configuración y el contenido. A continuación, se ejecuta y envía en el contexto del recorrido.
 
 También puede configurar acciones específicas para enviarle mensajes:
 
@@ -32,13 +32,13 @@ También puede configurar acciones específicas para enviarle mensajes:
 * Si está trabajando con Campaign y Journey Optimizer, consulte estas secciones:
 
    * [[!DNL Journey Optimizer] y Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] y CAMPAIGN STANDARD](../action/acs-action.md)
+   * [[!DNL Journey Optimizer] y Campaign Standard](../action/acs-action.md)
 
 Para añadir un mensaje en un recorrido, siga los pasos a continuación:
 
-1. Inicie el recorrido con un [Evento](general-events.md) o una [Leer audiencia](read-audience.md) actividad.
+1. Inicie el recorrido con una actividad [Event](general-events.md) o [Read Audience](read-audience.md).
 
-1. Desde el **Acciones** de la paleta, arrastre y suelte una **email**, un **En la aplicación**, un **SMS** o una **Push** actividad en el lienzo.
+1. En la sección **Acciones** de la paleta, arrastre y suelte una actividad **correo electrónico**, **En la aplicación**, **SMS** o **Push** en el lienzo.
 
 1. Configure su actividad. Conozca los pasos detallados para crear el contenido del mensaje en las siguientes páginas:
 
@@ -56,7 +56,7 @@ Para añadir un mensaje en un recorrido, siga los pasos a continuación:
    <a href="../in-app/create-in-app.md">
    <img alt="Posible cliente" src="../assets/do-not-localize/in-app.jpg">
    </a>
-   <div><a href="../in-app/create-in-app.md"><strong>Creación de mensajes en la aplicación</strong>
+   <div><a href="../in-app/create-in-app.md"><strong>Crear mensajes en la aplicación</strong>
    </div>
    <p>
    </td>
@@ -74,7 +74,7 @@ Para añadir un mensaje en un recorrido, siga los pasos a continuación:
    <img alt="Validación" src="../assets/do-not-localize/sms.jpg">
    </a>
    <div>
-   <a href="../sms/create-sms.md"><strong>Creación de mensajes de texto (SMS/MMS)</strong></a>
+   <a href="../sms/create-sms.md"><strong>Crear mensajes de texto (SMS/MMS)</strong></a>
    </div>
    <p>
    </td>
@@ -85,7 +85,7 @@ Para añadir un mensaje en un recorrido, siga los pasos a continuación:
 
 Puede actualizar el contenido de un mensaje (correo electrónico, aplicación, push, SMS) en un recorrido activo.
 
-Para ello, abra el recorrido en directo, seleccione la actividad de mensaje y haga clic en **Editar contenido**.
+Para ello, abra el recorrido en directo, seleccione la actividad del mensaje y haga clic en **Editar contenido**.
 
 ![](assets/add-a-message2.png)
 
@@ -129,15 +129,15 @@ Esta información se almacena con el perfil del usuario y se hace referencia a e
 
 ¿Qué puede hacer la optimización del tiempo de envío? ¿Cómo gestiona los nuevos perfiles? ¿Distribuye el envío en un periodo de 6/12/24 horas?
 
-La optimización del tiempo de envío intenta predecir el mejor momento para interactuar con los clientes y optimizar las tasas de apertura y clics de los correos electrónicos. La puntuación está en un formato de `3*7*24` atributos para cada perfil. El `7*24` Los atributos describen la clasificación del mejor momento previsto para enviar correos electrónicos al destinatario y 3 es para optimizar la tasa de apertura de los correos electrónicos, la tasa de clics en los correos electrónicos y la tasa de apertura push.
+La optimización del tiempo de envío intenta predecir el mejor momento para interactuar con los clientes y optimizar las tasas de apertura y clics de los correos electrónicos. La puntuación está en un formato de `3*7*24` atributos para cada perfil. Los atributos `7*24` describen la clasificación del mejor momento previsto para enviar correos electrónicos al destinatario y 3 es para optimizar la tasa de apertura de los correos electrónicos, la tasa de clics en los correos electrónicos y la tasa de apertura de las notificaciones push.
 
 ¿Dónde puedo ver el tiempo de envío esperado para cada perfil?
 
-Puede ver la puntuación general en la **Perfiles** interfaz. Para cada uno de los tres conjuntos de 168 puntuaciones, los rangos van de -83 a 84. Cuanto mayor sea la clasificación, mejor será el momento de interactuar con el destinatario. Dado que puede definir el inicio y la duración de un recorrido, es posible que la mejor clasificación (84) no caiga en esa ventana de tiempo. En este caso, se recomienda elegir una hora con el valor de clasificación más alto.
+Puede ver la puntuación general en la interfaz **Perfiles**. Para cada uno de los tres conjuntos de 168 puntuaciones, los rangos van de -83 a 84. Cuanto mayor sea la clasificación, mejor será el momento de interactuar con el destinatario. Dado que puede definir el inicio y la duración de un recorrido, es posible que la mejor clasificación (84) no caiga en esa ventana de tiempo. En este caso, se recomienda elegir una hora con el valor de clasificación más alto.
 
 ¿Qué informes están disponibles?
 
-Acceda al recorrido y haga clic en **Ver informe** en la parte superior derecha y seleccione el botón **Recorrido** pestaña de la izquierda. [Más información](../reports/journey-global-report.md)
+Accede a tu recorrido, haz clic en el botón **Ver informe** en la parte superior derecha y selecciona la pestaña **Recorrido** a la izquierda. [Más información](../reports/journey-global-report.md)
 
 ¿Cómo afectan los datos de optimización del tiempo de envío a la riqueza de perfiles?
 
@@ -155,13 +155,13 @@ La optimización del tiempo de envío agrega la puntuación/atributos a cada per
 >title="Activación de la optimización del tiempo de envío"
 >abstract="Los mensajes push tienen por defecto la opción de apertura, ya que los clics no se aplican a la mensajería push. También puede optar por poner entre paréntesis los tiempos de envío utilizados por el sistema introduciendo un valor para la opción Enviar dentro de los próximos."
 
-Habilite la optimización del tiempo de envío en un mensaje push o de correo electrónico seleccionando la variable **Optimización del tiempo de envío** cambie de los parámetros de actividad.
+Habilite la optimización del tiempo de envío en un mensaje push o de correo electrónico seleccionando el conmutador **Optimización del tiempo de envío** entre los parámetros de actividad.
 
 ![](../building-journeys/assets/jo-message5.png)
 
 Para los mensajes de correo electrónico, seleccione si desea optimizar las aperturas de correo electrónico o las pulsaciones de correo electrónico seleccionando el botón de opción adecuado. Los mensajes push usan de forma predeterminada la opción de aperturas, ya que los clics no son aplicables a los mensajes push.
 
-También puede elegir entre corchetes los tiempos de envío utilizados por el sistema introduciendo un valor para **Enviar en el siguiente** opción. Si elige &quot;seis horas&quot; como valor, [!DNL Journey Optimizer] comprobará cada perfil de usuario y elegirá el tiempo de envío óptimo en un plazo de seis horas desde el momento en que se ejecuta el recorrido.
+También puede optar por poner entre corchetes los tiempos de envío que utiliza el sistema al escribir un valor para la opción **Send en la siguiente**. Si elige &quot;seis horas&quot; como valor, [!DNL Journey Optimizer] comprobará cada perfil de usuario y elegirá el tiempo de envío óptimo en un plazo de seis horas a partir del momento de ejecución del recorrido.
 
 **¿Qué sucede si el tiempo óptimo está fuera de la ventana?**
 

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 2%
+source-wordcount: '386'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 2%
 ## Explicación de la recopilación de datos
 
 Puede recopilar comentarios de offers decisioning en Adobe Experience Platform, incluidos los que se muestran las ofertas y cómo interactúan los usuarios con ellas. Estos datos se pueden utilizar para lo siguiente:
-* Composición [Informes de administración de decisiones](../reports/get-started-events.md);
-* Uso de [restricción de frecuencia](../offer-library/add-constraints.md#capping) reglas;
-* Edificio [modelos de IA](../ranking/create-ranking-strategies.md) que puede utilizarse como método de clasificación.
+* Componiendo [informes de administración de decisiones](../reports/get-started-events.md);
+* Usar [reglas de restricción de frecuencia](../offer-library/add-constraints.md#capping);
+* Generando [modelos de IA](../ranking/create-ranking-strategies.md) que puedan usarse como método de clasificación.
 
 ## Tipos de eventos
 
@@ -28,25 +28,25 @@ La forma en que se recopilan los datos varía según el tipo de evento que desee
 
 ### Eventos de decisión
 
-Cada vez que la Administración de decisiones toma una decisión, la información relacionada con ese evento de decisión es **automáticamente** se envía a Adobe Experience Platform para todos los canales. [Más información](../reports/get-started-events.md)
+Cada vez que Administración de decisiones toma una decisión, la información relacionada con ese evento de decisión se **envía automáticamente** a Adobe Experience Platform para todos los canales. [Más información](../reports/get-started-events.md)
 
 ### Eventos de impresión y clics
 
 Las impresiones y clics de gestión de decisiones se definen de la siguiente manera:
 
-* Un **impresión** El evento se produce cuando se muestra una oferta a un usuario.
+* Un evento **impression** se produce cuando se muestra una oferta a un usuario.
 
-* A **click** Este evento se produce cuando un usuario hace clic en una oferta o interactúa con ella.
+* Un evento **click** se produce cuando un usuario hace clic o interactúa con una oferta.
 
-Los comentarios sobre las impresiones y los clics se capturan según el [!DNL Journey Optimizer] canal que se utiliza.
+Los comentarios sobre las impresiones y los clics se capturan según el canal [!DNL Journey Optimizer] que se use.
 
-**Correos electrónicos** creado por [!DNL Journey Optimizer] **automáticamente** rastrear impresiones y clics.
+**Correos electrónicos** creados por [!DNL Journey Optimizer] **rastrean automáticamente** impresiones y clics.
 
-Sin embargo, **la mayoría de canales** requiere que los datos de impresiones y clics se envíen a Adobe Experience Platform como **evento de experiencia**. Esto incluye lo siguiente:
+Sin embargo, **la mayoría de los canales** requieren que los datos de impresiones y clics se envíen a Adobe Experience Platform como un **evento de experiencia**. Esto incluye lo siguiente:
 
-* Páginas web que utilizan el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es){target="_blank"} para procesar ofertas
+* Páginas web que usan [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} para procesar ofertas
 
-* Aplicaciones móviles que utilizan [SDK de Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* Aplicaciones móviles que usan el [SDK de Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} para procesar ofertas: [Más información](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * Quioscos
 * Mensajes enviados a través de aplicaciones de terceros
   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
@@ -57,12 +57,12 @@ Sin embargo, **la mayoría de canales** requiere que los datos de impresiones y 
 
 ### Eventos personalizados
 
-Los comentarios sobre los eventos personalizados vinculados a una oferta se pueden enviar a Adobe Experience Platform según sus propias preferencias. Por ejemplo, si una oferta tiene varios botones como *Interesado*, *No me interesa*, etc., es posible que desee enviar esos eventos por separado, pero también se pueden enviar como eventos de experiencia.
+Los comentarios sobre los eventos personalizados vinculados a una oferta se pueden enviar a Adobe Experience Platform según sus propias preferencias. Por ejemplo, si una oferta tiene varios botones como *Interesado*, *No interesado*, etc., quizá quiera enviar esos eventos por separado, pero también se pueden enviar como eventos de experiencia.
 
 ## Envío de datos de comentarios
 
 Para enviar datos de comentarios, debe crear un conjunto de datos para recopilar eventos y, para cada tipo de evento, definir un evento de experiencia que se enviará a Adobe Experience Platform.
 
-* Obtenga información sobre cómo crear un conjunto de datos en el que se recopilarán los eventos de experiencia [esta sección](create-dataset.md).
+* Aprenda a crear un conjunto de datos donde se recopilarán los eventos de experiencia en [esta sección](create-dataset.md).
 
 * Aprenda a definir eventos de experiencia para enviar datos de comentarios en [esta sección](schema-requirement.md).

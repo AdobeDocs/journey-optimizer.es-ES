@@ -19,7 +19,7 @@ ht-degree: 28%
 
 >[!BEGINSHADEBOX]
 
-Esta documentación proporciona información detallada sobre cómo trabajar con la composición de públicos en Adobe Journey Optimizer. Si no utiliza Adobe Journey Optimizer, [haga clic aquí](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=es){target="_blank"}.
+Esta documentación proporciona información detallada sobre cómo trabajar con la composición de públicos en Adobe Journey Optimizer. Si no usa Adobe Journey Optimizer, [haga clic aquí](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=es){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -29,25 +29,25 @@ Los pasos para componer una audiencia en el lienzo son los siguientes:
 
 1. [Definición de la audiencia o audiencias de inicio](#starting-audience)
 1. [Añada una o varias actividades](#action-activities)
-1. [Guardar los resultados en una audiencia nueva](#save)
+1. [Guardar los resultados en una nueva audiencia](#save)
 
 ## Selección de la audiencia inicial {#starting-audience}
 
 El primer paso para crear una composición es seleccionar una o varias audiencias existentes como base de la composición.
 
-1. Seleccione el **[!UICONTROL Audiencia]** a continuación, proporcione una etiqueta para la actividad.
+1. Seleccione la actividad **[!UICONTROL Audience]** y proporcione una etiqueta para la actividad.
 
 1. Elija la audiencia a la que desee dirigirse:
 
-   * Haga clic en **[!UICONTROL Añadir audiencia]** para seleccionar una o varias audiencias existentes,
-   * Haga clic en **[!UICONTROL Generar regla]** para crear una nueva definición de audiencia con el botón [Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es).
+   * Haga clic en el botón **[!UICONTROL Agregar audiencia]** para seleccionar una o varias audiencias existentes,
+   * Haga clic en el botón **[!UICONTROL Generar regla]** para crear una nueva definición de audiencia con el [servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es).
 
    ![](assets/audiences-choose-audience.png)
 
 1. Si se seleccionan varias audiencias, especifique cómo se deben combinar los perfiles de estas audiencias:
 
-* **[!UICONTROL Union]**: incluir todos los perfiles de las audiencias seleccionadas,
-* **[!UICONTROL Intersección]**: incluye perfiles que son comunes a todas las audiencias seleccionadas.
+* **[!UICONTROL Union]**: incluye todos los perfiles de las audiencias seleccionadas,
+* **[!UICONTROL Intersección]**: incluye perfiles que son comunes a todas las audiencias seleccionadas,
 * **[!UICONTROL Excluir superposición]**: incluye perfiles que pertenecen a una de las audiencias solamente. No se incluirán los perfiles que pertenezcan a más de una audiencia.
 
 En este ejemplo, queremos segmentar todos los perfiles pertenecientes a las audiencias oro y plata.
@@ -66,13 +66,13 @@ Para ello, haga clic en el botón + de la ruta de composición y seleccione la a
 
 Las actividades disponibles son:
 
-* [Audiencia](#audience): incluir perfiles adicionales que pertenecen a una o varias audiencias existentes,
-* [Excluir](#exclude): excluir perfiles pertenecientes a una audiencia existente o excluir perfiles basados en atributos específicos,
+* [Audiencia](#audience): incluye perfiles adicionales que pertenecen a una o varias audiencias existentes,
+* [Excluir](#exclude): excluir perfiles que pertenecen a una audiencia existente o excluir perfiles según atributos específicos.
 * [Enriquecer](#enrich): enriquezca la audiencia con atributos adicionales procedentes de conjuntos de datos de Adobe Experience Platform,
 * [Rango](#rank): clasifique perfiles en función de un atributo específico, especifique el número de perfiles que desea conservar e inclúyalos en la composición.
-* [Split](#split): divida la composición en varias rutas en función de porcentajes aleatorios o atributos.
+* [Split](#split): divide tu composición en varias rutas según porcentajes aleatorios o atributos.
 
-Puede añadir tantas como desee **[!UICONTROL Audiencia]** y **[!UICONTROL Excluir]** actividades según sea necesario en la composición. Sin embargo, no se puede añadir ninguna actividad adicional después de **[!UICONTROL Rango]** y **[!UICONTROL Split]** actividades.
+Puede agregar tantas actividades **[!UICONTROL Audience]** y **[!UICONTROL Exclude]** como sea necesario en la composición. Sin embargo, no se puede agregar ninguna actividad adicional después de las actividades **[!UICONTROL Rank]** y **[!UICONTROL Split]**.
 
 Puede quitar una actividad del lienzo en cualquier momento haciendo clic en el botón Eliminar en el panel derecho.  Si la actividad que desea eliminar es una actividad principal de otras actividades de la composición, se muestra un mensaje que le permite especificar si desea eliminar sólo la actividad seleccionada o todas sus actividades secundarias.
 
@@ -88,9 +88,9 @@ Puede quitar una actividad del lienzo en cualquier momento haciendo clic en el b
 >title="Tipos de combinación"
 >abstract="Especifique cómo se deben combinar los perfiles de las audiencias seleccionadas."
 
-El **[!UICONTROL Audiencia]** La actividad de le permite incluir en la composición perfiles adicionales que pertenecen a una audiencia existente.
+La actividad **[!UICONTROL Audience]** le permite incluir en la composición perfiles adicionales que pertenecen a una audiencia existente.
 
-La configuración de esta actividad es idéntica a la del inicio [Actividad de audiencia](#starting-audience).
+La configuración de esta actividad es idéntica a la [actividad de audiencia](#starting-audience) inicial.
 
 ### Actividad de exclusión {#exclude}
 
@@ -104,15 +104,15 @@ La configuración de esta actividad es idéntica a la del inicio [Actividad de a
 >title="Actividad de exclusión"
 >abstract="La actividad de exclusión permite excluir perfiles de la composición seleccionando una audiencia existente o utilizando una regla."
 
-El **[!UICONTROL Excluir]** esta actividad le permite excluir perfiles de la composición. Hay dos tipos de exclusión disponibles:
+La actividad **[!UICONTROL Excluir]** le permite excluir perfiles de su composición. Hay dos tipos de exclusión disponibles:
 
-* **[!UICONTROL Excluir audiencia]**: Excluya perfiles pertenecientes a una audiencia existente.
+* **[!UICONTROL Excluir audiencia]**: excluya perfiles que pertenezcan a una audiencia existente.
 
-  Haga clic en **[!UICONTROL Añadir audiencia]** y, a continuación, seleccione la audiencia que desee excluir.
+  Haga clic en el botón **[!UICONTROL Agregar audiencia]** y luego seleccione la audiencia que desee excluir.
 
   ![](assets/audiences-exclude-audience.png)
 
-* **[!UICONTROL Excluir mediante atributo]**: excluir perfiles en función de un atributo específico.
+* **[!UICONTROL Excluir mediante atributo]**: Excluya perfiles basados en un atributo específico.
 
   Seleccione el atributo que desea buscar y especifique el valor que desea excluir. En este ejemplo, se excluyen de la composición perfiles cuya dirección postal está en Japón.
 
@@ -144,22 +144,22 @@ El **[!UICONTROL Excluir]** esta actividad le permite excluir perfiles de la com
 >title="Atributos de enriquecimiento"
 >abstract="Seleccione uno o varios atributos del conjunto de datos de enriquecimiento para asociarlos a la audiencia. Una vez publicada la composición, estos atributos se asocian al público y se pueden aprovechar en campañas de Journey Optimizer para personalizar envíos."
 
-El **[!UICONTROL Enriquecer]** La actividad de le permite enriquecer su audiencia con atributos adicionales procedentes de conjuntos de datos de Adobe Experience Platform. Por ejemplo, puede añadir información relacionada con el producto comprado, como el nombre, precio o ID de fabricante y utilizar esta información para personalizar los envíos enviados al público.
+La actividad **[!UICONTROL Enrich]** le permite enriquecer su audiencia con atributos adicionales procedentes de conjuntos de datos de Adobe Experience Platform. Por ejemplo, puede añadir información relacionada con el producto comprado, como el nombre, precio o ID de fabricante y utilizar esta información para personalizar los envíos enviados al público.
 
-Tenga en cuenta las siguientes limitaciones al trabajar con **[!UICONTROL Enriquecer]** actividad:
+Tenga en cuenta las siguientes limitaciones al trabajar con la actividad **[!UICONTROL Enrich]**:
 
-* **Conjuntos de datos** para el enriquecimiento debe ser de tipo registro (a diferencia del tipo evento) y no puede ser un conjunto de datos del sistema ni estar marcado para un perfil. Deben tener menos de 1 GB.
-* **El enriquecimiento admite una unión 1:1**. Esto significa que si las claves de unión tienen más de una coincidencia en el conjunto de datos de enriquecimiento, el sistema selecciona una de las coincidencias y la utiliza para la unión 1:1.
-* **Las audiencias se pueden activar en Destinos RTCDP**, pero sus atributos de enriquecimiento, si los hay, no pueden.
+* **Los conjuntos de datos** para el enriquecimiento deben ser de tipo de registro (a diferencia del tipo de evento) y no pueden ser un conjunto de datos del sistema ni estar marcados para un perfil. Deben tener menos de 1 GB.
+* **El enriquecimiento admite una combinación 1:1**. Esto significa que si las claves de unión tienen más de una coincidencia en el conjunto de datos de enriquecimiento, el sistema selecciona una de las coincidencias y la utiliza para la unión 1:1.
+* **Las audiencias se pueden activar en destinos RTCDP**, pero sus atributos de enriquecimiento, si los hay, no.
 * Los atributos de enriquecimiento aún no están integrados con el servicio de aplicación de políticas. Por lo tanto, las etiquetas de uso de datos que aplique a los atributos de enriquecimiento no se aplicarán a las campañas o recorridos de Journey Optimizer.
 
 Para configurar la actividad, siga estos pasos:
 
-1. Seleccione el **[!UICONTROL Conjunto de datos de enriquecimiento]** que contenga los datos que desee asociar a la audiencia.
+1. Seleccione el **[!UICONTROL conjunto de datos de enriquecimiento]** que contiene los datos que desea asociar a la audiencia.
 
-1. En el **[!UICONTROL Criterios de enriquecimiento]** , seleccione los campos que se utilizarán como clave de reconciliación entre el conjunto de datos de origen, es decir, la audiencia y el conjunto de datos de enriquecimiento. En este ejemplo, utilizamos el ID del producto comprado como clave de reconciliación.
+1. En la sección **[!UICONTROL Criterios de enriquecimiento]**, seleccione los campos que se usarán como clave de reconciliación entre el conjunto de datos de origen, es decir, la audiencia y el conjunto de datos de enriquecimiento. En este ejemplo, utilizamos el ID del producto comprado como clave de reconciliación.
 
-1. Haga clic en **[!UICONTROL Añadir atributos]** a continuación, seleccione uno o varios atributos del conjunto de datos de enriquecimiento para asociarlos a la audiencia.
+1. Haga clic en el botón **[!UICONTROL Agregar atributos]** y, a continuación, seleccione uno o varios atributos del conjunto de datos de enriquecimiento para asociarlos a la audiencia.
 
    ![](assets/audiences-enrich-activity.png)
 
@@ -177,7 +177,7 @@ Una vez publicada la composición, los atributos seleccionados se asocian a la a
 >title="Añadir límite de perfil"
 >abstract="Active esta opción para especificar el número máximo de perfiles que desea incluir en la composición."
 
-El **[!UICONTROL Rango]** la actividad le permite clasificar perfiles en función de un atributo específico e incluirlos en la composición. Por ejemplo, puede incluir los 50 perfiles con la mayor cantidad de puntos de lealtad.
+La actividad **[!UICONTROL Rank]** le permite clasificar perfiles en función de un atributo específico e incluirlos en la composición. Por ejemplo, puede incluir los 50 perfiles con la mayor cantidad de puntos de lealtad.
 
 1. Seleccione el atributo que desea buscar y especifique un orden de clasificación (ascendente o descendente).
 
@@ -185,7 +185,7 @@ El **[!UICONTROL Rango]** la actividad le permite clasificar perfiles en funció
    >
    >Puede seleccionar atributos con los siguientes tipos de datos: entero, números, corto <!--(other?)-->
 
-1. Alternar el **[!UICONTROL Añadir límite de perfil]** y especifique un número máximo de perfiles para incluir en la composición.
+1. Active la opción **[!UICONTROL Agregar límite de perfiles]** y especifique el número máximo de perfiles que se incluirán en la composición.
 
    ![](assets/audiences-rank.png)
 
@@ -211,36 +211,36 @@ El **[!UICONTROL Rango]** la actividad le permite clasificar perfiles en funció
 >title="Otros perfiles"
 >abstract="Active esta opción para crear una ruta adicional con los perfiles restantes que no coinciden con ninguna de las condiciones especificadas en las otras rutas."
 
-El **[!UICONTROL Split]** la actividad le permite dividir la composición en varias rutas.
+La actividad **[!UICONTROL Split]** le permite dividir la composición en varias rutas.
 
-Esta operación añade automáticamente un **[!UICONTROL Guardar]** actividad al final de cada ruta. Al publicar la composición, se guardará una audiencia en Adobe Experience Platform para cada ruta.
+Esta operación agrega automáticamente una actividad **[!UICONTROL Guardar]** al final de cada ruta. Al publicar la composición, se guardará una audiencia en Adobe Experience Platform para cada ruta.
 
 Hay dos tipos de operaciones de división disponibles:
 
-* **[!UICONTROL División porcentual]**: divida aleatoriamente los perfiles en dos o más rutas. Por ejemplo, puede dividir los perfiles en dos rutas distintas del 50 % cada una. <!--and add an additional path for control group.-->
+* **[!UICONTROL División porcentual]**: los perfiles se dividen aleatoriamente en dos o más rutas. Por ejemplo, puede dividir los perfiles en dos rutas distintas del 50 % cada una. <!--and add an additional path for control group.-->
 
   ![](assets/audiences-split-percentage.png)
 
-* **[!UICONTROL División de atributos]**: divida los perfiles en función de un atributo específico. En este ejemplo, dividimos los perfiles en función de sus preferencias de tipo de habitación.
+* **[!UICONTROL División de atributos]**: los perfiles de división se basan en un atributo específico. En este ejemplo, dividimos los perfiles en función de sus preferencias de tipo de habitación.
 
   ![](assets/audiences-split.png)
 
   Para configurar una actividad de división basada en atributos, siga estos pasos:
 
-   1. Haga clic en el botón situado junto al **[!UICONTROL Atributo]** para seleccionar el atributo que se utilizará como criterio de división.
+   1. Haga clic en el botón situado junto al campo **[!UICONTROL Atributo]** para seleccionar el atributo que desea utilizar como criterio de división.
    1. Añada tantas rutas como sea necesario. Para cada ruta, proporcione una etiqueta y especifique el valor que se utilizará para determinar qué perfiles deben incluirse en esa ruta en particular.
 
       >[!NOTE]
       >
       >Solo se puede especificar un valor para cada ruta.
 
-   1. Alternar en **[!UICONTROL Otros perfiles]** para crear una ruta adicional con los perfiles restantes que no coincidan con ninguna de las condiciones especificadas en las otras rutas.
+   1. Active la opción **[!UICONTROL Otros perfiles]** para crear una ruta adicional con los perfiles restantes que no coincidan con ninguna de las condiciones especificadas en las otras rutas.
 
 ## Guarde las audiencias {#save}
 
 Configure las audiencias resultantes que se guardarán en Adobe Experience Platform.
 
-Para ello, seleccione la **[!UICONTROL Guardar audiencia]** actividad al final de cada ruta y, a continuación, especifique el nombre de la nueva audiencia que desea crear.
+Para ello, seleccione la actividad **[!UICONTROL Guardar audiencia]** al final de cada ruta y luego especifique el nombre de la nueva audiencia que desea crear.
 
 ![](assets/audiences-publish.png)
 

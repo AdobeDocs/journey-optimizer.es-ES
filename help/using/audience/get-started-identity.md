@@ -18,15 +18,15 @@ ht-degree: 10%
 
 Una identidad son datos que son únicos para una entidad, normalmente un objeto del mundo real, como una persona individual, un dispositivo de hardware o un explorador web. Una identidad completa consta de dos elementos:
 
-* El **área de nombres de identidad** sirve como indicador del contexto al que se relaciona una identidad.
+* El área de nombres de identidad **identity** sirve como indicador del contexto al que se relaciona una identidad.
 * El **valor de identidad** es una cadena que representa una entidad.
 
-Tomemos el número de teléfono 555-555-1234. En este ejemplo, la cadena &quot;555-555-1234&quot; es una **valor de identidad**, que podría clasificarse como &quot;Teléfono&quot; **área de nombres de identidad**.
+Tomemos el número de teléfono 555-555-1234. En este ejemplo, la cadena &quot;555-555-1234&quot; es un **valor de identidad**, que podría clasificarse en un **área de nombres de identidad** del &quot;teléfono&quot;.
 
-El **Identidades** menú en [!DNL Adobe Journey Optimizer] permite examinar de forma eficaz los distintos identificadores que componen los clientes de la base de datos.
+El menú **Identidades** de [!DNL Adobe Journey Optimizer] le permite examinar con eficacia los distintos identificadores que componen los clientes de la base de datos.
 
 ![](assets/identities-home.png)
 
-Proporciona un **Gráfico de identidad**, que es un mapa de relaciones entre diferentes identidades para un cliente en particular, lo que le proporciona una representación visual de cómo su cliente interactúa con su marca en diferentes canales. Adobe Experience Platform Identity Service administra y actualiza colectivamente todos los gráficos de identidad de los clientes en respuesta a la actividad de los clientes.
+Proporciona un **gráfico de identidad**, que es un mapa de relaciones entre distintas identidades de un cliente en particular, lo que le proporciona una representación visual de cómo el cliente interactúa con su marca en diferentes canales. Adobe Experience Platform Identity Service administra y actualiza colectivamente todos los gráficos de identidad de los clientes en respuesta a la actividad de los clientes.
 
-Encontrará información detallada sobre cómo trabajar con identidades en la [Documentación del servicio de identidad](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es){target="_blank"}.
+Encontrará información detallada sobre cómo trabajar con identidades en la [documentación del servicio de identidad](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es){target="_blank"}.

@@ -34,7 +34,7 @@ Lo que encontrará en esta guía de documentación:
 
 Con [!DNL Journey Optimizer], puede realizar fácilmente flujos de trabajo de calentamiento de IP directamente desde la interfaz de usuario de una manera estandarizada y eficaz que siga las prácticas recomendadas para una entregabilidad óptima.
 
-➡️ [Obtenga información sobre cómo crear y ejecutar un plan de calentamiento de IP en este vídeo](#video)
+➡️ [Aprenda a crear y ejecutar un plan de calentamiento de IP en este vídeo](#video)
 
 >[!CAUTION]
 >

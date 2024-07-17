@@ -26,15 +26,15 @@ En este ejemplo, crearemos una audiencia dirigida a todos los clientes que viven
 
 ➡️ [Aprenda a crear audiencias en este vídeo](#video-segment)
 
-1. Desde el **[!UICONTROL Audiencias]** , haga clic en el **[!UICONTROL Crear audiencia]** y seleccione **[!UICONTROL Generar regla]**.
+1. En el menú **[!UICONTROL Audiencias]**, haga clic en el botón **[!UICONTROL Crear audiencia]** y seleccione **[!UICONTROL Generar regla]**.
 
    ![](assets/create-segment.png)
 
-   La pantalla de definición del segmento le permite configurar todos los campos obligatorios para definir la audiencia. Obtenga información sobre cómo configurar audiencias en [Documentación del Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es){target="_blank"}.
+   La pantalla de definición del segmento le permite configurar todos los campos obligatorios para definir la audiencia. Aprenda a configurar audiencias en la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es){target="_blank"}.
 
    ![](assets/segment-builder.png)
 
-1. En el **[!UICONTROL Propiedades de audiencia]** , proporcione un nombre y una descripción (opcional) para la audiencia.
+1. En el panel **[!UICONTROL Propiedades de audiencia]**, proporcione un nombre y una descripción (opcional) para la audiencia.
 
    ![](assets/segment-properties.png)
 
@@ -42,17 +42,17 @@ En este ejemplo, crearemos una audiencia dirigida a todos los clientes que viven
 
    >[!NOTE]
    >
-   >Tenga en cuenta que los campos disponibles en el panel izquierdo varían según la forma en que **Perfil individual de XDM** y **ExperienceEvent de XDM** se han configurado esquemas para su organización.  Obtenga más información en la [Documentación del Modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
+   >Tenga en cuenta que los campos disponibles en el panel izquierdo varían según cómo se hayan configurado los esquemas **XDM Individual Profile** y **XDM ExperienceEvent** para su organización.  Obtenga más información en la [documentación del Modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
 
    ![](assets/drag-fields.png)
 
-   En este ejemplo, tenemos que confiar en **Atributos** y **Eventos** campos para crear la audiencia:
+   En este ejemplo, necesitamos basarnos en los campos **Atributos** y **Eventos** para generar la audiencia:
 
    * **Atributos**: perfiles que viven en Atlanta, San Francisco o Seattle nacidos después de 1980
 
      ![](assets/add-attributes.png)
 
-   * **Eventos**: perfiles que abrieron la aplicación de Luma en los últimos 7 días y que luego realizaron una compra en las 2 horas siguientes a la apertura de la aplicación.
+   * **Eventos**: perfiles que abrieron la aplicación Luma en los últimos 7 días y que luego realizaron una compra en un plazo de 2 horas después de abrir la aplicación.
 
      ![](assets/add-events.png)
 
@@ -60,11 +60,11 @@ En este ejemplo, crearemos una audiencia dirigida a todos los clientes que viven
      >
      >El Adobe recomienda no utilizar abrir y enviar eventos con segmentación de flujo continuo. En su lugar, utilice señales reales de actividad del usuario como clics, compras o datos de señalizaciones. Para la lógica de frecuencia o supresión, utilice reglas empresariales en lugar de enviar eventos. [Más información](about-audiences.md#open-and-send-event-guardrails)
 
-1. Al añadir y configurar nuevos campos en el espacio de trabajo, la variable **[!UICONTROL Propiedades de audiencia]** Este panel se actualiza automáticamente con información sobre los perfiles estimados que pertenecen a la audiencia.
+1. A medida que agrega y configura nuevos campos en el área de trabajo, el panel **[!UICONTROL Propiedades de la audiencia]** se actualiza automáticamente con información sobre los perfiles estimados que pertenecen a la audiencia.
 
    ![](assets/segment-estimate.png)
 
-1. Cuando la audiencia esté lista, haga clic en **[!UICONTROL Guardar]**. Se muestra en la lista de audiencias de Adobe Experience Platform. Tenga en cuenta que hay una barra de búsqueda disponible para ayudarle a buscar en una audiencia específica de la lista.
+1. Una vez que la audiencia esté lista, haga clic en **[!UICONTROL Guardar]**. Se muestra en la lista de audiencias de Adobe Experience Platform. Tenga en cuenta que hay una barra de búsqueda disponible para ayudarle a buscar en una audiencia específica de la lista.
 
 Ahora, la audiencia se puede utilizar en los recorridos. Para obtener más información, consulte [esta sección](../audience/about-audiences.md).
 

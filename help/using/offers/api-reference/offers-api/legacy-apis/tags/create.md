@@ -9,17 +9,17 @@ exl-id: 84f0efa5-28af-4569-994c-12d87828a277
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '141'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
 # Creación de un cualificador de colección {#create-tag}
 
-Puede crear un calificador de colección (anteriormente conocido como &quot;etiqueta&quot;) realizando una solicitud de POST a [!DNL Offer Library] API, al tiempo que proporciona su ID de contenedor.
+Puede crear un calificador de recopilación (anteriormente conocido como &quot;etiqueta&quot;) realizando una solicitud de POST a la API [!DNL Offer Library], al mismo tiempo que proporciona su ID de contenedor.
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* y *Aceptar* campos en el encabezado de la solicitud:
+En la tabla siguiente se muestran los valores válidos que comprenden los campos *Content-Type* y *Accept* del encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -55,7 +55,7 @@ curl -X POST \
 
 **Respuesta**
 
-Una respuesta correcta devuelve información sobre el cualificador de recopilación recién creado, incluido su ID de instancia y ubicación únicos `@id`. Puede usar el ID de instancia en pasos posteriores para actualizar o eliminar el calificador de recopilación. Puede utilizar el calificador de colección único `@id` en tutoriales posteriores para crear colecciones y ofertas personalizadas.
+Una respuesta correcta devuelve información sobre el calificador de colección recién creado, incluido su ID de instancia único y la ubicación `@id`. Puede usar el ID de instancia en pasos posteriores para actualizar o eliminar el calificador de recopilación. Puede usar el calificador de colección única `@id` en tutoriales posteriores para crear colecciones y ofertas personalizadas.
 
 ```json
 {

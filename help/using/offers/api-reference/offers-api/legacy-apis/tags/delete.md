@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Eliminación de un cualificador de colección {#delete-tag}
 
-En ocasiones puede ser necesario quitar (DELETE) un calificador de colección (anteriormente conocido como &quot;etiqueta&quot;). Solo se pueden eliminar los calificadores de colección que cree en el contenedor de inquilino. Esto se hace realizando una solicitud de DELETE a [!DNL Offer Library] API que utiliza el $id del calificador de recopilación que desea eliminar.
+En ocasiones puede ser necesario quitar (DELETE) un calificador de colección (anteriormente conocido como &quot;etiqueta&quot;). Solo se pueden eliminar los calificadores de colección que cree en el contenedor de inquilino. Para ello, realice una solicitud de DELETE a la API [!DNL Offer Library] usando el $id del calificador de recopilación que desea eliminar.
 
 **Formato de API**
 

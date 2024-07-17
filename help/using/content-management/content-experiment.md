@@ -44,13 +44,13 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
 
 ## Cree su contenido {#campaign-experiment}
 
-1. Comience creando y configurando las notificaciones push, de correo electrónico o SMS [campaña](../campaigns/create-campaign.md) o [recorrido](../building-journeys/journeys-message.md) según sus necesidades.
+1. Comience creando y configurando su notificación por correo electrónico, SMS o push [campaign](../campaigns/create-campaign.md) o [recorrido](../building-journeys/journeys-message.md) según sus necesidades.
 
    >[!AVAILABILITY]
    >
    >Actualmente, la experimentación en Recorrido solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
-1. Desde el **[!UICONTROL Editar contenido]** , empiece a personalizar el tratamiento A.
+1. Desde la ventana **[!UICONTROL Editar contenido]**, empiece a personalizar el tratamiento A.
 
    Para este tratamiento, especificaremos la oferta especial directamente en la línea de asunto y añadiremos la personalización.
 
@@ -74,23 +74,23 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
 
    ![](assets/content_experiment_3.png)
 
-1. Seleccione el **[!UICONTROL Métrica de éxito]** que desea configurar para el experimento.
+1. Seleccione la **[!UICONTROL métrica de éxito]** que desee establecer para su experimento.
 
-   Para este ejemplo, seleccione **[!UICONTROL Correo electrónico abierto]** para probar si los perfiles abren sus correos electrónicos si el código de promoción está en la línea de asunto.
+   Para este ejemplo, seleccione **[!UICONTROL Correo electrónico abierto]** para comprobar si los perfiles abren sus mensajes de correo electrónico si el código de la promoción está en la línea de asunto.
 
    ![](assets/content_experiment_11.png)
 
-1. Al configurar un experimento con el canal en la aplicación o web y elegir la variable **[!UICONTROL Clics entrantes]**, **[!UICONTROL Clics entrantes únicos]** , **[!UICONTROL Vistas de página]** , o **[!UICONTROL Métricas de vistas de página únicas]** , el **[!UICONTROL Acción de clic]**  Esta lista desplegable le permite rastrear y monitorizar con precisión los clics y las vistas en páginas específicas.
+1. Al configurar un experimento utilizando el canal en la aplicación o web y elegir las **[!UICONTROL pulsaciones entrantes]**, los **[!UICONTROL clics entrantes únicos]**, las **[!UICONTROL vistas de página]** o las **[!UICONTROL métricas de vistas de página únicas]**, la lista desplegable de **[!UICONTROL acción de clic]** le permite rastrear y supervisar con precisión los clics y las vistas en páginas específicas.
 
    ![](assets/content_experiment_20.png)
 
-1. Clic **[!UICONTROL Agregar tratamiento]** para crear tantos tratamientos nuevos como sea necesario.
+1. Haga clic en **[!UICONTROL Agregar tratamiento]** para crear tantos tratamientos nuevos como sea necesario.
 
    ![](assets/content_experiment_8.png)
 
-1. Cambie el **[!UICONTROL Título]** de su tratamiento para diferenciarlos mejor.
+1. Cambie **[!UICONTROL Title]** del tratamiento para diferenciarlo mejor.
 
-1. Elija añadir una **[!UICONTROL Holdout]** para su envío. Este grupo no recibirá ningún contenido de esta campaña.
+1. Elija agregar un grupo **[!UICONTROL Holdout]** a su entrega. Este grupo no recibirá ningún contenido de esta campaña.
 
    Al activar la barra de alternancia, se tomará automáticamente el 10% de su población, puede ajustar este porcentaje si es necesario.
 
@@ -100,32 +100,32 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
 
    ![](assets/content_experiment_12.png)
 
-1. A continuación, puede elegir asignar un porcentaje preciso a cada uno **[!UICONTROL Tratamiento]** o simplemente encienda la **[!UICONTROL Distribuir uniformemente]** barra de alternancia.
+1. Puede elegir asignar un porcentaje preciso a cada **[!UICONTROL Tratamiento]** o simplemente cambiar en la barra de alternancia **[!UICONTROL Distribuir uniformemente]**.
 
    ![](assets/content_experiment_13.png)
 
-1. Clic **[!UICONTROL Crear]** cuando se establezca la configuración.
+1. Haga clic en **[!UICONTROL Crear]** cuando se establezca la configuración.
 
 ## Diseña tus tratamientos {#treatment-experiment}
 
-1. Desde el **[!UICONTROL Editar contenido]** , seleccione el tratamiento B para cambiar el contenido.
+1. En la ventana **[!UICONTROL Editar contenido]**, seleccione el tratamiento B para cambiar el contenido.
 
-   Aquí, elegimos no especificar la oferta en la **[!UICONTROL Línea de asunto]**.
+   Aquí, elegimos no especificar la oferta en la **[!UICONTROL línea de asunto]**.
 
    ![](assets/content_experiment_18.png)
 
-1. Clic **[!UICONTROL Editar cuerpo del correo electrónico]** para personalizar aún más su tratamiento B.
+1. Haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]** para personalizar aún más el tratamiento B.
 
    ![](assets/content_experiment_9.png)
 
-1. Después de diseñar los tratamientos, haga clic en **[!UICONTROL Más acciones]** para acceder a las opciones relacionadas con sus tratamientos: **[!UICONTROL Cambiar nombre]**, **[!UICONTROL Duplicar]** y **[!UICONTROL Eliminar]**.
+1. Después de diseñar los tratamientos, haga clic en **[!UICONTROL Más acciones]** para obtener acceso a las opciones relacionadas con los tratamientos: **[!UICONTROL Cambiar nombre]**, **[!UICONTROL Duplicar]** y **[!UICONTROL Eliminar]**.
 
    ![](assets/content_experiment_7.png)
 
-1. Si es necesario, acceda al **[!UICONTROL Configuración del experimento]** menú para cambiar la configuración de los tratamientos.
+1. Si es necesario, accede al menú **[!UICONTROL Configuración de experimentos]** para cambiar la configuración de los tratamientos.
 
    ![](assets/content_experiment_19.png)
 
-1. Una vez definido el contenido del mensaje, haga clic en **[!UICONTROL Simular contenido]** para controlar la renderización del envío y comprobar la configuración de personalización con perfiles de prueba. [Más información](../content-management/preview-test.md)
+1. Una vez definido el contenido del mensaje, haga clic en el botón **[!UICONTROL Simular contenido]** para controlar la renderización del envío y comprobar la configuración de personalización con perfiles de prueba. [Más información](../content-management/preview-test.md)
 
 Después de configurar la experimentación, puede realizar un seguimiento del éxito de su envío con el informe. [Más información](../reports/campaign-global-report.md#experimentation-report)

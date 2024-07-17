@@ -30,7 +30,7 @@ Conversión
 
 | Parámetro | Tipo |
 |-----------|------------------|
-| fecha y hora en formato ISO-8601 o &quot;AAAA-MM-DD&quot; (formato de fecha XDM) | string |
+| fecha y hora en formato ISO-8601 o &quot;AAAA-MM-DD&quot; (formato de fecha XDM) | cadena |
 | fecha y hora | dateTime |
 
 ## Firmas y tipos devueltos
@@ -47,7 +47,7 @@ Devuelve una fecha y hora sin tener en cuenta la zona horaria.
 
 `toDateTimeOnly ("2023-08-18")`
 
-devuelve un valor dateTime que representa el 18T00 de 2023-08:00:00,000
+devuelve un valor dateTime que representa el valor 2023-08-18T00:00:00.000
 
 `toDateTimeOnly(now())`
 

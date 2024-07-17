@@ -30,9 +30,9 @@ ht-degree: 18%
 
 Al segmentar un perfil, pueden estar disponibles en la base de datos varias direcciones de correo electrónico o números de teléfono (dirección de correo electrónico profesional, número de teléfono personal, etc.).
 
-En ese caso, [!DNL Journey Optimizer] utiliza **[!UICONTROL Campos de ejecución]** para determinar qué dirección de correo electrónico o número de teléfono utilizar del servicio de perfil con prioridad.
+En ese caso, [!DNL Journey Optimizer] usa **[!UICONTROL Campos de ejecución]** para determinar qué dirección de correo electrónico o número de teléfono usar del servicio de perfil con prioridad.
 
-Para comprobar los campos que se utilizan de forma predeterminada, acceda al **[!UICONTROL Administration]** > **[!UICONTROL Canales]** > **[!UICONTROL General]** > **[!UICONTROL Campos de ejecución]** menú.
+Para comprobar los campos que se utilizan actualmente de forma predeterminada, acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL General]** > **[!UICONTROL Campos de ejecución]**.
 
 ![](assets/primary-address-execution-fields.png)
 
@@ -46,9 +46,9 @@ En la mayoría de los casos, se cambia un campo de ejecución globalmente y se d
 
 Para cambiar los campos de ejecución globalmente en el nivel de entorno limitado, siga los pasos a continuación.
 
-1. Acceda a la  **[!UICONTROL Canales]** > **[!UICONTROL General]** > **[!UICONTROL Campos de ejecución]** menú.
+1. Acceda al menú **[!UICONTROL Canales]** > **[!UICONTROL General]** > **[!UICONTROL Campos de ejecución]**.
 
-1. Clic **[!UICONTROL Editar]** para cambiar los valores predeterminados.
+1. Haga clic en **[!UICONTROL Editar]** para cambiar los valores predeterminados.
 
    ![](assets/primary-address.png)
 
@@ -60,7 +60,7 @@ Para cambiar los campos de ejecución globalmente en el nivel de entorno limitad
 
    ![](assets/primary-address-select-field.png)
 
-1. Clic **[!UICONTROL Guardar]** para confirmar su elección.
+1. Haz clic en **[!UICONTROL Guardar]** para confirmar tu elección.
 
 El campo de ejecución se actualiza y ahora se utiliza como dirección principal.
 
@@ -70,15 +70,15 @@ El campo de ejecución se actualiza y ahora se utiliza como dirección principal
 
 Solo para casos de uso específicos, puede anular el campo de ejecución establecido globalmente y definir un valor diferente a nivel de recorrido, en particular para el canal de correo electrónico.
 
-Al añadir un **[!UICONTROL Correo electrónico]** acción a [recorrido](../email/create-email.md#create-email-journey-campaign), la dirección de correo electrónico principal se muestra bajo el recorrido de parámetros avanzados.
+Al agregar una acción **[!UICONTROL Email]** a un [recorrido](../email/create-email.md#create-email-journey-campaign), la dirección de correo electrónico principal se muestra bajo los parámetros avanzados de recorrido.
 
-En algunos contextos específicos, puede anular este valor mediante la variable **[!UICONTROL Habilitar anulación de parámetros]** a la derecha del icono **[!UICONTROL dirección]** field.
+En algunos contextos específicos, puede anular este valor usando el icono **[!UICONTROL Habilitar anulación de parámetros]** a la derecha del campo **[!UICONTROL dirección]**.
 
 ![](assets/journey-enable-parameter-override.png)
 
 >[!CAUTION]
 >
->La anulación de direcciones de correo electrónico solo debe utilizarse para casos de uso específicos. La mayoría de las veces, no es necesario cambiar la dirección de correo electrónico porque el valor definido como la dirección principal en la variable **[!UICONTROL Campos de ejecución]** es el que debe usarse.
+>La anulación de direcciones de correo electrónico solo debe utilizarse para casos de uso específicos. La mayoría de las veces, no es necesario cambiar la dirección de correo electrónico porque el valor definido como la dirección principal en **[!UICONTROL Campos de ejecución]** es el que debería usarse.
 
 Anular este valor puede resultar útil, por ejemplo, para lo siguiente:
 

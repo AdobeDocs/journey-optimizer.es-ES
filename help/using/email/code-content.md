@@ -24,15 +24,15 @@ Utilice el modo **[!UICONTROL Codifique su propio contenido]** para importar el 
 
 >[!CAUTION]
 >
-> Imágenes de [Adobe Experience Manager Assets](../content-management/assets.md) no se puede hacer referencia a él al utilizar este método. Las imágenes a las que se hace referencia en el código de HTML deben almacenarse en una ubicación pública.
+> No se puede hacer referencia a las imágenes de [Adobe Experience Manager Assets](../content-management/assets.md) al utilizar este método. Las imágenes a las que se hace referencia en el código de HTML deben almacenarse en una ubicación pública.
 
-1. En la página de inicio del Diseñador de correo electrónico, seleccione **[!UICONTROL Codifique su propio código]**.
+1. En la página de inicio de Designer de correo electrónico, seleccione **[!UICONTROL Codifique su propio código]**.
 
    ![](assets/code-your-own.png)
 
 1. Introduzca o pegue el código de HTML sin procesar.
 
-1. Utilice el panel izquierdo para aprovechar [!DNL Journey Optimizer] funcionalidades de personalización. [Más información](../personalization/personalize.md)
+1. Utilice el panel izquierdo para aprovechar las capacidades de personalización de [!DNL Journey Optimizer]. [Más información](../personalization/personalize.md)
 
    ![](assets/code-editor.png)
 
@@ -44,7 +44,7 @@ Utilice el modo **[!UICONTROL Codifique su propio contenido]** para importar el 
    >
    >Esta acción abre la plantilla seleccionada en el Diseñador de correo electrónico. A partir de ahí, puede completar el diseño del correo electrónico o volver al editor de código utilizando la opción **[!UICONTROL Cambiar al editor de código]**.
 
-1. Haga clic en **[!UICONTROL Previsualizar]** para comprobar el diseño y la personalización del mensaje con perfiles de prueba. [Más información](../content-management/preview-test.md)
+1. Haga clic en el botón **[!UICONTROL Vista previa]** para comprobar el diseño y la personalización del mensaje con perfiles de prueba. [Más información](../content-management/preview-test.md)
 
    ![](assets/code-editor-preview.png)
 

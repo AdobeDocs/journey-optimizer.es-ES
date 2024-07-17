@@ -9,8 +9,8 @@ badge: label="Disponibilidad limitada"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '370'
+ht-degree: 51%
 
 ---
 
@@ -35,18 +35,18 @@ Las colecciones le permiten categorizar y agrupar los elementos de decisión seg
 
 Por ejemplo, supongamos que ha agregado un atributo personalizado &quot;Categoría&quot; al esquema de catálogo de los elementos de decisión. Esto le permite crear una colección que incluye todos los elementos de decisión con el valor &quot;Yoga&quot; en el atributo &quot;Categoría&quot;.
 
-Se puede acceder a la lista de colecciones desde el **[!UICONTROL Catálogos]** menú.
+Se puede acceder a la lista de colecciones desde el menú **[!UICONTROL catálogos]**.
 
 Para crear una colección, siga estos pasos:
 
-1. Vaya a **[!UICONTROL Catálogos]** > **[!UICONTROL Colecciones]** y haga clic en **[!UICONTROL Crear colección]**.
+1. Vaya a **[!UICONTROL catálogos]** > **[!UICONTROL Colecciones]** y haga clic en **[!UICONTROL Crear colección]**.
 1. Proporcione un nombre y una descripción para la colección.
-1. Añada una o varias reglas para determinar los elementos que se incluirán en la colección. Para ello:
+1. Añada una o varias reglas para determinar los elementos que se incluirán en la colección. Para ello, haga lo siguiente:
 
    1. Elija un atributo de elemento para utilizarlo como criterio. La lista de atributos incluye todos los atributos estándar y personalizados definidos en el esquema del catálogo. [Más información sobre el catálogo de artículos](catalogs.md)
    1. Seleccione el operador deseado e introduzca el valor por el que filtrar.
-   1. Repita estos pasos para agregar tantas reglas como sea necesario. Cuando se añaden varias reglas, puede elegir entre las siguientes **Y** y **O** operadores para combinarlos. Para ello, haga clic en el distintivo del operador para cambiar entre las dos opciones.
-   1. Haga clic en **[!UICONTROL Previsualizar colección]** para mostrar los elementos que cumplen las reglas definidas.
+   1. Repita estos pasos para agregar tantas reglas como sea necesario. Cuando se agregan varias reglas, puede elegir entre los operadores **And** y **Or** para combinarlas. Para ello, haga clic en el distintivo del operador para cambiar entre las dos opciones.
+   1. Haga clic en el botón **[!UICONTROL Vista previa de la colección]** para mostrar los elementos que cumplen las reglas que ha definido.
 
    ![](assets/collection-create.png)
 

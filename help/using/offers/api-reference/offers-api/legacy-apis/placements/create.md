@@ -9,17 +9,17 @@ exl-id: 5c7301f6-95d3-4720-81fe-5f2602cd30ec
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
 # Crear una ubicación {#create-placement}
 
-Puede crear una ubicación realizando una solicitud de POST al [!DNL Offer Library] API, al tiempo que proporciona su ID de contenedor.
+Puede crear una ubicación realizando una solicitud de POST a la API [!DNL Offer Library], mientras proporciona su ID de contenedor.
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* y *Aceptar* campos en el encabezado de la solicitud:
+En la tabla siguiente se muestran los valores válidos que comprenden los campos *Content-Type* y *Accept* del encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -58,7 +58,7 @@ curl -X POST \
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles de la ubicación recién creada, incluidos su ID de instancia y ubicación únicos `@id`. Puede utilizar el ID de instancia en pasos posteriores para actualizar o eliminar la ubicación. Puede utilizar su ubicación única `@id` en tutoriales posteriores para crear decisiones, reglas de decisión y ofertas de reserva.
+Una respuesta correcta devuelve los detalles de la ubicación recién creada, incluidos su ID de instancia único y la ubicación `@id`. Puede utilizar el ID de instancia en pasos posteriores para actualizar o eliminar la ubicación. Puede utilizar su ubicación única `@id` en tutoriales posteriores para crear decisiones, reglas de decisión y ofertas de reserva.
 
 ```json
 {

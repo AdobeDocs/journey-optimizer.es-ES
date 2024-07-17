@@ -94,7 +94,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. Cree la acción personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-1. Haga clic dentro de **Respuesta** field.
+1. Haga clic dentro del campo **Respuesta**.
 
    ![](assets/action-response2.png){width="80%" align="left"}
 
@@ -127,11 +127,11 @@ Por ejemplo, puede agregar una condición para comprobar la cantidad de puntos d
 
 1. Añada el evento y la acción personalizada Fidelidad creada anteriormente.
 
-1. En la acción personalizada Fidelidad, asigne el parámetro de consulta ID de cliente con el ID de perfil. Marque la opción **Añadir una ruta alternativa en caso de tiempo de espera o error**.
+1. En la acción personalizada Fidelidad, asigne el parámetro de consulta ID de cliente con el ID de perfil. Marque la opción **Agregar una ruta alternativa en caso de tiempo de espera o error**.
 
    ![](assets/action-response10.png)
 
-1. En la primera rama, añada una condición y utilice el editor avanzado para aprovechar los campos de respuesta de acción, en **Contexto** nodo.
+1. En la primera rama, agregue una condición y utilice el editor avanzado para aprovechar los campos de respuesta de acción, en el nodo **Context**.
 
    ![](assets/action-response6.png)
 
@@ -143,8 +143,8 @@ Por ejemplo, puede agregar una condición para comprobar la cantidad de puntos d
    >
    >Cada perfil que introduzca la acción personalizada almacenará en déclencheur una llamada. Incluso si la respuesta siempre es la misma, el Recorrido seguirá realizando una llamada por perfil.
 
-1. En las ramas de tiempo de espera y error, añada una condición y aproveche la variable integrada **jo_status_code** field. En nuestro ejemplo, estamos utilizando el
-   **http_400** tipo de error. Consulte [esta sección](#error-status).
+1. En las ramas de tiempo de espera y error, agregue una condición y aproveche el campo **jo_status_code** integrado. En nuestro ejemplo, estamos utilizando el
+   Tipo de error **http_400**. Consulte [esta sección](#error-status).
 
    ```
    @action{ActionLoyalty.jo_status_code} == "http_400"
@@ -158,26 +158,26 @@ Por ejemplo, puede agregar una condición para comprobar la cantidad de puntos d
 
 ## Registros del modo de prueba {#test-mode-logs}
 
-Puede acceder, a través del modo de prueba, a los registros de estado relacionados con las respuestas de acciones personalizadas. Si ha definido acciones personalizadas con respuestas en el recorrido, verá un **actionsHistory** de los registros que muestran la carga útil devuelta por el extremo externo (como respuesta de esa acción personalizada). Esto puede resultar muy útil en términos de depuración.
+Puede acceder, a través del modo de prueba, a los registros de estado relacionados con las respuestas de acciones personalizadas. Si ha definido acciones personalizadas con respuestas en el recorrido, verá una sección **actionsHistory** en esos registros que muestra la carga útil devuelta por el extremo externo (como respuesta de esa acción personalizada). Esto puede resultar muy útil en términos de depuración.
 
 ![](assets/action-response12.png)
 
 ## Estado de error {#error-status}
 
-El **jo_status_code** El campo siempre está disponible aunque no se haya definido ninguna carga útil de respuesta.
+El campo **jo_status_code** siempre está disponible aunque no se haya definido una carga útil de respuesta.
 
 Estos son los valores posibles de este campo:
 
 * código de estado http: http_`<HTTP API call returned code>`, por ejemplo http_200 o http_400
-* error de tiempo de espera: **timeout**
-* error de límite: **tapado**
+* error de tiempo de espera: **tiempo de espera**
+* error de límite: **límite**
 * error interno: **internalError**
 
 Una llamada de acción se considera errónea cuando el código http devuelto es mayor que 2xx o si se produce un error. En estos casos, el recorrido fluye a la rama de tiempo de espera o error correspondiente.
 
 >[!WARNING]
 >
->Solo las acciones personalizadas recién creadas incluyen las siguientes **jo_status_code** Campo listo para usar. Si desea utilizarlo con una acción personalizada existente, debe actualizar la acción. Por ejemplo, puede actualizar la descripción y guardar.
+>Solo las acciones personalizadas recién creadas incluyen el campo **jo_status_code** de forma predeterminada. Si desea utilizarlo con una acción personalizada existente, debe actualizar la acción. Por ejemplo, puede actualizar la descripción y guardar.
 
 ## Sintaxis de expresión {#exp-syntax}
 
@@ -202,7 +202,7 @@ A continuación se muestran algunos ejemplos:
  @action{ActionLoyalty.points, defaultValue: @event{myEvent.newPoints}}
 ```
 
-Al manipular colecciones en una respuesta de acción personalizada, puede confiar en lo siguiente `currentActionField` para acceder al elemento actual:
+Al manipular colecciones en una respuesta de acción personalizada, puede confiar en `currentActionField` para acceder al elemento actual:
 
 ```json
 count(

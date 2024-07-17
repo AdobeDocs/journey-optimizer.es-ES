@@ -12,7 +12,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1855'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
@@ -25,20 +25,20 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
->title="Selección de la audiencia de campaña"
->abstract="Esta lista muestra todas las audiencias de Adobe Experience Platform disponibles. Seleccione la audiencia a la que se dirige la campaña. El mensaje configurado en la campaña se envía a todas las personas que pertenecen a la audiencia seleccionada. [Más información sobre las audiencias](../audience/about-audiences.md)"
+>title="Selección del público de la campaña"
+>abstract="Esta lista muestra todos los públicos de Adobe Experience Platform disponibles. Seleccione el público al que se dirige la campaña. El mensaje configurado en la campaña se envía a todas las personas que pertenecen al público seleccionado. [Más información sobre los públicos](../audience/about-audiences.md)"
 
-Una audiencia es un conjunto de personas que comparten comportamientos o características similares. Obtenga más información sobre las audiencias en [Documentación del Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"}.
+Una audiencia es un conjunto de personas que comparten comportamientos o características similares. Obtenga más información acerca de las audiencias en la [documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"}.
 
-[!DNL Journey Optimizer] le permite crear audiencias de Adobe Experience Platform directamente desde el **[!UICONTROL Audiencias]** y aprovecharlos en sus recorridos o campañas.
+[!DNL Journey Optimizer] le permite generar audiencias de Adobe Experience Platform directamente desde el menú **[!UICONTROL Audiencias]**, y aprovecharlas en sus recorridos o campañas.
 
 Las audiencias se pueden generar mediante diferentes métodos:
 
-* **Definiciones de segmentos**: cree una nueva definición de audiencia con el servicio de segmentación de Adobe Experience Platform. [Obtenga información sobre cómo crear definiciones de segmentos](creating-a-segment-definition.md)
-* **Carga personalizada**: importe una audiencia mediante un archivo CSV. Obtenga información sobre cómo importar audiencias en Adobe Experience Platform [Documentación del Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
-* **Composición de audiencia**: Cree un flujo de trabajo de composición para combinar las audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (dividir, excluir...) para crear nuevas audiencias. [Introducción a Composición de públicos](get-started-audience-orchestration.md)
+* **Definiciones de segmentos**: Cree una nueva definición de audiencia con el servicio de segmentación de Adobe Experience Platform. [Obtenga información sobre cómo generar definiciones de segmentos](creating-a-segment-definition.md)
+* **Carga personalizada**: importe una audiencia con un archivo CSV. Obtenga información sobre cómo importar audiencias en [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
+* **Composición de audiencias**: cree un flujo de trabajo de composición para combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar diversas actividades (dividir, excluir...) para crear nuevas audiencias. [Introducción a Composición de públicos](get-started-audience-orchestration.md)
 
-## Audiencias de Target en [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+## Audiencias de destino en [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
 Puede seleccionar en campañas y recorridos cualquier audiencia generada mediante definiciones de segmento, carga personalizada o flujos de trabajo de composición.
 
@@ -50,11 +50,11 @@ Puede aprovechar los públicos en **[!DNL Journey Optimizer]** de maneras difere
 
 * Elija un público para una **campaña**, donde el mensaje se envía a todos los particulares que pertenecen al público seleccionado. [Obtenga información sobre cómo definir el público de una campaña](../campaigns/create-campaign.md#define-the-audience-audience).
 
-* Utilice un **Leer audiencia** actividad de orquestación en un recorrido para hacer que todas las personas de la audiencia entren en el recorrido y reciban los mensajes incluidos en el recorrido. Supongamos que tiene un público de “clientes plata”. Con esta actividad, puede hacer que todos los “clientes plata” entren en un recorrido y se les envíe una serie de mensajes personalizados. [Obtenga información sobre cómo configurar la actividad Leer público](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
+* Use una actividad de orquestación **Leer audiencia** en un recorrido para hacer que todos los individuos de la audiencia entren al recorrido y reciban los mensajes incluidos en el recorrido. Supongamos que tiene un público de “clientes plata”. Con esta actividad, puede hacer que todos los “clientes plata” entren en un recorrido y se les envíe una serie de mensajes personalizados. [Obtenga información sobre cómo configurar la actividad Leer público](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
 
 * Utilice la actividad **Condición** en un recorrido para crear condiciones basadas en el abono del público. [Aprenda a utilizar los públicos en condiciones](../building-journeys/condition-activity.md#using-a-segment).
 
-* Utilice el **Calificación de audiencia** actividad de evento en un recorrido para hacer que los individuos entren o avancen en el recorrido en función de las entradas y salidas de audiencia de Adobe Experience Platform. Por ejemplo, puede hacer que todos los “clientes plata” nuevos entren en el recorrido para enviarles mensajes. Para obtener más información sobre cómo utilizar esta actividad, consulte [Obtener información sobre cómo configurar una actividad Calificación de público](../building-journeys/audience-qualification-events.md).
+* Utilice la actividad de evento **Calificación de audiencias** en un recorrido para hacer que los individuos entren o avancen en el recorrido según las entradas y salidas de audiencias de Adobe Experience Platform. Por ejemplo, puede hacer que todos los “clientes plata” nuevos entren en el recorrido para enviarles mensajes. Para obtener más información sobre cómo utilizar esta actividad, consulte [Obtener información sobre cómo configurar una actividad Calificación de público](../building-journeys/audience-qualification-events.md).
 
   >[!NOTE]
   >
@@ -64,7 +64,7 @@ Puede aprovechar los públicos en **[!DNL Journey Optimizer]** de maneras difere
 
 Al segmentar una audiencia generada mediante flujos de trabajo de composición, puede aprovechar los atributos de enriquecimiento de estas audiencias para crear el recorrido y personalizar los mensajes.
 
-Para utilizar atributos de enriquecimiento en un Recorrido, asegúrese de que se agregan a un grupo de campos dentro de la fuente de datos de Experience Platform.
+Para utilizar atributos de enriquecimiento en un Recorrido, asegúrese de que se agregan a un grupo de campos dentro de la Source de datos de Experience Platform.
 
 +++ Aprenda a añadir atributos de enriquecimiento a un grupo de campos
 
@@ -82,11 +82,11 @@ Encontrará información detallada sobre las fuentes de datos en estas secciones
 
 Una vez añadidos los atributos de enriquecimiento a un grupo de campos, puede aprovecharlos en diferentes ubicaciones en Journey Optimizer:
 
-* **Creación de varias rutas en un recorrido** se basa en reglas que aprovechan los atributos de enriquecimiento de la audiencia objetivo. Para ello, oriente la audiencia mediante una [Leer audiencia](../building-journeys/read-audience.md) actividad y luego crear reglas en una [Condición](../building-journeys/condition-activity.md) actividad basada en los atributos de enriquecimiento de la audiencia.
+* **Crear múltiples rutas de acceso en un recorrido** basado en reglas que aprovechan los atributos de enriquecimiento de la audiencia de destino. Para ello, oriente a la audiencia usando una actividad [Leer audiencia](../building-journeys/read-audience.md) y luego cree reglas en una actividad [Condición](../building-journeys/condition-activity.md) basada en los atributos de enriquecimiento de la audiencia.
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 
-* **Personalizar los mensajes** en recorridos o campañas, añadiendo atributos de enriquecimiento de la audiencia de destino en el editor de personalización. [Aprenda a trabajar con el editor de personalización](../personalization/personalization-build-expressions.md)
+* **Personalice sus mensajes** en recorridos o campañas agregando atributos de enriquecimiento de la audiencia de destino en el editor de personalización. [Aprenda a trabajar con el editor de personalización](../personalization/personalization-build-expressions.md)
 
   ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
 
@@ -120,7 +120,7 @@ La segmentación por lotes es una alternativa a la segmentación de streaming qu
 
 +++ Segmentación de Edge
 
-La segmentación de Edge es la capacidad de evaluar segmentos en Adobe Experience Platform de forma instantánea [en el borde](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}, habilitando casos de uso de personalización de la misma página y de la siguiente. Actualmente, solo los tipos de consulta seleccionados se pueden evaluar con la segmentación de Edge. [Más información](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
+La segmentación de Edge es la capacidad para evaluar segmentos en Adobe Experience Platform de forma instantánea [en el perímetro](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}, lo que permite casos de uso de personalización de la misma página y de la siguiente. Actualmente, solo los tipos de consulta seleccionados se pueden evaluar con la segmentación de Edge. [Más información](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
 
 +++
 
@@ -142,21 +142,21 @@ Rellenar el público a partir de datos anteriores puede tardar hasta 24 horas. 
 
 ### Uso de eventos con segmentación de streaming {#streaming-segmentation-events-guardrails}
 
-La segmentación por streaming es útil para la personalización en tiempo real con casos de uso de alto valor. Sin embargo, es importante elegir la opción correcta [eventos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"} para usar como criterios de segmentación.
+La segmentación por streaming es útil para la personalización en tiempo real con casos de uso de alto valor. Sin embargo, es importante elegir los [eventos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"} adecuados para usarlos como criterios de segmentación.
 
 Por lo tanto, para un rendimiento óptimo de la segmentación de streaming, evite utilizar los siguientes eventos:
 
-* **Mensaje abierto** Evento de tipo de interacción
+* **Mensaje abierto** evento de tipo de interacción
 
-  Al crear la audiencia, el uso de **Mensaje abierto** los eventos de interacción pasaron a ser poco fiables, ya que no son indicadores reales de la actividad del usuario y pueden afectar negativamente al rendimiento de la segmentación. Descubra por qué en esto [Publicación de blog de Adobe](https://blog.adobe.com/en/publish/2021/06/24/what-apples-mail-privacy-protection-means-for-email-marketers){target="_blank"}. Por lo tanto, el Adobe recomienda no utilizar **Mensaje abierto** eventos de interacción con segmentación de flujo continuo. En su lugar, utilice señales reales de actividad del usuario como clics, compras o datos de señalizaciones.
+  Al crear su audiencia, el uso de los eventos de interacción **Mensaje abierto** se volvió poco confiable, ya que no son indicadores reales de la actividad del usuario y pueden afectar negativamente el rendimiento de la segmentación. Aprenda por qué en esta [publicación de blog de Adobe](https://blog.adobe.com/en/publish/2021/06/24/what-apples-mail-privacy-protection-means-for-email-marketers){target="_blank"}. Por lo tanto, el Adobe recomienda no utilizar eventos de interacción **Mensaje abierto** con segmentación de flujo continuo. En su lugar, utilice señales reales de actividad del usuario como clics, compras o datos de señalizaciones.
 
-* **Mensaje enviado** Evento de estado de comentarios
+* **Mensaje enviado** evento de estado de comentarios
 
-  El **Mensaje enviado** el evento de comentarios se utiliza a menudo para comprobar la frecuencia o la supresión antes de enviar un correo electrónico. El Adobe recomienda evitarlo, ya que ejerce presión sobre el rendimiento y puede causar una degradación del sistema. Por lo tanto, para la frecuencia o la lógica de supresión, utilice reglas empresariales en lugar de **Mensaje enviado** eventos de comentarios. Tenga en cuenta que pronto estarán disponibles los límites de frecuencia diarios para perfiles individuales, lo que complementa la cadencia mensual existente para reglas comerciales.
+  El evento de comentarios **Mensaje enviado** se usa a menudo para comprobar la frecuencia o la supresión antes de enviar un correo electrónico. El Adobe recomienda evitarlo, ya que ejerce presión sobre el rendimiento y puede causar una degradación del sistema. Por lo tanto, para la lógica de frecuencia o supresión, use reglas empresariales en lugar de **Mensaje enviado** eventos de comentarios. Tenga en cuenta que pronto estarán disponibles los límites de frecuencia diarios para perfiles individuales, lo que complementa la cadencia mensual existente para reglas comerciales.
 
 >[!NOTE]
 >
->Puede utilizar **Mensaje abierto** y **Mensaje enviado** eventos en la segmentación por lotes sin problemas de rendimiento.
+>Puede usar los eventos **Mensaje abierto** y **Mensaje enviado** en la segmentación por lotes sin problemas de rendimiento.
 
 
 ## Preguntas frecuentes sobre composición de audiencias y carga personalizada {#faq}
@@ -165,11 +165,11 @@ En la siguiente sección se enumeran las preguntas más frecuentes sobre el uso 
 
 +++ ¿Dónde puedo usar las audiencias de composición de audiencias y carga personalizada en Journey Optimizer?
 
-Las audiencias de composición de audiencias y carga personalizada se pueden segmentar desde campañas y recorridos. [Obtenga información sobre cómo segmentar audiencias en [!DNL Journey Optimizer]](#segments-in-journey-optimizer)
+Las audiencias de composición de audiencias y carga personalizada se pueden segmentar desde campañas y recorridos. [Aprenda a segmentar audiencias en [!DNL Journey Optimizer]](#segments-in-journey-optimizer)
 
-* Entrada **Campañas** Sin embargo, estas audiencias aparecen en el selector de audiencias después de hacer clic en el botón &quot;Seleccionar audiencia&quot;.
+* En **Campañas**, estas audiencias aparecen en el selector de audiencias después de hacer clic en el botón &quot;Seleccionar audiencia&quot;.
 
-* Entrada **Recorridos** Además, puede utilizar estas audiencias en una actividad &quot;Leer audiencia&quot; durante la selección de audiencias y en una actividad &quot;Condición&quot; para las comprobaciones de pertenencia a audiencias. Sin embargo, debido a su naturaleza por lotes, estas audiencias no aparecen en la actividad &quot;Calificación de audiencias&quot;.
+* En **Recorridos**, puede usar estas audiencias en una actividad &quot;Leer audiencia&quot; durante la selección de audiencias y en una actividad &quot;Condición&quot; para las comprobaciones de pertenencia a audiencias. Sin embargo, debido a su naturaleza por lotes, estas audiencias no aparecen en la actividad &quot;Calificación de audiencias&quot;.
 
   >[!NOTE]
   >
@@ -183,7 +183,7 @@ Además, estas audiencias están disponibles para su uso en el editor de persona
 
 Los atributos de enriquecimiento son atributos adicionales que son contextuales y específicos de una audiencia. No están asociadas al perfil y se utilizan normalmente con fines de personalización.
 
-Los atributos de enriquecimiento están vinculados a una audiencia a través de una [Enriquecer](composition-canvas.md#enrich) actividad en la composición de audiencias o a través del proceso de carga personalizado.
+Los atributos de enriquecimiento están vinculados a una audiencia a través de una actividad [Enrich](composition-canvas.md#enrich) en la composición de la audiencia o a través del proceso de carga personalizado.
 
 +++
 
@@ -203,14 +203,14 @@ Los atributos de enriquecimiento de la composición de audiencias se pueden apro
 
 +++ ¿Cómo se habilitan los atributos de enriquecimiento en Recorrido?
 
-Para utilizar atributos de enriquecimiento en un Recorrido, asegúrese de que se agregan a un grupo de campos dentro de la fuente de datos de Experience Platform. La información sobre cómo añadir atributos de enriquecimiento a un grupo de campos está disponible en [esta sección](#enrichment)
+Para utilizar atributos de enriquecimiento en un Recorrido, asegúrese de que se agregan a un grupo de campos dentro de la Source de datos de Experience Platform. La información sobre cómo agregar atributos de enriquecimiento a un grupo de campos está disponible en [esta sección](#enrichment)
 
 +++
 
 +++ ¿Qué tan pronto después de publicar una audiencia desde Composición de audiencia o Carga personalizada puedo utilizarla en Journey Optimizer?
 
-* Audiencias de **composición de audiencia** se ejecutan a diario, por lo que puede que tenga que esperar hasta 24 horas para utilizarlos en Journey Optimizer.
-* Audiencias de **carga personalizada** estarán disponibles en Journey Optimizer aproximadamente 2 horas después de la publicación.
+* Las audiencias de **composición de audiencias** se ejecutan a diario, por lo que es posible que tenga que esperar hasta 24 horas para usarlas en Journey Optimizer.
+* Las audiencias de **carga personalizada** estarán disponibles en Journey Optimizer aproximadamente 2 horas después de la publicación.
 
 +++
 
@@ -224,7 +224,7 @@ Actualmente no. Incluso después de los nodos de espera o de evento, los valores
 
 Durante el proceso de carga personalizado, especifique el atributo CSV que se utilizará como identidad y la identidad del perfil a la que se asigna. Esto establece un vínculo entre los datos de audiencia y el perfil. Si el archivo CSV contiene un valor de identidad que no se encuentra en el perfil, se crea un nuevo perfil con ese valor de identidad.
 
-Encontrará información detallada sobre el proceso de carga personalizado en Adobe Experience Platform [Documentación del Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
+Encontrará información detallada sobre el proceso de carga personalizado en [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 
 +++
 
@@ -232,8 +232,8 @@ Encontrará información detallada sobre el proceso de carga personalizado en Ad
 
 El servicio de exportación de audiencias (AES) rellena los datos de las audiencias a partir de la composición de audiencias y la carga personalizada. AES lee los atributos de perfil y la pertenencia a audiencias, que pone a disposición de estas audiencias con las siguientes cronologías:
 
-* **Composición de audiencia**: Exportación diaria (~24 horas)
-* **Carga personalizada**: Trabajo de exportación dedicado (~2 horas)
+* **Composición de audiencia**: exportación diaria (~24 horas)
+* **Carga personalizada**: trabajo de exportación dedicado (~2 horas)
 
 Cualquier recorrido que utilice una audiencia de la composición de audiencias o una carga personalizada en la actividad &quot;Leer audiencia&quot; tendrá atributos de perfil tan recientes como la última evaluación por lotes. Esto incluye consentimientos/supresiones en el recorrido.
 

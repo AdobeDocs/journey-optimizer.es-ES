@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Eliminar una regla de decisión {#delete-decision-rule}
 
-En ocasiones puede ser necesario eliminar (DELETE) una regla de decisión. Solo se pueden eliminar las reglas de decisión que cree en el contenedor de inquilino. Esto se hace realizando una solicitud de DELETE a [!DNL Offer Library] API que utiliza el ID de instancia de la regla de decisión que desea eliminar.
+En ocasiones puede ser necesario eliminar (DELETE) una regla de decisión. Solo se pueden eliminar las reglas de decisión que cree en el contenedor de inquilino. Para ello, realice una solicitud de DELETE a la API [!DNL Offer Library] utilizando el identificador de instancia de la regla de decisión que desee eliminar.
 
 **Formato de API**
 

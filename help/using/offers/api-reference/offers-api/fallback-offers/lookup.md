@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Buscar ofertas de reserva {#look-up-fallback-offers}
 
-Puede buscar ofertas de reserva específicas realizando una solicitud de GET a [!DNL Offer Library] API que incluye el ID de oferta de reserva en la ruta de solicitud.
+Puede buscar ofertas de reserva específicas realizando una solicitud de GET a la API [!DNL Offer Library] que incluya el ID de la oferta de reserva en la ruta de solicitud.
 
 **Formato de API**
 

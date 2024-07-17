@@ -23,7 +23,7 @@ ht-degree: 20%
 >title="Eventos de reacción"
 >abstract="Esta actividad permite reaccionar ante los datos de seguimiento relacionados con un mensaje enviado dentro del mismo recorrido. Capturamos esta información en tiempo real en el momento en que se comparte con Adobe Experience Platform."
 
-Entre las diferentes actividades de evento disponibles en la paleta, se encuentra la incorporada **[!UICONTROL Reacciones]** evento. Esta actividad permite reaccionar ante los datos de seguimiento relacionados con un mensaje enviado dentro del mismo recorrido. Capturamos esta información en tiempo real en el momento en que se comparte con Adobe Experience Platform.
+Entre las diferentes actividades de eventos disponibles en la paleta, se encuentra el evento **[!UICONTROL Reactions]** integrado. Esta actividad permite reaccionar ante los datos de seguimiento relacionados con un mensaje enviado dentro del mismo recorrido. Capturamos esta información en tiempo real en el momento en que se comparte con Adobe Experience Platform.
 
 Puede reaccionar a los mensajes en los que se hace clic o que se abren.
 
@@ -37,10 +37,10 @@ Consulte [Acerca de las actividades de acción](../building-journeys/about-journ
 
 Estos son los pasos para configurar los eventos de reacción:
 
-1. Añadir un **[!UICONTROL Etiqueta]** a la reacción. Este paso es opcional.
+1. Agregue una **[!UICONTROL Etiqueta]** a la reacción. Este paso es opcional.
 1. En la lista desplegable, seleccione la actividad de acción a la que desee reaccionar. Puede seleccionar cualquier actividad de acción colocada en los pasos anteriores de la ruta.
 1. En función de la acción seleccionada, elija a qué desea reaccionar.
-1. Puede definir un tiempo de espera de evento (entre 40 segundos y 29 días) y una ruta de tiempo de espera. Esto crea una segunda ruta para las personas que no reaccionaron dentro de la duración definida. Al probar un recorrido que utiliza un evento de reacción, el modo de prueba **[!UICONTROL Tiempo de espera]** el valor predeterminado y mínimo es de 40 segundos. Consulte [esta sección](../building-journeys/testing-the-journey.md).
+1. Puede definir un tiempo de espera de evento (entre 40 segundos y 29 días) y una ruta de tiempo de espera. Esto crea una segunda ruta para las personas que no reaccionaron dentro de la duración definida. Al probar un recorrido que usa un evento de reacción, el modo de prueba **[!UICONTROL Tiempo de espera]** es el valor predeterminado y mínimo de 40 segundos. Consulte [esta sección](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >

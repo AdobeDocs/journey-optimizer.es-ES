@@ -18,17 +18,17 @@ ht-degree: 7%
 
 ## Plantillas de contenido de acceso {#access}
 
-Para acceder a la lista de plantillas de contenido, seleccione **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Plantillas de contenido]** en el menú de la izquierda.
+Para acceder a la lista de plantillas de contenido, seleccione **[!UICONTROL Administración de contenido]** > **[!UICONTROL Plantillas de contenido]** en el menú de la izquierda.
 
 ![](assets/content-template-list.png)
 
-Todas las plantillas que se crearon en la zona protegida actual, ya sea desde un recorrido o desde una campaña utilizando **[!UICONTROL Guardar como plantilla]** , ya sea desde la opción **[!UICONTROL Plantillas de contenido]** menú: se muestran. [Aprenda a crear plantillas](#create-content-templates)
+Se muestran todas las plantillas que se crearon en la zona protegida actual, ya sea desde un recorrido o desde una campaña con la opción **[!UICONTROL Guardar como plantilla]**, ya sea desde el menú **[!UICONTROL Plantillas de contenido]**. [Aprenda a crear plantillas](#create-content-templates)
 
 Puede ordenar las plantillas de contenido por:
 * Tipo
 * Canal
 * Fecha de creación o modificación
-* Etiquetas - [Más información sobre las etiquetas](../start/search-filter-categorize.md#tags)
+* Etiquetas: [Más información sobre las etiquetas](../start/search-filter-categorize.md#tags)
 
 También puede elegir mostrar únicamente los elementos que ha creado o modificado.
 
@@ -40,7 +40,7 @@ También puede elegir mostrar únicamente los elementos que ha creado o modifica
 
   ![](assets/content-template-edit.png)
 
-* Para eliminar una plantilla, seleccione la **[!UICONTROL Más acciones]** junto a la plantilla deseada y seleccione **[!UICONTROL Eliminar]**.
+* Para eliminar una plantilla, selecciona el botón **[!UICONTROL Más acciones]** junto a la plantilla deseada y selecciona **[!UICONTROL Eliminar]**.
 
   ![](assets/content-template-list-delete.png)
 
@@ -50,7 +50,7 @@ También puede elegir mostrar únicamente los elementos que ha creado o modifica
 
 ## Mostrar plantillas como miniaturas {#template-thumbnails}
 
-Seleccione el **[!UICONTROL Vista de cuadrícula]** para mostrar cada plantilla como una miniatura.
+Seleccione el modo **[!UICONTROL Grid view]** para mostrar cada plantilla como una miniatura.
 
 >[!AVAILABILITY]
 >

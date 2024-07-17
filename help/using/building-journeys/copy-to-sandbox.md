@@ -42,15 +42,15 @@ ht-degree: 9%
 
 La herramienta de zona protegida permite copiar objetos en varias zonas protegidas aprovechando la exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.
 
-En esta página se describe el caso de uso de las herramientas de entorno limitado en el contexto de Journey Optimizer. Para obtener más información sobre la propia función, consulte la [Documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
+En esta página se describe el caso de uso de las herramientas de entorno limitado en el contexto de Journey Optimizer. Para obtener más información sobre la característica en sí, consulte la [documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
 >[!NOTE]
 >
->Esta función requiere los siguientes permisos del **Administración de zona protegida** Capacidad: Administrar zonas protegidas (o Ver zonas protegidas) y Administrar paquetes. [Más información](../administration/ootb-permissions.md)
+>Esta característica requiere los siguientes permisos de la funcionalidad **Administración de espacio aislado**: Administrar espacios aislados (o Ver espacios aislados) y Administrar paquetes. [Más información](../administration/ootb-permissions.md)
 
 ## Introducción a las herramientas para espacios aislados{#sandbox-gs}
 
-Journey Optimizer permite copiar un recorrido completo de una zona protegida a otra. Por ejemplo, puede copiar un recorrido del entorno de zona protegida de ensayo en la zona protegida de producción. Además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: audiencias, esquemas, eventos y acciones. Para obtener más información sobre los objetos copiados, consulte [sección](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
+Journey Optimizer permite copiar un recorrido completo de una zona protegida a otra. Por ejemplo, puede copiar un recorrido del entorno de zona protegida de ensayo en la zona protegida de producción. Además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: audiencias, esquemas, eventos y acciones. Para obtener más información sobre los objetos copiados, consulte esta [sección](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
 
 >[!CAUTION]
 >
@@ -63,28 +63,28 @@ El proceso de copia se lleva a cabo mediante una exportación de paquetes y una 
 1. Añada el recorrido como paquete en la zona protegida de origen.
 1. Exporte el paquete a la zona protegida de destino.
 
-Además, puede aprovechar Journey Optimizer **API de REST del servicio de copia de objetos** para administrar los objetos de las zonas protegidas. [Aprenda a trabajar con la API de REST del servicio de copia de objetos](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
+Además, puede aprovechar la API de REST del servicio de copia de objetos **Object Copy de Journey Optimizer** para administrar los objetos de las zonas protegidas. [Aprenda a trabajar con la API de REST del servicio de copia de objetos](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
 
 ## Añadir el recorrido como paquete{#export}
 
 Para copiar un recorrido en otra zona protegida, primero debe agregar el recorrido como paquete en la zona protegida de origen. Siga estos pasos:
 
-1. En la sección del menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTROL Recorridos]**. Se muestra la lista de recorridos.
+1. En la sección de menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTROL Recorridos]**. Se muestra la lista de recorridos.
 
-1. Busque el recorrido que desea copiar y haga clic en el icono **Más acciones** (los tres puntos junto al nombre del recorrido) y haga clic en **Añadir a paquete**.
+1. Busque el recorrido que quiera copiar, haga clic en **Más acciones** (los tres puntos junto al nombre del recorrido) y luego en **Agregar al paquete**.
 
    ![](assets/journey-sandbox1.png)
 
-   El **Añadir a paquete** se muestra la ventana.
+   Se muestra la ventana **Agregar al paquete**.
 
    ![](assets/journey-sandbox2.png)
 
 1. Seleccione si desea añadir el recorrido a un paquete existente o crear un nuevo paquete:
 
    * **Paquete existente**: seleccione el paquete en el menú desplegable.
-   * **Creación de un nuevo paquete**: escriba el nombre del paquete. También puede añadir una descripción.
+   * **Crear nuevo paquete**: escriba el nombre del paquete. También puede añadir una descripción.
 
-1. En la sección del menú ADMINISTRACIÓN, haga clic en **[!UICONTROL Zonas protegidas]**, seleccione la **Paquetes** y haga clic en el paquete que desea exportar.
+1. En la sección del menú ADMINISTRACIÓN, haga clic en **[!UICONTROL Zonas protegidas]**, seleccione la pestaña **Paquetes** y haga clic en el paquete que desee exportar.
 
    ![](assets/journey-sandbox3.png)
 
@@ -92,7 +92,7 @@ Para copiar un recorrido en otra zona protegida, primero debe agregar el recorri
 
    ![](assets/journey-sandbox4.png)
 
-   Si la publicación falla, puede comprobar los registros para identificar el motivo del error. Abra el paquete y haga clic en **Ver trabajos con errores**, seleccione el trabajo de importación y haga clic en **Ver detalles de importación**.
+   Si la publicación falla, puede comprobar los registros para identificar el motivo del error. Abra el paquete, haga clic en **Ver trabajos con errores**, seleccione el trabajo de importación y haga clic en **Ver detalles de importación**.
 
    ![](assets/journey-sandbox9.png)
 
@@ -100,11 +100,11 @@ Para copiar un recorrido en otra zona protegida, primero debe agregar el recorri
 
 Una vez publicado el paquete, debe exportarlo a la zona protegida de destino.
 
-1. En la zona protegida de origen, haga clic en **[!UICONTROL Zonas protegidas]** , seleccione la opción **Paquetes** y haga clic en el icono + situado junto al paquete que desea exportar.
+1. En la zona protegida de origen, haga clic en el menú **[!UICONTROL Zonas protegidas]**, seleccione la pestaña **Paquetes** y haga clic en el icono + situado junto al paquete que desee exportar.
 
    ![](assets/journey-sandbox5.png)
 
-1. Seleccione el **Zona protegida de Target** en el campo desplegable y haga clic en **Siguiente**. Solo están disponibles las zonas protegidas de su organización.
+1. Seleccione la zona protegida de **Target** en el campo desplegable y haga clic en **Siguiente**. Solo están disponibles las zonas protegidas de su organización.
 
    ![](assets/journey-sandbox6.png)
 
@@ -112,12 +112,12 @@ Una vez publicado el paquete, debe exportarlo a la zona protegida de destino.
 
    ![](assets/journey-sandbox7.png)
 
-1. Haga clic en **Finalizar** , en la esquina superior derecha, para comenzar a copiar el paquete en la zona protegida de destino. El proceso de copia varía en función de la complejidad del recorrido y de la cantidad de objetos que deban copiarse.
+1. Haga clic en el botón **Finalizar**, en la esquina superior derecha, para comenzar a copiar el paquete en la zona protegida de destino. El proceso de copia varía en función de la complejidad del recorrido y de la cantidad de objetos que deban copiarse.
 
 1. Haga clic en el trabajo de importación para revisar el resultado de la copia:
 
-   * Clic **Ver objetos importados** para mostrar cada objeto individual copiado.
-   * Clic **Ver detalles de importación** para comprobar los resultados de importación de cada objeto.
+   * Haga clic en **Ver objetos importados** para mostrar cada objeto individual copiado.
+   * Haga clic en **Ver detalles de importación** para comprobar los resultados de importación de cada objeto.
 
    ![](assets/journey-sandbox8.png)
 

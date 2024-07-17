@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # atributos de propiedades de recorrido {#journey-properties}
 
-En el [editor de expresiones simple](../condition-activity.md#about_condition), y en el [editor de expresiones avanzadas](../expression/expressionadvanced.md), debajo de **Evento** y **Fuente de datos** categorías, puede acceder a las **Propiedades de recorrido** categoría. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información recuperada por el sistema de las recorridos activas, como el ID de recorrido, o los errores específicos encontrados.
+En el [editor de expresiones simple](../condition-activity.md#about_condition) y en el [editor de expresiones avanzadas](../expression/expressionadvanced.md), debajo de las categorías **Evento** y **Fuente de datos**, puede tener acceso a la categoría **Propiedades del Recorrido**. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información recuperada por el sistema de las recorridos activas, como el ID de recorrido, o los errores específicos encontrados.
 
 ![](../assets/journey-properties.png)
 
@@ -34,11 +34,11 @@ Puede utilizar estos campos para crear expresiones. Durante la ejecución del re
 
 A continuación se muestran algunos ejemplos de casos de uso:
 
-* **Registrar perfiles descartados**: puede enviar todos los perfiles excluidos de un mensaje mediante una regla de límite a un sistema de terceros para el registro. Para ello, se configura una ruta en caso de tiempo de espera y error y se añade una condición para filtrar por un tipo de error específico, por ejemplo: &quot;descartar personas por regla de límite&quot;. A continuación, puede insertar los perfiles descartados en un sistema de terceros mediante una acción personalizada.
+* **Registrar perfiles descartados**: puede enviar todos los perfiles excluidos de un mensaje mediante una regla de límite a un sistema de terceros para realizar el registro. Para ello, se configura una ruta en caso de tiempo de espera y error y se añade una condición para filtrar por un tipo de error específico, por ejemplo: &quot;descartar personas por regla de límite&quot;. A continuación, puede insertar los perfiles descartados en un sistema de terceros mediante una acción personalizada.
 
-* **Enviar alertas en caso de errores**: puede enviar una notificación a un sistema de terceros cada vez que se produce un error en un mensaje. Para ello, se configura una ruta en caso de error, se añade una condición y una acción personalizada. Puede enviar una notificación en un canal de Slack, por ejemplo, con la descripción del error encontrado.
+* **Enviar alertas en caso de errores**: puede enviar una notificación a un sistema de terceros cada vez que se produzca un error en un mensaje. Para ello, se configura una ruta en caso de error, se añade una condición y una acción personalizada. Puede enviar una notificación en un canal de Slack, por ejemplo, con la descripción del error encontrado.
 
-* **Refinamiento de errores en informes** : en lugar de tener solo una ruta para los mensajes de error, puede definir una condición por tipo de error. Esto le permitirá refinar los informes y ver todos los datos de tipos de errores.
+* **Refinar errores en los informes** : en lugar de tener una sola ruta para los mensajes erróneos, puede definir una condición por tipo de error. Esto le permitirá refinar los informes y ver todos los datos de tipos de errores.
 
 ## Lista de campos {#journey-properties-fields}
 

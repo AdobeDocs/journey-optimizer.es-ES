@@ -23,13 +23,13 @@ Adobe Journey Optimizer permite a los profesionales enviar llamadas de API a sis
 
 Esto se puede hacer con:
 
-* **Fuentes de datos**: para recopilar información de sistemas externos y utilizarla en el contexto del recorrido, por ejemplo, para obtener información meteorológica sobre la ciudad del perfil y tener un flujo de recorrido dedicado basado en eso.
+* **Fuentes de datos**: para recopilar información de sistemas externos y usarla en el contexto del recorrido, por ejemplo, para obtener información meteorológica sobre la ciudad del perfil y tener un flujo de recorrido específico basado en eso.
 
-* **Acciones personalizadas**: para enviar información a sistemas externos como, por ejemplo, para enviar correos electrónicos a través de una solución externa mediante las funciones de orquestación de Journey Optimizer, junto con información de perfil, datos de audiencia y contexto de recorrido.
+* **Acciones personalizadas**: para enviar información a sistemas externos, por ejemplo para enviar correos electrónicos a través de una solución externa utilizando las capacidades de orquestación de Journey Optimizer junto con información de perfil, datos de audiencia y contexto de recorrido.
 
 >[!NOTE]
 >
->Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas. Para obtener más información sobre las respuestas, consulte [sección](../action/action-response.md)
+>Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas. Para obtener más información sobre las respuestas, consulte esta [sección](../action/action-response.md)
 
 Si está trabajando con fuentes de datos externas o acciones personalizadas, es posible que desee proteger los sistemas externos limitando el rendimiento de recorrido: hasta 5000 instancias/segundo para recorridos unitarios y hasta 20000 instancias/segundo para los activados por audiencia.
 
@@ -37,7 +37,7 @@ Para las acciones personalizadas, las funcionalidades de restricción están dis
 
 Para las fuentes de datos externas, puede definir límites de límite en el nivel de extremo para evitar saturar esos sistemas externos a través de las API de límite de Journey Optimizer. Sin embargo, se eliminarán todas las solicitudes restantes después de alcanzar el límite. En esta sección, encontrará soluciones que puede utilizar para optimizar el rendimiento.
 
-Para obtener más información sobre cómo integrar con sistemas externos, consulte esta sección [página](../configuration/external-systems.md).
+Para obtener más información sobre cómo integrar con sistemas externos, consulte esta [página](../configuration/external-systems.md).
 
 ## Implementación
 
@@ -54,7 +54,7 @@ Puede modificar este valor de 500 a 20 000 instancias por segundo. Si necesita i
 
 ![](assets/limit-throughput-2.png)
 
-Veamos un ejemplo de un... **recorridos activados por la audiencia** trabajar con una población de **10 000 perfiles** y envío de datos a un sistema externo que admita **100 solicitudes/segundo**.
+Veamos un ejemplo de **recorridos activados por la audiencia** que trabajan con una población de **10 000 perfiles** y envían datos a un sistema externo que admite **100 solicitudes/segundo**.
 
 1. Puede definir la audiencia de lectura para que lea perfiles con un rendimiento de 500 perfiles/segundo, lo que significa que tardará 20 segundos en leer todos los perfiles. En el segundo 1, leerás 500, en el segundo 2 500 más, etc.
 

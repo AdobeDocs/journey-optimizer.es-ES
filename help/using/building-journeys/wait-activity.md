@@ -23,9 +23,9 @@ ht-degree: 15%
 >title="Actividad de espera"
 >abstract="Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar una actividad de espera. Permite definir el momento en el que se ejecutará la siguiente actividad. Hay dos opciones disponibles: duración y personalizado."
 
-Puede usar un **[!UICONTROL Esperar]** actividad para definir una duración antes de ejecutar la siguiente actividad.  La duración máxima de espera es **90 días**.
+Puede usar una actividad **[!UICONTROL Wait]** para definir una duración antes de ejecutar la siguiente actividad.  La duración máxima de espera es de **90 días**.
 
-Puede establecer dos tipos de **Esperar** actividad:
+Puede establecer dos tipos de actividad **Wait**:
 
 * Una espera basada en una duración relativa. [Más información](#duration)
 * Una fecha personalizada, con funciones para calcularla. [Más información](#custom)
@@ -39,25 +39,25 @@ Puede establecer dos tipos de **Esperar** actividad:
 
 ### Varias actividades de espera {#multiple-wait-activities}
 
-Cuando se usan varios **Esperar** actividades en un recorrido, tenga en cuenta que la variable [tiempo de espera global](journey-properties.md#global_timeout) para recorridos es 91 días, lo que significa que los perfiles siempre abandonan el recorrido máximo 91 días después de introducirlo. Obtenga más información en [esta página](journey-properties.md#global_timeout).
+Cuando use varias actividades **Wait** en un recorrido, tenga en cuenta que el tiempo de espera [global](journey-properties.md#global_timeout) para recorridos es de 91 días, lo que significa que los perfiles siempre abandonan el máximo de recorrido 91 días después de que ingresaron al mismo. Obtenga más información en [esta página](journey-properties.md#global_timeout).
 
-Un individuo puede introducir una **Esperar** actividad solo si le queda tiempo suficiente en el recorrido recorrido para completar la espera antes del tiempo de espera de 91 días.
+Un individuo puede ingresar a una actividad **Wait** solo si le queda tiempo suficiente en el recorrido recorrido para completar la espera antes del tiempo de espera de 91 días.
 
 ### Espera y vuelve a entrar {#wait-re-entrance}
 
-Una práctica recomendada que no debe utilizar **Esperar** actividades para bloquear la reentrada. En su lugar, utilice el **Permitir la reentrada** en el nivel de propiedades del recorrido. Obtenga más información en [esta página](../building-journeys/journey-properties.md#entrance).
+Una práctica recomendada es no usar las actividades **Wait** para bloquear la reentrada. En su lugar, use la opción **Permitir la reentrada** en el nivel de propiedades de recorrido. Obtenga más información en [esta página](../building-journeys/journey-properties.md#entrance).
 
 ### Modo de espera y prueba {#wait-test-modd}
 
-En el modo de prueba, la variable **[!UICONTROL Tiempo de espera en la prueba]** permite definir la hora a la que cada **Esperar** la actividad durará. El tiempo predeterminado es 10 segundos. Esto garantizará que obtenga los resultados de la prueba rápidamente. Obtenga más información en [esta página](../building-journeys/testing-the-journey.md).
+En el modo de prueba, el parámetro **[!UICONTROL Tiempo de espera en prueba]** le permite definir el tiempo que durará cada actividad de **Wait**. El tiempo predeterminado es 10 segundos. Esto garantizará que obtenga los resultados de la prueba rápidamente. Obtenga más información en [esta página](../building-journeys/testing-the-journey.md).
 
 ## Configuración {#wait-configuration}
 
 ### Duración de espera {#duration}
 
-Seleccione el **Duración** escriba para establecer la duración relativa de la espera antes de la ejecución de la siguiente actividad. La duración máxima es **90 días**.
+Seleccione el tipo **Duration** para establecer la duración relativa de la espera antes de la ejecución de la siguiente actividad. La duración máxima es de **90 días**.
 
-![Definición de la duración de espera](assets/journey55.png)
+![Definir la duración de la espera](assets/journey55.png)
 
 <!--
 ## Fixed date wait{#fixed_date}
@@ -70,20 +70,20 @@ Select the date for the execution of the next activity.
 
 ### Espera personalizada {#custom}
 
-Seleccione el **Personalizado** escriba para definir una fecha personalizada, utilizando una expresión avanzada basada en un campo proveniente de un evento o una respuesta de acción personalizada. No puede definir una duración relativa directamente, por ejemplo, 7 días, pero puede utilizar funciones para calcularla si es necesario (p. ej.: 2 días después de la compra).
+Seleccione el tipo **Custom** para definir una fecha personalizada, usando una expresión avanzada basada en un campo proveniente de un evento o una respuesta de acción personalizada. No puede definir una duración relativa directamente, por ejemplo, 7 días, pero puede utilizar funciones para calcularla si es necesario (p. ej.: 2 días después de la compra).
 
 ![Definir una espera personalizada con una expresión](assets/journey57.png)
 
-La expresión del editor debe proporcionar un `dateTimeOnly` formato. Consulte [esta página](expression/expressionadvanced.md). Para obtener más información sobre el formato dateTimeOnly, consulte [esta página](expression/data-types.md).
+La expresión en el editor debe proporcionar un formato `dateTimeOnly`. Consulte [esta página](expression/expressionadvanced.md). Para obtener más información sobre el formato dateTimeOnly, consulte [esta página](expression/data-types.md).
 
-Una práctica recomendada es utilizar fechas personalizadas específicas para los perfiles y evitar utilizar la misma fecha para todos. Por ejemplo, no defina `toDateTimeOnly('2024-01-01T01:11:00Z')` sino más bien `toDateTimeOnly(@event{Event.productDeliveryDate})` que es específico de cada perfil. Tenga en cuenta que el uso de fechas fijas puede causar problemas en la ejecución del recorrido.
+Una práctica recomendada es utilizar fechas personalizadas específicas para los perfiles y evitar utilizar la misma fecha para todos. Por ejemplo, no defina `toDateTimeOnly('2024-01-01T01:11:00Z')`, sino `toDateTimeOnly(@event{Event.productDeliveryDate})`, que es específico de cada perfil. Tenga en cuenta que el uso de fechas fijas puede causar problemas en la ejecución del recorrido.
 
 
 >[!NOTE]
 >
->Puede aprovechar una `dateTimeOnly` expresión o utilice una función para convertirla en una `dateTimeOnly`. Por ejemplo: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`, el campo en el evento tiene el formato 2023-08-12T09:46:06Z.
+>Puede aprovechar una expresión `dateTimeOnly` o usar una función para convertir a `dateTimeOnly`. Por ejemplo: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`, el campo del evento tiene el formato 2023-08-12T09:46:06Z.
 >
->El **zona horaria** se espera en las propiedades del recorrido. Como resultado, desde la interfaz de usuario, no es posible apuntar directamente a una marca de tiempo ISO-8601 completa que mezcle la hora y el desplazamiento de zona horaria como 2023-08-12T09:46:06.982-05. [Más información](../building-journeys/timezone-management.md).
+>Se espera la **zona horaria** en las propiedades del recorrido. Como resultado, desde la interfaz de usuario, no es posible señalar directamente una marca de tiempo ISO-8601 completa que mezcle la hora y el desplazamiento de zona horaria como 2023-08-12T09:46:06.982-05. [Más información](../building-journeys/timezone-management.md).
 
 
 Para validar que la actividad de espera funciona según lo esperado, puede utilizar eventos de paso. [Más información](../reports/query-examples.md#common-queries).

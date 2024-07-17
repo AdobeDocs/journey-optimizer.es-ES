@@ -11,7 +11,7 @@ exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ Técnicamente, una constante siempre contiene un tipo de datos. En la expresión
 
 Las secciones siguientes proporcionan información sobre las diferentes expresiones de tipo de datos y cómo se representan.
 
-## string {#string}
+## cadena {#string}
 
 **Descripción**
 

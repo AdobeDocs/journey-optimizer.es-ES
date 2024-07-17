@@ -17,18 +17,18 @@ ht-degree: 1%
 
 # Introducción al Informe en vivo {#live-report}
 
-Utilice el **[!UICONTROL Informe en vivo]** para medir y visualizar en tiempo real el impacto y el rendimiento de sus recorridos y sus mensajes en un panel integrado.
-Los datos están disponibles en la **[!UICONTROL Informe en vivo]** tan pronto como se envíe o se ejecute el recorrido desde el **[!UICONTROL Últimas 24 horas]** pestaña.
+Use **[!UICONTROL Informe en vivo]** para medir y visualizar en tiempo real el impacto y el rendimiento de sus recorridos y sus mensajes en un panel integrado.
+Los datos están disponibles en el **[!UICONTROL informe en vivo]** tan pronto como se envíe o se ejecute el recorrido desde la ficha **[!UICONTROL Últimas 24 horas]**.
 
-* Si desea dirigirse a un recorrido en el contexto de un recorrido, desde el **[!UICONTROL Recorridos]** , acceda al recorrido y haga clic en el **[!UICONTROL Ver informe]** botón.
+* Si desea direccionar un recorrido en el contexto de un recorrido, en el menú **[!UICONTROL Recorridos]**, acceda al recorrido y haga clic en el botón **[!UICONTROL Ver informe]**.
 
   ![](assets/report_journey.png)
 
-* Si desea dirigirse a una campaña, en el **[!UICONTROL Campañas]** , acceda a la campaña y haga clic en **[!UICONTROL Informes]** botón.
+* Si desea segmentar una campaña, en el menú **[!UICONTROL Campañas]**, acceda a su campaña y haga clic en el botón **[!UICONTROL Informes]**.
 
   ![](assets/report_campaign.png)
 
-* Si desea cambiar de la **[!UICONTROL Informe global]** a la **[!UICONTROL Informe en vivo]** para la entrega, haga clic en **[!UICONTROL Últimas 24 horas]** en el conmutador de pestañas.
+* Si desea cambiar del **[!UICONTROL informe global]** al **[!UICONTROL informe en vivo]** para su envío, haga clic en **[!UICONTROL Últimas 24 horas]** desde el conmutador de pestañas.
 
   ![](assets/report_3.png)
 
@@ -38,11 +38,11 @@ Para obtener una lista detallada de todas las métricas disponibles en Adobe Jou
 
 Se puede modificar cada tablero de informes cambiando el tamaño o eliminando widgets. Cambiar los widgets solo afecta al tablero del usuario actual. Otros usuarios verán sus propios tableros o los establecidos de forma predeterminada.
 
-1. Desde el **[!UICONTROL Acciones]** , elija si desea informar sobre una acción en particular de sus recorridos.
+1. En la lista desplegable **[!UICONTROL Acciones]**, elija si desea informar sobre una acción en particular de sus recorridos.
 
 1. Elija si desea excluir los eventos de prueba de los informes con la barra de alternancia. Para obtener más información sobre los eventos de prueba, consulte [esta página](../building-journeys/testing-the-journey.md).
 
-   Tenga en cuenta que la variable **[!UICONTROL Excluir eventos de prueba]** Esta opción solo está disponible para informes de Recorrido.
+   Tenga en cuenta que la opción **[!UICONTROL Excluir eventos de prueba]** solo está disponible para los informes de Recorrido.
 
    ![](assets/report_modify_6.png)
 
@@ -54,7 +54,7 @@ Se puede modificar cada tablero de informes cambiando el tamaño o eliminando wi
 
    ![](assets/report_modify_8.png)
 
-1. Clic **[!UICONTROL Eliminar]** para eliminar cualquier widget que no necesite.
+1. Haz clic en **[!UICONTROL Quitar]** para quitar cualquier widget que no necesites.
 
    ![](assets/report_modify_9.png)
 
@@ -64,7 +64,7 @@ Se puede modificar cada tablero de informes cambiando el tamaño o eliminando wi
 
    ![](assets/report_modify_11.png)
 
-El tablero se ha guardado. Los diferentes cambios se volverán a aplicar para un uso posterior de los informes activos. Si es necesario, utilice el **[!UICONTROL Restablecer]** para restaurar el orden predeterminado de los widgets y widgets.
+El tablero se ha guardado. Los diferentes cambios se volverán a aplicar para un uso posterior de los informes activos. Si es necesario, use la opción **[!UICONTROL Restablecer]** para restaurar el orden predeterminado de los widgets y widgets.
 
 ## Exportación de informes {#export-reports}
 
@@ -72,7 +72,7 @@ Puede exportar fácilmente los distintos informes a los formatos PDF o CSV, lo q
 
 >[!BEGINTABS]
 
->[!TAB Exportación del informe como archivo de PDF]
+>[!TAB Exporte su informe como archivo de PDF]
 
 1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL archivo de PDF]**.
 
@@ -86,13 +86,13 @@ Puede exportar fácilmente los distintos informes a los formatos PDF o CSV, lo q
 
 El informe ya está disponible para su visualización o uso compartido en un archivo pdf.
 
->[!TAB Exportación del informe como archivo CSV]
+>[!TAB Exporte su informe como archivo CSV]
 
-1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL Archivo CSV]** para generar un archivo CSV en el nivel de informe general.
+1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL archivo CSV]** para generar un archivo CSV en el nivel de informe general.
 
    ![](assets/export_4.png)
 
-1. También puede elegir exportar datos de un widget específico. Clic **[!UICONTROL Exportar datos de widget a CSV]** situado junto al widget seleccionado.
+1. También puede elegir exportar datos de un widget específico. Haga clic en **[!UICONTROL Exportar datos de widget a CSV]** junto al widget seleccionado.
 
    ![](assets/export_5.png)
 

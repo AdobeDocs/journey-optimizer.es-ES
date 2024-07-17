@@ -25,7 +25,7 @@ Para empezar a crear una experiencia basada en código a través de una campaña
 
 1. Cree una campaña. [Más información](../campaigns/create-campaign.md)
 
-1. Seleccione el **[!UICONTROL Experiencia basada en código]** acción.
+1. Seleccione la acción **[!UICONTROL Experiencia basada en código]**.
 
 1. Introduzca la superficie de experiencia basada en código. [Más información](#surface-definition)
 
@@ -37,7 +37,7 @@ Para empezar a crear una experiencia basada en código a través de una campaña
 
 1. Seleccione **[!UICONTROL Crear]**.
 
-1. Complete los pasos para crear una campaña, como las propiedades de la campaña, [audiencia](../audience/about-audiences.md), y [programación](../campaigns/create-campaign.md#schedule). Para obtener más información sobre cómo configurar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
+1. Complete los pasos para crear una campaña, como las propiedades de la campaña, [audiencia](../audience/about-audiences.md) y [programación](../campaigns/create-campaign.md#schedule). Para obtener más información sobre cómo configurar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
 1. Edite el contenido como desee mediante el editor de personalización. [Más información](#edit-code)
 
@@ -51,11 +51,11 @@ Para empezar a crear una experiencia basada en código a través de una campaña
 >abstract="Inserte y edite el código que desea enviar como parte de esta acción de experiencia basada en código."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=es" text="Introducción al editor de personalización"
 
-1. En la pantalla de la edición de la campaña, seleccione **[!UICONTROL Editar código]**.
+1. En la pantalla de edición de campaña, seleccione **[!UICONTROL Editar código]**.
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. El [editor de personalización](../personalization/personalization-build-expressions.md) abre. Es una interfaz de creación de experiencias no visual que le permite crear su código.
+1. Se abre [editor de personalización](../personalization/personalization-build-expressions.md). Es una interfaz de creación de experiencias no visual que le permite crear su código.
 
 1. Puede cambiar el modo de creación de HTML a JSON y viceversa.
 
@@ -65,13 +65,13 @@ Para empezar a crear una experiencia basada en código a través de una campaña
    >
    >Cambiar el modo de creación resultará en la pérdida de todo el código actual, por lo que asegúrese de cambiar de modo antes de comenzar la creación.
 
-1. Introduzca el código según sea necesario. Puede aprovechar las [!DNL Journey Optimizer] editor de personalización con todas sus funcionalidades de personalización y creación. [Más información](../personalization/personalization-build-expressions.md)
+1. Introduzca el código según sea necesario. Puede aprovechar el editor de personalización [!DNL Journey Optimizer] con todas sus capacidades de personalización y creación. [Más información](../personalization/personalization-build-expressions.md)
 
 1. Puede agregar fragmentos de expresiones JSON o HTML si es necesario. [Descubra cómo](../personalization/use-expression-fragments.md)
 
    También puede guardar parte del contenido del código como fragmento. [Descubra cómo](../content-management/fragments.md#save-as-expression-fragment)
 
-1. En campañas basadas en código, puede utilizar la función de Experience Decisioning. Seleccione el **[!UICONTROL Decisiones]** en la barra izquierda y haga clic en **[!UICONTROL Crear decisión]**. [Más información](../experience-decisioning/create-decision.md)
+1. En campañas basadas en código, puede utilizar la función de Experience Decisioning. Seleccione el icono **[!UICONTROL Decisiones]** de la barra izquierda y haga clic en **[!UICONTROL Crear decisión]**. [Más información](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
 
@@ -80,7 +80,7 @@ Para empezar a crear una experiencia basada en código a través de una campaña
    >Ahora mismo, la toma de decisiones sobre experiencias solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 
-1. Clic **[!UICONTROL Guardar y cerrar]** para confirmar los cambios.
+1. Haga clic en **[!UICONTROL Guardar y cerrar]** para confirmar los cambios.
 
 Ahora, tan pronto como el desarrollador realice una llamada de API o SDK para recuperar contenido para la superficie seleccionada, los cambios se aplicarán a su página web o aplicación.
 
@@ -91,17 +91,17 @@ Ahora, tan pronto como el desarrollador realice una llamada de API o SDK para re
 >title="Previsualización de la experiencia basada en código"
 >abstract="Obtenga una simulación del aspecto que tendrá su experiencia basada en código."
 
-Para mostrar una previsualización de la experiencia basada en código modificada, siga los pasos a continuación. Encontrará información detallada sobre cómo seleccionar perfiles de prueba y previsualizar el contenido en el [Previsualización y prueba de la página de contenido](../content-management/preview-test.md).
+Para mostrar una previsualización de la experiencia basada en código modificada, siga los pasos a continuación. Encontrará información detallada sobre cómo seleccionar perfiles de prueba y obtener una vista previa del contenido en [Vista previa y prueba de la página de contenido](../content-management/preview-test.md).
 
 >[!CAUTION]
 >
->Debe tener perfiles de prueba disponibles para simular qué ofertas se les enviarán. Obtenga información sobre cómo [creación de perfiles de prueba](../audience/creating-test-profiles.md).
+>Debe tener perfiles de prueba disponibles para simular qué ofertas se les enviarán. Aprenda a [crear perfiles de prueba](../audience/creating-test-profiles.md).
 
-1. En el editor de personalización o en la pantalla Editar contenido, seleccione **[!UICONTROL Simular contenido]**.
+1. En el editor de personalización o en la pantalla de edición de contenido, seleccione **[!UICONTROL Simular contenido]**.
 
    ![](assets/code-based-campaign-simulate.png)
 
-1. Clic **[!UICONTROL Administración de perfiles de prueba]** para seleccionar uno o varios perfiles de prueba.
+1. Haga clic en **[!UICONTROL Administrar perfiles de prueba]** para seleccionar uno o más perfiles de prueba.
 
 1. Se muestra una previsualización de la experiencia modificada basada en código.
 
@@ -114,35 +114,35 @@ Para mostrar una previsualización de la experiencia basada en código modificad
 
 ## Activar la campaña basada en código {#activate-code-based-campaign}
 
-Una vez que haya definido la campaña basada en código y haya editado el contenido según sus preferencias utilizando [editor basado en código](#edit-code), puede revisarlo y activarlo. Siga los pasos a continuación.
+Una vez que haya definido la campaña basada en código y editado el contenido como desee con el [editor basado en código](#edit-code), puede revisarlo y activarlo. Siga los pasos a continuación.
 
 >[!NOTE]
 >
 >También puede previsualizar el contenido de la campaña antes de activarlo. [Más información](#test-code-based-campaign)
 
-1. En la campaña basada en código, seleccione **[!UICONTROL Revisar para activar]**.
+1. En su campaña basada en código, seleccione **[!UICONTROL Revisar para activar]**.
 
    ![](assets/code-based-campaign-review.png)
 
 1. Compruebe y edite si es necesario el contenido, las propiedades, la superficie, la audiencia y la programación.
 
-1. Seleccionar **[!UICONTROL Activar]**.
+1. Seleccione **[!UICONTROL Activar]**.
 
    ![](assets/code-based-campaign-activate.png)
 
    >[!NOTE]
    >
-   >Después de hacer clic en **[!UICONTROL Activar]**, los cambios en las campañas basadas en código pueden tardar hasta 1 minuto en estar disponibles en su ubicación.
+   >Después de hacer clic en **[!UICONTROL Activar]**, los cambios en las campañas basadas en código pueden tardar hasta 1 minuto en estar disponibles en tu ubicación.
 
-Su campaña basada en código toma la **[!UICONTROL Activo]** estado y ahora son visibles para la audiencia seleccionada. Cada destinatario de la campaña puede ver las modificaciones.
+Su campaña basada en código obtiene el estado **[!UICONTROL Live]** y ahora es visible para la audiencia seleccionada. Cada destinatario de la campaña puede ver las modificaciones.
 
 >[!NOTE]
 >
->Si ha definido una programación para la campaña basada en código, tiene el **[!UICONTROL Programado]** estado hasta que se alcancen la fecha y la hora de inicio.
+>Si ha definido una programación para su campaña basada en código, tiene el estado **[!UICONTROL Programado]** hasta que se alcance la fecha y la hora de inicio.
 >
 >Si activa una campaña basada en código que afecte a las mismas ubicaciones que otra campaña que ya está activa, todos los cambios se aplicarán a las ubicaciones.
 
-Obtenga más información sobre la activación de campañas en [esta sección](../campaigns/review-activate-campaign.md).
+Más información sobre cómo activar campañas en [esta sección](../campaigns/review-activate-campaign.md).
 
 ## Detener una campaña basada en código {#stop-code-based-campaign}
 
@@ -168,26 +168,26 @@ Los informes globales muestran los eventos que se produjeron hace al menos dos h
 
 ### Informe en vivo basado en código {#live-report-code-based}
 
-Desde la campaña **[!UICONTROL Informe en vivo]**, el **[!UICONTROL Experiencia basada en código]** Esta pestaña detalla la información principal relativa a sus aplicaciones o páginas web. [Más información sobre el informe en directo](../reports/campaign-live-report.md)
+Desde tu **[!UICONTROL informe en vivo]** de campaña, la pestaña de la **[!UICONTROL experiencia basada en código]** detalla la información principal relativa a tus aplicaciones o páginas web. [Más información sobre el informe en vivo](../reports/campaign-live-report.md)
 
 +++Obtenga más información sobre las distintas métricas y widgets disponibles para el informe de experiencia basada en código.
 
-El **[!UICONTROL Rendimiento de experiencia basado en código]** Los KPI detallan la información principal relativa a la participación de los visitantes con las experiencias basadas en código, como:
+Los KPI de **[!UICONTROL rendimiento de experiencia basado en código]** detallan la información principal relacionada con la participación de los visitantes en sus experiencias basadas en código, como:
 
 * **[!UICONTROL Impresiones]**: número total de experiencias entregadas a todos los usuarios.
 
 * **[!UICONTROL Interacciones]**: número total de interacciones con su aplicación/página. Esto incluye cualquier acción realizada por los usuarios, como clics o cualquier otra interacción.
 
-El **[!UICONTROL Resumen de experiencias basadas en código]** El gráfico muestra la evolución de sus experiencias (impresiones, impresiones únicas e interacciones) durante las últimas 24 horas.
+El gráfico de **[!UICONTROL Resumen de experiencias basado en código]** muestra la evolución de sus experiencias (impresiones, impresiones únicas e interacciones) durante las últimas 24 horas.
 
 <!--The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your app/pages.-->
 +++
 
 ### Informe global basado en código {#global-report-code-based}
 
-Se puede acceder directamente al informe global de campaña basado en código desde la campaña con la variable **[!UICONTROL Ver informe]** botón. [Más información sobre el informe global](../reports/campaign-global-report.md)
+Se puede acceder directamente al informe global de campaña basado en código desde la campaña con el botón **[!UICONTROL Ver informe]**. [Más información sobre el informe global](../reports/campaign-global-report.md)
 
-Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL Experiencia basada en código]** Esta pestaña detalla la información principal relativa a sus aplicaciones o páginas web.
+Desde su **[!UICONTROL informe global]** de Campaign, la ficha **[!UICONTROL Experiencia basada en código]** detalla la información principal relativa a sus aplicaciones o páginas web.
 
 ![](assets/code-based-campaign-global-report.png)
 
@@ -195,15 +195,15 @@ Desde la campaña **[!UICONTROL Informe global]**, el **[!UICONTROL Experiencia 
 
 +++Obtenga más información sobre las distintas métricas y widgets disponibles para el informe de experiencia basada en código.
 
-El **[!UICONTROL Rendimiento de experiencia basado en código]** Los KPI detallan la información principal relativa a la participación de los visitantes en sus experiencias, como:
+Los KPI de **[!UICONTROL rendimiento de experiencia basado en código]** detallan la información principal relacionada con la participación de los visitantes en sus experiencias, como:
 
-* **[!UICONTROL Impresiones únicas]**: número de usuarios únicos a los que se entregó la experiencia.
+* **[!UICONTROL Impresiones únicas]**: número de usuarios únicos a los que se les entregó la experiencia.
 
 * **[!UICONTROL Impresiones]**: número total de experiencias entregadas a todos los usuarios.
 
 * **[!UICONTROL Interacciones]**: porcentaje de interacciones con su aplicación/página. Esto incluye cualquier acción realizada por los usuarios, como clics o cualquier otra interacción.
 
-El **[!UICONTROL Resumen de experiencias basadas en código]** El gráfico muestra la evolución de sus experiencias (impresiones, impresiones e interacciones únicas) durante el periodo correspondiente.
+El gráfico de **[!UICONTROL Resumen de experiencias basado en código]** muestra la evolución de sus experiencias (impresiones, impresiones e interacciones únicas) durante el período correspondiente.
 
 <!--The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your apps/pages.-->
 +++

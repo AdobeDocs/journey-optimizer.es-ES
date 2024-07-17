@@ -30,7 +30,7 @@ Fecha
 
 | Parámetro | Descripción |
 |--- |--- |
-| string |  |
+| cadena |  |
 
 ## Firmas y tipo devuelto
 

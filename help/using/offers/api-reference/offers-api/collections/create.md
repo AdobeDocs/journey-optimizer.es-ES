@@ -9,7 +9,7 @@ exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 10%
 
 Las colecciones son subconjuntos de ofertas basados en condiciones predefinidas definidas definidas por un experto en marketing, como la categoría de la oferta.
 
-Puede crear una colección realizando una solicitud de POST a [!DNL Offer Library] API.
+Puede crear una colección realizando una solicitud de POST a la API [!DNL Offer Library].
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* en el encabezado de la solicitud:
+La siguiente tabla muestra los valores válidos que comprenden el campo *Content-Type* del encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -61,7 +61,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-collections' \
 
 **Respuesta**
 
-Una respuesta correcta devuelve información sobre la colección recién creada, incluida su `id`. Puede usar el complemento `id` en pasos posteriores para actualizar o eliminar la colección o en un tutorial posterior para crear una decisión.
+Una respuesta correcta devuelve información sobre la colección recién creada, incluido su `id`. Puede usar `id` en pasos posteriores para actualizar o eliminar su colección o en un tutorial posterior para crear una decisión.
 
 ```json
 {

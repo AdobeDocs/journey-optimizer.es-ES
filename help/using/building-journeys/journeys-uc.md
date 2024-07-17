@@ -43,39 +43,39 @@ Para que este caso de uso funcione, debe configurar lo siguiente:
 
 En nuestro recorrido, queremos aprovechar una audiencia específica de clientes. Todos los individuos que pertenecen a la audiencia entran en el recorrido y siguen los diferentes pasos. En nuestro ejemplo, necesitamos una audiencia que se dirija a todos los clientes que viven en Atlanta, San Francisco o Seattle y que nacieron después de 1980.
 
-Para obtener más información sobre las audiencias, consulte [página](../audience/about-audiences.md).
+Para obtener más información sobre audiencias, consulte esta [página](../audience/about-audiences.md).
 
-1. En la sección del menú CUSTOMER, seleccione **[!UICONTROL Audiencias]**.
+1. En la sección de menú CLIENTE, seleccione **[!UICONTROL Audiencias]**.
 
-1. Haga clic en **[!UICONTROL Crear audiencia]** situado en la parte superior derecha de la lista de audiencias.
+1. Haga clic en el botón **[!UICONTROL Crear audiencia]** que se encuentra en la parte superior derecha de la lista de audiencias.
 
-1. En el **[!UICONTROL Propiedades de audiencia]** , introduzca un nombre para la audiencia.
+1. En el panel **[!UICONTROL Propiedades de audiencia]**, escriba un nombre para la audiencia.
 
-1. Arrastre y suelte los campos deseados del panel izquierdo al área de trabajo central y, a continuación, configúrelos según sus necesidades. En este ejemplo, utilizamos la variable **Ciudad** y **Año de nacimiento** campos de atributos.
+1. Arrastre y suelte los campos deseados del panel izquierdo al área de trabajo central y, a continuación, configúrelos según sus necesidades. En este ejemplo, utilizamos los campos de atributos **City** y **Birth year**.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
    ![](assets/add-attributes.png)
 
-La audiencia se crea y está lista para utilizarse en el recorrido. Uso de un **Leer audiencia** actividad, puede hacer que todas las personas que pertenecen a la audiencia participen en el recorrido.
+La audiencia se crea y está lista para utilizarse en el recorrido. Con una actividad **Leer audiencia**, puede hacer que todas las personas que pertenecen a la audiencia ingresen al recorrido.
 
 ### Configuración del evento
 
 Debe configurar un evento que se envíe a su recorrido cuando un cliente realice una compra. Cuando el recorrido recibe el evento, envía en déclencheur el mensaje de &quot;gracias&quot;.
 
-Para esto, utilizamos un evento basado en reglas. Para obtener más información, consulte [página](../event/about-events.md).
+Para esto, utilizamos un evento basado en reglas. Para obtener más información sobre los eventos, consulte esta [página](../event/about-events.md).
 
-1. En la sección del menú ADMINISTRACIÓN, seleccione **[!UICONTROL Configuraciones]**, luego haga clic en **[!UICONTROL Eventos]**. Clic **[!UICONTROL Crear evento]** para crear un nuevo evento.
+1. En la sección del menú ADMINISTRACIÓN, seleccione **[!UICONTROL Configuraciones]** y, a continuación, haga clic en **[!UICONTROL Eventos]**. Haga clic en **[!UICONTROL Crear evento]** para crear un nuevo evento.
 
 1. Introduzca el nombre del evento.
 
-1. En el **[!UICONTROL Tipo de ID de evento]** , seleccione **[!UICONTROL Basado en reglas]**.
+1. En el campo **[!UICONTROL Tipo de ID de evento]**, seleccione **[!UICONTROL Basado en reglas]**.
 
-1. Defina el **[!UICONTROL Esquema]** y carga útil **[!UICONTROL Campos]**. Puede utilizar varios campos, por ejemplo, el producto comprado, la fecha de compra y el ID de compra.
+1. Defina el **[!UICONTROL Esquema]** y la carga **[!UICONTROL Campos]**. Puede utilizar varios campos, por ejemplo, el producto comprado, la fecha de compra y el ID de compra.
 
-1. En el **[!UICONTROL Condición de ID de evento]** , defina la condición utilizada por el sistema para identificar los eventos que almacenan en déclencheur el recorrido. Por ejemplo, puede agregar un `purchaseMessage` y defina la siguiente regla: `purchaseMessage="thank you"`
+1. En el campo **[!UICONTROL Condición de ID de evento]**, defina la condición utilizada por el sistema para identificar los eventos que ponen en déclencheur su recorrido. Por ejemplo, puede agregar un campo `purchaseMessage` y definir la siguiente regla: `purchaseMessage="thank you"`
 
-1. Defina el **[!UICONTROL Área de nombres]** y **[!UICONTROL Identificador de perfil]**.
+1. Defina el **[!UICONTROL espacio de nombres]** y el **[!UICONTROL identificador de perfil]**.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -85,28 +85,28 @@ El evento está ahora configurado y listo para utilizarse en el recorrido. Con l
 
 ## Diseño del recorrido
 
-1. Inicie el recorrido con una **Leer audiencia** actividad. Seleccione la audiencia creada anteriormente. Todas las personas que pertenecen a la audiencia entran en el recorrido.
+1. Inicie el recorrido con una actividad **Leer audiencia**. Seleccione la audiencia creada anteriormente. Todas las personas que pertenecen a la audiencia entran en el recorrido.
 
    ![](assets/jo-uc4.png)
 
-1. Suelte un **Correo electrónico** actividad de acción y definir el contenido del &quot;primer mensaje&quot;. Este mensaje se envía a todas las personas del recorrido. Consulte esta sección [sección](../email/create-email.md) para aprender a configurar y diseñar un correo electrónico.
+1. Suelte una actividad de acción **Email** y defina el contenido del &quot;primer mensaje&quot;. Este mensaje se envía a todas las personas del recorrido. Consulte esta [sección](../email/create-email.md) para obtener información sobre cómo configurar y diseñar un mensaje de correo electrónico.
 
    ![](assets/jo-uc5.png)
 
-1. Añadir un **Reacción** evento y seleccione **Correo electrónico abierto**. El evento se activa cuando un individuo que pertenece a la audiencia abre el correo electrónico.
+1. Agregue un evento **Reaction** y seleccione **Email opened**. El evento se activa cuando un individuo que pertenece a la audiencia abre el correo electrónico.
 
-1. Compruebe la **Definir el tiempo de espera del evento** , defina una duración (1 día en nuestro ejemplo) y marque **Establecer una ruta de tiempo de espera**. Esto crea otra ruta para las personas que no abren el primer mensaje push o de correo electrónico.
+1. Marque la casilla **Definir el tiempo de espera del evento**, defina una duración (1 día en nuestro ejemplo) y marque **Establecer una ruta de espera**. Esto crea otra ruta para las personas que no abren el primer mensaje push o de correo electrónico.
 
-1. En la ruta de tiempo de espera, suelte un **Correo electrónico** actividad de acción y definir el contenido del mensaje de &quot;seguimiento&quot;. Este mensaje se envía a las personas que no abren el correo electrónico ni insertan el primer mensaje al día siguiente. Consulte esta sección [sección](../email/create-email.md) para aprender a configurar y diseñar un correo electrónico.
+1. En la ruta de tiempo de espera, suelte una actividad de acción **Correo electrónico** y defina el contenido del mensaje de &quot;seguimiento&quot;. Este mensaje se envía a las personas que no abren el correo electrónico ni insertan el primer mensaje al día siguiente. Consulte esta [sección](../email/create-email.md) para obtener información sobre cómo configurar y diseñar un mensaje de correo electrónico.
 
 1. En la primera ruta, añada el evento de compra creado anteriormente. El evento se activa cuando un individuo realiza una compra.
 
-1. Después del evento, suelte un **Push** actividad de acción y defina el contenido del mensaje &quot;gracias&quot;. Consulte esta sección [sección](../push/create-push.md) para aprender a configurar y diseñar una notificación push.
+1. Después del evento, suelta una actividad de acción **Push** y define el contenido del mensaje &quot;gracias&quot;. Consulte esta [sección](../push/create-push.md) para obtener información sobre cómo configurar y diseñar una notificación push.
 
 ## Prueba y publicación del recorrido
 
 1. Antes de probar el recorrido, compruebe que es válido y que no hay error.
 
-1. Haga clic en **Prueba** active el modo de prueba en la esquina superior derecha. Consulte esta sección [sección](testing-the-journey.md) para aprender a utilizar el modo de prueba.
+1. Haga clic en el botón de alternancia **Test**, ubicado en la esquina superior derecha, para activar el modo de prueba. Consulte esta [sección](testing-the-journey.md) para aprender a utilizar el modo de prueba.
 
-1. Cuando el recorrido esté listo, publíquelo con el **Publish** botón, situado en la esquina superior derecha.
+1. Cuando el recorrido esté listo, publíquelo con el botón **Publish**, ubicado en la esquina superior derecha.

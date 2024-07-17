@@ -20,10 +20,10 @@ ht-degree: 9%
 Para enviar mensajes en la aplicación en sus recorridos y campañas con [!DNL Journey Optimizer], debe seguir los siguientes pasos de configuración.
 
 1. Asegúrese de tener los permisos correctos en las campañas de Journey Optimizer antes de empezar, incluso si planea usar únicamente mensajes en la aplicación en los recorridos. Los permisos de Campaign siguen siendo necesarios. [Más información](../campaigns/get-started-with-campaigns.md#campaign-prerequisites).
-Se debe conceder un permiso específico para acceder a **Superficies de aplicación** menú en Recopilación de datos de Adobe Experience Platform. Obtenga más información en [este vídeo](#video).
-1. Habilite Adobe Journey Optimizer en el flujo de datos de recopilación de datos de Adobe Experience Platform y compruebe su política de combinación predeterminada en Adobe Experience Platform, tal como se detalla en la [Requisitos previos de envío](#delivery-prerequisites) más abajo.
-1. Cree y configure una superficie de aplicación en la recopilación de datos de Adobe Experience Platform, como se detalla en [esta sección](#channel-prerequisites).
-1. Si utiliza experimentos de contenido, asegúrese de seguir los requisitos enumerados en [esta sección](#experiment-prerequisite).
+Se debe otorgar un permiso específico para acceder al menú **Superficies de la aplicación** en la recopilación de datos de Adobe Experience Platform. Obtenga más información en [este vídeo](#video).
+1. Habilite Adobe Journey Optimizer en su secuencia de datos de recopilación de datos de Adobe Experience Platform y compruebe su política de combinación predeterminada en Adobe Experience Platform, tal como se detalla en los [requisitos previos de entrega](#delivery-prerequisites) a continuación.
+1. Cree y configure una superficie de aplicación en la recopilación de datos de Adobe Experience Platform, tal como se detalla en [esta sección](#channel-prerequisites).
+1. Si está usando experimentos de contenido, asegúrese de seguir los requisitos enumerados en [esta sección](#experiment-prerequisite).
 
 Cuando haya finalizado, podrá crear, configurar y enviar su primer mensaje en la aplicación. Obtenga información sobre cómo enviar mensajes en [esta sección](create-in-app.md).
 
@@ -31,87 +31,87 @@ Cuando haya finalizado, podrá crear, configurar y enviar su primer mensaje en l
 
 Para que los mensajes en la aplicación se entreguen correctamente, se debe definir la siguiente configuración:
 
-* En el [Recopilación de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es){target="_blank"}, asegúrese de que tiene un conjunto de datos definido como en **[!UICONTROL Adobe Experience Platform]** servicio tiene Adobe Experience Platform Edge y **[!UICONTROL Adobe Journey Optimizer]** opción activada.
+* En la [recopilación de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es){target="_blank"}, asegúrese de que tiene un conjunto de datos definido como en el servicio **[!UICONTROL Adobe Experience Platform]**. Tiene habilitadas la opción Adobe Experience Platform Edge y **[!UICONTROL Adobe Journey Optimizer]**.
 
   Esto garantiza que Adobe Experience Platform Edge gestione correctamente los eventos entrantes de Journey Optimizer. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
   ![](assets/inapp_config_6.png)
 
-* Entrada [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}, asegúrese de que tiene la política de combinación predeterminada con **[!UICONTROL Política de combinación activa en Edge]** opción activada. Para ello, seleccione una política en **[!UICONTROL Cliente]** > **[!UICONTROL Perfiles]** > **[!UICONTROL Políticas de combinación]** menú Experience Platform. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+* En [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}, asegúrese de que tiene habilitada la política de combinación predeterminada con la opción **[!UICONTROL Política de combinación activa en Edge]**. Para ello, seleccione una directiva en el menú de Experience Platform **[!UICONTROL Cliente]** > **[!UICONTROL Perfiles]** > **[!UICONTROL Políticas de combinación]**. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
-  Esta política de combinación la utiliza [!DNL Journey Optimizer] canales entrantes para activar y publicar correctamente campañas entrantes en edge. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=es){target="_blank"}
+  [!DNL Journey Optimizer] canales entrantes utilizan esta política de combinación para activar y publicar correctamente campañas entrantes en el perímetro de. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=es){target="_blank"}
 
   >[!NOTE]
   >
-  >Al utilizar un personalizado **[!UICONTROL Preferencia de conjunto de datos]** política de combinación, asegúrese de añadir la variable **[!UICONTROL Recorrido entrante]** conjunto de datos dentro de la política de combinación especificada.
+  >Cuando use una directiva de combinación personalizada de **[!UICONTROL preferencias del conjunto de datos]**, asegúrese de agregar el conjunto de datos **[!UICONTROL Recorrido entrante]** dentro de la directiva de combinación especificada.
 
   ![](assets/inapp_config_8.png)
 
-* Para solucionar los problemas de entrega de las experiencias móviles de Journey Optimizer, puede usar la variable **Entrega en Edge** ver en **Adobe Experience Platform Assurance**. Este complemento le permite inspeccionar en detalle las llamadas de solicitud, comprobar si las llamadas perimetrales esperadas se producen según lo previsto y examinar los datos de perfil, incluidos los mapas de identidad, las suscripciones a segmentos y la configuración de consentimiento. Además, puede revisar las actividades para las que la solicitud cumple los requisitos e identificar las que no.
+* Para solucionar problemas del envío de experiencias móviles de Journey Optimizer, puedes usar la vista de **Edge Delivery** en **Adobe Experience Platform Assurance**. Este complemento le permite inspeccionar en detalle las llamadas de solicitud, comprobar si las llamadas perimetrales esperadas se producen según lo previsto y examinar los datos de perfil, incluidos los mapas de identidad, las suscripciones a segmentos y la configuración de consentimiento. Además, puede revisar las actividades para las que la solicitud cumple los requisitos e identificar las que no.
 
-  Uso del **Entrega en Edge** Este complemento le ayuda a obtener la información necesaria para comprender y solucionar problemas de las implementaciones entrantes de forma eficaz.
+  El uso del complemento **Edge Delivery** le ayuda a obtener la información necesaria para comprender y solucionar problemas de las implementaciones entrantes de forma eficaz.
 
-  [Más información sobre la Vista de entrega de Edge](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
+  [Más información en la vista de Edge Delivery](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/view/edge-delivery)
 
 ## Requisitos previos de configuración de canal {#channel-prerequisites}
 
-1. Acceda a la **[!UICONTROL Superficies de aplicación]** y haga clic en **[!UICONTROL Crear superficie de aplicación]**.
+1. Acceda al menú **[!UICONTROL Superficies de la aplicación]** y haga clic en **[!UICONTROL Crear superficie de la aplicación]**.
 
-1. Añada un nombre a su **[!UICONTROL Superficie de aplicación]**.
+1. Agregue un nombre a su **[!UICONTROL superficie de aplicación]**.
 
    ![](assets/inapp_config_2b.png)
 
-1. Desde el **[!UICONTROL Apple iOS]** , configure su aplicación móvil para Apple iOS.
+1. En el menú desplegable **[!UICONTROL Apple iOS]**, configure su aplicación móvil para Apple iOS.
 
 +++ Más información
 
-   1. Escriba su **[!UICONTROL ID de paquete de iOS]**. Consulte [Documentación de Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) para obtener más información sobre **ID de paquete**.
+   1. Escriba su **[!UICONTROL ID del paquete de iOS]**. Consulte [Documentación de Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) para obtener más información sobre **ID del paquete**.
 
-   1. (opcional) Elija la **[!UICONTROL Sandbox]** desde donde desea enviar notificaciones push. Tenga en cuenta que la selección de una zona protegida específica requiere los permisos de acceso necesarios.
+   1. (opcional) Elija la **[!UICONTROL zona protegida]** desde la que desea enviar notificaciones push. Tenga en cuenta que la selección de una zona protegida específica requiere los permisos de acceso necesarios.
 
       Para obtener más información sobre la administración de zonas protegidas, consulte [esta página](../administration/sandboxes.md#assign-sandboxes).
 
-   1. Habilite la **[!UICONTROL Credenciales push]** opción para arrastrar y soltar el archivo de clave de autenticación .p8 si es necesario.
+   1. Habilite la opción **[!UICONTROL Push credentials]** para arrastrar y soltar el archivo de clave de autenticación .p8 si es necesario.
 
-      También puede activar la variable **[!UICONTROL Introduzca manualmente las credenciales push]** para copiar y pegar la clave de autenticación de APN directamente.
+      También puede habilitar la opción **[!UICONTROL Introducir manualmente las credenciales de inserción]** para copiar y pegar la clave de autenticación de APN directamente.
 
-   1. Introduzca su **[!UICONTROL ID de clave]** y **[!UICONTROL Identificador de equipo]**.
+   1. Escriba su **[!UICONTROL identificador de clave]** y su **[!UICONTROL identificador de equipo]**.
 
       ![](assets/inapp_config_2.png)
 
 +++
 
-1. Desde el **[!UICONTROL Android]** , configure su aplicación móvil para Android.
+1. En el menú desplegable **[!UICONTROL Android]**, configure su aplicación móvil para Android.
 
 +++ Más información
 
-   1. Escriba su **[!UICONTROL Nombre del paquete de Android]**. Consulte [Documentación de Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) para obtener más información sobre **Nombre del paquete**.
+   1. Escriba su **[!UICONTROL nombre de paquete de Android]**. Consulte [Documentación de Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) para obtener más información sobre **Nombre del paquete**.
 
-   1. (opcional) Elija la **[!UICONTROL Sandbox]** desde donde desea enviar notificaciones push. Tenga en cuenta que la selección de una zona protegida específica requiere los permisos de acceso necesarios.
+   1. (opcional) Elija la **[!UICONTROL zona protegida]** desde la que desea enviar notificaciones push. Tenga en cuenta que la selección de una zona protegida específica requiere los permisos de acceso necesarios.
 
       Para obtener más información sobre la administración de zonas protegidas, consulte [esta página](../administration/sandboxes.md#assign-sandboxes).
 
-   1. Habilite la **[!UICONTROL Credenciales push]** opción para arrastrar y soltar el archivo de clave privada .json si es necesario.
+   1. Habilite la opción **[!UICONTROL Credenciales push]** para arrastrar y soltar el archivo de clave privada .json si es necesario.
 
-      También puede activar la variable **[!UICONTROL Introduzca manualmente las credenciales push]** para copiar y pegar la clave privada de FCM directamente.
+      También puede habilitar la opción **[!UICONTROL Introducir manualmente credenciales de inserción]** para copiar y pegar la clave privada de FCM directamente.
 
       ![](assets/inapp_config_7.png)
 
-1. Clic **[!UICONTROL Guardar]** cuando haya terminado la configuración de su **[!UICONTROL Superficie de aplicación]**.
+1. Haga clic en **[!UICONTROL Guardar]** cuando termine de configurar la **[!UICONTROL superficie de la aplicación]**.
 
    ![](assets/inapp_config_3.png)
 
-   Su **[!UICONTROL Superficie de aplicación]** ahora estará disponible al crear una nueva campaña con un mensaje en la aplicación. [Más información](create-in-app.md)
+   **[!UICONTROL La superficie de la aplicación]** ahora estará disponible al crear una nueva campaña con un mensaje en la aplicación. [Más información](create-in-app.md)
 
 1. Después de crear la superficie de la aplicación, debe crear una propiedad móvil.
 
-   Consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-mobile) para el procedimiento detallado.
+   Consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-mobile) para ver el procedimiento detallado.
 
    ![](assets/inapp_config_4.png)
 
 1. En el menú Extensiones de la propiedad recién creada, instale las siguientes extensiones:
 
-   * Adobe Experience Platform Edge Network
+   * Edge Network de Adobe Experience Platform
    * Adobe Journey Optimizer
    * AEP Assurance
    * Consentimiento
@@ -119,7 +119,7 @@ Para que los mensajes en la aplicación se entreguen correctamente, se debe defi
    * Mobile Core
    * Perfil
 
-   Consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html#add-a-new-extension) para el procedimiento detallado.
+   Consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html#add-a-new-extension) para ver el procedimiento detallado.
 
    ![](assets/inapp_config_5.png)
 
@@ -127,17 +127,17 @@ El canal en la aplicación ya está configurado. Puede empezar a enviar mensajes
 
 ## Requisitos previos del experimento de contenido {#experiment-prerequisites}
 
-Para habilitar los experimentos de contenido para el canal en la aplicación, debe asegurarse de que la variable [conjunto de datos](../data/get-started-datasets.md) se utiliza en la implementación en la aplicación [secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} también se incluye en la configuración de informes.
+Para habilitar los experimentos de contenido para el canal en la aplicación, debe asegurarse de que el [conjunto de datos](../data/get-started-datasets.md) utilizado en la implementación en la aplicación [secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} también esté incluido en la configuración de los informes.
 
 En otras palabras, al configurar los informes de experimentos, si agrega un conjunto de datos que no está presente en el conjunto de datos web, estos no se mostrarán en los informes de experimentos de contenido.
 
-Aprenda a añadir conjuntos de datos para la creación de informes de experimentos de contenido en [esta sección](../content-management/reporting-configuration.md#add-datasets).
+Aprenda a agregar conjuntos de datos para los informes de experimentos de contenido en [esta sección](../content-management/reporting-configuration.md#add-datasets).
 
 >[!NOTE]
 >
->El conjunto de datos lo utiliza solo lectura el [!DNL Journey Optimizer] sistema de informes de y no afecta a la recopilación ni a la ingesta de datos.
+>El sistema de informes [!DNL Journey Optimizer] utiliza el conjunto de datos como de solo lectura y no afecta a la recopilación ni al consumo de datos.
 
-Si es usted **no** utilizando los siguientes elementos predefinidos [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"} para el esquema del conjunto de datos: `AEP Web SDK ExperienceEvent` y `Consumer Experience Event` (tal como se define en [esta página](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), asegúrese de añadir los siguientes grupos de campos: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, y `Web Details`. Estas son necesarias para [!DNL Journey Optimizer] los informes de experimentos de contenido, ya que rastrean en qué experimentos y tratamientos participa cada perfil.
+Si **no** usa los siguientes [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"} predefinidos para el esquema del conjunto de datos: `AEP Web SDK ExperienceEvent` y `Consumer Experience Event` (según se definen en [esta página](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), asegúrese de agregar los siguientes grupos de campos: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` y `Web Details`. Los necesita el informe de experimento de contenido [!DNL Journey Optimizer], ya que rastrean en qué experimentos y tratamientos participa cada perfil.
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ Si es usted **no** utilizando los siguientes elementos predefinidos [grupos de c
 
 ## Vídeo explicativo{#video}
 
-El siguiente vídeo muestra cómo asignar el **Administrar configuración de aplicación** permiso para acceder al menú Superficies de la aplicación.
+El siguiente vídeo muestra cómo asignar el permiso **Administrar configuración de la aplicación** para acceder al menú Superficies de la aplicación.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421607)
 

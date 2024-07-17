@@ -23,31 +23,31 @@ ht-degree: 20%
 >title="Generación de contenido a partir de una plantilla"
 >abstract="Para empezar a crear el contenido del correo electrónico, seleccione una plantilla predeterminada o una existente personalizada, creada desde cero o guardada como plantilla a partir de un correo electrónico anterior."
 
-Desde el **[!UICONTROL Cree su correo electrónico]** pantalla, utilice el **[!UICONTROL Seleccionar plantilla de diseño]** para comenzar a crear el contenido a partir de una plantilla.
+Desde la pantalla **[!UICONTROL Crear tu correo electrónico]**, usa la sección **[!UICONTROL Seleccionar plantilla de diseño]** para empezar a crear tu contenido a partir de una plantilla.
 
 ![](assets/email_designer-templates.png)
 
 Puede elegir entre:
 
-* **Plantillas de muestra**. El [!DNL Journey Optimizer] La interfaz de ofrece 20 plantillas de correo electrónico predeterminadas entre las que puede elegir.
+* **Plantillas de ejemplo**. La interfaz [!DNL Journey Optimizer] ofrece 20 plantillas de correo electrónico predeterminadas entre las que puede elegir.
 
 * **Plantillas guardadas**. También puede utilizar una plantilla personalizada que permita:
 
-   * Creado desde cero utilizando **[!UICONTROL Plantillas de contenido]** menú. [Más información](../content-management/content-templates.md#create-template-from-scratch)
+   * Creadas desde cero utilizando el menú **[!UICONTROL Plantillas de contenido]**. [Más información](../content-management/content-templates.md#create-template-from-scratch)
 
-   * Guardado desde un correo electrónico en un recorrido o una campaña utilizando **[!UICONTROL Guardar como plantilla de contenido]** opción. [Más información](../content-management/content-templates.md#save-as-template)
+   * Se guardó desde un correo electrónico en un recorrido o una campaña usando la opción **[!UICONTROL Guardar como plantilla de contenido]**. [Más información](../content-management/content-templates.md#save-as-template)
 
 Para empezar a crear contenido con una de las plantillas de ejemplo o guardadas, siga los pasos a continuación.
 
-1. [Acceso a Email Designer](get-started-email-design.md) desde el correo electrónico **[!UICONTROL Editar contenido]** pantalla.
+1. [Acceda al Designer de correo electrónico](get-started-email-design.md) desde la pantalla del correo electrónico **[!UICONTROL Editar contenido]**.
 
-1. En el **[!UICONTROL Cree su correo electrónico]** pantalla, la **[!UICONTROL Plantillas de muestra]** está seleccionada de forma predeterminada.
+1. En la pantalla **[!UICONTROL Crear tu correo electrónico]**, la pestaña **[!UICONTROL Plantillas de ejemplo]** está seleccionada de forma predeterminada.
 
-1. Para utilizar una plantilla personalizada, vaya a **[!UICONTROL Plantillas guardadas]** pestaña.
+1. Para usar una plantilla personalizada, ve a la pestaña **[!UICONTROL Plantillas guardadas]**.
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. La lista de todos [plantillas de contenido](../content-management/content-templates.md#create-content-templates) se muestra la creación en la zona protegida actual. Puede ordenarlas **[!UICONTROL Por nombre]**, **[!UICONTROL Última modificación]** y **[!UICONTROL Última creación]**.
+1. Se muestra la lista de todas las [plantillas de contenido](../content-management/content-templates.md#create-content-templates) creadas en la zona protegida actual. Puede ordenarlas **[!UICONTROL Por nombre]**, **[!UICONTROL Última modificación]** y **[!UICONTROL Última creación]**.
 
    ![](assets/email_designer-saved-templates-filter.png)
 
@@ -57,6 +57,6 @@ Para empezar a crear contenido con una de las plantillas de ejemplo o guardadas,
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. Clic **[!UICONTROL Usar esta plantilla]** en la parte superior derecha de la pantalla.
+1. Haga clic en **[!UICONTROL Usar esta plantilla]** en la parte superior derecha de la pantalla.
 
 1. Edite el contenido como desee mediante Email Designer.

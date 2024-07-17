@@ -10,7 +10,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 2%
+ht-degree: 18%
 
 ---
 
@@ -18,29 +18,29 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
->title="¿Qué es una decisón?"
->abstract="Las políticas de decisión contienen toda la lógica de selección para que el motor de decisión elija el mejor contenido. Las políticas de decisión son específicas de la campaña. Su objetivo es seleccionar las mejores ofertas para cada perfil, mientras que la creación de campañas le permite indicar cómo se deben presentar los elementos de decisión seleccionados, incluidos los atributos de elemento que se deben incluir en el mensaje."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Acerca de Experience Decisioning"
+>title="¿Qué es una decisión?"
+>abstract="Las políticas de decisión contienen toda la lógica de selección para que el motor de decisión elija el mejor contenido. Las políticas de decisión son específicas de la campaña. Su meta es seleccionar las mejores ofertas para cada perfil, mientras que la creación de campañas le permite indicar cómo se deben presentar los elementos de decisión seleccionados, incluidos los atributos de elemento que se deben incluir en el mensaje."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Acerca de la Toma de decisiones sobre experiencias"
 
 Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de decisión de experiencias para elegir el mejor contenido que se ofrece, según la audiencia.
 
-Las políticas de decisión contienen toda la lógica de selección para que el motor de decisión elija el mejor contenido. Las políticas de decisión son específicas de la campaña. Su objetivo es seleccionar las mejores ofertas para cada perfil, mientras que la creación de campañas le permite indicar cómo se deben presentar los elementos de decisión seleccionados, incluidos los atributos de elemento que se deben incluir en el mensaje.
+Las políticas de decisión contienen toda la lógica de selección para que el motor de decisión elija el mejor contenido. Las políticas de decisión son específicas de la campaña. Su meta es seleccionar las mejores ofertas para cada perfil, mientras que la creación de campañas le permite indicar cómo se deben presentar los elementos de decisión seleccionados, incluidos los atributos de elemento que se deben incluir en el mensaje.
 
 >[!NOTE]
 >
->En el [!DNL Journey Optimizer] interfaz de usuario, las políticas de decisión se etiquetan como decisiones<!--but they are decision policies. TBC if this note is needed-->.
+>En la interfaz de usuario [!DNL Journey Optimizer], las directivas de decisión se etiquetan como decisiones<!--but they are decision policies. TBC if this note is needed-->.
 
 ## Añadir una política de decisión a una campaña basada en código {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
->title="Defina el número de elementos que desea devolver"
+>title="Definición del número de elementos que desea devolver"
 >abstract="Seleccione el número de elementos de decisión que desea que se devuelvan. Por ejemplo, si selecciona 2, se presentarán las dos mejores ofertas aptas para la superficie actual."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
->title="Seleccionar una reserva"
->abstract="Un elemento de reserva se muestra al usuario cuando no se cumple ninguna de las estrategias de selección definidas para esa directiva de decisión."
+>title="Selección de una reserva"
+>abstract="Un elemento de reserva se muestra al usuario cuando no se cumple ninguna de las estrategias de selección definidas para esa política de decisión."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_strategy"
@@ -51,9 +51,9 @@ Las políticas de decisión contienen toda la lógica de selección para que el 
 
 Para presentar la mejor oferta dinámica y experiencia a los visitantes de su sitio web o aplicación móvil, agregue una política de decisión a una campaña basada en código. Para ello, siga los pasos que aparecen a continuación.
 
-1. Cree una campaña y seleccione **[!UICONTROL Experiencia basada en código]** acción. [Más información](../code-based/create-code-based.md)
+1. Cree una campaña y seleccione la acción **[!UICONTROL Experiencia basada en código]**. [Más información](../code-based/create-code-based.md)
 
-1. Desde el [editor de código](../code-based/create-code-based.md#edit-code), seleccione la **[!UICONTROL Política de decisión]** y haga clic en **[!UICONTROL Agregar directiva de decisión]**.
+1. En el [editor de código](../code-based/create-code-based.md#edit-code), seleccione el icono **[!UICONTROL Directiva de decisión]** y haga clic en **[!UICONTROL Agregar directiva de decisión]**.
 
    ![](assets/decision-code-based-create.png)
 
@@ -61,13 +61,13 @@ Para presentar la mejor oferta dinámica y experiencia a los visitantes de su si
 
    >[!NOTE]
    >
-   >Actualmente solo es el valor predeterminado **[!UICONTROL Ofertas]** catálogo disponible.
+   >Actualmente solo está disponible el catálogo predeterminado **[!UICONTROL Ofertas]**.
 
    ![](assets/decision-code-based-details.png)
 
-1. Seleccione el número de elementos que desea que se devuelvan. Por ejemplo, si selecciona 2, se presentarán las dos mejores ofertas aptas para la superficie actual. Clic **[!UICONTROL Siguiente]**
+1. Seleccione el número de elementos que desea que se devuelvan. Por ejemplo, si selecciona 2, se presentarán las dos mejores ofertas aptas para la superficie actual. Haga clic en **[!UICONTROL Siguiente]**
 
-1. Utilice el **[!UICONTROL Agregar estrategia]** para definir las estrategias de selección de la política de decisión. Cada estrategia consiste en una colección de ofertas asociada con una restricción de elegibilidad y un método de clasificación para determinar las ofertas que se van a mostrar. [Más información](selection-strategies.md)
+1. Utilice el botón **[!UICONTROL Agregar estrategia]** para definir las estrategias de selección de la directiva de decisión. Cada estrategia consiste en una colección de ofertas asociada con una restricción de elegibilidad y un método de clasificación para determinar las ofertas que se van a mostrar. [Más información](selection-strategies.md)
 
    ![](assets/decision-code-based-strategies.png)
 
@@ -75,7 +75,7 @@ Para presentar la mejor oferta dinámica y experiencia a los visitantes de su si
    >
    >Se requiere al menos una estrategia. No se pueden agregar más de 10 estrategias.
 
-1. Desde el **[!UICONTROL Agregar estrategia]** , también puede crear una estrategia. El **[!UICONTROL Crear estrategia de selección]** botón le redirige a **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Configuración de estrategia]** menú. [Más información](selection-strategies.md)
+1. Desde la pantalla **[!UICONTROL Agregar estrategia]**, también puede crear una estrategia. El botón **[!UICONTROL Crear estrategia de selección]** le redirige al menú **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Configuración de estrategia]**. [Más información](selection-strategies.md)
 
    ![](assets/decision-code-based-add-strategy.png)
 
@@ -89,11 +89,11 @@ Para presentar la mejor oferta dinámica y experiencia a los visitantes de su si
 
    ![](assets/decision-code-based-strategy-fallback.png)
 
-   Puede seleccionar cualquier elemento de la lista, que muestra todos los elementos de decisión creados en la zona protegida actual. Si no se cualifica ninguna estrategia de selección, se muestra la reserva al usuario independientemente de las fechas y restricciones de idoneidad aplicadas al elemento seleccionado<!--nor frequency capping when available - TO CLARIFY-->.
+   Puede seleccionar cualquier elemento de la lista, que muestra todos los elementos de decisión creados en la zona protegida actual. Si no se califica ninguna estrategia de selección, la reserva se mostrará al usuario independientemente de las fechas y restricciones de elegibilidad aplicadas al elemento seleccionado<!--nor frequency capping when available - TO CLARIFY-->.
 
    >[!NOTE]
    >
-   >Una alternativa es opcional. Si no se selecciona ninguna alternativa y no se cualifica ninguna estrategia, no se muestra nada [!DNL Journey Optimizer].
+   >Una alternativa es opcional. Si no se selecciona ninguna reserva y no se califica ninguna estrategia, [!DNL Journey Optimizer] no mostrará nada.
 
 1. Guarde la selección y haga clic en **[!UICONTROL Crear]**. Ahora que se ha creado la política de decisión, puede utilizar los atributos de decisión dentro del contenido de la experiencia basado en código. [Más información](#use-decision-policy)
 
@@ -112,11 +112,11 @@ Varias estrategias y su agrupación determinan la prioridad de las estrategias y
 
 Por ejemplo, tiene dos colecciones, una en la estrategia A y otra en la estrategia B. La solicitud es para que se devuelvan dos elementos de decisión. Digamos que hay dos ofertas elegibles de la estrategia A y tres ofertas elegibles de la estrategia B.
 
-* Si las dos estrategias son **sin combinar** o en orden secuencial (1 y 2), las dos ofertas aptas principales de la primera estrategia se devuelven en la primera fila. Si no hay dos ofertas aptas para la primera estrategia, el motor de decisión pasará a la siguiente estrategia en secuencia para encontrar tantas ofertas que aún se necesitan y, finalmente, devolverá una reserva si es necesario.
+* Si las dos estrategias están **sin combinar** o en orden secuencial (1 y 2), las dos ofertas principales elegibles de la primera estrategia se devolverán en la primera fila. Si no hay dos ofertas aptas para la primera estrategia, el motor de decisión pasará a la siguiente estrategia en secuencia para encontrar tantas ofertas que aún se necesitan y, finalmente, devolverá una reserva si es necesario.
 
   ![](assets/decision-code-based-consecutive-strategies.png)
 
-* Si las dos colecciones son **evaluado al mismo tiempo**, ya que hay dos ofertas elegibles de la estrategia A y tres ofertas elegibles de la estrategia B, las cinco ofertas se apilarán todas juntas en función del valor determinado por los métodos de clasificación respectivos. Se solicitan dos ofertas, por lo que se devolverán las dos ofertas aptas principales de estas cinco ofertas.
+* Si las dos colecciones se **evalúan al mismo tiempo**, ya que hay dos ofertas elegibles de la estrategia A y tres ofertas elegibles de la estrategia B, las cinco ofertas se apilarán todas juntas en función del valor determinado por los métodos de clasificación respectivos. Se solicitan dos ofertas, por lo que se devolverán las dos ofertas aptas principales de estas cinco ofertas.
 
   ![](assets/decision-code-based-combined-strategies.png)
 
@@ -141,8 +141,11 @@ Las ofertas de estrategia de mayor prioridad se evalúan primero y se añaden a 
 
 Las ofertas de Estrategia 1 y Estrategia 2 se evalúan juntas (Oferta 1, Oferta 2, Oferta 3, Oferta 4, Oferta 5). Digamos que el resultado es:
 
-Oferta 1 - 10 Oferta 2 - 20 Oferta 3 - 30 de Estrategia 1, 45 de Estrategia 2. Se tendrá en cuenta el más alto de ambos, por lo que se tienen en cuenta 45.
-Oferta 4 - 40 Oferta 5 - 50
+Oferta 1 - 10
+Oferta 2 - 20
+Oferta 3 - 30 de Estrategia 1, 45 de Estrategia 2. Se tendrá en cuenta el más alto de ambos, por lo que se tienen en cuenta 45.
+Oferta 4 - 40
+Oferta 5 - 50
 
 Las ofertas clasificadas ahora son las siguientes: Oferta 5, Oferta 3, Oferta 4, Oferta 2, Oferta 1.
 
@@ -159,27 +162,27 @@ Las ofertas clasificadas ahora son las siguientes: Oferta 5 , Oferta 3, Oferta 4
 
 ## Uso de la política de decisión en el editor de código {#use-decision-policy}
 
-Una vez creada, la política de decisión se puede utilizar en el [editor de personalización](../code-based/create-code-based.md#edit-code). Para ello, siga los pasos que aparecen a continuación.
+Una vez creada, la directiva de decisión se puede usar en el [editor de personalización](../code-based/create-code-based.md#edit-code). Para ello, siga los pasos que aparecen a continuación.
 
 >[!NOTE]
 >
->La experiencia basada en código aprovecha las [!DNL Journey Optimizer] editor de personalización con todas sus funcionalidades de personalización y creación. [Más información](../personalization/personalization-build-expressions.md)
+>La experiencia basada en código aprovecha el editor de personalización [!DNL Journey Optimizer] con todas sus capacidades de personalización y creación. [Más información](../personalization/personalization-build-expressions.md)
 
-1. Haga clic en **[!UICONTROL Insertar política]** botón. Se agrega el código correspondiente a la política de decisión.
+1. Haga clic en el botón **[!UICONTROL Insertar directiva]**. Se agrega el código correspondiente a la política de decisión.
 
    ![](assets/decision-code-based-add-decision.png)
 
    >[!NOTE]
    >
-   >Esta secuencia se repetirá el número de veces que desee que se devuelva la política de decisión. Por ejemplo, si elige devolver 2 elementos cuando [creación de la decisión](#add-decision), la misma secuencia se repetirá dos veces.
+   >Esta secuencia se repetirá el número de veces que desee que se devuelva la política de decisión. Por ejemplo, si eligió devolver 2 elementos al [crear la decisión](#add-decision), la misma secuencia se repetirá dos veces.
 
-1. Ahora puede agregar todos los atributos de decisión que desee dentro de ese código. Los atributos disponibles se almacenan en **[!UICONTROL Ofertas]** esquema del catálogo. Los atributos personalizados se almacenan en **`_<imsOrg`>** carpeta y atributos estándar en la **`_experience`** carpeta. [Más información sobre el esquema del catálogo de ofertas](catalogs.md)
+1. Ahora puede agregar todos los atributos de decisión que desee dentro de ese código. Los atributos disponibles se almacenan en el esquema del catálogo **[!UICONTROL Ofertas]**. Los atributos personalizados se almacenan en la carpeta **`_<imsOrg`>** y los atributos estándar en la carpeta **`_experience`**. [Más información sobre el esquema del catálogo de ofertas](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
 
    >[!NOTE]
    >
-   >Para el seguimiento de elementos de la política de decisión, la variable `trackingToken`debe agregarse el atributo como se indica a continuación para el contenido de la directiva de decisión:
+   >Para el seguimiento de elementos de la directiva de decisión, el atributo `trackingToken` debe agregarse de la siguiente manera para el contenido de la directiva de decisión:
    >`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Haga clic en cada carpeta para expandirla. Coloque el cursor del ratón en la ubicación deseada y haga clic en el icono + situado junto al atributo que desee añadir. Puede agregar todos los atributos que desee al código.
@@ -194,10 +197,10 @@ Una vez creada, la política de decisión se puede utilizar en el [editor de per
 
 Si trabaja con Customer Journey Analytics, puede crear paneles de informes personalizados para sus campañas basadas en código aprovechando Experience Decisioning.
 
-A continuación se enumeran los pasos principales. Encontrará información detallada sobre cómo trabajar con un Customer Journey Analytics en la [Documentación del Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}.
+A continuación se enumeran los pasos principales. Encontrará información detallada sobre cómo trabajar con el Customer Journey Analytics en la [documentación del Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}.
 
-1. Creación y configuración de un **conexión** en Customer Journey Analytics. Esto le permite conectarse al conjunto de datos para el que desea crear informes. [Obtenga información sobre cómo crear una conexión](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
+1. Cree y configure una **conexión** en el Customer Journey Analytics. Esto le permite conectarse al conjunto de datos para el que desea crear informes. [Aprenda a crear una conexión](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
 
-1. Crear un **vista de datos** y asociarlo a la conexión creada anteriormente. En el **[!UICONTROL Componentes]** pestaña, elija los campos de esquema relevantes que desea mostrar en los informes. Para Experience Decisioning, asegúrese de incluir la variable **propositioninteraction** y **visualización de propuestas** campos. [Obtenga información sobre cómo crear y configurar vistas de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
+1. Cree una **vista de datos** y asóciela a la conexión creada anteriormente. En la ficha **[!UICONTROL Componentes]**, elija los campos de esquema relevantes que desee que aparezcan en los informes. Para Experience Decisioning, asegúrese de incluir los campos **propositioninteraction** y **propositiondisplay**. [Aprenda a crear y configurar vistas de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
-1. Combinación de componentes de datos, tablas y visualizaciones en **proyectos de workspace** para crear y compartir informes para su campaña basada en código.[Obtenga información sobre cómo crear proyectos de Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
+1. Combine componentes, tablas y visualizaciones de datos en **proyectos del espacio de trabajo** para crear y compartir informes para su campaña basada en código.[Aprenda a crear proyectos del área de trabajo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}

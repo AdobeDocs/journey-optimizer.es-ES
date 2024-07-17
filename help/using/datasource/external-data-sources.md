@@ -31,7 +31,7 @@ Las fuentes de datos externas permiten definir una conexión a sistemas de terce
 
 >[!NOTE]
 >
->Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas. Para obtener más información sobre las respuestas, consulte [sección](../action/action-response.md)
+>Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas. Para obtener más información sobre las respuestas, consulte esta [sección](../action/action-response.md)
 
 Las API de REST que utilizan POST o GET y arrojan JSON son compatibles. Se admiten los modos de autenticación básica y personalizada de la clave de API.
 
@@ -46,7 +46,7 @@ La llamada se compone de una dirección URL principal (_https://api.adobeweather
 
 Estos son los pasos principales para crear y configurar una nueva fuente de datos externa:
 
-1. En la lista de fuentes de datos, haga clic en **[!UICONTROL Crear fuente de datos]** para crear una nueva fuente de datos externa.
+1. En la lista de orígenes de datos, haga clic en **[!UICONTROL Crear Source de datos]** para crear un nuevo origen de datos externo.
 
    ![](assets/journey25.png)
 
@@ -75,9 +75,9 @@ Estos son los pasos principales para crear y configurar una nueva fuente de dato
 
    >[!NOTE]
    >
-   >Cuando se realiza la llamada de autenticación, la variable `<username>:<password>` La cadena, codificada en base64, se agrega en el encabezado Autenticación.
+   >Cuando se realiza la llamada de autenticación, se agrega la cadena `<username>:<password>`, codificada en base64, en el encabezado Autenticación.
 
-   Para obtener más información sobre el modo de autenticación personalizada, consulte [esta sección](../datasource/external-data-sources.md#custom-authentication-mode). En nuestro ejemplo, elegimos el modo de autenticación de clave de API:
+   Para obtener más información sobre el modo de autenticación personalizada, vea [esta sección](../datasource/external-data-sources.md#custom-authentication-mode). En nuestro ejemplo, elegimos el modo de autenticación de clave de API:
 
    * **[!UICONTROL Tipo]**: &quot;clave de API&quot;
    * **[!UICONTROL Nombre]**: &quot;appid&quot; (el nombre del parámetro de clave de API)
@@ -86,20 +86,20 @@ Estos son los pasos principales para crear y configurar una nueva fuente de dato
 
    ![](assets/journey28.png)
 
-1. Añada un nuevo grupo de campos a cada conjunto de parámetros de API haciendo clic en **[!UICONTROL Agregar nuevo grupo de campos]**. El nombre del grupo de campos solo puede contener caracteres alfanuméricos y guiones bajos. La longitud máxima es de 30 caracteres. En nuestro ejemplo, necesitamos crear dos grupos de campos, uno para cada conjunto de parámetros (city y long/lat).
+1. Agregue un nuevo grupo de campos para cada conjunto de parámetros de API haciendo clic en **[!UICONTROL Agregar nuevo grupo de campos]**. El nombre del grupo de campos solo puede contener caracteres alfanuméricos y guiones bajos. La longitud máxima es de 30 caracteres. En nuestro ejemplo, necesitamos crear dos grupos de campos, uno para cada conjunto de parámetros (city y long/lat).
 
 Para el conjunto de parámetros &quot;long/lat&quot;, creamos un grupo de campos con la siguiente información:
 
-* **[!UICONTROL Utilizado en]**: muestra el número de recorridos que utilizan un grupo de campos. Puede hacer clic en **[!UICONTROL Ver recorridos]** para mostrar la lista de recorridos que utilizan este grupo de campos.
+* **[!UICONTROL Utilizado en]**: muestra el número de recorridos que utilizan un grupo de campos. Puede hacer clic en el icono **[!UICONTROL Ver recorridos]** para mostrar la lista de recorridos usando este grupo de campos.
 * **[!UICONTROL Método]**: seleccione el POST o el método de GET. En nuestro caso, seleccionamos el método GET.
-* **[!UICONTROL Valores dinámicos]**: introduzca los diferentes parámetros separados por coma, &quot;long,lat&quot; en nuestro ejemplo. Dado que los valores de parámetro dependen del contexto de ejecución, se definirán en los recorridos. [Más información](../building-journeys/expression/expressionadvanced.md)
-* **[!UICONTROL Carga de respuesta]**: haga clic dentro de **[!UICONTROL Carga útil]** y pegue un ejemplo de la carga útil devuelta por la llamada. Para nuestro ejemplo, hemos utilizado una carga útil encontrada en un sitio web de la API meteorológica. Compruebe que los tipos de campo son correctos. Cada vez que se llama a la API, el sistema recupera todos los campos incluidos en el ejemplo de carga útil. Observe que puede hacer clic en **[!UICONTROL Pegar una nueva carga útil]** si desea cambiar la carga útil que se mueve actualmente.
+* **[!UICONTROL Valores dinámicos]**: escriba los diferentes parámetros separados por coma, &quot;long,lat&quot; en nuestro ejemplo. Dado que los valores de parámetro dependen del contexto de ejecución, se definirán en los recorridos. [Más información](../building-journeys/expression/expressionadvanced.md)
+* **[!UICONTROL Carga de respuesta]**: haga clic dentro del campo **[!UICONTROL Carga útil]** y pegue un ejemplo de la carga útil devuelta por la llamada. Para nuestro ejemplo, hemos utilizado una carga útil encontrada en un sitio web de la API meteorológica. Compruebe que los tipos de campo son correctos. Cada vez que se llama a la API, el sistema recupera todos los campos incluidos en el ejemplo de carga útil. Tenga en cuenta que puede hacer clic en **[!UICONTROL Pegar una nueva carga útil]** si desea cambiar la carga útil que se pasa actualmente.
 
 * **[!UICONTROL Carga útil enviada]**: este campo no aparece en nuestro ejemplo. Solo está disponible si selecciona el método POST. Pegue la carga útil que se enviará al sistema de terceros.
 
-En caso de una llamada de GET que requiera parámetros, introduzca los parámetros en la variable **[!UICONTROL Valores dinámicos]** y se añaden automáticamente al final de la llamada. En caso de una llamada POST, debe hacer esto:
+En el caso de una llamada de GET que requiera parámetros, ingrese los parámetros en el campo **[!UICONTROL Valores dinámicos]** y se agregarán automáticamente al final de la llamada. En caso de una llamada POST, debe hacer esto:
 
-* enumerar los parámetros que se van a pasar en el momento de la llamada en el **[!UICONTROL Valores dinámicos]** campo (en el ejemplo siguiente: &quot;identificador&quot;).
+* enumera los parámetros que se pasarán en el momento de la llamada en el campo **[!UICONTROL Valores dinámicos]** (en el ejemplo siguiente: &quot;identificador&quot;).
 * Especificarlos también con la misma sintaxis en el cuerpo de la carga útil enviada. Para ello, debe agregar: &quot;param&quot;: &quot;nombre del parámetro&quot; (en el ejemplo siguiente: &quot;identificador&quot;). Siga esta sintaxis:
 
   ```

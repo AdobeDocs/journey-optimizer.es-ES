@@ -15,7 +15,7 @@ ht-degree: 17%
 
 # Creación de experiencias web {#create-web}
 
-[!DNL Journey Optimizer] permite personalizar la experiencia web que ofrece a sus clientes a través de campañas web entrantes.
+[!DNL Journey Optimizer] le permite personalizar la experiencia web que entrega a sus clientes a través de campañas web entrantes.
 
 >[!CAUTION]
 >
@@ -43,7 +43,7 @@ Para empezar a crear una experiencia web a través de una campaña, siga los pas
 
 1. Cree una campaña. [Más información](../campaigns/create-campaign.md)
 
-1. Seleccione el **[!UICONTROL Web]** acción.
+1. Seleccione la acción **[!UICONTROL Web]**.
 
 1. Defina una superficie web.
 
@@ -51,29 +51,29 @@ Para empezar a crear una experiencia web a través de una campaña, siga los pas
    >
    >Una superficie web es una propiedad web identificada por una dirección URL a la que se envía el contenido. Puede coincidir con una dirección URL de una sola página o varias páginas, lo que le permite enviar modificaciones en una o varias páginas web.
 
-   Puede introducir una **[!UICONTROL URL de página]** si desea aplicar los cambios solo a una página.
+   Puede ingresar una **[!UICONTROL URL de página]** si desea aplicar los cambios solo a una página.
 
    ![](assets/web-campaign-surface.png)
 
-1. O puede crear una **[!UICONTROL Regla de coincidencia de páginas]** para dirigirse a varias direcciones URL que coincidan con la misma regla; por ejemplo, si desea aplicar los cambios a un banner a pantalla completa en todo un sitio web o agregar una imagen superior que se muestre en todas las páginas de producto de un sitio web.
+1. O puede generar una **[!UICONTROL regla que coincida con las páginas]** para dirigirse a varias direcciones URL que coincidan con la misma regla; por ejemplo, si desea aplicar los cambios a un banner a pantalla completa en todo un sitio web o agregar una imagen superior que se muestre en todas las páginas de productos de un sitio web.
 
    Para ello, seleccione **[!UICONTROL Regla de coincidencia de páginas]** y haga clic en **[!UICONTROL Crear regla]**.
 
    ![](assets/web-campaign-matching-rule.png)
 
-1. Defina los criterios de **[!UICONTROL Dominio]** y **[!UICONTROL Página]** campos.
+1. Defina sus criterios para los campos **[!UICONTROL Dominio]** y **[!UICONTROL Página]**.
 
-   Por ejemplo, si desea editar elementos que se muestran en todas las páginas de productos de sexo femenino del sitio web de Luma, seleccione **[!UICONTROL Dominio]** > **[!UICONTROL Comienza por]** > `luma` y **[!UICONTROL Página]** > **[!UICONTROL Contains]** > `women`.
+   Por ejemplo, si desea editar elementos que se muestran en todas las páginas de productos femeninas del sitio web de Luma, seleccione **[!UICONTROL Dominio]** > **[!UICONTROL Comienza con]** > `luma` y **[!UICONTROL Página]** > **[!UICONTROL Contiene]** > `women`.
 
    ![](assets/web-pages-matching-rule.png)
 
-1. Guarde los cambios. La regla se muestra en la **[!UICONTROL Crear campaña]** pantalla.
+1. Guarde los cambios. La regla se muestra en la pantalla **[!UICONTROL Crear campaña]**.
 
    ![](assets/web-pages-matching-rule-example.png)
 
 1. Una vez definida la superficie web, seleccione **[!UICONTROL Crear]**.
 
-1. Complete los pasos para crear una campaña web, como las propiedades de la campaña, [audiencia](../audience/about-audiences.md), y [programación](../campaigns/create-campaign.md#schedule).
+1. Complete los pasos para crear una campaña web, como las propiedades de la campaña, [audiencia](../audience/about-audiences.md) y [programación](../campaigns/create-campaign.md#schedule).
 
    ![](assets/web-campaign-steps.png)
 
@@ -86,9 +86,9 @@ Para obtener más información sobre cómo configurar una campaña, consulte [es
 >title="Previsualizar la experiencia web"
 >abstract="Obtenga una simulación del aspecto que tendrá su experiencia web."
 
-Una vez que [ha creado su experiencia web](edit-web-content.md) con el diseñador web, puede utilizar perfiles de prueba para obtener una vista previa de las páginas web modificadas. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este mediante los datos del perfil de prueba.
+Una vez que [haya creado su experiencia web](edit-web-content.md) con el diseñador web, puede usar perfiles de prueba para obtener una vista previa de las páginas web modificadas. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este mediante los datos del perfil de prueba.
 
-Para ello, haga clic en **[!UICONTROL Simular contenido]** desde la pantalla editar contenido de la campaña web o el diseñador web, añada un perfil de prueba para comprobar la página web con los datos del perfil de prueba.
+Para ello, haga clic en **[!UICONTROL Simular contenido]** desde la pantalla de contenido de edición de campañas web o desde el diseñador web. A continuación, añada un perfil de prueba para comprobar la página web mediante los datos del perfil de prueba.
 
 ![](assets/web-designer-preview.png)
 
@@ -98,38 +98,38 @@ También puede abrirlo en el explorador predeterminado o copiar la dirección UR
 >
 >Al copiar la dirección URL de prueba, el contenido mostrado es el personalizado para el perfil de prueba utilizado cuando se generó la simulación de contenido en [!DNL Journey Optimizer].
 
-Encontrará información detallada sobre cómo seleccionar perfiles de prueba y previsualizar el contenido en el [Gestión de contenido](../content-management/preview-test.md) sección.
+Encontrará información detallada sobre cómo seleccionar perfiles de prueba y obtener una vista previa del contenido en la sección [Administración de contenido](../content-management/preview-test.md).
 
 ## Activación de la campaña web {#activate-web-campaign}
 
-Una vez que haya definido su [configuración de campañas web](#configure-web-campaign) y ha editado el contenido como ha deseado utilizando la variable [diseñador web](edit-web-content.md#work-with-web-designer), puede revisar y activar su campaña web. Siga los pasos a continuación.
+Una vez que haya definido la [configuración de la campaña web](#configure-web-campaign) y haya editado el contenido como desee con el [diseñador web](edit-web-content.md#work-with-web-designer), podrá revisar y activar la campaña web. Siga los pasos a continuación.
 
 <!--
 >[!NOTE]
 >
 >You can also preview your web campaign content before activating it. [Learn more](#test-web-campaign)-->
 
-1. En la campaña web, seleccione **[!UICONTROL Revisar para activar]**.
+1. En su campaña web, seleccione **[!UICONTROL Revisar para activar]**.
 
 1. Compruebe y edite si es necesario el contenido, las propiedades, la superficie, la audiencia y la programación.
 
-1. Seleccionar **[!UICONTROL Activar]**.
+1. Seleccione **[!UICONTROL Activar]**.
 
    ![](assets/web-campaign-activate.png)
 
    >[!NOTE]
    >
-   >Después de hacer clic en **[!UICONTROL Activar]**, los cambios en las campañas web pueden tardar hasta 15 minutos en estar disponibles en el sitio web.
+   >Después de hacer clic en **[!UICONTROL Activar]**, los cambios de las campañas web pueden tardar hasta 15 minutos en estar disponibles en el sitio web.
 
-La campaña web toma la **[!UICONTROL Activo]** estado y ahora son visibles para la audiencia seleccionada. Cada destinatario de la campaña puede ver las modificaciones agregadas al sitio web mediante el [!DNL Journey Optimizer] diseñador web.
+La campaña web toma el estado **[!UICONTROL Activo]** y ahora es visible para la audiencia seleccionada. Cada destinatario de la campaña puede ver las modificaciones agregadas al sitio web mediante el diseñador web [!DNL Journey Optimizer].
 
 >[!NOTE]
 >
->Si ha definido una programación para la campaña web, tiene el **[!UICONTROL Programado]** estado hasta que se alcancen la fecha y la hora de inicio.
+>Si ha definido una programación para su campaña web, tiene el estado **[!UICONTROL Programado]** hasta que se alcance la fecha y la hora de inicio.
 >
 >Si activa una campaña web que afecte a las mismas páginas que otra campaña que ya está activa, todos los cambios se aplicarán a las páginas web.
 
-Obtenga más información sobre la activación de campañas en [esta sección](../campaigns/review-activate-campaign.md).
+Más información sobre cómo activar campañas en [esta sección](../campaigns/review-activate-campaign.md).
 
 ## Detener una campaña web {#stop-web-campaign}
 

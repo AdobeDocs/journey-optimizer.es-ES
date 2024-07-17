@@ -9,7 +9,7 @@ exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 10%
 
 Una oferta personalizada es un mensaje de marketing personalizable basado en reglas de elegibilidad y restricciones.
 
-Puede crear una oferta personalizada realizando una solicitud de POST a [!DNL Offer Library] API.
+Puede crear una oferta personalizada realizando una solicitud de POST a la API [!DNL Offer Library].
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* en el encabezado de la solicitud:
+La siguiente tabla muestra los valores válidos que comprenden el campo *Content-Type* del encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -94,7 +94,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=personal
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles de la oferta personalizada recién creada, incluido el ID. Puede usar el complemento `id` en pasos posteriores para actualizar o eliminar la oferta personalizada.
+Una respuesta correcta devuelve los detalles de la oferta personalizada recién creada, incluido el ID. Puede usar `id` en pasos posteriores para actualizar o eliminar su oferta personalizada.
 
 ```json
 {
@@ -112,4 +112,4 @@ Una respuesta correcta devuelve los detalles de la oferta personalizada recién 
 
 ## Limitaciones {#limitations}
 
-Actualmente, las representaciones de oferta y algunas restricciones de oferta no son compatibles con Mobile [!DNL Experience Edge] flujos de trabajo, por ejemplo `Capping`. El `Capping` el valor del campo especifica el número de veces que se puede presentar una oferta entre todos los usuarios. Para obtener más información, consulte [Documentación de restricciones y reglas de idoneidad de ofertas](../../../../offers/offer-library/creating-personalized-offers.md).
+Las representaciones de oferta y algunas restricciones de oferta no son compatibles actualmente con los flujos de trabajo móviles [!DNL Experience Edge], por ejemplo `Capping`. El valor del campo `Capping` especifica el número de veces que se puede presentar una oferta entre todos los usuarios. Para obtener más información, consulte [Documentación sobre reglas de elegibilidad de ofertas y restricciones](../../../../offers/offer-library/creating-personalized-offers.md).

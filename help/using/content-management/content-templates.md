@@ -11,7 +11,7 @@ exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -26,7 +26,7 @@ Esta funcionalidad permite a los usuarios orientados a contenido trabajar en pla
 
 Por ejemplo: un usuario de su compañía solo está a cargo del contenido y, por lo tanto, no tiene acceso a campañas ni recorridos. Sin embargo, este usuario puede crear una plantilla de correo electrónico que los especialistas en marketing de su organización podrán seleccionar para utilizarla en todos los correos electrónicos como punto de partida.
 
-También puede crear y administrar plantillas de contenido mediante API. Para obtener más información, consulte [Documentación de API de Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+También puede crear y administrar plantillas de contenido mediante API. Para obtener más información, consulte la [documentación de las API de Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
 ➡️ [Aprenda a crear y utilizar plantillas en este vídeo](#video-templates)
 
@@ -34,7 +34,7 @@ También puede crear y administrar plantillas de contenido mediante API. Para ob
 >
 >Actualmente, las plantillas de contenido no están disponibles para el canal Web.
 >
->Para crear, editar y eliminar plantillas de contenido, debe tener **[!DNL Manage library items]** permiso incluido en el **[!DNL Content Library Manager]** perfil del producto. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
+>Para crear, editar y eliminar plantillas de contenido, debe incluir el permiso **[!DNL Manage library items]** en el perfil de producto **[!DNL Content Library Manager]**. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
 
 ## Vídeo explicativo {#video-templates}
 

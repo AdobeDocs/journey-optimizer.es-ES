@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Definir contenido específico de la página de aterrizaje
+title: Definición del contenido específico de la página de aterrizaje
 description: Aprenda a diseñar contenido específico de una página de aterrizaje en Journey Optimizer
 feature: Landing Pages
 topic: Content Management
@@ -12,25 +12,25 @@ exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: 050253e0f74f506649540ae3656a3a1f050331cb
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
-# Definir contenido específico de la página de aterrizaje {#lp-content}
+# Definición del contenido específico de la página de aterrizaje {#lp-content}
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="Uso de componentes de contenido"
 >abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una página de aterrizaje. Para definir contenido específico que permita a los usuarios seleccionar y enviar sus opciones, utilice el componente de formulario."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="Añadir componentes de contenido"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html?lang=es#add-content-components" text="Añadir componentes de contenido"
 
 Para diseñar el contenido de la página de aterrizaje, puede utilizar los mismos componentes que para un correo electrónico. [Más información](../email/content-components.md#add-content-components)
 
-Para diseñar contenido específico que permita a los usuarios seleccionar y enviar sus opciones, [uso del componente del formulario](#use-form-component) y defina su [estilos específicos de páginas de aterrizaje](#lp-form-styles).
+Para diseñar contenido específico que permita a los usuarios seleccionar y enviar sus opciones, [use el componente de formulario](#use-form-component) y defina sus [estilos específicos de página de aterrizaje](#lp-form-styles).
 
 >[!NOTE]
 >
->También puede crear una página de aterrizaje de pulsación sin un **[!UICONTROL Form]** componente. En ese caso, la página de aterrizaje se mostrará a los usuarios, pero no es necesario que envíen ningún formulario. Esto puede resultar útil si solo desea mostrar una página de aterrizaje sin requerir ninguna acción por parte de los destinatarios, como la inclusión o la exclusión, o si desea proporcionar información que no requiera la entrada del usuario.
+>También puede crear una página de aterrizaje de pulsación sin un componente **[!UICONTROL Form]**. En ese caso, la página de aterrizaje se mostrará a los usuarios, pero no es necesario que envíen ningún formulario. Esto puede resultar útil si solo desea mostrar una página de aterrizaje sin requerir ninguna acción por parte de los destinatarios, como la inclusión o la exclusión, o si desea proporcionar información que no requiera la entrada del usuario.
 
 Con el diseñador de contenido de página de aterrizaje, también puede aprovechar los datos contextuales procedentes de la página principal en una subpágina. [Más información](#use-primary-page-context)
 
@@ -38,34 +38,34 @@ Con el diseñador de contenido de página de aterrizaje, también puede aprovech
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
->title="Definición de los campos de componente del formulario"
->abstract="Defina cómo verán y enviarán sus destinatarios sus opciones desde la página de aterrizaje."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="Definir estilos de formulario de página de aterrizaje"
+>title="Definir los campos del componente de formulario"
+>abstract="Defina cómo verán y enviarán sus opciones los destinatarios desde la página de aterrizaje."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="Definir estilos de formulario de una página de aterrizaje"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
 >title="Qué sucede al hacer clic en el botón"
->abstract="Defina lo que ocurrirá cuando los usuarios envíen el formulario de página de aterrizaje."
+>abstract="Defina lo que sucederá cuando los usuarios envíen el formulario de página de aterrizaje."
 
-Para definir contenido específico que permita a los usuarios seleccionar y enviar sus opciones desde la página de aterrizaje, utilice el **[!UICONTROL Form]** componente. Para ello, siga los pasos que aparecen a continuación.
+Para definir contenido específico que permita a los usuarios seleccionar y enviar sus opciones desde la página de aterrizaje, use el componente **[!UICONTROL Formulario]**. Para ello, siga los pasos que aparecen a continuación.
 
-1. Arrastre y suelte la página de aterrizaje específica **[!UICONTROL Form]** de la paleta izquierda al espacio de trabajo principal.
+1. Arrastre y suelte el componente **[!UICONTROL Formulario]** específico de la página de aterrizaje de la paleta izquierda en el área de trabajo principal.
 
    ![](assets/lp_designer-form-component.png)
 
    >[!NOTE]
    >
-   >El **[!UICONTROL Form]** El componente solo se puede utilizar una vez en la misma página.
+   >El componente **[!UICONTROL Form]** solo se puede usar una vez en la misma página.
 
-1. Selecciónelo. El **[!UICONTROL Contenido de formulario]** La pestaña se muestra en la paleta derecha para permitirle editar los diferentes campos del formulario.
+1. Selecciónelo. La pestaña **[!UICONTROL Contenido del formulario]** se muestra en la paleta derecha para permitirle editar los diferentes campos del formulario.
 
    ![](assets/lp_designer-form-content-options.png)
 
    >[!NOTE]
    >
-   >Cambie a la **[!UICONTROL Estilos]** en cualquier momento para editar los estilos del contenido del componente del formulario. [Más información](#define-lp-styles)
+   >Cambie a la pestaña **[!UICONTROL Estilos]** en cualquier momento para editar los estilos del contenido del componente del formulario. [Más información](#define-lp-styles)
 
-1. Desde el **[!UICONTROL Casilla 1]** , puede editar la etiqueta correspondiente a esta casilla de verificación.
+1. Desde la sección **[!UICONTROL Casilla de verificación 1]**, puede editar la etiqueta correspondiente a esta casilla de verificación.
 
 1. Defina si esta casilla de verificación incluye o excluye a los usuarios: ¿aceptan recibir comunicaciones o piden que ya no se les contacte?
 
@@ -73,94 +73,94 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 
    Seleccione entre las tres opciones siguientes:
 
-   * **[!UICONTROL Adhesión si está marcada]**: los usuarios deben marcar la casilla de verificación para el consentimiento (inclusión).
-   * **[!UICONTROL Excluirse si está marcado]**: los usuarios deben marcar la casilla para eliminar su consentimiento (exclusión).
+   * **[!UICONTROL Adhesión si está marcada]**: los usuarios deben marcar la casilla para dar su consentimiento (inclusión).
+   * **[!UICONTROL Exclusión si está marcada]**: los usuarios deben marcar la casilla para eliminar su consentimiento (exclusión).
    * **[!UICONTROL Adhesión si está marcada, exclusión si no está marcada]**: esta opción le permite insertar una sola casilla de verificación para la inclusión/exclusión. Los usuarios deben marcar la casilla de verificación para el consentimiento (inclusión) y desmarcar para eliminar su consentimiento (exclusión).
 
 1. Elija lo que desea actualizar entre las tres opciones siguientes:
 
    ![](assets/lp_designer-form-update-options.png)
 
-   * **[!UICONTROL Lista de suscripción]**: Debe seleccionar la lista de suscripción que se actualizará si el perfil selecciona esta casilla de verificación. Más información sobre [listas de suscripción](subscription-list.md).
+   * **[!UICONTROL Lista de suscripción]**: debe seleccionar la lista de suscripción que se actualizará si el perfil selecciona esta casilla de verificación. Más información sobre [listas de suscripción](subscription-list.md).
 
      <!--![](assets/lp_designer-form-subs-list.png)-->
 
    * **[!UICONTROL Canal (correo electrónico)]**: la inclusión o exclusión se aplica a todo el canal. Por ejemplo, si un perfil que se excluye tiene dos direcciones de correo electrónico, ambas se excluirán de todas las comunicaciones.
 
-   * **[!UICONTROL Identidad del correo electrónico]**: la inclusión o exclusión solo se aplica a la dirección de correo electrónico que se utilizó para acceder a la página de aterrizaje. Por ejemplo, si un perfil tiene dos direcciones de correo electrónico, solo la que se utilizó para la inclusión recibirá comunicaciones de su marca.
+   * **[!UICONTROL Identidad del correo electrónico]**: la opción de inclusión u exclusión solo se aplica a la dirección de correo electrónico que se utilizó para acceder a la página de aterrizaje. Por ejemplo, si un perfil tiene dos direcciones de correo electrónico, solo la que se utilizó para la inclusión recibirá comunicaciones de su marca.
 
-1. Clic **[!UICONTROL Añadir campo]** > **[!UICONTROL Casilla]** para añadir otra casilla de verificación. Repita los pasos anteriores para definir sus propiedades.
+1. Haga clic en **[!UICONTROL Agregar campo]** > **[!UICONTROL Casilla]** para agregar otra casilla de verificación. Repita los pasos anteriores para definir sus propiedades.
 
    ![](assets/lp_designer-form-checkbox-2.png)
 
-1. También puede agregar un **[!UICONTROL Campo de texto]**.
+1. También puede agregar **[!UICONTROL Campo de texto]**.
 
    ![](assets/lp_designer-form-add-text-field.png)
 
-   * Introduzca el **[!UICONTROL Etiqueta]** que se muestran encima del campo en el formulario.
+   * Escriba la **[!UICONTROL Etiqueta]** que se mostrará sobre el campo del formulario.
 
-   * Introduzca una **[!UICONTROL Marcador]** texto. Se muestra dentro del campo antes de que el usuario rellene el campo.
+   * Escriba un texto de **[!UICONTROL marcador de posición]**. Se muestra dentro del campo antes de que el usuario rellene el campo.
 
-   * Compruebe la **[!UICONTROL Definir campo de formulario como obligatorio]** si es necesario. En ese caso, la página de aterrizaje solo se puede enviar si el usuario ha rellenado este campo. Si no se rellena un campo obligatorio, aparece un mensaje de error cuando el usuario envía la página.
+   * Marque la opción **[!UICONTROL Hacer que el campo de formulario sea obligatorio]** si es necesario. En ese caso, la página de aterrizaje solo se puede enviar si el usuario ha rellenado este campo. Si no se rellena un campo obligatorio, aparece un mensaje de error cuando el usuario envía la página.
 
    ![](assets/lp_designer-form-text-field.png)
 
-1. Una vez añadidas todas las casillas de verificación o campos de texto deseados, haga clic en **[!UICONTROL Llamada a la acción]** para expandir la sección correspondiente. Permite definir el comportamiento del botón en la variable **[!UICONTROL Form]** componente.
+1. Una vez que haya agregado todas las casillas de verificación y/o campos de texto deseados, haga clic en **[!UICONTROL Llamar a la acción]** para expandir la sección correspondiente. Permite definir el comportamiento del botón en el componente **[!UICONTROL Form]**.
 
    ![](assets/lp_designer-form-call-to-action.png)
 
 1. Defina lo que sucederá al hacer clic en el botón:
 
-   * **[!UICONTROL URL de redireccionamiento]**: introduzca la dirección URL de la página a la que se redirigirá a los usuarios.
+   * **[!UICONTROL URL de redireccionamiento]**: escriba la dirección URL de la página a la que se redirigirá a los usuarios.
    * **[!UICONTROL Texto de confirmación]**: escriba el texto de confirmación que se mostrará.
-   * **[!UICONTROL Vínculo a una subpágina]**: configure un [subpágina](create-lp.md#configure-subpages) y selecciónelo en la lista desplegable que se muestra.
+   * **[!UICONTROL Vínculo a una subpágina]**: configure una [subpágina](create-lp.md#configure-subpages) y selecciónela en la lista desplegable que se muestra.
 
    ![](assets/lp_designer-form-confirmation-action.png)
 
 1. Defina lo que sucederá al hacer clic en el botón en caso de que se produzca un error:
 
-   * **[!UICONTROL URL de redireccionamiento]**: introduzca la dirección URL de la página a la que se redirigirá a los usuarios.
-   * **[!UICONTROL Texto de error]**: escriba el texto de error que se mostrará. Puede obtener una vista previa del texto del error al definir la variable [estilos de formulario](#define-lp-styles).
+   * **[!UICONTROL URL de redireccionamiento]**: escriba la dirección URL de la página a la que se redirigirá a los usuarios.
+   * **[!UICONTROL Texto de error]**: escriba el texto de error que se mostrará. Puede obtener una vista previa del texto del error al definir [estilos de formulario](#define-lp-styles).
 
-   * **[!UICONTROL Vínculo a una subpágina]**: configure un [subpágina](create-lp.md#configure-subpages) y selecciónelo en la lista desplegable que se muestra.
+   * **[!UICONTROL Vínculo a una subpágina]**: configure una [subpágina](create-lp.md#configure-subpages) y selecciónela en la lista desplegable que se muestra.
 
    ![](assets/lp_designer-form-error.png)
 
-1. Si desea realizar actualizaciones adicionales al enviar el formulario, seleccione **[!UICONTROL Opt-in]** o **[!UICONTROL Opción de exclusión]** y defina si desea actualizar una lista de suscripción, el canal o solo la dirección de correo electrónico utilizada.
+1. Si desea realizar actualizaciones adicionales al enviar el formulario, seleccione **[!UICONTROL Adherirse]** o **[!UICONTROL Excluirse]** y defina si desea actualizar una lista de suscripción, el canal o solo la dirección de correo electrónico utilizada.
 
    ![](assets/lp_designer-form-additionnal-update.png)
 
-1. Guarde el contenido y haga clic en la flecha situada junto al nombre de la página para volver al [propiedades de página de aterrizaje](create-lp.md#configure-primary-page).
+1. Guarde el contenido y haga clic en la flecha situada junto al nombre de la página para volver a las [propiedades de la página de aterrizaje](create-lp.md#configure-primary-page).
 
    ![](assets/lp_designer-form-save.png)
 
-## Definir estilos de formulario de página de aterrizaje {#lp-form-styles}
+## Definir estilos de formulario de una página de aterrizaje {#lp-form-styles}
 
-1. Para modificar los estilos del contenido del componente del formulario, cambie en cualquier momento al **[!UICONTROL Estilo]** pestaña.
+1. Para modificar los estilos del contenido del componente del formulario, cambie en cualquier momento a la pestaña **[!UICONTROL Estilo]**.
 
    ![](assets/lp_designer-form-style.png)
 
-1. El **[!UICONTROL Campos]** se expande de forma predeterminada y permite editar el aspecto del campo de texto, como la fuente de la etiqueta y el marcador de posición, la posición de la etiqueta, el color de fondo del campo o el borde del campo.
+1. La sección **[!UICONTROL Campos]** se expande de forma predeterminada y le permite editar el aspecto del campo de texto, como la fuente de la etiqueta y el marcador de posición, la posición de la etiqueta, el color de fondo del campo o el borde del campo.
 
    ![](assets/lp_designer-form-style-fields.png)
 
-1. Expanda el **[!UICONTROL Casillas]** para definir el aspecto de las casillas de verificación y el texto correspondiente. Por ejemplo, puede ajustar la familia o el tamaño de la fuente o el color del borde de la casilla de verificación.
+1. Expanda la sección **[!UICONTROL Casillas de verificación]** para definir el aspecto de las casillas de verificación y el texto correspondiente. Por ejemplo, puede ajustar la familia o el tamaño de la fuente o el color del borde de la casilla de verificación.
 
    ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. Expanda el **[!UICONTROL Botones]** para modificar el aspecto del botón en el formulario de componentes. Por ejemplo, puede cambiar la fuente, agregar un borde, editar el color de la etiqueta al pasar el ratón por encima o ajustar la alineación del botón.
+1. Expanda la sección **[!UICONTROL Botones]** para modificar el aspecto del botón en el formulario componente. Por ejemplo, puede cambiar la fuente, agregar un borde, editar el color de la etiqueta al pasar el ratón por encima o ajustar la alineación del botón.
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   Puede obtener una vista previa de algunos de los ajustes, como el color de la etiqueta del botón al pasar el ratón por encima, utilizando **[!UICONTROL Simular contenido]** botón. Más información sobre las páginas de aterrizaje de prueba [aquí](create-lp.md#test-landing-page).
+   Puede obtener una vista previa de algunos de los ajustes, como el color de la etiqueta del botón al pasar el ratón por encima, usando el botón **[!UICONTROL Simular contenido]**. Obtenga más información sobre las páginas de aterrizaje de prueba [aquí](create-lp.md#test-landing-page).
 
    <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
-1. Expanda el **[!UICONTROL Diseño del formulario]** para editar la configuración del diseño, como el color de fondo, el relleno o el margen.
+1. Expanda la sección **[!UICONTROL Diseño del formulario]** para editar la configuración del diseño, como el color de fondo, el relleno o el margen.
 
    ![](assets/lp_designer-form-style-layout.png)
 
-1. Expanda el **[!UICONTROL Error de formulario]** para ajustar la visualización del mensaje de error que se muestra en caso de que se produzca un problema. Marque la opción correspondiente para previsualizar el texto de error en el formulario.
+1. Expanda la sección **[!UICONTROL Error de formulario]** para ajustar la visualización del mensaje de error que se muestra en caso de que se produzca un problema. Marque la opción correspondiente para previsualizar el texto de error en el formulario.
 
    ![](assets/lp_designer-form-error-preview.png)
 
@@ -168,21 +168,21 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 
 Puede utilizar datos contextuales procedentes de otra página dentro de la misma página de aterrizaje.
 
-Por ejemplo, si vincula una casilla de verificación <!-- or the submission of the page--> a un [lista de suscripción](subscription-list.md) en la página de aterrizaje principal, puede utilizar esa lista de suscripción en la subpágina &quot;gracias&quot;.
+Por ejemplo, si vincula una casilla de verificación <!-- or the submission of the page--> a una [lista de suscripción](subscription-list.md) en la página de aterrizaje principal, puede utilizar esa lista de suscripción en la subpágina &quot;gracias&quot;.
 
 Supongamos que vincula dos casillas de verificación en la página principal a dos listas de suscripción diferentes. Si un usuario se suscribe a uno de estos, desea mostrar un mensaje específico al enviar el formulario, en función de la casilla de verificación que haya seleccionado.
 
 Para ello, siga los pasos a continuación:
 
-1. En la página principal, vincule cada casilla de verificación del **[!UICONTROL Form]** a la lista de suscripción correspondiente. [Más información](#use-form-component).
+1. En la página principal, vincule cada casilla de verificación del componente **[!UICONTROL Form]** a la lista de suscripción correspondiente. [Más información](#use-form-component).
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 
-1. En la subpágina, coloque el puntero del mouse (ratón) donde desee insertar el texto y seleccione **[!UICONTROL Añadir personalización]** en la barra de herramientas contextual.
+1. En la subpágina, coloque el puntero del mouse (ratón) donde desee insertar el texto y seleccione **[!UICONTROL Agregar personalización]** en la barra de herramientas contextual.
 
    ![](assets/lp_designer-form-subpage-perso.png)
 
-1. En el **[!UICONTROL Editar personalización]** ventana, seleccione **[!UICONTROL Atributos contextuales]** > **[!UICONTROL Páginas de aterrizaje]** > **[!UICONTROL Contexto de página principal]** > **[!UICONTROL Suscripción]**.
+1. En la ventana **[!UICONTROL Editar personalización]**, seleccione **[!UICONTROL Atributos contextuales]** > **[!UICONTROL Páginas de aterrizaje]** > **[!UICONTROL Contexto de página principal]** > **[!UICONTROL Suscripción]**.
 
 1. Se muestran todas las listas de suscripción seleccionadas en la página principal. Seleccione los elementos relevantes mediante el icono +.
 

@@ -15,16 +15,16 @@ ht-degree: 4%
 
 # Introducción a las API de envío de ofertas {#about-decisioning-apis}
 
-Puede enviar ofertas utilizando las opciones **Decisioning** o el **Edge Decisioning** API. Además, la variable **Toma de decisiones por lotes** La API permite enviar ofertas a todos los perfiles de una audiencia determinada en una llamada. El contenido de la oferta para cada perfil de la audiencia se coloca en un conjunto de datos de Adobe Experience Platform, donde está disponible para flujos de trabajo por lotes personalizados.
+Puede entregar ofertas mediante la API **Decisioning** o **Edge Decisioning**. Además, la API **Batch Decisioning** le permite entregar ofertas a todos los perfiles de una audiencia determinada en una llamada. El contenido de la oferta para cada perfil de la audiencia se coloca en un conjunto de datos de Adobe Experience Platform, donde está disponible para flujos de trabajo por lotes personalizados.
 
-En esta página, encontrará información sobre las funcionalidades específicas disponibles con el **Decisioning** y **Edge Decisioning** API. Aunque ambos le permiten enviar ofertas a sus clientes, recomendamos utilizar el **Edge Decisioning** API siempre que sea posible para casos de uso entrantes y para garantizar una mejor latencia y rendimiento en su plataforma.
+En esta página, encontrará información sobre funcionalidades específicas disponibles con las API **Decisioning** y **Edge Decisioning**. Aunque ambos le permiten ofrecer ofertas a sus clientes, recomendamos utilizar la API **Edge Decisioning** siempre que sea posible para casos de uso entrantes y para garantizar una mejor latencia y rendimiento en su plataforma.
 
 Para obtener más información sobre cómo trabajar con las API, consulte estas secciones:
 * [API de decisiones](decisioning-api.md)
 * [API de Edge Decisioning](edge-decisioning-api.md)
 * [API de decisiones por lotes](batch-decisioning-api.md)
 
-## Funciones de API de Edge Decisioning {#edge}
+## Funcionalidades de la API de Edge Decisioning {#edge}
 
 **Solicitud única de eventos de experiencia y solicitudes de toma de decisiones**
 
@@ -44,14 +44,14 @@ Al pasar datos de contexto con una solicitud de API de Edge Decisioning, los dat
 
 **Actualización del contador de límite de frecuencia**
 
-Si se ha habilitado el límite de frecuencia para algunas de las ofertas a fin de definir la frecuencia con la que se restablece su recuento de límite, el contador se actualiza y está disponible en una decisión de la API de Edge Decisioning en menos de 3 segundos. [Obtenga información sobre cómo añadir restricciones a una oferta](../../offer-library/add-constraints.md)
+Si se ha habilitado el límite de frecuencia para algunas de las ofertas a fin de definir la frecuencia con la que se restablece su recuento de límite, el contador se actualiza y está disponible en una decisión de API de Edge Decisioning en menos de 3 segundos. [Aprenda a agregar restricciones a una oferta](../../offer-library/add-constraints.md)
 
 ## Funciones de API de decisiones {#decisioning}
 
-Las funcionalidades enumeradas a continuación solo están disponibles con la API de Decisioning. Si necesita aprovechar uno de ellos para satisfacer sus necesidades, utilice la API de decisiones. De lo contrario, recomendamos utilizar las API de Edge Decisioning.
+Las funcionalidades enumeradas a continuación solo están disponibles con la API de Decisioning. Si necesita aprovechar uno de ellos para satisfacer sus necesidades, utilice la API de decisiones. De lo contrario, se recomienda utilizar las API de Edge Decisioning.
 
 * **Contenido y características de la oferta**: puede optar por no devolver el contenido y las características de una oferta mediante una opción dedicada.
-* **Metadatos de ofertas**: active una opción para devolver los metadatos de una oferta.
-* **Política de combinación**: utilice en la solicitud una política de combinación diferente de la asociada a la zona protegida.
-* **Eventos de toma de decisiones y límite de frecuencia**: bloquee la toma de decisiones para que los eventos se cuenten mediante cualquier límite de frecuencia que se produzca.
-* **Duplicar propuestas**: active una opción para no deduplicar propuestas.
+* **Metadatos de ofertas**: habilita una opción para devolver los metadatos de una oferta.
+* **Política de combinación**: use en su solicitud una política de combinación diferente a la asociada a su zona protegida.
+* **Eventos de toma de decisiones y límite de frecuencia**: impida que se cuenten los eventos de toma de decisiones mediante cualquier límite de frecuencia que se produzca.
+* **Proposiciones duplicadas**: habilite una opción para no anular la duplicación de propuestas.

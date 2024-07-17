@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Trabajar con el asistente de IA
+title: Trabajo con el asistente de IA
 description: Aprenda a aprovechar el asistente de IA
 feature: Overview
 topic: Content Management
@@ -11,13 +11,13 @@ exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
 source-git-commit: f64cf166d5fa732ae0353414b5638c97d43099a1
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Trabajar con el asistente de IA {#ai-assistant}
+# Trabajo con el asistente de IA {#ai-assistant}
 
-El asistente de IA es una función de la interfaz de usuario que puede utilizar para navegar, comprender los conceptos del Adobe y obtener perspectivas operativas para su entorno específico. Está disponible en varios productos de Adobe Experience Cloud, incluido Adobe Journey Optimizer.
+El asistente de IA es una función de la interfaz de usuario que se puede utilizar para navegar, comprender los conceptos de Adobe y obtener perspectivas operativas de su entorno específico. Está disponible en varios productos de Adobe Experience Cloud, incluido Adobe Journey Optimizer.
 
 Para acceder al asistente de IA, haga clic en el icono de la barra superior. El asistente de IA se muestra en la sección derecha de la pantalla.
 
@@ -26,11 +26,11 @@ Para acceder al asistente de IA, haga clic en el icono de la barra superior. El 
 
 >[!CAUTION]
 >
->Debe aceptar las Directrices del usuario de IA generativa de Adobe Experience Cloud para poder utilizar el asistente de IA. Obtenga más información sobre el acuerdo en [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>Debe aceptar las Directrices del usuario de IA generativa de Adobe Experience Cloud para poder utilizar el asistente de IA. Obtenga más información acerca del acuerdo en [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 En Adobe Journey Optimizer, tiene acceso a los siguientes casos de uso:
 
-* **Conocimiento del producto** (Disponibilidad general)
+* **Conocimiento del producto** (disponibilidad general)
 
   Las preguntas sobre conocimientos del producto tratan sobre conceptos de Adobe relacionados con aspectos de Adobe Journey Optimizer. Algunos ejemplos de preguntas sobre el conocimiento del producto son:
 
@@ -39,7 +39,7 @@ En Adobe Journey Optimizer, tiene acceso a los siguientes casos de uso:
    * ¿Cómo se crea una acción personalizada para usarla en Adobe Journey Optimizer recorrido?
 
 
-* **Perspectivas operativas** en recorridos (Beta)
+* **Datos operativos** en recorrido (Beta)
 
   Las preguntas de perspectiva operativa se refieren a los objetos de recorrido de la zona protegida de su organización. Algunos ejemplos de preguntas o mensajes de perspectiva operativa son los siguientes:
 
@@ -49,17 +49,17 @@ En Adobe Journey Optimizer, tiene acceso a los siguientes casos de uso:
 
   >[!NOTE]
   >
-  >El único objeto de Adobe Journey Optimizer al que tiene acceso para hacer preguntas sobre la información operativa del Asistente de IA es **Recorridos**. Solo tendrá datos para la zona protegida en la que se encuentra actualmente.
+  >El único objeto de Adobe Journey Optimizer al que tiene acceso para hacerle preguntas sobre las perspectivas operacionales del Asistente de IA es **Recorridos**. Solo tendrá datos para la zona protegida en la que se encuentra actualmente.
 
 
 Para hacer una pregunta, introdúzcala en el campo situado en la parte inferior de la pantalla y pulse Intro.
 
 ![](assets/do-not-localize/ai-assistant-ask.png){width="50%" align="left"}
 
-Compruebe la respuesta y utilice el **Mostrar orígenes** para obtener vínculos directos a la documentación del producto y más información.
+Comprueba la respuesta y usa el botón **Mostrar fuentes** para obtener vínculos directos a la documentación del producto y obtener más información.
 
 ![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="left"}
 
 Utilice el pulgar hacia arriba o hacia abajo para valorar la respuesta.
 
-Para aprender a utilizar el asistente de IA, consulte objetivos de ejemplo que puede lograr con el asistente de IA y cómo funciona el asistente de IA, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+Para aprender a utilizar el Asistente de IA, vea los objetivos de ejemplo que puede lograr con el Asistente de IA y cómo funciona el Asistente de IA, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.

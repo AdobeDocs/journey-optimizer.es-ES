@@ -18,15 +18,15 @@ ht-degree: 9%
 
 # Reintentos {#retries}
 
-Cuando un mensaje de correo electrónico falla debido a un error temporal **Rechazo suave** error para una dirección determinada, se realizan varios reintentos. Cada error incrementa un contador de errores. Cuando este contador alcanza el umbral de límite, la dirección de correo electrónico se agrega a la lista de supresión.
+Cuando un mensaje de correo electrónico falla debido a un error temporal **Rebote suave** para una dirección determinada, se realizan varios reintentos. Cada error incrementa un contador de errores. Cuando este contador alcanza el umbral de límite, la dirección de correo electrónico se agrega a la lista de supresión.
 
 >[!NOTE]
 >
->Obtenga más información sobre los tipos de errores en la [Tipos de errores de entrega](../reports/suppression-list.md#delivery-failures) sección.
+>Obtenga más información sobre los tipos de errores en la sección [Tipos de errores de entrega](../reports/suppression-list.md#delivery-failures).
 
 En la configuración predeterminada, el umbral se establece en 5 errores.
 
-* Para el mismo envío, en el quinto error encontrado en la variable [período de tiempo de reintento](#retry-duration), la dirección se suprime.
+* Para el mismo envío, en el quinto error encontrado dentro del [período de tiempo de reintento](#retry-duration), la dirección se suprime.
 
 * Si hay diferentes envíos y se producen dos errores al menos con una diferencia de 24 horas, el contador de errores se incrementa con cada error y la dirección también se suprime en el quinto intento. Los errores son acumulativos para cada dirección.
 
@@ -50,9 +50,9 @@ Siempre que no se haya intentado realizar ninguna otra entrega y que la entrega 
 
 Si el valor predeterminado de 5 no se adapta a sus necesidades, puede modificar el umbral de error siguiendo los pasos a continuación.
 
-1. Ir a **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** > **[!UICONTROL Lista de supresión]**.
+1. Vaya a **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** > **[!UICONTROL Lista de supresión]**.
 
-1. Seleccione el **[!UICONTROL Editar reglas de supresión]** botón.
+1. Seleccione el botón **[!UICONTROL Editar reglas de supresión]**.
 
    ![](assets/suppression-list-edit-retries.png)
 
@@ -64,15 +64,15 @@ Si el valor predeterminado de 5 no se adapta a sus necesidades, puede modificar 
 
    >[!CAUTION]
    >
-   >Cualquier valor superior a 10 puede causar problemas de reputación de capacidad de entrega, así como restricciones de IP o inclusión en la lista de bloqueados por parte de los ISP. [Más información sobre la capacidad de entrega](../reports/deliverability.md)
+   >Cualquier valor superior a 10 puede causar problemas de reputación de capacidad de entrega, así como restricciones de IP o inclusión en la lista de bloqueados por parte de los ISP. [Más información sobre la capacidad de envío](../reports/deliverability.md)
 
 ## Período de tiempo de reintento {#retry-duration}
 
-El **período de tiempo de reintento** es el periodo de tiempo en el que se reintentará cualquier mensaje de correo electrónico del envío que haya encontrado un error temporal o una devolución del mensaje.
+El **período de tiempo de reintento** es el período de tiempo en el que se reintentará cualquier mensaje de correo electrónico del envío que haya encontrado un error temporal o una devolución.
 
-De forma predeterminada, se realizarán reintentos para **3,5 días** (o **84 horas**) desde el momento en que se agregó el mensaje a la cola de correo electrónico.
+De manera predeterminada, los reintentos se realizarán durante **3,5 días** (o **84 horas**) desde el momento en que se agregó el mensaje a la cola de correo electrónico.
 
-Sin embargo, para asegurarse de que los reintentos no se realicen más cuando ya no sean necesarios, puede cambiar esta configuración según sus necesidades al crear o editar un [superficie de canal](channel-surfaces.md) (es decir, ajuste preestablecido de mensaje) aplicar al canal de correo electrónico.
+Sin embargo, para asegurarse de que los intentos de reintento no se realicen más cuando ya no sean necesarios, puede cambiar esta configuración según sus necesidades al crear o editar una [superficie de canal](channel-surfaces.md) (es decir, ajuste preestablecido de mensaje) que se aplique al canal de correo electrónico.
 
 Por ejemplo, puede establecer el periodo de reintento en 24 horas para un correo electrónico transaccional relacionado con el restablecimiento de contraseña y que contenga un vínculo válido solo para un día. Del mismo modo, para una venta a medianoche, es posible que desee definir un periodo de reintento de 6 horas.
 
@@ -80,5 +80,5 @@ Por ejemplo, puede establecer el periodo de reintento en 24 horas para un correo
 >
 >El periodo de reintento no puede superar las 84 horas. El periodo mínimo de reintento es de 6 horas para los correos electrónicos de marketing y 10 minutos para los transaccionales.
 
-Obtenga información sobre cómo ajustar los parámetros de reintento de correo electrónico al crear una superficie de canal en [esta sección](../email/email-settings.md#email-retry).
+Aprenda a ajustar los parámetros de reintento de correo electrónico al crear una superficie de canal en [esta sección](../email/email-settings.md#email-retry).
 

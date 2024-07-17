@@ -48,4 +48,4 @@ Returns "2019-08-28T17:15:30.123+02:00".-->
 
 `updateTimeZone(@event{MyExpEvent.timestamp}, "Australia/Sydney")`
 
-Si el valor del campo de marca de tiempo es `2021-11-16T16:55:12.939318+01:00`, luego la función devuelve `2021-11-17T02:55:12.942115+11:00`.
+Si el valor del campo de marca de tiempo es `2021-11-16T16:55:12.939318+01:00`, la función devuelve `2021-11-17T02:55:12.942115+11:00`.

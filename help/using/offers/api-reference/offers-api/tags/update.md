@@ -9,7 +9,7 @@ exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 10%
 
 Puede modificar o actualizar un calificador de colección (anteriormente conocido como &quot;etiqueta&quot;) realizando una solicitud del PATCH a la API de la biblioteca de ofertas.
 
-Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte el [Documentación de parches de JSON](https://jsonpatch.com/).
+Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte la [documentación oficial del parche JSON](https://jsonpatch.com/).
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* en el encabezado de la solicitud:
+La siguiente tabla muestra los valores válidos que comprenden el campo *Content-Type* del encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -64,7 +64,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles actualizados del calificador de recopilación, incluido su identificador único `id`.
+Una respuesta correcta devuelve los detalles actualizados del calificador de recopilación, incluido su exclusivo `id`.
 
 ```json
 {

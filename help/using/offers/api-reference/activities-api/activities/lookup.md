@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # Búsqueda de una decisión {#look-up-decision}
 
-Puede buscar decisiones específicas realizando una solicitud de GET a [!DNL Offer Library] API que incluye las decisiones `id` en la ruta de solicitud.
+Puede buscar decisiones específicas realizando una solicitud de GET a la API [!DNL Offer Library] que incluye las decisiones `id` en la ruta de solicitud.
 
 **Formato de API**
 
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-decisions/offerDecisi
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles de la decisión, incluida la información acerca de su decisión única `id`.
+Una respuesta correcta devuelve los detalles de la decisión, incluida la información acerca de la decisión única `id`.
 
 ```json
 {

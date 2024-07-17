@@ -18,23 +18,23 @@ ht-degree: 5%
 
 # Informe de campaña multilingüe {#multilingual-campaign-report}
 
-Informes globales, accesibles desde **Siempre** pestaña, muestra los eventos que se produjeron hace al menos dos horas y cubre los eventos durante un periodo de tiempo seleccionado. Se puede acceder al informe global de Campaign directamente desde la campaña con la variable **[!UICONTROL Ver informe]** botón.
+Los informes globales, a los que se puede acceder desde la ficha **Todo el tiempo**, muestran los eventos que se produjeron hace al menos dos horas y cubren los eventos que se produjeron durante un período de tiempo seleccionado. Se puede acceder directamente al informe global de Campaign desde la campaña con el botón **[!UICONTROL Ver informe]**.
 
 Para obtener más información sobre los datos disponibles en el informe de Campaign, consulte [esta página](../reports/campaign-global-report.md).
 
 ![](assets/report_multilingual.png)
 
-El **[!UICONTROL Estadísticas de envío de correos electrónicos por idiomas]** widget detalla el éxito de su envío en función de sus **[!UICONTROL Configuraciones regionales]**:
+El widget **[!UICONTROL Estadísticas de envío de correos electrónicos por idiomas]** detalla el éxito de su envío en función de sus **[!UICONTROL configuraciones regionales]**:
 
-* **[!UICONTROL Entregado]**: Número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
+* **[!UICONTROL Entregado]**: número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
 
 * **[!UICONTROL Devoluciones]**: Total de errores acumulados durante el envío y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados.
 
-* **[!UICONTROL Errores]**: Número total de errores que se han producido durante una entrega para evitar que se envíe a los perfiles.
+* **[!UICONTROL Errores]**: Número total de errores que se produjeron durante una entrega para evitar que se enviara a los perfiles.
 
-El **[!UICONTROL Estadísticas de seguimiento de correo electrónico por idiomas]** widget contiene los datos disponibles para la actividad de destinatario de su envío en función de su **[!UICONTROL Configuraciones regionales]**:
+El widget **[!UICONTROL Estadísticas de seguimiento de correo electrónico por idiomas]** contiene los datos disponibles para la actividad de los destinatarios de su envío en función de sus **[!UICONTROL configuraciones regionales]**:
 
-* **[!UICONTROL Cancela la suscripción]**: Número de clics en el vínculo de baja de suscripción.
+* **[!UICONTROL Cancelaciones de suscripción]**: número de clics en el vínculo de cancelación de suscripción.
 
 * **[!UICONTROL Aperturas]**: Número de veces que se abrió el mensaje.
 

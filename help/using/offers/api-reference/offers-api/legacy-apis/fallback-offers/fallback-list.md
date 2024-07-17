@@ -9,7 +9,7 @@ exl-id: 0eb68312-5567-4728-b184-9d40107676a0
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 Se envía una oferta de reserva a los clientes si no cumplen los requisitos para otras ofertas. Los pasos para crear una oferta de reserva consisten en crear una o varias representaciones, como al crear una oferta.
 
-Puede ver una lista de todas las ofertas de reserva dentro de un contenedor realizando una única solicitud de GET a [!DNL Offer Library] API.
+Puede ver una lista de todas las ofertas de reserva dentro de un contenedor realizando una única solicitud de GET a la API [!DNL Offer Library].
 
 **Formato de API**
 
@@ -54,10 +54,10 @@ Los parámetros de consulta más comunes para la paginación incluyen:
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `q` | Una cadena de consulta opcional para buscar en los campos seleccionados. La cadena de consulta debe estar en minúsculas y puede estar rodeada de comillas dobles para evitar que se muestre con tokens y para que salga de los caracteres especiales. Los caracteres `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` tienen un significado especial y deben evitarse con una barra invertida cuando aparecen en la cadena de consulta. | `default` |
+| `q` | Una cadena de consulta opcional para buscar en los campos seleccionados. La cadena de consulta debe estar en minúsculas y puede estar rodeada de comillas dobles para evitar que se muestre con tokens y para que salga de los caracteres especiales. Los caracteres `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` tienen un significado especial y se deben aplicar como escape una barra invertida cuando aparezcan en la cadena de consulta. | `default` |
 | `qop` | Aplica el operador AND u OR a los valores del parámetro de cadena de consulta q. | `AND` / `OR` |
-| `field` | Lista opcional de campos para limitar la búsqueda. Este parámetro se puede repetir como se indica a continuación: field=field1[,field=field2,...] y (las expresiones de ruta tienen la forma de rutas separadas por puntos, como _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Ordene los resultados por una propiedad específica. Adición de un `-` antes del título (`orderby=-title`) ordenará los elementos por título en orden descendente (Z-A). | `-repo:createdDate` |
+| `field` | Lista opcional de campos para limitar la búsqueda. Este parámetro se puede repetir como se indica a continuación: field=field1[,field=field2,...] y (las expresiones de ruta de acceso tienen la forma de rutas separadas por puntos como _instance.xdm:name) | `_instance.xdm:name` |
+| `orderBy` | Ordene los resultados por una propiedad específica. Si se agrega un(a) `-` antes del título (`orderby=-title`), los elementos se ordenarán por título en orden descendente (Z-A). | `-repo:createdDate` |
 | `limit` | Limite el número de ofertas de reserva devueltas. | `limit=5` |
 
 **Respuesta**

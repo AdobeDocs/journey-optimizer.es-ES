@@ -27,11 +27,11 @@ Los eventos unitarios están vinculados a un perfil específico. Pueden basarse 
 
 A continuación se muestran los primeros pasos para configurar un nuevo evento:
 
-1. En la sección del menú ADMINISTRACIÓN, vaya a **[!UICONTROL Configuraciones]**, y en el  **[!UICONTROL Eventos]** , haga clic en **[!UICONTROL Administrar]**. Se muestra la lista de eventos.
+1. En la sección del menú ADMINISTRACIÓN, vaya a **[!UICONTROL Configuraciones]** y, en la sección **[!UICONTROL Eventos]**, haga clic en **[!UICONTROL Administrar]**. Se muestra la lista de eventos.
 
    ![](assets/jo-event1.png)
 
-1. Clic **[!UICONTROL Crear evento]** para crear un nuevo evento. El panel de configuración de evento se abre en el lado derecho de la pantalla.
+1. Haga clic en **[!UICONTROL Crear evento]** para crear un nuevo evento. El panel de configuración de evento se abre en el lado derecho de la pantalla.
 
    ![](assets/jo-event2.png)
 
@@ -43,15 +43,15 @@ A continuación se muestran los primeros pasos para configurar un nuevo evento:
    >
    >Solo se permiten caracteres alfanuméricos y guiones bajos. La longitud máxima es de 30 caracteres.
 
-1. En el **[!UICONTROL Tipo]** , elija **Unitario**.
+1. En el campo **[!UICONTROL Tipo]**, elija **Unitario**.
 
    ![](assets/jo-event3bis.png)
 
-1. En el **[!UICONTROL Tipo de ID de evento]** , seleccione el tipo de ID de evento que desee utilizar: **Basado en reglas** o **Sistema generado**. Obtenga más información sobre los tipos de ID de evento en [esta sección](../event/about-events.md#event-id-type).
+1. En el campo **[!UICONTROL Tipo de ID de evento]**, seleccione el tipo de ID de evento que desee usar: **Basado en reglas** o **Generado por el sistema**. Obtenga más información sobre los tipos de id. de evento en [esta sección](../event/about-events.md#event-id-type).
 
    ![](assets/jo-event4.png)
 
-1. El número de recorridos que utilizan este evento se muestra en la variable **[!UICONTROL Utilizado en]** field. Puede hacer clic en **[!UICONTROL Ver recorridos]** para mostrar la lista de recorridos con este evento.
+1. El número de recorridos que usa este evento se muestra en el campo **[!UICONTROL Utilizado en]**. Puede hacer clic en el icono **[!UICONTROL Ver recorridos]** para mostrar la lista de recorridos con este evento.
 
 1. Defina los campos esquema y carga útil: aquí es donde selecciona la información de evento (generalmente denominada carga útil) que recorrido espera recibir. Podrá utilizar esta información en su recorrido. Consulte [esta sección](../event/about-creating.md#define-the-payload-fields).
 
@@ -59,13 +59,13 @@ A continuación se muestran los primeros pasos para configurar un nuevo evento:
 
    >[!NOTE]
    >
-   >Al seleccionar la variable **[!UICONTROL Sistema generado]** Tipo, solo están disponibles los esquemas que tienen el campo de tipo eventID. Al seleccionar la variable **[!UICONTROL Basado en reglas]** Tipo, todos los esquemas de Evento de experiencia están disponibles.
+   >Al seleccionar el tipo **[!UICONTROL Generado por el sistema]**, solo están disponibles los esquemas que tienen el campo de tipo eventID. Al seleccionar el tipo **[!UICONTROL Basado en reglas]**, están disponibles todos los esquemas de Experience Event.
 
-1. Para los eventos basados en reglas, haga clic dentro de **[!UICONTROL Condición de ID de evento]** field. Con el editor de expresiones simples o avanzadas, defina la condición que el sistema utilizará para identificar los eventos que almacenarán en déclencheur el recorrido.
+1. Para los eventos basados en reglas, haga clic dentro del campo **[!UICONTROL Condición de ID de evento]**. Con el editor de expresiones simples o avanzadas, defina la condición que el sistema utilizará para identificar los eventos que almacenarán en déclencheur el recorrido.
 
    ![](assets/jo-event6.png)
 
-   En nuestro ejemplo, escribimos una condición basada en la ciudad del perfil. Esto significa que siempre que el sistema reciba un evento que coincida con esta condición (**[!UICONTROL Ciudad]** field y **[!UICONTROL París]** ), se lo transmitirá a los recorridos.
+   En nuestro ejemplo, escribimos una condición basada en la ciudad del perfil. Esto significa que cada vez que el sistema reciba un evento que coincida con esta condición (campo **[!UICONTROL Ciudad]** y valor **[!UICONTROL París]**), lo pasará a los recorridos.
 
    >[!NOTE]
    >
@@ -87,7 +87,7 @@ A continuación se muestran los primeros pasos para configurar un nuevo evento:
 
 La definición de carga útil permite elegir la información que el sistema espera recibir del evento en su recorrido y la clave para identificar a qué persona está asociada al evento. La carga útil se basa en la definición del campo XDM del Experience Cloud. Para obtener más información sobre XDM, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
 
-1. Seleccione un esquema XDM de la lista y haga clic en **[!UICONTROL Campos]** o en el campo **[!UICONTROL Editar]** icono.
+1. Seleccione un esquema XDM de la lista y haga clic en el campo **[!UICONTROL Campos]** o en el icono **[!UICONTROL Editar]**.
 
    ![](assets/journey8.png)
 
@@ -103,11 +103,11 @@ La definición de carga útil permite elegir la información que el sistema espe
 
    >[!NOTE]
    >
-   >Para los eventos generados por el sistema, la variable **[!UICONTROL eventID]** El campo se añade automáticamente a la lista de campos seleccionados de modo que [!DNL Journey Optimizer] puede identificar el evento. El sistema que impulsa el evento no debe generar un ID, debe utilizar el que está disponible en la previsualización de carga útil. Consulte [esta sección](../event/about-creating.md#preview-the-payload).
+   >Para los eventos generados por el sistema, el campo **[!UICONTROL eventID]** se agrega automáticamente a la lista de campos seleccionados para que [!DNL Journey Optimizer] pueda identificar el evento. El sistema que impulsa el evento no debe generar un ID, debe utilizar el que está disponible en la previsualización de carga útil. Consulte [esta sección](../event/about-creating.md#preview-the-payload).
 
-1. Cuando haya terminado de seleccionar los campos necesarios, haga clic en **[!UICONTROL Ok]** o pulse **[!UICONTROL Entrar]**.
+1. Cuando termine de seleccionar los campos necesarios, haga clic en **[!UICONTROL Aceptar]** o presione **[!UICONTROL Entrar]**.
 
-   El número de campos seleccionados aparece en la variable **[!UICONTROL Campos]** field.
+   El número de campos seleccionados aparece en el campo **[!UICONTROL Campos]**.
 
    ![](assets/journey12.png)
 
@@ -118,11 +118,11 @@ La definición de carga útil permite elegir la información que el sistema espe
 >title="Área de nombres de identidad"
 >abstract="Seleccione la clave para identificar el perfil del cliente asociado al evento."
 
-El área de nombres permite definir el tipo de clave utilizada para identificar a la persona asociada al evento. Su configuración es opcional. Es necesario si desea recuperar, en sus recorridos, información adicional proveniente de [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}. La definición del área de nombres no es necesaria si solo utiliza datos procedentes de un sistema de terceros a través de una fuente de datos personalizada.
+El área de nombres permite definir el tipo de clave utilizada para identificar a la persona asociada al evento. Su configuración es opcional. Es necesario si desea recuperar, en sus recorridos, información adicional proveniente del [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}. La definición del área de nombres no es necesaria si solo utiliza datos procedentes de un sistema de terceros a través de una fuente de datos personalizada.
 
 Puede utilizar uno de los predefinidos o crear uno nuevo mediante el servicio Área de nombres de identidad. Consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es){target="_blank"}.
 
-Si selecciona un esquema que tiene una identidad principal, la variable **[!UICONTROL Identificador del generador de perfiles]** y **[!UICONTROL Área de nombres]** los campos están rellenados previamente. Si no se ha definido ninguna identidad, se selecciona _identityMap > id_ como clave principal. A continuación, debe seleccionar un área de nombres y la clave se rellenará previamente (debajo de la etiqueta **[!UICONTROL Área de nombres]** field) utilizando _identityMap > id_.
+Si selecciona un esquema que tiene una identidad principal, los campos **[!UICONTROL Identificador de generador de perfiles]** y **[!UICONTROL Espacio de nombres]** están rellenados previamente. Si no se ha definido ninguna identidad, se selecciona _identityMap > id_ como clave principal. A continuación, debe seleccionar un área de nombres y la clave se rellenará previamente (debajo del campo **[!UICONTROL Área de nombres]**) mediante _identityMap > id_.
 
 Al seleccionar campos, los campos de identidad principales se etiquetan.
 
@@ -136,15 +136,15 @@ Solo se permite un área de nombres por recorrido. Si utiliza varios eventos en 
 
 >[!NOTE]
 >
->Solo puede seleccionar un área de nombres de identidad basada en personas. Si ha definido un área de nombres para una tabla de búsqueda (por ejemplo: área de nombres ProductID para una búsqueda Product), no estará disponible en la **Área de nombres** lista desplegable.
+>Solo puede seleccionar un área de nombres de identidad basada en personas. Si ha definido un área de nombres para una tabla de búsqueda (por ejemplo: área de nombres ProductID para una búsqueda de productos), no estará disponible en la lista desplegable **Área de nombres**.
 
 ## Definición del identificador de perfil {#define-the-event-key}
 
 La clave es el campo o la combinación de campos que forma parte de los datos de carga útil de evento y que permite al sistema identificar a la persona asociada al evento. La clave puede ser, por ejemplo, el ID del Experience Cloud, un ID de CRM o una dirección de correo electrónico.
 
-Para utilizar datos almacenados en la base de datos Perfil del cliente en tiempo real de Adobe, la clave del evento debe ser la información definida como la identidad de un perfil en la [Servicio de perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}.
+Para utilizar datos almacenados en la base de datos de Adobe de Perfil de cliente en tiempo real, la clave de evento debe ser la información que definió como identidad de perfil en el [servicio de Perfil de cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}.
 
-El identificador de perfil permite al sistema realizar la reconciliación entre el evento y el perfil del individuo. Si selecciona un esquema que tiene una identidad principal, la variable **[!UICONTROL Identificador de perfil]** y **[!UICONTROL Área de nombres]** los campos están rellenados previamente. Si no hay ninguna identidad definida, la variable _identityMap > id_ es la clave principal. A continuación, debe seleccionar un área de nombres y la clave se rellena automáticamente previamente mediante _identityMap > id_.
+El identificador de perfil permite al sistema realizar la reconciliación entre el evento y el perfil del individuo. Si selecciona un esquema que tiene una identidad principal, los campos **[!UICONTROL Identificador de perfil]** y **[!UICONTROL Espacio de nombres]** están rellenados previamente. Si no se ha definido ninguna identidad, _identityMap > id_ es la clave principal. A continuación, debe seleccionar un área de nombres y la clave se rellenará automáticamente previamente usando _identityMap > id_.
 
 Al seleccionar campos, los campos de identidad principales se etiquetan.
 
@@ -152,13 +152,13 @@ Al seleccionar campos, los campos de identidad principales se etiquetan.
 
 Si necesita utilizar una clave diferente, como un ID de CRM o una dirección de correo electrónico, debe añadirla manualmente, tal y como se explica a continuación:
 
-1. Haga clic dentro de **[!UICONTROL Identificador de perfil]** o en el icono de lápiz.
+1. Haga clic dentro del campo **[!UICONTROL Identificador de perfil]** o en el icono de lápiz.
 
    ![](assets/journey16.png)
 
 1. Seleccione el campo elegido como clave en la lista de campos de carga útil.
 
-Cuando se recibe el evento, el valor de la clave permite al sistema identificar a la persona asociada al evento. Asociado a un área de nombres (consulte [esta sección](../event/about-creating.md#select-the-namespace)), la clave se puede utilizar para realizar consultas en Adobe Experience Platform. Consulte [esta página](../building-journeys/about-journey-activities.md#orchestration-activities).
+Cuando se recibe el evento, el valor de la clave permite al sistema identificar a la persona asociada al evento. Asociada a un área de nombres (vea [esta sección](../event/about-creating.md#select-the-namespace)), la clave se puede usar para realizar consultas en Adobe Experience Platform. Ver [esta página](../building-journeys/about-journey-activities.md#orchestration-activities).
 La clave también se utiliza para comprobar que una persona está en un recorrido. De hecho, una persona no puede estar en dos lugares diferentes en el mismo recorrido. Como resultado, el sistema no permite que la misma clave, por ejemplo la clave CRMID=3224, esté en diferentes lugares del mismo recorrido.
 
 ## Editor de expresiones avanzadas {#adv-exp-editor}
@@ -167,7 +167,7 @@ Al definir la condición ID de evento o el identificador de perfil, puede cambia
 
 ![](assets/journey20.png)
 
-Tiene acceso a las funciones de expresión avanzadas desde el **[!UICONTROL Modo avanzado]** si desea realizar manipulaciones adicionales. Estas funciones permiten manipular los valores utilizados para llevar a cabo consultas específicas, como cambiar de formato, o realizar concatenaciones de campos, teniendo en cuenta solo una parte de un campo (por ejemplo, los 10 primeros caracteres). Consulte esta [página](../building-journeys/expression/expressionadvanced.md).
+Tiene acceso a las funciones de expresiones avanzadas desde el botón **[!UICONTROL Modo avanzado]** si desea realizar manipulaciones adicionales. Estas funciones permiten manipular los valores utilizados para llevar a cabo consultas específicas, como cambiar de formato, o realizar concatenaciones de campos, teniendo en cuenta solo una parte de un campo (por ejemplo, los 10 primeros caracteres). Consulte esta [página](../building-journeys/expression/expressionadvanced.md).
 
 
 ## Previsualización de la carga útil {#preview-the-payload}
@@ -178,7 +178,7 @@ La previsualización de carga útil permite validar la definición de carga úti
 >
 >En el caso de los eventos generados por el sistema, al crear un evento, antes de ver la previsualización de carga útil, guarde el evento y vuelva a abrirlo. Este paso es necesario para generar un ID de evento en la carga útil.
 
-1. Haga clic en **[!UICONTROL Ver carga útil]** para previsualizar la carga útil esperada por el sistema.
+1. Haga clic en el icono **[!UICONTROL Ver carga útil]** para previsualizar la carga útil esperada por el sistema.
 
    ![](assets/journey13.png)
 
@@ -188,4 +188,4 @@ La previsualización de carga útil permite validar la definición de carga úti
 
 1. Compruebe la previsualización para validar la definición de carga útil.
 
-1. A continuación, puede compartir la previsualización de carga útil con la persona responsable del envío del evento. Esta carga útil puede ayudarles a diseñar la configuración de un evento que se inserte en [!DNL Journey Optimizer]. Consulte [esta página](../event/additional-steps-to-send-events-to-journey.md).
+1. A continuación, puede compartir la previsualización de carga útil con la persona responsable del envío del evento. Esta carga útil puede ayudarles a diseñar la configuración de un evento que inserte [!DNL Journey Optimizer]. Consulte [esta página](../event/additional-steps-to-send-events-to-journey.md).

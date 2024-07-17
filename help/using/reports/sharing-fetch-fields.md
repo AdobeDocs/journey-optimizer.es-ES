@@ -11,7 +11,7 @@ exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -77,7 +77,7 @@ Tipo: cadena
 
 ## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
-El código de error proporcionado por el sistema [!DNL Journey Optimizer] está consultando. Por ejemplo, puede ser un 404, 500, etc.
+Se está consultando el código de error proporcionado por el sistema [!DNL Journey Optimizer]. Por ejemplo, puede ser un 404, 500, etc.
 
 Tipo: cadena
 

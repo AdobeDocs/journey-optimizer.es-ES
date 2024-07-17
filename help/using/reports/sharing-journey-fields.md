@@ -17,12 +17,12 @@ ht-degree: 10%
 
 # Campos del recorrido {#sharing-journey-fields}
 
-Este grupo de campos se utiliza en **recorrido** esquema (en relación con **journeyStepEvent**). Contiene los campos que se enumeran a continuación.
+Este grupo de campos se usa en el esquema **recorrido** (en relación con **journeyStepEvent**). Contiene los campos que se enumeran a continuación.
 
 
 >[!NOTE]
 >
->Más información sobre los atributos de propiedades de recorrido [en esta sección](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>Obtenga más información acerca de los atributos de propiedades de recorrido [en esta sección](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
 
 
 ## journeyID {#journeyid-field}

@@ -40,24 +40,24 @@ Una vez que haya creado y personalizado sus mensajes, eleve su contenido con el 
 
    ![](assets/experiment-genai-1.png)
 
-1. Examine el contenido generado **[!UICONTROL Variaciones]** y haga clic en **[!UICONTROL Previsualizar]** para ver una versión en pantalla completa de la variación seleccionada.
+1. Examine las **[!UICONTROL variaciones]** generadas y haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada.
 
    ![](assets/experiment-genai-2.png)
 
-1. Seleccionar **[!UICONTROL Habilitar experimento]** para empezar a crear **[!UICONTROL Tratamientos]** para su Experimentación.
+1. Seleccione **[!UICONTROL Habilitar experimento]** para empezar a crear **[!UICONTROL tratamientos]** para su experimento.
 
 1. Seleccione las variaciones que desee incluir en el experimento.
 
-1. Clic **Agregar tratamiento(s) X**.
+1. Haga clic en **Agregar X tratamientos**.
 
    ![](assets/experiment-genai-3.png)
 
-1. En la ventana Experimento de contenido, acceda al **[!UICONTROL Configuración del experimento]** para configurar el experimento. [Más información sobre el Experimento de contenido](../content-management/content-experiment.md)
+1. Desde la ventana Experimento de contenido, accede al botón **[!UICONTROL Configuración del experimento]** para configurar el experimento. [Más información sobre el Experimento de contenido](../content-management/content-experiment.md)
 
    ![](assets/experiment-genai-4.png)
 
-1. Cuando el experimento de contenido esté listo, en la página de resumen de la campaña, puede hacer clic en **[!UICONTROL Revisar para activar]** para mostrar un resumen de la campaña. Las alertas se muestran si algún parámetro es incorrecto o falta. [Más información](../content-management/content-experiment.md#treatment-experiment)
+1. Cuando el experimento de contenido esté listo, desde la página de resumen de la campaña, puede hacer clic en **[!UICONTROL Revisar para activar]** y mostrar un resumen de la campaña. Las alertas se muestran si algún parámetro es incorrecto o falta. [Más información](../content-management/content-experiment.md#treatment-experiment)
 
-1. Antes de iniciar la campaña, compruebe que todas las configuraciones sean correctas y haga clic en **[!UICONTROL Activar]**.
+1. Antes de lanzar la campaña, comprueba que todas las configuraciones sean correctas y luego haz clic en **[!UICONTROL Activar]**.
 
 Después de configurar y personalizar correctamente la campaña, puede realizar un seguimiento de la campaña en el informe de campaña. [Más información](../reports/campaign-global-report.md)

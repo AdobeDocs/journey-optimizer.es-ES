@@ -19,7 +19,7 @@ Las funciones aritméticas se utilizan para realizar cálculos básicos sobre lo
 
 ## Add{#add}
 
-El `+` (suma) se utiliza para encontrar la suma de dos expresiones de argumento.
+La función `+` (suma) se usa para encontrar la suma de dos expresiones de argumento.
 
 **Sintaxis**
 
@@ -37,7 +37,7 @@ La siguiente operación suma el precio de dos productos diferentes.
 
 ## Multiplicar{#multiply}
 
-El `*` (multiplicación) se utiliza para encontrar el producto de dos expresiones de argumento.
+La función `*` (multiplicación) se usa para encontrar el producto de dos expresiones de argumento.
 
 **Sintaxis**
 
@@ -55,7 +55,7 @@ La siguiente operación encuentra el producto del inventario y el precio de un p
 
 ## Restar{#substract}
 
-El `-` (resta) se utiliza para encontrar la diferencia de dos expresiones de argumento.
+La función `-` (resta) se usa para encontrar la diferencia de dos expresiones de argumento.
 
 **Sintaxis**
 
@@ -73,7 +73,7 @@ La siguiente operación encuentra la diferencia de precio entre dos productos di
 
 ## Dividir{#divide}
 
-El `/` (división) se utiliza para encontrar el cociente de dos expresiones de argumento.
+La función `/` (división) se usa para encontrar el cociente de dos expresiones de argumento.
 
 **Sintaxis**
 
@@ -91,7 +91,7 @@ La siguiente operación encuentra el cociente entre el total de productos vendid
 
 ## Resto{#remainder}
 
-El `%` (módulo/resto) se utiliza para encontrar el resto después de dividir las dos expresiones de argumento.
+La función `%` (módulo/resto) se usa para encontrar el resto después de dividir las dos expresiones de argumento.
 
 **Sintaxis**
 

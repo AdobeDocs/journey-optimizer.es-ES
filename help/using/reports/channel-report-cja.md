@@ -20,7 +20,7 @@ ht-degree: 1%
 
 El informe Información general ofrece a los usuarios un resumen exhaustivo de las métricas de tráfico y participación para todas las campañas y recorridos dentro de su entorno. Estas métricas se combinan para presentar valores unificados para acciones procedentes de diferentes canales, que abarcan varias campañas y recorridos.
 
-Para acceder al informe Información general, vaya al **Informes** menú dentro de **Administración de recorrido** sección.
+Para obtener acceso al informe Información general, desplácese hasta el menú **Informes** dentro de la sección **Administración de Recorrido**.
 
 La página del informe se muestra con las siguientes pestañas:
 
@@ -34,27 +34,27 @@ Para obtener más información sobre Customer Journey Analytics Workspace y cóm
 
 ![](assets/cja-highlights.png)
 
-El **[!UICONTROL Características destacadas]** Los KPI sirven como un tablero completo, que ofrece un desglose detallado de las métricas clave para todas las campañas y recorridos dentro de su entorno, lo que le permite evaluar rápidamente el rendimiento e identificar áreas para la mejora.
+Los KPI **[!UICONTROL Características destacadas]** sirven como un tablero completo, que ofrece un desglose detallado de las métricas clave para todas las campañas y recorridos dentro de su entorno, lo que le permite evaluar rápidamente el rendimiento e identificar áreas para la mejora.
 
 +++ Más información sobre las métricas de Elementos destacados
 
-* **[!UICONTROL participación de recorrido]**: Número total de personas que interactuaron con los mensajes enviados desde el recorrido.
+* **[!UICONTROL Participación en el Recorrido]**: Número total de personas que interactuaron con los mensajes enviados desde el recorrido.
 
-* **[!UICONTROL El recorrido entra]**: Número total de personas que llegaron al evento de entrada del recorrido.
+* **[!UICONTROL Entradas de Recorrido]**: Número total de personas que llegaron al evento de entrada del recorrido.
 
-* **[!UICONTROL Errores de recorrido]**: Número total de recorridos individuales que no se ejecutaron correctamente.
+* **[!UICONTROL Errores de Recorrido]**: Número total de recorridos individuales que no se ejecutaron correctamente.
 
-* **[!UICONTROL Tasa de pulsaciones]**: porcentaje de clics en los mensajes.
+* **[!UICONTROL Tasa de clics]**: Porcentaje de clics en los mensajes.
 
 * **[!UICONTROL Tasa de apertura de pulsaciones (CTOR)]**: Número de veces que se abrió el mensaje.
 
-* **[!UICONTROL People]**: Número de perfiles de usuario que se califican como perfiles de destinatario para los mensajes.
+* **[!UICONTROL Personas]**: Número de perfiles de usuario que se califican como perfiles de destino para sus mensajes.
 
-* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus mensajes.
+* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido de sus mensajes.
 
-* **[!UICONTROL Quejas de spam]**: Número de veces que un mensaje se declaró como correo no deseado.
+* **[!UICONTROL Quejas por correo no deseado]**: Número de veces que un mensaje se declaró como correo no deseado.
 
-* **[!UICONTROL Cancela la suscripción]**: Número de clics en el vínculo de baja de suscripción.
+* **[!UICONTROL Cancelaciones de suscripción]**: número de clics en el vínculo de cancelación de suscripción.
 
 +++
 
@@ -62,17 +62,17 @@ El **[!UICONTROL Características destacadas]** Los KPI sirven como un tablero c
 
 ![](assets/cja-channel-journeys.png)
 
-El **[!UICONTROL Recorrido]** La tabla de sirve como un tablero completo que proporciona un análisis de las métricas clave relacionadas con el recorrido. Incluye detalles como el número de perfiles introducidos y los casos de recorridos individuales fallidos, lo que ofrece una comprensión exhaustiva de la eficacia y los niveles de participación de su recorrido.
+La tabla **[!UICONTROL Recorrido]** sirve como un tablero completo, que proporciona un análisis de las métricas clave relacionadas con su recorrido. Incluye detalles como el número de perfiles introducidos y los casos de recorridos individuales fallidos, lo que ofrece una comprensión exhaustiva de la eficacia y los niveles de participación de su recorrido.
 
 Al hacer clic en el nombre de cualquier recorrido enumerado en esta tabla, puede explorar fácilmente cada recorrido individualmente y obtener acceso inmediato a su informe completo en una nueva pestaña.
 
 +++ Más información sobre las métricas de Recorrido
 
-* **[!UICONTROL El recorrido entra]**: Número total de personas que llegaron al evento de entrada del recorrido.
+* **[!UICONTROL Entradas de Recorrido]**: Número total de personas que llegaron al evento de entrada del recorrido.
 
-* **[!UICONTROL Salidas de recorrido]**: Número total de personas que salieron del recorrido.
+* **[!UICONTROL Salidas de Recorrido]**: Número total de personas que salieron del recorrido.
 
-* **[!UICONTROL Errores de recorrido]**: Número total de recorridos individuales que no se ejecutaron correctamente.
+* **[!UICONTROL Errores de Recorrido]**: Número total de recorridos individuales que no se ejecutaron correctamente.
 
 +++
 
@@ -80,19 +80,19 @@ Al hacer clic en el nombre de cualquier recorrido enumerado en esta tabla, puede
 
 ![](assets/cja-channel-campaigns.png)
 
-El **[!UICONTROL Campaign]** la tabla funciona como un tablero completo que presenta una descripción detallada de las métricas esenciales para su campaña. Incluye datos esenciales como el número de perfiles y envíos, lo que le ofrece una perspectiva completa del rendimiento y los niveles de participación de su campaña.
+La tabla **[!UICONTROL Campaign]** funciona como un panel que abarca todo, y presenta una descripción detallada de las métricas críticas para su campaña. Incluye datos esenciales como el número de perfiles y envíos, lo que le ofrece una perspectiva completa del rendimiento y los niveles de participación de su campaña.
 
 Al hacer clic en el nombre de cualquier campaña enumerada en esta tabla, puede explorar fácilmente cada campaña individualmente y obtener acceso inmediato a su informe completo en una nueva pestaña.
 
 +++ Más información sobre las Métricas de Campaign
 
-* **[!UICONTROL People]**: Número de perfiles de usuario que se califican como perfiles de destinatario para los mensajes.
+* **[!UICONTROL Personas]**: Número de perfiles de usuario que se califican como perfiles de destino para sus mensajes.
 
 * **[!UICONTROL Envíos]**: Número total de envíos para cada campaña.
 
-* **[!UICONTROL Visualizaciones]**: Número de veces que se abrió el mensaje.
+* **[!UICONTROL Pantallas]**: Número de veces que se abrió el mensaje.
 
-* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus mensajes.
+* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido de sus mensajes.
 
 +++
 
@@ -102,19 +102,19 @@ Al hacer clic en el nombre de cualquier campaña enumerada en esta tabla, puede 
 
 ![](assets/cja-channels.png)
 
-El **[!UICONTROL Canales]** proporciona un desglose detallado de la participación de sus perfiles con sus mensajes en el nivel de canal. Esto le permite obtener información más detallada sobre el rendimiento de los distintos canales.
+La tabla **[!UICONTROL Canales]** proporciona un desglose detallado de la participación de sus perfiles con sus mensajes en el nivel de canal. Esto le permite obtener información más detallada sobre el rendimiento de los distintos canales.
 
 +++ Más información sobre las Métricas de canales
 
-* **[!UICONTROL People]**: Número de perfiles de usuario que se califican como perfiles de destinatario para los mensajes.
+* **[!UICONTROL Personas]**: Número de perfiles de usuario que se califican como perfiles de destino para sus mensajes.
 
-* **[!UICONTROL Tasa de pulsaciones]**: porcentaje de clics en los mensajes.
+* **[!UICONTROL Tasa de clics]**: Porcentaje de clics en los mensajes.
 
 * **[!UICONTROL Envíos]**: Número total de envíos para cada campaña.
 
-* **[!UICONTROL Visualizaciones]**: Número de veces que se abrió el mensaje.
+* **[!UICONTROL Pantallas]**: Número de veces que se abrió el mensaje.
 
-* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus mensajes.
+* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido de sus mensajes.
 
 +++
 
@@ -122,10 +122,10 @@ El **[!UICONTROL Canales]** proporciona un desglose detallado de la participaci�
 
 ![](assets/cja-channels-outbound-errors.png)
 
-El **[!UICONTROL Errores salientes]** permite identificar los errores precisos que se produjeron a lo largo del proceso de envío, lo que facilita una comprensión clara de los problemas encontrados.
+La tabla **[!UICONTROL Errores salientes]** le permite identificar los errores precisos que se produjeron durante el proceso de envío, lo que facilita una comprensión clara de los problemas encontrados.
 
 ### Exclusiones salientes
 
 ![](assets/cja-channels-outbound-excluded.png)
 
-El **[!UICONTROL Exclusiones salientes]** En la tabla se presenta una vista completa de los diferentes factores que resultaron en la exclusión de perfiles de usuario de la audiencia de destino, lo que provoca que el mensaje no se reciba.
+La tabla **[!UICONTROL Exclusiones salientes]** presenta una vista completa de los diferentes factores que tuvieron como resultado la exclusión de perfiles de usuario de la audiencia de destino, lo que resultó en que el mensaje no se recibiera.

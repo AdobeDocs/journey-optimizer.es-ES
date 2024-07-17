@@ -22,15 +22,15 @@ Al enviar mensajes desde recorridos o campañas, siempre debe asegurarse de que 
 
 >[!NOTE]
 >
->Todos los mensajes de marketing deben incluir un vínculo de no participación. Esto no es necesario para los mensajes transaccionales. La categoría del mensaje - **[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]** - se define en el [superficie de canal](../configuration/channel-surfaces.md#email-type) y al crear el mensaje.
+>Todos los mensajes de marketing deben incluir un vínculo de no participación. Esto no es necesario para los mensajes transaccionales. La categoría del mensaje **[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**- se define en el nivel de [superficie de canal](../configuration/channel-surfaces.md#email-type) y durante la creación del mensaje.
 
 Para insertar un vínculo de baja en el contenido del correo electrónico, puede:
 
-* Añada una URL de cancelación de suscripción de un clic en el encabezado del correo electrónico. Activación de la **[!UICONTROL Encabezado List-Unsubscribe]** en el nivel de superficie de canal agrega un vínculo de no participación en el encabezado del correo electrónico. [Obtenga más información sobre la exclusión en el encabezado del correo electrónico](#unsubscribe-header)
+* Añada una URL de cancelación de suscripción de un clic en el encabezado del correo electrónico. Al habilitar la opción **[!UICONTROL Cancelación de suscripción a una lista]** en el nivel de superficie de canal, se agrega un vínculo de no participación en el encabezado del correo electrónico. [Obtenga más información sobre la exclusión en el encabezado del correo electrónico](#unsubscribe-header)
 
-* Habilite la **vínculo de no participación de un clic** para su correo electrónico.  [Obtenga información sobre cómo añadir un vínculo de no participación de un clic](#one-click-opt-out)
+* Habilite el **vínculo de no participación de un clic** para su correo electrónico.  [Aprenda a agregar un vínculo de no participación de un clic](#one-click-opt-out)
 
-* Inserte una **vínculo a una página de aterrizaje**. [Obtenga información sobre cómo añadir una página de aterrizaje de exclusión](#opt-out-external-lp)
+* Insertar un **vínculo a una página de aterrizaje**. [Aprenda a agregar una página de aterrizaje de exclusión](#opt-out-external-lp)
 
 
 ## Opción de exclusión en un paso {#opt-out-one-step}
@@ -45,9 +45,9 @@ Para insertar un vínculo de baja en el contenido del correo electrónico, puede
 >abstract="Habilite Cancelar la suscripción a la lista para añadir una URL Cancelar la suscripción al encabezado del correo electrónico. Para establecer la URL &quot;Cancelar la suscripción&quot;, inserte un vínculo de no participación de un solo clic en el contenido del correo electrónico."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=es#one-click-opt-out" text="Opción de exclusión en un clic"
 
-La URL &quot;Cancelar la suscripción&quot; de una lista de un clic es un vínculo o botón &quot;Cancelar la suscripción&quot; que se muestra junto a la información del remitente del correo electrónico y permite a los destinatarios excluirse instantáneamente de sus listas de correo con un solo clic. En Adobe Journey Optimizer, cuando la variable **Habilitar cancelación de suscripción a lista** está activada, el encabezado del correo electrónico incluye un mailto y/o una URL de forma predeterminada que los destinatarios pueden utilizar para cancelar la suscripción a su lista de correo.
+La URL &quot;Cancelar la suscripción&quot; de una lista de un clic es un vínculo o botón &quot;Cancelar la suscripción&quot; que se muestra junto a la información del remitente del correo electrónico y permite a los destinatarios excluirse instantáneamente de sus listas de correo con un solo clic. En Adobe Journey Optimizer, cuando la opción **Habilitar cancelación de suscripción a una lista** está activada, el encabezado del correo electrónico incluye un mailto y/o una URL de forma predeterminada que los destinatarios pueden usar para cancelar la suscripción a su lista de correo.
 
-El [Habilitar cancelación de suscripción a lista](email-settings.md#list-unsubscribe) La opción debe activarse en el nivel de superficie de canal para que los correos electrónicos que utilicen esta superficie incluyan la URL de cancelación de suscripción de un solo clic en el encabezado del correo electrónico.
+La opción [Habilitar cancelación de suscripción a una lista](email-settings.md#list-unsubscribe) debe activarse en el nivel de superficie de canal para que los correos electrónicos que usen esta superficie incluyan la URL de cancelación de suscripción de un solo clic en el encabezado del correo electrónico.
 
 >[!NOTE]
 >
@@ -68,22 +68,22 @@ Con Adobe Journey Optimizer, puede configurar la superficie del correo electrón
 >
 -->
 
-Según el cliente de correo electrónico y la variable [configuración de baja de superficie de correo electrónico](email-settings.md#list-unsubscribe), hacer clic en el vínculo unsubscribe en el encabezado del correo electrónico puede tener los siguientes impactos:
+Según el cliente de correo electrónico y la [configuración de cancelación de suscripción de la superficie de correo electrónico](email-settings.md#list-unsubscribe), hacer clic en el vínculo de cancelación de suscripción en el encabezado del correo electrónico puede tener los siguientes impactos:
 
-* Si la variable **Mailto (cancelar la suscripción)** Cuando esta función está habilitada, la solicitud de cancelación de suscripción se envía a la dirección de cancelación de suscripción predeterminada en función del subdominio que haya creado.
-* Si la variable **URL de cancelación de suscripción de un clic** Esta función la habilita usted (o si ha insertado una URL de baja en el contenido del cuerpo del correo electrónico), el destinatario se excluye directamente, ya sea en el nivel de canal o en el nivel de ID (según cómo se configure el consentimiento), cuando el destinatario hace clic en la URL de cancelación de suscripción de un solo clic, que se basa en el subdominio creado por usted.
+* Cuando usted habilita la característica **Mailto (cancelar la suscripción)**, la solicitud de cancelación de suscripción se envía a la dirección de cancelación de suscripción predeterminada según el subdominio que usted haya creado.
+* Cuando usted habilita la característica **Cancelar la suscripción a una URL** con un solo clic- o si ha insertado una URL de cancelación de suscripción en el contenido del cuerpo del correo electrónico-, el destinatario se excluye directamente, ya sea en el nivel de canal o en el nivel de ID (según cómo se configure el consentimiento), cuando el destinatario hace clic en la URL de cancelación de suscripción con un solo clic, que se basa en el subdominio creado por usted.
 
-En ambos casos, el perfil correspondiente del destinatario se excluye inmediatamente y esta opción se actualiza en Experience Platform. Obtenga más información en la [Documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
+En ambos casos, el perfil correspondiente del destinatario se excluye inmediatamente y esta opción se actualiza en Experience Platform. Obtenga más información en la [documentación para Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
 
-Si ha activado la **[!UICONTROL Habilitar cancelación de suscripción a lista]** en cuanto al encabezado Cancelar la suscripción a la lista, le recomendamos que habilite ambos métodos: **Mailto (cancelar la suscripción)** y **URL de cancelación de suscripción de un clic**. No todos los clientes de correo electrónico admiten el método HTTP. Con la función de cancelación de suscripción a una lista de Mailto proporcionada como funcionalidad para que usted seleccione una alternativa, su reputación de remitente puede estar mejor protegida y todos sus destinatarios pueden tener acceso para utilizar la funcionalidad de cancelación de suscripción. [Más información](email-settings.md#list-unsubscribe)
+Si ha activado la opción **[!UICONTROL Habilitar cancelación de suscripción a una lista]** con respecto al encabezado Cancelación de suscripción a una lista, le recomendamos que habilite ambos métodos: **Mailto (cancelación de suscripción)** y **URL de cancelación de suscripción con un solo clic**. No todos los clientes de correo electrónico admiten el método HTTP. Con la función de cancelación de suscripción a una lista de Mailto proporcionada como funcionalidad para que usted seleccione una alternativa, su reputación de remitente puede estar mejor protegida y todos sus destinatarios pueden tener acceso para utilizar la funcionalidad de cancelación de suscripción. [Más información](email-settings.md#list-unsubscribe)
 
 
 ### Exclusión en un clic del contenido del correo electrónico {#one-click-opt-out}
 
 Para establecer una URL de cancelación de suscripción personalizada, inserte un vínculo de no participación de un solo clic en el contenido del mensaje de correo electrónico e introduzca la URL que elija, como se describe a continuación:
 
-1. Acceda al contenido de su correo electrónico y [insertar un vínculo](../email/message-tracking.md#insert-links).
-1. Seleccionar **[!UICONTROL Exclusión en un clic]** como tipo de vínculo.
+1. Acceda al contenido de su correo electrónico e [inserte un vínculo](../email/message-tracking.md#insert-links).
+1. Seleccione **[!UICONTROL Exclusión con un clic]** como tipo de vínculo.
 
    ![](assets/message-tracking-opt-out.png)
 
@@ -91,7 +91,7 @@ Para establecer una URL de cancelación de suscripción personalizada, inserte u
 
    >[!NOTE]
    >
-   >Si habilitó la variable **[!UICONTROL Cancelación de suscripción a lista]** opción en la [nivel de superficie de canal](email-settings.md#list-unsubscribe) y tienen la opción predeterminada de URL de exclusión en un clic desactivada, se utiliza esta URL cuando los usuarios hacen clic en el vínculo de cancelación de suscripción en el encabezado del correo electrónico. [Más información](#unsubscribe-header)
+   >Si habilitaste la opción **[!UICONTROL Cancelar la suscripción a una lista]** en el [nivel de superficie de canal](email-settings.md#list-unsubscribe) y tienes la opción predeterminada de URL de exclusión en un clic desactivada, entonces esta URL se usa cuando los usuarios hacen clic en el vínculo de cancelación de suscripción en el encabezado del correo electrónico. [Más información](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -120,13 +120,13 @@ Para implementar este modo de baja, debe crear y publicar una página de aterriz
 
 Para configurar un mecanismo de exclusión de dos pasos, debe crear sus propias páginas de aterrizaje de baja. La primera página de aterrizaje se vinculará desde el mensaje y debe contener un botón de llamada a la acción. Se debe mostrar un mensaje de confirmación cuando el usuario haga clic en el botón.
 
-Obtenga información sobre cómo crear una página de aterrizaje en Adobe Journey Optimizer para administrar bajas en [esta página](../landing-pages/lp-use-cases.md#opt-out).
+Aprenda a crear una página de aterrizaje en Adobe Journey Optimizer para administrar las bajas de suscripción en [esta página](../landing-pages/lp-use-cases.md#opt-out).
 
 También puede utilizar una página de aterrizaje externa. En ese caso, configure la API para enviar la información a Adobe Journey Optimizer cuando un destinatario haya cancelado la suscripción.
 
 +++ Obtenga información sobre cómo implementar una llamada de API de exclusión
 
-Para que los destinatarios se excluyan cuando envíen su elección desde la página de aterrizaje, debe implementar un **Llamada de API de suscripción** mediante [Adobe Developer](https://developer.adobe.com){target="_blank"} para actualizar las preferencias de los perfiles correspondientes.
+Para que los destinatarios se excluyan cuando envíen su elección desde la página de aterrizaje, debe implementar una **llamada de API de suscripción** a través de [Adobe Developer](https://developer.adobe.com){target="_blank"} para actualizar las preferencias de los perfiles correspondientes.
 
 Esta llamada de POST es como sigue:
 
@@ -163,7 +163,7 @@ Cuerpo de la solicitud:
 }
 ```
 
-[!DNL Journey Optimizer] utiliza estos parámetros para actualizar la elección del perfil correspondiente a través de [Adobe Developer](https://developer.adobe.com){target="_blank"} Llamada de API.
+[!DNL Journey Optimizer] utiliza estos parámetros para actualizar la elección del perfil correspondiente a través de la llamada de API [Adobe Developer](https://developer.adobe.com){target="_blank"}.
 
 +++
 
@@ -172,13 +172,13 @@ Cuerpo de la solicitud:
 
 Primero debe agregar el vínculo &quot;Cancelar la suscripción&quot; a un mensaje. Para realizar esto, siga los pasos a continuación:
 
-1. Cree un mensaje y [insertar un vínculo](../email/message-tracking.md#insert-links) uso de la barra de herramientas contextual.
+1. Cree un mensaje e [inserte un vínculo](../email/message-tracking.md#insert-links) utilizando la barra de herramientas contextual.
 
    ![](assets/opt-out-insert-link.png)
 
-1. Seleccione el **[!UICONTROL Página de aterrizaje]** desde el **[!UICONTROL Tipo]** y seleccione la página de aterrizaje de exclusión en la lista desplegable **[!UICONTROL Página de aterrizaje]** field.
+1. Seleccione la **[!UICONTROL página de aterrizaje]** de la lista desplegable **[!UICONTROL Tipo]** y seleccione la página de aterrizaje de exclusión en el campo **[!UICONTROL Página de aterrizaje]**.
 
-   Si utiliza una página de aterrizaje externa, seleccione **[!UICONTROL Exclusión/baja externa]** desde el **[!UICONTROL Tipo]** lista desplegable.
+   Si está usando una página de aterrizaje externa, seleccione **[!UICONTROL Exclusión/baja externa]** de la lista desplegable **[!UICONTROL Tipo]**.
 
    ![](assets/opt-out-link-type.png)
 
@@ -199,7 +199,7 @@ Una vez configurado el vínculo &quot;Cancelar la suscripción&quot; a la págin
 
    ![](assets/opt-out-lp-example.png)
 
-1. Si el destinatario envía el formulario: aquí, pulsando la tecla **[!UICONTROL Cancelar suscripción]** en la página de aterrizaje: los datos de perfil se actualizan a través de la llamada de API.
+1. Si el destinatario envía el formulario (aquí, pulsando el botón **[!UICONTROL Cancelar la suscripción]** de la página de aterrizaje), los datos de perfil se actualizan mediante la llamada de API.
 
 1. El destinatario excluido se redirige a la pantalla de mensaje de confirmación para indicar que la exclusión se ha realizado correctamente.
 
@@ -207,7 +207,7 @@ Una vez configurado el vínculo &quot;Cancelar la suscripción&quot; a la págin
 
    Como resultado, este usuario no recibirá comunicaciones de su marca a menos que se vuelva a suscribir.
 
-1. Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y acceda al perfil seleccionando un área de nombres de identidad y un valor de identidad correspondiente. Obtenga más información en la [Documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
+1. Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y acceda al perfil seleccionando un área de nombres de identidad y un valor de identidad correspondiente. Obtenga más información en la [documentación para Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
 
    ![](assets/opt-out-profile-choice.png)
 

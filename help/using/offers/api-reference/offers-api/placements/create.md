@@ -9,17 +9,17 @@ exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
 # Crear una ubicación {#create-placement}
 
-Puede crear una ubicación realizando una solicitud de POST al [!DNL Offer Library] API.
+Puede crear una ubicación realizando una solicitud de POST a la API [!DNL Offer Library].
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* en el encabezado de la solicitud:
+La siguiente tabla muestra los valores válidos que comprenden el campo *Content-Type* del encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -66,7 +66,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/placements' \
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles de la ubicación, la ubicación y la ubicación recién creadas `id`. Puede seguir los pasos siguientes para actualizar o eliminar su ubicación. Puede utilizar su ubicación única `id` en tutoriales posteriores para crear decisiones, reglas de decisión y ofertas de reserva.
+Una respuesta correcta devuelve los detalles de la ubicación recién creada y la ubicación `id`. Puede seguir los pasos siguientes para actualizar o eliminar su ubicación. Puede utilizar su ubicación única `id` en tutoriales posteriores para crear decisiones, reglas de decisión y ofertas de reserva.
 
 ```json
 {

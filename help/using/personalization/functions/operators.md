@@ -9,7 +9,7 @@ exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
@@ -21,7 +21,7 @@ Las funciones booleanas se utilizan para realizar lógica booleana en diferentes
 
 ### Y{#and}
 
-El `and` se utiliza para crear una conjunción lógica.
+La función `and` se usa para crear una conjunción lógica.
 
 **Sintaxis**
 
@@ -39,7 +39,7 @@ La siguiente operación devolverá a todas las personas con país de origen como
 
 ### O{#or}
 
-El `or` se utiliza para crear una disyunción lógica.
+La función `or` se usa para crear una disyunción lógica.
 
 **Sintaxis**
 
@@ -82,7 +82,7 @@ Las funciones de comparación se utilizan para comparar entre diferentes expresi
 
 ### Es igual a{#equals}
 
-El `=` La función (es igual que) comprueba si un valor o expresión es igual a otro valor o expresión.
+La función `=` (igual) comprueba si un valor o expresión es igual a otro valor o expresión.
 
 **Sintaxis**
 
@@ -100,7 +100,7 @@ La siguiente operación comprueba si el país de la dirección postal es Francia
 
 ### Distinto a{#notequal}
 
-El `!=` La función (no es igual) comprueba si un valor o expresión es **no** es igual a otro valor o expresión.
+La función `!=` (no es igual) comprueba si un valor o expresión es **no** igual a otro valor o expresión.
 
 **Sintaxis**
 
@@ -118,7 +118,7 @@ La siguiente operación comprueba si el país de la dirección postal no es Fran
 
 ### Mayor que{#greaterthan}
 
-El `>` (mayor que) se utiliza para comprobar si el primer valor es mayor que el segundo valor.
+La función `>` (mayor que) se usa para comprobar si el primer valor es mayor que el segundo valor.
 
 **Sintaxis**
 
@@ -136,7 +136,7 @@ La siguiente operación define a las personas nacidas estrictamente después de 
 
 ### Mayor o igual que{#greaterthanorequal}
 
-El `>=` (mayor o igual que) se utiliza para comprobar si el primer valor es mayor o igual que el segundo valor.
+La función `>=` (mayor o igual que) se usa para comprobar si el primer valor es mayor o igual que el segundo valor.
 
 **Sintaxis**
 
@@ -154,7 +154,7 @@ La siguiente operación define a las personas nacidas en o después de 1970.
 
 ### Menor que{#lessthan}
 
-El `<` (menor que) se utiliza la función de comparación para comprobar si el primer valor es menor que el segundo valor.
+La función de comparación `<` (menor que) se usa para comprobar si el primer valor es menor que el segundo valor.
 
 **Sintaxis**
 
@@ -172,7 +172,7 @@ La siguiente operación define a las personas nacidas antes del año 2000.
 
 ### Menor o igual que{#lessthanorequal}
 
-El `<=` (menor o igual que) se utiliza para comprobar si el primer valor es menor o igual que el segundo valor.
+La función de comparación `<=` (menor o igual que) se usa para comprobar si el primer valor es menor o igual que el segundo valor.
 
 **Sintaxis**
 

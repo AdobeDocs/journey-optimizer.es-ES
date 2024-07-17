@@ -9,7 +9,7 @@ exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -19,7 +19,7 @@ Las funciones de agregación se utilizan para agrupar varios valores para formar
 
 ## Promedio{#average}
 
-El `average` función devuelve la media aritmética de todos los valores seleccionados dentro de la matriz.
+La función `average` devuelve la media aritmética de todos los valores seleccionados dentro de la matriz.
 
 **Sintaxis**
 
@@ -35,9 +35,9 @@ La siguiente operación devuelve el precio medio de todos los pedidos.
 {%=average(orders.order.price)%}
 ```
 
-## Recuento{#count}
+## Cuenta{#count}
 
-El `count` función devuelve el número de elementos dentro de la matriz determinada.
+La función `count` devuelve el número de elementos dentro de la matriz determinada.
 
 **Sintaxis**
 
@@ -55,7 +55,7 @@ La siguiente operación devuelve el número de pedidos de la matriz.
 
 ## Máximo{#max}
 
-El `max` función devuelve el mayor de todos los valores seleccionados dentro de la matriz.
+La función `max` devuelve el mayor de todos los valores seleccionados dentro de la matriz.
 
 **Sintaxis**
 
@@ -73,7 +73,7 @@ La siguiente operación devuelve el precio más alto de todos los pedidos.
 
 ## Mínimo{#min}
 
-El `min` función devuelve el menor de todos los valores seleccionados dentro de la matriz.
+La función `min` devuelve el menor de todos los valores seleccionados dentro de la matriz.
 
 **Sintaxis**
 
@@ -91,7 +91,7 @@ La siguiente operación devuelve el precio más bajo de todos los pedidos.
 
 ## Sum{#sum}
 
-El `sum` función devuelve la suma de todos los valores seleccionados dentro de la matriz.
+La función `sum` devuelve la suma de todos los valores seleccionados dentro de la matriz.
 
 **Sintaxis**
 

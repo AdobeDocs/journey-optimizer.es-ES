@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Buscar un calificador de colección {#look-up-tag}
 
-Puede buscar calificadores de colección específicos (anteriormente conocidos como &quot;etiquetas&quot;) realizando una solicitud de GET a [!DNL Offer Library] API que incluye el calificador de recopilación `id` en la ruta de solicitud.
+Puede buscar calificadores de colección específicos (anteriormente conocidos como &quot;tags&quot;) realizando una solicitud de GET a la API [!DNL Offer Library] que incluye el calificador de colección `id` en la ruta de solicitud.
 
 **Formato de API**
 
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles del calificador de recopilación, incluida la información sobre el calificador de recopilación único `id`.
+Una respuesta correcta devuelve los detalles del calificador de recopilación, incluida la información acerca del calificador de recopilación único `id`.
 
 ```json
 {

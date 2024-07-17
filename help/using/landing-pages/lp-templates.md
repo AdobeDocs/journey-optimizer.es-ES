@@ -20,11 +20,11 @@ ht-degree: 17%
 
 ## Guardar una página como plantilla {#save-as-template}
 
-Una vez que haya diseñado su [contenido de página de aterrizaje](lp-content.md), puede guardarlo para su reutilización futura. Para realizar esto, siga los pasos a continuación.
+Una vez que hayas diseñado el [contenido de la página de aterrizaje](lp-content.md), puedes guardarlo para reutilizarlo en el futuro. Para realizar esto, siga los pasos a continuación.
 
 1. Haga clic en los puntos suspensivos en la parte superior derecha de la pantalla.
 
-1. Seleccionar **[!UICONTROL Guardar como plantilla de contenido]** en el menú desplegable.
+1. Seleccione **[!UICONTROL Guardar como plantilla de contenido]** en el menú desplegable.
 
    ![](assets/lp_designer-save-template.png)
 
@@ -34,13 +34,13 @@ Una vez que haya diseñado su [contenido de página de aterrizaje](lp-content.md
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-La próxima vez que cree una página de aterrizaje, puede utilizar esta plantilla para crear su contenido. Aprenda a hacerlo en [sección](#use-saved-template) más abajo.
+La próxima vez que cree una página de aterrizaje, puede utilizar esta plantilla para crear su contenido. Aprenda a hacerlo en la [sección](#use-saved-template) a continuación.
 
 ![](assets/lp_designer-saved-template.png)
 
 ## Uso de una plantilla guardada {#use-saved-template}
 
-1. Abra el [diseñador de contenido de página de aterrizaje](design-lp.md). Se muestra la lista de todas las plantillas guardadas anteriormente.
+1. Abra [el diseñador de contenido de la página de aterrizaje](design-lp.md). Se muestra la lista de todas las plantillas guardadas anteriormente.
 
 1. Puede ordenarlas **[!UICONTROL Por nombre]**, **[!UICONTROL Última modificación]** y **[!UICONTROL Última creación]**.
 
@@ -52,7 +52,7 @@ La próxima vez que cree una página de aterrizaje, puede utilizar esta plantill
 
    ![](assets/lp_designer-saved-templates-navigate.png)
 
-1. Clic **[!UICONTROL Usar esta plantilla]**.
+1. Haga clic en **[!UICONTROL Usar esta plantilla]**.
 
 1. Edite el contenido como desee con el diseñador de páginas de aterrizaje.
 

@@ -9,7 +9,7 @@ exl-id: 6ce70e32-aac3-4a2c-bfeb-c370521853ca
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 7%
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 ## Es nulo{#isNull}
 
-El `isNull` determina si no existe una referencia de objeto.
+La función `isNull` determina si no existe una referencia de objeto.
 
 **Sintaxis**
 
@@ -35,7 +35,7 @@ La siguiente operación comprueba si la dirección postal de la persona no exist
 
 ## No es nulo{#isNotNull}
 
-El `isNotNull` determina si existe una referencia a un objeto.
+La función `isNotNull` determina si existe una referencia a un objeto.
 
 **Sintaxis**
 

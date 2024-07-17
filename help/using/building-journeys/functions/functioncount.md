@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: count
+title: recuento
 description: Más información sobre el recuento de funciones
 feature: Journeys
 role: Data Engineer, Architect
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 ---
 
-# count {#count}
+# recuento {#count}
 
 Cuenta los elementos de la lista que no tienen en cuenta los valores nulos.
 

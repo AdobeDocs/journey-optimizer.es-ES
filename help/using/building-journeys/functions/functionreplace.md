@@ -32,9 +32,9 @@ Cadena
 
 | Parámetro | Tipo |
 |-----------|--------------|
-| basar | string |
-| target | cadena (RegExp) |
-| reemplazo | string |
+| basar | cadena |
+| destino | cadena (RegExp) |
+| reemplazo | cadena |
 
 ## Firma y tipo devuelto
 
@@ -56,7 +56,7 @@ Dado que el parámetro de destino es RegExp, en función de la cadena que desee 
 * proporcionado por un atributo de perfil `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
 * Cadena que reemplazar: `|OFFER_A`
 * Cadena reemplazada por: `''`
-* Debe agregar lo siguiente `\\` antes del `|` carácter.
+* Debe agregar `\\` antes del carácter `|`.
 
 La expresión es:
 

@@ -19,9 +19,9 @@ ht-degree: 0%
 
 La instrucción condicional (if, then, else) se admite en el editor avanzado. Permite definir expresiones más complejas. Se compone de los siguientes elementos:
 
-* **[!UICONTROL if]**: condición que se debe evaluar primero.
-* **[!UICONTROL entonces]**: la expresión que se va a evaluar en caso de que el resultado de la evaluación de la condición sea true.
-* **[!UICONTROL else]**: la expresión que se va a evaluar en caso de que el resultado de la evaluación de la condición sea falso.
+* **[!UICONTROL if]**: la condición que se va a evaluar primero.
+* **[!UICONTROL then]**: la expresión que se va a evaluar en caso de que el resultado de la evaluación de la condición sea true.
+* **[!UICONTROL else]**: la expresión que se va a evaluar en caso de que el resultado de la evaluación de la condición sea false.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ else
 
 `<expression1>` debe devolver un **booleano**.
 
-`<expression2>` y `<expression3>` debe tener el mismo tipo o tipos compatibles. Las firmas admitidas y los tipos devueltos son:
+`<expression2>` y `<expression3>` deben tener el mismo tipo o tipos compatibles. Las firmas admitidas y los tipos devueltos son:
 
 ```json
 boolean,boolean : boolean

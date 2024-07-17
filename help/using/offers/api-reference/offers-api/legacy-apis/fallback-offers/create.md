@@ -9,17 +9,17 @@ exl-id: 1a9c074a-187a-45b1-9ad0-378aeef0d03d
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
 # Crear una oferta de reserva {#create-fallback-offer}
 
-Puede crear una oferta de reserva realizando una solicitud de POST a [!DNL Offer Library] API, al tiempo que proporciona su ID de contenedor.
+Puede crear una oferta de reserva realizando una solicitud de POST a la API [!DNL Offer Library], al tiempo que proporciona su ID de contenedor.
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
-La siguiente tabla muestra los valores válidos que componen la variable *Content-Type* y *Aceptar* campos en el encabezado de la solicitud:
+En la tabla siguiente se muestran los valores válidos que comprenden los campos *Content-Type* y *Accept* del encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
 | ----------- | ----- |
@@ -71,7 +71,7 @@ curl -X POST \
 
 **Respuesta**
 
-Una respuesta correcta devuelve información sobre la oferta de reserva recién creada, incluido su ID de instancia y ubicación únicos `@id`. Puede usar el ID de instancia en pasos posteriores para actualizar o eliminar la oferta de reserva. Puede utilizar su oferta de reserva única `@id` en un tutorial posterior para crear una decisión.
+Una respuesta correcta devuelve información sobre la oferta de reserva recién creada, incluido su ID de instancia único y la ubicación `@id`. Puede usar el ID de instancia en pasos posteriores para actualizar o eliminar la oferta de reserva. Puede utilizar su oferta de reserva única `@id` en un tutorial posterior para crear una decisión.
 
 
 ```json

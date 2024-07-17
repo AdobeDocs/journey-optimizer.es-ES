@@ -31,25 +31,25 @@ ht-degree: 17%
 Lo que encontrará en esta guía de documentación:
 
 * [Introducción a los planes de calentamiento de IP](ip-warmup-gs.md)
-* **[Creación de campañas de calentamiento de IP](ip-warmup-campaign.md)**
+* **[Crear campañas de calentamiento de IP](ip-warmup-campaign.md)**
 * [Creación de un plan de calentamiento de IP](ip-warmup-plan.md)
 * [Ejecución del plan de calentamiento de IP](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
-Antes de crear el propio plan de calentamiento de IP en [!DNL Journey Optimizer], primero debe crear una o más campañas diseñadas específicamente para usarlas en un plan de calentamiento de IP<!--through a dedicated option-->.
+Antes de crear el plan de calentamiento de IP en [!DNL Journey Optimizer], primero debe crear una o más campañas diseñadas específicamente para usarlas en un plan de calentamiento de IP<!--through a dedicated option-->.
 
 Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 
-1. Crear un [email](../email/email-settings.md) canal [emerger](channel-surfaces.md) para el dominio y las direcciones IP que ha identificado para su plan de calentamiento.
+1. Cree un [correo electrónico](../email/email-settings.md) canal [surface](channel-surfaces.md) para el dominio y las direcciones IP que identificó para su plan de calentamiento.
 
    >[!NOTE]
    >
-   >Obtenga información sobre cómo seleccionar el dominio y las direcciones IP que se utilizarán en una superficie de correo electrónico en [esta sección](../email/email-settings.md#subdomains-and-ip-pools).
+   >Aprenda a seleccionar el dominio y las direcciones IP que se utilizarán en una superficie de correo electrónico en [esta sección](../email/email-settings.md#subdomains-and-ip-pools).
    >
-   >Póngase en contacto con su consultor del equipo de entrega para identificar el dominio y las direcciones IP que se utilizarán para su plan de calentamiento de IP.<!--TBC-->
+   >Póngase en contacto con el consultor del equipo de entrega para identificar el dominio y las direcciones IP que se utilizarán para el plan de calentamiento de IP.<!--TBC-->
 
-1. Creación de un marketing programado [campaña](../campaigns/create-campaign.md) y seleccione la [Correo electrónico](../email/create-email.md#create-email-journey-campaign) acción.
+1. Cree una [campaña](../campaigns/create-campaign.md) de marketing programado y seleccione la acción [Correo electrónico](../email/create-email.md#create-email-journey-campaign).
 
    <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.-->
 
@@ -61,13 +61,13 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
-1. Desde el **[!UICONTROL Programación]** , seleccione **[!UICONTROL Activación del plan de calentamiento IP]**.
+1. En la sección **[!UICONTROL Programar]**, seleccione **[!UICONTROL Activación del plan de calentamiento IP]**.
 
    ![](assets/ip-warmup-campaign-plan-activation.png)
 
-   La campaña [programación](../campaigns/create-campaign.md#schedule) será impulsado por el plan de calentamiento de IP con el que estará asociado, lo que significa que la programación ya no está definida en la propia campaña.
+   La programación [schedule](../campaigns/create-campaign.md#schedule) de la campaña estará dirigida por el plan de calentamiento de IP con el que estará asociada, lo que significa que la programación ya no está definida en la propia campaña.
 
-1. Complete los pasos para crear una campaña de correo electrónico, como la definición de las propiedades de la campaña, [audiencia](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?-->, y [content](../email/get-started-email-design.md#key-steps).
+1. Complete los pasos para crear una campaña de correo electrónico, como definir las propiedades de la campaña, [audiencia](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?--> y [contenido](../email/get-started-email-design.md#key-steps).
 
    Tenga en cuenta que debe seleccionar una audiencia basada en reglas para la campaña de calentamiento de IP. [Más información](../audience/creating-a-segment-definition.md)
 
@@ -81,9 +81,9 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Para una campaña en directo con el plan de calentamiento de IP activado, la variable **[!UICONTROL Eliminar]** está disponible hasta que se asocia con un plan de calentamiento de IP. Una vez utilizada en un plan, la campaña ya no se puede eliminar.
+   >Para una campaña en vivo con el plan de calentamiento de IP activado, el botón **[!UICONTROL Eliminar]** está disponible hasta que se asocie con un plan de calentamiento de IP. Una vez utilizada en un plan, la campaña ya no se puede eliminar.
 
-1. La campaña se muestra en la **[!UICONTROL Campañas]** lista. Para recuperar fácilmente todas las campañas de calentamiento de IP creadas en la zona protegida actual, puede filtrar la variable **[!UICONTROL Preparación de IP]** Opción de campaña.
+1. La campaña se muestra en la lista **[!UICONTROL Campañas]**. Para recuperar fácilmente todas las campañas de calentamiento de IP creadas en la zona protegida actual, puede filtrar por la opción de campaña **[!UICONTROL calentamiento de IP]**.
 
    ![](assets/ip-warmup-campaign-filter.png)
 
@@ -93,5 +93,5 @@ Una campaña de calentamiento de IP solo se puede utilizar en un plan de calenta
 
 >[!NOTE]
 >
->Cuando se utiliza una campaña en directo en un plan de calentamiento de IP, después de que el plan sea [marcado como completado](ip-warmup-execution.md#mark-as-completed), el estado de esa campaña cambia a **[!UICONTROL Detenido]**.
+>Cuando se usa una campaña activa en un plan de calentamiento de IP, después de que el plan esté [marcado como completado](ip-warmup-execution.md#mark-as-completed), el estado de esa campaña cambia a **[!UICONTROL Detenido]**.
 

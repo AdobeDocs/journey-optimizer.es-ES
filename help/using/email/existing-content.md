@@ -18,10 +18,10 @@ ht-degree: 33%
 
 # Importar el contenido del correo electrónico {#existing-content}
 
-[!DNL Journey Optimizer] permite importar contenido existente del HTML para diseñar los correos electrónicos. Este contenido puede ser el siguiente:
+[!DNL Journey Optimizer] le permite importar contenido existente del HTML para diseñar sus correos electrónicos. Este contenido puede ser el siguiente:
 
-* Un **archivo de HTML** con una hoja de estilo incorporada;
-* A **carpeta .zip** incluyendo un archivo de HTML, la hoja de estilo (.css) y las imágenes.
+* Un **archivo HTML** con una hoja de estilos incorporada;
+* Una carpeta **.zip** que incluye un archivo de HTML, la hoja de estilo (.css) y las imágenes.
 
   >[!NOTE]
   >
@@ -29,7 +29,7 @@ ht-degree: 33%
 
 Para importar un archivo con contenido HTML, siga los pasos a continuación:
 
-1. En la página de inicio del Diseñador de correo electrónico, seleccione **[!UICONTROL Importar HTML]**.
+1. En la página de inicio de Email Designer, seleccione **[!UICONTROL Importar HTML]**.
 
    ![](assets/import-html_2.png)
 
@@ -37,19 +37,19 @@ Para importar un archivo con contenido HTML, siga los pasos a continuación:
 
    ![](assets/html-imported_2.png)
 
-1. Una vez cargado el contenido del HTML, el contenido se encuentra en **[!UICONTROL Modo de compatibilidad]**.
+1. Una vez cargado el contenido del HTML, el contenido estará en **[!UICONTROL modo de compatibilidad]**.
 
    En este modo, solo puede personalizar el texto, agregar vínculos o incluir recursos en el contenido.
 
-1. Para poder aprovechar los componentes de contenido del Diseñador de correo electrónico, acceda al **[!UICONTROL convertidor HTML]** y haga clic en **[!UICONTROL Convertir]**.
+1. Para poder aprovechar los componentes de contenido de Email Designer, accede a la pestaña **[!UICONTROL convertidor de HTML]** y haz clic en **[!UICONTROL Convertir]**.
 
    ![](assets/html-imported.png)
 
    >[!NOTE]
    >
-   > Uso de un `<table>` como la primera capa de un archivo de HTML puede causar pérdida de estilo, incluida la configuración de fondo y anchura en la etiqueta de capa superior.
+   > El uso de una etiqueta `<table>` como primera capa en un archivo de HTML puede causar la pérdida de estilo, incluida la configuración del fondo y el ancho en la etiqueta de capa superior.
 
-1. Ahora puede personalizar el archivo importado según sea necesario con las funcionalidades del Diseñador de correo electrónico [Más información](content-from-scratch.md).
+1. Ahora puede personalizar el archivo importado según sea necesario con las funcionalidades de Email Designer [Más información](content-from-scratch.md).
 
 ## Vídeo explicativo {#video}
 

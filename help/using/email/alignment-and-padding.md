@@ -20,11 +20,11 @@ ht-degree: 17%
 
 En este ejemplo, se ajusta el relleno y la alineación vertical dentro de un componente de estructura compuesto por tres columnas.
 
-1. Seleccione el componente de estructura directamente en el correo electrónico o mediante la variable **[!UICONTROL Árbol de navegación]** disponible en el menú de la izquierda.
+1. Seleccione el componente de estructura directamente en el correo electrónico o mediante el **[!UICONTROL árbol de navegación]** disponible en el menú de la izquierda.
 
-1. En la barra de herramientas, haga clic en **[!UICONTROL Seleccionar una columna]** y elija el que desee editar. También puede seleccionarlo en el árbol de estructura.
+1. En la barra de herramientas, haga clic en **[!UICONTROL Seleccionar una columna]** y elija la que desee editar. También puede seleccionarlo en el árbol de estructura.
 
-   Los parámetros editables para esa columna se muestran en la variable **[!UICONTROL Estilos]** pestaña.
+   Los parámetros editables para esa columna se muestran en la ficha **[!UICONTROL Estilos]**.
 
    ![](assets/alignment_2.png)
 
@@ -34,7 +34,7 @@ En este ejemplo, se ajusta el relleno y la alineación vertical dentro de un com
 
 1. En **[!UICONTROL Relleno]**, defina el relleno para todos los lados.
 
-   Seleccionar **[!UICONTROL Relleno diferente para cada lado]** si desea ajustar el relleno. Haga clic en el icono de bloqueo para interrumpir la sincronización.
+   Seleccione **[!UICONTROL relleno diferente para cada lado]** si desea ajustar el relleno. Haga clic en el icono de bloqueo para interrumpir la sincronización.
 
    ![](assets/alignment_4.png)
 

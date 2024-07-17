@@ -12,7 +12,7 @@ exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 1%
 
 ![](assets/cja-analyze.png)
 
-Mejore su experiencia de análisis de datos con su **[!DNL Customer Journey Analytics]** mediante el uso de la **[!UICONTROL Analizar en CJA]** función disponible en todos los informes.
+Mejore su experiencia de análisis de datos con la licencia de **[!DNL Customer Journey Analytics]** aprovechando la función **[!UICONTROL Analizar en CJA]** disponible en todos los informes.
 
-Esta potente opción le redirige sin problemas a su **[!DNL Customer Journey Analytics]** , lo que le permite personalizar los informes en profundidad. Puede enriquecer sus widgets con métricas de Customer Journey Analytics especializadas, llevando sus perspectivas a un nivel completamente nuevo.
+Esta potente opción le redirige sin problemas a su entorno de **[!DNL Customer Journey Analytics]**, lo que le permite personalizar sus informes exhaustivamente. Puede enriquecer sus widgets con métricas de Customer Journey Analytics especializadas, llevando sus perspectivas a un nivel completamente nuevo.
 
-[Obtenga más información sobre la interfaz de Customer Journey Analytics.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
+[Más información sobre la interfaz de Customer Journey Analytics.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
 
 ## Definición del período de informe {#report-period}
 
@@ -46,9 +46,9 @@ Puede exportar fácilmente los distintos informes a los formatos PDF o CSV, lo q
 
 >[!BEGINTABS]
 
->[!TAB Exportación del informe como archivo CSV]
+>[!TAB Exporte su informe como archivo CSV]
 
-1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL Archivo CSV]** para generar un archivo CSV en el nivel de informe general.
+1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL archivo CSV]** para generar un archivo CSV en el nivel de informe general.
 
    ![](assets/export_cja_csv.png)
 
@@ -56,13 +56,13 @@ Puede exportar fácilmente los distintos informes a los formatos PDF o CSV, lo q
 
    Si ha generado el archivo en el nivel de informe, contiene información detallada para cada widget, incluidos su título y datos.
 
->[!TAB Exportación del informe como archivo de PDF]
+>[!TAB Exporte su informe como archivo de PDF]
 
 1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL archivo de PDF]**.
 
    ![](assets/export_cja_pdf.png)
 
-1. Una vez solicitada la descarga, haga clic en **[!UICONTROL Descargar]**.
+1. Una vez solicitada la descarga, haz clic en **[!UICONTROL Descargar]**.
 
    ![](assets/export_cja_pdf_2.png)
 

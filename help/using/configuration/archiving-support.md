@@ -20,15 +20,15 @@ ht-degree: 7%
 
 ## Cómo archivar mensajes {#about-archiving}
 
-Las regulaciones como la HIPAA requieren que [!DNL Journey Optimizer] debe proporcionar una forma de archivar los mensajes enviados a las personas. De hecho, si sus clientes presentan una reclamación, deben tener la capacidad de obtener una copia del mensaje enviado para fines de verificación.
+Las regulaciones como HIPAA requieren que [!DNL Journey Optimizer] proporcione una forma de archivar los mensajes enviados a las personas. De hecho, si sus clientes presentan una reclamación, deben tener la capacidad de obtener una copia del mensaje enviado para fines de verificación.
 
 * Para el canal de correo electrónico, [!DNL Journey Optimizer] proporciona una capacidad de correo electrónico CCO integrada. [Más información](#bcc-email)
 
-* Además, para todos los canales, puede utilizar el campo &quot;Plantilla&quot; en **Conjunto de datos de entidad**, que contiene los detalles de las plantillas de mensajes no personalizadas. Exporte el conjunto de datos con este campo para guardar metadatos como: quién envió el mensaje, a quién y cuándo. Tenga en cuenta que los datos personalizados no se exportan, solo se tiene en cuenta la plantilla (formato y estructura del mensaje). [Más información](../data/datasets-query-examples.md#entity-dataset)
+* Además, para todos los canales, puede usar el campo &quot;Plantilla&quot; en el **Conjunto de datos de entidad**, que contiene los detalles de las plantillas de mensajes no personalizadas. Exporte el conjunto de datos con este campo para guardar metadatos como: quién envió el mensaje, a quién y cuándo. Tenga en cuenta que los datos personalizados no se exportan, solo se tiene en cuenta la plantilla (formato y estructura del mensaje). [Más información](../data/datasets-query-examples.md#entity-dataset)
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] no es compatible con los requisitos de archivo de SMS. Para obtener soporte de archivo dedicado, trabaje con su proveedor de SMS (Synch, Infobip o Twilio).
+>[!DNL Journey Optimizer] no posee compatibilidad con los requisitos de archivo de SMS. Para obtener soporte de archivo dedicado, trabaje con su proveedor de SMS (Synch, Infobip o Twilio).
 
 ## Cómo utilizar CCO para correos electrónicos {#bcc-email}
 
@@ -37,17 +37,17 @@ Las regulaciones como la HIPAA requieren que [!DNL Journey Optimizer] debe propo
 >title="Definir una dirección de correo electrónico CCO"
 >abstract="Puede conservar una copia de los correos electrónicos enviados enviándolos a una bandeja de entrada CCO. Escriba la dirección de correo electrónico que desee para que cada correo electrónico enviado se copie de forma oculta a esta dirección de CCO. Tenga en cuenta que el dominio de la dirección CCO debe ser diferente de cualquier subdominio delegado a Adobe. Esta funcionalidad es opcional."
 
-Puede enviar una copia oculta (CCO) de un correo electrónico enviado por [!DNL Journey Optimizer] a una dirección de CCO dedicada. Esta función opcional le permite conservar copias de las comunicaciones por correo electrónico que envía a sus usuarios para fines de conformidad o archivo. La dirección CCO no es visible para otros destinatarios del mensaje.
+Puede enviar una copia oculta (CCO) de un correo electrónico enviado por [!DNL Journey Optimizer] a una dirección CCO dedicada. Esta función opcional le permite conservar copias de las comunicaciones por correo electrónico que envía a sus usuarios para fines de conformidad o archivo. La dirección CCO no es visible para otros destinatarios del mensaje.
 
 ### Habilitar correo electrónico CCO {#enable-bcc}
 
-Para habilitar la variable **[!UICONTROL Correo electrónico CCO]** , introduzca la dirección de correo electrónico de su elección en el campo dedicado del [superficie de canal](channel-surfaces.md) (es decir, ajuste preestablecido de mensaje). Puede especificar cualquier dirección externa en el formato correcto, excepto una dirección de correo electrónico definida en un subdominio delegado al Adobe. Por ejemplo, si delegó la variable *marketing.luma.com* subdominio a Adobe, cualquier dirección como *abc@marketing.luma.com* está prohibido.
+Para habilitar la opción **[!UICONTROL correo electrónico CCO]**, escriba la dirección de correo electrónico que desee en el campo dedicado de [superficie de canal](channel-surfaces.md) (es decir, ajuste preestablecido de mensaje). Puede especificar cualquier dirección externa en el formato correcto, excepto una dirección de correo electrónico definida en un subdominio delegado al Adobe. Por ejemplo, si delegó el subdominio *marketing.luma.com* al Adobe, cualquier dirección como *abc@marketing.luma.com* está prohibida.
 
 >[!CAUTION]
 >
 >Solo puede definir una dirección de correo electrónico CCO. Asegúrese de que la dirección de CCO tenga suficiente capacidad de recepción para almacenar todos los correos electrónicos enviados mediante la superficie de canal actual.
 >
->Encontrará más recomendaciones en [esta sección](#bcc-recommendations-limitations).
+>Hay más recomendaciones en [esta sección](#bcc-recommendations-limitations).
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Sin embargo, la dirección de CCO se recoge para enviar comunicaciones siguiendo
 
 * La bandeja de entrada utilizada para CCO debe administrarse correctamente para el espacio y la entrega. Si la bandeja de entrada devuelve devoluciones, es posible que algunos correos electrónicos no se reciban y, por lo tanto, no se archiven.
 
-* Los mensajes se pueden enviar a la dirección de correo electrónico CCO antes que los destinatarios objetivo. Los mensajes BCC también se pueden enviar aunque los mensajes originales tengan [rechazado](../reports/suppression-list.md#delivery-failures).
+* Los mensajes se pueden enviar a la dirección de correo electrónico CCO antes que los destinatarios objetivo. Los mensajes CCO también se pueden enviar aunque los mensajes originales hayan [rebotado](../reports/suppression-list.md#delivery-failures).
 
   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
@@ -89,21 +89,21 @@ Sin embargo, la dirección de CCO se recoge para enviar comunicaciones siguiendo
 
 ### Cumplimiento del RGPD {#gdpr-compliance}
 
-Las regulaciones como el RGPD establecen que los sujetos de datos deben poder modificar su consentimiento en cualquier momento. Dado que los correos electrónicos CCO que envía con Journey Optimizer incluyen información de identificación personal (PII) segura, debe editar la **[!UICONTROL Esquema de evento de comentarios CCO de correo electrónico CJM]** para poder administrar estas PII de conformidad con el RGPD y regulaciones similares.
+Las regulaciones como el RGPD establecen que los sujetos de datos deben poder modificar su consentimiento en cualquier momento. Dado que los mensajes de correo electrónico CCO que envía con Journey Optimizer incluyen información de identificación personal (PII) segura, debe editar el **[!UICONTROL Esquema de evento de comentarios CCO de correo electrónico de CJM]** para poder administrar estos PII de conformidad con el RGPD y regulaciones similares.
 
 Para realizar esto, siga los pasos a continuación.
 
-1. Ir a **[!UICONTROL Administración de datos]** > **[!UICONTROL Esquemas]** > **[!UICONTROL Examinar]** y seleccione **[!UICONTROL Esquema de evento de comentarios CCO de correo electrónico CJM]**.
+1. Vaya a **[!UICONTROL Administración de datos]** > **[!UICONTROL Esquemas]** > **[!UICONTROL Examinar]** y seleccione **[!UICONTROL Esquema de evento de comentarios CCO de correo electrónico de CJM]**.
 
    ![](assets/preset-bcc-schema.png)
 
-1. Haga clic para expandir **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagement]** entonces **[!UICONTROL secondaryRecipientDetail]**.
+1. Haga clic para expandir **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagement]** y **[!UICONTROL secondaryRecipientDetail]**.
 
-1. Seleccionar **[!UICONTROL originalRecipientAddress]**.
+1. Seleccione **[!UICONTROL originalRecipientAddress]**.
 
-1. En el **[!UICONTROL Propiedades del campo]** a la derecha, desplácese hacia abajo hasta el **[!UICONTROL Identidad]** casilla de verificación
+1. En las **[!UICONTROL propiedades del campo]** a la derecha, desplácese hacia abajo hasta la casilla de verificación **[!UICONTROL Identidad]**.
 
-1. Selecciónelo y también seleccione **[!UICONTROL Identidad principal]**.
+1. Selecciónelo y también **[!UICONTROL Identidad principal]**.
 
 1. Seleccione un área de nombres de la lista desplegable.
 
@@ -113,17 +113,17 @@ Para realizar esto, siga los pasos a continuación.
 
 >[!NOTE]
 >
->Obtenga más información sobre la administración de la privacidad y las regulaciones aplicables en la [Documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es){target="_blank"}.
+>Obtenga más información sobre la administración de la privacidad y las regulaciones aplicables en la [documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es){target="_blank"}.
 
 ### Datos de informes de CCO {#bcc-reporting}
 
-La creación de informes como tal en CCO no está disponible en los informes de recorrido y mensaje. Sin embargo, la información se almacena en un conjunto de datos del sistema llamado **[!UICONTROL Conjunto de datos de evento de comentarios AJO BCC]**. Puede ejecutar consultas en este conjunto de datos para encontrar información útil para la depuración, por ejemplo.
+La creación de informes como tal en CCO no está disponible en los informes de recorrido y mensaje. Sin embargo, la información se almacena en un conjunto de datos del sistema llamado **[!UICONTROL Conjunto de datos de evento de comentarios CCO de AJO]**. Puede ejecutar consultas en este conjunto de datos para encontrar información útil para la depuración, por ejemplo.
 
-Puede acceder a este conjunto de datos a través de la interfaz de usuario. Seleccionar **[!UICONTROL Administración de datos]** > **[!UICONTROL Conjuntos de datos]** > **[!UICONTROL Examinar]** y habilite la **[!UICONTROL Mostrar conjuntos de datos del sistema]** cambie del filtro para mostrar los conjuntos de datos generados por el sistema. Obtenga más información sobre cómo acceder a conjuntos de datos en [esta sección](../data/get-started-datasets.md#access-datasets).
+Puede acceder a este conjunto de datos a través de la interfaz de usuario. Seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Conjuntos de datos]** > **[!UICONTROL Examinar]** y habilite la opción **[!UICONTROL Mostrar conjuntos de datos del sistema]** en el filtro para mostrar los conjuntos de datos generados por el sistema. Obtenga más información sobre cómo obtener acceso a los conjuntos de datos en [esta sección](../data/get-started-datasets.md#access-datasets).
 
 ![](assets/preset-bcc-dataset.png)
 
-Para ejecutar consultas en este conjunto de datos, puede utilizar el Editor de consultas proporcionado por el [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acceder a él, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Consultas]** y haga clic en **[!UICONTROL Crear consulta]**. [Más información](../data/get-started-queries.md)
+Para ejecutar consultas en este conjunto de datos, puede usar el Editor de consultas que proporciona [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acceder a él, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Consultas]** y haga clic en **[!UICONTROL Crear consulta]**. [Más información](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -148,7 +148,7 @@ Según la información que esté buscando, puede ejecutar las siguientes consult
 
    >[!NOTE]
    >
-   >Para obtener la `<journey version id>`, seleccione el parámetro correspondiente [versión de recorrido](../building-journeys/journey.md#journey-versions) desde el **[!UICONTROL administración de recorrido]** > **[!UICONTROL Recorridos]** menú. El ID de versión del recorrido se muestra al final de la dirección URL mostrada en el explorador web.
+   >Para obtener el parámetro `<journey version id>`, seleccione la [versión de recorrido](../building-journeys/journey.md#journey-versions) correspondiente en el menú **[!UICONTROL administración de Recorrido]** > **[!UICONTROL Recorridos]**. El ID de versión del recorrido se muestra al final de la dirección URL mostrada en el explorador web.
    >
    >![](assets/preset-bcc-action-id.png)
 
@@ -178,7 +178,7 @@ Según la información que esté buscando, puede ejecutar las siguientes consult
 
    >[!NOTE]
    >
-   >Para obtener la `<journey action id>` , ejecute la primera consulta descrita anteriormente utilizando el id de versión de recorrido. El `<recipient email address>` parámetro es la dirección de correo electrónico del destinatario objetivo o real.
+   >Para obtener el parámetro `<journey action id>`, ejecute la primera consulta descrita anteriormente con el id. de versión de recorrido. El parámetro `<recipient email address>` es la dirección de correo electrónico del destinatario objetivo o real.
 
 1. Ejecute esta consulta para recuperar todos los eventos de comentarios de mensajes CCO generados para un mensaje en particular dirigidos a un usuario específico en los últimos 2 días:
 

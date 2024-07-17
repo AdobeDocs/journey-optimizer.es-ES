@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Caso de uso de personalización y dos puntos; correo electrónico de abandono del carro de compras
+title: Caso de uso de Personalization&dos puntos; correo electrónico de abandono del carro de compras
 description: Aprenda a personalizar el cuerpo de un mensaje de correo electrónico mediante un caso de uso.
 feature: Personalization
 topic: Personalization
@@ -12,19 +12,19 @@ exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: c9627cfd1d717d56744f0287738b1303194c23e1
 workflow-type: tm+mt
 source-wordcount: '1038'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Caso de uso de personalización: correo electrónico de abandono del carro de compras {#personalization-use-case-helper-functions}
+# Caso de uso de Personalization: correo electrónico de abandono del carro de compras {#personalization-use-case-helper-functions}
 
 En este ejemplo, personalizará el cuerpo de un mensaje de correo electrónico. Este mensaje va dirigido a los clientes que han dejado artículos en el carro de compras, pero que aún no han finalizado su compra.
 
 Utilizará estos tipos de funciones de ayuda:
 
-* El `upperCase` función de cadena, para insertar el nombre del cliente en mayúsculas. [Más información](functions/string.md#upper).
-* El `each` asistente, para enumerar los elementos que están en el carro de compras. [Más información](functions/helpers.md#each).
-* El `if` asistente, para insertar una nota específica del producto si el producto relacionado está en el carro de compras. [Más información](functions/helpers.md#if-function).
+* La función de cadena `upperCase`, para insertar el nombre del cliente en mayúsculas. [Más información](functions/string.md#upper).
+* El asistente `each`, para enumerar los elementos que están en el carro de compras. [Más información](functions/helpers.md#each).
+* El ayudante `if` para insertar una nota específica del producto si el producto relacionado está en el carro de compras. [Más información](functions/helpers.md#if-function).
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 ➡️ [Aprenda a utilizar las funciones de ayuda en este vídeo](#video)
@@ -38,34 +38,34 @@ Antes de empezar, asegúrese de saber cómo configurar estos elementos:
 
 Siga estos pasos:
 
-1. [Creación del evento inicial y del recorrido](#create-context).
+1. [Cree el evento inicial y el recorrido](#create-context).
 1. [Crear un mensaje de correo electrónico](#configure-email).
-1. [Introduzca el nombre del cliente en mayúsculas](#uppercase-function).
-1. [Añadir el contenido del carro de compras al correo electrónico](#each-helper).
-1. [Insertar una nota específica del producto](#if-helper).
-1. [Prueba y publicación del recorrido](#test-and-publish).
+1. [Insertar el nombre del cliente en mayúsculas](#uppercase-function).
+1. [Agregar el contenido del carro de compras al correo electrónico](#each-helper).
+1. [Insertar una nota específica de producto](#if-helper).
+1. [Probar y publicar el recorrido](#test-and-publish).
 
 ## Paso 1: crear el evento inicial y el recorrido relacionado {#create-context}
 
 El contenido del carro de compras es información contextual del recorrido. Por lo tanto, debe agregar un evento inicial y el correo electrónico a un recorrido antes de poder agregar información específica del carro de compras al correo electrónico.
 
-1. Cree un evento cuyo esquema incluya la variable `productListItems` matriz.
+1. Cree un evento cuyo esquema incluya la matriz `productListItems`.
 1. Defina todos los campos de esta matriz como campos de carga útil para este evento.
 
-   Obtenga más información acerca del tipo de datos de elemento de lista de productos en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
+   Obtenga más información acerca del tipo de datos del elemento de lista de productos en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. Cree un recorrido que comience con este evento.
-1. Añadir un **Correo electrónico** actividad al recorrido.
+1. Agregue una actividad **Correo electrónico** al recorrido.
 
    ![](assets/personalization-uc-helpers-8.png)
 
 ## Paso 2: crear el correo electrónico{#configure-email}
 
-1. En el **Correo electrónico** actividad, haga clic en **[!UICONTROL Editar contenido]**, luego haga clic en **[!UICONTROL Diseñador de correo electrónico]**.
+1. En la actividad **Correo electrónico**, haga clic en **[!UICONTROL Editar contenido]** y luego en **[!UICONTROL Enviar correo electrónico a Designer]**.
 
    ![](assets/personalization-uc-helpers-1.png)
 
-1. En la paleta izquierda de la página de inicio del Diseñador de correo electrónico, arrastre y suelte tres componentes de estructura en el cuerpo del mensaje.
+1. En la paleta izquierda de la página de inicio de Designer de correo electrónico, arrastre y suelte tres componentes de estructura en el cuerpo del mensaje.
 
 1. Arrastre y suelte un componente de contenido de HTML en cada nuevo componente de estructura.
 
@@ -73,15 +73,15 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
 ## Paso 3: Insertar el nombre del cliente en mayúsculas {#uppercase-function}
 
-1. En la página de inicio del Diseñador de correo electrónico, haga clic en el componente HTML donde desea agregar el nombre del cliente.
+1. En la página de inicio de Designer de correo electrónico, haga clic en el componente HTML donde desea agregar el nombre del cliente.
 1. En la barra de herramientas contextual, haga clic en **[!UICONTROL Mostrar el código fuente]**.
 
    ![](assets/personalization-uc-helpers-3.png)
 
-1. En el **[!UICONTROL Editar HTML]** , añada la `upperCase` función de cadena:
-   1. En el menú izquierdo, seleccione **[!UICONTROL Funciones de ayuda]**.
+1. En la ventana **[!UICONTROL Editar HTML]**, agregue la función de cadena `upperCase`:
+   1. En el menú de la izquierda, seleccione **[!UICONTROL Funciones de ayuda]**.
    1. Utilice el campo de búsqueda para encontrar &quot;mayúsculas&quot;.
-   1. En los resultados de búsqueda, agregue `upperCase` función. Para ello, haga clic en el signo más (+) junto a `{%= upperCase(string) %}: string`.
+   1. En los resultados de búsqueda, agregue la función `upperCase`. Para ello, haga clic en el signo más (+) junto a `{%= upperCase(string) %}: string`.
 
       El editor de expresiones muestra esta expresión:
 
@@ -93,9 +93,9 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
 1. Elimine el marcador de posición &quot;cadena&quot; de la expresión.
 1. Añada el token de nombre:
-   1. En el menú izquierdo, seleccione **[!UICONTROL Atributos de perfil]**.
-   1. Seleccionar **[!UICONTROL Persona]** > **[!UICONTROL Nombre completo]**.
-   1. Añada el **[!UICONTROL Nombre]** token para la expresión.
+   1. En el menú de la izquierda, seleccione **[!UICONTROL Atributos de perfil]**.
+   1. Seleccione **[!UICONTROL Persona]** > **[!UICONTROL Nombre completo]**.
+   1. Agregue el token **[!UICONTROL First name]** a la expresión.
 
       El editor de expresiones muestra esta expresión:
 
@@ -107,7 +107,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
       Obtenga más información acerca del tipo de datos de nombre de persona en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
-1. Clic **[!UICONTROL Validate]**, luego haga clic en **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL Validar]** y luego en **[!UICONTROL Guardar]**.
 
    ![](assets/personalization-uc-helpers-6.png)
 
@@ -117,15 +117,15 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
 1. Vuelva a abrir el contenido del mensaje.
 
-1. En la página de inicio del Diseñador de correo electrónico, haga clic en el componente del HTML donde desea enumerar el contenido del carro de compras.
+1. En la página de inicio de Designer de correo electrónico, haga clic en el componente HTML donde desea enumerar el contenido del carro de compras.
 1. En la barra de herramientas contextual, haga clic en **[!UICONTROL Mostrar el código fuente]**.
 
    ![](assets/personalization-uc-helpers-3.png)
 
-1. En el **[!UICONTROL Editar HTML]** , añada la `each` ayudante:
-   1. En el menú izquierdo, seleccione **[!UICONTROL Funciones de ayuda]**.
+1. En la ventana **[!UICONTROL Editar HTML]**, agregue el asistente de `each`:
+   1. En el menú de la izquierda, seleccione **[!UICONTROL Funciones de ayuda]**.
    1. Utilice el campo de búsqueda para encontrar &quot;cada uno&quot;.
-   1. En los resultados de búsqueda, agregue `each` ayudante.
+   1. En los resultados de búsqueda, agregue el ayudante `each`.
 
       El editor de expresiones muestra esta expresión:
 
@@ -135,18 +135,18 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
       ![](assets/personalization-uc-helpers-9.png)
 
-1. Añada el `productListItems` matriz a la expresión:
+1. Agregue la matriz `productListItems` a la expresión:
 
    1. Elimine el marcador de posición &quot;someArray&quot; de la expresión.
-   1. En el menú izquierdo, seleccione **[!UICONTROL Atributos contextuales]**.
+   1. En el menú de la izquierda, seleccione **[!UICONTROL Atributos contextuales]**.
 
-      **[!UICONTROL Atributos contextuales]** solo están disponibles después de que el contexto de recorrido se haya pasado al mensaje.
+      **[!UICONTROL Los atributos contextuales]** solo están disponibles después de que se haya pasado el contexto de recorrido al mensaje.
 
-   1. Seleccionar **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Eventos]** > ***[!UICONTROL event_name]*** y, a continuación, expanda **[!UICONTROL productListItems]** nodo.
+   1. Seleccione **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]*** y, a continuación, expanda el nodo **[!UICONTROL productListItems]**.
 
       En este ejemplo, *event_name* representa el nombre del evento.
 
-   1. Añada el **[!UICONTROL Product]** token para la expresión.
+   1. Agregue el token **[!UICONTROL Product]** a la expresión.
 
       El editor de expresiones muestra esta expresión:
 
@@ -154,7 +154,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
       {{#each context.journey.events.event_ID.productListItems.product as |variable|}} {{/each}}
       ```
 
-      En este ejemplo, *event_ID* representa el ID del evento.
+      En este ejemplo, *event_ID* representa el identificador del evento.
 
       ![](assets/personalization-uc-helpers-10.png)
 
@@ -168,7 +168,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
 
-1. Pegue este código entre las etiquetas de apertura `{{#each}}` y la de cierre `{/each}}` etiqueta:
+1. Pegue este código entre la etiqueta `{{#each}}` de apertura y la etiqueta `{/each}}` de cierre:
 
    ```html
    <table>
@@ -185,12 +185,12 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 1. Añada los tokens de personalización para el nombre del artículo, la cantidad y el precio:
 
    1. Elimine el marcador de posición &quot;#name&quot; de la tabla del HTML.
-   1. A partir de los resultados de búsqueda anteriores, añada el **[!UICONTROL Nombre]** token para la expresión.
+   1. En los resultados de búsqueda anteriores, agregue el token **[!UICONTROL Name]** a la expresión.
 
    Repita estos pasos dos veces:
 
-   * Reemplace el marcador de posición &quot;#quantity&quot; por la etiqueta **[!UICONTROL Cantidad]** token.
-   * Reemplace el marcador de posición &quot;#priceTotal&quot; por la etiqueta **[!UICONTROL Precio total]** token.
+   * Reemplace el marcador de posición &quot;#quantity&quot; por el token **[!UICONTROL Quantity]**.
+   * Reemplace el marcador de posición &quot;#priceTotal&quot; por el token **[!UICONTROL Precio total]**.
 
    Este ejemplo muestra la expresión modificada:
 
@@ -208,21 +208,21 @@ El contenido del carro de compras es información contextual del recorrido. Por 
    {{/each}}
    ```
 
-1. Clic **[!UICONTROL Validate]**, luego haga clic en **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL Validar]** y luego en **[!UICONTROL Guardar]**.
 
    ![](assets/personalization-uc-helpers-11.png)
 
 ## Paso 5: Insertar una nota específica del producto {#if-helper}
 
-1. En la página de inicio del Diseñador de correo electrónico, haga clic en el componente HTML en el que desea insertar la nota.
+1. En la página de inicio de Designer de correo electrónico, haga clic en el componente HTML en el que desea insertar la nota.
 1. En la barra de herramientas contextual, haga clic en **[!UICONTROL Mostrar el código fuente]**.
 
    ![](assets/personalization-uc-helpers-3.png)
 
-1. En el **[!UICONTROL Editar HTML]** , añada la `if` ayudante:
-   1. En el menú izquierdo, seleccione **[!UICONTROL Funciones de ayuda]**.
+1. En la ventana **[!UICONTROL Editar HTML]**, agregue el asistente de `if`:
+   1. En el menú de la izquierda, seleccione **[!UICONTROL Funciones de ayuda]**.
    1. Utilice el campo de búsqueda para encontrar &quot;if&quot;.
-   1. En los resultados de búsqueda, agregue `if` ayudante.
+   1. En los resultados de búsqueda, agregue el ayudante `if`.
 
       El editor de expresiones muestra esta expresión:
 
@@ -251,12 +251,12 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
 1. Añada el token del nombre del producto a la condición:
    1. Elimine el marcador de posición &quot;condition1&quot; de la expresión.
-   1. En el menú izquierdo, seleccione **[!UICONTROL Atributos contextuales]**.
-   1. Seleccionar **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Eventos]** > ***[!UICONTROL event_name]*** y, a continuación, expanda **[!UICONTROL productListItems]** nodo.
+   1. En el menú de la izquierda, seleccione **[!UICONTROL Atributos contextuales]**.
+   1. Seleccione **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Eventos]** > ***[!UICONTROL nombre_evento]*** y, a continuación, expanda el nodo **[!UICONTROL productListItems]**.
 
       En este ejemplo, *event_name* representa el nombre del evento.
 
-   1. Añada el **[!UICONTROL Nombre]** token para la expresión.
+   1. Agregue el token **[!UICONTROL Name]** a la expresión.
 
       El editor de expresiones muestra esta expresión:
 
@@ -270,9 +270,9 @@ El contenido del carro de compras es información contextual del recorrido. Por 
       ![](assets/personalization-uc-helpers-13.png)
 
 1. Modifique la expresión:
-   1. En el Editor de expresiones, especifique el nombre del producto después de `name` token.
+   1. En el Editor de expresiones, especifique el nombre del producto después del token `name`.
 
-      Utilice esta sintaxis, donde *product_name* representa el nombre del producto:
+      Use esta sintaxis, donde *product_name* representa el nombre de su producto:
 
       ```javascript
       = "product_name"
@@ -299,7 +299,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
       ```
 
    1. Elimine el marcador de posición &quot;default_render&quot; de la expresión.
-1. Clic **[!UICONTROL Validate]**, luego haga clic en **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL Validar]** y luego en **[!UICONTROL Guardar]**.
 
    ![](assets/personalization-uc-helpers-14.png)
 
@@ -307,11 +307,11 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
 ## Paso 6: Prueba y publicación del recorrido {#test-and-publish}
 
-1. Encienda el **[!UICONTROL Prueba]** y haga clic en **[!UICONTROL Déclencheur de un evento]**.
+1. Active la opción **[!UICONTROL Test]** y, a continuación, haga clic en **[!UICONTROL Déclencheur de un evento]**.
 
    ![](assets/personalization-uc-helpers-15.png)
 
-1. En el **[!UICONTROL Configuración de eventos]** , introduzca los valores de entrada y haga clic en **[!UICONTROL Enviar]**.
+1. En la ventana **[!UICONTROL Configuración de eventos]**, escriba los valores de entrada y haga clic en **[!UICONTROL Enviar]**.
 
    El modo de prueba solo funciona con perfiles de prueba.
 
@@ -336,9 +336,9 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
 ### Casos de uso {#use-case}
 
-* [Personalización con información de perfil, contexto y oferta](personalization-use-case.md)
+* [Personalization con información de perfil, contexto y oferta](personalization-use-case.md)
 
-* [Personalización con oferta basada en decisiones](../offers/offers-e2e.md)
+* [Personalization con oferta basada en decisiones](../offers/offers-e2e.md)
 
 ## Vídeo explicativo{#video}
 

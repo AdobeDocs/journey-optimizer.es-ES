@@ -21,27 +21,27 @@ ht-degree: 0%
 
 Cuando se produce un error, puede recibir alertas del sistema en el centro de notificaciones de Journey Optimizer (alertas en la aplicación) o un correo electrónico.
 
-Desde el **Alertas** , puede ver las alertas disponibles y suscribirse a ellas. Cuando se alcanza un determinado conjunto de condiciones en las operaciones (como un problema potencial cuando el sistema incumple un umbral), los mensajes de alerta se envían a cualquier usuario de la organización que se haya suscrito a ellos.
+Desde el menú **Alertas**, puede ver las alertas disponibles y suscribirse a ellas. Cuando se alcanza un determinado conjunto de condiciones en las operaciones (como un problema potencial cuando el sistema incumple un umbral), los mensajes de alerta se envían a cualquier usuario de la organización que se haya suscrito a ellos.
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
-Obtenga más información sobre las alertas en Adobe Experience Platform en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=es){target="_blank"}.
+Obtenga más información acerca de las alertas en Adobe Experience Platform en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=es){target="_blank"}.
 
-En el menú de la izquierda, debajo de **Administration**, haga clic en **Alertas**. Hay dos alertas preconfiguradas para Journey Optimizer disponibles: la [Error de acción personalizada de recorrido](#alert-custom-actions) alerta y el [Error al leer Déclencheur de audiencia](#alert-read-audiences) alerta. Estas alertas se detallan a continuación.
+En el menú de la izquierda, debajo de **Administración**, haga clic en **Alertas**. Hay dos alertas preconfiguradas para Journey Optimizer disponibles: la alerta [Error en acción personalizada de Recorrido](#alert-custom-actions) y la alerta [Error al leer Déclencheur de audiencia](#alert-read-audiences). Estas alertas se detallan a continuación.
 
-Puede suscribirse a cada alerta individualmente desde la interfaz de usuario, seleccionando la **Suscribirse** de la opción **Alertas** panel. Utilice el mismo método para cancelar la suscripción.
+Puede suscribirse a cada alerta individualmente desde la interfaz de usuario, seleccionando la opción **Suscribirse** en el panel **Alertas**. Utilice el mismo método para cancelar la suscripción.
 
 ![](assets/alert-subscribe.png)
 
-También puede suscribirse a alertas mediante [Notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Las reglas de alerta se organizan en diferentes paquetes de suscripción. A continuación, se detallan las suscripciones a eventos correspondientes a las alertas de Journey Optimizer específicas.
+También puede suscribirse a las alertas mediante [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Las reglas de alerta se organizan en diferentes paquetes de suscripción. A continuación, se detallan las suscripciones a eventos correspondientes a las alertas de Journey Optimizer específicas.
 
-Si se produce un comportamiento inesperado, se envía una notificación de alerta a los suscriptores. En función de las preferencias del usuario, las alertas se envían por correo electrónico o directamente en el centro de notificaciones de Journey Optimizer, en la esquina superior derecha de la interfaz de usuario. De forma predeterminada, solo están habilitadas las alertas en la aplicación. Para activar las alertas por correo electrónico, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.
+Si se produce un comportamiento inesperado, se envía una notificación de alerta a los suscriptores. En función de las preferencias del usuario, las alertas se envían por correo electrónico o directamente en el centro de notificaciones de Journey Optimizer, en la esquina superior derecha de la interfaz de usuario. De forma predeterminada, solo están habilitadas las alertas en la aplicación. Para habilitar las alertas por correo electrónico, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.
 
 Cuando se resuelve una alerta, los suscriptores reciben una notificación &quot;Resuelto&quot;.
 
 >[!CAUTION]
 >
->Las alertas específicas de Adobe Journey Optimizer solo se aplican a **live** recorridos. Las alertas no se activan para los recorridos en el modo de prueba.
+>Las alertas específicas de Adobe Journey Optimizer solo se aplican a **recorridos activos**. Las alertas no se activan para los recorridos en el modo de prueba.
 
 ## Error de acción personalizada de recorrido {#alert-custom-actions}
 
@@ -55,29 +55,29 @@ Las alertas de acciones personalizadas se resuelven cuando, en los últimos 5 mi
 
 * o bien, ningún perfil ha alcanzado esa acción personalizada.
 
-El nombre de suscripción de evento de E/S correspondiente a la alerta de acción personalizada es **Error de acción personalizada de recorrido**.
+El nombre de suscripción de evento de E/S correspondiente a la alerta de acción personalizada es **Error de acción personalizada de Recorrido**.
 
 ## Error al leer Déclencheur de audiencia {#alert-read-audiences}
 
-Esta alerta le advierte si **Leer audiencia** la actividad no ha procesado ningún perfil 10 minutos después de la hora programada de ejecución. Este error puede deberse a problemas técnicos o a que la audiencia está vacía.
+Esta alerta le advierte si una actividad **Leer audiencia** no ha procesado ningún perfil 10 minutos después de la hora programada de ejecución. Este error puede deberse a problemas técnicos o a que la audiencia está vacía.
 
 ![](assets/alerts1.png)
 
-Alertas el **Leer audiencia** Las actividades de solo se aplican a recorridos recurrentes. **Leer audiencia** actividades en recorridos activos que tienen una programación para ejecutarse **Una** o **Lo antes posible** se ignoran.
+Las alertas de las actividades **Leer audiencia** solo se aplican a los recorridos recurrentes. Se omiten las actividades de **Leer audiencia** en recorridos activos que tienen una programación para ejecutarse **Una vez** o **Lo antes posible**.
 
-Alertas el **Leer audiencia** se resuelven cuando un perfil introduce en **Leer audiencia** nodo.
+Las alertas de **Leer audiencia** se resuelven cuando un perfil entra en el nodo **Leer audiencia**.
 
-El nombre de la suscripción del evento de E/S correspondiente a **Error al leer Déclencheur de audiencia** la alerta es **Recorrido de retrasos, errores y errores de lectura de audiencia**.
+El nombre de suscripción de evento de E/S correspondiente a la alerta **Leer Déclencheur de audiencias erróneo** es **Recorrido de retrasos, errores y errores de lectura de audiencia**.
 
 ## Resolución de problemas {#alert-troubleshooting}
 
-Para solucionar problemas **Leer audiencia** alertas, compruebe el recuento de audiencias en la interfaz del Experience Platform.
+Para solucionar problemas de las alertas de **Leer audiencia**, compruebe el recuento de audiencias en la interfaz del Experience Platform.
 
 ![](assets/alert-troubleshooting-0.png)
 
 ![](assets/alert-troubleshooting-1.png)
 
-Para solucionar problemas **Acción personalizada** alertas:
+Para solucionar problemas de **alertas de acción personalizada**:
 
 * Compruebe la acción personalizada mediante el modo de prueba en otro recorrido:
 
@@ -88,4 +88,5 @@ Para solucionar problemas **Acción personalizada** alertas:
   ![](assets/alert-troubleshooting-3.png)
 
 * Compruebe los stepEvents de recorrido para buscar más información sobre &quot;failureReason&quot;.
-* Compruebe la configuración de la acción personalizada y compruebe que la autenticación sigue siendo correcta. Realice una comprobación manual con Postman, por ejemplo.
+* Compruebe la configuración de la acción personalizada y compruebe que la autenticación sigue siendo correcta. Realice una comprobación manual con Postman,
+por ejemplo.

@@ -31,7 +31,7 @@ Agregación
 | Parámetro | Tipo | Descripción |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Lista para procesar. Para listObject, debe ser una referencia de campo. |
-| keyAttributeName | string | Este parámetro es opcional y solo para listObject. Si no se proporciona el parámetro, un objeto se considera duplicado si todos los atributos tienen los mismos valores. De lo contrario, un objeto se considera duplicado si el atributo dado tiene el mismo valor. |
+| keyAttributeName | cadena | Este parámetro es opcional y solo para listObject. Si no se proporciona el parámetro, un objeto se considera duplicado si todos los atributos tienen los mismos valores. De lo contrario, un objeto se considera duplicado si el atributo dado tiene el mismo valor. |
 
 ## Firma y tipo devuelto
 
@@ -58,4 +58,4 @@ Devuelve el número de objetos estrictamente distintos en la matriz de objetos d
 
 `distinctCount(@event{my_event.productListItems}, "SKU")`
 
-Devuelve el número de objetos que tienen un valor de atributo SKU distinto{}.
+Devuelve el número de objetos que tienen un valor de atributo SKU distinto {}.

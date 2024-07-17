@@ -34,11 +34,11 @@ En Journey Optimizer, puede aplicar políticas de gobernanza de datos y consenti
 
 ## Configuración de URL
 
-El panel de configuración del **Acción personalizada** La actividad de muestra los parámetros de configuración de URL y los parámetros de autenticación configurados para la acción personalizada. No se puede configurar la parte estática de la URL en la recorrido, sino en la configuración global de la acción personalizada. [Más información](../action/about-custom-action-configuration.md).
+El panel de configuración de la actividad **Acción personalizada** muestra los parámetros de configuración de la URL y los parámetros de autenticación que están configurados para la acción personalizada. No se puede configurar la parte estática de la URL en la recorrido, sino en la configuración global de la acción personalizada. [Más información](../action/about-custom-action-configuration.md).
 
 ### Ruta dinámica
 
-Si la dirección URL incluye una ruta dinámica, especifique la ruta en la variable **[!UICONTROL Ruta]** field.
+Si la dirección URL incluye una ruta dinámica, especifique la ruta en el campo **[!UICONTROL Ruta]**.
 
 Para concatenar campos y cadenas de texto sin formato, utilice las funciones Cadena o el signo Más (+) en el editor de expresiones avanzadas. Escriba las cadenas de texto sin formato entre comillas simples (&#39;) o dobles (&quot;). [Más información](expression/expressionadvanced.md).
 
@@ -51,13 +51,13 @@ Esta tabla muestra un ejemplo de configuración:
 
 La URL concatenada tiene este formulario:
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;id>`/messages`
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;ID>`/messages`
 
 ![](assets/journey-custom-action-url.png)
 
 ### Encabezados y parámetros de consulta {#headers}
 
-El **[!UICONTROL Configuración de URL]** Esta sección muestra los campos de encabezado dinámico y parámetro de consulta, pero no los campos de constantes. Los campos de encabezado dinámico y parámetro de consulta se definen como variables en la pantalla de configuración de acciones. [Más información](../action/about-custom-action-configuration.md#url-configuration)
+La sección **[!UICONTROL Configuración de URL]** muestra los campos de encabezado dinámico y parámetro de consulta, pero no los campos de constantes. Los campos de encabezado dinámico y parámetro de consulta se definen como variables en la pantalla de configuración de acciones. [Más información](../action/about-custom-action-configuration.md#url-configuration)
 
 Para especificar el valor de los campos de encabezado dinámico y parámetro de consulta, haga clic dentro del campo o en el icono de lápiz y seleccione el campo deseado.
 
@@ -65,7 +65,7 @@ Para especificar el valor de los campos de encabezado dinámico y parámetro de 
 
 ## Parámetros de acción
 
-En el **[!UICONTROL Parámetros de acción]** , verá los parámetros de mensaje definidos como _&quot;Variable&quot;_. Para estos parámetros, puede definir de dónde obtener esta información (por ejemplo: eventos, fuentes de datos), pasar valores manualmente o utilizar el editor de expresiones avanzadas para casos de uso avanzados. Los casos de uso avanzados pueden ser manipulación de datos y otro uso de funciones. Consulte [esta página](expression/expressionadvanced.md).
+En la sección **[!UICONTROL Parámetros de acción]**, verá los parámetros de mensaje definidos como _&quot;Variable&quot;_. Para estos parámetros, puede definir de dónde obtener esta información (por ejemplo: eventos, fuentes de datos), pasar valores manualmente o utilizar el editor de expresiones avanzadas para casos de uso avanzados. Los casos de uso avanzados pueden ser manipulación de datos y otro uso de funciones. Consulte [esta página](expression/expressionadvanced.md).
 
 **Temas relacionados**
 

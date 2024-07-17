@@ -12,7 +12,7 @@ exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -20,21 +20,21 @@ ht-degree: 0%
 
 Las reglas condicionales son conjuntos de reglas que definen qué contenido debe mostrarse en los mensajes, según varios criterios como atributos de perfiles, pertenencia a audiencias o eventos contextuales.
 
-Las reglas condicionales se crean mediante el editor de personalización y se pueden almacenar si desea reutilizarlas en el contenido. [Obtenga información sobre cómo guardar una regla condicional en la biblioteca](#save)
+Las reglas condicionales se crean mediante el editor de personalización y se pueden almacenar si desea reutilizarlas en el contenido. [Aprenda a guardar una regla condicional en la biblioteca](#save)
 
 >[!NOTE]
 >
->Las personas necesitarán el [Administrar elementos de biblioteca](../administration/ootb-product-profiles.md) permiso para guardar o eliminar reglas condicionales. Las condiciones guardadas están disponibles para su uso por parte de todos los usuarios de una organización.
+>Las personas necesitarán el permiso [Administrar elementos de biblioteca](../administration/ootb-product-profiles.md) para guardar o eliminar reglas condicionales. Las condiciones guardadas están disponibles para su uso por parte de todos los usuarios de una organización.
 
 ## Acceso al generador de reglas condicionales {#access}
 
-Las reglas condicionales se crean a partir de **[!UICONTROL Condiciones]** menú dentro del editor de personalización, al que se puede acceder desde:
+Las reglas condicionales se crean desde el menú **[!UICONTROL Conditions]** dentro del editor de personalización, al que se puede acceder desde:
 
-* Desde el Diseñador de correo electrónico, al habilitar el contenido dinámico para un componente en el cuerpo del correo electrónico. [Aprenda a añadir contenido dinámico a los correos electrónicos](dynamic-content.md#emails)
+* Desde Email Designer, al habilitar contenido dinámico para un componente en el cuerpo del correo electrónico. [Aprenda a agregar contenido dinámico a los correos electrónicos](dynamic-content.md#emails)
 
   ![](assets/conditions-access-email.png)
 
-* En cualquier campo en el que se pueda añadir personalización utilizando la variable [editor de personalización](personalization-build-expressions.md).
+* En cualquier campo donde pueda agregar personalización con el [editor de personalización](personalization-build-expressions.md).
 
   ![](assets/conditions-access-editor.png)
 
@@ -52,7 +52,7 @@ Las reglas condicionales se crean a partir de **[!UICONTROL Condiciones]** menú
 
 Los pasos para crear una regla condicional son los siguientes:
 
-1. Acceda a la **[!UICONTROL Condiciones]** en el editor de personalización o en el Diseñador de correo electrónico y, a continuación, haga clic en **[!UICONTROL Crear nuevo]**.
+1. Acceda al menú **[!UICONTROL Condiciones]** desde el editor de personalización o desde el Designer de correo electrónico y, a continuación, haga clic en **[!UICONTROL Crear nuevo]**.
 
 1. Genere la regla condicional según sus necesidades. Para ello, arrastre y suelte y organice los atributos deseados del menú de la izquierda al lienzo.
 
@@ -60,17 +60,17 @@ Los pasos para combinar atributos en el lienzo son similares a la experiencia de
 
     ![](assets/conditions-create.png)
     
-    Los atributos se organizan en tres pestañas:
+    Los atributos están organizados en tres fichas:
     
     * **[!UICONTROL Perfil]**:
     * **[!UICONTROL Audiencias]** enumera todos los atributos de audiencia (es decir, estado, versión, etc.) para [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
-    * **[!UICONTROL Perfiles individuales de XDM]** una lista de todos los atributos de perfil asociados al [esquema del modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) definido en Adobe Experience Platform.
+    * **[!UICONTROL XDM Individual profiles]** enumera todos los atributos de perfil asociados al esquema [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) definido en Adobe Experience Platform.
     * **[!UICONTROL Contextual]**: cuando el mensaje se utiliza en un recorrido, los campos de recorrido contextual están disponibles a través de esta pestaña.
-    * **[!UICONTROL Audiencias]**: enumera todas las audiencias generadas a partir de las definiciones de segmentos creadas en [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+    * **[!UICONTROL Audiencias]**: enumera todas las audiencias generadas a partir de las definiciones de segmento creadas en [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
-1. Una vez que la regla condicional esté lista, puede agregarla al mensaje para crear contenido dinámico. [Aprenda a añadir contenido dinámico](dynamic-content.md)
+1. Una vez que la regla condicional esté lista, puede agregarla al mensaje para crear contenido dinámico. [Aprenda a agregar contenido dinámico](dynamic-content.md)
 
-   También puede guardar la regla para permitir una mayor reutilización. [Obtenga información sobre cómo guardar una condición](#save)
+   También puede guardar la regla para permitir una mayor reutilización. [Aprenda a guardar una condición](#save)
 
 ## Guardar una regla condicional {#save}
 
@@ -80,13 +80,13 @@ Si hay reglas de condición que reutilizará con frecuencia, puede guardarlas en
 >
 >Las reglas condicionales que aprovechan los recorridos y los atributos contextuales no se pueden guardar en la biblioteca.
 
-1. En la pantalla de edición de la condición, haga clic en **[!UICONTROL Guardar condición]** botón.
+1. En la pantalla de edición de condición, haga clic en el botón **[!UICONTROL Guardar condición]**.
 
-1. Asigne un nombre y una descripción (opcional) a la regla y haga clic en **[!UICONTROL Añadir]**.
+1. Asigne un nombre y una descripción (opcional) a la regla y luego haga clic en **[!UICONTROL Agregar]**.
 
    ![](assets/conditions-name-description.png)
 
-1. La regla condicional se guardará en la biblioteca. Ahora puede utilizarlo para crear contenido dinámico en los mensajes. [Aprenda a añadir contenido dinámico](dynamic-content.md)
+1. La regla condicional se guardará en la biblioteca. Ahora puede utilizarlo para crear contenido dinámico en los mensajes. [Aprenda a agregar contenido dinámico](dynamic-content.md)
 
 ## Editar y eliminar reglas condicionales guardadas {#edit-delete}
 

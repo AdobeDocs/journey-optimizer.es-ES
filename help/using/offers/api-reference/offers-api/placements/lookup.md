@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # Búsqueda de una ubicación {#look-up-placement}
 
-Puede buscar ubicaciones específicas realizando una solicitud de GET a [!DNL Offer Library] API que incluye la ubicación `id`.
+Puede buscar ubicaciones específicas realizando una solicitud de GET a la API [!DNL Offer Library] que incluye la ubicación `id`.
 
 **Formato de API**
 
@@ -39,7 +39,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/placements/offerPlacement12
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles de la ubicación, incluida la información sobre la ubicación única `id`.
+Una respuesta correcta devuelve los detalles de la ubicación, incluida la información acerca de la ubicación única `id`.
 
 ```json
 {

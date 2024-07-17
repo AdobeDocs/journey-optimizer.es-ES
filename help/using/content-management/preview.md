@@ -14,9 +14,9 @@ ht-degree: 7%
 
 # Vista previa del contenido {#preview}
 
-Una [perfiles de prueba](test-profiles.md) están seleccionados, puede obtener una vista previa del contenido. Complete los siguientes pasos:
+Una vez seleccionados los [perfiles de prueba](test-profiles.md), puede obtener una vista previa del contenido. Siga estos pasos:
 
-1. En la pantalla de edición de contenido del mensaje o en el Diseñador de correo electrónico, haga clic en **[!UICONTROL Simular contenido]** botón.
+1. En la pantalla Editar contenido del mensaje o en el Designer de correo electrónico, haga clic en el botón **[!UICONTROL Simular contenido]**.
 
 1. Seleccione un perfil de prueba. Puede comprobar los valores disponibles en las columnas. Utilice las flechas derecha e izquierda para examinar los datos.
 
@@ -24,9 +24,9 @@ Una [perfiles de prueba](test-profiles.md) están seleccionados, puede obtener u
 
    >[!NOTE]
    >
-   >Para añadir más perfiles de prueba, seleccione **[!UICONTROL Administración de perfiles de prueba]**. [Más información](test-profiles.md)
+   >Para agregar más perfiles de prueba, seleccione **[!UICONTROL Administrar perfiles de prueba]**. [Más información](test-profiles.md)
 
-1. Haga clic en **[!UICONTROL Seleccionar datos]** sobre la lista para añadir o quitar columnas.
+1. Haga clic en el icono **[!UICONTROL Seleccionar datos]** situado encima de la lista para agregar o quitar columnas.
 
    Al final de la lista se pueden ver campos de personalización específicos del mensaje actual. En este ejemplo, el perfil de ciudad, nombre y apellidos. Seleccione esos campos y asegúrese de que estos valores se rellenen en los perfiles de prueba.
 

@@ -30,7 +30,7 @@ Cadena
 
 | Parámetro | tipo |
 |-------------|----------|
-| string | string |
+| cadena | cadena |
 | beginIndex | entero |
 | endIndex | entero |
 

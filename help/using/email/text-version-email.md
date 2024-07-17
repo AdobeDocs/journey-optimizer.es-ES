@@ -24,7 +24,7 @@ De forma predeterminada, el Diseñador de correo electrónico crea una versión 
 
 Si prefiere usar un contenido diferente para la versión de texto sin formato, siga los pasos a continuación:
 
-1. En el correo electrónico, seleccione **[!UICONTROL Texto sin formato]** icono.
+1. En el correo electrónico, seleccione el icono **[!UICONTROL Texto sin formato]**.
 
    ![](assets/text_version_3.png)
 
@@ -42,4 +42,4 @@ Si prefiere usar un contenido diferente para la versión de texto sin formato, s
 >
 >* Los cambios realizados en la vista **[!UICONTROL Texto sin formato]** no se reflejan en la vista HTML.
 >
->* Si vuelve a habilitar la variable **[!UICONTROL Sincronizar con el HTML]** después de actualizar el contenido de texto sin formato, los cambios se perderán y se reemplazarán por el contenido de texto generado a partir de la versión del HTML.
+>* Si vuelve a habilitar la opción **[!UICONTROL Sincronizar con HTML]** después de actualizar el contenido de texto sin formato, los cambios se perderán y se reemplazarán con el contenido de texto generado a partir de la versión de HTML.

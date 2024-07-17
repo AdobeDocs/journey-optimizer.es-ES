@@ -9,21 +9,21 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 11cae07d061b67136f50201e89c0e349e919620d
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 3%
+ht-degree: 16%
 
 ---
 
 # Edición de contenido web {#edit-web-content}
 
-Una vez que [se ha añadido una acción web](create-web.md#create-web-campaign) en la campaña, puede editar el contenido del sitio mediante el diseñador web.
+Una vez que [agregaste una acción web](create-web.md#create-web-campaign) a tu campaña, puedes editar el contenido de tu sitio usando el diseñador web.
 
 [Aprenda a crear una campaña web en este vídeo](#video)
 
-Entrada [!DNL Journey Optimizer], la creación web se basa en **Ayuda visual de Adobe Experience Cloud** extensión del navegador chrome. [Más información](web-prerequisites.md#visual-authoring-prerequisites)
+En [!DNL Journey Optimizer], la creación web funciona con la extensión de explorador **Adobe Experience Cloud Visual Helper** Chrome. [Más información](web-prerequisites.md#visual-authoring-prerequisites)
 
 >[!CAUTION]
 >
->Para poder acceder y crear páginas web en [!DNL Journey Optimizer] interfaz de usuario, asegúrese de seguir los requisitos previos enumerados en [esta sección](web-prerequisites.md).
+>Para poder tener acceso y crear páginas web en la interfaz de usuario de [!DNL Journey Optimizer], asegúrese de cumplir los requisitos previos enumerados en [esta sección](web-prerequisites.md).
 
 Acceda a las siguientes secciones para obtener más información sobre cada tema:
 
@@ -35,19 +35,19 @@ Acceda a las siguientes secciones para obtener más información sobre cada tema
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="Confirme la dirección URL que desea editar"
->abstract="Confirme la dirección URL de la página web específica que desea utilizar para editar el contenido que se aplicará en la superficie web definida anteriormente. La página web debe implementarse mediante el SDK web de Adobe Experience Platform."
+>title="Confirmar la dirección URL para editar"
+>abstract="Confirme la dirección URL de la página web específica que se utilizará para editar el contenido que se aplicará en la superficie web definida anteriormente. La página web debe implementarse mediante el SDK web de Adobe Experience Platform."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es" text="Más información"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
->title="Introduzca la URL que desea editar"
+>title="Introduzca la dirección URL para editar"
 >abstract="Introduzca la dirección URL de una página web específica que se utilizará para editar el contenido que se aplicará a todas las páginas que coincidan con la regla. La página web debe implementarse mediante el SDK web de Adobe Experience Platform."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es" text="Más información"
 
 Para empezar a crear la campaña web, siga los pasos a continuación.
 
-1. Desde el **[!UICONTROL Acción]** de la pestaña [campaña](create-web.md#create-web-campaign), seleccione **[!UICONTROL Editar contenido]**.<!--change screen with rule-->
+1. En la ficha **[!UICONTROL Acción]** de [campaña](create-web.md#create-web-campaign), seleccione **[!UICONTROL Editar contenido]**.<!--change screen with rule-->
 
    ![](assets/web-campaign-edit-content.png)
 
@@ -61,15 +61,15 @@ Para empezar a crear la campaña web, siga los pasos a continuación.
 
    >[!CAUTION]
    >
-   >La página web debe incluir [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"}. [Más información](web-prerequisites.md#implementation-prerequisites)
+   >La página web debe incluir [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"}. [Más información](web-prerequisites.md#implementation-prerequisites)
 
-1. Clic **[!UICONTROL Editar página web]** para empezar a crearlo. Se muestra el diseñador web.
+1. Haga clic en **[!UICONTROL Editar página web]** para comenzar a crearla. Se muestra el diseñador web.
 
    ![](assets/web-designer.png)
 
    >[!NOTE]
    >
-   >Si intenta cargar un sitio web que no se puede cargar, aparece un mensaje sugiriendo que instale el [Extensión de explorador Ayuda de edición visual](#install-visual-editing-helper). Consulte algunas sugerencias para solucionar problemas en [esta sección](web-prerequisites.md#troubleshooting).
+   >Si intenta cargar un sitio web que no se puede cargar, aparece un mensaje sugiriendo que instale la extensión de explorador [Ayuda de edición visual](#install-visual-editing-helper). Vea algunas sugerencias para solucionar problemas en [esta sección](web-prerequisites.md#troubleshooting).
 
 1. Seleccione cualquier elemento del lienzo, como imagen, botón, párrafo, texto, contenedor, encabezado, vínculo, etc. [Más información](#content-components)
 
@@ -89,33 +89,33 @@ Para empezar a crear la campaña web, siga los pasos a continuación.
 
 >[!NOTE]
 >
->El diseñador de contenido web es similar al diseñador de correo electrónico. Más información sobre [diseño de contenido con [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>El diseñador de contenido web es similar al diseñador de correo electrónico. Más información sobre [diseñar contenido con [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
 ## Uso de componentes {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_components"
 >title="Añadir componentes a la página web"
->abstract="Puede agregar varios componentes a la página web y editarlos según sea necesario."
+>abstract="Puede añadir varios componentes a la página web y editarlos según sea necesario."
 
-1. Desde el **[!UICONTROL Componentes]** panel de la izquierda, seleccione un elemento. Puede añadir los siguientes componentes a la página web y editarlos según sea necesario:
+1. En el panel **[!UICONTROL Componentes]** de la izquierda, seleccione un elemento. Puede añadir los siguientes componentes a la página web y editarlos según sea necesario:
 
    * [Divisor](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [Imagen](../email/content-components.md#image)
-   * Encabezado: el uso de este componente es similar al uso de la variable **[!UICONTROL Texto]** en el diseñador de correo electrónico. [Más información](../email/content-components.md#text)
-   * Párrafo: El uso de este componente es similar al uso del **[!UICONTROL Texto]** en el diseñador de correo electrónico. [Más información](../email/content-components.md#text)
+   * Encabezado: El uso de este componente es similar al uso del componente **[!UICONTROL Text]** en el diseñador de correo electrónico. [Más información](../email/content-components.md#text)
+   * Párrafo: el uso de este componente es similar al uso del componente **[!UICONTROL Texto]** en el diseñador de correo electrónico. [Más información](../email/content-components.md#text)
    * Vínculo
 
    ![](assets/web-designer-components.png)
 
-1. Pase el ratón sobre la página y haga clic en **[!UICONTROL Insertar antes]** o **[!UICONTROL Insertar después]** para anexar el componente a un elemento existente de la página.
+1. Pase el ratón sobre la página y haga clic en el botón **[!UICONTROL Insertar antes]** o **[!UICONTROL Insertar después]** para anexar el componente a un elemento existente de la página.
 
    ![](assets/web-designer-insert-components.png)
 
    >[!NOTE]
    >
-   >Para anular la selección de un componente, haga clic en **[!UICONTROL ESC]** en el titular azul contextual que se muestra en la parte superior del lienzo.
+   >Para anular la selección de un componente, haga clic en el botón **[!UICONTROL ESC]** en el titular azul contextual que se muestra en la parte superior del lienzo.
 
 1. Edite el componente según sea necesario directamente en el contenido de la página.
 
@@ -133,13 +133,13 @@ Para añadir personalización, seleccione un contenedor y seleccione el icono de
 
 ## Navegar por el diseñador web {#navigate-web-designer}
 
-En esta sección se detallan las distintas formas de desplazarse por el diseñador web. Para ver y administrar las modificaciones agregadas a la experiencia web, consulte [esta sección](manage-web-modifications.md).
+En esta sección se detallan las distintas formas de desplazarse por el diseñador web. Para ver y administrar las modificaciones agregadas a su experiencia web, vea [esta sección](manage-web-modifications.md).
 
 ### Usar rutas {#breadcrumbs}
 
 1. Seleccione cualquier elemento del lienzo.
 
-1. Haga clic en **[!UICONTROL Expandir/contraer rutas de exploración]** en la parte inferior izquierda de la pantalla para mostrar rápidamente información sobre el elemento seleccionado.
+1. Haga clic en el botón **[!UICONTROL Expandir/contraer rutas]** en la parte inferior izquierda de la pantalla para mostrar rápidamente información sobre el elemento seleccionado.
 
    ![](assets/web-designer-breadcrumbs.png)
 
@@ -147,26 +147,26 @@ En esta sección se detallan las distintas formas de desplazarse por el diseñad
 
 1. Puede navegar fácilmente a cualquier elemento principal, del mismo nivel o secundario dentro del editor visual.
 
-### Cambiar a modo Examinar {#browse-mode}
+### Cambiar al modo Examinar {#browse-mode}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
->title="Uso del modo Examinar"
->abstract="Desde este modo, puede navegar hasta la página exacta desde la superficie seleccionada que desee personalizar."
+>title="Usar el modo Examinar"
+>abstract="Desde este modo, puede desplazarse a la página exacta desde la superficie seleccionada que desee personalizar."
 
-Puede intercambiar desde el valor predeterminado **[!UICONTROL Diseño]** al modo **[!UICONTROL Examinar]** mediante el botón dedicado.
+Puede cambiar del modo predeterminado **[!UICONTROL Diseño]** al modo **[!UICONTROL Examinar]** con el botón dedicado.
 
 ![](assets/web-designer-browse-mode.png)
 
-Desde el **[!UICONTROL Examinar]** En este modo, puede navegar hasta la página exacta desde la superficie seleccionada que desee personalizar.
+Desde el modo **[!UICONTROL Examinar]**, puede navegar a la página exacta desde la superficie seleccionada que desee personalizar.
 
-Resulta especialmente útil cuando se tratan páginas que están detrás de la autenticación o que no están disponibles desde el principio en una dirección URL determinada. Por ejemplo: podrá autenticarse, navegar a la página de su cuenta o a la página del carro de compras y, a continuación, volver a cambiar a **[!UICONTROL Diseño]** para realizar los cambios en la página deseada.
+Resulta especialmente útil cuando se tratan páginas que están detrás de la autenticación o que no están disponibles desde el principio en una dirección URL determinada. Por ejemplo, podrá autenticarse, navegar a la página de su cuenta o a la página de su carro de compras y, a continuación, cambiar al modo **[!UICONTROL Diseño]** para realizar los cambios en la página deseada.
 
-Uso de **[!UICONTROL Examinar]** Este modo también permite navegar por todas las vistas del sitio web al crear aplicaciones de una sola página. [Más información](web-spa.md)
+El uso del modo **[!UICONTROL Examinar]** también le permite navegar por todas las vistas del sitio web al crear aplicaciones de una sola página. [Más información](web-spa.md)
 
 ### Cambiar el tamaño del dispositivo {#change-device-size}
 
-Puede cambiar el tamaño del dispositivo de visualización del diseñador web a un tamaño predefinido como **[!UICONTROL Tableta]** o **[!UICONTROL Horizontal móvil]** o defina un tamaño personalizado introduciendo el número deseado de píxeles.
+Puede cambiar el tamaño del dispositivo de visualización del diseñador web a un tamaño predefinido como **[!UICONTROL Tablet]** o **[!UICONTROL horizontal móvil]**, o definir un tamaño personalizado introduciendo el número deseado de píxeles.
 
 También puede cambiar el enfoque del zoom: de 25% a 400%.
 
@@ -178,7 +178,7 @@ La capacidad de cambiar el tamaño del dispositivo está diseñada para sitios a
 >
 >Puede editar una experiencia web con un tamaño de dispositivo específico. Sin embargo, siempre que los selectores sean los mismos, estos cambios se aplican a todos los tamaños y dispositivos, no solo al tamaño del dispositivo en el que está trabajando. Del mismo modo, si edita una experiencia en la vista de escritorio normal, los cambios se aplican a todos los tamaños de pantalla, no solo a la vista de escritorio.
 >
->Actualmente, [!DNL Journey Optimizer] no admite cambios de página específicos del tamaño del dispositivo. Esto significa que, por ejemplo, si tiene un sitio web móvil independiente con otra estructura de sitio, debe realizar los cambios específicos del sitio móvil en una campaña diferente.
+>Actualmente, [!DNL Journey Optimizer] no admite cambios de página específicos de tamaño de dispositivo. Esto significa que, por ejemplo, si tiene un sitio web móvil independiente con otra estructura de sitio, debe realizar los cambios específicos del sitio móvil en una campaña diferente.
 
 ## Vídeo explicativo{#video}
 

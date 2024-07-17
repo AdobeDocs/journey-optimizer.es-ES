@@ -18,7 +18,7 @@ ht-degree: 14%
 
 Cuenta el número de valores diferentes, incluidos los valores nulos.
 
-Observe que el parámetro `<listObject>` no es compatible con esta función.
+Tenga en cuenta que el parámetro `<listObject>` no se admite en esta función.
 
 ## Categoría
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurar una acción personalizada
+title: Configuración de una acción personalizada
 description: Obtenga información sobre cómo configurar una acción personalizada
 feature: Journeys, Actions, Custom Actions
 topic: Administration
@@ -12,30 +12,30 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 067c990f7f82594418d59c3b1587a62a04799c09
 workflow-type: tm+mt
 source-wordcount: '1561'
-ht-degree: 13%
+ht-degree: 21%
 
 ---
 
-# Configurar una acción personalizada {#configure-an-action}
+# Configuración de una acción personalizada {#configure-an-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_configuration"
 >title="Acciones personalizadas"
->abstract="Si utiliza un sistema de terceros para enviar mensajes o si desea que los recorridos envíen llamadas de API a un sistema de terceros, utilice acciones personalizadas para configurar su conexión con el recorrido. Por ejemplo, puede conectarse a los siguientes sistemas con acciones personalizadas: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com), Firebase, etc."
+>abstract="Si utiliza un sistema de terceros para enviar mensajes o si desea que los recorridos envíen llamadas de API a un sistema de terceros, utilice acciones personalizadas para configurar la conexión a su recorrido. Por ejemplo, puede conectarse a los siguientes sistemas con las acciones personalizadas: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com), Firebase, etc."
 
-Si utiliza un sistema de terceros para enviar mensajes o si desea que los recorridos envíen llamadas de API a un sistema de terceros, utilice acciones personalizadas para configurar su conexión con el recorrido. Por ejemplo, puede conectarse a los siguientes sistemas con acciones personalizadas: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, etc.
+Si utiliza un sistema de terceros para enviar mensajes o si desea que los recorridos envíen llamadas de API a un sistema de terceros, utilice acciones personalizadas para configurar la conexión a su recorrido. Por ejemplo, puede conectarse a los siguientes sistemas con acciones personalizadas: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, etc.
 
-Las acciones personalizadas son acciones adicionales definidas por usuarios técnicos y que se ponen a disposición de los expertos en marketing. Una vez configuradas, aparecen en la paleta izquierda del recorrido, en la **[!UICONTROL Acción]** categoría. Obtenga más información en [esta página](../building-journeys/about-journey-activities.md#action-activities).
+Las acciones personalizadas son acciones adicionales definidas por usuarios técnicos y que se ponen a disposición de los expertos en marketing. Una vez configuradas, aparecen en la paleta izquierda del recorrido, en la categoría **[!UICONTROL Acción]**. Obtenga más información en [esta página](../building-journeys/about-journey-activities.md#action-activities).
 
 ## Limitaciones{#custom-actions-limitations}
 
 Las acciones personalizadas incluyen algunas limitaciones enumeradas en [esta página](../start/guardrails.md).
 
-En los parámetros de acción personalizados, puede pasar una colección simple, así como una colección de objetos. Obtenga más información acerca de las limitaciones de recopilación en [esta página](../building-journeys/collections.md#limitations).
+En los parámetros de acción personalizados, puede pasar una colección simple, así como una colección de objetos. Obtenga más información acerca de las limitaciones de colección en [esta página](../building-journeys/collections.md#limitations).
 
-Tenga en cuenta también que los parámetros de acciones personalizadas tienen un formato esperado (por ejemplo: cadena, decimal, etc.). Debe tener cuidado de respetar estos formatos esperados. Obtenga más información en esta [caso de uso](../building-journeys/collections.md).
+Tenga en cuenta también que los parámetros de acciones personalizadas tienen un formato esperado (por ejemplo: cadena, decimal, etc.). Debe tener cuidado de respetar estos formatos esperados. Obtenga más información en este [caso de uso](../building-journeys/collections.md).
 
-Las acciones personalizadas solo admiten el formato JSON al utilizar [solicitud](../action/about-custom-action-configuration.md#define-the-message-parameters) o [cargas de respuesta](../action/action-response.md).
+Las acciones personalizadas solo admiten el formato JSON cuando se utilizan [solicitudes](../action/about-custom-action-configuration.md#define-the-message-parameters) o [cargas de respuesta](../action/action-response.md).
 
 ## Prácticas recomendadas{#custom-action-enhancements-best-practices}
 
@@ -66,7 +66,7 @@ En Journey Optimizer, puede aplicar políticas de gobernanza de datos y consenti
 
 Estos son los pasos principales necesarios para configurar una acción personalizada:
 
-1. En la sección del menú ADMINISTRACIÓN, seleccione **[!UICONTROL Configuraciones]**. En el  **[!UICONTROL Acciones]** , haga clic en **[!UICONTROL Administrar]**. Clic **[!UICONTROL Crear acción]** para crear una acción nueva. El panel de configuración de acción se abre en el lado derecho de la pantalla.
+1. En la sección del menú ADMINISTRACIÓN, seleccione **[!UICONTROL Configuraciones]**. En la sección **[!UICONTROL Acciones]**, haga clic en **[!UICONTROL Administrar]**. Haga clic en **[!UICONTROL Crear acción]** para crear una nueva acción. El panel de configuración de acción se abre en el lado derecho de la pantalla.
 
    ![](assets/custom2.png)
 
@@ -77,25 +77,25 @@ Estos son los pasos principales necesarios para configurar una acción personali
    >Solo se permiten caracteres alfanuméricos y guiones bajos. La longitud máxima es de 30 caracteres.
 
 1. Añada una descripción a la acción. Este paso es opcional.
-1. El número de recorridos que utilizan esta acción se muestra en la variable **[!UICONTROL Utilizado en]** field. Puede hacer clic en **[!UICONTROL Ver recorridos]** para mostrar la lista de recorridos con esta acción.
-1. Defina los diferentes **[!UICONTROL Configuración de URL]** parámetros. Consulte [esta página](../action/about-custom-action-configuration.md#url-configuration).
-1. Configure las variables **[!UICONTROL Autenticación]** sección. Esta configuración es la misma que para las fuentes de datos.  Consulte [esta sección](../datasource/external-data-sources.md#custom-authentication-mode).
-1. Defina el **[!UICONTROL Parámetros de acción]**. Consulte [esta página](../action/about-custom-action-configuration.md#define-the-message-parameters).
+1. El número de recorridos que usa esta acción se muestra en el campo **[!UICONTROL Utilizado en]**. Puede hacer clic en el botón **[!UICONTROL Ver recorridos]** para mostrar la lista de recorridos con esta acción.
+1. Defina los diferentes parámetros de **[!UICONTROL configuración de URL]**. Consulte [esta página](../action/about-custom-action-configuration.md#url-configuration).
+1. Configure la sección **[!UICONTROL Autenticación]**. Esta configuración es la misma que para las fuentes de datos.  Consulte [esta sección](../datasource/external-data-sources.md#custom-authentication-mode).
+1. Defina los **[!UICONTROL parámetros de acción]**. Consulte [esta página](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Haga clic en **[!UICONTROL Guardar]**.
 
    La acción personalizada ahora está configurada y lista para utilizarse en sus recorridos. Consulte [esta página](../building-journeys/about-journey-activities.md#action-activities).
 
    >[!NOTE]
    >
-   >Cuando se utiliza una acción personalizada en un recorrido, la mayoría de los parámetros son de solo lectura. Solo puede modificar la variable **[!UICONTROL Nombre]**, **[!UICONTROL Descripción]**, **[!UICONTROL URL]** y el **[!UICONTROL Autenticación]** sección.
+   >Cuando se utiliza una acción personalizada en un recorrido, la mayoría de los parámetros son de solo lectura. Solo puede modificar los campos **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** y la sección **[!UICONTROL Authentication]**.
 
 ## Configuración de extremo {#url-configuration}
 
-Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL Configuración de extremo]** parámetros:
+Al configurar una acción personalizada, debe definir los siguientes **[!UICONTROL parámetros de configuración de extremo]**:
 
 ![](assets/action-response1bis.png){width="70%" align="left"}
 
-1. En el **[!UICONTROL URL]** , especifique la URL del servicio externo:
+1. En el campo **[!UICONTROL URL]**, especifique la URL del servicio externo:
 
    * Si la dirección URL es estática, introduzca la dirección URL en este campo.
 
@@ -111,25 +111,25 @@ Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL
    >
    >Solo se permiten los puertos predeterminados al definir una acción personalizada: 80 para http y 443 para https.
 
-1. Seleccione la llamada **[!UICONTROL Método]**: puede ser cualquiera de las siguientes **[!UICONTROL POST]**, **[!UICONTROL GET]** o **[!UICONTROL PUT]**.
+1. Seleccione la llamada **[!UICONTROL Method]**: puede ser **[!UICONTROL POST]**, **[!UICONTROL GET]** o **[!UICONTROL PUT]**.
 
    >[!NOTE]
    >
-   > El **DELETE** no se admite el método. Si necesita actualizar un recurso existente, seleccione la **PUT** método.
+   > No se admite el método **DELETE**. Si necesita actualizar un recurso existente, seleccione el método **PUT**.
 
 1. Defina los encabezados y los parámetros de consulta:
 
-   * En el **[!UICONTROL Encabezados]** , haga clic en **[!UICONTROL Añadir un campo de encabezado]** para definir los encabezados HTTP del mensaje de solicitud que se va a enviar al servicio externo. El **[!UICONTROL Content-Type]** y **[!UICONTROL Charset]** los campos de encabezado están configurados de forma predeterminada. Estos campos no se pueden eliminar. Solo el **[!UICONTROL Content-Type]** puede por modificación. Su valor debe respetar el formato JSON. Este es el valor predeterminado:
+   * En la sección **[!UICONTROL Encabezados]**, haga clic en **[!UICONTROL Agregar un campo de encabezado]** para definir los encabezados HTTP del mensaje de solicitud que se enviará al servicio externo. Los campos de encabezado **[!UICONTROL Content-Type]** y **[!UICONTROL Charset]** están establecidos de forma predeterminada. Estos campos no se pueden eliminar. Solo se puede modificar el encabezado **[!UICONTROL Content-Type]**. Su valor debe respetar el formato JSON. Este es el valor predeterminado:
 
    ![](assets/content-type-header.png)
 
-   * En el **[!UICONTROL Parámetros de consulta]** , haga clic en **[!UICONTROL Agregar un campo de parámetro de consulta]** para definir los parámetros que desea añadir en la dirección URL.
+   * En la sección **[!UICONTROL Parámetros de consulta]**, haga clic en **[!UICONTROL Agregar un campo de parámetro de consulta]** para definir los parámetros que desea agregar en la dirección URL.
 
    ![](assets/journeyurlconfiguration2bis.png)
 
 1. Introduzca la etiqueta o el nombre del campo.
 
-1. Seleccione el tipo: **[!UICONTROL Constante]** o **[!UICONTROL Variable]**. Si ha seleccionado **[!UICONTROL Constante]**, luego introduzca el valor constante en **[!UICONTROL Valor]** field. Si ha seleccionado **[!UICONTROL Variable]**, entonces especificará esta variable al agregar la acción personalizada a un recorrido. [Más información](../building-journeys/using-custom-actions.md).
+1. Seleccione el tipo: **[!UICONTROL Constant]** o **[!UICONTROL Variable]**. Si ha seleccionado **[!UICONTROL Constante]**, introduzca el valor constante en el campo **[!UICONTROL Valor]**. Si ha seleccionado **[!UICONTROL Variable]**, deberá especificar esta variable al agregar la acción personalizada a un recorrido. [Más información](../building-journeys/using-custom-actions.md).
 
    ![](assets/journeyurlconfiguration2.png)
 
@@ -143,13 +143,13 @@ Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL
 
 Ahora puede utilizar Mutual Transport Layer Security (mTLS) para garantizar una seguridad mejorada en las conexiones salientes a acciones personalizadas de Adobe Journey Optimizer. mTLS es un método de seguridad de extremo a extremo para la autenticación mutua que garantiza que ambas partes que comparten información son quienes dicen ser antes de que se compartan los datos. mTLS incluye un paso adicional en comparación con TLS, en el que el servidor también solicita el certificado del cliente y lo verifica al final.
 
-La autenticación TLS mutua (mTLS) se admite en acciones personalizadas. No se requiere ninguna configuración adicional en la acción personalizada o en el recorrido para activar mTLS; se produce automáticamente cuando se detecta un punto de conexión habilitado para mTLS. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+La autenticación TLS mutua (mTLS) se admite en acciones personalizadas. No se requiere ninguna configuración adicional en la acción personalizada ni en el recorrido para activar mTLS; se produce automáticamente cuando se detecta un extremo habilitado para mTLS. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## Definición de los parámetros de carga útil {#define-the-message-parameters}
 
-1. En el **[!UICONTROL Solicitud]** , pegue un ejemplo de la carga útil JSON para enviar al servicio externo. Este campo es opcional y solo está disponible para los métodos de llamada de POST y PUT.
+1. En la sección **[!UICONTROL Solicitud]**, pegue un ejemplo de la carga útil JSON para enviar al servicio externo. Este campo es opcional y solo está disponible para los métodos de llamada de POST y PUT.
 
-1. En el **[!UICONTROL Respuesta]** , pegue un ejemplo de la carga útil devuelta por la llamada. Este campo es opcional y está disponible para todos los métodos de llamada. Para obtener información detallada sobre cómo aprovechar las respuestas de llamadas de API en acciones personalizadas, consulte [esta página](../action/action-response.md).
+1. En la sección **[!UICONTROL Response]**, pegue un ejemplo de la carga útil devuelta por la llamada. Este campo es opcional y está disponible para todos los métodos de llamada. Para obtener información detallada sobre cómo aprovechar las respuestas de llamadas de API en acciones personalizadas, consulte [esta página](../action/action-response.md).
 
 >[!NOTE]
 >
@@ -165,7 +165,7 @@ Podrá definir el tipo de parámetro (por ejemplo, cadena, entero, etc.).
 
 También puede elegir entre especificar si un parámetro es una constante o una variable:
 
-* **Constante** significa que el valor del parámetro lo define una persona técnica en el panel de configuración de acciones. El valor siempre será el mismo en todos los recorridos. No variará y el experto en marketing no lo verá al utilizar la acción personalizada en el recorrido. Podría ser, por ejemplo, un ID que espere el sistema de terceros. En ese caso, el campo a la derecha de la constante/variable de alternancia es el valor pasado.
+* **Constant** significa que el valor del parámetro lo define un técnico en el panel de configuración de la acción. El valor siempre será el mismo en todos los recorridos. No variará y el experto en marketing no lo verá al utilizar la acción personalizada en el recorrido. Podría ser, por ejemplo, un ID que espere el sistema de terceros. En ese caso, el campo a la derecha de la constante/variable de alternancia es el valor pasado.
 * **Variable** significa que el valor del parámetro variará. Los especialistas en marketing que utilicen esta acción personalizada en un recorrido podrán transferir el valor que deseen o especificar dónde recuperar el valor de este parámetro (por ejemplo, desde el evento, desde Adobe Experience Platform, etc.). En ese caso, el campo a la derecha de la constante/variable de alternancia es el que los especialistas en marketing verán en el recorrido para asignar un nombre a este parámetro.
 
 ![](assets/customactionpayloadmessage2.png)

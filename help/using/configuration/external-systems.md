@@ -37,7 +37,7 @@ Cuando Journey Optimizer ejecuta una llamada a una API externa, las protecciones
 
 Al configurar una fuente de datos o una acción, se establece una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos o enviar mensajes o llamadas de API.
 
-Las API de recorridos admiten hasta 5000 eventos por segundo, pero es posible que algunos sistemas externos o API no tengan un rendimiento equivalente. Para evitar la sobrecarga de estos sistemas, puede utilizar el **Límite** y **Aceleración** API para limitar el número de eventos enviados por segundo.
+Las API de recorridos admiten hasta 5000 eventos por segundo, pero es posible que algunos sistemas externos o API no tengan un rendimiento equivalente. Para evitar sobrecargar estos sistemas, puede usar las API **Límite** y **Aceleración** para limitar el número de eventos enviados por segundo.
 
 Cada vez que recorrido realiza una llamada a la API, esta pasa por el motor de API. Si se alcanza el límite establecido en la API, la llamada se rechaza si se utiliza la API de límite, o se pone en cola durante un máximo de 6 horas y se procesa lo antes posible en el orden en que se recibió si se utiliza la API de limitación.
 
@@ -45,18 +45,18 @@ Por ejemplo, supongamos que ha definido una regla de límite o restricción de 2
 
 >[!IMPORTANT]
 >
->**Reglas de límite** se configuran en el nivel de entorno limitado, para un punto de conexión específico (la dirección URL llamada ) pero son globales para todos los recorridos de dicho entorno limitado. El límite está disponible tanto en fuentes de datos como en acciones personalizadas.
+>**Las reglas de límite** se configuran en el nivel de zona protegida, para un extremo específico (la dirección URL llamada) pero global para todos los recorridos de dicha zona protegida. El límite está disponible tanto en fuentes de datos como en acciones personalizadas.
 >
 >Las **Reglas de limitación** solo están configuradas en zonas protegidas de producción, para un extremo específico, pero de forma global para todos los recorridos de todas las zonas protegidas. Solo puede tener una configuración de restricción por organización. La restricción solo está disponible en acciones personalizadas.
 >
->El **maxCallsCount** el valor debe ser mayor que 1.
+>El valor **maxCallsCount** debe ser mayor que 1.
 
 Para obtener más información sobre cómo trabajar con las API, consulte estas secciones:
 
 * [API de límite](capping.md)
 * [API de limitación](throttling.md)
 
-Una descripción detallada de las API está disponible en [Documentación de API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
+Hay disponible una descripción detallada de las API en [Documentación de las API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
 
 ### Capacidad de fuentes de datos y acciones personalizadas {#capacity}
 
@@ -70,7 +70,7 @@ Para **acciones personalizadas**, debe evaluar la capacidad de su API externa. P
 
 >[!NOTE]
 >
->Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas. Para obtener más información sobre las respuestas, consulte [sección](../action/action-response.md)
+>Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas. Para obtener más información sobre las respuestas, consulte esta [sección](../action/action-response.md)
 
 ## Tiempo de espera y reintentos{#timeout}
 
@@ -96,7 +96,7 @@ Veamos un ejemplo para un tiempo de espera de 5 segundos.
 
 ## Preguntas frecuentes{#faq}
 
-**¿Cómo puedo configurar una regla de restricción o límite? ¿Existe una regla predeterminada?**
+**¿Cómo puedo configurar una regla de restricción o límite? ¿Hay una regla predeterminada?**
 
 De forma predeterminada, no hay ninguna regla de restricción o límite. Las reglas se definen a nivel de zona protegida para un extremo específico (la dirección URL llamada ), mediante la API de límite o limitación. Consulte [esta sección](../configuration/external-systems.md#capping).
 
