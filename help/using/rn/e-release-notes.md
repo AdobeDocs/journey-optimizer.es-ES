@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2387b9912b1c4c2272643a85de6f5dcc9477b2cd
+source-git-commit: 9a00387d0f44fd989dd9019cef33e3223b1701de
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 45%
+source-wordcount: '313'
+ht-degree: 46%
 
 ---
 
@@ -144,4 +144,4 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Públicos**
 
-* El uso de audiencias y atributos de composición de audiencias y carga personalizada (archivo CSV) ya está disponible para su uso con Healthcare Shield y los complementos de Privacy &amp; Security Shield.
+* El uso de audiencias de carga personalizada (archivo CSV) ya está disponible para su uso con Privacy and Security Shield.
