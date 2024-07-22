@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9a00387d0f44fd989dd9019cef33e3223b1701de
+source-git-commit: c64d0dbc41089fa50f0fbc4829ba60818dd25a37
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 46%
+source-wordcount: '281'
+ht-degree: 51%
 
 ---
 
@@ -138,10 +138,10 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 * Los fragmentos de expresiones ya están disponibles para el canal en la aplicación.
 
-**Canal push**
-
-* Ahora puede añadir las credenciales push de la aplicación móvil en los ajustes de configuración del canal de Adobe Journey Optimizer. Ya no es necesario crear una superficie de aplicación en la recopilación de datos de Adobe Experience Platform.
-
 **Públicos**
 
 * El uso de audiencias de carga personalizada (archivo CSV) ya está disponible para su uso con Privacy and Security Shield.
+<!--
+**Push channel**
+
+* You can now add your mobile application push credentials inside Adobe Journey Optimizer channel configuration settings. Creating an App surface in Adobe Experience Platform Data Collection is no longer required.-->
