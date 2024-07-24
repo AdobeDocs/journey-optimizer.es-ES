@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 267d1850cbe30b1078f3b5b5bd228364bb63edd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '602'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
 >title="Términos de IA generativa de Adobe"
->abstract="El acceso a esta función está sujeto a su aceptación de las Directrices del usuario de IA generativa de Adobe Experience Cloud. Compruebe la precisión de cualquier resultado de esta función y asegúrese de que sea apropiado para su caso de uso."
+>abstract="El acceso a esta función está sujeto a su aceptación de las Directrices del usuario de IA generativa de Adobe Experience Cloud. Revise la exactitud de los resultados de esta función y asegurarse de que son adecuados para su caso de uso."
 >additional-url="https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Directrices del usuario de IA generativa de Adobe"
 
 >[!BEGINSHADEBOX]
