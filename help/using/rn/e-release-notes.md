@@ -11,7 +11,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: dd7420257360a839d4dbeb05e78f002a09a9231b
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 60%
 
 ## Notas de la primera versión de julio de 2024 {#e-2024}
 
-**Fecha de la versión**: 30 y 31 de julio de 2024
+**Fecha de la versión**: 30-31 de julio de 2024
 
 ### Nuevas funciones {#e-features}
 
@@ -32,7 +32,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <table>
 <thead>
 <tr>
-<th><strong>Flujo de trabajo de preparación de IP (GA)</strong><br/></th>
+<th><strong>Flujo de trabajo de calentamiento de IP (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -122,7 +122,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Recorridos**
 
-* (Disponibilidad: 8 de julio) Ahora puede aprovechar el editor de expresiones avanzadas al configurar un evento, lo que le permite definir expresiones más complejas o utilizar funciones en la condición ID de evento. [Más información](../event/about-creating.md#adv-exp-editor)
+* (Disponibilidad: 8 de julio) Ahora puede aprovechar el editor de expresiones avanzadas mientras configura un evento, lo que le permite definir expresiones más complejas o utilizar funciones en la condición de ID del evento. [Más información](../event/about-creating.md#adv-exp-editor)
 
 <!--* The `event-id` condition is now automatically filled during test mode. -->
 
@@ -132,11 +132,11 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Canal en la aplicación**
 
-* Los fragmentos de expresiones ya están disponibles para el canal en la aplicación.
+* Los fragmentos de expresiones no están disponibles para el canal en la aplicación.
 
 **Públicos**
 
-* El uso de audiencias de carga personalizada (archivo CSV) ya está disponible para su uso con Privacy and Security Shield.
+* El uso de públicos de carga personalizada (archivo CSV) ya está disponible para su uso con Privacy and Security Shield.
 <!--
 **Push channel**
 
