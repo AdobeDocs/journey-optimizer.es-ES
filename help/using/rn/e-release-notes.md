@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: dd7420257360a839d4dbeb05e78f002a09a9231b
+source-git-commit: bb7806cea0b485fd53055d8e596513cfbc592620
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '303'
+ht-degree: 77%
 
 ---
 
@@ -32,7 +32,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <table>
 <thead>
 <tr>
-<th><strong>Flujo de trabajo de calentamiento de IP (GA)</strong><br/></th>
+<th><strong>Flujo de trabajo de calentamiento de IP</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -57,6 +57,23 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <td>
 <p>Ahora puede configurar proveedores de SMS adicionales en Journey Optimizer, además de los proveedores predeterminados Sinch, Infobip y Twilio.</p>
 <!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Composición de audiencia federada (disponibilidad limitada)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La composición de audiencias federada ya está disponible en Adobe Journey Optimizer. Permite a las empresas componer datos para una mejor utilización en varios casos de uso. Con este nuevo enfoque, como usuario de Adobe Real-time Customer Data Platform o Adobe Journey Optimizer, puede federar conjuntos de datos directamente desde el almacén de datos existente para enriquecer las audiencias y los atributos de Adobe Experience Platform, todo en un sistema.</p>
+<!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
