@@ -6,7 +6,7 @@ description: Notas de la primera versión de Journey Optimizer
 hide: true
 hidefromtoc: true
 exl-id: 841122b9-04f6-4250-b0a5-e61f470787f7
-source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
+source-git-commit: 5ccf9e08a24f840de7adbf04dc545904eaa32b8c
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 100%
@@ -198,3 +198,4 @@ Configuración de ****
 
 * Ahora puede seleccionar una acción de marketing en el nivel de superficie de canal. Cuando se utilizan en una superficie, todas las políticas de consentimiento asociadas con esa acción de marketing se aprovechan para respetar las preferencias de los clientes.
 * El uso del Control de acceso a nivel de objeto ya está disponible para las superficies de canal.
+
