@@ -117,7 +117,7 @@ Una vez que hayas configurado y diseñado la [página principal](#configure-prim
 >id="ajo_lp_access_settings"
 >title="Definir la dirección URL de la página de aterrizaje"
 >abstract="En esta sección, defina una dirección URL de página de aterrizaje única. La primera parte de la dirección URL requiere que haya configurado previamente un subdominio de página de aterrizaje como parte del ajuste preestablecido que ha seleccionado."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains" text="Configurar subdominios de página de aterrizaje"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains" text="Configurar subdominios de página de aterrizaje"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=es#lp-create-preset" text="Crear ajustes preestablecidos de la página de aterrizaje"
 
 La página principal es la página que se muestra inmediatamente a los usuarios después de hacer clic en el vínculo a la página de aterrizaje, como desde un correo electrónico o un sitio web.
