@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4748090660b39c93522e5bd30a77542481f53bfa
+source-git-commit: 84983aac86459deafa5a088461777227ec6cec22
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1278'
 ht-degree: 90%
 
 ---
@@ -37,21 +37,21 @@ ht-degree: 90%
 
 Esta versión incorpora las nuevas funciones que se indican a continuación.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Flujo de trabajo de calentamiento de IP</strong><br/></th>
+<th><strong>IP Warmup Workflow</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Si envía un correo electrónico a una dirección de IP completamente nueva, ahora puede ejecutar fácilmente los flujos de trabajo de calentamiento de IP directamente desde la interfaz de usuario. Adobe Journey Optimizer ofrece una forma estandarizada y eficaz de añadir las direcciones IP que siguen las prácticas recomendadas para lograr una entrega óptima.</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<p>If you are sending email on a brand new IP address, you can now easily perform IP warmup workflows directly from the user interface. Adobe Journey Optimizer offers a standardized and efficient way to warm up your IP adresses that follows the best practices for optimal deliverability.</p>
+<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
