@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0fc693054ad7931545e0053249f310aed031c8c4
+source-git-commit: b2459757d1f1964c7d0b59de814bed29b0a394bb
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 90%
+source-wordcount: '1244'
+ht-degree: 91%
 
 ---
 
@@ -26,10 +26,7 @@ ht-degree: 90%
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Regístrese para la [Newsletter trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoy y reciba las últimas actualizaciones de productos, artículos interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.
 
-
-## Notas de la primera versión de julio de 2024 {#27-4-2024}
-
-**Las notas de la versión preliminar están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento**. Los vínculos, las pantallas y la documentación actualizada se publican en esta página en la fecha del lanzamiento.
+## Notas de la versión de julio de 2024 {#27-4-2024}
 
 **Fecha de la versión**: 30-31 de julio de 2024
 
@@ -94,9 +91,9 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 * (Fecha de disponibilidad: 8 de julio) **Editor de expresiones avanzadas en la configuración de eventos de recorrido**: ahora puede aprovechar el editor de expresiones avanzadas al configurar un evento, lo que le permite definir expresiones más complejas o utilizar funciones en la condición de ID de evento. [Más información](../event/about-creating.md#adv-exp-editor)
 
-**Públicos**
+<!--**Audiences**
 
-* El uso de públicos de carga personalizada (archivo CSV) ya está disponible para su uso con Privacy and Security Shield.
+* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield.-->
 
 ## Notas de la versión de junio de 2024 {#24-6-2024}
 
