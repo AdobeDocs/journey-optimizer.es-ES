@@ -11,10 +11,10 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 267d1850cbe30b1078f3b5b5bd228364bb63edd6
+source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
->title="Definir el contexto con el Asistente de IA"
->abstract="Para utilizar el contenido seleccionado como entrada para la generación de contenido, active el conmutador **Utilizar el contenido original**. También puede cargar los recursos de su marca para utilizarlos como fuente. Si no utiliza el contenido seleccionado, es obligatorio cargar y seleccionar un recurso de marca."
+>title="Cargar recurso de marca"
+>abstract="El menú Cargar recurso de marca le permite añadir cualquier recurso de marca que contenga contenido que pueda proporcionar un contexto adicional para el asistente de IA o seleccionar un recurso cargado anteriormente. Esta opción garantiza que el auxiliar de inteligencia artificial tenga acceso a todos los materiales necesarios para mejorar su funcionalidad y pertinencia."
 
 
 >[!CONTEXTUALHELP]
