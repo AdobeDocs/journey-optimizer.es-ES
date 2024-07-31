@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 452aecc02f265b8bcbe89f221bd7b1a50ffa0976
+source-git-commit: 6574f5d46125b90634b21ec62a43ca50d1321479
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 92%
@@ -301,4 +301,4 @@ Para cambiar el idioma:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Prioridad"
->abstract="&quot;Asigne una puntuación de prioridad al recorrido, de 0 a 100. Un número mayor indica una prioridad mayor. Cuando dos recorridos utilizan la misma superficie, Journey Optimizer selecciona el recorrido con la puntuación de prioridad más alta. Si los recorridos tienen la misma puntuación, se elige el recorrido modificado más recientemente."
+>abstract="Asigne una puntuación de recorrido comprendida entre 0 y 100. Un número mayor indica una prioridad mayor. Cuando dos recorridos utilizan la misma superficie, Journey Optimizer selecciona el recorrido con la puntuación de prioridad más alta. Si los recorridos tienen la misma puntuación, se elige el recorrido modificado más recientemente."
