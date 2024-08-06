@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '602'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="Cargar recurso de marca"
->abstract="El menú Cargar recurso de marca le permite añadir cualquier recurso de marca que contenga contenido que pueda proporcionar un contexto adicional para el asistente de IA o seleccionar un recurso cargado anteriormente. Esta opción garantiza que el auxiliar de inteligencia artificial tenga acceso a todos los materiales necesarios para mejorar su funcionalidad y pertinencia."
+>abstract="El menú Cargar recurso de marca le permite añadir cualquier recurso de marca que incluya contenido que pueda proporcionar un contexto adicional para el asistente de IA o seleccionar un recurso cargado anteriormente. Esta opción garantiza que el asistente de IA tenga acceso a todos los materiales necesarios para mejorar su funcionalidad y relevancia."
 
 
 >[!CONTEXTUALHELP]

@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 18d74badf3f5ea98f613d6b31303aa3108c979a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -65,13 +65,13 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <table>
 <thead>
 <tr>
-<th><strong>Composición de audiencia federada (disponibilidad limitada)</strong><br/></th>
+<th><strong>Composición de público federado (disponibilidad limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La composición de audiencias federada ya está disponible en Adobe Journey Optimizer. Permite a las empresas componer datos para una mejor utilización en varios casos de uso. Con este nuevo enfoque, como usuario de Adobe Real-time Customer Data Platform o Adobe Journey Optimizer, puede federar conjuntos de datos directamente desde el almacén de datos existente para crear y enriquecer audiencias y atributos de Adobe Experience Platform, todo en un sistema.</p>
+<p>La composición de público federado ya está disponible en Adobe Journey Optimizer. Permite a las empresas componer datos para una mejor utilización en varios casos de uso. Con este nuevo enfoque, como usuario de Adobe Real-time Customer Data Platform y/o Adobe Journey Optimizer, puede federar conjuntos de datos directamente desde su almacén de datos existente para generar y enriquecer públicos y atributos de Adobe Experience Platform en un solo sistema.</p>
 <!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">detailed documentation</a>.</p-->
 </td>
 </tr>
