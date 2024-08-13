@@ -8,29 +8,15 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, grupo, subdominios, capacidad de entrega
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 8%
+source-wordcount: '1665'
+ht-degree: 6%
 
 ---
 
 # Creación de un plan de calentamiento de IP {#ip-warmup}
-
->[!BEGINSHADEBOX]
-
-Lo que encontrará en esta guía de documentación:
-
-* [Introducción a los planes de calentamiento de IP](ip-warmup-gs.md)
-* [Creación de campañas de calentamiento de IP](ip-warmup-campaign.md)
-* **[Crear un plan de calentamiento de IP](ip-warmup-plan.md)**
-* [Ejecución del plan de calentamiento de IP](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
 
 Una vez que haya creado una o más [campañas de calentamiento de IP](ip-warmup-campaign.md) con una superficie dedicada y la opción correspondiente habilitada, puede empezar a crear su plan de calentamiento de IP.
 
@@ -112,11 +98,12 @@ A continuación se muestra un ejemplo de un archivo que contiene un plan de cale
 
 * Este evento planificado se ejecuta en seis **fases**, cada una de las cuales contiene al menos una ejecución.
 
-* Puede tener hasta 6 columnas (5 columnas para grupos de dominios y una para la columna **Otros**). En este ejemplo, el plan se divide en seis columnas:
+* Puede tener hasta 6 columnas (4 columnas para grupos de dominio, una para la columna **Otros** y otra para la columna **Días de participación**). En este ejemplo, el plan se divide en seis columnas:
 
-   * Cuatro de los cuales corresponden a **grupos de dominios predeterminados** que se usarán en su plan (Gmail, Microsoft, Yahoo y Orange).
+   * Tres de los cuales corresponden a **grupos de dominios predeterminados** que se usarán en su plan (Gmail, Microsoft y Orange).
    * Uno corresponde a un grupo de dominio personalizado (que debe agregar mediante la ficha [Grupo de dominio personalizado](#custom-domain-group-tab)).
-   * La sexta columna, **Otros**, contiene todas las direcciones restantes de otros dominios que no están cubiertos explícitamente en el plan. Esta columna es opcional: si se omite, los correos electrónicos solo irán a los dominios especificados.
+   * La quinta columna, **Otros**, contiene todas las direcciones restantes de otros dominios que no están cubiertos explícitamente en el plan. Esta columna es opcional: si se omite, los correos electrónicos solo irán a los dominios especificados.
+   * La última columna, **Días de participación**, le permite especificar el número de días durante los cuales se debe realizar un seguimiento o evaluar la participación.
 
 La idea es aumentar progresivamente el número de direcciones objetivo en cada ejecución, al mismo tiempo que se reduce el número de ejecuciones para cada fase.
 

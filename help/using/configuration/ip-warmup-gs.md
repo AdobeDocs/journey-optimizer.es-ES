@@ -8,45 +8,29 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, entregabilidad
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: 34c1180e3ba5b6b39287e70651c45351fa71e6b1
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 94%
+source-wordcount: '240'
+ht-degree: 70%
 
 ---
 
 # Introducción a los planes de calentamiento de IP {#ip-warmup-gs}
 
->[!BEGINSHADEBOX]
-
-Lo que encontrará en esta guía de documentación:
-
-* **[Introducción al calentamiento de IP](ip-warmup-gs.md)**
-* [Creación de campañas de calentamiento de IP](ip-warmup-campaign.md)
-* [Creación de un plan de calentamiento de IP](ip-warmup-plan.md)
-* [Ejecución del plan de calentamiento de IP](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
-
-Con [!DNL Journey Optimizer], puede realizar fácilmente flujos de trabajo de calentamiento de IP directamente desde la interfaz de usuario de una manera estandarizada y eficaz que siga las prácticas recomendadas para una entregabilidad óptima.
-
-➡️ [Aprenda a crear y ejecutar un plan de calentamiento de IP en este vídeo](#video)
-
->[!CAUTION]
->
->Actualmente, esta función solo se aplica al canal de correo electrónico.
-
-Cuando se envían correos electrónicos utilizando una plataforma nueva, los proveedores de servicios de Internet (ISP) sospechan de las direcciones IP desconocidas. Si se envían, de repente, grandes volúmenes de correos electrónicos, los ISP suelen marcarlos como correo no deseado.
+Con [!DNL Journey Optimizer], puede realizar fácilmente flujos de trabajo de calentamiento de IP directamente desde la interfaz de usuario de una manera estandarizada y eficaz que siga las prácticas recomendadas para una entrega óptima. Cuando se envían correos electrónicos utilizando una plataforma nueva, los proveedores de servicios de Internet (ISP) sospechan de las direcciones IP desconocidas. Si se envían, de repente, grandes volúmenes de correos electrónicos, los ISP suelen marcarlos como correo no deseado.
 
 Para evitar que se considere correo no deseado, puede aumentar progresivamente el volumen enviado mediante la función de plan de calentamiento de IP. Esta nueva opción del menú **[!UICONTROL Administración]** le permite hacerlo más fácilmente de una manera consolidada en lugar de crear recorridos diarios complejos.
 
->[!NOTE]
+<!--➡️ [Learn how to create and execute an IP warmup plan in this video](#video)-->
+
+>[!AVAILABILITY]
 >
->Obtenga más información sobre cómo aumentar su reputación de correo electrónico con el calentamiento de IP en [Guía de prácticas recomendadas sobre la entregabilidad](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=es).
+>Esta capacidad solo se puede habilitar en entornos limitados de tipo de producción.
+>
+>No está disponible para organizaciones que hayan adquirido las ofertas adicionales de **Healthcare Shield** o **Privacy and Security Shield** de Adobe.
+
+
 
 <!--
 Benefits
@@ -68,8 +52,15 @@ Los pasos clave para implementar un plan de calentamiento de IP son los siguient
 
 1. Seleccione una campaña para cada fase del plan y active las ejecuciones correspondientes. [Más información](ip-warmup-execution.md)
 
-## Vídeo explicativo {#video}
+<!--Old UI
+## How-to video {#video}
 
-Obtenga información sobre cómo crear y ejecutar un plan de calentamiento de IP.
+Learn how to create and execute an IP warmup plan.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)
+-->
+
+
+>[!NOTE]
+>
+>Obtenga más información sobre cómo aumentar su reputación de correo electrónico con el calentamiento de IP en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=es).

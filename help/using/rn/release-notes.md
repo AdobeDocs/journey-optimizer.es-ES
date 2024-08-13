@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b2459757d1f1964c7d0b59de814bed29b0a394bb
-workflow-type: ht
-source-wordcount: '1244'
-ht-degree: 100%
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
+workflow-type: tm+mt
+source-wordcount: '1316'
+ht-degree: 98%
 
 ---
 
@@ -26,29 +26,34 @@ ht-degree: 100%
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Regístrese para la [Newsletter trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoy y reciba las últimas actualizaciones de productos, artículos interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.
 
-## Notas de la versión de julio de 2024 {#27-4-2024}
+## Actualizaciones de agosto {#24-8-2024}
+
+Los siguientes cambios se publicaron en agosto:
+
+<table>
+<thead>
+<tr>
+<th><strong>Flujo de trabajo de calentamiento de IP</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Fecha de disponibilidad: 13 de agosto</p>
+<p>Si envía un correo electrónico a una dirección de IP completamente nueva, ahora puede ejecutar fácilmente los flujos de trabajo de calentamiento de IP directamente desde la interfaz de usuario. Adobe Journey Optimizer ofrece una forma estandarizada y eficaz de añadir las direcciones IP que siguen las prácticas recomendadas para lograr una entrega óptima.</p>
+<p>Para obtener más información, consulte la <a href="../configuration/ip-warmup-gs.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+## Notas de la versión de julio de 2024 {#24-7-2024}
 
 **Fecha de la versión**: 30-31 de julio de 2024
 
 ### Nuevas funciones {#27-4-features}
 
 Esta versión incorpora las nuevas funciones que se indican a continuación.
-
-<!--table>
-<thead>
-<tr>
-<th><strong>IP Warmup Workflow</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>If you are sending email on a brand new IP address, you can now easily perform IP warmup workflows directly from the user interface. Adobe Journey Optimizer offers a standardized and efficient way to warm up your IP adresses that follows the best practices for optimal deliverability.</p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 <table>
 <thead>

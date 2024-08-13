@@ -8,14 +8,11 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: IP, grupos, capacidad de entrega
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 17%
+source-wordcount: '423'
+ht-degree: 12%
 
 ---
 
@@ -26,17 +23,6 @@ ht-degree: 17%
 >title="Activación de la opción de plan de calentamiento de IP"
 >abstract="Al seleccionar esta opción, la campaña se puede utilizar en un plan de calentamiento de IP. La programación de la campaña se regirá por el plan de calentamiento de IP con el que está asociada."
 
->[!BEGINSHADEBOX]
-
-Lo que encontrará en esta guía de documentación:
-
-* [Introducción a los planes de calentamiento de IP](ip-warmup-gs.md)
-* **[Crear campañas de calentamiento de IP](ip-warmup-campaign.md)**
-* [Creación de un plan de calentamiento de IP](ip-warmup-plan.md)
-* [Ejecución del plan de calentamiento de IP](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
-
 Antes de crear el plan de calentamiento de IP en [!DNL Journey Optimizer], primero debe crear una o más campañas diseñadas específicamente para usarlas en un plan de calentamiento de IP<!--through a dedicated option-->.
 
 Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
@@ -45,9 +31,9 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Aprenda a seleccionar el dominio y las direcciones IP que se utilizarán en una superficie de correo electrónico en [esta sección](../email/email-settings.md#subdomains-and-ip-pools).
+   >* Aprenda a seleccionar el dominio y las direcciones IP que se utilizarán en una superficie de correo electrónico en [esta sección](../email/email-settings.md#subdomains-and-ip-pools).
    >
-   >Póngase en contacto con el consultor del equipo de entrega para identificar el dominio y las direcciones IP que se utilizarán para el plan de calentamiento de IP.<!--TBC-->
+   >* Póngase en contacto con el consultor del equipo de entrega para identificar el dominio y las direcciones IP que se utilizarán para el plan de calentamiento de IP.<!--TBC-->
 
 1. Cree una [campaña](../campaigns/create-campaign.md) de marketing programado y seleccione la acción [Correo electrónico](../email/create-email.md#create-email-journey-campaign).
 
@@ -71,17 +57,13 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 
    Tenga en cuenta que debe seleccionar una audiencia basada en reglas para la campaña de calentamiento de IP. [Más información](../audience/creating-a-segment-definition.md)
 
-   >[!NOTE]
-   >
-   >Para obtener más información sobre cómo configurar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
+   Para obtener más información sobre cómo configurar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
 1. [Activar](../campaigns/review-activate-campaign.md) la campaña. Su estado cambia a **[!UICONTROL Activo]**.
 
    Tenga en cuenta que las reglas empresariales no deben utilizarse en el plan de calentamiento de IP. La aplicación de estas reglas podría dificultar el logro del número deseado de perfiles objetivo para las campañas.
 
-   >[!NOTE]
-   >
-   >Para una campaña en vivo con el plan de calentamiento de IP activado, el botón **[!UICONTROL Eliminar]** está disponible hasta que se asocie con un plan de calentamiento de IP. Una vez utilizada en un plan, la campaña ya no se puede eliminar.
+   Para una campaña en vivo con el plan de calentamiento de IP activado, el botón **[!UICONTROL Eliminar]** está disponible hasta que se asocie con un plan de calentamiento de IP. Una vez utilizada en un plan, la campaña ya no se puede eliminar.
 
 1. La campaña se muestra en la lista **[!UICONTROL Campañas]**. Para recuperar fácilmente todas las campañas de calentamiento de IP creadas en la zona protegida actual, puede filtrar por la opción de campaña **[!UICONTROL calentamiento de IP]**.
 
