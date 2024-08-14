@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: calificación, eventos, audiencia, recorrido, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1091'
 ht-degree: 10%
 
 ---
@@ -35,7 +35,7 @@ Este tipo de evento se puede colocar como primer paso o más tarde en el recorri
 
 ### Notas importantes{#important-notes-segment-qualification}
 
-* Tenga en cuenta que las audiencias de Adobe Experience Platform se calculan una vez al día (**audiencias por lotes**) o en tiempo real (**audiencias transmitidas**, con la opción Audiencias de alta frecuencia de Adobe Experience Platform).
+* Tenga en cuenta que las audiencias de Adobe Experience Platform se calculan una vez al día (**audiencias por lotes**) o en tiempo real (para audiencias de **transmisión**, con la opción Audiencias de alta frecuencia de Adobe Experience Platform).
 
    * Si la audiencia seleccionada se transmite por secuencias, las personas que pertenecen a esta audiencia podrían entrar en el recorrido en tiempo real.
    * Si la audiencia es por lotes, las personas recién cualificadas para esta audiencia podrían entrar en el recorrido cuando el cálculo de audiencia se ejecute en Adobe Experience Platform.
@@ -51,6 +51,8 @@ Este tipo de evento se puede colocar como primer paso o más tarde en el recorri
 * Cuando se utiliza una calificación de público en un recorrido, esa actividad de calificación de público puede tardar hasta 10 minutos en estar activa y en escuchar los perfiles que entran o salen del público.
 
 ### Configuración de la actividad{#cnfigure-segment-qualification}
+
+Para configurar la actividad **[!UICONTROL Calificación de audiencias]**, siga estos pasos:
 
 1. Despliegue la categoría **[!UICONTROL Events]** y suelte una actividad **[!UICONTROL Audience Qualification]** en el lienzo.
 

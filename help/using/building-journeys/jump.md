@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: salto, actividad, recorrido, división, división
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 10%
@@ -32,7 +32,7 @@ En el recorrido de origen, simplemente agregue una actividad **[!UICONTROL Jump]
 
 En el recorrido de destino, el primer evento activado internamente por la actividad **[!UICONTROL Jump]** hará que el individuo fluya en el recorrido.
 
-## Ciclo de vida
+## Ciclo de vida {#jump-lifecycle}
 
 Supongamos que ha agregado una actividad **[!UICONTROL Jump]** en un recorrido A a un recorrido B. El Recorrido A es el **recorrido de origen** y el recorrido B, el **recorrido de destino**.
 Estos son los diferentes pasos del proceso de ejecución:
@@ -52,9 +52,9 @@ En el recorrido B, el primer evento se activa internamente, a través de la acti
 >
 >El recorrido B también se puede activar mediante un evento externo.
 
-## Prácticas recomendadas y limitaciones
+## Prácticas recomendadas y limitaciones {#jump-limitations}
 
-### Creación
+### Creación {#jump-limitations-authoring}
 
 * La actividad **[!UICONTROL Jump]** solo está disponible en recorridos que usan un área de nombres.
 * Solo puede saltar a un recorrido que utilice el mismo área de nombres que el recorrido de origen.
@@ -65,12 +65,12 @@ En el recorrido B, el primer evento se activa internamente, a través de la acti
 * El recorrido de destino también puede incluir tantas actividades **[!UICONTROL Jump]** como sea necesario.
 * No se admiten patrones de bucle. No hay forma de vincular dos o más recorridos que crearían un bucle infinito. La pantalla de configuración de actividad **[!UICONTROL Jump]** impide que lo hagas.
 
-### Ejecución
+### Ejecución {#jump-limitations-exec}
 
 * Cuando se ejecuta la actividad **[!UICONTROL Jump]**, se activa la última versión del recorrido de destino.
 * Como de costumbre, un individuo único solo puede estar presente una vez en el mismo recorrido. Como resultado, si el individuo insertado desde el recorrido de origen ya está en el recorrido de destino, entonces el individuo no entrará en el recorrido de destino. No se notificará ningún error en la actividad **[!UICONTROL Jump]** porque se trata de un comportamiento normal.
 
-## Configuración de la actividad de salto
+## Configuración de la actividad de salto {#jump-configure}
 
 1. Diseña tu **recorrido de origen**.
 
@@ -110,7 +110,7 @@ Cuando se configura una actividad **[!UICONTROL Jump]** en un recorrido, se agre
 
 ![](assets/jump7.png)
 
-## Resolución de problemas
+## Resolución de problemas {#jump-troubleshoot}
 
 Se producirán errores si:
 * el recorrido de destino ya no existe
