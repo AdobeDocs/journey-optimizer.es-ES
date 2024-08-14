@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
+source-git-commit: 2a4d4511cd3ba2986b8356edd734f85f84037e02
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 98%
@@ -96,9 +96,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 * (Fecha de disponibilidad: 8 de julio) **Editor de expresiones avanzadas de la configuración de eventos del recorrido**: ahora puede aprovechar el editor de expresiones avanzadas mientras configura un evento, lo que le permite definir expresiones más complejas o utilizar funciones en la condición de ID de evento. [Más información](../event/about-creating.md#adv-exp-editor)
 
-<!--**Audiences**
 
-* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield.-->
 
 ## Notas de la versión de junio de 2024 {#24-6-2024}
 

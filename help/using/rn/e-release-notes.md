@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9fdaff7a4364bb7ecfeec27446ed8f4b4ce34488
+source-git-commit: 2a4d4511cd3ba2986b8356edd734f85f84037e02
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 52%
+source-wordcount: '571'
+ht-degree: 28%
 
 ---
 
@@ -44,10 +44,42 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>Configuración de canal mejorada</strong><br/></th>
+<th><strong>Configuración de canal guiado</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La configuración guiada de canales le permite automatizar los pasos de la configuración del canal móvil de forma unificada para empezar a utilizar Journey Optimizer con mayor rapidez. Esta configuración facilita la configuración rápida de los canales de marketing, lo que garantiza que todos los recursos necesarios estén fácilmente disponibles en Experience Platform, Journey Optimizer y la recopilación de datos. Esto permite a su equipo de marketing iniciar inmediatamente la creación de campañas y recorridos.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Tarjetas de contenido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La tarjeta de contenido es una nueva función de mensajería digital de Adobe Journey Optimizer que ofrece contenido personalizado y atractivo directamente en aplicaciones móviles y sitios web. A diferencia de las notificaciones push tradicionales, las tarjetas de contenido se integran perfectamente en la interfaz de usuario, ofreciendo actualizaciones persistentes y no intrusivas que mejoran la interacción y experiencia del usuario.</p>
+<p>Esta función permite a los especialistas en marketing presentar contenido multimedia relevante y enriquecido a los usuarios, lo que aumenta la participación y garantiza que se vean mensajes importantes sin interrumpir el recorrido del usuario.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Configuraciones de canal mejoradas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -61,6 +93,23 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <li>Para algunos canales, puede crear configuraciones de canal dirigidas a varias plataformas. Un ejemplo sería una configuración de canal de mensajería en la aplicación que puede dirigirse a una página web, una aplicación de iOS y una aplicación de Android.</li>
 </ul></p>
 <p>Para obtener más información, consulte la <a href="../configuration/ip-warmup-gs.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Variables en fragmentos de contenido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Los fragmentos ahora pueden consumir variables de entrada, tanto en <a href="../personalization/use-expression-fragments.md">fragmentos de expresión</a> como en <a href="../email/use-visual-fragments.md">fragmentos visuales</a>. Puede utilizar esas variables para personalizar el contenido y los parámetros de los mensajes, en sus campañas y recorridos.</p>
+</p>
 </td>
 </tr>
 </tbody>
@@ -90,10 +139,13 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 **Recorridos**
 
 * En la actividad **Condition**, de forma predeterminada, la condición Time ahora se establece por hora, de 00:00 a 12:00. [Más información](../building-journeys/condition-activity.md#time_condition)
+* Al crear las alertas, estas ahora se muestran en una lista desplegable para alinearse con las recorridos de la campaña y ofrecer una experiencia de usuario coherente. [Más información](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* Se han mejorado las opciones de zoom en la barra de herramientas de recorrido: el porcentaje de zoom ahora está visible y ahora puede restablecer fácilmente el valor de zoom al 100 %.
 
 **Públicos**
 
 * El uso de públicos de carga personalizada (archivo CSV) ya está disponible para su uso con Privacy and Security Shield.
+* Al segmentar una audiencia de carga personalizada (archivo CSV), ahora puede utilizar atributos del archivo en sus campañas y recorridos. Estos atributos están disponibles en el editor de personalización para personalizar los mensajes y en el editor de expresiones avanzadas de recorrido.
 
 <!--
 **Push channel**
