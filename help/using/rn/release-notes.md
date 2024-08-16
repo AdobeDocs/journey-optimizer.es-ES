@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 470a1a999eeedd94a20bc1b0a49b0f0bce472a1c
+source-git-commit: dc6a91e4999bd8dfb51372f6b4aca47b14fe4029
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '888'
 ht-degree: 47%
 
 ---
@@ -79,10 +79,10 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <tbody>
 <tr>
 <td>
-<p>Las funciones actuales de superficie de canal se han mejorado para lograr un enfoque coherente en todos los canales. Ahora puede definir, administrar y reutilizar estas configuraciones para cualquiera de sus canales.</p>
+<p>Las funciones actuales de superficie de canal se han mejorado para lograr un enfoque coherente en todos los canales. Ahora puede definir, administrar y reutilizar estas configuraciones para cualquiera de sus canales, incluidos la web, la mensajería en la aplicación o la experiencia basada en código.</p>
 <p><ul>
 <li>Ahora se cambió el nombre de las superficies de canal a <strong>Configuraciones de canal</strong></li>
-<li>Desde el inventario de configuraciones de canal, ahora puede crear configuraciones de canal reutilizables para todos los canales, incluso ahora mensajería web, en la aplicación o experiencia basada en código</li>
+<li>Puede adjuntar una o varias acciones de marketing para aplicar políticas de consentimiento y control de datos</li>
 <li>El control de acceso a nivel de objeto (OLAC) ya está disponible para cada configuración de canal, lo que le permite decidir cuál de sus usuarios puede crear o utilizar configuraciones específicas</li>
 <li>Para algunos canales, puede crear configuraciones de canal dirigidas a varias plataformas. Un ejemplo sería una configuración de canal de mensajería en la aplicación que puede dirigirse a una página web, una aplicación de iOS y una aplicación de Android.</li>
 </ul></p>
@@ -91,7 +91,6 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
