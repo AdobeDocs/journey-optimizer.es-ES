@@ -10,9 +10,9 @@ level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
+source-git-commit: 8484c39cf610fc4044e656243eba88deb8c50867
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1326'
 ht-degree: 4%
 
 ---
@@ -173,7 +173,7 @@ Una vez que haya configurado el proyecto de traducción y la configuración de i
 
    * **[!UICONTROL Traducción en curso]**: su proveedor de servicios está trabajando activamente en la traducción.
 
-     Si seleccionó la **traducción interna** al configurar su **configuración de idioma**, puede traducir el contenido directamente en su proyecto de traducción. [Más información](#manage-ht-project)
+     Si seleccionaste **Insourcing** al configurar tu **configuración de idioma**, puedes traducir el contenido directamente en tu proyecto de traducción. [Más información](#manage-ht-project)
 
    * **[!UICONTROL Listo para revisión]**: el proceso de revisión está listo para comenzar, lo que le permite tener acceso a la traducción y rechazarla o aprobarla.
 
@@ -203,11 +203,11 @@ Una vez que haya configurado el proyecto de traducción y la configuración de i
 
 Ahora puede activar la campaña o el recorrido. Una vez enviada, puede medir el impacto del recorrido o la campaña multilingüe dentro de los informes.
 
-## Administrar proyectos de traducción internos {#manage-ht-project}
+## Administrar el abastecimiento de proyectos de traducción {#manage-ht-project}
 
-Si seleccionó la traducción interna al configurar los ajustes de Idioma, puede traducir el contenido directamente en el proyecto de traducción.
+Si seleccionó la opción Abastecimiento al configurar los ajustes de Idioma, puede traducir el contenido directamente en el proyecto de traducción.
 
-1. Desde tu **[!UICONTROL proyecto de traducción]**, accede al menú **[!UICONTROL Más acciones]** y selecciona **[!UICONTROL Traducción interna]**.
+1. Desde tu **[!UICONTROL proyecto de traducción]**, accede al menú **[!UICONTROL Más acciones]** y selecciona **[!UICONTROL Abastecimiento]**.
 
    ![](assets/inhouse-translation-1.png)
 
