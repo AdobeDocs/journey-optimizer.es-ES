@@ -1,0 +1,87 @@
+---
+title: Actualización de un elemento de decisión
+description: Los elementos de decisión son ofertas de marketing que se pueden crear y organizar en colecciones y catálogos.
+feature: Decision Management, API, Collections
+topic: Integrations
+role: Data Engineer
+level: Experienced
+source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 7%
+
+---
+
+
+# Actualización de un elemento de decisión {#update-decision-items}
+
+Puede modificar o actualizar un elemento de decisión realizando una solicitud del PATCH a la API de la biblioteca de ofertas.
+
+Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte la [documentación oficial del parche JSON](http://jsonpatch.com/).
+
+**Encabezados Accept y Content-Type**
+
+En la tabla siguiente se muestran los valores válidos que comprenden los campos Content-Type del encabezado de la solicitud:
+
+| Nombre del encabezado | Valor |
+| ----------- | ----- |
+| Content-Type | `application/json` |
+
+**Formato de API**
+
+```http
+PATCH /{ENDPOINT_PATH}/offer-items/{ID}
+```
+
+| Parámetro | Descripción | Ejemplo |
+| --------- | ----------- | ------- |
+| `{ENDPOINT_PATH}` | Ruta de extremo para las API de persistencia. | `https://platform.adobe.io/data/core/dps` |
+| `{ID}` | El ID de la entidad que desea actualizar. | `offerItem1234` |
+
+**Solicitud**
+
+```shell
+curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-items/offerItem1234' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer  {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}' \
+-H 'x-schema-id: {SCHEMA_ID}' \
+-d '[
+    {
+        "op": "replace",
+        "path": "/_experience/decisioning/decisionitem/itemName",
+        "value": "Updated offer item"
+    },
+    {
+        "op": "replace",
+        "path": "/_experience/decisioning/decisionitem/itemDescription",
+        "value": "Updated offer item description"
+    }
+]'
+```
+
+| Parámetro | Descripción |
+| --------- | ----------- |
+| `value` | El nuevo valor con el que desea actualizar el parámetro. |
+| `path` | Ruta del parámetro que se va a actualizar. |
+| `op` | La llamada de operación utilizada para definir la acción necesaria para actualizar la conexión. Las operaciones incluyen: `add`, `replace`, `remove`, `copy` y `test`. |
+
+**Respuesta**
+
+Una respuesta correcta devuelve los detalles del elemento de decisión recién creado, incluido el ID. Puede utilizar el ID en pasos posteriores para actualizar o eliminar el elemento de decisión.
+
+```json
+{
+    "etag": 2,
+    "createdBy": "{CREATED_BY}",
+    "lastModifiedBy": "{MODIFIED_BY}",
+    "id": "{ID}",
+    "sandboxId": "{SANDBOX_ID}",
+    "createdDate": "2023-05-31T15:09:11.771Z",
+    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
+    "createdByClientId": "{CREATED_CLIENT_ID}",
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+}
+```
