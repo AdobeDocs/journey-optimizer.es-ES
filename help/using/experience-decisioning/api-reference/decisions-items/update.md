@@ -5,10 +5,10 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 7%
+source-wordcount: '137'
+ht-degree: 6%
 
 ---
 
@@ -18,14 +18,6 @@ ht-degree: 7%
 Puede modificar o actualizar un elemento de decisión realizando una solicitud del PATCH a la API de la biblioteca de ofertas.
 
 Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte la [documentación oficial del parche JSON](http://jsonpatch.com/).
-
-**Encabezados Accept y Content-Type**
-
-En la tabla siguiente se muestran los valores válidos que comprenden los campos Content-Type del encabezado de la solicitud:
-
-| Nombre del encabezado | Valor |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **Formato de API**
 
@@ -66,11 +58,11 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-items/offerItem1234
 | --------- | ----------- |
 | `value` | El nuevo valor con el que desea actualizar el parámetro. |
 | `path` | Ruta del parámetro que se va a actualizar. |
-| `op` | La llamada de operación utilizada para definir la acción necesaria para actualizar la conexión. Las operaciones incluyen: `add`, `replace`, `remove`, `copy` y `test`. |
+| `op` | Tipo de operación que se va a realizar. Las operaciones incluyen: `add`, `replace`, `remove`, `copy` y `test`. |
 
 **Respuesta**
 
-Una respuesta correcta devuelve los detalles del elemento de decisión recién creado, incluido el ID. Puede utilizar el ID en pasos posteriores para actualizar o eliminar el elemento de decisión.
+Una respuesta correcta devuelve los detalles del elemento actualizado, incluido el ID. Puede utilizar el ID en pasos posteriores para actualizar o eliminar el elemento de decisión.
 
 ```json
 {

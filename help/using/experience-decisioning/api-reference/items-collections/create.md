@@ -5,10 +5,10 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 9%
+source-wordcount: '80'
+ht-degree: 8%
 
 ---
 
@@ -16,14 +16,6 @@ ht-degree: 9%
 # Crear una colección de elementos {#create-decision-items}
 
 Puede crear una colección de elementos realizando una solicitud del POST a la API de la biblioteca de ofertas.
-
-**Encabezados Accept y Content-Type**
-
-En la tabla siguiente se muestran los valores válidos que comprenden los campos Content-Type del encabezado de la solicitud:
-
-| Nombre del encabezado | Valor |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **Formato de API**
 

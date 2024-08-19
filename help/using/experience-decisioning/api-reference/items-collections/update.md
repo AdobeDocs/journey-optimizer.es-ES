@@ -1,12 +1,14 @@
 ---
 title: Actualizar una colección de elementos
+description: Las colecciones son subconjuntos de ofertas basados en condiciones predefinidas definidas definidas por un experto en marketing, como la categoría de la oferta.
+feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 8%
+source-wordcount: '132'
+ht-degree: 6%
 
 ---
 
@@ -16,14 +18,6 @@ ht-degree: 8%
 Puede modificar o actualizar una colección de elementos realizando una solicitud del PATCH a la API de la biblioteca de ofertas.
 
 Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte la [documentación oficial del parche JSON](http://jsonpatch.com/).
-
-**Encabezados Accept y Content-Type**
-
-En la tabla siguiente se muestran los valores válidos que comprenden los campos Content-Type del encabezado de la solicitud:
-
-| Nombre del encabezado | Valor |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **Formato de API**
 

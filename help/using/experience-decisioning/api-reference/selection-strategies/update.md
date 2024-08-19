@@ -1,12 +1,14 @@
 ---
 title: Actualizar estrategias de selección
+description: Las estrategias de selección consisten en colecciones asociadas con restricciones y métodos de clasificación para determinar ofertas.
+feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 8%
+source-wordcount: '127'
+ht-degree: 7%
 
 ---
 
@@ -16,14 +18,6 @@ ht-degree: 8%
 Puede modificar o actualizar una estrategia de selección realizando una solicitud del PATCH a la API de la biblioteca de ofertas.
 
 Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte la [documentación oficial del parche JSON](http://jsonpatch.com/).
-
-**Encabezados Accept y Content-Type**
-
-En la tabla siguiente se muestran los valores válidos que comprenden los campos Content-Type del encabezado de la solicitud:
-
-| Nombre del encabezado | Valor |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **Formato de API**
 

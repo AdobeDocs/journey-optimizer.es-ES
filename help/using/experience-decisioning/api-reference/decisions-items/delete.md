@@ -5,17 +5,17 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 5%
+source-wordcount: '112'
+ht-degree: 6%
 
 ---
 
 
 # Eliminación de un elemento de decisión {#delete-decision-item}
 
-En ocasiones puede ser necesario eliminar (DELETE) un elemento de decisión. Para ello, realice una solicitud del DELETE a la API de la biblioteca de ofertas utilizando el ID del elemento de decisión que desee eliminar.
+Para eliminar un elemento de decisión, realice una solicitud de DELETE a la API de la biblioteca de ofertas con el ID del elemento de decisión que desea eliminar.
 
 **Formato de API**
 

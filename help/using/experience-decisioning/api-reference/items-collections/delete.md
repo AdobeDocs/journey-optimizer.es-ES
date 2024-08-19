@@ -1,14 +1,14 @@
 ---
 title: Eliminar una colección de elementos
-description: Las colecciones le permiten categorizar y agrupar elementos de decisión según sus preferencias.
+description: Aprenda a categorizar las decisiones de grupo en colecciones.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dc47e2835379fbb2afb768beea6e4a1596f70ee9
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 5%
+source-wordcount: '116'
+ht-degree: 6%
 
 ---
 

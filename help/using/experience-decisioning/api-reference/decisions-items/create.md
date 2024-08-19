@@ -1,14 +1,14 @@
 ---
-title: Creación de un elemento de decisión
-description: Los elementos de decisión son ofertas de marketing que se pueden crear y organizar en colecciones y catálogos.
+title: Crear un elemento de decisión
+description: Obtenga información sobre cómo crear un elemento de decisión mediante la API de biblioteca de ofertas.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 9%
+source-wordcount: '79'
+ht-degree: 8%
 
 ---
 
@@ -16,14 +16,6 @@ ht-degree: 9%
 # Creación de un elemento de decisión {#create-decision-items}
 
 Puede crear un elemento de decisión realizando una solicitud del POST a la API de la biblioteca de ofertas.
-
-**Encabezados Accept y Content-Type**
-
-En la tabla siguiente se muestran los valores válidos que comprenden los campos Content-Type del encabezado de la solicitud:
-
-| Nombre del encabezado | Valor |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **Formato de API**
 
@@ -68,7 +60,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-items' \
         }
     },
     "_<imsOrg>": {
-        "some_field": "some value"
+        "foo": "bar"
     }
 }'
 ```
