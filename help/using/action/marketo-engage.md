@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: integración de marketo, marketo engage
-source-git-commit: 6a49f4b2e0220b1c875b42f70dcb44f3405c6ad2
+source-git-commit: 8a8741281edafb812f92ebb8da6dd68d3535f3e1
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -37,17 +37,17 @@ Empiece con un recorrido de integración de datos perfecta con Marketo Engage. E
 * En la lista Acciones, haga clic en Crear acción. Obtenga más información sobre la creación de acciones personalizadas aquí (+vínculo)
 * Introduzca el nombre, la descripción y seleccione Adobe Marketo Engage como tipo de acción
 
-![](assets/engage-customaction-creation.png)
+![](assets/engage-customaction-creation.png){width="40%" align="left"}
 
 * Haga clic en Editar carga para sus cargas de **Solicitud** y **Respuesta**.
 * Para ambos, componga la carga útil y péguela en la ventana emergente dedicada.
 
-![](assets/engage-customaction-payload.png)
+![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
 * Inspect y configuración de valores de carga útil
 Nota: Para pasar valores dinámicamente, cambie **Constant** a **Variable** para cada campo.
 
-![](assets/engage-customaction-payload-fields.png)
+![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 
 * Haga clic en **Guardar** en la ventana de configuración del campo y, a continuación, **Guardar** para la acción personalizada.
 
@@ -114,5 +114,5 @@ Ahora puede utilizar la acción personalizada en el lienzo dedicado.
 * Arrastre la acción personalizada al lienzo de recorrido. (Consulte cómo utilizar una acción/vínculo personalizado)
 * En Parámetros de solicitud, haga clic en Editar para cada uno de los parámetros con valores dinámicos que haya configurado en la carga útil.
 
-![](assets/engage-use-canvas.png)
+![](assets/engage-use-canvas.png){width="70%" align="left"}
 
