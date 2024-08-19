@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 9add1b2a5f6941773416daea2366f58851a6028a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1889'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,10 +61,10 @@ ht-degree: 99%
       + [Introducción a actividades de recorrido](using/building-journeys/about-journey-activities.md)
       + [Eventos generales](using/building-journeys/general-events.md)
       + [Reacción](using/building-journeys/reaction-events.md)
-      + [Calificación del público](using/building-journeys/audience-qualification-events.md)
+      + [Calificación de público](using/building-journeys/audience-qualification-events.md)
       + [Condición](using/building-journeys/condition-activity.md)
       + [Espera](using/building-journeys/wait-activity.md)
-      + [Lectura de público](using/building-journeys/read-audience.md)
+      + [Público de lectura](using/building-journeys/read-audience.md)
       + [Correo electrónico, en la aplicación, push, SMS](using/building-journeys/journeys-message.md)
       + [Acciones personalizadas](using/building-journeys/using-custom-actions.md)
       + [Acciones de Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)

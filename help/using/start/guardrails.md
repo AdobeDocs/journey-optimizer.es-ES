@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: aa69046bde7ea5862fb507695d12584939fae9f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2239'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Sin embargo, según el contrato de licencia, puede delegar hasta 100 subdominios
 
 ### Acciones personalizadas {#custom-actions-g}
 
-* Se define un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas, por host y por zona protegida. Consulte [esta página](../action/about-custom-action-configuration.md). Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Debe tenerlo en cuenta en los recorridos basados en audiencias definiendo una tasa de lectura adecuada (5000 perfiles/s cuando se utilizan acciones personalizadas). Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción. Consulte [esta página](../configuration/external-systems.md).
+* Se define un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas, por host y por zona protegida. Consulte [esta página](../action/about-custom-action-configuration.md). Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Debe tenerlo en cuenta en los recorridos basados en públicos definiendo una tasa de lectura adecuada (5000 perfiles cuando se utilizan acciones personalizadas). Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción. Consulte [esta página](../configuration/external-systems.md).
 * La URL de acción personalizada no admite parámetros dinámicos.
 * Se admiten los métodos POST, PUT y llamada de GET
 * El nombre del parámetro de consulta o del encabezado no debe comenzar con &quot;.&quot; o &quot;$&quot;
@@ -95,7 +95,7 @@ Sin embargo, según el contrato de licencia, puede delegar hasta 100 subdominios
 * Las acciones personalizadas solo admiten el formato JSON cuando se utilizan cargas útiles de solicitud o respuesta. Consulte [esta página](../action/about-custom-action-configuration.md#custom-actions-limitations).
 * Al elegir un extremo como destino mediante una acción personalizada, asegúrese de lo siguiente:
 
-   * Este extremo puede admitir el rendimiento del recorrido mediante las configuraciones de la [API de límite](../configuration/throttling.md) o la [API de cierre](../configuration/capping.md) para limitarlo. Tenga cuidado ya que una configuración de limitación no puede estar por debajo de 200 TPS. Cualquier punto de conexión objetivo debe admitir al menos 200 TPS.
+   * Este extremo puede admitir el rendimiento del recorrido mediante las configuraciones de la [API de límite](../configuration/throttling.md) o la [API de cierre](../configuration/capping.md) para limitarlo. Tenga cuidado ya que una configuración de limitación no puede estar por debajo de 200 TPS. Cualquier extremo segmentado debe admitir al menos 200 TPS.
    * Este extremo necesita tener un tiempo de respuesta lo más bajo posible. Según el rendimiento esperado, tener un tiempo de respuesta alto podría afectar al rendimiento real.
 
 ### Eventos {#events-g}
@@ -103,7 +103,7 @@ Sin embargo, según el contrato de licencia, puede delegar hasta 100 subdominios
 * En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido del cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este ID de orquestación debe añadirse a la carga útil de streaming que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
 * Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de público.
 * Los recorridos unitarios (que se inician con un evento o una calificación de público) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante cinco minutos. Por ejemplo, si un evento activa un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
-* Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Eventos consumidos por lotes o eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento del correo electrónico, etc.) no se puede usar para activar un recorrido. Para los casos de uso en los que no pueda obtener eventos de flujo continuo, debe generar una audiencia basada en esos eventos y usar la actividad **Leer audiencia** en su lugar. Técnicamente, la calificación de audiencia puede utilizarse, pero no se recomienda, ya que puede provocar desafíos descendentes en función de las acciones utilizadas.
+* Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Eventos consumidos por lotes o eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento del correo electrónico, etc.) no se puede usar para activar un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere un público basado en dichos eventos y utilice la actividad **Público de lectura** en su lugar. Técnicamente, la calificación del público puede utilizarse, pero no se recomienda porque puede provocar problemas posteriores en función de las acciones utilizadas.
 
 
 ### Fuentes de datos {#data-sources-g}
@@ -129,31 +129,31 @@ Puede elegir entre una de estas dos soluciones:
 
 ### Actualización de perfil {#update-profile-g}
 
-Se aplican protecciones específicas a la actividad **[!UICONTROL Actualizar perfil]**. Están listados en [esta página](../building-journeys/update-profiles.md).
+Se aplican mecanismos de protección específicos a la actividad **[!UICONTROL Actualizar perfil]**. Se muestran [en esta página](../building-journeys/update-profiles.md).
 
 
-### Lectura de público {#read-segment-g}
+### Público de lectura {#read-segment-g}
 
-Las siguientes limitaciones se aplican a la actividad **[!UICONTROL Leer audiencia]**:
+Las siguientes limitaciones se aplican a la actividad **[!UICONTROL Público de lectura]**:
 
 * Los públicos transmitidos siempre están actualizados, pero los públicos por lotes no se calcularán en el momento de la recuperación. Solo se evalúan cada día a la hora de evaluar el lote.
 * Para los recorridos que utilizan la actividad Leer público, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con Leer público, programados o que se inicien “lo antes posible”) que empiecen al mismo tiempo. Para ello, repártalos a lo largo del tiempo, por ejemplo, en intervalos de 5 y 10 minutos.
-* La actividad Leer audiencia no se puede usar con actividades de Adobe Campaign.
-* La actividad Leer audiencia solo puede utilizarse como primera actividad en un recorrido, o después de una actividad de evento empresarial.
-* Un recorrido solo puede tener una actividad Leer audiencia.
-* Vea también recomendaciones acerca de cómo usar la actividad Leer audiencia en [esta página](../building-journeys/read-audience.md).
+* La actividad Público de lectura no se puede utilizar con actividades de Adobe Campaign.
+* La actividad Público de lectura solo puede utilizarse como primera actividad en un recorrido o después de una actividad de evento empresarial.
+* Un recorrido solo puede tener una actividad Público de lectura.
+* Vea también recomendaciones acerca de cómo usar la actividad Público de lectura en [esta página](../building-journeys/read-audience.md).
 
 
-### Calificación del público {#audience-qualif-g}
+### Calificación de público {#audience-qualif-g}
 
-La siguiente protección se aplica a la actividad **[!UICONTROL Calificación de audiencias]**:
+El siguiente mecanismo de protección se aplica a la actividad **[!UICONTROL Calificación de público]**:
 
-* La actividad de calificación de audiencia no se puede usar con actividades de Adobe Campaign.
+* La actividad de calificación de público no se puede utilizar con actividades de Adobe Campaign.
 
 
 ### Editor de expresiones {#expression-editor}
 
-* Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen con Leer público, Calificación de público o una actividad de evento empresarial. Debe crear una audiencia nueva y utilizar una condición dentro de la audiencia en el recorrido.
+* Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen con Leer público, Calificación de público o una actividad de evento empresarial. Debe crear un público nuevo y utilizar una condición dentro del público en el recorrido.
 
 
 ### Actividad en la aplicación {#in-app-activity-limitations}
@@ -164,7 +164,7 @@ La siguiente protección se aplica a la actividad **[!UICONTROL Calificación de
 
 * La actividad en la aplicación no se puede utilizar con actividades de Adobe Campaign.
 
-* La visualización en la aplicación está ligada a la duración del recorrido, lo que significa que cuando el recorrido termina para un perfil, todos los mensajes en la aplicación dentro de ese recorrido dejan de mostrarse para ese perfil.  Por lo tanto, no es posible detener un mensaje en la aplicación directamente desde una actividad de recorrido. En su lugar, debe finalizar todo el recorrido para evitar que los mensajes en la aplicación se muestren en el perfil.
+* La visualización en la aplicación está ligada a la duración del recorrido, lo que significa que cuando el recorrido termina para un perfil, todos los mensajes en la aplicación dentro de ese recorrido dejan de mostrarse para ese perfil.  Por lo tanto, no es posible detener un mensaje en la aplicación directamente desde una actividad de recorrido. En su lugar, deberá finalizar todo el recorrido para que los mensajes en la aplicación no se muestren en el perfil.
 
 * En el modo de prueba, la visualización en la aplicación depende de la duración del recorrido. Para evitar que el recorrido termine demasiado pronto durante la prueba, ajuste el valor **[!UICONTROL Tiempo de espera]** para sus actividades de **[!UICONTROL Espera]**.
 
@@ -180,14 +180,14 @@ La siguiente protección se aplica a la actividad **[!UICONTROL Calificación de
 
 ### Actividad de salto {#jump-g}
 
-Se aplican protecciones específicas a la actividad **[!UICONTROL Jump]**. Están listados en [esta página](../building-journeys/jump.md#jump-limitations).
+Especifique protecciones específicas de la actividad **[!UICONTROL Saltar]**. Se muestran [en esta página](../building-journeys/jump.md#jump-limitations).
 
 ### Actividades de campaña {#ac-g}
 
-Las siguientes protecciones se aplican a las actividades **[!UICONTROL Campaign v7/v8]** y **[!UICONTROL Campaign Standard]**:
+Los siguientes mecanismos de protección se aplican a las actividades **[!UICONTROL Campaign v7/v8]** y **[!UICONTROL Campaign Standard]**:
 
-* Las actividades de Adobe Campaign no se pueden usar con una audiencia de lectura o una actividad de calificación de audiencia.
-* Estas actividades no se pueden usar con actividades en la aplicación.
+* Las actividades de Adobe Campaign no se pueden utilizar con un público de lectura o una actividad de calificación de público.
+* Estas actividades no se pueden utilizar con actividades en la aplicación.
 
 ## Mecanismos de protección de gestión de decisiones {#decision-management}
 
