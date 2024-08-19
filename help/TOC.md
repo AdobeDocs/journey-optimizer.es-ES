@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3f6d1026d78584e21e03d3ef5c1bc37b59168176
+source-git-commit: 0cf6fb4eaf72a1a54c7e6253a11fca66692cee84
 workflow-type: tm+mt
 source-wordcount: '1942'
 ht-degree: 97%
@@ -542,21 +542,21 @@ ht-degree: 97%
          + Elementos de decisión{#decision-items}
             + [Creación de elementos de decisión](using/experience-decisioning/api-reference/decisions-items/create.md)
             + [Lista de elementos de decisión](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
-            + [Eliminar elementos de decisión](/help/using/experience-decisioning/api-reference/decisions-items/delete.md)
-            + [Buscar elementos de decisión](/help/using/experience-decisioning/api-reference/decisions-items/lookup.md)
-            + [Actualizar elementos de decisión](/help/using/experience-decisioning/api-reference/decisions-items/update.md)
+            + [Eliminar elementos de decisión](using/experience-decisioning/api-reference/decisions-items/delete.md)
+            + [Buscar elementos de decisión](using/experience-decisioning/api-reference/decisions-items/lookup.md)
+            + [Actualizar elementos de decisión](using/experience-decisioning/api-reference/decisions-items/update.md)
          + Colecciones de elementos{#items-collections}
-            + [Crear colecciones de elementos](/help/using/experience-decisioning/api-reference/items-collections/create.md)
-            + [Eliminar colecciones de elementos](/help/using/experience-decisioning/api-reference/items-collections/delete.md)
-            + [Lista de colecciones de elementos](/help/using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
-            + [Colecciones de elementos de búsqueda](/help/using/experience-decisioning/api-reference/items-collections/lookup.md)
-            + [Actualizar colecciones de elementos](/help/using/experience-decisioning/api-reference/items-collections/update.md)
+            + [Crear colecciones de elementos](using/experience-decisioning/api-reference/items-collections/create.md)
+            + [Eliminar colecciones de elementos](using/experience-decisioning/api-reference/items-collections/delete.md)
+            + [Lista de colecciones de elementos](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
+            + [Colecciones de elementos de búsqueda](using/experience-decisioning/api-reference/items-collections/lookup.md)
+            + [Actualizar colecciones de elementos](using/experience-decisioning/api-reference/items-collections/update.md)
          + Estrategias de selección{#selection-strategies}
-            + [Creación de estrategias de selección](/help/using/experience-decisioning/api-reference/selection-strategies/create.md)
-            + [Eliminar estrategias de selección](/help/using/experience-decisioning/api-reference/selection-strategies/delete.md)
-            + [Buscar estrategias de selección](/help/using/experience-decisioning/api-reference/selection-strategies/lookup.md)
-            + [Lista de estrategias de selección](/help/using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
-            + [Actualizar estrategias de selección](/help/using/experience-decisioning/api-reference/selection-strategies/update.md)
+            + [Creación de estrategias de selección](using/experience-decisioning/api-reference/selection-strategies/create.md)
+            + [Eliminar estrategias de selección](using/experience-decisioning/api-reference/selection-strategies/delete.md)
+            + [Buscar estrategias de selección](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+            + [Lista de estrategias de selección](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
+            + [Actualizar estrategias de selección](using/experience-decisioning/api-reference/selection-strategies/update.md)
       + Administrar elementos de decisión {#decision-items}
          + [Configuración del catálogo de elementos](using/experience-decisioning/catalogs.md)
          + [Creación de elementos de decisión](using/experience-decisioning/items.md)
