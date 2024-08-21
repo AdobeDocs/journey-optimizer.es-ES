@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '4806'
-ht-degree: 23%
+source-wordcount: '4851'
+ht-degree: 22%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 23%
 >id="ajo_campaign_global_report"
 >title="Informe global de la campaña"
 >abstract="El informe global de campaña permite medir el impacto de las campañas durante un período de tiempo seleccionado. El informe se divide en distintos widgets que detallan el éxito y los errores de la campaña. Cada tablero de informes se puede modificar cambiando el tamaño de los widgets o eliminándolos."
+
+>[!AVAILABILITY]
+>
+>La experiencia actual de creación de informes se eliminará a partir de la versión de octubre. Después de esta fecha, la nueva experiencia de creación de informes se convertirá en el estándar. Recomendamos que se familiarice con las nuevas funciones y características para garantizar una transición sin problemas. [Introducción a la nueva interfaz de informes de Journey Optimizer.](report-gs-cja.md)
 
 Los informes globales, a los que se puede acceder desde la ficha **Todo el tiempo**, muestran los eventos que se produjeron hace al menos dos horas y cubren los eventos que se produjeron durante un período de tiempo seleccionado. En comparación, los informes en directo se centran en los eventos que han tenido lugar en las últimas 24 horas, con un intervalo de tiempo mínimo de dos minutos desde que se produjo el evento.
 

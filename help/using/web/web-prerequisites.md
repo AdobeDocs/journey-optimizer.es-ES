@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1159'
 ht-degree: 2%
 
 ---
@@ -35,13 +35,13 @@ Para poder acceder y crear páginas web en la interfaz de usuario de [!DNL Journ
 
 ## Requisitos previos de implementación {#implementation-prerequisites}
 
-Actualmente se admiten dos tipos de implementaciones para habilitar la creación y el envío de campañas de canal web en las propiedades web:
+Se admiten dos tipos de implementaciones para habilitar la creación y el envío de campañas de canal web en las propiedades web:
 
 * Solo del lado del cliente: para agregar modificaciones al sitio web, debe implementar el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"} en el sitio web.
 
   >[!NOTE]
   >
-  >Asegúrese de que la versión del SDK web de AEP sea 2.16 o superior.
+  >Compruebe que la versión del SDK web de [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/release-notes){target="_blank"} sea la 2.16 o superior.
 
 * Modo híbrido: puede utilizar la [API de servidor Edge Network de AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} para solicitar la personalización del lado del servidor; la respuesta se proporciona al SDK web de Adobe Experience Platform para procesar las modificaciones del lado del cliente. Obtenga más información en la [documentación de la API de Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"} de Adobe Experience Platform. Puede obtener más información sobre el modo híbrido y ver algunos ejemplos de implementación en [esta publicación de blog](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 

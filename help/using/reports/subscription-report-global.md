@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
-source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 19%
+source-wordcount: '308'
+ht-degree: 16%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 19%
 >id="ajo_subscription_global_report"
 >title="Informe global de la suscripción"
 >abstract="El informe global de suscripción permite medir y visualizar la actividad de sus suscriptores durante un período de tiempo seleccionado. El informe se divide en distintos widgets que detallan las subscripciones y las cancelaciones de subscripciones. Cada tablero de informes se puede modificar cambiando el tamaño de los widgets o eliminándolos."
+
+>[!AVAILABILITY]
+>
+>La experiencia actual de creación de informes se eliminará a partir de la versión de octubre. Después de esta fecha, la nueva experiencia de creación de informes se convertirá en el estándar. Recomendamos que se familiarice con las nuevas funciones y características para garantizar una transición sin problemas. [Introducción a la nueva interfaz de informes de Journey Optimizer.](report-gs-cja.md)
 
 Los informes globales, a los que se puede acceder desde la pestaña Todo el tiempo, muestran los eventos que se produjeron hace al menos dos horas y cubren los eventos de un periodo de tiempo seleccionado. En comparación, los informes en directo se centran en los eventos que han tenido lugar en las últimas 24 horas, con un intervalo de tiempo mínimo de dos minutos desde que se produjo el evento.
 

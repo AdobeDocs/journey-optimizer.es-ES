@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 51924e403741829f068675eaa94ccbd63cc2b206
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '3170'
+source-wordcount: '3352'
 ht-degree: 100%
 
 ---
@@ -18,6 +18,58 @@ ht-degree: 100%
 # Notas de la versión de 2024 {#release-notes-2024}
 
 Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] lanzadas en 2024.
+
+
+## Notas de la versión de julio de 2024 {#24-7-2024}
+
+**Fecha de la versión**: 30-31 de julio de 2024
+
+### Nuevas funciones {#27-4-features}
+
+Esta versión incorpora las nuevas funciones que se enumeran a continuación.
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal de SMS con cualquier proveedor (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede configurar proveedores de SMS adicionales en Journey Optimizer, además de los proveedores predeterminados Sinch, Infobip y Twilio.</p>
+<img src="assets/do-not-localize/byo_sms.gif"/>
+<p>Para obtener más información, consulte la <a href="../sms/sms-configuration-custom.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Composición de público federado (disponibilidad limitada)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La composición de público federado ya está disponible en Adobe Journey Optimizer. Permite a las empresas componer datos para una mejor utilización en varios casos de uso. Con este nuevo enfoque, como usuario de Adobe Real-time Customer Data Platform y/o Adobe Journey Optimizer, puede federar conjuntos de datos directamente desde su almacén de datos existente para generar y enriquecer públicos y atributos de Adobe Experience Platform en un solo sistema.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/es/docs/federated-audience-composition/using/home"  target="_blank">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Mejoras {#27-4-improvements}
+
+Esta versión incorpora las mejoras que se enumeran a continuación.
+
+**Recorridos**
+
+* (Fecha de disponibilidad: 8 de julio) **Editor de expresiones avanzadas de la configuración de eventos del recorrido**: ahora puede aprovechar el editor de expresiones avanzadas mientras configura un evento, lo que le permite definir expresiones más complejas o utilizar funciones en la condición de ID de evento. [Más información](../event/about-creating.md#adv-exp-editor)
+
+
 
 ## Notas de la versión de junio de 2024 {#24-6-2024}
 

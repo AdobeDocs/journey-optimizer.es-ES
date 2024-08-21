@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: solución de problemas, solución de problemas, recorrido, comprobación, errores
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 63%
+source-wordcount: '957'
+ht-degree: 53%
 
 ---
 
@@ -24,25 +24,37 @@ En esta sección, aprenderá a solucionar problemas de recorridos antes de reali
 
 Antes de probar y publicar el recorrido, compruebe que todas las actividades estén correctamente configuradas. No puede realizar pruebas ni publicaciones si el sistema sigue detectando errores.
 
-Los errores aparecen con un símbolo de advertencia en las mismas actividades del lienzo. Coloque el cursor en el signo de exclamación para mostrar el mensaje de error. Si hace clic en la actividad, debería ver la línea por error con una advertencia. Por ejemplo, si un campo obligatorio está vacío, se mostrará un error.
 
-![](assets/journey63.png)
+### Errores en las actividades {#activity-errors}
 
-Por ejemplo, cuando se desconectan dos actividades, se muestra una advertencia en el lienzo.
+Los errores aparecen con un símbolo de advertencia en las mismas actividades del lienzo. Coloque el cursor en el signo de exclamación para mostrar el mensaje de error. Si hace clic en la actividad, debería ver la línea por error con una advertencia. Por ejemplo:
 
-![](assets/canvas-disconnected.png)
+* si un campo obligatorio está vacío, se mostrará un error
 
-Junto al botón **[!UICONTROL Test]** y el botón **[!UICONTROL Publish]**, se puede mostrar un signo de advertencia. Este signo de advertencia muestra los errores detectados por el sistema y evita la activación del modo de prueba o la publicación del recorrido. La mayoría de las veces, los errores detectados por el sistema están vinculados a errores visibles en las actividades, pero a veces están vinculados a otros problemas. En este caso, puede mostrarlos e intentar identificar el problema mediante la descripción del error. Si no puede identificar el problema, puede copiar los detalles y enviarlos al administrador o a la asistencia técnica. Tenga en cuenta que los errores que bloquean la prueba y los errores que bloquean la publicación son similares.
+  ![](assets/journey63.png)
 
-El sistema detecta dos tipos de problemas: errores y advertencias. Los errores bloquean la publicación y la activación de prueba. Las advertencias indican posibles problemas que no bloquean la activación o publicación de pruebas. Verá una descripción de la publicación y un ID de registro de la publicación del tipo ERR_XXX_XXX. Esto ayudará al soporte técnico a identificar el problema.
+* en el lienzo, cuando se desconectan dos actividades, se muestra una advertencia
 
-Se pueden mostrar dos colores diferentes en el signo situado junto al botón **[!UICONTROL Test]** y el botón **[!UICONTROL Publish]**. El signo se muestra en rojo en caso de error. Se muestra en color naranja en caso de advertencias.
+  ![](assets/canvas-disconnected.png)
 
-![](assets/journey75.png)
+### Errores en el recorrido {#canvas-errors}
 
-Los errores y las advertencias que son globales para el recorrido aparecen primero en la lista. Los errores y las advertencias relacionados con actividades específicas se enumeran después, por orden de actividad o por su apariencia en el recorrido de izquierda a derecha. El botón **[!UICONTROL Copiar detalles]** copia información técnica sobre el recorrido que el equipo de soporte técnico puede usar para solucionar problemas.
+Los errores también se pueden ver desde el botón **[!UICONTROL Alertas]** situado sobre el lienzo. Este botón permite ver los errores detectados por el sistema y que impiden la activación del modo de prueba o la publicación del recorrido.
 
-Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera de continuar es marcar la casilla **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
+El sistema detecta dos tipos de problemas: **errores** y **advertencias**. Los errores bloquean la publicación y la activación de prueba. Las advertencias indican posibles problemas que no bloquean la activación o publicación de pruebas. Verá una descripción de la publicación y un ID de registro de la publicación del tipo ERR_XXX_XXX. Esto puede ayudar a identificar el problema.
+
+![](assets/journey-error-and-warning.png)
+
+<!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
+
+Los errores y las advertencias que son globales para el recorrido aparecen primero en la lista. Los errores y las advertencias relacionados con actividades específicas se enumeran después, por orden de actividad o por su apariencia en el recorrido de izquierda a derecha. En la parte inferior de la lista de alertas, el botón **[!UICONTROL Copiar detalles]** le permite copiar información técnica sobre el recorrido que resulta útil para solucionar los problemas.
+
+### Añadir una ruta alternativa {#canvas-add-path}
+
+Puede definir una acción de reserva en caso de error en las siguientes actividades de recorrido: **[!UICONTROL Condición]** y **[!UICONTROL Acción]**.
+
+Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera de continuar es resolver el problema. Para evitar interrumpir el recorrido, también puede marcar la opción **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]** en las propiedades de la actividad. Obtenga más información en [esta sección](../building-journeys/using-the-journey-designer.md#paths).
+
 
 ## Compruebe que los eventos se envían correctamente {#checking-that-events-are-properly-sent}
 

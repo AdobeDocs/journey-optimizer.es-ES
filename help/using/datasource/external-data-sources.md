@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externo, fuentes, datos, configuración, conexión, terceros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 60%
+source-wordcount: '1535'
+ht-degree: 49%
 
 ---
 
@@ -102,7 +102,7 @@ En el caso de una llamada de GET que requiera parámetros, ingrese los parámetr
 * enumera los parámetros que se pasarán en el momento de la llamada en el campo **[!UICONTROL Valores dinámicos]** (en el ejemplo siguiente: &quot;identificador&quot;).
 * Especificarlos también con la misma sintaxis en el cuerpo de la carga útil enviada. Para ello, debe agregar: &quot;param&quot;: &quot;nombre del parámetro&quot; (en el ejemplo siguiente: &quot;identificador&quot;). Siga esta sintaxis:
 
-  ```
+  ```json
   {"id":{"param":"identifier"}}
   ```
 
@@ -141,28 +141,28 @@ Con esta autenticación, la ejecución de la acción es un proceso de dos pasos:
 
 ### Definición del extremo al que se va a llamar para generar el token de acceso{#custom-authentication-endpoint}
 
-* extremo: dirección URL que se utilizará para generar el extremo
-* método de la petición HTTP en el extremo (GET o POST)
-* encabezados: pares clave-valor que se insertarán como encabezados en esta llamada, si es necesario
-* cuerpo: describe el cuerpo de la llamada si el método es POST. Apoyamos una estructura de cuerpo limitada, definida en bodyParams (pares clave-valor). bodyType describe el formato y la codificación del cuerpo en la llamada:
-   * &#39;form&#39;: lo que significa que el tipo de contenido será application/x-www-form-urlencoded (charset UTF-8) y que los pares clave-valor se serializarán tal cual: key1=value1&amp;key2=value2&amp;...
-   * &#39;json&#39;: lo que significa que el tipo de contenido será application/json (charset UTF-8) y que los pares clave-valor se serializarán como un objeto json tal cual: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+* `endpoint`: dirección URL que se utilizará para generar el extremo
+* método de la petición HTTP en el extremo (`GET` o `POST`)
+* `headers`: pares clave-valor que se insertarán como encabezados en esta llamada si es necesario
+* `body`: describe el cuerpo de la llamada si el método es POST. Apoyamos una estructura de cuerpo limitada, definida en bodyParams (pares clave-valor). bodyType describe el formato y la codificación del cuerpo en la llamada:
+   * `form`: lo que significa que el tipo de contenido será application/x-www-form-urlencoded (charset UTF-8) y que los pares clave-valor se serializarán tal cual: key1=value1&amp;key2=value2&amp;...
+   * `json`: lo que significa que el tipo de contenido será application/json (charset UTF-8) y que los pares clave-valor se serializarán como un objeto json tal cual: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 ### Definición de la forma en que se debe insertar el token de acceso en la petición HTTP de la acción{#custom-authentication-access-token}
 
-* authorizationType: define cómo se debe insertar el token de acceso generado en la llamada HTTP para la acción. Los valores posibles son:
+* **authorizationType**: define cómo se debe insertar el token de acceso generado en la llamada HTTP para la acción. Los valores posibles son:
 
-   * bearer: indica que el token de acceso debe inyectarse en el encabezado Autorización, como: _Autorización: Bearer &lt;token de acceso>_
-   * header: indica que el token de acceso debe insertarse como encabezado, el nombre del encabezado definido por la propiedad tokenTarget. Por ejemplo, si el tokenTarget es myHeader, el token de acceso se insertará como un encabezado como: _myHeader: &lt;token de acceso>_
-   * queryParam: indica que el token de acceso debe insertarse como queryParam, el nombre del parámetro de consulta definido por la propiedad tokenTarget. Por ejemplo, si tokenTarget es myQueryParam, la dirección URL de la llamada de acción será: _&lt;url>?myQueryParam=&lt;token de acceso>_
+   * `bearer`: indica que el token de acceso debe inyectarse en el encabezado Autorización, como: _Autorización: Portador &lt;token de acceso>_
+   * `header`: indica que el token de acceso debe insertarse como encabezado, el nombre del encabezado definido por la propiedad `tokenTarget`. Por ejemplo, si `tokenTarget` es `myHeader`, el token de acceso se insertará como un encabezado como: _myHeader: &lt;token de acceso>_
+   * `queryParam`: indica que el token de acceso debe insertarse como queryParam, el nombre del parámetro de consulta definido por la propiedad tokenTarget. Por ejemplo, si tokenTarget es myQueryParam, la dirección URL de la llamada de acción será: _&lt;url>?myQueryParam=&lt;token de acceso>_
 
-* tokenInResponse: indica cómo extraer el token de acceso de la llamada de autenticación. Esta propiedad puede ser:
-   * &#39;response&#39;: indica que la respuesta HTTP es el token de acceso
+* **tokenInResponse**: indica cómo extraer el token de acceso de la llamada de autenticación. Esta propiedad puede ser:
+   * `response`: indica que la respuesta HTTP es el token de acceso
    * un selector en un json (suponiendo que la respuesta es un json, no se admiten otros formatos como XML). El formato de este selector es _json://&lt;ruta a la propiedad token de acceso>_. Por ejemplo, si la respuesta de la llamada es: _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, tokenInResponse será: _json: //access_token_
 
 El formato de esta autenticación es:
 
-```
+```json
 {
     "type": "customAuthorization",
     "endpoint": "<URL of the authentication endpoint>",
@@ -193,15 +193,13 @@ El formato de esta autenticación es:
 >
 >Encode64 es la única función disponible en la carga útil de autenticación.
 
-Puede cambiar la duración de caché del token para una fuente de datos de autenticación personalizada. A continuación se muestra un ejemplo de una carga útil de autenticación personalizada. La duración de caché se define en el parámetro &quot;cacheDuration&quot;. Especifica la duración de retención del token generado en la caché. La unidad puede ser milisegundos, segundos, minutos, horas, días, meses, años.
+Puede cambiar la duración de caché del token para una fuente de datos de autenticación personalizada. A continuación se muestra un ejemplo de una carga útil de autenticación personalizada. La duración de la caché se define en el parámetro `cacheDuration`. Especifica la duración de retención del token generado en la caché. La unidad puede ser milisegundos, segundos, minutos, horas, días, meses, años.
 
 Este es un ejemplo del tipo de autenticación del portador:
 
-```
+```json
 {
-  "authentication": {
     "type": "customAuthorization",
-    "authorizationType": "Bearer",
     "endpoint": "https://<your_auth_endpoint>/epsilon/oauth2/access_token",
     "method": "POST",
     "headers": {
@@ -220,9 +218,8 @@ Este es un ejemplo del tipo de autenticación del portador:
     "cacheDuration": {
       "duration": 5,
       "timeUnit": "minutes"
-    }
-  }
-}
+    },
+  },
 ```
 
 >[!NOTE]
@@ -234,11 +231,9 @@ Este es un ejemplo del tipo de autenticación del portador:
 
 Este es un ejemplo del tipo de autenticación de encabezado:
 
-```
+```json
 {
   "type": "customAuthorization",
-  "authorizationType": "header",
-  "tokenTarget": "x-auth-token",
   "endpoint": "https://myapidomain.com/v2/user/login",
   "method": "POST",
   "headers": {
@@ -255,13 +250,15 @@ Este es un ejemplo del tipo de autenticación de encabezado:
   "cacheDuration": {
     "expiryInResponse": "json://expiryDuration",
     "timeUnit": "minutes"
-  }
-}
+  },
+  "authorizationType": "header",
+  "tokenTarget": "x-auth-token"
+} 
 ```
 
 A continuación, se muestra un ejemplo de la respuesta de la llamada de API de inicio de sesión:
 
-```
+```json
 {
   "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S",
   "expiryDuration" : 5

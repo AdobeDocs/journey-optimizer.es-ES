@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: actividad, condición, lienzo, recorrido
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1493'
 ht-degree: 17%
 
 ---
@@ -74,7 +74,7 @@ En el editor simple, también encontrará la categoría Propiedades del Recorrid
 
 ## Condición de Data Source {#data_source_condition}
 
-Esto permite definir una condición basada en campos de las fuentes de datos o en los eventos colocados anteriormente en el recorrido. Aprenda a utilizar el editor de expresiones en [esta sección](expression/expressionadvanced.md).
+Use una **[!UICONTROL condición de Data Source]** para definir una condición basada en los campos de las fuentes de datos o en los eventos previamente colocados en el recorrido. Este tipo de condición se define con el editor de expresiones. Aprenda a utilizar el editor de expresiones en [esta sección](expression/expressionadvanced.md).
 
 Por ejemplo, si va a segmentar una audiencia con atributos de enriquecimiento generados mediante un flujo de trabajo de composición o una carga personalizada (archivo CSV), puede aprovechar estos atributos de enriquecimiento para crear la condición.
 
@@ -82,13 +82,15 @@ Con el editor de expresiones avanzadas, puede configurar condiciones más avanza
 
 ![](assets/journey50.png)
 
-## Condición de tiempo{#time_condition}
+## Condición de tiempo {#time_condition}
 
-Esto le permite realizar diferentes acciones según la hora del día y/o el día de la semana. Por ejemplo, puede decidir enviar notificaciones push durante el día y correos electrónicos por la noche durante los días laborables.
+Use una **[!UICONTROL condición horaria]** para realizar diferentes acciones según la hora del día o el día de la semana. Por ejemplo, puede decidir enviar notificaciones push durante el día y correos electrónicos por la noche durante los días laborables.
 
 >[!NOTE]
 >
->La zona horaria no es específica de una condición y se define en el nivel de recorrido en las propiedades del recorrido. Consulte [esta página](../building-journeys/timezone-management.md).
+>* La zona horaria no es específica de una condición y se define en el nivel de recorrido en las propiedades del recorrido. Obtenga más información en [esta página](../building-journeys/timezone-management.md).
+>
+>* De manera predeterminada, la **[!UICONTROL condición horaria]** se establece por hora, de 00:00 a 12:00.
 
 ![](assets/journey51.png)
 

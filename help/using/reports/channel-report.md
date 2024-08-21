@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
-source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '3683'
-ht-degree: 27%
+source-wordcount: '3728'
+ht-degree: 26%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 27%
 >id="ajo_channel_level_report"
 >title="Informe de nivel de canal"
 >abstract="Los informes de canal ofrecen una completa descripción general del tráfico y las métricas de participación en todos los canales. Los informes se dividen en diferentes widgets que detallan la campaña y los recorridos de éxito y error. Cada tablero de informes se puede modificar cambiando el tamaño de los widgets o eliminándolos."
+
+>[!AVAILABILITY]
+>
+>La experiencia actual de creación de informes se eliminará a partir de la versión de octubre. Después de esta fecha, la nueva experiencia de creación de informes se convertirá en el estándar. Recomendamos que se familiarice con las nuevas funciones y características para garantizar una transición sin problemas. [Introducción a la nueva interfaz de informes de Journey Optimizer.](report-gs-cja.md)
 
 >[!IMPORTANT]
 >

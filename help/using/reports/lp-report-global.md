@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 10%
+source-wordcount: '578'
+ht-degree: 9%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 10%
 >id="ajo_landing_page_global_report"
 >title="Informe global de la página de aterrizaje"
 >abstract="El informe global de la página de aterrizaje permite medir el impacto de las páginas de aterrizaje durante un período de tiempo seleccionado. El informe se divide en distintos widgets que detallan el éxito y los errores de la página de aterrizaje. Cada tablero de informes se puede modificar cambiando el tamaño de los widgets o eliminándolos."
+
+>[!AVAILABILITY]
+>
+>La experiencia actual de creación de informes se eliminará a partir de la versión de octubre. Después de esta fecha, la nueva experiencia de creación de informes se convertirá en el estándar. Recomendamos que se familiarice con las nuevas funciones y características para garantizar una transición sin problemas. [Introducción a la nueva interfaz de informes de Journey Optimizer.](report-gs-cja.md)
 
 Los informes globales, a los que se puede acceder desde la pestaña Todo el tiempo, muestran los eventos que se produjeron hace al menos dos horas y cubren los eventos de un periodo de tiempo seleccionado. En comparación, los informes en directo se centran en los eventos que han tenido lugar en las últimas 24 horas, con un intervalo de tiempo mínimo de dos minutos desde que se produjo el evento.
 

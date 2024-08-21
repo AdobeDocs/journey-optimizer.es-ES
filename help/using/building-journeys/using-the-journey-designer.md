@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: diseño, lienzo, recorrido, interfaz, arrastrar, soltar
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 5%
@@ -103,7 +103,7 @@ Las actividades de acción de canal le permiten incluir un mensaje diseñado en 
 
 Desde las actividades de acción, utilice acciones personalizadas para enviar mensajes con sistemas de terceros. [Más información sobre las acciones personalizadas](about-journey-activities.md#action-activities).
 
-## Añadir rutas alternativas{#paths}
+## Añadir rutas alternativas {#paths}
 
 Puede definir una acción de reserva en caso de error o tiempo de espera para las siguientes actividades de recorrido: **[!UICONTROL Condición]** y **[!UICONTROL Acción]**.
 

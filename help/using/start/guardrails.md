@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: aa69046bde7ea5862fb507695d12584939fae9f8
-workflow-type: ht
-source-wordcount: '2239'
-ht-degree: 100%
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+workflow-type: tm+mt
+source-wordcount: '2295'
+ht-degree: 97%
 
 ---
 
@@ -44,6 +44,11 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 * Los archivos multimedia para MMS se pueden incluir a través de una dirección URL compatible. Asegúrese de que el archivo multimedia se cargue por separado.
 * Actualmente, la sincronización de comentarios de mensajes no está disponible para MMS.
 * La administración de consentimientos funciona en el nivel de canal SMS para MMS.
+
+### Protecciones del canal web {#web-guardrails}
+
+[!DNL Journey Optimizer] campañas web se dirigen a nuevos perfiles que no se han visto involucrados anteriormente en otros canales. Esto aumentará el recuento total de perfiles atractivos, lo que puede tener implicaciones de costes si se supera el número contractual de perfiles atractivos que ha adquirido. Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+
 
 ## Protecciones de subdominios {#subdomain-guardrails}
 
@@ -174,9 +179,7 @@ El siguiente mecanismo de protección se aplica a la actividad **[!UICONTROL Cal
 
 * El tamaño del contenido del mensaje en la aplicación está limitado a 2 Mb. La inclusión de imágenes grandes puede dificultar el proceso de publicación.
 
-## Protecciones de públicos {#audience}
 
-* Puede publicar hasta 10 composiciones de público en una zona protegida determinada. Si ha alcanzado este umbral, debe eliminar una composición para liberar espacio y publicar una nueva.
 
 ### Actividad de salto {#jump-g}
 
@@ -188,6 +191,10 @@ Los siguientes mecanismos de protección se aplican a las actividades **[!UICONT
 
 * Las actividades de Adobe Campaign no se pueden utilizar con un público de lectura o una actividad de calificación de público.
 * Estas actividades no se pueden utilizar con actividades en la aplicación.
+
+## Protecciones de públicos {#audience}
+
+Puede publicar hasta 10 composiciones de público en una zona protegida determinada. Si ha alcanzado este umbral, debe eliminar una composición para liberar espacio y publicar una nueva.
 
 ## Mecanismos de protección de gestión de decisiones {#decision-management}
 
