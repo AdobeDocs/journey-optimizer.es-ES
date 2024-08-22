@@ -191,7 +191,7 @@ El widget **[!UICONTROL Correo electrónico - Rendimiento por fecha]** ofrece un
 
 +++
 
-### Motivos del error {#email-error-reasons}
+### Motivos de error {#email-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_error_reasons"
@@ -202,7 +202,7 @@ El widget **[!UICONTROL Correo electrónico - Rendimiento por fecha]** ofrece un
 
 Los gráficos y tablas de **[!UICONTROL Motivos del error]** proporcionan una perspectiva de los errores específicos que se produjeron durante el proceso de envío en las últimas 24 horas. Esta información es valiosa para comprender la naturaleza y la frecuencia de los errores.
 
-### Motivos de la exclusión {#email-exclude-reasons}
+### Motivos excluidos {#email-exclude-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_excluded_reasons"

@@ -27,7 +27,7 @@ ht-degree: 14%
 >id="ajo_create_expression_fragment"
 >title="Selección del tipo de expresión"
 >abstract="Cree un fragmento de expresión independiente para que el contenido se pueda reutilizar en varios recorridos y campañas. Al utilizar el editor de personalización, puede aprovechar todos los fragmentos de expresiones que se han creado en la zona protegida actual."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments" text="Aprovechamiento de fragmentos de expresiones"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments" text="Aprovechamiento de fragmentos de expresiones"
 
 Los fragmentos se pueden crear desde cero desde el menú de la izquierda **[!UICONTROL Fragmentos]**. Además, también puede guardar una parte del contenido existente como fragmento al diseñar contenido. [Descubra cómo](#save-as-fragment)
 
