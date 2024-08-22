@@ -7,13 +7,11 @@ feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: integración de marketo, marketo engage
-source-git-commit: 8a8741281edafb812f92ebb8da6dd68d3535f3e1
+source-git-commit: 92591457d2189e3c43ea38c4a09d7cf565bb5d57
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 0%
+source-wordcount: '247'
+ht-degree: 4%
 
 ---
 
@@ -28,13 +26,13 @@ Empiece con un recorrido de integración de datos perfecta con Marketo Engage. E
 ## Requisitos previos {#prerequisites}
 
 * La instancia de cliente de Marketo Engage debe estar habilitada para IMS.
-* La instancia de Marketo Engage y la instancia de AEP/AJO deben estar en la misma organización de IMS. +vínculo
-* El cliente debe tener acceso a MktoSync: Ingestion Service (NOTA PARA AÑADIR AQUÍ + vínculo)
+* La instancia de Marketo Engage y la instancia de AEP/AJO deben estar en la misma organización de IMS.
+* Se debe proporcionar al cliente **MktoSync: acceso al servicio de ingesta**
 
 ## Configuración de la acción {#configure-marketo-action}
 
 * Vaya a Administración > Configuraciones > Acciones y haga clic en Administrar
-* En la lista Acciones, haga clic en Crear acción. Obtenga más información sobre la creación de acciones personalizadas aquí (+vínculo)
+* En la lista Acciones, haga clic en Crear acción. Más información sobre [Acciones personalizadas](../building-journeys/using-custom-actions.md){target="_blank"}.
 * Introduzca el nombre, la descripción y seleccione Adobe Marketo Engage como tipo de acción
 
 ![](assets/engage-customaction-creation.png){width="40%" align="left"}
@@ -111,8 +109,8 @@ Ahora puede utilizar la acción personalizada en el lienzo dedicado.
 
 ## Uso de la acción {#engage-using}
 
-* Arrastre la acción personalizada al lienzo de recorrido. (Consulte cómo utilizar una acción/vínculo personalizado)
-* En Parámetros de solicitud, haga clic en Editar para cada uno de los parámetros con valores dinámicos que haya configurado en la carga útil.
+* Arrastre la acción personalizada al lienzo de recorrido.
+* En la sección **Parámetros de solicitud**, haga clic en Editar para cada uno de los parámetros con valores dinámicos que ha configurado en la carga útil.
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}
 
