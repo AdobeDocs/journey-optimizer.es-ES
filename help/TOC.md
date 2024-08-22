@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 6a2c594d427501dee3f979a2c88355fe63bff514
 workflow-type: tm+mt
-source-wordcount: '1950'
-ht-degree: 97%
+source-wordcount: '1949'
+ht-degree: 96%
 
 ---
 
@@ -200,8 +200,8 @@ ht-degree: 97%
    + [Administrar la exclusión de correo electrónico](using/email/email-opt-out.md)
    + Configurar canal de correo electrónico {#configure-email}
       + [Empezar a configurar el correo electrónico](using/email/get-started-email-config.md)
-      + [Configuración de correo electrónico](using/email/email-settings.md)
-      + [Personalización de la configuración de superficie del correo electrónico](using/email/surface-personalization.md)
+      + [Configurar ajustes de correo electrónico](using/email/email-settings.md)
+      + [Personalizar configuración de correo electrónico](using/email/surface-personalization.md)
 + Canal en la aplicación{#in-app}
    + [Introducción al canal en la aplicación](using/in-app/get-started-in-app.md)
    + [Requisitos previos del canal en la aplicación](using/in-app/inapp-configuration.md)
@@ -230,7 +230,7 @@ ht-degree: 97%
       + [Configuración del proveedor Infobip](using/sms/sms-configuration-infobip.md)
       + [Configuración del proveedor Twilio](using/sms/sms-configuration-twilio.md)
       + [Configure un proveedor personalizado (Beta)](using/sms/sms-configuration-custom.md)
-      + [Creación de una superficie de SMS](using/sms/sms-configuration-surface.md)
+      + [Creación de una configuración de SMS](using/sms/sms-configuration-surface.md)
 + Correo directo {#direct-mail}
    + [Introducción al correo directo](using/direct-mail/get-started-direct-mail.md)
    + [Creación de un correo directo](using/direct-mail/create-direct-mail.md)
@@ -581,7 +581,7 @@ ht-degree: 97%
    + [Consultas](using/data/get-started-queries.md)
 + Configuración {#configuration}
    + [Introducción a la configuración de Journey Optimizer](using/configuration/get-started-configuration.md)
-   + [Configuración de superficies de canal](using/configuration/channel-surfaces.md)
+   + [Configuración de canales](using/configuration/channel-surfaces.md)
    + Delegación de subdominios de correo electrónico {#delegate-subdomains}
       + [Introducción a la delegación de subdominios](using/configuration/about-subdomain-delegation.md)
       + [Delegar un subdominio](using/configuration/delegate-subdomain.md)

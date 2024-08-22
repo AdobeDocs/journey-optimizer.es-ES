@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 6a2c594d427501dee3f979a2c88355fe63bff514
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 57%
@@ -147,7 +147,6 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 </tbody>
 </table>
 
-
 ### Mejoras {#8-improvements}
 
 Esta versión incorpora las mejoras que se enumeran a continuación.
@@ -167,7 +166,6 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 **Canal push**
 
 * Ahora puede añadir las credenciales push de la aplicación móvil en los ajustes de configuración del canal de Adobe Journey Optimizer. Ya no es necesario crear una superficie de aplicación en la recopilación de datos de Adobe Experience Platform.
-
 
 ### Otros cambios {#changes}
 
